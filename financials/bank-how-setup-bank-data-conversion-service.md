@@ -10,16 +10,18 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 01/02/2017
 ms.author: sgroespe
 
 ---
 # How to: Set Up the Bank Data Conversion Service
-You can export payment lines from the **Payment Journal** window to a data stream that you then upload to your bank for automatic processing so that do not have to make electronic payments individually. For more information, see [How to: Export Payments to a Bank File](payables-how-export-payments-bank-file.md).
+A global provider of services to convert payment information to any data format that your bank requires is connected and ready to be enabled in Financials. This is referred to in Financials as the bank data conversion service.
 
-A global provider of services to convert payment information to any data format that your bank requires is connected and ready to be enabled in Financials.
+You can export payment lines from the **Payment Journal** window to a file or a data stream that you then upload to your bank for automatic processing so that you do not have to make electronic payments individually. For more information, see [How to: Export Payments to a Bank File](payables-how-export-payments-bank-file.md). 
 
-As an alternative to the Envestnet Bank Data Feeds service, you can also use the bank data conversion service to have a bank statement file that you receive from your bank converted to a data stream that you can import into Financials. For more information, see [How to: Apply Payments Automatically and Reconcile Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+You can import bank statement files into the **Payment Reconciliation Journal** window by using the bank data conversion service to convert a file that you receive from your bank to a data stream that Financials can import. For more information, see [How to: Apply Payments Automatically and Reconcile Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+
+As an alternative to importing bank statements with the bank data conversion service, you can use the Envestnet Yodlee Bank Feeds service. For more information, see [How to: Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md).
 
 **Note**: The bank data conversion service may impose a limit on the number of lines that can be exported in one file. You will receive an error message if the limit is exceeded. It is recommended that bank statement files do not exceed 1000 lines as the processing time in the bank data conversion service may otherwise increase significantly.
 
@@ -56,7 +58,7 @@ You have now signed up for the bank data conversion service. Proceed to reflect 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Bank Accounts**, and then choose the related link.
 2. Open the card for a bank account that you will export or import bank files for by using the bank data conversion service.
 3. On the **Transfer** FastTab, in the **Payment Export Format** field, choose **Bank Data Conversion Service - Credit Transfer** to set up for payment export.
-4. In the **Bank Name - Data Conversion** field, enter or select the name of the bank’s data format that you signed-up for in step 4 in the “To sign up for the bank data conversion service” section.
+4. In the **Bank Name - Data Conversion** field, enter or select the name of the bank’s data format that you signed up for in step 4 in the “To sign up for the bank data conversion service” section.
 5. Repeat steps 1 through 4 for other bank accounts that will use the bank data conversion service .
 
 ## See Also

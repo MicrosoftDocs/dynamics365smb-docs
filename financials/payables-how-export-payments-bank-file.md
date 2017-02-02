@@ -10,28 +10,29 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 01/02/2017
 ms.author: sgroespe
 
 ---
 # How to: Export Payments to a Bank File
 When you are ready to make payments to your vendors using the **Payment Journal** window, you can export a file with the payment information on the journal lines. You can then upload the file to your electronic bank to process the related money transfers.
 
-In the generic version of Financials, a global provider of services to convert bank data to any file format that your bank requires is set up and connected.
+In the generic version of Financials, a global provider of services to convert bank data to any file format that your bank requires is set up and connected. In North American versions, the same service can be used to send payment files as electronic funds transfer (EFT). For more information, see from step 5 in the "To export payments to a bank file" section.    
 
-**Note**: Before you can export from a payment journal, you must enable export on the related journal batch. In addition, your bank account and the vendor’s bank account must be set up for electronic payment. For more information, see [How to: Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md).
+**Note**: Before you can export payment files from a payment journal, you must specify the electronic format and more for the involved bank account. For more information, see [How to: Set Up Bank Accounts](bank-how-setup-bank-accounts.md). In addition, you must enable the bank data conversion service. For more information, see [How to: Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md).
 
 You use the **Credit Transfer Registers** window to view the payment files that have been exported from the payment journal. From this window, you can also re-export payment files in case of technical errors or file changes.
 
 ## To export payments to a bank file
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Payment Journals**, and then choose the related link.
-2. Fill payment journal lines, for example, by using the **Suggest Vendor Payments** function. For more information, see [How to: Suggest Vendor Payments](payables-how-suggest-vendor-payments.md).  
-3. When you have completed all payment journal lines, choose **Export Payment to File**.
+2. Fill payment journal lines, for example, by using the **Suggest Vendor Payments** function. For more information, see [How to: Suggest Vendor Payments](payables-how-suggest-vendor-payments.md).
+3. Fill in the fields on the payment journal lines as necessary. Choose a field to read a short description of the field or link to more information.   
+4. When you have completed all payment journal lines, choose **Export Payment to File**.
    
     Any error messages will be shown in the **Payment File Errors** FactBox where you can also choose an error message to see detailed information. You must resolve all errors before the payment file can be exported.
    
     **Tip**: When you use the bank data conversion service, a common error message states that the bank account number does not have the length that your bank requires. To avoid or resolve the error, you must remove the value in the **IBAN** field in the **Bank Account Card** window and then, in the **Bank Account No.** field, enter a bank account number in the format that your bank requires.
-4. In the **Save As** window, specify the location that the file is exported to, and then choose **Save**.
+5. In the **Save As** window, specify the location that the file is exported to, and then choose **Save**.
 
 The bank payment file is exported to the location that you specify, and you can proceed to upload it to your electronic bank account and make the actual payments.
 

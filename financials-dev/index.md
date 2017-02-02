@@ -25,6 +25,8 @@ In this section, you can find information about developing for Dynamics 365 for 
 |Find reference documentation for Microsoft Graph integration|[Microsoft Graph Reference](graph-reference.md)|
 
 ## See Also
+<!--
 [Working With Financials](../financials/ui-work-product.md)  
 [Setting Up Financials](../financials/setup.md)  
-[Customizing Financials Using Extensions](../financials/ui-extensions.md)  
+[Customizing Financials Using Extensions](../financials/ui-extensions.md)
+-->  

@@ -29,12 +29,12 @@ The report is required to have a basic report filter (not a page or visual filte
 
 To define a filter for the report, select the primary key from the list of available fields, and then drag and drop that field into the **Report Filter** section.  
 
-[![Setting the report filter for the Sales Invoice Activity report](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter.png)]
+![Setting the report filter for the Sales Invoice Activity report](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter.png)
 
 ## Report Size and color
 The size of the report must be set to 325 pixels by 310 pixels. This is required for the proper scaling of the report in the available space allowed by the Power BI Fact Box control. To define the size of the report, place focus outside of the report layout area, and then choose the paint roller icon.
 
-[![Setting the report width and height for the Sales Invoice Activity report](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing.png)]
+![Setting the report width and height for the Sales Invoice Activity report](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing.png)
 
 You can change the width and height of the report by choosing **Custom** in the **Type** field.
 

@@ -14,7 +14,7 @@ ms.date: 02/02/2017
 ms.author: solsen
 ---
 
-# item resource type
+# vendor resource type
 
 ## Methods
 

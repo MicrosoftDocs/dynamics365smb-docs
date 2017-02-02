@@ -66,8 +66,8 @@ Each time you sign in during the trial period, a notification in a blue bar at t
 
 ## See Also
 [Working With Financials](ui-work-product.md)  
-[Set Up Dynamics 365 for Financials](setup.md)  
+[Setting Up Financials](setup.md)  
 [Finance](finance.md)  
-[Customizing Dynamics 365 for Financials Using Extensions](ui-extensions.md)  
-[Using Dynamics 365 for Financials as your Business Inbox in Outlook](madeira-outlook.md)  
-[Get Dynamics 365 for Financials on my Mobile Device](install-mobile-app.md)  
+[Customizing Financials Using Extensions](ui-extensions.md)  
+[Using Financials as my Business Inbox in Outlook](madeira-outlook.md)  
+[Getting Financials on my Mobile Device](install-mobile-app.md)  

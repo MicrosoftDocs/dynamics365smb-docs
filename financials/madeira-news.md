@@ -1,19 +1,18 @@
----
-title: What's New in Dynamics 365 for Financials| Microsoft Docs
-description: What's New in Dynamics 365 for Financials
-services: project-madeira
-documentationcenter: ''
-author: edupont04
+<properties
+	pageTitle="What's New in Dynamics 365 for Financials| Financials"
+    description="What's New in Dynamics 365 for Financials"
+	services="project-madeira"
+	documentationCenter=""
+	authors="edupont04"/>
+<tags
+    ms.service="project-madeira"
+    ms.topic="get-started-article"
+    ms.devlang="na"
+    ms.tgt_pltfrm="na"
+    ms.workload="na"
+    ms.date="01/04/2017"
+    ms.author="edupont" />
 
-ms.service: project-madeira
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.date: 01/04/2017
-ms.author: edupont
-
----
 # What's New in Dynamics 365 for Financials
 Welcome to Financials! If you haven't already, then sign up for a trial, let us walk you through the basics of what you can do with Financials, and then try things out on your own for a while. When you are ready, you can open a blank company and set things up for yourself.  
 
@@ -47,9 +46,8 @@ This update of Financials added new capabilities as [announced on the blog](http
 
 ### More flexibility in your sales processes
 This update adds more flexibility in what you sell:
-
-* You can now set up nonstock items - items that you offer to customers but do not maintain inventory for. For more information, see [How to: Work with Nonstock Items](inventory-how-work-nonstock-items.md).
-* You can now mark an item for drop shipment on a sales order and immediately create a purchase order for the item. This way, you can sell an item to a customer, purchase it from the vendor, and have it shipped directly from your vendor to your customer. For more information, see [How to: Purchase Products for a Sale](purchasing-how-purchase-products-sale.md).
+- You can now set up nonstock items - items that you offer to customers but do not maintain inventory for. For more information, see [How to: Work with Nonstock Items](inventory-how-work-nonstock-items.md).
+- You can now mark an item for drop shipment on a sales order and immediately create a purchase order for the item. This way, you can sell an item to a customer, purchase it from the vendor, and have it shipped directly from your vendor to your customer. For more information, see [How to: Purchase Products for a Sale](purchasing-how-purchase-products-sale.md).
 
 ### Categorize items in your inventory
 With this update, you can create a hierarchy of item categories and assign item attributes to each item category. For more information, see [How to: Categorize Items](inventory-how-categorize-items.md).
@@ -69,13 +67,12 @@ With this update, you'll notice such notifications display when you create a sal
 ### Introducing the new Sales and Inventory Forecast extension
 In this update, we introduce the new Sales and Inventory Forecast extension that gives you insights about potential sales and a clear overview of expected stock-outs. The extension uses [Cortana Intelligence](https://www.microsoft.com/en-us/cloud-platform/what-is-cortana-intelligence-suite) to predict future sales based on your sales history to help you avoid inventory shortage. For more information, see [Sales and Inventory Forecast](ui-extensions-sales-forecast.md).  
 
-### Smarter sales and purchase documents
+###  Smarter sales and purchase documents
 We've made several small but important improvements to sales and purchase documents:
-
-* You can cancel posted credit memos
-* Sales invoices include Package Tracking No. and Shipping Agent Code
-* You can cross reference items
-* You can substitute items
+- You can cancel posted credit memos
+- Sales invoices include Package Tracking No. and Shipping Agent Code
+- You can cross reference items
+- You can substitute items
 
 ## July 2016 Update
 This update of Financials added new capabilities as [announced on the blog](https://community.dynamics.com/business/b/financials/archive/2016/07/05/new-and-updated-capabilities-in-the-july-update-of-project-quot-madeira-quot).  
@@ -116,13 +113,14 @@ In April 2016, we launched the preview of Financials. Everything was new, and we
 
 Key scenarios to try out on your own:  
 
-* [Using Dynamics 365 for Financials as your Business Inbox in Outlook](madeira-no-outlook.md)  
-* [Get Dynamics 365 for Financials on my Mobile Device](install-mobile-app.md)  
-* [Using the Dynamics 365 for Financials Content Pack for Power BI](madeira-powerbi.md)  
-* [Changing the Role Center](change-role.md)  
+- [Using Financials as your Business Inbox in Outlook](madeira-no-outlook.md)  
+- [Getting Financials on my Mobile Device](install-mobile-app.md)  
+- [Using the Dynamics 365 for Financials Content Pack for Power BI](madeira-powerbi.md)  
+- [Changing the Role Center](change-role.md)  
+
+
 
 ## See Also
 [Welcome to Dynamics 365 for Financials](madeira-get-started.md)  
 [Working With Financials](ui-work-product.md)  
 [Dynamics 365 Roadmap](https://roadmap.dynamics.com/)  
-

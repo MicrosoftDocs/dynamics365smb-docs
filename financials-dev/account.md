@@ -10,11 +10,11 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/02/2017
+ms.date: 02/03/2017
 ms.author: solsen
 ---
 
-# item resource type
+# account resource type
 
 ## Methods
 
@@ -25,18 +25,7 @@ ms.author: solsen
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|number|string|The item number. Read-only.|
-|displayName|string|The item description. Read-only.|
-|type|numeric||
-|blocked|boolean||
-|baseUnitOfMeasure|string||
-|gtin|string||
-|itemCategoryCode|numeric||
-|inventory|numeric||
-|unitPrice|numeric||
-|priceIncludesTax|boolean||
-|unitCost|numeric||
-|taxGroupCode|numeric||
+|number|string|The account number. Read-only.|
 |lastModifiedDateTime|datetime||  
 
 

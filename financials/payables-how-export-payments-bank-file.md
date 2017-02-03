@@ -38,7 +38,7 @@ You use the **Credit Transfer Registers** window to view the payment files that 
 
 6. In the **Save As** window, specify the location that the file is exported to, and then choose **Save**.
 
-    **Note**: If you are using EFT (electronic funds transfer), save the resulting vendor remittance form as a Word document. The payments are added to the **Generate EFT File** window from where you can transmit multiple payment orders together to save transmission cost. For more information, see the following steps.
+    **Note**: If you are using EFT (electronic funds transfer), save the resulting vendor remittance form as a Word document. The payments are added to the **Generate EFT File** window from where you can export multiple payment orders together to save transmission cost. For more information, see the following steps.
 7. In the **Payment Journal** window, choose the **Generate EFT File** action.
 
     In the **Generate EFT File** window, all payments set up for EFT that you have generated from the payment journal but not yet exported are listed on the **Lines** FastTab.
@@ -49,7 +49,8 @@ The bank payment file is exported to the location that you specify, and you can 
 
 ## To export payments that represent customer refunds
 The following describes a work-around for exporting electronic refund payments.
-**Caution**: The resulting payment journal line cannot be posted, deleted, or voided.
+
+**Caution**: The resulting payment journal lines cannot be posted, deleted, or voided.
 1. Set up the customer as a vendor. Name it "Customer X for Refunds", for example. For more information, see [How to: Register New Vendors](purchasing-how-register-new-vendors.md).
 2. On the payment journal line for the customer, set the **Account Type** field to **Customer**, and the **Document Type** field to **Refund**.
 3. Perform the normal steps for payment export as described in the "To export payments to a bank file" section.
@@ -65,12 +66,12 @@ If you follow a process where you do not post payments until you have confirmati
 To see information about exported payments, choose the **Payment Export History** action.
 
 ## To re-export payments to a bank file
-You can re-export payment files from the **Credit Transfer Registers** window. Before you delete or post payment journal lines, you can also re-export the payment file from the **Payment Journal** window by simply exporting it again.
+You can re-export payment files from the **Credit Transfer Registers** window. Before you delete or post payment journal lines, you can also re-export the payment file from the **Payment Journal** window by simply exporting it again. If you have deleted or posted the payment journal lines after exporting them, you can re-export the same payment file from the **Credit Transfer Registers** window. Select the line for the batch of credit transfers that you want to re-export, and then use the **Reexport Payments to File** action.
 
-If you have deleted or posted the payment journal lines after exporting them, you can re-export the same payment file from the **Credit Transfer Registers** window. Select the line for the batch of credit transfers that you want to re-export, and then use the **Reexport Payments to File** action.
+1. In the top right corner, choose the **Search for Page or Report** icon, enter **Credit Transfer Registers**, and then choose the related link.
+2. Select a payment export that you want to re-export, and then choose the **Reexport Payment to File** action.
 
 ## See Also
 [Payables](payables-manage-payables.md)  
-[Purchasing](purchasing-manage-purchasing.md)
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  
 [Working With Financials](ui-work-product.md)

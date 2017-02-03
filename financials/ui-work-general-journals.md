@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/26/2017
+ms.date: 02/03/2017
 ms.author: edupont
 
 ---
@@ -24,9 +24,11 @@ The information that you enter in a journal is temporary and can be changed whil
 ## Journal templates and batches
 There are several general journal templates. Each journal template is represented by a dedicated window with particular functions and the fields that are required to support those functions, such as the **Payment Reconciliation Journal** window to process bank payments and the **Payment Journal** window to pay your vendors.
 
+**Note**: If you export payment files to your bank from the payment journal, you must select the **Allow Payment Export** check box for the journal batch in question in the **General Journal Batches** window. For more information, see [How to: Export Payments to a Bank File](payables-how-export-payments-bank-file.md).
+
 For each journal template, you can set up your own personal journal as a journal batch. For example, you can define your own journal batch for the payment journal that has your personal layout and settings.
 
-**Note**: An example of a personal setting that you can define on your general journal batch is to have the system help you fill amount fields. If you select the **Suggest Balancing Amount** check box on the line for your batch in the **General Journal Batches** window, then the **Amount** field on, for example, general journal lines for the same document number is automatically prefilled with the value that is required to balance the document. For more information, see [Letting Financials Suggest Values](ui-let-system-suggest-values.md).
+An example of a personal setting that you can define on your general journal batch is to have the system help you fill amount fields. If you select the **Suggest Balancing Amount** check box on the line for your batch in the **General Journal Batches** window, then the **Amount** field on, for example, general journal lines for the same document number is automatically prefilled with the value that is required to balance the document. For more information, see [Letting Financials Suggest Values](ui-let-system-suggest-values.md).
 
 ## Main accounts and balancing accounts
 If you have set up default balancing accounts for the journal batches, the balancing account will be filled in automatically when you fill in the **Account No.** field. Otherwise, fill in both the **Account No.** field and the **Bal. Account No.** field manually. A positive amount in the **Amount** field is debited to the main account and credited to the balancing account. A negative amount is credited to the main account and debited to the balancing account.
@@ -40,4 +42,3 @@ A recurring journal is a general journal with specific fields for managing trans
 [How to: Use Allocation Keys in General Journals](ui-how-use-allocation-keys-general-journals.md)  
 [Finance](finance.md)  
 [Working With Financials](ui-work-product.md)
-

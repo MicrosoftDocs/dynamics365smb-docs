@@ -24,7 +24,7 @@ In this section, you can find API documentation for Microsoft Graph.
 |vendor resource type|[vendor](vendor.md)|
 |salesInvoice resource type|[salesInvoice](salesInvoice.md)|
 |salesInvoiceLine resource type|[salesInvoiceLine](salesInvoiceLine.md)|
-|journal resource type|[journal](journal.md)|
+|journalLine resource type|[journalLine](journalLine.md)|
 |account resource type|[account](account.md)|
 
 ## See Also

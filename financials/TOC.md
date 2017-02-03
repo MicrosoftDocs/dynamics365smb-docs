@@ -11,6 +11,7 @@
 
 # Tips and Tricks
 ## [Working With Financials](ui-work-product.md)
+## [Getting Ready for Doing Business](ui-get-ready-business)
 ## [Using Search for Page or Report](ui-search.md)
 ## [Changing Basic Settings](ui-change-basic-settings.md)
 ## [How to: Change the Role Center](change-role.md)

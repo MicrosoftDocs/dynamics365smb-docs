@@ -64,7 +64,7 @@ The **Absence Overview by Categories Matrix** window opens showing all employees
 The **Abs. Overview by Periods Matrix** window opens showing employee absences broken down by periods.
 
 ## See Also
-[Manage Human Resources](hr-manage-human resources.md)  
+[Manage Human Resources](hr-manage-human-resources.md)  
 [Finance](finance.md)  
 [Working With Financials](ui-work-product.md)  
 [Customizing the Dynamics 365 for Financials Experience](ui-experiences.md)

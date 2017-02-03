@@ -25,8 +25,19 @@ ms.author: solsen
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
+|id|||
 |number|string|The account number. Read-only.|
-|lastModifiedDateTime|datetime||  
+|displayName|||
+|category|||
+|balance|||
+|blocked|||
+|lastModifiedDateTime|||
+|debitBalance|||
+|creditBalance|||
+|type|||
+|debitOrCredit|||
+|subCategory|||
+|directPosting|||
 
 
 ## Relationships

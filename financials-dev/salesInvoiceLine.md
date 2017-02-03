@@ -25,8 +25,20 @@ ms.author: solsen
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|number|string|The item number. Read-only.|
-|lastModifiedDateTime|datetime||  
+|sequence|||
+|name|||
+|description|||
+|quantity|||
+|unitPrice|||
+|discountAmount|||
+|discountPercent|||
+|lineAmount|||
+|expectedShipDate|||
+|totalTaxAmount|||
+|totalChargeAmount|||
+|itemNumber|||
+|taxPercentage|||
+
 
 
 ## Relationships

@@ -25,8 +25,23 @@ ms.author: solsen
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
+|id||
 |number|string|The item number. Read-only.|
-|lastModifiedDateTime|datetime||  
+|invoiceDate||
+|customerPurchaseOrderReference||
+|totalAmount||
+|customerNumber||
+|paymentTerms||
+|shippingMethod||
+|salesPerson||
+|discountAmount||
+|totalDiscountAmount||
+|totalDiscountPercent||
+|customerContact||
+|salesOrder||
+|status||
+|draft||
+|billingPostalAddress||  
 
 
 ## Relationships

@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/15/2016
+ms.date: 02/03/2017
 ms.author: SorenGP
 
 ---
@@ -21,8 +21,6 @@ You can view employee absence in two different windows:
 
 * The **Absence Registration** window, where you register all employee absences with a line for each absence.
 * The **Employee Absences** window, where the absences for one employee only is shown. This is the information that you entered in the **Absence Registration** window, filtered by the particular employee.
-
-**Note**: This functionality requires that your experience is set to **Suite**. For more information, see [Customizing the Dynamics 365 for Financials Experience](ui-experiences.md).
 
 To obtain meaningful statistics, you should always use the same unit of measure (hour or day) when registering employee absences.
 
@@ -70,4 +68,3 @@ The **Abs. Overview by Periods Matrix** window opens showing employee absences b
 [Finance](finance.md)  
 [Working With Financials](ui-work-product.md)  
 [Customizing the Dynamics 365 for Financials Experience](ui-experiences.md)
-

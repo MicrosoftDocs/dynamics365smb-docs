@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/23/2016
+ms.date: 02/03/2017
 ms.author: SorenGP
 
 ---
@@ -18,8 +18,6 @@ ms.author: SorenGP
 To use the Human Resources functionality, you must first register each employee by creating a card with all the core and related information.
 
 You can modify an employee's details at any time. Keeping up-to-date records about your employees simplifies personnel tasks. For example, if an employee's address changes, you register this on the employee card.
-
-**Note**: This functionality requires that your experience is set to **Suite**. For more information, see [Customizing the Dynamics 365 for Financials Experience](ui-experiences.md).
 
 The following procedures describe how to create an initial employee card and how to assign two types of employee details to an employee. In addition, you can assign various other related information, such as qualifications and causes of inactivity. You assign employee information either by choosing a field or an action in the **Employee Card** window.
 
@@ -51,5 +49,4 @@ You can use alternate addresses to keep track of your employees’ location, for
 ## See Also
 [Finance](finance.md)  
 [Working With Financials](ui-work-product.md)  
-[Customizing the Dynamics 365 for Financials Experience](ui-experiences.md) 
-
+[Customizing the Dynamics 365 for Financials Experience](ui-experiences.md)

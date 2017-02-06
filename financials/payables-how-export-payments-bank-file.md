@@ -28,7 +28,7 @@ You use the **Credit Transfer Registers** window to view the payment files that 
 2. Fill payment journal lines, for example, by using the **Suggest Vendor Payments** function. For more information, see [How to: Suggest Vendor Payments](payables-how-suggest-vendor-payments.md).
 3. Fill in the fields on the payment journal lines as necessary. Choose a field to read a short description of the field or link to more information.
 
-    **Note**: For EFT, you must select either **Electronic Payment** or **Electronic Payment–IAT** in the **Bank Payment Type** field.
+    **Note**: If you are using EFT, you must select either **Electronic Payment** or **Electronic Payment–IAT** in the **Bank Payment Type** field.
 
     Different file export services and their formats require different setup values in the **Bank Account Card** and **Vendor Bank Account Card** windows. You will be informed about wrong or missing setup values as you try to export the file. For example,
 
@@ -48,7 +48,7 @@ You use the **Credit Transfer Registers** window to view the payment files that 
 8. Choose the **Generate EFT File** action to export one file for all the EFT payments.
 9. In the **Save As** window, specify the location that the file is exported to, and then choose **Save**.
 
-The bank payment file is exported to the location that you specify, and you can proceed to upload it to your electronic bank account and make the actual payments. Then you can post the exported payment journal lines. 
+The bank payment file is exported to the location that you specify, and you can proceed to upload it to your electronic bank account and make the actual payments. Then you can post the exported payment journal lines.
 
 ## To export payments that represent customer refunds
 The following describes a work-around for exporting electronic refund payments.

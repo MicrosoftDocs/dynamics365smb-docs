@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/17/2016
+ms.date: 02/03/2017
 ms.author: sgroespe
 
 ---
@@ -33,7 +33,7 @@ You can fill vendor fields on the purchase invoice in two ways depending on whet
 
 ## To create a purchase invoice
 1. On the Home page, choose the **Purchase Invoice** action.  
-2. In the **Vendor** field, enter the name of an existing customer.
+2. In the **Vendor** field, enter the name of an existing vendor.
    
     Other fields in the **Purchase Invoice** window are now filled with the standard information of the selected vendor. If the vendor is not registered, then follow these steps:
 3. In the **Vendor** field, enter the name of the new vendor.

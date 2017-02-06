@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/06/2016
+ms.date: 02/03/2017
 ms.author: SorenGP
 
 ---
@@ -19,7 +19,7 @@ In Financials, you can keep detailed records of your employees. You can register
 
 You can also register employee absences, which allows you to analyze registered absences as necessary.
 
-[Customizing the Dynamics 365 for Financials Experience](ui-experiences.md)
+**Note**: This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your Financials Experience](ui-experiences.md).
 
 To start using the Human Resources functionality, you must set up employees and other basic information. You can then associate various codes to an employee, which allows you to filter information for specific employees.
 
@@ -34,4 +34,3 @@ The following table describes a sequence of tasks, with links to the topics that
 [Finance](finance.md)  
 [Working With Financials](ui-work-product.md)  
 [Customizing the Dynamics 365 for Financials Experience](ui-experiences.md)        
-

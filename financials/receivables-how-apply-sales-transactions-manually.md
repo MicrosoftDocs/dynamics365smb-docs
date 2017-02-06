@@ -10,12 +10,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/16/2017
+ms.date: 02/02/2017
 ms.author: sgroespe
 
 ---
 # How to: Apply Customer Payments Manually
 When you receive a cash receipt from a customer, or you make a cash refund, you must decide whether to apply the payment or refund to close one or more open debit or credit entries. You can specify the amount you want to apply. For example, you can apply partial payments to customer ledger entries. Closing customer ledger entries makes sure that information such as customer statistics, account statements, and finance charges are correct.
+
+**Note**: In the **Customer Ledger Entries** window, red font means that the related payment is past its due date.
 
 You can apply customer ledger entries in several ways:
 

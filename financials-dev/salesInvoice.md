@@ -10,11 +10,11 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/02/2017
+ms.date: 02/03/2017
 ms.author: solsen
 ---
 
-# item resource type
+# salesInvoice resource type
 
 ## Methods
 
@@ -25,19 +25,23 @@ ms.author: solsen
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
+|id||
 |number|string|The item number. Read-only.|
-|displayName|string|The item description. Read-only.|
-|type|numeric||
-|blocked|boolean||
-|baseUnitOfMeasure|string||
-|gtin|string||
-|itemCategoryCode|numeric||
-|inventory|numeric||
-|unitPrice|numeric||
-|priceIncludesTax|boolean||
-|unitCost|numeric||
-|taxGroupCode|numeric||
-|lastModifiedDateTime|datetime||  
+|invoiceDate||
+|customerPurchaseOrderReference||
+|totalAmount||
+|customerNumber||
+|paymentTerms||
+|shippingMethod||
+|salesPerson||
+|discountAmount||
+|totalDiscountAmount||
+|totalDiscountPercent||
+|customerContact||
+|salesOrder||
+|status||
+|draft||
+|billingPostalAddress||  
 
 
 ## Relationships

@@ -10,25 +10,28 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/03/2017
+ms.date: 02/04/2017
 ms.author: sgroespe
 
 ---
 # How to: Export Payments to a Bank File
 When you are ready to make payments to your vendors using the **Payment Journal** window, you can export a file with the payment information on the journal lines. You can then upload the file to your electronic bank to process the related money transfers.
 
-In the generic version of Financials, a global provider of services to convert bank data to any file format that your bank requires is set up and connected. In North American versions, the same service can be used to send payment files as electronic funds transfer (EFT). For more information, see step 6 in the "To export payments to a bank file" section.    
+In the generic version of Financials, a global provider of services to convert bank data to any file format that your bank requires is set up and connected. In North American versions, the same service can be used to send payment files as electronic funds transfer (EFT), however with a slightly different process. See step 6 in the "To export payments to a bank file" section.    
 
 **Note**: Before you can export payment files from the payment journal, you must specify the electronic format for the involved bank account, and you must enable the bank data conversion service. For more information, see [How to: Set Up Bank Accounts](bank-how-setup-bank-accounts.md) and [How to: Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md). In addition, you must select the **Allow Payment Export** check box in the **General Journal Batches** window. For more information, see [Working with General Journals](ui-work-general-journals.md).  
 
-You use the **Credit Transfer Registers** window to view the payment files that have been exported from the payment journal. From this window, you can also re-export payment files in case of technical errors or file changes.
+You use the **Credit Transfer Registers** window to view the payment files that have been exported from the payment journal. From this window, you can also re-export payment files in case of technical errors or file changes. Note, however, that exported EFT files are not shown in this window and cannot be re-exported.  
 
 ## To export payments to a bank file
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Payment Journals**, and then choose the related link.
 2. Fill payment journal lines, for example, by using the **Suggest Vendor Payments** function. For more information, see [How to: Suggest Vendor Payments](payables-how-suggest-vendor-payments.md).
 3. Fill in the fields on the payment journal lines as necessary. Choose a field to read a short description of the field or link to more information.
 
-    **Note**: Different file export services and their formats require different setup values in the **Bank Account Card** and **Vendor Bank Account Card** windows. You will be informed about wrong or missing setup values as you try to export the file.  
+    **Note**: For EFT, you must select either **Electronic Payment** or **Electronic Payment–IAT** in the **Bank Payment Type** field.
+
+    Different file export services and their formats require different setup values in the **Bank Account Card** and **Vendor Bank Account Card** windows. You will be informed about wrong or missing setup values as you try to export the file. For example,
+
 4. When you have completed all payment journal lines, choose the **Export** action.
 5. In the **Export Electronic Payments** window, fill in the fields as necessary.
 
@@ -38,14 +41,14 @@ You use the **Credit Transfer Registers** window to view the payment files that 
 
 6. In the **Save As** window, specify the location that the file is exported to, and then choose **Save**.
 
-    **Note**: If you are using EFT (electronic funds transfer), save the resulting vendor remittance form as a Word document. The payments are added to the **Generate EFT File** window from where you can export multiple payment orders together to save transmission cost. For more information, see the following steps.
+    **Note**: If you are using EFT, save the resulting vendor remittance form as a Word document or select to have it emailed directly to the vendor. The payments are now added to the **Generate EFT File** window from where you can generate multiple payment orders together to save transmission cost. For more information, see the following steps.
 7. In the **Payment Journal** window, choose the **Generate EFT File** action.
 
-    In the **Generate EFT File** window, all payments set up for EFT that you have generated from the payment journal but not yet exported are listed on the **Lines** FastTab.
+    In the **Generate EFT File** window, all payments set up for EFT that you have exported from the payment journal for a specified bank account but not yet generated are listed on the **Lines** FastTab.
 8. Choose the **Generate EFT File** action to export one file for all the EFT payments.
 9. In the **Save As** window, specify the location that the file is exported to, and then choose **Save**.
 
-The bank payment file is exported to the location that you specify, and you can proceed to upload it to your electronic bank account and make the actual payments. When you receive confirmation that the payments are successfully processed in the bank, you can post the exported payment journal lines.
+The bank payment file is exported to the location that you specify, and you can proceed to upload it to your electronic bank account and make the actual payments. Then you can post the exported payment journal lines. 
 
 ## To export payments that represent customer refunds
 The following describes a work-around for exporting electronic refund payments.
@@ -67,6 +70,8 @@ To see information about exported payments, choose the **Payment Export History*
 
 ## To re-export payments to a bank file
 You can re-export payment files from the **Credit Transfer Registers** window. Before you delete or post payment journal lines, you can also re-export the payment file from the **Payment Journal** window by simply exporting it again. If you have deleted or posted the payment journal lines after exporting them, you can re-export the same payment file from the **Credit Transfer Registers** window. Select the line for the batch of credit transfers that you want to re-export, and then use the **Reexport Payments to File** action.
+
+**Note**: Exported EFT files are not shown in the **Credit Transfer Registers** window and cannot be re-exported.
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Credit Transfer Registers**, and then choose the related link.
 2. Select a payment export that you want to re-export, and then choose the **Reexport Payment to File** action.

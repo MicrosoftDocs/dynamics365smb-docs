@@ -22,20 +22,20 @@ Each campaign consists of various activities or to-dos. Activities are large tas
 ## Defining individual campaigns
 Before you can create a campaign, you must set up *campaign status codes*. Using these codes will help you manage your campaigns by assigning a status to the campaign. As you work through the stages of a campaign, you are able to see what step a campaign is at and what step comes next. You set up campaign status codes in the **Campaign status** window.
 
-You can create a campaign card for each campaign that you want to keep track of. You can also view these campaign cards to view general information about your campaigns. When you have set up the sales prices/line discounts and the segments on the campaign card, you must activate them so that the campaign prices/discounts will be reflected on the lines.
-
-> [!NOTE]  
->  In order to activate the sales prices/line discounts, the Campaign Target field on the Segment card must be selected. If the sales prices/line discounts covers all the contacts in the segment, select the Campaign Target field on the Campaign FastTab of the Segment card. If the sales prices/line discounts are not to be offered to all the contacts in the segment, you can clear the Campaign Target field for the lines in question.
-
+You can create a *campaign card* for each campaign that you want to keep track of. You can also view these campaign cards to view general information about your campaigns.
 You can delete campaign entries, such as if the entry records an action that has been canceled. Only canceled campaign entries can be deleted.
 
-## Selecting the target audience
-After you have created a campaign, you can start creating segments that specify the target audience of the campaign. You create segments to select a group of contacts according to specific criteria. For example, the industry that the contacts belong to or your business relationship with the contacts. You can create a segment to select the contacts you want to target with a campaign.
+### Selecting the target audience
+After you have created a campaign, you can start creating segments that specify the target audience of the campaign. For more information, see [Managing Segments](marketing-segments.md).
 
-There are two steps in creating a segment:
+### Register discount percentages
+When you have set up your campaign, decided what segments you want the campaign to cover, and set the starting and ending dates, you register the discount percentage that the customer will receive on the individual items on the lines in the **Sales Line Discounts** window. You can also register the sales prices for the individual items on the lines in the **Sales Prices** window. You can access both windows from the campaign card.
 
--   Enter general information about the segment  
--   Select the contacts to be included within the segment  
+ When you have set up the sales prices/line discounts and the segments on the campaign card, you must activate them so that the campaign prices/discounts will be reflected on the lines.
+
+> [!NOTE]  
+>  In order to activate the sales prices/line discounts, you must specify if the whole segment or only some contacts are targets of the campaign. If the sales prices/line discounts covers all the contacts in the segment, select the **Campaign Target** field on the Campaign FastTab of the Segment card.
+If the sales prices/line discounts are not to be offered to all the contacts in the segment, you can clear the Campaign Target field for the lines in question.
 
 ## Conducting campaigns
 As a campaign runs, all interactions with your contacts, or segment, are recorded so that you can get statistics and other information about the costs and success rates of the campaign.
@@ -44,5 +44,6 @@ Campaigns are conducted by salespeople, and you must create activities to repres
 
 ## See Also
 [Managing Contacts](marketing-contacts.md)  
+[Managing Segments](marketing-segments.md)  
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
 [Working With Financials](ui-work-product.md)  

@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 02/07/2017
 ms.author: sgroespe
 
 ---
@@ -27,6 +27,7 @@ Finance-related sales setup, such as payment methods and currencies, are covered
 
 | To | See |
 | --- | --- |
+| Create a customer card for each customer that you sell to. |[How to: Register New Customers](sales-how-register-new-customers.md) |
 | Enable customers to pay through PayPal by choosing the PayPal logo on sales documents. |[How to: Enable Customer Payment Through PayPal](sales-how-enable-customer-payments-paypal.md) |
 | Enter the different discounts and alternative prices that you grant the customers depending on item, quantities, and/or date. |[How to: Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md) |
 | Set up salespeople so that you can assign them to customer contacts or measure salespeople's performance as a basis for calculating the sales commission or bonus. |[How to: Set Up Salespeople](sales-how-setup-salespeople.md) |
@@ -36,4 +37,3 @@ Finance-related sales setup, such as payment methods and currencies, are covered
 ## See Also
 [Sales](sales-manage-sales.md)  
 [Working With Financials](ui-work-product.md)
-

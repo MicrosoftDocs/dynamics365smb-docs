@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 02/07/2017
 ms.author: sgroespe
 
 ---
@@ -27,6 +27,7 @@ Finance-related purchase setup, such as payment methods and currencies, are cove
 
 | To | See |
 | --- | --- |
+| Create a vendor card for each vendor that you purchase from. |[How to: Register New Vendors](purchasing-how-register-new-vendors.md) |
 | Enter the different discounts and alternative prices that vendors grant you depending on item, quantities, and/or date. |[How to: Record Purchase Price, Discount, and Payment Agreements](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
 | Prioritize vendors. |[How to: Prioritize Vendors](purchasing-how-prioritize-vendors.md) |
 | Set up purchasers. |[How to: Set Up Purchasers](purchasing-how-setup-purchasers.md) |
@@ -34,4 +35,3 @@ Finance-related purchase setup, such as payment methods and currencies, are cove
 ## See Also
 [Purchasing](purchasing-manage-purchasing.md)  
 [Working With Financials](ui-work-product.md)
-

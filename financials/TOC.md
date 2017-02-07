@@ -1,5 +1,5 @@
 # [Getting Started](index.md)
-## [System Requirements](madeira-requirements.md)
+## [System Requirements](financials-requirements.md)
 ## [Frequently Asked Questions](across-faq.md)
 ## [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md)
 ## [Importing Business Data from Other Finance Systems](upload-data.md)

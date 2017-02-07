@@ -1,5 +1,5 @@
 ---
-title: Minimum Requirements for Using Dynamics 365 for Financials | Microsoft Docs
+title: Minimum requirements for using Dynamics 365 for Financials | Microsoft Docs
 description: System requirements for using Dynamics 365 for Financials
 services: project-madeira
 documentationcenter: ''
@@ -10,7 +10,7 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/28/2016
+ms.date: 07/02/2017
 ms.author: edupont
 
 ---
@@ -36,4 +36,3 @@ Before you access Financials, we recommend that you verify that your computer or
 
 ## See Also
 [Welcome to Dynamics 365 for Financials](madeira-get-started.md)  
-

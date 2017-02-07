@@ -1,0 +1,48 @@
+---
+title: Set up marketing campaigns in Financials | Microsoft Docs
+description: Describes how you can set up and conduct marketing campaigns in Dynamics 365 for Financials
+services: project-madeira
+documentationcenter: ''
+author: edupont04
+
+ms.service: project-madeira
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.date: 02/07/2017
+ms.author: edupont
+
+---
+# Managing Marketing Campaigns
+Having a strong marketing plan in place enables you to identify, attract, and retain customers. A marketing plan consists of various campaigns and other interactions in connection with your sales and marketing activities. While planning a campaign, you need to decide which contacts to target, what type of campaign (such as trade show or direct mail), and what salespeople will perform each task.
+
+Each campaign consists of various activities or to-dos. Activities are large tasks that can be broken down into several smaller tasks or to-dos. To-dos are individual or team tasks that can be created within activities or individually and then be assigned to individual salespeople or groups of salespeople.
+
+## Defining individual campaigns
+Before you can create a campaign, you must set up *campaign status codes*. Using these codes will help you manage your campaigns by assigning a status to the campaign. As you work through the stages of a campaign, you are able to see what step a campaign is at and what step comes next. You set up campaign status codes in the **Campaign status** window.
+
+You can create a campaign card for each campaign that you want to keep track of. You can also view these campaign cards to view general information about your campaigns. When you have set up the sales prices/line discounts and the segments on the campaign card, you must activate them so that the campaign prices/discounts will be reflected on the lines.
+
+> [!NOTE]  
+>  In order to activate the sales prices/line discounts, the Campaign Target field on the Segment card must be selected. If the sales prices/line discounts covers all the contacts in the segment, select the Campaign Target field on the Campaign FastTab of the Segment card. If the sales prices/line discounts are not to be offered to all the contacts in the segment, you can clear the Campaign Target field for the lines in question.
+
+You can delete campaign entries, such as if the entry records an action that has been canceled. Only canceled campaign entries can be deleted.
+
+## Selecting the target audience
+After you have created a campaign, you can start creating segments that specify the target audience of the campaign. You create segments to select a group of contacts according to specific criteria. For example, the industry that the contacts belong to or your business relationship with the contacts. You can create a segment to select the contacts you want to target with a campaign.
+
+There are two steps in creating a segment:
+
+-   Enter general information about the segment  
+-   Select the contacts to be included within the segment  
+
+## Conducting campaigns
+As a campaign runs, all interactions with your contacts, or segment, are recorded so that you can get statistics and other information about the costs and success rates of the campaign.
+
+Campaigns are conducted by salespeople, and you must create activities to represent each task and assign them to the relevant salespeople.  
+
+## See Also
+[Managing Contacts](marketing-contacts.md)  
+[Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
+[Working With Financials](ui-work-product.md)  

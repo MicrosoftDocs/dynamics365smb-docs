@@ -56,7 +56,22 @@ Here is a JSON representation of the resource.
 
 ```json
 {
-  
+      "id": "GUID",
+      "number": "String",
+      "displayName": "String",
+      "address": {NAV.PostalAddress}
+      "phoneNumber": "String",
+      "email": "String",
+      "website": "String",
+      "taxRegistrationNumber": "String",
+      "currencyCode": "String",
+      "irs1099Code": "String",
+      "paymentTerms": {NAV.PaymentTerms},
+      "paymentMethod": {NAV.PaymentMethod},
+      "taxLiable": Boolean,
+      "blocked": "String",
+      "balance": decimal,
+      "lastModifiedDateTime": "DateTime",
 }
 
 ```

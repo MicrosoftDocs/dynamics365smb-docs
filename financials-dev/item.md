@@ -20,10 +20,10 @@ ms.author: solsen
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|Get item|item||
-|Create item|item||
-|Update item|item||
-|Delete item|none|
+|Get item|item|Get item object.|
+|Create item|item|Create item object.|
+|Update item|item|Update item object.|
+|Delete item|none|Delete item object.|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -54,7 +54,20 @@ Here is a JSON representation of the resource.
 
 ```json
 {
-  
+      "id": "GUID",
+      "number": "string",
+      "displayName": "string",
+      "type": "String",
+      "blocked": boolean,
+      "baseUnitOfMeasure": {NAV.UnitOfMeasure},
+      "gtin": "String",
+      "itemCategory": NAV.ItemCategory,
+      "inventory": Decimal,
+      "unitPrice": Decimal,
+      "priceIncludesTax": Boolean,
+      "unitCost": Decimal,
+      "taxGroupCode": "String",
+      "lastModifiedDateTime": "DateTime",
 }
 
 ```

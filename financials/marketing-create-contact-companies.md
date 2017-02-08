@@ -30,10 +30,9 @@ The following table describes a sequence of tasks, with links to the topics that
 | Describe the business relationship of a company contact. |[Set Up Business Relations on Contacts Companies](marketing-business-relations.md) |
 | Place a contact company in the appropriate industry group, for example, retail. |[Set Up Industry Groups on Contact Companies](marketing-industry-groups.md) |
 | Set up the mailing groups that you can use to identify groups of contacts that you want to receive the same information. |[Set Up Mailing Groups on Contact Companies](marketing-mailing-groups.md) |
-| Set up an alternative address for a contact. |[How to: Assign Alternative Addresses to a Contact](marketing-how-assign-alternative-address.md) |
+| Set up an alternate address for a contact. |[How to: Assign Alternative Addresses to a Contact](marketing-how-assign-alternate-address.md) |
 | Assign Web sources (search engines and Web sites) to your contacts to indicate where on the Internet you intend to search for information about the contacts. |[Set Up Web Sources on Contacts](marketing-web-sources.md) |
 
 ## See Also
 [Create Contact Persons](marketing-create-contact-persons.md)   
 [Working With Financials](ui-work-product.md)
-

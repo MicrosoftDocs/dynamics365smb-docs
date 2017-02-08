@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/01/2017
+ms.date: 02/08/2017
 ms.author: solsen
 ---
 
@@ -20,13 +20,17 @@ ms.author: solsen
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-||||
+|Get item|item||
+|Create item|item||
+|Update item|item||
+|Delete item|none|
 
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|number|string|The item number. Read-only.|
-|displayName|string|The item description. Read-only.|
+|number|string|The item number.|
+|displayName|string|The item description.|
+|id|string||
 |type|numeric||
 |blocked|boolean||
 |baseUnitOfMeasure|string||

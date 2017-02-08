@@ -20,9 +20,7 @@ When you post inventory transactions, such as sales shipments, purchase invoices
 Even though inventory costs are automatically posted to the general ledger, it is still necessary to ensure that the costs of goods are forwarded to the related outbound sales transaction, especially in situations where you sell goods before you invoice the purchase of those goods. This is referred to as cost adjustment, which you can perform manually or set up to happen automatically when you post an item transaction. For more information, see [How to: Adjust Item Costs](inventory-how-adjust-item-costs.md).
 
 ## See Also
-[How to: Record Special Sales Prices and Discounts](sales-how-record-sales-price-discount-payment-agreements.md)  
-[How to: Record Special Purchase Prices and Discounts](purchasing-how-record-purchase-price-discount-payment-agreements.md)  
-[Setting Up Sales](sales-setup-sales.md)  
-[Sales](sales-manage-sales.md)  
-[Working With Financials](ui-work-product.md)
+[Inventory](inventory-manage-inventory.md)  
+[Details: Best Price Calculation](details-best-price-calculation.md) 
+
 

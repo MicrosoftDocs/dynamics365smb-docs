@@ -121,6 +121,7 @@
 ## [How to: Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)
 ## [How to: Revalue Inventory](inventory-how-revalue-inventory.md)
 ## [How to: Adjust Item Costs](inventory-how-adjust-item-costs.md)
+## [Details: Inventory Reconciliation](details-inventory-reconciliation.md)
 
 # [Relationship Management](marketing-relationship-management.md)
 ## [Setting Up Relationship Management](marketing-setup-marketing.md)[
@@ -169,3 +170,4 @@
 
 # Details - Advanced Functionality
 ## [Details: Best Price Calculation](details-best-price-calculation.md)
+## [Details: Inventory Reconciliation](details-inventory-reconciliation.md)

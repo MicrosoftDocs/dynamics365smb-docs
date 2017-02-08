@@ -23,7 +23,7 @@ To increase your overview of items and to help you find them, you can categorize
 
 You must ensure that the costs of your items are forwarded to the related outbound sales transaction, especially in situations where you sell goods before you invoice the purchase of those items. This is referred to as cost adjustment, which you can perform manually or set up to happen automatically when you post an item transaction.
 
-To reconcile changes in inventory value from trade in your financial books, the inventory costs are automatically posted to the related inventory accounts in the general ledger. For more information, see [Details: Inventory Reconciliation](details-inventory-reconciliation.md). 
+Changes in inventory value from trade are automatically reconciled with your financial books when you post item transactions. 
 
 **Note**: In Financials, a product is referred to using the term “item”.
 
@@ -38,6 +38,7 @@ To reconcile changes in inventory value from trade in your financial books, the 
 |Transfer inventory items between locations with transfer orders, to manage warehouse activities, or with the item reclassification journal.|[How to: Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)|
 |Appreciate or depreciate the value of one or more items in inventory by posting their current, calculated value.|[How to: Revalue Inventory](inventory-how-revalue-inventory.md)|
 |Adjust item costs, either automatically or manually, to forward cost changes from inbound entries to their related outbound entries.|[How to: Adjust Item Costs](inventory-how-adjust-item-costs.md)|
+|Learn how changes in inventory value from trade are automatically reconciled with your financial books.|[Details: Inventory Reconciliation](details-inventory-reconciliation.md).|
 
 ## See Also  
 [Purchasing](purchasing-manage-purchasing.md)  

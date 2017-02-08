@@ -169,3 +169,4 @@
 
 # Details - Advanced Functionality
 ## [Details: Best Price Calculation](details-best-price-calculation.md)
+## [Details: Inventory Reconciliation](details-inventory-reconciliation.md)

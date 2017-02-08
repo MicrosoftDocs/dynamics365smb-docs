@@ -11,20 +11,19 @@
     ms.devlang="na"
     ms.tgt_pltfrm="na"
     ms.workload="na"
-    ms.date="01/30/2017"
+    ms.date="02/08/2017"
     ms.author="sgroespe" />
 
 # Inventory
 For each physical product that you trade in you must create an item card of type Inventory. Items that you offer to customers but do not keep in inventory you can register as nonstock items, which you can convert to inventory items when necessary. You can increase or decrease the quantity of an item in inventory by posting directly to the item ledger entries, for example, after a physical count or if you do not record purchases.
 
-Inventory increases and decreases are naturally also recorded when you post purchase and sales documents respectively. For more information, see [How to: Record Purchases](purchasing-how-record-purchases.md), [How to: Sell Products](sales-how-sell-products.md), and [How to: Invoice Sales](sales-how-invoice-sales.md).
+Inventory increases and decreases are naturally also recorded when you post purchase and sales documents respectively. For more information, see [How to: Record Purchases](purchasing-how-record-purchases.md), [How to: Sell Products](sales-how-sell-products.md), and [How to: Invoice Sales](sales-how-invoice-sales.md). Transfers between locations changes inventory quantities across your company's warehouses.   
 
 To increase your overview of items and to help you find them, you can categorize items and give them attributes to search and sort by.
 
-## Inventory Reconciliation
-When you post inventory transactions, such as sales shipments, purchase invoices, or inventory adjustments, the changed item costs are recorded in item value entries. To reflect this change of inventory value in your financial books, the inventory costs are automatically posted to the related inventory accounts in the general ledger. For each inventory transaction that you post, the appropriate values are posted to the inventory account, adjustment account, and COGS account in the general ledger.
+You must ensure that the costs of your items are forwarded to the related outbound sales transaction, especially in situations where you sell goods before you invoice the purchase of those items. This is referred to as cost adjustment, which you can perform manually or set up to happen automatically when you post an item transaction.
 
-Even though inventory costs are automatically posted to the general ledger, it is still necessary to ensure that the costs of goods are forwarded to the related outbound sales transaction, especially in situations where you sell goods before you invoice the purchase of those goods. This is referred to as cost adjustment, which you can perform manually or set up to happen automatically when you post an item transaction. For more information, see [How to: Adjust Item Costs](inventory-how-adjust-item-costs.md).   
+Changes in inventory value from trade are automatically reconciled with your financial books when you post item transactions. 
 
 **Note**: In Financials, a product is referred to using the term “item”.
 
@@ -39,6 +38,7 @@ Even though inventory costs are automatically posted to the general ledger, it i
 |Transfer inventory items between locations with transfer orders, to manage warehouse activities, or with the item reclassification journal.|[How to: Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)|
 |Appreciate or depreciate the value of one or more items in inventory by posting their current, calculated value.|[How to: Revalue Inventory](inventory-how-revalue-inventory.md)|
 |Adjust item costs, either automatically or manually, to forward cost changes from inbound entries to their related outbound entries.|[How to: Adjust Item Costs](inventory-how-adjust-item-costs.md)|
+|Learn how changes in inventory value from trade are automatically reconciled with your financial books.|[Details: Inventory Reconciliation](details-inventory-reconciliation.md).|
 
 ## See Also  
 [Purchasing](purchasing-manage-purchasing.md)  

@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 08/30/2016
+ms.date: 02/07/2017
 ms.author: sgroespe
 
 ---
@@ -53,4 +53,3 @@ The following table describes a sequence of tasks, with links to the topics that
 [Supply Chain](madeira-supply-chain.md)      
 [Working With Financials](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)
-

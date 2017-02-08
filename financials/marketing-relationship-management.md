@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/28/2016
+ms.date: 07/02/2017
 ms.author: jswymer
 
 ---
@@ -24,6 +24,7 @@ To get started, see the following topics:
 [Managing Contacts](marketing-contacts.md)  
 [Managing Segments](marketing-segments.md)  
 [Recording Interactions](marketing-interactions.md)  
+[Managing Marketing Campaigns](marketing-campaigns.md)  
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)
 
 ## See Also
@@ -31,4 +32,3 @@ To get started, see the following topics:
 [Setting Up Relationship Management](marketing-setup-marketing.md)  
 [Managing your Customer Relationships Using Dynamics 365 for Sales from Inside Financials](marketing-integrate-dynamicscrm.md)  
 [Working With Financials](ui-work-product.md)  
-

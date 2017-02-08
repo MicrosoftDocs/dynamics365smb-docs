@@ -120,10 +120,11 @@
 ## [How to: Adjust Item Costs](inventory-how-adjust-item-costs.md)
 
 # [Relationship Management](marketing-relationship-management.md)
-## [Setting Up Relationship Management](marketing-setup-marketing.md)[
+## [Setting Up Relationship Management](marketing-setup-marketing.md)
 ## [Managing Contacts](marketing-contacts.md)
 ## [Managing Segments](marketing-segments.md)
 ## [Recording Interactions](marketing-interactions.md)
+## [Managing Marketing Campaigns](marketing-campaigns.md)  
 ## [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)
 ## [Managing Your Customer Relationships Using Dynamics 365 for Sales from Inside Financials](marketing-integrate-dynamicscrm.md)
 

@@ -45,6 +45,5 @@ When you create a journal line, document header, or document line, you can speci
 
 ## See Also
 [Finance](finance.md)  
-[Set Up Dimensions](finance-setup-dimensions.md)  
+[Setting Up Dimensions](finance-setup-dimensions.md)  
 [Working With Financials](ui-work-product.md)  
-

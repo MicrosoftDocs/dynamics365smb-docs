@@ -1,6 +1,6 @@
 ---
 title: Setting Up Inventory| Microsoft Docs
-description: Describes how to set up inventory processes, such as locations and transbfer routes.
+description: Describes how to set up inventory processes, such as locations and transfer routes.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/23/2016
+ms.date: 02/10/2017
 ms.author: SorenGP
 
 ---
@@ -27,7 +27,8 @@ When you have set up your inventory, you can manage various inventory processes.
 | --- | --- |
 | Define the general inventory setup, such as number series and how to use locations. |[How to: Set Up General Inventory Information](inventory-setup-general.md) |
 | Organize your inventory at multiple locations, including transfer routes. |[How to: Set Up Locations](inventory-how-register-new-products.md) |
-| Create item cards for inventory items that you trade in. |[How to: Register New Products](inventory-how-register-new-products.md). |
+| Create item cards for inventory items that you trade in. |[How to: Register New Products](inventory-how-register-new-products.md) |
+| Assign items to categories and give them attributes to help you and customers find items. |[How to: Categorize Items](inventory-how-categorize-items.md) |
 
 ## See Also
 [Managing Inventory](inventory-manage-inventory.md)  
@@ -36,4 +37,3 @@ When you have set up your inventory, you can manage various inventory processes.
 [Supply Chain](madeira-supply-chain.md)  
 [Working With Financials](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)
-

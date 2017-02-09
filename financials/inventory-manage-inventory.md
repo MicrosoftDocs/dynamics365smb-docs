@@ -38,7 +38,7 @@ Changes in inventory value from trade are automatically reconciled with your fin
 |Transfer inventory items between locations with transfer orders, to manage warehouse activities, or with the item reclassification journal.|[How to: Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)|
 |Appreciate or depreciate the value of one or more items in inventory by posting their current, calculated value.|[How to: Revalue Inventory](inventory-how-revalue-inventory.md)|
 |Adjust item costs, either automatically or manually, to forward cost changes from inbound entries to their related outbound entries.|[How to: Adjust Item Costs](inventory-how-adjust-item-costs.md)|
-|Learn how changes in inventory value from trade are automatically reconciled with your financial books.|[Details: Inventory Reconciliation](details-inventory-reconciliation.md).|
+|Learn how changes in inventory value from trade are automatically reconciled with your financial books.|[Advanced: Inventory Reconciliation](details-inventory-reconciliation.md).|
 
 ## See Also  
 [Purchasing](purchasing-manage-purchasing.md)  

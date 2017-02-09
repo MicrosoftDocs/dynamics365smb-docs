@@ -17,7 +17,7 @@ ms.author: sgroespe
 # How to: Record Special Sales Prices and Discounts
 The different price and discount agreements that apply when selling to different customers must be defined so that the agreed rules and values are applied to sales documents that you create for the customers.
 
-When you have recorded special prices and line discounts for sales and purchases, Financials ensures that your profit on item trade is always optimal by automatically calculating the best price on sales and purchase documents and on job and item journal lines. For more information, see [Details: Best Price Calculation](details-best-price-calculation.md).
+When you have recorded special prices and line discounts for sales and purchases, Financials ensures that your profit on item trade is always optimal by automatically calculating the best price on sales and purchase documents and on job and item journal lines. For more information, see [Advanced: Best Price Calculation](details-best-price-calculation.md).
 
 Concerning prices, you can have a special sales price inserted on sales lines if a certain combination of customer, item, minimum quantity, unit of measure, or starting/ending date exists.
 
@@ -65,7 +65,7 @@ When you have decided which customers are eligible for invoice discounts, enter 
 The invoice discount is now set up and assigned to the customer in question. When you select the customer code in the **Invoice Disc. Code** field on other customer cards, the same invoice discount is assigned to those customers.
 
 ## See Also
-[Details: Best Price Calculation](details-best-price-calculation.md)  
+[Advanced: Best Price Calculation](details-best-price-calculation.md)  
 [Setting Up Sales](sales-setup-sales.md)  
 [Sales](sales-manage-sales.md)  
 [Working With Financials](ui-work-product.md)

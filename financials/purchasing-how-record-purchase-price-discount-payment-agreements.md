@@ -17,7 +17,7 @@ ms.author: sgroespe
 # How to: Record Special Purchase Prices and Discounts
 The different price and discount agreements that apply when you buy from different vendors must be defined so that the agreed rules and values are applied to purchase documents that you create for the vendors.
 
-When you have recorded special prices and line discounts for sales and purchases, Financials ensures that your profit on item trade is always optimal by automatically calculating the best price on sales and purchase documents and on job and item journal lines. For more information, see [Details: Best Price Calculation](details-best-price-calculation.md).
+When you have recorded special prices and line discounts for sales and purchases, Financials ensures that your profit on item trade is always optimal by automatically calculating the best price on sales and purchase documents and on job and item journal lines. For more information, see [Advanced: Best Price Calculation](details-best-price-calculation.md).
 
 Concerning prices, you can have a special purchase price inserted on purchase lines if a certain combination of vendor, item, minimum quantity, unit of measure, or starting/ending date exists.
 
@@ -65,7 +65,7 @@ When your vendors have informed you which invoice discounts they grant, enter th
 The invoice discount is now set up and assigned to the vendor in question. When you select the vendor code in the **Invoice Disc. Code** field on other vendor cards, the same invoice discount is assigned to those vendor.
 
 ## See Also
-[Details: Best Price Calculation](details-best-price-calculation.md)  
+[Advanced: Best Price Calculation](details-best-price-calculation.md)  
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Working With Financials](ui-work-product.md)

@@ -25,7 +25,7 @@ When you have set up your inventory, you can manage various inventory processes.
 
 | To | See |
 | --- | --- |
-| Define the general inventory setup, such as number series and how to use locations. |[How to: Set Up General Inventory Information](inventory-setup-general.md) |
+| Define the general inventory setup, such as number series and how to use locations. |[How to: Set Up General Inventory Information](inventory-how-setup-general.md) |
 | Organize your inventory at multiple locations, including transfer routes. |[How to: Set Up Locations](inventory-how-register-new-products.md) |
 | Create item cards for inventory items that you trade in. |[How to: Register New Products](inventory-how-register-new-products.md) |
 | Assign items to categories and give them attributes to help you and customers find items. |[How to: Categorize Items](inventory-how-categorize-items.md) |

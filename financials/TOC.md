@@ -49,6 +49,7 @@
 ### [How to: Set Up General Inventory Information](inventory-how-setup-general.md)
 ### [How to: Set Up Locations](inventory-how-register-new-products.md)
 ### [How to: Register New Products](inventory-how-register-new-products.md)
+### [How to: Categorize Items](inventory-how-categorize-items.md)
 ## [Setting Up Project Management](projects-setup-projects.md)
 ### [How to: Set Up Resources](projects-how-setup-resources.md)
 ### [How to: Set Up Time Sheets](projects-how-setup-time-sheets.md)
@@ -168,6 +169,6 @@
 ### [How to: Set Up Incoming Documents](across-how-setup-income-documents.md)
 ### [Processing Incoming Documents](across-process-income-documents.md)
 
-# Details - Advanced Functionality
+# Advanced - Additional Information
 ## [Advanced: Best Price Calculation](advanced-best-price-calculation.md)
 ## [Advanced: Inventory Reconciliation](advanced-inventory-reconciliation.md)

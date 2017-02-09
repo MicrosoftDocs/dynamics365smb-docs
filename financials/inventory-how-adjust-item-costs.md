@@ -27,7 +27,7 @@ You can adjust item costs in two ways:
 * Automatically, by having the system adjusted any cost changes every time that inventory transactions occur.  
 * Manually, by running the **Adjust Cost - Item Entries** batch job for one or more items when you know that their costs have changed.
 
-Changes in inventory value from trade are automatically reconciled with your financial books when you post item transactions. For more information, see [Advanced: Inventory Reconciliation](details-inventory-reconciliation.md).
+Changes in inventory value from trade are automatically reconciled with your financial books when you post item transactions. For more information, see [Advanced: Inventory Reconciliation](advanced-inventory-reconciliation.md).
 
 ## To adjust item costs automatically
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Inventory Setup**, and then  choose the related link.
@@ -48,7 +48,7 @@ Changes in inventory value from trade are automatically reconciled with your fin
 2. In the **Adjust Cost - Item Entries** window, specify which items to adjust costs for and whether the adjusted costs will be posted to the general ledger at the same time.
 
 ## See Also
-[Advanced: Inventory Reconciliation](details-inventory-reconciliation.md)  
+[Advanced: Inventory Reconciliation](advanced-inventory-reconciliation.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  

@@ -27,7 +27,7 @@ Finance-related purchase setup, such as payment methods and currencies, are cove
 | --- | --- |
 | Create a vendor card for each vendor that you purchase from. |[How to: Register New Vendors](purchasing-how-register-new-vendors.md) |
 | Enter the different discounts and special prices that vendors grant you depending on item, quantities, and/or date. |[How to: Record Purchase Price, Discount, and Payment Agreements](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
-|Learn how Financials automatically optimizes your profit on trade when you record special price/discount agreements.|[Advanced: Best Price Calculation](details-best-price-calculation.md) | 
+|Learn how Financials automatically optimizes your profit on trade when you record special price/discount agreements.|[Advanced: Best Price Calculation](advanced-best-price-calculation.md) | 
 | Prioritize vendors. |[How to: Prioritize Vendors](purchasing-how-prioritize-vendors.md) |
 | Set up purchasers. |[How to: Set Up Purchasers](purchasing-how-setup-purchasers.md) |
 

@@ -35,14 +35,14 @@
 ### [How to: Register New Customers](sales-how-register-new-customers.md)
 ### [How to: Enable Customer Payments Through PayPal](sales-how-enable-customer-payments-paypal.md)
 ### [How to: Record Special Sales Prices and Discounts](sales-how-record-sales-price-discount-payment-agreements.md)
-### [Advanced: Best Price Calculation](details-best-price-calculation.md)
+### [Advanced: Best Price Calculation](advanced-best-price-calculation.md)
 ### [How to: Set Up Salespeople](sales-how-setup-salespeople.md)
 ### [How to: Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md)
 ### [How to: Send Documents by Email](ui-how-send-documents-email.md)
 ## [Setting Up Purchasing](purchasing-setup-purchasing.md)
 ### [How to: Register New Vendors](purchasing-how-register-new-vendors.md)
 ### [How to: Record Special Purchase Prices and Discounts](purchasing-how-record-purchase-price-discount-payment-agreements.md)
-### [Advanced: Best Price Calculation](details-best-price-calculation.md)
+### [Advanced: Best Price Calculation](advanced-best-price-calculation.md)
 ### [How to: Prioritize Vendors](purchasing-how-prioritize-vendors.md)
 ### [How to: Set Up Purchasers](purchasing-how-setup-purchasers.md)
 ## [Setting Up Inventory](inventory-setup-inventory.md)
@@ -101,7 +101,7 @@
 ## [How to: How to: Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md)
 ## [How to: Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md)
 ## [How to: Register New Customers](sales-how-register-new-customers.md)
-## [Advanced: Best Price Calculation](details-best-price-calculation.md)
+## [Advanced: Best Price Calculation](advanced-best-price-calculation.md)
 
 # [Purchasing](purchasing-manage-purchasing.md)
 ## [How to: Record Purchases](purchasing-how-record-purchases.md)
@@ -109,7 +109,7 @@
 ## [How to: Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)
 ## [How to: Process Purchase Returns or Cancellations](purchasing-how-register-new-vendors.md)
 ## [How to: Register New Vendors](purchasing-how-register-new-vendors.md)
-## [Advanced: Best Price Calculation](details-best-price-calculation.md)
+## [Advanced: Best Price Calculation](advanced-best-price-calculation.md)
 
 # [Inventory](inventory-manage-inventory.md)
 ## [How to: Register New Products](inventory-how-register-new-products.md)
@@ -121,7 +121,7 @@
 ## [How to: Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)
 ## [How to: Revalue Inventory](inventory-how-revalue-inventory.md)
 ## [How to: Adjust Item Costs](inventory-how-adjust-item-costs.md)
-## [Advanced: Inventory Reconciliation](details-inventory-reconciliation.md)
+## [Advanced: Inventory Reconciliation](advanced-inventory-reconciliation.md)
 
 # [Relationship Management](marketing-relationship-management.md)
 ## [Setting Up Relationship Management](marketing-setup-marketing.md)[
@@ -169,5 +169,5 @@
 ### [Processing Incoming Documents](across-process-income-documents.md)
 
 # Details - Advanced Functionality
-## [Advanced: Best Price Calculation](details-best-price-calculation.md)
-## [Advanced: Inventory Reconciliation](details-inventory-reconciliation.md)
+## [Advanced: Best Price Calculation](advanced-best-price-calculation.md)
+## [Advanced: Inventory Reconciliation](advanced-inventory-reconciliation.md)

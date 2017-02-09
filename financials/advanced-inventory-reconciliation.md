@@ -21,6 +21,6 @@ Even though inventory costs are automatically posted to the general ledger, it i
 
 ## See Also
 [Inventory](inventory-manage-inventory.md)  
-[Advanced: Best Price Calculation](details-best-price-calculation.md) 
+[Advanced: Best Price Calculation](advanced-best-price-calculation.md) 
 
 

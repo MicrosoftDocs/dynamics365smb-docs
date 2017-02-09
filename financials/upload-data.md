@@ -1,5 +1,5 @@
 ---
-title: Migrate Business Data from Other Finance Systems| Microsoft Docs
+title: Migrating Business Data from Other Finance Systems| Microsoft Docs
 description: Describes how you can import your own data into Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
@@ -30,5 +30,4 @@ The assisted setup includes an option to change the default configuration of the
 ## See Also
 [Finance](finance.md)  
 [Customizing Dynamics 365 for Financials Using Extensions](ui-extensions.md)   
-[Set Up Dynamics 365 for Financials](setup.md)
-
+[Setting Up Financials](setup.md)

@@ -159,7 +159,7 @@
 
 # General Business Functionality
 ## [How to: Send Documents by Email](ui-how-send-documents-email.md)
-## [Managing Report Layouts](ui-manage-report-layouts.md)
+## [Managing Report and Document Layouts](ui-manage-report-layouts.md)
 ## [Working with General Journals](ui-work-general-journals.md)
 ## [How to: Use Allocation Keys in General Journals](ui-how-use-allocation-keys-general-journals.md)
 ## [Scheduling a Report to Run](ui-schedule-report.md)

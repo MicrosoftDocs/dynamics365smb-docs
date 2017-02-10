@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 02/10/2017
 ms.author: solsen
 
 ---
@@ -24,7 +24,7 @@ In particular, a report layout sets up the following:
 * The company logo and its position.
 * General page settings, such as margins and background images.
 
-A Financials can be set up with multiple report layouts, which you can switch among as required. You can use one of the built-in report layouts or you can create custom report layouts and assign them to your reports as needed.
+A Financials can be set up with multiple report layouts, which you can switch among as required. You can use one of the built-in report layouts or you can create custom report layouts and assign them to your reports as needed. For more information, see [How to: Create a Custom Report or Document Layout](ui-how-create-custom-report-layout.md). 
 
 There are two types of report layouts that you can use on reports; Word and RDLC.
 

@@ -31,7 +31,7 @@ Some functionality, either general or for specific business processes, can be se
 | Set up resources, time sheets, and jobs to manage projects. |[Setting Up Project Management](projects-setup-projects.md) |
 | Configure how to insure, maintain, and depreciate fixed assets, and how you record the costs of fixed assets in your company books. |[Setting Up Fixed Assets](fa-setup.md) |
 | Set up unique identification codes for records, such as cards, documents, and journal lines, to track them in the system. |[Create Number Series](ui-create-number-series.md) |
-| Set up **SMTP Mail Setup** window to send and receive emails from documents within Financials. |[How to: Set up Email](madeira-how-setup-email.md) |
+| Set up the **SMTP Mail Setup** window to send and receive emails from documents within Financials. |[How to: Set up Email](madeira-how-setup-email.md) |
 
 ## See Also
 [Finance](finance.md)  
@@ -39,4 +39,3 @@ Some functionality, either general or for specific business processes, can be se
 [Purchasing](purchasing-manage-purchasing.md)  
 [Working With Financials](ui-work-product.md)  
 [Welcome to Dynamics 365 for Financials](madeira-get-started.md)  
-

@@ -20,7 +20,7 @@ ms.author: solsen
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-||||
+|Get account|||
 
 ## Properties
 | Property	   | Type	|Description|
@@ -50,7 +50,7 @@ Here is a JSON representation of the resource.
 
 ```json
 {
-  
+
 }
 
 ```

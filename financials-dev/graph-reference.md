@@ -10,7 +10,7 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/03/2017
+ms.date: 02/10/2017
 ms.author: solsen
 
 ---
@@ -26,6 +26,7 @@ In this section, you can find API documentation for Microsoft Graph.
 |salesInvoiceLine resource type|[salesInvoiceLine](salesInvoiceLine.md)|
 |journalLine resource type|[journalLine](journalLine.md)|
 |account resource type|[account](account.md)|
+|complex types JSON|[Complex Types JSON](complex-types.md)|
 
 ## See Also
 [Working With Financials](../financials/ui-work-product.md)  

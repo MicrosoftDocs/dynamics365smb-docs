@@ -14,8 +14,10 @@ ms.date: 02/10/2017
 ms.author: solsen
 
 ---
-# Managing Report Layouts
-A report layout controls content and format of the report, including which data fields of a report dataset appear on the report and how they are arranged, text style, images, and more. From the Financials clients, you can change which layout is used on a report, create new layout, or modify the existing layouts.
+# Managing Report and Document Layouts
+A report layout controls content and format of the report, including which data fields of a report dataset appear on the report and how they are arranged, text style, images, and more. From Financials, you can change which layout is used on a report, create new layout, or modify the existing layouts.
+
+**Note**: ,In Financials, the term "report" also covers externally-facing documents, such as sales invoices and order confirmations that you send to customers as PDF files. 
 
 In particular, a report layout sets up the following:
 
@@ -50,6 +52,6 @@ For information on how to change which layout to use, see [How to: Change Which 
 
 ## See Also
 [Working With Financials](ui-work-product.md)  
-[How to: Create a Custom Report Layout](ui-how-create-custom-report-layout.md)  
+[How to: Create a Custom Report or Document Layout](ui-how-create-custom-report-layout.md)  
 [How to: Send Documents by Email](ui-how-send-documents-email.md)
 

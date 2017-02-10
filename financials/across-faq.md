@@ -32,7 +32,7 @@ Financials is fully integrated with Office 365 so that you can navigate freely b
 Yes, but depending on how you signed up to Financials, your data can be deleted or preserved. For more information, see [Canceling Dynamics 365 for Financials](madeira-cancel.md).  
 
 ## Where do I go if I have questions?
-If you have questions about Financials that you can't find an answer for in [the Learn articles](http://go.microsoft.com/fwlink/?LinkID=784954), you can ask the [Dynamics 365, Business edition community](https://community.dynamics.com/business). Also, our Support team post tips and tricks [on their blog](blogs.msdn.microsoft.com/dyn365finsupport).  
+If you have questions about Financials that you can't find an answer for in [the Learn articles](http://go.microsoft.com/fwlink/?LinkID=784954), you can ask the [Dynamics 365, Business edition community](https://community.dynamics.com/business). Also, our Support team post tips and tricks [on their blog](https://blogs.msdn.microsoft.com/dyn365finsupport).  
 
 ## Is it possible to extend my 30-day “New Company” trial period?
 Yes. If you want to extend your trial, you should contact Microsoft at 1-888-477-7989 (US) or 1-800-741-9206 (Canada). NOTE:  It may take up to 2 business days to complete the trial extension process.  

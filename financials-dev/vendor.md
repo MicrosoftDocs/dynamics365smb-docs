@@ -28,24 +28,22 @@ ms.author: solsen
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
+|id|GUID|The vendor id.|
 |number|string|The vendor number.|
 |displayName|string|The vendor description.|
-|address|string|The vendor's address.|
-|address2|string|The vendor's address.|
-|city|string|The city of the address.|
-|state|string|The state of the address.|
-|countryRegionCode|numeric|The country/region of the address.|
+|address|complex|The vendor's address.|
 |zipCode|numeric|The zip code of the address.|
-|phoneNumber|numeric|The vendor's telephone number.|
+|phoneNumber|string|The vendor's telephone number.|
 |email|string|The vendor's email address.|
 |website|string|The vendor's website address.|
 |taxRegistrationNumber|string|The vendor's tax registration number.|
-|currencyCode|numeric|The default currency code for the vendor.|
-|paymentTerms|numeric|The default payment terms for the vendor.|
-|paymentMethod|numeric|The default payment method for the vendor.|
+|currencyCode|string|The default currency code for the vendor.|
+|irs1099Code|string||
+|paymentTerms|complex|The default payment terms for the vendor.|
+|paymentMethod|complex|The default payment method for the vendor.|
 |taxLiable|boolean|Specifies if the vendor is liable for tax.|
-|blocked|boolean|Specifies which transactions with the vendor that cannot be posted.|
-|balance|numeric|The vendor's balance.|
+|blocked|string|Specifies which transactions with the vendor that cannot be posted.|
+|balance|decimal|The vendor's balance.|
 |lastModifiedDateTime|datetime||  
 
 

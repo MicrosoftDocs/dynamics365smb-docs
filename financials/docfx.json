@@ -28,7 +28,9 @@
     ],
     "overwrite": [],
     "externalReference": [],
-    "globalMetadata": {},
+    "globalMetadata": {
+	"searchScope": ["Financials"]
+	},
     "fileMetadata": {},
     "template": [],
     "dest": "financialssmb"

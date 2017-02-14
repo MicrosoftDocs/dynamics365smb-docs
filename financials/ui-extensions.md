@@ -10,8 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/20/2016
-ms.author: edupont04
+ms.date: 02/17/2017
+ms.author: edupont
 
 ---
 # Customizing Dynamics 365 for Financials Using Extensions
@@ -27,6 +27,7 @@ You manage the extensions in the **Extension Management** window. You can access
 
 ## Installing an Extension
 You can get new extensions from the marketplace at [AppSource.microsoft.com](https://appsource.microsoft.com/). Here, you can see all available extensions for Financials, and you can get apps, extensions, and content packs for other Microsoft products. Set the relevant filters, take a look at the information for each extension, and get an extension for your Financials.  
+
 **Note**: Sign in to [AppSource.microsoft.com](https://appsource.microsoft.com/) using the email account that you use for Financials. Use the same email account for other services and products for a smooth experience.  
 
 You can also get to the marketplace from inside Financials. In the **Extension Management** window, you can see the extensions that are currently installed, and you can open the **Extension Marketplace** page that shows the Financials extensions that are currently available in AppSource. If you choose the *More apps* link, you are taken to [AppSource.microsoft.com](https://appsource.microsoft.com/).  
@@ -46,9 +47,9 @@ Microsoft provides the following extensions:
 * [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)  
 * [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)  
 * [QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md)  
-* [Sales and Inventory Forecast](ui-extensions-sales-forecast.md)
-* [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
-* [Quickbooks Payroll File Import](ui-extensions-quickbooks-payroll.md)
+* [Sales and Inventory Forecast](ui-extensions-sales-forecast.md)  
+* [Ceridian Payroll](ui-extensions-ceridian-payroll.md)  
+* [Quickbooks Payroll File Import](ui-extensions-quickbooks-payroll.md)  
 
 ## See Also
 [How to: Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)  
@@ -56,4 +57,3 @@ Microsoft provides the following extensions:
 [Migrate Business Data from Other Finance Systems](upload-data.md)  
 [Dynamics 365 for Financials Extensions by Other Providers](ui-extensions-other.md)  
 [Welcome to Dynamics 365 for Financials](madeira-get-started.md)  
-

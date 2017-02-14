@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/03/2017
+ms.date: 02/14/2017
 ms.author: edupont
 
 ---
@@ -25,7 +25,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | --- | --- |
 | Choose how you pay your vendors. |[Payment Methods](finance-payment-methods.md) |
 | Set up fiscal periods. |[How to: Open a New Fiscal Year](finance-how-open-new-fiscal-year.md) |
-| Set up additional currencies if you have international trade. |[Set Up Currencies](finance-setup-currencies.md) |
+| Set up or update additional currencies if you perform international trade. |[How to: Update Currency Exchange Rates](finance-how-update-currencies.md) |
 | Set up unique identification codes. |[Create Number Series](ui-create-number-series.md) |
 | Add dimensions for richer business intelligence. |[Set Up Dimensions](finance-setup-dimensions.md) |
 | Add new accounts to the existing chart of accounts. |[Set Up the Chart of Accounts](finance-setup-chart-accounts.md) |

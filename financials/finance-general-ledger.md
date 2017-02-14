@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/08/2016
+ms.date: 02/14/2017
 ms.author: edupont
 
 ---
@@ -24,7 +24,7 @@ In the **General Ledger Setup** window, you specify how to handle certain accoun
 
 * Invoice rounding details  
 * Address formats  
-* Whether to use an additional reporting currency  
+* Financial reporting  
 
 Similarly, in the **General Posting Setup** window, you specify how you want to set up combinations of general business and general product posting groups. Posting groups map entities like customers, vendors, items, resources, and sales and purchase documents to general ledger accounts. You fill in a line for each combination of business posting group and product posting group. For more information, see [Posting Group Setups](finance-posting-groups.md)  
 
@@ -59,4 +59,3 @@ The next time you generate account schedules your balance statement will show a 
 [Finance](finance.md)  
 [Setting Up or Changing the Chart of Accounts](finance-setup-chart-accounts.md)  
 [Account Schedules](finance-account-schedule.md)  
-

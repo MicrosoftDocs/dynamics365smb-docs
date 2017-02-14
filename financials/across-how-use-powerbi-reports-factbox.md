@@ -70,5 +70,5 @@ Verify that the report size is set to 325 pixels x 310 pixels. Save the report, 
 ## See Also
 [Using Dynamics 365 for Financials as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)
 [Welcome to Dynamics 365 for Financials](madeira-get-started.md)  
-[Set Up Dynamics 365 for Financials](setup.md)  
+[Setting Up Financials](setup.md)  
 [Finance](finance.md)  

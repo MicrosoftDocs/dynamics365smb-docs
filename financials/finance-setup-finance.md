@@ -29,7 +29,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | Set up unique identification codes. |[Create Number Series](ui-create-number-series.md) |
 | Add dimensions for richer business intelligence. |[Set Up Dimensions](finance-setup-dimensions.md) |
 | Add new accounts to the existing chart of accounts. |[Set Up the Chart of Accounts](finance-setup-chart-accounts.md) |
-| Set up business intelligence (BI) charts to analyze cash flow. |[Setting Up Cash Flow Analyses](finance-setup-cash-flow-analyses.md) |
+| Set up business intelligence (BI) charts to analyze cash flow. |[Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md) |
 
 ## See Also
 [Managing Bank Accounts](bank-manage-bank-accounts.md)  
@@ -37,4 +37,3 @@ The following table describes a sequence of tasks, with links to the topics that
 [Migrate Business Data from Other Finance Systems](upload-data.md)  
 [Analyzing Cash Flow in Your Company](finance-analyze-cash-flow.md)  
 [Working With Financials](ui-work-product.md)  
-

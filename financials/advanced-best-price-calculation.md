@@ -1,5 +1,5 @@
 ---
-title: 'Details: Best Price Calculation| Microsoft Docs'
+title: 'Advanced: Best Price Calculation| Microsoft Docs'
 description: 'Describes how the use of special prices and line discounts ensures that your profit on trade is always optimal.'
 services: project-madeira
 documentationcenter: ''
@@ -14,10 +14,10 @@ ms.date: 02/08/2017
 ms.author: sgroespe
 
 ---
-# Details: Best Price Calculation
+# Advanced: Best Price Calculation
 When you have recorded special prices and line discounts for sales and purchases, Financials ensures that your profit on item trade is always optimal by automatically calculating the best price on sales and purchase documents and on job and item journal lines.
 
-The best price is the lowest permissible price with the highest permissible line discount on a given date. Financials automatically calculates this when it inserts the unit price and the line discount percentage for items on new document and journal lines. 
+The best price is the lowest permissible price with the highest permissible line discount on a given date. Financials automatically calculates this when it inserts the unit price and the line discount percentage for items on new document and journal lines.
 
 **Note**: The following describes how the best price is calculated for sales. The calculation is the same for purchases.
 
@@ -31,7 +31,7 @@ The best price is the lowest permissible price with the highest permissible line
 2. Financials checks if any price/discount agreements apply to information on the document or journal line, and then inserts the applicable unit price and line discount percentage, using the following criteria:
 
     - Is there a minimum quantity requirement in the price/discount agreement that is fulfilled?
-    - Is there a currency requirement in the price/discount agreement that is fulfilled? If so, the lowest price and the highest line discount for that currency are inserted, even if LCY would provide a better price. If there is no price/discount agreement for the specified currency code, Financials inserts the lowest price and the highest line discount in LCY. 
+    - Is there a currency requirement in the price/discount agreement that is fulfilled? If so, the lowest price and the highest line discount for that currency are inserted, even if LCY would provide a better price. If there is no price/discount agreement for the specified currency code, Financials inserts the lowest price and the highest line discount in LCY.
 
 If no special price can be calculated for the item on the line, then either the last direct cost or the unit price from the item card is inserted.
 
@@ -41,4 +41,3 @@ If no special price can be calculated for the item on the line, then either the 
 [Setting Up Sales](sales-setup-sales.md)  
 [Sales](sales-manage-sales.md)  
 [Working With Financials](ui-work-product.md)
-

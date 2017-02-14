@@ -1,5 +1,5 @@
 ---
-title: Set Up Dimensions| Microsoft Docs
+title: Setting Up Dimensions| Microsoft Docs
 description: You can define the dimensions and dimension values you want to use to categorize journals and documents, such as sales orders and purchase orders.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 12/08/2016
 ms.author: bholtorf
 
 ---
-# Set Up Dimensions
+# Setting Up Dimensions
 You can define the dimensions and dimension values to categorize journals and documents, such as sales orders and purchase orders. You set up dimensions in the **Dimensions** window, where you create one line for each dimension, such as *Project*, *Department*, *Area*, and *Salesperson*.
 
 You also set up values for dimensions. For example, values might be departments in your company. Dimension values can be set up in a hierarchical structure similar to the chart of accounts, so that data can be broken down into various levels of granularity, and subsets of dimension values can be totaled. You can define as many dimensions and dimension values as you need, and everyone in your company can use them.
@@ -76,4 +76,3 @@ With this set up, you can start adding dimensions to documents and journals. For
 [Dimensions](finance-dimensions.md)  
 [Setting Up Finance](finance-setup-finance.md)  
 [Working With Financials](ui-work-product.md)
-

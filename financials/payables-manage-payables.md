@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/27/2016
+ms.date: 02/14/2017
 ms.author: sgroespe
 
 ---
@@ -27,7 +27,7 @@ The following table describes a sequence of tasks within accounts payable, with 
 | --- | --- |
 | Generate due vendor payments prioritized according to payment discounts and overdue penalties. Optionally, export the payments to a bank file when posting. |[Make Payments](payables-make-payments.md) |
 | Apply vendor payments automatically to unpaid purchase invoices by importing a bank statement file. |[Apply Payments Automatically and Reconcile Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
-| Apply vendor payments to unpaid purchase invoices manually. |[How to: Apply Vendor Payments Manually](payables-how-apply-purchase-transactions-manually.md) |
+| Apply vendor payments to unpaid purchase invoices manually. |[How to: Reconcile Vendor Payments Manually](payables-how-apply-purchase-transactions-manually.md) |
 
 ## See Also
 [Purchasing](purchasing-manage-purchasing.md)  

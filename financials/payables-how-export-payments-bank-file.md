@@ -17,7 +17,7 @@ ms.author: sgroespe
 # How to: Export Payments to a Bank File
 When you are ready to make payments to your vendors using the **Payment Journal** window, you can export a file with the payment information on the journal lines. You can then upload the file to your electronic bank to process the related money transfers.
 
-In the generic version of Financials, a global provider of services to convert bank data to any file format that your bank requires is set up and connected. In North American versions, the same service can be used to send payment files as electronic funds transfer (EFT), however with a slightly different process. See step 6 in the "To export payments to a bank file" section.    
+In the generic version of [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], a global provider of services to convert bank data to any file format that your bank requires is set up and connected. In North American versions, the same service can be used to send payment files as electronic funds transfer (EFT), however with a slightly different process. See step 6 in the "To export payments to a bank file" section.    
 
 **Note**: Before you can export payment files from the payment journal, you must specify the electronic format for the involved bank account, and you must enable the bank data conversion service. For more information, see [How to: Set Up Bank Accounts](bank-how-setup-bank-accounts.md) and [How to: Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md). In addition, you must select the **Allow Payment Export** check box in the **General Journal Batches** window. For more information, see [Working with General Journals](ui-work-general-journals.md).  
 
@@ -79,4 +79,4 @@ You can re-export payment files from the **Credit Transfer Registers** window. B
 ## See Also
 [Payables](payables-manage-payables.md)  
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  
-[Working With Financials](ui-work-product.md)
+[Working With [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)

@@ -27,7 +27,7 @@ You can easily correct or cancel a posted purchase invoice before you pay the ve
 
 Products can be both inventory items and services. For more information, see [How to: Register New Products](inventory-how-register-new-products.md). The purchase invoice process is the same for both product types.
 
-**Note**: Purchase order functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your Financials Experience](ui-experiences.md).
+**Note**: Purchase order functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 
 You can fill vendor fields on the purchase invoice in two ways depending on whether the vendor is already registered.
 
@@ -70,5 +70,5 @@ The purchase is now reflected in inventory and financial records, and the vendor
 [How to: Purchase Products for a Sale](purchasing-how-purchase-products-sale.md)  
 [How to: Register New Vendors](purchasing-how-register-new-vendors.md)  
 [How to: Prepare Drop Shipments](sales-how-drop-shipment.md)  
-[Working With Financials](ui-work-product.md)
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

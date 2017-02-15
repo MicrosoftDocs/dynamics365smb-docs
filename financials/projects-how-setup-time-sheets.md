@@ -15,7 +15,7 @@ ms.author: sgroespe
 
 ---
 # How to: Set Up Time Sheets
-Time sheets in Financials handle time registration in weekly increments of seven days. You use them to track the time used on jobs, and you can use them to record simple resource time registration. Before you can use time sheets, you must specify how you want them to be set up and configured.
+Time sheets in [!INCLUDE[d365fin](includes/d365fin_md.md)] handle time registration in weekly increments of seven days. You use them to track the time used on jobs, and you can use them to record simple resource time registration. Before you can use time sheets, you must specify how you want them to be set up and configured.
 
 After you have set up how your organization will use time sheets, you can specify if and how time sheets are approved. Depending on the needs of your organization, you can designate:
 
@@ -56,5 +56,5 @@ When you have set up time sheets, you can create time sheets for resources, assi
 [Finance](finance.md)  
 [Purchasing](purchasing-manage-purchasing.md)         
 [Sales](sales-manage-sales.md)      
-[Working With Financials](ui-work-product.md)  
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

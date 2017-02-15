@@ -48,5 +48,5 @@ For information about recording budgeted versus actual job prices and costs, see
 [Finance](finance.md)  
 [Purchasing](purchasing-manage-purchasing.md)         
 [Sales](sales-manage-sales.md)      
-[Working With Financials](ui-work-product.md)  
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

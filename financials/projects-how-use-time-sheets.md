@@ -23,7 +23,7 @@ After you have approved time sheet entries for a job, you can post them to the r
 
 Before you can use time sheets, you must set up general information and specify an administrator and one or more approvers of time sheets. For more information, see [How to: Set Up Time Sheets](projects-how-setup-time-sheets.md).
 
-**Note**: This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your Financials Experience](ui-experiences.md).
+**Note**: This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 
 ## To create a time sheet
 You can use the **Create Time Sheets** batch job to set up time sheets for a specified number of time periods or weeks. Then, the time sheet owner can open it and record time that has been spent on a task.
@@ -143,5 +143,5 @@ After you have posted time sheets, you can archive them for future reference. Al
 [Finance](finance.md)  
 [Purchasing](purchasing-manage-purchasing.md)         
 [Sales](sales-manage-sales.md)     
-[Working With Financials](ui-work-product.md)  
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

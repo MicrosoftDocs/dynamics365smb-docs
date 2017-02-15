@@ -15,13 +15,13 @@ ms.author: sgroespe
 
 ---
 # Apply Payments Automatically and Reconcile Bank Accounts
-You must regularly reconcile your bank, receivables, and payables accounts by applying payments recorded in the bank to their related unpaid invoices and credit memos or other open entries in Financials.  
+You must regularly reconcile your bank, receivables, and payables accounts by applying payments recorded in the bank to their related unpaid invoices and credit memos or other open entries in [!INCLUDE[d365fin](includes/d365fin_long_md.md)].  
 
 You can perform this task in the **Payment Reconciliation Journal** window by importing a bank statement file or feed to quickly register the payments. Payments are applied to open customer or vendor ledger entries based on matches between payment text and entry information. You can review and change automatic applications before you post the journal. You can choose to close any open bank account ledger entries related to the applied ledger entries when you post the journal. The bank account is automatically reconciled when all payments are applied.  
 
 To import bank statements as a bank feed, you must first set up and enable the Envestnet Yodlee Bank Feed service, and then link your bank accounts to the related online bank accounts. For more information, see [How to: Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md).  
 
-Alternatively, you can use the bank data conversion service to convert a bank statement file, from any format, to a data stream that you can import into Financials. For more information, see [How to: Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md).  
+Alternatively, you can use the bank data conversion service to convert a bank statement file, from any format, to a data stream that you can import into [!INCLUDE[d365fin](includes/d365fin_long_md.md)]. For more information, see [How to: Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md).  
 
 The following table describes a sequence of tasks, with links to the topics that describe them.  
 
@@ -35,5 +35,5 @@ The following table describes a sequence of tasks, with links to the topics that
 ## See Also
 [Managing Receivables](receivables-manage-receivables.md)  
 [Sales](sales-manage-sales.md)  
-[Working With Financials](ui-work-product.md)
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

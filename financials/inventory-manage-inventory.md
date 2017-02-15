@@ -30,7 +30,7 @@ Changes in inventory value from trade are automatically reconciled with your fin
 |To |See |
 |---|----|
 |Create item cards for inventory items that you trade in.|[How to: Register New Products](inventory-how-register-new-products.md)|
-|Structure parent items that you sell as kits consisting of the parent's components or that you assemble to order or to stock.|[How to: Work with Bills of Materials](inventory-how-work-BOMs.md)|
+|Structure parent items that you sell as kits consisting of the parent's components or that you assemble to order or to stock.|[How to: Work with Bills of Materials](inventory-how-work-BOMs,md)|
 |Maintain an overview of items and help you find and sort items by organizing them in categories.|[How to: Categorize Items](inventory-how-categorize-items.md)|
 |Assign item attributes of different value types to your items to help you sort and find items.|[How to: Work with Item Attributes](inventory-how-work-item-attributes.md)|
 |Create special item cards for items that you offer to customers but do not maintain inventory for.|[How to: Work with Nonstock Items](inventory-how-work-nonstock-items.md)|

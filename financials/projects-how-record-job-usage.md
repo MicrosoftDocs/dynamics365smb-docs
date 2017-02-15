@@ -29,7 +29,7 @@ The following procedures describe how to record actual (billable) or budgeted jo
    
     The **Remaining Quantity** field shows the quantity that remains to complete the job and be transferred to the journal.  
 5. Choose the **Create Job Journal Lines** action.
-6. In the **Job Transfer Job Planning Line** window, fill in the fields as necessary, and then choose the **OK** button. Choose a field to read a short description of the field or link to more information.
+6. In the **Job Transfer Job Planning Line** window, fill in the fields as necessary, and then choose the **OK** button. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Choose the **Open Job Journal** action.  
 8. In the **Job Journal** window, select the relevant line and then choose the **Post** action.
 9. In the **Job Planning Lines** window, review the recorded usage by observing the **Quantity**, **Remaining Quantity**, and **Qty. To Transfer to Journal** fields.  

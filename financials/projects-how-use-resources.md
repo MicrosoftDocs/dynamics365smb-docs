@@ -26,7 +26,7 @@ You assign resources to jobs by creating job planning lines for the job. For mor
 
 ## To record resource usage for a job
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Job Journals**, and then choose the related link.
-2. Open a relevant job journal batch, and then fill in the fields as necessary. Choose a field to read a short description of the field or link to more information.
+2. Open a relevant job journal batch, and then fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. When the journal is complete, choose the **Post** action.
 
 ## To adjust resource prices

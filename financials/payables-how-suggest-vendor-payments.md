@@ -30,7 +30,7 @@ Vendor entries that are not **On Hold** are not included.
 ## To use the Suggest Vendor Payments function
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Payment Journals**, and then choose the related link.  
 2. Open the relevant journal, and then choose the **Suggest Vendor Payments** action.  
-3. Fill in the fields as necessary. Choose a field to read a short description of the field or link to more information.  
+3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Choose the **OK** button.  
 
 ## To insert the due date as posting date on payment journal lines

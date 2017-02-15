@@ -27,7 +27,7 @@ Indexation is used to adjust values for general price-level changes. The **Index
 The following procedure describes how to create a fixed asset and then acquire it by using the **Assisted Fixed Asset Acquisition** window to create and post the required fixed asset G/L journal lines. You can also create and post the journal lines manually. For more information, see the "To post a fixed asset acquisition manually with the fixed asset G/L journal" section.
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Fixed Assets**, and then choose the related link.  
-2. Choose the **New** action, and then fill in the fields on the **General** FastTab as necessary. Choose a field to read a short description of the field or link to more information.
+2. Choose the **New** action, and then fill in the fields on the **General** FastTab as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. On the **Depreciation Book** FastTab, fill in the fields as necessary. This step assigns a depreciation book to the fixed asset.  
 4. If you need to assign more than one depreciation book to the fixed asset, choose the **Add More Depreciation Books** action. For more information, see the "To assign a depreciation book to a fixed asset" section in [How to: Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md).
 
@@ -72,7 +72,7 @@ For example, if you post an acquisition with the wrong date, you must correct it
 **Important:** You cannot use the **Reverse Transactions** function for fixed asset entries.
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Cancel FA Entries**, and then choose the related link.
-2. Fill in the fields as necessary. Choose a field to read a short description of the field or link to more information.
+2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Choose the **OK** button to run the batch job.
 4. When the incorrect entry or entries are canceled, proceed to post the correct acquisition cost.
 

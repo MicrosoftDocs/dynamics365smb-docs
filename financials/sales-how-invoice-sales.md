@@ -50,7 +50,7 @@ You can fill customer fields on the sales invoice in two ways depending on wheth
 7. After you complete the customer card, choose the **OK** button to return to the **Sales Invoice** window.
    
    Several fields on the sales invoice are now filled with information that you specified on the new customer card.  
-8. Fill in the remaining fields in the **Sales Invoice** window as necessary. Choose a field to read a short description of the field or link to more information.  
+8. Fill in the remaining fields in the **Sales Invoice** window as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
    
    You are now ready to fill in the sales invoice lines with inventory items or services that you want to sell to the customer.  
    

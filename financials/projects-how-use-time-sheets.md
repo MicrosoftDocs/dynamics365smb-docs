@@ -30,7 +30,7 @@ You can use the **Create Time Sheets** batch job to set up time sheets for a spe
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Time Sheets**, and then choose the related link.
 2. In the **Time Sheet List** window, choose the **Create Time Sheets** action.
-3. Fill in the fields as necessary. Choose a field to read a short description of the field or link to more information.
+3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 **Note**: The **Use Time Sheet** and **Time Sheet Owner User ID** fields must be filled in on the card for the resource of the time sheet.
 

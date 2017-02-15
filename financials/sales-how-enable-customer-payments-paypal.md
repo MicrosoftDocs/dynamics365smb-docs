@@ -31,7 +31,7 @@ The PayPal Payments Standard service is installed as an extension to Financials 
 2. In the **Payment Services** window, choose the **New** action.
 3. Select **PayPal Standard**, and then close the window.
 4. In the **Payment Services** window, choose the **Setup** action.
-5. Fill in the fields as necessary. Choose a field to read a short description of the field or link to more information.
+5. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
    
     **Note**: Select the **Always Include on Documents** check box if the hyperlink for the PayPal payment service should always be visible on sales documents where payment through PayPal is enabled.
 6. Close the window.

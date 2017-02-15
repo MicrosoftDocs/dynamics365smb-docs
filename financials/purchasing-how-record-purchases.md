@@ -44,7 +44,7 @@ You can fill vendor fields on the purchase invoice in two ways depending on whet
 8. When you have completed the vendor card, choose the **OK** button to return to the **Purchase Invoice** window.
    
     Several fields in the **Purchase Invoice** window are filled with information that you specified on the new vendor card.
-9. Fill in the remaining fields in the **Purchase Invoice** window as necessary. Choose a field to read a short description of the field or link to more information.
+9. Fill in the remaining fields in the **Purchase Invoice** window as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
    
     You are now ready to fill in the purchase invoice lines with inventory items or services that you have purchased from the vendor.
    

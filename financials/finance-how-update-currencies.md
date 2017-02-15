@@ -24,7 +24,7 @@ You can use an external service to keep your currency exchange rates up to date.
 ## To set up a currency exchange rate service
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Currency Exchange Rate Services**, and then choose the related link.
 2. Choose the **New** action.
-3. In the **Currency Exchange Rate Service** window, fill in the fields as necessary. Choose a field to read a short description of the field or link to more information.
+3. In the **Currency Exchange Rate Service** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Choose the **Enabled** check box to enable the service.
 
 ## To update currency exchange rates through a service

@@ -26,7 +26,7 @@ When you have set up time sheets, you can create time sheets for resources, assi
 
 ## To set up general information for time sheets
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Resources Setup**, and then choose the related link.  
-2. Fill in the fields as necessary. Choose a field to read a short description of the field or link to more information.
+2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. For the **Time Sheet by Job Approval** field, select one of the following options.
 
 | Option | Description |

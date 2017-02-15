@@ -26,5 +26,5 @@ When yo have set up a salesperson in the **Salespeople** window, you can select 
 ## See Also
 [Setting Up Sales](sales-setup-sales.md)  
 [Sales](sales-manage-sales.md)  
-[Working With Financials](ui-work-product.md)
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

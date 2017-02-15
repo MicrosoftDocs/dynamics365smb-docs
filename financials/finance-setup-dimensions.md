@@ -24,7 +24,7 @@ You can also set up some global and shortcut dimensions:
 * **Global dimensions** are used as filters, for example, on reports and batch jobs. You can use only two global dimensions, so choose dimensions you will use often.
 * **Shortcut dimensions** are available as fields on journal and document lines. You can create up to six of these.  
 
-**Note**: This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your Financials Experience](ui-experiences.md).
+**Note**: This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Experience](ui-experiences.md).
 
 ## Set up default dimensions for Customers, Vendors, and other accounts
 You can assign a default dimension for a specific account. The dimension will be copied to the journal or document when you enter the account number on a line, but you can delete or change the code on the line if appropriate. You can also make a dimension required for posting an entry with a specific type of account.  
@@ -75,4 +75,4 @@ With this set up, you can start adding dimensions to documents and journals. For
 ## See Also
 [Dimensions](finance-dimensions.md)  
 [Setting Up Finance](finance-setup-finance.md)  
-[Working With Financials](ui-work-product.md)
+[Working With [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)

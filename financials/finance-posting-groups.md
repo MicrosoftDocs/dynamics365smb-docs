@@ -37,7 +37,7 @@ The following tables describe the posting groups under each umbrella.
 | Vendor Posting Groups |Define where to post transactions for payables accounts, service charge accounts, and payment discount accounts. This is similar to customer posting groups. Set these up in the **Vendor Posting Groups** window. |
 | Inventory Posting Groups |Define balance sheet inventory accounts. These also provide a good way to organize your inventory, so you can separate items by their posting group when you generate reports. Set these up in the **Inventory Posting Groups** window. |
 | Bank Account Posting Groups |Define accounts for bank accounts. For example, this can simplify the processes of tracing transactions and reconciling bank accounts. Set these up in the **Bank Account Posting Groups** window. |
-| Fixed Assets Posting Groups |Define accounts for different types of expenses and costs, such as acquisition costs, accumulated depreciation amounts, acquisition costs on disposal, accumulated depreciation on disposal, gains on dispsal, losses on disposal, maintenance expenses, and depreciation expenses. Set these up in the **FA Posting Groups** window. |
+| Fixed Assets Posting Groups |Define accounts for different types of expenses and costs, such as acquisition costs, accumulated depreciation amounts, acquisition costs on disposal, accumulated depreciation on disposal, gains on disposal, losses on disposal, maintenance expenses, and depreciation expenses. Set these up in the **FA Posting Groups** window. |
 
 | Tax Posting Group | Description |
 | --- | --- |
@@ -73,5 +73,4 @@ The more product and business posting groups you have, the more lines you see in
 ## See also
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
 [Setting Up Finance](finance-setup-finance.md)  
-[Working With Financials](ui-work-product.md)
-
+[Working With [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)

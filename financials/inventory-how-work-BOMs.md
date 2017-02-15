@@ -19,7 +19,9 @@ You use bills of materials (BOMs) to structure parent items that you sell as kit
 
 In Financials, a bill of materials is referred to as an assembly BOM. Assembly BOMs specify which components are contained in a parent item. In this documentation, a parent item is referred to as an assembly item.
 
-Assembly BOMs usually contain items but can also contain one or more resources that are required to put the assembly item together. Assembly BOMs can have multiple levels, which means that a component on the assembly BOM can be an assembly item itself. This is indicated by **Yes** in the **Assembly BOM** field on the assembly BOM line.
+Assembly BOMs usually contain items but can also contain one or more resources that are required to put the assembly item together. 
+
+Assembly BOMs can have multiple levels, which means that a component on the assembly BOM can be an assembly item itself. In that case, the **Assembly BOM** field on the assembly BOM line contains **Yes**.
 
 Special requirements apply to items on assembly BOMs with regards to availability and standard cost calculation. For more information, see the "To see the availability of an item by its use in assembly BOMs" section in [How to: Get an Availability Overview](inventory-how-availability-overview.md) and the "To calculate the standard cost of assembly BOMs" section in this topic.
 
@@ -37,8 +39,6 @@ There are two parts to creating an assembly BOM:
     Proceed to enter components or resources on the assembly BOM.  
 2. In the **Item Card** window for an assembly item, choose the **Assembly** action, and then choose the **Assembly BOM** action.
 3. In the **Assembly BOM** window, fill in the fields as necessary. Choose a field to read a short description of the field or link to more information.
-
-**Note**: If the component that you enter is an assembly item itself, then the **Assembly BOM** field contains **Yes**.
 
 ## To view the components of an assembly item indented according to the BOM structure
 From the **Assembly BOM** window, you can open a separate window that shows the components and any resources indented according to their BOM position under the assembly item.
@@ -63,7 +63,7 @@ All fields on the sales invoice line for the assembly item are cleared except fo
 
 **Note**: The Explode BOM function is also available in the **Assembly BOM** window.
 
-## To calculate the standard cost of assembly BOMs
+## To calculate the standard cost of an assembly item
 You calculate the unit cost of an assembly item by rolling up the unit cost of each component and resource in the item’s assembly BOM.
 
 The unit cost of an assembly BOM always equals the total of the unit costs of its components, including other assembly BOMs, and any resources.
@@ -86,6 +86,6 @@ The costs of the items that make up the assembly BOM are copied from the compone
 
 ## See Also
 [How to: Register New Products](inventory-how-register-new-products.md)  
-[Inventory](inventory-manage-inventory.md) 
 [How to: Get an Availability Overview](inventory-how-availability-overview.md)   
+[Inventory](inventory-manage-inventory.md)  
 [Working With Financials](ui-work-product.md)

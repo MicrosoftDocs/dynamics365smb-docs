@@ -18,7 +18,7 @@ ms.author: sgroespe
 To manage fixed asset insurance coverage, you must first set up some general insurance information and an insurance card per policy.
 
 ## To set up general insurance information
-To use the insurance features in Financials, you must set up some general insurance information.  
+To use the insurance features in [!INCLUDE[d365fin](includes/d365fin_md.md)], you must set up some general insurance information.  
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **FA Setups**, and then choose the related link.  
 2. Fill in the fields as necessary. Choose a field to read a short description of the field or link to more information.  
@@ -37,7 +37,7 @@ You may accumulate information about each insurance policy on the insurance card
 3. Fill in the fields as necessary.
 
 ## To set up insurance journal templates
-Financials automatically creates an insurance journal template the first time that you open the **Insurance Journal** window, but you can set up additional journal templates. For more information, see [Working With General Journals](ui-work-general-journals.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] automatically creates an insurance journal template the first time that you open the **Insurance Journal** window, but you can set up additional journal templates. For more information, see [Working With General Journals](ui-work-general-journals.md).  
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Insurance Journal Templates**, and then choose the related link.  
 2. Fill in the fields as necessary.
@@ -55,6 +55,5 @@ You can set up batches in an insurance journal template. The values in the journ
 [Setting Up Fixed Assets](fa-setup.md)  
 [Fixed Assets](fa-manage.md)  
 [Finance](finance.md)  
-[Welcome to Dynamics 365 for Financials](madeira-get-started.md)  
-[Working With Financials](ui-work-product.md)
-
+[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](madeira-get-started.md)  
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

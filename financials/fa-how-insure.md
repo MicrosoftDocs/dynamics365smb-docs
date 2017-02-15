@@ -45,7 +45,7 @@ The following procedure explains how to create an insurance journal line manuall
 2. Open the relevant journal, and fill in the journal lines as necessary.  
 3. To assign multiple fixed assets to one insurance policy, create journal lines with the same value in the **Insurance No.** field and different values in the **FA No.** field.  
 4. Choose the **Post** action.  
-   
+
     **Note:** The entries from an insurance journal are only posted to the insurance coverage ledger.  
 
 ## To update the insurance value of a fixed asset
@@ -53,16 +53,16 @@ You can use the **Index Insurance** batch job to update the value of the fixed a
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Index Insurance**, and then choose the related link.
 2. Fill in the fields as necessary.
-   
+
     **Note:** In the **Index Figure** field, you enter a decrease of 5%, for example, as 95, whereas you enter an increase of 2% as 102.  
 3. Choose the **OK** button.  
-   
+
    The batch job calculates the new amount as a percentage of the total value insured, as stated in the **Insurance Statistics** window, and then creates a line in the insurance journal.  
 4. In the top right corner, choose the **Search for Page or Report** icon, enter **Insurance Journals**, and then choose the related link.  
 5. Open the relevant insurance journal, review the created values, and then post them to the insurance coverage ledger.  
 
 ## To monitor insurance coverage
-Financials provides dedicated reports and statistics windows for use in analyzing insurance policies and whether your fixed assets are over- or under-insured.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] provides dedicated reports and statistics windows for use in analyzing insurance policies and whether your fixed assets are over- or under-insured.  
 
 ### Overview of Insurance Policies
 To get an overview of your insurance policies, preview or print the **Insurance - List** report. The report shows all the policies and the most important fields from the insurance cards.  
@@ -110,5 +110,4 @@ The fixed asset will be detached from the incorrect insurance policy, on the sec
 [Fixed Assets](fa-manage.md)  
 [Setting Up Fixed Assets](fa-setup.md)  
 [Finance](finance.md)  
-[Working With Financials](ui-work-product.md)  
-
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -14,7 +14,7 @@
     ms.author="sgroespe" />
 
 # How to: Set up Email
-To send and receive emails from within Financials, you must fill in the fields in the **SMTP Mail Setup** window.
+To send and receive emails from within [!INCLUDE[d365fin](includes/d365fin_md.md)], you must fill in the fields in the **SMTP Mail Setup** window.
 
 **Note**: Instead of entering the SMTP server details, you can use a function to enter them with information from your Office 365 subscription.
 
@@ -28,9 +28,9 @@ You can either set email up manually or you can get help by using the **Email Se
 5. When the test succeeds, close the window.
 
 ## See Also  
-[Working With Financials](ui-work-product.md)  
-[Setting Up Financials](setup.md)  
+[Working With [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Setting Up [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](setup.md)  
 [How to: Send Documents by Email](ui-how-send-documents-email.md)  
-[Customizing Dynamics 365 for Financials Using Extensions](ui-extensions.md)  
-[Using Dynamics 365 for Financials as Your Business Inbox in Outlook](madeira-outlook.md)  
-[Getting Financials on My Mobile Device](install-mobile-app.md)
+[Customizing [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Using Extensions](ui-extensions.md)  
+[Using [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] as Your Business Inbox in Outlook](madeira-outlook.md)  
+[Getting [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] on My Mobile Device](install-mobile-app.md)

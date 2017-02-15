@@ -17,9 +17,9 @@ ms.author: sgroespe
 # How to: Work with Bills of Materials
 You use bills of materials (BOMs) to structure parent items that you sell as kits consisting of the parent's components or that you assemble to order or to stock.
 
-In Financials, a bill of materials is referred to as an assembly BOM. Assembly BOMs specify which components are contained in a parent item. In this documentation, a parent item is referred to as an assembly item.
+In [!INCLUDE[d365fin](includes/d365fin_md.md)], a bill of materials is referred to as an assembly BOM. Assembly BOMs specify which components are contained in a parent item. In this documentation, a parent item is referred to as an assembly item.
 
-Assembly BOMs usually contain items but can also contain one or more resources that are required to put the assembly item together. 
+Assembly BOMs usually contain items but can also contain one or more resources that are required to put the assembly item together.
 
 Assembly BOMs can have multiple levels, which means that a component on the assembly BOM can be an assembly item itself. In that case, the **Assembly BOM** field on the assembly BOM line contains **Yes**.
 
@@ -88,4 +88,4 @@ The costs of the items that make up the assembly BOM are copied from the compone
 [How to: Register New Products](inventory-how-register-new-products.md)  
 [How to: Get an Availability Overview](inventory-how-availability-overview.md)   
 [Inventory](inventory-manage-inventory.md)  
-[Working With Financials](ui-work-product.md)
+[Working With [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)

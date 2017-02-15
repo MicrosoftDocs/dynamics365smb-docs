@@ -10,8 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/20/2016
-ms.author: edupont04
+ms.date: 02/17/2017
+ms.author: edupont
 
 ---
 # Customizing [!INCLUDE[d365fin](includes/d365fin_long_md.md)] Using Extensions
@@ -46,14 +46,14 @@ Microsoft provides the following extensions:
 * [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)  
 * [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)  
 * [QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md)  
-* [Sales and Inventory Forecast](ui-extensions-sales-forecast.md)
-* [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
-* [Quickbooks Payroll File Import](ui-extensions-quickbooks-payroll.md)
+* [Sales and Inventory Forecast](ui-extensions-sales-forecast.md)  
+* [Ceridian Payroll](ui-extensions-ceridian-payroll.md)  
+* [Quickbooks Payroll File Import](ui-extensions-quickbooks-payroll.md)  
 
 ## See Also
 [How to: Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)  
 [How to: Enable Customer Payment Through PayPal](sales-how-enable-customer-payments-paypal.md)  
 [Migrate Business Data from Other Finance Systems](upload-data.md)  
 [Dynamics 365 for [!INCLUDE[d365fin](includes/d365fin_md.md)] Extensions by Other Providers](ui-extensions-other.md)  
-[Welcome to Dynamics 365 for [!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-get-started.md)  
+[Welcome to Dynamics 365 for [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 

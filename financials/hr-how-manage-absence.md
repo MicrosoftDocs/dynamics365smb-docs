@@ -66,5 +66,5 @@ The **Abs. Overview by Periods Matrix** window opens showing employee absences b
 ## See Also
 [Manage Human Resources](hr-manage-human-resources.md)  
 [Finance](finance.md)  
-[Working With Financials](ui-work-product.md)  
-[Customizing the Dynamics 365 for Financials Experience](ui-experiences.md)
+[Working With [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Customizing the [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Experience](ui-experiences.md)

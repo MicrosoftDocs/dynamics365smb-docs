@@ -22,7 +22,7 @@ Depreciation is used to allocate the cost of fixed assets, such as machinery and
 * Automatically, by running the **Calculate Depreciation** batch job.  
 * Manually, by using the fixed asset G/L journal.  
 
-Financials can calculate daily depreciation, which allows you to calculate depreciation for any period. You can therefore analyze current operating results on, for example, a monthly, quarterly, or annual basis. The calculation uses a standard year of 360 days and a standard month of 30 days. For more information, see [Depreciation Methods](fa-depreciation-methods.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] can calculate daily depreciation, which allows you to calculate depreciation for any period. You can therefore analyze current operating results on, for example, a monthly, quarterly, or annual basis. The calculation uses a standard year of 360 days and a standard month of 30 days. For more information, see [Depreciation Methods](fa-depreciation-methods.md).  
 
 If several departments use a fixed asset, periodic depreciation can be automatically allocated to these departments according to a user-defined allocation table.  
 
@@ -36,10 +36,10 @@ Once a month, or whenever you choose, you can run the **Calculate Depreciation**
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Calculate Depreciation**, and then choose the related link.  
 2. Fill in the fields as necessary. Choose a field to read a short description of the field or link to more information.  
 3. Choose the **OK** button.  
-   
+
     The batch job calculates the depreciation and creates lines in the fixed asset G/L journal.  
 4. In the top right corner, choose the **Search for Page or Report** icon, enter **FA G/L Journals**, and then choose the related link.  
-   
+
     In the **Fixed Asset G/L Journal** window, in the **No. of Depreciation Days** field you can see how many days of depreciation have been calculated.  
 5. Choose the **Post** action.  
 
@@ -75,10 +75,10 @@ When you fill in journal lines to post to a depreciation book, you can duplicate
 3. Fill in the remaining fields as necessary.  
 4. Choose the **Post** action.  
 5. In the top right corner, choose the **Search for Page or Report** icon, enter **FA Journals**, and then choose the related link.  
-   
+
     **Note:** The **Fixed Asset Journal** window contains new lines for different depreciation books according to the duplication list.  
 6. Review or edit the lines, and then choose the **Post** action.  
-   
+
     **Note:** Another way to duplicate an entry in a separate book is to enter a depreciation book code in the **Duplicate in Depreciation Book** field when you fill in a journal line.  
 
 You can copy entries from one depreciation book to another by using the **Copy Depreciation Book** batch job. The batch job creates journal lines in the journal batch that you have specified in the **FA Journal Setup** window for the depreciation book that you want to copy to. For more information, see the following procedure.  
@@ -95,5 +95,4 @@ The copied lines are created in either the fixed asset G/L journal or the fixed 
 [Fixed Assets](fa-manage.md)  
 [Setting Up Fixed Assets](fa-setup.md)  
 [Finance](finance.md)  
-[Working With Financials](ui-work-product.md)  
-
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

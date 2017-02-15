@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/17/2017
+ms.date: 02/15/2017
 ms.author: SorenGP
 
 ---
@@ -59,4 +59,3 @@ You can export balance information using GIFI codes and save the exported file i
 ## See Also
 [Finance](finance.md)   
 [Setting Up Finance](finance-setup-finance.md)
-

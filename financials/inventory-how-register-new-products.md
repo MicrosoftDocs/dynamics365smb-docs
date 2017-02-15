@@ -23,12 +23,14 @@ Item cards hold the information that is required to buy, store, sell, deliver, a
 
 The item card can be of type Inventory or Service to specify if the product is a physical unit or a labor time unit. Apart from some fields that relate to the physical aspects of an item, all fields on an item card function in the same way for inventory items and services. For more information about selling an item, see [How to: Sell Products](sales-how-sell-products.md) or [How to: Invoice Sales](sales-how-invoice-sales.md).
 
+An item can be structured as a parent item with underlying child items in a bill of materials (BOM). In Financials, a bill of materials is referred to as an assembly BOM. You use assembly BOMs to structure parent items that you sell as kits consisting of the parent's components or that you assemble to order or to stock. For more information, see [How to: Work with Bills of Materials](inventory-how-work-BOMs,md).
+
 **Note**: If item templates exist for different item types, then a window appears when you create a new item card from where you can select an appropriate template. If only one item template exists, then new item cards always use that template.
 
 ## To create a new item card
 1. On the Home page, choose the **Items** action to open the list of existing items.  
 2. In the **Items** window, choose the **New** action.
-   
+
     If only one item template exists, then a new item card opens with some fields filled with information from the template.
 3. In the **Select a template for a new item** window, choose the template that you want to use for the new item card.
 4. Choose the **OK** button. A new item card opens with some fields filled with information from the template.
@@ -54,4 +56,3 @@ The item template is added to the list of item templates, so that you can use it
   [Purchasing](purchasing-manage-purchasing.md)  
   [Sales](sales-manage-sales.md)  
   [Working With Financials](ui-work-product.md)
-

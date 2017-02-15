@@ -21,7 +21,7 @@ To manage fixed asset insurance coverage, you must first set up some general ins
 To use the insurance features in [!INCLUDE[d365fin](includes/d365fin_md.md)], you must set up some general insurance information.  
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **FA Setups**, and then choose the related link.  
-2. Fill in the fields as necessary. Choose a field to read a short description of the field or link to more information.  
+2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## To set up insurance types
 You can group your insurance policies into categories, such as insurance against theft or fire insurance. The insurance types are used on the insurance card.

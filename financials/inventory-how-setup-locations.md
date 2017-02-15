@@ -24,14 +24,14 @@ You can then create document lines for a specific location, view availability by
 ## To create a location card
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Locations**, and then choose the related link.
 2. Choose the **New** action.
-3. In the **Location Card** window, fill in the fields as necessary. Choose a field to read a short description of the field or link to more information.
+3. In the **Location Card** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Repeat steps 2 and 3 for every location where you want to keep inventory.
 
 ## To create a transfer route
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Transfer Routes**, and then choose the related link.
 2. Alternatively, from any **Location Card** window, choose the **Transfer Routes** action.
 3. Choose the **New** action.
-4. In the **Location Card** window, fill in the fields as necessary. Choose a field to read a short description of the field or link to more information.
+4. In the **Location Card** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 You can now transfer inventory items between two locations. For more information, see [How to: Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md).    
 

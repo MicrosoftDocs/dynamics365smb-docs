@@ -30,7 +30,7 @@ Vendor entries that are not **On Hold** are not included.
 ## To use the Suggest Vendor Payments function
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Payment Journals**, and then choose the related link.  
 2. Open the relevant journal, and then choose the **Suggest Vendor Payments** action.  
-3. Fill in the fields as necessary. Choose a field to read a short description of the field or link to more information.  
+3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Choose the **OK** button.  
 
 ## To insert the due date as posting date on payment journal lines
@@ -48,5 +48,5 @@ Alternatively, you can manually create payment lines using the due date to calcu
 [Managing Payables](payables-manage-payables.md)  
 [Make Payments](payables-make-payments.md)  
 [Working With General Journals](ui-work-general-journals.md)  
-[Working With Financials](ui-work-product.md)  
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

@@ -24,7 +24,7 @@ When you choose the **Post and Send** action on a sales document, the **Post and
 ## To set up a document sending profile
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Document Sending Profiles**, and then choose the related link.
 2. In the **Document Sending Profiles** window, choose the **New** action.
-3. Fill in the fields as necessary. Choose a field to read a short description of the field or link to more information.
+3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## To specify a sending profile on a customer card
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Customers**, and then choose the related link.
@@ -34,5 +34,5 @@ When you choose the **Post and Send** action on a sales document, the **Post and
 ## See Also
 [Setting Up Sales](sales-setup-sales.md)  
 [Sales](sales-manage-sales.md)  
-[Working With Financials](ui-work-product.md)
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

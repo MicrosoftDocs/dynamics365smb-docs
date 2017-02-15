@@ -22,14 +22,14 @@ You can also assign item attributes to item categories, which then apply to the 
 ## To create item attributes
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Item Attributes**, and then choose the related link.
 2. In the **Item Attributes** window, choose the **New** action.
-3. In the **Item Attribute** window, fill in the fields as necessary. Choose a field to read a short description of the field or link to more information.
+3. In the **Item Attribute** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 **Note**: If you select **Option** in the **Type** field, then you can choose the **Item Attribute Values** action to create values for the item attribute. For more information, see the "To create values for item attributes of type Option" section.  
 
 ## To create values for item attributes of type Option
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Item Attributes**, and then choose the related link. 
 2. In the **Item Attributes** window, select an item attribute of type **Option** that you want to create values for, and then choose the **Item Attribute Values** action.
-3. In the **Item Attribute Values** window, fill in the fields as necessary. Choose a field to read a short description of the field or link to more information.
+3. In the **Item Attribute Values** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## To assign item attributes to items
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Items**, and then choose the related link.

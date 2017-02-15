@@ -58,7 +58,7 @@ The image is attached to the incoming document record.
 4. Alternatively, choose the **New** action.
 5. To attach a file, choose the **Attach File** action.
 6. In the **Insert File** window, select the file that represents the incoming document in question, and then choose the **Open** button.
-7. In the **Incoming Document** window, fill in the fields as necessary. Choose a field to read a short description of the field or link to more information.
+7. In the **Incoming Document** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## See Also
 [Process Incoming Documents](across-process-income-documents.md)  

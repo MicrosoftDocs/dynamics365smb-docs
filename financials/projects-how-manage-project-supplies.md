@@ -50,5 +50,5 @@ If you incur extraordinary or one-time job expenses, you can use the **Job G/L J
 [Finance](finance.md)  
 [Purchasing](purchasing-manage-purchasing.md)         
 [Sales](sales-manage-sales.md)      
-[Working With Financials](ui-work-product.md)  
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

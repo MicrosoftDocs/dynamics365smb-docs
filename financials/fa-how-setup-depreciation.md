@@ -24,7 +24,7 @@ In a fixed asset depreciation book, you specify how fixed assets are depreciated
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Depreciation Books**, and then choose the related link.
 2. In the **Depreciation Books List** window, choose the **New** action.
-3. In the **Depreciation Book Card** window, fill in the fields as necessary. Choose a field to read a short description of the field or link to more information.
+3. In the **Depreciation Book Card** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     **Note:** You can record fixed asset transactions in the **Fixed Asset G/L Journal** window or in the **Fixed Asset Journal** window, depending on whether the transactions are for financial reporting or for internal management. Follow the next step to define which type of journal is used for the different fixed asset activities by default.
 4. On the **Integration** FastTab, select the check box for each fixed asset activity whose transactions you want to post using the **Fixed Asset G/L Journal** window.

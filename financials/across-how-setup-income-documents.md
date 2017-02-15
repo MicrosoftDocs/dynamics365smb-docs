@@ -25,7 +25,7 @@ When the Incoming Documents feature is set up, you can use different functions t
 
 ## To set up the Incoming Documents feature
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Incoming Document Setup**, and then choose the related link.
-2. Fill in the fields as necessary. Choose a field to read a short description of the field or link to more information.
+2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## To set up approvers of incoming document records
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Incoming Document Setup**, and then choose the related link.  
@@ -40,7 +40,7 @@ When approvers have been set up in the **Incoming Document Approvers** window, o
 
 ## To set up an OCR service
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **OCR Service Setup**, and then choose the related link.
-2. Fill in the fields as necessary. Choose a field to read a short description of the field or link to more information.
+2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## To encrypt your login information
 It is recommended that you protect the logon information that you enter in the **OCR Service Setup** window. You can encrypt data on the server by generating new or importing existing encryption keys that you enable on the server instance that connects to the database.

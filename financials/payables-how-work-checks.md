@@ -33,7 +33,7 @@ Your printer must be correctly set up with the check forms, and you must define 
 
      **Note**: You must print computer checks before you post the related journal lines.
 4. In case of computer checks, choose **Print Check**.
-5. In the **Check** window, fill in the fields as necessary. Choose a field to read a short description of the field or link to more information.
+5. In the **Check** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 6. Choose the **Print** button.
 
 **Note**: If you want to print checks in more than one currency from different bank accounts, you must run the **Print Check** batch job separately for each currency and specify the appropriate bank account.

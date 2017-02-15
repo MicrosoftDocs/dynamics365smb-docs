@@ -22,7 +22,7 @@ If you set up the fields for maintenance, you can post maintenance expenses from
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Fixed Assets**, and then choose the related link.
 2. Select the fixed asset that you to define insurance coverage for, and then choose the **Edit** action.
-3. On the **Maintenance** FastTab, fill in the fields as necessary. Choose a field to read a short description of the field or link to more information.
+3. On the **Maintenance** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## To set up maintenance codes
 When you post maintenance costs from a general journal, you fill in the **Maintenance Code** field to record what kind of maintenance has been performed, such as routine service or repair.

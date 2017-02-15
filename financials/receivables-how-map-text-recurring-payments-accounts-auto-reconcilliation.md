@@ -17,7 +17,7 @@ ms.author: sgroespe
 # How to: Map Text on Recurring Payments to Accounts for Automatic Reconciliation
 In the **Text-to-Account Mapping** window, which you open from the **Payment Reconciliation Journal** window, you can set up mappings between text on payments and specific debit, credit, and balancing accounts so that such payments are posted to the specified accounts when you post the payment reconciliation journal.
 
-**Note**: The topic also applies to when you use the **Map Text to Account** function from an incoming document record to assist in converting electronic documents received from external services to documents in Financials. For more information, see [How to: Use OCR to Turn PDF and Image Files into Electronic Documents](across-how-use-ocr-pdf-images-files.md).   
+**Note**: The topic also applies to when you use the **Map Text to Account** function from an incoming document record to assist in converting electronic documents received from external services to documents in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [How to: Use OCR to Turn PDF and Image Files into Electronic Documents](across-how-use-ocr-pdf-images-files.md).   
 
 Similar functionality exists to reconcile excess amounts on payment reconciliation journal lines on an ad-hoc basis. For more information, see [How to: Reconcile Payments That Cannot be Applied Automatically](receivables-how-reconcile-payments-cannot-apply-auto.md).
 
@@ -50,12 +50,12 @@ To always post fuel expenses incurred at Shell gas stations to the general ledge
 | --- | --- | --- | --- | --- |
 | Shell |BLANK |8510 |G/L Account |BLANK |
 
-**Tip**: For more information about how to work with fields and columns, see [Working with Dynamics 365 for Financials](ui-work-product.md). For more information about how to find specific pages, see [Search](ui-search.md).
+**Tip**: For more information about how to work with fields and columns, see [Working with [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md). For more information about how to find specific pages, see [Search](ui-search.md).
 
 ## See Also
 [Managing Receivables](receivables-manage-receivables.md)  
 [Sales](sales-manage-sales.md)  
 [How to: Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)  
-[Customizing Dynamics 365 for Financials Using Extensions](ui-extensions.md)  
-[Working With Financials](ui-work-product.md)
+[Customizing [!INCLUDE[d365fin](includes/d365fin_long_md.md)] Using Extensions](ui-extensions.md)  
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

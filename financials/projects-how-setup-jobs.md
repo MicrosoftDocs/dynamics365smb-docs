@@ -21,7 +21,7 @@ On the individual job cards, you must set up prices for job items, job resources
 
 ## To set general information for jobs
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Jobs Setup**, and then choose the related link.
-2. Fill in the fields as necessary. Choose a field to read a short description of the field or link to more information.
+2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 **Note**: The **Apply Usage Link** check box is rather complex and is therefore explained in the following section.
 

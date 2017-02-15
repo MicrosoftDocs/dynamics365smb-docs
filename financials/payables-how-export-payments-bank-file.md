@@ -26,7 +26,7 @@ You use the **Credit Transfer Registers** window to view the payment files that 
 ## To export payments to a bank file
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Payment Journals**, and then choose the related link.
 2. Fill payment journal lines, for example, by using the **Suggest Vendor Payments** function. For more information, see [How to: Suggest Vendor Payments](payables-how-suggest-vendor-payments.md).
-3. Fill in the fields on the payment journal lines as necessary. Choose a field to read a short description of the field or link to more information.
+3. Fill in the fields on the payment journal lines as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     **Note**: If you are using EFT, you must select either **Electronic Payment** or **Electronic Payment–IAT** in the **Bank Payment Type** field.
 

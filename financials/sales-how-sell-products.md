@@ -49,7 +49,7 @@ You can fill customer fields on the sales order in two ways depending on whether
 7. When you have completed the customer card, choose the **OK** button to return to the **Sales Order** window.
    
     Several fields on the sales order are now filled with information that you specified on the new customer card.
-8. Fill in the remaining fields in the **Sales Order** window as necessary. Choose a field to read a short description of the field or link to more information.
+8. Fill in the remaining fields in the **Sales Order** window as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
    
     You are now ready to fill in the sales order lines with inventory items or services that you want to sell to the customer.
    

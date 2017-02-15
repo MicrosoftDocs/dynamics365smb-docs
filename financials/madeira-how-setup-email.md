@@ -22,7 +22,7 @@ You can either set email up manually or you can get help by using the **Email Se
 
 ## To set up email
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **SMTP Email Setup**, and then choose the related link.
-2. Fill in the fields as necessary. Choose a field to read a short description of the field or link to more information.
+2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Alternatively, choose the **Apply Office 365 Server Settings** action to insert any information that is already defined for your Office 365 subscription.
 4. When all the fields are correctly filled in, choose the **Test Email Setup** action.
 5. When the test succeeds, close the window.

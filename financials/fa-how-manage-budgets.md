@@ -36,7 +36,7 @@ If you plan to sell assets within the budget period, you can enter information a
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Fixed Assets**, and then choose the related link.
 2. Select the fixed asset to be disposed of, and then choose the **Depreciation Books** action.
-3. In the **FA Depreciation Books** window, fill in the **Projected Disposal Date** and **Projected Proceeds on Disposal** fields. Choose a field to read a short description of the field or link to more information.
+3. In the **FA Depreciation Books** window, fill in the **Projected Disposal Date** and **Projected Proceeds on Disposal** fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## To view projected disposal values
 To see the projected disposal values and have the gain and loss calculated, you can use the **FA Projected Value** report.

@@ -33,7 +33,7 @@ An insurance policy for a fixed asset must be represented by an insurance card.
 When you receive information about changes in the coverage amount, you must enter the new information in the **Insurance Card** window to ensure that you analyze insurance policy coverage correctly.  
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Insurance**, and then choose the related link.
-2. Choose the **New** action to create a new card for an insurance policy. Choose a field to read a short description of the field or link to more information.
+2. Choose the **New** action to create a new card for an insurance policy. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Alternatively, select the insurance policy that you want to change, and then choose the **Edit** action.
 
 ## To assign a fixed asset to an insurance policy by posting from the insurance journal

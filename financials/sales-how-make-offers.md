@@ -38,7 +38,7 @@ You can fill customer fields on the sales quote in two ways depending on whether
 8. When you have completed the customer card, choose the **OK** button to return to the **Sales Quote** window.
    
     Several fields on the sales quote are now filled with information that you specified on the new customer card.
-9. Fill in the remaining fields in the **Sales Quote** window as necessary. Choose a field to read a short description of the field or link to more information.
+9. Fill in the remaining fields in the **Sales Quote** window as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
    
     You are now ready to fill in the sales quote lines with inventory items or services that you want to offer to the customer.
    

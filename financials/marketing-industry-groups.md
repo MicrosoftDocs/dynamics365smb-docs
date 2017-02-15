@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 02/15/2017
 ms.author: jswymer
 
 ---
@@ -21,13 +21,13 @@ Using industry groups on contacts is a two-step process. First, you define the i
 
 **Note:** If you plan to synchronize your contacts with vendors, customers, or bank accounts in other parts of the application, you may want to set up a business relation for them.
 
-## to define an industry group code
+## To define an industry group code
 The industry group code defines the type or category of the group, such as ADVERT for advertising, or PRESS, for TV and radio. You can have several industry group codes. To define the industry groups, you use the **Industry Groups** window.
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Industry Groups**, and then choose the related link.
 2. Choose the **New** action, and fill in a code and description. The code can be a maximum of 11 characters, and can be any combination of numbers and letters.
 
-## to assign industry groups to a contact
+## <a name="AssignIndustryGroupContact"></a> To assign industry groups to a contact
 You cannot assign industry groups to a contact person - only companies.
 
 1. Open the contact.
@@ -43,4 +43,3 @@ After you have assigned industry groups to your contacts, you can use this infor
 ## See Also
 [Creating Contact Companies](marketing-create-contact-companies.md)  
 [Working With Financials](ui-work-product.md)
-

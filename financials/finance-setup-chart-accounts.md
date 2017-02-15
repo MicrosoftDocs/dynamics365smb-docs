@@ -15,7 +15,7 @@ ms.author: edupont
 
 ---
 # Setting Up or Changing the Chart of Accounts
-The chart of accounts shows the ledger accounts that store your financial data. Financials includes a standard chart of accounts that is ready to support your business.
+The chart of accounts shows the ledger accounts that store your financial data. [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] includes a standard chart of accounts that is ready to support your business.
 However, you can change the default accounts, and you can add new accounts.  
 
 ## Adding or Changing Accounts
@@ -35,5 +35,4 @@ Financials will prevent you from deleting a general ledger account that stores d
 [Dimensions](finance-dimensions.md)  
 [Importing from Other Finance Systems](upload-data.md)  
 [How to: Work With GIFI Codes in Canada](ca-finance-work-gifi-codes.md)  
-[Working With Financials](ui-work-product.md)  
-
+[Working With [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  

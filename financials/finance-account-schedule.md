@@ -21,7 +21,7 @@ Financials provides a few sample account schedules that you can use right away, 
 
 Setting up account schedules requires an understanding of the financial data in the chart of accounts. For example, you can view general ledger entries as percentages of budget entries. You use the **Account Schedule** window to set up account schedules.  
 
-**Note**: This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your Financials Experience](ui-experiences.md).
+**Note**: This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Experience](ui-experiences.md).
 
 ## Account Categories and Account Schedules
 You can use account categories to change the layout of your financial statements. After you set up your account categories in the **G/L Account Categories** window, and you choose the **Generate Account Schedules** action, the underlying account schedules for the core financial reports are updated. The next time you run one of these reports, such as the balance statement, new totals and subentries are added, based on your changes. For more information, see [The General Ledger and the Chart of Accounts](finance-general-ledger.md).  
@@ -31,4 +31,3 @@ You can use account categories to change the layout of your financial statements
 [Setting Up Finance](finance-setup-finance.md)  
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
 [Working With Financials](ui-work-product.md)  
-

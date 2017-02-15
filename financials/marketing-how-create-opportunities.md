@@ -25,9 +25,9 @@ Before you can create opportunities, you must set up opportunity sales cycles. F
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Salespeople**, and then choose the related link.
 2. Select the salesperson from the list for whom you want to create an opportunity.
 3. Choose the **Opportunities** action, and then choose **List**.
-4. Choose **New**, and then fill in the relevant fields.  
+4. Choose **New**, and then fill in the fields as relevant. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-[!INCLUDE[tooltipnote](includes/tooltipnote_md.md)]
+
 
 ## To create an opportunity from a contact
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Contacts**, and then choose the related link.

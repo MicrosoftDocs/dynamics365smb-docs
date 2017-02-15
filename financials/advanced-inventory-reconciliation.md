@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/08/2017
+ms.date: 02/15/2017
 ms.author: sgroespe
 
 ---
@@ -21,6 +21,4 @@ Even though inventory costs are automatically posted to the general ledger, it i
 
 ## See Also
 [Inventory](inventory-manage-inventory.md)  
-[Advanced: Best Price Calculation](advanced-best-price-calculation.md) 
-
-
+[Advanced: Best Price Calculation](advanced-best-price-calculation.md)

@@ -15,7 +15,7 @@ ms.author: sgroespe
 
 ---
 # How to: Set Up Bank Accounts
-You use bank accounts in the Financials to keep track of your banking transactions. Accounts can be denominated in your local currency or in a foreign currency. After you have set up bank accounts, you can also use the check printing option.
+You use bank accounts in the [!INCLUDE[d365fin](includes/d365fin_md.md)] to keep track of your banking transactions. Accounts can be denominated in your local currency or in a foreign currency. After you have set up bank accounts, you can also use the check printing option.
 
 ## To set up bank accounts
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Bank Accounts**, and then choose the related link.
@@ -42,4 +42,4 @@ Fields on the **Transfer** FastTab in the **Vendor Bank Account Card** window ar
 ## See Also
 [Setting Up Banking](bank-setup-banking.md)  
 [Managing Bank Accounts](bank-manage-bank-accounts.md)  
-[Working With Financials](ui-work-product.md)
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

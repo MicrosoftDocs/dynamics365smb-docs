@@ -32,7 +32,7 @@ You cannot assign business relations to a contact person - only companies.
 
 1. Open the contact.
 2. Choose the **Company** action, and then the **Business Relations** action.
-   
+
     The **Contact Business Relations** window opens.
 3. In the **Business Relation Code** field, select the business relation you want to assign.
 
@@ -44,5 +44,4 @@ After you have assigned business relations to your contacts, you can use this in
 
 ## See Also
 [Creating Contact Companies](marketing-create-contact-companies.md)  
-[Working With Financials](ui-work-product.md)
-
+[Working With [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)

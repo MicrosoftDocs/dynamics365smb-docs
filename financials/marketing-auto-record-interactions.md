@@ -28,5 +28,4 @@ To open the **Interaction Template Setup** window, in the top right corner, choo
 
 ## See Also
 [Recording Interactions With Contacts](marketing-interactions.md)  
-[Working With Financials](ui-work-product.md)  
-
+[Working With [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  

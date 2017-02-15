@@ -86,6 +86,6 @@ The costs of the items that make up the assembly BOM are copied from the compone
 
 ## See Also
 [How to: Register New Products](inventory-how-register-new-products.md)  
-[Inventory](inventory-manage-inventory.md) 
 [How to: Get an Availability Overview](inventory-how-availability-overview.md)   
+[Inventory](inventory-manage-inventory.md)  
 [Working With Financials](ui-work-product.md)

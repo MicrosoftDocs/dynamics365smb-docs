@@ -71,7 +71,7 @@ To use a manual process:
 
 **Tip:** Consider the length of the periods that the service will use in its calculations. The more data you provide, the more accurate the predictions will be. Also, watch out for large variances in periods. They will also impact predictions. If Cortana Intelligence does not find enough data, or the data varies a lot, the service will not make a prediction.  
 
-## Create and use your own predictive web service for cash flow forecasts
+## <a name="AnchorText"> </a> Create and use your own predictive web service for cash flow forecasts
 You can also create your own predictive web service based on a public model named **Forecasting model for Microsoft Dynamics 365 for Financials**. This predictive model is available online in the Cortana Intelligence Gallery. To use the model, follow these steps:  
 
 1. Open a browser and go to the [Cortana Intelligence Gallery](https://go.microsoft.com/fwlink/?linkid=828352).  

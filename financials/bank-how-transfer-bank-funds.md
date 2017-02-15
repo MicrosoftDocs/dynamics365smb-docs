@@ -42,7 +42,7 @@ To transfer funds between bank accounts that use different currencies, you must 
 10. In the **Amount** field, enter the amount in the currency of the bank account. Enter credit amounts with a minus sign. Enter debit amounts without a minus sign.
 11. In the **Bal. Account Type** field, select **Bank Account**.  
 12. In the **Bal. Account No.** field, select the bank account from which you want to transfer the funds.
-    
+
     **Note**: If the exchange rates used in the journal are different than the exchange rates in the **Currency Exchange Rates** window, enter a third line for the exchange rate gain or loss. Enter **G/L Account** in the **Account Type** field. Enter the G/L account number for exchange rate gain or loss in the **Account No.** field. Enter the exchange rate gain or loss in the **Amount** field with or without a minus sign for credits and debits respectively.
 13. Post the journal.
 
@@ -50,5 +50,4 @@ To transfer funds between bank accounts that use different currencies, you must 
 [Managing Bank Accounts](bank-manage-bank-accounts.md)  
 [Setting Up Banking](bank-setup-banking.md)  
 [Working With General Journals](ui-work-general-journals.md)  
-[Working With Financials](ui-work-product.md)
-
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

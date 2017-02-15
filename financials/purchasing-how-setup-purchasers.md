@@ -1,22 +1,17 @@
-            <properties
-                pageTitle="How to: Set Up Purchasers| Financials"
-                description="How to: Set Up Purchasers"
-                services="project-madeira"
-                documentationCenter=""
-                authors="SorenGP"
-/>
-
 ---
-{}
+title: 'How to: Set Up Purchasers| Microsoft Docs'
+description: If several purchasers work at your company, you can organize them for statistical analysis.
+services: project-madeira
+documentationcenter: ''
+author: SorenGP
 
 ms.service: project-madeira
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/14/2016
+ms.date: 02/14/2017
 ms.author: sgroespe
-
 ---
 # How to: Set Up Purchasers
 If several purchasers work at your company, you can set them up in a window and assign them each a code. You can then use the codes to prepare statistics and to filter information in printed reports.

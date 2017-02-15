@@ -11,7 +11,7 @@
     ms.devlang="na"
     ms.tgt_pltfrm="na"
     ms.workload="na"
-    ms.date="02/08/2017"
+    ms.date="02/13/2017"
     ms.author="sgroespe" />
 
 # Inventory
@@ -23,18 +23,19 @@ To increase your overview of items and to help you find them, you can categorize
 
 You must ensure that the costs of your items are forwarded to the related outbound sales transaction, especially in situations where you sell goods before you invoice the purchase of those items. This is referred to as cost adjustment, which you can perform manually or set up to happen automatically when you post an item transaction.
 
-Changes in inventory value from trade are automatically reconciled with your financial books when you post item transactions. 
+Changes in inventory value from trade are automatically reconciled with your financial books when you post item transactions.
 
 **Note**: In Financials, a product is referred to using the term “item”.
 
 |To |See |
 |---|----|
 |Create item cards for inventory items that you trade in.|[How to: Register New Products](inventory-how-register-new-products.md)|
+|Structure parent items that you sell as kits consisting of the parent's components or that you assemble to order or to stock.|[How to: Work with Bills of Materials](inventory-how-work-BOMs.md)|
 |Maintain an overview of items and help you find and sort items by organizing them in categories.|[How to: Categorize Items](inventory-how-categorize-items.md)|
 |Assign item attributes of different value types to your items to help you sort and find items.|[How to: Work with Item Attributes](inventory-how-work-item-attributes.md)|
 |Create special item cards for items that you offer to customers but do not maintain inventory for.|[How to: Work with Nonstock Items](inventory-how-work-nonstock-items.md)|
 |Increase or decrease an item’s inventory quantity, for example, after a physical count or as a simple way to record purchase receipts.|[How to: Adjust Inventory](inventory-how-adjust-inventory.md)|
-|View the availability of items per location, by period, or by sales or purchase event.|[How to: Get an Availability Overview](inventory-how-availability-overview.md)|
+|View the availability of items per location, by period, by sales or purchase event, or by their use on assembly BOMs.|[How to: Get an Availability Overview](inventory-how-availability-overview.md)|
 |Transfer inventory items between locations with transfer orders, to manage warehouse activities, or with the item reclassification journal.|[How to: Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)|
 |Appreciate or depreciate the value of one or more items in inventory by posting their current, calculated value.|[How to: Revalue Inventory](inventory-how-revalue-inventory.md)|
 |Adjust item costs, either automatically or manually, to forward cost changes from inbound entries to their related outbound entries.|[How to: Adjust Item Costs](inventory-how-adjust-item-costs.md)|

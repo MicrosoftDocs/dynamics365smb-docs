@@ -25,7 +25,7 @@ You must ensure that the costs of your items are forwarded to the related outbou
 
 Changes in inventory value from trade are automatically reconciled with your financial books when you post item transactions.
 
-**Note**: In Financials, a product is referred to using the term “item”.
+**Note**: In [!INCLUDE[d365fin](includes/d365fin_md.md)], a product is referred to using the term “item”.
 
 |To |See |
 |---|----|
@@ -45,5 +45,5 @@ Changes in inventory value from trade are automatically reconciled with your fin
 [Purchasing](purchasing-manage-purchasing.md)  
 [Sales](sales-manage-sales.md)    
 [Supply Chain](madeira-supply-chain.md)  
-[Working With Financials](ui-work-product.md)  
+[Working With [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)

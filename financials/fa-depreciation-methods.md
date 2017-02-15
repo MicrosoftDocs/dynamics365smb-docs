@@ -226,7 +226,7 @@ In the **Depreciation Table** window, you can set up user-defined depreciation m
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Depreciation Tables**, and then choose the related link.  
 2. In the **Depreciation Table List** window, choose the **New** action.  
-3. **Depreciation Table Card** window, fill in the fields as necessary. Choose a field to read a short description of the field or link to more information.  
+3. **Depreciation Table Card** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### Example - User-defined Depreciation
 You use a depreciation method that allows you to depreciate assets in an accelerated manner for income tax purposes.  

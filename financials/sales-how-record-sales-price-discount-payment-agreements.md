@@ -17,7 +17,7 @@ ms.author: sgroespe
 # How to: Record Special Sales Prices and Discounts
 The different price and discount agreements that apply when selling to different customers must be defined so that the agreed rules and values are applied to sales documents that you create for the customers.
 
-When you have recorded special prices and line discounts for sales and purchases, Financials ensures that your profit on item trade is always optimal by automatically calculating the best price on sales and purchase documents and on job and item journal lines. For more information, see [Advanced: Best Price Calculation](advanced-best-price-calculation.md).
+When you have recorded special prices and line discounts for sales and purchases, [!INCLUDE[d365fin](includes/d365fin_md.md)] ensures that your profit on item trade is always optimal by automatically calculating the best price on sales and purchase documents and on job and item journal lines. For more information, see [Advanced: Best Price Calculation](advanced-best-price-calculation.md).
 
 Concerning prices, you can have a special sales price inserted on sales lines if a certain combination of customer, item, minimum quantity, unit of measure, or starting/ending date exists.
 
@@ -35,7 +35,7 @@ Because sales prices and sales line discounts are based on a combination of item
 2. Open the relevant customer card, and then choose the **Prices** action.
 
     The **Sales Type** field is prefilled with **Customer**, and the **Sales Code** field is prefilled with the customer number.
-3. Fill in the fields on the line as necessary. Choose a field to read a short description of the field or link to more information.
+3. Fill in the fields on the line as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Fill a line for each combination that will grant a special sales price to the customer.
 
 ## To set up a sales line discount for a customer
@@ -43,7 +43,7 @@ Because sales prices and sales line discounts are based on a combination of item
 2. Open the relevant customer card, and then choose the **Line Discounts** action.
 
     The **Sales Type** field is prefilled with **Customer**, and the **Sales Code** field is prefilled with the customer number.
-3. Fill in the fields on the line as necessary. Choose a field to read a short description of the field or link to more information.
+3. Fill in the fields on the line as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Fill a line for each combination that will grant a sales line discount to the customer.
 
 ## To set up an invoice discount for a customer
@@ -68,4 +68,4 @@ The invoice discount is now set up and assigned to the customer in question. Whe
 [Advanced: Best Price Calculation](advanced-best-price-calculation.md)  
 [Setting Up Sales](sales-setup-sales.md)  
 [Sales](sales-manage-sales.md)  
-[Working With Financials](ui-work-product.md)
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

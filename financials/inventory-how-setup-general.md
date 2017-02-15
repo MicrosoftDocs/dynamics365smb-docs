@@ -19,7 +19,7 @@ You specify your general inventory setup in the **Inventory Setup** window.
 
 ## To set up general inventory information
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Inventory Setup**, and then choose the related link.
-2. In the **Inventory Setup** window, fill in the fields as necessary. Choose a field to read a short description of the field or link to more information.
+2. In the **Inventory Setup** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## See Also
 [Set Up Inventory](inventory-setup-inventory.md)  

@@ -17,7 +17,7 @@ ms.author: sgroespe
 # How to: Record Special Purchase Prices and Discounts
 The different price and discount agreements that apply when you buy from different vendors must be defined so that the agreed rules and values are applied to purchase documents that you create for the vendors.
 
-When you have recorded special prices and line discounts for sales and purchases, Financials ensures that your profit on item trade is always optimal by automatically calculating the best price on sales and purchase documents and on job and item journal lines. For more information, see [Advanced: Best Price Calculation](advanced-best-price-calculation.md).
+When you have recorded special prices and line discounts for sales and purchases, [!INCLUDE[d365fin](includes/d365fin_md.md)] ensures that your profit on item trade is always optimal by automatically calculating the best price on sales and purchase documents and on job and item journal lines. For more information, see [Advanced: Best Price Calculation](advanced-best-price-calculation.md).
 
 Concerning prices, you can have a special purchase price inserted on purchase lines if a certain combination of vendor, item, minimum quantity, unit of measure, or starting/ending date exists.
 
@@ -35,7 +35,7 @@ Because purchase line discounts and purchase prices are based on a combination o
 2. Open the relevant vendor card, and then choose the **Prices** action.
    
     The **Purchase Type** field is prefilled with **Vendor**, and the **Purchase Code** field is prefilled with the vendor number.
-3. Fill in the fields on the line as necessary. Choose a field to read a short description of the field or link to more information.
+3. Fill in the fields on the line as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Fill a line for each combination for which the vendor grants you a purchase line discount.
 
 ## To set up a line discount for a vendor
@@ -43,7 +43,7 @@ Because purchase line discounts and purchase prices are based on a combination o
 2. Open the relevant vendor card, and then choose the **Line Discounts** action.
    
     The **Purchase Type** field is prefilled with **Vendor**, and the **Purchase Code** field is prefilled with the vendor number.
-3. Fill in the fields on the line as necessary. Choose a field to read a short description of the field or link to more information.
+3. Fill in the fields on the line as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Fill a line for each combination for which the vendor grants you a purchase line discount.
 
 ## To set up an invoice discount for a vendor
@@ -68,5 +68,5 @@ The invoice discount is now set up and assigned to the vendor in question. When 
 [Advanced: Best Price Calculation](advanced-best-price-calculation.md)  
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Working With Financials](ui-work-product.md)
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

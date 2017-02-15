@@ -34,7 +34,7 @@ Indexation is used to adjust values for general price-level changes. You can use
 Once a month, or whenever you choose, you can run the **Calculate Depreciation** batch job. The batch job ignores fixed assets that have been sold, are blocked or inactive, or use the manual depreciation method.  
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Calculate Depreciation**, and then choose the related link.  
-2. Fill in the fields as necessary. Choose a field to read a short description of the field or link to more information.  
+2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Choose the **OK** button.  
 
     The batch job calculates the depreciation and creates lines in the fixed asset G/L journal.  

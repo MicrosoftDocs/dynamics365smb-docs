@@ -26,7 +26,7 @@ Every time maintenance has been performed, such as a service visit, you can reco
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Fixed Assets**, and then choose the related link.  
 2. Select the fixed asset that you want to record maintenance for, and then choose the **Maintenance Registration** action.
-3. In the **Maintenance Registration** window, fill in the fields as necessary. Choose a field to read a short description of the field or link to more information.  
+3. In the **Maintenance Registration** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## To post maintenance costs from a fixed asset G/L journal
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Depreciation Book List**, and then choose the related link.  

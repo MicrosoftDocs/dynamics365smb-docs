@@ -29,7 +29,7 @@ To transfer items, locations and transfer routes must be set up. For more inform
 
 ## To transfer items with a transfer order
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Transfer orders**, and then choose the related link.
-2. In the **Transfer Order** window, fill in the fields as necessary. Choose a field to read a short description of the field or link to more information.
+2. In the **Transfer Order** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
    
     **Note**: If you have filled in the **In-Transit Code**, **Shipping Agent Code**, and **Shipping Agent Service** fields in the **Trans. Route Spec.** window when you set up the transfer route, then the corresponding fields on the transfer order are filled in automatically.
    
@@ -45,7 +45,7 @@ To transfer items, locations and transfer routes must be set up. For more inform
 
 ## To transfer items with the item reclassification journal
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Item Reclass. Journals**, and then choose the related link.
-2. In the **Item Reclass. Journal** window, fill in the fields as necessary. Choose a field to read a short description of the field or link to more information.
+2. In the **Item Reclass. Journal** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. In the **Location Code** field, enter the location where the items are currently stored.
    
     **Note**: To transfer items that have no location code, leave the **Location Code** field blank.

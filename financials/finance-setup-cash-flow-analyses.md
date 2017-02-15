@@ -48,7 +48,7 @@ The Cash Flow chart is based on the following:
 
 To help you get going, some accounts and cash flow setups are provided. You can add, change, or remove them.  
 
-To set these up, search for **cash flow accounts**, choose the link, and then fill in the fields. Choose a field to read a short description of the field or link to more information. Repeat these steps for **cash flow setup**.  
+To set these up, search for **cash flow accounts**, choose the link, and then fill in the fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Repeat these steps for **cash flow setup**.  
 
 ## Set up cash flow forecasts
 The **Cash Flow Forecast** chart uses cash flow accounts, cash flow setups, and cash flow forecasts. Some are provided, however, you can set up your own by using an assisted setup guide. The guide helps you specify things like how often to update the forecast, the accounts to base it on, information about when you pay taxes, and whether to turn on [Cortana Intelligence](https://www.microsoft.com/en-us/cloud-platform/what-is-cortana-intelligence-suite).  

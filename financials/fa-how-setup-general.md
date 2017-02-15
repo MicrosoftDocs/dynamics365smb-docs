@@ -21,7 +21,7 @@ Before you can manage fixed assets, you must set up default G/L accounts, alloca
 You define the general behavior or the fixed asset functionality and set up document number series in the  in the **Fixed Assets Setup** window.
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Fixed Assets Setup**, and then choose the related link.  
-2. Fill in the fields as necessary. Choose a field to read a short description of the field or link to more information.
+2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## To set up fixed asset posting groups
 You use posting groups to define groups of fixed assets. Entries for these posting groups are posted to the same general ledger accounts.

@@ -27,7 +27,7 @@ You can create an invoice for a job or for one or more job tasks for a customer 
 From the **Jobs** window, you can invoice a customer by selecting the job, and then choosing the **Create Job Sales Invoice** action. The following procedure shows how to use a batch job to invoice multiple jobs.  
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Job Create Sales Invoice**, and then choose the related link.  
-2. Fill in the fields as necessary. Choose a field to read a short description of the field or link to more information. 
+2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 3. Set filters if you want to limit the jobs that the batch job will process. 
 4. Choose the **OK** button to create the invoices.  
 

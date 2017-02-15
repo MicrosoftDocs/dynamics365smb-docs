@@ -63,7 +63,7 @@ All fields on the sales invoice line for the assembly item are cleared except fo
 
 **Note**: The Explode BOM function is also available in the **Assembly BOM** window.
 
-## To calculate the standard cost of assembly BOMs
+## To calculate the standard cost of an assembly item
 You calculate the unit cost of an assembly item by rolling up the unit cost of each component and resource in the item’s assembly BOM.
 
 The unit cost of an assembly BOM always equals the total of the unit costs of its components, including other assembly BOMs, and any resources.

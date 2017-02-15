@@ -34,7 +34,7 @@ You can easily correct or cancel a posted sales invoice before it is paid. For e
 
 Products can be both inventory items and services. For more information, see [How to: Register New Products](inventory-how-register-new-products.md). The sales invoice process is the same for both product types.
 
-**Note:** In Financials, a product is referred to with the term “item”.
+**Note:** In [!INCLUDE[d365fin](includes/d365fin_md.md)], a product is referred to with the term “item”.
 
 You can fill customer fields on the sales invoice in two ways depending on whether the customer is already registered.
 
@@ -84,5 +84,5 @@ The related item and customer ledger entries are now created in your system, and
 [Setting Up Sales](sales-setup-sales.md)  
 [Inventory](inventory-manage-inventory.md)  
 [How to: Send Documents by Email](ui-how-send-documents-email.md)  
-[Working With Financials](ui-work-product.md)
+[Working With Finan[!INCLUDE[d365fin](includes/d365fin_md.md)]cials](ui-work-product.md)
 

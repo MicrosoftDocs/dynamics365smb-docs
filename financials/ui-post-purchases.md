@@ -42,5 +42,5 @@ When the posting is completed, the posted purchase lines are removed from the or
 ## See Also
 [Purchasing](purchasing-manage-purchasing.md)  
 [Post Documents and Journals](ui-post-documents-journals.md)  
-[Working With Financials](ui-work-product.md)
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

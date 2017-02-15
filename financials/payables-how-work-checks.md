@@ -15,7 +15,7 @@ ms.author: sgroespe
 
 ---
 # How to: Work With Checks
-Financials supports electronic and manual check issuance. Both methods use the payment journal to issue checks to vendors. You can also void checks and view check ledger entries.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] supports electronic and manual check issuance. Both methods use the payment journal to issue checks to vendors. You can also void checks and view check ledger entries.
 
 The process of issuing checks suggests payments, creates ledger entries, and prints the computer checks.
 
@@ -29,7 +29,7 @@ Your printer must be correctly set up with the check forms, and you must define 
 3. In the **Bank Payment Type** field on journal lines for payment that you want to make with checks, select one of the following options:
    
    * **Computer Check**: Select this option if you want to print a check for the amount on the payment journal line. You must print the checks before you can post the journal lines. You can only select **Computer Check** if the **Bal. Account Type** or the **Account Type** is **Bank Account**.
-   * **Manual Check**: Select this option if you have created a check manually and want to create a corresponding check ledger entry for this amount. By using this option, you cannot print checks from Financials. You can only select **Manual Check** if the **Bal. Account Type** or the **Account Type** is **Bank Account**.
+   * **Manual Check**: Select this option if you have created a check manually and want to create a corresponding check ledger entry for this amount. By using this option, you cannot print checks from [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can only select **Manual Check** if the **Bal. Account Type** or the **Account Type** is **Bank Account**.
      
      **Note**: You must print computer checks before you post the related journal lines.
 4. In case of computer checks, choose **Print Check**.
@@ -56,5 +56,5 @@ When check payment have been posted, you can only cancel (void) checks from the 
 [Managing Payables](payables-manage-payables.md)  
 [Setting Up Banking](bank-setup-banking.md)  
 [How to: Export a Positive Pay file](finance-how-positive-pay.md)  
-[Working With Financials](ui-work-product.md)  
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

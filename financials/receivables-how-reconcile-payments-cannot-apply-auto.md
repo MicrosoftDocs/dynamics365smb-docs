@@ -15,7 +15,7 @@ ms.author: sgroespe
 
 ---
 # How to: Reconcile Payments That Cannot be Applied Automatically
-You may sometimes have to handle payments to your bank account that cannot be applied to a related open customer, vendor or bank account ledger entry. Reasons may be that no document exists in Financials that the payment can be applied to, or the related document in Financials has a different amount than the transaction amount, for example, because of currency exchange. In the **Payment Reconciliation Journal** window, all transaction amounts for payments that are not yet applied appear in the **Difference** field, including amounts that cannot be applied because of reasons such as the above.
+You may sometimes have to handle payments to your bank account that cannot be applied to a related open customer, vendor or bank account ledger entry. Reasons may be that no document exists in [!INCLUDE[d365fin](includes/d365fin_md.md)] that the payment can be applied to, or the related document in [!INCLUDE[d365fin](includes/d365fin_md.md)] has a different amount than the transaction amount, for example, because of currency exchange. In the **Payment Reconciliation Journal** window, all transaction amounts for payments that are not yet applied appear in the **Difference** field, including amounts that cannot be applied because of reasons such as the above.
 
 Payments that cannot be applied can appear on payment reconciliation journal lines in the following different ways:
 
@@ -42,5 +42,5 @@ If the value in the **Difference** field was lower than the value in the **Trans
 ## See Also
 [Managing Receivables](receivables-manage-receivables.md)  
 [Sales](sales-manage-sales.md)  
-[Working With Financials](ui-work-product.md)
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

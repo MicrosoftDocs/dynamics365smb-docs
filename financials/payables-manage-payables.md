@@ -32,7 +32,7 @@ The following table describes a sequence of tasks within accounts payable, with 
 ## See Also
 [Purchasing](purchasing-manage-purchasing.md)  
 [Managing Receivables](receivables-manage-receivables.md)  
-[Working With Financials](ui-work-product.md)  
+[Working With Financ[!INCLUDE[d365fin](includes/d365fin_md.md)]ials](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)  
-[Working With Financials](ui-work-product.md)
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

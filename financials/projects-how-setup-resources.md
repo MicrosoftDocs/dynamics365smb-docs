@@ -26,7 +26,7 @@ Create a card for each resource that you want to use in projects.
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Resources**, and then choose the related link.
 2. Choose the **New** action.
-3. Fill in the fields as necessary. Choose a field to read a short description of the field or link to more information.  
+3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## To set up a resource group
 You can combine several resources in one resource group. All capacities and budgets of resource groups are accumulated from the individual resources. It is also possible to enter capacities for resource groups either independently of the accumulated values or in addition to them.
@@ -71,5 +71,5 @@ In addition to price specified on the resource card, you can set up alternate pr
 [Finance](finance.md)  
 [Purchasing](purchasing-manage-purchasing.md)         
 [Sales](sales-manage-sales.md)      
-[Working With Financials](ui-work-product.md)  
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

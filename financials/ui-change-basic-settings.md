@@ -15,7 +15,7 @@ ms.author: solsen
 
 ---
 # Changing Basic Settings
-In the **My Settings** window, you can see and change basic settings for Financials.  
+In the **My Settings** window, you can see and change basic settings for [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## Role Center
 The Role Center represents the Home page, a starting page that is designed for the needs of the role. On the Home page, you have an overview of the business. To the left you see a navigation bar that gives you easy access to customers, vendors, items, and so on.
@@ -27,7 +27,7 @@ You can also build up a list of Favorite Customers on the Home page for accounts
 The default Role Center is **Business Manager**, but you can select another Role Center that fits your needs better. For more information, see [How to: Change the Role Center](change-role.md).
 
 ## Company
-A company functions as a container for data in Financials. There can be multiple companies in a database, but only one can be selected at a time.
+A company functions as a container for data in [!INCLUDE[d365fin](includes/d365fin_md.md)]. There can be multiple companies in a database, but only one can be selected at a time.
 
 The default company is called CRONUS and contains demonstration data only.
 
@@ -44,7 +44,6 @@ The default work date is usually today's date. You may have to temporarily chang
 Use the options in this section if you want to specify some additional checks for posting documents. These options are checked as standard, but you can clear the check boxes to avoid getting specific warnings or messages.
 
 ## See Also
-[Working With Financials](ui-work-product.md)  
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [How to: Change the Role Center](change-role.md)  
-[Customizing the Dynamics 365 for Financials Experience](ui-experiences.md)  
-
+[Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)  

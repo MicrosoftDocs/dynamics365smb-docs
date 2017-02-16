@@ -1,6 +1,6 @@
 ---
-title: 'How to: Apply Vendor Payments Manually| Microsoft Docs'
-description: 'How to: Apply Vendor Payments Manually'
+title: 'How to: Reconcile Vendor Payments Manually| Microsoft Docs'
+description: 'How to: Reconcile Vendor Payments Manually'
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,11 +10,11 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/28/2016
+ms.date: 02/14/2017
 ms.author: sgroespe
 
 ---
-# How to: Apply Vendor Payments Manually
+# How to: Reconcile Vendor Payments Manually
 When you send a payment or receive a refund from a vendor, you must decide whether to apply the payment or refund to one or more open entries. You can specify the exact amount that you want to apply to the payment receipt or refund, and then only partially apply vendor ledger entries. You must apply all vendor ledger entries to obtain correct vendor statistics and reports of the account statements and finance charges.
 
 **Note**: Vendors may sometimes give a payment refund instead of a credit memo to offset against future invoices, especially when you return items that you have already paid for or when you have overpaid an invoice.
@@ -113,5 +113,5 @@ When you unapply an erroneous application, correcting entries that are identical
 ## See Also
 [Payables](payables-manage-payables.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Working With Financials](ui-work-product.md)
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

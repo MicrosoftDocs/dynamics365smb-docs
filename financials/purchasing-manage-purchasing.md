@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 08/29/2016
+ms.date: 02/07/2017
 ms.author: sgroespe
 
 ---
@@ -21,7 +21,7 @@ You must use purchase orders if your purchasing process requires that you record
 
 You can have purchase invoices created automatically by using the OCR (Optical Character Recognition) service to convert PDF invoices from your vendors to electronic documents, which are then converted to purchase invoices by a workflow. To use this functionality, you must first sign up for the OCR service, and then perform various setup. For more information, see [How to: Process Incoming Documents](across-process-income-documents.md).      
 
-**Note**: In Financials, a product is referred to using the term “item”.
+**Note**: In [!INCLUDE[d365fin](includes/d365fin_md.md)], a product is referred to using the term “item”.
 
 Products can be both inventory items and services. For more information, see [How to: Register New Products](inventory-how-register-new-products.md).
 
@@ -42,6 +42,5 @@ The following table describes a sequence of tasks, with links to the topics that
 [Managing Payables](payables-manage-payables.md)  
 [Manage Projects](projects-manage-projects.md)    
 [Supply Chain](madeira-supply-chain.md)      
-[Working With Financials](ui-work-product.md)  
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)
-

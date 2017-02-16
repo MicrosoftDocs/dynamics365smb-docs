@@ -31,7 +31,7 @@ You can easily correct or cancel a posted sales invoice resulting from a sales o
 
 Products can be both inventory items and services. For more information, see [How to: Register New Products](inventory-how-register-new-products.md). The sales order process is the same for both product types.
 
-**Note**: In Financials, a product is referred to with the term “item”.
+**Note**: In [!INCLUDE[d365fin](includes/d365fin_md.md)], a product is referred to with the term “item”.
 
 You can fill customer fields on the sales order in two ways depending on whether the customer is already registered.
 
@@ -49,7 +49,7 @@ You can fill customer fields on the sales order in two ways depending on whether
 7. When you have completed the customer card, choose the **OK** button to return to the **Sales Order** window.
    
     Several fields on the sales order are now filled with information that you specified on the new customer card.
-8. Fill in the remaining fields in the **Sales Order** window as necessary. Choose a field to read a short description of the field or link to more information.
+8. Fill in the remaining fields in the **Sales Order** window as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
    
     You are now ready to fill in the sales order lines with inventory items or services that you want to sell to the customer.
    
@@ -86,5 +86,5 @@ The related item and customer ledger entries are now created in your system, and
 [Setting Up Sales](sales-setup-sales.md)  
 [Inventory](inventory-manage-inventory.md)  
 [How to: Send Documents by Email](ui-how-send-documents-email.md)  
-[Working With Financials](ui-work-product.md)
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

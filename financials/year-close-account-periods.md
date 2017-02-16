@@ -36,5 +36,5 @@ After a fiscal year is closed, you must close the income statement accounts and 
 [Closing Books](year-close-books.md)  
 [How to: Post the Year-End Closing Entry](year-how-post-year-end-close-entry.md)  
 [How to: Open a New Fiscal Year](finance-how-open-new-fiscal-year.md)  
-[Working With Financials](ui-work-product.md)
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/26/2017
+ms.date: 02/08/2017
 ms.author: sgroespe
 
 ---
@@ -26,6 +26,8 @@ You can adjust item costs in two ways:
 
 * Automatically, by having the system adjusted any cost changes every time that inventory transactions occur.  
 * Manually, by running the **Adjust Cost - Item Entries** batch job for one or more items when you know that their costs have changed.
+
+Changes in inventory value from trade are automatically reconciled with your financial books when you post item transactions. For more information, see [Advanced: Inventory Reconciliation](advanced-inventory-reconciliation.md).
 
 ## To adjust item costs automatically
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Inventory Setup**, and then  choose the related link.
@@ -46,8 +48,8 @@ You can adjust item costs in two ways:
 2. In the **Adjust Cost - Item Entries** window, specify which items to adjust costs for and whether the adjusted costs will be posted to the general ledger at the same time.
 
 ## See Also
+[Advanced: Inventory Reconciliation](advanced-inventory-reconciliation.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Working With Financials](ui-work-product.md)
-
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

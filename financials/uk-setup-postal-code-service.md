@@ -26,6 +26,5 @@ If you're in the UK, the UK Postal Code Service can reduce, or even eliminate, t
 6. Close the window.
 
 ## See Also
-[How to: Import addresses using the UK Postal Code service](uk-extensions-how-postal-code-service.md)
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

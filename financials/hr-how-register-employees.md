@@ -48,5 +48,5 @@ You can use alternate addresses to keep track of your employees’ location, for
 
 ## See Also
 [Finance](finance.md)  
-[Working With [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
-[Customizing the [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Experience](ui-experiences.md)
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)

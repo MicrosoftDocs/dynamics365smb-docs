@@ -26,6 +26,5 @@ This list shows the extensions by other companies that are currently available f
 * **Data Migration - Sage**
 
 ## See Also
-[Customizing [!INCLUDE[d365fin](includes/d365fin_long_md.md)] Using Extensions](ui-extensions.md)  
-[Welcome to [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](madeira-get-started.md)  
-
+[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
+[Welcome to [!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-get-started.md)  

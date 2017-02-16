@@ -1,5 +1,5 @@
 ---
-title: Customizing the Dynamics 365 for Financials Experience| Microsoft Docs
+title: Customizing Your Dynamics 365 for Financials Experience| Microsoft Docs
 description: Learn what the user experience tiers mean for you in Dynamics 365 for Financials
 services: project-madeira
 documentationcenter: ''
@@ -14,11 +14,11 @@ ms.date: 11/16/2016
 ms.author: edupont
 
 ---
-# Customizing the [!INCLUDE[d365fin](includes/d365fin_long_md.md)] Experience
+# Customizing Your [!INCLUDE[d365fin](includes/d365fin_long_md.md)] Experience
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is designed to help you run your business, regardless which line of business you are in. At the core of [!INCLUDE[d365fin](includes/d365fin_md.md)], you find financial reporting and sales and purchasing processes. You add experiences to that according to your business needs by adding [extensions from AppSource](ui-extensions.md). But you can also turn up and down the volume on the user experience and choose what's right for your company.
 
 ## Choosing a user experience
-The user experience determines how much of the core functionality is available when you and your colleagues use [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can choose the user experience for your company in the **Company Information** window, in the **Experience** field. 
+The user experience determines how much of the core functionality is available when you and your colleagues use [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can choose the user experience for your company in the **Company Information** window, in the **Experience** field.
 
 **Note**: This setting applies to all users in your company.
 
@@ -31,6 +31,5 @@ The following table lists the experiences that are currently available.
 
 ## See also
 [Changing Basic Settings](ui-change-basic-settings.md)  
-[Customizing [!INCLUDE[d365fin](includes/d365fin_long_md.md)] Using Extensions](ui-extensions.md)  
+[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

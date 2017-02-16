@@ -29,5 +29,4 @@ The Dynamics GP Data Migration extension automatically maps the exported data so
 
 ## See Also
 [Migrate Business Data from Other Finance Systems](upload-data.md)  
-[Customizing [!INCLUDE[d365fin](includes/d365fin_long_md.md)] Using Extensions ](ui-extensions.md)  
-
+[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions ](ui-extensions.md)  

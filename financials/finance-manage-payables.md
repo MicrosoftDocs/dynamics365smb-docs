@@ -47,4 +47,4 @@ If you wait to post payments until after your bank confirms that it has processe
 ## See Also
 [Payment Methods](finance-payment-methods.md)  
 [Finance](finance.md)  
-[Working With [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

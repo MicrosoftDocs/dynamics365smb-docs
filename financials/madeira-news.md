@@ -30,7 +30,7 @@ If you switch to the Suite experience, you can manage projects and work with res
 If you switch to the Suite experience, you can manage fixed assets, including depreciation and insurance. A standard setup is provided, but you can modify it if anytime you want. You can register purchases of fixed assets in dedicated fixed asset G/L journals where you can also dispose of fixed assets. The right accounting entries are created automatically. For more information, see [Fixed Assets](fa-manage.md).
 
 ### New extension for migrating data from Dynamics GP
-If your business uses Dynamics GP today, you can use an assisted setup guide to migrate master records to [!INCLUDE[d365fin](includes/d365fin_md.md)]. You must have exported your existing customers, vendors, inventory items, and accounts using the export data functionality in Dynamics GP. The Dynamics GP Data Migration extension automatically maps the exported data so that you can quickly get  your existing data into your new company in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]. For more information, see [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md).
+If your business uses Dynamics GP today, you can use an assisted setup guide to migrate master records to [!INCLUDE[d365fin](includes/d365fin_md.md)]. You must have exported your existing customers, vendors, inventory items, and accounts using the export data functionality in Dynamics GP. The Dynamics GP Data Migration extension automatically maps the exported data so that you can quickly get  your existing data into your new company in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md).
 
 ### Cash flow forecasting
 The charts on the Accountant Role Center provide insight that can help you make solid decisions about what to do with your cash. Also, you can use the **Cash Flow Forecast** chart to generate predictions of your cash flow in the future. For more information, see [Analyzing Cash Flow in Your Company](finance-analyze-cash-flow.md).
@@ -81,26 +81,26 @@ This update of [!INCLUDE[d365fin](includes/d365fin_md.md)] added new capabilitie
 This update adds actions to the vendor dashboard in the Outlook add-in so you can work directly with attachments to the associated email. You use the actions to send the email attachments directly to the **Incoming Documents** list, send the documents to the OCR service, and send an approval request for the incoming document. For more information, see [Manage Incoming Documents](across-income-documents.md).
 
 ### Create invoices in your Outlook calendar
-The Outlook add-in now extends to the Outlook calendar. From a calendar appointment, you can open the Financials add-in and get an overview for the customer associated with the appointment. Then, you can create and send an invoice for the services provided in the meeting - all of this happening right there in the Outlook calendar. For more information, see [Using Financials as your Business Inbox in Outlook](madeira-outlook.md).  
+The Outlook add-in now extends to the Outlook calendar. From a calendar appointment, you can open the [!INCLUDE[d365fin](includes/d365fin_md.md)] add-in and get an overview for the customer associated with the appointment. Then, you can create and send an invoice for the services provided in the meeting - all of this happening right there in the Outlook calendar. For more information, see [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as your Business Inbox in Outlook](madeira-outlook.md).  
 
 ### AppSource marketplace for extensions
-[!INCLUDE[d365fin](includes/d365fin_md.md)] extensions are now available in the AppSource marketplace at [AppSource.microsoft.com](https://appsource.microsoft.com/). You will be able to search and find extensions in the marketplace. You will be able to view information, including marketing material, screenshots, videos and links to additional details. For more information, see [Customizing Dynamics 365 for Financials Using Extensions](ui-extensions.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] extensions are now available in the AppSource marketplace at [AppSource.microsoft.com](https://appsource.microsoft.com/). You will be able to search and find extensions in the marketplace. You will be able to view information, including marketing material, screenshots, videos and links to additional details. For more information, see [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md).  
 
 ### Shipping agents and item attributes
 You can add attributes to your inventory items that make it really easy to find the right product that your customer wants. For more information, see [How to: Work with Item Attributes](inventory-how-work-item-attributes.md).  
 
 ### New extensions made available
 With this update, you can choose between even more extensions in the **Extension Management** window.
-For more information, see [Financials Extensions by Other Providers](ui-extensions-other.md).  
+For more information, see [[!INCLUDE[d365fin](includes/d365fin_md.md)] Extensions by Other Providers](ui-extensions-other.md).  
 
 ### Manage your customer relationships using Microsoft Dynamics CRM from inside [!INCLUDE[d365fin](includes/d365fin_md.md)]
-We've added a new assisted setup guide to the Business Manager home page that guides you through the setup process to connect to Dynamics CRM. Once that's done, you'll have a seamless coupling of Dynamics CRM records with [!INCLUDE[d365fin](includes/d365fin_md.md)] records. For more information, see [Manage your customer relationships using Microsoft Dynamics CRM from inside Financials ](marketing-integrate-dynamicscrm.md).
+We've added a new assisted setup guide to the Business Manager home page that guides you through the setup process to connect to Dynamics CRM. Once that's done, you'll have a seamless coupling of Dynamics CRM records with [!INCLUDE[d365fin](includes/d365fin_md.md)] records. For more information, see [Manage your customer relationships using Microsoft Dynamics CRM from inside [!INCLUDE[d365fin](includes/d365fin_md.md)] ](marketing-integrate-dynamicscrm.md).
 
 ## May 2016 Update
 This update of [!INCLUDE[d365fin](includes/d365fin_md.md)] added new capabilities as [announced on the blog](https://community.dynamics.com/business/b/financials/archive/2016/06/01/new-and-updated-capabilities-in-the-first-update-of-project-quot-madeira-quot).  
 
 ### New extensions made available
-Check out the **Extension Management** window: The update adds new extensions, including Sana Commerce for [!INCLUDE[d365fin](includes/d365fin_md.md)] that provides B2B Commerce capabilities, and ChargeLogic Payments that provides payment and credit card processing capabilities. The extensions are not installed automatically for you, but the **Extension Management** window will help you install the extensions that you want to use. For more information, see [Financials Extensions by Other Providers](ui-extensions-other.md).  
+Check out the **Extension Management** window: The update adds new extensions, including Sana Commerce for [!INCLUDE[d365fin](includes/d365fin_md.md)] that provides B2B Commerce capabilities, and ChargeLogic Payments that provides payment and credit card processing capabilities. The extensions are not installed automatically for you, but the **Extension Management** window will help you install the extensions that you want to use. For more information, see [[!INCLUDE[d365fin](includes/d365fin_md.md)] Extensions by Other Providers](ui-extensions-other.md).  
 
 ### Filter on unprocessed incoming documents
 We have also changed some core functionality in this month's update: The list of incoming documents is now filtered to show only entries that have not been used to create posted documents with. For more information, see [Manage Incoming Documents](across-income-documents.md).  
@@ -115,12 +115,12 @@ Key scenarios to try out on your own:
 
 - [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as your Business Inbox in Outlook](madeira-no-outlook.md)  
 - [Getting [!INCLUDE[d365fin](includes/d365fin_md.md)] on my Mobile Device](install-mobile-app.md)  
-- [Using the [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Content Pack for Power BI](madeira-powerbi.md)  
+- [Using the [!INCLUDE[d365fin](includes/d365fin_md.md)] Content Pack for Power BI](madeira-powerbi.md)  
 - [Changing the Role Center](change-role.md)  
 
 
 
 ## See Also
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](madeira-get-started.md)  
-[Working With Financials](ui-work-product.md)  
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Dynamics 365 Roadmap](https://roadmap.dynamics.com/)  

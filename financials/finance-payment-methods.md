@@ -20,4 +20,4 @@ Payment methods are linked to vendors in order to specify how an invoice from th
 
 ## See Also
 [Finance](finance.md)  
-[Working With [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

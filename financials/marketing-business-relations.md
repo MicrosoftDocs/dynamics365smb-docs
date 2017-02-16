@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 02/15/2017
 ms.author: jswymer
 
 ---
@@ -27,7 +27,7 @@ The business relation code defines a category or type of the business relationsh
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Business Relations**, and then choose the related link.
 2. Choose the **New** action, and fill in a code and description. The code can be a maximum of 11 characters, and can be any combination of numbers and letters.
 
-## to assign business relations to a contact
+## <a name="AssignBusRelContact"></a> To assign business relations to a contact
 You cannot assign business relations to a contact person - only companies.
 
 1. Open the contact.
@@ -44,4 +44,4 @@ After you have assigned business relations to your contacts, you can use this in
 
 ## See Also
 [Creating Contact Companies](marketing-create-contact-companies.md)  
-[Working With [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

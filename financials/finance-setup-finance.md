@@ -36,4 +36,4 @@ The following table describes a sequence of tasks, with links to the topics that
 [Dimensions](finance-dimensions.md)  
 [Migrate Business Data from Other Finance Systems](upload-data.md)  
 [Analyzing Cash Flow in Your Company](finance-analyze-cash-flow.md)  
-[Working With [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -28,9 +28,9 @@ You can either set email up manually or you can get help by using the **Email Se
 5. When the test succeeds, close the window.
 
 ## See Also  
-[Working With [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
-[Setting Up [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](setup.md)  
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [How to: Send Documents by Email](ui-how-send-documents-email.md)  
-[Customizing [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Using Extensions](ui-extensions.md)  
-[Using [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] as Your Business Inbox in Outlook](madeira-outlook.md)  
-[Getting [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] on My Mobile Device](install-mobile-app.md)
+[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
+[Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as Your Business Inbox in Outlook](madeira-outlook.md)  
+[Getting [!INCLUDE[d365fin](includes/d365fin_md.md)] on My Mobile Device](install-mobile-app.md)

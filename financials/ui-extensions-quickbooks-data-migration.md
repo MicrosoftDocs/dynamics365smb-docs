@@ -31,5 +31,4 @@ The exported data is saved as an IIF file that you can then upload to [!INCLUDE[
 
 ## See Also
 [Migrate Business Data from Other Finance Systems](upload-data.md)  
-[Customizing Dynamics 365 for [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions ](ui-extensions.md)  
-
+[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions ](ui-extensions.md)  

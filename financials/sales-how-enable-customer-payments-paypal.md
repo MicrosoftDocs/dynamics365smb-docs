@@ -24,7 +24,7 @@ To enable customer payments through PayPal, you must do the following:
 1. Set up PayPal Payments Standard as a payment service in the **Payments Services** window.
 2. Select PayPal Payments Standard in the **Payment Service** field on the sales document in question.
 
-The PayPal Payments Standard service is installed as an extension to [!INCLUDE[d365fin](includes/d365fin_md.md)] and ready to be enabled. For more information, see [Customizing [!INCLUDE[d365fin](includes/d365fin_long_md.md)] Using Extensions](ui-extensions.md).
+The PayPal Payments Standard service is installed as an extension to [!INCLUDE[d365fin](includes/d365fin_md.md)] and ready to be enabled. For more information, see [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md).
 
 ## To enable the PayPal Payments Standard service
 1. In the top right corner, choose the **Search for Page or Report** icon, **Payment Services**, and then choose the related link.  
@@ -32,7 +32,7 @@ The PayPal Payments Standard service is installed as an extension to [!INCLUDE[d
 3. Select **PayPal Standard**, and then close the window.
 4. In the **Payment Services** window, choose the **Setup** action.
 5. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-   
+
     **Note**: Select the **Always Include on Documents** check box if the hyperlink for the PayPal payment service should always be visible on sales documents where payment through PayPal is enabled.
 6. Close the window.
 
@@ -46,6 +46,5 @@ The PayPal Payments Standard service is installed as an extension to [!INCLUDE[d
 ## See Also
 [Setting Up Sales](sales-setup-sales.md)  
 [Sales](sales-manage-sales.md)  
-[Customizing [!INCLUDE[d365fin](includes/d365fin_long_md.md)] Using Extensions](ui-extensions.md)  
+[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

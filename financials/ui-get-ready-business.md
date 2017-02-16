@@ -19,9 +19,9 @@ Congratulations, you have just set up your first company in [!INCLUDE[d365fin](i
 
 We have prepared some company data for you, for example, your chart of accounts is prefilled with a number of posting accounts ready for use. You can, of course, change the chart of accounts to suit your needs. For more information, see [Finance](Finance.md).
 
-On the Home page, you will find the **Setup and Extensions** button. Here you have access to a list of assisted setup that can help you getting started. Once you have migrated data such as vendors, customers, and items from your existing financial system, you are ready to begin. But depending on your needs, consider if the other assisted setup can help you. If an area is not covered by an assisted setup, choose the **Manual Setup** action to access setup windows where you can fill in setup fields for all areas manually. For more information, see also [Set Up Dynamics 365 for Financials](setup.md).
+On the Home page, you will find the **Setup and Extensions** button. Here you have access to a list of assisted setup that can help you getting started. Once you have migrated data such as vendors, customers, and items from your existing financial system, you are ready to begin. But depending on your needs, consider if the other assisted setup can help you. If an area is not covered by an assisted setup, choose the **Manual Setup** action to access setup windows where you can fill in setup fields for all areas manually. For more information, see also [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
-**Note:** The list of setup guides, extensions, and services that are available differ depending on the user experience you choose for your company. The **Basic** experience gives access to fewer than the **Suite** experience does. The first time you sign in, you use the Basic experience. For more information, see [Customizing the Dynamics 365 for [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
+**Note:** The list of setup guides, extensions, and services that are available differ depending on the user experience you choose for your company. The **Basic** experience gives access to fewer than the **Suite** experience does. The first time you sign in, you use the Basic experience. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 
 In the **Assisted Setup** window, you will find the following with the **Basic** experience:
 
@@ -59,4 +59,3 @@ Based on your migrated data, you can now proceed to create new sales or purchase
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]](http://go.microsoft.com/fwlink/?LinkID=784954&clcid=0x409)  
 [Welcome to [!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-get-started.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

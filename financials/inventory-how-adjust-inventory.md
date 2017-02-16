@@ -33,5 +33,4 @@ The item’s inventory is now adjusted. The new quantity is shown in the **Curre
 [Inventory](inventory-manage-inventory.md)  
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Working With Financials](ui-work-product.md)
-
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

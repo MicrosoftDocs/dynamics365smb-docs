@@ -25,6 +25,6 @@ You specify your general inventory setup in the **Inventory Setup** window.
 [Set Up Inventory](inventory-setup-inventory.md)  
 [Manage Inventory](inventory-manage-inventory.md)  
 [Supply Chain](madeira-supply-chain.md)  
-[Working With [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
-[Customizing the [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Experience](ui-experiences.md)  
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)  
 [General Business Functionality](ui-across-business-areas.md)

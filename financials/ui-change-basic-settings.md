@@ -46,5 +46,4 @@ Use the options in this section if you want to specify some additional checks fo
 ## See Also
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [How to: Change the Role Center](change-role.md)  
-[Customizing the [!INCLUDE[d365fin](includes/d365fin_long_md.md)] Experience](ui-experiences.md)  
-
+[Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)  

@@ -52,5 +52,4 @@ Changes in inventory value from trade are automatically reconciled with your fin
 [Inventory](inventory-manage-inventory.md)  
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Working With Financials](ui-work-product.md)
-
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

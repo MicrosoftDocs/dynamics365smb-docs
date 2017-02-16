@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 02/15/2017
 ms.author: jswymer
 
 ---
@@ -33,6 +33,5 @@ The contact information is transferred from the **Contact** card to the **Bank A
 [Setting Up Relationship Management](marketing-setup-marketing.md)  
 [Synchronizing Contacts With Customers, Vendors, and Bank Accounts](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
 [How to: Link Contacts to Existing Customers, Vendors, or Bank Accounts](marketing-how-link-contact.md)  
-[Assign Business Relations to a Contact](marketing-business-relations.md#assign-business-relations-to-a-contact)  
+[Assign Business Relations to a Contact](marketing-business-relations.md#AssignBusRelContact)  
 [Working With Financials](ui-work-product.md)
-

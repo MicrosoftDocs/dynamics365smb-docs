@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/31/2016
+ms.date: 02/15/2017
 ms.author: jswymer
 
 ---
@@ -26,7 +26,7 @@ Before creating a contact, you may want to check the settings in the **Marketing
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Contacts**, and then choose the related link.
 2. Choose the **New** action.
 3. In the **No. field**, enter a number for the contact.
-   
+
     Alternatively, if you have set up a number series for contacts in the **Marketing Setup** window, you can press the Enter key to select the next available contact number.  
 4. Set **Type** to **Company**.
 5. Fill in the other fields as required.
@@ -42,16 +42,15 @@ If you have already set up a number of customers, vendors, and bank accounts, yo
    * **Create Contacts from Bank Accounts**
 2. In the batch job window that opens, in the **Customer**, **Vendor**, or **Bank Account** section, set filters if you want to create contacts from specific customers, vendors, or bank accounts.
 3. Choose the **OK** button to start creating contacts.
-   
+
     The next contact numbers in the number series are assigned to the new contacts. The business relation for vendors that is specified in the **Marketing Setup** window is assigned to the newly created contacts.
 
 **Tip**: You can also create a customer, vendor, or bank account from a contact. For more information, see [Create a Customer, Vendor, or Bank Account From a Contact](marketing-how-create-contacts-new-customers-vendors-bank-accounts.md).
 
 ## See Also
 [Synchronizing Contacts With Customers, Vendors, and Bank Accounts](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
-[Assign Business Relations to a Contact](marketing-business-relations.md#assign-business-relations-to-a-contact)  
-[Assign Industry Groups to a Contact](marketing-industry-groups.md#assign-industry-groups-to-a-contact)  
-[Assign Mailing Groups to a Contact](marketing-mailing-groups.md#assign-mailing-groups-to-a-contact)  
+[Assign Business Relations to a Contact](marketing-business-relations.md#AssignBusRelContact)  
+[Assign Industry Groups to a Contact](marketing-industry-groups.md#AssignIndustryGroupContact)  
+[Assign Mailing Groups to a Contact](marketing-mailing-groups.md#AssignMailGroupContact)  
 [How to: Create Contact Persons](marketing-create-contact-persons.md)  
 [Working With Financials](ui-work-product.md)
-

@@ -60,4 +60,4 @@ You can then fill or edit fields on the new item card as necessary. For more inf
 ## See Also
 [How to: Register New Products](inventory-how-register-new-products.md)  
 [Inventory](inventory-manage-inventory.md)  
-[Working With Financials](ui-work-product.md)
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

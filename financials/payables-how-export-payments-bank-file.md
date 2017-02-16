@@ -79,5 +79,5 @@ You can re-export payment files from the **Credit Transfer Registers** window. B
 ## See Also
 [Payables](payables-manage-payables.md)  
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  
-[Working With [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

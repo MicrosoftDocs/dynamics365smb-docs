@@ -29,5 +29,5 @@ The assisted setup includes an option to change the default configuration of the
 
 ## See Also
 [Finance](finance.md)  
-[Customizing Dynamics 365 for [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)   
+[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)   
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)

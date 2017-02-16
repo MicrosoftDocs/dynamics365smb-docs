@@ -23,7 +23,7 @@ To increase your overview of items and to help you find them, you can categorize
 
 You must ensure that the costs of your items are forwarded to the related outbound sales transaction, especially in situations where you sell goods before you invoice the purchase of those items. This is referred to as cost adjustment, which you can perform manually or set up to happen automatically when you post an item transaction.
 
-Changes in inventory value from trade are automatically reconciled with your financial books when you post item transactions. 
+Changes in inventory value from trade are automatically reconciled with your financial books when you post item transactions.
 
 **Note**: In [Using [!INCLUDE[d365fin](includes/d365fin_md.md)], a product is referred to using the term “item”.
 
@@ -44,5 +44,5 @@ Changes in inventory value from trade are automatically reconciled with your fin
 [Purchasing](purchasing-manage-purchasing.md)  
 [Sales](sales-manage-sales.md)    
 [Supply Chain](madeira-supply-chain.md)  
-[Working With [Using [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)

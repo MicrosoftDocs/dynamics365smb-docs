@@ -28,5 +28,4 @@ You can also use the extension to suggest when to stock up on inventory. For exa
 ## See Also
 [Sales](sales-manage-sales.md)  
 [Inventory](inventory-manage-inventory.md)  
-[Customizing [!INCLUDE[d365fin](includes/d365fin_long_md.md)] Using Extensions](ui-extensions.md)  
-
+[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  

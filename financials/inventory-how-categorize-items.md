@@ -17,7 +17,7 @@ ms.author: sgroespe
 # How to: Categorize Items
 To maintain an overview of your items and to help you sort and find items, it is useful to organize your items in item categories.
 
-To find items by characteristics, you can assign item attributes to items and also to item categories. For more information, see [How to: Work with Item Attributes](inventory-how-work-item-attributes.md). 
+To find items by characteristics, you can assign item attributes to items and also to item categories. For more information, see [How to: Work with Item Attributes](inventory-how-work-item-attributes.md).
 
 ## To create an item category
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Item Categories**, and then choose the related link.
@@ -38,5 +38,4 @@ To find items by characteristics, you can assign item attributes to items and al
 [How to: Work with Item Attributes](inventory-how-work-item-attributes.md)  
 [How to: Register New Products](inventory-how-register-new-products.md)  
 [Inventory](inventory-manage-inventory.md)  
-[Working With Financials](ui-work-product.md)
-
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

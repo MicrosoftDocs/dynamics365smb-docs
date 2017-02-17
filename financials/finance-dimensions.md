@@ -29,7 +29,7 @@ The more dimensions you use, the more detailed reports you can base your busines
 
 You can create as many dimensions with as many values as you want.  
 
-**Note**: This functionality requires that your experience is set to **Suite**. For more information, see [Customizing the [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Experience](ui-experiences.md).
+**Note**: This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 
 ## Using Dimensions
 In a document such as a sales order, you can add dimension information for both an individual document line and the document itself. For example, in the **Sales Order** window, you can enter dimension values for the first two shortcut dimensions on the individual sales lines, and you can add more dimension information if you choose the **Dimensions** button.  
@@ -46,4 +46,4 @@ When you create a journal line, document header, or document line, you can speci
 ## See Also
 [Finance](finance.md)  
 [Setting Up Dimensions](finance-setup-dimensions.md)  
-[Working With [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

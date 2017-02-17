@@ -38,5 +38,4 @@ After you have assigned job responsibilities to your contacts, you can use this 
 ## See Also
 [Creating Contact Companies](marketing-create-contact-companies.md)  
 [Creating Contact Persons](marketing-create-contact-persons.md)  
-[Working With Financials](ui-work-product.md)  
-
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

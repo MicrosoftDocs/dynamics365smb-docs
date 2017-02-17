@@ -17,7 +17,7 @@ ms.author: SorenGP
 # How to: Import Payroll Transactions
 To account for salary payments and related transactions, you must import and post financial transactions made by your payroll provider to the general ledger. To do this, you first import a file that you receive from the payroll provider into the **General Journal** window. Then you map the external accounts in the payroll file to the relevant G/L accounts. Lastly, you post the payroll transactions according to the account mapping.
 
-**Note**: To use this functionality, an extension for payroll import must be installed and enabled. The Ceridian Payroll and the Quickbooks Payroll File Import extensions are pre-installed in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Customizing [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Using Extensions](ui-extensions.md).
+**Note**: To use this functionality, an extension for payroll import must be installed and enabled. The Ceridian Payroll and the Quickbooks Payroll File Import extensions are pre-installed in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md).
 
 ## To import a payroll file
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **General Journals**, and then choose the related link.
@@ -31,5 +31,5 @@ To account for salary payments and related transactions, you must import and pos
 
 ## See Also
 [Finance](finance.md)  
-[Customizing [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Using Extensions](ui-extensions.md)  
+[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
 [How to: Work With General Journals](ui-work-general-journals.md)  

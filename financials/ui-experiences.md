@@ -19,10 +19,10 @@ ms.author: edupont
 
 ## Choosing a user experience
 The user experience determines how much of the core functionality is available when you and your colleagues use [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can choose the user experience for your company in the **Company Information** window, in the **Experience** field.
-  
+
 **Note**: This setting applies to all users in your company.
 
-![Change the user experience setting](/media/ui-experience/experience.gif)
+![Change the user experience setting](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing.png)
 
 The following table lists the experiences that are currently available.
 

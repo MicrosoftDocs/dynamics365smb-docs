@@ -15,7 +15,7 @@ ms.author: edupont
 
 ---
 # Exporting your Data to Excel from [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-If you want to work with your data from [!INCLUDE[d365fin](includes/d365fin_md.md)] in Excel, you can open all lists in Excel and work with it there. Similarly, if you want to cancel your subscription for Financials, you can export your data to Excel so that you can take it with you.
+If you want to work with your data from [!INCLUDE[d365fin](includes/d365fin_md.md)] in Excel, you can open all lists in Excel and work with it there. Similarly, if you want to cancel your subscription for [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], you can export your data to Excel so that you can take it with you.
 
 ## Opening Lists in Excel
 You can open data in Excel from any journal, list, or worksheet. You just open the page that you want, and then choose **Open in Excel**. For example, open the list of customers (search for **Customers**), and then choose **Open in Excel**. Your browser will prompt you to open or save the generated Excel workbook.  
@@ -54,7 +54,7 @@ We recommend that you also consider exporting data from the following pages:
 * Contacts  
 * Salespeople  
 
-**Note**: If you have set up more than one company in Financials, you must export the relevant data from each company.
+**Note**: If you have set up more than one company in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], you must export the relevant data from each company.
 
 ## See Also
 [Canceling Your Subscription for [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](madeira-cancel.md)  

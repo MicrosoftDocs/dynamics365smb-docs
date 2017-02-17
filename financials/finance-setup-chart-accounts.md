@@ -27,7 +27,7 @@ From the chart of accounts, you can open each G/L account and add or change sett
 * The **Allow G/L Acc. Deletion Before** field must be set in the **General Ledger Setup** window, and the account must not have ledger entries on or after that date.  
 * If the **Check G/L Account Usage** field in the **General Ledger Setup** window is selected, then the account must not be used in any posting groups or posting setup.  
 
-Financials will prevent you from deleting a general ledger account that stores data that is needed in the chart of accounts.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] will prevent you from deleting a general ledger account that stores data that is needed in the chart of accounts.  
 
 ## See Also
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
@@ -35,4 +35,4 @@ Financials will prevent you from deleting a general ledger account that stores d
 [Dimensions](finance-dimensions.md)  
 [Importing from Other Finance Systems](upload-data.md)  
 [How to: Work With GIFI Codes in Canada](ca-finance-work-gifi-codes.md)  
-[Working With [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

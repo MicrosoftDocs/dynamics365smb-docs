@@ -42,4 +42,4 @@ After you have assigned industry groups to your contacts, you can use this infor
 
 ## See Also
 [Creating Contact Companies](marketing-create-contact-companies.md)  
-[Working With Financials](ui-work-product.md)
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

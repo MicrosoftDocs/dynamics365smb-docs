@@ -29,7 +29,6 @@ The Envestnet Yodlee Bank Feeds service provides the following benefits:
 For more information, see [How to: Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md).
 
 ## See Also
-[Customizing [!INCLUDE[d365fin](includes/d365fin_long_md.md)] Using Extensions ](ui-extensions.md)    
+[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions ](ui-extensions.md)    
 [Apply Payments Automatically and Reconcile Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

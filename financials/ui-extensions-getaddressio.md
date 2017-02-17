@@ -16,9 +16,7 @@ ms.author: bholtorf
 ---
 
 #Auto-complete UK addresses on documents
-If you're in the UK, the UK Postal Code service can auto-complete addresses for you on documents. Just enter a name and postal code, and the UK Postal Code service will fill in the rest.  
-  
-  
+If you're in the UK, the UK Postal Code service can auto-complete addresses for you on documents. Just enter the customer name, and their postal code, and the UK Postal Code service will fill in the rest.
 
 ##See Also
 [Set up the UK Postal Code service](uk-setup-postal-code-service.md)

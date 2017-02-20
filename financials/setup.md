@@ -38,4 +38,4 @@ Some functionality, either general or for specific business processes, can be se
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Welcome to [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](madeira-get-started.md)  
+[Welcome to [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  

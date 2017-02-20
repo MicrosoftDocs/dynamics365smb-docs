@@ -57,5 +57,5 @@ Based on your migrated data, you can now proceed to create new sales or purchase
 
 ## See Also
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]](http://go.microsoft.com/fwlink/?LinkID=784954&clcid=0x409)  
-[Welcome to [!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-get-started.md)  
+[Welcome to [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

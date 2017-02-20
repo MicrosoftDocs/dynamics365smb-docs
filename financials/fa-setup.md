@@ -39,5 +39,5 @@ The following table describes a sequence of tasks, with links to the topics that
 ## See Also
 [Fixed Assets](fa-manage.md)  
 [Finance](finance.md)  
-[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](madeira-get-started.md)  
+[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

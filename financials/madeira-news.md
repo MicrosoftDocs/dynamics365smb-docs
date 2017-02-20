@@ -109,7 +109,7 @@ We have also changed some core functionality in this month's update: The list of
 In the top right corner, next to the Settings menu, you will notice the bell symbol that you probably already know well from other Office products: That's the Notifications menu. Here you will receive notifications such as new mail and calendar reminders directly while working in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## April 2016 Preview
-In April 2016, we launched the preview of [!INCLUDE[d365fin](includes/d365fin_md.md)]. Everything was new, and we encouraged you to start the Getting Started guide in the demonstration company that you get access to when you first sign up. The Getting Started guide steps you through key scenarios. For more information, see [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](madeira-get-started.md).  
+In April 2016, we launched the preview of [!INCLUDE[d365fin](includes/d365fin_md.md)]. Everything was new, and we encouraged you to start the Getting Started guide in the demonstration company that you get access to when you first sign up. The Getting Started guide steps you through key scenarios. For more information, see [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md).  
 
 Key scenarios to try out on your own:  
 
@@ -121,6 +121,6 @@ Key scenarios to try out on your own:
 
 
 ## See Also
-[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](madeira-get-started.md)  
+[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Dynamics 365 Roadmap](https://roadmap.dynamics.com/)  

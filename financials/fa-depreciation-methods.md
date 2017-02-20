@@ -24,10 +24,10 @@ There are eight methods of depreciation available:
 * DB2/SL  
 * User-defined  
 * Manual  
-  
+
   **Note:** Use this method for assets that are not subject to depreciation, for example, land. You must enter depreciation in the fixed asset G/L journal. The **Calculate Depreciation** batch job omits fixed assets that use this depreciation method.  
 * Half-Year Convention  
-  
+
   **Note:**  When you use this method, a fixed asset is depreciated by the same amount each year.  
 
 ## Straight-Line Depreciation
@@ -105,15 +105,15 @@ The following table shows how the fixed asset ledger entries look.
 | 12/31/14 |Depreciation |180 |-3,955.08 |23,730.46 |
 
 * Depreciation starting date  
-  
+
     Calculation Method:  
-  
+
     *1st Year: 25% of 100,000 = 25,000 = 12,500 + 12,500*
-  
+
     *2nd Year: 25% of 75,000 = 18,750 = 9,375 + 9,375*
-  
+
     *3rd Year: 25% of 56,250 = 14,062.50 = 7,031.25 + 7,031.25*
-  
+
     The calculation continues until the book value equals the final rounding amount or the salvage value that you entered.   
 
 ## Declining-Balance 2 Depreciation
@@ -226,7 +226,7 @@ In the **Depreciation Table** window, you can set up user-defined depreciation m
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Depreciation Tables**, and then choose the related link.  
 2. In the **Depreciation Table List** window, choose the **New** action.  
-3. **Depreciation Table Card** window, fill in the fields as necessary. Choose a field to read a short description of the field or link to more information.  
+3. **Depreciation Table Card** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### Example - User-defined Depreciation
 You use a depreciation method that allows you to depreciate assets in an accelerated manner for income tax purposes.  
@@ -345,6 +345,5 @@ When you enter an entry in B1 in the fixed asset G/L journal and place a check m
 [Fixed Assets](fa-manage.md)  
 [Setting Up Fixed Assets](fa-setup.md)  
 [Finance](finance.md)  
-[Welcome to Dynamics 365 for Financials](madeira-get-started.md)  
-[Working With Financials](ui-work-product.md)
-
+[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

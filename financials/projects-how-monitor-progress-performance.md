@@ -35,7 +35,7 @@ You can create a job WIP method that reflects the needs of your organization. Af
 **Note**. After you have used your new method to create WIP entries, you cannot delete the method or modify it.  
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Job WIP Methods**, and then choose the related link.  
-2. Choose the **New** action, and then fill in the fields as necessary. Choose a field to read a short description of the field or link to more information.  
+2. Choose the **New** action, and then fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Close the window.   
 4. To make this new method the default, in the top right corner, choose the **Search for Page or Report** icon, enter **Jobs Setup**, and then choose the related link.  
 5. In the **Default WIP Method** field, choose the method from the list.
@@ -90,5 +90,5 @@ In the **Job Ledger Entries** window you can review the entries that are associa
 [Finance](finance.md)  
 [Purchasing](purchasing-manage-purchasing.md)         
 [Sales](sales-manage-sales.md)      
-[Working With Financials](ui-work-product.md)  
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

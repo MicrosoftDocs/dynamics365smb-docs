@@ -29,7 +29,7 @@ Nonstock item cards have much less information than normal item cards because yo
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Nonstock Items**, and then choose the related link.
 2. Choose the **New** action.
-3. Fill in the fields as necessary. Choose a field to read a short description of the field or link to more information.
+3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## To set up how nonstock item numbers are converted to your own numbering
 To enable conversion of a nonstock item card to a normal item card, you must first set up how the vendor's item numbering is converted to your own item number format.
@@ -60,4 +60,4 @@ You can then fill or edit fields on the new item card as necessary. For more inf
 ## See Also
 [How to: Register New Products](inventory-how-register-new-products.md)  
 [Inventory](inventory-manage-inventory.md)  
-[Working With Financials](ui-work-product.md)
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

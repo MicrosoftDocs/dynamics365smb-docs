@@ -17,7 +17,7 @@ ms.author: sgroespe
 # How to: Register New Products
 Products are the basis of your business, the goods or services that you trade in. Each product must be registered as an item card.
 
-**Note**: In Financials, a product is referred to using the term “item”.
+**Note**: In [Using [!INCLUDE[d365fin](includes/d365fin_md.md)], a product is referred to using the term “item”.
 
 Item cards hold the information that is required to buy, store, sell, deliver, and account for products.
 
@@ -53,5 +53,5 @@ The item template is added to the list of item templates, so that you can use it
   [Inventory](inventory-manage-inventory.md)  
   [Purchasing](purchasing-manage-purchasing.md)  
   [Sales](sales-manage-sales.md)  
-  [Working With Financials](ui-work-product.md)
+  [Working With [Using [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

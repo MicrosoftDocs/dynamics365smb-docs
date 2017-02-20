@@ -21,10 +21,10 @@ You can view the availability of all items per location, and you can view the av
 
 **Note**: Availability views by location require that you maintain inventory at more than one location. For more information, see [How to: Set Up Locations](inventory-how-setup-locations.md). 
 
-In Financials, availability figures are shown in two different fields, each with a different definition: 
+In [Using [!INCLUDE[d365fin](includes/d365fin_md.md)], availability figures are shown in two different fields, each with a different definition: 
 
 * The **Quantity on Hand** field shows the actual quantity today according to posted item ledger entries. 
-* The **Projected Available Balance** field is calculated and shows the quantity on hand plus scheduled receipts minus gross requirements. (In Financials, scheduled receipts include quantities on purchase orders and inbound transfer orders. Gross requirements include quantities on sales orders and outbound transfer orders.)
+* The **Projected Available Balance** field is calculated and shows the quantity on hand plus scheduled receipts minus gross requirements. (In [Using [!INCLUDE[d365fin](includes/d365fin_md.md)], scheduled receipts include quantities on purchase orders and inbound transfer orders. Gross requirements include quantities on sales orders and outbound transfer orders.)
 
 **Tip**: The projected available balance is especially relevant to view in the **Item Availability by Periods** and **Item Availability by Event** windows as they contain the date dimension.  
 
@@ -76,6 +76,6 @@ You view the availability of all your items across all your locations in the **I
 [How to: Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)
 [How to: Sell Products](sales-how-sell-products.md)      
 [Supply Chain](madeira-supply-chain.md)  
-[Working With Financials](ui-work-product.md)  
+[Working With [Using [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)
 

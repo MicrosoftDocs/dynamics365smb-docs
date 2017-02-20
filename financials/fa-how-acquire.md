@@ -27,10 +27,10 @@ Indexation is used to adjust values for general price-level changes. The **Index
 The following procedure describes how to create a fixed asset and then acquire it by using the **Assisted Fixed Asset Acquisition** window to create and post the required fixed asset G/L journal lines. You can also create and post the journal lines manually. For more information, see the "To post a fixed asset acquisition manually with the fixed asset G/L journal" section.
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Fixed Assets**, and then choose the related link.  
-2. Choose the **New** action, and then fill in the fields on the **General** FastTab as necessary. Choose a field to read a short description of the field or link to more information.
+2. Choose the **New** action, and then fill in the fields on the **General** FastTab as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. On the **Depreciation Book** FastTab, fill in the fields as necessary. This step assigns a depreciation book to the fixed asset.  
 4. If you need to assign more than one depreciation book to the fixed asset, choose the **Add More Depreciation Books** action. For more information, see the "To assign a depreciation book to a fixed asset" section in [How to: Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md).
-   
+
     When all fields required to acquire a fixed asset are filled in, the **You are ready to acquire the fixed asset. Acquire** notification appears at the top of the page.
 5. Choose the **Acquire** action in the notification.
 6. Follow the steps in the **Assisted Fixed Asset Acquisition** window to complete the automatic acquisition of the fixed asset.
@@ -42,7 +42,7 @@ When you choose **Finish**, the **Book Value** field in the **Fixed Asset Card**
 ## To set up a component list for a main asset
 You can group your fixed assets into main assets and their components. For example, you may have a production machine that consists of many parts that you want to group in this manner.  
 
-Both the main asset and all its components must be set up as individual fixed asset cards. After you have set up a component list, Financials automatically fills in the **Main Assets/Component** and **Components of Main Asset** fields on the fixed asset cards.
+Both the main asset and all its components must be set up as individual fixed asset cards. After you have set up a component list, [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically fills in the **Main Assets/Component** and **Components of Main Asset** fields on the fixed asset cards.
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Fixed Assets**, and then choose the related link.
 2. Select the fixed asset that is the main asset, and then choose the **Main Asset Components** action.
@@ -62,7 +62,7 @@ The following procedure describes how to acquire a fixed asset manually by creat
 3. Fill in the remaining fields as necessary.
 4. Choose the **Post** action.  
 
-**Tip:** If you fill in the **Insurance No.** field in the fixed asset G/L journal when you post an acquisition cost, then Financials will also post the acquisition cost of the fixed asset to the insurance coverage ledger. For more information, see [How to: Insure Fixed Assets](fa-how-insure.md).
+**Tip:** If you fill in the **Insurance No.** field in the fixed asset G/L journal when you post an acquisition cost, then [!INCLUDE[d365fin](includes/d365fin_md.md)] will also post the acquisition cost of the fixed asset to the insurance coverage ledger. For more information, see [How to: Insure Fixed Assets](fa-how-insure.md).
 
 ## To cancel an acquisition cost posting for one fixed asset
 If you make an error when posting an acquisition cost, you can remove the entry with the **Cancel FA Entries** batch job and then post the correct acquisition entry. The erroneous entries are transferred to the **FA Error Ledger Entries** window.
@@ -72,7 +72,7 @@ For example, if you post an acquisition with the wrong date, you must correct it
 **Important:** You cannot use the **Reverse Transactions** function for fixed asset entries.
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Cancel FA Entries**, and then choose the related link.
-2. Fill in the fields as necessary. Choose a field to read a short description of the field or link to more information.
+2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Choose the **OK** button to run the batch job.
 4. When the incorrect entry or entries are canceled, proceed to post the correct acquisition cost.
 
@@ -92,6 +92,5 @@ You can post the salvage value together with the acquisition cost from a fixed a
 [Fixed Assets](fa-manage.md)  
 [Setting Up Fixed Assets](fa-setup.md)  
 [Finance](finance.md)  
-[Welcome to Dynamics 365 for Financials](madeira-get-started.md)  
-[Working With Financials](ui-work-product.md)
-
+[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -15,7 +15,7 @@ ms.author: sgroespe
 
 ---
 # Supply Chain
-Financials supports common supply chain processes, although limited to the needs of wholesale and distribution companies without managed warehouse handling.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] supports common supply chain processes, although limited to the needs of wholesale and distribution companies without managed warehouse handling.
 
 In addition to sales invoice documents, you can manage your order fulfillment with sales orders allowing you to ship parts of an order quantity, for example, because the full quantity is not available at once. You can have items drop shipped directly from a vendor to a customer by linking the sales order to the related purchase order.
 
@@ -38,6 +38,5 @@ The following table describes a sequence of tasks, with links to the topics that
 [Managing Receivables](receivables-manage-receivables.md)     
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  
 [Managing Payables](payables-manage-payables.md)    
-[Working With Financials](ui-work-product.md)  
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)
-

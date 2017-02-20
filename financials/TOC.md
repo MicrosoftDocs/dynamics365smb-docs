@@ -1,5 +1,5 @@
 # [Getting Started](index.md)
-## [System Requirements](financials-requirements.md)
+## [Minimum Requirements](financials-requirements.md)
 ## [Frequently Asked Questions](across-faq.md)
 ## [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md)
 ## [Importing Business Data from Other Finance Systems](upload-data.md)
@@ -125,7 +125,7 @@
 ## [Advanced: Inventory Reconciliation](advanced-inventory-reconciliation.md)
 
 # [Relationship Management](marketing-relationship-management.md)
-## [Setting Up Relationship Management](marketing-setup-marketing.md)[
+## [Setting Up Relationship Management](marketing-setup-marketing.md)
 ## [Managing Contacts](marketing-contacts.md)
 ## [Managing Segments](marketing-segments.md)
 ## [Recording Interactions](marketing-interactions.md)
@@ -159,7 +159,7 @@
 
 # General Business Functionality
 ## [How to: Send Documents by Email](ui-how-send-documents-email.md)
-## [Managing Report Layouts](ui-manage-report-layouts.md)
+## [Managing Report and Document Layouts](ui-manage-report-layouts.md)
 ## [Working with General Journals](ui-work-general-journals.md)
 ## [How to: Use Allocation Keys in General Journals](ui-how-use-allocation-keys-general-journals.md)
 ## [Scheduling a Report to Run](ui-schedule-report.md)

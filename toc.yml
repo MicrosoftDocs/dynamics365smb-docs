@@ -1,0 +1,45 @@
+- name: Docs
+  href: /
+  homepage: /
+  items:
+  - name: Dynamics 365
+    href: /dynamics365/
+    homepage: /dynamics365/index
+    items:
+    - name: Financials (Business)
+      href: /financials/
+      homepage: /index
+      items:
+        - name: Getting Started
+          href: /financials/
+          homepage: /financials/index
+   	- name: Finance
+          href: /financials/
+          homepage: /financials/finance
+	- name: Sales
+          href: /financials/
+          homepage: /financials/sales-manage-sales
+        - name: Purchasing
+          href: /financials/
+          homepage: /financials/purchasing-manage-purchasing
+    	- name: Inventory
+          href: /financials/
+          homepage: /financials/inventory-manage-inventory
+        - name: Relationship Management
+          href: /financials/
+          homepage: /financials/marketing-relationship-management
+        - name: Project Management
+          href: /financials/
+          homepage: /financials/projects-manage-projects
+        - name: Fixed Assets
+          href: /financials/
+          homepage: /financials/fa-manage
+        - name: Human Resources
+          href: /financials/
+          homepage: /financials/hr-manage-human-resources
+        - name: General Business Functionality
+          href: /financials/
+          homepage: /financials/across-log-changes
+        - name: Advanced - Additional Information
+          href: /financials/
+          homepage: /financials/advanced-best-price-calculation

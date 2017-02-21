@@ -3,7 +3,7 @@
     "content": [
       {
         "files": [
-          "**/*.md"
+          "**/*.md", "**/**.yml"
         ],
         "exclude": [
           "**/obj/**",
@@ -29,7 +29,8 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-	"searchScope": ["Financials"]
+	"searchScope": ["Financials"],
+      "breadcrumb_path": "~/toc.yml"
 	},
     "fileMetadata": {},
     "template": [],

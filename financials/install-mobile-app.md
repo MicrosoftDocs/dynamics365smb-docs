@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Getting Dynamics 365 for Financials on my Mobile Device | Financials"
+	pageTitle="Getting Dynamics 365 for Financials on Your Mobile Device | Financials"
     description="Get the app for your mobile device."
 	services="project-madeira"
 	documentationCenter=""
@@ -13,7 +13,7 @@
     ms.date="05/12/2016"
     ms.author="solsen" />
 
-# Getting [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] on my Mobile Device
+# Getting [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] on Your Mobile Device
 Access your [!INCLUDE[d365fin](includes/d365fin_md.md)] data from your mobile device. You can navigate through your business data, use features such as send to Excel or Office 365, view up-to-date charts and KPIs, email sales quotes and invoices, and shoot and attach pictures with your camera. Follow the steps below to download the app and get started.
 
 ## To get the app on my mobile device

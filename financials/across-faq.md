@@ -41,7 +41,7 @@ Yes. If you want to extend your trial, you should contact Microsoft at 1-888-477
 This is a bit complicated, but it looks like your administrator didn't change your Role Center and assign user groups that match the new license. Essentially, your access to [!INCLUDE[d365fin](includes/d365fin_md.md)] is determined by the type of plan (license) that you have - this sets permissions and your default Home page. You can change your Role Center manually in My Settings, but if you are moved to another plan, such as moving you from the Business plan to the Team Members plan, you might see the old Home because your permissions were not changed.  
 
 ## See Also
-[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](madeira-get-started.md)  
+[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as your Business Inbox in Outlook](madeira-outlook.md)  
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] without Outlook](madeira-no-outlook.md)  
 [How to: Change the Role Center](change-role.md)  

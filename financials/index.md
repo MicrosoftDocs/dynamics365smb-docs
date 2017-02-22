@@ -5,12 +5,12 @@ services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 
-ms.service: project-madeira
+ms.service: dynamics365-financials
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/30/2017
+ms.date: 02/22/2017
 ms.author: solsen
 
 ---
@@ -29,7 +29,7 @@ For some quick, nice-to-know tricks, see:
 
 For more information, see [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
 
-When you're ready to do some heavier lifting, and want to look at some of the business processes that [!INCLUDE[d365fin](includes/d365fin_md.md)] supports, see [Business Functionality](madeira-business-functionality.md).  
+When you're ready to do some heavier lifting, and want to look at some of the business processes that [!INCLUDE[d365fin](includes/d365fin_md.md)] supports, see [Business Functionality](madeira-business-functionality.md). For an overview of current capabilities and what is coming, take a look at our roadmap at [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
 
 ## The Home pages
 Home pages use a role-centric design to give you fast access to the business process and intelligence tools that you need to do your job. For example, an accountant can monitor payments and approvals, and view finance performance charts. Check out the various Home pages by choosing **My Settings** in the top right corner, and then the Role Center to explore. Sign in again to apply the change. For more information, see [Changing the Role Center](change-role.md).  
@@ -71,3 +71,6 @@ Each time you sign in during the trial period, a notification in a blue bar at t
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as my Business Inbox in Outlook](madeira-outlook.md)  
 [Getting [!INCLUDE[d365fin](includes/d365fin_md.md)] on Your Mobile Device](install-mobile-app.md)  
+[Microsoft Dynamics 365 documentation](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  
+[roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
+[Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=828707)  

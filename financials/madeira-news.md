@@ -114,8 +114,8 @@ In April 2016, we launched the preview of [!INCLUDE[d365fin](includes/d365fin_md
 Key scenarios to try out on your own:  
 
 - [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as your Business Inbox in Outlook](madeira-no-outlook.md)  
-- [Getting [!INCLUDE[d365fin](includes/d365fin_md.md)] on my Mobile Device](install-mobile-app.md)  
-- [Using the [!INCLUDE[d365fin](includes/d365fin_md.md)] Content Pack for Power BI](madeira-powerbi.md)  
+- [Getting [!INCLUDE[d365fin](includes/d365fin_md.md)] on Your Mobile Device](install-mobile-app.md)  
+- [Enabling Your Business Data for Power BI](madeira-powerbi.md)  
 - [Changing the Role Center](change-role.md)  
 
 

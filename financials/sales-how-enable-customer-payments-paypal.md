@@ -14,32 +14,23 @@ ms.date: 11/18/2016
 ms.author: sgroespe
 
 ---
-# How to: Enable Customer Payments Through PayPal
-As an alternative to collecting payments through bank transfer or credit cards, you can offer your customers to pay you through their PayPal account.
+# How to: Enable Customer Payments Through PayPal and WorldPay
+As an alternative to collecting payments through bank transfer or credit cards, your customers can pay you through payment services like PayPal or WorldPay. The PayPal Payments Standard and WorldPay payment services are installed as extensions to [!INCLUDE[d365fin](includes/d365fin_md.md)], and are ready to go. You just need to get an account from the service provider, and then enable the extension. For more information, see [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md).
 
-When a customer chooses the PayPal link on a sales invoice or sales order document, the service page for their PayPal account appears showing the payment details for the sale. The customer can then pay the invoice as any other PayPal payment.
+After you enable a payment service, a link to the service displays on a sales invoice or sales order document, letting the customer make the payment directly from the document.
 
-To enable customer payments through PayPal, you must do the following:
-
-1. Set up PayPal Payments Standard as a payment service in the **Payments Services** window.
-2. Select PayPal Payments Standard in the **Payment Service** field on the sales document in question.
-
-The PayPal Payments Standard service is installed as an extension to [!INCLUDE[d365fin](includes/d365fin_md.md)] and ready to be enabled. For more information, see [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md).
-
-## To enable the PayPal Payments Standard service
+## To enable a payment service
 1. In the top right corner, choose the **Search for Page or Report** icon, **Payment Services**, and then choose the related link.  
 2. In the **Payment Services** window, choose the **New** action.
-3. Select **PayPal Standard**, and then close the window.
+3. Select the payment service, and then close the window.
 4. In the **Payment Services** window, choose the **Setup** action.
 5. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. To display a link to the payment service on all sales documents, choose the **Always Include on Documents** check box.
 
-    **Note**: Select the **Always Include on Documents** check box if the hyperlink for the PayPal payment service should always be visible on sales documents where payment through PayPal is enabled.
-6. Close the window.
-
-## To select PayPal Payments Standard on a sales invoice
+## To manually choose a payment service on a sales document
 1. On the Home page, choose **Sales Invoices**.
 2. Open the sales invoice that you want to enable PayPal payments for.
-3. In the **Payment Service** field, choose PayPal Payments Standard.
+3. In the **Payment Service** field, choose the payment service.
 
 **Note**: The **Payment Service** field is only visible if the PayPal Payments Standard service is enabled.   
 

@@ -5,7 +5,7 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 
-ms.service: project-madeira
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -36,7 +36,7 @@ The following task is performed by an approval user with approver rights.
 
 A customer may want to change an order after it has been submitted for approval. In this case, you can cancel the approval process and make the necessary changes to the order before you request approval again.
 
-1. In the window that displays the record, choose the **Cancel Approval Request** action.
+- In the window that displays the record, choose the **Cancel Approval Request** action.
 
 When the approval request has been canceled, the status of the related approval entry is changed to **Canceled**. The status of the record is updated from **Pending Approval** to **Open**. The approval process can then start again.
 

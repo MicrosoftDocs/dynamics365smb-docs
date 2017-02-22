@@ -5,7 +5,7 @@ services: project-madeira
 documentationcenter: ''
 author: edupont04
 
-ms.service: dynamics365-financials
+ms.service: project-madeira
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -58,7 +58,7 @@ We recommend that you also consider exporting data from the following pages:
 
 ## See Also
 [Canceling Your Subscription for [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](madeira-cancel.md)  
-[Migrate Business Data from Other Finance Systems](upload-data.md)  
+[Importing Business Data from Other Finance Systems](upload-data.md)  
 [Finance](finance.md)  
 [General Business Functionality](ui-across-business-areas.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

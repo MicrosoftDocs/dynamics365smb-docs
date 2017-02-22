@@ -5,7 +5,7 @@ services: project-madeira
 documentationcenter: ''
 author: edupont04
 
-ms.service: project-madeira
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -69,6 +69,6 @@ Verify that the report size is set to 325 pixels x 310 pixels. Save the report, 
 
 ## See Also
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  
-[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](madeira-get-started.md)    
+[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)    
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)    
 [Finance](finance.md)  

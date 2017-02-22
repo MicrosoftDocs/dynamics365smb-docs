@@ -5,7 +5,7 @@ services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 
-ms.service: project-madeira
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -34,6 +34,6 @@ In many cases, registering for [!INCLUDE[d365fin](includes/d365fin_md.md)] can b
 | Email address is not an Office 365 ID. You receive a message like the following during signup:<br /><br />**We can't find you at contoso.com. Do you use a different ID at work or school? Try signing in with that, and if it doesn't work, contact your IT department.** |Your organization uses IDs to sign in to Office 365 and other Microsoft services that are different than your email address. For example, your email address might be Nancy.Smith@contoso.com but your ID is nancys@contoso.com. To complete signup, use the ID that your organization has assigned to for signing in to Office 365 or other Microsoft services. If you do not know what this is, contact your IT administrator. If you still cannot sign up and are able to complete a more advanced setup process, you can register for a new Office 365 trial subscription and use that email address to sign up. |
 
 ## See Also
-[Welcome to [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](madeira-get-started.md)  
+[Welcome to [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

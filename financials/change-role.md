@@ -5,7 +5,7 @@ services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 
-ms.service: project-madeira
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -26,5 +26,5 @@ The content on the Home page is based on the selected Role Center. The standard 
 4. Sign out of [!INCLUDE[d365fin](includes/d365fin_md.md)] and then sign in again to have the change take effect.
 
 ## See Also
-[Welcome to [!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-get-started.md)  
+[Welcome to [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

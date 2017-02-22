@@ -32,7 +32,7 @@ Finance-related sales setup, such as payment methods and currencies, are covered
 | Set up salespeople so that you can assign them to customer contacts or measure salespeople's performance as a basis for calculating the sales commission or bonus. |[How to: Set Up Salespeople](sales-how-setup-salespeople.md) |
 | Specify for individual customers or for all customers how sales documents are sent by default when you choose the **Post and Send** action. |[How to: Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md) |
 | Set your email up to contain a summary of information in the sales document that is being sent. |[How to: Send Documents by Email](ui-how-send-documents-email.md). |
-| Let customers make payments through the WorldPay payment service directly from sales documents | [WorldPay Payments Standard](ui-extension-worldpay-payments-standard.md) |  
+| Let customers make payments through the WorldPay payment service directly from sales documents | [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md) |  
 
 ## See Also
 [Sales](sales-manage-sales.md)  

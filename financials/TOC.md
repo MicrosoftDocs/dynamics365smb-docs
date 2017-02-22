@@ -33,7 +33,7 @@
 ### [How to: Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md)
 ## [Setting Up Sales](sales-setup-sales.md)
 ### [How to: Register New Customers](sales-how-register-new-customers.md)
-### [How to: Enable Customer Payments Through PayPal](sales-how-enable-customer-payments-paypal.md)
+### [How to: Enable Customer Payments Through PayPal](sales-how-enable-payment-service-extensions.md)
 ### [How to: Record Special Sales Prices and Discounts](sales-how-record-sales-price-discount-payment-agreements.md)
 ### [Advanced: Best Price Calculation](advanced-best-price-calculation.md)
 ### [How to: Set Up Salespeople](sales-how-setup-salespeople.md)

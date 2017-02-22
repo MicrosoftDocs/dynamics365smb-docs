@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/10/2017
+ms.date: 02/21/2017
 ms.author: edupont
 
 ---
@@ -32,7 +32,7 @@ No. But if you want to experience [!INCLUDE[d365fin](includes/d365fin_md.md)] as
 Yes, but depending on how you signed up to [!INCLUDE[d365fin](includes/d365fin_md.md)], your data can be deleted or preserved. For more information, see [Canceling [!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-cancel.md).  
 
 ## Where do I go if I have questions?
-If you have questions about [!INCLUDE[d365fin](includes/d365fin_md.md)] that you can't find an answer for in [the Learn articles](http://go.microsoft.com/fwlink/?LinkID=784954), you can ask the [Dynamics 365, Business edition community](https://community.dynamics.com/business). Also, our Support team post tips and tricks [on their blog](https://blogs.msdn.microsoft.com/dyn365finsupport).  
+If you have questions about [!INCLUDE[d365fin](includes/d365fin_md.md)] that you can't find an answer for in this documentation, you can ask the Dynamics 365 for Financials community. For more information, see [Dynamics 365, Business edition community](https://community.dynamics.com/business). Also, our Support team post tips and tricks. For more information, see [Dynamics 365 for Financials Support Blog](https://blogs.msdn.microsoft.com/dyn365finsupport).  
 
 ## Is it possible to extend my 30-day “New Company” trial period?
 Yes. If you want to extend your trial, you should contact Microsoft at 1-888-477-7989 (US) or 1-800-741-9206 (Canada). NOTE:  It may take up to 2 business days to complete the trial extension process.  
@@ -42,7 +42,7 @@ This is a bit complicated, but it looks like your administrator didn't change yo
 
 ## See Also
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as your Business Inbox in Outlook](madeira-outlook.md)  
+[Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as Your Business Inbox in Outlook](madeira-outlook.md)  
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] without Outlook](madeira-no-outlook.md)  
 [How to: Change the Role Center](change-role.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -49,7 +49,7 @@ Microsoft provides the following extensions:
 * [Sales and Inventory Forecast](ui-extensions-sales-forecast.md)  
 * [Ceridian Payroll](ui-extensions-ceridian-payroll.md)  
 * [Quickbooks Payroll File Import](ui-extensions-quickbooks-payroll.md)  
-* [WorldPay Payments Standard](sales-how-enable-payment-service-extensions.md)
+* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 * [GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)
 
 ## See Also

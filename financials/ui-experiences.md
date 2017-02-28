@@ -22,8 +22,6 @@ The user experience determines how much of the core functionality is available w
 
 **Note**: This setting applies to all users in your company.
 
-![Change the user experience setting](./media/ui-experience/responsivedesign.gif)
-
 The following table lists the experiences that are currently available.
 
 | Experience | Impact on User Interface |

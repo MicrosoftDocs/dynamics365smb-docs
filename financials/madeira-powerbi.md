@@ -5,16 +5,16 @@ services: project-madeira
 documentationcenter: ''
 author: edupont04
 
-ms.service: project-madeira
+ms.service: dynamics365-financials
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/06/2016
+ms.date: 02/21/2017
 ms.author: edupont
 
 ---
-# Using the [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Content Packs for Power BI
+# Enabling Your Business Data for Power BI
 Getting insights into your [!INCLUDE[d365fin](includes/d365fin_md.md)] data is easy with Power BI and the [!INCLUDE[d365fin](includes/d365fin_md.md)] content packs. Power BI retrieves your data and then builds an out-of-the-box dashboard and reports based on that data.  
 
 The content packs are preconfigured to work with sales data and financial data from the demonstration company that you get when you sign up for [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)].  
@@ -108,7 +108,7 @@ If you see an "Oops" error dialog after you pass the authentication dialog, this
     https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/  
 
 ## See Also
-[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](madeira-get-started.md)  
+[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Migrate Business Data from Other Finance Systems](upload-data.md)  
 [Using [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  
 [Using [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] as a PowerApps Data Source](across-how-use-financials-data-source-powerapps.md)  

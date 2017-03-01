@@ -5,7 +5,7 @@ services: project-madeira
 documentationcenter: ''
 author: edupont04
 
-ms.service: project-madeira
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -27,4 +27,4 @@ This list shows the extensions by other companies that are currently available f
 
 ## See Also
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
-[Welcome to [!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-get-started.md)  
+[Welcome to [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  

@@ -5,12 +5,12 @@ services: project-madeira
 documentationcenter: ''
 author: edupont04
 
-ms.service: project-madeira
+ms.service: dynamics365-financials
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/19/2016
+ms.date: 02/23/2017
 ms.author: edupont
 
 ---
@@ -28,5 +28,5 @@ If you're interested in learning more about becoming a [!INCLUDE[d365fin](includ
 
 ## See Also
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Migrate Business Data from Other Finance Systems](upload-data.md)  
+[Importing Business Data from Other Finance Systems](upload-data.md)  
 [https://appsource.microsoft.com](https://appsource.microsoft.com/en-us/?product=project-madeira)  

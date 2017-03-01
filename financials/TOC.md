@@ -1,5 +1,5 @@
 # [Getting Started](index.md)
-## [System Requirements](financials-requirements.md)
+## [Minimum Requirements](financials-requirements.md)
 ## [Frequently Asked Questions](across-faq.md)
 ## [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md)
 ## [Importing Business Data from Other Finance Systems](upload-data.md)
@@ -102,7 +102,6 @@
 ## [How to: How to: Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md)
 ## [How to: Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md)
 ## [How to: Register New Customers](sales-how-register-new-customers.md)
-## [Advanced: Best Price Calculation](advanced-best-price-calculation.md)
 
 # [Purchasing](purchasing-manage-purchasing.md)
 ## [How to: Record Purchases](purchasing-how-record-purchases.md)
@@ -110,7 +109,6 @@
 ## [How to: Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)
 ## [How to: Process Purchase Returns or Cancellations](purchasing-how-register-new-vendors.md)
 ## [How to: Register New Vendors](purchasing-how-register-new-vendors.md)
-## [Advanced: Best Price Calculation](advanced-best-price-calculation.md)
 
 # [Inventory](inventory-manage-inventory.md)
 ## [How to: Register New Products](inventory-how-register-new-products.md)
@@ -125,7 +123,7 @@
 ## [Advanced: Inventory Reconciliation](advanced-inventory-reconciliation.md)
 
 # [Relationship Management](marketing-relationship-management.md)
-## [Setting Up Relationship Management](marketing-setup-marketing.md)[
+## [Setting Up Relationship Management](marketing-setup-marketing.md)
 ## [Managing Contacts](marketing-contacts.md)
 ## [Managing Segments](marketing-segments.md)
 ## [Recording Interactions](marketing-interactions.md)

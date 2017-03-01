@@ -5,7 +5,7 @@ services: project-madeira
 documentationcenter: ''
 author: edupont04
 
-ms.service: project-madeira
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -18,4 +18,4 @@ ms.author: edupont
 On this page, we will provide access to getting-started videos that illustrate how to do common tasks. The page will be updated over time.  
 
 ## See Also
-[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] ](madeira-get-started.md)
+[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] ](index.md)

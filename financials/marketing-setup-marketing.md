@@ -5,7 +5,7 @@ services: project-madeira
 documentationcenter: ''
 author: jswymer
 
-ms.service: project-madeira
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -48,7 +48,7 @@ For more information, see [Synchronizing Contacts with Customers, Vendors and Ba
 ## Assign a number series to contacts and opportunities
 You can set up a number series for contacts and opportunities. If you have set up a number series for contacts, when you create a contact, and press Enter in the No. field on the contact card, the program automatically enters the next available contact number.
 
-For more information about number series, see [Create Number Series](ui-create-number-series.md).
+For more information about number series, see [Creating Number Series](ui-create-number-series.md).
 
 ## Search for duplicate contacts when contacts are created
 You can choose to have the program automatically search for duplicates each time you create a contact company, or you can choose to search manually after you have created contacts. You can also choose to have the program update the search strings automatically each time you modify contact information or create a contact. You can decide the search hit percentage, that is, the percentage of identical strings two contacts must have for the program to consider them as duplicates.

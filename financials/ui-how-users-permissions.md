@@ -1,6 +1,6 @@
 ---
-title: How to: Manage Users and Permissions | Microsoft Docs
-description: Manage permission sets for users after you have created users in Office 365.
+title: 'How to: Manage Users and Permissions | Microsoft Docs'
+description: 'Manage permission sets for users after you have created users in Office 365.'
 services: project-madeira
 documentationcenter: ''
 author: SorenGP

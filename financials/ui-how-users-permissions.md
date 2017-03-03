@@ -1,5 +1,5 @@
 ---
-title: How to: Add Users and Manage Permissions | Microsoft Docs
+title: How to: Manage Users and Permissions | Microsoft Docs
 description: Manage permission sets for users after you have created users in Office 365.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 03/04/2017
 ms.author: sgroespe
 
 ---
-# How to: Add Users and Manage Permissions
+# How to: Manage Users and Permissions
 To add users in [!INCLUDE[d365fin](includes/d365fin_md.md)], your company's Office 365 administrator must first create the users in the Office 365 Admin Center. For more information, see [Add Users to Office 365 for business](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc)
 
 Once users are created in Office 365, they can be imported into the **Users** window by using the **Get Users from Office 365** action. Users are assigned permission sets depending on the plan assigned to the User in Office 365.
@@ -76,8 +76,8 @@ If the default permission sets that are provided with [!INCLUDE[d365fin](include
 9. Repeat steps 7 and 8 to add permissions for additional objects to the permission set.
 
 ### To create or modify permission sets by recording your actions
-1. In the top right corner, choose the Search for Page or Report icon, enter **Permission Sets**, and then choose the related link.
-2. Alternatively, in the **Users** window, choose the **Permission Sets** action.
+1. In the top right corner, choose the Search for Page or Report icon, enter **Users**, and then choose the related link.
+2. In the **Users** window, choose the **Permission Sets** action.
 3. In the **Permission Sets** window, choose the **New** Action.
 4. On a new line, fill in the fields as necessary.
 5. Choose the **Permissions** action.

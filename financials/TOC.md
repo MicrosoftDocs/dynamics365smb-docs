@@ -161,7 +161,7 @@
 ## [Working with General Journals](ui-work-general-journals.md)
 ## [How to: Use Allocation Keys in General Journals](ui-how-use-allocation-keys-general-journals.md)
 ## [Scheduling a Report to Run](ui-schedule-report.md)
-## [How to: Add Users and Manage Permissions](ui-how-users-permissions)
+## [How to: Add Users and Manage Permissions](ui-how-users-permissions.md)
 ## [Logging Changes in Financials](across-log-changes.md)
 ## [How to: Use Approval Workflows](across-how-use-approval-workflows.md)
 ## [Incoming Documents](across-income-documents.md)

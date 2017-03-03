@@ -12,6 +12,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/04/2017
 ms.author: sgroespe
+
 ---
 # How to: Add Users and Manage Permissions
 To add users in [!INCLUDE[d365fin](includes/d365fin_md.md)], your company's Office 365 administrator must first create the users in the Office 365 Admin Center. For more information, see [Add Users to Office 365 for business](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc)
@@ -44,17 +45,17 @@ You can set up users groups to help you manage permission sets for groups of use
 4. In the **New User Group Code** field, specify the name of the new user group, and then choose the **OK** button.
 
     As an alternative to copying, you can choose the New action to create a new line for an empty user group, which you then fill in manually.
-5.	To add new or additional users, in the **User Group** window, choose the **User Group Members** action.
+5. To add new or additional users, in the **User Group** window, choose the **User Group Members** action.
 6. In the **User Group Members** window, on a new line, fill in the fields as necessary by selecting from existing users.
 7. To add new or additional permission sets, in the **User Group** window, choose the **User Group Permission Sets** action.
-8.	In the **User Group Permission Sets** window, on a new line, fill in the fields as necessary by selecting from existing permission sets.
+8. In the **User Group Permission Sets** window, on a new line, fill in the fields as necessary by selecting from existing permission sets.
 
 ## To create or modify permission sets
 If the default permission sets that are provided with [!INCLUDE[d365fin](includes/d365fin_md.md)] are not sufficient or not appropriate for your organization, you can create new permission sets. And if the individual object permissions that define a permission set are not adequate, you can modify a permission set. You can create a permission set manually, or you can use a recording function that records your actions as you navigate through a scenario and then generates the required permission set.
 
 ### To create or modify permission sets manually
-1. In the top right corner, choose the Search for Page or Report icon, enter **Permission Sets**, and then choose the related link.
-2. Alternatively, in the **Users** window, choose the **Permission Sets** action.
+1. In the top right corner, choose the Search for Page or Report icon, enter **Users**, and then choose the related link.
+2. In the **Users** window, choose the **Permission Sets** action.
 3. In the **Permission Sets** window, choose the **New** Action.
 4. On a new line, fill in the fields as necessary.
 5. Choose the **Permissions** action.
@@ -69,7 +70,9 @@ If the default permission sets that are provided with [!INCLUDE[d365fin](include
 
     Indirect permission to a table means that you cannot open the table and read from it, but you can view the data in the table through another object, such as a page, that you have direct permission to access. For more information, see the “Example - Indirect Permission” section in this topic.
 
-8. In the **Security Filter** field, enter a filter that you want to apply to the permissions that you have assigned to the object.
+8. In the **Security Filter** field, enter a filter that you want to apply to the permission by selecting the field on which you want to limit a user's access.
+
+    For example, if you want to create a security filter so that a user can view only sales with a specific salesperson code, you choose the field number for the **Salesperson Code** field. Then, in the **Field Filter** field, you enter the value of the that you want to use to limit access. For example, to limit a user's access to only Annette Hill's sales, enter AH.
 9. Repeat steps 7 and 8 to add permissions for additional objects to the permission set.
 
 ### To create or modify permission sets by recording your actions
@@ -89,6 +92,7 @@ If the default permission sets that are provided with [!INCLUDE[d365fin](include
 ### Example - Indirect Permission
 You can assign an indirect permission to use an object only through another object.
 For example, a user can have permission to run codeunit 80, **Sales-Post**. The **Sales-Post** codeunit performs many tasks, including modifying table 37, **Sales Line**. When the user posts a sales document, the **Sales-Post** codeunit, [!INCLUDE[d365fin](includes/d365fin_md.md)] checks if the user has permission to modify the **Sales Line** table. If not, the codeunit cannot complete its tasks, and the user receives an error message. If so, the codeunit runs successfully.
+
 However, the user does not need to have full access to the **Sales Line** table to run the codeunit. If the user has indirect permission to the **Sales Line** table, then the **Sales-Post** codeunit runs successfully. When a user has indirect permission, that user can only modify the **Sales Line** table by running the **Sales-Post** codeunit or another object that has permission to modify the **Sales Line** table. The user can only modify the **Sales Line** table when doing so from supported application areas. The user cannot run the feature inadvertently or maliciously by other methods.
 
 ## See Also

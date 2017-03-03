@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/23/2017
+ms.date: 03/04/2017
 ms.author: edupont
 
 ---
@@ -36,7 +36,7 @@ To import an existing Dynamics CRM solution, the setup guide uses an administrat
 * System Administrator  
 * Solution Customizer  
 
-For more information, see [Create users and assign Microsoft Dynamics 365 (online) security roles](https://technet.microsoft.com/library/jj191623.aspx).  
+For more information, see [Create users and assign Microsoft Dynamics 365 (online) security roles](https://technet.microsoft.com/library/jj191623.aspx) and [How to: Add Users and Manage Permissions](ui-how-users-permissions.md).  
 
 This account is only used during the setup. Once the solution is imported into [!INCLUDE[d365fin](includes/d365fin_md.md)], the account is no longer needed.
 
@@ -69,4 +69,5 @@ Dynamics CRM sales orders depends on additional information like customers, unit
 [Relationship Management](marketing-relationship-management.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)  
+[How to: Add Users and Manage Permissions](ui-how-users-permissions.md)    
 [Onboard your organization and users to Dynamics 365 (online)](https://www.microsoft.com/en-US/Dynamics/crm-customer-center/onboard-your-organization-and-users-to-dynamics-365-online.aspx)  

@@ -29,23 +29,23 @@ ms.author: solsen
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
 |number|string|The customer number.|
-|displayName|string|The customer description.|
-|address|string|The customer address.|
-|address2|string|The customer address.|
-|city|string|The city of the address.|
-|state|string|The state of the address.|
-|countryRegionCode|numeric|The country/region of the address.|
-|zipCode|numeric|The zip code of the address.|
-|phoneNumber|numeric|The customer's telephone number.|
-|email|string|The customer's email address.|
-|website|string|The customer's website address.|
-|taxLiable|boolean|Specifies if the customer is liable for tax.|
+|displayName|string|Specifies the customer's name. This name will appear on all sales documents for the customer. You can enter a maximum of 50 characters, both numbers and letters.|
+|address|string|Specifies the customer's address. This address will appear on all sales documents for the customer.|
+|address2|string|Specifies additional address information.|
+|city|string|Specifies the customer's city.|
+|state|string|Specifies the state as a part of the address.|
+|countryRegionCode|numeric|Specifies the country/region of the address.|
+|zipCode|numeric|Specifies the ZIP code.|
+|phoneNumber|numeric|Specifies the customer's telephone number.|
+|email|string|Specifies the customer's email address.|
+|website|string|Specifies the customer's home page address.|
+|taxLiable|boolean|Specifies if the customer or vendor is liable for sales tax.|
 |currencyCode|numeric|The default currency code for the customer.|
-|paymentTerms|numeric|The default payment terms for the customer.|
-|paymentMethod|numeric|The default payment method for the customer.|
-|shipmentMethod|numberic|The default shipment method for the customer.|
-|blocked|boolean|Specifies which transactions cannot be blocked for the customer.|
-|balance|numeric|The customer's balance.|
+|paymentTerms|numeric|Specifies a code that indicates the payment terms that you require of the customer.|
+|paymentMethod|numeric|Specifies how the customer usually submits payment, such as bank transfer or check.|
+|shipmentMethod|numberic|Specifies which shipment method to use when you ship items to the customer.|
+|blocked|boolean|Specifies which transactions with the customer that cannot be blocked, for example, because the customer is insolvent.|
+|balance|numeric|Specifies the payment amount that the customer owes for completed sales. This value is also known as the customer's balance.|
 |lastModifiedDateTime|datetime||  
 
 
@@ -78,3 +78,5 @@ Here is a JSON representation of the resource.
 
 
 ```
+## See Also
+[Graph Reference](graph-reference.md)  

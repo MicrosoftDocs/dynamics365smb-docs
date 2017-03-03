@@ -5,12 +5,12 @@ services: project-madeira
 documentationcenter: ''
 author: jswymer
 
-ms.service: project-madeira
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 02/15/2017
 ms.author: jswymer
 
 ---
@@ -23,8 +23,8 @@ You can create a contact card for each contact who works for the companies you i
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Contacts**, and then choose the related link.
 2. Choose the **New** action.
 3. In the **No.** field, enter a number for the contact.
-   
-    Alternatively, if you have set up a number series for contacts in the **Marketing Setup** window, you can press the Enter key to select the next available contact number. For more information, see [Create Number Series](ui-create-number-series.md).
+
+    Alternatively, if you have set up a number series for contacts in the **Marketing Setup** window, you can press the Enter key to select the next available contact number. For more information, see [Creating Number Series](ui-create-number-series.md).
 4. In the **Type** field, select **Person**.
 5. Fill in the other fields on the contact card.
 
@@ -32,9 +32,8 @@ You can create a contact card for each contact who works for the companies you i
 
 ## See Also
 [Setting Up Relationship Management](marketing-setup-marketing.md)  
-[Set Up Mailing Groups on Contacts](marketing-mailing-groups.md#assign-mailing-groups-to-a-contact)
-[Set Up Job Responsibilities on Contacts](marketing-job-responsibilities.md)  
-[Set Up Organizational Levels for Contact Persons](marketing-organizational-levels.md)  
+[Assigning Mailing Groups to a Contact](marketing-mailing-groups.md#AssignMailGroupContact)  
+[Setting Up Job Responsibilities on Contacts](marketing-job-responsibilities.md)  
+[Setting Up Organizational Levels for Contact Persons](marketing-organizational-levels.md)  
 [Synchronizing Contacts With Customers, Vendors, and Bank Accounts](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
 [Working With Financials](ui-work-product.md)  
-

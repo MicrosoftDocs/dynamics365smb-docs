@@ -5,7 +5,7 @@ services: project-madeira
 documentationcenter: ''
 author: edupont04
 
-ms.service: project-madeira
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -41,5 +41,5 @@ You can allocate an entry in a general journal to several different accounts whe
 ## See Also
 [Working With General Journals](ui-work-general-journals.md)  
 [Posting Documents and Journals](ui-post-documents-journals.md)  
-[Working With Financials](ui-work-product.md)
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

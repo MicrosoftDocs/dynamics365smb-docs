@@ -5,7 +5,7 @@ services: project-madeira
 documentationcenter: ''
 author: jswymer
 
-ms.service: project-madeira
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -52,5 +52,4 @@ You can reduce a segment as many times as you want. If you have refined the segm
 [How to: Create a Segment](marketing-how-create-segment.md)   
 [Managing Segments](marketing-segments.md)  
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
-[Working With Financials](ui-work-product.md)  
-
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -5,25 +5,25 @@ services: project-madeira
 documentationcenter: ''
 author: jswymer
 
-ms.service: project-madeira
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 02/15/2017
 ms.author: jswymer
 
 ---
 # Managing Interactions With Contacts
-In Financials, interactions are all types of communications between your company and your contacts. For example, communications can be by letter, fax, email, telephone, meetings, and so on.
+In [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], interactions are all types of communications between your company and your contacts. For example, communications can be by letter, fax, email, telephone, meetings, and so on.
 
 The relationship management area enables you to record all the interactions you have with your contacts in order to keep track of the sales and marketing efforts you have directed at your contacts and to improve your future business interactions with them. Setting up your application to record interactions consists of these tasks:
 
-* [Setting up interaction templates](#setting-up-interaction-templates)
-* [Creating interactions on contacts or segments](#creating-interactions-on-contacts-or-segments)
-* [View and manage recorded interactions](#view-and-manage-recorded-interactions)
+* Setting up interaction templates  
+* Creating interactions on contacts or segments  
+* View and manage recorded interactions  
 
-## Set up Interaction Templates
+##  Set up Interaction Templates
 Before you can create and record interactions, you must set up interaction templates. When creating interactions, you must specify the interaction templates they are based on. An interaction template is a model that defines the basic characteristics of an interaction.
 You set up an interaction template in the **Interaction Templates** window.  
 
@@ -51,4 +51,3 @@ You can delete interaction log entries that have been canceled. To delete intera
 [Managing Contacts](marketing-contacts.md)  
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
 [Working With Financials](ui-work-product.md)  
-

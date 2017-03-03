@@ -5,12 +5,12 @@ services: project-madeira
 documentationcenter: ''
 author: jswymer
 
-ms.service: project-madeira
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/01/2016
+ms.date: 02/15/2017
 ms.author: jswymer
 
 ---
@@ -33,9 +33,9 @@ You can close opportunities when the negotiations are over. When closing an oppo
 
 1. In the **Opportunity List** window, select the opportunity, and the choose the **Close** action. The **Close Opportunity** window opens.
 2. Fill in the relevant fields, and then choose the **OK** button.
-   
+
    The **Close Opportunity Code** and **Date Closed** fields are required fields and must be filled in before you can choose the **OK** button.
-   
+
    In the **Close Opportunity Code** field, you can choose from one of the existing close opportunity codes or add a new code. To add a new code, from the drop-down list, choose **Select from full list**, and then choose **new**. On the new blank line, fill in the **Code**, **Type**, and **Description** fields, and then choose the **OK** button.
 
 ## Create quotes for opportunities
@@ -67,7 +67,7 @@ To delete closed opportunities by using the **Delete Closed Opportunities** batc
 After you have deleted an opportunity, it is removed it from the **Opportunity List** window.
 
 ## Move an opportunity through sales cycle stages
-If an opportunity follows a sales cycle, you can move it forward or back through the different stages, such as moving the the next or previous stage, and even skipping a stage.
+If an opportunity follows a sales cycle, you can move it forward or back through the different stages, such as moving the next or previous stage, and even skipping a stage.
 
 1. In the **Opportunity List** window, choose the **Update** action. The **Update Opportunity** opens,
 2. Use the **Action Type** field to move the opportunity through the sales cycle stages:
@@ -81,5 +81,4 @@ If an opportunity follows a sales cycle, you can move it forward or back through
 ## See Also
 [Sales](sales-manage-sales.md)  
 [Creating and Managing Contacts](marketing-contacts.md)  
-[Working With Financials](ui-work-product.md)
-
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

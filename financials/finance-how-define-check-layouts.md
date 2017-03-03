@@ -5,7 +5,7 @@ services: project-madeira
 documentationcenter: ''
 author: edupont04
 
-ms.service: project-madeira
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -36,6 +36,5 @@ When you have set up check layouts, you can print checks from the **Payment Jour
 [Managing Payables](payables-manage-payables.md)  
 [Managing Bank Accounts](bank-manage-bank-accounts.md)   
 [Completing Period-End Processes](year-how-complete-period-end-processes.md)  
-[Working With Financials](ui-work-product.md)  
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)
-

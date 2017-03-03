@@ -5,7 +5,7 @@ services: project-madeira
 documentationcenter: ''
 author: bholtorf
 
-ms.service: project-madeira
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -47,6 +47,5 @@ If you want to examine the forecast, in addition to forecast entries, you can al
 
 ## See Also
 [Setting Up Finance](finance-setup-finance.md)  
-[Working With Financials](ui-work-product.md)  
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md)  
-

@@ -5,7 +5,7 @@ services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 
-ms.service: project-madeira
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -23,7 +23,7 @@ You can combine the use of number series with manual numbering.
 
 You create a numbering system by setting up one or more codes for each type of master data or document. For example, you can set up one code for numbering customers, another code for numbering sales invoices, and another code for numbering documents in general journals.
 
-**Note**: We recommend that you use the same number series codes as you see listed in the **No. Series List** window in the CRONUS demonstration company. Codes such as *P-INV+* might not make immediate sense to you, but Financials has a number of default settings that depend on these number series codes. Alternatively, contact your administrator to change the default settings.
+**Note**: We recommend that you use the same number series codes as you see listed in the **No. Series List** window in the CRONUS demonstration company. Codes such as *P-INV+* might not make immediate sense to you, but [!INCLUDE[d365fin](includes/d365fin_md.md)] has a number of default settings that depend on these number series codes. Alternatively, contact your administrator to change the default settings.
 
 After you have set up a code, you set must set up at least one number series line. The number series line contains information such as the first and last number in the series and the starting date. You can set up more than one number series line per number series code, with a different starting date for each line. The series will be used consecutively, starting each series on the respective starting date.
 
@@ -43,6 +43,6 @@ If you have set up more than one number series code for the same kind of basic i
 Now when you set up something that requires a number, you can use the relationships you created to select among the related number series.
 
 ## See Also
-[Setting Up Financials](setup.md)  
-[Working With Financials](ui-work-product.md)  
+[Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

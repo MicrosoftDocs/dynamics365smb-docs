@@ -5,12 +5,12 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 
-ms.service: project-madeira
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/17/2017
+ms.date: 02/15/2017
 ms.author: SorenGP
 
 ---
@@ -28,7 +28,7 @@ In Dynamics NAV, you must set up GIFI codes for general ledger accounts, reports
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **GIFI Codes**, and then choose the related link.
 2. In the **GIFI Codes** window, choose the **New** action.
-3. Set up GIFI codes by filling the fields. Choose a field to read a short description of the field or link to more information.
+3. Set up GIFI codes by filling the fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## To associate GIFI codes with G/L accounts
 To report financial information by GIFI code, each GIFI code must be associated with the appropriate accounts in the chart of accounts.
@@ -41,14 +41,14 @@ To report financial information by GIFI code, each GIFI code must be associated 
 You can review your account balances by GIFI code by using the **Account Balances by GIFI Code** report.
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Account Balances by GIFI Code**, and then choose the related link.
-2. Specify what to include in the report by filling the fields. Choose a field to read a short description of the field or link to more information.
+2. Specify what to include in the report by filling the fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Choose the **Print** or the **Preview** button.
 
 ## To export balance information using GIFI codes
 You can export balance information using GIFI codes and save the exported file in Excel. You can modify, save, or delete the file. You can use the file to transfer information to your tax preparation software.
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Export GIFI Info. to Excel**, and then choose the related link.
-2. Specify what to export to Excel by filling the fields. Choose a field to read a short description of the field or link to more information.
+2. Specify what to export to Excel by filling the fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Choose the **OK** button.
 
 **Note:** The Excel file has the following characteristics:
@@ -59,4 +59,3 @@ You can export balance information using GIFI codes and save the exported file i
 ## See Also
 [Finance](finance.md)   
 [Setting Up Finance](finance-setup-finance.md)
-

@@ -5,12 +5,12 @@ services: project-madeira
 documentationcenter: ''
 author: jswymer
 
-ms.service: project-madeira
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 02/15/2017
 ms.author: jswymer
 
 ---
@@ -19,13 +19,13 @@ You can use mailing groups to identify groups of contacts that you want to recei
 
 Using mailing groups on contacts is a two-step process. First, you define the mailing group code. You only have to perform this step one time for each mailing group. Once you have a mailing group code, you can start to assign the code to contact companies.
 
-## to define a mailing group code
+## Defining mailing group codes
 The mailing group code defines the type or category of the group, such as MOVE for office move, or GIFT for holiday gift. You can have several industry group codes. To define the industry groups, you use the **Mailing Groups** window.
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Mailing Groups**, and then choose the related link.
 2. Choose the **New** action, and fill in a code and description. The code can be a maximum of 11 characters, and can be any combination of numbers and letters.
 
-## tp assign mailing groups to a contact
+## <a name="AssignMailGroupContact"></a> To assign mailing groups to a contact
 1. Open the contact.
 2. Choose the **Mailing Groups** action. The **Contact Mailing Groups** window opens.
 3. In the **Mailing Groups Code** field, select the mailing group that you want to assign.
@@ -40,4 +40,3 @@ After you have assigned mailing groups to your contacts, you can use this inform
 [Creating Contact Companies](marketing-create-contact-companies.md)  
 [Creating Contact Persons](marketing-create-contact-persons.md)  
 [Working With Financials](ui-work-product.md)
-

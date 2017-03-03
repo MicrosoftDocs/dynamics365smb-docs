@@ -5,7 +5,7 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 
-ms.service: project-madeira
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -17,12 +17,12 @@ ms.author: sgroespe
 # How to: Categorize Items
 To maintain an overview of your items and to help you sort and find items, it is useful to organize your items in item categories.
 
-To find items by characteristics, you can assign item attributes to items and also to item categories. For more information, see [How to: Work with Item Attributes](inventory-how-work-item-attributes.md). 
+To find items by characteristics, you can assign item attributes to items and also to item categories. For more information, see [How to: Work with Item Attributes](inventory-how-work-item-attributes.md).
 
 ## To create an item category
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Item Categories**, and then choose the related link.
 2. In the **Item Categories** window, choose the **New** action.
-3. In the **Item Category Card** window, on the **General** FastTab, fill in the fields as necessary. Choose a field to read a short description of the field or link to more information.
+3. In the **Item Category Card** window, on the **General** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. On the **Attributes** FastTab, specify any item attributes for the item category. For more information, see the "To assign item attributes to an item category" section in [How to: Work with Item Attributes](inventory-how-work-item-attributes.md).
 
 **Note**: If the item category has a parent item category, as indicated by the **Parent Category** field, then any item attributes that are assigned to that parent item category are prefilled on the **Attributes** FastTab.
@@ -38,5 +38,4 @@ To find items by characteristics, you can assign item attributes to items and al
 [How to: Work with Item Attributes](inventory-how-work-item-attributes.md)  
 [How to: Register New Products](inventory-how-register-new-products.md)  
 [Inventory](inventory-manage-inventory.md)  
-[Working With Financials](ui-work-product.md)
-
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

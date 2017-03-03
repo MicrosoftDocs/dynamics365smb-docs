@@ -5,12 +5,12 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 
-ms.service: project-madeira
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/23/2016
+ms.date: 02/03/2017
 ms.author: SorenGP
 
 ---
@@ -19,25 +19,23 @@ To use the Human Resources functionality, you must first register each employee 
 
 You can modify an employee's details at any time. Keeping up-to-date records about your employees simplifies personnel tasks. For example, if an employee's address changes, you register this on the employee card.
 
-**Note**: This functionality requires that your experience is set to **Suite**. For more information, see [Customizing the Dynamics 365 for Financials Experience](ui-experiences.md).
-
 The following procedures describe how to create an initial employee card and how to assign two types of employee details to an employee. In addition, you can assign various other related information, such as qualifications and causes of inactivity. You assign employee information either by choosing a field or an action in the **Employee Card** window.
 
 ## To set up an employee
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Employees**, and then choose the related link.
 2. Choose the **New** action.
-3. In the **Employee Card** window, fill in the fields as necessary. Choose a field to read a short description of the field or link to more information.
+3. In the **Employee Card** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## To insert a picture of an employee
 If you have a picture of an employee in .bmp format, you can insert it on the employee card.
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Employees**, and then choose the related link.
 2. Open the card for the relevant employee.
-3. In the Employee Picture FactBox, choose the drop-down button, and then choose **Import**.
+3. In the **Employee Picture** FactBox, choose the drop-down button, and then choose **Import**.
 4. In the **Select a picture to upload** window, choose the **Choose** button.
 5. Select the file, and then choose **Open**.
 
-The picture is inserted in the ** Employee Picture** FactBox
+The picture is inserted in the **Employee Picture** FactBox.
 
 ## To register an alternate address for an employee
 You can use alternate addresses to keep track of your employees’ location, for example if they are stationed abroad, on a long business trip, or residing at a summer residence.
@@ -50,6 +48,5 @@ You can use alternate addresses to keep track of your employees’ location, for
 
 ## See Also
 [Finance](finance.md)  
-[Working With Financials](ui-work-product.md)  
-[Customizing the Dynamics 365 for Financials Experience](ui-experiences.md) 
-
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)

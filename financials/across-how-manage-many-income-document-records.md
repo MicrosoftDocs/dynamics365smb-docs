@@ -5,7 +5,7 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 
-ms.service: project-madeira
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -29,7 +29,7 @@ The **Processed** check box is automatically selected on incoming document recor
 
 The incoming document records are removed from the default view, and the **Processed** check box is selected on the lines.
 
-**Note**: You can also perform this action for the individual record in the **Incoming Document Card** window. 
+**Note**: You can also perform this action for the individual record in the **Incoming Document Card** window.
 
 ## To view all incoming document records
 1. In the **Incoming Documents** window, choose the **Show All** action.
@@ -47,5 +47,4 @@ All incoming document records are displayed, including those where the **Process
 [Process Incoming Documents](across-process-income-documents.md)  
 [Incoming Documents](across-income-documents.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Working With Financials](ui-work-product.md)
-
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

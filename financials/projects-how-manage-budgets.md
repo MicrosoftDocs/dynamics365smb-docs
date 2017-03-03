@@ -5,7 +5,7 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 
-ms.service: project-madeira
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -25,7 +25,7 @@ When a customer wants to know the price of a job that will be invoiced based on 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Jobs**, and then choose the related link.  
 2. Open a relevant job.
 3. Select a task line of type Posting, and then choose the **Job Planning Lines** action.
-4. On a new line, fill in the fields as necessary. Choose a field to read a short description of the field or link to more information.   
+4. On a new line, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]   
 
 For the **Line Type** field, refer to the following information.  
 
@@ -48,5 +48,5 @@ For information about recording budgeted versus actual job prices and costs, see
 [Finance](finance.md)  
 [Purchasing](purchasing-manage-purchasing.md)         
 [Sales](sales-manage-sales.md)      
-[Working With Financials](ui-work-product.md)  
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

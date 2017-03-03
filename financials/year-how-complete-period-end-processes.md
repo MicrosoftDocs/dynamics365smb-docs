@@ -5,7 +5,7 @@ services: project-madeira
 documentationcenter: ''
 author: jswymer
 
-ms.service: project-madeira
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -15,7 +15,7 @@ ms.author: jswymer
 
 ---
 # Closing Periods
-Financials does not force you to close periods, however, there are many period-end (month-end) activities that you can do. This topic provides an overview of optional processes and activities for closing periods.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] does not force you to close periods, however, there are many period-end (month-end) activities that you can do. This topic provides an overview of optional processes and activities for closing periods.  
 
 ## General Ledger
 * Specify system-wide and user-specific posting periods.  
@@ -57,5 +57,5 @@ Financials does not force you to close periods, however, there are many period-e
 ## See Also
 [Closing Years and Periods](year-close-years-periods.md)  
 [Closing Books](year-close-books.md)  
-[Working With Financials](ui-work-product.md)
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

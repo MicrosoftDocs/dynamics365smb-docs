@@ -5,7 +5,7 @@ services: project-madeira
 documentationcenter: ''
 author: jswymer
 
-ms.service: project-madeira
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -33,5 +33,4 @@ The following table describes a sequence of tasks, with links to the topics that
 ## See Also
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
 [Managing Contacts](marketing-contacts.md)  
-[Working With Financials](ui-work-product.md)
-
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

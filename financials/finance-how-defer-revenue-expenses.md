@@ -5,7 +5,7 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 
-ms.service: project-madeira
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -19,7 +19,7 @@ To recognize a revenue or an expense in a period other than the period in which 
 
 To distribute revenues or expenses on the involved accounting periods, you set up a deferral template for the resource, item, or G/L account that the revenue or expense will be posted for. When you post the related sales or purchase document, the revenue or expense are deferred to the involved accounting periods, according to a deferral schedule that is governed by settings in the deferral template and the posting date.
 
-**Note**: This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your Financials Experience](ui-experiences.md).
+**Note**: This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 
 ## To set up a G/L account for deferral
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Chart of Accounts**, and then choose the related link.
@@ -34,13 +34,13 @@ For both types of deferral, select **Balance Sheet** in the **Type** field, and 
 2. Choose the **New** action.
 3. Fill in the fields as necessary.
 4. In the **Calc. Method** field, specify how the **Amount** field for each period in the **Deferral Schedule** window is calculated. You can choose between the following options:
-   
+
    * **Straight-Line**: The periodic deferral amounts are calculated according to the number of periods, distributed according to period length.
    * **Equal Per Period**: The periodic deferral amounts are calculated according to the number of periods, distributed evenly on periods.
    * **Days Per Period**: The periodic deferral amounts are calculated according to the number of days in the period.
    * **User-Defined**: The periodic deferral amounts are not calculated. You must manually fill the **Amount** field for each period in the Deferral Schedule window. For more information, see the “To change a deferral schedule from a sales invoice” section.
 5. In the **Period Desc.** field, specify a description that will be shown on entries for the deferral posting. You can enter the following placeholder codes for typical values, which will be inserted automatically when the period description is displayed.
-   
+
    * %1 = The day number of the period posting date
    * %2 = The week number of the period posting date
    * %3 = The month number of the period posting date
@@ -60,7 +60,7 @@ Example: The posting date is 02/06/2016. If you enter “Expenses deferred for %
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Sales Invoices**, and then choose the related link.
 2. Create a sales invoice for an item that has a deferral template assigned. For more information, see [How to: Invoice Sales](sales-how-invoice-sales.md).
-   
+
     Notice that as soon as you enter the item (or resource or G/L account) on the invoice line, the **Deferral Code** field is filled with the code of the assigned deferral template.
 3. Choose the **Deferral Schedule** action.
 4. In the **Deferral Schedule** window, change settings on the header or values on the lines, for example to defer the amount to an additional accounting period.
@@ -86,5 +86,4 @@ G/L entries to be posted to the specified deferral account, for example, Unearne
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  
 [How to: Work With General Journals](ui-work-general-journals.md)  
-[Working With Financials](ui-work-product.md)
-
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

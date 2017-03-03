@@ -5,12 +5,12 @@ services: project-madeira
 documentationcenter: ''
 author: jswymer
 
-ms.service: project-madeira
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 02/06/2017
 ms.author: jswymer
 
 ---
@@ -25,10 +25,9 @@ Before you can create opportunities, you must set up opportunity sales cycles. F
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Salespeople**, and then choose the related link.
 2. Select the salesperson from the list for whom you want to create an opportunity.
 3. Choose the **Opportunities** action, and then choose **List**.
-4. Choose **New**, and then fill in the relevant fields.  
+4. Choose **New**, and then fill in the fields as relevant. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-<!-- taking out include note for OPS -->
-<!-- [AZURE.INCLUDE [tooltip-note](../includes/tooltip-note.md)] -->
+
 
 ## To create an opportunity from a contact
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Contacts**, and then choose the related link.
@@ -42,4 +41,3 @@ Before you can create opportunities, you must set up opportunity sales cycles. F
 [Sales](sales-manage-sales.md)  
 [Creating and Managing Contacts](marketing-contacts.md)  
 [Working With Financials](ui-work-product.md)
-

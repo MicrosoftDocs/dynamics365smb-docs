@@ -5,7 +5,7 @@ services: project-madeira
 documentationcenter: ''
 author: jswymer
 
-ms.service: project-madeira
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -28,5 +28,4 @@ To open the **Interaction Template Setup** window, in the top right corner, choo
 
 ## See Also
 [Recording Interactions With Contacts](marketing-interactions.md)  
-[Working With Financials](ui-work-product.md)  
-
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

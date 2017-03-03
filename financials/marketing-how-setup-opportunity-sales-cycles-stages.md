@@ -5,7 +5,7 @@ services: project-madeira
 documentationcenter: ''
 author: jswymer
 
-ms.service: project-madeira
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -37,5 +37,4 @@ After you add the opportunities stage cycle, you can start to add sales opportun
 ## See Also
 [Processing Sales Opportunities](marketing-processing-sales-opportunities.md)  
 [Sales](sales-manage-sales.md)  
-[Working with Dynamics 365 for Financials](ui-work-product.md)
-
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

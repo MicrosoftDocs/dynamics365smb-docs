@@ -5,7 +5,7 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 
-ms.service: project-madeira
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -15,7 +15,7 @@ ms.author: sgroespe
 
 ---
 # How to: Reconcile Bank Accounts Separately
-To reconcile bank accounts in Financials with statements received from the bank, you must fill in the lines in the **Bank Acc. Reconciliation** window.
+To reconcile bank accounts in [!INCLUDE[d365fin](includes/d365fin_md.md)] with statements received from the bank, you must fill in the lines in the **Bank Acc. Reconciliation** window.
 
 **Note**: You can also reconcile bank accounts in the **Payment Reconciliation Journal** window. Any open bank account ledger entries related to the applied customer or vendor ledger entries will be closed when you choose the **Post Payments and Reconcile Bank Account** action. This means that the bank account is automatically reconciled for payments that you post with the journal. For more information, see [How to: Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
 
@@ -53,10 +53,10 @@ When the value in the **Total Balance** field in the **Bank Statement Lines** pa
 ## To match bank statement lines with bank account ledger entries automatically
 1. In the **Bank Acc. Reconciliation** window, choose the **Match Automatically**. **The Match Bank Entries** window opens.
 2. In the **Transaction Date Tolerance (Days)** field, specify the span of days before and after the bank account ledger entry posting date within which the function will search for matching transaction dates in the bank statement.
-   
+
     If you enter 0 or leave the field blank, then the **Match Automatically** function will only search for matching transaction dates on the bank account ledger entry posting date.  
 3. Choose the **OK** button.  
-   
+
     All bank statement lines and bank account ledger entries that can be matched change to green font, and the **Applied** check box is selected.
 4. To remove a match, select the bank statement line, and then choose the **Remove Match** action.
 
@@ -64,21 +64,21 @@ When the value in the **Total Balance** field in the **Bank Statement Lines** pa
 1. In the **Bank Acc. Reconciliation** window, select a non-applied line in the **Bank Statement Lines** pane.
 2. In the **Bank Account Ledger Entries** pane, select one or more banks account ledger entries that can be matched with the selected bank statement line. To choose multiple lines, press and hold the Ctrl key.  
 3. Choose the **Match Manually** action.
-   
+
     The selected bank statement line and the selected bank account ledger entries change to green font, and the **Applied** check box in the right pane is selected.
 4. Repeat steps 1 through 3 for all bank statement lines that are not matched.
 5. To remove a match, select the bank statement line, and then choose the **Remove Match** action.
 
 ## To create missing ledger entries to match bank transactions with
-Sometimes a bank statement contain amounts for interest or fees charged. Such bank transactions cannot be matched because no related ledger entries exist in Financials. You must then post a journal line for each transaction to create a related ledger entry that it can be matched with.
+Sometimes a bank statement contain amounts for interest or fees charged. Such bank transactions cannot be matched because no related ledger entries exist in [!INCLUDE[d365fin](includes/d365fin_md.md)]. You must then post a journal line for each transaction to create a related ledger entry that it can be matched with.
 
 1. In the **Bank Acc. Reconciliation** window, choose the **Transfer to General Journal** action.  
 2. In the **Trans. Bank Rec. to Gen. Jnl.** window, specify which general journal to use, and then choose the **OK** button.
-   
+
     The **General Journal** window opens containing new journal lines for any banks statement lines with missing ledger entries.
 3. Complete the journal line with relevant information, such as the balancing account. For more information, see [Working With General Journals](ui-work-general-journals.md).  
 4. Choose the **Post** action.
-   
+
     When the entry is posted, proceed to match the bank transaction with to it.
 5. Refresh or reopen the **Bank Acc. Reconciliation** window. The new ledger entry will appear in the **Bank Account Ledger Entries** pane.
 6. Match the bank statement line with the bank account ledger entry, either manually or automatically.
@@ -86,5 +86,4 @@ Sometimes a bank statement contain amounts for interest or fees charged. Such ba
 ## See Also
 [Managing Bank Accounts](bank-manage-bank-accounts.md)  
 [Setting Up Banking](bank-setup-banking.md)  
-[Working With Financials](ui-work-product.md)
-
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

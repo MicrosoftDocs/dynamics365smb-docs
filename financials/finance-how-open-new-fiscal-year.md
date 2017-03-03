@@ -5,7 +5,7 @@ services: project-madeira
 documentationcenter: ''
 author: edupont04
 
-ms.service: project-madeira
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -21,7 +21,7 @@ Before you can post in a fiscal year, you must open the fiscal year and define i
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Accounting Periods**, and then choose the related link.
 2. In the **Accounting Periods** window, choose the **Create Year** action.
 3. Fill in the fields to define the structure of the fiscal year.
-   
+
     The fiscal year is typically 12 periods of one month each, but you can also divide it in other ways.
 4. Choose the **OK** button.
 
@@ -31,5 +31,4 @@ The accounting periods are added to the page. The **Starting Date** and **Name**
 [How to: Specify Posting Periods](finance-how-specify-posting-periods.md)  
 [How to: Post the Year-End Closing Entry](year-how-post-year-end-close-entry.md)  
 [Finance](finance.md)  
-[Working With Financials](ui-work-product.md)
-
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

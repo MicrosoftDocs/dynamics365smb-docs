@@ -5,7 +5,7 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 
-ms.service: project-madeira
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -17,11 +17,11 @@ ms.author: sgroespe
 # How to: Review or Apply Payments Manually After Automatic Application
 For each journal line representing a payment in the **Payment Reconciliation Journal** window, you can open the **Payment Application** window to see all candidate open entries for the payment and view detailed information for each entry about the data matching that a payment application is based on. Here, you can manually apply payments or reapply payments that were applied automatically to a wrong entry. For more information about automatic application, see [How to: Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
 
-**Important**: When the bank account that you are reconciling payments for is set up for the local currency, then the **Payment Application** window will show all open entries in the local currency, including open entries for documents that were originally invoiced in foreign currencies. Payments applied to entries with converted currencies may therefore be posted with different amounts than on the original document because of the potentially different exchange rates used by the bank and Financials respectively.
+**Important**: When the bank account that you are reconciling payments for is set up for the local currency, then the **Payment Application** window will show all open entries in the local currency, including open entries for documents that were originally invoiced in foreign currencies. Payments applied to entries with converted currencies may therefore be posted with different amounts than on the original document because of the potentially different exchange rates used by the bank and [!INCLUDE[d365fin](includes/d365fin_md.md)] respectively.
 
 Therefore, we recommend that you look for foreign currency codes in the **Currency Code** field in the **Payment Application** window to check if applications are based on converted currencies. To review the original document amount in the foreign currency and to see the exchange rate used, choose the **Applies-to Entry No.** field, and then, on the shortcut menu, choose the drilldown button to open the **Customer Ledger Entries** or **Vendor Ledger Entries** window.
 
-Any gains-and-loss adjustment required due to currency conversions is not handled automatically by Financials.
+Any gains-and-loss adjustment required due to currency conversions is not handled automatically by [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 **Note**: You cannot apply entries with a different sign than the sign on the payment. For example, to close both a negative-sign credit memo and its related positive-sign invoice, you must first apply the credit memo to the invoice, and then apply the payment to the invoice with the reduced remaining amount.
 
@@ -45,5 +45,5 @@ The **Payment Application** window  closes, and in the **Payment Reconciliation 
 ## See Also
 [Managing Receivables](receivables-manage-receivables.md)  
 [Sales](sales-manage-sales.md)  
-[Working With Financials](ui-work-product.md)
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

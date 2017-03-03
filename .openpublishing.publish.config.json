@@ -20,7 +20,8 @@
     }
   ],
   "notification_subscribers": [
-    "edupont@microsoft.com"
+    "edupont@microsoft.com",
+    "solsen@microsoft.com"
   ],
   "branches_to_filter": [],
   "skip_source_output_uploading": false,

@@ -5,7 +5,7 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 
-ms.service: project-madeira
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -25,7 +25,7 @@ To prepare a drop shipment, you create a sales order for an item as normal, exce
 1. Create a sales order for an item. For more information, see [How to: Sell Products](sales-how-sell-products.md).
 2. On the sales order line for the drop shipment, select the **Drop Shipment** check box. Use the **Choose Columns** function if the field is not visible. For more information, see [User Personalization](ui-user-personalization.md).
 
-**Note**: This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your Financials Experience](ui-experiences.md).
+**Note**: This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 
 ## To create the purchase order for drop shipment
 To prepare a drop shipment for the item to be sold, you create a purchase order as normal, except you must indicate on the purchase order that it must be shipped to your customer, not to yourself.
@@ -57,5 +57,5 @@ After the vendor ships the items, you can post the sales order as shipped. You c
 [How to: Record Purchases](purchasing-how-record-purchases.md)  
 [Sales](sales-manage-sales.md)  
 [Inventory](inventory-manage-inventory.md)  
-[Working With Financials](ui-work-product.md)
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

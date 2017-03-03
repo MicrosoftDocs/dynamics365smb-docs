@@ -5,7 +5,7 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 
-ms.service: project-madeira
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -29,7 +29,7 @@ The following procedures describe how to record actual (billable) or budgeted jo
    
     The **Remaining Quantity** field shows the quantity that remains to complete the job and be transferred to the journal.  
 5. Choose the **Create Job Journal Lines** action.
-6. In the **Job Transfer Job Planning Line** window, fill in the fields as necessary, and then choose the **OK** button. Choose a field to read a short description of the field or link to more information.
+6. In the **Job Transfer Job Planning Line** window, fill in the fields as necessary, and then choose the **OK** button. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Choose the **Open Job Journal** action.  
 8. In the **Job Journal** window, select the relevant line and then choose the **Post** action.
 9. In the **Job Planning Lines** window, review the recorded usage by observing the **Quantity**, **Remaining Quantity**, and **Qty. To Transfer to Journal** fields.  
@@ -84,5 +84,5 @@ After you have posted job journal lines, you can see the planning lines that are
 [Finance](finance.md)  
 [Purchasing](purchasing-manage-purchasing.md)         
 [Sales](sales-manage-sales.md)      
-[Working With Financials](ui-work-product.md)  
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

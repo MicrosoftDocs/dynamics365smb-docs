@@ -1,21 +1,23 @@
 ---
-title: 'How to: Create a Custom Report Layout | Microsoft Docs'
+title: 'How to: Create a Custom Report or Document Layout | Microsoft Docs'
 description: Learn how you can design how reports look.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 
-ms.service: project-madeira
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 02/10/2017
 ms.author: solsen
 
 ---
-# How to: Create a Custom Report Layout
+# How to: Create a Custom Report or Document Layout
 By default, a report will have a built-in report layout, which can be either an RDLC report layout or Word report layout, or both. You cannot modify built-in layouts. However, you can create your own custom layouts that enable you to change the appearance of report when it is viewed, printed or saved. You can create multiple custom report layouts for the same report, and then switch the layout that is used by a report as needed.
+
+**Note**: In [!INCLUDE[d365fin](includes/d365fin_md.md)], the term "report" also covers externally-facing documents, such as sales invoices and order confirmations that you send to customers as PDF files.
 
 To create a custom layout, you can either make a copy of an existing custom layout or add a new custom layout, which in most cases is based on a built-in layout. When you add a new custom layout, you can choose to add an RDLC report layout type, Word report layout type, or both. The new custom layout will automatically be based on the built-in layout for the report if one is available. If there is no built-in layout for the type, then a new blank layout is a created, which you will have to modify and design from scratch. For more information about RDLC and Word report layouts, built-in and custom layouts, and more, see [Manage Report Layouts](ui-manage-report-layouts.md).  
 
@@ -38,5 +40,4 @@ To create a custom layout, you can either make a copy of an existing custom layo
 ## See Also
 [Managing Report Layouts](ui-manage-report-layouts.md)  
 [How to: Change Which Layout is Currently Used on a Report](ui-how-change-layout-currently-used-report.md)  
-[Working With Financials](ui-work-product.md)
-
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

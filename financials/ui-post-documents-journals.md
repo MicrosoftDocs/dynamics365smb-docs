@@ -5,7 +5,7 @@ services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 
-ms.service: project-madeira
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -17,7 +17,7 @@ ms.author: solsen
 # Post Documents and Journals
 Posting represents the accounting action of recording business transactions in the various company ledgers.
 
-Practically every document and journal in Financials offers a **Posting** group from which you can choose between different posting actions, such as **Post**, **Preview Posting**, **Post and Send**, **Post and Email**.
+Practically every document and journal in [!INCLUDE[d365fin](includes/d365fin_md.md)] offers a **Posting** group from which you can choose between different posting actions, such as **Post**, **Preview Posting**, **Post and Send**, **Post and Email**.
 
 The following table describes related tasks, with links to the topics that describe them.
 
@@ -31,5 +31,5 @@ The following table describes related tasks, with links to the topics that descr
 
 ## See Also
 [General Business Functionality](ui-across-business-areas.md)  
-[Working With Financials](ui-work-product.md)
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

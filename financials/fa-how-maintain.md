@@ -5,7 +5,7 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 
-ms.service: project-madeira
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -26,7 +26,7 @@ Every time maintenance has been performed, such as a service visit, you can reco
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Fixed Assets**, and then choose the related link.  
 2. Select the fixed asset that you want to record maintenance for, and then choose the **Maintenance Registration** action.
-3. In the **Maintenance Registration** window, fill in the fields as necessary. Choose a field to read a short description of the field or link to more information.  
+3. In the **Maintenance Registration** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## To post maintenance costs from a fixed asset G/L journal
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Depreciation Book List**, and then choose the related link.  
@@ -36,7 +36,7 @@ Every time maintenance has been performed, such as a service visit, you can reco
 5. Create an initial journal line and fill in the fields as necessary.
 6. In the **FA Posting Type** field, select **Maintenance**.
 7. Choose the **Insert FA Bal. Account** action. A second journal line is created for the balancing account that is set up for maintenance posting.
-   
+
     **Note:** Step 7 only works if you have set up the following: In the **FA Posting Group Card** window for the posting group of the fixed asset, the **Maintenance Account** field contains the general ledger debit account and the **Maintenance Bal. Account** field contains the general ledger account to which you want to post balancing entries for appreciation. For more information, see the "To set up fixed asset posting groups" section in [How to: Set Up General Fixed Asset Information](fa-how-setup-general.md).
 8. Choose the **Post** action.
 
@@ -82,6 +82,5 @@ In the **Maintenance - Details** report, you can view or print maintenance ledge
 [Fixed Assets](fa-manage.md)  
 [Setting Up Fixed Assets](fa-setup.md)  
 [Finance](finance.md)  
-[Welcome to Dynamics 365 for Financials](madeira-get-started.md)  
-[Working With Financials](ui-work-product.md)
-
+[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

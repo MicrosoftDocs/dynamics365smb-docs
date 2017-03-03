@@ -5,7 +5,7 @@ services: project-madeira
 documentationcenter: ''
 author: jswymer
 
-ms.service: project-madeira
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -23,7 +23,7 @@ Using web sources on contacts is a two-step process. First, you define the web s
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Web Sources**, and then choose the related link.
 2. Choose the **New** actions.
 3. Fill in the **Code**, **Description**, and **URL** fields.
-   
+
     Type %1 in the **URL** field to insert a placeholder for a search word in the URL. When you launch the web source from a contact, the %1 is replaced with the search word, for example, the name of the company that you have entered in the **Contact Web Sources** window.
 
 Repeat these steps to set up as many web sources as you want.
@@ -42,5 +42,4 @@ You can also assign web sources from the **Contact List** window by following th
 
 ## See Also
 [Creating Contact Companies](marketing-create-contact-companies.md)  
-[Working With Financials](ui-work-product.md)
-
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

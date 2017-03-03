@@ -1,22 +1,17 @@
-            <properties
-                pageTitle="How to: Set Up Purchasers| Financials"
-                description="How to: Set Up Purchasers"
-                services="project-madeira"
-                documentationCenter=""
-                authors="SorenGP"
-/>
-
 ---
-{}
+title: 'How to: Set Up Purchasers| Microsoft Docs'
+description: If several purchasers work at your company, you can organize them for statistical analysis.
+services: project-madeira
+documentationcenter: ''
+author: SorenGP
 
-ms.service: project-madeira
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/14/2016
+ms.date: 02/14/2017
 ms.author: sgroespe
-
 ---
 # How to: Set Up Purchasers
 If several purchasers work at your company, you can set them up in a window and assign them each a code. You can then use the codes to prepare statistics and to filter information in printed reports.
@@ -24,7 +19,7 @@ If several purchasers work at your company, you can set them up in a window and 
 ## To set up purchasers
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Salespeople/Purchasers**, and then choose the related link.
 2. In the **Salespeople/Purchasers** window, choose **New**.
-3. In the **Salesperson/Purchaser Card** window, fill in the fields as necessary. Choose a field to read a short description of the field or link to more information.
+3. In the **Salesperson/Purchaser Card** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## To assign purchasers to vendors
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Vendors**, and then choose the related link.
@@ -34,5 +29,5 @@ If several purchasers work at your company, you can set them up in a window and 
 ## See Also
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  
 [Managing Payables](payables-manage-payables.md)  
-[Working With Financials](ui-work-product.md)
+[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

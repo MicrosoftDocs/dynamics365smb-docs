@@ -29,7 +29,7 @@ You can add users to user groups. This makes it easier to assign the same permis
 **Note**: This functionality requires that your experience is set to Suite. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 
 ## To assign permissions to a user
-1. In the top right corner, choose the Search for Page or Report icon, enter Users, and then choose the related link.
+1. In the top right corner, choose the Search for Page or Report icon, enter **Users**, and then choose the related link.
 2. Select the user that you want to assign permission to.
 Any permission sets that are already assigned to the user are displayed in the **Permission Sets** FactBox.
 3. Choose the **Edit** action to open the **User Card** window.
@@ -61,13 +61,13 @@ If the default permission sets that are provided with [!INCLUDE[d365fin](include
 6. In the **Permissions** window, fill in the fields on the header as necessary.
 7. On a new line, fill in the five fields for the different permission types as described in the following table.
 
-|Option|Description|
-|------|-----------|
-|Blank|Specifies that the permission type is not granted for the object.|
-|**Yes**|Specifies that the permission type is granted with direct access to the object.|
-|**Indirect**|Specifies that the permission type is granted with indirect access to the object.|
+    |Option|Description|
+    |------|-----------|
+    |Blank|Specifies that the permission type is not granted for the object.|
+    |**Yes**|Specifies that the permission type is granted with direct access to the object.|
+    |**Indirect**|Specifies that the permission type is granted with indirect access to the object.|
 
-Indirect permission to a table means that you cannot open the table and read from it, but you can view the data in the table through another object, such as a page, that you have direct permission to access. For more information, see the “Example - Indirect Permission” section in this topic.
+    Indirect permission to a table means that you cannot open the table and read from it, but you can view the data in the table through another object, such as a page, that you have direct permission to access. For more information, see the “Example - Indirect Permission” section in this topic.
 
 8. In the **Security Filter** field, enter a filter that you want to apply to the permissions that you have assigned to the object.
 9. Repeat steps 7 and 8 to add permissions for additional objects to the permission set.
@@ -82,8 +82,8 @@ Indirect permission to a table means that you cannot open the table and read fro
 
     A recording process starts to capture all your actions in the user interface.
 7. Go to the various windows and activities in [!INCLUDE[d365fin](includes/d365fin_md.md)] that you want users with this permission set to access. You must carry out the tasks that you want to record permissions for.
-8. When you want to finish the recording, return to the **Permissions** window, and then choose the Stop action.
-9. Choose the Yes button to add the recorded permissions to the new permission set.
+8. When you want to finish the recording, return to the **Permissions** window, and then choose the **Stop** action.
+9. Choose the **Yes** button to add the recorded permissions to the new permission set.
 10. For each object in the recorded list, specify if users are able to insert, modify, or delete records in the recorded tables. See step 7 in the "To create or modify permission sets manually" section.
 
 ### Example - Indirect Permission
@@ -92,5 +92,6 @@ For example, a user can have permission to run codeunit 80, **Sales-Post**. The 
 However, the user does not need to have full access to the **Sales Line** table to run the codeunit. If the user has indirect permission to the **Sales Line** table, then the **Sales-Post** codeunit runs successfully. When a user has indirect permission, that user can only modify the **Sales Line** table by running the **Sales-Post** codeunit or another object that has permission to modify the **Sales Line** table. The user can only modify the **Sales Line** table when doing so from supported application areas. The user cannot run the feature inadvertently or maliciously by other methods.
 
 ## See Also
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Welcome to [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

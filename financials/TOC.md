@@ -1,5 +1,5 @@
 # [Getting Started](index.md)
-## [Minimum Requirements](financials-requirements.md)
+## [System Requirements](financials-requirements.md)
 ## [Frequently Asked Questions](across-faq.md)
 ## [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md)
 ## [Importing Business Data from Other Finance Systems](upload-data.md)
@@ -33,7 +33,7 @@
 ### [How to: Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md)
 ## [Setting Up Sales](sales-setup-sales.md)
 ### [How to: Register New Customers](sales-how-register-new-customers.md)
-### [How to: Enable Customer Payments Through PayPal](sales-how-enable-payment-service-extensions.md)
+### [How to: Enable Customer Payments Through PayPal](sales-how-enable-customer-payments-paypal.md)
 ### [How to: Record Special Sales Prices and Discounts](sales-how-record-sales-price-discount-payment-agreements.md)
 ### [Advanced: Best Price Calculation](advanced-best-price-calculation.md)
 ### [How to: Set Up Salespeople](sales-how-setup-salespeople.md)
@@ -114,6 +114,7 @@
 
 # [Inventory](inventory-manage-inventory.md)
 ## [How to: Register New Products](inventory-how-register-new-products.md)
+## [How to: Work with Bills of Materials](inventory-how-work-BOMs.md)
 ## [How to: Categorize Items](inventory-how-categorize-items.md)
 ## [How to: Work with Item Attributes](inventory-how-work-item-attributes.md)
 ## [How to: Work with Nonstock Items](inventory-how-work-nonstock-items.md)
@@ -125,7 +126,7 @@
 ## [Advanced: Inventory Reconciliation](advanced-inventory-reconciliation.md)
 
 # [Relationship Management](marketing-relationship-management.md)
-## [Setting Up Relationship Management](marketing-setup-marketing.md)
+## [Setting Up Relationship Management](marketing-setup-marketing.md)[
 ## [Managing Contacts](marketing-contacts.md)
 ## [Managing Segments](marketing-segments.md)
 ## [Recording Interactions](marketing-interactions.md)

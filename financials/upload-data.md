@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/21/2017
+ms.date: 03/07/2017
 ms.author: edupont
 
 ---
@@ -32,8 +32,6 @@ The assisted setup includes an option to change the default configuration of the
 
 > [!NOTE]  
 >  Working with configuration packages is advanced functionality, and we recommend that you contact your administrator. For more information, see [Importing Data from Configuration Packages](across-import-data-configuration-packages.md).  
-
-adsldd
 
 ## See Also
 [Finance](finance.md)  

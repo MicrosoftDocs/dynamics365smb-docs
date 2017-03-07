@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/03/2017
+ms.date: 03/02/2017
 ms.author: solsen
 ---
 
@@ -27,15 +27,11 @@ ms.author: solsen
 |:---------------|:--------|:----------|
 |id|||
 |number|string|The account number. Read-only.|
-|displayName|||
+|displayName|string||
 |category|||
 |balance|||
 |blocked|||
 |lastModifiedDateTime|||
-|debitBalance|||
-|creditBalance|||
-|type|||
-|debitOrCredit|||
 |subCategory|||
 |directPosting|||
 
@@ -54,3 +50,5 @@ Here is a JSON representation of the resource.
 }
 
 ```
+## See Also
+[Graph Reference](graph-reference.md)  

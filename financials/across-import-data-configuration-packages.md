@@ -10,12 +10,12 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/21/2017
+ms.date: 03/07/2017
 ms.author: edupont
 
 ---
 # Importing Data from Configuration Packages
-You can import master data and some transactional data from other finance systems based on the default configuration package in [!INCLUDE[d365fin](includes/d365fin_md.md)]. In the **Configuration Packages*** window, you can work with the package to import and validate the data before you apply the package.  
+You can import master data and some transactional data from other finance systems based on the default configuration package in [!INCLUDE[d365fin](includes/d365fin_md.md)]. In the **Configuration Packages** window, you can work with the package to import and validate the data before you apply the package.  
 
 If you are familiar with RapidStart Services for Microsoft Dynamics, you are also familiar with configuration packages. The default configuration package supports the most common types of data that you want to import from a legacy system. In Excel, you can then add the data from the legacy system and set it up according to the business logic of the [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
@@ -56,7 +56,7 @@ The default configuration package supports the following tables:
 -   Purchase Price
 
 ## Importing Customer Data
-After the customer data has been entered in Excel, you import the data into [!INCLUDE[d365fin](includes/d365fin_md.md)]. In the **Configuration Packages*** window, you import the data from the Excel file, and you can validate that the data is consistent with [!INCLUDE[d365fin](includes/d365fin_md.md)] before you apply the package. 
+After the customer data has been entered in Excel, you import the data into [!INCLUDE[d365fin](includes/d365fin_md.md)]. In the **Configuration Packages** window, you import the data from the Excel file, and you can validate that the data is consistent with [!INCLUDE[d365fin](includes/d365fin_md.md)] before you apply the package.
 
 ## See Also
 [Importing Business Data from Other Finance Systems](upload-data.md)  

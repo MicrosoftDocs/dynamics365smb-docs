@@ -32,11 +32,14 @@ There are plenty of benefits of using [!INCLUDE[d365fin_long](includes/d365fin_l
 	Share your [!INCLUDE[d365fin](includes/d365fin_md.md)] app idea with us on Microsoft AppSource! After submitting your idea, we will engage with you and provide you with everything you need to start working on your app.
 	For more information about all the steps, get the [Engage with us about your app idea document.pdf](https://go.microsoft.com/fwlink/?linkid=841515) document from the Download Center.
 
-3.	Develop your app  
+3.	Develop the technical aspects of your app  
 	After you have set up your own app development environment, you can develop your app.
-	For more information about everything you need to know about how to develop a [!INCLUDE[d365fin](includes/d365fin_md.md)] app, get the [Develop your app.pdf](https://go.microsoft.com/fwlink/?linkid=841516) document from the Download Center.
+	For more information about everything you need to know about how to develop the technical aspects of your [!INCLUDE[d365fin](includes/d365fin_md.md)] app, get the [Develop your app.pdf](https://go.microsoft.com/fwlink/?linkid=841516) document from the Download Center.
 
-4.	Publish your app  
+4.  Develop the marketing aspects of your app  
+  Simply listing your app's features and functionality will not convert prospects to buyers. For more information about how to best market your app in the AppSource marketplace, get the [Develop the marketing aspects of your app.pdf](https://go.microsoft.com/fwlink/?linkid=841518) from the Download Center.
+
+5. Publish your app  
 	Before we publish, we will collaborate with you to ensure that your app stands out on Microsoft AppSource and on your own landing page! We need to validate your app to ensure it is marketed well, trustworthy, and up to date.
 	For more information about the validation process and how to publish your app, get the [Publish your app.pdf](https://go.microsoft.com/fwlink/?linkid=841517) document from the Download Center.
 

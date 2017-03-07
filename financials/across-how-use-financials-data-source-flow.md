@@ -30,7 +30,7 @@ You can use your [!INCLUDE[d365fin](includes/d365fin_md.md)] data as part of a w
 
    For the *Company Name*, use the name that is shown in the **Name** field in the **Company Information** window in [!INCLUDE[d365fin](includes/d365fin_md.md)]. If your [!INCLUDE[d365fin](includes/d365fin_md.md)] contains multiple companies, choose the relevant company name from the list in the **Companies** window. In both cases, make sure that the name that you specify in the PowerApps wizard matches exactly the text shown in [!INCLUDE[d365fin](includes/d365fin_md.md)], such as `My Company`.
 
-   For the username and password, use the name and web service access key that are specified for your account in the **Users** window in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For example, your username is *ADMIN*, and the web service access key that serves as your password is *EgzeUFQ9Uv0o5O0lUMyqCzo1ueUW9yRF3SsLU=*.
+   For the username and password, use the name and web service access key that are specified for your account in the **Users** window in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For example, your username is *ADMIN*, and the web service access key that serves as your password is *EgzeUFQ9Uv0o5O0lUMyqCzo1ueUW9yRF3SsLU=*. For more information, see [How to: Manage Users and Permissions](ui-how-users-permissions.md).
 6. Choose the **Create** button at the bottom of the page to continue.
 
    Flow will show a list of tables that are available from [!INCLUDE[d365fin](includes/d365fin_md.md)]. These tables, or end points, represent all the web services that you have published from [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -43,5 +43,6 @@ At this point, you have successfully connected to your Dynamics 365 data and are
 ## See Also
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Importing Business Data from Other Finance Systems](upload-data.md)  
+[How to: Manage Users and Permissions](ui-how-users-permissions.md)    
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Finance](finance.md)  

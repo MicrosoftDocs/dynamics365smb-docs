@@ -24,27 +24,24 @@ There are plenty of benefits of using [!INCLUDE[d365fin_long](includes/d365fin_l
 * Bundle with intelligent business apps such as PowerApps, Flow, Power BI, Cortana Intelligence, and many more  
 
 ## To bring your [!INCLUDE[d365fin](includes/d365fin_md.md)] app into AppSource:
-1.	Create your accounts  
-	We want you to have access to all the necessary tools! You must have a Microsoft Partner Network ID, a Developer account, and a PSBC account.
-	For more information about how you can get your accounts in place, get the [Create your accounts.pdf](https://go.microsoft.com/fwlink/?linkid=841514) document from the Download Center.
++ Create your accounts  
+We want you to have access to all the necessary tools! You must have a Microsoft Partner Network ID, a Developer account, and a PSBC account.
+For more information about how you can get your accounts in place, get the [Create your accounts.pdf](https://go.microsoft.com/fwlink/?linkid=841514) document from the Download Center.
 
-2.	Engage with us about your app idea  
-	Share your [!INCLUDE[d365fin](includes/d365fin_md.md)] app idea with us on Microsoft AppSource! After submitting your idea, we will engage with you and provide you with everything you need to start working on your app.
-	For more information about all the steps, get the [Engage with us about your app idea document.pdf](https://go.microsoft.com/fwlink/?linkid=841515) document from the Download Center.
++ Engage with us about your app idea  
+Share your [!INCLUDE[d365fin](includes/d365fin_md.md)] app idea with us on Microsoft AppSource! After submitting your idea, we will engage with you and provide you with everything you need to start working on your app.
+For more information about all the steps, get the [Engage with us about your app idea document.pdf](https://go.microsoft.com/fwlink/?linkid=841515) document from the Download Center.
 
-3.	Develop the technical aspects of your app  
-	After you have set up your own app development environment, you can develop your app.
-	For more information about everything you need to know about how to develop the technical aspects of your [!INCLUDE[d365fin](includes/d365fin_md.md)] app, get the [Develop your app.pdf](https://go.microsoft.com/fwlink/?linkid=841516) document from the Download Center.
++ Develop the technical aspects of your app    
+After you have set up your own app development environment, you can develop your app.
+For more information about everything you need to know about how to develop the technical aspects of your [!INCLUDE[d365fin](includes/d365fin_md.md)] app, get the [Develop the technical aspects of your app.pdf](https://go.microsoft.com/fwlink/?linkid=841516) document from the Download Center.
 
-4.  Develop the marketing aspects of your app  
-  Simply listing your app's features and functionality will not convert prospects to buyers. For more information about how to best market your app in the AppSource marketplace, get the [Develop the marketing aspects of your app.pdf](https://go.microsoft.com/fwlink/?linkid=841518) from the Download Center.
++ Develop the marketing aspects of your app  
+Simply listing your app's features and functionality will not convert prospects to buyers. For more information about how to best market your app in the AppSource marketplace, get the [Develop the marketing aspects of your app.pdf](https://go.microsoft.com/fwlink/?linkid=841518) from the Download Center.
 
-5. Publish your app  
-	Before we publish, we will collaborate with you to ensure that your app stands out on Microsoft AppSource and on your own landing page! We need to validate your app to ensure it is marketed well, trustworthy, and up to date.
-	For more information about the validation process and how to publish your app, get the [Publish your app.pdf](https://go.microsoft.com/fwlink/?linkid=841517) document from the Download Center.
-
-## Validation resources
-Have a look at our [Marketing validation checklist.pdf](https://go.microsoft.com/fwlink/?linkid=841518) and the [Technical validation whitepaper](https://go.microsoft.com/fwlink/?linkid=841519) to get insights into the relevant requirements and recommendations, both available from the Download Center.
++ Publish your app  
+Before we publish, we will collaborate with you to ensure that your app stands out on Microsoft AppSource and on your own landing page! We need to validate your app to ensure it is marketed well, trustworthy, and up to date.
+For more information about the validation process and how to publish your app, get the [Publish your app.pdf](https://go.microsoft.com/fwlink/?linkid=841517) document from the Download Center.
 
 ## Need help?
 If you would like some coaching, you can contact an app subject matter expert from the following list:
@@ -61,7 +58,7 @@ Partners in​ this list:
 If you believe you should be listed as an app service partner, don't hesitate to reach out to [d365-smb@microsoft.com​](mailto:d365-smb@microsoft.com​).
 
 ## Questions?
-If you have further questions, don't hesitate to contact your local Microsoft representative or email [d365-smb@microsoft.com​](mailto:d365-smb@microsoft.com​).
+This FAQ responds to the most common questions you might have about apps for [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]. If you have further questions, don't hesitate to contact your local Microsoft representative or email [d365-smb@microsoft.com](mailto:d365-smb@microsoft.com​). 
 
 ## See Also
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  

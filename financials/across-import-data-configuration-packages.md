@@ -1,10 +1,7 @@
 ---
-title: Set up customer data in Excel based on a configuration package| Microsoft Docs
-description: Use the default configuration package to add customer data in Excel and import back into Dynamics 365 for Financials.
-services: dynamics365-financials
-documentationcenter: ''
+title: Use Excel to get legacy data into Financials | Microsoft Docs
+description: Use the default configuration package to add customer data in Excel and import the data back into Dynamics 365 for Financials.
 author: edupont04
-
 ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
@@ -14,7 +11,7 @@ ms.date: 03/07/2017
 ms.author: edupont
 
 ---
-# Importing Data from Configuration Packages
+# Importing Data from Legacy Accounting Software using a Configuration Package
 You can import master data and some transactional data from other finance systems based on the default configuration package in [!INCLUDE[d365fin](includes/d365fin_md.md)]. In the **Configuration Packages** window, you can work with the package to import and validate the data before you apply the package.  
 
 If you are familiar with RapidStart Services for Microsoft Dynamics, you are also familiar with configuration packages. The default configuration package supports the most common types of data that you want to import from a legacy system. In Excel, you can then add the data from the legacy system and set it up according to the business logic of the [!INCLUDE[d365fin](includes/d365fin_md.md)].  

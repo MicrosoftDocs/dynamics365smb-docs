@@ -1,10 +1,7 @@
 ---
-title: Importing Business Data from Other Finance Systems| Microsoft Docs
+title: Import your legacy business data into Financials | Microsoft Docs
 description: Describes how you can import your own data into Dynamics 365 for Financials.
-services: dynamics365-financials
-documentationcenter: ''
 author: edupont04
-
 ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
@@ -31,9 +28,10 @@ The assisted setup includes an option to change the default configuration of the
 [!INCLUDE[d365fin](includes/d365fin_md.md)] includes a configuration package that you can export to Excel and set up your data there. Then, you can import the data from Excel again. The package consists of 27 tables, including master data such as customers, vendors, items, and accounts, other basic setup tables such as shipping methods, and transactions tables such as sales header and lines.  
 
 > [!NOTE]  
->  Working with configuration packages is advanced functionality, and we recommend that you contact your administrator. For more information, see [Importing Data from Configuration Packages](across-import-data-configuration-packages.md).  
+>  Working with configuration packages is advanced functionality, and we recommend that you contact your administrator. For more information, see [Importing Data from Legacy Accounting Software using a Configuration Package](across-import-data-configuration-packages.md).  
 
 ## See Also
 [Finance](finance.md)  
+[Importing Data from Legacy Accounting Software using a Configuration Package](across-import-data-configuration-packages.md)  
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)   
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)

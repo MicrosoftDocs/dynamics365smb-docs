@@ -26,7 +26,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | Choose how you pay your vendors. |[Payment Methods](finance-payment-methods.md) |
 | Set up fiscal periods. |[How to: Open a New Fiscal Year](finance-how-open-new-fiscal-year.md) |
 | Set up or update additional currencies if you perform international trade. |[How to: Update Currency Exchange Rates](finance-how-update-currencies.md) |
-| Set up unique identification codes. |[Create Number Series](ui-create-number-series.md) |
+| Set up unique identification codes. |[Creating Number Series](ui-create-number-series.md) |
 | Add dimensions for richer business intelligence. |[Set Up Dimensions](finance-setup-dimensions.md) |
 | Add new accounts to the existing chart of accounts. |[Set Up the Chart of Accounts](finance-setup-chart-accounts.md) |
 | Set up business intelligence (BI) charts to analyze cash flow. |[Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md) |
@@ -34,6 +34,6 @@ The following table describes a sequence of tasks, with links to the topics that
 ## See Also
 [Managing Bank Accounts](bank-manage-bank-accounts.md)  
 [Dimensions](finance-dimensions.md)  
-[Migrate Business Data from Other Finance Systems](upload-data.md)  
+[Importing Business Data from Other Finance Systems](upload-data.md)  
 [Analyzing Cash Flow in Your Company](finance-analyze-cash-flow.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -14,8 +14,8 @@ ms.date: 11/18/2016
 ms.author: sgroespe
 
 ---
-# How to: Enable Customer Payments Through PayPal and WorldPay
-As an alternative to collecting payments through bank transfer or credit cards, your customers can pay you through payment services like PayPal or WorldPay. The PayPal Payments Standard and WorldPay payment services are installed as extensions to [!INCLUDE[d365fin](includes/d365fin_md.md)], and are ready to go. You just need to get an account from the service provider, and then enable the extension. For more information, see [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md).
+# How to: Enable Customer Payments Through PayPal
+As an alternative to collecting payments through bank transfer or credit cards, your customers can pay you through the PayPal payment service. The PayPal Payments Standard payment services is installed as an extension to [!INCLUDE[d365fin](includes/d365fin_md.md)], and ready to go. You just need to get an account from the service provider, and then enable the extension. For more information, see [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md).
 
 After you enable a payment service, a link to the service displays on a sales invoice or sales order document, letting the customer make the payment directly from the document.
 

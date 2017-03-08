@@ -102,7 +102,6 @@
 ## [How to: How to: Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md)
 ## [How to: Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md)
 ## [How to: Register New Customers](sales-how-register-new-customers.md)
-## [Advanced: Best Price Calculation](advanced-best-price-calculation.md)
 
 # [Purchasing](purchasing-manage-purchasing.md)
 ## [How to: Record Purchases](purchasing-how-record-purchases.md)
@@ -110,7 +109,6 @@
 ## [How to: Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)
 ## [How to: Process Purchase Returns or Cancellations](purchasing-how-register-new-vendors.md)
 ## [How to: Register New Vendors](purchasing-how-register-new-vendors.md)
-## [Advanced: Best Price Calculation](advanced-best-price-calculation.md)
 
 # [Inventory](inventory-manage-inventory.md)
 ## [How to: Register New Products](inventory-how-register-new-products.md)
@@ -163,6 +161,7 @@
 ## [Working with General Journals](ui-work-general-journals.md)
 ## [How to: Use Allocation Keys in General Journals](ui-how-use-allocation-keys-general-journals.md)
 ## [Scheduling a Report to Run](ui-schedule-report.md)
+## [How to: Manage Users and Permissions](ui-how-users-permissions.md)
 ## [Logging Changes in Financials](across-log-changes.md)
 ## [How to: Use Approval Workflows](across-how-use-approval-workflows.md)
 ## [Incoming Documents](across-income-documents.md)

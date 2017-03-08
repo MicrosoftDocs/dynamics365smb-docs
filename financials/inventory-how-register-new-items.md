@@ -1,6 +1,6 @@
 ---
-title: 'How to: Register New Products| Microsoft Docs'
-description: 'How to: Register New Products'
+title: 'How to: Register New Items| Microsoft Docs'
+description: 'Create cards for new physical products, that you sell from inventory in e.g. pieces, or for services, that you sell as hours.'
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,18 +10,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/03/2017
+ms.date: 03/09/2017
 ms.author: sgroespe
 
 ---
-# How to: Register New Products
-Products are the basis of your business, the goods or services that you trade in. Each product must be registered as an item card.
+# How to: Register New Items
+items, among other products, are the basis of your business, the goods or services that you trade in. Each item must be registered as an item card.
 
-**Note**: In [!INCLUDE[d365fin](includes/d365fin_md.md)], a product is referred to using the term “item”.
+Item cards hold the information that is required to buy, store, sell, deliver, and account for items.
 
-Item cards hold the information that is required to buy, store, sell, deliver, and account for products.
-
-The item card can be of type Inventory or Service to specify if the product is a physical unit or a labor time unit. Apart from some fields that relate to the physical aspects of an item, all fields on an item card function in the same way for inventory items and services. For more information about selling an item, see [How to: Sell Products](sales-how-sell-products.md) or [How to: Invoice Sales](sales-how-invoice-sales.md).
+The item card can be of type **Inventory** or **Service** to specify if the item is a physical unit or a labor time unit. Apart from some fields that relate to the physical aspects of an item, all fields on an item card function in the same way for inventory items and services. For more information about selling an item, see [How to: Sell Products](sales-how-sell-products.md) or [How to: Invoice Sales](sales-how-invoice-sales.md).
 
 An item can be structured as a parent item with underlying child items in a bill of materials (BOM). In [!INCLUDE[d365fin](includes/d365fin_md.md)], a bill of materials is referred to as an assembly BOM. You use assembly BOMs to structure parent items that you sell as kits consisting of the parent's components or that you assemble to order or to stock. For more information, see [How to: Work with Bills of Materials](inventory-how-work-BOMs.md).
 

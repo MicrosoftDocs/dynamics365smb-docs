@@ -1,6 +1,6 @@
 ---
 title: 'How to: Record Purchases| Microsoft Docs'
-description: Describes how to purchase items or services by creating and posting purchase invoices or orders.
+description: Describes how to purchase items of type Inventory or Service by creating and posting purchase invoices or orders.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -21,11 +21,11 @@ You create a purchase invoice or purchase order to record the cost of purchases 
 
 When you receive the inventory items, or when the purchased service is completed, you post the purchase invoice or order to update inventory and financial records and to activate payment to the vendor according to the payment terms. For more information, see [Make Payments](payables-make-payments.md).
 
-**Caution**: Do not post a purchase invoice until you receive the products and know the final cost of the purchase, including any additional charges. Otherwise, your inventory value and profit figures may be skewed.
+**Caution**: Do not post a purchase invoice until you receive the items and know the final cost of the purchase, including any additional charges. Otherwise, your inventory value and profit figures may be skewed.
 
-You can easily correct or cancel a posted purchase invoice before you pay the vendor. This is useful if you want to correct a typing mistake or if you want to change the purchase early in the order process. For more information, see [How to: Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). If you have already paid for products on the posted purchase invoice, then you must create a purchase credit memo to reverse the purchase. For more information, see [How to: Process Purchase Returns or Cancellations](purchasing-how-process-purchase-returns-cancellations.md).
+You can easily correct or cancel a posted purchase invoice before you pay the vendor. This is useful if you want to correct a typing mistake or if you want to change the purchase early in the order process. For more information, see [How to: Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). If you have already paid for items on the posted purchase invoice, then you must create a purchase credit memo to reverse the purchase. For more information, see [How to: Process Purchase Returns or Cancellations](purchasing-how-process-purchase-returns-cancellations.md).
 
-Products can be both inventory items and services. For more information, see [How to: Register New Products](inventory-how-register-new-products.md). The purchase invoice process is the same for both product types.
+Items can be type **Inventory** or **Service**. For more information, see [How to: Register New Items](inventory-how-register-new-items.md). The purchase invoice process is the same for both item types.
 
 **Note**: Purchase order functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 
@@ -34,7 +34,7 @@ You can fill vendor fields on the purchase invoice in two ways depending on whet
 ## To create a purchase invoice
 1. On the Home page, choose the **Purchase Invoice** action.  
 2. In the **Vendor** field, enter the name of an existing vendor.
-   
+
     Other fields in the **Purchase Invoice** window are now filled with the standard information of the selected vendor. If the vendor is not registered, then follow these steps:
 3. In the **Vendor** field, enter the name of the new vendor.
 4. In the dialog box about registering the new vendor, choose the **Yes** button.
@@ -42,23 +42,23 @@ You can fill vendor fields on the purchase invoice in two ways depending on whet
 6. A new vendor card opens, prefilled with the information on the selected vendor template. The **Name** field is prefilled with the new vendor’s name that you entered on the purchase invoice.
 7. Proceed to fill in the remaining fields on the vendor card. For more information, see [How to: Register New Vendors](purchasing-how-register-new-vendors.md).  
 8. When you have completed the vendor card, choose the **OK** button to return to the **Purchase Invoice** window.
-   
+
     Several fields in the **Purchase Invoice** window are filled with information that you specified on the new vendor card.
 9. Fill in the remaining fields in the **Purchase Invoice** window as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-   
+
     You are now ready to fill in the purchase invoice lines with inventory items or services that you have purchased from the vendor.
-   
+
     **Note**: If you have set up recurring purchase lines for the vendor, such as a monthly replenishment order, then you can insert these lines on the invoice by choosing the **Get Recurring Purchase Lines** action.
 10. On the **Lines** FastTab, in the **Item No.** field, enter the number of an inventory item or service.
 11. In the **Quantity** field, enter the number of items to be purchased.
-    
+
     **Note**: For items of type **Service**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.
-    
+
     The **Line Amount** field is updated to show the value in the **Direct Unit Cost** field multiplied by the value in the **Quantity** field.
-    
+
     The price and line amount are shown with or without sales tax depending on what you selected in the **Prices Including Tax** field on the vendor card.
 12. In the **Invoice Discount Amount** field, enter an amount that should be deducted from the value shown in the **Total Incl. Tax** field at the bottom of the invoice.
-    
+
     **Note**: If you have set up invoice discounts for the vendor, then the specified percentage value is automatically inserted in the **Vendor Invoice Discount %** field if the criteria are met, and the related amount is inserted in the **Invoice Discount Amount** field.
 13. When you receive the purchased items or services, choose **Post**.
 
@@ -71,4 +71,3 @@ The purchase is now reflected in inventory and financial records, and the vendor
 [How to: Register New Vendors](purchasing-how-register-new-vendors.md)  
 [How to: Prepare Drop Shipments](sales-how-drop-shipment.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

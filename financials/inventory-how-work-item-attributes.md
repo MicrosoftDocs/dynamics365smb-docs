@@ -68,6 +68,6 @@ The items in the **Items** window are filtered by the specified item attribute v
 
 ## See Also
 [How to: Categorize Items](inventory-how-categorize-items.md)    
-[How to: Register New Products](inventory-how-register-new-products.md)  
+[How to: Register New Items](inventory-how-register-new-items.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

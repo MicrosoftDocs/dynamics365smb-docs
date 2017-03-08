@@ -34,7 +34,7 @@ There are two parts to creating an assembly BOM:
 - Setting up a new item
 - Defining the BOM structure of the assembly item.
 
-1. Set up a new item. For more information, see [How to: Register New Products](inventory-how-register-new-products.md).
+1. Set up a new item. For more information, see [How to: Register New Items](inventory-how-register-new-items.md).
 
     Proceed to enter components or resources on the assembly BOM.  
 2. In the **Item Card** window for an assembly item, choose the **Assembly** action, and then choose the **Assembly BOM** action.
@@ -49,7 +49,7 @@ From the **Assembly BOM** window, you can open a separate window that shows the 
 4. In the **Assembly BOM** window, choose the **Show BOM** action.
 
 ## See Also
-[How to: Register New Products](inventory-how-register-new-products.md)  
+[How to: Register New Items](inventory-how-register-new-items.md)  
 [How to: Get an Availability Overview](inventory-how-availability-overview.md)     
 [Inventory](inventory-manage-inventory.md)  
 [Working With [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)

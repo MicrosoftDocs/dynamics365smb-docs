@@ -21,7 +21,7 @@ The following table lists these general business areas with links to topics that
 
 | To | See |
 | --- | --- |
-| Assign unique identification codes to records, such as general ledger accounts, customer and vendor accounts, invoices, and documents. A well-designed numbering system also makes the company more manageable and easy to analyze and can reduce the number of errors that occur in data entry. |[Create Number Series](ui-create-number-series.md) |
+| Assign unique identification codes to records, such as general ledger accounts, customer and vendor accounts, invoices, and documents. A well-designed numbering system also makes the company more manageable and easy to analyze and can reduce the number of errors that occur in data entry. |[Creating Number Series](ui-create-number-series.md) |
 | Set up standard text codes so you can extend standard text by adding extra lines, and set up conditions for use of the extra lines. |[How to: Define Extended Text](ui-how-define-ext-text.md) |
 | Change [!INCLUDE[d365fin](includes/d365fin_md.md)] by installing extensions that add functionality, changes behavior, or gives you access to new online services. |[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md) |
 | Learn how to work with general journals, which are used to post to general ledger accounts and other accounts such as bank, customer, vendor, and fixed assets accounts. |[Managing General Journals](ui-work-general-journals.md) |

@@ -28,5 +28,5 @@ If you're interested in learning more about becoming a [!INCLUDE[d365fin](includ
 
 ## See Also
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Migrate Business Data from Other Finance Systems](upload-data.md)  
+[Importing) Business Data from Other Finance Systems](upload-data.md)  
 [https://appsource.microsoft.com](https://appsource.microsoft.com/en-us/?product=project-madeira)  

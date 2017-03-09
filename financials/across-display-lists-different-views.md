@@ -24,4 +24,4 @@ You can import a picture for a specific item by going to the **Item** card and t
 
 ## See Also
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[How to: Register New Products](inventory-how-register-new-products.md)  
+[How to: Register New Items](inventory-how-register-new-items.md)  

@@ -47,7 +47,7 @@ A new item card prefilled with information from the nonstock item and a relevant
 ## To sell a nonstock item, and convert it to a normal item
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Sales Orders**, and then choose the related link.
 2. Choose the **New** action. Fill in the fields on the **General** FastTab as for any sales order. For more information, see [How to: Sell Products](sales-how-sell-products.md).
-3. On a new sales line, in the **Type** field, select **Item**, but leave the **No** field empty.
+3. On a new sales line, in the **Type** field, select **Item**, but leave the **No.** field empty.
 4. Choose the **Line** action, and then choose the **Select Nonstock Items** action.
 
     The nonstock item is converted to a normal item. A new item card prefilled with information from the nonstock item and a relevant item template is created.

@@ -22,7 +22,7 @@ The user experience determines how much of the core functionality is available w
 
 **Note**: This setting applies to all users in your company.
 
-![Experience](.media/ui-experiences/experience.gif)
+![Experience](media/ui-experience/experience.gif)
 
 The following table lists the experiences that are currently available.
 

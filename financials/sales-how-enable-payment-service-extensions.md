@@ -10,14 +10,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/18/2016
+ms.date: 03/02/2017
 ms.author: sgroespe
 
 ---
 # How to: Enable Customer Payments Through Payment Services
 As an alternative to collecting payments through bank transfer or credit cards, you can offer your customers to pay you through their account with payment services, such as PayPal and WorldPay.
 
-After you enable a payment service in [!INCLUDE[d365fin](includes/d365fin_md.md)], a link to the service is available on sales documents that you send by email to your customers. Customers can use the link to go to the payment service and pay the bill, directly from the sales document.
+After you enable a payment service in [!INCLUDE[d365fin](includes/d365fin_md.md)], a link to the service is available on sales documents that you send by email to your customers. Customers can use the link to go to the payment service and pay the bill, directly from the sales document. If you don't want to include the link, for example, if a customer will pay with cash, you can remove the payment service from the invoice before posting.
 
 The PayPal Payments Standard and WorldPay Payments Standard are installed as extensions to [!INCLUDE[d365fin](includes/d365fin_md.md)] and are ready to be enabled. For more information, see [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md).
 
@@ -27,8 +27,6 @@ The PayPal Payments Standard and WorldPay Payments Standard are installed as ext
 3. Select the payment service, and then close the window.
 4. In the **Payment Services** window, choose the **Setup** action.
 5. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-    **Note**: Select the **Always Include on Documents** check box if the hyperlink for the payment service should always be visible on sales documents where payment through a payment service is enabled.
 6. Close the window.
 
 ## To select a payment service on a sales invoice

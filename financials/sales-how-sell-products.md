@@ -47,17 +47,17 @@ On the Home page,  choose the **Sales Order** action.
    Several fields on the sales Order are now filled with information that you specified on the new customer card.  
 8. Fill in the remaining fields in the **Sales Order** window as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-   You are now ready to fill in the sales order lines for products or charges that you want to post with the sales line.  
+   You are now ready to fill in the sales order lines for products that you are selling to the customer or for any transaction with the customer that you want to record in a G/L account.   
 
    If you have set up recurring sales lines for the customer, such as a monthly replenishment order, then you can insert these lines on the order by choosing the **Get Recurring Sales Lines** action.  
-9. On the **Lines** FastTab, in the **Type** field, select what type of product or charge you will sell to the customer.
-10. In the **No** field, select a record to post according to the value in the **Type** field.
+9. On the **Lines** FastTab, in the **Type** field, select what type of product, charge, or transaction that you will post for the customer with the sales line.
+10. In the **No.** field, select a record to post according to the value in the **Type** field.
 
-    You leave the **No** field empty in the following cases:
+    You leave the **No.** field empty in the following cases:
     -If the line is for a comment. Write the comment in the **Description** field.
     -If the line is for a nonstock item. Choose the **Select Nonstock Items** action. For more information, see [How to: Work With Nonstock Items](inventory-how-work-nonstock-items.md).
 
-11. In the **Quantity** field, enter how many units of the product or charge you will sell to the customer.  
+11. In the **Quantity** field, enter how many units of the product, charge, or transaction that the line will record for the customer.  
 
     **Note:** If the item is of type **Item - Service** or **Resource**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.  
 

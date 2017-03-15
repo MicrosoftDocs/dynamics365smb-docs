@@ -1,17 +1,19 @@
-<properties
-	pageTitle="What's New in Dynamics 365 for Financials| Financials"
-    description="What's New in Dynamics 365 for Financials"
-	services="project-madeira"
-	documentationCenter=""
-	authors="edupont04"/>
-<tags
-    ms.service="project-madeira"
-    ms.topic="get-started-article"
-    ms.devlang="na"
-    ms.tgt_pltfrm="na"
-    ms.workload="na"
-    ms.date="01/04/2017"
-    ms.author="edupont" />
+---
+title: What's New in Dynamics 365 for Financials| Microsoft Docs
+description: What's New in Dynamics 365 for Financials
+services: project-madeira
+documentationcenter: ''
+author: SorenGP
+
+ms.service: project-madeira
+ms.topic: get-started-article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.date: 03/15/2017
+ms.author: sgroespe
+
+---
 
 # What's New in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Welcome to [!INCLUDE[d365fin](includes/d365fin_md.md)]! If you haven't already, then sign up for a trial, let us walk you through the basics of what you can do with [!INCLUDE[d365fin](includes/d365fin_md.md)], and then try things out on your own for a while. When you are ready, you can open a blank company and set things up for yourself.  

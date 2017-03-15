@@ -14,7 +14,7 @@ ms.date: 02/14/2017
 ms.author: edupont
 
 ---
-# Extend [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# Extend Dynamics 365 for Financials
 There are plenty of benefits of using [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] as a platform for App builders:
 
 * Enrich [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], a proven Microsoft online solution, with your expertise  

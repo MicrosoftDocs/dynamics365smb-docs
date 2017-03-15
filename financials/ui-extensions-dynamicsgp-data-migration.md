@@ -14,7 +14,7 @@ ms.date: 11/01/2016
 ms.author: edupont
 
 ---
-# The Dynamics GP Data Migration Extension for [!INCLUDE[d365fin](includes/d365fin_long_md.md)]
+# The Dynamics GP Data Migration Extension for Dynamics 365 for Financials
 This extension makes it easy to migrate customers, vendors, inventory items, and accounts from Dynamics GP to [!INCLUDE[d365fin](includes/d365fin_md.md)]. If your business uses Dynamics GP today, you can export the relevant master records and then open an assisted setup guide to add the data to [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Migrate Business Data from Other Finance Systems](upload-data.md).
 
 ## Exporting Data from Dynamics GP

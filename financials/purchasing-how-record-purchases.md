@@ -46,11 +46,11 @@ You can fill vendor fields on the purchase invoice in two ways depending on whet
     Several fields in the **Purchase Invoice** window are filled with information that you specified on the new vendor card.
 9. Fill in the remaining fields in the **Purchase Invoice** window as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-    You are now ready to fill in the purchase invoice lines with inventory items or services that you have purchased from the vendor.
+    You are now ready to fill in the purchase lines for products that you are buying from the vendor or for any transaction with the vendor that you want to record in a G/L account.
 
     **Note**: If you have set up recurring purchase lines for the vendor, such as a monthly replenishment order, then you can insert these lines on the invoice by choosing the **Get Recurring Purchase Lines** action.
 10. On the **Lines** FastTab, in the **Item No.** field, enter the number of an inventory item or service.
-11. In the **Quantity** field, enter the number of items to be purchased.
+11. In the **Quantity** field, enter how many units of the item, charge, or transaction that the line will record for the vendor.
 
     **Note**: For items of type **Service**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.
 

@@ -1,18 +1,19 @@
-<properties
-                pageTitle="Inventory| Financials"
-                description="Describes how to manage physical items."
-                services="project-madeira"
-                documentationCenter=""
-                authors="SorenGP"
-/>
-<tags
-    ms.service="project-madeira"
-    ms.topic="article"
-    ms.devlang="na"
-    ms.tgt_pltfrm="na"
-    ms.workload="na"
-    ms.date="02/13/2017"
-    ms.author="sgroespe" />
+---
+title: Inventory| Microsoft Docs
+description: Describes how to manage physical items.
+services: project-madeira
+documentationcenter: ''
+author: SorenGP
+
+ms.service: project-madeira
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.date: 03/15/2017
+ms.author: SorenGP
+
+---
 
 # Inventory
 For each physical product that you trade in, you must create an item card of type **Inventory**. Items that you offer to customers but do not keep in inventory you can register as nonstock items, which you can convert to inventory items when necessary. You can increase or decrease the quantity of an item in inventory by posting directly to the item ledger entries, for example, after a physical count or if you do not record purchases.

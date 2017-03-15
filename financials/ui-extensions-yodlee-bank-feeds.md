@@ -14,7 +14,7 @@ ms.date: 05/12/2016
 ms.author: sgroespe
 
 ---
-# The Envestnet Yodlee Bank Feeds Extension to [!INCLUDE[d365fin](includes/d365fin_long_md.md)]
+# The Envestnet Yodlee Bank Feeds Extension to Dynamics 365 for Financials
 To quickly reconcile payments made to your bank accounts, the Envestnet Yodlee Bank Feeds service allows you to link your system bank account to your online bank account. This means that the latest bank statement is automatically or manually fed into your reconciliation journal, ensuring that you are always processing the latest payments with minimal risk of errors.
 
 The Envestnet Yodlee Bank Feeds service provides the following benefits:

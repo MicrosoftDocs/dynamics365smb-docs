@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 03/15/2017
 ms.author: sgroespe
 
 ---
@@ -27,18 +27,18 @@ Payments for different customers that have different payment dates must be poste
 Because you can post different payment types to different balancing accounts, you must select a balancing account in the **Payment Registration Setup** window before you start processing customer payments. If you always post to the same balancing account, you can set that account as the default and avoid this step every time that you open the **Payment Registration** window.  
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Payment Registration Setup**, and then choose the related link.
-   
+
     Alternatively, in the **Payment Registration** window, choose the **Setup** action.    
 2. Fill in the fields in the **Payment Registration Setup** window. Choose a field to read a short description of the field or link to related information.  
 
 ## To reconcile payments individually
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Payment Registration**, and then choose the related link.  
 2. Select the **Payment Made** check box on the line that represents the posted document for which a payment has been made.
-   
+
     If the **Auto Fill Date Received** check box is selected in the **Payment Registration Setup** window, then the work date is entered in the **Date Received** field.  
 3. In the **Date Received** field, enter the date when the payment was made. This date may be different from the work date.  
 4. In the **Amount Received** field, enter the amount that has been paid.
-   
+
     For full payments, this is the same as the amount in the **Remaining Amount** field on the line. For partial payments, this is lower than the amount in the **Remaining Amount** field on the line.    
 5. Repeat steps 2-4 for other lines that represent posted documents for which payments are made.  
 6. Choose the **Post Payments** action.  
@@ -50,15 +50,15 @@ Payments entries are posted to general ledger, bank, and customer accounts. Each
 ## To reconcile lump payments
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Payment Registration**, and then choose the related link.
 2. Select the **Payment Made** check box on the lines that represent posted documents for the same customer for which a lump payment has been made.  
-   
+
     **Note**: The customer in the **Name** field must be the same on all lines that will be posted as a lump payment.  
-   
+
     If the **Auto Fill Date Received** check box is selected in the **Payment Registration Setup** window, then the work date is filled in the **Date Received** field.  
 3. In the **Date Received** field, enter the date when the payment was made. This date may be different from the work date.  
-   
+
     **Note**: This date must be the same on all lines that will be posted as a lump payment.  
 4. In the **Amount Received** field, enter amounts on multiple lines that sum up to the lump payment amount.  
-   
+
     **Tip**: Try to post as many full payments as possible with the lump amount. Enter amounts that are the same as the amount in the **Remaining Amount** field on as many lines as possible.  
 5. Repeat steps 2-4 for other lines that represent posted documents for the same customer for which a lump payment has been made.  
 6. Choose the **Post As Lump Payment** action. The entered payment information is posted for documents represented by lines where the **Payment Made** check box is selected.  
@@ -69,46 +69,46 @@ If a payment in the bank is not represented by line in the **Payment Registratio
 
 If a payment in the bank is not represented by any document in [!INCLUDE[d365fin](includes/d365fin_md.md)], then you can open a prefilled general journal from the **Payment Registration** window to post the payment directly to the balancing account without applying the payment to a document. Alternatively, you may want to record the payment in the journal until the origin of the payment has been resolved. For more information, see the "To record or post a payment without a related document" section.  
 
-## To Customer Payments with Discounts Manually
+## To process customer payments with discounts manually
 If you have agreed on a payment discount with your customer, then the payment amounts can be lower than the invoice amounts if payment occurs before the agreed discount date.  
 
-This procedure explains four different procedures for posting discounted payments in the **Payment Registration** window.  
+The following procedures explains four different ways to post discounted payments in the **Payment Registration** window.  
 
 * The payment amount is equal to the remaining discounted amount, and the payment date is before the discount date. You post the payment as is.  
 * The payment amount is equal to the remaining discounted amount, but the payment date is after the discount date. You post the payment as partial. The document remains open to collect/pay the remaining amount. Alternatively, you set the discount date later to allow the payment in full.  
 * The payment amount is lower than the remaining discounted amount. You post the payment as partial. The document remains open to collect/pay the remaining amount.  
 * The payment amount is more than the remaining discounted amount. You post the payments as is. Only the remaining amount is posted. The additional amount is credited to the customer.  
 
-## To process a payment amount that is equal to the discounted amount and where the payment date is before the discount date
+### To process a payment amount that is equal to the discounted amount and where the payment date is before the discount date
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Payment Registration**, and then choose the related link.  
 2. Enter the payment amount in the **Amount Received** field. The amount is equal to the amount in the **Rem. Amt. after Discount** field.
-   
+
     The **Payment Made** check box is automatically selected, and the **Date Received** field is filled with the work date.    
 3. In the **Date Received** field, enter the payment date. The date is before the date in the **Pmt. Discount Date** field.
 4. Verify that the **Remaining Amount** field contains zero (0).  
 5. Choose the **Post Payments** action to post the full payment to general ledger, bank, and customer accounts.
 
-## To process a payment amount that is equal to the discounted amount but where the payment date is after the discount date
+### To process a payment amount that is equal to the discounted amount but where the payment date is after the discount date
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Payment Registration**, and then choose the related link.  
 2. Enter the payment amount in the **Amount Received** field. The amount is equal to the amount in the **Rem. Amt. after Discount** field.
-   
+
     The **Payment Made** check box is automatically selected, and the **Date Received** field is filled with the work date.
 3. In the **Date Received** field, enter a payment date that is after the date in the **Pmt. Discount Date** field. Date fields change to red font, and an error message is shown at the bottom of the window.
-   
+
     **Tip**: If you want to make an exception and grant the discount even though the payment is late, follow these steps:
 4. Choose the **Details** action.  
 5. In the **Payment Registration Details** window, in the **Pmt. Discount Date** field on the **Payment Discount** FastTab, enter a date that is after the date in the **Date Received** field in the **Payment Registration** window.  
-   
+
     The error message and the red font disappear, and you can proceed to process the discounted payment.    
 6. Verify that the **Remaining Amount** field contains the amount that remains to pay the full invoice amount.  
 7. Choose the **Post Payments** action to post the partial payment to general ledger, bank, and customer accounts.  
 
 The related document remains open.
 
-## To process a payment that is lower than the remaining discounted amount
+### To process a payment that is lower than the remaining discounted amount
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Payment Registration**, and then choose the related link.  
 2. Enter the payment amount in the **Amount Received** field. The amount is lower than the amount in the **Rem. Amt. after Discount** field.
-   
+
     The **Payment Made** check box is automatically selected, and the **Date Received** field is filled with the work date.  
 3. In the **Date Received** field, enter the payment date. The date is before the date in the **Pmt. Discount Date** field.
 4. Verify that the **Remaining Amount** field contains the amount that remains to pay the discounted amount.  
@@ -116,10 +116,10 @@ The related document remains open.
 
 The related document remains open.
 
-## To process a payment that is more than the remaining discounted amount
+### To process a payment that is more than the remaining discounted amount
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Payment Registration**, and then choose the related link.  
 2. Enter the payment amount in the **Amount Received** field. The amount is more than the amount in the **Rem. Amt. after Discount** field.  
-   
+
     The **Payment Made** check box is automatically selected, and the **Date Received** field is filled with the work date.    
 3. In the **Date Received** field, enter the payment date. The date is before the date in the **Pmt. Discount Date** field.
 4. Verify that the **Remaining Amount** field contains zero (0).  
@@ -142,11 +142,11 @@ The following procedure explains how to find a specific document by using both s
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Payment Registration**, and then choose the related link.
 2. With the pointer on any line, Choose the **Search Documents** action.
 3. In the **Document Search** window, enter a search value in the **Document No.** field.  
-   
+
     **Note**: The value that you enter in this field is enclosed in hidden wildcard characters. This means that the function searches for all document numbers that contain the entered value.    
 4. In the **Amount** field, enter the specific amount that exists on the document that you want to find.  
 5. In the **Amount Tolerance %** field, enter a percentage value to define the range of amounts that you want to search to find the open document.  
-   
+
     If you enter 10, then the function will search for amounts in a range between ten percent lower and ten percent higher than the value in the **Amount** field.    
 6. Choose the **Search** action.  
 
@@ -164,7 +164,7 @@ If a payment in the bank is not represented by any document [!INCLUDE[d365fin](i
 Proceed to record an undocumented payment.  
 
 1. Choose the **General Journal** action.  
-   
+
     The **General Journal** window opens with one line prefilled with the balancing account of the journal batch that is set up in the **Payment Registration Setup** window.  
 2. Fill in the remaining fields on the general journal line, such as the amount and the customer number or other information from the bank statement. For more information, see [How to: Work With General Journals](ui-work-general-journals.md).  
 
@@ -176,4 +176,3 @@ If you leave the journal line unposted, it will add to the value in the **Unpost
 [Managing Receivables](receivables-manage-receivables.md)  
 [Sales](sales-manage-sales.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

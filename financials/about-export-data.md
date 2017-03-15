@@ -14,7 +14,7 @@ ms.date: 02/15/2017
 ms.author: edupont
 
 ---
-# Exporting your Data to Excel from [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# Exporting your Data to Excel from Dynamics 365 for Financials
 If you want to work with your data from [!INCLUDE[d365fin](includes/d365fin_md.md)] in Excel, you can open all lists in Excel and work with it there. Similarly, if you want to cancel your subscription for [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], you can export your data to Excel so that you can take it with you.
 
 ## Opening Lists in Excel

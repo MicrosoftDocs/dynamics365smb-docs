@@ -10,11 +10,11 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/02/2016
+ms.date: 03/15/2017
 ms.author: edupont
 
 ---
-# Using Dynamics 365 for [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] in Microsoft Flow
+# Using Dynamics 365 for Financials in Microsoft Flow
 You can use your [!INCLUDE[d365fin](includes/d365fin_md.md)] data as part of a workflow in Microsoft Flow.  
 
 **Note**: You must have a valid account with [!INCLUDE[d365fin](includes/d365fin_md.md)] and with Flow.  

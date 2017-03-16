@@ -14,7 +14,7 @@ ms.date: 12/09/2016
 ms.author: sgroespe
 
 ---
-# The Ceridian Payroll Extension to [!INCLUDE[d365fin](includes/d365fin_long_md.md)]
+# The Ceridian Payroll Extension to Dynamics 365 for Financials
 To account for salary payments and related transactions, you must import and post financial transactions made by your payroll provider to the general ledger.
 
 To do this, you first import a file that you receive from the payroll provider into the **General Journal** window. Then you map the external accounts in the payroll file to the relevant G/L accounts. Lastly, you post the payroll transactions according to the account mapping. For more information, see [How to: Import Payroll Transactions](finance-how-import-payroll-transactions.md).

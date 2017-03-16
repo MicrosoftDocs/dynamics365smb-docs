@@ -14,7 +14,7 @@ ms.date: 02/10/2017
 ms.author: edupont
 
 ---
-# Setting Up [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# Setting Up Dynamics 365 for Financials
 [!INCLUDE[d365fin](includes/d365fin_md.md)] includes standard configurations for most business processes, but you can change the configuration to suit the needs of company.
 
 From your Home page, you can access assisted setup guides that help you configure certain scenarios and add features to [!INCLUDE[d365fin](includes/d365fin_md.md)]. For information about how to access all assisted and manual setup windows, see [Getting Ready for Doing Business](ui-get-ready-business.md).

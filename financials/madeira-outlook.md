@@ -14,7 +14,7 @@ ms.date: 12/15/2016
 ms.author: edupont
 
 ---
-# Using [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] as your Business Inbox in Outlook
+# Using Dynamics 365 for Financials as your Business Inbox in Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] introduces the ability to manage business interactions with your customers and vendors, directly in Microsoft Outlook. With the [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook add-ins, you can see financial data related to customers and vendors, as well as create and send financial documents, such as quotes and invoices.  
 
 ## Get the add-in

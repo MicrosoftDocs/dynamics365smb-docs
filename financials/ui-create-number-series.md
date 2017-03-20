@@ -21,7 +21,7 @@ For each company that you set up, you need to assign unique identification codes
 
 You create a numbering system by setting up one or more codes for each type of master data or document. For example, you can set up one code for numbering customers, another code for numbering sales invoices, and another code for numbering documents in general journals. After you have set up a code, you set must set up at least one number series line. The number series line contains information such as the first and last number in the series and the starting date. You can set up more than one number series line per number series code, with a different starting date for each line. The series will be used consecutively, starting each series on the respective starting date.
 
-You typically set up your number series to automatically insert the next consecutive number on new cards or documents that you create. However, you can also set a number series up to allow that you manually enter the new number. You specify this with the **Manual Nos.** check box. For more information, see the "To create a new number series" section.
+You typically set up your number series to automatically insert the next consecutive number on new cards or documents that you create. However, you can also set a number series up to allow that you manually enter the new number. You specify this with the **Manual Nos.** check box.
 
 If you want to use more than one number series code for one type of master data - for example, if you want to use different number series for different categories of items - you can use number series relationships.
 
@@ -30,14 +30,14 @@ If you want to use more than one number series code for one type of master data 
 2. Choose the **New** action.
 3. On the new line, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-**Note**: To allow manual entry of a number on new cards or documents, deselect the **Default Nos.** check box and select the **Manual Nos.** check box.
+**TIP**: To allow manual entry of a number on new cards or documents, deselect the **Default Nos.** check box and select the **Manual Nos.** check box.
 
-Now when you create a new card or document that is set up to use the number series in question, you must manually fill in the **No.** field with any value.  
+Now when you create a new card or document that is set up to use the number series in question, you can manually fill in the **No.** field with any value.  
 
-## To set up a number series for a certain card or document
+## To set up where a number series is used
 The following procedure shows how to set number series up for the Sales area. The steps are similar for other areas.
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Sales & Receivables**, and then choose the related link.
-2, In the **Sales & Receivables** window, on the **Number Series** FastTab, select the desired number series for each sales card or document.
+2. In the **Sales & Receivables** window, on the **Number Series** FastTab, select the desired number series for each sales card or document.
 
 The selected number will now be used to fill in the **No.** field on the card or document in question, according to the settings you made on the number series line.
 

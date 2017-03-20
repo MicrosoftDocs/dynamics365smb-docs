@@ -61,7 +61,7 @@
 ### [How to: Set Up Fixed Asset Maintenance](fa-how-setup-maintenance.md)
 ### [Depreciation Methods](fa-depreciation-methods.md)
 ## [How to: Set up Email](madeira-how-setup-email.md)
-## [Creating Number Series](ui-create-number-series.md)
+## [How to: Create Number Series](ui-create-number-series.md)
 ## [How to: Set Up Extended Item Text](ui-how-define-ext-text.md)
 
 # [Finance](finance.md)
@@ -166,6 +166,7 @@
 ## [Scheduling a Report to Run](ui-schedule-report.md)
 ## [Logging Changes in Financials](across-log-changes.md)
 ## [How to: Manage Users and Permissions](ui-how-users-permissions.md)
+## [How to: Create Number Series](ui-create-number-series.md)
 ## [How to: Use Approval Workflows](across-how-use-approval-workflows.md)
 ## [Incoming Documents](across-income-documents.md)
 ### [How to: Set Up Incoming Documents](across-how-setup-income-documents.md)

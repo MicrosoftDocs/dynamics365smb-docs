@@ -5,12 +5,13 @@ services: project-madeira
 documentationcenter: ''
 author: jswymer
 
-ms.service: dynamics365-financials
+ms.service: project-madeira
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/26/2016
+ms.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments
+ms.date: 03/21/2017
 ms.author: jswymer
 
 ---
@@ -19,7 +20,7 @@ ms.author: jswymer
 
 ## General Ledger
 * Specify system-wide and user-specific posting periods.  
-  
+
     This specifies the dates between which you allow posting. Depending on your business, you may want to allow posting at the start of the period, or toward the end. For more information, see [How to: Specify Posting Periods](finance-how-specify-posting-periods.md).  
 * Make all necessary G/L adjustments.  
 * Update and post Recurring Journals.  
@@ -58,4 +59,3 @@ ms.author: jswymer
 [Closing Years and Periods](year-close-years-periods.md)  
 [Closing Books](year-close-books.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

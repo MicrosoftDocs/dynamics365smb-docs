@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/16/2017
+ms.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
+ms.date: 03/21/2017
 ms.author: jswymer
 
 ---
@@ -34,4 +35,3 @@ To see a report, in the top right corner, choose the **Search for Page or Report
 ## See Also
 [Closing Years and Periods](year-close-years-periods.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

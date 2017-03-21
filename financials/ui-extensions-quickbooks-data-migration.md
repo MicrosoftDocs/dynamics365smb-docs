@@ -5,7 +5,7 @@ services: project-madeira
 documentationcenter: ''
 author: edupont04
 
-ms.service: project-madeira
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -10,12 +10,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/17/2017
+ms.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
+ms.date: 03/21/2017
 ms.author: sgroespe
 
 ---
 # How to: Send Documents by Email
-To communicate the contents of business documents quickly to your business partners, such as the payment information on sales documents to customers, you can use the Report Layout feature to define document-specific content that gets inserted in email bodies automatically.
+To communicate the contents of business documents quickly to your business partners, such as the payment information on sales documents to customers, you can use the Report Layout feature to define document-specific content that gets inserted in email bodies automatically. For more information, see [Managing Report and Document Layouts](ui-manage-report-layouts.md).
 
 To enable emails from within [!INCLUDE[d365fin](includes/d365fin_md.md)], start the **Set Up Email** assisted setup on the Home page.
 
@@ -62,6 +63,7 @@ The following procedure describes how to send a posted sales invoice as an email
 **Note**: If you do not need to specify email settings each time you email a document, you can select the **Yes (Use Default Settings)** option in the Email field in the **Send Document To** window. In that case, the **Send Email** window will not open. See Step 4. For more information, see [How to: Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).
 
 ## See Also
+[Managing Report and Document Layouts](ui-manage-report-layouts.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [How to: Set up Email](madeira-how-setup-email.md)  
 [How to: Invoice Sales](sales-how-invoice-sales.md)  

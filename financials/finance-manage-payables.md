@@ -7,7 +7,7 @@ author: bholtorf
 manager: edupont
 editor: ''
 
-ms.service: project-madeira
+ms.service: dynamics365-financials
 ms.workload: na
 ms.tgt_pltfrm: na
 ms.devlang: na

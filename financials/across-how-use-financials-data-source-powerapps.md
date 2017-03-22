@@ -10,6 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.keywords: Odata, Power App, SOAP
 ms.date: 12/02/2016
 ms.author: edupont
 

@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/29/2016
+ms.date: 03/22/2017
 ms.author: sgroespe
 
 ---
@@ -61,7 +61,7 @@ If you are not using a job queue, or you want to receive a finished OCR document
     If you access the website by choosing the tile on the Home page, then any other OCR document to be verified is automatically displayed on the website.
 5. Repeat step 4 for any other OCR document to be verified.
 
-Now you can proceed to create document records for the received electronic documents in [!INCLUDE[d365fin](includes/d365fin_md.md)], manually or automatically. For more information, see the "To create a document record in [!INCLUDE[d365fin](includes/d365fin_md.md)] from a received OCR document" section. You can also connect the new incoming document record to existing posted or non-posted document so that the source file is easy to access from [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Process Incoming Documents](across-process-income-documents.md).
+Now you can proceed to create document records for the received electronic documents in [!INCLUDE[d365fin](includes/d365fin_md.md)], manually or automatically. For more information, see the next procedure. You can also connect the new incoming document record to existing posted or non-posted document so that the source file is easy to access from [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Process Incoming Documents](across-process-income-documents.md).
 
 ## To create a purchase invoice from an electronic document received from the OCR service
 The following procedure describes how to create a purchase invoice record from a vendor invoice received as an electronic document from the OCR service. The procedure is the same when you create, for example, a general journal line from an expense receipt.

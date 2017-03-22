@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/15/2017
+ms.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
+ms.date: 02/22/2017
 ms.author: edupont
 
 ---

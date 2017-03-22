@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.keywords: personalization
+ms.search.keywords: personalization
 ms.date: 09/08/2016
 ms.author: solsen
 

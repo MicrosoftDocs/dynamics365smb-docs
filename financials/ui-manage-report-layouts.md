@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.keywords: customization, document layout
+ms.search.keywords: customization, document layout
 ms.date: 03/21/2017
 ms.author: solsen
 

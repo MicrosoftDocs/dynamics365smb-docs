@@ -10,7 +10,7 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.keywords: app, add-in, manifest, customize
+ms.search.keywords: app, add-in, manifest, customize
 ms.date: 03/22/2017
 ms.author: edupont
 

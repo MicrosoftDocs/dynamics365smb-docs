@@ -91,7 +91,7 @@
 ## [Reporting 1099 Transactions in the US](us-finance-tax-1099.md)
 ## [Sales Tax and Tax Groups in the US and Canada](us-finance-sales-tax.md)
 ## [Sales Tax and Goods and Services Tax in Canada](ca-finance-tax.md)
-## [How to: Work With GIFI Codes in Canada](ca-work-gifi-codes.md)
+## [How to: Work With GIFI Codes in Canada](ca-finance-work-gifi-codes.md)
 
 # [Sales](sales-manage-sales.md)
 ## [How to: Make Offers](sales-how-make-offers.md)

@@ -10,6 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.keywords: post inventory cost to G/L, reconcile inventory
 ms.date: 02/15/2017
 ms.author: sgroespe
 

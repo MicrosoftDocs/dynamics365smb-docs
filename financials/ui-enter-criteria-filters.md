@@ -54,7 +54,7 @@ You can add filters to all pages by using the Quick Filter. The Quick Filter is 
     <TD>All records that match <b>man</b> exactly.</TD>
   </TR>
   <TR>
-    <TD>@man&#42;</TD>
+    <TD>@man&#42; </TD>
     <TD>Starts with and case insensitive.</TD>
     <TD>All records that start with <b>man</b>.</TD>
   </TR>

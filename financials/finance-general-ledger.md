@@ -10,6 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.keywords: analysis, history, track
 ms.date: 02/14/2017
 ms.author: edupont
 

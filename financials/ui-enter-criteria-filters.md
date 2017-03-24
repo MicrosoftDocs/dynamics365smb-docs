@@ -3,7 +3,7 @@ title: Entering Criteria in Filters | Microsoft Docs
 description: Learn how filters work in Financials.
 services: project-madeira
 documentationcenter: ''
-author: SusanneWindfeldPedersen
+author: jswymer
 
 ms.service: dynamics365-financials
 ms.topic: article
@@ -34,34 +34,34 @@ You can add filters to all pages by using the Quick Filter. The Quick Filter is 
     <TH>Returns...</TH>
   </TR>
   <TR>
-    <TD>>man</TD>
-    <TD>@*man*</TD>
-    <TD>All records that contain the text man and case insensitive.</TD>
+    <TD>man</TD>
+    <TD>@&#42;man&#42;</TD>
+    <TD>All records that contain the text <b>man</b> and case insensitive.</TD>
   </TR>
   <TR>
-    <TD>>se</TD>
-    <TD>@*se*</TD>
-    <TD>All records that contain the text se and case insensitive.</TD>
+    <TD>se</TD>
+    <TD>@&#42;se&#42;</TD>
+    <TD>All records that contain the text <b>se</b> and case insensitive.</TD>
   </TR>
   <TR>
-    <TD>>Man*</TD>
-    <TD>Starts with Man and case sensitive.</TD>
-    <TD>All records that start with the text Man.</TD>
+    <TD>Man&#42;</TD>
+    <TD>Starts with <b>Man</b> and case sensitive.</TD>
+    <TD>All records that start with the text <b>Man</b>.</TD>
   </TR>
   <TR>
     <TD>'man'</TD>
     <TD>An exact text and case sensitive.</TD>
-    <TD>All records that match man exactly.</TD>
+    <TD>All records that match <b>man</b> exactly.</TD>
   </TR>
   <TR>
-    <TD>@*man</TD>
+    <TD>@&#42;man</TD>
     <TD>Ends with and case insensitive.</TD>
-    <TD>All records that end with man.</TD>
+    <TD>All records that end with <b>man</b>.</TD>
   </TR>
   <TR>
-    <TD>@man*</TD>
+    <TD>@man&#42;</TD>
     <TD>Starts with and case insensitive.</TD>
-    <TD>All records that start with man.</TD>
+    <TD>All records that start with <b>man</b>.</TD>
   </TR>
 </TABLE>
 

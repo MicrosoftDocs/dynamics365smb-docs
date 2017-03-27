@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/16/2017
+ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
+ms.date: 03/24/2017
 ms.author: bholtorf
 
 ---

@@ -10,6 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
 ms.date: 05/12/2016
 ms.author: sgroespe
 

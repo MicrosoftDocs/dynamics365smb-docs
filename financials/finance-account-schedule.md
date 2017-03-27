@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/17/2016
+ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
+ms.date: 03/23/2017
 ms.author: edupont
 
 ---

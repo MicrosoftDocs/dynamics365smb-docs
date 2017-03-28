@@ -10,7 +10,8 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/21/2017
+ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
+ms.date: 03/28/2017
 ms.author: edupont
 
 ---

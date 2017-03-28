@@ -10,7 +10,8 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/19/2016
+ms.search.keywords: feature overview
+ms.date: 03/28/2017
 ms.author: sgroespe
 
 ---

@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/23/2017
+ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
+ms.date: 03/28/2017
 ms.author: sgroespe
 
 ---

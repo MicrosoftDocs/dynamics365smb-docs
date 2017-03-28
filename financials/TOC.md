@@ -33,7 +33,7 @@
 ### [How to: Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md)
 ## [Setting Up Sales](sales-setup-sales.md)
 ### [How to: Register New Customers](sales-how-register-new-customers.md)
-### [How to: Enable Customer Payments Through PayPal](sales-how-enable-customer-payments-paypal.md)
+### [How to: Enable Customer Payments Through PayPal](sales-how-enable-payment-service-extensions.md)
 ### [How to: Record Special Sales Prices and Discounts](sales-how-record-sales-price-discount-payment-agreements.md)
 ### [Advanced: Best Price Calculation](advanced-best-price-calculation.md)
 ### [How to: Set Up Salespeople](sales-how-setup-salespeople.md)
@@ -61,7 +61,7 @@
 ### [How to: Set Up Fixed Asset Maintenance](fa-how-setup-maintenance.md)
 ### [Depreciation Methods](fa-depreciation-methods.md)
 ## [How to: Set up Email](madeira-how-setup-email.md)
-## [Creating Number Series](ui-create-number-series.md)
+## [How to: Create Number Series](ui-create-number-series.md)
 ## [How to: Set Up Extended Item Text](ui-how-define-ext-text.md)
 
 # [Finance](finance.md)
@@ -91,7 +91,7 @@
 ## [Reporting 1099 Transactions in the US](us-finance-tax-1099.md)
 ## [Sales Tax and Tax Groups in the US and Canada](us-finance-sales-tax.md)
 ## [Sales Tax and Goods and Services Tax in Canada](ca-finance-tax.md)
-## [How to: Work With GIFI Codes in Canada](ca-work-gifi-codes.md)
+## [How to: Work With GIFI Codes in Canada](ca-finance-work-gifi-codes.md)
 
 # [Sales](sales-manage-sales.md)
 ## [How to: Make Offers](sales-how-make-offers.md)

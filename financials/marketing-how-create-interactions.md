@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/31/2016
+ms.search.keywords: relationship, prospect
+ms.date: 03/28/2017
 ms.author: jswymer
 
 ---
@@ -34,7 +35,7 @@ Before you create interactions, you must set up interaction templates. For more 
 ## To create an interaction on a segment
 1. On the Home page, choose **Active Segments**, or in the top right corner, choose the **Search for Page or Report** icon, enter **Segments**, and then choose the related link.
 2. In the **Segment window**, in the **Interaction** section, fill in the fields to specify which interaction you want to assign to the segment.
-   
+
     After you have assigned an interaction to the segment, you can personalize the interaction for each particular contact within the segment, for example, by selecting another interaction template on the lines in the **Segment** window.  
 3. To log the segment and interactions, choose the **Log** action. The **Log Segment** window opens.
 4. If you want to create a new segment containing the same contacts, select the **Create Follow-up Segment** check box. To create a follow-up segment, you must have specified number series for segments in the **Marketing Setup** window.
@@ -49,4 +50,3 @@ If you have selected the **Create Follow-up Segment** check box, a new segment i
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
 [Setting Up Relationship Management](marketing-setup-marketing.md)  
 [Working With Financials](ui-work-product.md)
-

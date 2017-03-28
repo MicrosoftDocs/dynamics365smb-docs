@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.search.keywords: relationship, prospect
+ms.date: 03/28/2017
 ms.author: jswymer
 
 ---
@@ -47,4 +48,3 @@ In the **Logged Segments** window, you can decide to create a follow-up segment 
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
 [Creating and Managing Contacts](marketing-contacts.md)  
 [Working With Financials](ui-work-product.md)
-

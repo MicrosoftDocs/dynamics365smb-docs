@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
-ms.date: 03/21/2017
+ms.date: 03/28/2017
 ms.author: sgroespe
 
 ---
@@ -40,7 +40,7 @@ The following procedure describes how to set the **Sales - Invoice** report up t
 7. If you want to offer customers to pay for sales electronically, you can set up the related payment service, such as PayPal, and then have the PayPal information and hyperlink inserted in the email body as well. For more information, see [How to: Enable Customer Payments Through PayPal](sales-how-enable-payment-service-extensions.md).
 8. Choose the **OK** button.
 
-Now, when you choose, for example, the Send action in the **Posted Sales Invoice** window, the email body will contain the document information of report 1306 preceded by styled standard text according to the report layout that you selected in step 5.
+Now, when you choose, for example, the **Send** action in the **Posted Sales Invoice** window, the email body will contain the document information of report 1306 preceded by styled standard text according to the report layout that you selected in step 5.
 
 The following procedure describes how to send a posted sales invoice as an email message with the document attached as a PDF file and with a document-specific email body.
 
@@ -57,8 +57,7 @@ The following procedure describes how to send a posted sales invoice as an email
 10. In the **Body** field, enter a short message to the recipient.
 
     If a document-specific email body is set up in the **Report Selection - Sales** window, then the **Body** field is filled automatically. For more information, see the “To set up a document-specific email body for sales invoices” section in this topic.
-11. Select the **Edit in Outlook Web App** check box to open the email message in the email app for Office 365.
-12. Choose the **OK** button to send the email message.
+11. Choose the **OK** button to send the email message.
 
 **Note**: If you do not need to specify email settings each time you email a document, you can select the **Yes (Use Default Settings)** option in the Email field in the **Send Document To** window. In that case, the **Send Email** window will not open. See Step 4. For more information, see [How to: Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).
 

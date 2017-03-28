@@ -153,7 +153,6 @@
 
 # [Human Resources](hr-manage-human-resources.md)
 ## [How to: Register Employees](hr-how-register-employees.md)
-## [How to: Manage Employee Absenc](hr-how-manage-absence.md)
 
 # General Business Functionality
 ## [How to: Send Documents by Email](ui-how-send-documents-email.md)

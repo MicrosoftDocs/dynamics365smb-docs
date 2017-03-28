@@ -10,6 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 02/02/2017
 ms.author: edupont
 

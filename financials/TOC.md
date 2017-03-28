@@ -33,7 +33,7 @@
 ### [How to: Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md)
 ## [Setting Up Sales](sales-setup-sales.md)
 ### [How to: Register New Customers](sales-how-register-new-customers.md)
-### [How to: Enable Customer Payments Through PayPal](sales-how-enable-customer-payments-paypal.md)
+### [How to: Enable Customer Payments Through PayPal](sales-how-enable-payment-service-extensions.md)
 ### [How to: Record Special Sales Prices and Discounts](sales-how-record-sales-price-discount-payment-agreements.md)
 ### [Advanced: Best Price Calculation](advanced-best-price-calculation.md)
 ### [How to: Set Up Salespeople](sales-how-setup-salespeople.md)
@@ -61,7 +61,7 @@
 ### [How to: Set Up Fixed Asset Maintenance](fa-how-setup-maintenance.md)
 ### [Depreciation Methods](fa-depreciation-methods.md)
 ## [How to: Set up Email](madeira-how-setup-email.md)
-## [Creating Number Series](ui-create-number-series.md)
+## [How to: Create Number Series](ui-create-number-series.md)
 ## [How to: Set Up Extended Item Text](ui-how-define-ext-text.md)
 
 # [Finance](finance.md)
@@ -91,7 +91,7 @@
 ## [Reporting 1099 Transactions in the US](us-finance-tax-1099.md)
 ## [Sales Tax and Tax Groups in the US and Canada](us-finance-sales-tax.md)
 ## [Sales Tax and Goods and Services Tax in Canada](ca-finance-tax.md)
-## [How to: Work With GIFI Codes in Canada](ca-work-gifi-codes.md)
+## [How to: Work With GIFI Codes in Canada](ca-finance-work-gifi-codes.md)
 
 # [Sales](sales-manage-sales.md)
 ## [How to: Make Offers](sales-how-make-offers.md)
@@ -102,7 +102,6 @@
 ## [How to: How to: Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md)
 ## [How to: Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md)
 ## [How to: Register New Customers](sales-how-register-new-customers.md)
-## [Advanced: Best Price Calculation](advanced-best-price-calculation.md)
 
 # [Purchasing](purchasing-manage-purchasing.md)
 ## [How to: Record Purchases](purchasing-how-record-purchases.md)
@@ -110,7 +109,6 @@
 ## [How to: Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)
 ## [How to: Process Purchase Returns or Cancellations](purchasing-how-register-new-vendors.md)
 ## [How to: Register New Vendors](purchasing-how-register-new-vendors.md)
-## [Advanced: Best Price Calculation](advanced-best-price-calculation.md)
 
 # [Inventory](inventory-manage-inventory.md)
 ## [How to: Register New Products](inventory-how-register-new-products.md)
@@ -163,6 +161,7 @@
 ## [Working with General Journals](ui-work-general-journals.md)
 ## [How to: Use Allocation Keys in General Journals](ui-how-use-allocation-keys-general-journals.md)
 ## [Scheduling a Report to Run](ui-schedule-report.md)
+## [How to: Manage Users and Permissions](ui-how-users-permissions.md)
 ## [Logging Changes in Financials](across-log-changes.md)
 ## [How to: Use Approval Workflows](across-how-use-approval-workflows.md)
 ## [Incoming Documents](across-income-documents.md)

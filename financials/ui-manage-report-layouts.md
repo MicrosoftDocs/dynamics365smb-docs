@@ -10,14 +10,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/10/2017
+ms.search.keywords: customization, document layout
+ms.date: 03/21/2017
 ms.author: solsen
 
 ---
 # Managing Report and Document Layouts
 A report layout controls content and format of the report, including which data fields of a report dataset appear on the report and how they are arranged, text style, images, and more. From [!INCLUDE[d365fin](includes/d365fin_md.md)], you can change which layout is used on a report, create new layout, or modify the existing layouts.
 
-**Note**: In [!INCLUDE[d365fin](includes/d365fin_md.md)], the term "report" also covers externally-facing documents, such as sales invoices and order confirmations that you send to customers as PDF files. 
+**Note**: In [!INCLUDE[d365fin](includes/d365fin_md.md)], the term "report" also covers externally-facing documents, such as sales invoices and order confirmations that you send to customers as PDF files.
 
 In particular, a report layout sets up the following:
 
@@ -26,7 +27,7 @@ In particular, a report layout sets up the following:
 * The company logo and its position.
 * General page settings, such as margins and background images.
 
-A [!INCLUDE[d365fin](includes/d365fin_md.md)] can be set up with multiple report layouts, which you can switch among as required. You can use one of the built-in report layouts or you can create custom report layouts and assign them to your reports as needed. For more information, see [How to: Create a Custom Report or Document Layout](ui-how-create-custom-report-layout.md). 
+A [!INCLUDE[d365fin](includes/d365fin_md.md)] can be set up with multiple report layouts, which you can switch among as required. You can use one of the built-in report layouts or you can create custom report layouts and assign them to your reports as needed. For more information, see [How to: Create a Custom Report or Document Layout](ui-how-create-custom-report-layout.md).
 
 There are two types of report layouts that you can use on reports; Word and RDLC.
 
@@ -54,4 +55,3 @@ For information on how to change which layout to use, see [How to: Change Which 
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [How to: Create a Custom Report or Document Layout](ui-how-create-custom-report-layout.md)  
 [How to: Send Documents by Email](ui-how-send-documents-email.md)
-

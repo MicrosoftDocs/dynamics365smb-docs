@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/27/2016
+ms.search.keywords: project management, capacity, staff, resource
+ms.date: 03/28/2017
 ms.author: sgroespe
 
 ---
@@ -57,4 +58,3 @@ When you have set up time sheets, you can create time sheets for resources, assi
 [Purchasing](purchasing-manage-purchasing.md)         
 [Sales](sales-manage-sales.md)      
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

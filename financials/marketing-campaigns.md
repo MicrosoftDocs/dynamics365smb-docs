@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/08/2017
+ms.search.keywords: marketing, campaign, promo, prospect
+ms.date: 03/08/2017
 ms.author: edupont
 
 ---

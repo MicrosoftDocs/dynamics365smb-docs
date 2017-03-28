@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/26/2016
+ms.search.keywords: project management, KPI, work in process, work in progress
+ms.date: 03/28/2017
 ms.author: sgroespe
 
 ---
@@ -91,4 +92,3 @@ In the **Job Ledger Entries** window you can review the entries that are associa
 [Purchasing](purchasing-manage-purchasing.md)         
 [Sales](sales-manage-sales.md)      
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/01/2016
+ms.search.keywords: project management, consumption
+ms.date: 03/28/2017
 ms.author: sgroespe
 
 ---
@@ -26,7 +27,7 @@ The following procedures describe how to record actual (billable) or budgeted jo
 2. Select the relevant job, and then choose the **Job Planning Lines** action.
 3. Select a job planning line of type **Budget** or **Both Budget and Billable** for which you want to record usage.
 4. In the **Qty. To Transfer to Journal** field, enter the number that you want to transfer. The default quantity is the value that you enter in the **Quantity** field.
-   
+
     The **Remaining Quantity** field shows the quantity that remains to complete the job and be transferred to the journal.  
 5. Choose the **Create Job Journal Lines** action.
 6. In the **Job Transfer Job Planning Line** window, fill in the fields as necessary, and then choose the **OK** button. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -42,7 +43,7 @@ In the next task, you also record usage, but for a job planning line of type **B
 2. Select the relevant job, and then choose the **Job Planning Lines** action.  
 3. Select a job planning line of type **Billable** for which you want to record usage.
 4. In the **Qty. To Transfer to Invoice** field, enter the number that you want to transfer. The default quantity is the value that you enter in the **Quantity** field.
-   
+
     The **Quantity to Invoice** field shows the quantity that remains to complete the job and be invoiced.  
 5. Choose the **Create Sales Invoice** action.
 6. In the **Job Transfer to Sales Invoice** window, fill in the fields as necessary, and then choose the **OK** button.
@@ -85,4 +86,3 @@ After you have posted job journal lines, you can see the planning lines that are
 [Purchasing](purchasing-manage-purchasing.md)         
 [Sales](sales-manage-sales.md)      
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

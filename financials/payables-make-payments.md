@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/037/2017
+ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
+ms.date: 03/28/2017
 ms.author: sgroespe
 
 ---

@@ -1,6 +1,6 @@
 ---
-title: How to: Create Number Series | Microsoft Docs
-description: Learn how to create new number series in Dynamics 365 for Financials.
+title: 'How to: Create Number Series | Microsoft Docs'
+description: 'Learn how to create new number series in Dynamics 365 for Financials.'
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 
@@ -12,6 +12,7 @@ ms.workload: na
 ms.search.keywords: numbers, numbering
 ms.date: 03/29/2017
 ms.author: solsen
+
 ---
 
 # How to: Create Number Series

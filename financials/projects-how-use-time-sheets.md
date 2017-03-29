@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/22/2016
+ms.search.keywords: project management, capacity, staff, resource
+ms.date: 03/28/2017
 ms.author: sgroespe
 
 ---
@@ -71,14 +72,14 @@ Time sheet registration is tracked in hours, the standard base unit of measure f
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Time Sheets**, and then choose the related link.  
 2. Select a time sheet for the relevant time period, and then choose the **Edit Time Sheet** action.  
 3. Fill in the fields on a line as necessary. Enter the number of hours used by the resource on each day of the week.
-   
+
     **Tip**: You can review the sum of time sheet hours that you have entered in the **Actual/Budgeted Summary** FactBox.  
 4. Repeat step 3 for other work types that the resource performs.
 5. Choose the **Submit** action, and then choose the **All open lines** action to submit all lines or the **Selected lines only** action to submit only the lines that are selected in the **Time Sheet** window.  
-   
+
     **Note**: You can only submit time sheet lines for which you have entered time.  
 6. To modify information on a line that has been set to **Submitted**, select the line, and then choose the **Reopen** action.
-   
+
     **Note**: A manager may reject a time sheet line that is submitted for approval. If a line has a status of **Rejected**, you can make changes to the line, and then choose **Submit** again.  
 7. Choose the **OK** button.
 
@@ -101,7 +102,7 @@ After you have approved or rejected a time sheet, it cannot be modified unless i
 ## To reopen a time sheet
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Manager Time Sheets** or **Time Sheets**, and then choose the related link.
 2. Open a time sheet from the list.  
-   
+
     **Note**: You can only reopen lines that have the status **Approved**. You cannot reopen lines that have the status **Rejected**. You cannot reopen a time sheet if it has been posted.  
 3. In the **Time Sheet** window, choose the **Reopen** action, and then choose the **All submitted lines** action to reopen all lines or the **Selected lines only** action to reopen only the lines that are selected in the **Time Sheet** window.
 4. Choose the **OK** button. The status of the time sheets line or lines is changes to **Submitted**.  
@@ -123,7 +124,7 @@ After you have approved time sheet entries for a job, you can post them to the r
 2. Choose the **Suggest Lines from Time Sheets** action.  
 3. Fill in the fields as necessary.  
 4. Choose the **OK** button. Entries for usage are created in the job journal, where you can modify the information as needed.  
-   
+
     **Note**: Information about work type and whether the work is chargeable is copied from the time sheet line. If needed, you can reduce the quantity of hours and do a partial posting. If you reduce the quantity, then the next time that you choose the **Suggest Lines From Time Sheets** action, the line that is created will contain the remaining quantity of hours.  
 5. Choose the **Post** action.  
 6. To verify the posting, choose the **Ledger Entries** action. The **Job Ledger Entries** window opens showing the result of posting the resource journal.
@@ -144,4 +145,3 @@ After you have posted time sheets, you can archive them for future reference. Al
 [Purchasing](purchasing-manage-purchasing.md)         
 [Sales](sales-manage-sales.md)     
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

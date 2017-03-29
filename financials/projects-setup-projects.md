@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/21/2016
+ms.search.keywords: projects
+ms.date: 03/28/2017
 ms.author: sgroespe
 
 ---
@@ -33,4 +34,3 @@ The following table describes a sequence of tasks, with links to the topics that
 [Purchasing](purchasing-manage-purchasing.md)         
 [Sales](sales-manage-sales.md)     
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

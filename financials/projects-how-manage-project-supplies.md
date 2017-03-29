@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/14/2016
+ms.search.keywords: project management, material, purchase
+ms.date: 03/28/2017
 ms.author: sgroespe
 
 ---
@@ -25,16 +26,16 @@ The following procedure shows how to use a purchase invoice to purchase products
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Purchase Invoices**, and then choose the related link.  
 2. Choose the **New** action and fill in the fields as necessary. For more information, see [How to: Record Purchases](purchasing-how-record-purchases.md).
 3. In the **Job No.** and **Job Task No.** fields, select the information of the job that you want to purchase items or services for. Use the **Choose Columns** function if the field is not visible. For more information, see [User Personalization](ui-user-personalization.md).
-   
+
     The value that you select in the **Job Line Type** field defines whether a planning line is created when you post the usage of the item. If the field contains **Billable**, then job planning lines that are ready to be invoiced to the customer are created. For more information, see [How to: Invoice Jobs](projects-how-invoice-jobs.md).
 4. Choose the **Post** action.
 
 ## To view the value of purchases for a job
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Jobs**, and then choose the related link.
 2. Open a relevant job card.
-   
+
     On the **Tasks** FastTab, the **Outstanding Orders** field shows the total outstanding amount, in local currency, of inventory items and services on purchase documents for the job task line.  
-   
+
     The **Amt. Rec. Not Invoiced** field shows the value of items delivered on purchase documents, but not yet invoiced.  
 3. Choose either of the fields to open the **Purchase Lines** window where you can review information about the related purchase document lines, including which items or services have been received.
 
@@ -51,4 +52,3 @@ If you incur extraordinary or one-time job expenses, you can use the **Job G/L J
 [Purchasing](purchasing-manage-purchasing.md)         
 [Sales](sales-manage-sales.md)      
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

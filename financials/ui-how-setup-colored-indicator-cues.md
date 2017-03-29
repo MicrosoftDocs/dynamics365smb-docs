@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.search.keywords: personalize, customize
+ms.date: 03/29/2017
 ms.author: solsen
 
 ---
@@ -40,4 +41,3 @@ The following table lists the colors that correspond to the options of the **Low
 
 ## See Also
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

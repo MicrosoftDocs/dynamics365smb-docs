@@ -1,7 +1,6 @@
 ---
-title: How to: Create Number Series | Microsoft Docs
-description: Learn how to create new number series.
-services: project-madeira
+title: 'How to: Create Number Series | Microsoft Docs'
+description: 'Learn how to create new number series in Dynamics 365 for Financials.'
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 
@@ -11,10 +10,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
-ms.date: 03/22/2017
+ms.date: 03/29/2017
 ms.author: solsen
 
 ---
+
 # How to: Create Number Series
 For each company that you set up, you need to assign unique identification codes to things such as general ledger accounts, customer and vendor accounts, invoices, and other documents. Numbering is important not only for identification. A well-designed numbering system also makes the company more manageable and easy to analyze, and can reduce the number of errors that occur in data entry.
 

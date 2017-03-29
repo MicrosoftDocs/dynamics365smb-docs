@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/01/2016
+ms.search.keywords: payment process, cash receipts
+ms.date: 03/29/2017
 ms.author: sgroespe
 
 ---
@@ -43,4 +44,3 @@ If the value in the **Difference** field was lower than the value in the **Trans
 [Managing Receivables](receivables-manage-receivables.md)  
 [Sales](sales-manage-sales.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

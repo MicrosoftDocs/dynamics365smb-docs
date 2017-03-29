@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.search.keywords: client
+ms.date: 03/29/2017
 ms.author: sgroespe
 
 ---
@@ -24,9 +25,9 @@ Before you can register new customers, you must set up various sales codes that 
 ## To create a new customer card
 1. On the Home page, choose the **Customers** action to open the list of existing customers.  
 2. In the **Customers** window, choose the **New** action.
-   
+
     If only one customer template exists, then a new customer card opens with some fields filled with information from the template.
-   
+
     If more than one customer template exists, then a window opens from which you can select a customer template. In that case, follow the next two steps.
 3. In the **Select a template for a new customer** window, choose the template that you want to use for the new customer card.
 4. Choose the **OK** button. A new customer card opens with some fields filled with information from the template.  
@@ -51,4 +52,3 @@ The customer template is added to the list of customer templates, so that you ca
 [Sales](sales-manage-sales.md)    
 [Setting Up Sales](sales-setup-sales.md)    
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

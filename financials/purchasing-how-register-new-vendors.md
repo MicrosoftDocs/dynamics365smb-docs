@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/01/2016
+ms.search.keywords: supplier
+ms.date: 03/29/2017
 ms.author: sgroespe
 
 ---
@@ -26,7 +27,7 @@ Vendor cards hold the information that is required to buy products from the vend
 ## To create a new vendor card
 1. On the Home page, choose **Vendors** to open the list of existing vendors.  
 2. In the **Vendors** window, Choose **New**.
-   
+
     If more than one vendor template exists, then a window opens from which you can select a vendor template. In that case, follow the next two steps.
 3. In the **Select a template for a new vendor** window, choose the template that you want to use for the new vendor card.
 4. Choose the **OK** button. A new vendor card opens with some fields filled with information from the template.
@@ -48,4 +49,3 @@ If you want to use this vendor card as a template when you create new vendor car
 [Purchasing](purchasing-manage-purchasing.md)  
 [How to: Record Purchases](purchasing-how-record-purchases.md)   
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

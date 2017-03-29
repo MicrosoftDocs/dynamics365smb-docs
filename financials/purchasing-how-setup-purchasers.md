@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/14/2017
+ms.search.keywords: purchasing agent
+ms.date: 03/29/2017
 ms.author: sgroespe
 ---
 # How to: Set Up Purchasers
@@ -30,4 +31,3 @@ If several purchasers work at your company, you can set them up in a window and 
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  
 [Managing Payables](payables-manage-payables.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

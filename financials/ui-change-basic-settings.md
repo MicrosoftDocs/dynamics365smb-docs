@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/06/2017
+ms.search.keywords: change Role Center, notification, change company, change work date
+ms.date: 03/29/2017
 ms.author: solsen
 
 ---

@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.search.keywords: task, process
+ms.date: 03/29/2017
 ms.author: solsen
 
 ---
@@ -28,4 +29,3 @@ A batch job is like a report, except the batch job uses the result of its work t
 ## See Also
 [Entering Criteria in Filters](ui-enter-criteria-filters.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/16/2017
+ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
+ms.date: 03/29/2017
 ms.author: jswymer
 
 ---
@@ -32,4 +33,3 @@ The following table provides an overview of tasks that you typically perform to 
 ## See Also
 [How to: Open a New Fiscal Year](finance-how-open-new-fiscal-year.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

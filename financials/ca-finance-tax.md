@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: sales tax
+ms.search.keywords: sales tax, local
 ms.date: 03/23/2017
 ms.author: edupont
 

@@ -85,7 +85,7 @@
 ### [Allocating Costs and Income](year-allocate-costs-income.md)
 ### [Preparing Pre-Closing Reports](year-prepare-preclose-reports.md)
 ### [Closing Books](year-close-books.md)
-### [Preparing Closing Statements](year-prepare-close-statements.md)
+### [Preparing Closing Statements](year-prepare-close-statement.md)
 ## [Working With Dimensions](finance-dimensions.md)
 ## [Working With Account Schedules](finance-account-schedule.md)
 ## [Reporting 1099 Transactions in the US](us-finance-tax-1099.md)

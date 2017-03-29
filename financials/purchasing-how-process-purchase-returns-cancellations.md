@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.search.keywords: cancel, undo, correct
+ms.date: 03/29/2017
 ms.author: sgroespe
 
 ---
@@ -28,16 +29,16 @@ In addition to the original posted purchase invoice, you can apply the purchase 
 ## To create a purchase credit memo from a posted purchase invoice
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Purchase Credit Memos**, and then choose the related link.  
 2. In the **Posted Purchase Invoices** window, select the posted purchase invoice that you want to reverse, and then choose the **Create Corrective Credit Memo** action.
-   
+
     Most fields on the purchase credit memo header are filled with the information from the posted purchase invoice. You can edit all the fields, for example with new information that reflects the return agreement.
 3. Edit information on the lines according to the agreement, such as the number of items returned or the amount to be reimbursement.
 4. Choose the **Apply Entries** action.
 5. In the **Apply Vendor Entries** window, select the line with the posted purchase document that you want to apply the purchase credit memo to, and then choose the **Applies-to ID** action. The number of the purchase credit memo is inserted in the **Applies-to ID** field.
 6. In the **Amount to Apply** field, enter the amount that you want to apply if smaller than the original amount.
-   
+
     At the bottom of the **Apply Vendor Entries** window, you can see the total amount to apply to reverse all involved entries, namely when the value in the **Balance** field is zero.
 7. Choose the **OK** button. When you post the purchase credit memo, it will be applied to the specified posted purchase documents.
-   
+
     When you have created or edited the needed purchase credit memo lines and the single or multiple applications are specified, you can proceed to post the purchase credit memo.
 8. Choose the **Post** action.
 
@@ -61,4 +62,3 @@ The purchase credit memo is removed and replaced with a new document in the list
 [How to: Record Purchases](purchasing-how-record-purchases.md)  
 [How to: How to: Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

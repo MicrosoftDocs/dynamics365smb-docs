@@ -13,7 +13,6 @@ ms.workload: na
 ms.search.keywords: customer relationship management, integration, synchronize, couple
 ms.date: 03/28/2017
 ms.author: edupont
-
 ---
 # Manage Your Customer Relationships using Dynamics 365 for Sales from inside [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 If you use Dynamics 365 for Sales for customer engagement, you can use [!INCLUDE[d365fin](includes/d365fin_md.md)] for order processing and finances and have seamless integration in the lead-to-cash process.

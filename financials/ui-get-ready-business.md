@@ -13,7 +13,6 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 03/21/2017
 ms.author: solsen
-
 ---
 # Getting Ready for Doing Business
 Congratulations, you have just initiated your first company in [!INCLUDE[d365fin](includes/d365fin_md.md)].

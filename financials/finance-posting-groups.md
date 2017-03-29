@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/10/2016
+ms.search.keywords: posting setup, initialize
+ms.date: 03/24/2017
 ms.author: bholtorf
 
 ---

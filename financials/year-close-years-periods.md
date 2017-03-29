@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/16/2017
+ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
+ms.date: 03/29/2017
 ms.author: jswymer
 
 ---
@@ -27,9 +28,8 @@ The following table provides an overview of tasks that you typically perform to 
 | Allocate costs and income among accounts and dimensions. |[Allocating Costs and Income](year-allocate-costs-income.md) |
 | Print reports to verify general ledger, customer, vendor and bank account balances before closing a period. |[Preparing Pre-Closing Reports](year-prepare-preclose-reports.md) |
 | Close accounting periods and fiscal year, transfer income statement balances to balance sheet accounts and post the year end closing entry. |[Closing Books](year-close-books.md) |
-| Print reports that can assist you in creating financial statements. |[Preparing Closing Statements](year-prepare-close-statements.md) |
+| Print reports that can assist you in creating financial statements. |[Preparing Closing Statements](year-prepare-close-statement.md) |
 
 ## See Also
 [How to: Open a New Fiscal Year](finance-how-open-new-fiscal-year.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

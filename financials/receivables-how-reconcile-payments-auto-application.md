@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
+ms.date: 03/29/2017
 ms.author: sgroespe
 
 ---
@@ -42,12 +43,12 @@ For each journal line in the **Payment Reconciliation Journal** window, you can 
    If the bank account for the selected journal is not set up for import of bank transactions, then a dialog box will open to help you fill in the relevant fields.
 5. In the **Select a file to import** window, select the file that contains the bank transactions for payments that you want to reconcile, and then choose the **Open** button.  
 6. If the Bank Statement service is enabled, in the **Bank Statement Filter** window that opens automatically, specify the date interval for the bank statements to be imported.
-   
+
     The **Payment Reconciliation Journal** window is filled with lines for payments representing bank transactions in the imported bank statement.
-   
+
     On lines for payments that have been automatically applied to their related open entries, the **Match Confidence** field has a value between **Low** and **High** to indicate the quality of the data matching that the suggested payment application is based on. In addition, the **Account Type** and **Account No.** fields are filled with information about the customer or vendor that the payment is applied to.
 7. Select a journal line, and then, choose the **Apply Manually** action to review, reapply, or apply the payment manually in the **Payment Application** window. For more information, see [How to: Review or Apply Payments After Automatic Application](receivables-how-review-apply-payments-auto-application.md).
-   
+
     When you have finished your manual application, the **Match Confidence** field on the journal line that you have processed manually contains **Accepted**.
 8. Select an unapplied journal line for a recurring cash receipt or expense, such as a car gasoline purchase, and then choose the **Map Text to Account** action. For more information, see [How to: Map Text on Recurring Payments to Accounts for Automatic Reconciliation](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
 9. When you have finished your mapping of payment text to accounts, choose the **Apply Manually** action.
@@ -63,4 +64,3 @@ You can compare the value in the **Balance on Bank Account After Posting** field
 [Managing Receivables](receivables-manage-receivables.md)  
 [Sales](sales-manage-sales.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

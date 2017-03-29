@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.search.keywords: supplier, payment priority
+ms.date: 03/29/2017
 ms.author: sgroespe
 
 ---
@@ -32,4 +33,3 @@ If you do not want to prioritize a vendor, leave the **Priority** field blank. T
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  
 [Managing Payables](payables-manage-payables.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

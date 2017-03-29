@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/17/2016
+ms.search.keywords: project management, capacity, staff
+ms.date: 03/28/2017
 ms.author: sgroespe
 
 ---
@@ -67,4 +68,3 @@ If you have already set up alternate resource price for some resources, you can 
 [Purchasing](purchasing-manage-purchasing.md)         
 [Sales](sales-manage-sales.md)     
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

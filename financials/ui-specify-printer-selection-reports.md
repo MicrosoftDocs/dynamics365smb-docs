@@ -10,12 +10,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/06/2016
+ms.search.keywords: online printing
+ms.date: 03/29/2017
 ms.author: solsen
 
 ---
 # Specify Printer Selection for Reports
-This page is empty because you cannot yet set up specific printers for specific reports. We are working on solving this. 
+This page is empty because you cannot yet set up specific printers for specific reports. We are working on solving this.
 
 In the meantime, when you want to print a report you have to download the report as a PDF document first by choosing the **Send to** button. Then you select the type of file to download the report as, and here you should pick **PDF Document**. Now, you can either open the PDF document right-away and print it, or save it and print it later.
 
@@ -44,4 +45,3 @@ The following table describes the combination of values to specify when you set 
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [How to: Run Batch Jobs](ui-how-run-batch-jobs.md)  
 [How to: Send Documents by Email](ui-how-send-documents-email.md)  
-

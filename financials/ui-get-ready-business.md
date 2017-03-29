@@ -10,14 +10,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/04/2017
+ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
+ms.date: 03/21/2017
 ms.author: solsen
-
 ---
 # Getting Ready for Doing Business
 Congratulations, you have just initiated your first company in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-To help you get ready for doing business, you can visit the **Business Assistance** window where you can launch assisted setup guides, videos, or help topics for selected setup tasks. You access the window from the chart on the **Business Manager** Role Center by choosing the **Business Assistance** drop-down, and then choosing the **Show Setup and Help Resources** action. When you refresh the page, the chart is replaced with the setup and help resources. 
+To help you get ready for doing business, you can visit the **Business Assistance** window where you can launch assisted setup guides, videos, or help topics for selected setup tasks. You access the window from the chart on the **Business Manager** Role Center by choosing the **Business Assistance** drop-down, and then choosing the **Show Setup and Help Resources** action. When you refresh the page, the chart is replaced with the setup and help resources.
 
 On the Home page, at the bottom of the navigation pane, you will find the **Setup and Extensions** menu. Expand the **Home** button to see the navigation pane. Here you have access to a list of assisted setup that can help you get started. Once you have migrated data such as vendors, customers, and items from your existing financial system, you are ready to begin. But depending on your needs, consider if the other assisted setup can help you. If an area is not covered by an assisted setup, choose the **Manual Setup** action to access setup windows where you can fill in setup fields for all areas manually. For more information, see also [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 

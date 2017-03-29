@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms. search.keywords: app, add-in, manifest, customize
+ms.date: 03/29/2017
 ms.author: sgroespe
 
 ---
@@ -29,7 +30,7 @@ The PayPal Payments Standard service provides the following benefits:
 * The PayPal Payments Standard service does not involve monthly fees or setup fees.
 * Because it is an extension, you can easily enable the PayPal Payment Standard service when and if your business requires it.  
 
-For more information, see [How to: Enable Customer Payment Through PayPal](sales-how-enable-customer-payments-paypal.md).
+For more information, see [How to: Enable Customer Payment Through PayPal](sales-how-enable-payment-service-extensions.md).
 
 ## See Also
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  

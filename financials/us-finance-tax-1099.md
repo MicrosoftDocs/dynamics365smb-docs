@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/05/2017
+ms.search.keywords: local
+ms.date: 03/29/2017
 ms.author: edupont
 
 ---
@@ -26,13 +27,13 @@ With the **Vendor 1099 Information** report, you can review 1099 transactions pa
 From the **IRS 1099 Form Box** window, you can access the following tax forms:  
 
 * Vendor 1099 Div  
-  
+
   Prints the federal form 1099-DIV for dividends and distribution. You can print all or specific 1099-DIV forms. The report uses the codes that apply to the DIV form amount boxes from the **IRS 1099 Form-Box** window.  
 * Vendor 1099 Int  
-  
+
   Prints the federal form 1099-INT for interest income. You can print all or specific 1099-INT forms. The report uses the codes that apply to the INT form amount boxes from the **IRS 1099 Form-Box** window.  
 * Vendor 1099 Misc - Miscellaneous income  
-  
+
   Prints the federal form 1099-MISC for miscellaneous income. You can print all or specific 1099-MISC forms. The report uses the codes that apply to the MISC form amount boxes from the **IRS 1099 Form-Box** window.  
 
 Regulatory changes affecting this report and the table data are generally handled in end-of-year updates.
@@ -50,4 +51,3 @@ It may be helpful to run the **Vendor 1099 Information** report to review the da
 [How to: Register New Vendors](purchasing-how-register-new-vendors.md)  
 [How to: Record Purchase](purchasing-how-record-purchases.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

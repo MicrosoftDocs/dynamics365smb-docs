@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/07/2016
+ms.search.keywords: local
+ms.date: 03/29/2017
 ms.author: edupont
 
 ---
@@ -38,4 +39,3 @@ In the United States, when you sell to a customer at a location where you do not
 [Sales Tax and Goods and Services Tax in Canada](ca-finance-tax.md)  
 [Sales Tax setup made easy](https://madeira.microsoft.com/blog/sales-tax-setup-made-easy)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

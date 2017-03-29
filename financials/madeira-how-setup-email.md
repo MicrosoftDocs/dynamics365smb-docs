@@ -1,18 +1,20 @@
-<properties
-	pageTitle="How to: Set up Email| Financials"
-    description="Describes how to use the company's SMTP server to send and receive email within Financials, alternatively how to use the email server settings that were created with the Office 365 subscription."
-	services="project-madeira"
-	documentationCenter=""
-	authors="SorenGP"/>
-<tags
-    ms.service="project-madeira"
-    ms.topic="get-started-article"
-    ms.devlang="na"
-    ms.tgt_pltfrm="na"
-    ms.workload="na"
-    ms.date="11/30/2016"
-    ms.author="sgroespe" />
+---
+title: How to: Set up Email| Microsoft Docs
+description: Describes how to use the company's SMTP server to send and receive email within Financials, alternatively how to use the email server settings that were created with the Office 365 subscription.
+services: project-madeira
+documentationcenter: ''
+author: SorenGP
 
+ms.service: dynamics365-financials
+ms.topic: get-started-article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: SMTP, mail, Office 365
+ms.date: 03/28/2017
+ms.author: sgroespe
+
+---
 # How to: Set up Email
 To send and receive emails from within [!INCLUDE[d365fin](includes/d365fin_md.md)], you must fill in the fields in the **SMTP Mail Setup** window.
 

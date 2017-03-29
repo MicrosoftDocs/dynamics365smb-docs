@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/16/2017
+ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
+ms.date: 03/29/2017
 ms.author: jswymer
 
 ---
@@ -30,4 +31,3 @@ After you use the **Close Income Statement** batch job to generate the year-end 
 [Closing Books](year-close-books.md)  
 [Close Income Statement](year-close-income-statement.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

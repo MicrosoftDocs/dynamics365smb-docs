@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/04/2017
+ms.search.keywords: bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
+ms.date: 03/28/2017
 ms.author: sgroespe
 
 ---
@@ -80,4 +81,3 @@ You can re-export payment files from the **Credit Transfer Registers** window. B
 [Payables](payables-manage-payables.md)  
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

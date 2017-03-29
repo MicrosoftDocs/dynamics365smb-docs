@@ -10,7 +10,8 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/02/2017
+ms.search.keywords: version
+ms.date: 03/28/2017
 ms.author: edupont
 
 ---

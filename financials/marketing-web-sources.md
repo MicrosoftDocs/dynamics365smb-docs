@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/01/2016
+ms.search.keywords: internet 
+ms.date: 03/28/2017
 ms.author: jswymer
 
 ---
@@ -28,7 +29,7 @@ Using web sources on contacts is a two-step process. First, you define the web s
 
 Repeat these steps to set up as many web sources as you want.
 
-## tp assign web sources to a contact company
+## to assign web sources to a contact company
 When assigning web sources, you specify which search engine and search word that the application will use to find the requested information.
 
 1. Open the contact.

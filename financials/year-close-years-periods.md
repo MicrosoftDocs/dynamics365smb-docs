@@ -28,7 +28,7 @@ The following table provides an overview of tasks that you typically perform to 
 | Allocate costs and income among accounts and dimensions. |[Allocating Costs and Income](year-allocate-costs-income.md) |
 | Print reports to verify general ledger, customer, vendor and bank account balances before closing a period. |[Preparing Pre-Closing Reports](year-prepare-preclose-reports.md) |
 | Close accounting periods and fiscal year, transfer income statement balances to balance sheet accounts and post the year end closing entry. |[Closing Books](year-close-books.md) |
-| Print reports that can assist you in creating financial statements. |[Preparing Closing Statements](year-prepare-close-statements.md) |
+| Print reports that can assist you in creating financial statements. |[Preparing Closing Statements](year-prepare-close-statement.md) |
 
 ## See Also
 [How to: Open a New Fiscal Year](finance-how-open-new-fiscal-year.md)  

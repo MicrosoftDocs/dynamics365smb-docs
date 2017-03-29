@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/03/2017
+ms.search.keywords: item, finished good, component, raw material, assembly item 
+ms.date: 03/28/2017
 ms.author: sgroespe
 
 ---
@@ -28,7 +29,7 @@ The item card can be of type Inventory or Service to specify if the product is a
 ## To create a new item card
 1. On the Home page, choose the **Items** action to open the list of existing items.  
 2. In the **Items** window, choose the **New** action.
-   
+
     If only one item template exists, then a new item card opens with some fields filled with information from the template.
 3. In the **Select a template for a new item** window, choose the template that you want to use for the new item card.
 4. Choose the **OK** button. A new item card opens with some fields filled with information from the template.
@@ -54,4 +55,3 @@ The item template is added to the list of item templates, so that you can use it
   [Purchasing](purchasing-manage-purchasing.md)  
   [Sales](sales-manage-sales.md)  
   [Working With [Using [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

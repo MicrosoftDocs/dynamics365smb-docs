@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms. search.keywords: app, add-in, manifest, customize, stream, bank account link
+ms.date: 03/29/2017
 ms.author: sgroespe
 
 ---

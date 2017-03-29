@@ -47,7 +47,7 @@
 ### [How to: Set Up Purchasers](purchasing-how-setup-purchasers.md)
 ## [Setting Up Inventory](inventory-setup-inventory.md)
 ### [How to: Set Up General Inventory Information](inventory-how-setup-general.md)
-### [How to: Set Up Locations](inventory-how-register-new-products.md)
+### [How to: Set Up Locations](inventory-how-setup-locations.md)
 ### [How to: Register New Products](inventory-how-register-new-products.md)
 ### [How to: Categorize Items](inventory-how-categorize-items.md)
 ## [Setting Up Project Management](projects-setup-projects.md)
@@ -85,7 +85,7 @@
 ### [Allocating Costs and Income](year-allocate-costs-income.md)
 ### [Preparing Pre-Closing Reports](year-prepare-preclose-reports.md)
 ### [Closing Books](year-close-books.md)
-### [Preparing Closing Statements](year-prepare-close-statements.md)
+### [Preparing Closing Statements](year-prepare-close-statement.md)
 ## [Working With Dimensions](finance-dimensions.md)
 ## [Working With Account Schedules](finance-account-schedule.md)
 ## [Reporting 1099 Transactions in the US](us-finance-tax-1099.md)
@@ -153,7 +153,6 @@
 
 # [Human Resources](hr-manage-human-resources.md)
 ## [How to: Register Employees](hr-how-register-employees.md)
-## [How to: Manage Employee Absenc](hr-how-manage-absence.md)
 
 # General Business Functionality
 ## [How to: Send Documents by Email](ui-how-send-documents-email.md)

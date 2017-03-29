@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.search.keywords: task, to-do, relationship, prospect
+ms.date: 03/28/2017
 ms.author: jswymer
 
 ---
@@ -42,4 +43,3 @@ After you have assigned job responsibilities to your contacts, you can use this 
 [Creating Contact Persons](marketing-create-contact-persons.md)  
 [Creating Contact Companies](marketing-create-contact-companies.md)  
 [Working With Financials](ui-work-product.md)
-

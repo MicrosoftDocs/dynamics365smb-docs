@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/08/2017
+ms.search.keywords: special price, alternate price, pricing
+ms.date: 03/29/2017
 ms.author: sgroespe
 
 ---
@@ -33,7 +34,7 @@ Because purchase line discounts and purchase prices are based on a combination o
 ## To set up a special purchase price for a vendor
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Vendors**, and then choose the related link.
 2. Open the relevant vendor card, and then choose the **Prices** action.
-   
+
     The **Purchase Type** field is prefilled with **Vendor**, and the **Purchase Code** field is prefilled with the vendor number.
 3. Fill in the fields on the line as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Fill a line for each combination for which the vendor grants you a purchase line discount.
@@ -41,7 +42,7 @@ Because purchase line discounts and purchase prices are based on a combination o
 ## To set up a line discount for a vendor
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Vendors**, and then choose the related link.
 2. Open the relevant vendor card, and then choose the **Line Discounts** action.
-   
+
     The **Purchase Type** field is prefilled with **Vendor**, and the **Purchase Code** field is prefilled with the vendor number.
 3. Fill in the fields on the line as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Fill a line for each combination for which the vendor grants you a purchase line discount.
@@ -52,9 +53,9 @@ When your vendors have informed you which invoice discounts they grant, enter th
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Vendors**, and then choose the related link.
 2. Open the vendor card for a vendor that will be eligible for invoice discounts.
 3. In the **Invoice Disc. Code** field, select a code for the relevant invoice discount terms to use to calculate invoice discounts for the vendor.
-   
+
     **Note**: Invoice discount codes are represented by existing vendor cards. This enables you to quickly assign invoice discount terms to vendors by picking the name of another vendors who will have the same terms.
-   
+
     Proceed to set up new the purchase invoice discount terms.
 4. In the **Vendor Card** window, choose the **Invoice Discounts** action. The **Vend. Invoice Discounts** window opens.
 5. In the **Currency Code** field, enter the code for a currency that the invoice discount terms on the line applies to. Leave the field blank to set up invoice discount terms in USD.
@@ -69,4 +70,3 @@ The invoice discount is now set up and assigned to the vendor in question. When 
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

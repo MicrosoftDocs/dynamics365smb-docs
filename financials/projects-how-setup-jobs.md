@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/28/2016
+ms.search.keywords: project management
+ms.date: 03/28/2017
 ms.author: sgroespe
 
 ---
@@ -109,4 +110,3 @@ One aspect of planning jobs is deciding which posting accounts to use for job co
 [Purchasing](purchasing-manage-purchasing.md)         
 [Sales](sales-manage-sales.md)      
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

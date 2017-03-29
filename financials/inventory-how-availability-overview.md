@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/28/2016
+ms.search.keywords: stock
+ms.date: 03/28/2017
 ms.author: SorenGP
 
 ---
@@ -19,11 +20,11 @@ From the context of a business task, you can get advanced information about when
 
 You can view the availability of all items per location, and you can view the availability of each item by event, by period, or by location. An event is any scheduled item transaction, such as a sales shipment or an inbound transfer receipt.
 
-**Note**: Availability views by location require that you maintain inventory at more than one location. For more information, see [How to: Set Up Locations](inventory-how-setup-locations.md). 
+**Note**: Availability views by location require that you maintain inventory at more than one location. For more information, see [How to: Set Up Locations](inventory-how-setup-locations.md).
 
-In [Using [!INCLUDE[d365fin](includes/d365fin_md.md)], availability figures are shown in two different fields, each with a different definition: 
+In [Using [!INCLUDE[d365fin](includes/d365fin_md.md)], availability figures are shown in two different fields, each with a different definition:
 
-* The **Quantity on Hand** field shows the actual quantity today according to posted item ledger entries. 
+* The **Quantity on Hand** field shows the actual quantity today according to posted item ledger entries.
 * The **Projected Available Balance** field is calculated and shows the quantity on hand plus scheduled receipts minus gross requirements. (In [Using [!INCLUDE[d365fin](includes/d365fin_md.md)], scheduled receipts include quantities on purchase orders and inbound transfer orders. Gross requirements include quantities on sales orders and outbound transfer orders.)
 
 **Tip**: The projected available balance is especially relevant to view in the **Item Availability by Periods** and **Item Availability by Event** windows as they contain the date dimension.  
@@ -31,43 +32,43 @@ In [Using [!INCLUDE[d365fin](includes/d365fin_md.md)], availability figures are 
 **Note**: The following procedures describe how to view advanced availability information from the items list and item card. You can also access the information from sales document lines, for the item on the line. For more information, see [How to: Sell Products](sales-how-sell-products.md).
 
 ## To view the availability of an item according to when it will be received or shipped
-You view the availability of an item according to scheduled item transactions in the **Availability by Event** window. 
+You view the availability of an item according to scheduled item transactions in the **Availability by Event** window.
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Items**, and then choose the related link.
 2. Open the card of an item that you want to view availability for.
 3. Choose the **Item Availability by** action, and then choose the **Event** action.
-   
+
     The **Item Availability by Event** window shows how the inventory quantity of the item will develop over time according scheduled shipment and receipt events. The window gives a condensed view that shows one line of accumulated information per time interval in which inventory quantities change. Time intervals where no events occurred are not shown. You can expand each line to show details about the event or events that caused the accumulated quantity on the line.
 4. Choose the value in the **Projected Available Balance** field to view the item ledger entries or open documents that make up the value.
 
 ## To view the availability of an item in different periods
-You view the availability of an item over time for specified time periods in the **Item Availability by Periods** window. 
+You view the availability of an item over time for specified time periods in the **Item Availability by Periods** window.
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Items**, and then choose the related link.
 2. Open the card of an item that you want to view availability for.
 3. Choose the **Item Availability by** action, and then choose the **Period** action.
-   
+
     The **Item Availability by Periods** window shows how the inventory quantity of the item will develop over time, shown for a period that you select, such as Day, Week, or Quarter.
 4. Choose the value in the **Projected Available Balance** field to view the item ledger entries or open documents that make up the value.
 
 ## To view the availability of an item at the locations where it is stored
-You view the availability of an item at the different places where it is stored in the **Item Availability by Location** window. 
+You view the availability of an item at the different places where it is stored in the **Item Availability by Location** window.
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Items**, and then choose the related link.
 2. Open the card of an item that you want to view availability for.
 3. Choose the **Item Availability by** action, and then choose the **Location** action.
-   
+
     The **Item Availability by Location** window shows how the inventory quantity of the item will develop in the future, shown for each location where it is stored.
 4. Choose the value in the **Qty. on Hand** field to view the item ledger entries that make up the value.
 5. Choose the value in the **Projected Available Balance** field to view the item ledger entries or open documents that make up the value.
 
 ## To view the availability of all items by the location where they are stored
-You view the availability of all your items across all your locations in the **Items by Location** window. 
+You view the availability of all your items across all your locations in the **Items by Location** window.
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Items**, and then choose the related link.
 2. Choose the **Items by Location** action.
-   
-    The **Items by Location** window shows for all your items how many are available at each location. 
+
+    The **Items by Location** window shows for all your items how many are available at each location.
 3. Choose the value in the **Qty. on Hand** field to view the item ledger entries that make up the value.
 
 ## See Also
@@ -78,4 +79,3 @@ You view the availability of all your items across all your locations in the **I
 [Supply Chain](madeira-supply-chain.md)  
 [Working With [Using [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)
-

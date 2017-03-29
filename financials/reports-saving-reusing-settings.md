@@ -10,6 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.keywords: customization, personalization
+ms.date: 03/29/2017
 ms.date: 12/12/2016
 ms.author: jswymer
 
@@ -21,16 +23,16 @@ You can see the saved settings that are available to you for a report in **Saved
 
 ## To apply saved settings to a report
 1. Open the report.
-   
+
    The report request page appears.    
 2. In the **Saved Settings** section of the page, set the **Name** field  to the saved settings that you want to use.
-   
+
    The **Saved Settings** section only appears if the report has been run before or if there are existing saved settings entries. The saved settings entry called **Last used options and filters** is always available. These settings are the option and filter values that were used the last time you ran the report.
 
 ## Administer saved report settings for users
 If you have the proper permissions, you can view, create, and modify the saved settings for all reports for all users in company. You can assign saved settings for a report to individual users or all users in the company.
 
-You manage saved settings from page 1506 **Reports Settings**. To open this page, in the top right corner, choose the **Search for Page or Report** icon, enter **Report Settings**, and then choose the related link. 
+You manage saved settings from page 1506 **Reports Settings**. To open this page, in the top right corner, choose the **Search for Page or Report** icon, enter **Report Settings**, and then choose the related link.
 
 From the **Report Settings** page, you can create a new settings from scratch or you can make a copy and modify existing settings. To modify the options and filters for a settings, choose the **Edit** action.
 
@@ -41,4 +43,3 @@ From the **Report Settings** page, you can create a new settings from scratch or
 
 ## See Also
 [Schedule a Rpeort to Run](ui-schedule-report.md)  
-

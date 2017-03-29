@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.search.keywords: cost accounting
+ms.date: 03/29/2017
 ms.author: edupont
 
 ---
@@ -42,4 +43,3 @@ You can allocate an entry in a general journal to several different accounts whe
 [Working With General Journals](ui-work-general-journals.md)  
 [Posting Documents and Journals](ui-post-documents-journals.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

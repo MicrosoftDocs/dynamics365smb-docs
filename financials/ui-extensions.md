@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/22/2017
+ms. search.keywords: app, add-in, manifest, customize
+ms.date: 03/29/2017
 ms.author: edupont
 
 ---
@@ -49,8 +50,7 @@ Microsoft provides the following extensions:
 * [Sales and Inventory Forecast](ui-extensions-sales-forecast.md)  
 * [Ceridian Payroll](ui-extensions-ceridian-payroll.md)  
 * [Quickbooks Payroll File Import](ui-extensions-quickbooks-payroll.md)  
-* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
-* [GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)
+
 
 ## See Also
 [How to: Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)  

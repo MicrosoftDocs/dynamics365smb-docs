@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/08/2017
+ms.search.keywords: procurement, supply, vendor order
+ms.date: 03/29/2017
 ms.author: sgroespe
 
 ---
@@ -27,7 +28,7 @@ Finance-related purchase setup, such as payment methods and currencies, are cove
 | --- | --- |
 | Create a vendor card for each vendor that you purchase from. |[How to: Register New Vendors](purchasing-how-register-new-vendors.md) |
 | Enter the different discounts and special prices that vendors grant you depending on item, quantities, and/or date. |[How to: Record Purchase Price, Discount, and Payment Agreements](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
-|Learn how [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically optimizes your profit on trade when you record special price/discount agreements.|[Advanced: Best Price Calculation](advanced-best-price-calculation.md) | 
+|Learn how [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically optimizes your profit on trade when you record special price/discount agreements.|[Advanced: Best Price Calculation](advanced-best-price-calculation.md) |
 | Prioritize vendors. |[How to: Prioritize Vendors](purchasing-how-prioritize-vendors.md) |
 | Set up purchasers. |[How to: Set Up Purchasers](purchasing-how-setup-purchasers.md) |
 

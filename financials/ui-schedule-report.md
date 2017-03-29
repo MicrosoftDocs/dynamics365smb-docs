@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.search.keywords: task, process, job queue
+ms.date: 03/29/2017
 ms.author: solsen
 
 ---
@@ -22,4 +23,3 @@ You can schedule a report when you open a report. You choose the **Schedule** ac
 ## See Also
 [Specify Printer Selection for Reports](ui-specify-printer-selection-reports.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

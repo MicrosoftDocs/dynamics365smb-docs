@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/31/2016
+ms.search.keywords: email, PDF, electronic document
+ms.date: 03/29/2017
 ms.author: sgroespe
 
 ---
@@ -35,4 +36,3 @@ When you choose the **Post and Send** action on a sales document, the **Post and
 [Setting Up Sales](sales-setup-sales.md)  
 [Sales](sales-manage-sales.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

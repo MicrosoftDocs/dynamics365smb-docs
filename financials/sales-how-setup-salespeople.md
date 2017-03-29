@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.search.keywords: sales rep
+ms.date: 03/29/2017
 ms.author: sgroespe
 
 ---
@@ -27,4 +28,3 @@ When yo have set up a salesperson in the **Salespeople** window, you can select 
 [Setting Up Sales](sales-setup-sales.md)  
 [Sales](sales-manage-sales.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

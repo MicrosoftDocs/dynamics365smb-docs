@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.search.keywords: supply planning
+ms.date: 03/29/2017
 ms.author: sgroespe
 
 ---
@@ -26,7 +27,7 @@ From an open sales invoice, you can use the **Create Purchase Invoice** function
 4. Choose the **Create Purchase Invoice** action.
 5. Select either **All Lines** or **Selected Lines**, and then choose the **OK** button.  
 6. In the list of vendors that appears, select the vendor who will deliver the items or services, and then choose the **OK** button.
-   
+
     A purchase invoice is created that has one, more, or all the lines on the sales invoice.
 7. Proceed to process the purchase invoice, for example, by editing or adding purchase invoice lines. For more information, see [How to: Record Purchases](purchasing-how-record-purchases.md).
 
@@ -36,4 +37,3 @@ From an open sales invoice, you can use the **Create Purchase Invoice** function
 [How to: Invoice Sales](sales-how-invoice-sales.md)  
 [How to: Register New Vendors](purchasing-how-register-new-vendors.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

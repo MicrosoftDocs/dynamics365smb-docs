@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/17/2016
+ms.search.keywords: direct shipment
+ms.date: 03/29/2017
 ms.author: sgroespe
 
 ---
@@ -58,4 +59,3 @@ After the vendor ships the items, you can post the sales order as shipped. You c
 [Sales](sales-manage-sales.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

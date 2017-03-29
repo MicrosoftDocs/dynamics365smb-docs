@@ -10,7 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.search.keywords: delimit, FlowFilter
+ms.date: 03/29/2017
 ms.author: solsen
 
 ---
@@ -69,4 +70,3 @@ You can add filters to all pages by using the Quick Filter. The Quick Filter is 
 
 ## See Also
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

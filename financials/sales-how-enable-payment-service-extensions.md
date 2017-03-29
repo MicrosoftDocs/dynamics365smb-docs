@@ -1,5 +1,5 @@
 ---
-title: 'How to: Enable Customer Payments Through Payment Services| Microsoft Docs'
+title: 'How to: Enable Customer Payments Through PayPal| Microsoft Docs'
 description: 'Make it easier for customers to pay their invoices by enabling payment services.'
 services: project-madeira
 documentationcenter: ''
@@ -10,11 +10,12 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/28/2017
+ms.search.keywords: online payment
+ms.date: 03/29/2017
 ms.author: sgroespe
 
 ---
-# How to: Enable Customer Payments Through Payment Services
+# How to: Enable Customer Payments Through PayPal
 As an alternative to collecting payments through bank transfer or credit cards, you can offer your customers to pay you through their account with payment services, such as PayPal.
 
 After you enable a payment service in [!INCLUDE[d365fin](includes/d365fin_md.md)], a link to the service is available on sales documents that you send by email to your customers. Customers can use the link to go to the payment service and pay the bill, directly from the sales document. If you don't want to include the link, for example, if a customer will pay with cash, you can remove the payment service from the invoice before posting.

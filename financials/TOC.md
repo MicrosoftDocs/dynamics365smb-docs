@@ -47,7 +47,7 @@
 ### [How to: Set Up Purchasers](purchasing-how-setup-purchasers.md)
 ## [Setting Up Inventory](inventory-setup-inventory.md)
 ### [How to: Set Up General Inventory Information](inventory-how-setup-general.md)
-### [How to: Set Up Locations](inventory-how-register-new-products.md)
+### [How to: Set Up Locations](inventory-how-setup-locations.md)
 ### [How to: Register New Products](inventory-how-register-new-products.md)
 ### [How to: Categorize Items](inventory-how-categorize-items.md)
 ## [Setting Up Project Management](projects-setup-projects.md)

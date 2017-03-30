@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
-ms.date: 03/29/2017
+ms.date: 03/30/2017
 ms.author: sgroespe
 
 ---
@@ -24,11 +24,11 @@ You can email practically all document types as attachments to email messages di
 
 From all supported documents, you initiate emailing by choosing the **Send** action, on posted documents, or the **Post and Send** action, on non-posted documents.
 
-If the **Email** field in the **Send Document To** window is set to **Yes (Prompt for Settings)**, then the **Send Email** window opens prefilled with the contact person in the **To:** field and the document attached as a PDF file. In the **Body** field, you can either enter text manually or you can have the field filled with a document-specific email body that you have set up.
+If the **Email** field in the **Send Document to** window is set to **Yes (Prompt for Settings)**, then the **Send Email** window opens prefilled with the contact person in the **To:** field and the document attached as a PDF file. In the **Body** field, you can either enter text manually or you can have the field filled with a document-specific email body that you have set up.
 
 The following procedure describes how to set the **Sales - Invoice** report up to be used for document-specific email bodies when you email posted sales invoices.
 
-## <a name="SetUpEmailBody"></a> To set up a document-specific email body for sales invoices
+## To set up a document-specific email body for sales invoices
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Report Selections Sales**, and then choose the related link.
 2. In the **Report Selection - Sales** window, in the **Usage** field, select **Invoice**.
 3. On a new line, in the **Report ID** field, select, for example, standard report 1306.
@@ -46,7 +46,7 @@ The following procedure describes how to send a posted sales invoice as an email
 
 ## To send documents by email
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Posted Sales Invoices**, and then choose the related link.
-2. Select the relevant sales invoice, and then choose the **Send** action. The **Send Document To** window opens.
+2. Select the relevant posted sales invoice, and then choose the **Send** action. The **Send Document to** window opens.
 3. In the **Email** field, select **Yes (Prompt for Settings)**. For more information, see [How to: Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).
 4. Choose the **OK** button. The **Send Email** window opens.
 5. In the **To:** field, enter a valid email address. The default value is the customer email address.
@@ -55,10 +55,11 @@ The following procedure describes how to send a posted sales invoice as an email
 8. In the **Subject** field, enter a descriptive subject text. The default value is the customer name and invoice number.
 9. In the **Attachment** field, the generated invoice is attached by default as a PDF file. Choose the lookup button to open the file or attach another one.
 10. In the **Body** field, enter a short message to the recipient.  
-    If a document-specific email body is set up in the **Report Selection - Sales** window, then the **Body** field is filled automatically. For more information, see the [To set up a document-specific email body for sales invoices](ui-how-send-documents-email.md#SetUpEmailBody) section in this topic.
+
+    If a document-specific email body is set up in the **Report Selection - Sales** window, then the **Body** field is filled in automatically. For more information, see the "To set up a document-specific email body for sales invoices" section in this topic.
 11. Choose the **OK** button to send the email message.
 
-**Note**: If you do not need to specify email settings each time you email a document, you can select the **Yes (Use Default Settings)** option in the Email field in the **Send Document To** window. In that case, the **Send Email** window will not open. See Step 4. For more information, see [How to: Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).
+**Note**: If you do not want to specify email settings each time you email a document, you can select the **Yes (Use Default Settings)** option in the **Email** field in the **Send Document to** window. In that case, the **Send Email** window will not open. See Step 4. For more information, see [How to: Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).
 
 ## See Also
 [Managing Report and Document Layouts](ui-manage-report-layouts.md)  

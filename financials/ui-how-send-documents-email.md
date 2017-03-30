@@ -54,9 +54,10 @@ The following procedure describes how to send a posted sales invoice as an email
 7. In the **Bcc:** field, specify an email address to have a copy of the email sent to another recipient without that email address and name appearing to other recipients.
 8. In the **Subject** field, enter a descriptive subject text. The default value is the customer name and invoice number.
 9. In the **Attachment** field, the generated invoice is attached by default as a PDF file. Choose the lookup button to open the file or attach another one.
-10. In the **Body** field, enter a short message to the recipient.  
+10. In the **Body** field, enter a short message to the recipient.
 
     If a document-specific email body is set up in the **Report Selection - Sales** window, then the **Body** field is filled in automatically. For more information, see the "To set up a document-specific email body for sales invoices" section in this topic.
+
 11. Choose the **OK** button to send the email message.
 
 **Note**: If you do not want to specify email settings each time you email a document, you can select the **Yes (Use Default Settings)** option in the **Email** field in the **Send Document to** window. In that case, the **Send Email** window will not open. See Step 4. For more information, see [How to: Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).

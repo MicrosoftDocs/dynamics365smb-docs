@@ -11,13 +11,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer relationship management, integration, synchronize, couple
-ms.date: 03/28/2017
+ms.date: 04/03/2017
 ms.author: edupont
 ---
 # Manage Your Customer Relationships using Dynamics 365 for Sales from inside [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 If you use Dynamics 365 for Sales for customer engagement, you can use [!INCLUDE[d365fin](includes/d365fin_md.md)] for order processing and finances and have seamless integration in the lead-to-cash process.
 
-When your application is set up to integrate with Dynamics 365 for Sales, you have access to Sales data from [!INCLUDE[d365fin](includes/d365fin_md.md)] and the other way around in some cases. This integration enables you to work with and synchronize data types that are common to both services, such as customers, contacts, and sales information, and keep the data up\-to\-date in both locations.  
+When your application is set up to integrate with Dynamics 365 for Sales, you have access to Sales data from [!INCLUDE[d365fin](includes/d365fin_md.md)] and the other way around in some cases. This integration enables you to work with and synchronize data types that are common to both services, such as customers, contacts, and sales information, and keep the data up to date in both locations.  
 
 **Note**: In the current version of [!INCLUDE[d365fin](includes/d365fin_md.md)], Dynamics 365 for Sales is referred to as Dynamics CRM. For simplicity, the remainder of this article will use the terminology that is used in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
@@ -26,9 +26,9 @@ For example, the sales person in Dynamics CRM can use the price lists from [!INC
 **Note**: This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).  
 
 ## Setting up the connection
-From Home, you can access the **Dynamics CRM Connection Setup** guide that helps you set up the connection. Once that's done, you'll have a seamless coupling of Dynamics CRM records with [!INCLUDE[d365fin](includes/d365fin_md.md)] records.  
+From Home, you can access the **Dynamics CRM Connection Setup** guide that helps you set up the connection. Once that is done, you will have a seamless coupling of Dynamics CRM records with [!INCLUDE[d365fin](includes/d365fin_md.md)] records.  
 
-In the setup guide, you can choose which data to synchronize between the two services. You can also specify that you want to import your existing Dynamics CRM solution. In that case, you must specify an administrative user account.  
+In the assisted setup guide, you can choose which data to synchronize between the two services. You can also specify that you want to import your existing Dynamics CRM solution. In that case, you must specify an administrative user account.
 
 ### Set up the user account for importing the solution
 To import an existing Dynamics CRM solution, the setup guide uses an administrative account. This account must be a valid user in Dynamics CRM with the following security roles:
@@ -43,7 +43,7 @@ This account is only used during the setup. Once the solution is imported into [
 ### Set up the user account for synchronization
 The integration relies on a shared user account. So in your Office 365 subscription, you must create a dedicated user that will be used for synchronization between the two services. This account must already be a valid user in Dynamics CRM, but you do not have to assign security roles to the account because the setup guide will do that for you. You must specify this user account one or more times in the setup guide, depending how much synchronization you want to enable. For more information, see [Create a user account](https://technet.microsoft.com/library/jj191623.aspx#BKMK_create_users).
 
-If you choose to enable *item availability*, the integration user account must have a web services access key. This is a two-step thing - in the [!INCLUDE[d365fin](includes/d365fin_md.md)] page for that user account, you must choose the **Change Web Service Key** button; and in the CRM connection setup guide, you must specify that user as the OData web service user.
+If you choose to enable *item availability*, the integration user account must have a web services access key. This is a two-step thing in the [!INCLUDE[d365fin](includes/d365fin_md.md)] page for that user account, you must choose the **Change Web Service Key** button; and in the CRM connection setup guide, you must specify that user as the OData web service user.
 
 If you choose to enable *sales order integration*, you must specify a user that can handle this synchronization - the integration user or another user account.
 
@@ -64,6 +64,11 @@ In certain areas, the functionality relies on you couple certain sets of data be
 **Note**: If you are using prices in foreign currencies, make sure that you couple currencies to Dynamics CRM transaction currencies.
 
 Dynamics CRM sales orders depends on additional information like customers, units of measure, currencies, customer price groups, items and/or resources. In order for Dynamics CRM sales orders to work seamlessly, you must couple customers, units of measure, currencies, customer price groups, items and/or resources first.
+
+### Synchronizing records fully
+At the end of the assisted setup guide, you can choose the **Run Full Synchronization** action to start synchronizing all [!INCLUDE[d365fin](includes/d365fin_md.md)] records with all related records in the connected Dynamics CRM solution. This synchronization may take a long time and will therefore run in the background so that you can continue to work in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+From the **CRM Connection Setup** window, you can open the **Integration Table Mappings** window to check the progress of current synchronizations and to see detailed information about the number of records in Financials and the number of records in the Dynamics CRM solution.
 
 ## See Also
 [Relationship Management](marketing-relationship-management.md)  

@@ -1,7 +1,6 @@
----
+﻿---
 title: 'How to: Use OCR to Turn PDF and Image Files into Electronic Documents| Microsoft Docs'
 description: Describes how to use OCR to turn PDF and image files into electronic documents
-services: project-madeira
 documentationcenter: ''
 author: SorenGP
 

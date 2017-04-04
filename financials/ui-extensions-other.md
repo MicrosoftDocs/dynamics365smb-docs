@@ -15,7 +15,7 @@ ms.date: 03/29/2017
 ms.author: edupont
 
 ---
-# [!INCLUDE[d365fin](includes/d365fin_long_md.md)] Extensions by Other Providers
+Dynamics 365 for Financials Extensions by Other Providers
 At [AppSource.microsoft.com](https://appsource.microsoft.com/), you can get extensions for [!INCLUDE[d365fin](includes/d365fin_md.md)]. Some extensions are provided by Microsoft, and other extensions are provided by other companies. We refer to the websites that these companies provide for more information about the extensions that are not published by Microsoft. You can find this information at [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace?product=project-madeira).  
 
 This list shows the extensions by other companies that are currently available for [!INCLUDE[d365fin](includes/d365fin_md.md)]:  

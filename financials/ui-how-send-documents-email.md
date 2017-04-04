@@ -1,7 +1,6 @@
----
+﻿---
 title: 'How to: Send Documents by Email| Microsoft Docs'
 description: 'How to: Send Documents by Email'
-services: project-madeira
 documentationcenter: ''
 author: SorenGP
 
@@ -61,7 +60,6 @@ The following procedure describes how to send a posted sales invoice as an email
 
 ## See Also
 [Managing Report and Document Layouts](ui-manage-report-layouts.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [How to: Set up Email](madeira-how-setup-email.md)  
 [How to: Invoice Sales](sales-how-invoice-sales.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -31,11 +31,11 @@ If you have a picture of an employee in .bmp format, you can insert it on the em
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Employees**, and then choose the related link.
 2. Open the card for the relevant employee.
-3. In the Employee Picture FactBox, choose the drop-down button, and then choose **Import**.
+3. In the **Employee Picture** FactBox, choose the drop-down button, and then choose **Import**.
 4. In the **Select a picture to upload** window, choose the **Choose** button.
 5. Select the file, and then choose **Open**.
 
-The picture is inserted in the ** Employee Picture** FactBox
+The picture is inserted in the **Employee Picture** FactBox.
 
 ## To register an alternate address for an employee
 You can use alternate addresses to keep track of your employees’ location, for example if they are stationed abroad, on a long business trip, or residing at a summer residence.

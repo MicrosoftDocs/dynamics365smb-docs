@@ -70,5 +70,4 @@ Each time you sign in during the trial period, a notification in a blue bar at t
 [Finance](finance.md)  
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as my Business Inbox in Outlook](madeira-outlook.md)  
-[Getting [!INCLUDE[d365fin](includes/d365fin_md.md)] on my Mobile Device](install-mobile-app.md)  
-
+[Getting [!INCLUDE[d365fin](includes/d365fin_md.md)] on Your Mobile Device](install-mobile-app.md)  

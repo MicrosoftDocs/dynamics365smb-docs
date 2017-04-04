@@ -26,5 +26,5 @@ You can send documents such as invoices as email using your business email addre
 ## See Also
 [Welcome to Dynamics 365 for Financials](index.md)  
 [Using Financials as your Business Inbox in Outlook](madeira-outlook.md)  
-[Getting Financials on my Mobile Device](install-mobile-app.md)  
+[Getting Financials on Your Mobile Device](install-mobile-app.md)  
 [How to: Send Documents by Email](ui-how-send-documents-email.md)

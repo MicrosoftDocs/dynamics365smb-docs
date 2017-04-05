@@ -48,7 +48,7 @@
 ## [Setting Up Inventory](inventory-setup-inventory.md)
 ### [How to: Set Up General Inventory Information](inventory-how-setup-general.md)
 ### [How to: Set Up Locations](inventory-how-setup-locations.md)
-### [How to: Register New Products](inventory-how-register-new-products.md)
+### [How to: Register New Products](inventory-how-register-new-items.md)
 ### [How to: Categorize Items](inventory-how-categorize-items.md)
 ## [Setting Up Project Management](projects-setup-projects.md)
 ### [How to: Set Up Resources](projects-how-setup-resources.md)
@@ -125,7 +125,7 @@
 ## [Advanced: Inventory Reconciliation](advanced-inventory-reconciliation.md)
 
 # [Relationship Management](marketing-relationship-management.md)
-## [Setting Up Relationship Management](marketing-setup-marketing.md)[
+## [Setting Up Relationship Management](marketing-setup-marketing.md)
 ## [Managing Contacts](marketing-contacts.md)
 ## [Managing Segments](marketing-segments.md)
 ## [Recording Interactions](marketing-interactions.md)

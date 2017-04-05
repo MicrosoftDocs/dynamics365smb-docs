@@ -15,7 +15,7 @@ ms.date: 03/28/2017
 ms.author: edupont
 
 ---
-# Canceling [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# Canceling Dynamics 365 for Financials
 When you have signed up for [!INCLUDE[d365fin](includes/d365fin_md.md)], you can choose to cancel your subscription at any time. Similarly, you can choose to reset the company that you can been using in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For a quick overview, see [the [!INCLUDE[d365fin](includes/d365fin_md.md)] blog](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel).  
 
 ## Unsubscribing by removing [!INCLUDE[d365fin](includes/d365fin_md.md)] from your Office 365 experience

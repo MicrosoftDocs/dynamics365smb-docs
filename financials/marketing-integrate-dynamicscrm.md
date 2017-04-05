@@ -1,7 +1,6 @@
 ---
 title: Manage your customer relationships using Dynamics 365 for Sales from inside Dynamics 365 for Financials | Microsoft Docs
 description: If you use Dynamics 365 for Sales for customer engagement, you can use Dynamics 365 for Financials for order processing and finances and have seamless integration in the lead-to-cash process
-services: project-madeira
 documentationcenter: ''
 author: edupont04
 
@@ -11,10 +10,10 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer relationship management, integration, synchronize, couple
-ms.date: 04/03/2017
+ms.date: 03/04/2017
 ms.author: edupont
 ---
-# Manage Your Customer Relationships using Dynamics 365 for Sales from inside [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# Manage Your Customer Relationships using Dynamics 365 for Sales from inside Dynamics 365 for Financials
 If you use Dynamics 365 for Sales for customer engagement, you can use [!INCLUDE[d365fin](includes/d365fin_md.md)] for order processing and finances and have seamless integration in the lead-to-cash process.
 
 When your application is set up to integrate with Dynamics 365 for Sales, you have access to Sales data from [!INCLUDE[d365fin](includes/d365fin_md.md)] and the other way around in some cases. This integration enables you to work with and synchronize data types that are common to both services, such as customers, contacts, and sales information, and keep the data up to date in both locations.  

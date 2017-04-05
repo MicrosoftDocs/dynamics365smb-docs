@@ -1,7 +1,6 @@
 ---
 title: How to: Set up Email| Microsoft Docs
 description: Describes how to use the company's SMTP server to send and receive email within Financials, alternatively how to use the email server settings that were created with the Office 365 subscription.
-services: project-madeira
 documentationcenter: ''
 author: SorenGP
 

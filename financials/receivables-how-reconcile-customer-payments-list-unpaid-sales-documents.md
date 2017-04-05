@@ -1,7 +1,6 @@
 ---
 title: 'How to: Reconcile Customer Payments Manually From a List of Unpaid Sales Documents| Microsoft Docs'
 description: 'How to: Reconcile Customer Payments Manually From a List of Unpaid Sales Documents'
-services: project-madeira
 documentationcenter: ''
 author: SorenGP
 
@@ -70,17 +69,17 @@ If a payment in the bank is not represented by line in the **Payment Registratio
 
 If a payment in the bank is not represented by any document in [!INCLUDE[d365fin](includes/d365fin_md.md)], then you can open a prefilled general journal from the **Payment Registration** window to post the payment directly to the balancing account without applying the payment to a document. Alternatively, you may want to record the payment in the journal until the origin of the payment has been resolved. For more information, see the "To record or post a payment without a related document" section.  
 
-## To Customer Payments with Discounts Manually
+## To process customer payments with discounts manually
 If you have agreed on a payment discount with your customer, then the payment amounts can be lower than the invoice amounts if payment occurs before the agreed discount date.  
 
-This procedure explains four different procedures for posting discounted payments in the **Payment Registration** window.  
+The following procedures explains four different ways to post discounted payments in the **Payment Registration** window.  
 
 * The payment amount is equal to the remaining discounted amount, and the payment date is before the discount date. You post the payment as is.  
 * The payment amount is equal to the remaining discounted amount, but the payment date is after the discount date. You post the payment as partial. The document remains open to collect/pay the remaining amount. Alternatively, you set the discount date later to allow the payment in full.  
 * The payment amount is lower than the remaining discounted amount. You post the payment as partial. The document remains open to collect/pay the remaining amount.  
 * The payment amount is more than the remaining discounted amount. You post the payments as is. Only the remaining amount is posted. The additional amount is credited to the customer.  
 
-## To process a payment amount that is equal to the discounted amount and where the payment date is before the discount date
+### To process a payment amount that is equal to the discounted amount and where the payment date is before the discount date
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Payment Registration**, and then choose the related link.  
 2. Enter the payment amount in the **Amount Received** field. The amount is equal to the amount in the **Rem. Amt. after Discount** field.
 
@@ -89,7 +88,7 @@ This procedure explains four different procedures for posting discounted payment
 4. Verify that the **Remaining Amount** field contains zero (0).  
 5. Choose the **Post Payments** action to post the full payment to general ledger, bank, and customer accounts.
 
-## To process a payment amount that is equal to the discounted amount but where the payment date is after the discount date
+### To process a payment amount that is equal to the discounted amount but where the payment date is after the discount date
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Payment Registration**, and then choose the related link.  
 2. Enter the payment amount in the **Amount Received** field. The amount is equal to the amount in the **Rem. Amt. after Discount** field.
 
@@ -106,7 +105,7 @@ This procedure explains four different procedures for posting discounted payment
 
 The related document remains open.
 
-## To process a payment that is lower than the remaining discounted amount
+### To process a payment that is lower than the remaining discounted amount
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Payment Registration**, and then choose the related link.  
 2. Enter the payment amount in the **Amount Received** field. The amount is lower than the amount in the **Rem. Amt. after Discount** field.
 
@@ -117,7 +116,7 @@ The related document remains open.
 
 The related document remains open.
 
-## To process a payment that is more than the remaining discounted amount
+### To process a payment that is more than the remaining discounted amount
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Payment Registration**, and then choose the related link.  
 2. Enter the payment amount in the **Amount Received** field. The amount is more than the amount in the **Rem. Amt. after Discount** field.  
 

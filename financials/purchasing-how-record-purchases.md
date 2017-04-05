@@ -1,7 +1,6 @@
----
+﻿---
 title: 'How to: Record Purchases| Microsoft Docs'
-description: Describes how to purchase items or services by creating and posting purchase invoices or orders.
-services: project-madeira
+description: Describes how to purchase items of type Inventory or Service by creating and posting purchase invoices or orders.
 documentationcenter: ''
 author: SorenGP
 
@@ -22,11 +21,11 @@ You create a purchase invoice or purchase order to record the cost of purchases 
 
 When you receive the inventory items, or when the purchased service is completed, you post the purchase invoice or order to update inventory and financial records and to activate payment to the vendor according to the payment terms. For more information, see [Make Payments](payables-make-payments.md).
 
-**Caution**: Do not post a purchase invoice until you receive the products and know the final cost of the purchase, including any additional charges. Otherwise, your inventory value and profit figures may be skewed.
+**Caution**: Do not post a purchase invoice until you receive the items and know the final cost of the purchase, including any additional charges. Otherwise, your inventory value and profit figures may be skewed.
 
-You can easily correct or cancel a posted purchase invoice before you pay the vendor. This is useful if you want to correct a typing mistake or if you want to change the purchase early in the order process. For more information, see [How to: Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). If you have already paid for products on the posted purchase invoice, then you must create a purchase credit memo to reverse the purchase. For more information, see [How to: Process Purchase Returns or Cancellations](purchasing-how-process-purchase-returns-cancellations.md).
+You can easily correct or cancel a posted purchase invoice before you pay the vendor. This is useful if you want to correct a typing mistake or if you want to change the purchase early in the order process. For more information, see [How to: Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). If you have already paid for items on the posted purchase invoice, then you must create a purchase credit memo to reverse the purchase. For more information, see [How to: Process Purchase Returns or Cancellations](purchasing-how-process-purchase-returns-cancellations.md).
 
-Products can be both inventory items and services. For more information, see [How to: Register New Products](inventory-how-register-new-products.md). The purchase invoice process is the same for both product types.
+Items can be type **Inventory** or **Service**. For more information, see [How to: Register New Items](inventory-how-register-new-items.md). The purchase invoice process is the same for both item types.
 
 **Note**: Purchase order functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 

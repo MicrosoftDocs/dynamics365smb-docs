@@ -71,7 +71,7 @@ At the end of the assisted setup guide, you can choose the **Run Full Synchroniz
 
 To check the progress of individual jobs in a full synchronization, drill down on the **Job Queue Entry Status**, **To Int. Table Job Status**, or **From Int. Table Job Status** field in the **CRM Full Synch. Review** window.
 
-From the **CRM Connection Setup** window, you can get details about full synchronization at any time. From here, you can also open the **Integration Table Mappings** window to see details about the records in Financials and in the Dynamics CRM solution that must be synchronized.
+From the **CRM Connection Setup** window, you can get details about full synchronization at any time. From here, you can also open the **Integration Table Mappings** window to see details about the tables in Financials and in the Dynamics CRM solution that must be synchronized.
 
 ## See Also
 [Relationship Management](marketing-relationship-management.md)  

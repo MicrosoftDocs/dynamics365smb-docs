@@ -5,7 +5,7 @@ For more information see the [Code of Conduct FAQ](https://opensource.microsoft.
 
 # dynamics365smb-docs-pr
 Welcome to the repository for user assistance content for Dynamics 365 for Financials! Financials is aimed at small and midsized businesses, and the repo is private while we work on pre-release content.
-If you have any questions, please contact us through the navua alias.
+If you have any questions, please contact us through the navua alias.  
 
 ======================================
 Getting started with Open Publishing
@@ -15,13 +15,13 @@ Quick Start
 
 Start contributing to Open Publishing docs using the following steps:
 
-1. Clone the repo:
+1. Fork the repo using a browser window or Git Shell. Here is the address of the repo:
    ```
-   git clone https://github.com/Microsoft/dynamics365smb-docs-pr.git
+https://github.com/MicrosoftDocs/dynamics365smb-docs-pr
    ```
 
-2. Edit the Markdown files using your favorite Markdown editor.
-3. Commit and push your changes:
+2. Clone your fork so you have a local copy, and then edit the Markdown files using your favorite Markdown editor, such as Atom.io or Visual Studio Code.
+3. Commit and push your changes using GitHub Desktop or Git Shell. Here is the command for Git Shell:
    ```
    git add -u
    git commit -m "update doc"
@@ -52,28 +52,21 @@ For Financials:
 
 ```
 ---
-title: "How to: Change the Role Center"
+title: 'Short title with a couple of buzzwords for the feature. Not the same as your heading for the topic. | Microsoft Docs'
+description: 'A longer description that identifies the topic in search results.'
 author: MyGitHubAccount
 ms.author: MyDomainAccount
-ms.custom: na
-ms.date: MM/DD/YYYY
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms-service: dynamics365-financials
 ms.topic: article
-ms-service: "project-madeira"
+ms.search.keywords:keyword1, keyword2
+ms.date: MM/DD/YYYY
+
 ---
 ```
 
 The author attribute is used for the GitHub association, while the ms.author attribute is used in OPS and SkyEye. Remember to specify your own accounts...
 
-The ms.date tag must be updated according to this schedule:  
-- Topic created
-    - Set ms.date to the date when the topic will be published the first time (typically the 12th of the subsequent month)  
-- Topic updated with bug fix or user feedback
-    - Set ms.date to the current date
-- Topic revised due to feature development
-    - Set ms.date to the date when the topic will be published the next time (typically the 12th of the subsequent month)
+The ms.date tag must be updated to the date when you make the change.
 
 Some articles will have a different value for the ms.topic tag. For more information, see https://opsdocs.azurewebsites.net/en-us/opsdocs/partnerdocs/metadata?branch=master.
 

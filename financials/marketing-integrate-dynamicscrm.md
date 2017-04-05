@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer relationship management, integration, synchronize, couple
-ms.date: 03/04/2017
+ms.date: 03/05/2017
 ms.author: edupont
 ---
 # Manage Your Customer Relationships using Dynamics 365 for Sales from inside Dynamics 365 for Financials
@@ -25,7 +25,9 @@ For example, the sales person in Dynamics CRM can use the price lists from [!INC
 **Note**: This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).  
 
 ## Setting up the connection
-From Home, you can access the **Dynamics CRM Connection Setup** guide that helps you set up the connection. Once that is done, you will have a seamless coupling of Dynamics CRM records with [!INCLUDE[d365fin](includes/d365fin_md.md)] records.  
+From Home, you can access the **Dynamics CRM Connection Setup** assisted setup guide that helps you set up the connection. Once that is done, you will have a seamless coupling of Dynamics CRM records with [!INCLUDE[d365fin](includes/d365fin_md.md)] records.  
+
+**Note**: The following explains the assisted setup, but you can perform the same tasks manually in the **CRM Connection Setup** window.
 
 In the assisted setup guide, you can choose which data to synchronize between the two services. You can also specify that you want to import your existing Dynamics CRM solution. In that case, you must specify an administrative user account.
 
@@ -47,7 +49,7 @@ If you choose to enable *item availability*, the integration user account must h
 If you choose to enable *sales order integration*, you must specify a user that can handle this synchronization - the integration user or another user account.
 
 ### Coupling records
-In the setup guide, you can choose the synchronize between the two services. But later, you can also set up synchronization of specific types of data. This is referred to as *coupling*, and this section provides recommendations for what you must take into consideration.
+In the assisted setup guide, you can choose to synchronize between the two services. But later, you can also set up synchronization of specific types of data. This is referred to as *coupling*, and this section provides recommendations for what you must take into consideration.
 
 For example, if you want to see Dynamics CRM accounts as customers in [!INCLUDE[d365fin](includes/d365fin_md.md)], you must couple the two types of records. It is not very complicated - you open the **Customer List** window in [!INCLUDE[d365fin](includes/d365fin_md.md)], and there is an action in the ribbon to couple this data with Dynamics CRM. Then you specify which [!INCLUDE[d365fin](includes/d365fin_md.md)] customers match which accounts in Dynamics CRM.
 
@@ -65,9 +67,11 @@ In certain areas, the functionality relies on you couple certain sets of data be
 Dynamics CRM sales orders depends on additional information like customers, units of measure, currencies, customer price groups, items and/or resources. In order for Dynamics CRM sales orders to work seamlessly, you must couple customers, units of measure, currencies, customer price groups, items and/or resources first.
 
 ### Synchronizing records fully
-At the end of the assisted setup guide, you can choose the **Run Full Synchronization** action to start synchronizing all [!INCLUDE[d365fin](includes/d365fin_md.md)] records with all related records in the connected Dynamics CRM solution. This synchronization may take a long time and will therefore run in the background so that you can continue to work in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+At the end of the assisted setup guide, you can choose the **Run Full Synchronization** action to start synchronizing all [!INCLUDE[d365fin](includes/d365fin_md.md)] records with all related records in the connected Dynamics CRM solution. In the **CRM Full Synch. Review** window that opens you must choose the **Start** action. The synchronization then begins to execute jobs according to dependencies. For example, currency records are synchronized before customer records. The full synchronization may take a long time and will therefore run in the background so that you can continue to work in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-From the **CRM Connection Setup** window, you can open the **Integration Table Mappings** window to check the progress of current synchronizations and to see detailed information about the number of records in Financials and the number of records in the Dynamics CRM solution.
+To check the progress of a full synchronization, you can open the **Integration Synchronization Jobs** window, either by using the **Search** box or from the **CRM Connection Setup** window.
+
+From the **CRM Connection Setup** window, you can also choose the **Integration Table Mappings** window to see details about the records in Financials and in the Dynamics CRM solution that must be synchronized. 
 
 ## See Also
 [Relationship Management](marketing-relationship-management.md)  

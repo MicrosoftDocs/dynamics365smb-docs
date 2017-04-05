@@ -125,7 +125,7 @@
 ## [Advanced: Inventory Reconciliation](advanced-inventory-reconciliation.md)
 
 # [Relationship Management](marketing-relationship-management.md)
-## [Setting Up Relationship Management](marketing-setup-marketing.md)[
+## [Setting Up Relationship Management](marketing-setup-marketing.md)
 ## [Managing Contacts](marketing-contacts.md)
 ## [Managing Segments](marketing-segments.md)
 ## [Recording Interactions](marketing-interactions.md)

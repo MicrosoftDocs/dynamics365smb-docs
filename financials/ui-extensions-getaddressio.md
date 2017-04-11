@@ -10,12 +10,12 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/17/2017
+ms.date: 04/11/2017
 ms.author: bholtorf
 
 ---
 
-# The GetAddress.io UK Postcodes Extension for [!INCLUDE[d365fin](includes/d365fin_long_md.md)]
+# The GetAddress.io UK Postcodes Extension to Microsoft Dynamics 365 for Financials
 The GetAddress.io UK Postcodes extension can save time and prevent mistakes when you enter addresses for entities like customers, vendors, bank accounts, and employees. For example, when you're creating a customer, you just choose a postcode and [!INCLUDE[d365fin](includes/d365fin_md.md)] shows a list of addresses. Pick the address you want, and presto, the address fields are filled out.  
   
 ##To use the GetAddress.io UK Postcodes extension when you enter an address

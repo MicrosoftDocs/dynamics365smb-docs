@@ -71,6 +71,8 @@ To set up a VAT business posting group, follow these steps:
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **VAT Product Posting Group**, and then choose the related link.  
 2. Fill in the fields as necessary.
 
+<!-- Set up customer/item... -->
+
 ## Combine VAT posting setups
 Combining VAT posting setups is useful, for example, when reporting VAT and when reconciling VAT in the general ledger.  
 
@@ -114,12 +116,11 @@ The following sections describe how to assign VAT posting groups to individual e
 3. Choose the VAT product posting group.
 
 ## Use reverse charge VAT for trade between EU countries or regions
-<!-- This is specific to the EU. Do we need to rework this to cover regions that use VAT but are not in the EU?-->
 Some companies must use reverse charge VAT when trading with other companies. For example this rule applies to purchases from EU countries/regions and sales to EU countries/regions.
 
 **Note**: This rule applies when trading with companies that are registered as VAT liable in another EU country/region. If you do business directly with consumers in other EU countries/regions, then you should contact your tax authority for applicable VAT rules.  
 
-**Tip**: You can verify that a company is registered as VAT liable in another EU country by using the EU VAT Registration Number Validation service. The service is available for free in Financials. You just need to turn it on in the Service Connections page.
+**Tip**: You can verify that a company is registered as VAT liable in another EU country by using the EU VAT Registration Number Validation service. The service is available for free in Financials. For more information, see the section titled _Verify VAT registration numbers_ in this topic.
 
 ### Sales to EU countries or regions
 VAT is not calculated on sales to VAT-liable companies in other EU countries/regions. You must report the value of these sales to EU countries/regions separately on your VAT statement.
@@ -134,7 +135,7 @@ When you post a sale to a customer in another EU country/region, the VAT amount 
 Amounts in documents that are not yet posted are rounded and displayed to correspond with the final rounding of amounts that are actually posted. VAT is calculated for a complete document, which means that VAT that is calculated in the document is based on the sum of all lines with the same VAT identifier in the document.
 
 ## Set up clauses to explain the use of non-standard VAT rates
-You set up a VAT clause to describe information about the type of VAT that is being applied. The information may be required by government regulation. After you set up a VAT clause, and associate it with a VAT posting setup, the VAT clause is displayed on all printed sales documents which have that VAT posting setup group, such as a sales invoice. 
+You set up a VAT clause to describe information about the type of VAT that is being applied. The information may be required by government regulation. After you set up a VAT clause, and associate it with a VAT posting setup, the VAT clause is displayed on printed sales documents that use the VAT posting setup group. 
 
 If needed, you can also specify how to translate VAT clauses to other languages. Then, when you create and print a sales document that contains a VAT identifier, the document will include the translated VAT clause. The language code specified on the Customer card determines the language.
   
@@ -157,7 +158,7 @@ If needed, you can also specify how to translate VAT clauses to other languages.
 4. In the **Description** and **Description 2** fields, enter the translations of the descriptions. This text displays in the translated VAT report documents.  
   
 ## Set up codes for Import VAT
-You use the Import VAT feature when you need to post a document where the entire amount must be treated as VAT. This is necessary if you receive a VAT invoice from the tax authorities for imported goods.  
+You use the Import VAT feature when you need to post a document where the entire amount is VAT. You'll use this if you receive an invoice from the tax authorities for VAT for imported goods.  
   
 To set up codes for import VAT, follow these steps:  
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **VAT Product Posting Groups**, and then choose the related link.  
@@ -167,4 +168,21 @@ To set up codes for import VAT, follow these steps:
 5. In the **VAT Calculation Type** field, choose **Full VAT**.  
 6. In the **Purchase VAT Account** field, enter the general ledger account to use for posting import VAT. All other accounts are optional.  
   
+## Verify VAT registration numbers
+It's important that the VAT registration numbers you have for customers, vendors, and contacts are valid. For example, companies sometimes change their tax liability status, and in some countries tax authorities might ask you to provide a list of the numbers you use when you do business.  
+  
+The European Commission provides the VIES VAT Number Validation service on its website, which is public and free. However, you still have to go to the website. Financials can save you that step, and let you use the VIES service to validate and track VAT numbers for customers, vendors, and contacts straight from the customer, vendor, and contact cards. The service in Financials is named EU VAT Reg. No. Validation Service. It's available on the **Service Connections** page, and to start using it you just need to select a check box. The service is free, and signup is not required.
+
+When you use our service, we record a history of VAT numbers for each customer, vendor, or contact, in the **VAT Registration Log**, so you can easily track them. The log is specific to each customer. For example, the log is useful for proving that you have verified that the current VAT number is correct. When you verify a VAT number, the **Request Identifier** column in the log will reflect that you've taken action. 
+
+To view the VAT Registration log, on the customer, vendor, or contact cards, on the **Invoicing** FastTab, choose the look up button in the **VAT Registration No.** field.   
+
+Our service can also save you a little time when you're creating a customer in Financials. If you know the customer's VAT number, you can enter that in the VAT registration number field on the Customer card, and we'll fill out the customer name for you. If the customer address is available, we'll 
+
+**Notes**: There are a couple of things to note about the VIES VAT Number Validation service:
+
+* The service uses the http protocol, which means that data transferred through the service is not encrypted.
+* You may experience downtime for this service for which Microsoft is not responsible. The service is part of a broad EU network of national VAT registers.
+
+
 ##See Also  

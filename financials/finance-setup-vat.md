@@ -11,12 +11,12 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 04/11/2017
+ms.date: 04/20/2017
 ms.author: bholtorf
 
 ---
 
-# About Setting Up Value Added Tax for Sales Documents
+# Setting Up Value Added Tax Calculations
 Consumers and businesses pay value added tax (VAT) when they purchase goods or services. The amount of VAT to pay can vary, depending on several factors. In Financials, you set up VAT to specify the rates to use to calculate tax amounts based on the following: 
 
 * Who you sell to  
@@ -26,32 +26,32 @@ Consumers and businesses pay value added tax (VAT) when they purchase goods or s
   
 You can set up VAT calculations manually, but that can be tricky and time consuming. To make it easy, we've provided an assisted setup guide named VAT Setup that will help you with the steps. We recommend that you use the assisted setup guide to set up VAT.
 
-**Note**: You can use the VAT Setup assisted setup guide only if you have not already posted sales or purchases that include VAT. Therefore, you can only use the guide if you've created a My Company and have not posted transactions.  
+**Note**: You can use the guide only if you've created a My Company, and have not posted transactions that include VAT. Otherwise, it would be very easy to use different VAT rates by mistake, and make VAT-related reports inaccurate.  
   
-If you want to set up VAT calculations yourself, or just want to learn about each step in the process, this topic contains descriptions of each step. These include how to:  
+If you want to set up VAT calculations yourself, or just want to learn about each step, this topic contains descriptions of each step. These include how to:  
   
-* Set up VAT business posting groups  
-* Enter VAT posting setup combinations  
-* Set up VAT product posting groups  
-* Assign VAT posting groups to general ledger accounts for sales and purchases, and items, and resources  
+* Set up VAT business posting groups to define VAT rates for the markets you do business in. You'll assign these to customers and vendors.  
+* Set up VAT product posting groups to define VAT rates for the products and services you buy or sell.  
+  
+   **Note**: The concepts behind VAT business and product posting groups are similar to general posting groups. For more information, see [Posting Group Setups](finance-posting-groups.md).
+* Combine VAT business and product posting groups to create VAT setups that calculate VAT amounts on sales and purchases.  
+* Assign VAT product posting groups to the general ledger accounts you use for sales and purchases, and items, and resources.  
 
-    **Note**: To set up VAT for resources, you must enable the **Suite** user experience for your company. For more information, see [Customizing Your Dynamics 365 for Financials Experience](ui-experiences.md).
+   **Note**: To set up VAT for resources, you must enable the **Suite** user experience for your company. For more information, see [Customizing Your Dynamics 365 for Financials Experience](ui-experiences.md).
 * Use reverse charge VAT for trade between EU countries/regions  
 * Understand VAT rounding for documents  
 * Set up clauses to explain the use of non-standard VAT rates
-
-    **Note**: The concepts behind VAT business and product posting groups are similar to general posting groups. For more information, see [Posting Group Setups](finance-posting-groups.md).
+* Verify VAT registration numbers
 
 ## Use the VAT Setup assisted setup guide to set up VAT (recommended)
 We recommend that you use the VAT Setup assisted setup guide to set up VAT in Financials. 
 
 To start the assisted setup guide, follow these steps:
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Assisted Setup**, and then choose the related link.  
+1. In the top right corner, choose the **Search for Page or Report** icon, enter **Assisted Setup**.  
 2. Choose **VAT Setup**.
 
 ## Set up VAT business posting groups
-VAT business posting groups should represent the markets in which you do business with customers and vendors. Examples of VAT business posting groups are **Domestic**, or **European Union (EU)**.  
-VAT business posting groups define how to calculate and post VAT according to the type of customer or vendor that is involved in the transaction. For example, the VAT business posting group can describe where the customer or vendor is located.  
+VAT business posting groups should represent the markets in which you do business with customers and vendors, and define how to calculate and post VAT in each market. Examples of VAT business posting groups are **Domestic** and **European Union (EU)**.  
 
 Use codes that are easy to remember and describe the business posting group, such as **EU**, **Non-EU**, or **Domestic**. The code must be unique. You can set up as many codes as you need, but you cannot have the same code more than once in a table.
   
@@ -68,15 +68,11 @@ It's a good idea to use codes that are easy to remember and describe the rate, s
 
 To set up a VAT business posting group, follow these steps:
 
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **VAT Product Posting Group**, and then choose the related link.  
+1. In the top right corner, choose the **Search for Page or Report** icon, enter **VAT Product Posting Groups**, and then choose the related link.  
 2. Fill in the fields as necessary.
 
-<!-- Set up customer/item... -->
-
-## Combine VAT posting setups
-Combining VAT posting setups is useful, for example, when reporting VAT and when reconciling VAT in the general ledger.  
-
-You set up the combinations in the VAT Posting Setup page. For each combination, you can specify the VAT percent, VAT calculation type, and general ledger accounts for posting VAT for sales, purchases, and reverse charges. You can also specify whether to recalculate VAT when a payment discount is applied or received.  
+## Combine VAT posting groups in VAT posting setups
+Financials calculates VAT amounts on sales and purchases based on VAT posting setups, which are combinations of VAT business and product posting groups. For each combination, you can specify the VAT percent, VAT calculation type, and general ledger accounts for posting VAT for sales, purchases, and reverse charges. You can also specify whether to recalculate VAT when a payment discount is applied or received.  
 
 Set up as many combinations as you need. If you want to group VAT posting setup combinations with similar attributes, you can define a **VAT Identifier** for each group, and assign the identifier to the group members.
 
@@ -85,19 +81,18 @@ To combine VAT posting setups, follow these steps:
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **VAT Posting Setup**, and then choose the related link.
 2. Fill in the fields as necessary.
 
-## Assign VAT posting groups
-<!-- Why do you do this? -->
-After you set up VAT posting groups, to start using them you'll need to assign them to general ledger accounts, customers and vendors, and items and resources.
+## Set up Financials to assign VAT posting groups by default to multiple entities
+If you want to apply the same VAT posting groups to multiple entities, you can set up Financials to do so by default. There are a couple of ways to do this:
 
-**Tip**: If you want to apply the same VAT posting groups to multiple entities, you can set up Financials to assign them by default. There are a couple of ways to do this:
 * You can assign VAT business posting groups to general business posting groups, or customer or vendor templates 
 * You can assign VAT product posting groups on general product posting groups  
 
-The VAT business or product posting group is assigned when you choose a business or product posting group for a customer, vendor, item, or resource. 
+The VAT business or product posting group is assigned when you choose a business or product posting group for a customer, vendor, item, or resource.
+## Assign VAT posting groups to individual accounts, customers, vendors, items, and resources
 
 The following sections describe how to assign VAT posting groups to individual entities.
 
-### To assign VAT posting groups to general ledger accounts 
+### To assign VAT posting groups to individual general ledger accounts 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Chart of Accounts**, and then choose the related link.  
 2. Open the **G/L Account** card for the account.
 3. On the **Posting** FastTab, in the **Gen. Posting Type** field, choose either **Sale** or **Purchase**.  
@@ -108,31 +103,12 @@ The following sections describe how to assign VAT posting groups to individual e
 2. On the **Customer** or **Vendor** card, expand the **Invoicing** FastTab.  
 3. Choose the VAT business posting group.  
 
-### To assign VAT product posting groups to items and resources  
+### To assign VAT product posting groups to individual items and resources  
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Item** or **Resource**, and then choose the related link.  
 2. Do one of the following:
 * On the **Item** card, expand the **Price & Posting** FastTab, and then choose **Show more** to display the .  
 * On the **Resource** card, expand the **Invoicing** FastTab.  
 3. Choose the VAT product posting group.
-
-## Use reverse charge VAT for trade between EU countries or regions
-Some companies must use reverse charge VAT when trading with other companies. For example this rule applies to purchases from EU countries/regions and sales to EU countries/regions.
-
-**Note**: This rule applies when trading with companies that are registered as VAT liable in another EU country/region. If you do business directly with consumers in other EU countries/regions, then you should contact your tax authority for applicable VAT rules.  
-
-**Tip**: You can verify that a company is registered as VAT liable in another EU country by using the EU VAT Registration Number Validation service. The service is available for free in Financials. For more information, see the section titled _Verify VAT registration numbers_ in this topic.
-
-### Sales to EU countries or regions
-VAT is not calculated on sales to VAT-liable companies in other EU countries/regions. You must report the value of these sales to EU countries/regions separately on your VAT statement.
-To correctly calculate VAT on sales to EU countries/regions, you should:  
-  
-* Set up a line for sales with the same information for purchases. If you have already set up lines in the VAT Posting Setup window for purchases from EU countries/regions, then you can also use these lines for sales.  
-* Assign the VAT business posting groups in the **VAT Bus. Posting Group** field on the **Invoicing** FastTab of the customer card of each EU customer. You should also enter the customer's VAT registration number in the **VAT Registration No.** field on the **Foreign Trade** FastTab.  
-
-When you post a sale to a customer in another EU country/region, the VAT amount is calculated, and a VAT entry is created by using the information about the reverse charge VAT and the VAT base, which is the amount that is used to calculate the VAT amount. No entries are posted to the VAT accounts in the general ledger.
-
-## Understanding VAT rounding for documents
-Amounts in documents that are not yet posted are rounded and displayed to correspond with the final rounding of amounts that are actually posted. VAT is calculated for a complete document, which means that VAT that is calculated in the document is based on the sum of all lines with the same VAT identifier in the document.
 
 ## Set up clauses to explain the use of non-standard VAT rates
 You set up a VAT clause to describe information about the type of VAT that is being applied. The information may be required by government regulation. After you set up a VAT clause, and associate it with a VAT posting setup, the VAT clause is displayed on printed sales documents that use the VAT posting setup group. 
@@ -157,7 +133,7 @@ If needed, you can also specify how to translate VAT clauses to other languages.
 3. In the **Language Code** field, choose the language you're translating to.  
 4. In the **Description** and **Description 2** fields, enter the translations of the descriptions. This text displays in the translated VAT report documents.  
   
-## Set up codes for Import VAT
+## Create a VAT posting setup to handle Import VAT
 You use the Import VAT feature when you need to post a document where the entire amount is VAT. You'll use this if you receive an invoice from the tax authorities for VAT for imported goods.  
   
 To set up codes for import VAT, follow these steps:  
@@ -169,20 +145,39 @@ To set up codes for import VAT, follow these steps:
 6. In the **Purchase VAT Account** field, enter the general ledger account to use for posting import VAT. All other accounts are optional.  
   
 ## Verify VAT registration numbers
-It's important that the VAT registration numbers you have for customers, vendors, and contacts are valid. For example, companies sometimes change their tax liability status, and in some countries tax authorities might ask you to provide a list of the numbers you use when you do business.  
+It's important that the VAT registration numbers you have for customers, vendors, and contacts are valid. For example, companies sometimes change their tax liability status, and in some countries tax authorities might ask you to provide reports, such as the EC Sales List report, that list the VAT registration numbers you use when you do business.  
   
-The European Commission provides the VIES VAT Number Validation service on its website, which is public and free. However, you still have to go to the website. Financials can save you that step, and let you use the VIES service to validate and track VAT numbers for customers, vendors, and contacts straight from the customer, vendor, and contact cards. The service in Financials is named EU VAT Reg. No. Validation Service. It's available on the **Service Connections** page, and to start using it you just need to select a check box. The service is free, and signup is not required.
+The European Commission provides the VIES VAT Number Validation service on its website, which is public and free. However, there's still the extra step of going to the website. Financials can save you that step, and let you use the VIES service to validate and track VAT numbers for customers, vendors, and contacts straight from the customer, vendor, and contact cards. The service in Financials is named EU VAT Reg. No. Validation Service. It's available on the **Service Connections** page, and you can start using it just by selecting a check box. The service is free, and signup is not required.
 
-When you use our service, we record a history of VAT numbers for each customer, vendor, or contact, in the **VAT Registration Log**, so you can easily track them. The log is specific to each customer. For example, the log is useful for proving that you have verified that the current VAT number is correct. When you verify a VAT number, the **Request Identifier** column in the log will reflect that you've taken action. 
+When you use our service, we record a history of VAT numbers and verifications for each customer, vendor, or contact, in the **VAT Registration Log**, so you can easily track them. The log is specific to each customer. For example, the log is useful for proving that you have verified that the current VAT number is correct. When you verify a VAT number, the **Request Identifier** column in the log will reflect that you've taken action. 
 
 To view the VAT Registration log, on the customer, vendor, or contact cards, on the **Invoicing** FastTab, choose the look up button in the **VAT Registration No.** field.   
 
-Our service can also save you a little time when you're creating a customer in Financials. If you know the customer's VAT number, you can enter that in the VAT registration number field on the Customer card, and we'll fill out the customer name for you. If the customer address is available, we'll 
+Our service can also save you a little time when you're creating a customer or vendor in Financials. If you know the customer's VAT number, you can enter that in the VAT registration number field on the Customer card, and we'll fill out the customer name for you. Some countries also provide company addresses in a structured format. In those countries, we'll fill in the customer address too. 
 
 **Notes**: There are a couple of things to note about the VIES VAT Number Validation service:
 
 * The service uses the http protocol, which means that data transferred through the service is not encrypted.
 * You may experience downtime for this service for which Microsoft is not responsible. The service is part of a broad EU network of national VAT registers.
 
+## Use reverse charge VAT for trade between EU countries or regions
+Some companies must use reverse charge VAT when trading with other companies. For example this rule applies to purchases from EU countries/regions and sales to EU countries/regions.
+
+**Note**: This rule applies when trading with companies that are registered as VAT liable in another EU country/region. If you do business directly with consumers in other EU countries/regions, then you should contact your tax authority for applicable VAT rules.  
+
+**Tip**: You can verify that a company is registered as VAT liable in another EU country by using the EU VAT Registration Number Validation service. The service is available for free in Financials. For more information, see the section titled _Verify VAT registration numbers_ in this topic.
+
+### Sales to EU countries or regions
+VAT is not calculated on sales to VAT-liable companies in other EU countries/regions. You must report the value of these sales to EU countries/regions separately on your VAT statement.
+To correctly calculate VAT on sales to EU countries/regions, you should:  
+  
+* Set up a line for sales with the same information for purchases. If you have already set up lines in the VAT Posting Setup window for purchases from EU countries/regions, then you can also use these lines for sales.  
+* Assign the VAT business posting groups in the **VAT Bus. Posting Group** field on the **Invoicing** FastTab of the customer card of each EU customer. You should also enter the customer's VAT registration number in the **VAT Registration No.** field on the **Foreign Trade** FastTab.  
+
+When you post a sale to a customer in another EU country/region, the VAT amount is calculated, and a VAT entry is created by using the information about the reverse charge VAT and the VAT base, which is the amount that is used to calculate the VAT amount. No entries are posted to the VAT accounts in the general ledger.
+
+## Understanding VAT rounding for documents
+Amounts in documents that are not yet posted are rounded and displayed to correspond with the final rounding of amounts that are actually posted. VAT is calculated for a complete document, which means that VAT that is calculated in the document is based on the sum of all lines with the same VAT identifier in the document.
 
 ##See Also  
+[Setting Up Unrealized Value Added Tax](finance-setup-unrealized-vat.md)

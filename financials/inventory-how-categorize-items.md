@@ -1,6 +1,6 @@
 ---
 title: 'How to: Categorize Items| Microsoft Docs'
-description: Descibes how to organize items in categories.
+description: Describes how to organize items in categories.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: category, search, attribute, facet
-ms.date: 03/28/2017
+ms.date: 04/20/2017
 ms.author: sgroespe
 
 ---
@@ -33,7 +33,7 @@ To find items by characteristics, you can assign item attributes to items and al
 ## To assign an item category to an item
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Items**, and then choose the related link.
 2. Open the card for the item that you want to assign to an item category.
-3. Choose the AssistEdit button in the **Item Category Code** field and select an existing item category. Alternatively, choose the **New** action to first create a new item category as explained in the "To create an item category" section.
+3. Choose the lookup button in the **Item Category Code** field and select an existing item category. Alternatively, choose the **New** action to first create a new item category as explained in the "To create an item category" section.
 
 ## See Also
 [How to: Work with Item Attributes](inventory-how-work-item-attributes.md)  

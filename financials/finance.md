@@ -26,6 +26,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | --- | --- |
 | Apply incoming payments, reconcile bank accounts during payment application, and collect outstanding balances. |[Managing Receivables](receivables-manage-receivables.md) |
 | Make payments, apply outgoing payments, and work with checks. |[Managing Payables](payables-manage-payables.md) |
+| Assign extra costs, such as freight and physical handling that you incur during trade, to the involved items so that the cost is reflected in inventory valuation. |[How to: Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md) |
 | Reconcile bank accounts and transfer funds between bank accounts. |[Managing Bank Accounts](bank-manage-bank-accounts.md) |
 | Understand the general ledger and the chart of accounts. |[The General Ledger and the Chart of Accounts](finance-general-ledger.md) |
 | Add dimensions for richer business intelligence. |[Dimensions](finance-dimensions.md) |

@@ -75,6 +75,7 @@
 ### [Make Payments](payables-make-payments.md)
 ### [Apply Payments Automatically and Reconcile Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ### [How to: How to: Reconcile Vendor Payments Manually](payables-how-apply-purchase-transactions-manually.md)
+## [How to: Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)
 ## [Managing Bank Accounts](bank-manage-bank-accounts.md)
 ### [Applying Payments Automatically and Reconcile Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ### [How to: Reconcile Bank Accounts Separately](bank-how-reconcile-bank-accounts-separately.md)  

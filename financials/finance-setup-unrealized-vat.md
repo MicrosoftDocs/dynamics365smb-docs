@@ -6,7 +6,7 @@ documentationcenter: ''
 author: bholtorf
 
 ms.service: dynamics365-financials
-ms.topic: get-started-article
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -17,7 +17,7 @@ ms.author: bholtorf
 ---
 
 # Set Up Unrealized VAT for Cash-Based Accounting
-If you're using the cash-based accounting methods, you can set up [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] to handle unrealized VAT.
+If you're using cash-based accounting methods, you can set up [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] to handle unrealized VAT.
 
 ## Use general ledger accounts for unrealized VAT
 You can choose to have VAT amounts calculated and posted to a temporary general ledger account when an invoice is posted, and then posted to the correct general ledger account and included in VAT statements when the actual payment of the invoice is posted. Before you can do this, you must complete the VAT posting setup.

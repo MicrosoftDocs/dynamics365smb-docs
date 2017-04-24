@@ -6,7 +6,7 @@ documentationcenter: ''
 author: bholtorf
 
 ms.service: dynamics365-financials
-ms.topic: get-started-article
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -151,16 +151,16 @@ The European Commission provides the VIES VAT Number Validation service on its w
 
 When you use our service, we record a history of VAT numbers and verifications for each customer, vendor, or contact, in the **VAT Registration Log**, so you can easily track them. The log is specific to each customer. For example, the log is useful for proving that you have verified that the current VAT number is correct. When you verify a VAT number, the **Request Identifier** column in the log will reflect that you've taken action. 
 
-To view the VAT Registration log, on the customer, vendor, or contact cards, on the **Invoicing** FastTab, choose the look up button in the **VAT Registration No.** field.   
+You can view the VAT Registration log on the Customer, Vendor, or Contact cards, on the **Invoicing** FastTab, by choosing the lookup button in the **VAT Registration No.** field.  
 
-Our service can also save you a little time when you're creating a customer or vendor in [!INCLUDE[d365fin](includes/d365fin_md.md)]. If you know the customer's VAT number, you can enter that in the VAT registration number field on the Customer card, and we'll fill out the customer name for you. Some countries also provide company addresses in a structured format. In those countries, we'll fill in the customer address too. 
+Our service can also save you a little time when you're creating a customer or vendor. If you know the customer's VAT number, you can enter it in the **VAT Registration No.** field on the Customer or Vendor cards, and we'll fill out the customer name for you. Some countries also provide company addresses in a structured format. In those countries, we'll fill in the address too.  
 
 **Notes**: There are a couple of things to note about the VIES VAT Number Validation service:
 
 * The service uses the http protocol, which means that data transferred through the service is not encrypted.
 * You may experience downtime for this service for which Microsoft is not responsible. The service is part of a broad EU network of national VAT registers.
 
-## Use reverse charge VAT for trade between EU countries or regions
+## Using reverse charge VAT for trade between EU countries or regions
 Some companies must use reverse charge VAT when trading with other companies. For example this rule applies to purchases from EU countries/regions and sales to EU countries/regions.
 
 **Note**: This rule applies when trading with companies that are registered as VAT liable in another EU country/region. If you do business directly with consumers in other EU countries/regions, then you should contact your tax authority for applicable VAT rules.  
@@ -179,5 +179,5 @@ When you post a sale to a customer in another EU country/region, the VAT amount 
 ## Understanding VAT rounding for documents
 Amounts in documents that are not yet posted are rounded and displayed to correspond with the final rounding of amounts that are actually posted. VAT is calculated for a complete document, which means that VAT that is calculated in the document is based on the sum of all lines with the same VAT identifier in the document.
 
-##See Also  
+## See Also  
 [Setting Up Unrealized Value Added Tax](finance-setup-unrealized-vat.md)

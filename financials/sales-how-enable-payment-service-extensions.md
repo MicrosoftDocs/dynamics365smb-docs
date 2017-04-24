@@ -15,12 +15,12 @@ ms.date: 03/29/2017
 ms.author: sgroespe
 
 ---
-# How to: Enable Customer Payments Through PayPal
-As an alternative to collecting payments through bank transfer or credit cards, you can offer your customers to pay you through their account with payment services, such as PayPal.
+# How to: Enable Customer Payments Through Payment Services
+As an alternative to collecting payments through bank transfer or credit cards, you can offer your customers to pay you through their account with payment services, such as PayPal or WorldPay.
 
 After you enable a payment service in [!INCLUDE[d365fin](includes/d365fin_md.md)], a link to the service is available on sales documents that you send by email to your customers. Customers can use the link to go to the payment service and pay the bill, directly from the sales document. If you don't want to include the link, for example, if a customer will pay with cash, you can remove the payment service from the invoice before posting.
 
-The PayPal Payments Standard is installed as an extension to [!INCLUDE[d365fin](includes/d365fin_md.md)] and is ready to be enabled. For more information, see [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md).
+The PayPal Payments Standard and WorldPay Payments Standard extensions are installed in [!INCLUDE[d365fin](includes/d365fin_md.md)], and are ready for you to enable.  
 
 ## To enable a payment service in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Payment Services**, and then choose the related link.  

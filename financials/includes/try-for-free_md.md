@@ -1,1 +1,1 @@
-Not yet using Dynamics 365 for Financials? You can try it for free! [Click here]()
+Not yet using Dynamics 365 for Financials? You can try it for free! [Get started](https://portal.office.com/signup?sku=6a4a1628-9b9a-424d-bed5-4118f0ede3fd&ru=https%3A%2F%2Fportal.financials.dynamics.com%2F%3FredirectedFromSignup%3D1)

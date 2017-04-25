@@ -1,0 +1,1 @@
+Not yet using Dynamics 365 for Financials? You can try it for free! [Click here]()

@@ -59,3 +59,5 @@ Microsoft provides the following extensions:
 [Migrate Business Data from Other Finance Systems](upload-data.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] Extensions by Other Providers](ui-extensions-other.md)  
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]

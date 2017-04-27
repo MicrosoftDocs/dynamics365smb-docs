@@ -109,7 +109,7 @@
 ## [How to: Record Purchases](purchasing-how-record-purchases.md)
 ## [How to: Purchase Products for a Sale](purchasing-how-purchase-products-sale.md)
 ## [How to: Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)
-## [How to: Process Purchase Returns or Cancellations](purchasing-how-register-new-vendors.md)
+## [How to: Process Purchase Returns or Cancellations](purchasing-how-process-purchase-returns-cancellations.md)
 ## [How to: Register New Vendors](purchasing-how-register-new-vendors.md)
 
 # [Inventory](inventory-manage-inventory.md)

@@ -1,0 +1,1 @@
+Sign up for a free trial. Just go to [Get started](https://go.microsoft.com/fwlink/?linkid=847861).

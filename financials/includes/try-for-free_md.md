@@ -1,1 +1,0 @@
-Not yet using Dynamics 365 for Financials? It's easy to sign up for a free trial! Just go to [Get started](https://go.microsoft.com/fwlink/?linkid=847861).

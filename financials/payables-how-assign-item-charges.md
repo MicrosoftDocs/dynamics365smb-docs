@@ -16,7 +16,7 @@ ms.author: sgroespe
 
 ---
 # How to: Use Item Charges to Account for Additional Trade Costs
-Your inventory items should carry added costs, such as freight, physical handling, insurance, and transportation that you incur when purchasing or selling the items. For purchases, the landed cost of a purchased item consists of the vendor's purchase price and all additional direct item charges that can be assigned to individual receipts or return shipments. For sales, knowing the cost of shipping sold items can be as vital to your company as knowing the landed cost of purchased items.
+Your inventory items may should carry any added costs, such as freight, physical handling, insurance, and transportation that you incur when purchasing or selling the items. For purchases, the landed cost of a purchased item consists of the vendor's purchase price and all additional direct item charges that can be assigned to individual receipts or return shipments. For sales, knowing the cost of shipping sold items can be as vital to your company as knowing the landed cost of purchased items.
 
 In addition to recording the added cost in you inventory value, you can use the Item Charges feature for the following:
 
@@ -30,7 +30,7 @@ For both purchase and sales documents, you can assign an item charge in two ways
 - On the document where the items that the item charge relates to are listed. This you typically do for documents that are not yet fully posted.
 - On a separate invoice by linking the item charge to a posted receipt or shipment where the items that the item charge relate to are listed.
 
-**Note**: You can assign item charges to quotes, orders, invoices, and credit memos, for both sales and purchases. The following procedures describe how to work with item charges for a purchase invoice. The steps are similar for all other purchase and sales documents.
+**Note**: You can assign item charges to orders, invoices, and credit memos, for both sales and purchases. The following procedures describe how to work with item charges for a purchase invoice. The steps are similar for all other purchase and sales documents.
 
 ## To set up item charge numbers
 You use item charge numbers to distinguish between the different kinds of item charges that are used in your company.

@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize 
-ms.date: 04/27/2017
+ms.date: 03/29/2017
 ms.author: edupont
 
 ---
@@ -42,5 +42,3 @@ Some functionality, either general or for specific business processes, can be se
 [Purchasing](purchasing-manage-purchasing.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Welcome to [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
-
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]

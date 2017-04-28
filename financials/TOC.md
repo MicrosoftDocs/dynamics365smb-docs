@@ -60,10 +60,10 @@
 ### [How to: Set Up Fixed Asset Insurance](fa-how-setup-insurance.md)
 ### [How to: Set Up Fixed Asset Maintenance](fa-how-setup-maintenance.md)
 ### [Depreciation Methods](fa-depreciation-methods.md)
-## [Setting Up Workflows](across-setup-workflows.md)
 ## [How to: Set up Email](madeira-how-setup-email.md)
 ## [How to: Create Number Series](ui-create-number-series.md)
 ## [How to: Set Up Extended Item Text](ui-how-define-ext-text.md)
+## [Setting Up Value Added Tax](finance-setup-vat.md)
 
 # [Finance](finance.md)
 ## [Managing Receivables](receivables-manage-receivables.md)

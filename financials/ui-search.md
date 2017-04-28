@@ -16,7 +16,7 @@ ms.author: jswymer
 
 ---
 # Searching for a Page or Report
-You can find pages and reports by choosing the search icon in the top right corner of the address bar. Look for this icon:
+You can find pages and reports by choosing the **Search for Page or Report** icon in the top right corner of the address bar. Look for this icon:
 
 ![Search for Page or Report](media/ui-search/search.png "Search for Page or Report")
 

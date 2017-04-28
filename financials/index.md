@@ -11,8 +11,8 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 04/27/2017
-ms.author: jswymer
+ms.date: 03/28/2017
+ms.author: solsen
 
 ---
 # Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -33,7 +33,7 @@ For more information, see [Working With [!INCLUDE[d365fin](includes/d365fin_md.m
 When you're ready to do some heavier lifting, and want to look at some of the business processes that [!INCLUDE[d365fin](includes/d365fin_md.md)] supports, see [Business Functionality](madeira-business-functionality.md). For an overview of current capabilities and what is coming, take a look at our roadmap at [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
 
 ## The Home pages
-Home pages use a role-centric design to give you fast access to the business process and intelligence tools that you need to do your job. For example, an accountant can monitor payments and approvals, and view finance performance charts. Check out the various Home pages by choosing the **Settings** icon ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") in the top right corner,  choosing **My Settings**, and then the Role Center to explore. Sign in again to apply the change. For more information, see [Changing the Role Center](change-role.md).  
+Home pages use a role-centric design to give you fast access to the business process and intelligence tools that you need to do your job. For example, an accountant can monitor payments and approvals, and view finance performance charts. Check out the various Home pages by choosing **My Settings** in the top right corner, and then the Role Center to explore. Sign in again to apply the change. For more information, see [Changing the Role Center](change-role.md).  
 
 Each Home page provides a **Setup and Extensions** button. Here you have access to a list of assisted setup that can help you get started by setting selected areas up quickly. If an area is not covered by an assisted setup, choose the **Manual Setup** action to access setup windows where you can fill in setup fields for all areas manually. For more information, see also [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
@@ -75,5 +75,3 @@ Each time you sign in during the trial period, a notification in a blue bar at t
 [Microsoft Dynamics 365 documentation](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  
 [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
 [Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=828707)  
-
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]

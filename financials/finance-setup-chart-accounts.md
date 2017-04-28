@@ -37,5 +37,3 @@ From the chart of accounts, you can open each G/L account and add or change sett
 [Importing from Other Finance Systems](upload-data.md)  
 [How to: Work With GIFI Codes in Canada](ca-finance-work-gifi-codes.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]

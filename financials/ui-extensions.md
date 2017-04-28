@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
-ms.date: 04/24/2017
+ms.date: 04/11/2017
 ms.author: edupont
 
 ---
@@ -50,7 +50,6 @@ Microsoft provides the following extensions:
 * [Sales and Inventory Forecast](ui-extensions-sales-forecast.md)  
 * [Ceridian Payroll](ui-extensions-ceridian-payroll.md)  
 * [Quickbooks Payroll File Import](ui-extensions-quickbooks-payroll.md)  
-* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 * [GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)
 
 ## See Also
@@ -60,5 +59,3 @@ Microsoft provides the following extensions:
 [Set up the GetAddress.io UK Postal Code extension](uk-setup-postal-code-service.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] Extensions by Other Providers](ui-extensions-other.md)  
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]

@@ -4,7 +4,6 @@ description: 'Describes how to install and configure the postal code service to 
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
-
 ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na

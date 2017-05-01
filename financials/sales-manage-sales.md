@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 03/29/2017
+ms.date: 04/27/2017
 ms.author: sgroespe
 
 ---
@@ -54,3 +54,5 @@ The following table describes a sequence of tasks, with links to the topics that
 [Supply Chain](madeira-supply-chain.md)      
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]

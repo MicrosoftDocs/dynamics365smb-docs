@@ -21,7 +21,7 @@ ms.author: sgroespe
 First, you must prioritize your vendors by assigning numbers to them.
 
 ## To prioritize vendors
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Vendors**, and then choose the related link.
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Vendors**, and then choose the related link.
 2. Select the relevant vendor, and then choose **Edit**.
 3. In the **Priority** field, enter a number.
 

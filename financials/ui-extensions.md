@@ -15,7 +15,7 @@ ms.date: 03/29/2017
 ms.author: edupont
 
 ---
-# Customizing [!INCLUDE[d365fin](includes/d365fin_long_md.md)] Using Extensions
+# Customizing Dynamics 365 for Financials Using Extensions
 You can change [!INCLUDE[d365fin](includes/d365fin_md.md)] by installing extensions that add functionality, changes behavior, or gives you access to new online services, for example.
 When you first launch [!INCLUDE[d365fin](includes/d365fin_md.md)], some extensions are already installed for you. Over time, more extensions will be made available to you, and you can then choose if you want to use the extension or not.
 

@@ -1,7 +1,6 @@
 ---
 title: Using Dynamics 365 for Financials without Outlook | Microsoft Docs
 description: Using Dynamics 365 for Financials without Outlook
-services: project-madeira
 documentationcenter: ''
 author: edupont04
 

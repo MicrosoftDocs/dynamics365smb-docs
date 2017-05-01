@@ -15,7 +15,7 @@ ms.date: 12/02/2016
 ms.author: edupont
 
 ---
-# Using [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] as a PowerApps Data Source
+# Using Dynamics 365 for Financials as a PowerApps Data Source
 You can make your [!INCLUDE[d365fin](includes/d365fin_md.md)] data available as a data source in PowerApps.  
 
 **Note**: You must have a valid account with [!INCLUDE[d365fin](includes/d365fin_md.md)] and with PowerApps.  

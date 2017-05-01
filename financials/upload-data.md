@@ -2,6 +2,7 @@
 title: Import your legacy business data into Financials | Microsoft Docs
 description: Describes how you can import your own data into Dynamics 365 for Financials.
 author: edupont04
+
 ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na

@@ -15,7 +15,7 @@ ms.date: 02/02/2017
 ms.author: edupont
 
 ---
-# Using Power BI Reports in your List Views in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# Using Power BI Reports in your List Views in Dynamics 365 for Financials
 [!INCLUDE[d365fin](includes/d365fin_md.md)] includes a FactBox control element on a number of key list pages that provides additional insight into the data in the list. As you move between rows in the list, the report is updated and filtered for the selected entry. You can create custom reports to display in this control, but there are a few rules to follow when creating the reports to ensure they provide the desired behavior.  
 
 **Note**: You must have a valid account with [!INCLUDE[d365fin](includes/d365fin_md.md)] and with Power BI. Also, you must download [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). For more information, see [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md).  

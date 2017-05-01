@@ -21,7 +21,7 @@ ms.author: jswymer
 Use posting periods to specify when users can post to the general ledger.  
 
 ## To specify posting periods
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **General Ledger Setup**, and then choose the related link.  
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **General Ledger Setup**, and then choose the related link.  
 2. In the **General Ledger Setup** window, define the period by entering dates in the **Allow Posting From** and **Allow Posting To** fields.  
 
 **Note**: These posting periods apply to the company and to all users. To allow for exceptions, you can define different posting periods for specific users in the **User Setup** window. These posting periods overrule those specified in the **General Ledger Setup** window.  

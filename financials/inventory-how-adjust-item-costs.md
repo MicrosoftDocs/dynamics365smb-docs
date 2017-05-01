@@ -29,7 +29,7 @@ The cost adjustment function processes only value entries that have not yet been
 Changes in inventory value from trade are automatically reconciled with your financial books when you post item transactions. For more information, see [Advanced: Inventory Reconciliation](advanced-inventory-reconciliation.md).
 
 ## To adjust item costs manually
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Adjust Cost - Item Entries**, and then choose the related link.
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Adjust Cost - Item Entries**, and then choose the related link.
 2. In the **Adjust Cost - Item Entries** window, specify which items to adjust costs for.
 3. Choose the **OK** button.
 

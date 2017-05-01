@@ -29,7 +29,7 @@ Before you can use time sheets, you must set up general information and specify 
 ## To create a time sheet
 You can use the **Create Time Sheets** batch job to set up time sheets for a specified number of time periods or weeks. Then, the time sheet owner can open it and record time that has been spent on a task.
 
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Time Sheets**, and then choose the related link.
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Time Sheets**, and then choose the related link.
 2. In the **Time Sheet List** window, choose the **Create Time Sheets** action.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -42,14 +42,14 @@ You can view the time sheets that you have created in the **Time Sheet list** wi
 ## To copy job planning lines to a time sheet
 The following procedure describes how to quickly add job planning lines to a time sheet.
 
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Time Sheets**, and then choose the related link.  
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Time Sheets**, and then choose the related link.  
 2. In the **Time Sheet List** window, select a time sheet for the relevant time period, and then choose the **Edit Time Sheet** action.  
 3. Choose the **Create lines from job planning** action. Any job planning lines in the time sheet time period are copied to the time sheet for the person or machine in the **Resource No.** field on the time sheet.
 
 ## To define work types and add one to a time sheet
 You can define the work type for all time sheet lines for jobs. In this way, you can add information that you need to bill the customer for different types of work.
 
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Time Sheets**, and then choose the related link.   
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Time Sheets**, and then choose the related link.   
 2. Open the relevant time sheet.
 3. Choose the **Description** field.  
 4. In the **Time Sheet Line Job Detail** window, choose the **Work Type Code** field, and select a work type from the list, such as **Miles**.  
@@ -60,7 +60,7 @@ You can define the work type for all time sheet lines for jobs. In this way, you
 ## To reuse time sheet lines in other time sheets
 If your time sheet information remains the same from time period to time period, you can save time by copying the lines from the previous time period. Then, you just enter your time usage for the new period.
 
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Time Sheets**, and then choose the related link.  
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Time Sheets**, and then choose the related link.  
 2. Open the time sheet for a period later than the period for an existing time sheet with lines.  
 3. Choose the **Copy Lines from Previous Time Sheet** action.
 
@@ -69,7 +69,7 @@ The lines are copied, including details such as type and description. For exampl
 ## To fill in a time sheet lines and submit for approval
 Time sheet registration is tracked in hours, the standard base unit of measure for resources. By default, a time sheet shows the common work days of Monday through Friday.
 
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Time Sheets**, and then choose the related link.  
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Time Sheets**, and then choose the related link.  
 2. Select a time sheet for the relevant time period, and then choose the **Edit Time Sheet** action.  
 3. Fill in the fields on a line as necessary. Enter the number of hours used by the resource on each day of the week.
 
@@ -89,7 +89,7 @@ A time sheet must be submitted for approval before it can be used. You can appro
 * A time sheet administrator can approve any time sheet.
 * The person who is specified in the **Time Sheet Approver User ID** field on a resource card can approve that resource's time sheets. For more information, see [How to: Set Up Time Sheets](projects-how-setup-time-sheets.md).
 
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Manager Time Sheets**, and then choose the related link.
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Manager Time Sheets**, and then choose the related link.
 2. Select a time sheet from the list.  
 3. In the **Time Sheet** window, choose the **Approve** action, and then choose the **All submitted lines** action to approve all lines or the **Selected lines only** action to approve only the lines that are selected in the **Time Sheet** window.
 4. Choose the **OK** button.  
@@ -100,7 +100,7 @@ A time sheet must be submitted for approval before it can be used. You can appro
 After you have approved or rejected a time sheet, it cannot be modified unless it is first reopened. The following procedure explains how to reopen an approved or rejected time sheet.
 
 ## To reopen a time sheet
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Manager Time Sheets** or **Time Sheets**, and then choose the related link.
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Manager Time Sheets** or **Time Sheets**, and then choose the related link.
 2. Open a time sheet from the list.  
 
     **Note**: You can only reopen lines that have the status **Approved**. You cannot reopen lines that have the status **Rejected**. You cannot reopen a time sheet if it has been posted.  
@@ -110,7 +110,7 @@ After you have approved or rejected a time sheet, it cannot be modified unless i
 ## To post time sheet lines in a resource journal
 After you have approved time sheet entries for a resource, you can post them to the relevant resource journal.
 
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Resource Journal**, and then choose the related link.  
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Resource Journal**, and then choose the related link.  
 2. Choose the **Suggest Lines from Time Sheets** action.  
 3. Fill in the fields as necessary.  
 4. Choose the **OK** button. Entries for usage are created in the resource journal, where you can modify the information as needed.  
@@ -120,7 +120,7 @@ After you have approved time sheet entries for a resource, you can post them to 
 ## To post time sheet lines in a job journal
 After you have approved time sheet entries for a job, you can post them to the relevant job journal.
 
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Job Journal**, and then choose the related link.  
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Job Journal**, and then choose the related link.  
 2. Choose the **Suggest Lines from Time Sheets** action.  
 3. Fill in the fields as necessary.  
 4. Choose the **OK** button. Entries for usage are created in the job journal, where you can modify the information as needed.  
@@ -134,9 +134,9 @@ After you have posted time sheets, you can archive them for future reference. Al
 
 **Note**: When you archive a time sheet, it is removed from the lists in both the **Time Sheets** window and the **Manager Time Sheets** window.
 
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Move Time Sheets to Archive**, and then choose the related link.  
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Move Time Sheets to Archive**, and then choose the related link.  
 2. Fill in the fields as necessary, and then choose the **OK** button.  
-3. To review archived time sheets, in the top right corner, choose the **Search for Page or Report** icon, enter **Time Sheet Archives** or **Manager Time Sheet Archives**, and then choose the related link.
+3. To review archived time sheets, in the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Time Sheet Archives** or **Manager Time Sheet Archives**, and then choose the related link.
 
 ## See Also
 [Project Management](projects-manage-projects.md)  

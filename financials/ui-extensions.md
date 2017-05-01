@@ -22,7 +22,7 @@ When you first launch [!INCLUDE[d365fin](includes/d365fin_md.md)], some extensio
 For example, Microsoft provides an extension that provides integration with PayPal Payments Standard. This extension is installed by default.
 But if another extension is made available that offers integration with another payment service, you can install the new extension and then choose which of the two services to use.  
 
-You manage the extensions in the **Extension Management** window. You can access this window from Home. Alternatively, choose the **Search for Page or Report** icon in the top right corner, enter **Extension**, and then choose the related link.  
+You manage the extensions in the **Extension Management** window. You can access this window from Home. Alternatively, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") in the top right corner, enter **Extension**, and then choose the related link.  
 
 **Note**: If you think you should have access to an extension but you cannot find its functionality, check the **Extension Management** window - if the extension is not listed there, you can install it as described in the following section.  
 

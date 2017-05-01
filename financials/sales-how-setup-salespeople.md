@@ -21,7 +21,7 @@ Many companies want to follow an individual employee's performance as a basis fo
 When yo have set up a salesperson in the **Salespeople** window, you can select it in the **Salesperson Code** field on all relevant records, such as G/L account, customer, vendor, contacts, and campaign cards. Then, when you post or set up invoices, credit memos, journal lines, finance charge activities, and so on, the salesperson code is carried to the resulting ledger entries.
 
 ## To set up a salesperson code
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Salespeople**, and then choose the related link.
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Salespeople**, and then choose the related link.
 2. In the **Salespeople** window, choose the **New** action.
 
 ## See Also

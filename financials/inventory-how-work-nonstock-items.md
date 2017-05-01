@@ -27,25 +27,25 @@ A nonstock item typically has the item number of the vendor who supplies it. To 
 ## To create a nonstock item
 Nonstock item cards have much less information than normal item cards because you only use them to offer on quotes and in other ways. For that reason, they must be converted to normal item cards before you can post sales transactions for them.
 
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Nonstock Items**, and then choose the related link.
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Nonstock Items**, and then choose the related link.
 2. Choose the **New** action.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## To set up how nonstock item numbers are converted to your own numbering
 To enable conversion of a nonstock item card to a normal item card, you must first set up how the vendor's item numbering is converted to your own item number format.
 
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Nonstock Item Setup**, and then choose the related link.
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Nonstock Item Setup**, and then choose the related link.
 2. Fill in the fields as necessary.
 
 ## To convert a nonstock item to a normal item
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Nonstock Items**, and then choose the related link.
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Nonstock Items**, and then choose the related link.
 2. Open the card for a nonstock item that you want to convert to a normal item.
 3. In the **Nonstock Item Card** window, choose the **Create Item** action.
 
 A new item card prefilled with information from the nonstock item and a relevant item template is created. You can then fill or edit fields on the new item card as necessary. For more information, see [How to: Register New Items](inventory-how-register-new-items.md).
 
 ## To sell a nonstock item, and convert it to a normal item
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Sales Orders**, and then choose the related link.
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Sales Orders**, and then choose the related link.
 2. Choose the **New** action. Fill in the fields on the **General** FastTab as for any sales order. For more information, see [How to: Sell Products](sales-how-sell-products.md).
 3. On a new sales line, in the **Type** field, select **Item**, but leave the **No.** field empty.
 4. Choose the **Line** action, and then choose the **Select Nonstock Items** action.

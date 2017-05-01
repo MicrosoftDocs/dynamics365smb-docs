@@ -15,7 +15,7 @@ ms.date: 03/28/2017
 ms.author: edupont
 
 ---
-# Minimum Requirements for Using [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# Minimum Requirements for Using Dynamics 365 for Financials
 Before you access [!INCLUDE[d365fin](includes/d365fin_md.md)], we recommend that you verify that your computer or mobile device meets or exceeds the minimum system requirements for the product. This article lists the requirements.  
 
 ## Browsers

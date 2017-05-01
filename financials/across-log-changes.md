@@ -1,7 +1,6 @@
 ---
 title: Logging Changes in Dynamics 365 for Financials | Microsoft Docs
 description: Log changes made by users.
-services: project-madeira
 documentationcenter: ''
 author: edupont04
 
@@ -15,7 +14,7 @@ ms.date: 03/04/2017
 ms.author: edupont
 
 ---
-# Logging Changes in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# Logging Changes in Dynamics 365 for Financials
 You can enable the change log in [!INCLUDE[d365fin](includes/d365fin_md.md)] so you have a history of activities. The log is based on changes that are made to data in the tables that you track. In the change log, entries are chronologically ordered and show changes that are made to the fields on the specified tables. The change log collects all changes that are made to the table.  
 
 ## Working with the change log

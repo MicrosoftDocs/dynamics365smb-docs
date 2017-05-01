@@ -21,7 +21,7 @@ Before you can start using sales opportunities, you must set up sales cycles and
 Implementing opportunity sales cycles involves setting up the sales cycle code, defining the different stages of the cycle, and then assigning the cycle to opportunities.
 
 ## To set up an opportunity sales cycle code
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Sales Cycles**, and then choose the related link. The **Sales Cycles** window opens, and lists all the existing sales cycles.
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Sales Cycles**, and then choose the related link. The **Sales Cycles** window opens, and lists all the existing sales cycles.
 2. Choose the **New** action, and fill in the fields.
 
 Repeat these steps to set up as many sales cycles as you want. After you have set up opportunity sales cycles, you may want to set up the different stages within each cycle.

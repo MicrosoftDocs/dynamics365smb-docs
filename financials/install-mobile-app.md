@@ -1,6 +1,6 @@
 ---
-title: Getting Dynamics 365 for Financials on Your Mobile Device | Microsoft Docs
-description: Get the app for your mobile device
+title: 'Getting Dynamics 365 for Financials on Your Mobile Device| Microsoft Docs'
+description: 'Get the app for your mobile device.'
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 

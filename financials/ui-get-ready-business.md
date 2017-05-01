@@ -1,7 +1,6 @@
 ---
 title: Welcome | Microsoft Docs
 description: Get ready for doing business.
-services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 

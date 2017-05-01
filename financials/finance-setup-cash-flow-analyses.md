@@ -80,7 +80,7 @@ You can also create your own predictive web service based on a public model name
 3. Use your Microsoft account to sign up for a workspace, and then copy the model.  
 4. Run the model, and publish it as a web service.  
 5. Make a note of the API URL and API key. You will use these credentials for a cash flow setup.  
-6. In the top right corner, choose the **Search for Page or Report** icon, enter **Cash Flow Setup**, and then choose the related link.  
+6. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Cash Flow Setup**, and then choose the related link.  
 7. Expand the **Cortana Intelligence** FastTab, and then fill in the fields.  
 
 ## See Also

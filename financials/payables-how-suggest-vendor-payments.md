@@ -29,7 +29,7 @@ Vendor entries that are not **On Hold** are not included.
 * Open vendor entries that qualify for payment discounts, arranged by vendor number.  
 
 ## To use the Suggest Vendor Payments function
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Payment Journals**, and then choose the related link.  
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Payment Journals**, and then choose the related link.  
 2. Open the relevant journal, and then choose the **Suggest Vendor Payments** action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Choose the **OK** button.  

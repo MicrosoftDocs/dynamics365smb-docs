@@ -31,7 +31,7 @@ The layer structure enables you to divide the job into smaller tasks, and theref
 ## To create a job card
 You create a job card and then create job task lines and job planning lines for it.
 
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Jobs**, and then choose the related link.  
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Jobs**, and then choose the related link.  
 2. Choose the **New** action, and then fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. To specify the job with information on other jobs, choose the **Copy Job** action, fill in the fields as necessary, and then choose the **OK** button.
 
@@ -40,7 +40,7 @@ You create a job card and then create job task lines and job planning lines for 
 ## To create tasks for a job
 A key part of creating a job is to specify the various tasks involved in the job. You do this by adding new lines on the **Tasks** FastTab in the **Job Card** window, one task per line. Every job must have at least one task.
 
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Jobs**, and then choose the related link.
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Jobs**, and then choose the related link.
 2. Open the job card for a relevant job.
 3. On the **Tasks** FastTab, fill in the fields as necessary on a new line.
 4. To indent tasks and create a hierarchy, Choose the **Tasks** action, the then choose **Indent Job Tasks** action.
@@ -60,7 +60,7 @@ A job planning line can have one of the following types.
 
 **Note**. As you enter information on job planning lines, cost information is automatically filled in. For example, the cost, price, and discount for resources and items are initially based on the information that is defined on the resource and item cards.
 
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Jobs**, and then choose the related link.
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Jobs**, and then choose the related link.
 2. Open a relevant job card.
 3. Select a job task for which the **Job Task Type** field contains **Posting**, and then choose the **Job Planning Lines** action.  
 4. In the **Job Planning Lines** window, on a new line, fill in the fields as necessary.

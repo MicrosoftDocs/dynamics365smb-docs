@@ -21,7 +21,7 @@ You can create a contact card for each contact who works for the companies you i
 **Tip**: Before creating a contact, you may want to check the **Inheritance** settings in the **Marketing Setup** window. Setting up inheritance enables information about contact companies that is common to contact persons, such as address details, to be automatically copied from the contact company to the contact person each time you create a contact person for a recorded contact company.
 
 ## To create a contact card for a person
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Contacts**, and then choose the related link.
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Contacts**, and then choose the related link.
 2. Choose the **New** action.
 3. In the **No.** field, enter a number for the contact.
 

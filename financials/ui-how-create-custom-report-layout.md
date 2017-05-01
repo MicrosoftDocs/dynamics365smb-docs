@@ -23,7 +23,7 @@ By default, a report will have a built-in report layout, which can be either an 
 To create a custom layout, you can either make a copy of an existing custom layout or add a new custom layout, which in most cases is based on a built-in layout. When you add a new custom layout, you can choose to add an RDLC report layout type, Word report layout type, or both. The new custom layout will automatically be based on the built-in layout for the report if one is available. If there is no built-in layout for the type, then a new blank layout is a created, which you will have to modify and design from scratch. For more information about RDLC and Word report layouts, built-in and custom layouts, and more, see [Manage Report Layouts](ui-manage-report-layouts.md).  
 
 ## To create a custom layout
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Report Layout Selection**, and then choose the related link.  
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Report Layout Selection**, and then choose the related link.  
    The** Report Layout Selection** window lists all the reports that are available in the company that is specified in the Company field at the top of the window.
 2. Set the **Company** field to the company in which you want to create the report layout.
 3. Select the row for the report that you want to create the layout for, and then choose **Custom Layouts**.  

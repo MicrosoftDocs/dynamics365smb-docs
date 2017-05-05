@@ -11,11 +11,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize 
-ms.date: 03/29/2017
+ms.date: 04/27/2017
 ms.author: edupont
 
 ---
-# Setting Up [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# Setting Up Dynamics 365 for Financials
 [!INCLUDE[d365fin](includes/d365fin_md.md)] includes standard configurations for most business processes, but you can change the configuration to suit the needs of company.
 
 For example, your chart of accounts is prefilled with a number of posting accounts ready for use. You can, of course, change the chart of accounts to suit your needs. For more information, see [Finance](finance.md).
@@ -42,3 +42,5 @@ Some functionality, either general or for specific business processes, can be se
 [Purchasing](purchasing-manage-purchasing.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Welcome to [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]

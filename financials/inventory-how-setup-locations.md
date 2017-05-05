@@ -23,13 +23,13 @@ You can then create document lines for a specific location, view availability by
 **Note**: This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 
 ## To create a location card
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Locations**, and then choose the related link.
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Locations**, and then choose the related link.
 2. Choose the **New** action.
 3. In the **Location Card** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Repeat steps 2 and 3 for every location where you want to keep inventory.
 
 ## To create a transfer route
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Transfer Routes**, and then choose the related link.
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Transfer Routes**, and then choose the related link.
 2. Alternatively, from any **Location Card** window, choose the **Transfer Routes** action.
 3. Choose the **New** action.
 4. In the **Location Card** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]

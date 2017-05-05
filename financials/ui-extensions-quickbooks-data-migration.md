@@ -15,7 +15,7 @@ ms.date: 03/29/2017
 ms.author: edupont
 
 ---
-# The QuickBooks Data Migration Extension for [!INCLUDE[d365fin](includes/d365fin_long_md.md)]
+# The QuickBooks Data Migration Extension for Dynamics 365 for Financials
 This extension makes it easy to migrate customers, vendors, items, and accounts from QuickBooks to [!INCLUDE[d365fin](includes/d365fin_md.md)]. If your business uses QuickBooks today, you can export the relevant information and then open an assisted setup guide to upload the data to [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 For more information, see [Importing Business Data from Other Finance Systems](upload-data.md).
 

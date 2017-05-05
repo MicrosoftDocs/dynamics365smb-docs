@@ -2,13 +2,14 @@
 title: Import your legacy business data into Financials | Microsoft Docs
 description: Describes how you can import your own data into Dynamics 365 for Financials.
 author: edupont04
+
 ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: migrate, initialize, implement
-ms.date: 03/29/2017
+ms.date: 04/27/2017
 ms.author: edupont
 
 ---
@@ -36,3 +37,5 @@ The assisted setup includes an option to change the default configuration of the
 [Importing Data from Legacy Accounting Software using a Configuration Package](across-import-data-configuration-packages.md)  
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)   
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]

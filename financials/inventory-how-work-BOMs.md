@@ -15,7 +15,7 @@ ms.author: sgroespe
 
 ---
 # How to: Work with Bills of Materials
-**Note**: The current version of [!INCLUDE[d365fin](includes/d365fin_md.md)] only contains the first part of the Assembly Management feature. For now, you can only create assembly BOMs and then handle the related parent items as normal inventory items. In a future update, you can manage the actual assembly of items from components, either in assembly-to-stock or assembly-to-order flows, and you can sell components as kits.
+**Note**: The current version of [!INCLUDE[d365fin](includes/d365fin_md.md)] only contains the first part of the Assembly Management feature. For now, you can only create assembly BOMs and then handle the related parent items as normal inventory items. In a future update, you can manage the actual assembly of items from components, either in assemble-to-stock or assemble-to-order flows, and you can sell components as kits.
 
 You use bills of materials (BOMs) to structure parent items that you sell as kits consisting of the parent's components or that you assemble to order or to stock.
 
@@ -52,7 +52,8 @@ From the **Assembly BOM** window, you can open a separate window that shows the 
 
 ## To buy, sell, or transfer assembly items
 Because the current version of [!INCLUDE[d365fin](includes/d365fin_md.md)] only contains the ability to define and assign assembly BOMs to items, you can handle assembly items on document lines as normal items only.
-For more information, see, for example, [How to: Invoice Sales](sales-how-invoice-sales.md).
+
+**Caution**: The inventory quantity of BOM components will not be adjusted if you do so.
 
 ## See Also
 [How to: Register New Items](inventory-how-register-new-items.md)  

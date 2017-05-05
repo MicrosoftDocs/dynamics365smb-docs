@@ -75,6 +75,7 @@
 ### [Make Payments](payables-make-payments.md)
 ### [Apply Payments Automatically and Reconcile Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ### [How to: How to: Reconcile Vendor Payments Manually](payables-how-apply-purchase-transactions-manually.md)
+## [How to: Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)
 ## [Managing Bank Accounts](bank-manage-bank-accounts.md)
 ### [Applying Payments Automatically and Reconcile Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ### [How to: Reconcile Bank Accounts Separately](bank-how-reconcile-bank-accounts-separately.md)  
@@ -108,7 +109,7 @@
 ## [How to: Record Purchases](purchasing-how-record-purchases.md)
 ## [How to: Purchase Products for a Sale](purchasing-how-purchase-products-sale.md)
 ## [How to: Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)
-## [How to: Process Purchase Returns or Cancellations](purchasing-how-register-new-vendors.md)
+## [How to: Process Purchase Returns or Cancellations](purchasing-how-process-purchase-returns-cancellations.md)
 ## [How to: Register New Vendors](purchasing-how-register-new-vendors.md)
 
 # [Inventory](inventory-manage-inventory.md)

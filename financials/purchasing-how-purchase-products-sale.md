@@ -1,5 +1,5 @@
 ---
-title: 'How to: Purchase Products for a Sale| Microsoft Docs'
+title: 'How to: Purchase Items for a Sale| Microsoft Docs'
 description: 'To replenish items as soon as you sell them, or to fullfill an open sales demand, you can use the Create Purchase Orders function as a simple supply planning feature.'
 services: project-madeira
 documentationcenter: ''
@@ -15,19 +15,17 @@ ms.date: 05/16/2017
 ms.author: sgroespe
 
 ---
-# How to: Purchase Products for a Sale
+# How to: Purchase Items for a Sale
 From sales orders and sales invoices, you can use functions to quickly create purchase documents for missing item quantities that are required by the sale. You can use two different functions depending on the document type.
 |Function|Description|
 |--------|-----------|
-|**Create Purchase Orders**|From a sales order, this function creates a purchase order for each different item on the sales order lines, addressed to the items' assigned vendors. You can edit the purchase quantity before you create the purchase orders. Only unavailable sales quantities are suggested.
+|**Create Purchase Orders**|From a sales order, this function creates a purchase order for each vendor of items on the sales order. You can edit the purchase quantity before you create the purchase orders. Only unavailable sales quantities are suggested.
 |**Create Purchase Invoice**|From a sales order and from a sales invoice, this function creates a purchase invoice for a selected vendor for all lines or selected lines on the sales document. The full sales quantity is suggested.|
-
-**Note**: This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 
 ## To create one or more purchase orders from a sales order
 To create a purchase order for each unavailable item quantity on the sales order, you use the **Create Purchase Orders** function. 
 
-**Note**. This function creates a purchase order for each assigned vendor of each different item on the sales order lines. If an item does not have a vendor assigned, you must select one before you create the purchase order.
+**Note**: This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 
 1. On the Home page, choose the **Ongoing Sales Orders** tile.
 2. Open a sales order that you want to purchase items for.
@@ -41,7 +39,7 @@ To create a purchase order for each unavailable item quantity on the sales order
     **Note**: You can also change the **Quantity to Purchase** field on grayed lines even though they represent fully available sales quantities.
 5. Choose the **OK** button. 
     
-    A purchase order is created for each different item on the sales order, including any quantity changes that you made in the **Create Purchase Orders** window.
+    A purchase order is created for each vendor of items on the sales order, including any quantity changes that you made in the **Create Purchase Orders** window.
 7. Proceed to process the purchase order or orders, for example, by editing or adding purchase order lines. For more information, see [How to: Record Purchases](purchasing-how-record-purchases.md).
 
 

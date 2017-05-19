@@ -3,7 +3,7 @@ title: 'How to: Set Up Opportunity Sales Cycles and Cycle Stages | Microsoft Doc
 description: Describes how to set up opportunity sales cycles and stages and assigning activities to opportunities in Financials
 services: project-madeira
 documentationcenter: ''
-author: sgroespe
+author: SorenGP
 
 ms.service: dynamics365-financials
 ms.topic: article
@@ -12,7 +12,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 05/20/2017
-ms.author: SorenGP
+ms.author: sgroespe
 
 ---
 # How to: Set Up Opportunity Sales Cycles and Cycle Stages

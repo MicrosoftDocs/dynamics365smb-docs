@@ -1,0 +1,93 @@
+---
+title: "How to: Cancel UI Configuration"
+ms.custom: na
+ms.date: "03-03-2017"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+ms.assetid: 1e5c9aca-a43e-45e2-9a05-ce19c482c02c
+caps.latest.revision: 7
+ms.author: "solsen"
+manager: "edupont"
+translation.priority.ht: 
+  - "da-dk"
+  - "de-at"
+  - "de-ch"
+  - "de-de"
+  - "en-au"
+  - "en-ca"
+  - "en-gb"
+  - "en-in"
+  - "en-nz"
+  - "es-es"
+  - "es-mx"
+  - "fi-fi"
+  - "fr-be"
+  - "fr-ca"
+  - "fr-ch"
+  - "fr-fr"
+  - "is-is"
+  - "it-ch"
+  - "it-it"
+  - "nb-no"
+  - "nl-be"
+  - "nl-nl"
+  - "ru-ru"
+  - "sv-se"
+---
+# How to: Cancel UI Configuration
+You can cancel UI customizations that you have made as configuration for a profile in three ways:  
+  
+-   Cancel all UI customization that you have made for a profile by using the **Clear Configured Pages** button in the **Profile Card** window.  
+  
+-   Cancel UI customization that you have made for specific pages for a profile by deleting rows in the **\($ N\_9190 Delete Profile Configuration $\)** window.  
+  
+-   Cancel UI customization that you have made for a specific UI area for a specific page for a profile by using the **Restore Defaults** button in the **Customize** window.  
+  
+> [!IMPORTANT]  
+>  Users can make UI customizations under their own user logon to personalize their user interface. When you cancel your UI configuration of a page that a user has since personalized, the user’s UI personalization is not canceled. Likewise, when you make new UI configuration for a page that a user has personalized, the user’s UI personalization is preserved, and is not overwritten by the new page configuration.  
+>   
+>  The only situation where UI configuration does overwrite UI personalization is when a UI element is removed by configuration. For example, if the administrator removes a field that the user has renamed or moved, then the field is still removed from the user’s UI.  
+  
+> [!NOTE]  
+>  In the **\($ N\_9191 Delete User Personalization $\)** window and with the **Restore Defaults** button in the **Customize** window, users can cancel UI customization that they have made to pages under their own user logon. When they do so, the layout of those pages is reset to any UI customization that the administrator has configured for the profile. If the profile has not been configured, then the layout of the user’s pages is reset to the profile configuration that was installed with [!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)]. For more information, see [How to: Cancel UI Personalization](../SetupAndAdministration/how-to-cancel-ui-personalization.md).  
+  
+### To cancel all UI customization that you have made for a profile  
+  
+1.  In the **Search** box, enter **Profiles**, and then choose the related link.  
+  
+2.  Select the profile for which you want to cancel all UI customizations, and then, on the **Home** tab, in the **Manage** group, choose **Edit**.  
+  
+3.  In the **Profile Card** window, on the **Actions** tab, in the **Functions** group, choose **Clear Configured Pages**.  
+  
+> [!NOTE]  
+>  All UI customizations for the profile, both those installed with [!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)] and those made by the administrator, are canceled. No page layouts specific to the profile remain in the database.  
+  
+### To cancel UI customization that you have made for specific page for a profile  
+  
+1.  In the **Search** box, enter **Delete Profile Configuration**, and then choose the related link.  
+  
+2.  Select the profile\/page set for which you want to cancel your UI customization, and then, on the **Home** tab, in the **Manage** group, choose **Delete**.  
+  
+    > [!CAUTION]  
+    >  If you have configured different UI customizations of the same page based on different navigation paths to the page, then each page customization will be listed in the **Delete Profile Configuration** window with the same information. There is no information to identify which row relates to which navigation path. Therefore, you must either delete rows one by one followed by visual checks on the page, or you can delete all rows with UI customizations for the profile\/page.  
+  
+> [!NOTE]  
+>  All UI customization for the page for the profile that you have ever made on the installation or since you last used the **Delete Profile Configuration** window is canceled. The layout of the page is reset to the standard layout of the page object, which is not RoleTailored.  
+  
+### To cancel UI customization that you have made for a specific UI area for a specific page for a profile  
+  
+1.  You can undo changes for that you have made to individual UI areas, such as a ribbon, by using the **Restore Defaults** button in the **Customize** window. Alternatively, you can undo all UI changes that you have made for a profile by using the **\($ N\_9190 Delete Profile Configuration $\)** window.  
+  
+ The UI customization for the profile of the particular UI area on the particular page is canceled. The layout of the UI area on the page is reset to the default configuration, as made either by the administrator or as installed with [!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)].  
+  
+## See Also  
+ [Configure the User Interface](../SetupAndAdministration/configure-the-user-interface.md)   
+ [\($ S\_PERSONALIZATION Personalize the User Interface $\)](../SetupAndAdministration/-$-s_personalization-personalize-the-user-interface-$-.md)   
+ [\($ N\_9190 Delete Profile Configuration $\)](../Topic/\($%20N_9190%20Delete%20Profile%20Configuration%20$\).md)   
+ [How to: Cancel UI Personalization](../SetupAndAdministration/how-to-cancel-ui-personalization.md)   
+ [\($ N\_9191 Delete User Personalization $\)](../Topic/\($%20N_9191%20Delete%20User%20Personalization%20$\).md)   
+ [How to: Disable Personalization](../SetupAndAdministration/how-to-disable-personalization.md)   
+ [Customize the User Interface](../SetupAndAdministration/customize-the-user-interface.md)   
+ [Manage Profiles](../SetupAndAdministration/manage-profiles.md)

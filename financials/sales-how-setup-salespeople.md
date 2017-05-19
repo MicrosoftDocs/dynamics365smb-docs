@@ -24,6 +24,8 @@ When yo have set up a salesperson in the **Salespeople** window, you can select 
 1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Salespeople**, and then choose the related link.
 2. In the **Salespeople** window, choose the **New** action.
 
+You can use salespeople in various relationship management anmd marketing work. For example, you can assign tasks to salepeople, so that the tasks are incorporated in sales opportunities that the salesperson are assigned to. For more information, see [How to: Set Up Opportunity Sales Cycles and Cycle Stages](marketing-how-setup-opportunity-sales-cycles-stages.md). 
+
 ## See Also
 [Setting Up Sales](sales-setup-sales.md)  
 [Sales](sales-manage-sales.md)  

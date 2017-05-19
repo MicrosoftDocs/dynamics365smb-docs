@@ -4,22 +4,15 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
 # dynamics365smb-docs-pr
-Welcome to the repository for user assistance content for Dynamics 365 for Financials! Financials is aimed at small and midsized businesses, and the repo is private while we work on pre-release content.
+Welcome to the repository for user assistance content for Dynamics 365 for Financials! Financials is aimed at small and midsized businesses, and the repo is private. The public repo is here: https://github.com/MicrosoftDocs/dynamics365smb-docs.
 If you have any questions, please contact us through the navua alias.  
 
 ======================================
-Getting started with Open Publishing
+## Getting started with Open Publishing
 
-Quick Start
------------
+Start contributing to the repo docs using the following steps:
 
-Start contributing to Open Publishing docs using the following steps:
-
-1. Fork the repo using a browser window or Git Shell. Here is the address of the repo:
-   ```
-https://github.com/MicrosoftDocs/dynamics365smb-docs-pr
-   ```
-
+1. Fork the repo using a browser window or Git Shell. Here is the address of the repo: https://github.com/MicrosoftDocs/dynamics365smb-docs-pr
 2. Clone your fork so you have a local copy, and then edit the Markdown files using your favorite Markdown editor, such as Atom.io or Visual Studio Code.
 3. Commit and push your changes using GitHub Desktop or Git Shell. Here is the command for Git Shell:
    ```
@@ -31,8 +24,7 @@ https://github.com/MicrosoftDocs/dynamics365smb-docs-pr
 4. Wait for a moment and your changes will be automatically published to staging.
 > If you don't have the permission to push to this repo, fork it to your own account and use pull request to submit your changes back.
 
-Validation and Preview
-----------------------
+## Validation and Preview
 
 You can build and preview your content in local to discover and fix problems early, before pushing your changes to the GitHub repo:
 
@@ -42,13 +34,10 @@ You can build and preview your content in local to discover and fix problems ear
    * Open `http://localhost:8080` in your browser.
 
 
-Best Practices
-----------------------
+## Best Practices
 
 ### Properties and tags
 All topics must start with a YAML header with the following set of attributes.
-
-For Financials:
 
 ```
 ---
@@ -258,5 +247,3 @@ To give readers the impression that the content library is truly country-specifi
 - Link to country-specific content from generic content whenever relevant. The more you link to and from country-specific content, the more integrated it will feel. As for all other links, the link name must be the same as the title of the target article.
 - In navigation tables; the To/See tables in top-level topics, create rows for country-specific references at the bottom of the table. Prefix the text in the **To** column with ```<country>:``` Example: "Canada: How to: Work With GIFI Codes in Canada".
 - Do not create TOC entries for country-specific content. TOC entries will make the content library appear less country-specific.
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.

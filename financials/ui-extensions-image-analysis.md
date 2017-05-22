@@ -51,7 +51,7 @@ The following steps describe how to analyze an image that was uploaded before yo
 2. Choose the item, and then choose the **Analyze Picture** action.  
 3. The **Image Analyzer Attributes** page displays the detected attributes, the confidence level, and other details about the attribute. Use the **Action to perform** options to specify what to do with the attribute.  
 
-**Tip**: You can add the name of the attribute to the item description by choosing **Append tag to item description**. This can be useful for adding detail to the item description. 
+**Tip**: You can add the name of the attribute to the item description by choosing **Add to item description**. For example, this can be useful for quickly adding detail. 
 
 ## To analyze a picture of a contact person
 The following steps describe how to analyze an image that was uploaded before you enabled the Image Analyzer extension.  
@@ -66,6 +66,8 @@ You can also use your own account for the Computer Vision API, for example, if y
   
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Image Analyzer Setup**, and then choose the related link.  
 2. Enter the **API URI** and **API Key** that you received for Computer Vision API.  
+  
+    **Note**: You must add **/analyze** at the end of the API URI. Here's an example: 'https://cronus.api.cognitive.microsoft.com/vision/v1.0/analyze'.
 
 ## To see how many analyses you have left in the current period
 You can view the number of analyses you've done, and how many you can still do, in the current period.  

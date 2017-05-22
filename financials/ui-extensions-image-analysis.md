@@ -1,6 +1,6 @@
 ---
-title: 'Image Analysis| Microsoft Docs'
-description: Analyze images of contacts and items to recognize and assign attributes.
+title: 'Image Analyzer| Microsoft Docs'
+description: Analyze images of contact persons and items to recognize and assign attributes for items and contact persons.
 documentationcenter: ''
 author: bholtorf
 
@@ -10,26 +10,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
-ms.date: 05/11/2017
+ms.date: 05/22/2017
 ms.author: bholtorf
 
 ---
 
-# The Image Analysis Extension for Microsoft Dynamics 365 for Financials
-The Image Analysis extension uses powerful image analytics provided by the Computer Vision API for Microsoft Cognitive Services to detect certain attributes in the images that you attach to items and contacts, and assign them in [!INCLUDE[d365fin](includes/d365fin_md.md)]: 
+# The Image Analyzer Extension for Microsoft Dynamics 365 for Financials
+The Image Analyzer extension uses powerful image analytics provided by the Computer Vision API for Microsoft Cognitive Services to detect attributes in the images that you add to items and contact persons, so you can easily review and assign them. 
   
 * Contact persons: Recognize a person's gender, or age  
-* Items: Identify the type of item, and it's color. For example, whether it't a table or a car, or red or blue.  
+* Items: Identify attributes like type and color. For example, whether it's a table or a car, or red or blue.  
   
-Image Analysis assigns attributes based on a confidence level, that is, it will assign attributes only if there's at least an 80% chance that the attribute is correct. If you need the attributes to be 100% exact, you can verify and adjust them yourself. To learn more about how the confidence level is determined, see the documentation for the [Computer Vision API](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/). 
+Image Analyzer suggests attributes based tags that the Computer Vision API finds, and a confidence level. By default, it suggests attributes only if it's at least an 80% sure that the attribute is correct. If you need the attributes to be 100% exact, you can verify and adjust them yourself. To learn more about how the tags and confidence level are determined, see [Computer Vision API](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/). 
 
-<!-- What is the actual confidence level? -->
+Image Analyzer is free in [!INCLUDE[d365fin](includes/d365fin_md.md)], but there is a limit to the number of items that you can upload during a certain period of time. By default, you can analyze 100 images per month.
 
-Image Analysis is free in [!INCLUDE[d365fin](includes/d365fin_md.md)], but there is a limit to the number of items that you can upload during a certain period of time.
+After you enable the extension, Image Analyzer kicks in each time you add an image to an item or contact person. You'll see the attributes, confidence level, and details right away, and can decide what to do with each attribute. To analyze images you added before you enabled the extension, you'll need to go to the item or contact person cards, and choose the **Analyze Picture** action.   
 
-<!-- What's the period of time? -->
-
-For contacts, Image Analysis is part of a questionnaire. 
+**Note**: If the analysis suggests an attribute that you don't want to see you can blacklist it. Use caution, however. Blacklisted attributes are not be suggested for other items either. If you regret blacklisting an attribute, you can choose **Blacklisted Attributes**, and then delete the attribute from the list.
 
 ## Requirements
 There are a few requirements for the images:
@@ -38,19 +36,46 @@ There are a few requirements for the images:
 * Maximum file size: Less than 4 MB
 * Image dimensions: Greater than 50 x 50 pixels
 
-<!-- The requirements are copied from the Computer Vision API documentation. Do we have additional requirements? -->
+## To enable Image Analyzer
+The Image Analyzer extension is built-in to [!INCLUDE[d365fin](includes/d365fin_md.md)]. You just need to turn it on.
 
-## To set up Image Analysis
-The Image Analysis extension is built-in to [!INCLUDE[d365fin](includes/d365fin_md.md)]. You just need to turn it on.
+1. To enable the Image Analyzer extension, do one of the following:
+  
+* Go to an item card or contact card. In the notification bar, choose **Analyze Images**, and then follow the steps in the assisted setup guide.  
+* In the top right corner, choose the **Search for Page or Report** icon, enter **Service Connections**, and then choose **Image Analyzer Setup**. Choose the **Enable Image Analyzer** check box, and then complete the steps in the assisted setup guide.  
 
-1. In the top right corner, choose the **Search for Page or Report** icon, enter ****, and then choose the related link.
+## To analyze an image of an item
+The following steps describe how to analyze an image that was uploaded before you enabled the Image Analyzer extension.  
 
-## To analyze an image of a contact or item
-After you turn on Image Analysis, you can start analyzing images right away.
+1. In the top right corner, choose the **Search for Page or Report** icon, enter **Items**, and then choose the related link.  
+2. Choose the item, and then choose the **Analyze Picture** action.  
+3. The **Image Analyzer Attributes** page displays the detected attributes, the confidence level, and other details about the attribute. Use the **Action to perform** options to specify what to do with the attribute.  
 
-1. In the top right corner, choose the **Search for Page or Report** icon, enter ****, and then choose the related link.
+**Tip**: You can add the name of the attribute to the item description by choosing **Append tag to item description**. This can be useful for adding detail to the item description. 
 
-<!-- Do we start analyzing automatically, or do they need to open a card and click a button? -->
+## To analyze a picture of a contact person
+The following steps describe how to analyze an image that was uploaded before you enabled the Image Analyzer extension.  
+
+1. In the top right corner, choose the **Search for Page or Report** icon, enter **Contacts**, and then choose the related link.  
+2. Choose the **Profiles** action.  
+3. On the **Contact Profile Answers** page, choose **Image Analyzer**.  
+4. Review the suggestions, and make corrections if needed.  
+
+## Using your own account for the Computer Vision API
+You can also use your own account for the Computer Vision API, for example, if you want to analyze more images than we allow.  
+  
+1. In the top right corner, choose the **Search for Page or Report** icon, enter **Image Analyzer Setup**, and then choose the related link.  
+2. Enter the **API URI** and **API Key** that you received for Computer Vision API.  
+
+## To see how many analyses you have left in the current period
+You can view the number of analyses you've done, and how many you can still do, in the current period.  
+  
+1. In the top right corner, choose the **Search for Page or Report** icon, enter **Image Analyzer Setup**, and then choose the related link.  
+2. The **Limit type**, **Limit value**, and **Analyzes performed** provide the usage information.  
+
+## To stop using the Image Analyzer extension
+1. In the top right corner, choose the **Search for Page or Report** icon, enter **Service Connections**, and then choose **Image Analyzer Setup**.  
+2. Clear the **Enable Image Analyzer** check box.  
 
 ## See Also
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  

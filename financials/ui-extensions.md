@@ -51,6 +51,8 @@ Microsoft provides the following extensions:
 * [Ceridian Payroll](ui-extensions-ceridian-payroll.md)  
 * [Quickbooks Payroll File Import](ui-extensions-quickbooks-payroll.md)  
 * [GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)
+* [QuickBooks Online Data Migration](ui-extensions-quickbooks-online-data-migration)
+* [Image Analyzer](ui-extensions-image-analyzer)
 
 ## See Also
 [How to: Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)  

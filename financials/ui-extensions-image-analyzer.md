@@ -25,9 +25,7 @@ Image Analyzer suggests attributes based tags that the Computer Vision API finds
 
 Image Analyzer is free in [!INCLUDE[d365fin](includes/d365fin_md.md)], but there is a limit to the number of items that you can upload during a certain period of time. By default, you can analyze 100 images per month.
 
-After you enable the extension, Image Analyzer kicks in each time you add an image to an item or contact person. You'll see the attributes, confidence level, and details right away, and can decide what to do with each attribute. To analyze images you added before you enabled the extension, you'll need to go to the item or contact person cards, and choose the **Analyze Picture** action.   
-
-**Note**: If the analysis suggests an attribute that you don't want to see you can blacklist it. Use caution, however. Blacklisted attributes are not be suggested for other items either. If you regret blacklisting an attribute, you can choose **Blacklisted Attributes**, and then delete the attribute from the list.
+After you enable the extension, Image Analyzer kicks in each time you add an image to an item or contact person. You'll see the attributes, confidence level, and details right away, and can decide what to do with each attribute. If you added images before you enabled the Image Analyzer extension, you'll need to go to the item or contact person cards and choose the **Analyze Picture** action.   
 
 ## Requirements
 There are a few requirements for the images:
@@ -42,7 +40,7 @@ The Image Analyzer extension is built-in to [!INCLUDE[d365fin](includes/d365fin_
 1. To enable the Image Analyzer extension, do one of the following:
   
 * Go to an item card or contact card. In the notification bar, choose **Analyze Images**, and then follow the steps in the assisted setup guide.  
-* In the top right corner, choose the **Search for Page or Report** icon, enter **Service Connections**, and then choose **Image Analyzer Setup**. Choose the **Enable Image Analyzer** check box, and then complete the steps in the assisted setup guide.  
+* In the top right corner, choose the **Search for Page or Report** icon, enter **Service Connections**, and then choose **Image Analysis Setup**. Choose the **Enable Image Analyzer** check box, and then complete the steps in the assisted setup guide.  
 
 ## To analyze an image of an item
 The following steps describe how to analyze an image that was uploaded before you enabled the Image Analyzer extension.  
@@ -57,9 +55,12 @@ The following steps describe how to analyze an image that was uploaded before yo
 The following steps describe how to analyze an image that was uploaded before you enabled the Image Analyzer extension.  
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Contacts**, and then choose the related link.  
-2. Choose the **Profiles** action.  
-3. On the **Contact Profile Answers** page, choose **Image Analyzer**.  
-4. Review the suggestions, and make corrections if needed.  
+2. Choose the contact person, and then choose the **Analyze Picture** action.  
+3. Review the suggestions, and make corrections if needed.  
+
+## Tips for deciding what to do with a suggested attribute
+ 
+If the analysis suggests an attribute that you don't want to see you can blacklist it. Use caution, however. Blacklisted attributes are not suggested for other items either. If you regret blacklisting an attribute, you can choose **Blacklisted Attributes**, and then delete the attribute from the list. 
 
 ## Using your own account for the Computer Vision API
 You can also use your own account for the Computer Vision API, for example, if you want to analyze more images than we allow.  
@@ -67,7 +68,7 @@ You can also use your own account for the Computer Vision API, for example, if y
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Image Analyzer Setup**, and then choose the related link.  
 2. Enter the **API URI** and **API Key** that you received for Computer Vision API.  
   
-    **Note**: You must add **/analyze** at the end of the API URI. Here's an example: 'https://cronus.api.cognitive.microsoft.com/vision/v1.0/analyze'.
+    **Note**: You must add **/analyze** at the end of the API URI, if it isn't already there. Here's an example: <https://cronus.api.cognitive.microsoft.com/vision/v1.0/analyze>.
 
 ## To see how many analyses you have left in the current period
 You can view the number of analyses you've done, and how many you can still do, in the current period.  

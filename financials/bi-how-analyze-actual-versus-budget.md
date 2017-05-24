@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: budgeting, forecast, analysis 
+ms.search.keywords: budgeting, forecast, analysis
 ms.date: 05/25/2017
 ms.author: sgroespe
 

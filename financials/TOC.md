@@ -60,10 +60,10 @@
 ### [How to: Set Up Fixed Asset Insurance](fa-how-setup-insurance.md)
 ### [How to: Set Up Fixed Asset Maintenance](fa-how-setup-maintenance.md)
 ### [Depreciation Methods](fa-depreciation-methods.md)
-## [Setting Up Workflows](across-setup-workflows.md)
 ## [How to: Set up Email](madeira-how-setup-email.md)
 ## [How to: Create Number Series](ui-create-number-series.md)
 ## [How to: Set Up Extended Item Text](ui-how-define-ext-text.md)
+## [Setting Up Value Added Tax](finance-setup-vat.md)
 
 # [Finance](finance.md)
 ## [Managing Receivables](receivables-manage-receivables.md)
@@ -75,7 +75,6 @@
 ### [Make Payments](payables-make-payments.md)
 ### [Apply Payments Automatically and Reconcile Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ### [How to: How to: Reconcile Vendor Payments Manually](payables-how-apply-purchase-transactions-manually.md)
-## [How to: Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)
 ## [Managing Bank Accounts](bank-manage-bank-accounts.md)
 ### [Applying Payments Automatically and Reconcile Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ### [How to: Reconcile Bank Accounts Separately](bank-how-reconcile-bank-accounts-separately.md)  
@@ -89,11 +88,16 @@
 ### [Closing Books](year-close-books.md)
 ### [Preparing Closing Statements](year-prepare-close-statement.md)
 ## [Working With Dimensions](finance-dimensions.md)
-## [Working With Account Schedules](finance-account-schedule.md)
 ## [Reporting 1099 Transactions in the US](us-finance-tax-1099.md)
 ## [Sales Tax and Tax Groups in the US and Canada](us-finance-sales-tax.md)
 ## [Sales Tax and Goods and Services Tax in Canada](ca-finance-tax.md)
-## [How to: Work With GIFI Codes in Canada](ca-finance-work-gifi-codes.md)
+## [How to: Work with GIFI Codes in Canada](ca-finance-work-gifi-codes.md)
+
+# [Business Intelligence](bi.md)
+## [How to: Analyze Actual Amounts Versus Budgeted Amounts](bi-how-analyze-actual-versus-budget.md)
+## [How to: Work with Account Schedules](bi-how-work-account-schedule.md]
+## [How to: Analyze Data by Dimensions](bi-how-analyze-data-dimension)
+## [How to: Create Analysis Views and Reports](bi-how-create-analysis-views-reports.md)
 
 # [Sales](sales-manage-sales.md)
 ## [How to: Make Offers](sales-how-make-offers.md)
@@ -107,14 +111,14 @@
 
 # [Purchasing](purchasing-manage-purchasing.md)
 ## [How to: Record Purchases](purchasing-how-record-purchases.md)
-## [How to: Purchase Items for a Sale](purchasing-how-purchase-products-sale.md)
+## [How to: Purchase Products for a Sale](purchasing-how-purchase-products-sale.md)
 ## [How to: Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)
 ## [How to: Process Purchase Returns or Cancellations](purchasing-how-process-purchase-returns-cancellations.md)
 ## [How to: Register New Vendors](purchasing-how-register-new-vendors.md)
 
 # [Inventory](inventory-manage-inventory.md)
 ## [How to: Register New Items](inventory-how-register-new-items.md)
-## [How to: Work with Bills of Materials](inventory-how-work-BOMs.md)
+## [How to: Work with Bills of Material](inventory-how-work-BOMs.md)
 ## [How to: Categorize Items](inventory-how-categorize-items.md)
 ## [How to: Work with Item Attributes](inventory-how-work-item-attributes.md)
 ## [How to: Work with Nonstock Items](inventory-how-work-nonstock-items.md)
@@ -172,6 +176,64 @@
 ### [How to: Set Up Incoming Documents](across-how-setup-income-documents.md)
 ### [Processing Incoming Documents](across-process-income-documents.md)
 
-# Advanced - Additional Information
-## [Advanced: Best Price Calculation](advanced-best-price-calculation.md)
-## [Advanced: Inventory Reconciliation](advanced-inventory-reconciliation.md)
+# Full Experience (Mockup for LT)
+## [Finance - Cost Accounting]
+### [About Cost Accounting]
+### [Setting Up Cost Accounting]
+### [How to: Transfer and Post Cost Entries]
+### [How to: Define and Allocate Costs]
+### [How to: Create Cost Budgets]
+## [Finance - Inventory Costing]
+### [About Inventory Costing]
+### [How to: Handle Inventory and Manufacturing Costs]
+### [How to: Report costs and Reconcile with the General Ledger]
+
+## [Business Intelligence - How to: Create Report with XBRL]
+## [Business Intelligence - How to: Set Up and Publish KPI Web Services Based on Account Schedules]
+
+## [Sales - How to: Work with Blanket Sales Orders]
+## [Sales - How to: Work with Sales Return Orders]
+
+## [Purchasing - How to: Work with Blanket Purchase Orders]
+## [Purchasing - How to: Work with Purchase Return Orders]
+
+## [Inventory - How to: Work with Item Tracking]
+
+## [Planning]
+### [How to: Plan for Production Availability]
+### [How to: Forecast for Sales and Production]
+### [How to: Perform Master Planning]
+### [How to: Material Requirements Planning]
+### [How to: Communicate Production Plans]
+
+## [Production]
+### [How to: Schedule Production Processes]
+### [How to: Issue Materials]
+### [How to: Execute Production]
+
+## [Warehousing]
+### [How to: Receive Items]
+### [How to: Put Items Away]
+### [How to: Assemble Items]
+### [How to: Move Items]
+### [How to Count, Adjust, and Reclassify Items]
+### [How to: Pick Items]
+### [How to: Ship Items]
+
+## [Service Management]
+### [How to: Plan Service]
+### How to: Fulfill Service Contracts]
+### [How to: Handle Customer Inquiries]
+### [How to: Deliver Service]
+
+# Local Functionality (Mockup for LT)
+## [Australia]
+### [How to: Enter Australian Business Numbers]
+### [How to: Work with Business Statements]
+### [How to: Handle BAS Fuel Tax Credits]
+### [How to: Manage Withholding Tax]
+### [Various Australian Tax functionality]
+## [Austria]
+### [....]
+## [Belgium]
+## [Canada]

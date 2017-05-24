@@ -1,0 +1,70 @@
+---
+title: "Electronic VAT and ICP Declarations"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "ICP declarations, about"
+  - "VAT declarations, about"
+  - "VAT, declarations"
+  - "VAT, statements"
+  - "electronic declarations, ICP"
+  - "electronic declarations, VAT"
+ms.assetid: e2a50098-4958-44d1-9688-425422c635be
+caps.latest.revision: 27
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "nl-nl"
+---
+# Electronic VAT and ICP Declarations
+Companies must submit periodic VAT and ICP declarations.  
+  
+ VAT declarations must be submitted on a monthly or quarterly basis.  
+  
+ Companies that sell goods or services to European Union \(EU\) countries must submit Intracommunautaire leveringen \(ICP\) declarations on a quarterly basis. Purchases are not included in this declaration. For these intracommunautaire transactions, it is required that the merchandise have crossed the border physically. It is not enough that the location of an invoice address or the office of the vendor or customer is in another EU country or region.  
+  
+> [!NOTE]  
+>  Before you can send electronic declarations to the tax authorities you must register your company for electronic declaration. The information that the tax authorities need depends on the sign method your company will use, PIN or PKI. For both methods, you have to send the form "Aanmeldingsformulier voor elektronisch berichtenverkeer met de belastingdienst" to the tax authorities.  
+>   
+>  For more information, see the [website](http://go.microsoft.com/fwlink/?LinkID=223151) of the Dutch tax office.  
+  
+## Submitting Electronic Tax Declarations  
+ You can submit the VAT declarations and ICP declarations in the following ways:  
+  
+-   Log on to the website of the Dutch tax office and enter the information manually. For more information, see the [website](http://go.microsoft.com/fwlink/?LinkID=223151) of the Dutch tax office.  
+  
+     For ICP declarations, you can enter a maximum of 99 lines.  
+  
+-   Create an electronic declaration and submit the encrypted file through Simple Mail Transfer Protocol \(SMTP\) server to the Dutch tax office.  
+  
+ The electronic VAT declaration contains the posted VAT and the calculated duty liable to the customs authorities for a specified period. The data of the VAT declaration is based on the definition of the VAT statement in the **\($ T\_256 VAT Statement Line $\)** table. For more information, see [\($ T\_256 VAT Statement Line $\)](assetId:///827c23e2-cae1-492e-9b90-68b5c3418236).  
+  
+ The data of the ICP declaration is based on the **\($ T\_254 VAT Entry $\)** table. For more information, see [\($ T\_254 VAT Entry $\)](assetId:///e4113f5c-adc8-4bfd-8c4b-e7b5f11f4d32).  
+  
+### Electronic Tax Declaration Methods  
+ You can submit the VAT and ICP declarations electronically to the tax authorities using the following methods:  
+  
+ **Personal identification number \(PIN\) method**  
+ Uses a PIN code to sign the declaration. If you submit your declarations using the PIN method, you must create a PIN code for your company and deliver it to the tax authorities. This code helps the tax authorities to identify the company that has submitted the electronic declaration. This PIN code is not stored in the database. Therefore, you must save the PIN code in a secure location.  
+  
+> [!WARNING]  
+>  The tax authorities are reconsidering whether to accept declarations that are signed using a PIN code. For more information, see the [website](http://go.microsoft.com/fwlink/?LinkID=223151) of the Dutch tax office.  
+  
+ **Public Key Infrastructure \(PKI\) method**  
+ Uses digital certificates to encrypt messages and verify digital signature. If you submit your declarations using the PKI method, you must also have additional certificates, generic parameters, and other parameters when you use the PKI method. For more information, see the [website](http://go.microsoft.com/fwlink/?LinkID=223151) of the Dutch tax office.  
+  
+### Contact Information  
+ The electronic VAT and ICP declarations contain contact information about the taxpayer or the agent. For more information, see [\($ T\_79\_19 VAT Registration No. $\)](assetId:///b8cbe882-81ca-4d13-a81f-3e64bbf72b77).  
+  
+## See Also  
+ [Electronic Tax Declarations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/electronic-tax-declarations.md)   
+ [How to: Set Up VAT Categories](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/how-to-set-up-vat-categories.md)   
+ [How to: Create Electronic VAT and ICP Declarations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/how-to-create-electronic-vat-and-icp-declarations.md)   
+ [How to: Process Response Messages from Tax Authorities](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/how-to-process-response-messages-from-tax-authorities.md)   
+ [OBSOLETE: How to: Set Up PKI\-Based User Certificates for Electronic Tax Declarations](../Topic/OBSOLETE:%20How%20to:%20Set%20Up%20PKI-Based%20User%20Certificates%20for%20Electronic%20Tax%20Declarations.md)   
+ [\($ T\_256 VAT Statement Line $\)](assetId:///827c23e2-cae1-492e-9b90-68b5c3418236)   
+ [\($ T\_79\_19 VAT Registration No. $\)](assetId:///b8cbe882-81ca-4d13-a81f-3e64bbf72b77)

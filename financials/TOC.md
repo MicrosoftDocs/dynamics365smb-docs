@@ -96,7 +96,7 @@
 # [Business Intelligence](bi.md)
 ## [How to: Analyze Actual Amounts Versus Budgeted Amounts](bi-how-analyze-actual-versus-budget.md)
 ## [How to: Work with Account Schedules](bi-how-work-account-schedule.md)
-## [How to: Analyze Data by Dimensions](bi-how-analyze-data-dimension)
+## [How to: Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)
 ## [How to: Create Analysis Views and Reports](bi-how-create-analysis-views-reports.md)
 
 # [Sales](sales-manage-sales.md)
@@ -177,26 +177,30 @@
 ### [Processing Incoming Documents](across-process-income-documents.md)
 
 # Full Experience (Mockup for LT)
-## [Finance - Cost Accounting](bi.md)
+## Finance - Cost Accounting
 ### [About Cost Accounting](bi.md)
 ### [Setting Up Cost Accounting](bi.md)
 ### [How to: Transfer and Post Cost Entries](bi.md)
 ### [How to: Define and Allocate Costs](bi.md)
 ### [How to: Create Cost Budgets](bi.md)
-## [Finance - Inventory Costing](bi.md)
+## Finance - Costing
 ### [About Inventory Costing](bi.md)
 ### [How to: Handle Inventory and Manufacturing Costs](bi.md)
 ### [How to: Report costs and Reconcile with the General Ledger](bi.md)
 
-## [Business Intelligence - How to: Create Report with XBRL](bi.md)
-## [Business Intelligence - How to: Set Up and Publish KPI Web Services Based on Account Schedules](bi.md)
+## Business Intelligence
+### [Business Intelligence - How to: Create Report with XBRL](bi.md)
+### [Business Intelligence - How to: Set Up and Publish KPI Web Services Based on Account Schedules](bi.md)
 
-## [Sales - How to: Work with Blanket Sales Orders](bi.md)
-## [Sales - How to: Work with Sales Return Orders](bi.md)
+## Sales
+### [Sales - How to: Work with Blanket Sales Orders](bi.md)
+### [Sales - How to: Work with Sales Return Orders](bi.md)
 
-## [Purchasing - How to: Work with Blanket Purchase Orders](bi.md)
-## [Purchasing - How to: Work with Purchase Return Orders](bi.md)
+## Purchasing
+### [Purchasing - How to: Work with Blanket Purchase Orders](bi.md)
+### [Purchasing - How to: Work with Purchase Return Orders](bi.md)
 
+## Inventory
 ## [Inventory - How to: Work with Item Tracking](bi.md)
 
 ## Planning
@@ -222,7 +226,7 @@
 
 ## Service Management
 ### [How to: Plan Service](bi.md)
-### How to: Fulfill Service Contracts](bi.md)
+### [How to: Fulfill Service Contracts](bi.md)
 ### [How to: Handle Customer Inquiries](bi.md)
 ### [How to: Deliver Service](bi.md)
 
@@ -233,7 +237,7 @@
 ### [How to: Handle BAS Fuel Tax Credits](bi.md)
 ### [How to: Manage Withholding Tax](bi.md)
 ### [Various Australian Tax functionality](bi.md)
-### [Addresses]((bi.md)
+### [Addresses](bi.md)
 ### [Electronic Funds Transfer (EFT)](bi.md)
 ### [Calculating Distribution Amounts](bi.md)
 ### [How to: Determine Sales Price by Cost Plus Percentage](bi.md)

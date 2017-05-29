@@ -33,7 +33,7 @@ You can also combine the various format types.
 | Example | Entries included |
 |---|---|
 |12 15 16&#124;12 01 16..05 31 17 | Entries posted either on December 15 2016 or on dates between and including December 01 2016 and May 31 2017. |
-|..12 14 16&#124;12 30 16.. | Entries posted on December 14 or earlier, or entries posted on December or later - that is, all entries except those posted on dates between and including December 15 and 29. |
+|..12 14 16&#124;12 30 16.. | Entries posted on December 14 or earlier, or entries posted on December 30 or later - that is, all entries except those posted on dates between and including December 15 and 29. |
 
 Note that we have used the US date format MMDDYY here. As [!INCLUDE[d365fin](includes/d365fin_md.md)]  becomes available in other markets, you'll be able to use the formats that you are used to.
 

@@ -95,8 +95,8 @@
 
 # [Business Intelligence](bi.md)
 ## [How to: Analyze Actual Amounts Versus Budgeted Amounts](bi-how-analyze-actual-versus-budget.md)
-## [How to: Work with Account Schedules](bi-how-work-account-schedule.md]
-## [How to: Analyze Data by Dimensions](bi-how-analyze-data-dimension)
+## [How to: Work with Account Schedules](bi-how-work-account-schedule.md)
+## [How to: Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)
 ## [How to: Create Analysis Views and Reports](bi-how-create-analysis-views-reports.md)
 
 # [Sales](sales-manage-sales.md)
@@ -177,63 +177,78 @@
 ### [Processing Incoming Documents](across-process-income-documents.md)
 
 # Full Experience (Mockup for LT)
-## [Finance - Cost Accounting]
-### [About Cost Accounting]
-### [Setting Up Cost Accounting]
-### [How to: Transfer and Post Cost Entries]
-### [How to: Define and Allocate Costs]
-### [How to: Create Cost Budgets]
-## [Finance - Inventory Costing]
-### [About Inventory Costing]
-### [How to: Handle Inventory and Manufacturing Costs]
-### [How to: Report costs and Reconcile with the General Ledger]
+## Finance - Cost Accounting
+### [About Cost Accounting](bi.md)
+### [Setting Up Cost Accounting](bi.md)
+### [How to: Transfer and Post Cost Entries](bi.md)
+### [How to: Define and Allocate Costs](bi.md)
+### [How to: Create Cost Budgets](bi.md)
+## Finance - Costing
+### [About Inventory Costing](bi.md)
+### [How to: Handle Inventory and Manufacturing Costs](bi.md)
+### [How to: Report costs and Reconcile with the General Ledger](bi.md)
 
-## [Business Intelligence - How to: Create Report with XBRL]
-## [Business Intelligence - How to: Set Up and Publish KPI Web Services Based on Account Schedules]
+## Business Intelligence
+### [Business Intelligence - How to: Create Report with XBRL](bi.md)
+### [Business Intelligence - How to: Set Up and Publish KPI Web Services Based on Account Schedules](bi.md)
 
-## [Sales - How to: Work with Blanket Sales Orders]
-## [Sales - How to: Work with Sales Return Orders]
+## Sales
+### [Sales - How to: Work with Blanket Sales Orders](bi.md)
+### [Sales - How to: Work with Sales Return Orders](bi.md)
 
-## [Purchasing - How to: Work with Blanket Purchase Orders]
-## [Purchasing - How to: Work with Purchase Return Orders]
+## Purchasing
+### [Purchasing - How to: Work with Blanket Purchase Orders](bi.md)
+### [Purchasing - How to: Work with Purchase Return Orders](bi.md)
 
-## [Inventory - How to: Work with Item Tracking]
+## Inventory
+## [Inventory - How to: Work with Item Tracking](bi.md)
 
-## [Planning]
-### [How to: Plan for Production Availability]
-### [How to: Forecast for Sales and Production]
-### [How to: Perform Master Planning]
-### [How to: Material Requirements Planning]
-### [How to: Communicate Production Plans]
+## Planning
+### [How to: Plan for Production Availability](bi.md)
+### [How to: Forecast for Sales and Production](bi.md)
+### [How to: Perform Master Planning](bi.md)
+### [How to: Material Requirements Planning](bi.md)
+### [How to: Communicate Production Plans](bi.md)
 
-## [Production]
-### [How to: Schedule Production Processes]
-### [How to: Issue Materials]
-### [How to: Execute Production]
+## Production
+### [How to: Schedule Production Processes](bi.md)
+### [How to: Issue Materials](bi.md)
+### [How to: Execute Production](bi.md)
 
-## [Warehousing]
-### [How to: Receive Items]
-### [How to: Put Items Away]
-### [How to: Assemble Items]
-### [How to: Move Items]
-### [How to Count, Adjust, and Reclassify Items]
-### [How to: Pick Items]
-### [How to: Ship Items]
+## Warehousing
+### [How to: Receive Items](bi.md)
+### [How to: Put Items Away](bi.md)
+### [How to: Assemble Items](bi.md)
+### [How to: Move Items](bi.md)
+### [How to Count, Adjust, and Reclassify Items](bi.md)
+### [How to: Pick Items](bi.md)
+### [How to: Ship Items](bi.md)
 
-## [Service Management]
-### [How to: Plan Service]
-### How to: Fulfill Service Contracts]
-### [How to: Handle Customer Inquiries]
-### [How to: Deliver Service]
+## Service Management
+### [How to: Plan Service](bi.md)
+### [How to: Fulfill Service Contracts](bi.md)
+### [How to: Handle Customer Inquiries](bi.md)
+### [How to: Deliver Service](bi.md)
 
 # Local Functionality (Mockup for LT)
-## [Australia]
-### [How to: Enter Australian Business Numbers]
-### [How to: Work with Business Statements]
-### [How to: Handle BAS Fuel Tax Credits]
-### [How to: Manage Withholding Tax]
-### [Various Australian Tax functionality]
-## [Austria]
-### [....]
-## [Belgium]
-## [Canada]
+## Australia
+### [How to: Enter Australian Business Numbers](bi.md)
+### [How to: Work with Business Statements](bi.md)
+### [How to: Handle BAS Fuel Tax Credits](bi.md)
+### [How to: Manage Withholding Tax](bi.md)
+### [Various Australian Tax functionality](bi.md)
+### [Addresses](bi.md)
+### [Electronic Funds Transfer (EFT)](bi.md)
+### [Calculating Distribution Amounts](bi.md)
+### [How to: Determine Sales Price by Cost Plus Percentage](bi.md)
+### [How to: Print Income Statements](bi.md)
+### [How to: Print Balance Sheet Reports](bi.md)
+### [How to: Compare Bank Cash Flow](bi.md)
+### [How to: Print Deposit Slip Reports](bi.md)
+### [How to: Print Bank Account Reconciliation Reports](bi.md)
+### [How to: Create Check Installments](bi.md)
+
+## Austria
+### [hjvhjbg](bi.md)
+## Belgium
+## Canada

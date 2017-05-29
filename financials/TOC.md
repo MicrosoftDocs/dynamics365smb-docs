@@ -96,7 +96,7 @@
 # [Business Intelligence](bi.md)
 ## [How to: Analyze Actual Amounts Versus Budgeted Amounts](bi-how-analyze-actual-versus-budget.md)
 ## [How to: Work with Account Schedules](bi-how-work-account-schedule.md)
-## [How to: Analyze Data by Dimensions](bi-how-analyze-data-dimension)
+## [How to: Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)
 ## [How to: Create Analysis Views and Reports](bi-how-create-analysis-views-reports.md)
 
 # [Sales](sales-manage-sales.md)

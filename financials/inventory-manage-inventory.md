@@ -32,7 +32,7 @@ Changes in inventory value from trade are automatically reconciled with your fin
 |Maintain an overview of items and help you find and sort items by organizing them in categories.|[How to: Categorize Items](inventory-how-categorize-items.md)|
 |Assign item attributes of different value types to your items to help you sort and find items.|[How to: Work with Item Attributes](inventory-how-work-item-attributes.md)|
 |Create special item cards for items that you offer to customers but do not maintain inventory for.|[How to: Work with Nonstock Items](inventory-how-work-nonstock-items.md)|
-|Increase or decrease an item’s inventory quantity, for example, after a physical count or as a simple way to record purchase receipts.|[How to: Adjust Inventory](inventory-how-adjust-inventory.md)|
+|Perform physical counting, make negative or positive adjustments, and change information, such as location or lot number, on item ledger entries.|[How to: Count, Adjust, and Reclassify Inventory Inventory](inventory-how-count-adjust-reclassify.md)|
 |View the availability of items per location, by period, by sales or purchase event, or by their use on assembly BOMs.|[How to: Get an Availability Overview](inventory-how-availability-overview.md)|
 |Transfer inventory items between locations with transfer orders, to manage warehouse activities, or with the item reclassification journal.|[How to: Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)|
 |Appreciate or depreciate the value of one or more items in inventory by posting their current, calculated value.|[How to: Revalue Inventory](inventory-how-revalue-inventory.md)|

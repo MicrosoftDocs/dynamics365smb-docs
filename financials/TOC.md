@@ -122,7 +122,7 @@
 ## [How to: Categorize Items](inventory-how-categorize-items.md)
 ## [How to: Work with Item Attributes](inventory-how-work-item-attributes.md)
 ## [How to: Work with Nonstock Items](inventory-how-work-nonstock-items.md)
-## [How to: Adjust Inventory](inventory-how-adjust-inventory.md)
+## [How to: Count, Adjust, and Reclassify Inventory](inventory-how-count-adjust-reclassify.md)
 ## [How to: Get an Availability Overview](inventory-how-availability-overview.md)
 ## [How to: Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)
 ## [How to: Revalue Inventory](inventory-how-revalue-inventory.md)

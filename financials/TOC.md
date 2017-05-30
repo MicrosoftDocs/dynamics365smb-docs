@@ -92,6 +92,7 @@
 ## [Sales Tax and Tax Groups in the US and Canada](us-finance-sales-tax.md)
 ## [Sales Tax and Goods and Services Tax in Canada](ca-finance-tax.md)
 ## [How to: Work with GIFI Codes in Canada](ca-finance-work-gifi-codes.md)
+# [Accountant experiences in Financials](finance-accounting.md)
 
 # [Business Intelligence](bi.md)
 ## [How to: Analyze Actual Amounts Versus Budgeted Amounts](bi-how-analyze-actual-versus-budget.md)

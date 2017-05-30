@@ -15,10 +15,7 @@ ms.date: 05/30/2017
 ms.author: sgroespe
 
 ---
-> [!NOTE]  
->  Working with configuration packages is advalknæj.
-
-> [!FULL EXPERIENCE]
+> [!NOTE] **FULL EXPERIENCE**
 >  This functionality may not be enabled in your solution. Contact your Microsoft partner if you want to buy an extension that gives you the full experience.
 
 **Note**: If you have the Basic experience, then you can only make quantity adjustments on individual item cards. For more information, see [How to: Adjust Inventory](inventory-how-adjust-inventory.md).

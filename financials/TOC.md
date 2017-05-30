@@ -178,81 +178,81 @@
 
 # Full Experience
 ## Cost Accounting (FULL)
-### [About Cost Accounting](inventory-count-adjust-reclassify.md)
-### [Setting Up Cost Accounting](inventory-count-adjust-reclassify.md)
-### [How to: Transfer and Post Cost Entries](inventory-count-adjust-reclassify.md)
-### [How to: Define and Allocate Costs](inventory-count-adjust-reclassify.md)
-### [How to: Create Cost Budgets](inventory-count-adjust-reclassify.md)
+### About Cost Accounting
+### Setting Up Cost Accounting
+### How to: Transfer and Post Cost Entries
+### How to: Define and Allocate Costs
+### How to: Create Cost Budgets
 
 ## Inventory Costing (FULL)
-### [About Inventory Costing](inventory-count-adjust-reclassify.md)
-### [How to: Change Costing Method](inventory-count-adjust-reclassify.md)
-### [How to: Handle Inventory and Manufacturing Costs](inventory-count-adjust-reclassify.md)
-### [How to: Report Costs and Reconcile with the General Ledger](inventory-count-adjust-reclassify.md)
+### About Inventory Costing
+### How to: Change Costing Method
+### How to: Handle Inventory and Manufacturing Costs
+### How to: Report Costs and Reconcile with the General Ledger
 
 ## Business Intelligence (FULL)
-### [How to: Create Reports with XBRL](inventory-count-adjust-reclassify.md)
-### [How to: Set Up and Publish KPI Web Services Based on Account Schedules](inventory-count-adjust-reclassify.md)
+### How to: Create Reports with XBRL
+### How to: Set Up and Publish KPI Web Services Based on Account Schedules
 
 ## Sales (FULL)
-### [How to: Work with Blanket Sales Orders](inventory-count-adjust-reclassify.md)
-### [How to: Receive Prepayments from Customers](inventory-count-adjust-reclassify.md)
+### How to: Work with Blanket Sales Orders
+### How to: Receive Prepayments from Customers
 
 ## Purchasing (FULL)
-### [How to: Work with Blanket Purchase Orders](inventory-count-adjust-reclassify.md)
-### [How to: Make Prepayments to Vendors](inventory-count-adjust-reclassify.md)
+### How to: Work with Blanket Purchase Orders
+### How to: Make Prepayments to Vendors
 
 ## Inventory (FULL)
-### [How to: Trace Items](inventory-count-adjust-reclassify.md)
+### How to: Trace Items
 ### [How to Count, Adjust, and Reclassify Items](inventory-count-adjust-reclassify.md)
 
 ## Planning (FULL)
-### [How to: Plan for Production Availability](inventory-count-adjust-reclassify.md)
-### [How to: Forecast for Sales and Production](inventory-count-adjust-reclassify.md)
-### [How to: Perform Master Planning](inventory-count-adjust-reclassify.md)
-### [How to: Material Requirements Planning](inventory-count-adjust-reclassify.md)
-### [How to: Communicate Production Plans](inventory-count-adjust-reclassify.md)
+### How to: Plan for Production Availability
+### How to: Forecast for Sales and Production
+### How to: Perform Master Planning
+### How to: Material Requirements Planning
+### How to: Communicate Production Plans
 
 ## Assembly Management (FULL)
 
 ## Production (FULL)
-### [How to: Schedule Production Processes](inventory-count-adjust-reclassify.md)
-### [How to: Issue Materials](inventory-count-adjust-reclassify.md)
-### [How to: Execute Production](inventory-count-adjust-reclassify.md)
+### How to: Schedule Production Processes
+### How to: Issue Materials
+### How to: Execute Production
 
 ## Warehousing (FULL)
-### [How to: Receive Items](inventory-count-adjust-reclassify.md)
-### [How to: Put Items Away](inventory-count-adjust-reclassify.md)
-### [How to: Assemble Items](inventory-count-adjust-reclassify.md)
-### [How to: Move Items](inventory-count-adjust-reclassify.md)
-### [How to: Pick Items](inventory-count-adjust-reclassify.md)
-### [How to: Ship Items](inventory-count-adjust-reclassify.md)
+### How to: Receive Items
+### How to: Put Items Away
+### How to: Assemble Items
+### How to: Move Items
+### How to: Pick Items
+### How to: Ship Items
 
 ## Service Management (FULL)
-### [How to: Plan Service](inventory-count-adjust-reclassify.md)
-### [How to: Fulfill Service Contracts](inventory-count-adjust-reclassify.md)
-### [How to: Handle Customer Inquiries](inventory-count-adjust-reclassify.md)
-### [How to: Deliver Service](inventory-count-adjust-reclassify.md)
+### How to: Plan Service
+### How to: Fulfill Service Contracts
+### How to: Handle Customer Inquiries
+### How to: Deliver Service
 
 # Local Functionality
 ## Australia
-### [How to: Enter Australian Business Numbers](inventory-count-adjust-reclassify.md)
-### [How to: Work with Business Statements](inventory-count-adjust-reclassify.md)
-### [How to: Handle BAS Fuel Tax Credits](inventory-count-adjust-reclassify.md)
-### [How to: Manage Withholding Tax](inventory-count-adjust-reclassify.md)
-### [Various Australian Tax functionality](inventory-count-adjust-reclassify.md)
-### [Addresses](inventory-count-adjust-reclassify.md)
-### [Electronic Funds Transfer (EFT)](inventory-count-adjust-reclassify.md)
-### [Calculating Distribution Amounts](inventory-count-adjust-reclassify.md)
-### [How to: Determine Sales Price by Cost Plus Percentage](inventory-count-adjust-reclassify.md)
-### [How to: Print Income Statements](inventory-count-adjust-reclassify.md)
-### [How to: Print Balance Sheet Reports](inventory-count-adjust-reclassify.md)
-### [How to: Compare Bank Cash Flow](inventory-count-adjust-reclassify.md)
-### [How to: Print Deposit Slip Reports](inventory-count-adjust-reclassify.md)
-### [How to: Print Bank Account Reconciliation Reports](inventory-count-adjust-reclassify.md)
-### [How to: Create Check Installments](inventory-count-adjust-reclassify.md)
+### How to: Enter Australian Business Numbers
+### How to: Work with Business Statements
+### How to: Handle BAS Fuel Tax Credits
+### How to: Manage Withholding Tax
+### Various Australian Tax functionality
+### Addresses
+### Electronic Funds Transfer (EFT)
+### Calculating Distribution Amounts
+### How to: Determine Sales Price by Cost Plus Percentage
+### How to: Print Income Statements
+### How to: Print Balance Sheet Reports
+### How to: Compare Bank Cash Flow
+### How to: Print Deposit Slip Reports
+### How to: Print Bank Account Reconciliation Reports
+### How to: Create Check Installments
 
 ## Austria
-### [hjvhjbg](inventory-count-adjust-reclassify.md)
+### mock-up
 ## Belgium
 ## Canada

@@ -213,7 +213,7 @@
 ### How to: Material Requirements Planning
 ### How to: Communicate Production Plans
 
-## Assembly Management (FULL)
+## Assembly (FULL)
 
 ## Production (FULL)
 ### How to: Schedule Production Processes
@@ -228,7 +228,7 @@
 ### How to: Pick Items
 ### How to: Ship Items
 
-## Service Management (FULL)
+## Service (FULL)
 ### How to: Plan Service
 ### How to: Fulfill Service Contracts
 ### How to: Handle Customer Inquiries
@@ -254,7 +254,9 @@
 
 ## Austria (FULL)
 ### mock-up
+
 ## Belgium (FULL)
 ### mock-up
+
 ## Germany (FULL)
 ### mock-up

@@ -15,8 +15,8 @@ ms.date: 05/30/2017
 ms.author: sgroespe
 
 ---
-> **FULL EXPERIENCE**<BR />
->This functionality may not be enabled in your solution. Contact your Microsoft partner if you want to buy an extension that gives you the full experience.
+**FULL EXPERIENCE**
+This functionality may not be enabled in your solution. Contact your Microsoft partner if you want to buy an extension that gives you the full experience.
 
 **Note**: If you have the Basic experience, then you can only make quantity adjustments on individual item cards. For more information, see [How to: Adjust Inventory](inventory-how-adjust-inventory.md).
 
@@ -28,10 +28,13 @@ If you need to adjust recorded inventory quantities, in connection with counting
 If you need to change attributes on item ledger entries as well as the quantities, you can use the item reclassification journal. Typical attributes to reclassify include serial/lot numbers, expiration dates, and variant codes.
 
 ## To adjust the inventory quantity of one or more items
-1. On the Home page, choose the **Items** action to open the list of existing items.
-2. Select the item for which you want to adjust inventory, and then choose the **Adjust Inventory** action.
-3. In the **New Inventory** field, enter the inventory quantity that you want to record for the item.
-4. Choose the **OK** button.
+In the **Item Journal** window, you can post item transaction directly to adjust inventory in connection with purchases, sales, and positive or negative adjustments without using documents.
+
+If you often use the item journal to post the same or similar journal lines, for example, in connection with material consumption, you can use the **Standard Item Journal** window to make this recurring work easier. For more information, see kl-nhhkiknh.
+
+1. In the top right corner, choose the **Search for Page or Report** icon, enter **Item Journals**, and then choose the related link
+2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Choose the **Post** action to make the inventory adjustments.
 
 ## To perform a physical inventory in solutions without Warehouse functionality
 1. jjbnæh

@@ -63,7 +63,7 @@
 ## [How to: Set up Email](madeira-how-setup-email.md)
 ## [How to: Create Number Series](ui-create-number-series.md)
 ## [How to: Set Up Extended Item Text](ui-how-define-ext-text.md)
-## [Setting Up Value Added Tax](finance-setup-vat.md)
+## [Setting Up Value Added Tax](finance-setup-vat-reporting.md)
 
 # [Finance](finance.md)
 ## [Managing Receivables](receivables-manage-receivables.md)

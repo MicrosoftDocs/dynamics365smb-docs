@@ -3,15 +3,15 @@ title: Working with General Journals | Microsoft Docs
 description: Learn how general journals work.
 services: project-madeira
 documentationcenter: ''
-author: edupont04
+author: SorenGP
 
 ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/03/2017
-ms.author: edupont
+ms.date: 05/30/2017
+ms.author: sgroespe
 
 ---
 # Working with General Journals
@@ -37,6 +37,47 @@ If you have set up default balancing accounts for the journal batches, the balan
 
 ## Recurring journals
 A recurring journal is a general journal with specific fields for managing transactions that you post frequently with few or no changes. Using these fields for recurring transactions, you can post both fixed and variable amounts. You can also specify automatic reversal entries for the day after the posting date and use allocation keys with the recurring entries.
+
+## Standard Journals
+When you have created journal lines which you know you are likely to create again later, you can save them as a standard journal before you post the journal. This functionality applies to item journals and general journals.
+
+**Note**: The following procedure refers to the item journal, but the information also applies to the general journal.
+
+### To save a standard journal
+1. In the top right corner, choose the **Search for Page or Report** icon, enter **Item Journals**, and then choose the related link.
+2. Enter one or more journal lines.
+3. Select the journal lines that you want to reuse.
+4. Choose the **Save as Standard Journal** action.
+5. In the **Save as Standard Item Journal** request window, define a new or existing standard item journal that the lines should be saved in.
+
+    If you have already created one or more standard item journals and you want to replace one of these with the new set of item journal lines, in the Code field, select the code you want.
+6. Choose the **OK** button to verify that you want to overwrite the existing standard item journal and replace all its content.
+7. Select the **Save Unit Amount** field if you want to save the values in the **Unit Amount** field of the standard item journal.
+8. Select the **Save Quantity** field if you want the program to save the values in the **Quantity** field.
+9. Choose the **OK** button to save the standard item journal.
+
+When you have finished saving the standard item journal, the Item Journal window is displayed so you can proceed to post it, knowing that it can easily be recreated next time you need to post the same or similar lines.
+
+### To reuse a standard journal
+1. In the top right corner, choose the **Search for Page or Report** icon, enter **Item Journals**, and then choose the related link.
+2. Choose the **Get Standard Journals** action.
+
+    The Standard Item Journals window opens showing codes and descriptions for all existing standard item journals.
+3. To review a standard item journal before you select it for reuse, choose the **Show Journal** action.
+
+    Any changes you make in a standard item journal are implemented right away. They will be there next time you open or reuse the standard item journal in question. You should therefore be sure that the change is important enough to apply generally. Otherwise, make the specific change in the item journal after the standard item journal lines have been inserted. See step 4 below.
+4. In the **Standard Item Journals** window, select the standard item journal you want to reuse, and choose the **OK** button.
+
+    Now the item journal is filled with the lines you saved as the standard item journal. If journal lines already existed in the item journal, the inserted lines will be placed under the existing journal lines.
+
+    If you did not check the **Save Unit Amount** field when you used the **Save as Standard Item Journal** function job, then the **Unit Amount** field on lines that are inserted from the standard journal is automatically filled with the item’s current value, copied from the **Unit Cost** field on the item card.
+
+    **Note**: If you selected the **Save Unit Amount** or **Save Quantity** fields, you should now make sure the inserted values are correct for this particular inventory adjustment before you post the item journal.
+
+    If the inserted item journal lines contain saved unit amounts that you do not want to post, you can quickly adjust it to the current value of the item as follows.
+
+6. Select the item journal lines you want to adjust, and then choose the **Recalculate Unit Amount** action. This will update the Unit Amount field with the current unit cost of the item.
+7. Choose the **post** action.
 
 ## See Also
 [How to: Use Allocation Keys in General Journals](ui-how-use-allocation-keys-general-journals.md)  

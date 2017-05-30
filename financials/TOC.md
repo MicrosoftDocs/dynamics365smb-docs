@@ -186,9 +186,9 @@
 
 ## Inventory Costing (FULL)
 ### About Inventory Costing
-### How to: Change Costing Method
+### How to: Change Costing Methods
 ### How to: Handle Inventory and Manufacturing Costs
-### How to: Report Costs and Reconcile with the General Ledger
+### [How to: Analyze Inventory Reconciliation with the General Ledger]()
 
 ## Business Intelligence (FULL)
 ### How to: Create Reports with XBRL
@@ -203,8 +203,7 @@
 ### How to: Make Prepayments to Vendors
 
 ## Inventory (FULL)
-### How to: Trace Items
-### [How to Count, Adjust, and Reclassify Items](inventory-count-adjust-reclassify.md)
+### [Perform Cycle Counting](inventory-how-perform-cycle-counting.md)
 
 ## Planning (FULL)
 ### How to: Plan for Production Availability

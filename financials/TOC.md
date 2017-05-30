@@ -235,7 +235,7 @@
 ### How to: Deliver Service
 
 # Local Functionality
-## Australia
+## Australia (FULL)
 ### How to: Enter Australian Business Numbers
 ### How to: Work with Business Statements
 ### How to: Handle BAS Fuel Tax Credits
@@ -252,7 +252,9 @@
 ### How to: Print Bank Account Reconciliation Reports
 ### How to: Create Check Installments
 
-## Austria
+## Austria (FULL)
 ### mock-up
-## Belgium
-## Canada
+## Belgium (FULL)
+### mock-up
+## Germany (FULL)
+### mock-up

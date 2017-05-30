@@ -94,8 +94,7 @@
 ## [Sales Tax and Goods and Services Tax in Canada](ca-finance-tax.md)
 ## [How to: Work with GIFI Codes in Canada](ca-finance-work-gifi-codes.md)
 
-# [Business Intelligence](bi.md
-)
+# [Business Intelligence](bi.md)
 ## [How to: Analyze Actual Amounts Versus Budgeted Amounts](bi-how-analyze-actual-versus-budget.md)
 ## [How to: Work with Account Schedules](bi-how-work-account-schedule.md)
 ## [How to: Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)

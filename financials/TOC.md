@@ -177,13 +177,14 @@
 ### [Processing Incoming Documents](across-process-income-documents.md)
 
 # Full Experience (Mockup for LT)
-## Finance - Cost Accounting
+## Cost Accounting
 ### [About Cost Accounting](warehouse-count-adjust-reclassify.md)
 ### [Setting Up Cost Accounting](warehouse-count-adjust-reclassify.md)
 ### [How to: Transfer and Post Cost Entries](warehouse-count-adjust-reclassify.md)
 ### [How to: Define and Allocate Costs](warehouse-count-adjust-reclassify.md)
 ### [How to: Create Cost Budgets](warehouse-count-adjust-reclassify.md)
-## Finance - Costing
+
+## Inventory Costing
 ### [About Inventory Costing](warehouse-count-adjust-reclassify.md)
 ### [How to: Handle Inventory and Manufacturing Costs](warehouse-count-adjust-reclassify.md)
 ### [How to: Report costs and Reconcile with the General Ledger](warehouse-count-adjust-reclassify.md)
@@ -192,11 +193,17 @@
 ### [How to: Create Reports with XBRL](warehouse-count-adjust-reclassify.md)
 ### [How to: Set Up and Publish KPI Web Services Based on Account Schedules](warehouse-count-adjust-reclassify.md)
 
-## Sales - [How to: Work with Blanket Sales Orders](warehouse-count-adjust-reclassify.md)
+## Sales
+### [How to: Work with Blanket Sales Orders](warehouse-count-adjust-reclassify.md)
+### [ ]( )
 
-## Purchasing - [How to: Work with Blanket Purchase Orders](warehouse-count-adjust-reclassify.md)
+## Purchasing
+### [How to: Work with Blanket Purchase Orders](warehouse-count-adjust-reclassify.md)
+### [ ]( )
 
-## Inventory - [How to: Work with Item Tracking](warehouse-count-adjust-reclassify.md)
+## Inventory
+### [How to: Work with Item Tracking](warehouse-count-adjust-reclassify.md)
+### [ ]( )
 
 ## Planning
 ### [How to: Plan for Production Availability](warehouse-count-adjust-reclassify.md)

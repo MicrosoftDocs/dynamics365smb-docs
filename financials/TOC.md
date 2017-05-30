@@ -176,51 +176,51 @@
 ### [How to: Set Up Incoming Documents](across-how-setup-income-documents.md)
 ### [Processing Incoming Documents](across-process-income-documents.md)
 
-# Full Experience (Mockup for LT)
-## Cost Accounting (FULL EXPERIENCE)
+# Full Experience
+## Cost Accounting (FULL)
 ### [About Cost Accounting](inventory-count-adjust-reclassify.md)
 ### [Setting Up Cost Accounting](inventory-count-adjust-reclassify.md)
 ### [How to: Transfer and Post Cost Entries](inventory-count-adjust-reclassify.md)
 ### [How to: Define and Allocate Costs](inventory-count-adjust-reclassify.md)
 ### [How to: Create Cost Budgets](inventory-count-adjust-reclassify.md)
 
-## Inventory Costing (FULL EXPERIENCE)
+## Inventory Costing (FULL)
 ### [About Inventory Costing](inventory-count-adjust-reclassify.md)
 ### [How to: Change Costing Method](inventory-count-adjust-reclassify.md)
 ### [How to: Handle Inventory and Manufacturing Costs](inventory-count-adjust-reclassify.md)
 ### [How to: Report Costs and Reconcile with the General Ledger](inventory-count-adjust-reclassify.md)
 
-## Business Intelligence (FULL EXPERIENCE)
+## Business Intelligence (FULL)
 ### [How to: Create Reports with XBRL](inventory-count-adjust-reclassify.md)
 ### [How to: Set Up and Publish KPI Web Services Based on Account Schedules](inventory-count-adjust-reclassify.md)
 
-## Sales (FULL EXPERIENCE)
+## Sales (FULL)
 ### [How to: Work with Blanket Sales Orders](inventory-count-adjust-reclassify.md)
 ### [How to: Receive Prepayments from Customers](inventory-count-adjust-reclassify.md)
 
-## Purchasing (FULL EXPERIENCE)
+## Purchasing (FULL)
 ### [How to: Work with Blanket Purchase Orders](inventory-count-adjust-reclassify.md)
 ### [How to: Make Prepayments to Vendors](inventory-count-adjust-reclassify.md)
 
-## Inventory (FULL EXPERIENCE)
+## Inventory (FULL)
 ### [How to: Trace Items](inventory-count-adjust-reclassify.md)
 ### [How to Count, Adjust, and Reclassify Items](inventory-count-adjust-reclassify.md)
 
-## Planning (FULL EXPERIENCE)
+## Planning (FULL)
 ### [How to: Plan for Production Availability](inventory-count-adjust-reclassify.md)
 ### [How to: Forecast for Sales and Production](inventory-count-adjust-reclassify.md)
 ### [How to: Perform Master Planning](inventory-count-adjust-reclassify.md)
 ### [How to: Material Requirements Planning](inventory-count-adjust-reclassify.md)
 ### [How to: Communicate Production Plans](inventory-count-adjust-reclassify.md)
 
-## Assembly Management (FULL EXPERIENCE)
+## Assembly Management (FULL)
 
-## Production (FULL EXPERIENCE)
+## Production (FULL)
 ### [How to: Schedule Production Processes](inventory-count-adjust-reclassify.md)
 ### [How to: Issue Materials](inventory-count-adjust-reclassify.md)
 ### [How to: Execute Production](inventory-count-adjust-reclassify.md)
 
-## Warehousing (FULL EXPERIENCE)
+## Warehousing (FULL)
 ### [How to: Receive Items](inventory-count-adjust-reclassify.md)
 ### [How to: Put Items Away](inventory-count-adjust-reclassify.md)
 ### [How to: Assemble Items](inventory-count-adjust-reclassify.md)
@@ -228,13 +228,13 @@
 ### [How to: Pick Items](inventory-count-adjust-reclassify.md)
 ### [How to: Ship Items](inventory-count-adjust-reclassify.md)
 
-## Service Management (FULL EXPERIENCE)
+## Service Management (FULL)
 ### [How to: Plan Service](inventory-count-adjust-reclassify.md)
 ### [How to: Fulfill Service Contracts](inventory-count-adjust-reclassify.md)
 ### [How to: Handle Customer Inquiries](inventory-count-adjust-reclassify.md)
 ### [How to: Deliver Service](inventory-count-adjust-reclassify.md)
 
-# Local Functionality (Mockup for LT)
+# Local Functionality
 ## Australia
 ### [How to: Enter Australian Business Numbers](inventory-count-adjust-reclassify.md)
 ### [How to: Work with Business Statements](inventory-count-adjust-reclassify.md)

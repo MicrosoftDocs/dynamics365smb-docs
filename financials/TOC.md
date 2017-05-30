@@ -63,7 +63,7 @@
 ## [How to: Set up Email](madeira-how-setup-email.md)
 ## [How to: Create Number Series](ui-create-number-series.md)
 ## [How to: Set Up Extended Item Text](ui-how-define-ext-text.md)
-## [Setting Up Value Added Tax](finance-setup-vat.md)
+## [Setting Up Value Added Tax](finance-setup-vat-reporting.md)
 
 # [Finance](finance.md)
 ## [Managing Receivables](receivables-manage-receivables.md)
@@ -92,6 +92,7 @@
 ## [Sales Tax and Tax Groups in the US and Canada](us-finance-sales-tax.md)
 ## [Sales Tax and Goods and Services Tax in Canada](ca-finance-tax.md)
 ## [How to: Work with GIFI Codes in Canada](ca-finance-work-gifi-codes.md)
+# [Accountant experiences in Financials](finance-accounting.md)
 
 # [Business Intelligence](bi.md)
 ## [How to: Analyze Actual Amounts Versus Budgeted Amounts](bi-how-analyze-actual-versus-budget.md)

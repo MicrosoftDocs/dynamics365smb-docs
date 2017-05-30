@@ -1,6 +1,6 @@
 ---
 title: 'How to: Count, Adjust, and Reclassify Inventory| Microsoft Docs'
-description: 'Describes how to perform physical counting, make negative or positive asdjustments of inventory quantities, and how to change information of item entries, such as location, code, dimension, or serial number.'
+description: 'Describes how to perform physical counting, make negative or positive adjustments of inventory quantities, and how to change information of item entries, such as location, code, dimension, or serial number.'
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -15,9 +15,8 @@ ms.date: 05/30/2017
 ms.author: sgroespe
 
 ---
-> [!Full Experience]
->  This functionality may not be enabled in your solution. Contact your Microsoft partner if you need an upgrade.
-****
+> [!FULL EXPERIENCE]  
+>  This functionality may not be enabled in your solution. Contact your Microsoft partner if you want to buy extensions.  
 
 **Note**: If you have the Basic experience, then you can only make quantity adjustments on individual item cards. For more information, see [How to: Adjust Inventory](inventory-how-adjust-inventory.md).
 

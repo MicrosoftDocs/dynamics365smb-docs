@@ -6,7 +6,7 @@
 ## [Getting Financials on Your Mobile Device](install-mobile-app.md)
 ## [Using Financials as Your Business Inbox in Outlook](madeira-outlook.md)
 ## [Using Financials Without Outlook](madeira-no-outlook.md)
-## [Enabling Your Business Data for Power BI](madeira-powerwarehouse-count-adjust-reclassify.md)
+## [Enabling Your Business Data for Power BI](madeira-power-bi.md)
 ## [Customizing Financials Using Extensions](ui-extensions.md)
 
 # Tips and Tricks

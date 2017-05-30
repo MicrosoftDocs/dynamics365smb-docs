@@ -195,15 +195,15 @@
 
 ## Sales
 ### [How to: Work with Blanket Sales Orders](warehouse-count-adjust-reclassify.md)
-### [ ]( )
+### []()
 
 ## Purchasing
 ### [How to: Work with Blanket Purchase Orders](warehouse-count-adjust-reclassify.md)
-### [ ]( )
+### []()
 
 ## Inventory
 ### [How to: Work with Item Tracking](warehouse-count-adjust-reclassify.md)
-### [ ]( )
+### []()
 
 ## Planning
 ### [How to: Plan for Production Availability](warehouse-count-adjust-reclassify.md)

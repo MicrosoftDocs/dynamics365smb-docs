@@ -186,7 +186,7 @@
 
 ## Inventory Costing (FULL EXPERIENCE)
 ### [About Inventory Costing](inventory-count-adjust-reclassify.md)
-### [How to: Change Costing Method]( )
+### [How to: Change Costing Method]()
 ### [How to: Handle Inventory and Manufacturing Costs](inventory-count-adjust-reclassify.md)
 ### [How to: Report Costs and Reconcile with the General Ledger](inventory-count-adjust-reclassify.md)
 
@@ -196,11 +196,11 @@
 
 ## Sales (FULL EXPERIENCE)
 ### [How to: Work with Blanket Sales Orders](inventory-count-adjust-reclassify.md)
-### [How to: Handle Prepayments from Customers]( )
+### [How to: Handle Prepayments from Customers]()
 
 ## Purchasing (FULL EXPERIENCE)
 ### [How to: Work with Blanket Purchase Orders](inventory-count-adjust-reclassify.md)
-### [How to: Handle Prepayments to Vendors]( )
+### [How to: Handle Prepayments to Vendors]()
 
 ## Inventory (FULL EXPERIENCE)
 ### [How to: Work with Item Tracking](inventory-count-adjust-reclassify.md)

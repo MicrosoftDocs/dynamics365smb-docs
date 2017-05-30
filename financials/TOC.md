@@ -196,7 +196,7 @@
 
 ## Sales (FULL EXPERIENCE)
 ### [How to: Work with Blanket Sales Orders](inventory-count-adjust-reclassify.md)
-### [How to: Receive Prepayments from Customers]((inventory-count-adjust-reclassify.md)
+### [How to: Receive Prepayments from Customers](inventory-count-adjust-reclassify.md)
 
 ## Purchasing (FULL EXPERIENCE)
 ### [How to: Work with Blanket Purchase Orders](inventory-count-adjust-reclassify.md)

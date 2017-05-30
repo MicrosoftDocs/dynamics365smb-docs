@@ -10,6 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.keywords: GetAddress.io, postcodes, postal, address, extension
 ms.date: 04/11/2017
 ms.author: bholtorf
 

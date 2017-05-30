@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: move, warehouse 
+ms.search.keywords: move, warehouse
 ms.date: 03/28/2017
 ms.author: SorenGP
 
@@ -45,8 +45,9 @@ To transfer items, locations and transfer routes must be set up. For more inform
 4. Choose the **Post** action, choose the **Receive** option, and then choose the **OK** button.
 
 ## To transfer items with the item reclassification journal
+The **Item Reclass Journal** window is normally used to change item attributes. For more information, see [How to: Count, Adjust, and Reclassify Inventory]()  
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Item Reclass. Journals**, and then choose the related link.
-2. In the **Item Reclass. Journal** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. In the **Item Reclass. Journal** window, fill in the fields as necessary.
 3. In the **Location Code** field, enter the location where the items are currently stored.
 
     **Note**: To transfer items that have no location code, leave the **Location Code** field blank.

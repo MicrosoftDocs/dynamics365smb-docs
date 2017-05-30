@@ -6,7 +6,7 @@
 ## [Getting Financials on Your Mobile Device](install-mobile-app.md)
 ## [Using Financials as Your Business Inbox in Outlook](madeira-outlook.md)
 ## [Using Financials Without Outlook](madeira-no-outlook.md)
-## [Enabling Your Business Data for Power BI](madeira-powerbi.md)
+## [Enabling Your Business Data for Power BI](madeira-power-bi.md)
 ## [Customizing Financials Using Extensions](ui-extensions.md)
 
 # Tips and Tricks
@@ -178,77 +178,72 @@
 
 # Full Experience (Mockup for LT)
 ## Finance - Cost Accounting
-### [About Cost Accounting](bi.md)
-### [Setting Up Cost Accounting](bi.md)
-### [How to: Transfer and Post Cost Entries](bi.md)
-### [How to: Define and Allocate Costs](bi.md)
-### [How to: Create Cost Budgets](bi.md)
+### [About Cost Accounting](warehouse-count-adjust-reclassify.md)
+### [Setting Up Cost Accounting](warehouse-count-adjust-reclassify.md)
+### [How to: Transfer and Post Cost Entries](warehouse-count-adjust-reclassify.md)
+### [How to: Define and Allocate Costs](warehouse-count-adjust-reclassify.md)
+### [How to: Create Cost Budgets](warehouse-count-adjust-reclassify.md)
 ## Finance - Costing
-### [About Inventory Costing](bi.md)
-### [How to: Handle Inventory and Manufacturing Costs](bi.md)
-### [How to: Report costs and Reconcile with the General Ledger](bi.md)
+### [About Inventory Costing](warehouse-count-adjust-reclassify.md)
+### [How to: Handle Inventory and Manufacturing Costs](warehouse-count-adjust-reclassify.md)
+### [How to: Report costs and Reconcile with the General Ledger](warehouse-count-adjust-reclassify.md)
 
 ## Business Intelligence
-### [Business Intelligence - How to: Create Report with XBRL](bi.md)
-### [Business Intelligence - How to: Set Up and Publish KPI Web Services Based on Account Schedules](bi.md)
+### [How to: Create Reports with XBRL](warehouse-count-adjust-reclassify.md)
+### [How to: Set Up and Publish KPI Web Services Based on Account Schedules](warehouse-count-adjust-reclassify.md)
 
-## Sales
-### [Sales - How to: Work with Blanket Sales Orders](bi.md)
-### [Sales - How to: Work with Sales Return Orders](bi.md)
+## Sales - [How to: Work with Blanket Sales Orders](warehouse-count-adjust-reclassify.md)
 
-## Purchasing
-### [Purchasing - How to: Work with Blanket Purchase Orders](bi.md)
-### [Purchasing - How to: Work with Purchase Return Orders](bi.md)
+## Purchasing - [How to: Work with Blanket Purchase Orders](warehouse-count-adjust-reclassify.md)
 
-## Inventory
-## [Inventory - How to: Work with Item Tracking](bi.md)
+## Inventory - [How to: Work with Item Tracking](warehouse-count-adjust-reclassify.md)
 
 ## Planning
-### [How to: Plan for Production Availability](bi.md)
-### [How to: Forecast for Sales and Production](bi.md)
-### [How to: Perform Master Planning](bi.md)
-### [How to: Material Requirements Planning](bi.md)
-### [How to: Communicate Production Plans](bi.md)
+### [How to: Plan for Production Availability](warehouse-count-adjust-reclassify.md)
+### [How to: Forecast for Sales and Production](warehouse-count-adjust-reclassify.md)
+### [How to: Perform Master Planning](warehouse-count-adjust-reclassify.md)
+### [How to: Material Requirements Planning](warehouse-count-adjust-reclassify.md)
+### [How to: Communicate Production Plans](warehouse-count-adjust-reclassify.md)
 
 ## Production
-### [How to: Schedule Production Processes](bi.md)
-### [How to: Issue Materials](bi.md)
-### [How to: Execute Production](bi.md)
+### [How to: Schedule Production Processes](warehouse-count-adjust-reclassify.md)
+### [How to: Issue Materials](warehouse-count-adjust-reclassify.md)
+### [How to: Execute Production](warehouse-count-adjust-reclassify.md)
 
 ## Warehousing
-### [How to: Receive Items](bi.md)
-### [How to: Put Items Away](bi.md)
-### [How to: Assemble Items](bi.md)
-### [How to: Move Items](bi.md)
-### [How to Count, Adjust, and Reclassify Items](bi.md)
-### [How to: Pick Items](bi.md)
-### [How to: Ship Items](bi.md)
+### [How to: Receive Items](warehouse-count-adjust-reclassify.md)
+### [How to: Put Items Away](warehouse-count-adjust-reclassify.md)
+### [How to: Assemble Items](warehouse-count-adjust-reclassify.md)
+### [How to: Move Items](warehouse-count-adjust-reclassify.md)
+### [How to Count, Adjust, and Reclassify Items](warehouse-count-adjust-reclassify.md)
+### [How to: Pick Items](warehouse-count-adjust-reclassify.md)
+### [How to: Ship Items](warehouse-count-adjust-reclassify.md)
 
 ## Service Management
-### [How to: Plan Service](bi.md)
-### [How to: Fulfill Service Contracts](bi.md)
-### [How to: Handle Customer Inquiries](bi.md)
-### [How to: Deliver Service](bi.md)
+### [How to: Plan Service](warehouse-count-adjust-reclassify.md)
+### [How to: Fulfill Service Contracts](warehouse-count-adjust-reclassify.md)
+### [How to: Handle Customer Inquiries](warehouse-count-adjust-reclassify.md)
+### [How to: Deliver Service](warehouse-count-adjust-reclassify.md)
 
 # Local Functionality (Mockup for LT)
 ## Australia
-### [How to: Enter Australian Business Numbers](bi.md)
-### [How to: Work with Business Statements](bi.md)
-### [How to: Handle BAS Fuel Tax Credits](bi.md)
-### [How to: Manage Withholding Tax](bi.md)
-### [Various Australian Tax functionality](bi.md)
-### [Addresses](bi.md)
-### [Electronic Funds Transfer (EFT)](bi.md)
-### [Calculating Distribution Amounts](bi.md)
-### [How to: Determine Sales Price by Cost Plus Percentage](bi.md)
-### [How to: Print Income Statements](bi.md)
-### [How to: Print Balance Sheet Reports](bi.md)
-### [How to: Compare Bank Cash Flow](bi.md)
-### [How to: Print Deposit Slip Reports](bi.md)
-### [How to: Print Bank Account Reconciliation Reports](bi.md)
-### [How to: Create Check Installments](bi.md)
+### [How to: Enter Australian Business Numbers](warehouse-count-adjust-reclassify.md)
+### [How to: Work with Business Statements](warehouse-count-adjust-reclassify.md)
+### [How to: Handle BAS Fuel Tax Credits](warehouse-count-adjust-reclassify.md)
+### [How to: Manage Withholding Tax](warehouse-count-adjust-reclassify.md)
+### [Various Australian Tax functionality](warehouse-count-adjust-reclassify.md)
+### [Addresses](warehouse-count-adjust-reclassify.md)
+### [Electronic Funds Transfer (EFT)](warehouse-count-adjust-reclassify.md)
+### [Calculating Distribution Amounts](warehouse-count-adjust-reclassify.md)
+### [How to: Determine Sales Price by Cost Plus Percentage](warehouse-count-adjust-reclassify.md)
+### [How to: Print Income Statements](warehouse-count-adjust-reclassify.md)
+### [How to: Print Balance Sheet Reports](warehouse-count-adjust-reclassify.md)
+### [How to: Compare Bank Cash Flow](warehouse-count-adjust-reclassify.md)
+### [How to: Print Deposit Slip Reports](warehouse-count-adjust-reclassify.md)
+### [How to: Print Bank Account Reconciliation Reports](warehouse-count-adjust-reclassify.md)
+### [How to: Create Check Installments](warehouse-count-adjust-reclassify.md)
 
 ## Austria
-### [hjvhjbg](bi.md)
+### [hjvhjbg](warehouse-count-adjust-reclassify.md)
 ## Belgium
 ## Canada

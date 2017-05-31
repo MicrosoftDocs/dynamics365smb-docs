@@ -15,6 +15,8 @@ ms.date: 05/30/2017
 ms.author: sgroespe
 
 ---
+<blockquote STYLE="background: #81BEF7;border-left:None"><b>FULL EXPERIENCE</b><br />This functionality may not be enabled. Contact your Microsoft partner to buy an extension that gives you the full experience. </blockquote>
+
 **FULL EXPERIENCE** This functionality may not be enabled. Contact your Microsoft partner to buy an extension that gives you the full experience.
 
 If you have the Basic experience, then you must manually initiate the counting of your inventory. For more information, see [How to: Count, Adjust, and Reclassify Inventory](inventory-how-count-adjust-reclassify.md).

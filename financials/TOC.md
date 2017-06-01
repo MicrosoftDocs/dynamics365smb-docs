@@ -24,7 +24,7 @@
 ### [Payment Methods](finance-payment-methods.md)
 ### [How to: Open a New Fiscal Year](finance-how-open-new-fiscal-year.md)
 ### [How to: Adjust Currency Exchange Rates](finance-how-update-currencies.md)
-### [Setting Up Dimensions](finance-setup-dimensions.md)
+### [Setting Up Dimensions](finance-dimensions.md)
 ### [Setting Up the Chart of Accounts](finance-setup-chart-accounts.md)
 ### [Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md)
 ## [Setting Up Banking](bank-setup-banking.md)

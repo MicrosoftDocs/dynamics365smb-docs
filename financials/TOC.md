@@ -194,7 +194,7 @@
 ### [How to: Analyze Inventory Reconciliation with the General Ledger]()
 
 ## Business Intelligence (FULL)
-### How to: Create Reports with XBRL
+### [How to: Create Reports with XBRL](bi-how-work-xbrl.md) 
 ### How to: Set Up and Publish KPI Web Services Based on Account Schedules
 
 ## Sales (FULL)
@@ -204,9 +204,6 @@
 ## Purchasing (FULL)
 ### How to: Work with Blanket Purchase Orders
 ### How to: Make Prepayments to Vendors
-
-## Inventory (FULL)
-### [Perform Cycle Counting](inventory-how-perform-cycle-counting.md)
 
 ## Planning (FULL)
 ### How to: Plan for Production Availability

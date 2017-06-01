@@ -1,6 +1,6 @@
 ---
 title: How to: Analyze Actual Amounts Versus Budgeted Amounts| Microsoft Docs
-description: Describes how to analyze actual amounts versus budgeted amounts.
+description: *Describes how to analyze actual amounts versus budgeted amounts.*
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -36,7 +36,7 @@ In a budget with dimensions, you can filter the entries and see specific budgets
 ## To view actual and budgeted amounts for all accounts  
 You can view general ledger budgets and compare them with actual figures in several areas of [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Chart of Accounts**, and then choose the related link.  
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Chart of Accounts**, and then choose the related link.  
 2. In the **Chart of Accounts** window, choose the **G/L Balance/Budget** action.
 3. Fill in the fields as necessary.  
 4. To see a specification that makes up the amount shown, choose the field.  
@@ -50,7 +50,7 @@ The leftmost columns contain the chart of accounts. Of the five columns on the r
 ## To view actual and budgeted amounts for several periods  
 Instead of viewing the actual and budgeted amounts for all accounts within a single period, you can view a number of periods for a single account.  
 
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Chart of Accounts**, and then choose the related link.  
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Chart of Accounts**, and then choose the related link.  
 2. In the **Chart of Accounts** window, select the relevant general ledger account, and then choose the **G/L Account Balance/Budget** action.  
 3. Fill in the fields as necessary.   
 4. To see a specification of an amount shown, choose the field.  

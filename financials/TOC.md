@@ -11,7 +11,6 @@
 
 # Tips and Tricks
 ## [Working With Financials](ui-work-product.md)
-## [Getting Ready for Doing Business](ui-get-ready-business.md)
 ## [Using Search for Page or Report](ui-search.md)
 ## [Changing Basic Settings](ui-change-basic-settings.md)
 ## [How to: Change the Role Center](change-role.md)
@@ -24,7 +23,6 @@
 ### [Payment Methods](finance-payment-methods.md)
 ### [How to: Open a New Fiscal Year](finance-how-open-new-fiscal-year.md)
 ### [How to: Adjust Currency Exchange Rates](finance-how-update-currencies.md)
-### [Setting Up Dimensions](finance-dimensions.md)
 ### [Setting Up the Chart of Accounts](finance-setup-chart-accounts.md)
 ### [Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md)
 ## [Setting Up Banking](bank-setup-banking.md)

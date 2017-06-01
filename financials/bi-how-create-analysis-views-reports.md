@@ -1,7 +1,6 @@
 ---
 title: 'How to: Create Analysis Views and Reports| Microsoft Docs'
 description: Describes how to create new analysis reports for sales, purchases, and inventory, and set up analysis templates.
-Using account schedules to analyze data.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -12,18 +11,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 05/31/2017
+ms.date: 06/01/2017
 ms.author: sgroespe
 
 ---
-# How to: Create Analysis Views and Reports
+#  How to: Create Analysis Views and Reports
 Sales managers need to analyze turnover, gross profit and other key sales performance indicators on a regular basis. Purchasers, are more interested in the dynamics of purchase volumes, vendors' performance and purchase prices. Whereas logistics/inventory managers need information on inventory turnover, analysis of inventory movement, and statistics on inventory value.  
 
 You can use analysis reports to create customized reports based on records of your posted transactions, for example, sales, purchases, transfers and inventory adjustments. In a customizable report, the source data, which is derived from the item ledger (with associated value entries), can be combined, compared and presented in meaningful user-defined ways. In this sense, the analysis report is very similar to a PivotTable report in Microsoft Excel.  
 
 You can create your personalized report that focuses on your key accounts in terms of total turnover both in amounts and quantities sold, gross profit and gross profit percentage during the current month, and have it compare those figures with the results from previous months or the same month last year, and calculate deviations. All this can be done in one and the same view, with the possibility to navigate to the cause of identified problem areas by choosing the drop-down button to access details on the level of individual transactions.  
 
-The analysis report consists of the objects that you want to analyze, such as customers, customer groups, sales people and so on, represented as lines, and the analysis parameters, that is, the way you want to analyze the object, represented as columns, such as profit calculations, periodic comparisons of sales amounts and volumes or periodic comparisons of actual and budgeted figures.  
+The analysis report consists of the objects that you want to analyze, such as customers, customer groups, sales people and so on, represented as lines, and the analysis parameters, that is, the way you want to analyze the object, represented as columns, such as profit calculations, periodic comparisons of sales amounts and volumes or periodic comparisons of actual and budgeted figures.
 
 ## Example  
 You can set up lines like these:  
@@ -52,7 +51,7 @@ Based on the lines and columns you have set up, the program will aggregate the r
 
  You can, for example, set up one set of lines and several sets of column layouts to show monthly and annual reports respectively.
 
-## To set up analysis column templates
+ ## To set up analysis column templates
 The following procedure is based on analysis views for sales. The steps are similar for purchase and inventory analysis views.
 
 In an analysis report, your analysis parameters are shown as columns. You can define the columns that you want to include in your analysis report by setting up analysis column templates.  
@@ -94,10 +93,10 @@ You use analysis reports to analyze the dynamics of your sales according to key 
 4. Choose the **Edit Analysis Report** action.
 5. In the **Sales Analysis Report** window, choose the **Show Matrix** action  
 
-**Note**: Building combinations of line and column templates to create reports and assigning them unique names is optional. If you do this, selecting a report name means that you will not need to select line and column templates in the **Sales Analysis Report** window. After you have chosen a report name, you can change line and column templates independently and then later select the report name again to restore the original combination.  
+**Note**: Building combinations of line and column templates to create reports and assigning them unique names is optional. If you do this, selecting a report name means that you will not need to select line and column templates in the **Sales Analysis Report** window. After you have chosen a report name, you can change line and column templates independently and then later select the report name again to restore the original combination.
 
 ## See Also
-[Business Intelligence](bi.md)
+[Business Intelligence](bi.md)  
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  

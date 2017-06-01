@@ -74,6 +74,6 @@ With this set up, you then add your two dimensions as the two global dimensions 
 With this set up, you can start adding dimensions to documents and journals. For more information, see [Dimensions](finance-dimensions.md).  
 
 ## See Also
-[Dimensions](finance-dimensions.md)  
+[Working with Dimensions](finance-dimensions.md)  
 [Setting Up Finance](finance-setup-finance.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

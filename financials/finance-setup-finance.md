@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: accounting, auditing, bookkeeping 
+ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 03/28/2017
 ms.author: edupont
 
@@ -34,7 +34,7 @@ The following table describes a sequence of tasks, with links to the topics that
 
 ## See Also
 [Managing Bank Accounts](bank-manage-bank-accounts.md)  
-[Dimensions](finance-dimensions.md)  
+[Working with Dimensions](finance-dimensions.md)  
 [Importing Business Data from Other Finance Systems](upload-data.md)  
 [Analyzing Cash Flow in Your Company](finance-analyze-cash-flow.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

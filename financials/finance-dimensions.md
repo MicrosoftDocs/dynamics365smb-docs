@@ -1,5 +1,5 @@
 ---
-title: Dimensions| Microsoft Docs
+title: Working with Dimensions| Microsoft Docs
 description: Using dimensions to analyse data.
 services: project-madeira
 documentationcenter: ''
@@ -15,7 +15,7 @@ ms.date: 03/24/2017
 ms.author: bholtorf
 
 ---
-# Dimensions
+# Working with Dimensions
 To make it simpler to perform analysis on documents such as sales orders, you can use dimensions. Dimensions are attributes and values that categorize entries so you can track and analyze them. For example, dimensions can indicate the project or department an entry came from.  
 
 For example, instead of setting up separate general ledger accounts for each department and project, you can use dimensions. This gives a rich opportunity for analysis, without creating a complicated chart of accounts.  

@@ -33,7 +33,7 @@ From the chart of accounts, you can open each G/L account and add or change sett
 ## See Also
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
 [Managing Bank Accounts](bank-manage-bank-accounts.md)  
-[Dimensions](finance-dimensions.md)  
+[Working with Dimensions](finance-dimensions.md)  
 [Importing from Other Finance Systems](upload-data.md)  
 [How to: Work With GIFI Codes in Canada](ca-finance-work-gifi-codes.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

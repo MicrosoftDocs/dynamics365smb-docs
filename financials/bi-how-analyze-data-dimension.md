@@ -1,6 +1,6 @@
 ---
 title: How to: Analyze Data by Dimensions| Microsoft Docs
-description: Describes how to analyze various business data by dimensions.
+description: *Describes how to analyze various business data by dimensions.*
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -25,7 +25,7 @@ Analyzing data by dimensions gives you greater insight into your business, so yo
 ## To set up an analysis view  
 An analysis by dimensions displays a selected combination of dimensions. You can store and retrieve each analysis you have set up. The information for setting up an analysis is stored on an **Analysis View** card to simplify future analysis.  
 
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Analysis Views**, and then choose the related link.  
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Analysis Views**, and then choose the related link.  
 2. In the **Analysis View List** window, choose the **New** action.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. To add other dimension codes in addition to the four on the **Dimensions** FastTab, choose the **Filter** action, fill in the fields, and then choose the **OK** button.  
@@ -46,7 +46,7 @@ You can use the **Analysis by Dimensions** matrix to view the amounts in your ge
 |**Total Amount**|Shows the total amount for the amount type that you chose in the **[\($ N\_554\_29 Show $\)](assetId:///37df8884-b937-46b7-a3a7-8b902a59b65f)** field on the **Options** tab.|  
 |**Matrix**|The remaining columns show amounts based on an analysis view.|   
 
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Analysis by Dimensions**, and then choose the related link.  
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Analysis by Dimensions**, and then choose the related link.  
 2. Select the relevant analysis view,  and then choose the **Edit Analysis View** action.
 3. Fill in the fields as necessary.
 4. Choose the **Show Matrix** action.  
@@ -63,7 +63,7 @@ The amounts that are displayed in the **Analysis by Dimensions** window give you
 
 The following procedure is for updating an analysis view from the **Analysis by Dimensions** window. The steps are similar from the **Analysis View Card** and the **Analysis View List** windows.  
 
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Analysis by Dimensions**, and then choose the related link.  
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Analysis by Dimensions**, and then choose the related link.  
 2. In the **Analysis by Dimensions** window, choose the **Analysis View Code** field.  
 3. Select the line with the relevant analysis view.  
 4. Choose the **Update** action.  

@@ -1,6 +1,6 @@
 ---
 title: Business Intelligence| Microsoft Docs
-description: 'Learn about key concepts and processes in business intelligence '
+description: 'Describes how to capture and analyze business data, such as sales figures, purchases, operational expenses, employee salaries, and budgets, that can be valuable information for business intelligence or for decision making.'
 services: project-madeira
 documentationcenter: ''
 author: SorenGP

@@ -33,13 +33,14 @@ You can use account categories to change the layout of your financial statements
 1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Account Schedules**, and then choose the related link.  
 2. In the **Account Schedule Names** window, choose the **New** action to create a new account schedule name.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Choose the **Edit Account Schedule** action to begin defining rows for the account schedule.  
+4. Choose the **Edit Account Schedule** action.
+5. In the **Account Schedule** window, fill in the fields as necessary.  
 
     When you have created a new account schedule and set up the rows, you must set up columns. You can either set them up manually or assign a predefined column layout to your account schedule.
-5. Choose the **Edit Column Layout Setup** action.
-6. In the **Column Layout** window, fill in the fields as necessary.
+6. Choose the **Edit Column Layout Setup** action.
+7. In the **Column Layout** window, fill in the fields as necessary.
 
-**Note**: If you did not assign a default column layout to the account schedule, you must set up the columns manually.   
+**Note**: If you did not assign a default column layout to the account schedule, you must set the columns up manually.   
 
 ### To create a column that calculates percentages  
 Sometimes you may want to include a column in an account schedule to calculate percentages of a total. For example, if you have a number of rows that break down sales by dimension, you may want a column to indicate the percentage of total sales that each row represents.
@@ -56,15 +57,17 @@ Sometimes you may want to include a column in an account schedule to calculate p
 ## To set up account schedules with overviews  
 You can use an account schedule to create a statement comparing general ledger figures and general leger budget figures.
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Account Schedule**, and then choose the related link.  
-2. In the **Account Schedule** window, in the **Name** field, select the default account schedule name.
-3. Choose the **Insert Accounts** action.  
-4. Select the accounts that you want to include in your statement, and then choose the **OK** button.
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Account Schedules**, and then choose the related link.
+2. In the **Account Schedule Names** window, select an account schedule.  
+3. Choose the **Edit Account Schedule** action  
+4. In the **Account Schedule** window, in the **Name** field, select the default account schedule name.
+5. Choose the **Insert Accounts** action.  
+6. Select the accounts that you want to include in your statement, and then choose the **OK** button.
 
     The accounts are now inserted into your account schedule. If you want you can also change the column layout.  
-5. Choose the **Overview** action.  
-6. On the **Dimension Filters** FastTab, set the budget filter to the desired filter name.  
-7. Choose the **OK** button.  
+7. Choose the **Overview** action.  
+8. On the **Dimension Filters** FastTab, set the budget filter to the desired filter name.  
+9. Choose the **OK** button.  
 
 Now you can copy and paste your budget statement into a spreadsheet.
 

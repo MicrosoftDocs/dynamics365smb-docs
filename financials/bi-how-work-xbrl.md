@@ -15,7 +15,7 @@ ms.date: 06/01/2017
 ms.author: sgroespe
 
 ---
-<blockquote STYLE="background: #81BEF7;border-left:None"><b>FULL EXPERIENCE</b> This functionality may not be enabled. Contact a Microsoft partner to buy a relevant extension. </blockquote>
+<blockquote STYLE="background: #81BEF7;border-left:None"><b>FULL EXPERIENCE!</b> This functionality may not be enabled. Contact a Microsoft partner to buy the relevant extension. </blockquote>
 
 XBRL, which stands for eXtensible Business Reporting Language, is an XML-based language for tagging financial data, and enabling businesses to efficiently and accurately process and share their data. The XBRL initiative enables global financial reporting by numerous ERP software companies and international accounting organizations. The goal of the initiative is to provide a standard for the uniform reporting of financial information for banks, investors, and government authorities. Such business reporting can include:
 

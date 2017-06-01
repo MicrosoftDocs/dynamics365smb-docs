@@ -22,6 +22,8 @@ Analyzing data by dimensions gives you greater insight into your business, so yo
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] enables you to organize and analyze your data by dimensions.
 
+**Note**: This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
+
 ## To set up an analysis view  
 An analysis by dimensions displays a selected combination of dimensions. You can store and retrieve each analysis you have set up. The information for setting up an analysis is stored on an **Analysis View** card to simplify future analysis.  
 

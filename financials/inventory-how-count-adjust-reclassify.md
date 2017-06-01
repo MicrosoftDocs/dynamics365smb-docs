@@ -18,7 +18,7 @@ ms.author: sgroespe
 # How to: Count, Adjust, and Reclassify Inventory
 At least once every fiscal year you must take a physical inventory, that is, count all the items on inventory, to see if the quantity registered in the database is the same as the actual physical quantity in the warehouses. When the actual physical quantity is known, it must be posted to the general ledger as a part of period-end valuation of inventory.
 
-Although you count all items in inventory at least once a year, you may have decided to count some items more often, perhaps because they are more valuable, or because they are very fast movers and a large part of your business. For this purpose, you can set up special counting periods to those items. For more information, see the "To perform cycle counting" section.
+Although you count all items in inventory at least once a year, you may have decided to count some items more often, perhaps because they are more valuable, or because they are very fast movers and a large part of your business. For this purpose, you can assign special counting periods to those items. For more information, see the "To perform cycle counting" section.
 
 If you need to adjust recorded inventory quantities, in connection with counting or for other purposes, you can use an item journal to change the inventory ledger entries directly without posting business transactions. Alternatively, you can adjust for a single item on the item card.
 
@@ -65,7 +65,7 @@ Employees can now proceed to count inventory and record any discrepancies on the
 4. To verify the inventory counting, open the item card in question, and then, choose the **Phys. Inventory ledger Entries** action.
 
 # To perform cycle counting
-Although you count all items in inventory at least once a year, you may have decided to count some items more often, perhaps because they are more valuable, or because they are very fast movers and a large part of your business. For this purpose, you can set up special counting periods to those items.
+Although you count all items in inventory at least once a year, you may have decided to count some items more often, perhaps because they are more valuable, or because they are very fast movers and a large part of your business. For this purpose, you can assign special counting periods to those items.
 
 **Note**: If your location is set up for directed put-away and pick, then you first use the **Whse. Phys. Invt. Journal** window, and then you use the **Calculate Whse. Adjustment** function in the **Item Journal** window.
 

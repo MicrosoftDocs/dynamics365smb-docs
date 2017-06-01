@@ -81,6 +81,11 @@
 ### [Applying Payments Automatically and Reconcile Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ### [How to: Reconcile Bank Accounts Separately](bank-how-reconcile-bank-accounts-separately.md)  
 ### [How to: Transfer Bank Funds](bank-how-transfer-bank-funds.md)
+## [The General Ledger and the Chart of Accounts](finance-general-ledger.md)
+## [Working With Dimensions](finance-dimensions.md)
+## [How to: Create Budgets](finance-how-create-budgets.md)
+## [How to: Defer Revenues and Expenses](finance-how-defer-revenue-expenses.md)
+## [How to: Import Payroll Transactions](finance-how-import-payroll-transactions.md)
 ## [Closing Years and Periods](year-close-years-periods.md)
 ### [How to: Specify Posting Periods](finance-how-specify-posting-periods.md)
 ### [Closing Periods](year-how-complete-period-end-processes.md)
@@ -89,7 +94,7 @@
 ### [Preparing Pre-Closing Reports](year-prepare-preclose-reports.md)
 ### [Closing Books](year-close-books.md)
 ### [Preparing Closing Statements](year-prepare-close-statement.md)
-## [Working With Dimensions](finance-dimensions.md)
+## [Analyzing Cash Flows in Your Company](finance-analyze-cash-flow.md)
 ## [Reporting 1099 Transactions in the US](us-finance-tax-1099.md)
 ## [Sales Tax and Tax Groups in the US and Canada](us-finance-sales-tax.md)
 ## [Sales Tax and Goods and Services Tax in Canada](ca-finance-tax.md)
@@ -194,7 +199,7 @@
 ### [How to: Analyze Inventory Reconciliation with the General Ledger]()
 
 ## Business Intelligence (FULL)
-### [How to: Create Reports with XBRL](bi-how-work-xbrl.md) 
+### [How to: Create Reports with XBRL](bi-how-work-xbrl.md)
 ### How to: Set Up and Publish KPI Web Services Based on Account Schedules
 
 ## Sales (FULL)

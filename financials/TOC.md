@@ -11,7 +11,6 @@
 
 # Tips and Tricks
 ## [Working With Financials](ui-work-product.md)
-## [Getting Ready for Doing Business](ui-get-ready-business.md)
 ## [Using Search for Page or Report](ui-search.md)
 ## [Changing Basic Settings](ui-change-basic-settings.md)
 ## [How to: Change the Role Center](change-role.md)
@@ -24,7 +23,6 @@
 ### [Payment Methods](finance-payment-methods.md)
 ### [How to: Open a New Fiscal Year](finance-how-open-new-fiscal-year.md)
 ### [How to: Adjust Currency Exchange Rates](finance-how-update-currencies.md)
-### [Setting Up Dimensions](finance-setup-dimensions.md)
 ### [Setting Up the Chart of Accounts](finance-setup-chart-accounts.md)
 ### [Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md)
 ## [Setting Up Banking](bank-setup-banking.md)
@@ -35,14 +33,12 @@
 ### [How to: Register New Customers](sales-how-register-new-customers.md)
 ### [How to: Enable Customer Payments Through Payment Services](sales-how-enable-payment-service-extensions.md)
 ### [How to: Record Special Sales Prices and Discounts](sales-how-record-sales-price-discount-payment-agreements.md)
-### [Advanced: Best Price Calculation](advanced-best-price-calculation.md)
 ### [How to: Set Up Salespeople](sales-how-setup-salespeople.md)
 ### [How to: Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md)
 ### [How to: Send Documents by Email](ui-how-send-documents-email.md)
 ## [Setting Up Purchasing](purchasing-setup-purchasing.md)
 ### [How to: Register New Vendors](purchasing-how-register-new-vendors.md)
 ### [How to: Record Special Purchase Prices and Discounts](purchasing-how-record-purchase-price-discount-payment-agreements.md)
-### [Advanced: Best Price Calculation](advanced-best-price-calculation.md)
 ### [How to: Prioritize Vendors](purchasing-how-prioritize-vendors.md)
 ### [How to: Set Up Purchasers](purchasing-how-setup-purchasers.md)
 ## [Setting Up Inventory](inventory-setup-inventory.md)
@@ -63,7 +59,7 @@
 ## [How to: Set up Email](madeira-how-setup-email.md)
 ## [How to: Create Number Series](ui-create-number-series.md)
 ## [How to: Set Up Extended Item Text](ui-how-define-ext-text.md)
-## [Setting Up Value Added Tax](finance-setup-vat.md)
+## [Setting Up Value Added Tax](finance-setup-vat-reporting.md)
 
 # [Finance](finance.md)
 ## [Managing Receivables](receivables-manage-receivables.md)
@@ -71,14 +67,21 @@
 ### [How to: Reconcile Customer Payments Manually From a List of Unpaid Sales Documents](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 ### [How to: How to: Apply Customer Payments Manually](receivables-how-apply-sales-transactions-manually.md)  
 ### [How to: Collect Outstanding Balances](receivables-collect-outstanding-balances.md)
+### [How to: Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)
 ## [Managing Payables](payables-manage-payables.md)
 ### [Make Payments](payables-make-payments.md)
 ### [Apply Payments Automatically and Reconcile Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ### [How to: How to: Reconcile Vendor Payments Manually](payables-how-apply-purchase-transactions-manually.md)
+### [How to: Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)
 ## [Managing Bank Accounts](bank-manage-bank-accounts.md)
 ### [Applying Payments Automatically and Reconcile Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ### [How to: Reconcile Bank Accounts Separately](bank-how-reconcile-bank-accounts-separately.md)  
 ### [How to: Transfer Bank Funds](bank-how-transfer-bank-funds.md)
+## [The General Ledger and the Chart of Accounts](finance-general-ledger.md)
+## [Working With Dimensions](finance-dimensions.md)
+## [How to: Create Budgets](finance-how-create-budgets.md)
+## [How to: Defer Revenues and Expenses](finance-how-defer-revenue-expenses.md)
+## [How to: Import Payroll Transactions](finance-how-import-payroll-transactions.md)
 ## [Closing Years and Periods](year-close-years-periods.md)
 ### [How to: Specify Posting Periods](finance-how-specify-posting-periods.md)
 ### [Closing Periods](year-how-complete-period-end-processes.md)
@@ -87,11 +90,12 @@
 ### [Preparing Pre-Closing Reports](year-prepare-preclose-reports.md)
 ### [Closing Books](year-close-books.md)
 ### [Preparing Closing Statements](year-prepare-close-statement.md)
-## [Working With Dimensions](finance-dimensions.md)
+## [Analyzing Cash Flows in Your Company](finance-analyze-cash-flow.md)
 ## [Reporting 1099 Transactions in the US](us-finance-tax-1099.md)
 ## [Sales Tax and Tax Groups in the US and Canada](us-finance-sales-tax.md)
 ## [Sales Tax and Goods and Services Tax in Canada](ca-finance-tax.md)
 ## [How to: Work with GIFI Codes in Canada](ca-finance-work-gifi-codes.md)
+# [Accountant experiences in Financials](finance-accounting.md)
 
 # [Business Intelligence](bi.md)
 ## [How to: Analyze Actual Amounts Versus Budgeted Amounts](bi-how-analyze-actual-versus-budget.md)
@@ -127,7 +131,6 @@
 ## [How to: Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)
 ## [How to: Revalue Inventory](inventory-how-revalue-inventory.md)
 ## [How to: Adjust Item Costs](inventory-how-adjust-item-costs.md)
-## [Advanced: Inventory Reconciliation](advanced-inventory-reconciliation.md)
 
 # [Relationship Management](marketing-relationship-management.md)
 ## [Setting Up Relationship Management](marketing-setup-marketing.md)
@@ -191,7 +194,7 @@
 ### [How to: Analyze Inventory Reconciliation with the General Ledger]()
 
 ## Business Intelligence (FULL)
-### How to: Create Reports with XBRL
+### [How to: Create Reports with XBRL](bi-how-work-xbrl.md)
 ### How to: Set Up and Publish KPI Web Services Based on Account Schedules
 
 ## Sales (FULL)
@@ -201,9 +204,6 @@
 ## Purchasing (FULL)
 ### How to: Work with Blanket Purchase Orders
 ### How to: Make Prepayments to Vendors
-
-## Inventory (FULL)
-### [Perform Cycle Counting](inventory-how-perform-cycle-counting.md)
 
 ## Planning (FULL)
 ### How to: Plan for Production Availability

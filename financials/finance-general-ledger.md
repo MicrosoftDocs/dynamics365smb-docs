@@ -59,4 +59,4 @@ The next time you generate account schedules your balance statement will show a 
 ## See Also
 [Finance](finance.md)  
 [Setting Up or Changing the Chart of Accounts](finance-setup-chart-accounts.md)  
-[Account Schedules](finance-account-schedule.md)  
+[Business Intelligence](bi.md)  

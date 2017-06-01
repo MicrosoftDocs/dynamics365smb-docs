@@ -12,7 +12,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase fixed asset
-ms.date: 05/31/2017
+ms.date: 06/01/2017
 ms.author: sgroespe
 
 ---

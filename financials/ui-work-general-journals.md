@@ -44,7 +44,7 @@ When you have created journal lines which you know you are likely to create agai
 **Note**: The following procedure refers to the item journal, but the information also applies to the general journal.
 
 ### To save a standard journal
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Item Journals**, and then choose the related link.
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Item Journals**, and then choose the related link.
 2. Enter one or more journal lines.
 3. Select the journal lines that you want to reuse.
 4. Choose the **Save as Standard Journal** action.
@@ -59,7 +59,7 @@ When you have created journal lines which you know you are likely to create agai
 When you have finished saving the standard item journal, the Item Journal window is displayed so you can proceed to post it, knowing that it can easily be recreated next time you need to post the same or similar lines.
 
 ### To reuse a standard journal
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Item Journals**, and then choose the related link.
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Item Journals**, and then choose the related link.
 2. Choose the **Get Standard Journals** action.
 
     The Standard Item Journals window opens showing codes and descriptions for all existing standard item journals.

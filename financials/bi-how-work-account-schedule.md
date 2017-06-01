@@ -1,5 +1,5 @@
 ---
-title: How to: Work with Account Schedules| Microsoft Docs
+title: 'How to: Work with Account Schedule| Microsoft Docs'
 description: Describes how to use account schedules to create various views and report for analyzing financials performance data.
 services: project-madeira
 documentationcenter: ''
@@ -10,8 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
-ms.date: 05/31/2017
+ms.search.keywords: purchase fixed asset
+ms.date: 06/01/2017
 ms.author: sgroespe
 
 ---

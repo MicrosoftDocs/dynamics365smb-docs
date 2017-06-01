@@ -1,6 +1,6 @@
 ---
 title: How to: Analyze Actual Amounts Versus Budgeted Amounts| Microsoft Docs
-description: 'Describes how to analyze actual amounts versus budgeted amounts.'
+description: Describes how to analyze actual amounts versus budgeted amounts.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP

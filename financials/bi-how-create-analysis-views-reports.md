@@ -1,6 +1,6 @@
 ---
 title: How to: Create Analysis Views and Reports| Microsoft Docs
-description: 'Describes how to create new analysis reports for sales, purchases, and inventory, and set up analysis templates.'
+description: Describes how to create new analysis reports for sales, purchases, and inventory, and set up analysis templates.
 Using account schedules to analyze data.
 services: project-madeira
 documentationcenter: ''

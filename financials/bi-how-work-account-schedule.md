@@ -1,6 +1,6 @@
 ---
 title: How to: Work with Account Schedules| Microsoft Docs
-description: 'Describes how to use account schedules to create various views and report for analyzing financials performance data.'
+description: Describes how to use account schedules to create various views and report for analyzing financials performance data.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP

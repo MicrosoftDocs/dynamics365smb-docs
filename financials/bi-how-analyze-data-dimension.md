@@ -1,6 +1,6 @@
 ---
 title: How to: Analyze Data by Dimensions| Microsoft Docs
-description: 'Describes how to analyze various business data by dimensions.'
+description: Describes how to analyze various business data by dimensions.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP

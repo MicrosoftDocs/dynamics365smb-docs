@@ -28,7 +28,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | Set up fiscal periods. |[How to: Open a New Fiscal Year](finance-how-open-new-fiscal-year.md) |
 | Set up or update additional currencies if you perform international trade. |[How to: Update Currency Exchange Rates](finance-how-update-currencies.md) |
 | Set up unique identification codes. |[Creating Number Series](ui-create-number-series.md) |
-| Add dimensions for richer business intelligence. |[Set Up Dimensions](finance-setup-dimensions.md) |
+| Add dimensions for richer business intelligence. |[Working with Dimensions](finance-dimensions.md) |
 | Add new accounts to the existing chart of accounts. |[Set Up the Chart of Accounts](finance-setup-chart-accounts.md) |
 | Set up business intelligence (BI) charts to analyze cash flow. |[Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md) |
 

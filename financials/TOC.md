@@ -71,10 +71,12 @@
 ### [How to: Reconcile Customer Payments Manually From a List of Unpaid Sales Documents](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 ### [How to: How to: Apply Customer Payments Manually](receivables-how-apply-sales-transactions-manually.md)  
 ### [How to: Collect Outstanding Balances](receivables-collect-outstanding-balances.md)
+### [How to: Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)|
 ## [Managing Payables](payables-manage-payables.md)
 ### [Make Payments](payables-make-payments.md)
 ### [Apply Payments Automatically and Reconcile Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ### [How to: How to: Reconcile Vendor Payments Manually](payables-how-apply-purchase-transactions-manually.md)
+### [How to: Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)|
 ## [Managing Bank Accounts](bank-manage-bank-accounts.md)
 ### [Applying Payments Automatically and Reconcile Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ### [How to: Reconcile Bank Accounts Separately](bank-how-reconcile-bank-accounts-separately.md)  

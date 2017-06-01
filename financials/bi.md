@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: bi, power BI, analysis
+ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 05/25/2017
 ms.author: sgroespe
 

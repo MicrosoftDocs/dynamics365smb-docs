@@ -50,9 +50,8 @@ You can use the **Analysis by Dimensions** matrix to view the amounts in your ge
 
 1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Analysis by Dimensions**, and then choose the related link.  
 2. Select the relevant analysis view,  and then choose the **Edit Analysis View** action.
-3. Fill in the fields as necessary.
-4. Choose the **Show Matrix** action.  
-5. To see a specification of an amount shown in the matrix window, choose the amount.  
+3. At the top of the **Analysis by Dimensions** window, fill in the fields to define what is shown.
+4. 5. To see a specification of an amount shown in the matrix window, choose the amount.  
 
 **Important**: You cannot select a period length shorter than the period specified for the date compression on the **Analysis View** card. The **Next Set** and **Previous Set** commands are inactive if you have selected **Period** in either the **Show as Lines** or the **Show as Columns** field.  
 

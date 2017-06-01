@@ -22,10 +22,10 @@ The following table describes a sequence of tasks, with links to the topics that
 
 | To | See |
 | --- | --- |
-|View actual amounts compared to budgeted amounts for all accounts and for several periods.|bi-how-analyze-actual-versus-budget.md|
-|Create new account schedules, set up account schedule rows and columns, assign predefined column layouts to account schedules, and create account schedule columns that calculate percentages.|bi-how-work-account-schedule.md|
-|Set up analysis view, analyze data using dimensions, and update analysis views.|bi-how-analyze-data-dimension.md|
-|Create new analysis reports for sales, purchases, and inventory, and set up analysis templates.|bi-how-create-analysis-views-reports.md|
+|View actual amounts compared to budgeted amounts for all accounts and for several periods.|[How to: Analyze Actual Amounts Versus Budgeted Amounts](bi-how-analyze-actual-versus-budget.md)|
+|Create new account schedules, set up account schedule rows and columns, assign predefined column layouts to account schedules, and create account schedule columns that calculate percentages.|[How to: Work with Account Schedules](bi-how-work-account-schedule.md)|
+|Set up analysis view, analyze data using dimensions, and update analysis views.|[Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)|
+|Create new analysis reports for sales, purchases, and inventory, and set up analysis templates.|[How to: Create Analysis Views and Reports](bi-how-create-analysis-views-reports.md)|
 
 ## See Also
 [Finance](finance.md)    

@@ -1,6 +1,6 @@
 ---
-title: How to: Analyze Data by Dimensions| Microsoft Docs
-description: *Describes how to analyze various business data by dimensions.*
+title: 'How to: Analyze Data by Dimensions| Microsoft Docs'
+description: Describes how to analyze various business data by dimensions.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,8 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
-ms.date: 05/31/2017
+ms.search.keywords: purchase fixed asset
+ms.date: 06/01/2017
 ms.author: sgroespe
 
 ---

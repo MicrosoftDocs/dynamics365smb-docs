@@ -1,6 +1,6 @@
 ---
-title: 'How to: Reconcile Customer Payments Manually| Microsoft Docs'
-description: 'How to: Reconcile Customer Payments Manually'
+title: Apply Customer Ledger Entries to Manually Reconcile Customer Payments | Microsoft Docs
+description: Describes how to apply customer cash receipts or refunds to one or more open customer ledger entries and reconcile customer payments.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP

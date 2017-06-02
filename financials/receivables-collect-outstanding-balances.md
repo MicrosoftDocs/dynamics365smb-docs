@@ -1,6 +1,6 @@
 ---
-title: 'How to: Collect Outstanding Balances| Microsoft Docs'
-description: 'How to: Collect Outstanding Balances'
+title: Send a Customer Statement Report to Collect Overdue Payments | Microsoft Docs
+description: Describes how to send a reminder to a customer about a payment that is due.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP

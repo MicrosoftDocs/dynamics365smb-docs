@@ -1,6 +1,6 @@
 ---
-title: 'How to: Record Special Sales Prices and Discounts| Microsoft Docs'
-description: 'How to: Record Special Sales Prices and Discounts'
+title: Set Up Special Sales Prices and Discounts for Customers | Microsoft Docs
+description: Describes how to define the alternate pricing and discount agreements that you want to apply to sales documents when selling to different customers.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP

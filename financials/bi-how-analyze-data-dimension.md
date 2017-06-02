@@ -1,5 +1,5 @@
 ---
-title: 'How to: Analyze Data by Dimensions| Microsoft Docs'
+title: Analyze Data by Dimensions| Microsoft Docs
 description: Describes how to analyze various business data by dimensions.
 services: project-madeira
 documentationcenter: ''

@@ -1,6 +1,6 @@
 ---
-title: 'How to: Set Up Fixed Asset Maintenance| Microsoft Docs'
-description: Describes how to set the system up for maintenance of fixed assets.
+title: Set Up FA Maintenance| Microsoft Docs
+description: To manage fixed asset repairs and service, you specify general maintenance information, codes for the type of work, and a posting account for costs.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: repair, service
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---

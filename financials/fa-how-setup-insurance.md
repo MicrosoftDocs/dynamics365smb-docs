@@ -1,6 +1,6 @@
 ---
-title: 'How to: Set Up Fixed Asset Insurance| Microsoft Docs'
-description: Describes how to set the system up for insurance of fixed assets.
+title: Set Up FA Insurance| Microsoft Docs
+description: You set up an insurance card and general insurance policy information to manage fixed asset insurance coverage.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: policy, coverage
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---

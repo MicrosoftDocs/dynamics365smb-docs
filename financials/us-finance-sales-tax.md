@@ -1,6 +1,6 @@
 ---
-title: Sales Tax and Tax Groups in the US and Canada | Microsoft Docs
-description: Learn about how sales tax is set up, and how tax groups, tax areas, tax jurisdictions, and tax details work.
+title: Sales Tax in US and Canada| Microsoft Docs
+description: Learn about how sales tax is set up, and how tax groups, tax areas (states, counties, cities, and localities), tax jurisdictions, and tax details work.
 services: project-madeira
 documentationcenter: ''
 author: edupont04
@@ -11,11 +11,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: local
-ms.date: 03/29/2017
+ms.date: 06/02/2017
 ms.author: edupont
 
 ---
-# Sales Tax and Tax Groups in the US and Canada
+# Reporting Sales Tax in the US and Canada
 When you first start using [!INCLUDE[d365fin](includes/d365fin_md.md)], you can run an assisted setup guide to quickly and easily set up sales tax information for your company, customers, and vendors. In a matter of minutes, you are ready to create sales documents and purchase documents with sales tax calculated correctly. This is explained [in our blog post](https://madeira.microsoft.com/blog/sales-tax-setup-made-easy).
 If you move to the empty My Company, we recommend that you start by using each of the assisted setup guides, including the one for sales tax. If you prefer to set up sales tax yourself, this article explains what you have to take into consideration.  
 

@@ -1,6 +1,6 @@
 ---
-title: 'How to: Revalue Fixed Assets| Microsoft Docs'
-description: Describes how to appreciate and write down a fixed asset.
+title: Revalue Fixed Assets| Microsoft Docs
+description: Learn how to adjust the value of fixed assets, recording new amounts as a write-down or appreciation, and post additional acquisition costs.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/28/2016
+ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---

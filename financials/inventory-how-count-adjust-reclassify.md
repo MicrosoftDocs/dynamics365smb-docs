@@ -1,6 +1,6 @@
 ---
-title: 'How to: Count, Adjust, and Reclassify Inventory| Microsoft Docs'
-description: 'Describes how to perform physical counting, make negative or positive adjustments, and how to change information, such as location or lot number, on item ledger entries or warehouse entries.'
+title: Count, Adjust, and Reclassify Inventory| Microsoft Docs
+description: Describes how to perform physical counting, make negative or positive adjustments, and how to change information, such as location or lot number, on item ledger entries or warehouse entries.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 06/01/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---

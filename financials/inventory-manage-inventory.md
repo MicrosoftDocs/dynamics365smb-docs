@@ -1,6 +1,6 @@
-﻿---
-title: 'Inventory| Microsoft Docs'
-description: Describes how to manage physical items.
+---
+title: Managing Inventory| Microsoft Docs
+description: Describes how to manage the physical products that you trade in, for example, handling the stock in your warehouse.
 documentationcenter: ''
 author: SorenGP
 
@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 06/01/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ---
 
@@ -36,7 +36,7 @@ Even though inventory costs are automatically posted to the general ledger, it i
 |Assign item attributes of different value types to your items to help you sort and find items.|[How to: Work with Item Attributes](inventory-how-work-item-attributes.md)|
 |Create special item cards for items that you offer to customers but do not maintain inventory for.|[How to: Work with Nonstock Items](inventory-how-work-nonstock-items.md)|
 |Perform physical counting, make negative or positive adjustments, and change information, such as location or lot number, on item ledger entries.|[How to: Count, Adjust, and Reclassify Inventory Inventory](inventory-how-count-adjust-reclassify.md)|
-|View the availability of items per location, by period, by sales or purchase event, or by their use on assembly BOMs.|[How to: Get an Availability Overview](inventory-how-availability-overview.md)|
+|View the availability of items per location, by period, by sales or purchase event, or by their use on assembly BOMs.|[How to: How to: View the Availability of Items](inventory-how-availability-overview.md)|
 |Transfer inventory items between locations with transfer orders, to manage warehouse activities, or with the item reclassification journal.|[How to: Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)|
 |Appreciate or depreciate the value of one or more items in inventory by posting their current, calculated value.|[How to: Revalue Inventory](inventory-how-revalue-inventory.md)|
 |Adjust item costs, either automatically or manually, to forward cost changes from inbound entries to their related outbound entries.|[How to: Adjust Item Costs](inventory-how-adjust-item-costs.md)|

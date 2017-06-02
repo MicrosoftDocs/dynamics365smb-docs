@@ -1,5 +1,5 @@
 ---
-title: Set Up the Way You Manage Incoming Documents| Microsoft Docs
+title: Set Up Incoming Documents| Microsoft Docs
 description: Use the Incoming Documents feature to create electronic documents, manage OCR tasks, import invoices, and convert image files.
 services: project-madeira
 documentationcenter: ''

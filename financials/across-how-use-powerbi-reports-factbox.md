@@ -1,6 +1,6 @@
 ---
-title: Using Power BI reports in your list views in Dynamics 365 for Financials | Microsoft Docs
-description: You can add Power BI reports that will provide additional insight into data in lists in Financials.
+title: Display Custom Power BI Reports| Microsoft Docs
+description: You can use Power BI reports to gain additional insight into data in lists in Financials.
 services: project-madeira
 documentationcenter: ''
 author: edupont04
@@ -11,11 +11,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 02/02/2017
+ms.date: 06/02/2017
 ms.author: edupont
 
 ---
-# Using Power BI Reports in your List Views in Dynamics 365 for Financials
+# Viewing List Data in Power BI Reports in Dynamics 365 for Financials
 [!INCLUDE[d365fin](includes/d365fin_md.md)] includes a FactBox control element on a number of key list pages that provides additional insight into the data in the list. As you move between rows in the list, the report is updated and filtered for the selected entry. You can create custom reports to display in this control, but there are a few rules to follow when creating the reports to ensure they provide the desired behavior.  
 
 **Note**: You must have a valid account with [!INCLUDE[d365fin](includes/d365fin_md.md)] and with Power BI. Also, you must download [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). For more information, see [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md).  

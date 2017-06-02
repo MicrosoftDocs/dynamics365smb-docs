@@ -1,5 +1,5 @@
 ---
-title: Using Dynamics 365 for Financials as a Power BI Data Source | Microsoft Docs
+title: Using Financials with Power BI| Microsoft Docs
 description: You can make your Financials data available as a data source in Power BI and build powerful reports of the state of your business.
 services: project-madeira
 documentationcenter: ''
@@ -11,11 +11,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 12/02/2016
+ms.date: 06/02/2017
 ms.author: edupont
 
 ---
-# Using Dynamics 365 for Financials as a Power BI Data Source
+# Connecting Your Business Data to Power BI
 You can make your [!INCLUDE[d365fin](includes/d365fin_md.md)] data available as a data source in Power BI and build powerful reports of the state of your business.  
 
 **Note**: You must have a valid account with [!INCLUDE[d365fin](includes/d365fin_md.md)] and with Power BI. Also, you must download [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/).  

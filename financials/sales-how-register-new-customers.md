@@ -1,6 +1,6 @@
 ---
-title: 'How to: Register New Customers| Microsoft Docs'
-description: 'How to: Register New Customers'
+title: Create a Customer Card to Register New Customers | Microsoft Docs
+description: Describes how to create a customer card to register information about each new customer or client that you sell to.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP

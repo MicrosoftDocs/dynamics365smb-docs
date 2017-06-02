@@ -1,6 +1,6 @@
 ---
-title: 'How to: Set Up, Prepare, and Submit VAT Reports| Microsoft Docs'
-description: 'Describes how to set up the European Community Sales List and VAT Statement reports, and how to provide them to tax authorities.'
+title: 'How to: Set Up, Prepare, and Submit a VAT Report to a Tax Authority| Microsoft Docs'
+description: 'Describes how to set up the EC Sales List report, generate content, and submit the report to a tax authority.'
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -10,72 +10,91 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/05/2017
+ms.search.keywords: VAT, tax, report, EC sales list, statement
+ms.date: 05/30/2017
 ms.author: bholtorf
 
 ---
 
-# Set Up VAT reports a nd submit them to a tax authority
-On the Business Manager and Accountant Role Centers you'll find two reports that you can use to electronically submit VAT for sales and purchases to a tax authority:  
+# How To: Submit VAT to a Tax Authority
+On the Business Manager and Accountant Role Centers, you can use the European Community (EC) Sales List report to create a list of the value added tax (VAT) that you've collected for sales, and then submit the report electronically to a tax authority's web service. 
 
-* European Community (EC) Sales List - Report VAT for sales to other EU countries/regions to customs and tax authorities. In the report, the information is in the same format as on the declaration form from the customs and tax authorities.
-VAT is calculated on the basis of the VAT Posting Setup table and the VAT Posting Groups that you have set up. VAT information is based on sales documents, like sales orders, sales invoices, sales credit memos, and so on.
-* VAT Report - Report VAT based on information in sales _and_ purchase documents, such as sales and purchase orders, sales and purchase invoices, and so on.
+**Note**: In the UK, all companies that sell more than a certain value every year to <!--customers, companies...? --> EU states must submit an electronic version of their European Community (EC) sales list report in XML format through Her Majesty's Revenue and Customs (HMRC) website.
 
-You can use these reports right away, but you can also configure your own VAT reports to meet the requirements of your tax authority. This makes it easy to generate the VAT information for the reports, review the contents, and then submit it electronically to the tax authority directly from Financials.
+To report VAT to a tax authority electronically, you need to connect [!INCLUDE[d365fin](includes/d365fin_md.md)] to the tax authority's web service. This requires that you set up an account with your tax authority. When you have an account, you can enable a service connection that we provide in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For example, in the UK you can use the **GovTalk** service connection.
 
-After you submit a report electronically to a tax authority service, Financials monitors the service, and keeps a record of your communications in the **Entries Log**. When Financials discovers that the authorities have processed your report, the status of the report changes to Succeeded. If the tax authority found mistakes in the report you submitted, the status of the report will be **Failed**. You can view the errors in the **Error Messges** fact box, correct them, and then submit the report again. 
+<!-- Does the report generate one line for each customer, and show a consolidated total? Or does it create a line for each sale individually?-->
 
-**Note**: If use another method to submit the report to your tax authority, for example by exporting the XML and uploading it to a tax authority website, afterward you can choose **Mark as Submitted** to close the reporting period.
+The report includes one line for each customer, and displays the total amount for each customer. To view each entry for the customer, choose the line number. 
 
-<!-- Does the log capture this as well?
+After you submit the report, [!INCLUDE[d365fin](includes/d365fin_md.md)] monitors the service and keeps a record of your communications. You can view the history by choosing the **Log Entries** action. 
 
-c=to get to the report, enter VAT Reports List, where you can create a vat report
-choose a number
+The **Status** field indicates where the report is in the process. For example, when the authorities process your report, the status of the report changes to **Succeeded**. If the tax authority found mistakes in the report you submitted, the status of the report will be **Failed**. You can view the errors in the **Errors and Warningss** FactBox, correct them, and then submit the report again. 
 
-you can submit open, or open and closed, or both, and only entries from the specified periods or also include entries from preview periods. 
+<!-- Does the status update automatically?-->
 
-Set up the number series
+**Note**: If you use another method to submit the report, for example by exporting the XML and uploading it to a tax authority website, afterward you can choose **Mark as Submitted** to close the reporting period. 
 
-Going to make it available on the accountant and business manager role centers. On the bmrc, it\s under the finance activity. On the Accountant role center, it'll be on the navigation pand on te left.
+After the tax authority reviews your report, they will send an email to the contact person for your company. In [!INCLUDE[d365fin](includes/d365fin_md.md)], the contact person is specified on the **Company Information** page. Before you submit the report, make sure that a contact person is chosen.
 
-Error messages display on the Error messages Fact Box 
+**Note**: The EC Sales List report can contain up to 1000 lines. If you have more lines, you must submit another report.
 
-For the EC Sales list.
-Users receive an email when the authorities have processed the report. 
+To view a list of all your EC Sales List reports, go to the **VAT Report List** page.
 
-they're now talking about removing the View Errors field, and just showing errors in the fact Box
-
-the report cannot contain more than 1000 lines. If this happens, you will need to submit more than one report. 
-
-
-  -->
-
-## To set up VAT reports
-1. In the **Search for Pages or Reports** field, enter **VAT Report List**, and then choose the related link.  
-2. Choose the **Modify Submitted Reports** field to let users modify VAT reports that have been submitted to the tax authorities.  
-
-    **Note**: If you leave the field blank, users must create a corrective VAT report instead.
-3. Specify the number series that will be used for standard VAT reports.  
-
-    **Note**: You can use the same number series for all VAT reports, or separate number series for each type of VAT report. For example, if your company uses separate number series for standard and corrective VAT reports, this number series is the default number series. Users can select a different number series in the No. field when they create corrective reports.
+## To Connect to your tax authority's web service
+[!INCLUDE[d365fin](includes/d365fin_md.md)] provides service connections that connect to tax authority websites. For example, if you're in the UK, you must enable the GovTalk service connetion.  
   
-## To prepare a VAT report
-1. In the **Search for Pages or Reports** field, enter **VAT Report**, and then choose the related link.
-2. Fill in the required fields. 
-3. To generate the report, choose the **Suggest Lines** action.
+1. In the **Search for Pages or Reports** field, enter **Service Connections**, and then choose appropriate link. <!-- remember to get the updated text for this-->
+2. Fill in the required fields.  
+
+## To set up the EC Sales List report
+1. In the **Search for Pages or Reports** field, enter **VAT Report Setup**, and then choose the related link.  
+2. If you want to let users change and resubmit this report, choose the **Modify Submitted Reports** check box.  
   
-    **Tip** After you add lines, you can drill down in the Amount field to see the VAT ledger entries that the line contains.  
-4. Choose the **Release** action.
+    **Note**: For example, choosing this option is useful when you need to adjust the report. If you do not choose this option, users must create a corrective report.  
+3. Specify the number series to use for EC Sales List reports.  
 
-Financials validates that the VAT report is set up correctly. If the validation fails, the errors are shown in the **Error Log** window so that you can make the appropriate changes. For example, an error displays if you try to release a standard VAT report but you have not yet added any lines to the report.
+## To prepare the EC Sales List for submission
+1. In the **Search for Pages or Reports** field, enter **VAT Report List**, and then choose the related link.
+2. Choose **New**, and then fill in the required fields. 
+3. To generate the content of the report, choose the **Suggest Lines** action.
+4. To prepare the report for submision, choose the **Release** action.
 
-When you mark a VAT report as released, it becomes non-editable. If you must change the report after marking it as released, you must first reopen it.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] validates whether the report is set up correctly. If the validation fails, the errors display in the **Error and Warnings** FactBox so that you can make the appropriate changes.
+
+When you mark the report as released, it becomes non-editable. If you must change the report after marking it as released, you must reopen it.
 
 ## To submit a VAT report
 1. In the **Search for Pages or Reports** field, enter **VAT Reports**, and then choose the related link.
 2. Choose the report, and then choose the **Submit** action.
 
-## To correct a VAT report
-You can correct a VAT report, and resubmit it. When you regenerate the report by choosing Suggest Lines, the options in the 
+<!--## To correct a VAT report
+You can correct a VAT report, and resubmit it. When you regenerate the report by choosing **Suggest Lines**, the options in the -->
 
+
+## Run the EC Sales List report
+1. In the **Search for Pages or Reports** field, enter **EC Sales List**, and then choose the related link.
+2. Fill in the required fields.
+
+## Preparing a VAT Statement report
+You use a VAT statement to calculate your VAT settlement amount for a certain period, for example, a quarter. The VAT statement is based on VAT entries for sales and purchases.
+
+<!-- ## VAT settlement
+Periodically, you must remit the net VAT to the tax authorities. You can use a batch job as often as you want if you need to settle VAT frequently. After you have approved the VAT statement, you can run the **Calc. and Post VAT Settlement** batch job to close the open VAT entries and transfer purchase and sales VAT amounts to the VAT settlement account.
+
+Transferring VAT amounts to the settlement account means that the purchase VAT account is credited and the sales VAT account is debited with the amounts calculated for the VAT statement period. The net amount is credited or debited, if the purchase VAT amount is larger to the VAT settlement account. You can post the settlement immediately or print a test report first.
+
+**Note**: When you use the **Calc. and Post VAT Settlement** batch job, if you don't specify a VAT Bus. Posting Group and a VAT Prod. Posting group, entries with all business group codes and product group codes are included. -->
+
+## Configuring your own VAT reports
+You can use the VAT report and EC Sales List reports out-of-the-box, however, you can also create your own reports. This requires a bit of coding, so you might need to contact a Microsoft Partner. 
+
+The following table describes the codeunits you'll need to create for your report.
+
+|----|-----|
+| Codeunit | What it must do |
+|Suggest Lines| Fetch and information from the VAT Entries table, and display it in lines on the VAT report.|
+|Content | Control the format of the report. For example, whether it's XML or JSON. The format to use depends on the requirements of your tax authority's web service. |
+|Submission | Control how, and when, you submit the report based on the requirements of your tax authority. |
+|Response Handler | Handle the return from the tax authority. For example, it might send an email message to your company's contact person. |
+|Cancel | Send a cancellation of a VAT report that was submitted earlier to your tax authority. |

@@ -13,6 +13,7 @@ ms.workload: na
 ms.search.keywords: news
 ms.date: 03/28/2017
 ms.author: sgroespe
+
 ---
 
 # What's New in Dynamics 365 for Financials

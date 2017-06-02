@@ -1,6 +1,6 @@
 ---
-title: Enable Your Data for Power BI| Microsoft Docs
-description: Getting insights into your Financials data is easy with Power BI and the Financials content packs.
+title: Dynamics 365 for Financials and Power BI Content Packs| Microsoft Docs
+description: Getting insight, business intelligence, and KPIs from your Financials data is easy with Power BI and the Financials content packs.
 services: project-madeira
 documentationcenter: ''
 author: edupont04
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: edupont
 
 ---

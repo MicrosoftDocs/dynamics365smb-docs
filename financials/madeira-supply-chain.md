@@ -1,6 +1,6 @@
 ---
-title: Supply Chain| Microsoft Docs
-description: Learn about key supply chain concepts and processes
+title: Supply Chain Features Supported by Financials| Microsoft Docs
+description: Get a product overview and learn about key supply chain concepts and processes that are part of the ERP solution.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,11 +11,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: product overview, ERP
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---
-# Supply Chain
+# Overview of Supply Chain Functionality
 [!INCLUDE[d365fin](includes/d365fin_md.md)] supports common supply chain processes, although limited to the needs of wholesale and distribution companies without managed warehouse handling.
 
 In addition to sales invoice documents, you can manage your order fulfillment with sales orders allowing you to ship parts of an order quantity, for example, because the full quantity is not available at once. You can have items drop shipped directly from a vendor to a customer by linking the sales order to the related purchase order.

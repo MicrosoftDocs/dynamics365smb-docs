@@ -1,6 +1,6 @@
 ---
-title: 'How to: Register New Items| Microsoft Docs'
-description: 'Create cards for new physical products, that you sell from inventory in e.g. pieces, or for services, that you sell as hours.'
+title: Create Item Cards for Goods or Services| Microsoft Docs
+description: You create item cards for services that you sell as hours and for physical products, such as assembly items, finished goods, components, or raw material, that you sell from your inventory.
 documentationcenter: ''
 author: SorenGP
 
@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 06/01/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---

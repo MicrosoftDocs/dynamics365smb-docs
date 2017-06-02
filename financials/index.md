@@ -1,5 +1,5 @@
 ---
-title: Welcome to Dynamics 365 for Financials | Microsoft Docs
+title: Welcome to Dynamics 365 for Financials| Microsoft Docs
 description: Dynamics 365 for Financials is a business management solution for small and mid-sized organizations that automates and streamlines business processes and helps you manage your business. Signing up is easy, and you can migrate existing business data from your legacy system.
 services: project-madeira
 documentationcenter: ''
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: solsen
 
 ---

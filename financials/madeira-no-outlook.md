@@ -1,6 +1,6 @@
 ---
 title: Using Dynamics 365 for Financials without Outlook | Microsoft Docs
-description: Using Dynamics 365 for Financials without Outlook
+description: You can use Dynamics 365 for Financials as your business inbox in Outlook because it is integrated with Office 365, however, you can also work without Outlook in a browser or on your mobile device.
 documentationcenter: ''
 author: edupont04
 
@@ -10,11 +10,10 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 03/28/2017
+ms.date: 0602/2017
 ms.author: edupont
 
 ---
-
 # Using Dynamics 365 for Financials without Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] has deep integration with Office 365, and you can use [!INCLUDE[d365fin](includes/d365fin_md.md)] as your business inbox in Outlook. But if you do not have Outlook, you can work with [!INCLUDE[d365fin](includes/d365fin_md.md)] in the browser or on your mobile device.  
 

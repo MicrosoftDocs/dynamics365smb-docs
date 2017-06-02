@@ -1,6 +1,6 @@
 ---
-title: 'How to: Work with Item Attributes| Microsoft Docs'
-description: Describes how to set up item attributes and assign them to items and item categories.
+title: Set Up Item Attributes and Assign Them to Items| Microsoft Docs
+description: Describes how to set up item attribute values, for example, that can be used as search words, and assign them to items and item categories.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: categories, search words, facets
-ms.date: 04/20/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---

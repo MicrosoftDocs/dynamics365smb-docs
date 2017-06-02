@@ -1,6 +1,6 @@
 ---
-title: 'How to: Set Up General Fixed Assets Information| Microsoft Docs'
-description: Describes how to set the system up for managing fixed assets.
+title: Set Up General Ledger FA| Microsoft Docs
+description: Before you work with fixed assets, you must set up default G/L accounts, posting groups, allocation keys, journal templates and batches, and class codes.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/31/2016
+ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---

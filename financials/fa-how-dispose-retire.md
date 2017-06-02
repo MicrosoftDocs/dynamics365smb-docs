@@ -1,6 +1,6 @@
 ---
-title: 'How to: Dispose of or Retire Fixed Assets| Microsoft Docs'
-description: Describes how to sell or retire a fixed asset.
+title: Dispose or Retire FA| Microsoft Docs
+description: You must post a disposal value when you scrap, sell, or retire a fixed asset.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: scrap
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---

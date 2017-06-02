@@ -49,7 +49,7 @@ This update of [!INCLUDE[d365fin](includes/d365fin_md.md)] added new capabilitie
 ### More flexibility in your sales processes
 This update adds more flexibility in what you sell:
 - You can now set up nonstock items - items that you offer to customers but do not maintain inventory for. For more information, see [How to: Work with Nonstock Items](inventory-how-work-nonstock-items.md).
-- You can now mark an item for drop shipment on a sales order and immediately create a purchase order for the item. This way, you can sell an item to a customer, purchase it from the vendor, and have it shipped directly from your vendor to your customer. For more information, see [How to: Purchase Products for a Sale](purchasing-how-purchase-products-sale.md).
+- You can now mark an item for drop shipment on a sales order and immediately create a purchase order for the item. This way, you can sell an item to a customer, purchase it from the vendor, and have it shipped directly from your vendor to your customer. For more information, see [How to: Purchase Items for a Sale](purchasing-how-purchase-products-sale.md).
 
 ### Categorize items in your inventory
 With this update, you can create a hierarchy of item categories and assign item attributes to each item category. For more information, see [How to: Categorize Items](inventory-how-categorize-items.md).

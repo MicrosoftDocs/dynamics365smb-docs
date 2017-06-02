@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: item, finished good, component, raw material, assembly item 
-ms.date: 03/28/2017
+ms.search.keywords: item, finished good, component, raw material, assembly item
+ms.date: 06/01/2017
 ms.author: sgroespe
 
 ---
 # How to: Register New Items
-items, among other products, are the basis of your business, the goods or services that you trade in. Each item must be registered as an item card.
+Items, among other products, are the basis of your business, the goods or services that you trade in. Each item must be registered as an item card.
 
 Item cards hold the information that is required to buy, store, sell, deliver, and account for items.
 

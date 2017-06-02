@@ -1,8 +1,8 @@
 ---
-title: 'How to: Set up Email| Microsoft Docs'
-description: description: Describes how to use the company's SMTP server to send and receive email messages within Financials, or alternatively how to use the email server settings created with the Office 365 subscription.
+title: 'How to: Set up Email | Microsoft Docs'
+description: Describes how to use the company's SMTP server to send and receive email messages within Financials, or alternatively how to use the email server settings created with the Office 365 subscription.
 documentationcenter: ''
-author: SorenGP
+author: edupont04
 
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -11,7 +11,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
 ms.date: 06/02/2017
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # How to: Set Up Email Manually or Using the Assisted Setup

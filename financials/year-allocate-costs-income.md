@@ -1,5 +1,5 @@
 ---
-title: Allocating Costs and Income | Microsoft Docs
+title: Overview of Tasks to Allocate Costs and Income | Microsoft Docs
 description: Outlines the tasks to allocate an entry in a general journal to several different accounts when you post the journal.
 services: project-madeira
 documentationcenter: ''
@@ -10,11 +10,11 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 06/02/2017
 ms.author: jswymer
 
 ---
-# Overview of Tasks to Allocate Costs and Income
+# Allocating Costs and Income
 You can allocate an entry in a general journal to several different accounts when you post the journal. The allocation can be made by three different methods:
 
 * Quantity

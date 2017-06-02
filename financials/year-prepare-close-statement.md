@@ -1,5 +1,5 @@
 ---
-title: Preparing Closing Statements| Microsoft Docs
+title: Overview of Reports to Help Prepare Closing Statements | Microsoft Docs
 description: Provides an overview of the reports you can use to gather information to prepare your company's closing statements when closing the fiscal year.
 services: project-madeira
 documentationcenter: ''
@@ -15,7 +15,7 @@ ms.date: 06/02/2017
 ms.author: jswymer
 
 ---
-# Overview of Reports to Help Prepare Closing Statements
+# Preparing Closing Statements
 There are a number of standard reports that you can use to gather the information that you need to prepare your company's closing statements.
 
 The following table describes a number of reports that may be useful in this process, with links to the topics that describe them.

@@ -1,6 +1,6 @@
 ---
-title: 'How to: Manage Many Incoming Document Records| Microsoft Docs'
-description: 'How to: Create Incoming Document Records'
+title: Specify If an Incoming Electronic Document Record Appears in Your Default View | Microsoft Docs
+description: Adjust the default view of incoming documents, such as e-invoices, to improve your overview of processed and unprocessed records.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 05/12/2016
+ms.date: 06/02/2016
 ms.author: sgroespe
 
 ---

@@ -1,6 +1,6 @@
 ---
-title: 'How to: Find Posted Documents without Incoming Document Records| Microsoft Docs'
-description: 'How to: Find Posted Documents without Incoming Document Records'
+title: Search for Posted Documents without Attachments| Microsoft Docs'
+Description: You can search for general ledger entries for posted purchase and sales documents that do not have incoming electronic documents, such as imported invoices.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 05/12/2016
+ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---

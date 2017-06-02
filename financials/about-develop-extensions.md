@@ -1,6 +1,6 @@
 ---
-title: Learn how you can extend Dynamics 365 for Financials | Microsoft Docs
-description: Build, showcase, and promote your Dynamics 365 for Financials extensions
+title: Learn How to Extend Dynamics 365 for Financials | Microsoft Docs
+description: Build, showcase, and promote your apps and extensions for Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: edupont04
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 03/22/2017
+ms.date: 06/02/2017
 ms.author: edupont
 
 ---

@@ -1,6 +1,6 @@
 ---
 title: 'How to: Create Incoming Document Records| Microsoft Docs'
-description: 'How to: Create Incoming Document Records'
+description: You can create records of incoming documents, such as e-invoices, and manage OCR tasks, eCommerce, and document exchange.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,11 +11,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 05/12/2016
+ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---
-# How to: Create Incoming Document Records
+# How to: Create Records of Incoming Documents
 In the **Incoming Documents** window, you can use different functions to review expense receipts, manage OCR tasks, and convert incoming document files, manually or automatically, to the relevant documents or journal lines. The external files can be attached at any process stage, including to posted documents and to the resulting vendor, customer, and general ledger entries.
 
 To record an external document in [!INCLUDE[d365fin](includes/d365fin_md.md)], you must first create or complete an incoming document record. You can do this manually, or you can take a photo of the external document and then create the incoming document record with the image file attached.

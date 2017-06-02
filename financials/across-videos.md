@@ -1,5 +1,5 @@
 ---
-title: How Do I? | Microsoft Docs
+title: How Do I Videos on Using Dynamics 365 for Financials| Microsoft Docs
 description: Provides access to getting-started videos that illustrate how to do common tasks.
 services: project-madeira
 documentationcenter: ''
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: video, library, how to
-ms.date: 05/08/2017
+ms.date: 06/02/2017
 ms.author: bholtorf
 
 ---

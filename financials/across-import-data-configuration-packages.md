@@ -1,5 +1,5 @@
 ---
-title: Use Excel to get legacy data into Financials | Microsoft Docs
+title: Use Excel to import data into Financials| Microsoft Docs
 description: Use the default configuration package to add customer data in Excel and import the data back into Dynamics 365 for Financials.
 author: edupont04
 ms.service: dynamics365-financials
@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: migration, Excel
-ms.date: 03/07/2017
+ms.date: 06/02/2017
 ms.author: edupont
 
 ---

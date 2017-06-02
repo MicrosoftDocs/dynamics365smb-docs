@@ -1,6 +1,6 @@
 ---
-title: 'How to: Reconcile Bank Accounts Separately| Microsoft Docs'
-description: 'How to: Reconcile Bank Accounts Separately'
+title: Reconcile Bank Accounts Separately| Microsoft Docs
+description: Describes how your inventory value is reconciled with the general ledger.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---

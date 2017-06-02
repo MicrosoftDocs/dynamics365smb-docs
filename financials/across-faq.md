@@ -1,5 +1,5 @@
 ---
-title: FAQ About Signing Up for and Using Financials| Microsoft Docs
+title: FAQ About Signing Up for and Using Dynamics 365 for Financials| Microsoft Docs
 description: Answers common questions about how to sign up for Financials, and what to do to get started.
 services: project-madeira
 documentationcenter: ''
@@ -15,7 +15,7 @@ ms.date: 06/02/2017
 ms.author: edupont
 
 ---
-# Frequently Asked Questions About [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# Frequently Asked Questions
 This section contains answers to frequently asked questions about signing up for and using [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)].  
 
 ## What email address can I use with [!INCLUDE[d365fin](includes/d365fin_md.md)]?

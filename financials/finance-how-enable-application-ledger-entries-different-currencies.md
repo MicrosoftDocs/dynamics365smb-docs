@@ -1,6 +1,6 @@
 ---
-title: 'How to: Enable Application of Ledger Entries in Different Currencies| Microsoft Docs'
-description: Learn how you can apply ledger entries in different currencies.
+title: Apply Entries in Different Currencies| Microsoft Docs
+description: You can apply ledger entries in multiple currencies, for example, if you sell in one currency and receive payment in another.
 services: project-madeira
 documentationcenter: ''
 author: edupont04
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: multiple currencies, payment, reconcile
-ms.date: 03/24/2017
+ms.date: 06/02/2017
 ms.author: edupont
 
 ---

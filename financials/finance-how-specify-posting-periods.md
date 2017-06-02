@@ -1,6 +1,6 @@
 ---
-title: 'How to: Specify Posting Periods | Microsoft Docs'
-description: Explains how to set posting start and end dates.
+title: Specify Posting Periods| Microsoft Docs
+description: You specify posting start and end dates to set up when users can post to the general ledger.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -13,7 +13,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user setup
-ms.date: 03/24/2017
+ms.date: 06/02/2017
 ms.author: jswymer
 
 ---

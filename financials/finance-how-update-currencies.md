@@ -1,6 +1,6 @@
 ---
-title: 'How to: Update Currency Exchange Rates | Microsoft Docs'
-description: Working with multiple currencies
+title: Updating Currency Exchange Rates| Microsoft Docs
+description: To use multiple currencies in your business, you can set up a code for each currency and use an external exchange rate service, such as Yahoo.
 services: project-madeira
 documentationcenter: ''
 author: edupont04
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: multiple currencies, Yahoo
-ms.date: 03/24/2017
+ms.date: 06/02/2017
 ms.author: edupont
 
 ---

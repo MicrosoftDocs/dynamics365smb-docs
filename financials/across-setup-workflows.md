@@ -1,6 +1,6 @@
 ---
-title: 'Setting Up Workflows| Microsoft Docs'
-description: 'Learn how to interlink steps in a business process by setting up workflows.'
+title: Set Up Workflows| Microsoft Docs
+description: Set up workflow users, approval users, workflow notifications, create workflows from workflow templates, export and import workflows.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -10,18 +10,18 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/05/2017
+ms.date: 06/02/2017
 ms.author: bholtorf
 
 ---
 # Setting Up Workflows
 This topic describes how to connect tasks in a business process by setting up workflows to ensure that you reach your goals. Workflows send email messages to people to let them know that an event has occurred and they need to do something about it. These can be tasks that people do, such as requesting or granting approval for a new vendor, system tasks like automatically posting something to the general ledger, or both.  
-  
+
 In addition to this topic, we've also created a short video that shows how to set up workflows. To watch the video, go to [Set up approval workflows](https://go.microsoft.com/fwlink/?linkid=843246).  
 
 **Note**: To use workflows, you must choose the **Suite** user experience for your company. For more information, see [Customizing Your Dynamics 365 for Financials Experience](ui-experiences.md).  
 
-Setting up workflows from scratch can be tricky, especially if you're just getting started. To make it easier, we provide tools that can help you set up some workflows that businesses often use. We recommend that you use these tools when you set up workflows: 
+Setting up workflows from scratch can be tricky, especially if you're just getting started. To make it easier, we provide tools that can help you set up some workflows that businesses often use. We recommend that you use these tools when you set up workflows:
 
 * Assisted setups that help you set up a few approval workflows
 * Workflow templates that we've prepared for you. You can use them as is, or customize them.
@@ -64,14 +64,14 @@ To assign approvers, follow these steps:
 
 ## To set up workflow email messages
 Workflows send email messages to notify the people involved in a workflow. For example, when User 1 requests approval of a new record, [!INCLUDE[d365fin](includes/d365fin_md.md)] sends email message to User 2, the approver. On the next workflow step, the event can be that User 2 approves the record, and [!INCLUDE[d365fin](includes/d365fin_md.md)] sends a message to User 3 to start processing the approved record. For workflow steps that involve approval, each message is tied to an approval entry.  
-  
+
 You set up workflow email messages in the following places:  
-  
+
 * You choose when, and how, people are notified on the **Notification Setup** page.  
 * For approval workflows, you specify the message recipients by filling a line in the **Approval User Setup** page for each user. For example, if User 2 is specified in the **Approver ID** field on the line for User 1, then the approval request message is sent to User 1.  
 * You set up the general content and layout of messages on the **Notification Templates** page. We provide some default templates, one for notifying about approval requests, one for notifying about new records, and one for notifying about overdue approval requests. If you want, you can chenge the content of the templates. To do that, export the template, modify the HTML, and then import it.  
 * You set up content and rules for notification emails from the **Workflow** page by choosing options on the **Workflow Response Options** page.  
-* To send e-mails using an SMTP server, fill in fields on the **SMTP Mail Setup** page. You can also use the **Set up email** assisted setup guide. To see a short video about setting up email, go to [Set up email](https://go.microsoft.com/fwlink/?linkid=843243). 
+* To send e-mails using an SMTP server, fill in fields on the **SMTP Mail Setup** page. You can also use the **Set up email** assisted setup guide. To see a short video about setting up email, go to [Set up email](https://go.microsoft.com/fwlink/?linkid=843243).
 
 ## To use assisted setups to create approval workflows for customers, items, and payments
 The following table describes the assisted setup guides that we provide. The guides walk you through the steps to assign an approver    
@@ -83,7 +83,7 @@ The following table describes the assisted setup guides that we provide. The gui
 |**Set up a payment approval workflow**| Use this workflow when you want someone to approve. |
 
 To use an assisted setup guide to create a customer, item, or payment approval workflow, follow these steps:  
-  
+
 1. Choose the **Search for Page or Report** icon, enter **assisted setup**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 

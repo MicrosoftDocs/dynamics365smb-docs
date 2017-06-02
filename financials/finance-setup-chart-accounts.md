@@ -1,6 +1,6 @@
 ---
 title: Setting Up the Chart of Accounts| Microsoft Docs
-description: Describes how you can change the chart of accounts.
+description: You change the default accounts in the chart of accounts (COA), and you can add new accounts.
 services: project-madeira
 documentationcenter: ''
 author: edupont04
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: COA, cha of acc
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: edupont
 
 ---
@@ -33,7 +33,7 @@ From the chart of accounts, you can open each G/L account and add or change sett
 ## See Also
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
 [Managing Bank Accounts](bank-manage-bank-accounts.md)  
-[Dimensions](finance-dimensions.md)  
+[Working with Dimensions](finance-dimensions.md)  
 [Importing from Other Finance Systems](upload-data.md)  
 [How to: Work With GIFI Codes in Canada](ca-finance-work-gifi-codes.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

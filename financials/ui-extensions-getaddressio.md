@@ -1,6 +1,6 @@
 ---
-title: GetAddress.io UK Postcodes | Microsoft Docs
-description: Provides information about the GetAddress.io UK Postcodes extension
+title: Using the GetAddress.io UK Postcodes Extension | Microsoft Docs
+description: Retrieve addresses for entities like customers, vendors, employees, and banks in the United Kingdom from the GetAddress.io service.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf

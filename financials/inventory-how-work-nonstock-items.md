@@ -1,6 +1,6 @@
 ---
-title: 'How to: Work with Nonstock Items| Microsoft Docs'
-description: Describes how to trade items that are not maintained in inventory
+title: Create and Manage Nonstock Items| Microsoft Docs
+description: Describes how to trade non-inventoriable items or items that are not maintained in your inventory.
 documentationcenter: ''
 author: SorenGP
 
@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: non-inventoriable
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---

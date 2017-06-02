@@ -1,6 +1,6 @@
 ---
-title: Using Dynamics 365 for Financials as a PowerApps Data Source | Microsoft Docs
-description: You can make your Financials data available as a data source in Power Apps.
+title: Use Your Data to Create an App| Microsoft Docs
+description: You can make your Financials data available as a data source and specify an OData URL of your web services to build a business app using PowerApps.
 services: project-madeira
 documentationcenter: ''
 author: edupont04
@@ -11,11 +11,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Odata, Power App, SOAP
-ms.date: 12/02/2016
+ms.date: 06/02/2017
 ms.author: edupont
 
 ---
-# Using Dynamics 365 for Financials as a PowerApps Data Source
+# Connecting to Your Financials Data to Build a Business App Using PowerApps
 You can make your [!INCLUDE[d365fin](includes/d365fin_md.md)] data available as a data source in PowerApps.  
 
 **Note**: You must have a valid account with [!INCLUDE[d365fin](includes/d365fin_md.md)] and with PowerApps.  

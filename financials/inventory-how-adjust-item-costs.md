@@ -1,6 +1,6 @@
 ---
-title: 'How to: Adjust Item Costs Manually| Microsoft Docs'
-description: 'How to: Adjust Item Costs'
+title: Manually Adjust the Costs of Items| Microsoft Docs
+description: You can adjust the inventory valuation of an item using the FIFO costing method, for example, when item costs change for reasons other than transactions.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---
@@ -26,7 +26,7 @@ You can also use a function to manually adjust the costs of one or more items. T
 
 The cost adjustment function processes only value entries that have not yet been adjusted. If the function encounters a situation where changed inbound costs need to be forwarded to associated outbound entries, then new adjustment value entries are created, which are based on the information in the original value entries but contain the adjustment amount. The cost adjustment function uses the posting date of the original value entry in the adjustment entry, unless that date is in a closed inventory period. In that case, the program uses the starting date of the next open inventory period. If inventory periods are not used, then the date in the **Allow Posting From** field in the **General Ledger Setup** window will define when the adjustment entry is posted.
 
-Changes in inventory value from trade are automatically reconciled with your financial books when you post item transactions. For more information, see [Advanced: Inventory Reconciliation](advanced-inventory-reconciliation.md).
+Changes in inventory value from trade are automatically reconciled with your financial books when you post item transactions. For more information, see the "Inventory Reconciliation" section in [Inventory](inventory-manage-inventory.md).
 
 ## To adjust item costs manually
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Adjust Cost - Item Entries**, and then choose the related link.
@@ -34,7 +34,6 @@ Changes in inventory value from trade are automatically reconciled with your fin
 3. Choose the **OK** button.
 
 ## See Also
-[Advanced: Inventory Reconciliation](advanced-inventory-reconciliation.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  

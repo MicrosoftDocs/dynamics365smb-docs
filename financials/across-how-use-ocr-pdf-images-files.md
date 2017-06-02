@@ -1,6 +1,6 @@
-﻿---
-title: 'How to: Use OCR to Turn PDF and Image Files into Electronic Documents| Microsoft Docs'
-description: Describes how to use OCR to turn PDF and image files into electronic documents
+---
+title: Use OCR to Turn PDF into E-Invoices| Microsoft Docs
+description: Describes how you can use an OCR service to convert incoming PDF or image files to electronic documents in Financials.
 documentationcenter: ''
 author: SorenGP
 
@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 03/22/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---

@@ -1,6 +1,6 @@
 ---
-title: 'How to: Create a Custom Report or Document Layout | Microsoft Docs'
-description: Learn how you can design how reports look.
+title: Create Custom Layouts for Reports and Documents | Microsoft Docs
+description: Learn how to create your own customized layouts to personalize the appearance of a report when it is viewed, printed, or saved. 
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

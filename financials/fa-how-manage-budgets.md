@@ -1,6 +1,6 @@
 ---
-title: 'How to: Manage Budgets for Fixed Assets| Microsoft Docs'
-description: Describes how to budget for fixed assets.
+title: Manage FA Budgets| Microsoft Docs
+description: You set up information about future investments, disposals, and depreciation of fixed assets to help prepare budgets and forecasts.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: forecast
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---

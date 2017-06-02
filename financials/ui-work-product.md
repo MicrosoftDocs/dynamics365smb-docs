@@ -1,6 +1,6 @@
 ---
-title: Working with Financials| Microsoft Docs
-description: Work with Dynamics 365 for Financials
+title: Working with the General Functionality in Dynamics 365 for Financials | Microsoft Docs
+description: Describes the general functionality you use to interact with data in Financials, such as entering values, sorting data, and changing views.
 services: ''
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -27,7 +27,7 @@ The following table lists some of the general functionality with links to topics
 | See which fields must be filled in. |[Mandatory Fields](ui-mandatory-fields.md) |
 | Use Search to look for a specific page or report. |[Using Search for Page or Report](ui-search.md) |
 | Learn about how to sort data. |[Sorting](ui-sorting.md) |
-| Change how you view lists of, for example, customers, vendors, or items. |[Displaying Lists in Different Views](across-display-lists-different-views.md) |
+| Change how you view lists of, for example, customers, vendors, or items. |[Displaying Lists in Different Ways](across-display-lists-different-views.md) |
 | Modify the colored indicator on cues. |[How to: Set Up a Colored Indicator on Cues](ui-how-setup-colored-indicator-cues.md) |
 | Change basic settings such as company or work date. |[Changing Basic Settings](ui-change-basic-settings.md) |
 | Change the Role Center, and the related Home page, to fit your role. |[How to: Change the Role Center](change-role.md) |

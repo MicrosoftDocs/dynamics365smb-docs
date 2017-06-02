@@ -1,6 +1,6 @@
 ---
-title: Entering Criteria in Filters | Microsoft Docs
-description: Learn how filters work in Financials.
+title: Defining Search Criteria in Filters | Microsoft Docs
+description: Describes how to work with filters, such as the Quick Filter, to refine the results you get when you search for data.
 services: project-madeira
 documentationcenter: ''
 author: jswymer

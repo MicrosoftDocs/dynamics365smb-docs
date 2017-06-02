@@ -1,6 +1,6 @@
 ---
-title: Payment Methods| Microsoft Docs
-description: Describes what payment methods are and how they are used.
+title: Set Up Payment Methods| Microsoft Docs
+Description: You use payment methods, for example, check, bank transfer, cash, or PayPal, to define how an invoice will be paid.
 services: project-madeira
 documentationcenter: ''
 author: edupont04
@@ -11,13 +11,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: check, bank transfer, cash, PayPal
-ms.date: 03/24/2017
+ms.date: 06/02/2017
 ms.author: edupont
 
 ---
-# Payment Methods
+# Defining Payment Methods
 Payment methods define how an invoice will be paid. You can set up any number of payment methods. Examples of payment methods can be BANK, CASH, CHECK, or ACCOUNT.
 Payment methods are linked to vendors in order to specify how an invoice from the specific vendor must be paid.
+
+## To set up a payment methods
+Several typical payment methods are already defined in [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can define new payment methods in the **Payment Methods** window, which you can find with the search function or open from the **Payment Method** field on an a vendor or customer card. 
+1. In the top right corner, choose the **Search for Page or Report** icon, enter **Payment Methods**, and choose the related link.
+2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## See Also
 [Finance](finance.md)  

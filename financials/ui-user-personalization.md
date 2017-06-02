@@ -1,6 +1,6 @@
 ---
-title: User Personalization| Microsoft Docs
-description: Descibes how users can change the way UI elements are displayed.
+title: Personalizing the Way Information is Displayed for a User Account | Microsoft Docs
+description: Describes how to customize the look and feel of Financials for your user account.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP

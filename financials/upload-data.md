@@ -1,6 +1,6 @@
 ---
-title: Import your legacy business data into Financials | Microsoft Docs
-description: Describes how you can import your own data into Dynamics 365 for Financials.
+title: Import Your Legacy Business Data into Financials | Microsoft Docs
+description: You can migrate data for customers, vendors, and inventory, for example, from Excel, QuickBooks, or Dynamics GP, into Financials.
 author: edupont04
 
 ms.service: dynamics365-financials

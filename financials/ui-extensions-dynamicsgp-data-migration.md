@@ -1,6 +1,6 @@
 ---
-title: Microsoft Dynamics GP Data Migration | Microsoft Docs
-description: Provides information about the Dynamics GP Data Migration extension
+title: Migrate Data from Dynamics GP with the Data Migration Extension | Microsoft Docs
+description: Use the Dynamics GP Data Migration extension to migrate customers, vendors, inventory items, and accounts from Dynamics GP to Dynamics 365 for Financials.
 documentationcenter: ''
 author: edupont04
 

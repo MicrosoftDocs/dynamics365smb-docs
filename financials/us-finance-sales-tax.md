@@ -1,6 +1,6 @@
 ---
-title: Sales Tax and Tax Groups in the US and Canada | Microsoft Docs
-description: Learn about how sales tax is set up, and how tax groups, tax areas, tax jurisdictions, and tax details work.
+title: Setting Up Tax Groups, Areas, and Jurisdictions in the US and Canada | Microsoft Docs
+description: Learn about how sales tax is set up, and how tax groups, tax areas (states, counties, cities, and localities), tax jurisdictions, and tax details work.
 services: project-madeira
 documentationcenter: ''
 author: edupont04

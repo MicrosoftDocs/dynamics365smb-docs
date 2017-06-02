@@ -1,6 +1,6 @@
 ---
-title: 'How to: Close Income Statement | Microsoft Docs'
-description: Explains how to close an income statement.
+title: Close Income Statement Accounts | Microsoft Docs
+description: At year closing, you must run the Close Income Statement batch job to close the accounting periods that make up the fiscal year.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -11,11 +11,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 03/29/2017
+ms.date: 06/02/2017
 ms.author: jswymer
 
 ---
-# Close Income Statement
+# How to: Close Income Statement Accounts
 When a fiscal year is over, you must close the periods that comprise it. To do this, you run the **Close Income Statement** batch job. This job transfers the year's result to an account in the balance sheet and closes the income statement accounts. You do this by creating lines in a journal, which you then can post.
 
 ## To run the Close Income Statement batch job

@@ -1,6 +1,6 @@
-﻿---
-title: 'How to: Use Approval Workflows| Microsoft Docs'
-description: 'How to: Use Approval Workflows'
+---
+title: Approve or Reject Documents in Workflows| Microsoft Docs
+description: Request, reject, or delegate an approval of, for example, a purchase or sales document, as part of a workflow.
 documentationcenter: ''
 author: SorenGP
 
@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 03/22/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---

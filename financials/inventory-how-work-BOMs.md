@@ -1,6 +1,6 @@
 ---
-title: 'How to: Work with Bills of Materials| Microsoft Docs'
-description: 'Assembly BOMs specify which components or resources are required to assemble the item that the assembly BOM represents. Assembly BOMs usually contain items but can also contain one or more resources that perform the assembly work.'
+title: Work with Bills of Material to Manage Components| Microsoft Docs
+description: description: You create an assembly BOM to specify the components or resources required to put together the item that the assembly BOM represents, and you can view the components of an assembly item.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,11 +10,11 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/18/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---
-# How to: Work with Bills of Materials
+# How to: Work with Bills of Material
 You use bills of materials (BOMs) to structure parent items that you sell as kits consisting of the parent's components or that you assemble to order or to stock.
 
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], a bill of materials is referred to as an "assembly BOM". Assembly BOMs specify which components are contained in parent items. In this documentation, a parent item is referred to as an "assembly item".
@@ -23,7 +23,7 @@ Assembly BOMs usually contain items but can also contain one or more resources t
 
 Assembly BOMs can have multiple levels, which means that a component on the assembly BOM can be an assembly item itself. In that case, the **Assembly BOM** field on the assembly BOM line contains **Yes**.
 
-Special requirements apply to items on assembly BOMs with regards to availability. For more information, see the "To see the availability of an item by its use in assembly BOMs" section in [How to: Get an Availability Overview](inventory-how-availability-overview.md).
+Special requirements apply to items on assembly BOMs with regards to availability. For more information, see the "To see the availability of an item by its use in assembly BOMs" section in [How to: View the Availability of Items](inventory-how-availability-overview.md).
 
 **Note**: This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your Financials Experience](ui-experiences.md).
 
@@ -50,6 +50,6 @@ From the **Assembly BOM** window, you can open a separate window that shows the 
 
 ## See Also
 [How to: Register New Items](inventory-how-register-new-items.md)  
-[How to: Get an Availability Overview](inventory-how-availability-overview.md)     
+[How to: View the Availability of Items](inventory-how-availability-overview.md)     
 [Inventory](inventory-manage-inventory.md)  
 [Working With [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)

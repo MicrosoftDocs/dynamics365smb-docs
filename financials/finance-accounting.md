@@ -1,5 +1,5 @@
 ---
-title: The Dynamics 365 Accountant experience | Microsoft Docs
+title: Financials Accountant Experience| Microsoft Docs
 description: Learn about the Accountant Portal for Dynamics 365 for Financials and the Accountant role center that supports the accountant in the client company.
 author: edupont04
 
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 05/30/2017
+ms.date: 06/02/2017
 ms.author: edupont
 
 ---

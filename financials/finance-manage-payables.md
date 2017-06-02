@@ -1,6 +1,6 @@
 ---
-title: Managing Payables | Microsoft Docs
-description: Introduction to paying your vendors and other payments.
+title: Managing Accounts Payable| Microsoft Docs
+description: Overview of how Financials helps you manage accounts payable (AP), including vendor payments, creditors, debt, and balance due.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -13,7 +13,7 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 03/24/2017
+ms.date: 06/02/2017
 ms.author: bholtorf
 
 ---

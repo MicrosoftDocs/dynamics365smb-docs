@@ -1,6 +1,6 @@
 ---
-title: Closing Periods | Microsoft Docs
-description: Explains the processes to complete to close a period.
+title: Optional Activities for Closing Periods | Microsoft Docs
+description: This topic outlines the optional processes and activities for closing accounting periods in Financials.  
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -11,11 +11,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments
-ms.date: 03/21/2017
+ms.date: 06/02/2017
 ms.author: jswymer
 
 ---
-# Closing Periods
+# Overview of Tasks to Close Accounting Periods
 [!INCLUDE[d365fin](includes/d365fin_md.md)] does not force you to close periods, however, there are many period-end (month-end) activities that you can do. This topic provides an overview of optional processes and activities for closing periods.  
 
 ## General Ledger

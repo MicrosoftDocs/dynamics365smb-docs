@@ -1,6 +1,6 @@
 ---
 title: Preparing Closing Statements| Microsoft Docs
-description: Provides an overview of the reports that may be useful when closing the year.
+description: Provides an overview of the reports you can use to gather information to prepare your company's closing statements when closing the fiscal year.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -11,11 +11,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
-ms.date: 03/21/2017
+ms.date: 06/02/2017
 ms.author: jswymer
 
 ---
-# Preparing Closing Statements
+# Overview of Reports to Help Prepare Closing Statements
 There are a number of standard reports that you can use to gather the information that you need to prepare your company's closing statements.
 
 The following table describes a number of reports that may be useful in this process, with links to the topics that describe them.

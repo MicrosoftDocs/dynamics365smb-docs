@@ -1,6 +1,6 @@
 ---
-title: QuickBooks Online Data Migration | Microsoft Docs
-description: Provides information about the QuickBooks Online Data Migration extension
+title: Using the QuickBooks Migration Extension | Microsoft Docs
+description: Describes how to use the extension to migrate customers, vendors, items, and accounts from QuickBooks Online to Financials. 
 services: project-madeira
 documentationcenter: ''
 author: bholtorf

@@ -1,6 +1,6 @@
 ---
-title: Customizing Dynamics 365 for Financials Using Extensions | Microsoft Docs
-description: Customizing Dynamics 365 for Financials Using Extensions
+title: Installing Extensions to Customize Dynamics 365 for Financials | Microsoft Docs
+description: Learn about adding functionality and customizing Dynamics 365 for Financials by installing extensions.
 services: project-madeira
 documentationcenter: ''
 author: edupont04

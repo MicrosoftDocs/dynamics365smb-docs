@@ -1,6 +1,6 @@
 ---
-title: The General Ledger and the Chart of Accounts| Microsoft Docs
-description: Describes the general ledger, the chart of accounts, and the account categories.
+title: Learn About General Ledger and COA| Microsoft Docs
+description: Describes the general ledger, the chart of accounts, and account categories.
 services: project-madeira
 documentationcenter: ''
 author: edupont04
@@ -11,11 +11,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 02/14/2017
+ms.date: 06/02/2017
 ms.author: edupont
 
 ---
-# The General Ledger and the Chart of Accounts
+# Understanding the General Ledger and the COA
 The general ledger stores your financial data, and the chart of accounts shows the accounts that all general ledger entries are posted to. [!INCLUDE[d365fin](includes/d365fin_md.md)] includes a standard chart of accounts that is ready to support your business.
 
 ## General Ledger Setup and General Posting Setup

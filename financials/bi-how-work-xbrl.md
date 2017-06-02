@@ -1,6 +1,6 @@
 ---
-title: 'How to: Work with Account Schedule| Microsoft Docs'
-description: Describes how to use account schedules to create various views and report for analyzing financials performance data.
+title: Work With XBRL| Microsoft Docs
+description: Report your financial information for banks, investors, and government authorities in a uniform reporting standard.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -17,6 +17,7 @@ ms.author: sgroespe
 ---
 <blockquote STYLE="background: #81BEF7;border-left:None"><b>FULL EXPERIENCE!</b> This functionality may not be enabled. Contact a Microsoft partner to buy the relevant extension. </blockquote>
 
+# Creating Reports With XBRL
 XBRL, which stands for eXtensible Business Reporting Language, is an XML-based language for tagging financial data, and enabling businesses to efficiently and accurately process and share their data. The XBRL initiative enables global financial reporting by numerous ERP software companies and international accounting organizations. The goal of the initiative is to provide a standard for the uniform reporting of financial information for banks, investors, and government authorities. Such business reporting can include:
 
 • Financial statements

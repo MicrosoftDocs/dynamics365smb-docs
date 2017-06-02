@@ -1,6 +1,6 @@
 ---
-title: Analyzing Cash Flow in Your Company| Microsoft Docs
-description: Describes how to use the Cash Cycle, Income & Expense, Cash Flow, and Cash Flow Forecast charts to analyze past and future movement of cash in and out of your company.
+title: Analyzing Cash Flows| Microsoft Docs
+description: Describes how to use the Cash Cycle, Income & Expense, Cash Flow, and Cash Flow Forecast charts to analyze the past and future flow of money in and out of your company.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
-ms.date: 03/24/2017
+ms.date: 06/02/2017
 ms.author: bholtorf
 
 ---

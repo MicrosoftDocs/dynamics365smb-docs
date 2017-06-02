@@ -1,5 +1,5 @@
 ---
-title: Using the Dynamics 365 for Financials Content Packs for Power BI | Microsoft Docs
+title: Enable Your Data for Power BI| Microsoft Docs
 description: Getting insights into your Financials data is easy with Power BI and the Financials content packs.
 services: project-madeira
 documentationcenter: ''
@@ -25,7 +25,7 @@ The content packs are preconfigured to work with sales data and financial data f
 * Pin this customized view to the dashboard to continue tracking.  
   The dashboard and underlying reports refresh daily. You can control the refresh schedule and modify the frequency on the dataset.  
 
-**Note**: You can also build your own reports and dashboards in Power BI based on your [!INCLUDE[d365fin](includes/d365fin_md.md)] data. For more information, see [Using Dynamics 365 for Financials as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md).  
+**Note**: You can also build your own reports and dashboards in Power BI based on your [!INCLUDE[d365fin](includes/d365fin_md.md)] data. For more information, see [Connecting Your Business Data to Power BI](across-how-use-financials-data-source-powerbi.md).  
 
 ## Accessing [!INCLUDE[d365fin](includes/d365fin_md.md)] in Power BI
 To see your [!INCLUDE[d365fin](includes/d365fin_md.md)] data in Power BI, you must have the following:  

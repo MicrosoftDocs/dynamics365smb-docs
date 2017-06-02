@@ -1,6 +1,6 @@
 ---
-title: Incoming Documents| Microsoft Docs
-description: Manage Incoming Documents
+title: Work with Incoming Documents| Microsoft Docs
+description: You can manage incoming external business documents, such as payment receipts or PDFs, manage OCR tasks, and convert files to electronic documents and records in Financials.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 01/16/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---

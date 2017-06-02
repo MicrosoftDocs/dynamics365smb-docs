@@ -1,6 +1,5 @@
 ---
-title: Approve or Reject a Document as Part of a Workflow
-| Microsoft Docs
+title: Approve or Reject Documents in Workflows| Microsoft Docs
 description: Request, reject, or delegate an approval of, for example, a purchase or sales document, as part of a workflow.
 documentationcenter: ''
 author: SorenGP

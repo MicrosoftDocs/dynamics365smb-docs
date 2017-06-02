@@ -1,5 +1,5 @@
 ---
-title: Create Records of Incoming Documents| Microsoft Docs'
+title: Create Records of Incoming Documents| Microsoft Docs
 description: You can create records of incoming documents, such as e-invoices, and manage OCR tasks, eCommerce, and document exchange.
 services: project-madeira
 documentationcenter: ''

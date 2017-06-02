@@ -1,6 +1,6 @@
 ---
-title: Finance| Microsoft Docs
-description: 'Learn about key financial concepts and processes '
+title: Financial Management| Microsoft Docs
+description: Learn about the tasks to set up finance in your business to suit all your accounting, auditing, or bookkeeping needs.
 services: project-madeira
 documentationcenter: ''
 author: edupont04
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: edupont
 
 ---

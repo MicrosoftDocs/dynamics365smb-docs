@@ -1,5 +1,5 @@
 ---
-title: FAQ About Signing Up for and Using Dynamics 365 for Financials| Microsoft Docs
+title: FAQ About Using Financials| Microsoft Docs
 description: Answers common questions about how to sign up for Financials, and what to do to get started.
 services: project-madeira
 documentationcenter: ''

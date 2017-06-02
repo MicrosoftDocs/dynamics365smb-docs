@@ -1,5 +1,5 @@
 ---
-title: Use Your Data When Creating a Business App | Microsoft Docs
+title: Use Your Data to Create an App| Microsoft Docs
 description: You can make your Financials data available as a data source and specify an OData URL of your web services to build a business app using PowerApps.
 services: project-madeira
 documentationcenter: ''

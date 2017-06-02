@@ -1,5 +1,5 @@
 ---
-title: Specify If an Incoming Electronic Document Record Appears in Your Default View | Microsoft Docs
+title: Define Which Incoming Docs to See| Microsoft Docs
 description: Adjust the default view of incoming documents, such as e-invoices, to improve your overview of processed and unprocessed records.
 services: project-madeira
 documentationcenter: ''

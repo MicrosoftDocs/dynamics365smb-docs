@@ -1,6 +1,6 @@
 ---
-title: 'How to: Set Up the Envestnet Yodlee Bank Feeds Service| Microsoft Docs'
-description: 'How to: Set Up the Envestnet Yodlee Bank Feeds Service'
+title: Set Up Yodlee Bank Feeds| Microsoft Docs'
+description: You can convert payment information to any data format that your bank requires and enable the export or import of bank files.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---

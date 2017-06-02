@@ -1,6 +1,6 @@
 ---
-title: 'How to: Define Check Layouts| Microsoft Docs'
-description: Learn about the check layouts that are available in Financials.
+title: Specify the Layout of a Check| Microsoft Docs
+description: You can design and print your checks in different formats to conform with standards.
 services: project-madeira
 documentationcenter: ''
 author: edupont04
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
-ms.date: 03/24/2017
+ms.date: 06/02/2017
 ms.author: edupont
 
 ---

@@ -1,6 +1,6 @@
 ---
-title: Using Search for Page or Report | Microsoft Docs
-description: learn how to use Search in Dynamics 365 for Financials.
+title: Finding Pages or Reports Using the Search for Page or Report Function | Microsoft Docs
+description: To find pages and reports in Dynamics 365 for Financials, you can use the Search for Page or Report feature.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

@@ -1,6 +1,6 @@
 ---
-title: 'How to: Categorize Items| Microsoft Docs'
-description: Describes how to organize items in categories.
+title: Organize Items in Categories| Microsoft Docs
+description: To help you search for and find items, you can assign item attributes and organize items in categories.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: category, search, attribute, facet
-ms.date: 04/20/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---

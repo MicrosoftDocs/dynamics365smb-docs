@@ -1,6 +1,6 @@
 ---
 title: What's New in Dynamics 365 for Financials| Microsoft Docs
-description: What's New in Dynamics 365 for Financials
+description: Describes the latest news and updates for Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,11 +11,10 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: news
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---
-
 # What's New in Dynamics 365 for Financials
 Welcome to [!INCLUDE[d365fin](includes/d365fin_md.md)]! If you haven't already, then sign up for a trial, let us walk you through the basics of what you can do with [!INCLUDE[d365fin](includes/d365fin_md.md)], and then try things out on your own for a while. When you are ready, you can open a blank company and set things up for yourself.  
 

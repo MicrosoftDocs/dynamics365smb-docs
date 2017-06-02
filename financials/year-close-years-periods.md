@@ -1,6 +1,6 @@
 ---
 title: Closing Years and Periods| Microsoft Docs
-description: Explains how to close a fiscal year and periods.
+description: Outlines the tasks to close a fiscal year or accounting period, for example, making sure documents and journals are posted and verifying bank balances.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -15,7 +15,7 @@ ms.date: 03/29/2017
 ms.author: jswymer
 
 ---
-# Closing Years and Periods
+# Overview of Tasks to Close a Fiscal Year and Accounting Periods
 At the end of a fiscal year, there are a number of administrative tasks that you have to perform, like making sure all documents and journals are posted, making sure currency data are up-to-date, closing the books, and more. The actual tasks will depend your company.
 
 The following table provides an overview of tasks that you typically perform to close a year and period. These tasks are listed in the order in which they are generally performed.

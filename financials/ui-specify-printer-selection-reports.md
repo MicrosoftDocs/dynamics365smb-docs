@@ -1,6 +1,6 @@
 ---
-title: Specify Printer Selection for Reports | Microsoft Docs
-description: Specifying printers for reports.
+title: Setting Up Reports to Print on Specific Printers | Microsoft Docs
+description: Learn about specifying a printer for a report and using the Printer Selections window.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

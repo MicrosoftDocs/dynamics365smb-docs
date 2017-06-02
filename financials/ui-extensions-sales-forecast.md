@@ -1,6 +1,6 @@
 ---
-title: Sales and Inventory Forecast | Microsoft Docs
-description: Provides information about the Sales and Inventory Forecast extension.
+title: Using the Sales and Inventory Forecast Extension to Manage Inventory | Microsoft Docs
+description: This extension helps you predict sales, get a clear overview of expected stock-outs, and even helps you create replenishment requests to vendors.
 services: project-madeira
 documentationcenter: ''
 author: edupont04

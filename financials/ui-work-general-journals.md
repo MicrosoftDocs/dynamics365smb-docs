@@ -1,6 +1,6 @@
 ---
-title: Working with General Journals | Microsoft Docs
-description: Learn how general journals work.
+title: Using General Journals, Journal Templates, Batches, and Recurring Journals | Microsoft Docs
+description: Learn about using general journals to post financial transactions to general ledger accounts and other accounts, such as bank and vendor accounts.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP

@@ -1,6 +1,6 @@
 ---
-title: 'How to: Preview Posting Results | Microsoft Docs'
-description: Describes how you can get a preview of the impact of your changes before you post anything.
+title: Preview Entries Before You Post a Document or Journal | Microsoft Docs
+description: You can make sure that entries for documents and journals are accurate before you post them to the general ledger.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 05/12/2017
 ms.author: solsen
 
 ---

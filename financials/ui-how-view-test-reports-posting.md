@@ -1,6 +1,6 @@
 ---
-title: 'How to: View Test Reports Before Posting | Microsoft Docs'
-description: Learn how to get a test report before you post anything.
+title: Review a Test Report Before Posting a Sales or Purchase Document | Microsoft Docs
+description: Before you post a document, for example, an order or a credit memo, you can test and review it to check for errors that might block posting.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 05/12/2017
 ms.author: solsen
 
 ---

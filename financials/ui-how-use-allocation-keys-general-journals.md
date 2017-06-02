@@ -1,6 +1,6 @@
 ---
-title: 'How to: Use Allocation Keys in General Journals | Microsoft Docs'
-description: Learn how you can use allocation keys in journals.
+title: Set Up or Change Allocation Keys in General Journals | Microsoft Docs
+description: To help with cost accounting, you can allocate an entry in a general journal to several different accounts when you post the journal.
 services: project-madeira
 documentationcenter: ''
 author: edupont04

@@ -1,5 +1,5 @@
 ---
-title: 'How to: Create  Budgets| Microsoft Docs'
+title: Creating  Budgets| Microsoft Docs
 description: Describes hos to create budgets to forecast different financial activities and assign dimensions for business intelligence purposes.
 services: project-madeira
 documentationcenter: ''

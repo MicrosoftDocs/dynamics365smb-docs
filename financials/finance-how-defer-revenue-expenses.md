@@ -1,6 +1,6 @@
 ---
-title: 'How to: Defer Revenues and Expenses| Microsoft Docs'
-description: Describes how to recognize revenues and expenses in periods other than the period in which the transaction is posted by automatically deferring revenues and expenses over a specified schedule.
+title: Defer Revenues and Expenses| Microsoft Docs
+description: To recognize revenues and expenses in periods other than the period in which the transaction was posted, you can automatically defer or postpone them over a specified schedule.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 03/24/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---

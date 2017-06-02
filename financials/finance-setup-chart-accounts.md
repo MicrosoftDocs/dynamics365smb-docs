@@ -1,6 +1,6 @@
 ---
 title: Setting Up the Chart of Accounts| Microsoft Docs
-description: Describes how you can change the chart of accounts.
+description: You change the default accounts in the chart of accounts (COA), and you can add new accounts.
 services: project-madeira
 documentationcenter: ''
 author: edupont04
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: COA, cha of acc
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: edupont
 
 ---

@@ -1,6 +1,6 @@
 ---
-title: Posting Group Setups| Microsoft Docs
-description: Provides an overview of posting groups
+title: Posting Group Setup| Microsoft Docs
+description: Overview of the posting groups you can use to save time and avoid mistakes when you post transactions.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -11,11 +11,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
-ms.date: 03/24/2017
+ms.date: 06/02/2017
 ms.author: bholtorf
 
 ---
-# Posting Group Setups
+# Setting Up Posting Groups
 Posting groups map entities like customers, vendors, items, resources, and sales and purchase documents to general ledger accounts. They save time and help avoid mistakes when you post transactions. The transaction values go to the accounts specified in the posting group for that particular entity. The only requirement is that you have a chart of accounts. For more information, see [Set Up the Chart of Accounts](finance-setup-chart-accounts.md).  
 
 Posting groups are covered under three umbrellas:  

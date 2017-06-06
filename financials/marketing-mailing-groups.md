@@ -26,7 +26,7 @@ The mailing group code defines the type or category of the group, such as MOVE f
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Mailing Groups**, and then choose the related link.
 2. Choose the **New** action, and fill in a code and description. The code can be a maximum of 11 characters, and can be any combination of numbers and letters.
 
-## <a name="AssignMailGroupContactTo"></a> assign mailing groups to a contact
+## <a name="AssignMailGroupContact"></a> To assign mailing groups to a contact
 1. Open the contact.
 2. Choose the **Mailing Groups** action. The **Contact Mailing Groups** window opens.
 3. In the **Mailing Groups Code** field, select the mailing group that you want to assign.

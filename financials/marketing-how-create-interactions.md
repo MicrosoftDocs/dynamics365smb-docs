@@ -1,6 +1,6 @@
 ---
-title: 'How to: Create Interactions on Contacts and Segments | Microsoft Docs'
-description: Describes how to create interactions on contacts and segments in Financials
+title: Create Interactions on Contacts and Segments| Microsoft Docs
+description: Describes how to create interactions for communication that you have with your contacts and segments in Financials, for example, direct mail.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 
 ---

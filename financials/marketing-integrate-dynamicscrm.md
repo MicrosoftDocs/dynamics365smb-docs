@@ -1,6 +1,6 @@
 ---
-title: Managing your customer relationships using Dynamics 365 for Sales from inside Dynamics 365 for Financials | Microsoft Docs
-description: If you use Dynamics 365 for Sales for customer engagement, you can use Dynamics 365 for Financials for order processing and finances and have seamless integration in the lead-to-cash process
+title: Manage Customers Using Dynamics 365 for Sales| Microsoft Docs
+description: You can use Dynamics 365 for Sales from inside Dynamics 365 for Financials to map data and have seamless integration and synchronization in the lead-to-cash process.
 documentationcenter: ''
 author: edupont04
 
@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map
-ms.date: 03/05/2017
+ms.date: 06/06/2017
 ms.author: edupont
 ---
 # Managing Your Customer Relationships using Dynamics 365 for Sales from inside Dynamics 365 for Financials

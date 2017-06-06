@@ -1,6 +1,6 @@
 ---
-title: Setting Up Web Sources for Contact Companies | Microsoft Docs
-description: Describes how to use web sources for contacts in Financials
+title: Set Up Web Sources for Contact Companies| Microsoft Docs
+description: You can define internet or web sources and assign them to a contact company to help identify how you want to search for information about your contacts.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -10,12 +10,12 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: internet 
-ms.date: 03/28/2017
+ms.search.keywords: internet
+ms.date: 06/06/2017
 ms.author: jswymer
 
 ---
-# Setting Up Web Sources for Contact Companies
+# How to: Set Up Web Sources for Contact Companies
 You can use web sources with your contact companies to identify, for example, search engines and web sites, on the Internet that you want to use to search for information about the contacts. When assigning web sources, you specify which search engine and search word the application will use to find the requested information.
 
 Using web sources on contacts is a two-step process. First, you define the web source code. You only have to perform this step one time for each web source. Once you have a web source code, you can start to assign the code to contact persons.

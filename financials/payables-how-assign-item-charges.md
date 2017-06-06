@@ -1,5 +1,5 @@
 ---
-title: 'How to: Use Item Charges to Account for Additional Trade Costs| Microsoft Docs'
+title: Assign Item Charges to Sales and Purchases| Microsoft Docs
 description: 'If you want your inventory items to carry added costs, such as freight, physical handling, insurance, and transportation that you incur when purchasing or selling items, you can use the Item Charges feature.'
 services: project-madeira
 documentationcenter: ''
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: transportation, added cost
-ms.date: 06/01/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 
 ---

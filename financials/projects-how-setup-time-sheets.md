@@ -1,6 +1,6 @@
 ---
-title: 'How to: Set Up Time Sheets| Microsoft Docs'
-description: Describes how to prepare the system to use time sheets to manage projects.
+title: Set Up Time Sheets and Their Approval| Microsoft Docs
+description: You set up time sheets to track the time used on jobs and using resources, helping you with project management, staffing, and capacity
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 
 ---

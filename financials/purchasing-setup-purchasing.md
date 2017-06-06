@@ -1,6 +1,6 @@
 ---
-title: Setting Up Purchasing| Microsoft Docs
-description: Setting Up Purchasing
+title: Overview of Tasks to Set Up Purchasing | Microsoft Docs
+description: Describes the tasks to define your company's procurement policies and set up your purchasing processes.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP

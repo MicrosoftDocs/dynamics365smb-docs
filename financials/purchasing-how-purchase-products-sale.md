@@ -1,6 +1,6 @@
 ---
-title: 'How to: Purchase Items for a Sale| Microsoft Docs'
-description: 'To replenish items as soon as you sell them, or to fullfill an open sales demand, you can use the Create Purchase Orders function as a simple supply planning feature.'
+title: Create a Purchase Invoice from a Sales Invoice to Buy Items for a Sale | Microsoft Docs
+description: From a sales invoice, to purchase products, you can create a purchase invoice for a vendor or supplier.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP

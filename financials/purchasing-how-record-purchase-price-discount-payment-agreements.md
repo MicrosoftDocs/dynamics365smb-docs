@@ -1,6 +1,6 @@
 ---
-title: 'How to: Record Special Purchase Prices and Discounts| Microsoft Docs'
-description: 'How to: Record Purchase Prices and Discounts'
+title: Set Up Special and Alternate Pricing and Discounts for Vendors | Microsoft Docs'
+description: You can define different or alternate prices and discount agreements and apply them to purchase documents for vendors.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP

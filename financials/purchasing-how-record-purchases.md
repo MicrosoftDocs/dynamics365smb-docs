@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Record Purchases| Microsoft Docs'
-description: Describes how to purchase items of type Inventory or Service by creating and posting purchase invoices or orders.
+title: Create a Purchase Invoice and Record Purchases | Microsoft Docs
+description: Describes how to purchase inventory and service items by creating and posting purchase invoices or orders.
 documentationcenter: ''
 author: SorenGP
 

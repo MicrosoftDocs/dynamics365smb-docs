@@ -1,6 +1,6 @@
 ---
-title: 'How to: Invoice Sales| Microsoft Docs'
-description: Describes how to use sales invoices.
+title: Create a Sales Invoice or Sales Order | Microsoft Docs
+description: Describes how to create a bill of sale, or a sales invoice or sales order, to record your agreement with a customer to sell products under specific terms.
 documentationcenter: ''
 author: SorenGP
 
@@ -9,7 +9,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: bill, sale
+ms.search.keywords: bill, sale, invoice, order
 ms.date: 03/29/2017
 ms.author: sgroespe
 

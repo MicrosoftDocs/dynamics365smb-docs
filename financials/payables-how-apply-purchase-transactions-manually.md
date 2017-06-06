@@ -1,6 +1,6 @@
 ---
-title: 'How to: Reconcile Vendor Payments Manually| Microsoft Docs'
-description: 'How to: Reconcile Vendor Payments Manually'
+title: Reconcile Vendor Payments Manually| Microsoft Docs
+description: To process, match, or reconcile vendor payments or refunds manually, you apply the amount to one or more open vendor ledger entries.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment application, payment processing, match payments
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 
 ---

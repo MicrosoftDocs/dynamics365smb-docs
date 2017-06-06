@@ -1,6 +1,6 @@
 ---
-title: Automatically Record Interactions with Contacts | Microsoft Docs
-description: Describes how to automatically record interactions with contacts in Financials
+title: Set Up Automatic Recording of Interactions| Microsoft Docs
+description: You can automatically record your customer or client interactions, for example, for sales, purchase and service documents or phone calls.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -11,11 +11,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, relationship, prospect, contact, client, customer
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 
 ---
-# Automatically Record Interactions with Contacts
+# Recording Interactions with Contacts Automatically
 You can set up the application to automatically record interactions for sales, purchase and service documents, cover sheets, e-mails, phone calls, such as:
 
 * Print sales or purchase quotes, orders, invoices, credit memos, cover sheets.

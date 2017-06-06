@@ -1,6 +1,6 @@
 ---
-title: Managing Payables| Microsoft Docs
-description: Managing Payables
+title: Overview of Tasks to Manage Accounts Payable| Microsoft Docs
+description: Outlines tasks to manage accounts payable, for example, paying creditors or applying outgoing payments to ledger entries to close invoices or credit memos.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 06/01/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 
 ---

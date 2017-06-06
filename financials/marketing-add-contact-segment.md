@@ -1,6 +1,6 @@
 ---
-title: Add Contacts to Segments | Microsoft Docs
-description: Describes how to add contacts to segments in Financials
+title: Define the Contacts in a Segment| Microsoft Docs
+description: After you have created a segment, you can add contacts to the segment, for example, as part of a marketing campaign targeting particular customers or clients.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -10,8 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer 
-ms.date: 03/28/2017
+ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
+ms.date: 06/06/2017
 ms.author: jswymer
 
 ---

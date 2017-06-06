@@ -1,6 +1,6 @@
 ---
-title: Creating and Managing Contacts | Microsoft Docs
-description: Describes how to create and manage contacts in Financials
+title: Create and Manage Company Contacts| Microsoft Docs
+description: You set up all external entities that you have a business relationship with (such as prospects, customers, vendors, and consultants) as contacts.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 
 ---

@@ -1,6 +1,6 @@
 ---
-title: 'How to: Use Time Sheets for Jobs| Microsoft Docs'
-description: Describes how to use time sheets to manage projects.
+title: Work with Time Sheets for Jobs| Microsoft Docs
+description: Describes how to create a time sheet for a job, copy planning lines to it, define work types, fill in the time sheet, and submit it for approval.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 
 ---

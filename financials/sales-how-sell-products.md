@@ -1,6 +1,6 @@
 ---
-title: 'How to: Sell Products| Microsoft Docs'
-description: Describes how to use sales orders.
+title: Create a Sales Order and Sell Products | Microsoft Docs
+description: Describes how to create a sales order to record your agreement with a customer to sell or trade products under specific terms.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,12 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-<<<<<<< HEAD
 ms.search.keywords: trade
 ms.date: 03/29/2017
-=======
-ms.date: 03/09/2017
->>>>>>> Update5
 ms.author: sgroespe
 
 ---

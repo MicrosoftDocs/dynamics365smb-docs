@@ -1,6 +1,6 @@
 ---
-title: 'How to: Process Sales Returns or Cancellations| Microsoft Docs'
-description: 'How to: Process Sales Returns or Cancellations'
+title: Using a Sales Credit Memo to Process Sales Returns or Cancellations | Microsoft Docs
+description: Describes how to create a sales credit memo to process a return, cancellation, or reimbursement for items or services you have been received payment for.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP

@@ -28,16 +28,31 @@ You can import the following data from QuickBooks Online to [!INCLUDE[d365fin](i
 * Chart of accounts 
 * Beginning balance transaction in the general ledger
 * On-hand quantities for inventory items
-* Outstanding documents for customers and vendors, such as invoices, credit memos, and payments
+* Open documents for customers and vendors, such as invoices, credit memos, and payments
+
+**Note**: We do not migrate purchase orders or sales orders.
 
 ## Before you start
-The biggest part of the migration process is specifying the accounts that you'll migrate transactions to. For example, the accounts you use for the sale or purchase of items and services. Before you migrate data, it's a good idea to have planned this mapping.
+The biggest part of the migration process is to specify the accounts to migrate transactions to. For example, the accounts where you post transactions for:  
+  
+* The sale of items or services to customers.
+* The purchase of items or services from vendors.  
+* Adjustments in the general ledger.  
+
+It's a good idea to plan this mapping before you migrate data.
+
+Also, we migrate only full amounts on sales and purchase documents. We do not update partially paid amounts. For example, if customer has paid 300 of a total of 500 on a sales invoice, we migrate the full 500. If you have received partial payments, you must update these manually, either before or after you migrate data. We recommend that you apply outstanding transactions before you migrate, just to make things easier afterward.
 
 ## How do I start using the extension?
 Getting started is easy. All you need to do is run the **Data Migration** assisted setup guide. Here's how:
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Assisted Setup**, and then choose **Migrate business data**.
 2. Follow the instructions on each step in the assisted setup guide.
+
+## What do I do after I migrate data?
+After you migrate data, transactions have the status **Unposted**, so you can review them and make adjustments before posting. To review the transactions, go to the page where you would normally find them. For example, to review unposted sales invoices, go to the **Sales Invoices** page. To review payment journals, go to the **Payment Journals** page. These pages list only unposted documents.  
+
+**Tip**: We do not migrate partially paid documents. If you did not apply outstanding transactions before starting the migration, remember to do that now.
 
 ## See Also
 [Importing Business Data from Other Finance Systems](upload-data.md)  

@@ -1,6 +1,6 @@
 ---
-title: 'How to: Create Segments | Microsoft Docs'
-description: Describes how to create segments for contacts in Financials
+title: Create Segments| Microsoft Docs
+description: Describes how to create a segment for a group of contacts in Financials, for example, in order to target several contacts with a direct mail.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 
 ---

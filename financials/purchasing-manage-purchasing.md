@@ -1,6 +1,6 @@
 ---
-title: Purchasing| Microsoft Docs
-description: Describes how to manage purchasing activities.
+title: Overview of Tasks to Manage Purchasing | Microsoft Docs
+description: Outlines tasks to manage your purchasing or procurement processes, including how purchase invoices and purchase orders work.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP

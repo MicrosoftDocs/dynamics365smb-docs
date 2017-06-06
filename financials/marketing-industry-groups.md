@@ -28,7 +28,7 @@ The industry group code defines the type or category of the group, such as ADVER
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Industry Groups**, and then choose the related link.
 2. Choose the **New** action, and fill in a code and description. The code can be a maximum of 11 characters, and can be any combination of numbers and letters.
 
-## To assign industry groups to a contact
+## <a name="AssignIndustryGroupContact"></a> To assign industry groups to a contact
 You cannot assign industry groups to a contact person - only companies.
 
 1. Open the contact.

@@ -6,7 +6,10 @@
 ## [Getting Financials on Your Mobile Device](install-mobile-app.md)
 ## [Using Financials as Your Business Inbox in Outlook](madeira-outlook.md)
 ## [Using Financials Without Outlook](madeira-no-outlook.md)
-## [Connecting Your Business Data to Power BI](madeira-powerbi.md)
+## [Enabling Your Business Data for Power BI](madeira-powerbi.md)
+## [Using Financials in an Automated Workflow](across-how-use-financials-data-source-flow.md)
+## [Using Financials as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)
+## [Connecting to Your Financials Data to Build a Business App Using PowerApps](across-how-use-financials-data-source-powerapps.md)
 ## [Customizing Financials Using Extensions](ui-extensions.md)
 
 # Tips and Tricks

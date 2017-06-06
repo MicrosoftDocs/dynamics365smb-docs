@@ -1,6 +1,6 @@
 ---
-title: 'How to: Create Jobs| Microsoft Docs'
-description: Describes how to create a job.
+title: Create a Job Card for a Job and Specify Tasks| Microsoft Docs'
+description: For a new project, you create a job card that contains job tasks and planning lines, to help you manage progress and budgets.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, task
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 
 ---

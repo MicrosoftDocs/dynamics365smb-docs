@@ -1,6 +1,6 @@
 ---
-title: 'How to: Set Up Jobs| Microsoft Docs'
-description: Describes how to prepare the system to use jobs to manage projects.
+title: Set Up Jobs Prices and Job Posting Groups| Microsoft Docs
+description: Describes how to set up general jobs information, and set up prices for job items, resources, and G/L accounts and jobs posting groups.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 
 ---

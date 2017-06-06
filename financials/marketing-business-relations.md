@@ -1,6 +1,6 @@
 ---
-title: Setting Up Business Relations for Contacts | Microsoft Docs
-description: Describes business relations for contacts in Financials
+title: Define Business Relation Codes on Contacts| Microsoft Docs
+description: Use business relations in Financials to help with marketing and to indicate the business relationship you have with your  prospects, clients, and customers, for example, a bank or service supplier.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, prospect, contact, client, customer
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 
 ---

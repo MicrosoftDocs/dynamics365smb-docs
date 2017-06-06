@@ -1,6 +1,6 @@
 ---
-title: Setting Up Industry Groups for Contact Companies | Microsoft Docs
-description: Describes using industry groups with contacts in Financials
+title: Set Up Industry Groups for Contact Companies| Microsoft Docs
+description: Describes how to define an industry group and assign it to a contact company, for example, the retail industry or the automobile industry.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -11,11 +11,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 
 ---
-# Setting Up Industry Groups for Contact Companies
+# How to: Set Up Industry Groups for Contact Companies
 You use industry groups to indicate the type of industry to which your contacts belong, for example, the retail industry or the automobile industry.
 
 Using industry groups on contacts is a two-step process. First, you define the industry group code. You only have to perform this step one time for each industry group. Once you have an industry group code, you can start to assign the code to contact companies.

@@ -1,6 +1,6 @@
 ---
-title: 'How to: Set Up Alternative Addresses for Contacts | Microsoft Docs'
-description: Describes how to set up alternate addresses for contacts in Financials
+title: Assign a Different Contact Address| Microsoft Docs
+description: Describes how to assign an alternate address for your contacts or prospects, where they are sometimes sent information.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 
 ---

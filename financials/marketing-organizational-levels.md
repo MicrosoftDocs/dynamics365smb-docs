@@ -1,6 +1,6 @@
 ---
-title: Setting Up Organizational Levels for Contact Persons | Microsoft Docs
-description: Describes organizational levels for contacts in Financials
+title: Set Up Organizational Levels for Contact Persons| Microsoft Docs
+description: You can define an organizational level and assign it to your contact to indicate the position they have in their company, for example, top management.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -11,11 +11,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, client, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 
 ---
-# Setting Up Organizational Levels for Contact Persons
+# How to: Set Up Organizational Levels for Contact Persons
 You can use organizational levels on your contacts to specify which position they have in the company, for example, top management. You can use this information when entering information about your contacts.
 
 Using organizational levels on contacts is a two-step process. First, you define the organizational level code. You only have to perform this step one time for each organizational level. Once you have an organizational level code, you can start to assign the code to contact persons.

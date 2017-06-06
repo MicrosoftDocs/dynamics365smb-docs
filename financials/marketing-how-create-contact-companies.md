@@ -1,6 +1,6 @@
 ---
-title: Create Contact Companies | Microsoft Docs
-description: Describes how to create contact companies in Financials
+title: Create Contact Companies| Microsoft Docs
+description: Describes how to create a contact for each new company or prospective company you interact with or have a relationship with.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -11,11 +11,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 02/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 
 ---
-# Create Contact Companies
+# How to: Create Contact Companies
 You can create a contact for each new company you interact with, for example, a customer, vendor, prospective customer, bank, law firm, consultant, and so on.
 
 There are two ways to create a contact:

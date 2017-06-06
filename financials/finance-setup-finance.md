@@ -24,12 +24,13 @@ The following table describes a sequence of tasks, with links to the topics that
 
 | To | See |
 | --- | --- |
-| Choose how you pay your vendors. |[Payment Methods](finance-payment-methods.md) |
+| Choose how you pay your vendors. |[Defining Payment Methods](finance-payment-methods.md) |
+|Specify the posting groups that map entities like customers, vendors, items, resources, and sales and purchase documents to general ledger accounts.|[Setting Up Posting Groups](finance-posting-groups.md)|
 | Set up fiscal periods. |[How to: Open a New Fiscal Year](finance-how-open-new-fiscal-year.md) |
 | Set up or update additional currencies if you perform international trade. |[How to: Update Currency Exchange Rates](finance-how-update-currencies.md) |
-| Set up unique identification codes. |[Creating Number Series](ui-create-number-series.md) |
+| Set up unique identification codes. |[How to: Create Number Series](ui-create-number-series.md) |
 | Add dimensions for richer business intelligence. |[Working with Dimensions](finance-dimensions.md) |
-| Add new accounts to the existing chart of accounts. |[Set Up the Chart of Accounts](finance-setup-chart-accounts.md) |
+| Add new accounts to the existing chart of accounts. |[Setting Up the Chart of Accounts](finance-setup-chart-accounts.md) |
 | Set up business intelligence (BI) charts to analyze cash flow. |[Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md) |
 
 ## See Also

@@ -26,9 +26,9 @@ The following table describes a sequence of tasks, with links to the topics that
 
 | To | See |
 | --- | --- |
-| Set up contact management prior to adding contacts. |[Prepare for Setting Up Contacts](marketing-setup-contacts.md) |
-| Create a contact card for each new company that you interact with, such as a customer or vendor. |[Create Contact Companies](marketing-create-contact-companies.md) |
-| Create a contact card for each contact person who works for the companies that you interact with. |[Create Contact Persons](marketing-create-contact-persons.md) |
+| Set up contact management prior to adding contacts. |[Preparing to Set Up Contacts](marketing-setup-contacts.md) |
+| Create a contact card for each new company that you interact with, such as a customer or vendor. |[Creating Contact Companies](marketing-create-contact-companies.md) |
+| Create a contact card for each contact person who works for the companies that you interact with. |[Creating Contact Persons](marketing-create-contact-persons.md) |
 
 ## See Also
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  

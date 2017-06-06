@@ -1,5 +1,5 @@
 ---
-title: How to: Close Accounting Periods | Microsoft Docs
+title: Close Accounting Periods for a Fiscal Year | Microsoft Docs
 description: Describes how to close the accounting periods that make up the fiscal year.
 services: project-madeira
 documentationcenter: ''
@@ -15,7 +15,7 @@ ms.date: 06/02/2017
 ms.author: jswymer
 
 ---
-# How to: Close Accounting Periods in a Fiscal Year
+# How to: Close Accounting Periods
 When a fiscal year is over, you must close the periods that comprise it.
 
 ## To close accounting periods

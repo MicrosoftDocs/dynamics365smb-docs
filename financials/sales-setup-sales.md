@@ -1,6 +1,6 @@
 ---
-title: Setting Up Sales| Microsoft Docs
-description: Describes how to set up sales processes.
+title: Overview of Tasks to Configure Sales Processes | Microsoft Docs
+description: Outlines tasks to set up rules and values to define your sales policies and processes.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP

@@ -1,6 +1,6 @@
 ---
-title: General Business Functionality | Microsoft Docs
-description: Learn more about functionality that is common across business areas in Dynamics 365 for Financials
+title: Using General Functionality Across Business Areas | Microsoft Docs
+description: Learn about the functionality and features that are used across business areas in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

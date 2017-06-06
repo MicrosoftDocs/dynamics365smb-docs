@@ -1,6 +1,6 @@
 ---
-title: Mandatory Fields | Microsoft Docs
-description: Learn about required fields.
+title: Fields Required to Complete Processes | Microsoft Docs
+description: Learn about fields marked with a red asterisk, which indicates that they are required and must be filled in to complete a processes.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 05/12/2017
 ms.author: solsen
 
 ---

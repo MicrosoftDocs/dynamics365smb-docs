@@ -1,6 +1,6 @@
 ---
-title: 'How to: Reconcile Payments That Cannot be Applied Automatically| Microsoft Docs'
-description: 'How to: Reconcile Payments That Cannot be Applied Automatically'
+title: Using the Transfer Difference to Account Feature to Reconcile Payments | Microsoft Docs'
+description: Describes how to process payments that cannot be applied to a document, for example, when an exchange rate causes amounts to differ.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP

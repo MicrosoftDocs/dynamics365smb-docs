@@ -1,6 +1,6 @@
 ---
-title: 'How to: Prioritize Vendors| Microsoft Docs'
-description: 'How to: Prioritize Vendors'
+title: Assign a Priority Level to a Vendor | Microsoft Docs
+description: You can assign numbers to your vendors or suppliers to prioritize them and facilitate payment suggestions in Financials.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP

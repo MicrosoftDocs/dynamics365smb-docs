@@ -1,6 +1,6 @@
 ---
-title: 'How to: Correct or Cancel Unpaid Purchase Invoices| Microsoft Docs'
-description: 'How to: Correct or Cancel Unpaid Purchase Invoices'
+title: Amend or Cancel Unpaid Purchase Invoices | Microsoft Docs
+description: Explains how to correct, cancel, or undo a posted purchase invoice and automatically create a purchase credit memo.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP

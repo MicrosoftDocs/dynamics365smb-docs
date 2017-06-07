@@ -38,7 +38,7 @@ After the tax authority reviews your report, they will send an email to the cont
 **Note**: The EC Sales List report can contain up to 1000 lines. If you have more lines, you must submit another report.
 
 ## To Connect to your tax authority's web service
-[!INCLUDE[d365fin](includes/d365fin_md.md)] provides service connections that connect to tax authority websites. For example, if you're in the UK, you must enable the **GovTalk** service connetion.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] provides service connections that connect to tax authority websites. For example, if you are in the UK, you must enable the **GovTalk** service connetion.  
 
 1. In the **Search for Pages or Reports** field, enter **Service Connections**, and then choose appropriate link. <!-- remember to get the updated text for this-->
 2. Fill in the required fields.  
@@ -65,12 +65,12 @@ You can correct a VAT report, and resubmit it. When you regenerate the report by
 ## Configuring your own VAT reports
 You can use the VAT report and EC Sales List reports out-of-the-box, however, you can also create your own reports. This requires a bit of coding, so you might need to contact a Microsoft Partner.
 
-The following table describes the codeunits you'll need to create for your report.
+The following table describes the codeunits that you must  create for your report.
 
 | Codeunit | What it must do |
 |----|-----|
 |Suggest Lines| Fetch and information from the VAT Entries table, and display it in lines on the VAT report.|
-|Content | Control the format of the report. For example, whether it's XML or JSON. The format to use depends on the requirements of your tax authority's web service. |
+|Content | Control the format of the report. For example, whether it is XML or JSON. The format to use depends on the requirements of your tax authority's web service. |
 |Submission | Control how, and when, you submit the report based on the requirements of your tax authority. |
 |Response Handler | Handle the return from the tax authority. For example, it might send an email message to your company's contact person. |
 |Cancel | Send a cancellation of a VAT report that was submitted earlier to your tax authority. |

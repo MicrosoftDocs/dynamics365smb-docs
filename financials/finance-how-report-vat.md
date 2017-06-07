@@ -16,7 +16,7 @@ ms.author: bholtorf
 
 ---
 
-# How To: Report VAT to the Tax Authorities
+# How To: Report VAT to Tax Authorities
 The European Community (EC) Sales List report lists of the value added tax (VAT) amounts that you have collected for sales within the EU, so you can submit the VAT amounts to a tax authority's web service.
 
 **Note**: In the UK, all companies that sell more than a certain value every year to customers in EU member states must submit an electronic version of their European Community (EC) sales list report in XML format through Her Majesty's Revenue and Customs (HMRC) website.

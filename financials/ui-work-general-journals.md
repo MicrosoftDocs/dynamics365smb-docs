@@ -80,6 +80,6 @@ When you have finished saving the standard item journal, the Item Journal window
 7. Choose the **post** action.
 
 ## See Also
-[How to: Use Allocation Keys in General Journals](ui-how-use-allocation-keys-general-journals.md)  
+[How to: Allocate Costs and Income](year-allocate-costs-income.md)  
 [Finance](finance.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

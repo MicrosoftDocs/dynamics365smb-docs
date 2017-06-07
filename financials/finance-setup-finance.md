@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 06/02/2017
+ms.date: 06/07/2017
 ms.author: edupont
 
 ---
@@ -27,9 +27,8 @@ The following table describes a sequence of tasks, with links to the topics that
 | Choose how you pay your vendors. |[Defining Payment Methods](finance-payment-methods.md) |
 |Specify the posting groups that map entities like customers, vendors, items, resources, and sales and purchase documents to general ledger accounts.|[Setting Up Posting Groups](finance-posting-groups.md)|
 | Set up fiscal periods. |[How to: Open a New Fiscal Year](finance-how-open-new-fiscal-year.md) |
-| Set up or update additional currencies if you perform international trade. |[How to: Update Currency Exchange Rates](finance-how-update-currencies.md) |
-| Set up unique identification codes. |[How to: Create Number Series](ui-create-number-series.md) |
-| Add dimensions for richer business intelligence. |[Working with Dimensions](finance-dimensions.md) |
+|Define how you report value-added tax amounts that you have collected for sales to the tax authorities.|[How To: Report VAT to the Tax Authorities](finance-setup-vat-reporting.md)|
+| Set up how to update additional currencies if you perform international trade. |[How to: Update Currency Exchange Rates](finance-how-update-currencies.md) |
 | Add new accounts to the existing chart of accounts. |[Setting Up the Chart of Accounts](finance-setup-chart-accounts.md) |
 | Set up business intelligence (BI) charts to analyze cash flow. |[Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md) |
 

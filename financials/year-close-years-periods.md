@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 03/29/2017
+ms.date: 06/07/2017
 ms.author: jswymer
 
 ---
@@ -26,6 +26,7 @@ The following table provides an overview of tasks that you typically perform to 
 | Get an overview of activities that are commonly performed at the end of a period, such as posting all documents and journals, or running account schedules. |[Closing Periods](year-how-complete-period-end-processes.md) |
 | Update currency exchange rates and adjust the exchange rates of posted customer, vendor, and bank account entries. |[How to: Update Currency Exchange Rates](finance-how-update-currencies.md) |
 | Allocate costs and income among accounts and dimensions. |[Allocating Costs and Income](year-allocate-costs-income.md) |
+|Prepare to report value-added tax amounts that you have collected for sales to the tax authorities' web service.|[How To: Report VAT to the Tax Authorities](finance-setup-vat-reporting.md)|
 | Print reports to verify general ledger, customer, vendor and bank account balances before closing a period. |[Preparing Pre-Closing Reports](year-prepare-preclose-reports.md) |
 | Close accounting periods and fiscal year, transfer income statement balances to balance sheet accounts and post the year end closing entry. |[Closing Books](year-close-books.md) |
 | Print reports that can assist you in creating financial statements. |[Preparing Closing Statements](year-prepare-close-statement.md) |

@@ -36,7 +36,7 @@ You use posting groups to define groups of fixed assets. Entries for these posti
 For more information about using the **Insert FA Bal. Account** action on fixed asset G/L journal lines, see, for example, [How to: Revalue Fixed Assets](fa-how-revalue.md).
 
 ## To set up fixed asset allocation keys
-Transactions can be allocated to various departments or projects, according to user-defined allocation keys. For example, you could set up an allocation key to allocate depreciation costs on cars with 35 percent to the administration department and 65 percent to the sales department. For more information, see [How to: Use Allocation Keys in General Journals](ui-how-use-allocation-keys-general-journals.md).
+Transactions can be allocated to various departments or projects, according to user-defined allocation keys. For example, you could set up an allocation key to allocate depreciation costs on cars with 35 percent to the administration department and 65 percent to the sales department. For more information, see [How to: Allocate Costs and Income](year-allocate-costs-income.md).
 
 Allocation keys apply to fixed asset classes, not to individual assets.
 

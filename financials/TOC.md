@@ -103,7 +103,7 @@
 ## [Reporting Sales Tax in the US and Canada](us-finance-sales-tax.md)
 ## [Reporting Sales Tax and Goods/Services Tax in Canada](ca-finance-tax.md)
 ## [How to: Work with GIFI Codes in Canada](ca-finance-work-gifi-codes.md)
-## [How to: Report VAT to a Tax Authority](finance-setup-vat-reporting.md)
+## [How to: Report VAT to a Tax Authority](finance-how-report-vat.md)
 # [Accountant Experiences in Financials](finance-accounting.md)
 
 # [Business Intelligence](bi.md)

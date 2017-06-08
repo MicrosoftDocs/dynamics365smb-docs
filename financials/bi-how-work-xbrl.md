@@ -11,11 +11,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 06/01/2017
+ms.date: 06/08/2017
 ms.author: sgroespe
 
 ---
-<blockquote STYLE="background: #81BEF7;border-left:None"><b>FULL EXPERIENCE!</b> This functionality may not be enabled. Contact a Microsoft partner to buy the relevant extension. </blockquote>
+<blockquote STYLE="background: #81BEF7;border-left:None"><b>REQUIRES FULL EXPERIENCE!</b> This functionality may not be enabled in your solution. [Learn more.](https://appsource.microsoft.com/en-us/). </blockquote>
 
 # Creating Reports With XBRL
 XBRL, which stands for eXtensible Business Reporting Language, is an XML-based language for tagging financial data, and enabling businesses to efficiently and accurately process and share their data. The XBRL initiative enables global financial reporting by numerous ERP software companies and international accounting organizations. The goal of the initiative is to provide a standard for the uniform reporting of financial information for banks, investors, and government authorities. Such business reporting can include:

@@ -9,15 +9,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, accountant
-ms.date: 05/30/2017
+ms.date: 06/09/2017
 ms.author: edupont
 
 ---
 # Accountant Portal for Dynamics 365 for Financials
-This application provides a portal with summary data for each client of an accountant. It displays financial KPIs as well as a direct link to the client’s financial application.
+This application provides a portal with summary data for each client of an accountant. The portal displays financial KPIs as well as a direct link to the client’s financial application.  
 
-The portal includes a highly specialized role center that serves as a dashboard for a better overview of your clients. You can
+The portal includes a highly specialized Role Center that serves as a dashboard for a better overview of your clients.  
+[![Accountant Portal](./media/ui-extensions-accportal/accountant-portal.png)](https://go.microsoft.com/fwlink/?linkid=851257)
+
+When you first install the extension, a sample company helps you get started. You can delete the sample company at any time.  
+
+## Installing the Extension
+When you add the extension to your [!INCLUDE[d365fin](includes/d365fin_md.md)], it replaces your current Role Center and adds permissions to your user profile. As a result, you must sign out and sign in a couple of times.  
+
+For more information, see [Accountant Experiences in Dynamics 365 for Financials](finance-accounting.md).  
 
 ## See Also
-[Accountants in [!INCLUDE[d365fin](includes/d365fin_md.md)]](finance-accounting.md)  
+[Accountant Experiences in Dynamics 365 for Financials](finance-accounting.md)  
 [Finance](finance.md)  

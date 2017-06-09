@@ -83,6 +83,9 @@
 ### [Applying Payments Automatically and Reconcile Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ### [How to: Reconcile Bank Accounts Separately](bank-how-reconcile-bank-accounts-separately.md)  
 ### [How to: Transfer Bank Funds](bank-how-transfer-bank-funds.md)
+## [Accountant Experiences in Financials](finance-accounting.md)
+### [Invite Your External Accountant to Your Financials](finance-invite-external-accountant.md)  
+### [Accountant Portal extension](ui-extensions-accountant-portal.md)  
 ## [How to: Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)
 ## [Understanding the General Ledger and the COA](finance-general-ledger.md)
 ## [Working With Dimensions](finance-dimensions.md)
@@ -104,7 +107,6 @@
 ## [Reporting Sales Tax and Goods/Services Tax in Canada](ca-finance-tax.md)
 ## [How to: Work with GIFI Codes in Canada](ca-finance-work-gifi-codes.md)
 ## [How to: Report VAT to a Tax Authority](finance-how-report-vat.md)
-# [Accountant Experiences in Financials](finance-accounting.md)
 
 # [Business Intelligence](bi.md)
 ## [How to: Analyze Actual Amounts Versus Budgeted Amounts](bi-how-analyze-actual-versus-budget.md)

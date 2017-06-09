@@ -1,5 +1,5 @@
 ---
-title: Overview of Tasks to Set Up Dynamics 365 for Financials | Microsoft Docs
+title: Overview of Tasks to Set Up Dynamics 365 for Financials| Microsoft Docs
 description: Outlines tasks to set up, initialize, and configure Dynamics 365 for Financials to suit your needs.
 services: project-madeira
 documentationcenter: ''
@@ -10,8 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: configure, initialize 
-ms.date: 03/29/2017
+ms.search.keywords: configure, initialize
+ms.date: 06/07/2017
 ms.author: edupont
 
 ---
@@ -35,6 +35,7 @@ Some functionality, either general or for specific business processes, can be se
 | Configure how to insure, maintain, and depreciate fixed assets, and how you record the costs of fixed assets in your company books. |[Setting Up Fixed Assets](fa-setup.md) |
 | Set up unique identification codes for records, such as cards, documents, and journal lines, to track them in the system. |[Creating Number Series](ui-create-number-series.md) |
 | Set up the **SMTP Mail Setup** window to send and receive emails from documents within [!INCLUDE[d365fin](includes/d365fin_md.md)]. |[How to: Set up Email](madeira-how-setup-email.md) |
+| Set up unique identification codes. |[How to: Create Number Series](ui-create-number-series.md) |
 
 ## See Also
 [Finance](finance.md)  

@@ -28,6 +28,7 @@
 ### [Defining Payment Methods](finance-payment-methods.md)
 ### [Setting Up Posting Groups](finance-posting-groups.md)
 ### [How to: Open a New Fiscal Year](finance-how-open-new-fiscal-year.md)
+### [Setting Up Value-Added Tax](finance-setup-vat-reporting.md)
 ### [How to: Update Currency Exchange Rates](finance-how-update-currencies.md)
 ### [Setting Up the Chart of Accounts](finance-setup-chart-accounts.md)
 ### [Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md)
@@ -65,7 +66,6 @@
 ## [How to: Set up Email](madeira-how-setup-email.md)
 ## [How to: Create Number Series](ui-create-number-series.md)
 ## [How to: Set Up Extended Item Text](ui-how-define-ext-text.md)
-## [Setting Up Value Added Tax](finance-setup-vat-reporting.md)
 
 # [Finance](finance.md)
 ## [Managing Receivables](receivables-manage-receivables.md)
@@ -93,7 +93,7 @@
 ### [How to: Specify Posting Periods](finance-how-specify-posting-periods.md)
 ### [Closing Periods](year-how-complete-period-end-processes.md)
 ### [How to: Update Currency Exchange Rates](finance-how-update-currencies.md)
-### [Allocating Costs and Income](year-allocate-costs-income.md)
+### [How to: Allocate Costs and Income](year-allocate-costs-income.md)
 ### [How To: Report VAT to the Tax Authorities](finance-setup-vat-reporting.md)
 ### [Preparing Pre-Closing Reports](year-prepare-preclose-reports.md)
 ### [Closing Books](year-close-books.md)
@@ -103,6 +103,7 @@
 ## [Reporting Sales Tax in the US and Canada](us-finance-sales-tax.md)
 ## [Reporting Sales Tax and Goods/Services Tax in Canada](ca-finance-tax.md)
 ## [How to: Work with GIFI Codes in Canada](ca-finance-work-gifi-codes.md)
+## [How to: Report VAT to a Tax Authority](finance-how-report-vat.md)
 # [Accountant Experiences in Financials](finance-accounting.md)
 
 # [Business Intelligence](bi.md)
@@ -176,7 +177,6 @@
 ## [How to: Send Documents by Email](ui-how-send-documents-email.md)
 ## [Managing Report and Document Layouts](ui-manage-report-layouts.md)
 ## [Working with General Journals](ui-work-general-journals.md)
-## [How to: Use Allocation Keys in General Journals](ui-how-use-allocation-keys-general-journals.md)
 ## [Scheduling a Report to Run](ui-schedule-report.md)
 ## [How to: Manage Users and Permissions](ui-how-users-permissions.md)
 ## [Logging Changes in Financials](across-log-changes.md)
@@ -188,6 +188,18 @@
 ### [Processing Incoming Documents](across-process-income-documents.md)
 
 # Full Experience
+## Sales (FULL)
+### How to: Work with Blanket Sales Orders
+### How to: Receive Prepayments from Customers
+
+## Purchasing (FULL)
+### How to: Work with Blanket Purchase Orders
+### How to: Make Prepayments to Vendors
+
+## Business Intelligence (FULL)
+### [How to: Create Reports with XBRL](bi-how-work-xbrl.md)
+### How to: Set Up and Publish KPI Web Services Based on Account Schedules
+
 ## Cost Accounting (FULL)
 ### About Cost Accounting
 ### Setting Up Cost Accounting
@@ -201,18 +213,6 @@
 ### How to: Handle Inventory and Manufacturing Costs
 ### [How to: Analyze Inventory Reconciliation with the General Ledger]()
 
-## Business Intelligence (FULL)
-### [How to: Create Reports with XBRL](bi-how-work-xbrl.md)
-### How to: Set Up and Publish KPI Web Services Based on Account Schedules
-
-## Sales (FULL)
-### How to: Work with Blanket Sales Orders
-### How to: Receive Prepayments from Customers
-
-## Purchasing (FULL)
-### How to: Work with Blanket Purchase Orders
-### How to: Make Prepayments to Vendors
-
 ## Planning (FULL)
 ### How to: Plan for Production Availability
 ### How to: Forecast for Sales and Production
@@ -220,9 +220,7 @@
 ### How to: Material Requirements Planning
 ### How to: Communicate Production Plans
 
-## Assembly (FULL)
-
-## Production (FULL)
+## Manufacturing (FULL)
 ### How to: Schedule Production Processes
 ### How to: Issue Materials
 ### How to: Execute Production
@@ -235,7 +233,7 @@
 ### How to: Pick Items
 ### How to: Ship Items
 
-## Service (FULL)
+## Service Management (FULL)
 ### How to: Plan Service
 ### How to: Fulfill Service Contracts
 ### How to: Handle Customer Inquiries

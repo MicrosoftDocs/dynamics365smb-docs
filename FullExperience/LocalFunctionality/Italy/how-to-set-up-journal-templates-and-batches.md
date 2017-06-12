@@ -28,7 +28,7 @@ All European Union \(EU\) companies must submit Intrastat reports to the customs
   
 2.  To create a new Intrastat journal template, on the **Home** tab, choose **New**.  
   
-3.  In the **\($ N\_325 Intrastat Journal Templates $\)** window, fill in the fields as described in the following table.  
+3.  In the **Intrastat Journal Templates** window, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
@@ -41,7 +41,7 @@ All European Union \(EU\) companies must submit Intrastat reports to the customs
   
 1.  In the **Search** box, enter **Intrastat Journal Templates**, and then choose the related link.  
   
-2.  To open the **\($ N\_327 Intrastat Jnl. Batches $\)** window, select the required template, and then, on the **Navigate** tab, in the **Templates** group, choose **Batches**.  
+2.  To open the **Intrastat Jnl. Batches** window, select the required template, and then, on the **Navigate** tab, in the **Templates** group, choose **Batches**.  
   
 3.  Fill in the fields as described in the following table.  
   
@@ -53,9 +53,9 @@ All European Union \(EU\) companies must submit Intrastat reports to the customs
     |**Type**|Select one of the following options:<br /><br /> -   **Purchases**<br />-   **Sales**|  
     |**Statistics Period**|The statistics period that the report will cover. Enter the value in YYMM format.|  
     |**Corrective Entry**|Select the **Corrective Entry** check box to correct an entry.|  
-    |**File Disk No.**|The number of the file disk.<br /><br /> This is used when you run the [\($ B\_593 Intrastat \- Make Disk Tax Auth $\)](../Topic/\($%20B_593%20Intrastat%20-%20Make%20Disk%20Tax%20Auth%20$\).md) batch job.|  
+    |**File Disk No.**|The number of the file disk.<br /><br /> This is used when you run the [Intrastat \- Make Disk Tax Auth](../Topic/\($%20B_593%20Intrastat%20-%20Make%20Disk%20Tax%20Auth%20$\).md) batch job.|  
     |**Currency Identifier**|The code to identify the currency for the Intrastat report.|  
-    |**Reported**|If the entry has already been reported to the tax authorities, select the **Reported** check box. This check box is selected automatically when you run the **\($ B\_593 Intrastat \- Make Disk Tax Auth $\)** batch job for this entry.|  
+    |**Reported**|If the entry has already been reported to the tax authorities, select the **Reported** check box. This check box is selected automatically when you run the **Intrastat \- Make Disk Tax Auth** batch job for this entry.|  
   
 4.  To close the window, choose the **OK** button.  
   

@@ -37,7 +37,7 @@ translation.priority.ht:
 # How to: Enable Workflows
 When you have created a workflow and you are sure that it is ready to start, you must enable the workflow.  
   
- In the **\($ N\_1501 Workflow $\)** window, you create a workflow by listing the involved steps on the lines. Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options. You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code. For more information, see [How to: Create Workflows](../../BusinessFunctionality/Workflow/how-to-create-workflows.md).  
+ In the **Workflow** window, you create a workflow by listing the involved steps on the lines. Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options. You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code. For more information, see [How to: Create Workflows](../../BusinessFunctionality/Workflow/how-to-create-workflows.md).  
   
 ### To enable a workflow  
   
@@ -45,12 +45,12 @@ When you have created a workflow and you are sure that it is ready to start, you
   
 2.  Open the workflow that you want to enable.  
   
-3.  In the **\($ N\_1501 Workflow $\)** window, select the **\($ T\_1501\_3 Enabled $\)** check box.  
+3.  In the **Workflow** window, select the **Enabled** check box.  
   
 ## See Also  
- [\($ N\_1501 Workflow $\)](../Topic/\($%20N_1501%20Workflow%20$\).md)   
- [\($ N\_1523 Workflow Response Options $\)](../Topic/\($%20N_1523%20Workflow%20Response%20Options%20$\).md)   
- [\($ N\_1511 Notification Entries $\)](../Topic/\($%20N_1511%20Notification%20Entries%20$\).md)   
+ [Workflow](../Topic/\($%20N_1501%20Workflow%20$\).md)   
+ [Workflow Response Options](../Topic/\($%20N_1523%20Workflow%20Response%20Options%20$\).md)   
+ [Notification Entries](../Topic/\($%20N_1511%20Notification%20Entries%20$\).md)   
  [How to: Create Workflows](../../BusinessFunctionality/Workflow/how-to-create-workflows.md)   
  [How to: View Archived Workflow Step Instances](../../BusinessFunctionality/Workflow/how-to-view-archived-workflow-step-instances.md)   
  [How to: Delete Workflows](../../BusinessFunctionality/Workflow/how-to-delete-workflows.md)   

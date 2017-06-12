@@ -77,14 +77,14 @@ You can use reminders to remind customers about overdue amounts. You can also us
 |**To**|**See**|  
 |------------|-------------|  
 |Automatically create reminders for customers with overdue amounts.|[How to: Create Reminders Automatically](../Finance/how-to-create-reminders-automatically.md)|  
-|Learn about the batch job that creates reminders automatically.|[\($ B\_188 Create Reminders $\)](../Finance/-$-b_188-create-reminders-$-.md)|  
+|Learn about the batch job that creates reminders automatically.|[Create Reminders](../Finance/-$-b_188-create-reminders-$-.md)|  
 |Create a reminder manually and have the lines filled in automatically.|[How to: Create Reminders Manually](../Finance/how-to-create-reminders-manually.md)|  
 |Replace the beginning and ending text in a reminder with text from a different level.|[How to: Replace Reminder Text](../Finance/how-to-replace-reminder-text.md)|  
 |View a summary of the amounts on a reminder.|[How to: View Reminder Statistics](../Finance/how-to-view-reminder-statistics.md)|  
-|Post entries for one or more reminders and, if you choose, print the reminders.|[\($ B\_190 Issue Reminders $\)](../Finance/-$-b_190-issue-reminders-$-.md)|  
+|Post entries for one or more reminders and, if you choose, print the reminders.|[Issue Reminders](../Finance/-$-b_190-issue-reminders-$-.md)|  
 |Get an overview of the reminder entries that have been created for a specific customer.|[How to: View Reminder and Finance Charge Entries](../Finance/how-to-view-reminder-and-finance-charge-entries.md)|  
   
 ## See Also  
  [Set Up Reminders](../Finance/set-up-reminders.md)   
- [Working with \($ P\_1 Product Name $\)](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)   
+ [Working with Product Name](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)   
  [Manage Receivables](../Finance/manage-receivables.md)

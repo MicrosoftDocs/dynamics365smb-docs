@@ -27,7 +27,7 @@ Use the disregard payment discount at full payment feature to accept payments wh
   
 2.  Select the line with the payment term for which you want to activate or deactivate payment discounts.  
   
-3.  Select the **\($ T\_3\_32000001 Disreg. Pmt. Disc. at Full Pmt $\)** check box to initiate activation for this feature. To deactivate, clear the check box.  
+3.  Select the **Disreg. Pmt. Disc. at Full Pmt** check box to initiate activation for this feature. To deactivate, clear the check box.  
   
 > [!NOTE]  
 >  When you apply one payment to multiple invoices, the feature to ignore payment discount at full payment is not supported.  

@@ -21,14 +21,14 @@ Companies must submit their business transaction entries, grouped by transaction
   
 ### To post all transactions for a period  
   
-1.  In the **Search** box, enter **\($ N\_39 General Journal $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **General Journal**, and then choose the related link.  
   
 2.  Fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ N\_39\_39 Batch Name $\)**|Select the required general journal batch name.|  
-    |**\($ T\_81\_10700 Transaction No. $\)**|Enter the transaction number. **Note:**  If the transaction is balanced, the next number displays automatically, and the related transaction details appear in the next row. If the transaction is not balanced, the same transaction number is displayed with related transaction details.|  
+    |**Batch Name**|Select the required general journal batch name.|  
+    |**Transaction No.**|Enter the transaction number. **Note:**  If the transaction is balanced, the next number displays automatically, and the related transaction details appear in the next row. If the transaction is not balanced, the same transaction number is displayed with related transaction details.|  
   
 3.  On the **Home** tab, in the **Process** action group, choose **Post**, and then choose the **Yes** button to confirm posting.  
   
@@ -38,18 +38,18 @@ Companies must submit their business transaction entries, grouped by transaction
   
 ### To print all transactions for a period  
   
-1.  In the **Search** box, enter **\($ N\_116 G\/L Registers $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **G\/L Registers**, and then choose the related link.  
   
-2.  To set the **\($ T\_45\_10701 Period Trans. No. $\)** field for all of the general ledger entries in the period in a sequential order, on the **Actions** tab, in the **Functions** group, choose **Set Period Transaction No.**.  
+2.  To set the **Period Trans. No.** field for all of the general ledger entries in the period in a sequential order, on the **Actions** tab, in the **Functions** group, choose **Set Period Transaction No.**.  
   
 3.  Select the appropriate filters.  
   
 4.  Choose the **OK** button.  
   
     > [!NOTE]  
-    >  All transactions are ordered by posting date, and a sequential number is assigned to each entry in the **\($ T\_45\_10701 Period Trans. No. $\)** field.  
+    >  All transactions are ordered by posting date, and a sequential number is assigned to each entry in the **Period Trans. No.** field.  
   
-5.  In the **\($ N\_116 G\/L Registers $\)** window, on the **Actions** tab, choose **Print Page**.  
+5.  In the **G\/L Registers** window, on the **Actions** tab, choose **Print Page**.  
   
 ## See Also  
  [Transaction Numbers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/transaction-numbers.md)

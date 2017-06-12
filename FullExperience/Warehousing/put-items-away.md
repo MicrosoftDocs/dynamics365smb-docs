@@ -49,7 +49,7 @@ The warehouse activity of putting items away after they are received or output i
 |**To**|**See**|  
 |------------|-------------|  
 |Get an overview of the different ways to put items away depending on the complexity of the warehouse configuration.|[Putting Items Away](../WarehouseActivities/putting-items-away.md)|  
-|Print a list of the items to put away for one or more orders.|[\($ R\_5751 Put\-away List $\)](../WarehouseActivities/-$-r_5751-put-away-list-$-.md)|  
+|Print a list of the items to put away for one or more orders.|[Put\-away List](../WarehouseActivities/-$-r_5751-put-away-list-$-.md)|  
 |Post the receipt of items directly in the inbound order document because no warehouse features exist. \(Works the same for purchase, transfer, and production orders.\)|"Posting Purchase Orders" in [Processing Purchase Orders](../Receiving/processing-purchase-orders.md)|  
 |Put items away order by order and post the receipt in the same activity, in a basic warehouse configuration.|[How to: Put Items Away with Inventory Put\-aways](../DesignAndEngineering/how-to-put-items-away-with-inventory-put-aways.md)|  
 |Put produced items away in a basic warehouse configuration.|"Put Away Output from the Inventory Put\-away Document" in [Putting Away Production Output](../Production/how-to-put-away-production-output.md)|  

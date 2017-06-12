@@ -22,15 +22,15 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], after you 
   
 ### To generate electronic invoices for sales invoices  
   
-1.  In the **Search** box, enter **\($ N\_132 Posted Sales Invoice $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Posted Sales Invoice**, and then choose the related link.  
   
 2.  Select the posted invoice.  
   
-3.  On the **Actions** tab, in the **Functions** group, choose **Send Electronic Document**. An email will be sent to the customer with the electronic invoice attached as an XML file. If you selected the **\($ T\_98\_10005 Send PDF Report $\)** field in the **\($ N\_118 General Ledger Setup $\)** window, a PDF will be included with the XML file.  
+3.  On the **Actions** tab, in the **Functions** group, choose **Send Electronic Document**. An email will be sent to the customer with the electronic invoice attached as an XML file. If you selected the **Send PDF Report** field in the **General Ledger Setup** window, a PDF will be included with the XML file.  
   
 4.  Optionally, on the **Actions** tab, in the **Functions** group, choose **Export E\-Document as XML**. Select the location where you want to save the electronic invoice as an XML file.  
   
-     To verify the electronic invoice activity, in the **\($ N\_132 Posted Sales Invoice $\)** window, on the **Invoicing** FastTab, the **\($ T\_112\_10019 Electronic Document Sent $\)** and **\($ T\_112\_10021 No. of E\-Document Submissions $\)** fields will be updated.  
+     To verify the electronic invoice activity, in the **Posted Sales Invoice** window, on the **Invoicing** FastTab, the **Electronic Document Sent** and **No. of E\-Document Submissions** fields will be updated.  
   
 > [!NOTE]  
 >  [!INCLUDE[bp_refimplementation](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/includes/bp_refimplementation_md.md)]  
@@ -38,5 +38,5 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], after you 
 ## See Also  
  [How to: Set Up Electronic Invoicing](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Mexico/how-to-set-up-electronic-invoicing.md)   
  [Electronic Invoicing](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Mexico/electronic-invoicing.md)   
- [\($ N\_132 Posted Sales Invoice $\)](../Topic/\($%20N_132%20Posted%20Sales%20Invoice%20$\).md)   
- [\($ N\_118 General Ledger Setup $\)](assetId:///40b9235c-b0d7-4a9f-9ecf-6dc97655309b)
+ [Posted Sales Invoice](../Topic/\($%20N_132%20Posted%20Sales%20Invoice%20$\).md)   
+ [General Ledger Setup](assetId:///40b9235c-b0d7-4a9f-9ecf-6dc97655309b)

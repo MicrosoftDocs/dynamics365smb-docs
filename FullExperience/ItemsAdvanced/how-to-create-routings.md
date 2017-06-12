@@ -54,7 +54,7 @@ A routing holds master data that captures the process requirements of a given pr
 4.  In the **Routing Link Code** field, enter a code to connect the component to a specific operation. [!INCLUDE[bp_choose_columns](../DesignAndEngineering/includes/bp_choose_columns_md.md)]  
   
     > [!NOTE]  
-    >  Routing links between operations and components ensure that material consumption is not posted until it has actually been consumed. In addition, routing links provide a process view in the **\($ N\_5510 Production Journal $\)** window where components are listed under the linked operation. For more information, see [How to: Create Routing Links](../DesignAndEngineering/how-to-create-routing-links.md).  
+    >  Routing links between operations and components ensure that material consumption is not posted until it has actually been consumed. In addition, routing links provide a process view in the **Production Journal** window where components are listed under the linked operation. For more information, see [How to: Create Routing Links](../DesignAndEngineering/how-to-create-routing-links.md).  
   
 5.  In the **Run Time** and **Setup Time** fields, enter the process times needed to perform the operation.  
   

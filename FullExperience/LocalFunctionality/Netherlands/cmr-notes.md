@@ -46,6 +46,6 @@ A CMR note is a bill of lading or an international consignment note defined unde
 -   The Accounts Payable administrators receive the signed CMR notes, along with the invoice for freight forwarding services from the freight forwarder.  
   
 ## See Also  
- [\($ R\_5704 Transfer Shipment $\)](../Topic/\($%20R_5704%20Transfer%20Shipment%20$\).md)   
- [\($ R\_208 Sales \- Shipment $\)](../Topic/\($%20R_208%20Sales%20-%20Shipment%20$\).md)   
+ [Transfer Shipment](../Topic/\($%20R_5704%20Transfer%20Shipment%20$\).md)   
+ [Sales \- Shipment](../Topic/\($%20R_208%20Sales%20-%20Shipment%20$\).md)   
  [Netherlands Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/netherlands-local-functionality.md)

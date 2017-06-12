@@ -67,7 +67,7 @@ Intercompany Postings is designed for users who control more than one legal busi
   
  When you enter a transaction, you do not need to specify the accounts for an individual set of books, but simply give the identification of the partner company. Intercompany Postings creates General Journal lines that result – as soon as they are posted – in the balancing of the books of both companies involved in a transaction. In Receivables and Payables, you assign an intercompany partner code to any customer or vendor. From that moment on, all orders and invoices generated pertaining to transactions with these companies will produce corresponding documents in the partner company, resulting in correct balancing of the accounts.  
   
- Intercompany Postings functionality focuses on supporting intercompany transactions with sales and purchasing documents, and with General Journal lines. Within this area, Intercompany Postings allows intercompany transactions between multiple \($ P\_1 Product Name $\) databases, for example, in different countries\/regions, as well as multiple currencies, different charts of accounts, different dimensions, and different item numbering.  
+ Intercompany Postings functionality focuses on supporting intercompany transactions with sales and purchasing documents, and with General Journal lines. Within this area, Intercompany Postings allows intercompany transactions between multiple Product Name databases, for example, in different countries\/regions, as well as multiple currencies, different charts of accounts, different dimensions, and different item numbering.  
   
  Intercompany Postings uses a number of entries and documents in intercompany transactions:  
   

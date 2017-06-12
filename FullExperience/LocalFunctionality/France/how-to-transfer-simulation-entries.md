@@ -23,7 +23,7 @@ When you have created and posted simulation entries to the general ledger, you c
   
 ### To transfer simulation entries  
   
-1.  In the **Search** box, enter **\($ N\_10810 Simulation Registers $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Simulation Registers**, and then choose the related link.  
   
 2.  Select the simulation register that you want to transfer, and then, on the **Actions** tab, in the **Functions** group, choose **Transfer**.  
   

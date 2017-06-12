@@ -20,7 +20,7 @@ The version matrix function offers a comparison of material quantities for each 
   
 ### To compare material quantities for all production BOMs  
   
-1.  In the **Search** box, enter **\($ N\_99000786 Production BOM $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Production BOM**, and then choose the related link.  
   
 2.  On the **Navigate** tab, in the **Prod. BOM** group, choose **Matrix per Version**.  
   

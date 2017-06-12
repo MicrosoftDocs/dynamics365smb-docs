@@ -46,17 +46,17 @@ Customer data must be validated before you apply the records to the [!INCLUDE[na
   
 ### To validate customer data  
   
-1.  In the **\($ N\_8614 Migration Overview $\)** window, review the **\($ T\_8613\_4 No. of Migration Errors $\)** field to see whether any errors occurred during import.  
+1.  In the **Migration Overview** window, review the **No. of Migration Errors** field to see whether any errors occurred during import.  
   
-2.  If there are errors, select the migration table and on the **Tables** FastTab, choose **Table**, and then choose **Errors**. The **\($ T\_8614\_3 Invalid $\)** check box is selected for each record that has an error.  
+2.  If there are errors, select the migration table and on the **Tables** FastTab, choose **Table**, and then choose **Errors**. The **Invalid** check box is selected for each record that has an error.  
   
 3.  To review errors, select a line and on the **Home** tab choose **Show Error**.  
   
-     The **\($ T\_8617\_5 Error Text $\)** field contains the reason for the error. The **\($ T\_8614\_4 Field Caption $\)** field contains the caption of the field that contains the error.  
+     The **Error Text** field contains the reason for the error. The **Field Caption** field contains the caption of the field that contains the error.  
   
-4.  To correct an error or otherwise make an update, close the **\($ N\_8616 Migration Data Errors $\)** window. On the **Navigate** tab, choose **\($ N\_8626 Migration Record $\)**. The **\($ N\_8626 Migration Record $\)** window opens. Select the record with the error and make the correction.  
+4.  To correct an error or otherwise make an update, close the **Migration Data Errors** window. On the **Navigate** tab, choose **Migration Record**. The **Migration Record** window opens. Select the record with the error and make the correction.  
   
-     After you make a correction, the record is removed from the list of records in the **\($ N\_8616 Migration Data Errors $\)** window.  
+     After you make a correction, the record is removed from the list of records in the **Migration Data Errors** window.  
   
  You are now ready to apply the customer’s data to the database.  
   

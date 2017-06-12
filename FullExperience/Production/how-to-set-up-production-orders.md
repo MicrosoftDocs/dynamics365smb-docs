@@ -45,7 +45,7 @@ When you set up a new production order, there are fields that must always be fil
   
 ### To set up a production order  
   
-1.  In the **Search** box, enter **\($ N\_99000829 Firm Planned Prod. Order $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Firm Planned Prod. Order**, and then choose the related link.  
   
 2.  Fill in the fields on the production order header. The following fields are required.  
   

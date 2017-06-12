@@ -29,9 +29,9 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can cr
   
 1.  In the **Search** box, enter **Delivery Reminder**, and then choose the related link.  
   
-2.  In the **\($ N\_5005272 Delivery Reminder $\)** window, on the **Home** tab, choose **New**.  
+2.  In the **Delivery Reminder** window, on the **Home** tab, choose **New**.  
   
-3.  In the **\($ N\_5005270 Delivery Reminder $\)** window, on the **General** FastTab, fill in the fields as described in the following table.  
+3.  In the **Delivery Reminder** window, on the **General** FastTab, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  

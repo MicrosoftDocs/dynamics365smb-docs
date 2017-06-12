@@ -26,16 +26,16 @@ After you have set up electronic banking, you can start generating payment sugge
   
 2.  Select the appropriate journal batch, and on the **Home** tab, in the **Progress** group, choose **Suggest Vendor Payments**.  
   
-3.  In the **\($ B\_2000019 Suggest Vendor Payments EB $\)**  window, on the **Options** FastTab, fill in the fields as described in the following table.  
+3.  In the **Suggest Vendor Payments EB**  window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ B\_2000019\_F\_1\_3 Last Due Date $\)**|Enter the last due date that can appear on the vendor ledger entries to be included in the batch job.|  
-    |**\($ B\_2000019\_F\_1\_5 Take Credit Memos $\)**|Select to include outstanding credit memos for vendors. The credit memos will be subtracted from the amount due. When selecting credit memos, the due date is not used.|  
-    |**\($ B\_2000019\_F\_1\_14 Take Payment Discounts $\)**|Select to include vendor ledger entries for which you can receive a payment discount.|  
-    |**\($ B\_2000019\_F\_1\_7 Payment Discount Date $\)**|Enter the date that will be used to calculate a payment discount.|  
-    |**\($ B\_2000019\_F\_1\_9 Available Amount $\)**|If there is a maximum amount available for payments, you can enter it here. The batch job will then create a payment suggestion based on this amount and the priority of vendors.|  
-    |**\($ B\_2000019\_F\_1\_12 Posting Date $\)**|Enter the date that will appear as the posting date on the lines that the batch job inserts in the payment journal.|  
+    |**Last Due Date**|Enter the last due date that can appear on the vendor ledger entries to be included in the batch job.|  
+    |**Take Credit Memos**|Select to include outstanding credit memos for vendors. The credit memos will be subtracted from the amount due. When selecting credit memos, the due date is not used.|  
+    |**Take Payment Discounts**|Select to include vendor ledger entries for which you can receive a payment discount.|  
+    |**Payment Discount Date**|Enter the date that will be used to calculate a payment discount.|  
+    |**Available Amount**|If there is a maximum amount available for payments, you can enter it here. The batch job will then create a payment suggestion based on this amount and the priority of vendors.|  
+    |**Posting Date**|Enter the date that will appear as the posting date on the lines that the batch job inserts in the payment journal.|  
   
 4.  On the **Vendor** FastTab, enter the filter criteria.  
   

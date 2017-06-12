@@ -50,7 +50,7 @@ Errors for background posting are easy to determine. [!INCLUDE[navnow](../Applic
   
 3.  In the **Job Queue Status** field, review the status information. Choose the field. The error message is displayed. Review the error message and fix the problem.  
   
- For more information about the status options, see [\($ T\_36\_160 Job Queue Status $\)](../Topic/\($%20T_36_160%20Job%20Queue%20Status%20$\).md).  
+ For more information about the status options, see [Job Queue Status](../Topic/\($%20T_36_160%20Job%20Queue%20Status%20$\).md).  
   
 ### To view an error from a sales or purchase list  
   

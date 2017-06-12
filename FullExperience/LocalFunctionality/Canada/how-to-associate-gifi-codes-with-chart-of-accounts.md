@@ -21,7 +21,7 @@ translation.priority.ht:
 To report financial information by General Index of Financial Information \(GIFI\) code, each GIFI code must be associated with the appropriate accounts in the chart of accounts.  
   
 > [!NOTE]  
->  You must set up the GIFI codes in the **\($ N\_10015 GIFI Code $\)** window before associating them with your chart of accounts. For more information, see [How to: Set Up GIFI Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-set-up-gifi-codes.md).  
+>  You must set up the GIFI codes in the **GIFI Code** window before associating them with your chart of accounts. For more information, see [How to: Set Up GIFI Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-set-up-gifi-codes.md).  
   
 ### To associate GIFI codes with chart of accounts  
   
@@ -34,9 +34,9 @@ To report financial information by General Index of Financial Information \(GIFI
 4.  Choose the **OK** button.  
   
 ## See Also  
- [\($ T\_10015 GIFI Code $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-t_10015-gifi-code-$-.md)   
- [\($ R\_10004 Account Balances by GIFI Code $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-r_10004-account-balances-by-gifi-code-$-.md)   
- [\($ B\_10005 Export GIFI Info. to Excel $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-b_10005-export-gifi-info.-to-excel-$-.md)   
+ [GIFI Code](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-t_10015-gifi-code-$-.md)   
+ [Account Balances by GIFI Code](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-r_10004-account-balances-by-gifi-code-$-.md)   
+ [Export GIFI Info. to Excel](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-b_10005-export-gifi-info.-to-excel-$-.md)   
  [GIFI Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/gifi-codes.md)   
  [How to: Set Up GIFI Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-set-up-gifi-codes.md)   
  [How to: View Account Balances by Using the GIFI Code Report](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-view-account-balances-by-using-the-gifi-code-report.md)   

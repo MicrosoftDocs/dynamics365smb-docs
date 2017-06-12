@@ -48,11 +48,11 @@ Management of receivables includes checking whether amounts due are paid on time
  You can define an unlimited number of reminder terms to accommodate different reminding procedures. After setting up the reminder terms, you assign a set of terms to each customer. Later, you can create, issue and track reminders.  
   
 > [!NOTE]  
->  If you want to calculate interest on overdue payments, you can do so when you create reminders. If, however, you just want to calculate interest and inform your customers about this without sending reminders, you should use finance charge memos. \(See the [\($ T\_5 Finance Charge Terms $\)](../Finance/-$-t_5-finance-charge-terms-$-.md).\)  
+>  If you want to calculate interest on overdue payments, you can do so when you create reminders. If, however, you just want to calculate interest and inform your customers about this without sending reminders, you should use finance charge memos. \(See the [Finance Charge Terms](../Finance/-$-t_5-finance-charge-terms-$-.md).\)  
   
  You can set up an unlimited number of reminder terms. Each set of terms is identified by a code.  
   
- For each reminder terms code, you can define an unlimited number of reminder levels. For each reminder level, you can specify individual conditions, which can include additional fees in both LCY and in foreign currency. \(See the [\($ T\_329 Currency for Reminder Level $\)](../Topic/\($%20T_329%20Currency%20for%20Reminder%20Level%20$\).md).\)  
+ For each reminder terms code, you can define an unlimited number of reminder levels. For each reminder level, you can specify individual conditions, which can include additional fees in both LCY and in foreign currency. \(See the [Currency for Reminder Level](../Topic/\($%20T_329%20Currency%20for%20Reminder%20Level%20$\).md).\)  
   
  For each reminder level, you can specify text that will be printed before \( **Beginning Text**\) or after \( **Ending Text**\) the entries on the reminder.  
   
@@ -68,5 +68,5 @@ Management of receivables includes checking whether amounts due are paid on time
   
 ## See Also  
  [Prepare Reminders](../Finance/prepare-reminders.md)   
- [\($ T\_5 Finance Charge Terms $\)](../Finance/-$-t_5-finance-charge-terms-$-.md)   
+ [Finance Charge Terms](../Finance/-$-t_5-finance-charge-terms-$-.md)   
  [Collect Outstanding Balances](../Finance/collect-outstanding-balances.md)

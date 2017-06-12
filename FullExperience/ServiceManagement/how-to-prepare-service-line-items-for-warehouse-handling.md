@@ -52,14 +52,14 @@ Service lines, like other outbound document lines, such as on sales, outbound tr
   
 1.  In the **Search** box, enter **Service Orders**, and then choose the related link.  
   
-2.  On the **Home** tab, in the **Warehouse** group, choose **Release to Ship**. The **\($ T\_5900\_130 Release Status $\)** field on the service order header changes to **Released to Ship**. A warehouse request now exists that allows the relevant warehouse activity document to be pushed or pulled for the service order.  
+2.  On the **Home** tab, in the **Warehouse** group, choose **Release to Ship**. The **Release Status** field on the service order header changes to **Released to Ship**. A warehouse request now exists that allows the relevant warehouse activity document to be pushed or pulled for the service order.  
   
 3.  On the **Home** tab, in the **Warehouse** group, choose **Create Whse. Shipment**. A warehouse shipment document is created by using lines for each service line of type Item. The document only contains the service lines of the service order in question.  
   
  For information about shipping items for any source document in advanced warehouse configurations, see [How to: Pick Items for Warehouse Shipment](../WarehouseActivities/how-to-pick-items-for-warehouse-shipment.md). For basic warehouse configurations, see [How to: Pick Items with Inventory Picks](../DesignAndEngineering/how-to-pick-items-with-inventory-picks.md).  
   
 ## See Also  
- [\($ N\_5900 Service Order $\)](../Topic/\($%20N_5900%20Service%20Order%20$\).md)   
+ [Service Order](../Topic/\($%20N_5900%20Service%20Order%20$\).md)   
  [How to: Prepare Shipments](../Topic/How%20to:%20Prepare%20Shipments.md)   
- [\($ T\_5900\_130 Release Status $\)](../Topic/\($%20T_5900_130%20Release%20Status%20$\).md)   
+ [Release Status](../Topic/\($%20T_5900_130%20Release%20Status%20$\).md)   
  [How to: Post Shipments from Service Orders](../Service/how-to-post-shipments-from-service-orders.md)

@@ -55,7 +55,7 @@ All of the intercompany transactions that you receive electronically from your I
   
 -   Rejected by your IC partner and returned to you  
   
- You can use the **\($ N\_611\_29 Show Transaction Source $\)** field to filter the **\($ N\_615 IC Inbox Transactions $\)** window so that it displays only one of these types of transactions. \(You can also filter by IC partner, or by the contents of the **Line Action** field.\)  
+ You can use the **Show Transaction Source** field to filter the **IC Inbox Transactions** window so that it displays only one of these types of transactions. \(You can also filter by IC partner, or by the contents of the **Line Action** field.\)  
   
 #### Created by IC Partner  
  When you receive a new transaction that was created by your partner, you can choose to:  
@@ -73,10 +73,10 @@ All of the intercompany transactions that you receive electronically from your I
  If you accepted a transaction in your inbox but then deleted the document or journal instead of posting it, you can re\-create the inbox entry and accept it again.  
   
 ## Getting an Overview of Intercompany Transactions for a Period  
- You can get an overview of all of the intercompany transactions that you have sent and received in a period. The **\($ R\_512 IC Transactions $\)** report lists all intercompany G\/L entries, customer ledger entries, and vendor ledger entries.  
+ You can get an overview of all of the intercompany transactions that you have sent and received in a period. The **IC Transactions** report lists all intercompany G\/L entries, customer ledger entries, and vendor ledger entries.  
   
 ## See Also  
- [\($ R\_512 IC Transactions $\)](../Topic/\($%20R_512%20IC%20Transactions%20$\).md)   
+ [IC Transactions](../Topic/\($%20R_512%20IC%20Transactions%20$\).md)   
  [How to: Import Intercompany Transactions from a File](../Finance/how-to-import-intercompany-transactions-from-a-file.md)   
  [How to: Re\-create Intercompany Inbox and Outbox Transactions](../Finance/how-to-re-create-intercompany-inbox-and-outbox-transactions.md)   
  [How to: Handle Incoming Intercompany Transactions](../Finance/how-to-handle-incoming-intercompany-transactions.md)   

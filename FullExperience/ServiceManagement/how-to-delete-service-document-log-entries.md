@@ -43,7 +43,7 @@ You can delete the automatically generated service document log entries, for exa
   
 ### To delete service document log entries  
   
-1.  In the **Search** box, enter **\($ N\_5920 Service Document Log $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Service Document Log**, and then choose the related link.  
   
      Alternatively, you can open the Service Document Log for a separate service document. To do this, open the window for the document you want to see the changes logged for, and then on the **Navigate** tab, in the relevant group, such as **Order**, or **Invoice**, and so on, choose **Service Document Log**.  
   
@@ -54,5 +54,5 @@ You can delete the automatically generated service document log entries, for exa
  After you have deleted the selected service document log entries, they are removed automatically from the **Service Document Log** window.  
   
 ## See Also  
- [\($ B\_6002 Delete Service Document Log $\)](../SetupAndAdministration/-$-b_6002-delete-service-document-log-$-.md)   
+ [Delete Service Document Log](../SetupAndAdministration/-$-b_6002-delete-service-document-log-$-.md)   
  [How to: Create Service Orders](../Service/how-to-create-service-orders.md)

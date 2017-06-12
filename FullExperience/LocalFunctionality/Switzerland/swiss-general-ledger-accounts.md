@@ -56,10 +56,10 @@ translation.priority.ht:
   
 ## See Also  
  [How to: View Temporary Balances in General Ledger Journals](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-view-temporary-balances-in-general-ledger-journals.md)   
- [\($ T\_15 G\/L Account $\)](assetId:///a65c2b09-9bb2-43db-8c53-c047bfc49777)   
- [\($ N\_16 Chart of Accounts $\)](assetId:///fa407624-b670-44b6-8397-91aa606e4c39)   
- [\($ B\_595 Adjust Exchange Rates $\)](../Topic/\($%20B_595%20Adjust%20Exchange%20Rates%20$\).md)   
- [\($ T\_81 Gen. Journal Line $\)](assetId:///5308c791-0964-41d9-bc54-fd87e815d1be)   
- [\($ N\_253 Sales Journal $\)](../Topic/\($%20N_253%20Sales%20Journal%20$\).md)   
- [\($ N\_254 Purchase Journal $\)](../Topic/\($%20N_254%20Purchase%20Journal%20$\).md)   
+ [G\/L Account](assetId:///a65c2b09-9bb2-43db-8c53-c047bfc49777)   
+ [Chart of Accounts](assetId:///fa407624-b670-44b6-8397-91aa606e4c39)   
+ [Adjust Exchange Rates](../Topic/\($%20B_595%20Adjust%20Exchange%20Rates%20$\).md)   
+ [Gen. Journal Line](assetId:///5308c791-0964-41d9-bc54-fd87e815d1be)   
+ [Sales Journal](../Topic/\($%20N_253%20Sales%20Journal%20$\).md)   
+ [Purchase Journal](../Topic/\($%20N_254%20Purchase%20Journal%20$\).md)   
  [Switzerland Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/switzerland-local-functionality.md)

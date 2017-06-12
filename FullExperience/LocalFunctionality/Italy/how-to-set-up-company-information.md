@@ -16,11 +16,11 @@ translation.priority.ht:
   - "it-it"
 ---
 # How to: Set Up Company Information
-Fiscal documents must contain all company information. You can enter all relevant data in the **\($ N\_1 Company Information $\)** window when setting up a company. This data will be included in all reports and fiscal documents.  
+Fiscal documents must contain all company information. You can enter all relevant data in the **Company Information** window when setting up a company. This data will be included in all reports and fiscal documents.  
   
 ### To set up company information  
   
-1.  In the **Search** box, enter **\($ N\_1 Company Information $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Company Information**, and then choose the related link.  
   
 2.  Enter the information into the FastTabs as described in the following table.  
   
@@ -36,4 +36,4 @@ Fiscal documents must contain all company information. You can enter all relevan
   
 ## See Also  
  [Italy Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/italy-local-functionality.md)   
- [\($ T\_79 Company Information $\)](assetId:///2a44e662-0d42-429e-8131-e0012a89996a)
+ [Company Information](assetId:///2a44e662-0d42-429e-8131-e0012a89996a)

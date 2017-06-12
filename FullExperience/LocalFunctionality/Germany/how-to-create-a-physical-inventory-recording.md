@@ -30,7 +30,7 @@ After you have created a physical inventory order and its lines you can create a
   
 3.  To create a physical inventory recording, on the **Home** tab, in the **Process** group, choose **Make New Recording**.  
   
-4.  In the **\($ B\_5005361 Make New Phys. Invt. Recording $\)** window, on the **Options** FastTab, fill in the fields as described in the following table.  
+4.  In the **Make New Phys. Invt. Recording** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
@@ -45,17 +45,17 @@ After you have created a physical inventory order and its lines you can create a
   
 7.  On the **Report** tab, choose **Physical Inventory Recording**.  
   
-8.  In the **\($ R\_5005353 Phys. Invt. Recording $\)** window, set the appropriate filters, and then choose the **Print** button or choose the **Preview** button.  
+8.  In the **Phys. Invt. Recording** window, set the appropriate filters, and then choose the **Print** button or choose the **Preview** button.  
   
-     Optionally, you can use the [\($ B\_5005363 Copy Phys. Invt. Rec. Line $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/-$-b_5005363-copy-phys.-invt.-rec.-line-$-.md) batch job to record serial numbers or lot numbers.  
+     Optionally, you can use the [Copy Phys. Invt. Rec. Line](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/-$-b_5005363-copy-phys.-invt.-rec.-line-$-.md) batch job to record serial numbers or lot numbers.  
   
-9. In the **\($ N\_5005354 Phys. Inventory Recording $\)** window, select the physical inventory recording line, choose **Functions**, and then choose **Copy Line**.  
+9. In the **Phys. Inventory Recording** window, select the physical inventory recording line, choose **Functions**, and then choose **Copy Line**.  
   
-10. In the **\($ B\_5005363 Copy Phys. Invt. Rec. Line $\)** window, specify the number of copies to make of the selected line, and then choose the **OK** button.  
+10. In the **Copy Phys. Invt. Rec. Line** window, specify the number of copies to make of the selected line, and then choose the **OK** button.  
   
  You can use the printed physical inventory recording to update the actual quantity of the item available in the specified location. To complete the recording process, the **Recorded** check box must be selected for all physical inventory recording lines.  
   
- To show that you have finished the physical inventory recording, you have to set the **\($ T\_5005352\_11 Status $\)** on the inventory recording header to **Finished**. For more information, see [How to: Finish a Physical Inventory Recording](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-finish-a-physical-inventory-recording.md).  
+ To show that you have finished the physical inventory recording, you have to set the **Status** on the inventory recording header to **Finished**. For more information, see [How to: Finish a Physical Inventory Recording](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-finish-a-physical-inventory-recording.md).  
   
 ### To complete a physical inventory recording  
   
@@ -63,7 +63,7 @@ After you have created a physical inventory order and its lines you can create a
   
 2.  Select the physical inventory recording that you want to complete, and then, on the **Home** tab, choose **Edit**.  
   
-3.  In the **\($ R\_5005353 Phys. Invt. Recording $\)** window, on the **Lines** FastTab, in the **Quantity** field for each line, enter the actual item quantity.  
+3.  In the **Phys. Invt. Recording** window, on the **Lines** FastTab, in the **Quantity** field for each line, enter the actual item quantity.  
   
 4.  Select the **Recorded** check box for each line.  
   
@@ -82,5 +82,5 @@ After you have created a physical inventory order and its lines you can create a
  [How to: Enter Physical Inventory Orders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-enter-physical-inventory-orders.md)   
  [How to: Calculate Quantity On Hand for a Physical Inventory Order](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-calculate-quantity-on-hand-for-a-physical-inventory-order.md)   
  [How to: Finish a Physical Inventory Recording](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-finish-a-physical-inventory-recording.md)   
- [\($ B\_5005361 Make New Phys. Invt. Recording $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/-$-b_5005361-make-new-phys.-invt.-recording-$-.md)   
- [\($ R\_5005353 Phys. Invt. Recording $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/-$-r_5005353-phys.-invt.-recording-$-.md)
+ [Make New Phys. Invt. Recording](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/-$-b_5005361-make-new-phys.-invt.-recording-$-.md)   
+ [Phys. Invt. Recording](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/-$-r_5005353-phys.-invt.-recording-$-.md)

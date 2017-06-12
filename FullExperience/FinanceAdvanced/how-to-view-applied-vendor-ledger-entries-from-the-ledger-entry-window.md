@@ -43,7 +43,7 @@ After entries have been completely or partially closed, during posting or at a l
   
 ### To view applied vendor ledger entries from the ledger entry window  
   
-1.  In the **Search** box, **\($ N\_29 Vendor Ledger Entries $\)**, and then choose the related link.  
+1.  In the **Search** box, **Vendor Ledger Entries**, and then choose the related link.  
   
 2.  Select the line with the entry whose applied entries you want to view.  
   

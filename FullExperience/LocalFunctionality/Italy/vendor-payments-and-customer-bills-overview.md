@@ -28,12 +28,12 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can ma
   
  Similarly, you can issue a billing document to your customers who have payments that are due on or before a certain date. The customers can pay the amount to your bank, which then transfers that amount to your bank account. The bill is then given to the customer as evidence of your receipt of the payment.  
   
- Before you can process bills, you must add your bank information to the **\($ N\_1 Company Information $\)** window. You must also create bill posting groups and assign a bill posting group to the bank account that you will use for automatic bills. For more information, see [How to: Set Up Automatic Payments and Automatic Bills](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-set-up-automatic-payments-and-automatic-bills.md). Then, you can generate lists of customer bills and vendor bills and process them. For more information, see [\($ N\_12178 List of Customer Bills $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/-$-n_12178-list-of-customer-bills-$-.md) and [\($ N\_12194 List of Open Vendor Bills $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/-$-n_12194-list-of-open-vendor-bills-$-.md).  
+ Before you can process bills, you must add your bank information to the **Company Information** window. You must also create bill posting groups and assign a bill posting group to the bank account that you will use for automatic bills. For more information, see [How to: Set Up Automatic Payments and Automatic Bills](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-set-up-automatic-payments-and-automatic-bills.md). Then, you can generate lists of customer bills and vendor bills and process them. For more information, see [List of Customer Bills](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/-$-n_12178-list-of-customer-bills-$-.md) and [List of Open Vendor Bills](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/-$-n_12194-list-of-open-vendor-bills-$-.md).  
   
 ## See Also  
  [How to: Set Up Automatic Payments and Automatic Bills](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-set-up-automatic-payments-and-automatic-bills.md)   
- [\($ R\_12176 Suggest Customer Bills $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/-$-r_12176-suggest-customer-bills-$-.md)   
- [\($ R\_12177 Suggest Vendor Bills $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/-$-r_12177-suggest-vendor-bills-$-.md)   
- [\($ N\_12178 List of Customer Bills $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/-$-n_12178-list-of-customer-bills-$-.md)   
- [\($ N\_12194 List of Open Vendor Bills $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/-$-n_12194-list-of-open-vendor-bills-$-.md)   
+ [Suggest Customer Bills](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/-$-r_12176-suggest-customer-bills-$-.md)   
+ [Suggest Vendor Bills](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/-$-r_12177-suggest-vendor-bills-$-.md)   
+ [List of Customer Bills](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/-$-n_12178-list-of-customer-bills-$-.md)   
+ [List of Open Vendor Bills](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/-$-n_12194-list-of-open-vendor-bills-$-.md)   
  [How to: Issue Vendor Payments and Customer Bills](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-issue-vendor-payments-and-customer-bills.md)

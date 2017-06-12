@@ -53,22 +53,22 @@ When you discover an erroneous entry, it must be corrected. Since it is not poss
   
 -   Reversing when you apply customer or vendor ledger entries. For more information, see [How to: Unapply Applied Customer or Vendor Ledger Entries](../Topic/How%20to:%20Unapply%20Applied%20Customer%20or%20Vendor%20Ledger%20Entries.md).  
   
- To correct erroneous entries using the general journal, you must use the **\($ T\_81\_73 Correction $\)** field.  
+ To correct erroneous entries using the general journal, you must use the **Correction** field.  
   
 > [!NOTE]  
->  The **Correction** field is not accessible by default. Use the Page Designer to add the field to the **\($ N\_39 General Journal $\)** window. This requires permissions to the development environment.  
+>  The **Correction** field is not accessible by default. Use the Page Designer to add the field to the **General Journal** window. This requires permissions to the development environment.  
   
 ### To correct a ledger entry using a general journal  
   
-1.  In the **Search** box, enter **\($ N\_39 General Journal $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **General Journal**, and then choose the related link.  
   
-2.  Fill in the first line of the journal with the corrective information. Select the **Correction** field. For more information, see [\($ T\_81\_73 Correction $\)](assetId:///6e249562-4684-46bd-86f1-f6279d1248e1).  
+2.  Fill in the first line of the journal with the corrective information. Select the **Correction** field. For more information, see [Correction](assetId:///6e249562-4684-46bd-86f1-f6279d1248e1).  
   
 3.  Post the journal.  
   
 ### To view the results of posting  
   
-1.  Open the **\($ N\_16 Chart of Accounts $\)** window.  
+1.  Open the **Chart of Accounts** window.  
   
 2.  On the line with the relevant account number, select the amount in the **Net Change** field.  
   
@@ -82,7 +82,7 @@ When you discover an erroneous entry, it must be corrected. Since it is not poss
 ## See Also  
  [How to: Fill and Post General Journals](../Finance/how-to-fill-and-post-general-journals.md)   
  [Correction of Incorrect Posted Documents](../Finance/correction-of-incorrect-posted-documents.md)   
- [\($ T\_81\_73 Correction $\)](assetId:///6e249562-4684-46bd-86f1-f6279d1248e1)   
+ [Correction](assetId:///6e249562-4684-46bd-86f1-f6279d1248e1)   
  [How to: Reverse Journal Postings](../Finance/how-to-reverse-journal-postings.md)   
  [How to: Reverse Journal Postings](../Finance/how-to-reverse-journal-postings.md)   
  [How to: Unapply Applied Customer or Vendor Ledger Entries](../Topic/How%20to:%20Unapply%20Applied%20Customer%20or%20Vendor%20Ledger%20Entries.md)

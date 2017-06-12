@@ -45,7 +45,7 @@ When you have created service orders or quotes, you can make use of resource ava
   
 ### To allocate a resource using resource availability  
   
-1.  In the **Search** box, enter **\($ N\_6000 Dispatch Board $\)**, and choose the related link.  
+1.  In the **Search** box, enter **Dispatch Board**, and choose the related link.  
   
 2.  Browse to the relevant service order.  
   

@@ -53,7 +53,7 @@ You can use the **Service Contract Templates** window to set up contract templat
   
      Alternatively, if you have set up number series for contract templates in the **Service Mgt. Setup** window, you can press the Enter key to enter the next available contract template number. Fill in the other fields if appropriate.  
   
-4.  On the **Invoice** FastTab, fill in the **\($ T\_5968\_23 Serv. Contract Acc. Group Code $\)** field, the **Invoice Period**, and so on. Fill in the other fields if appropriate.  
+4.  On the **Invoice** FastTab, fill in the **Serv. Contract Acc. Group Code** field, the **Invoice Period**, and so on. Fill in the other fields if appropriate.  
   
 5.  On the **Navigate** tab, in the **Contract Template** group, choose **Service Discounts** to add contract discounts.  
   

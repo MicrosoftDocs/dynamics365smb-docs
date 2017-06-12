@@ -25,9 +25,9 @@ You can calculate finance charges with multiple interest rates for a specific pe
   
 ### To set up multiple interest rates  
   
-1.  In the **Search** box, enter **\($ N\_6 Finance Charge Terms $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Finance Charge Terms**, and then choose the related link.  
   
-2.  In the **\($ N\_6 Finance Charge Terms $\)** window, select the required finance term, and then, on the **Navigate** tab, choose **Interest Rates**.  
+2.  In the **Finance Charge Terms** window, select the required finance term, and then, on the **Navigate** tab, choose **Interest Rates**.  
   
 3.  Fill in the fields as described in the following table.  
   
@@ -39,16 +39,16 @@ You can calculate finance charges with multiple interest rates for a specific pe
   
 4.  Choose the **OK** button.  
   
-5.  In the **Search** box, enter **\($ N\_431 Reminder Terms $\)**, and then choose the related link.  
+5.  In the **Search** box, enter **Reminder Terms**, and then choose the related link.  
   
-6.  In the **\($ N\_431 Reminder Terms $\)** window, select the required reminder term, and then, on the **Actions** tab, choose **Levels**.  
+6.  In the **Reminder Terms** window, select the required reminder term, and then, on the **Actions** tab, choose **Levels**.  
   
-7.  In the **\($ N\_432 Reminder Levels $\)** window, select the **\($ T\_293\_5 Calculate Interest $\)** field.  
+7.  In the **Reminder Levels** window, select the **Calculate Interest** field.  
   
  When you issue a finance charge memo, the memo shows the finance charges with multiple interest rates for a specific time period. The memo also contains the contact details of the customer, the company issuing the memo, the additional amount, and the total amount. The opening entry on the memo is displayed in bold. The finance charges are calculated with multiple interest rates for a specific time period and are printed after the opening entry of the memo.  
   
 ## See Also  
  [How to: Create Finance Charge Memos Manually](../../Finance/how-to-create-finance-charge-memos-manually.md)   
- [\($ B\_191 Create Finance Charge Memos $\)](../../Finance/-$-b_191-create-finance-charge-memos-$-.md)   
- [\($ N\_6 Finance Charge Terms $\)](../Topic/\($%20N_6%20Finance%20Charge%20Terms%20$\).md)   
+ [Create Finance Charge Memos](../../Finance/-$-b_191-create-finance-charge-memos-$-.md)   
+ [Finance Charge Terms](../Topic/\($%20N_6%20Finance%20Charge%20Terms%20$\).md)   
  [How to: Set Up Reminder Terms](../../Finance/how-to-set-up-reminder-terms.md)

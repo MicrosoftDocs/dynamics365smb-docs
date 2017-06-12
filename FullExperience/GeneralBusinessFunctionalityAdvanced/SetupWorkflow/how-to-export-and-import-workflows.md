@@ -39,7 +39,7 @@ To transfer workflows to other [!INCLUDE[dyn_nav](../../ApplicationDesign/includ
   
  Another way to quickly create workflows is to create workflows from workflow templates. For more information, see [How to: Create Workflows from Workflow Templates](../../BusinessFunctionality/Workflow/how-to-create-workflows-from-workflow-templates.md).  
   
- In the **\($ N\_1501 Workflow $\)** window, you create a workflow by listing the involved steps on the lines. Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options. You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code. For more information, see [How to: Create Workflows](../../BusinessFunctionality/Workflow/how-to-create-workflows.md).  
+ In the **Workflow** window, you create a workflow by listing the involved steps on the lines. Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options. You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code. For more information, see [How to: Create Workflows](../../BusinessFunctionality/Workflow/how-to-create-workflows.md).  
   
 ### To export a workflow  
   
@@ -63,10 +63,10 @@ To transfer workflows to other [!INCLUDE[dyn_nav](../../ApplicationDesign/includ
     >  If the workflow code already exists in the database, the workflow steps will be overwritten with the steps in the imported workflow.  
   
 ## See Also  
- [\($ N\_1501 Workflow $\)](../Topic/\($%20N_1501%20Workflow%20$\).md)   
- [\($ N\_1505 Workflow Templates $\)](../Topic/\($%20N_1505%20Workflow%20Templates%20$\).md)   
- [\($ N\_1523 Workflow Response Options $\)](../Topic/\($%20N_1523%20Workflow%20Response%20Options%20$\).md)   
- [\($ N\_1511 Notification Entries $\)](../Topic/\($%20N_1511%20Notification%20Entries%20$\).md)   
+ [Workflow](../Topic/\($%20N_1501%20Workflow%20$\).md)   
+ [Workflow Templates](../Topic/\($%20N_1505%20Workflow%20Templates%20$\).md)   
+ [Workflow Response Options](../Topic/\($%20N_1523%20Workflow%20Response%20Options%20$\).md)   
+ [Notification Entries](../Topic/\($%20N_1511%20Notification%20Entries%20$\).md)   
  [How to: Create Workflows](../../BusinessFunctionality/Workflow/how-to-create-workflows.md)   
  [How to: Create Workflows from Workflow Templates](../../BusinessFunctionality/Workflow/how-to-create-workflows-from-workflow-templates.md)   
  [How to: View Archived Workflow Step Instances](../../BusinessFunctionality/Workflow/how-to-view-archived-workflow-step-instances.md)   

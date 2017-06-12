@@ -26,4 +26,4 @@ translation.priority.ht:
   - "ru-ru"
   - "sv-se"
 ---
-For more information, see [\($ S\_PERSONALIZATION Personalize the User Interface $\)](../../SetupAndAdministration/-$-s_personalization-personalize-the-user-interface-$-.md).
+For more information, see [Personalize the User Interface](../../SetupAndAdministration/-$-s_personalization-personalize-the-user-interface-$-.md).

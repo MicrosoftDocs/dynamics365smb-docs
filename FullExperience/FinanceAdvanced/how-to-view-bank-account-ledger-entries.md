@@ -44,7 +44,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: View Bank Account Ledger Entries
-After transactions are posted to bank accounts, you can view the entries in the **\($ N\_372 Bank Account Ledger Entries $\)** window.  
+After transactions are posted to bank accounts, you can view the entries in the **Bank Account Ledger Entries** window.  
   
 ### To view bank account ledger entries  
   

@@ -64,7 +64,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you must v
 ## See Also  
  [How to: Issue Checks](../../Finance/how-to-issue-checks.md)   
  [How to: Void Checks](../../Finance/how-to-void-checks.md)   
- [\($ N\_374 Check Ledger Entries $\)](assetId:///21180bb1-0d9e-44b6-8899-e48129dc07db)   
- [\($ B\_10084 Void\-Transmit Elec. Payments $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-b_10084-void-transmit-elec.-payments-$-.md)   
+ [Check Ledger Entries](assetId:///21180bb1-0d9e-44b6-8899-e48129dc07db)   
+ [Void\-Transmit Elec. Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-b_10084-void-transmit-elec.-payments-$-.md)   
  [How to: Set Up Electronic Payments for Bank Accounts](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-set-up-electronic-payments-for-bank-accounts.md)   
  [How to: Generate Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-generate-electronic-payments.md)

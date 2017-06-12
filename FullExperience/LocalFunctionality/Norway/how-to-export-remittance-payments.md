@@ -18,13 +18,13 @@ translation.priority.ht:
 You can use the export remittance payments process to export the payments file to your computer. You can then transfer the remittance payments to the bank.  
   
 > [!IMPORTANT]  
->  Before you can export a remittance payment, you must select a payment format in the **\($ T\_270\_1210 Payment Export Format $\)** field in the **\($ N\_370 Bank Account Card $\)** window.  
+>  Before you can export a remittance payment, you must select a payment format in the **Payment Export Format** field in the **Bank Account Card** window.  
   
- You export payments to a bank file by choosing the **Export Payments** button in the **\($ N\_256 Payment Journal $\)** window. The process may be different, depending on the export format that you select:  
+ You export payments to a bank file by choosing the **Export Payments** button in the **Payment Journal** window. The process may be different, depending on the export format that you select:  
   
 -   Payments using the SEPA payment standard are directly exported to a file when you choose the **Export Payments** button. For more information, see [How to: Export Payments to a Bank File](../../BusinessFunctionality/DataExchange/how-to-export-payments-to-a-bank-file.md).  
   
--   Payments using local payment standards, such as **Telepay**, are exported with either the **\($ B\_15000050 Remittance \- export \(bank\) $\)** or the **\($ B\_15000060 Remittance \- export \(BBS\) $\)** report, which automatically opens when you choose the **Export Payments** button.  
+-   Payments using local payment standards, such as **Telepay**, are exported with either the **Remittance \- export \(bank\)** or the **Remittance \- export \(BBS\)** report, which automatically opens when you choose the **Export Payments** button.  
   
  The procedure for exporting payments using the **Remittance – Export** batch job is described in this topic.  
   
@@ -40,12 +40,12 @@ You can use the export remittance payments process to export the payments file t
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_15000050\_F\_1\_13 Remittance agreement code $\)**|Specify the code for the agreement.|  
-    |**\($ R\_15000050\_F\_1\_3 Operator $\)**|Specify the operator number.|  
-    |**\($ R\_15000050\_F\_1\_5 Password $\)**|Specify the password for the payments.|  
-    |**\($ R\_15000050\_F\_1\_9 Division $\)**|Specify the division that is paying remittance.|  
-    |**\($ R\_15000050\_F\_1\_1 Current note $\)**|Specify a note for the payment.|  
-    |**\($ R\_15000050\_F\_1\_8 Filename $\)**|Specify the name and directory of the payment file.|  
+    |**Remittance agreement code**|Specify the code for the agreement.|  
+    |**Operator**|Specify the operator number.|  
+    |**Password**|Specify the password for the payments.|  
+    |**Division**|Specify the division that is paying remittance.|  
+    |**Current note**|Specify a note for the payment.|  
+    |**Filename**|Specify the name and directory of the payment file.|  
   
 5.  Choose the **OK** button.  
   
@@ -54,8 +54,8 @@ You can use the export remittance payments process to export the payments file t
      The payment journal is deleted and the transactions are transferred to the waiting journal.  
   
 ## See Also  
- [\($ B\_15000050 Remittance \- export \(bank\) $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/-$-b_15000050-remittance-export-bank-$-.md)   
- [\($ B\_15000060 Remittance \- export \(BBS\) $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/-$-b_15000060-remittance-export-bbs-$-.md)   
+ [Remittance \- export \(bank\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/-$-b_15000050-remittance-export-bank-$-.md)   
+ [Remittance \- export \(BBS\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/-$-b_15000060-remittance-export-bbs-$-.md)   
  [Electronic Payments to Vendors in Norway](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/electronic-payments-to-vendors-in-norway.md)   
  [How to: Set Up Remittance Agreements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-set-up-remittance-agreements.md)   
  [How to: Create Remittance Accounts](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-create-remittance-accounts.md)   

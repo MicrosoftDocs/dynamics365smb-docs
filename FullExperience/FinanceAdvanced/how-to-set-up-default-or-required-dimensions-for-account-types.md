@@ -53,7 +53,7 @@ You can set up a default dimension for an account type. [!INCLUDE[navnow](../App
   
 1.  In the **Search** box, enter **Dimensions**, and then choose the related link.  
   
-2.  In the **\($ N\_536 Dimensions $\)** window, select the dimension.  
+2.  In the **Dimensions** window, select the dimension.  
   
 3.  On the **Navigate** tab, in the **Dimension** group, choose **Account Type Default Dim**.  
   
@@ -63,7 +63,7 @@ You can set up a default dimension for an account type. [!INCLUDE[navnow](../App
 >  If you want to make a dimension required but you do not want to assign a default value to the dimension, leave the **Dimension Value Code** field blank and then select **Code Mandatory** in the **Value Posting** field.  
   
 > [!WARNING]  
->  If an account is used in the **\($ B\_595 Adjust Exchange Rates $\)** batch job or the **\($ B\_1002 Post Inventory Cost to G\/L $\)** batch job, do not select **Code Mandatory** or **Same Code**. These batch jobs cannot use dimension codes.  
+>  If an account is used in the **Adjust Exchange Rates** batch job or the **Post Inventory Cost to G\/L** batch job, do not select **Code Mandatory** or **Same Code**. These batch jobs cannot use dimension codes.  
   
 > [!NOTE]  
 >  If an account must have a different dimension assigned to it than the default dimension already set up for the account type, you must set up a default dimension for this account. The default dimension for the individual account then replaces the default dimension for the account type.  
@@ -73,7 +73,7 @@ You can set up a default dimension for an account type. [!INCLUDE[navnow](../App
  [How to: Set Up Default Dimensions for One Account](../Finance/how-to-set-up-default-dimensions-for-one-account.md)   
  [How to: Set Up Global Dimensions](../Finance/how-to-set-up-global-dimensions.md)   
  [How to: Set Up Shortcut Dimensions](../Finance/how-to-set-up-shortcut-dimensions.md)   
- [\($ T\_352 Default Dimension $\)](assetId:///bd021a4a-f67d-44ca-9e6a-4b54cf91e710)   
- [\($ T\_348 Dimension $\)](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)   
- [\($ B\_595 Adjust Exchange Rates $\)](../Topic/\($%20B_595%20Adjust%20Exchange%20Rates%20$\).md)   
- [\($ B\_1002 Post Inventory Cost to G\-L $\)](../Topic/\($%20B_1002%20Post%20Inventory%20Cost%20to%20G-L%20$\).md)
+ [Default Dimension](assetId:///bd021a4a-f67d-44ca-9e6a-4b54cf91e710)   
+ [Dimension](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)   
+ [Adjust Exchange Rates](../Topic/\($%20B_595%20Adjust%20Exchange%20Rates%20$\).md)   
+ [Post Inventory Cost to G\-L](../Topic/\($%20B_1002%20Post%20Inventory%20Cost%20to%20G-L%20$\).md)

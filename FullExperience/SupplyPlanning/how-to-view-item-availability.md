@@ -54,7 +54,7 @@ The follow table shows the various ways you can view an item’s availability.
 |BOM Level|To see how many parent items you are able to make, by assembly or production, based on the availability of components and lower\-level parents.|  
 |Timeline|To see a graphical view of an item’s projected inventory based on future supply and demand events, with or without planning suggestions. The result is a graphical representation of the inventory profile. **Note:**  You can change planning suggestions by dragging elements across the timeline and then save them back to the planning worksheet. For more information, see [How to: Modify Planning Suggestions in a Graphical View](../DesignAndEngineering/how-to-modify-planning-suggestions-in-a-graphical-view.md).|  
   
- You can open five of these different views as separate windows from all application areas where items are handled, such as item cards, planning or requisition lines, and any kind of order line or component line. The **\($ N\_5540 Item Availability Timeline $\)** window can only be opened from item cards and planning or requisition lines.  
+ You can open five of these different views as separate windows from all application areas where items are handled, such as item cards, planning or requisition lines, and any kind of order line or component line. The **Item Availability Timeline** window can only be opened from item cards and planning or requisition lines.  
   
  When the window opens, it shows availability figures that are filtered on the dataset that the window is opened from, which includes the item number, location code, variant code, and date of the document line, journal line, or item card.  
   
@@ -64,7 +64,7 @@ The follow table shows the various ways you can view an item’s availability.
   
 ### To view item availability by event  
   
-1.  In the **Search** box, enter **\($ N\_42 Sales Order $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Sales Order**, and then choose the related link.  
   
 2.  Open the sales order you want to view. On the **Lines** FastTab, select the line that contains the item that you want to see availability for.  
   
@@ -85,7 +85,7 @@ The follow table shows the various ways you can view an item’s availability.
   
 ### To view item availability by period  
   
-1.  In the **Search** box, enter **\($ N\_42 Sales Order $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Sales Order**, and then choose the related link.  
   
 2.  Open the sales order you want, and then on the **Lines** FastTab, select the line that contains the item that you want to see availability for.  
   
@@ -106,7 +106,7 @@ The follow table shows the various ways you can view an item’s availability.
   
 ### To view item availability by variant  
   
-1.  In the **Search** box, enter **\($ N\_42 Sales Order $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Sales Order**, and then choose the related link.  
   
 2.  Open the sales order you want, and then on the **Lines** FastTab, select the line that contains the item that you want to see availability for.  
   
@@ -120,7 +120,7 @@ The follow table shows the various ways you can view an item’s availability.
   
 ### To view item availability by location  
   
-1.  In the **Search** box, enter **\($ N\_42 Sales Order $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Sales Order**, and then choose the related link.  
   
 2.  Open the sales order you want, and then on the **Lines** FastTab, select the line that contains the item that you want to see availability for.  
   
@@ -143,7 +143,7 @@ The follow table shows the various ways you can view an item’s availability.
   
 ##  <a name="BKMK_Toinsertadifferentdatelocationorvariantfromtheavailabilityview"></a> To insert a different date, location, or variant from the availability view  
   
-1.  In the **Search** box, enter **\($ N\_42 Sales Order $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Sales Order**, and then choose the related link.  
   
 2.  Open the sales order you want, and then on the **Lines** FastTab, select the line that has a shipment date that you want to change according to availability.  
   
@@ -157,7 +157,7 @@ The follow table shows the various ways you can view an item’s availability.
   
 ### To view item availability by BOM level  
   
-1.  In the **Search** box, enter **\($ N\_42 Sales Order $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Sales Order**, and then choose the related link.  
   
 2.  Open the sales order you want, and then on the **Lines** FastTab, select the line that contains the item that you want to see availability for.  
   
@@ -167,14 +167,14 @@ The follow table shows the various ways you can view an item’s availability.
   
 4.  Choose the **Expand \(\+\)** button to expand the line and view the components, children, or other parents, that exist in the item’s BOM structure.  
   
-5.  Study the **\($ T\_5870\_33 Able to Make Parent $\)** and **\($ T\_5870\_32 Able to Make Top Item $\)** fields to find out how many of each parent you are able to make if you started the assembly or production process in question.  
+5.  Study the **Able to Make Parent** and **Able to Make Top Item** fields to find out how many of each parent you are able to make if you started the assembly or production process in question.  
   
 > [!NOTE]  
->  The **\($ N\_5871\_26 Show Total Availability $\)** field in the **Options** FastTab is critical to the values that you see on the lines. For more information, see [\($ N\_5871\_26 Show Total Availability $\)](../Topic/\($%20N_5871_26%20Show%20Total%20Availability%20$\).md).  
+>  The **Show Total Availability** field in the **Options** FastTab is critical to the values that you see on the lines. For more information, see [Show Total Availability](../Topic/\($%20N_5871_26%20Show%20Total%20Availability%20$\).md).  
   
 ### To view item availability by timeline  
   
-1.  In the **Search** box, enter **\($ N\_99000852 Planning Worksheet $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Planning Worksheet**, and then choose the related link.  
   
 2.  Open the planning worksheet you want.  
   
@@ -182,21 +182,21 @@ The follow table shows the various ways you can view an item’s availability.
   
 4.  On the **Navigate** tab, in the **Availability** group, choose **Item Availability By**, and then choose select **Timeline**.  
   
-     The **\($ N\_5540 Item Availability Timeline $\)** window opens with the item number, location, and variant of the item on the selected planning line prefilled in the fields on the **Options** FastTab. The **Timeline** FastTab shows a graphical representation of the item’s projected inventory based on actual supply and demand events and the suggested supply orders. Clear the **Include Planning Suggestions** field if you only want to see actual inventory figures.  
+     The **Item Availability Timeline** window opens with the item number, location, and variant of the item on the selected planning line prefilled in the fields on the **Options** FastTab. The **Timeline** FastTab shows a graphical representation of the item’s projected inventory based on actual supply and demand events and the suggested supply orders. Clear the **Include Planning Suggestions** field if you only want to see actual inventory figures.  
   
  You can modify the suggested supply orders by dragging the related icons up and down on the **Timeline** FastTab. For more information, see [How to: Modify Planning Suggestions in a Graphical View](../DesignAndEngineering/how-to-modify-planning-suggestions-in-a-graphical-view.md).  
   
 ## See Also  
- [\($ N\_5530 Item Availability by Event $\)](../Topic/\($%20N_5530%20Item%20Availability%20by%20Event%20$\).md)   
- [\($ N\_492 Item Availability by Location $\)](../Topic/\($%20N_492%20Item%20Availability%20by%20Location%20$\).md)   
- [\($ N\_157 Item Availability by Periods $\)](../Topic/\($%20N_157%20Item%20Availability%20by%20Periods%20$\).md)   
- [\($ N\_5414 Item Availability by Variant $\)](../Topic/\($%20N_5414%20Item%20Availability%20by%20Variant%20$\).md)   
- [\($ N\_5871 Item Availability by BOM Level $\)](../Topic/\($%20N_5871%20Item%20Availability%20by%20BOM%20Level%20$\).md)   
- [\($ N\_5540 Item Availability by Timeline $\)](../Topic/\($%20N_5540%20Item%20Availability%20by%20Timeline%20$\).md)   
- [\($ T\_5870\_32 Able to Make Top Item $\)](../Topic/\($%20T_5870_32%20Able%20to%20Make%20Top%20Item%20$\).md)   
- [\($ T\_5870\_33 Able to Make Parent $\)](../Topic/\($%20T_5870_33%20Able%20to%20Make%20Parent%20$\).md)   
- [\($ T\_5531\_38 Suggested Projected Inventory $\)](../Topic/\($%20T_5531_38%20Suggested%20Projected%20Inventory%20$\).md)   
- [\($ N\_5703 Location Card $\)](../WarehouseActivities/-$-n_5703-location-card-$-.md)   
- [\($ T\_5401 Item Variant $\)](../DesignAndEngineering/-$-t_5401-item-variant-$-.md)   
- [\($ N\_99000852 Planning Worksheet $\)](../Topic/\($%20N_99000852%20Planning%20Worksheet%20$\).md)   
+ [Item Availability by Event](../Topic/\($%20N_5530%20Item%20Availability%20by%20Event%20$\).md)   
+ [Item Availability by Location](../Topic/\($%20N_492%20Item%20Availability%20by%20Location%20$\).md)   
+ [Item Availability by Periods](../Topic/\($%20N_157%20Item%20Availability%20by%20Periods%20$\).md)   
+ [Item Availability by Variant](../Topic/\($%20N_5414%20Item%20Availability%20by%20Variant%20$\).md)   
+ [Item Availability by BOM Level](../Topic/\($%20N_5871%20Item%20Availability%20by%20BOM%20Level%20$\).md)   
+ [Item Availability by Timeline](../Topic/\($%20N_5540%20Item%20Availability%20by%20Timeline%20$\).md)   
+ [Able to Make Top Item](../Topic/\($%20T_5870_32%20Able%20to%20Make%20Top%20Item%20$\).md)   
+ [Able to Make Parent](../Topic/\($%20T_5870_33%20Able%20to%20Make%20Parent%20$\).md)   
+ [Suggested Projected Inventory](../Topic/\($%20T_5531_38%20Suggested%20Projected%20Inventory%20$\).md)   
+ [Location Card](../WarehouseActivities/-$-n_5703-location-card-$-.md)   
+ [Item Variant](../DesignAndEngineering/-$-t_5401-item-variant-$-.md)   
+ [Planning Worksheet](../Topic/\($%20N_99000852%20Planning%20Worksheet%20$\).md)   
  [How to: Modify Planning Suggestions in a Graphical View](../DesignAndEngineering/how-to-modify-planning-suggestions-in-a-graphical-view.md)

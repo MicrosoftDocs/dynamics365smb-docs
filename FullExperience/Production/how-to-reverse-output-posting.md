@@ -43,7 +43,7 @@ There are times when output posting must be reversed. An example of this would b
   
 ### To reverse an output posting  
   
-1.  In the **Search** box, enter **\($ N\_99000823 Output Journal $\)**, and then choose the related link. Select your batch.  
+1.  In the **Search** box, enter **Output Journal**, and then choose the related link. Select your batch.  
   
 2.  In the **Posting Date** field, type the posting date of the entry to reverse.  
   
@@ -64,8 +64,8 @@ There are times when output posting must be reversed. An example of this would b
  The output journal entries are posted to the item ledger as a positive adjustment.  
   
 ## See Also  
- [\($ N\_99000823 Output Journal $\)](../Production/-$-n_99000823-output-journal-$-.md)   
- [\($ N\_5510 Production Journal $\)](../Topic/\($%20N_5510%20Production%20Journal%20$\).md)   
+ [Output Journal](../Production/-$-n_99000823-output-journal-$-.md)   
+ [Production Journal](../Topic/\($%20N_5510%20Production%20Journal%20$\).md)   
  [About Production Orders](../Production/about-production-orders.md)   
  [How to: Post Output Quantity](../Production/how-to-post-output-quantity.md)   
  [How to: Post Run Times](../Production/how-to-post-run-times.md)   

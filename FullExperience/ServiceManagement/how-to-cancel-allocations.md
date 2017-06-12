@@ -43,7 +43,7 @@ If you need to cancel allocations of resources, for example, technicians, to ser
   
 ### To cancel an allocation  
   
-1.  In the **Search** box, enter **\($ N\_6000 Dispatch Board $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Dispatch Board**, and then choose the related link.  
   
 2.  Browse to the relevant service order. On the **Navigate** tab, in the **Planning** group, choose **Resource Allocations**. The **Resource Allocations** window opens.  
   

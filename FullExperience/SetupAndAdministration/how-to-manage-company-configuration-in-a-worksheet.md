@@ -46,7 +46,7 @@ The configuration worksheet is the central location in which you can plan, track
   
  The first step in preparing a configuration package is to select a company that you have already set up and modified to suit most of your solution needs. This company serves as the baseline for your configuration work on new companies. In the worksheet, you designate the tables that you want your configuration to control and handle. Since most tables in [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] have relationships and dependencies on other tables, you should also include those related tables as necessary. Together, these tables will then serve as the structure around which you will build a new company. Subsequent steps help you package and then deploy your configuration.  
   
- To aide you in tracking and reviewing your work, use the **\($ N\_8634 Config. Package Table $\)** FactBox to see information about records. Use the **\($ N\_8635 Config. Related Tables $\)** FactBox to monitor table relationships.  
+ To aide you in tracking and reviewing your work, use the **Config. Package Table** FactBox to see information about records. Use the **Config. Related Tables** FactBox to monitor table relationships.  
   
  The following procedures demonstrate how to add and customize table information for your configuration.  
   
@@ -64,13 +64,13 @@ The configuration worksheet is the central location in which you can plan, track
   
 2.  In the configuration worksheet, select the first line.  
   
-3.  In the **\($ T\_8622\_2 Line Type $\)** field, choose **Table**.  
+3.  In the **Line Type** field, choose **Table**.  
   
-4.  In the **\($ T\_8622\_3 Table ID $\)** field, select the table that you want to add to your configuration.  
+4.  In the **Table ID** field, select the table that you want to add to your configuration.  
   
-5.  In the **\($ T\_8622\_14 Page ID $\)** field, enter the page ID associated with the table. For standard [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] tables, this value is automatically filled in. For custom tables, you have to provide the ID.  
+5.  In the **Page ID** field, enter the page ID associated with the table. For standard [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] tables, this value is automatically filled in. For custom tables, you have to provide the ID.  
   
-6.  In the **\($ T\_8622\_28 Reference $\)** field, enter a url of a page that provides best practice information or instructions for how to set up the table.  
+6.  In the **Reference** field, enter a url of a page that provides best practice information or instructions for how to set up the table.  
   
 7.  To add related tables, on the **Actions** tab, in the **Functions** group, choose **Get Related Tables**.  
   
@@ -96,7 +96,7 @@ The configuration worksheet is the central location in which you can plan, track
   
 ### To add multiple tables to the configuration worksheet  
   
-1.  On the **Actions** tab, in the **Functions** group, choose **Get Tables**. The **\($ B\_8614 Get Config. Tables $\)** batch job window opens.  
+1.  On the **Actions** tab, in the **Functions** group, choose **Get Tables**. The **Get Config. Tables** batch job window opens.  
   
      On the **Options** FastTab, specify the types of tables that you want to add to the configuration. The following table describes the options.  
   
@@ -157,15 +157,15 @@ The configuration worksheet is the central location in which you can plan, track
   
 1.  At the beginning of an area, insert a new line into the worksheet.  
   
-2.  In the **\($ T\_8622\_2 Line Type $\)** field, choose **Area**. In the **\($ T\_8622\_4 Name $\)** field, enter a name for the area.  
+2.  In the **Line Type** field, choose **Area**. In the **Name** field, enter a name for the area.  
   
 3.  At the beginning of a grouping of tables, insert a new line into the worksheet.  
   
-4.  In the **\($ T\_8622\_2 Line Type $\)** field, choose **Group**. In the **\($ T\_8622\_4 Name $\)** field, enter a name for the area. The group name is automatically indented.  
+4.  In the **Line Type** field, choose **Group**. In the **Name** field, enter a name for the area. The group name is automatically indented.  
   
 5.  To move tables to the appropriate category, on the **Actions** tab, in the **Functions** group, select a table to move. Choose **Move Up** or **Move Down**. Alternatively, you can delete a worksheet line and insert the table again in the required location.  
   
- For more information about how to use categories effectively, see [\($ T\_8622\_2 Line Type $\)](../Topic/\($%20T_8622_2%20Line%20Type%20$\).md).  
+ For more information about how to use categories effectively, see [Line Type](../Topic/\($%20T_8622_2%20Line%20Type%20$\).md).  
   
  Some [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] tables are standard and the data in them is not likely to change from implementation to implementation. Consequently, to help your customer focus, you can remove these tables from the worksheet after you have included them in the configuration package. Once added, the tables remain part of the configuration package.  
   
@@ -179,6 +179,6 @@ The configuration worksheet is the central location in which you can plan, track
     >  The tables remain in the package.  
   
 ## See Also  
- [\($ N\_8632 Config. Worksheet $\)](../Topic/\($%20N_8632%20Config.%20Worksheet%20$\).md)   
- [\($ B\_8614 Get Config. Tables $\)](../Topic/\($%20B_8614%20Get%20Config.%20Tables%20$\).md)   
+ [Config. Worksheet](../Topic/\($%20N_8632%20Config.%20Worksheet%20$\).md)   
+ [Get Config. Tables](../Topic/\($%20B_8614%20Get%20Config.%20Tables%20$\).md)   
  [How to: Create a Configuration Package](../SetupAndAdministration/how-to-create-a-configuration-package.md)

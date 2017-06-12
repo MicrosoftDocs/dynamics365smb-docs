@@ -44,7 +44,7 @@ You can use telebanking for trade with domestic and foreign customers and vendor
   
 -   **Transaction Mode**: select an appropriate, default transaction mode \- i.e. one that can deal with local currency payments for your bank.  
   
--   **\($ T\_23\_288 Preferred Bank Account $\)**: select an appropriate, default vendor\/customer bank account having the same Currency Code as the vendor\/customer itself.  
+-   **Preferred Bank Account**: select an appropriate, default vendor\/customer bank account having the same Currency Code as the vendor\/customer itself.  
   
 > [!NOTE]  
 >  In order to be able to enter a bank account in the **Bank Account** vendor\/customer bank accounts must be available. See below.  
@@ -55,7 +55,7 @@ You can use telebanking for trade with domestic and foreign customers and vendor
 ## Create Vendor\/Customer Bank Account  
  Create vendor\/customer bank account and enter all necessary information. Special attention should be paid to:  
   
--   **\($ T\_23\_288 Preferred Bank Account $\)**: enter a valid bank account number.  
+-   **Preferred Bank Account**: enter a valid bank account number.  
   
 -   **Currency Code**: leave empty \- i.e. it is set to the local currency \(LCY\).  
   
@@ -71,7 +71,7 @@ You can use telebanking for trade with domestic and foreign customers and vendor
   
 -   **Transaction Mode**: select an appropriate, default transaction mode \- i.e. one that can deal with local currency payments for your bank.  
   
--   **\($ T\_23\_288 Preferred Bank Account $\)**: select an appropriate, default vendor\/customer bank account having the same Currency Code is the vendor\/customer itself.  
+-   **Preferred Bank Account**: select an appropriate, default vendor\/customer bank account having the same Currency Code is the vendor\/customer itself.  
   
  By default these three fields will be populated with values taken from the vendor\/customer card.  
   
@@ -81,7 +81,7 @@ You can use telebanking for trade with domestic and foreign customers and vendor
  When creating a purchase invoice for Olek Johansson we enter *OLEK* in the ***Buy\-from Vendor No.*** field. By default the *Currency Code*, *Transaction Mode* and *Bank Account* fields will be populated with values taken from the Olek Johansson's vendor card. Therefore the *Currency Code*, *Transaction Mode* and *Bank Account* fields will be *\<empty\>*, *ABN* and *OJBA* respectively. Nevertheless, these values can be changed.  
   
 ## Create Proposal  
- Open the [\($ N\_11000000 Telebank \- Bank Overview Window $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-n_11000000-telebank-bank-overview-window-$-.md) window and browse to the bank through which we want to perform our payment. Open the Proposal window and generate payment proposals using the Get Proposal Entries batch job.  
+ Open the [Telebank \- Bank Overview Window](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-n_11000000-telebank-bank-overview-window-$-.md) window and browse to the bank through which we want to perform our payment. Open the Proposal window and generate payment proposals using the Get Proposal Entries batch job.  
   
 ### Example  
  Through the Telebank \- Bank Overview window we open the Proposal window for our bank *ABN*. Using the batch job one proposal line will be created for the purchase invoice we just created and posted for vendor *OLEK*.  
@@ -93,7 +93,7 @@ You can use telebanking for trade with domestic and foreign customers and vendor
  We process our proposal concerning the payment to vendor *OLEK* and open the Payment History Overview window for our bank *ABN*. The last payment history is the one we just created.  
   
 ## Export Payment History  
- Open the [\($ N\_11000007 Payment History Overview Window $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-n_11000007-payment-history-overview-window-$-.md) window, browse to the relevant payment history and choose **Export**. The export batch job will appear for the export protocol that is linked to this payment. For this export the system already has entered appropriate filters. Check, if wanted, any of the fields on the Options tab and click OK to export the payment. The system will generate a text file using a filename as defined in the [\($ T\_11000005\_21 Default File Names Field $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-t_11000005_21-default-file-names-field-$-.md) field of the export protocol, which now is ready to be sent to our bank.  
+ Open the [Payment History Overview Window](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-n_11000007-payment-history-overview-window-$-.md) window, browse to the relevant payment history and choose **Export**. The export batch job will appear for the export protocol that is linked to this payment. For this export the system already has entered appropriate filters. Check, if wanted, any of the fields on the Options tab and click OK to export the payment. The system will generate a text file using a filename as defined in the [Default File Names Field](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-t_11000005_21-default-file-names-field-$-.md) field of the export protocol, which now is ready to be sent to our bank.  
   
 ### Example  
  As the transaction mode associated with our payment is *ABN* the CLIEOP03 batch job will appear.  

@@ -14,4 +14,4 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Total Balance
-The balance is the sum of the [\($ T\_11204\_4 Allocation % $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Finland/-$-t_11204_4-allocation-percentage-$-.md) field. The balance must be 0.
+The balance is the sum of the [Allocation %](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Finland/-$-t_11204_4-allocation-percentage-$-.md) field. The balance must be 0.

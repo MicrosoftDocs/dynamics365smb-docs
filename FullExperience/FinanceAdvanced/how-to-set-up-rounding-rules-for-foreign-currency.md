@@ -49,7 +49,7 @@ Before you can use the automatic invoice rounding function, you must set up roun
   
 1.  In the **Search** box, enter **Currencies**, and then choose the related link.  
   
-2.  In the **\($ N\_5 Currencies $\)** window, fill in the **\($ T\_4\_10 Invoice Rounding Precision $\)** and **\($ T\_4\_12 Invoice Rounding Type $\)** fields. [!INCLUDE[bp_fieldhelp]()]  
+2.  In the **Currencies** window, fill in the **Invoice Rounding Precision** and **Invoice Rounding Type** fields. [!INCLUDE[bp_fieldhelp]()]  
   
 ## See Also  
  [How to: Set Up General Ledger Accounts for Invoice Rounding Differences](../Finance/how-to-set-up-general-ledger-accounts-for-invoice-rounding-differences.md)   

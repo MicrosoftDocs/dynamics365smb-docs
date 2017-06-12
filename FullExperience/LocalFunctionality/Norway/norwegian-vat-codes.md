@@ -29,17 +29,17 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], VAT proces
 |**13**|Sale \- Full VAT|  
 |**14**|Purchase \- Reverse Charge VAT|  
   
- Typically, you enter the **\($ T\_39\_89 VAT Bus. Posting Group $\)** and **\($ T\_39\_90 VAT Prod. Posting Group $\)** fields when you specify the VAT handling process.  
+ Typically, you enter the **VAT Bus. Posting Group** and **VAT Prod. Posting Group** fields when you specify the VAT handling process.  
   
- If you want to use only the **\($ T\_325\_10606 VAT Code $\)** field when you specify the VAT handling process, you can assign a VAT code in the **\($ T\_325 VAT Posting Setup $\)** table, and use this code instead of the posting group fields. The VAT code can be used as a shortcut in the **\($ T\_325 VAT Posting Setup $\)** table and at the same time, you can use standard Norwegian VAT codes.  
+ If you want to use only the **VAT Code** field when you specify the VAT handling process, you can assign a VAT code in the **VAT Posting Setup** table, and use this code instead of the posting group fields. The VAT code can be used as a shortcut in the **VAT Posting Setup** table and at the same time, you can use standard Norwegian VAT codes.  
   
 ## Set Up of Norwegian VAT Codes  
- You must create the Norwegian VAT codes in the **\($ N\_10602 VAT Codes $\)** window. Then assign the VAT codes in the **\($ T\_325 VAT Posting Setup $\)** table, using the **\($ T\_325\_10606 VAT Code $\)** field. For more information, see [How to: Use One VAT Code in Journals](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-use-one-vat-code-in-journals.md).  
+ You must create the Norwegian VAT codes in the **VAT Codes** window. Then assign the VAT codes in the **VAT Posting Setup** table, using the **VAT Code** field. For more information, see [How to: Use One VAT Code in Journals](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-use-one-vat-code-in-journals.md).  
   
 ## Use of VAT Codes  
  When you specify a VAT code, you can select the VAT posting setup information for this code. This information will be used in journals or on document lines when you specify the VAT setup information. If you use the VAT code in these cases, the posting group fields are used with the information from the corresponding VAT posting setup information.  
   
- Alternatively, you will have to specify both the **\($ T\_39\_89 VAT Bus. Posting Group $\)** and the **\($ T\_39\_90 VAT Prod. Posting Group $\)** fields when you select or change the VAT posting setup information on the journal line or the document line.  
+ Alternatively, you will have to specify both the **VAT Bus. Posting Group** and the **VAT Prod. Posting Group** fields when you select or change the VAT posting setup information on the journal line or the document line.  
   
 ### Example: Using VAT Codes  
  There are two different VAT posting setup instances that can be used when you post a sales document.  
@@ -64,16 +64,16 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], VAT proces
   
 -   VAT Code: 1  
   
- Typically, when you specify the VAT setup information on a journal line, the **\($ T\_39\_89 VAT Bus. Posting Group $\)** field must be set to **DOMESTIC** and the **\($ T\_39\_90 VAT Prod. Posting Group $\)** field must be set to **NORMAL** in order to choose the domestic setup.  
+ Typically, when you specify the VAT setup information on a journal line, the **VAT Bus. Posting Group** field must be set to **DOMESTIC** and the **VAT Prod. Posting Group** field must be set to **NORMAL** in order to choose the domestic setup.  
   
  If you use standard Norwegian VAT codes, you could specify **VAT Code 3** for the domestic VAT posting setup information, and **VAT Code 1** for the international VAT posting setup information. This lets you choose between the VAT posting setup information using only one field and the familiar standard Norwegian VAT codes.  
   
 ### Example: Restricting the Use of VAT Codes  
  The standard Norwegian **VAT Code 3** is used for sales inclusive of VAT. Unless you restrict the use of this VAT code, it can be used for both sales and purchases in [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)].  
   
- You can define the **\($ T\_376\_43 Gen. Posting Type $\)** field as a sale in the **\($ T\_376 G\/L Account \(Analysis View\) $\)** table. This general posting type will be used together with **VAT Code 3**.  
+ You can define the **Gen. Posting Type** field as a sale in the **G\/L Account \(Analysis View\)** table. This general posting type will be used together with **VAT Code 3**.  
   
- The general posting type will be handled in two ways, depending on the value in the **\($ T\_10602\_3 Test Gen. Posting Type $\)** field.  
+ The general posting type will be handled in two ways, depending on the value in the **Test Gen. Posting Type** field.  
   
 |**[!INCLUDE[bp_optionsheading](../../DesignAndEngineering/includes/bp_optionsheading_md.md)]**|**[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]**|  
 |-----------------------------------------|-------------------------------------------|  

@@ -80,7 +80,7 @@ Compensating a customer who is dissatisfied with an item that a company has sold
 |Ensure that items are returned to inventory at the same unit cost that was connected to the original sales entry.|[How to: Assign Exact Cost Reversing in Sales](../Finance/how-to-assign-exact-cost-reversing-in-sales.md)|  
 |Charge a restock fee to the customer to receive non\-defective items.|[How to: Create a Restock Charge](../Sales/how-to-create-a-restock-charge.md)|  
 |Compensate your customer for an item that you sold by giving them a deduction against the original sales price.|[How to: Create and Post Sales Allowances](../Sales/how-to-create-and-post-sales-allowances.md)|  
-|Have all relevant sales return documents created automatically, such as a purchase return order, a replacement purchase order, or a new sales order.|[\($ B\_6697 Create Return\-Related Documents $\)](../Sales/-$-b_6697-create-return-related-documents-$-.md)|  
+|Have all relevant sales return documents created automatically, such as a purchase return order, a replacement purchase order, or a new sales order.|[Create Return\-Related Documents](../Sales/-$-b_6697-create-return-related-documents-$-.md)|  
 |Have the vendor compensate you for a purchased item by replacing the item.|[How to: Create Replacement Sales Orders](../Sales/how-to-create-replacement-sales-orders.md)|  
 |Return several items to a vendor, which are covered by different purchase return orders.|[How to: Combine Return Shipments](../Purchasing/how-to-combine-return-shipments.md)|  
 |Choose, for example, to post the sales return as received first to update inventory availability and later post it as invoiced to update inventory valuation and to create a posted sales credit memo.|[How to: Post Sales Returns](../Sales/how-to-post-sales-returns.md)|  
@@ -91,4 +91,4 @@ Compensating a customer who is dissatisfied with an item that a company has sold
 ## See Also  
  [Receiving](../Receiving/receiving.md)   
  [Collect Supplier Refunds](../Finance/collect-supplier-refunds.md)   
- [Working with \($ P\_1 Product Name $\)](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)
+ [Working with Product Name](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)

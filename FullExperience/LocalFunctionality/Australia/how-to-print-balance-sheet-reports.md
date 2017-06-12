@@ -16,19 +16,19 @@ translation.priority.ht:
   - "en-au"
 ---
 # How to: Print Balance Sheet Reports
-You can use the **\($ R\_28024 Balance Sheet $\)** report to view the company’s balance sheet.  
+You can use the **Balance Sheet** report to view the company’s balance sheet.  
   
  This is a legal report that is required for auditing accounts. You can use this report to view assets and liabilities.  
   
 ### To print a balance sheet report  
   
-1.  In the **Search** box, enter **\($ R\_28024 Balance Sheet $\)**, and then choose the relevant link.  
+1.  In the **Search** box, enter **Balance Sheet**, and then choose the relevant link.  
   
-2.  In the **\($ R\_28024 Balance Sheet $\)** window, on the **[!INCLUDE[bp_optionsheading](../../DesignAndEngineering/includes/bp_optionsheading_md.md)]** FastTab, fill in the fields as described in the following table.  
+2.  In the **Balance Sheet** window, on the **[!INCLUDE[bp_optionsheading](../../DesignAndEngineering/includes/bp_optionsheading_md.md)]** FastTab, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_28024\_N\_2\_1500000 Amounts in whole $\)**|Specifies the nearest unit to which the amounts must be rounded.|  
+    |**Amounts in whole**|Specifies the nearest unit to which the amounts must be rounded.|  
   
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   

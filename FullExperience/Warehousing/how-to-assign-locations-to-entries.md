@@ -20,7 +20,7 @@ You can assign a location to an entry after you have posted it, for example, if 
   
 ### To assign a locations to a posted entry  
   
-1.  In the **Search** box, enter **\($ N\_393 Item Reclass. Journal $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Item Reclass. Journal**, and then choose the related link.  
   
 2.  In the **Item No.** field, enter the number of the item on the entry you want to assign a location to.  
   
@@ -36,7 +36,7 @@ You can assign a location to an entry after you have posted it, for example, if 
 >  You cannot use the item reclassification journal to change a location if either the old or new location uses directed put\-away and pick. You must instead use the transfer order.  
   
 ## See Also  
- [\($ N\_38 Item Ledger Entries $\)](../Topic/\($%20N_38%20Item%20Ledger%20Entries%20$\).md)   
- [\($ N\_393 Item Reclass. Journal $\)](../WarehouseActivities/-$-n_393-item-reclass.-journal-$-.md)   
+ [Item Ledger Entries](../Topic/\($%20N_38%20Item%20Ledger%20Entries%20$\).md)   
+ [Item Reclass. Journal](../WarehouseActivities/-$-n_393-item-reclass.-journal-$-.md)   
  [Count, Adjust, and Reclassify Inventory](../WarehouseActivities/count-adjust-and-reclassify-inventory.md)   
  [How to: Set Up Locations](../DesignAndEngineering/how-to-set-up-locations.md)

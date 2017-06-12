@@ -45,11 +45,11 @@ translation.priority.ht:
 # How to: Update Analysis Views
 The amounts that are displayed in the **Analysis by Dimensions** window give you a picture of the company’s state at the time of the last update. To get a picture of the current state, you must update the analysis view by running the update function. You can do this from the following locations:  
   
--   ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")  **[\($ B\_84 Update Analysis Views $\)](DynamicsNAV:////runreport?report=84)**  batch job  
+-   ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")  **[Update Analysis Views](DynamicsNAV:////runreport?report=84)**  batch job  
   
--   ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")  **[\($ N\_555 Analysis View Card $\)](DynamicsNAV:////runpage?page=555)**  
+-   ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")  **[Analysis View Card](DynamicsNAV:////runpage?page=555)**  
   
--   ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")  **[\($ N\_556 Analysis View List $\)](DynamicsNAV:////runpage?page=556)**  
+-   ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")  **[Analysis View List](DynamicsNAV:////runpage?page=556)**  
   
  The following procedure is for updating an analysis view from the **Analysis by Dimensions** window.  
   
@@ -57,18 +57,18 @@ The amounts that are displayed in the **Analysis by Dimensions** window give you
   
 1.  In the **Search** box, enter **Analysis by Dimensions**, and then choose the related link.  
   
-2.  In the **\($ N\_554 Analysis by Dimensions $\)** window, to view the options, choose the **Analysis View Code** field.  
+2.  In the **Analysis by Dimensions** window, to view the options, choose the **Analysis View Code** field.  
   
 3.  Select the line with the relevant analysis view.  
   
 4.  On the **Home** tab, in the **Process** group, choose **Update**.  
   
 > [!NOTE]  
->  To update some or all analysis views at the same time, you must use the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**[\($ B\_84 Update Analysis Views $\)](DynamicsNAV:////runreport?report=84)** batch job.  
+>  To update some or all analysis views at the same time, you must use the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**[Update Analysis Views](DynamicsNAV:////runreport?report=84)** batch job.  
 >   
 >  If you select the **Update on Posting** check box in an analysis view card, [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] automatically updates when you post.  
   
 ## See Also  
  [How to: Set Up Analysis Views](../BusinessIntelligence/how-to-set-up-analysis-views.md)   
  [How to: View Analysis by Dimensions](../BusinessIntelligence/how-to-view-analysis-by-dimensions.md)   
- [\($ T\_348 Dimension $\)](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)
+ [Dimension](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)

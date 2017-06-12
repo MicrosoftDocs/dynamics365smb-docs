@@ -68,7 +68,7 @@ If you want to invoice more than one shipment at a time, you can use the combine
   
 ### To automatically combine shipments on a single invoice  
   
-1.  In the **Search** box, enter **\($ R\_295 Combine Shipments $\)**, and then choose the related link. The batch job request window opens.  
+1.  In the **Search** box, enter **Combine Shipments**, and then choose the related link. The batch job request window opens.  
   
 2.  On the **Options** FastTab, fill in the fields. Select the **Post Invoices** field.  
   
@@ -105,7 +105,7 @@ If you want to invoice more than one shipment at a time, you can use the combine
  [How to: Combine Return Receipts](../Sales/how-to-combine-return-receipts.md)   
  [How to: Combine Return Shipments](../Purchasing/how-to-combine-return-shipments.md)   
  [Processing Sales Orders](../Sales/processing-sales-orders.md)   
- [\($ B\_295 Combine Shipments $\)](../Topic/\($%20B_295%20Combine%20Shipments%20$\).md)   
- [\($ B\_299 Delete Invoiced Sales Orders $\)](../SetupAndAdministration/-$-b_299-delete-invoiced-sales-orders-$-.md)   
- [\($ B\_291 Delete Invd Blnkt Sales Orders $\)](../SetupAndAdministration/-$-b_291-delete-invd-blnkt-sales-orders-$-.md)   
+ [Combine Shipments](../Topic/\($%20B_295%20Combine%20Shipments%20$\).md)   
+ [Delete Invoiced Sales Orders](../SetupAndAdministration/-$-b_299-delete-invoiced-sales-orders-$-.md)   
+ [Delete Invd Blnkt Sales Orders](../SetupAndAdministration/-$-b_291-delete-invd-blnkt-sales-orders-$-.md)   
  [Shipping](../Topic/Shipping.md)

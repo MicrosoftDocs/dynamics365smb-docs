@@ -41,7 +41,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Create Assembly BOMs
-Assembly BOMs specify which components or resources are required to assemble the item that the assembly BOM represents. Assembly BOMs usually contain items but can also contain one or more resources that perform the assembly work. For more information, see [\($ T\_90\_20 Resource Usage Type $\)](../Topic/\($%20T_90_20%20Resource%20Usage%20Type%20$\).md).  
+Assembly BOMs specify which components or resources are required to assemble the item that the assembly BOM represents. Assembly BOMs usually contain items but can also contain one or more resources that perform the assembly work. For more information, see [Resource Usage Type](../Topic/\($%20T_90_20%20Resource%20Usage%20Type%20$\).md).  
   
  Assembly BOMs can be multilevel, which means that a component on the assembly BOM can be an assembly item itself. This is specified with the **Yes** value in the **Assembly BOM** field on the assembly BOM line. Multilevel assembly BOMs can have special requirements in certain cases, such as availability, planning, and standard cost calculation. For more information about how multilevel manufacturing or assembly items are handled in planning, see [How to: Run MPS and MRP](../OperationsPlanning/how-to-run-mps-and-mrp.md). For more information about how to calculate an assembly item’s cost at all levels, see [How to: Calculate the Standard Cost of Assembly BOMs](../Finance/how-to-calculate-the-standard-cost-of-assembly-boms.md).  
   
@@ -75,9 +75,9 @@ Assembly BOMs specify which components or resources are required to assemble the
 8.  Choose the **OK** button.  
   
 ## See Also  
- [\($ N\_36 Assembly BOM $\)](../Topic/\($%20N_36%20Assembly%20BOM%20$\).md)   
- [\($ N\_900 Assembly Order $\)](../WarehouseActivities/-$-n_900-assembly-order-$-.md)   
- [\($ T\_90\_20 Resource Usage Type $\)](../Topic/\($%20T_90_20%20Resource%20Usage%20Type%20$\).md)   
+ [Assembly BOM](../Topic/\($%20N_36%20Assembly%20BOM%20$\).md)   
+ [Assembly Order](../WarehouseActivities/-$-n_900-assembly-order-$-.md)   
+ [Resource Usage Type](../Topic/\($%20T_90_20%20Resource%20Usage%20Type%20$\).md)   
  [How to: Assemble Items](../WarehouseActivities/how-to-assemble-items.md)   
  [Assembly BOMs or Production BOMs](../DesignAndEngineering/assembly-boms-or-production-boms.md)   
  [How to: Calculate the Standard Cost of Assembly BOMs](../Finance/how-to-calculate-the-standard-cost-of-assembly-boms.md)   

@@ -31,11 +31,11 @@ You can create a new sales order or purchase order from an archived blanket orde
   
 2.  On the **Home** tab, choose **New**.  
   
-3.  On the **General** FastTab, in the **\($ T\_36\_2 Sell\-to Customer No. $\)** field, specify the customer.  
+3.  On the **General** FastTab, in the **Sell\-to Customer No.** field, specify the customer.  
   
 4.  On the **Home** tab, in the **Process** group, choose **Copy Document**.  
   
-5.  In the **\($ B\_292 Copy Sales Document $\)** batch job, fill in the fields. For more information, see [\($ B\_292 Copy Sales Document $\)](../../Sales/-$-b_292-copy-sales-document-$-.md).  
+5.  In the **Copy Sales Document** batch job, fill in the fields. For more information, see [Copy Sales Document](../../Sales/-$-b_292-copy-sales-document-$-.md).  
   
 6.  Choose the **OK** button.  
   
@@ -45,5 +45,5 @@ You can create a new sales order or purchase order from an archived blanket orde
  [How to: Archive Blanket Orders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-archive-blanket-orders.md)   
  [How to: Delete Archived Blanket Orders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-delete-archived-blanket-orders.md)   
  [How to: Track Document Lines](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-track-document-lines.md)   
- [\($ B\_292 Copy Sales Document $\)](../../Sales/-$-b_292-copy-sales-document-$-.md)   
- [\($ B\_492 Copy Purchase Document $\)\-duplicate](../../Purchasing/-$-b_492-copy-purchase-document-$-duplicate.md)
+ [Copy Sales Document](../../Sales/-$-b_292-copy-sales-document-$-.md)   
+ [Copy Purchase Document\-duplicate](../../Purchasing/-$-b_492-copy-purchase-document-$-duplicate.md)

@@ -24,13 +24,13 @@ The Belgian customs and tax authorities have established an 8\-digit item code f
   
 2.  On the **Home** tab, in the **New** group, choose **New**.  
   
-3.  In the **\($ N\_310 Tariff Numbers $\)** window, fill in the fields as described in the following table.  
+3.  In the **Tariff Numbers** window, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_260\_11315 Conversion Factor $\)**|Enter the conversion factor for the tariff number. The conversion factor is the factor by which you have to multiply the item unit to obtain the unit imposed by Intrastat. The conversion factor can be used when the item unit differs from the imposed Intrastat unit. The field is available when **Supplementary Units** is selected.|  
-    |**\($ T\_260\_11316 Unit of Measure $\)**|Enter the unit of measure for the tariff number. The field is available when **Supplementary Units** is selected.|  
-    |**\($ T\_260\_11317 Weight Mandatory $\)**|Select this field to show the weight of the items.|  
+    |**Conversion Factor**|Enter the conversion factor for the tariff number. The conversion factor is the factor by which you have to multiply the item unit to obtain the unit imposed by Intrastat. The conversion factor can be used when the item unit differs from the imposed Intrastat unit. The field is available when **Supplementary Units** is selected.|  
+    |**Unit of Measure**|Enter the unit of measure for the tariff number. The field is available when **Supplementary Units** is selected.|  
+    |**Weight Mandatory**|Select this field to show the weight of the items.|  
   
 4.  Choose the **OK** button.  
   

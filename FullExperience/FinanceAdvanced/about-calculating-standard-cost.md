@@ -109,22 +109,22 @@ Many manufacturing companies select a valuation base of standard cost. This also
   
  The process of updating or calculating standard costs typically consists of the following tasks:  
   
-1.  Updating costs at the component and capacity levels. For more information, see [\($ B\_5851 Suggest Item Standard Cost $\)](../Topic/\($%20B_5851%20Suggest%20Item%20Standard%20Cost%20$\).md) and [\($ B\_5852 Suggest Capacity Standard Cost $\)](../Topic/\($%20B_5852%20Suggest%20Capacity%20Standard%20Cost%20$\).md).  
+1.  Updating costs at the component and capacity levels. For more information, see [Suggest Item Standard Cost](../Topic/\($%20B_5851%20Suggest%20Item%20Standard%20Cost%20$\).md) and [Suggest Capacity Standard Cost](../Topic/\($%20B_5852%20Suggest%20Capacity%20Standard%20Cost%20$\).md).  
   
-2.  Consolidating and rolling up the component and capacity costs to calculate the total manufacturing cost of the items. For more information, see [\($ B\_5854 Roll Up Standard Cost $\)](../Topic/\($%20B_5854%20Roll%20Up%20Standard%20Cost%20$\).md).  
+2.  Consolidating and rolling up the component and capacity costs to calculate the total manufacturing cost of the items. For more information, see [Roll Up Standard Cost](../Topic/\($%20B_5854%20Roll%20Up%20Standard%20Cost%20$\).md).  
   
-3.  Implementing the standard costs that are entered when you run the previous batch jobs. The standard costs do not take effect until they are implemented. For more information, see [\($ B\_5855 Implement Standard Cost Changes $\)](../Topic/\($%20B_5855%20Implement%20Standard%20Cost%20Changes%20$\).md).  
+3.  Implementing the standard costs that are entered when you run the previous batch jobs. The standard costs do not take effect until they are implemented. For more information, see [Implement Standard Cost Changes](../Topic/\($%20B_5855%20Implement%20Standard%20Cost%20Changes%20$\).md).  
   
-4.  Implementing the changes to update the **Unit Cost** field on the item card and perform inventory revaluation. For more information, see [\($ N\_5803 Revaluation Journal $\)](../Topic/\($%20N_5803%20Revaluation%20Journal%20$\).md).  
+4.  Implementing the changes to update the **Unit Cost** field on the item card and perform inventory revaluation. For more information, see [Revaluation Journal](../Topic/\($%20N_5803%20Revaluation%20Journal%20$\).md).  
   
 ## See Also  
  [Design Details: Costing Methods](../ApplicationDesign/design-details-costing-methods.md)   
- [\($ T\_27\_5419 Replenishment System $\)](../Topic/\($%20T_27_5419%20Replenishment%20System%20$\).md)   
- [\($ T\_90\_20 Resource Usage Type $\)](../Topic/\($%20T_90_20%20Resource%20Usage%20Type%20$\).md)   
- [\($ N\_900 Assembly Order $\)](../WarehouseActivities/-$-n_900-assembly-order-$-.md)   
- [\($ T\_99000765\_11 Cost Incl. Setup $\)](../Topic/\($%20T_99000765_11%20Cost%20Incl.%20Setup%20$\).md)   
+ [Replenishment System](../Topic/\($%20T_27_5419%20Replenishment%20System%20$\).md)   
+ [Resource Usage Type](../Topic/\($%20T_90_20%20Resource%20Usage%20Type%20$\).md)   
+ [Assembly Order](../WarehouseActivities/-$-n_900-assembly-order-$-.md)   
+ [Cost Incl. Setup](../Topic/\($%20T_99000765_11%20Cost%20Incl.%20Setup%20$\).md)   
  [How to: Calculate the Standard Cost of Assembly BOMs](../Finance/how-to-calculate-the-standard-cost-of-assembly-boms.md)   
- [\($ B\_5854 Roll Up Standard Cost $\)](../Topic/\($%20B_5854%20Roll%20Up%20Standard%20Cost%20$\).md)   
+ [Roll Up Standard Cost](../Topic/\($%20B_5854%20Roll%20Up%20Standard%20Cost%20$\).md)   
  [How to: Fill In Revaluation Journals Manually](../DesignAndEngineering/how-to-fill-in-revaluation-journals-manually.md)   
  [How to: Fill In the Revaluation Journal with the Batch Job](../DesignAndEngineering/how-to-fill-in-the-revaluation-journal-with-the-batch-job.md)   
  [How to: Update Standard Costs](../DesignAndEngineering/how-to-update-standard-costs.md)   

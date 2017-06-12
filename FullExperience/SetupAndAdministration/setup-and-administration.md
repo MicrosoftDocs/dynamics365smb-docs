@@ -59,5 +59,5 @@ Entering the correct setup values from the start is important to the success of 
   
 ## See Also  
  [Getting Started\-duplicate](../GettingStarted/getting-started-duplicate.md)   
- [Working with \($ P\_1 Product Name $\)](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)   
+ [Working with Product Name](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)   
  [Business Functionality](../Topic/Business%20Functionality.md)

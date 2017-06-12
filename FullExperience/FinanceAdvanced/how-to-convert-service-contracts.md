@@ -80,7 +80,7 @@ Because the VAT rate change tool cannot convert service contracts, these contrac
   
 ### To create contract expiration dates in contract lines  
   
-1.  In the **\($ N\_6050 Service Contract $\)** window, set the contract expiration date to **30.06.2012**.  
+1.  In the **Service Contract** window, set the contract expiration date to **30.06.2012**.  
   
 2.  On the **Actions** tab, in the **Functions** group, choose **Create Credit Memo** to automatically create a credit memo for July 2012 to December 2012.  
   

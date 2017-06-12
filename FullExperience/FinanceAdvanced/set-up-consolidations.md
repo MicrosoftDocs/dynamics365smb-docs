@@ -48,7 +48,7 @@ You can consolidate the general ledger entries of two or more separate companies
   
  You can set up the consolidated company in the same way that you set up other companies. The chart of accounts in the consolidated company is independent of the charts of accounts in the business units, and the charts of accounts in individual business units may differ from one another.  
   
- In the chart of accounts for each business unit, indicate which accounts are to be included in the consolidation. If the financial statements of a business unit are in a different currency than those of the consolidated company, fill in the **\($ T\_15\_39 Consol. Translation Method $\)** field for each of the accounts in the consolidation. Typically, *Average Rate \(Manual\)* or *Historical Rate* is used for income statement accounts, and *Closing Rate* is used for balance sheet accounts.  
+ In the chart of accounts for each business unit, indicate which accounts are to be included in the consolidation. If the financial statements of a business unit are in a different currency than those of the consolidated company, fill in the **Consol. Translation Method** field for each of the accounts in the consolidation. Typically, *Average Rate \(Manual\)* or *Historical Rate* is used for income statement accounts, and *Closing Rate* is used for balance sheet accounts.  
   
  In the consolidated company, you can create a business unit card for each of the companies. The business unit card includes information, such as the dates of the business unit's fiscal year, the percentage of each account that should be included in the consolidation, and the version of [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] that the business unit is recorded in.  
   
@@ -61,4 +61,4 @@ You can consolidate the general ledger entries of two or more separate companies
   
 ## See Also  
  [Consolidate Companies](../Finance/consolidate-companies.md)   
- [\($ T\_15\_39 Consol. Translation Method $\)](assetId:///743e3a71-e883-4163-9f45-1dc3a4cbe27b)
+ [Consol. Translation Method](assetId:///743e3a71-e883-4163-9f45-1dc3a4cbe27b)

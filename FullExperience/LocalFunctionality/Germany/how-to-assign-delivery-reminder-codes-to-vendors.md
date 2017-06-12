@@ -29,12 +29,12 @@ In order to enable delivery reminders for overdue purchases, you must assign del
   
 2.  Select the vendor for whom you want to set up delivery reminders, and then, on the **Home** tab, in the **Manage** group, choose **Edit**.  
   
-3.  On the **Receiving** FastTab, in the **\($ T\_23\_5005270 Delivery Reminder Terms $\)** field, select a delivery reminder terms code for the vendor.  
+3.  On the **Receiving** FastTab, in the **Delivery Reminder Terms** field, select a delivery reminder terms code for the vendor.  
   
 4.  Choose the **OK** button.  
   
 ## See Also  
- [\($ N\_26 Vendor Card $\)](../Topic/\($%20N_26%20Vendor%20Card%20$\).md)   
+ [Vendor Card](../Topic/\($%20N_26%20Vendor%20Card%20$\).md)   
  [How to: Register New Vendors](../../Purchasing/how-to-register-new-vendors.md)   
  [Delivery Reminders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/delivery-reminders.md)   
  [How to: Set Up Delivery Reminders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-set-up-delivery-reminders.md)   

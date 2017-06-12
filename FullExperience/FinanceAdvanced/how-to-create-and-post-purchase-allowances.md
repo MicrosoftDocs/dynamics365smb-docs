@@ -71,7 +71,7 @@ If you receive items from your vendor that are not what you wanted, for example,
   
 ### To post a purchase allowance  
   
-1.  In the **\($ N\_52 Purchase Credit Memo $\)** window, on the **Home** tab, in the **Process** group, choose **Post**.  
+1.  In the **Purchase Credit Memo** window, on the **Home** tab, in the **Process** group, choose **Post**.  
   
      If you want to print the credit memo at the same time as you post it, choose **Post and Print** instead.  
   

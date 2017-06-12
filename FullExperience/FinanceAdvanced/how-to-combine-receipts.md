@@ -73,6 +73,6 @@ If you want to invoice more than one purchase receipt at a time, you can use the
 ## See Also  
  [How to: Combine Return Receipts](../Sales/how-to-combine-return-receipts.md)   
  [How to: Combine Return Receipts](../Sales/how-to-combine-return-receipts.md)   
- [\($ N\_50 Purchase Order $\)](../Topic/\($%20N_50%20Purchase%20Order%20$\).md)   
- [\($ N\_509 Blanket Purchase Order $\)](../Topic/\($%20N_509%20Blanket%20Purchase%20Order%20$\).md)   
+ [Purchase Order](../Topic/\($%20N_50%20Purchase%20Order%20$\).md)   
+ [Blanket Purchase Order](../Topic/\($%20N_509%20Blanket%20Purchase%20Order%20$\).md)   
  [Processing Purchase Orders](../Receiving/processing-purchase-orders.md)

@@ -79,8 +79,8 @@ You cancel you basic UI changes and decisions for handling of files and automati
 ## See Also  
  [How to: Make Basic UI Changes](../SetupAndAdministration/how-to-make-basic-ui-changes.md)   
  [How to: Specify How to Handle External Files and Automation Objects](../SetupAndAdministration/how-to-specify-how-to-handle-external-files-and-automation-objects.md)   
- [\($ S\_PERSONALIZATION Personalize the User Interface $\)](../SetupAndAdministration/-$-s_personalization-personalize-the-user-interface-$-.md)   
- [\($ N\_9190 Delete Profile Configuration $\)](../Topic/\($%20N_9190%20Delete%20Profile%20Configuration%20$\).md)   
+ [Personalize the User Interface](../SetupAndAdministration/-$-s_personalization-personalize-the-user-interface-$-.md)   
+ [Delete Profile Configuration](../Topic/\($%20N_9190%20Delete%20Profile%20Configuration%20$\).md)   
  [Customize the User Interface](../SetupAndAdministration/customize-the-user-interface.md)   
- [Working with \($ P\_1 Product Name $\)](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)   
+ [Working with Product Name](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)   
  [Learn About the RoleTailored Design](../GettingStarted/learn-about-the-roletailored-design.md)

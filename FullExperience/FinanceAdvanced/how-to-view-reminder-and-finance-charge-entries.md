@@ -56,4 +56,4 @@ When you issue a reminder, a reminder entry is created in the **Reminder\/Fin. C
 ## See Also  
  [How to: Create Reminders Automatically](../Finance/how-to-create-reminders-automatically.md)   
  [How to: Create Reminders Manually](../Finance/how-to-create-reminders-manually.md)   
- [\($ B\_190 Issue Reminders $\)](../Finance/-$-b_190-issue-reminders-$-.md)
+ [Issue Reminders](../Finance/-$-b_190-issue-reminders-$-.md)

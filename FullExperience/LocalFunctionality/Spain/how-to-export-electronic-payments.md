@@ -20,13 +20,13 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can ex
   
 |Payment standard|Window to export from|  
 |----------------------|---------------------------|  
-|AEB N34|**\($ N\_7000050 Payment Orders $\)**|  
-|AEB N34.1|**\($ N\_7000050 Payment Orders $\)**|  
-|E\-PAY|**\($ N\_256 Payment Journal $\)**|  
-|SEPA|**\($ N\_256 Payment Journal $\)** or **\($ N\_7000050 Payment Orders $\)**|  
+|AEB N34|**Payment Orders**|  
+|AEB N34.1|**Payment Orders**|  
+|E\-PAY|**Payment Journal**|  
+|SEPA|**Payment Journal** or **Payment Orders**|  
   
 > [!IMPORTANT]  
->  Before you can export a payment, you must select a payment format in the **\($ T\_270\_1210 Payment Export Format $\)** field in the **\($ N\_370 Bank Account Card $\)** window.  
+>  Before you can export a payment, you must select a payment format in the **Payment Export Format** field in the **Bank Account Card** window.  
   
 ### To export electronic payments using the Payment Orders window  
   
@@ -38,24 +38,24 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can ex
   
      Payments of type SEPA will be exported to a file immediately.  
   
-     Payments of type N34 or N34.1 will be exported when you run the **\($ B\_7000090 Payment order \- Export N34 $\)** or **\($ R\_7000060 PO \- Export N34.1 $\)** report, which automatically opens when you choose **Export** in step 3.  
+     Payments of type N34 or N34.1 will be exported when you run the **Payment order \- Export N34** or **PO \- Export N34.1** report, which automatically opens when you choose **Export** in step 3.  
   
-4.  In the **\($ R\_7000060 PO \- Export N34.1 $\)** window, fill in the fields as described in the following table.  
+4.  In the **PO \- Export N34.1** window, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_10721\_N\_2\_1100000 Bank Account No. $\)**|Select the bank account from which the payments will be exported.|  
-    |**\($ R\_10721\_N\_2\_1100002 Settle Date $\)**|Specify the date that the export will be transmitted to the bank. This date will be the posting date for the payment journal entries that are exported.|  
-    |**\($ R\_10721\_N\_2\_1100005 If Posting Date does not match Delivery Date $\)**|Specify if you want to match the settle date, or if you want to skip any payment journal lines where the entered posting date does not match the settle date.|  
-    |**\($ R\_10721\_N\_2\_1100008 Expenses Code $\)**|Specify who is responsible for the payment expenses.|  
-    |**\($ R\_10721\_N\_2\_1100010 Shared \(Only International Transf. $\)**|Specify if you want to share the expenses between the payer and the payee. This is only applicable for international transfers.|  
-    |**\($ R\_10721\_N\_2\_1100013 Payment Order Concept.\) $\)**|Specify the payment order concept, either **Payroll**, **Retirement Payroll**, or **Others**.|  
-    |**\($ R\_10721\_N\_2\_1100016 Relation $\)**|Specify if you want the bank to send you a detailed list of all transfer charges. If you do not select this field, the bank will send the total of all charges for all the transfers made.|  
-    |**\($ R\_10721\_N\_2\_1100018 Number Of Copies $\)**|Specify the number of additional copies of the remittance advice that will be printed by this process. One document is always printed so that it can be mailed to the payee.|  
+    |**Bank Account No.**|Select the bank account from which the payments will be exported.|  
+    |**Settle Date**|Specify the date that the export will be transmitted to the bank. This date will be the posting date for the payment journal entries that are exported.|  
+    |**If Posting Date does not match Delivery Date**|Specify if you want to match the settle date, or if you want to skip any payment journal lines where the entered posting date does not match the settle date.|  
+    |**Expenses Code**|Specify who is responsible for the payment expenses.|  
+    |**Shared \(Only International Transf.**|Specify if you want to share the expenses between the payer and the payee. This is only applicable for international transfers.|  
+    |**Payment Order Concept.\)**|Specify the payment order concept, either **Payroll**, **Retirement Payroll**, or **Others**.|  
+    |**Relation**|Specify if you want the bank to send you a detailed list of all transfer charges. If you do not select this field, the bank will send the total of all charges for all the transfers made.|  
+    |**Number Of Copies**|Specify the number of additional copies of the remittance advice that will be printed by this process. One document is always printed so that it can be mailed to the payee.|  
   
 5.  Choose **Print** or **Preview** to see the created payment file.  
   
-     The payment journal entries which have the **\($ T\_81\_70 Bank Payment Type $\)** field set to **Electronic Payment** will be exported. The data will be exported to a file that is formatted according the N34 or N34.1 standard format. In addition, remittance advice will be printed, which is suitable for mailing to each payee.  
+     The payment journal entries which have the **Bank Payment Type** field set to **Electronic Payment** will be exported. The data will be exported to a file that is formatted according the N34 or N34.1 standard format. In addition, remittance advice will be printed, which is suitable for mailing to each payee.  
   
     > [!NOTE]  
     >  You can only post the payment order after you have successfully exported the electronic payments.  
@@ -70,30 +70,30 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can ex
   
      Payments of type SEPA will be exported to a file immediately.  
   
-     Payments of type E\-PAY will be exported when you run the **\($ R\_10721 Export Electronic Payments $\)** report, which automatically opens when you choose **Export** in step 3.  
+     Payments of type E\-PAY will be exported when you run the **Export Electronic Payments** report, which automatically opens when you choose **Export** in step 3.  
   
-4.  In the **\($ R\_10721 Export Electronic Payments $\)** window, fill in the fields as described in the following table.  
+4.  In the **Export Electronic Payments** window, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_10721\_N\_2\_1100000 Bank Account No. $\)**|Select the bank account from which the payments will be exported.|  
-    |**\($ R\_10721\_N\_2\_1100002 Settle Date $\)**|Specify the date that the export will be transmitted to the bank. This date will be the posting date for the payment journal entries that are exported.|  
-    |**\($ R\_10721\_N\_2\_1100005 If Posting Date does not match Delivery Date $\)**|Specify if you want to match the settle date, or if you want to skip any payment journal lines where the entered posting date does not match the settle date.|  
-    |**\($ R\_10721\_N\_2\_1100008 Expenses Code $\)**|Specify who is responsible for the payment expenses.|  
-    |**\($ R\_10721\_N\_2\_1100010 Shared \(Only International Transf. $\)**|Specify if you want to share the expenses between the payer and the payee. This is only applicable for international transfers.|  
-    |**\($ R\_10721\_N\_2\_1100013 Payment Order Concept.\) $\)**|Specify the payment order concept, either **Payroll**, **Retirement Payroll**, or **Others**.|  
-    |**\($ R\_10721\_N\_2\_1100016 Relation $\)**|Specify if you want the bank to send you a detailed list of all transfer charges. If you do not select this field, the bank will send the total of all charges for all the transfers made.|  
-    |**\($ R\_10721\_N\_2\_1100018 Number Of Copies $\)**|Specify the number of additional copies of the remittance advice that will be printed by this process. One document is always printed so that it can be mailed to the payee.|  
+    |**Bank Account No.**|Select the bank account from which the payments will be exported.|  
+    |**Settle Date**|Specify the date that the export will be transmitted to the bank. This date will be the posting date for the payment journal entries that are exported.|  
+    |**If Posting Date does not match Delivery Date**|Specify if you want to match the settle date, or if you want to skip any payment journal lines where the entered posting date does not match the settle date.|  
+    |**Expenses Code**|Specify who is responsible for the payment expenses.|  
+    |**Shared \(Only International Transf.**|Specify if you want to share the expenses between the payer and the payee. This is only applicable for international transfers.|  
+    |**Payment Order Concept.\)**|Specify the payment order concept, either **Payroll**, **Retirement Payroll**, or **Others**.|  
+    |**Relation**|Specify if you want the bank to send you a detailed list of all transfer charges. If you do not select this field, the bank will send the total of all charges for all the transfers made.|  
+    |**Number Of Copies**|Specify the number of additional copies of the remittance advice that will be printed by this process. One document is always printed so that it can be mailed to the payee.|  
   
 5.  Choose **Print** or **Preview** to see the created payment file.  
   
-     The payment journal entries which have the **\($ T\_81\_70 Bank Payment Type $\)** field set to **Electronic Payment** will be exported. The data will be exported to a file that is formatted according to the selected payment standard. In addition, remittance advice will be printed, which is suitable for mailing to each payee.  
+     The payment journal entries which have the **Bank Payment Type** field set to **Electronic Payment** will be exported. The data will be exported to a file that is formatted according to the selected payment standard. In addition, remittance advice will be printed, which is suitable for mailing to each payee.  
   
     > [!NOTE]  
     >  You can only post the payment order after you have successfully exported the electronic payments.  
   
     > [!NOTE]  
-    >  In the generic version of [!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)], the **\($ N\_256 Payment Journal $\)** window is used in a similar way to export electronic payments in the SEPA Credit Transfer format. For more information, see [Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](../../Finance/make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
+    >  In the generic version of [!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)], the **Payment Journal** window is used in a similar way to export electronic payments in the SEPA Credit Transfer format. For more information, see [Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](../../Finance/make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
   
 ### To export electronic payments from the Cartera module  
   
@@ -103,20 +103,20 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can ex
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_7000060\_N\_2\_1100000 Delivery Date $\)**|Specify the delivery date of the electronic payment.|  
-    |**\($ R\_7000060\_N\_2\_1100002 Expenses Code $\)**|Specify who is responsible for the payment expenses.|  
-    |**\($ R\_7000060\_N\_2\_1100007 Payment Order Concept $\)**|Specify the payment order concept, either **Payroll**, **Retirement Payroll**, or **Others**.|  
-    |**\($ R\_7000060\_N\_2\_1100010 Relation $\)**|Specify if you want the bank to send you a detailed list of all transfer charges. If you do not select this field, the bank will send the total of all charges for all the transfers made.|  
-    |**\($ R\_7000060\_N\_2\_1100012 Number Of Copies $\)**|Specify the number of additional copies of the remittance advice that will be printed by this process. One document is always printed so that it can be mailed to the payee.|  
-    |**\($ R\_7000060\_N\_2\_1100004 Shared \(Only Internation Transf.\) $\)**|Specify if you want to share the expenses between the payer and the payee. This is only applicable for international transfers.|  
+    |**Delivery Date**|Specify the delivery date of the electronic payment.|  
+    |**Expenses Code**|Specify who is responsible for the payment expenses.|  
+    |**Payment Order Concept**|Specify the payment order concept, either **Payroll**, **Retirement Payroll**, or **Others**.|  
+    |**Relation**|Specify if you want the bank to send you a detailed list of all transfer charges. If you do not select this field, the bank will send the total of all charges for all the transfers made.|  
+    |**Number Of Copies**|Specify the number of additional copies of the remittance advice that will be printed by this process. One document is always printed so that it can be mailed to the payee.|  
+    |**Shared \(Only Internation Transf.\)**|Specify if you want to share the expenses between the payer and the payee. This is only applicable for international transfers.|  
   
 > [!NOTE]  
 >  You can only post the payment order after you have successfully exported the electronic payments.  
   
 ## See Also  
- [\($ N\_7000050 Payment Orders $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-n_7000050-payment-orders-$-.md)   
- [\($ N\_256 Payment Journal $\)](../../Finance/-$-n_256-payment-journal-$-.md)   
+ [Payment Orders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-n_7000050-payment-orders-$-.md)   
+ [Payment Journal](../../Finance/-$-n_256-payment-journal-$-.md)   
  [Electronic Payments – AEB N34.1](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/electronic-payments-–-aeb-n34.1.md)   
- [\($ R\_10721 Export Electronic Payments $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-r_10721-export-electronic-payments-$-.md)   
+ [Export Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-r_10721-export-electronic-payments-$-.md)   
  [How to: Set Up Bank Accounts for Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/how-to-set-up-bank-accounts-for-electronic-payments.md)   
  [Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](../../Finance/make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)

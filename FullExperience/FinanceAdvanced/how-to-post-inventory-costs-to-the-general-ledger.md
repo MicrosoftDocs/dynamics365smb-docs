@@ -51,11 +51,11 @@ After you have set up codes for import VAT, you can post import VAT invoices.
   
 1.  In the **Search** box, enter **General Journal**, and then choose the related link.  
   
-2.  In the **\($ N\_39 General Journal $\)** window, fill in one line in the journal with the amount of the invoice and the general ledger account for import VAT.  
+2.  In the **General Journal** window, fill in one line in the journal with the amount of the invoice and the general ledger account for import VAT.  
   
 3.  In the **Gen. Posting Type** field, enter **Purchase**.  
   
-4.  In the **VAT Bus. Posting Group** field, select the posting group that you entered in the import VAT combination in the **\($ N\_472 VAT Posting Setup $\)** window.  
+4.  In the **VAT Bus. Posting Group** field, select the posting group that you entered in the import VAT combination in the **VAT Posting Setup** window.  
   
 5.  In the **VAT Prod. Posting Group** field, select the posting group thaaat you set up for import VAT. You have to do this only if the general ledger account does not have these codes assigned.  
   

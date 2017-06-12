@@ -37,11 +37,11 @@ To use automatic account codes, you must create an automatic account posting gro
   
     |Field|Description|  
     |-----------|-----------------|  
-    |**\($ T\_11204\_4 Allocation Percentage  $\)**|Enter the percentage of the source line amount that is to be allocated.|  
-    |**\($ T\_11204\_3 G\/L Account No. $\)**|Enter the general ledger account number to which the allocation should be posted.|  
+    |**Allocation Percentage **|Enter the percentage of the source line amount that is to be allocated.|  
+    |**G\/L Account No.**|Enter the general ledger account number to which the allocation should be posted.|  
   
     > [!NOTE]  
-    >  The **Total Balance** field totals the **\($ T\_11204\_4 Allocation Percentage  $\)** field for automatic account lines in a posting group. If the total allocation percent for a posting group does not balance to zero, an error message will be displayed when the item is posted.  
+    >  The **Total Balance** field totals the **Allocation Percentage ** field for automatic account lines in a posting group. If the total allocation percent for a posting group does not balance to zero, an error message will be displayed when the item is posted.  
   
 5.  Click **OK**.  
   
@@ -49,8 +49,8 @@ To use automatic account codes, you must create an automatic account posting gro
  [Automatic Account Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Finland/automatic-account-codes.md)   
  [OBSOLETE: Accrual Accounting](../Topic/OBSOLETE:%20Accrual%20Accounting.md)   
  [OBSOLETE: How to: Set Up Accrual Accounting](../Topic/OBSOLETE:%20How%20to:%20Set%20Up%20Accrual%20Accounting.md)   
- [\($ T\_11204\_4 Allocation Percentage $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Finland/-$-t_11204_4-allocation-percentage-$-.md)   
- [\($ T\_11204\_3 G\-L Account No. $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Finland/-$-t_11204_3-g-l-account-no.-$-.md)   
+ [Allocation Percentage](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Finland/-$-t_11204_4-allocation-percentage-$-.md)   
+ [G\-L Account No.](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Finland/-$-t_11204_3-g-l-account-no.-$-.md)   
  [Total Balance](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Sweden/total-balance.md)   
  [About Posting Groups](../../Finance/about-posting-groups.md)   
  [How to: Fill and Post General Journals](../../Finance/how-to-fill-and-post-general-journals.md)   

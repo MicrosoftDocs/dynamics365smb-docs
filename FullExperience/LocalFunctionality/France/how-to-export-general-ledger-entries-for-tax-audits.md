@@ -37,20 +37,20 @@ The standard audit file for tax purposes records key business information \(tran
   
 1.  In the **Search** box, enter **Export G\/L Entries – Tax Audit**, and then choose the relevant link.  
   
-2.  In the **\($ R\_10883 Export G\/L Entries – Tax Audit $\)** window, on the **Options** FastTab, fill in the fields as described in the following table.  
+2.  In the **Export G\/L Entries – Tax Audit** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_10885\_N\_2\_1120010 Starting Date $\)**|Enter the date to use as the starting date for the time period to be covered by the audit.|  
-    |**\($ R\_10885\_N\_2\_1120008 Ending Date $\)**|Enter the date to use as the ending date for the time period to be covered by the audit.|  
-    |**\($ R\_10885\_N\_2\_1120012 Include Opening Balances $\)**|Select if you want to include opening balances in the audit report file. The balances are calculated as of the date before the first date of the period covered by the report.|  
+    |**Starting Date**|Enter the date to use as the starting date for the time period to be covered by the audit.|  
+    |**Ending Date**|Enter the date to use as the ending date for the time period to be covered by the audit.|  
+    |**Include Opening Balances**|Select if you want to include opening balances in the audit report file. The balances are calculated as of the date before the first date of the period covered by the report.|  
   
 3.  Choose the **OK** button to export the file.  
   
-     When you create the report, [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] sorts the information in the report by the **\($ T\_45\_1 No. $\)** and **\($ T\_45\_4 Creation Date $\)** fields in the general ledger register.  
+     When you create the report, [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] sorts the information in the report by the **No.** and **Creation Date** fields in the general ledger register.  
   
      The report will have the following name: \<taxpayername\>FEC\<YYYYMMDD\>  
   
 ## See Also  
- [\($ R\_10885 Export G\-L Entries \- Tax Audit $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/-$-r_10885-export-g-l-entries-tax-audit-$-.md)   
+ [Export G\-L Entries \- Tax Audit](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/-$-r_10885-export-g-l-entries-tax-audit-$-.md)   
  [How to: Close Years](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-close-years.md)

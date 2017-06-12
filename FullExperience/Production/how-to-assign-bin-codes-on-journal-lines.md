@@ -60,5 +60,5 @@ When you create a consumption journal or an output journal, and the warehouse lo
  During the posting, warehouse entries are created to record the item quantity in the bin.  
   
 ## See Also  
- [\($ N\_7302 Bins $\)](../Topic/\($%20N_7302%20Bins%20$\).md)   
+ [Bins](../Topic/\($%20N_7302%20Bins%20$\).md)   
  [How to: Set Up Locations to Use Bins](../WarehouseActivities/how-to-set-up-locations-to-use-bins.md)

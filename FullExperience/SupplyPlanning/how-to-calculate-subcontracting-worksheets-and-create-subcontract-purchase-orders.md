@@ -40,26 +40,26 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Calculate Subcontracting Worksheets and Create Subcontract Purchase Orders
-The **\($ N\_99000886 Subcontracting Worksheet $\)** window functions like the **\($ N\_99000852 Planning Worksheet $\)** by calculating the needed supply, in this case purchase orders, which you review in the worksheet and then create with the **Carry Out Action Message** function.  
+The **Subcontracting Worksheet** window functions like the **Planning Worksheet** by calculating the needed supply, in this case purchase orders, which you review in the worksheet and then create with the **Carry Out Action Message** function.  
   
 > [!NOTE]  
 >  Only production orders with status **Released** can be accessed and used from a subcontracting worksheet.  
   
 ### To calculate the subcontracting worksheet  
   
-1.  In the **Search** box, enter **\($ N\_99000886 Subcontracting Worksheet $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Subcontracting Worksheet**, and then choose the related link.  
   
 2.  To calculate the worksheet, on the **Actions** tab, in the **Functions** group, choose **Calculate Subcontracts**.  
   
-3.  In the **\($ B\_99001015 Calculate Subcontracts $\)** window, set filters for the subcontracted operations, or the work centers where they are performed, to calculate only the relevant production orders.  
+3.  In the **Calculate Subcontracts** window, set filters for the subcontracted operations, or the work centers where they are performed, to calculate only the relevant production orders.  
   
 4.  Choose the **OK** button.  
   
-     Review the lines in the **\($ N\_99000886 Subcontracting Worksheet $\)** window. The information in this worksheet comes from the production order and production order routing lines and flows to the purchase order when that document is created. You can delete a row from the worksheet without affecting the original information, just as you can with the other worksheets. The information will reappear the next time you run the **Calculate Subcontracts** function.  
+     Review the lines in the **Subcontracting Worksheet** window. The information in this worksheet comes from the production order and production order routing lines and flows to the purchase order when that document is created. You can delete a row from the worksheet without affecting the original information, just as you can with the other worksheets. The information will reappear the next time you run the **Calculate Subcontracts** function.  
   
 ### To create the subcontract purchase order  
   
-1.  In the **Search** box, enter **\($ N\_99000886 Subcontracting Worksheet $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Subcontracting Worksheet**, and then choose the related link.  
   
 2.  On the **Actions** tab, in the **Process** group, choose **Carry Out Action Message**.  
   

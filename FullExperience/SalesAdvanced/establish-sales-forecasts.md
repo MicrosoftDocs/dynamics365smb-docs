@@ -59,7 +59,7 @@ You can use the following features to plan for future sales:
   
 |**To**|**See**|  
 |------------|-------------|  
-|View budgeted sales figures per item, period, location, or dimensions.|[\($ N\_7139 Sales Budget Overview $\)](../Sales/-$-n_7139-sales-budget-overview-$-.md)|  
+|View budgeted sales figures per item, period, location, or dimensions.|[Sales Budget Overview](../Sales/-$-n_7139-sales-budget-overview-$-.md)|  
 |Learn how to use forecasting in planning, such as to create "what if" scenarios and efficiently plan for and meet demand.|[About Forecasting Functionality](../Sales/about-forecasting-functionality.md)|  
 |Enter forecasted sales and production demand into the planning system to include them as indirect demand in supply plans.|[How to: Create a Forecast](../OperationsPlanning/how-to-create-a-forecast.md)|  
 |Learn how to use blanket sales orders to generate indirect sales demand and thereby provide a type of forecast for sales and production planners.|[About Blanket Sales Orders](../Sales/about-blanket-sales-orders.md)|  

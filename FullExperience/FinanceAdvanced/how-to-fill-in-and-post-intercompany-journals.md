@@ -47,16 +47,16 @@ Use intercompany \(IC\) journals to post transactions with your intercompany par
   
 ### To fill in and post an intercompany journal  
   
-1.  In the **Search** box, enter **\($ N\_610 IC General Journal $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **IC General Journal**, and then choose the related link.  
   
-2.  In the **\($ T\_81\_3 Account Type $\)** field, enter either **IC Partner**, **Customer**, or **Vendor**.  In the **\($ T\_81\_4 Account No. $\)** field, select the IC partner code or the customer or vendor number of the partner that you will send the transaction to.  
+2.  In the **Account Type** field, enter either **IC Partner**, **Customer**, or **Vendor**.  In the **Account No.** field, select the IC partner code or the customer or vendor number of the partner that you will send the transaction to.  
   
     > [!NOTE]  
     >  If you enter a customer or vendor number, it must have an IC partner code assigned to it.  
   
 3.  Fill in the fields as you would fill in a regular general journal.  
   
-4.  In the **\($ T\_81\_116 IC Partner G\/L Acc. No. $\)** field, enter the IC general ledger account that the amount will be posted to in your partner's company. This field must be filled in on a line with a bank account or general ledger account in either the **\($ T\_81\_4 Account No. $\)** field or the **\($ T\_81\_11 Bal. Account No. $\)** field.  
+4.  In the **IC Partner G\/L Acc. No.** field, enter the IC general ledger account that the amount will be posted to in your partner's company. This field must be filled in on a line with a bank account or general ledger account in either the **Account No.** field or the **Bal. Account No.** field.  
   
 5.  After filling in the fields, post the journal.  
   

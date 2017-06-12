@@ -36,20 +36,20 @@ Applying temporary general ledger entries allows companies to work with temporar
   
 ### To apply general ledger entries  
   
-1.  In the **Search**  box, enter **\($ N\_116 G\/L Registers $\)**, and then choose the related link.  
+1.  In the **Search**  box, enter **G\/L Registers**, and then choose the related link.  
   
 2.  Select a general ledger register, and then, on the **Home** tab, in the **Process** group, choose **General Ledger**.  
   
-3.  In the **\($ N\_20 General Ledger Entries $\)** window, on the **Home** tab, in the **Functions** group, choose **Apply Entries**.  
+3.  In the **General Ledger Entries** window, on the **Home** tab, in the **Functions** group, choose **Apply Entries**.  
   
-     All open ledger entries for the general ledger account are displayed in the **\($ N\_11309 Apply General Ledger Entries $\)** window.  
+     All open ledger entries for the general ledger account are displayed in the **Apply General Ledger Entries** window.  
   
     > [!NOTE]  
     >  By default, the **Include Entries** field is set to **Open**. You can change the value of the **Include Entries** field to **All** or **Closed**. You can only apply general ledger entries that are **Open**.  
   
 4.  Select the relevant general ledger entry, and then, on the **Navigate** tab, in the **Application** group, choose **Set Applies\-to ID**.  
   
-     The **Applies\-to ID** field is updated with the user ID. The remaining amount is displayed in the **Balance** field in the **\($ N\_11309 Apply General Ledger Entries $\)** window.  
+     The **Applies\-to ID** field is updated with the user ID. The remaining amount is displayed in the **Balance** field in the **Apply General Ledger Entries** window.  
   
 5.  On the **Navigate** tab, in the **Application** group, choose **Post Application**.  
   
@@ -68,7 +68,7 @@ Applying temporary general ledger entries allows companies to work with temporar
   
 ### To view the applied general ledger entries  
   
-1.  In the **Search**  box, enter **\($ N\_116 G\/L Registers $\)**, and then choose the related link.  
+1.  In the **Search**  box, enter **G\/L Registers**, and then choose the related link.  
   
 2.  Select a general ledger register, and then, on the **Home** tab, in the **Process** group, choose **General Ledger**.  
   
@@ -80,7 +80,7 @@ Applying temporary general ledger entries allows companies to work with temporar
   
 ### To unapply general ledger entries  
   
-1.  In the **Search**  box, enter **\($ N\_116 G\/L Registers $\)**, and then choose the related link.  
+1.  In the **Search**  box, enter **G\/L Registers**, and then choose the related link.  
   
 2.  Select a general ledger register, and then, on the **Home** tab, in the **Process** group, choose **General Ledger**.  
   
@@ -94,6 +94,6 @@ Applying temporary general ledger entries allows companies to work with temporar
 4.  Choose the **OK** button.  
   
 ## See Also  
- [\($ T\_15 G\/L Account $\)](assetId:///a65c2b09-9bb2-43db-8c53-c047bfc49777)   
- [\($ T\_17 G\/L Entry $\)](assetId:///2b5b8281-fbfa-4b7f-a154-a9ec61afadfe)   
- [\($ N\_20 General Ledger Entries $\)](assetId:///7634ea31-5577-42dc-9076-78cffea19ef4)
+ [G\/L Account](assetId:///a65c2b09-9bb2-43db-8c53-c047bfc49777)   
+ [G\/L Entry](assetId:///2b5b8281-fbfa-4b7f-a154-a9ec61afadfe)   
+ [General Ledger Entries](assetId:///7634ea31-5577-42dc-9076-78cffea19ef4)

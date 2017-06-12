@@ -50,18 +50,18 @@ The payment tolerance warning appears when you post an application that has a ba
   
 1.  In the **Search** box, enter **General Ledger Setup**, and then choose the related link.  
   
-2.  In the **\($ N\_118 General Ledger Setup $\)** window, on the **Application** FastTab, select the **Payment Tolerance Warning** check box to activate the warning. To deactivate the warning, clear the check box.  
+2.  In the **General Ledger Setup** window, on the **Application** FastTab, select the **Payment Tolerance Warning** check box to activate the warning. To deactivate the warning, clear the check box.  
   
 > [!IMPORTANT]  
 >  The warning is not applicable when you select **Apply to Oldest**.  
   
 > [!NOTE]  
->  The default option for the **\($ N\_591 Payment Tolerance Warning $\)** window is **Leave the Balance as Remaining Amount**. The default option for the **\($ T\_98\_100 Pmt. Disc. Tolerance Warning $\)** window the is **Do Not Accept the Late Payment Discount**.  
+>  The default option for the **Payment Tolerance Warning** window is **Leave the Balance as Remaining Amount**. The default option for the **Pmt. Disc. Tolerance Warning** window the is **Do Not Accept the Late Payment Discount**.  
   
 ## See Also  
  [How to: Set Up Tolerances](../Finance/how-to-set-up-tolerances.md)   
  [How to: Block Payment Tolerances for a Customer or a Vendor](../Finance/how-to-block-payment-tolerances-for-a-customer-or-a-vendor.md)   
- [\($ B\_34 Change Payment Tolerance $\)](../Topic/\($%20B_34%20Change%20Payment%20Tolerance%20$\).md)   
+ [Change Payment Tolerance](../Topic/\($%20B_34%20Change%20Payment%20Tolerance%20$\).md)   
  [Payment Tolerance and Payment Discount Tolerance](../Finance/payment-tolerance-and-payment-discount-tolerance.md)   
- [\($ T\_98\_100 Pmt. Disc. Tolerance Warning $\)](assetId:///7390712f-f6b1-45a3-a7fd-9a6e3b5f26d5)   
- [\($ N\_591 Payment Tolerance Warning $\)](assetId:///2be20f03-cd0f-4dd1-a114-564cafc08fad)
+ [Pmt. Disc. Tolerance Warning](assetId:///7390712f-f6b1-45a3-a7fd-9a6e3b5f26d5)   
+ [Payment Tolerance Warning](assetId:///2be20f03-cd0f-4dd1-a114-564cafc08fad)

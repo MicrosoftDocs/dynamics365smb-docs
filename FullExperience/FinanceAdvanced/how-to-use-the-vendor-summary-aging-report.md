@@ -41,13 +41,13 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Use the Vendor - Summary Aging Report
-The **\($ R\_305 Vendor – Summary Aging $\)** report displays amounts that will be due for payment to individual vendors in the future.  
+The **Vendor – Summary Aging** report displays amounts that will be due for payment to individual vendors in the future.  
   
  It contains one line per vendor per currency with amounts due in three periods, which you determine before printing, amounts due before and after these periods, and the current balance due to the vendor.  
   
 ### To use the vendor \- summary aging report  
   
-1.  In the **Search** box, enter **\($ R\_305 Vendor – Summary Aging $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Vendor – Summary Aging**, and then choose the related link.  
   
 2.  On the **Options** FastTab, specify the conditions for the report.  
   

@@ -37,10 +37,10 @@ You can view posted amounts for each asset and depreciation book.
   
 3.  On the **Navigate** tab, in the **Fixed Asset** group, choose **Depreciation Books**.  
   
-4.  Select a depreciation book, and then on the **Navigate**  tab, in the **Depr. Book** group, choose **\($ N\_5662 FA Posting Types Overview $\)**.  
+4.  Select a depreciation book, and then on the **Navigate**  tab, in the **Depr. Book** group, choose **FA Posting Types Overview**.  
   
 5.  Close the window.  
   
 ## See Also  
  [How to: Post Entries to Different Depreciation Books](../Finance/how-to-post-entries-to-different-depreciation-books.md)   
- [\($ N\_5662 FA Posting Types Overview $\)](../Topic/\($%20N_5662%20FA%20Posting%20Types%20Overview%20$\).md)
+ [FA Posting Types Overview](../Topic/\($%20N_5662%20FA%20Posting%20Types%20Overview%20$\).md)

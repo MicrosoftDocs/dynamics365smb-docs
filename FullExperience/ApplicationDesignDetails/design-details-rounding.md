@@ -39,14 +39,14 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Design Details: Rounding
-Rounding residuals can occur when you value the cost of an inventory decrease that is measured in a different quantity than the corresponding inventory increase. Rounding residuals are calculated for all costing methods when you run the **\($ B\_795 Adjust Cost \- Item Entries $\)** batch job.  
+Rounding residuals can occur when you value the cost of an inventory decrease that is measured in a different quantity than the corresponding inventory increase. Rounding residuals are calculated for all costing methods when you run the **Adjust Cost \- Item Entries** batch job.  
   
  When you use the average costing method, the rounding residual is calculated and recorded on a cumulative, entry\-by\-entry basis.  
   
  When you use a costing method other than Average, the rounding residual is calculated when the inventory increase has been fully applied, that is when the remaining quantity for the inventory increase is equal to zero. A separate entry is then created for the rounding residual, and the posting date on this rounding entry is the posting date of the last invoiced value entry of the inventory increase.  
   
 ## Example  
- The following example illustrates how different rounding residuals are handled for the average costing method and non\-Average costing method, respectively. In both cases, the **\($ B\_795 Adjust Cost \- Item Entries $\)** batch job has been run.  
+ The following example illustrates how different rounding residuals are handled for the average costing method and non\-Average costing method, respectively. In both cases, the **Adjust Cost \- Item Entries** batch job has been run.  
   
  The following table shows the item ledger entries that the example is based on.  
   

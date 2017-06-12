@@ -34,5 +34,5 @@ The Factura\-Invoice.
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen. Choose the **Cancel** button to save the information without printing the report.  
   
 ## See Also  
- [\($ N\_12416 Custom Declarations $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-n_12416-custom-declarations-$-.md)   
+ [Custom Declarations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-n_12416-custom-declarations-$-.md)   
  [How to: Enter Custom Declarations Information](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-enter-custom-declarations-information.md)

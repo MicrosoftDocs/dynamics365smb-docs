@@ -66,5 +66,5 @@ You can allow transactions in different currencies to be applied to one another,
   
 ## See Also  
  [Set Up Invoice Rounding](../Finance/set-up-invoice-rounding.md)   
- [\($ B\_86 Adjust Add. Reporting Currency $\)](../Topic/\($%20B_86%20Adjust%20Add.%20Reporting%20Currency%20$\).md)   
+ [Adjust Add. Reporting Currency](../Topic/\($%20B_86%20Adjust%20Add.%20Reporting%20Currency%20$\).md)   
  [How to: Adjust Currency Exchange Rates](../Finance/how-to-adjust-currency-exchange-rates.md)

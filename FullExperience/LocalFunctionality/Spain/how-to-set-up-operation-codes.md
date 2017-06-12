@@ -23,8 +23,8 @@ You can add as many operation codes as you want to the table. However, the opera
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_10745\_1 Code $\)**|Enter an operation code. You can only enter one letter or number.<br /><br /> Valid codes are numbers 1 – 8, and letters A – Z.<br /><br /> To submit a report under the CAC regimen, you must make certain that the code Z, which is required for these types of transactions, is in the list of operation codes.|  
-    |**\($ T\_10745\_2 Description $\)**|Enter a description for the operation code. You can enter a maximum of 30 letters and numbers.|  
+    |**Code**|Enter an operation code. You can only enter one letter or number.<br /><br /> Valid codes are numbers 1 – 8, and letters A – Z.<br /><br /> To submit a report under the CAC regimen, you must make certain that the code Z, which is required for these types of transactions, is in the list of operation codes.|  
+    |**Description**|Enter a description for the operation code. You can enter a maximum of 30 letters and numbers.|  
   
 ### To link operation codes to general product posting groups  
   

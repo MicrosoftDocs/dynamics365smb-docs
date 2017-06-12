@@ -22,7 +22,7 @@ The Single Euro Payments Area \(SEPA\) unifies payment methods in participating 
 ## See Also  
  [Febelfin website](http://go.microsoft.com/fwlink/?LinkId=275119)   
  [ISO 20022 website](http://go.microsoft.com/fwlink/?LinkId=275120)   
- [\($ R\_2000005 File SEPA Payments $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/-$-r_2000005-file-sepa-payments-$-.md)   
+ [File SEPA Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/-$-r_2000005-file-sepa-payments-$-.md)   
  [How to: Activate SEPA Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-activate-sepa-payments.md)   
  [How to: File SEPA Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-file-sepa-payments.md)   
  [How to: File Non\-Euro SEPA Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-file-non-euro-sepa-payments.md)

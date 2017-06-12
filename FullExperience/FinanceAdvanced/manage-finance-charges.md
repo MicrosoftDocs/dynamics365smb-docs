@@ -48,7 +48,7 @@ When a customer does not pay by the due date, you can have finance charges calcu
 > [!NOTE]  
 >  You use finance charge memos to calculate interest and finance charges and to inform your customers about interest and finance charges without reminding them of overdue payments. Alternatively, you can calculate interest on overdue payments when you create reminders.  
   
- You can manually create a finance charge memo for an individual customer, and fill in the lines automatically. Alternatively, you can use the **\($ B\_191 Create Finance Charge Memos $\)** batch job to create finance charge memos for all or selected customers with overdue balances.  
+ You can manually create a finance charge memo for an individual customer, and fill in the lines automatically. Alternatively, you can use the **Create Finance Charge Memos** batch job to create finance charge memos for all or selected customers with overdue balances.  
   
  After you create the finance charge memos, you can modify them. The text that appears at the beginning and end of the finance charge memo is determined by the finance charge terms, and can be seen in the **Description** column on the lines. If a calculated amount has been inserted automatically in the beginning or ending text, the text will not be adjusted if you delete lines. Then you must use the **Update Finance Charge Text** function.  
   
@@ -62,15 +62,15 @@ When a customer does not pay by the due date, you can have finance charges calcu
   
 |**To**|**See**|  
 |------------|-------------|  
-|Automatically create finance charge memos for customers with overdue amounts.|[\($ B\_191 Create Finance Charge Memos $\)](../Finance/-$-b_191-create-finance-charge-memos-$-.md)|  
+|Automatically create finance charge memos for customers with overdue amounts.|[Create Finance Charge Memos](../Finance/-$-b_191-create-finance-charge-memos-$-.md)|  
 |Create a finance charge memo manually and have the lines filled in automatically.|[How to: Create Finance Charge Memos Manually](../Finance/how-to-create-finance-charge-memos-manually.md)|  
-|Learn about the batch job that automatically fills in the finance charge memo lines.|[\($ B\_192 Suggest Fin. Charge Memo Lines $\)](../Finance/-$-b_192-suggest-fin.-charge-memo-lines-$-.md)|  
+|Learn about the batch job that automatically fills in the finance charge memo lines.|[Suggest Fin. Charge Memo Lines](../Finance/-$-b_192-suggest-fin.-charge-memo-lines-$-.md)|  
 |Update the beginning and ending text on finance charge memos that have been created but not yet issued.|[How to: Update Finance Charge Memo Text](../Finance/how-to-update-finance-charge-memo-text.md)|  
-|Post entries for one or more finance charge memos and, if you choose, print the finance charge memos.|[\($ B\_193 Issue Finance Charge Memos $\)](../Finance/-$-b_193-issue-finance-charge-memos-$-.md)|  
+|Post entries for one or more finance charge memos and, if you choose, print the finance charge memos.|[Issue Finance Charge Memos](../Finance/-$-b_193-issue-finance-charge-memos-$-.md)|  
   
 ## See Also  
- [\($ T\_5 Finance Charge Terms $\)](../Finance/-$-t_5-finance-charge-terms-$-.md)   
+ [Finance Charge Terms](../Finance/-$-t_5-finance-charge-terms-$-.md)   
  [How to: Set Up Text for Finance Charge Memos](../Finance/how-to-set-up-text-for-finance-charge-memos.md)   
- [Working with \($ P\_1 Product Name $\)](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)   
+ [Working with Product Name](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)   
  [Manage Receivables](../Finance/manage-receivables.md)   
- [\($ B\_191 Create Finance Charge Memos $\)](../Finance/manage-finance-charges.md)
+ [Create Finance Charge Memos](../Finance/manage-finance-charges.md)

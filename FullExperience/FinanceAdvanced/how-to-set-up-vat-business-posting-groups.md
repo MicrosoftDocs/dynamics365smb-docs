@@ -52,7 +52,7 @@ Before setting up VAT business posting groups, you must decide how many differen
   
 1.  In the **Search** box, enter **VAT Business Posting Groups**, and then choose the related link.  
   
-2.  In the **\($ N\_470 VAT Business Posting Groups $\)** window, enter a code to identify the group in the **Code** field.  
+2.  In the **VAT Business Posting Groups** window, enter a code to identify the group in the **Code** field.  
   
 3.  In the **Description** field, enter a brief description of the group.  
   

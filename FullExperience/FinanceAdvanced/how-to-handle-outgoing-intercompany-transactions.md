@@ -51,9 +51,9 @@ When you post an intercompany journal or document, or send an intercompany order
   
 1.  In the **Search** box, enter **IC Outbox Transactions**, and then choose the related link.  
   
-2.  In the **\($ N\_611 IC Outbox Transactions $\)** window, select the transaction. On the **Navigate** tab, in the **Outbox Transactions** group, choose **Details** to see the details of a transaction.  
+2.  In the **IC Outbox Transactions** window, select the transaction. On the **Navigate** tab, in the **Outbox Transactions** group, choose **Details** to see the details of a transaction.  
   
-3.  In the **\($ N\_611 IC Outbox Transactions $\)** window, enter an option in the **\($ T\_414\_10 Line Action $\)** field for each transaction.  
+3.  In the **IC Outbox Transactions** window, enter an option in the **Line Action** field for each transaction.  
   
 4.  You can either fill in the field on one line at a time, or you can select several lines. On the **Actions** tab, in the **Functions** group, choose **Set Line Action**, and then choose the relevant option.  
   
@@ -69,4 +69,4 @@ When you post an intercompany journal or document, or send an intercompany order
  [The Intercompany Inbox](../Finance/the-intercompany-inbox.md)   
  [How to: Handle Incoming Intercompany Transactions](../Finance/how-to-handle-incoming-intercompany-transactions.md)   
  [How to: Re\-create Intercompany Inbox and Outbox Transactions](../Finance/how-to-re-create-intercompany-inbox-and-outbox-transactions.md)   
- [\($ T\_414\_10 Line Action $\)](assetId:///248b95e0-52a6-4154-bc5b-ef694e713dfd)
+ [Line Action](assetId:///248b95e0-52a6-4154-bc5b-ef694e713dfd)

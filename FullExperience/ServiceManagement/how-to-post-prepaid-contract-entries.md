@@ -48,7 +48,7 @@ If you work with prepaid service contracts, you must regularly post prepaid cont
   
 ### To post prepaid contract entries  
   
-1.  In the **Search** box, enter **\($ B\_6032 Post Prepaid Contract Entries $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Post Prepaid Contract Entries**, and then choose the related link.  
   
 2.  On the **Service Ledger Entry** FastTab, enter the filters you want to apply.  
   
@@ -62,4 +62,4 @@ If you work with prepaid service contracts, you must regularly post prepaid cont
   
 ## See Also  
  [Service Management Setup](../Service/service-management-setup.md)   
- [\($ N\_5919 Service Mgt. Setup $\)](../Topic/\($%20N_5919%20Service%20Mgt.%20Setup%20$\).md)
+ [Service Mgt. Setup](../Topic/\($%20N_5919%20Service%20Mgt.%20Setup%20$\).md)

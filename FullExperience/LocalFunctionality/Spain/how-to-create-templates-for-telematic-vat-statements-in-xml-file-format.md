@@ -25,11 +25,11 @@ In order to submit VAT statements electronically, you must create templates to g
   
 ### To create a template for VAT statements in XML file format  
   
-1.  In the **Search** box, enter **\($ N\_317 VAT Statement $\)**, and then choose the appropriate link.  
+1.  In the **Search** box, enter **VAT Statement**, and then choose the appropriate link.  
   
 2.  Select the required VAT statement, and then, on the **Actions** tab, choose **Telematic VAT**, and then choose **Design XML file**.  
   
-3.  In the **\($ N\_10710 XML Transference Format $\)** window, fill in the fields as described in the following table.  
+3.  In the **XML Transference Format** window, fill in the fields as described in the following table.  
   
     > [!IMPORTANT]  
     >  The values for the fields are determined by the tax authorities.  
@@ -38,17 +38,17 @@ In order to submit VAT statements electronically, you must create templates to g
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_10710\_1 VAT Stmt. Name $\)**|Specify the VAT statement name that this template is for.|  
-    |**\($ T\_10710\_2 No. $\)**|Specify the field number in the text file.|  
-    |**\($ T\_10710\_5 Line Type $\)**|Specify whether the VAT statement line type is an XML element or an XML attribute.|  
-    |**\($ T\_10710\_3 Indentation Level $\)**|Specify the indentation level for the label. This level is used to format the XML file.|  
-    |**\($ T\_10710\_4 Parent Line No. $\)**|Specify the line number of the parent line that the current line is indented under.|  
-    |**\($ T\_10710\_6 Value Type $\)**|Specify the subtype of the field.<br /><br /> The subtype specifies if the line must show only the integer part of an amount, the decimal part, or the full amount.|  
-    |**\($ T\_10710\_7 Description $\)**|Specify the text that you want to appear on the label.|  
-    |**\($ T\_10710\_8 Value $\)**|Specify the value for the label.|  
-    |**\($ T\_10710\_9 Box $\)**|Specify the box number from which to retrieve the data.|  
-    |**\($ T\_10710\_10 Ask $\)**|Specifies if the **\($ T\_10710\_8 Value $\)** field can be changed before you create the XML file.|  
-    |**\($ T\_10710\_11 Exists Amount $\)**|Select to include the existing amount.|  
+    |**VAT Stmt. Name**|Specify the VAT statement name that this template is for.|  
+    |**No.**|Specify the field number in the text file.|  
+    |**Line Type**|Specify whether the VAT statement line type is an XML element or an XML attribute.|  
+    |**Indentation Level**|Specify the indentation level for the label. This level is used to format the XML file.|  
+    |**Parent Line No.**|Specify the line number of the parent line that the current line is indented under.|  
+    |**Value Type**|Specify the subtype of the field.<br /><br /> The subtype specifies if the line must show only the integer part of an amount, the decimal part, or the full amount.|  
+    |**Description**|Specify the text that you want to appear on the label.|  
+    |**Value**|Specify the value for the label.|  
+    |**Box**|Specify the box number from which to retrieve the data.|  
+    |**Ask**|Specifies if the **Value** field can be changed before you create the XML file.|  
+    |**Exists Amount**|Select to include the existing amount.|  
   
 4.  Repeat the previous step for additional lines in the VAT statement.  
   
@@ -59,4 +59,4 @@ In order to submit VAT statements electronically, you must create templates to g
 ## See Also  
  [How to: Export VAT Statements in XML Format](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/how-to-export-vat-statements-in-xml-format.md)   
  [How to: Create Templates for Telematic VAT Statements in Text File Format](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/how-to-create-templates-for-telematic-vat-statements-in-text-file-format.md)   
- [\($ T\_10710 AEAT Transference Format XML $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-t_10710-aeat-transference-format-xml-$-.md)
+ [AEAT Transference Format XML](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-t_10710-aeat-transference-format-xml-$-.md)

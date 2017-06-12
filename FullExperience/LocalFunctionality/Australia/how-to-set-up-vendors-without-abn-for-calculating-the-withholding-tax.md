@@ -25,12 +25,12 @@ Withholding Tax \(WHT\) is calculated for local vendors who do not have an Austr
   
 2.  Choose the required vendor, and then, on the **Home** tab, choose **Edit**.  
   
-3.  In the **\($ N\_26 Vendor Card $\)** window, on the **Registration** FastTab, the **\($ T\_23\_11620 ABN $\)** field and **\($ T\_23\_11623 Foreign Vend $\)** field must be empty.  
+3.  In the **Vendor Card** window, on the **Registration** FastTab, the **ABN** field and **Foreign Vend** field must be empty.  
   
 4.  Choose the **OK** button.  
   
     > [!NOTE]  
-    >  The WHT percentage is automatically withheld in accordance with what was specified in the **\($ N\_28043 WHT Posting Setup $\)** window. The WHT certificate is produced for submission to the vendor. For more information, see [Withholding Tax](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/withholding-tax.md).  
+    >  The WHT percentage is automatically withheld in accordance with what was specified in the **WHT Posting Setup** window. The WHT certificate is produced for submission to the vendor. For more information, see [Withholding Tax](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/withholding-tax.md).  
   
 ## See Also  
  [Withholding Tax](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/withholding-tax.md)   

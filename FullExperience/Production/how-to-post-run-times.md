@@ -45,7 +45,7 @@ The run time represents work progress in the form of the necessary working time.
   
 ### To post run time  
   
-1.  In the **Search** box, enter **\($ N\_99000823 Output Journal $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Output Journal**, and then choose the related link.  
   
 2.  In the **Posting Date** field, enter a posting date.  
   

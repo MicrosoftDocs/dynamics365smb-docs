@@ -55,10 +55,10 @@ An analysis by dimensions displays a selected combination of dimensions. You can
   
 6.  To update the view, in the **Purchase Analysis View Card** window, on the **Home** tab, in the **Process** group, choose **Update**.  
   
- You can view the same purchase performance indicators in a chart. For more information, see [\($ N\_771 Purchase Performance $\)](../Topic/\($%20N_771%20Purchase%20Performance%20$\).md).  
+ You can view the same purchase performance indicators in a chart. For more information, see [Purchase Performance](../Topic/\($%20N_771%20Purchase%20Performance%20$\).md).  
   
 ## See Also  
  [How to: View Purchase Analysis Information by Dimensions](../BusinessIntelligence/how-to-view-purchase-analysis-information-by-dimensions.md)   
  [How to: Update Purchase Analysis Views](../BusinessIntelligence/how-to-update-purchase-analysis-views.md)   
  [How to: Edit Specific Charts](../Topic/How%20to:%20Edit%20Specific%20Charts.md)   
- [\($ T\_348 Dimension $\)](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)
+ [Dimension](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)

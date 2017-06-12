@@ -70,8 +70,8 @@ You can encrypt data on the [!INCLUDE[nav_server](../BusinessFunctionality/Integ
   
 ## See Also  
  [How to: Export and Import Encryption Keys](../SetupAndAdministration/how-to-export-and-import-encryption-keys.md)   
- [\($ N\_9905\_2 Encryption Enabled $\)](../Topic/\($%20N_9905_2%20Encryption%20Enabled%20$\).md)   
- [\($ N\_9905\_3 Encryption Key Exists $\)](../Topic/\($%20N_9905_3%20Encryption%20Key%20Exists%20$\).md)   
+ [Encryption Enabled](../Topic/\($%20N_9905_2%20Encryption%20Enabled%20$\).md)   
+ [Encryption Key Exists](../Topic/\($%20N_9905_3%20Encryption%20Key%20Exists%20$\).md)   
  [Manage Data Encryption](../SetupAndAdministration/manage-data-encryption.md)   
  [Installation Considerations for Microsoft SQL Server](../Topic/Installation%20Considerations%20for%20Microsoft%20SQL%20Server.md)   
  [How to: Configure the Microsoft Dynamics NAV Web client to Accept Host Names for Tenants](../Topic/How%20to:%20Configure%20the%20Microsoft%20Dynamics%20NAV%20Web%20client%20to%20Accept%20Host%20Names%20for%20Tenants.md)

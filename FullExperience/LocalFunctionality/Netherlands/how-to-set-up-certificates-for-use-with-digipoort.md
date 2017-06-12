@@ -18,13 +18,13 @@ translation.priority.ht:
 # How to: Process Response Messages from Tax Authorities
 When you submit a VAT or ICP declaration to the tax authorities electronically, they will process the declaration and send you a message in response.  
   
- You can import the response into [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] by using the **\($ B\_11408 Receive Response Messages $\)** batch job. The response message will contain the status of the declaration.  
+ You can import the response into [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] by using the **Receive Response Messages** batch job. The response message will contain the status of the declaration.  
   
 ### To import messages from the tax authorities' server  
   
-1.  In the **Search** box, enter **\($ N\_11416 Elec. Tax Decl. Response Msgs. $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Elec. Tax Decl. Response Msgs.**, and then choose the related link.  
   
-2.  On the **Home** tab, in the **Process** group, choose **\($ B\_11408 Receive Response Messages $\)**.  
+2.  On the **Home** tab, in the **Process** group, choose **Receive Response Messages**.  
   
 3.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
@@ -37,15 +37,15 @@ When you submit a VAT or ICP declaration to the tax authorities electronically, 
   
 ### To process the response messages from the tax authorities  
   
-1.  In the **Search** box, enter **\($ N\_11416 Elec. Tax Decl. Response Msgs. $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Elec. Tax Decl. Response Msgs.**, and then choose the related link.  
   
-2.  On the **Home** tab, in the **Process** group, choose **\($ B\_11406 Process Response Messages $\)**.  
+2.  On the **Home** tab, in the **Process** group, choose **Process Response Messages**.  
   
-3.  In the **\($ B\_11406 Process Response Messages Batch Job $\)** window, on the **Elec. Tax Decl. Response Msg**. FastTab, select the appropriate filters.  
+3.  In the **Process Response Messages Batch Job** window, on the **Elec. Tax Decl. Response Msg**. FastTab, select the appropriate filters.  
   
 4.  Choose the **OK** button.  
   
-     The processed information about the response message is displayed in the **\($ N\_11416 Elec. Tax Decl. Response Msgs. $\)**. window.  
+     The processed information about the response message is displayed in the **Elec. Tax Decl. Response Msgs.**. window.  
   
 5.  To export a message or attachment, on the **Actions** tab, in the **Functions** group, choose **Export Response Message** or **Export Response Attachment**.  
   
@@ -53,7 +53,7 @@ When you submit a VAT or ICP declaration to the tax authorities electronically, 
  [Electronic VAT and ICP Declarations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/electronic-vat-and-icp-declarations.md)   
  [How to: Set Up VAT Categories](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/how-to-set-up-vat-categories.md)   
  [How to: Create Electronic VAT and ICP Declarations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/how-to-create-electronic-vat-and-icp-declarations.md)   
- [\($ T\_11409 Elec. Tax Declaration Header Table $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-t_11409-elec.-tax-declaration-header-table-$-.md)   
- [\($ T\_11413 Elec. Tax Decl. Response Msg. Table $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-t_11413-elec.-tax-decl.-response-msg.-table-$-.md)   
- [\($ B\_11408 Receive Response Messages Batch Job $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-b_11408-receive-response-messages-batch-job-$-.md)   
- [\($ B\_11406 Process Response Messages Batch Job $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-b_11406-process-response-messages-batch-job-$-.md)
+ [Elec. Tax Declaration Header Table](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-t_11409-elec.-tax-declaration-header-table-$-.md)   
+ [Elec. Tax Decl. Response Msg. Table](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-t_11413-elec.-tax-decl.-response-msg.-table-$-.md)   
+ [Receive Response Messages Batch Job](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-b_11408-receive-response-messages-batch-job-$-.md)   
+ [Process Response Messages Batch Job](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-b_11406-process-response-messages-batch-job-$-.md)

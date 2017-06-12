@@ -31,7 +31,7 @@ The main task in setting up a new base calendar is to specify and define the non
   
 1.  In the **Search** box, enter **Base Calendar**, and then choose the related link.  
   
-2.  Create a new \($ N\_7600 Base Calendar Card $\). On the **Home** tab, in the **New** group, choose **New**.  
+2.  Create a new Base Calendar Card. On the **Home** tab, in the **New** group, choose **New**.  
   
 3.  Fill in the **Code** field.  
   
@@ -51,7 +51,7 @@ The main task in setting up a new base calendar is to specify and define the non
 >  When setting up a new base calendar, you can select and copy lines from an existing calendar. You do this in the relevant **Base Calendar Changes** window.  
   
 > [!IMPORTANT]  
->  Any base calendar defined for the vendor or the location affects how the dates are calculated and rounded to working days. For more information, see the [\($ T\_39\_5792 Lead Time Calculation $\)](../Topic/\($%20T_39_5792%20Lead%20Time%20Calculation%20$\).md) field on purchase lines.  
+>  Any base calendar defined for the vendor or the location affects how the dates are calculated and rounded to working days. For more information, see the [Lead Time Calculation](../Topic/\($%20T_39_5792%20Lead%20Time%20Calculation%20$\).md) field on purchase lines.  
   
 ## See Also  
  [How to: Assign Base Calendars](../../Production/how-to-assign-base-calendars.md)   

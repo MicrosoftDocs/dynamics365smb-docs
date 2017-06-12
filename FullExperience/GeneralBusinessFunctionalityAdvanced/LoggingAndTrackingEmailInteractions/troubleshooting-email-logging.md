@@ -53,9 +53,9 @@ This topic describes some common problems that you may see when you use email lo
 -   [Error when viewing mail based on interaction log entries](../../BusinessFunctionality/LoggingAndTrackingEmailInteractions/troubleshooting-email-logging.md#ErrorViewingMailBased)  
   
 ##  <a name="MultipleContacts"></a> Managing Logging for Multiple Contacts Who Use One Email Address  
- In some [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] company installations, one email address may be used by several contacts in a company. In this case, email interactions are logged only against the first contact, based on and ordered by the **\($ T\_5050\_1 No. $\)**.  
+ In some [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] company installations, one email address may be used by several contacts in a company. In this case, email interactions are logged only against the first contact, based on and ordered by the **No.**.  
   
- To change this behavior, update the inheritance settings that you have specified in the **\($ N\_5094 Marketing Setup $\)** window. On the **Inheritance** FastTab, clear the **\($ N\_5094\_79 Communication Details $\)** check box.  
+ To change this behavior, update the inheritance settings that you have specified in the **Marketing Setup** window. On the **Inheritance** FastTab, clear the **Communication Details** check box.  
   
 ##  <a name="MultiExchangeServer"></a> Using Email Logging in a Multiple Exchange Server Environment  
  When you are using public folders in a multiple Exchange Server environment, you may encounter delays in seeing a mail message synchronize among the servers. For example, a mail message on one server can take several minutes to be synchronized with another server on the same domain. This can manifest itself when you are using email logging with job queues.  

@@ -25,16 +25,16 @@ translation.priority.ht:
   
 1.  In the **Search** box, enter **Account Schedule Names** or **Account Schedules**, and then choose the related link.  
   
-2.  In the **\($ N\_103  Account Schedule Names $\)**or **\($ N\_104 Account Schedules $\)** window, on the **Home** tab, in the **Functions** group, choose **Import Settings** or **Export Settings**. An extensible markup language \(XML\) file will be created for the import or export.  
+2.  In the **Account Schedule Names**or **Account Schedules** window, on the **Home** tab, in the **Functions** group, choose **Import Settings** or **Export Settings**. An extensible markup language \(XML\) file will be created for the import or export.  
   
     > [!NOTE]  
     >  When you import account schedules, all existing records with primary key values that are equal to imported values will be deleted.  
   
 ## See Also  
- [\($ N\_103 Account Schedule Names $\)](assetId:///7d5f3f62-f869-4b01-a4cf-566bb5d9eeb7)   
- [\($ N\_104 Account Schedule $\)](assetId:///54b79a65-bd11-40a9-b130-4b2932f20943)   
- [\($ R\_25 Account Schedule $\)\-duplicate](../Topic/\($%20R_25%20Account%20Schedule%20$\)-duplicate.md)   
- [\($ T\_84 Acc. Schedule Name $\)](assetId:///ac8560bd-fc36-4b36-aee6-25fa337de643)   
+ [Account Schedule Names](assetId:///7d5f3f62-f869-4b01-a4cf-566bb5d9eeb7)   
+ [Account Schedule](assetId:///54b79a65-bd11-40a9-b130-4b2932f20943)   
+ [Account Schedule\-duplicate](../Topic/\($%20R_25%20Account%20Schedule%20$\)-duplicate.md)   
+ [Acc. Schedule Name](assetId:///ac8560bd-fc36-4b36-aee6-25fa337de643)   
  [How to: Create New Account Schedules](../../BusinessIntelligence/how-to-create-new-account-schedules.md)   
  [Create and Set Up Account Schedules](../../BusinessIntelligence/create-and-set-up-account-schedules.md)   
  [How to: Set Up Account Schedules with Overviews](../../BusinessIntelligence/how-to-set-up-account-schedules-with-overviews.md)

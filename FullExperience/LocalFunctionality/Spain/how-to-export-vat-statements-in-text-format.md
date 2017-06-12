@@ -35,21 +35,21 @@ You can export a VAT statement in text format and then submit it electronically 
     >   
     >  In the standard version of [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], the VAT statement name for the 320 telematic statement is of the type **One Column Report**.  
   
-4.  In the **\($ B\_10715 Telematic VAT Declaration $\)** window, on the **[!INCLUDE[bp_optionsheading](../../DesignAndEngineering/includes/bp_optionsheading_md.md)]** FastTab, fill in the fields as described in the following table.  
+4.  In the **Telematic VAT Declaration** window, on the **[!INCLUDE[bp_optionsheading](../../DesignAndEngineering/includes/bp_optionsheading_md.md)]** FastTab, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ B\_10715\_N\_2\_1 VAT entries included $\)**|Specify if the VAT statement must include open entries, closed entries, or both open and closed entries.|  
-    |**\($ B\_10715\_N\_2\_4 VAT entries included $\)**|Specify if the VAT statement must include only entries from the period that is specified in the **\($ T\_256\_16 Date Filter $\)** field, or also entries from previous periods.|  
-    |**\($ B\_10715\_N\_2\_8 Additional Currency $\)**|Select to display the report amounts in the additional reporting currency.|  
+    |**VAT entries included**|Specify if the VAT statement must include open entries, closed entries, or both open and closed entries.|  
+    |**VAT entries included**|Specify if the VAT statement must include only entries from the period that is specified in the **Date Filter** field, or also entries from previous periods.|  
+    |**Additional Currency**|Select to display the report amounts in the additional reporting currency.|  
   
-5.  On the **VAT Statement Line** FastTab, specify a value for the **\($ T\_256\_16 Date Filter $\)** field.  
+5.  On the **VAT Statement Line** FastTab, specify a value for the **Date Filter** field.  
   
      Optionally, select additional filters.  
   
 6.  Choose the **OK** button.  
   
-7.  In the **\($ N\_10704 Transference Format $\)** window, verify that the VAT statement is set up as required, and then choose the **OK** button.  
+7.  In the **Transference Format** window, verify that the VAT statement is set up as required, and then choose the **OK** button.  
   
 8.  Choose the **Open** button or choose the **Save** button.  
   
@@ -59,4 +59,4 @@ You can export a VAT statement in text format and then submit it electronically 
  [VAT Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/vat-reports.md)   
  [How to: Create Templates for Telematic VAT Statements in Text File Format](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/how-to-create-templates-for-telematic-vat-statements-in-text-file-format.md)   
  [How to: Export VAT Statements in XML Format](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/how-to-export-vat-statements-in-xml-format.md)   
- [\($ R\_10715 Telematic VAT Declaration $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-r_10715-telematic-vat-declaration-$-.md)
+ [Telematic VAT Declaration](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-r_10715-telematic-vat-declaration-$-.md)

@@ -25,9 +25,9 @@ You can compress fixed asset depreciation into subclasses and choose to display 
   
 1.  In the **Search** box, enter **Depreciation Books**, and then choose the related link.  
   
-2.  In the **\($ N\_5611 Depreciation Book List $\)** window, select the relevant depreciation book, and then, on the **Home** tab, choose **Edit**.  
+2.  In the **Depreciation Book List** window, select the relevant depreciation book, and then, on the **Home** tab, choose **Edit**.  
   
-3.  To post only the depreciation totals of assets that are grouped by category, in the **\($ N\_5610 Depreciation Book Card $\)** window, on the **General** FastTab, select the **Compress Depreciation** check box.  
+3.  To post only the depreciation totals of assets that are grouped by category, in the **Depreciation Book Card** window, on the **General** FastTab, select the **Compress Depreciation** check box.  
   
     > [!NOTE]  
     >  Multiple depreciation lines are then compressed in the general ledger and are displayed in a single entry that is divided by fixed asset categories.  

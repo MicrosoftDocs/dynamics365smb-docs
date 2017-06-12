@@ -39,7 +39,7 @@ In [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)], the outbound 
  The following walkthrough demonstrates method B in the previous table.  
   
 ## About This Walkthrough  
- In basic warehousing where your location is set up to require pick processing but not ship processing, you use the **\($ N\_7377 Inventory Pick $\)** window to record and post pick and ship information for your outbound source documents. The outbound source document can be a sales order, purchase return order, outbound transfer order, or a production order with component need.  
+ In basic warehousing where your location is set up to require pick processing but not ship processing, you use the **Inventory Pick** window to record and post pick and ship information for your outbound source documents. The outbound source document can be a sales order, purchase return order, outbound transfer order, or a production order with component need.  
   
  This walkthrough demonstrates the following tasks:  
   
@@ -71,11 +71,11 @@ In [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)], the outbound 
   
     1.  In the **Search** box, enter **Warehouse Employees**, and then choose the related link.  
   
-    2.  Choose the **\($ T\_7301\_1 User ID $\)** field, and select your own user account in the **Users** window.  
+    2.  Choose the **User ID** field, and select your own user account in the **Users** window.  
   
     3.  In the **Location Code** field, enter SILVER.  
   
-    4.  Select the **\($ T\_7301\_4 Default $\)** field.  
+    4.  Select the **Default** field.  
   
 -   Make item LS\-81 available at SILVER location by following these steps:  
   
@@ -91,10 +91,10 @@ In [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)], the outbound 
     3.  On the **Actions** tab, in the **Posting** group, choose **Post**, and then select the **Yes** button.  
   
 ## Story  
- Ellen, the warehouse manager at [!INCLUDE[demoname](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/demoname_md.md)], sets up SILVER warehouse for basic pick handling where warehouse workers process outbound orders individually. Susan, the order processor, creates a sales order for 30 units of item LS\-81 to be shipped to customer 10000 from the SILVER Warehouse. John, the warehouse worker must make sure that the shipment is prepared and delivered to the customer. John manages all involved tasks in the **\($ N\_7377 Inventory Pick $\)** window, which automatically points to the bins where LS\-81 is stored.  
+ Ellen, the warehouse manager at [!INCLUDE[demoname](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/demoname_md.md)], sets up SILVER warehouse for basic pick handling where warehouse workers process outbound orders individually. Susan, the order processor, creates a sales order for 30 units of item LS\-81 to be shipped to customer 10000 from the SILVER Warehouse. John, the warehouse worker must make sure that the shipment is prepared and delivered to the customer. John manages all involved tasks in the **Inventory Pick** window, which automatically points to the bins where LS\-81 is stored.  
   
 ## Setting Up the Location  
- The setup of the **\($ N\_5703 Location Card $\)** window defines the company’s warehouse flows.  
+ The setup of the **Location Card** window defines the company’s warehouse flows.  
   
 ### To set up the location  
   
@@ -102,7 +102,7 @@ In [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)], the outbound 
   
 2.  Open the SILVER location card.  
   
-3.  Select the **\($ T\_14\_5726 Require Pick $\)** check box.  
+3.  Select the **Require Pick** check box.  
   
 ## Creating the Sales Order  
  Sales orders are the most common type of outbound source document.  
@@ -126,7 +126,7 @@ In [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)], the outbound 
      John proceeds to pick and ship the sold items.  
   
 ## Picking and Shipping Items  
- In the **\($ N\_7377 Inventory Pick $\)** window, you can manage all outbound warehouse activities for a specific source document, such as a sales order.  
+ In the **Inventory Pick** window, you can manage all outbound warehouse activities for a specific source document, such as a sales order.  
   
 ### To pick and ship items  
   
@@ -134,23 +134,23 @@ In [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)], the outbound 
   
 2.  On the **Home** tab, in the **New** group, choose **New**.  
   
-3.  Select the **\($ T\_5766\_7307 Source Document $\)** field, and then select **Sales Order**.  
+3.  Select the **Source Document** field, and then select **Sales Order**.  
   
-4.  Select the **\($ T\_5766\_7306 Source No. $\)** field, select the line for the sale to customer 10000, and then choose the **OK** button.  
+4.  Select the **Source No.** field, select the line for the sale to customer 10000, and then choose the **OK** button.  
   
      Alternatively, on the **Actions** tab, in the **Functions** group, choose **Get Source Document**, and then select the sales order.  
   
 5.  On the **Actions** tab, in the **Functions** group, choose **Autofill Qty. to Handle**.  
   
-     Alternatively, in the **\($ T\_5767\_26 Qty. to Handle $\)** field, enter 10 and 30 respectively on the two inventory pick lines.  
+     Alternatively, in the **Qty. to Handle** field, enter 10 and 30 respectively on the two inventory pick lines.  
   
 6.  On the **Actions** tab, in the **Posting** group, choose **Post**, select **Ship**, and then choose the **OK** button.  
   
      The 30 loudspeakers are now registered as picked from bins S\-01\-0001 and S\-01\-0002, and a negative item ledger entry is created reflecting the posted sales shipment.  
   
 ## See Also  
- [\($ N\_7377 Inventory Pick $\)](../Topic/\($%20N_7377%20Inventory%20Pick%20$\).md)   
- [\($ N\_5703 Location Card $\)](../WarehouseActivities/-$-n_5703-location-card-$-.md)   
+ [Inventory Pick](../Topic/\($%20N_7377%20Inventory%20Pick%20$\).md)   
+ [Location Card](../WarehouseActivities/-$-n_5703-location-card-$-.md)   
  [How to: Pick Items with Inventory Picks](../DesignAndEngineering/how-to-pick-items-with-inventory-picks.md)   
  [How to: Pick Items for Warehouse Shipment](../WarehouseActivities/how-to-pick-items-for-warehouse-shipment.md)   
  [How to: Set Up Basic Warehouses with Operations Areas](../WarehouseActivities/how-to-set-up-basic-warehouses-with-operations-areas.md)   

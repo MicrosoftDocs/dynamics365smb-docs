@@ -29,7 +29,7 @@ To use the accelerated depreciation calculation, you must set up the following d
   
 1.  In the **Search** box, enter **Depreciation Books**, and then choose the relevant link.  
   
-2.  In the **\($ N\_5611 Depreciation Book List $\)** window, on the **Home** tab, choose **New**.  
+2.  In the **Depreciation Book List** window, on the **Home** tab, choose **New**.  
   
 3.  On the **General** FastTab, fill in the required fields as described in the following table.  
   
@@ -39,11 +39,11 @@ To use the accelerated depreciation calculation, you must set up the following d
     |**Description**|The depreciation book description.|  
   
     > [!IMPORTANT]  
-    >  Leave the **\($ T\_5611\_10800 Derogatory Calculation $\)** field blank.  
+    >  Leave the **Derogatory Calculation** field blank.  
   
 4.  On the **Integration** FastTab, select the **Derogatory** check box to integrate accelerated depreciation with the general ledger.  
   
-     For more information, see [How to: Set Up Depreciation Books](../../Finance/how-to-set-up-depreciation-books.md) and [\($ T\_5611 Depreciation Book $\)](../Topic/\($%20T_5611%20Depreciation%20Book%20$\).md).  
+     For more information, see [How to: Set Up Depreciation Books](../../Finance/how-to-set-up-depreciation-books.md) and [Depreciation Book](../Topic/\($%20T_5611%20Depreciation%20Book%20$\).md).  
   
 5.  Choose the **OK** button.  
   
@@ -51,7 +51,7 @@ To use the accelerated depreciation calculation, you must set up the following d
   
 1.  In the **Search** box, enter **Depreciation Books**, and then choose the relevant link.  
   
-2.  In the **\($ N\_5611 Depreciation Book List $\)** window, on the **Home** tab, choose **New**.  
+2.  In the **Depreciation Book List** window, on the **Home** tab, choose **New**.  
   
 3.  On the **General** FastTab, fill in the required fields as described in the following table.  
   
@@ -60,19 +60,19 @@ To use the accelerated depreciation calculation, you must set up the following d
     |**Code**|The unique identification code for the tax depreciation book. You can enter a maximum of 10 alphanumeric characters.|  
     |**Description**|The tax depreciation book description.|  
   
-4.  In the **\($ T\_5611\_10800 Derogatory Calculation $\)** field, select the accounting depreciation book code to indicate that this is a tax depreciation book to calculate derogatory depreciation.  
+4.  In the **Derogatory Calculation** field, select the accounting depreciation book code to indicate that this is a tax depreciation book to calculate derogatory depreciation.  
   
-     For more information, see [How to: Set Up Depreciation Books](../../Finance/how-to-set-up-depreciation-books.md) and [\($ T\_5611 Depreciation Book $\)](../Topic/\($%20T_5611%20Depreciation%20Book%20$\).md).  
+     For more information, see [How to: Set Up Depreciation Books](../../Finance/how-to-set-up-depreciation-books.md) and [Depreciation Book](../Topic/\($%20T_5611%20Depreciation%20Book%20$\).md).  
   
 5.  Choose the **OK** button.  
   
-     The **\($ T\_5611\_10801 Used with Derogatory Book $\)** field in the accounting depreciation book is updated with the tax depreciation book code.  
+     The **Used with Derogatory Book** field in the accounting depreciation book is updated with the tax depreciation book code.  
   
 ## See Also  
  [Accelerated Depreciation](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/accelerated-depreciation.md)   
  [How to: Calculate Accelerated Depreciation](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-calculate-accelerated-depreciation.md)   
  [How to: Set Up Depreciation Books](../../Finance/how-to-set-up-depreciation-books.md)   
- [\($ T\_5611 Depreciation Book $\)](../Topic/\($%20T_5611%20Depreciation%20Book%20$\).md)   
- [\($ T\_5600 Fixed Asset $\)](../Topic/\($%20T_5600%20Fixed%20Asset%20$\).md)   
- [\($ N\_5600 Fixed Asset Card $\)](../Topic/\($%20N_5600%20Fixed%20Asset%20Card%20$\).md)   
+ [Depreciation Book](../Topic/\($%20T_5611%20Depreciation%20Book%20$\).md)   
+ [Fixed Asset](../Topic/\($%20T_5600%20Fixed%20Asset%20$\).md)   
+ [Fixed Asset Card](../Topic/\($%20N_5600%20Fixed%20Asset%20Card%20$\).md)   
  [Set Up Depreciation](../../Finance/set-up-depreciation.md)

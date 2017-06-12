@@ -24,10 +24,10 @@ translation.priority.ht:
   
 -   Settlement returns  
   
- You can also choose to not use return files by selecting the **\($ T\_15000000\_18 Return File Is Not In Use $\)** field in the **\($ T\_15000000 Remittance Agreement $\)** table. For more information, see [How to: Set Up Remittance Agreements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-set-up-remittance-agreements.md).  
+ You can also choose to not use return files by selecting the **Return File Is Not In Use** field in the **Remittance Agreement** table. For more information, see [How to: Set Up Remittance Agreements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-set-up-remittance-agreements.md).  
   
 ## Receipt Returns  
- The receipt return is received from the bank after you have sent the remittance file to the bank. When data is imported, information about the number of invoices that are received correctly and the number that are received with error is displayed. After you import a receipt return, the status of the payments in the **\($ T\_15000004 Waiting Journal $\)** table is set to **Approved**.  
+ The receipt return is received from the bank after you have sent the remittance file to the bank. When data is imported, information about the number of invoices that are received correctly and the number that are received with error is displayed. After you import a receipt return, the status of the payments in the **Waiting Journal** table is set to **Approved**.  
   
 > [!NOTE]  
 >  You may also receive a rejected return from the bank. If the remittance is rejected, the settlement return will not be received.  
@@ -37,9 +37,9 @@ translation.priority.ht:
   
  The following occurs when the settlement return is imported:  
   
--   Payment status in the **\($ T\_15000004 Waiting Journal $\)** table is set to **Settled**.  
+-   Payment status in the **Waiting Journal** table is set to **Settled**.  
   
--   Information will be transferred from the **\($ T\_15000004 Waiting Journal $\)** window to the payment journal.  
+-   Information will be transferred from the **Waiting Journal** window to the payment journal.  
   
 -   A balancing account will be created for each transaction.  
   

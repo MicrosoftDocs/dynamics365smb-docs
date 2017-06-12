@@ -50,7 +50,7 @@ You can assign a predefined column layout to a particular account schedule as a 
   
 1.  In the **Search** box, enter **Account Schedules**, and then choose the related link.  
   
-2.  In the **\($ N\_103 Account Schedule Names $\)** window, fill in the **Default Column Layout** field for the relevant account schedules.  
+2.  In the **Account Schedule Names** window, fill in the **Default Column Layout** field for the relevant account schedules.  
   
  The column layout will be used as the default layout on printed reports and in the **Acc. Schedule Overview** window.  
   

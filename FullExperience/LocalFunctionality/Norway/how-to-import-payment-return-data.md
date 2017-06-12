@@ -16,7 +16,7 @@ translation.priority.ht:
   - "nb-no"
 ---
 # How to: Import Payment Return Data
-To import receipt and settlement returns, use the **\($ R\_15000003 Rem. payment order – import $\)** window. If any errors are indicated when importing settlement returns, you can view this information in the **\($ N\_15000011 Settlement Info $\)** window.  
+To import receipt and settlement returns, use the **Rem. payment order – import** window. If any errors are indicated when importing settlement returns, you can view this information in the **Settlement Info** window.  
   
 ### To import return data  
   
@@ -26,13 +26,13 @@ To import receipt and settlement returns, use the **\($ R\_15000003 Rem. payment
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_15000003\_F\_1\_1080002 Payment order note $\)**|Enter a note that is transferred to the payment order.|  
+    |**Payment order note**|Enter a note that is transferred to the payment order.|  
     |**ControlBatch**|Select the check box to verify return files in advance to ensure if the import can be made. Return data is not imported.|  
-    |**\($ R\_15000003\_F\_1\_1080013 Return files $\)**|Specifies how many return files are found and imported.|  
+    |**Return files**|Specifies how many return files are found and imported.|  
   
 3.  Choose the **Return Files** button to display the return files.  
   
-4.  In the **\($ N\_15000008 Return Files $\)** window, select the **Import** option next to each file to be imported. If the option is cleared, the file will not be imported.  
+4.  In the **Return Files** window, select the **Import** option next to each file to be imported. If the option is cleared, the file will not be imported.  
   
 5.  Choose the **OK** button.  
   
@@ -44,9 +44,9 @@ To import receipt and settlement returns, use the **\($ R\_15000003 Rem. payment
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_81\_15000027 Remittance Handling Ref. $\)**|Shows the reference that the bank enters for foreign payments.|  
-    |**\($ T\_81\_15000019 Remittance Warning $\)**|If selected, the journal line contains a warning.|  
-    |**\($ T\_81\_15000020 Remittance Warning Text $\)**|Shows the description of the warning, if applicable.|  
+    |**Remittance Handling Ref.**|Shows the reference that the bank enters for foreign payments.|  
+    |**Remittance Warning**|If selected, the journal line contains a warning.|  
+    |**Remittance Warning Text**|Shows the description of the warning, if applicable.|  
   
 3.  Choose the **OK** button.  
   

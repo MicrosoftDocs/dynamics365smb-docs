@@ -49,13 +49,13 @@ At least once in every fiscal year, you must take a physical inventory to see if
   
 ### To perform a warehouse physical inventory  
   
-1.  In the **Search** box, enter **\($ N\_40 Item Journal $\)**, and choose the related link.  
+1.  In the **Search** box, enter **Item Journal**, and choose the related link.  
   
 2.  On the **Actions** tab, in the **Functions** group, choose **Calculate Whse. Adjustment**.  
   
 3.  Fill in the batch job request window with the numbers of the items you want to count and with your location. Choose the **OK** button, and post the adjustments if any. If you do not do this before you perform the warehouse physical inventory, the results you post to the physical inventory journal and item ledger in the second part of the process will be the physical inventory results combined with other warehouse adjustments for the items that were counted.  
   
-4.  In the **Search** box, enter **\($ N\_7326 Whse. Phys. Invt. Journal $\)**, and choose the related link.  
+4.  In the **Search** box, enter **Whse. Phys. Invt. Journal**, and choose the related link.  
   
 5.  In the journal, on the **Actions** tab, in the **Functions** group, choose **Calculate Inventory**. The **Whse. Calculate Inventory** batch job request window opens.  
   
@@ -63,7 +63,7 @@ At least once in every fiscal year, you must take a physical inventory to see if
   
      If you only have time to count the item in some bins and not others, you can discover discrepancies, register them, and later post them in the item journal using the **Calculate Whse. Adjustment** function.  
   
-7.  In the **Search** box, enter **\($ R\_7307 Whse. Phys. Inventory List $\)**, and choose the related link.  
+7.  In the **Search** box, enter **Whse. Phys. Inventory List**, and choose the related link.  
   
 8.  Open the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon") report request page and print the lists on which you want employees to record the quantity of items that they count in each bin.  
   
@@ -84,7 +84,7 @@ At least once in every fiscal year, you must take a physical inventory to see if
   
 ### To post warehouse results as a physical inventory  
   
-1.  In the **Search** box, enter **\($ N\_392 Phys. Inventory Journal $\)**, and choose the related link.  
+1.  In the **Search** box, enter **Phys. Inventory Journal**, and choose the related link.  
   
 2.  On the **Actions** tab, in the **Functions** group, choose **Calculate Inventory**.  
   

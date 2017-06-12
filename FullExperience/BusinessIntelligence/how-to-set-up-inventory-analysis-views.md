@@ -46,7 +46,7 @@ An inventory analysis view displays a selected combination of dimensions for a s
   
 1.  In the **Search** box, enter **Inventory Analysis View Card**, and then choose the related link.  
   
-2.  On the **Home** tab, in the **New** group, choose **New**. The **\($ N\_7150 Invt. Analysis View Card $\)** window opens.  
+2.  On the **Home** tab, in the **New** group, choose **New**. The **Invt. Analysis View Card** window opens.  
   
 3.  Fill in the fields to specify which item or items and location to analyze dimensions for.  
   
@@ -56,9 +56,9 @@ An inventory analysis view displays a selected combination of dimensions for a s
   
 6.  To update the view, in the **Item Analysis View Card** window, on the **Home** tab, in the **Process** group, choose **Update**.  
   
- You can view the same item performance indicators in a chart. For more information, see [\($ N\_772 Inventory Performance $\)](../Topic/\($%20N_772%20Inventory%20Performance%20$\).md).  
+ You can view the same item performance indicators in a chart. For more information, see [Inventory Performance](../Topic/\($%20N_772%20Inventory%20Performance%20$\).md).  
   
 ## See Also  
  [How to: View Inventory Analysis Information by Dimensions](../BusinessIntelligence/how-to-view-inventory-analysis-information-by-dimensions.md)   
  [How to: Update Inventory Analysis Views](../BusinessIntelligence/how-to-update-inventory-analysis-views.md)   
- [\($ T\_348 Dimension $\)](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)
+ [Dimension](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)

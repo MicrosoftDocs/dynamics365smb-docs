@@ -49,16 +49,16 @@ To convert material into produced end items, production resources, such as machi
   
 |**To**|**See**|  
 |------------|-------------|  
-|Configure the manufacturing features, such as defining shop floor work hours and selecting planning principles.|[\($ N\_99000768 Manufacturing Setup $\)](../Topic/\($%20N_99000768%20Manufacturing%20Setup%20$\).md)|  
-|Specify which capacity unit, such as minutes or hours, is used to record capacity.|[\($ T\_99000780 Capacity Unit of Measure $\)](../Production/-$-t_99000780-capacity-unit-of-measure-$-.md)|  
+|Configure the manufacturing features, such as defining shop floor work hours and selecting planning principles.|[Manufacturing Setup](../Topic/\($%20N_99000768%20Manufacturing%20Setup%20$\).md)|  
+|Specify which capacity unit, such as minutes or hours, is used to record capacity.|[Capacity Unit of Measure](../Production/-$-t_99000780-capacity-unit-of-measure-$-.md)|  
 |Define a standard working week in terms of starting and ending times of each work day and related work shift.|[How to: Create Work Center Calendars](../OperationsPlanning/how-to-create-work-center-calendars.md)|  
 |Organize fixed values and requirements of one production resource to govern the output of production performed in that machine center.|[How to: Set Up Machine Centers](../Production/how-to-set-up-machine-centers.md)|  
 |Organize fixed values and requirements of multiple machine centers to govern the output of production performed in that work center.|[How to: Set Up Work Centers](../Production/how-to-set-up-work-centers.md)|  
 |Specify the working days or hours, shifts, holidays, and absence that determine the machine or work center’s gross available capacity \(measured in time\) according to its defined efficiency and capacity values.|[How to: Create Work Center Calendars](../OperationsPlanning/how-to-create-work-center-calendars.md)|  
 |Plan how machine centers add to the capacity of work centers using consolidated calendars.|[Example \- Different Machine Centers Assigned  to a Work Center](../Production/example-different-machine-centers-assigned-to-a-work-center.md)|  
 |Group multiple work centers in one department, such as the production department.|[How to: Set Up Work Center Groups](../Production/how-to-set-up-work-center-groups.md)|  
-|Define families of production items with similar manufacturing processes.|[\($ N\_99000790 Family $\)](../Production/-$-n_99000790-family-$-.md)|  
-|Specify if expected output quantities should be preset when reporting output.|[\($ T\_99000765\_5500 Preset Output Quantity $\)](../Production/-$-t_99000765_5500-preset-output-quantity-$-.md)|  
+|Define families of production items with similar manufacturing processes.|[Family](../Production/-$-n_99000790-family-$-.md)|  
+|Specify if expected output quantities should be preset when reporting output.|[Preset Output Quantity](../Production/-$-t_99000765_5500-preset-output-quantity-$-.md)|  
 |Prepare work centers and routings to represent subcontracted production operations.|[About Subcontracting](../OperationsPlanning/about-subcontracting.md)|  
   
 ## See Also  

@@ -39,7 +39,7 @@ You use analysis reports to analyze the dynamics of your sales according to key 
   
 4.  Fill in the **Analysis Line Template Name** field and the **Analysis Column Template Name** field.  
   
-5.  On the **Home** tab, in the **Process** group, choose **Edit Analysis Report**. The **\($ N\_7117 Sales Analysis Report $\)** window opens.  
+5.  On the **Home** tab, in the **Process** group, choose **Edit Analysis Report**. The **Sales Analysis Report** window opens.  
   
 6.  On the **Home** tab, in the **Process** group, choose **Show Matrix** to view the report that you have created.  
   

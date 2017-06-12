@@ -47,7 +47,7 @@ When the customer brings in a service item for repair, you can assign a fault co
   
 ### To register fault codes  
   
-1.  In the **Search** box, enter **\($ N\_5915 Service Tasks $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Service Tasks**, and then choose the related link.  
   
 2.  Select the service task that includes the relevant service item.  
   

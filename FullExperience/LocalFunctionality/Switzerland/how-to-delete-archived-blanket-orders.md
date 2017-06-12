@@ -27,7 +27,7 @@ You can delete the archived versions of deleted blanket sales orders and blanket
   
 1.  In the **Search** box, enter **Delete Archived Blanket Sales Order Versions**, and then choose the related link.  
   
-2.  In the **\($ B\_5005130 Del. Bl. Sales Order Versions $\)** batch job, on the **Sales Header Archive** FastTab, select the appropriate filters.  
+2.  In the **Del. Bl. Sales Order Versions** batch job, on the **Sales Header Archive** FastTab, select the appropriate filters.  
   
 3.  Choose the **OK** button.  
   
@@ -39,4 +39,4 @@ You can delete the archived versions of deleted blanket sales orders and blanket
  [How to: Archive Blanket Orders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-archive-blanket-orders.md)   
  [How to: Create an Order from an Archived Blanket Order](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-create-an-order-from-an-archived-blanket-order.md)   
  [How to: Track Document Lines](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-track-document-lines.md)   
- [\($ B\_5005130 Del. Bl. Sales Order Versions $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/-$-b_5005130-del.-bl.-sales-order-versions-$-.md)
+ [Del. Bl. Sales Order Versions](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/-$-b_5005130-del.-bl.-sales-order-versions-$-.md)

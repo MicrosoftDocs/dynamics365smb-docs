@@ -50,7 +50,7 @@ You can disable personalization for all users by modifying the profile. When you
 3.  Select the **Disable personalization** check box, and then choose the **OK** button.  
   
 ## See Also  
- [\($ S\_PERSONALIZATION Personalize the User Interface $\)](../SetupAndAdministration/-$-s_personalization-personalize-the-user-interface-$-.md)   
+ [Personalize the User Interface](../SetupAndAdministration/-$-s_personalization-personalize-the-user-interface-$-.md)   
  [How to: Cancel UI Personalization](../SetupAndAdministration/how-to-cancel-ui-personalization.md)   
  [Configure the User Interface](../SetupAndAdministration/configure-the-user-interface.md)   
  [Manage Profiles](../SetupAndAdministration/manage-profiles.md)

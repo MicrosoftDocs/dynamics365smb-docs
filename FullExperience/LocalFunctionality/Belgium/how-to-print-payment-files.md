@@ -21,7 +21,7 @@ After you have printed a test report and corrected all errors, you can print the
   
  A payment file contains either domestic, international, SEPA, or non\-euro SEPA payments. The file can be sent to a bank either on disk, by modem, or via Interbanks Standards Association Belgium \(Isabel\). You can only create one file for each posting date and each currency code. When you export the payments to a file, an accompanying note is printed, which can also be sent to the bank.  
   
- In the payment journal, the **\($ T\_2000001\_53 Status $\)** field on the exported lines will be set to **Posted**.  
+ In the payment journal, the **Status** field on the exported lines will be set to **Posted**.  
   
 ### To print a payment file  
   
@@ -32,12 +32,12 @@ After you have printed a test report and corrected all errors, you can print the
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**Batch Name**|Specify the batch name of the payment journal.|  
-    |**\($ N\_2000001\_1010024 Bank Account $\)**|Specify the bank account of the payment journal.|  
-    |**\($ N\_2000001\_1010028 Export Protocol $\)**|Specify the export protocol code of the payment journal line. Export protocols control which payment file will be generated in the payment journal.<br /><br /> You can have a mixture of export formats in a single batch, such as domestic, international, SEPA, or a combination of these. However, when exporting the payment lines to a file, you can only use one export format, or export protocol. **Note:**  By defining the export protocol, you also define the type of validation that will be performed in the payment journal.|  
+    |**Bank Account**|Specify the bank account of the payment journal.|  
+    |**Export Protocol**|Specify the export protocol code of the payment journal line. Export protocols control which payment file will be generated in the payment journal.<br /><br /> You can have a mixture of export formats in a single batch, such as domestic, international, SEPA, or a combination of these. However, when exporting the payment lines to a file, you can only use one export format, or export protocol. **Note:**  By defining the export protocol, you also define the type of validation that will be performed in the payment journal.|  
   
-3.  On the **Home** tab, in the **Process** group, choose **Check Payment Lines**. The **\($ N\_2000006 Export Check Error Logs $\)** window will open. This window will display any errors that may exist. If there are errors, you must fix the errors before you can continue. If there are no errors, on the **Home** tab, in the **Process** group, choose **Export Payment Lines**.  
+3.  On the **Home** tab, in the **Process** group, choose **Check Payment Lines**. The **Export Check Error Logs** window will open. This window will display any errors that may exist. If there are errors, you must fix the errors before you can continue. If there are no errors, on the **Home** tab, in the **Process** group, choose **Export Payment Lines**.  
   
-     The report that you specified in the **\($ T\_2000000\_5 Test Report ID $\)** field in the **\($ N\_2000000 EB Payment Journal Templates $\)** will open.  
+     The report that you specified in the **Test Report ID** field in the **EB Payment Journal Templates** will open.  
   
 4.  Choose the **Print** button.  
   

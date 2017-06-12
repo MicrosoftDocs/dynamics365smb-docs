@@ -39,7 +39,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Criteria for Transferring General Ledger Entries to Cost Entries
-It is important to understand the criteria for transferring general ledger entries to cost entries. During the transfer, the **\($ B\_1105 Transfer GL Entries to CA $\)** batch job uses the following criteria to determine if and how the general ledger entries are transferred.  
+It is important to understand the criteria for transferring general ledger entries to cost entries. During the transfer, the **Transfer GL Entries to CA** batch job uses the following criteria to determine if and how the general ledger entries are transferred.  
   
  General ledger entries are transferred if:  
   
@@ -63,7 +63,7 @@ It is important to understand the criteria for transferring general ledger entri
   
 -   The entries have a general ledger account that is not assigned a cost type.  
   
--   The entries have a posting date before the **\($ T\_1108\_2 Starting Date for G\/L Transfer $\)**.  
+-   The entries have a posting date before the **Starting Date for G\/L Transfer**.  
   
 -   The entries have been posted with a closing date. These are typically entries that set back the balance of the income statement at the end of the year.  
   

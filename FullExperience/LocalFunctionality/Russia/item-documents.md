@@ -16,7 +16,7 @@ translation.priority.ht:
   - "ru-ru"
 ---
 # Item Documents
-[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] includes several documents that you can use to manage your warehouse. This also includes reports that you must submit for official reporting, such as the [\($ R\_14919 Item Report TORG\-29 $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-r_14919-item-report-torg-29-$-.md), [\($ B\_14918 Items Receipt Act TORG\-1 $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-b_14918-items-receipt-act-torg-1-$-.md), and [\($ B\_14925 Receipt Deviations TORG\-2 $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-b_14925-receipt-deviations-torg-2-$-.md) reports.  
+[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] includes several documents that you can use to manage your warehouse. This also includes reports that you must submit for official reporting, such as the [Item Report TORG\-29](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-r_14919-item-report-torg-29-$-.md), [Items Receipt Act TORG\-1](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-b_14918-items-receipt-act-torg-1-$-.md), and [Receipt Deviations TORG\-2](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-b_14925-receipt-deviations-torg-2-$-.md) reports.  
   
  The following types of documents are useful for managing your warehouse:  
   
@@ -46,45 +46,45 @@ translation.priority.ht:
   
 1.  In the **Search** box, enter **Item Receipts**, and then choose the related link.  
   
-2.  In the header of the **\($ N\_12450 Item Receipt $\)** window, enter the fields described in the following table.  
+2.  In the header of the **Item Receipt** window, enter the fields described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_12451\_2 No. $\)**|Specifies the warehouse document header number.|  
-    |**\($ T\_12451\_3 Posting Description $\)**|Specifies the posting description.|  
-    |**\($ T\_12451\_7 Location Code $\)**|Specifies the value code that is filled in from the Location list.|  
-    |**\($ T\_12451\_23 Gen. Bus. Posting Group $\)**|Specifies the code of the general business posting group.|  
-    |**\($ T\_12451\_3 Posting Date $\)**<br /><br /> **\($ T\_12451\_5 Document Date $\)**|Specifies the working date that is filled in by default.|  
-    |**\($ T\_12451\_16 External Document No. $\)**|Enter the primary document number.|  
-    |**\($ T\_12451\_11 Purchaser Code $\)**|Specifies the value code that is selected from salespeople or purchasers.|  
-    |**\($ T\_12450\_30 Correction $\)**|Specifies if the entry is a correction.|  
-    |**\($ T\_12450\_21 Status $\)**|Specifies if the document is Open or Released.|  
+    |**No.**|Specifies the warehouse document header number.|  
+    |**Posting Description**|Specifies the posting description.|  
+    |**Location Code**|Specifies the value code that is filled in from the Location list.|  
+    |**Gen. Bus. Posting Group**|Specifies the code of the general business posting group.|  
+    |**Posting Date**<br /><br /> **Document Date**|Specifies the working date that is filled in by default.|  
+    |**External Document No.**|Enter the primary document number.|  
+    |**Purchaser Code**|Specifies the value code that is selected from salespeople or purchasers.|  
+    |**Correction**|Specifies if the entry is a correction.|  
+    |**Status**|Specifies if the document is Open or Released.|  
   
-3.  In the document lines of the **\($ N\_12450 Item Receipt $\)** window, enter the fields described in the following table.  
+3.  In the document lines of the **Item Receipt** window, enter the fields described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_12452\_3 Item No. $\)**|Specifies the item number from the Item List table.|  
-    |**\($ T\_12452\_8 Description $\)**|Specifies the item description.|  
-    |**\($ T\_12452\_13 Quantity $\)**|Specifies the number of item units.|  
-    |**\($ T\_12452\_5413 Reserve Quantity Inbnd $\)**|Specifies the item quantity reserved at the warehouse of the receiver.|  
-    |**\($ T\_12452\_16 Unit Amount $\)**|Specifies the price of a unit item.|  
-    |**\($ T\_12452\_37 Indirect Cost % $\)**|Specifies the indirect cost percent.|  
-    |**\($ T\_12452\_17 Unit Cost $\)**|Specifies the item unit cost of the receipt shipment line.|  
-    |**\($ T\_12452\_18 Amount $\)**|Specifies the transaction amount.|  
-    |**\($ T\_12452\_5407 Unit of Measure Code $\)**|Specifies the unit of measure code for the received items.|  
+    |**Item No.**|Specifies the item number from the Item List table.|  
+    |**Description**|Specifies the item description.|  
+    |**Quantity**|Specifies the number of item units.|  
+    |**Reserve Quantity Inbnd**|Specifies the item quantity reserved at the warehouse of the receiver.|  
+    |**Unit Amount**|Specifies the price of a unit item.|  
+    |**Indirect Cost %**|Specifies the indirect cost percent.|  
+    |**Unit Cost**|Specifies the item unit cost of the receipt shipment line.|  
+    |**Amount**|Specifies the transaction amount.|  
+    |**Unit of Measure Code**|Specifies the unit of measure code for the received items.|  
   
-4.  In the **\($ N\_12450 Item Receipt $\)** window, on the **Navigate** tab, in the **Receipt** group, choose **Employee Signatures** to specify the signature of the person in charge.  
+4.  In the **Item Receipt** window, on the **Navigate** tab, in the **Receipt** group, choose **Employee Signatures** to specify the signature of the person in charge.  
   
 5.  Enter the fields described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_12420\_4 Employee Type $\)**|Specifies the type of the employee.|  
-    |**\($ T\_12420\_5 Employee No. $\)**|Specifies the employee number of the employee who must sign.|  
-    |**\($ T\_12420\_6 Employee Name $\)**|Specifies the values that are retrieved from the standard fields of the selected **\($ N\_5200 Employee Card $\)**.|  
+    |**Employee Type**|Specifies the type of the employee.|  
+    |**Employee No.**|Specifies the employee number of the employee who must sign.|  
+    |**Employee Name**|Specifies the values that are retrieved from the standard fields of the selected **Employee Card**.|  
   
-6.  To print an **Item Receipt** report from the **\($ N\_12450 Item Receipt $\)** window, on the **Report** tab, in the **General** group, choose **Item Document**.  
+6.  To print an **Item Receipt** report from the **Item Receipt** window, on the **Report** tab, in the **General** group, choose **Item Document**.  
   
 7.  Choose the **Print** button.  
   
@@ -114,28 +114,28 @@ translation.priority.ht:
   
 1.  In the **Search** box, enter **Item Shipments**, and then choose the related link.  
   
-2.  On the header of the **\($ N\_12452 Item Shipment $\)** window, enter the fields. These fields are the same as those on the **\($ N\_12450 Item Receipt $\)** window.  
+2.  On the header of the **Item Shipment** window, enter the fields. These fields are the same as those on the **Item Receipt** window.  
   
-3.  In the document lines of the **\($ N\_12452 Item Shipment $\)** window, enter the fields. These fields are the same as those on the **\($ N\_12450 Item Receipt $\)** form except for the following:  
+3.  In the document lines of the **Item Shipment** window, enter the fields. These fields are the same as those on the **Item Receipt** form except for the following:  
   
-    -   The **Indirect Cost** field is available only in the **\($ N\_12450 Item Receipt $\)** window.  
+    -   The **Indirect Cost** field is available only in the **Item Receipt** window.  
   
-    -   The fields in the following table are available only in the **\($ N\_12452 Item Shipment $\)** form.  
+    -   The fields in the following table are available only in the **Item Shipment** form.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_12455\_12450 FA No. $\)**|Specifies the fixed asset to write off items and materials.|  
-    |**\($ T\_12455\_12452 Depreciation Book Code $\)**|Specifies the fixed asset depreciation book to which the additional cost will be added.|  
+    |**FA No.**|Specifies the fixed asset to write off items and materials.|  
+    |**Depreciation Book Code**|Specifies the fixed asset depreciation book to which the additional cost will be added.|  
   
-4.  In the **\($ N\_12452 Item Shipment $\)** window on the **Navigate** tab, in the **Receipt** group, choose **Employee Signatures** to specify the signature of the person in charge.  
+4.  In the **Item Shipment** window on the **Navigate** tab, in the **Receipt** group, choose **Employee Signatures** to specify the signature of the person in charge.  
   
 5.  Enter the fields described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_12420\_4 Employee Type $\)**|Specifies the type of the employee.|  
-    |**\($ T\_12420\_5 Employee No. $\)**|Specifies the employee number of the employee who must sign.|  
-    |**\($ T\_12420\_6 Employee Name $\)**|Specifies the values that are retrieved from the standard fields of the selected **\($ N\_5200 Employee Card $\)**.|  
+    |**Employee Type**|Specifies the type of the employee.|  
+    |**Employee No.**|Specifies the employee number of the employee who must sign.|  
+    |**Employee Name**|Specifies the values that are retrieved from the standard fields of the selected **Employee Card**.|  
   
 6.  Choose the **Print** button.  
   
@@ -178,7 +178,7 @@ translation.priority.ht:
  [Inventory Setup](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/inventory-setup.md)   
  [Item Obligatory Acts](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/item-obligatory-acts.md)   
  [Item General Ledger Turnover](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/item-general-ledger-turnover.md)   
- [\($ R\_14919 Item Report TORG\-29 $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-r_14919-item-report-torg-29-$-.md)   
- [\($ B\_14918 Items Receipt Act TORG\-1 $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-b_14918-items-receipt-act-torg-1-$-.md)   
- [\($ B\_14925 Receipt Deviations TORG\-2 $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-b_14925-receipt-deviations-torg-2-$-.md)   
- [\($ R\_14976 Transfer Order TORG\-13 $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-r_14976-transfer-order-torg-13-$-.md)
+ [Item Report TORG\-29](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-r_14919-item-report-torg-29-$-.md)   
+ [Items Receipt Act TORG\-1](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-b_14918-items-receipt-act-torg-1-$-.md)   
+ [Receipt Deviations TORG\-2](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-b_14925-receipt-deviations-torg-2-$-.md)   
+ [Transfer Order TORG\-13](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-r_14976-transfer-order-torg-13-$-.md)

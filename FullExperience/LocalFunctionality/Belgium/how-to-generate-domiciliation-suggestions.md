@@ -23,17 +23,17 @@ After you have set up domiciliations, you can start generating domiciliation sug
   
 1.  In the **Search** box, enter **Domiciliation Journal**, and then choose the related link.  
   
-2.  In the **\($ N\_2000022\_69 Batch Name $\)** field, select the required journal batch, and on the **Home** tab, in the **Progress** group, choose **Suggest Domiciliations**.  
+2.  In the **Batch Name** field, select the required journal batch, and on the **Home** tab, in the **Progress** group, choose **Suggest Domiciliations**.  
   
 3.  On the **Options** FastTab, fill in the fields as displayed in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ B\_2000039\_F\_1\_3 Due Date $\)**|Enter the due date to be included in the batch job. Only entries that have a due date before or on this date will be included.|  
-    |**\($ B\_2000039\_F\_1\_14 Take Payment Discounts $\)**|Select if you want the batch job to include customer ledger entries for which you can receive a payment discount.|  
-    |**\($ B\_2000039\_F\_1\_7 Payment Discount Date $\)**|Enter the date that will be used to calculate the payment discount.|  
-    |**\($ B\_2000039\_F\_1\_1 Select Possible Refunds $\)**|Select if you want the batch job to include refunds.|  
-    |**\($ B\_2000039\_F\_1\_12 Posting Date $\)**|Enter the date that will appear as the posting date on the lines that the batch job inserts in the domiciliation journal.|  
+    |**Due Date**|Enter the due date to be included in the batch job. Only entries that have a due date before or on this date will be included.|  
+    |**Take Payment Discounts**|Select if you want the batch job to include customer ledger entries for which you can receive a payment discount.|  
+    |**Payment Discount Date**|Enter the date that will be used to calculate the payment discount.|  
+    |**Select Possible Refunds**|Select if you want the batch job to include refunds.|  
+    |**Posting Date**|Enter the date that will appear as the posting date on the lines that the batch job inserts in the domiciliation journal.|  
   
 4.  On the **Customer** FastTab, enter any additional filter criteria.  
   

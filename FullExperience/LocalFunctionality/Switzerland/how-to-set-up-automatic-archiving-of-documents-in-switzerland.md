@@ -31,16 +31,16 @@ You can set up automatic archiving of sales documents and purchase documents—s
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_311\_5005132 Archiving Sales Quote $\)**|**Never** to never archive sales quotes when they are deleted.<br /><br /> –or–<br /><br /> **Question** to prompt the user to choose whether to archive sales quotes when they are deleted.<br /><br /> –or–<br /><br /> **Always** to archive sales quotes automatically when they are deleted.|  
-    |**\($ T\_311\_5005133 Archiving Blanket Sales Orders $\)**|Select to archive blanket sales orders automatically each time they are deleted.|  
-    |**\($ T\_311\_5005130 Arch. Orders and Ret. Orders $\)**|Select to automatically archive sales orders each time they are deleted.|  
-    |**\($ T\_311\_11511 Automatic Interaction Log $\)**|Select to automatically create an entry for the contact in the interaction log when a sales order or partial shipment is posted, or when a sales quote is converted into a sales order. **Note:**  This field is not available on the **Purchases & Payables Setup** page.|  
+    |**Archiving Sales Quote**|**Never** to never archive sales quotes when they are deleted.<br /><br /> –or–<br /><br /> **Question** to prompt the user to choose whether to archive sales quotes when they are deleted.<br /><br /> –or–<br /><br /> **Always** to archive sales quotes automatically when they are deleted.|  
+    |**Archiving Blanket Sales Orders**|Select to archive blanket sales orders automatically each time they are deleted.|  
+    |**Arch. Orders and Ret. Orders**|Select to automatically archive sales orders each time they are deleted.|  
+    |**Automatic Interaction Log**|Select to automatically create an entry for the contact in the interaction log when a sales order or partial shipment is posted, or when a sales quote is converted into a sales order. **Note:**  This field is not available on the **Purchases & Payables Setup** page.|  
   
 3.  Choose the **OK** button.  
   
 ## See Also  
  [Swiss Purchase Documents and Sales Documents](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/swiss-purchase-documents-and-sales-documents.md)   
- [\($ T\_311 Sales & Receivables Setup $\)](../Topic/\($%20T_311%20Sales%20&%20Receivables%20Setup%20$\).md)   
+ [Sales & Receivables Setup](../Topic/\($%20T_311%20Sales%20&%20Receivables%20Setup%20$\).md)   
  [How to: Import Swiss Post Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-import-swiss-post-codes.md)   
  [How to: Print an Inventory Picking List from a Sales Order](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order.md)   
  [How to: Print Sales and Purchase Orders During Batch Posting](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-print-sales-and-purchase-orders-during-batch-posting.md)

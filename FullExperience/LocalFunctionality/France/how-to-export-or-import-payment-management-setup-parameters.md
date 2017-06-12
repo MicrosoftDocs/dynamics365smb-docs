@@ -35,7 +35,7 @@ You can export or import payment management setup parameters to an external disk
   
 1.  In the **Search** box, enter **Payment Slip Setup**, and then choose the relevant link.  
   
-2.  In the **\($ N\_10864 Payment Class $\)** window, on the **Actions** tab, in the **Functions** group, choose **Export Parameters**.  
+2.  In the **Payment Class** window, on the **Actions** tab, in the **Functions** group, choose **Export Parameters**.  
   
      To import a parameter, choose **Import Parameter**, select the file, and then choose **Open**.  
   
@@ -51,4 +51,4 @@ You can export or import payment management setup parameters to an external disk
  [How to: Set Up Payment Addresses](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-set-up-payment-addresses.md)   
  [How to: Create Payment Slips](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-create-payment-slips.md)   
  [How to: Archive Payment Slips](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-archive-payment-slips.md)   
- [\($ T\_10860 Payment Class $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/-$-t_10860-payment-class-$-.md)
+ [Payment Class](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/-$-t_10860-payment-class-$-.md)

@@ -46,19 +46,19 @@ Each warehouse item that you want to use with ADCS must be assigned an identifie
   
 1.  In the **Search** box, enter **Items**, and then choose the related link.  
   
-2.  Select an item from the list that is part of your ADCS solution. On the **Home** tab, in the **Manage** group, choose **Edit**. The **\($ N\_30 Item Card $\)** window opens.  
+2.  Select an item from the list that is part of your ADCS solution. On the **Home** tab, in the **Manage** group, choose **Edit**. The **Item Card** window opens.  
   
-3.  On the **Navigate** tab, in the **Master Data** group, choose **Identifiers**. The **\($ N\_7707 Item Identifiers List $\)** window opens.  
+3.  On the **Navigate** tab, in the **Master Data** group, choose **Identifiers**. The **Item Identifiers List** window opens.  
   
-4.  On the **Home** tab, choose **New**. In the **\($ T\_7704\_1 Code $\)** field, specify the identifier for the item. For example, the identifier could be the item's bar code number.  
+4.  On the **Home** tab, choose **New**. In the **Code** field, specify the identifier for the item. For example, the identifier could be the item's bar code number.  
   
      You can also enter a **Variant Code** and a **Unit of Measure** code.  
   
      If needed, enter multiple codes for each item. Choose **New** again to specify another identifier code. Choose the **OK** button.  
   
-5.  To review the information, expand the **Warehouse** FastTab and choose the **\($ T\_27\_7700 Identifier Code $\)** field. The **\($ N\_7707 Item Identifiers List $\)** window opens. You can review the information that you have entered.  
+5.  To review the information, expand the **Warehouse** FastTab and choose the **Identifier Code** field. The **Item Identifiers List** window opens. You can review the information that you have entered.  
   
 ## See Also  
  [Use Automated Data Capture Systems \(ADCS\)](../WarehouseActivities/use-automated-data-capture-systems-adcs-.md)   
- [\($ T\_7704 Item Identifier $\)](../Topic/\($%20T_7704%20Item%20Identifier%20$\).md)   
- [\($ N\_7707 Item Identifiers List $\)](../Topic/\($%20N_7707%20Item%20Identifiers%20List%20$\).md)
+ [Item Identifier](../Topic/\($%20T_7704%20Item%20Identifier%20$\).md)   
+ [Item Identifiers List](../Topic/\($%20N_7707%20Item%20Identifiers%20List%20$\).md)

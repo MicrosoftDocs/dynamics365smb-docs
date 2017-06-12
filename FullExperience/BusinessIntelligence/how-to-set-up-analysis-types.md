@@ -43,7 +43,7 @@ For each column, except for the column type **Formula**, that you set up in the 
   
 ### To set up analysis types  
   
-1.  In the **Search** box, enter **\($ N\_7110 Analysis Types $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Analysis Types**, and then choose the related link.  
   
 2.  In the **Code** field, enter a unique code that identifies the analysis type. In the **Name** field, enter a description of the analysis type.  
   

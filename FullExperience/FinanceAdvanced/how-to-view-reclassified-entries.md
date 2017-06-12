@@ -25,7 +25,7 @@ translation.priority.ht:
   - "en-zw"
 ---
 # How to: View Reclassified Entries
-You can print the **\($ R\_5606 Fixed Asset \- Book Value 02 $\)** report to see the reclassified entries.  
+You can print the **Fixed Asset \- Book Value 02** report to see the reclassified entries.  
   
 ### To view reclassified entries  
   
@@ -45,4 +45,4 @@ You can print the **\($ R\_5606 Fixed Asset \- Book Value 02 $\)** report to see
  [How to: Split Up Fixed Assets](../Finance/how-to-split-up-fixed-assets.md)   
  [Fixed Assets Reports](../Finance/fixed-assets-reports.md)   
  [Transfer, Split, or Combine Assets](../Finance/transfer-split-or-combine-assets.md)   
- [\($ R\_5606 Fixed Asset \- Book Value 02 $\)](../Topic/\($%20R_5606%20Fixed%20Asset%20-%20Book%20Value%2002%20$\).md)
+ [Fixed Asset \- Book Value 02](../Topic/\($%20R_5606%20Fixed%20Asset%20-%20Book%20Value%2002%20$\).md)

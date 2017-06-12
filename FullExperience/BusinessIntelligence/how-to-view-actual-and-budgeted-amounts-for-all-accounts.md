@@ -68,5 +68,5 @@ You can view general ledger budgets and compare them with actual figures in seve
  [How to: View Actual and Budgeted Amounts for Several Periods](../BusinessIntelligence/how-to-view-actual-and-budgeted-amounts-for-several-periods.md)   
  [How to: View Budgets](../BusinessIntelligence/how-to-view-budgets.md)   
  [How to: Set Up New Budgets](../Finance/how-to-set-up-new-budgets.md)   
- [\($ B\_96 Copy G\-L Budget $\)](../Topic/\($%20B_96%20Copy%20G-L%20Budget%20$\).md)   
- [\($ T\_348 Dimension $\)](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)
+ [Copy G\-L Budget](../Topic/\($%20B_96%20Copy%20G-L%20Budget%20$\).md)   
+ [Dimension](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)

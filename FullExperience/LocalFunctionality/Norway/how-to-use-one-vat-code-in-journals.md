@@ -37,21 +37,21 @@ In Norway, you can use the feature one VAT code in a journal, so that you can po
   
 2.  On the **Home** tab, choose **New**.  
   
-3.  In the **\($ N\_473 VAT Posting Setup $\)** card, fill in the following fields:  
+3.  In the **VAT Posting Setup** card, fill in the following fields:  
   
-    -   **\($ T\_325\_1 VAT Business Posting Group $\)**  
+    -   **VAT Business Posting Group**  
   
-    -   **\($ T\_325\_2 VAT Product Posting Group $\)**  
+    -   **VAT Product Posting Group**  
   
-    -   **\($ T\_325\_13 VAT Identifier $\)**  
+    -   **VAT Identifier**  
   
-    -   **\($ T\_325\_4 VAT Percentage $\)**  
+    -   **VAT Percentage**  
   
-    -   **\($ T\_325\_7 Sales VAT Account $\)**  
+    -   **Sales VAT Account**  
   
-    -   **\($ T\_325\_9 Purchase VAT Account $\)**  
+    -   **Purchase VAT Account**  
   
-4.  In the **\($ T\_325\_10606 VAT Code $\)** field, select a code from the list.  
+4.  In the **VAT Code** field, select a code from the list.  
   
  Now, when you post a document in the general journal and close it, the information specified in the **VAT Posting Setup** card is applied.  
   

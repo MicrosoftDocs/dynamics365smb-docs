@@ -43,7 +43,7 @@ The work center groups offer you the possibility for classifying work groups. Se
   
 ### To set up work center groups  
   
-1.  In the **Search** box, enter **\($ N\_99000758 Work Center Groups $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Work Center Groups**, and then choose the related link.  
   
 2.  Create a new work center group, and fill in a code and name for the new work center group.  
   
@@ -51,4 +51,4 @@ The work center groups offer you the possibility for classifying work groups. Se
   
 ## See Also  
  [Structure of the Capacity](../Production/structure-of-the-capacity.md)   
- [\($ N\_99000754 Work Center Card $\)](../Topic/\($%20N_99000754%20Work%20Center%20Card%20$\).md)
+ [Work Center Card](../Topic/\($%20N_99000754%20Work%20Center%20Card%20$\).md)

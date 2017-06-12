@@ -17,11 +17,11 @@ manager: "edupont"
 # How to: Set Up Standard Sales or Purchase Lines
 In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can specify how the standard sales or purchase codes will be entered when you are creating the specified sales or purchase documents.  
   
- The following procedure describes how to set up a standard sales line, but the same steps apply to setting up standard purchase lines in the **\($ N\_460 Purchases & Payables Setup $\)** window.  
+ The following procedure describes how to set up a standard sales line, but the same steps apply to setting up standard purchase lines in the **Purchases & Payables Setup** window.  
   
 ### To set up a standard sales line  
   
-1.  In the **Search**  box, enter **\($ N\_459 Sales & Receivables Setup $\)**, and then choose the related link.  
+1.  In the **Search**  box, enter **Sales & Receivables Setup**, and then choose the related link.  
   
 2.  On the **Std. Customer Sales Codes** FastTab, fill in the fields as described in the following table.  
   
@@ -37,5 +37,5 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can sp
   
 ## See Also  
  [OBSOLETE: Standard Purchase Codes and Standard Sales Codes](../Topic/OBSOLETE:%20Standard%20Purchase%20Codes%20and%20Standard%20Sales%20Codes.md)   
- [\($ N\_459 Sales & Receivables Setup $\)\-duplicate](../../Sales/-$-n_459-sales-receivables-setup-$-duplicate.md)   
- [\($ N\_460 Purchases & Payables Setup $\)](../../Purchasing/-$-n_460-purchases-payables-setup-$-.md)
+ [Sales & Receivables Setup\-duplicate](../../Sales/-$-n_459-sales-receivables-setup-$-duplicate.md)   
+ [Purchases & Payables Setup](../../Purchasing/-$-n_460-purchases-payables-setup-$-.md)

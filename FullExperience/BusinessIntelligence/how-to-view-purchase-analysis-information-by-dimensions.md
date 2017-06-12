@@ -47,7 +47,7 @@ In the **Purchase Analysis by Dimensions** matrix, you can look at the amounts i
   
 2.  Select the view that you want to analyze. On the **Home** tab, in the **Process** group, choose **Edit Analysis View**.  
   
-3.  In the **\($ N\_7157 Purch. Analysis by Dimensions $\)** window, fill in the fields to define the analysis view.  
+3.  In the **Purch. Analysis by Dimensions** window, fill in the fields to define the analysis view.  
   
     > [!TIP]  
     >  The **Options** FastTab gives you many different choices to view the amounts according to your needs.  
@@ -63,11 +63,11 @@ In the **Purchase Analysis by Dimensions** matrix, you can look at the amounts i
 > [!NOTE]  
 >  You can use the **Dimensions \- Detail** report to display a detailed classification of how dimensions have been used on entries over a selected period. You can use the **Dimensions \- Total** report to display only the total amounts.  
   
- You can also view the purchase analysis figures in a chart. For more information, see [\($ N\_771 Purchase Performance $\)](../Topic/\($%20N_771%20Purchase%20Performance%20$\).md).  
+ You can also view the purchase analysis figures in a chart. For more information, see [Purchase Performance](../Topic/\($%20N_771%20Purchase%20Performance%20$\).md).  
   
 ## See Also  
- [\($ N\_7157 Purch. Analysis by Dimensions $\)](../Topic/\($%20N_7157%20Purch.%20Analysis%20by%20Dimensions%20$\).md)   
+ [Purch. Analysis by Dimensions](../Topic/\($%20N_7157%20Purch.%20Analysis%20by%20Dimensions%20$\).md)   
  [How to: Update Purchase Analysis Views](../BusinessIntelligence/how-to-update-purchase-analysis-views.md)   
  [How to: Set Up Purchase Analysis Views](../BusinessIntelligence/how-to-set-up-purchase-analysis-views.md)   
  [How to: Edit Specific Charts](../Topic/How%20to:%20Edit%20Specific%20Charts.md)   
- [\($ T\_348 Dimension $\)](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)
+ [Dimension](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)

@@ -55,9 +55,9 @@ Instead of using a general journal to post an import VAT invoice, you can use a 
   
 5.  On the **Posting** FastTab, select the **Gen. Prod. Posting Group** setup for import VAT. [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] automatically fills in the **VAT Prod. Posting Group** field.  
   
-6.  In the **Search** box, enter **\($ N\_314 General Posting Setup $\)**, and then choose the related link.  
+6.  In the **Search** box, enter **General Posting Setup**, and then choose the related link.  
   
-     In the **\($ N\_314 General Posting Setup $\)** window, create a combination of the **Gen. Bus. Posting Group** for the VAT authority and the **Gen. Prod. Posting Group** for import VAT. For this new combination, in the **Purchase Account** field, select the import VAT general ledger account.  
+     In the **General Posting Setup** window, create a combination of the **Gen. Bus. Posting Group** for the VAT authority and the **Gen. Prod. Posting Group** for import VAT. For this new combination, in the **Purchase Account** field, select the import VAT general ledger account.  
   
 ### To create a new invoice for the import authority vendor once you have completed the setup  
   

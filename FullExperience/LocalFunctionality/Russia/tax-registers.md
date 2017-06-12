@@ -44,8 +44,8 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can se
   
 |Window|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
 |------------|---------------------------------------|  
-|[\($ T\_17236 Tax Register Setup $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-t_17236-tax-register-setup-$-.md)|Specifies tax register details where you can set up and manage taxable profits and losses.|  
-|[\($ B\_17204 Create Tax Registers $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-b_17204-create-tax-registers-$-.md)|Creates the tax registers that you define using the **\($ N\_17201 Tax Register Setup $\)** window.|  
+|[Tax Register Setup](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-t_17236-tax-register-setup-$-.md)|Specifies tax register details where you can set up and manage taxable profits and losses.|  
+|[Create Tax Registers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-b_17204-create-tax-registers-$-.md)|Creates the tax registers that you define using the **Tax Register Setup** window.|  
   
 ## See Also  
  [How to: Set Up Tax Accounting](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-set-up-tax-accounting.md)   

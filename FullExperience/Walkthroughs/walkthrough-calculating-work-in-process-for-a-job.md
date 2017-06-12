@@ -94,9 +94,9 @@ With jobs, you can schedule the usage of your company's resources and keep track
   
 5.  On the **Actions** tab, in the **Functions** group, choose **WIP**, and then choose **Calculate WIP**.  
   
-6.  In the **\($ B\_1086 Job Calculate WIP $\)** window, you can select a job that you want to calculate WIP. On the **Job** FastTab, select **Deerfield** in the **No.** field.  
+6.  In the **Job Calculate WIP** window, you can select a job that you want to calculate WIP. On the **Job** FastTab, select **Deerfield** in the **No.** field.  
   
-7.  In the **Posting Date** field, enter a date that is later than the work date set for [!INCLUDE[demoname](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/demoname_md.md)] For more information, see [\($ S\_WORKDATE How to: Set the Work Date $\)](../WorkingWithDynamics/-$-s_workdate-how-to-set-the-work-date-$-.md) and [How to: Enter Dates and Times](../WorkingWithDynamics/how-to-enter-dates-and-times.md).  
+7.  In the **Posting Date** field, enter a date that is later than the work date set for [!INCLUDE[demoname](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/demoname_md.md)] For more information, see [How to: Set the Work Date](../WorkingWithDynamics/-$-s_workdate-how-to-set-the-work-date-$-.md) and [How to: Enter Dates and Times](../WorkingWithDynamics/how-to-enter-dates-and-times.md).  
   
 8.  In the **Document No.** field, enter **1**. This creates a document that you can refer to later for traceability.  
   
@@ -111,11 +111,11 @@ With jobs, you can schedule the usage of your company's resources and keep track
   
 #### To review WIP warnings  
   
-1.  In the **Search** box, enter **\($ N\_1027 Job WIP Cockpit $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Job WIP Cockpit**, and then choose the related link.  
   
 2.  Select the **Deerfield** job, and on the **Home** tab, in the **Process** group, choose **Show Warnings**.  
   
-3.  In the **\($ N\_1026 Job WIP Warnings $\)** window, review the warning associated with the job.  
+3.  In the **Job WIP Warnings** window, review the warning associated with the job.  
   
  After the accounting period ends, Tricia has to recalculate the WIP to include completed work to this point.  
   

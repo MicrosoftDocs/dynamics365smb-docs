@@ -50,7 +50,7 @@ Every posting that involves VAT creates an entry in the **VAT Entries** window. 
   
 1.  In the **Search** box, enter **G\/L Registers**, and then choose the related link.  
   
-2.  In the **\($ N\_116 G\/L Registers $\)** window, on the **Home** tab, in the **Process** group, choose **VAT Entries**.  
+2.  In the **G\/L Registers** window, on the **Home** tab, in the **Process** group, choose **VAT Entries**.  
   
 3.  Remove any filters.  
   

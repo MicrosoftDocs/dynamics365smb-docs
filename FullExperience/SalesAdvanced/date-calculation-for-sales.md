@@ -59,15 +59,15 @@ translation.priority.ht:
  If the items are not available to be picked on the shipment date, then a stock\-out warning is displayed.  
   
 ## Calculating the Earliest Possible Delivery Date  
- If you do not specify a requested delivery date on the sales order line, or if the requested delivery date cannot be met, then the earliest date on which that the items are available is calculated. That date is then entered in the **\($ T\_37\_10 Shipment Date $\)** field on the line, and the date on which you plan to ship the items as well as the date on which they will be delivered to the customer are calculated using the following formulas.  
+ If you do not specify a requested delivery date on the sales order line, or if the requested delivery date cannot be met, then the earliest date on which that the items are available is calculated. That date is then entered in the **Shipment Date** field on the line, and the date on which you plan to ship the items as well as the date on which they will be delivered to the customer are calculated using the following formulas.  
   
  shipment date \+ outbound whse. handling time \= planned shipment date  
   
  planned shipment date \+ shipping time \= planned delivery date  
   
 ## See Also  
- [\($ T\_36\_5790 Requested Delivery Date $\)](../Topic/\($%20T_36_5790%20Requested%20Delivery%20Date%20$\).md)   
- [\($ T\_37\_10 Shipment Date $\)](../Topic/\($%20T_37_10%20Shipment%20Date%20$\).md)   
+ [Requested Delivery Date](../Topic/\($%20T_36_5790%20Requested%20Delivery%20Date%20$\).md)   
+ [Shipment Date](../Topic/\($%20T_37_10%20Shipment%20Date%20$\).md)   
  [How to: Enter Outbound Warehouse Handling Time](../DesignAndEngineering/how-to-enter-outbound-warehouse-handling-time.md)   
  [How to: Set Up Shipping Agent Services](../Sales/how-to-set-up-shipping-agent-services.md)   
  [About Order Promising](../Sales/about-order-promising.md)   

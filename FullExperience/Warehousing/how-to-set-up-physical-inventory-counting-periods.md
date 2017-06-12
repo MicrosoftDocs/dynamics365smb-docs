@@ -50,7 +50,7 @@ A physical inventory is typically taken at some recurring interval, for example 
   
 ### To set up counting periods  
   
-1.  In the **Search** box, enter **\($ N\_7381 Phys. Invt. Counting Periods $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Phys. Invt. Counting Periods**, and then choose the related link.  
   
 2.  Fill in the **Code** field with a short descriptive code for the counting period.  
   
@@ -70,4 +70,4 @@ A physical inventory is typically taken at some recurring interval, for example 
   
 ## See Also  
  [How to: Perform a Physical Inventory](../DesignAndEngineering/how-to-perform-a-physical-inventory.md)   
- [\($ N\_7381 Phys. Invt. Counting Periods $\)](../Topic/\($%20N_7381%20Phys.%20Invt.%20Counting%20Periods%20$\).md)
+ [Phys. Invt. Counting Periods](../Topic/\($%20N_7381%20Phys.%20Invt.%20Counting%20Periods%20$\).md)

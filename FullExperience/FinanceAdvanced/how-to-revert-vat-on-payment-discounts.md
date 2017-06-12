@@ -34,7 +34,7 @@ If a payment discount has been calculated on the basis of an invoice amount that
   
 2.  On the **General** FastTab, select the **Adjust for Payment Disc.** field.  
   
-3.  Open the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**[\($ N\_472 VAT Posting Setup $\)](DynamicsNAV:////runpage?Page=472)** window, and select the **Adjust for Payment Discount** field on the lines for which you want to use the feature. [!INCLUDE[bp_choose_columns](../DesignAndEngineering/includes/bp_choose_columns_md.md)]  
+3.  Open the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**[VAT Posting Setup](DynamicsNAV:////runpage?Page=472)** window, and select the **Adjust for Payment Discount** field on the lines for which you want to use the feature. [!INCLUDE[bp_choose_columns](../DesignAndEngineering/includes/bp_choose_columns_md.md)]  
   
      Note that you must activate the **Adjust for Payments Disc.** field in both the general ledger setup in general and the VAT posting setup for specific combinations of a VAT business posting group and a VAT product posting group.  
   

@@ -49,7 +49,7 @@ The **My Job Queue** part shows the job queues entries that a user has started, 
   
 1.  In the navigation pane, choose **Role Center**.  
   
-2.  In the **\($ N\_675 My Job Queue $\)** part, review the job queue entries. You can review information about the job queue in the **Status** field.  
+2.  In the **My Job Queue** part, review the job queue entries. You can review information about the job queue in the **Status** field.  
   
 3.  To review the document related to an entry, select the entry, and then choose **Show Record**. The list window opens, On the **Navigate** tab, choose **Card**.  
   

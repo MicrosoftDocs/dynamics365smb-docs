@@ -35,7 +35,7 @@ You can run regular background processing such as email logging using a job queu
 > [!NOTE]  
 >  The email account that is used to configure email logging in [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] must have certain permissions with regard to the public folders.  
 >   
->  -   When you configure email logging setup in the **\($ N\_5094 Marketing Setup $\)** window, the user name that is used for the validation of setup must have **Read** access to the public folders.  
+>  -   When you configure email logging setup in the **Marketing Setup** window, the user name that is used for the validation of setup must have **Read** access to the public folders.  
 > -   When email logging is running on the [!INCLUDE[nav_server](../../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_server_md.md)], the user account credentials that are used on the server instance must have full **Read**, **Write**, and **Delete items** permission levels set on the public folders.  
 >   
 >  For more information, see [Managing Public Folder Permissions](http://go.microsoft.com/fwlink/?LinkId=246183).  

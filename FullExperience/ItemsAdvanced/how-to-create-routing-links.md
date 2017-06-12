@@ -85,9 +85,9 @@ You can create routing links to connect components to specific operations in ord
  The selected components will now be linked to the selected operations when you create or refresh a production order using the production BOM and routing in question. This is visible in the **Prod. Order Components** window under the production order, and here you can also remove and add the defined routing link codes at any time.  
   
 ## See Also  
- [\($ N\_5510 Production Journal $\)](../Topic/\($%20N_5510%20Production%20Journal%20$\).md)   
- [\($ N\_99000818 Prod. Order Components $\)](../Topic/\($%20N_99000818%20Prod.%20Order%20Components%20$\).md)   
- [\($ T\_5407\_19 Routing Link Code $\)](../Topic/\($%20T_5407_19%20Routing%20Link%20Code%20$\).md)   
+ [Production Journal](../Topic/\($%20N_5510%20Production%20Journal%20$\).md)   
+ [Prod. Order Components](../Topic/\($%20N_99000818%20Prod.%20Order%20Components%20$\).md)   
+ [Routing Link Code](../Topic/\($%20T_5407_19%20Routing%20Link%20Code%20$\).md)   
  [How to: Set Up Routing Link Codes](../DesignAndEngineering/how-to-set-up-routing-link-codes.md)   
  [How to: Refresh Production Orders](../OperationsPlanning/how-to-refresh-production-orders.md)   
  [How to: Flush Components According to Operation Output](../Production/how-to-flush-components-according-to-operation-output.md)

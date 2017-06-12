@@ -20,26 +20,26 @@ Prepayments are advance payments on purchase orders that are paid before the fin
   
 ### To set up vendor prepayments  
   
-1.  In the **Search** box, enter **\($ N\_460 Purchases & Payables Setup $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Purchases & Payables Setup**, and then choose the related link.  
   
-2.  On the **Numbering** FastTab, verify that the number series for the **\($ T\_312\_27 Posted Prepmt. Inv. Nos. $\)** is the same as the **\($ T\_312\_13 Posted Invoice Nos. $\)**. Also verify that the number series for **\($ T\_312\_28 Posted Prepmt. Cr. Memo Nos. $\)** is the same as the **\($ T\_312\_15 Posted Credit Memo Nos. $\)**.  
+2.  On the **Numbering** FastTab, verify that the number series for the **Posted Prepmt. Inv. Nos.** is the same as the **Posted Invoice Nos.**. Also verify that the number series for **Posted Prepmt. Cr. Memo Nos.** is the same as the **Posted Credit Memo Nos.**.  
   
 3.  On the **Prepayment** FastTab, enter the following information.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_312\_12400 Use Prepayment Account $\)**|Select to post prepayments using the special subaccount specified in the **\($ T\_93\_12400 Prepayment Account $\)** field in the **\($ N\_111 Vendor Posting Groups $\)** window.|  
-    |**\($ T\_312\_12425 Posted PD Doc. Nos. $\)**|Enter the code of the number series that you want to use for prepayment documents.|  
-    |**\($ T\_312\_12431 PD Doc. Nos. Type $\)**|Select if you want to use a number series or symbol to identify prepayment documents.|  
-    |**\($ T\_312\_12432 Symbol for PD Doc. $\)**|Enter a symbol to be printed on prepayment documents.|  
-    |**\($ T\_312\_12426 PD Gains Condition Dim Value $\)**|Enter the code for the dimension that is used to generate conditional prepayment gains.|  
-    |**\($ T\_312\_12427 PD Losses Condition Dim Value $\)**|Enter the code for the dimension that is used to generate conditional prepayment losses.|  
-    |**\($ T\_312\_12428 PD Gains Kind Dim Value $\)**|Enter the code for the dimension that is used to generate payment in kind prepayment gains.|  
-    |**\($ T\_312\_12429 PD Losses Kind Dim Value $\)**|Enter the code for the dimension that is used to generate payment in kind prepayment losses.|  
+    |**Use Prepayment Account**|Select to post prepayments using the special subaccount specified in the **Prepayment Account** field in the **Vendor Posting Groups** window.|  
+    |**Posted PD Doc. Nos.**|Enter the code of the number series that you want to use for prepayment documents.|  
+    |**PD Doc. Nos. Type**|Select if you want to use a number series or symbol to identify prepayment documents.|  
+    |**Symbol for PD Doc.**|Enter a symbol to be printed on prepayment documents.|  
+    |**PD Gains Condition Dim Value**|Enter the code for the dimension that is used to generate conditional prepayment gains.|  
+    |**PD Losses Condition Dim Value**|Enter the code for the dimension that is used to generate conditional prepayment losses.|  
+    |**PD Gains Kind Dim Value**|Enter the code for the dimension that is used to generate payment in kind prepayment gains.|  
+    |**PD Losses Kind Dim Value**|Enter the code for the dimension that is used to generate payment in kind prepayment losses.|  
   
-4.  Open the **\($ N\_111 Vendor Posting Groups $\)** window.  
+4.  Open the **Vendor Posting Groups** window.  
   
-5.  In the **\($ T\_93\_12400 Prepayment Account $\)** field, specify the general ledger accounts that you want to use for posting vendor prepayments.  
+5.  In the **Prepayment Account** field, specify the general ledger accounts that you want to use for posting vendor prepayments.  
   
 6.  Choose **Close** to close the window and save your entries.  
   

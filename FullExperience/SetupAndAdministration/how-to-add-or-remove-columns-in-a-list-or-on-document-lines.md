@@ -45,7 +45,7 @@ To get a better overview of the information that you need, you can customize lis
 > [!NOTE]  
 >  Depending on the setting in the **UI Elements Removal** field in the [!INCLUDE[nav_admin](../BusinessFunctionality/LoggingAndTrackingEmailInteractions/includes/nav_admin_md.md)], only fields that you have permissions for will appear in the list of columns to add or remove. For more information, see [How to: Specify When UI Elements Are Removed](../Topic/How%20to:%20Specify%20When%20UI%20Elements%20Are%20Removed.md).  
   
- You can make multiple customizations of the same page based on different access points to the page. For example, you can customize that columns in the **Sales Orders** window look different when the window is opened from the **Customer Card** window than when it is opened from your Role Center. The point from which you access the page to be customized is recorded in that specific page customization. Accordingly, there may be multiple customization records for the same page under your logon, as you can see in the **\($ N\_9191 Delete User Personalization $\)** window.  
+ You can make multiple customizations of the same page based on different access points to the page. For example, you can customize that columns in the **Sales Orders** window look different when the window is opened from the **Customer Card** window than when it is opened from your Role Center. The point from which you access the page to be customized is recorded in that specific page customization. Accordingly, there may be multiple customization records for the same page under your logon, as you can see in the **Delete User Personalization** window.  
   
 ### To add or remove columns in a list or on document lines  
   
@@ -63,12 +63,12 @@ To get a better overview of the information that you need, you can customize lis
     >  All customization of columns that you have ever made for this page under your current user logon or since you last used the **Restore Defaults** button are canceled. The layout of columns on the page is reset to the default configuration for your profile. For more information, see [How to: Cancel UI Personalization](../SetupAndAdministration/how-to-cancel-ui-personalization.md).  
   
 ## See Also  
- [\($ S\_PERSONALIZATION Personalize the User Interface $\)](../SetupAndAdministration/-$-s_personalization-personalize-the-user-interface-$-.md)   
+ [Personalize the User Interface](../SetupAndAdministration/-$-s_personalization-personalize-the-user-interface-$-.md)   
  [How to: Customize Ribbons](../SetupAndAdministration/how-to-customize-ribbons.md)   
  [How to: Customize FactBoxes](../SetupAndAdministration/how-to-customize-factboxes.md)   
  [How to: Specify When UI Elements Are Removed](../Topic/How%20to:%20Specify%20When%20UI%20Elements%20Are%20Removed.md)   
  [How to: Cancel UI Personalization](../SetupAndAdministration/how-to-cancel-ui-personalization.md)   
- [\($ N\_9191 Delete User Personalization $\)](../Topic/\($%20N_9191%20Delete%20User%20Personalization%20$\).md)   
+ [Delete User Personalization](../Topic/\($%20N_9191%20Delete%20User%20Personalization%20$\).md)   
  [Customize the User Interface](../SetupAndAdministration/customize-the-user-interface.md)   
- [Working with \($ P\_1 Product Name $\)](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)   
+ [Working with Product Name](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)   
  [Learn About the RoleTailored Design](../GettingStarted/learn-about-the-roletailored-design.md)

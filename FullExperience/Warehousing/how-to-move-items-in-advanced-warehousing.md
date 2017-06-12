@@ -45,7 +45,7 @@ In advanced warehouse configurations, that is, locations with directed put\-away
   
 #### To move items with the warehouse movement worksheet  
   
-1.  In the **Search** box, enter **\($ N\_7351 Movement Worksheet $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Movement Worksheet**, and then choose the related link.  
   
 2.  Enter the warehouse movement information on the worksheet lines as appropriate.  
   
@@ -75,7 +75,7 @@ In advanced warehouse configurations, that is, locations with directed put\-away
 >  If the location uses directed put\-away and pick, then you cannot manually move items in or out of bins of bin type RECEIVE, because items in such bins must be registered as being put away before they are part of available inventory.  
   
 ## See Also  
- [\($ T\_7326\_21 Qty. to Handle $\)](../Topic/\($%20T_7326_21%20Qty.%20to%20Handle%20$\).md)   
- [\($ N\_7315 Warehouse Movement $\)](../Topic/\($%20N_7315%20Warehouse%20Movement%20$\).md)   
+ [Qty. to Handle](../Topic/\($%20T_7326_21%20Qty.%20to%20Handle%20$\).md)   
+ [Warehouse Movement](../Topic/\($%20N_7315%20Warehouse%20Movement%20$\).md)   
  [How to: Plan Warehouse Movements in Worksheets](../WarehouseActivities/how-to-plan-warehouse-movements-in-worksheets.md)   
  [How to: Move Items Ad Hoc in Basic Warehousing](../WarehouseActivities/how-to-move-items-ad-hoc-in-basic-warehousing.md)

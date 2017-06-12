@@ -44,13 +44,13 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Post the Year-End Closing Entry-duplicate
-After you use the **\($ B\_94 Close Income Statement $\)** batch job to generate the year\-end closing entry or entries, you must open the journal you specified in the batch job, and then review and post the entries.  
+After you use the **Close Income Statement** batch job to generate the year\-end closing entry or entries, you must open the journal you specified in the batch job, and then review and post the entries.  
   
 ### To post the year end closing entry  
   
 1.  In the **Search** box, enter **General Journal**, and then choose the related link.  
   
-2.  In the **\($ N\_39 General Journal $\)** window, in the **Batch Name** field, select the batch that contains the closing entries.  
+2.  In the **General Journal** window, in the **Batch Name** field, select the batch that contains the closing entries.  
   
 3.  Review the entries.  
   
@@ -60,6 +60,6 @@ After you use the **\($ B\_94 Close Income Statement $\)** batch job to generate
 >  If an error is detected, an error message is displayed. If the posting is successful, the posted entries are removed from the journal. After posting is complete, an entry is posted to each income statement account so that its balance becomes zero and the year's result is transferred to the balance sheet.  
   
 ## See Also  
- [\($ B\_94 Close Income Statement $\)](../Finance/-$-b_94-close-income-statement-$-.md)   
+ [Close Income Statement](../Finance/-$-b_94-close-income-statement-$-.md)   
  [About Year\-End Processes](../Finance/about-year-end-processes.md)   
  [How to: Close Accounting Periods](../Finance/how-to-close-accounting-periods.md)

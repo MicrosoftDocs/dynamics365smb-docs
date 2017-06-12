@@ -74,12 +74,12 @@ If the **Replenishment System** field on the item card contains **Assembly**, th
 5.  In the **Quantity** field, enter how many units of the item that you want assembled.  
   
     > [!NOTE]  
-    >  If one or more components are not available to fulfill the entered assembly item quantity on the defined due date, then the **Assembly Availability** window automatically opens to provide detailed information about how many assembly items can be assembled based on component availability. For more information about this window, see [\($ N\_908 Assembly Availability $\)](../Topic/\($%20N_908%20Assembly%20Availability%20$\).md). [!INCLUDE[bp_windownoneditable](../LocalFunctionalityForMicrosoftDynamicsNav2016/includes/bp_windownoneditable_md.md)] When you close the window, the assembly order is created with availability alerts on the affected component lines.  
+    >  If one or more components are not available to fulfill the entered assembly item quantity on the defined due date, then the **Assembly Availability** window automatically opens to provide detailed information about how many assembly items can be assembled based on component availability. For more information about this window, see [Assembly Availability](../Topic/\($%20N_908%20Assembly%20Availability%20$\).md). [!INCLUDE[bp_windownoneditable](../LocalFunctionalityForMicrosoftDynamicsNav2016/includes/bp_windownoneditable_md.md)] When you close the window, the assembly order is created with availability alerts on the affected component lines.  
   
      The assembly order lines are automatically filled with the contents of the assembly BOM and with line quantities according to the assembly order header.  
   
     > [!NOTE]  
-    >  If the **Assembly Availability** window opened when you filled in the assembly order header, then each affected assembly order line contains a **Yes** in the **Avail. Warning** field with a link to detailed availability information. For more information, see [\($ N\_342 Check Availability $\)](../Topic/\($%20N_342%20Check%20Availability%20$\).md). You can resolve a component availability issue by postponing the starting date, replacing the component with another item, or selecting an available substitution if one is defined.  
+    >  If the **Assembly Availability** window opened when you filled in the assembly order header, then each affected assembly order line contains a **Yes** in the **Avail. Warning** field with a link to detailed availability information. For more information, see [Check Availability](../Topic/\($%20N_342%20Check%20Availability%20$\).md). You can resolve a component availability issue by postponing the starting date, replacing the component with another item, or selecting an available substitution if one is defined.  
   
 6.  In the **Quantity to Assemble** field, enter how many units of the assembly item that you want to post as output the next time that you post the assembly order. This quantity can be lower than the value in the **Quantity** field to reflect a partial output posting.  
   
@@ -96,12 +96,12 @@ If the **Replenishment System** field on the item card contains **Assembly**, th
      After posting succeeds, the assembly item is posted as output to the location code and potential bin code that are defined on the assembly order. For manually created assembly orders, the location may be copied from the **Default Location for Orders** setup field. For assemble\-to\-order flows, the location code may be copied from the sales order line.  
   
 ## See Also  
- [\($ N\_900 Assembly Order $\)](../WarehouseActivities/-$-n_900-assembly-order-$-.md)   
- [\($ T\_27\_5419 Replenishment System $\)](../Topic/\($%20T_27_5419%20Replenishment%20System%20$\).md)   
- [\($ T\_900\_46 Quantity to Assemble $\)](../Topic/\($%20T_900_46%20Quantity%20to%20Assemble%20$\).md)   
- [\($ N\_908 Assembly Availability $\)](../Topic/\($%20N_908%20Assembly%20Availability%20$\).md)   
- [\($ N\_342 Check Availability $\)](../Topic/\($%20N_342%20Check%20Availability%20$\).md)   
- [\($ T\_901\_46 Quantity to Consume $\)](../Topic/\($%20T_901_46%20Quantity%20to%20Consume%20$\).md)   
+ [Assembly Order](../WarehouseActivities/-$-n_900-assembly-order-$-.md)   
+ [Replenishment System](../Topic/\($%20T_27_5419%20Replenishment%20System%20$\).md)   
+ [Quantity to Assemble](../Topic/\($%20T_900_46%20Quantity%20to%20Assemble%20$\).md)   
+ [Assembly Availability](../Topic/\($%20N_908%20Assembly%20Availability%20$\).md)   
+ [Check Availability](../Topic/\($%20N_342%20Check%20Availability%20$\).md)   
+ [Quantity to Consume](../Topic/\($%20T_901_46%20Quantity%20to%20Consume%20$\).md)   
  [How to: Create Assembly BOMs](../DesignAndEngineering/how-to-create-assembly-boms.md)   
  [How to: Sell Items Assembled to Order](../Sales/how-to-sell-items-assembled-to-order.md)   
  [How to: Sell Inventory Items in Assemble\-to\-Order Flows](../Sales/how-to-sell-inventory-items-in-assemble-to-order-flows.md)   

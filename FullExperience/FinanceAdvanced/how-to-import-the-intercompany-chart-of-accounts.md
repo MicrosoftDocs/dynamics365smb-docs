@@ -49,7 +49,7 @@ Before you can complete this procedure, you need to have an XML file containing 
   
 1.  In the **Search** box, enter **IC Chart of Accounts**, and then choose the related link.  
   
-2.  In the **\($ N\_605 IC Chart of Accounts $\)** window, on the **Actions** tab, in the **Functions** group, choose **Import**.  
+2.  In the **IC Chart of Accounts** window, on the **Actions** tab, in the **Functions** group, choose **Import**.  
   
 3.  Specify the file name and location of the XML file and choose the **Open** button.  
   

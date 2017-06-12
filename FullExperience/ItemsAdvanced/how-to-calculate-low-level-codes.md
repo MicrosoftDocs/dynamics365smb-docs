@@ -23,7 +23,7 @@ Each item in a production BOM must have a low\-level code.
   
 ### To calculate low\-level codes  
   
-1.  In the **Search** box, enter **\($ N\_99000768 Manufacturing Setup $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Manufacturing Setup**, and then choose the related link.  
   
 2.  On the **General** FastTab, clear the **Dynamic Low\-Level Code** field, and then close the **Manufacturing Setup** window.  
   

@@ -43,7 +43,7 @@ You may want to change the skill codes assigned to service item groups, for exam
   
 ### To change skill codes for a service item group  
   
-1.  In the **Search** box, enter **\($ N\_5909 Service Item Groups $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Service Item Groups**, and then choose the related link.  
   
 2.  Select the service item group to which you want to assign a skill code. On the **Navigate** tab, in the **Resource** group, choose **Resource**, and then choose **Resource Skills.** The **Resource Skills** window opens.  
   

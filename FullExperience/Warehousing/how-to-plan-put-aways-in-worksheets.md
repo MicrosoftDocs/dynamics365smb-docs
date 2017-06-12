@@ -56,7 +56,7 @@ If your location requires both put\-away and receive processing, and you want to
   
 ### To plan instructions in the put\-away worksheet  
   
-1.  In the **Search** box, enter **\($ N\_7352 Put\-away Worksheet $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Put\-away Worksheet**, and then choose the related link.  
   
 2.  On the **Actions** tab, in the **Functions** group, choose **Get Warehouse Documents**. The **Put\-away Selection** window opens.  
   
@@ -94,6 +94,6 @@ If your location requires both put\-away and receive processing, and you want to
 8.  Choose the **OK** button, and the program creates the put\-away according to your requests.  
   
 ## See Also  
- [\($ N\_7352 Put\-away Worksheet $\)](../Topic/\($%20N_7352%20Put-away%20Worksheet%20$\).md)   
- [\($ N\_5770 Warehouse Put\-away $\)](../Topic/\($%20N_5770%20Warehouse%20Put-away%20$\).md)   
+ [Put\-away Worksheet](../Topic/\($%20N_7352%20Put-away%20Worksheet%20$\).md)   
+ [Warehouse Put\-away](../Topic/\($%20N_5770%20Warehouse%20Put-away%20$\).md)   
  [Put Items Away](../WarehouseActivities/put-items-away.md)

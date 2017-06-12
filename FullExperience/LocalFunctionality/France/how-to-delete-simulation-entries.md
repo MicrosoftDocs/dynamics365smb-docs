@@ -20,7 +20,7 @@ You can create and post simulation entries to the general ledger without affecti
   
 ### To delete simulation entries  
   
-1.  In the **Search** box, enter **\($ N\_10810 Simulation Registers $\)**, and then choose the relevant link.  
+1.  In the **Search** box, enter **Simulation Registers**, and then choose the relevant link.  
   
 2.  Select the simulation register that you want to delete.  
   

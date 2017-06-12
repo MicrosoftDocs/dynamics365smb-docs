@@ -44,7 +44,7 @@ If the flushing method is **Manual**, you must post the components manually, usi
   
 ### To post consumption manually  
   
-1.  In the **Search** box, enter **\($ N\_99000846 Consumption Journal $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Consumption Journal**, and then choose the related link.  
   
 2.  Fill in the fields with the production order data and the consumption data.  
   

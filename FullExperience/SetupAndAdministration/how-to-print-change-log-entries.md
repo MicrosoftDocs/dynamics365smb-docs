@@ -30,7 +30,7 @@ After you have set up the change log, activated it, and made changes to data, yo
   
 1.  In the **Search** box, enter **Change Log Entries**, and then choose the related link.  
   
-2.  In the **\($ N\_595 Change Log Entries $\)** window, on the **Home** tab, in the **Process** group, choose **Print**.  
+2.  In the **Change Log Entries** window, on the **Home** tab, in the **Process** group, choose **Print**.  
   
 3.  In the **Date and Time** field, enter the date or period for the change log entries that you want to print. You can also enter time.  
   

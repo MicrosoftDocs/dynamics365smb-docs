@@ -16,20 +16,20 @@ translation.priority.ht:
   - "en-au"
 ---
 # How to: Print Income Statements
-You can use the **\($ R\_28025 Income Statement $\)** report to view the company’s annual income statement.  
+You can use the **Income Statement** report to view the company’s annual income statement.  
   
  This is a legal report that is required for auditing accounts. This report displays the details of revenues and expenses for the current year and the previous year.  
   
 ### To print the income statement report  
   
-1.  In the **Search** box, enter **\($ R\_28025 Income Statement $\)**, and then choose the relevant link.  
+1.  In the **Search** box, enter **Income Statement**, and then choose the relevant link.  
   
-2.  In the **\($ R\_28025 Income Statement $\)** window, on the **Options** FastTab, fill in the fields as described in the following table.  
+2.  In the **Income Statement** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_28025\_N\_2\_1450002 Amounts in whole $\)**|Specifies the nearest unit to which the amount must be rounded.|  
-    |**\($ R\_28025\_N\_2\_1450001 Show Amounts in Add. Reporting Currency $\)**|Specifies if the amounts will be displayed in the additional reporting currency.|  
+    |**Amounts in whole**|Specifies the nearest unit to which the amount must be rounded.|  
+    |**Show Amounts in Add. Reporting Currency**|Specifies if the amounts will be displayed in the additional reporting currency.|  
   
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
@@ -40,4 +40,4 @@ You can use the **\($ R\_28025 Income Statement $\)** report to view the company
  [How to: Compare Bank Cash Flow](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-compare-bank-cash-flow.md)   
  [How to: Print Balance Sheet Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-print-balance-sheet-reports.md)   
  [How to: Print Goods and Service Tax Settlement Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-print-goods-and-service-tax-settlement-reports.md)   
- [\($ R\_28020 Bank Detail Cashflow Compare $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/-$-r_28020-bank-detail-cashflow-compare-$-.md)
+ [Bank Detail Cashflow Compare](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/-$-r_28020-bank-detail-cashflow-compare-$-.md)

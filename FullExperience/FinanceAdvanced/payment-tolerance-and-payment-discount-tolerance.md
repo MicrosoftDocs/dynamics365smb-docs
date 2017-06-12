@@ -83,6 +83,6 @@ You can set up payment tolerance to close an invoice when the payment does not f
  [How to: Set Up Tolerances](../Finance/how-to-set-up-tolerances.md)   
  [How to: Block Payment Tolerances for a Customer or a Vendor](../Finance/how-to-block-payment-tolerances-for-a-customer-or-a-vendor.md)   
  [How to: Enable or Disable Payment Tolerance Warnings](../Finance/how-to-enable-or-disable-payment-tolerance-warnings.md)   
- [\($ B\_34 Change Payment Tolerance $\)](../Topic/\($%20B_34%20Change%20Payment%20Tolerance%20$\).md)   
+ [Change Payment Tolerance](../Topic/\($%20B_34%20Change%20Payment%20Tolerance%20$\).md)   
  [Example  \- Tolerance Calculations for Single Document](../Finance/example----tolerance-calculations-for-single-document.md)   
  [Example  \- Tolerance Calculations for Multiple Document](../Finance/example----tolerance-calculations-for-multiple-document.md)

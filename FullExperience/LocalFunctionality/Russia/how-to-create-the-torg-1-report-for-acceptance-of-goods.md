@@ -15,7 +15,7 @@ translation.priority.ht:
   - "ru-ru"
 ---
 # How to: Create the TORG-1 Report for Acceptance of Goods
-The TORG\-1 report is used for the registration of incoming goods. This report lists receipts with quantity, quality, mass, and package contents according to the terms of an agreement. Depending on your setup, the batch job can be run when you choose the **Print** button in document windows such as the **\($ N\_50 Purchase Order $\)** window.  
+The TORG\-1 report is used for the registration of incoming goods. This report lists receipts with quantity, quality, mass, and package contents according to the terms of an agreement. Depending on your setup, the batch job can be run when you choose the **Print** button in document windows such as the **Purchase Order** window.  
   
 ### To create the TORG\-1 report  
   
@@ -25,15 +25,15 @@ The TORG\-1 report is used for the registration of incoming goods. This report l
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ B\_14918\_F\_1\_1210002 Show Actual Quantity $\)**|Specifies if the TORG\-1 report must include actual quantities for received items.|  
-    |**\($ B\_14918\_F\_1\_1210000 Order No. $\)**|Specifies the document number.|  
-    |**\($ B\_14918\_F\_1\_1210005 Order Date $\)**|Specifies the document date.|  
-    |**\($ B\_14918\_F\_1\_1210007 Operation Type $\)**|Specifies the report type.|  
+    |**Show Actual Quantity**|Specifies if the TORG\-1 report must include actual quantities for received items.|  
+    |**Order No.**|Specifies the document number.|  
+    |**Order Date**|Specifies the document date.|  
+    |**Operation Type**|Specifies the report type.|  
   
 3.  Choose the **OK** button.  
   
 ## See Also  
  [Inventory Setup](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/inventory-setup.md)   
- [\($ R\_14919 Item Report TORG\-29 $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-r_14919-item-report-torg-29-$-.md)   
- [\($ B\_14918 Items Receipt Act TORG\-1 $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-b_14918-items-receipt-act-torg-1-$-.md)   
- [\($ B\_14925 Receipt Deviations TORG\-2 $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-b_14925-receipt-deviations-torg-2-$-.md)
+ [Item Report TORG\-29](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-r_14919-item-report-torg-29-$-.md)   
+ [Items Receipt Act TORG\-1](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-b_14918-items-receipt-act-torg-1-$-.md)   
+ [Receipt Deviations TORG\-2](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-b_14925-receipt-deviations-torg-2-$-.md)

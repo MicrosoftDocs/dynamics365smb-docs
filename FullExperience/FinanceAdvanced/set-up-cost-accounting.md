@@ -49,7 +49,7 @@ Before you start working with cost accounting, you must perform setup tasks.
 |Learn about the connection between the cost type and the general ledger account.|[Defining the Relationship Between Cost Types and General Ledger Accounts](../Finance/defining-the-relationship-between-cost-types-and-general-ledger-accounts.md)|  
 |Create the chart of cost centers.|[How to: Set Up Cost Centers](../Finance/how-to-set-up-cost-centers.md)|  
 |Create the chart of cost objects.|[How to: Set Up Cost Objects](../Finance/how-to-set-up-cost-objects.md)|  
-|Set up rules for transferring the chart of cost types from the general ledger.|[\($ N\_1113 Cost Accounting Setup $\)](assetId:///e96b49f0-9859-461b-a7c8-f4039281860a)|  
+|Set up rules for transferring the chart of cost types from the general ledger.|[Cost Accounting Setup](assetId:///e96b49f0-9859-461b-a7c8-f4039281860a)|  
   
 ## See Also  
  [Manage Cost Accounting](../Finance/manage-cost-accounting.md)   

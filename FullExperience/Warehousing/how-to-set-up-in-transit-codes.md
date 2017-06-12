@@ -50,7 +50,7 @@ You can direct the flow of items through bins that you have defined for particul
   
 ### To set up the bin types you want to use  
   
-1.  In the **Search** box, enter **\($ N\_7306 Bin Types $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Bin Types**, and then choose the related link.  
   
 2.  In the **Bin Types** window, create a 10\-character code for a bin type.  
   
@@ -73,6 +73,6 @@ You can direct the flow of items through bins that you have defined for particul
 |QC|This bin is used for inventory adjustments if you specify this bin on the location card in the **Adjustment Bin Code** field. You can also set up bins of this type for defective items and items being inspected. You can move items to this type of bin if you want to make them inaccessible to the usual item flow.<br /><br /> **NOTE:** Unlike all other bin types, the **QC** bin type has none of the item handling check boxes selected by default. This indicates that any content you place in a QC bin is excluded from item flows.|  
   
 ## See Also  
- [\($ N\_7306 Bin Types $\)](../Topic/\($%20N_7306%20Bin%20Types%20$\).md)   
- [\($ N\_7374 Bin Contents $\)](../Topic/\($%20N_7374%20Bin%20Contents%20$\).md)   
+ [Bin Types](../Topic/\($%20N_7306%20Bin%20Types%20$\).md)   
+ [Bin Contents](../Topic/\($%20N_7374%20Bin%20Contents%20$\).md)   
  [How to: Set Up Locations to Use Bins](../WarehouseActivities/how-to-set-up-locations-to-use-bins.md)

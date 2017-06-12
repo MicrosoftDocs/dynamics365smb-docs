@@ -56,7 +56,7 @@ Although you count all items in inventory at least once a year, you may have dec
   
 ### To perform cycle counting without directed put\-away and pick  
   
-1.  In the **Search** box, enter **\($ N\_392 Phys. Inventory Journal $\)**, and choose the related link.  
+1.  In the **Search** box, enter **Phys. Inventory Journal**, and choose the related link.  
   
 2.  On the **Actions** tab, in the **Functions** group, choose **Calculate Counting Period**. The **Phys. Invt. Item Selection** window opens, which contains the items for which counting periods have been established that need to be counted, according to their counting periods.  
   
@@ -67,7 +67,7 @@ Although you count all items in inventory at least once a year, you may have dec
   
 4.  Choose the **OK** button, and the selected lines now appear in the **Phys. Inventory Journal** window.  
   
-5.  In the **Search** box, enter **\($ R\_722 Phys. Inventory List $\)**, and choose the related link.  
+5.  In the **Search** box, enter **Phys. Inventory List**, and choose the related link.  
   
 6.  Open the report request page and print the report, and count all the items in the warehouse with the item numbers on the report lines.  
   
@@ -77,7 +77,7 @@ Although you count all items in inventory at least once a year, you may have dec
   
 ### To perform cycle counting with directed put\-away and pick  
   
-1.  In the **Search** box, enter **\($ N\_7326 Whse. Phys. Invt. Journal $\)**, and choose the related link.  
+1.  In the **Search** box, enter **Whse. Phys. Invt. Journal**, and choose the related link.  
   
 2.  On the **Actions** tab, in the **Functions** group, choose **Counting Period**. The **Phys. Invt. Item Selection** window opens, containing the items or stockkeeping units for which counting periods have been established that need to be counted according to their counting periods.  
   
@@ -88,7 +88,7 @@ Although you count all items in inventory at least once a year, you may have dec
     > [!NOTE]  
     >  You must count the item in all the bins that contain the particular item. If you delete some of the bin lines that the program has retrieved for counting in the **Whse. Phys. Inventory** window, then you will not be counting all the items in the warehouse. If you later post such incomplete results in the Phys. Inventory Journal, the amounts posted will be incorrect.  
   
-5.  Print the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**[\($ R\_7307 Whse. Phys. Inventory List $\)](DynamicsNAV:////runreport?report=7307)** report without filtering out some of the lines.  
+5.  Print the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**[Whse. Phys. Inventory List](DynamicsNAV:////runreport?report=7307)** report without filtering out some of the lines.  
   
 6.  Count the items and note the quantities on the report.  
   

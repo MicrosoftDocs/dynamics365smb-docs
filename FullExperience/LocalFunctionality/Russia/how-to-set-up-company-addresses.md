@@ -28,12 +28,12 @@ If your company has different types of addresses, such as a legal address or an 
   
      Fill in the various fields, including those fields that specify the language and the type of address:  
   
-    -   **\($ T\_12425\_2 Language Code $\)**  
+    -   **Language Code**  
   
-    -   **\($ T\_12425\_20 Address Type $\)**  
+    -   **Address Type**  
   
 4.  Choose the **OK** button to close the window.  
   
 ## See Also  
  [Company Addresses](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/company-addresses.md)   
- [\($ T\_12425\_20 Address Type $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-t_12425_20-address-type-$-.md)
+ [Address Type](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-t_12425_20-address-type-$-.md)

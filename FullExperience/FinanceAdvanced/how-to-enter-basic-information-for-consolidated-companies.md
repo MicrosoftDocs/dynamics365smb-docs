@@ -52,7 +52,7 @@ To consolidate several companies' figures in a consolidated company, you must fi
   
 2.  In the **Search** box, enter **Business Units**, and then choose the related link.  
   
-3.  In the **\($ N\_241 Business Unit Card $\)** window, for each business unit, create a new business unit card. You must fill in the **Code**, **Company Name**, **Consolidate**, and **Consolidation %** fields. For Help about a specific field, choose the field and press F1.  
+3.  In the **Business Unit Card** window, for each business unit, create a new business unit card. You must fill in the **Code**, **Company Name**, **Consolidate**, and **Consolidation %** fields. For Help about a specific field, choose the field and press F1.  
   
 4.  If the business unit's financial statements are in a different currency than those of the consolidated company, the following fields are required: **Currency Code**, **Exch. Rate Gains Acc.**, **Exch. Rate Loss Acc.**, and **Residual Account**.  
   

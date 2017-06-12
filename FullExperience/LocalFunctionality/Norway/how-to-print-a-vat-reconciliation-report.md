@@ -16,7 +16,7 @@ translation.priority.ht:
   - "nb-no"
 ---
 # How to: Print a VAT Reconciliation Report
-The **\($ R\_10630 VAT Reconciliation $\)** report shows the reconciliation settlement for the base amount and the VAT amount for general ledger accounts. These amounts are grouped by different VAT types.  
+The **VAT Reconciliation** report shows the reconciliation settlement for the base amount and the VAT amount for general ledger accounts. These amounts are grouped by different VAT types.  
   
 ### To print the VAT reconciliation report  
   
@@ -26,8 +26,8 @@ The **\($ R\_10630 VAT Reconciliation $\)** report shows the reconciliation sett
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_10630\_N\_2\_1101100010 Show Details $\)**|Select if you want to include individual transactions.<br /><br /> If cleared, only one accumulated total will be printed for each account.|  
-    |**\($ R\_10630\_N\_2\_1101100012 Show Transactions without VAT $\)**|Select if you want to print a list of all transactions without VAT amounts.|  
+    |**Show Details**|Select if you want to include individual transactions.<br /><br /> If cleared, only one accumulated total will be printed for each account.|  
+    |**Show Transactions without VAT**|Select if you want to print a list of all transactions without VAT amounts.|  
   
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   

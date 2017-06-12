@@ -43,11 +43,11 @@ In the **Sales Analysis by Dimensions** matrix, you can look at the amounts in y
   
 ### To view sales analysis views by dimensions  
   
-1.  In the **Search** box, enter **\($ N\_7158 Sales Analysis by Dimensions $\)**, and then choose the related link. The **Analysis View List Sales** window opens.  
+1.  In the **Search** box, enter **Sales Analysis by Dimensions**, and then choose the related link. The **Analysis View List Sales** window opens.  
   
 2.  Select the view that you want to analyze. On the **Home** tab, in the **Process** group, choose **Edit Analysis View**.  
   
-3.  In the **\($ N\_7158 Sales Analysis by Dimensions $\)** window, fill in the fields to define the analysis view.  
+3.  In the **Sales Analysis by Dimensions** window, fill in the fields to define the analysis view.  
   
     > [!TIP]  
     >  The **Options** FastTab gives you many different choices to view the amounts according to your needs.  
@@ -64,8 +64,8 @@ In the **Sales Analysis by Dimensions** matrix, you can look at the amounts in y
 >  You can use the **Dimensions \- Detail** report to display a detailed classification of how dimensions have been used on entries over a selected period. You can use the **Dimensions \- Total** report to display only the total amounts.  
   
 ## See Also  
- [\($ R\_28 Dimensions \- Details $\)](../Topic/\($%20R_28%20Dimensions%20-%20Details%20$\).md)   
- [\($ R\_27 Dimensions \- Totals $\)](../Topic/\($%20R_27%20Dimensions%20-%20Totals%20$\).md)   
+ [Dimensions \- Details](../Topic/\($%20R_28%20Dimensions%20-%20Details%20$\).md)   
+ [Dimensions \- Totals](../Topic/\($%20R_27%20Dimensions%20-%20Totals%20$\).md)   
  [How to: Update Sales Analysis Views](../BusinessIntelligence/how-to-update-sales-analysis-views.md)   
  [How to: Set Up Sales Analysis Views](../BusinessIntelligence/how-to-set-up-sales-analysis-views.md)   
- [\($ T\_348 Dimension $\)](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)
+ [Dimension](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)

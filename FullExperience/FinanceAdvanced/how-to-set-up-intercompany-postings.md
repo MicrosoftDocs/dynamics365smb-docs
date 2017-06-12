@@ -49,9 +49,9 @@ The Intercompany Postings functionality lets you save time and errors on data en
   
 1.  In the **Search** box, enter **Company Information**, and then choose the related link.  
   
-2.  In the **\($ N\_1 Company Information $\)** window, on the **Communication** FastTab, fill in the **IC Partner Code**, **IC Inbox Type** and **IC Inbox Details** fields. For Help about a specific field, choose the field and press F1.  
+2.  In the **Company Information** window, on the **Communication** FastTab, fill in the **IC Partner Code**, **IC Inbox Type** and **IC Inbox Details** fields. For Help about a specific field, choose the field and press F1.  
   
-3.  Open the **\($ N\_608 IC Partner List $\)** to create and fill in a card for each of your partners.  
+3.  Open the **IC Partner List** to create and fill in a card for each of your partners.  
   
 4.  If you have set up your intercompany partners as customers and vendors, fill in the **IC Partner Code** field on the relevant customer and vendor cards.  
   
@@ -59,9 +59,9 @@ The Intercompany Postings functionality lets you save time and errors on data en
   
 6.  If you want to use dimensions on intercompany transactions, set up intercompany dimensions.  
   
-7.  If you create or receive intercompany lines with items, you can either use your own item numbers, or set up your partner's item numbers for each relevant item. You can do this either in the **\($ T\_27\_32 Vendor Item No. $\)** field or the **\($ T\_27\_99008500 Common Item No. $\)** field on the item card, or use the **\($ N\_5721 Item Cross Reference Entries $\)** window that is linked to the item card.  
+7.  If you create or receive intercompany lines with items, you can either use your own item numbers, or set up your partner's item numbers for each relevant item. You can do this either in the **Vendor Item No.** field or the **Common Item No.** field on the item card, or use the **Item Cross Reference Entries** window that is linked to the item card.  
   
-8.  If you will make intercompany transactions that include resources, you must fill in the **\($ T\_156\_60 IC Partner Purch. G\/L Acc. No. $\)** field on the resource card for each relevant resource.  
+8.  If you will make intercompany transactions that include resources, you must fill in the **IC Partner Purch. G\/L Acc. No.** field on the resource card for each relevant resource.  
   
  Now you can create intercompany transactions using the intercompany general journal or sales or purchase documents.  
   
@@ -73,4 +73,4 @@ The Intercompany Postings functionality lets you save time and errors on data en
  [How to: Handle Outgoing Intercompany Transactions](../Finance/how-to-handle-outgoing-intercompany-transactions.md)   
  [Setup of the Intercompany Chart of Accounts](../Finance/setup-of-the-intercompany-chart-of-accounts.md)   
  [Setup of the Intercompany Dimensions](../Finance/setup-of-the-intercompany-dimensions.md)   
- [\($ T\_27\_32 Vendor Item No. $\)](../Topic/\($%20T_27_32%20Vendor%20Item%20No.%20$\).md)
+ [Vendor Item No.](../Topic/\($%20T_27_32%20Vendor%20Item%20No.%20$\).md)

@@ -41,7 +41,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can ac
   
 ### To set up validation of total amounts for purchase documents  
   
-1.  In the **Search** box, enter **\($ N\_460 Purchases & Payables Setup $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Purchases & Payables Setup**, and then choose the related link.  
   
 2.  On the **General** FastTab, fill in the fields as described in the following table.  
   
@@ -53,5 +53,5 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can ac
 3.  Choose the **OK** button.  
   
 ## See Also  
- [\($ N\_460 Purchases & Payables Setup $\)](../../Purchasing/-$-n_460-purchases-payables-setup-$-.md)   
+ [Purchases & Payables Setup](../../Purchasing/-$-n_460-purchases-payables-setup-$-.md)   
  [Netherlands Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/netherlands-local-functionality.md)

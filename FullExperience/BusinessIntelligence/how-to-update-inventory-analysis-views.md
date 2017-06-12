@@ -42,11 +42,11 @@ translation.priority.ht:
 # How to: Update Inventory Analysis Views
 The amounts that are displayed in the **Invt. Analysis by Dimensions** window gives you a picture of the sales and purchases at the time of the last update. To get a picture of the actual state, you must update the item analysis view by choosing **Update**. You can do this in the following windows:  
   
--   In the **\($ N\_7150 Invt. Analysis View Card $\)** window.  
+-   In the **Invt. Analysis View Card** window.  
   
--   In the **\($ N\_7151 Analysis View List Inventory $\)** window.  
+-   In the **Analysis View List Inventory** window.  
   
- The following procedure shows how to update an analysis view from the **\($ N\_7151 Analysis View List Inventory $\)** window.  
+ The following procedure shows how to update an analysis view from the **Analysis View List Inventory** window.  
   
 ### To update an inventory analysis view  
   
@@ -62,4 +62,4 @@ The amounts that are displayed in the **Invt. Analysis by Dimensions** window gi
 ## See Also  
  [How to: Set Up Inventory Analysis Views](../BusinessIntelligence/how-to-set-up-inventory-analysis-views.md)   
  [How to: View Inventory Analysis Information by Dimensions](../BusinessIntelligence/how-to-view-inventory-analysis-information-by-dimensions.md)   
- [\($ T\_348 Dimension $\)](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)
+ [Dimension](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)

@@ -73,5 +73,5 @@ Depending on your service level agreements with a customer, you may have to hand
   
 ## See Also  
  [How to: Add Contract Lines to Service Contracts or Service Contract Quotes](../Service/how-to-add-contract-lines-to-service-contracts-or-service-contract-quotes.md)   
- [\($ B\_5979 Copy Service Document $\)](../Topic/\($%20B_5979%20Copy%20Service%20Document%20$\).md)   
+ [Copy Service Document](../Topic/\($%20B_5979%20Copy%20Service%20Document%20$\).md)   
  [How to: Create Service Orders](../Service/how-to-create-service-orders.md)

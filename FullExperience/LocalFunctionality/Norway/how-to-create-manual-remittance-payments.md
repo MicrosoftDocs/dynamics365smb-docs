@@ -22,7 +22,7 @@ Generally, payments are created automatically in the payment journal using the r
   
 1.  In the **Search** box, enter **Payment Info**, and then choose the related link.  
   
-2.  In the **\($ N\_15000001 Payment Info $\)** window, on the **Actions** tab, in the **Functions** group, choose **Initialize payment info**.  
+2.  In the **Payment Info** window, on the **Actions** tab, in the **Functions** group, choose **Initialize payment info**.  
   
      If the payment is linked to an existing vendor ledger entry, information will be transferred from the entry. If the payment is not linked to a vendor ledger entry, only partial information will be created.  
   

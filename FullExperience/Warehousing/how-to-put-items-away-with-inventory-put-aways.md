@@ -47,7 +47,7 @@ When your location is setup to require put\-away processing but not receive proc
   
 ### To put items away with the inventory put\-away  
   
-1.  In the **Search** box, enter **\($ N\_7375 Inventory Put\-away $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Inventory Put\-away**, and then choose the related link.  
   
 2.  To begin working on the put\-away document, you can either open a put\-away document that has already been created, or you can create a new document. For more information on creating an Inventory Put\-away, see [How to: Create Inventory Put\-aways](../DesignAndEngineering/how-to-create-inventory-put-aways.md).  
   

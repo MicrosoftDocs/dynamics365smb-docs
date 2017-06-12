@@ -27,9 +27,9 @@ Bank payment orders must be used if a bank payment is for the official state bud
   
 2.  Create a general journal batch for every bank operation.  
   
-3.  In the **\($ T\_80\_19 Bal. Account Type $\)** field, select the bank account type.  
+3.  In the **Bal. Account Type** field, select the bank account type.  
   
-4.  In the **\($ T\_80\_20 Bal. Account No. $\)** field, enter the bank account.  
+4.  In the **Bal. Account No.** field, enter the bank account.  
   
 5.  In the **Search** box, enter **Source Codes**, and then choose the related link.  
   
@@ -37,9 +37,9 @@ Bank payment orders must be used if a bank payment is for the official state bud
   
 7.  In the **Search** box, enter **Source Code Setup**, and then choose the related link.  
   
-8.  On the **General** tab, in the **\($ T\_242\_12405 Bank Payments $\)** field, select the source code that you entered in the **\($ N\_257 Source Codes $\)** window.  
+8.  On the **General** tab, in the **Bank Payments** field, select the source code that you entered in the **Source Codes** window.  
   
 ## See Also  
  [How to: Set Up Bank Interface Files](assetId:///e960b140-df19-4ff4-bcfa-5a034ceb4b53)   
  [Bank Management](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/bank-management.md)   
- [\($ T\_12426 KBK $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-t_12426-kbk-$-.md)
+ [KBK](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-t_12426-kbk-$-.md)

@@ -23,9 +23,9 @@ To account for future period expenses, you have to create and post purchase invo
   
 2.  Create a purchase invoice.  
   
-3.  In the **\($ T\_123\_5 Type $\)** field, select **Fixed Asset**.  
+3.  In the **Type** field, select **Fixed Asset**.  
   
-4.  In the **\($ T\_123\_3 Document No. $\)** field, enter the number of the future expense that was created.  
+4.  In the **Document No.** field, enter the number of the future expense that was created.  
   
 5.  Post the purchase invoice.  
   

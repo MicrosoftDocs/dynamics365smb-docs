@@ -44,7 +44,7 @@ After a reminder has been created, you can get an overview of it.
   
 ### To view reminder statistics  
   
-1.  In the **Search** box, enter **\($ N\_434 Reminder $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Reminder**, and then choose the related link.  
   
 2.  In the **Reminder** window, on the **Navigate** tab, in the **Reminder** group, choose **Statistics**. The **Reminder Statistics** window opens.  
   

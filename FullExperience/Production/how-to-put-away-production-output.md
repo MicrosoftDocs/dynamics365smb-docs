@@ -57,7 +57,7 @@ How you put away your output from production depends on how your warehouse is se
   
 2.  On the production order that is ready for put\-away, on the **Actions** tab, in the **Warehouse** group, choose **Create Inbound Whse. Request**.  
   
- You can also create the inbound warehouse request automatically when you refresh the production order. For more information, see the **Create inbound Request** field in the [\($ B\_99001025 Refresh Production Order $\)](../Production/-$-b_99001025-refresh-production-order-$-.md) window.  
+ You can also create the inbound warehouse request automatically when you refresh the production order. For more information, see the **Create inbound Request** field in the [Refresh Production Order](../Production/-$-b_99001025-refresh-production-order-$-.md) window.  
   
 ### To put output away with an inventory put\-away  
   
@@ -71,7 +71,7 @@ How you put away your output from production depends on how your warehouse is se
   
 5.  When the lines are ready for posting, on the **Actions** tab, in the **Posting** group, choose **Post**. The posting will create the necessary warehouse entries and post the output of the items.  
   
- You can also create an **Inventory Put\-away** directly from the released production order. For more information, see [\($ R\_7323 Create Invt. Put\-Away \- Pick $\)](../Topic/\($%20R_7323%20Create%20Invt.%20Put-Away%20-%20Pick%20$\).md).  
+ You can also create an **Inventory Put\-away** directly from the released production order. For more information, see [Create Invt. Put\-Away \- Pick](../Topic/\($%20R_7323%20Create%20Invt.%20Put-Away%20-%20Pick%20$\).md).  
   
  When you do an inventory put\-away, posting it assumes that all the operations are posted according to the standard routing, that is, output quantity is posted according to the last operation. You can use the output journal to post variances in output quantity and the setup and run times. If it is required to post partially after you have created the inventory put\-away, you can do so on setup times and quantities for all operations except the last one. In that case, the last operation is controlled by the inventory put\-away.  
   

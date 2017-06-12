@@ -29,13 +29,13 @@ All companies must provide an annual declaration, **Report 347**, to the tax aut
   
 2.  Under **Reports and Analysis**, choose **Unapplied Payments in Cash**.  
   
-3.  On the **Options** FastTab, fill in the fields. For more information, see [\($ R\_10746 Not Fully Applied Cash Pmts. $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-r_10746-not-fully-applied-cash-pmts.-$-.md).  
+3.  On the **Options** FastTab, fill in the fields. For more information, see [Not Fully Applied Cash Pmts.](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-r_10746-not-fully-applied-cash-pmts.-$-.md).  
   
 ### To create a Report 347 declaration  
   
 1.  In the **Search** box, enter **Make 347 Declaration**, and then choose the related link.  
   
-2.  On the **Options** FastTab, fill in the fields. For more information, see [\($ B\_10707 Make 347 Declaration $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-b_10707-make-347-declaration-$-.md).  
+2.  On the **Options** FastTab, fill in the fields. For more information, see [Make 347 Declaration](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-b_10707-make-347-declaration-$-.md).  
   
 3.  Choose the **OK** button.  
   
@@ -45,11 +45,11 @@ All companies must provide an annual declaration, **Report 347**, to the tax aut
   
 1.  In the **Search** box, enter **347 Declaration Labels**, and then choose the related link.  
   
-2.  On the **Options** FastTab, fill in the fields. For more information, see [\($ R\_10708 347 Declaration Labels $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-r_10708-347-declaration-labels-$-.md).  
+2.  On the **Options** FastTab, fill in the fields. For more information, see [347 Declaration Labels](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-r_10708-347-declaration-labels-$-.md).  
   
 ## See Also  
  [Spain Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/spain-local-functionality.md)   
  [Report 347](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/report-347.md)   
- [\($ B\_10707 Make 347 Declaration $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-b_10707-make-347-declaration-$-.md)   
- [\($ R\_10708 347 Declaration Labels $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-r_10708-347-declaration-labels-$-.md)   
- [\($ R\_10746 Not Fully Applied Cash Pmts. $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-r_10746-not-fully-applied-cash-pmts.-$-.md)
+ [Make 347 Declaration](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-b_10707-make-347-declaration-$-.md)   
+ [347 Declaration Labels](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-r_10708-347-declaration-labels-$-.md)   
+ [Not Fully Applied Cash Pmts.](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-r_10746-not-fully-applied-cash-pmts.-$-.md)

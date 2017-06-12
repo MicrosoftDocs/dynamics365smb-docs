@@ -20,16 +20,16 @@ You can pay vendors using the electronic funds transfer \(EFT\) system in Austra
 ## Setting up Electronic Funds Transfer in [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]  
  [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] can export EFT files that you can then upload to your bank’s website for additional processing. To submit EFT files, you must set up the following information:  
   
--   You must add EFT information to the bank account or bank accounts that you will use to pay vendors electronically. The EFT\-specific fields are on the **Transfer** FastTab in the [\($ N\_370 Bank Account Card $\)](assetId:///c44f01ce-a89a-441e-a543-1a1e951edcaa) window.  
+-   You must add EFT information to the bank account or bank accounts that you will use to pay vendors electronically. The EFT\-specific fields are on the **Transfer** FastTab in the [Bank Account Card](assetId:///c44f01ce-a89a-441e-a543-1a1e951edcaa) window.  
   
--   For those vendors that you want to pay electronically, you must select the [\($ T\_23\_11624 EFT Payment $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/-$-t_23_11624-eft-payment-$-.md) field and specify the vendor bank account in the [\($ T\_23\_11625 EFT Vendor Bank Account Code $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/-$-t_23_11625-eft-vendor-bank-account-code-$-.md) field in the [\($ N\_26 Vendor Card $\)](../Topic/\($%20N_26%20Vendor%20Card%20$\).md) window.  
+-   For those vendors that you want to pay electronically, you must select the [EFT Payment](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/-$-t_23_11624-eft-payment-$-.md) field and specify the vendor bank account in the [EFT Vendor Bank Account Code](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/-$-t_23_11625-eft-vendor-bank-account-code-$-.md) field in the [Vendor Card](../Topic/\($%20N_26%20Vendor%20Card%20$\).md) window.  
   
- When you have set up bank accounts and vendors, you can create EFT file that are based on entries in the payment journal. For more information, see [\($ B\_11608 Create EFT File $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/-$-b_11608-create-eft-file-$-.md). When you create an EFT file, an entry is made in the **\($ T\_11609 EFT Register $\)** table. In the [\($ N\_11615 EFT Register $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/-$-n_11615-eft-register-$-.md) window, you can drill down to see the vendor ledger entries for the EFT file. In the [\($ N\_256 Payment Journal $\)](../../Finance/-$-n_256-payment-journal-$-.md) window, you can also import existing EFT register entries to the payment journal by using the **\($ B\_11607 Transfer EFT Register $\)** batch job.  
+ When you have set up bank accounts and vendors, you can create EFT file that are based on entries in the payment journal. For more information, see [Create EFT File](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/-$-b_11608-create-eft-file-$-.md). When you create an EFT file, an entry is made in the **EFT Register** table. In the [EFT Register](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/-$-n_11615-eft-register-$-.md) window, you can drill down to see the vendor ledger entries for the EFT file. In the [Payment Journal](../../Finance/-$-n_256-payment-journal-$-.md) window, you can also import existing EFT register entries to the payment journal by using the **Transfer EFT Register** batch job.  
   
 ## See Also  
- [\($ T\_11609 EFT Register $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/-$-t_11609-eft-register-$-.md)   
- [\($ B\_11608 Create EFT File $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/-$-b_11608-create-eft-file-$-.md)   
- [\($ B\_11607 Transfer EFT Register $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/-$-b_11607-transfer-eft-register-$-.md)   
- [\($ N\_370 Bank Account Card $\)](assetId:///c44f01ce-a89a-441e-a543-1a1e951edcaa)   
- [\($ N\_26 Vendor Card $\)](../Topic/\($%20N_26%20Vendor%20Card%20$\).md)   
- [\($ N\_256 Payment Journal $\)](../../Finance/-$-n_256-payment-journal-$-.md)
+ [EFT Register](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/-$-t_11609-eft-register-$-.md)   
+ [Create EFT File](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/-$-b_11608-create-eft-file-$-.md)   
+ [Transfer EFT Register](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/-$-b_11607-transfer-eft-register-$-.md)   
+ [Bank Account Card](assetId:///c44f01ce-a89a-441e-a543-1a1e951edcaa)   
+ [Vendor Card](../Topic/\($%20N_26%20Vendor%20Card%20$\).md)   
+ [Payment Journal](../../Finance/-$-n_256-payment-journal-$-.md)

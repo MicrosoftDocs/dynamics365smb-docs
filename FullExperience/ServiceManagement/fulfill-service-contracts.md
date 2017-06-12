@@ -52,6 +52,6 @@ translation.priority.ht:
 |Update the terms of a contract and track profit and loss.|[Update and Evaluate Contracts](../Service/update-and-evaluate-contracts.md)|  
   
 ## See Also  
- [\($ T\_5966 Contract Group $\)](../Topic/\($%20T_5966%20Contract%20Group%20$\).md)   
- [\($ T\_5968 Service Contract Template $\)](../Topic/\($%20T_5968%20Service%20Contract%20Template%20$\).md)   
- [Working with \($ P\_1 Product Name $\)](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)
+ [Contract Group](../Topic/\($%20T_5966%20Contract%20Group%20$\).md)   
+ [Service Contract Template](../Topic/\($%20T_5968%20Service%20Contract%20Template%20$\).md)   
+ [Working with Product Name](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)

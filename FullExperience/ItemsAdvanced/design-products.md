@@ -53,24 +53,24 @@ The starting point for any business that deals with physical goods is to establi
 |Create an item card for each inventory item or service that you trade in.|[How to: Register New Products](../DesignAndEngineering/how-to-register-new-products.md)|  
 |Initiate a new item card based on a company\-specific data template.|[How to: Create Cards by Using Data Templates](../WorkingWithDynamics/how-to-create-cards-by-using-data-templates.md)|  
 |Enable electronic document sending by filling various fields on item cards that identify the item when mapping data to the external file.|[How to: Set Up Electronic Document Sending and Receiving](../BusinessFunctionality/DataExchange/how-to-set-up-electronic-document-sending-and-receiving.md)|  
-|Define how the planning system calculates replenishment of the item.|[\($ T\_27\_5440 Reordering Policy $\)](../DesignAndEngineering/-$-t_27_5440-reordering-policy-$-.md)|  
-|Define if the planning system must calculate production need for lower production BOM levels of the item.|[\($ T\_27\_5442 Manufacturing Policy $\)](../DesignAndEngineering/-$-t_27_5442-manufacturing-policy-$-.md)|  
+|Define how the planning system calculates replenishment of the item.|[Reordering Policy](../DesignAndEngineering/-$-t_27_5440-reordering-policy-$-.md)|  
+|Define if the planning system must calculate production need for lower production BOM levels of the item.|[Manufacturing Policy](../DesignAndEngineering/-$-t_27_5442-manufacturing-policy-$-.md)|  
 |Define how the outbound unit cost of the item is applied to inbound transactions for inventory valuation.|[Design Details: Costing Methods](../ApplicationDesign/design-details-costing-methods.md)|  
 |Specify in which unit of measure the item is handled by default and which alternate units of measure exist.|[How to: Set Up Item Units of Measure](../DesignAndEngineering/how-to-set-up-item-units-of-measure.md)|  
-|Write a comment that can be shown on all documents where the item is handled.|[\($ T\_97 Comment Line $\)](assetId:///bb1ef791-1617-440b-8b07-1884e1fff62d)|  
-|Assign one or more default dimensions to the item card that will be included on related document lines and eventually work as a source of analysis of historic transactions.|[\($ T\_352 Default Dimension $\)](assetId:///bd021a4a-f67d-44ca-9e6a-4b54cf91e710)|  
+|Write a comment that can be shown on all documents where the item is handled.|[Comment Line](assetId:///bb1ef791-1617-440b-8b07-1884e1fff62d)|  
+|Assign one or more default dimensions to the item card that will be included on related document lines and eventually work as a source of analysis of historic transactions.|[Default Dimension](assetId:///bd021a4a-f67d-44ca-9e6a-4b54cf91e710)|  
 |Attach a picture \(.bmp file\) of the item.|[How to: Insert Pictures](../DesignAndEngineering/how-to-insert-pictures.md)|  
-|Define one or more variations of the item that customers may choose from.|[\($ T\_5401 Item Variant $\)](../DesignAndEngineering/-$-t_5401-item-variant-$-.md)|  
-|Make a cross\-reference between the item's number and another item code, such as a barcode.|[\($ T\_5717 Item Cross Reference $\)](../DesignAndEngineering/-$-t_5717-item-cross-reference-$-.md)|  
-|Specify which other items can be offered to customers if the first item choice is not available.|[\($ T\_5715 Item Substitution $\)](../DesignAndEngineering/-$-t_5715-item-substitution-$-.md)|  
+|Define one or more variations of the item that customers may choose from.|[Item Variant](../DesignAndEngineering/-$-t_5401-item-variant-$-.md)|  
+|Make a cross\-reference between the item's number and another item code, such as a barcode.|[Item Cross Reference](../DesignAndEngineering/-$-t_5717-item-cross-reference-$-.md)|  
+|Specify which other items can be offered to customers if the first item choice is not available.|[Item Substitution](../DesignAndEngineering/-$-t_5715-item-substitution-$-.md)|  
 |Create a simplified item card for items that need not be managed as inventory items, such as drop\-shipment items, special order items, or internal office supplies.|[How to: Create Nonstock Items](../DesignAndEngineering/how-to-create-nonstock-items.md)|  
-|List codes for product groups to group items by product type, such as chairs.|[\($ T\_5723 Product Group $\)](../Topic/\($%20T_5723%20Product%20Group%20$\).md)|  
-|List codes for item categories, to group items or product groups, such as furniture.|[\($ T\_5722 Item Category $\)](../Topic/\($%20T_5722%20Item%20Category%20$\).md)|  
+|List codes for product groups to group items by product type, such as chairs.|[Product Group](../Topic/\($%20T_5723%20Product%20Group%20$\).md)|  
+|List codes for item categories, to group items or product groups, such as furniture.|[Item Category](../Topic/\($%20T_5722%20Item%20Category%20$\).md)|  
 |Set up language translations for item descriptions so that foreign vendors and customers can get printed documents in their own language.|[How to: Set Up and Use Item Translations](../DesignAndEngineering/how-to-set-up-and-use-item-translations.md)|  
 |Write additional text that can be shown in separate document lines in addition to the item description.|[How to: Set Up Extended Text](../DesignAndEngineering/how-to-set-up-extended-text.md)|  
 |Set up number series and rules for serial\/lot numbers and assign item tracking codes to items for item tracking.|[How to: Set Up Item Tracking Codes](../DesignAndEngineering/how-to-set-up-item-tracking-codes.md)|  
-|Create a hierarchy of items that are sold together as one item, such as a kit.|[\($ N\_36 Assembly BOM $\)](../Topic/\($%20N_36%20Assembly%20BOM%20$\).md)|  
-|Define an additional item record that reflects unique rules and values for the item at one location.|[\($ B\_5706 Create Stockkeeping Unit $\)](../DesignAndEngineering/-$-b_5706-create-stockkeeping-unit-$-.md)|  
+|Create a hierarchy of items that are sold together as one item, such as a kit.|[Assembly BOM](../Topic/\($%20N_36%20Assembly%20BOM%20$\).md)|  
+|Define an additional item record that reflects unique rules and values for the item at one location.|[Create Stockkeeping Unit](../DesignAndEngineering/-$-b_5706-create-stockkeeping-unit-$-.md)|  
   
 ## See Also  
  [Create New Vendor Accounts](../Purchasing/create-new-vendor-accounts.md)   

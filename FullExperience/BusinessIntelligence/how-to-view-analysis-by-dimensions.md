@@ -43,7 +43,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: View Analysis by Dimensions
-You can use the **Analysis by Dimensions** matrix to view the amounts in your general ledger using the analysis views that you have already set up. You fill in the **\($ N\_554 Analysis by Dimensions $\)** window to define what will be shown in the matrix, and then you choose **Show Matrix** to view the matrix.  
+You can use the **Analysis by Dimensions** matrix to view the amounts in your general ledger using the analysis views that you have already set up. You fill in the **Analysis by Dimensions** window to define what will be shown in the matrix, and then you choose **Show Matrix** to view the matrix.  
   
 -   The leftmost columns contain information based on what you have selected in the **Show as Lines** field in the header.  
   
@@ -55,7 +55,7 @@ You can use the **Analysis by Dimensions** matrix to view the amounts in your ge
 |----------------|---------------------------------------|  
 |**Code**|Shows the code given to a dimension value.|  
 |**Name**|Shows the name given to a dimension value.|  
-|**Total Amount**|Shows the total amount for the amount type that you chose in the **[\($ N\_554\_29 Show $\)](assetId:///37df8884-b937-46b7-a3a7-8b902a59b65f)** field on the **Options** tab.|  
+|**Total Amount**|Shows the total amount for the amount type that you chose in the **[Show](assetId:///37df8884-b937-46b7-a3a7-8b902a59b65f)** field on the **Options** tab.|  
 |**Matrix**|The remaining columns show amounts based on an analysis view.|  
   
 ### To view an analysis by dimensions  
@@ -76,7 +76,7 @@ You can use the **Analysis by Dimensions** matrix to view the amounts in your ge
 >  The **Next Set** and **Previous Set** commands are inactive if you have selected **Period** in either the **Show as Lines** or **Show as Columns** field.  
   
 > [!NOTE]  
->  You can use the **\($ R\_28 Dimensions \- Detail $\)** report to display a detailed classification of how dimensions have been used on entries over a selected period. You can use the **\($ R\_27 Dimensions \- Total $\)** report to display only the total amounts.  
+>  You can use the **Dimensions \- Detail** report to display a detailed classification of how dimensions have been used on entries over a selected period. You can use the **Dimensions \- Total** report to display only the total amounts.  
   
 > [!TIP]  
 >  The **Option** FastTab gives you many different choices to view the amounts according to your needs.  
@@ -87,9 +87,9 @@ You can use the **Analysis by Dimensions** matrix to view the amounts in your ge
   
 ## See Also  
  [How to: Set Up Analysis Views](../BusinessIntelligence/how-to-set-up-analysis-views.md)   
- [\($ T\_363\_12 Date Compression $\)](assetId:///4b8d801a-7da2-476b-8076-ffadab2597f6)   
- [\($ R\_28 Dimensions \- Details $\)](../Topic/\($%20R_28%20Dimensions%20-%20Details%20$\).md)   
- [\($ R\_27 Dimensions \- Totals $\)](../Topic/\($%20R_27%20Dimensions%20-%20Totals%20$\).md)   
+ [Date Compression](assetId:///4b8d801a-7da2-476b-8076-ffadab2597f6)   
+ [Dimensions \- Details](../Topic/\($%20R_28%20Dimensions%20-%20Details%20$\).md)   
+ [Dimensions \- Totals](../Topic/\($%20R_27%20Dimensions%20-%20Totals%20$\).md)   
  [How to: Update Analysis Views](../BusinessIntelligence/how-to-update-analysis-views.md)   
  [How to: Set Up Analysis Views](../BusinessIntelligence/how-to-set-up-analysis-views.md)   
- [\($ T\_348 Dimension $\)](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)
+ [Dimension](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)

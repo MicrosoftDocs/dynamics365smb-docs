@@ -46,7 +46,7 @@ You can use the **Refresh Planning Demand** batch job to refresh the planning co
   
 ### To refresh planning demands  
   
-1.  In the **Search** box, enter **\($ N\_99000852 Planning Worksheet $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Planning Worksheet**, and then choose the related link.  
   
 2.  In the **Planning Worksheet** window, select the line you want to refresh.  
   

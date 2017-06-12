@@ -27,7 +27,7 @@ If you have posted a sales return order as received, but the item is subsequentl
   
 2.  On the **Home** tab, in the **New** group, choose **New**. Create a sales invoice for the customer.  
   
-3.  On the **Actions** tab, in the **Functions** group, choose **Copy Document** to copy the lines from the incorrectly posted sales credit memo. For more information, see [\($ B\_292 Copy Sales Document $\)](../Sales/-$-b_292-copy-sales-document-$-.md).  
+3.  On the **Actions** tab, in the **Functions** group, choose **Copy Document** to copy the lines from the incorrectly posted sales credit memo. For more information, see [Copy Sales Document](../Sales/-$-b_292-copy-sales-document-$-.md).  
   
 ## See Also  
  [How to: Invoice Sales](../Finance/how-to-invoice-sales.md)   

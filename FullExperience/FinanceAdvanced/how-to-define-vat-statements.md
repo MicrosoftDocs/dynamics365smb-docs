@@ -51,7 +51,7 @@ You use a VAT statement to calculate your VAT settlement amount for a certain pe
   
 1.  In the **Search** box, enter **VAT Statement**, and then choose the related link.  
   
-2.  In the **\($ N\_317 VAT Statement $\)** window, choose the **Name** field to see the **VAT Statement Names** window.  
+2.  In the **VAT Statement** window, choose the **Name** field to see the **VAT Statement Names** window.  
   
 3.  Set up a new statement. Fill in the **Name** and **Description** fields.  
   

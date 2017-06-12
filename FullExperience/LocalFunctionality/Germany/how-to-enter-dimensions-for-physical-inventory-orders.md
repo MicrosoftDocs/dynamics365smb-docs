@@ -30,18 +30,18 @@ After you have created a physical inventory order, you can enter dimensions for 
   
 3.  On the **Navigate** tab, choose **Dimensions**.  
   
-4.  In the **\($ N\_480 Edit Dimension Set Entries $\)** window, enter the dimensions for the inventory order header.  
+4.  In the **Edit Dimension Set Entries** window, enter the dimensions for the inventory order header.  
   
-     For more information, see [\($ N\_480 Edit Dimension Set Entries $\)](assetId:///0f6ebbd8-9d92-4912-8637-6e9eda920381).  
+     For more information, see [Edit Dimension Set Entries](assetId:///0f6ebbd8-9d92-4912-8637-6e9eda920381).  
   
 5.  Create a new physical inventory order line and enter the item number.  
   
 6.  Choose **Line**, and then choose **Dimensions**.  
   
-7.  In the **\($ N\_480 Edit Dimension Set Entries $\)** window, optionally, enter the dimensions for the inventory order line.  
+7.  In the **Edit Dimension Set Entries** window, optionally, enter the dimensions for the inventory order line.  
   
 ## See Also  
  [How to: Enter Physical Inventory Orders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-enter-physical-inventory-orders.md)   
  [How to: Post Physical Inventory Orders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-post-physical-inventory-orders.md)   
- [\($ R\_5005350 Phys. Invt. Order Diff. List $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/-$-r_5005350-phys.-invt.-order-diff.-list-$-.md)   
+ [Phys. Invt. Order Diff. List](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/-$-r_5005350-phys.-invt.-order-diff.-list-$-.md)   
  [Dimension Set Entries Overview](../../ApplicationDesign/dimension-set-entries-overview.md)

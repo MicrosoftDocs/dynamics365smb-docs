@@ -21,7 +21,7 @@ The European Community (EC) Sales List report lists of the value added tax (VAT)
 
 **Note**: In the UK, all companies that sell more than a certain value every year to customers in EU member states must submit an electronic version of their European Community (EC) sales list report in XML format through Her Majesty's Revenue and Customs (HMRC) website.
 
-This report only works for countries in the EU. For example, it does not include VAT on sales to countries like China or the United States.
+The EC Sales List report only works for countries in the EU. For example, it does not include VAT on sales to countries like China or the United States.
 
 To report VAT to a tax authority electronically, you need to connect [!INCLUDE[d365fin](includes/d365fin_md.md)] to the tax authority's web service. This requires that you set up an account with your tax authority. When you have an account, you can enable a service connection that we provide in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For example, in the UK you can use the **GovTalk** service connection.
 
@@ -31,7 +31,7 @@ The report includes one line for each type of transaction with the customer, and
 * B2B Services  
 * B2B Triangulated Goods  
   
-B2B goods and services specify whether you sold a good or a service, and are controled by the **EU Service** setting in the VAT posting setup. B2B Triangulated Goods incidate whether you engaged in trade with a 3rd party, and are controled by the **EU 3-Party Trade** setting on the sales documents, such as sales orders, invoices, credit memos, and so on.  
+B2B goods and services specify whether you sold a good or a service, and are controled by the **EU Service** setting in the VAT posting setup. B2B Triangulated Goods incidate whether you engaged in trade with a 3rd party, and are controled by the **EU 3-Party Trade** setting on sales documents, such as sales orders, invoices, credit memos, and so on.  
   
 After you submit the report, [!INCLUDE[d365fin](includes/d365fin_md.md)] monitors the service and keeps a record of your communications. The **Status** field indicates where the report is in the process. For example, when the authorities process your report, the status of the report changes to **Succeeded**. If the tax authority found mistakes in the report you submitted, the status of the report will be **Failed**. You can view the errors under **Errors and Warningss**, correct them, and then submit the report again. To view a list of all your EC Sales List reports, go to the **EC Sales List Reports** page.  
   
@@ -67,7 +67,7 @@ After the tax authority reviews your report, they will send an email to the cont
 In some countries, you exchange messages with the tax authority when you submit reports. You can view the first and the last message you sent or received by choosing the **Download Submission Message** and **Download Response Message** actions.  
 
 ## Configuring your own VAT reports
-You can use the VAT report and EC Sales List reports out-of-the-box, however, you can also create your own reports. This requires that you create a few codeunits. If you need help with that, contact a Microsoft Partner.  
+You can use the EC Sales List report out-of-the-box, however, you can also create your own reports. This requires that you create a few codeunits. If you need help with that, contact a Microsoft Partner.  
     
 The following table describes the codeunits that you must create for your report.
 

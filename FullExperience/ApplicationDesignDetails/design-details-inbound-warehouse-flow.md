@@ -84,12 +84,12 @@ The inbound flow in a warehouse begins when items arrive in the warehouse of the
  When the inbound source document is released, an inbound warehouse request is created automatically. It contains references to the source document type and number and is not visible to the user.  
   
 ### 3: Create Inventory Put\-Away  
- In the **\($ N\_7375 Inventory Put\-away $\)** window, the warehouse worker retrieves, in a pull fashion, the pending source document lines based on inbound warehouse requests. Alternatively, the inventory put\-away lines are already created, in a push fashion, by the user who is responsible for the source document.  
+ In the **Inventory Put\-away** window, the warehouse worker retrieves, in a pull fashion, the pending source document lines based on inbound warehouse requests. Alternatively, the inventory put\-away lines are already created, in a push fashion, by the user who is responsible for the source document.  
   
 ### 4: Post Inventory Put\-Away  
- On each line for items that have been put away, partially or fully, the warehouse worker fills in the **\($ T\_5767\_20 Quantity $\)** field, and then posts the inventory put\-away. Source documents that are related to the inventory put\-away are posted as received.  
+ On each line for items that have been put away, partially or fully, the warehouse worker fills in the **Quantity** field, and then posts the inventory put\-away. Source documents that are related to the inventory put\-away are posted as received.  
   
- Positive item ledger entries are created, warehouse entries are created, and the put\-away request is deleted, if fully handled. For example, the **\($ T\_39\_60 Quantity Received $\)** field on the inbound source document line is updated. A posted receipt document is created that reflects the purchase order, for example, and the received items.  
+ Positive item ledger entries are created, warehouse entries are created, and the put\-away request is deleted, if fully handled. For example, the **Quantity Received** field on the inbound source document line is updated. A posted receipt document is created that reflects the purchase order, for example, and the received items.  
   
 ## Advanced Warehousing  
  The following diagram illustrates the inbound warehouse flow by document type in advanced warehousing. The numbers in the diagram correspond with the steps in the sections following the diagram.  
@@ -103,12 +103,12 @@ The inbound flow in a warehouse begins when items arrive in the warehouse of the
  When the inbound source document is released, an inbound warehouse request is created automatically. It contains references to the source document type and number and is not visible to the user.  
   
 ### 3: Create Warehouse Receipt  
- In the **\($ N\_5768 Warehouse Receipt $\)** window, the user who is responsible for receiving items retrieves the pending source document lines based on the inbound warehouse request. Several source document lines can be combined in one warehouse receipt document.  
+ In the **Warehouse Receipt** window, the user who is responsible for receiving items retrieves the pending source document lines based on the inbound warehouse request. Several source document lines can be combined in one warehouse receipt document.  
   
- The user fills in the **\($ T\_7326\_21 Qty. to Handle $\)** field and selects the receiving zone and bin, if required.  
+ The user fills in the **Qty. to Handle** field and selects the receiving zone and bin, if required.  
   
 ### 4: Post Warehouse Receipt  
- The user posts the warehouse receipt. Positive item ledger entries are created. For example, the **\($ T\_39\_60 Quantity Received $\)** field on the inbound source document line is updated.  
+ The user posts the warehouse receipt. Positive item ledger entries are created. For example, the **Quantity Received** field on the inbound source document line is updated.  
   
 ### 5: Create Warehouse Internal Put\-Away  
  The user who is responsible for putting away from internal operations creates a warehouse internal put\-away for items that have to be put away in the warehouse, such as production or assembly output. The user specifies quantity, zone, and bin from where the items should be put away, potentially with the **Get Bin Content** function. The user releases the warehouse internal put\-away, which creates an inbound warehouse request so that the task can be retrieved in warehouse put\-away documents or in the put\-away worksheet.  
@@ -117,20 +117,20 @@ The inbound flow in a warehouse begins when items arrive in the warehouse of the
  When the inbound source document is posted, a warehouse put\-away request is created automatically. It contains references to the source document type and number and is not visible to the user. Depending on the setup, output from a production order also creates a put\-away request to put the finished items away in inventory.  
   
 ### 7: Generate Put\-away Worksheet Lines \(Optional\)  
- The user who is responsible for coordinating put\-aways retrieves warehouse put\-away lines in the **\($ N\_7352 Put\-away Worksheet $\)** based on posted warehouse receipts or internal operations with output. The user selects the lines to be put\-away and prepares the put\-aways by specifying which bins to take from, which bins to place in, and how many units to handle. The bins may be predefined by the setup of the warehouse location or operation resource.  
+ The user who is responsible for coordinating put\-aways retrieves warehouse put\-away lines in the **Put\-away Worksheet** based on posted warehouse receipts or internal operations with output. The user selects the lines to be put\-away and prepares the put\-aways by specifying which bins to take from, which bins to place in, and how many units to handle. The bins may be predefined by the setup of the warehouse location or operation resource.  
   
- When all put\-aways are planned and assigned to warehouse workers, the user generates the warehouse put\-away documents. Fully assigned put\-aways lines are deleted from the **\($ N\_7352 Put\-away Worksheet $\)**.  
+ When all put\-aways are planned and assigned to warehouse workers, the user generates the warehouse put\-away documents. Fully assigned put\-aways lines are deleted from the **Put\-away Worksheet**.  
   
 > [!NOTE]  
->  If the **\($ T\_14\_7306 Use Put\-away Worksheet $\)** field is not selected on the location card, then warehouse put\-away documents are created directly based on posted warehouse receipts. In that case, step 7 is omitted.  
+>  If the **Use Put\-away Worksheet** field is not selected on the location card, then warehouse put\-away documents are created directly based on posted warehouse receipts. In that case, step 7 is omitted.  
   
 ### 8: Create Warehouse Put\-away Document  
  The warehouse worker who performs put\-aways creates a warehouse put\-away document in a pull fashion, based on the posted warehouse receipt. Alternatively, the warehouse put\-away document is created and assigned to a warehouse worker in a push fashion.  
   
 ### 9: Register Warehouse Put\-Away  
- On each line for items that have been put away, partially or fully, the warehouse worker fills in the **\($ T\_5767\_20 Quantity $\)** field in the **\($ N\_5770 Warehouse Put\-away $\)** window, and then registers the warehouse put\-away.  
+ On each line for items that have been put away, partially or fully, the warehouse worker fills in the **Quantity** field in the **Warehouse Put\-away** window, and then registers the warehouse put\-away.  
   
- Warehouse entries are created, and the warehouse put\-away lines are deleted, if fully handled. The warehouse put\-away document remains open until the full quantity of the related posted warehouse receipt is registered. The **\($ T\_7332\_23 Qty. Put Away $\)** field on the warehouse receipt order lines is updated.  
+ Warehouse entries are created, and the warehouse put\-away lines are deleted, if fully handled. The warehouse put\-away document remains open until the full quantity of the related posted warehouse receipt is registered. The **Qty. Put Away** field on the warehouse receipt order lines is updated.  
   
 ## See Also  
  [Design Details: Warehouse Management](../ApplicationDesign/design-details-warehouse-management.md)

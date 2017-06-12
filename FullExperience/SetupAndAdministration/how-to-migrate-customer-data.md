@@ -69,8 +69,8 @@ You can map values from an existing ERP system into your [!INCLUDE[navnow](../Ap
      To apply the mapping that you have set up, on the **Home** tab, in the **Process** group, choose **Apply Data.**  
   
 ## See Also  
- [\($ N\_8636 Config. Field Mapping $\)](../Topic/\($%20N_8636%20Config.%20Field%20Mapping%20$\).md)   
- [\($ T\_8628 Config. Field Mapping $\)](../Topic/\($%20T_8628%20Config.%20Field%20Mapping%20$\).md)   
+ [Config. Field Mapping](../Topic/\($%20N_8636%20Config.%20Field%20Mapping%20$\).md)   
+ [Config. Field Mapping](../Topic/\($%20T_8628%20Config.%20Field%20Mapping%20$\).md)   
  [How to: Apply Customer Data](../SetupAndAdministration/how-to-apply-customer-data.md)   
  [How to: Clean Up and Process Data](../SetupAndAdministration/how-to-clean-up-and-process-data.md)   
- [\($ B\_8621 Config. Package \- Process $\)](../Topic/\($%20B_8621%20Config.%20Package%20-%20Process%20$\).md)
+ [Config. Package \- Process](../Topic/\($%20B_8621%20Config.%20Package%20-%20Process%20$\).md)

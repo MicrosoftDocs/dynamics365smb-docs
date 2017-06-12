@@ -50,7 +50,7 @@ When you have created a purchase credit memo and filled in the lines, you can se
   
 3.  Create a purchase credit memo. For more information, see [How to: Create Purchase Credit Memos](../Finance/how-to-create-purchase-credit-memos.md).  
   
-4.  In the **\($ N\_52 Purchase Credit Memo $\)** window, on the **Navigate** tab, in the **Cr. Memo** group, choose **Statistics**.  
+4.  In the **Purchase Credit Memo** window, on the **Navigate** tab, in the **Cr. Memo** group, choose **Statistics**.  
   
      In the **Purchase Statistics** window, on the **General** FastTab, you can see summary information about the purchase credit memo. If the invoice rounding feature is activated, the FastTab shows rounded amounts.  
   

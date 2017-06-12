@@ -64,6 +64,6 @@ If you have set up a large number of purchase orders, it is an advantage to post
 >  For example, if eight units have been received from an order of 25 units, then the eight units will be invoiced and an additional 12 units will be received.  
   
 ## See Also  
- [\($ B\_496 Batch Post Purchase Orders $\)](../Topic/\($%20B_496%20Batch%20Post%20Purchase%20Orders%20$\).md)   
- [\($ B\_497 Batch Post Purchase Invoices $\)](../Topic/\($%20B_497%20Batch%20Post%20Purchase%20Invoices%20$\).md)   
- [\($ B\_498 Batch Post Purch. Credit Memos $\)](../Topic/\($%20B_498%20Batch%20Post%20Purch.%20Credit%20Memos%20$\).md)
+ [Batch Post Purchase Orders](../Topic/\($%20B_496%20Batch%20Post%20Purchase%20Orders%20$\).md)   
+ [Batch Post Purchase Invoices](../Topic/\($%20B_497%20Batch%20Post%20Purchase%20Invoices%20$\).md)   
+ [Batch Post Purch. Credit Memos](../Topic/\($%20B_498%20Batch%20Post%20Purch.%20Credit%20Memos%20$\).md)

@@ -96,12 +96,12 @@ If internal operation areas such as production or assembly exist in basic wareho
     >  The bin must be empty before you can select or clear the **Dedicated** field.  
   
 ## See Also  
- [\($ T\_14\_5732 Bin Mandatory $\)](../Topic/\($%20T_14_5732%20Bin%20Mandatory%20$\).md)   
- [\($ T\_14\_7313 Open Shop Floor Bin Code $\)](../Topic/\($%20T_14_7313%20Open%20Shop%20Floor%20Bin%20Code%20$\).md)   
- [\($ T\_14\_7314 To\-Production Bin Code $\)](../Topic/\($%20T_14_7314%20To-Production%20Bin%20Code%20$\).md)   
- [\($ T\_27\_5417 Flushing Method $\)](../Topic/\($%20T_27_5417%20Flushing%20Method%20$\).md)   
- [\($ T\_5407\_33 Bin Code $\)](../Topic/\($%20T_5407_33%20Bin%20Code%20$\).md)   
- [\($ T\_7354\_41 Dedicated $\)](../Topic/\($%20T_7354_41%20Dedicated%20$\).md)   
+ [Bin Mandatory](../Topic/\($%20T_14_5732%20Bin%20Mandatory%20$\).md)   
+ [Open Shop Floor Bin Code](../Topic/\($%20T_14_7313%20Open%20Shop%20Floor%20Bin%20Code%20$\).md)   
+ [To\-Production Bin Code](../Topic/\($%20T_14_7314%20To-Production%20Bin%20Code%20$\).md)   
+ [Flushing Method](../Topic/\($%20T_27_5417%20Flushing%20Method%20$\).md)   
+ [Bin Code](../Topic/\($%20T_5407_33%20Bin%20Code%20$\).md)   
+ [Dedicated](../Topic/\($%20T_7354_41%20Dedicated%20$\).md)   
  [How to: Move Components to an Operation Area in Basic Warehousing](../WarehouseActivities/how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
  [How to: Pick for Production in Basic Warehousing](../WarehouseActivities/how-to-pick-for-production-in-basic-warehousing.md)   
  [How to: Move Items Ad Hoc in Basic Warehousing](../WarehouseActivities/how-to-move-items-ad-hoc-in-basic-warehousing.md)   

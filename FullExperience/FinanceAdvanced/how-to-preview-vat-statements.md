@@ -51,7 +51,7 @@ After you have defined a VAT statement, you can see a preview of it on the scree
   
 1.  In the **Search** box, enter **VAT Statement**, and then choose the related link.  
   
-2.  In the **\($ N\_317 VAT Statement $\)** window, on the **Navigate** tab, in the **VAT Statement** group, choose **Preview**.  
+2.  In the **VAT Statement** window, on the **Navigate** tab, in the **VAT Statement** group, choose **Preview**.  
   
 3.  Enter a date filter to limit the statement to a specific period. For more information about how to customize the page to show the date filter, see [How to: Set Filters](../WorkingWithDynamics/how-to-set-filters.md).  
   

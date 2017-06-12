@@ -37,7 +37,7 @@ Tax differences are variations in tax amounts caused by the different rules for 
   
 3.  Choose the **OK** button.  
   
- The tax differences for the period are calculated. You can view the tax difference calculation entries by opening the **\($ N\_17300 Tax Differences $\)** window.  
+ The tax differences for the period are calculated. You can view the tax difference calculation entries by opening the **Tax Differences** window.  
   
 ## See Also  
  [Tax Accounting](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/tax-accounting.md)   

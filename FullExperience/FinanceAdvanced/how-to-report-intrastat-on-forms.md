@@ -49,7 +49,7 @@ To obtain the information that is required on the Intrastat form from the statis
   
 1.  In the **Search** box, enter **Intrastat Journals**, and then choose the related link.  
   
-2.  In the **\($ N\_311 Intrastat Journal $\)** window, select the relevant journal batch in the **Batch Name** field.  
+2.  In the **Intrastat Journal** window, select the relevant journal batch in the **Batch Name** field.  
   
 3.  If you have not already done this, fill in the journal manually or on the **Actions** tab, in the **General** group, choose **Get Entries**.  
   

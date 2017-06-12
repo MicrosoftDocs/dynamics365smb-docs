@@ -49,5 +49,5 @@ The following table describes a sequence of tasks, with links to the topics that
 |**To**|**See**|  
 |------------|-------------|  
 |Filter entries in a budget with dimensions to view specific budgets.|[How to: View Budgets](../BusinessIntelligence/how-to-view-budgets.md)|  
-|View general ledger budgets and compare them with actual figures in several areas of \($ P\_1 Product Name $\).|[How to: View Actual and Budgeted Amounts for All Accounts](../BusinessIntelligence/how-to-view-actual-and-budgeted-amounts-for-all-accounts.md)|  
+|View general ledger budgets and compare them with actual figures in several areas of Product Name.|[How to: View Actual and Budgeted Amounts for All Accounts](../BusinessIntelligence/how-to-view-actual-and-budgeted-amounts-for-all-accounts.md)|  
 |View a number of periods for a single account.|[How to: View Actual and Budgeted Amounts for Several Periods](../BusinessIntelligence/how-to-view-actual-and-budgeted-amounts-for-several-periods.md)|

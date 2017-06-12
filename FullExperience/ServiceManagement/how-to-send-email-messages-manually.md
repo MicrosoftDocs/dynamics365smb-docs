@@ -53,5 +53,5 @@ If you have not set up a job queue to send email messages to customers or a mess
   
 ## See Also  
  [How to: View the Service Email Queue](../Service/how-to-view-the-service-email-queue.md)   
- [\($ N\_5961 Service E\-Mail Queue $\)](../Topic/\($%20N_5961%20Service%20E-Mail%20Queue%20$\).md)   
- [\($ N\_672 Job Queue Entries $\)](../Topic/\($%20N_672%20Job%20Queue%20Entries%20$\).md)
+ [Service E\-Mail Queue](../Topic/\($%20N_5961%20Service%20E-Mail%20Queue%20$\).md)   
+ [Job Queue Entries](../Topic/\($%20N_672%20Job%20Queue%20Entries%20$\).md)

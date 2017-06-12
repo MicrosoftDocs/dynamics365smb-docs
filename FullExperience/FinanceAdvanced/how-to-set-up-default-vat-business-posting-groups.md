@@ -55,7 +55,7 @@ You set up default VAT business posting groups by linking them to general busine
   
 2.  Select the relevant business posting group. On the **Home** tab, choose **Edit**.  
   
-3.  In the **\($ T\_250\_3 Def. VAT Bus. Posting Group $\)** field, select the code that you want to use as default.  
+3.  In the **Def. VAT Bus. Posting Group** field, select the code that you want to use as default.  
   
 4.  Select the **Auto Insert Default** check box.  
   
@@ -67,4 +67,4 @@ You set up default VAT business posting groups by linking them to general busine
  [How to: Set Up Default VAT Product Posting Groups](../Finance/how-to-set-up-default-vat-product-posting-groups.md)   
  [How to: Create a VAT Combination Setup](../Finance/how-to-create-a-vat-combination-setup.md)   
  [How to: Set Up VAT Business Posting Groups](../Finance/how-to-set-up-vat-business-posting-groups.md)   
- [\($ T\_250\_3 Def. VAT Bus. Posting Group $\)](assetId:///b662aa50-48e8-4493-a085-f98fcacda22e)
+ [Def. VAT Bus. Posting Group](assetId:///b662aa50-48e8-4493-a085-f98fcacda22e)

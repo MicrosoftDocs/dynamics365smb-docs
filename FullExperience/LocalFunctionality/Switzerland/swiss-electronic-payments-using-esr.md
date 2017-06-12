@@ -28,7 +28,7 @@ The Einzahlungsschein mit Referenznummer \(ESR\) electronic payment method is an
 -   Import the ESR files and create payment lines automatically for each payment. For more information, see [How to: Import ESR Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-import-esr-payments.md).  
   
 > [!NOTE]  
->  Before you can use the ESR module, you must set up the bank, bank account, and file name. You must also specify whether ESR or ESR\+ should be used. For more information, see the [\($ T\_3010531 ESR Setup $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/-$-t_3010531-esr-setup-$-.md) table.  
+>  Before you can use the ESR module, you must set up the bank, bank account, and file name. You must also specify whether ESR or ESR\+ should be used. For more information, see the [ESR Setup](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/-$-t_3010531-esr-setup-$-.md) table.  
   
  When you have evaluated the setup information, you can adjust the invoice form, and you can create a test series that you can ask your bank or postal service to validate.  
   
@@ -46,5 +46,5 @@ The Einzahlungsschein mit Referenznummer \(ESR\) electronic payment method is an
  [How to: Import ESR Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-import-esr-payments.md)   
  [Swiss Electronic Payments Using DTA](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/swiss-electronic-payments-using-dta.md)   
  [Swiss Electronic Payments Using LSV\+](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/swiss-electronic-payments-using-lsv-.md)   
- [\($ T\_3010531 ESR Setup $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/-$-t_3010531-esr-setup-$-.md)   
- [\($ T\_308 No. Series $\)](assetId:///18dc626f-cdf2-4bd9-b1ab-d98927ce4c3b)
+ [ESR Setup](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/-$-t_3010531-esr-setup-$-.md)   
+ [No. Series](assetId:///18dc626f-cdf2-4bd9-b1ab-d98927ce4c3b)

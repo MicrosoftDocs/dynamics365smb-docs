@@ -29,14 +29,14 @@ After an invoice has been created you can allocate and post fixed asset charges.
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_14912\_F\_1\_1210000 Source Document Type $\)**|Specify the source document type. Types include **Invoice**, **Order**, and **Posted Invoice**.|  
-    |**\($ R\_14912\_F\_1\_1210002 Source Document No. $\)**|Specify the source document number that is associated with the fixed asset charge.|  
-    |**\($ R\_14912\_F\_1\_1210004 Amount $\)**|Specify the amount of the fixed asset charge.|  
-    |**\($ R\_14912\_F\_1\_1210006 FA Charge No. $\)**|Specify the number of the fixed asset charge.|  
+    |**Source Document Type**|Specify the source document type. Types include **Invoice**, **Order**, and **Posted Invoice**.|  
+    |**Source Document No.**|Specify the source document number that is associated with the fixed asset charge.|  
+    |**Amount**|Specify the amount of the fixed asset charge.|  
+    |**FA Charge No.**|Specify the number of the fixed asset charge.|  
   
 3.  Choose the **OK** button, and then post the invoice. If the fixed asset has already been released, lines with the relevant general ledger account will be displayed.  
   
 ## See Also  
- [\($ T\_38 Purchase Header $\)](../Topic/\($%20T_38%20Purchase%20Header%20$\).md)   
+ [Purchase Header](../Topic/\($%20T_38%20Purchase%20Header%20$\).md)   
  [Fixed Assets Accounting Setup](../../Finance/fixed-assets-accounting-setup.md)   
- [\($ B\_14912 Allocate FA Charges $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-b_14912-allocate-fa-charges-$-.md)
+ [Allocate FA Charges](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-b_14912-allocate-fa-charges-$-.md)

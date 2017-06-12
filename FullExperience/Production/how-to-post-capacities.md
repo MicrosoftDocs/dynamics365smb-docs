@@ -44,7 +44,7 @@ In the capacity journal, you post consumed capacities that are not assigned to t
   
 ### To post capacities  
   
-1.  In the **Search** box, enter **\($ N\_99000773 Capacity Journals $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Capacity Journals**, and then choose the related link.  
   
 2.  Fill in the **Posting Date** and **Document No.** fields.  
   

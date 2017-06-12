@@ -24,15 +24,15 @@ When a fiscal period is complete, you can fiscally close the period to make sure
   
 ### To fiscally close accounting periods  
   
-1.  In the **Search** box, enter **\($ N\_100 Accounting Periods $\)**, and then choose the relevant link.  
+1.  In the **Search** box, enter **Accounting Periods**, and then choose the relevant link.  
   
-2.  In the **\($ N\_100 Accounting Periods $\)** window, on the **Navigate** tab, in the **Fiscal Closing** group, choose **Close Fiscal Period**.  
+2.  In the **Accounting Periods** window, on the **Navigate** tab, in the **Fiscal Closing** group, choose **Close Fiscal Period**.  
   
      If more than one fiscal period is not fiscally closed, the earliest one should be fiscally closed. A message appears to identify the period that should be closed and explains the consequences of closing it.  
   
 3.  To fiscally close the period, choose the **Yes** button.  
   
- When the period is fiscally closed, the [\($ T\_50\_10800 Fiscally Closed $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/-$-t_50_10800-fiscally-closed-$-.md) field is selected, and the [\($ T\_50\_10801 Fiscal Closing Date $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/-$-t_50_10801-fiscal-closing-date-$-.md) field is updated for the period.  
+ When the period is fiscally closed, the [Fiscally Closed](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/-$-t_50_10800-fiscally-closed-$-.md) field is selected, and the [Fiscal Closing Date](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/-$-t_50_10801-fiscal-closing-date-$-.md) field is updated for the period.  
   
 ## See Also  
  [How to: Close Years](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-close-years.md)   

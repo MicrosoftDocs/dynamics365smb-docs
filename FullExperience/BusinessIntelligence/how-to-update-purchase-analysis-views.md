@@ -59,4 +59,4 @@ The amounts that are displayed in the **Purchase Analysis by Dimensions** window
 ## See Also  
  [How to: Set Up Purchase Analysis Views](../BusinessIntelligence/how-to-set-up-purchase-analysis-views.md)   
  [How to: View Purchase Analysis Information by Dimensions](../BusinessIntelligence/how-to-view-purchase-analysis-information-by-dimensions.md)   
- [\($ T\_348 Dimension $\)](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)
+ [Dimension](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)

@@ -59,4 +59,4 @@ The **Contract Gain\/Loss \(Customers\)** matrix shows a scrollable summary of c
 >  If you have set the time interval to **Day** and you want to scroll over a long period, you can do it faster by shifting to a larger interval such as **Quarter**. When you have found the desired period, you can shift back to the original interval to see the data in more detail.  
   
 ## See Also  
- [\($ N\_6067 Contract Gain\-Loss \(Customers\) $\)](../Topic/\($%20N_6067%20Contract%20Gain-Loss%20\(Customers\)%20$\).md)
+ [Contract Gain\-Loss \(Customers\)](../Topic/\($%20N_6067%20Contract%20Gain-Loss%20\(Customers\)%20$\).md)

@@ -48,7 +48,7 @@ The service order statistics feature gives you a quick overview of the contents 
  Use this FastTab to see the totals of the service order. The data captures the total amount on the service lines, including and excluding VAT, VAT part, cost, and profit on the service lines. The FastTab also displays specific item\-related information about the items indicated on the service lines, such as weight, volume, and the quantity of parcels.  
   
 ## Shipping FastTab  
- Use this FastTab to display information about the items, resources, or costs to be shipped. To provide the information, the values specified in the **\($ T\_5902\_18 Qty. to Ship $\)** field are used on each service line in the order.  
+ Use this FastTab to display information about the items, resources, or costs to be shipped. To provide the information, the values specified in the **Qty. to Ship** field are used on each service line in the order.  
   
 ## Details FastTab  
  Use this FastTab to view information about the items, resource hours, and costs to be invoiced and consumed. The following table describes the information about the FastTab, which is presented in three columns.  

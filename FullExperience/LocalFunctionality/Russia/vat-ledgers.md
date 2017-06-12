@@ -39,7 +39,7 @@ The VAT ledger feature enables you to create and print the following forms:
   
 -   Joint sales ledgers for the whole company.  
   
- To create a VAT ledger, first you must define a VAT ledger type, and then you must add lines to the VAT purchase ledger or VAT sales ledger by using the **\($ B\_12455 Create VAT Purchase Ledger $\)** and **\($ B\_12456 Create VAT Sales Ledger $\)** batch jobs. When you have added lines to the VAT ledger, you can print it.  
+ To create a VAT ledger, first you must define a VAT ledger type, and then you must add lines to the VAT purchase ledger or VAT sales ledger by using the **Create VAT Purchase Ledger** and **Create VAT Sales Ledger** batch jobs. When you have added lines to the VAT ledger, you can print it.  
   
  For more information, see [How to: Create VAT Ledgers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-create-vat-ledgers.md).  
   
@@ -59,5 +59,5 @@ The VAT ledger feature enables you to create and print the following forms:
  [How to: Create VAT Ledgers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-create-vat-ledgers.md)   
  [How to: Create Additional Sheets](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-create-additional-sheets.md)   
  [Posting VAT on Sales](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/posting-vat-on-sales.md)   
- [\($ N\_12416 Custom Declarations $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-n_12416-custom-declarations-$-.md)   
+ [Custom Declarations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-n_12416-custom-declarations-$-.md)   
  [Amount Difference](assetId:///ecc3830d-d498-44a3-bdb6-79e094d620e9)

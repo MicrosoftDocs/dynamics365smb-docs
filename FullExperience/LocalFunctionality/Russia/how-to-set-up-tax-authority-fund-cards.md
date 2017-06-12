@@ -27,4 +27,4 @@ The Tax Authority or Fund card enables you to compile a list of different tax au
   
 2.  In the **New** tab, choose **New**.  
   
-3.  In the **\($ N\_12469 Tax Authority and Fund $\)** card, enter the required information.
+3.  In the **Tax Authority and Fund** card, enter the required information.

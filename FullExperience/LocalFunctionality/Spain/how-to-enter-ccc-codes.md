@@ -18,7 +18,7 @@ translation.priority.ht:
 # How to: Enter CCC Codes
 Código Cuenta Cliente \(CCC\) is a unique bank account identification code. The following component fields make up the 20\-digit \(Spain\) or 21\-digit \(Portugal\) bank CCC code structure.  
   
- If you change the CCC code structure, the **\($ T\_79\_10708 CCC No. $\)** field updates automatically. Similarly, if you change the **\($ T\_79\_10708 CCC No. $\)** field, the CCC code structure updates automatically.  
+ If you change the CCC code structure, the **CCC No.** field updates automatically. Similarly, if you change the **CCC No.** field, the CCC code structure updates automatically.  
   
 ### To enter CCC codes  
   
@@ -28,10 +28,10 @@ Código Cuenta Cliente \(CCC\) is a unique bank account identification code. The
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|Position|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|--------------|---------------------------------------|  
-    |**\($ T\_79\_10704 CCC Bank No. $\)**|1\-4|Identifies the bank where the account has been opened.|  
-    |**\($ T\_79\_10705 CCC Bank Branch No. $\)**|5\-8|Identifies the branch code. If the bank does not use this reference, these can be zeros.|  
-    |**\($ T\_79\_10706 CCC Control Digits $\)**|9\-10|Identifies the control digits.|  
-    |**\($ T\_79\_10707 CCC Bank Account No. $\)**|11\-20 \(Spain\)<br /><br /> 11\-21 \(Portugal\)|Identifies the account number, which may be adjusted with preceding zeros.|  
+    |**CCC Bank No.**|1\-4|Identifies the bank where the account has been opened.|  
+    |**CCC Bank Branch No.**|5\-8|Identifies the branch code. If the bank does not use this reference, these can be zeros.|  
+    |**CCC Control Digits**|9\-10|Identifies the control digits.|  
+    |**CCC Bank Account No.**|11\-20 \(Spain\)<br /><br /> 11\-21 \(Portugal\)|Identifies the account number, which may be adjusted with preceding zeros.|  
   
 ## See Also  
  [Spain Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/spain-local-functionality.md)

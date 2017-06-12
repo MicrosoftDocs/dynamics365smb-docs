@@ -23,7 +23,7 @@ To test the domiciliation journal lines, you can use the **Domiciliation Journal
   
 1.  In the **Search** box, enter **Domiciliation Journal**, and then choose the related link.  
   
-2.  In the **\($ N\_2000022\_69 Batch Name $\)** field, select the required journal batch.  
+2.  In the **Batch Name** field, select the required journal batch.  
   
 3.  On the **Actions** tab, in the **Print** group, choose **Test Report**.  
   

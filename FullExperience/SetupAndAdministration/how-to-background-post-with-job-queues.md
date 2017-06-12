@@ -61,17 +61,17 @@ Job queues are an effective tool to schedule the running of business processes i
   
 1.  In the **Search** box, enter **Sales & Receivables Setup**, and then choose the related link.  
   
-2.  In the **\($ N\_459 Sales & Receivables Setup $\)** window, expand the **Background Posting** FastTab.  
+2.  In the **Sales & Receivables Setup** window, expand the **Background Posting** FastTab.  
   
-3.  Select the **\($ T\_311\_38 Post Documents via Job Queue $\)** check box.  
+3.  Select the **Post Documents via Job Queue** check box.  
   
-4.  To filter to the sales order type of job queue entry, choose the **\($ T\_311\_39 Job Queue Category Code $\)** field, and select the **SalesPost** category. When you choose this category, you are filtering to all sales orders that match any job queue that has the same category code.  
+4.  To filter to the sales order type of job queue entry, choose the **Job Queue Category Code** field, and select the **SalesPost** category. When you choose this category, you are filtering to all sales orders that match any job queue that has the same category code.  
   
      [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] creates a job queue entry that specifies codeunit 88. The creation of the entry is automatic. For more information about how to create a job queue entry, see [Use Job Queues to Schedule Tasks](../SetupAndAdministration/use-job-queues-to-schedule-tasks.md).  
   
 5.  In the **Search** box, enter **Job Queues**, and then choose the related link. For more information, see [How to: Set Up Job Queues](../SetupAndAdministration/how-to-set-up-job-queues.md).  
   
-6.  In the **\($ T\_470\_1 Code $\)** field, select the job queue code **SPPOST**, and on the **Home** tab, choose **Edit**.  
+6.  In the **Code** field, select the job queue code **SPPOST**, and on the **Home** tab, choose **Edit**.  
   
 7.  Expand the **NAS Settings** FastTab, and clear the **Start Automatically from NAS** check box. For more information on starting job queues, see [How to: Set Up Job Queues](../SetupAndAdministration/how-to-set-up-job-queues.md).  
   
@@ -99,9 +99,9 @@ Job queues are an effective tool to schedule the running of business processes i
   
 2.  In the **Search** box, enter **Sales & Receivables Setup**, and then choose the related link.  
   
-3.  In the **\($ N\_459 Sales & Receivables Setup $\)** window, expand the **Background Posting** FastTab.  
+3.  In the **Sales & Receivables Setup** window, expand the **Background Posting** FastTab.  
   
-4.  Select the **\($ T\_311\_41 Post & Print with Job Queue $\)** check box.  
+4.  Select the **Post & Print with Job Queue** check box.  
   
 5.  Follow the remaining steps in the rest of the preceding procedure to complete the task.  
   
@@ -111,5 +111,5 @@ Job queues are an effective tool to schedule the running of business processes i
 ## See Also  
  [How to: Set Up Job Queues](../SetupAndAdministration/how-to-set-up-job-queues.md)   
  [How to: Use My Job Queue Part](../SetupAndAdministration/how-to-use-my-job-queue-part.md)   
- [\($ N\_675 My Job Queue $\)](../Topic/\($%20N_675%20My%20Job%20Queue%20$\).md)   
+ [My Job Queue](../Topic/\($%20N_675%20My%20Job%20Queue%20$\).md)   
  [Printing Reports from a Background Session](../Topic/Printing%20Reports%20from%20a%20Background%20Session.md)

@@ -26,20 +26,20 @@ You can post payments after you have received Lastschrift Verfahren \(LSV\+\) pa
 2.  Select the required journal, and on the **Home** tab, in the **Process** group, choose **Edit Journal**.  
   
     > [!NOTE]  
-    >  You can select the journal batch for LSV where the balance account you want to address is defined. You cannot import more than one LSV journal line into the same cash receipt journal. For more information, see the [\($ N\_255 Cash Receipt Journal $\)](../../Finance/-$-n_255-cash-receipt-journal-$-.md) window.  
+    >  You can select the journal batch for LSV where the balance account you want to address is defined. You cannot import more than one LSV journal line into the same cash receipt journal. For more information, see the [Cash Receipt Journal](../../Finance/-$-n_255-cash-receipt-journal-$-.md) window.  
   
 3.  On the **Home** tab, in the **Process** group, choose **Get From LSV Journal**.  
   
 4.  In the **LSV Journal List** window, select the LSV journal line that you want to import to the cash receipt journal.  
   
     > [!NOTE]  
-    >  You can only import journal lines where the **\($ T\_3010832\_5 LSV Status $\)** field is set to **File Created**.  
+    >  You can only import journal lines where the **LSV Status** field is set to **File Created**.  
   
 5.  Choose the **OK** button.  
   
-     The LSV journal line is imported into the cash receipt journal. The value in the **\($ T\_3010832\_5 LSV Status $\)** field in the **\($ N\_3010832 LSV Journal List $\)** window changes from **File Created** to **Finished**.  
+     The LSV journal line is imported into the cash receipt journal. The value in the **LSV Status** field in the **LSV Journal List** window changes from **File Created** to **Finished**.  
   
-     You can check the imported payments, and compare them with your bank payment advice in the **\($ N\_255 Cash Receipt Journal $\)** window. You can also delete the payment lines that could not be processed by the bank, and for which you must follow up with the customer manually.  
+     You can check the imported payments, and compare them with your bank payment advice in the **Cash Receipt Journal** window. You can also delete the payment lines that could not be processed by the bank, and for which you must follow up with the customer manually.  
   
 6.  On the **Home** tab, in the **Posting** group, choose **Post**.  
   
@@ -48,6 +48,6 @@ You can post payments after you have received Lastschrift Verfahren \(LSV\+\) pa
  [How to: Process an LSV Collection](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-process-an-lsv-collection.md)   
  [How to: Close an LSV Collection](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-close-an-lsv-collection.md)   
  [How to: Export Payments Using LSV](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-export-payments-using-lsv.md)   
- [\($ N\_255 Cash Receipt Journal $\)](../../Finance/-$-n_255-cash-receipt-journal-$-.md)   
- [\($ T\_3010832 LSV Journal $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/-$-t_3010832-lsv-journal-$-.md)   
- [\($ T\_3010834 LSV Journal Line $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/-$-t_3010834-lsv-journal-line-$-.md)
+ [Cash Receipt Journal](../../Finance/-$-n_255-cash-receipt-journal-$-.md)   
+ [LSV Journal](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/-$-t_3010832-lsv-journal-$-.md)   
+ [LSV Journal Line](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/-$-t_3010834-lsv-journal-line-$-.md)

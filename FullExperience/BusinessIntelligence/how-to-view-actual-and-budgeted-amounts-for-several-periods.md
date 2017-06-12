@@ -50,7 +50,7 @@ Instead of viewing the actual and budgeted amounts for all accounts within a sin
   
 1.  In the **Search** box, enter **Chart of Accounts**, and then choose the related link.  
   
-2.  In the **\($ N\_16 Chart of Accounts $\)** window, select the relevant general ledger account.  
+2.  In the **Chart of Accounts** window, select the relevant general ledger account.  
   
 3.  On the **Navigate** tab, in the **Balance** group, choose **G\/L Account Balance\/Budget**.  
   
@@ -67,5 +67,5 @@ Instead of viewing the actual and budgeted amounts for all accounts within a sin
  [How to: View Actual and Budgeted Amounts for All Accounts](../BusinessIntelligence/how-to-view-actual-and-budgeted-amounts-for-all-accounts.md)   
  [How to: View Budgets](../BusinessIntelligence/how-to-view-budgets.md)   
  [How to: Set Up New Budgets](../Finance/how-to-set-up-new-budgets.md)   
- [\($ B\_96 Copy G\-L Budget $\)](../Topic/\($%20B_96%20Copy%20G-L%20Budget%20$\).md)   
- [\($ T\_348 Dimension $\)](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)
+ [Copy G\-L Budget](../Topic/\($%20B_96%20Copy%20G-L%20Budget%20$\).md)   
+ [Dimension](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)

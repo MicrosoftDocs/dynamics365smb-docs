@@ -15,18 +15,18 @@ translation.priority.ht:
   - "nb-no"
 ---
 # How to: View Remittance Error Codes
-For a remittance error, the error code from the bank and an explanation of the error will be shown for the payment in the **\($ N\_15000005 Waiting Journal $\)** window.  
+For a remittance error, the error code from the bank and an explanation of the error will be shown for the payment in the **Waiting Journal** window.  
   
 ### To view error codes  
   
 1.  In the **Search** box, enter **Return Error**, and then choose the related link.  
   
-2.  In the **\($ N\_15000013 Return Error $\)** window, fill in the fields as described in the following table.  
+2.  In the **Return Error** window, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_15000007\_1 Waiting Journal Reference $\)**|Specify the reference code from the waiting journal.|  
-    |**\($ T\_15000007\_10 Message Text $\)**|Specify the message from the bank.|  
+    |**Waiting Journal Reference**|Specify the reference code from the waiting journal.|  
+    |**Message Text**|Specify the message from the bank.|  
   
 3.  Choose the **Close** button.  
   

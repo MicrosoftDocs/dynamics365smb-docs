@@ -57,4 +57,4 @@ This section contains information to help you resolve problems using [!INCLUDE[n
  [Troubleshooting: Storing User Choices](../Topic/Troubleshooting:%20Storing%20User%20Choices.md)  
   
 ## See Also  
- [Working with \($ P\_1 Product Name $\)](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)
+ [Working with Product Name](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)

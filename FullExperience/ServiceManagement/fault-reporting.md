@@ -40,7 +40,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Fault Reporting
-To set up service standards and responses for your company, you can establish how to capture and record fault information and what action to take in response to service items. The [!INCLUDE[demolong](../ApplicationDesign/includes/demolong_md.md)] for [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] provides four options, from which you can select one in the **General** FastTab of the **\($ N\_5919 Service Mgt. Setup $\)** window. Your selection serves as the default implementation for your service application.  
+To set up service standards and responses for your company, you can establish how to capture and record fault information and what action to take in response to service items. The [!INCLUDE[demolong](../ApplicationDesign/includes/demolong_md.md)] for [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] provides four options, from which you can select one in the **General** FastTab of the **Service Mgt. Setup** window. Your selection serves as the default implementation for your service application.  
   
  The following table describes the various fault reporting levels.  
   
@@ -51,7 +51,7 @@ To set up service standards and responses for your company, you can establish ho
 |**Fault \+ Symptom**|You provide a combination of codes in the **Fault Codes** and **Symptom Codes** tables. Typical symptom codes include indicators that a customer might use to describe a problem, such as noise or quality.|  
 |**Fault \+ Symptom \+ Area \(IRIS\)**|You use **Fault**, **Symptom**, and **Fault Area** codes, as an implementation of the International Repair Coding System \(IRIS\).|  
   
- To complete the setup of fault reporting, you can also specify what repairs or resolutions are associated with a fault or defect. For more information, see [\($ N\_5930 Fault\-Resolution Codes Relationships $\)](../Topic/\($%20N_5930%20Fault-Resolution%20Codes%20Relationships%20$\).md).  
+ To complete the setup of fault reporting, you can also specify what repairs or resolutions are associated with a fault or defect. For more information, see [Fault\-Resolution Codes Relationships](../Topic/\($%20N_5930%20Fault-Resolution%20Codes%20Relationships%20$\).md).  
   
  The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
   
@@ -62,7 +62,7 @@ To set up service standards and responses for your company, you can establish ho
 |Establish a list of typical repair methods or resolutions to service problems.|[How to: Set Up Resolution Codes](../Service/how-to-set-up-resolution-codes.md)|  
   
 ## See Also  
- [\($ T\_5918 Fault Code $\)](../Topic/\($%20T_5918%20Fault%20Code%20$\).md)   
- [\($ T\_5917 Fault Reason Code $\)](../Topic/\($%20T_5917%20Fault%20Reason%20Code%20$\).md)   
- [\($ T\_5916 Symptom Code $\)](../Topic/\($%20T_5916%20Symptom%20Code%20$\).md)   
- [\($ T\_5919 Resolution Code $\)](../Topic/\($%20T_5919%20Resolution%20Code%20$\).md)
+ [Fault Code](../Topic/\($%20T_5918%20Fault%20Code%20$\).md)   
+ [Fault Reason Code](../Topic/\($%20T_5917%20Fault%20Reason%20Code%20$\).md)   
+ [Symptom Code](../Topic/\($%20T_5916%20Symptom%20Code%20$\).md)   
+ [Resolution Code](../Topic/\($%20T_5919%20Resolution%20Code%20$\).md)

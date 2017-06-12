@@ -41,13 +41,13 @@ translation.priority.ht:
   - "sv-se"
 ---
 # G-L Balance by Dimension matrix
-You can access the G\/L Balance by Dimension matrix from the **\($ N\_16 Chart of Accounts $\)** window.  
+You can access the G\/L Balance by Dimension matrix from the **Chart of Accounts** window.  
   
- You fill in the fields in the **\($ N\_538 Dimension Combinations $\)** window:  
+ You fill in the fields in the **Dimension Combinations** window:  
   
 |Field|Description|  
 |-----------|-----------------|  
-|**Global Dimension Filters**|In these fields, you can enter the dimension value that the program will use to filter the information in the window. For more information about dimensions, see [\($ T\_348 Dimension $\)](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)|  
+|**Global Dimension Filters**|In these fields, you can enter the dimension value that the program will use to filter the information in the window. For more information about dimensions, see [Dimension](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)|  
 |**Business Unit Filter**|In this field you can enter a business unit that the program will use to filter the information in the window.|  
 |**Show as Lines**|Here you can select the dimension and dimension values that you want to show as lines in the G\/L Balance by Dimension window.|  
 |**Show as Columns**|Here you can select the dimension and dimension values that you want to show as columns in the G\/L Balance by Dimension window.|  
@@ -75,4 +75,4 @@ You can access the G\/L Balance by Dimension matrix from the **\($ N\_16 Chart o
  When you click Show Matrix, the matrix window is displayed.  
   
 ## See Also  
- [\($ N\_408 G\/L Balance by Dimension $\)](assetId:///37d753e1-fd65-4e06-b440-1c0e14b77366)
+ [G\/L Balance by Dimension](assetId:///37d753e1-fd65-4e06-b440-1c0e14b77366)

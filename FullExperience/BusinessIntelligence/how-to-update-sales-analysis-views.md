@@ -49,7 +49,7 @@ The amounts that are displayed in the **Sales Analysis by Dimensions** window gi
   
 ### To update a sales analysis view  
   
-1.  In the **Search** box, enter **\($ N\_7158 Sales Analysis by Dimensions $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Sales Analysis by Dimensions**, and then choose the related link.  
   
 2.  Select the analysis view line that you want to update, and then, on the **Home** tab, in the **Process** group, choose **Update**.  
   
@@ -59,4 +59,4 @@ The amounts that are displayed in the **Sales Analysis by Dimensions** window gi
 ## See Also  
  [How to: Set Up Sales Analysis Views](../BusinessIntelligence/how-to-set-up-sales-analysis-views.md)   
  [How to: View Sales Analysis Views by Dimensions](../BusinessIntelligence/how-to-view-sales-analysis-views-by-dimensions.md)   
- [\($ T\_348 Dimension $\)](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)
+ [Dimension](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)

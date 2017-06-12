@@ -24,7 +24,7 @@ You can set up a code for each of your shipping agents and enter information abo
   
 ### To set up a shipping agent  
   
-1.  In the **Search** box, enter **\($ N\_428 Shipping Agents $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Shipping Agents**, and then choose the related link.  
   
 2.  Fill in the various fields.  
   

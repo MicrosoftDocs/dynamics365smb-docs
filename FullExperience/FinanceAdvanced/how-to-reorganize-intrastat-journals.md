@@ -52,7 +52,7 @@ You must submit an Intrastat report every month and create a new journal batch f
   
 1.  In the **Search** box, enter **Intrastat Journals**, and then choose the related link.  
   
-2.  In the **\($ N\_311 Intrastat Journal $\)** window, to view the options, choose the **Batch Name** field.  
+2.  In the **Intrastat Journal** window, to view the options, choose the **Batch Name** field.  
   
 3.  Select the journal batches to be deleted.  
   

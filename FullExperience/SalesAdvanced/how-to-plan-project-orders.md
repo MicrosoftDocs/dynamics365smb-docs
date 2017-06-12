@@ -72,7 +72,7 @@ This planning task starts from a sales order and uses the **Sales Order Planning
   
 ## See Also  
  [About Planning Functionality](../OperationsPlanning/about-planning-functionality.md)   
- [\($ N\_99000822 Order Tracking $\)](../Purchasing/-$-n_99000822-order-tracking-$-.md)   
+ [Order Tracking](../Purchasing/-$-n_99000822-order-tracking-$-.md)   
  [How to: Refresh Production Orders](../OperationsPlanning/how-to-refresh-production-orders.md)   
  [How to: Replan Production Orders](../OperationsPlanning/how-to-replan-production-orders.md)   
  [How to: Create Production Orders from Sales Orders](../OperationsPlanning/how-to-create-production-orders-from-sales-orders.md)   

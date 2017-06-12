@@ -21,7 +21,7 @@ Periodically, you can run the **Delete Expired Components** batch job to maintai
   
 ### To delete expired components  
   
-1.  In the **Search** box, enter **\($ R\_99001041 Delete Expired Components $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Delete Expired Components**, and then choose the related link.  
   
 2.  Enter the filters to select the production BOM lines to be deleted.  
   
@@ -30,8 +30,8 @@ Periodically, you can run the **Delete Expired Components** batch job to maintai
 4.  Choose the **OK** button to delete the expired components.  
   
 ## See Also  
- [\($ N\_99000818 Prod. Order Components $\)](../Topic/\($%20N_99000818%20Prod.%20Order%20Components%20$\).md)   
- [\($ B\_99001041 Delete Expired Components $\)](../SetupAndAdministration/-$-b_99001041-delete-expired-components-$-.md)   
+ [Prod. Order Components](../Topic/\($%20N_99000818%20Prod.%20Order%20Components%20$\).md)   
+ [Delete Expired Components](../SetupAndAdministration/-$-b_99001041-delete-expired-components-$-.md)   
  [How to: Calculate Production Order Components](../OperationsPlanning/how-to-calculate-production-order-components.md)   
  [How to: Create Production BOMs](../DesignAndEngineering/how-to-create-production-boms.md)   
  [How to: Enter Dates and Times](../WorkingWithDynamics/how-to-enter-dates-and-times.md)

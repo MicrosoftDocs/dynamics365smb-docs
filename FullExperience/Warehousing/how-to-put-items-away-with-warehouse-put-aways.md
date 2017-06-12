@@ -93,15 +93,15 @@ When your location is set up to require warehouse put\-away processing and wareh
   
 -   A put\-away template is set up. For more information, see [How to: Set Up Put\-away Templates](../WarehouseActivities/how-to-set-up-put-away-templates.md).  
   
--   The weight, cubage, and special storage requirements of the item or stockkeeping unit are defined. For more information, see [\($ T\_27\_41 Gross Weight $\)](../Topic/\($%20T_27_41%20Gross%20Weight%20$\).md).  
+-   The weight, cubage, and special storage requirements of the item or stockkeeping unit are defined. For more information, see [Gross Weight](../Topic/\($%20T_27_41%20Gross%20Weight%20$\).md).  
   
--   The capacity, bin type, and bin ranking of the bins. For more information, see [\($ T\_7354\_21 Bin Ranking $\)](../Topic/\($%20T_7354_21%20Bin%20Ranking%20$\).md).  
+-   The capacity, bin type, and bin ranking of the bins. For more information, see [Bin Ranking](../Topic/\($%20T_7354_21%20Bin%20Ranking%20$\).md).  
   
  The bin ranking is taken into consideration when more than one bin matches put\-away template criteria. If both the put\-away template criteria and the bin ranking are the same for more than one bin, the bin with the highest number is selected.  
   
 ## See Also  
- [\($ N\_5768 Warehouse Receipt $\)](../Topic/\($%20N_5768%20Warehouse%20Receipt%20$\).md)   
- [\($ N\_5770 Warehouse Put\-away $\)](../Topic/\($%20N_5770%20Warehouse%20Put-away%20$\).md)   
+ [Warehouse Receipt](../Topic/\($%20N_5768%20Warehouse%20Receipt%20$\).md)   
+ [Warehouse Put\-away](../Topic/\($%20N_5770%20Warehouse%20Put-away%20$\).md)   
  [Put Items Away](../WarehouseActivities/put-items-away.md)   
  [How to: Prepare Shipments](../Topic/How%20to:%20Prepare%20Shipments.md)   
  [How to: Cross\-Dock Items](../Receiving/how-to-cross-dock-items.md)   

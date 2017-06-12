@@ -43,7 +43,7 @@ translation.priority.ht:
 # VAT Clauses
 VAT clauses are used to provide descriptive information about the VAT that is being reported on a sales document. The VAT clause information is displayed on a printed document alongside the VAT identifier or VAT rate.  
   
- For example, you may have specified that the VAT identifier associated with a sales line is a certain type of VAT. You can then create a VAT clause that displays information about the VAT. You set up a VAT clause in the **\($ N\_747 VAT Clauses $\)** window. You can also provide translated VAT clause descriptions in the report. The translated text will be based on the language code of the customer. You set up the translations in the **\($ N\_748 VAT Clause Translations $\)** window.  
+ For example, you may have specified that the VAT identifier associated with a sales line is a certain type of VAT. You can then create a VAT clause that displays information about the VAT. You set up a VAT clause in the **VAT Clauses** window. You can also provide translated VAT clause descriptions in the report. The translated text will be based on the language code of the customer. You set up the translations in the **VAT Clause Translations** window.  
   
  By default, when you specify a VAT posting group on a sales document, the VAT clause that has been associated with the VAT posting group is automatically used and copied to the sales line. If you change the VAT Product Posting group or the VAT Business Posting group on a sales line, then the VAT clause will be updated automatically to reflect the VAT clause code that is associated with the new group.  
   

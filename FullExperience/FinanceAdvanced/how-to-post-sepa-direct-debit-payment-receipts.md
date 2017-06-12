@@ -38,7 +38,7 @@ translation.priority.ht:
 # How to: Post SEPA Direct Debit Payment Receipts
 When a direct debit collection is successfully processed by your bank, you can proceed to post receipt of the payment for the involved sales invoices. For more information, see [How to: Create SEPA Direct Debit Collection Entries and Export to a Bank File](../BusinessFunctionality/DataExchange/how-to-create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file.md).  
   
- You can post the payment receipt directly from the **\($ N\_1207 Direct Debit Collections $\)** window or the **\($ N\_1208 Direct Debit Collect. Entries $\)** window. Alternatively, you can relay the work to another user by preparing the related journal lines.  
+ You can post the payment receipt directly from the **Direct Debit Collections** window or the **Direct Debit Collect. Entries** window. Alternatively, you can relay the work to another user by preparing the related journal lines.  
   
 ### To post a direct\-debit payment receipt from the Direct Debit Collections window  
   
@@ -48,20 +48,20 @@ When a direct debit collection is successfully processed by your bank, you can p
   
 3.  On the **Home** tab, in the **Process** group, choose **Post Payment Receipts**.  
   
-4.  In the **\($ R\_1201 Post Direct Debit Collection $\)** window, fill in the fields as described in the following table.  
+4.  In the **Post Direct Debit Collection** window, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_1208\_1 Direct Debit Collection No. $\)**|Specify the direct debit collection that you want to post payment receipt for.|  
-    |**\($ T\_1226\_5 General Journal Template $\)**|Specify which general journal template to use for posting the payment receipt, such as the template for cash receipts.|  
-    |**\($ T\_1226\_6 General Journal Batch Name $\)**|Specify which general journal batch to use for posting the payment receipt.|  
+    |**Direct Debit Collection No.**|Specify the direct debit collection that you want to post payment receipt for.|  
+    |**General Journal Template**|Specify which general journal template to use for posting the payment receipt, such as the template for cash receipts.|  
+    |**General Journal Batch Name**|Specify which general journal batch to use for posting the payment receipt.|  
     |**Create Journal Only**|Select this check box if you do not want to post the payment receipt when you choose the **OK** button. The payment receipt will be prepared in the specified journal and will not be posted until someone posts the journal lines in question.|  
   
 5.  Choose the **OK** button.  
   
 ## See Also  
- [\($ R\_1201 Post Direct Debit Collection $\)](../Topic/\($%20R_1201%20Post%20Direct%20Debit%20Collection%20$\).md)   
- [\($ N\_1207 Direct Debit Collections $\)](../Topic/\($%20N_1207%20Direct%20Debit%20Collections%20$\).md)   
- [\($ N\_1208 Direct Debit Collect. Entries $\)](../Topic/\($%20N_1208%20Direct%20Debit%20Collect.%20Entries%20$\).md)   
+ [Post Direct Debit Collection](../Topic/\($%20R_1201%20Post%20Direct%20Debit%20Collection%20$\).md)   
+ [Direct Debit Collections](../Topic/\($%20N_1207%20Direct%20Debit%20Collections%20$\).md)   
+ [Direct Debit Collect. Entries](../Topic/\($%20N_1208%20Direct%20Debit%20Collect.%20Entries%20$\).md)   
  [Collect Payments with SEPA Direct Debit](../Finance/collect-payments-with-sepa-direct-debit.md)   
  [Process Incoming Payments](../Finance/process-incoming-payments.md)

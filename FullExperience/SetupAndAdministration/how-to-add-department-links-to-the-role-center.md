@@ -77,9 +77,9 @@ Sometimes you may find a link on a **Departments** page that you want to add to 
  The new link now appears in the menu to which you added it. However, you may want to move the link to another position in the menu. For example, if you added a link to the navigation pane, it will appear on the **Home** menu, but you can move it to another menu in the navigation pane. For more information, see [How to: Customize the Navigation Pane](../SetupAndAdministration/how-to-customize-the-navigation-pane.md).  
   
 ## See Also  
- [\($ S\_PERSONALIZATION Personalize the User Interface $\)](../SetupAndAdministration/-$-s_personalization-personalize-the-user-interface-$-.md)   
- [\($ S\_DEPARTMENTS Departments $\)](../GettingStarted/-$-s_departments-departments-$-.md)   
+ [Personalize the User Interface](../SetupAndAdministration/-$-s_personalization-personalize-the-user-interface-$-.md)   
+ [Departments](../GettingStarted/-$-s_departments-departments-$-.md)   
  [How to: Customize the Navigation Pane](../SetupAndAdministration/how-to-customize-the-navigation-pane.md)   
  [Customize the User Interface](../SetupAndAdministration/customize-the-user-interface.md)   
  [Learn About the RoleTailored Design](../GettingStarted/learn-about-the-roletailored-design.md)   
- [Working with \($ P\_1 Product Name $\)](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)
+ [Working with Product Name](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)

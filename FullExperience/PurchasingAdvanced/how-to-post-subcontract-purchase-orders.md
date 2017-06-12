@@ -65,7 +65,7 @@ When the purchase order has been created from the subcontractor worksheet, then 
 ## See Also  
  [About Subcontracting](../OperationsPlanning/about-subcontracting.md)   
  [How to: Post Purchase Orders](../Purchasing/how-to-post-purchase-orders.md)   
- [\($ N\_99000886 Subcontracting Worksheet $\)](../Topic/\($%20N_99000886%20Subcontracting%20Worksheet%20$\).md)   
+ [Subcontracting Worksheet](../Topic/\($%20N_99000886%20Subcontracting%20Worksheet%20$\).md)   
  [How to: Register Consumption and Output](../Production/how-to-register-consumption-and-output.md)   
  [How to: Calculate Subcontracting Worksheets and Create Subcontract Purchase Orders](../OperationsPlanning/how-to-calculate-subcontracting-worksheets-and-create-subcontract-purchase-orders.md)   
  [Design Details: Inventory Costing](../ApplicationDesign/design-details-inventory-costing.md)

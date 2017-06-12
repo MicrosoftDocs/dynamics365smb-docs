@@ -25,7 +25,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can us
   
 ### To set up delivery reminders  
   
-1.  In the **Search** box, enter **\($ N\_460 Purchases & Payables Setup $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Purchases & Payables Setup**, and then choose the related link.  
   
 2.  On the **General** FastTab, in the **Default Del. Rem. Date Field** field, specify one of the following options as described in the following table.  
   
@@ -45,7 +45,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can us
 4.  Choose the **OK** button.  
   
 ## See Also  
- [\($ N\_460 Purchases & Payables Setup $\)](../../Purchasing/-$-n_460-purchases-payables-setup-$-.md)   
+ [Purchases & Payables Setup](../../Purchasing/-$-n_460-purchases-payables-setup-$-.md)   
  [Delivery Reminders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/delivery-reminders.md)   
  [How to: Set Up Delivery Reminder Terms, Levels, and Text](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-set-up-delivery-reminder-terms-levels-and-text.md)   
  [How to: Assign Delivery Reminder Codes to Vendors](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-assign-delivery-reminder-codes-to-vendors.md)   

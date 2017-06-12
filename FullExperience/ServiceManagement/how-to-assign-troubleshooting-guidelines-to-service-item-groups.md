@@ -43,7 +43,7 @@ You can assign troubleshooting guidelines to service item groups to help the tec
   
 ### To assign troubleshooting guidelines to a service item group  
   
-1.  In the **Search** box, enter **\($ N\_5909 Service Item Groups $\)**, and then choose the related link. Select the service item group to which you want to assign troubleshooting guidelines.  
+1.  In the **Search** box, enter **Service Item Groups**, and then choose the related link. Select the service item group to which you want to assign troubleshooting guidelines.  
   
 2.  On the **Navigate** tab, in the **Service** group, choose **Troubleshooting Setup**. The **Troubleshooting Setup** window opens.  
   

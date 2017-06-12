@@ -46,14 +46,14 @@ Before starting actual production activities, it is often necessary to fine sche
   
 |**To**|**See**|  
 |------------|-------------|  
-|View a list of production orders to schedule or control.|[\($ N\_99000831 Released Production Order $\)](../Topic/\($%20N_99000831%20Released%20Production%20Order%20$\).md)|  
-|View the sum of setup and run time allocated for one production order routing to perform a specific operation, or view the sum of time allocated for one machine\/work center to perform operations for multiple production orders.|[\($ T\_5410 Prod. Order Capacity Need $\)](../Production/-$-t_5410-prod.-order-capacity-need-$-.md)|  
-|Learn how to use the **Work Center Load** window to fine schedule production activities \(works similarly for machine centers\).|[\($ N\_99000887 Work Center Load $\)](../Topic/\($%20N_99000887%20Work%20Center%20Load%20$\).md)|  
+|View a list of production orders to schedule or control.|[Released Production Order](../Topic/\($%20N_99000831%20Released%20Production%20Order%20$\).md)|  
+|View the sum of setup and run time allocated for one production order routing to perform a specific operation, or view the sum of time allocated for one machine\/work center to perform operations for multiple production orders.|[Prod. Order Capacity Need](../Production/-$-t_5410-prod.-order-capacity-need-$-.md)|  
+|Learn how to use the **Work Center Load** window to fine schedule production activities \(works similarly for machine centers\).|[Work Center Load](../Topic/\($%20N_99000887%20Work%20Center%20Load%20$\).md)|  
 |View the load on a work center over time \(works similarly for machine centers\).|[How to: Display the Load on Work Centers](../Production/how-to-display-the-load-on-work-centers.md)|  
-|View a report of loads on machine and work centers.|[\($ R\_99000783 Work Center Load $\)](../Topic/\($%20R_99000783%20Work%20Center%20Load%20$\).md)|  
-|View a list of work centers that are overloaded, shown by efficiency bars \(works similarly for machine centers\).|[\($ R\_99000785 Work Center Load \- Bar $\)](../Topic/\($%20R_99000785%20Work%20Center%20Load%20-%20Bar%20$\).md)|  
-|Suspend the strict capacity need calculation to allow one or more operations to extend into unavailable shop calendar time.|[\($ T\_5409\_100 Schedule Manually $\)](../Production/-$-t_5409_100-schedule-manually-$-.md)|  
-|Get an overview of operations that are currently outsourced and do not require internal scheduling.|[\($ R\_99000789 Subcontractor \- Dispatch List $\)](../Production/-$-r_99000789-subcontractor-dispatch-list-$-.md)|  
+|View a report of loads on machine and work centers.|[Work Center Load](../Topic/\($%20R_99000783%20Work%20Center%20Load%20$\).md)|  
+|View a list of work centers that are overloaded, shown by efficiency bars \(works similarly for machine centers\).|[Work Center Load \- Bar](../Topic/\($%20R_99000785%20Work%20Center%20Load%20-%20Bar%20$\).md)|  
+|Suspend the strict capacity need calculation to allow one or more operations to extend into unavailable shop calendar time.|[Schedule Manually](../Production/-$-t_5409_100-schedule-manually-$-.md)|  
+|Get an overview of operations that are currently outsourced and do not require internal scheduling.|[Subcontractor \- Dispatch List](../Production/-$-r_99000789-subcontractor-dispatch-list-$-.md)|  
   
 ## See Also  
  [Plan for Resource Availability](../OperationsPlanning/plan-for-resource-availability.md)   

@@ -44,7 +44,7 @@ For each reminder level, you can specify text that will be printed before or aft
   
 ### To set up a reminder text  
   
-1.  In the **Search** box, enter **\($ N\_431 Reminder Terms $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Reminder Terms**, and then choose the related link.  
   
 2.  In the **Reminder Terms** window, on the **Actions** tab, in the **General** group, choose **Levels**.  
   

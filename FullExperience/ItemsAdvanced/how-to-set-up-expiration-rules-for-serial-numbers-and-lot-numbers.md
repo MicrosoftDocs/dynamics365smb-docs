@@ -44,7 +44,7 @@ For some items you might want to set up specific expiration dates and rules in t
   
 ### To set up expiration rules for serial or lot numbers  
   
-1.  In the **Search** box, enter **\($ N\_6502 Item Tracking Codes $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Item Tracking Codes**, and then choose the related link.  
   
 2.  Select an existing item tracking code, and then, on the **Home** tab, in the **Manage** group, choose **Edit**.  
   
@@ -52,11 +52,11 @@ For some items you might want to set up specific expiration dates and rules in t
   
     |[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_6502\_8 Strict Expiration Posting $\)**|Specifies that an expiration date assigned to the item tracking number as it entered inventory must be respected when it exits inventory.|  
-    |**\($ T\_6502\_6 Man. Expir. Date Entry Reqd. $\)**|Specifies that you must manually enter an expiration date on the item tracking line.|  
+    |**Strict Expiration Posting**|Specifies that an expiration date assigned to the item tracking number as it entered inventory must be respected when it exits inventory.|  
+    |**Man. Expir. Date Entry Reqd.**|Specifies that you must manually enter an expiration date on the item tracking line.|  
   
 ## See Also  
- [\($ T\_6502\_8 Strict Expiration Posting $\)](../Topic/\($%20T_6502_8%20Strict%20Expiration%20Posting%20$\).md)   
- [\($ T\_6502\_6 Man. Expir. Date Entry Reqd. $\)](../Topic/\($%20T_6502_6%20Man.%20Expir.%20Date%20Entry%20Reqd.%20$\).md)   
+ [Strict Expiration Posting](../Topic/\($%20T_6502_8%20Strict%20Expiration%20Posting%20$\).md)   
+ [Man. Expir. Date Entry Reqd.](../Topic/\($%20T_6502_6%20Man.%20Expir.%20Date%20Entry%20Reqd.%20$\).md)   
  [How to: Set Up Warranties for Serial Numbers and Lot Numbers](../DesignAndEngineering/how-to-set-up-warranties-for-serial-numbers-and-lot-numbers.md)   
  [How to: Set Up Item Tracking Codes](../DesignAndEngineering/how-to-set-up-item-tracking-codes.md)

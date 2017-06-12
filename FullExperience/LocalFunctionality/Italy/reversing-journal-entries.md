@@ -17,7 +17,7 @@ translation.priority.ht:
   - "it-it"
 ---
 # Reversing Journal Entries
-Controls have been added to the **\($ N\_179 Reverse Transaction Entries $\)** window to comply with local laws. These controls ensure the following:  
+Controls have been added to the **Reverse Transaction Entries** window to comply with local laws. These controls ensure the following:  
   
 -   You cannot reverse an invoice, credit note, or document involving VAT management.  
   
@@ -28,5 +28,5 @@ Controls have been added to the **\($ N\_179 Reverse Transaction Entries $\)** w
 -   You cannot reverse sales, purchase, or service headers for reserved documents.  
   
 ## See Also  
- [\($ N\_179 Reverse Transaction Entries $\)](assetId:///fc49ff79-2858-4e27-8713-ccc882388368)   
+ [Reverse Transaction Entries](assetId:///fc49ff79-2858-4e27-8713-ccc882388368)   
  [Italy Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/italy-local-functionality.md)

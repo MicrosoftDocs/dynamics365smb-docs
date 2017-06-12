@@ -27,15 +27,15 @@ After you create a recurring group, you can set up recurring orders on the blank
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_36\_19 Order Date $\)**|Enter the order date. The order date is used when you create new recurring orders. Orders with an order date on or before the processing date are processed.|  
-    |**\($ T\_36\_15000300 Recurring Group Code $\)**|Enter the recurring group code for the recurring group. When a blanket order contains a recurring group code, the blanket order is available as a recurring order.|  
+    |**Order Date**|Enter the order date. The order date is used when you create new recurring orders. Orders with an order date on or before the processing date are processed.|  
+    |**Recurring Group Code**|Enter the recurring group code for the recurring group. When a blanket order contains a recurring group code, the blanket order is available as a recurring order.|  
   
 4.  On the **Lines** FastTab, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_37\_15 Quantity $\)**|Enter the quantity for the blanket order.|  
-    |**\($ T\_37\_18 Qty. to Ship $\)**|Enter the quantity to ship. This quantity is used when you create new orders as recurring orders.|  
+    |**Quantity**|Enter the quantity for the blanket order.|  
+    |**Qty. to Ship**|Enter the quantity to ship. This quantity is used when you create new orders as recurring orders.|  
   
 5.  Choose the **OK** button.  
   

@@ -45,7 +45,7 @@ In certain situations, you may need to delete invoiced purchase orders that have
   
 1.  In the **Search** box, enter **Delete Invoiced Purchase Orders** , and then choose the related link.  
   
-2.  In the **\($ B\_499 Delete Invoiced Purchase Orders $\)** window, set filters on the **No.**, **Buy\-from Vendor No.**, and **Pay\-to Vendor No.** fields to select the orders to be deleted.  
+2.  In the **Delete Invoiced Purchase Orders** window, set filters on the **No.**, **Buy\-from Vendor No.**, and **Pay\-to Vendor No.** fields to select the orders to be deleted.  
   
 3.  When you have set the filters, choose **OK** to execute the batch job.  
   

@@ -53,9 +53,9 @@ It is important to validate the setup questionnaire before you apply it to the [
   
 2.  Select a **Question Area** and choose **Edit**.  
   
-3.  For each question, validate that the value in the **\($ T\_8612\_6 Answer $\)** field corresponds to the format provided in the **\($ T\_8612\_5 Answer Option $\)** field. For example, validate that the address of a company is in text format.  
+3.  For each question, validate that the value in the **Answer** field corresponds to the format provided in the **Answer Option** field. For example, validate that the address of a company is in text format.  
   
-4.  If you find errors, you can troubleshoot and make corrections in Excel by exporting the questionnaire, and then importing it again. Alternatively, you can also correct errors directly in [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] as you review the answers in the **\($ N\_8613 Question Areas $\)** window.  
+4.  If you find errors, you can troubleshoot and make corrections in Excel by exporting the questionnaire, and then importing it again. Alternatively, you can also correct errors directly in [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] as you review the answers in the **Question Areas** window.  
   
 5.  Repeat these steps for each **Question Area**.  
   

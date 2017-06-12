@@ -49,8 +49,8 @@ The following table describes a sequence of tasks, with links to the topics that
   
 |**To**|**See**|  
 |------------|-------------|  
-|Use the **Cash Receipt Journal** window to register payments from customers.|[\($ N\_255 Cash Receipt Journal $\)](../Finance/-$-n_255-cash-receipt-journal-$-.md)|  
-|Use the **Payment Journal** window to register payments to vendors.|[\($ N\_256 Payment Journal $\)](../Finance/-$-n_256-payment-journal-$-.md)|  
+|Use the **Cash Receipt Journal** window to register payments from customers.|[Cash Receipt Journal](../Finance/-$-n_255-cash-receipt-journal-$-.md)|  
+|Use the **Payment Journal** window to register payments to vendors.|[Payment Journal](../Finance/-$-n_256-payment-journal-$-.md)|  
   
 ## See Also  
  [Work with General Journals](../Finance/work-with-general-journals.md)

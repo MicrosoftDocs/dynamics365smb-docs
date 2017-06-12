@@ -91,5 +91,5 @@ If you change the annual amount of the service contract or contract quote, you m
  [Distribution Based on Line Amount](../Service/distribution-based-on-line-amount.md)   
  [Even Distribution](../Service/even-distribution.md)   
  [How to: Manually Distribute the Annual Amount Difference on Contracts](../Service/how-to-manually-distribute-the-annual-amount-difference-on-contracts.md)   
- [\($ T\_5964\_34 Profit $\)](../Topic/\($%20T_5964_34%20Profit%20$\).md)   
- [\($ T\_5964\_24 Line Amount $\)](../Topic/\($%20T_5964_24%20Line%20Amount%20$\).md)
+ [Profit](../Topic/\($%20T_5964_34%20Profit%20$\).md)   
+ [Line Amount](../Topic/\($%20T_5964_24%20Line%20Amount%20$\).md)

@@ -45,7 +45,7 @@ When you have created service orders or quotes, you can make use of resource gro
   
 ### To allocate a resource using resource group availability  
   
-1.  In the **Search** box, enter **\($ N\_6000 Dispatch Board $\)**, and choose the related link.  
+1.  In the **Search** box, enter **Dispatch Board**, and choose the related link.  
   
 2.  Browse to the relevant service order.  
   
@@ -55,7 +55,7 @@ When you have created service orders or quotes, you can make use of resource gro
   
 5.  On the **Navigate** tab, in the **Planning** group, choose **Res. Group Availability**.  
   
-6.  In the **\($ N\_6004 Res. Group Availability \(Service\) $\)** window, on the **Actions** tab, in the **General** group, choose **Show Matrix**, and select a resource group you want to allocate.  
+6.  In the **Res. Group Availability \(Service\)** window, on the **Actions** tab, in the **General** group, choose **Show Matrix**, and select a resource group you want to allocate.  
   
 7.  Select a date on which the resource group has enough available hours for the task and which is close to the response date of the service order.  
   

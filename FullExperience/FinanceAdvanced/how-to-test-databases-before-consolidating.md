@@ -57,7 +57,7 @@ After you have set up the consolidated company and the business units and export
   
 2.  In the **Search** box, enter **Business Units**, and then choose the related link.  
   
-3.  In the **\($ N\_240 Business Units $\)**, on the **Actions** tab, in the **Functions** group, choose **Test Database**.  
+3.  In the **Business Units**, on the **Actions** tab, in the **Functions** group, choose **Test Database**.  
   
 4.  On the **Business Unit** FastTab, you can set a filter to select the business units to be tested. If you do not set a filter, all business units that are selected in **Consolidate** field will be tested.  
   
@@ -76,5 +76,5 @@ After you have set up the consolidated company and the business units and export
  [How to: Export Business Unit Information](../Finance/how-to-export-business-unit-information.md)   
  [How to: Consolidate from Databases](../Finance/how-to-consolidate-from-databases.md)   
  [How to: Consolidate from Files](../Finance/how-to-consolidate-from-files.md)   
- [\($ T\_348 Dimension $\)](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)   
- [\($ S\_COMPANY How to: Select a Company $\)](../WorkingWithDynamics/-$-s_company-how-to-select-a-company-$-.md)
+ [Dimension](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)   
+ [How to: Select a Company](../WorkingWithDynamics/-$-s_company-how-to-select-a-company-$-.md)

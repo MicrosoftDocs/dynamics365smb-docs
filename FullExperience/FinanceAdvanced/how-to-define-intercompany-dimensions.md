@@ -49,7 +49,7 @@ In order for a group of companies to use dimensions on intercompany transactions
   
 1.  In the **Search** box, enter **IC Dimensions**, and then choose the related link.  
   
-2.  In the **\($ N\_600 IC Dimensions $\)** window, enter each dimension on a line in the window. If your IC dimensions will be similar or identical to your company dimensions, you can fill in the window automatically by using the **Copy from Dimensions** function, and then you can edit the resulting lines.  
+2.  In the **IC Dimensions** window, enter each dimension on a line in the window. If your IC dimensions will be similar or identical to your company dimensions, you can fill in the window automatically by using the **Copy from Dimensions** function, and then you can edit the resulting lines.  
   
 3.  You can export the IC dimensions to an XML file for distribution to your partner companies. On the **Actions** tab, in the **Functions** group, choose **Export**.  
   

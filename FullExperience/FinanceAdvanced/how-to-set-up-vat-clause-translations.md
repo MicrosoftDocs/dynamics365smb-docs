@@ -44,14 +44,14 @@ You can use translated VAT clauses for customers who have a language code that i
   
 1.  In the **Search** box, enter **VAT Clauses**, and then choose the related link.  
   
-2.  In the **\($ N\_747 VAT Clauses $\)** window, select a VAT clause from the list.  
+2.  In the **VAT Clauses** window, select a VAT clause from the list.  
   
 3.  On the **General** tab, choose **Translation**.  
   
-4.  In the **\($ N\_748 VAT Clause Translations $\)** window, in the **\($ T\_561\_2 Language Code $\)** field, choose a language.  
+4.  In the **VAT Clause Translations** window, in the **Language Code** field, choose a language.  
   
-5.  In the **\($ T\_561\_3 Description $\)** and **\($ T\_561\_4 Description 2 $\)** fields, enter the text that is a translation of the descriptions. This text is displayed in translated VAT report documents.  
+5.  In the **Description** and **Description 2** fields, enter the text that is a translation of the descriptions. This text is displayed in translated VAT report documents.  
   
 ## See Also  
- [\($ N\_748 VAT Clause Translations $\)](assetId:///ca9b2fbe-6a9c-4534-9a4e-76a093524ec8)   
+ [VAT Clause Translations](assetId:///ca9b2fbe-6a9c-4534-9a4e-76a093524ec8)   
  [How to: Set Up VAT Clauses](../Finance/how-to-set-up-vat-clauses.md)

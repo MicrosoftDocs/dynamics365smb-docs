@@ -45,7 +45,7 @@ In some cases, you may want to modify the beginning and ending text that you hav
   
 1.  Modify the finance charge memo texts. For more information, see [How to: Set Up Text for Finance Charge Memos](../Finance/how-to-set-up-text-for-finance-charge-memos.md).  
   
-2.  In the **Search** box, enter **\($ N\_446 Finance Charge Memo $\)**, and then choose the related link. Select the finance charge memo you want to update.  
+2.  In the **Search** box, enter **Finance Charge Memo**, and then choose the related link. Select the finance charge memo you want to update.  
   
 3.  On the **Actions** tab, in the **Functions** group, choose **Update Finance Charge Text**. The **Update Finance Charge Text** window opens.  
   
@@ -54,5 +54,5 @@ In some cases, you may want to modify the beginning and ending text that you hav
 5.  Choose the **OK** button to update the beginning and ending texts.  
   
 ## See Also  
- [\($ B\_186 Update Finance Charge Text $\)](../Topic/\($%20B_186%20Update%20Finance%20Charge%20Text%20$\).md)   
+ [Update Finance Charge Text](../Topic/\($%20B_186%20Update%20Finance%20Charge%20Text%20$\).md)   
  [How to: Create Finance Charge Memos Manually](../Finance/how-to-create-finance-charge-memos-manually.md)

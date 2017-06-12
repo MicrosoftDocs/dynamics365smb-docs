@@ -39,7 +39,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Status Field on Documents
-When you create a quote, order or credit memo, the **\($ T\_36\_120 Status $\)** field on the document header contains the status **Open** by default.  
+When you create a quote, order or credit memo, the **Status** field on the document header contains the status **Open** by default.  
   
  After you have filled in the document, you can release it, and the program changes the value in the **Status** field to **Released**. This status indicates that the order is ready for the next stage of processing before it is posted.  
   
@@ -71,7 +71,7 @@ When you create a quote, order or credit memo, the **\($ T\_36\_120 Status $\)**
 >  If you post your orders or credit memos by using the **Post Batch** function, you can choose only to post the orders or credit memos that you have released.  
   
 ## See Also  
- [\($ N\_42 Sales Order $\)](../Topic/\($%20N_42%20Sales%20Order%20$\).md)   
- [\($ T\_36\_120 Status $\)](../Topic/\($%20T_36_120%20Status%20$\).md)   
+ [Sales Order](../Topic/\($%20N_42%20Sales%20Order%20$\).md)   
+ [Status](../Topic/\($%20T_36_120%20Status%20$\).md)   
  [How to: Release Orders](../DesignAndEngineering/how-to-release-orders.md)   
  [How to: Reopen Released Orders](../DesignAndEngineering/how-to-reopen-released-orders.md)

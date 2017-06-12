@@ -45,7 +45,7 @@ For some items, you might want to set up specific warranties in the item trackin
   
 ### To set up warranties for serial or lot numbers  
   
-1.  In the **Search** box, enter **\($ N\_6502 Item Tracking Codes $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Item Tracking Codes**, and then choose the related link.  
   
 2.  Select an existing item tracking code, and then, on the **Home** tab, in the **Manage** group, choose **Edit**.  
   
@@ -53,13 +53,13 @@ For some items, you might want to set up specific warranties in the item trackin
   
     |[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_6502\_3 Warranty Date Formula $\)**|Specifies the last day of warranty for the item.|  
-    |**\($ T\_6502\_5 Man. Warranty Date Entry Reqd. $\)**|Specifies that you must manually enter a warranty date on the item tracking line.|  
+    |**Warranty Date Formula**|Specifies the last day of warranty for the item.|  
+    |**Man. Warranty Date Entry Reqd.**|Specifies that you must manually enter a warranty date on the item tracking line.|  
   
 ## See Also  
- [\($ T\_6502\_3 Warranty Date Formula $\)](../Topic/\($%20T_6502_3%20Warranty%20Date%20Formula%20$\).md)   
- [\($ T\_83\_6502 Warranty Date $\)](../Topic/\($%20T_83_6502%20Warranty%20Date%20$\).md)   
- [\($ T\_32\_6502 Warranty Date $\)](../Topic/\($%20T_32_6502%20Warranty%20Date%20$\).md)   
- [\($ T\_6502\_5 Man. Warranty Date Entry Reqd. $\)](../Topic/\($%20T_6502_5%20Man.%20Warranty%20Date%20Entry%20Reqd.%20$\).md)   
+ [Warranty Date Formula](../Topic/\($%20T_6502_3%20Warranty%20Date%20Formula%20$\).md)   
+ [Warranty Date](../Topic/\($%20T_83_6502%20Warranty%20Date%20$\).md)   
+ [Warranty Date](../Topic/\($%20T_32_6502%20Warranty%20Date%20$\).md)   
+ [Man. Warranty Date Entry Reqd.](../Topic/\($%20T_6502_5%20Man.%20Warranty%20Date%20Entry%20Reqd.%20$\).md)   
  [How to: Set Up Expiration Rules for Serial Numbers and Lot Numbers](../DesignAndEngineering/how-to-set-up-expiration-rules-for-serial-numbers-and-lot-numbers.md)   
  [How to: Set Up Item Tracking Codes](../DesignAndEngineering/how-to-set-up-item-tracking-codes.md)

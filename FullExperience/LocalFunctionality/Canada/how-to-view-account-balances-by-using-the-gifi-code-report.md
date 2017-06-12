@@ -39,8 +39,8 @@ You can review your account balances by General Index of Financial Information \
   
 ## See Also  
  [GIFI Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/gifi-codes.md)   
- [\($ R\_10004 Account Balances by GIFI Code $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-r_10004-account-balances-by-gifi-code-$-.md)   
- [\($ B\_10005 Export GIFI Info. to Excel $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-b_10005-export-gifi-info.-to-excel-$-.md)   
+ [Account Balances by GIFI Code](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-r_10004-account-balances-by-gifi-code-$-.md)   
+ [Export GIFI Info. to Excel](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-b_10005-export-gifi-info.-to-excel-$-.md)   
  [How to: Set Up GIFI Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-set-up-gifi-codes.md)   
  [How to: Export Balance Information by Using GIFI Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-export-balance-information-by-using-gifi-codes.md)   
  [How to: Associate GIFI Codes with Chart of Accounts](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-associate-gifi-codes-with-chart-of-accounts.md)

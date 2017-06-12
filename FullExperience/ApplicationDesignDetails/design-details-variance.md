@@ -72,17 +72,17 @@ Variance is defined as the difference between the actual cost and the standard c
   
 |Cost share|Purchased item|Produced\/Assembled item|  
 |----------------|--------------------|------------------------------|  
-|**\($ T\_27\_24 Standard Cost $\)**||Single\-Level Material Cost \+ Single\-Level Capacity Cost \+ Single\-Level Subcontrd. Cost \+ Single\-Level Cap. Ovhd. Cost \+ Single\-Level Mfg. Ovhd. Cost|  
-|**\($ T\_27\_99000752 Single\-Level Material Cost $\)**|Unit Cost|![Equation 1](../ApplicationDesign/media/design_details_inventory_costing_11_equation_1.png "design\_details\_inventory\_costing\_11\_equation\_1")|  
-|**\($ T\_27\_99000753 Single\-Level Capacity Cost $\)**|Not applicable|![Equation 2](../ApplicationDesign/media/design_details_inventory_costing_11_equation_2.png "design\_details\_inventory\_costing\_11\_equation\_2")|  
-|**\($ T\_27\_99000754 Single\-Level Subcontrd. Cost $\)**|Not applicable|![Equation 3](../ApplicationDesign/media/design_details_inventory_costing_11_equation_3.png "design\_details\_inventory\_costing\_11\_equation\_3")|  
-|**\($ T\_27\_99000755 Single\-Level Cap. Ovhd Cost $\)**|Not applicable|![Equation 4](../ApplicationDesign/media/design_details_inventory_costing_11_equation_4.png "design\_details\_inventory\_costing\_11\_equation\_4")|  
-|**\($ T\_27\_99000756 Single\-Level Mfg. Ovhd Cost $\)**|Not applicable|\(Single\-Level Material Cost \+ Single\-Level Capacity Cost \+ Single\-Level Subcontrd. Cost\) \* Indirect Cost % \/ 100 \+ Overhead Rate|  
-|**\($ T\_27\_5404 Rolled\-up Material Cost $\)**|Unit Cost|![Equation 5](../ApplicationDesign/media/design_details_inventory_costing_11_equation_5.png "design\_details\_inventory\_costing\_11\_equation\_5")|  
-|**\($ T\_27\_5405 Rolled\-up Capacity Cost $\)**|Not applicable|![Equation 6](../ApplicationDesign/media/design_details_inventory_costing_11_equation_6.png "design\_details\_inventory\_costing\_11\_equation\_6")|  
-|**\($ T\_27\_99000758 Rolled\-Up Subcontracted Cost $\)**|Not applicable|![Equation 7](../ApplicationDesign/media/design_details_inventory_costing_11_equation_7.png "design\_details\_inventory\_costing\_11\_equation\_7")|  
-|**\($ T\_27\_99000760 Rolled\-up Capacity Ovhd. Cost $\)**|Not applicable|![Equation 8](../ApplicationDesign/media/design_details_inventory_costing_11_equation_8.png "design\_details\_inventory\_costing\_11\_equation\_8")|  
-|**\($ T\_27\_99000759 Rolled\-up Mfg. Ovhd. Cost $\)**|Not applicable|![Equation 9](../ApplicationDesign/media/design_details_inventory_costing_11_equation_9.png "design\_details\_inventory\_costing\_11\_equation\_9")|  
+|**Standard Cost**||Single\-Level Material Cost \+ Single\-Level Capacity Cost \+ Single\-Level Subcontrd. Cost \+ Single\-Level Cap. Ovhd. Cost \+ Single\-Level Mfg. Ovhd. Cost|  
+|**Single\-Level Material Cost**|Unit Cost|![Equation 1](../ApplicationDesign/media/design_details_inventory_costing_11_equation_1.png "design\_details\_inventory\_costing\_11\_equation\_1")|  
+|**Single\-Level Capacity Cost**|Not applicable|![Equation 2](../ApplicationDesign/media/design_details_inventory_costing_11_equation_2.png "design\_details\_inventory\_costing\_11\_equation\_2")|  
+|**Single\-Level Subcontrd. Cost**|Not applicable|![Equation 3](../ApplicationDesign/media/design_details_inventory_costing_11_equation_3.png "design\_details\_inventory\_costing\_11\_equation\_3")|  
+|**Single\-Level Cap. Ovhd Cost**|Not applicable|![Equation 4](../ApplicationDesign/media/design_details_inventory_costing_11_equation_4.png "design\_details\_inventory\_costing\_11\_equation\_4")|  
+|**Single\-Level Mfg. Ovhd Cost**|Not applicable|\(Single\-Level Material Cost \+ Single\-Level Capacity Cost \+ Single\-Level Subcontrd. Cost\) \* Indirect Cost % \/ 100 \+ Overhead Rate|  
+|**Rolled\-up Material Cost**|Unit Cost|![Equation 5](../ApplicationDesign/media/design_details_inventory_costing_11_equation_5.png "design\_details\_inventory\_costing\_11\_equation\_5")|  
+|**Rolled\-up Capacity Cost**|Not applicable|![Equation 6](../ApplicationDesign/media/design_details_inventory_costing_11_equation_6.png "design\_details\_inventory\_costing\_11\_equation\_6")|  
+|**Rolled\-Up Subcontracted Cost**|Not applicable|![Equation 7](../ApplicationDesign/media/design_details_inventory_costing_11_equation_7.png "design\_details\_inventory\_costing\_11\_equation\_7")|  
+|**Rolled\-up Capacity Ovhd. Cost**|Not applicable|![Equation 8](../ApplicationDesign/media/design_details_inventory_costing_11_equation_8.png "design\_details\_inventory\_costing\_11\_equation\_8")|  
+|**Rolled\-up Mfg. Ovhd. Cost**|Not applicable|![Equation 9](../ApplicationDesign/media/design_details_inventory_costing_11_equation_9.png "design\_details\_inventory\_costing\_11\_equation\_9")|  
   
 ## See Also  
  [Design Details: Inventory Costing](../ApplicationDesign/design-details-inventory-costing.md)   

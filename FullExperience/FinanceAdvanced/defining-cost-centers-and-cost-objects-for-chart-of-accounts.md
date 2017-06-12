@@ -42,9 +42,9 @@ translation.priority.ht:
 You can automatically transfer the expense and income entries from the general ledger to cost accounting either for each general ledger posting or with a batch job. When you do the transfer, [!INCLUDE[navnowlong](../ApplicationDesign/includes/navnowlong_md.md)] only transfers the entries that are already linked to a cost center or a cost object. To establish a meaningful transfer, you must ensure that the cost centers and cost objects are correctly defined.  
   
 ## Defining Default Dimension Values for General Ledger Accounts  
- For each general ledger account, you can define default dimension values in the **\($ T\_352 Default Dimension $\)** table. The following example shows how to define that there should always be a DEPARTMENT cost center, but never be a PROJECT cost object when posting to a general ledger account.  
+ For each general ledger account, you can define default dimension values in the **Default Dimension** table. The following example shows how to define that there should always be a DEPARTMENT cost center, but never be a PROJECT cost object when posting to a general ledger account.  
   
-|**\($ T\_352\_3 Dimension Code $\)**|**\($ T\_352\_5 Value Posting $\)**|  
+|**Dimension Code**|**Value Posting**|  
 |------------------------------------------|-----------------------------------------|  
 |Department|Code Mandatory|  
 |Project|No Code|  
@@ -58,10 +58,10 @@ You can automatically transfer the expense and income entries from the general l
 |Cost Object|No Code|Code Mandatory|  
   
 > [!NOTE]  
->  To make sure that the predefined cost center and cost object that you set up in the general ledger are automatically carried over to cost accounting, select the **\($ T\_1108\_120 Check G\/L Postings $\)** check box in the [\($ N\_1113 Cost Accounting Setup $\)](assetId:///e96b49f0-9859-461b-a7c8-f4039281860a) window.  
+>  To make sure that the predefined cost center and cost object that you set up in the general ledger are automatically carried over to cost accounting, select the **Check G\/L Postings** check box in the [Cost Accounting Setup](assetId:///e96b49f0-9859-461b-a7c8-f4039281860a) window.  
   
 ## See Also  
  [How to: Set Up Cost Centers](../Finance/how-to-set-up-cost-centers.md)   
  [How to: Set Up Cost Objects](../Finance/how-to-set-up-cost-objects.md)   
- [\($ N\_1113 Cost Accounting Setup $\)](assetId:///e96b49f0-9859-461b-a7c8-f4039281860a)   
- [\($ T\_348 Dimension $\)](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)
+ [Cost Accounting Setup](assetId:///e96b49f0-9859-461b-a7c8-f4039281860a)   
+ [Dimension](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)

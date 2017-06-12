@@ -101,15 +101,15 @@ To reconcile inventory and capacity ledger entries with the general ledger, the 
  For more information, see [Design Details: Assembly Order Posting](../ApplicationDesign/design-details-assembly-order-posting.md).  
   
 ## Calculating the Amount to Post to the General Ledger  
- The following fields in the **\($ T\_5802 Value Entry $\)** table are used to calculate the expected cost amount that is posted to the general ledger:  
+ The following fields in the **Value Entry** table are used to calculate the expected cost amount that is posted to the general ledger:  
   
--   \($ T\_5802\_43 Cost Amount \(Actual\) $\)  
+-   Cost Amount \(Actual\)  
   
--   \($ T\_5802\_45 Cost Posted to G\/L $\)  
+-   Cost Posted to G\/L  
   
--   \($ T\_5802\_151 Cost Amount \(Expected\) $\)  
+-   Cost Amount \(Expected\)  
   
--   \($ T\_5802\_158 Expected Cost Posted to G\/L $\)  
+-   Expected Cost Posted to G\/L  
   
  The following table shows how the amounts to post to the general ledger are calculated for the two different cost types.  
   

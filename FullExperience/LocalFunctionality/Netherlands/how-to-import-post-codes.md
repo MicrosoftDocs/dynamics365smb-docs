@@ -16,21 +16,21 @@ translation.priority.ht:
   - "nl-nl"
 ---
 # How to: Import Post Codes
-You can import a file that specifies post codes for marketing and relationship management activities. The post code data that you import will be saved in the **\($ T\_11406 Post Code Range $\)** table.  
+You can import a file that specifies post codes for marketing and relationship management activities. The post code data that you import will be saved in the **Post Code Range** table.  
   
 ### To import a post code file  
   
-1.  In the **Search** box, enter **\($ N\_11408 Post Codes Updates $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Post Codes Updates**, and then choose the related link.  
   
-2.  In the **\($ N\_11408 Post Codes Updates $\)** window, on the **Actions** tab, in the **Functions** group, choose **Import Post Codes**.  
+2.  In the **Post Codes Updates** window, on the **Actions** tab, in the **Functions** group, choose **Import Post Codes**.  
   
 3.  Specify the path and name of the post code file, and then choose the **OK** button. If you do not want to import the file, choose the **Cancel** button to close the window.  
   
- Information about the imported post code will be saved in the [\($ T\_11407 Post Code Update Log Entry Table $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-t_11407-post-code-update-log-entry-table-$-.md) table.  
+ Information about the imported post code will be saved in the [Post Code Update Log Entry Table](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-t_11407-post-code-update-log-entry-table-$-.md) table.  
   
 ## See Also  
  [Dutch Post Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/dutch-post-codes.md)   
  [How to: Import Post Code Updates](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/how-to-import-post-code-updates.md)   
- [\($ T\_11407 Post Code Update Log Entry Table $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-t_11407-post-code-update-log-entry-table-$-.md)   
- [\($ N\_11408 Post Code Updates Window $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-n_11408-post-code-updates-window-$-.md)   
- [\($ T\_11406 Post Code Range Table $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-t_11406-post-code-range-table-$-.md)
+ [Post Code Update Log Entry Table](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-t_11407-post-code-update-log-entry-table-$-.md)   
+ [Post Code Updates Window](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-n_11408-post-code-updates-window-$-.md)   
+ [Post Code Range Table](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-t_11406-post-code-range-table-$-.md)

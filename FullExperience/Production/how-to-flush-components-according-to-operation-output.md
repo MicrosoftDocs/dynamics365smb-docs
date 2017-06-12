@@ -41,7 +41,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Flush Components According to Operation Output
-For items that are set up with backward flushing method, the default behavior is to calculate and post component consumption when you change the status of a released production order to **Finished**. For more information, see [\($ T\_27\_5417 Flushing Method $\)](../Topic/\($%20T_27_5417%20Flushing%20Method%20$\).md).  
+For items that are set up with backward flushing method, the default behavior is to calculate and post component consumption when you change the status of a released production order to **Finished**. For more information, see [Flushing Method](../Topic/\($%20T_27_5417%20Flushing%20Method%20$\).md).  
   
  If you also define routing link codes, then calculation and posting occurs when each operation is finished, and the quantity that was actually consumed in the operation is posted. For more information, see [How to: Create Routing Links](../DesignAndEngineering/how-to-create-routing-links.md).  
   
@@ -80,6 +80,6 @@ For items that are set up with backward flushing method, the default behavior is
     >  The component must have a routing link to the last operation in the routing.  
   
 ## See Also  
- [\($ T\_5407\_19 Routing Link Code $\)](../Topic/\($%20T_5407_19%20Routing%20Link%20Code%20$\).md)   
- [\($ T\_27\_5417 Flushing Method $\)](../Topic/\($%20T_27_5417%20Flushing%20Method%20$\).md)   
+ [Routing Link Code](../Topic/\($%20T_5407_19%20Routing%20Link%20Code%20$\).md)   
+ [Flushing Method](../Topic/\($%20T_27_5417%20Flushing%20Method%20$\).md)   
  [How to: Create Routing Links](../DesignAndEngineering/how-to-create-routing-links.md)

@@ -55,6 +55,6 @@ You may at times need to modify bin content to update the details of a bin conte
 >  You can also create bin content for a single bin in the **Bin Content** window.  
   
 ## See Also  
- [\($ N\_7374 Bin Contents $\)](../Topic/\($%20N_7374%20Bin%20Contents%20$\).md)   
+ [Bin Contents](../Topic/\($%20N_7374%20Bin%20Contents%20$\).md)   
  [How to: Set Up Bin Contents](../WarehouseActivities/how-to-set-up-bin-contents.md)   
- [\($ N\_7302 Bins $\)](../Topic/\($%20N_7302%20Bins%20$\).md)
+ [Bins](../Topic/\($%20N_7302%20Bins%20$\).md)

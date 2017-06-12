@@ -15,7 +15,7 @@ translation.priority.ht:
   - "nb-no"
 ---
 # How to: Create Recurring Orders
-The create recurring orders process will find all of the recurring orders based on the options selected in the **\($ B\_15000300 Create Recurring Orders $\)** window and will create the new sales orders. This is a periodic activity that you must run regularly.  
+The create recurring orders process will find all of the recurring orders based on the options selected in the **Create Recurring Orders** window and will create the new sales orders. This is a periodic activity that you must run regularly.  
   
 ### To create recurring orders  
   
@@ -25,8 +25,8 @@ The create recurring orders process will find all of the recurring orders based 
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ B\_15000300\_F\_1\_1 Processing Date $\)**|Enter the date to process the blanket orders.|  
-    |**\($ B\_15000300\_F\_1\_3 Create only latest $\)**|Select to create only the latest recurring order for the blanket orders processed. This option overrides the equivalent option for the recurring group.|  
+    |**Processing Date**|Enter the date to process the blanket orders.|  
+    |**Create only latest**|Select to create only the latest recurring order for the blanket orders processed. This option overrides the equivalent option for the recurring group.|  
   
 3.  Choose the **OK** button.  
   

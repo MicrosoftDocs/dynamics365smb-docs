@@ -23,25 +23,25 @@ To get your Digipoort communications to work, you may have to adjust your networ
   
 ### To set up electronic tax declarations  
   
-1.  In the **Search** box, enter **\($ N\_11410 Elec. Tax Declaration Setup $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Elec. Tax Declaration Setup**, and then choose the related link.  
   
-2.  In the **\($ N\_11410 Elec. Tax Declaration Setup $\)** window, on the **General** FastTab, select the **\($ T\_11408\_10 VAT Contact Type $\)**. The options include **Tax Payer** and **Agent**. If the contact type is **Tax Payer**, the contact ID in the electronic declaration will be filled with the [\($ T\_79\_19 VAT Registration No. $\)](assetId:///b8cbe882-81ca-4d13-a81f-3e64bbf72b77) of the company.  
+2.  In the **Elec. Tax Declaration Setup** window, on the **General** FastTab, select the **VAT Contact Type**. The options include **Tax Payer** and **Agent**. If the contact type is **Tax Payer**, the contact ID in the electronic declaration will be filled with the [VAT Registration No.](assetId:///b8cbe882-81ca-4d13-a81f-3e64bbf72b77) of the company.  
   
-3.  Select the **\($ T\_11408\_19 ICP Contact Type $\)**. The options include **Tax Payer** and **Agent**.  
+3.  Select the **ICP Contact Type**. The options include **Tax Payer** and **Agent**.  
   
-4.  If you want to send electronic ICP declarations for a subsidiary company of a fiscal entity, select the **\($ T\_11408\_230 Part of Fiscal Entity $\)** field.  
+4.  If you want to send electronic ICP declarations for a subsidiary company of a fiscal entity, select the **Part of Fiscal Entity** field.  
   
-5.  On the **Numbering** FastTab, enter the number series for the **\($ T\_11408\_2 VAT Declaration Nos. Field $\)** field.  
+5.  On the **Numbering** FastTab, enter the number series for the **VAT Declaration Nos. Field** field.  
   
 6.  On the **Digipoort** FastTab, enter the data needed for the Digipoort submissions.  
   
-    1.  In the **\($ T\_11408\_250 Digipoort Client Cert. Name $\)** field, enter the common name \(CN\) of the certificate you requested for use with Digipoort. You can find this information in the certificate properties of the personal certificate that you installed under the **Personal** folder in the procedure [How to: Set Up Certificates for use with Digipoort](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/how-to-set-up-certificates-for-use-with-digipoort.md).  
+    1.  In the **Digipoort Client Cert. Name** field, enter the common name \(CN\) of the certificate you requested for use with Digipoort. You can find this information in the certificate properties of the personal certificate that you installed under the **Personal** folder in the procedure [How to: Set Up Certificates for use with Digipoort](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/how-to-set-up-certificates-for-use-with-digipoort.md).  
   
-    2.  In the **\($ T\_11408\_251 Digipoort Service Cert. Name $\)** field, enter the common name of the service certificate, which may be equal to the name of the server that that you are communicating with for the Dutch government. You can find this information in the certificate properties of the public certificate that was installed in the **Trusted Publishers** folder in the procedure [How to: Set Up Certificates for use with Digipoort](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/how-to-set-up-certificates-for-use-with-digipoort.md).  
+    2.  In the **Digipoort Service Cert. Name** field, enter the common name of the service certificate, which may be equal to the name of the server that that you are communicating with for the Dutch government. You can find this information in the certificate properties of the public certificate that was installed in the **Trusted Publishers** folder in the procedure [How to: Set Up Certificates for use with Digipoort](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/how-to-set-up-certificates-for-use-with-digipoort.md).  
   
-    3.  In the **\($ T\_11408\_252 Digipoort Delivery URL $\)** field, specify the URL for the production version of the Digipoort Aanlever service. For more information, see [http:\/\/www.logius.nl\/producten\/gegevensuitwisseling\/digipoort](http://www.logius.nl/producten/gegevensuitwisseling/digipoort).  
+    3.  In the **Digipoort Delivery URL** field, specify the URL for the production version of the Digipoort Aanlever service. For more information, see [http:\/\/www.logius.nl\/producten\/gegevensuitwisseling\/digipoort](http://www.logius.nl/producten/gegevensuitwisseling/digipoort).  
   
-    4.  In the **\($ T\_11408\_253 Digipoort Status URL $\)** field, specify the URL for the status information that is coming from the Digipoort Statusinformatie service.  
+    4.  In the **Digipoort Status URL** field, specify the URL for the status information that is coming from the Digipoort Statusinformatie service.  
   
      For more information, see [Digipoort Overview](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/digipoort-overview.md).  
   

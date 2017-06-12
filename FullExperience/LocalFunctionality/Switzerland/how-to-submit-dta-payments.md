@@ -30,16 +30,16 @@ To submit DatenTrägerAustausch \(DTA\) payments to your bank for payment, you m
   
 1.  In the **Search** box, enter **Payment Journals**, and then choose the related link.  
   
-2.  In the **\($ N\_256\_33 Batch Name $\)** field, select the required journal batch.  
+2.  In the **Batch Name** field, select the required journal batch.  
   
 3.  Select the payment entry that you want to generate as a DTA file, and on the **Home** tab, in the **Process** group, select **Generate DTA File**.  
   
-4.  In the **\($ B\_3010541 DTA File $\)** batch job, fill in the fields as described in the following table.  
+4.  In the **DTA File** batch job, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ B\_3010541\_F\_1\_5 DTA Bank for File $\)**|Select the DTA bank code from which the information for the file name and backup copy is to be transferred. This field uses the main bank name as the default, but you can modify this information if you want.|  
-    |**\($ B\_3010541\_F\_1\_1 Combined payment for vendor $\)**|Specify if the payment lines that have the same vendor, currency, bank, and debit bank will be combined in the generated DTA file.|  
+    |**DTA Bank for File**|Select the DTA bank code from which the information for the file name and backup copy is to be transferred. This field uses the main bank name as the default, but you can modify this information if you want.|  
+    |**Combined payment for vendor**|Specify if the payment lines that have the same vendor, currency, bank, and debit bank will be combined in the generated DTA file.|  
   
 5.  Choose the **OK** button. The DTA file is generated in the predetermined folder.  
   
@@ -49,11 +49,11 @@ To submit DatenTrägerAustausch \(DTA\) payments to your bank for payment, you m
   
 1.  In the **Search** box, enter **Payment Journals**, and then choose the related link.  
   
-2.  In the **\($ N\_256\_33 Batch Name $\)** field, select the required journal batch.  
+2.  In the **Batch Name** field, select the required journal batch.  
   
 3.  Select the required payment entry, and on the **Home** tab, in the **Process** group, select **DTA Payment Order**.  
   
-4.  In the **\($ B\_3010543\_F\_1\_1 Message $\)** field, enter a message for the bank, to be printed at the bottom of the payment order.  
+4.  In the **Message** field, enter a message for the bank, to be printed at the bottom of the payment order.  
   
 5.  Choose the **Print** button to print the DTA payment order or choose the **Preview** button to view it on the screen.  
   
@@ -64,6 +64,6 @@ To submit DatenTrägerAustausch \(DTA\) payments to your bank for payment, you m
  [How to: Suggest DTA Payment for Vendors](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-suggest-dta-payment-for-vendors.md)   
  [How to: Verify a List of Vendors for DTA Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-verify-a-list-of-vendors-for-dta-payments.md)   
  [How to: Export Payments Using EZAG](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-export-payments-using-ezag.md)   
- [\($ N\_256 Payment Journal $\)](../../Finance/-$-n_256-payment-journal-$-.md)   
- [\($ N\_39 General Journal $\)](assetId:///a60a346f-f336-47bb-b046-55a1595e1555)   
- [\($ T\_3010541 DTA Setup $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/-$-t_3010541-dta-setup-$-.md)
+ [Payment Journal](../../Finance/-$-n_256-payment-journal-$-.md)   
+ [General Journal](assetId:///a60a346f-f336-47bb-b046-55a1595e1555)   
+ [DTA Setup](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/-$-t_3010541-dta-setup-$-.md)

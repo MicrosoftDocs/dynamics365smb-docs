@@ -51,7 +51,7 @@ You may want to set up the rows in an account schedule manually. Before you can 
   
 1.  In the **Search** box, enter **Account Schedule** and then choose the related link.  
   
-2.  In the **\($ N\_104 Account Schedule $\)** window, select the desired account schedule name in the **Name** field.  
+2.  In the **Account Schedule** window, select the desired account schedule name in the **Name** field.  
   
 3.  Fill in the fields in the **Account Schedule** window. For Help about a specific field, click the field and press **F1**.  
   

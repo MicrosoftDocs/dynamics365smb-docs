@@ -22,9 +22,9 @@ To use the electronic VAT declaration, you must set up a VAT category code for a
   
 ### To set up a VAT category  
   
-1.  In the **Search** box, enter **\($ N\_11414 Elec. Tax. Decl. VAT Categories $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Elec. Tax. Decl. VAT Categories**, and then choose the related link.  
   
-2.  In the **\($ N\_11414 Elec. Tax. Decl. VAT Categories $\)** window, on the **Home** tab, choose **New**.  
+2.  In the **Elec. Tax. Decl. VAT Categories** window, on the **Home** tab, choose **New**.  
   
 3.  Fill in the fields as described in the following table.  
   

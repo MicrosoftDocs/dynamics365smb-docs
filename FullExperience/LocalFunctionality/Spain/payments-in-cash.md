@@ -29,7 +29,7 @@ As of January 1, 2012, companies in Spain are required to submit a summary for p
  You apply payments in cash to invoices that you have received from customers. For information about how to apply payments to invoices, see [How to: Apply Customer Ledger Entries](../../Finance/how-to-apply-customer-ledger-entries.md). Only the applied payments in cash are used for reporting payments in cash. If you do not apply payments in cash to invoices, you cannot report payments in cash.  
   
 ### Making 340 Payments in Cash Declaration  
- You use the **\($ B\_10743 Make 340 Declaration $\)** batch job to report 340 payments in cash declaration. For information about how to specify and select information to generate the declaration, see [\($ B\_10743 Make 340 Declaration $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-b_10743-make-340-declaration-$-.md).  
+ You use the **Make 340 Declaration** batch job to report 340 payments in cash declaration. For information about how to specify and select information to generate the declaration, see [Make 340 Declaration](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-b_10743-make-340-declaration-$-.md).  
   
 > [!NOTE]  
 >  The payments made through banks are excluded.  
@@ -40,4 +40,4 @@ As of January 1, 2012, companies in Spain are required to submit a summary for p
 ## See Also  
  [How to: Apply Customer Ledger Entries](../../Finance/how-to-apply-customer-ledger-entries.md)   
  [Report 340](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/report-340.md)   
- [\($ B\_10743 Make 340 Declaration $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-b_10743-make-340-declaration-$-.md)
+ [Make 340 Declaration](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-b_10743-make-340-declaration-$-.md)

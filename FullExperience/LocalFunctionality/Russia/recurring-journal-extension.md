@@ -18,7 +18,7 @@ translation.priority.ht:
 The recurring journal extension feature enables you to enter a line for a recurring journal.  
   
 ## Recurring General Journal Line Card  
- The **\($ N\_283 Recurring General Journal $\)** window enables you to fill in the recurring journal information.  
+ The **Recurring General Journal** window enables you to fill in the recurring journal information.  
   
 1.  In the **Search** box, enter **Recurring General Journal**, and then choose the related link.  
   
@@ -29,5 +29,5 @@ The recurring journal extension feature enables you to enter a line for a recurr
 4.  Post the journal.  
   
 ## See Also  
- [\($ N\_283 Recurring General Journal $\)](assetId:///6d20e936-2db8-4a57-ae2c-0517c36b84d4)   
+ [Recurring General Journal](assetId:///6d20e936-2db8-4a57-ae2c-0517c36b84d4)   
  [How to: Fill In Recurring Journals](../../Finance/how-to-fill-in-recurring-journals.md)

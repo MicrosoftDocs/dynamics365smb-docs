@@ -44,7 +44,7 @@ When you have created and fulfilled a number of service orders and service quote
   
 ### To allocate a resource using the dispatch board  
   
-1.  In the **Search** box, enter **\($ N\_6000 Dispatch Board $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Dispatch Board**, and then choose the related link.  
   
 2.  Apply filters to view the documents that meet certain conditions. For more information about entering criteria in filters, see [Enter Criteria in Filters](../WorkingWithDynamics/enter-criteria-in-filters.md).  
   

@@ -70,11 +70,11 @@ You can create a special order for a specific nonstock item to be shipped to a s
  A purchase order created as a special order for a sales order is respected by the planning system as it balances demand and supply. That is, the purchase order \(supply\) remains linked to the sales order \(demand\), even if that purchase order could supply another earlier demand. For more information, see [Design Details: Reservation, Order Tracking, and Action Messaging](../ApplicationDesign/design-details-reservation-order-tracking-and-action-messaging.md).  
   
 > [!NOTE]  
->  You cannot use the special order functionality if the item is already reserved. Therefore, for items that are sold on special orders, make sure the **\($ T\_27\_100 Reserve $\)** field on the item card is not set to **Always**.  
+>  You cannot use the special order functionality if the item is already reserved. Therefore, for items that are sold on special orders, make sure the **Reserve** field on the item card is not set to **Always**.  
   
 ## See Also  
- [\($ T\_37\_5711 Purchasing Code $\)](../Topic/\($%20T_37_5711%20Purchasing%20Code%20$\).md)   
- [\($ T\_27\_100 Reserve $\)](../Topic/\($%20T_27_100%20Reserve%20$\).md)   
+ [Purchasing Code](../Topic/\($%20T_37_5711%20Purchasing%20Code%20$\).md)   
+ [Reserve](../Topic/\($%20T_27_100%20Reserve%20$\).md)   
  [How to: Create Drop Shipments](../Purchasing/how-to-create-drop-shipments.md)   
- [\($ B\_699 Calculate Plan \- Req. Wksh. $\)](../Topic/\($%20B_699%20Calculate%20Plan%20-%20Req.%20Wksh.%20$\).md)   
+ [Calculate Plan \- Req. Wksh.](../Topic/\($%20B_699%20Calculate%20Plan%20-%20Req.%20Wksh.%20$\).md)   
  [Design Details: Reservation, Order Tracking, and Action Messaging](../ApplicationDesign/design-details-reservation-order-tracking-and-action-messaging.md)

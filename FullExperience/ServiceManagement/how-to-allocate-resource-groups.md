@@ -44,21 +44,21 @@ When you have created service orders or quotes, you can allocate resource groups
   
 ### To allocate a resource group  
   
-1.  In the **Search** box, enter **\($ N\_6000 Dispatch Board $\)**, and choose the related link.  
+1.  In the **Search** box, enter **Dispatch Board**, and choose the related link.  
   
 2.  Browse to the relevant service order.  
   
-3.  On the **Navigate** tab, in the **Planning** group, choose **Resource Allocations**. The **\($ N\_6005 Resource Allocations $\)** window opens.  
+3.  On the **Navigate** tab, in the **Planning** group, choose **Resource Allocations**. The **Resource Allocations** window opens.  
   
 4.  Select the nonactive allocation entry with the service task to which you want to allocate a resource.  
   
      If there is no nonactive allocation entry, you need to create one. On the **Home** tab, in the **New** group, choose **New**.  
   
-5.  In the **\($ T\_5950\_5 Resource Group No. $\)** field, choose the relevant resource group.  
+5.  In the **Resource Group No.** field, choose the relevant resource group.  
   
      [!INCLUDE[bp_choose_columns](../DesignAndEngineering/includes/bp_choose_columns_md.md)]  
   
-6.  Fill in the **\($ T\_5950\_4 Allocation Date $\)** and **\($ T\_5950\_8 Allocated Hours $\)** fields.  
+6.  Fill in the **Allocation Date** and **Allocated Hours** fields.  
   
      The status of the resource allocation is automatically updated to be **Active**.  
   

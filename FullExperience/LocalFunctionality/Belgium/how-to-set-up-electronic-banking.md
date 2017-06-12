@@ -42,34 +42,34 @@ With electronic banking, you can make electronic payments to domestic, internati
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_11306\_2 Summarize Gen. Jnl. Lines $\)**|Select to indicate if you want to group the payment journal lines for each vendor.|  
-    |**\($ T\_11306\_3 Cut off Payment Message Texts $\)**|Select to indicate if you want to truncate long payment messages. Messages will be truncated if greater than 106 characters for domestic payments and less than 140 characters for international payments.|  
-    |**\($ T\_11306\_21 IBS Version $\)**|Specify the version of Isabel that is currently used for electronic banking in your organization.|  
-    |**\($ T\_11306\_22 Notification E\-mail address $\)**|Specify the notification email address that you want to use for electronic banking balance and transaction messages. This is the default address that is used to contact the Isabel server.|  
-    |**\($ T\_11306\_23 Language $\)**|Specify the language that you want to use for electronic bank balance and transaction messages.|  
-    |**\($ T\_11306\_31 IBS Service Version $\)**|Specify the service version that is used to communicate with the Isabel server.|  
+    |**Summarize Gen. Jnl. Lines**|Select to indicate if you want to group the payment journal lines for each vendor.|  
+    |**Cut off Payment Message Texts**|Select to indicate if you want to truncate long payment messages. Messages will be truncated if greater than 106 characters for domestic payments and less than 140 characters for international payments.|  
+    |**IBS Version**|Specify the version of Isabel that is currently used for electronic banking in your organization.|  
+    |**Notification E\-mail address**|Specify the notification email address that you want to use for electronic banking balance and transaction messages. This is the default address that is used to contact the Isabel server.|  
+    |**Language**|Specify the language that you want to use for electronic bank balance and transaction messages.|  
+    |**IBS Service Version**|Specify the service version that is used to communicate with the Isabel server.|  
   
 3.  On the **Upload** FastTab, fill in the fields as described in the following table. [!INCLUDE[bp_fieldhelp]()]  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_11306\_24 Upload integration Mode $\)**|Specify the mode that you want to use to upload content to the Isabel server. The integration mode options include **Attended** and **Manual**. If the integration mode is set to **Attended**, you must set the **\($ T\_11306\_21 IBS Version $\)** field to **6**. The entries in the **\($ T\_2000010 IBS Log $\)** table will be created when payment files are generated. If the integration mode is set to **Manual**, you must log on to the Isabel server manually and no log entries will be created.|  
-    |**\($ T\_11306\_25 Upload Path $\)**|Specify the path to the folder where the files will be saved during the upload process.|  
+    |**Upload integration Mode**|Specify the mode that you want to use to upload content to the Isabel server. The integration mode options include **Attended** and **Manual**. If the integration mode is set to **Attended**, you must set the **IBS Version** field to **6**. The entries in the **IBS Log** table will be created when payment files are generated. If the integration mode is set to **Manual**, you must log on to the Isabel server manually and no log entries will be created.|  
+    |**Upload Path**|Specify the path to the folder where the files will be saved during the upload process.|  
   
 4.  On the **Download** FastTab, fill in the fields as described in the following table. [!INCLUDE[bp_fieldhelp]()]  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_11306\_26 Download integration Mode $\)**|Specify the mode that you want to use to download content to the Isabel server. The options include **Attended** and **Manual**. If the integration mode is set to **Attended**, you must set the **\($ T\_11306\_21 IBS Version $\)** field to **6**. The entries in the **\($ T\_2000010 IBS Log $\)** table will be created when the download is performed. If the integration mode is set to **Manual**, you must log on to the Isabel server manually and no log entries will be created.|  
-    |**\($ T\_11306\_27 Download Path $\)**|Specify the path to the folder where the files will be saved during the download process.|  
+    |**Download integration Mode**|Specify the mode that you want to use to download content to the Isabel server. The options include **Attended** and **Manual**. If the integration mode is set to **Attended**, you must set the **IBS Version** field to **6**. The entries in the **IBS Log** table will be created when the download is performed. If the integration mode is set to **Manual**, you must log on to the Isabel server manually and no log entries will be created.|  
+    |**Download Path**|Specify the path to the folder where the files will be saved during the download process.|  
   
 5.  On the **Numbering** FastTab, fill in the fields as described in the following table. [!INCLUDE[bp_fieldhelp]()]  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_11306\_28 IBS Log Upload Nos. $\)**|Specify the number series that is used for Isabel log entries created during the file upload process.|  
-    |**\($ T\_11306\_29 IBS Log Download Nos. $\)**|Specify the number series that is used for Isabel log entries created during the file download process.|  
-    |**\($ T\_11306\_30 IBS Request ID $\)**|Specify a number sequence used for automatic and unique numbering of the requests.|  
+    |**IBS Log Upload Nos.**|Specify the number series that is used for Isabel log entries created during the file upload process.|  
+    |**IBS Log Download Nos.**|Specify the number series that is used for Isabel log entries created during the file download process.|  
+    |**IBS Request ID**|Specify a number sequence used for automatic and unique numbering of the requests.|  
   
 6.  Choose the **OK** button.  
   

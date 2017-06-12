@@ -16,7 +16,7 @@ translation.priority.ht:
   - "it-it"
 ---
 # How to: Print Depreciation Book Reports
-The **Depreciation Book** is a fiscal report that is sorted by year and item class. The **\($ R\_12119 Depreciation Book $\)** report shows changes in fixed asset stock in a given year by item class, rather than by the individual items. The **\($ R\_12119 Depreciation Book $\)** report is run after the depreciation method has been set up and assets have been entered.  
+The **Depreciation Book** is a fiscal report that is sorted by year and item class. The **Depreciation Book** report shows changes in fixed asset stock in a given year by item class, rather than by the individual items. The **Depreciation Book** report is run after the depreciation method has been set up and assets have been entered.  
   
 ### To print depreciation book reports  
   

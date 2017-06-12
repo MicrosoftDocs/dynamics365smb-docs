@@ -49,9 +49,9 @@ You can create new data migration files and customize them to support your busin
   
 2.  Select and open the package that you want to use to migrate data. On the **Actions** tab, choose **Get Tables**. The **Get Package Table** window opens.  
   
-3.  In the **\($ T\_8613\_1 TableID $\)** field, enter a table number or select a table from the list, for example, table 18, **Customer**. The **\($ T\_8613\_2 Table Name $\)** field is automatically filled in.  
+3.  In the **TableID** field, enter a table number or select a table from the list, for example, table 18, **Customer**. The **Table Name** field is automatically filled in.  
   
-4.  Select the new migration table, and on the **Tables** toolbar, on the **Table** menu, choose **Fields** to open the **\($ N\_8624 Migration Fields $\)** window.  
+4.  Select the new migration table, and on the **Tables** toolbar, on the **Table** menu, choose **Fields** to open the **Migration Fields** window.  
   
 5.  Clear the **Include Field** check box for any field that you do not want to import. On the **Actions** tab, you can also choose **Set Included** or **Clear Included**.  
   

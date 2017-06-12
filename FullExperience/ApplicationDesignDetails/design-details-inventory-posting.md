@@ -98,7 +98,7 @@ Each inventory transaction, such as a purchase receipt or a sales shipment, post
 |---------------|---------------------------|----------------------------|-----------------------------|--------------|  
 |2|2|1|2|\-10|  
   
- At the end of the accounting period, you run the **\($ B\_1002 Post Inventory Cost to G\/L $\)** batch job to reconcile these inventory transactions with the general ledger.  
+ At the end of the accounting period, you run the **Post Inventory Cost to G\/L** batch job to reconcile these inventory transactions with the general ledger.  
   
  For more information, see [Design Details: Reconciliation with the General Ledger](../ApplicationDesign/design-details-reconciliation-with-the-general-ledger.md). For information about the general ledger accounts that are mentioned in the example, see [Design Details: Accounts in the General Ledger](../ApplicationDesign/design-details-accounts-in-the-general-ledger.md).  
   
@@ -126,9 +126,9 @@ Each inventory transaction, such as a purchase receipt or a sales shipment, post
 > [!NOTE]  
 >  The posting date of the general ledger entries is the same as for the related value entries.  
 >   
->  The **\($ T\_5802\_45 Cost Posted to G\/L $\)** field in the **Value Entry** table is filled.  
+>  The **Cost Posted to G\/L** field in the **Value Entry** table is filled.  
   
- The relation between value entries and general ledger entries is stored in the **\($ T\_5823 G\/L \- Item Ledger Relation $\)** table.  
+ The relation between value entries and general ledger entries is stored in the **G\/L \- Item Ledger Relation** table.  
   
  **Relation Entries in the G\/L – Item Ledger Relation table**  
   

@@ -55,7 +55,7 @@ In an analysis report your analysis parameters are shown as columns. You can def
 4.  In the **Analysis Columns** window, fill in the fields to specify the columns that you want to include in your analysis report.  
   
     > [!NOTE]  
-    >  To define a column, you must fill in the **Analysis Type Codes** field for all column types except **Formula**. Set up the analysis type codes in the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**[\($ N\_7110 Analysis Types $\)](DynamicsNAV:////runpage?Page=7110)** window.  
+    >  To define a column, you must fill in the **Analysis Type Codes** field for all column types except **Formula**. Set up the analysis type codes in the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**[Analysis Types](DynamicsNAV:////runpage?Page=7110)** window.  
   
     > [!NOTE]  
     >  In the **Ledger Entry Type** field, if you select **Item Entries**, the actual figures from the item ledger entry are copied. If you select **Item Budget Entries**, the budgeted figures from the budget are copied.  

@@ -44,7 +44,7 @@ Sometimes, you must make a negative adjustment to the value, but not the quantit
   
 ### To make negative adjustments to inventory value  
   
-1.  In the **Search** box, enter **\($ N\_40 Item Journal $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Item Journal**, and then choose the related link.  
   
 2.  Fill in the first journal line by decreasing the quantity on inventory with a negative adjustment. Use a unit cost that corresponds to the actual posted cost.  
   
@@ -54,6 +54,6 @@ Sometimes, you must make a negative adjustment to the value, but not the quantit
 >  You can find the actual cost on a ledger entry list for an item. If you set the filter **Open** \= **Yes**, only the entries that are used to calculate the inventory value are shown. You can also see the cost in the **Inventory Valuation** report.  
   
 ## See Also  
- [\($ N\_5803 Revaluation Journal $\)](../Topic/\($%20N_5803%20Revaluation%20Journal%20$\).md)   
+ [Revaluation Journal](../Topic/\($%20N_5803%20Revaluation%20Journal%20$\).md)   
  [How to: Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](../Finance/how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)   
  [How to: Enter New Values When Revaluing Items](../DesignAndEngineering/how-to-enter-new-values-when-revaluing-items.md)

@@ -44,7 +44,7 @@ You can invoice service contracts periodically. The invoice period for each cont
   
 ### To invoice a service contract  
   
-1.  In the **Search** box, enter **\($ B\_6030 Create Contract Invoices $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Create Contract Invoices**, and then choose the related link.  
   
 2.  On the **Service Contract Header** FastTab, set the filters you want to apply.  
   

@@ -34,7 +34,7 @@ When you have created journal lines which you know you are likely to create agai
   
 ### To save a standard journal  
   
-1.  In the **Search** box, enter **\($ N\_40 Item Journal $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Item Journal**, and then choose the related link.  
   
 2.  Enter one or more journal lines.  
   

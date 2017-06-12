@@ -58,14 +58,14 @@ This topic describes the different planning parameters that you can use in [!INC
 ## Define When to Reorder  
  Reorder proposals are generally released only when the projected available quantity has fallen to or below a given quantity. This quantity is defined by the reorder point. Otherwise, it will be zero. Zero can be adjusted by entering a safety stock quantity. If the user has defined a safety lead time, it will cause the proposal to be delivered in the period prior to the required due date.  
   
- The **\($ T\_27\_5428 Time Bucket $\)** field is used by reorder point policies \(**Fixed Reorder Qty.** and **Maximum Qty.**\), where the inventory level is checked after each time bucket. The first time bucket begins on the planning starting date.  
+ The **Time Bucket** field is used by reorder point policies \(**Fixed Reorder Qty.** and **Maximum Qty.**\), where the inventory level is checked after each time bucket. The first time bucket begins on the planning starting date.  
   
 > [!NOTE]  
->  When calculating time buckets, the planning system ignores any working calendars that are defined in the **\($ T\_79\_7600 Base Calendar Code $\)** field in the **\($ N\_1 Company Information $\)** and **\($ N\_5703 Location Card $\)** windows.  
+>  When calculating time buckets, the planning system ignores any working calendars that are defined in the **Base Calendar Code** field in the **Company Information** and **Location Card** windows.  
   
- The default safety lead time, in the **\($ N\_99000768 Manufacturing Setup $\)** window, should be set to at least one day. The due date of the demand may be known, but not the due time. The planning schedules backward to meet gross demand, and, if no safety lead time is defined, the goods may arrive too late to meet the demand.  
+ The default safety lead time, in the **Manufacturing Setup** window, should be set to at least one day. The due date of the demand may be known, but not the due time. The planning schedules backward to meet gross demand, and, if no safety lead time is defined, the goods may arrive too late to meet the demand.  
   
- Three additional reorder period fields, **\($ T\_27\_5443 Rescheduling Period $\)**, **\($ T\_27\_5444 Lot Accumulation Period $\)**, and **\($ T\_27\_5445 Dampener Period $\)**, also play a role in defining when to reorder. For more information, see [Optimize When and How Much to Reorder](../ApplicationDesign/design-details-planning-parameters.md#BKMK_OptimizeWhenandHowMuchToReorder).  
+ Three additional reorder period fields, **Rescheduling Period**, **Lot Accumulation Period**, and **Dampener Period**, also play a role in defining when to reorder. For more information, see [Optimize When and How Much to Reorder](../ApplicationDesign/design-details-planning-parameters.md#BKMK_OptimizeWhenandHowMuchToReorder).  
   
 ## Define How Much to Reorder  
  If the planning system detects the need to reorder, the selected reordering policy is used to determine when and how much to order.  
@@ -80,9 +80,9 @@ This topic describes the different planning parameters that you can use in [!INC
   
 4.  If there is more gross demand due before the ending date of the forward\-scheduled order proposal, and this demand brings the currently calculated projected available inventory below the safety stock quantity, the order quantity is increased to make up the deficit. The suggested supply order is then scheduled backward from the due date of the gross demand that would have violated the safety stock quantity.  
   
-5.  If the **\($ T\_27\_5428 Time Bucket $\)** field is not filled in, only the gross demand on the same due date will be added.  
+5.  If the **Time Bucket** field is not filled in, only the gross demand on the same due date will be added.  
   
-     The following reorder period fields also play a role in defining how much to reorder: **\($ T\_27\_5443 Rescheduling Period $\)**, **\($ T\_27\_5444 Lot Accumulation Period $\)**, and **\($ T\_27\_5445 Dampener Period $\)**. For more information, see [Optimize When and How Much to Reorder](../ApplicationDesign/design-details-planning-parameters.md#BKMK_OptimizeWhenandHowMuchToReorder).  
+     The following reorder period fields also play a role in defining how much to reorder: **Rescheduling Period**, **Lot Accumulation Period**, and **Dampener Period**. For more information, see [Optimize When and How Much to Reorder](../ApplicationDesign/design-details-planning-parameters.md#BKMK_OptimizeWhenandHowMuchToReorder).  
   
 ### Reordering Policies  
  The following reordering policies affect the quantity that is being reordered.  
@@ -99,9 +99,9 @@ This topic describes the different planning parameters that you can use in [!INC
   
 |[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
 |---------------------------------|---------------------------------------|  
-|**\($ T\_27\_5443 Rescheduling Period $\)**|This field is used to determine whether the action message should reschedule an existing order or cancel it and create a new order. The existing order will be rescheduled within one rescheduling period before the current supply and until one rescheduling period after the current supply.|  
-|**\($ T\_27\_5444 Lot Accumulation Period $\)**|With reordering policy Lot\-for\-Lot, this field is used to accumulate multiple supply needs into one supply order. From the first planned supply, the system accumulates all supply needs in the following lot accumulation period into one supply, which is placed on the date of the first supply. Demand outside the lot accumulation period is not covered by this supply.|  
-|**\($ T\_27\_5445 Dampener Period $\)**|This field is used to avoid minor rescheduling of existing supply out in time. Changes from the supply date until one dampener period from the supply date will not generate any action messages.<br /><br /> As a result a positive delta between the suggested new supply date and the original supply date will always be larger than the dampener period.|  
+|**Rescheduling Period**|This field is used to determine whether the action message should reschedule an existing order or cancel it and create a new order. The existing order will be rescheduled within one rescheduling period before the current supply and until one rescheduling period after the current supply.|  
+|**Lot Accumulation Period**|With reordering policy Lot\-for\-Lot, this field is used to accumulate multiple supply needs into one supply order. From the first planned supply, the system accumulates all supply needs in the following lot accumulation period into one supply, which is placed on the date of the first supply. Demand outside the lot accumulation period is not covered by this supply.|  
+|**Dampener Period**|This field is used to avoid minor rescheduling of existing supply out in time. Changes from the supply date until one dampener period from the supply date will not generate any action messages.<br /><br /> As a result a positive delta between the suggested new supply date and the original supply date will always be larger than the dampener period.|  
   
  The timing of rescheduling period, dampener period, and lot accumulation period is based on a supply date. The time bucket is based on the planning start date, as shown in the following illustration.  
   
@@ -125,7 +125,7 @@ This topic describes the different planning parameters that you can use in [!INC
   
  ![Dampener Period, Lot Accum. Period, Change Qty.](../ApplicationDesign/media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "supply\_planning\_5\_dampener\_period\_lot\_accum\_period\_change\_qty")  
   
- **Default values:** The default value of the **\($ T\_27\_5428 Time Bucket $\)** field and the three reorder period fields is blank. For all fields, except the **\($ T\_27\_5445 Dampener Period $\)** field, this means 0D \(zero days\). If the **\($ T\_27\_5445 Dampener Period $\)** field is blank, the global value in the **\($ T\_99000765\_40 Default Dampener Period $\)** field in the **\($ N\_99000768 Manufacturing Setup $\)** window will be used.  
+ **Default values:** The default value of the **Time Bucket** field and the three reorder period fields is blank. For all fields, except the **Dampener Period** field, this means 0D \(zero days\). If the **Dampener Period** field is blank, the global value in the **Default Dampener Period** field in the **Manufacturing Setup** window will be used.  
   
 ## Modify the Supply Orders  
  When the quantity of the order proposal has been calculated, one or more of the order modifiers can adjust it. For example, the maximum order quantity is larger than or equal to the minimum order quantity, which is larger than or equal to the order multiple.  

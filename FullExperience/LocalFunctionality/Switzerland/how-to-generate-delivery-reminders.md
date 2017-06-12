@@ -31,7 +31,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can cr
   
 2.  On the **Home** tab, choose **New**.  
   
-3.  In the **\($ N\_5005272 Delivery Reminder $\)** window, on the **Home** tab, in the **Process** group, choose **Create Delivery Reminder**.  
+3.  In the **Delivery Reminder** window, on the **Home** tab, in the **Process** group, choose **Create Delivery Reminder**.  
   
 4.  On the **Purchase Header** FastTab and the **Purchase Line** FastTab, select the appropriate filters.  
   
@@ -45,4 +45,4 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can cr
  [How to: Assign Delivery Reminder Codes to Vendors](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-assign-delivery-reminder-codes-to-vendors.md)   
  [How to: Issue Delivery Reminders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-issue-delivery-reminders.md)   
  [Delivery Reminders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/delivery-reminders.md)   
- [\($ B\_5005340 Create Delivery Reminder $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/-$-b_5005340-create-delivery-reminder-$-.md)
+ [Create Delivery Reminder](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/-$-b_5005340-create-delivery-reminder-$-.md)

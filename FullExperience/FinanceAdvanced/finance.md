@@ -43,7 +43,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Finance
-\($ P\_1 Product Name $\) enables you to manage all common finance processes and information, such as posting financial transactions, preparing financial statements, managing bank accounts, inventory costs, manufacturing costs, and fixed assets.  
+Product Name enables you to manage all common finance processes and information, such as posting financial transactions, preparing financial statements, managing bank accounts, inventory costs, manufacturing costs, and fixed assets.  
   
  When you create a new company, you must set up the chart of accounts and configure the posting processes. After the finance processes are configured, you can configure the sales and purchasing processes.  
   

@@ -58,14 +58,14 @@ Follow these steps to set up the additional reporting currency:
   
 1.  In the **Search** box, enter **Currencies**, and then choose the related link.  
   
-2.  In the **\($ N\_5 Currencies $\)** window, specify the following fields for the additional reporting currency.  
+2.  In the **Currencies** window, specify the following fields for the additional reporting currency.  
   
     |[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_4\_40 Realized G\/L Gains Account $\)**|The general ledger account to which exchange rate gains for currency adjustments between LCY and the additional reporting currency will be posted.|  
-    |**\($ T\_4\_41 Realized G\/L Losses Account $\)**|The general ledger account to which exchange rate losses for currency adjustments between LCY and the additional reporting currency will be posted.|  
-    |**\($ T\_4\_47 Residual Gains Account $\)**|The general ledger account to which residual amounts that are gains are posted if you post in the general ledger application area in both LCY and an additional reporting currency.|  
-    |**\($ T\_4\_48 Residual Losses Account $\)**|The general ledger account to which residual amounts that are losses are posted if you post in the general ledger application area in both LCY and an additional reporting currency.|  
+    |**Realized G\/L Gains Account**|The general ledger account to which exchange rate gains for currency adjustments between LCY and the additional reporting currency will be posted.|  
+    |**Realized G\/L Losses Account**|The general ledger account to which exchange rate losses for currency adjustments between LCY and the additional reporting currency will be posted.|  
+    |**Residual Gains Account**|The general ledger account to which residual amounts that are gains are posted if you post in the general ledger application area in both LCY and an additional reporting currency.|  
+    |**Residual Losses Account**|The general ledger account to which residual amounts that are losses are posted if you post in the general ledger application area in both LCY and an additional reporting currency.|  
   
 > [!NOTE]  
 >  Residual amounts can occur when [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] rounds debit and credit amounts that have been converted from LCY to an additional reporting currency.  
@@ -124,7 +124,7 @@ Follow these steps to set up the additional reporting currency:
   
 4.  Choose the **Yes** button to confirm that you want to activate the currency.  
   
-5.  The **\($ B\_86 Adjust Add. Reporting Currency $\)** batch job opens. This batch job converts LCY amounts on existing entries to the additional reporting currency. The batch job uses a default exchange rate copied from the exchange rate that is valid on the work date in the **Currency Exchange Rates** window. Residual amounts that occur on conversion of LCY to additional reporting currency are posted to the residual gains and losses accounts specified in the **Currencies** window. The posting date and document number for these entries is the same as the original general ledger entry. After all these residual entries are posted, the batch job then posts a rounding entry on the closing date of each closed year to the retained earnings account. This is to make sure that the ending balance of the income accounts for each closed years is 0 in both LCY and the additional reporting currency.  
+5.  The **Adjust Add. Reporting Currency** batch job opens. This batch job converts LCY amounts on existing entries to the additional reporting currency. The batch job uses a default exchange rate copied from the exchange rate that is valid on the work date in the **Currency Exchange Rates** window. Residual amounts that occur on conversion of LCY to additional reporting currency are posted to the residual gains and losses accounts specified in the **Currencies** window. The posting date and document number for these entries is the same as the original general ledger entry. After all these residual entries are posted, the batch job then posts a rounding entry on the closing date of each closed year to the retained earnings account. This is to make sure that the ending balance of the income accounts for each closed years is 0 in both LCY and the additional reporting currency.  
   
 6.  Choose the **OK** button to run the batch job.  
   
@@ -147,11 +147,11 @@ Follow these steps to set up the additional reporting currency:
      In addition, all future entries of the same type will have amounts recorded in both LCY and the additional reporting currency.  
   
 > [!NOTE]  
->  The **\($ T\_98\_68 Add. Reporting Currency $\)** field will only be activated after you choose the **OK** button in the **\($ B\_86 Adjust Add. Reporting Currency $\)** batch job.  
+>  The **Add. Reporting Currency** field will only be activated after you choose the **OK** button in the **Adjust Add. Reporting Currency** batch job.  
   
 ## See Also  
  [About Using Additional Reporting Currencies](../Finance/about-using-additional-reporting-currencies.md)   
- [\($ T\_4\_40 Realized G\/L Gains Account $\)](assetId:///2f12474d-a3de-44ca-96a7-ba074e05a5ed)   
- [\($ T\_4\_41 Realized G\/L Losses Account $\)](assetId:///0cc5b6d1-36d7-4689-9839-a3ba6b5285c7)   
- [\($ T\_4\_47 Residual Gains Account $\)](assetId:///bc90b81a-c236-406b-9db4-9ea2af8a9fad)   
- [\($ T\_4\_48 Residual Losses Account $\)](assetId:///30c004cc-163c-4e67-8dad-763fc2961bfa)
+ [Realized G\/L Gains Account](assetId:///2f12474d-a3de-44ca-96a7-ba074e05a5ed)   
+ [Realized G\/L Losses Account](assetId:///0cc5b6d1-36d7-4689-9839-a3ba6b5285c7)   
+ [Residual Gains Account](assetId:///bc90b81a-c236-406b-9db4-9ea2af8a9fad)   
+ [Residual Losses Account](assetId:///30c004cc-163c-4e67-8dad-763fc2961bfa)

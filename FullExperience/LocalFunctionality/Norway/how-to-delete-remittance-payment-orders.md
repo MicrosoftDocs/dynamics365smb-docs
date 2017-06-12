@@ -15,18 +15,18 @@ translation.priority.ht:
   - "nb-no"
 ---
 # How to: Delete Remittance Payment Orders
-Orders can be deleted if they are managed in full and are in a closed financial year. An order is managed in full if no payments in the **\($ N\_15000005 Waiting Journal $\)** window have a status of **Sent** or **Approved**.  
+Orders can be deleted if they are managed in full and are in a closed financial year. An order is managed in full if no payments in the **Waiting Journal** window have a status of **Sent** or **Approved**.  
   
 ### To delete a remittance payment order  
   
 1.  In the **Search** box, enter **Delete rem. payment order**, and then choose the related link.  
   
-2.  In the **\($ R\_15000004 Delete rem. payment order $\)** window, fill in the fields as described in the following table.  
+2.  In the **Delete rem. payment order** window, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_15000004\_F\_1\_1 Start date $\)**|Specify the start date of orders to be deleted.|  
-    |**\($ R\_15000004\_F\_1\_4 End date $\)**|Specify the end date of orders to be deleted.|  
+    |**Start date**|Specify the start date of orders to be deleted.|  
+    |**End date**|Specify the end date of orders to be deleted.|  
   
 3.  Choose the **OK** button.  
   

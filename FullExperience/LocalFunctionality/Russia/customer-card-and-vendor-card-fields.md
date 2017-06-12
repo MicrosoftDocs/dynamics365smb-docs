@@ -17,7 +17,7 @@ translation.priority.ht:
   - "ru-ru"
 ---
 # Customer Card and Vendor Card Fields
-The **\($ N\_21 Customer Card $\)** and **\($ N\_26 Vendor Card $\)** windows include several additional fields. The **Default Bank Code** field has been added to the **Payments** FastTab on both cards, and the following fields have been added to the **Invoicing** FastTab on the **\($ N\_26 Vendor Card $\)** form:  
+The **Customer Card** and **Vendor Card** windows include several additional fields. The **Default Bank Code** field has been added to the **Payments** FastTab on both cards, and the following fields have been added to the **Invoicing** FastTab on the **Vendor Card** form:  
   
 -   **KPP Code**  
   
@@ -33,9 +33,9 @@ The **\($ N\_21 Customer Card $\)** and **\($ N\_26 Vendor Card $\)** windows in
   
 -   The **OKONX Code** field is for a federation\-wide classifier of a sector of the national economy.  
   
- The KPP code has also been added to the **Payments** FastTab of the **\($ N\_21 Customer Card $\)** form.  
+ The KPP code has also been added to the **Payments** FastTab of the **Customer Card** form.  
   
- Each customer can specify several bank accounts in the **\($ N\_423 Customer Bank Account $\)** form, but there is usually one default bank account for most of a customer's payments. This most widely used bank account can be selected in the **Default Bank Code** field. The same applies for vendors.  
+ Each customer can specify several bank accounts in the **Customer Bank Account** form, but there is usually one default bank account for most of a customer's payments. This most widely used bank account can be selected in the **Default Bank Code** field. The same applies for vendors.  
   
  The **Default Bank Code** field is added to the **Payments** FastTab of the customer card and the vendor card.  
   

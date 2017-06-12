@@ -27,7 +27,7 @@ You can set up inventory to use the same column for original and corrective post
 -   Periodic adjustments of item costs.  
   
 > [!NOTE]  
->  You must enable red storno in the **\($ N\_461 Inventory Setup $\)** window before you can post corrective entries. For more information, see [Inventory Setup](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/inventory-setup.md).  
+>  You must enable red storno in the **Inventory Setup** window before you can post corrective entries. For more information, see [Inventory Setup](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/inventory-setup.md).  
   
 ### To post corrective entries in the item journal  
   
@@ -37,11 +37,11 @@ You can set up inventory to use the same column for original and corrective post
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_83\_5 Entry Type $\)**|Select the same entry type as the original posting.|  
-    |**\($ T\_83\_13 Quantity $\)**|Enter the quantity with the opposite sign of the original posting, such as **\-4**.|  
-    |**\($ T\_83\_12460 Red Storno $\)**|Select to post as a corrective posting.|  
+    |**Entry Type**|Select the same entry type as the original posting.|  
+    |**Quantity**|Enter the quantity with the opposite sign of the original posting, such as **\-4**.|  
+    |**Red Storno**|Select to post as a corrective posting.|  
   
-     You must also select the appropriate entries in the **\($ T\_83\_29 Applies\-to Entry $\)** or **\($ T\_83\_5807 Applies\-from Entry $\)** fields.  
+     You must also select the appropriate entries in the **Applies\-to Entry** or **Applies\-from Entry** fields.  
   
 3.  Post the journal.  
   
@@ -53,15 +53,15 @@ You can set up inventory to use the same column for original and corrective post
   
      To reverse an item shipment, in the **Search** box, enter **Item Shipment**, and then choose the related link.  
   
-2.  On the **General** FastTab, select the **\($ T\_12450\_30 Correction $\)** field.  
+2.  On the **General** FastTab, select the **Correction** field.  
   
 3.  On the **Actions** tab, in the **Process** group, choose **Copy Document**.  
   
-4.  In the **\($ B\_12470 Copy Document $\)** window, set the appropriate filters, and then choose the **OK** button.  
+4.  In the **Copy Document** window, set the appropriate filters, and then choose the **OK** button.  
   
 5.  Make the needed changes to quantity and amounts.  
   
-     You must also select the appropriate entries in the **\($ T\_12453\_29 Applies\-to Entry $\)** or **\($ T\_12453\_5807 Applies\-from Entry $\)** fields. These fields identify the incorrectly posted document.  
+     You must also select the appropriate entries in the **Applies\-to Entry** or **Applies\-from Entry** fields. These fields identify the incorrectly posted document.  
   
 6.  Post the document.  
   
@@ -75,12 +75,12 @@ You can set up inventory to use the same column for original and corrective post
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_83\_29 Applies\-to Entry $\)**|Specifies the item entry that you want to revalue or reclassify.|  
-    |**\($ T\_83\_5807 Applies\-from Entry $\)**|Specifies the item entry that you want to revalue or reclassify.|  
-    |**\($ T\_83\_12460 Red Storno $\)**|Select to post as a corrective posting.|  
+    |**Applies\-to Entry**|Specifies the item entry that you want to revalue or reclassify.|  
+    |**Applies\-from Entry**|Specifies the item entry that you want to revalue or reclassify.|  
+    |**Red Storno**|Select to post as a corrective posting.|  
   
 3.  Post the document.  
   
 ## See Also  
  [Inventory Setup](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/inventory-setup.md)   
- [\($ T\_83 Item Journal Line $\)](../Topic/\($%20T_83%20Item%20Journal%20Line%20$\).md)
+ [Item Journal Line](../Topic/\($%20T_83%20Item%20Journal%20Line%20$\).md)

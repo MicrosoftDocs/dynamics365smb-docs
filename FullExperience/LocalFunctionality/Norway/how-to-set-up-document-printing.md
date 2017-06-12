@@ -48,9 +48,9 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can pr
   
 3.  On the **Navigate** tab, in the **Setup** group, select **Sales Document Paper Tray Setup**.  
   
-4.  Select a paper source from the **\($ T\_78\_10600 First Page \- Paper Source $\)** field.  
+4.  Select a paper source from the **First Page \- Paper Source** field.  
   
-5.  The **\($ T\_78\_10601 First Page – Tray Number $\)** field will automatically display the selected paper source. You can also manually enter a tray number.  
+5.  The **First Page – Tray Number** field will automatically display the selected paper source. You can also manually enter a tray number.  
   
     > [!IMPORTANT]  
     >  Not all printers will have the same paper source names. You can specify a number in the **Tray Number** field. The number may correspond to a paper source. To find the number that a specific printer is using, see the technical documentation for the printer.  
@@ -60,7 +60,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can pr
 6.  Choose the **OK** button.  
   
 ## See Also  
- [\($ T\_78 Printer Selection $\)](assetId:///e7c3bf24-9d03-418b-9826-d6125b34a516)   
+ [Printer Selection](assetId:///e7c3bf24-9d03-418b-9826-d6125b34a516)   
  [Paper Sources and Tray Numbers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/paper-sources-and-tray-numbers.md)   
  [Norwegian Giro and OCR\-B Font](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/norwegian-giro-and-ocr-b-font.md)   
  [How to: Set Up KID Numbers on Sales Documents](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-set-up-kid-numbers-on-sales-documents.md)

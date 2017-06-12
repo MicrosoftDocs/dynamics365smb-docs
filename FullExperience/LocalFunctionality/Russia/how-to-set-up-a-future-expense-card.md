@@ -25,18 +25,18 @@ To account for future period expenses you have to set up a future expense card.
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_5600\_28 No. $\)**|Specifies the number that is associated with the future expense.|  
-    |**\($ T\_5600\_2 Description $\)**|Specifies the description of the future expense.|  
-    |**\($ T\_5600\_4 Description 2 $\)**|Specifies an additional description of the future expense.|  
-    |**\($ T\_5600\_17301 Tax Difference Code $\)**|Specifies the tax difference code that is associated with the future expense.|  
-    |**\($ T\_5600\_12418 Unrealized VAT Amount $\)**|Specifies the unrealized VAT amount that is associated with the future expense.|  
-    |**\($ T\_5600\_3 Search Description $\)**|Specifies the search description for the future expense.|  
-    |**\($ T\_5600\_26 Inactive $\)**|Specifies if the future expense is inactive.|  
-    |**\($ T\_5600\_21 Blocked $\)**|Specifies if the future expense is blocked.|  
-    |**\($ T\_5600\_18 Last Date Modified $\)**|Specifies the date the future expense was last modified.|  
-    |**\($ T\_5600\_17302 Tax Amount $\)**|Specifies the tax amount that is associated with the future expense.|  
+    |**No.**|Specifies the number that is associated with the future expense.|  
+    |**Description**|Specifies the description of the future expense.|  
+    |**Description 2**|Specifies an additional description of the future expense.|  
+    |**Tax Difference Code**|Specifies the tax difference code that is associated with the future expense.|  
+    |**Unrealized VAT Amount**|Specifies the unrealized VAT amount that is associated with the future expense.|  
+    |**Search Description**|Specifies the search description for the future expense.|  
+    |**Inactive**|Specifies if the future expense is inactive.|  
+    |**Blocked**|Specifies if the future expense is blocked.|  
+    |**Last Date Modified**|Specifies the date the future expense was last modified.|  
+    |**Tax Amount**|Specifies the tax amount that is associated with the future expense.|  
   
-3.  In the **\($ T\_5612\_3 Depreciation Method $\)** field, select **Straight\-Line**.  
+3.  In the **Depreciation Method** field, select **Straight\-Line**.  
   
 4.  Choose the **OK** button.  
   

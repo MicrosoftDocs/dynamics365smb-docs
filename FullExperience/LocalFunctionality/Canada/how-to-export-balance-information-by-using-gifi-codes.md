@@ -28,10 +28,10 @@ You can export balance information using General Index of Financial Information 
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ B\_10005\_F\_1\_1020000 Balance As of Date $\)**|The balance as of the specified date.|  
-    |**\($ B\_10005\_F\_1\_1020006 Use Add. Rpt. Currency $\)**|Select to display the amounts in additional reporting currency.|  
-    |**\($ B\_10005\_F\_1\_1020004 Include GIFI Name $\)**|Select to include the GIFI name in the file.|  
-    |**\($ B\_10005\_F\_1\_1020002 Include Unused Codes $\)**|Select to include the unused codes in the file.|  
+    |**Balance As of Date**|The balance as of the specified date.|  
+    |**Use Add. Rpt. Currency**|Select to display the amounts in additional reporting currency.|  
+    |**Include GIFI Name**|Select to include the GIFI name in the file.|  
+    |**Include Unused Codes**|Select to include the unused codes in the file.|  
   
 3.  On the **G\/L Account** FastTab, select the appropriate filters.  
   
@@ -40,10 +40,10 @@ You can export balance information using General Index of Financial Information 
      In the Excel file, the balance is rounded to the nearest percentage, but the cell value maintains the same percentage as it does in the general ledger.  
   
 ## See Also  
- [\($ T\_10015 GIFI Code $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-t_10015-gifi-code-$-.md)   
+ [GIFI Code](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-t_10015-gifi-code-$-.md)   
  [GIFI Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/gifi-codes.md)   
- [\($ R\_10004 Account Balances by GIFI Code $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-r_10004-account-balances-by-gifi-code-$-.md)   
- [\($ B\_10005 Export GIFI Info. to Excel $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-b_10005-export-gifi-info.-to-excel-$-.md)   
+ [Account Balances by GIFI Code](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-r_10004-account-balances-by-gifi-code-$-.md)   
+ [Export GIFI Info. to Excel](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-b_10005-export-gifi-info.-to-excel-$-.md)   
  [How to: Set Up GIFI Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-set-up-gifi-codes.md)   
  [How to: View Account Balances by Using the GIFI Code Report](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-view-account-balances-by-using-the-gifi-code-report.md)   
  [How to: Associate GIFI Codes with Chart of Accounts](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-associate-gifi-codes-with-chart-of-accounts.md)

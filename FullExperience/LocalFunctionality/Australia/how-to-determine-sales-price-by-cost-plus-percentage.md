@@ -59,4 +59,4 @@ Use the cost plus percentage function to set a sales price based on the cost of 
   
 ## See Also  
  [Australia Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/australia-local-functionality.md)   
- [\($ N\_7002 Sales Prices $\)](../Topic/\($%20N_7002%20Sales%20Prices%20$\).md)
+ [Sales Prices](../Topic/\($%20N_7002%20Sales%20Prices%20$\).md)

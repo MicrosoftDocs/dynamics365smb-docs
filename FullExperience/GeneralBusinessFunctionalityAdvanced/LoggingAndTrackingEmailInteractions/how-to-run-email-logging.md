@@ -51,10 +51,10 @@ Email logging can be used to capture email activities between a [!INCLUDE[navnow
   
 4.  After the mail in the queue folder is processed and determined to be valid, it is moved to the public storage folder. For more information, see [Logging and Tracking Email Interactions](../../BusinessFunctionality/LoggingAndTrackingEmailInteractions/logging-and-tracking-email-interactions.md).  
   
-5.  In the **Search** box, enter **\($ N\_5076 Interaction Log Entries $\)**, and then choose the related link.  
+5.  In the **Search** box, enter **Interaction Log Entries**, and then choose the related link.  
   
     > [!TIP]  
-    >  To limit the log entries that you view to just those of the salesperson, you can open the **\($ N\_5076 Interaction Log Entries $\)** window from the salesperson card.  
+    >  To limit the log entries that you view to just those of the salesperson, you can open the **Interaction Log Entries** window from the salesperson card.  
   
 6.  You can scroll through the document to locate the log entry for the email message that has been logged and moved to the public storage folder.  
   

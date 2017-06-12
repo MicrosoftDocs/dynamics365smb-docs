@@ -46,7 +46,7 @@ If you want to change the inventory value of an item or that of a specific recei
   
 ### To enter a new values when revaluing item  
   
-1.  In the **Search** box, enter **\($ N\_5803 Revaluation Journal $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Revaluation Journal**, and then choose the related link.  
   
 2.  Fill in the journal with calculated values. You can do this manually or using a batch job.  
   

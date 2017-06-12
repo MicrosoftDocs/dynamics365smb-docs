@@ -54,7 +54,7 @@ In connection with master planning, you must know the exact availability of reso
 |Lay out a calendar of capacity \(time\) in a work center based on configured shifts, work days, and holidays.|"Calculate a Work Center Calendar" in [Creating a Work Center Calendar](../OperationsPlanning/how-to-create-work-center-calendars.md)|  
 |Update the work center calendar with current absence information.|"Record Work Center Absence" in [Creating a Work Center Calendar](../OperationsPlanning/how-to-create-work-center-calendars.md)|  
 |Update and recalculate active shop calendars to reflect changes in capacity.|[How to: Update Calendar Entries for Work Centers](../OperationsPlanning/how-to-update-calendar-entries-for-work-centers.md)|  
-|Enable finite loading on a critical machine or work center, for example, because you have defined it as a bottleneck.|[\($ T\_99000866 Capacity Constrained Resource $\)](../OperationsPlanning/-$-t_99000866-capacity-constrained-resource-$-.md)|  
+|Enable finite loading on a critical machine or work center, for example, because you have defined it as a bottleneck.|[Capacity Constrained Resource](../OperationsPlanning/-$-t_99000866-capacity-constrained-resource-$-.md)|  
 |Prepare subcontracted operations|[About Subcontracting](../OperationsPlanning/about-subcontracting.md)|  
   
 ## See Also  

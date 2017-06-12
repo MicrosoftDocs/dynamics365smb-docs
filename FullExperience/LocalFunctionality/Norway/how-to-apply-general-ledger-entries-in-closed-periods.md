@@ -22,20 +22,20 @@ translation.priority.ht:
   
 1.  In the **Search** box, enter **General Ledger Setup**, and then choose the related link.  
   
-2.  On the **General** FastTab, select the **\($ T\_98\_10600 Application always Allowed $\)** check box to apply entries outside the allowed posting period.  
+2.  On the **General** FastTab, select the **Application always Allowed** check box to apply entries outside the allowed posting period.  
   
     > [!NOTE]  
-    >  By default, the **\($ T\_98\_10600 Application always Allowed $\)** check box is not selected.  
+    >  By default, the **Application always Allowed** check box is not selected.  
   
 3.  Choose the **OK** button.  
   
 4.  In the **Search** box, enter **User Setup**, and then choose the related link.  
   
-5.  In the **\($ T\_91 User Setup $\)** window, select the **\($ T\_98\_10600 Application always Allowed $\)** check box for each user who can apply entries to a closed period.  
+5.  In the **User Setup** window, select the **Application always Allowed** check box for each user who can apply entries to a closed period.  
   
 6.  Choose the **OK** button.  
   
 ## See Also  
- [\($ N\_118 General Ledger Setup $\)](assetId:///40b9235c-b0d7-4a9f-9ecf-6dc97655309b)   
- [\($ T\_98 General Ledger Setup $\)](assetId:///199e09dc-fe90-4792-be3e-ad395447dfd6)   
- [\($ T\_91 User Setup $\)](../Topic/\($%20T_91%20User%20Setup%20$\).md)
+ [General Ledger Setup](assetId:///40b9235c-b0d7-4a9f-9ecf-6dc97655309b)   
+ [General Ledger Setup](assetId:///199e09dc-fe90-4792-be3e-ad395447dfd6)   
+ [User Setup](../Topic/\($%20T_91%20User%20Setup%20$\).md)

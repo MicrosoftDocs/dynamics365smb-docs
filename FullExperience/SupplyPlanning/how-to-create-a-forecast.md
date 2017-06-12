@@ -44,7 +44,7 @@ You can create sales and production forecasts with the **Production Forecast** w
   
 ### To create a forecast  
   
-1.  In the **Search** box, enter **\($ N\_99000919 Production Forecast $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Production Forecast**, and then choose the related link.  
   
 2.  On the **General** FastTab, select a forecast in the **Production Forecast Name** field. Multiple forecasts can exist and are differentiated by name and forecast type.  
   
@@ -67,5 +67,5 @@ You can create sales and production forecasts with the **Production Forecast** w
 >  You can also edit an existing forecast. In the **Production Forecast Matrix** window, On the **Actions** tab, choose **Copy Production Forecast** and populate the **Production Forecast** window with an existing forecast. You can then edit quantities as appropriate.  
   
 ## See Also  
- [\($ N\_99000919 Production Forecast $\)\-duplicate](../Topic/\($%20N_99000919%20Production%20Forecast%20$\)-duplicate.md)   
+ [Production Forecast\-duplicate](../Topic/\($%20N_99000919%20Production%20Forecast%20$\)-duplicate.md)   
  [About Forecasting Functionality](../Sales/about-forecasting-functionality.md)

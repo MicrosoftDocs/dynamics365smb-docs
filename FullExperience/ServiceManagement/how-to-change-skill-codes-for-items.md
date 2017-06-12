@@ -60,6 +60,6 @@ You may want to change the skill codes assigned to items, for example, changing 
 ## See Also  
  [How to: Change Skill Codes for Service Item Groups](../Service/how-to-change-skill-codes-for-service-item-groups.md)   
  [How to: Change Skill Codes for Service Items](../Service/how-to-change-skill-codes-for-service-items.md)   
- [\($ T\_5956\_4 Assigned From $\)](../Topic/\($%20T_5956_4%20Assigned%20From%20$\).md)   
+ [Assigned From](../Topic/\($%20T_5956_4%20Assigned%20From%20$\).md)   
  [How to: Assign Skill Codes to Items and Service Items](../Service/how-to-assign-skill-codes-to-items-and-service-items.md)   
  [How to: Assign Skill Codes to Service Item Groups](../Service/how-to-assign-skill-codes-to-service-item-groups.md)

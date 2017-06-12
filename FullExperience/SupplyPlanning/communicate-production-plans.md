@@ -47,14 +47,14 @@ When a supply plan is established through master planning and material requireme
   
 |**To**|**See**|  
 |------------|-------------|  
-|Select the suggested supply orders that will be changed with the Carry Out batch job.|[\($ T\_246\_99000917 Accept Action Message $\)](../OperationsPlanning/-$-t_246_99000917-accept-action-message-$-.md)|  
-|Transform and communicate planning worksheet lines into executable supply orders to the different departments: Purchasing, Production, and Warehouse.|[\($ B\_99001020 Carry Out Action Msg.\-Plan. $\)](../OperationsPlanning/-$-b_99001020-carry-out-action-msg.-plan.-$-.md)|  
-|Transform suggested planning lines in the **Order Planning** window into executable supply orders one item BOM level at a time.|[\($ N\_5526 Make Supply Orders $\)](../OperationsPlanning/-$-n_5526-make-supply-orders-$-.md)|  
+|Select the suggested supply orders that will be changed with the Carry Out batch job.|[Accept Action Message](../OperationsPlanning/-$-t_246_99000917-accept-action-message-$-.md)|  
+|Transform and communicate planning worksheet lines into executable supply orders to the different departments: Purchasing, Production, and Warehouse.|[Carry Out Action Msg.\-Plan.](../OperationsPlanning/-$-b_99001020-carry-out-action-msg.-plan.-$-.md)|  
+|Transform suggested planning lines in the **Order Planning** window into executable supply orders one item BOM level at a time.|[Make Supply Orders](../OperationsPlanning/-$-n_5526-make-supply-orders-$-.md)|  
 |Create purchase orders for subcontracted operations.|"Generating the Subcontract Purchase Order" in [Using the Subcontracting Worksheet](../OperationsPlanning/how-to-calculate-subcontracting-worksheets-and-create-subcontract-purchase-orders.md)|  
-|Move a production order to its next stage.|[\($ T\_5405\_1 Status $\)](../OperationsPlanning/-$-t_5405_1-status-$-.md)|  
+|Move a production order to its next stage.|[Status](../OperationsPlanning/-$-t_5405_1-status-$-.md)|  
 |Release planned or firm planned production orders for execution.|[How to: Release Production Orders by Status Change](../OperationsPlanning/how-to-release-production-orders-by-status-change.md)|  
 |Release multiple production orders with a batch job.|[How to: Release Production Orders Automatically](../OperationsPlanning/how-to-release-production-orders-automatically.md)|  
-|Print a list of the production orders that are ready to release.|[\($ R\_99000763 Prod. Order \- List $\)](../OperationsPlanning/-$-r_99000763-prod.-order-list-$-.md)|  
+|Print a list of the production orders that are ready to release.|[Prod. Order \- List](../OperationsPlanning/-$-r_99000763-prod.-order-list-$-.md)|  
   
 ## See Also  
  [Schedule Production Activities](../Production/schedule-production-activities.md)   

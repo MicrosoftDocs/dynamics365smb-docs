@@ -47,7 +47,7 @@ Servicing items that belong to certain service item groups may require specific 
   
 ### To assign a skill code to a service item group  
   
-1.  In the **Search** box, enter **\($ N\_5909 Service Item Groups $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Service Item Groups**, and then choose the related link.  
   
 2.  Select the service item group to which you want to assign a skill code.  
   

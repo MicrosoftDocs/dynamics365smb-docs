@@ -52,11 +52,11 @@ This topic describes how to create a VAT combination setup.
   
 1.  In the **Search** box, enter **VAT Posting Setup**, and then choose the related link.  
   
-2.  In the **\($ N\_472 VAT Posting Setup $\)** window, insert a new line, and then enter values in the **VAT Bus. Posting Group**, **VAT Prod. Posting Group**, and **VAT Identifier** fields.  
+2.  In the **VAT Posting Setup** window, insert a new line, and then enter values in the **VAT Bus. Posting Group**, **VAT Prod. Posting Group**, and **VAT Identifier** fields.  
   
 3.  On the **Actions** tab, in the **General** group, choose **Copy**.  
   
-4.  In the **\($ B\_85 Copy \- VAT Posting Setup $\)** batch job, specify the **VAT Bus. Posting Group** and **VAT Prod. Posting Group** values of the line that you want to copy from.  
+4.  In the **Copy \- VAT Posting Setup** batch job, specify the **VAT Bus. Posting Group** and **VAT Prod. Posting Group** values of the line that you want to copy from.  
   
 5.  In the **Copy** field, select one of the following values.  
   
@@ -67,7 +67,7 @@ This topic describes how to create a VAT combination setup.
   
 6.  Choose the **OK** button to copy the information.  
   
- For more information, see [\($ B\_85 Copy \- VAT Posting Setup $\)](../Topic/\($%20B_85%20Copy%20-%20VAT%20Posting%20Setup%20$\).md).  
+ For more information, see [Copy \- VAT Posting Setup](../Topic/\($%20B_85%20Copy%20-%20VAT%20Posting%20Setup%20$\).md).  
   
 ## See Also  
  [About Setting Up VAT](../Finance/about-setting-up-vat.md)   
@@ -77,5 +77,5 @@ This topic describes how to create a VAT combination setup.
  [How to: Set Up Codes for Import VAT](../Finance/how-to-set-up-codes-for-import-vat.md)   
  [How to: Set Up General Ledger Accounts for Invoice Rounding Differences](../Finance/how-to-set-up-general-ledger-accounts-for-invoice-rounding-differences.md)   
  [How to: Use Accounts for Unrealized VAT](../Finance/how-to-use-accounts-for-unrealized-vat.md)   
- [\($ N\_472 VAT Posting Setup $\)](assetId:///a96dd9fe-bfcb-46d8-874f-1046a0dcc1f7)   
- [\($ B\_85 Copy \- VAT Posting Setup $\)](../Topic/\($%20B_85%20Copy%20-%20VAT%20Posting%20Setup%20$\).md)
+ [VAT Posting Setup](assetId:///a96dd9fe-bfcb-46d8-874f-1046a0dcc1f7)   
+ [Copy \- VAT Posting Setup](../Topic/\($%20B_85%20Copy%20-%20VAT%20Posting%20Setup%20$\).md)

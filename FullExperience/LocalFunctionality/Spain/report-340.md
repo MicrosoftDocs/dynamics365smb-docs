@@ -43,7 +43,7 @@ translation.priority.ht:
 |Report 5912|Service \- Credit Memo|  
   
 ## File Format  
- The file format for **Report 340** includes one deponent record, and at least one issued invoice or one received invoice. Deponent information comes from the **\($ T\_79 Company Information $\)** table and the request form. Issued invoices come from the companies to which you have sold goods or services. Customer information comes from the **\($ T\_18 Customer $\)** table. Received invoices come from the companies from which you have purchased goods or services. Vendor information comes from the **\($ T\_23 Vendor $\)** table.  
+ The file format for **Report 340** includes one deponent record, and at least one issued invoice or one received invoice. Deponent information comes from the **Company Information** table and the request form. Issued invoices come from the companies to which you have sold goods or services. Customer information comes from the **Customer** table. Received invoices come from the companies from which you have purchased goods or services. Vendor information comes from the **Vendor** table.  
   
 > [!NOTE]  
 >  If there are no file format records, the file is not created and an error message is displayed.  
@@ -64,9 +64,9 @@ translation.priority.ht:
   
 -   Payments in cash.  
   
- Entries in the **\($ R\_10704 Sales Invoice Book $\)** report must be included in the report as issued invoices.  
+ Entries in the **Sales Invoice Book** report must be included in the report as issued invoices.  
   
- Entries in the **\($ R\_10705 Purchase Invoice book $\)** report must be included in the report as received invoices.  
+ Entries in the **Purchase Invoice book** report must be included in the report as received invoices.  
   
 ### Small Businesses  
  For small businesses and entrepreneurs operating under the Cash Accounting Criteria \(CAC\), Report 340 reports invoices under the CAC. The invoice is marked with a "Z" for operation type. If the invoice is under the CAC, then the following is reported:  
@@ -101,6 +101,6 @@ translation.priority.ht:
   
 ## See Also  
  [How to: Create Report 340](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/how-to-create-report-340.md)   
- [\($ B\_10743 Make 340 Declaration $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-b_10743-make-340-declaration-$-.md)   
+ [Make 340 Declaration](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-b_10743-make-340-declaration-$-.md)   
  [Payments in Cash](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/payments-in-cash.md)   
  [Spain Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/spain-local-functionality.md)

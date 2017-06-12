@@ -49,7 +49,7 @@ You can use an account schedule to create a statement comparing general ledger f
   
 1.  In the **Search** box, enter **Account Schedule**, and then choose the related link.  
   
-2.  In the **\($ N\_104 Account Schedule $\)** window, in the **Name** field, select the default account schedule name.  
+2.  In the **Account Schedule** window, in the **Name** field, select the default account schedule name.  
   
 3.  On the **Actions** tab, in the **Functions** group, choose **Insert Accounts**.  
   

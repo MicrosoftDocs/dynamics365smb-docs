@@ -43,7 +43,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Print from the Acc. Schedule Overview Window
-Sometimes you may set up an account schedule on screen in the **\($ N\_490 Acc. Schedule Overview $\)** window, and then find out that you want to print out the account schedule that you have designed. Instead of opening the report request window from the report menu and filling in the information all over again, you can use the following shortcut.  
+Sometimes you may set up an account schedule on screen in the **Acc. Schedule Overview** window, and then find out that you want to print out the account schedule that you have designed. Instead of opening the report request window from the report menu and filling in the information all over again, you can use the following shortcut.  
   
 ### To print from the acc. schedule overview window  
   
@@ -56,4 +56,4 @@ Sometimes you may set up an account schedule on screen in the **\($ N\_490 Acc. 
 4.  Choose the **Print** button to print the report.  
   
 ## See Also  
- [\($ R\_25 Account Schedule $\)\-duplicate](../Topic/\($%20R_25%20Account%20Schedule%20$\)-duplicate.md)
+ [Account Schedule\-duplicate](../Topic/\($%20R_25%20Account%20Schedule%20$\)-duplicate.md)

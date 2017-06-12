@@ -43,6 +43,6 @@ translation.priority.ht:
 -   Comma–delimited \(.csv\) files.  
   
 ## See Also  
- [\($ N\_113 Budget $\)](assetId:///1406d618-4ce2-4c02-b70f-298f79bd229d)   
+ [Budget](assetId:///1406d618-4ce2-4c02-b70f-298f79bd229d)   
  [How to: Create Budgets](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-create-budgets.md)   
  [How to: Import or Export a Budget](../../Finance/how-to-import-or-export-a-budget.md)

@@ -15,7 +15,7 @@ translation.priority.ht:
 # How to: Correct VAT Reports
 If you have to submit a corrective VAT report or delete a submitted VAT report, you must create a new VAT report. According to the legislation, a corrective report must be submitted within a month of the initial report.  
   
- When you create a corrective report, the report will contain two line types per corrected line. In one line type, Cancellation, the base value of the VAT is reported as a cancellation. All other information remains the same, and cannot be edited. On a new line, Correction type, you can make corrections as needed to the VAT amount. The **Suggest Lines** action, however, will suggest the correct amount based on the filters and posted documents. You cannot correct or modify the **\($ T\_740\_7 VAT Registration No. $\)** Each period being corrected needs its own corrective report.  
+ When you create a corrective report, the report will contain two line types per corrected line. In one line type, Cancellation, the base value of the VAT is reported as a cancellation. All other information remains the same, and cannot be edited. On a new line, Correction type, you can make corrections as needed to the VAT amount. The **Suggest Lines** action, however, will suggest the correct amount based on the filters and posted documents. You cannot correct or modify the **VAT Registration No.** Each period being corrected needs its own corrective report.  
   
  The **Suggest Lines** action recalculates the values to report. The **Correct Lines** action is used to make manual changes. You can combine the effects of the two actions to correct your report.  
   
@@ -26,7 +26,7 @@ If you have to submit a corrective VAT report or delete a submitted VAT report, 
     > [!NOTE]  
     >  If you manually changed the amount for a customer or vendor, this amount will be overwritten when additional VAT entries are posted. Update the amount accordingly.  
   
-2.  If you want to change the amount of a report line that has already been submitted and no new VAT entries are posted, choose **Correct Lines** in the **Process** group. The **\($ N\_742 VAT Report Lines $\)** window opens. Select the lines that you want to correct. Choose the **OK** button.  
+2.  If you want to change the amount of a report line that has already been submitted and no new VAT entries are posted, choose **Correct Lines** in the **Process** group. The **VAT Report Lines** window opens. Select the lines that you want to correct. Choose the **OK** button.  
   
      For each entry, two lines are displayed: Cancellation and Correction. You can now change the amount on the Correction line.  
   
@@ -44,15 +44,15 @@ If you have to submit a corrective VAT report or delete a submitted VAT report, 
   
 1.  Create a new VAT report. For more information, see [How to: Create VAT Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-create-vat-reports.md).  
   
-2.  Fill in the fields in the **General** FastTab, and set the **\($ T\_740\_3 VAT Report Type $\)** field to Corrective.  
+2.  Fill in the fields in the **General** FastTab, and set the **VAT Report Type** field to Corrective.  
   
-3.  In the **\($ T\_740\_9 Original Report No. $\)** field, select the report that you want to correct. You can only select reports of type Standard that have been marked as Submitted.  
+3.  In the **Original Report No.** field, select the report that you want to correct. You can only select reports of type Standard that have been marked as Submitted.  
   
 4.  Create your correction VAT Report Line entries.  
   
      On the **Actions** tab, choose **Suggest Lines**. Set the filters as needed.  
   
-     On each line you can drill down on the amounts to see which VAT entries make up the amount. Change the amount if needed. You cannot edit, however, the **\($ T\_740\_7 VAT Registration No. $\)**.  
+     On each line you can drill down on the amounts to see which VAT entries make up the amount. Change the amount if needed. You cannot edit, however, the **VAT Registration No.**.  
   
 5.  If the **Suggest Lines** action does not provide suggestions to correct the amounts that you intended, use the **Correct Lines** action to insert Cancellation and Correction lines for the customer or vendor.  
   

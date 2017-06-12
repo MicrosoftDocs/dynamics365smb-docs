@@ -26,10 +26,10 @@ You can add serial numbers and lot numbers to any outbound document, and its pos
   
 -   Assigning new serial or lot numbers during outbound transactions. This applies when item tracking numbers are not assigned to items until they are sold and ready to be shipped.  
   
- The different rules for item tracking numbers are set up in the **\($ N\_6512 Item Tracking Code Card $\)** window.  
+ The different rules for item tracking numbers are set up in the **Item Tracking Code Card** window.  
   
 > [!NOTE]  
->  To assign item tracking numbers in warehouse activities, the **\($ T\_6502\_15 SN Warehouse Tracking $\)** and **\($ T\_6502\_45 Lot Warehouse Tracking $\)** check boxes must be selected on the item’s item tracking code card.  
+>  To assign item tracking numbers in warehouse activities, the **SN Warehouse Tracking** and **Lot Warehouse Tracking** check boxes must be selected on the item’s item tracking code card.  
   
 ### To assign a serial or lot number during outbound transaction  
   
@@ -56,7 +56,7 @@ You can add serial numbers and lot numbers to any outbound document, and its pos
  When the document is posted, the item tracking entries are carried to the associated item ledger entries.  
   
 ## See Also  
- [\($ N\_6512 Item Tracking Code Card $\)](../Topic/\($%20N_6512%20Item%20Tracking%20Code%20Card%20$\).md)   
- [\($ T\_6502\_15 SN Warehouse Tracking $\)](../Topic/\($%20T_6502_15%20SN%20Warehouse%20Tracking%20$\).md)   
- [\($ T\_6502\_45 Lot Warehouse Tracking $\)](../Topic/\($%20T_6502_45%20Lot%20Warehouse%20Tracking%20$\).md)   
+ [Item Tracking Code Card](../Topic/\($%20N_6512%20Item%20Tracking%20Code%20Card%20$\).md)   
+ [SN Warehouse Tracking](../Topic/\($%20T_6502_15%20SN%20Warehouse%20Tracking%20$\).md)   
+ [Lot Warehouse Tracking](../Topic/\($%20T_6502_45%20Lot%20Warehouse%20Tracking%20$\).md)   
  [How to: Select from Existing Serial Numbers and Lot Numbers](../DesignAndEngineering/how-to-select-from-existing-serial-numbers-and-lot-numbers.md)

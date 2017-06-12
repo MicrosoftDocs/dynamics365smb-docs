@@ -22,7 +22,7 @@ The Coded Statement of Account \(CODA\) is a national banking standard, designed
  Each type of transaction in a CODA statement is assigned a unique code. [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] uses this code to interpret transactions and apply them to the corresponding ledger entries.  
   
 ## Applying Statement Lines  
- When you have imported a CODA statement, you can apply the statement lines to existing ledger entries, based on the information in the **\($ T\_2000043 Transaction Coding $\)** table.  
+ When you have imported a CODA statement, you can apply the statement lines to existing ledger entries, based on the information in the **Transaction Coding** table.  
   
  If the transaction coding of the statement line is not found, [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] will stop processing and continue with the next statement line. If you select the **Default Posting** field, the statement line will be used as a default posting.  
   

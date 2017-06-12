@@ -48,5 +48,5 @@ A finance charge memo is similar to an invoice.
 7.  Choose the **OK** button to start the batch job.  
   
 ## See Also  
- [\($ B\_192 Suggest Fin. Charge Memo Lines $\)](../Finance/-$-b_192-suggest-fin.-charge-memo-lines-$-.md)   
- [\($ B\_191 Create Finance Charge Memos $\)](../Finance/-$-b_191-create-finance-charge-memos-$-.md)
+ [Suggest Fin. Charge Memo Lines](../Finance/-$-b_192-suggest-fin.-charge-memo-lines-$-.md)   
+ [Create Finance Charge Memos](../Finance/-$-b_191-create-finance-charge-memos-$-.md)

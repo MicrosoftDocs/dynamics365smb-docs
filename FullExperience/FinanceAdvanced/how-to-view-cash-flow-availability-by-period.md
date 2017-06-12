@@ -46,14 +46,14 @@ You can see the availability of each cash flow forecast by period in an overview
   
 2.  On the **Navigate** tab, in the **Cash Flow Forecast** group, select **CF Availability by Periods**.  
   
-3.  In the **\($ N\_867\_1001 View by $\)** field, select the period length.  
+3.  In the **View by** field, select the period length.  
   
-4.  In the **\($ N\_867\_1009 View as $\)** field, select an option to specify how you want to display the amounts.  
+4.  In the **View as** field, select an option to specify how you want to display the amounts.  
   
 ## See Also  
- [\($ N\_847 Cash Flow Forecast Card $\)](assetId:///b485a851-81b1-4986-afb2-84244f53f18e)   
- [\($ N\_867 CF Availability by Periods $\)](assetId:///7aff34a1-daa5-4916-8eff-735f6e462531)   
+ [Cash Flow Forecast Card](assetId:///b485a851-81b1-4986-afb2-84244f53f18e)   
+ [CF Availability by Periods](assetId:///7aff34a1-daa5-4916-8eff-735f6e462531)   
  [How to: View Cash Flow Statistics](../Finance/how-to-view-cash-flow-statistics.md)   
- [\($ R\_846 Cash Flow Date List $\)](../Finance/-$-r_846-cash-flow-date-list-$-.md)   
- [\($ N\_869 Cash Flow Chart $\)](assetId:///68b122ba-3052-482c-b53c-89b0fbd7ae3a)   
+ [Cash Flow Date List](../Finance/-$-r_846-cash-flow-date-list-$-.md)   
+ [Cash Flow Chart](assetId:///68b122ba-3052-482c-b53c-89b0fbd7ae3a)   
  [Walkthrough: Making Cash Flow Forecasts by Using Account Schedules](../Finance/walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)

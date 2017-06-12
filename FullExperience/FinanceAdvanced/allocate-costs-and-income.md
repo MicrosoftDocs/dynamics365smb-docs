@@ -64,7 +64,7 @@ You can allocate an entry in a general journal to several different accounts whe
 |------------|-------------|  
 |Fill in a recurring general journal and specify the allocation quantity, percentage, or amount for the relevant accounts or dimensions.|[How to: Use Allocation Keys in General Journals](../Finance/how-to-use-allocation-keys-in-general-journals.md)|  
 |Change an allocation key that has already been set up.|[How to: Change Allocation Keys](../Finance/how-to-change-allocation-keys.md)|  
-|Distribute costs or revenues on a sales or purchase line among intercompany partners.|[\($ T\_39\_130 IC Partner Code $\)](../Finance/-$-t_39_130-ic-partner-code-$-.md)|  
+|Distribute costs or revenues on a sales or purchase line among intercompany partners.|[IC Partner Code](../Finance/-$-t_39_130-ic-partner-code-$-.md)|  
   
 ## See Also  
  [How to: Calculate Allocations in Fixed Asset General Ledger Journals](../Finance/how-to-calculate-allocations-in-fixed-asset-general-ledger-journals.md)

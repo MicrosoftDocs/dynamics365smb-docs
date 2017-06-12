@@ -46,14 +46,14 @@ Sometimes, you may want to cancel an item reservation.
   
 1.  From the document line that you want to cancel a reservation from, on the **Lines** FastTab, choose **Actions**![Action Menu icon](../DesignAndEngineering/media/actionmenuicon.png "actionMenuIcon"), choose **Functions**, and then choose **Reserve**.  
   
-2.  In the **\($ N\_498 Reservation $\)** window, on the **Home** tab, in the **Process** group, choose **Reservation Entries**.  
+2.  In the **Reservation** window, on the **Home** tab, in the **Process** group, choose **Reservation Entries**.  
   
-3.  In the **\($ N\_497 Reservation Entries $\)** window, on the **Actions** tab, in the **Functions** group, choose **Cancel Reservation**.  
+3.  In the **Reservation Entries** window, on the **Actions** tab, in the **Functions** group, choose **Cancel Reservation**.  
   
 4.  Confirm the subsequent message.  
   
 ## See Also  
  [How to: Reserve Items for Sales Lines](../Sales/how-to-reserve-items-for-sales-lines.md)   
- [\($ N\_498 Reservation $\)](../Topic/\($%20N_498%20Reservation%20$\).md)   
- [\($ N\_497 Reservation Entries $\)](../Topic/\($%20N_497%20Reservation%20Entries%20$\).md)   
+ [Reservation](../Topic/\($%20N_498%20Reservation%20$\).md)   
+ [Reservation Entries](../Topic/\($%20N_497%20Reservation%20Entries%20$\).md)   
  [How to: Change Reservations](../Sales/how-to-change-reservations.md)

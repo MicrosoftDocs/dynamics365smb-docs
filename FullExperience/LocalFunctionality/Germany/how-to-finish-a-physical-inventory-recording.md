@@ -16,13 +16,13 @@ translation.priority.ht:
   - "de-de"
 ---
 # How to: Finish a Physical Inventory Recording
-After you have entered all data for a physical inventory recording, you can finish the recording by setting the **\($ T\_5005352\_11 Status $\)** field to **Finished**.  
+After you have entered all data for a physical inventory recording, you can finish the recording by setting the **Status** field to **Finished**.  
   
- You can only do this, if the **\($ T\_5005353\_45 Recorded $\)** field is selected for all physical inventory recording lines for the current physical inventory recording.  
+ You can only do this, if the **Recorded** field is selected for all physical inventory recording lines for the current physical inventory recording.  
   
 ### To finish a physical inventory recording  
   
-1.  In the **Search** box, enter **\($ N\_5005355 Phys. Inventory Recording List $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Phys. Inventory Recording List**, and then choose the related link.  
   
 2.  Open the physical inventory recording that you want to finish.  
   
@@ -30,9 +30,9 @@ After you have entered all data for a physical inventory recording, you can fini
   
      The status is set to **Finished**. You can no longer change the physical inventory header or the physical inventory lines.  
   
- When you finish the current physical inventory recording, every physical inventory recording line is assigned to one line of the related physical inventory order. The physical inventory order lines are assigned with the same values in the fields **\($ T\_5005351\_20 Item No. $\)**, **\($ T\_5005351\_21 Variant Code $\)**, **\($ T\_5005351\_22 Location Code $\)**, and **\($ T\_5005351\_23 Bin Code $\)** as the physical inventory recording line has.  
+ When you finish the current physical inventory recording, every physical inventory recording line is assigned to one line of the related physical inventory order. The physical inventory order lines are assigned with the same values in the fields **Item No.**, **Variant Code**, **Location Code**, and **Bin Code** as the physical inventory recording line has.  
   
- If no such physical inventory order line exists, and if the **\($ T\_5005352\_40 Recording without order permit $\)** field is selected on the physical inventory recording header, a new line is inserted automatically and the **\($ T\_5005351\_80 Recorded without Order $\)** field on the physical inventory order line is selected. Otherwise, an error message is displayed and the process is canceled. If there are more than one such physical inventory order lines, an error message is displayed and the process is canceled.  
+ If no such physical inventory order line exists, and if the **Recording without order permit** field is selected on the physical inventory recording header, a new line is inserted automatically and the **Recorded without Order** field on the physical inventory order line is selected. Otherwise, an error message is displayed and the process is canceled. If there are more than one such physical inventory order lines, an error message is displayed and the process is canceled.  
   
 ## See Also  
  [How to: Create a Physical Inventory Recording](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-create-a-physical-inventory-recording.md)   

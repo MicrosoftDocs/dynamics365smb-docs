@@ -63,41 +63,41 @@ The planning system takes all demand and supply data into account, nets the resu
   
  The following planning parameters exist on the item or SKU card:  
   
--   [\($ T\_27\_5445 Dampener Period $\)](../Topic/\($%20T_27_5445%20Dampener%20Period%20$\).md)  
+-   [Dampener Period](../Topic/\($%20T_27_5445%20Dampener%20Period%20$\).md)  
   
--   [\($ T\_27\_5446 Dampener Quantity $\)](../Topic/\($%20T_27_5446%20Dampener%20Quantity%20$\).md)  
+-   [Dampener Quantity](../Topic/\($%20T_27_5446%20Dampener%20Quantity%20$\).md)  
   
--   [\($ T\_27\_5440 Reordering Policy $\)](../DesignAndEngineering/-$-t_27_5440-reordering-policy-$-.md)  
+-   [Reordering Policy](../DesignAndEngineering/-$-t_27_5440-reordering-policy-$-.md)  
   
 -   [Reorder Point](../Topic/\($%20T_27_34%20Reorder%20Point%20$\).md)  
   
--   [\($ T\_27\_35 Maximum Inventory $\)](../Topic/\($%20T_27_35%20Maximum%20Inventory%20$\).md)  
+-   [Maximum Inventory](../Topic/\($%20T_27_35%20Maximum%20Inventory%20$\).md)  
   
--   [\($ T\_27\_5447 Overflow Level $\)](../Topic/\($%20T_27_5447%20Overflow%20Level%20$\).md)  
+-   [Overflow Level](../Topic/\($%20T_27_5447%20Overflow%20Level%20$\).md)  
   
--   [\($ T\_27\_5428 Time Bucket $\)](../Topic/\($%20T_27_5428%20Time%20Bucket%20$\).md)  
+-   [Time Bucket](../Topic/\($%20T_27_5428%20Time%20Bucket%20$\).md)  
   
--   [\($ T\_27\_5444 Lot Accumulation Period $\)](../Topic/\($%20T_27_5444%20Lot%20Accumulation%20Period%20$\).md)  
+-   [Lot Accumulation Period](../Topic/\($%20T_27_5444%20Lot%20Accumulation%20Period%20$\).md)  
   
--   [\($ T\_27\_5443 Rescheduling Period $\)](../Topic/\($%20T_27_5443%20Rescheduling%20Period%20$\).md)  
+-   [Rescheduling Period](../Topic/\($%20T_27_5443%20Rescheduling%20Period%20$\).md)  
   
--   [\($ T\_27\_36 Reorder Quantity $\)](../Topic/\($%20T_27_36%20Reorder%20Quantity%20$\).md)  
+-   [Reorder Quantity](../Topic/\($%20T_27_36%20Reorder%20Quantity%20$\).md)  
   
 -   [Safety Lead Time](../Topic/\($%20T_27_5415%20Safety%20Lead%20Time%20$\).md)  
   
--   [\($ T\_27\_5413 Safety Stock Quantity $\)](../Topic/\($%20T_27_5413%20Safety%20Stock%20Quantity%20$\).md)  
+-   [Safety Stock Quantity](../Topic/\($%20T_27_5413%20Safety%20Stock%20Quantity%20$\).md)  
   
--   [\($ T\_27\_910 Assembly Policy $\)](../Topic/\($%20T_27_910%20Assembly%20Policy%20$\).md)  
+-   [Assembly Policy](../Topic/\($%20T_27_910%20Assembly%20Policy%20$\).md)  
   
 -   [Manufacturing Policy](../DesignAndEngineering/-$-t_27_5442-manufacturing-policy-$-.md)  
   
  The following order modifiers exist on the item or SKU card:  
   
--   [\($ T\_27\_5411 Minimum Order Quantity $\)](../Topic/\($%20T_27_5411%20Minimum%20Order%20Quantity%20$\).md)  
+-   [Minimum Order Quantity](../Topic/\($%20T_27_5411%20Minimum%20Order%20Quantity%20$\).md)  
   
--   [\($ T\_27\_5412 Maximum Order Quantity $\)](../Topic/\($%20T_27_5412%20Maximum%20Order%20Quantity%20$\).md)  
+-   [Maximum Order Quantity](../Topic/\($%20T_27_5412%20Maximum%20Order%20Quantity%20$\).md)  
   
--   [\($ T\_27\_5414 Order Multiple $\)](../Topic/\($%20T_27_5414%20Order%20Multiple%20$\).md)  
+-   [Order Multiple](../Topic/\($%20T_27_5414%20Order%20Multiple%20$\).md)  
   
  Global planning setup fields on the **Manufacturing Setup** window include:  
   
@@ -109,25 +109,25 @@ The planning system takes all demand and supply data into account, nets the resu
   
 -   [Default Safety Lead Time](../Topic/\($%20T_99000765_42%20Default%20Safety%20Lead%20Time%20$\).md)  
   
--   [\($ T\_99000765\_43 Blank Overflow Level $\)](../Topic/\($%20T_99000765_43%20Blank%20Overflow%20Level%20$\).md)  
+-   [Blank Overflow Level](../Topic/\($%20T_99000765_43%20Blank%20Overflow%20Level%20$\).md)  
   
 -   [Combined MPS\/MRP Calculation](../Topic/\($%20T_99000765_38%20Combined%20MPS-MRP%20Calculation%20$\).md)  
   
 -   [Components at Location](../Topic/\($%20T_99000765_39%20Components%20at%20Location%20$\).md)  
   
--   [\($ T\_99000765\_40 Default Dampener Period $\)](../Topic/\($%20T_99000765_40%20Default%20Dampener%20Period%20$\).md)  
+-   [Default Dampener Period](../Topic/\($%20T_99000765_40%20Default%20Dampener%20Period%20$\).md)  
   
--   [\($ T\_99000765\_41 Default Dampener Quantity $\)](../Topic/\($%20T_99000765_41%20Default%20Dampener%20Quantity%20$\).md)  
+-   [Default Dampener Quantity](../Topic/\($%20T_99000765_41%20Default%20Dampener%20Quantity%20$\).md)  
   
  For more information, see [Design Details: Planning Parameters](../ApplicationDesign/design-details-planning-parameters.md)  
   
- Planning is affected by many additional factors, such as the planning horizon defined by the order and ending dates specified when you run MPS\/MRP from the **Planning Worksheet** or **\($ N\_5522 Order Planning $\)** windows.  
+ Planning is affected by many additional factors, such as the planning horizon defined by the order and ending dates specified when you run MPS\/MRP from the **Planning Worksheet** or **Order Planning** windows.  
   
 ## See Also  
- [\($ N\_30 Item Card $\)](../Topic/\($%20N_30%20Item%20Card%20$\).md)   
- [\($ T\_5700 Stockkeeping Unit $\)](../Topic/\($%20T_5700%20Stockkeeping%20Unit%20$\).md)   
- [\($ N\_99000852 Planning Worksheet $\)](../Topic/\($%20N_99000852%20Planning%20Worksheet%20$\).md)   
- [\($ N\_5522 Order Planning $\)](../Topic/\($%20N_5522%20Order%20Planning%20$\).md)   
+ [Item Card](../Topic/\($%20N_30%20Item%20Card%20$\).md)   
+ [Stockkeeping Unit](../Topic/\($%20T_5700%20Stockkeeping%20Unit%20$\).md)   
+ [Planning Worksheet](../Topic/\($%20N_99000852%20Planning%20Worksheet%20$\).md)   
+ [Order Planning](../Topic/\($%20N_5522%20Order%20Planning%20$\).md)   
  [How to: Run MPS and MRP](../OperationsPlanning/how-to-run-mps-and-mrp.md)   
  [Design Details: Supply Planning](../ApplicationDesign/design-details-supply-planning.md)   
  [About Forecasting Functionality](../Sales/about-forecasting-functionality.md)   

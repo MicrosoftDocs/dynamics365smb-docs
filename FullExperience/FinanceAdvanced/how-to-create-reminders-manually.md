@@ -26,7 +26,7 @@ translation.priority.ht:
   - "en-zw"
 ---
 # How to: Create Reminders Manually
-A reminder is similar to an invoice. When you create a reminder or reminder lines, you must fill the **General** FastTab in the **\($ N\_434 Reminder $\)** window. You can fill the FastTab manually and have the lines filled automatically, or you can create reminders for all customers automatically. For more information, see [How to: Create Reminders Automatically](../Finance/how-to-create-reminders-automatically.md).  
+A reminder is similar to an invoice. When you create a reminder or reminder lines, you must fill the **General** FastTab in the **Reminder** window. You can fill the FastTab manually and have the lines filled automatically, or you can create reminders for all customers automatically. For more information, see [How to: Create Reminders Automatically](../Finance/how-to-create-reminders-automatically.md).  
   
 ### To create a reminder manually  
   
@@ -52,15 +52,15 @@ A reminder is similar to an invoice. When you create a reminder or reminder line
 9. Choose the **OK** button to start the batch job.  
   
 ## See Also  
- [\($ B\_189 Suggest Reminder Lines $\)](../Topic/\($%20B_189%20Suggest%20Reminder%20Lines%20$\).md)   
+ [Suggest Reminder Lines](../Topic/\($%20B_189%20Suggest%20Reminder%20Lines%20$\).md)   
  [How to: Set Up Reminder Levels](../Finance/how-to-set-up-reminder-levels.md)   
  [How to: Set Up Reminder Terms](../Finance/how-to-set-up-reminder-terms.md)   
  [How to: Set Up Reminder Text](../Finance/how-to-set-up-reminder-text.md)   
- [\($ N\_431 Reminder Terms $\)](../Topic/\($%20N_431%20Reminder%20Terms%20$\).md)   
- [\($ N\_6 Finance Charge Terms $\)](../Topic/\($%20N_6%20Finance%20Charge%20Terms%20$\).md)   
- [\($ T\_293\_3 Grace Period $\)](../Topic/\($%20T_293_3%20Grace%20Period%20$\).md)   
- [\($ T\_5\_12 Interest Calculation $\)](../Topic/\($%20T_5_12%20Interest%20Calculation%20$\).md)   
- [\($ T\_81\_34 On Hold $\)](assetId:///79e56eae-c3bf-435b-b15a-6710301e123e)   
- [\($ B\_188 Create Reminders $\)](../Finance/-$-b_188-create-reminders-$-.md)   
+ [Reminder Terms](../Topic/\($%20N_431%20Reminder%20Terms%20$\).md)   
+ [Finance Charge Terms](../Topic/\($%20N_6%20Finance%20Charge%20Terms%20$\).md)   
+ [Grace Period](../Topic/\($%20T_293_3%20Grace%20Period%20$\).md)   
+ [Interest Calculation](../Topic/\($%20T_5_12%20Interest%20Calculation%20$\).md)   
+ [On Hold](assetId:///79e56eae-c3bf-435b-b15a-6710301e123e)   
+ [Create Reminders](../Finance/-$-b_188-create-reminders-$-.md)   
  [How to: Create Reminders Automatically](../Finance/how-to-create-reminders-automatically.md)   
- [\($ T\_21\_37 Due Date $\)](../Topic/\($%20T_21_37%20Due%20Date%20$\).md)
+ [Due Date](../Topic/\($%20T_21_37%20Due%20Date%20$\).md)

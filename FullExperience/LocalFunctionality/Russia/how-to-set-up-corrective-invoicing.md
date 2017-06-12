@@ -33,5 +33,5 @@ You can create corrective invoices and corrective credit memos to reflect change
   
 ## See Also  
  [Corrective Documents](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/corrective-documents.md)   
- [\($ N\_459 Sales & Receivables Setup $\)\-duplicate](../../Sales/-$-n_459-sales-receivables-setup-$-duplicate.md)   
- [\($ N\_112 Inventory Posting Groups $\)](../Topic/\($%20N_112%20Inventory%20Posting%20Groups%20$\).md)
+ [Sales & Receivables Setup\-duplicate](../../Sales/-$-n_459-sales-receivables-setup-$-duplicate.md)   
+ [Inventory Posting Groups](../Topic/\($%20N_112%20Inventory%20Posting%20Groups%20$\).md)

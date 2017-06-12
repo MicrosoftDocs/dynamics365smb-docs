@@ -35,7 +35,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Set Up SMTP Email
-To send e\-mails from [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] using an SMTP server, you must fill the **\($ N\_409 SMTP Mail Setup $\)** window.  
+To send e\-mails from [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] using an SMTP server, you must fill the **SMTP Mail Setup** window.  
   
  E\-mail sending is used for several features in [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], such as when notifying workflow users about a workflow step. For more information, see [Workflow](../../BusinessFunctionality/Workflow/workflow.md).  
   
@@ -49,10 +49,10 @@ To send e\-mails from [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_409\_2 SMTP Server $\)**|Specify the name of the SMTP server.|  
-    |**\($ T\_409\_6 SMTP Server Port $\)**|Specify a port for the SMTP server. The default port is 25. **Note:**  When you set up the port, make sure that incoming and outgoing communications on the port is enabled for all clients and the Microsoft Dynamics NAV Server. Check your firewall settings.|  
-    |**\($ T\_409\_3 Authentication $\)**|Specify the type of authentication that the SMTP server uses.<br /><br /> The default setting is **Anonymous**, which requires no user ID or password information. On an Azure deployment, use **Basic**.|  
-    |**\($ T\_409\_7 Secure Connection $\)**|Specify if the SMTP server setup requires a encrypted channel that uses a cryptography or security protocol, such as secure socket layers \(SSL\).|  
+    |**SMTP Server**|Specify the name of the SMTP server.|  
+    |**SMTP Server Port**|Specify a port for the SMTP server. The default port is 25. **Note:**  When you set up the port, make sure that incoming and outgoing communications on the port is enabled for all clients and the Microsoft Dynamics NAV Server. Check your firewall settings.|  
+    |**Authentication**|Specify the type of authentication that the SMTP server uses.<br /><br /> The default setting is **Anonymous**, which requires no user ID or password information. On an Azure deployment, use **Basic**.|  
+    |**Secure Connection**|Specify if the SMTP server setup requires a encrypted channel that uses a cryptography or security protocol, such as secure socket layers \(SSL\).|  
   
 3.  Choose the **OK** button.  
   
@@ -60,7 +60,7 @@ To send e\-mails from [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_
   
 ## See Also  
  [How to: Manage Notification Templates](../../BusinessFunctionality/Workflow/how-to-manage-notification-templates.md)   
- [\($ N\_409 SMTP Mail Setup $\)](../Topic/\($%20N_409%20SMTP%20Mail%20Setup%20$\).md)   
+ [SMTP Mail Setup](../Topic/\($%20N_409%20SMTP%20Mail%20Setup%20$\).md)   
  [Workflow](../../BusinessFunctionality/Workflow/workflow.md)   
  [Walkthrough: Setting Up and Using a Purchase Approval Workflow](../../BusinessFunctionality/Workflow/walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Configure SMTP E\-mail \(IIS 7\)](http://go.microsoft.com/fwlink/?LinkId=263830)

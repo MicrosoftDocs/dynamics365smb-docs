@@ -55,8 +55,8 @@ Companies receive a unique enterprise number and one or more branch numbers from
   
 ## See Also  
  [Belgium Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/belgium-local-functionality.md)   
- [\($ T\_79 Company Information $\)](assetId:///2a44e662-0d42-429e-8131-e0012a89996a)   
- [\($ N\_5050 Contact Card $\)](../Topic/\($%20N_5050%20Contact%20Card%20$\).md)   
- [\($ T\_18 Customer $\)](../Topic/\($%20T_18%20Customer%20$\).md)   
- [\($ T\_14 Location $\)](../Topic/\($%20T_14%20Location%20$\).md)   
- [\($ T\_23 Vendor $\)](../Topic/\($%20T_23%20Vendor%20$\).md)
+ [Company Information](assetId:///2a44e662-0d42-429e-8131-e0012a89996a)   
+ [Contact Card](../Topic/\($%20N_5050%20Contact%20Card%20$\).md)   
+ [Customer](../Topic/\($%20T_18%20Customer%20$\).md)   
+ [Location](../Topic/\($%20T_14%20Location%20$\).md)   
+ [Vendor](../Topic/\($%20T_23%20Vendor%20$\).md)

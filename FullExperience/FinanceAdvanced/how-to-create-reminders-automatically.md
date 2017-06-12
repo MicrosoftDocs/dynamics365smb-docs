@@ -45,4 +45,4 @@ A reminder is similar to an invoice. When you create a reminder, a reminder head
  [How to: Set Up Reminder Levels](../Finance/how-to-set-up-reminder-levels.md)   
  [How to: Set Up Reminder Terms](../Finance/how-to-set-up-reminder-terms.md)   
  [How to: Set Up Reminder Text](../Finance/how-to-set-up-reminder-text.md)   
- [\($ B\_188 Create Reminders $\)](../Finance/-$-b_188-create-reminders-$-.md)
+ [Create Reminders](../Finance/-$-b_188-create-reminders-$-.md)

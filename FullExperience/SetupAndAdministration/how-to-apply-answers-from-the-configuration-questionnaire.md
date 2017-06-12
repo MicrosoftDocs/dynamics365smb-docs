@@ -44,7 +44,7 @@ After you have imported and validated information from a setup questionnaire, yo
   
 ### To apply answers from the setup questionnaire  
   
-1.  In the **Search** box, enter **Configuration Questionnaire**, and then choose the related link. The **\($ N\_8610 Setup Questionnaire $\)** window opens.  
+1.  In the **Search** box, enter **Configuration Questionnaire**, and then choose the related link. The **Setup Questionnaire** window opens.  
   
 2.  Select a configuration questionnaire from the list, and on the **Home** tab, choose **Edit List**.  
   

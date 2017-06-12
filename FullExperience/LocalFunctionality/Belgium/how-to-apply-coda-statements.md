@@ -16,7 +16,7 @@ translation.priority.ht:
   - "nl-be"
 ---
 # How to: Apply CODA Statements
-After a CODA statement has been imported, the statement lines can be accessed from the **\($ N\_370 Bank Account Card $\)** window. The application status on each line will be blank because the statement amounts have not been applied to outstanding ledger entries.  
+After a CODA statement has been imported, the statement lines can be accessed from the **Bank Account Card** window. The application status on each line will be blank because the statement amounts have not been applied to outstanding ledger entries.  
   
  Statement amounts can be applied to outstanding ledger entries by:  
   
@@ -36,8 +36,8 @@ After a CODA statement has been imported, the statement lines can be accessed fr
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_2000041\_41 Account No. $\)**|Enter the number of the general ledger account, bank, customer, vendor, or fixed asset, which the bank account statement line is linked to.|  
-    |**\($ T\_2000041\_6 Description $\)**|[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] automatically retrieves the description from the imported CODA file, but you can modify the contents of this field.|  
+    |**Account No.**|Enter the number of the general ledger account, bank, customer, vendor, or fixed asset, which the bank account statement line is linked to.|  
+    |**Description**|[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] automatically retrieves the description from the imported CODA file, but you can modify the contents of this field.|  
   
 5.  Choose the **OK** button.  
   
@@ -55,8 +55,8 @@ After a CODA statement has been imported, the statement lines can be accessed fr
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ B\_2000059\_F\_1\_1 Default Posting $\)**|Select if you want the batch job to post statement amounts that cannot be linked to existing ledger entries. For more information, see [\($ T\_2000043 Transaction Coding $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/-$-t_2000043-transaction-coding-$-.md).|  
-    |**\($ B\_2000059\_F\_1\_3 Print List $\)**|Select to print a list of statement amounts that cannot be linked automatically.|  
+    |**Default Posting**|Select if you want the batch job to post statement amounts that cannot be linked to existing ledger entries. For more information, see [Transaction Coding](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/-$-t_2000043-transaction-coding-$-.md).|  
+    |**Print List**|Select to print a list of statement amounts that cannot be linked automatically.|  
   
 6.  Choose the **OK** button.  
   

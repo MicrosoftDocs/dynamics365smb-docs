@@ -50,7 +50,7 @@ In order to correctly handle VAT on purchases from the EU, you must set up at le
   
 1.  In the **Search** box, enter **VAT Posting Setup**, and then choose the related link.  
   
-2.  In the **\($ N\_472 VAT Posting Setup $\)** window, enter a combination of a VAT business posting group and a VAT product posting group and fill in the fields with general ledger account numbers.  
+2.  In the **VAT Posting Setup** window, enter a combination of a VAT business posting group and a VAT product posting group and fill in the fields with general ledger account numbers.  
   
 3.  In the **VAT Calculation Type** field, select **Reverse Charge VAT**.  
   

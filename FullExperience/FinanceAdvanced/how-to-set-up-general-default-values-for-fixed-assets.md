@@ -25,7 +25,7 @@ translation.priority.ht:
   - "en-zw"
 ---
 # How to: Set Up General Default Values for Fixed Assets
-You set up fixed assets in the **\($ N\_5607 Fixed Asset Setup $\)** window.  
+You set up fixed assets in the **Fixed Asset Setup** window.  
   
 ### To set up general default values for fixed assets  
   
@@ -35,4 +35,4 @@ You set up fixed assets in the **\($ N\_5607 Fixed Asset Setup $\)** window.
   
 ## See Also  
  [Set Up Fixed Assets](../Finance/set-up-fixed-assets.md)   
- [\($ N\_5607 Fixed Asset Setup $\)](../Topic/\($%20N_5607%20Fixed%20Asset%20Setup%20$\).md)
+ [Fixed Asset Setup](../Topic/\($%20N_5607%20Fixed%20Asset%20Setup%20$\).md)

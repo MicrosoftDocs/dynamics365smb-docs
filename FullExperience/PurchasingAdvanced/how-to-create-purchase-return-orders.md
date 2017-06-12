@@ -63,14 +63,14 @@ If you have agreed with your vendor to return a purchased item that you are diss
     |**Function**|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |------------------|---------------------------------------|  
     |**Get Posted Document Lines to Reverse**|Copies lines of one or more posted documents to be reversed.|  
-    |**Copy Document**|Copies both the header and lines of one posted or open document to be reversed.<br /><br /> Requires that the **\($ T\_312\_6602 Exact Cost Reversing Mandatory $\)** check box is selected in the **\($ N\_460 Purchases & Payables Setup $\)** window.|  
+    |**Copy Document**|Copies both the header and lines of one posted or open document to be reversed.<br /><br /> Requires that the **Exact Cost Reversing Mandatory** check box is selected in the **Purchases & Payables Setup** window.|  
   
      When you post the purchase return order, a link is created through the **Appl.\-to Item Entry** field to the original item ledger entry to ensure that the costs are copied from the original posted purchase order.  
   
 7.  Choose the **Return Reason Code** field to select a relevant code to describe the reason why you are returning the item.  
   
 ## See Also  
- [\($ T\_39\_38 Appl.\-to Item Entry $\)](../Topic/\($%20T_39_38%20Appl.-to%20Item%20Entry%20$\).md)   
+ [Appl.\-to Item Entry](../Topic/\($%20T_39_38%20Appl.-to%20Item%20Entry%20$\).md)   
  [How to: Assign Exact Cost Reversing in Purchases](../Finance/how-to-assign-exact-cost-reversing-in-purchases.md)   
  [How to: Create and Post Purchase Allowances](../Finance/how-to-create-and-post-purchase-allowances.md)   
  [How to: Create Replacement Purchase Orders](../Purchasing/how-to-create-replacement-purchase-orders.md)   

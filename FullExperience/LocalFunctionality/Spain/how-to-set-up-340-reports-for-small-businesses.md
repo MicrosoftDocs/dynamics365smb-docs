@@ -23,13 +23,13 @@ Use the following procedure to set up your business to report on a cash basis, t
   
 1.  In the **Search** box, enter **General Ledger Setup**, and then choose the related link.  
   
-2.  On the **General** FastTab, select the **\($ T\_98\_48 Unrealized VAT $\)** check box in the **\($ N\_118 General Ledger Setup $\)** window. Choose the **OK** button.  
+2.  On the **General** FastTab, select the **Unrealized VAT** check box in the **General Ledger Setup** window. Choose the **OK** button.  
   
 3.  In the **Search** box, enter **VAT Posting Setup**, and then choose the related link.  
   
-4.  In the **\($ N\_472 VAT Posting Setup $\)** window, select a group to modify or create a posting group that has general ledger accounts to treat the VAT amounts for the various unrealized VAT accounts in your VAT Posting Setup. On the **Home** tab, in the **Manage** group, choose **Edit**.  
+4.  In the **VAT Posting Setup** window, select a group to modify or create a posting group that has general ledger accounts to treat the VAT amounts for the various unrealized VAT accounts in your VAT Posting Setup. On the **Home** tab, in the **Manage** group, choose **Edit**.  
   
-5.  On the **General** FastTab, set the **\($ T\_325\_5 Unrealized VAT Type $\)** to **Percentage**.  
+5.  On the **General** FastTab, set the **Unrealized VAT Type** to **Percentage**.  
   
 6.  On the **Sales** and **Purchase** FastTabs, specify general ledger accounts for the various **VAT Unreal. Account** fields.  
   

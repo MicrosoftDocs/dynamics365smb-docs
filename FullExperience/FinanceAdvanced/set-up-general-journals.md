@@ -55,7 +55,7 @@ General journals are used to post to general ledger accounts and other accounts 
   
 |**To**|**See**|  
 |------------|-------------|  
-|Learn about general journal templates.|[\($ T\_80 Gen. Journal Template $\)](assetId:///eb60bf94-fc5b-442c-acb8-91df074d20d2)|  
+|Learn about general journal templates.|[Gen. Journal Template](assetId:///eb60bf94-fc5b-442c-acb8-91df074d20d2)|  
 |Create multiple journals of the same type.|[How to: Set Up Multiple Journal Batches](../Finance/how-to-set-up-multiple-journal-batches.md)|  
 |Assign a default balancing account to a journal batch.|[How to: Set Up Default Balancing Accounts](../Finance/how-to-set-up-default-balancing-accounts.md)|  
 |Assign a reason code to appear on all journal entries posted from a journal batch.|[How to: Assign Reason Codes to Journal Batches](../Finance/how-to-assign-reason-codes-to-journal-batches.md)|  

@@ -51,7 +51,7 @@ You can set up users so that in their daily routines the program retrieves only 
   
 1.  In the **Search** box, enter **User Setup**, and then choose the related link.  
   
-2.  In the **\($ N\_119 User Setup $\)** window, select the user you want to assign a responsibility center to. If the user not is on the list, you must enter a user ID in the **User ID** field.  
+2.  In the **User Setup** window, select the user you want to assign a responsibility center to. If the user not is on the list, you must enter a user ID in the **User ID** field.  
   
 3.  In the **Sales Resp. Ctr. Filter** field, enter the responsibility center where the user will have tasks related to Sales & Receivables.  
   

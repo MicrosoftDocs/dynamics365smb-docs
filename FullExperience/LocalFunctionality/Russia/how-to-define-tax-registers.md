@@ -18,7 +18,7 @@ translation.priority.ht:
   - "ru-ru"
 ---
 # How to: Define Tax Registers
-Tax registers are used to track and manage taxable profits and losses in accordance with Russian tax accounting principles. You can use the **\($ N\_17203 Tax Register Card $\)** window to define how tax registers calculate taxable profits and losses and record the results.  
+Tax registers are used to track and manage taxable profits and losses in accordance with Russian tax accounting principles. You can use the **Tax Register Card** window to define how tax registers calculate taxable profits and losses and record the results.  
   
 ### To define tax registers  
   
@@ -28,33 +28,33 @@ Tax registers are used to track and manage taxable profits and losses in accorda
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_17200\_1 No. $\)**|Specifies the entry number that is assigned to the tax register.|  
-    |**\($ T\_17200\_2 Description $\)**|Enter a description for the tax register.|  
-    |**\($ T\_17200\_8 Level $\)**|Specifies the parent\/child relationship between tax registers. Top\-level parent tax registers should be **0**.|  
-    |**\($ T\_17200\_12 Costing Method $\)**|Select the inventory valuation costing method that is used for the tax register.|  
-    |**\($ T\_17200\_25 G\/L Corr. Analysis View Code $\)**|Select the code of the general ledger correspondence analysis view that you want to use for the tax register.|  
+    |**No.**|Specifies the entry number that is assigned to the tax register.|  
+    |**Description**|Enter a description for the tax register.|  
+    |**Level**|Specifies the parent\/child relationship between tax registers. Top\-level parent tax registers should be **0**.|  
+    |**Costing Method**|Select the inventory valuation costing method that is used for the tax register.|  
+    |**G\/L Corr. Analysis View Code**|Select the code of the general ledger correspondence analysis view that you want to use for the tax register.|  
   
 3.  On the **Register Lines** FastTab, enter the following information.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_17201\_12 Line Code $\)**|Enter a code to identify the tax register line.|  
-    |**\($ T\_17201\_5 Account Type $\)**|Select the account type of the tax register line. Options include **Correspondence** and **G\/L Account**.|  
-    |**\($ T\_17201\_7 Amount Type $\)**|Select the amount type of the tax register line. Options include **Debit**, **Credit**, and **Net Change**.|  
-    |**\($ T\_17201\_6 Account No. $\)**|Enter the general ledger account number for the tax register line.|  
-    |**\($ T\_17201\_8 Bal. Account No. $\)**|Enter the general ledger balance account number for the tax register line. The calculated tax register line balance amount will be stored in this account.|  
-    |**\($ T\_17201\_14 Dimensions Filters $\)**|Specifies if a dimension filter has been entered for the tax register line. If a dimension filter has been entered, the value will be **Present**.|  
-    |**\($ T\_17201\_16 G\/L Corr. Dimensions Filters $\)**|Specifies if a general ledger correspondence dimension filter has been entered for the tax register line. If a dimension filter has been entered, the value will be **Present**.|  
+    |**Line Code**|Enter a code to identify the tax register line.|  
+    |**Account Type**|Select the account type of the tax register line. Options include **Correspondence** and **G\/L Account**.|  
+    |**Amount Type**|Select the amount type of the tax register line. Options include **Debit**, **Credit**, and **Net Change**.|  
+    |**Account No.**|Enter the general ledger account number for the tax register line.|  
+    |**Bal. Account No.**|Enter the general ledger balance account number for the tax register line. The calculated tax register line balance amount will be stored in this account.|  
+    |**Dimensions Filters**|Specifies if a dimension filter has been entered for the tax register line. If a dimension filter has been entered, the value will be **Present**.|  
+    |**G\/L Corr. Dimensions Filters**|Specifies if a general ledger correspondence dimension filter has been entered for the tax register line. If a dimension filter has been entered, the value will be **Present**.|  
   
 4.  On the **Template Line** FastTab, enter the following information.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_17202\_5 Line Code $\)**|Enter a code to identify the tax register template line.|  
-    |**\($ T\_17202\_4 Expression $\)**|Enter a formula for the tax register template line.|  
-    |**\($ T\_17202\_42 Term Line Code $\)**|Enter the tax register line code that is used for the template line.|  
-    |**\($ T\_17202\_14 Dimensions Filters $\)**|Specifies if a dimension filter has been entered for the tax register template line. If a dimension filter has been entered, the value will be **Present**.|  
-    |**\($ T\_17202\_16 G\/L Corr. Dimensions Filters $\)**|Specifies if a general ledger correspondence dimension filter has been entered for the tax register template line. If a dimension filter has been entered, the value will be **Present**.|  
+    |**Line Code**|Enter a code to identify the tax register template line.|  
+    |**Expression**|Enter a formula for the tax register template line.|  
+    |**Term Line Code**|Enter the tax register line code that is used for the template line.|  
+    |**Dimensions Filters**|Specifies if a dimension filter has been entered for the tax register template line. If a dimension filter has been entered, the value will be **Present**.|  
+    |**G\/L Corr. Dimensions Filters**|Specifies if a general ledger correspondence dimension filter has been entered for the tax register template line. If a dimension filter has been entered, the value will be **Present**.|  
   
 5.  Choose the **Close** button to close the window and save your entries.  
   

@@ -62,5 +62,5 @@ If you often need to create purchase and sales lines with similar information, y
 ## See Also  
  [How to: Assign Standard Purchase and Sales Lines to Vendors and Customers](../Purchasing/how-to-assign-standard-purchase-and-sales-lines-to-vendors-and-customers.md)   
  [How to: Insert Standard Purchase and Sales Lines on Documents](../Purchasing/how-to-insert-standard-purchase-and-sales-lines-on-documents.md)   
- [\($ N\_177 Standard Purchase Lines $\)](../Topic/\($%20N_177%20Standard%20Purchase%20Lines%20$\).md)   
- [\($ N\_173 Recurring Sales Lines $\)](../Topic/\($%20N_173%20Recurring%20Sales%20Lines%20$\).md)
+ [Standard Purchase Lines](../Topic/\($%20N_177%20Standard%20Purchase%20Lines%20$\).md)   
+ [Recurring Sales Lines](../Topic/\($%20N_173%20Recurring%20Sales%20Lines%20$\).md)

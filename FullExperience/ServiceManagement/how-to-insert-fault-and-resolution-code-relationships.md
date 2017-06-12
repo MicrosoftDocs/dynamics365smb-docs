@@ -45,7 +45,7 @@ To be able to see the most common methods of repair for particular item faults w
   
 ### To insert fault\/resolution codes relationships  
   
-1.  In the **Search** box, enter **\($ B\_6007 Insert Fault\/Resol. Codes Relationships $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Insert Fault\/Resol. Codes Relationships**, and then choose the related link.  
   
 2.  In the **From Date** field, enter the starting date of the period you want to include in the batch job.  
   
@@ -60,5 +60,5 @@ To be able to see the most common methods of repair for particular item faults w
 7.  Confirm the subsequent message.  
   
 ## See Also  
- [\($ B\_6007 Insert Fault\-Resol. Codes Relationships $\)](../Topic/\($%20B_6007%20Insert%20Fault-Resol.%20Codes%20Relationships%20$\).md)   
+ [Insert Fault\-Resol. Codes Relationships](../Topic/\($%20B_6007%20Insert%20Fault-Resol.%20Codes%20Relationships%20$\).md)   
  [How to: Register Fault Code and Resolution Code Relationships](../Service/how-to-register-fault-code-and-resolution-code-relationships.md)

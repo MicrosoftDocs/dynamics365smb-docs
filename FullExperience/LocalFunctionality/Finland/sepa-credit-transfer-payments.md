@@ -19,9 +19,9 @@ translation.priority.ht:
   
 ## See Also  
  [Finland Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Finland/finland-local-functionality.md)   
- [\($ B\_13403 Export SEPA Payment File $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Finland/-$-b_13403-export-sepa-payment-file-$-.md)   
- [\($ N\_32000006 Bank Payments to send $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Finland/-$-n_32000006-bank-payments-to-send-$-.md)   
- [\($ N\_10 Countries\-Regions $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Finland/-$-n_10-countries-regions-$-.md)   
- [\($ B\_32000003 Suggest Bank Payments $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Finland/-$-b_32000003-suggest-bank-payments-$-.md)   
- [\($ N\_425 Vendor Bank Account Card $\)](../Topic/\($%20N_425%20Vendor%20Bank%20Account%20Card%20$\).md)   
+ [Export SEPA Payment File](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Finland/-$-b_13403-export-sepa-payment-file-$-.md)   
+ [Bank Payments to send](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Finland/-$-n_32000006-bank-payments-to-send-$-.md)   
+ [Countries\-Regions](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Finland/-$-n_10-countries-regions-$-.md)   
+ [Suggest Bank Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Finland/-$-b_32000003-suggest-bank-payments-$-.md)   
+ [Vendor Bank Account Card](../Topic/\($%20N_425%20Vendor%20Bank%20Account%20Card%20$\).md)   
  [How to: Set Up Bank Reference Files](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Finland/how-to-set-up-bank-reference-files.md)

@@ -43,7 +43,7 @@ After the customer data has been entered in the data migration files in Excel, y
   
 ### To import customer data  
   
-1.  Open the **\($ N\_8614 Migration Overview $\)** window.  
+1.  Open the **Migration Overview** window.  
   
 2.  Select the table for which you want to import data.  
   
@@ -53,7 +53,7 @@ After the customer data has been entered in the data migration files in Excel, y
   
 4.  Locate and open the file that you want from which you want to import data to [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)].  
   
- Data from the file is imported into the configuration package tables. In the **\($ T\_8613\_4 No. of Package Records $\)** field, you can see the number of records that have been imported. In addition, you can see the number of migration errors.  
+ Data from the file is imported into the configuration package tables. In the **No. of Package Records** field, you can see the number of records that have been imported. In addition, you can see the number of migration errors.  
   
 ## See Also  
  [How to: Validate Customer Data](../SetupAndAdministration/how-to-validate-customer-data.md)

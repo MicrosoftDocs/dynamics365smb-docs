@@ -76,10 +76,10 @@ When you have complex information, you may want to view a visual representation 
   
 ## See Also  
  [How to: Create Generic Charts](../Topic/How%20to:%20Create%20Generic%20Charts.md)   
- [\($ S\_PERSONALIZATION Personalize the User Interface $\)](../SetupAndAdministration/-$-s_personalization-personalize-the-user-interface-$-.md)   
+ [Personalize the User Interface](../SetupAndAdministration/-$-s_personalization-personalize-the-user-interface-$-.md)   
  [How to: Customize FastTabs](../SetupAndAdministration/how-to-customize-fasttabs.md)   
  [How to: Customize FactBoxes](../SetupAndAdministration/how-to-customize-factboxes.md)   
  [How to: Customize Ribbons](../SetupAndAdministration/how-to-customize-ribbons.md)   
  [Customize the User Interface](../SetupAndAdministration/customize-the-user-interface.md)   
- [Working with \($ P\_1 Product Name $\)](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)   
+ [Working with Product Name](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)   
  [Learn About the RoleTailored Design](../GettingStarted/learn-about-the-roletailored-design.md)

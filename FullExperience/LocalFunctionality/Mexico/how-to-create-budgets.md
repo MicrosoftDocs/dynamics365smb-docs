@@ -73,7 +73,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], the create
 4.  On the **Actions** tab, in the **Functions** group, select **Create Budget**, and then choose **From History**.  
   
     > [!NOTE]  
-    >  When you create a budget with the **From History** option, you get the same result as you would if use the **Copy Budget** function with **G\/L Entry** as the **Source**. The budget is based on actual general ledger entries for the specified period. For more information, see [\($ B\_96 Copy G\-L Budget $\)](../Topic/\($%20B_96%20Copy%20G-L%20Budget%20$\).md).  
+    >  When you create a budget with the **From History** option, you get the same result as you would if use the **Copy Budget** function with **G\/L Entry** as the **Source**. The budget is based on actual general ledger entries for the specified period. For more information, see [Copy G\-L Budget](../Topic/\($%20B_96%20Copy%20G-L%20Budget%20$\).md).  
   
 5.  In the **Budget from History** batch job, on the **Options** FastTab, fill in the fields as described in the following table.  
   
@@ -91,8 +91,8 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], the create
 7.  Choose the **OK** button.  
   
 ## See Also  
- [\($ B\_96 Copy G\-L Budget $\)](../Topic/\($%20B_96%20Copy%20G-L%20Budget%20$\).md)   
+ [Copy G\-L Budget](../Topic/\($%20B_96%20Copy%20G-L%20Budget%20$\).md)   
  [How to: Import or Export a Budget](../../Finance/how-to-import-or-export-a-budget.md)   
  [Budgets](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/budgets.md)   
- [\($ B\_82 Export Budget to Excel $\)](../Topic/\($%20B_82%20Export%20Budget%20to%20Excel%20$\).md)   
- [\($ B\_81 Import Budget from Excel $\)](../Topic/\($%20B_81%20Import%20Budget%20from%20Excel%20$\).md)
+ [Export Budget to Excel](../Topic/\($%20B_82%20Export%20Budget%20to%20Excel%20$\).md)   
+ [Import Budget from Excel](../Topic/\($%20B_81%20Import%20Budget%20from%20Excel%20$\).md)

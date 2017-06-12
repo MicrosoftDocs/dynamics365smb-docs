@@ -66,4 +66,4 @@ If consolidation takes place in another database than the one where you have you
  [How to: Test Files Before Consolidating](../Finance/how-to-test-files-before-consolidating.md)   
  [How to: Consolidate from Databases](../Finance/how-to-consolidate-from-databases.md)   
  [How to: Consolidate from Files](../Finance/how-to-consolidate-from-files.md)   
- [\($ S\_COMPANY How to: Select a Company $\)](../WorkingWithDynamics/-$-s_company-how-to-select-a-company-$-.md)
+ [How to: Select a Company](../WorkingWithDynamics/-$-s_company-how-to-select-a-company-$-.md)

@@ -26,33 +26,33 @@ translation.priority.ht:
   
 -   Acquisition costs and appreciation of capital investments for all previous periods excluding the current period.  
   
- The rate of the depreciation bonus is 10 percent or 30 percent, depending on the class of the fixed asset. The rate is set for a depreciation group using the **\($ T\_12476\_5 Depr. Bonus Percentage $\)** field in the **\($ N\_12489 Depreciation Group $\)** window.  
+ The rate of the depreciation bonus is 10 percent or 30 percent, depending on the class of the fixed asset. The rate is set for a depreciation group using the **Depr. Bonus Percentage** field in the **Depreciation Group** window.  
   
  After the depreciation bonus is calculated and posted for a period, all transactions are cleared in preparation for the next period.  
   
 ## Depreciation Bonus Settings  
- Before depreciation bonus is calculated, you will have to make sure that the appropriate settings have been applied in the **\($ N\_17201 Tax Register Setup $\)** window. Use the information in the following table to apply depreciation bonus settings.  
+ Before depreciation bonus is calculated, you will have to make sure that the appropriate settings have been applied in the **Tax Register Setup** window. Use the information in the following table to apply depreciation bonus settings.  
   
 |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
 |---------------------------------|---------------------------------------|  
-|**\($ T\_17236\_17201 Rel. Act as Depr. Bonus Base $\)**|Select if you want fixed asset releases to be used to calculate the depreciation bonus base.|  
-|**\($ T\_17236\_17220 Depr. Bonus TD Code $\)**|Enter a tax difference code that is used to calculate the depreciation bonus. The selected tax difference code should be identified as a depreciation bonus during tax difference setup.|  
-|**\($ T\_17236\_17223 Depr. Bonus Recovery from $\)**|Enter the starting date from which depreciation is recovered if the fixed asset is sold. If the fixed asset is sold before this date and the depreciation bonus has already been applied, the depreciation bonus will not be recovered.|  
-|**\($ T\_17236\_17224 Depr. Bonus Recov. Per. \(Year\) $\)**|Enter the period in which the depreciation bonus is recovered if the fixed asset is sold.|  
-|**\($ T\_17236\_17226 Depr. Bonus Recovery TD Code $\)**|Enter the tax difference code that is used to calculate the depreciation bonus recovery amount in tax accounting.|  
+|**Rel. Act as Depr. Bonus Base**|Select if you want fixed asset releases to be used to calculate the depreciation bonus base.|  
+|**Depr. Bonus TD Code**|Enter a tax difference code that is used to calculate the depreciation bonus. The selected tax difference code should be identified as a depreciation bonus during tax difference setup.|  
+|**Depr. Bonus Recovery from**|Enter the starting date from which depreciation is recovered if the fixed asset is sold. If the fixed asset is sold before this date and the depreciation bonus has already been applied, the depreciation bonus will not be recovered.|  
+|**Depr. Bonus Recov. Per. \(Year\)**|Enter the period in which the depreciation bonus is recovered if the fixed asset is sold.|  
+|**Depr. Bonus Recovery TD Code**|Enter the tax difference code that is used to calculate the depreciation bonus recovery amount in tax accounting.|  
   
 ## Selecting and Canceling Depreciation Bonus Transactions  
  Depreciation bonus transactions should be posted before the monthly depreciation amount is calculated and posted.  
   
- To select depreciation bonus transactions for posting for a period, select **\($ T\_5621\_17201 Depr. Bonus $\)** in the [\($ N\_5629 Fixed Asset Journal $\)](../Topic/\($%20N_5629%20Fixed%20Asset%20Journal%20$\).md) window and the [\($ N\_5628 Fixed Asset G\-L Journal $\)](../Topic/\($%20N_5628%20Fixed%20Asset%20G-L%20Journal%20$\).md)window.  
+ To select depreciation bonus transactions for posting for a period, select **Depr. Bonus** in the [Fixed Asset Journal](../Topic/\($%20N_5629%20Fixed%20Asset%20Journal%20$\).md) window and the [Fixed Asset G\-L Journal](../Topic/\($%20N_5628%20Fixed%20Asset%20G-L%20Journal%20$\).md)window.  
   
- You can cancel depreciation bonus transactions by running the **\($ B\_5688 Cancel FA Ledger Entries $\)** batch job. After posting the depreciation bonus cancellation, all operations that are included in the depreciation bonus base must be manually selected as the depreciation bonus base.  
+ You can cancel depreciation bonus transactions by running the **Cancel FA Ledger Entries** batch job. After posting the depreciation bonus cancellation, all operations that are included in the depreciation bonus base must be manually selected as the depreciation bonus base.  
   
 ## See Also  
  [How to: Create Fixed Assets](../../Finance/how-to-create-fixed-assets.md)   
- [\($ N\_5600 Fixed Asset Card $\)](../Topic/\($%20N_5600%20Fixed%20Asset%20Card%20$\).md)   
- [\($ N\_5629 Fixed Asset Journal $\)](../Topic/\($%20N_5629%20Fixed%20Asset%20Journal%20$\).md)   
- [\($ N\_5628 Fixed Asset G\-L Journal $\)](../Topic/\($%20N_5628%20Fixed%20Asset%20G-L%20Journal%20$\).md)   
- [\($ T\_5612 FA Depreciation Book $\)](../Topic/\($%20T_5612%20FA%20Depreciation%20Book%20$\).md)   
- [\($ T\_12476 Depreciation Group $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-t_12476-depreciation-group-$-.md)   
- [\($ T\_17236 Tax Register Setup $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-t_17236-tax-register-setup-$-.md)
+ [Fixed Asset Card](../Topic/\($%20N_5600%20Fixed%20Asset%20Card%20$\).md)   
+ [Fixed Asset Journal](../Topic/\($%20N_5629%20Fixed%20Asset%20Journal%20$\).md)   
+ [Fixed Asset G\-L Journal](../Topic/\($%20N_5628%20Fixed%20Asset%20G-L%20Journal%20$\).md)   
+ [FA Depreciation Book](../Topic/\($%20T_5612%20FA%20Depreciation%20Book%20$\).md)   
+ [Depreciation Group](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-t_12476-depreciation-group-$-.md)   
+ [Tax Register Setup](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-t_17236-tax-register-setup-$-.md)

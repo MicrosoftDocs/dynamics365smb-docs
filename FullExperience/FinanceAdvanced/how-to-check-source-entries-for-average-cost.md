@@ -30,5 +30,5 @@ If you want to find out why a particular item has a particular average cost, you
   
 ## See Also  
  [Average Cost](../Finance/average-cost.md)   
- [\($ N\_5847 Average Cost Calc. Overview $\)](../Finance/-$-n_5847-average-cost-calc.-overview-$-.md)   
+ [Average Cost Calc. Overview](../Finance/-$-n_5847-average-cost-calc.-overview-$-.md)   
  [Design Details: Inventory Costing](../ApplicationDesign/design-details-inventory-costing.md)

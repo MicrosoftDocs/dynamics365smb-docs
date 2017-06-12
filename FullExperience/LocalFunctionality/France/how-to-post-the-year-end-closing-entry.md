@@ -17,11 +17,11 @@ translation.priority.ht:
   - "fr-fr"
 ---
 # How to: Post the Year-End Closing Entry
-After you use the **\($ B\_94 Close Income Statement $\)** batch job to generate the year\-end closing entry or entries, you must open the journal you specified in the batch job, and then review and post the entries.  
+After you use the **Close Income Statement** batch job to generate the year\-end closing entry or entries, you must open the journal you specified in the batch job, and then review and post the entries.  
   
 ### To post the year\-end closing entry  
   
-1.  In the **Search** box, enter **\($ N\_39 General Journal $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **General Journal**, and then choose the related link.  
   
 2.  Review the entries.  
   
@@ -37,4 +37,4 @@ After you use the **\($ B\_94 Close Income Statement $\)** batch job to generate
  [Year End Processes Overview](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/year-end-processes-overview.md)   
  [How to: Close Years](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-close-years.md)   
  [How to: Fiscally Close Years](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-fiscally-close-years.md)   
- [\($ B\_94 Close Income Statement $\)](../../Finance/-$-b_94-close-income-statement-$-.md)
+ [Close Income Statement](../../Finance/-$-b_94-close-income-statement-$-.md)

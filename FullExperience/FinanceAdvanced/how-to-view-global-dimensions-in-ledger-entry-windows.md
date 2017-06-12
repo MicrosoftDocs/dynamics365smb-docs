@@ -44,7 +44,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: View Global Dimensions in Ledger Entry Windows
-Note that global dimensions are always company\-defined and company\-named. To see the global dimensions for your company, open the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**[\($ N\_118 General Ledger Setup $\)](DynamicsNAV:////runpage?Page=118)** window.  
+Note that global dimensions are always company\-defined and company\-named. To see the global dimensions for your company, open the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**[General Ledger Setup](DynamicsNAV:////runpage?Page=118)** window.  
   
  In a ledger entry window, you can see whether there are global dimensions for the entries. The two global dimensions differ from the rest of your dimensions because you can use them as filters anywhere in [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)].  
   
@@ -52,7 +52,7 @@ Note that global dimensions are always company\-defined and company\-named. To s
   
 1.  In the **Search** box, enter **Chart of Accounts**, and then choose the related link.  
   
-2.  In the **\($ N\_16 Chart of Accounts $\)** window, on the **Navigate** tab, in the **Account** group, choose **Ledger Entries**.  
+2.  In the **Chart of Accounts** window, on the **Navigate** tab, in the **Account** group, choose **Ledger Entries**.  
   
 3.  To see only the entries that are relevant, set one or more filters on the window.  
   
@@ -68,4 +68,4 @@ Note that global dimensions are always company\-defined and company\-named. To s
   
 ## See Also  
  [How to: Set Up Global Dimensions](../Finance/how-to-set-up-global-dimensions.md)   
- [\($ T\_348 Dimension $\)](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)
+ [Dimension](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)

@@ -26,13 +26,13 @@ You can import payroll transactions into a general journal from two external pay
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_15000200\_10 Payroll System $\)**|Select a payroll system.|  
-    |**\($ T\_15000200\_11 File Name $\)**|Enter the full path of the file.|  
-    |**\($ T\_15000200\_14 Save Payroll File $\)**|Select to save the payroll file.|  
-    |**\($ T\_15000200\_13 Import Department and Project $\)**|Select to import department and project information.|  
-    |**\($ T\_15000200\_20 Journal Template Name $\)**|Select the name of the journal template.|  
-    |**\($ T\_15000200\_21 Journal Name $\)**|Select a journal to receive the imported payroll transactions.|  
-    |**\($ T\_15000200\_30 Post to $\)**|Select the account type to post the payroll transactions to. Account types include **G\/L Account** and **Bank Account**.|  
+    |**Payroll System**|Select a payroll system.|  
+    |**File Name**|Enter the full path of the file.|  
+    |**Save Payroll File**|Select to save the payroll file.|  
+    |**Import Department and Project**|Select to import department and project information.|  
+    |**Journal Template Name**|Select the name of the journal template.|  
+    |**Journal Name**|Select a journal to receive the imported payroll transactions.|  
+    |**Post to**|Select the account type to post the payroll transactions to. Account types include **G\/L Account** and **Bank Account**.|  
   
 3.  Choose the **OK** button.  
   
@@ -54,7 +54,7 @@ You can import payroll transactions into a general journal from two external pay
   
 ## See Also  
  [Norway Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/norway-local-functionality.md)   
- [\($ N\_39 General Journal $\)](assetId:///a60a346f-f336-47bb-b046-55a1595e1555)   
- [\($ N\_15000200 Payroll Integration Setup $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/-$-n_15000200-payroll-integration-setup-$-.md)   
- [\($ B\_15000067 Import Hogia Windows Payroll $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/-$-b_15000067-import-hogia-windows-payroll-$-.md)   
- [\($ B\_15000066 Import Huldt & Lillevik $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/-$-b_15000066-import-huldt-lillevik-$-.md)
+ [General Journal](assetId:///a60a346f-f336-47bb-b046-55a1595e1555)   
+ [Payroll Integration Setup](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/-$-n_15000200-payroll-integration-setup-$-.md)   
+ [Import Hogia Windows Payroll](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/-$-b_15000067-import-hogia-windows-payroll-$-.md)   
+ [Import Huldt & Lillevik](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/-$-b_15000066-import-huldt-lillevik-$-.md)

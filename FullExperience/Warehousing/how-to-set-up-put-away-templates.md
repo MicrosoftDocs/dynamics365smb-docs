@@ -65,5 +65,5 @@ With directed put\-away and pick functionality, the most appropriate bin for you
  You can create various put\-away templates and then apply them as you see fit. The put\-away template that you selected for the item or stockkeeping unit, if any is used first. If these fields are not filled in, the put\-away template that you selected for the warehouse on the FastTab **Bin Policies** on the location card is used.  
   
 ## See Also  
- [\($ N\_7312 Put\-away Template $\)](../Topic/\($%20N_7312%20Put-away%20Template%20$\).md)   
+ [Put\-away Template](../Topic/\($%20N_7312%20Put-away%20Template%20$\).md)   
  [Put Items Away](../WarehouseActivities/put-items-away.md)

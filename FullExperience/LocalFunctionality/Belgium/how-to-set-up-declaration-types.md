@@ -31,7 +31,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], there are 
   
 1.  In the **Search** box, enter **General Ledger Setup**, and then choose the related link.  
   
-2.  On the **General** FastTab, select the **\($ T\_98\_11320 Simplified Intrastat Decl. $\)** check box to set up a simplified declaration type. Clear this field to use extended declaration.  
+2.  On the **General** FastTab, select the **Simplified Intrastat Decl.** check box to set up a simplified declaration type. Clear this field to use extended declaration.  
   
 3.  Choose the **OK** button.  
   

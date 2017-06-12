@@ -51,7 +51,7 @@ Different account types, such as a customer account and an item account, can hav
   
 1.  In the **Search** box, enter **Default Dimension Priorities**, and then choose the related link.  
   
-2.  In the **\($ N\_543 Default Dimension Priorities $\)** window, in the **Source Code** field, enter the source code for the entry table to which default dimension priorities will apply.  
+2.  In the **Default Dimension Priorities** window, in the **Source Code** field, enter the source code for the entry table to which default dimension priorities will apply.  
   
 3.  Fill in a line for each default dimension priority that you want for the selected source code. For Help about a specific field, choose the field and press F1.  
   
@@ -62,5 +62,5 @@ Different account types, such as a customer account and an item account, can hav
   
 ## See Also  
  [How to: Set Up Default Dimensions for One Account](../Finance/how-to-set-up-default-dimensions-for-one-account.md)   
- [\($ T\_352 Default Dimension $\)](assetId:///bd021a4a-f67d-44ca-9e6a-4b54cf91e710)   
- [\($ T\_348 Dimension $\)](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)
+ [Default Dimension](assetId:///bd021a4a-f67d-44ca-9e6a-4b54cf91e710)   
+ [Dimension](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)

@@ -31,11 +31,11 @@ IBS log lines that have a process status of **Processed** can be archived. IBS l
 4.  Choose the **Yes** button.  
   
     > [!NOTE]  
-    >  The **\($ T\_2000010\_21 Process Status $\)** field for the line will now be **Archived**. You can delete a record with a status of **Archived**.  
+    >  The **Process Status** field for the line will now be **Archived**. You can delete a record with a status of **Archived**.  
   
 ## See Also  
- [\($ N\_2000012 IBS Download Request Options $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/-$-n_2000012-ibs-download-request-options-$-.md)   
- [\($ N\_2000010 IBS Logs $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/-$-n_2000010-ibs-logs-$-.md)   
- [\($ T\_2000010 IBS Log $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/-$-t_2000010-ibs-log-$-.md)   
- [\($ N\_2000011 IBS Account Conflicts $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/-$-n_2000011-ibs-account-conflicts-$-.md)   
- [\($ T\_2000013 IBS Account Conflict $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/-$-t_2000013-ibs-account-conflict-$-.md)
+ [IBS Download Request Options](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/-$-n_2000012-ibs-download-request-options-$-.md)   
+ [IBS Logs](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/-$-n_2000010-ibs-logs-$-.md)   
+ [IBS Log](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/-$-t_2000010-ibs-log-$-.md)   
+ [IBS Account Conflicts](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/-$-n_2000011-ibs-account-conflicts-$-.md)   
+ [IBS Account Conflict](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/-$-t_2000013-ibs-account-conflict-$-.md)

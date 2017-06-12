@@ -50,7 +50,7 @@ In a budget with dimensions, you can filter the entries and see specific budgets
   
 1.  In the **Search** box, enter **G\/L Budgets**, and then choose the related link.  
   
-2.  In the **\($ N\_121 G\/L Budgets $\)** window, open the budget that you want to view.  
+2.  In the **G\/L Budgets** window, open the budget that you want to view.  
   
 3.  On each FastTab, fill in the relevant fields. On the **Filters** FastTab, fill in at least one filter field.  
   
@@ -70,5 +70,5 @@ In a budget with dimensions, you can filter the entries and see specific budgets
   
 ## See Also  
  [How to: Set Up New Budgets](../Finance/how-to-set-up-new-budgets.md)   
- [\($ T\_348 Dimension $\)](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)   
- [\($ B\_96 Copy G\-L Budget $\)](../Topic/\($%20B_96%20Copy%20G-L%20Budget%20$\).md)
+ [Dimension](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)   
+ [Copy G\-L Budget](../Topic/\($%20B_96%20Copy%20G-L%20Budget%20$\).md)

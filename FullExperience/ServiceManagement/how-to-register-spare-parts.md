@@ -44,7 +44,7 @@ When working on service items in service orders, you may need to use spare parts
   
 ### To register spare parts  
   
-1.  In the **Search** box, enter **\($ N\_5915 Service Tasks $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Service Tasks**, and then choose the related link.  
   
 2.  Select the line that includes the relevant service item. On the **Navigate** tab, in the **Service Tasks** group, choose **Item Worksheet**.  
   

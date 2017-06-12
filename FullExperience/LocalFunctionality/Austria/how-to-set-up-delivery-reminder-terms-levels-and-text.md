@@ -53,7 +53,7 @@ To create delivery reminders, you must set up the following:
   
 ### To add delivery reminder levels to a delivery reminder term  
   
-1.  In the **\($ N\_5005279 Delivery Reminder Terms $\)** window, select the delivery reminder term for which you want to set up levels, and then, on the **Actions** tab, choose **Levels**.  
+1.  In the **Delivery Reminder Terms** window, select the delivery reminder term for which you want to set up levels, and then, on the **Actions** tab, choose **Levels**.  
   
 2.  On the **Home** tab, choose **New**.  
   
@@ -64,7 +64,7 @@ To create delivery reminders, you must set up the following:
     |**No.**|The delivery reminder level number. This field is filled in automatically.|  
     |**Due Date Calculation**|The formula for the due date calculation for the delivery reminder. You can enter a combination of numbers from 0 to 9999, and date codes \(D for day, WD for weekday, W for week, M for month, Q for quarter, or Y for year\). The date codes denote the calculation for the delivery reminder due date. You can enter a maximum of 20 characters for the due date calculation formula.|  
   
-     For more information, see [\($ T\_5005277 Delivery Reminder Level $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/-$-t_5005277-delivery-reminder-level-$-.md).  
+     For more information, see [Delivery Reminder Level](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/-$-t_5005277-delivery-reminder-level-$-.md).  
   
 4.  Choose the **OK** button.  
   
@@ -74,13 +74,13 @@ To create delivery reminders, you must set up the following:
   
 ### To set up delivery reminder text messages  
   
-1.  In the **\($ N\_5005281 Delivery Reminder Levels $\)** window, select a level, and then, on the **Navigate** tab, in the **Level** group, choose **Beginning Text**.  
+1.  In the **Delivery Reminder Levels** window, select a level, and then, on the **Navigate** tab, in the **Level** group, choose **Beginning Text**.  
   
 2.  On the **Home** tab, choose **New**.  
   
 3.  In the **Description** field, enter the beginning text message for the delivery reminder.  
   
-     For more information, see [\($ T\_5005278 Delivery Reminder Text $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/-$-t_5005278-delivery-reminder-text-$-.md).  
+     For more information, see [Delivery Reminder Text](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/-$-t_5005278-delivery-reminder-text-$-.md).  
   
 4.  Choose the **OK** button.  
   
@@ -90,6 +90,6 @@ To create delivery reminders, you must set up the following:
  [How to: Assign Delivery Reminder Codes to Vendors](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-assign-delivery-reminder-codes-to-vendors.md)   
  [How to: Create Delivery Reminders Manually](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-create-delivery-reminders-manually.md)   
  [How to: Issue Delivery Reminders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-issue-delivery-reminders.md)   
- [\($ T\_5005276 Delivery Reminder Term $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/-$-t_5005276-delivery-reminder-term-$-.md)   
- [\($ T\_5005277 Delivery Reminder Level $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/-$-t_5005277-delivery-reminder-level-$-.md)   
- [\($ T\_5005278 Delivery Reminder Text $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/-$-t_5005278-delivery-reminder-text-$-.md)
+ [Delivery Reminder Term](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/-$-t_5005276-delivery-reminder-term-$-.md)   
+ [Delivery Reminder Level](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/-$-t_5005277-delivery-reminder-level-$-.md)   
+ [Delivery Reminder Text](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/-$-t_5005278-delivery-reminder-text-$-.md)

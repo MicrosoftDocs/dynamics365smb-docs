@@ -48,7 +48,7 @@ When printing Norwegian sales documents, you can set up different tray numbers a
   
  When you use tray numbers and paper sources for Norwegian sales documents, you must consider how the printer and printer driver interpret this information. Not all printers and drivers use this numbering or naming system. You may have to specify other tray numbers for your specific printer.  
   
- If the printer supports other tray numbers, you can enter these numbers in the **\($ T\_78\_10601 First Page \- Tray Number $\)**, **\($ T\_78\_10603 Other Pages \- Tray Number $\)**, and **\($ T\_78\_10605 Giro Page \- Tray Number $\)** fields in the **\($ T\_78 Printer Selection $\)** table.  
+ If the printer supports other tray numbers, you can enter these numbers in the **First Page \- Tray Number**, **Other Pages \- Tray Number**, and **Giro Page \- Tray Number** fields in the **Printer Selection** table.  
   
 ## See Also  
  [Norwegian Sales Documents](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/norwegian-sales-documents.md)   

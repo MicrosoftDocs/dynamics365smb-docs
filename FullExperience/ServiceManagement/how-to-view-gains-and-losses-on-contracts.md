@@ -45,11 +45,11 @@ A contract gain or loss entry is generated whenever a contract quote is converte
   
 |**Window**|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
 |----------------|---------------------------------------|  
-|**\($ N\_6071 Contract Gain\/Loss \(Contracts\) $\)**|To view the contract gain\/loss by service contract.|  
-|**\($ N\_6066 Contract Gain\/Loss \(Groups\) $\)**|To view the contract gain\/loss by service contract group.|  
-|**\($ N\_6067 Contract Gain\/Loss \(Customers\) $\)**|To view the contract gain\/loss by customer.|  
-|**\($ N\_6068 Contract Gain\/Loss \(Reasons\) $\)**|To view the contract gain\/loss by reason code.|  
-|**\($ N\_6069 Contract Gain\/Loss \(Resp.Ctr\) $\)**|To view the contract gain\/loss by responsibility center.|  
+|**Contract Gain\/Loss \(Contracts\)**|To view the contract gain\/loss by service contract.|  
+|**Contract Gain\/Loss \(Groups\)**|To view the contract gain\/loss by service contract group.|  
+|**Contract Gain\/Loss \(Customers\)**|To view the contract gain\/loss by customer.|  
+|**Contract Gain\/Loss \(Reasons\)**|To view the contract gain\/loss by reason code.|  
+|**Contract Gain\/Loss \(Resp.Ctr\)**|To view the contract gain\/loss by responsibility center.|  
   
 ### To view contract gain\/loss  
   

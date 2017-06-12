@@ -27,7 +27,7 @@ After you have applied and processed all CODA statement lines, you can manually 
   
 2.  Select the journal, and then choose the **OK** button.  
   
-3.  Enter the **\($ N\_11300\_92 Statement Ending Balance $\)** field.  
+3.  Enter the **Statement Ending Balance** field.  
   
 4.  Manually enter each line of the statement.  
   

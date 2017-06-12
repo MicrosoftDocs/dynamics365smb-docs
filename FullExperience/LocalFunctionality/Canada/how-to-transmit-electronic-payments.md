@@ -19,7 +19,7 @@ translation.priority.ht:
   - "fr-ca"
 ---
 # How to: Transmit Electronic Payments
-After you have exported payment journal entries to a file using the [\($ R\_10083 Export Electronic Payments $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-r_10083-export-electronic-payments-$-.md) report, you can use the [\($ B\_10084 Void\-Transmit Elec. Payments $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-b_10084-void-transmit-elec.-payments-$-.md) process to transmit the electronic payments file to your bank for processing.  
+After you have exported payment journal entries to a file using the [Export Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-r_10083-export-electronic-payments-$-.md) report, you can use the [Void\-Transmit Elec. Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-b_10084-void-transmit-elec.-payments-$-.md) process to transmit the electronic payments file to your bank for processing.  
   
 ### To transmit payments  
   
@@ -27,12 +27,12 @@ After you have exported payment journal entries to a file using the [\($ R\_1008
   
 2.  On the **Navigate** FastTab, choose **Electronic Payments**, and then choose **Transmit** or **Void**.  
   
-3.  In the **\($ B\_10084 Void\/Transmit Elec. Payments $\)** window, on the **Options** FastTab, fill in the fields as described in the following table.  
+3.  In the **Void\/Transmit Elec. Payments** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ B\_10084\_N\_2\_1 Bank Account No. $\)**|Select the bank account for the electronic payment operation.|  
-    |**\($ B\_10084\_N\_2\_3 E\-Pay Operation $\)**|Specifies if you want to transmit or void the electronic payment file. The **Transmit** option produces an electronic payment file to be transmitted to your bank for processing. The **Void** option voids the exported file. Confirm that the correct selection has been made before you process the electronic payment file.|  
+    |**Bank Account No.**|Select the bank account for the electronic payment operation.|  
+    |**E\-Pay Operation**|Specifies if you want to transmit or void the electronic payment file. The **Transmit** option produces an electronic payment file to be transmitted to your bank for processing. The **Void** option voids the exported file. Confirm that the correct selection has been made before you process the electronic payment file.|  
   
 4.  To transmit the payments, choose the **OK** button.  
   
@@ -45,7 +45,7 @@ After you have exported payment journal entries to a file using the [\($ R\_1008
  [Electronic Payments for United States, Canada, and Mexico](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/electronic-payments-for-united-states-canada-and-mexico.md)   
  [How to: Set Up Electronic Payments for Bank Accounts](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-set-up-electronic-payments-for-bank-accounts.md)   
  [How to: Void Posted Checks](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-void-posted-checks.md)   
- [\($ R\_10083 Export Electronic Payments $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-r_10083-export-electronic-payments-$-.md)   
- [\($ B\_10084 Void\-Transmit Elec. Payments $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-b_10084-void-transmit-elec.-payments-$-.md)   
+ [Export Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-r_10083-export-electronic-payments-$-.md)   
+ [Void\-Transmit Elec. Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-b_10084-void-transmit-elec.-payments-$-.md)   
  [How to: Export Electronic Payments\-duplicate](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-export-electronic-payments-duplicate.md)   
  [How to: Generate Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-generate-electronic-payments.md)

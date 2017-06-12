@@ -25,7 +25,7 @@ The Russian federal tax authorities require companies to submit statutory report
   
 ### To set up general information about statutory reports  
   
-1.  In the **Search** box, enter **\($ N\_26581 Statutory Report Setup $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Statutory Report Setup**, and then choose the related link.  
   
 2.  On the **General** FastTab, fill in the fields to describe XML formatting, file locations, and so on.  
   
@@ -35,7 +35,7 @@ The Russian federal tax authorities require companies to submit statutory report
   
 ### To set up statutory report groups  
   
-1.  In the **Search** box, enter **\($ N\_26551 Statutory Report Groups $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Statutory Report Groups**, and then choose the related link.  
   
 2.  On the **Home** tab, choose **New**. In the **Code** field, enter a code for the group, and in the **Description** field, enter a description of the purpose of the group.  
   
@@ -43,7 +43,7 @@ The Russian federal tax authorities require companies to submit statutory report
   
 ### To set up report versions  
   
-1.  In the **Search** box, enter **\($ N\_26586 Format Versions $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Format Versions**, and then choose the related link.  
   
 2.  Fill in the fields to describe the format version of the statutory report.  
   
@@ -58,17 +58,17 @@ The Russian federal tax authorities require companies to submit statutory report
   
 #### To define a statutory report  
   
-1.  In the **Search** box, enter **\($ N\_26550 Statutory Reports $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Statutory Reports**, and then choose the related link.  
   
-2.  Optionally, you can create one or more rows that group a range of statutory reports, such as reports for VAT reporting or reports for property tax. To specify a row as an internal grouping, enter information in the **\($ T\_26550\_1 Code $\)** and **\($ T\_26550\_2 Description $\)** fields, and the select the **\($ T\_26550\_25 Header $\)** check box. Leave the other fields blank.  
+2.  Optionally, you can create one or more rows that group a range of statutory reports, such as reports for VAT reporting or reports for property tax. To specify a row as an internal grouping, enter information in the **Code** and **Description** fields, and the select the **Header** check box. Leave the other fields blank.  
   
 3.  To specify a row as a statutory report, create a new entry and fill in the fields to describe the statutory report.  
   
-     For each statutory report, in the **\($ T\_26550\_6 Format Version Code $\)** field, you can specify the current version to use for this kind of report.  
+     For each statutory report, in the **Format Version Code** field, you can specify the current version to use for this kind of report.  
   
 4.  For each statutory report, choose **Navigate**, and in the **Setup** group, choose **Tables**.  
   
-    1.  In the **\($ N\_26552 Statutory Report Tables $\)** window, fill in the fields to describe each table that must be created in the Microsoft Excel workbook. This includes specifying the name of the worksheet.  
+    1.  In the **Statutory Report Tables** window, fill in the fields to describe each table that must be created in the Microsoft Excel workbook. This includes specifying the name of the worksheet.  
   
          For example, a statutory report can require that you submit a Microsoft Excel workbook with a separate table for each section of the report.  
   
@@ -78,17 +78,17 @@ The Russian federal tax authorities require companies to submit statutory report
   
 5.  For each statutory report, choose **Navigate**, and in the **Setup** group, choose **XML Element Lines**.  
   
-    -   In the **\($ N\_26587 XML Element Lines $\)** window, fill in the fields to describe the XML structure of the file that you will export. You can use expressions to calculate values, or you can use table data directly.  
+    -   In the **XML Element Lines** window, fill in the fields to describe the XML structure of the file that you will export. You can use expressions to calculate values, or you can use table data directly.  
   
-         You can link each XML element line to a table that you defined in the **\($ N\_26552 Statutory Report Tables $\)** window for that statutory report.  
+         You can link each XML element line to a table that you defined in the **Statutory Report Tables** window for that statutory report.  
   
 6.  Optionally, if you want to define a statutory report that resembles an existing report, you can copy the existing report.  
   
-    1.  In the **\($ N\_26550 Statutory Reports $\)** window, create an entry by entering a code in the **\($ T\_26550\_1 Code $\)** field.  
+    1.  In the **Statutory Reports** window, create an entry by entering a code in the **Code** field.  
   
     2.  Choose **Navigate**, and in the **Setup** group, choose **Copy Report**.  
   
-    3.  In the **\($ N\_26572 Copy Statutory Report $\)** window, in the **\($ N\_26572\_1210001 Copy From Report Code $\)** field, select the existing report, and then choose the **OK** button.  
+    3.  In the **Copy Statutory Report** window, in the **Copy From Report Code** field, select the existing report, and then choose the **OK** button.  
   
          This creates a copy of the existing report with the tables and XML element lines. Now, you can make the appropriate changes as described earlier in this section.  
   

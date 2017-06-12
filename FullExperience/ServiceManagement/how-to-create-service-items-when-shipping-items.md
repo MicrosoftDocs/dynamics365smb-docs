@@ -61,9 +61,9 @@ When you ship items by posting either service orders or service invoices, the sh
 >  If an item is a BOM and you have not exploded the BOM, a service item is created for it based on the service item group condition and, optionally, the serial numbers condition.  
   
 ## See Also  
- [\($ T\_90\_5901 Installed in Item No. $\)](../Topic/\($%20T_90_5901%20Installed%20in%20Item%20No.%20$\).md)   
- [\($ T\_5940 Service Item $\)](../Topic/\($%20T_5940%20Service%20Item%20$\).md)   
- [\($ N\_6510 Item Tracking Lines $\)](../Topic/\($%20N_6510%20Item%20Tracking%20Lines%20$\).md)   
+ [Installed in Item No.](../Topic/\($%20T_90_5901%20Installed%20in%20Item%20No.%20$\).md)   
+ [Service Item](../Topic/\($%20T_5940%20Service%20Item%20$\).md)   
+ [Item Tracking Lines](../Topic/\($%20N_6510%20Item%20Tracking%20Lines%20$\).md)   
  [How to: Create Service Items](../Service/how-to-create-service-items.md)   
  [How to: Set Up Service Item Groups](../Service/how-to-set-up-service-item-groups.md)   
  [How to: Set Up Service Item Components](../Service/how-to-set-up-service-item-components.md)   

@@ -19,7 +19,7 @@ translation.priority.ht:
   - "fr-ca"
 ---
 # How to: Set Up Account Schedules
-You can use account schedules to arrange and organize accounts in the chart of accounts. For more information, see the [\($ T\_84 Acc. Schedule Name $\)](assetId:///ac8560bd-fc36-4b36-aee6-25fa337de643) table.  
+You can use account schedules to arrange and organize accounts in the chart of accounts. For more information, see the [Acc. Schedule Name](assetId:///ac8560bd-fc36-4b36-aee6-25fa337de643) table.  
   
 ### To set up account schedules  
   
@@ -34,7 +34,7 @@ You can use account schedules to arrange and organize accounts in the chart of a
     |**Name**|The name of the account schedule. You can enter a maximum of 20 alphanumeric characters.|  
     |**Description**|The description of the account schedule.|  
     |**Default Column Layout**|The default column layout name for the account schedule.|  
-    |**Analysis View Name**|The name of the analysis view on which to base the account schedule. For more information, see the [\($ T\_363 Analysis View $\)](assetId:///2aa2404a-fe33-4c85-bb9c-35b93d8393ab) table.|  
+    |**Analysis View Name**|The name of the analysis view on which to base the account schedule. For more information, see the [Analysis View](assetId:///2aa2404a-fe33-4c85-bb9c-35b93d8393ab) table.|  
   
 4.  Select the required **CASH FLOW** account schedule to create cash flow statements, and then, on the **Home** tab, choose **Edit Account Schedule**.  
   
@@ -62,6 +62,6 @@ You can use account schedules to arrange and organize accounts in the chart of a
 9. Choose the **OK** button.  
   
 ## See Also  
- [\($ N\_489 Account Schedule Column Layout $\)](assetId:///daf2a77a-acf4-4b5c-b561-3e32f1860913)   
- [\($ R\_25 Account Schedule $\)\-duplicate](../Topic/\($%20R_25%20Account%20Schedule%20$\)-duplicate.md)   
- [\($ R\_10000 Account Schedule Layout $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-r_10000-account-schedule-layout-$-.md)
+ [Account Schedule Column Layout](assetId:///daf2a77a-acf4-4b5c-b561-3e32f1860913)   
+ [Account Schedule\-duplicate](../Topic/\($%20R_25%20Account%20Schedule%20$\)-duplicate.md)   
+ [Account Schedule Layout](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-r_10000-account-schedule-layout-$-.md)

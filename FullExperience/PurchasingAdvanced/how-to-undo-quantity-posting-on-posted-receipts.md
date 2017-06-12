@@ -60,5 +60,5 @@ If you have made an incorrect quantity posting, that is, if you have made a purc
   
 ## See Also  
  [How to: Undo Quantity Posting on Posted Return Receipts](../Sales/how-to-undo-quantity-posting-on-posted-return-receipts.md)   
- [\($ T\_39\_58 Qty. Rcd. Not Invoiced $\)](../Topic/\($%20T_39_58%20Qty.%20Rcd.%20Not%20Invoiced%20$\).md)   
- [\($ T\_39\_60 Quantity Received $\)](../Topic/\($%20T_39_60%20Quantity%20Received%20$\).md)
+ [Qty. Rcd. Not Invoiced](../Topic/\($%20T_39_58%20Qty.%20Rcd.%20Not%20Invoiced%20$\).md)   
+ [Quantity Received](../Topic/\($%20T_39_60%20Quantity%20Received%20$\).md)

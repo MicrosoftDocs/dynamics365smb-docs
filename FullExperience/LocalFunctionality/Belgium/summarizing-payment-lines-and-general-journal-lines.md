@@ -32,34 +32,34 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can po
   
  The following two fields in the **Electronic Banking Setup** window affect how the payment lines are summarized:  
   
--   **\($ T\_11306\_2 Summarize Gen. Jnl. Lines $\)**  
+-   **Summarize Gen. Jnl. Lines**  
   
--   **\($ T\_11306\_3 Cut off Payment Message Texts $\)**  
+-   **Cut off Payment Message Texts**  
   
- If you have selected the **\($ T\_11306\_2 Summarize Gen. Jnl. Lines $\)** check box in the **\($ N\_11308 Electronic Banking Setup $\)** window, [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] summarizes all payment journal lines for a specific vendor into one general journal line. The general description "Payment %1," where %1 is the vendor number, is used for the summarized journal line description. A separate payment line and a separate general journal line are created to handle:  
+ If you have selected the **Summarize Gen. Jnl. Lines** check box in the **Electronic Banking Setup** window, [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] summarizes all payment journal lines for a specific vendor into one general journal line. The general description "Payment %1," where %1 is the vendor number, is used for the summarized journal line description. A separate payment line and a separate general journal line are created to handle:  
   
--   Payment journal lines that contain partial payments, with both the **\($ T\_2000001\_65 Partial Payment $\)** and the **\($ T\_2000001\_66 Separate Line $\)** fields selected.  
+-   Payment journal lines that contain partial payments, with both the **Partial Payment** and the **Separate Line** fields selected.  
   
--   Payment journal lines that contain a standard format message \(that is, passes the MOD97 test\), which sets **\($ T\_2000001\_9 Standard Format Message $\)** to True in the electronic banking journal.  
+-   Payment journal lines that contain a standard format message \(that is, passes the MOD97 test\), which sets **Standard Format Message** to True in the electronic banking journal.  
   
 ## Examples  
   
 ### Example 1  
- In this example, you export payment lines, and the **\($ T\_11306\_2 Summarize Gen. Jnl. Lines $\)** check box is selected. [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] creates:  
+ In this example, you export payment lines, and the **Summarize Gen. Jnl. Lines** check box is selected. [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] creates:  
   
 -   One combined payment line in a XML file that has a concatenated payment message. White space is the delimiter.  
   
 -   One payment line in the general journal with a generic description that includes the vendor name.  
   
 ### Example 2  
- In this example, you export payment lines, and the **\($ T\_11306\_2 Summarize Gen. Jnl. Lines $\)** check box is selected. The **\($ T\_11306\_3 Cut off Payment Message Texts $\)** check box is cleared, and combined SEPA and non\-euro SEPA payment lines exceed 140 characters in payment message. [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] creates:  
+ In this example, you export payment lines, and the **Summarize Gen. Jnl. Lines** check box is selected. The **Cut off Payment Message Texts** check box is cleared, and combined SEPA and non\-euro SEPA payment lines exceed 140 characters in payment message. [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] creates:  
   
 -   Two combined payment lines in a XML file. The first payment line contains the first concatenated payment messages. The second payment line contains the payment message from the third line.  
   
 -   One payment line in the general journal with a generic description that includes the vendor name.  
   
 ### Example 3  
- In this example, you export payment lines, and the **\($ T\_11306\_2 Summarize Gen. Jnl. Lines $\)** check box is selected. The **\($ T\_11306\_3 Cut off Payment Message Texts $\)** check box is also selected and combined SEPA and non\-SEPA payment lines exceed 140 characters in payment message. [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] creates:  
+ In this example, you export payment lines, and the **Summarize Gen. Jnl. Lines** check box is selected. The **Cut off Payment Message Texts** check box is also selected and combined SEPA and non\-SEPA payment lines exceed 140 characters in payment message. [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] creates:  
   
 -   One combined payment line in a XML file that has two concatenated payment messages. An ellipsis \(…\) is used to indicate that the message is truncated.  
   
@@ -71,10 +71,10 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can po
   
 ## See Also  
  [How to: Set Up Electronic Banking](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-electronic-banking.md)   
- [\($ T\_11306\_2 Summarize Gen. Jnl. Lines $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/-$-t_11306_2-summarize-gen.-jnl.-lines-$-.md)   
- [\($ T\_11306\_3 Cut off Payment Message Texts $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/-$-t_11306_3-cut-off-payment-message-texts-$-.md)   
- [\($ N\_16 Chart of Accounts $\)](assetId:///fa407624-b670-44b6-8397-91aa606e4c39)   
+ [Summarize Gen. Jnl. Lines](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/-$-t_11306_2-summarize-gen.-jnl.-lines-$-.md)   
+ [Cut off Payment Message Texts](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/-$-t_11306_3-cut-off-payment-message-texts-$-.md)   
+ [Chart of Accounts](assetId:///fa407624-b670-44b6-8397-91aa606e4c39)   
  [How to: Set Up General Ledger Accounts in the Chart of Accounts Window](../../Finance/how-to-set-up-general-ledger-accounts-in-the-chart-of-accounts-window.md)   
- [\($ N\_51 Purchase Invoice $\)](../Topic/\($%20N_51%20Purchase%20Invoice%20$\).md)   
+ [Purchase Invoice](../Topic/\($%20N_51%20Purchase%20Invoice%20$\).md)   
  [How to: Post Purchase Invoices](../../Finance/how-to-post-purchase-invoices.md)   
- [\($ N\_43 Sales Invoice $\)](../Topic/\($%20N_43%20Sales%20Invoice%20$\).md)
+ [Sales Invoice](../Topic/\($%20N_43%20Sales%20Invoice%20$\).md)

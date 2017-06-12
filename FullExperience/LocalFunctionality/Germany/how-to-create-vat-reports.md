@@ -13,7 +13,7 @@ translation.priority.ht:
   - "de-de"
 ---
 # How to: Create VAT Reports
-You can configure different types of VAT reports based on requirements. Then, when you have to submit a VAT report, you can create it in the **\($ N\_740 VAT Report $\)** window and then export it in electronic format that conforms to the ELMA5 format requirements.  
+You can configure different types of VAT reports based on requirements. Then, when you have to submit a VAT report, you can create it in the **VAT Report** window and then export it in electronic format that conforms to the ELMA5 format requirements.  
   
 ### To create a VAT report  
   
@@ -23,25 +23,25 @@ You can configure different types of VAT reports based on requirements. Then, wh
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_740\_1 No. $\)**|Specify the report number.<br /><br /> Depending on the type of report, and the configuration in your company, you can use the automatically generated number, select a different number series, or enter a different number manually.|  
-    |**\($ T\_740\_3 VAT Report Type $\)**|Select the appropriate VAT Report type. The default setting is  **Standard**. If the report is an update to an existing report, choose **Corrective**.|  
-    |**\($ T\_740\_28 Trade Type $\)**|Specify the type of trade that the report is to describe. The default is **Sales**. Other options are **Purchases** or **Both**.|  
-    |**\($ T\_740\_4 Start Date $\)**|Specify the start date of the report period.|  
-    |**\($ T\_740\_5 End Date $\)**|Specify the end date of the report period.|  
-    |**\($ T\_740\_29 EU Goods\/Services $\)**|Specify whether the report applies to **Goods**, **Services**, or both. The default is **Both**.|  
-    |**\($ T\_740\_10 Report Period Type $\)**|Specify the time period that the report applies to:<br /><br /> -   Month<br />-   Quarter<br />-   Year<br />-   Bi\-Monthly|  
-    |**\($ T\_740\_11 Report Period No. $\)**|Specify the number of the VAT period.|  
-    |**\($ T\_740\_12 Report Year $\)**|Specify the year that the VAT report covers.|  
-    |**\($ T\_740\_16 Processing Date $\)**|Specify the date that the VAT report is created.|  
+    |**No.**|Specify the report number.<br /><br /> Depending on the type of report, and the configuration in your company, you can use the automatically generated number, select a different number series, or enter a different number manually.|  
+    |**VAT Report Type**|Select the appropriate VAT Report type. The default setting is  **Standard**. If the report is an update to an existing report, choose **Corrective**.|  
+    |**Trade Type**|Specify the type of trade that the report is to describe. The default is **Sales**. Other options are **Purchases** or **Both**.|  
+    |**Start Date**|Specify the start date of the report period.|  
+    |**End Date**|Specify the end date of the report period.|  
+    |**EU Goods\/Services**|Specify whether the report applies to **Goods**, **Services**, or both. The default is **Both**.|  
+    |**Report Period Type**|Specify the time period that the report applies to:<br /><br /> -   Month<br />-   Quarter<br />-   Year<br />-   Bi\-Monthly|  
+    |**Report Period No.**|Specify the number of the VAT period.|  
+    |**Report Year**|Specify the year that the VAT report covers.|  
+    |**Processing Date**|Specify the date that the VAT report is created.|  
   
 3.  Fill in the fields in the **Sign\-off** FastTab, including the key fields that are described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_740\_51 Sign\-off Place $\)**|Specify the location where the VAT report was signed off.|  
-    |**\($ T\_740\_52 Sign\-off Date $\)**|Specify the date that the VAT report has been signed off.|  
-    |**\($ T\_740\_53 Signed by Employee No. $\)**|Specify the number of the employee who signed the VAT report from the lookup list.|  
-    |**\($ T\_740\_54 Created by Employee No. $\)**|Specify the number of the employee who created the VAT report from the lookup list.|  
+    |**Sign\-off Place**|Specify the location where the VAT report was signed off.|  
+    |**Sign\-off Date**|Specify the date that the VAT report has been signed off.|  
+    |**Signed by Employee No.**|Specify the number of the employee who signed the VAT report from the lookup list.|  
+    |**Created by Employee No.**|Specify the number of the employee who created the VAT report from the lookup list.|  
   
 4.  Import the VAT ledger entries that must be included in the VAT report.  
   
@@ -57,7 +57,7 @@ You can configure different types of VAT reports based on requirements. Then, wh
   
 2.  Confirm that you want to release the report.  
   
-     [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] validates that the VAT report is set up correctly. If the validation fails, the errors are shown in the **\($ N\_745 VAT Report Error Log $\)** window so that you can make the appropriate changes. For example, an error displays if you try to release a standard VAT report but you have not yet added any lines to the report.  
+     [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] validates that the VAT report is set up correctly. If the validation fails, the errors are shown in the **VAT Report Error Log** window so that you can make the appropriate changes. For example, an error displays if you try to release a standard VAT report but you have not yet added any lines to the report.  
   
      When you mark a VAT report as released, it becomes non\-editable. If you must change the report after marking it as released, you must first reopen it.  
   

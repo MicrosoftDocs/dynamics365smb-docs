@@ -47,11 +47,11 @@ To use ADCS, you must specify which warehouse locations use the technology.
   
 ### To set up a warehouse to use ADCS  
   
-1.  In the **Search** box, enter **\($ N\_15 Location List $\)**, and choose the related link.  
+1.  In the **Search** box, enter **Location List**, and choose the related link.  
   
-2.  Select a warehouse from the list for which you want to enable ADCS. On the **Home** tab, in the **Manage** group, choose **Edit**. The **\($ N\_5703 Location Card $\)** window opens.  
+2.  Select a warehouse from the list for which you want to enable ADCS. On the **Home** tab, in the **Manage** group, choose **Edit**. The **Location Card** window opens.  
   
-3.  Expand the **Warehouse** FastTab and select the **\($ T\_14\_7700 Use ADCS $\)** check box.  
+3.  Expand the **Warehouse** FastTab and select the **Use ADCS** check box.  
   
 ## See Also  
  [How to: Set Up Items to Use ADCS](../WarehouseActivities/how-to-set-up-items-to-use-adcs.md)   

@@ -48,29 +48,29 @@ This topic shows an example of how to define allocations by using the dynamic al
   
 1.  In the **Search** box, enter **Cost Allocations**, and then choose the related link.  
   
-2.  In the **\($ N\_1105 Cost Allocation $\)** window, on the **Home** tab, in the **New** group, choose **New**.  
+2.  In the **Cost Allocation** window, on the **Home** tab, in the **New** group, choose **New**.  
   
-3.  In the **\($ T\_1106\_1 ID $\)** field, press Enter or enter an ID.  
+3.  In the **ID** field, press Enter or enter an ID.  
   
-4.  In the **\($ T\_1106\_2 Level $\)** field, enter **1**.  
+4.  In the **Level** field, enter **1**.  
   
-5.  In the **\($ T\_1106\_3 Valid From $\)** and **\($ T\_1106\_4 Valid To $\)** fields, enter appropriate dates.  
+5.  In the **Valid From** and **Valid To** fields, enter appropriate dates.  
   
-6.  In the **\($ T\_1106\_6 Cost Center Code $\)** field, enter **SALES**.  
+6.  In the **Cost Center Code** field, enter **SALES**.  
   
-7.  In the **\($ T\_1106\_10 Credit to Cost Type $\)** field, enter the cost type **9903**.  
+7.  In the **Credit to Cost Type** field, enter the cost type **9903**.  
   
-8.  In the **\($ T\_1107\_5 Target Cost Type $\)** field, enter the cost type **9903**.  
+8.  In the **Target Cost Type** field, enter the cost type **9903**.  
   
-9. In the **\($ T\_1107\_7 Target Cost Object $\)** field, choose **New** to create a new cost object IT EQUIPMENT and fill in fields as necessary. Select **IT EQUIPMENT**. Leave the **\($ T\_1107\_6 Target Cost Center $\)** field blank.  
+9. In the **Target Cost Object** field, choose **New** to create a new cost object IT EQUIPMENT and fill in fields as necessary. Select **IT EQUIPMENT**. Leave the **Target Cost Center** field blank.  
   
-10. In the **\($ T\_1107\_38 Allocation Target Type $\)** field, select **All Costs** to define how all accumulated costs are allocated.  
+10. In the **Allocation Target Type** field, select **All Costs** to define how all accumulated costs are allocated.  
   
-11. In the **\($ T\_1107\_30 Base $\)** field, select the allocation base **Items Sold \(Amount\)**.  
+11. In the **Base** field, select the allocation base **Items Sold \(Amount\)**.  
   
-12. In the **\($ T\_1107\_31 No. Filter $\)** field, enter **8904\-W..8924\-W**.  
+12. In the **No. Filter** field, enter **8904\-W..8924\-W**.  
   
-13. In the **\($ T\_1107\_34 Date Filter Code $\)** field, enter **Last Year**.  
+13. In the **Date Filter Code** field, enter **Last Year**.  
   
 14. On the **Home** tab, in the **Process** group, choose **Calculate Allocation Key** to calculate the share.  
   
@@ -80,7 +80,7 @@ This topic shows an example of how to define allocations by using the dynamic al
 ## See Also  
  [Setting Filters for Dynamic Allocation Bases](../Finance/setting-filters-for-dynamic-allocation-bases.md)   
  [How to: Set Up Allocation Source and Targets](../Finance/how-to-set-up-allocation-source-and-targets.md)   
- [\($ B\_1131 Cost Allocation $\)](../Finance/-$-b_1131-cost-allocation-$-.md)   
+ [Cost Allocation](../Finance/-$-b_1131-cost-allocation-$-.md)   
  [Define and Allocate Costs](../Finance/define-and-allocate-costs.md)   
  [Terminology in Cost Accounting](../Finance/terminology-in-cost-accounting.md)   
  [About Cost Accounting](../Finance/about-cost-accounting.md)

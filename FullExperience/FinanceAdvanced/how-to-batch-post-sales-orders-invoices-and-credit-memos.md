@@ -54,6 +54,6 @@ If you have set up a large number of sales orders, invoices, or credit memos, it
 >  For example, if eight units have been shipped from an order of 25 units, then the eight units will be invoiced and an additional 12 units will be shipped.  
   
 ## See Also  
- [\($ B\_296 Batch Post Sales Orders $\)](../Topic/\($%20B_296%20Batch%20Post%20Sales%20Orders%20$\).md)   
- [\($ B\_297 Batch Post Sales Invoices $\)](../Topic/\($%20B_297%20Batch%20Post%20Sales%20Invoices%20$\).md)   
- [\($ B\_298 Batch Post Sales Credit Memos $\)](../Topic/\($%20B_298%20Batch%20Post%20Sales%20Credit%20Memos%20$\).md)
+ [Batch Post Sales Orders](../Topic/\($%20B_296%20Batch%20Post%20Sales%20Orders%20$\).md)   
+ [Batch Post Sales Invoices](../Topic/\($%20B_297%20Batch%20Post%20Sales%20Invoices%20$\).md)   
+ [Batch Post Sales Credit Memos](../Topic/\($%20B_298%20Batch%20Post%20Sales%20Credit%20Memos%20$\).md)

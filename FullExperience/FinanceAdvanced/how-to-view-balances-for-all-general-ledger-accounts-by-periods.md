@@ -58,4 +58,4 @@ You can view balances for all general ledger accounts for all periods.
 ## See Also  
  [How to: View Debit Balances and Credit Balances for All General Ledger Accounts](../Finance/how-to-view-debit-balances-and-credit-balances-for-all-general-ledger-accounts.md)   
  [How to: View Debit and Credit Balances for Single General Ledger Accounts](../Finance/how-to-view-debit-and-credit-balances-for-single-general-ledger-accounts.md)   
- [\($ N\_408 G\/L Balance by Dimension $\)](assetId:///37d753e1-fd65-4e06-b440-1c0e14b77366)
+ [G\/L Balance by Dimension](assetId:///37d753e1-fd65-4e06-b440-1c0e14b77366)

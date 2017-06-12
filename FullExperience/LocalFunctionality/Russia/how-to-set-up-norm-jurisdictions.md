@@ -19,36 +19,36 @@ translation.priority.ht:
   - "ru-ru"
 ---
 # How to: Set Up Norm Jurisdictions
-Norm jurisdictions are based on Russian tax laws that define a variety of tax rates. Norm jurisdictions are used to calculate taxable profits and losses in tax accounting. You can use the **\($ N\_17246 Norm Jurisdictions $\)** window to set up and define norm jurisdictions that can be used when you calculate tax differences.  
+Norm jurisdictions are based on Russian tax laws that define a variety of tax rates. Norm jurisdictions are used to calculate taxable profits and losses in tax accounting. You can use the **Norm Jurisdictions** window to set up and define norm jurisdictions that can be used when you calculate tax differences.  
   
 ### To set up norm jurisdictions  
   
 1.  In the **Search** box, enter **Norm Jurisdictions**, and then choose the related link.  
   
-2.  Enter an identifying **\($ T\_17220\_1 Code $\)** and **\($ T\_17220\_2 Description $\)** for the norm jurisdiction that you want to set up.  
+2.  Enter an identifying **Code** and **Description** for the norm jurisdiction that you want to set up.  
   
-3.  On the **Process** tab, choose **Groups** to open the **\($ N\_17247 Norm Groups $\)** window.  
+3.  On the **Process** tab, choose **Groups** to open the **Norm Groups** window.  
   
-4.  In the **\($ N\_17247 Norm Groups $\)** window, enter the following information.  
-  
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
-    |---------------------------------|---------------------------------------|  
-    |**\($ T\_17221\_2 Code $\)**|Enter a code to identify the norm group.|  
-    |**\($ T\_17221\_3 Description $\)**|Enter a description for the norm group.|  
-    |**\($ T\_17221\_4 Has Details $\)**|Specifies if calculation details are defined for the norm group.|  
-    |**\($ T\_17221\_5 Search Detail $\)**|Select the method that you use for norm jurisdiction search. The options include **To Date** and **As of Date.**|  
-    |**\($ T\_17221\_6 Storing Method $\)**|Select **Calculation** if the norm jurisdiction is calculated with a specific formula. Leave this field blank if the norm is a constant value.|  
-  
-5.  On the **Process** tab, choose **Details** to open the **\($ N\_17248 Norm Details $\)** window. In this window, you will define a constant tax rate for the norm.  
-  
-6.  In the **\($ N\_17248 Norm Details $\)** window, enter the following information.  
+4.  In the **Norm Groups** window, enter the following information.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_17222\_4 Effective Date $\)**|Enter an effective date for the norm.|  
-    |**\($ T\_17222\_6 Norm $\)**|Enter a value for the norm. This value is used to calculate tax differences.|  
+    |**Code**|Enter a code to identify the norm group.|  
+    |**Description**|Enter a description for the norm group.|  
+    |**Has Details**|Specifies if calculation details are defined for the norm group.|  
+    |**Search Detail**|Select the method that you use for norm jurisdiction search. The options include **To Date** and **As of Date.**|  
+    |**Storing Method**|Select **Calculation** if the norm jurisdiction is calculated with a specific formula. Leave this field blank if the norm is a constant value.|  
   
-7.  Choose the **Close** button to close the **\($ N\_17248 Norm Details $\)** window and save your entries.  
+5.  On the **Process** tab, choose **Details** to open the **Norm Details** window. In this window, you will define a constant tax rate for the norm.  
+  
+6.  In the **Norm Details** window, enter the following information.  
+  
+    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |---------------------------------|---------------------------------------|  
+    |**Effective Date**|Enter an effective date for the norm.|  
+    |**Norm**|Enter a value for the norm. This value is used to calculate tax differences.|  
+  
+7.  Choose the **Close** button to close the **Norm Details** window and save your entries.  
   
  The norm jurisdiction that you set up is now available for use in calculating tax differences.  
   

@@ -26,20 +26,20 @@ Tax accounting lets you apply rules for recognizing income and expenses that fol
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_17236\_2 Condition Dimension Code $\)**|Select a dimension code that describes the condition of the tax register.|  
-    |**\($ T\_17236\_3 Kind Dimension Code $\)**|Select a dimension code that describes the type of tax register.|  
+    |**Condition Dimension Code**|Select a dimension code that describes the condition of the tax register.|  
+    |**Kind Dimension Code**|Select a dimension code that describes the type of tax register.|  
   
 3.  Select the following fields to activate entries in the tax register.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_17236\_4 Create Acquis. FA Tax Ledger $\)**|Select to create fixed asset acquisition entries.|  
-    |**\($ T\_17236\_6 Create Reclass. FA Tax Ledger $\)**|Select to create fixed asset reclassification entries.|  
-    |**\($ T\_17236\_8 Create Acquis. FE Tax Ledger $\)**|Select to create future expense acquisition entries.|  
+    |**Create Acquis. FA Tax Ledger**|Select to create fixed asset acquisition entries.|  
+    |**Create Reclass. FA Tax Ledger**|Select to create fixed asset reclassification entries.|  
+    |**Create Acquis. FE Tax Ledger**|Select to create future expense acquisition entries.|  
   
-4.  Select the appropriate depreciation books in the **\($ T\_17236\_5 Tax Depreciation Book $\)** and **\($ T\_17236\_17200 Future Exp. Depreciation Book $\)** fields. The depreciation books that you select should not be integrated with the [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] finance module.  
+4.  Select the appropriate depreciation books in the **Tax Depreciation Book** and **Future Exp. Depreciation Book** fields. The depreciation books that you select should not be integrated with the [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] finance module.  
   
-5.  Select the **\($ T\_17236\_17227 Create Data for Printing Forms $\)** check box to enable detailed tax register entry information to be printed on reports and forms.  
+5.  Select the **Create Data for Printing Forms** check box to enable detailed tax register entry information to be printed on reports and forms.  
   
 6.  Choose the **Close** button to close the window and save your entries.  
   

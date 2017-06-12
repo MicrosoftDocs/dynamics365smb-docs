@@ -23,5 +23,5 @@ It is a legal requirement to send the tax authority a data file in a predefined 
  General ledger accounts are mapped to predefined government account codes and these codes are divided into groups and types. You need to add the relevant IRS numbers and then manually map general ledger accounts to these codes. You must also report the data to the tax authorities.  
   
 ## See Also  
- [\($ T\_10900 IRS Numbers $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Iceland/-$-t_10900-irs-numbers-$-.md)   
- [\($ R\_10913 IRS notification $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Iceland/-$-r_10913-irs-notification-$-.md)
+ [IRS Numbers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Iceland/-$-t_10900-irs-numbers-$-.md)   
+ [IRS notification](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Iceland/-$-r_10913-irs-notification-$-.md)

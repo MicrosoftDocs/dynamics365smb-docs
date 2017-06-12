@@ -28,10 +28,10 @@ Tax differences are variations in tax amounts caused by the different rules for 
   
 |Window|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
 |------------|---------------------------------------|  
-|[\($ T\_17301 Tax Diff. Posting Group $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-t_17301-tax-diff.-posting-group-$-.md)|Specifies posting groups for tax difference transactions.|  
-|[\($ T\_17303 Tax Diff. Journal Template $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-t_17303-tax-diff.-journal-template-$-.md)|Specifies the journals that are used for posting tax difference entries.|  
-|[\($ T\_17319 Tax Calc. Corresp. Entry $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-t_17319-tax-calc.-corresp.-entry-$-.md)|Specifies tax difference information that is needed for external reports and forms.|  
-|[\($ T\_17305 Tax Diff. Journal Line $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-t_17305-tax-diff.-journal-line-$-.md)|Specifies posted tax difference journal entries.|  
+|[Tax Diff. Posting Group](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-t_17301-tax-diff.-posting-group-$-.md)|Specifies posting groups for tax difference transactions.|  
+|[Tax Diff. Journal Template](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-t_17303-tax-diff.-journal-template-$-.md)|Specifies the journals that are used for posting tax difference entries.|  
+|[Tax Calc. Corresp. Entry](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-t_17319-tax-calc.-corresp.-entry-$-.md)|Specifies tax difference information that is needed for external reports and forms.|  
+|[Tax Diff. Journal Line](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-t_17305-tax-diff.-journal-line-$-.md)|Specifies posted tax difference journal entries.|  
   
 ## See Also  
  [Setting up Tax Difference Calculation](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/setting-up-tax-difference-calculation.md)   

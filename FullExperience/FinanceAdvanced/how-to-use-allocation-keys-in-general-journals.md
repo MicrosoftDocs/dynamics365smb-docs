@@ -47,7 +47,7 @@ You can allocate an entry in a general journal to several different accounts whe
   
 ### To use allocation keys  
   
-1.  In the **Search** box, enter **\($ N\_283 Recurring General Journal $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Recurring General Journal**, and then choose the related link.  
   
 2.  In the **Batch Name** field at the top of the window, create a new journal batch.  
   
@@ -65,11 +65,11 @@ You can allocate an entry in a general journal to several different accounts whe
   
 9. If you enter a percentage on a line, the amount in the **Amount** field is calculated automatically. These amounts have the opposite sign from the total amount in the **Amount** field in the recurring journal.  
   
-10. After entering the allocations lines, choose **OK** to return to the **\($ N\_283 Recurring General Journal $\)** window. The **Allocated Amt. \(LCY\)** field is filled in and matches the **Amount** field.  
+10. After entering the allocations lines, choose **OK** to return to the **Recurring General Journal** window. The **Allocated Amt. \(LCY\)** field is filled in and matches the **Amount** field.  
   
 11. Post the journal.  
   
 ## See Also  
  [How to: Fill In Recurring Journals](../Finance/how-to-fill-in-recurring-journals.md)   
  [How to: Set Up Multiple Journal Batches](../Finance/how-to-set-up-multiple-journal-batches.md)   
- [\($ N\_251 General Journal Batches $\)](assetId:///a4aa58bd-0981-4423-850d-ee77f1c772b4)
+ [General Journal Batches](assetId:///a4aa58bd-0981-4423-850d-ee77f1c772b4)

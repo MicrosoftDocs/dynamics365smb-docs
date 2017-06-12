@@ -43,7 +43,7 @@ You may often need to create service documents with service lines that contain s
   
 ### To assign a standard service code to a service item group  
   
-1.  In the **Search** box, enter **\($ N\_5909 Service Item Groups $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Service Item Groups**, and then choose the related link.  
   
 2.  Select a line for a specific service item group. On the **Navigate** tab, in the **Group** group, choose **Std. Serv. Item Gr. Codes** to view the standard service item codes assigned to this service item group.  
   

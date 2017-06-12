@@ -57,7 +57,7 @@ The most effective way to create the bins of your warehouse is to generate group
   
 ### To create bins individually in the bin creation worksheet  
   
-1.  In the **Search** box, enter **\($ N\_7372 Bin Creation Worksheet $\)**, and choose the related link.  
+1.  In the **Search** box, enter **Bin Creation Worksheet**, and choose the related link.  
   
 2.  Fill in on each line the fields that are necessary to name and characterize the bins you are creating.  
   
@@ -67,7 +67,7 @@ The most effective way to create the bins of your warehouse is to generate group
 >  The **Bin Creation Worksheet** also contains a function that will create the bin lines for you. For more information, see [Creating Bins in the Worksheet](../WarehouseActivities/how-to-create-bins-in-the-bin-creation-worksheet.md).  
   
 ## See Also  
- [\($ N\_7372 Bin Creation Worksheet $\)](../Topic/\($%20N_7372%20Bin%20Creation%20Worksheet%20$\).md)   
+ [Bin Creation Worksheet](../Topic/\($%20N_7372%20Bin%20Creation%20Worksheet%20$\).md)   
  [How to: Create Bins in the Bin Creation Worksheet](../WarehouseActivities/how-to-create-bins-in-the-bin-creation-worksheet.md)   
  [How to: Create Bins in the Bin Creation Worksheet](../WarehouseActivities/how-to-create-bins-in-the-bin-creation-worksheet.md)   
  [How to: Set Up Locations to Use Bins](../WarehouseActivities/how-to-set-up-locations-to-use-bins.md)

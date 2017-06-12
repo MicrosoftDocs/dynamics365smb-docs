@@ -61,4 +61,4 @@ If you want to set up a new chart of accounts or add new accounts to an existing
 |Find out if a general ledger account is used for automatic posting, before deleting the account.|[How to: View Where General Ledger Accounts Are Used](../Finance/how-to-view-where-general-ledger-accounts-are-used.md)|  
   
 ## See Also  
- [Working with \($ P\_1 Product Name $\)](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)
+ [Working with Product Name](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)

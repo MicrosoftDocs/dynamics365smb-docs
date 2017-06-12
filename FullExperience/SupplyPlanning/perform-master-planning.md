@@ -61,4 +61,4 @@ Before a detailed executable plan \( [see MRP](../OperationsPlanning/perform-mat
 ## See Also  
  [Schedule Production Activities](../Production/schedule-production-activities.md)   
  [Execute Production](../Production/execute-production.md)   
- [Working with \($ P\_1 Product Name $\)](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)
+ [Working with Product Name](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)

@@ -52,6 +52,6 @@ Before you can use warehouse documents to control your inventory movements, you 
 4.  On the **Numbering** FastTab, specify the number series that are used to automatically assign numbers to warehouse activity documents.  
   
 ## See Also  
- [\($ T\_5767 Warehouse Activity Line $\)](../Topic/\($%20T_5767%20Warehouse%20Activity%20Line%20$\).md)   
+ [Warehouse Activity Line](../Topic/\($%20T_5767%20Warehouse%20Activity%20Line%20$\).md)   
  [About Warehouse Management](../WarehouseActivities/about-warehouse-management.md)   
  [Design Details: Warehouse Management](../ApplicationDesign/design-details-warehouse-management.md)

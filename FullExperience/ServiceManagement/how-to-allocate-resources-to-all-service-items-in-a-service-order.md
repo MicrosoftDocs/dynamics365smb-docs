@@ -46,7 +46,7 @@ You can allocate the same resource, for example, a technician, or resource group
   
 ### To allocate a resource to all service items in a service order  
   
-1.  In the **Search** box, enter **\($ N\_6000 Dispatch Board $\)**, and choose the related link.  
+1.  In the **Search** box, enter **Dispatch Board**, and choose the related link.  
   
 2.  Browse to the relevant service order.  
   

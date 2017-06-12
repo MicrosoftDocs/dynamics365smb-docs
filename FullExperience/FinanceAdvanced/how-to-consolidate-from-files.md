@@ -49,7 +49,7 @@ After you have tested the data, you can start the consolidation. This means that
   
 1.  In the **Search** box, enter **Business Units**, and then choose the related link.  
   
-2.  In the **\($ N\_240 Business Units $\)** window, on the **Actions** tab, in the **Functions** group, choose **Import File**.  
+2.  In the **Business Units** window, on the **Actions** tab, in the **Functions** group, choose **Import File**.  
   
 3.  On the **Options** FastTab, enter the name of the file including drive and path. Then enter the document number to be assigned to the imported entries.  
   

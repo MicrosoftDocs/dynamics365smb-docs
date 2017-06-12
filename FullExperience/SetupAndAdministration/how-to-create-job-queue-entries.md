@@ -42,9 +42,9 @@ A job queue can have many entries, which are the jobs that the queue manages and
   
 ### To create job queue entries  
   
-1.  In the **Search** box, enter **\($ N\_672 Job Queue Entries $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Job Queue Entries**, and then choose the related link.  
   
-2.  On the **Home** tab, choose **New**. The **\($ N\_673 Job Queue Entry Card $\)** window opens.  
+2.  On the **Home** tab, choose **New**. The **Job Queue Entry Card** window opens.  
   
 3.  On the **General** FastTab, specify which report \(batch job\) or codeunit that you want to run.  
   
@@ -52,15 +52,15 @@ A job queue can have many entries, which are the jobs that the queue manages and
   
     |[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_472\_7 Object Type to Run $\)**|Specifies the type of the object to run: codeunit or report.|  
-    |**\($ T\_472\_8 Object ID to Run $\)**|Specifies the ID of the codeunit or report.<br /><br /> If you specify Report as the object type to run, all object IDs of that type will be available in the list. However, you can only select reports whose **ProcessingOnly** property is set to Yes. **Note:**  The user who sets up the job queue entry must have a permission set that includes explicit permissions run the specified object.|  
-    |**\($ T\_472\_16 Parameter String $\)**|Specifies a text string that you use to define to reduce the scope of the job. For example, you can specify a document type such as sales order. The codeunit has to read the parameters from this field.|  
-    |**\($ T\_472\_11 Maximum No. of Attempts to Run $\)**|Specifies how many times, after a run has failed, that [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] is to attempt to run the job.|  
-    |**\($ T\_472\_5 Expiration Date\/Time $\)**|Specifies the last date and time on which the job runs. The job will not run after this date.|  
-    |**\($ T\_472\_6 Earliest Date\/Time $\)**|Specifies the first date and time on which the job runs.|  
-    |**\($ T\_472\_14 Priority $\)**|Specifies the priority of the job queue entry compared to other entries in the job queue. For example, **1**. The lower the number, the higher the priority. The default priority is set to 1000.|  
+    |**Object Type to Run**|Specifies the type of the object to run: codeunit or report.|  
+    |**Object ID to Run**|Specifies the ID of the codeunit or report.<br /><br /> If you specify Report as the object type to run, all object IDs of that type will be available in the list. However, you can only select reports whose **ProcessingOnly** property is set to Yes. **Note:**  The user who sets up the job queue entry must have a permission set that includes explicit permissions run the specified object.|  
+    |**Parameter String**|Specifies a text string that you use to define to reduce the scope of the job. For example, you can specify a document type such as sales order. The codeunit has to read the parameters from this field.|  
+    |**Maximum No. of Attempts to Run**|Specifies how many times, after a run has failed, that [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] is to attempt to run the job.|  
+    |**Expiration Date\/Time**|Specifies the last date and time on which the job runs. The job will not run after this date.|  
+    |**Earliest Date\/Time**|Specifies the first date and time on which the job runs.|  
+    |**Priority**|Specifies the priority of the job queue entry compared to other entries in the job queue. For example, **1**. The lower the number, the higher the priority. The default priority is set to 1000.|  
   
-5.  On the **Recurrence** FastTab, specify whether the job is recurring, and other information, such as what day of the week the job is to run. By default, the job queue entry runs one time, unless you select the **\($ T\_472\_17 Recurring Job $\)** check box.  
+5.  On the **Recurrence** FastTab, specify whether the job is recurring, and other information, such as what day of the week the job is to run. By default, the job queue entry runs one time, unless you select the **Recurring Job** check box.  
   
      Choose the **OK** button.  
   

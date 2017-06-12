@@ -73,7 +73,7 @@ Bins represent the basic warehouse structure and are used to make suggestions ab
 10. On the **Warehouse** FastTab, fill in the **Outbound Whse. Handling Time**, **Inbound Whse. Handling Time**, and the **Base Calendar Code** fields.  
   
 ## See Also  
- [\($ N\_7304 Bin Content $\)](../Topic/\($%20N_7304%20Bin%20Content%20$\).md)   
+ [Bin Content](../Topic/\($%20N_7304%20Bin%20Content%20$\).md)   
  [Configure Warehouse Processes](../WarehouseActivities/configure-warehouse-processes.md)   
  [Design Details: Warehouse Management](../ApplicationDesign/design-details-warehouse-management.md)   
  [How to: Set Up Warehouse Management](../WarehouseActivities/how-to-set-up-warehouse-management.md)

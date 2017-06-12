@@ -46,7 +46,7 @@ You can create a production order manually, and the first step is to create a pr
   
 ### To create a production order header  
   
-1.  In the **Search** box, enter **\($ N\_99000829 Firm Planned Prod. Orders $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Firm Planned Prod. Orders**, and then choose the related link.  
   
 2.  On the **Home** tab, in the **New** group, choose **New**.  
   

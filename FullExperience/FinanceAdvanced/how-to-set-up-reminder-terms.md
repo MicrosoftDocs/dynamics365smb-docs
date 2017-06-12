@@ -46,7 +46,7 @@ Management of receivables includes checking whether amounts due are paid on time
   
 ### To set up reminder terms  
   
-1.  In the **Search** box, enter **\($ N\_431 Reminder Terms $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Reminder Terms**, and then choose the related link.  
   
 2.  Fill in the various fields.  
   

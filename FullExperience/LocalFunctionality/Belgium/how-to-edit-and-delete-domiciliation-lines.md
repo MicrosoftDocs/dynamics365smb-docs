@@ -27,7 +27,7 @@ After you have generated domiciliation suggestions, you may want to change the d
   
 1.  In the **Search** box, enter **Domiciliation Journals**, and then choose the related link.  
   
-2.  In the **\($ N\_2000022\_69 Batch Name $\)** field, select the required journal batch.  
+2.  In the **Batch Name** field, select the required journal batch.  
   
 3.  Select the journal line, and edit the fields.  
   
@@ -35,7 +35,7 @@ After you have generated domiciliation suggestions, you may want to change the d
   
 1.  In the **Search** box, enter **Domiciliation Journals**, and then choose the related link.  
   
-2.  In the **\($ N\_2000022\_69 Batch Name $\)** field, select the required journal batch.  
+2.  In the **Batch Name** field, select the required journal batch.  
   
 3.  Select the journal line, and on the **Home** tab, in the **Manage** group, choose **Delete**.  
   

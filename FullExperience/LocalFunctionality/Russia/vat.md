@@ -41,4 +41,4 @@ VAT is charged on transactions that involve goods and services in Russia or good
  [How to: Set Up VAT Ledgers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-set-up-vat-ledgers.md)   
  [How to: Correct VAT](../../Finance/how-to-correct-vat.md)   
  [How to: Prepare VAT Entries for Posting](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-prepare-vat-entries-for-posting.md)   
- [\($ T\_254 VAT Entry $\)](assetId:///e4113f5c-adc8-4bfd-8c4b-e7b5f11f4d32)
+ [VAT Entry](assetId:///e4113f5c-adc8-4bfd-8c4b-e7b5f11f4d32)

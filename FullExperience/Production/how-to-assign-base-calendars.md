@@ -66,7 +66,7 @@ You can assign a base calendar to your company and its business partners, such a
 > [!IMPORTANT]  
 >  -   If you do not assign a base calendar to a company, all dates are calculated as working days.  
 > -   If you enter a blank location on an order line, all dates are calculated as working days.  
-> -   Any base calendar defined for the vendor or the location affects how the dates are calculated and rounded to working days. adFor more information, see [\($ T\_39\_5792 Lead Time Calculation $\)](../Topic/\($%20T_39_5792%20Lead%20Time%20Calculation%20$\).md).  
+> -   Any base calendar defined for the vendor or the location affects how the dates are calculated and rounded to working days. adFor more information, see [Lead Time Calculation](../Topic/\($%20T_39_5792%20Lead%20Time%20Calculation%20$\).md).  
   
 > [!NOTE]  
 >  Before you can make customized calendar entries, you must first assign a base calendar to the company.  

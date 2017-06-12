@@ -48,7 +48,7 @@ When you enter a VAT\-liable amount including VAT on a journal line, you must en
   
 ### To enter VAT\-liable amounts without VAT  
   
-1.  In the **Search** box, enter **\($ N\_39 General Journal $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **General Journal**, and then choose the related link.  
   
 2.  Fill in the fields on the first line.  
   

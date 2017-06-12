@@ -16,7 +16,7 @@ translation.priority.ht:
   - "nl-be"
 ---
 # How to: Export to Accon
-The **\($ R\_11313 Link to Accon $\)** report enables you to create a file that can be imported into ACCON Plus to generate an annual income statement. The report exports the total balances of the general ledger accounts for a specific period.  
+The **Link to Accon** report enables you to create a file that can be imported into ACCON Plus to generate an annual income statement. The report exports the total balances of the general ledger accounts for a specific period.  
   
 ### To export the Link to Accon report  
   
@@ -26,8 +26,8 @@ The **\($ R\_11313 Link to Accon $\)** report enables you to create a file that 
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_11313\_F\_1\_1 Show Amounts in Add. Reporting Currency $\)**|Select to print the amounts in the additional reporting currency.<br /><br /> If the check box is cleared, the amounts will be printed in local currency.|  
-    |**\($ R\_11313\_f\_1\_3 File Name $\)**|Enter the full path of the file.|  
+    |**Show Amounts in Add. Reporting Currency**|Select to print the amounts in the additional reporting currency.<br /><br /> If the check box is cleared, the amounts will be printed in local currency.|  
+    |**File Name**|Enter the full path of the file.|  
   
 3.  On the **G\/L Account** FastTab, enter the filter information.  
   

@@ -46,19 +46,19 @@ You can use categories of job queues to help group and filter jobs.
   
 2.  On the **Home** tab, choose **New**.  
   
-3.  In the **\($ T\_471\_1 Code $\)** field, enter a code of up to 10 numbers and letters.  
+3.  In the **Code** field, enter a code of up to 10 numbers and letters.  
   
-4.  In the **\($ T\_471\_2 Decription $\)** field, enter a description of up to 30 numbers and letters.  
+4.  In the **Decription** field, enter a description of up to 30 numbers and letters.  
   
 ### To use a job queue category  
   
 1.  Create a job queue entry.  
   
-2.  Choose the **\($ T\_472\_33 Job Queue Category Code $\)** field, and then select a code from the list.  
+2.  Choose the **Job Queue Category Code** field, and then select a code from the list.  
   
 3.  Create a job queue.  
   
-4.  Choose the **\($ T\_470\_3 Job Queue Category Filter $\)** field, and then select a code from the list.  
+4.  Choose the **Job Queue Category Filter** field, and then select a code from the list.  
   
 5.  On the **Home** tab, choose **Start Job Queue**.  
   

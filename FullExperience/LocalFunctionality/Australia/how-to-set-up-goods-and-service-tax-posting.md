@@ -25,23 +25,23 @@ Goods and services tax \(GST\) is the tax that is applied on most goods and serv
   
 ### To set up goods and sales tax posting  
   
-1.  In the **Search** box, enter **\($ N\_472 VAT Posting Setup $\)**, and then choose the appropriate link.  
+1.  In the **Search** box, enter **VAT Posting Setup**, and then choose the appropriate link.  
   
 2.  Fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_325\_1 VAT Bus. Posting Group $\)**|Specifies the VAT business posting group code.|  
-    |**\($ T\_325\_2 VAT Prod. Posting Group $\)**|Specifies the VAT product posting group code.|  
-    |**\($ T\_325\_13 VAT Identifier $\)**|Specifies the code that is used to group similar VAT setups with similar attributes.<br /><br /> For example, you can group a number of VAT posting setups that have a common VAT percentage.|  
-    |**\($ T\_325\_4 VAT % $\)**|Specifies the VAT rate.|  
-    |**\($ T\_325\_3 VAT Calculation Type $\)**|Specifies the method that is used to calculate the purchase or sale of items.|  
-    |**\($ T\_325\_7 Sales VAT Account $\)**|Specifies the number of the general ledger account to which you want to post the sales VAT.<br /><br /> If you have selected the **Reverse Charge VAT** option in the **\($ T\_325\_3 VAT Calculation Type $\)** field, then do not enter a value in this field.|  
-    |**\($ T\_325\_9 Purchase VAT Account $\)**|Specifies the number of the general ledger account to which you want to post the purchase VAT.|  
-    |**\($ T\_325\_11 Reverse Chrg. VAT Acc. $\)**|Specifies the number of the general ledger account to which you want to post the reverse charge VAT.<br /><br /> You can enter a value in this field only if you have selected the **Reverse Charge VAT** option in the **\($ T\_325\_3 VAT Calculation Type $\)** field.|  
+    |**VAT Bus. Posting Group**|Specifies the VAT business posting group code.|  
+    |**VAT Prod. Posting Group**|Specifies the VAT product posting group code.|  
+    |**VAT Identifier**|Specifies the code that is used to group similar VAT setups with similar attributes.<br /><br /> For example, you can group a number of VAT posting setups that have a common VAT percentage.|  
+    |**VAT %**|Specifies the VAT rate.|  
+    |**VAT Calculation Type**|Specifies the method that is used to calculate the purchase or sale of items.|  
+    |**Sales VAT Account**|Specifies the number of the general ledger account to which you want to post the sales VAT.<br /><br /> If you have selected the **Reverse Charge VAT** option in the **VAT Calculation Type** field, then do not enter a value in this field.|  
+    |**Purchase VAT Account**|Specifies the number of the general ledger account to which you want to post the purchase VAT.|  
+    |**Reverse Chrg. VAT Acc.**|Specifies the number of the general ledger account to which you want to post the reverse charge VAT.<br /><br /> You can enter a value in this field only if you have selected the **Reverse Charge VAT** option in the **VAT Calculation Type** field.|  
   
 3.  Choose the **OK** button.  
   
 ## See Also  
- [\($ R\_11604 BAS\-Update $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/-$-r_11604-bas-update-$-.md)   
+ [BAS\-Update](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/-$-r_11604-bas-update-$-.md)   
  [How to: Print Goods and Service Tax Settlement Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-print-goods-and-service-tax-settlement-reports.md)

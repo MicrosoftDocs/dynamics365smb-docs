@@ -16,7 +16,7 @@ translation.priority.ht:
   - "da-dk"
 ---
 # How to: Export Sales Analysis Views to Excel
-You can export your sales analysis views to Microsoft Excel. In Excel, you can analyze and work with \($ P\_1 Product Name $\) data using the full range of features in Excel.  
+You can export your sales analysis views to Microsoft Excel. In Excel, you can analyze and work with Product Name data using the full range of features in Excel.  
   
 ### To export sales analysis views to Excel  
   
@@ -41,4 +41,4 @@ You can export your sales analysis views to Microsoft Excel. In Excel, you can a
 ## See Also  
  [Create Analysis Views and Reports](../BusinessIntelligence/create-analysis-views-and-reports.md)   
  [Analysis Reports](../BusinessIntelligence/analysis-reports.md)   
- [\($ T\_348 Dimension $\)](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)
+ [Dimension](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)

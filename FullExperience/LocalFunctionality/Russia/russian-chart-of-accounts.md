@@ -15,7 +15,7 @@ translation.priority.ht:
   - "ru-ru"
 ---
 # Russian Chart of Accounts
-In the **\($ N\_634 Chart of Accounts $\)** window, the following fields are available:  
+In the **Chart of Accounts** window, the following fields are available:  
   
 -   **Source Type**  
   

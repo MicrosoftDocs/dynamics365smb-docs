@@ -37,13 +37,13 @@ translation.priority.ht:
   - "sv-se"
 ---
 # About Finished Production Order Costs
-Finishing the production order is an important task in completing the costing lifecycle of the item that is being produced. Final costs, including variances in a standard cost environment, actuals in a FIFO, Average, or LIFO cost environment, are calculated using the **\($ B\_795 Adjust Cost \- Item Entries $\)** batch job, which allows for financial reconciliation of the costs of item production. For a production order to be considered for cost adjustment, the status must be **Finished**. It is therefore critical that upon completion, the status of a production order is changed to **Finished**.  
+Finishing the production order is an important task in completing the costing lifecycle of the item that is being produced. Final costs, including variances in a standard cost environment, actuals in a FIFO, Average, or LIFO cost environment, are calculated using the **Adjust Cost \- Item Entries** batch job, which allows for financial reconciliation of the costs of item production. For a production order to be considered for cost adjustment, the status must be **Finished**. It is therefore critical that upon completion, the status of a production order is changed to **Finished**.  
   
 ## Example  
- In a standard cost environment, when you consume material to produce an item, stated simply, the cost of the item plus labor and overhead go into WIP. When the item is produced, WIP is reduced by the amount of the standard cost of the item. Typically, these costs do not net to zero. So that these costs can net to zero, you must run the **\($ B\_795 Adjust Cost \- Item Entries $\)** batch job, noting that only production orders with the status of **Finished** will be considered for adjustment.  
+ In a standard cost environment, when you consume material to produce an item, stated simply, the cost of the item plus labor and overhead go into WIP. When the item is produced, WIP is reduced by the amount of the standard cost of the item. Typically, these costs do not net to zero. So that these costs can net to zero, you must run the **Adjust Cost \- Item Entries** batch job, noting that only production orders with the status of **Finished** will be considered for adjustment.  
   
 ## See Also  
- [\($ B\_795 Adjust Cost \- Item Entries $\)](../Finance/-$-b_795-adjust-cost-item-entries-$-.md)   
+ [Adjust Cost \- Item Entries](../Finance/-$-b_795-adjust-cost-item-entries-$-.md)   
  [About Production Orders](../Production/about-production-orders.md)   
  [How to: Finish Production Orders](../Production/how-to-finish-production-orders.md)   
  [About Production Orders](../Production/about-production-orders.md)

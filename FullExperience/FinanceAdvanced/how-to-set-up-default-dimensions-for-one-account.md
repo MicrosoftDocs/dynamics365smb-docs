@@ -58,7 +58,7 @@ You can set up a default dimension for a specific individual account. [!INCLUDE[
 3.  Fill in a line for each new default dimension you want to set up. For Help about a specific field, click the field and press **F1**.  
   
 > [!WARNING]  
->  If an account is used in the **\($ B\_595 Adjust Exchange Rates $\)** batch job or the **\($ B\_1002 Post Inventory Cost to G\/L $\)** batch job, do not select **Code Mandatory** or **Same Code**. These batch jobs cannot use dimension codes.  
+>  If an account is used in the **Adjust Exchange Rates** batch job or the **Post Inventory Cost to G\/L** batch job, do not select **Code Mandatory** or **Same Code**. These batch jobs cannot use dimension codes.  
   
 > [!IMPORTANT]  
 >  Entering a code in the dimension field on the account card does not guarantee that the code will be used when you post. This is because it may be changed on the journal, sales, or purchase line. To make sure that that the code is not changed when you post, select the **Same Code** option.  
@@ -67,7 +67,7 @@ You can set up a default dimension for a specific individual account. [!INCLUDE[
  [How to: Set Up Default or Required Dimensions for Account Types](../Finance/how-to-set-up-default-or-required-dimensions-for-account-types.md)   
  [How to: Set Up Global Dimensions](../Finance/how-to-set-up-global-dimensions.md)   
  [How to: Set Up Shortcut Dimensions](../Finance/how-to-set-up-shortcut-dimensions.md)   
- [\($ T\_352 Default Dimension $\)](assetId:///bd021a4a-f67d-44ca-9e6a-4b54cf91e710)   
- [\($ T\_348 Dimension $\)](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)   
- [\($ B\_595 Adjust Exchange Rates $\)](../Topic/\($%20B_595%20Adjust%20Exchange%20Rates%20$\).md)   
- [\($ B\_1002 Post Inventory Cost to G\-L $\)](../Topic/\($%20B_1002%20Post%20Inventory%20Cost%20to%20G-L%20$\).md)
+ [Default Dimension](assetId:///bd021a4a-f67d-44ca-9e6a-4b54cf91e710)   
+ [Dimension](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)   
+ [Adjust Exchange Rates](../Topic/\($%20B_595%20Adjust%20Exchange%20Rates%20$\).md)   
+ [Post Inventory Cost to G\-L](../Topic/\($%20B_1002%20Post%20Inventory%20Cost%20to%20G-L%20$\).md)

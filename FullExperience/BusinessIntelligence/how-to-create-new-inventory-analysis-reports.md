@@ -49,7 +49,7 @@ You use analysis reports to analyze the dynamics of your inventory according to 
   
 ### To create new inventory analysis reports  
   
-1.  In the **Search** box, enter **\($ N\_7119 Inventory Analysis Report $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Inventory Analysis Report**, and then choose the related link.  
   
 2.  In the **Analysis Report Name** field, open the **Analysis Report Names** window.  
   
@@ -65,6 +65,6 @@ You use analysis reports to analyze the dynamics of your inventory according to 
 >  You can build combinations of line and column templates to create reports and assign them unique names. If you do this, you can select a report name only in the **Inventory Analysis Report** window. You do not need to select line and column templates. After you have chosen a report name, you can change line and column templates independently, and then later select the report name again to restore the original combination.  
   
 ## See Also  
- [\($ N\_7119 Inventory Analysis Report $\)](../Topic/\($%20N_7119%20Inventory%20Analysis%20Report%20$\).md)   
+ [Inventory Analysis Report](../Topic/\($%20N_7119%20Inventory%20Analysis%20Report%20$\).md)   
  [Analysis Reports](../BusinessIntelligence/analysis-reports.md)   
  [Create Analysis Views and Reports](../BusinessIntelligence/create-analysis-views-and-reports.md)

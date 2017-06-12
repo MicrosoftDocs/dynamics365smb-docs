@@ -26,7 +26,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can vo
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_10722\_N\_2\_1100000 Bank Account No. $\)**|Specify the bank account number from which the payments will be voided.|  
+    |**Bank Account No.**|Specify the bank account number from which the payments will be voided.|  
   
 ### To void electronic payments in the Cartera module  
   
@@ -36,9 +36,9 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can vo
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_7000061\_N\_2\_1100000 Payment Order No. $\)**|Specify the payment order number from which the payments will be voided.|  
+    |**Payment Order No.**|Specify the payment order number from which the payments will be voided.|  
   
 ## See Also  
  [How to: Set Up Bank Accounts for Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/how-to-set-up-bank-accounts-for-electronic-payments.md)   
  [How to: Pay Vendors by Using Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/how-to-pay-vendors-by-using-electronic-payments.md)   
- [\($ N\_256 Payment Journal $\)](../../Finance/-$-n_256-payment-journal-$-.md)
+ [Payment Journal](../../Finance/-$-n_256-payment-journal-$-.md)

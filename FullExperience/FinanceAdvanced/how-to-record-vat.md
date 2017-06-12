@@ -50,7 +50,7 @@ In EU countries\/regions, every sales and purchase transaction is subject to VAT
   
 #### To manually enter VAT in sales documents  
   
-1.  In the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**[\($ N\_118 General Ledger Setup $\)](DynamicsNAV:////runpage?Page=118)** window, specify a **Max. VAT Difference Allowed** between the amount calculated by the program and the manual amount.  
+1.  In the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**[General Ledger Setup](DynamicsNAV:////runpage?Page=118)** window, specify a **Max. VAT Difference Allowed** between the amount calculated by the program and the manual amount.  
   
 2.  In the **Sales & Receivables Setup** window, place a check mark in the **Allow Vat Difference** field.  
   
@@ -70,13 +70,13 @@ In EU countries\/regions, every sales and purchase transaction is subject to VAT
   
 #### Before you manually enter VAT on a general journal  
   
-1.  In the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**[\($ N\_118 General Ledger Setup $\)](DynamicsNAV:////runpage?Page=118)** window, specify a **Max. VAT Difference Allowed** between the amount calculated by the program and the manual amount.  
+1.  In the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**[General Ledger Setup](DynamicsNAV:////runpage?Page=118)** window, specify a **Max. VAT Difference Allowed** between the amount calculated by the program and the manual amount.  
   
-2.  Place a check mark in the **Allow VAT Difference** field for the relevant journal in the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**[\($ N\_101 General Journal Templates $\)](DynamicsNAV:////runpage?Page=101)** window.  
+2.  Place a check mark in the **Allow VAT Difference** field for the relevant journal in the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**[General Journal Templates](DynamicsNAV:////runpage?Page=101)** window.  
   
 #### Before you manually enter VAT on sales and purchase journals  
   
-1.  Check the **Allow VAT Difference** field in the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**[\($ N\_459 Sales & Receivables Setup $\)](DynamicsNAV:////runpage?Page=459)** and ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**[\($ N\_460 Purchases & Payables Setup $\)](DynamicsNAV:////runpage?Page=460)** windows, respectively.  
+1.  Check the **Allow VAT Difference** field in the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**[Sales & Receivables Setup](DynamicsNAV:////runpage?Page=459)** and ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**[Purchases & Payables Setup](DynamicsNAV:////runpage?Page=460)** windows, respectively.  
   
 2.  Once you have completed the setup described above, you can adjust the **VAT Amount** field on the general journal line, or the **Bal. VAT Amount** field on the sales or purchase journal line, to equal the invoice VAT amount. The program will check that the difference is not greater than the specified maximum.  
   

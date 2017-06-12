@@ -45,7 +45,7 @@ translation.priority.ht:
 # How to: Set Up New Budgets
 You can have multiple budgets for identical time periods by creating budgets with separate names. First, you set up the budget name and enter the budget figures. The budget name is then included on all the budget entries you create.  
   
- When you create a budget, you can define four dimensions for each budget. These budget\-specific dimensions are called budget dimensions. You select the budget dimensions for each budget from among the dimensions you have already set up. Budget dimensions can be used to set filters on a budget and to add dimension information to budget entries. For more information, see [\($ T\_348 Dimension $\)](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3).  
+ When you create a budget, you can define four dimensions for each budget. These budget\-specific dimensions are called budget dimensions. You select the budget dimensions for each budget from among the dimensions you have already set up. Budget dimensions can be used to set filters on a budget and to add dimension information to budget entries. For more information, see [Dimension](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3).  
   
 ### To set up a new budget  
   
@@ -55,11 +55,11 @@ You can have multiple budgets for identical time periods by creating budgets wit
   
 3.  In the **G\/L Budget Names** window, create a new line and fill in the relevant fields  
   
-4.  On the **Home** tab, in the **Process** group, choose **Edit Budget** to open the **\($ N\_113 Budget $\)** window.  
+4.  On the **Home** tab, in the **Process** group, choose **Edit Budget** to open the **Budget** window.  
   
 5.  Press Ctrl\+N to insert a new line, fill in the relevant fields and then choose the **OK** button to copy the new purchase budget name to the field.  
   
-     Only entries that contain this budget name shown in the **\($ T\_7132 Item Budget Name $\)** field are now displayed. Because the budget name has just been created, there are no entries that match the filter. Therefore, the window is empty.  
+     Only entries that contain this budget name shown in the **Item Budget Name** field are now displayed. Because the budget name has just been created, there are no entries that match the filter. Therefore, the window is empty.  
   
 6.  Select the appropriate time interval in the **View by** field on the **General** FastTab.  
   
@@ -75,5 +75,5 @@ You can have multiple budgets for identical time periods by creating budgets wit
 ## See Also  
  [How to: Import or Export a Budget](../Finance/how-to-import-or-export-a-budget.md)   
  [How to: View Budgets](../BusinessIntelligence/how-to-view-budgets.md)   
- [\($ T\_348 Dimension $\)](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)   
- [\($ B\_96 Copy G\-L Budget $\)](../Topic/\($%20B_96%20Copy%20G-L%20Budget%20$\).md)
+ [Dimension](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)   
+ [Copy G\-L Budget](../Topic/\($%20B_96%20Copy%20G-L%20Budget%20$\).md)

@@ -42,11 +42,11 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Assembly BOMs or Production BOMs
-You use assembly orders for making end items from components in a simple process that can be performed by one or more basic resources, which are not machine or work centers, or without any resources. For example, an assembly process could be to pick two wine bottles and one coffee sack and then pack them as a gift item. For more information, see [\($ N\_900 Assembly Order $\)](../WarehouseActivities/-$-n_900-assembly-order-$-.md).  
+You use assembly orders for making end items from components in a simple process that can be performed by one or more basic resources, which are not machine or work centers, or without any resources. For example, an assembly process could be to pick two wine bottles and one coffee sack and then pack them as a gift item. For more information, see [Assembly Order](../WarehouseActivities/-$-n_900-assembly-order-$-.md).  
   
  The master data behind assembly items is represented by assembly BOMs.  
   
- You use production orders for making end items from components in a complex process that requires a production routing and work or machine centers, which represent production capacities. For example, a production process could be to cut steel plates in one operation, weld them in the next operation, and paint the end item in the last operation. For more information, see [\($ N\_99000831 Released Production Order $\)](../Topic/\($%20N_99000831%20Released%20Production%20Order%20$\).md).  
+ You use production orders for making end items from components in a complex process that requires a production routing and work or machine centers, which represent production capacities. For example, a production process could be to cut steel plates in one operation, weld them in the next operation, and paint the end item in the last operation. For more information, see [Released Production Order](../Topic/\($%20N_99000831%20Released%20Production%20Order%20$\).md).  
   
  The master data behind production items is represented by production BOMs.  
   
@@ -63,11 +63,11 @@ You use assembly orders for making end items from components in a simple process
  The concept of resources in production is much more advanced than in assembly management. Work centers and machine centers function as resources, and production steps are represented by operations that are assigned to resources in production routings. For more information, see [How to: Create Routings](../DesignAndEngineering/how-to-create-routings.md).  
   
 ## See Also  
- [\($ N\_900 Assembly Order $\)](../WarehouseActivities/-$-n_900-assembly-order-$-.md)   
- [\($ N\_99000831 Released Production Order $\)](../Topic/\($%20N_99000831%20Released%20Production%20Order%20$\).md)   
+ [Assembly Order](../WarehouseActivities/-$-n_900-assembly-order-$-.md)   
+ [Released Production Order](../Topic/\($%20N_99000831%20Released%20Production%20Order%20$\).md)   
  [How to: Create Assembly BOMs](../DesignAndEngineering/how-to-create-assembly-boms.md)   
- [\($ N\_36 Assembly BOM $\)](../Topic/\($%20N_36%20Assembly%20BOM%20$\).md)   
- [\($ N\_99000786 Production BOM $\)](../Topic/\($%20N_99000786%20Production%20BOM%20$\).md)   
+ [Assembly BOM](../Topic/\($%20N_36%20Assembly%20BOM%20$\).md)   
+ [Production BOM](../Topic/\($%20N_99000786%20Production%20BOM%20$\).md)   
  [How to: Assemble Items](../WarehouseActivities/how-to-assemble-items.md)   
  [How to: Sell Items Assembled to Order](../Sales/how-to-sell-items-assembled-to-order.md)   
  [How to: Create Production BOMs](../DesignAndEngineering/how-to-create-production-boms.md)   

@@ -40,11 +40,11 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Export Inventory Analysis Views to Excel
-You can export your inventory analysis views to Microsoft Excel. In Excel, you can analyze and work with data from \($ P\_1 Product Name $\) using the full range of features in Excel.  
+You can export your inventory analysis views to Microsoft Excel. In Excel, you can analyze and work with data from Product Name using the full range of features in Excel.  
   
 ### To export inventory analysis views to Excel  
   
-1.  In the **Search** box, enter **\($ N\_7159 Invt. Analysis by Dimensions $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Invt. Analysis by Dimensions**, and then choose the related link.  
   
 2.  On the **Options** FastTab, in the **Show** field, select either **Actual Amounts** or **Budgeted Amounts**. If you select **Budgeted Amounts**, the **Show Amount** field must contain **Amount**.  
   
@@ -61,5 +61,5 @@ You can export your inventory analysis views to Microsoft Excel. In Excel, you c
 ## See Also  
  [Analysis Reports](../BusinessIntelligence/analysis-reports.md)   
  [Create Analysis Views and Reports](../BusinessIntelligence/create-analysis-views-and-reports.md)   
- [\($ N\_7150 Invt. Analysis View Card $\)](../Topic/\($%20N_7150%20Invt.%20Analysis%20View%20Card%20$\).md)   
- [\($ T\_348 Dimension $\)](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)
+ [Invt. Analysis View Card](../Topic/\($%20N_7150%20Invt.%20Analysis%20View%20Card%20$\).md)   
+ [Dimension](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)

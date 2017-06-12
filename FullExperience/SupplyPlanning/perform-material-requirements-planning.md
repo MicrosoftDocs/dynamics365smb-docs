@@ -57,20 +57,20 @@ To establish executable supply orders to meet all dependent and independent dema
 |------------|-------------|  
 |Run the planning worksheet with the MRP option to automatically create a detailed supply plan \(purchase, production, or transfer\) based on the master production schedule and material requirements on all BOM levels.|[How to: Run MPS and MRP](../OperationsPlanning/how-to-run-mps-and-mrp.md)|  
 |Use the **Order Planning** window to manually plan for sales or production demand one production BOM level at a time.|[How to: Plan for New Demand](../OperationsPlanning/how-to-plan-for-new-demand.md)|  
-|Run the requisition worksheet to automatically create a detailed supply plan to cover demand for items that are replenished by purchase or transfer only.|[\($ N\_291 Req. Worksheet $\)](../OperationsPlanning/-$-n_291-req.-worksheet-$-.md)|  
-|Refresh the master data requirements of a production order shown in a planning tool: Order Planning or Planning Worksheet.|[\($ B\_99001021 Refresh Planning Demand $\)](../OperationsPlanning/-$-b_99001021-refresh-planning-demand-$-.md)|  
+|Run the requisition worksheet to automatically create a detailed supply plan to cover demand for items that are replenished by purchase or transfer only.|[Req. Worksheet](../OperationsPlanning/-$-n_291-req.-worksheet-$-.md)|  
+|Refresh the master data requirements of a production order shown in a planning tool: Order Planning or Planning Worksheet.|[Refresh Planning Demand](../OperationsPlanning/-$-b_99001021-refresh-planning-demand-$-.md)|  
 |Learn how the planning logic differentiates between demand at locations according to the SKU setup and demand without location codes.|[Planning with\-without Locations](../OperationsPlanning/planning-with-without-locations.md)|  
 |Enable a non\-demanded move between locations without involving the planning system.|[Planning with Manual Transfer Orders](../OperationsPlanning/planning-with-manual-transfer-orders.md)|  
-|Exclude an existing supply order from the automatic planning run.|[\($ T\_5406\_99000755 Planning Flexibility $\)](../Topic/\($%20T_5406_99000755%20Planning%20Flexibility%20$\).md)|  
-|View clear status icons and read warnings about planning lines created for exceptional events, such as violation of safety stock or crossing of a reorder point.|[\($ N\_99000852\_118 Warning $\)](../Topic/\($%20N_99000852_118%20Warning%20$\).md)|  
-|Find out which non\-order demand types, such as planning parameters or blanket orders, gave rise to the planning line.|[\($ T\_99000855 Untracked Planning Element $\)](../Topic/\($%20T_99000855%20Untracked%20Planning%20Element%20$\).md)|  
+|Exclude an existing supply order from the automatic planning run.|[Planning Flexibility](../Topic/\($%20T_5406_99000755%20Planning%20Flexibility%20$\).md)|  
+|View clear status icons and read warnings about planning lines created for exceptional events, such as violation of safety stock or crossing of a reorder point.|[Warning](../Topic/\($%20N_99000852_118%20Warning%20$\).md)|  
+|Find out which non\-order demand types, such as planning parameters or blanket orders, gave rise to the planning line.|[Untracked Planning Element](../Topic/\($%20T_99000855%20Untracked%20Planning%20Element%20$\).md)|  
 |View an item's projected available inventory by different views and see which gross requirements, planned order receipts, and other events influence it over time.|[How to: View Item Availability](../OperationsPlanning/how-to-view-item-availability.md)|  
 |Reserve items from inventory or inbound orders to use for sales order lines when they are due for shipping.|[How to: Reserve Items for Production Components](../OperationsPlanning/how-to-reserve-items-for-production-components.md)|  
 |Reserve items with serial\/lot numbers by making a specific or non\-specific reservation.|[How to: Reserve Item\-Tracked Items](../DesignAndEngineering/how-to-reserve-item-tracked-items.md)|  
-|Track the order demand \(tracked quantity\), forecast, blanket sales order, or planning parameter \(untracked quantity\) that has given rise to the planning line in question.|[\($ N\_99000822 Order Tracking $\)](../Purchasing/-$-n_99000822-order-tracking-$-.md)|  
+|Track the order demand \(tracked quantity\), forecast, blanket sales order, or planning parameter \(untracked quantity\) that has given rise to the planning line in question.|[Order Tracking](../Purchasing/-$-n_99000822-order-tracking-$-.md)|  
   
 ## See Also  
  [Schedule Production Activities](../Production/schedule-production-activities.md)   
  [Execute Production](../Production/execute-production.md)   
  [Design and Engineering](../DesignAndEngineering/design-and-engineering.md)   
- [Working with \($ P\_1 Product Name $\)](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)
+ [Working with Product Name](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)

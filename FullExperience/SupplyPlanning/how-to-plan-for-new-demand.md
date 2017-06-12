@@ -160,7 +160,7 @@ This planning task can be performed in the **Order Planning** window, which disp
 >  The supply orders you create may introduce new dependent demand, for example for underlying production orders, and you should therefore choose **Calculate Plan** again to find and resolve this before moving down the list.  
   
 ## See Also  
- [\($ T\_27\_100 Reserve $\)](../Topic/\($%20T_27_100%20Reserve%20$\).md)   
+ [Reserve](../Topic/\($%20T_27_100%20Reserve%20$\).md)   
  [About Planning Functionality](../OperationsPlanning/about-planning-functionality.md)   
  [How to: Refresh Production Orders](../OperationsPlanning/how-to-refresh-production-orders.md)   
  [How to: Replan Production Orders](../OperationsPlanning/how-to-replan-production-orders.md)   

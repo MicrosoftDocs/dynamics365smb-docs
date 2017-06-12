@@ -52,4 +52,4 @@ Sometimes, you may want to change an item reservation.
   
 ## See Also  
  [How to: Reserve Items for Sales Lines](../Sales/how-to-reserve-items-for-sales-lines.md)   
- [\($ N\_498 Reservation $\)](../Topic/\($%20N_498%20Reservation%20$\).md)
+ [Reservation](../Topic/\($%20N_498%20Reservation%20$\).md)

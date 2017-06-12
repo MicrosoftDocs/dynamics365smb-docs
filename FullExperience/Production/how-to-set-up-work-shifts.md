@@ -43,7 +43,7 @@ To be able to assign work shifts to calendars, you must set up the various work 
   
 ### To set up a work shift  
   
-1.  In the **Search** box, enter **\($ N\_99000750 Work Shifts $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Work Shifts**, and then choose the related link.  
   
 2.  Enter the code and description of the work shift.  
   

@@ -80,5 +80,5 @@ If you need to link special information to a specific item tracking number, for 
  You cannot modify the serial or lot numbers or quantities. To do so, you must reclassify the item ledger entry in question. For more information, see [Reclassifying Lot or Serial Numbers](../DesignAndEngineering/how-to-reclassify-lot-numbers-and-serial-numbers.md).  
   
 ## See Also  
- [\($ N\_6510 Item Tracking Lines $\)](../Topic/\($%20N_6510%20Item%20Tracking%20Lines%20$\).md)   
- [\($ N\_6504 Serial No. Information Card $\)](../Topic/\($%20N_6504%20Serial%20No.%20Information%20Card%20$\).md)
+ [Item Tracking Lines](../Topic/\($%20N_6510%20Item%20Tracking%20Lines%20$\).md)   
+ [Serial No. Information Card](../Topic/\($%20N_6504%20Serial%20No.%20Information%20Card%20$\).md)

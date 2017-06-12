@@ -29,31 +29,31 @@ VAT ledgers are used to store details about VAT in transactions that involve goo
   
 ### To set up VAT ledgers  
   
-1.  In the **Search** box, enter **\($ N\_118 General Ledger Setup $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **General Ledger Setup**, and then choose the related link.  
   
-2.  In the **\($ N\_118 General Ledger Setup $\)** window, on the **Numbering** Fast Tab, fill in the fields as described in the following table.  
+2.  In the **General Ledger Setup** window, on the **Numbering** Fast Tab, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_98\_12401 VAT Purch. Ledger No. Series $\)**|Specifies the number series that you want to use for VAT ledgers for purchase documents.|  
-    |**\($ T\_98\_12402 VAT Sales Ledger No. Series $\)**|Specifies the number series that you want to use for VAT ledgers for sales documents.|  
+    |**VAT Purch. Ledger No. Series**|Specifies the number series that you want to use for VAT ledgers for purchase documents.|  
+    |**VAT Sales Ledger No. Series**|Specifies the number series that you want to use for VAT ledgers for sales documents.|  
   
      You must ensure that vendor purchase documents cannot be posted without stating the invoice date and number.  
   
-3.  In the **Search** box, enter **\($ N\_111 Vendor Posting Groups $\)**, and then choose the related link.  
+3.  In the **Search** box, enter **Vendor Posting Groups**, and then choose the related link.  
   
-4.  In the **\($ N\_111 Vendor Posting Groups $\)** window, for the relevant posting groups, select the **\($ T\_93\_12410 VAT Invoice Mandatory $\)** field.  
+4.  In the **Vendor Posting Groups** window, for the relevant posting groups, select the **VAT Invoice Mandatory** field.  
   
      Next, you must set up VAT posting. For each VAT posting setup you must specify if entries that use the setup must be included in VAT ledgers.  
   
-5.  In the **Search** box, enter **\($ N\_472 VAT Posting Setup $\)**, and then choose the related link.  
+5.  In the **Search** box, enter **VAT Posting Setup**, and then choose the related link.  
   
-6.  In the **\($ N\_472 VAT Posting Setup $\)** window, for each VAT posting setup, fill in the fields as described in the following table.  
+6.  In the **VAT Posting Setup** window, for each VAT posting setup, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_325\_12402 Not Include into VAT Ledger $\)**|Specifies if entries that use the setup must be included in VAT ledgers. For more information, see [\($ T\_325\_12402 Not Include into VAT Ledger $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-t_325_12402-not-include-into-vat-ledger-$-.md).|  
-    |**\($ T\_325\_12412 VAT Exempt $\)**|Specifies if entries that use this posting setup are VAT exempt. For more information, see [\($ T\_325\_12412 VAT Exempt $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-t_325_12412-vat-exempt-$-.md).|  
+    |**Not Include into VAT Ledger**|Specifies if entries that use the setup must be included in VAT ledgers. For more information, see [Not Include into VAT Ledger](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-t_325_12402-not-include-into-vat-ledger-$-.md).|  
+    |**VAT Exempt**|Specifies if entries that use this posting setup are VAT exempt. For more information, see [VAT Exempt](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-t_325_12412-vat-exempt-$-.md).|  
   
  Now, you can create VAT ledgers for purchases and sales.  
   

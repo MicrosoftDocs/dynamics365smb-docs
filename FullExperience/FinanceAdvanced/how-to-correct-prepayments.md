@@ -38,7 +38,7 @@ You can make a correction to an order after you have posted a prepayment invoice
   
 4.  Recreate the correct entries.  
   
-5.  Reduce the amount in the **\($ T\_37\_103 Line Amount $\)** field if you want to reduce the quantity on the line. However, you must first increase the prepayment percentage on the line so that the **\($ T\_37\_110 Prepmt. Line Amount $\)** is not decreased below the **\($ T\_37\_111 Prepmt. Amt. Inv. $\)**.  
+5.  Reduce the amount in the **Line Amount** field if you want to reduce the quantity on the line. However, you must first increase the prepayment percentage on the line so that the **Prepmt. Line Amount** is not decreased below the **Prepmt. Amt. Inv.**.  
   
 6.  Add new lines to the order after issuing a prepayment.  
   

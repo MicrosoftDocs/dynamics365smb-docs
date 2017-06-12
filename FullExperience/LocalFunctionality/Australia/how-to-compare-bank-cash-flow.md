@@ -18,7 +18,7 @@ translation.priority.ht:
   - "en-au"
 ---
 # How to: Compare Bank Cash Flow
-You can use the **\($ R\_28020 Bank Detail Cashflow Compare $\)** report to compare the flow of cash in a particular bank for a specified period.  
+You can use the **Bank Detail Cashflow Compare** report to compare the flow of cash in a particular bank for a specified period.  
   
  The report displays the following details:  
   
@@ -38,15 +38,15 @@ You can use the **\($ R\_28020 Bank Detail Cashflow Compare $\)** report to comp
   
 ### To compare bank cash flow  
   
-1.  In the **Search** box, enter **\($ R\_28020 Bank Detail Cashflow Compare $\)**, and then choose the relevant link.  
+1.  In the **Search** box, enter **Bank Detail Cashflow Compare**, and then choose the relevant link.  
   
 2.  On the **[!INCLUDE[bp_optionsheading](../../DesignAndEngineering/includes/bp_optionsheading_md.md)]** FastTab, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_28020\_N\_2\_1260000 Compare Start Date $\)**|Specifies the start date for the comparison.|  
-    |**\($ R\_28020\_N\_2\_1260003 Compare End Date $\)**|Specifies the end date for comparison.|  
-    |**\($ R\_28020\_N\_2\_2 New Page per Bank Account $\)**|Specifies if the details of each bank account will be printed on a separate page.|  
+    |**Compare Start Date**|Specifies the start date for the comparison.|  
+    |**Compare End Date**|Specifies the end date for comparison.|  
+    |**New Page per Bank Account**|Specifies if the details of each bank account will be printed on a separate page.|  
   
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   

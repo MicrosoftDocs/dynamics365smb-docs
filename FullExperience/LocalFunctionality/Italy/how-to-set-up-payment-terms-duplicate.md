@@ -23,32 +23,32 @@ For each payment term, you can specify if the payment can be made in installment
   
 ### To set up payment terms  
   
-1.  In the **Search** box, enter **\($ N\_4 Payment Terms $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Payment Terms**, and then choose the related link.  
   
 2.  Fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_3\_1 Code $\)**|Specify the unique identification code for the set of payment terms. You can enter a maximum of 10 alphanumeric characters.|  
-    |**\($ T\_3\_12170 Payment Nos. $\)**|Specify the number of installments allowed for this payment term.|  
-    |**\($ T\_3\_5 Description $\)**|Specify the payment term code description. This description is printed where the payment terms are used.|  
+    |**Code**|Specify the unique identification code for the set of payment terms. You can enter a maximum of 10 alphanumeric characters.|  
+    |**Payment Nos.**|Specify the number of installments allowed for this payment term.|  
+    |**Description**|Specify the payment term code description. This description is printed where the payment terms are used.|  
   
 3.  On the **Home** tab, in the **Process**, choose **Calculation**.  
   
-4.  In the **\($ N\_12170 Payment Terms Lines $\)** window, fill in the fields as described in the following table.  
+4.  In the **Payment Terms Lines** window, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_12170\_4 Payment % $\)**|Specify the percentage of the total payment that this installment is for.<br /><br /> For example, if the payment must be made in one installment, specify **100**.|  
-    |**\($ T\_12170\_5 Due Date Calculation $\)**|Specify the formula that is used to calculate the date that a payment must be made.<br /><br /> For example, if the payment must be made in one installment after two weeks, specify **14D**. For more information, see [How to: Enter Dates and Times](../../WorkingWithDynamics/how-to-enter-dates-and-times.md).|  
-    |**\($ T\_12170\_6 Discount Date Calculation $\)**|Specify the formula that is used to calculate the date that a payment must be made in order to obtain a discount.|  
-    |**\($ T\_12170\_7 Discount % $\)**|Specify the discount percentage that is applied for early payment of an invoice amount.|  
+    |**Payment %**|Specify the percentage of the total payment that this installment is for.<br /><br /> For example, if the payment must be made in one installment, specify **100**.|  
+    |**Due Date Calculation**|Specify the formula that is used to calculate the date that a payment must be made.<br /><br /> For example, if the payment must be made in one installment after two weeks, specify **14D**. For more information, see [How to: Enter Dates and Times](../../WorkingWithDynamics/how-to-enter-dates-and-times.md).|  
+    |**Discount Date Calculation**|Specify the formula that is used to calculate the date that a payment must be made in order to obtain a discount.|  
+    |**Discount %**|Specify the discount percentage that is applied for early payment of an invoice amount.|  
   
 5.  Choose the **OK** button.  
   
-     The **\($ T\_3\_12170 Payment Nos. $\)** field in the **\($ N\_4 Payment Terms $\)** window is updated. The payment terms that you set here will be a reference for automatic due date calculation for documents that you post for relevant customers and vendors.  
+     The **Payment Nos.** field in the **Payment Terms** window is updated. The payment terms that you set here will be a reference for automatic due date calculation for documents that you post for relevant customers and vendors.  
   
 ## See Also  
  [How to: Set Up Automatic Payments and Automatic Bills](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-set-up-automatic-payments-and-automatic-bills.md)   
- [\($ N\_4 Payment Terms $\)](../Topic/\($%20N_4%20Payment%20Terms%20$\).md)   
+ [Payment Terms](../Topic/\($%20N_4%20Payment%20Terms%20$\).md)   
  [Italy Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/italy-local-functionality.md)

@@ -21,13 +21,13 @@ Create a depreciation book to keep record of the fixed assets quantities that wi
   
 1.  In the **Search** box, enter **Depreciation Books**, and then choose the related link.  
   
-2.  In the **\($ T\_5611\_12401 Posting Book Type $\)** field, select **Analytical**.  
+2.  In the **Posting Book Type** field, select **Analytical**.  
   
 3.  On the **Integration** FastTab, make sure that no options are selected.  
   
 4.  In the **Search** box, enter **FA Setup**, and then choose the related link.  
   
-5.  In the **\($ T\_5603\_12418 Quantitative Depr. Book $\)** field, enter the code of the depreciation book that you created.  
+5.  In the **Quantitative Depr. Book** field, enter the code of the depreciation book that you created.  
   
 6.  Choose the **OK** button.  
   

@@ -50,7 +50,7 @@ You can fill in the fields in the Intrastat journal manually or retrieve item en
   
 1.  In the **Search** box, enter **Intrastat Journal** and then choose the related link.  
   
-2.  In the **\($ N\_311 Intrastat Journal $\)** window, in the **Batch Name** field, select the relevant journal batch, and then choose the **OK** button.  
+2.  In the **Intrastat Journal** window, in the **Batch Name** field, select the relevant journal batch, and then choose the **OK** button.  
   
 3.  On the **Actions** tab, in the **Process** group, choose **Get Entries**. The **Starting Date** and **Ending Date** fields will already contain the dates specified for the statistics period on the journal batch.  
   

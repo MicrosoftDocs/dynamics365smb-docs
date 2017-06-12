@@ -49,7 +49,7 @@ You can submit the Intrastat report on a disk. Before creating the file, you can
   
 1.  In the **Search** box, enter **Intrastat Journal**, and then choose the related link.  
   
-2.  In the **\($ N\_311 Intrastat Journal $\)** window, select the relevant journal batch in the **Batch Name** field.  
+2.  In the **Intrastat Journal** window, select the relevant journal batch in the **Batch Name** field.  
   
 3.  If you have not already done this, fill in the journal manually or on the **Home** tab, in the **Process** group, choose **Get Entries**.  
   

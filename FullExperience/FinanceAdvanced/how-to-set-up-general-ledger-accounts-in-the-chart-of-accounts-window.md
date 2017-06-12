@@ -49,7 +49,7 @@ If you want to set up a completely new chart of accounts or add new accounts to 
   
 1.  In the **Search** box, enter **Chart of Accounts**, and then choose the related link.  
   
-2.  In the **\($ N\_16 Chart of Accounts $\)** window, on the **Home** tab, choose **Edit**.  
+2.  In the **Chart of Accounts** window, on the **Home** tab, choose **Edit**.  
   
 3.  Enter the account number in the **No.** field. All accounts must have a number.  
   

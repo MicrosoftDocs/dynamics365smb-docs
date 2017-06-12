@@ -36,7 +36,7 @@ You can print remittance advice before posting a payment journal and after posti
 6.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [\($ R\_10531 Remittance Advice \- Journal $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/-$-r_10531-remittance-advice-journal-$-.md)   
- [\($ R\_10532 Remittance Advice \- Entries $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/-$-r_10532-remittance-advice-entries-$-.md)   
- [\($ N\_256 Payment Journal $\)](../../Finance/-$-n_256-payment-journal-$-.md)   
+ [Remittance Advice \- Journal](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/-$-r_10531-remittance-advice-journal-$-.md)   
+ [Remittance Advice \- Entries](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/-$-r_10532-remittance-advice-entries-$-.md)   
+ [Payment Journal](../../Finance/-$-n_256-payment-journal-$-.md)   
  [United Kingdom Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/united-kingdom-local-functionality.md)

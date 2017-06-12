@@ -56,7 +56,7 @@ You may need to change the default bin assignment for an item or assign a defaul
 >  When an item is put away for the first time, and the item does not have a default bin assigned, the system will assign the bin where the item is put away as the default bin for the item.  
   
 ## See Also  
- [\($ N\_7302 Bins $\)](../Topic/\($%20N_7302%20Bins%20$\).md)   
+ [Bins](../Topic/\($%20N_7302%20Bins%20$\).md)   
  [How to: Assign Default Bins to Items](../WarehouseActivities/how-to-assign-default-bins-to-items.md)   
- [\($ T\_14\_5734 Default Bin Selection $\)](../Topic/\($%20T_14_5734%20Default%20Bin%20Selection%20$\).md)   
+ [Default Bin Selection](../Topic/\($%20T_14_5734%20Default%20Bin%20Selection%20$\).md)   
  [How to: Set Up Locations to Use Bins](../WarehouseActivities/how-to-set-up-locations-to-use-bins.md)

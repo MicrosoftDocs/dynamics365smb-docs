@@ -46,7 +46,7 @@ translation.priority.ht:
 # How to: Split Warehouse Activity Lines
 In warehouse put\-aways, movements, or picks, and in inventory put\-aways and inventory picks, bins are suggested for the picking or putting away of items. The actual quantity in the bin suggested may not be sufficient, or there is not enough room in the suggested bin to put away the required quantity. In these cases, you need to split the line, so that the items for one line are either taken from or placed into more than one bin.  
   
- The following procedure applies to all document lines that are managed in the **\($ T\_5767 Warehouse Activity Line $\)** table, such as warehouse put\-away, movement, and pick lines, or inventory put\-away, movement, and pick lines.  
+ The following procedure applies to all document lines that are managed in the **Warehouse Activity Line** table, such as warehouse put\-away, movement, and pick lines, or inventory put\-away, movement, and pick lines.  
   
 ### To split warehouse activity lines  
   
@@ -63,5 +63,5 @@ In warehouse put\-aways, movements, or picks, and in inventory put\-aways and in
   
 ## See Also  
  [Perform Warehouse Activities](../WarehouseActivities/perform-warehouse-activities.md)   
- [\($ T\_5767\_26 Qty. to Handle $\)](../Topic/\($%20T_5767_26%20Qty.%20to%20Handle%20$\).md)   
- [\($ T\_5767 Warehouse Activity Line $\)](../Topic/\($%20T_5767%20Warehouse%20Activity%20Line%20$\).md)
+ [Qty. to Handle](../Topic/\($%20T_5767_26%20Qty.%20to%20Handle%20$\).md)   
+ [Warehouse Activity Line](../Topic/\($%20T_5767%20Warehouse%20Activity%20Line%20$\).md)

@@ -55,5 +55,5 @@ One way to set up a service management business is to have standard contractual 
 |Associate comments with specific contracts.|[How to: Register Service Contract Comments](../Service/how-to-register-service-contract-comments.md)|  
   
 ## See Also  
- [\($ N\_6050 Service Contract $\)](../Topic/\($%20N_6050%20Service%20Contract%20$\).md)   
+ [Service Contract](../Topic/\($%20N_6050%20Service%20Contract%20$\).md)   
  [Service Price Management](../Service/service-price-management.md)

@@ -23,13 +23,13 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can cr
   
 ### To submit vendor payments electronically in SEPA ISO 20022 payment format  
   
-1.  In the **Search** box, enter **\($ N\_11000000 Telebank\-Bank Overview $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Telebank\-Bank Overview**, and then choose the related link.  
   
 2.  Select the relevant bank account, and then, on the **Navigate** tab, in the **Telebank** group, choose **Proposal**.  
   
 3.  Select the relevant vendor bank account, and then, on the **Navigate** tab, in the **Proposal** group, choose **Get Entries**.  
   
-4.  In the **\($ B\_11000000 Get Proposal Entries $\)** batch job, on the **Options** FastTab, fill in the fields as described in the following table.  
+4.  In the **Get Proposal Entries** batch job, on the **Options** FastTab, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
@@ -47,10 +47,10 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can cr
   
 8.  Choose the **OK** button.  
   
-     The proposal lines populate in the **\($ N\_11000001 Telebank Proposal $\)** window.  
+     The proposal lines populate in the **Telebank Proposal** window.  
   
 ## See Also  
  [How to: Activate SEPA Payments\-duplicate](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/how-to-activate-sepa-payments-duplicate.md)   
  [Single EURO Payments Area \(SEPA\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/single-euro-payments-area-sepa-.md)   
- [\($ N\_11000000 Telebank \- Bank Overview Window $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-n_11000000-telebank-bank-overview-window-$-.md)   
- [\($ N\_11000001 Telebank Proposal Window $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-n_11000001-telebank-proposal-window-$-.md)
+ [Telebank \- Bank Overview Window](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-n_11000000-telebank-bank-overview-window-$-.md)   
+ [Telebank Proposal Window](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-n_11000001-telebank-proposal-window-$-.md)

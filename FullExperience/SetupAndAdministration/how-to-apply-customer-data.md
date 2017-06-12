@@ -47,7 +47,7 @@ When you have all imported data migration records that are valid and have no err
   
 2.  Select the table for the data migration file that you want to apply to the [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] database.  
   
-3.  On the **Tables** FastTab, in the **Functions** group, choose **Apply Data**. You can see the number of database records that have been created in the **\($ T\_8613\_3 No. of Database Records $\)** field. Verify that the correct records have been created. Choose the link in the **\($ T\_8613\_3 No. of Database Records $\)**.  
+3.  On the **Tables** FastTab, in the **Functions** group, choose **Apply Data**. You can see the number of database records that have been created in the **No. of Database Records** field. Verify that the correct records have been created. Choose the link in the **No. of Database Records**.  
   
  The customer’s company database is now set up and basic data is imported. Your next steps in the implementation process are to train users, define processes, create additional data, customize reports, and so on.  
   

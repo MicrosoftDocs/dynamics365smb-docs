@@ -77,9 +77,9 @@ When you post an inventory transaction, the quantity posting is recorded in the 
   
 |[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
 |---------------------------------|---------------------------------------|  
-|**\($ T\_339\_2 Item Ledger Entry No. $\)**|The number of the item ledger entry for the transaction that this application entry is created for.|  
-|**\($ T\_339\_3 Inbound Item Entry No. $\)**|The item ledger entry number of the inventory increase to which the transaction should be linked, if applicable.|  
-|**\($ T\_339\_4 Outbound Item Entry No. $\)**|The item ledger entry number of the inventory decrease to which the transaction should be linked, if applicable.|  
+|**Item Ledger Entry No.**|The number of the item ledger entry for the transaction that this application entry is created for.|  
+|**Inbound Item Entry No.**|The item ledger entry number of the inventory increase to which the transaction should be linked, if applicable.|  
+|**Outbound Item Entry No.**|The item ledger entry number of the inventory decrease to which the transaction should be linked, if applicable.|  
 |**Quantity**|The quantity being applied.|  
 |**Posting Date**|The posting date of the transaction.|  
   
@@ -89,21 +89,21 @@ When you post an inventory transaction, the quantity posting is recorded in the 
 ### Example  
  The following table shows the item application entry that is created when you post a purchase receipt of 10 units.  
   
-|Posting Date|\($ T\_339\_3 Inbound Item Entry No. $\)|\($ T\_339\_4 Outbound Item Entry No. $\)|Quantity|\($ T\_339\_2 Item Ledger Entry No. $\)|  
+|Posting Date|Inbound Item Entry No.|Outbound Item Entry No.|Quantity|Item Ledger Entry No.|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
 |01\-01\-20|1|0|10|1|  
   
 ## Inventory Decrease  
  When you post an inventory decrease, an item application entry is created that links the inventory decrease to an inventory increase. This link is created by using the item’s costing method as a guideline. For items using FIFO, Standard, and Average costing methods, the linking is based on the first\-in\-first\-out principle. The inventory decrease is applied to the inventory increase with the earliest posting date. For items using the LIFO costing method, the linking is based on the last\-in\-first\-out principle. The inventory decrease is applied to the inventory increase with the most recent posting date.  
   
- In the  **\($ T\_32 Item Ledger Entry $\)** table, the **\($ T\_32\_13 Remaining Quantity $\)** field shows the quantity that has not yet been applied. If the remaining quantity is more than 0, then the **\($ T\_32\_29 Open $\)** check box is selected.  
+ In the  **Item Ledger Entry** table, the **Remaining Quantity** field shows the quantity that has not yet been applied. If the remaining quantity is more than 0, then the **Open** check box is selected.  
   
 ### Example  
  The following example shows the item application entry that is created when you post a sales shipment of 5 units of the items that were received in the previous example. The first item application entry is the purchase receipt. The second application entry is the sales shipment.  
   
  The following table shows the two item application entries that result from the inventory increase and the inventory decrease, respectively.  
   
-|Posting Date|\($ T\_339\_3 Inbound Item Entry No. $\)|\($ T\_339\_4 Outbound Item Entry No. $\)|Quantity|\($ T\_339\_2 Item Ledger Entry No. $\)|  
+|Posting Date|Inbound Item Entry No.|Outbound Item Entry No.|Quantity|Item Ledger Entry No.|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
 |01\-01\-20|1|0|10|1|  
 |01\-03\-20|1|2|\-5|2|  
@@ -111,7 +111,7 @@ When you post an inventory transaction, the quantity posting is recorded in the 
 ## Fixed Application  
  You make a fixed application when you specify that the cost of an inventory increase should apply to a specific inventory decrease, or vice versa. The fixed application affects the remaining quantities of the entries, but the fixed application also reverses the exact cost of the original entry that you are applying to, or from.  
   
- To make a fixed application, you use the **\($ T\_39\_38 Appl.\-to Item Entry $\)** field or the **\($ T\_37\_5811 Appl.\-from Item Entry $\)** field in the document lines to specify the item ledger entry that you want the transaction line to apply to, or from. For example, you might make a fixed application when you want to create a cost application that specifies that a sales return should apply to a specific sales shipment to reverse the cost of the sales shipment. In this case, [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] ignores the costing method and applies the inventory decrease, or increase, for a sales return, to the item ledger entry that you specify. The advantage of making a fixed application is that the cost of the original transaction is passed to the new transaction.  
+ To make a fixed application, you use the **Appl.\-to Item Entry** field or the **Appl.\-from Item Entry** field in the document lines to specify the item ledger entry that you want the transaction line to apply to, or from. For example, you might make a fixed application when you want to create a cost application that specifies that a sales return should apply to a specific sales shipment to reverse the cost of the sales shipment. In this case, [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] ignores the costing method and applies the inventory decrease, or increase, for a sales return, to the item ledger entry that you specify. The advantage of making a fixed application is that the cost of the original transaction is passed to the new transaction.  
   
 ### Example – Fixed Application in Purchase Return  
  The following example, which illustrates the effect of fixed application of a purchase return of an item using the FIFO costing method, is based on the following scenario:  
@@ -120,11 +120,11 @@ When you post an inventory transaction, the quantity posting is recorded in the 
   
 2.  In entry number 2, the user posts a purchase at a cost of LCY 20.00.  
   
-3.  In entry number 3, the user posts a purchase return. The user makes a fixed application to the second purchase by entering the item ledger entry number in the **\($ T\_39\_38 Appl.\-to Item Entry $\)** field on the purchase return order line.  
+3.  In entry number 3, the user posts a purchase return. The user makes a fixed application to the second purchase by entering the item ledger entry number in the **Appl.\-to Item Entry** field on the purchase return order line.  
   
  The following table shows item ledger entries resulting from the scenario.  
   
-|**Posting Date**|**\($ T\_5802\_4 Item Ledger Entry Type $\)**|**Quantity**|**\($ T\_32\_5804 Cost Amount \(Actual\) $\)**|**\($ T\_5802\_11 Item Ledger Entry No. $\)**|  
+|**Posting Date**|**Item Ledger Entry Type**|**Quantity**|**Cost Amount \(Actual\)**|**Item Ledger Entry No.**|  
 |----------------------|---------------------------------------------------|------------------|----------------------------------------------------|---------------------------------------------------|  
 |01\-04\-20|Purchase|10|10.00|1|  
 |01\-05\-20|Purchase|10|20.00|2|  
@@ -134,7 +134,7 @@ When you post an inventory transaction, the quantity posting is recorded in the 
   
  The following table shows the item application entry that results from the fixed application.  
   
-|Posting Date|\($ T\_339\_3 Inbound Item Entry No. $\)|\($ T\_339\_4 Outbound Item Entry No. $\)|Quantity|\($ T\_339\_2 Item Ledger Entry No. $\)|  
+|Posting Date|Inbound Item Entry No.|Outbound Item Entry No.|Quantity|Item Ledger Entry No.|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
 |01\-06\-20|1|3|10|3|  
   
@@ -145,7 +145,7 @@ When you post an inventory transaction, the quantity posting is recorded in the 
   
 1.  In entry numbers 1 and 2, the user posts two purchase invoices. The second invoice has the incorrect direct unit cost of LCY 1000.00.  
   
-2.  In entry number 3, the user posts a purchase credit memo, with a fixed application applied to the purchase entry with the wrong direct unit cost. The sum of the **\($ T\_32\_5804 Cost Amount \(Actual\) $\)** field for the two fixed applied value entries becomes 0.00  
+2.  In entry number 3, the user posts a purchase credit memo, with a fixed application applied to the purchase entry with the wrong direct unit cost. The sum of the **Cost Amount \(Actual\)** field for the two fixed applied value entries becomes 0.00  
   
 3.  In entry number 4, the user posts another purchase invoice with the correct direct unit cost of LCY 100.00  
   
@@ -155,7 +155,7 @@ When you post an inventory transaction, the quantity posting is recorded in the 
   
  The following table shows the result of the scenario on the item’s value entries.  
   
-|\($ T\_5802\_3 Posting Date $\)|\($ T\_5802\_4 Item Ledger Entry Type $\)|\($ T\_5802\_12 Valued Quantity $\)|\($ T\_5802\_43 Cost Amount \(Actual\) $\)|\($ T\_39\_38 Appl.\-to Item Entry $\)|\($ T\_5802\_100 Valued by Average Cost $\)|\($ T\_5802\_11 Item Ledger Entry No. $\)|\($ T\_5802\_1 Entry No. $\)|  
+|Posting Date|Item Ledger Entry Type|Valued Quantity|Cost Amount \(Actual\)|Appl.\-to Item Entry|Valued by Average Cost|Item Ledger Entry No.|Entry No.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
 |01\-01\-20|Purchase|1|200.00||No|1|1|  
 |01\-01\-20|Purchase|1|1000.00||No|2|2|  
@@ -167,7 +167,7 @@ When you post an inventory transaction, the quantity posting is recorded in the 
   
  The following table shows the result on the item’s value entries if step 2 in the previous scenario is performed without a fixed application.  
   
-|\($ T\_5802\_3 Posting Date $\)|\($ T\_5802\_4 Item Ledger Entry Type $\)|\($ T\_5802\_12 Valued Quantity $\)|\($ T\_5802\_43 Cost Amount \(Actual\) $\)|\($ T\_39\_38 Appl.\-to Item Entry $\)|\($ T\_5802\_100 Valued by Average Cost $\)|\($ T\_5802\_11 Item Ledger Entry No. $\)|\($ T\_5802\_1 Entry No. $\)|  
+|Posting Date|Item Ledger Entry Type|Valued Quantity|Cost Amount \(Actual\)|Appl.\-to Item Entry|Valued by Average Cost|Item Ledger Entry No.|Entry No.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
 |01\-01\-20|Purchase|1|200.00||No|1|1|  
 |01\-01\-20|Purchase|1|1000.00||No|2|2|  
@@ -175,9 +175,9 @@ When you post an inventory transaction, the quantity posting is recorded in the 
 |01\-01\-20|Purchase|1|100.00||No|4|4|  
 |01\-01\-20|Sale|\-2|866,67||Yes|5|5|  
   
- In entry number 3, the value in the **\($ T\_5802\_43 Cost Amount \(Actual\) $\)** field is valued by average and therefore includes the erroneous posting of 1000.00. Accordingly, it becomes \-433,33, which is an inflated cost amount. The calculation is 1300 \/ 3 \= .\-433,33.  
+ In entry number 3, the value in the **Cost Amount \(Actual\)** field is valued by average and therefore includes the erroneous posting of 1000.00. Accordingly, it becomes \-433,33, which is an inflated cost amount. The calculation is 1300 \/ 3 \= .\-433,33.  
   
- In entry number 5, the value of the **\($ T\_5802\_43 Cost Amount \(Actual\) $\)** field for this entry is also inaccurate for the same reason.  
+ In entry number 5, the value of the **Cost Amount \(Actual\)** field for this entry is also inaccurate for the same reason.  
   
 > [!NOTE]  
 >  If you create a fixed application for an inventory decrease for an item that uses the Average costing method, then the decrease will not receive the average cost for the item as usual, but will instead receive the cost of the inventory increase that you specified. That inventory decrease is then no longer part of the average cost calculation.  
@@ -197,7 +197,7 @@ When you post an inventory transaction, the quantity posting is recorded in the 
   
  The following table shows the result of scenario steps 1 through 3 on the item’s value entries.  
   
-|\($ T\_5802\_3 Posting Date $\)|\($ T\_5802\_4 Item Ledger Entry Type $\)|\($ T\_5802\_12 Valued Quantity $\)|\($ T\_5802\_43 Cost Amount \(Actual\) $\)|\($ T\_37\_5811 Appl.\-from Item Entry $\)|\($ T\_5802\_11 Item Ledger Entry No. $\)|\($ T\_5802\_1 Entry No. $\)|  
+|Posting Date|Item Ledger Entry Type|Valued Quantity|Cost Amount \(Actual\)|Appl.\-from Item Entry|Item Ledger Entry No.|Entry No.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
 |01\-01\-20|Purchase|1|1000.00||1|1|  
 |02\-01\-20|Sale|\-1|1000.00||2|2|  
@@ -205,23 +205,23 @@ When you post an inventory transaction, the quantity posting is recorded in the 
   
  The following table shows the value entry resulting from scenario step 4, posting the item charge.  
   
-|\($ T\_5802\_3 Posting Date $\)|\($ T\_5802\_4 Item Ledger Entry Type $\)|\($ T\_5802\_12 Valued Quantity $\)|\($ T\_5802\_43 Cost Amount \(Actual\) $\)|\($ T\_37\_5811 Appl.\-from Item Entry $\)|\($ T\_5802\_11 Item Ledger Entry No. $\)|\($ T\_5802\_1 Entry No. $\)|  
+|Posting Date|Item Ledger Entry Type|Valued Quantity|Cost Amount \(Actual\)|Appl.\-from Item Entry|Item Ledger Entry No.|Entry No.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
 |04\-01\-20|\(Item Charge\)|1|100.00||1|4|  
   
  The following table shows the effect of the exact cost reversal on the item’s value entries.  
   
-|\($ T\_5802\_3 Posting Date $\)|\($ T\_5802\_4 Item Ledger Entry Type $\)|\($ T\_5802\_12 Valued Quantity $\)|\($ T\_5802\_43 Cost Amount \(Actual\) $\)|\($ T\_37\_5811 Appl.\-from Item Entry $\)|\($ T\_5802\_11 Item Ledger Entry No. $\)|\($ T\_5802\_1 Entry No. $\)|  
+|Posting Date|Item Ledger Entry Type|Valued Quantity|Cost Amount \(Actual\)|Appl.\-from Item Entry|Item Ledger Entry No.|Entry No.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
 |01\-01\-20|Purchase|1|1000.00||1|1|  
 |02\-01\-20|Sale|\-1|1100.00||2|2|  
 |03\-01\-20|Sale \(Credit Memo\)|1|1100.00|2|3|3|  
 |04\-01\-20|\(Item Charge\)|1|100.00||1|4|  
   
- When you run the **\($ B\_795 Adjust Cost \- Item Entries $\)** batch job, the increased cost of the purchase entry, due to the item charge, is forwarded to the sales entry \(entry number 2\). The sales entry then forwards this increased cost to the sales credit entry \(entry number 3\). The final result is that the cost is correctly reversed.  
+ When you run the **Adjust Cost \- Item Entries** batch job, the increased cost of the purchase entry, due to the item charge, is forwarded to the sales entry \(entry number 2\). The sales entry then forwards this increased cost to the sales credit entry \(entry number 3\). The final result is that the cost is correctly reversed.  
   
 > [!NOTE]  
->  If you are working with returns or credit memos and you have set up the **\($ T\_312\_6602 Exact Cost Reversing Mandatory $\)** field in either the **\($ N\_460 Purchases & Payables Setup $\)** window or the **\($ N\_459 Sales & Receivables Setup $\)** window, as appropriate for your situation, then [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] automatically fills the various application entry fields when you use the **Copy Document** function. If you use the **Get Posted Document Lines to Reverse** function, then the fields are always filled automatically.  
+>  If you are working with returns or credit memos and you have set up the **Exact Cost Reversing Mandatory** field in either the **Purchases & Payables Setup** window or the **Sales & Receivables Setup** window, as appropriate for your situation, then [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] automatically fills the various application entry fields when you use the **Copy Document** function. If you use the **Get Posted Document Lines to Reverse** function, then the fields are always filled automatically.  
   
 > [!NOTE]  
 >  If you post a transaction with a fixed application, and the item ledger entry that you are applying to is closed, meaning that the remaining quantity is zero, then the old application is automatically undone and reapplies the item ledger entry using the fixed application that you specified.  
@@ -240,7 +240,7 @@ When you post an inventory transaction, the quantity posting is recorded in the 
   
  The following table shows the effect of the transfer on the item’s value entries.  
   
-|\($ T\_5802\_3 Posting Date $\)|\($ T\_5802\_4 Item Ledger Entry Type $\)|\($ T\_5802\_8 Location Code $\)|\($ T\_5802\_12 Valued Quantity $\)|\($ T\_5802\_43 Cost Amount \(Actual\) $\)|\($ T\_5802\_1 Entry No. $\)|  
+|Posting Date|Item Ledger Entry Type|Location Code|Valued Quantity|Cost Amount \(Actual\)|Entry No.|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
 |01\-01\-20|Purchase|BLUE|1|10.00|1|  
 |01\-01\-20|Purchase|BLUE|1|20.00|2|  
@@ -256,7 +256,7 @@ When you post an inventory transaction, the quantity posting is recorded in the 
   
  The following table shows the effect of the transfer on the item’s value entries.  
   
-|\($ T\_5802\_3 Posting Date $\)|\($ T\_5802\_4 Item Ledger Entry Type $\)|\($ T\_5802\_8 Location Code $\)|\($ T\_5802\_12 Valued Quantity $\)|\($ T\_5802\_43 Cost Amount \(Actual\) $\)|\($ T\_5802\_1 Entry No. $\)|  
+|Posting Date|Item Ledger Entry Type|Location Code|Valued Quantity|Cost Amount \(Actual\)|Entry No.|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
 |01\-01\-20|Purchase|BLUE|1|10.00|1|  
 |02\-01\-20|Transfer|BLUE|\-1|10.00|2|  
@@ -275,7 +275,7 @@ When you post an inventory transaction, the quantity posting is recorded in the 
   
 -   You have to return an item to which a sale has already been manually applied, without using the **Get Posted Document Lines to Reverse** function, and you must therefore undo the application.  
   
- [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] offers a feature for analyzing and correcting item applications. This work is performed in the **\($ N\_521 Application Worksheet $\)** window.  
+ [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] offers a feature for analyzing and correcting item applications. This work is performed in the **Application Worksheet** window.  
   
 ## See Also  
  [Design Details: Inventory Costing](../ApplicationDesign/design-details-inventory-costing.md)   

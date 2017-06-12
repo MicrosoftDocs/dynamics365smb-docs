@@ -55,4 +55,4 @@ There will be occasions in which you want to make sure that an item you want for
 5.  In the **Reservation** window, on the **Home** tab, in the **Process** group, choose **Reserve from Current Line**. Choose the **OK** button.  
   
 ## See Also  
- [\($ N\_498 Reservation $\)](../Topic/\($%20N_498%20Reservation%20$\).md)
+ [Reservation](../Topic/\($%20N_498%20Reservation%20$\).md)

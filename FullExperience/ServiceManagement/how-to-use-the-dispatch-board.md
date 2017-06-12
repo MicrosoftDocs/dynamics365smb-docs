@@ -44,7 +44,7 @@ You may often need to see the list of service orders or service quotes that meet
   
 ### To see an overview of service orders and service quotes  
   
-1.  In the **Search** box, enter **\($ N\_6000 Dispatch Board $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Dispatch Board**, and then choose the related link.  
   
 2.  In the **Document Filter** field, select the type of the documents you want to see. There are three options: **Order**, **Quote**, and **All**.  
   

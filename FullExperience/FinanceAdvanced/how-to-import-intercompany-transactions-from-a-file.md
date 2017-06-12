@@ -49,11 +49,11 @@ If you have an intercompany partner that is not in the same database as your com
   
 1.  In the **Search** box, enter **Company Information** , and then choose the related link.  
   
-2.  Save the file to the location that you specified in the **\($ T\_79\_43 IC Inbox Details $\)** field in the **\($ N\_1 Company Information $\)** window.  
+2.  Save the file to the location that you specified in the **IC Inbox Details** field in the **Company Information** window.  
   
 3.  In the **Search** box, enter **IC Inbox Transactions**, and then choose the related link.  
   
-4.  In the **\($ N\_615 IC Inbox Transactions $\)** window, on the **Actions** tab, in the **Functions** group, choose **Import Transaction File**.  
+4.  In the **IC Inbox Transactions** window, on the **Actions** tab, in the **Functions** group, choose **Import Transaction File**.  
   
 5.  In the window that appears, select the .xml file that contains the transactions and then choose the **Open** button.  
   

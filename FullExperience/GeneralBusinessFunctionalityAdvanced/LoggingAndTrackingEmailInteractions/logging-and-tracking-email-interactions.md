@@ -43,7 +43,7 @@ Email logging in [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md
 ## How It Works  
  Email logging is designed to capture interactions between senders and recipients on the **To:** line of email messages. It captures the interactions that have been successfully concluded; interactions that are in a postponed state are not tracked.  
   
- Email logging uses Exchange Web Services to access an Exchange server. It uses a specified mail folder on the Exchange Server, called the queue folder. After an email message is retrieved from the queue folder, it is copied to another folder, called a storage folder. The email interaction is logged in the **\($ T\_5065 Interaction Log Entry $\)** table in [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]. You can view the entries in the **\($ N\_5076 Interaction Log Entries $\)** window.  
+ Email logging uses Exchange Web Services to access an Exchange server. It uses a specified mail folder on the Exchange Server, called the queue folder. After an email message is retrieved from the queue folder, it is copied to another folder, called a storage folder. The email interaction is logged in the **Interaction Log Entry** table in [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]. You can view the entries in the **Interaction Log Entries** window.  
   
 > [!IMPORTANT]  
 >  You must configure Exchange to allow public folders. This configuration is different across versions of Exchange. For more information, see [Public folders in Exchange Server 2013](http://go.microsoft.com/fwlink/?LinkId=526140).  

@@ -26,7 +26,7 @@ Material consumption credits the inventory account and debits the WIP account.
   
 ### To set up WIP accounts for posting material consumption  
   
-1.  In the **Search** box, enter **\($ N\_112 Inventory Posting Groups $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Inventory Posting Groups**, and then choose the related link.  
   
 2.  On the **Actions** tab, in the **General** group, choose **Setup**.  
   
@@ -34,5 +34,5 @@ Material consumption credits the inventory account and debits the WIP account.
   
 ## See Also  
  [How to: Post Consumption Manually](../Production/how-to-post-consumption-manually.md)   
- [\($ T\_5813\_99000750 WIP Account $\)](../Topic/\($%20T_5813_99000750%20WIP%20Account%20$\).md)   
- [\($ T\_5846\_10 WIP Inventory $\)](../Topic/\($%20T_5846_10%20WIP%20Inventory%20$\).md)
+ [WIP Account](../Topic/\($%20T_5813_99000750%20WIP%20Account%20$\).md)   
+ [WIP Inventory](../Topic/\($%20T_5846_10%20WIP%20Inventory%20$\).md)

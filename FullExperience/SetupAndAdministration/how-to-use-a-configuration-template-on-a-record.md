@@ -47,11 +47,11 @@ You can apply a data template to any record that is in [!INCLUDE[navnow](../Appl
   
 1.  Create a new contact, customer, item, or vendor record. For example, to create a new customer record, in the **Search** box, enter **Customers**, and then choose the related link.  
   
-2.  On the **Home** tab, in the **New** group, choose **New**. The **\($ N\_21 New \- Customer Card $\)** window opens.  
+2.  On the **Home** tab, in the **New** group, choose **New**. The **New \- Customer Card** window opens.  
   
 3.  Enter a customer number and enter a customer name. In the **Process** group, choose **Apply Template**.  
   
-4.  Select a customer template that you have created from the list in the **\($ N\_8620 Data Template List $\)** window. Choose the **OK** button.  
+4.  Select a customer template that you have created from the list in the **Data Template List** window. Choose the **OK** button.  
   
  The default values from the chosen customer template are copied to the customer card.  
   

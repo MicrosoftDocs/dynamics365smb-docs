@@ -39,7 +39,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Export Purchase Analysis Views to Excel
-You can export your purchase analysis views to Microsoft Excel. In Excel, you can analyze and work with data from \($ P\_1 Product Name $\) using the full range of features in Excel.  
+You can export your purchase analysis views to Microsoft Excel. In Excel, you can analyze and work with data from Product Name using the full range of features in Excel.  
   
 ### To export a purchase analysis view to Excel  
   
@@ -60,4 +60,4 @@ You can export your purchase analysis views to Microsoft Excel. In Excel, you ca
 ## See Also  
  [How to: View Analysis by Dimensions](../BusinessIntelligence/how-to-view-analysis-by-dimensions.md)   
  [Create Analysis Views and Reports](../BusinessIntelligence/create-analysis-views-and-reports.md)   
- [\($ T\_348 Dimension $\)](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)
+ [Dimension](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)

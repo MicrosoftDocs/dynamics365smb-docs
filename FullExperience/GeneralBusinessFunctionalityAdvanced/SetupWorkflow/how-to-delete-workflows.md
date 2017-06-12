@@ -40,7 +40,7 @@ If you are certain that a workflow is no longer being used, you can delete it. A
 > [!CAUTION]  
 >  When you delete a workflow, all information in the workflow will be lost.  
   
- In the **\($ N\_1501 Workflow $\)** window, you create a workflow by listing the involved steps on the lines. Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options. You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code. For more information, see [How to: Create Workflows](../../BusinessFunctionality/Workflow/how-to-create-workflows.md).  
+ In the **Workflow** window, you create a workflow by listing the involved steps on the lines. Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options. You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code. For more information, see [How to: Create Workflows](../../BusinessFunctionality/Workflow/how-to-create-workflows.md).  
   
 ### To delete a workflow  
   
@@ -52,12 +52,12 @@ If you are certain that a workflow is no longer being used, you can delete it. A
   
 4.  Alternatively, open the workflow that you want to delete.  
   
-5.  In the **\($ N\_1501 Workflow $\)** window, on the **Home** tab, in the **Manage** group, choose **Delete**.  
+5.  In the **Workflow** window, on the **Home** tab, in the **Manage** group, choose **Delete**.  
   
 ## See Also  
- [\($ N\_1501 Workflow $\)](../Topic/\($%20N_1501%20Workflow%20$\).md)   
- [\($ N\_1523 Workflow Response Options $\)](../Topic/\($%20N_1523%20Workflow%20Response%20Options%20$\).md)   
- [\($ N\_1511 Notification Entries $\)](../Topic/\($%20N_1511%20Notification%20Entries%20$\).md)   
+ [Workflow](../Topic/\($%20N_1501%20Workflow%20$\).md)   
+ [Workflow Response Options](../Topic/\($%20N_1523%20Workflow%20Response%20Options%20$\).md)   
+ [Notification Entries](../Topic/\($%20N_1511%20Notification%20Entries%20$\).md)   
  [How to: Create Workflows](../../BusinessFunctionality/Workflow/how-to-create-workflows.md)   
  [How to: Enable Workflows](../../BusinessFunctionality/Workflow/how-to-enable-workflows.md)   
  [How to: View Archived Workflow Step Instances](../../BusinessFunctionality/Workflow/how-to-view-archived-workflow-step-instances.md)   

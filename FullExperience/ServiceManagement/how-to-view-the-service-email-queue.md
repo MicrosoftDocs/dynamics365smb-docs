@@ -51,4 +51,4 @@ When the status of service orders is updated to **Finished**, and the customer i
   
 ## See Also  
  [How to: Send Email Messages Manually](../Service/how-to-send-email-messages-manually.md)   
- [\($ N\_670 Job Queues $\)](../Topic/\($%20N_670%20Job%20Queues%20$\).md)
+ [Job Queues](../Topic/\($%20N_670%20Job%20Queues%20$\).md)

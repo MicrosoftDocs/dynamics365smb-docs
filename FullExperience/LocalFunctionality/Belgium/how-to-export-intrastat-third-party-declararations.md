@@ -29,9 +29,9 @@ In Belgium, you must have a third\-party declarant fill out the Intrastat declar
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ B\_593\_F\_1\_1010012 Nihil declaration $\)**|Select if you do not have any trade transactions with European Union \(EU\) countries\/regions and want to send an empty declaration.|  
-    |**\($ B\_593\_F\_1\_1010007 Enterprise No.\/VAT Reg. No. $\)**|Enter the enterprise or VAT registration number.|  
-    |**\($ B\_593\_F\_1\_1010001 Directory $\)**|Enter the directory which the file will be saved to.|  
+    |**Nihil declaration**|Select if you do not have any trade transactions with European Union \(EU\) countries\/regions and want to send an empty declaration.|  
+    |**Enterprise No.\/VAT Reg. No.**|Enter the enterprise or VAT registration number.|  
+    |**Directory**|Enter the directory which the file will be saved to.|  
   
 4.  Choose the **OK** button.  
   

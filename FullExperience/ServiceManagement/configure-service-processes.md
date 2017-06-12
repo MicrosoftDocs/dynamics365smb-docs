@@ -60,4 +60,4 @@ Service management in [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.
   
 ## See Also  
  [Determine Service Offerings](../Service/determine-service-offerings.md)   
- [Working with \($ P\_1 Product Name $\)](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)
+ [Working with Product Name](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)

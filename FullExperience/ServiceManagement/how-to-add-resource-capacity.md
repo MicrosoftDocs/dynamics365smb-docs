@@ -44,7 +44,7 @@ You may regularly need to change the capacity of resources, such as technicians,
   
 ### To add resource capacity  
   
-1.  In the **Search** box, enter **\($ N\_76 Resource List $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Resource List**, and then choose the related link.  
   
 2.  On the **Navigate** tab, in the **Planning** group, choose **Resource Capacity**. The **Resource Capacity** window opens.  
   

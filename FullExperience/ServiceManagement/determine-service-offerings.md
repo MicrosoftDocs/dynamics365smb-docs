@@ -51,5 +51,5 @@ When you set up service management, you have to decide what services to offer cu
   
 ## See Also  
  [How to: Trace Item\-Tracked Items](../Receiving/how-to-trace-item-tracked-items.md)   
- [\($ N\_40 Item Journal $\)](../WarehouseActivities/-$-n_40-item-journal-$-.md)   
- [\($ N\_291 Req. Worksheet $\)](../OperationsPlanning/-$-n_291-req.-worksheet-$-.md)
+ [Item Journal](../WarehouseActivities/-$-n_40-item-journal-$-.md)   
+ [Req. Worksheet](../OperationsPlanning/-$-n_291-req.-worksheet-$-.md)

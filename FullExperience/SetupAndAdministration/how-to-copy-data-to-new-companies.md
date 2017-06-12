@@ -49,6 +49,6 @@ You can copy commonly used values from an existing company to a new one, as long
   
 3.  On the **Actions** tab, in the **Functions** group, choose **Copy Data from Company**.  
   
-4.  In the **\($ N\_8639 Copy Company Data $\)** window, choose a company to copy from in the **Copy From** field. Choose the **OK** button.  
+4.  In the **Copy Company Data** window, choose a company to copy from in the **Copy From** field. Choose the **OK** button.  
   
 5.  Select a table from one of the configuration packages that you have imported, and on the **Home** tab, in the **Process** group, choose **Copy Data**.

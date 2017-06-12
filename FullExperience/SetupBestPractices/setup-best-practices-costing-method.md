@@ -38,11 +38,11 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Setup Best Practices: Costing Method
-The **\($ T\_27\_21 Costing Method $\)** on the item card defines item’s cost flow is recorded and whether an actual or budgeted value is capitalized and used in the cost calculation.  
+The **Costing Method** on the item card defines item’s cost flow is recorded and whether an actual or budgeted value is capitalized and used in the cost calculation.  
   
  Setting the correct costing method according to item type and business environment is important to ensure economical inventories.  
   
- The following table provides best practices on how to set up the **\($ T\_27\_21 Costing Method $\)** field. For more information, see [Design Details: Costing Methods](../ApplicationDesign/design-details-costing-methods.md).  
+ The following table provides best practices on how to set up the **Costing Method** field. For more information, see [Design Details: Costing Methods](../ApplicationDesign/design-details-costing-methods.md).  
   
 |Setup option|Best practice|Comment|  
 |------------------|-------------------|-------------|  

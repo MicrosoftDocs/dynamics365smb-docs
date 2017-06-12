@@ -98,7 +98,7 @@ A **Work Center** card organizes the fixed values and requirements of the produc
   
 1.  In the **Unit of Measure Code** field, enter the time unit in which this work center’s cost calculation and capacity planning are made.  
   
-2.  In the **Capacity** field, define whether the work center has more than one machine or person working at the same time. If your **\($ P\_1 Product Name $\)** installation does not include the Machine Center functionality, then the value in this field must be **1**\).  
+2.  In the **Capacity** field, define whether the work center has more than one machine or person working at the same time. If your **Product Name** installation does not include the Machine Center functionality, then the value in this field must be **1**\).  
   
 3.  In the **Efficiency** field, enter the percentage of the expected standard output that this work center actually outputs. If you enter **100**, it means that the work center has an actual output that is the same as the standard output.  
   
@@ -112,6 +112,6 @@ A **Work Center** card organizes the fixed values and requirements of the produc
 6.  If you use the **Queue Time** field above then you must define a time unit of measure in the **Queue Time Unit of Meas. Code** field.  
   
 ## See Also  
- [\($ N\_99000754 Work Center Card $\)](../Topic/\($%20N_99000754%20Work%20Center%20Card%20$\).md)   
- [\($ N\_99000760 Machine Center Card $\)](../Topic/\($%20N_99000760%20Machine%20Center%20Card%20$\).md)   
+ [Work Center Card](../Topic/\($%20N_99000754%20Work%20Center%20Card%20$\).md)   
+ [Machine Center Card](../Topic/\($%20N_99000760%20Machine%20Center%20Card%20$\).md)   
  [Shop Calendars](../OperationsPlanning/shop-calendars.md)

@@ -92,7 +92,7 @@ Purchase returns are used to ensure that your company is compensated for incorre
   
 ## See Also  
  [How to: Create Purchase Credit Memos](../Finance/how-to-create-purchase-credit-memos.md)   
- [\($ B\_6697 Create Return\-Related Documents $\)](../Sales/-$-b_6697-create-return-related-documents-$-.md)   
+ [Create Return\-Related Documents](../Sales/-$-b_6697-create-return-related-documents-$-.md)   
  [How to: Create a Restock Charge](../Sales/how-to-create-a-restock-charge.md)   
  [How to: Assign Exact Cost Reversing in Sales](../Finance/how-to-assign-exact-cost-reversing-in-sales.md)   
  [How to: Create Replacement Purchase Orders](../Purchasing/how-to-create-replacement-purchase-orders.md)   

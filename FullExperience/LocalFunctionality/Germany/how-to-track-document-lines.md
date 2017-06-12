@@ -44,7 +44,7 @@ You can use the document tracking to view documents that are related to sales or
   
 4.  On the **Lines** FastTab, choose the **Actions** icon, point to **Line**, and then choose **Document Line Tracking**.  
   
-     In the **\($ N\_5005399 Document Lines Tracking $\)** window, you can view the number of document lines that exist for the order line.  
+     In the **Document Lines Tracking** window, you can view the number of document lines that exist for the order line.  
   
 5.  Choose the **Close** button.  
   
@@ -58,7 +58,7 @@ You can use the document tracking to view documents that are related to sales or
   
 4.  On the **Lines** FastTab, choose the **Actions** icon, point to **Line**, and then choose **Document Line Tracking**.  
   
-5.  In the **\($ N\_5005399 Document Lines Tracking $\)** window, select the document that you want to view, and then, on the **Home** tab, in the **Process** group, choose **Show**.  
+5.  In the **Document Lines Tracking** window, select the document that you want to view, and then, on the **Home** tab, in the **Process** group, choose **Show**.  
   
 6.  To view the entire document for the selected document line, on the **Navigate** tab, in the **Line** group, choose **Show Document**.  
   

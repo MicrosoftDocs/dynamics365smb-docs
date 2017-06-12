@@ -58,15 +58,15 @@ From outbound documents for item\-tracked items, such as sales orders or product
   
 4.  In the **Serial No.** field, enter **SN1**, in the **Lot No.** field, enter **LOT1**, and then enter **1** in the **Quantity \(Base\)** field.  
   
-5.  Close the **\($ N\_6507 Item Tracking List $\)** window.  
+5.  Close the **Item Tracking List** window.  
   
 6.  On the sales order, on the **Lines** FastTab, choose **Functions**, and then choose **Reserve**.  
   
 7.  Choose the **Yes** button to reserve specific serial or lot numbers.  
   
-8.  In the   **\($ N\_6507 Item Tracking List $\)** window, select the serial and lot number combination that you have just assigned.  
+8.  In the   **Item Tracking List** window, select the serial and lot number combination that you have just assigned.  
   
-9. Choose the **OK** button to open the **\($ N\_498 Reservation $\)** window showing only supply with the specified item tracking number. If there are any non\-specific reservations on any of the item tracking numbers that you have specified for this line, you are informed of the quantity that has already been reserved.  
+9. Choose the **OK** button to open the **Reservation** window showing only supply with the specified item tracking number. If there are any non\-specific reservations on any of the item tracking numbers that you have specified for this line, you are informed of the quantity that has already been reserved.  
   
 10. On the **Actions** tab, in the **Functions** group, choose either **Auto Reserve** or **Reserve from Current Line** to create the reservation on the specific item tracking numbers.  
   

@@ -27,19 +27,19 @@ The Payment Management module allows you to export your payments electronically 
   
 1.  In the **Search** box, enter **Payment Slip Setup**, and then choose the relevant link.  
   
-2.  In the **\($ N\_10864 Payment Class $\)** window, select a payment class, and then, on the **Actions** tab, in the **General** group, choose **Steps**.  
+2.  In the **Payment Class** window, select a payment class, and then, on the **Actions** tab, in the **General** group, choose **Steps**.  
   
-3.  In the **\($ N\_10866 Payment Step $\)** window, fill in the **\($ T\_10862\_3 Name $\)** field.  
+3.  In the **Payment Step** window, fill in the **Name** field.  
   
 4.  On the **Home** tab, in the **Manage** group, choose **Edit** to open.  
   
-5.  In the **\($ N\_10867 Payment Step Card $\)** window, fill in the fields.  
+5.  In the **Payment Step Card** window, fill in the fields.  
   
      [!INCLUDE[bp_fieldhelp]()]  
   
-6.  In the **\($ T\_10862\_6 Action Type $\)** field, select **File**, and then in the **Export Type.** field, select **Report** or **XMLport**.  
+6.  In the **Action Type** field, select **File**, and then in the **Export Type.** field, select **Report** or **XMLport**.  
   
-7.  In the **\($ T\_10862\_8 Export No. $\)** field, specify the object that will export the payments.  
+7.  In the **Export No.** field, specify the object that will export the payments.  
   
  The next time you make a payment that is based on this payment step, the payments will be exported to a file as specified.  
   

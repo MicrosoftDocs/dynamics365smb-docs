@@ -46,7 +46,7 @@ In the **Invt. Analysis by Dimensions** matrix, you can look at the amounts in y
   
 1.  In the **Search** box, enter **Inventory View by Dimensions**, and then choose the related link.  
   
-2.  Select the analysis view that you want. On the **Actions** tab, in the **General** group, choose **Edit Analysis View**. The **\($ N\_7159 Invt. Analysis by Dimensions $\)** window opens.  
+2.  Select the analysis view that you want. On the **Actions** tab, in the **General** group, choose **Edit Analysis View**. The **Invt. Analysis by Dimensions** window opens.  
   
 3.  On each FastTab, fill in the fields.  
   
@@ -80,4 +80,4 @@ In the **Invt. Analysis by Dimensions** matrix, you can look at the amounts in y
 ## See Also  
  [How to: Update Inventory Analysis Views](../BusinessIntelligence/how-to-update-inventory-analysis-views.md)   
  [How to: Set Up Inventory Analysis Views](../BusinessIntelligence/how-to-set-up-inventory-analysis-views.md)   
- [\($ T\_348 Dimension $\)](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)
+ [Dimension](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)

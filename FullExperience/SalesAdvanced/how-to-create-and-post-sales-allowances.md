@@ -69,7 +69,7 @@ You can send a customer a credit memo with a price reduction if the customer has
   
 ### To post a sales allowance  
   
-1.  In the **\($ N\_44 Sales Credit Memo $\)** window, on the **Actions** tab, in the **Posting** group, choose **Post**.  
+1.  In the **Sales Credit Memo** window, on the **Actions** tab, in the **Posting** group, choose **Post**.  
   
      If you want to print the credit memo at the same time as you post, choose   **Post and Print** instead.  
   

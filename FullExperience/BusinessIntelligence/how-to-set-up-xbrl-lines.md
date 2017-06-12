@@ -52,7 +52,7 @@ After you import or update the taxonomy, the lines of the schemas must be suppli
   
 1.  In the **Search** box, enter **XBRL Taxonomies**, and then choose the related link.  
   
-2.  In the **\($ N\_582 XBRL Taxonomies $\)** window, select a taxonomy from the list.  
+2.  In the **XBRL Taxonomies** window, select a taxonomy from the list.  
   
 3.  On the **Home** tab, in the **Process** group, choose **Lines**.  
   
@@ -73,5 +73,5 @@ After you import or update the taxonomy, the lines of the schemas must be suppli
 ## See Also  
  [How to: Import XBRLTaxonomies](../BusinessIntelligence/how-to-import-xbrltaxonomies.md)   
  [How to: Update XBRL Taxonomies](../BusinessIntelligence/how-to-update-xbrl-taxonomies.md)   
- [\($ R\_505 XBRL Export Instance \- Spec. 2 $\)](../Topic/\($%20R_505%20XBRL%20Export%20Instance%20-%20Spec.%202%20$\).md)   
+ [XBRL Export Instance \- Spec. 2](../Topic/\($%20R_505%20XBRL%20Export%20Instance%20-%20Spec.%202%20$\).md)   
  [eXtensible Business Reporting Language](../BusinessIntelligence/extensible-business-reporting-language.md)

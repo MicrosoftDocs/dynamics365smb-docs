@@ -22,4 +22,4 @@ In Iceland, it is a legal requirement to issue a credit memo if a conditional di
  On the Sales and Receivables Setup form, a field has been added for number series for credit invoices. A new field has also been added in the Customer Ledger Entry table to link the appropriate entries to a credit invoice.  
   
 ## See Also  
- [\($ N\_459 Sales & Receivables Setup $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Iceland/-$-n_459-sales-receivables-setup-$-.md)
+ [Sales & Receivables Setup](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Iceland/-$-n_459-sales-receivables-setup-$-.md)

@@ -52,8 +52,8 @@ With [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)], you can set
 |Set up a tool to manage customer service representative and resource assignments based on availability, skill, and proximity.|[Identify People and Resources](../Service/identify-people-and-resources.md)|  
   
 ## See Also  
- [\($ T\_5905 Service Cost $\)](../Topic/\($%20T_5905%20Service%20Cost%20$\).md)   
- [\($ T\_5940 Service Item $\)](../Topic/\($%20T_5940%20Service%20Item%20$\).md)   
- [\($ T\_5941 Service Item Component $\)](../Topic/\($%20T_5941%20Service%20Item%20Component%20$\).md)   
- [\($ T\_5945 Troubleshooting Setup $\)](../Topic/\($%20T_5945%20Troubleshooting%20Setup%20$\).md)   
- [Working with \($ P\_1 Product Name $\)](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)
+ [Service Cost](../Topic/\($%20T_5905%20Service%20Cost%20$\).md)   
+ [Service Item](../Topic/\($%20T_5940%20Service%20Item%20$\).md)   
+ [Service Item Component](../Topic/\($%20T_5941%20Service%20Item%20Component%20$\).md)   
+ [Troubleshooting Setup](../Topic/\($%20T_5945%20Troubleshooting%20Setup%20$\).md)   
+ [Working with Product Name](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)

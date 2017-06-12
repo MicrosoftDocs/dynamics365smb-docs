@@ -46,7 +46,7 @@ It is possible to set up many different calendars. A calendar is then assigned t
   
 ### To set up shop calendars  
   
-1.  In the **Search** box, enter **\($ N\_99000751 Shop Calendars $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Shop Calendars**, and then choose the related link.  
   
 2.  Fill in a code and a name for each calendar you wish to create.  
   

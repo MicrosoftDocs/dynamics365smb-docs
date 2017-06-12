@@ -47,7 +47,7 @@ You use the setup questionnaire to structure and document a detailed discussion 
   
 ### To complete the setup questionnaire  
   
-1.  In the [!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)], select the company for which you want to complete the questionnaire. For more information, see [\($ S\_COMPANY How to: Select a Company $\)](../WorkingWithDynamics/-$-s_company-how-to-select-a-company-$-.md).  
+1.  In the [!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)], select the company for which you want to complete the questionnaire. For more information, see [How to: Select a Company](../WorkingWithDynamics/-$-s_company-how-to-select-a-company-$-.md).  
   
 2.  In the **Search** box, enter **Configuration Questionnaire**, and then choose the related link.  
   

@@ -33,7 +33,7 @@ After you have set up electronic banking and generated payment suggestions, you 
   
 -   If a number series has been defined for SEPA.  
   
- You can view any errors in the **\($ N\_2000006 Export Check Error Logs $\)** window.  
+ You can view any errors in the **Export Check Error Logs** window.  
   
 > [!IMPORTANT]  
 >  You have to correct all errors before you can post the lines.  
@@ -42,11 +42,11 @@ After you have set up electronic banking and generated payment suggestions, you 
   
 1.  In the **Search** box, enter **Payment Journals**, and then choose the related link.  
   
-2.  In the **\($ N\_2000001\_1010026 Batch Name $\)** field, select the required journal batch.  
+2.  In the **Batch Name** field, select the required journal batch.  
   
-3.  In the **\($ N\_2000001\_1010028 Export Protocol $\)** field, select the export protocol.  
+3.  In the **Export Protocol** field, select the export protocol.  
   
-4.  Enter the payment journal line information. On the **Home** tab, in the **Process** group, choose **Check Payment Lines** to validate the payment journal lines. The validation that is performed on the journal lines depends on the type of check that is specified in the **\($ N\_2000005 Export Protocols $\)** window.  
+4.  Enter the payment journal line information. On the **Home** tab, in the **Process** group, choose **Check Payment Lines** to validate the payment journal lines. The validation that is performed on the journal lines depends on the type of check that is specified in the **Export Protocols** window.  
   
 ## See Also  
  [Belgian Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/belgian-electronic-payments.md)   

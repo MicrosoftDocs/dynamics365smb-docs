@@ -50,7 +50,7 @@ If you want to appreciate or depreciate an item or a specific item ledger entry,
   
 ### To fill in the revaluation journal manually  
   
-1.  In the **Search** box, enter **\($ N\_5803 Revaluation Journal $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Revaluation Journal**, and then choose the related link.  
   
 2.  Select the **Item No.** field to open the **Item List** window.  
   
@@ -66,7 +66,7 @@ If you want to appreciate or depreciate an item or a specific item ledger entry,
   
 ### To post a revaluation journal  
   
-1.  In the **Search** box, enter **\($ N\_5803 Revaluation Journal $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Revaluation Journal**, and then choose the related link.  
   
 2.  On the **Actions** tab, in the **Posting** group, choose **Post** or **Post and Print** to post the journal.  
   

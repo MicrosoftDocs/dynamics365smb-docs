@@ -30,7 +30,7 @@ When a fiscal year is complete, you must fiscally close the periods that it comp
   
 ### To fiscally close years  
   
-1.  In the **Search** box, enter **\($ N\_100 Accounting Periods $\)**, and then choose the relevant link.  
+1.  In the **Search** box, enter **Accounting Periods**, and then choose the relevant link.  
   
 2.  On the **Navigate** tab, in the **Fiscal Closing** group, choose **Fiscally Close Year**.  
   

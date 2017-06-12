@@ -49,7 +49,7 @@ An analysis by dimensions displays a selected combination of dimensions. You can
   
 1.  In the **Search** box, enter **Analysis Views**, and then choose the related link.  
   
-2.  In the **\($ N\_556 Analysis View List $\)** window, Press **Ctrl\+N** to get a new card. Fill in the fields. [!INCLUDE[bp_fieldhelp]()]  
+2.  In the **Analysis View List** window, Press **Ctrl\+N** to get a new card. Fill in the fields. [!INCLUDE[bp_fieldhelp]()]  
   
 3.  To add other dimension codes in addition to the four on the **Dimensions** FastTab, on the **Navigate** tab, in the **Analysis** group, choose **Filter**. Fill in the fields and choose the **OK** button.  
   
@@ -58,4 +58,4 @@ An analysis by dimensions displays a selected combination of dimensions. You can
 ## See Also  
  [How to: View Analysis by Dimensions](../BusinessIntelligence/how-to-view-analysis-by-dimensions.md)   
  [How to: Update Analysis Views](../BusinessIntelligence/how-to-update-analysis-views.md)   
- [\($ T\_348 Dimension $\)](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)
+ [Dimension](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)

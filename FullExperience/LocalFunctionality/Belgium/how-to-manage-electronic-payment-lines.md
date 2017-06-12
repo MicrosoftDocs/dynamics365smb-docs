@@ -23,7 +23,7 @@ You can have [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] s
   
 1.  In the **Search** box, enter **Payment Journals**, and then choose the related link.  
   
-2.  In the **\($ N\_2000001\_1010026 Batch Name $\)** field, select the required journal batch.  
+2.  In the **Batch Name** field, select the required journal batch.  
   
 3.  Select a journal line and enter the information as needed.  
   

@@ -55,4 +55,4 @@ To help plan the satisfaction of service, you can use the **Dispatch Board**, wh
   
 ## See Also  
  [How to: Allocate Resources by Using Service Orders](../Service/how-to-allocate-resources-by-using-service-orders.md)   
- [\($ R\_5956 Service Load Level $\)](../Topic/\($%20R_5956%20Service%20Load%20Level%20$\).md)
+ [Service Load Level](../Topic/\($%20R_5956%20Service%20Load%20Level%20$\).md)

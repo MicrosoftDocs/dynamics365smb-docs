@@ -33,7 +33,7 @@ Alternate depreciation methods include the following:
   
 1.  In the **Search** box, enter **Depreciation Tables**, and then choose the related link.  
   
-2.  In the **\($ N\_5663 Depreciation Table List $\)** window, in the **Home** tab, choose **New**.  
+2.  In the **Depreciation Table List** window, in the **Home** tab, choose **New**.  
   
 3.  On the **General** FastTab, fill in the fields as described in the following table.  
   

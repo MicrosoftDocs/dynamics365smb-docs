@@ -24,17 +24,17 @@ You can generate a file for electronic payment using the Elektronischer Zahlungs
   
 1.  In the **Search** box, enter **Payment Journals**, and then choose the related link.  
   
-2.  In the **\($ N\_256\_33 Batch Name $\)** field, select the journal batch name.  
+2.  In the **Batch Name** field, select the journal batch name.  
   
 3.  On the **Home** tab, in the **Process** group, choose **Generate EZAG File**.  
   
-4.  In the **\($ B\_3010542 EZAG File $\)** batch job, on the **Options** FastTab, fill in the fields as described in the following table.  
+4.  In the **EZAG File** batch job, on the **Options** FastTab, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ B\_3010542\_F\_1\_5 Debit to bank $\)**|Specify the code of the bank to be charged.|  
-    |**\($ B\_3010542\_F\_1\_1 Combined payment for vendor $\)**|Specify if the payment lines that have the same vendor, currency, bank, and debit bank in the generated EZAG file will be combined.|  
-    |**\($ B\_3010542\_F\_1\_1150000 Shipment with disk $\)**|Specify if the EZAG file will be saved to a disk so that you can deliver it to the bank.|  
+    |**Debit to bank**|Specify the code of the bank to be charged.|  
+    |**Combined payment for vendor**|Specify if the payment lines that have the same vendor, currency, bank, and debit bank in the generated EZAG file will be combined.|  
+    |**Shipment with disk**|Specify if the EZAG file will be saved to a disk so that you can deliver it to the bank.|  
   
 5.  Choose the **OK** button. The EZAG file is generated.  
   
@@ -43,5 +43,5 @@ You can generate a file for electronic payment using the Elektronischer Zahlungs
  [How to: Suggest DTA Payment for Vendors](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-suggest-dta-payment-for-vendors.md)   
  [How to: Verify a List of Vendors for DTA Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-verify-a-list-of-vendors-for-dta-payments.md)   
  [How to: Submit DTA Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-submit-dta-payments.md)   
- [\($ T\_3010541 DTA Setup $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/-$-t_3010541-dta-setup-$-.md)   
- [\($ N\_256 Payment Journal $\)](../../Finance/-$-n_256-payment-journal-$-.md)
+ [DTA Setup](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/-$-t_3010541-dta-setup-$-.md)   
+ [Payment Journal](../../Finance/-$-n_256-payment-journal-$-.md)

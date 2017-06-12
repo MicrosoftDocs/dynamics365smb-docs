@@ -45,7 +45,7 @@ A sales analysis by dimensions displays a selected combination of dimensions. Yo
   
 1.  In the **Search** box, enter **Sales Analysis View Card**, and then choose the related link.  
   
-2.  On the **Home** tab, in the **New** group, choose **New**. The **\($ N\_7155 Sales Analysis View Card $\)** window opens.  
+2.  On the **Home** tab, in the **New** group, choose **New**. The **Sales Analysis View Card** window opens.  
   
 3.  Fill in the fields to specify which customer or customers and location to analyze dimensions for.  
   
@@ -55,9 +55,9 @@ A sales analysis by dimensions displays a selected combination of dimensions. Yo
   
 6.  To update the view, in the **Sales Analysis View Card** window, on the **Home** tab, in the **Process** group, choose **Update**.  
   
- You can view the same sales performance indicators in a chart. For more information, see [\($ N\_770 Sales Performance $\)](../Topic/\($%20N_770%20Sales%20Performance%20$\).md).  
+ You can view the same sales performance indicators in a chart. For more information, see [Sales Performance](../Topic/\($%20N_770%20Sales%20Performance%20$\).md).  
   
 ## See Also  
  [How to: View Sales Analysis Views by Dimensions](../BusinessIntelligence/how-to-view-sales-analysis-views-by-dimensions.md)   
  [How to: Update Sales Analysis Views](../BusinessIntelligence/how-to-update-sales-analysis-views.md)   
- [\($ T\_348 Dimension $\)](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)
+ [Dimension](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)

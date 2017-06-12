@@ -27,7 +27,7 @@ You must post payment slips to complete a payment transaction and to create the 
   
 2.  Select a payment slip, and then, on the **Home** tab, in the **Manage** group, choose **Edit**.  
   
-3.  In the **\($ N\_10868 Payment Slip $\)** window, on the **Home** tab, in the **Process** group, choose **Post**.  
+3.  In the **Payment Slip** window, on the **Home** tab, in the **Process** group, choose **Post**.  
   
 4.  Choose the **OK** button.  
   
@@ -42,5 +42,5 @@ You must post payment slips to complete a payment transaction and to create the 
  [How to: Create Payment Slips](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-create-payment-slips.md)   
  [How to: Export or Import Payment Management Setup Parameters](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-export-or-import-payment-management-setup-parameters.md)   
  [How to: Archive Payment Slips](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-archive-payment-slips.md)   
- [\($ T\_10862 Payment Step $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/-$-t_10862-payment-step-$-.md)   
- [\($ N\_10868 Payment Slip $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/-$-n_10868-payment-slip-$-.md)
+ [Payment Step](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/-$-t_10862-payment-step-$-.md)   
+ [Payment Slip](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/-$-n_10868-payment-slip-$-.md)

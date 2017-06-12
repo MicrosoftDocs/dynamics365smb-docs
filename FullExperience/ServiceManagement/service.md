@@ -72,4 +72,4 @@ Providing ongoing service to customers is an important part of any business and 
 ## See Also  
  [Manage Receivables](../Finance/manage-receivables.md)   
  [Jobs](../Jobs/jobs.md)   
- [Working with \($ P\_1 Product Name $\)](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)
+ [Working with Product Name](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)

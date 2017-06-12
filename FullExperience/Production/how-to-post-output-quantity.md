@@ -48,7 +48,7 @@ The output quantity represents the work progress in the form of the finished qua
   
 ### To post output quantity  
   
-1.  In the **Search** box, enter **\($ N\_99000823 Output Journal $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Output Journal**, and then choose the related link.  
   
 2.  In the **Posting Date** field, enter a posting date.  
   

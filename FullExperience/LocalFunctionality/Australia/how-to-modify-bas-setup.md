@@ -22,13 +22,13 @@ To complete the Business Activity Statement \(BAS\) setup, you must map fuel tax
   
 2.  On the **Home** tab, in the **Process** group, choose **BAS Setup**.  
   
-3.  In the **BAS Setup**  window, on a new line 16000, in the **\($ T\_11600\_1 Field No. $\)** field, enter 72.  
+3.  In the **BAS Setup**  window, on a new line 16000, in the **Field No.** field, enter 72.  
   
-4.  In the **\($ T\_11600\_7 Account Totaling $\)** field, select the appropriate general ledger account. The account should have a credit balance.  
+4.  In the **Account Totaling** field, select the appropriate general ledger account. The account should have a credit balance.  
   
-5.  In the **BAS Setup**  window, on a new line 17000, in the **\($ T\_11600\_1 Field No. $\)** field, enter 73.  
+5.  In the **BAS Setup**  window, on a new line 17000, in the **Field No.** field, enter 73.  
   
-6.  In the **\($ T\_11600\_7 Account Totaling $\)** field, select the appropriate general ledger account. The account should have a debit balance.  
+6.  In the **Account Totaling** field, select the appropriate general ledger account. The account should have a debit balance.  
   
 7.  Choose the **OK** button.  
   

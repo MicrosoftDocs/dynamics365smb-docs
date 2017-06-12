@@ -17,7 +17,7 @@ translation.priority.ht:
   - "en-au"
 ---
 # How to: Print Goods and Service Tax Settlement Reports
-You must submit a periodic report of goods and services tax \(GST\) settlement. You can create this settlement from the **\($ N\_11603 BAS Calc. Schedule List $\)** window.  
+You must submit a periodic report of goods and services tax \(GST\) settlement. You can create this settlement from the **BAS Calc. Schedule List** window.  
   
 > [!IMPORTANT]  
 >  Before you calculate the GST settlement, you must export the business activity statement \(BAS\). For more information, see [How to: Export Business Activity Statements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-export-business-activity-statements.md).  
@@ -32,14 +32,14 @@ You must submit a periodic report of goods and services tax \(GST\) settlement. 
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_11603\_N\_2\_1 Settlement Account Type $\)**|The settlement account type.|  
-    |**\($ R\_11603\_N\_2\_3 Settlement Account No. $\)**|The general ledger account number or vendor number, based on the type selected in the **Settlement Account Type** field.|  
-    |**\($ R\_11603\_N\_2\_5 Rounding G\/L Account No. $\)**|The account to which the truncated cents will be posted.|  
-    |**\($ R\_11603\_N\_2\_9 Posting Date $\)**|The posting date for the settlement entries.|  
-    |**\($ R\_11603\_N\_2\_17 Document No. $\)**|The document number of the settlement entries.|  
-    |**\($ R\_11603\_N\_2\_7 Description $\)**|The settlement description.|  
-    |**\($ R\_11603\_N\_2\_13 Post $\)**|Select to post the withholding tax settlement entries.|  
-    |**\($ R\_11603\_N\_2\_1500000 Inter Company $\)**|Select if the posting is inter company.|  
+    |**Settlement Account Type**|The settlement account type.|  
+    |**Settlement Account No.**|The general ledger account number or vendor number, based on the type selected in the **Settlement Account Type** field.|  
+    |**Rounding G\/L Account No.**|The account to which the truncated cents will be posted.|  
+    |**Posting Date**|The posting date for the settlement entries.|  
+    |**Document No.**|The document number of the settlement entries.|  
+    |**Description**|The settlement description.|  
+    |**Post**|Select to post the withholding tax settlement entries.|  
+    |**Inter Company**|Select if the posting is inter company.|  
   
 4.  On the **BAS Calculation Sheet** FastTab, select the appropriate filters.  
   

@@ -49,6 +49,6 @@ You can take inventory of your items using the physical inventory order and the 
  [How to: Enter Physical Inventory Orders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-enter-physical-inventory-orders.md)   
  [How to: Create a Physical Inventory Recording](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-create-a-physical-inventory-recording.md)   
  [How to: Post Physical Inventory Orders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-post-physical-inventory-orders.md)   
- [\($ N\_392 Phys. Inventory Journal $\)](../Topic/\($%20N_392%20Phys.%20Inventory%20Journal%20$\).md)   
+ [Phys. Inventory Journal](../Topic/\($%20N_392%20Phys.%20Inventory%20Journal%20$\).md)   
  [How to: Block Shipment for Negative Inventory](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-block-shipment-for-negative-inventory.md)   
  [Germany Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/germany-local-functionality.md)

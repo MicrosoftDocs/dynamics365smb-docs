@@ -44,7 +44,7 @@ You can enter descriptions of standard tasks.
   
 ### To enter descriptions of standard tasks  
   
-1.  In the **Search** box, enter **\($ N\_99000799 Standard Tasks $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Standard Tasks**, and then choose the related link.  
   
 2.  Select the standard task to be processed.  
   

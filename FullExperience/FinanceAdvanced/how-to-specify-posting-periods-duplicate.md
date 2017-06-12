@@ -50,11 +50,11 @@ When you specify posting periods, you limit the period in which posting is allow
   
 1.  In the **Search** box, enter **General Ledger Setup**, and then choose the related link.  
   
-2.  In the **\($ N\_118 General Ledger Setup $\)** window, on the **General** FastTab, enter a date in the **Allow Posting From** field to specify the beginning of the period.  
+2.  In the **General Ledger Setup** window, on the **General** FastTab, enter a date in the **Allow Posting From** field to specify the beginning of the period.  
   
 3.  To specify the end of the period, enter a date in the **Allow Posting To** field.  
   
  The dates that you define here apply to the company and to all users.  
   
 > [!NOTE]  
->  If you want to define different posting periods for different users, you can set them up for each user in the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**[\($ N\_119 User Setup $\)](DynamicsNAV:////runpage?Page=119)** window. If you enter dates here, the dates entered on the **General** FastTab in the **General Ledger Setup** window will not apply to these users.
+>  If you want to define different posting periods for different users, you can set them up for each user in the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**[User Setup](DynamicsNAV:////runpage?Page=119)** window. If you enter dates here, the dates entered on the **General** FastTab in the **General Ledger Setup** window will not apply to these users.

@@ -161,7 +161,7 @@ Production orders are used to manage the conversion of purchased materials into 
   
 -   quantity of the parent item produced  
   
- This information can be recorded manually or through automatic reporting, according to the items setup in the [\($ T\_27\_5417 Flushing Method $\)](../Topic/\($%20T_27_5417%20Flushing%20Method%20$\).md) field.  
+ This information can be recorded manually or through automatic reporting, according to the items setup in the [Flushing Method](../Topic/\($%20T_27_5417%20Flushing%20Method%20$\).md) field.  
   
 ### Material Consumption  
  The program offers a variety of options for how a manufacturing company might want to record material consumption. For example, material consumption may be recorded manually, which might be desirable if there are frequent component substitutions or greater than expected scrap.  
@@ -306,4 +306,4 @@ Production orders are used to manage the conversion of purchased materials into 
  [How to: Run MPS and MRP](../OperationsPlanning/how-to-run-mps-and-mrp.md)   
  [How to: Create Production Orders from Sales Orders](../OperationsPlanning/how-to-create-production-orders-from-sales-orders.md)   
  [How to: Plan for New Demand](../OperationsPlanning/how-to-plan-for-new-demand.md)   
- [\($ N\_99000816 Production Order Statistics $\)](../Topic/\($%20N_99000816%20Production%20Order%20Statistics%20$\).md)
+ [Production Order Statistics](../Topic/\($%20N_99000816%20Production%20Order%20Statistics%20$\).md)

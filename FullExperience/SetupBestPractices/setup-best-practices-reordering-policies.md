@@ -40,7 +40,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Setup Best Practices: Reordering Policies
-The **\($ T\_27\_5440 Reordering Policy $\)** field on item cards offers four different planning methods that determine how the individual planning parameters interact.  
+The **Reordering Policy** field on item cards offers four different planning methods that determine how the individual planning parameters interact.  
   
  One best\-practice foundation for selecting a reordering policy is the item’s ABC classification. For more information, see [ABC Classification](../Topic/ABC%20Classification.md).  
   
@@ -55,7 +55,7 @@ The **\($ T\_27\_5440 Reordering Policy $\)** field on item cards offers four di
   
 ## See Also  
  [Setup Best Practices: Supply Planning](../SetupAndAdministration/setup-best-practices-supply-planning.md)   
- [\($ T\_27\_5440 Reordering Policy $\)](../DesignAndEngineering/-$-t_27_5440-reordering-policy-$-.md)   
+ [Reordering Policy](../DesignAndEngineering/-$-t_27_5440-reordering-policy-$-.md)   
  [Design Details: Reordering Policies](../ApplicationDesign/design-details-reordering-policies.md)   
  [Design Details: Order](../ApplicationDesign/design-details-order.md)   
  [Design Details: Lot\-for\-Lot](../ApplicationDesign/design-details-lot-for-lot.md)   

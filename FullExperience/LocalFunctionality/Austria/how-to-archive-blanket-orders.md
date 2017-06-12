@@ -33,7 +33,7 @@ You can archive a blanket sales order or a blanket purchase order, and you can u
   
 2.  Select the blanket sales order that you want to archive, and then, on the **Home** tab, choose **Edit**.  
   
-3.  In the **\($ N\_507 Blanket Sales Order $\)** window, on the **Actions** tab, in the **Functions** group, choose **Archive Document**.  
+3.  In the **Blanket Sales Order** window, on the **Actions** tab, in the **Functions** group, choose **Archive Document**.  
   
 4.  Choose the **Yes** button to confirm archiving of the blanket order, and then choose the **OK** button.  
   

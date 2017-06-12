@@ -50,12 +50,12 @@ You can assign any quality measures to an operation. The assigned quality measur
   
 3.  Choose **Actions**![Action Menu icon](../DesignAndEngineering/media/actionmenuicon.png "actionMenuIcon"), choose **Operation**, and then choose **Quality Measures**.  
   
-4.  Fill in the **\($ T\_5413\_9 Qlty Measure Code $\)** field.  
+4.  Fill in the **Qlty Measure Code** field.  
   
 5.  Choose the **OK** button to exit the window. The entered values are copied and assigned to the operation.  
   
 ## See Also  
- [\($ T\_5413\_9 Qlty Measure Code $\)](../Topic/\($%20T_5413_9%20Qlty%20Measure%20Code%20$\).md)   
+ [Qlty Measure Code](../Topic/\($%20T_5413_9%20Qlty%20Measure%20Code%20$\).md)   
  [How to: Assign Tools to Operations](../Production/how-to-assign-tools-to-operations.md)   
  [How to: Create Routings](../DesignAndEngineering/how-to-create-routings.md)   
  [How to: Assign Personnel to Operations](../Production/how-to-assign-personnel-to-operations.md)   

@@ -49,8 +49,8 @@ In [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] you can select
  When you close the menu, the page or place updates with your changes.  
   
 ## See Also  
- [\($ S\_PERSONALIZATION Personalize the User Interface $\)](../SetupAndAdministration/-$-s_personalization-personalize-the-user-interface-$-.md)   
+ [Personalize the User Interface](../SetupAndAdministration/-$-s_personalization-personalize-the-user-interface-$-.md)   
  [How to: Customize FactBoxes](../SetupAndAdministration/how-to-customize-factboxes.md)   
  [Customize the User Interface](../SetupAndAdministration/customize-the-user-interface.md)   
- [Working with \($ P\_1 Product Name $\)](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)   
+ [Working with Product Name](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)   
  [Learn About the RoleTailored Design](../GettingStarted/learn-about-the-roletailored-design.md)

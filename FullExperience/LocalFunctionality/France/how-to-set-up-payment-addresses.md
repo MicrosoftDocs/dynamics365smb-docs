@@ -38,7 +38,7 @@ To use payment management, you must set up payment addresses that will be used f
     |**Name**|The name associated with the payment address.|  
     |**Address**|The payment address.|  
   
-     For more information, see [\($ T\_10870 Payment Address $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/-$-t_10870-payment-address-$-.md).  
+     For more information, see [Payment Address](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/-$-t_10870-payment-address-$-.md).  
   
 5.  Choose the **OK** button.  
   
@@ -54,4 +54,4 @@ To use payment management, you must set up payment addresses that will be used f
  [How to: Post Payment Slips](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-post-payment-slips.md)   
  [How to: Archive Payment Slips](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-archive-payment-slips.md)   
  [How to: Export or Import Payment Management Setup Parameters](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-export-or-import-payment-management-setup-parameters.md)   
- [\($ T\_10870 Payment Address $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/-$-t_10870-payment-address-$-.md)
+ [Payment Address](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/-$-t_10870-payment-address-$-.md)

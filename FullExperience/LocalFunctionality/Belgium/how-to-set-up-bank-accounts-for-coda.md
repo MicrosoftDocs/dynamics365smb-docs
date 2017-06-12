@@ -35,8 +35,8 @@ Before you can start to use the electronic banking functionality for CODA statem
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_270\_2000040 Protocol No. $\)**|Enter the protocol number that is used by the CODA system to import coded bank account statements.|  
-    |**\($ T\_270\_2000041 Version Code $\)**|Enter the version code used by the CODA system to import coded bank account statements.|  
+    |**Protocol No.**|Enter the protocol number that is used by the CODA system to import coded bank account statements.|  
+    |**Version Code**|Enter the version code used by the CODA system to import coded bank account statements.|  
   
 4.  Choose the **OK** button.  
   

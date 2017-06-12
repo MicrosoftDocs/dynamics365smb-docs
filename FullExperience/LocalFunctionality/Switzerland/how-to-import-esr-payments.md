@@ -24,7 +24,7 @@ After you receive payment from a customer, you receive a file that contains info
   
 1.  In the **Search** box, enter **Cash Receipt Journals**, and then choose the related link.  
   
-2.  In the **\($ N\_255\_33 Batch Name $\)** field, select the required journal batch.  
+2.  In the **Batch Name** field, select the required journal batch.  
   
     > [!NOTE]  
     >  The journal must be empty before you import the ESR file. You cannot import more than one ESR file into the same cash receipt journal.  
@@ -32,7 +32,7 @@ After you receive payment from a customer, you receive a file that contains info
 3.  On the **Home** tab, in the **Process** group, choose **Read ESR File**.  
   
     > [!NOTE]  
-    >  If you have defined more than one ESR bank, a warning message displays instructing you to choose the relevant bank. For more information, see the [\($ T\_3010531 ESR Setup $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/-$-t_3010531-esr-setup-$-.md) table.  
+    >  If you have defined more than one ESR bank, a warning message displays instructing you to choose the relevant bank. For more information, see the [ESR Setup](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/-$-t_3010531-esr-setup-$-.md) table.  
   
 4.  Choose the **Yes** button, and then choose the **OK** button.  
   
@@ -41,6 +41,6 @@ After you receive payment from a customer, you receive a file that contains info
 ## See Also  
  [Swiss Electronic Payments Using ESR](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/swiss-electronic-payments-using-esr.md)   
  [How to: Print ESR Invoices](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-print-esr-invoices.md)   
- [\($ T\_3010531 ESR Setup $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/-$-t_3010531-esr-setup-$-.md)   
- [\($ N\_255 Cash Receipt Journal $\)](../../Finance/-$-n_255-cash-receipt-journal-$-.md)   
- [\($ R\_3010531 Customer ESR Journal $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/-$-r_3010531-customer-esr-journal-$-.md)
+ [ESR Setup](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/-$-t_3010531-esr-setup-$-.md)   
+ [Cash Receipt Journal](../../Finance/-$-n_255-cash-receipt-journal-$-.md)   
+ [Customer ESR Journal](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/-$-r_3010531-customer-esr-journal-$-.md)

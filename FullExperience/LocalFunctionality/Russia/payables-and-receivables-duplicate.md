@@ -23,7 +23,7 @@ In Russia, there are specific [!INCLUDE[navnow](../../ApplicationDesign/includes
   
 |Topic|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
 |-----------|---------------------------------------|  
-|[\($ N\_12416 Custom Declarations $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-n_12416-custom-declarations-$-.md)|Enables you to create and print customs declarations for import and export goods.|  
+|[Custom Declarations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-n_12416-custom-declarations-$-.md)|Enables you to create and print customs declarations for import and export goods.|  
 |[How to: Set Up and Create Letters of Attorney](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-set-up-and-create-letters-of-attorney.md)|Enables you to create and print a Letter of Attorney that you can use to authorize an individual or organization to act on the behalf of another in a legal or business matter.|  
 |[Russian Payables Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/russian-payables-reports.md)|Enables you to view and print general ledger turnover and finance reports that originate from vendor purchase transactions.|  
 |[Russian Receivables Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/russian-receivables-reports.md)|Enables you to view and print general ledger turnover and finance reports that originate from customer sales transactions.|  

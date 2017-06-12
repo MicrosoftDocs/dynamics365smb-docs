@@ -161,7 +161,7 @@ The petty cash management feature enables you to:
 |Repeat printing|Select this field to ensure that the printing process does not increase the value of the **Last Cash Report Page No.** field in the corresponding cash account card and that the report is printed with this number \(indicated in the cash account card\). This serves repeated printing.|  
   
 ## Cash Report CO\-4  
- The **\($ R\_14902 Cash Report CO\-4 $\)** report shows mandatory daily cash transactions in standard format as required by Russian accounting legislation. For more information, see[How to: Print the Cash Report CO\-4 Report](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-print-the-cash-report-co-4-report.md).  
+ The **Cash Report CO\-4** report shows mandatory daily cash transactions in standard format as required by Russian accounting legislation. For more information, see[How to: Print the Cash Report CO\-4 Report](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-print-the-cash-report-co-4-report.md).  
   
 ## See Also  
  [Bank Management](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/bank-management.md)   
@@ -171,5 +171,5 @@ The petty cash management feature enables you to:
  [How to: Print the Ingoing Cash Order Report](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-print-the-ingoing-cash-order-report.md)   
  [How to: Print the Cash Register \(Month\) Report](assetId:///10a26052-053a-408e-9015-9ef26ebb2b8d)   
  [How to: Print the Outgoing Cash Order Report](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-print-the-outgoing-cash-order-report.md)   
- [\($ R\_14902 Cash Report CO\-4 $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-r_14902-cash-report-co-4-$-.md)   
- [\($ R\_12463 Cash Order Journal CO\-3 $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-r_12463-cash-order-journal-co-3-$-.md)
+ [Cash Report CO\-4](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-r_14902-cash-report-co-4-$-.md)   
+ [Cash Order Journal CO\-3](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-r_12463-cash-order-journal-co-3-$-.md)

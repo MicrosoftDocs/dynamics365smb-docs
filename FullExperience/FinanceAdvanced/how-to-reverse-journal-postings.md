@@ -57,19 +57,19 @@ To undo an erroneous journal posting, select the entry and create a reverse  ent
   
  You can reverse entries from the following windows:  
   
--   [\($ N\_20 General Ledger Entries $\)](DynamicsNAV:////runpage?Page=20)  
+-   [General Ledger Entries](DynamicsNAV:////runpage?Page=20)  
   
--   [\($ N\_25 Customer Ledger Entries $\)](DynamicsNAV:////runpage?Page=25)  
+-   [Customer Ledger Entries](DynamicsNAV:////runpage?Page=25)  
   
--   [\($ N\_29 Vendor Ledger Entries $\)](DynamicsNAV:////runpage?Page=29)  
+-   [Vendor Ledger Entries](DynamicsNAV:////runpage?Page=29)  
   
--   [\($ N\_372 Bank Account Ledger Entries $\)](DynamicsNAV:////runpage?Page=372)  
+-   [Bank Account Ledger Entries](DynamicsNAV:////runpage?Page=372)  
   
--   [\($ N\_5604 FA Ledger Entries $\)](DynamicsNAV:////runpage?Page=5604)  
+-   [FA Ledger Entries](DynamicsNAV:////runpage?Page=5604)  
   
--   [\($ N\_5641 Maintenance Ledger Entries $\)](DynamicsNAV:////runpage?Page=5641)  
+-   [Maintenance Ledger Entries](DynamicsNAV:////runpage?Page=5641)  
   
--   [\($ N\_116 G\/L Registers $\)](DynamicsNAV:////runpage?Page=116)  
+-   [G\/L Registers](DynamicsNAV:////runpage?Page=116)  
   
 ### To reverse a journal posting  
   

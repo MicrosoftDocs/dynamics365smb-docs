@@ -20,15 +20,15 @@ After you have defined the statutory reports that are required by the tax author
   
 ### To create report data  
   
-1.  In the **Search** box, enter **\($ N\_26550 Statutory Reports $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Statutory Reports**, and then choose the related link.  
   
 2.  Select the statutory report that you want to create data for, and then, on the **Actions** tab, choose **Create Report Data**.  
   
-3.  In the **\($ N\_26574 Create Report Data $\)** window, fill in the fields.  
+3.  In the **Create Report Data** window, fill in the fields.  
   
-     The **\($ N\_26574\_1210020 Creation Date $\)** field is automatically set to the work date, but you can change this.  
+     The **Creation Date** field is automatically set to the work date, but you can change this.  
   
-     The **\($ N\_26574\_1210042 Periodicity $\)** field is set depending on the value of the **\($ T\_26550\_14 Report Type $\)** field for the report.  
+     The **Periodicity** field is set depending on the value of the **Report Type** field for the report.  
   
 4.  Choose the **OK** button.  
   
@@ -36,13 +36,13 @@ After you have defined the statutory reports that are required by the tax author
   
 ### To verify report data  
   
-1.  In the **\($ N\_26550 Statutory Reports $\)** window, select the statutory report that you want to create data for, and on the **Actions** tab, choose **Report Data**.  
+1.  In the **Statutory Reports** window, select the statutory report that you want to create data for, and on the **Actions** tab, choose **Report Data**.  
   
-     The **\($ N\_26562 Report Data List $\)** window contains a line for each set of report data that you have created for this statutory report.  
+     The **Report Data List** window contains a line for each set of report data that you have created for this statutory report.  
   
-2.  In the **\($ N\_26562 Report Data List $\)** window, select the set of report data that you want to verify, and on the **Actions** tab, choose **Overview**.  
+2.  In the **Report Data List** window, select the set of report data that you want to verify, and on the **Actions** tab, choose **Overview**.  
   
-3.  In the **\($ N\_26563 Statutory Report Data Overview $\)** window, set the appropriate filters, and on the **Actions** tab, choose **Show Data**.  
+3.  In the **Statutory Report Data Overview** window, set the appropriate filters, and on the **Actions** tab, choose **Show Data**.  
   
      This opens a window that displays the data based on your filters. You can verify the report data before you generate the files for the statutory report. If you want to make changes, you must create the report data again.  
   
@@ -53,11 +53,11 @@ After you have defined the statutory reports that are required by the tax author
  Now, you can submit the report by generating a file that is based on the setup for the statutory report.  
   
 ## Generating Statutory Reports  
- Before you generate a statutory report, you should verify that the data is correct in the **\($ N\_26562 Report Data List $\)** window. Also, you should make sure that the statutory report is set up correctly in the **\($ N\_26550 Statutory Reports $\)** window. Before you do this, you must release the report data.  
+ Before you generate a statutory report, you should verify that the data is correct in the **Report Data List** window. Also, you should make sure that the statutory report is set up correctly in the **Statutory Reports** window. Before you do this, you must release the report data.  
   
 #### To release the report data for a statutory report  
   
-1.  In the **Search** box, enter **\($ N\_26550 Statutory Reports $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Statutory Reports**, and then choose the related link.  
   
 2.  Select the statutory report that you want to generate, and on the **Actions** tab, choose **Report Data**.  
   
@@ -67,7 +67,7 @@ After you have defined the statutory reports that are required by the tax author
   
 #### To generate a statutory report  
   
-1.  In the **\($ N\_26550 Statutory Reports $\)** window, select the statutory report that you want to generate, and on the **Actions** tab, choose **Report Data**.  
+1.  In the **Statutory Reports** window, select the statutory report that you want to generate, and on the **Actions** tab, choose **Report Data**.  
   
      Depending on the statutory report, you must export to Microsoft Excel or generate an XML file.  
   

@@ -81,10 +81,10 @@ You use miniforms to describe the information that you want to present on a hand
   
 3.  On the **Navigate** tab, choose **Functions**.  
   
-4.  In the **\($ T\_7703\_2 Function Code $\)** drop\-down list, select a code to represent the function that you want to associate with the miniform. For example, you can select ESC, which associates functionality with the press of the ESC key.  
+4.  In the **Function Code** drop\-down list, select a code to represent the function that you want to associate with the miniform. For example, you can select ESC, which associates functionality with the press of the ESC key.  
   
- In the [!INCLUDE[nav_dev_short](../LocalFunctionalityForMicrosoftDynamicsNav2016/includes/nav_dev_short_md.md)], edit the code for the **\($ T\_7700\_20 Handling Codeunit $\)** field to create or modify code to perform the required action or response.  
+ In the [!INCLUDE[nav_dev_short](../LocalFunctionalityForMicrosoftDynamicsNav2016/includes/nav_dev_short_md.md)], edit the code for the **Handling Codeunit** field to create or modify code to perform the required action or response.  
   
 ## See Also  
- [\($ N\_7700 Miniform $\)](../Topic/\($%20N_7700%20Miniform%20$\).md)   
- [\($ T\_7700\_13 Form Type $\)](../Topic/\($%20T_7700_13%20Form%20Type%20$\).md)
+ [Miniform](../Topic/\($%20N_7700%20Miniform%20$\).md)   
+ [Form Type](../Topic/\($%20T_7700_13%20Form%20Type%20$\).md)

@@ -17,13 +17,13 @@ translation.priority.ht:
   - "fr-fr"
 ---
 # How to: Close Income Statement Accounts
-Before you can run the **\($ B\_94 Close Income Statement $\)** batch job, you must close the fiscal year. For more information, see [How to: Fiscally Close Years](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-fiscally-close-years.md).  
+Before you can run the **Close Income Statement** batch job, you must close the fiscal year. For more information, see [How to: Fiscally Close Years](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-fiscally-close-years.md).  
   
 ### To close the income statement accounts  
   
-1.  In the **Search** box, enter **\($ B\_94 Close Income Statement $\)**, and then choose the relevant link.  
+1.  In the **Search** box, enter **Close Income Statement**, and then choose the relevant link.  
   
-2.  In the **\($ B\_94 Close Income Statement $\)** window, on the **Options** FastTab, specify the conditions of the batch job.  
+2.  In the **Close Income Statement** window, on the **Options** FastTab, specify the conditions of the batch job.  
   
 3.  Choose the **OK** button.  
   
@@ -39,4 +39,4 @@ Before you can run the **\($ B\_94 Close Income Statement $\)** batch job, you m
   
 ## See Also  
  [How to: Fiscally Close Years](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-fiscally-close-years.md)   
- [\($ B\_94 Close Income Statement $\)](../../Finance/-$-b_94-close-income-statement-$-.md)
+ [Close Income Statement](../../Finance/-$-b_94-close-income-statement-$-.md)

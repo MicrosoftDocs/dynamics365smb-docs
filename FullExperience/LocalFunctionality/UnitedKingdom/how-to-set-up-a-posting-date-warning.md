@@ -31,12 +31,12 @@ A warning message will be displayed when you post or batch post sales and purcha
     >  A warning message displays when you post or batch post documents with a posting date not same as the work date. If you select **Replace Posting Date** check box while batch posting, you will be warned about the replacing posting date not being the same as the work date.  
   
 ## See Also  
- [\($ B\_296 Batch Post Sales Orders $\)](../Topic/\($%20B_296%20Batch%20Post%20Sales%20Orders%20$\).md)   
- [\($ B\_496 Batch Post Purchase Orders $\)](../Topic/\($%20B_496%20Batch%20Post%20Purchase%20Orders%20$\).md)   
- [\($ B\_297 Batch Post Sales Invoices $\)](../Topic/\($%20B_297%20Batch%20Post%20Sales%20Invoices%20$\).md)   
- [\($ B\_497 Batch Post Purchase Invoices $\)](../Topic/\($%20B_497%20Batch%20Post%20Purchase%20Invoices%20$\).md)   
- [\($ B\_298 Batch Post Sales Credit Memos $\)](../Topic/\($%20B_298%20Batch%20Post%20Sales%20Credit%20Memos%20$\).md)   
- [\($ B\_498 Batch Post Purch. Credit Memos $\)](../Topic/\($%20B_498%20Batch%20Post%20Purch.%20Credit%20Memos%20$\).md)   
- [\($ N\_459 Sales & Receivables Setup $\)\-duplicate](../../Sales/-$-n_459-sales-receivables-setup-$-duplicate.md)   
- [\($ N\_460 Purchases & Payables Setup $\)](../../Purchasing/-$-n_460-purchases-payables-setup-$-.md)   
+ [Batch Post Sales Orders](../Topic/\($%20B_296%20Batch%20Post%20Sales%20Orders%20$\).md)   
+ [Batch Post Purchase Orders](../Topic/\($%20B_496%20Batch%20Post%20Purchase%20Orders%20$\).md)   
+ [Batch Post Sales Invoices](../Topic/\($%20B_297%20Batch%20Post%20Sales%20Invoices%20$\).md)   
+ [Batch Post Purchase Invoices](../Topic/\($%20B_497%20Batch%20Post%20Purchase%20Invoices%20$\).md)   
+ [Batch Post Sales Credit Memos](../Topic/\($%20B_298%20Batch%20Post%20Sales%20Credit%20Memos%20$\).md)   
+ [Batch Post Purch. Credit Memos](../Topic/\($%20B_498%20Batch%20Post%20Purch.%20Credit%20Memos%20$\).md)   
+ [Sales & Receivables Setup\-duplicate](../../Sales/-$-n_459-sales-receivables-setup-$-duplicate.md)   
+ [Purchases & Payables Setup](../../Purchasing/-$-n_460-purchases-payables-setup-$-.md)   
  [United Kingdom Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/united-kingdom-local-functionality.md)

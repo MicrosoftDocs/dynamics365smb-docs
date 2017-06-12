@@ -21,7 +21,7 @@ You need to create or select a card for the fixed asset that should be repaid. T
   
 1.  In the **Search** box, enter **Fixed Assets**, and then choose the related link.  
   
-2.  In the **\($ N\_5600 Fixed Asset Card $\)** window, on the **Depreciation** FastTab, select the **\($ T\_5600\_12493 Undepreciable FA $\)** field.  
+2.  In the **Fixed Asset Card** window, on the **Depreciation** FastTab, select the **Undepreciable FA** field.  
   
 3.  Choose the **OK** button.  
   

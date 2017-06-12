@@ -32,10 +32,10 @@ Account book reports display all the general ledger entries created in a specifi
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_10706\_F\_1\_1 Closing Transaction Description $\)**|Enter the description for the closing period transaction.|  
-    |**\($ R\_10706\_F\_1\_5 Opening Transaction Description $\)**|Enter the description for the opening period transaction.|  
-    |**\($ R\_10706\_F\_1\_7 First Page $\)**|Enter the number that you want to include on the first page of the report.|  
-    |**\($ R\_10706\_F\_1\_2 Show Amounts in Add. Currency $\)**|Select to show the report amounts in additional reporting currency \(ACY\).|  
+    |**Closing Transaction Description**|Enter the description for the closing period transaction.|  
+    |**Opening Transaction Description**|Enter the description for the opening period transaction.|  
+    |**First Page**|Enter the number that you want to include on the first page of the report.|  
+    |**Show Amounts in Add. Currency**|Select to show the report amounts in additional reporting currency \(ACY\).|  
   
 3.  In the **G\\L Register** FastTab, select appropriate filters.  
   
@@ -49,16 +49,16 @@ Account book reports display all the general ledger entries created in a specifi
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_10716\_F\_1\_7 From Date $\)**|Enter the start date of the report.|  
-    |**\($ R\_10716\_F\_1\_6 To Date $\)**|Enter the end date of the report.|  
-    |**\($ R\_10716\_F\_1\_3 Include Closing Entries $\)**|Select to include the closing entries in the report.|  
-    |**\($ R\_10716\_F\_1\_1 Show Amounts in Add. Currency $\)**|Select to show the report amounts in additional reporting currency \(ACY\).|  
-    |**\($ R\_10716\_F\_1\_10 First page $\)**|Enter the number that you want to include on the first page of the report.|  
-    |**\($ R\_10716\_F\_1\_1100000 Account Type $\)**|Select **Posting** or **Heading**. **Posting** implies that entries can be posted to the account, and **Heading** implies that entries cannot be posted to the account.|  
+    |**From Date**|Enter the start date of the report.|  
+    |**To Date**|Enter the end date of the report.|  
+    |**Include Closing Entries**|Select to include the closing entries in the report.|  
+    |**Show Amounts in Add. Currency**|Select to show the report amounts in additional reporting currency \(ACY\).|  
+    |**First page**|Enter the number that you want to include on the first page of the report.|  
+    |**Account Type**|Select **Posting** or **Heading**. **Posting** implies that entries can be posted to the account, and **Heading** implies that entries cannot be posted to the account.|  
   
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
  [Spain Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/spain-local-functionality.md)   
- [\($ R\_10706 Account \- Official Acc. Book $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-r_10706-account-official-acc.-book-$-.md)   
- [\($ R\_10716 Official Acc. Summarized Book $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-r_10716-official-acc.-summarized-book-$-.md)
+ [Account \- Official Acc. Book](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-r_10706-account-official-acc.-book-$-.md)   
+ [Official Acc. Summarized Book](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-r_10716-official-acc.-summarized-book-$-.md)

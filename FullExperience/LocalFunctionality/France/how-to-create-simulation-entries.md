@@ -20,7 +20,7 @@ When you have set up simulation of general ledger entries, you can create simula
   
 ### To create simulation entries  
   
-1.  In the **Search** box, enter **\($ N\_39 General Journal $\)**, and then choose the relevant link.  
+1.  In the **Search** box, enter **General Journal**, and then choose the relevant link.  
   
 2.  Select the general journal template which has been set up for the Simulation functionality.  
   
@@ -30,7 +30,7 @@ When you have set up simulation of general ledger entries, you can create simula
   
 5.  Post the journal.  
   
-6.  To see the results of posting, in the **Search** box, enter **\($ N\_10810 Simulation Registers $\)**, and then choose the related link.  
+6.  To see the results of posting, in the **Search** box, enter **Simulation Registers**, and then choose the related link.  
   
 7.  Select the most recent register, and then, on the **Navigate** tab, choose **General Ledger**.  
   

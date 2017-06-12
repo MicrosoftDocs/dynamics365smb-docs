@@ -72,4 +72,4 @@ You can use the **Service Quote** window to create documents where you enter inf
  [How to: Allocate Resources by Using Resource Availability](../Service/how-to-allocate-resources-by-using-resource-availability.md)   
  [How to: Convert Service Quotes to Service Orders](../Service/how-to-convert-service-quotes-to-service-orders.md)   
  [How to: Create Service Orders](../Service/how-to-create-service-orders.md)   
- [\($ N\_5919 Service Mgt. Setup $\)](../Topic/\($%20N_5919%20Service%20Mgt.%20Setup%20$\).md)
+ [Service Mgt. Setup](../Topic/\($%20N_5919%20Service%20Mgt.%20Setup%20$\).md)

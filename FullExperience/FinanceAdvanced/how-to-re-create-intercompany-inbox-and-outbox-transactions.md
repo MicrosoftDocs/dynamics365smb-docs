@@ -51,8 +51,8 @@ Occasionally, you may want to re\-create a transaction in the inbox or outbox. F
   
 1.  In the **Search** box, enter **Handled IC Inbox Transactions**, and then choose the related link.  
   
-2.  In the **\($ N\_617 Handled IC Inbox Transactions $\)** window, select the line with the transaction that you want to re\-create in the inbox.  
+2.  In the **Handled IC Inbox Transactions** window, select the line with the transaction that you want to re\-create in the inbox.  
   
 3.  On the **Actions** tab, in the **Functions** group, choose **Re\-create Inbox Transaction**. Choose the **Yes** button.  
   
- [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] removes the line from the **\($ N\_617 Handled IC Inbox Transactions $\)** window and re\-creates it in the inbox.
+ [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] removes the line from the **Handled IC Inbox Transactions** window and re\-creates it in the inbox.

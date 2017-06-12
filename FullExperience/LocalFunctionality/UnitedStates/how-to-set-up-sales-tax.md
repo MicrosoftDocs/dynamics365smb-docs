@@ -39,7 +39,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you need t
  [How to: Set Up Sales Tax Jurisdictions](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-set-up-sales-tax-jurisdictions.md)   
  [How to: Set Up Unrealized Sales Tax and Sales Payment Discounts](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)   
  [How to: Set Up Use Tax and Purchase Tax](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-set-up-use-tax-and-purchase-tax.md)   
- [\($ T\_98 General Ledger Setup $\)](assetId:///199e09dc-fe90-4792-be3e-ad395447dfd6)   
+ [General Ledger Setup](assetId:///199e09dc-fe90-4792-be3e-ad395447dfd6)   
  [United States Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedStates/united-states-local-functionality.md)   
  [Canada Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/canada-local-functionality.md)   
  [Mexico Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Mexico/mexico-local-functionality.md)

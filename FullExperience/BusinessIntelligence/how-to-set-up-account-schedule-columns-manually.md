@@ -50,7 +50,7 @@ After you have created a new account schedule and set up the rows in your accoun
   
 1.  In the **Search** box, enter **Account Schedules**, and then choose the related link.  
   
-2.  In the **\($ N\_104 Account Schedule $\)** window, in the **Name** field, select the account schedule name, and then choose the **OK** button.  
+2.  In the **Account Schedule** window, in the **Name** field, select the account schedule name, and then choose the **OK** button.  
   
 3.  On the **Actions** tab, in the **General** group, choose **Edit Column Layout Setup**.  
   

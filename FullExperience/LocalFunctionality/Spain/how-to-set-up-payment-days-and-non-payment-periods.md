@@ -38,13 +38,13 @@ Payment days and non\-payment periods are used to calculate due dates. Due date 
     |**Payment Days Code**|Enter the payment day code.|  
     |**Non\-Paymt. Periods Code**|Enter the non\-payment periods code.|  
   
-4.  To open the **\($ N\_10700 Payment Days $\)** window, on the **Navigate** tab, in the **Payments** group, choose **Payment Days**.  
+4.  To open the **Payment Days** window, on the **Navigate** tab, in the **Payments** group, choose **Payment Days**.  
   
-5.  In the **\($ N\_10700 Payment Days $\)** window, in the **\($ T\_10701\_3 Payment Day $\)** field, enter the payment day for the company.  
+5.  In the **Payment Days** window, in the **Payment Day** field, enter the payment day for the company.  
   
 6.  Choose the **OK** button.  
   
-7.  To open the **\($ N\_10701 Non\-Payment Periods $\)** window, on the **Navigate** tab, in the **Payments** group, choose **Non\-Payment Periods**.  
+7.  To open the **Non\-Payment Periods** window, on the **Navigate** tab, in the **Payments** group, choose **Non\-Payment Periods**.  
   
 8.  Enter information into the relevant fields.  
   
@@ -56,7 +56,7 @@ Payment days and non\-payment periods are used to calculate due dates. Due date 
   
 2.  Select the required customer or vendor, and then, on the **Navigate** tab, in the **Customers** or **Vendors** group, choose **Payment Days**.  
   
-3.  In the **\($ N\_10700 Payment Days $\)** window, in the **\($ T\_10701\_3 Payment Day $\)** field, enter the payment day for the customer or vendor.  
+3.  In the **Payment Days** window, in the **Payment Day** field, enter the payment day for the customer or vendor.  
   
 4.  Choose the **OK** button.  
   
@@ -78,5 +78,5 @@ Payment days and non\-payment periods are used to calculate due dates. Due date 
   
 ## See Also  
  [Spain Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/spain-local-functionality.md)   
- [\($ N\_10700 Payment Days $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-n_10700-payment-days-$-.md)   
- [\($ N\_10701 Non\-Payment Periods $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-n_10701-non-payment-periods-$-.md)
+ [Payment Days](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-n_10700-payment-days-$-.md)   
+ [Non\-Payment Periods](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-n_10701-non-payment-periods-$-.md)

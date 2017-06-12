@@ -47,7 +47,7 @@ When you sell goods to a customer in another EU country\/region, you must send t
   
 ### To view certificate of supply details  
   
-1.  In the **Search** box, enter **\($ N\_142 Posted Sales Shipments $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Posted Sales Shipments**, and then choose the related link.  
   
 2.  Choose the relevant sales shipment to a customer in another EU country\/region.  
   
@@ -70,7 +70,7 @@ When you sell goods to a customer in another EU country\/region, you must send t
   
 ### To print a certificate of supply  
   
-1.  In the **Search** box, enter **\($ N\_142 Posted Sales Shipments $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Posted Sales Shipments**, and then choose the related link.  
   
 2.  Choose the relevant sales shipment to a customer in another EU country\/region.  
   
@@ -85,19 +85,19 @@ When you sell goods to a customer in another EU country\/region, you must send t
   
 6.  By default, the filter settings are for the shipment document that you have selected. Fill in the filter information to select a specific certificate of supply that you want to print.  
   
-7.  In the **\($ R\_780 Certificate of Supply $\)** window, choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
+7.  In the **Certificate of Supply** window, choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
-     The **\($ T\_780\_3 Certificate of Supply Status $\)** field and the **\($ T\_780\_6 Printed $\)** field are updated for the shipment in the **Certificates of Supply** window.  
+     The **Certificate of Supply Status** field and the **Printed** field are updated for the shipment in the **Certificates of Supply** window.  
   
  You must send the printed certificate of supply to the customer for signature.  
   
 ### To update the status of a certificate of supply for a shipment  
   
-1.  In the **Search** box, enter **\($ N\_142 Posted Sales Shipments $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Posted Sales Shipments**, and then choose the related link.  
   
 2.  Choose the relevant sales shipment to a customer in another EU country\/region.  
   
-3.  In the **\($ T\_780\_6 Status $\)** field, choose the relevant option.  
+3.  In the **Status** field, choose the relevant option.  
   
      If the customer has returned the signed certificate of supply, choose **Received**. The **Receipt Date** field is updated. By default, the receipt date is set to the current work date.  
   

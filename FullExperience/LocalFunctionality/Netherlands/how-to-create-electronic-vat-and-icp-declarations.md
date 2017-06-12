@@ -18,10 +18,10 @@ translation.priority.ht:
   - "nl-nl"
 ---
 # How to: Create Electronic VAT and ICP Declarations
-To create electronic VAT and ICP declarations, you must first set up the declaration using the **\($ N\_11410 Elec. Tax Declaration Setup $\)** window. Then you can submit them to the tax authorities.  
+To create electronic VAT and ICP declarations, you must first set up the declaration using the **Elec. Tax Declaration Setup** window. Then you can submit them to the tax authorities.  
   
 > [!NOTE]  
->  If you have selected the **\($ T\_11408\_230 Part of Fiscal Entity $\)** field in the **\($ N\_11410 Elec. Tax Declaration Setup $\)** window, then you can create an electronic declaration for only one company. If you want to combine the tax information for all subsidiaries of a holding company, you must create a VAT statement on paper for each subsidiary company and manually calculate the total amounts for the holding company. These total amounts of the holding company must be entered on the website of the tax authorities. You cannot combine tax information for ICP declarations. ICP declarations must always be submitted individually.  
+>  If you have selected the **Part of Fiscal Entity** field in the **Elec. Tax Declaration Setup** window, then you can create an electronic declaration for only one company. If you want to combine the tax information for all subsidiaries of a holding company, you must create a VAT statement on paper for each subsidiary company and manually calculate the total amounts for the holding company. These total amounts of the holding company must be entered on the website of the tax authorities. You cannot combine tax information for ICP declarations. ICP declarations must always be submitted individually.  
   
  If there are no intra\-community deliveries in the declaration period, then an electronic ICP declaration is created without XML elements for the deliveries. If you submit such a declaration, an error message will be displayed.  
   
@@ -29,9 +29,9 @@ To create electronic VAT and ICP declarations, you must first set up the declara
   
 1.  In the **Search** box, enter **Elec. Tax Declarations**, and then choose the related link.  
   
-2.  In the **\($ N\_11412 Elec. Tax Declaration List $\)** window, on the **Home** tab, choose **New**.  
+2.  In the **Elec. Tax Declaration List** window, on the **Home** tab, choose **New**.  
   
-3.  In the **\($ N\_11411 Elec. Tax Declaration Card $\)** window, on the **General** FastTab, fill in the required fields as described in the following table.  
+3.  In the **Elec. Tax Declaration Card** window, on the **General** FastTab, fill in the required fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
@@ -40,7 +40,7 @@ To create electronic VAT and ICP declarations, you must first set up the declara
     |**Declaration Period**|The period for which you want to create the electronic declaration.<br /><br /> For ICP declarations, the period is only for a quarter.|  
     |**Declaration Year**|The year for which you want to create the electronic declaration.|  
     |**Message ID**|Displays the ID of the response message received from the tax authority.<br /><br /> [!INCLUDE[bp_fieldnoneditable](../../Finance/includes/bp_fieldnoneditable_md.md)]<br /><br /> You must refer to this ID when you contact the tax authorities for any questions regarding your electronic declaration.|  
-    |**Status**|The status of the electronic declaration. For more information, see [\($ T\_11409\_10 Status Field $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-t_11409_10-status-field-$-.md).<br /><br /> [!INCLUDE[bp_fieldnoneditable](../../Finance/includes/bp_fieldnoneditable_md.md)]|  
+    |**Status**|The status of the electronic declaration. For more information, see [Status Field](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-t_11409_10-status-field-$-.md).<br /><br /> [!INCLUDE[bp_fieldnoneditable](../../Finance/includes/bp_fieldnoneditable_md.md)]|  
     |**Our Reference**|The unique identification for the electronic declaration that is to be included in the electronic declaration file. This field must be exactly 11 characters, must start with OB\-, and can only contain numbers, letters, and dashes.<br /><br /> You cannot change this field after you have created the electronic declaration.|  
     |**Date Created**|The date on which the electronic declaration was created.<br /><br /> [!INCLUDE[bp_fieldnoneditable](../../Finance/includes/bp_fieldnoneditable_md.md)]|  
     |**Date Submitted**|The date on which the electronic declaration is submitted to the tax authorities.<br /><br /> [!INCLUDE[bp_fieldnoneditable](../../Finance/includes/bp_fieldnoneditable_md.md)]|  
@@ -48,7 +48,7 @@ To create electronic VAT and ICP declarations, you must first set up the declara
   
 4.  On the **Home** tab, in the **Process** group, choose **Create Electronic Tax Declaration**.  
   
-5.  In the **\($ B\_11403 Create Elec. VAT Declaration $\)** or the **\($ B\_11404 Create Elec. ICP Declaration $\)** window, on the **Options** FastTab, fill in the fields as described in the following table.  
+5.  In the **Create Elec. VAT Declaration** or the **Create Elec. ICP Declaration** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
@@ -57,11 +57,11 @@ To create electronic VAT and ICP declarations, you must first set up the declara
   
 6.  Choose the **OK** button.  
   
-     The XML elements and the accompanying data of the electronic declaration are displayed on the **Lines** FastTab in the **\($ N\_11411 Elec. Tax Declaration Card $\)** window.  
+     The XML elements and the accompanying data of the electronic declaration are displayed on the **Lines** FastTab in the **Elec. Tax Declaration Card** window.  
   
 ## See Also  
  [Electronic Tax Declarations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/electronic-tax-declarations.md)   
  [Electronic VAT and ICP Declarations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/electronic-vat-and-icp-declarations.md)   
  [How to: Set Up VAT Categories](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/how-to-set-up-vat-categories.md)   
- [\($ T\_11409\_10 Status Field $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-t_11409_10-status-field-$-.md)   
- [\($ T\_11408\_230 Part of Fiscal Entity Field $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-t_11408_230-part-of-fiscal-entity-field-$-.md)
+ [Status Field](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-t_11409_10-status-field-$-.md)   
+ [Part of Fiscal Entity Field](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-t_11408_230-part-of-fiscal-entity-field-$-.md)

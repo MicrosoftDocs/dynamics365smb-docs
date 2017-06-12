@@ -21,24 +21,24 @@ The following procedure describes how to export a BACS file, one of the payment 
   
 2.  Select the bank through which you will make the BACS payment, and on the **Home** tab, in the **Manage** group, choose **Edit**.  
   
-3.  On the **Transfer** FastTab, set the **\($ T\_270\_1210 Payment Export Format $\)** field to **BACS**.  
+3.  On the **Transfer** FastTab, set the **Payment Export Format** field to **BACS**.  
   
      Choose the **OK** button.  
   
 4.  In the **Search** box, enter **Payment Journals**, and then choose the related link.  
   
-5.  Select a batch in the **Batch Name** field. In the **\($ N\_251 General Journal Batches $\)** window, for the batch, select the **\($ T\_232\_11 Allow Payment Export $\)** check box.  
+5.  Select a batch in the **Batch Name** field. In the **General Journal Batches** window, for the batch, select the **Allow Payment Export** check box.  
   
      Choose the **OK** button.  
   
-6.  In the **\($ N\_256 Payment Journal $\)** window, create a payment line. For more information, see [How to: Create a Bankers' Automated Clearing Service File](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/how-to-create-a-bankers-automated-clearing-service-file.md).  
+6.  In the **Payment Journal** window, create a payment line. For more information, see [How to: Create a Bankers' Automated Clearing Service File](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/how-to-create-a-bankers-automated-clearing-service-file.md).  
   
 7.  On the **Home** tab, in the **Process** group, choose **Export Payments to File**.  
   
-     For information on specifying options in the **\($ N\_10550 BACS Export $\)** window, see [\($ R\_10550 BACS Export $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/-$-r_10550-bacs-export-$-.md).  
+     For information on specifying options in the **BACS Export** window, see [BACS Export](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/-$-r_10550-bacs-export-$-.md).  
   
     > [!NOTE]  
-    >  When you open the **\($ N\_10550 BACS Export $\)** window for the first time, you may receive a message that asks for permission to create the file. Select the option that allows you to create the file.  
+    >  When you open the **BACS Export** window for the first time, you may receive a message that asks for permission to create the file. Select the option that allows you to create the file.  
   
 8.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   

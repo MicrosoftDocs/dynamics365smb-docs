@@ -47,11 +47,11 @@ Budgeting in cost accounting resembles budgeting in the general ledger. A cost b
   
 |To|See|  
 |--------|---------|  
-|Transfer budgets from the general ledger.|[\($ B\_1135 Copy G\-L Budget to Cost Acctg. $\)](../Topic/\($%20B_1135%20Copy%20G-L%20Budget%20to%20Cost%20Acctg.%20$\).md)|  
-|Copy cost budgets.|[\($ B\_1134 Copy Cost Budget $\)](../Topic/\($%20B_1134%20Copy%20Cost%20Budget%20$\).md)|  
-|Allocate budgets.|[\($ B\_1131 Cost Allocation $\)](../Finance/-$-b_1131-cost-allocation-$-.md)|  
-|See cost budget registers and cost budget entries.|[\($ N\_1121 Cost Budget Registers $\)](assetId:///95124833-95f3-46d9-a5e6-5f4c0017b69a)|  
-|Print cost budget comparisons using various reports.|[\($ R\_1138 Cost Acctg. Balance\-Budget $\)](../Topic/\($%20R_1138%20Cost%20Acctg.%20Balance-Budget%20$\).md)<br /><br /> [\($ R\_1133 Cost Acctg. Statement\-Budget $\)](../Topic/\($%20R_1133%20Cost%20Acctg.%20Statement-Budget%20$\).md)<br /><br /> [\($ N\_1118 Cost Budget by Cost Center $\)](assetId:///e00b9f1a-d385-4386-82aa-11b0491441af)<br /><br /> [\($ N\_1119 Cost Budget by Cost Object $\)](assetId:///76e683e4-c527-4640-8611-8a63c75f37aa)|  
+|Transfer budgets from the general ledger.|[Copy G\-L Budget to Cost Acctg.](../Topic/\($%20B_1135%20Copy%20G-L%20Budget%20to%20Cost%20Acctg.%20$\).md)|  
+|Copy cost budgets.|[Copy Cost Budget](../Topic/\($%20B_1134%20Copy%20Cost%20Budget%20$\).md)|  
+|Allocate budgets.|[Cost Allocation](../Finance/-$-b_1131-cost-allocation-$-.md)|  
+|See cost budget registers and cost budget entries.|[Cost Budget Registers](assetId:///95124833-95f3-46d9-a5e6-5f4c0017b69a)|  
+|Print cost budget comparisons using various reports.|[Cost Acctg. Balance\-Budget](../Topic/\($%20R_1138%20Cost%20Acctg.%20Balance-Budget%20$\).md)<br /><br /> [Cost Acctg. Statement\-Budget](../Topic/\($%20R_1133%20Cost%20Acctg.%20Statement-Budget%20$\).md)<br /><br /> [Cost Budget by Cost Center](assetId:///e00b9f1a-d385-4386-82aa-11b0491441af)<br /><br /> [Cost Budget by Cost Object](assetId:///76e683e4-c527-4640-8611-8a63c75f37aa)|  
   
 ## See Also  
  [Manage Cost Accounting](../Finance/manage-cost-accounting.md)   

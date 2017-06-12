@@ -50,7 +50,7 @@ The first step in working with the XBRL functionality is to import the taxonomy 
   
 1.  In the **Search** box, enter **XBRL Taxonomies**, and then choose the related link.  
   
-2.  In the **\($ N\_582 XBRL Taxonomies $\)** window, create a new line and enter the name and description of the taxonomy.  
+2.  In the **XBRL Taxonomies** window, create a new line and enter the name and description of the taxonomy.  
   
 3.  On the **Navigate** tab, in the **Taxonomy** group, choose **Schemas** and insert the description of the schema.  
   
@@ -67,6 +67,6 @@ The first step in working with the XBRL functionality is to import the taxonomy 
   
 ## See Also  
  [How to: Set Up XBRL Lines](../BusinessIntelligence/how-to-set-up-xbrl-lines.md)   
- [\($ R\_505 XBRL Export Instance \- Spec. 2 $\)](../Topic/\($%20R_505%20XBRL%20Export%20Instance%20-%20Spec.%202%20$\).md)   
+ [XBRL Export Instance \- Spec. 2](../Topic/\($%20R_505%20XBRL%20Export%20Instance%20-%20Spec.%202%20$\).md)   
  [How to: Update XBRL Taxonomies](../BusinessIntelligence/how-to-update-xbrl-taxonomies.md)   
  [eXtensible Business Reporting Language](../BusinessIntelligence/extensible-business-reporting-language.md)

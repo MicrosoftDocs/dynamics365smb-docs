@@ -83,6 +83,9 @@
 ### [Applying Payments Automatically and Reconcile Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ### [How to: Reconcile Bank Accounts Separately](bank-how-reconcile-bank-accounts-separately.md)  
 ### [How to: Transfer Bank Funds](bank-how-transfer-bank-funds.md)
+## [Accountant Experiences in Financials](finance-accounting.md)
+### [Invite Your External Accountant to Your Financials](finance-invite-external-accountant.md)  
+### [Accountant Portal extension](ui-extensions-accountant-portal.md)  
 ## [How to: Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)
 ## [Understanding the General Ledger and the COA](finance-general-ledger.md)
 ## [Working With Dimensions](finance-dimensions.md)
@@ -94,7 +97,7 @@
 ### [Closing Periods](year-how-complete-period-end-processes.md)
 ### [How to: Update Currency Exchange Rates](finance-how-update-currencies.md)
 ### [How to: Allocate Costs and Income](year-allocate-costs-income.md)
-### [How To: Report VAT to the Tax Authorities](finance-setup-vat-reporting.md)
+### [How To: Report VAT to the Tax Authorities](finance-how-report-vat.md)
 ### [Preparing Pre-Closing Reports](year-prepare-preclose-reports.md)
 ### [Closing Books](year-close-books.md)
 ### [Preparing Closing Statements](year-prepare-close-statement.md)
@@ -104,7 +107,6 @@
 ## [Reporting Sales Tax and Goods/Services Tax in Canada](ca-finance-tax.md)
 ## [How to: Work with GIFI Codes in Canada](ca-finance-work-gifi-codes.md)
 ## [How to: Report VAT to a Tax Authority](finance-how-report-vat.md)
-# [Accountant Experiences in Financials](finance-accounting.md)
 
 # [Business Intelligence](bi.md)
 ## [How to: Analyze Actual Amounts Versus Budgeted Amounts](bi-how-analyze-actual-versus-budget.md)
@@ -188,6 +190,18 @@
 ### [Processing Incoming Documents](across-process-income-documents.md)
 
 # Full Experience
+## Sales (FULL)
+### How to: Work with Blanket Sales Orders
+### How to: Receive Prepayments from Customers
+
+## Purchasing (FULL)
+### How to: Work with Blanket Purchase Orders
+### How to: Make Prepayments to Vendors
+
+## Business Intelligence (FULL)
+### [How to: Create Reports with XBRL](bi-how-work-xbrl.md)
+### How to: Set Up and Publish KPI Web Services Based on Account Schedules
+
 ## Cost Accounting (FULL)
 ### About Cost Accounting
 ### Setting Up Cost Accounting
@@ -201,18 +215,6 @@
 ### How to: Handle Inventory and Manufacturing Costs
 ### [How to: Analyze Inventory Reconciliation with the General Ledger]()
 
-## Business Intelligence (FULL)
-### [How to: Create Reports with XBRL](bi-how-work-xbrl.md)
-### How to: Set Up and Publish KPI Web Services Based on Account Schedules
-
-## Sales (FULL)
-### How to: Work with Blanket Sales Orders
-### How to: Receive Prepayments from Customers
-
-## Purchasing (FULL)
-### How to: Work with Blanket Purchase Orders
-### How to: Make Prepayments to Vendors
-
 ## Planning (FULL)
 ### How to: Plan for Production Availability
 ### How to: Forecast for Sales and Production
@@ -220,9 +222,7 @@
 ### How to: Material Requirements Planning
 ### How to: Communicate Production Plans
 
-## Assembly (FULL)
-
-## Production (FULL)
+## Manufacturing (FULL)
 ### How to: Schedule Production Processes
 ### How to: Issue Materials
 ### How to: Execute Production
@@ -235,7 +235,7 @@
 ### How to: Pick Items
 ### How to: Ship Items
 
-## Service (FULL)
+## Service Management (FULL)
 ### How to: Plan Service
 ### How to: Fulfill Service Contracts
 ### How to: Handle Customer Inquiries

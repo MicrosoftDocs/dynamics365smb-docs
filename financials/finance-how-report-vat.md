@@ -41,7 +41,7 @@ After the tax authority reviews your report, they will send an email to the cont
 
 <!--**Note**: The EC Sales List report can contain up to 1000 lines. If you have more lines, you must submit another report. -->
 
-## To Connect to your tax authority's web service
+## To connect to your tax authority's web service
 [!INCLUDE[d365fin](includes/d365fin_md.md)] provides service connections that connect to tax authority websites. For example, if you are in the UK, you must enable the **GovTalk** service connetion.  
 
 1. In the **Search for Pages or Reports** field, enter **Service Connections**, and then choose appropriate link. <!-- remember to get the updated text for this-->  
@@ -57,10 +57,10 @@ After the tax authority reviews your report, they will send an email to the cont
 2. Choose **New**, and then fill in the required fields.  
 3. To generate the content of the report, choose the **Suggest Lines** action.  
 
-    **Note**: If you want, you can review the transactions included in the line before you submit the report. To do that, choose the line, and then choose the **Show VAT Entries** action. 
-4. To prepare the report for submision, choose the **Release** action.
-5. To submit the report, choose the **Submit** action
-
+    **Note**: You can review the transactions included in the line before you submit the report. To do that, choose the line, and then choose the **Show VAT Entries** action.  
+4. To prepare the report for submision, choose the **Release** action.  
+5. To submit the report, choose the **Submit** action.  
+  
 [!INCLUDE[d365fin](includes/d365fin_md.md)] validates whether the report is set up correctly. If the validation fails, the errors display under **Error and Warnings** so that you can make the appropriate changes.
 
 ## Viewing communications with your tax authority

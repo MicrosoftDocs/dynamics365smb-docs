@@ -7,7 +7,7 @@
       "build_source_folder": "financials",
       "build_output_subfolder": "financialssmb",
       "locale": "en-us",
-      "version": 0,
+      "monikers": [],
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
@@ -16,14 +16,33 @@
       },
       "build_entry_point": "docs",
       "template_folder": "_themes",
-      "is_dynamic_rendering": false
+      "version": 0
+    },
+    {
+      "docset_name": "financialssmbfull",
+      "build_source_folder": "FullExperience",
+      "build_output_subfolder": "financialssmbfull",
+      "locale": "en-us",
+      "monikers": [],
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes",
+      "version": 0
     }
   ],
   "notification_subscribers": [
     "edupont@microsoft.com",
-    "solsen@microsoft.com"
+    "solsen@microsoft.com",
+    "sgroespe@microsoft.com"
   ],
   "branches_to_filter": [],
+  "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/dynamics365smb-docs",
+  "git_repository_branch_open_to_public_contributors": "live",
   "skip_source_output_uploading": false,
   "need_preview_pull_request": false,
   "dependent_repositories": [
@@ -34,5 +53,11 @@
       "branch_mapping": {}
     }
   ],
+  "branch_target_mapping": {
+    "live": [
+      "Publish",
+      "Pdf"
+    ]
+  },
   "need_generate_pdf_url_template": false
 }

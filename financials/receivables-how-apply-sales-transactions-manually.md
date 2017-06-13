@@ -115,7 +115,7 @@ You can also apply customer and vendor payments in the **Payment Reconciliation 
 8. Choose the **OK** button to post the application.
 
     If the posted application has resulted in closed customer ledger entries, the **Open** field is cleared for these ledger entries.    
-9. To see the ledger entries, in the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Customers**, and choose the related link. Browse to the card for the relevant customer to see the ledger entries.  
+9. To see the ledger entries, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and choose the related link. Browse to the card for the relevant customer to see the ledger entries.  
 
 On the ledger entry list, on the line that contains the ledger entry that was fully applied to, you can see that the **Open** check box is not selected.  
 

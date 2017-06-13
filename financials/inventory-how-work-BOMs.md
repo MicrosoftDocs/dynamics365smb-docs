@@ -1,7 +1,6 @@
 ---
 title: Work with Bills of Material to Manage Components| Microsoft Docs
-description: description: You create an assembly BOM to specify the components or resources required to put together the item that the assembly BOM represents, and you can view the components of an assembly item.
-services: project-madeira
+description: You create an assembly BOM to specify the components or resources required to put together the item that the assembly BOM represents, and you can view the components of an assembly item.
 documentationcenter: ''
 author: SorenGP
 
@@ -10,8 +9,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: BOM, subassembly, kit
-ms.date: 06/02/2017
+ms.search.keywords: non-inventoriable
+ms.date: 06/13/2017
 ms.author: sgroespe
 
 ---

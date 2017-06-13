@@ -35,18 +35,13 @@ Items can be both inventory items and services, denoted by the **Item - Inventor
 You can fill customer fields on the sales order in two ways depending on whether the customer is already registered. See steps 2 and 3 in the following procedure.
 
 ## To create a sales order
-On the Home page,  choose the **Sales Order** action.  
+1. On the Home page,  choose the **Sales Order** action.  
 2. In the **Customer** field, enter the name of an existing customer.
 
-<<<<<<< HEAD
     Other fields in the **Sales Order** window are now filled with the standard information of the selected customer. If the customer is not registered, then follow these steps:
-=======
-   Other fields in the **Sales Order** window contain standard information of the selected customer. If the customer is not registered, follow these steps:
->>>>>>> Update5
 3. In the **Customer** field, enter the name of the new customer.
 4. In the dialog box about registering the new customer, choose the **Yes** button.
 5. In the **Select a template for a new customer** window, choose a template to base the new customer card on, and then choose the **OK** button.
-<<<<<<< HEAD
 
     A new customer card opens, prefilled with the information on the selected customer template. The **Name** field is prefilled with the new customer’s name that you entered on the sales order.
 6. Proceed to fill in the remaining fields on the customer card. For more information, see [How to: Register New Customers](sales-how-register-new-customers.md).  
@@ -73,7 +68,6 @@ On the Home page,  choose the **Sales Order** action.
 13. Repeat steps 10 through 13 for every item that you want to offer to the customer.
 
     The totals under the lines are automatically calculated as you create or modify lines.
-=======
 6. A new customer card displays the information on the selected customer template. Fill in the remaining fields. For more information, see [How to: Register New Customers](sales-how-register-new-customers.md).  
 7. When you have completed the customer card, choose the **OK** button to return to the **Sales Order** window.
 
@@ -103,7 +97,6 @@ On the Home page,  choose the **Sales Order** action.
 13. Repeat steps 9 through 12 for every product or charge you want to sell to the customer.  
 
     The totals under the lines are automatically calculated as you create or modify lines.  
->>>>>>> Update5
 14. In the **Invoice Discount Amount** field, enter an amount that should be deducted from the value shown in the **Total Incl. Tax** field.
 
     If you have set up invoice discounts for the customer, then the specified percentage value is automatically inserted in the **Invoice Discount %** field if the criteria are met, and the related amount is inserted in the **Inv. Discount Amount Excl. Tax** field. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).

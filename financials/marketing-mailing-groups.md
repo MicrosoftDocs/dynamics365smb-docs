@@ -23,7 +23,7 @@ Using mailing groups on contacts is a two-step process. First, you define the ma
 ## To define mailing group codes
 The mailing group code defines the type or category of the group, such as MOVE for office move, or GIFT for holiday gift. You can have several industry group codes. To define the industry groups, you use the **Mailing Groups** window.
 
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Mailing Groups**, and then choose the related link.
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Mailing Groups**, and then choose the related link.
 2. Choose the **New** action, and fill in a code and description. The code can be a maximum of 11 characters, and can be any combination of numbers and letters.
 
 ## <a name="AssignMailGroupContact"></a> To assign mailing groups to a contact

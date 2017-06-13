@@ -21,13 +21,13 @@ To make sure that your bank only clears validated checks and amounts, you can ex
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is preconfigured to support Positive Pay files for Bank of America and City Bank.
 
 ## To set up a bank account for Positive Pay
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Bank Accounts**, and then choose the related link.
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Bank Accounts**, and then choose the related link.
 2. Open the card for the bank that you want to use Positive Pay for.
 3. In the **Positive Pay Export Code** field, enter POSPAYBANK.
 4. Close the window.
 
 ## To export a Positive Pay file
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Bank Accounts**, and then choose the related link.
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Bank Accounts**, and then choose the related link.
 2. Select the bank account that you want to export a Positive Pay file for.
 3. Choose **Positive Pay Export** action.
 
@@ -40,7 +40,7 @@ To make sure that your bank only clears validated checks and amounts, you can ex
 
 To view exported Positive Pay records
 
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Bank Accounts**, and then choose the related link.
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Bank Accounts**, and then choose the related link.
 2. Select the bank account that you want to view Positive Pay export records for.
 3. Choose the **Positive Pay Entries** action.
 
@@ -50,7 +50,7 @@ To view exported Positive Pay records
 
 To reexport Positive Pay files
 
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Bank Accounts**, and then choose the related link.
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Bank Accounts**, and then choose the related link.
 2. Select the bank account that you want to reexport Positive Pay files for.
 3. Choose the **Positive Pay Entries** action.
 4. Select the line for the Positive Pay export file that you want to reexport.

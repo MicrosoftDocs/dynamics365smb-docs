@@ -43,3 +43,5 @@ The following table describes a sequence of tasks, with links to the topics that
 [Supply Chain](madeira-supply-chain.md)      
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]

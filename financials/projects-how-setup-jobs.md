@@ -21,7 +21,7 @@ In the **Jobs Setup** window, you must specify how you want to use certain job f
 On the individual job cards, you must set up prices for job items, job resources, and job G/L accounts, and you must set up job posting groups.
 
 ## To set general information for jobs
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Jobs Setup**, and then choose the related link.
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Jobs Setup**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 **Note**: The **Apply Usage Link** check box is rather complex and is therefore explained in the following section.
@@ -35,7 +35,7 @@ When the **Apply Usage Link** check box is selected, and the job planning line t
 
 **Note**: If the **Apply Usage Link** check box on the job card is selected, and the **Line Type** field on the job journal line is blank, then new job planning lines of line type **Budget** are created when you post job journal lines. If the **Apply Usage Link** check box on the job card is not selected, and the **Line Type** field on the job journal line is blank, then no job planning lines are created when you post job journal lines. For more information, see [How to: Record Usage for Jobs](projects-how-record-job-usage.md).
 
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Jobs Setup**, and then choose the related link.
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Jobs Setup**, and then choose the related link.
 2. Select or deselect the **Apply Usage Link** check box.
 
 **Note**: You can make a different setting of the **Apply Usage Link** check box on the individual job cards. In that case, the setting for that job overrides the general default described above.
@@ -43,7 +43,7 @@ When the **Apply Usage Link** check box is selected, and the job planning line t
 ## To set up prices for job resources
 You can set up specific prices for resources for a job. You use the **Job Resource Prices** window to do this.
 
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Jobs**, and then choose the related link.  
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Jobs**, and then choose the related link.  
 2. Select the relevant job, and then choose the **Resource** action.
 3. In the **Job Resource Prices** window, fill in the fields as necessary.
 
@@ -56,7 +56,7 @@ The value in the **Unit Price** field for the resource will be used on the job p
 ## To set up prices for job items
 You can set up specific prices for items for a job. You use the **Job Item Prices** window to do this.
 
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Jobs**, and then choose the related link.  
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Jobs**, and then choose the related link.  
 2. Select the relevant job, and then choose the **Item** action.
 3. In the **Job Item Prices** window, fill in the fields as necessary.
 
@@ -69,7 +69,7 @@ The value in the **Unit Price** field for the item will be used on the job plann
 ## To set up prices for job general ledger accounts
 You can set up specific prices for general ledger expenses for a job. You use the **Job G/L Account Prices** window to do this.
 
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Jobs**, and then choose the related link.  
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Jobs**, and then choose the related link.  
 2. Select the relevant job, and then choose the **G/L Account** action.  
 3. In the **Job G/L Account Prices** window, fill in the fields as necessary.
 
@@ -82,7 +82,7 @@ One aspect of planning jobs is deciding which posting accounts to use for job co
 
 **Note**: The necessary accounts in the chart of accounts must be set up before you set up posting groups. For more information, see [Set Up or Change the Chart of Accounts](finance-setup-chart-accounts.md).  
 
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Job Posting Groups**, and then choose the related link.  
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Job Posting Groups**, and then choose the related link.  
 2. Choose the **New** action, and then fill in the account fields as described in the following table.  
 
 | Account field | Description |

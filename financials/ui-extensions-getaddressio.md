@@ -5,15 +5,15 @@ services: project-madeira
 documentationcenter: ''
 author: bholtorf
 
-ms.service: project-madeira
-ms.topic: article
+
+ms.service: dynamics365-financials
+ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: GetAddress.io, postcodes, postal, address, extension
-ms.date: 04/11/2017
+ms.date: 04/20/2017
 ms.author: bholtorf
-
 ---
 
 # The GetAddress.io UK Postcodes Extension to Microsoft Dynamics 365 for Financials
@@ -28,5 +28,6 @@ The GetAddress.io UK Postcodes extension can save time and prevent mistakes when
 
 **Tip**: If you know the street number, you can filter the addresses by entering some or all of the number in the **Delivery Point** field.
 
-##See Also
+
+## See Also
 [Set up the GetAddress.io UK Postal Code extension](uk-setup-postal-code-service.md)

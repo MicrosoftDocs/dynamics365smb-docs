@@ -225,7 +225,7 @@ This user-defined method can also be used to depreciate based on number of units
 ### To set up user-defined depreciation methods
 In the **Depreciation Table** window, you can set up user-defined depreciation methods. For example, you can set up depreciation based on number of units.  
 
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Depreciation Tables**, and then choose the related link.  
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Depreciation Tables**, and then choose the related link.  
 2. In the **Depreciation Table List** window, choose the **New** action.  
 3. **Depreciation Table Card** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 

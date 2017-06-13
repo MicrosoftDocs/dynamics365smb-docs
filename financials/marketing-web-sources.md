@@ -21,7 +21,7 @@ You can use web sources with your contact companies to identify, for example, se
 Using web sources on contacts is a two-step process. First, you define the web source code. You only have to perform this step one time for each web source. Once you have a web source code, you can start to assign the code to contact persons.
 
 ## to define a web source code
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Web Sources**, and then choose the related link.
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Web Sources**, and then choose the related link.
 2. Choose the **New** actions.
 3. Fill in the **Code**, **Description**, and **URL** fields.
 

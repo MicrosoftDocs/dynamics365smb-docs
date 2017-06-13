@@ -4,7 +4,7 @@ title: Set Up Marketing Campaigns in Financials| Microsoft Docs
 description: Describes how you can set up and conduct marketing campaigns in Dynamics 365 for Financials to help you identify and attract prospects and retain customers.
 services: project-madeira
 documentationcenter: ''
-author: edupont04
+author: SorenGP
 
 ms.service: dynamics365-financials
 ms.topic: article
@@ -19,12 +19,12 @@ ms.author: edupont
 # Managing Marketing Campaigns
 Having a strong marketing plan in place enables you to identify, attract, and retain customers. A marketing plan consists of various campaigns and other interactions in connection with your sales and marketing activities. While planning a campaign, you need to decide which contacts to target, what type of campaign (such as trade show or direct mail), and what salespeople will perform each task.
 
-<!-- Each campaign consists of various activities or to-dos. Activities are large tasks that can be broken down into several smaller tasks or to-dos. To-dos are individual or team tasks that can be created within activities or individually and then be assigned to individual salespeople or groups of salespeople.-->
+Each campaign consists of various activities or tasks. You can combine multiple task, for example tasks that each represent a step, in activities. Activity tasks are related to each other by a date formula. Individual tasks can only be assigned to salespeople. Activities can be assigned to opportunities, salespeople, groups of sales people, and contacts. For more information, see [How to: Set Up Opportunity Sales Cycles and Cycle Stages](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## Defining individual campaigns
 Before you can create a campaign, you must set up *campaign status codes*. Using these codes will help you manage your campaigns by assigning a status to the campaign. As you work through the stages of a campaign, you are able to see what step a campaign is at and what step comes next. You set up campaign status codes in the **Campaign Status** window.
 
-You can create a *campaign card* for each campaign that you want to keep track of. You can also view these campaign cards to view general information about your campaigns.
+You can create a campaign card for each campaign that you want to keep track of. You can also view these campaign cards to view general information about your campaigns.
 You can delete campaign entries, such as if the entry records an action that has been canceled. Only canceled campaign entries can be deleted.
 
 ### Selecting the target audience
@@ -39,10 +39,10 @@ When you have set up your campaign, decided what segments you want the campaign 
 
 If the sales prices/line discounts are not to be offered to all the contacts in the segment, you can clear the **Campaign Target** field for the relevant contacts. If you cannot see this field, you can add it to your view. For more information, see [User Personalization](ui-user-personalization.md).
 
-<!-- ## Conducting campaigns
+## Conducting campaigns
 As a campaign runs, all interactions with your contacts, or segment, are recorded so that you can get statistics and other information about the costs and success rates of the campaign.
 
-Campaigns are conducted by salespeople, and you must create activities to represent each task and assign them to the relevant salespeople.  -->
+Campaigns are conducted by salespeople, and you must create activities to represent each task and assign them to the relevant salespeople. For more information, see [How to: Set Up Opportunity Sales Cycles and Cycle Stages](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## See Also
 [Managing Contacts](marketing-contacts.md)  

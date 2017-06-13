@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: migration, Excel
-ms.date: 06/02/2017
+ms.date: 04/27/2017
 ms.author: edupont
 
 ---
@@ -58,3 +58,5 @@ After the customer data has been entered in Excel, you import the data into [!IN
 
 ## See Also
 [Importing Business Data from Other Finance Systems](upload-data.md)  
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]

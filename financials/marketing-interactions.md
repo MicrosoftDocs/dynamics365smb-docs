@@ -46,7 +46,7 @@ In this window, you can:
 * View the status of interactions.
 * Mark interactions as canceled.
 
-You can delete interaction log entries that have been canceled. To delete interaction log entries, in the top right corner, choose the **Search for Page or Report** icon, enter **Delete Canceled Interaction Log Entries**, and then choose the related link, and then fill in the information.
+You can delete interaction log entries that have been canceled. To delete interaction log entries, in the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Delete Canceled Interaction Log Entries**, and then choose the related link, and then fill in the information.
 
 ## See Also
 [Managing Contacts](marketing-contacts.md)  

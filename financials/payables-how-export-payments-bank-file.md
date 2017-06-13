@@ -25,7 +25,7 @@ In the generic version of [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)],
 You use the **Credit Transfer Registers** window to view the payment files that have been exported from the payment journal. From this window, you can also re-export payment files in case of technical errors or file changes. Note, however, that exported EFT files are not shown in this window and cannot be re-exported.  
 
 ## To export payments to a bank file
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Payment Journals**, and then choose the related link.
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Payment Journals**, and then choose the related link.
 2. Fill payment journal lines, for example, by using the **Suggest Vendor Payments** function. For more information, see [How to: Suggest Vendor Payments](payables-how-suggest-vendor-payments.md).
 3. Fill in the fields on the payment journal lines as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -74,10 +74,12 @@ You can re-export payment files from the **Credit Transfer Registers** window. B
 
 **Note**: Exported EFT files are not shown in the **Credit Transfer Registers** window and cannot be re-exported.
 
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Credit Transfer Registers**, and then choose the related link.
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Credit Transfer Registers**, and then choose the related link.
 2. Select a payment export that you want to re-export, and then choose the **Reexport Payment to File** action.
 
 ## See Also
 [Payables](payables-manage-payables.md)  
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]

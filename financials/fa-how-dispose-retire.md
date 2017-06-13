@@ -21,7 +21,7 @@ When you sell or otherwise dispose of a fixed asset, the disposal value must be 
 **Note:** If you trade-in a fixed asset for another one, you must record both the sale of the old asset (disposal) and the purchase of the new one (acquisition). For more information, see [How to: Acquire Fixed Assets](fa-how-acquire.md).  
 
 ## To post a disposal from the fixed asset G/L journal
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **FA G/L Journals**, and then choose the related link.  
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **FA G/L Journals**, and then choose the related link.  
 2. Create an initial journal line and fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. In the **FA Posting Type** field, select **Disposal**.  
 4. Choose the **Insert FA Bal. Account** action. A second journal line is created for the balancing account that is set up for disposal posting.  
@@ -34,7 +34,7 @@ When you sell or otherwise dispose of a fixed asset, the disposal value must be 
 ## To view disposal ledger entries
 When you sell or dispose of a fixed asset, the disposal value is posted to the general ledger where you can view the result.  
 
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Fixed Assets**, and then choose the related link.  
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Fixed Assets**, and then choose the related link.  
 2. Select the fixed asset that you want to view entries for, and then choose the **Depreciation Books** action.  
 3. Select the depreciation book that you want to view entries for, and then choose the **Ledger Entries** action.  
 4. Select a line with **Disposal** in the **FA Posting Category** field, and then choose the **Navigate** action.  

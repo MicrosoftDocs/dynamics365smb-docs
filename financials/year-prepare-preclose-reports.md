@@ -31,7 +31,7 @@ The following table describes a number of reports that may be useful in this pro
 | Print a trial balance report with balances and net changes for general ledger accounts. |Trial Balance |
 | Print a trial balance for a consolidated company. |Consolidated Trial Balance |
 
-To see a report, in the top right corner, choose the **Search for Page or Report** icon, type the name as it appears in the table, and then choose the related link.
+To see a report, in the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), type the name as it appears in the table, and then choose the related link.
 
 ## See Also
 [Closing Years and Periods](year-close-years-periods.md)  

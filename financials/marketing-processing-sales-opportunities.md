@@ -23,9 +23,9 @@ The existing sale opportunities are available from the **Opportunity List** wind
 
 | To view opportunities for | Then |
 | --- | --- |
-| All salespeople and contacts |In the top right corner, choose the **Search for Page or Report** icon, enter **Opportunity List**, and then choose the related link. |
-| A specific sales person |In the top right corner, choose the **Search for Page or Report** icon, enter **Salespeople**, and then choose the related link. Select the salesperson, choose the **Opportunities** action, and then choose the **List** action. |
-| A specific contact |In the top right corner, choose the **Search for Page or Report** icon, enter **Contacts**, and then choose the related link. Select the contact from the list, and then choose the **Opportunities** action. |
+| All salespeople and contacts |In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Opportunity List**, and then choose the related link. |
+| A specific sales person |In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Salespeople**, and then choose the related link. Select the salesperson, choose the **Opportunities** action, and then choose the **List** action. |
+| A specific contact |In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Contacts**, and then choose the related link. Select the contact from the list, and then choose the **Opportunities** action. |
 
 Each of these tasks opens the **Opportunity List** window.
 
@@ -61,7 +61,7 @@ To delete closed opportunities from the **Opportunity List** window, select the 
 
 To delete closed opportunities by using the **Delete Closed Opportunities** batch job, follow these steps:
 
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Delete Opportunities**, and then choose the related link.
+1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Delete Opportunities**, and then choose the related link.
 2. In the **Opportunity** section, set up the filters that specify the closed opportunities to delete.
 3. Choose the **OK** button.
 

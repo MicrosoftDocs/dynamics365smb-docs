@@ -40,12 +40,12 @@ The Image Analyzer extension is built-in to [!INCLUDE[d365fin](includes/d365fin_
 1. To enable the Image Analyzer extension, do one of the following:
   
 * Go to an item card or contact card. In the notification bar, choose **Analyze Images**, and then follow the steps in the assisted setup guide.  
-* In the top right corner, choose the **Search for Page or Report** icon, enter **Service Connections**, and then choose **Image Analysis Setup**. Choose the **Enable Image Analyzer** check box, and then complete the steps in the assisted setup guide.  
+* Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Connections**, and then choose **Image Analysis Setup**. Choose the **Enable Image Analyzer** check box, and then complete the steps in the assisted setup guide.  
 
 ## To analyze an image of an item
 The following steps describe how to analyze an image that was uploaded before you enabled the Image Analyzer extension.  
 
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Items**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.  
 2. Choose the item, and then choose the **Analyze Picture** action.  
 3. The **Image Analyzer Attributes** page displays the detected attributes, the confidence level, and other details about the attribute. Use the **Action to perform** options to specify what to do with the attribute.  
 
@@ -55,7 +55,7 @@ The following steps describe how to analyze an image that was uploaded before yo
 ## To analyze a picture of a contact person
 The following steps describe how to analyze an image that was uploaded before you enabled the Image Analyzer extension.  
 
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Contacts**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Contacts**, and then choose the related link.  
 2. Choose the contact person, and then choose the **Analyze Picture** action.  
 3. Review the suggestions, and make corrections if needed.  
 
@@ -66,7 +66,7 @@ If the analysis suggests an attribute that you don't want to see you can blackli
 ## Using your own account for the Computer Vision API
 You can also use your own account for the Computer Vision API, for example, if you want to analyze more images than we allow.  
   
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Image Analyzer Setup**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Image Analyzer Setup**, and then choose the related link.  
 2. Enter the **API URI** and **API Key** that you received for Computer Vision API.  
   
     > [!NOTE]  
@@ -75,11 +75,11 @@ You can also use your own account for the Computer Vision API, for example, if y
 ## To see how many analyses you have left in the current period
 You can view the number of analyses you've done, and how many you can still do, in the current period.  
   
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Image Analyzer Setup**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Image Analyzer Setup**, and then choose the related link.  
 2. The **Limit type**, **Limit value**, and **Analyzes performed** provide the usage information.  
 
 ## To stop using the Image Analyzer extension
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Service Connections**, and then choose **Image Analyzer Setup**.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Connections**, and then choose **Image Analyzer Setup**.  
 2. Clear the **Enable Image Analyzer** check box.  
 
 ## See Also

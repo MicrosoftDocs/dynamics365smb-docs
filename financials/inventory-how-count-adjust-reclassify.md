@@ -63,7 +63,7 @@ Employees can now proceed to count inventory and record any discrepancies on the
 
     Both item ledger entries and physical inventory ledger entries are created. Open the item card to view the resulting physical inventory ledger entries.
 
-3. In the top right corner, choose the **Search for Page or Report** icon, enter **Items**, and then choose the related link.
+3. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.
 4. To verify the inventory counting, open the item card in question, and then, choose the **Phys. Inventory ledger Entries** action.
 
 # To perform cycle counting

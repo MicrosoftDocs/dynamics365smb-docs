@@ -20,7 +20,8 @@ You can issue electronic and manual checks in [!INCLUDE[d365fin](includes/d365fi
 
 The process of issuing checks suggests payments, creates ledger entries, and prints the computer checks.
 
-**Note**: To make sure that your bank only clears validated checks and amounts, you can send them a file that contains vendor, check, and payment information. For more information, see [How to: Export a Positive Pay file](finance-how-positive-pay.md).
+> [!NOTE]  
+>   To make sure that your bank only clears validated checks and amounts, you can send them a file that contains vendor, check, and payment information. For more information, see [How to: Export a Positive Pay file](finance-how-positive-pay.md).
 
 Your printer must be correctly set up with the check forms, and you must define which check layout to use. For more information, see [How to: Define Check Layouts](finance-how-define-check-layouts.md)
 
@@ -32,12 +33,14 @@ Your printer must be correctly set up with the check forms, and you must define 
    * **Computer Check**: Select this option if you want to print a check for the amount on the payment journal line. You must print the checks before you can post the journal lines. You can only select **Computer Check** if the **Bal. Account Type** or the **Account Type** is **Bank Account**.
    * **Manual Check**: Select this option if you have created a check manually and want to create a corresponding check ledger entry for this amount. By using this option, you cannot print checks from [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can only select **Manual Check** if the **Bal. Account Type** or the **Account Type** is **Bank Account**.
 
-     **Note**: You must print computer checks before you post the related journal lines.
+     > [!NOTE]  
+>   You must print computer checks before you post the related journal lines.
 4. In case of computer checks, choose **Print Check**.
 5. In the **Check** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 6. Choose the **Print** button.
 
-**Note**: If you want to print checks in more than one currency from different bank accounts, you must run the **Print Check** batch job separately for each currency and specify the appropriate bank account.
+> [!NOTE]  
+>   If you want to print checks in more than one currency from different bank accounts, you must run the **Print Check** batch job separately for each currency and specify the appropriate bank account.
 
 ## To cancel printed checks that are not posted
 You can cancel non-posted checks after they have been printed by using the **Void Check** action in the **Payment Journal** window.

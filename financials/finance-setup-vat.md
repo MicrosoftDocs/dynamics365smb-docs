@@ -26,18 +26,21 @@ Consumers and businesses pay value added tax (VAT) when they purchase goods or s
   
 You can set up VAT calculations manually, but that can be tricky and time consuming. To make it easy, we've provided an assisted setup guide named **VAT Setup** that will help you with the steps. We recommend that you use the assisted setup guide to set up VAT.
 
-**Note**: You can use the guide only if you've created a My Company, and have not posted transactions that include VAT. Otherwise, it would be very easy to use different VAT rates by mistake, and make VAT-related reports inaccurate.  
+> [!NOTE]  
+>   You can use the guide only if you've created a My Company, and have not posted transactions that include VAT. Otherwise, it would be very easy to use different VAT rates by mistake, and make VAT-related reports inaccurate.  
   
 If you want to set up VAT calculations yourself, or just want to learn about each step, this topic contains descriptions of each step. These include how to:  
   
 * Set up VAT business posting groups to define VAT rates for the markets you do business in. You'll assign these to customers and vendors.  
 * Set up VAT product posting groups to define VAT rates for the products and services you buy or sell.  
   
-   **Note**: The concepts behind VAT business and product posting groups are similar to general posting groups. For more information, see [Posting Group Setups](finance-posting-groups.md).
+   > [!NOTE]  
+>   The concepts behind VAT business and product posting groups are similar to general posting groups. For more information, see [Posting Group Setups](finance-posting-groups.md).
 * Combine VAT business and product posting groups to create VAT setups that calculate VAT amounts on sales and purchases.  
 * Assign VAT product posting groups to the general ledger accounts you use for sales and purchases, and items, and resources.  
 
-   **Note**: To set up VAT for resources, you must enable the **Suite** user experience for your company. For more information, see [Customizing Your Dynamics 365 for Financials Experience](ui-experiences.md).
+   > [!NOTE]  
+>   To set up VAT for resources, you must enable the **Suite** user experience for your company. For more information, see [Customizing Your Dynamics 365 for Financials Experience](ui-experiences.md).
 * Use reverse charge VAT for trade between EU countries/regions  
 * Understand VAT rounding for documents  
 * Set up clauses to explain the use of non-standard VAT rates
@@ -163,9 +166,11 @@ Our service can also save you a little time when you're creating a customer or v
 ## Using reverse charge VAT for trade between EU countries or regions
 Some companies must use reverse charge VAT when trading with other companies. For example this rule applies to purchases from EU countries/regions and sales to EU countries/regions.
 
-**Note**: This rule applies when trading with companies that are registered as VAT liable in another EU country/region. If you do business directly with consumers in other EU countries/regions, then you should contact your tax authority for applicable VAT rules.  
+> [!NOTE]  
+>   This rule applies when trading with companies that are registered as VAT liable in another EU country/region. If you do business directly with consumers in other EU countries/regions, then you should contact your tax authority for applicable VAT rules.  
 
-**Tip**: You can verify that a company is registered as VAT liable in another EU country by using the EU VAT Registration Number Validation service. The service is available for free in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see the section titled _Verify VAT registration numbers_ in this topic.
+> [!TIP]  
+>   You can verify that a company is registered as VAT liable in another EU country by using the EU VAT Registration Number Validation service. The service is available for free in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see the section titled _Verify VAT registration numbers_ in this topic.
 
 ### Sales to EU countries or regions
 VAT is not calculated on sales to VAT-liable companies in other EU countries/regions. You must report the value of these sales to EU countries/regions separately on your VAT statement.

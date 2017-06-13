@@ -22,7 +22,8 @@ Use account schedules to get insight into the financial data stored in your char
 
 Setting up account schedules requires an understanding of the financial data in the chart of accounts. For example, you can view general ledger entries as percentages of budget entries. You use the **Account Schedule** window to set up account schedules.  
 
-**Note**: This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
+> [!NOTE]  
+>   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 
 ## Account Categories and Account Schedules
 You can use account categories to change the layout of your financial statements. After you set up your account categories in the **G/L Account Categories** window, and you choose the **Generate Account Schedules** action, the underlying account schedules for the core financial reports are updated. The next time you run one of these reports, such as the balance statement, new totals and subentries are added, based on your changes. For more information, see [The General Ledger and the Chart of Accounts](finance-general-ledger.md).  
@@ -40,7 +41,8 @@ You can use account categories to change the layout of your financial statements
 6. Choose the **Edit Column Layout Setup** action.
 7. In the **Column Layout** window, fill in the fields as necessary.
 
-**Note**: If you did not assign a default column layout to the account schedule, you must set the columns up manually.   
+> [!NOTE]  
+>   If you did not assign a default column layout to the account schedule, you must set the columns up manually.   
 
 ### To create a column that calculates percentages  
 Sometimes you may want to include a column in an account schedule to calculate percentages of a total. For example, if you have a number of rows that break down sales by dimension, you may want a column to indicate the percentage of total sales that each row represents.

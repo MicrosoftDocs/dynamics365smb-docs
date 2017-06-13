@@ -56,7 +56,8 @@ The following procedure describes how to send a posted sales invoice as an email
     If a document-specific email body is set up in the **Report Selection - Sales** window, then the **Body** field is filled in automatically. For more information, see the "To set up a document-specific email body for sales invoices" section in this topic.
 9. Choose the **OK** button to send the email message.
 
-**Note**: If you do not want to specify email settings each time you email a document, you can select the **Yes (Use Default Settings)** option in the **Email** field in the **Send Document to** window. In that case, the **Send Email** window will not open. See Step 4. For more information, see [How to: Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).
+> [!NOTE]  
+>   If you do not want to specify email settings each time you email a document, you can select the **Yes (Use Default Settings)** option in the **Email** field in the **Send Document to** window. In that case, the **Send Email** window will not open. See Step 4. For more information, see [How to: Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).
 
 ## See Also
 [Managing Report and Document Layouts](ui-manage-report-layouts.md)  

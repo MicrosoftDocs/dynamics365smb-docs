@@ -20,7 +20,8 @@ During the project, job costs from resource usage, materials, and job-related pu
 
 You can invoice the whole job from the **Job Task Lines** window or only invoice selected billable lines from the **Planning Lines** window. Invoicing can be done after the job is finished or at certain intervals during the job's progress based on an invoicing schedule.
 
-**Note**: If you select **Billable** in the **Job Line Type** field on the purchase documents for job-related purchases, then job planning lines that are ready to be invoiced to the customer are created. For more information, see [How to: Manage Project Supplies](projects-how-manage-project-supplies.md).
+> [!NOTE]  
+>   If you select **Billable** in the **Job Line Type** field on the purchase documents for job-related purchases, then job planning lines that are ready to be invoiced to the customer are created. For more information, see [How to: Manage Project Supplies](projects-how-manage-project-supplies.md).
 
 ## To create and post a job sales invoice
 You can create an invoice for a job or for one or more job tasks for a customer when either the work to be invoiced is complete or the date for invoicing based on an invoicing schedule has been reached.
@@ -49,7 +50,8 @@ You can create an invoice from a job planning lines, and indicate at that time t
     The **Sales Invoice** window opens, showing the quantity that you have transferred to the invoice.  
 9. Make any additional changes, and then choose the **Post** action.
 
-**Note**: The above procedure is similar for creating, reviewing, and posting a job-related sales credit memo.
+> [!NOTE]  
+>   The above procedure is similar for creating, reviewing, and posting a job-related sales credit memo.
 
 ## To calculate and post job completion entries
 When you have completed all activities for a job, including usage posting and invoicing, you must update the job to have a **Status** of **Completed**. Then, you must reverse any WIP that has been posted to the general ledger.

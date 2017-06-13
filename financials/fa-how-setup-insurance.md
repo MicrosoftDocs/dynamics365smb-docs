@@ -50,7 +50,8 @@ You can set up batches in an insurance journal template. The values in the journ
 2. Select an insurance journal template, and then choose the **Batches** action.
 3. In the **Insurance Journal Batches** window, fill in the fields as necessary.
 
-**Note**: Numbers have a special function in journal names. If a journal template name or journal batch name contains a number, the number automatically advances by one every time that the journal is posted. For example, if HH1 is entered in the **Name** field, the journal name will change to HH2 after the journal named HH1 has been posted.
+> [!NOTE]  
+>   Numbers have a special function in journal names. If a journal template name or journal batch name contains a number, the number automatically advances by one every time that the journal is posted. For example, if HH1 is entered in the **Name** field, the journal name will change to HH2 after the journal named HH1 has been posted.
 
 ## See Also
 [Setting Up Fixed Assets](fa-setup.md)  

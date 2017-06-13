@@ -36,7 +36,8 @@ Then you can set up columns like these:
 - Sales Last Month  
 - Sales in Pct. of last Month  
 
-**Note**: This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
+> [!NOTE]  
+>   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 
 ## Setting Up Line and Column Layouts  
  In the **Analysis Report** window, you can view different line and column layouts according to what you have set up. You set up your lines or line templates in the **Analysis Line Templates** window. In this window, you can define the name of the report and the objects you want to show in the lines of your report. You set up your columns in the **Analysis Column Templates** window. In this window, you can define the name of the column template and the analysis parameters that you want to show in the report as columns. In the **Analysis Column Templates** window, each line represents a column in your report. Note that analysis lines and analysis columns are independent from each other.  
@@ -65,7 +66,8 @@ A template contains a set of lines each representing the analysis columns that y
 3. Choose the **Columns** action.  
 4. In the **Analysis Columns** window, fill in the fields to specify the columns that you want to include in your analysis report.  
 
-    **Note**: To define a column, you must fill in the **Analysis Type Codes** field for all column types except **Formula**. Set up the analysis type codes in the **Analysis Types** window.  
+    > [!NOTE]  
+>   To define a column, you must fill in the **Analysis Type Codes** field for all column types except **Formula**. Set up the analysis type codes in the **Analysis Types** window.  
 
     **Note**. In the **Ledger Entry Type** field, if you select **Item Entries**, the actual figures from the item ledger entry are copied. If you select **Item Budget Entries**, the budgeted figures from the budget are copied.  
 5.  Choose the **OK** button to save your changes.  
@@ -82,7 +84,8 @@ A template contains a set of lines representing the analysis lines that you see 
 3. Choose the **Lines** action.  
 4. In the **Analysis Lines** window, create lines for the items, customers, vendors, or salespeople you want to view figures for in your analysis report. You must fill in the **Type**, **Range**, and the **Description** fields.  
 
-**Note**: Alternatively, when you want to create many individual lines for each item, customer, and so on, you can select the appropriate insert option to fill in all the relevant fields on the line. If you need to, you can then edit the lines manually. To insert lines, choose the **Insert Items** action or the **Insert Item Groups** action.  
+> [!NOTE]  
+>   Alternatively, when you want to create many individual lines for each item, customer, and so on, you can select the appropriate insert option to fill in all the relevant fields on the line. If you need to, you can then edit the lines manually. To insert lines, choose the **Insert Items** action or the **Insert Item Groups** action.  
 
 ## To create a new sales analysis report
 The following procedure is based on analysis views for sales. The steps are similar for purchase and inventory analysis views.
@@ -95,7 +98,8 @@ You use analysis reports to analyze the dynamics of your sales according to key 
 4. Choose the **Edit Analysis Report** action.
 5. In the **Sales Analysis Report** window, choose the **Show Matrix** action  
 
-**Note**: Building combinations of line and column templates to create reports and assigning them unique names is optional. If you do this, selecting a report name means that you will not need to select line and column templates in the **Sales Analysis Report** window. After you have chosen a report name, you can change line and column templates independently and then later select the report name again to restore the original combination.
+> [!NOTE]  
+>   Building combinations of line and column templates to create reports and assigning them unique names is optional. If you do this, selecting a report name means that you will not need to select line and column templates in the **Sales Analysis Report** window. After you have chosen a report name, you can change line and column templates independently and then later select the report name again to restore the original combination.
 
 ## See Also
 [Business Intelligence](bi.md)  

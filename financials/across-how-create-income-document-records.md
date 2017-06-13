@@ -31,7 +31,8 @@ If you do want to allow users to create invoices or general journal lines from i
 If you approve the incoming document record, the **Released** check box on the incoming document line is selected. The user in charge of creating, for example, purchase invoices can proceed to process the record.
 
 ## To create an incoming document record by taking a photo
-**Note**: The following procedure only applies to the [!INCLUDE[d365fin](includes/d365fin_md.md)] Tablet and Phone clients.
+> [!NOTE]  
+>   The following procedure only applies to the [!INCLUDE[d365fin](includes/d365fin_md.md)] Tablet and Phone clients.
 
 1. On the app bar, choose the **Create Incoming Document from Camera** tile, and then go to step 4.
 2. Alternatively, on the app bar, choose the options button, choose **Incoming Documents**, and then choose **All**.
@@ -41,7 +42,8 @@ If you approve the incoming document record, the **Released** check box on the i
 A new incoming document record is created, with the image attached.
 
 ## To attach an image to an incoming document record by taking a photo
-**Note**: The following procedure only applies to the [!INCLUDE[d365fin](includes/d365fin_md.md)] Tablet and Phone clients.
+> [!NOTE]  
+>   The following procedure only applies to the [!INCLUDE[d365fin](includes/d365fin_md.md)] Tablet and Phone clients.
 
 1. On the app bar, choose the options button, choose **Incoming Documents**, and then choose **All**.
 2. Open the card for an existing incoming document record.

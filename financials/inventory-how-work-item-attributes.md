@@ -25,7 +25,8 @@ You can also assign item attributes to item categories, which then apply to the 
 2. In the **Item Attributes** window, choose the **New** action.
 3. In the **Item Attribute** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-**Note**: If you select **Option** in the **Type** field, then you can choose the **Item Attribute Values** action to create values for the item attribute. For more information, see the "To create values for item attributes of type Option" section.  
+> [!NOTE]  
+>   If you select **Option** in the **Type** field, then you can choose the **Item Attribute Values** action to create values for the item attribute. For more information, see the "To create values for item attributes of type Option" section.  
 
 ## To create values for item attributes of type Option
 1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Item Attributes**, and then choose the related link.
@@ -49,7 +50,8 @@ You can also assign item attributes to item categories, which then apply to the 
 5. In the **Default Value** field, choose the lookup button and select an item attribute value.
 6. Repeat steps 4 and 5 for all item attributes that you want to assign to the item category.
 
-**Note**: Item attributes for parent item categories will be inherited to child item categories. This is indicated by the **Inherited From** field on the **Attributes** FastTab. For more information, see [How to: Categorize Items](inventory-how-categorize-items.md).
+> [!NOTE]  
+>   Item attributes for parent item categories will be inherited to child item categories. This is indicated by the **Inherited From** field on the **Attributes** FastTab. For more information, see [How to: Categorize Items](inventory-how-categorize-items.md).
 
 ## To filter by item attributes
 1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Items**, and then choose the related link.
@@ -57,7 +59,8 @@ You can also assign item attributes to item categories, which then apply to the 
 3. In the **Filter Items by Attribute** window, choose the lookup button in the **Attribute** field and select an item attribute.
 4. In the **Value** field, choose the lookup button and select an attribute value to filter items by.
 
-    **Note**: You can only select values directly for item attributes that have fixed values, such as Color. For item attributes that have variable values, such as Width, you must specify the item attribute value by first selecting a condition. See step 5.
+    > [!NOTE]  
+>   You can only select values directly for item attributes that have fixed values, such as Color. For item attributes that have variable values, such as Width, you must specify the item attribute value by first selecting a condition. See step 5.
 5. In the **Value** field for a variable item attribute, choose the lookup button.
 6. In the **Specify Filter Value** window, in the **Condition** field, choose the drop-down arrow and select a condition.
 7. In the **Value** field, enter an attribute value to filter items by.

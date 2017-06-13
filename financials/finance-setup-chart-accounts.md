@@ -22,7 +22,8 @@ However, you can change the default accounts, and you can add new accounts.
 ## Adding or Changing Accounts
 From the chart of accounts, you can open each G/L account and add or change settings.
 
-**Note**: You can delete a general ledger account. However, before you delete it, the following must be true:  
+> [!NOTE]  
+>   You can delete a general ledger account. However, before you delete it, the following must be true:  
 
 * The balance on the account must be zero.  
 * The **Allow G/L Acc. Deletion Before** field must be set in the **General Ledger Setup** window, and the account must not have ledger entries on or after that date.  

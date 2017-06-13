@@ -52,7 +52,8 @@ When you have decided which customers are eligible for invoice discounts, enter 
 2. Open the customer card for a customer that will be eligible for invoice discounts.
 3. In the **Invoice Disc. Code** field, select a code for the relevant invoice discount terms to use to calculate invoice discounts for the customer.
 
-    **Note**: Invoice discount codes are represented by existing customer cards. This enables you to quickly assign invoice discount terms to customers by picking the name of another customer who will have the same terms.
+    > [!NOTE]  
+>   Invoice discount codes are represented by existing customer cards. This enables you to quickly assign invoice discount terms to customers by picking the name of another customer who will have the same terms.
 
     Proceed to set up new the sales invoice discount terms.
 4. In the **Customer Card** window, choose the **Invoice Discounts** action. The **Cust. Invoice Discounts** window opens.
@@ -68,7 +69,8 @@ When you have recorded special prices and line discounts for sales and purchases
 
 The best price is the lowest permissible price with the highest permissible line discount on a given date. [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically calculates this when it inserts the unit price and the line discount percentage for items on new document and journal lines.
 
-**Note**: The following describes how the best price is calculated for sales. The calculation is the same for purchases.
+> [!NOTE]  
+>   The following describes how the best price is calculated for sales. The calculation is the same for purchases.
 
 1. [!INCLUDE[d365fin](includes/d365fin_md.md)] checks the combination of the bill-to customer and the item and then calculates the applicable unit price and line discount percentage, using the following criteria:
 

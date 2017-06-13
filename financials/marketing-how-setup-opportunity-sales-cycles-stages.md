@@ -47,7 +47,8 @@ You can combine multiple task, for example tasks that each represent a step, in 
 ## To assign tasks or activities of tasks to opportunities
 When you have set up a task, you can assign it to a sales opportunity and thereby assign the activity that the task belongs to.
 
-**Note**: This procedure describes how to assign activity tasks to opportunities. the steps are similar when you assign tasks to salespeople and contacts.
+> [!NOTE]  
+>   This procedure describes how to assign activity tasks to opportunities. the steps are similar when you assign tasks to salespeople and contacts.
 
 1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Opportunities**, and then choose the related link.
 2. Select an opportunity, and then choose the **Tasks** action.

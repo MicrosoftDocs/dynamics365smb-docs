@@ -34,7 +34,8 @@ The PayPal Payments Standard and WorldPay Payments Standard extensions are insta
 2. Open the sales invoice that you want to pay by using the payment service.  
 3. In the **Payment Service** field, choose the payment service.  
   
-    **Note**: The **Payment Service** field is available only if you've enabled the payment service.  
+    > [!NOTE]  
+>   The **Payment Service** field is available only if you've enabled the payment service.  
 
 ## See Also  
 [Setting Up Sales](sales-setup-sales.md)  

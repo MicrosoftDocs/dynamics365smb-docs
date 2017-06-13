@@ -37,7 +37,8 @@ When the Incoming Documents feature is set up, you can use different functions t
 
 When approvers have been set up in the **Incoming Document Approvers** window, only those users can approve an incoming document if the **Require Approval To Create** check box in the **Incoming Documents Setup** window is selected.
 
-**Note**: This approval setup is not related to approval workflows. For more information, see [How to: Use Approval Workflows](across-how-use-approval-workflows.md).
+> [!NOTE]  
+>   This approval setup is not related to approval workflows. For more information, see [How to: Use Approval Workflows](across-how-use-approval-workflows.md).
 
 ## To set up an OCR service
 1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **OCR Service Setup**, and then choose the related link.

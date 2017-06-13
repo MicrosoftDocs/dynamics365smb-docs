@@ -22,7 +22,8 @@ Analyzing data by dimensions gives you greater insight into your business, so yo
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] enables you to organize and analyze your data by dimensions.
 
-**Note**: This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
+> [!NOTE]  
+>   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 
 ## To set up an analysis view  
 An analysis by dimensions displays a selected combination of dimensions. You can store and retrieve each analysis you have set up. The information for setting up an analysis is stored on an **Analysis View** card to simplify future analysis.  
@@ -44,11 +45,14 @@ You can use the **Analysis by Dimensions** matrix to view the amounts in your ge
 3. At the top of the **Analysis by Dimensions** window, fill in the fields to define what is shown.
 4. 5. To see a specification of an amount shown in the matrix window, choose the amount.  
 
-**Important**: You cannot select a period length shorter than the period specified for the date compression on the **Analysis View** card. The **Next Set** and **Previous Set** commands are inactive if you have selected **Period** in either the **Show as Lines** or the **Show as Columns** field.  
+> [!IMPORTANT]  
+>   You cannot select a period length shorter than the period specified for the date compression on the **Analysis View** card. The **Next Set** and **Previous Set** commands are inactive if you have selected **Period** in either the **Show as Lines** or the **Show as Columns** field.  
 
-**Note**: You can use the **Dimensions - Detail** report to display a detailed classification of how dimensions have been used on entries over a selected period. You can use the **Dimensions - Total ** report to display only the total amounts.  
+> [!NOTE]  
+>   You can use the **Dimensions - Detail** report to display a detailed classification of how dimensions have been used on entries over a selected period. You can use the **Dimensions - Total ** report to display only the total amounts.  
 
-**Tip**: You can also change the view by changing the contents of the **Show as Lines** field and **Show as Columns** field. To reverse a view setting, choose the **Reverse Lines and Columns** action.
+> [!TIP]  
+>   You can also change the view by changing the contents of the **Show as Lines** field and **Show as Columns** field. To reverse a view setting, choose the **Reverse Lines and Columns** action.
 
 ## To update an analysis view  
 The amounts that are displayed in the **Analysis by Dimensions** window give you a picture of the company’s state at the time of the last update. To get a picture of the current state, you must update the analysis view by running the update function.
@@ -60,9 +64,11 @@ The following procedure is for updating an analysis view from the **Analysis by 
 3. Select the line with the relevant analysis view.  
 4. Choose the **Update** action.  
 
-**Tip**: If you select the **Update on Posting** check box on an analysis view card, the view is automatically updated when an involved transaction is posted.
+> [!TIP]  
+>   If you select the **Update on Posting** check box on an analysis view card, the view is automatically updated when an involved transaction is posted.
 
-**Note**: To update some or all analysis views at the same time, you must use the **Update Analysis Views** batch job.  
+> [!NOTE]  
+>   To update some or all analysis views at the same time, you must use the **Update Analysis Views** batch job.  
 
 ## See Also
 [Business Intelligence](bi.md)  

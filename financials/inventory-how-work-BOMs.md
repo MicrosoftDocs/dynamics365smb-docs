@@ -25,7 +25,8 @@ Assembly BOMs can have multiple levels, which means that a component on the asse
 
 Special requirements apply to items on assembly BOMs with regards to availability. For more information, see the "To see the availability of an item by its use in assembly BOMs" section in [How to: View the Availability of Items](inventory-how-availability-overview.md).
 
-**Note**: This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your Financials Experience](ui-experiences.md).
+> [!NOTE]  
+>   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your Financials Experience](ui-experiences.md).
 
 ## To create an assembly BOM
 To define a parent item that consists of other items, and potentially of resources required to put the parent together, you must create an assembly BOM.  

@@ -23,7 +23,8 @@ Before you can work with Fixed Assets, you need to define a few things:
 
 The table below has links to more information. After you set those things up, you can start various activities. For more information, see [Fixed Assets](fa-manage.md).  
 
-**Note**: You can record fixed asset transactions in the **Fixed Asset G/L Journal** or **Fixed Asset Journal** windows, depending on whether the transactions are for financial reporting or for internal management. Help for Fixed Assets only describes how to use the **Fixed Asset G/L Journal** window.  
+> [!NOTE]  
+>   You can record fixed asset transactions in the **Fixed Asset G/L Journal** or **Fixed Asset Journal** windows, depending on whether the transactions are for financial reporting or for internal management. Help for Fixed Assets only describes how to use the **Fixed Asset G/L Journal** window.  
 
 When you enable a fixed asset activity in the **G/L Integration** section in the **Depreciation Book Card** window, the **Fixed Asset G/L Journal** window is used to post transactions for the activity.
 

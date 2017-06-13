@@ -74,7 +74,8 @@ When you are ready to post financial information for jobs, you must create job j
 ## To review planning lines for a job ledger entry
 After you have posted job journal lines, you can see the planning lines that are associated with the job journal entries that have been posted.
 
-**Note**: This requires that the **Apply Usage Link** check box has been selected for the job, or is the default setting for all jobs in your organization. For more information, see [How to: Set Up Jobs](projects-how-setup-jobs.md).  
+> [!NOTE]  
+>   This requires that the **Apply Usage Link** check box has been selected for the job, or is the default setting for all jobs in your organization. For more information, see [How to: Set Up Jobs](projects-how-setup-jobs.md).  
 
 1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Job Journals**, and then choose the related link.  
 2. Select a relevant job journal, and then choose the **Ledger Entries** action.  

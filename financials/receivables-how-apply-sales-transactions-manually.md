@@ -18,7 +18,8 @@ ms.author: sgroespe
 # How to: Reconcile Customer Payments Manually
 When you receive a cash receipt from a customer, or you make a cash refund, you must decide whether to apply the payment or refund to close one or more open debit or credit entries. You can specify the amount you want to apply. For example, you can apply partial payments to customer ledger entries. Closing customer ledger entries makes sure that information such as customer statistics, account statements, and finance charges are correct.
 
-**Note**: In the **Customer Ledger Entries** window, red font means that the related payment is past its due date.
+> [!NOTE]  
+>   In the **Customer Ledger Entries** window, red font means that the related payment is past its due date.
 
 You can apply customer ledger entries in several ways:
 
@@ -26,7 +27,8 @@ You can apply customer ledger entries in several ways:
 * From sales credit memo documents.
 * From customer ledger entries after sales documents are posted but not applied.
 
-**Note**: If the **Application Method** field on the customer card contains **Apply to Oldest**, payments are applied to the oldest open credit entry, unless you manually specify an entry. If the application method is **Manual**, you always apply entries manually.
+> [!NOTE]  
+>   If the **Application Method** field on the customer card contains **Apply to Oldest**, payments are applied to the oldest open credit entry, unless you manually specify an entry. If the application method is **Manual**, you always apply entries manually.
 
 You can apply customer payments manually in the **Cash Receipt Journal** window. A cash receipt journal is a type of general journal, so you can use it to post transactions to general ledger, bank, customer, vendor, and fixed assets accounts. You can apply the payment to one or more debit entries when you post the payment, or you can apply from the posted entries later.
 
@@ -117,7 +119,8 @@ You can also apply customer and vendor payments in the **Payment Reconciliation 
 
 On the ledger entry list, on the line that contains the ledger entry that was fully applied to, you can see that the **Open** check box is not selected.  
 
-**Note**: After you select an entry in the **Apply Customer Entries** window, or several entries by setting the **Applies-to ID**, the **Applied Amount** field on the journal line will contain the sum of the remaining amounts for the posted entries you have selected, unless the field contains something already. If you select **Apply to Oldest** in the **Application Method** field on the customer card, the application occurs automatically.
+> [!NOTE]  
+>   After you select an entry in the **Apply Customer Entries** window, or several entries by setting the **Applies-to ID**, the **Applied Amount** field on the journal line will contain the sum of the remaining amounts for the posted entries you have selected, unless the field contains something already. If you select **Apply to Oldest** in the **Application Method** field on the customer card, the application occurs automatically.
 
 ## To apply customer ledger entries in different currencies to one another
 If you sell to a customer in one currency and receive payment in another currency, you can still apply the invoice to the payment.  
@@ -133,7 +136,8 @@ Applying customer ledger entries in different currencies must be enabled. For mo
 5. Choose the **OK** button to return to the cash receipt journal.
 6. Post the sales journal.  
 
-**Important**: When you apply entries in different currencies, the entries are converted to USD. Although the exchange rates for the two currencies are fixed, for example between USD and EUR, there may be a small residual amount when they are converted to USD. These small residual amounts are posted as gains and losses to the account specified in the **Realized Gains Account** or **Realized Losses Account** fields in the **Currencies** window. The **Amount (USD)** field is also adjusted on the vendor ledger entries.  
+> [!IMPORTANT]  
+>   When you apply entries in different currencies, the entries are converted to USD. Although the exchange rates for the two currencies are fixed, for example between USD and EUR, there may be a small residual amount when they are converted to USD. These small residual amounts are posted as gains and losses to the account specified in the **Realized Gains Account** or **Realized Losses Account** fields in the **Currencies** window. The **Amount (USD)** field is also adjusted on the vendor ledger entries.  
 
 ## To correct an application of customer entries
 When you correct an application, correcting entries that are identical to the original entry but with opposite sign in the amount field are created and posted for all entries, including all general ledger posting derived from the application, such as payment discount and currency gains/losses. The entries that were closed by the application are reopened.  
@@ -146,7 +150,8 @@ When you correct an application, correcting entries that are identical to the or
 6. Select the application entry, and then choose the **Unapply Entries** action.
 7. Fill in the fields in the header, and then choose the **Unapply** action.  
 
-**Important**: If an entry has been applied by more than one application entry, you must unapply the latest application entry first.  
+> [!IMPORTANT]  
+>   If an entry has been applied by more than one application entry, you must unapply the latest application entry first.  
 
 ## See Also
 [Managing Receivables](receivables-manage-receivables.md)  

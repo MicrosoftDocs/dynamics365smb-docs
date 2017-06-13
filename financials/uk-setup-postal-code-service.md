@@ -26,7 +26,8 @@ The GetAddress.io UK Postcodes extension uses the getAddress API to find address
 4. In the **Postal code service selection** window, choose **GetAddress.io**.
 5. In the **GetAddress.io Config** window, choose **Get API Key** to open the **Plans** page on the website for the getAddress API.  
 
-    **Note**: You might need to allow pop-ups in your browser.
+    > [!NOTE]  
+>   You might need to allow pop-ups in your browser.
 6. Purchase a plan, or just choose **Get API Key**, and then provide your email address.
 7. Open the email from getAddress.io, and copy the API key. The key is under the **Your API Key** heading.
 8. In the **GetAddress.io Config** window, paste the API key in the **API Key** field, and then choose **OK**.

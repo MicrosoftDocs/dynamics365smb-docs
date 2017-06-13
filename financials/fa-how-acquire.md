@@ -1,6 +1,6 @@
 ---
-title: 'How to: Acquire Fixed Assets| Microsoft Docs'
-description: Describes how to create and acquire a fixed asset.
+title: Acquire Fixed Assets| Microsoft Docs
+description: You can set up a fixed asset, assign a depreciation book, and record the fixed asset’s acquisition cost.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase fixed asset
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---

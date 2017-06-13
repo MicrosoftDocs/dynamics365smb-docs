@@ -1,6 +1,6 @@
 ---
-title: 'How to: Close Accounting Periods | Microsoft Docs'
-description: Explains how to close accounting periods.
+title: Close Accounting Periods for a Fiscal Year | Microsoft Docs
+description: Describes how to close the accounting periods that make up the fiscal year.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 03/29/2017
+ms.date: 06/02/2017
 ms.author: jswymer
 
 ---

@@ -1,6 +1,6 @@
 ---
-title: 'How to: Monitor Job Progress and Performance| Microsoft Docs'
-description: Describes how to budget for jobs.
+title: Define a WIP Method and Monitor Job Progress| Microsoft Docs
+descrition: Describes how you can create a work in process (WIP) method and calculate WIP to estimate the financial value of jobs while they are ongoing.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, KPI, work in process, work in progress
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 
 ---

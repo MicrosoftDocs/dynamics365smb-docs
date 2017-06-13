@@ -1,6 +1,6 @@
 ---
-title: 'How to: Insure Fixed Assets| Microsoft Docs'
-description: Describes how to insure a fixed asset.
+title: Insure Fixed Assets| Microsoft Docs
+Description: You can assign a fixed asset to an insurance policy, which is represented by an insurance card.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: policy, coverage
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---

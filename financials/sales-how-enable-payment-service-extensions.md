@@ -1,17 +1,16 @@
 ---
-title: 'How to: Enable Customer Payments Through Payment Services.| Microsoft Docs'
-description: 'Make it easier for customers to pay their invoices by enabling payment services.'
+title: Enable Customer Payments Through Payment Services| Microsoft Docs
+description: Make it easier for customers to pay their invoices by enabling payment services.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-
 ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online payment
-ms.date: 04/24/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 
 ---

@@ -1,6 +1,6 @@
 ---
-title: 'How to: Manage Job Budgets| Microsoft Docs'
-description: Describes how to budget for jobs.
+title: Set Up and Manage a Budget for a Job| Microsoft Docs
+description: Describes how to plan resources and forecast and control the costs of a project by setting up a budget for each job.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project budget, forecast
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 
 ---

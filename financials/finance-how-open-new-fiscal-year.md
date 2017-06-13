@@ -1,6 +1,6 @@
 ---
-title: 'How to: Open a New Fiscal Year| Microsoft Docs'
-description: Describes how to open fiscal periods.
+title: Open a New Fiscal Year| Microsoft Docs
+description: You must open a fiscal year and define accounting periods, before you can post in a fiscal year.
 services: project-madeira
 documentationcenter: ''
 author: edupont04
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting year, fiscal period  
-ms.date: 03/24/2017
+ms.date: 06/02/2017
 ms.author: edupont
 
 ---

@@ -1,6 +1,6 @@
 ---
-title: 'How to: Transfer, Split, or Combine Fixed Assets| Microsoft Docs'
-description: Describes how to reclassify a fixed asset to transfer, split, or combine it with other fixed assets.
+title: Reclassify Fixed Assets| Microsoft Docs
+description: You reclassify a fixed asset to transfer it to a different department, split it up, or combine it with other fixed assets.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/29/2016
+ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---

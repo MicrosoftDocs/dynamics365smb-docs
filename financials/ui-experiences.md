@@ -1,6 +1,6 @@
 ---
-title: Customizing Your Dynamics 365 for Financials Experience| Microsoft Docs
-description: Learn what the user experience tiers mean for you in Dynamics 365 for Financials
+title: Choosing the User Experience to Show or Hide Advanced Features | Microsoft Docs
+description: Learn what the Basic and Suite user experience tiers mean for the user interface, application areas, and your company in Dynamics 365 for Financials.
 documentationcenter: ''
 author: edupont04
 
@@ -9,7 +9,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms. search.keywords: Suite, Basic, user interface, application area
+ms.search.keywords: Suite, Basic, user interface, application area
 ms.date: 03/29/2017
 ms.author: edupont
 

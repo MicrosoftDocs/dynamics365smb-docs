@@ -1,6 +1,6 @@
 ---
-title: 'How to: Export Positive Pay Files| Microsoft Docs'
-description: Describes how to make sure that your bank only clears validated checks and amounts by exporting a Positive Pay file that contains vendor and payment information.
+title: Export Positive Pay Files| Microsoft Docs
+description: You can ensure your bank only clears validated checks and amounts by exporting a Positive Pay file that contains vendor and payment information.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: check, clearing
-ms.date: 03/24/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---

@@ -1,6 +1,6 @@
 ---
-title: 'How to: Review or Apply Payments Manually After Automatic Application| Microsoft Docs'
-description: 'How to: Review or Apply Payments Manually After Automatic Application'
+title: Verify Automatically Applied Payments, and Reapply Payments Manually | Microsoft Docs
+description: After payments are applied automatically, you can review all the entries for a payment and manually reapply those that were applied incorrectly.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP

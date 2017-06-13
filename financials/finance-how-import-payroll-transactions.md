@@ -1,6 +1,6 @@
 ---
-title: 'How to: Import Payroll Transactions| Microsoft Docs'
-description: Describes how to import salary payments and related transactions from your payroll provider into the general ledger.
+title: Import Payroll Transactions| Microsoft Docs
+description: To manage salary, you import and post financial transactions from your payroll provider to the general ledger, using a payroll extension such as Ceridian or Quickbooks.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Ceridian, Quickbooks, salary
-ms.date: 03/24/2017
+ms.date: 06/02/2017
 ms.author: SorenGP
 
 ---

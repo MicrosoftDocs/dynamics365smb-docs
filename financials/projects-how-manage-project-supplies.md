@@ -1,6 +1,6 @@
 ---
-title: 'How to: Manage Job Supplies| Microsoft Docs'
-description: Describes how to supply material and services to jobs.
+title: Purchase Items or Services for a Job and Manage Supplies| Microsoft Docs
+description: Describes how to manage the supply and purchase of material and services to jobs.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, material, purchase
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 
 ---

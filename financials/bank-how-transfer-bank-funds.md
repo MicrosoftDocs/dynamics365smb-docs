@@ -1,6 +1,6 @@
 ---
-title: 'How to: Transfer Bank Funds| Microsoft Docs'
-description: 'How to: Transfer Bank Funds'
+title: Transfer Bank Funds| Microsoft Docs
+description: You can transfer amounts from one bank account to another, including different currencies, by posting the transaction in the general journal.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account transfer, multiple currencies
-ms.date: 03/32/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---

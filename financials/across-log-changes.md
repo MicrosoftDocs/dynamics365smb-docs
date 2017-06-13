@@ -1,6 +1,6 @@
 ---
-title: Logging Changes in Dynamics 365 for Financials | Microsoft Docs
-description: Log changes made by users.
+title: Track User Activity in a Change Log| Microsoft Docs
+Description: You can activate a user log so that you have a history of any changes made to data in tracked tables.
 documentationcenter: ''
 author: edupont04
 
@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user log, user activity, tracking
-ms.date: 03/04/2017
+ms.date: 06/02/2017
 ms.author: edupont
 
 ---

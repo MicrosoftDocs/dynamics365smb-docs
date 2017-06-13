@@ -1,6 +1,6 @@
 ---
-title: 'How to: Reconcile Customer Payments Manually From a List of Unpaid Sales Documents| Microsoft Docs'
-description: 'How to: Reconcile Customer Payments Manually From a List of Unpaid Sales Documents'
+title: Apply Payments to Unpaid Sales Documents | Microsoft Docs
+description: You apply amounts paid by customers to related sales documents and post the payment to update the customer, general ledger, and bank ledger entries.
 documentationcenter: ''
 author: SorenGP
 

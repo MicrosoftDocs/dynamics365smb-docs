@@ -1,6 +1,6 @@
 ---
-title: 'How to: Set Up Resources| Microsoft Docs'
-description: Describes how to prepare the system to use resources in projects.
+title: Set Up Resource Costs, Prices, and Capacity| Microsoft Docs
+description: To use resources and facilitate project management, you specify costs and prices for individual resources or resource groups, and set the resource capacity.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 
 ---

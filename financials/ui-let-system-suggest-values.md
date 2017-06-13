@@ -1,6 +1,6 @@
 ---
-title: Letting Dynamics 365 for Financials Suggest Values | Microsoft Docs
-description: Describes how to have the system prefill selected fields with values that you would otherwise calculate and fill manually.
+title: Setting Up Suggested Field Values | Microsoft Docs
+description: To avoid manual calculations and complete tasks quickly and accurately, you can set up automatic data entry so that Financials fills in selected fields.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP

@@ -1,6 +1,6 @@
 ---
-title: 'How to: Map Text on Recurring Payments to Accounts for Automatic Reconciliation| Microsoft Docs'
-description: 'How to: Map Text on Recurring Payments to Accounts for Automatic Reconciliation'
+title: Setting Up Text-to-Account Mapping for Recurring Payments | Microsoft Docs
+description: Link text on payments with specific accounts, so that payments are posted to the accounts when you post the payment reconciliation journal.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP

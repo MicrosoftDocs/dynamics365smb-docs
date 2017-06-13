@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Send Documents by Email| Microsoft Docs'
-description: 'How to: Send Documents by Email'
+title: Set Up Document-Specific Content and Attachments for Email Messages | Microsoft Docs
+description: You can define content to insert into the body of an email message, for example, a PayPal link. You can also attach documents to email messages.
 documentationcenter: ''
 author: SorenGP
 

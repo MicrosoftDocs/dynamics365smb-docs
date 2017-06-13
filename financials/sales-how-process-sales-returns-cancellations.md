@@ -1,6 +1,6 @@
 ---
-title: 'How to: Process Sales Returns or Cancellations| Microsoft Docs'
-description: 'How to: Process Sales Returns or Cancellations'
+title: Using a Sales Credit Memo to Process Sales Returns or Cancellations | Microsoft Docs
+description: Describes how to create a sales credit memo to process a return, cancellation, or reimbursement for items or services you have been received payment for.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 03/29/2016
+ms.date: 04/25/2016
 ms.author: sgroespe
 
 ---
@@ -24,7 +24,9 @@ In addition to the original posted sales invoice, you can apply the sales credit
 
 A return or reimbursement may relate to only some of the items or services on the original sales invoice. In that case, you must edit information on the lines on the sales credit memo. When you post the sales credit memo, the sales documents that are affected by the change are reversed and a refund payment can be created for the customer.  
 
-You can send the posted sales credit memo to the customer to confirm the return or cancellation and communicate that the related value will be reimbursed, for example when the items are returned.  
+You can send the posted sales credit memo to the customer to confirm the return or cancellation and communicate that the related value will be reimbursed, for example when the items are returned.
+
+The credit memo posting will also revert any item charges that were assigned to the posted document, so that the item’s value entries are the same as before the item charge was assigned. 
 
 ## To create a sales credit memo from a posted sales invoice
 1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Posted Sales Invoices**, and the choose the related link.  

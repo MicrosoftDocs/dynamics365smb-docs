@@ -1,6 +1,6 @@
 ---
-title: 'How to: Invoice Jobs| Microsoft Docs'
-description: Describes how to invoice customers for job expenses as a job progresses.
+title: Create a Job Sales Invoice to Invoice a Job| Microsoft Docs
+description: Describes how to invoice customers for job expenses as a project progresses.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project invoice
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 
 ---

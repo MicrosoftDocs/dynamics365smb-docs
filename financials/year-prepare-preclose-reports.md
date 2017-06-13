@@ -1,6 +1,6 @@
 ---
-title: Preparing Pre-Closing Reports| Microsoft Docs
-description: Provides an overview of the reports that may be useful when closing the year.
+title: Overview of Pre-Closing Reports to Verify Account Accuracy | Microsoft Docs
+description: Provides an overview of the reports you can use to verify the accuracy of accounts before closing the books at the end of a year or period.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -10,11 +10,11 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 06/02/2017
 ms.author: jswymer
 
 ---
-# Preparing Pre-Closing Reports
+# Using Pre-Closing Reports
 There are many standard reports that you can use to verify the accuracy of the accounts before closing the books at the end of a year or period. For example, you can use the **Customer - Trial Balance** report to verify that the balance for a customer posting group is equal to the balance on the corresponding general ledger account on a certain date.
 
 The following table describes a number of reports that may be useful in this process.

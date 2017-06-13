@@ -1,6 +1,6 @@
 ---
-title: 'How to: Transfer Inventory Between Locations| Microsoft Docs'
-description: Describes how to transfer inventory from one place or warehouse to another either with the reclassification journal or with transfer orders.
+title: Transfer Items Between Warehouse Locations| Microsoft Docs
+description: Describes how to move inventory from one place or warehouse to another, either with the reclassification journal or with transfer orders.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,8 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: move, warehouse 
-ms.date: 03/28/2017
+ms.search.keywords: move, warehouse
+ms.date: 06/02/2017
 ms.author: SorenGP
 
 ---

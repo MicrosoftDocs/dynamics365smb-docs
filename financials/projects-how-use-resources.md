@@ -1,6 +1,6 @@
 ---
-title: 'How to: Use Resources for Jobs| Microsoft Docs'
-description: Describes how to use time sheets to manage projects.
+title: Record and Adjust Resource Usage and Prices| Microsoft Docs
+description: Describes how you can record the resource usage or consumption associated with a job, to keep track and manage costs, prices, and work types.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 
 ---

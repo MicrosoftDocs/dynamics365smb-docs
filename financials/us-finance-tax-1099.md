@@ -1,6 +1,6 @@
 ---
 title: Reporting 1099 Transactions in the US | Microsoft Docs
-description: On your purchase documents, you can specify that the document is 1099 liable, and you can specify the 1099 code for the vendor.
+description: The IRS requires the 1099 tax form for payments to vendors and you can specify a purchase document is 1099 liable and specify the 1099 code for the vendor.
 services: project-madeira
 documentationcenter: ''
 author: edupont04
@@ -15,7 +15,8 @@ ms.date: 03/29/2017
 ms.author: edupont
 
 ---
-# Reporting 1099 Transactions in the US
+# Reporting Transactions as 1099 Liable in the US
+
 The Internal Revenue Service (IRS) requires one or more versions of the 1099 tax form for payments to vendors. Copies of these forms must be sent to vendors annually on or before the last day of January. On your purchase documents, you can specify that the document is 1099 liable, and you can specify the 1099 code for the vendor.  
 
 ## 1099 codes

@@ -1,6 +1,6 @@
 ---
-title: 'How to: Register Employees| Microsoft Docs'
-description: Describes how to register new employees or edit information for existing employees.
+title: Set Up Employees and Modify Information| Microsoft Docs
+description: Describes how to register new personnel or edit information for existing staff.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: SorenGP
 
 ---

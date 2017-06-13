@@ -1,6 +1,6 @@
 ---
-title: Smart Notifications | Microsoft Docs
-description: Smart notifications give you advice and recommendations.
+title: Work With Smart Notifications and Specify When You See Them | Microsoft Docs
+description: You can receive notifications that inform you about status changes or events, for example, an overdue balance or low inventory.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/24/2016
+ms.date: 10/24/2017
 ms.author: bholtorf
 
 ---

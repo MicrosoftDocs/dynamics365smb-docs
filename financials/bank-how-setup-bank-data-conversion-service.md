@@ -1,6 +1,6 @@
 ---
-title: 'How to: Set Up the Bank Data Conversion Service| Microsoft Docs'
-description: 'How to: Set Up the Bank Data Conversion Service'
+title: Set Up Bank Data Conversion| Microsoft Docs
+description: You can set up bank accounts to keep track of transactions and import or export bank feeds, such as Yodlee.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---

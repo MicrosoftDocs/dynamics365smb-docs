@@ -1,6 +1,6 @@
 ---
-title: 'How to: Change Which Layout is Currently Used on a Report | Microsoft Docs'
-description: Learn how you can decide how a report looks.
+title: Change the Way a Report Looks by Selecting a Different Layout | Microsoft Docs
+description: You can use different layouts for a report, and switch between layouts to change how a report looks.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

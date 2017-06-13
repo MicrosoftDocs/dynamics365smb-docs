@@ -1,6 +1,6 @@
 ---
-title: 'How to: Set Up Fixed Asset Depreciation| Microsoft Docs'
-description: Describes how to set the system up for depreciation of fixed assets.
+title: Set Up FA Depreciation| Microsoft Docs
+description: You specify in a depreciation book how you want fixed assets to be depreciated or written-down.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---

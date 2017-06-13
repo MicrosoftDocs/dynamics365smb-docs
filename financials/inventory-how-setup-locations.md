@@ -1,6 +1,6 @@
 ---
-title: 'How to: Set Up Locations| Microsoft Docs'
-description: Describes how to create a location card for each place or warehouse where you store inventory items, including rules on how to transfer items to and from each location.
+title: Set Up a Location Card and Define Transfer Routes| Microsoft Docs
+description: You create a location card for each place you store inventory items, for example, a warehouse or distribution center, and set up routes to transfer items between locations.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,8 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: warehouse, distribution center 
-ms.date: 03/28/2017
+ms.search.keywords: warehouse, distribution center
+ms.date: 06/02/2017
 ms.author: SorenGP
 
 ---

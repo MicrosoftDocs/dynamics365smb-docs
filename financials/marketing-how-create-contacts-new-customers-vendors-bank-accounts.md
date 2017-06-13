@@ -1,6 +1,6 @@
 ---
-title: Create a Customer, Vendor, or Bank Account From a Contact | Microsoft Docs
-description: Describes hoe to create a customer, vendor, or bank account from a contact in Financials
+title: Create a Customer or VendorFrom a Contact| Microsoft Docs
+description: You can record an existing contact as a customer, vendor, or bank account using existing data and specifying a business relationship.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -11,11 +11,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, client, prospect
-ms.date: 02/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 
 ---
-# Create a Customer, Vendor, or Bank Account From a Contact
+# How to: Create a Customer, Vendor, or Bank Account From a Contact
 You may want to record some of your existing contacts as customers, vendors, or bank accounts. Creating a customer, vendor, or bank account from a contact enables you use existing data. When you create a customer, vendor, or bank account this way, it is synchronized with the contact. Synchronization makes information that is common between contacts and customers, vendors, or bank account the same.
 
 Before you can record contacts this way, you must specify a business relation code for customers, vendors, and bank accounts in the **Marketing Setup** window. If you will be recording contacts as bank accounts, you must also specify numbers series for bank accounts in the **General Ledger Setup** window.

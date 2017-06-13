@@ -1,6 +1,6 @@
 ---
-title: Create Contact Persons | Microsoft Docs
-description: Describes how to create contact persons in Financials
+title: Create Contact Persons| Microsoft Docs
+description: Describes how to create a contact card for each new person or prospect you interact with or have a business relationship with.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -11,11 +11,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 
 ---
-# Create Contact Persons
+# How to: Create Contact Persons
 You can create a contact card for each contact who works for the companies you interact with. For each contact company you can enter as many contact persons as you want. You can also create contact cards for the persons that you want to record as independent.
 
 **Tip**: Before creating a contact, you may want to check the **Inheritance** settings in the **Marketing Setup** window. Setting up inheritance enables information about contact companies that is common to contact persons, such as address details, to be automatically copied from the contact company to the contact person each time you create a contact person for a recorded contact company.
@@ -34,7 +34,7 @@ You can create a contact card for each contact who works for the companies you i
 ## See Also
 [Setting Up Relationship Management](marketing-setup-marketing.md)  
 [Assigning Mailing Groups to a Contact](marketing-mailing-groups.md#AssignMailGroupContact)  
-[Setting Up Job Responsibilities on Contacts](marketing-job-responsibilities.md)  
-[Setting Up Organizational Levels for Contact Persons](marketing-organizational-levels.md)  
+[How to: Set Up Job Responsibilities on Contacts](marketing-job-responsibilities.md)  
+[How to: Set Up Organizational Levels for Contact Persons](marketing-organizational-levels.md)  
 [Synchronizing Contacts With Customers, Vendors, and Bank Accounts](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
 [Working With Financials](ui-work-product.md)  

@@ -1,6 +1,6 @@
 ---
-title: 'How to: Create Interactions on Contacts and Segments | Microsoft Docs'
-description: Describes how to create interactions on contacts and segments in Financials
+title: Create Interactions on Contacts and Segments| Microsoft Docs
+description: Describes how to create interactions for communication that you have with your contacts and segments in Financials, for example, direct mail.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -11,14 +11,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 
 ---
 # How to: Create Interactions on Contacts and Segments
 You can create interactions to record all the interactions and communications you have with your contacts and segments, for example, direct mail.
 
-Before you create interactions, you must set up interaction templates. For more information, see  [Set Up Interaction Templates](marketing-interactions.md#set-up-interaction-templates).
+Before you create interactions, you must set up interaction templates. For more information, see  [Set Up Interaction Templates](marketing-interactions.md).
 
 ## To create an interaction
 1. Open the contact, salesperson, or interaction log entry.

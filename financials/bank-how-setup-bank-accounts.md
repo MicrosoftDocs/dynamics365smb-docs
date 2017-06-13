@@ -1,6 +1,6 @@
 ---
-title: 'How to: Set Up Bank Accounts| Microsoft Docs'
-description: 'How to: Set Up Bank Accounts'
+title: Set Up Bank Accounts| Microsoft Docs
+description: You can reconcile bank accounts in Financials with statements from the bank.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---

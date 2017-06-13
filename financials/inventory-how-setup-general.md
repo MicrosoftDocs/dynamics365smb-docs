@@ -1,6 +1,6 @@
 ---
-title: 'How to: Set Up General Inventory Information| Microsoft Docs'
-description: Describes how to define the general inventory setup, such as number series and how to use locations.
+title: Define the General Inventory Setup| Microsoft Docs
+description: Describes how to define the general inventory setup, such as number series and locations, so that you can, for example, manage your warehouse and stock.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: SorenGP
 
 ---

@@ -1,6 +1,6 @@
 ---
-title: 'How to: Work With Checks| Microsoft Docs'
-description: 'How to: Work With Checks'
+title: Issue, Print, Cancel, and Void Checks| Microsoft Docs
+description: Describes how to issue checks using the payment journal, print checks, and void or view check ledger entries in Financials.  
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 
 ---

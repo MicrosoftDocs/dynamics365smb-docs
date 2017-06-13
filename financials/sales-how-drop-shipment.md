@@ -1,5 +1,5 @@
 ---
-title: 'How to: Make Drop Shipments| Microsoft Docs'
+title: Create a Sales Order Linked to a Purchase Order for a Direct Shipment | Microsoft Docs
 description: Describes how to create a sales order linked to a purchase order to enable shipment directly from the vendor to the customer.
 services: project-madeira
 documentationcenter: ''

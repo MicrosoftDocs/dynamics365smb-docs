@@ -1,6 +1,6 @@
 ---
-title: Saved Settings on Reports
-description: Describes how to use save settings on report.
+title: Apply and Modify Saved Settings on Reports | Microsoft Docs
+description: Describes using predefined options and filters to customize a report, and to generate the correct data.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -12,7 +12,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customization, personalization
 ms.date: 03/29/2017
-ms.date: 12/12/2016
+ms.date: 06/02/2017
 ms.author: jswymer
 
 ---

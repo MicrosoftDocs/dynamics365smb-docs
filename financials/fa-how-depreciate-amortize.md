@@ -1,6 +1,6 @@
 ---
-title: 'How to: Depreciate or Amortize Fixed Assets| Microsoft Docs'
-description: Describes how to depreciate or amortize a fixed asset.
+title: Depreciate or Amortize FA| Microsoft Docs
+description: You must define how you will write-down, depreciate, or amortize each of your fixed assets.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---

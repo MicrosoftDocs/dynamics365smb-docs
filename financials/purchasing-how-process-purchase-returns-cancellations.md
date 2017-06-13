@@ -1,6 +1,6 @@
 ---
-title: 'How to: Process Purchase Returns or Cancellations| Microsoft Docs'
-description: 'How to: Process Purchase Returns or Cancellations'
+title: Use Purchase Credit Memos to Process Returns or Cancellations | Microsoft Docs
+description: Explains how to create and post a purchase credit memo when you want to return items to a vendor or cancel purchased services.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cancel, undo, correct
-ms.date: 03/29/2017
+ms.date: 04/25/2017
 ms.author: sgroespe
 
 ---
@@ -25,6 +25,8 @@ Typically, you create a purchase credit memo in reaction to a credit memo sent t
 The change may relate to all the products on the original purchase invoice or only to some of the products. Accordingly, you can partially return received items or demand partial reimbursement of received services. In that case, you must edit the copied purchase invoice information.
 
 In addition to the original posted purchase invoice, you can apply the purchase credit memo to other purchase documents, for example another posted purchase invoice, because you are also returning items delivered with that invoice.
+
+The credit memo posting will also revert any item charges that were assigned to the posted document, so that the item’s value entries are the same as before the item charge was assigned. 
 
 ## To create a purchase credit memo from a posted purchase invoice
 1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Purchase Credit Memos**, and then choose the related link.  

@@ -1,6 +1,6 @@
-﻿---
-title: 'How to: Use Approval Workflows| Microsoft Docs'
-description: 'How to: Use Approval Workflows'
+---
+title: Approve or Reject Documents in Workflows| Microsoft Docs
+description: Request, reject, or delegate an approval of, for example, a purchase or sales document, as part of a workflow.
 documentationcenter: ''
 author: SorenGP
 
@@ -27,7 +27,7 @@ Core approval workflows for purchases documents, sales documents, payment journa
 The following task is performed by an approval user.
 
 1. In the window that presents the record, choose the **Send Approval Request** action.
-2. To see all your approval requests, in the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Approval Request Entries**, and then choose the related link.
+2. To see all your approval requests, in the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Approval Request Entries**, and then choose the related link.  
 
 The status of the approval entry is updated from **Created** to **Open**. The status of the record, for example a purchase invoice, is updated from **Open** to **Pending Approval** and remains locked for processing until all approvers have approved the record.
 

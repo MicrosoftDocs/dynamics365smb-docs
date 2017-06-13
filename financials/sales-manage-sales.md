@@ -1,5 +1,5 @@
 ---
-title: Sales| Microsoft Docs
+title: Overview of Tasks to Manage Sales | Microsoft Docs
 description: Describes how to manage sales activities.
 services: project-madeira
 documentationcenter: ''

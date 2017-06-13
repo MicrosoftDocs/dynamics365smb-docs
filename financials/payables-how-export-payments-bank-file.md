@@ -1,6 +1,6 @@
 ---
-title: 'How to: Export Payments to a Bank File| Microsoft Docs'
-description: 'How to: Export Payments to a Bank File'
+title: Export Payments to an Electronic Payment File| Microsoft Docs
+description: To make vendor payments, you enable a bank data conversion service, export a bank file, and upload the file to your electronic bank to transfer the funds.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
-ms.date: 04/27/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 
 ---
@@ -32,7 +32,7 @@ You use the **Credit Transfer Registers** window to view the payment files that 
     **Note**: If you are using EFT, you must select either **Electronic Payment** or **Electronic Payment–IAT** in the **Bank Payment Type** field.
 
     Different file export services and their formats require different setup values in the **Bank Account Card** and **Vendor Bank Account Card** windows. You will be informed about wrong or missing setup values as you try to export the file.
-        
+
 4. When you have completed all payment journal lines, choose the **Export** action.
 5. In the **Export Electronic Payments** window, fill in the fields as necessary.
 

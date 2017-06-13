@@ -1,6 +1,6 @@
 ---
-title: QuickBooks Data Migration | Microsoft Docs
-description: Provides information about the QuickBooks Data Migration extension
+title: Using the QuickBooks Migration Extension | Microsoft Docs
+description: Describes how to use the extension to import customers, vendors, items, and accounts from QuickBooks Desktop to Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: ''
 author: edupont04

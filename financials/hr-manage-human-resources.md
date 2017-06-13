@@ -1,6 +1,6 @@
 ---
-title: Manage Human Resources| Microsoft Docs
-description: Describes how to register employees and record and analyze absence.
+title: Using Human Resources Functionality| Microsoft Docs
+description: You can register new personnel, edit information about existing staff, and record and analyze absence.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: SorenGP
 
 ---

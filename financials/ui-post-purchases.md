@@ -1,6 +1,6 @@
 ---
-title: Posting Purchases | Microsoft Docs
-description: Learn how to post purchases.
+title: Understanding How To Post Purchase Documents | Microsoft Docs
+description: Learn about the different posting functions to post purchase documents.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 05/12/2017
 ms.author: solsen
 
 ---

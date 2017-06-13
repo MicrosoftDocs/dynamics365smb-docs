@@ -1,6 +1,6 @@
 ---
-title: 'How to: Correct or Cancel Unpaid Sales Invoices| Microsoft Docs'
-description: 'How to: Correct or Cancel Unpaid Sales Invoices'
+title: Correct or Cancel a Posted Sales Invoice | Microsoft Docs
+description: Describes how to correct, undo, or cancel a posted sales invoice and apply a sales credit memo. 
 services: project-madeira
 documentationcenter: ''
 author: SorenGP

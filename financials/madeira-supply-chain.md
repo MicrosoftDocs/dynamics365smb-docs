@@ -1,6 +1,6 @@
 ---
-title: Supply Chain| Microsoft Docs
-description: Learn about key supply chain concepts and processes
+title: Supply Chain Features Supported by Financials| Microsoft Docs
+description: Get a product overview and learn about key supply chain concepts and processes that are part of the ERP solution.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,11 +11,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: product overview, ERP
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---
-# Supply Chain
+# Overview of Supply Chain Functionality
 [!INCLUDE[d365fin](includes/d365fin_md.md)] supports common supply chain processes, although limited to the needs of wholesale and distribution companies without managed warehouse handling.
 
 In addition to sales invoice documents, you can manage your order fulfillment with sales orders allowing you to ship parts of an order quantity, for example, because the full quantity is not available at once. You can have items drop shipped directly from a vendor to a customer by linking the sales order to the related purchase order.
@@ -31,7 +31,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | To | See |
 | --- | --- |
 | Register new customers, make sales offers, sell products on orders or invoices, for example as drop shipments, and manage sales returns. |[Sales](sales-manage-sales.md) |
-| Register new vendors, purchase products on orders or invoices, for example initiated from a sales invoice, and manage purchase returns. |[Purchasing](purchasing-manage-purchasing.md) |
+| Register new vendors, purchase items on orders or invoices, for example initiated from a sales invoice, and manage purchase returns. |[Purchasing](purchasing-manage-purchasing.md) |
 | Register new physical or service products, adjust inventory quantities, and manage the inventory value by posting adjusted costs to the general ledger. |[Inventory](inventory-manage-inventory.md) |
 
 ## See Also

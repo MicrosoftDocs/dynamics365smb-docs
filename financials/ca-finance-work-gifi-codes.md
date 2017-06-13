@@ -1,6 +1,6 @@
 ---
-title: 'How to: Work With GIFI Codes in Canada | Microsoft Docs'
-description: Learn about GIFI codes
+title: GIFI Codes in Canada | Microsoft Docs
+Description: In Canada, you can set up General Index of Financial Information (GIFI) codes and assign them to posting accounts
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: local
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: SorenGP
 
 ---

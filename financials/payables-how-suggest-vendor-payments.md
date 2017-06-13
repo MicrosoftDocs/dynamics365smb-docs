@@ -1,6 +1,6 @@
 ---
-title: 'How to: Suggest Vendor Payments| Microsoft Docs'
-description: 'How to: Suggest Vendor Payments'
+title: Use the Suggest Vendor Payments Batch Job| Microsoft Docs
+description: You can specify vendor payment settings to get suggestions or proposals for payments that are due soon or where a discount is available.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 
 ---

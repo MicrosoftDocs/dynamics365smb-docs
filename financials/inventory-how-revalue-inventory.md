@@ -1,6 +1,6 @@
 ---
-title: 'How to: Revalue Inventory| Microsoft Docs'
-description: Describes how to appreciate or depreciate the value of one or more items in inventory by posting their current, calculated value.
+title: Create New Value Entries for Items in the Inventory| Microsoft Docs
+description: Describes how to appreciate or depreciate the value entries of one or more items in the inventory by posting their current, calculated value.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: costing, inventory cost, value entries
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---

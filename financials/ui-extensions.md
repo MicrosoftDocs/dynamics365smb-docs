@@ -1,6 +1,6 @@
 ---
-title: Customizing Dynamics 365 for Financials Using Extensions | Microsoft Docs
-description: Customizing Dynamics 365 for Financials Using Extensions
+title: Installing Extensions to Customize Dynamics 365 for Financials | Microsoft Docs
+description: Learn about adding functionality and customizing Dynamics 365 for Financials by installing extensions.
 services: project-madeira
 documentationcenter: ''
 author: edupont04
@@ -10,8 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms. search.keywords: app, add-in, manifest, customize
-ms.date: 04/24/2017
+ms.search.keywords: app, add-in, manifest, customize
+ms.date: 04/11/2017
 ms.author: edupont
 
 ---
@@ -52,6 +52,8 @@ Microsoft provides the following extensions:
 * [Quickbooks Payroll File Import](ui-extensions-quickbooks-payroll.md)  
 * [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 * [GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)
+* [QuickBooks Online Data Migration](ui-extensions-quickbooks-online-data-migration.md)
+* [Image Analyzer](ui-extensions-image-analyzer.md)
 
 ## See Also
 [How to: Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)  

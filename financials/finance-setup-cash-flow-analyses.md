@@ -1,6 +1,6 @@
 ---
 title: Setting up Cash Flow Analysis| Microsoft Docs
-description: Describes how to set up the Cash Cycle, Income & Expense, Cash Flow, and Cash Flow Forecast charts to analyze past and future movement of cash in and out of your company.
+description: Set up the charts on the Accounts Role Center to help analyze the flow of money in your business, including expenses and income, liquidity, and cash receipts minus cash payments.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: bholtorf
 
 ---

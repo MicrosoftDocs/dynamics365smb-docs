@@ -10,6 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.keywords: BOM, subassembly, kit
 ms.date: 06/02/2017
 ms.author: sgroespe
 

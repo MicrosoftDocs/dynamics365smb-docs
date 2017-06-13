@@ -45,7 +45,7 @@ There are two parts to creating an assembly BOM:
 ## To view the components of an assembly item indented according to the BOM structure
 From the **Assembly BOM** window, you can open a separate window that shows the components and any resources indented according to their BOM position under the assembly item.
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Items**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.
 2. Open the card for an assembly item. (The **Assembly BOM** field in the **Items** window contains **Yes**.)
 3. In the **Item Card** window, choose the **Assembly** action, and then choose the **Assembly BOM** action.
 4. In the **Assembly BOM** window, choose the **Show BOM** action.

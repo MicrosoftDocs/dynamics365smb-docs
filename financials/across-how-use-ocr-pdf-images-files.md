@@ -26,7 +26,7 @@ Because OCR is based on optical recognition, it is likely that the OCR service w
 The traffic of files to and from the OCR service is processed by a dedicated job queue entry, which are created automatically when you enable the related service connection. For more information, see [How to: Set Up Incoming Documents](across-how-setup-income-documents.md).
 
 ## To send a PDF or image file to the OCR service from the **Incoming Documents** window
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Incoming Documents**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Incoming Documents**, and then choose the related link.
 2. Create a new incoming document record and attach the file. For more information, see [How to: Create Incoming Document Records](across-how-create-income-document-records.md).  
 3. In the **Incoming Documents** window, select one or more lines, and then choose the **Send to Job Queue** action.
 
@@ -98,7 +98,7 @@ Because OCR is based on optical recognition, it is likely that the OCR service w
 
 The **OCR Data Correction** window, which you open from the **Incoming Document** window, shows the fields from the **Financial Information** FastTab in two columns, one with the OCR data editable and one with the OCR data read-only. When you choose the **Send OCR Feedback** button, the content of the **OCR Data Correction** window is sent to the OCR service. Next time the service processes PDF or image files that contain the data in question, your corrections will be incorporated to avoid the same errors.
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Incoming Documents**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Incoming Documents**, and then choose the related link.
 2. Open an incoming document record that contains data received from OCR service, which you want to correct.
 3. In the **Incoming Document** window, choose the **Correct OCR Data** action.
 4. In the **OCR Data Correction** window, overwrite the data in the editable column for each field that has an incorrect value.

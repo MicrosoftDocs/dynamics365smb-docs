@@ -26,7 +26,7 @@ When you first start with [!INCLUDE[d365fin](includes/d365fin_md.md)] all notifi
 Additionally, some notifications let you specify the conditions under which they are sent. For example, if you want to be notified when inventory is running low, but only for items you buy from a certain vendor.  
 Turning notifications on or off, and specifying conditions, applies only to you.  
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **My Notifications**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **My Notifications**, and then choose the related link.
 2. To turn on or turn off a notification, select or clear the **Enabled** check box.
 3. To specify conditions that trigger a notification, choose the **View filter details** link, and then fill in the fields.  
 

@@ -27,14 +27,14 @@ You can also post the usage of a resource in a resource journal. Entries posted 
 You assign resources to jobs by creating job planning lines for the job. For more information, see [How to: Create Jobs](projects-how-create-jobs.md).
 
 ## To record resource usage for a job
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Job Journals**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Journals**, and then choose the related link.
 2. Open a relevant job journal batch, and then fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. When the journal is complete, choose the **Post** action.
 
 ## To adjust resource prices
 If you want to change costs or prices for a large number of resources, you can use a batch job.  
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Adjust Resource Costs/Prices**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Adjust Resource Costs/Prices**, and then choose the related link.
 2. Fill in the fields on a line as necessary, and then choose the **OK** button.
 
 > [!NOTE]  
@@ -43,7 +43,7 @@ If you want to change costs or prices for a large number of resources, you can u
 ## To get resource price change suggestions based on existing alternate prices
 If you have already set up alternate resource price for some resources, you can use a batch job to set up multiple alternate resource prices.
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Resource Price Changes**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Resource Price Changes**, and then choose the related link.
 2. Choose the **Suggest Res. Price Chg. (Price)** action, and then fill in the fields as necessary.
 3. Choose the **OK** button.  
 4. When the batch job is finished, the **Resource Price Changes** window shows the results of the batch job.
@@ -51,7 +51,7 @@ If you have already set up alternate resource price for some resources, you can 
 ## To get resource price change suggestions based on standard prices
 If you want to set up multiple alternate resource prices based on the standard prices on the resource cards, you can use a batch job.  
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Resource Price Changes**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Resource Price Changes**, and then choose the related link.
 2. Choose the **Suggest Res. Price Chg. (Res.)** action, and then fill in the fields as necessary.  
 3. Choose the **OK** button.  
 4. When the batch job is finished, open the **Resource Price Changes** window to see the results of the batch job.

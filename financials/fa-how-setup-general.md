@@ -20,13 +20,13 @@ Before you can manage fixed assets, you must set up default G/L accounts, alloca
 ## To set up general default values for fixed assets
 You define the general behavior or the fixed asset functionality and set up document number series in the  in the **Fixed Assets Setup** window.
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Fixed Assets Setup**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Fixed Assets Setup**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## To set up fixed asset posting groups
 You use posting groups to define groups of fixed assets. Entries for these posting groups are posted to the same general ledger accounts.
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **FA Posting Groups**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA Posting Groups**, and then choose the related link.  
 2. Choose the **New** action.
 3. In the **FA Posting Group Card** window, fill in the fields as necessary.
 
@@ -41,7 +41,7 @@ Transactions can be allocated to various departments or projects, according to u
 
 Allocation keys apply to fixed asset classes, not to individual assets.
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **FA Posting Groups**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA Posting Groups**, and then choose the related link.  
 2. In the **FA Posting Groups** window, choose the **Allocations** action, and then choose a posting type.
 3. In the **FA Allocations** window, fill in the fields as necessary.
 4. Repeat steps 2 and 3 for each posting type that you want to define allocation keys for.
@@ -51,45 +51,45 @@ A template is a predefined layout for a journal. The template contains informati
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically creates a fixed asset journal template the first time that you open the **Fixed Asset Journal** window, but you can set up additional journal templates.  
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **FA Journal Templates**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA Journal Templates**, and then choose the related link.  
 2. Fill in the fields as necessary.
 
 ## To set up fixed asset journal batches
 You can set up multiple journal batches, which are individual journals for each journal template. For example, employees can have their own journal batch that uses the employee’s initials as the journal batch name. For more information, see [Work with General Journals](ui-work-general-journals.md).  
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **FA Journal Templates**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA Journal Templates**, and then choose the related link.  
 2. Select the relevant journal template, and then choose the **Batches** action.
 3. In the **FA Journal Batches** window, fill in the fields as necessary.
 
 ## To set up fixed asset reclassification journal templates
 You use dedicated reclassification journals when you need to transfer, split, or combine fixed assets. [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically creates a fixed asset reclassification journal template the first time that you open the **FA Reclass. Journal** window, but you can set up additional reclassification journal templates. For more information, see [Work with General Journals](ui-work-general-journals.md).  
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **FA Reclass. Journal Templates**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA Reclass. Journal Templates**, and then choose the related link.  
 2. Fill in the fields as necessary.
 
 ## To set up fixed asset reclassification journal batches
 You can set up multiple journal batches, which are individual journals for each reclassification journal template. For example, employees can have their own reclassification journal batch that uses the employee’s initials as the reclassification journal batch name. For more information, see [Work with General Journals](ui-work-general-journals.md).
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **FA Reclass. Journal Templates**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA Reclass. Journal Templates**, and then choose the related link.  
 2. Select the relevant journal template, and then choose the **Batches** action.
 3. In the **FA Reclass. Journal Batches** window, fill in the fields as necessary.
 
 ## To set up fixed asset class codes
 Fixed asset class codes can be used to group fixed assets, for example, in tangible and intangible assets.
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **FA Classes**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA Classes**, and then choose the related link.
 2. Enter codes and names for the classes that you want to create.
 
 ## To set up fixed asset subclass codes
 You use fixed asset subclass codes to group your fixed assets into categories, such as buildings, vehicles, furniture, or machinery.  
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **FA Subclasses**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA Subclasses**, and then choose the related link.
 2. Enter codes and names for the classes that you want to create.
 
 ## To set up fixed asset location codes
 You use fixed asset location codes to register the location of the fixed asset, such as sales department, reception, administration, production, or warehouse. This information is useful for insurance and inventory purposes.
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **FA locations**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA locations**, and then choose the related link.
 2. Enter codes and names for the fixed asset locations that you want to create.
 
 ## To register opening entries

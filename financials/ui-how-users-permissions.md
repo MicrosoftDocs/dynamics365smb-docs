@@ -22,7 +22,8 @@ Once users are created in Office 365, they can be imported into the **Users** wi
 
 You can then proceed to assign permission sets to the users to define which database objects, and thereby which UI elements, they have access to, and in which companies.
 
-**Important**: If the database has multiple companies, then at least one user must be a member of the SUPER user group in all companies.
+> [!IMPORTANT]  
+>   If the database has multiple companies, then at least one user must be a member of the SUPER user group in all companies.
 
 A permission set is a collection of permissions for specific objects in the database. All users must be assigned one or more permission sets before they can access [!INCLUDE[d365fin](includes/d365fin_md.md)]. A number of predefined permission sets are provided by default. You can use these permission sets as already defined, modify the default permission sets, or create additional permission sets.
 
@@ -30,7 +31,8 @@ You can add users to user groups. This makes it easier to assign the same permis
 
 Administrators can use the **User Setup** window to define periods of time during which specified users are able to post, and also specify if the system logs the amount of time users are logged on.
 
-**Note**: This functionality requires that your experience is set to Suite. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
+> [!NOTE]  
+>   This functionality requires that your experience is set to Suite. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 
 ## To assign permissions to a user
 1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Users**, and then choose the related link.

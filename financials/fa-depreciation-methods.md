@@ -26,10 +26,12 @@ There are eight methods of depreciation available:
 * User-defined  
 * Manual  
 
-  **Note:** Use this method for assets that are not subject to depreciation, for example, land. You must enter depreciation in the fixed asset G/L journal. The **Calculate Depreciation** batch job omits fixed assets that use this depreciation method.  
+  > [!NOTE]  
+>   Use this method for assets that are not subject to depreciation, for example, land. You must enter depreciation in the fixed asset G/L journal. The **Calculate Depreciation** batch job omits fixed assets that use this depreciation method.  
 * Half-Year Convention  
 
-  **Note:**  When you use this method, a fixed asset is depreciated by the same amount each year.  
+  > [!NOTE]  
+>    When you use this method, a fixed asset is depreciated by the same amount each year.  
 
 ## Straight-Line Depreciation
 When you use the straight-line method, you must specify one of the following options in the fixed asset depreciation book:  
@@ -277,7 +279,8 @@ This depreciation method can be used in conjunction with the following depreciat
 
 When you apply the Half-Year Convention, a fixed asset has six months of depreciation in the first fiscal year, regardless of the contents of the **Depreciation Starting Date** field.  
 
-**Note:** The estimated life of the fixed asset that is remaining after the first fiscal year will always contain a half-year using the Half-Year Convention Method. Thus, for the Half-Year Convention method to be applied correctly, the **Depreciation Ending Date** field in the **FA Depreciation Book** window must always contain a date which is exactly six months before the final date of the fiscal year in which the fixed asset will fully depreciate.  
+> [!NOTE]  
+>   The estimated life of the fixed asset that is remaining after the first fiscal year will always contain a half-year using the Half-Year Convention Method. Thus, for the Half-Year Convention method to be applied correctly, the **Depreciation Ending Date** field in the **FA Depreciation Book** window must always contain a date which is exactly six months before the final date of the fiscal year in which the fixed asset will fully depreciate.  
 
 ### Example - Half-Year Convention Depreciation
 A fixed asset has an acquisition cost of LCY 100,000. The **Depreciation Starting Date** is 03/01/10. The estimated life is five years, so the **Depreciation Ending Date** must be 06/30/15. The **Calculate Depreciation** batch job is run annually. This example is based on a calendar fiscal year.  
@@ -338,9 +341,11 @@ If you have three depreciation books, B1, B2 and B3, and you want to duplicate e
 
 When you enter an entry in B1 in the fixed asset G/L journal and place a check mark in the **Use Duplication List** field, the program will duplicate the entry in book B2 and B3 in the fixed asset journal when the entry is posted.  
 
-**Note:** You cannot duplicate in the same journal and journal batch as you are duplicating from. If you post entries in the fixed asset G/L journal, you can duplicate them in the fixed asset journal or in the fixed asset G/L journal using another batch.  
+> [!NOTE]  
+>   You cannot duplicate in the same journal and journal batch as you are duplicating from. If you post entries in the fixed asset G/L journal, you can duplicate them in the fixed asset journal or in the fixed asset G/L journal using another batch.  
 
-**Note:** You cannot use the same number series in the fixed asset G/L journal and the fixed asset journal. When you post entries in the fixed asset G/L journal, you must leave the **Document No.** field empty. If you enter a number in the field, the the number is duplicated in the fixed asset journal. You'll have to manually change the document number before you can post the journal.  
+> [!NOTE]  
+>   You cannot use the same number series in the fixed asset G/L journal and the fixed asset journal. When you post entries in the fixed asset G/L journal, you must leave the **Document No.** field empty. If you enter a number in the field, the the number is duplicated in the fixed asset journal. You'll have to manually change the document number before you can post the journal.  
 
 ## See Also
 [Fixed Assets](fa-manage.md)  

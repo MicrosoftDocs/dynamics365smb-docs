@@ -68,7 +68,8 @@ When you fill in journal lines to post to a depreciation book, you can duplicate
 1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Depreciation Books**, and then choose the related link.  
 2. Open the depreciation book, and then select the **Part of Duplication List** check box.  
 
-**Important:** If you have selected the **Use Duplication List** field, do not use number series on the journal. The reason is that the number series for the fixed asset G/L journal does not the number series for the fixed asset journal.  
+> [!IMPORTANT]  
+>   If you have selected the **Use Duplication List** field, do not use number series on the journal. The reason is that the number series for the fixed asset G/L journal does not the number series for the fixed asset journal.  
 
 ## To post entries to different depreciation books
 1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Fixed Asset G/L Journal**, and then choose the related link.  
@@ -77,10 +78,12 @@ When you fill in journal lines to post to a depreciation book, you can duplicate
 4. Choose the **Post** action.  
 5. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **FA Journals**, and then choose the related link.  
 
-    **Note:** The **Fixed Asset Journal** window contains new lines for different depreciation books according to the duplication list.  
+    > [!NOTE]  
+>   The **Fixed Asset Journal** window contains new lines for different depreciation books according to the duplication list.  
 6. Review or edit the lines, and then choose the **Post** action.  
 
-    **Note:** Another way to duplicate an entry in a separate book is to enter a depreciation book code in the **Duplicate in Depreciation Book** field when you fill in a journal line.  
+    > [!NOTE]  
+>   Another way to duplicate an entry in a separate book is to enter a depreciation book code in the **Duplicate in Depreciation Book** field when you fill in a journal line.  
 
 You can copy entries from one depreciation book to another by using the **Copy Depreciation Book** batch job. The batch job creates journal lines in the journal batch that you have specified in the **FA Journal Setup** window for the depreciation book that you want to copy to. For more information, see the following procedure.  
 

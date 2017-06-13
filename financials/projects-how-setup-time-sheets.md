@@ -41,7 +41,8 @@ When you have set up time sheets, you can create time sheets for resources, assi
 2. Add a new user if the user list does not include the person who you want to be the time sheet administrator. For more information, see [How to: Manage Users and Permissions](ui-how-users-permissions.md).
 3. Select a user to be a time sheet administrator, and then select the **Time Sheet Admin.** check box.  
 
-**Tip**: It is recommended that you designate only one user to be the time sheet administrator for a company. In the following procedure, you set up a time sheet owner and approver where the time sheet approver is assigned for each resource.  
+> [!TIP]  
+>   It is recommended that you designate only one user to be the time sheet administrator for a company. In the following procedure, you set up a time sheet owner and approver where the time sheet approver is assigned for each resource.  
 
 ## To assign a time sheets owner and approver
 1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Resources**, and then choose the related link.
@@ -49,7 +50,8 @@ When you have set up time sheets, you can create time sheets for resources, assi
 3. In the **Time Sheet Owner User ID** field, enter the ID of the owner of the time sheet. The owner can enter time usage on a time sheet and submit it for approval. In general, when the resource is a person, that person is also the owner.  
 4. In the **Time Sheet Approver User ID** field, enter the ID of the approver of the time sheet. The approver can approve, reject, or reopen a time sheet.  
 
-**Note**: You cannot change the ID of the time sheet approver if there are time sheets that have not yet been processed and have the status of **Submitted** or **Open**.
+> [!NOTE]  
+>   You cannot change the ID of the time sheet approver if there are time sheets that have not yet been processed and have the status of **Submitted** or **Open**.
 
 ## See Also
 [Setting Up Project Management](projects-setup-projects.md)  

@@ -25,7 +25,8 @@ From sales orders and sales invoices, you can use functions to quickly create pu
 ## To create one or more purchase orders from a sales order
 To create a purchase order for each unavailable item quantity on the sales order, you use the **Create Purchase Orders** function. 
 
-**Note**: This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
+> [!NOTE]  
+>   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 
 1. On the Home page, choose the **Ongoing Sales Orders** tile.
 2. Open a sales order that you want to purchase items for.
@@ -36,7 +37,8 @@ To create a purchase order for each unavailable item quantity on the sales order
     The **Quantity to Purchase** field contains the unavailable sales quantity by default.
 4. To purchase another quantity than the unavailable sales quantity, edit the value in the **Quantity to Purchase** field.
 
-    **Note**: You can also change the **Quantity to Purchase** field on grayed lines even though they represent fully available sales quantities.
+    > [!NOTE]  
+>   You can also change the **Quantity to Purchase** field on grayed lines even though they represent fully available sales quantities.
 5. Choose the **OK** button. 
     
     A purchase order is created for each vendor of items on the sales order, including any quantity changes that you made in the **Create Purchase Orders** window.
@@ -46,7 +48,8 @@ To create a purchase order for each unavailable item quantity on the sales order
 ## To create a purchase invoice from a sales order or sales invoice
 To create a single purchase invoice for one or more lines on a sales document by first selecting which vendor to buy from, you use the **Create Purchase Invoice** function. 
 
-**Note**: This function creates a purchase invoice for the exact item quantity on the selected sales document. To change the purchase quantity, you must edit the purchase invoice after it is created.  
+> [!NOTE]  
+>   This function creates a purchase invoice for the exact item quantity on the selected sales document. To change the purchase quantity, you must edit the purchase invoice after it is created.  
 
 1. On the Home page, choose the **Ongoing Sales Invoices** tile.
 2. Open a sales invoice that you want to purchase items for.

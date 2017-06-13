@@ -25,7 +25,8 @@ Before you create interactions, you must set up interaction templates. For more 
 2. Choose the **Create Interaction** action.
 3. Fill in the fields, and choose the **OK** button.
 
-**Note**: If you need to perform another task before finishing the interaction, you can choose **Cancel**, and choose to finish the interaction at a later time. This postpones the interaction.
+> [!NOTE]  
+>   If you need to perform another task before finishing the interaction, you can choose **Cancel**, and choose to finish the interaction at a later time. This postpones the interaction.
 
 ## To finish and delete postponed interactions
 1. Open the contact, salesperson, or interaction log entry.

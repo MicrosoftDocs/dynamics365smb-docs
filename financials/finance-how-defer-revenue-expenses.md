@@ -20,7 +20,8 @@ To recognize a revenue or an expense in a period other than the period in which 
 
 To distribute revenues or expenses on the involved accounting periods, you set up a deferral template for the resource, item, or G/L account that the revenue or expense will be posted for. When you post the related sales or purchase document, the revenue or expense are deferred to the involved accounting periods, according to a deferral schedule that is governed by settings in the deferral template and the posting date.
 
-**Note**: This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
+> [!NOTE]  
+>   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 
 ## To set up a G/L account for deferral
 1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Chart of Accounts**, and then choose the related link.
@@ -57,7 +58,8 @@ Example: The posting date is 02/06/2016. If you enter “Expenses deferred for %
 3. In the **Default Deferral Template** field, select the relevant deferral template.
 
 ## To change a deferral schedule from a sales invoice
-**Note**: The steps in this procedure are the same as when you change a deferral schedule, for expenses, from a purchase invoice.
+> [!NOTE]  
+>   The steps in this procedure are the same as when you change a deferral schedule, for expenses, from a purchase invoice.
 
 1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Sales Invoices**, and then choose the related link.
 2. Create a sales invoice for an item that has a deferral template assigned. For more information, see [How to: Invoice Sales](sales-how-invoice-sales.md).
@@ -69,7 +71,8 @@ Example: The posting date is 02/06/2016. If you enter “Expenses deferred for %
 6. Choose the **OK** button. The deferral schedule is updated for the sales invoice. The related deferral template is unchanged.
 
 ## To preview how deferred revenues or expenses will be posted to the general ledger
-**Note**: The steps in this procedure are the same as when you preview how expense deferrals are posted.
+> [!NOTE]  
+>   The steps in this procedure are the same as when you preview how expense deferrals are posted.
 
 1. In the **Sales Invoice** window, choose the **Preview Posting** action.
 2. In the **Posting Preview** window, choose the **G/L Entry** action, and then choose the **Show Related Entries** action.
@@ -77,7 +80,8 @@ Example: The posting date is 02/06/2016. If you enter “Expenses deferred for %
 G/L entries to be posted to the specified deferral account, for example, Unearned Income, are denoted by the description that you entered in the **Period Desc.** field in the deferral template, for example, "Expenses deferred for February 2016".
 
 ## To review posted deferrals in the Sales Deferral Summary report
-**Note**: The steps in this procedure are the same as when you review the Purchasing Deferral Summary report.
+> [!NOTE]  
+>   The steps in this procedure are the same as when you review the Purchasing Deferral Summary report.
 
 1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Sales Deferral Summary**, and then choose the related link.
 2. In the **Sales Deferral Summary** window, in the **Balance as of** field, enter the date up to which you want to see deferred revenues.

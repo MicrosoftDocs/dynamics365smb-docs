@@ -24,7 +24,8 @@ After you have approved time sheet entries for a job, you can post them to the r
 
 Before you can use time sheets, you must set up general information and specify an administrator and one or more approvers of time sheets. For more information, see [How to: Set Up Time Sheets](projects-how-setup-time-sheets.md).
 
-**Note**: This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
+> [!NOTE]  
+>   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 
 ## To create a time sheet
 You can use the **Create Time Sheets** batch job to set up time sheets for a specified number of time periods or weeks. Then, the time sheet owner can open it and record time that has been spent on a task.
@@ -33,7 +34,8 @@ You can use the **Create Time Sheets** batch job to set up time sheets for a spe
 2. In the **Time Sheet List** window, choose the **Create Time Sheets** action.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-**Note**: The **Use Time Sheet** and **Time Sheet Owner User ID** fields must be filled in on the card for the resource of the time sheet.
+> [!NOTE]  
+>   The **Use Time Sheet** and **Time Sheet Owner User ID** fields must be filled in on the card for the resource of the time sheet.
 
 1. Choose the **OK** button.  
 
@@ -73,14 +75,17 @@ Time sheet registration is tracked in hours, the standard base unit of measure f
 2. Select a time sheet for the relevant time period, and then choose the **Edit Time Sheet** action.  
 3. Fill in the fields on a line as necessary. Enter the number of hours used by the resource on each day of the week.
 
-    **Tip**: You can review the sum of time sheet hours that you have entered in the **Actual/Budgeted Summary** FactBox.  
+    > [!TIP]  
+>   You can review the sum of time sheet hours that you have entered in the **Actual/Budgeted Summary** FactBox.  
 4. Repeat step 3 for other work types that the resource performs.
 5. Choose the **Submit** action, and then choose the **All open lines** action to submit all lines or the **Selected lines only** action to submit only the lines that are selected in the **Time Sheet** window.  
 
-    **Note**: You can only submit time sheet lines for which you have entered time.  
+    > [!NOTE]  
+>   You can only submit time sheet lines for which you have entered time.  
 6. To modify information on a line that has been set to **Submitted**, select the line, and then choose the **Reopen** action.
 
-    **Note**: A manager may reject a time sheet line that is submitted for approval. If a line has a status of **Rejected**, you can make changes to the line, and then choose **Submit** again.  
+    > [!NOTE]  
+>   A manager may reject a time sheet line that is submitted for approval. If a line has a status of **Rejected**, you can make changes to the line, and then choose **Submit** again.  
 7. Choose the **OK** button.
 
 ## To approve or reject a time sheet
@@ -95,7 +100,8 @@ A time sheet must be submitted for approval before it can be used. You can appro
 4. Choose the **OK** button.  
 5. Alternatively, choose the **Reject** action and follow steps 4 through 5.  
 
-**Tip**: Use the **Time Sheet Status** and **Actual/Budgeted Summary** FactBoxes to get an overview of time sheet information.
+> [!TIP]  
+>   Use the **Time Sheet Status** and **Actual/Budgeted Summary** FactBoxes to get an overview of time sheet information.
 
 After you have approved or rejected a time sheet, it cannot be modified unless it is first reopened. The following procedure explains how to reopen an approved or rejected time sheet.
 
@@ -103,7 +109,8 @@ After you have approved or rejected a time sheet, it cannot be modified unless i
 1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Manager Time Sheets** or **Time Sheets**, and then choose the related link.
 2. Open a time sheet from the list.  
 
-    **Note**: You can only reopen lines that have the status **Approved**. You cannot reopen lines that have the status **Rejected**. You cannot reopen a time sheet if it has been posted.  
+    > [!NOTE]  
+>   You can only reopen lines that have the status **Approved**. You cannot reopen lines that have the status **Rejected**. You cannot reopen a time sheet if it has been posted.  
 3. In the **Time Sheet** window, choose the **Reopen** action, and then choose the **All submitted lines** action to reopen all lines or the **Selected lines only** action to reopen only the lines that are selected in the **Time Sheet** window.
 4. Choose the **OK** button. The status of the time sheets line or lines is changes to **Submitted**.  
 
@@ -125,14 +132,16 @@ After you have approved time sheet entries for a job, you can post them to the r
 3. Fill in the fields as necessary.  
 4. Choose the **OK** button. Entries for usage are created in the job journal, where you can modify the information as needed.  
 
-    **Note**: Information about work type and whether the work is chargeable is copied from the time sheet line. If needed, you can reduce the quantity of hours and do a partial posting. If you reduce the quantity, then the next time that you choose the **Suggest Lines From Time Sheets** action, the line that is created will contain the remaining quantity of hours.  
+    > [!NOTE]  
+>   Information about work type and whether the work is chargeable is copied from the time sheet line. If needed, you can reduce the quantity of hours and do a partial posting. If you reduce the quantity, then the next time that you choose the **Suggest Lines From Time Sheets** action, the line that is created will contain the remaining quantity of hours.  
 5. Choose the **Post** action.  
 6. To verify the posting, choose the **Ledger Entries** action. The **Job Ledger Entries** window opens showing the result of posting the resource journal.
 
 ## To archive time sheets
 After you have posted time sheets, you can archive them for future reference. All time sheets lines must be posted before a time sheet can be archived.
 
-**Note**: When you archive a time sheet, it is removed from the lists in both the **Time Sheets** window and the **Manager Time Sheets** window.
+> [!NOTE]  
+>   When you archive a time sheet, it is removed from the lists in both the **Time Sheets** window and the **Manager Time Sheets** window.
 
 1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Move Time Sheets to Archive**, and then choose the related link.  
 2. Fill in the fields as necessary, and then choose the **OK** button.  

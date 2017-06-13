@@ -37,7 +37,8 @@ To post maintenance costs, you must first enter an account number in the **FA Po
 1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **FA Posting Groups**, and then choose the related link.
 2. Fill in the **Maintenance Expense Account** field for each posting group.
 
-**Note:** To define that maintenance costs are allocated to departments or projects, set up an allocation keys. For more information, see [How to: Set Up General Fixed Assets Features](fa-how-setup-general.md).
+> [!NOTE]  
+>   To define that maintenance costs are allocated to departments or projects, set up an allocation keys. For more information, see [How to: Set Up General Fixed Assets Features](fa-how-setup-general.md).
 
 ## See Also
 [Setting Up Fixed Assets](fa-setup.md)  

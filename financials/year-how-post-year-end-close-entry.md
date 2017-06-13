@@ -24,7 +24,8 @@ After you use the **Close Income Statement** batch job to generate the year-end 
 3. Review the entries.
 4. To post the journal, choose the **Post** action.
 
-**Note**: If an error is detected, an error message is displayed. If the posting is successful, the posted entries are removed from the journal. After posting is complete, an entry is posted to each income statement account so that its balance becomes zero and the year's result is transferred to the balance sheet.
+> [!NOTE]  
+>   If an error is detected, an error message is displayed. If the posting is successful, the posted entries are removed from the journal. After posting is complete, an entry is posted to each income statement account so that its balance becomes zero and the year's result is transferred to the balance sheet.
 
 ## See Also
 [How to: Close Accounting Periods](year-close-account-periods.md)  

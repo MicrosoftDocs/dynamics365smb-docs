@@ -17,7 +17,8 @@ ms.author: sgroespe
 # How to: Reconcile Customer Payments Manually From a List of Unpaid Sales Documents
 When your customers have made payments to your electronic bank account, you must apply each amount paid to the related sales document and then post the payment to update the customer, general ledger, and bank ledger entries.
 
-**Note**: You can perform the same tasks, including vendor payments, in the **Payment Reconciliation Journal** window using functions for bank statement import, automatic application, and bank account reconciliation. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
+> [!NOTE]  
+>   You can perform the same tasks, including vendor payments, in the **Payment Reconciliation Journal** window using functions for bank statement import, automatic application, and bank account reconciliation. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
 
 The **Payment Registration** window is designed to support you in tasks involved in balancing internal accounts by using actual cash figures to make sure that payments are collected efficiently from customers. This payment processing tool enables you to quickly verify and post individual or lump payments, process discounted payments, and find specific unpaid documents for which payment is made.
 
@@ -51,15 +52,18 @@ Payments entries are posted to general ledger, bank, and customer accounts. Each
 1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Payment Registration**, and then choose the related link.
 2. Select the **Payment Made** check box on the lines that represent posted documents for the same customer for which a lump payment has been made.  
 
-    **Note**: The customer in the **Name** field must be the same on all lines that will be posted as a lump payment.  
+    > [!NOTE]  
+>   The customer in the **Name** field must be the same on all lines that will be posted as a lump payment.  
 
     If the **Auto Fill Date Received** check box is selected in the **Payment Registration Setup** window, then the work date is filled in the **Date Received** field.  
 3. In the **Date Received** field, enter the date when the payment was made. This date may be different from the work date.  
 
-    **Note**: This date must be the same on all lines that will be posted as a lump payment.  
+    > [!NOTE]  
+>   This date must be the same on all lines that will be posted as a lump payment.  
 4. In the **Amount Received** field, enter amounts on multiple lines that sum up to the lump payment amount.  
 
-    **Tip**: Try to post as many full payments as possible with the lump amount. Enter amounts that are the same as the amount in the **Remaining Amount** field on as many lines as possible.  
+    > [!TIP]  
+>   Try to post as many full payments as possible with the lump amount. Enter amounts that are the same as the amount in the **Remaining Amount** field on as many lines as possible.  
 5. Repeat steps 2-4 for other lines that represent posted documents for the same customer for which a lump payment has been made.  
 6. Choose the **Post As Lump Payment** action. The entered payment information is posted for documents represented by lines where the **Payment Made** check box is selected.  
 
@@ -95,7 +99,8 @@ The following procedures explains four different ways to post discounted payment
     The **Payment Made** check box is automatically selected, and the **Date Received** field is filled with the work date.
 3. In the **Date Received** field, enter a payment date that is after the date in the **Pmt. Discount Date** field. Date fields change to red font, and an error message is shown at the bottom of the window.
 
-    **Tip**: If you want to make an exception and grant the discount even though the payment is late, follow these steps:
+    > [!TIP]  
+>   If you want to make an exception and grant the discount even though the payment is late, follow these steps:
 4. Choose the **Details** action.  
 5. In the **Payment Registration Details** window, in the **Pmt. Discount Date** field on the **Payment Discount** FastTab, enter a date that is after the date in the **Date Received** field in the **Payment Registration** window.  
 
@@ -143,7 +148,8 @@ The following procedure explains how to find a specific document by using both s
 2. With the pointer on any line, Choose the **Search Documents** action.
 3. In the **Document Search** window, enter a search value in the **Document No.** field.  
 
-    **Note**: The value that you enter in this field is enclosed in hidden wildcard characters. This means that the function searches for all document numbers that contain the entered value.    
+    > [!NOTE]  
+>   The value that you enter in this field is enclosed in hidden wildcard characters. This means that the function searches for all document numbers that contain the entered value.    
 4. In the **Amount** field, enter the specific amount that exists on the document that you want to find.  
 5. In the **Amount Tolerance %** field, enter a percentage value to define the range of amounts that you want to search to find the open document.  
 

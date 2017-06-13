@@ -24,7 +24,8 @@ In addition, you can assign a fixed asset to an insurance policy and create cove
 
 If the **Automatic Insurance Posting** check box in the **Fixed Asset Setup** window is not selected, then posting acquisitions from the fixed asset journal will create lines in the **Insurance Journal** window, which you must then post manually.
 
-**Warning:** If you do not select the **Automatic Insurance Posting** check box in the **Fixed Asset Setup** window, then your insurance journal should be based on a journal template without a number series. This is because the inserted document numbers from the fixed asset journal line will otherwise conflict with the number series of the insurance journal. For more information about journal templates and batches, see [How to: Set Up General Fixed Assets Information](fa-how-setup-general.md).
+> [!WARNING]  
+>   If you do not select the **Automatic Insurance Posting** check box in the **Fixed Asset Setup** window, then your insurance journal should be based on a journal template without a number series. This is because the inserted document numbers from the fixed asset journal line will otherwise conflict with the number series of the insurance journal. For more information about journal templates and batches, see [How to: Set Up General Fixed Assets Information](fa-how-setup-general.md).
 
 After you have assigned a fixed asset to an insurance policy, the **Insured** check box is selected on the fixed asset card. When you sell the fixed asset, the check box is automatically deselected.
 
@@ -47,7 +48,8 @@ The following procedure explains how to create an insurance journal line manuall
 3. To assign multiple fixed assets to one insurance policy, create journal lines with the same value in the **Insurance No.** field and different values in the **FA No.** field.  
 4. Choose the **Post** action.  
 
-    **Note:** The entries from an insurance journal are only posted to the insurance coverage ledger.  
+    > [!NOTE]  
+>   The entries from an insurance journal are only posted to the insurance coverage ledger.  
 
 ## To update the insurance value of a fixed asset
 You can use the **Index Insurance** batch job to update the value of the fixed assets that are covered.  
@@ -55,7 +57,8 @@ You can use the **Index Insurance** batch job to update the value of the fixed a
 1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Index Insurance**, and then choose the related link.
 2. Fill in the fields as necessary.
 
-    **Note:** In the **Index Figure** field, you enter a decrease of 5%, for example, as 95, whereas you enter an increase of 2% as 102.  
+    > [!NOTE]  
+>   In the **Index Figure** field, you enter a decrease of 5%, for example, as 95, whereas you enter an increase of 2% as 102.  
 3. Choose the **OK** button.  
 
    The batch job calculates the new amount as a percentage of the total value insured, as stated in the **Insurance Statistics** window, and then creates a line in the insurance journal.  

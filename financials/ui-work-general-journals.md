@@ -24,7 +24,8 @@ The information that you enter in a journal is temporary and can be changed whil
 ## Journal templates and batches
 There are several general journal templates. Each journal template is represented by a dedicated window with particular functions and the fields that are required to support those functions, such as the **Payment Reconciliation Journal** window to process bank payments and the **Payment Journal** window to pay your vendors.
 
-**Note**: If you export payment files to your bank from the payment journal, you must select the **Allow Payment Export** check box for the journal batch in question in the **General Journal Batches** window. For more information, see [How to: Export Payments to a Bank File](payables-how-export-payments-bank-file.md).
+> [!NOTE]  
+>   If you export payment files to your bank from the payment journal, you must select the **Allow Payment Export** check box for the journal batch in question in the **General Journal Batches** window. For more information, see [How to: Export Payments to a Bank File](payables-how-export-payments-bank-file.md).
 
 For each journal template, you can set up your own personal journal as a journal batch. For example, you can define your own journal batch for the payment journal that has your personal layout and settings.
 
@@ -33,7 +34,8 @@ An example of a personal setting that you can define on your general journal bat
 ## Main accounts and balancing accounts
 If you have set up default balancing accounts for the journal batches, the balancing account will be filled in automatically when you fill in the **Account No.** field. Otherwise, fill in both the **Account No.** field and the **Bal. Account No.** field manually. A positive amount in the **Amount** field is debited to the main account and credited to the balancing account. A negative amount is credited to the main account and debited to the balancing account.
 
-**Note**: VAT is calculated separately for the main account and the balancing account, so they can use different VAT percentage rates.
+> [!NOTE]  
+>   VAT is calculated separately for the main account and the balancing account, so they can use different VAT percentage rates.
 
 ## Recurring journals
 A recurring journal is a general journal with specific fields for managing transactions that you post frequently with few or no changes. Using these fields for recurring transactions, you can post both fixed and variable amounts. You can also specify automatic reversal entries for the day after the posting date and use allocation keys with the recurring entries.
@@ -41,7 +43,8 @@ A recurring journal is a general journal with specific fields for managing trans
 ## Standard Journals
 When you have created journal lines which you know you are likely to create again later, you can save them as a standard journal before you post the journal. This functionality applies to item journals and general journals.
 
-**Note**: The following procedure refers to the item journal, but the information also applies to the general journal.
+> [!NOTE]  
+>   The following procedure refers to the item journal, but the information also applies to the general journal.
 
 ### To save a standard journal
 1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Item Journals**, and then choose the related link.
@@ -72,7 +75,8 @@ When you have finished saving the standard item journal, the Item Journal window
 
     If you did not check the **Save Unit Amount** field when you used the **Save as Standard Item Journal** function job, then the **Unit Amount** field on lines that are inserted from the standard journal is automatically filled with the item’s current value, copied from the **Unit Cost** field on the item card.
 
-    **Note**: If you selected the **Save Unit Amount** or **Save Quantity** fields, you should now make sure the inserted values are correct for this particular inventory adjustment before you post the item journal.
+    > [!NOTE]  
+>   If you selected the **Save Unit Amount** or **Save Quantity** fields, you should now make sure the inserted values are correct for this particular inventory adjustment before you post the item journal.
 
     If the inserted item journal lines contain saved unit amounts that you do not want to post, you can quickly adjust it to the current value of the item as follows.
 

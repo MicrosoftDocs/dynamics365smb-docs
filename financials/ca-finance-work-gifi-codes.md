@@ -52,7 +52,8 @@ You can export balance information using GIFI codes and save the exported file i
 2. Specify what to export to Excel by filling the fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Choose the **OK** button.
 
-**Note:** The Excel file has the following characteristics:
+> [!NOTE]  
+>   The Excel file has the following characteristics:
 
 * The balance is rounded to the nearest percentage, but the cell value maintains the same percentage as it does in the general ledger.
 * Negative numbers are represented as positive number in brackets. Accordingly, -123 is represented as (123).

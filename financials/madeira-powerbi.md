@@ -25,7 +25,8 @@ The content packs are preconfigured to work with sales data and financial data f
 * Pin this customized view to the dashboard to continue tracking.  
   The dashboard and underlying reports refresh daily. You can control the refresh schedule and modify the frequency on the dataset.  
 
-**Note**: You can also build your own reports and dashboards in Power BI based on your [!INCLUDE[d365fin](includes/d365fin_md.md)] data. For more information, see [Connecting Your Business Data to Power BI](across-how-use-financials-data-source-powerbi.md).  
+> [!NOTE]  
+>   You can also build your own reports and dashboards in Power BI based on your [!INCLUDE[d365fin](includes/d365fin_md.md)] data. For more information, see [Connecting Your Business Data to Power BI](across-how-use-financials-data-source-powerbi.md).  
 
 ## Accessing [!INCLUDE[d365fin](includes/d365fin_md.md)] in Power BI
 To see your [!INCLUDE[d365fin](includes/d365fin_md.md)] data in Power BI, you must have the following:  
@@ -69,7 +70,8 @@ The [!INCLUDE[d365fin](includes/d365fin_md.md)] dashboard shows the most typical
 * SalesOrdersBySalesPerson  
 * TopCustomerOverview  
 
-**Note**: If you change the name of any of these web services, the data will not show up in Power BI.  
+> [!NOTE]  
+>   If you change the name of any of these web services, the data will not show up in Power BI.  
 If you want to add use other data in Power BI, you must find the tables in [!INCLUDE[d365fin](includes/d365fin_md.md)], expose them as web services, and then add them to the content pack. This is an advanced scenario, and we recommend that you start with the data that is already available in Power BI.  
 
 ## Troubleshooting
@@ -93,7 +95,8 @@ If you get a "login failed" error when you log in to the dashboard, using your [
     Verify your user account in [!INCLUDE[d365fin](includes/d365fin_md.md)], and make sure that you have used the right web service access key as the password, and then try again.  
 * The [!INCLUDE[d365fin](includes/d365fin_md.md)] instance that you are trying to connect to does not have a valid SSL certificate. In this case you'll see a more detailed error message ("unable to establish trusted SSL relationship").
 
-    **Note**: Self-signed certificates are not supported.  
+    > [!NOTE]  
+>   Self-signed certificates are not supported.  
 
 **"Oops"**  
 If you see an "Oops" error dialog after you pass the authentication dialog, this is most frequently caused by a problem connecting to the data for the content pack.

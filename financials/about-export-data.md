@@ -55,7 +55,8 @@ We recommend that you also consider exporting data from the following pages:
 * Contacts  
 * Salespeople  
 
-**Note**: If you have set up more than one company in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], you must export the relevant data from each company.
+> [!NOTE]  
+>   If you have set up more than one company in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], you must export the relevant data from each company.
 
 ## See Also
 [Canceling Your Subscription for [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](madeira-cancel.md)  

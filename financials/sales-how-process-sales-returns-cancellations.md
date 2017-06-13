@@ -18,7 +18,8 @@ ms.author: sgroespe
 # How to: Process Sales Returns or Cancellations
 If a customer wants to return or be reimbursed for items or services that you have sold and received payment for, you must create and post a sales credit memo that specifies the requested change. To include the correct sales invoice information, you can create the sales credit memo from the posted sales invoice, or use a copy function.  
 
-**Note:** If a posted sales invoice has not yet been paid, then you can use the **Correct** or **Cancel** functions on the posted sales invoice to reverse transactions. These functions work only for unpaid invoices, and they do not support partial returns or cancellations. For more information, see [How to: Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md).
+> [!NOTE]  
+>   If a posted sales invoice has not yet been paid, then you can use the **Correct** or **Cancel** functions on the posted sales invoice to reverse transactions. These functions work only for unpaid invoices, and they do not support partial returns or cancellations. For more information, see [How to: Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md).
 
 In addition to the original posted sales invoice, you can apply the sales credit memo to other sales documents, for example another posted sales invoice, because the customer is also returning items delivered with that invoice.
 

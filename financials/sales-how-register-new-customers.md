@@ -20,7 +20,8 @@ Customers are the source of your income. You must register each customer you sel
 
 Before you can register new customers, you must set up various sales codes that you can select from when you fill in customer cards. For more information, see [Set Up Sales](sales-setup-sales.md).
 
-**Note**: If customer templates exist for different customer types, then a window appears when you create a new customer card from where you can select an appropriate template. If only one customer template exists, then new customer cards always use that template.
+> [!NOTE]  
+>   If customer templates exist for different customer types, then a window appears when you create a new customer card from where you can select an appropriate template. If only one customer template exists, then new customer cards always use that template.
 
 ## To create a new customer card
 1. On the Home page, choose the **Customers** action to open the list of existing customers.  

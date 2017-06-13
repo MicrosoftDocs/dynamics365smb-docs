@@ -30,7 +30,8 @@ You can import the following data from QuickBooks Online to [!INCLUDE[d365fin](i
 * On-hand quantities for inventory items
 * Open documents for customers and vendors, such as invoices, credit memos, and payments
 
-**Note**: We do not migrate purchase orders or sales orders.
+> [!NOTE]  
+>   We do not migrate purchase orders or sales orders.
 
 ## Before you start
 The biggest part of the migration process is to specify the accounts to migrate transactions to. For example, the accounts where you post transactions for:  
@@ -46,13 +47,14 @@ Also, we migrate only full amounts on sales and purchase documents. We do not up
 ## How do I start using the extension?
 Getting started is easy. All you need to do is run the **Data Migration** assisted setup guide. Here's how:
 
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Assisted Setup**, and then choose **Migrate business data**.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Assisted Setup**, and then choose **Migrate business data**.
 2. Follow the instructions on each step in the assisted setup guide.
 
 ## What do I do after I migrate data?
 After you migrate data, transactions have the status **Unposted**, so you can review them and make adjustments before posting. To review the transactions, go to the page where you would normally find them. For example, to review unposted sales invoices, go to the **Sales Invoices** page. To review payment journals, go to the **Payment Journals** page. These pages list only unposted documents.  
 
-**Tip**: We do not migrate partially paid documents. If you did not apply outstanding transactions before starting the migration, remember to do that now.
+> [!TIP]  
+>   We do not migrate partially paid documents. If you did not apply outstanding transactions before starting the migration, remember to do that now.
 
 ## See Also
 [Importing Business Data from Other Finance Systems](upload-data.md)  

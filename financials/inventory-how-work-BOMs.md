@@ -1,7 +1,6 @@
 ---
 title: Work with Bills of Material to Manage Components| Microsoft Docs
-description: description: You create an assembly BOM to specify the components or resources required to put together the item that the assembly BOM represents, and you can view the components of an assembly item.
-services: project-madeira
+description: You create an assembly BOM to specify the components or resources required to put together the item that the assembly BOM represents, and you can view the components of an assembly item.
 documentationcenter: ''
 author: SorenGP
 
@@ -10,7 +9,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/02/2017
+ms.search.keywords: non-inventoriable
+ms.date: 06/13/2017
 ms.author: sgroespe
 
 ---
@@ -25,7 +25,8 @@ Assembly BOMs can have multiple levels, which means that a component on the asse
 
 Special requirements apply to items on assembly BOMs with regards to availability. For more information, see the "To see the availability of an item by its use in assembly BOMs" section in [How to: View the Availability of Items](inventory-how-availability-overview.md).
 
-**Note**: This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your Financials Experience](ui-experiences.md).
+> [!NOTE]  
+>   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your Financials Experience](ui-experiences.md).
 
 ## To create an assembly BOM
 To define a parent item that consists of other items, and potentially of resources required to put the parent together, you must create an assembly BOM.  
@@ -43,7 +44,7 @@ There are two parts to creating an assembly BOM:
 ## To view the components of an assembly item indented according to the BOM structure
 From the **Assembly BOM** window, you can open a separate window that shows the components and any resources indented according to their BOM position under the assembly item.
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Items**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.
 2. Open the card for an assembly item. (The **Assembly BOM** field in the **Items** window contains **Yes**.)
 3. In the **Item Card** window, choose the **Assembly** action, and then choose the **Assembly BOM** action.
 4. In the **Assembly BOM** window, choose the **Show BOM** action.

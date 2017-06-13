@@ -21,7 +21,7 @@ Payment methods are linked to vendors in order to specify how an invoice from th
 
 ## To set up a payment methods
 Several typical payment methods are already defined in [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can define new payment methods in the **Payment Methods** window, which you can find with the search function or open from the **Payment Method** field on an a vendor or customer card. 
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Payment Methods**, and choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Methods**, and choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## See Also

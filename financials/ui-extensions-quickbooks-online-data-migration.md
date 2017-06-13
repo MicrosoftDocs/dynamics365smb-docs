@@ -47,7 +47,7 @@ Also, we migrate only full amounts on sales and purchase documents. We do not up
 ## How do I start using the extension?
 Getting started is easy. All you need to do is run the **Data Migration** assisted setup guide. Here's how:
 
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Assisted Setup**, and then choose **Migrate business data**.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Assisted Setup**, and then choose **Migrate business data**.
 2. Follow the instructions on each step in the assisted setup guide.
 
 ## What do I do after I migrate data?

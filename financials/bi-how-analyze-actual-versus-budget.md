@@ -26,7 +26,7 @@ To analyze budgeted amounts, you must first create budgets. For more information
 ## To view a budget
 In a budget with dimensions, you can filter the entries and see specific budgets.
 
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **G/L Budgets**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **G/L Budgets**, and then choose the related link.
 2. In the **G/L Budgets** window, open the budget that you want to view.  
 3. At the top of the window, fill in the fields as necessary to define what is shown. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 

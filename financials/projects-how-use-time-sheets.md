@@ -145,7 +145,7 @@ After you have posted time sheets, you can archive them for future reference. Al
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Move Time Sheets to Archive**, and then choose the related link.  
 2. Fill in the fields as necessary, and then choose the **OK** button.  
-3. To review archived time sheets, in the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Time Sheet Archives** or **Manager Time Sheet Archives**, and then choose the related link.
+3. To review archived time sheets, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Time Sheet Archives** or **Manager Time Sheet Archives**, and then choose the related link.
 
 ## See Also
 [Project Management](projects-manage-projects.md)  

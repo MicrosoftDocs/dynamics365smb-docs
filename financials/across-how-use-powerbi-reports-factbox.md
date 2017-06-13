@@ -44,7 +44,8 @@ Similarly, if you want to have the background of the report blend into the backg
 ## Reports with Multiple Pages
 With Power BI, you can create a single report with multiple pages. The visuals that you want to see in the [!INCLUDE[d365fin](includes/d365fin_md.md)] list pages must be on the first page of the report in Power BI.  
 
-**Note:**  The Power BI Fact Box can show only the first page of your report; if you want to see other pages, you must expand the report and use tabs at the bottom of the report to navigate to other pages.  
+> [!NOTE]  
+>  The Power BI Fact Box can show only the first page of your report; if you want to see other pages, you must expand the report and use tabs at the bottom of the report to navigate to other pages.  
 
 ## Saving Your Report
 

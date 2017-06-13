@@ -36,7 +36,7 @@ In [Using [!INCLUDE[d365fin](includes/d365fin_md.md)], availability figures are 
 ## To view the availability of an item according to when it will be received or shipped
 You view the availability of an item according to scheduled item transactions in the **Availability by Event** window.
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Items**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.
 2. Open the card of an item that you want to view availability for.
 3. Choose the **Item Availability by** action, and then choose the **Event** action.
 
@@ -46,7 +46,7 @@ You view the availability of an item according to scheduled item transactions in
 ## To view the availability of an item in different periods
 You view the availability of an item over time for specified time periods in the **Item Availability by Periods** window.
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Items**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.
 2. Open the card of an item that you want to view availability for.
 3. Choose the **Item Availability by** action, and then choose the **Period** action.
 
@@ -56,7 +56,7 @@ You view the availability of an item over time for specified time periods in the
 ## To view the availability of an item at the locations where it is stored
 You view the availability of an item at the different places where it is stored in the **Item Availability by Location** window.
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Items**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.
 2. Open the card of an item that you want to view availability for.
 3. Choose the **Item Availability by** action, and then choose the **Location** action.
 
@@ -67,7 +67,7 @@ You view the availability of an item at the different places where it is stored 
 ## To view the availability of all items by the location where they are stored
 You view the availability of all your items across all your locations in the **Items by Location** window.
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Items**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.
 2. Choose the **Items by Location** action.
 
     The **Items by Location** window shows for all your items how many are available at each location.

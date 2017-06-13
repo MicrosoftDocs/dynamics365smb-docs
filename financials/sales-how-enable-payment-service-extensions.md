@@ -22,7 +22,7 @@ After you enable a payment service in [!INCLUDE[d365fin](includes/d365fin_md.md)
 The PayPal Payments Standard and WorldPay Payments Standard extensions are installed in [!INCLUDE[d365fin](includes/d365fin_md.md)], and are ready for you to enable.  
 
 ## To enable a payment service in [!INCLUDE[d365fin](includes/d365fin_md.md)]
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Payment Services**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Services**, and then choose the related link.  
 2. In the **Payment Services** window, choose the **New** action.  
 3. Select the payment service, and then close the window.  
 4. In the **Payment Services** window, choose the **Setup** action.  

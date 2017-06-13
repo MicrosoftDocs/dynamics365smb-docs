@@ -26,7 +26,7 @@ The process of issuing checks suggests payments, creates ledger entries, and pri
 Your printer must be correctly set up with the check forms, and you must define which check layout to use. For more information, see [How to: Define Check Layouts](finance-how-define-check-layouts.md)
 
 ## To issue checks
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Payment Journals**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.
 2. Fill in the journal with relevant payments, for example by using the Suggest Vendor Payments function. For more information, see [How to: Suggest Vendor Payments](payables-how-suggest-vendor-payments.md).
 3. In the **Bank Payment Type** field on journal lines for payment that you want to make with checks, select one of the following options:
 
@@ -50,7 +50,7 @@ You can cancel non-posted checks after they have been printed by using the **Voi
 ## To void checks
 When check payment have been posted, you can only cancel (void) checks from the resulting bank ledger entries.
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Bank Accounts**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.
 2. Select the relevant bank account, choose the **Edit** action, and then choose the **Check Ledger Entries** action.
 3. In the **Check Ledger Entries** window, choose the **Void Check** action.
 4. Select the **Void Check Only** check box.

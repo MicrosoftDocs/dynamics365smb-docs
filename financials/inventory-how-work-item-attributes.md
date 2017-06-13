@@ -21,7 +21,7 @@ When customers inquire about an item, either in correspondence or in an integrat
 You can also assign item attributes to item categories, which then apply to the items that use the item categories. For more information, see [How to: Categorize Item](inventory-how-categorize-items.md).
 
 ## To create item attributes
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Item Attributes**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Attributes**, and then choose the related link.
 2. In the **Item Attributes** window, choose the **New** action.
 3. In the **Item Attribute** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -29,12 +29,12 @@ You can also assign item attributes to item categories, which then apply to the 
 >   If you select **Option** in the **Type** field, then you can choose the **Item Attribute Values** action to create values for the item attribute. For more information, see the "To create values for item attributes of type Option" section.  
 
 ## To create values for item attributes of type Option
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Item Attributes**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Attributes**, and then choose the related link.
 2. In the **Item Attributes** window, select an item attribute of type **Option** that you want to create values for, and then choose the **Item Attribute Values** action.
 3. In the **Item Attribute Values** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## To assign item attributes to items
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Items**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.
 2. In the **Items** window, select the item that you want to assign item attributes to, and then choose the **Attributes** action.
 3. In the **Item Attribute Values** window, choose the **New** action.
 4. Choose the lookup button in the **Attribute** field and select an existing item attribute. Alternatively, choose the **New** action to first create a new item attribute as explained in the "To create item attributes" section.
@@ -43,7 +43,7 @@ You can also assign item attributes to item categories, which then apply to the 
 7. Repeat steps 4 through 6 for all item attributes that you want to assign to the item.
 
 ## To assign item attributes to item categories
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Item Categories**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Categories**, and then choose the related link.
 2. In the **Item Categories** window, select the item category that you want to assign item attributes to, and then choose the **Edit** action.
 3. In the **Item Category Card** window, on the **Attributes** FastTab, choose the **New** action.
 4. Choose the lookup button in the **Attribute** field and select an existing item attribute. Alternatively, choose the **New** action to first create a new item attribute as explained in the "To create an item attribute" section.
@@ -54,7 +54,7 @@ You can also assign item attributes to item categories, which then apply to the 
 >   Item attributes for parent item categories will be inherited to child item categories. This is indicated by the **Inherited From** field on the **Attributes** FastTab. For more information, see [How to: Categorize Items](inventory-how-categorize-items.md).
 
 ## To filter by item attributes
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Items**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.
 2. In the **Items** window, choose the **Filter by Attributes** action.
 3. In the **Filter Items by Attribute** window, choose the lookup button in the **Attribute** field and select an item attribute.
 4. In the **Value** field, choose the lookup button and select an attribute value to filter items by.

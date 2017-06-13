@@ -24,7 +24,7 @@ To distribute revenues or expenses on the involved accounting periods, you set u
 >   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 
 ## To set up a G/L account for deferral
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Chart of Accounts**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Chart of Accounts**, and then choose the related link.
 2. Choose the **New** action.
 3. Fill in the fields as necessary to create a G/L account for deferred revenues. For more information, see [The General Ledger and the Chart of Accounts](finance-general-ledger.md).
 4. Repeat steps 2 and 3 to create a new G/L account for deferred expenses.
@@ -32,7 +32,7 @@ To distribute revenues or expenses on the involved accounting periods, you set u
 For both types of deferral, select **Balance Sheet** in the **Type** field, and name the accounts appropriately, such as "Unearned Income" for deferred revenues and "Unpaid Expenses" for deferred expenses.
 
 ## To set up a deferral template
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Deferral Templates**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Deferral Templates**, and then choose the related link.
 2. Choose the **New** action.
 3. Fill in the fields as necessary.
 4. In the **Calc. Method** field, specify how the **Amount** field for each period in the **Deferral Schedule** window is calculated. You can choose between the following options:
@@ -53,7 +53,7 @@ For both types of deferral, select **Balance Sheet** in the **Type** field, and 
 Example: The posting date is 02/06/2016. If you enter “Expenses deferred for %4 %6”, then the description displayed will be "Expenses deferred for February 2016".
 
 ## To assign a deferral template to an item
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Deferral Templates**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Deferral Templates**, and then choose the related link.
 2. Open the card for the item for which revenues or expenses must be deferred to the accounting periods when the item was sold or purchased.
 3. In the **Default Deferral Template** field, select the relevant deferral template.
 
@@ -61,7 +61,7 @@ Example: The posting date is 02/06/2016. If you enter “Expenses deferred for %
 > [!NOTE]  
 >   The steps in this procedure are the same as when you change a deferral schedule, for expenses, from a purchase invoice.
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Sales Invoices**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Invoices**, and then choose the related link.
 2. Create a sales invoice for an item that has a deferral template assigned. For more information, see [How to: Invoice Sales](sales-how-invoice-sales.md).
 
     Notice that as soon as you enter the item (or resource or G/L account) on the invoice line, the **Deferral Code** field is filled with the code of the assigned deferral template.
@@ -83,7 +83,7 @@ G/L entries to be posted to the specified deferral account, for example, Unearne
 > [!NOTE]  
 >   The steps in this procedure are the same as when you review the Purchasing Deferral Summary report.
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Sales Deferral Summary**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Deferral Summary**, and then choose the related link.
 2. In the **Sales Deferral Summary** window, in the **Balance as of** field, enter the date up to which you want to see deferred revenues.
 3. Choose the **Preview** button.
 

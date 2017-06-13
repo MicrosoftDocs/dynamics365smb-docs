@@ -35,7 +35,7 @@ You create a job card and then create job task lines and job planning lines for 
 2. Choose the **New** action, and then fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. To specify the job with information on other jobs, choose the **Copy Job** action, fill in the fields as necessary, and then choose the **OK** button.
 
-**NOTE**: If you are using time sheets with your job, you must also designate a person responsible. This person can approve time sheets for the employee tasks associated with the job. For more information, see [How to: Set Up Timesheets](projects-how-setup-time-sheets.md).
+**Note**: If you are using time sheets with your job, you must also designate a person responsible. This person can approve time sheets for the employee tasks associated with the job. For more information, see [How to: Set Up Timesheets](projects-how-setup-time-sheets.md).
 
 ## To create tasks for a job
 A key part of creating a job is to specify the various tasks involved in the job. You do this by adding new lines on the **Tasks** FastTab in the **Job Card** window, one task per line. Every job must have at least one task.

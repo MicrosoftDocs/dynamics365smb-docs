@@ -11,12 +11,12 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 06/01/2017
+ms.date: 06/13/2017
 ms.author: sgroespe
 
 ---
 #  How to: Analyze Data by Dimensions
-In financial analysis, a dimension is data that you can add to an entry as a kind of marker. This data is used to group entries with similar characteristics, such as customers, regions, products, and salesperson, and easily retrieve these groups for analysis. Dimensions can be used on entries in journals, documents, and budgets. The term dimension describes how analysis occurs. A two-dimensional analysis, for example, would be sales per area. However, by using more than two dimensions when creating an entry, you can carry out a more complex analysis, such as sales per sales campaign per customer group per area.
+In financial analysis, a dimension is data that you can add to an entry as a kind of marker. This data is used to group entries with similar characteristics, such as customers, regions, products, and salesperson, and easily retrieve these groups for analysis. Dimensions can be used on entries in journals, documents, and budgets. The term dimension describes how analysis occurs. A two-dimensional analysis, for example, would be sales per area. However, by using more than two dimensions when creating an entry, you can carry out a more complex analysis, such as sales per sales campaign per customer group per area. For more information, see [Working with Dimensions](finance-dimensions.md).
 
 Analyzing data by dimensions gives you greater insight into your business, so you can evaluate information, such as how well your business is operating, where it is thriving and where it is not, and where more resources should be allocated.
 
@@ -38,15 +38,6 @@ You can use the **Analysis by Dimensions** matrix to view the amounts in your ge
 
 - The leftmost columns contain information based on what you have selected in the **Show as Lines** field in the header.  
 - The rightmost columns contain information based on to what you have selected in the **Show as Columns** field in the header.  
-
- The columns in the matrix also display the following information.  
-
-|Column | Description|  
-|-------|------------|  
-|**Code**|Shows the code given to a dimension value.|  
-|**Name**|Shows the name given to a dimension value.|  
-|**Total Amount**|Shows the total amount for the amount type that you chose in the **[\($ N\_554\_29 Show $\)](assetId:///37df8884-b937-46b7-a3a7-8b902a59b65f)** field on the **Options** tab.|  
-|**Matrix**|The remaining columns show amounts based on an analysis view.|   
 
 1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Analysis by Dimensions**, and then choose the related link.  
 2. Select the relevant analysis view,  and then choose the **Edit Analysis View** action.

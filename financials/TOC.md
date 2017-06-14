@@ -10,6 +10,7 @@
 ## [Using Financials in an Automated Workflow](across-how-use-financials-data-source-flow.md)
 ## [Using Financials as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)
 ## [Connecting to Your Financials Data to Build a Business App Using PowerApps](across-how-use-financials-data-source-powerapps.md)
+## [Bulk Invoicing from Microsoft Bookings](finance-bookings.md)
 ## [Customizing Financials Using Extensions](ui-extensions.md)
 
 # Tips and Tricks

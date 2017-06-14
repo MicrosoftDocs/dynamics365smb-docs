@@ -17,7 +17,8 @@ ms.author: edupont
 # Using [!INCLUDE[d365fin](includes/d365fin_md.md)] in an Automated Workflow
 You can use your [!INCLUDE[d365fin](includes/d365fin_md.md)] data as part of a workflow in Microsoft Flow.  
 
-**Note**: You must have a valid account with [!INCLUDE[d365fin](includes/d365fin_md.md)] and with Flow.  
+> [!NOTE]  
+>   You must have a valid account with [!INCLUDE[d365fin](includes/d365fin_md.md)] and with Flow.  
 
 ## To add [!INCLUDE[d365fin](includes/d365fin_md.md)] as a data source in Flow
 1. In your browser, navigate to [flow.microsoft.com](https://flow.microsoft.com/en-us/), and then sign in.

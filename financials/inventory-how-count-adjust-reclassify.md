@@ -34,13 +34,14 @@ Apart from the physical counting task, the complete process involves the followi
 - Enter and post the actual counted inventory.
 
 ### To calculate the expected inventory
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Phys. Inventory Journals**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Phys. Inventory Journals**, and then choose the related link.
 2. Choose the **Calculate Inventory** action.
 3. In the **Calculate Inventory** window, specify the conditions to use to create the journal lines, such as whether to include items that have zero recorded inventory.
 4. Set filters if you only want to calculate inventory for certain items, bins, locations, or dimensions.
 5. Choose the **OK** button.
 
-**Note**: The item entries are processed according to the information that you specified, and lines are created in the physical inventory journal. Notice that the **Qty. (Phys. Inventory)** field is automatically filled in with the same quantity as the **Qty. (Calculated)** field. With this feature, it is not necessary for you to enter the counted inventory on hand for items that are the same as the calculated quantity. However, if the quantity counted differs from what is entered in the **Qty. (Calculated)** field, you must overwrite it with the quantity actually counted.
+> [!NOTE]  
+>   The item entries are processed according to the information that you specified, and lines are created in the physical inventory journal. Notice that the **Qty. (Phys. Inventory)** field is automatically filled in with the same quantity as the **Qty. (Calculated)** field. With this feature, it is not necessary for you to enter the counted inventory on hand for items that are the same as the calculated quantity. However, if the quantity counted differs from what is entered in the **Qty. (Calculated)** field, you must overwrite it with the quantity actually counted.
 
 ### To print the report used when counting
 1. In the **Phys. Inventory Journal** window containing the calculated expected inventory, Choose the **Print** action.
@@ -55,36 +56,38 @@ Employees can now proceed to count inventory and record any discrepancies on the
 
     The related fields are updated accordingly.
 
-    **Note**: If the physical count reveals differences that are caused by items posted with incorrect location codes, do not enter the differences in the physical inventory journal. Instead, use the reclassification journal or a transfer order to redirect the items to the correct locations. For more information, see Item Reclass. Journal or How to: Create Transfer Orders.
+    > [!NOTE]  
+>   If the physical count reveals differences that are caused by items posted with incorrect location codes, do not enter the differences in the physical inventory journal. Instead, use the reclassification journal or a transfer order to redirect the items to the correct locations. For more information, see Item Reclass. Journal or How to: Create Transfer Orders.
 
 2. To adjust the calculated quantities to the actual counted quantities, choose the **Post** action.
 
     Both item ledger entries and physical inventory ledger entries are created. Open the item card to view the resulting physical inventory ledger entries.
 
-3. In the top right corner, choose the **Search for Page or Report** icon, enter **Items**, and then choose the related link.
+3. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.
 4. To verify the inventory counting, open the item card in question, and then, choose the **Phys. Inventory ledger Entries** action.
 
 # To perform cycle counting
 Although you count all items in inventory at least once a year, you may have decided to count some items more often, perhaps because they are more valuable, or because they are very fast movers and a large part of your business. For this purpose, you can assign special counting periods to those items.
 
-**Note**: If your location is set up for directed put-away and pick, then you first use the **Whse. Phys. Invt. Journal** window, and then you use the **Calculate Whse. Adjustment** function in the **Item Journal** window.
+> [!NOTE]  
+>   If your location is set up for directed put-away and pick, then you first use the **Whse. Phys. Invt. Journal** window, and then you use the **Calculate Whse. Adjustment** function in the **Item Journal** window.
 
 ## To set up counting periods
 A physical inventory is typically taken at some recurring interval, for example monthly, quarterly, or annually. You can set up whatever inventory counting periods necessary.
 
 You set up the inventory counting periods that you want to use and then assign one to each item. When you perform a physical inventory and use the **Calculate Counting Period** in the physical inventory journal, lines for the items are created automatically.
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Phys. Invt. Counting Periods**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Phys. Invt. Counting Periods**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## To assign a counting period to an item  
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Items**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.  
 2. Select the item to which you want to assign a counting period.  
 3. In the **Phys Invt Counting Period Code** field, select the appropriate counting period.  
 4. Choose the **Yes** button to change the code and calculate the first counting period for the item. The next time you choose to calculate a counting period in the physical inventory journal, the item appears as a line in the **Phys. Invt. Item Selection** window. You can then begin to count the item on a periodic basis.
 
 ## To initiate a count based on counting periods
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Phys. Inventory Journal**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Phys. Inventory Journal**, and then choose the related link.
 2. Choose the **Calculate Counting Period** action.
 
     The **Phys. Invt. Item Selection** window opens showing the items that have counting periods assigned and need to be counted according to their counting periods.
@@ -93,7 +96,7 @@ You set up the inventory counting periods that you want to use and then assign o
 ## To adjust the inventory of one item
 After you have made a physical count of an item in your inventory area, you can use the **Adjust Inventory** function to record the actual inventory quantity.
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Items**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.
 2. Select the item for which you want to adjust inventory, and then choose the **Adjust Inventory** action.
 3. In the **New Inventory** field, enter the inventory quantity that you want to record for the item.
 4. Choose the **OK** button.
@@ -102,21 +105,23 @@ The item’s inventory is now adjusted. The new quantity is shown in the **Curre
 
 You can also use the **Adjust Inventory** function as a simple way to place purchased items on inventory if you do not use purchase invoices or orders to record your purchases. For more information, [How to: Record Purchases](purchasing-how-record-purchases.md).
 
-**Note**: After you have adjusted inventory, you must update it with the current, calculated value. For more information, see [How to: Revalue Inventory](inventory-how-revalue-inventory.md).
+> [!NOTE]  
+>   After you have adjusted inventory, you must update it with the current, calculated value. For more information, see [How to: Revalue Inventory](inventory-how-revalue-inventory.md).
 
 ## To adjust the inventory quantity of one or more items
 In the **Item Journal** window, you can post item transaction directly to adjust inventory in connection with purchases, sales, and positive or negative adjustments without using documents.
 
 If you often use the item journal to post the same or similar journal lines, for example, in connection with material consumption, you can use the **Standard Item Journal** window to make this recurring work easier. For more information, see the "Standard Journals" section in [Working with General Journals](ui-work-general-journals.md).
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Item Journals**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Journals**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Choose the **Post** action to make the inventory adjustments.
 
-**Note**: After you have adjusted inventory, you must update it with the current, calculated value. For more information, see [How to: Revalue Inventory](inventory-how-revalue-inventory.md).
+> [!NOTE]  
+>   After you have adjusted inventory, you must update it with the current, calculated value. For more information, see [How to: Revalue Inventory](inventory-how-revalue-inventory.md).
 
 ## To reclassify an item's lot number
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Item Reclass. Journals**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Reclass. Journals**, and then choose the related link.
 2. In the **Item Reclass. Journal** window, fill in the fields as necessary.
 3. To In the **Lot No.** field, enter the items current lot number.
 4. In the **New Lot No.** field, enter the item's new lot number.

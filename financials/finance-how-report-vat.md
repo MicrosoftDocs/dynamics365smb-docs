@@ -19,7 +19,8 @@ ms.author: bholtorf
 # How To: Report VAT to Tax Authorities
 The European Community (EC) Sales List report lists of the value added tax (VAT) amounts that you have collected for sales within the EU, so you can submit the VAT amounts to a tax authority's web service.
 
-**Note**: In the UK, all companies that sell more than a certain value every year to customers in EU member states must submit an electronic version of their European Community (EC) sales list report in XML format through Her Majesty's Revenue and Customs (HMRC) website.
+> [!NOTE]  
+>   In the UK, all companies that sell more than a certain value every year to customers in EU member states must submit an electronic version of their European Community (EC) sales list report in XML format through Her Majesty's Revenue and Customs (HMRC) website.
 
 The EC Sales List report only works for countries in the EU. For example, it does not include VAT on sales to countries like China or the United States.
 
@@ -35,11 +36,13 @@ B2B goods and services specify whether you sold a good or a service, and are con
   
 After you submit the report, [!INCLUDE[d365fin](includes/d365fin_md.md)] monitors the service and keeps a record of your communications. The **Status** field indicates where the report is in the process. For example, when the authorities process your report, the status of the report changes to **Succeeded**. If the tax authority found mistakes in the report you submitted, the status of the report will be **Failed**. You can view the errors under **Errors and Warningss**, correct them, and then submit the report again. To view a list of all your EC Sales List reports, go to the **EC Sales List Reports** page.  
   
-**Note**: If you use another method to submit the report, for example by exporting the XML and uploading it to a tax authority website, afterward you can choose **Mark as Submitted** to close the reporting period. When you mark the report as released, it becomes non-editable. If you must change the report after you mark it as released, you must reopen it. 
+> [!NOTE]  
+>   If you use another method to submit the report, for example by exporting the XML and uploading it to a tax authority website, afterward you can choose **Mark as Submitted** to close the reporting period. When you mark the report as released, it becomes non-editable. If you must change the report after you mark it as released, you must reopen it. 
   
 After the tax authority reviews your report, they will send an email to the contact person for your company. In [!INCLUDE[d365fin](includes/d365fin_md.md)], the contact person is specified on the **Company Information** page. Before you submit the report, make sure that a contact person is chosen.
 
-<!--**Note**: The EC Sales List report can contain up to 1000 lines. If you have more lines, you must submit another report. -->
+<!--> [!NOTE]  
+>   The EC Sales List report can contain up to 1000 lines. If you have more lines, you must submit another report. -->
 
 ## To connect to your tax authority's web service
 [!INCLUDE[d365fin](includes/d365fin_md.md)] provides service connections that connect to tax authority websites. For example, if you are in the UK, you must enable the **GovTalk** service connetion.  
@@ -57,7 +60,8 @@ After the tax authority reviews your report, they will send an email to the cont
 2. Choose **New**, and then fill in the required fields.  
 3. To generate the content of the report, choose the **Suggest Lines** action.  
 
-    **Note**: You can review the transactions included in the line before you submit the report. To do that, choose the line, and then choose the **Show VAT Entries** action.  
+    > [!NOTE]  
+>   You can review the transactions included in the line before you submit the report. To do that, choose the line, and then choose the **Show VAT Entries** action.  
 4. To prepare the report for submision, choose the **Release** action.  
 5. To submit the report, choose the **Submit** action.  
   
@@ -79,7 +83,8 @@ The following table describes the codeunits that you must create for your report
 |Response Handler | Handle the return from the tax authority. For example, it might send an email message to your company's contact person. |
 |Cancel | Send a cancellation of a VAT report that was submitted earlier to your tax authority. |
 
-**Note**: When you create codeunits for the report, pay attention to the value in the **VAT Report Version** field. This field must reflect the version of the report that is, or was, required by the tax authority. For example, you might enter **2017** in the field to indicate that the report conforms to the requirements that were in place that year. To find the current version, contact your tax authority.  
+> [!NOTE]  
+>   When you create codeunits for the report, pay attention to the value in the **VAT Report Version** field. This field must reflect the version of the report that is, or was, required by the tax authority. For example, you might enter **2017** in the field to indicate that the report conforms to the requirements that were in place that year. To find the current version, contact your tax authority.  
 
 ## See also
 [Set up VAT](finance-setup-vat.md)  

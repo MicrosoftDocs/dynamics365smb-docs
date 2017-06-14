@@ -27,7 +27,8 @@ If you signed up for [!INCLUDE[d365fin](includes/d365fin_md.md)] using a non-Off
 
 ## Resetting your [!INCLUDE[d365fin](includes/d365fin_md.md)] experience
 If you have added data to your [!INCLUDE[d365fin](includes/d365fin_md.md)] preview and you want to start over with a fresh experience, you can create a new company and then reset the first company. If you open the **Companies** page, you can create a copy of your current company, sign out and then sign into your new company, and then reset the original company.  
-**Note**: When you reset a company that you are sharing with other people from your organization, you must make sure other people are not logged in when you reset the company.  
+> [!NOTE]  
+>   When you reset a company that you are sharing with other people from your organization, you must make sure other people are not logged in when you reset the company.  
 
 ## Removing [!INCLUDE[d365fin](includes/d365fin_md.md)] from your app launcher
 If you want to hide [!INCLUDE[d365fin](includes/d365fin_md.md)] from your app launcher, you can quite simply unpin it. This does not remove any data, and it does not cancel your subscription.  

@@ -32,14 +32,14 @@ Concerning discounts, you can set up and use two types of sales discounts:
 Because sales prices and sales line discounts are based on a combination of item and customer, you can also perform this configuration from the item card of the item where the rules and values apply.
 
 ## To set up a sales price for a customer
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Customers**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.
 2. Open the relevant customer card, and then choose the **Prices** action.
 
     The **Sales Type** field is prefilled with **Customer**, and the **Sales Code** field is prefilled with the customer number.
 3. Fill in the fields on the line as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fill a line for each combination that will grant a special sales price to the customer.
 
 ## To set up a sales line discount for a customer
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Customers**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.
 2. Open the relevant customer card, and then choose the **Line Discounts** action.
 
     The **Sales Type** field is prefilled with **Customer**, and the **Sales Code** field is prefilled with the customer number.
@@ -48,11 +48,12 @@ Because sales prices and sales line discounts are based on a combination of item
 ## To set up an invoice discount for a customer
 When you have decided which customers are eligible for invoice discounts, enter the invoice discount code on the customer cards and set up the terms for each code.
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Customers**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.
 2. Open the customer card for a customer that will be eligible for invoice discounts.
 3. In the **Invoice Disc. Code** field, select a code for the relevant invoice discount terms to use to calculate invoice discounts for the customer.
 
-    **Note**: Invoice discount codes are represented by existing customer cards. This enables you to quickly assign invoice discount terms to customers by picking the name of another customer who will have the same terms.
+    > [!NOTE]  
+>   Invoice discount codes are represented by existing customer cards. This enables you to quickly assign invoice discount terms to customers by picking the name of another customer who will have the same terms.
 
     Proceed to set up new the sales invoice discount terms.
 4. In the **Customer Card** window, choose the **Invoice Discounts** action. The **Cust. Invoice Discounts** window opens.
@@ -68,7 +69,8 @@ When you have recorded special prices and line discounts for sales and purchases
 
 The best price is the lowest permissible price with the highest permissible line discount on a given date. [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically calculates this when it inserts the unit price and the line discount percentage for items on new document and journal lines.
 
-**Note**: The following describes how the best price is calculated for sales. The calculation is the same for purchases.
+> [!NOTE]  
+>   The following describes how the best price is calculated for sales. The calculation is the same for purchases.
 
 1. [!INCLUDE[d365fin](includes/d365fin_md.md)] checks the combination of the bill-to customer and the item and then calculates the applicable unit price and line discount percentage, using the following criteria:
 

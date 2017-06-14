@@ -18,7 +18,8 @@ ms.author: sgroespe
 # User Personalization
 You can change how certain UI elements are displayed in your version of [!INCLUDE[d365fin](includes/d365fin_md.md)] to best serve your needs.
 
-**Note**: Personalizations apply to your user account only. Other users do not see them.
+> [!NOTE]  
+>   Personalizations apply to your user account only. Other users do not see them.
 
 ## To add or remove a column
 On lists and document lines, not all available column information is displayed by default. You can add or remove columns with the **Choose Columns** function.

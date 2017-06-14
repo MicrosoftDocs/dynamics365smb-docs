@@ -56,7 +56,8 @@ The **Cash Flow Forecast** chart uses cash flow accounts, cash flow setups, and 
 
 Cash flow forecasts can use Cortana Intelligence to include documents with a due date in the future. The result is a more comprehensive prediction. The connection to Cortana Intelligence is already set up for you. You just need to turn it on. When you sign in to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], a notification displays in a blue bar, and provides a link to the default cash flow setup. The notification displays only once. If you close it, but decide to turn on Cortana Intelligence, you can use the assisted setup guide, or a manual process.  
 
-**Note:** Alternatively, you can use your own predictive web service. For more information, see [Create and use your own predictive web service for cash flow forecasts](#AnchorText).  
+> [!NOTE]  
+>   Alternatively, you can use your own predictive web service. For more information, see [Create and use your own predictive web service for cash flow forecasts](#AnchorText).  
 
 To use the assisted setup guide:  
 
@@ -70,7 +71,8 @@ To use a manual process:
 2. Expand the **Cortana Intelligence** FastTab, and then choose the **Cortana Intelligence Enabled** check box.  
 3. On the Home page, choose **Cash Flow Forecast** above the chart, and then **Recalculate Forecast**.  
 
-**Tip:** Consider the length of the periods that the service will use in its calculations. The more data you provide, the more accurate the predictions will be. Also, watch out for large variances in periods. They will also impact predictions. If Cortana Intelligence does not find enough data, or the data varies a lot, the service will not make a prediction.  
+> [!TIP]  
+>   Consider the length of the periods that the service will use in its calculations. The more data you provide, the more accurate the predictions will be. Also, watch out for large variances in periods. They will also impact predictions. If Cortana Intelligence does not find enough data, or the data varies a lot, the service will not make a prediction.  
 
 ## <a name="AnchorText"> </a>Create and use your own predictive web service for cash flow forecasts
 You can also create your own predictive web service based on a public model named **Forecasting model for Microsoft Dynamics 365 for Financials**. This predictive model is available online in the Cortana Intelligence Gallery. To use the model, follow these steps:  
@@ -80,7 +82,7 @@ You can also create your own predictive web service based on a public model name
 3. Use your Microsoft account to sign up for a workspace, and then copy the model.  
 4. Run the model, and publish it as a web service.  
 5. Make a note of the API URL and API key. You will use these credentials for a cash flow setup.  
-6. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Cash Flow Setup**, and then choose the related link.  
+6. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cash Flow Setup**, and then choose the related link.  
 7. Expand the **Cortana Intelligence** FastTab, and then fill in the fields.  
 
 ## See Also

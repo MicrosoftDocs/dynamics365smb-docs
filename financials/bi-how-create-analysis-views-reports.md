@@ -1,5 +1,5 @@
 ---
-title: Create Analysis Views| Microsoft Docs
+title: Create Analysis Reports| Microsoft Docs
 description: Describes how to create new analysis reports for sales, purchases, and inventory, and set up analysis templates.
 services: project-madeira
 documentationcenter: ''
@@ -11,11 +11,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 06/01/2017
+ms.date: 06/14/2017
 ms.author: sgroespe
 
 ---
-#  How to: Create Analysis Views and Reports
+#  How to: Create Analysis Reports
 Sales managers need to analyze turnover, gross profit and other key sales performance indicators on a regular basis. Purchasers, are more interested in the dynamics of purchase volumes, vendors' performance and purchase prices. Whereas logistics/inventory managers need information on inventory turnover, analysis of inventory movement, and statistics on inventory value.  
 
 You can use analysis reports to create customized reports based on records of your posted transactions, for example, sales, purchases, transfers and inventory adjustments. In a customizable report, the source data, which is derived from the item ledger (with associated value entries), can be combined, compared and presented in meaningful user-defined ways. In this sense, the analysis report is very similar to a PivotTable report in Microsoft Excel.  
@@ -23,6 +23,8 @@ You can use analysis reports to create customized reports based on records of yo
 You can create your personalized report that focuses on your key accounts in terms of total turnover both in amounts and quantities sold, gross profit and gross profit percentage during the current month, and have it compare those figures with the results from previous months or the same month last year, and calculate deviations. All this can be done in one and the same view, with the possibility to navigate to the cause of identified problem areas by choosing the drop-down button to access details on the level of individual transactions.  
 
 The analysis report consists of the objects that you want to analyze, such as customers, customer groups, sales people and so on, represented as lines, and the analysis parameters, that is, the way you want to analyze the object, represented as columns, such as profit calculations, periodic comparisons of sales amounts and volumes or periodic comparisons of actual and budgeted figures.
+
+In addition to analysis reports, you can create and view similar information in analysis views, which are based on dimensions. For more information, see [How to: Analyze Data by Dimensions](bi-how-analyze-data-dimension.md).
 
 ## Example  
 You can set up lines like these:  
@@ -73,7 +75,7 @@ A template contains a set of lines each representing the analysis columns that y
 5.  Choose the **OK** button to save your changes.  
 
 ## To set up analysis line templates  
-The following procedure is based on analysis views for sales. The steps are similar for purchase and inventory analysis views.
+The following procedure is based on analysis reports for sales. The steps are similar for purchase and inventory analysis reports.
 
 In an analysis report your analysis objects are shown on the lines. You can define the lines that you want to include in your analysis report by setting up analysis line templates.  
 
@@ -88,7 +90,7 @@ A template contains a set of lines representing the analysis lines that you see 
 >   Alternatively, when you want to create many individual lines for each item, customer, and so on, you can select the appropriate insert option to fill in all the relevant fields on the line. If you need to, you can then edit the lines manually. To insert lines, choose the **Insert Items** action or the **Insert Item Groups** action.  
 
 ## To create a new sales analysis report
-The following procedure is based on analysis views for sales. The steps are similar for purchase and inventory analysis views.
+The following procedure is based on analysis reports for sales. The steps are similar for purchase and inventory analysis reports.
 
 You use analysis reports to analyze the dynamics of your sales according to key sales performance indicators that you select, for example, sales turnover in both amounts and quantities, contribution margin, or progress of actual sales against the budget. You can also use the report to analyze your average sales prices and evaluate the sales performance of your sales force.  
 

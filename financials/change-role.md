@@ -1,6 +1,6 @@
 ---
-title: 'How to: Change the Role Center | Microsoft Docs'
-description: Describes how you can change the current role center.
+title: Change the Role Center| Microsoft Docs
+description: You can select a different profile in Financials to change what you see on your Home page.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -11,8 +11,8 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Profile
-ms.date: 03/23/2017
-ms.author: jswymer
+ms.date: 06/02/2017
+ms.author: solsen
 
 ---
 # How to: Change the Role Center

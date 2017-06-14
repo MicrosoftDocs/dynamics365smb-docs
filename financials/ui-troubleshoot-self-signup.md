@@ -1,6 +1,6 @@
 ---
-title: Troubleshooting Self-Service Sign-Up | Microsoft Docs
-description: Troubleshoot Azure AD issues when signing up.
+title: Ways to Troubleshoot or Work Around Issues with Self-Service Sign-Up | Microsoft Docs
+description: Learn about the most common reasons why you may not be able to complete the signup to Dynamics 365 for Financials, and ways to work around them.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 06/02/2017
 ms.author: solsen
 
 ---

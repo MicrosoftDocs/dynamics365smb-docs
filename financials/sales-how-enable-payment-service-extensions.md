@@ -1,17 +1,16 @@
 ---
-title: 'How to: Enable Customer Payments Through Payment Services.| Microsoft Docs'
-description: 'Make it easier for customers to pay their invoices by enabling payment services.'
+title: Enable Customer Payments Through Payment Services| Microsoft Docs
+description: Make it easier for customers to pay their invoices by enabling payment services.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-
 ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online payment
-ms.date: 04/24/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 
 ---
@@ -23,7 +22,7 @@ After you enable a payment service in [!INCLUDE[d365fin](includes/d365fin_md.md)
 The PayPal Payments Standard and WorldPay Payments Standard extensions are installed in [!INCLUDE[d365fin](includes/d365fin_md.md)], and are ready for you to enable.  
 
 ## To enable a payment service in [!INCLUDE[d365fin](includes/d365fin_md.md)]
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Payment Services**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Services**, and then choose the related link.  
 2. In the **Payment Services** window, choose the **New** action.  
 3. Select the payment service, and then close the window.  
 4. In the **Payment Services** window, choose the **Setup** action.  
@@ -35,7 +34,8 @@ The PayPal Payments Standard and WorldPay Payments Standard extensions are insta
 2. Open the sales invoice that you want to pay by using the payment service.  
 3. In the **Payment Service** field, choose the payment service.  
   
-    **Note**: The **Payment Service** field is available only if you've enabled the payment service.  
+    > [!NOTE]  
+>   The **Payment Service** field is available only if you've enabled the payment service.  
 
 ## See Also  
 [Setting Up Sales](sales-setup-sales.md)  

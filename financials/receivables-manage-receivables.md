@@ -1,6 +1,6 @@
 ---
-title: Managing Receivables| Microsoft Docs
-description: Managing Receivables
+title: Overview of Tasks to Manage Receivables | Microsoft Docs
+description: Outlines tasks to manage receivables and apply payments to customer or vendor ledger entries.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
-ms.date: 03/29/2017
+ms.date: 06/01/2017
 ms.author: sgroespe
 
 ---
@@ -36,7 +36,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | Apply payments to open customer ledger entries based on manual entry in a list of unpaid sales documents. |[How to: Reconcile Customer Payments Manually From a List of Unpaid Sales Documents](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md) |
 | Post cash receipts or refunds for customers in the cash receipt journal and apply to customer ledger entries, either from the journal or from posted ledger entries. |[How to: Reconcile Customer Payments Manually](receivables-how-apply-sales-transactions-manually.md) |
 | Remind customers of overdue amounts, calculate interest and finance charges, and manage accounts receivable. |[How to: Collect Outstanding Balances](receivables-collect-outstanding-balances.md) |
-
+|Ensure that you know the cost of shipped items by assigning added item costs, such as freight, physical handling, insurance, and transportation that you incur after selling.|[How to: Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)|
 ## See Also
 [Sales](sales-manage-sales.md)  
 [Managing Payables](payables-manage-payables.md)  

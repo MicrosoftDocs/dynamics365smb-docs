@@ -1,6 +1,6 @@
 ---
-title: 'How to: Get an Availability Overview| Microsoft Docs'
-description: Describes how to view the availability of items across locations, per sales or purchase events, by a time period, or by the item's position on an assembly BOM.
+title: Get an Availability Overview| Microsoft Docs
+description: You can get information about the availability of items or stock across locations, per sales or purchase events, by a time period, or by the item's position on an assembly BOM.
 documentationcenter: ''
 author: SorenGP
 
@@ -10,30 +10,33 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: SorenGP
 
 ---
-# How to: Get an Availability Overview
+# How to: View the Availability of Items
 From the context of a business task, you can get advanced information about when and where an item is available, such as when talking to a customer about a delivery date.
 
 You can view the availability of all items per location, and you can view the availability of each item by event, by period, or by location. An event is any scheduled item transaction, such as a sales shipment or an inbound transfer receipt.
 
-**Note**: Availability views by location require that you maintain inventory at more than one location. For more information, see [How to: Set Up Locations](inventory-how-setup-locations.md).
+> [!NOTE]  
+>   Availability views by location require that you maintain inventory at more than one location. For more information, see [How to: Set Up Locations](inventory-how-setup-locations.md).
 
 In [Using [!INCLUDE[d365fin](includes/d365fin_md.md)], availability figures are shown in two different fields, each with a different definition:
 
 * The **Quantity on Hand** field shows the actual quantity today according to posted item ledger entries.
 * The **Projected Available Balance** field is calculated and shows the quantity on hand plus scheduled receipts minus gross requirements. (In [Using [!INCLUDE[d365fin](includes/d365fin_md.md)], scheduled receipts include quantities on purchase orders and inbound transfer orders. Gross requirements include quantities on sales orders and outbound transfer orders.)
 
-**Tip**: The projected available balance is especially relevant to view in the **Item Availability by Periods** and **Item Availability by Event** windows as they contain the date dimension.  
+> [!TIP]  
+>   The projected available balance is especially relevant to view in the **Item Availability by Periods** and **Item Availability by Event** windows as they contain the date dimension.  
 
-**Note**: The following procedures describe how to view advanced availability information from the items list and item card. You can also access the information from sales document lines, for the item on the line. For more information, see [How to: Sell Products](sales-how-sell-products.md).
+> [!NOTE]  
+>   The following procedures describe how to view advanced availability information from the items list and item card. You can also access the information from sales document lines, for the item on the line. For more information, see [How to: Sell Products](sales-how-sell-products.md).
 
 ## To view the availability of an item according to when it will be received or shipped
 You view the availability of an item according to scheduled item transactions in the **Availability by Event** window.
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Items**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.
 2. Open the card of an item that you want to view availability for.
 3. Choose the **Item Availability by** action, and then choose the **Event** action.
 
@@ -43,7 +46,7 @@ You view the availability of an item according to scheduled item transactions in
 ## To view the availability of an item in different periods
 You view the availability of an item over time for specified time periods in the **Item Availability by Periods** window.
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Items**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.
 2. Open the card of an item that you want to view availability for.
 3. Choose the **Item Availability by** action, and then choose the **Period** action.
 
@@ -53,7 +56,7 @@ You view the availability of an item over time for specified time periods in the
 ## To view the availability of an item at the locations where it is stored
 You view the availability of an item at the different places where it is stored in the **Item Availability by Location** window.
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Items**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.
 2. Open the card of an item that you want to view availability for.
 3. Choose the **Item Availability by** action, and then choose the **Location** action.
 
@@ -64,7 +67,7 @@ You view the availability of an item at the different places where it is stored 
 ## To view the availability of all items by the location where they are stored
 You view the availability of all your items across all your locations in the **Items by Location** window.
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Items**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.
 2. Choose the **Items by Location** action.
 
     The **Items by Location** window shows for all your items how many are available at each location.
@@ -84,7 +87,8 @@ On each line in the window for both parent items and child items, the following 
 
 The **Item Availability by BOM Level** window shows information for the item on the card or document line that the window is opened for. The item is always shown on the top line. You can view information for other items or for all items by changing the value in the **Item Filter** field.
 
-**Note**: By default, availability figures on the lines show the total availability of all items under the top item. These figures are displayed in the **Available Quantity** field, and the focus is on the top item. However, information about how many subassemblies you can make may be skewed. To get a true indication of how many of the shown subassemblies you can make, you must clear the **Show Total Availability** chack box and then see the figure in the **Able to Make Parent** field.
+> [!NOTE]  
+>   By default, availability figures on the lines show the total availability of all items under the top item. These figures are displayed in the **Available Quantity** field, and the focus is on the top item. However, information about how many subassemblies you can make may be skewed. To get a true indication of how many of the shown subassemblies you can make, you must clear the **Show Total Availability** chack box and then see the figure in the **Able to Make Parent** field.
 
 The **Bottleneck** field specifies which item in the BOM structure restricts you from making a larger quantity than the quantity that is shown in the **Able to Make Top Item** field. For example, the bottleneck item can be a purchased component with an expected receipt date that is too late to make additional units of the top item by the date in the **Needed by Date** field.
 

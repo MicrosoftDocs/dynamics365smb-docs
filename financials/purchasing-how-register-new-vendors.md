@@ -1,6 +1,6 @@
 ---
-title: 'How to: Register New Vendors| Microsoft Docs'
-description: Learn how to add vendors to your Financials.
+title: Create a Vendor Card to Register a New Vendor | Microsoft Docs
+description: Learn how to create a vendor card to register a new vendor or supplier.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -22,7 +22,8 @@ Before you can register new vendors, you must set up various purchase codes that
 
 Vendor cards hold the information that is required to buy products from the vendor. For more information, see [How to: Record Purchases](purchasing-how-record-purchases.md) and [How to: Register New Items](inventory-how-register-new-items.md).
 
-**Note**: If vendor templates exist for different vendor types, then a window appears when you create a new vendor card from where you can select an appropriate template. If only one vendor template exists, then new vendor cards always use that template.
+> [!NOTE]  
+>   If vendor templates exist for different vendor types, then a window appears when you create a new vendor card from where you can select an appropriate template. If only one vendor template exists, then new vendor cards always use that template.
 
 ## To create a new vendor card
 1. On the Home page, choose **Vendors** to open the list of existing vendors.  

@@ -1,6 +1,6 @@
 ---
-title: Post Documents and Journals | Microsoft Docs
-description: Provides an introduction to the different ways you can post.
+title: Overview of Posting Documents and Journals | Microsoft Docs
+description: Outlines posting actions and the ways you can post documents and journals.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 05/12/2017
 ms.author: solsen
 
 ---

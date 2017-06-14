@@ -1,6 +1,6 @@
 ---
-title: Make Payments| Microsoft Docs
-description: Make Payments
+title: Overview of Tasks to Manage Payments to Vendors| Microsoft Docs
+description: Outlines tasks to manage payments to vendors or creditors, including posting payment lines and getting an overview of the balance due.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 
 ---

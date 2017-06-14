@@ -1,6 +1,6 @@
 ---
-title: 'How to: Register New Items| Microsoft Docs'
-description: 'Create cards for new physical products, that you sell from inventory in e.g. pieces, or for services, that you sell as hours.'
+title: Create Item Cards for Goods or Services| Microsoft Docs
+description: You create item cards for services that you sell as hours and for physical products, such as assembly items, finished goods, components, or raw material, that you sell from your inventory.
 documentationcenter: ''
 author: SorenGP
 
@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: item, finished good, component, raw material, assembly item 
-ms.date: 03/28/2017
+ms.search.keywords: item, finished good, component, raw material, assembly item
+ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---
 # How to: Register New Items
-items, among other products, are the basis of your business, the goods or services that you trade in. Each item must be registered as an item card.
+Items, among other products, are the basis of your business, the goods or services that you trade in. Each item must be registered as an item card.
 
 Item cards hold the information that is required to buy, store, sell, deliver, and account for items.
 
@@ -23,7 +23,8 @@ The item card can be of type **Inventory** or **Service** to specify if the item
 
 An item can be structured as a parent item with underlying child items in a bill of materials (BOM). In [!INCLUDE[d365fin](includes/d365fin_md.md)], a bill of materials is referred to as an assembly BOM. You use assembly BOMs to structure parent items that you sell as kits consisting of the parent's components or that you assemble to order or to stock. For more information, see [How to: Work with Bills of Materials](inventory-how-work-BOMs.md).
 
-**Note**: If item templates exist for different item types, then a window appears when you create a new item card from where you can select an appropriate template. If only one item template exists, then new item cards always use that template.
+> [!NOTE]  
+>   If item templates exist for different item types, then a window appears when you create a new item card from where you can select an appropriate template. If only one item template exists, then new item cards always use that template.
 
 ## To create a new item card
 1. On the Home page, choose the **Items** action to open the list of existing items.  

@@ -26,18 +26,21 @@ Consumers and businesses pay value added tax (VAT) when they purchase goods or s
   
 You can set up VAT calculations manually, but that can be tricky and time consuming. To make it easy, we've provided an assisted setup guide named **VAT Setup** that will help you with the steps. We recommend that you use the assisted setup guide to set up VAT.
 
-**Note**: You can use the guide only if you've created a My Company, and have not posted transactions that include VAT. Otherwise, it would be very easy to use different VAT rates by mistake, and make VAT-related reports inaccurate.  
+> [!NOTE]  
+>   You can use the guide only if you've created a My Company, and have not posted transactions that include VAT. Otherwise, it would be very easy to use different VAT rates by mistake, and make VAT-related reports inaccurate.  
   
 If you want to set up VAT calculations yourself, or just want to learn about each step, this topic contains descriptions of each step. These include how to:  
   
 * Set up VAT business posting groups to define VAT rates for the markets you do business in. You'll assign these to customers and vendors.  
 * Set up VAT product posting groups to define VAT rates for the products and services you buy or sell.  
   
-   **Note**: The concepts behind VAT business and product posting groups are similar to general posting groups. For more information, see [Posting Group Setups](finance-posting-groups.md).
+   > [!NOTE]  
+>   The concepts behind VAT business and product posting groups are similar to general posting groups. For more information, see [Posting Group Setups](finance-posting-groups.md).
 * Combine VAT business and product posting groups to create VAT setups that calculate VAT amounts on sales and purchases.  
 * Assign VAT product posting groups to the general ledger accounts you use for sales and purchases, and items, and resources.  
 
-   **Note**: To set up VAT for resources, you must enable the **Suite** user experience for your company. For more information, see [Customizing Your Dynamics 365 for Financials Experience](ui-experiences.md).
+   > [!NOTE]  
+>   To set up VAT for resources, you must enable the **Suite** user experience for your company. For more information, see [Customizing Your Dynamics 365 for Financials Experience](ui-experiences.md).
 * Use reverse charge VAT for trade between EU countries/regions  
 * Understand VAT rounding for documents  
 * Set up clauses to explain the use of non-standard VAT rates
@@ -47,7 +50,7 @@ If you want to set up VAT calculations yourself, or just want to learn about eac
 We recommend that you use the VAT Setup assisted setup guide to set up VAT in [!INCLUDE[d365fin](includes/d365fin_md.md)]. 
 
 To start the assisted setup guide, follow these steps:
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Assisted Setup**.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Assisted Setup**.  
 2. Choose **VAT Setup**.
 
 ## Set up VAT business posting groups
@@ -57,7 +60,7 @@ Use codes that are easy to remember and describe the business posting group, suc
   
 To set up a VAT business posting group, follow these steps:
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **VAT Business Posting Group**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Business Posting Group**, and then choose the related link.  
 2. Fill in the fields as necessary.
 
 You set up default VAT business posting groups by linking them to general business posting groups. [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically assigns the VAT business posting group when you assign the business posting group to a customer, vendor, or general ledger account. 
@@ -68,7 +71,7 @@ It's a good idea to use codes that are easy to remember and describe the rate, s
 
 To set up a VAT business posting group, follow these steps:
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **VAT Product Posting Groups**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Product Posting Groups**, and then choose the related link.  
 2. Fill in the fields as necessary.
 
 ## Combine VAT posting groups in VAT posting setups
@@ -78,7 +81,7 @@ Set up as many combinations as you need. If you want to group VAT posting setup 
 
 To combine VAT posting setups, follow these steps:
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **VAT Posting Setup**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Posting Setup**, and then choose the related link.
 2. Fill in the fields as necessary.
 
 ## Assign VAT posting groups by default to multiple entities
@@ -93,18 +96,18 @@ The VAT business or product posting group is assigned when you choose a business
 The following sections describe how to assign VAT posting groups to individual entities.
 
 ### To assign VAT posting groups to individual general ledger accounts 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Chart of Accounts**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Chart of Accounts**, and then choose the related link.  
 2. Open the **G/L Account** card for the account.
 3. On the **Posting** FastTab, in the **Gen. Posting Type** field, choose either **Sale** or **Purchase**.  
 5. Choose the VAT posting groups to use for the sales or purchase account.  
 
 ### To assign VAT business posting groups to customers and vendors  
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Customer** or **Vendor**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customer** or **Vendor**, and then choose the related link.  
 2. On the **Customer** or **Vendor** card, expand the **Invoicing** FastTab.  
 3. Choose the VAT business posting group.  
 
 ### To assign VAT product posting groups to individual items and resources  
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Item** or **Resource**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item** or **Resource**, and then choose the related link.  
 2. Do one of the following:
 * On the **Item** card, expand the **Price & Posting** FastTab, and then choose **Show more** to display the .  
 * On the **Resource** card, expand the **Invoicing** FastTab.  
@@ -116,7 +119,7 @@ You set up a VAT clause to describe information about the type of VAT that is be
 If needed, you can also specify how to translate VAT clauses to other languages. Then, when you create and print a sales document that contains a VAT identifier, the document will include the translated VAT clause. The language code specified on the Customer card determines the language.
   
 ### To set up VAT clauses
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **VAT Clauses**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Clauses**, and then choose the related link.  
 2. On the **VAT Clauses** page, create a new line.  
 3. In the **Code** field, enter an identifier for the clause. You use this code to assign the clause to VAT posting groups.  
 4. In the **Description** field, enter the text that you want to display on documents that can include VAT. In the **Description 2** field, enter additional text, if needed. The text displays on new lines.  
@@ -124,11 +127,11 @@ If needed, you can also specify how to translate VAT clauses to other languages.
 6. Optional: To specify how to translate the VAT clause, choose the **Translations** action.
 
 ### To assign a VAT clause to a VAT posting setup
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **VAT Posting Setup**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Posting Setup**, and then choose the related link.  
 2. In the **VAT Clause** column, choose the clause to use for each VAT posting setup it applies to.  
 
 ### To specify translations for VAT clauses
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **VAT Clauses**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Clauses**, and then choose the related link.  
 2. Choose the **Translations** action.  
 3. In the **Language Code** field, choose the language you're translating to.  
 4. In the **Description** and **Description 2** fields, enter the translations of the descriptions. This text displays in the translated VAT report documents.  
@@ -137,9 +140,9 @@ If needed, you can also specify how to translate VAT clauses to other languages.
 You use the Import VAT feature when you need to post a document where the entire amount is VAT. You'll use this if you receive an invoice from the tax authorities for VAT for imported goods.  
   
 To set up codes for import VAT, follow these steps:  
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **VAT Product Posting Groups**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Product Posting Groups**, and then choose the related link.  
 2. On the VAT Product Posting Groups page, set up a new VAT product posting group for import VAT.  
-3. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **VAT Posting Setup**, and then choose the related link.  
+3. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Posting Setup**, and then choose the related link.  
 4. On the VAT Posting Setup page, create a new line, or use an existing VAT business posting groups in combination with the new VAT product posting group for import VAT.  
 5. In the **VAT Calculation Type** field, choose **Full VAT**.  
 6. In the **Purchase VAT Account** field, enter the general ledger account to use for posting import VAT. All other accounts are optional.  
@@ -163,9 +166,11 @@ Our service can also save you a little time when you're creating a customer or v
 ## Using reverse charge VAT for trade between EU countries or regions
 Some companies must use reverse charge VAT when trading with other companies. For example this rule applies to purchases from EU countries/regions and sales to EU countries/regions.
 
-**Note**: This rule applies when trading with companies that are registered as VAT liable in another EU country/region. If you do business directly with consumers in other EU countries/regions, then you should contact your tax authority for applicable VAT rules.  
+> [!NOTE]  
+>   This rule applies when trading with companies that are registered as VAT liable in another EU country/region. If you do business directly with consumers in other EU countries/regions, then you should contact your tax authority for applicable VAT rules.  
 
-**Tip**: You can verify that a company is registered as VAT liable in another EU country by using the EU VAT Registration Number Validation service. The service is available for free in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see the section titled _Verify VAT registration numbers_ in this topic.
+> [!TIP]  
+>   You can verify that a company is registered as VAT liable in another EU country by using the EU VAT Registration Number Validation service. The service is available for free in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see the section titled _Verify VAT registration numbers_ in this topic.
 
 ### Sales to EU countries or regions
 VAT is not calculated on sales to VAT-liable companies in other EU countries/regions. You must report the value of these sales to EU countries/regions separately on your VAT statement.

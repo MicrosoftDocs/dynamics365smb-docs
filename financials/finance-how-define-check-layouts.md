@@ -1,6 +1,6 @@
 ---
-title: 'How to: Define Check Layouts| Microsoft Docs'
-description: Learn about the check layouts that are available in Financials.
+title: Specify the Layout of a Check| Microsoft Docs
+description: You can design and print your checks in different formats to conform with standards.
 services: project-madeira
 documentationcenter: ''
 author: edupont04
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
-ms.date: 03/24/2017
+ms.date: 06/02/2017
 ms.author: edupont
 
 ---
@@ -21,7 +21,7 @@ You can design your checks to conform with the standards set by the local author
 Checks are designed to print in both the United States and Canadian check image formats in either a check-stub-check format or a stub-stub-check format.
 
 ## To define check layouts
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Report Selections Bank Account**, and choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Report Selections Bank Account**, and choose the related link.
 2. In the **Report Selection - Bank Acc.** window, in the **Usage** field, select **Check**.
 3. Select one of the following report IDs.
 

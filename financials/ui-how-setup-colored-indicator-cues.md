@@ -1,6 +1,6 @@
 ---
-title: 'How to: Set Up a Colored Indicator on Cues | Microsoft Docs'
-description: Learn how to use colored indicators on Cues in your role center.
+title: Specify Colored Indicators to Customize Visual Signals About a Cue's Activity | Microsoft Docs
+description: Set up a colored indicator on a Cue tile to provide a personalized visual signal of the Cue’s activity.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen

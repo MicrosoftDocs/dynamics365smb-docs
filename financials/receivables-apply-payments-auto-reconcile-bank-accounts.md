@@ -1,6 +1,6 @@
 ---
-title: Apply Payments Automatically and Reconcile Bank Accounts| Microsoft Docs
-description: Apply Payments Automatically and Reconcile Bank Accounts
+title: Tasks to Reconcile Bank Accounts and Apply Payments to Related Entries | Microsoft Docs
+description: Outlines tasks to reconcile your bank, receivables, and payables accounts, post cash receipts or expenses, and apply payments automatically.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP

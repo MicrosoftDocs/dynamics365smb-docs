@@ -32,10 +32,7 @@ The more dimensions you use, the more detailed reports you can base your busines
 >   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 
 ## Analyzing by Dimensions
-The Dimensions functionality plays an important role in business intelligence, such as when defining analysis views and creating account schedules for reporting. For more information, see [Business Intelligence](bi.md).   
-
-> [!TIP]
-> When you analyze transactional data, you can filter totals in the chart of accounts and entries in all **Entries** windows by dimensions. Look for the **Set Dimension Filter** action.  
+The Dimensions functionality plays an important role in business intelligence, such as when defining analysis views. For more information, see [How to: Analyze Data by Dimensions](bi-how-analyze-data-dimension.md).
 
 ## Dimension Sets
 A dimension set is a unique combination of dimension values. It is stored as dimension set entries in the database. Each dimension set entry represents a single dimension value. The dimension set is identified by a common dimension set ID that is assigned to each dimension set entry that belongs to the dimension set.  

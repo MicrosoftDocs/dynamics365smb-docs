@@ -17,7 +17,8 @@ ms.author: sgroespe
 # Working with General Journals
 You use general journals to post financial transactions to general ledger accounts and other accounts, such as bank, customer, and vendor accounts. Posting with a general journal always creates entries on general ledger accounts. This is true even when, for example, you post a journal line to a customer account, because an entry is posted to a general ledger receivables account through a posting group.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] also has non-financial journals, such as the Item Journal and the Physical Inventory Journal, but these journals are not visible in the user interface.
+> [!NOTE]  
+>   The **Payment Journal** window is based on the general journal, but is adapted to the purpose of posting payments to vendors or employees. For more information, see [Make Payments](payables-make-payments.md). The same applies to the **Cash Receipt Journal** window, which is adapted to posting incoming payments. For more information, see [How to: Reconcile Customer Payments Manually](receivables-how-apply-sales-transactions-manually.md).
 
 The information that you enter in a journal is temporary and can be changed while it is in the journal. When you post the journal, the information is transferred to entries on individual accounts, where it cannot be changed. You can, however, unapply posted entries, and you can post reversing or correcting entries.
 

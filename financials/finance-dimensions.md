@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 06/02/2017
+ms.date: 06/14/2017
 ms.author: bholtorf
 
 ---
@@ -30,6 +30,12 @@ The more dimensions you use, the more detailed reports you can base your busines
 
 > [!NOTE]  
 >   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
+
+## Analyzing by Dimensions
+The Dimensions functionality plays an important role in business intelligence, such as when defining analysis views and creating account schedules for reporting. For more information, see [Business Intelligence](bi.md).   
+
+> [!TIP]
+> When you analyze transactional data, you can filter totals in the chart of accounts and entries in all **Entries** windows by dimensions. Look for the **Set Dimension Filter** action.  
 
 ## Dimension Sets
 A dimension set is a unique combination of dimension values. It is stored as dimension set entries in the database. Each dimension set entry represents a single dimension value. The dimension set is identified by a common dimension set ID that is assigned to each dimension set entry that belongs to the dimension set.  
@@ -99,7 +105,7 @@ In a document such as a sales order, you can add dimension information for both 
 
 If you work in a journal instead, you can add dimension information to an entry in the same way, if you have set up shortcut dimensions as fields directly on journal lines.  
 
-You can set up default dimensions for accounts or account types, so that dimensions and dimension values are filled in automatically.  
+You can set up default dimensions for accounts or account types, so that dimensions and dimension values are filled in automatically.
 
 ## See Also
 [Business Intelligence](bi.md)  

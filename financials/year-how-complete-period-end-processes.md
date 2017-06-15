@@ -26,7 +26,7 @@ ms.author: jswymer
 * Update and post Recurring Journals.  
   <!--* Process Consolidations-->
 * Run account schedules as follows:  
-  * Open the **Account Schedule** window, and choose the **Print** action.  
+  * Open the **Account Schedule** window, and then choose the **Print** action.  
 
 ## Sales and Receivables
 * Post all sales orders, invoices, credit memos, and return orders.  

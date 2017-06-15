@@ -42,7 +42,7 @@ The biggest part of the migration process is to specify the accounts to migrate 
 
 It's a good idea to plan this mapping before you migrate data.
 
-Also, we migrate only full amounts on sales and purchase documents. We do not update partially paid amounts. For example, if customer has paid 300 of a total of 500 on a sales invoice, we migrate the full 500. If you have received partial payments, you must update these manually, either before or after you migrate data. We recommend that you apply outstanding transactions before you migrate, just to make things easier afterward.
+Also, we migrate only full amounts on sales and purchase documents. We do not update partially paid amounts. For example, if a customer has paid 300 of a total of 500 dollars on a sales invoice, we migrate the full 500. If you have received partial payments, you must update these manually, either before or after you migrate data. We recommend that you apply outstanding transactions before you migrate, just to make things easier afterward.
 
 ## How do I start using the extension?
 Getting started is easy. All you need to do is run the **Data Migration** assisted setup guide. Here's how:

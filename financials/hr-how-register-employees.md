@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.date: 06/02/2017
+ms.date: 06/15/2017
 ms.author: SorenGP
 
 ---
@@ -21,6 +21,9 @@ To use the Human Resources functionality, you must first register each employee 
 You can modify an employee's details at any time. Keeping up-to-date records about your employees simplifies personnel tasks. For example, if an employee's address changes, you register this on the employee card.
 
 The following procedures describe how to create an initial employee card and how to assign two types of employee details to an employee. In addition, you can assign various other related information, such as qualifications and causes of inactivity. You assign employee information either by choosing a field or an action in the **Employee Card** window.
+
+> [!NOTE]  
+> You can reimburse employees for expenses that they incur on behalf of the company. For this purpose, you must fill in the bank account fields on the employee card. For more information, see [How to: Record and Reimburse Employees' Expenses](finance-record-employee-expense-and reimburse.md).
 
 ## To set up an employee
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Employees**, and then choose the related link.

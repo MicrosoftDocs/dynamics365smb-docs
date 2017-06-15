@@ -16,9 +16,9 @@ ms.author: sgroespe
 
 ---
 # How to: Reverse Journal Posting
-To undo an erroneous journal posting, select the entry and create a reverse entry (entries identical to the original entry but with opposite sign in the amount field) with the same document number and posting date as the original entry. After reversing an entry, you must make the correct entry.
+To undo an erroneous journal posting, you select the entry and create a reverse entry (entries identical to the original entry but with opposite sign in the amount field) with the same document number and posting date as the original entry. After reversing an entry, you must make the correct entry.
 
-You can only reverse entries posted from a general journal line. An entry can be reversed only once, either alone or as part of a whole register. After you have reversed an entry from a register, you can no longer reverse the whole register, but must reverse any other transactions individually.
+You can only reverse entries that are posted from a general journal line. An entry can only be reversed once.
 
 For more information about posting from a general journal, see [How to: Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md).
 

@@ -16,15 +16,15 @@ ms.author: sgroespe
 
 ---
 # How to: Record and Reimburse Employees' Expenses
-[!INCLUDE[d365fin](includes/d365fin_md.md)] supports financial transactions for employee in a similar way as for vendors. Accordingly, employee posting groups make sure that employee ledger entries are posted to dedicated employee G/L accounts.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] supports transactions for employee in a similar way as for vendors. Accordingly, employee posting groups exist to make sure that employee ledger entries are posted to the relevant accounts in the general ledger.
 
 > [!NOTE]  
-> Employee transactions can be posted in the local currency only. Payments to employees do not support discounts.
+> Employee transactions can be posted in the local currency only. Reimbursement payments to employees do not support discounts.
 
 If employees spend their own money during business activities, you can post the expense to the employee's account. Then you can reimburse the employee by making a payment to the employee's bank account, similarly to how you pay vendors.
 
 ## To record an employee's expense
-You post the employees' expense in the **General Journal** window.
+You post employees' expenses in the **General Journal** window.
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journals**, and then choose the related link.
 2. Open the relevant general journal batch. For more information, see [Working with General Journals](ui-work-general-journals.md).
 3. On a new journal line, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]    
@@ -35,7 +35,7 @@ You post the employees' expense in the **General Journal** window.
 5. Choose the **Post** action to record the expenses on the employee's account.
 
 ## To reimburse an employee
-To reimburse employees by posting payments in the **Payment Journal** window.
+You reimburse employees by posting payments to their bank account in the **Payment Journal** window.
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.
 2. Open the relevant payment journal batch. For more information, see [Working with General Journals](ui-work-general-journals.md).
 3. Fill in the fields as necessary. For more information, see [Making Payments](payables-make-payments.md).

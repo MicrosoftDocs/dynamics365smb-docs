@@ -69,7 +69,7 @@ When you have finished saving the standard item journal, the Item Journal window
 3. To review a standard item journal before you select it for reuse, choose the **Show Journal** action.
 
     Any changes you make in a standard item journal are implemented right away. They will be there next time you open or reuse the standard item journal in question. You should therefore be sure that the change is important enough to apply generally. Otherwise, make the specific change in the item journal after the standard item journal lines have been inserted. See step 4 below.
-4. In the **Standard Item Journals** window, select the standard item journal you want to reuse, and choose the **OK** button.
+4. In the **Standard Item Journals** window, select the standard item journal you want to reuse, and then choose the **OK** button.
 
     Now the item journal is filled with the lines you saved as the standard item journal. If journal lines already existed in the item journal, the inserted lines will be placed under the existing journal lines.
 

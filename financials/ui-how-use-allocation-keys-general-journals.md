@@ -37,7 +37,7 @@ You can allocate an entry in a general journal to several different accounts whe
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Recurring General Journal**, and then choose the related link.
 2. In the **Recurring General Journal** window, select the journal with the allocation.
 3. Choose the line with the allocation, and then choose **Allocations** action.
-4. Change the relevant fields, and choose the **OK** button.
+4. Change the relevant fields, and then choose the **OK** button.
 
 ## See Also
 [Working With General Journals](ui-work-general-journals.md)  

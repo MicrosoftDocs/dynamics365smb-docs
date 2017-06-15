@@ -1,8 +1,6 @@
 ---
 title: Financial Management| Microsoft Docs
 description: Learn about the tasks to set up finance in your business to suit all your accounting, auditing, or bookkeeping needs.
-services: project-madeira
-documentationcenter: ''
 author: edupont04
 
 ms.service: dynamics365-financials
@@ -11,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 06/02/2017
+ms.date: 06/14/2017
 ms.author: edupont
 
 ---
@@ -45,5 +43,6 @@ The following table describes a sequence of tasks, with links to the topics that
 [Importing from Other Finance Systems](upload-data.md)  
 [Working with General Journals](ui-work-general-journals.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Bulk Invoicing from Microsoft Bookings in Dynamics 365 for Financials](finance-bookings.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

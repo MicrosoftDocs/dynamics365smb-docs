@@ -133,7 +133,7 @@ The related document remains open.
 The related document is closed, and the customer is credited the excess payment amount.  
 
 ## To find a specific sales document that is not fully invoiced
-The **Payment Registration** window supports you in tasks needed to balance internal accounts with actual cash figures to ensure effective collection from customers and due payment to vendors. It shows outstanding incoming payments as lines that represent sales documents where an amount is due for payment.  
+The **Payment Registration** window supports you in tasks needed to balance internal accounts with actual cash figures to ensure effective collection from customers. It shows outstanding incoming payments as lines that represent sales documents where an amount is due for payment.  
 
 Typically, when a payment has been made, recorded in the bank or otherwise, the related sales or purchase document is represented as a line in the **Payment Registration** window because the document in question is waiting for the payment to be posted against the outstanding amount. However, sometimes a payment that has been made is not represented by a line in the **Payment Registration** window, typically because the document in question has not been fully invoice posted.
 

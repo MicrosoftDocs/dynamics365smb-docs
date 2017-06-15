@@ -18,13 +18,13 @@ ms.author: bholtorf
 # The Image Analyzer Extension for Microsoft Dynamics 365 for Financials
 The Image Analyzer extension uses powerful image analytics provided by the Computer Vision API for Microsoft Cognitive Services to detect attributes in the images that you add to items, so you can easily review and assign them. For example, attributes could be whether the item is a table or a car, and whether it is red or blue. 
   
-Image Analyzer suggests attributes based on tags that the Computer Vision API finds, and a confidence level. By default, it suggests attributes only if it's at least an 80% sure that the attribute is correct. If you need the attributes to be 100% exact, you can verify and adjust them yourself. To learn more about how the tags and confidence level are determined, see [Computer Vision API](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/). 
+Image Analyzer suggests attributes based on tags that the Computer Vision API finds, and a confidence level. By default, it suggests attributes only if it is at least an 80% sure that the attribute is correct. If you need the attributes to be 100% exact, you can verify and adjust them yourself. To learn more about how the tags and confidence level are determined, see [Computer Vision API](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/). 
 
 Image Analyzer is free in [!INCLUDE[d365fin](includes/d365fin_md.md)], but there is a limit to the number of items that you can analyze during a certain period of time. By default, you can analyze 100 images per month.
 
-After you enable the extension, Image Analyzer kicks in each time you add an image to an item. You'll see the attributes, confidence level, and details right away, and can decide what to do with each attribute. If you added images before you enabled the Image Analyzer extension, you'll need to go to the item cards and choose the **Analyze Picture** action.  
+After you enable the extension, Image Analyzer runs each time you add an image to an item. You will see the attributes, confidence level, and details right away, and can decide what to do with each attribute. If you added images before you enabled the Image Analyzer extension, you'll need to go to the item cards and choose the **Analyze Picture** action.  
 
-By enabling this extension you agree that Microsoft may store your image data and use it to improve Microsoft services, such as making the Computer Vision API better. To help protect your privacy, we take steps to make your data anonymous and keep it secure. We will not publish your data or let other people use it.
+By enabling this extension you agree that Microsoft may store your data and use it to improve Microsoft services, such as making the Computer Vision API better. To help protect your privacy, we take steps to make your data anonymous and keep it secure. We will not publish your data or let other people use it. You can remove the image from the item in [!INCLUDE[d365fin](includes/d365fin_md.md)], however, the Computer Vision API will still have the image in its de-identified form. For more information, see [Microsoft Trust Center](https://go.microsoft.com/fwlink/?linkid=851463).
 
 ## Requirements
 There are a few requirements for the images:
@@ -34,8 +34,7 @@ There are a few requirements for the images:
 * Image dimensions: Greater than 50 x 50 pixels
 
 ## Blacklisting suggested attributes
- 
-If the analysis suggests an attribute that you don't want to see you can blacklist the attribute. Use caution, however. Blacklisted attributes are not suggested for other items either. If you regret blacklisting an attribute, you can choose **Blacklisted Attributes**, and then delete the attribute from the list.
+If the analysis suggests an attribute that you do not want to see you can blacklist the attribute. Use caution, however. Blacklisted attributes are not suggested for other items either. If you regret blacklisting an attribute, you can choose **Blacklisted Attributes**, and then delete the attribute from the list.
 
 ## To enable Image Analyzer
 The Image Analyzer extension is built-in to [!INCLUDE[d365fin](includes/d365fin_md.md)]. You just need to turn it on.
@@ -76,5 +75,5 @@ You can view the number of analyses you've done, and how many you can still do, 
 
 ## See Also
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
-[Welcome to [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)
+[Welcome to [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 [How to: Work with Item Attributes](inventory-how-work-item-attributes.md)

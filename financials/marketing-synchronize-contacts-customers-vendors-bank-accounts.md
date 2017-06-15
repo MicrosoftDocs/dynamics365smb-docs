@@ -1,6 +1,6 @@
 ---
-title: Synchronizing Contacts With Customers, Vendors, and Bank Accounts | Microsoft Docs
-description: Describes synchronizing contacts with customers, vendors, and bank accounts in Financials
+title: Synchronize Contacts With Customers and Vendors| Microsoft Docs
+description: You couple or synchronize contact information of contacts who are also customers, vendors, or bank accounts, so you only update information in one place.
 services: project-madeira
 documentationcenter: ''
 author: edupont04
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, CRM, integration, couple
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: edupont
 
 ---
@@ -37,7 +37,8 @@ When the contact is synchronized with the customer, vendor, bank account:
 * If you delete a contact linked to a customer, vendor or bank account, only the contact is removed. The customer, vendor, or bank account remains.
 * If you delete a customer, vendor, bank account linked to a contact, the contact remains.
 
-**Note**: Some details, such as invoicing and posting details, do not appear on the contact card. Therefore, you may want to add them manually on the customer card, vendor card, or bank account card when you create contacts as customers, vendors or bank accounts.
+> [!NOTE]  
+>   Some details, such as invoicing and posting details, do not appear on the contact card. Therefore, you may want to add them manually on the customer card, vendor card, or bank account card when you create contacts as customers, vendors or bank accounts.
 
 ## See Also
 [Managing Contacts](marketing-contacts.md)  

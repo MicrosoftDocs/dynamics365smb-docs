@@ -1,6 +1,6 @@
 ---
-title: Interactions and Segments | Microsoft Docs
-description: Describes how to use segments on contacts in Financials
+title: Keep Track of Segments and Related Interactions| Microsoft Docs
+description: Learn about creating segments to define groups of contacts and specifying interactions for segments.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -11,11 +11,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 
 ---
-# Interactions and Segments
+# Managing Interactions for Segments
 The **Segment** window is a type of worksheet where you can:
 
 * Create segments.

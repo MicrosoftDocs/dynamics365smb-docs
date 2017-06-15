@@ -1,6 +1,6 @@
 ---
-title: 'Getting Dynamics 365 for Financials on Your Mobile Device| Microsoft Docs'
-description: 'Get the app for your mobile device.'
+title: Use Financials on Your Mobile Device| Microsoft Docs
+description: You can view and edit your Financials data on your phone or tablet.
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 
@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: phone, tablet
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: solsen
 ---
 

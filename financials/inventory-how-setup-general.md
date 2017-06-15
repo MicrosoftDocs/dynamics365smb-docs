@@ -1,6 +1,6 @@
 ---
-title: 'How to: Set Up General Inventory Information| Microsoft Docs'
-description: Describes how to define the general inventory setup, such as number series and how to use locations.
+title: Define the General Inventory Setup| Microsoft Docs
+description: Describes how to define the general inventory setup, such as number series and locations, so that you can, for example, manage your warehouse and stock.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: SorenGP
 
 ---
@@ -19,7 +19,7 @@ ms.author: SorenGP
 You specify your general inventory setup in the **Inventory Setup** window.
 
 ## To set up general inventory information
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Inventory Setup**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Inventory Setup**, and then choose the related link.
 2. In the **Inventory Setup** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## See Also

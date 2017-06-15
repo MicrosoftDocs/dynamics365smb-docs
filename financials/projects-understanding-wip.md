@@ -1,6 +1,6 @@
 ---
-title: Understanding WIP Methods| Microsoft Docs
-description: Describes the different WIP methods that can be used to post and monitor financial information for jobs that are work in process.
+title: WIP Methods for Calculating and Recording Job Progress| Microsoft Docs
+description: Describes the different work in process (WIP) methods you can use to post, monitor, and calculate financial information for ongoing jobs that are in progress.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: work in process, work in progress, calculate project WIP
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 
 ---

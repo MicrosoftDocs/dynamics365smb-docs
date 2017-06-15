@@ -23,7 +23,7 @@ If you're using cash-based accounting methods, you can set up [!INCLUDE[d365fin_
 You can choose to have VAT amounts calculated and posted to a temporary general ledger account when an invoice is posted, and then posted to the correct general ledger account and included in VAT statements when the actual payment of the invoice is posted. Before you can do this, you must complete the VAT posting setup.
 
 To use accounts for unrealized VAT, follow these steps:
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), and enter **General Ledger Setup**. 
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, and enter **General Ledger Setup**. 
 2. On the **General Ledger Setup** page, on the **General** FastTab, choose **Show More**, and then choose the **Unrealized VAT** check box.
 3. Close the page.
 4. choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), and enter **VAT Posting Setup**. 
@@ -41,10 +41,12 @@ To use accounts for unrealized VAT, follow these steps:
 
 6. In the **Sales VAT Unreal. Account** field, choose the account for unrealized sales VAT.
 
-    **Note**: The VAT amount will be posted to this account, and stay there until the customer payment is posted. The amount is then transferred to the account for sales VAT.
+    > [!NOTE]  
+>   The VAT amount will be posted to this account, and stay there until the customer payment is posted. The amount is then transferred to the account for sales VAT.
 7. In the **Purch. VAT Unreal. Account** field, enter the general ledger count for unrealized purchase VAT.
 
-    **Note**: The VAT amount will be posted to this account, and stay there until the customer payment is posted. The amount is then transferred to the account for sales VAT.
+    > [!NOTE]  
+>   The VAT amount will be posted to this account, and stay there until the customer payment is posted. The amount is then transferred to the account for sales VAT.
 
 ## See Also
 [Setting Up Value Added Tax](finance-setup-vat.md)

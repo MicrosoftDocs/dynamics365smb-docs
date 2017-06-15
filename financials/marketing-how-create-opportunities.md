@@ -1,6 +1,6 @@
 ---
-title: 'How to: Create Sales Opportunities | Microsoft Docs'
-description: Describes how to create sales opportunities on contacts in Financials
+title: Create Sales Opportunities| Microsoft Docs
+description: Describes how to create opportunities from a salesperson or a contact in Financials.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 
 ---
@@ -23,7 +23,7 @@ You can create opportunities from the **Opportunity List** window. But you typic
 Before you can create opportunities, you must set up opportunity sales cycles. For more information see [How to: Set Up Opportunity Sales Cycles and Stages](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## To create an opportunity from a salesperson
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Salespeople**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Salespeople**, and then choose the related link.
 2. Select the salesperson from the list for whom you want to create an opportunity.
 3. Choose the **Opportunities** action, and then choose **List**.
 4. Choose **New**, and then fill in the fields as relevant. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -31,7 +31,7 @@ Before you can create opportunities, you must set up opportunity sales cycles. F
 
 
 ## To create an opportunity from a contact
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Contacts**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Contacts**, and then choose the related link.
 2. Select the contact from the list for whom you want to create an opportunity.
 3. Do one of the following:
    * Choose the **Create Opportunity** action.

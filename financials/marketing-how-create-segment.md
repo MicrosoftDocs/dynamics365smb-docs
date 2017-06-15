@@ -1,6 +1,6 @@
 ---
-title: 'How to: Create Segments | Microsoft Docs'
-description: Describes how to create segments for contacts in Financials
+title: Create Segments| Microsoft Docs
+description: Describes how to create a segment for a group of contacts in Financials, for example, in order to target several contacts with a direct mail.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 
 ---
@@ -19,7 +19,7 @@ ms.author: jswymer
 You can create segments to select a group of contacts, for example, if you want to create an interaction involving several contacts, such as direct mail.
 
 ## To create a segment
-1. On the Home page, choose **Active Segments**. Or, in the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Segments**, and then choose the related link.
+1. On the Home page, choose **Active Segments**. Or, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Segments**, and then choose the related link.
 2. Choose the **New** action.
 3. In the **General** section, in the **No.** field, enter a number for the segment.
 

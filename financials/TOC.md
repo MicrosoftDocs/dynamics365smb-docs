@@ -10,6 +10,7 @@
 ## [Using Financials in an Automated Workflow](across-how-use-financials-data-source-flow.md)
 ## [Using Financials as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)
 ## [Connecting to Your Financials Data to Build a Business App Using PowerApps](across-how-use-financials-data-source-powerapps.md)
+## [Bulk Invoicing from Microsoft Bookings](finance-bookings.md)
 ## [Customizing Financials Using Extensions](ui-extensions.md)
 
 # Tips and Tricks
@@ -113,7 +114,7 @@
 ## [How to: Analyze Actual Amounts Versus Budgeted Amounts](bi-how-analyze-actual-versus-budget.md)
 ## [How to: Work with Account Schedules](bi-how-work-account-schedule.md)
 ## [How to: Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)
-## [How to: Create Analysis Views and Reports](bi-how-create-analysis-views-reports.md)
+## [How to: Create Analysis Reports](bi-how-create-analysis-views-reports.md)
 
 # [Sales](sales-manage-sales.md)
 ## [How to: Make Offers](sales-how-make-offers.md)

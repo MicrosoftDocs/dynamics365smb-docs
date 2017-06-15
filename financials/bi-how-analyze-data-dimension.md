@@ -20,8 +20,6 @@ In financial analysis, a dimension is data that you can add to an entry as a kin
 
 Analyzing data by dimensions gives you greater insight into your business, so you can evaluate information, such as how well your business is operating, where it is thriving and where it is not, and where more resources should be allocated.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] enables you to organize and analyze your data by dimensions.
-
 > [!NOTE]  
 >   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 

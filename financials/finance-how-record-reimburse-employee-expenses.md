@@ -16,7 +16,7 @@ ms.author: sgroespe
 
 ---
 # How to: Record and Reimburse Employees' Expenses
-[!INCLUDE[d365fin](includes/d365fin_md.md) supports financial transactions for employee in a similar way as for vendors. Accordingly, employee posting groups make sure that employee ledger entries are posted to dedicated employee G/L accounts.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] supports financial transactions for employee in a similar way as for vendors. Accordingly, employee posting groups make sure that employee ledger entries are posted to dedicated employee G/L accounts.
 
 > [!NOTE]  
 > Employee transactions can be posted in the local currency only. Payments to employees do not support discounts.

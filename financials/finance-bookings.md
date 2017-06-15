@@ -13,7 +13,7 @@ ms.date: 06/14/2017
 ms.author: edupont
 
 ---
-# Bulk Invoicing from Microsoft Bookings in Dynamics 365 for Financials
+# Bulk Invoicing for Microsoft Bookings in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 If your company uses the Bookings app in Office 365, you can do bulk invoicing for appointments. The **Uninvoiced Bookings** page in [!INCLUDE[d365fin](includes/d365fin_md.md)] provides a list of the company's completed bookings. In this page you can quickly select the appointments that you want to invoice and create draft invoices for the services provided.  
 
 > [!NOTE]  

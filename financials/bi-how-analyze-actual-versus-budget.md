@@ -69,4 +69,4 @@ Instead of viewing the actual and budgeted amounts for all accounts within a sin
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

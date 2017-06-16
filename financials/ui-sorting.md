@@ -23,6 +23,6 @@ Choose a column heading and use the small arrow to sort ascending or descending.
 >   Sorting is not supported images, BLOB fields, FlowFilters, and fields that do not belong to a table.
 
 ## See Also
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Entering Criteria in Filters](ui-enter-criteria-filters.md)
 

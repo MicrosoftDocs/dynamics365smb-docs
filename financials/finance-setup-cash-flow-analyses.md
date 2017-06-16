@@ -88,4 +88,4 @@ You can also create your own predictive web service based on a public model name
 ## See Also
 [Analyzing Cash Flow in Your Company](finance-analyze-cash-flow.md)  
 [Setting Up Finance](finance-setup-finance.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

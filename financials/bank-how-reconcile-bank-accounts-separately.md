@@ -79,7 +79,7 @@ Sometimes a bank statement contain amounts for interest or fees charged. Such ba
 2. In the **Trans. Bank Rec. to Gen. Jnl.** window, specify which general journal to use, and then choose the **OK** button.
 
     The **General Journal** window opens containing new journal lines for any banks statement lines with missing ledger entries.
-3. Complete the journal line with relevant information, such as the balancing account. For more information, see [Working With General Journals](ui-work-general-journals.md).  
+3. Complete the journal line with relevant information, such as the balancing account. For more information, see [Working withGeneral Journals](ui-work-general-journals.md).  
 4. Choose the **Post** action.
 
     When the entry is posted, proceed to match the bank transaction with to it.
@@ -89,4 +89,4 @@ Sometimes a bank statement contain amounts for interest or fees charged. Such ba
 ## See Also
 [Managing Bank Accounts](bank-manage-bank-accounts.md)  
 [Setting Up Banking](bank-setup-banking.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with[!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

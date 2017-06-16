@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Ceridian, Quickbooks, salary
-ms.date: 06/02/2017
+ms.date: 06/16/2017
 ms.author: SorenGP
 
 ---
@@ -30,9 +30,9 @@ To account for salary payments and related transactions, you must import and pos
 >   In the step about mapping the external payroll records to your G/L accounts, the mappings that you make will be remembered next time the same records are imported. This will save you time as you do not have to manually fill in the **Account No.** field in the general journal every time you have imported recurring payroll transactions.   
 
     When you choose the **OK** button in the assisted setup guide, the **General Journal** window is filled with lines representing the transactions that the payroll file contains and with the relevant accounts prefilled in the **G/L Account** fields according to mappings you made in the guide.
-4. Edit or post the journal lines as for any other general ledger transactions. For more information, see [How to: Work With General Journals](ui-work-general-journals.md).   
+4. Edit or post the journal lines as for any other general ledger transactions. For more information, see [How to: Post Transactions Directly to the General Ledger](finance-how-import-payroll-transactions.md).   
 
 ## See Also
 [Finance](finance.md)  
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
-[How to: Work With General Journals](ui-work-general-journals.md)  
+[Working with General Journals](ui-work-general-journals.md)  

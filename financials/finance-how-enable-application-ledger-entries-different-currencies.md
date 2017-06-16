@@ -38,4 +38,4 @@ The following procedure describes how to set this up for vendor ledger entries i
 ## See Also
 [Managing Payables](payables-manage-payables.md)  
 [Managing Receivables](receivables-manage-receivables.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with[!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

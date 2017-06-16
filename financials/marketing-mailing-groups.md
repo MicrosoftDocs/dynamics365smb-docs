@@ -40,4 +40,4 @@ After you have assigned mailing groups to your contacts, you can use this inform
 ## See Also
 [Creating Contact Companies](marketing-create-contact-companies.md)  
 [Creating Contact Persons](marketing-create-contact-persons.md)  
-[Working With Financials](ui-work-product.md)
+[Working withFinancials](ui-work-product.md)

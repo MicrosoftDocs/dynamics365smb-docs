@@ -27,4 +27,4 @@ The tax information in purchase documents is used to generate a GST/HST online f
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  
 [Sales Tax and Tax Groups in the US and Canada](us-finance-sales-tax.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with[!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

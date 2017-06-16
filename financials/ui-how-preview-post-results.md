@@ -26,5 +26,5 @@ On every document and journal that can be posted, you can choose the **Preview P
 
 ## See Also
 [Post Documents and Journals](ui-post-documents-journals.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with[!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

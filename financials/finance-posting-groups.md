@@ -74,4 +74,4 @@ The more product and business posting groups you have, the more lines you see in
 ## See also
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
 [Setting Up Finance](finance-setup-finance.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with[!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

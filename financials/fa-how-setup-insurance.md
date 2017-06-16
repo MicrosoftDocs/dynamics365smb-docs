@@ -38,7 +38,7 @@ You may accumulate information about each insurance policy on the insurance card
 3. Fill in the fields as necessary.
 
 ## To set up insurance journal templates
-[!INCLUDE[d365fin](includes/d365fin_md.md)] automatically creates an insurance journal template the first time that you open the **Insurance Journal** window, but you can set up additional journal templates. For more information, see [Working With General Journals](ui-work-general-journals.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] automatically creates an insurance journal template the first time that you open the **Insurance Journal** window, but you can set up additional journal templates. For more information, see [Working withGeneral Journals](ui-work-general-journals.md).  
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Insurance Journal Templates**, and then choose the related link.  
 2. Fill in the fields as necessary.
@@ -58,4 +58,4 @@ You can set up batches in an insurance journal template. The values in the journ
 [Fixed Assets](fa-manage.md)  
 [Finance](finance.md)  
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with[!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

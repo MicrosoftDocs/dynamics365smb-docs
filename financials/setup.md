@@ -41,7 +41,7 @@ Some functionality, either general or for specific business processes, can be se
 [Finance](finance.md)  
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with[!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Welcome to [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

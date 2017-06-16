@@ -99,4 +99,4 @@ The copied lines are created in either the fixed asset G/L journal or the fixed 
 [Fixed Assets](fa-manage.md)  
 [Setting Up Fixed Assets](fa-setup.md)  
 [Finance](finance.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with[!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

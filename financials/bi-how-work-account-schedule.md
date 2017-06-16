@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 06/01/2017
+ms.date: 06/16/2017
 ms.author: sgroespe
 
 ---
@@ -20,7 +20,7 @@ Use account schedules to get insight into the financial data stored in your char
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] provides a few sample account schedules that you can use right away, or you can set up your own rows and columns to specify the figures to compare. For example, you can create account schedules to calculate profit margins on dimensions like departments or customer groups. You can create as many customized financial statements as you want.  
 
-Setting up account schedules requires an understanding of the financial data in the chart of accounts. For example, you can view general ledger entries as percentages of budget entries. You use the **Account Schedule** window to set up account schedules.  
+Setting up account schedules requires an understanding of the financial data in the chart of accounts. For example, you can view general ledger entries as percentages of budget entries. This requires that budgets are created. For more information, see [How to: Create Budgets](finance-how-create-budgets.md).
 
 > [!NOTE]  
 >   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
@@ -78,4 +78,4 @@ Now you can copy and paste your budget statement into a spreadsheet.
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with[!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

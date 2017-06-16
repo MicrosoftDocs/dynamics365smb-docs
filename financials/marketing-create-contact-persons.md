@@ -37,4 +37,4 @@ The following table describes a sequence of tasks, with links to the topics that
 ## See Also
 [Creating Contact Companies](marketing-create-contact-companies.md)  
 [Creating and Managing Contacts](marketing-create-contact-persons.md)  
-[Working With Financials](ui-work-product.md)
+[Working withFinancials](ui-work-product.md)

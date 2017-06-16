@@ -25,5 +25,5 @@ In the **Customer Card** window, the red asterisk appears in the **Name** field,
 In the **Item Card** window, the red asterisk appears in the **Description** field to indicate that you cannot enter the item on a document line, such as a sales order, unless this field is filled.
 
 ## See Also
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with[!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

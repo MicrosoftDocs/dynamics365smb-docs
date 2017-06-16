@@ -48,5 +48,5 @@ If you want to examine the forecast, in addition to forecast entries, you can al
 
 ## See Also
 [Setting Up Finance](finance-setup-finance.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with[!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md)  

@@ -16,7 +16,7 @@ ms.author: bholtorf
 
 ---
 # Visit Our Video Library
-We're working to build up a library of getting-started videos that illustrate how to do common tasks. You can get to the library quickly from the Business Manager Role Center, by clicking the **Product Videos** tile. We've organized the videos according to the context of the content they illustrate.
+We're working to build up a library of getting-started videos that illustrate how to do common tasks. You can get to the library quickly from the Business Manager Role Center by choosing the **Product Videos** tile. We've organized the videos according to the context of the content they illustrate.
 
 ## See Also
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] ](index.md)

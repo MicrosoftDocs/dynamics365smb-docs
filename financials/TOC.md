@@ -85,7 +85,7 @@
 ### [How to: Reconcile Bank Accounts Separately](bank-how-reconcile-bank-accounts-separately.md)  
 ### [How to: Transfer Bank Funds](bank-how-transfer-bank-funds.md)
 ## [Managing Intercompany Postings](intercompany-manage.md)
-### [How to: Set Up Intercompany Posting](intercompany-setup.md)
+### [How to: Set Up Intercompany Posting](intercompany-how-setup.md)
 ### [How to: Work with Intercompany Documents and Journals](intercompany-how-work-documents-journals.md)
 ### [How to: manage the Intercompany Inbox](intercompany-how-manage-intercompany-inbox.md)
 ## [Accountant Experiences in Financials](finance-accounting.md)

@@ -41,10 +41,10 @@ The following table describes a sequence of tasks, with links to the topics that
 
  |To |See|
  |---|---|
- |Create your intercompany vendors and customers as so-called IC partners, and set up an intercompany chart of accounts.|[How to: Set Up Intercompany Posting](intercompany-setup.md)|
+ |Create your intercompany vendors and customers as so-called IC partners, and set up an intercompany chart of accounts.|[How to: Set Up Intercompany Posting](intercompany-how-setup.md)|
  |awfwfwefwef|[How to: Work with Intercompany Documents and Journals](intercompany-how-work-documents-journals.md)|
  |egtrwergerga|[How to: manage the Intercompany Inbox](intercompany-how-manage-intercompany-inbox.md)|
- 
+
 ## See Also
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  

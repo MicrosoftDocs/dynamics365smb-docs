@@ -60,4 +60,4 @@ When check payment have been posted, you can only cancel (void) checks from the 
 [Managing Payables](payables-manage-payables.md)  
 [Setting Up Banking](bank-setup-banking.md)  
 [How to: Export a Positive Pay file](finance-how-positive-pay.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

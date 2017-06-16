@@ -76,6 +76,6 @@ The data in the card for each client is specified by you, and you can change it 
 [Closing Years and Periods](year-close-years-periods.md)  
 [Sorting](ui-sorting.md)  
 [Entering Criteria in Filters](ui-enter-criteria-filters.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Invite Your External Accountant to Your [!INCLUDE[d365fin](includes/d365fin_md.md)]](finance-invite-external-accountant.md)  
 [Financials for Accountants on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  

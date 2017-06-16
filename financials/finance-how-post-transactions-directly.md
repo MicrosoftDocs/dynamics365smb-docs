@@ -36,4 +36,4 @@ Unlike for entries that are posted with documents, which require a credit memo p
 [Working with General Journals](ui-work-general-journals.md)  
 [How to: Reverse Journal Posting](finance-how-reverse-journal-posting.md)  
 [Finance](finance.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

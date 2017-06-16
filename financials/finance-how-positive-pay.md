@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: check, clearing
-ms.date: 06/02/2017
+ms.date: 06/16/2017
 ms.author: sgroespe
 
 ---
@@ -59,5 +59,5 @@ To reexport Positive Pay files
 ## See Also
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  
-[How to: Work With General Journals](ui-work-general-journals.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with General Journals](ui-work-general-journals.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

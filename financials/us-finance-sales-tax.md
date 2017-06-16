@@ -38,4 +38,4 @@ In the United States, when you sell to a customer at a location where you do not
 [Setting Up Finance](finance-setup-finance.md)  
 [Sales Tax and Goods and Services Tax in Canada](ca-finance-tax.md)  
 [Sales Tax setup made easy](https://madeira.microsoft.com/blog/sales-tax-setup-made-easy)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

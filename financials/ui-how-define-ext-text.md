@@ -28,5 +28,5 @@ You can extend a standard text for items by adding extra lines, and you can set 
 8. Close the window.
 
 ## See Also
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

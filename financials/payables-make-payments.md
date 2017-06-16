@@ -29,7 +29,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | To | See |
 | --- | --- |
 | Use a function to suggest vendor payments according to selected criteria, such as due date, discount eligibility, and your liquidity. |[How to: Suggest Vendor Payments](payables-how-suggest-vendor-payments.md) |
-| Issue checks for payments, either as print-outs or as computer checks. Void checks before or after posting. |[How to: Work With Checks](payables-how-work-checks.md) |
+| Issue checks for payments, either as print-outs or as computer checks. Void checks before or after posting. |[How to: Work with Checks](payables-how-work-checks.md) |
 | Make sure that your bank only clears validated checks and amounts by sending them a file that contains vendor, check, and payment information. |[How to: Export a Positive Pay file](finance-how-positive-pay.md) |
 |Export payments from the **Payment Journal** window to a bank file that you upload to your bank for processing, including EFT (electronic funds transfer) in North America. |[How to: Export Payments to a Bank File](payables-how-export-payments-bank-file.md)|  
 

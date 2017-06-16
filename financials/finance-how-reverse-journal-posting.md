@@ -34,4 +34,4 @@ You can reverse entries from all **Ledger Entries** windows. The following proce
 [How to: Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)  
 [Working with General Journals](ui-work-general-journals.md)  
 [Finance](finance.md)  
-[Working with[!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

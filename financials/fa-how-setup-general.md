@@ -47,7 +47,7 @@ Allocation keys apply to fixed asset classes, not to individual assets.
 4. Repeat steps 2 and 3 for each posting type that you want to define allocation keys for.
 
 ## To set up fixed asset journal templates
-A template is a predefined layout for a journal. The template contains information about trace codes, reports, and number series. For more information, see [Working withGeneral Journals](ui-work-general-journals.md).
+A template is a predefined layout for a journal. The template contains information about trace codes, reports, and number series. For more information, see [Working with General Journals](ui-work-general-journals.md).
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically creates a fixed asset journal template the first time that you open the **Fixed Asset Journal** window, but you can set up additional journal templates.  
 
@@ -118,4 +118,4 @@ If the fixed assets are not integrated with the general ledger, skip steps 4 thr
 [Fixed Assets](fa-manage.md)  
 [Finance](finance.md)  
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Working with[!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

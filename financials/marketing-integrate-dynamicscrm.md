@@ -79,7 +79,7 @@ From the **CRM Connection Setup** window, you can get details about full synchro
 
 ## See Also
 [Relationship Management](marketing-relationship-management.md)  
-[Working with[!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)  
 [How to: Manage Users and Permissions](ui-how-users-permissions.md)    
 [Onboard your organization and users to Dynamics 365 (online)](https://www.microsoft.com/en-US/Dynamics/crm-customer-center/onboard-your-organization-and-users-to-dynamics-365-online.aspx)  

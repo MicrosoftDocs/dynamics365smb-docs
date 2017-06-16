@@ -31,4 +31,4 @@ Turning notifications on or off, and specifying conditions, applies only to you.
 3. To specify conditions that trigger a notification, choose the **View filter details** link, and then fill in the fields.  
 
 ## See Also
-[Working with[!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

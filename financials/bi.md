@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 06/14/2017
+ms.date: 06/16/2017
 ms.author: sgroespe
 
 ---
@@ -36,4 +36,4 @@ The following table describes a sequence of tasks, with links to the topics that
 [Finance](finance.md)    
 [Closing Fiscal Periods](year-close-years-periods.md)  
 [Importing from Other Finance Systems](upload-data.md)  
-[Working with[!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

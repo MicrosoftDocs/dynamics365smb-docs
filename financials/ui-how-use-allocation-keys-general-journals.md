@@ -40,6 +40,6 @@ You can allocate an entry in a general journal to several different accounts whe
 4. Change the relevant fields, and then choose the **OK** button.
 
 ## See Also
-[Working withGeneral Journals](ui-work-general-journals.md)  
+[Working with General Journals](ui-work-general-journals.md)  
 [Posting Documents and Journals](ui-post-documents-journals.md)  
-[Working with[!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -48,6 +48,6 @@ The default work date is usually today's date. You may have to temporarily chang
 Use the options in this section if you want to specify some additional checks for posting documents. These options are checked as standard, but you can clear the check boxes to avoid getting specific warnings or messages.
 
 ## See Also
-[Working with[!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [How to: Change the Role Center](change-role.md)  
 [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)  

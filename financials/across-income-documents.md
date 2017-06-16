@@ -42,4 +42,4 @@ The incoming document process can consist of the following main activities:
 
 ## See Also
 [Purchasing](purchasing-manage-purchasing.md)  
-[Working with[!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

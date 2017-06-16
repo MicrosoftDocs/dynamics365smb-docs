@@ -32,4 +32,4 @@ The accounting periods are added to the page. The **Starting Date** and **Name**
 [How to: Specify Posting Periods](finance-how-specify-posting-periods.md)  
 [How to: Post the Year-End Closing Entry](year-how-post-year-end-close-entry.md)  
 [Finance](finance.md)  
-[Working with[!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

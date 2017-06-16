@@ -36,4 +36,4 @@ The **Close Income Statement** batch job can be used several times. You can post
 [Closing Books](year-close-books.md)  
 [How to: Post the Year-End Closing Entry](year-how-post-year-end-close-entry.md)  
 [How to: Open a New Fiscal Year](finance-how-open-new-fiscal-year.md)  
-[Working with[!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

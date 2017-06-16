@@ -42,4 +42,4 @@ When the contact is synchronized with the customer, vendor, bank account:
 
 ## See Also
 [Managing Contacts](marketing-contacts.md)  
-[Working with[!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

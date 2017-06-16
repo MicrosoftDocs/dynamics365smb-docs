@@ -28,4 +28,4 @@ A batch job is like a report, except the batch job uses the result of its work t
 
 ## See Also
 [Entering Criteria in Filters](ui-enter-criteria-filters.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -42,4 +42,4 @@ After you have assigned job responsibilities to your contacts, you can use this 
 ## See Also
 [Creating Contact Persons](marketing-create-contact-persons.md)  
 [Creating Contact Companies](marketing-create-contact-companies.md)  
-[Working With Financials](ui-work-product.md)
+[Working with Financials](ui-work-product.md)

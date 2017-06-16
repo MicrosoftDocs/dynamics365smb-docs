@@ -55,5 +55,5 @@ Based on your migrated data, you can now proceed to create new sales or purchase
 
 ## See Also
 [Welcome to [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [How to: Manage Users and Permissions](ui-how-users-permissions.md)

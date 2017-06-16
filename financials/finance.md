@@ -51,6 +51,6 @@ The following table describes a sequence of tasks, with links to the topics that
 [Managing Projects](projects-manage-projects.md)    
 [Importing from Other Finance Systems](upload-data.md)  
 [Working with General Journals](ui-work-general-journals.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

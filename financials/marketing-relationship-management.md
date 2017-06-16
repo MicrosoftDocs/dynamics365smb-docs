@@ -32,4 +32,4 @@ To get started, see the following topics:
 [Sales](sales-manage-sales.md)  
 [Setting Up Relationship Management](marketing-setup-marketing.md)  
 [Managing your Customer Relationships Using Dynamics 365 for Sales from Inside [!INCLUDE[d365fin](includes/d365fin_md.md)]](marketing-integrate-dynamicscrm.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with[!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

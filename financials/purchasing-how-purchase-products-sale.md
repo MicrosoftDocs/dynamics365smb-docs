@@ -66,4 +66,4 @@ To create a single purchase invoice for one or more lines on a sales document by
 [How to: Record Purchases](purchasing-how-record-purchases.md)  
 [How to: Invoice Sales](sales-how-invoice-sales.md)  
 [How to: Register New Vendors](purchasing-how-register-new-vendors.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with[!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

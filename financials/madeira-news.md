@@ -124,5 +124,5 @@ Key scenarios to try out on your own:
 
 ## See Also
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with[!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Dynamics 365 Roadmap](https://roadmap.dynamics.com/)  

@@ -51,4 +51,4 @@ You can post in a previous fiscal year, even after the income statement accounts
 
 ## See Also
 [How to: Open a New Fiscal Year](finance-how-open-new-fiscal-year.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with[!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

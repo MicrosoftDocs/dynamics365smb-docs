@@ -31,4 +31,4 @@ After you have set up the change log, activated it, and made a change to data, y
 [Sorting](ui-sorting.md)  
 [Using Search for Page or Report](ui-search.md)  
 [How to: Manage Users and Permissions](ui-how-users-permissions.md)    
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with[!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

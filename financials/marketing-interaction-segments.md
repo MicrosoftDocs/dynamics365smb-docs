@@ -47,4 +47,4 @@ In the **Logged Segments** window, you can decide to create a follow-up segment 
 [Recording Interactions With Contacts](marketing-interactions.md)  
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
 [Creating and Managing Contacts](marketing-contacts.md)  
-[Working With Financials](ui-work-product.md)
+[Working withFinancials](ui-work-product.md)

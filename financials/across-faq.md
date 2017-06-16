@@ -46,4 +46,4 @@ This is a bit complicated, but it looks like your administrator didn't change yo
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as Your Business Inbox in Outlook](madeira-outlook.md)  
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] without Outlook](madeira-no-outlook.md)  
 [How to: Change the Role Center](change-role.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with[!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

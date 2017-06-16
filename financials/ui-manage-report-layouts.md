@@ -53,6 +53,6 @@ The process for setting up Word report layouts and RDLC report layouts on report
 For information on how to change which layout to use, see [How to: Change Which Layout is Currently Used on a Report](ui-how-change-layout-currently-used-report.md)
 
 ## See Also
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with[!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [How to: Create a Custom Report or Document Layout](ui-how-create-custom-report-layout.md)  
 [How to: Send Documents by Email](ui-how-send-documents-email.md)

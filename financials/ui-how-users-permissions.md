@@ -111,4 +111,4 @@ Administrators can define periods of time during which specified users are able 
 ## See Also
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Welcome to [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with[!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

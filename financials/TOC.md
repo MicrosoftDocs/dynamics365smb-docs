@@ -13,7 +13,7 @@
 ## [Customizing Financials Using Extensions](ui-extensions.md)
 
 # Tips and Tricks
-## [Working With Financials](ui-work-product.md)
+## [Working withFinancials](ui-work-product.md)
 ## [Using Search for Page or Report](ui-search.md)
 ## [Changing Basic Settings](ui-change-basic-settings.md)
 ## [How to: Change the Role Center](change-role.md)
@@ -88,7 +88,7 @@
 ### [Invite Your External Accountant to Your Financials](finance-invite-external-accountant.md)  
 ### [Accountant Portal extension](ui-extensions-accountant-portal.md)  
 ## [Understanding the General Ledger and the COA](finance-general-ledger.md)
-## [Working With Dimensions](finance-dimensions.md)
+## [Working withDimensions](finance-dimensions.md)
 ## [How to: Create Budgets](finance-how-create-budgets.md)
 ## [How to: Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)
 ## [How to: Reverse Journal Posting](finance-how-reverse-journal-posting.md)

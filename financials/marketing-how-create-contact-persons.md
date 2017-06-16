@@ -39,4 +39,4 @@ You can create a contact card for each contact who works for the companies you i
 [How to: Set Up Job Responsibilities on Contacts](marketing-job-responsibilities.md)  
 [How to: Set Up Organizational Levels for Contact Persons](marketing-organizational-levels.md)  
 [Synchronizing Contacts With Customers, Vendors, and Bank Accounts](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
-[Working With Financials](ui-work-product.md)  
+[Working withFinancials](ui-work-product.md)  

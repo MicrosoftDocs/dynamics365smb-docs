@@ -43,4 +43,4 @@ You can also assign web sources from the **Contact List** window by following th
 
 ## See Also
 [Creating Contact Companies](marketing-create-contact-companies.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

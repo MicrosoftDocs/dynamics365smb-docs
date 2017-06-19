@@ -26,7 +26,7 @@ ms.author: jswymer
 * Update and post Recurring Journals.  
   <!--* Process Consolidations-->
 * Run account schedules as follows:  
-  * Open the **Account Schedule** window, and choose the **Print** action.  
+  * Open the **Account Schedule** window, and then choose the **Print** action.  
 
 ## Sales and Receivables
 * Post all sales orders, invoices, credit memos, and return orders.  
@@ -58,4 +58,4 @@ ms.author: jswymer
 ## See Also
 [Closing Years and Periods](year-close-years-periods.md)  
 [Closing Books](year-close-books.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

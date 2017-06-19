@@ -41,5 +41,5 @@ When the posting is completed, the posted sales lines are removed from the order
 ## See Also
 [Sales](sales-manage-sales.md)  
 [How to: Send Documents by Email](ui-how-send-documents-email.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

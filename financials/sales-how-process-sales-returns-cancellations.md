@@ -66,4 +66,4 @@ The posted sales documents that you applied the credit memo to are now reversed,
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  
 [How to: Send Documents by Email](ui-how-send-documents-email.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -53,4 +53,4 @@ From the **Assembly BOM** window, you can open a separate window that shows the 
 [How to: Register New Items](inventory-how-register-new-items.md)  
 [How to: View the Availability of Items](inventory-how-availability-overview.md)     
 [Inventory](inventory-manage-inventory.md)  
-[Working With [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)

@@ -91,7 +91,7 @@ If you buy from a vendor in one currency and make payment in another currency, y
 
 If you apply an entry (Entry 1) in one currency to an entry (Entry 2) in a different currency, the posting date on Entry 1 is used to find the relevant exchange rate to convert amounts on Entry 2. The relevant exchange rate is found in the **Currency Exchange Rates** window. In that case, you must enable application of vendor ledger entries in different currencies. For more information, see [How to: Enable Application of Ledger Entries in Different Currencies](finance-how-enable-application-ledger-entries-different-currencies.md)
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journal**, and choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journal**, and then choose the related link.
 2. Open the journal you want, and fill in the first empty journal line using a currency code.
 3. Choose the **Apply Entries** action.
 4. Select the line with the entry you want to apply to the entry in the payment journal, choose the **Set Applies-to ID** action, and then select the entry you want to apply to.
@@ -118,4 +118,4 @@ When you unapply an erroneous application, correcting entries that are identical
 ## See Also
 [Payables](payables-manage-payables.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

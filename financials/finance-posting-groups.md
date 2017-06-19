@@ -30,7 +30,7 @@ The following tables describe the posting groups under each umbrella.
 | --- | --- |
 | General Business Posting Groups |Assign this group to customers and vendors to specify who you sell to, and who you buy from. Set these up in the **Gen. Business Posting Groups** window. When you do, think about how many groups you'll need to break down sales and purchases. For example, group customers and vendors by geographical area, or by the type of business. |
 | General Product Posting Groups |Assign this group to items and resources to specify what you sell, and what you buy. Set these up in the **Gen. Product Posting Groups** window. When you do, consider the number of groups you'll need to break down sales by product (items and resources) and purchases by items. For example, divide these groups by raw materials, retail, resources, capacity, and so on. |
-| General Posting Setups |Combine business and product posting groups, and choose the accounts to post to. For each combination of business and product posting groups, you can assign a set of general ledger accounts. For example, this means you can post the sale of the same item to different sales accounts in the general ledger because customers are assigned to different business posting groups. Set these up in the **General Posting Setup** window. |
+| General Posting Setups |Combine business and product posting groups and choose the accounts to post to. For each combination of business and product posting groups, you can assign a set of general ledger accounts. For example, this means you can post the sale of the same item to different sales accounts in the general ledger because customers are assigned to different business posting groups. Set these up in the **General Posting Setup** window. |
 
 | Specific Posting Groups | Description |
 | --- | --- |
@@ -74,4 +74,4 @@ The more product and business posting groups you have, the more lines you see in
 ## See also
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
 [Setting Up Finance](finance-setup-finance.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

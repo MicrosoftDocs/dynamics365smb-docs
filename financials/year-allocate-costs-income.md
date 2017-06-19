@@ -46,10 +46,10 @@ You can allocate an entry in a recurring general journal to several different ac
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Recurring General Journal**, and then choose the related link.
 2. In the **Recurring General Journal** window, select the journal with the allocation.
 3. Choose the line with the allocation, and then choose **Allocations** action.
-4. Change the relevant fields, and choose the **OK** button.
+4. Change the relevant fields, and then choose the **OK** button.
 
 ## See Also
 [Closing Years and Periods](year-close-years-periods.md)  
 [Working with General Journals](ui-work-general-journals.md)    
 [Posting Documents and Journals](ui-post-documents-journals.md)    
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

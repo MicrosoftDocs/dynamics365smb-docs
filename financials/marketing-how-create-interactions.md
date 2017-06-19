@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 06/15/2017
 ms.author: jswymer
 
 ---
@@ -23,10 +23,10 @@ Before you create interactions, you must set up interaction templates. For more 
 ## To create an interaction
 1. Open the contact, salesperson, or interaction log entry.
 2. Choose the **Create Interaction** action.
-3. Fill in the fields, and choose the **OK** button.
+3. Fill in the fields, and then choose the **OK** button.
 
 > [!NOTE]  
->   If you need to perform another task before finishing the interaction, you can choose **Cancel**, and choose to finish the interaction at a later time. This postpones the interaction.
+>   If you need to perform another task before finishing the interaction, you can choose **Cancel** and then finish the interaction at a later time. This postpones the interaction.
 
 ## To finish and delete postponed interactions
 1. Open the contact, salesperson, or interaction log entry.
@@ -50,4 +50,4 @@ If you have selected the **Create Follow-up Segment** check box, a new segment i
 [Managing Contacts](marketing-contacts.md)  
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
 [Setting Up Relationship Management](marketing-setup-marketing.md)  
-[Working With Financials](ui-work-product.md)
+[Working with Financials](ui-work-product.md)

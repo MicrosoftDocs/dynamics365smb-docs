@@ -36,9 +36,9 @@ An item can be structured as a parent item with underlying child items in a bill
 5. Proceed to fill or change fields on the item card as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
-> In the **Costing Method** field, you set up how the item' unit cost is calculated by making assumptions about the flow of physical items through your company.
+> In the **Costing Method** field, you set up how the item's unit cost is calculated by making assumptions about the flow of physical items through your company.
 - If you select **FIFO**, then the item’s unit cost is the actual value of any receipt of the item. Inventory is valuated with the assumption that the first items placed in inventory are sold first.
-- If you select **Average**, then the item’s unit cost is calculated as the average unit cost at each point in time after a purchase. Inventory is valuated with the assumption that all inventories are sold simultaneously. With this setting, you can choose the **Unit Cost** to view the history of transactions that the average is calculated from. 
+- If you select **Average**, then the item’s unit cost is calculated as the average unit cost at each point in time after a purchase. Inventory is valuated with the assumption that all inventories are sold simultaneously. With this setting, you can choose the **Unit Cost** to view the history of transactions that the average cost is calculated from. 
 
 On the **Price and Posting** FastTab, you can view special prices or discounts that you grant for the item if certain criteria are met, such as customer, minimum order quantity, or ending date. Each row represents a special price or line discount. Each column represents a criterion that must apply to warrant the special price that you enter in the **Unit Price** field, or the line discount that you enter in the **Line Discount %** field. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).
 

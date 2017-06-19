@@ -75,7 +75,7 @@ You can also use your own account for the Computer Vision API, for example, if y
 2. Enter the **API URI** and **API Key** that you received for Computer Vision API.  
   
 >   [!NOTE]  
->   You must add **/analyze** at the end of the API URI, if it isn't already there. For example: ```https://cronus.api.cognitive.microsoft.com/vision/v1.0**/analyze**```.
+>   You must add **/analyze** at the end of the API URI, if it isn't already there. For example: ```https://cronus.api.cognitive.microsoft.com/vision/v1.0/analyze```.
 
 ## To see how many analyses you have left in the current period
 You can view the number of analyses you've done, and how many you can still do, in the current period.  

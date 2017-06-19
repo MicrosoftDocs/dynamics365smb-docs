@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 06/15/2017
+ms.date: 06/19/2017
 ms.author: edupont
 
 ---
@@ -27,6 +27,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | Apply incoming payments, reconcile bank accounts during payment application, and collect outstanding balances. |[Managing Receivables](receivables-manage-receivables.md) |
 | Make payments, apply outgoing payments, and work with checks. |[Managing Payables](payables-manage-payables.md) |
 | Reconcile bank accounts and transfer funds between bank accounts. |[Managing Bank Accounts](bank-manage-bank-accounts.md) |
+|Set up intercompany partners and process transactions, manually or automatically, between legal entities within the same company.|[Managing Intercompany Transactions](intercompany-manage.md)|
 | Understand the general ledger and the chart of accounts. |[Understanding the General Ledger and the COA](finance-general-ledger.md) |
 | Add dimensions for richer business intelligence. |[Working with Dimensions](finance-dimensions.md) |
 | Create budgets to forecast different financial activities and assign dimensions for business intelligence purposes. |[How to: Create Budgets](finance-how-create-budgets.md) |

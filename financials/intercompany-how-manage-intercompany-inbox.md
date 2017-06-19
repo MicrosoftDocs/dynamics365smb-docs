@@ -1,6 +1,6 @@
 ---
-title: wefwefwef| Microsoft Docs
-description: fwerfwerfrgfwergf  
+title: Process Incoming Intercompany Transactions| Microsoft Docs
+description: Intercompany transactions that you receive from your intercompany partners are listed in the intercompany inbox where you process them manually or automatically.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoming document
-ms.date: 06/16/2017
+ms.date: 06/19/2017
 ms.author: sgroespe
 
 ---
@@ -28,37 +28,37 @@ All of the intercompany transactions that you receive electronically from your I
 
 -   Rejected by your IC partner and returned to you  
 
- You can use the **\($ N\_611\_29 Show Transaction Source $\)** field to filter the **\($ N\_615 IC Inbox Transactions $\)** window so that it displays only one of these types of transactions. \(You can also filter by IC partner, or by the contents of the **Line Action** field.\)  
+ You can use the **Show Transaction Source** field to filter the **IC Inbox Transactions** window so that it displays only one of these types of transactions. (You can also filter by IC partner, or by the contents of the **Line Action** field.)  
 
 #### Created by IC Partner  
  When you receive a new transaction that was created by your partner, you can choose to:  
 
  Accept the transaction  
 
- Reject the transaction \(Return to partner\)  
+ Reject the transaction (Return to partner)  
 
- Cancel the transaction \(Delete the transaction but do not return it to your partner\)  
+ Cancel the transaction (Delete the transaction but do not return it to your partner)  
 
 #### Returned from IC Partner  
  If the transaction was rejected by your IC partner, your only choice is to cancel the transaction in the inbox. Then you must create correction lines or reverse the journal or document in your company.  
 
-## Re\-creating Inbox Entries  
- If you accepted a transaction in your inbox but then deleted the document or journal instead of posting it, you can re\-create the inbox entry and accept it again.  
+## Re-creating Inbox Entries  
+ If you accepted a transaction in your inbox but then deleted the document or journal instead of posting it, you can re-create the inbox entry and accept it again.  
 
 ## Getting an Overview of Intercompany Transactions for a Period  
- You can get an overview of all of the intercompany transactions that you have sent and received in a period. The **\($ R\_512 IC Transactions $\)** report lists all intercompany G\/L entries, customer ledger entries, and vendor ledger entries.  
+ You can get an overview of all of the intercompany transactions that you have sent and received in a period. The **IC Transactions** report lists all intercompany G/L entries, customer ledger entries, and vendor ledger entries.  
 
 ## To import intercompany transactions from a file:  
 If you have an intercompany partner that is not in the same database as your company, you can receive intercompany transactions from that partner in an .xml file. Then you must import the transactions into your inbox.  
 
 
- 1.  In the **Search** box, enter **Company Information** , and then choose the related link.  
+ 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information** , and then choose the related link.  
 
- 2.  Save the file to the location that you specified in the **\($ T\_79\_43 IC Inbox Details $\)** field in the **\($ N\_1 Company Information $\)** window.  
+ 2.  Save the file to the location that you specified in the **IC Inbox Details** field in the **Company Information** window.  
 
- 3.  In the **Search** box, enter **IC Inbox Transactions**, and then choose the related link.  
+ 3.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **IC Inbox Transactions**, and then choose the related link.  
 
- 4.  In the **\($ N\_615 IC Inbox Transactions $\)** window, on the **Actions** tab, in the **Functions** group, choose **Import Transaction File**.  
+ 4.  In the **IC Inbox Transactions** window, on the **Actions** tab, in the **Functions** group, choose **Import Transaction File**.  
 
  5.  In the window that appears, select the .xml file that contains the transactions and then choose the **Open** button.  
 
@@ -67,17 +67,17 @@ If you have an intercompany partner that is not in the same database as your com
 ## To handle incoming intercompany transactions  
 When your intercompany partners send you intercompany transactions, the transactions end up in your intercompany inbox. You must evaluate each transaction in your inbox and act upon it.  
 
-  1.  In the **Search** box, enter **IC Inbox Transactions**, and then choose the related link.  
+  1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **IC Inbox Transactions**, and then choose the related link.  
 
-  2.  In the **\($ N\_615 IC Inbox Transactions $\)** window, to see details of a transaction, select the transaction.  
+  2.  In the **IC Inbox Transactions** window, to see details of a transaction, select the transaction.  
 
   3.  On the **Navigate** tab, in the **Inbox Transactions** group, choose **Details**  
 
-  4.  In the **\($ N\_615 IC Inbox Transactions $\)** window, enter an option in the **\($ T\_418\_10 Line Action $\)** field for each transaction. You can either fill in the field on one line at a time, or you can select several lines and then on the **Actions** tab, in the **Functions** group, choose **Set Line Action**. Choose the relevant option.  
+  4.  In the **IC Inbox Transactions** window, enter an option in the **Line Action** field for each transaction. You can either fill in the field on one line at a time, or you can select several lines and then on the **Actions** tab, in the **Functions** group, choose **Set Line Action**. Choose the relevant option.  
 
   5.  On the **Actions** tab, in the **Functions** group, choose **Complete Line Actions**.  
 
-  6.  Fill in the **\($ B\_511 Complete IC Inbox Action $\)** batch job request page. On the **IC Inbox Transaction** FastTab, you can set filters to determine which transactions will be completed. On the **Options** FastTab, you specify the journal template and batch that you want to use, and other posting details. Choose the **OK** button.  
+  6.  Fill in the **Complete IC Inbox Action** batch job request page. On the **IC Inbox Transaction** FastTab, you can set filters to determine which transactions will be completed. On the **Options** FastTab, you specify the journal template and batch that you want to use, and other posting details. Choose the **OK** button.  
 
   7.  If any of the lines in the inbox contains **Accept** in the **Line Action** field, document or journal lines are created in your company. Open each document or journal, make any necessary changes, and post.  
 
@@ -88,11 +88,11 @@ When your intercompany partners send you intercompany transactions, the transact
 ## To handle outgoing intercompany transactions  
 When you post an intercompany journal or document, or send an intercompany order confirmation, the transactions are sent to your intercompany outbox. In order for them to be sent on to your intercompany partners, you must open the outbox and process them.  
 
-  1.  In the **Search** box, enter **IC Outbox Transactions**, and then choose the related link.  
+  1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **IC Outbox Transactions**, and then choose the related link.  
 
-  2.  In the **\($ N\_611 IC Outbox Transactions $\)** window, select the transaction. On the **Navigate** tab, in the **Outbox Transactions** group, choose **Details** to see the details of a transaction.  
+  2.  In the **IC Outbox Transactions** window, select the transaction. On the **Navigate** tab, in the **Outbox Transactions** group, choose **Details** to see the details of a transaction.  
 
-  3.  In the **\($ N\_611 IC Outbox Transactions $\)** window, enter an option in the **\($ T\_414\_10 Line Action $\)** field for each transaction.  
+  3.  In the **611 IC Outbox Transactions** window, enter an option in the **Line Action** field for each transaction.  
 
   4.  You can either fill in the field on one line at a time, or you can select several lines. On the **Actions** tab, in the **Functions** group, choose **Set Line Action**, and then choose the relevant option.  
 
@@ -104,18 +104,20 @@ When you post an intercompany journal or document, or send an intercompany order
 
   8.  If any of the lines contains **Cancel** in the **Line Action** field, you must now post a correction to the original transaction that you posted in your company.  
 
-## To re\-create intercompany inbox transactions  
-Occasionally, you may want to re\-create a transaction in the inbox or outbox. For example, if you accepted a transaction in your inbox but then deleted the document or journal instead of posting it, you can re\-create the inbox entry and accept it again.  
+## To recreate intercompany inbox transactions  
+Occasionally, you may want to re-create a transaction in the inbox or outbox. For example, if you accepted a transaction in your inbox but then deleted the document or journal instead of posting it, you can re-create the inbox entry and accept it again.  
 
- The following procedure describes to re\-create inbox transactions, but the same steps also apply to the outbox.
+ The following procedure describes to re-create inbox transactions, but the same steps also apply to the outbox.
 
-  1.  In the **Search** box, enter **Handled IC Inbox Transactions**, and then choose the related link.  
+  1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Handled IC Inbox Transactions**, and then choose the related link.  
 
-  2.  In the **\($ N\_617 Handled IC Inbox Transactions $\)** window, select the line with the transaction that you want to re\-create in the inbox.  
+  2.  In the **Handled IC Inbox Transactions** window, select the line with the transaction that you want to re-create in the inbox.  
 
-  3.  On the **Actions** tab, in the **Functions** group, choose **Re\-create Inbox Transaction**. Choose the **Yes** button.  
+  3.  On the **Actions** tab, in the **Functions** group, choose **Re-create Inbox Transaction**. Choose the **Yes** button.  
 
 ## See Also
+[Managing Intercompany Transactions](intercompany-manage.md)  
 [Finance](finance.md)  
+[Setting Up Finance](finance-setup-finance.md)  
 [Working with General Journals](ui-work-general-journals.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

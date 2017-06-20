@@ -11,14 +11,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 06/19/2017
+ms.date: 06/20/2017
 ms.author: sgroespe
 
 ---
 # How to: Work with Intercompany Documents and Journals
 
 ## To fill in and send an intercompany sales order  
-You use intercompany documents to post transactions with your intercompany partners. When you post an intercompany document in your company, creates a corresponding document in your IC outbox that you can transfer to your partner. Your partner can then post the document in their company, without having to reenter the data.  
+You use intercompany documents to post transactions with your intercompany partners. When you post an intercompany document in your company, creates a corresponding document in your intercompany outbox that you can transfer to your partner. Your partner can then post the document in their company, without having to reenter the data.  
 
 The following procedure describes how to fill in and send an intercompany sales order, but the same steps also apply to intercompany purchase orders, intercompany invoices, return orders, and credit memos  
 
@@ -31,18 +31,18 @@ The following procedure describes how to fill in and send an intercompany sales 
 >  You can send sales and purchase orders and return orders before posting. Invoices and credit memos cannot be sent until they are posted.  
 
 ## To fill in and post an intercompany journal  
-Use intercompany (IC) journals to post transactions with your intercompany partners. When you post an intercompany journal, a corresponding journal is created in your IC outbox that you can transfer to your partner. Your partner can then post the journal in their company, without having to re-enter the data.
+Use intercompany (IC) journals to post transactions with your intercompany partners. When you post an intercompany journal, a corresponding journal is created in your intercompany outbox that you can transfer to your partner. Your partner can then post the journal in their company, without having to re-enter the data.
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journals**, and then choose the related link.  
 2. Open the relevant journal batch. For more information, see [Working with General Journals](ui-work-general-journals.md).
 3. Fill in the fields as necessary.
 
     > [!NOTE]  
-    >  If you enter a customer or vendor number, it must have an IC partner code assigned to it.  
-4. In the **IC Partner G/L Acc. No.** field, enter the IC general ledger account that the amount will be posted to in your partner's company. This field must be filled in on a line with a bank account or general ledger account in either the **Account No.** field or the **Bal. Account No.** field.  
+    >  If you enter a customer or vendor number, it must have an intercompany partner code assigned to it.  
+4. In the **IC Partner G/L Acc. No.** field, enter the intercompany general ledger account that the amount will be posted to in your partner's company. This field must be filled in on a line with a bank account or general ledger account in either the **Account No.** field or the **Bal. Account No.** field.  
 5. Choose the **Post** action.
 
-Now entries have been posted in your company and corresponding entries have been created in your IC outbox for you to send to your partner company.  
+Now entries have been posted in your company and corresponding entries have been created in your intercompany outbox for you to send to your partner company.  
 
 ## See Also
 [Managing Intercompany Transactions](intercompany-manage.md)  

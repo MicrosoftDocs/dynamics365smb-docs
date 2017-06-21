@@ -11,38 +11,44 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 06/20/2017
+ms.date: 06/21/2017
 ms.author: sgroespe
 
 ---
 # How to: Work with Intercompany Documents and Journals
+You use intercompany documents or journals to post transactions with your intercompany partners. When you post an intercompany document or journal line in your company, a corresponding document or journal line is created in your intercompany outbox that you can transfer to your partner. Your partner can then post the corresponding transaction in their company, without having to re-enter the data.
 
-## To fill in and send an intercompany sales order  
-You use intercompany documents to post transactions with your intercompany partners. When you post an intercompany document in your company, creates a corresponding document in your intercompany outbox that you can transfer to your partner. Your partner can then post the document in their company, without having to reenter the data.  
+For sales and purchase documents, the intercompany partner code on the involved customer or vendor ensures that all orders and invoices generated pertaining to transactions with these companies will produce corresponding documents in the partner company, resulting in correct balancing of the accounts.
 
-The following procedure describes how to fill in and send an intercompany sales order, but the same steps also apply to intercompany purchase orders, intercompany invoices, return orders, and credit memos  
+For intercompany general journal lines, you do not need to specify the accounts for an individual set of books, but simply give the identification of the partner company. Corresponding intercompany general journal lines are then created in the partner company that result in the balancing of the books of both companies involved in a transaction.
+
+## To fill in and send an intercompany sales order
+You can send sales and purchase orders and return orders before posting. Invoices and credit memos cannot be sent until they are posted.
+
+The following procedure describes how to fill in and send an intercompany sales order. The same steps apply to intercompany purchase orders and return orders, and to posted intercompany invoices and credit memos.  
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.  
 2. Choose **New** to create a new sales order. For more information, see [How to: Sell Products](sales-how-sell-products.md).  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. To send the sales order before you post it, choose the **Send IC Sales Order Cnfmn.** action. Otherwise, the document will automatically be sent to your outbox when you post the document.  
+4. Make sure the customer is an intercompany partner.
+5. To send the sales order before you post it, choose the **Send IC Sales Order** action.
 
-> [!NOTE]  
->  You can send sales and purchase orders and return orders before posting. Invoices and credit memos cannot be sent until they are posted.  
+> [!NOTE]
+> If you do perform step 4, then the sales order will be moved to your intercompany outbox where you can send it later. For more information, see [How to: Manage the Intercompany Inbox and Outbox](intercompany-how-manage-intercompany-inbox.md).
 
-## To fill in and post an intercompany journal  
-Use intercompany (IC) journals to post transactions with your intercompany partners. When you post an intercompany journal, a corresponding journal is created in your intercompany outbox that you can transfer to your partner. Your partner can then post the journal in their company, without having to re-enter the data.
+## To fill in and post an intercompany journal
+When you post an intercompany general journal line in your company, a corresponding journal line is created in your intercompany outbox that you can transfer to your partner. Your partner can then post the corresponding transaction in their company, without having to re-enter the data.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journals**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **IC General Journals**, and then choose the related link.  
 2. Open the relevant journal batch. For more information, see [Working with General Journals](ui-work-general-journals.md).
 3. Fill in the fields as necessary.
+4. In the **IC Partner G/L Acc. No.** field, enter the intercompany general ledger account that the amount will be posted to in your partner's company.
 
-    > [!NOTE]  
-    >  If you enter a customer or vendor number, it must have an intercompany partner code assigned to it.  
-4. In the **IC Partner G/L Acc. No.** field, enter the intercompany general ledger account that the amount will be posted to in your partner's company. This field must be filled in on a line with a bank account or general ledger account in either the **Account No.** field or the **Bal. Account No.** field.  
+    > [!NOTE]
+    > This field must be filled in on a line with a bank account or general ledger account in either the **Account No.** field or the **Bal. Account No.** field.  
 5. Choose the **Post** action.
 
-Now entries have been posted in your company and corresponding entries have been created in your intercompany outbox for you to send to your partner company.  
+The involved entries are posted in your company and a journal with the corresponding entries are created in your intercompany outbox that you can send to your partner company. For more information, see [How to: Manage the Intercompany Inbox and Outbox](intercompany-how-manage-intercompany-inbox.md). 
 
 ## See Also
 [Managing Intercompany Transactions](intercompany-manage.md)  

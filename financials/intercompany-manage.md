@@ -37,7 +37,7 @@ The following table describes a sequence of tasks, with links to the topics that
  |---|---|
  |Create your intercompany vendors and customers as so-called intercompany partners, and set up an intercompany chart of accounts.|[How to: Set Up Intercompany](intercompany-how-setup.md)|
  |Use intercompany documents or journals to post transactions with your intercompany partners.|[How to: Work with Intercompany Documents and Journals](intercompany-how-work-documents-journals.md)|
- |Organize and process incoming transactions that you receive from your intercompany partners.|[How to: Manage the Intercompany Inbox](intercompany-how-manage-intercompany-inbox.md)|
+ |Organize and process incoming and outgoing transactions that you exchange with your intercompany partners.|[How to: Manage the Intercompany Inbox and Outbox](intercompany-how-manage-intercompany-inbox.md)|
 
 ## See Also
 [Finance](finance.md)  

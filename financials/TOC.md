@@ -87,7 +87,7 @@
 ## [Managing Intercompany Transactions](intercompany-manage.md)
 ### [How to: Set Up Intercompany](intercompany-how-setup.md)
 ### [How to: Work with Intercompany Documents and Journals](intercompany-how-work-documents-journals.md)
-### [How to: Manage the Intercompany Inbox](intercompany-how-manage-intercompany-inbox.md)
+### [How to: Manage the Intercompany Inbox and Outbox](intercompany-how-manage-intercompany-inbox.md)
 ## [Accountant Experiences in Financials](finance-accounting.md)
 ### [Invite Your External Accountant to Your Financials](finance-invite-external-accountant.md)  
 ### [Accountant Portal extension](ui-extensions-accountant-portal.md)  

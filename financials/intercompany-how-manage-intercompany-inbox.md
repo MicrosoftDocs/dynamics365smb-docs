@@ -1,5 +1,5 @@
 ---
-title: Process Incoming Intercompany Transactions| Microsoft Docs
+title: Process Incoming and Outgoing IC Transactions| Microsoft Docs
 description: Intercompany transactions that you receive from your intercompany partners are listed in the intercompany inbox where you process them manually or automatically.
 services: project-madeira
 documentationcenter: ''
@@ -11,11 +11,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoming document
-ms.date: 06/19/2017
+ms.date: 06/21/2017
 ms.author: sgroespe
 
 ---
-# How to: Manage the Intercompany Inbox
+# How to: Manage the Intercompany Inbox and Outbox
 All of the intercompany transactions that you receive electronically from your intercompany partners are listed in the intercompany Inbox.  
 
 ## Organizing the Inbox  

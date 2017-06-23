@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting
-ms.date: 06/19/2017
+ms.date: 06/23/2017
 ms.author: edupont
 
 ---
@@ -30,7 +30,7 @@ In the current version of [!INCLUDE[d365fin](includes/d365fin_md.md)], inviting 
 If you have activated your subscription of [!INCLUDE[d365fin](includes/d365fin_md.md)] and are no longer using the evaluation company, you have an Azure Active Directory tenant. Your administrator or [!INCLUDE[d365fin](includes/d365fin_md.md)] partner manages this tenant in the [Azure portal](https://portal.azure.com). This is where new users are added and licenses are applied and removed. For more information, see the [Microsoft Azure portal overview](https://docs.microsoft.com/en-us/azure/azure-portal-overview).  
 
 ### Separate License
-One of the license types for [!INCLUDE[d365fin](includes/d365fin_md.md)] is the *Advanced User* license. This license type is intended for use by users such as external accountants. This means that you do not have to buy an extra seat in your current Active Directory or use one of your existing [!INCLUDE[d365fin](includes/d365fin_md.md)] user accounts on your external accountant. For example, if your current Office 365 subscription includes 10 users for [!INCLUDE[d365fin](includes/d365fin_md.md)], and you are currently using 10 *Standard User* licenses, your administrator can simply add your external accountant as a guest user in the Azure portal and assign this user the *Advanced User* license at no additional cost. However, you can only have one user with the *Advanced User* license. If you want to add more users, you must update your Office 365 subscription accordingly.  
+One of the license types for [!INCLUDE[d365fin](includes/d365fin_md.md)] is the *External Accountant* license. This license type is intended for use by users such as external accountants. This means that you do not have to buy an extra seat in your current Active Directory or use one of your existing [!INCLUDE[d365fin](includes/d365fin_md.md)] user accounts on your external accountant. For example, if your current Office 365 subscription includes 10 users for [!INCLUDE[d365fin](includes/d365fin_md.md)], and you are currently using 10 *Full User* licenses, your administrator can simply add your external accountant as a guest user in the Azure portal and assign this user the *External Accountant* license at no additional cost. However, you can only have one user with the *External Accountant* license. If you want to add more users, you must update your Office 365 subscription accordingly.  
 
 ## See Also
 [Finance](finance.md)  

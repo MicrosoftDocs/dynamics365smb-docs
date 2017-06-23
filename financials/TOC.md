@@ -97,7 +97,6 @@
 ## [How to: Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)
 ## [How to: Reverse Journal Posting](finance-how-reverse-journal-posting.md)
 ## [How to: Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)
-## [How to: Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)
 ## [How to: Defer Revenues and Expenses](finance-how-defer-revenue-expenses.md)
 ## [How to: Import Payroll Transactions](finance-how-import-payroll-transactions.md)
 ## [Closing Years and Periods](year-close-years-periods.md)

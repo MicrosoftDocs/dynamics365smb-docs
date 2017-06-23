@@ -15,7 +15,7 @@ ms.date: 06/02/2017
 ms.author: SorenGP
 
 ---
-# Manage Human Resources
+# Human Resources
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can keep detailed records of your employees. You can register and maintain employee information, such as employment contracts, confidential information, qualifications, and employee contacts.
 
 > [!NOTE]  

@@ -11,12 +11,12 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
-ms.date: 06/15/2017
+ms.date: 06/22/2017
 ms.author: sgroespe
 
 ---
 # How to: Export Payments to a Bank File
-When you are ready to make payments to your vendors, or reimbursements to your employees, you can export a file with the payment information on the lines in the **Payment Journal** window. You can then upload the file to your bank to process the related money transfers.
+When you are ready to make payments to your vendors, you can export a file with the payment information on the lines in the **Payment Journal** window. You can then upload the file to your bank to process the related money transfers.
 
 In the generic version of [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], a global provider of services to convert bank data to any file format that your bank requires is set up and connected. In North American versions, the same service can be used to send payment files as electronic funds transfer (EFT), however with a slightly different process. See step 6 in the "To export payments to a bank file" section.    
 

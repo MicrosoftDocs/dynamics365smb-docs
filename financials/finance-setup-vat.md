@@ -109,7 +109,7 @@ The following sections describe how to assign VAT posting groups to individual e
 ### To assign VAT product posting groups to individual items and resources  
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item** or **Resource**, and then choose the related link.  
 2. Do one of the following:
-* On the **Item** card, expand the **Price & Posting** FastTab, and then choose **Show more** to display the .  
+* On the **Item** card, expand the **Price & Posting** FastTab, and then choose **Show more** to display the **VAT Product Posting Group** field.  
 * On the **Resource** card, expand the **Invoicing** FastTab.  
 3. Choose the VAT product posting group.
 
@@ -150,39 +150,41 @@ To set up codes for import VAT, follow these steps:
 ## Verify VAT registration numbers
 It's important that the VAT registration numbers you have for customers, vendors, and contacts are valid. For example, companies sometimes change their tax liability status, and in some countries tax authorities might ask you to provide reports, such as the EC Sales List report, that list the VAT registration numbers you use when you do business.  
   
-The European Commission provides the VIES VAT Number Validation service on its website, which is public and free. However, there's still the extra step of going to the website. [!INCLUDE[d365fin](includes/d365fin_md.md)] can save you that step, and let you use the VIES service to validate and track VAT numbers for customers, vendors, and contacts straight from the customer, vendor, and contact cards. The service in [!INCLUDE[d365fin](includes/d365fin_md.md)] is named EU VAT Reg. No. Validation Service. It's available on the **Service Connections** page, and you can start using it just by selecting a check box. The service is free, and signup is not required.
+The European Commission provides the VIES VAT Number Validation service on its website, which is public and free. However, there's still the extra step of going to the website. [!INCLUDE[d365fin](includes/d365fin_md.md)] can save you that step, and let you use the VIES service to validate and track VAT numbers for customers, vendors, and contacts straight from the customer, vendor, and contact cards. The service in [!INCLUDE[d365fin](includes/d365fin_md.md)] is named **EU VAT Reg. No. Validation Service**. It's available on the **Service Connections** page, and you can start using it just by selecting a check box. The service is free, and signup is not required.
 
 When you use our service, we record a history of VAT numbers and verifications for each customer, vendor, or contact, in the **VAT Registration Log**, so you can easily track them. The log is specific to each customer. For example, the log is useful for proving that you have verified that the current VAT number is correct. When you verify a VAT number, the **Request Identifier** column in the log will reflect that you've taken action. 
 
 You can view the VAT Registration log on the Customer, Vendor, or Contact cards, on the **Invoicing** FastTab, by choosing the lookup button in the **VAT Registration No.** field.  
 
-Our service can also save you a little time when you're creating a customer or vendor. If you know the customer's VAT number, you can enter it in the **VAT Registration No.** field on the Customer or Vendor cards, and we'll fill out the customer name for you. Some countries also provide company addresses in a structured format. In those countries, we'll fill in the address too.  
+Our service can also save you time when you're creating a customer or vendor. If you know the customer's VAT number, you can enter it in the **VAT Registration No.** field on the Customer or Vendor cards, and we'll fill out the customer name for you. Some countries also provide company addresses in a structured format. In those countries, we'll fill in the address too.  
 
-**Notes**: There are a couple of things to note about the VIES VAT Number Validation service:
+> [!NOTE]  
+> There are a couple of things to note about the VIES VAT Number Validation service:
 
-* The service uses the http protocol, which means that data transferred through the service is not encrypted.
+* The service uses the http protocol, which means that data transferred through the service is not encrypted.  
 * You may experience downtime for this service for which Microsoft is not responsible. The service is part of a broad EU network of national VAT registers.
 
 ## Using reverse charge VAT for trade between EU countries or regions
-Some companies must use reverse charge VAT when trading with other companies. For example this rule applies to purchases from EU countries/regions and sales to EU countries/regions.
-
+Some companies must use reverse charge VAT when trading with other companies. For example this rule applies to purchases from EU countries/regions and sales to EU countries/regions.  
+  
 > [!NOTE]  
->   This rule applies when trading with companies that are registered as VAT liable in another EU country/region. If you do business directly with consumers in other EU countries/regions, then you should contact your tax authority for applicable VAT rules.  
-
+> This rule applies when trading with companies that are registered as VAT liable in another EU country/region. If you do business directly with consumers in other EU countries/regions, then you should contact your tax authority for applicable VAT rules.  
+  
 > [!TIP]  
->   You can verify that a company is registered as VAT liable in another EU country by using the EU VAT Registration Number Validation service. The service is available for free in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see the section titled _Verify VAT registration numbers_ in this topic.
+> You can verify that a company is registered as VAT liable in another EU country by using the EU VAT Registration Number Validation service. The service is available for free in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see the section titled _Verify VAT registration numbers_ in this topic.
 
 ### Sales to EU countries or regions
-VAT is not calculated on sales to VAT-liable companies in other EU countries/regions. You must report the value of these sales to EU countries/regions separately on your VAT statement.
+VAT is not calculated on sales to VAT-liable companies in other EU countries/regions. You must report the value of these sales to EU countries/regions separately on your VAT statement.  
+
 To correctly calculate VAT on sales to EU countries/regions, you should:  
   
-* Set up a line for sales with the same information for purchases. If you have already set up lines in the VAT Posting Setup window for purchases from EU countries/regions, then you can also use these lines for sales.  
+* Set up a line for sales with the same information for purchases. If you have already set up lines on the VAT Posting Setup page for purchases from EU countries/regions, then you can also use these lines for sales.  
 * Assign the VAT business posting groups in the **VAT Bus. Posting Group** field on the **Invoicing** FastTab of the customer card of each EU customer. You should also enter the customer's VAT registration number in the **VAT Registration No.** field on the **Foreign Trade** FastTab.  
 
 When you post a sale to a customer in another EU country/region, the VAT amount is calculated, and a VAT entry is created by using the information about the reverse charge VAT and the VAT base, which is the amount that is used to calculate the VAT amount. No entries are posted to the VAT accounts in the general ledger.
 
 ## Understanding VAT rounding for documents
-Amounts in documents that are not yet posted are rounded and displayed to correspond with the final rounding of amounts that are actually posted. VAT is calculated for a complete document, which means that VAT that is calculated in the document is based on the sum of all lines with the same VAT identifier in the document.
+Amounts in documents that are not yet posted are rounded and displayed to correspond with the final rounding of amounts that are actually posted. VAT is calculated for a complete document, which means that VAT is calculated based on the sum of all lines with the same VAT identifier in the document.
 
 ## See Also  
 [Setting Up Unrealized Value Added Tax](finance-setup-unrealized-vat.md)

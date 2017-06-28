@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments
-ms.date: 06/02/2017
+ms.date: 06/19/2017
 ms.author: jswymer
 
 ---
@@ -42,15 +42,15 @@ ms.author: jswymer
 * Run the **Aged Accounts Payable** report and reconcile accounts payable to the general ledger.  
 * Run the **Delete Invoiced Purchase Orders** batch job.  
 
-<!-- ### Fixed Assets
+Fixed Assets
 * Post all maintenance costs have been posted through the fixed asset journals or invoices.
 * Post adjustments.
 * Post appreciation.
 * Post depreciation.
-* Update and post the recurring fixed asset journal.-->
+* Update and post the recurring fixed asset journal.
 
-<!--### Intercompany
-* Process Intercompany Postings.-->
+Intercompany
+* Process Intercompany Transactions
 
 ## Calculate and Process Sales Tax
 * Complete Tax Statements.  

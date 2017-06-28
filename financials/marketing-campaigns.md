@@ -49,4 +49,4 @@ Campaigns are conducted by salespeople, and you must create activities to repres
 [Managing Contacts](marketing-contacts.md)  
 [Managing Segments](marketing-segments.md)  
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
-[Working withFinancials](ui-work-product.md)  
+[Working with Financials](ui-work-product.md)  

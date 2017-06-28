@@ -36,8 +36,13 @@ The following table describes a sequence of tasks, with links to the topics that
 | Assign extra costs, such as freight and physical handling that you incur during trade, to the involved items so that the cost is reflected in inventory valuation. |[How to: Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md) |
 | Recognize revenues and expenses in other periods than when the transactions were posted. |[How to: Defer Revenues and Expenses](finance-how-defer-revenue-expenses.md)|
 | Import salary transactions from your payroll provider into the general ledger. |[How to: Import Payroll Transactions](finance-how-import-payroll-transactions.md) |
-| Prepare to close a fiscal year or period. |[Closing Years and Periods](year-close-years-periods.md) |
 | Monitor the flow of cash in and out of your business. |[Analyzing Cash Flows in Your Company](finance-analyze-cash-flow.md) |
+| Prepare to close a fiscal year or period. |[Closing Years and Periods](year-close-years-periods.md) |
+|**US**: Meet the IRS requirement to submit various versions of the 1099 form for vendor payments.|[Reporting 1099 Transactions in the US](us-finance-tax-1099.md)|
+|**US and Canada**: Understand how to set up and use US and Canadian sales tax functionality.|[Reporting Sales Tax in the US and Canada](us-finance-sales-tax.md)|
+|**Canada**: Understand how to set up and use Canadian sales tax functionality for goods and services.|[Reporting Sales Tax and Goods/Services Tax in Canada](ca-finance-tax.md)|
+|**Canada**: Set up and use Canadian functionality for reporting General Index of Financial Information.| [How to: Work with GIFI Codes in Canada](ca-finance-work-gifi-codes.md)
+|**EU**: Prepare a report that lists VAT from sales, and submit the report to a tax authority. | [How to: Report VAT to Tax Authorities](finance-how-report-vat.md)|
 
 ## See Also
 [Setting Up Finance](finance-setup-finance.md)  

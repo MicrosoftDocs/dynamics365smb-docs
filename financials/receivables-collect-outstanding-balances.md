@@ -58,7 +58,7 @@ If customers have overdue payments, you must decide when and how to send them a 
 2. Fill in the fields as necessary.  
 3. To use more than one combination of reminder terms, set up a code for each one.
 
-## To set reminder levels
+## To set up reminder levels
 The first time a reminder is created for a customer, the setting from level 1 is used. When the reminder is issued, the level number is registered on the reminder entries that are created and linked to the individual customer ledger entries. If it is necessary to remind the customer again, all reminder entries linked to open customer ledger entries are checked to locate the highest level number. The conditions from the next level number will then be used for the new reminder.
 
 If you create more reminders than you have defined levels for, the conditions for the highest level will be used. You can create as many reminders as are allowed by the **Max. No of Reminders** field in the reminder terms.
@@ -78,22 +78,22 @@ If you create more reminders than you have defined levels for, the conditions fo
 6. Choose the **Beginning Text** or **Ending Text** actions respectively, and fill in the **Reminder Text** window.
 7. To automatically insert related values in the resulting reminder text, enter the following placeholders in the **Text** field.  
 
-        |Placeholder|Value|  
-        |-----------------|-----------|  
-        |%1|Content of the **Document Date** field on the reminder header|  
-        |%2|Content of the **Due Date** field on the reminder header|  
-        |%3|Content of the **Interest Rate** field on the related finance charge terms|  
-        |%4|Content of the **Remaining Amount** field on the reminder header|  
-        |%5|Content of the **Interest Amount** field on the reminder header|  
-        |%6|Content of the **Additional Fee** field on the reminder header|  
-        |%7|The total amount of the reminder|  
-        |%8|Content of the **Reminder Level** field on the reminder header|  
-        |%9|Content of the **Currency Code** field on the reminder header|  
-        |%10|Content of the **Posting Date** field on the reminder header|  
-        |%11|The company name|  
-        |%12|Content of the **Add. Fee per Line** field on the reminder header|  
+|Placeholder|Value|  
+|-----------------|-----------|  
+|%1|Content of the **Document Date** field on the reminder header|  
+|%2|Content of the **Due Date** field on the reminder header|  
+|%3|Content of the **Interest Rate** field on the related finance charge terms|  
+|%4|Content of the **Remaining Amount** field on the reminder header|  
+|%5|Content of the **Interest Amount** field on the reminder header|  
+|%6|Content of the **Additional Fee** field on the reminder header|  
+|%7|The total amount of the reminder|  
+|%8|Content of the **Reminder Level** field on the reminder header|  
+|%9|Content of the **Currency Code** field on the reminder header|  
+|%10|Content of the **Posting Date** field on the reminder header|  
+|%11|The company name|  
+|%12|Content of the **Add. Fee per Line** field on the reminder header|  
 
-         For example, if you write **You owe %7 %9 due on %2.**, then the resulting reminder will contain the following text: **You owe 1.200,50 LCY due on 02\-02\-2014.**.
+For example, if you write **You owe %7 %9 due on %2.**, then the resulting reminder will contain the following text: **You owe 1.200,50 LCY due on 02\-02\-2014.**.
 
 After you have set up the reminder terms, with additional levels and text, enter one of the codes on each of the customer cards. For more information, see [How to: Register New Customers](sales-how-register-new-customers.md).
 
@@ -178,6 +178,19 @@ In addition, each code in the Finance Charge Terms table is linked to a subtable
 
     For each finance charge term, you can specify text that will be printed before (**Beginning Text**) or after (**Ending Text**) on the entries on the finance charge memo.  
 6. Choose the **Beginning Text** or **Ending Text** actions respectively, and fill in the **Finance Charge Text** window.
+7. To automatically insert related values in the resulting finance charge text, enter the following placeholders in the **Text** field.
+
+|Placeholder|Value|  
+|-----------------|-----------|  
+|%1|Content of the **Document Date** field on the finance charge memo header|  
+|%2|Content of the **Due Date** field on the finance charge memo header|  
+|%3|Content of the **Interest Rate** field on the related finance charge terms|  
+|%4|Content of the **Remaining Amount** field on the finance charge memo header|  
+|%5|Content of the **Interest Amount** field on the finance charge memo header|  
+|%6|Content of the **Additional Fee** field on the finance charge memo header|  
+|%7|The total amount of the reminder|  
+|%8|Content of the **Currency Code** field on the finance charge memo header|  
+|%9|Content of the **Posting Date** field on the finance charge memo header|  
 
 ## To create a finance charge memo manually  
 A finance charge memo is similar to an invoice. You can fill in a header manually and have the lines filled in for you, or you can create finance charge memos for all customers automatically.

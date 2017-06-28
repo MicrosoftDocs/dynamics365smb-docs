@@ -31,7 +31,7 @@ A customer ledger entry with the **On Hold** field filled in will not prompt the
 
 After you have created reminders and made any needed modifications, you can either print test reports or issue the reminders, typically as email.
 
-## Finance charges
+## Finance Charges
 When a customer does not pay by the due date, you can have finance charges calculated automatically and add them to the overdue amounts on the customer's account. You can inform customers of the added charges by sending finance charge memos.  
 
 > [!NOTE]  
@@ -71,10 +71,11 @@ If you create more reminders than you have defined levels for, the conditions fo
 4. Choose the **Currencies** action.
 5. In the **Currencies for Reminder Levels** window, define for each reminder level code and corresponding reminder level number a currency code and an additional fee.
 
-> [!NOTE]  
-> When you create reminders in a foreign currency, the foreign currency conditions that you set up here will be used to create reminders. If there are no foreign currency reminder conditions set up, the LCY reminder conditions that are set up in the **Reminder Levels** window will be used and then converted to the relevant currency.
+    > [!NOTE]  
+    > When you create reminders in a foreign currency, the foreign currency conditions that you set up here will be used to create reminders. If there are no foreign currency reminder conditions set up, the LCY reminder conditions that are set up in the **Reminder Levels** window will be used and then converted to the relevant currency.
 
-    For each reminder level, you can specify text that will be printed before (**Beginning Text**) or after (**Ending Text**) on the entries on the reminder.  
+    For each reminder level, you can specify text that will be printed before (**Beginning Text**) or after (**Ending Text**) on the entries on the reminder.
+
 6. Choose the **Beginning Text** or **Ending Text** actions respectively, and fill in the **Reminder Text** window.
 7. To automatically insert related values in the resulting reminder text, enter the following placeholders in the **Text** field.  
 
@@ -139,9 +140,9 @@ For each customer ledger entry on the finance charge memo, an entry is created i
 
 If the **Post Interest** or the **Post Additional Fee** check boxes are selected in the **Reminder Terms** window, then the following entries are also created:
 
-- one entry in the **Cust. Ledger Entries** window
-- one receivables entry in the relevant G/L account
-- one interest and/or one additional fee entry in the relevant G/L account
+- One entry in the **Cust. Ledger Entries** window
+- One receivables entry in the relevant G/L account
+- One interest and/or one additional fee entry in the relevant G/L account
 
 In addition, issuing the reminder may result in VAT entries.
 
@@ -220,11 +221,11 @@ For each customer ledger entry on the finance charge memo, an entry is created i
 
 If the **Post Interest** or the **Post Additional Fee** check boxes are selected in the **Finance Charge Terms** window, then the following entries are also created:
 
-- one entry in the **Cust. Ledger Entries** window
-- one receivables entry in the relevant G/L account
-- one interest and/or one additional fee entry in the relevant G/L account
+- One entry in the **Cust. Ledger Entries** window
+- One receivables entry in the relevant G/L account
+- One interest and/or one additional fee entry in the relevant G/L account
 
-In addition, issuing the reminder may result in VAT entries.
+In addition, issuing the finance charge memo may result in VAT entries.
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Finance Charge Memos**, and then choose the related link.
 2. Select the relevant memo, and then choose the **Issue** action.

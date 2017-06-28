@@ -127,7 +127,6 @@
 ## [How to: Sell Products](sales-how-sell-products.md)
 ## [How to: Make Drop Shipments](sales-how-drop-shipment.md)
 ## [How to: Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md)
-## [How to: How to: Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md)
 ## [How to: Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md)
 ## [How to: Register New Customers](sales-how-register-new-customers.md)
 

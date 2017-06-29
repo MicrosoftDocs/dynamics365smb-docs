@@ -1,20 +1,21 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "Corrective Invoices"
+ms.custom: na
+ms.date: "06-04-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "correcting, invoices"
+  - "invoices, correcting"
+ms.assetid: dade3053-1ca6-4a4d-8b4f-f0e7a29403f0
+caps.latest.revision: 18
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "es-es"
+---
 # Corrective Invoices
 The corrective invoice functionality allows you to send a corrective invoice when there is an error or dispute that affects a VAT amount or fiscal data. This invoice includes all legally required data and refers to the original invoice or invoices. The original invoices cannot be voided, and remain valid. The corrective invoice contains the corrections, and reasons for these corrections.  
   

@@ -1,20 +1,19 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "Obligatory Sales Reports"
+ms.custom: na
+ms.date: "06-04-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "sales reports, obligatory"
+ms.assetid: b0ef8490-90d4-453c-820f-4ca0d1832138
+caps.latest.revision: 2
+ms.author: "edupont"
+translation.priority.ht: 
+  - "ru-ru"
+---
 # Obligatory Sales Reports
 The obligatory sales reports feature enables you to print the following reports:  
   
@@ -43,23 +42,45 @@ The obligatory sales reports feature enables you to print the following reports:
  The Payment Invoice reports are of the following types:  
   
 |Report|Description|  
-|---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ------------|-----------------|  
+|------------|-----------------|  
+|Order Proforma Invoice report|Printed in portrait form from sales documents that are not yet posted.|  
+|Order Proforma Invoice \(A\) report|Printed in landscape form from sales documents that are not yet posted.|  
+|Posted Proforma Invoice report|Printed in portrait form from posted sales invoices.|  
+|Posted Proforma Invoice \(A\) report.|Printed in landscape form from posted sales invoices.|  
+  
+## Shipment TORG\-12 Report  
+ The Shipment TORG\-12 report is sent to the customer with the goods sold. The customer accepts goods according to this document.  
+  
+### Types of Shipment TORG\-12 Reports  
+ The Shipment TORG\-12 reports are of the following types:  
+  
+|Report|Description|  
+|------------|-----------------|  
+|Order Item Shipment TORG\-12 report|Printed from sales documents that are not yet posted.|  
+|Posted Invoice Shipment TORG\-12 report|Printed from posted sales invoices.|  
+|Posted Shipment Shipment TORG\-12 report|Printed from posted sales shipments.|  
+  
+## Shipment Waybill 1\-T Report  
+ The Shipment Waybill 1\-T report is used by the transportation agent to approve the rights to transport goods.  
+  
+### Types of Shipment Waybill 1\-T Reports  
+ The Shipment Waybill 1\-T reports are of the following types:  
+  
+|Report|Description|  
+|------------|-----------------|  
+|Order Item Waybill 1\-T report|Printed from sales documents that are not yet posted.|  
+|Posted Shipment Item Waybill 1\-T report|Printed from posted sales shipments.|  
+|Posted Invoice Item Waybill 1\-T report|Printed from posted sales invoices.|  
+|Waybill 1\-T report|Printed from posted sales invoices|  
+  
+## Factura\-Invoice Report  
+ The Factura\-Invoice report is sent to the customer after shipment. This document is required by the customer to decrease the payment of VAT to the tax authorities.  
+  
+### Types of Factura\-Invoice Reports  
+ The Factura\-Invoice reports can be of the following types:  
+  
+|Report|Description|  
+|------------|-----------------|  
 |Order Factura\-Invoice report|Printed in portrait form from sales documents that are not yet posted.|  
 |Order Factura\-Invoice \(A\) report|Printed in portrait form from sales documents that are not yet posted.|  
 |Posted Factura\-Invoice report|Printed in portrait form from posted sales documents that are not yet posted.|  

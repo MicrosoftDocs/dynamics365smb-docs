@@ -1,20 +1,25 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Create an Order from an Archived Blanket Order"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "blanket orders, copying archived blanket orders"
+  - "archived blanket orders, creating new orders"
+  - "orders, creating from archived blanket orders"
+ms.assetid: 736350ff-a967-468a-9673-06743023cae7
+caps.latest.revision: 29
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "de-at"
+  - "de-ch"
+  - "de-de"
+  - "fr-ch"
+---
 # How to: Create an Order from an Archived Blanket Order
 You can create a new sales order or purchase order from an archived blanket order.  
   

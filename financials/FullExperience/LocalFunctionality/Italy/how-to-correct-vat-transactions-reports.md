@@ -1,20 +1,17 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Correct VAT Transactions Reports"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+ms.assetid: 8be50aa7-614d-42d3-b6fc-05111be9ed24
+caps.latest.revision: 5
+ms.author: "edupont"
+translation.priority.ht: 
+  - "it-it"
+---
 # How to: Correct VAT Transactions Reports
 ### To send a corrected VAT transaction report  
   

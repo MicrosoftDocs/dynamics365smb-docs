@@ -1,20 +1,44 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Background Post with Job Queues"
+ms.custom: na
+ms.date: "03-03-2017"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "posting, background"
+  - "job queues, background posting"
+ms.assetid: 9d9432e7-ed67-419a-9b14-fcea15cb48cb
+caps.latest.revision: 12
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "da-dk"
+  - "de-at"
+  - "de-ch"
+  - "de-de"
+  - "en-au"
+  - "en-ca"
+  - "en-gb"
+  - "en-in"
+  - "en-nz"
+  - "es-es"
+  - "es-mx"
+  - "fi-fi"
+  - "fr-be"
+  - "fr-ca"
+  - "fr-ch"
+  - "fr-fr"
+  - "is-is"
+  - "it-ch"
+  - "it-it"
+  - "nb-no"
+  - "nl-be"
+  - "nl-nl"
+  - "ru-ru"
+  - "sv-se"
+---
 # How to: Background Post with Job Queues
 Job queues are an effective tool to schedule the running of business processes in the background. For example, there may be an instance in which multiple users are trying to post sales orders at the same time, but only one order can be processed at a time. By setting up a background posting routine, you can place the postings in a queue for processing in the background.  
   

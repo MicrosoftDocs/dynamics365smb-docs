@@ -1,20 +1,20 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Print the Intrastat Form Report"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "Intrastat, printing form reports"
+ms.assetid: 16875a48-4966-47dc-820a-1dc57eee6737
+caps.latest.revision: 2
+ms.author: "edupont"
+translation.priority.ht: 
+  - "fr-be"
+  - "nl-be"
+---
 # How to: Print the Intrastat Form Report
 The **Intrastat \- Form** report must be used for reporting to Intrastat. In Belgium, you must report the movement of goods to the statistics authorities every month, and the report must be sent to the tax authorities.  
   

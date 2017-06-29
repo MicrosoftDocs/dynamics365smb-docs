@@ -1,20 +1,45 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "Contract Trendscape Overview"
+ms.custom: na
+ms.date: "03-03-2017"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "service contracts, trendscape"
+  - "contracts (service), trendscape"
+  - "trendscape, contracts"
+ms.assetid: f31b79a8-1d3c-4192-9755-cb884cb47d13
+caps.latest.revision: 5
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "da-dk"
+  - "de-at"
+  - "de-ch"
+  - "de-de"
+  - "en-au"
+  - "en-ca"
+  - "en-gb"
+  - "en-in"
+  - "en-nz"
+  - "es-es"
+  - "es-mx"
+  - "fi-fi"
+  - "fr-be"
+  - "fr-ca"
+  - "fr-ch"
+  - "fr-fr"
+  - "is-is"
+  - "it-ch"
+  - "it-it"
+  - "nb-no"
+  - "nl-be"
+  - "nl-nl"
+  - "ru-ru"
+  - "sv-se"
+---
 # Contract Trendscape Overview
 The **Contract Trendscape** window gives a financial overview of the service contract using the data from its service ledger entries. This overview is generated for a specific time period that you set in the **Period** field.  
   

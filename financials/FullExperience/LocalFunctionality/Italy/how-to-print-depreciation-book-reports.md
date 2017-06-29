@@ -1,20 +1,20 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Print Depreciation Book Reports"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "Depreciation Book report"
+ms.assetid: 0173faa5-e6bf-436b-9cc1-f83a0317a507
+caps.latest.revision: 20
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "it-it"
+---
 # How to: Print Depreciation Book Reports
 The **Depreciation Book** is a fiscal report that is sorted by year and item class. The **Depreciation Book** report shows changes in fixed asset stock in a given year by item class, rather than by the individual items. The **Depreciation Book** report is run after the depreciation method has been set up and assets have been entered.  
   

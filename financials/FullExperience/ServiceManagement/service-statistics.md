@@ -1,20 +1,44 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "Service Statistics"
+ms.custom: na
+ms.date: "03-03-2017"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "service management, statistics"
+  - "statistics, service management"
+ms.assetid: 4524e3bb-f36d-4db3-9929-2bb0443a35ca
+caps.latest.revision: 5
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "da-dk"
+  - "de-at"
+  - "de-ch"
+  - "de-de"
+  - "en-au"
+  - "en-ca"
+  - "en-gb"
+  - "en-in"
+  - "en-nz"
+  - "es-es"
+  - "es-mx"
+  - "fi-fi"
+  - "fr-be"
+  - "fr-ca"
+  - "fr-ch"
+  - "fr-fr"
+  - "is-is"
+  - "it-ch"
+  - "it-it"
+  - "nb-no"
+  - "nl-be"
+  - "nl-nl"
+  - "ru-ru"
+  - "sv-se"
+---
 # Service Statistics
 The service statistics feature lets you gain a quick overview of the contents of all of a service document, which includes quotes, invoices, or credit memos, the details on the specific service lines, and the items in the document. The feature enables you to see the amounts that will be posted if you will post the service document.  
   

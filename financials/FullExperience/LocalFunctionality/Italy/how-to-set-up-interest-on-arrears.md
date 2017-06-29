@@ -1,20 +1,20 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Set Up Interest on Arrears"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "interest, on arrears"
+ms.assetid: 4857a316-3179-4272-a043-f4e49f6f467f
+caps.latest.revision: 22
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "it-it"
+---
 # How to: Set Up Interest on Arrears
 For each finance charge term, you can specify how interest on arrears must be calculated. You can set up finance charge calculations with different interest rates for different periods.  
   

@@ -1,20 +1,24 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "About Forecasting Functionality"
+ms.custom: na
+ms.date: "03-03-2017"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "forecasts, about"
+  - "independent demand"
+  - "finished goods, about"
+  - "demand, about"
+  - "sales forecasts, about"
+ms.assetid: 1e3c2862-7822-43aa-bb47-a8fc2c6fe960
+caps.latest.revision: 7
+ms.author: "sgroespe"
+manager: "terryaus"
+translation.priority.ht: 
+  - "da-dk"
+---
 # About Forecasting Functionality
 Forecasting functionality is used to create anticipated demand; actual demand is created from sales and production orders. During creation of the Master Production Schedule \(MPS\), the forecast is netted against the sales and production orders. The *Component* option on the forecast determines which type of requirements to take into consideration in the netting process. If the forecast is for a sales item, only sales orders net the forecast. If it is for components, only dependent demand from production order components net the forecast.  
   

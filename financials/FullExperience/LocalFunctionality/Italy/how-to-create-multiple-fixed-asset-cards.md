@@ -1,20 +1,21 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Create Multiple Fixed Asset Cards"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "fixed assets, setting up automatic creation of"
+  - "fixed assets, creating cards"
+ms.assetid: dd883c1b-4c5b-4aa8-be65-5c9c982ae26a
+caps.latest.revision: 23
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "it-it"
+---
 # How to: Create Multiple Fixed Asset Cards
 You can create multiple fixed asset cards automatically during purchase invoice posting. For example, if your company purchases 200 computers of the same kind from the same vendor, you do not have to manually create a fixed asset card for each computer; the fixed asset cards can be created automatically.  
   

@@ -1,20 +1,19 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Enter NACE Codes"
+ms.custom: na
+ms.date: "06-04-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "NACE codes"
+  - "industrial classification"
+ms.assetid: ae5d207a-3c89-49c6-aef3-3352a4524c39
+caps.latest.revision: 26
+ms.author: "edupont"
+manager: "terryaus"
+---
 # How to: Enter NACE Codes
 Nomenclature génerale des Activités économiques dans les Communautés Européennes \(NACE\) codes represent the statistical classification of economic activities within the European Union \(EU\).  
   

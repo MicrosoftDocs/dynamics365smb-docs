@@ -1,20 +1,21 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "Depreciation Bonus"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "depreciation bonus, setting up"
+  - "depreciation bonus, canceling"
+  - "depreciation bonus, calculating"
+ms.assetid: 4c299d98-ca5d-42aa-b970-a0cb4faeb6df
+caps.latest.revision: 2
+ms.author: "edupont"
+translation.priority.ht: 
+  - "ru-ru"
+---
 # Depreciation Bonus
 *Depreciation bonus* is an accelerated depreciation method applied in tax accounting because of provisions in the Russian tax laws. A depreciation bonus enables you to include fixed asset and capital investment expenses in the current period at the rate of 10 percent or 30 percent.  
   

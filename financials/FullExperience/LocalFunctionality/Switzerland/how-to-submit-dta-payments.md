@@ -1,20 +1,20 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Submit DTA Payments"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "DTA payments, submitting"
+ms.assetid: 01ece1ef-3094-43d8-9670-7a3709354113
+caps.latest.revision: 2
+ms.author: "edupont"
+translation.priority.ht: 
+  - "de-ch"
+  - "fr-ch"
+---
 # How to: Submit DTA Payments
 To submit DatenTrägerAustausch \(DTA\) payments to your bank for payment, you must do the following:  
   

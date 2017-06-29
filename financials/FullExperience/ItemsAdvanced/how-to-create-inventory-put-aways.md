@@ -1,20 +1,46 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Create Inventory Put-aways"
+ms.custom: na
+ms.date: "03-03-2017"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "inventory management, creating put-aways"
+  - "putting away, creating put-aways"
+  - "inventory put-aways, creating"
+  - "put-aways, creating"
+ms.assetid: cbfc33b4-06d5-4371-a689-070adc98905f
+caps.latest.revision: 11
+ms.author: "sgroespe"
+manager: "terryaus"
+translation.priority.ht: 
+  - "da-dk"
+  - "de-at"
+  - "de-ch"
+  - "de-de"
+  - "en-au"
+  - "en-ca"
+  - "en-gb"
+  - "en-in"
+  - "en-nz"
+  - "es-es"
+  - "es-mx"
+  - "fi-fi"
+  - "fr-be"
+  - "fr-ca"
+  - "fr-ch"
+  - "fr-fr"
+  - "is-is"
+  - "it-ch"
+  - "it-it"
+  - "nb-no"
+  - "nl-be"
+  - "nl-nl"
+  - "ru-ru"
+  - "sv-se"
+---
 # How to: Create Inventory Put-aways
 When your location is set up to require put\-away processing but not receive processing, you will use the **Inventory Put\-away** document to organize and record your put\-away activity.  
   

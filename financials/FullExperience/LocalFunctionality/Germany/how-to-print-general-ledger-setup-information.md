@@ -1,20 +1,23 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Print General Ledger Setup Information"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "general ledger, printing setup information"
+ms.assetid: dd8bcfb8-a980-4cc2-baa8-32aac571db3b
+caps.latest.revision: 20
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "de-at"
+  - "de-ch"
+  - "de-de"
+  - "fr-ch"
+---
 # How to: Print General Ledger Setup Information
 Before you use FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> in the daily business, you can run the **G\/L Setup Information** report to display the master data that you have set up. You can look over this master data so that you have a baseline to compare to, and then verify that you have set up posting groups correctly, for example.  
   

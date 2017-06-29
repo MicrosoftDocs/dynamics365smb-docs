@@ -1,20 +1,29 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: View Reclassified Entries"
+ms.custom: na
+ms.date: "03-03-2017"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "reclassifying, viewing entries"
+ms.assetid: 97b3a7d7-590c-4f13-8ccf-2c52a9bc716f
+caps.latest.revision: 8
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "da-dk"
+  - "en-au"
+  - "en-ca"
+  - "en-gb"
+  - "en-in"
+  - "en-my"
+  - "en-nz"
+  - "en-ph"
+  - "en-sg"
+  - "en-zw"
+---
 # How to: View Reclassified Entries
 You can print the **\($ R\_5606 Fixed Asset \- Book Value 02 $\)** report to see the reclassified entries.  
   

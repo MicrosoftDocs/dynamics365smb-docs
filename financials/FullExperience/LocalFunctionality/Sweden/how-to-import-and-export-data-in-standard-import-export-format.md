@@ -1,20 +1,22 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Import and Export Data in Standard Import Export Format"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "import, SIE format"
+  - "standard import export (SIE)"
+  - "export data, SIE format"
+ms.assetid: 9ec17b81-5ed2-41d0-9dd8-34711c5506cf
+caps.latest.revision: 23
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "sv-se"
+---
 # How to: Import and Export Data in Standard Import Export Format
 You can import and export general ledger data according to the standard import export \(SIE\) format. By specifying SIE dimensions and file types, you can specify the level of detail covered by import or export transactions. For more information, see [Standard Import Export Group](http://go.microsoft.com/fwlink/?LinkID=164870&clcid=0x41d).  
   

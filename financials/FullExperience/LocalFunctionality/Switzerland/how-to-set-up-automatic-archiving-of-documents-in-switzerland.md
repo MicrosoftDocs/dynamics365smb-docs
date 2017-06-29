@@ -1,20 +1,23 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Set Up Automatic Archiving of Documents in Switzerland"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "archiving, sales documents"
+  - "archiving, purchase documents"
+  - "purchase documents, archiving"
+  - "sales documents, archiving"
+ms.assetid: 7444e32f-fb6b-4a8c-a2d7-e7e5f8d694ed
+caps.latest.revision: 2
+ms.author: "edupont"
+translation.priority.ht: 
+  - "de-ch"
+  - "fr-ch"
+---
 # How to: Set Up Automatic Archiving of Documents in Switzerland
 You can set up automatic archiving of sales documents and purchase documents—such as quotes, blanket orders, and orders—before you delete documents.  
   

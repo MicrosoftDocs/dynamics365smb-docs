@@ -1,20 +1,47 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "Set Up the Chart of Accounts"
+ms.custom: na
+ms.date: "03-03-2017"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "chart of accounts, setting up"
+ms.assetid: cfed2259-7055-4a25-a4c9-99b7c91b5c54
+caps.latest.revision: 3
+ms.author: "sgroespe"
+manager: "terryaus"
+translation.priority.ht: 
+  - "da-dk"
+  - "de-at"
+  - "de-ch"
+  - "de-de"
+  - "en-au"
+  - "en-ca"
+  - "en-gb"
+  - "en-in"
+  - "en-my"
+  - "en-nz"
+  - "en-ph"
+  - "en-sg"
+  - "en-zw"
+  - "es-es"
+  - "es-mx"
+  - "fi-fi"
+  - "fr-be"
+  - "fr-ca"
+  - "fr-ch"
+  - "fr-fr"
+  - "is-is"
+  - "it-ch"
+  - "it-it"
+  - "nb-no"
+  - "nl-be"
+  - "nl-nl"
+  - "ru-ru"
+  - "sv-se"
+---
 # Set Up the Chart of Accounts
 If you want to set up a new chart of accounts or add new accounts to an existing chart of accounts, you must set up each account individually. You can set up general ledger accounts in the Chart of Accounts window or on a G\/L account card. When you set up a new chart of accounts, it is easier to use the Chart of Accounts window. The G\/L account cards are better suited to changing or adding information on a single account.  
   

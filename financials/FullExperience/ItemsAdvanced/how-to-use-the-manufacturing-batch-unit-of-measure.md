@@ -1,20 +1,25 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Use the Manufacturing Batch Unit of Measure"
+ms.custom: na
+ms.date: "03-03-2017"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "production orders, batch units of measure"
+  - "production BOMs, creating"
+  - "production BOMs, batch units of measure"
+  - "items, batch units of measure"
+  - "batch unit of measure"
+  - "production orders, refreshing"
+ms.assetid: 00615c53-26a6-4d09-b566-d2d72b9eae68
+caps.latest.revision: 11
+ms.author: "sgroespe"
+manager: "terryaus"
+translation.priority.ht: 
+  - "da-dk"
+---
 # How to: Use the Manufacturing Batch Unit of Measure
 If an item is stocked in one unit of measure but produced in another, a production order is created that uses a manufacturing batch unit of measure to calculate the correct quantity of the components during the **Refresh Production Order** batch job. An example of a manufacturing batch unit of measure calculation is when a manufactured item is stocked in pieces but produced in tons.  
   

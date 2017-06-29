@@ -1,20 +1,21 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "Electronic Tax Declarations"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "tax declarations, about"
+  - "electronic declarations, about"
+ms.assetid: b037d96d-387c-4273-af5a-2dcee7183e5c
+caps.latest.revision: 11
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "nl-nl"
+---
 # Electronic Tax Declarations
 Companies must deliver their VAT and ICP declarations electronically to the tax authorities.  
   

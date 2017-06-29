@@ -1,20 +1,21 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Export General Ledger Entries to an XML File"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "general ledger, exporting entries to XML"
+  - "exporting, general ledger entries to XML"
+ms.assetid: a86fd159-8ea3-4ea4-80ee-22115c5d57cc
+caps.latest.revision: 32
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "fr-fr"
+---
 # How to: Export General Ledger Entries to an XML File
 You can export financial transactions for a particular period to an XML file for external archiving. After the closing of the fiscal year, you can export the general ledger transactions for the closed year by applying the correct date filter and then exporting the financial transactions within the specified period to the XML file. The XML file includes all the general ledger transaction information, such as document posting date, document type, document number, account type, account number, credit amount, and debit amount retrieved from the **General Journal** window.  
   

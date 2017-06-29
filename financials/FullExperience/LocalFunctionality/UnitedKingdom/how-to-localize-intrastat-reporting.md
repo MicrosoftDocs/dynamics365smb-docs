@@ -1,20 +1,20 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Localize Intrastat Reporting"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "Intrastat, localizing reports"
+ms.assetid: 6c83753f-75fc-4483-8d0c-78c44f739b75
+caps.latest.revision: 21
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "en-gb"
+---
 # How to: Localize Intrastat Reporting
 You must localize Intrastat reporting to be legally compliant. The code for the shipment method must be transferred from the Intrastat journal.  
   

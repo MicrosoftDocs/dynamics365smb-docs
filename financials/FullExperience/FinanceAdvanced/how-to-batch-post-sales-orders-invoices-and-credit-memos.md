@@ -1,20 +1,34 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Batch Post Sales Orders, Invoices, and Credit Memos"
+ms.custom: na
+ms.date: "03-03-2017"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "sales orders, posting"
+  - "batch posting, sales order invoices"
+  - "sales invoices, posting"
+  - "sales credit memos, posting"
+  - "credit memos, batch posting"
+  - "batch posting, credit memos"
+ms.assetid: 310c6af4-4f2e-485f-ad4b-df36f3932a9c
+caps.latest.revision: 8
+ms.author: "sgroespe"
+manager: "terryaus"
+translation.priority.ht: 
+  - "da-dk"
+  - "en-au"
+  - "en-ca"
+  - "en-gb"
+  - "en-in"
+  - "en-my"
+  - "en-nz"
+  - "en-ph"
+  - "en-sg"
+  - "en-zw"
+---
 # How to: Batch Post Sales Orders, Invoices, and Credit Memos
 If you have set up a large number of sales orders, invoices, or credit memos, it is an advantage to post them with a batch job. You can have them posted at night or at another time when it is convenient.  
   

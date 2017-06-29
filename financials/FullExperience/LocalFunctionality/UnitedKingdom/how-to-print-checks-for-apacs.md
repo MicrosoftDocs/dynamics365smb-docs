@@ -1,20 +1,22 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Print Checks for APACS"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "APACS (Association for Payment Clearing Services)"
+  - "Association for Payment Clearing Services (APACS)"
+  - "checks, printing in APACS format"
+ms.assetid: c49f0617-8e1b-4684-833e-7cff46cfb9c0
+caps.latest.revision: 35
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "en-gb"
+---
 # How to: Print Checks for APACS
 The Association for Payment Clearing Services \(APACS\) specification defines a standard layout for fields on checks. The **Check** report uses this specification.  
   

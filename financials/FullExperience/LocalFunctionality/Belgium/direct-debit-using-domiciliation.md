@@ -1,20 +1,21 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "Direct Debit Using Domiciliation"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "domiciliations, direct debit"
+  - "direct debit, using domiciliations"
+ms.assetid: 19ef7a49-407f-4291-85a2-419d32dfa266
+caps.latest.revision: 2
+ms.author: "edupont"
+translation.priority.ht: 
+  - "fr-be"
+  - "nl-be"
+---
 # Direct Debit Using Domiciliation
 A domiciliation is a financial agreement between you and your customers, allowing you to automatically collect the payments for customer's invoices through a preferred bank account. Domiciliations can only be processed for domestic customers with domestic bank accounts. Domiciliations in foreign currencies or involving foreign banks are not supported.  
   

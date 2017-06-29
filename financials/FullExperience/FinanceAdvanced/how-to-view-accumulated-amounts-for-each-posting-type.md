@@ -1,20 +1,31 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: View Accumulated Amounts for Each Posting Type"
+ms.custom: na
+ms.date: "03-03-2017"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "fixed asset depreciation, viewing amounts"
+  - "depreciation books, posting types"
+  - "fixed assets, posted entries"
+ms.assetid: 8d42790c-1f17-45ce-9090-0f8b40ce537a
+caps.latest.revision: 6
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "da-dk"
+  - "en-au"
+  - "en-ca"
+  - "en-gb"
+  - "en-in"
+  - "en-my"
+  - "en-nz"
+  - "en-ph"
+  - "en-sg"
+  - "en-zw"
+---
 # How to: View Accumulated Amounts for Each Posting Type
 You can view posted amounts for each asset and depreciation book.  
   

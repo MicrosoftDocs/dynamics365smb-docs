@@ -1,20 +1,21 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "Russian Payables Reports"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "payables, reports"
+  - "reports, payables"
+  - "official reports in Russia, payables"
+ms.assetid: e9d732cb-fc85-4edf-95a3-e6536c65f2a2
+caps.latest.revision: 3
+ms.author: "edupont"
+translation.priority.ht: 
+  - "ru-ru"
+---
 # Russian Payables Reports
 The payables report feature enables you to view the vendor general ledger turnover for general ledger accounts for finance entries with the source type Vendor on the screen and in the form of a printed report. The following reports are also provided:  
   

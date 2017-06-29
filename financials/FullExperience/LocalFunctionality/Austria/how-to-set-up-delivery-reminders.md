@@ -1,20 +1,25 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Set Up Delivery Reminders"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "reminders, setting up"
+  - "delivery reminders, setting up"
+  - "purchase documents, delivery reminders"
+ms.assetid: 2a27f809-12e2-43f5-ae28-64c4aeaa80b3
+caps.latest.revision: 34
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "de-at"
+  - "de-ch"
+  - "de-de"
+  - "fr-ch"
+---
 # How to: Set Up Delivery Reminders
 In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->, you can use purchase delivery reminders to remind vendors about overdue deliveries. To create delivery reminders for vendors, you must set up base data for delivery reminder creation and number series for the delivery reminders in the **Purchases & Payables Setup** window.  
   

@@ -1,20 +1,17 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "FIK Details in the Payment Reconciliation Journal"
+ms.custom: na
+ms.date: "03-03-2017"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+ms.assetid: 68c221de-292a-4ae4-b636-c515db01e0b3
+caps.latest.revision: 2
+ms.author: "sgroespe"
+translation.priority.ht: 
+  - "da-dk"
+---
 # FIK Details in the Payment Reconciliation Journal
 The **Transaction Text** field in the **Payment Reconciliation Journal** window shows information about the automatic application of payments using the Danish FIK standard. For more information, see [How to: Reconcile Payments Using Automatic Application](../../Finance/how-to-reconcile-payments-using-automatic-application.md).  
   

@@ -1,20 +1,19 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Set Up OCR Payments"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "OCR payments, setting up"
+ms.assetid: f6c4e38a-cf68-470b-b32a-a931efeefeca
+caps.latest.revision: 2
+ms.author: "edupont"
+translation.priority.ht: 
+  - "nb-no"
+---
 # How to: Set Up OCR Payments
 You can process electronic payments from customers according to a predefined payment ID. This is often referred to as an optical character recognition \(OCR\) payment. The payment ID is used with electronic payment transactions. Customers can refer to this ID when they make payments. The payment ID is also used to identify imported payment transactions and automatically apply imported payment data.  
   

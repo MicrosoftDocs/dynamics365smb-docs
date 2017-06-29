@@ -1,20 +1,20 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Set Up KID Numbers on Sales Documents"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "KID, numbers"
+  - "sales documents, KID numbers"
+ms.assetid: 6194e6cb-5aca-4f4b-9078-e2336b115333
+caps.latest.revision: 2
+ms.author: "edupont"
+translation.priority.ht: 
+  - "nb-no"
+---
 # How to: Set Up KID Numbers on Sales Documents
 Kunde ID \(KID\) is a customer identification number that provides a payment reference to the vendor and ensures that the vendor is posting the payment correctly. You can set up KID numbers on sales documents to identify document and customer information on electronic banking transactions.  
   

@@ -1,20 +1,19 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Set Up a Future Expense Card"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "future expense card, setting up"
+ms.assetid: 8dac7397-b6c9-41b6-9ac1-d4061acc4eae
+caps.latest.revision: 2
+ms.author: "edupont"
+translation.priority.ht: 
+  - "ru-ru"
+---
 # How to: Set Up a Future Expense Card
 To account for future period expenses you have to set up a future expense card.  
   

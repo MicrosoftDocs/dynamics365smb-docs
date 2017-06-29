@@ -1,20 +1,30 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Set Up User Defaults"
+ms.custom: na
+ms.date: "03-03-2017"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "user-specific depreciation insurance journals"
+  - "depreciation books, setting up user-specific journals"
+ms.assetid: aaf19817-3faf-4ebb-8076-fb8d58748d72
+caps.latest.revision: 6
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "da-dk"
+  - "en-au"
+  - "en-ca"
+  - "en-gb"
+  - "en-in"
+  - "en-my"
+  - "en-nz"
+  - "en-ph"
+  - "en-sg"
+  - "en-zw"
+---
 # How to: Set Up User Defaults
 You must set up a default set of templates and batches for each depreciation book. You can also specify a default for each user. The defaults are used when you enter a number in the **Insurance No.** field on a journal line and by the **Index Insurance** batch job.  
   

@@ -1,20 +1,20 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Download CODA Files from an Isabel Server"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "CODA, downloading files"
+ms.assetid: c32c7977-ae51-4ea8-a607-a432b270ade9
+caps.latest.revision: 2
+ms.author: "edupont"
+translation.priority.ht: 
+  - "fr-be"
+  - "nl-be"
+---
 # How to: Download CODA Files from an Isabel Server
 CODA files can be downloaded manually or in attended mode.  
   

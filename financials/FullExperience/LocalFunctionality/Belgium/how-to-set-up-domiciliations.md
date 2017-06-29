@@ -1,20 +1,20 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Set Up Domiciliations"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "domiciliations, setting up"
+ms.assetid: b73fb1b1-dedf-4c2b-9dcd-3e05594baaf2
+caps.latest.revision: 3
+ms.author: "edupont"
+translation.priority.ht: 
+  - "fr-be"
+  - "nl-be"
+---
 # How to: Set Up Domiciliations
 Before you can use electronic banking for domiciliations, you must enter the customer's domiciliation number and preferred bank account.  
   

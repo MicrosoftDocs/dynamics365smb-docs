@@ -1,20 +1,21 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Set Limits for Due Dates"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "payments, setting legal limits"
+  - "due dates, setting limits"
+ms.assetid: c4abb260-c121-4443-8d8f-f19c13ba1b15
+caps.latest.revision: 9
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "es-es"
+---
 # How to: Set Limits for Due Dates
 You can modify payment terms to have limits for the maximum number of days that can be between a delivery and the corresponding payment.  
   

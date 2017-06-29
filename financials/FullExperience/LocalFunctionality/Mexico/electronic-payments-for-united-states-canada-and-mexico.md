@@ -1,20 +1,23 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "Electronic Payments for United States, Canada, and Mexico"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "electronic payments, about"
+  - "payments, electronic"
+ms.assetid: cdd62791-da02-4e1c-a103-5b1579a9a250
+caps.latest.revision: 6
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "en-ca"
+  - "es-mx"
+  - "fr-ca"
+---
 # Electronic Payments for United States, Canada, and Mexico
 FIX INCLUDE HERE<!--[!INCLUDE[nav_current_short](../../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_current_short_md.md)] --> allows you to pay vendors or send refunds to customers using electronic payments, rather than by printing paper checks. Electronic payments are exported into a standard National Automated Clearing House Association \(NACHA\) file format used by most banks in the United States, or into the format used by the Royal Bank of Canada. This file is then transmitted to your bank and processed.  
   

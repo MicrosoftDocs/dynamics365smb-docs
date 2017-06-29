@@ -1,20 +1,23 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Export or Import Payment Management Setup Parameters"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "exporting, payment management setup"
+  - "payment management, exporting setup parameters"
+  - "payment management, importing setup parameters"
+  - "importing, payment management setup"
+ms.assetid: 4d847626-cb46-4667-9feb-d7c76895c17e
+caps.latest.revision: 29
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "fr-fr"
+---
 # How to: Export or Import Payment Management Setup Parameters
 You can export or import payment management setup parameters to an external disk so that you can use the same parameters for another company with similar requirements.  
   

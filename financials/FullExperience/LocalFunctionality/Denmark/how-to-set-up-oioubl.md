@@ -1,20 +1,22 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Set Up OIOUBL"
+ms.custom: na
+ms.date: "03-03-2017"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "OIOUBL, setting up"
+  - "electronic invoices, setting up"
+  - "payment methods, setting up for OIOUBL"
+ms.assetid: 0cdede5c-1c5a-4a19-a9b5-e7eafbeedf98
+caps.latest.revision: 25
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "da-dk"
+---
 # How to: Set Up OIOUBL
 You must define a location for storing Offentlig Information Online UBL \(OIOUBL\) files when you create electronic documents such as invoices or credit memos. You must also define payment methods, payment terms, and item charges, and you must set up relevant customers for OIOUBL.  
   

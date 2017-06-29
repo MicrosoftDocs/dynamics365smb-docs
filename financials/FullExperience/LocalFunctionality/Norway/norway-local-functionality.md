@@ -1,20 +1,22 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "Norway Local Functionality"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "local functionality, about"
+  - "country/region-specific, about"
+  - "vendors, remittance"
+  - "remittance, vendors"
+ms.assetid: b4253ce2-b848-439d-a784-6ce36c2df617
+caps.latest.revision: 2
+ms.author: "edupont"
+translation.priority.ht: 
+  - "nb-no"
+---
 # Norway Local Functionality
 The following topics describe the local functionality in the Norwegian version of FIX INCLUDE HERE<!--[!INCLUDE[nav_current_short](../../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_current_short_md.md)] -->.  
   

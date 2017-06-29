@@ -1,20 +1,19 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "General Ledger Correspondence"
+ms.custom: na
+ms.date: "06-04-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "general ledger, correspondence"
+ms.assetid: f0586fa5-4c29-4dd9-be3d-ee125dddb959
+caps.latest.revision: 2
+ms.author: "edupont"
+translation.priority.ht: 
+  - "ru-ru"
+---
 # General Ledger Correspondence
 The general ledger correspondence feature enables you to:  
   
@@ -76,23 +75,53 @@ The general ledger correspondence feature enables you to:
  On the **Options** tab, you can set parameters by filling in the fields with the information listed in the following table.  
   
 |Field|Description|  
-|---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    -----------|-----------------|  
+|-----------|-----------------|  
+|**Period Beginning**|Enter the starting month and year of the period, for the entries that you want to include in the report.|  
+|**Ending of period**|Enter the ending month and year of the period, for the entries that you want to include in the report.|  
+|**Without Double Entries**|Select this check box to print the report without double entries.|  
+|**Without Account Title Type**|Select this check box to print the report without account titles.|  
+|**Without Levels of Enclosure**|Select this check box to print the report without levels of enclosure.|  
+|**Interim Total**|Select this check box to print the report with interim totals.|  
+  
+### General Ledger Correspondence Analysis Report  
+ The General Ledger Correspondence Analysis report shows turnover in the selected period in correspondence.  
+  
+ To access the report  
+  
+-   In **Financial Management**, click **General Ledger**, click **Correspondence**, and then click **General Ledger Correspondence**.  
+  
+ The header contains the following filters:  
+  
+-   Date  
+  
+-   Closing  
+  
+-   Department  
+  
+-   Project  
+  
+ The report shows turnover in correspondence for all accounts.  
+  
+### General Ledger Correspondence Journal Order Report  
+ This report shows the debit and credit turnovers and balance on each general ledger account.  
+  
+ To access the report  
+  
+-   In **Financial Management**, click **General Ledger**, click **Reports**, click **Correspondence**, and then click **Journal Order**.  
+  
+ You can set a general ledger account filter on the **G\/L Account** tab of the request form. The **Options** tab contains the same fields as the General Ledger Correspondence General Ledger report.  
+  
+### General Ledger Correspondence Cross\-Reference Report  
+ The General Ledger Correspondence Cross\-Reference report shows all correspondence amounts.  
+  
+ To access the report  
+  
+-   In **Financial Management**, click **General Ledger**, Click **Reports**, click **Correspondence**, and then click **Cross Reference**.  
+  
+ On the **Options** tab of the request form, you can set parameters by filling in the fields with the information listed in the following table.  
+  
+|Field|Description|  
+|-----------|-----------------|  
 |**Starting Date**|Enter the starting date of the period, for the entries that you want to include in the report.|  
 |**Ending Date**|Enter the ending date of the period, for the entries that you want to include in the report.|  
   

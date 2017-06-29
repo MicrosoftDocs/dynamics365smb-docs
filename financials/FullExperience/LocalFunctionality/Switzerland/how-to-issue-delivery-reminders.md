@@ -1,20 +1,24 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Issue Delivery Reminders"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "delivery reminders, issuing"
+  - "reminders, issuing to vendors"
+ms.assetid: 7659bacc-1c66-426d-bfb0-c2e1bbfa6dbc
+caps.latest.revision: 27
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "de-at"
+  - "de-ch"
+  - "de-de"
+  - "fr-ch"
+---
 # How to: Issue Delivery Reminders
 After you have created delivery reminders, you must issue and print them so that you can send reminders to vendors. Before you issue the delivery reminders, you can print a test report. For more information, see [How to: Print Test Reports for Delivery Reminders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-print-test-reports-for-delivery-reminders.md).  
   

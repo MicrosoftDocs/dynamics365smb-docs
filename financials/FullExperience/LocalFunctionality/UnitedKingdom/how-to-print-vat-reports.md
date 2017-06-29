@@ -1,20 +1,20 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Print VAT Reports"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "VAT, reports"
+ms.assetid: a8c92c6b-3616-4eac-bb0e-08eafae6bd07
+caps.latest.revision: 45
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "en-gb"
+---
 # How to: Print VAT Reports
 You can use the following reports for VAT reporting:  
   

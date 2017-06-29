@@ -1,20 +1,21 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: View Temporary Balances in General Ledger Journals"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "temporary, balances in general journals"
+  - "general journals, viewing temporary balances"
+ms.assetid: c1d4ea6c-3c4a-4c9e-bd43-0a0161f529de
+caps.latest.revision: 2
+ms.author: "edupont"
+translation.priority.ht: 
+  - "de-ch"
+  - "fr-ch"
+---
 # How to: View Temporary Balances in General Ledger Journals
 When you enter a new transaction in the general journal, you can view temporary balances that show how the general ledger account balances would be affected by posting the journal. You can view the balance details of the account and counter account for the active journal line. You can also view the unposted values for the current journal.  
   

@@ -1,20 +1,21 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "Equivalence Charges (EC)"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "EC (equivalence charges)"
+  - "equivalence charges (EC)"
+ms.assetid: 033e5356-55cc-4ceb-87ac-eccfdbf0140e
+caps.latest.revision: 11
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "es-es"
+---
 # Equivalence Charges (EC)
 An Equivalence Charge \(EC\) is a tax that is used in retail sales and in activities that do not follow VAT rules. Under EC rules, companies must pay a surcharge to their vendors when purchasing goods, in addition to the usual VAT. However, when selling goods, only VAT can be charged. Some general posting groups must have an EC percentage in addition to the VAT percentage. This information is tracked separately, but in order to minimize changes, both taxes are usually combined.  
   

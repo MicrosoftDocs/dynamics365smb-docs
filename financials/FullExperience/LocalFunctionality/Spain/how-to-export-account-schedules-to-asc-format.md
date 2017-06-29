@@ -1,20 +1,22 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Export Account Schedules to ASC Format"
+ms.custom: na
+ms.date: "06-04-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "ASC format, exporting account schedules"
+  - "account schedules, exporting into ASC format"
+  - "exporting, account schedules into ASC format"
+ms.assetid: 61e6f961-66d4-4dac-81ec-54d7c475e91d
+caps.latest.revision: 23
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "es-es"
+---
 # How to: Export Account Schedules to ASC Format
 You can export the account schedule data into a digital file format approved by the local tax authorities for the following annual reports:  
   

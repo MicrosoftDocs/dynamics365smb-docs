@@ -1,20 +1,25 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "Concepts of Production BOMs"
+ms.custom: na
+ms.date: "03-03-2017"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "production BOMs, components"
+  - "production BOMs, creating"
+  - "materials, structure"
+  - "production BOMs, replacing items"
+  - "production BOMs, copying"
+  - "production BOMs"
+ms.assetid: 096bc99c-59e5-4fc3-a996-a87fefd301dc
+caps.latest.revision: 7
+ms.author: "sgroespe"
+manager: "terryaus"
+translation.priority.ht: 
+  - "da-dk"
+---
 # Concepts of Production BOMs
 Manufacturers use production bills of material to supervise the use of items and components used for intermediate and finished products.  
   

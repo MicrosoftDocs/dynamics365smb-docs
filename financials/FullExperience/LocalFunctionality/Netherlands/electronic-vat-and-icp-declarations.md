@@ -1,20 +1,25 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "Electronic VAT and ICP Declarations"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "ICP declarations, about"
+  - "VAT declarations, about"
+  - "VAT, declarations"
+  - "VAT, statements"
+  - "electronic declarations, ICP"
+  - "electronic declarations, VAT"
+ms.assetid: e2a50098-4958-44d1-9688-425422c635be
+caps.latest.revision: 27
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "nl-nl"
+---
 # Electronic VAT and ICP Declarations
 Companies must submit periodic VAT and ICP declarations.  
   

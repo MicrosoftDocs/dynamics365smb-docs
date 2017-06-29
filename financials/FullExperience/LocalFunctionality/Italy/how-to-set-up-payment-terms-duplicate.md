@@ -1,20 +1,21 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Set Up Payment Terms-duplicate"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "payment methods, setting up"
+  - "payment terms, setting up"
+ms.assetid: 501f9d41-7fb3-4ebc-94c0-41bf62ca5a72
+caps.latest.revision: 41
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "it-it"
+---
 # How to: Set Up Payment Terms-duplicate
 For each payment term, you can specify if the payment can be made in installments. For example, you can define that a payment can be made in three installments with a third of the payment due after 30, 60, and 90 days.  
   

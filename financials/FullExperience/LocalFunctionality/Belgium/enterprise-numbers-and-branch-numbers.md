@@ -1,20 +1,21 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "Enterprise Numbers and Branch Numbers"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "enterprise numbers"
+  - "branch numbers"
+ms.assetid: 50af50a5-33d4-49ba-9f0d-14260c018b61
+caps.latest.revision: 2
+ms.author: "edupont"
+translation.priority.ht: 
+  - "fr-be"
+  - "nl-be"
+---
 # Enterprise Numbers and Branch Numbers
 Companies receive a unique enterprise number and one or more branch numbers from the Belgian Crossroad Bank of Enterprises. These numbers are used in all correspondence to simplify communication with the Belgian administrative and legal authorities.  
   

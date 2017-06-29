@@ -1,20 +1,21 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Set Up GIFI Codes"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "GIFI codes, setting up"
+ms.assetid: d2910dd6-ef64-4495-b2ac-39caff374714
+caps.latest.revision: 19
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "en-ca"
+  - "fr-ca"
+---
 # How to: Set Up GIFI Codes
 The Canada Revenue Agency uses General Index of Financial Information \(GIFI\) codes to collect, validate, and process financial and tax information electronically.  
   

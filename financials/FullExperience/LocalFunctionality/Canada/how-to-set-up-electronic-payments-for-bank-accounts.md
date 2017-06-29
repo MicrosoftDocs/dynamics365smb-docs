@@ -1,20 +1,23 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Set Up Electronic Payments for Bank Accounts"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "bank accounts, electronic payments"
+  - "electronic payments, setting up"
+ms.assetid: 48440ef2-d1c4-4496-8129-902a081eaa40
+caps.latest.revision: 28
+ms.author: "sgroespe"
+manager: "terryaus"
+translation.priority.ht: 
+  - "en-ca"
+  - "es-mx"
+  - "fr-ca"
+---
 # How to: Set Up Electronic Payments for Bank Accounts
 In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->, you can send electronic payments to vendors and electronic refunds to customers using the electronic payments function.  
   

@@ -1,20 +1,22 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Set Up Data Exports for GDPdU"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "data export, setting up GDPdU"
+  - "GDPdU, setting up"
+  - "export data, setting up"
+ms.assetid: 9c7bcb2f-613f-4805-94c3-cb5e6c4473c8
+caps.latest.revision: 49
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "de-de"
+---
 # How to: Set Up Data Exports for GDPdU
 You must set up data export record sources to be able to export Grundsätze zum Datenzugriff und zur Prüfkbarkeit digtaler Unterlagen \(GDPdU\) data. For each data export type, you must define one or more record sources, where each source is a table from which you want to export data.  
   

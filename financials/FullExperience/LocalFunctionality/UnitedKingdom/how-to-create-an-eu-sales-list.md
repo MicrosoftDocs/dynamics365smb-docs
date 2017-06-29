@@ -1,20 +1,23 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Create an EU Sales List"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "sales list for EU"
+  - "VAT, reporting EU trade"
+  - "VAT reports, EU sales list"
+  - "EU sales list"
+ms.assetid: 8a412de3-4a13-49c8-ab4d-1d93e6f2ae85
+caps.latest.revision: 31
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "en-gb"
+---
 # How to: Create an EU Sales List
 Companies that run VAT\-registered businesses and sell or move goods to other VAT\-registered businesses in the European Union \(EU\) must record and report about data on their sales activities to the government.  
   

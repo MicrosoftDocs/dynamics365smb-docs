@@ -1,20 +1,22 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Compare Bank Cash Flow"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "cash flow, by bank"
+  - "cash flow, comparing"
+  - "comparing bank cash flow"
+ms.assetid: b56ad5b6-5797-430c-a84c-fa40ccd1a7ed
+caps.latest.revision: 16
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "en-au"
+---
 # How to: Compare Bank Cash Flow
 You can use the **Bank Detail Cashflow Compare** report to compare the flow of cash in a particular bank for a specified period.  
   

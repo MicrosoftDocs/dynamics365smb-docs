@@ -1,20 +1,44 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "Schedule Production Activities"
+ms.custom: na
+ms.date: "03-03-2017"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "schedules, production activities"
+  - "production, schedules"
+ms.assetid: 42f2325a-f1d4-48b7-a015-baf01a2508a7
+caps.latest.revision: 9
+ms.author: "sgroespe"
+manager: "terryaus"
+translation.priority.ht: 
+  - "da-dk"
+  - "de-at"
+  - "de-ch"
+  - "de-de"
+  - "en-au"
+  - "en-ca"
+  - "en-gb"
+  - "en-in"
+  - "en-nz"
+  - "es-es"
+  - "es-mx"
+  - "fi-fi"
+  - "fr-be"
+  - "fr-ca"
+  - "fr-ch"
+  - "fr-fr"
+  - "is-is"
+  - "it-ch"
+  - "it-it"
+  - "nb-no"
+  - "nl-be"
+  - "nl-nl"
+  - "ru-ru"
+  - "sv-se"
+---
 # Schedule Production Activities
 Before starting actual production activities, it is often necessary to fine schedule the rough\-cut production schedule that resulted from [Operations Planning](../OperationsPlanning/operations-planning.md). The main part of this work is to fit planned operations into the larger matrix of planned and started operations on multiple production resources along a time line. As a part of constantly maintaining a balanced production schedule, the work may also involve finding ways to better utilize resources to adjust for unforeseen changes in capacity.  
   

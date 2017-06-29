@@ -1,20 +1,19 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "Electronic Funds Transfer (EFT)"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "electronic funds transfer (EFT)"
+  - "vendor payments, EFT"
+ms.assetid: 12913d1f-3a59-4c71-90f5-5683f51a0e1d
+caps.latest.revision: 10
+ms.author: "edupont"
+manager: "terryaus"
+---
 # Electronic Funds Transfer (EFT)
 You can pay vendors using the electronic funds transfer \(EFT\) system in Australia.  
   

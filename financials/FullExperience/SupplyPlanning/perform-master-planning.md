@@ -1,20 +1,45 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "Perform Master Planning"
+ms.custom: na
+ms.date: "03-03-2017"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "master planning, about"
+  - "planning, master"
+  - "production, planning"
+ms.assetid: e045da0d-29d6-4458-b18e-ef12f3fd24b5
+caps.latest.revision: 6
+ms.author: "sgroespe"
+manager: "terryaus"
+translation.priority.ht: 
+  - "da-dk"
+  - "de-at"
+  - "de-ch"
+  - "de-de"
+  - "en-au"
+  - "en-ca"
+  - "en-gb"
+  - "en-in"
+  - "en-nz"
+  - "es-es"
+  - "es-mx"
+  - "fi-fi"
+  - "fr-be"
+  - "fr-ca"
+  - "fr-ch"
+  - "fr-fr"
+  - "is-is"
+  - "it-ch"
+  - "it-it"
+  - "nb-no"
+  - "nl-be"
+  - "nl-nl"
+  - "ru-ru"
+  - "sv-se"
+---
 # Perform Master Planning
 Before a detailed executable plan \( [see MRP](../OperationsPlanning/perform-material-requirements-planning.md)\) is in place, a number of initial, high\-level information must be established through master planning. Master planning considers all independent demand, including forecasts. Master planning also considers [resource availability](../OperationsPlanning/plan-for-resource-availability.md) and the final\-assembly production schedule, that is expected production orders for demanded end items.  
   

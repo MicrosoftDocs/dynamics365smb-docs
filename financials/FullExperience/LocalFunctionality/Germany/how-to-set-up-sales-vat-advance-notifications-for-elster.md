@@ -1,20 +1,23 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Set Up Sales VAT Advance Notifications for ELSTER"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "sales VAT advance notifications, setting up"
+  - "ELSTER, setting up notifications"
+  - "sales VAT advance notifications, ELSTER"
+  - "VAT, setting up for ELSTER"
+ms.assetid: ee22a9d6-c200-48d2-b473-4fe1c6867fc6
+caps.latest.revision: 40
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "de-de"
+---
 # How to: Set Up Sales VAT Advance Notifications for ELSTER
 In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->, to submit valid sales VAT advance notifications to the ELSTER portal, you must set up the following:  
   
@@ -37,23 +40,33 @@ In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow
 3.  On the **Tax Office** FastTab, fill in the fields as described in the following table.  
   
     |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> --> -->|  
-    |---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---------------------------------|---------------------------------------|  
+    |---------------------------------|---------------------------------------|  
+    |**Tax Office Number**|The tax office number. You can ask your tax office for this number.|  
+    |**Registration No.**|The company's registration number.<br /><br /> You can enter a maximum of 20 alphanumeric characters.|  
+  
+ For more information, see [How to: Enter Company Information](../../Finance/how-to-enter-company-information.md) and Company Information.  
+  
+### To set up the number series for sales VAT advance notifications  
+  
+1.  In the **Search** box, enter **General Ledger Setup**, and then choose the related link.  
+  
+2.  In the **General Ledger Setup** window, on the **Numbering** FastTab, in the **Sales VAT Advance Notif. Nos.** field, select the number series code for the sales VAT advance notifications.  
+  
+ For more information, see General Ledger Setup.  
+  
+### To set up user authentication for ELSTER  
+  
+1.  In the **Search** box, enter **Electronic VAT Decl. Setup**, and then choose the related link.  
+  
+2.  To submit signed data to the tax authorities, on the **General** FastTab, select the **Use Authentication** field.  
+  
+    > [!CAUTION]  
+    >  If your company has submitted signed data in a previous period, the tax authorities will only accept signed data.  
+  
+3.  Optionally, on the **Communication** FastTab, fill in the fields as described in the following table.  
+  
+    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |---------------------------------|---------------------------------------|  
     |**Use Proxy Server**|Select to use a proxy server for communication.|  
     |**Proxy Server Authent. Required**|Select to use a dedicated proxy server for authentication.<br /><br /> If you use a proxy server and the required dedicated authentication, then you must enter the user account and the password before transmitting. If you use Windows authentication, do not select this field.|  
     |**Proxy Server IP\-Address\/Port**|The address and the port that will be used for communication if you use a proxy server.|  

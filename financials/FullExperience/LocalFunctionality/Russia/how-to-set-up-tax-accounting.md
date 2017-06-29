@@ -1,20 +1,20 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Set Up Tax Accounting"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "tax accounting, setting up"
+  - "taxes"
+ms.assetid: 9e9f3d51-239f-44f2-92a2-7ac13e89632e
+caps.latest.revision: 2
+ms.author: "edupont"
+translation.priority.ht: 
+  - "ru-ru"
+---
 # How to: Set Up Tax Accounting
 Tax accounting lets you apply rules for recognizing income and expenses that follow your local tax laws. You can activate tax accounting features in FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> --> by setting up tax registers.  
   

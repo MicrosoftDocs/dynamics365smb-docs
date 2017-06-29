@@ -1,20 +1,19 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Export Remittance Payments"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "remittance, exporting payments"
+ms.assetid: 507327c8-fb2e-49fc-8575-346dcf1d0e2a
+caps.latest.revision: 7
+ms.author: "sgroespe"
+translation.priority.ht: 
+  - "nb-no"
+---
 # How to: Export Remittance Payments
 You can use the export remittance payments process to export the payments file to your computer. You can then transfer the remittance payments to the bank.  
   

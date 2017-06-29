@@ -1,20 +1,19 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "Electronic Banking in Finland"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "electronic banking, in Finland"
+ms.assetid: aa34324d-c6e1-4db3-95c2-47bdcbc8001f
+caps.latest.revision: 3
+ms.author: "edupont"
+translation.priority.ht: 
+  - "fi-fi"
+---
 # Electronic Banking in Finland
 The FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> electronic banking feature allows you to process electronic customer and vendor payments. This feature supports domestic payments \(LM03\) and foreign payments \(LUM2\) for transferring electronic bank payments. To export or import electronic payments, you must first set up bank reference files to determine how payment files are processed.  
   

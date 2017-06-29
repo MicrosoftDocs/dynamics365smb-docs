@@ -1,20 +1,49 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "Walkthrough: Configuring UI for the Order Processor Profile"
+ms.custom: na
+ms.date: "03-03-2017"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "customizing, Role Center"
+  - "order processors"
+  - "setting up, RoleTailored client"
+  - "setting up, employee profiles"
+  - "RoleTailored client, customizing"
+  - "Role Centers, customizing"
+  - "customizing, FactBox panes"
+ms.assetid: c9d0296f-b734-404f-862f-89a1acb4faf4
+caps.latest.revision: 37
+ms.author: "solsen"
+manager: "terryaus"
+translation.priority.ht: 
+  - "da-dk"
+  - "de-at"
+  - "de-ch"
+  - "de-de"
+  - "en-au"
+  - "en-ca"
+  - "en-gb"
+  - "en-in"
+  - "en-nz"
+  - "es-es"
+  - "es-mx"
+  - "fi-fi"
+  - "fr-be"
+  - "fr-ca"
+  - "fr-ch"
+  - "fr-fr"
+  - "is-is"
+  - "it-ch"
+  - "it-it"
+  - "nb-no"
+  - "nl-be"
+  - "nl-nl"
+  - "ru-ru"
+  - "sv-se"
+---
 # Walkthrough: Configuring UI for the Order Processor Profile
 Administrators configure the user interface by customizing the user interface for a single profile, such as the Order Processor profile, that multiple users are assigned to. To configure a profile, you must have the SUPER permission set. For more information, see [Administration in the Clients](../SetupAndAdministration/administration-in-the-clients.md).  
   

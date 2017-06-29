@@ -1,20 +1,24 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: View Account Balances by Using the GIFI Code Report"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "GIFI codes, account balances"
+  - "GIFI codes, report"
+  - "GIFI codes, viewing account balances"
+  - "account balances, GIFI Code report"
+ms.assetid: 2d4ff1f6-e0c6-4360-9aa0-b9d5649c5d16
+caps.latest.revision: 16
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "en-ca"
+  - "fr-ca"
+---
 # How to: View Account Balances by Using the GIFI Code Report
 You can review your account balances by General Index of Financial Information \(GIFI\) code using the **Account Balances by GIFI Code** report.  
   

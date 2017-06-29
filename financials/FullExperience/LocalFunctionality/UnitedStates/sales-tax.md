@@ -1,20 +1,19 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "Sales Tax"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "calculating, sales tax"
+  - "sales tax, calculating"
+ms.assetid: 76dca02b-1e2c-4dea-82fd-2d6090cbcd0a
+caps.latest.revision: 15
+ms.author: "edupont"
+manager: "terryaus"
+---
 # Sales Tax
 You can set up FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> --> to calculate sales tax. Companies collect and remit sales tax to government authorities for products that are sold to end users. Sales tax can be charged based on tax jurisdiction or charged to existing sales tax. You can also track unrealized sales tax in the general ledger.  
   

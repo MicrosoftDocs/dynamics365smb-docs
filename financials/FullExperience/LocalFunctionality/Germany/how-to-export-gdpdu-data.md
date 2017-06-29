@@ -1,20 +1,21 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Export GDPdU Data"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "exporting, GDPdU"
+  - "GDPdU, exporting"
+ms.assetid: 2868e4f3-c54c-49d5-9b9a-23cf0162921c
+caps.latest.revision: 40
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "de-de"
+---
 # How to: Export GDPdU Data
 You can export financial data and tax data according to the process for data access and testability of digital documents \(GDPdU\). You can also select various options to be included in an XML file.  
   

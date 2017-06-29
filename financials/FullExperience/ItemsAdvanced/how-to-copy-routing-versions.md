@@ -1,20 +1,20 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Copy Routing Versions"
+ms.custom: na
+ms.date: "03-03-2017"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "routings, copying"
+ms.assetid: df521d6b-9ea1-413c-98b2-63bc36eb0490
+caps.latest.revision: 7
+ms.author: "sgroespe"
+manager: "terryaus"
+translation.priority.ht: 
+  - "da-dk"
+---
 # How to: Copy Routing Versions
 You can copy the created routing versions. This is useful for long routings or when slight changes are to be made to versions. You can copy an existing version of a routing into a new version or into an existing version. Already existing information on the lines is overwritten in the destination version.  
   

@@ -1,20 +1,55 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Customize FactBoxes"
+ms.custom: na
+ms.date: "03-03-2017"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "removing, fields"
+  - "FactBoxes, ordering"
+  - "removing, FactBoxes"
+  - "adding, FactBoxes"
+  - "FactBoxes, removing"
+  - "FactBoxes, adding"
+  - "restoring defaults"
+  - "adding, fields"
+  - "fields, removing"
+  - "FactBoxes, customizing"
+  - "fields, adding"
+  - "customizing, FactBoxes"
+  - "customizing, FactBox panes"
+ms.assetid: 15ae2c44-a755-4cb8-b0e7-7fa543dfe88c
+caps.latest.revision: 22
+ms.author: "solsen"
+manager: "terryaus"
+translation.priority.ht: 
+  - "da-dk"
+  - "de-at"
+  - "de-ch"
+  - "de-de"
+  - "en-au"
+  - "en-ca"
+  - "en-gb"
+  - "en-in"
+  - "en-nz"
+  - "es-es"
+  - "es-mx"
+  - "fi-fi"
+  - "fr-be"
+  - "fr-ca"
+  - "fr-ch"
+  - "fr-fr"
+  - "is-is"
+  - "it-ch"
+  - "it-it"
+  - "nb-no"
+  - "nl-be"
+  - "nl-nl"
+  - "ru-ru"
+  - "sv-se"
+---
 # How to: Customize FactBoxes
 You can add or remove FactBoxes in the FactBox pane with the **Customize** dialog box. You use FactBoxes to see information that relates to the record that you have selected in the list or opened in a task page. You can select which FactBoxes to display in your FactBox pane. You can also customize FactBoxes to display only the fields that you need.  
   

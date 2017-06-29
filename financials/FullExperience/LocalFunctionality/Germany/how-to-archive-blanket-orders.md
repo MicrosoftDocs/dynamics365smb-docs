@@ -1,20 +1,27 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Archive Blanket Orders"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "archiving, blanket sales orders"
+  - "blanket orders, archiving"
+  - "blanket purchase orders, archiving"
+  - "archiving, blanket purchase orders"
+  - "blanket sales orders, archiving"
+ms.assetid: 74bc99fb-eda9-4b06-83fb-d3ca33991559
+caps.latest.revision: 26
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "de-at"
+  - "de-ch"
+  - "de-de"
+  - "fr-ch"
+---
 # How to: Archive Blanket Orders
 You can archive a blanket sales order or a blanket purchase order, and you can use the archived blanket order to create an order.  
   

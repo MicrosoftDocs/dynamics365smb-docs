@@ -1,20 +1,20 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "Withholding Tax"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "calculating, withholding tax"
+  - "withholding tax, calculating for vendors"
+ms.assetid: 8dc49815-9418-42ac-aa7d-96a41f37bcd0
+caps.latest.revision: 33
+ms.author: "edupont"
+translation.priority.ht: 
+  - "en-au"
+---
 # Withholding Tax
 Withholding Tax \(WHT\) is tax withheld by a company when making a payment to a vendor, in which the full amount owed to that vendor is reduced by the tax withheld. The withheld tax is then remitted to the Australian Taxation Office \(ATO\) during the next Business Activity Statement \(BAS\) submission.  
   

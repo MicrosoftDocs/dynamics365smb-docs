@@ -1,20 +1,22 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Print Non-Invoiced Stock Reports"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "Stock Received not Invoiced (report)"
+  - "non-invoiced stock"
+  - "Stock Shipped not Invoiced (report)"
+ms.assetid: 740ec9f8-fe3f-4796-816f-39ded4c41fce
+caps.latest.revision: 39
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "en-gb"
+---
 # How to: Print Non-Invoiced Stock Reports
 You can use the following reports for month\-end reconciliation and auditing:  
   

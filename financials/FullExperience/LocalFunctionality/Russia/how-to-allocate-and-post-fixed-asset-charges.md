@@ -1,20 +1,23 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Allocate and Post Fixed Asset Charges"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "fixed asset charges, allocating"
+  - "allocating, fixed asset charges"
+  - "posting, fixed asset charges"
+  - "fixed asset charges"
+  - "fixed asset charges, posting"
+ms.assetid: ef752283-bb4a-450d-9f74-3d7b25ec6513
+caps.latest.revision: 2
+ms.author: "edupont"
+translation.priority.ht: 
+  - "ru-ru"
+---
 # How to: Allocate and Post Fixed Asset Charges
 After an invoice has been created you can allocate and post fixed asset charges. The following procedure shows how to allocate and post a fixed asset charge.  
   

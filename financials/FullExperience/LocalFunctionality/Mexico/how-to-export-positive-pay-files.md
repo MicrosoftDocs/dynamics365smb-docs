@@ -1,20 +1,23 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Export Electronic Payments-duplicate"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "exporting, electronic payments"
+  - "electronic payments, exporting"
+ms.assetid: 8fff9d78-a803-4662-af03-28739f2dab12
+caps.latest.revision: 10
+ms.author: "sgroespe"
+manager: "terryaus"
+translation.priority.ht: 
+  - "en-ca"
+  - "es-mx"
+  - "fr-ca"
+---
 # How to: Export Electronic Payments-duplicate
 You can use the Export Electronic Payments report to export payment journal entries to a file that is based on the Automated Clearing House \(ACH\) standard file format or the International ACH Transaction \(IAT\) file format.  The file can then be used to transmit electronic payments to a bank. For more information, see [How to: Transmit Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-transmit-electronic-payments.md).  
   

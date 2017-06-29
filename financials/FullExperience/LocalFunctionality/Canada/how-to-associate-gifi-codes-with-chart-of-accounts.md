@@ -1,20 +1,22 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Associate GIFI Codes with Chart of Accounts"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "chart of accounts, associating with GIFI codes"
+  - "GIFI codes, associating with chart of accounts"
+ms.assetid: 111cf5f5-8316-4150-87d1-ce58eafc9e8e
+caps.latest.revision: 15
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "en-ca"
+  - "fr-ca"
+---
 # How to: Associate GIFI Codes with Chart of Accounts
 To report financial information by General Index of Financial Information \(GIFI\) code, each GIFI code must be associated with the appropriate accounts in the chart of accounts.  
   

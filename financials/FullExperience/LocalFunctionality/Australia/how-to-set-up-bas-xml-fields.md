@@ -1,20 +1,20 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Set Up BAS XML Fields"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "BAS, XML fields"
+ms.assetid: eabafcc7-5e0b-4b73-b5ce-71d7476228aa
+caps.latest.revision: 5
+ms.author: "edupont"
+manager: "tsiggaar"
+translation.priority.ht: 
+  - "en-au"
+---
 # How to: Set Up BAS XML Fields
 In FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> -->, you must define setup names for XML fields in the Business Activity Statement \(BAS\). You can group the required BAS XML field IDs under one setup name.  
   

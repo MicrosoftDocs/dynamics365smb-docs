@@ -1,20 +1,25 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "VAT-VIES Reporting-duplicate"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "VAT, reports"
+  - "VAT-VIES reports"
+  - "VIES reporting, about"
+ms.assetid: b5f553e9-fb7d-4b46-b8dc-294000fa3fc4
+caps.latest.revision: 20
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "de-at"
+  - "de-ch"
+  - "de-de"
+  - "fr-ch"
+---
 # VAT-VIES Reporting-duplicate
 VAT Information Exchange System \(VIES\) reporting is required throughout the European Union \(EU\) and must follow local requirements, such as specific formats and files. Paper reports and XML files are created for German and Austrian VIES reporting.  
   

@@ -1,20 +1,21 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Edit and Delete Domiciliation Lines"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "domiciliations, editing lines"
+  - "domiciliations, deleting lines"
+ms.assetid: 26579a84-21d0-4d0b-926c-9bfb17ee9fb2
+caps.latest.revision: 2
+ms.author: "edupont"
+translation.priority.ht: 
+  - "fr-be"
+  - "nl-be"
+---
 # How to: Edit and Delete Domiciliation Lines
 After you have generated domiciliation suggestions, you may want to change the domiciliations lines. For example, you may want to reassign a bank account or prevent payment for a specific customer or customer ledger entry.  
   

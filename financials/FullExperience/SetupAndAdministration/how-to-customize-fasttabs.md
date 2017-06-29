@@ -1,20 +1,59 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Customize FastTabs"
+ms.custom: na
+ms.date: "03-03-2017"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "removing, fields"
+  - "fields, hiding"
+  - "FastTabs, collapsing"
+  - "adding, FastTabs"
+  - "customizing, FastTabs"
+  - "FastTabs, customizing"
+  - "restoring defaults"
+  - "adding, fields"
+  - "show fields"
+  - "FastTabs, adding"
+  - "fields, removing"
+  - "collapsed FastTabs"
+  - "removing, FastTabs"
+  - "fields, showing"
+  - "fields, adding"
+  - "FastTabs, removing"
+  - "hiding, fields"
+ms.assetid: 262f3ee0-7041-4456-a680-5d66f665058a
+caps.latest.revision: 22
+ms.author: "solsen"
+manager: "terryaus"
+translation.priority.ht: 
+  - "da-dk"
+  - "de-at"
+  - "de-ch"
+  - "de-de"
+  - "en-au"
+  - "en-ca"
+  - "en-gb"
+  - "en-in"
+  - "en-nz"
+  - "es-es"
+  - "es-mx"
+  - "fi-fi"
+  - "fr-be"
+  - "fr-ca"
+  - "fr-ch"
+  - "fr-fr"
+  - "is-is"
+  - "it-ch"
+  - "it-it"
+  - "nb-no"
+  - "nl-be"
+  - "nl-nl"
+  - "ru-ru"
+  - "sv-se"
+---
 # How to: Customize FastTabs
 FastTabs help organize information about pages into simple, manageable groups. You can customize FastTabs on pages so that they support your workflow. For example, you may want to show fewer FastTabs or hide specific fields on FastTabs. You can also promote the most important fields to be included in the FastTab headers when the FastTabs are collapsed.  
   

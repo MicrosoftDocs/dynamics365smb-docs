@@ -1,20 +1,22 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Declare VAT-VIES Tax"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "tax declarations, VAT-VIES"
+  - "declaring VAT-VIES tax"
+  - "VAT-VIES reports, declarations"
+ms.assetid: 47e3a445-b284-4e07-b4a0-7e6d101f2031
+caps.latest.revision: 22
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "de-de"
+---
 # How to: Declare VAT-VIES Tax
 FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> includes the VAT\-VIES declaration report, which you can use to submit information about sales transactions with other European Union \(EU\) countries\/regions to the customs and tax authorities' list system. The report displays information in the same format that is used in the customs and tax authorities' declaration list.  
   

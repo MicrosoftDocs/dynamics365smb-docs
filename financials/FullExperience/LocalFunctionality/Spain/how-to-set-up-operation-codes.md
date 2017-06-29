@@ -1,20 +1,17 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Set Up Operation Codes"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+ms.assetid: 9ef06dec-f2e0-4c00-b8b2-15b88e3648e5
+caps.latest.revision: 2
+ms.author: "edupont"
+translation.priority.ht: 
+  - "es-es"
+---
 # How to: Set Up Operation Codes
 You can add as many operation codes as you want to the table. However, the operation codes C, D, and I already exist in Microsoft Dynamics NAV. For example, Credit Memos always have the operation code D. You cannot set up these values in the table because they are system\-created codes. If you try to add them, Microsoft Dynamics NAV will return an error.  
   

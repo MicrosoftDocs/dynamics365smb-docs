@@ -1,20 +1,33 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "Walkthrough: Planning Supplies Manually"
+ms.custom: na
+ms.date: "03-03-2017"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "planning, transfers"
+  - "business process walkthroughs, manual production planning"
+  - "planning, purchases"
+  - "production planning, manual"
+  - "demand, planning supplies manually"
+  - "planning, production"
+ms.assetid: fdca1120-663b-40dd-ad19-de1711a6a5e6
+caps.latest.revision: 24
+ms.author: "sgroespe"
+manager: "terryaus"
+translation.priority.ht: 
+  - "da-dk"
+  - "de-de"
+  - "es-es"
+  - "fi-fi"
+  - "fr-fr"
+  - "it-it"
+  - "nb-no"
+  - "nl-nl"
+  - "sv-se"
+---
 # Walkthrough: Planning Supplies Manually
 This walkthrough demonstrates the process of planning supply orders to fulfill new demand. You can initiate supply planning at fixed intervals, for example, every morning or every Monday, or when you are notified by sales or production, depending on the type of demand. In this walkthrough you will use the **Order Planning** window, a simple supply planning tool that is based on manual decision\-making instead of parameter\-based automatic planning.  
   

@@ -1,20 +1,25 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Export Payments"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+f1_keywords: 
+  - "D_10861"
+  - "D_10860"
+  - "D_10862"
+helpviewer_keywords: 
+  - "exporting, payments"
+  - "payments, exporting"
+ms.assetid: 95e00d75-b3ba-4111-9edb-a6ae3a0e66b3
+caps.latest.revision: 13
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "fr-fr"
+---
 # How to: Export Payments
 The Payment Management module allows you to export your payments electronically via a text file or XMLport.  
   

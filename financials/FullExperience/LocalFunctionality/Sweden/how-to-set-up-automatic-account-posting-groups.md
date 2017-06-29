@@ -1,20 +1,22 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Set Up Automatic Account Posting Groups"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "automatic account codes, setting up"
+  - "account codes, setting up automation"
+ms.assetid: 91c3d134-cf33-47ca-b2b3-e469e9d74e59
+caps.latest.revision: 15
+ms.author: "edupont"
+manager: "pchapman"
+translation.priority.ht: 
+  - "fi-fi"
+  - "sv-se"
+---
 # How to: Set Up Automatic Account Posting Groups
 To use automatic account codes, you must create an automatic account posting group.  
   

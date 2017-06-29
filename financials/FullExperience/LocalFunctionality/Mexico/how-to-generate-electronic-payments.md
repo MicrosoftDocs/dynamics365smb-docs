@@ -1,20 +1,24 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Generate Electronic Payments"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "exporting, electronic payments"
+  - "electronic payments, generating"
+  - "electronic payments, exporting"
+ms.assetid: 8410e1bf-6048-48d9-bc4b-e33eedbfdca8
+caps.latest.revision: 25
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "en-ca"
+  - "es-mx"
+  - "fr-ca"
+---
 # How to: Generate Electronic Payments
 When you select electronic payment in the payment journal, the information is exported to a file, which is transmitted to your bank. The bank then transfers the payment from your bank account to the payee's bank account. If you are using the electronic payment option, journal lines must be exported and transmitted before they can be posted.  
   

@@ -1,20 +1,20 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "Addresses"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "postal codes, for New Zealand"
+  - "New Zealand postal codes"
+  - "Australian postal codes"
+  - "postal codes, for Australia"
+ms.assetid: 698bd2a7-32e8-45b0-9fd8-a7f204e7d70b
+caps.latest.revision: 23
+ms.author: "edupont"
+---
 # Addresses
 A single postal code can include multiple cities in the same region.  
   

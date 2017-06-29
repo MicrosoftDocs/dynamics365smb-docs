@@ -1,20 +1,22 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Set Up Revenue Types for Withholding Tax"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "withholding tax, setting up revenue types"
+  - "revenue types"
+  - "vendor revenue types"
+ms.assetid: eb81ba57-7fa7-4d90-99d7-d557103e799d
+caps.latest.revision: 16
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "en-au"
+---
 # How to: Set Up Revenue Types for Withholding Tax
 Revenue types are used to categorize withholding tax \(WHT\) entries and are used for WHT certificates.  
   

@@ -1,20 +1,25 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Export Business Activity Statements"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "Business Activity Statement (BAS), exporting"
+  - "BAS, details"
+  - "exporting, BAS"
+  - "BAS, calculation sheet"
+  - "BAS, exporting"
+  - "exporting, business activity statements"
+ms.assetid: 749c2c34-2491-4db6-ba22-97f3ccd22e35
+caps.latest.revision: 29
+ms.author: "edupont"
+manager: "pchapman"
+translation.priority.ht: 
+  - "en-au"
+---
 # How to: Export Business Activity Statements
 A Business Activity Statement \(BAS\) is a form that reports both the total Goods and Services Tax \(GST\) collected from sales activities, and GST paid on purchases.  
   

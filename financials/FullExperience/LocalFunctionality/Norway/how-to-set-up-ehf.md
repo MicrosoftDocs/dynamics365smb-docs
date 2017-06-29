@@ -1,20 +1,17 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Set Up EHF"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+ms.assetid: c9156158-96ad-4db6-b426-98e5721180bd
+caps.latest.revision: 3
+ms.author: "edupont"
+translation.priority.ht: 
+  - "nb-no"
+---
 # How to: Set Up EHF
 You must define a location for storing Elektronisk Handelsformat \(EHF\) files when you create electronic documents such as invoices or credit memos. You must also define payment methods and set up relevant customers for EHF.  
   

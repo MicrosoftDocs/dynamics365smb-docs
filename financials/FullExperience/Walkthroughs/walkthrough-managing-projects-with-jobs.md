@@ -1,20 +1,33 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "Walkthrough: Managing Projects with Jobs"
+ms.custom: na
+ms.date: "03-03-2017"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "business process walkthroughs, project management"
+  - "jobs, setting up"
+  - "jobs, copying"
+  - "jobs, handling fixed prices"
+  - "copying, jobs"
+  - "jobs, project management"
+ms.assetid: 9e4a09c9-6a78-443c-b878-e87ecb0a64dc
+caps.latest.revision: 37
+ms.author: "sgroespe"
+manager: "terryaus"
+translation.priority.ht: 
+  - "da-dk"
+  - "de-de"
+  - "es-es"
+  - "fi-fi"
+  - "fr-fr"
+  - "it-it"
+  - "nb-no"
+  - "nl-nl"
+  - "sv-se"
+---
 # Walkthrough: Managing Projects with Jobs
 This walkthrough introduces you to the project management features in jobs. Jobs are a way for you to schedule the usage of your company's resources and to keep track of the various costs associated with the resources on a specific project. Jobs involves the consumption of employee hours, machine hours, inventory items, and other types of usage that you may want to track as a job progresses.  
   

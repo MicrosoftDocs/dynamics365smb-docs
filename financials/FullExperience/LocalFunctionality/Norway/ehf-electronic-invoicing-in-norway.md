@@ -1,20 +1,17 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "EHF Electronic Invoicing in Norway"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+ms.assetid: 3abb34c0-2c56-4169-a721-f9165c564b85
+caps.latest.revision: 3
+ms.author: "edupont"
+translation.priority.ht: 
+  - "nb-no"
+---
 # EHF Electronic Invoicing in Norway
 Companies must send sales invoices and credit memos to the Norwegian public sector electronically in the Elektronisk Handelsformat \(EHF\) based on Universal Business Language \(UBL\). If a company does not send these documents electronically, the authorities can deny payment. The standard supported format for electronic exchange between parties is the Ehandel.no format.  
   

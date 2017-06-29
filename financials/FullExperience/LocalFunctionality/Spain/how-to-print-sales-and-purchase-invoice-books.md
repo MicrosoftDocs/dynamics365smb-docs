@@ -1,20 +1,22 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Print Sales and Purchase Invoice Books"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "invoices, posting from a journal"
+  - "Sales Invoice Book (report)"
+  - "Purchase Invoice Book (report)"
+  - "invoices, reports"
+  - "invoice book reports"
+ms.assetid: dd5169e0-9b94-4833-9e07-2170ebdad845
+caps.latest.revision: 41
+ms.author: "edupont"
+manager: "terryaus"
+---
 # How to: Print Sales and Purchase Invoice Books
 The **Sales Invoice Book** report and **Purchases Invoice Book** report allow you to check all of the sales and purchase documents created for a specific period.  
   

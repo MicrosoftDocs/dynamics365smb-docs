@@ -1,20 +1,21 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "Required Descriptions in G-L Entry"
+ms.custom: na
+ms.date: "06-04-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "journal entries, required descriptions"
+  - "general ledger, required descriptions"
+ms.assetid: 22f1477f-b73b-4326-ac9f-4190a865aaa3
+caps.latest.revision: 5
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "nl-nl"
+---
 # Required Descriptions in G-L Entry
 When entering general journal lines on a form, the system fills in automatically the description field. This description will also be stored in the G\/L Entry after posting the journal. For a good audit trail, a more detailed description is desirable, when you post a journal line of type 'G\/L account'.  
   

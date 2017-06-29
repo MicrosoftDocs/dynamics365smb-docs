@@ -1,20 +1,25 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Print Test Reports for Delivery Reminders"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "reminders, printing test reports"
+  - "delivery reminders, test reports"
+  - "delivery reminders, printing test reports"
+ms.assetid: 8fd878f2-9b46-4369-b55b-98ffe7dd3672
+caps.latest.revision: 7
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "de-at"
+  - "de-ch"
+  - "de-de"
+  - "fr-ch"
+---
 # How to: Print Test Reports for Delivery Reminders
 After you have created delivery reminders and made any needed modifications, you can either print the test reports or issue the delivery reminders.  
   

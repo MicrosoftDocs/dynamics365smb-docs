@@ -1,20 +1,22 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: View Posted Tax Credit Memos"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "tax credit memos"
+  - "tax, credit memos"
+  - "posted tax credit memos"
+ms.assetid: 52d6b295-7186-433b-a533-22908531d155
+caps.latest.revision: 16
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "en-au"
+---
 # How to: View Posted Tax Credit Memos
 You can use the **Posted Sales Tax Credit Memo** window and **Posted Purch. Tax Credit Memo** window to view details of sales tax credit memos and purchase tax credit memos that have been posted.  
   

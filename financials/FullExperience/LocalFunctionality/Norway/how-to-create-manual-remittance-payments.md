@@ -1,20 +1,20 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Create Manual Remittance Payments"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "remittance, manual payments"
+  - "remittance, payments"
+ms.assetid: be4cda37-1630-4066-9a70-7d0100400203
+caps.latest.revision: 2
+ms.author: "edupont"
+translation.priority.ht: 
+  - "nb-no"
+---
 # How to: Create Manual Remittance Payments
 Generally, payments are created automatically in the payment journal using the remittance suggestion function. However, you can also create a payment manually, either as a payment of an existing invoice or as a payment without a link to an existing invoice, such as a payment to a vendor.  
   

@@ -1,20 +1,22 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Print Balance Sheet and Income Statement Reports"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "income statements, printing"
+  - "balances, income statements"
+  - "balance sheets, printing"
+ms.assetid: ecb39257-4bc7-4c4a-b742-0392923ec13b
+caps.latest.revision: 17
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "sv-se"
+---
 # How to: Print Balance Sheet and Income Statement Reports
 You can print balance sheet reports and income statement reports to submit to banks and other authorities. The **Balance Sheet** report displays assets, liabilities, and equity. The **Income Statement** report displays income and expenses.  
   

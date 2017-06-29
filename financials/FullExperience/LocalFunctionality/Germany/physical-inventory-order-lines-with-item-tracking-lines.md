@@ -1,20 +1,21 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "Physical Inventory Order Lines With Item Tracking Lines"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "physical inventory, item tracking"
+  - "inventory, physical orders"
+ms.assetid: 0daee4d5-2c64-4d69-81f4-e8e916adf5a7
+caps.latest.revision: 8
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "de-de"
+---
 # Physical Inventory Order Lines With Item Tracking Lines
 Item tracking lines are used to enter serial nos. and lot nos. for physical inventory order lines.  
   

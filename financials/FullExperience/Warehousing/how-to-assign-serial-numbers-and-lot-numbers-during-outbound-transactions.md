@@ -1,20 +1,24 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Assign Serial Numbers and Lot Numbers During Outbound Transactions"
+ms.custom: na
+ms.date: "03-03-2017"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "sales orders, handling numbers"
+  - "serial numbers, handling in inbound transactions"
+  - "item tracking, handling in inbound transactions"
+  - "sales orders, selecting numbers"
+  - "lot numbers, handling in inbound transactions"
+ms.assetid: 77f9eb04-6acc-416c-b842-0a3e53ae788b
+caps.latest.revision: 7
+ms.author: "sgroespe"
+manager: "terryaus"
+translation.priority.ht: 
+  - "da-dk"
+---
 # How to: Assign Serial Numbers and Lot Numbers During Outbound Transactions
 You can add serial numbers and lot numbers to any outbound document, and its posted item tracking entries are displayed in the related item ledger entries. There are two ways to add serial and lot numbers to outbound transactions:  
   

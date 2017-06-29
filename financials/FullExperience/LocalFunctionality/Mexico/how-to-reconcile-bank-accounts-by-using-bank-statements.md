@@ -1,20 +1,26 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Reconcile Bank Accounts by Using Bank Statements"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "bank reconciliation, using statements"
+  - "worksheets, reconciling"
+  - "statements, reconciling bank"
+  - "bank reconciliation, accounts"
+  - "bank accounts, bank statements"
+ms.assetid: 0ea5ba10-929e-4385-aff9-b7f237e9f628
+caps.latest.revision: 28
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "en-ca"
+  - "es-mx"
+  - "fr-ca"
+---
 # How to: Reconcile Bank Accounts by Using Bank Statements
 FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> provides a **Bank Rec.Worksheet** that you can use to reconcile bank account ledger entries with bank statements.  
   

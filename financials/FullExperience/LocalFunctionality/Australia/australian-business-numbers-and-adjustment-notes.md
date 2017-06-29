@@ -1,20 +1,23 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "Australian Business Numbers and Adjustment Notes"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "adjustment notes"
+  - "Australian Business Numbers (ABN), about"
+  - "business numbers, ABN"
+  - "tax file numbers (TFN)"
+ms.assetid: d9ec6819-710b-49f9-8672-93d2c907610c
+caps.latest.revision: 28
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "en-au"
+---
 # Australian Business Numbers and Adjustment Notes
 An Australian Business Number \(ABN\) is a single identifier for all business dealings with the tax office, and for dealings with other government departments and agencies.  
   

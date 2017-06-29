@@ -1,20 +1,20 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "Special Data Output and Reports for the Tax Authority"
+ms.custom: na
+ms.date: "06-04-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "IRS, tax numbers"
+  - "tax, numbers"
+ms.assetid: 8d834004-2544-4763-bc23-7a0e93d3c001
+caps.latest.revision: 2
+ms.author: "edupont"
+translation.priority.ht: 
+  - "is-is"
+---
 # Special Data Output and Reports for the Tax Authority
 It is a legal requirement to send the tax authority a data file in a predefined format.  
   

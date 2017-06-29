@@ -1,20 +1,19 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Map IRS Numbers to Chart of Accounts"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "chart of accounts, mapping IRS numbers"
+ms.assetid: c0f773b2-625a-40ad-a4d9-95322bc02d35
+caps.latest.revision: 2
+ms.author: "edupont"
+translation.priority.ht: 
+  - "is-is"
+---
 # How to: Map IRS Numbers to Chart of Accounts
 Companies in Iceland are required to send the tax authority a data file in a predefined format. Before you can do this, you must map predefined Internal Revenue Service \(IRS\) account codes to general ledger accounts.  
   

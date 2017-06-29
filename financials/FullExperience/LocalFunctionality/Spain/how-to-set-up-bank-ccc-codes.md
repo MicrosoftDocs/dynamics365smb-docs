@@ -1,20 +1,19 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Set Up Bank CCC Codes"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "CCC codes"
+  - "bank CCC codes"
+ms.assetid: 08539a7e-7268-4b76-8240-691f90c55454
+caps.latest.revision: 49
+ms.author: "edupont"
+manager: "terryaus"
+---
 # How to: Set Up Bank CCC Codes
 Código Cuenta Cliente \(CCC\) is a unique account code used by banks to identify their customers. The CCC code is printed on bank documents such as checks and statements.  
   

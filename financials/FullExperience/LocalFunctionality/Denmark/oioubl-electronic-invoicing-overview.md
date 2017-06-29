@@ -1,20 +1,22 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "OIOUBL Electronic Invoicing Overview"
+ms.custom: na
+ms.date: "03-03-2017"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "invoices, electronic"
+  - "electronic invoices, about"
+  - "OIOUBL, about"
+ms.assetid: b9e88827-7f1e-468e-82cd-62eb2baa5e9a
+caps.latest.revision: 14
+ms.author: "edupont"
+manager: "terryaus"
+translation.priority.ht: 
+  - "da-dk"
+---
 # OIOUBL Electronic Invoicing Overview
 Companies must send sales invoices, credit memos, finance charge memos, and reminders to the Danish public sector electronically in the Offentlig Information Online UBL \(OIOUBL\) format. If a company does not send these documents electronically, the authorities can deny payment.  
   

@@ -1,20 +1,24 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Set Up WIP Accounts for Posting Material Consumption"
+ms.custom: na
+ms.date: "03-03-2017"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "consumption, posting"
+  - "costs, production"
+  - "Work in Progress (WIP), setting up accounts"
+  - "materials, consumption"
+  - "posting production orders, consumption"
+ms.assetid: 3fc6ac33-6c01-405b-a466-46d003a06006
+caps.latest.revision: 8
+ms.author: "sgroespe"
+manager: "terryaus"
+translation.priority.ht: 
+  - "da-dk"
+---
 # How to: Set Up WIP Accounts for Posting Material Consumption
 Material consumption credits the inventory account and debits the WIP account.  
   

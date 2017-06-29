@@ -1,20 +1,29 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Set Up Base Calendars"
+ms.custom: na
+ms.date: "03-03-2017"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "calendars, base"
+  - "base calendars, setting up"
+ms.assetid: fc3eae16-e61c-49e8-94df-2b01c35590a3
+caps.latest.revision: 8
+ms.author: "sgroespe"
+manager: "terryaus"
+translation.priority.ht: 
+  - "da-dk"
+  - "de-de"
+  - "es-es"
+  - "fi-fi"
+  - "fr-fr"
+  - "it-it"
+  - "nb-no"
+  - "nl-nl"
+  - "sv-se"
+---
 # How to: Set Up Base Calendars
 The main task in setting up a new base calendar is to specify and define the nonworking days that you want to apply.  
   

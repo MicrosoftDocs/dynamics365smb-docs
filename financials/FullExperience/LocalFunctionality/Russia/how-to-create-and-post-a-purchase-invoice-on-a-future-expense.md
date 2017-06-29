@@ -1,20 +1,19 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Create and Post a Purchase Invoice on a Future Expense"
+ms.custom: na
+ms.date: "06-05-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "future expenses, creating purchase invoices"
+ms.assetid: 0fca56c0-7502-4a0f-bc6e-bba5442788a9
+caps.latest.revision: 2
+ms.author: "edupont"
+translation.priority.ht: 
+  - "ru-ru"
+---
 # How to: Create and Post a Purchase Invoice on a Future Expense
 To account for future period expenses, you have to create and post purchase invoices on the future expense. Be sure you have set up a future expense card before you create a purchase invoice. For more information, see [How to: Set Up a Future Expense Card](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-set-up-a-future-expense-card.md).  
   

@@ -1,20 +1,19 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
-
-    ---
+title: "How to: Indent and Validate Chart of Accounts"
+ms.custom: na
+ms.date: "06-04-2016"
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: "article"
+helpviewer_keywords: 
+  - "chart of accounts, indenting"
+  - "chart of accounts, validating"
+ms.assetid: 7445bad0-9450-456a-97a1-553463a2f3ea
+caps.latest.revision: 48
+ms.author: "edupont"
+manager: "terryaus"
+---
 # How to: Indent and Validate Chart of Accounts
 You can indent and validate the chart of accounts in the **G\/L Account Card** window. You can enter a maximum of 20 numbers. Accounts are sorted in string order, as shown in the following example.  
   

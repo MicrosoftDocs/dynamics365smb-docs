@@ -1,61 +1,34 @@
 ---
-title: "How to: Perform Warehouse Physical Inventories"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "physical inventory, warehouse"
-  - "inventory, warehouse"
-  - "inventory, counting"
-  - "adjusting, counting quantities"
-  - "counting, inventory"
-ms.assetid: 91351e47-6619-4835-afb4-eeb2e6a5f865
-caps.latest.revision: 12
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Perform Warehouse Physical Inventories
 At least once in every fiscal year, you must take a physical inventory to see if the quantity registered is the same as the physical quantity in stock. If there are differences, you must post them to the item accounts before you do an inventory valuation. You also post your results to the physical inventory ledger, to record that you have counted a particular item on a particular date.  
   
- If you are not using directed put\-away and pick for a location, you perform a physical inventory using the Phys. Inventory Journal. For more information, see [How to: Perform a Physical Inventory](../DesignAndEngineering/how-to-perform-a-physical-inventory.md). If you are using directed put\-away and pick, you use the Whse. Phys. Inventory Journal, and later on, the Phys. Inventory Journal. This process is described here. In warehouses with bins, the counting is performed and registered bin by bin.  
+ If you are not using directed put-away and pick for a location, you perform a physical inventory using the Phys. Inventory Journal. For more information, see [How to: Perform a Physical Inventory](../FullExperience/how-to-perform-a-physical-inventory.md). If you are using directed put-away and pick, you use the Whse. Phys. Inventory Journal, and later on, the Phys. Inventory Journal. This process is described here. In warehouses with bins, the counting is performed and registered bin by bin.  
   
 ### To perform a warehouse physical inventory  
   
-1.  In the **Search** box, enter **\($ N\_40 Item Journal $\)**, and choose the related link.  
+1.  In the **Search** box, enter **Item Journal**, and choose the related link.  
   
 2.  On the **Actions** tab, in the **Functions** group, choose **Calculate Whse. Adjustment**.  
   
 3.  Fill in the batch job request window with the numbers of the items you want to count and with your location. Choose the **OK** button, and post the adjustments if any. If you do not do this before you perform the warehouse physical inventory, the results you post to the physical inventory journal and item ledger in the second part of the process will be the physical inventory results combined with other warehouse adjustments for the items that were counted.  
   
-4.  In the **Search** box, enter **\($ N\_7326 Whse. Phys. Invt. Journal $\)**, and choose the related link.  
+4.  In the **Search** box, enter **Whse. Phys. Invt. Journal**, and choose the related link.  
   
 5.  In the journal, on the **Actions** tab, in the **Functions** group, choose **Calculate Inventory**. The **Whse. Calculate Inventory** batch job request window opens.  
   
@@ -63,9 +36,9 @@ At least once in every fiscal year, you must take a physical inventory to see if
   
      If you only have time to count the item in some bins and not others, you can discover discrepancies, register them, and later post them in the item journal using the **Calculate Whse. Adjustment** function.  
   
-7.  In the **Search** box, enter **\($ R\_7307 Whse. Phys. Inventory List $\)**, and choose the related link.  
+7.  In the **Search** box, enter **Whse. Phys. Inventory List**, and choose the related link.  
   
-8.  Open the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon") report request page and print the lists on which you want employees to record the quantity of items that they count in each bin.  
+8.  Open the ![Shortcut icon](../FullExperience/media/shortcutcoldicon.gif "shortcutColdIcon") report request page and print the lists on which you want employees to record the quantity of items that they count in each bin.  
   
 9. When the counting is done, enter the counted quantities in the **Qty. \(Phys. Inventory\)** field in the warehouse physical inventory journal.  
   
@@ -80,11 +53,11 @@ At least once in every fiscal year, you must take a physical inventory to see if
   
     -   If the quantity calculated is equal to the physical quantity, the program registers an entry of 0 for both the bin and the adjustment bin. The entries are the record that on the registering date, a warehouse physical inventory was performed, and there was no discrepancy in inventory for the item.  
   
- When you register the warehouse physical inventory, you are not posting to the item ledger, the physical inventory ledger, or the value ledger, but the records are there for immediate reconciliation whenever necessary. If you like to keep precise records of what is happening in the warehouse, however, and you counted all of the bins where the items were registered, you should immediately post the warehouse results as an inventory physical inventory. For more information, see [How to: Perform a Physical Inventory](../DesignAndEngineering/how-to-perform-a-physical-inventory.md).  
+ When you register the warehouse physical inventory, you are not posting to the item ledger, the physical inventory ledger, or the value ledger, but the records are there for immediate reconciliation whenever necessary. If you like to keep precise records of what is happening in the warehouse, however, and you counted all of the bins where the items were registered, you should immediately post the warehouse results as an inventory physical inventory. For more information, see [How to: Perform a Physical Inventory](../FullExperience/how-to-perform-a-physical-inventory.md).  
   
 ### To post warehouse results as a physical inventory  
   
-1.  In the **Search** box, enter **\($ N\_392 Phys. Inventory Journal $\)**, and choose the related link.  
+1.  In the **Search** box, enter **Phys. Inventory Journal**, and choose the related link.  
   
 2.  On the **Actions** tab, in the **Functions** group, choose **Calculate Inventory**.  
   
@@ -100,7 +73,7 @@ At least once in every fiscal year, you must take a physical inventory to see if
 >  Only an employee with permissions in the Inventory area can update the item ledger and physical inventory ledger with the results of the warehouse physical inventory.  
   
 ## See Also  
- [How to: Perform a Physical Inventory](../DesignAndEngineering/how-to-perform-a-physical-inventory.md)   
- [How to: Set Up Physical Inventory Counting Periods](../WarehouseActivities/how-to-set-up-physical-inventory-counting-periods.md)   
- [Count, Adjust, and Reclassify Inventory](../WarehouseActivities/count-adjust-and-reclassify-inventory.md)   
- [Design Details: Integration with Inventory](../ApplicationDesign/design-details-integration-with-inventory.md)
+ [How to: Perform a Physical Inventory](../FullExperience/how-to-perform-a-physical-inventory.md)   
+ [How to: Set Up Physical Inventory Counting Periods](../FullExperience/how-to-set-up-physical-inventory-counting-periods.md)   
+ [Count, Adjust, and Reclassify Inventory](../FullExperience/count-adjust-and-reclassify-inventory.md)   
+ [Design Details: Integration with Inventory](../FullExperience/design-details-integration-with-inventory.md)

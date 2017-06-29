@@ -1,21 +1,20 @@
 ---
-title: "Russian Payables Reports"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "payables, reports"
-  - "reports, payables"
-  - "official reports in Russia, payables"
-ms.assetid: e9d732cb-fc85-4edf-95a3-e6536c65f2a2
-caps.latest.revision: 3
-ms.author: "edupont"
-translation.priority.ht: 
-  - "ru-ru"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Russian Payables Reports
 The payables report feature enables you to view the vendor general ledger turnover for general ledger accounts for finance entries with the source type Vendor on the screen and in the form of a printed report. The following reports are also provided:  
   
@@ -42,7 +41,7 @@ The payables report feature enables you to view the vendor general ledger turnov
   
 |Field|Description|  
 |-----------|-----------------|  
-|**Date Filter**|Select this field to specify the period that the data is analyzed for. You can use the buttons on the lower\-left corner of the form, or you can enter the dates manually.|  
+|**Date Filter**|Select this field to specify the period that the data is analyzed for. You can use the buttons on the lower-left corner of the form, or you can enter the dates manually.|  
 |**General Ledger Account Filter**|Select this field to filter the data by general ledger accounts.|  
 |**Global Dimension 1 Filter**|Select this field to define a value for the Global Dimension 1 filter.|  
 |**Global Dimension 2 Filter**|Select this field to define a value for the Global Dimension 2 filter.|  
@@ -269,6 +268,6 @@ The payables report feature enables you to view the vendor general ledger turnov
 |**Print Contractor Data**|Select this option to fill in the right side of the report with the vendor's data.|  
   
 ## See Also  
- [Russian Receivables Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/russian-receivables-reports.md)   
- [How to: Set Up Customer and Vendor Agreements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-set-up-customer-and-vendor-agreements.md)   
- [Payables and Receivables\-duplicate](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/payables-and-receivables-duplicate.md)
+ [Russian Receivables Reports](../FullExperience/russian-receivables-reports.md)   
+ [How to: Set Up Customer and Vendor Agreements](../FullExperience/how-to-set-up-customer-and-vendor-agreements.md)   
+ [Payables and Receivables-duplicate](../FullExperience/payables-and-receivables-duplicate.md)

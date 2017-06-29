@@ -1,44 +1,20 @@
 ---
-title: "How to: Check Item Availability for Service Orders"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "service orders, item availability"
-  - "items, availability for service orders"
-ms.assetid: c960d54d-8356-4f03-a0b9-4b1eb03cb405
-caps.latest.revision: 10
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Check Item Availability for Service Orders
 You can check and see if an item you need to fulfill an order is in stock, and if it is not, when the item will be in stock. In addition, if an item is available to reserve, you can reserve it to make sure it is available for your use.  
   
@@ -65,6 +41,6 @@ You can check and see if an item you need to fulfill an order is in stock, and i
 4.  In the **Demand Overview** window, expand the item grouping, and view information about the availability of the item. For example, you can see how many items are in inventory. You can also see if and when an item will be available if it is on back order, that is, Source Type \= Purchase, or whether it has been reserved.  
   
 ## See Also  
- [\($ N\_5830 Demand Overview $\)](../Topic/\($%20N_5830%20Demand%20Overview%20$\).md)   
- [\($ N\_498 Reservation $\)](../Topic/\($%20N_498%20Reservation%20$\).md)   
- [How to: Reserve Items for a Service Order](../Service/how-to-reserve-items-for-a-service-order.md)
+ Demand Overview   
+ Reservation   
+ [How to: Reserve Items for a Service Order](../FullExperience/how-to-reserve-items-for-a-service-order.md)

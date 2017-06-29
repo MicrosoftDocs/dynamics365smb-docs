@@ -1,44 +1,20 @@
 ---
-title: "How to: Combine Receipts"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "combining, receipts"
-  - "receipts, combining"
-ms.assetid: 793b07a4-2d45-4169-8eb3-ef4ad1d2b897
-caps.latest.revision: 10
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Combine Receipts
 If you want to invoice more than one purchase receipt at a time, you can use the **Combine Receipts** function.  
   
@@ -52,7 +28,7 @@ If you want to invoice more than one purchase receipt at a time, you can use the
   
 2.  On the **Home** tab, in the **New** group, choose **New**.  
   
-3.  Create a purchase invoice. For more information, see [How to: Record Purchases](../Finance/how-to-record-purchases.md).  
+3.  Create a purchase invoice. For more information, see [How to: Record Purchases](../FullExperience/how-to-record-purchases.md).  
   
 4.  On the **Lines** FastTab, choose, **Functions**, and then choose **Get Receipt Lines**.  
   
@@ -71,8 +47,8 @@ If you want to invoice more than one purchase receipt at a time, you can use the
 3.  Alternatively, delete the individual orders manually. On the **Home** tab, in the **Manage** group, choose **Delete**.  
   
 ## See Also  
- [How to: Combine Return Receipts](../Sales/how-to-combine-return-receipts.md)   
- [How to: Combine Return Receipts](../Sales/how-to-combine-return-receipts.md)   
- [\($ N\_50 Purchase Order $\)](../Topic/\($%20N_50%20Purchase%20Order%20$\).md)   
- [\($ N\_509 Blanket Purchase Order $\)](../Topic/\($%20N_509%20Blanket%20Purchase%20Order%20$\).md)   
- [Processing Purchase Orders](../Receiving/processing-purchase-orders.md)
+ [How to: Combine Return Receipts](../FullExperience/how-to-combine-return-receipts.md)   
+ [How to: Combine Return Receipts](../FullExperience/how-to-combine-return-receipts.md)   
+ Purchase Order   
+ Blanket Purchase Order   
+ [Processing Purchase Orders](../FullExperience/processing-purchase-orders.md)

@@ -1,20 +1,20 @@
 ---
-title: "How to: Copy Sales Prices"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "sales prices, copy"
-ms.assetid: 74bb262c-3648-4e94-87c0-7c956d37c9a8
-caps.latest.revision: 5
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Copy Sales Prices
 If you want to copy sales prices, such as an individual customer's sales prices to use for a customer price group, you must run the **Suggest Sales Price on Wksh.** batch job.  
   
@@ -22,7 +22,7 @@ If you want to copy sales prices, such as an individual customer's sales prices 
   
 ### To copy sales prices  
   
-1.  In the **Search** box, enter **\($ N\_7023 Sales Price Worksheet $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Sales Price Worksheet**, and then choose the related link.  
   
 2.  On the **Actions** tab, in the **Functions** group, choose **Suggest Sales Price on Wksh.**  
   
@@ -38,6 +38,6 @@ If you want to copy sales prices, such as an individual customer's sales prices 
 >  This batch job only creates suggestions and it does not implement the suggested changes. If you are satisfied with the suggestions and want to implement them, that is insert them in the **Sales Prices** table, you can use the **Implement Price Changes** batch job, which is found on the **Actions** tab, in the **Functions** group, in the **Sales Price Worksheet** window.  
   
 ## See Also  
- [\($ N\_7002 Sales Prices $\)](../Topic/\($%20N_7002%20Sales%20Prices%20$\).md)   
- [\($ N\_7023 Sales Price Worksheet $\)](../Topic/\($%20N_7023%20Sales%20Price%20Worksheet%20$\).md)   
- [How to: Create Sales Prices for a Customer](../DesignAndEngineering/how-to-create-sales-prices-for-a-customer.md)
+ Sales Prices   
+ Sales Price Worksheet   
+ [How to: Create Sales Prices for a Customer](../FullExperience/how-to-create-sales-prices-for-a-customer.md)

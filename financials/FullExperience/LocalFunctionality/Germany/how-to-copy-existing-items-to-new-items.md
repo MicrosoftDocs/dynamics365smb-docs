@@ -1,23 +1,20 @@
 ---
-title: "How to: Copy Existing Items to New Items"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "items, copying existing"
-ms.assetid: 150cbddf-e92d-4de6-818a-26707aec4c4f
-caps.latest.revision: 20
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "fr-ch"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Copy Existing Items to New Items
 You can group items with similar settings in an item catalog. When you add a new item, to save time, you can use **Copy Item** to copy an existing item to use as a template for a new item.  
   
@@ -27,9 +24,9 @@ You can group items with similar settings in an item catalog. When you add a new
   
 2.  Select the item that you want to copy, and then, on the **Actions** tab, in the **Functions** group, choose **Copy Item**.  
   
-3.  In the **\($ B\_11511 Item Copy $\)** window, fill in the fields as described in the following table.  
+3.  In the **Item Copy** window, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Source Item No.**|Sets the item number from which the data is to be copied.|  
     |**Target Item No.**|Sets the item number for the item to which the data is to be copied.|  
@@ -43,4 +40,4 @@ You can group items with similar settings in an item catalog. When you add a new
 5.  To copy your selections to the new item, choose the **OK** button.  
   
 ## See Also  
- [\($ T\_27 Item $\)](../Topic/\($%20T_27%20Item%20$\).md)
+ Item

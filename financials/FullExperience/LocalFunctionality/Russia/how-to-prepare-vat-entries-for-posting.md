@@ -1,34 +1,34 @@
 ---
-title: "How to: Prepare VAT Entries for Posting"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "posting, VAT"
-  - "VAT, posting"
-ms.assetid: 961b8d9d-d9f9-4350-8094-b21121b99ca5
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "ru-ru"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Prepare VAT Entries for Posting
-You may want to periodically remit the net VAT from sales and purchase transactions to the tax authorities. You can use the **\($ N\_14925 VAT Settlement Worksheet $\)** to prepare transactions with open VAT amounts for posting and copy the entries to the appropriate VAT settlement journal. This is typically done before you run the **\($ B\_20 Calc. and Post VAT Settlement $\)** batch job to post and close VAT entries.  
+You may want to periodically remit the net VAT from sales and purchase transactions to the tax authorities. You can use the **VAT Settlement Worksheet** to prepare transactions with open VAT amounts for posting and copy the entries to the appropriate VAT settlement journal. This is typically done before you run the **Calc. and Post VAT Settlement** batch job to post and close VAT entries.  
   
 ### To prepare VAT entries for posting  
   
-1.  In the **Search** box, enter **\($ N\_14925 VAT Settlement Worksheet $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **VAT Settlement Worksheet**, and then choose the related link.  
   
 2.  Select the filters that define the VAT related transactions that you want to include in the VAT settlement.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
-    |**\($ N\_14925\_1470025 Type $\)**|Select the type of transactions that you want to include in the VAT settlement.|  
-    |**\($ N\_14925\_1470056 View by $\)**|Select the time period for the VAT settlement.|  
-    |**\($ N\_14925\_1470058 View as $\)**|Select how you want to view the net VAT. The options include **Net Change** and **Balance at Date**.|  
+    |**Type**|Select the type of transactions that you want to include in the VAT settlement.|  
+    |**View by**|Select the time period for the VAT settlement.|  
+    |**View as**|Select how you want to view the net VAT. The options include **Net Change** and **Balance at Date**.|  
   
 3.  Choose **Suggest Documents**. Transactions with open VAT entries that match the filters that you selected will be displayed.  
   
@@ -36,12 +36,12 @@ You may want to periodically remit the net VAT from sales and purchase transacti
   
 5.  Choose **Copy Lines to Journal**.  
   
- The entries are copied to the appropriate VAT settlement journals. You can now run the **\($ B\_20 Calc. and Post VAT Settlement $\)** batch job to close the VAT entries.  
+ The entries are copied to the appropriate VAT settlement journals. You can now run the **Calc. and Post VAT Settlement** batch job to close the VAT entries.  
   
 ## See Also  
- [\($ B\_20 Calc. and Post VAT Settlement $\)](../Topic/\($%20B_20%20Calc.%20and%20Post%20VAT%20Settlement%20$\).md)   
- [About Setting Up VAT](../../Finance/about-setting-up-vat.md)   
- [How to: Set Up VAT Business Posting Groups](../../Finance/how-to-set-up-vat-business-posting-groups.md)   
- [How to: Assign VAT Business Posting Groups to Customer Accounts and Vendor Accounts](../../Finance/how-to-assign-vat-business-posting-groups-to-customer-accounts-and-vendor-accounts.md)   
- [How to: Correct VAT](../../Finance/how-to-correct-vat.md)   
- [\($ T\_254 VAT Entry $\)](assetId:///e4113f5c-adc8-4bfd-8c4b-e7b5f11f4d32)
+ Calc. and Post VAT Settlement   
+ [About Setting Up VAT](../FullExperience/about-setting-up-vat.md)   
+ [How to: Set Up VAT Business Posting Groups](../FullExperience/how-to-set-up-vat-business-posting-groups.md)   
+ [How to: Assign VAT Business Posting Groups to Customer Accounts and Vendor Accounts](../FullExperience/how-to-assign-vat-business-posting-groups-to-customer-accounts-and-vendor-accounts.md)   
+ [How to: Correct VAT](../FullExperience/how-to-correct-vat.md)   
+ VAT Entry

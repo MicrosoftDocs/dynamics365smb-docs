@@ -1,20 +1,20 @@
 ---
-title: "How to: Print Remittance Advice"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "remittance advice"
-ms.assetid: ef41806d-3149-43da-aa10-db706abd95bf
-caps.latest.revision: 24
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "en-gb"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Print Remittance Advice
 You can print remittance advice before posting a payment journal and after posting a payment. This advice displays vendor invoice numbers, which helps vendors to perform reconciliations.  
   
@@ -26,7 +26,7 @@ You can print remittance advice before posting a payment journal and after posti
   
 3.  On the **Navigate** tab, in the **Payments** group, choose **Print Remittance Advice**.  
   
-4.  In the **Remittance Advice \- Journal** batch job, on the **Gen. Journal Line** FastTab, and select the appropriate filters.  
+4.  In the **Remittance Advice - Journal** batch job, on the **Gen. Journal Line** FastTab, and select the appropriate filters.  
   
     > [!NOTE]  
     >  You can filter using the vendor's external document number to match payments with invoices.  
@@ -36,7 +36,7 @@ You can print remittance advice before posting a payment journal and after posti
 6.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [\($ R\_10531 Remittance Advice \- Journal $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/-$-r_10531-remittance-advice-journal-$-.md)   
- [\($ R\_10532 Remittance Advice \- Entries $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/-$-r_10532-remittance-advice-entries-$-.md)   
- [\($ N\_256 Payment Journal $\)](../../Finance/-$-n_256-payment-journal-$-.md)   
- [United Kingdom Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/united-kingdom-local-functionality.md)
+ Remittance Advice - Journal   
+ Remittance Advice - Entries   
+ Payment Journal   
+ [United Kingdom Local Functionality](../FullExperience/united-kingdom-local-functionality.md)

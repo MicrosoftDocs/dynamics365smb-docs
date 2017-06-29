@@ -1,48 +1,20 @@
 ---
-title: "Set Up Dimensions to Mark Transactions"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "dimensions, setting up to mark transactions"
-  - "dimensions, setting up"
-ms.assetid: 5448edbc-f0a0-4393-9e01-f1335c361669
-caps.latest.revision: 3
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-my"
-  - "en-nz"
-  - "en-ph"
-  - "en-sg"
-  - "en-zw"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Set Up Dimensions to Mark Transactions
 Dimensions are data that you add to entries to categorize them for analysis. For example, you can have dimensions that indicate which project or department an entry originates from. Than you can use dimensions instead of setting up separate general ledger accounts for each department and project. This allows you to have rich analysis information in your data without having to use a complicated chart of accounts. You can define an unlimited number of dimensions with an unlimited number of dimension values.  
   
@@ -66,13 +38,13 @@ Dimensions are data that you add to entries to categorize them for analysis. For
   
 |**To**|**See**|  
 |------------|-------------|  
-|Learn about dimensions and what you can use them for.|[\($ T\_348 Dimension $\)](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)|  
-|Set up a dimension and its values.|[How to: Set Up Dimensions and Dimension Values](../Finance/how-to-set-up-dimensions-and-dimension-values.md)|  
-|Select two dimensions that will be available globally and can be used as filters for general ledger entries, as well as on all reports, account schedules and batch jobs.|[How to: Set Up Global Dimensions](../Finance/how-to-set-up-global-dimensions.md)|  
-|Select up to six dimensions, in addition to the global dimensions, that you will be able to access directly from journal or document lines.|[How to: Set Up Shortcut Dimensions](../Finance/how-to-set-up-shortcut-dimensions.md)|  
-|Set up default dimension values for a single account, such as a customer.|[How to: Set Up Default Dimensions for One Account](../Finance/how-to-set-up-default-dimensions-for-one-account.md)|  
-|Set up default dimension values for a group of accounts that you define.|[\($ N\_542 Default Dimension \- Multiple $\)](assetId:///9dbb8368-e787-472c-86b4-e8157799bfe1)|  
-|Set up default dimension values, or make a dimension mandatory for an account type, such as customer or salesperson accounts.|[How to: Set Up Default or Required Dimensions for Account Types](../Finance/how-to-set-up-default-or-required-dimensions-for-account-types.md)|  
-|Specify how to handle conflicts between default dimension values, for example from different sources on a journal or document line.|[How to: Set Up Default Dimension Priorities](../Finance/how-to-set-up-default-dimension-priorities.md)|  
-|Block or limit specific combinations of two dimensions.|[How to: Set Up Dimension Combinations](../Finance/how-to-set-up-dimension-combinations.md)|  
-|Display the global dimensions in a ledger entries window, filter ledger entries by dimension, or view all the dimensions on an individual entry.|[How to: View Global Dimensions in Ledger Entry Windows](../Finance/how-to-view-global-dimensions-in-ledger-entry-windows.md)|
+|Learn about dimensions and what you can use them for.|Dimension|  
+|Set up a dimension and its values.|[How to: Set Up Dimensions and Dimension Values](../FullExperience/how-to-set-up-dimensions-and-dimension-values.md)|  
+|Select two dimensions that will be available globally and can be used as filters for general ledger entries, as well as on all reports, account schedules and batch jobs.|[How to: Set Up Global Dimensions](../FullExperience/how-to-set-up-global-dimensions.md)|  
+|Select up to six dimensions, in addition to the global dimensions, that you will be able to access directly from journal or document lines.|[How to: Set Up Shortcut Dimensions](../FullExperience/how-to-set-up-shortcut-dimensions.md)|  
+|Set up default dimension values for a single account, such as a customer.|[How to: Set Up Default Dimensions for One Account](../FullExperience/how-to-set-up-default-dimensions-for-one-account.md)|  
+|Set up default dimension values for a group of accounts that you define.|Default Dimension - Multiple|  
+|Set up default dimension values, or make a dimension mandatory for an account type, such as customer or salesperson accounts.|[How to: Set Up Default or Required Dimensions for Account Types](../FullExperience/how-to-set-up-default-or-required-dimensions-for-account-types.md)|  
+|Specify how to handle conflicts between default dimension values, for example from different sources on a journal or document line.|[How to: Set Up Default Dimension Priorities](../FullExperience/how-to-set-up-default-dimension-priorities.md)|  
+|Block or limit specific combinations of two dimensions.|[How to: Set Up Dimension Combinations](../FullExperience/how-to-set-up-dimension-combinations.md)|  
+|Display the global dimensions in a ledger entries window, filter ledger entries by dimension, or view all the dimensions on an individual entry.|[How to: View Global Dimensions in Ledger Entry Windows](../FullExperience/how-to-view-global-dimensions-in-ledger-entry-windows.md)|

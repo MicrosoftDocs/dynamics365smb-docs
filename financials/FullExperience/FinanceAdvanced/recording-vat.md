@@ -1,43 +1,20 @@
 ---
-title: "Recording VAT"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "VAT, recording"
-ms.assetid: 2523e6a0-b946-4305-9d50-392e0e6b8b25
-caps.latest.revision: 3
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Recording VAT
 In EU countries\/regions, every sales and purchase transaction is subject to VAT calculations.  
   
@@ -45,7 +22,7 @@ In EU countries\/regions, every sales and purchase transaction is subject to VAT
  You can calculate and display VAT amounts in sales and purchase documents differently depending on the type of customer or vendor that you are dealing with. You can also override the VAT amount calculated by the program to match the VAT amount calculated by your vendor on a given transaction.  
   
 ### VAT correction  
- It is possible to make corrections to posted VAT entries. This allows you to change the total sales or purchase VAT amounts without changing the VAT base. The feature may be used, for example, if you receive an invoice from a vendor who has calculated VAT incorrectly. For more information on making corrections to posted VAT entries, see [How to: Correct VAT](../Finance/how-to-correct-vat.md).  
+ It is possible to make corrections to posted VAT entries. This allows you to change the total sales or purchase VAT amounts without changing the VAT base. The feature may be used, for example, if you receive an invoice from a vendor who has calculated VAT incorrectly. For more information on making corrections to posted VAT entries, see [How to: Correct VAT](../FullExperience/how-to-correct-vat.md).  
   
 ### Unit Price and Line Amount Including\/Excluding VAT  
  When you select an item in the **No.** field in a sales document, the program also fills in the **Unit Price** field. The unit price is calculated and transferred from either the **Item** card or from the item prices allowed for the item and customer. The program only calculates the **Line Amount** when you enter a quantity for the line.  
@@ -72,10 +49,10 @@ In EU countries\/regions, every sales and purchase transaction is subject to VAT
 |Check mark|Check mark|The **Unit Price** on the Item Card is copied to **Unit Price Incl. VAT** field on the sales lines.|  
   
 ## See Also  
- [How to: Record VAT](../Finance/how-to-record-vat.md)   
- [Import VAT](../Finance/import-vat.md)   
- [VAT Reporting and Settlement](../Finance/vat-reporting-and-settlement.md)   
- [How to: Enter VAT\-liable Amounts Without VAT in General Journals](../Finance/how-to-enter-vat-liable-amounts-without-vat-in-general-journals.md)   
- [How to: Set Up and Record Intrastat](../Finance/how-to-set-up-and-record-intrastat.md)   
- [How to: Create a VAT Combination Setup](../Finance/how-to-create-a-vat-combination-setup.md)   
- [How to: View VAT Entries](../Finance/how-to-view-vat-entries.md)
+ [How to: Record VAT](../FullExperience/how-to-record-vat.md)   
+ [Import VAT](../FullExperience/import-vat.md)   
+ [VAT Reporting and Settlement](../FullExperience/vat-reporting-and-settlement.md)   
+ [How to: Enter VAT-liable Amounts Without VAT in General Journals](../FullExperience/how-to-enter-vat-liable-amounts-without-vat-in-general-journals.md)   
+ [How to: Set Up and Record Intrastat](../FullExperience/how-to-set-up-and-record-intrastat.md)   
+ [How to: Create a VAT Combination Setup](../FullExperience/how-to-create-a-vat-combination-setup.md)   
+ [How to: View VAT Entries](../FullExperience/how-to-view-vat-entries.md)

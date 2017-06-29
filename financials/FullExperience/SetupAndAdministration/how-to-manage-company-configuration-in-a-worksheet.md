@@ -1,58 +1,34 @@
 ---
-title: "How to: Manage Company Configuration in a Worksheet"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "configuration worksheets"
-  - "RapidStart Services, using configuration worksheets"
-ms.assetid: 3a47122e-e2d7-4ebc-b6a7-acdbe99b122b
-caps.latest.revision: 19
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Manage Company Configuration in a Worksheet
 The configuration worksheet is the central location in which you can plan, track, and perform your configuration work. You can create a worksheet for each company that you are working with or create a standard configuration worksheet that can be used for configuring multiple identical companies.  
   
- Before you start, make sure that you are on the [!INCLUDE[rim](../Roles/includes/rim_md.md)] Role Center page. It provides the correct context for your configuration work. To change your Role Center home page, see [How to: Change Role Centers](../GettingStarted/how-to-change-role-centers.md). Choose the RapidStart Profile ID.  
+ Before you start, make sure that you are on the ADD INCLUDE<!--[!INCLUDE[rim](../../includes/how-to-change-role-centers.md). Choose the RapidStart Profile ID.  
   
- The first step in preparing a configuration package is to select a company that you have already set up and modified to suit most of your solution needs. This company serves as the baseline for your configuration work on new companies. In the worksheet, you designate the tables that you want your configuration to control and handle. Since most tables in [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] have relationships and dependencies on other tables, you should also include those related tables as necessary. Together, these tables will then serve as the structure around which you will build a new company. Subsequent steps help you package and then deploy your configuration.  
+ The first step in preparing a configuration package is to select a company that you have already set up and modified to suit most of your solution needs. This company serves as the baseline for your configuration work on new companies. In the worksheet, you designate the tables that you want your configuration to control and handle. Since most tables in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> have relationships and dependencies on other tables, you should also include those related tables as necessary. Together, these tables will then serve as the structure around which you will build a new company. Subsequent steps help you package and then deploy your configuration.  
   
- To aide you in tracking and reviewing your work, use the **\($ N\_8634 Config. Package Table $\)** FactBox to see information about records. Use the **\($ N\_8635 Config. Related Tables $\)** FactBox to monitor table relationships.  
+ To aide you in tracking and reviewing your work, use the **Config. Package Table** FactBox to see information about records. Use the **Config. Related Tables** FactBox to monitor table relationships.  
   
  The following procedures demonstrate how to add and customize table information for your configuration.  
   
 ### To open the configuration worksheet  
   
-1.  In the [!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)], open the company that is the baseline for configuration, and then open its Role Center Home page for [!INCLUDE[rim](../Roles/includes/rim_md.md)].  
+1.  In the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/rim_md.md)]-->.  
   
 2.  In the **Search** box, enter **Configuration Worksheet**, and then choose the related link.  
   
@@ -64,13 +40,13 @@ The configuration worksheet is the central location in which you can plan, track
   
 2.  In the configuration worksheet, select the first line.  
   
-3.  In the **\($ T\_8622\_2 Line Type $\)** field, choose **Table**.  
+3.  In the **Line Type** field, choose **Table**.  
   
-4.  In the **\($ T\_8622\_3 Table ID $\)** field, select the table that you want to add to your configuration.  
+4.  In the **Table ID** field, select the table that you want to add to your configuration.  
   
-5.  In the **\($ T\_8622\_14 Page ID $\)** field, enter the page ID associated with the table. For standard [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] tables, this value is automatically filled in. For custom tables, you have to provide the ID.  
+5.  In the **Page ID** field, enter the page ID associated with the table. For standard ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> tables, this value is automatically filled in. For custom tables, you have to provide the ID.  
   
-6.  In the **\($ T\_8622\_28 Reference $\)** field, enter a url of a page that provides best practice information or instructions for how to set up the table.  
+6.  In the **Reference** field, enter a url of a page that provides best practice information or instructions for how to set up the table.  
   
 7.  To add related tables, on the **Actions** tab, in the **Functions** group, choose **Get Related Tables**.  
   
@@ -96,11 +72,11 @@ The configuration worksheet is the central location in which you can plan, track
   
 ### To add multiple tables to the configuration worksheet  
   
-1.  On the **Actions** tab, in the **Functions** group, choose **Get Tables**. The **\($ B\_8614 Get Config. Tables $\)** batch job window opens.  
+1.  On the **Actions** tab, in the **Functions** group, choose **Get Tables**. The **Get Config. Tables** batch job window opens.  
   
      On the **Options** FastTab, specify the types of tables that you want to add to the configuration. The following table describes the options.  
   
-    |[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)]|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../../includes/bp_tabledescription_md.md)]-->|  
     |----------------------------------|---------------------------------------|  
     |**Include with Data Only**|Select the check box to include only those tables that contain data. For example, you may want to include a table that already defines the typical payment terms that your solution supports.|  
     |**Include Related Tables**|Select the check box to include all related tables. To add a subset of related tables, see step 3 in this procedure.|  
@@ -109,7 +85,7 @@ The configuration worksheet is the central location in which you can plan, track
   
 2.  On the **Object** FastTab, set filters as appropriate to specify the types of tables you want to include or exclude.  
   
-3.  Choose the **OK** button. [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] tables are added to the worksheet. Each entry in the list has a line type of **Table**.  
+3.  Choose the **OK** button. ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> tables are added to the worksheet. Each entry in the list has a line type of **Table**.  
   
 4.  To remove duplicate table information, which can result from the **Get Tables** action, on the **Actions** tab, in the **Functions** group, choose **Delete Duplicate Lines**. This will remove duplicate tables that have the same package code.  
   
@@ -131,7 +107,7 @@ The configuration worksheet is the central location in which you can plan, track
   
 6.  You can also remove tables. To modify the resulting list of tables, select a table to remove, and on the **Home** tab, choose **Delete**.  
   
- Use the next procedure to specify which table fields to include. After you make this specification, you can export the table into Excel, and use the table structure as a template for gathering customer data. For more information, see [How to: Create a Configuration Template](../SetupAndAdministration/how-to-create-a-configuration-template.md).  
+ Use the next procedure to specify which table fields to include. After you make this specification, you can export the table into Excel, and use the table structure as a template for gathering customer data. For more information, see [How to: Create a Configuration Template](../FullExperience/how-to-create-a-configuration-template.md).  
   
 ### To specify a set of fields and records for a configuration table  
   
@@ -147,7 +123,7 @@ The configuration worksheet is the central location in which you can plan, track
   
 3.  To filter to a certain set of records to include in the configuration worksheet, on the **Actions** tab, in the **Show** group, choose **Filters**. Specify the appropriate filter values.  
   
-     [!INCLUDE[bp_fieldhelp]()]  
+     ADD INCLUDE<!--[!INCLUDE[bp_fieldhelp]()]-->  
   
  You can create areas of functionality and groups of tables in the worksheet in order to put similar functionality together. For example, in setting up the chart of accounts for your configuration, you may decide to create a group of posting tables. Typically, areas are used to group a set of tables that correspond to a functional area. Each area can contain groups. A group can be used to arrange tables that have a common meaning together.  
   
@@ -157,17 +133,17 @@ The configuration worksheet is the central location in which you can plan, track
   
 1.  At the beginning of an area, insert a new line into the worksheet.  
   
-2.  In the **\($ T\_8622\_2 Line Type $\)** field, choose **Area**. In the **\($ T\_8622\_4 Name $\)** field, enter a name for the area.  
+2.  In the **Line Type** field, choose **Area**. In the **Name** field, enter a name for the area.  
   
 3.  At the beginning of a grouping of tables, insert a new line into the worksheet.  
   
-4.  In the **\($ T\_8622\_2 Line Type $\)** field, choose **Group**. In the **\($ T\_8622\_4 Name $\)** field, enter a name for the area. The group name is automatically indented.  
+4.  In the **Line Type** field, choose **Group**. In the **Name** field, enter a name for the area. The group name is automatically indented.  
   
 5.  To move tables to the appropriate category, on the **Actions** tab, in the **Functions** group, select a table to move. Choose **Move Up** or **Move Down**. Alternatively, you can delete a worksheet line and insert the table again in the required location.  
   
- For more information about how to use categories effectively, see [\($ T\_8622\_2 Line Type $\)](../Topic/\($%20T_8622_2%20Line%20Type%20$\).md).  
+ For more information about how to use categories effectively, see Line Type.  
   
- Some [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] tables are standard and the data in them is not likely to change from implementation to implementation. Consequently, to help your customer focus, you can remove these tables from the worksheet after you have included them in the configuration package. Once added, the tables remain part of the configuration package.  
+ Some ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> tables are standard and the data in them is not likely to change from implementation to implementation. Consequently, to help your customer focus, you can remove these tables from the worksheet after you have included them in the configuration package. Once added, the tables remain part of the configuration package.  
   
 ### To remove a standard table in the worksheet  
   
@@ -179,6 +155,6 @@ The configuration worksheet is the central location in which you can plan, track
     >  The tables remain in the package.  
   
 ## See Also  
- [\($ N\_8632 Config. Worksheet $\)](../Topic/\($%20N_8632%20Config.%20Worksheet%20$\).md)   
- [\($ B\_8614 Get Config. Tables $\)](../Topic/\($%20B_8614%20Get%20Config.%20Tables%20$\).md)   
- [How to: Create a Configuration Package](../SetupAndAdministration/how-to-create-a-configuration-package.md)
+ Config. Worksheet   
+ Get Config. Tables   
+ [How to: Create a Configuration Package](../FullExperience/how-to-create-a-configuration-package.md)

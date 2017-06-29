@@ -1,20 +1,20 @@
 ---
-title: "Fixed Asset Locations and Employees"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "fixed assets, locations"
-  - "fixed assets, employees"
-ms.assetid: 5caa3f88-ed8d-4d7f-919e-a1e2e9910e1a
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "ru-ru"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Fixed Asset Locations and Employees
 The fixed assets locations and the fixed assets employees feature enable you to:  
   
@@ -32,7 +32,7 @@ The fixed assets locations and the fixed assets employees feature enable you to:
 2.  On the **General** tab, select the **FA Location Mandatory** field.  
   
 > [!NOTE]  
->  When this field is selected, fixed asset posting procedures are controlled as long as they generate fixed asset operations with a non\-zero value in the **Quantity** field.  
+>  When this field is selected, fixed asset posting procedures are controlled as long as they generate fixed asset operations with a non-zero value in the **Quantity** field.  
   
  The following procedure shows how to enter the data in the **Employee No** field.  
   
@@ -41,7 +41,7 @@ The fixed assets locations and the fixed assets employees feature enable you to:
 2.  On the **General** tab, select the **Employee No. Mandatory** field.  
   
 > [!NOTE]  
->  When this field is selected, fixed asset posting procedures are controlled as long as they generate fixed asset operations with a non\-zero value in the **Quantity** field.  
+>  When this field is selected, fixed asset posting procedures are controlled as long as they generate fixed asset operations with a non-zero value in the **Quantity** field.  
   
 ## Added Fields  
  Fields with references to fixed asset locations and responsible employees have been added to the following:  
@@ -61,4 +61,4 @@ The fixed assets locations and the fixed assets employees feature enable you to:
  When posting the documents and journals, the values of these fields are transferred to the corresponding new fixed asset operations and to corresponding fields in the Fixed Asset cards.  
   
 ## See Also  
- [Fixed Asset Inventory](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/fixed-asset-inventory.md)
+ [Fixed Asset Inventory](../FullExperience/fixed-asset-inventory.md)

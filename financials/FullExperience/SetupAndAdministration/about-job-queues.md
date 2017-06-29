@@ -1,48 +1,25 @@
 ---
-title: "About Data Tables"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "RapidStart Services, data tables"
-ms.assetid: b6f5f427-931e-404f-a8b8-2cddabd7c795
-caps.latest.revision: 5
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # About Data Tables
-[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] data tables come in two basic types: Master and Setup. When you are setting up a company configuration, you can use these types to focus your configuration strategy.  
+ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> data tables come in two basic types: Master and Setup. When you are setting up a company configuration, you can use these types to focus your configuration strategy.  
   
 ## Master Data Tables  
- The following table lists a some example [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] master data tables. When you initialize a new company, these tables are empty.  
+ The following table lists a some example ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> master data tables. When you initialize a new company, these tables are empty.  
   
 ### Master Data Tables  
   
@@ -64,7 +41,7 @@ translation.priority.ht:
 |312|Purchases & Payables Setup|  
 |313|Inventory Setup|  
   
- In addition to setup data tables, [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] also has data tables that specify core information about the company and its business processes. The following table provides some examples.  
+ In addition to setup data tables, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> also has data tables that specify core information about the company and its business processes. The following table provides some examples.  
   
 ###  
   
@@ -76,5 +53,5 @@ translation.priority.ht:
 |5700|Stockkeeping Unit|  
   
 ## See Also  
- [How to: Manage Company Configuration in a Worksheet](../SetupAndAdministration/how-to-manage-company-configuration-in-a-worksheet.md)   
- [How to: Customize a Package or Worksheet](../SetupAndAdministration/how-to-customize-a-package-or-worksheet.md)
+ [How to: Manage Company Configuration in a Worksheet](../FullExperience/how-to-manage-company-configuration-in-a-worksheet.md)   
+ [How to: Customize a Package or Worksheet](../FullExperience/how-to-customize-a-package-or-worksheet.md)

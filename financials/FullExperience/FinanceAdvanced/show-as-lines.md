@@ -1,20 +1,22 @@
 ---
-title: "Show as Lines"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-ms.assetid: 940bf1c8-859f-4572-a907-90144e899df5
-caps.latest.revision: 11
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Show as Lines
-Contains different views of the statistics of this item, based on what you select in the **\($ N\_5827\_7 Show as Lines $\)** field.  
+Contains different views of the statistics of this item, based on what you select in the **Show as Lines** field.  
   
  The following contains a description of the lines created by each of the four statistical views.  
   
@@ -43,16 +45,16 @@ Contains different views of the statistics of this item, based on what you selec
   
  **Purch. Item Charge Spec.**  
   
- If you select this view, the program shows a line for each item charge that you have set up in the **\($ N\_5800 Item Charge $\)** window.  
+ If you select this view, the program shows a line for each item charge that you have set up in the **Item Charge** window.  
   
- If an item charge has been assigned to an item ledger entry in the **\($ N\_5805 Item Charge Assignment \(Purch\) $\)** window, that amount will be shown in the right\-hand pane.  
+ If an item charge has been assigned to an item ledger entry in the **Item Charge Assignment \(Purch\)** window, that amount will be shown in the right-hand pane.  
   
  **Sales Item Charge Spec.**  
   
- If you select this view, the program shows a line for each item charge that you have set up in the \($ N\_5800 Item Charge $\) window.  
+ If you select this view, the program shows a line for each item charge that you have set up in the Item Charge window.  
   
- If an item charge has been assigned to an item ledger entry in the \($ N\_5814 Item Charge Assignment \(Sales\) $\) window, that amount will be shown in the right\-hand pane.  
+ If an item charge has been assigned to an item ledger entry in the Item Charge Assignment \(Sales\) window, that amount will be shown in the right-hand pane.  
   
 ## See Also  
- [\($ N\_5827\_7 Show as Lines $\)](../Topic/\($%20N_5827_7%20Show%20as%20Lines%20$\).md)   
- [\($ N\_5827 Item Statistics $\)](../Topic/\($%20N_5827%20Item%20Statistics%20$\).md)
+ Show as Lines   
+ Item Statistics

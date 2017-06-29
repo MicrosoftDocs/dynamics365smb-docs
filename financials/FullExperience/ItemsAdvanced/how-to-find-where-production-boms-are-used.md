@@ -1,22 +1,22 @@
 ---
-title: "How to: Find Where Production BOMs Are Used"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "production BOMs, finding"
-ms.assetid: 312bdf64-5c77-4fdc-b6e4-174ec5a90f14
-caps.latest.revision: 6
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Find Where Production BOMs Are Used
-The **Prod. BOM Where\-Used** window displays where a production BOM is used.  
+The **Prod. BOM Where-Used** window displays where a production BOM is used.  
   
 ### To find where production BOMs are used  
   
@@ -24,7 +24,7 @@ The **Prod. BOM Where\-Used** window displays where a production BOM is used.
   
 2.  Open the relevant production BOM from the list.  
   
-3.  Select an item line, and on the **Navigate** tab, in the **Prod. BOM** group, choose **Where\-Used**.  
+3.  Select an item line, and on the **Navigate** tab, in the **Prod. BOM** group, choose **Where-Used**.  
   
      The quantity in the **Quantity Needed** field specifies the quantity including scrap percentage.  
   
@@ -33,9 +33,9 @@ The **Prod. BOM Where\-Used** window displays where a production BOM is used.
 4.  Close the window.  
   
 ## See Also  
- [Concepts of Production BOMs](../DesignAndEngineering/concepts-of-production-boms.md)   
- [How to: Create Production BOMs](../DesignAndEngineering/how-to-create-production-boms.md)   
- [How to: Post Scrap Manually](../Production/how-to-post-scrap-manually.md)   
- [\($ T\_27\_5407 Scrap Percentage $\)](../Topic/\($%20T_27_5407%20Scrap%20Percentage%20$\).md)   
- [How to: Find Where Production BOM Components Are Used](../DesignAndEngineering/how-to-find-where-production-bom-components-are-used.md)   
- [How to: Find Where Routings Are Used](../DesignAndEngineering/how-to-find-where-routings-are-used.md)
+ [Concepts of Production BOMs](../FullExperience/concepts-of-production-boms.md)   
+ [How to: Create Production BOMs](../FullExperience/how-to-create-production-boms.md)   
+ [How to: Post Scrap Manually](../FullExperience/how-to-post-scrap-manually.md)   
+ Scrap Percentage   
+ [How to: Find Where Production BOM Components Are Used](../FullExperience/how-to-find-where-production-bom-components-are-used.md)   
+ [How to: Find Where Routings Are Used](../FullExperience/how-to-find-where-routings-are-used.md)

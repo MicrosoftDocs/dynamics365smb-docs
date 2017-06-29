@@ -1,20 +1,20 @@
 ---
-title: "Withholding Tax"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "calculating, withholding tax"
-  - "withholding tax, calculating for vendors"
-ms.assetid: 8dc49815-9418-42ac-aa7d-96a41f37bcd0
-caps.latest.revision: 33
-ms.author: "edupont"
-translation.priority.ht: 
-  - "en-au"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Withholding Tax
 Withholding Tax \(WHT\) is tax withheld by a company when making a payment to a vendor, in which the full amount owed to that vendor is reduced by the tax withheld. The withheld tax is then remitted to the Australian Taxation Office \(ATO\) during the next Business Activity Statement \(BAS\) submission.  
   
@@ -22,7 +22,7 @@ Withholding Tax \(WHT\) is tax withheld by a company when making a payment to a 
   
 -   The vendor is a local supplier who has not supplied an Australian Business Number \(ABN\) before the payment is processed, and the individual transaction amount is greater than the specified threshold amount.  
   
--   The vendor is a non\-resident supplier and the payment is to be made to this non\-resident entity in the form of interest, royalty, or dividend payments. Currently, there is no minimum threshold amount. Withholding rates may vary due to payment, or international tax treaties existing between Australia and the vendor's country.  
+-   The vendor is a non-resident supplier and the payment is to be made to this non-resident entity in the form of interest, royalty, or dividend payments. Currently, there is no minimum threshold amount. Withholding rates may vary due to payment, or international tax treaties existing between Australia and the vendor's country.  
   
  **WHT Business Posting Groups** and **WHT Product Posting Groups** must be set up in the **WHT Posting Setup** window so that the correct WHT calculations are made for each vendor.  
   
@@ -58,12 +58,12 @@ Withholding Tax \(WHT\) is tax withheld by a company when making a payment to a 
  The percentage withheld is specified in **WHT Posting Setup**. The amount to be withheld is calculated automatically at the time of payment. The WHT certificate is printed automatically, and then sent to the vendor with payment. The WHT certificate explains the reasons for not sending the full invoiced amount.  
   
 ## WHT for Foreign Suppliers  
- Ensure that a valid combination of **General Business** and **General Product PostingGroups** has been established for vendors for whom you need to withhold tax, other than for non\-ABN.  
+ Ensure that a valid combination of **General Business** and **General Product PostingGroups** has been established for vendors for whom you need to withhold tax, other than for non-ABN.  
   
 ## See Also  
- [How to: Set Up Withholding Tax](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-set-up-withholding-tax.md)   
- [How to: Set Up Vendors Without ABN for Calculating the Withholding Tax](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-set-up-vendors-without-abn-for-calculating-the-withholding-tax.md)   
- [How to: Set Up Revenue Types for Withholding Tax](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-set-up-revenue-types-for-withholding-tax.md)   
- [How to: Calculate and Post Withholding Tax Settlements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-calculate-and-post-withholding-tax-settlements.md)   
- [How to: View Withholding Tax Entries](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-view-withholding-tax-entries.md)   
- [Australia Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/australia-local-functionality.md)
+ [How to: Set Up Withholding Tax](../FullExperience/how-to-set-up-withholding-tax.md)   
+ [How to: Set Up Vendors Without ABN for Calculating the Withholding Tax](../FullExperience/how-to-set-up-vendors-without-abn-for-calculating-the-withholding-tax.md)   
+ [How to: Set Up Revenue Types for Withholding Tax](../FullExperience/how-to-set-up-revenue-types-for-withholding-tax.md)   
+ [How to: Calculate and Post Withholding Tax Settlements](../FullExperience/how-to-calculate-and-post-withholding-tax-settlements.md)   
+ [How to: View Withholding Tax Entries](../FullExperience/how-to-view-withholding-tax-entries.md)   
+ [Australia Local Functionality](../FullExperience/australia-local-functionality.md)

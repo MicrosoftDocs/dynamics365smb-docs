@@ -1,17 +1,20 @@
 ---
-title: "Corrective Documents"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-ms.assetid: 04cd400f-e6c6-40e0-863a-3c4a5d82c465
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "ru-ru"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Corrective Documents
 If you sell or purchase items, and you then reach an agreement to change the price or the quantity, you must issue a corrective document that specifies the new price or quantity. You can also register corrective documents that you receive from a vendor, and you can issue and register corrections to corrective documents.  
   
@@ -24,7 +27,7 @@ If you sell or purchase items, and you then reach an agreement to change the pri
   
  The following table describes when to use which corrective document.  
   
-|Corrective document type|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+|Corrective document type|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
 |------------------------------|---------------------------------------|  
 |Corrective invoice|Use this document type to post an increase in quantity or price after the items were shipped.|  
 |Corrective credit memo|Use this document type to post a reduction in quantity or price after the items were shipped.|  
@@ -34,21 +37,21 @@ If you sell or purchase items, and you then reach an agreement to change the pri
 > [!WARNING]  
 >  If the corrective document must change the price, the line can be for an item charge or a general ledger account, depending on your inventory setup. If you want to post the difference in the price between the original line and the corrective line to a general ledger account, you must change the line type.  
   
- Before you can create corrective documents, you must have set up prerequisites. For more information, see [How to: Set Up Corrective Invoicing](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-set-up-corrective-invoicing.md).  
+ Before you can create corrective documents, you must have set up prerequisites. For more information, see [How to: Set Up Corrective Invoicing](../FullExperience/how-to-set-up-corrective-invoicing.md).  
   
 ### Revision Documents  
  If you discover a mistake in a posted document, you must issue a revision and send it to the customer or vendor. In contrast to corrective documents, a revision document can be issued without advance notification of the customer or vendor. Corrective documents can only be issued if both parties agree with the changes in quantity or price in advance  
   
  You can create a revision document for sales invoices, sales credit memos, purchase invoices, purchase credit memos, and corrective documents.  
   
- Before you create and post a revision, you must cancel the original invoice. When you cancel the original invoice, you can use the **\($ B\_292 Copy Document $\)** batch job and select the **\($ B\_292\_F\_1\_1 Include Header $\)** field in the request window. This creates a link between the original invoice and the revision document. For more information, see [How to: Create Corrective Documents](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-create-corrective-documents.md).  
+ Before you create and post a revision, you must cancel the original invoice. When you cancel the original invoice, you can use the **Copy Document** batch job and select the **\($ B\_292\_F\_1\_1 Include Header $\)** field in the request window. This creates a link between the original invoice and the revision document. For more information, see [How to: Create Corrective Documents](../FullExperience/how-to-create-corrective-documents.md).  
   
 ### VAT in Corrective Documents  
  The reports for VAT sales books and additional VAT ledgers include changes in VAT amounts from posted corrective documents. If a corrective document is created in the same VAT period as the original invoice, the amounts are included in the VAT sales book. If a corrective document is created in a VAT period that is later than the period for the original invoice, the amounts must be included in the additional VAT ledger for the period.  
   
 > [!IMPORTANT]  
->  To include a corrective invoice in an additional VAT ledger, you must select the **\($ T\_112\_12498 Additional VAT Ledger Sheet $\)** field in the sales invoice window. The same applies to corrective sales credit memos, purchase invoices, and purchase credit memos. For more information, see [How to: Create Corrective Documents](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-create-corrective-documents.md).  
+>  To include a corrective invoice in an additional VAT ledger, you must select the **Additional VAT Ledger Sheet** field in the sales invoice window. The same applies to corrective sales credit memos, purchase invoices, and purchase credit memos. For more information, see [How to: Create Corrective Documents](../FullExperience/how-to-create-corrective-documents.md).  
   
 ## See Also  
- [How to: Set Up Corrective Invoicing](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-set-up-corrective-invoicing.md)   
- [How to: Create Corrective Documents](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-create-corrective-documents.md)
+ [How to: Set Up Corrective Invoicing](../FullExperience/how-to-set-up-corrective-invoicing.md)   
+ [How to: Create Corrective Documents](../FullExperience/how-to-create-corrective-documents.md)

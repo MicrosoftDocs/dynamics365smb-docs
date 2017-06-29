@@ -1,44 +1,20 @@
 ---
-title: "How to: Enter New Values When Revaluing Items"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "inventory, revaluation"
-  - "revaluing inventory, entering new values"
-ms.assetid: 68c942be-e5e8-45fe-b2d2-9459b34ae012
-caps.latest.revision: 5
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Enter New Values When Revaluing Items
 If you want to change the inventory value of an item or that of a specific receipt, you must use the revaluation journal.  
   
@@ -46,7 +22,7 @@ If you want to change the inventory value of an item or that of a specific recei
   
 ### To enter a new values when revaluing item  
   
-1.  In the **Search** box, enter **\($ N\_5803 Revaluation Journal $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Revaluation Journal**, and then choose the related link.  
   
 2.  Fill in the journal with calculated values. You can do this manually or using a batch job.  
   
@@ -61,6 +37,6 @@ If you want to change the inventory value of an item or that of a specific recei
  Repeat this procedure for all entries that you want to revalue.  
   
 ## See Also  
- [Inventory Revaluation](../DesignAndEngineering/inventory-revaluation.md)   
- [How to: Fill In the Revaluation Journal with the Batch Job](../DesignAndEngineering/how-to-fill-in-the-revaluation-journal-with-the-batch-job.md)   
- [How to: Fill In Revaluation Journals Manually](../DesignAndEngineering/how-to-fill-in-revaluation-journals-manually.md)
+ [Inventory Revaluation](../FullExperience/inventory-revaluation.md)   
+ [How to: Fill In the Revaluation Journal with the Batch Job](../FullExperience/how-to-fill-in-the-revaluation-journal-with-the-batch-job.md)   
+ [How to: Fill In Revaluation Journals Manually](../FullExperience/how-to-fill-in-revaluation-journals-manually.md)

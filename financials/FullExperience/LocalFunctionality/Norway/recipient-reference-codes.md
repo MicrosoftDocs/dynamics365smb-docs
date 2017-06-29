@@ -1,19 +1,20 @@
 ---
-title: "Recipient Reference Codes"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "recipient reference codes"
-ms.assetid: 19585665-30ed-443d-99f0-32435d59024c
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "nb-no"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Recipient Reference Codes
 The recipient reference code determines the message that is sent to the recipient. The code is displayed on the remittance account and is used for vendors that are paid from this account. For each vendor, a special recipient reference code can be created if the general reference text is not used.  
   
@@ -21,11 +22,11 @@ The recipient reference code determines the message that is sent to the recipien
   
  The recipient reference codes are described in the following table.  
   
-|**Code**|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+|**Code**|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
 |--------------|---------------------------------------|  
 |**%1**|The document type. Either invoice or credit memo.|  
 |**%2**|The vendor's invoice number.|  
-|**%3**|The **\($ T\_23\_14 Our Account No. $\)** field from the **\($ N\_26 Vendor Card $\)** window. This is usually the customer number that is used by the vendor.|  
+|**%3**|The **Our Account No.** field from the **Vendor Card** window. This is usually the customer number that is used by the vendor.|  
 |**%4**|The invoice or credit memo number.|  
 |**%5**|The description from the vendor ledger entry.|  
 |**%6**|The original amount from the vendor ledger entries. The amount is shown as positive.|  
@@ -36,4 +37,4 @@ The recipient reference code determines the message that is sent to the recipien
 |**%11**|The Kunde ID number from the vendor ledger entry.|  
   
 ## See Also  
- [How to: Set Up Vendors for Remittance](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-set-up-vendors-for-remittance.md)
+ [How to: Set Up Vendors for Remittance](../FullExperience/how-to-set-up-vendors-for-remittance.md)

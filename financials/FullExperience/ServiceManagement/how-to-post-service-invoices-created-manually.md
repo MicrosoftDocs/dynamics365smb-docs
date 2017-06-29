@@ -1,45 +1,20 @@
 ---
-title: "How to: Post Service Invoices Created Manually"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "service posting, invoices"
-  - "service invoices, posting manually"
-  - "posting, service invoices manually"
-ms.assetid: ac22c8af-02bc-47e6-863f-1063b1ba7f24
-caps.latest.revision: 6
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Post Service Invoices Created Manually
 When you have created an invoice, filled in all the information, and made any required modifications, you can post the invoice.  
   
@@ -60,5 +35,5 @@ When you have created an invoice, filled in all the information, and made any re
      If the **Shipment on Invoice** field in the **Service Mgt. Setup** window is selected, a posted service shipment linked to the invoice is also created.  
   
 ## See Also  
- [How to: Print Test Reports Before Posting Service Documents](../Service/how-to-print-test-reports-before-posting-service-documents.md)   
- [How to: Create Service Invoices Manually](../Service/how-to-create-service-invoices-manually.md)
+ [How to: Print Test Reports Before Posting Service Documents](../FullExperience/how-to-print-test-reports-before-posting-service-documents.md)   
+ [How to: Create Service Invoices Manually](../FullExperience/how-to-create-service-invoices-manually.md)

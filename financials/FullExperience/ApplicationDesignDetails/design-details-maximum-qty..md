@@ -1,43 +1,20 @@
 ---
-title: "Design Details: Maximum Qty."
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "maximum quantity"
-ms.assetid: b214f620-bec4-40fa-a9c6-cd49ac829eee
-caps.latest.revision: 7
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Design Details: Maximum Qty.
 The Maximum Quantity policy is a way to maintain inventory using a reorder point.  
   
@@ -52,12 +29,12 @@ The Maximum Quantity policy is a way to maintain inventory using a reorder point
  Depending on the setup, it may be best to combine the Maximum Quantity policy with order modifiers to ensure a minimum order quantity or round it to an integer number of purchase units of measure, or split it into more lots as defined by the maximum order quantity.  
   
 ## Combines with Calendars  
- Before suggesting a new supply order to meet a reorder point, the planning system checks if the order is scheduled for a non\-working day, according to any calendars that are  defined in the **\($ T\_79\_7600 Base Calendar Code $\)** field in the **\($ N\_1 Company Information $\)** and **\($ N\_5703 Location Card $\)** windows.  
+ Before suggesting a new supply order to meet a reorder point, the planning system checks if the order is scheduled for a non-working day, according to any calendars that are  defined in the **Base Calendar Code** field in the **Company Information** and **Location Card** windows.  
   
- If the scheduled date is a non\-working day, the planning system moves the order forward to the nearest working date. This may result in an order that meets a reorder point but does not meet some specific demand. For such unbalanced demand, the planning system creates an extra supply.  
+ If the scheduled date is a non-working day, the planning system moves the order forward to the nearest working date. This may result in an order that meets a reorder point but does not meet some specific demand. For such unbalanced demand, the planning system creates an extra supply.  
   
 ## See Also  
- [Design Details: Reordering Policies](../ApplicationDesign/design-details-reordering-policies.md)   
- [Design Details: Planning Parameters](../ApplicationDesign/design-details-planning-parameters.md)   
- [Design Details: Handling Reordering Policies](../ApplicationDesign/design-details-handling-reordering-policies.md)   
- [Design Details: Supply Planning](../ApplicationDesign/design-details-supply-planning.md)
+ [Design Details: Reordering Policies](../FullExperience/design-details-reordering-policies.md)   
+ [Design Details: Planning Parameters](../FullExperience/design-details-planning-parameters.md)   
+ [Design Details: Handling Reordering Policies](../FullExperience/design-details-handling-reordering-policies.md)   
+ [Design Details: Supply Planning](../FullExperience/design-details-supply-planning.md)

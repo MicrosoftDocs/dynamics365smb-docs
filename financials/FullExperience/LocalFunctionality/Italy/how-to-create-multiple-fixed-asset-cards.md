@@ -1,21 +1,20 @@
 ---
-title: "How to: Create Multiple Fixed Asset Cards"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "fixed assets, setting up automatic creation of"
-  - "fixed assets, creating cards"
-ms.assetid: dd883c1b-4c5b-4aa8-be65-5c9c982ae26a
-caps.latest.revision: 23
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "it-it"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Create Multiple Fixed Asset Cards
 You can create multiple fixed asset cards automatically during purchase invoice posting. For example, if your company purchases 200 computers of the same kind from the same vendor, you do not have to manually create a fixed asset card for each computer; the fixed asset cards can be created automatically.  
   
@@ -25,11 +24,11 @@ You can create multiple fixed asset cards automatically during purchase invoice 
   
 2.  Under **Lists**, choose **Fixed Assets**.  
   
-3.  In the **\($ N\_5601 Fixed Asset List $\)** window, on the **Home** tab, choose **New**.  
+3.  In the **Fixed Asset List** window, on the **Home** tab, choose **New**.  
   
-4.  In the **\($ N\_5600 Fixed Asset Card $\)** window, fill in the relevant fields.  
+4.  In the **Fixed Asset Card** window, fill in the relevant fields.  
   
-     You will use the value of the **\($ T\_5600\_1 No. $\)** field when you generate the remaining fixed assets later.  
+     You will use the value of the **No.** field when you generate the remaining fixed assets later.  
   
 5.  In the **Search** box, enter **Purchase Orders**, and then choose the related link.  
   
@@ -39,7 +38,7 @@ You can create multiple fixed asset cards automatically during purchase invoice 
   
 8.  Fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Type**|Select **Fixed Asset**.|  
     |**No.**|Specify the fixed asset number.<br /><br /> **NOTE:** This should be the same fixed asset number that you entered in the **Fixed Asset** list.|  
@@ -48,5 +47,5 @@ You can create multiple fixed asset cards automatically during purchase invoice 
 9. Choose the **OK** button.  
   
 ## See Also  
- [Manage Fixed Assets](../../Finance/manage-fixed-assets.md)   
- [Italian Fixed Assets](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/italian-fixed-assets.md)
+ [Manage Fixed Assets](../FullExperience/manage-fixed-assets.md)   
+ [Italian Fixed Assets](../FullExperience/italian-fixed-assets.md)

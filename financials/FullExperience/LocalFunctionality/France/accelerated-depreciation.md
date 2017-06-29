@@ -1,21 +1,20 @@
 ---
-title: "Accelerated Depreciation"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "depreciation, accelerated"
-  - "fixed assets, accelerated depreciation"
-ms.assetid: 4694df7d-0adc-48ca-99cc-537572f0f310
-caps.latest.revision: 39
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "fr-fr"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Accelerated Depreciation
 Accelerated depreciation is calculated based on the differences between the accounting depreciation book and the tax depreciation book fixed asset, during the life of the fixed asset.  
   
@@ -36,13 +35,13 @@ Accelerated depreciation is calculated based on the differences between the acco
   
 -   The tax depreciation book \(not integrated with the general ledger\).  
   
- You must set up the tax book as a derogatory book by using an accelerated depreciation setup parameter. If this parameter is set, differences between the tax book and the accounting book are calculated and posted as accelerated depreciation amounts. For more information, see [How to: Set Up Accelerated Depreciation](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-set-up-accelerated-depreciation.md).  
+ You must set up the tax book as a derogatory book by using an accelerated depreciation setup parameter. If this parameter is set, differences between the tax book and the accounting book are calculated and posted as accelerated depreciation amounts. For more information, see [How to: Set Up Accelerated Depreciation](../FullExperience/how-to-set-up-accelerated-depreciation.md).  
   
 ### Example  
- If you have a fixed asset valued at 1,000 euros that is depreciated in the accounting depreciation book over five years, and depreciated in the tax depreciation book over three years, then the accounting depreciation for the first year is 200 euros \(1,000\/5\) and the tax depreciation for the first year is 333.33 euros \(1,000\/3\). The accelerated depreciation amount is the difference between these two amounts: 133.33 euros \(333.33 \- 200\).  
+ If you have a fixed asset valued at 1,000 euros that is depreciated in the accounting depreciation book over five years, and depreciated in the tax depreciation book over three years, then the accounting depreciation for the first year is 200 euros \(1,000\/5\) and the tax depreciation for the first year is 333.33 euros \(1,000\/3\). The accelerated depreciation amount is the difference between these two amounts: 133.33 euros \(333.33 - 200\).  
   
 ### Accelerated Depreciation Accounts  
- Accelerated depreciation uses the derogatory fixed asset posting type. Statistics and reports use this posting type to report the accelerated depreciation calculation. For more information, see [Depreciation Methods](../../Finance/depreciation-methods.md).  
+ Accelerated depreciation uses the derogatory fixed asset posting type. Statistics and reports use this posting type to report the accelerated depreciation calculation. For more information, see [Depreciation Methods](../FullExperience/depreciation-methods.md).  
   
  There are two accounts to set up for derogatory amounts:  
   
@@ -60,14 +59,14 @@ Accelerated depreciation is calculated based on the differences between the acco
   
  If you post an acquisition, depreciation, or disposal for the accounting depreciation book, the transaction is automatically duplicated and posted in the tax depreciation book when the journal is posted.  
   
- After you set up the tax depreciation book and the accounting depreciation book, the accelerated depreciation is calculated automatically for fixed assets using the calculate depreciation batch job in the accounting depreciation book. For more information, see [How to: Calculate Accelerated Depreciation](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-calculate-accelerated-depreciation.md).  
+ After you set up the tax depreciation book and the accounting depreciation book, the accelerated depreciation is calculated automatically for fixed assets using the calculate depreciation batch job in the accounting depreciation book. For more information, see [How to: Calculate Accelerated Depreciation](../FullExperience/how-to-calculate-accelerated-depreciation.md).  
   
 ## See Also  
- [How to: Set Up Accelerated Depreciation](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-set-up-accelerated-depreciation.md)   
- [How to: Calculate Accelerated Depreciation](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-calculate-accelerated-depreciation.md)   
- [Set Up Depreciation](../../Finance/set-up-depreciation.md)   
- [\($ T\_5600 Fixed Asset $\)](../Topic/\($%20T_5600%20Fixed%20Asset%20$\).md)   
- [\($ N\_5600 Fixed Asset Card $\)](../Topic/\($%20N_5600%20Fixed%20Asset%20Card%20$\).md)   
- [\($ N\_5619 FA Depreciation Books $\)](../Topic/\($%20N_5619%20FA%20Depreciation%20Books%20$\).md)   
- [\($ T\_5612 FA Depreciation Book $\)](../Topic/\($%20T_5612%20FA%20Depreciation%20Book%20$\).md)   
- [France Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/france-local-functionality.md)
+ [How to: Set Up Accelerated Depreciation](../FullExperience/how-to-set-up-accelerated-depreciation.md)   
+ [How to: Calculate Accelerated Depreciation](../FullExperience/how-to-calculate-accelerated-depreciation.md)   
+ [Set Up Depreciation](../FullExperience/set-up-depreciation.md)   
+ Fixed Asset   
+ Fixed Asset Card   
+ FA Depreciation Books   
+ FA Depreciation Book   
+ [France Local Functionality](../FullExperience/france-local-functionality.md)

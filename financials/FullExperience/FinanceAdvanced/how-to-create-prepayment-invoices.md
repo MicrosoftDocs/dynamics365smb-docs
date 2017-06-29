@@ -1,30 +1,20 @@
 ---
-title: "How to: Create Prepayment Invoices"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "prepayments, creating invoices"
-  - "installments, payments"
-ms.assetid: f15bbc0d-0169-432f-a39f-2b141255dadb
-caps.latest.revision: 8
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-my"
-  - "en-nz"
-  - "en-ph"
-  - "en-sg"
-  - "en-zw"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Create Prepayment Invoices
 If you require your customers to submit payment before you ship an order to them, or if your vendor requires you to submit payment before they ship an order to you, you can use the prepayment functionality.  
   
@@ -38,7 +28,7 @@ If you require your customers to submit payment before you ship an order to them
   
 2.  On the **Prepayment** FastTab, the **Prepayment %** field will be filled in automatically if there is a default prepayment percentage on the customer card. You can change the contents of the field. The prepayment percentage is only copied from the header to lines that do not copy the default prepayment percentage from the item.  
   
-     If the **\($ T\_36\_132 Compress Prepayment $\)** field is selected, lines will be combined on the invoice if:  
+     If the **Compress Prepayment** field is selected, lines will be combined on the invoice if:  
   
     -   They have the same general ledger account for prepayments as determined by the general posting setup.  
   
@@ -54,9 +44,9 @@ If you require your customers to submit payment before you ship an order to them
   
 5.  To view the total prepayment amount, on the **Navigate** tab, in the **Order** group, choose **Statistics**.  
   
-    -   If you want to adjust the total prepayment amount for the order, you can change the contents of the **Prepayment Amount** field in the **\($ N\_402 Sales Order Statistics $\)** window.  
+    -   If you want to adjust the total prepayment amount for the order, you can change the contents of the **Prepayment Amount** field in the **Sales Order Statistics** window.  
   
-    -   If the **\($ T\_36\_35 Prices Including VAT $\)** field is selected, the **Prepayment Amount Incl. VAT** field is editable.  
+    -   If the **Prices Including VAT** field is selected, the **Prepayment Amount Incl. VAT** field is editable.  
   
     -   If you change the contents of the **Prepayment Amount** field, the amount will be distributed proportionately between all lines, except those that have **0** in the **\($ T\_37\_109 Prepayment % $\)** field.  
   
@@ -69,10 +59,10 @@ If you require your customers to submit payment before you ship an order to them
  You can issue additional prepayment invoices for the order. To do this, increase the prepayment amount on one or more lines, adjust the document date if necessary, and post the prepayment invoice. A new invoice will be created for the difference between the prepayment amounts invoiced so far and the new prepayment amount.  
   
 > [!NOTE]  
->  If you are located in North America, you cannot change the prepayment percentage after the prepayment invoice has been posted. This is prevented in the North American version of [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] because the calculation of sales tax will otherwise be incorrect.  
+>  If you are located in North America, you cannot change the prepayment percentage after the prepayment invoice has been posted. This is prevented in the North American version of ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> because the calculation of sales tax will otherwise be incorrect.  
   
  When you are ready to post the rest of the invoice, post it as you would post any invoice, and the prepayment amount will automatically be deducted from the amount due.  
   
 ## See Also  
- [How to: Define Prepayment Percentages](../Purchasing/how-to-define-prepayment-percentages.md)   
- [How to: Correct Prepayments](../Finance/how-to-correct-prepayments.md)
+ [How to: Define Prepayment Percentages](../FullExperience/how-to-define-prepayment-percentages.md)   
+ [How to: Correct Prepayments](../FullExperience/how-to-correct-prepayments.md)

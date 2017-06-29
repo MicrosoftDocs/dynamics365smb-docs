@@ -1,45 +1,20 @@
 ---
-title: "How to: Process Certificates of Supply"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "certificates of supply, processing"
-  - "certificates of supply, viewing"
-  - "certificates of supply, printing"
-ms.assetid: 283f25ae-b9b6-451d-9463-331fb8d8a219
-caps.latest.revision: 10
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Process Certificates of Supply
 When you sell goods to a customer in another EU country\/region, you must send the customer a certificate of supply that the customer must sign and return to you.  
   
@@ -47,7 +22,7 @@ When you sell goods to a customer in another EU country\/region, you must send t
   
 ### To view certificate of supply details  
   
-1.  In the **Search** box, enter **\($ N\_142 Posted Sales Shipments $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Posted Sales Shipments**, and then choose the related link.  
   
 2.  Choose the relevant sales shipment to a customer in another EU country\/region.  
   
@@ -70,7 +45,7 @@ When you sell goods to a customer in another EU country\/region, you must send t
   
 ### To print a certificate of supply  
   
-1.  In the **Search** box, enter **\($ N\_142 Posted Sales Shipments $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Posted Sales Shipments**, and then choose the related link.  
   
 2.  Choose the relevant sales shipment to a customer in another EU country\/region.  
   
@@ -81,27 +56,27 @@ When you sell goods to a customer in another EU country\/region, you must send t
   
 4.  To include information from the lines on the shipment document in the certificate, select the **Print Line Details** check box.  
   
-5.  Select the **Create Certificates of Supply if Not Already Created** check box to have [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] create certificates for posted shipments that do not have one at the moment of execution. When you select the check box, new certificates will be created for all posted shipments that do not have certificates within the selected range  
+5.  Select the **Create Certificates of Supply if Not Already Created** check box to have ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> create certificates for posted shipments that do not have one at the moment of execution. When you select the check box, new certificates will be created for all posted shipments that do not have certificates within the selected range  
   
 6.  By default, the filter settings are for the shipment document that you have selected. Fill in the filter information to select a specific certificate of supply that you want to print.  
   
-7.  In the **\($ R\_780 Certificate of Supply $\)** window, choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
+7.  In the **Certificate of Supply** window, choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
-     The **\($ T\_780\_3 Certificate of Supply Status $\)** field and the **\($ T\_780\_6 Printed $\)** field are updated for the shipment in the **Certificates of Supply** window.  
+     The **Certificate of Supply Status** field and the **Printed** field are updated for the shipment in the **Certificates of Supply** window.  
   
  You must send the printed certificate of supply to the customer for signature.  
   
 ### To update the status of a certificate of supply for a shipment  
   
-1.  In the **Search** box, enter **\($ N\_142 Posted Sales Shipments $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Posted Sales Shipments**, and then choose the related link.  
   
 2.  Choose the relevant sales shipment to a customer in another EU country\/region.  
   
-3.  In the **\($ T\_780\_6 Status $\)** field, choose the relevant option.  
+3.  In the **Status** field, choose the relevant option.  
   
      If the customer has returned the signed certificate of supply, choose **Received**. The **Receipt Date** field is updated. By default, the receipt date is set to the current work date.  
   
-     You can modify the date to reflect the date that you received the customer's signed certificate of supply. You can also add a link to the signed certificate using standard [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] linking.  
+     You can modify the date to reflect the date that you received the customer's signed certificate of supply. You can also add a link to the signed certificate using standard ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> linking.  
   
      If the customer does not return the signed certificate of supply, choose **Not Received**. You must then send the customer a new invoice that includes VAT, because the original invoice will not be accepted by the tax authority.  
   
@@ -128,5 +103,5 @@ When you sell goods to a customer in another EU country\/region, you must send t
     > -   To print a certificate of supply.  
   
 ## See Also  
- [Certificates of Supply](../Finance/certificates-of-supply.md)   
- [How to: Create Certificates of Supply](../Finance/how-to-create-certificates-of-supply.md)
+ [Certificates of Supply](../FullExperience/certificates-of-supply.md)   
+ [How to: Create Certificates of Supply](../FullExperience/how-to-create-certificates-of-supply.md)

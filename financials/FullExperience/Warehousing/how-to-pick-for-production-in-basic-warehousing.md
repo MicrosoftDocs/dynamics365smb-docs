@@ -1,48 +1,20 @@
 ---
-title: "How to: Pick for Production in Basic Warehousing"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "warehouse management, picking for production"
-  - "items, shipping"
-  - "inventory, picking"
-  - "outbound warehouse, picking"
-  - "picking, production"
-  - "pick worksheets, picking components"
-ms.assetid: 01303fd4-e173-4558-9fc5-3ccc564efd7f
-caps.latest.revision: 17
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Pick for Production in Basic Warehousing
 When your warehouse location requires pick processing but does not require shipment processing, use the **Inventory Pick** window to organize and record the picking of components.  
   
@@ -69,11 +41,11 @@ When your warehouse location requires pick processing but does not require shipm
   
 4.  When the lines are ready for posting, on the **Home** tab, in the **Process** group, choose **Post**. The posting creates the necessary warehouse entries and posts the consumption of the items.  
   
- You can also create an **Inventory Pick** directly from the released production order. On the **Actions** tab, in the **Warehouse** group, choose **Create Inventory Put\-away\/Pick\/Movement**, and then select the **Create Invt. Pick** field on the **Options** FastTab of the request window. You can print the pick list by selecting the **Print Document** field.  
+ You can also create an **Inventory Pick** directly from the released production order. On the **Actions** tab, in the **Warehouse** group, choose **Create Inventory Put-away\/Pick\/Movement**, and then select the **Create Invt. Pick** field on the **Options** FastTab of the request window. You can print the pick list by selecting the **Print Document** field.  
   
 ## See Also  
- [\($ N\_7377 Inventory Pick $\)](../Topic/\($%20N_7377%20Inventory%20Pick%20$\).md)   
- [How to: Pick for Internal Operations in Advanced Warehousing](../WarehouseActivities/how-to-pick-for-internal-operations-in-advanced-warehousing.md)   
- [\($ N\_7382 Inventory Movement $\)](../Topic/\($%20N_7382%20Inventory%20Movement%20$\).md)   
- [How to: Move Components to an Operation Area in Basic Warehousing](../WarehouseActivities/how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
- [How to: Move Items Ad Hoc in Basic Warehousing](../WarehouseActivities/how-to-move-items-ad-hoc-in-basic-warehousing.md)
+ Inventory Pick   
+ [How to: Pick for Internal Operations in Advanced Warehousing](../FullExperience/how-to-pick-for-internal-operations-in-advanced-warehousing.md)   
+ Inventory Movement   
+ [How to: Move Components to an Operation Area in Basic Warehousing](../FullExperience/how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
+ [How to: Move Items Ad Hoc in Basic Warehousing](../FullExperience/how-to-move-items-ad-hoc-in-basic-warehousing.md)

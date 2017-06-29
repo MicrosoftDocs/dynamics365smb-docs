@@ -1,46 +1,22 @@
 ---
-title: "Design Details: Accounts in the General Ledger"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "accounts, general ledger"
-  - "general ledger, accounts"
-ms.assetid: ff98ad7e-bd27-47e1-ac62-61880e433912
-caps.latest.revision: 7
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Design Details: Accounts in the General Ledger
-To reconcile inventory and capacity ledger entries with the general ledger, the related value entries are posted to different accounts in the general ledger. For more information, see [Design Details: Reconciliation with the General Ledger](../ApplicationDesign/design-details-reconciliation-with-the-general-ledger.md).  
+To reconcile inventory and capacity ledger entries with the general ledger, the related value entries are posted to different accounts in the general ledger. For more information, see [Design Details: Reconciliation with the General Ledger](../FullExperience/design-details-reconciliation-with-the-general-ledger.md).  
   
 ## From the Inventory Ledger  
  The following table shows the relationship between different types of inventory value entries and the accounts and balancing accounts in the general ledger.  
@@ -98,18 +74,18 @@ To reconcile inventory and capacity ledger entries with the general ledger, the 
 ## Assembly Costs are Always Actual  
  As shown in the table above, assembly postings are not represented in interim accounts. This is because the concept of work in process \(WIP\) does not apply in assembly output posting, unlike in production output posting. Assembly costs are only posted as actual cost, never as expected cost.  
   
- For more information, see [Design Details: Assembly Order Posting](../ApplicationDesign/design-details-assembly-order-posting.md).  
+ For more information, see [Design Details: Assembly Order Posting](../FullExperience/design-details-assembly-order-posting.md).  
   
 ## Calculating the Amount to Post to the General Ledger  
- The following fields in the **\($ T\_5802 Value Entry $\)** table are used to calculate the expected cost amount that is posted to the general ledger:  
+ The following fields in the **Value Entry** table are used to calculate the expected cost amount that is posted to the general ledger:  
   
--   \($ T\_5802\_43 Cost Amount \(Actual\) $\)  
+-   Cost Amount \(Actual\)  
   
--   \($ T\_5802\_45 Cost Posted to G\/L $\)  
+-   Cost Posted to G\/L  
   
--   \($ T\_5802\_151 Cost Amount \(Expected\) $\)  
+-   Cost Amount \(Expected\)  
   
--   \($ T\_5802\_158 Expected Cost Posted to G\/L $\)  
+-   Expected Cost Posted to G\/L  
   
  The following table shows how the amounts to post to the general ledger are calculated for the two different cost types.  
   
@@ -119,6 +95,6 @@ To reconcile inventory and capacity ledger entries with the general ledger, the 
 |Expected Cost|Cost Amount \(Expected\) –  Expected Cost Posted to G\/L|  
   
 ## See Also  
- [Design Details: Inventory Costing](../ApplicationDesign/design-details-inventory-costing.md)   
- [Design Details: Inventory Posting](../ApplicationDesign/design-details-inventory-posting.md)   
- [Design Details: Expected Cost Posting](../ApplicationDesign/design-details-expected-cost-posting.md)
+ [Design Details: Inventory Costing](../FullExperience/design-details-inventory-costing.md)   
+ [Design Details: Inventory Posting](../FullExperience/design-details-inventory-posting.md)   
+ [Design Details: Expected Cost Posting](../FullExperience/design-details-expected-cost-posting.md)

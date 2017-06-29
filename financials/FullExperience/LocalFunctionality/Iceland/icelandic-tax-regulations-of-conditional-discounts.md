@@ -1,19 +1,20 @@
 ---
-title: "Icelandic Tax Regulations of Conditional Discounts"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "conditional discounts"
-ms.assetid: 9e0a4205-e015-420e-bee8-ab29899700a0
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "is-is"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Icelandic Tax Regulations of Conditional Discounts
 In Iceland, it is a legal requirement to issue a credit memo if a conditional discount has been given.  
   
@@ -22,4 +23,4 @@ In Iceland, it is a legal requirement to issue a credit memo if a conditional di
  On the Sales and Receivables Setup form, a field has been added for number series for credit invoices. A new field has also been added in the Customer Ledger Entry table to link the appropriate entries to a credit invoice.  
   
 ## See Also  
- [\($ N\_459 Sales & Receivables Setup $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Iceland/-$-n_459-sales-receivables-setup-$-.md)
+ [\($ N\_459 Sales & Receivables Setup $\)](../FullExperience/-$-n_459-sales-receivables-setup-$-.md)

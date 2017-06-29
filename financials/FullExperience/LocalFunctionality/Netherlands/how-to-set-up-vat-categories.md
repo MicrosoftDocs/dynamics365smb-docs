@@ -1,20 +1,20 @@
 ---
-title: "How to: Set Up VAT Categories"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "VAT, categories"
-ms.assetid: 1943321d-706b-4be0-9163-369940c379d7
-caps.latest.revision: 25
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "nl-nl"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up VAT Categories
 To use the electronic VAT declaration, you must set up a VAT category code for all XML elements in the electronic VAT declaration.  
   
@@ -22,13 +22,13 @@ To use the electronic VAT declaration, you must set up a VAT category code for a
   
 ### To set up a VAT category  
   
-1.  In the **Search** box, enter **\($ N\_11414 Elec. Tax. Decl. VAT Categories $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Elec. Tax. Decl. VAT Categories**, and then choose the related link.  
   
-2.  In the **\($ N\_11414 Elec. Tax. Decl. VAT Categories $\)** window, on the **Home** tab, choose **New**.  
+2.  In the **Elec. Tax. Decl. VAT Categories** window, on the **Home** tab, choose **New**.  
   
 3.  Fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Code**|The unique code for each category and subcategory combination. You can enter a maximum of 10 alphanumeric characters.|  
     |**Category**|Specify the main category option for the VAT statement.|  
@@ -44,5 +44,5 @@ To use the electronic VAT declaration, you must set up a VAT category code for a
      You can now map the VAT statement data directly to an XML element.  
   
 ## See Also  
- [Electronic VAT and ICP Declarations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/electronic-vat-and-icp-declarations.md)   
- [How to: Create Electronic VAT and ICP Declarations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/how-to-create-electronic-vat-and-icp-declarations.md)
+ [Electronic VAT and ICP Declarations](../FullExperience/electronic-vat-and-icp-declarations.md)   
+ [How to: Create Electronic VAT and ICP Declarations](../FullExperience/how-to-create-electronic-vat-and-icp-declarations.md)

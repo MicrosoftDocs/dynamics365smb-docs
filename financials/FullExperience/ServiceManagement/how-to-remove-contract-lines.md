@@ -1,45 +1,20 @@
 ---
-title: "How to: Remove Contract Lines"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "service contracts, removing lines"
-  - "removing, contract lines"
-  - "contracts (service), removing lines"
-ms.assetid: 812a5076-cd87-4f3f-9a9b-80c5cdc84a9c
-caps.latest.revision: 7
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Remove Contract Lines
 You may need to remove contract lines from the service contract as you remove corresponding service items from the service contract. Usually you remove a contract line that is expired or corresponds to the service item that has broken down.  
   
@@ -67,6 +42,6 @@ You may need to remove contract lines from the service contract as you remove co
 >  If the contract is detailed and prepaid, and you have posted invoices for the contract, you can create a credit memo for the contract. On the **Actions** tab, in the **Functions** group, choose **Create Credit Memo**. This is unnecessary if the check box in the **Automatic Credit Memos** field on the **Invoice Details** FastTab is selected. In that case, a credit memo is created automatically when you remove a contract line.  
   
 ## See Also  
- [How to: Cancel Contracts](../Service/how-to-cancel-contracts.md)   
- [How to: Create Contract Service Credit Memos](../Service/how-to-create-contract-service-credit-memos.md)   
- [\($ T\_5965\_71 Automatic Credit Memos $\)](../Topic/\($%20T_5965_71%20Automatic%20Credit%20Memos%20$\).md)
+ [How to: Cancel Contracts](../FullExperience/how-to-cancel-contracts.md)   
+ [How to: Create Contract Service Credit Memos](../FullExperience/how-to-create-contract-service-credit-memos.md)   
+ Automatic Credit Memos

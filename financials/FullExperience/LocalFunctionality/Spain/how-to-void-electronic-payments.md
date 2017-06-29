@@ -1,22 +1,22 @@
 ---
-title: "How to: Void Electronic Payments"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "electronic payments, voiding"
-ms.assetid: 1e6a3c35-6556-46b6-951b-e54069c11dba
-caps.latest.revision: 9
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "es-es"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Void Electronic Payments
-In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can void the exported payment file. By voiding the file, the entire payment journal from which the file was created, will be deleted.  
+In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can void the exported payment file. By voiding the file, the entire payment journal from which the file was created, will be deleted.  
   
 ### To void electronic payments  
   
@@ -24,7 +24,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can vo
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_10722\_N\_2\_1100000 Bank Account No. $\)**|Specify the bank account number from which the payments will be voided.|  
   
@@ -34,11 +34,11 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can vo
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_7000061\_N\_2\_1100000 Payment Order No. $\)**|Specify the payment order number from which the payments will be voided.|  
   
 ## See Also  
- [How to: Set Up Bank Accounts for Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/how-to-set-up-bank-accounts-for-electronic-payments.md)   
- [How to: Pay Vendors by Using Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/how-to-pay-vendors-by-using-electronic-payments.md)   
- [\($ N\_256 Payment Journal $\)](../../Finance/-$-n_256-payment-journal-$-.md)
+ [How to: Set Up Bank Accounts for Electronic Payments](../FullExperience/how-to-set-up-bank-accounts-for-electronic-payments.md)   
+ [How to: Pay Vendors by Using Electronic Payments](../FullExperience/how-to-pay-vendors-by-using-electronic-payments.md)   
+ Payment Journal

@@ -1,22 +1,20 @@
 ---
-title: "How to: Print Direct Sales and Purchase Details Reports"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "sales, details"
-  - "purchase details"
-  - "sales, printing direct sales reports"
-ms.assetid: 27448496-2cd9-42a2-a5e8-c321185f7693
-caps.latest.revision: 26
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "en-gb"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Print Direct Sales and Purchase Details Reports
 The **Direct Sales Details** and **Direct Purchase Details** reports include headers with order numbers and descriptions from sales and purchase documents.  
   
@@ -37,8 +35,8 @@ The **Direct Sales Details** and **Direct Purchase Details** reports include hea
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [\($ R\_10527 Direct Sales Details $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/-$-r_10527-direct-sales-details-$-.md)   
- [\($ R\_10537 Direct Purchase Details $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/-$-r_10537-direct-purchase-details-$-.md)   
- [How to: Create Purchase Orders Manually](../../Purchasing/how-to-create-purchase-orders-manually.md)   
- [How to: Create Sales Orders Manually](../../Sales/how-to-create-sales-orders-manually.md)   
- [United Kingdom Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/united-kingdom-local-functionality.md)
+ Direct Sales Details   
+ Direct Purchase Details   
+ [How to: Create Purchase Orders Manually](../FullExperience/how-to-create-purchase-orders-manually.md)   
+ [How to: Create Sales Orders Manually](../FullExperience/how-to-create-sales-orders-manually.md)   
+ [United Kingdom Local Functionality](../FullExperience/united-kingdom-local-functionality.md)

@@ -1,44 +1,20 @@
 ---
-title: "Design Details: Monitoring the Projected Inventory Level and the Reorder Point"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "inventory, reorder points"
-  - "inventory, monitoring projected levels"
-ms.assetid: e1dd0cb1-2475-4cb1-93d3-c64aef7cc75d
-caps.latest.revision: 8
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Design Details: Monitoring the Projected Inventory Level and the Reorder Point
 Inventory is a type of supply, but for inventory planning, the planning system distinguishes between two inventory levels:  
   
@@ -74,15 +50,15 @@ Inventory is a type of supply, but for inventory planning, the planning system d
   
  The following shows a graphical illustration of this principle:  
   
- ![](../ApplicationDesign/media/nav_app_supply_planning_2_projected_inventory.png "NAV\_APP\_supply\_planning\_2\_projected\_inventory")  
+ ![](../FullExperience/media/nav_app_supply_planning_2_projected_inventory.png "NAV\_APP\_supply\_planning\_2\_projected\_inventory")  
   
-1.  Supply **Sa** of 4 \(fixed\) closes Demand **Da** of \-3.  
+1.  Supply **Sa** of 4 \(fixed\) closes Demand **Da** of -3.  
   
-2.  CloseDemand: Create a decrease reminder of \-3 \(not shown\).  
+2.  CloseDemand: Create a decrease reminder of -3 \(not shown\).  
   
 3.  Supply **Sa** is closed with a surplus of 1 \(no more demand exists.  
   
-     This increases the projected inventory level to \+4, while the projected **available** inventory becomes \-1.  
+     This increases the projected inventory level to \+4, while the projected **available** inventory becomes -1.  
   
 4.  The next supply **Sb** of 2 \(another order\) has already been placed on the timeline.  
   
@@ -94,14 +70,14 @@ Inventory is a type of supply, but for inventory planning, the planning system d
   
 7.  System makes a final check: Is there any decrease reminder? Yes, there is one on the date of **Da**.  
   
-8.  System adds the decrease reminder of \-3 reminder to the projected inventory level, either A: \+4 \-3 \= 1 or B: \+6 \-3 \= \+3.  
+8.  System adds the decrease reminder of -3 reminder to the projected inventory level, either A: \+4 -3 \= 1 or B: \+6 -3 \= \+3.  
   
-9. In case of A, the system creates a forward\-scheduled order starting on date **Da**.  
+9. In case of A, the system creates a forward-scheduled order starting on date **Da**.  
   
      In case of B, the reorder point is reached and a new order is created.  
   
 ## See Also  
- [Design Details: Reordering Policies](../ApplicationDesign/design-details-reordering-policies.md)   
- [Design Details: Planning Parameters](../ApplicationDesign/design-details-planning-parameters.md)   
- [Design Details: Handling Reordering Policies](../ApplicationDesign/design-details-handling-reordering-policies.md)   
- [Design Details: Supply Planning](../ApplicationDesign/design-details-supply-planning.md)
+ [Design Details: Reordering Policies](../FullExperience/design-details-reordering-policies.md)   
+ [Design Details: Planning Parameters](../FullExperience/design-details-planning-parameters.md)   
+ [Design Details: Handling Reordering Policies](../FullExperience/design-details-handling-reordering-policies.md)   
+ [Design Details: Supply Planning](../FullExperience/design-details-supply-planning.md)

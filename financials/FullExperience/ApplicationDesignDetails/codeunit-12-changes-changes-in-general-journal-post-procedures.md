@@ -1,45 +1,22 @@
 ---
-title: "Codeunit 12 Changes: Changes in General Journal Post Procedures"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "general journal post line, codeunit 12 changes"
-ms.assetid: 4d181056-a02e-48cd-a572-22aeba412bc0
-caps.latest.revision: 2
-ms.author: "edupont"
-manager: "edupont"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Codeunit 12 Changes: Changes in General Journal Post Procedures
-The following changes have been implemented in this release of [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)].  
+The following changes have been implemented in this release of ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
   
 |**Microsoft Dynamics NAV 2009 R2**|**Microsoft Dynamics NAV 2013 R2**|**Comment**|  
 |----------------------------------------|----------------------------------------|-----------------|  
@@ -160,19 +137,19 @@ The following changes have been implemented in this release of [!INCLUDE[navnow]
 |CheckCalcPmtDiscCVVend||Moved to Codeunit 426 Payment Tolerance Management|  
 |CheckCalcPmtDiscVend||Moved to Codeunit 426 Payment Tolerance Management|  
 |CheckCalcPmtDiscGenJnlVend||Moved to Codeunit 426 Payment Tolerance Management|  
-|Reverse|Reverse|Moved to Codeunit 17 Gen. Jnl.\-Post Reverse|  
-|ReverseCustLedgEntry|ReverseCustLedgEntry|Moved to Codeunit 17 Gen. Jnl.\-Post Reverse|  
-|ReverseVendLedgEntry|ReverseVendLedgEntry|Moved to Codeunit 17 Gen. Jnl.\-Post Reverse|  
-|ReverseBankAccLedgEntry|ReverseBankAccLedgEntry|Moved to Codeunit 17 Gen. Jnl.\-Post Reverse|  
-|ReverseVAT|ReverseVAT|Moved to Codeunit 17 Gen. Jnl.\-Post Reverse|  
-|SetReversalDescription|SetReversalDescription|Moved to Codeunit 17 Gen. Jnl.\-Post Reverse|  
-|ApplyCustLedgEntryByReversal|ApplyCustLedgEntryByReversal|Moved to Codeunit 17 Gen. Jnl.\-Post Reverse|  
-|ApplyVendLedgEntryByReversal|ApplyVendLedgEntryByReversal|Moved to Codeunit 17 Gen. Jnl.\-Post Reverse|  
-|PostPmtDiscountVATByUnapply|PostPmtDiscountVATByUnapply|Moved to Codeunit 17 Gen. Jnl.\-Post Reverse|  
-||CheckDimComb|Added in Codeunit 17 Gen. Jnl.\-Post Reverse|  
-||CopyCustLedgEntry|Added in Codeunit 17 Gen. Jnl.\-Post Reverse|  
-||CopyVendLedgEntry|Added in Codeunit 17 Gen. Jnl.\-Post Reverse|  
-||CopyBankAccLedgEntry|Added in Codeunit 17 Gen. Jnl.\-Post Reverse|  
+|Reverse|Reverse|Moved to Codeunit 17 Gen. Jnl.-Post Reverse|  
+|ReverseCustLedgEntry|ReverseCustLedgEntry|Moved to Codeunit 17 Gen. Jnl.-Post Reverse|  
+|ReverseVendLedgEntry|ReverseVendLedgEntry|Moved to Codeunit 17 Gen. Jnl.-Post Reverse|  
+|ReverseBankAccLedgEntry|ReverseBankAccLedgEntry|Moved to Codeunit 17 Gen. Jnl.-Post Reverse|  
+|ReverseVAT|ReverseVAT|Moved to Codeunit 17 Gen. Jnl.-Post Reverse|  
+|SetReversalDescription|SetReversalDescription|Moved to Codeunit 17 Gen. Jnl.-Post Reverse|  
+|ApplyCustLedgEntryByReversal|ApplyCustLedgEntryByReversal|Moved to Codeunit 17 Gen. Jnl.-Post Reverse|  
+|ApplyVendLedgEntryByReversal|ApplyVendLedgEntryByReversal|Moved to Codeunit 17 Gen. Jnl.-Post Reverse|  
+|PostPmtDiscountVATByUnapply|PostPmtDiscountVATByUnapply|Moved to Codeunit 17 Gen. Jnl.-Post Reverse|  
+||CheckDimComb|Added in Codeunit 17 Gen. Jnl.-Post Reverse|  
+||CopyCustLedgEntry|Added in Codeunit 17 Gen. Jnl.-Post Reverse|  
+||CopyVendLedgEntry|Added in Codeunit 17 Gen. Jnl.-Post Reverse|  
+||CopyBankAccLedgEntry|Added in Codeunit 17 Gen. Jnl.-Post Reverse|  
 |HandlDtlAddjustment|HandleDtldAdjustment|Updated|  
 |CollectAddjustment|CollectAdjustment|Updated|  
 |SetOverDimErr|SetOverDimErr|Updated|  
@@ -210,4 +187,4 @@ The following changes have been implemented in this release of [!INCLUDE[navnow]
 ||CreateGLEntriesForTotalAmounts|Added|  
   
 ## See Also  
- [Codeunit 12 Changes: Mapping Global Variables for General Journal Post Line](../ApplicationDesign/codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)
+ [Codeunit 12 Changes: Mapping Global Variables for General Journal Post Line](../FullExperience/codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)

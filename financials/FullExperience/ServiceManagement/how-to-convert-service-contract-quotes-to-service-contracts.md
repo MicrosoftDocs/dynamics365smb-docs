@@ -1,45 +1,20 @@
 ---
-title: "How to: Convert Service Contract Quotes to Service Contracts"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "contract quotes, converting to service contracts"
-  - "service contract quotes, converting"
-  - "quotes, converting to service contracts"
-ms.assetid: 97ee9101-54e4-4c90-bb22-d23bf0af6af0
-caps.latest.revision: 10
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Convert Service Contract Quotes to Service Contracts
 When a customer has accepted a service contract quote, you convert it to a service contract. At the same time, you can create a service invoice for the starting period of the contract if the starting date of the contract is before the beginning of the next invoice period.  
   
@@ -74,9 +49,9 @@ When a customer has accepted a service contract quote, you convert it to a servi
  The service invoice is posted to the service account of the contract, even if the contract is prepaid.  
   
 ## See Also  
- [How to: Create Service Contracts and Service Contract Quotes](../Service/how-to-create-service-contracts-and-service-contract-quotes.md)   
- [How to: Invoice Service Contracts](../Finance/how-to-invoice-service-contracts.md)   
- [How to: Add Contract Lines to Service Contracts or Service Contract Quotes](../Service/how-to-add-contract-lines-to-service-contracts-or-service-contract-quotes.md)   
- [How to: Remove Contract Lines](../Service/how-to-remove-contract-lines.md)   
- [How to: Update Service Contract Prices](../Service/how-to-update-service-contract-prices.md)   
- [How to: Cancel Contracts](../Service/how-to-cancel-contracts.md)
+ [How to: Create Service Contracts and Service Contract Quotes](../FullExperience/how-to-create-service-contracts-and-service-contract-quotes.md)   
+ [How to: Invoice Service Contracts](../FullExperience/how-to-invoice-service-contracts.md)   
+ [How to: Add Contract Lines to Service Contracts or Service Contract Quotes](../FullExperience/how-to-add-contract-lines-to-service-contracts-or-service-contract-quotes.md)   
+ [How to: Remove Contract Lines](../FullExperience/how-to-remove-contract-lines.md)   
+ [How to: Update Service Contract Prices](../FullExperience/how-to-update-service-contract-prices.md)   
+ [How to: Cancel Contracts](../FullExperience/how-to-cancel-contracts.md)

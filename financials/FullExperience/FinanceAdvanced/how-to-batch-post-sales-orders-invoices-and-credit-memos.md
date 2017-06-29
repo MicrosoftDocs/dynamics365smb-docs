@@ -1,34 +1,20 @@
 ---
-title: "How to: Batch Post Sales Orders, Invoices, and Credit Memos"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "sales orders, posting"
-  - "batch posting, sales order invoices"
-  - "sales invoices, posting"
-  - "sales credit memos, posting"
-  - "credit memos, batch posting"
-  - "batch posting, credit memos"
-ms.assetid: 310c6af4-4f2e-485f-ad4b-df36f3932a9c
-caps.latest.revision: 8
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-my"
-  - "en-nz"
-  - "en-ph"
-  - "en-sg"
-  - "en-zw"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Batch Post Sales Orders, Invoices, and Credit Memos
 If you have set up a large number of sales orders, invoices, or credit memos, it is an advantage to post them with a batch job. You can have them posted at night or at another time when it is convenient.  
   
@@ -54,6 +40,6 @@ If you have set up a large number of sales orders, invoices, or credit memos, it
 >  For example, if eight units have been shipped from an order of 25 units, then the eight units will be invoiced and an additional 12 units will be shipped.  
   
 ## See Also  
- [\($ B\_296 Batch Post Sales Orders $\)](../Topic/\($%20B_296%20Batch%20Post%20Sales%20Orders%20$\).md)   
- [\($ B\_297 Batch Post Sales Invoices $\)](../Topic/\($%20B_297%20Batch%20Post%20Sales%20Invoices%20$\).md)   
- [\($ B\_298 Batch Post Sales Credit Memos $\)](../Topic/\($%20B_298%20Batch%20Post%20Sales%20Credit%20Memos%20$\).md)
+ Batch Post Sales Orders   
+ Batch Post Sales Invoices   
+ Batch Post Sales Credit Memos

@@ -1,45 +1,25 @@
 ---
-title: "How to: Enable and Disable Encryption Keys"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-ms.assetid: 418851b8-3bf4-4535-85cd-c49f5e20d173
-caps.latest.revision: 5
-ms.author: "sgroespe"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Enable and Disable Encryption Keys
-You can encrypt data on the [!INCLUDE[nav_server](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_server_md.md)] by generating new or importing existing encryption keys that you enable on the server.  
+You can encrypt data on the ADD INCLUDE<!--[!INCLUDE[nav_server](../../includes/nav_server_md.md)]--> by generating new or importing existing encryption keys that you enable on the server.  
   
 > [!NOTE]  
->  If [!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)] is configured with multiple service tiers, then you must first enable encryption on one server and then export the key so it can be imported to another server where you enable encryption. You cannot generate different keys within one multiple\-server environment.  
+>  If ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]--> is configured with multiple service tiers, then you must first enable encryption on one server and then export the key so it can be imported to another server where you enable encryption. You cannot generate different keys within one multiple-server environment.  
   
  You encrypt data by enabling an encryption key on a server where an encryption key exists.  
   
@@ -66,12 +46,12 @@ You can encrypt data on the [!INCLUDE[nav_server](../BusinessFunctionality/Integ
   
 2.  On the **Home** tab, in the **Process** group, choose **Disable Encryption**.  
   
-3.  On the warning message about non\-encrypted data, choose **Yes**.  
+3.  On the warning message about non-encrypted data, choose **Yes**.  
   
 ## See Also  
- [How to: Export and Import Encryption Keys](../SetupAndAdministration/how-to-export-and-import-encryption-keys.md)   
- [\($ N\_9905\_2 Encryption Enabled $\)](../Topic/\($%20N_9905_2%20Encryption%20Enabled%20$\).md)   
- [\($ N\_9905\_3 Encryption Key Exists $\)](../Topic/\($%20N_9905_3%20Encryption%20Key%20Exists%20$\).md)   
- [Manage Data Encryption](../SetupAndAdministration/manage-data-encryption.md)   
- [Installation Considerations for Microsoft SQL Server](../Topic/Installation%20Considerations%20for%20Microsoft%20SQL%20Server.md)   
- [How to: Configure the Microsoft Dynamics NAV Web client to Accept Host Names for Tenants](../Topic/How%20to:%20Configure%20the%20Microsoft%20Dynamics%20NAV%20Web%20client%20to%20Accept%20Host%20Names%20for%20Tenants.md)
+ [How to: Export and Import Encryption Keys](../FullExperience/how-to-export-and-import-encryption-keys.md)   
+ Encryption Enabled   
+ Encryption Key Exists   
+ [Manage Data Encryption](../FullExperience/manage-data-encryption.md)   
+ [Installation Considerations for Microsoft SQL Server](../FullExperience/Installation%20Considerations%20for%20Microsoft%20SQL%20Server.md)   
+ [How to: Configure the Microsoft Dynamics NAV Web client to Accept Host Names for Tenants](../FullExperience/How%20to:%20Configure%20the%20Microsoft%20Dynamics%20NAV%20Web%20client%20to%20Accept%20Host%20Names%20for%20Tenants.md)

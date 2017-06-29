@@ -1,45 +1,20 @@
 ---
-title: "How to: Plan for New Demand"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "planning, demand"
-  - "demand, setting up new"
-  - "planning, orders"
-ms.assetid: 722cd165-c926-4ed6-8233-58fe12e2c6a4
-caps.latest.revision: 11
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Plan for New Demand
 This planning task can be performed in the **Order Planning** window, which displays all new demand along with availability information and suggestions for supply. It provides the visibility and tools needed to effectively plan demand from sales lines and component lines and then create different types of supply orders directly.  
   
@@ -61,7 +36,7 @@ This planning task can be performed in the **Order Planning** window, which disp
   
      The window displays planning lines according to the view filter **All Demand**, meaning sales order lines as well as production component lines with insufficient availability. You can change this filter as you like.  
   
-     When the plan is being calculated, any new demand that has arisen since a plan was last calculated is analyzed. The quantity needed is calculated based on total availability of each demand line found. This calculation is done order\-by\-order, meaning that the order that includes the demand line with the earliest due date or shipment date is considered first, and all other demand lines in that production order, irrespective of their individual due dates or shipment dates, are also calculated for that order. Therefore, all planning lines under one order header line have the same demand date. When the calculation is completed, all unfulfilled demand is displayed as planning lines, sorted by the earliest demand date, with the various quantity fields filled in.  
+     When the plan is being calculated, any new demand that has arisen since a plan was last calculated is analyzed. The quantity needed is calculated based on total availability of each demand line found. This calculation is done order-by-order, meaning that the order that includes the demand line with the earliest due date or shipment date is considered first, and all other demand lines in that production order, irrespective of their individual due dates or shipment dates, are also calculated for that order. Therefore, all planning lines under one order header line have the same demand date. When the calculation is completed, all unfulfilled demand is displayed as planning lines, sorted by the earliest demand date, with the various quantity fields filled in.  
   
      The **Order Planning** window is filled with order header lines representing orders with unfulfilled demand.  
   
@@ -71,9 +46,9 @@ This planning task can be performed in the **Order Planning** window, which disp
   
     3.  The **Description field** contains the following depending on the demand type.  
   
-        |Demand type|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+        |Demand type|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
         |-----------------|---------------------------------------|  
-        |**Production**|The description of the produced item.<br /><br /> For production demand for a project production order, the customer name is displayed. For more information, see [How to: Plan Project Orders](../OperationsPlanning/how-to-plan-project-orders.md).|  
+        |**Production**|The description of the produced item.<br /><br /> For production demand for a project production order, the customer name is displayed. For more information, see [How to: Plan Project Orders](../FullExperience/how-to-plan-project-orders.md).|  
         |**Sales**|The customer name.|  
   
      The first planning line has the earliest demand date, and therefore you should plan this line first. To see the actual demand lines, either sales order lines or component lines, of each order header line, you must expand the line.  
@@ -82,7 +57,7 @@ This planning task can be performed in the **Order Planning** window, which disp
   
 3.  For each expanded planning line, that is, demand line, you can see values in information fields at the bottom of the window.  
   
-    |[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)]|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../../includes/bp_tabledescription_md.md)]-->|  
     |----------------------------------|---------------------------------------|  
     |**Qty. on Other Locations**|Shows if the item exists on another location. You can then look up and select it.|  
     |**Substitutes Exist**|Shows if a substitute item is created for the item. You can then look up and select it. Note that this feature only applies to components, that is, from demand lines of type **Production**.|  
@@ -93,7 +68,7 @@ This planning task can be performed in the **Order Planning** window, which disp
   
      The default value is that of the item card, or SKU card, but you can change it to one of three options:  
   
-    |[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)]|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../../includes/bp_tabledescription_md.md)]-->|  
     |----------------------------------|---------------------------------------|  
     |**Purchase**|Creates a purchase order.|  
     |**Transfer**|Creates a transfer order.|  
@@ -106,9 +81,9 @@ This planning task can be performed in the **Order Planning** window, which disp
   
 5.  From the **Supply From** field, you can look up in the relevant list and select where the supply should come from:  
   
-    -   If replenishment system is **Purchase**, the look\-up button in this field looks up in the **Item Vendor Catalog** window.  
+    -   If replenishment system is **Purchase**, the look-up button in this field looks up in the **Item Vendor Catalog** window.  
   
-    -   If replenishment system is **Transfer**, the look\-up button in this field looks up in the **Location List** window.  
+    -   If replenishment system is **Transfer**, the look-up button in this field looks up in the **Location List** window.  
   
      In case the item exists in another location, the **Qty. on Other Location** field at the bottom shows a value and you can then look up and select the location from which the item should be supplied when you make the transfer order.  
   
@@ -139,7 +114,7 @@ This planning task can be performed in the **Order Planning** window, which disp
   
 4.  In the **Make Supply Orders** window, on the **Order Planning** FastTab, in the **Make Orders for** field, select one of the following options.  
   
-    |[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)]|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../../includes/bp_tabledescription_md.md)]-->|  
     |----------------------------------|---------------------------------------|  
     |**The Active Line**|Make a supply order only for the line where the cursor is placed.|  
     |**The Active Order**|Make supply orders for all lines in the order where the cursor is placed.|  
@@ -160,10 +135,10 @@ This planning task can be performed in the **Order Planning** window, which disp
 >  The supply orders you create may introduce new dependent demand, for example for underlying production orders, and you should therefore choose **Calculate Plan** again to find and resolve this before moving down the list.  
   
 ## See Also  
- [\($ T\_27\_100 Reserve $\)](../Topic/\($%20T_27_100%20Reserve%20$\).md)   
- [About Planning Functionality](../OperationsPlanning/about-planning-functionality.md)   
- [How to: Refresh Production Orders](../OperationsPlanning/how-to-refresh-production-orders.md)   
- [How to: Replan Production Orders](../OperationsPlanning/how-to-replan-production-orders.md)   
- [How to: Run MPS and MRP](../OperationsPlanning/how-to-run-mps-and-mrp.md)   
- [Design Details: Supply Planning](../ApplicationDesign/design-details-supply-planning.md)   
- [Setup Best Practices: Supply Planning](../SetupAndAdministration/setup-best-practices-supply-planning.md)
+ Reserve   
+ [About Planning Functionality](../FullExperience/about-planning-functionality.md)   
+ [How to: Refresh Production Orders](../FullExperience/how-to-refresh-production-orders.md)   
+ [How to: Replan Production Orders](../FullExperience/how-to-replan-production-orders.md)   
+ [How to: Run MPS and MRP](../FullExperience/how-to-run-mps-and-mrp.md)   
+ [Design Details: Supply Planning](../FullExperience/design-details-supply-planning.md)   
+ [Setup Best Practices: Supply Planning](../FullExperience/setup-best-practices-supply-planning.md)

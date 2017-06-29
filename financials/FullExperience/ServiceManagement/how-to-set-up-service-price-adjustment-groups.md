@@ -1,46 +1,20 @@
 ---
-title: "How to: Set Up Service Price Adjustment Groups"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "adjustments, service prices"
-  - "adjustments, setting up groups"
-  - "service price adjustments, setting up groups"
-  - "price adjustments, setting up groups"
-ms.assetid: 4261d9d6-7e05-4ad8-9814-659335c56027
-caps.latest.revision: 6
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up Service Price Adjustment Groups
 You can use the **Serv. Price Adjmt. Group** window to set up price adjustment groups to adjust service pricing of service items. For example, you can set up price adjustment groups that adjust price of freight or spare parts.  
   
@@ -67,6 +41,6 @@ You can use the **Serv. Price Adjmt. Group** window to set up price adjustment g
  Repeat these steps for each group of service lines that you want to adjust, by using a service price adjustment group.  
   
 ## See Also  
- [How to: Set Up Service Price Groups](../Service/how-to-set-up-service-price-groups.md)   
- [How to: Set Up Service Price Adjustment Details](../Service/how-to-set-up-service-price-adjustment-details.md)   
- [Service Price Management](../Service/service-price-management.md)
+ [How to: Set Up Service Price Groups](../FullExperience/how-to-set-up-service-price-groups.md)   
+ [How to: Set Up Service Price Adjustment Details](../FullExperience/how-to-set-up-service-price-adjustment-details.md)   
+ [Service Price Management](../FullExperience/service-price-management.md)

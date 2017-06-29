@@ -1,45 +1,20 @@
 ---
-title: "How to: Calculate Production Order Routing Lines"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "routings, calculating lines"
-  - "production orders, routing lines"
-  - "operations, calculating"
-ms.assetid: ada4fd6e-14f8-44a0-a872-4187b92bcc8e
-caps.latest.revision: 12
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Calculate Production Order Routing Lines
 If you have amended production order lines, you must also refresh the routing of the production order.  
   
@@ -57,7 +32,7 @@ If you have amended production order lines, you must also refresh the routing of
   
 5.  The following table describes the options available for this batch job.  
   
-    |[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)]|Selection|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../../includes/bp_tabledescription_md.md)]-->|  
     |----------------------------------|---------------|---------------------------------------|  
     |**Scheduling Direction**|**Forward**|This field has no effect on the outcome.|  
     ||**Backward**|This field has no effect on the outcome.|  
@@ -72,6 +47,6 @@ If you have amended production order lines, you must also refresh the routing of
 >  Calculating production order routing lines deletes previous changes in the routings.  
   
 ## See Also  
- [How to: Refresh Production Orders](../OperationsPlanning/how-to-refresh-production-orders.md)   
- [How to: Calculate Production Order Components](../OperationsPlanning/how-to-calculate-production-order-components.md)   
- [How to: Calculate Lines from Production Order Headers](../OperationsPlanning/how-to-calculate-lines-from-production-order-headers.md)
+ [How to: Refresh Production Orders](../FullExperience/how-to-refresh-production-orders.md)   
+ [How to: Calculate Production Order Components](../FullExperience/how-to-calculate-production-order-components.md)   
+ [How to: Calculate Lines from Production Order Headers](../FullExperience/how-to-calculate-lines-from-production-order-headers.md)

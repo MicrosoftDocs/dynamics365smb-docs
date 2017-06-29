@@ -1,18 +1,20 @@
 ---
-title: "How to: Determine Sales Price by Cost Plus Percentage"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "sales tax, cost plus percentage"
-  - "cost plus percentage"
-ms.assetid: f971388f-7ee5-4517-ad93-9e35276629fc
-caps.latest.revision: 32
-ms.author: "edupont"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Determine Sales Price by Cost Plus Percentage
 Use the cost plus percentage function to set a sales price based on the cost of an item. The cost of the item can be calculated along with cost plus calculation. The discount will be based on this calculation. This functionality eliminates the need for the use of spreadsheets in determining percentage discounts as they correspond to cost plus percentage.  
   
@@ -24,7 +26,7 @@ Use the cost plus percentage function to set a sales price based on the cost of 
   
 3.  Under **Lists**, click **Customers**.  
   
-4.  Double\-click the required customer.  
+4.  Double-click the required customer.  
   
      –or–  
   
@@ -58,5 +60,5 @@ Use the cost plus percentage function to set a sales price based on the cost of 
 9. Click **OK**.  
   
 ## See Also  
- [Australia Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/australia-local-functionality.md)   
- [\($ N\_7002 Sales Prices $\)](../Topic/\($%20N_7002%20Sales%20Prices%20$\).md)
+ [Australia Local Functionality](../FullExperience/australia-local-functionality.md)   
+ Sales Prices

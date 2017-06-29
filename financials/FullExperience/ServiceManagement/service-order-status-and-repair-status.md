@@ -1,57 +1,31 @@
 ---
-title: "Service Order Status and Repair Status"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "service orders, status"
-  - "status, service orders"
-  - "repair status, about"
-  - "status, repair"
-ms.assetid: 0390da59-ca96-43b3-9ffd-f662e8d02f3c
-caps.latest.revision: 6
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Service Order Status and Repair Status
 The **Status** field in the **Service Order** window and the service item repair status, which is represented by the **Repair Status Code** field in the **Service Order** window have a certain relationship in Service Management. The service order status reflects the repair status of all the service items in the service order.  
   
 > [!NOTE]  
->  These two status field are not related to the **\($ T\_5900\_130 Release Status $\)** field on the service order header, which determines how the warehouse handles service items.  
+>  These two status field are not related to the **Release Status** field on the service order header, which determines how the warehouse handles service items.  
   
  Each time the repair status of a service item is changed in a service order, the status of the order is updated. To display the status that reflects the overall repair status of the individual service items, you must specify the following:  
   
--   The service order status that each repair status is linked to. For more information, see [\($ T\_5927\_3 Service Order Status $\)](../Topic/\($%20T_5927_3%20Service%20Order%20Status%20$\).md).  
+-   The service order status that each repair status is linked to. For more information, see Service Order Status.  
   
--   The level of priority of each service order status option. For more information, see [\($ T\_5928\_2 Priority $\)](../Topic/\($%20T_5928_2%20Priority%20$\).md).  
+-   The level of priority of each service order status option. For more information, see Priority.  
   
  When you convert a service quote to a service order, the repair status of each service item is changed in the order to **Initial** and the service order status is changed to **Pending**.  
   
@@ -78,17 +52,17 @@ The **Status** field in the **Service Order** window and the service item repair
 ## Example  
  A typical priority level assignment could be as follows:  
   
--   In Process \- High  
+-   In Process - High  
   
--   Pending \- Medium high  
+-   Pending - Medium high  
   
--   On Hold \- Medium low  
+-   On Hold - Medium low  
   
--   Finished \- Low  
+-   Finished - Low  
   
  For example, if one service item has the repair status **Initial**, linked to the service order status **Pending**, another has the repair status **In Process**, linked to the service order status **In Process**, and a third has the repair status **Spare Part Ordered**, linked to the service order status **On Hold**, the resulting service order status will be **In Process** because this has the highest priority.  
   
 ## See Also  
- [How to: Set Up Repair Statuses](../Service/how-to-set-up-repair-statuses.md)   
- [How to: Set Up Service Status Priorities](../Service/how-to-set-up-service-status-priorities.md)   
- [\($ T\_5900\_130 Release Status $\)](../Topic/\($%20T_5900_130%20Release%20Status%20$\).md)
+ [How to: Set Up Repair Statuses](../FullExperience/how-to-set-up-repair-statuses.md)   
+ [How to: Set Up Service Status Priorities](../FullExperience/how-to-set-up-service-status-priorities.md)   
+ Release Status

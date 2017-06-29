@@ -1,45 +1,20 @@
 ---
-title: "How to: Add Department Links to the Role Center"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "departments, linking to Role Centers"
-  - "Role Centers, adding department links"
-  - "links, adding to Role Centers"
-ms.assetid: d7e7c71e-d73d-4792-8a35-bf44c97d4323
-caps.latest.revision: 12
-ms.author: "solsen"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Add Department Links to the Role Center
 Sometimes you may find a link on a **Departments** page that you want to add to your Role Center. The link can appear in one of the following menus:  
   
@@ -74,12 +49,12 @@ Sometimes you may find a link on a **Departments** page that you want to add to 
   
 3.  Confirm the message that appears.  
   
- The new link now appears in the menu to which you added it. However, you may want to move the link to another position in the menu. For example, if you added a link to the navigation pane, it will appear on the **Home** menu, but you can move it to another menu in the navigation pane. For more information, see [How to: Customize the Navigation Pane](../SetupAndAdministration/how-to-customize-the-navigation-pane.md).  
+ The new link now appears in the menu to which you added it. However, you may want to move the link to another position in the menu. For example, if you added a link to the navigation pane, it will appear on the **Home** menu, but you can move it to another menu in the navigation pane. For more information, see [How to: Customize the Navigation Pane](../FullExperience/how-to-customize-the-navigation-pane.md).  
   
 ## See Also  
- [\($ S\_PERSONALIZATION Personalize the User Interface $\)](../SetupAndAdministration/-$-s_personalization-personalize-the-user-interface-$-.md)   
- [\($ S\_DEPARTMENTS Departments $\)](../GettingStarted/-$-s_departments-departments-$-.md)   
- [How to: Customize the Navigation Pane](../SetupAndAdministration/how-to-customize-the-navigation-pane.md)   
- [Customize the User Interface](../SetupAndAdministration/customize-the-user-interface.md)   
- [Learn About the RoleTailored Design](../GettingStarted/learn-about-the-roletailored-design.md)   
- [Working with \($ P\_1 Product Name $\)](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)
+ PERSONALIZATION Personalize the User Interface   
+ DEPARTMENTS Departments   
+ [How to: Customize the Navigation Pane](../FullExperience/how-to-customize-the-navigation-pane.md)   
+ [Customize the User Interface](../FullExperience/customize-the-user-interface.md)   
+ [Learn About the RoleTailored Design](../FullExperience/learn-about-the-roletailored-design.md)   
+ [Working with Product Name](../FullExperience/working-with-$-p_1-product-name-$-.md)

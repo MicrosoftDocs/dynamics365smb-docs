@@ -1,28 +1,20 @@
 ---
-title: "How to: Enable the Change Log"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "change log, enabling"
-ms.assetid: e094b7d5-4382-4bff-8435-97a33fa72149
-caps.latest.revision: 11
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-de"
-  - "es-es"
-  - "fi-fi"
-  - "fr-fr"
-  - "it-it"
-  - "nb-no"
-  - "nl-nl"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Enable the Change Log
 A common problem in an administrative computer system is to locate the origin of errors and changes in data. It could be anything from an incorrect customer telephone number to an incorrect posting to the general ledger. The change log functionality lets you track all direct modifications a user makes to data in the database.  
   
@@ -32,41 +24,41 @@ A common problem in an administrative computer system is to locate the origin of
   
 1.  In the **Search** box, enter **Change Log Setup**, and then choose the related link.  
   
-2.  In the **\($ N\_592 Change Log Setup $\)** window, on the **Actions** tab, in the **Setup** group, choose **Tables**. The **\($ N\_593 Change Log Setup \(Table\) List $\)** window opens.  
+2.  In the **Change Log Setup** window, on the **Actions** tab, in the **Setup** group, choose **Tables**. The **Change Log Setup \(Table\) List** window opens.  
   
 3.  Fill in the fields for each line.  
   
 4.  Close the window.  
   
-5.  To activate the change log, in the **\($ N\_592 Change Log Setup $\)** window, select the **\($ T\_402\_2 Change Log Activated $\)** field. Close the window.  
+5.  To activate the change log, in the **Change Log Setup** window, select the **Change Log Activated** field. Close the window.  
   
- You must restart the [!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)] for the new change log settings to take effect.  
+ You must restart the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/nav_windows_md.md)]--> for the new change log settings to take effect.  
   
 > [!IMPORTANT]  
->  The change log cannot track all changes to BLOB fields. [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] tracks that the BLOB field gets set or cleared but cannot read if the field value changes.  
+>  The change log cannot track all changes to BLOB fields. ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> tracks that the BLOB field gets set or cleared but cannot read if the field value changes.  
   
- [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] always logs changes to the **\($ T\_402\_2 Change Log Activated $\)** field, which means that you are always able to see which user deactivated or reactivated the change log. This cannot be turned off.  
+ ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> always logs changes to the **Change Log Activated** field, which means that you are always able to see which user deactivated or reactivated the change log. This cannot be turned off.  
   
- [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] also always tracks the following system tables:  
+ ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> also always tracks the following system tables:  
   
--   **\($ T\_2000000053 Access Control $\)**  
+-   **Access Control**  
   
--   **\($ T\_402 Change Log Setup $\)**  
+-   **Change Log Setup**  
   
--   **\($ T\_403 Change Log Setup \(Table\) $\)**  
+-   **Change Log Setup \(Table\)**  
   
--   **\($ T\_404 Change Log Setup \(Field\) $\)**  
+-   **Change Log Setup \(Field\)**  
   
--   **\($ T\_2000000005 Permission $\)**  
+-   **Permission**  
   
--   **\($ T\_2000000004 Permission Set $\)**  
+-   **Permission Set**  
   
--   **\($ T\_2000000120 User $\)**  
+-   **User**  
   
--   **\($ T\_2000000121 User Property $\)**  
+-   **User Property**  
   
 ## See Also  
- [How to: View Change Log Entries](../SetupAndAdministration/how-to-view-change-log-entries.md)   
- [How to: Delete Change Log Entries](../SetupAndAdministration/how-to-delete-change-log-entries.md)   
- [How to: Print Change Log Entries](../SetupAndAdministration/how-to-print-change-log-entries.md)   
- [\($ T\_402\_2 Change Log Activated $\)](assetId:///be9a4292-1bcd-4ea1-b401-4e98acbb7f8e)
+ [How to: View Change Log Entries](../FullExperience/how-to-view-change-log-entries.md)   
+ [How to: Delete Change Log Entries](../FullExperience/how-to-delete-change-log-entries.md)   
+ [How to: Print Change Log Entries](../FullExperience/how-to-print-change-log-entries.md)   
+ Change Log Activated

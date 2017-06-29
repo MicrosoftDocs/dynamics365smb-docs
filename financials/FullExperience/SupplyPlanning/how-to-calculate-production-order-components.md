@@ -1,44 +1,20 @@
 ---
-title: "How to: Calculate Production Order Components"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "production orders, components"
-  - "consumption, calculating"
-ms.assetid: 8755ff91-a877-4a39-8df2-aaa58e6477d1
-caps.latest.revision: 11
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Calculate Production Order Components
 If you have amended production order lines, you must also refresh the components of the production order.  
   
@@ -56,7 +32,7 @@ If you have amended production order lines, you must also refresh the components
   
 4.  The following table describes the options available for this batch job.  
   
-    |[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)]|Selection|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../../includes/bp_tabledescription_md.md)]-->|  
     |----------------------------------|---------------|---------------------------------------|  
     |**Scheduling Direction**|**Forward**|This field has no effect on the outcome.|  
     ||**Backward**|This field has no effect on the outcome.|  
@@ -71,7 +47,7 @@ If you have amended production order lines, you must also refresh the components
 >  Calculating production order components deletes previous changes in the components.  
   
 ## See Also  
- [How to: Refresh Production Orders](../OperationsPlanning/how-to-refresh-production-orders.md)   
- [How to: Calculate Lines from Production Order Headers](../OperationsPlanning/how-to-calculate-lines-from-production-order-headers.md)   
- [How to: Calculate Production Order Routing Lines](../OperationsPlanning/how-to-calculate-production-order-routing-lines.md)   
- [How to: Use the Manufacturing Batch Unit of Measure](../DesignAndEngineering/how-to-use-the-manufacturing-batch-unit-of-measure.md)
+ [How to: Refresh Production Orders](../FullExperience/how-to-refresh-production-orders.md)   
+ [How to: Calculate Lines from Production Order Headers](../FullExperience/how-to-calculate-lines-from-production-order-headers.md)   
+ [How to: Calculate Production Order Routing Lines](../FullExperience/how-to-calculate-production-order-routing-lines.md)   
+ [How to: Use the Manufacturing Batch Unit of Measure](../FullExperience/how-to-use-the-manufacturing-batch-unit-of-measure.md)

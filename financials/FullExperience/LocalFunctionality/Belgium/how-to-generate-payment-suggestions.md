@@ -1,22 +1,20 @@
 ---
-title: "How to: Generate Payment Suggestions"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "payments, suggestions"
-  - "suggestions, for payments"
-  - "payment suggestions"
-ms.assetid: 6fb33873-73b9-4cf0-a4aa-48c10dd34e25
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "fr-be"
-  - "nl-be"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Generate Payment Suggestions
 After you have set up electronic banking, you can start generating payment suggestions. You can do this in the payment journal.  
   
@@ -26,9 +24,9 @@ After you have set up electronic banking, you can start generating payment sugge
   
 2.  Select the appropriate journal batch, and on the **Home** tab, in the **Progress** group, choose **Suggest Vendor Payments**.  
   
-3.  In the **\($ B\_2000019 Suggest Vendor Payments EB $\)**  window, on the **Options** FastTab, fill in the fields as described in the following table.  
+3.  In the **Suggest Vendor Payments EB**  window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_2000019\_F\_1\_3 Last Due Date $\)**|Enter the last due date that can appear on the vendor ledger entries to be included in the batch job.|  
     |**\($ B\_2000019\_F\_1\_5 Take Credit Memos $\)**|Select to include outstanding credit memos for vendors. The credit memos will be subtracted from the amount due. When selecting credit memos, the due date is not used.|  
@@ -44,9 +42,9 @@ After you have set up electronic banking, you can start generating payment sugge
      When the batch job is finished, the payment journal contains all vendor ledger entries that match the filters.  
   
 ## See Also  
- [Belgian Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/belgian-electronic-payments.md)   
- [How to: Set Up Vendors for Automatic Payment Suggestions](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-vendors-for-automatic-payment-suggestions.md)   
- [How to: Create Payment Journal Templates and Batches](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-create-payment-journal-templates-and-batches.md)   
- [How to: Test Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-test-electronic-payments.md)   
- [How to: Manage Electronic Payment Lines](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-manage-electronic-payment-lines.md)   
- [How to: Print Payment Files](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-print-payment-files.md)
+ [Belgian Electronic Payments](../FullExperience/belgian-electronic-payments.md)   
+ [How to: Set Up Vendors for Automatic Payment Suggestions](../FullExperience/how-to-set-up-vendors-for-automatic-payment-suggestions.md)   
+ [How to: Create Payment Journal Templates and Batches](../FullExperience/how-to-create-payment-journal-templates-and-batches.md)   
+ [How to: Test Electronic Payments](../FullExperience/how-to-test-electronic-payments.md)   
+ [How to: Manage Electronic Payment Lines](../FullExperience/how-to-manage-electronic-payment-lines.md)   
+ [How to: Print Payment Files](../FullExperience/how-to-print-payment-files.md)

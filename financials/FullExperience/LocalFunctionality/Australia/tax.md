@@ -1,20 +1,22 @@
 ---
-title: "Tax"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-ms.assetid: 4b6618e4-483b-4f1a-9382-a560628c0d7e
-caps.latest.revision: 2
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "en-au"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Tax
-[!INCLUDE[emptyBookNodeText](../../Finance/includes/emptybooknodetext_md.md)]  
+ADD INCLUDE<!--[!INCLUDE[emptyBookNodeText](../../includes/emptybooknodetext_md.md)]-->  
   
 ## See Also  
- [Australia Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/australia-local-functionality.md)
+ [Australia Local Functionality](../FullExperience/australia-local-functionality.md)

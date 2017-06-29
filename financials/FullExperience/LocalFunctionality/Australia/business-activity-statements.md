@@ -1,22 +1,20 @@
 ---
-title: "Business Activity Statements"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "Electronic Commerce Interface (ECI)"
-  - "Business Activity Statement (BAS), about"
-  - "BAS, about"
-ms.assetid: 798e1445-9777-4993-be38-7dbd5ec7b6c3
-caps.latest.revision: 29
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "en-au"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Business Activity Statements
 A Business Activity Statement \(BAS\) is a form that businesses must submit to the Australian Tax Office \(ATO\) on a monthly or quarterly basis. BAS reports both the total Goods and Services Tax \(GST\) collected from sales activities—which must be paid to the ATO—and the total GST paid on purchases – which is claimed as an input tax credit.  
   
@@ -41,8 +39,8 @@ A Business Activity Statement \(BAS\) is a form that businesses must submit to t
 7.  Update BAS with the receipt number received from the ATO.  
   
 ## See Also  
- [How to: Set Up Business Activity Statements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-set-up-business-activity-statements.md)   
- [How to: Export Business Activity Statements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-export-business-activity-statements.md)   
- [How to: Calculate Goods and Services Tax on Prepayments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-calculate-goods-and-services-tax-on-prepayments.md)   
- [How to: Print Goods and Services Tax Sales and Purchase Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-print-goods-and-services-tax-sales-and-purchase-reports.md)   
- [Australia Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/australia-local-functionality.md)
+ [How to: Set Up Business Activity Statements](../FullExperience/how-to-set-up-business-activity-statements.md)   
+ [How to: Export Business Activity Statements](../FullExperience/how-to-export-business-activity-statements.md)   
+ [How to: Calculate Goods and Services Tax on Prepayments](../FullExperience/how-to-calculate-goods-and-services-tax-on-prepayments.md)   
+ [How to: Print Goods and Services Tax Sales and Purchase Reports](../FullExperience/how-to-print-goods-and-services-tax-sales-and-purchase-reports.md)   
+ [Australia Local Functionality](../FullExperience/australia-local-functionality.md)

@@ -1,44 +1,20 @@
 ---
-title: "How to: Change Default Bins for Items"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "default bins, changing for items"
-  - "assigning, default bins"
-ms.assetid: 1792eed4-fbf0-4da3-967d-7903d270b95a
-caps.latest.revision: 7
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Change Default Bins for Items
 You may need to change the default bin assignment for an item or assign a default bin to a new item.  
   
@@ -56,7 +32,7 @@ You may need to change the default bin assignment for an item or assign a defaul
 >  When an item is put away for the first time, and the item does not have a default bin assigned, the system will assign the bin where the item is put away as the default bin for the item.  
   
 ## See Also  
- [\($ N\_7302 Bins $\)](../Topic/\($%20N_7302%20Bins%20$\).md)   
- [How to: Assign Default Bins to Items](../WarehouseActivities/how-to-assign-default-bins-to-items.md)   
- [\($ T\_14\_5734 Default Bin Selection $\)](../Topic/\($%20T_14_5734%20Default%20Bin%20Selection%20$\).md)   
- [How to: Set Up Locations to Use Bins](../WarehouseActivities/how-to-set-up-locations-to-use-bins.md)
+ Bins   
+ [How to: Assign Default Bins to Items](../FullExperience/how-to-assign-default-bins-to-items.md)   
+ Default Bin Selection   
+ [How to: Set Up Locations to Use Bins](../FullExperience/how-to-set-up-locations-to-use-bins.md)

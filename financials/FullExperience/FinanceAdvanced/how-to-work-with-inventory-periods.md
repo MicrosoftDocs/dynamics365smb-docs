@@ -1,30 +1,20 @@
 ---
-title: "How to: Work with Inventory Periods"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "inventory, periods"
-  - "periods for inventory"
-ms.assetid: e86f4bd4-7fde-477b-b9dc-a0a82241764b
-caps.latest.revision: 8
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-my"
-  - "en-nz"
-  - "en-ph"
-  - "en-sg"
-  - "en-zw"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Work with Inventory Periods
 Inventory periods define a period of time in which you can post changes to inventory. An inventory period is defined by the date on which it ends, or the ending date. When you close an inventory period, you cannot post any changes to inventory, either expected or invoiced, before this ending date. You cannot post any new values to inventory before the ending date. If you have open item entries in the closed period, meaning positive quantities that have not yet been applied to outbound transactions, you can still apply outbound quantities to these entries, even if the period is closed.  
   
@@ -40,7 +30,7 @@ Inventory periods define a period of time in which you can post changes to inven
   
 #### To create an inventory period  
   
-1.  In the **Search** box, enter **\($ N\_5828 Inventory Periods $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Inventory Periods**, and then choose the related link.  
   
 2.  Create a new line.  
   
@@ -71,7 +61,7 @@ Inventory periods define a period of time in which you can post changes to inven
   
 3.  On the **Actions** tab, in the **Functions** group, choose **Post Inventory to G\/L**.  
   
-4.  In the    **\($ N\_5828 Inventory Periods $\)** window, select the inventory period you would like to close.  
+4.  In the    **Inventory Periods** window, select the inventory period you would like to close.  
   
 5.  On the **Actions** tab, in the **Functions** group, choose **Close Period**. After the inventory period has been closed, you cannot post inventory changes before the ending date. The cost of all items must be adjusted with the **Adjust Cost – Item Entries** batch job before you close the inventory period.  
   
@@ -84,7 +74,7 @@ Inventory periods define a period of time in which you can post changes to inven
   
 #### To reopen an inventory period  
   
-1.  In the **Search** box, enter **\($ N\_5828 Inventory Periods $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Inventory Periods**, and then choose the related link.  
   
 2.  Select the inventory period you would like to reopen.  
   
@@ -93,5 +83,5 @@ Inventory periods define a period of time in which you can post changes to inven
 4.  All inventory periods with ending dates later than the period you selected are reopened.  
   
 ## See Also  
- [\($ N\_5828 Inventory Periods $\)](../Topic/\($%20N_5828%20Inventory%20Periods%20$\).md)   
- [Design Details: Inventory Periods](../ApplicationDesign/design-details-inventory-periods.md)
+ Inventory Periods   
+ [Design Details: Inventory Periods](../FullExperience/design-details-inventory-periods.md)

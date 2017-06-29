@@ -1,22 +1,20 @@
 ---
-title: "How to: Export Balance Information by Using GIFI Codes"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "GIFI codes, exporting balances"
-  - "exporting, balances using GIFI codes"
-ms.assetid: 4f4cda59-a831-4c67-bc4b-9452ec2a7b97
-caps.latest.revision: 15
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "en-ca"
-  - "fr-ca"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Export Balance Information by Using GIFI Codes
 You can export balance information using General Index of Financial Information \(GIFI\) codes and save the exported file in a Microsoft Excel workbook. You can modify, save, or delete the file. You can use the file to transfer information to your tax preparation software.  
   
@@ -26,7 +24,7 @@ You can export balance information using General Index of Financial Information 
   
 2.  In the **Export GIFI Info. to Excel** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_10005\_F\_1\_1020000 Balance As of Date $\)**|The balance as of the specified date.|  
     |**\($ B\_10005\_F\_1\_1020006 Use Add. Rpt. Currency $\)**|Select to display the amounts in additional reporting currency.|  
@@ -40,10 +38,10 @@ You can export balance information using General Index of Financial Information 
      In the Excel file, the balance is rounded to the nearest percentage, but the cell value maintains the same percentage as it does in the general ledger.  
   
 ## See Also  
- [\($ T\_10015 GIFI Code $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-t_10015-gifi-code-$-.md)   
- [GIFI Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/gifi-codes.md)   
- [\($ R\_10004 Account Balances by GIFI Code $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-r_10004-account-balances-by-gifi-code-$-.md)   
- [\($ B\_10005 Export GIFI Info. to Excel $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-b_10005-export-gifi-info.-to-excel-$-.md)   
- [How to: Set Up GIFI Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-set-up-gifi-codes.md)   
- [How to: View Account Balances by Using the GIFI Code Report](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-view-account-balances-by-using-the-gifi-code-report.md)   
- [How to: Associate GIFI Codes with Chart of Accounts](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-associate-gifi-codes-with-chart-of-accounts.md)
+ GIFI Code   
+ [GIFI Codes](../FullExperience/gifi-codes.md)   
+ Account Balances by GIFI Code   
+ Export GIFI Info. to Excel   
+ [How to: Set Up GIFI Codes](../FullExperience/how-to-set-up-gifi-codes.md)   
+ [How to: View Account Balances by Using the GIFI Code Report](../FullExperience/how-to-view-account-balances-by-using-the-gifi-code-report.md)   
+ [How to: Associate GIFI Codes with Chart of Accounts](../FullExperience/how-to-associate-gifi-codes-with-chart-of-accounts.md)

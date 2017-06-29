@@ -1,46 +1,20 @@
 ---
-title: "How to: Select from Existing Serial Numbers and Lot Numbers"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "sales orders, selecting numbers"
-  - "lot numbers, selecting"
-  - "serial numbers, selecting"
-  - "item tracking, selecting existing"
-ms.assetid: eba02151-3e37-4369-9245-d06de42afb59
-caps.latest.revision: 6
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Select from Existing Serial Numbers and Lot Numbers
 When you are working with items that require item tracking and you are creating outbound transactions, where the items go out of inventory, you typically need to select the lot or serial numbers from those that already exist in inventory.  
   
@@ -53,7 +27,7 @@ When you are working with items that require item tracking and you are creating 
   
 1.  From any outbound document, select the line that you want to select serial or lot numbers for.  
   
-2.  On the **Lines** FastTab, choose **Actions**![Action Menu icon](../DesignAndEngineering/media/actionmenuicon.png "actionMenuIcon"), choose **Line** or **Item**, and then choose **Item Tracking Lines**.  
+2.  On the **Lines** FastTab, choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Line** or **Item**, and then choose **Item Tracking Lines**.  
   
 3.  In the **Item Tracking Lines** window, you have three options for specifying lot or serial number:  
   
@@ -69,6 +43,6 @@ When you are working with items that require item tracking and you are creating 
  When you post the document line, the the item tracking information is transfered to the associated item ledger entries.  
   
 ## See Also  
- [Item Tracking Availability](../DesignAndEngineering/item-tracking-availability.md)   
- [How to: Assign Serial Numbers and Lot Numbers During Outbound Transactions](../WarehouseActivities/how-to-assign-serial-numbers-and-lot-numbers-during-outbound-transactions.md)   
- [\($ N\_6520 Item Tracing $\)](../Topic/\($%20N_6520%20Item%20Tracing%20$\).md)
+ [Item Tracking Availability](../FullExperience/item-tracking-availability.md)   
+ [How to: Assign Serial Numbers and Lot Numbers During Outbound Transactions](../FullExperience/how-to-assign-serial-numbers-and-lot-numbers-during-outbound-transactions.md)   
+ Item Tracing

@@ -1,52 +1,26 @@
 ---
-title: "How to: Refresh Planning Demands"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "planning, demand"
-  - "demand, refreshing"
-  - "worksheets, refreshing planning demand"
-  - "production orders, refreshing"
-ms.assetid: d0ebd34e-c034-4d44-887b-1afada5350f5
-caps.latest.revision: 10
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Refresh Planning Demands
 You can use the **Refresh Planning Demand** batch job to refresh the planning components and the routing lines for the current planning line.  
   
 ### To refresh planning demands  
   
-1.  In the **Search** box, enter **\($ N\_99000852 Planning Worksheet $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Planning Worksheet**, and then choose the related link.  
   
 2.  In the **Planning Worksheet** window, select the line you want to refresh.  
   
@@ -64,6 +38,6 @@ You can use the **Refresh Planning Demand** batch job to refresh the planning co
 6.  Choose the **OK** button to confirm your selections.  
   
 ## See Also  
- [How to: Plan for New Demand](../OperationsPlanning/how-to-plan-for-new-demand.md)   
- [How to: Replan Production Orders](../OperationsPlanning/how-to-replan-production-orders.md)   
- [How to: Run MPS and MRP](../OperationsPlanning/how-to-run-mps-and-mrp.md)
+ [How to: Plan for New Demand](../FullExperience/how-to-plan-for-new-demand.md)   
+ [How to: Replan Production Orders](../FullExperience/how-to-replan-production-orders.md)   
+ [How to: Run MPS and MRP](../FullExperience/how-to-run-mps-and-mrp.md)

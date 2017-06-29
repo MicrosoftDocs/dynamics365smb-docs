@@ -1,47 +1,20 @@
 ---
-title: "How to: Assign Cause of Inactivity Codes to Employees"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "employees, inactivity causes"
-  - "codes (human resources), inactivity"
-  - "employees, assigning employment codes"
-  - "inactive employees"
-  - "codes, inactivity causes"
-ms.assetid: 0e411d41-b176-4104-9b30-fcae72d2f8e7
-caps.latest.revision: 6
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Assign Cause of Inactivity Codes to Employees
 You can use cause of inactivity codes to define various reasons for employee inactivity.  
   
@@ -58,5 +31,5 @@ You can use cause of inactivity codes to define various reasons for employee ina
  Repeat the procedure for all employees that are inactive.  
   
 ## See Also  
- [How to: Assign Grounds for Termination Codes to Employees](../HumanResources/how-to-assign-grounds-for-termination-codes-to-employees.md)   
- [How to: Register Employee Absences](../HumanResources/how-to-register-employee-absences.md)
+ [How to: Assign Grounds for Termination Codes to Employees](../FullExperience/how-to-assign-grounds-for-termination-codes-to-employees.md)   
+ [How to: Register Employee Absences](../FullExperience/how-to-register-employee-absences.md)

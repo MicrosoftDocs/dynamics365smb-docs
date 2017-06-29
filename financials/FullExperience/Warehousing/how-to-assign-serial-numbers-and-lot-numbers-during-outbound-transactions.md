@@ -1,39 +1,35 @@
 ---
-title: "How to: Assign Serial Numbers and Lot Numbers During Outbound Transactions"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "sales orders, handling numbers"
-  - "serial numbers, handling in inbound transactions"
-  - "item tracking, handling in inbound transactions"
-  - "sales orders, selecting numbers"
-  - "lot numbers, handling in inbound transactions"
-ms.assetid: 77f9eb04-6acc-416c-b842-0a3e53ae788b
-caps.latest.revision: 7
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Assign Serial Numbers and Lot Numbers During Outbound Transactions
 You can add serial numbers and lot numbers to any outbound document, and its posted item tracking entries are displayed in the related item ledger entries. There are two ways to add serial and lot numbers to outbound transactions:  
   
--   Selecting from existing serial or lot numbers. This applies when item tracking numbers have already been assigned during an inbound transaction. For more information, see [How to: Select from Existing Serial Numbers and Lot Numbers](../DesignAndEngineering/how-to-select-from-existing-serial-numbers-and-lot-numbers.md).  
+-   Selecting from existing serial or lot numbers. This applies when item tracking numbers have already been assigned during an inbound transaction. For more information, see [How to: Select from Existing Serial Numbers and Lot Numbers](../FullExperience/how-to-select-from-existing-serial-numbers-and-lot-numbers.md).  
   
 -   Assigning new serial or lot numbers during outbound transactions. This applies when item tracking numbers are not assigned to items until they are sold and ready to be shipped.  
   
- The different rules for item tracking numbers are set up in the **\($ N\_6512 Item Tracking Code Card $\)** window.  
+ The different rules for item tracking numbers are set up in the **Item Tracking Code Card** window.  
   
 > [!NOTE]  
->  To assign item tracking numbers in warehouse activities, the **\($ T\_6502\_15 SN Warehouse Tracking $\)** and **\($ T\_6502\_45 Lot Warehouse Tracking $\)** check boxes must be selected on the item’s item tracking code card.  
+>  To assign item tracking numbers in warehouse activities, the **SN Warehouse Tracking** and **Lot Warehouse Tracking** check boxes must be selected on the item’s item tracking code card.  
   
 ### To assign a serial or lot number during outbound transaction  
   
-1.  Select the relevant document and, on the **Lines** FastTab, choose **Actions**![Action Menu icon](../DesignAndEngineering/media/actionmenuicon.png "actionMenuIcon"), choose **Order**, and then choose **Item Tracking Lines**.  
+1.  Select the relevant document and, on the **Lines** FastTab, choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Order**, and then choose **Item Tracking Lines**.  
   
      You can assign item tracking numbers in the following ways:  
   
@@ -56,7 +52,7 @@ You can add serial numbers and lot numbers to any outbound document, and its pos
  When the document is posted, the item tracking entries are carried to the associated item ledger entries.  
   
 ## See Also  
- [\($ N\_6512 Item Tracking Code Card $\)](../Topic/\($%20N_6512%20Item%20Tracking%20Code%20Card%20$\).md)   
- [\($ T\_6502\_15 SN Warehouse Tracking $\)](../Topic/\($%20T_6502_15%20SN%20Warehouse%20Tracking%20$\).md)   
- [\($ T\_6502\_45 Lot Warehouse Tracking $\)](../Topic/\($%20T_6502_45%20Lot%20Warehouse%20Tracking%20$\).md)   
- [How to: Select from Existing Serial Numbers and Lot Numbers](../DesignAndEngineering/how-to-select-from-existing-serial-numbers-and-lot-numbers.md)
+ Item Tracking Code Card   
+ SN Warehouse Tracking   
+ Lot Warehouse Tracking   
+ [How to: Select from Existing Serial Numbers and Lot Numbers](../FullExperience/how-to-select-from-existing-serial-numbers-and-lot-numbers.md)

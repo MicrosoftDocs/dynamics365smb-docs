@@ -1,24 +1,20 @@
 ---
-title: "Delivery Reminders"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "delivery reminders, about"
-  - "reminders, for delivery"
-ms.assetid: 9329a36c-8def-4179-8812-985a31d2a284
-caps.latest.revision: 28
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "fr-ch"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Delivery Reminders
 Delivery reminders are used to track overdue vendor shipments, and to remind vendors about overdue deliveries. To create delivery reminders, you must set up the following:  
   
@@ -34,29 +30,29 @@ Delivery reminders are used to track overdue vendor shipments, and to remind ven
   
      You must set up delivery reminder text messages for every delivery reminder level. There are two types of delivery reminder text messages: beginning and ending. The beginning text message is printed under the header section, before the list of entries that are marked for reminder. The ending text message is printed after this list.  
   
- For more information, see [How to: Set Up Delivery Reminder Terms, Levels, and Text](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-set-up-delivery-reminder-terms-levels-and-text.md).  
+ For more information, see [How to: Set Up Delivery Reminder Terms, Levels, and Text](../FullExperience/how-to-set-up-delivery-reminder-terms-levels-and-text.md).  
   
- After you have set up the delivery terms, you must assign the delivery reminder term codes to vendors. For more information, see [How to: Assign Delivery Reminder Codes to Vendors](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-assign-delivery-reminder-codes-to-vendors.md).  
+ After you have set up the delivery terms, you must assign the delivery reminder term codes to vendors. For more information, see [How to: Assign Delivery Reminder Codes to Vendors](../FullExperience/how-to-assign-delivery-reminder-codes-to-vendors.md).  
   
- You can create delivery reminders manually or automatically. You can use the **Create Delivery Reminder** batch job to create delivery reminders automatically. This batch job allows you to select the purchase orders for which delivery reminders must be created. For more information, see [How to: Generate Delivery Reminders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-generate-delivery-reminders.md). You can issue delivery reminders. When you issue a delivery reminder, delivery reminder ledger entries are created. For more information, see [How to: Issue Delivery Reminders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-issue-delivery-reminders.md).  
+ You can create delivery reminders manually or automatically. You can use the **Create Delivery Reminder** batch job to create delivery reminders automatically. This batch job allows you to select the purchase orders for which delivery reminders must be created. For more information, see [How to: Generate Delivery Reminders](../FullExperience/how-to-issue-delivery-reminders.md).  
   
  You can also track documents in relation to purchase order lines and sales order lines.  
   
- [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] provides the following reports:  
+ ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> provides the following reports:  
   
  **Issued Delivery Reminder**  
  To view the delivery reminders for vendors.  
   
- **Delivery Reminder \- Test**  
+ **Delivery Reminder - Test**  
  To verify the delivery reminders before you issue them.  
   
- For more information, see [How to: Print Test Reports for Delivery Reminders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-print-test-reports-for-delivery-reminders.md).  
+ For more information, see [How to: Print Test Reports for Delivery Reminders](../FullExperience/how-to-print-test-reports-for-delivery-reminders.md).  
   
 ## See Also  
- [How to: Set Up Delivery Reminders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-set-up-delivery-reminders.md)   
- [How to: Set Up Delivery Reminder Terms, Levels, and Text](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-set-up-delivery-reminder-terms-levels-and-text.md)   
- [How to: Assign Delivery Reminder Codes to Vendors](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-assign-delivery-reminder-codes-to-vendors.md)   
- [How to: Generate Delivery Reminders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-generate-delivery-reminders.md)   
- [How to: Create Delivery Reminders Manually](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-create-delivery-reminders-manually.md)   
- [How to: Issue Delivery Reminders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-issue-delivery-reminders.md)   
- [How to: Print Test Reports for Delivery Reminders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-print-test-reports-for-delivery-reminders.md)
+ [How to: Set Up Delivery Reminders](../FullExperience/how-to-set-up-delivery-reminders.md)   
+ [How to: Set Up Delivery Reminder Terms, Levels, and Text](../FullExperience/how-to-set-up-delivery-reminder-terms-levels-and-text.md)   
+ [How to: Assign Delivery Reminder Codes to Vendors](../FullExperience/how-to-assign-delivery-reminder-codes-to-vendors.md)   
+ [How to: Generate Delivery Reminders](../FullExperience/how-to-generate-delivery-reminders.md)   
+ [How to: Create Delivery Reminders Manually](../FullExperience/how-to-create-delivery-reminders-manually.md)   
+ [How to: Issue Delivery Reminders](../FullExperience/how-to-issue-delivery-reminders.md)   
+ [How to: Print Test Reports for Delivery Reminders](../FullExperience/how-to-print-test-reports-for-delivery-reminders.md)

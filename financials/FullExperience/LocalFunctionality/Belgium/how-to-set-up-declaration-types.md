@@ -1,23 +1,22 @@
 ---
-title: "How to: Set Up Declaration Types"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "declarations, types"
-  - "declarations, in Belgium"
-ms.assetid: 92d964bd-e8a1-46c2-b5b8-99988c3054f1
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "fr-be"
-  - "nl-be"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up Declaration Types
-In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], there are two types of declaration:  
+In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, there are two types of declaration:  
   
 -   Simplified declaration  
   
@@ -31,13 +30,13 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], there are 
   
 1.  In the **Search** box, enter **General Ledger Setup**, and then choose the related link.  
   
-2.  On the **General** FastTab, select the **\($ T\_98\_11320 Simplified Intrastat Decl. $\)** check box to set up a simplified declaration type. Clear this field to use extended declaration.  
+2.  On the **General** FastTab, select the **Simplified Intrastat Decl.** check box to set up a simplified declaration type. Clear this field to use extended declaration.  
   
 3.  Choose the **OK** button.  
   
 ## See Also  
- [Belgian Intrastat Reporting](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/belgian-intrastat-reporting.md)   
- [How to: Set Up Belgian Tariff Numbers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-belgian-tariff-numbers.md)   
- [How to: Set Up Intrastat Establishment Numbers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-intrastat-establishment-numbers.md)   
- [How to: Export Intrastat Third\-Party Declararations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-export-intrastat-third-party-declararations.md)   
- [How to: Print the Intrastat Form Report](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-print-the-intrastat-form-report.md)
+ [Belgian Intrastat Reporting](../FullExperience/belgian-intrastat-reporting.md)   
+ [How to: Set Up Belgian Tariff Numbers](../FullExperience/how-to-set-up-belgian-tariff-numbers.md)   
+ [How to: Set Up Intrastat Establishment Numbers](../FullExperience/how-to-set-up-intrastat-establishment-numbers.md)   
+ [How to: Export Intrastat Third-Party Declararations](../FullExperience/how-to-export-intrastat-third-party-declararations.md)   
+ [How to: Print the Intrastat Form Report](../FullExperience/how-to-print-the-intrastat-form-report.md)

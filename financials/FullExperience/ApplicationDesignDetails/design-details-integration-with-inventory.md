@@ -1,44 +1,20 @@
 ---
-title: "Design Details: Integration with Inventory"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "inventory, integrating with warehouse management"
-  - "warehouse management, integrating with inventory"
-ms.assetid: 4261e7ee-80b1-4d5f-b5c0-9e018eb39542
-caps.latest.revision: 5
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Design Details: Integration with Inventory
 The Warehouse Management application area and the Inventory application area interact with one another in physical inventory and in inventory or warehouse adjustment.  
   
@@ -68,5 +44,5 @@ The Warehouse Management application area and the Inventory application area int
  If you enter a positive quantity and post the line, then the inventory stored in the bin increases, and the quantity of the default adjustment bin decreases correspondingly.  
   
 ## See Also  
- [Design Details: Warehouse Management](../ApplicationDesign/design-details-warehouse-management.md)   
- [Design Details: Availability in the Warehouse](../ApplicationDesign/design-details-availability-in-the-warehouse.md)
+ [Design Details: Warehouse Management](../FullExperience/design-details-warehouse-management.md)   
+ [Design Details: Availability in the Warehouse](../FullExperience/design-details-availability-in-the-warehouse.md)

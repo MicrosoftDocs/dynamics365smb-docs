@@ -1,49 +1,25 @@
 ---
-title: "Service Management Setup"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "warranties, defaults"
-  - "service management, setting up"
-ms.assetid: 8fe7b905-7e27-4689-9453-bbbaffa0be96
-caps.latest.revision: 6
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Service Management Setup
 In the **Service Mgt. Setup** window, you can decide how you want certain aspects of the Service application area to be managed.  
   
 ## General FastTab  
- Use this FastTab to control various features that can help you manage your services. You can set up automatic email warnings for response times that you define for your service orders. You can use service zones and resource skills for managing planning, multi\-dimensional fault reporting for service items, define whether you assign one or more service items to a service order, whether [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] copies comments from a service order to the correspondent service shipment and invoice, and so on.  
+ Use this FastTab to control various features that can help you manage your services. You can set up automatic email warnings for response times that you define for your service orders. You can use service zones and resource skills for managing planning, multi-dimensional fault reporting for service items, define whether you assign one or more service items to a service order, whether ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> copies comments from a service order to the correspondent service shipment and invoice, and so on.  
   
 ## Mandatory Fields FastTab  
  Use this FastTab to help you get the information that you require for your service transactions, such as starting and finishing dates for service orders, fault reason codes, and salespersons.  
@@ -58,4 +34,4 @@ In the **Service Mgt. Setup** window, you can decide how you want certain aspect
  Use this FastTab to set up a number series for service items, service orders, service contracts, service contract templates, troubleshooting, service invoices and service credit memos \(both posted and unposted\), posted service shipments, in addition to prepaid documents and loaners. Depending on your set up specification, the next available number is automatically entered or you can enable manual numbering according to the setup of each number series.  
   
 ## See Also  
- [\($ N\_5919 Service Mgt. Setup $\)](../Topic/\($%20N_5919%20Service%20Mgt.%20Setup%20$\).md)
+ Service Mgt. Setup

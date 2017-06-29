@@ -1,47 +1,20 @@
 ---
-title: "How to: Change Exchange Rates When You Post"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "exchange rates, changing when posting"
-ms.assetid: 2fbac398-486b-43ab-9639-e2516c137a26
-caps.latest.revision: 8
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-my"
-  - "en-nz"
-  - "en-ph"
-  - "en-sg"
-  - "en-zw"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Change Exchange Rates When You Post
 You can change the exchange rate on existing journal lines or sales and purchase documents \(blanket orders, orders, invoices, and credit memos\) before posting. Before you can change exchange rates, you must set up currency codes and exchange rates.  
   
@@ -58,6 +31,6 @@ You can change the exchange rate on existing journal lines or sales and purchase
  When you post, the amounts are converted to LCY according to the new exchange rate.  
   
 ## See Also  
- [About Using Additional Reporting Currencies](../Finance/about-using-additional-reporting-currencies.md)   
- [How to: Set Up the Additional Reporting Currency](../Finance/how-to-set-up-the-additional-reporting-currency.md)   
- [How to: Adjust Currency Exchange Rates](../Finance/how-to-adjust-currency-exchange-rates.md)
+ [About Using Additional Reporting Currencies](../FullExperience/about-using-additional-reporting-currencies.md)   
+ [How to: Set Up the Additional Reporting Currency](../FullExperience/how-to-set-up-the-additional-reporting-currency.md)   
+ [How to: Adjust Currency Exchange Rates](../FullExperience/how-to-adjust-currency-exchange-rates.md)

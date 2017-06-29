@@ -1,27 +1,26 @@
 ---
-title: "How to: Post the Year-End Closing Entry"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "year-end processes, posting closing entries"
-  - "posting, year-end closing entries"
-ms.assetid: 03239a39-d5de-4bac-8848-3ac59b2155ae
-caps.latest.revision: 7
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "fr-fr"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Post the Year-End Closing Entry
-After you use the **\($ B\_94 Close Income Statement $\)** batch job to generate the year\-end closing entry or entries, you must open the journal you specified in the batch job, and then review and post the entries.  
+After you use the **Close Income Statement** batch job to generate the year-end closing entry or entries, you must open the journal you specified in the batch job, and then review and post the entries.  
   
-### To post the year\-end closing entry  
+### To post the year-end closing entry  
   
-1.  In the **Search** box, enter **\($ N\_39 General Journal $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **General Journal**, and then choose the related link.  
   
 2.  Review the entries.  
   
@@ -34,7 +33,7 @@ After you use the **\($ B\_94 Close Income Statement $\)** batch job to generate
  Once posted, an entry is posted to each income statement account so that its balance becomes zero and the year's result is transferred to the balance sheet.  
   
 ## See Also  
- [Year End Processes Overview](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/year-end-processes-overview.md)   
- [How to: Close Years](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-close-years.md)   
- [How to: Fiscally Close Years](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-fiscally-close-years.md)   
- [\($ B\_94 Close Income Statement $\)](../../Finance/-$-b_94-close-income-statement-$-.md)
+ [Year End Processes Overview](../FullExperience/year-end-processes-overview.md)   
+ [How to: Close Years](../FullExperience/how-to-close-years.md)   
+ [How to: Fiscally Close Years](../FullExperience/how-to-fiscally-close-years.md)   
+ Close Income Statement

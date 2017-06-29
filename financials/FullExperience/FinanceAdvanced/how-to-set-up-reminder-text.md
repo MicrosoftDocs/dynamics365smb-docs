@@ -1,50 +1,26 @@
 ---
-title: "How to: Set Up Reminder Text"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "reminders, setting up"
-  - "overdue, setting up reminder text"
-ms.assetid: dd990c04-4240-449b-ad1a-258ffd9154bd
-caps.latest.revision: 10
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up Reminder Text
 For each reminder level, you can specify text that will be printed before or after the entries on the reminder.  
   
 ### To set up a reminder text  
   
-1.  In the **Search** box, enter **\($ N\_431 Reminder Terms $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Reminder Terms**, and then choose the related link.  
   
 2.  In the **Reminder Terms** window, on the **Actions** tab, in the **General** group, choose **Levels**.  
   
@@ -71,10 +47,10 @@ For each reminder level, you can specify text that will be printed before or aft
     |%11|The company name|  
     |%12|Content of the **Add. Fee per Line** field on the reminder header|  
   
-     For example, if you write **You owe %7 %9 due on %2.**, then the resulting reminder will contain the following text: **You owe 1.200,50 LCY due on 02\-02\-2014.**.  
+     For example, if you write **You owe %7 %9 due on %2.**, then the resulting reminder will contain the following text: **You owe 1.200,50 LCY due on 02-02-2014.**.  
   
 ## See Also  
- [How to: Create Reminders Automatically](../Finance/how-to-create-reminders-automatically.md)   
- [How to: Create Reminders Manually](../Finance/how-to-create-reminders-manually.md)   
- [How to: Set Up Reminder Levels](../Finance/how-to-set-up-reminder-levels.md)   
- [How to: Set Up Reminder Terms](../Finance/how-to-set-up-reminder-terms.md)
+ [How to: Create Reminders Automatically](../FullExperience/how-to-create-reminders-automatically.md)   
+ [How to: Create Reminders Manually](../FullExperience/how-to-create-reminders-manually.md)   
+ [How to: Set Up Reminder Levels](../FullExperience/how-to-set-up-reminder-levels.md)   
+ [How to: Set Up Reminder Terms](../FullExperience/how-to-set-up-reminder-terms.md)

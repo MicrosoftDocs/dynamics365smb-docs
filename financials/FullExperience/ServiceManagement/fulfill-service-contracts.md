@@ -1,45 +1,22 @@
 ---
-title: "Fulfill Service Contracts"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "service management, creating service contracts"
-ms.assetid: 81a484dd-8596-402a-ac56-6d319e28fc7e
-caps.latest.revision: 6
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Fulfill Service Contracts
-[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] includes features to make setting up ongoing service contracts easy. You can set up contract templates, which you can then use to create standardized contracts for your business. In addition, you can set up a system to create quotes for service and to turn those quotes into contracts.  
+ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> includes features to make setting up ongoing service contracts easy. You can set up contract templates, which you can then use to create standardized contracts for your business. In addition, you can set up a system to create quotes for service and to turn those quotes into contracts.  
   
  As part of your business processes, you may also want to monitor your contracts and update and evaluate them. You can set up a system to keep track of contract status, and view how gain and loss information about your contracts is being posted.  
   
@@ -47,11 +24,11 @@ translation.priority.ht:
   
 |**To**|**See**|  
 |------------|-------------|  
-|Learn about the **Service Contracts** window and set up contracts, customer templates, and a system for managing service quotes.|[Develop and Establish Contracts](../Service/develop-and-establish-contracts.md)|  
-|Create service contract quotes and convert a quote into a service contract.|[Monitor and Implement Contracts](../Service/monitor-and-implement-contracts.md)|  
-|Update the terms of a contract and track profit and loss.|[Update and Evaluate Contracts](../Service/update-and-evaluate-contracts.md)|  
+|Learn about the **Service Contracts** window and set up contracts, customer templates, and a system for managing service quotes.|[Develop and Establish Contracts](../FullExperience/develop-and-establish-contracts.md)|  
+|Create service contract quotes and convert a quote into a service contract.|[Monitor and Implement Contracts](../FullExperience/monitor-and-implement-contracts.md)|  
+|Update the terms of a contract and track profit and loss.|[Update and Evaluate Contracts](../FullExperience/update-and-evaluate-contracts.md)|  
   
 ## See Also  
- [\($ T\_5966 Contract Group $\)](../Topic/\($%20T_5966%20Contract%20Group%20$\).md)   
- [\($ T\_5968 Service Contract Template $\)](../Topic/\($%20T_5968%20Service%20Contract%20Template%20$\).md)   
- [Working with \($ P\_1 Product Name $\)](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)
+ Contract Group   
+ Service Contract Template   
+ [Working with Product Name](../FullExperience/working-with-$-p_1-product-name-$-.md)

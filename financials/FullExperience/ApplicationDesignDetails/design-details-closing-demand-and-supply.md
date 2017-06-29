@@ -1,43 +1,20 @@
 ---
-title: "Design Details: Closing Demand and Supply"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "demand, closing"
-ms.assetid: 45f8528b-2597-4e0d-97b7-52ddc2ca9ef5
-caps.latest.revision: 5
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Design Details: Closing Demand and Supply
 When the supply balancing procedures have been performed, there are three possible end situations:  
   
@@ -63,6 +40,6 @@ When the supply balancing procedures have been performed, there are three possib
  This concludes the descriptions of how demand and supply is loaded, prioritized, and balanced by the planning system. In integration with this supply planning activity, the system must ensure that the required inventory level of each planned item is maintained according to its reordering policies.  
   
 ## See Also  
- [Design Details: Balancing Demand and Supply](../ApplicationDesign/design-details-balancing-demand-and-supply.md)   
- [Design Details: Central Concepts of the Planning System](../ApplicationDesign/design-details-central-concepts-of-the-planning-system.md)   
- [Design Details: Supply Planning](../ApplicationDesign/design-details-supply-planning.md)
+ [Design Details: Balancing Demand and Supply](../FullExperience/design-details-balancing-demand-and-supply.md)   
+ [Design Details: Central Concepts of the Planning System](../FullExperience/design-details-central-concepts-of-the-planning-system.md)   
+ [Design Details: Supply Planning](../FullExperience/design-details-supply-planning.md)

@@ -1,48 +1,20 @@
 ---
-title: "Report Intrastat"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "Intrastat, about reporting"
-  - "Intrastat, reporting"
-ms.assetid: 78441829-7acf-47b1-8d3d-534c7dd739f4
-caps.latest.revision: 3
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-my"
-  - "en-nz"
-  - "en-ph"
-  - "en-sg"
-  - "en-zw"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Report Intrastat
 Companies in the European Union \(EU\) must report the extent of their trade with other EU countries\/regions according to specific rules. Companies in the EU report the movement of goods to the Intrastat authorities in their respective countries\/regions.  
   
@@ -56,11 +28,11 @@ Companies in the European Union \(EU\) must report the extent of their trade wit
   
 |**To**|**See**|  
 |------------|-------------|  
-|Use a batch job to suggest lines in an Intrastat journal, and fill in missing information manually.|[How to: Fill In Intrastat Journals](../Finance/how-to-fill-in-intrastat-journals.md)|  
-|Print a report with the information that you need to fill in the Intrastat form.|[How to: Report Intrastat on Forms](../Finance/how-to-report-intrastat-on-forms.md)|  
-|Print a report containing the information that will be included on the Intrastat disk.|[How to: Print Checklist Reports](../Finance/how-to-print-checklist-reports.md)|  
-|Export a file containing the Intrastat report.|[How to: Report Intrastat on a Disk](../Finance/how-to-report-intrastat-on-a-disk.md)|  
-|Delete journal batches that you no longer need.|[How to: Reorganize Intrastat Journals](../Finance/how-to-reorganize-intrastat-journals.md)|  
+|Use a batch job to suggest lines in an Intrastat journal, and fill in missing information manually.|[How to: Fill In Intrastat Journals](../FullExperience/how-to-fill-in-intrastat-journals.md)|  
+|Print a report with the information that you need to fill in the Intrastat form.|[How to: Report Intrastat on Forms](../FullExperience/how-to-report-intrastat-on-forms.md)|  
+|Print a report containing the information that will be included on the Intrastat disk.|[How to: Print Checklist Reports](../FullExperience/how-to-print-checklist-reports.md)|  
+|Export a file containing the Intrastat report.|[How to: Report Intrastat on a Disk](../FullExperience/how-to-report-intrastat-on-a-disk.md)|  
+|Delete journal batches that you no longer need.|[How to: Reorganize Intrastat Journals](../FullExperience/how-to-reorganize-intrastat-journals.md)|  
   
 ## See Also  
- [Set Up Intrastat](../Finance/set-up-intrastat.md)
+ [Set Up Intrastat](../FullExperience/set-up-intrastat.md)

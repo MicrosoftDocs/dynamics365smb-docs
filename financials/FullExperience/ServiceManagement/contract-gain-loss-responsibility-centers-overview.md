@@ -1,43 +1,20 @@
 ---
-title: "Contract Gain-Loss (Responsibility Centers)  Overview"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "service contracts, gain/loss by responsibility center"
-ms.assetid: cfd0a5dc-1d47-43fb-9fe3-fe6438971e42
-caps.latest.revision: 5
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Contract Gain-Loss (Responsibility Centers)  Overview
 The **Contract Gain\/Loss \(Responsibility Centers\)** matrix shows a scrollable summary of contract gain\/loss entries, based on responsibility centers.  
   
@@ -59,4 +36,4 @@ The **Contract Gain\/Loss \(Responsibility Centers\)** matrix shows a scrollable
 >  If you have set the time interval to **Day** and you want to scroll over a long period, you can do it faster by shifting to a larger interval such as **Quarter**. When you have found the desired period, you can shift back to the original interval to see the data in more detail.  
   
 ## See Also  
- [\($ N\_6069 Contract Gain\-Loss \(Responsibility Centers\) $\)](../Topic/\($%20N_6069%20Contract%20Gain-Loss%20\(Responsibility%20Centers\)%20$\).md)
+ Contract Gain-Loss \(Responsibility Centers\)%20$\).md)

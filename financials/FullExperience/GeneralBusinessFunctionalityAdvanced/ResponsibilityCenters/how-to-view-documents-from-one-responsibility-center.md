@@ -1,47 +1,20 @@
 ---
-title: "How to: View Documents from One Responsibility Center"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "responsibility centers, viewing documents"
-ms.assetid: f3aa6baf-dd52-45f9-9f89-e658e40aef58
-caps.latest.revision: 5
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-my"
-  - "en-nz"
-  - "en-ph"
-  - "en-sg"
-  - "en-zw"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: View Documents from One Responsibility Center
 You can set up users so that in their daily routines the program retrieves only the documents relevant for their particular work areas. Users are usually associated with one responsibility center and work only with documents related to specific application areas at that particular center.  
   
@@ -51,7 +24,7 @@ You can set up users so that in their daily routines the program retrieves only 
   
 1.  In the **Search** box, enter **User Setup**, and then choose the related link.  
   
-2.  In the **\($ N\_119 User Setup $\)** window, select the user you want to assign a responsibility center to. If the user not is on the list, you must enter a user ID in the **User ID** field.  
+2.  In the **User Setup** window, select the user you want to assign a responsibility center to. If the user not is on the list, you must enter a user ID in the **User ID** field.  
   
 3.  In the **Sales Resp. Ctr. Filter** field, enter the responsibility center where the user will have tasks related to Sales & Receivables.  
   
@@ -63,4 +36,4 @@ You can set up users so that in their daily routines the program retrieves only 
 >  Users will still be able to view all posted documents and ledger entries, not just those related to their own responsibility center.  
   
 ## See Also  
- [How to: Set Up Responsibility Centers](../../Finance/how-to-set-up-responsibility-centers.md)
+ [How to: Set Up Responsibility Centers](../FullExperience/how-to-set-up-responsibility-centers.md)

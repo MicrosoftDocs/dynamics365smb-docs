@@ -1,55 +1,32 @@
 ---
-title: "How to: View Gains and Losses on Contracts"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "service contracts, gains and losses"
-ms.assetid: d391ed0f-03c4-42d2-876c-610c065a20e0
-caps.latest.revision: 6
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: View Gains and Losses on Contracts
 A contract gain or loss entry is generated whenever a contract quote is converted to a service contract, when contract lines are added or removed from a service contract, or when a contract is canceled.  
   
  To view contract gains or losses, open one of the following windows.  
   
-|**Window**|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+|**Window**|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
 |----------------|---------------------------------------|  
-|**\($ N\_6071 Contract Gain\/Loss \(Contracts\) $\)**|To view the contract gain\/loss by service contract.|  
-|**\($ N\_6066 Contract Gain\/Loss \(Groups\) $\)**|To view the contract gain\/loss by service contract group.|  
-|**\($ N\_6067 Contract Gain\/Loss \(Customers\) $\)**|To view the contract gain\/loss by customer.|  
-|**\($ N\_6068 Contract Gain\/Loss \(Reasons\) $\)**|To view the contract gain\/loss by reason code.|  
-|**\($ N\_6069 Contract Gain\/Loss \(Resp.Ctr\) $\)**|To view the contract gain\/loss by responsibility center.|  
+|**Contract Gain\/Loss \(Contracts\)**|To view the contract gain\/loss by service contract.|  
+|**Contract Gain\/Loss \(Groups\)**|To view the contract gain\/loss by service contract group.|  
+|**Contract Gain\/Loss \(Customers\)**|To view the contract gain\/loss by customer.|  
+|**Contract Gain\/Loss \(Reasons\)**|To view the contract gain\/loss by reason code.|  
+|**Contract Gain\/Loss \(Resp.Ctr\)**|To view the contract gain\/loss by responsibility center.|  
   
 ### To view contract gain\/loss  
   
@@ -64,8 +41,8 @@ A contract gain or loss entry is generated whenever a contract quote is converte
 5.  Choose the **OK** button to close the window.  
   
 ## See Also  
- [Contract Gain\-Loss \(Customers\) Overview](../Service/contract-gain-loss-customers-overview.md)   
- [Contract Gain\-Loss \(Reason Codes\) Overview](../Service/contract-gain-loss-reason-codes-overview.md)   
- [Contract Gain\-Loss \(Responsibility Centers\)  Overview](../Service/contract-gain-loss-responsibility-centers-overview.md)   
- [Contract Gain\-Loss \(Groups\) Overview](../Service/contract-gain-loss-groups-overview.md)   
- [Contract Gain\-Loss \(Service Contracts\) Overview](../Service/contract-gain-loss-service-contracts-overview.md)
+ [Contract Gain-Loss \(Customers\) Overview](../FullExperience/contract-gain-loss-customers-overview.md)   
+ [Contract Gain-Loss \(Reason Codes\) Overview](../FullExperience/contract-gain-loss-reason-codes-overview.md)   
+ [Contract Gain-Loss \(Responsibility Centers\)  Overview](../FullExperience/contract-gain-loss-responsibility-centers-overview.md)   
+ [Contract Gain-Loss \(Groups\) Overview](../FullExperience/contract-gain-loss-groups-overview.md)   
+ [Contract Gain-Loss \(Service Contracts\) Overview](../FullExperience/contract-gain-loss-service-contracts-overview.md)

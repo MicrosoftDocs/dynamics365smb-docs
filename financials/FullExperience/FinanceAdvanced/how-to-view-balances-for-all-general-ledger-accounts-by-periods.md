@@ -1,47 +1,20 @@
 ---
-title: "How to: View Balances for All General Ledger Accounts by Periods"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "balances, viewing"
-ms.assetid: 7e3fd1e9-0688-429e-84ed-a04248fcaff6
-caps.latest.revision: 7
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-my"
-  - "en-nz"
-  - "en-ph"
-  - "en-sg"
-  - "en-zw"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: View Balances for All General Ledger Accounts by Periods
 You can view balances for all general ledger accounts for all periods.  
   
@@ -56,6 +29,6 @@ You can view balances for all general ledger accounts for all periods.
 4.  On the **Home** tab, choose **Show Matrix** to view the matrix window.  
   
 ## See Also  
- [How to: View Debit Balances and Credit Balances for All General Ledger Accounts](../Finance/how-to-view-debit-balances-and-credit-balances-for-all-general-ledger-accounts.md)   
- [How to: View Debit and Credit Balances for Single General Ledger Accounts](../Finance/how-to-view-debit-and-credit-balances-for-single-general-ledger-accounts.md)   
- [\($ N\_408 G\/L Balance by Dimension $\)](assetId:///37d753e1-fd65-4e06-b440-1c0e14b77366)
+ [How to: View Debit Balances and Credit Balances for All General Ledger Accounts](../FullExperience/how-to-view-debit-balances-and-credit-balances-for-all-general-ledger-accounts.md)   
+ [How to: View Debit and Credit Balances for Single General Ledger Accounts](../FullExperience/how-to-view-debit-and-credit-balances-for-single-general-ledger-accounts.md)   
+ G\/L Balance by Dimension

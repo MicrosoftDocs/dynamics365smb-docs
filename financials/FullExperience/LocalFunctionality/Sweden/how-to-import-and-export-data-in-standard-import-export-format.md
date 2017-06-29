@@ -1,22 +1,20 @@
 ---
-title: "How to: Import and Export Data in Standard Import Export Format"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "import, SIE format"
-  - "standard import export (SIE)"
-  - "export data, SIE format"
-ms.assetid: 9ec17b81-5ed2-41d0-9dd8-34711c5506cf
-caps.latest.revision: 23
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Import and Export Data in Standard Import Export Format
 You can import and export general ledger data according to the standard import export \(SIE\) format. By specifying SIE dimensions and file types, you can specify the level of detail covered by import or export transactions. For more information, see [Standard Import Export Group](http://go.microsoft.com/fwlink/?LinkID=164870&clcid=0x41d).  
   
@@ -26,7 +24,7 @@ You can import and export general ledger data according to the standard import e
   
 2.  Fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**File Name**|Enter the name and path of the file that you want to import.|  
     |**\($ B\_11208\_F\_1\_1070002 Gen. Journal Template $\)**|Select a general journal template.|  
@@ -45,9 +43,9 @@ You can import and export general ledger data according to the standard import e
   
 3.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
-    |**\($ B\_11207\_F\_1\_1070000 File Type $\)**|Select the type of file to be created. Select from one of the following options:<br /><br /> -   **Year \- End Balances** \- Contains the annual account balance carried forward for all accounts in the chart of accounts.<br />-   **Periodic Balances** \- Contains the annual account balance carried forward and monthly changes for all accounts in the chart of accounts.<br />-   **Object Balances** \- Contains the annual account balance carried forward, monthly changes, and balances on the object level, such as cost units and projects, for all accounts in the chart of accounts.<br />-   **Transactions** \- Contains all the general ledger entries for the period.|  
+    |**\($ B\_11207\_F\_1\_1070000 File Type $\)**|Select the type of file to be created. Select from one of the following options:<br /><br /> -   **Year - End Balances** - Contains the annual account balance carried forward for all accounts in the chart of accounts.<br />-   **Periodic Balances** - Contains the annual account balance carried forward and monthly changes for all accounts in the chart of accounts.<br />-   **Object Balances** - Contains the annual account balance carried forward, monthly changes, and balances on the object level, such as cost units and projects, for all accounts in the chart of accounts.<br />-   **Transactions** - Contains all the general ledger entries for the period.|  
     |**File Name**|Enter the name and path of the file that you want to create.|  
     |**\($ B\_11207\_F\_1\_1070004  Contact $\)**|Enter the contact person. This field is optional.|  
     |**\($ B\_11207\_F\_1\_1070006 Comments $\)**|Describe the content of the file.|  
@@ -58,7 +56,7 @@ You can import and export general ledger data according to the standard import e
   
 ## See Also  
  [Standard Import Export Group](http://go.microsoft.com/fwlink/?LinkID=164870&clcid=0x41d)   
- [\($ N\_11212 SIE Dimensions $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Sweden/-$-n_11212-sie-dimensions-$-.md)   
- [\($ B\_11208 SIE Import $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Sweden/-$-b_11208-sie-import-$-.md)   
- [\($ B\_11207 SIE Export $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Sweden/-$-b_11207-sie-export-$-.md)   
- [Sweden Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Sweden/sweden-local-functionality.md)
+ SIE Dimensions   
+ SIE Import   
+ SIE Export   
+ [Sweden Local Functionality](../FullExperience/sweden-local-functionality.md)

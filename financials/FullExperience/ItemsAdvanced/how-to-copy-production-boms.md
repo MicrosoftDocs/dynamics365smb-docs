@@ -1,21 +1,20 @@
 ---
-title: "How to: Copy Production BOMs"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "materials, structure"
-  - "production BOMs, copying"
-ms.assetid: 17bbf4fc-1fdc-480b-aaf2-034d6df4d770
-caps.latest.revision: 7
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Copy Production BOMs
 You can copy production BOMs. Make sure that the BOM you copy to is not certified. The item lines in the BOM you are copying to are replaced by the lines in the BOM you are copying from.  
   
@@ -34,6 +33,6 @@ You can copy production BOMs. Make sure that the BOM you copy to is not certifie
 6.  Close the window.  
   
 ## See Also  
- [Concepts of Production BOMs](../DesignAndEngineering/concepts-of-production-boms.md)   
- [How to: Create Production BOMs](../DesignAndEngineering/how-to-create-production-boms.md)   
- [How to: Copy Versions of Production BOMs](../DesignAndEngineering/how-to-copy-versions-of-production-boms.md)
+ [Concepts of Production BOMs](../FullExperience/concepts-of-production-boms.md)   
+ [How to: Create Production BOMs](../FullExperience/how-to-create-production-boms.md)   
+ [How to: Copy Versions of Production BOMs](../FullExperience/how-to-copy-versions-of-production-boms.md)

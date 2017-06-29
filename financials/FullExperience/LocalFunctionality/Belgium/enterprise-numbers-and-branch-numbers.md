@@ -1,21 +1,20 @@
 ---
-title: "Enterprise Numbers and Branch Numbers"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "enterprise numbers"
-  - "branch numbers"
-ms.assetid: 50af50a5-33d4-49ba-9f0d-14260c018b61
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "fr-be"
-  - "nl-be"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Enterprise Numbers and Branch Numbers
 Companies receive a unique enterprise number and one or more branch numbers from the Belgian Crossroad Bank of Enterprises. These numbers are used in all correspondence to simplify communication with the Belgian administrative and legal authorities.  
   
@@ -54,9 +53,9 @@ Companies receive a unique enterprise number and one or more branch numbers from
 -   Location table  
   
 ## See Also  
- [Belgium Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/belgium-local-functionality.md)   
- [\($ T\_79 Company Information $\)](assetId:///2a44e662-0d42-429e-8131-e0012a89996a)   
- [\($ N\_5050 Contact Card $\)](../Topic/\($%20N_5050%20Contact%20Card%20$\).md)   
- [\($ T\_18 Customer $\)](../Topic/\($%20T_18%20Customer%20$\).md)   
- [\($ T\_14 Location $\)](../Topic/\($%20T_14%20Location%20$\).md)   
- [\($ T\_23 Vendor $\)](../Topic/\($%20T_23%20Vendor%20$\).md)
+ [Belgium Local Functionality](../FullExperience/belgium-local-functionality.md)   
+ Company Information   
+ Contact Card   
+ Customer   
+ Location   
+ Vendor

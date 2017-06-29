@@ -1,22 +1,22 @@
 ---
-title: "How to: Set Up Export Protocols"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "export protocols, setting up"
-ms.assetid: 2caf4a1c-6d49-489a-9003-263f2e31f18a
-caps.latest.revision: 6
-ms.author: "sgroespe"
-translation.priority.ht: 
-  - "fr-be"
-  - "nl-be"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up Export Protocols
-Before you can use electronic banking, you must set up export protocols. Export protocols define the file format that is generated when you export payment history to be processed by the bank. Each line contains an export protocol identified by a code and a description. You can set up as many export protocols as necessary. You must set up an export protocol for domestic payments, international payments, SEPA payments, and non\-Euro SEPA payments.  
+Before you can use electronic banking, you must set up export protocols. Export protocols define the file format that is generated when you export payment history to be processed by the bank. Each line contains an export protocol identified by a code and a description. You can set up as many export protocols as necessary. You must set up an export protocol for domestic payments, international payments, SEPA payments, and non-Euro SEPA payments.  
   
  With export protocols, you can assign the codeunit that defines the check that should be performed before exporting the payment lines to a file and the report that defines the payment format. For example, you might have an export protocol named **DOM1**. This export protocol contains the **Check Domestic Payments** check codeunit and the **File Domestic Payments** report. Each export protocol has both a check codeunit and a matching report, as shown in the following table.  
   
@@ -36,24 +36,24 @@ Before you can use electronic banking, you must set up export protocols. Export 
   
 2.  On the **Home** tab, in the **New** group, choose **New**.  
   
-3.  In the **\($ N\_2000005 Export Protocols $\)**  window, fill in the fields as described in the following table.  
+3.  In the **Export Protocols**  window, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_2000005\_1 Code $\)**|Specify a code that uniquely identifies the export protocol.|  
-    |**\($ T\_2000005\_21 Description $\)**|Specify a description for the export protocol entry. You can enter a maximum of 50 characters, both numbers and letters.|  
-    |**\($ T\_2000005\_40 Code Expenses $\)**|Specify the code that describes the type of expenses associated with the export protocol entry. Code expenses include **blank**, **SHA**, **BEN**, and **OUR**. For international payments, **SHA** is the default.|  
-    |**\($ T\_2000005\_25 Check Object ID $\)**|Specify the identification number of the codeunit that you want to use to perform a check on the object before the payment file is exported.|  
-    |**\($ T\_2000005\_26 Check Object Name $\)**|Specify the name of a verification process that is used to perform a check on the object before the payment file is exported. After you select the **\($ T\_2000005\_25 Check Object ID $\)**, this field will display the **\($ T\_2000005\_26 Check Object Name $\)**.|  
-    |**\($ T\_2000005\_33 Export Object Type $\)**|Specify the type of the object that defines the export format of the payment file export. After you select the **\($ T\_2000005\_30 Export Object ID $\)**, this field will display the **\($ T\_2000005\_33 Export Object Type $\)**.<br /><br /> **NOTE:** To set the export protocol up for SEPA pain.001.001.03, select **XMLPort**.|  
-    |**\($ T\_2000005\_30 Export Object ID $\)**|Specify the identification number of the object that defines the export format of the payment file export. For example, if you select **2000002**, the export format for the payment file will be **File International Payments**.<br /><br /> **NOTE:** To set up the export protocol for SEPA pain.001.001.03, select XMLport **1000**.|  
-    |**\($ T\_2000005\_32 Export No. Series $\)**|Specify the number series that is used to assign identification numbers to the payment file export.|  
+    |**Code**|Specify a code that uniquely identifies the export protocol.|  
+    |**Description**|Specify a description for the export protocol entry. You can enter a maximum of 50 characters, both numbers and letters.|  
+    |**Code Expenses**|Specify the code that describes the type of expenses associated with the export protocol entry. Code expenses include **blank**, **SHA**, **BEN**, and **OUR**. For international payments, **SHA** is the default.|  
+    |**Check Object ID**|Specify the identification number of the codeunit that you want to use to perform a check on the object before the payment file is exported.|  
+    |**Check Object Name**|Specify the name of a verification process that is used to perform a check on the object before the payment file is exported. After you select the **Check Object ID**, this field will display the **Check Object Name**.|  
+    |**Export Object Type**|Specify the type of the object that defines the export format of the payment file export. After you select the **Export Object ID**, this field will display the **Export Object Type**.<br /><br /> **NOTE:** To set the export protocol up for SEPA pain.001.001.03, select **XMLPort**.|  
+    |**Export Object ID**|Specify the identification number of the object that defines the export format of the payment file export. For example, if you select **2000002**, the export format for the payment file will be **File International Payments**.<br /><br /> **NOTE:** To set up the export protocol for SEPA pain.001.001.03, select XMLport **1000**.|  
+    |**Export No. Series**|Specify the number series that is used to assign identification numbers to the payment file export.|  
   
 4.  Choose the **OK** button.  
   
 ## See Also  
- [Belgian Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/belgian-electronic-payments.md)   
- [\($ N\_2000005 Export Protocols $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/-$-n_2000005-export-protocols-$-.md)   
- [\($ T\_2000005 Export Protocol $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/-$-t_2000005-export-protocol-$-.md)   
- [How to: Create Payment Journal Templates and Batches](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-create-payment-journal-templates-and-batches.md)   
- [How to: Test Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-test-electronic-payments.md)
+ [Belgian Electronic Payments](../FullExperience/belgian-electronic-payments.md)   
+ Export Protocols   
+ Export Protocol   
+ [How to: Create Payment Journal Templates and Batches](../FullExperience/how-to-create-payment-journal-templates-and-batches.md)   
+ [How to: Test Electronic Payments](../FullExperience/how-to-test-electronic-payments.md)

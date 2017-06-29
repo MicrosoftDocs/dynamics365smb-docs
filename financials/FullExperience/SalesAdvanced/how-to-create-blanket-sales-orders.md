@@ -1,45 +1,22 @@
 ---
-title: "How to: Create Blanket Sales Orders"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "blanket sales orders, creating"
-ms.assetid: eb09c8e5-7720-459e-9868-29531a26af50
-caps.latest.revision: 12
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Create Blanket Sales Orders
-Use blanket orders when a customer has agreed to buy large quantities that are to be delivered in several smaller shipments over a certain period of time. For more information, see [About Blanket Sales Orders](../Sales/about-blanket-sales-orders.md).  
+Use blanket orders when a customer has agreed to buy large quantities that are to be delivered in several smaller shipments over a certain period of time. For more information, see [About Blanket Sales Orders](../FullExperience/about-blanket-sales-orders.md).  
   
  The topic contains the following sections:  
   
@@ -53,7 +30,7 @@ Use blanket orders when a customer has agreed to buy large quantities that are t
   
 2.  On the **Home** tab, in the **New** group, choose **New**. Create a new blanket sales order.  
   
-3.  In the **No.** field, you can press the Enter key to select the next available number. Fill in the **Sell\-to Customer No.** field.  
+3.  In the **No.** field, you can press the Enter key to select the next available number. Fill in the **Sell-to Customer No.** field.  
   
 4.  Leave the **Order Date** field blank. When the separate sales orders are created from the blanket order, the order date of the sales order is set to equal the actual work date.  
   
@@ -77,9 +54,9 @@ Use blanket orders when a customer has agreed to buy large quantities that are t
   
 3.  Choose the **OK** button.  
   
-4.  To see the results of the preceding steps, on the **Lines** FastTab, choose **Actions**![Action Menu icon](../DesignAndEngineering/media/actionmenuicon.png "actionMenuIcon"), choose **Line**, choose **Unposted Lines**, and then choose **Orders**.  
+4.  To see the results of the preceding steps, on the **Lines** FastTab, choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Line**, choose **Unposted Lines**, and then choose **Orders**.  
   
-5.  In the **Sales Lines** window, select the appropriate sales order, on the **Lines** FastTab, choose **Actions**![Action Menu icon](../DesignAndEngineering/media/actionmenuicon.png "actionMenuIcon"), choose **Line**, and then choose **Show Document**.  
+5.  In the **Sales Lines** window, select the appropriate sales order, on the **Lines** FastTab, choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Line**, and then choose **Show Document**.  
   
  The following applies to sales orders after they have been created from blanket sales orders:  
   
@@ -95,12 +72,12 @@ Use blanket orders when a customer has agreed to buy large quantities that are t
   
 -   After the sales order has been created for the total quantity of a blanket order line, no other sales order can be created for the same line. Users are prevented from entering a quantity in the **Qty. to Ship** field. If, however, additional quantities need to be added to a blanket order, the value in the **Quantity** field can be increased and additional orders can then be created.  
   
--   The invoiced blanket sales order remains in the system until it is deleted, either by deleting individual blanket orders or by running the **\($ B\_291 Delete Invoiced Blanket Sales Orders $\)** batch job.  
+-   The invoiced blanket sales order remains in the system until it is deleted, either by deleting individual blanket orders or by running the **Delete Invoiced Blanket Sales Orders** batch job.  
   
 -   If a customer is also recorded as a contact in the Marketing application area, and if you have specified an interaction template code for blanket sales order in the **Marketing Setup** window, an interaction is recorded in the Interaction Log Entry table when you select **Print** to print the blanket sales order.  
   
 ## See Also  
- [How to: Convert Blanket Sales Orders to Sales Orders](../Sales/how-to-convert-blanket-sales-orders-to-sales-orders.md)   
- [How to: View the Status of Blanket Sales Orders](../Sales/how-to-view-the-status-of-blanket-sales-orders.md)   
- [How to: View Unposted and Posted Blanket Sales Order Lines](../Sales/how-to-view-unposted-and-posted-blanket-sales-order-lines.md)   
- [\($ B\_291 Delete Invd Blnkt Sales Orders $\)](../SetupAndAdministration/-$-b_291-delete-invd-blnkt-sales-orders-$-.md)
+ [How to: Convert Blanket Sales Orders to Sales Orders](../FullExperience/how-to-convert-blanket-sales-orders-to-sales-orders.md)   
+ [How to: View the Status of Blanket Sales Orders](../FullExperience/how-to-view-the-status-of-blanket-sales-orders.md)   
+ [How to: View Unposted and Posted Blanket Sales Order Lines](../FullExperience/how-to-view-unposted-and-posted-blanket-sales-order-lines.md)   
+ Delete Invd Blnkt Sales Orders

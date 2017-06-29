@@ -1,43 +1,20 @@
 ---
-title: "Design Details: Prioritizing Orders"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "orders, prioritizing"
-ms.assetid: 71628a4f-b07e-475e-a285-ba23f4c7ed30
-caps.latest.revision: 6
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Design Details: Prioritizing Orders
 Within a given SKU, the requested or available date represents the highest priority; the demand of today should be dealt with before the demand of next week. But in addition to this overall priority, the planning system will also suggest which type of demand should be fulfilled before fulfilling another demand. Likewise, it will suggest what source of supply should be applied before applying other sources of supply. This is done according to order priorities.  
   
@@ -94,6 +71,6 @@ Within a given SKU, the requested or available date represents the highest prior
 5.  Planned\/Open – all order types \(Planning Flexibility \= Unlimited\)  
   
 ## See Also  
- [Design Details: Balancing Demand and Supply](../ApplicationDesign/design-details-balancing-demand-and-supply.md)   
- [Design Details: Central Concepts of the Planning System](../ApplicationDesign/design-details-central-concepts-of-the-planning-system.md)   
- [Design Details: Supply Planning](../ApplicationDesign/design-details-supply-planning.md)
+ [Design Details: Balancing Demand and Supply](../FullExperience/design-details-balancing-demand-and-supply.md)   
+ [Design Details: Central Concepts of the Planning System](../FullExperience/design-details-central-concepts-of-the-planning-system.md)   
+ [Design Details: Supply Planning](../FullExperience/design-details-supply-planning.md)

@@ -1,21 +1,20 @@
 ---
-title: "Tax Identification Types for Mexico"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "tax identification, numbers"
-  - "tax identification, types"
-ms.assetid: 5c012628-49f8-4c7a-8d30-0facfb2c319f
-caps.latest.revision: 8
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "es-mx"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Tax Identification Types for Mexico
 All customers and vendors must a have federal tax identification number. The identification type used for a customer or vendor depends on whether the customer or vendor is classified as a company or as a person.  
   
@@ -28,7 +27,7 @@ All customers and vendors must a have federal tax identification number. The ide
  Cédula de identification fiscal con clave única de registro de población \(CURP\)  
  This tax identification type can only be applied to people. A CURP number is 18 characters.  
   
- When you create a new customer or vendor in [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you specify whether the customer or vendor is a company or a person, and then you specify the tax identification type. The tax identification type and the tax identification number are included in any reports that reference tax information about a customer or vendor.  
+ When you create a new customer or vendor in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you specify whether the customer or vendor is a company or a person, and then you specify the tax identification type. The tax identification type and the tax identification number are included in any reports that reference tax information about a customer or vendor.  
   
 ## See Also  
- [Mexico Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Mexico/mexico-local-functionality.md)
+ [Mexico Local Functionality](../FullExperience/mexico-local-functionality.md)

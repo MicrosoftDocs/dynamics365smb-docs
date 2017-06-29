@@ -28,7 +28,7 @@ The **Depreciation Book** is a fiscal report that is sorted by year and item cla
   
 4.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Depreciation Book**|The depreciation book to be printed.|  
     |**Starting Date**|Sets the start date.|  
@@ -40,7 +40,7 @@ The **Depreciation Book** is a fiscal report that is sorted by year and item cla
 6.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [How to: Set Up Depreciation Books](../../Finance/how-to-set-up-depreciation-books.md)   
- [Italian Fixed Assets](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/italian-fixed-assets.md)   
- [How to: Create Multiple Fixed Asset Cards](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-create-multiple-fixed-asset-cards.md)   
- [How to: Set Up Compressed Depreciation of Fixed Assets](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-set-up-compressed-depreciation-of-fixed-assets.md)
+ [How to: Set Up Depreciation Books](../FullExperience/how-to-set-up-depreciation-books.md)   
+ [Italian Fixed Assets](../FullExperience/italian-fixed-assets.md)   
+ [How to: Create Multiple Fixed Asset Cards](../FullExperience/how-to-create-multiple-fixed-asset-cards.md)   
+ [How to: Set Up Compressed Depreciation of Fixed Assets](../FullExperience/how-to-set-up-compressed-depreciation-of-fixed-assets.md)

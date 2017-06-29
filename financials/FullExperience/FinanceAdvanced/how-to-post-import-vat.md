@@ -31,12 +31,12 @@ After you have set up codes for import VAT, you can post import VAT invoices.
 5.  In the **VAT Prod. Posting Group** field, select the posting group thaaat you set up for import VAT. You have to do this only if the general ledger account does not have these codes assigned.  
   
     > [!IMPORTANT]  
-    >  These fields may not be shown by default. ADD INCLUDE<!--[!INCLUDE[bp_customize](../Finance/includes/bp_customize_md.md)]-->  
+    >  These fields may not be shown by default. ADD INCLUDE<!--[!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]-->  
   
 6.  After filling in the fields, on the **Home** tab, choose **Post** to post the journal.  
   
 ## See Also  
- [How to: Set Up Codes for Import VAT](../Finance/how-to-set-up-codes-for-import-vat.md)   
- [How to: Record VAT](../Finance/how-to-record-vat.md)   
- [How to: Post Import VAT with Purchase Invoices](../Finance/how-to-post-import-vat-with-purchase-invoices.md)   
- [How to: View VAT Entries](../Finance/how-to-view-vat-entries.md)
+ [How to: Set Up Codes for Import VAT](../FullExperience/how-to-set-up-codes-for-import-vat.md)   
+ [How to: Record VAT](../FullExperience/how-to-record-vat.md)   
+ [How to: Post Import VAT with Purchase Invoices](../FullExperience/how-to-post-import-vat-with-purchase-invoices.md)   
+ [How to: View VAT Entries](../FullExperience/how-to-view-vat-entries.md)

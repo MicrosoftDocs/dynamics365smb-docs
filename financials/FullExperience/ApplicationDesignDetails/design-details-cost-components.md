@@ -20,7 +20,7 @@ Cost components are different types of costs that make up the value of an invent
   
  The following table shows the different cost components and any subordinate cost components that they consist of.  
   
-|Cost component|Subordinate cost component|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+|Cost component|Subordinate cost component|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
 |--------------------|--------------------------------|---------------------------------------|  
 |Direct cost|Unit cost \(direct purchase price\)|Cost that can be traced to a cost object.|  
 |Direct cost|Freight cost \(item charge\)|Cost that can be traced to a cost object.|  
@@ -39,5 +39,5 @@ Cost components are different types of costs that make up the value of an invent
 >  Freight and insurance costs are item charges that can be added to an item’s cost at any time. When you run the **Adjust Cost - Item Entries** batch job, the value of any related inventory decreases are updated accordingly.  
   
 ## See Also  
- [Design Details: Inventory Costing](../ApplicationDesign/design-details-inventory-costing.md)   
- [Design Details: Variance](../ApplicationDesign/design-details-variance.md)
+ [Design Details: Inventory Costing](../FullExperience/design-details-inventory-costing.md)   
+ [Design Details: Variance](../FullExperience/design-details-variance.md)

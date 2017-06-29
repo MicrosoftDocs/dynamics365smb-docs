@@ -30,12 +30,12 @@ In the capacity journal, you post consumed capacities that are not assigned to t
   
 5.  Enter the relevant data in the other fields, such as **Starting Time**, **Ending Time**, **Quantity**, and **Scrap**.  
   
-6.  ADD INCLUDE<!--[!INCLUDE[bp_ribbonxml](../Token/bp_ribbonxml_md.md)]-->On the **Action** tab, in the **Posting** group, choose **Post** to post the capacities.  
+6.  ADD INCLUDE<!--[!INCLUDE[bp_ribbonxml](../../includes/bp_ribbonxml_md.md)]-->On the **Action** tab, in the **Posting** group, choose **Post** to post the capacities.  
   
 7.  Choose the **Yes** button to confirm the question.  
   
 ## See Also  
- [How to: Post Output Quantity](../Production/how-to-post-output-quantity.md)   
- [How to: Post Scrap Manually](../Production/how-to-post-scrap-manually.md)   
- [How to: Register Consumption and Output](../Production/how-to-register-consumption-and-output.md)   
- [Structure of the Capacity](../Production/structure-of-the-capacity.md)
+ [How to: Post Output Quantity](../FullExperience/how-to-post-output-quantity.md)   
+ [How to: Post Scrap Manually](../FullExperience/how-to-post-scrap-manually.md)   
+ [How to: Register Consumption and Output](../FullExperience/how-to-register-consumption-and-output.md)   
+ [Structure of the Capacity](../FullExperience/structure-of-the-capacity.md)

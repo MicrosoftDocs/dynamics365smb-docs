@@ -30,7 +30,7 @@ If you have posted an incorrect invoice, you can correct it by issuing a credit 
   
     -   Use the **Copy Document** batch job to copy an existing document to the credit memo. It can be either a posted document or a document that is not yet posted.  
   
-         This function only reverses cost exactly when exact cost reversing is required in the **\($ N\_459 Sales & Receivables Setup $\)** window. For more information, see the [How to: Assign Exact Cost Reversing in Sales](../Finance/how-to-assign-exact-cost-reversing-in-sales.md).  
+         This function only reverses cost exactly when exact cost reversing is required in the **\($ N\_459 Sales & Receivables Setup $\)** window. For more information, see the [How to: Assign Exact Cost Reversing in Sales](../FullExperience/how-to-assign-exact-cost-reversing-in-sales.md).  
   
     -   Use the **Get Posted Document Lines to Reverse** function to copy one or more posted document lines from one or more posted documents to the new credit memo document.  
   
@@ -41,9 +41,9 @@ If you have posted an incorrect invoice, you can correct it by issuing a credit 
 4.  Post the credit memo.  
   
 ## See Also  
- [Correction of Incorrect Posted Documents](../Finance/correction-of-incorrect-posted-documents.md)   
- [How to: Assign Exact Cost Reversing in Sales](../Finance/how-to-assign-exact-cost-reversing-in-sales.md)   
- [Processing Sales Orders](../Sales/processing-sales-orders.md)   
+ [Correction of Incorrect Posted Documents](../FullExperience/correction-of-incorrect-posted-documents.md)   
+ [How to: Assign Exact Cost Reversing in Sales](../FullExperience/how-to-assign-exact-cost-reversing-in-sales.md)   
+ [Processing Sales Orders](../FullExperience/processing-sales-orders.md)   
  Copy Sales Document   
  Appl.-from Item Entry   
  Correction

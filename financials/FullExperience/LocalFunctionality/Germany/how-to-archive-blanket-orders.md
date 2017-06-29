@@ -31,10 +31,10 @@ You can archive a blanket sales order or a blanket purchase order, and you can u
 4.  Choose the **Yes** button to confirm archiving of the blanket order, and then choose the **OK** button.  
   
 ## See Also  
- [Enhanced Document Management](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/enhanced-document-management.md)   
- [How to: Set Up Automatic Archiving of Documents](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-set-up-automatic-archiving-of-documents.md)   
- [How to: Create an Order from an Archived Blanket Order](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-create-an-order-from-an-archived-blanket-order.md)   
- [How to: Delete Archived Blanket Orders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-delete-archived-blanket-orders.md)   
- [How to: Track Document Lines](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-track-document-lines.md)   
- [How to: Create Blanket Sales Orders](../../Sales/how-to-create-blanket-sales-orders.md)   
- [How to: Create Blanket Purchase Orders](../../Purchasing/how-to-create-blanket-purchase-orders.md)
+ [Enhanced Document Management](../FullExperience/enhanced-document-management.md)   
+ [How to: Set Up Automatic Archiving of Documents](../FullExperience/how-to-set-up-automatic-archiving-of-documents.md)   
+ [How to: Create an Order from an Archived Blanket Order](../FullExperience/how-to-create-an-order-from-an-archived-blanket-order.md)   
+ [How to: Delete Archived Blanket Orders](../FullExperience/how-to-delete-archived-blanket-orders.md)   
+ [How to: Track Document Lines](../FullExperience/how-to-track-document-lines.md)   
+ [How to: Create Blanket Sales Orders](../FullExperience/how-to-create-blanket-sales-orders.md)   
+ [How to: Create Blanket Purchase Orders](../FullExperience/how-to-create-blanket-purchase-orders.md)

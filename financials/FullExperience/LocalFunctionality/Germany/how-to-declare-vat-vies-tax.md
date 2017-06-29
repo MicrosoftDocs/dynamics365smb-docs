@@ -16,7 +16,7 @@
 
     ---
 # How to: Declare VAT-VIES Tax
-ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> includes the VAT-VIES declaration report, which you can use to submit information about sales transactions with other European Union \(EU\) countries\/regions to the customs and tax authorities' list system. The report displays information in the same format that is used in the customs and tax authorities' declaration list.  
+ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> includes the VAT-VIES declaration report, which you can use to submit information about sales transactions with other European Union \(EU\) countries\/regions to the customs and tax authorities' list system. The report displays information in the same format that is used in the customs and tax authorities' declaration list.  
   
  Depending on the volume of sales of goods or services to other EU countries\/regions, you must submit monthly, bi-monthly, or quarterly declarations. If your company has sales of more than 100,000 euros per quarter, you must submit a monthly declaration. If your company has sales of less than 100,000 euros per quarter, you must submit a quarterly declaration. For more information, see the [BZSt website](http://go.microsoft.com/fwlink/?LinkId=204368).  
   
@@ -28,7 +28,7 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]
   
 2.  In the **\($ R\_11007 VAT-Vies Declaration Tax – DE $\)** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_11007\_N\_2\_1140000 Reporting Period $\)**|Select the time period that the report applies to. This can be a month, a two-month period, a quarter, or the calendar year.|  
     |**\($ R\_11007\_N\_2\_1140002 Date of Signature $\)**|Enter the date on which the VAT-VIES declaration is sent.|  
@@ -45,7 +45,7 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]
  You can print the declaration on paper or create an XML file that you can submit electronically to the tax authorities. For more information, see the [BZSt website](http://go.microsoft.com/fwlink/?LinkId=204368).  
   
 ## See Also  
- [VAT-VIES Reporting-duplicate](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/vat-vies-reporting-duplicate.md)   
- [VAT Reporting](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/vat-reporting.md)   
+ [VAT-VIES Reporting-duplicate](../FullExperience/vat-vies-reporting-duplicate.md)   
+ [VAT Reporting](../FullExperience/vat-reporting.md)   
  VAT-Vies Declaration Tax - DE   
  VAT Entry

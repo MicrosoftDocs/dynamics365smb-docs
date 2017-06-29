@@ -33,9 +33,9 @@ Fixed assets are properties owned by a company and used in the production of its
  Reduced depreciation allows companies that can prove that an asset’s use is less intensive than that of a standard asset to use a lower depreciation rate for this asset, and recover the difference during the following fiscal years. Reduced depreciation allows companies to lengthen the period of an asset’s depreciation.  
   
 ## See Also  
- [Manage Fixed Assets](../../Finance/manage-fixed-assets.md)   
- [Italy Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/italy-local-functionality.md)   
- [How to: Set Up Alternate Depreciation Methods](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-set-up-alternate-depreciation-methods.md)   
- [How to: Create Multiple Fixed Asset Cards](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-create-multiple-fixed-asset-cards.md)   
- [How to: Set Up Compressed Depreciation of Fixed Assets](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-set-up-compressed-depreciation-of-fixed-assets.md)   
- [How to: Print Depreciation Book Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-print-depreciation-book-reports.md)
+ [Manage Fixed Assets](../FullExperience/manage-fixed-assets.md)   
+ [Italy Local Functionality](../FullExperience/italy-local-functionality.md)   
+ [How to: Set Up Alternate Depreciation Methods](../FullExperience/how-to-set-up-alternate-depreciation-methods.md)   
+ [How to: Create Multiple Fixed Asset Cards](../FullExperience/how-to-create-multiple-fixed-asset-cards.md)   
+ [How to: Set Up Compressed Depreciation of Fixed Assets](../FullExperience/how-to-set-up-compressed-depreciation-of-fixed-assets.md)   
+ [How to: Print Depreciation Book Reports](../FullExperience/how-to-print-depreciation-book-reports.md)

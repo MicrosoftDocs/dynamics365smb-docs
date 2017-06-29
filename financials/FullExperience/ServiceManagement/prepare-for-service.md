@@ -16,7 +16,7 @@
 
     ---
 # Prepare for Service
-ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> makes it easy to post service orders at any point in your work application's workflow. You can set up your system so that a service technician can post a service order after all information has been filled in. However, it is more typical to permit a service technician to only post shipments. If it better suits your workflow, you can specify that posting occur at any point during the provision of service.  
+ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> makes it easy to post service orders at any point in your work application's workflow. You can set up your system so that a service technician can post a service order after all information has been filled in. However, it is more typical to permit a service technician to only post shipments. If it better suits your workflow, you can specify that posting occur at any point during the provision of service.  
   
  There is also a built-in Undo function, in case you want to undo a posting.  
   
@@ -24,8 +24,8 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]-->
   
 |**To**|**See**|  
 |------------|-------------|  
-|Learn more about posting features for service management.|[Service Posting](../Service/service-posting.md)|  
-|Update inventory and other resource use from a service order.|[How to: Post Shipments from Service Orders](../Service/how-to-post-shipments-from-service-orders.md)|  
+|Learn more about posting features for service management.|[Service Posting](../FullExperience/service-posting.md)|  
+|Update inventory and other resource use from a service order.|[How to: Post Shipments from Service Orders](../FullExperience/how-to-post-shipments-from-service-orders.md)|  
   
 ## See Also  
- [How to: Check Service Orders Before Posting Them](../Service/how-to-check-service-orders-before-posting-them.md)
+ [How to: Check Service Orders Before Posting Them](../FullExperience/how-to-check-service-orders-before-posting-them.md)

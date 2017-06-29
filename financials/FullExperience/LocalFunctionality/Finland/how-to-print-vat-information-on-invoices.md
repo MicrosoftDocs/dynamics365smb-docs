@@ -29,9 +29,9 @@ You can use posting groups to print VAT information for each item on the sales i
 4.  Create and post a sales invoice. Choose the **Preview** button to review the invoice and verify that it contains VAT information for each row from the posting group.  
   
 ## See Also  
- [Electronic Banking in Finland](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Finland/electronic-banking-in-finland.md)   
+ [Electronic Banking in Finland](../FullExperience/electronic-banking-in-finland.md)   
  VAT Product Posting Groups   
  VAT Product Posting Group   
- [How to: Set Up VAT Product Posting Groups](../../Finance/how-to-set-up-vat-product-posting-groups.md)   
+ [How to: Set Up VAT Product Posting Groups](../FullExperience/how-to-set-up-vat-product-posting-groups.md)   
  VAT Business Posting Groups   
- [How to: Set Up VAT Business Posting Groups](../../Finance/how-to-set-up-vat-business-posting-groups.md)
+ [How to: Set Up VAT Business Posting Groups](../FullExperience/how-to-set-up-vat-business-posting-groups.md)

@@ -32,7 +32,7 @@ Follow these steps to set up the additional reporting currency:
   
 2.  In the **Currencies** window, specify the following fields for the additional reporting currency.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Realized G\/L Gains Account**|The general ledger account to which exchange rate gains for currency adjustments between LCY and the additional reporting currency will be posted.|  
     |**Realized G\/L Losses Account**|The general ledger account to which exchange rate losses for currency adjustments between LCY and the additional reporting currency will be posted.|  
@@ -40,7 +40,7 @@ Follow these steps to set up the additional reporting currency:
     |**Residual Losses Account**|The general ledger account to which residual amounts that are losses are posted if you post in the general ledger application area in both LCY and an additional reporting currency.|  
   
 > [!NOTE]  
->  Residual amounts can occur when ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> rounds debit and credit amounts that have been converted from LCY to an additional reporting currency.  
+>  Residual amounts can occur when ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> rounds debit and credit amounts that have been converted from LCY to an additional reporting currency.  
   
  For each general ledger account, you must specify how general ledger amounts for that account will be adjusted for exchange rate fluctuations between LCY and the additional reporting currency.  
   
@@ -58,7 +58,7 @@ Follow these steps to set up the additional reporting currency:
   
      The following table shows the options to choose from.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../../includes/bp_tabledescription_md.md)]-->|  
     |----------------------------------|---------------------------------------|  
     |**No Adjustment**|No exchange rate adjustment is made to the general ledger account. This is the default option.<br /><br /> **NOTE:** This option should be selected if the exchange rate between the LCY and additional reporting currency is always fixed.|  
     |**Adjust Amount**|The LCY amount is adjusted for any exchange rate gains or losses. Exchange rate gains or losses are posted to the general ledger account in the **Amount** field and to the accounts you specified for gains or losses in the **Realized G\/L Gains Account** and **Realized G\/L Losses Account** fields in the **Currencies** window.|  
@@ -80,7 +80,7 @@ Follow these steps to set up the additional reporting currency:
   
      You have the same options as with general ledger entries but in this case the entries adjusted will be the VAT entries.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../../includes/bp_tabledescription_md.md)]-->|  
     |----------------------------------|---------------------------------------|  
     |**No Adjustment**|No exchange rate adjustment is made to the general ledger account. This is the default option.|  
     |**Adjust Amount**|The LCY amount is adjusted for any exchange rate gains or losses. Exchange rate gains or losses are posted to the general ledger account in the **Amount** field and to the accounts you specified for gains or losses in the **Realized G\/L Gains Account** and **Realized G\/L Losses Account** fields in the **Currencies** window.|  
@@ -92,7 +92,7 @@ Follow these steps to set up the additional reporting currency:
   
 2.  In the **General Ledger Setup** window, on the **Reporting** FastTab, choose the **Additional Reporting Currency** field to select the additional currency that you want to report in.  
   
-3.  When you leave the field, ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> displays a confirmation message describing the effects of activating the additional reporting currency.  
+3.  When you leave the field, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> displays a confirmation message describing the effects of activating the additional reporting currency.  
   
 4.  Choose the **Yes** button to confirm that you want to activate the currency.  
   
@@ -122,7 +122,7 @@ Follow these steps to set up the additional reporting currency:
 >  The **Add. Reporting Currency** field will only be activated after you choose the **OK** button in the **Adjust Add. Reporting Currency** batch job.  
   
 ## See Also  
- [About Using Additional Reporting Currencies](../Finance/about-using-additional-reporting-currencies.md)   
+ [About Using Additional Reporting Currencies](../FullExperience/about-using-additional-reporting-currencies.md)   
  Realized G\/L Gains Account   
  Realized G\/L Losses Account   
  Residual Gains Account   

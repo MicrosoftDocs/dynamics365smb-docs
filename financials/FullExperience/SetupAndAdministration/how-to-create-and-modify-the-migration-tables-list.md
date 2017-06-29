@@ -16,9 +16,9 @@
 
     ---
 # How to: Create and Modify the Migration Tables List
-You can create new data migration files and customize them to support your business. However, a file can only be used to migrate a field that has its **FieldClass** property set to **Normal**. For more information, see [FieldClass Property](../Topic/FieldClass%20Property.md).  
+You can create new data migration files and customize them to support your business. However, a file can only be used to migrate a field that has its **FieldClass** property set to **Normal**. For more information, see [FieldClass Property](../FullExperience/FieldClass%20Property.md).  
   
- To learn more about using the configuration process, see [How to: Manage Company Configuration in a Worksheet](../SetupAndAdministration/how-to-manage-company-configuration-in-a-worksheet.md).  
+ To learn more about using the configuration process, see [How to: Manage Company Configuration in a Worksheet](../FullExperience/how-to-manage-company-configuration-in-a-worksheet.md).  
   
 ### To create a data migration file  
   
@@ -41,4 +41,4 @@ You can create new data migration files and customize them to support your busin
      A new migration table is created.  
   
 ## See Also  
- [How to: Export Migration Tables](../SetupAndAdministration/how-to-export-migration-tables.md)
+ [How to: Export Migration Tables](../FullExperience/how-to-export-migration-tables.md)

@@ -16,7 +16,7 @@
 
     ---
 # Set Up Loaner Program
-Sometimes you must provide a customer a loaner item for use when your customer service team makes a repair. Using ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]-->, you can set up a loaner program, loan your customers items, and track the receipt of the items back.  
+Sometimes you must provide a customer a loaner item for use when your customer service team makes a repair. Using ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can set up a loaner program, loan your customers items, and track the receipt of the items back.  
   
  In addition, you may choose to add notes about loaners, by using one of two ways to register comments:  
   
@@ -31,10 +31,10 @@ Sometimes you must provide a customer a loaner item for use when your customer s
   
 |**To**|**See**|  
 |------------|-------------|  
-|Set up a loaner component to your service application.|[How to: Set Up Loaners](../Service/how-to-set-up-loaners.md)|  
-|Provide temporary replacement items to a customer when repair service is performed.|[How to: Lend Loaners](../Service/how-to-lend-loaners.md)|  
-|Track and manage the return of loaners from customers.|[How to: Receive Loaners](../Service/how-to-receive-loaners.md)|  
+|Set up a loaner component to your service application.|[How to: Set Up Loaners](../FullExperience/how-to-set-up-loaners.md)|  
+|Provide temporary replacement items to a customer when repair service is performed.|[How to: Lend Loaners](../FullExperience/how-to-lend-loaners.md)|  
+|Track and manage the return of loaners from customers.|[How to: Receive Loaners](../FullExperience/how-to-receive-loaners.md)|  
   
 ## See Also  
- [How to: Register Loaner Comments](../Service/how-to-register-loaner-comments.md)   
- [How to: Register Service Item Loaner Comments](../Service/how-to-register-service-item-loaner-comments.md)
+ [How to: Register Loaner Comments](../FullExperience/how-to-register-loaner-comments.md)   
+ [How to: Register Service Item Loaner Comments](../FullExperience/how-to-register-service-item-loaner-comments.md)

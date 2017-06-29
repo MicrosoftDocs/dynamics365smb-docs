@@ -26,12 +26,12 @@ When you select electronic payment in the payment journal, the information is ex
   
 3.  In the **Suggest Vendor Payments** batch job, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Last Payment Date**|The last valid payment date for vendor ledger entries.|  
     |**Find Payment Discounts**|Select to include vendor ledger entries for which you can receive a payment discount.|  
     |**Summarize per Vendor**|Select to make one line per vendor for each currency in which the vendor has existing ledger entries.<br /><br /> If selected, you avoid transmitting multiple transfers and sending multiple pieces of remittance advice to the same vendor. The remittance advice lists the individual invoices that are being paid. All the open invoices and credit memos are combined in a single payment line.<br /><br /> If not selected, the batch job suggests one line per invoice.|  
-    |**By Dimension**|The dimensions by which you want to group the suggested payments. You receive one suggested payment per combination of dimension values for each currency in which the vendor has existing ledger entries. For more information, see [How to: Set Up Dimensions and Dimension Values](../../Finance/how-to-set-up-dimensions-and-dimension-values.md).|  
+    |**By Dimension**|The dimensions by which you want to group the suggested payments. You receive one suggested payment per combination of dimension values for each currency in which the vendor has existing ledger entries. For more information, see [How to: Set Up Dimensions and Dimension Values](../FullExperience/how-to-set-up-dimensions-and-dimension-values.md).|  
     |**Use Vendor Priority**|The content of the Priority field on the vendor cards determines the order in which vendor entries are suggested for payment by the batch job. Vendors are prioritized for payment suggestions if you specify an available amount in the **Available Amount** field.|  
     |**Available Amount \($\)**|The maximum amount available for payments in United States dollars \(USD\). The batch job creates a payment suggestion based on this amount and on the prioritization of vendors. It includes only vendor entries that can be paid in full.|  
     |**Posting Date**|The posting date.|  
@@ -46,13 +46,13 @@ When you select electronic payment in the payment journal, the information is ex
 5.  To suggest payments, choose the **OK** button.  
   
 ## See Also  
- [How to: Set Up Dimensions and Dimension Values](../../Finance/how-to-set-up-dimensions-and-dimension-values.md)   
- [How to: Apply Vendor Ledger Entries](../../Finance/how-to-apply-vendor-ledger-entries.md)   
- [How to: Void Checks](../../Finance/how-to-void-checks.md)   
+ [How to: Set Up Dimensions and Dimension Values](../FullExperience/how-to-set-up-dimensions-and-dimension-values.md)   
+ [How to: Apply Vendor Ledger Entries](../FullExperience/how-to-apply-vendor-ledger-entries.md)   
+ [How to: Void Checks](../FullExperience/how-to-void-checks.md)   
  Priority   
- [How to: Set Up Electronic Payments for Bank Accounts](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-set-up-electronic-payments-for-bank-accounts.md)   
- [How to: Void Posted Checks](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-void-posted-checks.md)   
- [Bank Payment Type-duplicate](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-t_81_70-bank-payment-type-$-duplicate.md)   
- [Electronic Payments for United States, Canada, and Mexico](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/electronic-payments-for-united-states-canada-and-mexico.md)   
- [How to: Transmit Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-transmit-electronic-payments.md)   
- [How to: Export Electronic Payments-duplicate](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-export-electronic-payments-duplicate.md)
+ [How to: Set Up Electronic Payments for Bank Accounts](../FullExperience/how-to-set-up-electronic-payments-for-bank-accounts.md)   
+ [How to: Void Posted Checks](../FullExperience/how-to-void-posted-checks.md)   
+ [Bank Payment Type-duplicate](../FullExperience/-$-t_81_70-bank-payment-type-$-duplicate.md)   
+ [Electronic Payments for United States, Canada, and Mexico](../FullExperience/electronic-payments-for-united-states-canada-and-mexico.md)   
+ [How to: Transmit Electronic Payments](../FullExperience/how-to-transmit-electronic-payments.md)   
+ [How to: Export Electronic Payments-duplicate](../FullExperience/how-to-export-electronic-payments-duplicate.md)

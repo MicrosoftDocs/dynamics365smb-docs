@@ -36,6 +36,6 @@ When you have created a service credit memo and filled it in, you can post the c
 >  It is important to enter all the necessary information on the credit memos before they are batch posted. Otherwise, it is possible that they will not be posted. When the batch job has finished posting, a message is displayed that shows how many of the service credit memos have been posted.  
   
 ## See Also  
- [How to: Create Service Credit Memos](../Service/how-to-create-service-credit-memos.md)   
- [How to: Print Test Reports Before Posting Service Documents](../Service/how-to-print-test-reports-before-posting-service-documents.md)   
- [How to: Batch Post Service Orders](../Service/how-to-batch-post-service-orders.md)
+ [How to: Create Service Credit Memos](../FullExperience/how-to-create-service-credit-memos.md)   
+ [How to: Print Test Reports Before Posting Service Documents](../FullExperience/how-to-print-test-reports-before-posting-service-documents.md)   
+ [How to: Batch Post Service Orders](../FullExperience/how-to-batch-post-service-orders.md)

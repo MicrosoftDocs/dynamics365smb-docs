@@ -63,7 +63,7 @@ You may occasionally need to move items between internal bins, not receiving or 
     > [!NOTE]  
     >  When you have created the inventory movement, the internal movement lines are deleted.  
   
-     You perform the remainder of the ad hoc movement in the **Inventory Movement** window in the same way as you would for a movement based on source documents. For more information, see for example [How to: Move Components to an Operation Area in Basic Warehousing](../WarehouseActivities/how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
+     You perform the remainder of the ad hoc movement in the **Inventory Movement** window in the same way as you would for a movement based on source documents. For more information, see for example [How to: Move Components to an Operation Area in Basic Warehousing](../FullExperience/how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
   
 ### To move items with the item reclassification journal  
   
@@ -89,5 +89,5 @@ You may occasionally need to move items between internal bins, not receiving or 
  To-Production Bin Code   
  Dedicated   
  Whse. Get Bin Content   
- [How to: Move Components to an Operation Area in Basic Warehousing](../WarehouseActivities/how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
- [How to: Move Items in Advanced Warehousing](../WarehouseActivities/how-to-move-items-in-advanced-warehousing.md)
+ [How to: Move Components to an Operation Area in Basic Warehousing](../FullExperience/how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
+ [How to: Move Items in Advanced Warehousing](../FullExperience/how-to-move-items-in-advanced-warehousing.md)

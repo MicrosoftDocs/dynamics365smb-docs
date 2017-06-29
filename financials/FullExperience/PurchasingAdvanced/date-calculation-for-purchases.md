@@ -16,7 +16,7 @@
 
     ---
 # Date Calculation for Purchases
-ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> automatically calculates the date on which you must order an item to have it in inventory on a certain date. This is the date on which you can expect items ordered on a particular date to be available for picking.  
+ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> automatically calculates the date on which you must order an item to have it in inventory on a certain date. This is the date on which you can expect items ordered on a particular date to be available for picking.  
   
  If you specify a requested receipt date on a purchase order header, then the calculated order date is the date on which the order must be placed to receive the items on the date that you requested. Then, the date on which the items are available for picking is calculated and entered in the **Expected Receipt Date** field.  
   
@@ -45,6 +45,6 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]-->
 ## See Also  
  Expected Receipt Date   
  Order Date   
- [How to: Enter Inbound Warehouse Handling Time](../DesignAndEngineering/how-to-enter-inbound-warehouse-handling-time.md)   
- [Date Calculation for Sales](../Sales/date-calculation-for-sales.md)   
- [About Order Promising](../Sales/about-order-promising.md)
+ [How to: Enter Inbound Warehouse Handling Time](../FullExperience/how-to-enter-inbound-warehouse-handling-time.md)   
+ [Date Calculation for Sales](../FullExperience/date-calculation-for-sales.md)   
+ [About Order Promising](../FullExperience/about-order-promising.md)

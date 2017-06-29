@@ -31,4 +31,4 @@ You use the **Service Order Status Setup** window to set the priority level for 
  Repeat these steps until you have set the priority for each of the four status options:  **Pending**, **In Process**, **Finished**, and **On Hold***.*  
   
 ## See Also  
- [Service Order Status and Repair Status](../Service/service-order-status-and-repair-status.md)
+ [Service Order Status and Repair Status](../FullExperience/service-order-status-and-repair-status.md)

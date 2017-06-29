@@ -20,10 +20,10 @@ Before you can create workflows, you must set up the users who take part in work
   
  In the **Workflow User Group** window, you set up users under workflow user groups, and you specify the users’ number in a process sequence, such as an approver chain.  
   
- Workflow users that function as approval users, both approval requesters and approvers, must also be set up in the **Approval User Setup** window. For more information, see [How to: Set Up Approval Users](../../BusinessFunctionality/Workflow/how-to-set-up-approval-users.md).  
+ Workflow users that function as approval users, both approval requesters and approvers, must also be set up in the **Approval User Setup** window. For more information, see [How to: Set Up Approval Users](../FullExperience/how-to-set-up-approval-users.md).  
   
 > [!NOTE]  
->  To define that an approval request is not approved until multiple approvers in an approval chain have approved it, set up approvers in a hierarchy. For approver type **Approver**, set approvers up in the **Approval User Setup** window. For approver type, **Workflow User Group**, set approvers up in the **Workflow User Groups** window and define the hierarchy by assigning incremental numbers to each approver in the **Sequence No.** field. For more information, see [How to: Set Up Approval Users](../../BusinessFunctionality/Workflow/how-to-set-up-approval-users.md) and this topic.  
+>  To define that an approval request is not approved until multiple approvers in an approval chain have approved it, set up approvers in a hierarchy. For approver type **Approver**, set approvers up in the **Approval User Setup** window. For approver type, **Workflow User Group**, set approvers up in the **Workflow User Groups** window and define the hierarchy by assigning incremental numbers to each approver in the **Sequence No.** field. For more information, see [How to: Set Up Approval Users](../FullExperience/how-to-set-up-approval-users.md) and this topic.  
 >   
 >  To define that an approval request is not approved until multiple equal approvers have approved it, regardless of a hierarchy, set up a flat workflow user group. For approver type, **Workflow User Group**, set up approvers in the **Workflow User Groups** window and assign the same number to each approver in the **Sequence No.** field. For more information, see this topic.  
   
@@ -39,7 +39,7 @@ Before you can create workflows, you must set up the users who take part in work
   
 5.  On the **Workflow User Group Members** FastTab, fill the fields on the first line as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**User Name**|Specify the user who will take part in workflows.<br /><br /> The user must exist in the **User Setup** window. For more information, see User Setup.|  
     |**Sequence No.**|Specify the order in which the workflow user engages in a workflow relative to other users. This field can be used, for example, to specify when the user approves relative to other approvers when you use the **Workflow User Group** option in the **Approver Type** field on the related workflow response. For more information, see Approver Type. **Tip:**  To define that an approval request is not approved until multiple equal approvers have approved it, irrespective of a hierarchy, set up a flat workflow user group by assigning the same sequence number to the relevant approvers.|  
@@ -50,9 +50,9 @@ Before you can create workflows, you must set up the users who take part in work
   
 ## See Also  
  Workflow User Group   
- [How to: Set Up Approval Users](../../BusinessFunctionality/Workflow/how-to-set-up-approval-users.md)   
- [Set Up Workflows](../../BusinessFunctionality/Workflow/set-up-workflows.md)   
- [Use Workflows](../../BusinessFunctionality/Workflow/use-workflows.md)   
- [Walkthrough: Setting Up and Using a Purchase Approval Workflow](../../BusinessFunctionality/Workflow/walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
- [Workflow](../../BusinessFunctionality/Workflow/workflow.md)   
- [Business Functionality](../Topic/Business%20Functionality.md)
+ [How to: Set Up Approval Users](../FullExperience/how-to-set-up-approval-users.md)   
+ [Set Up Workflows](../FullExperience/set-up-workflows.md)   
+ [Use Workflows](../FullExperience/use-workflows.md)   
+ [Walkthrough: Setting Up and Using a Purchase Approval Workflow](../FullExperience/walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
+ [Workflow](../FullExperience/workflow.md)   
+ [Business Functionality](../FullExperience/Business%20Functionality.md)

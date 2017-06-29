@@ -16,7 +16,7 @@
 
     ---
 # How to: Generate Domiciliation Suggestions
-After you have set up domiciliations, you can start generating domiciliation suggestions. In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you can only create domiciliation suggestions for domestic customers.  
+After you have set up domiciliations, you can start generating domiciliation suggestions. In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can only create domiciliation suggestions for domestic customers.  
   
 ### To generate domiciliation suggestions  
   
@@ -26,7 +26,7 @@ After you have set up domiciliations, you can start generating domiciliation sug
   
 3.  On the **Options** FastTab, fill in the fields as displayed in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_2000039\_F\_1\_3 Due Date $\)**|Enter the due date to be included in the batch job. Only entries that have a due date before or on this date will be included.|  
     |**\($ B\_2000039\_F\_1\_14 Take Payment Discounts $\)**|Select if you want the batch job to include customer ledger entries for which you can receive a payment discount.|  
@@ -41,12 +41,12 @@ After you have set up domiciliations, you can start generating domiciliation sug
      When the batch job is finished, the domiciliation journal contains all open customer ledger entries that match the filters.  
   
 > [!NOTE]  
->  The domiciliation suggestions will only include customers who have a Domiciliation number set up. For more information, see [How to: Set Up Domiciliations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-domiciliations.md).  
+>  The domiciliation suggestions will only include customers who have a Domiciliation number set up. For more information, see [How to: Set Up Domiciliations](../FullExperience/how-to-set-up-domiciliations.md).  
   
 ## See Also  
- [Belgian Electronic Banking](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/belgian-electronic-banking.md)   
- [Direct Debit Using Domiciliation](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/direct-debit-using-domiciliation.md)   
- [How to: Set Up Domiciliations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-domiciliations.md)   
- [How to: Test Domiciliations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-test-domiciliations.md)   
- [How to: Edit and Delete Domiciliation Lines](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-edit-and-delete-domiciliation-lines.md)   
- [How to: Export and Post Domiciliations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-export-and-post-domiciliations.md)
+ [Belgian Electronic Banking](../FullExperience/belgian-electronic-banking.md)   
+ [Direct Debit Using Domiciliation](../FullExperience/direct-debit-using-domiciliation.md)   
+ [How to: Set Up Domiciliations](../FullExperience/how-to-set-up-domiciliations.md)   
+ [How to: Test Domiciliations](../FullExperience/how-to-test-domiciliations.md)   
+ [How to: Edit and Delete Domiciliation Lines](../FullExperience/how-to-edit-and-delete-domiciliation-lines.md)   
+ [How to: Export and Post Domiciliations](../FullExperience/how-to-export-and-post-domiciliations.md)

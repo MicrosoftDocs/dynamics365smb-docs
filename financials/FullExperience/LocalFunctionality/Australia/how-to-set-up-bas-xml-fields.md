@@ -16,7 +16,7 @@
 
     ---
 # How to: Set Up BAS XML Fields
-In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you must define setup names for XML fields in the Business Activity Statement \(BAS\). You can group the required BAS XML field IDs under one setup name.  
+In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you must define setup names for XML fields in the Business Activity Statement \(BAS\). You can group the required BAS XML field IDs under one setup name.  
   
 ### To set up BAS XML fields  
   
@@ -29,9 +29,9 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
     |**Fuel\_Excise\_Credit**|73|  
     |**Fuel\_Excise\_Debit**|72|  
   
-     ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> automatically fills in the **Field Label No.** and **Field Description** fields by using the Business Activity Statement \(BAS\) labels.  
+     ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> automatically fills in the **Field Label No.** and **Field Description** fields by using the Business Activity Statement \(BAS\) labels.  
   
 ## See Also  
- [BAS Fuel Tax Credits](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/bas-fuel-tax-credits.md)   
- [How to: Set Up BAS XML Fields](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-set-up-bas-xml-fields.md)   
- [Business Activity Statements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/business-activity-statements.md)
+ [BAS Fuel Tax Credits](../FullExperience/bas-fuel-tax-credits.md)   
+ [How to: Set Up BAS XML Fields](../FullExperience/how-to-set-up-bas-xml-fields.md)   
+ [Business Activity Statements](../FullExperience/business-activity-statements.md)

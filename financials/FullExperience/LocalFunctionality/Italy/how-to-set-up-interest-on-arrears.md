@@ -32,7 +32,7 @@ For each finance charge term, you can specify how interest on arrears must be ca
   
 4.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Starting Date**|Specify the date from which you want to calculate interest on arrears. **Important:**  The start date for the first interest transaction cannot be later than the earliest posting date for the finance transactions.|  
     |**Interest Rate**|Specify the rate of interest to be calculated for the arrears.|  
@@ -53,7 +53,7 @@ For each finance charge term, you can specify how interest on arrears must be ca
 4.  Choose the **OK** button.  
   
 ## See Also  
- [Interest on Arrears Overview](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/interest-on-arrears-overview.md)   
+ [Interest on Arrears Overview](../FullExperience/interest-on-arrears-overview.md)   
  Finance Charge Terms   
  Interest on Arrears Window   
  Int. on Arrears Code   

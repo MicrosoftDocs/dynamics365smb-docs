@@ -23,7 +23,7 @@ You can use the export remittance payments process to export the payments file t
   
  You export payments to a bank file by choosing the **Export Payments** button in the **Payment Journal** window. The process may be different, depending on the export format that you select:  
   
--   Payments using the SEPA payment standard are directly exported to a file when you choose the **Export Payments** button. For more information, see [How to: Export Payments to a Bank File](../../BusinessFunctionality/DataExchange/how-to-export-payments-to-a-bank-file.md).  
+-   Payments using the SEPA payment standard are directly exported to a file when you choose the **Export Payments** button. For more information, see [How to: Export Payments to a Bank File](../FullExperience/how-to-export-payments-to-a-bank-file.md).  
   
 -   Payments using local payment standards, such as **Telepay**, are exported with either the **Remittance - export \(bank\)** or the **Remittance - export \(BBS\)** report, which automatically opens when you choose the **Export Payments** button.  
   
@@ -33,13 +33,13 @@ You can use the export remittance payments process to export the payments file t
   
 1.  In the **Search** box, enter **Payment Journals**, and then choose the related link.  
   
-2.  Prepare to export the payments from the journal. For more information, see [How to: Export Payments to a Bank File](../../BusinessFunctionality/DataExchange/how-to-export-payments-to-a-bank-file.md).  
+2.  Prepare to export the payments from the journal. For more information, see [How to: Export Payments to a Bank File](../FullExperience/how-to-export-payments-to-a-bank-file.md).  
   
 3.  On the **Home** tab, in the **Bank** group, choose **Export Payments**.  
   
 4.  In the report window that opens, choose the **Options** FastTab, and fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_15000050\_F\_1\_13 Remittance agreement code $\)**|Specify the code for the agreement.|  
     |**\($ R\_15000050\_F\_1\_3 Operator $\)**|Specify the operator number.|  
@@ -57,18 +57,18 @@ You can use the export remittance payments process to export the payments file t
 ## See Also  
  Remittance - export \(bank\)   
  Remittance - export \(BBS\)   
- [Electronic Payments to Vendors in Norway](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/electronic-payments-to-vendors-in-norway.md)   
- [How to: Set Up Remittance Agreements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-set-up-remittance-agreements.md)   
- [How to: Create Remittance Accounts](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-create-remittance-accounts.md)   
- [How to: Set Up Vendors for Remittance](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-set-up-vendors-for-remittance.md)   
- [Recipient Reference Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/recipient-reference-codes.md)   
- [How to: Create Remittance Suggestions](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-create-remittance-suggestions.md)   
- [How to: Create Manual Remittance Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-create-manual-remittance-payments.md)   
- [How to: Set Up Payment Line Information](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-set-up-payment-line-information.md)   
- [How to: Test Remittance Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-test-remittance-payments.md)   
- [Types of Payment Returns Files](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/types-of-payment-returns-files.md)   
- [How to: Import Payment Return Data](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-import-payment-return-data.md)   
- [How to: Delete Remittance Payment Orders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-delete-remittance-payment-orders.md)   
- [Remittance Errors](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/remittance-errors.md)   
- [How to: View Remittance Error Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-view-remittance-error-codes.md)   
- [How to: Cancel Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-cancel-payments.md)
+ [Electronic Payments to Vendors in Norway](../FullExperience/electronic-payments-to-vendors-in-norway.md)   
+ [How to: Set Up Remittance Agreements](../FullExperience/how-to-set-up-remittance-agreements.md)   
+ [How to: Create Remittance Accounts](../FullExperience/how-to-create-remittance-accounts.md)   
+ [How to: Set Up Vendors for Remittance](../FullExperience/how-to-set-up-vendors-for-remittance.md)   
+ [Recipient Reference Codes](../FullExperience/recipient-reference-codes.md)   
+ [How to: Create Remittance Suggestions](../FullExperience/how-to-create-remittance-suggestions.md)   
+ [How to: Create Manual Remittance Payments](../FullExperience/how-to-create-manual-remittance-payments.md)   
+ [How to: Set Up Payment Line Information](../FullExperience/how-to-set-up-payment-line-information.md)   
+ [How to: Test Remittance Payments](../FullExperience/how-to-test-remittance-payments.md)   
+ [Types of Payment Returns Files](../FullExperience/types-of-payment-returns-files.md)   
+ [How to: Import Payment Return Data](../FullExperience/how-to-import-payment-return-data.md)   
+ [How to: Delete Remittance Payment Orders](../FullExperience/how-to-delete-remittance-payment-orders.md)   
+ [Remittance Errors](../FullExperience/remittance-errors.md)   
+ [How to: View Remittance Error Codes](../FullExperience/how-to-view-remittance-error-codes.md)   
+ [How to: Cancel Payments](../FullExperience/how-to-cancel-payments.md)

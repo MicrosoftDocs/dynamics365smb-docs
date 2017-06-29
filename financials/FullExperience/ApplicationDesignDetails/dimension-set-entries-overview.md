@@ -16,7 +16,7 @@
 
     ---
 # Dimension Set Entries Overview
-This topic describes how dimension set entries are stored and posted in ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]-->.  
+This topic describes how dimension set entries are stored and posted in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
   
 ## Dimension Sets  
  A dimension set is a unique combination of dimension values. It is stored as dimension set entries in the database. Each dimension set entry represents a single dimension value. The dimension set is identified by a common dimension set ID that is assigned to each dimension set entry that belongs to the dimension set.  
@@ -32,7 +32,7 @@ This topic describes how dimension set entries are stored and posted in ADD INCL
 ## Dimension Set Entries  
  Dimension sets are stored in the **Dimension Set Entry** table as dimension set entries with the same dimension set ID.  
   
- ![Dimension Entry overview](../ApplicationDesign/media/dimensionentrynav7.png "DimensionEntryNAV7")  
+ ![Dimension Entry overview](../FullExperience/media/dimensionentrynav7.png "DimensionEntryNAV7")  
   
  When you create a new journal line, document header, or document line, you can specify a combination of dimension values. Instead of explicitly storing each dimension value in the database, a dimension set ID is assigned to the journal line, document header, or document line to specify the dimension set.  
   
@@ -42,11 +42,11 @@ This topic describes how dimension set entries are stored and posted in ADD INCL
  By storing dimension sets once in the database, database space is preserved, and overall performance is improved.  
   
 ## See Also  
- [Design Details: Searching for Dimension Combinations](../ApplicationDesign/design-details-searching-for-dimension-combinations.md)   
- [Design Details: Table Structure](../ApplicationDesign/design-details-table-structure.md)   
- [Design Details: Codeunit 408 Dimension Management](../ApplicationDesign/design-details-codeunit-408-dimension-management.md)   
- [Design Details: Code Examples of Changed Patterns in Modifications](../ApplicationDesign/design-details-code-examples-of-changed-patterns-in-modifications.md)   
- [Design Details: Dimension Set Entries](../ApplicationDesign/design-details-dimension-set-entries.md)   
+ [Design Details: Searching for Dimension Combinations](../FullExperience/design-details-searching-for-dimension-combinations.md)   
+ [Design Details: Table Structure](../FullExperience/design-details-table-structure.md)   
+ [Design Details: Codeunit 408 Dimension Management](../FullExperience/design-details-codeunit-408-dimension-management.md)   
+ [Design Details: Code Examples of Changed Patterns in Modifications](../FullExperience/design-details-code-examples-of-changed-patterns-in-modifications.md)   
+ [Design Details: Dimension Set Entries](../FullExperience/design-details-dimension-set-entries.md)   
  Dimension Set Entry   
  Dimension Set Tree Node   
  Reclas. Dimension Set Buffer

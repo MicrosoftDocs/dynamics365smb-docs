@@ -16,7 +16,7 @@
 
     ---
 # How to: Set Up Customer Templates
-You may often have contacts or potential customers asking for quotes. These contacts or potential customers may not yet be registered as customers in ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]-->. In order for you to make service quotes for these requests, you should create and define one or more customer templates. You can then use the templates in the quotation phase, so that you do not have to create a customer. You use this template to pass on information that is necessary to create a customer from a contact card.  
+You may often have contacts or potential customers asking for quotes. These contacts or potential customers may not yet be registered as customers in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->. In order for you to make service quotes for these requests, you should create and define one or more customer templates. You can then use the templates in the quotation phase, so that you do not have to create a customer. You use this template to pass on information that is necessary to create a customer from a contact card.  
   
 ### To set up a customer template  
   
@@ -37,4 +37,4 @@ You may often have contacts or potential customers asking for quotes. These cont
  Repeat these steps for each customer template you want to set up.  
   
 ## See Also  
- [How to: Create Customers within Service Orders](../Sales/how-to-create-customers-within-service-orders.md)
+ [How to: Create Customers within Service Orders](../FullExperience/how-to-create-customers-within-service-orders.md)

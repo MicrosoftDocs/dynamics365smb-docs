@@ -25,5 +25,5 @@ Before you can use physical inventory order and physical inventory recording doc
 2.  On the **Numbering** FastTab, fill in the fields for physical inventory.  
   
 ## See Also  
- [How to: Enter Physical Inventory Orders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-enter-physical-inventory-orders.md)   
- [Physical Inventory Documents](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/physical-inventory-documents.md)
+ [How to: Enter Physical Inventory Orders](../FullExperience/how-to-enter-physical-inventory-orders.md)   
+ [Physical Inventory Documents](../FullExperience/physical-inventory-documents.md)

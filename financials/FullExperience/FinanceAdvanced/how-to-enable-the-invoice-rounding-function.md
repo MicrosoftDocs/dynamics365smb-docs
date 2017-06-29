@@ -27,6 +27,6 @@ To make sure that sales and purchase invoices are rounded automatically, you mus
  You can activate invoice rounding separately for sales and purchase invoices.  
   
 ## See Also  
- [How to: Set Up General Ledger Accounts for Invoice Rounding Differences](../Finance/how-to-set-up-general-ledger-accounts-for-invoice-rounding-differences.md)   
- [How to: Set Up Rounding Rules for Foreign Currency](../Finance/how-to-set-up-rounding-rules-for-foreign-currency.md)   
- [How to: Set Up Rounding Rules for the LCY](../Finance/how-to-set-up-rounding-rules-for-the-lcy.md)
+ [How to: Set Up General Ledger Accounts for Invoice Rounding Differences](../FullExperience/how-to-set-up-general-ledger-accounts-for-invoice-rounding-differences.md)   
+ [How to: Set Up Rounding Rules for Foreign Currency](../FullExperience/how-to-set-up-rounding-rules-for-foreign-currency.md)   
+ [How to: Set Up Rounding Rules for the LCY](../FullExperience/how-to-set-up-rounding-rules-for-the-lcy.md)

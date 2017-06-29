@@ -31,5 +31,5 @@ When you set up a new fixed asset, there are fields that must always be filled i
 4.  Close the window.  
   
 ## See Also  
- [How to: Enter Comments About Fixed Assets](../Finance/how-to-enter-comments-about-fixed-assets.md)   
- [How to: Insert Pictures in Fixed Assets](../Finance/how-to-insert-pictures-in-fixed-assets.md)
+ [How to: Enter Comments About Fixed Assets](../FullExperience/how-to-enter-comments-about-fixed-assets.md)   
+ [How to: Insert Pictures in Fixed Assets](../FullExperience/how-to-insert-pictures-in-fixed-assets.md)

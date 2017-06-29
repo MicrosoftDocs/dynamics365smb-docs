@@ -29,4 +29,4 @@ When you specify posting periods, you limit the period in which posting is allow
  The dates that you define here apply to the company and to all users.  
   
 > [!NOTE]  
->  If you want to define different posting periods for different users, you can set them up for each user in the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**User Setup** window. If you enter dates here, the dates entered on the **General** FastTab in the **General Ledger Setup** window will not apply to these users.
+>  If you want to define different posting periods for different users, you can set them up for each user in the ![Shortcut icon](../FullExperience/media/shortcutcoldicon.gif "shortcutColdIcon")**User Setup** window. If you enter dates here, the dates entered on the **General** FastTab in the **General Ledger Setup** window will not apply to these users.

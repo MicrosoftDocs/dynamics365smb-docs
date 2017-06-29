@@ -41,5 +41,5 @@ If you want to set up an outbound warehouse handling time to be included in the 
 ## See Also  
  Location Card   
  Inventory Setup   
- [Date Calculation for Sales](../Sales/date-calculation-for-sales.md)   
- [Date Calculation for Purchases](../Purchasing/date-calculation-for-purchases.md)
+ [Date Calculation for Sales](../FullExperience/date-calculation-for-sales.md)   
+ [Date Calculation for Purchases](../FullExperience/date-calculation-for-purchases.md)

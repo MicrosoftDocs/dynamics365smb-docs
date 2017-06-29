@@ -41,6 +41,6 @@ You need to report the Business Activity Statement \(BAS\) calculation informati
 10. In the **Calculate GST Settlement** window, make sure that the **\($ B\_11603\_F\_1\_13 Post $\)** field is selected. When you run the report, the resulting GST settlement postings include the fuel tax values.  
   
 ## See Also  
- [BAS Fuel Tax Credits](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/bas-fuel-tax-credits.md)   
- [How to: Set Up BAS XML Fields](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-set-up-bas-xml-fields.md)   
- [Business Activity Statements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/business-activity-statements.md)
+ [BAS Fuel Tax Credits](../FullExperience/bas-fuel-tax-credits.md)   
+ [How to: Set Up BAS XML Fields](../FullExperience/how-to-set-up-bas-xml-fields.md)   
+ [Business Activity Statements](../FullExperience/business-activity-statements.md)

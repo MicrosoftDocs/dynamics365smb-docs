@@ -29,9 +29,9 @@ Different account types, such as a customer account and an item account, can hav
 4.  Repeat the procedure for each source code for which you want to set up default dimension priorities.  
   
 > [!IMPORTANT]  
->  If you set up two tables with the same priority for the same source code, ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> will always select the table with the lowest table ID.  
+>  If you set up two tables with the same priority for the same source code, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> will always select the table with the lowest table ID.  
   
 ## See Also  
- [How to: Set Up Default Dimensions for One Account](../Finance/how-to-set-up-default-dimensions-for-one-account.md)   
+ [How to: Set Up Default Dimensions for One Account](../FullExperience/how-to-set-up-default-dimensions-for-one-account.md)   
  Default Dimension   
  Dimension

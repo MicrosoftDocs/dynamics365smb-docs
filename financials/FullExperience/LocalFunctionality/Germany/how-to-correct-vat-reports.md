@@ -41,11 +41,11 @@ If you have to submit a corrective VAT report or delete a submitted VAT report, 
      **Suggest Lines** will create entries to account for the difference between the filters.  
   
     > [!NOTE]  
-    >  If the updated filters exclude a customer or vendor, ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> creates a Cancellation line for the previous reported amount and a Correction entry with amount 0.  
+    >  If the updated filters exclude a customer or vendor, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> creates a Cancellation line for the previous reported amount and a Correction entry with amount 0.  
   
 ### To correct a VAT report  
   
-1.  Create a new VAT report. For more information, see [How to: Create VAT Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-create-vat-reports.md).  
+1.  Create a new VAT report. For more information, see [How to: Create VAT Reports](../FullExperience/how-to-create-vat-reports.md).  
   
 2.  Fill in the fields in the **General** FastTab, and set the **VAT Report Type** field to Corrective.  
   
@@ -62,4 +62,4 @@ If you have to submit a corrective VAT report or delete a submitted VAT report, 
 6.  Continue with the VAT report creation process, and release the report.  
   
 ## See Also  
- [How to: Set Up VAT Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-set-up-vat-reports.md)
+ [How to: Set Up VAT Reports](../FullExperience/how-to-set-up-vat-reports.md)

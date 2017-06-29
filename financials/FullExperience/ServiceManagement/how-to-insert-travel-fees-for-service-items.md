@@ -26,13 +26,13 @@ When working on service items in service orders, you may need to register travel
   
 2.  Select the line that includes the relevant service item. On the **Navigate** tab, in the **Service Tasks** group, choose **Item Worksheet**.  
   
-3.  On the **Lines** FastTab, select the relevant line. Choose **Actions**![Action Menu icon](../DesignAndEngineering/media/actionmenuicon.png "actionMenuIcon"), choose **Functions**, and then choose **Insert Travel Fee**.  
+3.  On the **Lines** FastTab, select the relevant line. Choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Functions**, and then choose **Insert Travel Fee**.  
   
      A service line is inserted with the travel fee to the service zone where the customer in the service order is located. The travel fee applies to the selected service item.  
   
 ## See Also  
- [How to: Insert Travel Fees for Service Orders](../Service/how-to-insert-travel-fees-for-service-orders.md)   
- [How to: Set Up Service Costs](../Service/how-to-set-up-service-costs.md)   
- [How to: Set Up Service Zones](../Service/how-to-set-up-service-zones.md)   
- [How to: Register Costs for Service Items](../Service/how-to-register-costs-for-service-items.md)   
- [How to: Register Costs for Service Orders](../Service/how-to-register-costs-for-service-orders.md)
+ [How to: Insert Travel Fees for Service Orders](../FullExperience/how-to-insert-travel-fees-for-service-orders.md)   
+ [How to: Set Up Service Costs](../FullExperience/how-to-set-up-service-costs.md)   
+ [How to: Set Up Service Zones](../FullExperience/how-to-set-up-service-zones.md)   
+ [How to: Register Costs for Service Items](../FullExperience/how-to-register-costs-for-service-items.md)   
+ [How to: Register Costs for Service Orders](../FullExperience/how-to-register-costs-for-service-orders.md)

@@ -29,5 +29,5 @@ The where-used option displays where a component is used.
 4.  Close the window.  
   
 ## See Also  
- [Concepts of Production BOMs](../DesignAndEngineering/concepts-of-production-boms.md)   
- [How to: Find Where Production BOMs Are Used](../DesignAndEngineering/how-to-find-where-production-boms-are-used.md)
+ [Concepts of Production BOMs](../FullExperience/concepts-of-production-boms.md)   
+ [How to: Find Where Production BOMs Are Used](../FullExperience/how-to-find-where-production-boms-are-used.md)

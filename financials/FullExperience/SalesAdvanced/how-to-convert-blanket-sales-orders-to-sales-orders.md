@@ -37,5 +37,5 @@ You can either convert an entire blanket order into one order, or you can make i
 ## See Also  
  Blanket Sales Order   
  Sales Order   
- [How to: Create Blanket Sales Orders](../Sales/how-to-create-blanket-sales-orders.md)   
- [About Blanket Sales Orders](../Sales/about-blanket-sales-orders.md)
+ [How to: Create Blanket Sales Orders](../FullExperience/how-to-create-blanket-sales-orders.md)   
+ [About Blanket Sales Orders](../FullExperience/about-blanket-sales-orders.md)

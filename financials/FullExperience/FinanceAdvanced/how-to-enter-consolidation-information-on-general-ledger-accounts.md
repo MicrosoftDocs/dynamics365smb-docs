@@ -20,19 +20,19 @@ After setting up the chart of accounts for a consolidated company, you must spec
   
 ### To enter consolidation information on general ledger accounts  
   
-1.  On the Application menu ![Microsoft Dynamics NAV Application menu](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/media/rtc_applicationmenu.png "RTC\_ApplicationMenu"), choose **Select Company** to open the company for a business unit.  
+1.  On the Application menu ![Microsoft Dynamics NAV Application menu](../FullExperience/media/rtc_applicationmenu.png "RTC\_ApplicationMenu"), choose **Select Company** to open the company for a business unit.  
   
 2.  In the **Search** box, enter **Chart of Accounts**, and then choose the related link.  
   
 3.  In the **Chart of Accounts** window, for each general ledger account that has the **Posting** type, fill in the **Consol. Debit Acc.**, **Consol. Credit Acc.**, and **Consol. Translation Method** fields. ADD INCLUDE<!--[!INCLUDE[bp_fieldhelp]()]-->  
   
     > [!IMPORTANT]  
-    >  These fields are available in the Chart of Accounts window, but not shown by default. ADD INCLUDE<!--[!INCLUDE[bp_customize](../Finance/includes/bp_customize_md.md)]-->  
+    >  These fields are available in the Chart of Accounts window, but not shown by default. ADD INCLUDE<!--[!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]-->  
   
 4.  After entering account numbers for all the general ledger accounts, close the **Chart of Accounts** window.  
   
  If you have more than one business unit in the same database, close the current company, open another business unit ,and repeat the procedure.  
   
 ## See Also  
- [How to: Process Consolidations](../Finance/how-to-process-consolidations.md)   
+ [How to: Process Consolidations](../FullExperience/how-to-process-consolidations.md)   
  Chart of Accounts

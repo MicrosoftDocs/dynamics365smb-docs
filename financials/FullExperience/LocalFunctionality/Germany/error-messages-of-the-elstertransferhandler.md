@@ -16,16 +16,16 @@
 
     ---
 # Error Messages of the ElsterTransferHandler
-When ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> submits sales VAT advance notifications, errors can occur.  
+When ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> submits sales VAT advance notifications, errors can occur.  
   
- For example, if the configuration file for the Microsoft.Dynamics.ElsterTransferHandler.dll assembly does not contain the correct friendly name of the public certificate, the ELSTER portal returns error 3400, and ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> displays the corresponding error message.  
+ For example, if the configuration file for the Microsoft.Dynamics.ElsterTransferHandler.dll assembly does not contain the correct friendly name of the public certificate, the ELSTER portal returns error 3400, and ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> displays the corresponding error message.  
   
 ## Error Messages  
- The following table lists the error messages that the ELSTER portal sends to ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->.  
+ The following table lists the error messages that the ELSTER portal sends to ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
   
-|**Error number**|**ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->**|  
+|**Error number**|**ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->**|  
 |----------------------|-------------------------------------------|  
-|1000|ELSTER cannot identify the sender as ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->. The Microsoft.Dynamics.ElsterTransferHandler.dll assembly can only be used with Microsoft Dynamics products.|  
+|1000|ELSTER cannot identify the sender as ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->. The Microsoft.Dynamics.ElsterTransferHandler.dll assembly can only be used with Microsoft Dynamics products.|  
 |2000|No connection could be made to the OFD servers while transmitting data. This can be a problem with your network connection. Check your network configuration, or try again later.|  
 |2100|The XML file could not been sent because the connection was lost unexpectedly.|  
 |2200|No connection could be made to the OFD servers while receiving data. This can be a problem with your network connection. Check your network configuration, or try again later.|  
@@ -39,13 +39,13 @@ When ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md
 |4100|The response document could not be decrypted. Data can have been damaged during transmission. You must submit the document again.|  
 |5000|The document could not be compressed. This can be caused by a lack of sufficient memory on the computer, or that the operating system has stopped the compression process. You must submit the document again.|  
 |5100|The document could not be decompressed. You must submit the document again.|  
-|6000|The proxy server does not respond. You must make sure that the setup of sales VAT advance notifications is correct in ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->.|  
-|6100|The user is not able to connect to the server. You must make sure that the setup of sales VAT advance notifications is correct in ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->.|  
-|6200|The user could not be registered on the proxy server. You must make sure that the setup of sales VAT advance notifications is correct in ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->.|  
-|7000|The data could not be signed because the configured certificate cannot be used for signing data. You must make sure that the setup of sales VAT advance notifications is correct in ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->.|  
+|6000|The proxy server does not respond. You must make sure that the setup of sales VAT advance notifications is correct in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.|  
+|6100|The user is not able to connect to the server. You must make sure that the setup of sales VAT advance notifications is correct in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.|  
+|6200|The user could not be registered on the proxy server. You must make sure that the setup of sales VAT advance notifications is correct in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.|  
+|7000|The data could not be signed because the configured certificate cannot be used for signing data. You must make sure that the setup of sales VAT advance notifications is correct in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.|  
 |7100|The XML document could not be signed. This can be caused by a lack of sufficient memory on the computer, or that the operating system has stopped the compression process.|  
 |9000|An error occurred when the ELSTER portal was trying to read the configuration of the certificate. You must verify the content of the generated XML document.|  
   
 ## See Also  
- [ELSTER Transmission Overview](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/elster-transmission-overview.md)   
- [How to: Set Up Sales VAT Advance Notifications for ELSTER](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-set-up-sales-vat-advance-notifications-for-elster.md)
+ [ELSTER Transmission Overview](../FullExperience/elster-transmission-overview.md)   
+ [How to: Set Up Sales VAT Advance Notifications for ELSTER](../FullExperience/how-to-set-up-sales-vat-advance-notifications-for-elster.md)

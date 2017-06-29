@@ -34,7 +34,7 @@ In the United States, states, counties, cities, and localities can charge sales 
   
 3.  In the **New - Tax Jurisdictions** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Code**|The code that you want to assign to the tax jurisdiction. You can enter up to 10 alphanumeric characters.|  
     |**Description**|A description of the tax jurisdiction.|  
@@ -43,9 +43,9 @@ In the United States, states, counties, cities, and localities can charge sales 
     |**Reverse Charge \(Purchases\)**|The general ledger account that you want to use to post calculated reverse-charge tax on purchase transactions.|  
     |**Report-to Jurisdiction**|The tax jurisdiction that you want to associate with the jurisdiction that you are setting up.|  
     |**Country**|The country\/region used for the sales tax calculation.|  
-    |**Calculate Tax on Tax**|Select to calculate additional sales tax for the current jurisdiction. This tax is on top of the sales tax that has already been charged for previous jurisdictions. This is calculated based on the principle of tax on tax. **Important:**  This field is available in the **Tax Jurisdiction** window, but it is not shown by default. To select the field, you must first add the column that shows this field. ADD INCLUDE<!--[!INCLUDE[bp_customize](../../Finance/includes/bp_customize_md.md)]-->|  
-    |**Print Description**|The description that prints on documents in place of the jurisdiction description. **Important:**  This field is available in the **Tax Jurisdiction** window, but it is not shown by default. To select the field, you must first add the column that shows this field. ADD INCLUDE<!--[!INCLUDE[bp_customize](../../Finance/includes/bp_customize_md.md)]-->|  
-    |**Print Order**|The order in which the jurisdictions are printed. **Important:**  This field is available in the **Tax Jurisdiction** window, but it is not shown by default. To select the field, you must first add the column that shows this field. ADD INCLUDE<!--[!INCLUDE[bp_customize](../../Finance/includes/bp_customize_md.md)]-->|  
+    |**Calculate Tax on Tax**|Select to calculate additional sales tax for the current jurisdiction. This tax is on top of the sales tax that has already been charged for previous jurisdictions. This is calculated based on the principle of tax on tax. **Important:**  This field is available in the **Tax Jurisdiction** window, but it is not shown by default. To select the field, you must first add the column that shows this field. ADD INCLUDE<!--[!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]-->|  
+    |**Print Description**|The description that prints on documents in place of the jurisdiction description. **Important:**  This field is available in the **Tax Jurisdiction** window, but it is not shown by default. To select the field, you must first add the column that shows this field. ADD INCLUDE<!--[!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]-->|  
+    |**Print Order**|The order in which the jurisdictions are printed. **Important:**  This field is available in the **Tax Jurisdiction** window, but it is not shown by default. To select the field, you must first add the column that shows this field. ADD INCLUDE<!--[!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]-->|  
   
 4.  Choose the **OK** button.  
   
@@ -57,7 +57,7 @@ In the United States, states, counties, cities, and localities can charge sales 
   
 3.  On the **General** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Code**|The code that you want to assign to the tax area.|  
     |**Description**|The description for the tax area.|  
@@ -67,7 +67,7 @@ In the United States, states, counties, cities, and localities can charge sales 
   
 4.  On the **Lines** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Tax Jurisdiction Code**|The tax jurisdiction code.|  
     |**Jurisdiction Description**|This field is populated when you enter the tax jurisdiction code.|  
@@ -76,8 +76,8 @@ In the United States, states, counties, cities, and localities can charge sales 
 5.  Choose the **OK** button.  
   
 ## See Also  
- [How to: Set Up Sales Tax](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-set-up-sales-tax.md)   
- [How to: Set Up Sales Tax Groups](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-set-up-sales-tax-groups.md)   
- [How to: Set Up Sales Tax Details](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-set-up-sales-tax-details.md)   
- [How to: Set Up Unrealized Sales Tax and Sales Payment Discounts](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)   
- [How to: Set Up Use Tax and Purchase Tax](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-set-up-use-tax-and-purchase-tax.md)
+ [How to: Set Up Sales Tax](../FullExperience/how-to-set-up-sales-tax.md)   
+ [How to: Set Up Sales Tax Groups](../FullExperience/how-to-set-up-sales-tax-groups.md)   
+ [How to: Set Up Sales Tax Details](../FullExperience/how-to-set-up-sales-tax-details.md)   
+ [How to: Set Up Unrealized Sales Tax and Sales Payment Discounts](../FullExperience/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)   
+ [How to: Set Up Use Tax and Purchase Tax](../FullExperience/how-to-set-up-use-tax-and-purchase-tax.md)

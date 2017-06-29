@@ -16,11 +16,11 @@
 
     ---
 # How to: Open Microsoft Dynamics NAV in Configuration Mode
-To configure a profile, for example to customize the profile’s user interface, you must open the ADD INCLUDE<!--[!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)]--> in configuration mode.  
+To configure a profile, for example to customize the profile’s user interface, you must open the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/nav_windows_md.md)]--> in configuration mode.  
   
-### To open the ADD INCLUDE<!--[!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)]--> in configuration mode  
+### To open the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/nav_windows_md.md)]--> in configuration mode  
   
-1.  At the command prompt, navigate to the root folder of the ADD INCLUDE<!--[!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)]-->. For example:  
+1.  At the command prompt, navigate to the root folder of the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/nav_windows_md.md)]-->. For example:  
   
     ```  
     cd navnow_x86install\RoleTailored Client  
@@ -34,13 +34,13 @@ To configure a profile, for example to customize the profile’s user interface,
   
      Replace **profileid** with the name of the profile that you want to configure.  
   
-     For example, to configure the Accounting Manager profile, use this command to open the ADD INCLUDE<!--[!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)]--> in configuration mode:  
+     For example, to configure the Accounting Manager profile, use this command to open the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/nav_windows_md.md)]--> in configuration mode:  
   
     ```  
     Microsoft.Dynamics.Nav.Client.exe -configure -profile:"Accounting Manager"  
     ```  
   
 ## See Also  
- [Configure the User Interface](../SetupAndAdministration/configure-the-user-interface.md)   
- [How to: Create a Profile](../SetupAndAdministration/how-to-create-a-profile.md)   
- [How to: Assign a User to a Profile](../SetupAndAdministration/how-to-assign-a-user-to-a-profile.md)
+ [Configure the User Interface](../FullExperience/configure-the-user-interface.md)   
+ [How to: Create a Profile](../FullExperience/how-to-create-a-profile.md)   
+ [How to: Assign a User to a Profile](../FullExperience/how-to-assign-a-user-to-a-profile.md)

@@ -33,6 +33,6 @@ You can copy production BOMs. Make sure that the BOM you copy to is not certifie
 6.  Close the window.  
   
 ## See Also  
- [Concepts of Production BOMs](../DesignAndEngineering/concepts-of-production-boms.md)   
- [How to: Create Production BOMs](../DesignAndEngineering/how-to-create-production-boms.md)   
- [How to: Copy Versions of Production BOMs](../DesignAndEngineering/how-to-copy-versions-of-production-boms.md)
+ [Concepts of Production BOMs](../FullExperience/concepts-of-production-boms.md)   
+ [How to: Create Production BOMs](../FullExperience/how-to-create-production-boms.md)   
+ [How to: Copy Versions of Production BOMs](../FullExperience/how-to-copy-versions-of-production-boms.md)

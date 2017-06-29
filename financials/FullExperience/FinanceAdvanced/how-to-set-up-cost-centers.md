@@ -64,10 +64,10 @@ Cost centers are departments that are responsible for costs and income. The char
 ## See Also  
  Chart of Cost Centers   
  Cost Center Card   
- [Defining Cost Centers and Cost Objects for Chart of Accounts](../Finance/defining-cost-centers-and-cost-objects-for-chart-of-accounts.md)   
- [Balances Between Cost Type, Cost Center, and Cost Object](../Finance/balances-between-cost-type-cost-center-and-cost-object.md)   
+ [Defining Cost Centers and Cost Objects for Chart of Accounts](../FullExperience/defining-cost-centers-and-cost-objects-for-chart-of-accounts.md)   
+ [Balances Between Cost Type, Cost Center, and Cost Object](../FullExperience/balances-between-cost-type-cost-center-and-cost-object.md)   
  Update Cost Acctg. Dimensions   
  Align Cost Center Dimension   
- [Set Up Cost Accounting](../Finance/set-up-cost-accounting.md)   
- [Terminology in Cost Accounting](../Finance/terminology-in-cost-accounting.md)   
- [About Cost Accounting](../Finance/about-cost-accounting.md)
+ [Set Up Cost Accounting](../FullExperience/set-up-cost-accounting.md)   
+ [Terminology in Cost Accounting](../FullExperience/terminology-in-cost-accounting.md)   
+ [About Cost Accounting](../FullExperience/about-cost-accounting.md)

@@ -23,4 +23,4 @@ If your company has different types of addresses, such as a legal address or an 
   
 ## See Also  
  Company Information   
- [Statutory Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/statutory-reports.md)
+ [Statutory Reports](../FullExperience/statutory-reports.md)

@@ -16,12 +16,12 @@
 
     ---
 # How to: Create Electronic Documents for EHF
-When you sell goods or services to a customer in the public sector, you must submit documents electronically. In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you can create electronic documents for invoices, credit memos, reminders, and finance charge memos. Before you can create the electronic documents, you must have set up file locations and information about the customers. For more information, see [How to: Set Up EHF](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-set-up-ehf.md) and [How to: Set Up Customers for EHF](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-set-up-customers-for-ehf.md).  
+When you sell goods or services to a customer in the public sector, you must submit documents electronically. In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-set-up-customers-for-ehf.md).  
   
  Electronic documents can only be created after a document has been posted or issued. The following procedures describe how to post a sales invoice with the required information and then create an electronic sales invoice, but the same steps also apply to sales credit memos, reminders, finance charge memos, service invoices, and service credit memos.  
   
 > [!NOTE]  
->  The sum of lines in an exported electronic document will not reflect invoice rounding, even if it is enabled. Instead, ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> sums the lines without rounding.  
+>  The sum of lines in an exported electronic document will not reflect invoice rounding, even if it is enabled. Instead, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> sums the lines without rounding.  
   
 ### To post a sales invoice  
   
@@ -74,9 +74,9 @@ When you sell goods or services to a customer in the public sector, you must sub
  An XML file is created and stored at the location that was defined in the **\($ N\_459 Sales & Receivables Setup $\)** window. You can now submit the document to the customer.  
   
 ## See Also  
- [EHF Electronic Invoicing in Norway](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/ehf-electronic-invoicing-in-norway.md)   
- [\($ T\_311 Sales & Receivables Setup $\)](../Topic/\($%20T_311%20Sales%20&%20Receivables%20Setup%20$\).md)   
- [\($ N\_459 Sales & Receivables Setup $\)-duplicate](../../Sales/-$-n_459-sales-receivables-setup-$-duplicate.md)   
+ [EHF Electronic Invoicing in Norway](../FullExperience/ehf-electronic-invoicing-in-norway.md)   
+ [\($ T\_311 Sales & Receivables Setup $\)](../FullExperience/\($%20T_311%20Sales%20&%20Receivables%20Setup%20$\).md)   
+ [\($ N\_459 Sales & Receivables Setup $\)-duplicate](../FullExperience/-$-n_459-sales-receivables-setup-$-duplicate.md)   
  Create Electronic Credit Memos   
  Create Electronic Invoices   
  Create Electronic Reminders   

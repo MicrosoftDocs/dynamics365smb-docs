@@ -30,5 +30,5 @@ If you are using bins at a location, assigning default bins to your items can ma
 >  When an item is put away, if the item does not have a default bin assigned, the bin where the item is put away is assigned as the default.  
   
 ## See Also  
- [How to: Create Bin Content in Worksheets](../WarehouseActivities/how-to-create-bin-content-in-worksheets.md)   
- [How to: Change Default Bins for Items](../WarehouseActivities/how-to-change-default-bins-for-items.md)
+ [How to: Create Bin Content in Worksheets](../FullExperience/how-to-create-bin-content-in-worksheets.md)   
+ [How to: Change Default Bins for Items](../FullExperience/how-to-change-default-bins-for-items.md)

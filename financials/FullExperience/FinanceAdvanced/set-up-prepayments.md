@@ -26,10 +26,10 @@ Prepayments are payments that are invoiced and posted to a sales or purchase pre
   
 |**To**|**See**|  
 |------------|-------------|  
-|Set up the general ledger accounts in which prepayments will be stored until the items are shipped.|"Set Up G\/L Accounts for Prepayments" in [Setting Up Prepayments](../Purchasing/how-to-define-prepayment-percentages.md)|  
-|Assign the general ledger accounts for prepayments in the general posting setup.|"Add Prepayment Accounts to the General Posting Setup" in [Setting Up Prepayments](../Purchasing/how-to-define-prepayment-percentages.md)|  
-|Set up number series for prepayment documents.|"Set Up Number Series for Prepayment Documents to the General Posting Setup" in [Setting Up Prepayments](../Purchasing/how-to-define-prepayment-percentages.md)|  
-|Set up default prepayment percentages that apply to all items for one customer, or to one item for a specific customer, customer group, or all customers.|"Set Up Prepayment Percentages for Items, Customers, and\/or Vendors" in [Setting Up Prepayments](../Purchasing/how-to-define-prepayment-percentages.md)|  
+|Set up the general ledger accounts in which prepayments will be stored until the items are shipped.|"Set Up G\/L Accounts for Prepayments" in [Setting Up Prepayments](../FullExperience/how-to-define-prepayment-percentages.md)|  
+|Assign the general ledger accounts for prepayments in the general posting setup.|"Add Prepayment Accounts to the General Posting Setup" in [Setting Up Prepayments](../FullExperience/how-to-define-prepayment-percentages.md)|  
+|Set up number series for prepayment documents.|"Set Up Number Series for Prepayment Documents to the General Posting Setup" in [Setting Up Prepayments](../FullExperience/how-to-define-prepayment-percentages.md)|  
+|Set up default prepayment percentages that apply to all items for one customer, or to one item for a specific customer, customer group, or all customers.|"Set Up Prepayment Percentages for Items, Customers, and\/or Vendors" in [Setting Up Prepayments](../FullExperience/how-to-define-prepayment-percentages.md)|  
   
 ## See Also  
- [Invoice Prepayments](../Finance/invoice-prepayments.md)
+ [Invoice Prepayments](../FullExperience/invoice-prepayments.md)

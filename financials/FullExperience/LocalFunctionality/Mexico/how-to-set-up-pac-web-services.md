@@ -18,7 +18,7 @@
 # How to: Set Up PAC Web Services
 Before you can send invoices and credit memos electronically, you must specify one or more providers of the electronic stamp that must be included in invoices in Mexico.  
   
- When you send an electronic document, it must receive a digital stamp by an authorized service provider, PAC, before it can be sent to your customer. The communication between ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> and the PAC is managed through web services, and therefore, you must specify technical information about the web services of the PAC that you intend to use.  
+ When you send an electronic document, it must receive a digital stamp by an authorized service provider, PAC, before it can be sent to your customer. The communication between ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> and the PAC is managed through web services, and therefore, you must specify technical information about the web services of the PAC that you intend to use.  
   
  To use web services, you must identify the name of the method on the web service that processes requests for digital stamps. Your PAC can give you this information.  
   
@@ -30,7 +30,7 @@ Before you can send invoices and credit memos electronically, you must specify o
   
 2.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---
     title: Insert topic title| Microsoft Docs
     description: Insert description
@@ -61,5 +61,5 @@ Before you can send invoices and credit memos electronically, you must specify o
     >  SAT has certified more than one PAC in Mexico, and you must obtain the appropriate information for communication with the PAC of your choice.  
   
 ## See Also  
- [Electronic Invoicing](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Mexico/electronic-invoicing.md)   
- [How to: Set Up Electronic Invoicing](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Mexico/how-to-set-up-electronic-invoicing.md)
+ [Electronic Invoicing](../FullExperience/electronic-invoicing.md)   
+ [How to: Set Up Electronic Invoicing](../FullExperience/how-to-set-up-electronic-invoicing.md)

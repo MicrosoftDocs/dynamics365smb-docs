@@ -20,9 +20,9 @@ Outbound handling of serial or lot numbers is a frequent task in different wareh
   
  In simple processes, the inventory items already carry item tracking numbers, and these numbers are automatically transferred through all outbound warehouse activities without an interaction by warehouse workers.  
   
- In other processes, the inventory items do not carry item tracking numbers, and the warehouse worker must assign new during the outbound handling, typically from a predefined number series. For more information, see [How to: Assign Serial Numbers and Lot Numbers During Outbound Transactions](../WarehouseActivities/how-to-assign-serial-numbers-and-lot-numbers-during-outbound-transactions.md).  
+ In other processes, the inventory items do not carry item tracking numbers, and the warehouse worker must assign new during the outbound handling, typically from a predefined number series. For more information, see [How to: Assign Serial Numbers and Lot Numbers During Outbound Transactions](../FullExperience/how-to-assign-serial-numbers-and-lot-numbers-during-outbound-transactions.md).  
   
- In special processes, the inventory items already carry item tracking numbers, but the warehouse worker must select them specifically during the outbound handling. For more information, see [How to: Select from Existing Serial Numbers and Lot Numbers](../DesignAndEngineering/how-to-select-from-existing-serial-numbers-and-lot-numbers.md). This process is typically used when the item is set up for specific tracking. For more information, see Lot Specific Tracking.  
+ In special processes, the inventory items already carry item tracking numbers, but the warehouse worker must select them specifically during the outbound handling. For more information, see [How to: Select from Existing Serial Numbers and Lot Numbers](../FullExperience/how-to-select-from-existing-serial-numbers-and-lot-numbers.md). This process is typically used when the item is set up for specific tracking. For more information, see Lot Specific Tracking.  
   
  In some situations, the serial or lot numbers are already defined on the source document, which the warehouse worker must respect during the outbound warehouse handling. This may be because the customer requested a specific lot during the order process. In that case, warehouse workers must pick the specific serial or lot numbers, similarly to the special process above, but they have little means of editing the **Item Tracking Lines** window.  
   
@@ -43,10 +43,10 @@ Outbound handling of serial or lot numbers is a frequent task in different wareh
  Instead, change the **Qty. to Handle** field to zero, post the other pick lines, and then delete the pick document. This makes sure that the pick lines for those serial or lot numbers can be recreated from the source document later.  
   
 ## See Also  
- [Pick Items](../WarehouseActivities/pick-items.md)   
+ [Pick Items](../FullExperience/pick-items.md)   
  Item Tracking Lines   
- [How to: Assign Serial Numbers and Lot Numbers During Outbound Transactions](../WarehouseActivities/how-to-assign-serial-numbers-and-lot-numbers-during-outbound-transactions.md)   
- [How to: Set Up Warehouse Management](../WarehouseActivities/how-to-set-up-warehouse-management.md)   
- [Design Details: Warehouse Management](../ApplicationDesign/design-details-warehouse-management.md)   
+ [How to: Assign Serial Numbers and Lot Numbers During Outbound Transactions](../FullExperience/how-to-assign-serial-numbers-and-lot-numbers-during-outbound-transactions.md)   
+ [How to: Set Up Warehouse Management](../FullExperience/how-to-set-up-warehouse-management.md)   
+ [Design Details: Warehouse Management](../FullExperience/design-details-warehouse-management.md)   
  Lot Specific Tracking   
  Lot Warehouse Tracking

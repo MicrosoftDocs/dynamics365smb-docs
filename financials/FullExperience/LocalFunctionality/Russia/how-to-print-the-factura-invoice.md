@@ -36,4 +36,4 @@ The Factura-Invoice.
   
 ## See Also  
  Custom Declarations   
- [How to: Enter Custom Declarations Information](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-enter-custom-declarations-information.md)
+ [How to: Enter Custom Declarations Information](../FullExperience/how-to-enter-custom-declarations-information.md)

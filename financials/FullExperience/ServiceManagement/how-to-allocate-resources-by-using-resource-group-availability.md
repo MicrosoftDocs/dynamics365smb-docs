@@ -46,6 +46,6 @@ When you have created service orders or quotes, you can make use of resource gro
 >  For a service item in a service order, there can only be **Active** allocation entries with one resource or resource group at a time.  
   
 ## See Also  
- [How to: Allocate Resource Groups](../Service/how-to-allocate-resource-groups.md)   
- [How to: Allocate Resources by Using Resource Availability](../Service/how-to-allocate-resources-by-using-resource-availability.md)   
- [How to: Cancel Allocations](../Service/how-to-cancel-allocations.md)
+ [How to: Allocate Resource Groups](../FullExperience/how-to-allocate-resource-groups.md)   
+ [How to: Allocate Resources by Using Resource Availability](../FullExperience/how-to-allocate-resources-by-using-resource-availability.md)   
+ [How to: Cancel Allocations](../FullExperience/how-to-cancel-allocations.md)

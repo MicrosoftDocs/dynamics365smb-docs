@@ -27,7 +27,7 @@ Companies must deliver their VAT and ICP declarations electronically to the tax 
   
 3.  Enter general data and personal data received from the tax authorities in the Elec. Tax Declaration Setup Window window.  
   
- For more information, see [Electronic VAT and ICP Declarations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/electronic-vat-and-icp-declarations.md).  
+ For more information, see [Electronic VAT and ICP Declarations](../FullExperience/electronic-vat-and-icp-declarations.md).  
   
 ## Create and Submit Electronic Declarations  
  When the tasks stated above are finished the application can create and submit VAT and ICP declarations to the tax authorities.  
@@ -35,7 +35,7 @@ Companies must deliver their VAT and ICP declarations electronically to the tax 
  For each electronic declaration the tax authorities will send a response message. These messages must be received from the server of the tax authorities and processed.  
   
 ## Response Message from the Tax Authorities  
- The tax authorities will send a response message to inform the company about the status of their electronic declarations. The first step is to import the response messages from the tax authorities in ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->. The second step is processing the response messages.  
+ The tax authorities will send a response message to inform the company about the status of their electronic declarations. The first step is to import the response messages from the tax authorities in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->. The second step is processing the response messages.  
   
  The response message must be linked to the related electronic tax declaration. For more information, see Elec. Tax Declaration Header Table. If no accompanying electronic tax declaration is found, an error message will appear.  
   
@@ -54,8 +54,8 @@ Companies must deliver their VAT and ICP declarations electronically to the tax 
  To setup electronic declarations for subsidiaries of a holding company, you must place a check mark in the field Part of Fiscal Entity Field in the Elec. Tax Declaration Setup Window window.  
   
 ## See Also  
- [Electronic VAT and ICP Declarations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/electronic-vat-and-icp-declarations.md)   
- [OBSOLETE: General Parameters and Certificates](../Topic/OBSOLETE:%20General%20Parameters%20and%20Certificates.md)   
- [OBSOLETE: How to: Set Up PKI-Based User Certificates for Electronic Tax Declarations](../Topic/OBSOLETE:%20How%20to:%20Set%20Up%20PKI-Based%20User%20Certificates%20for%20Electronic%20Tax%20Declarations.md)   
- [OBSOLETE: How to: Register for Electronic VAT and ICP Declarations](../Topic/OBSOLETE:%20How%20to:%20Register%20for%20Electronic%20VAT%20and%20ICP%20Declarations.md)   
+ [Electronic VAT and ICP Declarations](../FullExperience/electronic-vat-and-icp-declarations.md)   
+ [OBSOLETE: General Parameters and Certificates](../FullExperience/OBSOLETE:%20General%20Parameters%20and%20Certificates.md)   
+ [OBSOLETE: How to: Set Up PKI-Based User Certificates for Electronic Tax Declarations](../FullExperience/OBSOLETE:%20How%20to:%20Set%20Up%20PKI-Based%20User%20Certificates%20for%20Electronic%20Tax%20Declarations.md)   
+ [OBSOLETE: How to: Register for Electronic VAT and ICP Declarations](../FullExperience/OBSOLETE:%20How%20to:%20Register%20for%20Electronic%20VAT%20and%20ICP%20Declarations.md)   
  Elec. Tax Declaration Setup Window

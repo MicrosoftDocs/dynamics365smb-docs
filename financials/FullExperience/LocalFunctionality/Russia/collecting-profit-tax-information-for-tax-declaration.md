@@ -35,8 +35,8 @@ To reduce the labor required to complete a profit tax declaration and to simplif
 -   Supplement 7 to Sheet 02. Non – Sales Costs and Losses to be understood as non–sale  
   
 ## See Also  
- [Tax Accounting](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/tax-accounting.md)   
- [How to: Set Up Tax Register Sections](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-set-up-tax-register-sections.md)   
- [How to: Create Tax Registers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-create-tax-registers.md)   
- [Tax Differences](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/tax-differences.md)   
+ [Tax Accounting](../FullExperience/tax-accounting.md)   
+ [How to: Set Up Tax Register Sections](../FullExperience/how-to-set-up-tax-register-sections.md)   
+ [How to: Create Tax Registers](../FullExperience/how-to-create-tax-registers.md)   
+ [Tax Differences](../FullExperience/tax-differences.md)   
  [Tax Reports](assetId:///e42ca8e7-1cee-4fb8-9f71-e596f29cabc3)

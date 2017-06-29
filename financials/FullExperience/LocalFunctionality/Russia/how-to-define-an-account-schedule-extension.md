@@ -16,7 +16,7 @@
 
     ---
 # How to: Define an Account Schedule Extension
-ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> enables you to define an extension for an account schedule line. Extensions are useful if you want to filter the data of your general ledger accounts.  
+ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> enables you to define an extension for an account schedule line. Extensions are useful if you want to filter the data of your general ledger accounts.  
   
 ### To define an account schedule extension  
   
@@ -33,8 +33,8 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]
 ## See Also  
  Account Schedule Names   
  Account Schedule   
- [Account Schedule-duplicate](../Topic/\($%20R_25%20Account%20Schedule%20$\)-duplicate.md)   
- [How to: Create New Account Schedules](../../BusinessIntelligence/how-to-create-new-account-schedules.md)   
- [Create and Set Up Account Schedules](../../BusinessIntelligence/create-and-set-up-account-schedules.md)   
- [Account Schedules Overview](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/account-schedules-overview.md)   
- [How to: Define an Account Schedule Constant](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-define-an-account-schedule-constant.md)
+ [Account Schedule-duplicate](../FullExperience/\($%20R_25%20Account%20Schedule%20$\)-duplicate.md)   
+ [How to: Create New Account Schedules](../FullExperience/how-to-create-new-account-schedules.md)   
+ [Create and Set Up Account Schedules](../FullExperience/create-and-set-up-account-schedules.md)   
+ [Account Schedules Overview](../FullExperience/account-schedules-overview.md)   
+ [How to: Define an Account Schedule Constant](../FullExperience/how-to-define-an-account-schedule-constant.md)

@@ -70,5 +70,5 @@ The customer and vendor agreements feature provides the following:
      The agreements are fully synchronized with dimensions. You can post transactions and choose the dimension value code of the appropriate agreement from the list of agreements.  
   
 ## See Also  
- [Russian Receivables Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/russian-receivables-reports.md)   
- [Russian Payables Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/russian-payables-reports.md)
+ [Russian Receivables Reports](../FullExperience/russian-receivables-reports.md)   
+ [Russian Payables Reports](../FullExperience/russian-payables-reports.md)

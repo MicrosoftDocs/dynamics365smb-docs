@@ -29,6 +29,6 @@ You can use the **Symptom Codes** window to set up symptom codes to describe pos
  Repeat these steps for each symptom code that you want to create.  
   
 ## See Also  
- [How to: Set Up Fault Areas](../Service/how-to-set-up-fault-areas.md)   
- [How to: Set Up Fault Codes](../Service/how-to-set-up-fault-codes.md)   
- [How to: Register Fault Codes](../Service/how-to-register-fault-codes.md)
+ [How to: Set Up Fault Areas](../FullExperience/how-to-set-up-fault-areas.md)   
+ [How to: Set Up Fault Codes](../FullExperience/how-to-set-up-fault-codes.md)   
+ [How to: Register Fault Codes](../FullExperience/how-to-register-fault-codes.md)

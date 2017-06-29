@@ -16,11 +16,11 @@
 
     ---
 # How to: Make Corrections with General Journals
-When you discover an erroneous entry, it must be corrected. Since it is not possible to change or delete a ledger entry, the only way to correct an error is to post one or more corrective entries. ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> offers two features that can help you correct erroneous postings.  
+When you discover an erroneous entry, it must be corrected. Since it is not possible to change or delete a ledger entry, the only way to correct an error is to post one or more corrective entries. ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> offers two features that can help you correct erroneous postings.  
   
--   Reversing by creating a credit memo. For more information, see [Correction of Incorrect Posted Documents](../Finance/correction-of-incorrect-posted-documents.md).  
+-   Reversing by creating a credit memo. For more information, see [Correction of Incorrect Posted Documents](../FullExperience/correction-of-incorrect-posted-documents.md).  
   
--   Reversing when you apply customer or vendor ledger entries. For more information, see [How to: Unapply Applied Customer or Vendor Ledger Entries](../Topic/How%20to:%20Unapply%20Applied%20Customer%20or%20Vendor%20Ledger%20Entries.md).  
+-   Reversing when you apply customer or vendor ledger entries. For more information, see [How to: Unapply Applied Customer or Vendor Ledger Entries](../FullExperience/How%20to:%20Unapply%20Applied%20Customer%20or%20Vendor%20Ledger%20Entries.md).  
   
  To correct erroneous entries using the general journal, you must use the **Correction** field.  
   
@@ -49,9 +49,9 @@ When you discover an erroneous entry, it must be corrected. Since it is not poss
 >  The amount in the **Debit Amount** or **Credit Amount** field for the line is negative. The **Debit Amount** and **Credit Amount** fields on the ledger entries are updated differently, depending on whether the entry is a normal or a corrective entry.  
   
 ## See Also  
- [How to: Fill and Post General Journals](../Finance/how-to-fill-and-post-general-journals.md)   
- [Correction of Incorrect Posted Documents](../Finance/correction-of-incorrect-posted-documents.md)   
+ [How to: Fill and Post General Journals](../FullExperience/how-to-fill-and-post-general-journals.md)   
+ [Correction of Incorrect Posted Documents](../FullExperience/correction-of-incorrect-posted-documents.md)   
  Correction   
- [How to: Reverse Journal Postings](../Finance/how-to-reverse-journal-postings.md)   
- [How to: Reverse Journal Postings](../Finance/how-to-reverse-journal-postings.md)   
- [How to: Unapply Applied Customer or Vendor Ledger Entries](../Topic/How%20to:%20Unapply%20Applied%20Customer%20or%20Vendor%20Ledger%20Entries.md)
+ [How to: Reverse Journal Postings](../FullExperience/how-to-reverse-journal-postings.md)   
+ [How to: Reverse Journal Postings](../FullExperience/how-to-reverse-journal-postings.md)   
+ [How to: Unapply Applied Customer or Vendor Ledger Entries](../FullExperience/How%20to:%20Unapply%20Applied%20Customer%20or%20Vendor%20Ledger%20Entries.md)

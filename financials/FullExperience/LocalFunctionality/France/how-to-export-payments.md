@@ -39,5 +39,5 @@ The Payment Management module allows you to export your payments electronically 
  The next time you make a payment that is based on this payment step, the payments will be exported to a file as specified.  
   
 ## See Also  
- [How to: Set Up Payment Classes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-set-up-payment-classes.md)   
- [How to: Set Up Payment Steps](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-set-up-payment-steps.md)
+ [How to: Set Up Payment Classes](../FullExperience/how-to-set-up-payment-classes.md)   
+ [How to: Set Up Payment Steps](../FullExperience/how-to-set-up-payment-steps.md)

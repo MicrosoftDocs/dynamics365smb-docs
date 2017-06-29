@@ -24,7 +24,7 @@ You may want to periodically remit the net VAT from sales and purchase transacti
   
 2.  Select the filters that define the VAT related transactions that you want to include in the VAT settlement.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Type**|Select the type of transactions that you want to include in the VAT settlement.|  
     |**View by**|Select the time period for the VAT settlement.|  
@@ -40,8 +40,8 @@ You may want to periodically remit the net VAT from sales and purchase transacti
   
 ## See Also  
  Calc. and Post VAT Settlement   
- [About Setting Up VAT](../../Finance/about-setting-up-vat.md)   
- [How to: Set Up VAT Business Posting Groups](../../Finance/how-to-set-up-vat-business-posting-groups.md)   
- [How to: Assign VAT Business Posting Groups to Customer Accounts and Vendor Accounts](../../Finance/how-to-assign-vat-business-posting-groups-to-customer-accounts-and-vendor-accounts.md)   
- [How to: Correct VAT](../../Finance/how-to-correct-vat.md)   
+ [About Setting Up VAT](../FullExperience/about-setting-up-vat.md)   
+ [How to: Set Up VAT Business Posting Groups](../FullExperience/how-to-set-up-vat-business-posting-groups.md)   
+ [How to: Assign VAT Business Posting Groups to Customer Accounts and Vendor Accounts](../FullExperience/how-to-assign-vat-business-posting-groups-to-customer-accounts-and-vendor-accounts.md)   
+ [How to: Correct VAT](../FullExperience/how-to-correct-vat.md)   
  VAT Entry

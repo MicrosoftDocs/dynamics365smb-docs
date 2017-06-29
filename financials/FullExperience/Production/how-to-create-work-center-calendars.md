@@ -126,4 +126,4 @@ A work center calendar specifies the working days and hours, shifts, holidays, a
  The capacity of the selected day has now decreased by the recorded absence time.  
   
 ## See Also  
- [Shop Calendars](../OperationsPlanning/shop-calendars.md)
+ [Shop Calendars](../FullExperience/shop-calendars.md)

@@ -37,5 +37,5 @@ You can copy the created routing versions. This is useful for long routings or w
 5.  Change the **Status** field to **Certified**.  
   
 ## See Also  
- [How to: Create Routings](../DesignAndEngineering/how-to-create-routings.md)   
- [How to: Create New Versions of Routings](../DesignAndEngineering/how-to-create-new-versions-of-routings.md)
+ [How to: Create Routings](../FullExperience/how-to-create-routings.md)   
+ [How to: Create New Versions of Routings](../FullExperience/how-to-create-new-versions-of-routings.md)

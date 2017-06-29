@@ -38,6 +38,6 @@ You can release both a planned production order and a firm planned production or
 6.  Choose the **Yes** button. The production order is now released.  
   
 ## See Also  
- [How to: Release Production Orders Automatically](../OperationsPlanning/how-to-release-production-orders-automatically.md)   
- [How to: Finish Production Orders](../Production/how-to-finish-production-orders.md)   
- [About Production Orders](../Production/about-production-orders.md)
+ [How to: Release Production Orders Automatically](../FullExperience/how-to-release-production-orders-automatically.md)   
+ [How to: Finish Production Orders](../FullExperience/how-to-finish-production-orders.md)   
+ [About Production Orders](../FullExperience/about-production-orders.md)

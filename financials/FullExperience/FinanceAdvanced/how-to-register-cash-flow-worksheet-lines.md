@@ -46,9 +46,9 @@ In the worksheet for the cash flow forecast, you use a batch job to predict the 
 >  If you run the batch job for the second time for the same cash flow forecast, all existing entries for this cash flow forecast are deleted.  
   
 ## See Also  
- [Cash Flow Overview](../Finance/cash-flow-overview.md)   
+ [Cash Flow Overview](../FullExperience/cash-flow-overview.md)   
  Suggest Worksheet Lines   
- [How to: Set Up Cash Flow Forecasts](../Finance/how-to-set-up-cash-flow-forecasts.md)   
- [How to: Set Up the Chart of Cash Flow Accounts](../Finance/how-to-set-up-the-chart-of-cash-flow-accounts.md)   
- [How to: Configure Accounts for Cash Flow Setup](../Finance/how-to-configure-accounts-for-cash-flow-setup.md)   
- [How to: Record Manual Revenues](../Finance/how-to-record-manual-revenues.md)
+ [How to: Set Up Cash Flow Forecasts](../FullExperience/how-to-set-up-cash-flow-forecasts.md)   
+ [How to: Set Up the Chart of Cash Flow Accounts](../FullExperience/how-to-set-up-the-chart-of-cash-flow-accounts.md)   
+ [How to: Configure Accounts for Cash Flow Setup](../FullExperience/how-to-configure-accounts-for-cash-flow-setup.md)   
+ [How to: Record Manual Revenues](../FullExperience/how-to-record-manual-revenues.md)

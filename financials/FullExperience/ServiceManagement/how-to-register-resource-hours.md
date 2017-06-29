@@ -18,7 +18,7 @@
 # How to: Register Resource Hours
 When working on service items in service orders, you need to register the resource hours used for the service. The following procedure shows how to register the resource hours in the **Service Item Worksheet** window.  
   
- You can use the same procedure to register the hours in the **Service Lines** window, which you can open from the Service Order window. Open the relevant service card, and then choose **Actions**![Action Menu icon](../DesignAndEngineering/media/actionmenuicon.png "actionMenuIcon"), choose **Order**, and then choose **Service Lines**.  
+ You can use the same procedure to register the hours in the **Service Lines** window, which you can open from the Service Order window. Open the relevant service card, and then choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Order**, and then choose **Service Lines**.  
   
 ### To register resource hours  
   
@@ -37,4 +37,4 @@ When working on service items in service orders, you need to register the resour
  If the same resource works on all the service items in the service order, you can register the total resource hours for one service item only and then split the resource line to assign the resource hours to the other service items.  
   
 ## See Also  
- [How to: Split Resource Lines](../Service/how-to-split-resource-lines.md)
+ [How to: Split Resource Lines](../FullExperience/how-to-split-resource-lines.md)

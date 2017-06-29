@@ -28,4 +28,4 @@ To record inventory on hand of individual items, you must post an entry for each
   
 ## See Also  
  Post Inventory Cost to G-L   
- [How to: Post Purchases and Inventory Adjustments](../Finance/how-to-post-purchases-and-inventory-adjustments.md)
+ [How to: Post Purchases and Inventory Adjustments](../FullExperience/how-to-post-purchases-and-inventory-adjustments.md)

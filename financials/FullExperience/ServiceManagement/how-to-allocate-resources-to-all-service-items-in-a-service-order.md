@@ -35,6 +35,6 @@ You can allocate the same resource, for example, a technician, or resource group
  Allocation entries are created for the other service items in the order with the same resource number and allocation date as the line you allocated. The allocated hours are the hours you allocated divided by the number of service items in the order. The **Status** field is automatically set to **Active** for all the entries that were created.  
   
 ## See Also  
- [How to: Allocate Resources by Using the Dispatch Board](../Service/how-to-allocate-resources-by-using-the-dispatch-board.md)   
- [How to: Allocate Resource Groups](../Service/how-to-allocate-resource-groups.md)   
- [How to: Allocate Resources by Using Resource Availability](../Service/how-to-allocate-resources-by-using-resource-availability.md)
+ [How to: Allocate Resources by Using the Dispatch Board](../FullExperience/how-to-allocate-resources-by-using-the-dispatch-board.md)   
+ [How to: Allocate Resource Groups](../FullExperience/how-to-allocate-resource-groups.md)   
+ [How to: Allocate Resources by Using Resource Availability](../FullExperience/how-to-allocate-resources-by-using-resource-availability.md)

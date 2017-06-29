@@ -50,7 +50,7 @@ For each reminder level, you can specify text that will be printed before or aft
      For example, if you write **You owe %7 %9 due on %2.**, then the resulting reminder will contain the following text: **You owe 1.200,50 LCY due on 02-02-2014.**.  
   
 ## See Also  
- [How to: Create Reminders Automatically](../Finance/how-to-create-reminders-automatically.md)   
- [How to: Create Reminders Manually](../Finance/how-to-create-reminders-manually.md)   
- [How to: Set Up Reminder Levels](../Finance/how-to-set-up-reminder-levels.md)   
- [How to: Set Up Reminder Terms](../Finance/how-to-set-up-reminder-terms.md)
+ [How to: Create Reminders Automatically](../FullExperience/how-to-create-reminders-automatically.md)   
+ [How to: Create Reminders Manually](../FullExperience/how-to-create-reminders-manually.md)   
+ [How to: Set Up Reminder Levels](../FullExperience/how-to-set-up-reminder-levels.md)   
+ [How to: Set Up Reminder Terms](../FullExperience/how-to-set-up-reminder-terms.md)

@@ -36,6 +36,6 @@ You can add VAT setup information to journal lines if needed. If you enter items
 6.  Choose the **OK** button.  
   
 ## See Also  
- [United Kingdom Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/united-kingdom-local-functionality.md)   
- [How to: Create a VAT Combination Setup](../../Finance/how-to-create-a-vat-combination-setup.md)   
- [How to: Record VAT](../../Finance/how-to-record-vat.md)
+ [United Kingdom Local Functionality](../FullExperience/united-kingdom-local-functionality.md)   
+ [How to: Create a VAT Combination Setup](../FullExperience/how-to-create-a-vat-combination-setup.md)   
+ [How to: Record VAT](../FullExperience/how-to-record-vat.md)

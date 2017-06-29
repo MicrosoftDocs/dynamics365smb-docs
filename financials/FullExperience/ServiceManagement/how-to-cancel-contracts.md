@@ -40,5 +40,5 @@ You may need to cancel a service contract when the contract has expired or has b
 >  After the contract is canceled, it is not possible to return to its previous status.  
   
 ## See Also  
- [How to: Create Contract Service Credit Memos](../Service/how-to-create-contract-service-credit-memos.md)   
- [How to: Remove Contract Lines](../Service/how-to-remove-contract-lines.md)
+ [How to: Create Contract Service Credit Memos](../FullExperience/how-to-create-contract-service-credit-memos.md)   
+ [How to: Remove Contract Lines](../FullExperience/how-to-remove-contract-lines.md)

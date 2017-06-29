@@ -16,7 +16,7 @@
 
     ---
 # How to: Print VAT Reports-duplicate
-ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> includes VAT reports that you can use to submit information about VAT to the authorities. The following VAT reports are available for Germany:  
+ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> includes VAT reports that you can use to submit information about VAT to the authorities. The following VAT reports are available for Germany:  
   
 -   **Sales VAT Adv. Not. Acc. Proof**  
   
@@ -24,7 +24,7 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]
   
 -   **VAT Statement Germany**  
   
- For more information, see [VAT Reporting](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/vat-reporting.md).  
+ For more information, see [VAT Reporting](../FullExperience/vat-reporting.md).  
   
 ### To print the Sales VAT Adv. Not. Acc. Proof report  
   
@@ -34,7 +34,7 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]
   
 3.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_11009\_N\_2\_1140011 Starting Date $\)**|Sets the start date.|  
     |**\($ R\_11009\_N\_2\_1140009 Ending Date $\)**|Sets the end date.|  
@@ -64,7 +64,7 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]
   
 2.  In the **VAT Statement Germany** batch job, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_11005\_N\_2\_1140013 Starting Date $\)**|Sets the start date.|  
     |**\($ R\_11005\_N\_2\_1140011 Ending Date $\)**|Sets the end date.|  
@@ -80,9 +80,9 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]
 5.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [VAT Reporting](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/vat-reporting.md)   
- [How to: Preview VAT Statements](../../Finance/how-to-preview-vat-statements.md)   
- [Electronic Submission of Sales VAT Advance Notifications to ELSTER](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/electronic-submission-of-sales-vat-advance-notifications-to-elster.md)   
+ [VAT Reporting](../FullExperience/vat-reporting.md)   
+ [How to: Preview VAT Statements](../FullExperience/how-to-preview-vat-statements.md)   
+ [Electronic Submission of Sales VAT Advance Notifications to ELSTER](../FullExperience/electronic-submission-of-sales-vat-advance-notifications-to-elster.md)   
  Sales VAT Adv. Not. Acc. Proof   
  VAT Statement Schedule   
  VAT Statement Germany

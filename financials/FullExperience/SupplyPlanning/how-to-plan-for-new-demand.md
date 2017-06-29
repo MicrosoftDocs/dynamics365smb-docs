@@ -46,9 +46,9 @@ This planning task can be performed in the **Order Planning** window, which disp
   
     3.  The **Description field** contains the following depending on the demand type.  
   
-        |Demand type|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+        |Demand type|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
         |-----------------|---------------------------------------|  
-        |**Production**|The description of the produced item.<br /><br /> For production demand for a project production order, the customer name is displayed. For more information, see [How to: Plan Project Orders](../OperationsPlanning/how-to-plan-project-orders.md).|  
+        |**Production**|The description of the produced item.<br /><br /> For production demand for a project production order, the customer name is displayed. For more information, see [How to: Plan Project Orders](../FullExperience/how-to-plan-project-orders.md).|  
         |**Sales**|The customer name.|  
   
      The first planning line has the earliest demand date, and therefore you should plan this line first. To see the actual demand lines, either sales order lines or component lines, of each order header line, you must expand the line.  
@@ -57,7 +57,7 @@ This planning task can be performed in the **Order Planning** window, which disp
   
 3.  For each expanded planning line, that is, demand line, you can see values in information fields at the bottom of the window.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../../includes/bp_tabledescription_md.md)]-->|  
     |----------------------------------|---------------------------------------|  
     |**Qty. on Other Locations**|Shows if the item exists on another location. You can then look up and select it.|  
     |**Substitutes Exist**|Shows if a substitute item is created for the item. You can then look up and select it. Note that this feature only applies to components, that is, from demand lines of type **Production**.|  
@@ -68,7 +68,7 @@ This planning task can be performed in the **Order Planning** window, which disp
   
      The default value is that of the item card, or SKU card, but you can change it to one of three options:  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../../includes/bp_tabledescription_md.md)]-->|  
     |----------------------------------|---------------------------------------|  
     |**Purchase**|Creates a purchase order.|  
     |**Transfer**|Creates a transfer order.|  
@@ -114,7 +114,7 @@ This planning task can be performed in the **Order Planning** window, which disp
   
 4.  In the **Make Supply Orders** window, on the **Order Planning** FastTab, in the **Make Orders for** field, select one of the following options.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../../includes/bp_tabledescription_md.md)]-->|  
     |----------------------------------|---------------------------------------|  
     |**The Active Line**|Make a supply order only for the line where the cursor is placed.|  
     |**The Active Order**|Make supply orders for all lines in the order where the cursor is placed.|  
@@ -136,9 +136,9 @@ This planning task can be performed in the **Order Planning** window, which disp
   
 ## See Also  
  Reserve   
- [About Planning Functionality](../OperationsPlanning/about-planning-functionality.md)   
- [How to: Refresh Production Orders](../OperationsPlanning/how-to-refresh-production-orders.md)   
- [How to: Replan Production Orders](../OperationsPlanning/how-to-replan-production-orders.md)   
- [How to: Run MPS and MRP](../OperationsPlanning/how-to-run-mps-and-mrp.md)   
- [Design Details: Supply Planning](../ApplicationDesign/design-details-supply-planning.md)   
- [Setup Best Practices: Supply Planning](../SetupAndAdministration/setup-best-practices-supply-planning.md)
+ [About Planning Functionality](../FullExperience/about-planning-functionality.md)   
+ [How to: Refresh Production Orders](../FullExperience/how-to-refresh-production-orders.md)   
+ [How to: Replan Production Orders](../FullExperience/how-to-replan-production-orders.md)   
+ [How to: Run MPS and MRP](../FullExperience/how-to-run-mps-and-mrp.md)   
+ [Design Details: Supply Planning](../FullExperience/design-details-supply-planning.md)   
+ [Setup Best Practices: Supply Planning](../FullExperience/setup-best-practices-supply-planning.md)

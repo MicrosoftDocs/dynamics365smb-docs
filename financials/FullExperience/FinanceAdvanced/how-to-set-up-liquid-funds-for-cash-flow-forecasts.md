@@ -42,5 +42,5 @@ To include the liquid funds in the general ledger for the cash flow forecast, yo
   
 ## See Also  
  Chart of Cash Flow Accounts   
- [How to: Set Up the Chart of Cash Flow Accounts](../Finance/how-to-set-up-the-chart-of-cash-flow-accounts.md)   
- [Cash Flow Overview](../Finance/cash-flow-overview.md)
+ [How to: Set Up the Chart of Cash Flow Accounts](../FullExperience/how-to-set-up-the-chart-of-cash-flow-accounts.md)   
+ [Cash Flow Overview](../FullExperience/cash-flow-overview.md)

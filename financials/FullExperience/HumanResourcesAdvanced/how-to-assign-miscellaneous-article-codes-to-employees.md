@@ -31,4 +31,4 @@ You can set up miscellaneous article codes for employee benefits and miscellaneo
 4.  In the **Misc. Article Information** window, fill in as many lines as necessary to register the miscellaneous articles in the employee’s possession.  
   
 ## See Also  
- [How to: Access an Overview of Miscellaneous Articles](../HumanResources/how-to-access-an-overview-of-miscellaneous-articles.md)
+ [How to: Access an Overview of Miscellaneous Articles](../FullExperience/how-to-access-an-overview-of-miscellaneous-articles.md)

@@ -49,7 +49,7 @@ A Business Activity Statement \(BAS\) is a form that reports both the total Good
 5.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen  
   
 ## See Also  
- [Business Activity Statements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/business-activity-statements.md)   
- [How to: Set Up Business Activity Statements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-set-up-business-activity-statements.md)   
- [How to: Calculate Goods and Services Tax on Prepayments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-calculate-goods-and-services-tax-on-prepayments.md)   
- [How to: Print Goods and Services Tax Sales and Purchase Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-print-goods-and-services-tax-sales-and-purchase-reports.md)
+ [Business Activity Statements](../FullExperience/business-activity-statements.md)   
+ [How to: Set Up Business Activity Statements](../FullExperience/how-to-set-up-business-activity-statements.md)   
+ [How to: Calculate Goods and Services Tax on Prepayments](../FullExperience/how-to-calculate-goods-and-services-tax-on-prepayments.md)   
+ [How to: Print Goods and Services Tax Sales and Purchase Reports](../FullExperience/how-to-print-goods-and-services-tax-sales-and-purchase-reports.md)

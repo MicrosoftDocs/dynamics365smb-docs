@@ -16,7 +16,7 @@
 
     ---
 # How to: Print Vendor 1099 Information Reports
-In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you can use the following tax forms to report 1099 transactions:  
+In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can use the following tax forms to report 1099 transactions:  
   
 -   Vendor 1099 Div – Dividends  
   
@@ -40,7 +40,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
   
 4.  On the **Invoicing** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**IRS 1099 Code**|Select the 1099 code for the vendor.|  
     |**Tax Liable**|Select to set the tax liability for the vendor.|  
@@ -61,7 +61,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [United States Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedStates/united-states-local-functionality.md)   
+ [United States Local Functionality](../FullExperience/united-states-local-functionality.md)   
  Vendor 1099 Information   
  Vendor 1099 Int   
  Vendor 1099 Div   

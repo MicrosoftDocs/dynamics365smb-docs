@@ -34,5 +34,5 @@ A single postal code can include multiple cities in the same region.
   
 ## See Also  
  Post Code   
- [Australia Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/australia-local-functionality.md)   
- [New Zealand Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/NewZealand/new-zealand-local-functionality.md)
+ [Australia Local Functionality](../FullExperience/australia-local-functionality.md)   
+ [New Zealand Local Functionality](../FullExperience/new-zealand-local-functionality.md)

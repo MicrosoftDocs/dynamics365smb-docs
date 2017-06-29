@@ -29,6 +29,6 @@ You can view work center statistics to get information about expected and actual
 4.  Close the window.  
   
 ## See Also  
- [Structure of the Capacity](../Production/structure-of-the-capacity.md)   
- [How to: Display Machine Center Statistics](../Production/how-to-display-machine-center-statistics.md)   
- [How to: Set Up Work Centers](../Production/how-to-set-up-work-centers.md)
+ [Structure of the Capacity](../FullExperience/structure-of-the-capacity.md)   
+ [How to: Display Machine Center Statistics](../FullExperience/how-to-display-machine-center-statistics.md)   
+ [How to: Set Up Work Centers](../FullExperience/how-to-set-up-work-centers.md)

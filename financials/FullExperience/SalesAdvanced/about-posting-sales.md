@@ -22,15 +22,15 @@ In the **Posting** group on a sales document, you can choose between the followi
   
 -   **Test Report**  
   
--   **Post and Send** for more information, see [How to: Set Up Document Sending Profiles](../Sales/how-to-set-up-document-sending-profiles.md).  
+-   **Post and Send** for more information, see [How to: Set Up Document Sending Profiles](../FullExperience/how-to-set-up-document-sending-profiles.md).  
   
 -   **Post and Print**  
   
--   **Post and Email** For more information, see [How to: Send Documents by Email](../BusinessFunctionality/IntegratingWithMicrosoftOffice/how-to-send-documents-by-email.md).  
+-   **Post and Email** For more information, see [How to: Send Documents by Email](../FullExperience/how-to-send-documents-by-email.md).  
   
 -   **Post Batch**  
   
--   **Preview Posting** for more information, see [How to: Preview Posting Results](../WorkingWithDynamics/how-to-preview-posting-results.md).  
+-   **Preview Posting** for more information, see [How to: Preview Posting Results](../FullExperience/how-to-preview-posting-results.md).  
   
  When you have completed all the lines and entered all the information on the sales order, you can post it. This creates a shipment and an invoice.  
   
@@ -40,7 +40,7 @@ In the **Posting** group on a sales document, you can choose between the followi
   
  For each sales order line, an item ledger entry will be created in the Item Ledger Entry table \(if the sales lines contain item numbers\) or a general ledger entry will be created in the **G\/L Entry** table \(if the sales lines contain a general ledger account\). If your location is set up to use bins and you have set a bin code on the sales order line, a warehouse entry will be created in the Warehouse Entry.  
   
- In addition to this, sales orders are always recorded in the [Sales Shipment Header](../Topic/\($%20T_110%20Sales%20Shipment%20Header%20$\).md) and [Sales Invoice Header](../Topic/\($%20T_112%20Sales%20Invoice%20Header%20$\).md) tables.  
+ In addition to this, sales orders are always recorded in the [Sales Shipment Header](../FullExperience/\($%20T_112%20Sales%20Invoice%20Header%20$\).md) tables.  
   
 > [!IMPORTANT]  
 >  When you post an order, you can create both a shipment and an invoice. These can be done at the same time or independently.  
@@ -51,6 +51,6 @@ In the **Posting** group on a sales document, you can choose between the followi
   
 ## See Also  
  Sales Order   
- [How to: Post Sales Orders](../Sales/how-to-post-sales-orders.md)   
+ [How to: Post Sales Orders](../FullExperience/how-to-post-sales-orders.md)   
  Batch Post Sales Orders   
- [How to: Preview Posting Results](../WorkingWithDynamics/how-to-preview-posting-results.md)
+ [How to: Preview Posting Results](../FullExperience/how-to-preview-posting-results.md)

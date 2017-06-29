@@ -31,6 +31,6 @@ From the **Machine Center** card, you can see the load on the machine centers.
 4.  Close the window.  
   
 ## See Also  
- [Structure of the Capacity](../Production/structure-of-the-capacity.md)   
- [How to: Set Up Machine Centers](../Production/how-to-set-up-machine-centers.md)   
- [How to: Display the Load on Work Centers](../Production/how-to-display-the-load-on-work-centers.md)
+ [Structure of the Capacity](../FullExperience/structure-of-the-capacity.md)   
+ [How to: Set Up Machine Centers](../FullExperience/how-to-set-up-machine-centers.md)   
+ [How to: Display the Load on Work Centers](../FullExperience/how-to-display-the-load-on-work-centers.md)

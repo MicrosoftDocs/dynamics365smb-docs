@@ -42,7 +42,7 @@ Chart of cost types are similar to the chart of accounts in the general ledger. 
     > [!NOTE]  
     >  You can set up and maintain cost types in either the **Cost Type Card** window or in the **Chart of Cost Types** window. In this procedure, you set up cost types in the **Chart of Cost Types** window.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**No.**|Enter the cost type number. All cost types must have a number.|  
     |**Name**|Enter the cost type name.|  
@@ -75,9 +75,9 @@ Chart of cost types are similar to the chart of accounts in the general ledger. 
 ## See Also  
  Chart of Cost Types   
  Cost Type Card   
- [Defining the Relationship Between Cost Types and General Ledger Accounts](../Finance/defining-the-relationship-between-cost-types-and-general-ledger-accounts.md)   
- [Defining Cost Centers and Cost Objects for Chart of Accounts](../Finance/defining-cost-centers-and-cost-objects-for-chart-of-accounts.md)   
- [Balances Between Cost Type, Cost Center, and Cost Object](../Finance/balances-between-cost-type-cost-center-and-cost-object.md)   
- [Set Up Cost Accounting](../Finance/set-up-cost-accounting.md)   
- [Terminology in Cost Accounting](../Finance/terminology-in-cost-accounting.md)   
- [About Cost Accounting](../Finance/about-cost-accounting.md)
+ [Defining the Relationship Between Cost Types and General Ledger Accounts](../FullExperience/defining-the-relationship-between-cost-types-and-general-ledger-accounts.md)   
+ [Defining Cost Centers and Cost Objects for Chart of Accounts](../FullExperience/defining-cost-centers-and-cost-objects-for-chart-of-accounts.md)   
+ [Balances Between Cost Type, Cost Center, and Cost Object](../FullExperience/balances-between-cost-type-cost-center-and-cost-object.md)   
+ [Set Up Cost Accounting](../FullExperience/set-up-cost-accounting.md)   
+ [Terminology in Cost Accounting](../FullExperience/terminology-in-cost-accounting.md)   
+ [About Cost Accounting](../FullExperience/about-cost-accounting.md)

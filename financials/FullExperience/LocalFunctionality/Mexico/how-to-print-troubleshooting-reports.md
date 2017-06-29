@@ -22,19 +22,19 @@ The following troubleshooting reports are available to assist Microsoft Certifie
   
 -   **Data Dictionary** report \(report \#10315\) – This report allows you to print detailed table reference, field reference, and table properties for table objects.  
   
- You must have access to the ADD INCLUDE<!--[!INCLUDE[nav_dev_long](../../BusinessFunctionality/DataExchange/includes/nav_dev_long_md.md)]--> and a license that grants access to **Object Designer**, which is available only to administrators.  
+ You must have access to the ADD INCLUDE<!--[!INCLUDE[nav_dev_long](../../includes/nav_dev_long_md.md)]--> and a license that grants access to **Object Designer**, which is available only to administrators.  
   
- You can print these reports and send them to your Microsoft Certified Partner to help resolve issues with your ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> implementation.  
+ You can print these reports and send them to your Microsoft Certified Partner to help resolve issues with your ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> implementation.  
   
 ### To print the License Information report  
   
-1.  In the ADD INCLUDE<!--[!INCLUDE[nav_dev_short](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/includes/nav_dev_short_md.md)]-->, on the **Tools** menu, choose **License Information**.  
+1.  In the ADD INCLUDE<!--[!INCLUDE[nav_dev_short](../../includes/nav_dev_short_md.md)]-->, on the **Tools** menu, choose **License Information**.  
   
 2.  In the **License Information** window, you can preview the license information, or you can choose the **Export** button to print the **License Information** report.  
   
 ### To print the Data Dictionary report  
   
-1.  In the ADD INCLUDE<!--[!INCLUDE[nav_dev_short](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/includes/nav_dev_short_md.md)]-->, on the **Tools** menu, choose **Object Designer**.  
+1.  In the ADD INCLUDE<!--[!INCLUDE[nav_dev_short](../../includes/nav_dev_short_md.md)]-->, on the **Tools** menu, choose **Object Designer**.  
   
 2.  Choose the **Report** button.  
   
@@ -47,7 +47,7 @@ The following troubleshooting reports are available to assist Microsoft Certifie
 6.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [Canada Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/canada-local-functionality.md)   
- [Mexico Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Mexico/mexico-local-functionality.md)   
- [United States Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedStates/united-states-local-functionality.md)   
+ [Canada Local Functionality](../FullExperience/canada-local-functionality.md)   
+ [Mexico Local Functionality](../FullExperience/mexico-local-functionality.md)   
+ [United States Local Functionality](../FullExperience/united-states-local-functionality.md)   
  Data Dictionary

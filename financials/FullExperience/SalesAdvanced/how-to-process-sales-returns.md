@@ -18,7 +18,7 @@
 # How to: Process Sales Returns
 Sales returns are used to compensate your customers for incorrect or damaged items that you sent to them.  
   
- There are various ways to compensate a customer who is dissatisfied with an order. The terms of a compensation agreement reached between the company and the customer will often depend on the stated reason for return and the company-customer relationship. For instance, the parties may agree that in case of a wrongly ordered item, the customer returns the item to the company against a credit, receives a replacement item and accepts that the company charges a certain restock fee. In other situations, for example, where an item arrives at the customer slightly damaged, the customer may agree to receive a price deduction against the original sales order price. Meanwhile, where the sold item has a warranty, the company may suggest the customer take the malfunctioning or broken item in for repair. For more information, see [About Returns Management](../Purchasing/about-returns-management.md).  
+ There are various ways to compensate a customer who is dissatisfied with an order. The terms of a compensation agreement reached between the company and the customer will often depend on the stated reason for return and the company-customer relationship. For instance, the parties may agree that in case of a wrongly ordered item, the customer returns the item to the company against a credit, receives a replacement item and accepts that the company charges a certain restock fee. In other situations, for example, where an item arrives at the customer slightly damaged, the customer may agree to receive a price deduction against the original sales order price. Meanwhile, where the sold item has a warranty, the company may suggest the customer take the malfunctioning or broken item in for repair. For more information, see [About Returns Management](../FullExperience/about-returns-management.md).  
   
  The sales return order is the central document that allows the user to register a compensation agreement settled with a customer. From here, the user can access other sales-related documents, and enter and maintain the return-related information concerning the customer, the method of compensation, and the items in question.  
   
@@ -56,7 +56,7 @@ Sales returns are used to compensate your customers for incorrect or damaged ite
   
         3.  Select the line that you want to select serial\/lot numbers for.  
   
-        4.  Choose **Actions**![Action Menu icon](../DesignAndEngineering/media/actionmenuicon.png "actionMenuIcon"), choose **Line,** and then choose **Item Tracking Lines**.  
+        4.  Choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Line,** and then choose **Item Tracking Lines**.  
   
         5.  In the **Item Tracking Lines** window, in the **Lot No.** or **Serial No.** field, select an option from the **Item Tracking Summary** window.  
   
@@ -69,13 +69,13 @@ Sales returns are used to compensate your customers for incorrect or damaged ite
     -   If a return order has been received but the item is subsequently rejected, you must create a corrective sales invoice to complete the return order transaction.  
   
 ## See Also  
- [How to: Create Sales Credit Memos](../Finance/how-to-create-sales-credit-memos.md)   
+ [How to: Create Sales Credit Memos](../FullExperience/how-to-create-sales-credit-memos.md)   
  Create Return-Related Documents   
- [About Returns Management](../Purchasing/about-returns-management.md)   
- [How to: Create a Restock Charge](../Sales/how-to-create-a-restock-charge.md)   
- [How to: Assign Exact Cost Reversing in Sales](../Finance/how-to-assign-exact-cost-reversing-in-sales.md)   
- [How to: Create Replacement Sales Orders](../Sales/how-to-create-replacement-sales-orders.md)   
- [How to: Create and Post Sales Allowances](../Sales/how-to-create-and-post-sales-allowances.md)   
- [How to: Create Sales Return Orders](../Sales/how-to-create-sales-return-orders.md)   
- [How to: Get Return Receipt Lines for Item Charges](../Finance/how-to-get-return-receipt-lines-for-item-charges.md)   
- [How to: Create Corrective Sales Invoices](../Finance/how-to-create-corrective-sales-invoices.md)
+ [About Returns Management](../FullExperience/about-returns-management.md)   
+ [How to: Create a Restock Charge](../FullExperience/how-to-create-a-restock-charge.md)   
+ [How to: Assign Exact Cost Reversing in Sales](../FullExperience/how-to-assign-exact-cost-reversing-in-sales.md)   
+ [How to: Create Replacement Sales Orders](../FullExperience/how-to-create-replacement-sales-orders.md)   
+ [How to: Create and Post Sales Allowances](../FullExperience/how-to-create-and-post-sales-allowances.md)   
+ [How to: Create Sales Return Orders](../FullExperience/how-to-create-sales-return-orders.md)   
+ [How to: Get Return Receipt Lines for Item Charges](../FullExperience/how-to-get-return-receipt-lines-for-item-charges.md)   
+ [How to: Create Corrective Sales Invoices](../FullExperience/how-to-create-corrective-sales-invoices.md)

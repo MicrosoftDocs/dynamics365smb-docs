@@ -61,7 +61,7 @@ The following procedure shows how to create tax registers.
 12. Click **Show** to view all the transactions of any entry ledger that is created.  
   
 ## See Also  
- [Tax Accounting](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/tax-accounting.md)   
- [Tax Registers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/tax-registers.md)   
- [How to: Set Up Tax Register Sections](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-set-up-tax-register-sections.md)   
- [Collecting Profit Tax Information for Tax Declaration](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/collecting-profit-tax-information-for-tax-declaration.md)
+ [Tax Accounting](../FullExperience/tax-accounting.md)   
+ [Tax Registers](../FullExperience/tax-registers.md)   
+ [How to: Set Up Tax Register Sections](../FullExperience/how-to-set-up-tax-register-sections.md)   
+ [Collecting Profit Tax Information for Tax Declaration](../FullExperience/collecting-profit-tax-information-for-tax-declaration.md)

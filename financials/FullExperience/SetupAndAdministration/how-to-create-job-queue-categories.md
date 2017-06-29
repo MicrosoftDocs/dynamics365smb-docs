@@ -43,5 +43,5 @@ You can use categories of job queues to help group and filter jobs.
      The job queue runs, and limits itself to job queue entries of the specified category.  
   
 ## See Also  
- [How to: Create Job Queue Entries](../SetupAndAdministration/how-to-create-job-queue-entries.md)   
- [How to: Set Up Job Queues](../SetupAndAdministration/how-to-set-up-job-queues.md)
+ [How to: Create Job Queue Entries](../FullExperience/how-to-create-job-queue-entries.md)   
+ [How to: Set Up Job Queues](../FullExperience/how-to-set-up-job-queues.md)

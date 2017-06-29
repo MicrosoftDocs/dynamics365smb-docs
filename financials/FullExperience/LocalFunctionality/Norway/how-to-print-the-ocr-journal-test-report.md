@@ -24,7 +24,7 @@ You can print the **\($ R\_15000100 OCR Journal – Test $\)** report to test th
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_15000100\_F\_1\_1080113 Show only Lines with OCR Errors $\)**|Select to print only the journal lines that contain a warning in the test report.|  
     |**\($ R\_15000100\_F\_1\_1 Show Dimensions $\)**|Select to print dimension information on the test report.|  
@@ -32,8 +32,8 @@ You can print the **\($ R\_15000100 OCR Journal – Test $\)** report to test th
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [Electronic Banking in Norway](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/electronic-banking-in-norway.md)   
- [How to: Set Up KID Numbers on Sales Documents](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-set-up-kid-numbers-on-sales-documents.md)   
- [How to: Set Up OCR Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-set-up-ocr-payments.md)   
- [How to: Import and Post OCR Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-import-and-post-ocr-payments.md)   
- [Work with General Journals](../../Finance/work-with-general-journals.md)
+ [Electronic Banking in Norway](../FullExperience/electronic-banking-in-norway.md)   
+ [How to: Set Up KID Numbers on Sales Documents](../FullExperience/how-to-set-up-kid-numbers-on-sales-documents.md)   
+ [How to: Set Up OCR Payments](../FullExperience/how-to-set-up-ocr-payments.md)   
+ [How to: Import and Post OCR Payments](../FullExperience/how-to-import-and-post-ocr-payments.md)   
+ [Work with General Journals](../FullExperience/work-with-general-journals.md)

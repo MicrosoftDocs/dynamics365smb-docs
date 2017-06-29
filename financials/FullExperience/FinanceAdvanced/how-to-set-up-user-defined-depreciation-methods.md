@@ -28,6 +28,6 @@ In the **Depreciation Table** window, you can set up user-defined depreciation m
   
 ## See Also  
  Create Sum of Digits Table   
- [Depreciation Methods](../Finance/depreciation-methods.md)   
- [Set Up Depreciation](../Finance/set-up-depreciation.md)   
- [Depreciate or Amortize Assets](../Finance/depreciate-or-amortize-assets.md)
+ [Depreciation Methods](../FullExperience/depreciation-methods.md)   
+ [Set Up Depreciation](../FullExperience/set-up-depreciation.md)   
+ [Depreciate or Amortize Assets](../FullExperience/depreciate-or-amortize-assets.md)

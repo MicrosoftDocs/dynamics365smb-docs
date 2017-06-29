@@ -54,6 +54,6 @@ After items have been put away and before they are picked to fulfill the needs o
 ## See Also  
  Whse. Internal Pick   
  Whse. Internal Put-away   
- [Move Items](../WarehouseActivities/move-items.md)   
- [How to: Post Quantity Adjustments for Bins](../WarehouseActivities/how-to-post-quantity-adjustments-for-bins.md)   
- [How to: Register Quantity Adjustments in Warehouse Item Journals](../WarehouseActivities/how-to-register-quantity-adjustments-in-warehouse-item-journals.md)
+ [Move Items](../FullExperience/move-items.md)   
+ [How to: Post Quantity Adjustments for Bins](../FullExperience/how-to-post-quantity-adjustments-for-bins.md)   
+ [How to: Register Quantity Adjustments in Warehouse Item Journals](../FullExperience/how-to-register-quantity-adjustments-in-warehouse-item-journals.md)

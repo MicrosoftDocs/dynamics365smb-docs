@@ -29,6 +29,6 @@ You can use the **Fault Areas** window to set up fault areas to describe areas o
  Repeat these steps to set up as many fault area codes as you want.  
   
 ## See Also  
- [How to: Set Up Fault Codes](../Service/how-to-set-up-fault-codes.md)   
- [How to: Set Up Symptom Codes](../Service/how-to-set-up-symptom-codes.md)   
- [How to: Register Fault Codes](../Service/how-to-register-fault-codes.md)
+ [How to: Set Up Fault Codes](../FullExperience/how-to-set-up-fault-codes.md)   
+ [How to: Set Up Symptom Codes](../FullExperience/how-to-set-up-symptom-codes.md)   
+ [How to: Register Fault Codes](../FullExperience/how-to-register-fault-codes.md)

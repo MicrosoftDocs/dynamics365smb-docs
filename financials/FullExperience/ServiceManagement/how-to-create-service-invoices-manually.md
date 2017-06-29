@@ -40,8 +40,8 @@ Typically, after you post a service order with the **Invoice** or **Ship and Inv
 7.  Fill in the service lines of the invoice. Fill in the **Type**, **No.**, and **Quantity** fields to register items, resources and  costs that have been used in servicing.  
   
 ## See Also  
- [How to: Post Service Lines](../Service/how-to-post-service-lines.md)   
- [How to: Post Invoices from Service Orders](../Service/how-to-post-invoices-from-service-orders.md)   
- [How to: Post Service Orders](../Service/how-to-post-service-orders.md)   
- [How to: Create Combined Invoices](../Service/how-to-create-combined-invoices.md)   
- [Invoice Discounts on Service Documents](../Service/invoice-discounts-on-service-documents.md)
+ [How to: Post Service Lines](../FullExperience/how-to-post-service-lines.md)   
+ [How to: Post Invoices from Service Orders](../FullExperience/how-to-post-invoices-from-service-orders.md)   
+ [How to: Post Service Orders](../FullExperience/how-to-post-service-orders.md)   
+ [How to: Create Combined Invoices](../FullExperience/how-to-create-combined-invoices.md)   
+ [Invoice Discounts on Service Documents](../FullExperience/invoice-discounts-on-service-documents.md)

@@ -32,7 +32,7 @@ If you have amended production order lines, you must also refresh the components
   
 4.  The following table describes the options available for this batch job.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)]-->|Selection|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../../includes/bp_tabledescription_md.md)]-->|  
     |----------------------------------|---------------|---------------------------------------|  
     |**Scheduling Direction**|**Forward**|This field has no effect on the outcome.|  
     ||**Backward**|This field has no effect on the outcome.|  
@@ -47,7 +47,7 @@ If you have amended production order lines, you must also refresh the components
 >  Calculating production order components deletes previous changes in the components.  
   
 ## See Also  
- [How to: Refresh Production Orders](../OperationsPlanning/how-to-refresh-production-orders.md)   
- [How to: Calculate Lines from Production Order Headers](../OperationsPlanning/how-to-calculate-lines-from-production-order-headers.md)   
- [How to: Calculate Production Order Routing Lines](../OperationsPlanning/how-to-calculate-production-order-routing-lines.md)   
- [How to: Use the Manufacturing Batch Unit of Measure](../DesignAndEngineering/how-to-use-the-manufacturing-batch-unit-of-measure.md)
+ [How to: Refresh Production Orders](../FullExperience/how-to-refresh-production-orders.md)   
+ [How to: Calculate Lines from Production Order Headers](../FullExperience/how-to-calculate-lines-from-production-order-headers.md)   
+ [How to: Calculate Production Order Routing Lines](../FullExperience/how-to-calculate-production-order-routing-lines.md)   
+ [How to: Use the Manufacturing Batch Unit of Measure](../FullExperience/how-to-use-the-manufacturing-batch-unit-of-measure.md)

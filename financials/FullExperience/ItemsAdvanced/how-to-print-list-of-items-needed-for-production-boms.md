@@ -29,6 +29,6 @@ The **Quantity Explosion of BOM** report gives you a list of the item quantities
 4.  Choose **Print** to print the report or **Preview** to see the report on the screen.  
   
 ## See Also  
- [Concepts of Production BOMs](../DesignAndEngineering/concepts-of-production-boms.md)   
- [Production BOM Versions](../DesignAndEngineering/production-bom-versions.md)   
- [List Production BOM Structures](../DesignAndEngineering/list-production-bom-structures.md)
+ [Concepts of Production BOMs](../FullExperience/concepts-of-production-boms.md)   
+ [Production BOM Versions](../FullExperience/production-bom-versions.md)   
+ [List Production BOM Structures](../FullExperience/list-production-bom-structures.md)

@@ -18,7 +18,7 @@
 # Belgian Electronic Banking
 Electronic banking allows you to electronically exchange data with Belgian financial institutions. Data can be exchanged either on disk, by modem, or via Interbanks Standards Association Belgium \(Isabel\). This way you can benefit from a faster processing time and avoid errors caused by manual data entry or processing.  
   
- In ADD INCLUDE<!--[!INCLUDE[nav_current_short](../../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_current_short_md.md)]-->, you can use electronic banking to perform the following functions:  
+ In ADD INCLUDE<!--[!INCLUDE[nav_current_short](../../includes/nav_current_short_md.md)]-->, you can use electronic banking to perform the following functions:  
   
 -   Send electronic payments  
   
@@ -27,6 +27,6 @@ Electronic banking allows you to electronically exchange data with Belgian finan
 -   Process direct debits with domiciliations  
   
 ## See Also  
- [Belgian Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/belgian-electronic-payments.md)   
- [CODA Bank Statements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/coda-bank-statements.md)   
- [Direct Debit Using Domiciliation](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/direct-debit-using-domiciliation.md)
+ [Belgian Electronic Payments](../FullExperience/belgian-electronic-payments.md)   
+ [CODA Bank Statements](../FullExperience/coda-bank-statements.md)   
+ [Direct Debit Using Domiciliation](../FullExperience/direct-debit-using-domiciliation.md)

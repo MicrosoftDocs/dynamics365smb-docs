@@ -35,5 +35,5 @@ You can see the status of a blanket purchase order in the **Purchase Blanket Ord
      On the **Vendor** FastTab, you can see certain basic information about the vendor.  
   
 ## See Also  
- [How to: Create Blanket Purchase Orders](../Purchasing/how-to-create-blanket-purchase-orders.md)   
- [How to: Convert Blanket Purchase Orders to Purchase Orders](../Purchasing/how-to-convert-blanket-purchase-orders-to-purchase-orders.md)
+ [How to: Create Blanket Purchase Orders](../FullExperience/how-to-create-blanket-purchase-orders.md)   
+ [How to: Convert Blanket Purchase Orders to Purchase Orders](../FullExperience/how-to-convert-blanket-purchase-orders-to-purchase-orders.md)

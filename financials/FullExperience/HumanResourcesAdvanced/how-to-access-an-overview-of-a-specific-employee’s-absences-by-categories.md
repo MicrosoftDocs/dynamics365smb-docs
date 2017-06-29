@@ -31,6 +31,6 @@ You can get an overview of an individual employee’s absences by categories.
  The **Empl. Absences by Cat. Matrix** window shows all absences, broken down by causes of absence.  
   
 ## See Also  
- [How to: Access an Overview of a Specific Employee’s Absence](../HumanResources/how-to-access-an-overview-of-a-specific-employee’s-absence.md)   
- [How to: Access an Overview of All Employees’ Absences by Categories](../HumanResources/how-to-access-an-overview-of-all-employees’-absences-by-categories.md)   
- [How to: Access an Overview of All Employees’ Absences by Periods](../HumanResources/how-to-access-an-overview-of-all-employees’-absences-by-periods.md)
+ [How to: Access an Overview of a Specific Employee’s Absence](../FullExperience/how-to-access-an-overview-of-a-specific-employee’s-absence.md)   
+ [How to: Access an Overview of All Employees’ Absences by Categories](../FullExperience/how-to-access-an-overview-of-all-employees’-absences-by-categories.md)   
+ [How to: Access an Overview of All Employees’ Absences by Periods](../FullExperience/how-to-access-an-overview-of-all-employees’-absences-by-periods.md)

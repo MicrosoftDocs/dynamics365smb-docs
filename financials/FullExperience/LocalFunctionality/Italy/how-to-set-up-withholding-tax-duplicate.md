@@ -44,7 +44,7 @@ Companies must pay withholding tax to the government for third-party services an
   
 3.  Fill in the FastTabs as described in the following table.  
   
-    |FastTab|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |FastTab|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
     |-------------|---------------------------------------|  
     |**General**|The vendor personal data.|  
     |**Communication**|The contact details for the vendor.|  
@@ -89,4 +89,4 @@ Companies must pay withholding tax to the government for third-party services an
  Vendor Card   
  Purchase Invoice   
  Payment Journal   
- [How to: Print Withholding Tax Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-print-withholding-tax-reports.md)
+ [How to: Print Withholding Tax Reports](../FullExperience/how-to-print-withholding-tax-reports.md)

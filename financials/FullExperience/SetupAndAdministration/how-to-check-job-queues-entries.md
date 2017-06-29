@@ -35,4 +35,4 @@ The **Job Queue Entries** window lists all current job queue entries. The list d
      The **Job Queue Log Entries** window also displays any error messages. Each line represents a job queue entry or the occurrence of a recurring entry. If a job ended with an error, the error message is displayed.  
   
 ## See Also  
- [How to: Create Job Queue Entries](../SetupAndAdministration/how-to-create-job-queue-entries.md)
+ [How to: Create Job Queue Entries](../FullExperience/how-to-create-job-queue-entries.md)

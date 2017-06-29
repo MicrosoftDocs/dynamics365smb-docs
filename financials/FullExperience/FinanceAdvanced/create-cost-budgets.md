@@ -31,6 +31,6 @@ Budgeting in cost accounting resembles budgeting in the general ledger. A cost b
 |Print cost budget comparisons using various reports.|Cost Acctg. Balance-Budget<br /><br /> Cost Acctg. Statement-Budget<br /><br /> Cost Budget by Cost Center<br /><br /> Cost Budget by Cost Object|  
   
 ## See Also  
- [Manage Cost Accounting](../Finance/manage-cost-accounting.md)   
- [Terminology in Cost Accounting](../Finance/terminology-in-cost-accounting.md)   
- [Define and Allocate Costs](../Finance/define-and-allocate-costs.md)
+ [Manage Cost Accounting](../FullExperience/manage-cost-accounting.md)   
+ [Terminology in Cost Accounting](../FullExperience/terminology-in-cost-accounting.md)   
+ [Define and Allocate Costs](../FullExperience/define-and-allocate-costs.md)

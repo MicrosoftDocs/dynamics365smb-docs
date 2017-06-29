@@ -31,6 +31,6 @@ Return orders are usually deleted after they are invoiced. When you post an invo
  Before deleting, the batch job checks if the purchase return orders are fully shipped and invoiced  
   
 ## See Also  
- [How to: Combine Return Shipments](../Purchasing/how-to-combine-return-shipments.md)   
- [How to: Delete Invoiced Blanket Purchase Orders](../SetupAndAdministration/how-to-delete-invoiced-blanket-purchase-orders.md)   
- [How to: Delete Invoiced Purchase Orders](../Purchasing/how-to-delete-invoiced-purchase-orders.md)
+ [How to: Combine Return Shipments](../FullExperience/how-to-combine-return-shipments.md)   
+ [How to: Delete Invoiced Blanket Purchase Orders](../FullExperience/how-to-delete-invoiced-blanket-purchase-orders.md)   
+ [How to: Delete Invoiced Purchase Orders](../FullExperience/how-to-delete-invoiced-purchase-orders.md)

@@ -49,12 +49,12 @@ Sometimes you may find a link on a **Departments** page that you want to add to 
   
 3.  Confirm the message that appears.  
   
- The new link now appears in the menu to which you added it. However, you may want to move the link to another position in the menu. For example, if you added a link to the navigation pane, it will appear on the **Home** menu, but you can move it to another menu in the navigation pane. For more information, see [How to: Customize the Navigation Pane](../SetupAndAdministration/how-to-customize-the-navigation-pane.md).  
+ The new link now appears in the menu to which you added it. However, you may want to move the link to another position in the menu. For example, if you added a link to the navigation pane, it will appear on the **Home** menu, but you can move it to another menu in the navigation pane. For more information, see [How to: Customize the Navigation Pane](../FullExperience/how-to-customize-the-navigation-pane.md).  
   
 ## See Also  
  PERSONALIZATION Personalize the User Interface   
  DEPARTMENTS Departments   
- [How to: Customize the Navigation Pane](../SetupAndAdministration/how-to-customize-the-navigation-pane.md)   
- [Customize the User Interface](../SetupAndAdministration/customize-the-user-interface.md)   
- [Learn About the RoleTailored Design](../GettingStarted/learn-about-the-roletailored-design.md)   
- [Working with Product Name](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)
+ [How to: Customize the Navigation Pane](../FullExperience/how-to-customize-the-navigation-pane.md)   
+ [Customize the User Interface](../FullExperience/customize-the-user-interface.md)   
+ [Learn About the RoleTailored Design](../FullExperience/learn-about-the-roletailored-design.md)   
+ [Working with Product Name](../FullExperience/working-with-$-p_1-product-name-$-.md)

@@ -29,12 +29,12 @@ You must set up a default set of templates and batches for each depreciation boo
 4.  Choose the **Close** button to close the window.  
   
 ## See Also  
- [How to: Set Up Fixed Asset Journal Batches](../Finance/how-to-set-up-fixed-asset-journal-batches.md)   
- [How to: Index Insurance](../Finance/how-to-index-insurance.md)   
- [Insure Fixed Assets](../Finance/insure-fixed-assets.md)   
- [Set Up Fixed Asset Insurance](../Finance/set-up-fixed-asset-insurance.md)   
- [Updating Insurance Information](../Finance/updating-insurance-information.md)   
- [Monitoring Insurance Coverage](../Finance/monitoring-insurance-coverage.md)   
+ [How to: Set Up Fixed Asset Journal Batches](../FullExperience/how-to-set-up-fixed-asset-journal-batches.md)   
+ [How to: Index Insurance](../FullExperience/how-to-index-insurance.md)   
+ [Insure Fixed Assets](../FullExperience/insure-fixed-assets.md)   
+ [Set Up Fixed Asset Insurance](../FullExperience/set-up-fixed-asset-insurance.md)   
+ [Updating Insurance Information](../FullExperience/updating-insurance-information.md)   
+ [Monitoring Insurance Coverage](../FullExperience/monitoring-insurance-coverage.md)   
  Index Insurance   
  Insurance Jnl. Template Name   
  Insurance Jnl. Batch Name   

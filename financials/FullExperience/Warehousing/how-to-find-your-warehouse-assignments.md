@@ -31,4 +31,4 @@ To find your warehouse assignments, open the card window for a selected item. If
 ## See Also  
  Warehouse Movement   
  Warehouse Put-away   
- [Put Items Away](../WarehouseActivities/put-items-away.md)
+ [Put Items Away](../FullExperience/put-items-away.md)

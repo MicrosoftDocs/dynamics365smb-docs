@@ -32,5 +32,5 @@ There are no requirements for when or how often you should enter new exchange ra
   
 ## See Also  
  Adjust Exchange Rates   
- [About Using Additional Reporting Currencies](../Finance/about-using-additional-reporting-currencies.md)   
- [How to: Change Exchange Rates When You Post](../Finance/how-to-change-exchange-rates-when-you-post.md)
+ [About Using Additional Reporting Currencies](../FullExperience/about-using-additional-reporting-currencies.md)   
+ [How to: Change Exchange Rates When You Post](../FullExperience/how-to-change-exchange-rates-when-you-post.md)

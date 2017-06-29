@@ -28,7 +28,7 @@ You can use the following reports for month-end reconciliation and auditing:
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_10540\_N\_2\_1040000 Print details $\)**|Select to display the details that are printed in the report.|  
     |**\($ R\_10540\_N\_2\_1040002 Ending Date $\)**|Specifies the end date.<br /><br /> **NOTE:** You can select the end date only in the **Stock Received not Invoiced** report.|  
@@ -40,4 +40,4 @@ You can use the following reports for month-end reconciliation and auditing:
  Stock Shipped not Invoiced   
  Nonstock Item   
  Nonstock Item Card   
- [United Kingdom Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/united-kingdom-local-functionality.md)
+ [United Kingdom Local Functionality](../FullExperience/united-kingdom-local-functionality.md)

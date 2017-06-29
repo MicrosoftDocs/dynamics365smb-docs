@@ -18,7 +18,7 @@
 # How to: Process Response Messages from Tax Authorities
 When you submit a VAT or ICP declaration to the tax authorities electronically, they will process the declaration and send you a message in response.  
   
- You can import the response into ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> by using the **Receive Response Messages** batch job. The response message will contain the status of the declaration.  
+ You can import the response into ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> by using the **Receive Response Messages** batch job. The response message will contain the status of the declaration.  
   
 ### To import messages from the tax authorities' server  
   
@@ -28,7 +28,7 @@ When you submit a VAT or ICP declaration to the tax authorities electronically, 
   
 3.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**CA Certificate Encryption Password**|The password that was used to encrypt the Certificate Authorities' certificates.|  
     |**User Certificate Password**|The password that is used to encrypt the user certificates.|  
@@ -50,9 +50,9 @@ When you submit a VAT or ICP declaration to the tax authorities electronically, 
 5.  To export a message or attachment, on the **Actions** tab, in the **Functions** group, choose **Export Response Message** or **Export Response Attachment**.  
   
 ## See Also  
- [Electronic VAT and ICP Declarations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/electronic-vat-and-icp-declarations.md)   
- [How to: Set Up VAT Categories](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/how-to-set-up-vat-categories.md)   
- [How to: Create Electronic VAT and ICP Declarations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/how-to-create-electronic-vat-and-icp-declarations.md)   
+ [Electronic VAT and ICP Declarations](../FullExperience/electronic-vat-and-icp-declarations.md)   
+ [How to: Set Up VAT Categories](../FullExperience/how-to-set-up-vat-categories.md)   
+ [How to: Create Electronic VAT and ICP Declarations](../FullExperience/how-to-create-electronic-vat-and-icp-declarations.md)   
  Elec. Tax Declaration Header Table   
  Elec. Tax Decl. Response Msg. Table   
  Receive Response Messages Batch Job   

@@ -35,5 +35,5 @@ To post work progress automatically, you must assign a flushing method to the ma
 4.  Repeat these steps on the **Posting** FastTab of the **Work Center** card.  
   
 ## See Also  
- [How to: Post Output Quantity](../Production/how-to-post-output-quantity.md)   
- [How to: Post Run Times](../Production/how-to-post-run-times.md)
+ [How to: Post Output Quantity](../FullExperience/how-to-post-output-quantity.md)   
+ [How to: Post Run Times](../FullExperience/how-to-post-run-times.md)

@@ -46,5 +46,5 @@ This topic defines the key terms that are used in cost accounting.
 |Variant|A variant is used as an optional user-defined label for allocations. The purpose of the label is to filter groups of allocation.|  
   
 ## See Also  
- [About Cost Accounting](../Finance/about-cost-accounting.md)   
- [Manage Cost Accounting](../Finance/manage-cost-accounting.md)
+ [About Cost Accounting](../FullExperience/about-cost-accounting.md)   
+ [Manage Cost Accounting](../FullExperience/manage-cost-accounting.md)

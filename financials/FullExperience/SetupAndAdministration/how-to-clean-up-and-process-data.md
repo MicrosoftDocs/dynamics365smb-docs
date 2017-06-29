@@ -33,6 +33,6 @@ In some cases, you may want to clean up customer data and process it before you 
 3.  To apply the mapping that you have set up, on the **Tables** FastTab, choose **Functions** group, and then choose **Apply Data**.  
   
 ## See Also  
- [How to: Map Customer Data](../SetupAndAdministration/how-to-map-customer-data.md)   
- [How to: Apply Customer Data](../SetupAndAdministration/how-to-apply-customer-data.md)   
+ [How to: Map Customer Data](../FullExperience/how-to-map-customer-data.md)   
+ [How to: Apply Customer Data](../FullExperience/how-to-apply-customer-data.md)   
  Config. Package - Process

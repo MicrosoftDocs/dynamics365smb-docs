@@ -31,5 +31,5 @@ You may need to remove service items as contract lines from service contract quo
  The line is removed from the contract quote that you selected.  
   
 ## See Also  
- [How to: Insert Service Contract Lines into Service Contracts or Contract Quotes](../Service/how-to-insert-service-contract-lines-into-service-contracts-or-contract-quotes.md)   
- [How to: Create Service Contracts and Service Contract Quotes](../Service/how-to-create-service-contracts-and-service-contract-quotes.md)
+ [How to: Insert Service Contract Lines into Service Contracts or Contract Quotes](../FullExperience/how-to-insert-service-contract-lines-into-service-contracts-or-contract-quotes.md)   
+ [How to: Create Service Contracts and Service Contract Quotes](../FullExperience/how-to-create-service-contracts-and-service-contract-quotes.md)

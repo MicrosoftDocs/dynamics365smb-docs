@@ -29,10 +29,10 @@ In a make-to-order environment, an item is purchased or produced to exclusively 
  Even if a manufacturing company considers itself as a make-to-order environment, it might be best to use a Lot-for-Lot reordering policy if the items are pure standard without variation in attributes. As a result, the system will use unplanned inventory and only accumulates sales orders with the same shipment date or within a defined time bucket.  
   
 ## Order-to-Order Links and Past Due Dates  
- Unlike most supply-demand sets, linked orders with due dates before the planning starting date are fully planned for by the system. The business reason for this exception is that specific demand-supply sets must be synchronized through to execution. For more information about the frozen zone that applies to most demand-supply types, see [Design Details: Dealing with Orders Before the Planning Starting Date](../ApplicationDesign/design-details-dealing-with-orders-before-the-planning-starting-date.md).  
+ Unlike most supply-demand sets, linked orders with due dates before the planning starting date are fully planned for by the system. The business reason for this exception is that specific demand-supply sets must be synchronized through to execution. For more information about the frozen zone that applies to most demand-supply types, see [Design Details: Dealing with Orders Before the Planning Starting Date](../FullExperience/design-details-dealing-with-orders-before-the-planning-starting-date.md).  
   
 ## See Also  
- [Design Details: Reordering Policies](../ApplicationDesign/design-details-reordering-policies.md)   
- [Design Details: Planning Parameters](../ApplicationDesign/design-details-planning-parameters.md)   
- [Design Details: Handling Reordering Policies](../ApplicationDesign/design-details-handling-reordering-policies.md)   
- [Design Details: Supply Planning](../ApplicationDesign/design-details-supply-planning.md)
+ [Design Details: Reordering Policies](../FullExperience/design-details-reordering-policies.md)   
+ [Design Details: Planning Parameters](../FullExperience/design-details-planning-parameters.md)   
+ [Design Details: Handling Reordering Policies](../FullExperience/design-details-handling-reordering-policies.md)   
+ [Design Details: Supply Planning](../FullExperience/design-details-supply-planning.md)

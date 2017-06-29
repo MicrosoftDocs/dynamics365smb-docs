@@ -29,6 +29,6 @@ Before you set up the VAT rate change tool, you must make the following preparat
 4.  Back up data.  
   
 ## See Also  
- [How to: Set Up VAT Rate Change Tool](../Finance/how-to-set-up-vat-rate-change-tool.md)   
- [How to: Perform VAT Rate Conversions](../Finance/how-to-perform-vat-rate-conversions.md)   
- [Understanding the VAT Rate Conversion Process](../Finance/understanding-the-vat-rate-conversion-process.md)
+ [How to: Set Up VAT Rate Change Tool](../FullExperience/how-to-set-up-vat-rate-change-tool.md)   
+ [How to: Perform VAT Rate Conversions](../FullExperience/how-to-perform-vat-rate-conversions.md)   
+ [Understanding the VAT Rate Conversion Process](../FullExperience/understanding-the-vat-rate-conversion-process.md)

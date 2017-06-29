@@ -25,4 +25,4 @@ After all the information has been entered on the service lines, you can calcula
  The currency code on the service document is used to find the invoice discount terms in the corresponding currency. If invoice discounts have not been defined for foreign currencies, the invoice discount terms in LCY set up in the **Cust. Invoice Disc.** table and the exchange rate as of the posting date on the service document are used.  
   
 ## See Also  
- [How to: Invoice with Sales Invoice Discounts in LCY](../Finance/how-to-invoice-with-sales-invoice-discounts-in-lcy.md)
+ [How to: Invoice with Sales Invoice Discounts in LCY](../FullExperience/how-to-invoice-with-sales-invoice-discounts-in-lcy.md)

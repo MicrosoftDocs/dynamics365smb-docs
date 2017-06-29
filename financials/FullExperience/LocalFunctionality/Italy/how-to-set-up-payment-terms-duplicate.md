@@ -26,7 +26,7 @@ For each payment term, you can specify if the payment can be made in installment
   
 2.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Code**|Specify the unique identification code for the set of payment terms. You can enter a maximum of 10 alphanumeric characters.|  
     |**Payment Nos.**|Specify the number of installments allowed for this payment term.|  
@@ -36,10 +36,10 @@ For each payment term, you can specify if the payment can be made in installment
   
 4.  In the **Payment Terms Lines** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ T\_12170\_4 Payment % $\)**|Specify the percentage of the total payment that this installment is for.<br /><br /> For example, if the payment must be made in one installment, specify **100**.|  
-    |**Due Date Calculation**|Specify the formula that is used to calculate the date that a payment must be made.<br /><br /> For example, if the payment must be made in one installment after two weeks, specify **14D**. For more information, see [How to: Enter Dates and Times](../../WorkingWithDynamics/how-to-enter-dates-and-times.md).|  
+    |**Due Date Calculation**|Specify the formula that is used to calculate the date that a payment must be made.<br /><br /> For example, if the payment must be made in one installment after two weeks, specify **14D**. For more information, see [How to: Enter Dates and Times](../FullExperience/how-to-enter-dates-and-times.md).|  
     |**Discount Date Calculation**|Specify the formula that is used to calculate the date that a payment must be made in order to obtain a discount.|  
     |**\($ T\_12170\_7 Discount % $\)**|Specify the discount percentage that is applied for early payment of an invoice amount.|  
   
@@ -48,6 +48,6 @@ For each payment term, you can specify if the payment can be made in installment
      The **Payment Nos.** field in the **Payment Terms** window is updated. The payment terms that you set here will be a reference for automatic due date calculation for documents that you post for relevant customers and vendors.  
   
 ## See Also  
- [How to: Set Up Automatic Payments and Automatic Bills](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-set-up-automatic-payments-and-automatic-bills.md)   
+ [How to: Set Up Automatic Payments and Automatic Bills](../FullExperience/how-to-set-up-automatic-payments-and-automatic-bills.md)   
  Payment Terms   
- [Italy Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/italy-local-functionality.md)
+ [Italy Local Functionality](../FullExperience/italy-local-functionality.md)

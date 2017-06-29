@@ -22,11 +22,11 @@ When you set up service management, you have to decide what services to offer cu
   
 |**To**|**See**|  
 |------------|-------------|  
-|Enter information about the service items that your service organization is tracking.|[How to: Create Service Items](../Service/how-to-create-service-items.md)|  
-|Establish a workflow for service when the service items consists of several components. The component list is always connected to a service item, but these components can also be based on bill of materials \(BOMs\).|[How to: Set Up Service Item Components](../Service/how-to-set-up-service-item-components.md)|  
-|Use the **Service Item** window to associate groups of service items into logical groups.|[How to: Set Up Service Item Groups](../Service/how-to-set-up-service-item-groups.md)|  
+|Enter information about the service items that your service organization is tracking.|[How to: Create Service Items](../FullExperience/how-to-create-service-items.md)|  
+|Establish a workflow for service when the service items consists of several components. The component list is always connected to a service item, but these components can also be based on bill of materials \(BOMs\).|[How to: Set Up Service Item Components](../FullExperience/how-to-set-up-service-item-components.md)|  
+|Use the **Service Item** window to associate groups of service items into logical groups.|[How to: Set Up Service Item Groups](../FullExperience/how-to-set-up-service-item-groups.md)|  
   
 ## See Also  
- [How to: Trace Item-Tracked Items](../Receiving/how-to-trace-item-tracked-items.md)   
+ [How to: Trace Item-Tracked Items](../FullExperience/how-to-trace-item-tracked-items.md)   
  Item Journal   
  Req. Worksheet

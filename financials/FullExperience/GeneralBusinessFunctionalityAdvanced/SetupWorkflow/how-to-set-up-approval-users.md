@@ -19,14 +19,14 @@
 Before you can create workflows that involve approval steps, you must set up the workflow users who are involved in approval processes. In the **Approval User Setup** window, you also set amount limits for specific types of requests and define substitute approvers to whom approval requests are delegated when the original approver is absent.  
   
 > [!NOTE]  
->  Approval users, both approval requesters and approvers, must first be set up as workflow users in the **Workflow User Group** window. For more information, see [How to: Set Up Workflow Users](../../BusinessFunctionality/Workflow/how-to-set-up-workflow-users.md).  
+>  Approval users, both approval requesters and approvers, must first be set up as workflow users in the **Workflow User Group** window. For more information, see [How to: Set Up Workflow Users](../FullExperience/how-to-set-up-workflow-users.md).  
   
- When you have set up approval users, you can use the setup to create workflow responses for approval workflows. For more information, see step 9 in [How to: Create Workflows](../../BusinessFunctionality/Workflow/how-to-create-workflows.md).  
+ When you have set up approval users, you can use the setup to create workflow responses for approval workflows. For more information, see step 9 in [How to: Create Workflows](../FullExperience/how-to-create-workflows.md).  
   
 > [!NOTE]  
->  To define that an approval request is not approved until multiple approvers in an approval chain have approved it, set up approvers in a hierarchy. For approver type **Approver**, set approvers up in the **Approval User Setup** window. For approver type, **Workflow User Group**, set approvers up in the **Workflow User Groups** window and define the hierarchy by assigning incremental numbers to each approver in the **Sequence No.** field. For more information, see this topic and [How to: Set Up Workflow Users](../../BusinessFunctionality/Workflow/how-to-set-up-workflow-users.md).  
+>  To define that an approval request is not approved until multiple approvers in an approval chain have approved it, set up approvers in a hierarchy. For approver type **Approver**, set approvers up in the **Approval User Setup** window. For approver type, **Workflow User Group**, set approvers up in the **Workflow User Groups** window and define the hierarchy by assigning incremental numbers to each approver in the **Sequence No.** field. For more information, see this topic and [How to: Set Up Workflow Users](../FullExperience/how-to-set-up-workflow-users.md).  
 >   
->  To define that an approval request is not approved until multiple equal approvers have approved it, regardless of a hirarchy, set up a flat workflow user group. For approver type, **Workflow User Group**, set up approvers in the **Workflow User Groups** window and assign the same number to each approver in the **Sequence No.** field. For more information, see [How to: Set Up Workflow Users](../../BusinessFunctionality/Workflow/how-to-set-up-workflow-users.md).  
+>  To define that an approval request is not approved until multiple equal approvers have approved it, regardless of a hirarchy, set up a flat workflow user group. For approver type, **Workflow User Group**, set up approvers in the **Workflow User Groups** window and assign the same number to each approver in the **Sequence No.** field. For more information, see [How to: Set Up Workflow Users](../FullExperience/how-to-set-up-workflow-users.md).  
   
 ### To set up an approval user  
   
@@ -34,7 +34,7 @@ Before you can create workflows that involve approval steps, you must set up the
   
 2.  Create a new line in the **Approval User Setup** window, and then fill the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**User ID**|Select the user ID of the user who is involved in the approval process.|  
     |**Salespers.\/Purch. Code**|Specify the salesperson or purchaser code that applies to the user in the **Salespers.\/Purch. Code** field.<br /><br /> You typically fill the **Salespers.\/Purch. Code** field if the salesperson or purchaser who is responsible for the customer or vendor is also the person who must approve the sales or purchase request in question.|  
@@ -45,7 +45,7 @@ Before you can create workflows that involve approval steps, you must set up the
     |**Unlimited Purchase Approval**|Specify that the user in the **User ID** field can approve all purchase requests regardless of their amount.<br /><br /> If you select this check box, then you cannot fill the **Sales Amount Approval Limit** field.|  
     |**Request Amount Approval Limit**|Specify the maximum amount in LCY that the user in the **User ID** field can approve for purchase quotes.<br /><br /> To use this field, you must select the **Approver Chain** option in the **Approver Limit Type** field in the **Workflow Response** window.|  
     |**Unlimited Request Approval**|Specify that the user in the **User ID** field can approve all purchase quotes regardless of their amount.<br /><br /> If you select this check box, then you cannot fill the **Request Amount Approval Limit** field.|  
-    |**Substitute**|Select the user ID of the user who must approve requests made by the user in the **User ID** field if the user in the **Approver ID** is not available. **Note:**  The substitute can either be the user in the **Substitute** field, the direct approver, or the approval administrator, in that order of priority. For more information, see [How to: Delegate Requests for Approval](../../BusinessFunctionality/Workflow/how-to-delegate-requests-for-approval.md).|  
+    |**Substitute**|Select the user ID of the user who must approve requests made by the user in the **User ID** field if the user in the **Approver ID** is not available. **Note:**  The substitute can either be the user in the **Substitute** field, the direct approver, or the approval administrator, in that order of priority. For more information, see [How to: Delegate Requests for Approval](../FullExperience/how-to-delegate-requests-for-approval.md).|  
     |**Email**|Specify the email address of the user in the **User ID** field.|  
     |**Approval Administrator**|Specify the user who has rights to unblock approval workflows, for example, by delegating approval requests to new substitute approvers and deleting overdue approval requests.|  
   
@@ -59,10 +59,10 @@ Before you can create workflows that involve approval steps, you must set up the
 ## See Also  
  Limit Type   
  Approval User Setup Test   
- [How to: Set Up Workflow Users](../../BusinessFunctionality/Workflow/how-to-set-up-workflow-users.md)   
- [Setting Up Workflow Notifications](../../BusinessFunctionality/Workflow/setting-up-workflow-notifications.md)   
- [How to: Create Workflows](../../BusinessFunctionality/Workflow/how-to-create-workflows.md)   
- [Set Up Workflows](../../BusinessFunctionality/Workflow/set-up-workflows.md)   
- [Walkthrough: Setting Up and Using a Purchase Approval Workflow](../../BusinessFunctionality/Workflow/walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
- [Workflow](../../BusinessFunctionality/Workflow/workflow.md)   
- [Business Functionality](../Topic/Business%20Functionality.md)
+ [How to: Set Up Workflow Users](../FullExperience/how-to-set-up-workflow-users.md)   
+ [Setting Up Workflow Notifications](../FullExperience/setting-up-workflow-notifications.md)   
+ [How to: Create Workflows](../FullExperience/how-to-create-workflows.md)   
+ [Set Up Workflows](../FullExperience/set-up-workflows.md)   
+ [Walkthrough: Setting Up and Using a Purchase Approval Workflow](../FullExperience/walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
+ [Workflow](../FullExperience/workflow.md)   
+ [Business Functionality](../FullExperience/Business%20Functionality.md)

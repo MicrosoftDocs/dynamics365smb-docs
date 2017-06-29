@@ -18,7 +18,7 @@
 # How to: Export Business Unit Information
 If consolidation takes place in another database than the one where you have your company's information, than you must export consolidation data from your company to a file. Each company must be exported separately.  
   
-### To export business unit information from databases in ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]-->  
+### To export business unit information from databases in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->  
   
 1.  Open the company that you want to export.  
   
@@ -31,11 +31,11 @@ If consolidation takes place in another database than the one where you have you
  Now you can send the file together with the data for your company to the company where the consolidation will be performed.  
   
 ## See Also  
- [How to: Process Consolidations](../Finance/how-to-process-consolidations.md)   
- [How to: Enter Basic Information for Consolidated Companies](../Finance/how-to-enter-basic-information-for-consolidated-companies.md)   
- [How to: Enter Consolidation Information on General Ledger Accounts](../Finance/how-to-enter-consolidation-information-on-general-ledger-accounts.md)   
- [How to: Test Databases Before Consolidating](../Finance/how-to-test-databases-before-consolidating.md)   
- [How to: Test Files Before Consolidating](../Finance/how-to-test-files-before-consolidating.md)   
- [How to: Consolidate from Databases](../Finance/how-to-consolidate-from-databases.md)   
- [How to: Consolidate from Files](../Finance/how-to-consolidate-from-files.md)   
- [\($ S\_COMPANY How to: Select a Company $\)](../WorkingWithDynamics/-$-s_company-how-to-select-a-company-$-.md)
+ [How to: Process Consolidations](../FullExperience/how-to-process-consolidations.md)   
+ [How to: Enter Basic Information for Consolidated Companies](../FullExperience/how-to-enter-basic-information-for-consolidated-companies.md)   
+ [How to: Enter Consolidation Information on General Ledger Accounts](../FullExperience/how-to-enter-consolidation-information-on-general-ledger-accounts.md)   
+ [How to: Test Databases Before Consolidating](../FullExperience/how-to-test-databases-before-consolidating.md)   
+ [How to: Test Files Before Consolidating](../FullExperience/how-to-test-files-before-consolidating.md)   
+ [How to: Consolidate from Databases](../FullExperience/how-to-consolidate-from-databases.md)   
+ [How to: Consolidate from Files](../FullExperience/how-to-consolidate-from-files.md)   
+ [\($ S\_COMPANY How to: Select a Company $\)](../FullExperience/-$-s_company-how-to-select-a-company-$-.md)

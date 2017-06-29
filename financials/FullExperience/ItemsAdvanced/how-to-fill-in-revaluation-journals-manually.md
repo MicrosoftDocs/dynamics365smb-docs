@@ -48,6 +48,6 @@ If you want to appreciate or depreciate an item or a specific item ledger entry,
 3.  The value entries are created to reflect the revaluing. You can see these from the item card.  
   
 ## See Also  
- [Inventory Revaluation](../DesignAndEngineering/inventory-revaluation.md)   
- [How to: Enter New Values When Revaluing Items](../DesignAndEngineering/how-to-enter-new-values-when-revaluing-items.md)   
- [How to: Fill In the Revaluation Journal with the Batch Job](../DesignAndEngineering/how-to-fill-in-the-revaluation-journal-with-the-batch-job.md)
+ [Inventory Revaluation](../FullExperience/inventory-revaluation.md)   
+ [How to: Enter New Values When Revaluing Items](../FullExperience/how-to-enter-new-values-when-revaluing-items.md)   
+ [How to: Fill In the Revaluation Journal with the Batch Job](../FullExperience/how-to-fill-in-the-revaluation-journal-with-the-batch-job.md)

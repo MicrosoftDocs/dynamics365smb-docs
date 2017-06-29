@@ -30,4 +30,4 @@ The **Bank Account Reconciliation** report displays open bank ledger entries as 
   
 ## See Also  
  Bank Account Reconciliation   
- [Reconcile Bank Accounts](../../Finance/reconcile-bank-accounts.md)
+ [Reconcile Bank Accounts](../FullExperience/reconcile-bank-accounts.md)

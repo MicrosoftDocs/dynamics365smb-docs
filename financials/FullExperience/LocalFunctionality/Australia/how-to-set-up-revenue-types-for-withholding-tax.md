@@ -26,7 +26,7 @@ Revenue types are used to categorize withholding tax \(WHT\) entries and are use
   
 2.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Code**|Specifies the unique code for the revenue type. You can enter a maximum of 10 alphanumeric characters.|  
     |**Description**|Specifies the description for the WHT revenue type.|  
@@ -35,7 +35,7 @@ Revenue types are used to categorize withholding tax \(WHT\) entries and are use
 3.  Choose the **OK** button.  
   
 ## See Also  
- [Withholding Tax](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/withholding-tax.md)   
- [How to: Set Up Withholding Tax-duplicate](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-set-up-withholding-tax-duplicate.md)   
- [How to: View Withholding Tax Entries](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-view-withholding-tax-entries.md)   
- [How to: Calculate and Post Withholding Tax Settlements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-calculate-and-post-withholding-tax-settlements.md)
+ [Withholding Tax](../FullExperience/withholding-tax.md)   
+ [How to: Set Up Withholding Tax-duplicate](../FullExperience/how-to-set-up-withholding-tax-duplicate.md)   
+ [How to: View Withholding Tax Entries](../FullExperience/how-to-view-withholding-tax-entries.md)   
+ [How to: Calculate and Post Withholding Tax Settlements](../FullExperience/how-to-calculate-and-post-withholding-tax-settlements.md)

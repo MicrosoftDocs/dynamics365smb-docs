@@ -16,9 +16,9 @@
 
     ---
 # Isabel 6
-The Isabel organization has developed a Client Isabel Synchronizer \(CIS\) platform that allows ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> to securely integrate with Isabel. CIS handles document exchange to and from the Isabel server.  
+The Isabel organization has developed a Client Isabel Synchronizer \(CIS\) platform that allows ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> to securely integrate with Isabel. CIS handles document exchange to and from the Isabel server.  
   
- To upload or download the bank files, you will have to set up your environment to work with Isabel. ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> communicates to the CIS.dll through a COM wrapper.  
+ To upload or download the bank files, you will have to set up your environment to work with Isabel. ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> communicates to the CIS.dll through a COM wrapper.  
   
  To set up your system to work with Isabel, complete the following:  
   
@@ -30,5 +30,5 @@ The Isabel organization has developed a Client Isabel Synchronizer \(CIS\) platf
   
 ## See Also  
  [Isabel website](http://go.microsoft.com/fwlink/?LinkId=210323)   
- [Belgian Electronic Banking](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/belgian-electronic-banking.md)   
- [How to: Set Up Electronic Banking](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-electronic-banking.md)
+ [Belgian Electronic Banking](../FullExperience/belgian-electronic-banking.md)   
+ [How to: Set Up Electronic Banking](../FullExperience/how-to-set-up-electronic-banking.md)

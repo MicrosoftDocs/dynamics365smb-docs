@@ -31,7 +31,7 @@ You can assign any tools to standard tasks. The assigned tools specify which too
  The entered values are copied and assigned to the standard task.  
   
 ## See Also  
- [How to: Assign Tools to Operations](../Production/how-to-assign-tools-to-operations.md)   
- [How to: Create Standard Tasks](../DesignAndEngineering/how-to-create-standard-tasks.md)   
- [How to: Assign Personnel to Standard Tasks](../Production/how-to-assign-personnel-to-standard-tasks.md)   
- [How to: Assign Quality Measures to Standard Tasks](../Production/how-to-assign-quality-measures-to-standard-tasks.md)
+ [How to: Assign Tools to Operations](../FullExperience/how-to-assign-tools-to-operations.md)   
+ [How to: Create Standard Tasks](../FullExperience/how-to-create-standard-tasks.md)   
+ [How to: Assign Personnel to Standard Tasks](../FullExperience/how-to-assign-personnel-to-standard-tasks.md)   
+ [How to: Assign Quality Measures to Standard Tasks](../FullExperience/how-to-assign-quality-measures-to-standard-tasks.md)

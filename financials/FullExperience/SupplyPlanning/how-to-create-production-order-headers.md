@@ -35,7 +35,7 @@ You can create a production order manually, and the first step is to create a pr
 6.  Fill in the **Quantity** and **Due Date** fields according to your specifications.  
   
 ## See Also  
- [How to: Set Up Production Orders](../Production/how-to-set-up-production-orders.md)   
- [How to: Create Production Orders from Sales Orders](../OperationsPlanning/how-to-create-production-orders-from-sales-orders.md)   
- [How to: Calculate Lines from Production Order Headers](../OperationsPlanning/how-to-calculate-lines-from-production-order-headers.md)   
- [About Production Orders](../Production/about-production-orders.md)
+ [How to: Set Up Production Orders](../FullExperience/how-to-set-up-production-orders.md)   
+ [How to: Create Production Orders from Sales Orders](../FullExperience/how-to-create-production-orders-from-sales-orders.md)   
+ [How to: Calculate Lines from Production Order Headers](../FullExperience/how-to-calculate-lines-from-production-order-headers.md)   
+ [About Production Orders](../FullExperience/about-production-orders.md)

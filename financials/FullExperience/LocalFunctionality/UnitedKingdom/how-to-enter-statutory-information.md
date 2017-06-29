@@ -24,7 +24,7 @@ To comply with legal requirements, statutory information is available on the **S
   
 2.  On the **Statutory** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Registration No.**|Specifies the registration number of the company.|  
     |**Registered Name**|Specifies the registered name of the company.|  
@@ -40,4 +40,4 @@ To comply with legal requirements, statutory information is available on the **S
   
 ## See Also  
  Company Information   
- [United Kingdom Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/united-kingdom-local-functionality.md)
+ [United Kingdom Local Functionality](../FullExperience/united-kingdom-local-functionality.md)

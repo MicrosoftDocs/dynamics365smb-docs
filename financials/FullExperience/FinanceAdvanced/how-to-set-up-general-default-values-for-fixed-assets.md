@@ -25,5 +25,5 @@ You set up fixed assets in the **Fixed Asset Setup** window.
 2.  Fill in the fields.  
   
 ## See Also  
- [Set Up Fixed Assets](../Finance/set-up-fixed-assets.md)   
+ [Set Up Fixed Assets](../FullExperience/set-up-fixed-assets.md)   
  Fixed Asset Setup

@@ -22,7 +22,7 @@ To use the automatic invoice rounding function, you must set up the general ledg
   
 1.  In the **Search** box, enter **Chart of Accounts**, and then choose the related link.  
   
-2.  Set up the account in the **Chart of Accounts** window and name it **Invoice Rounding** or something similar. ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> will use the account name as text for invoices that are rounded.  
+2.  Set up the account in the **Chart of Accounts** window and name it **Invoice Rounding** or something similar. ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> will use the account name as text for invoices that are rounded.  
   
 3.  In the **Gen. Posting Type** field, select \<Blank\>.  
   
@@ -30,10 +30,10 @@ To use the automatic invoice rounding function, you must set up the general ledg
   
 5.  Fill in the **VAT Prod. Posting Group** field. You may want to set up a new group code that can be used for invoice rounding.  
   
- Now you can assign the invoice rounding account to posting groups in the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**Customer Posting Groups** window and the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**Vendor Posting Groups** window.  
+ Now you can assign the invoice rounding account to posting groups in the ![Shortcut icon](../FullExperience/media/shortcutcoldicon.gif "shortcutColdIcon")**Vendor Posting Groups** window.  
   
 ## See Also  
- [How to: Set Up Rounding Rules for the LCY](../Finance/how-to-set-up-rounding-rules-for-the-lcy.md)   
- [How to: Set Up Rounding Rules for Foreign Currency](../Finance/how-to-set-up-rounding-rules-for-foreign-currency.md)   
- [How to: Enable the Invoice Rounding Function](../Finance/how-to-enable-the-invoice-rounding-function.md)   
- [How to: Set Up VAT Product Posting Groups](../Finance/how-to-set-up-vat-product-posting-groups.md)
+ [How to: Set Up Rounding Rules for the LCY](../FullExperience/how-to-set-up-rounding-rules-for-the-lcy.md)   
+ [How to: Set Up Rounding Rules for Foreign Currency](../FullExperience/how-to-set-up-rounding-rules-for-foreign-currency.md)   
+ [How to: Enable the Invoice Rounding Function](../FullExperience/how-to-enable-the-invoice-rounding-function.md)   
+ [How to: Set Up VAT Product Posting Groups](../FullExperience/how-to-set-up-vat-product-posting-groups.md)

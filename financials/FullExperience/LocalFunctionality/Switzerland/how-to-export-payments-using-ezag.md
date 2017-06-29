@@ -28,7 +28,7 @@ You can generate a file for electronic payment using the Elektronischer Zahlungs
   
 4.  In the **EZAG File** batch job, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_3010542\_F\_1\_5 Debit to bank $\)**|Specify the code of the bank to be charged.|  
     |**\($ B\_3010542\_F\_1\_1 Combined payment for vendor $\)**|Specify if the payment lines that have the same vendor, currency, bank, and debit bank in the generated EZAG file will be combined.|  
@@ -37,9 +37,9 @@ You can generate a file for electronic payment using the Elektronischer Zahlungs
 5.  Choose the **OK** button. The EZAG file is generated.  
   
 ## See Also  
- [Swiss Electronic Payments Using DTA](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/swiss-electronic-payments-using-dta.md)   
- [How to: Suggest DTA Payment for Vendors](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-suggest-dta-payment-for-vendors.md)   
- [How to: Verify a List of Vendors for DTA Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-verify-a-list-of-vendors-for-dta-payments.md)   
- [How to: Submit DTA Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-submit-dta-payments.md)   
+ [Swiss Electronic Payments Using DTA](../FullExperience/swiss-electronic-payments-using-dta.md)   
+ [How to: Suggest DTA Payment for Vendors](../FullExperience/how-to-suggest-dta-payment-for-vendors.md)   
+ [How to: Verify a List of Vendors for DTA Payments](../FullExperience/how-to-verify-a-list-of-vendors-for-dta-payments.md)   
+ [How to: Submit DTA Payments](../FullExperience/how-to-submit-dta-payments.md)   
  DTA Setup   
  Payment Journal

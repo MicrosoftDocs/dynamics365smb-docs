@@ -16,10 +16,10 @@
 
     ---
 # About Data Tables
-ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> data tables come in two basic types: Master and Setup. When you are setting up a company configuration, you can use these types to focus your configuration strategy.  
+ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> data tables come in two basic types: Master and Setup. When you are setting up a company configuration, you can use these types to focus your configuration strategy.  
   
 ## Master Data Tables  
- The following table lists a some example ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> master data tables. When you initialize a new company, these tables are empty.  
+ The following table lists a some example ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> master data tables. When you initialize a new company, these tables are empty.  
   
 ### Master Data Tables  
   
@@ -41,7 +41,7 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]-->
 |312|Purchases & Payables Setup|  
 |313|Inventory Setup|  
   
- In addition to setup data tables, ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> also has data tables that specify core information about the company and its business processes. The following table provides some examples.  
+ In addition to setup data tables, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> also has data tables that specify core information about the company and its business processes. The following table provides some examples.  
   
 ###  
   
@@ -53,5 +53,5 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]-->
 |5700|Stockkeeping Unit|  
   
 ## See Also  
- [How to: Manage Company Configuration in a Worksheet](../SetupAndAdministration/how-to-manage-company-configuration-in-a-worksheet.md)   
- [How to: Customize a Package or Worksheet](../SetupAndAdministration/how-to-customize-a-package-or-worksheet.md)
+ [How to: Manage Company Configuration in a Worksheet](../FullExperience/how-to-manage-company-configuration-in-a-worksheet.md)   
+ [How to: Customize a Package or Worksheet](../FullExperience/how-to-customize-a-package-or-worksheet.md)

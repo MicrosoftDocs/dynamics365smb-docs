@@ -26,7 +26,7 @@ Financial journals are used to register bank account transactions. The financial
   
 3.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Type**|Select **Financial** for the type of journal.|  
     |**Bal. Account Type**|Select **Bank Account** for the type of balancing account.|  
@@ -37,4 +37,4 @@ Financial journals are used to register bank account transactions. The financial
 4.  Choose the **OK** button.  
   
 ## See Also  
- [Belgium Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/belgium-local-functionality.md)
+ [Belgium Local Functionality](../FullExperience/belgium-local-functionality.md)

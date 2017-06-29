@@ -35,4 +35,4 @@ After you have determined the tables for which you want to transfer customer dat
  If the table is empty, the resulting data migration file contains empty cells for the fields you selected when you chose or created migration tables for your new company. If the selected data migration table contains data, it will be exported.  
   
 ## See Also  
- [How to: Import Configuration Packages](../SetupAndAdministration/how-to-import-configuration-packages.md)
+ [How to: Import Configuration Packages](../FullExperience/how-to-import-configuration-packages.md)

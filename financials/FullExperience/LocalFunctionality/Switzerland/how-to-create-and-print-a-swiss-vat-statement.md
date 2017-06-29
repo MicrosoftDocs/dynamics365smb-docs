@@ -16,7 +16,7 @@
 
     ---
 # How to: Create and Print a Swiss VAT Statement
-Based on the information that you have specified in the **VAT Posting Setup** window, ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> can automatically create a new VAT Statement Setup for realized VAT reporting. Before proceeding with the procedures in this topic, make sure that you have set up VAT posting setup with values specified for the sales and purchase cipher fields.  
+Based on the information that you have specified in the **VAT Posting Setup** window, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> can automatically create a new VAT Statement Setup for realized VAT reporting. Before proceeding with the procedures in this topic, make sure that you have set up VAT posting setup with values specified for the sales and purchase cipher fields.  
   
 ### To set up a Swiss VAT statement template  
   
@@ -36,7 +36,7 @@ Based on the information that you have specified in the **VAT Posting Setup** wi
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_26100\_F\_1\_1150062 Starting Date $\)**|Enter the date that you want the time interval for VAT statement lines that appear in the report to start.|  
     |**\($ R\_26100\_F\_1\_1150080 Ending Date $\)**|Enter the date that you want the time interval for VAT statement lines that appear in the report to end.|  
@@ -49,8 +49,8 @@ Based on the information that you have specified in the **VAT Posting Setup** wi
     |**\($ R\_26100\_F\_1\_1150013 Normal \(Other Rate\) % $\)**|Enter an alternative VAT rate for standard transactions that applies to certain transactions during the time period.|  
     |**\($ R\_26100\_F\_1\_1150010 Reduced \(Other Rate\) % $\)**|Enter an alternative VAT rate for other transactions that applies to certain transactions during the time period.|  
     |**\($ R\_26100\_F\_1\_1150045 Hotel \(Other Rate\) % $\)**|Enter an alternative VAT rate for accommodation that applies to certain transactions during the time period.|  
-    |**\($ R\_26100\_F\_1\_1150060 Show Amounts in Add. Reporting Currency $\)**|Select to show amounts in an additional reporting currency. For more information, see [About Using Additional Reporting Currencies](../../Finance/about-using-additional-reporting-currencies.md).|  
+    |**\($ R\_26100\_F\_1\_1150060 Show Amounts in Add. Reporting Currency $\)**|Select to show amounts in an additional reporting currency. For more information, see [About Using Additional Reporting Currencies](../FullExperience/about-using-additional-reporting-currencies.md).|  
   
 ## See Also  
- [Swiss Value Added Tax](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/swiss-value-added-tax.md)   
+ [Swiss Value Added Tax](../FullExperience/swiss-value-added-tax.md)   
  Swiss VAT Statement

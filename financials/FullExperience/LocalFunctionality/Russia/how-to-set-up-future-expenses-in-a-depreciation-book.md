@@ -24,7 +24,7 @@ To depreciate a future expense, you have to set up future period expenses in a d
   
 2.  On the **General** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Code**|Specifies the code for the depreciation book.|  
     |**Description**|Specifies the description of the depreciation book.|  
@@ -73,7 +73,7 @@ To depreciate a future expense, you have to set up future period expenses in a d
   
 ## See Also  
  Fixed Asset Setup   
- [Fixed Assets Accounting Setup](../../Finance/fixed-assets-accounting-setup.md)   
+ [Fixed Assets Accounting Setup](../FullExperience/fixed-assets-accounting-setup.md)   
  Fixed Asset Card   
- [Future Expenses \(Deferrals\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/future-expenses-deferrals-.md)   
- [How to: Create Future Expense Journals](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-create-future-expense-journals.md)
+ [Future Expenses \(Deferrals\)](../FullExperience/future-expenses-deferrals-.md)   
+ [How to: Create Future Expense Journals](../FullExperience/how-to-create-future-expense-journals.md)

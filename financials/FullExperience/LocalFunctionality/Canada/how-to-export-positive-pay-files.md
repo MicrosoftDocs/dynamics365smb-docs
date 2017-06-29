@@ -16,10 +16,10 @@
 
     ---
 # How to: Export Electronic Payments-duplicate
-You can use the Export Electronic Payments report to export payment journal entries to a file that is based on the Automated Clearing House \(ACH\) standard file format or the International ACH Transaction \(IAT\) file format.  The file can then be used to transmit electronic payments to a bank. For more information, see [How to: Transmit Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-transmit-electronic-payments.md).  
+You can use the Export Electronic Payments report to export payment journal entries to a file that is based on the Automated Clearing House \(ACH\) standard file format or the International ACH Transaction \(IAT\) file format.  The file can then be used to transmit electronic payments to a bank. For more information, see [How to: Transmit Electronic Payments](../FullExperience/how-to-transmit-electronic-payments.md).  
   
 > [!IMPORTANT]  
->  If you have set up the **Payment Export Format** field in the **Bank Account Card** window, for example to export using the SEPA standard, then the following procedure is not valid. To export these payments, refer to [How to: Export Payments to a Bank File](../../BusinessFunctionality/DataExchange/how-to-export-payments-to-a-bank-file.md).  
+>  If you have set up the **Payment Export Format** field in the **Bank Account Card** window, for example to export using the SEPA standard, then the following procedure is not valid. To export these payments, refer to [How to: Export Payments to a Bank File](../FullExperience/how-to-export-payments-to-a-bank-file.md).  
   
 ### To export electronic payments  
   
@@ -29,7 +29,7 @@ You can use the Export Electronic Payments report to export payment journal entr
   
 3.  In the **Export Electronic Payments** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_10083\_F\_1\_1 Bank Account No. $\)**|Enter the bank account from which these payments will be taken.|  
     |**\($ R\_10083\_F\_1\_3 Settle Date $\)**|Enter the settle date that will be transmitted to the bank. This date will become the posting date for the exported payment journal entries. Transmission should occur two or three banking days before the settle date. Ask your bank for the exact number of days.|  
@@ -40,9 +40,9 @@ You can use the Export Electronic Payments report to export payment journal entr
 4.  On the **Gen. Journal Line** FastTab, select the appropriate filters.  
   
 ## See Also  
- [Electronic Payments for United States, Canada, and Mexico](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/electronic-payments-for-united-states-canada-and-mexico.md)   
- [How to: Set Up Electronic Payments for Bank Accounts](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-set-up-electronic-payments-for-bank-accounts.md)   
- [How to: Transmit Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-transmit-electronic-payments.md)   
- [How to: Generate Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-generate-electronic-payments.md)   
+ [Electronic Payments for United States, Canada, and Mexico](../FullExperience/electronic-payments-for-united-states-canada-and-mexico.md)   
+ [How to: Set Up Electronic Payments for Bank Accounts](../FullExperience/how-to-set-up-electronic-payments-for-bank-accounts.md)   
+ [How to: Transmit Electronic Payments](../FullExperience/how-to-transmit-electronic-payments.md)   
+ [How to: Generate Electronic Payments](../FullExperience/how-to-generate-electronic-payments.md)   
  Payment Journal   
  Export Electronic Payments

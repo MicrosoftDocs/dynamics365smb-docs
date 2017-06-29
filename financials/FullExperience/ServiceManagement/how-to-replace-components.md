@@ -34,7 +34,7 @@ When you service a service item that is composed of components, you may need to 
   
      The following table describes these options in more detail.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../../includes/bp_tabledescription_md.md)]-->|  
     |----------------------------------|---------------------------------------|  
     |**Replace Component**|Changes the status of the component you are replacing to not active, and it will appear on the replaced component list for the service item.|  
     |**New Component**|Enters the new component in the component list of the service item.|  
@@ -47,6 +47,6 @@ When you service a service item that is composed of components, you may need to 
  The new item is not registered as a component of the service item until you post this service line or the service order.  
   
 ## See Also  
- [How to: Register Spare Parts](../Service/how-to-register-spare-parts.md)   
- [How to: Set Up Service Item Components](../Service/how-to-set-up-service-item-components.md)   
- [How to: Replace Service Items](../Service/how-to-replace-service-items.md)
+ [How to: Register Spare Parts](../FullExperience/how-to-register-spare-parts.md)   
+ [How to: Set Up Service Item Components](../FullExperience/how-to-set-up-service-item-components.md)   
+ [How to: Replace Service Items](../FullExperience/how-to-replace-service-items.md)

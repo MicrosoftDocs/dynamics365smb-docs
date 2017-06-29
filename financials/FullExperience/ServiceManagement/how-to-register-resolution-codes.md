@@ -31,6 +31,6 @@ After repairing a service item, you can register a resolution code describing th
  Alternatively, you can register both fault and resolution codes using fault\/resolution codes relationships.  
   
 ## See Also  
- [How to: Register Fault Codes](../Service/how-to-register-fault-codes.md)   
- [How to: Set Up Resolution Codes](../Service/how-to-set-up-resolution-codes.md)   
- [How to: Register Resolution Comments](../Service/how-to-register-resolution-comments.md)
+ [How to: Register Fault Codes](../FullExperience/how-to-register-fault-codes.md)   
+ [How to: Set Up Resolution Codes](../FullExperience/how-to-set-up-resolution-codes.md)   
+ [How to: Register Resolution Comments](../FullExperience/how-to-register-resolution-comments.md)

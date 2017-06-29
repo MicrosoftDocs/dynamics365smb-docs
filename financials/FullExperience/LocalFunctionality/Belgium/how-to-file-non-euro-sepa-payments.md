@@ -16,7 +16,7 @@
 
     ---
 # How to: File Non-Euro SEPA Payments
-In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you can file non-euro SEPA payments with the bank. This is useful when you make payments to other countries that do not use SEPA and for currencies other than the euro.  
+In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can file non-euro SEPA payments with the bank. This is useful when you make payments to other countries that do not use SEPA and for currencies other than the euro.  
   
  Before you can file a non-euro SEPA payment you must complete the following administration tasks:  
   
@@ -34,7 +34,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
   
 2.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_2000006\_N\_2\_1 Journal Template Name $\)**|Specify the general journal template for the non-euro SEPA payment report.|  
     |**\($ B\_2000006\_N\_2\_7 Journal Batch $\)**|Specify the general journal batch for the non-euro SEPA payment report.|  
@@ -48,6 +48,6 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
 ## See Also  
  File Non Euro SEPA Payments   
  File SEPA Payments   
- [How to: File SEPA Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-file-sepa-payments.md)   
- [How to: Activate SEPA Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-activate-sepa-payments.md)   
- [SEPA Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/sepa-payments.md)
+ [How to: File SEPA Payments](../FullExperience/how-to-file-sepa-payments.md)   
+ [How to: Activate SEPA Payments](../FullExperience/how-to-activate-sepa-payments.md)   
+ [SEPA Payments](../FullExperience/sepa-payments.md)

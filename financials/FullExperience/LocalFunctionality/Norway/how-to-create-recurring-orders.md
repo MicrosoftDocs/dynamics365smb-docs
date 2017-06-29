@@ -24,7 +24,7 @@ The create recurring orders process will find all of the recurring orders based 
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_15000300\_F\_1\_1 Processing Date $\)**|Enter the date to process the blanket orders.|  
     |**\($ B\_15000300\_F\_1\_3 Create only latest $\)**|Select to create only the latest recurring order for the blanket orders processed. This option overrides the equivalent option for the recurring group.|  
@@ -32,8 +32,8 @@ The create recurring orders process will find all of the recurring orders based 
 3.  Choose the **OK** button.  
   
 ## See Also  
- [Recurring Orders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/recurring-orders.md)   
- [How to: Set Up Recurring Groups](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-set-up-recurring-groups.md)   
- [How to: Set Up Recurring Orders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-set-up-recurring-orders.md)   
- [How to: Create Blanket Sales Orders](../../Sales/how-to-create-blanket-sales-orders.md)   
- [How to: Set Filters](../../WorkingWithDynamics/how-to-set-filters.md)
+ [Recurring Orders](../FullExperience/recurring-orders.md)   
+ [How to: Set Up Recurring Groups](../FullExperience/how-to-set-up-recurring-groups.md)   
+ [How to: Set Up Recurring Orders](../FullExperience/how-to-set-up-recurring-orders.md)   
+ [How to: Create Blanket Sales Orders](../FullExperience/how-to-create-blanket-sales-orders.md)   
+ [How to: Set Filters](../FullExperience/how-to-set-filters.md)

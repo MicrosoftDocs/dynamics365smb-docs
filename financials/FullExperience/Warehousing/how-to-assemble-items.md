@@ -18,7 +18,7 @@
 # How to: Assemble Items
 If the **Replenishment System** field on the item card contains **Assembly**, then the default method of supplying the item is to assemble it from defined components and potentially by a defined resource.  
   
- The components and resources that go into this kind of an assembly item must be defined in an assembly BOM. For more information, see [How to: Create Assembly BOMs](../DesignAndEngineering/how-to-create-assembly-boms.md).  
+ The components and resources that go into this kind of an assembly item must be defined in an assembly BOM. For more information, see [How to: Create Assembly BOMs](../FullExperience/how-to-create-assembly-boms.md).  
   
  Assembly items can be set up for two different assembly processes:  
   
@@ -28,12 +28,12 @@ If the **Replenishment System** field on the item card contains **Assembly**, th
   
  You typically use **Assemble to Stock** for items that you want to assemble ahead of sales, such as to prepare for a kit campaign, and keep in stock until they are ordered. These items are usually standard items such as packaged kits that you do not offer to customize to customer requests.  
   
- You typically use **Assemble to Order** for items that you do not want to stock because you expect to customize them to customer requests or because you want to minimize the inventory carrying cost by supplying them just in time. For more information, see [How to: Sell Items Assembled to Order](../Sales/how-to-sell-items-assembled-to-order.md).  
+ You typically use **Assemble to Order** for items that you do not want to stock because you expect to customize them to customer requests or because you want to minimize the inventory carrying cost by supplying them just in time. For more information, see [How to: Sell Items Assembled to Order](../FullExperience/how-to-sell-items-assembled-to-order.md).  
   
- For more information about how to set up an assembly item, see [Assemble to Order or Assemble to Stock](../DesignAndEngineering/assemble-to-order-or-assemble-to-stock.md).  
+ For more information about how to set up an assembly item, see [Assemble to Order or Assemble to Stock](../FullExperience/assemble-to-order-or-assemble-to-stock.md).  
   
 > [!NOTE]  
->  These setup options are default settings that manage how sales and assembly order lines are initially processed. You can depart from these defaults and supply the assembly item in the most optimal way when processing a sale. For more information, see [How to: Sell Inventory Items in Assemble-to-Order Flows](../Sales/how-to-sell-inventory-items-in-assemble-to-order-flows.md) and [How to: Sell Assemble-to-Order Items and Inventory Items Together](../Sales/how-to-sell-assemble-to-order-items-and-inventory-items-together.md).  
+>  These setup options are default settings that manage how sales and assembly order lines are initially processed. You can depart from these defaults and supply the assembly item in the most optimal way when processing a sale. For more information, see [How to: Sell Inventory Items in Assemble-to-Order Flows](../FullExperience/how-to-sell-assemble-to-order-items-and-inventory-items-together.md).  
   
  In this procedure, you create and process an assembly order for items that are assembled to stock, which means without a linked sales order. The steps include initiating the assembly order, handling potential component availability issues, and partially posting assembly item output.  
   
@@ -50,7 +50,7 @@ If the **Replenishment System** field on the item card contains **Assembly**, th
 5.  In the **Quantity** field, enter how many units of the item that you want assembled.  
   
     > [!NOTE]  
-    >  If one or more components are not available to fulfill the entered assembly item quantity on the defined due date, then the **Assembly Availability** window automatically opens to provide detailed information about how many assembly items can be assembled based on component availability. For more information about this window, see Assembly Availability. ADD INCLUDE<!--[!INCLUDE[bp_windownoneditable](../LocalFunctionalityForMicrosoftDynamicsNav2016/includes/bp_windownoneditable_md.md)]--> When you close the window, the assembly order is created with availability alerts on the affected component lines.  
+    >  If one or more components are not available to fulfill the entered assembly item quantity on the defined due date, then the **Assembly Availability** window automatically opens to provide detailed information about how many assembly items can be assembled based on component availability. For more information about this window, see Assembly Availability. ADD INCLUDE<!--[!INCLUDE[bp_windownoneditable](../../includes/bp_windownoneditable_md.md)]--> When you close the window, the assembly order is created with availability alerts on the affected component lines.  
   
      The assembly order lines are automatically filled with the contents of the assembly BOM and with line quantities according to the assembly order header.  
   
@@ -78,8 +78,8 @@ If the **Replenishment System** field on the item card contains **Assembly**, th
  Assembly Availability   
  Check Availability   
  Quantity to Consume   
- [How to: Create Assembly BOMs](../DesignAndEngineering/how-to-create-assembly-boms.md)   
- [How to: Sell Items Assembled to Order](../Sales/how-to-sell-items-assembled-to-order.md)   
- [How to: Sell Inventory Items in Assemble-to-Order Flows](../Sales/how-to-sell-inventory-items-in-assemble-to-order-flows.md)   
- [How to: Sell Assemble-to-Order Items and Inventory Items Together](../Sales/how-to-sell-assemble-to-order-items-and-inventory-items-together.md)   
- [Assemble to Order or Assemble to Stock](../DesignAndEngineering/assemble-to-order-or-assemble-to-stock.md)
+ [How to: Create Assembly BOMs](../FullExperience/how-to-create-assembly-boms.md)   
+ [How to: Sell Items Assembled to Order](../FullExperience/how-to-sell-items-assembled-to-order.md)   
+ [How to: Sell Inventory Items in Assemble-to-Order Flows](../FullExperience/how-to-sell-inventory-items-in-assemble-to-order-flows.md)   
+ [How to: Sell Assemble-to-Order Items and Inventory Items Together](../FullExperience/how-to-sell-assemble-to-order-items-and-inventory-items-together.md)   
+ [Assemble to Order or Assemble to Stock](../FullExperience/assemble-to-order-or-assemble-to-stock.md)

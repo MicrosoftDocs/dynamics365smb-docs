@@ -16,12 +16,12 @@
 
     ---
 # Tax Registers
-In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you can set up tax registers to track and manage taxable profits and losses in accordance with Russian tax accounting principles. Tax registers allow you to group taxable transactions into logical categories and apply tax accounting rules for the recognition of revenue and expenditures.  
+In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can set up tax registers to track and manage taxable profits and losses in accordance with Russian tax accounting principles. Tax registers allow you to group taxable transactions into logical categories and apply tax accounting rules for the recognition of revenue and expenditures.  
   
 ## Types of Tax Registers  
  There are two types of tax registers that are used for tracking taxable profits and losses.  
   
-|Tax Register Type|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+|Tax Register Type|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
 |---
     title: Insert topic title| Microsoft Docs
     description: Insert description
@@ -43,8 +43,8 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
 |Create Tax Registers|Creates the tax registers that you define using the **Tax Register Setup** window.|  
   
 ## See Also  
- [How to: Set Up Tax Accounting](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-set-up-tax-accounting.md)   
- [How to: Create Tax Registers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-create-tax-registers.md)   
- [How to: Set Up Tax Register Sections](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-set-up-tax-register-sections.md)   
- [Tax Differences](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/tax-differences.md)   
+ [How to: Set Up Tax Accounting](../FullExperience/how-to-set-up-tax-accounting.md)   
+ [How to: Create Tax Registers](../FullExperience/how-to-create-tax-registers.md)   
+ [How to: Set Up Tax Register Sections](../FullExperience/how-to-set-up-tax-register-sections.md)   
+ [Tax Differences](../FullExperience/tax-differences.md)   
  [Tax Reports](assetId:///e42ca8e7-1cee-4fb8-9f71-e596f29cabc3)

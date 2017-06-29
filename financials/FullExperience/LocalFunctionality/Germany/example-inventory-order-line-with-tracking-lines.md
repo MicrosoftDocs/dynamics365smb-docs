@@ -65,4 +65,4 @@ The physical inventory order line should contain the following data:
 |**Total**|**120**|**112**|**- 8**|  
   
 ## See Also  
- [Physical Inventory Order Lines With Item Tracking Lines](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/physical-inventory-order-lines-with-item-tracking-lines.md)
+ [Physical Inventory Order Lines With Item Tracking Lines](../FullExperience/physical-inventory-order-lines-with-item-tracking-lines.md)

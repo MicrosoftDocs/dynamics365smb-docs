@@ -16,7 +16,7 @@
 
     ---
 # Symbols and Icons on the Timeline FastTab
-|Symbol\/Icon|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+|Symbol\/Icon|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
 |------------------|---------------------------------------|  
 |Black cross|Orders \(both supply and demand\).<br /><br /> -   Cannot be modified.<br />-   Visible when the **Show Projected Inventory** field is selected \(orange graph\).|  
 |Red circle|Existing supply orders that are not in planning suggestions.<br /><br /> -   Cannot be modified.<br />-   Visible when the **Show Projected Inventory** field is selected \(orange graph\).|  
@@ -28,7 +28,7 @@
   
  When you right-click the **Timeline** FastTab, the following functions appear depending where you click.  
   
-|Function|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+|Function|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
 |--------------|---------------------------------------|  
 |**Create New Supply**|Creates a new element on the point where you right-click, which represents a new suggested supply order. It becomes a new line in the planning worksheet when you choose **Save Changes** on the **Process** tab.<br /><br /> Any filter values that are defined in the **Location Filter** or **Variant Filter** fields on the **Options** FastTab will be applied to the new supply order. **Note:**  If the filter fields are empty or have more than one filter value, then the new supply order is created by using the following codes: <ul><li>If the filter field is empty, then the new supply is created without a location or variant code.</li><li>If more than one filter value is defined, then the new supply is created by using the first filter value according to the sorting order.</li></ul> If you want another variant or location code in the new supply order, then you must manually change it on the new planning line.|  
 |**Auto-Adjust Supply**|Optimizes a new supply that you have created in the graph by making sure that it creates zero inventory before the next supply.|  
@@ -40,7 +40,7 @@
   
  In addition to the keyboard actions that were mentioned earlier, you can also use the following keyboard actions in the **TimeLine** FastTab.  
   
-|Keyboard action|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+|Keyboard action|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
 |---------------------|---------------------------------------|  
 |Ctrl \+ scroll mouse wheel|Changes the scale of the x-axis.|  
 |Select an element, then press Shift\+Arrow|Moves the element in the direction of the arrow stroke.|  
@@ -48,7 +48,7 @@
 |Shift\+Tab|Moves to the previous element.|  
 |While moving an element, press Esc.|Cancels the move. **Note:**  Does not work if you have released the mouse button.|  
   
- To learn how to drag elements inside the **Timeline** FastTab, see [How to: Modify Planning Suggestions in a Graphical View](../DesignAndEngineering/how-to-modify-planning-suggestions-in-a-graphical-view.md).  
+ To learn how to drag elements inside the **Timeline** FastTab, see [How to: Modify Planning Suggestions in a Graphical View](../FullExperience/how-to-modify-planning-suggestions-in-a-graphical-view.md).  
   
 ## See Also  
  Item Availability by Timeline

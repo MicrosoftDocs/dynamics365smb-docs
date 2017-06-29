@@ -19,7 +19,7 @@
 To report financial information by General Index of Financial Information \(GIFI\) code, each GIFI code must be associated with the appropriate accounts in the chart of accounts.  
   
 > [!NOTE]  
->  You must set up the GIFI codes in the **GIFI Code** window before associating them with your chart of accounts. For more information, see [How to: Set Up GIFI Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-set-up-gifi-codes.md).  
+>  You must set up the GIFI codes in the **GIFI Code** window before associating them with your chart of accounts. For more information, see [How to: Set Up GIFI Codes](../FullExperience/how-to-set-up-gifi-codes.md).  
   
 ### To associate GIFI codes with chart of accounts  
   
@@ -35,7 +35,7 @@ To report financial information by General Index of Financial Information \(GIFI
  GIFI Code   
  Account Balances by GIFI Code   
  Export GIFI Info. to Excel   
- [GIFI Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/gifi-codes.md)   
- [How to: Set Up GIFI Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-set-up-gifi-codes.md)   
- [How to: View Account Balances by Using the GIFI Code Report](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-view-account-balances-by-using-the-gifi-code-report.md)   
- [How to: Export Balance Information by Using GIFI Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-export-balance-information-by-using-gifi-codes.md)
+ [GIFI Codes](../FullExperience/gifi-codes.md)   
+ [How to: Set Up GIFI Codes](../FullExperience/how-to-set-up-gifi-codes.md)   
+ [How to: View Account Balances by Using the GIFI Code Report](../FullExperience/how-to-view-account-balances-by-using-the-gifi-code-report.md)   
+ [How to: Export Balance Information by Using GIFI Codes](../FullExperience/how-to-export-balance-information-by-using-gifi-codes.md)

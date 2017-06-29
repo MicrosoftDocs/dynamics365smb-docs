@@ -24,15 +24,15 @@ You can use the **Balance Sheet** report to view the company’s balance sheet.
   
 1.  In the **Search** box, enter **Balance Sheet**, and then choose the relevant link.  
   
-2.  In the **Balance Sheet** window, on the **ADD INCLUDE<!--[!INCLUDE[bp_optionsheading](../../DesignAndEngineering/includes/bp_optionsheading_md.md)]-->** FastTab, fill in the fields as described in the following table.  
+2.  In the **Balance Sheet** window, on the **ADD INCLUDE<!--[!INCLUDE[bp_optionsheading](../../includes/bp_optionsheading_md.md)]-->** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_28024\_N\_2\_1500000 Amounts in whole $\)**|Specifies the nearest unit to which the amounts must be rounded.|  
   
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [How to: Print Income Statements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-print-income-statements.md)   
- [How to: Print Goods and Service Tax Settlement Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-print-goods-and-service-tax-settlement-reports.md)   
- [How to: Compare Bank Cash Flow](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-compare-bank-cash-flow.md)
+ [How to: Print Income Statements](../FullExperience/how-to-print-income-statements.md)   
+ [How to: Print Goods and Service Tax Settlement Reports](../FullExperience/how-to-print-goods-and-service-tax-settlement-reports.md)   
+ [How to: Compare Bank Cash Flow](../FullExperience/how-to-compare-bank-cash-flow.md)

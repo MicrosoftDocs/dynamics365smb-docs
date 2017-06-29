@@ -18,7 +18,7 @@
 # Setup Best Practices: Reordering Policies
 The **Reordering Policy** field on item cards offers four different planning methods that determine how the individual planning parameters interact.  
   
- One best-practice foundation for selecting a reordering policy is the item’s ABC classification. For more information, see [ABC Classification](../Topic/ABC%20Classification.md).  
+ One best-practice foundation for selecting a reordering policy is the item’s ABC classification. For more information, see [ABC Classification](../FullExperience/ABC%20Classification.md).  
   
  The following table provides best practices for selecting between the four policies.  
   
@@ -30,11 +30,11 @@ The **Reordering Policy** field on item cards offers four different planning met
 |**Maximum Qty.**|Use for C items with high carrying costs or storing limitations.<br /><br /> Combine with one or more order modifiers \(Minimum\/Maximum Order Quantity or Order Multiple\).|C items, such as tea cups, are low-value items with high and regular order velocity. The best reordering policy for C items is therefore one that guarantees constant availability by always staying above a reorder point, but below a maximum inventory quantity.<br /><br /> To modify the suggested order, you may want the order quantity to be decreased to a specified maximum order quantity, increased to a specified minimum order quantity, or rounded up to meet a specified order multiple. **Note:**  If used with a reorder point, then inventory stays between the reorder point and the maximum quantity.|  
   
 ## See Also  
- [Setup Best Practices: Supply Planning](../SetupAndAdministration/setup-best-practices-supply-planning.md)   
+ [Setup Best Practices: Supply Planning](../FullExperience/setup-best-practices-supply-planning.md)   
  Reordering Policy   
- [Design Details: Reordering Policies](../ApplicationDesign/design-details-reordering-policies.md)   
- [Design Details: Order](../ApplicationDesign/design-details-order.md)   
- [Design Details: Lot-for-Lot](../ApplicationDesign/design-details-lot-for-lot.md)   
- [Design Details: Fixed Reorder Qty.](../ApplicationDesign/design-details-fixed-reorder-qty..md)   
- [Design Details: Maximum Qty.](../ApplicationDesign/design-details-maximum-qty..md)   
- [Set Up a Company With RapidStart Services for Microsoft Dynamics NAV](../SetupAndAdministration/set-up-a-company-with-rapidstart-services-for-microsoft-dynamics-nav.md)
+ [Design Details: Reordering Policies](../FullExperience/design-details-reordering-policies.md)   
+ [Design Details: Order](../FullExperience/design-details-order.md)   
+ [Design Details: Lot-for-Lot](../FullExperience/design-details-lot-for-lot.md)   
+ [Design Details: Fixed Reorder Qty.](../FullExperience/design-details-fixed-reorder-qty..md)   
+ [Design Details: Maximum Qty.](../FullExperience/design-details-maximum-qty..md)   
+ [Set Up a Company With RapidStart Services for Microsoft Dynamics NAV](../FullExperience/set-up-a-company-with-rapidstart-services-for-microsoft-dynamics-nav.md)

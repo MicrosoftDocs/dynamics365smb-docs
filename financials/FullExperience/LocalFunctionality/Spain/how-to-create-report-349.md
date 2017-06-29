@@ -24,7 +24,7 @@ You must submit a periodic report of trade with other EU countries\/regions to t
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_10710\_N\_2\_1100011 Fiscal Year $\)**|Specify the year of the reporting period.|  
     |**\($ B\_10710\_N\_2\_1100013 Period $\)**|Select the period that the report covers. This can be a year, a month, or a quarter.|  
@@ -50,7 +50,7 @@ You must submit a periodic report of trade with other EU countries\/regions to t
   
      The following table describes the key fields for correcting a 349 declaration that includes a credit memo.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Include Correction**|Select to accept the correction that the credit memo has resulted in.|  
     |**Delivery Operation Code**|Specifies the type of export delivery for the VAT transaction.<br /><br /> If you select a month in the **Original Declaration Period** field, the **Delivery Operation Code** field helps you identify the appropriate amount, which is shown in the **Previous Declared Amount** field.|  
@@ -66,6 +66,6 @@ You must submit a periodic report of trade with other EU countries\/regions to t
  For corrections to amounts that were included in an earlier 349 declaration, the window can show more than one warning for a customer or vendor with the same values in the **Original Declaration FY** and **Original Declaration Period** fields. In that case, you should combine the corrections in a single line so that the appropriate amounts for the **Previous Declared Amount** field and the **Original Declared Amount** field are included in the 349 declaration.  
   
 ## See Also  
- [Report 349](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/report-349.md)   
+ [Report 349](../FullExperience/report-349.md)   
  Make 349 Declaration   
  Declaration Labels

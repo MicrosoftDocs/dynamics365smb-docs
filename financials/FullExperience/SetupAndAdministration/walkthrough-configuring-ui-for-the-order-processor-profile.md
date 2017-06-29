@@ -16,7 +16,7 @@
 
     ---
 # Walkthrough: Configuring UI for the Order Processor Profile
-Administrators configure the user interface by customizing the user interface for a single profile, such as the Order Processor profile, that multiple users are assigned to. To configure a profile, you must have the SUPER permission set. For more information, see [Administration in the Clients](../SetupAndAdministration/administration-in-the-clients.md).  
+Administrators configure the user interface by customizing the user interface for a single profile, such as the Order Processor profile, that multiple users are assigned to. To configure a profile, you must have the SUPER permission set. For more information, see [Administration in the Clients](../FullExperience/administration-in-the-clients.md).  
   
  The functions that you use to customize the UI for a profile during configuration are the same that users use to customize their own UI during personalization. The main difference is that configuration applies to multiple users and can be managed by the administrator as a profile record.  
   
@@ -26,13 +26,13 @@ Administrators configure the user interface by customizing the user interface fo
 >  The only situation where UI configuration does overwrite UI personalization is when a UI element is removed by configuration. For example, if the administrator removes a field that the user has renamed or moved, then the field is still removed from the user’s user interface.  
   
 ## About This Walkthrough  
- This walkthrough provides examples of how to configure the Order Processor profile in ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]-->. The walkthrough illustrates the following tasks:  
+ This walkthrough provides examples of how to configure the Order Processor profile in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->. The walkthrough illustrates the following tasks:  
   
 -   Making sure order processors only see UI elements that they have permissions for  
   
 -   Checking the user interface of a test user who has the Order Processor profile  
   
--   Opening ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> in configuration mode  
+-   Opening ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> in configuration mode  
   
 -   Customizing the Sales Orders ribbon for the Order Processor profile  
   
@@ -47,18 +47,18 @@ Administrators configure the user interface by customizing the user interface fo
 ## Prerequisites  
  To complete this walkthrough, you will need:  
   
--   ADD INCLUDE<!--[!INCLUDE[nav7long](../SetupAndAdministration/includes/nav7long_md.md)]--> or a later version of ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]-->.  
+-   ADD INCLUDE<!--[!INCLUDE[nav7long](../../includes/navnow_md.md)]-->.  
   
--   The ADD INCLUDE<!--[!INCLUDE[demolong](../ApplicationDesign/includes/demolong_md.md)]-->.  
+-   The ADD INCLUDE<!--[!INCLUDE[demolong](../../includes/demolong_md.md)]-->.  
   
 ## Making Sure Order Processors Only See UI Elements that They Have Permissions for  
  You can configure Microsoft Dynamics NAV Server to remove UI elements when the related object is not accessible according to the license or according to user permissions or both.  
   
- Before you begin to customize the user interface, you should set the **UI Elements Removal** field in ADD INCLUDE<!--[!INCLUDE[nav_admin](../BusinessFunctionality/LoggingAndTrackingEmailInteractions/includes/nav_admin_md.md)]--> to **LicenseFileAndUserPermissions**, so that users only see UI elements that they have permissions for.  
+ Before you begin to customize the user interface, you should set the **UI Elements Removal** field in ADD INCLUDE<!--[!INCLUDE[nav_admin](../../includes/nav_admin_md.md)]--> to **LicenseFileAndUserPermissions**, so that users only see UI elements that they have permissions for.  
   
 #### To make sure order processors only see UI elements that they have permissions for  
   
-1.  Open the ADD INCLUDE<!--[!INCLUDE[nav_admin](../BusinessFunctionality/LoggingAndTrackingEmailInteractions/includes/nav_admin_md.md)]-->. For more information, see [Microsoft Dynamics NAV Server Administration Tool](../Topic/Microsoft%20Dynamics%20NAV%20Server%20Administration%20Tool.md).  
+1.  Open the ADD INCLUDE<!--[!INCLUDE[nav_admin](../../includes/Microsoft%20Dynamics%20NAV%20Server%20Administration%20Tool.md).  
   
 2.  In the **UI Elements Removal** field, make sure that the **LicenseFileAndUserPermissions** option is selected.  
   
@@ -69,25 +69,25 @@ Administrators configure the user interface by customizing the user interface fo
   
 #### To check the user interface of a test user  
   
-1.  Create a test user and assign the same permission set to the user who order processors in your company have. For more information, see [How to: Create Microsoft Dynamics NAV Users](../Topic/How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).  
+1.  Create a test user and assign the same permission set to the user who order processors in your company have. For more information, see [How to: Create Microsoft Dynamics NAV Users](../FullExperience/How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).  
   
 2.  Log on using the credentials of the test order processor.  
   
  You can now assess which UI elements are removed from an order processor’s user interface according to their permissions and the company license. And you can continuously log on as the order processor to see the result of your UI customization for the profile.  
   
 ## Opening Microsoft Dynamics NAV in Configuration Mode  
- You can open the ADD INCLUDE<!--[!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)]--> in configuration mode for a specific profile. Changes that you make to the user interface in configuration mode apply to all users associated with the profile. For more information, see [How to: Open Microsoft Dynamics NAV in Configuration Mode](../SetupAndAdministration/how-to-open-microsoft-dynamics-nav-in-configuration-mode.md).  
+ You can open the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/how-to-open-microsoft-dynamics-nav-in-configuration-mode.md).  
   
-#### To open the ADD INCLUDE<!--[!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)]--> in configuration mode  
+#### To open the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/nav_windows_md.md)]--> in configuration mode  
   
-1.  Open a command prompt and change to the directory that contains the ADD INCLUDE<!--[!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)]--> executable. For example, type the following command:  cd ADD INCLUDE<!--[!INCLUDE[navnow_x86install](../SetupAndAdministration/includes/navnow_x86install_md.md)]-->\\RoleTailored Client  
+1.  Open a command prompt and change to the directory that contains the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/navnow_x86install_md.md)]-->\\RoleTailored Client  
   
     > [!NOTE]  
     >  The top-level directory may be **Program Files \(x86\)** or **Program Files**.  
   
-2.  Open the ADD INCLUDE<!--[!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)]--> in configuration mode by typing the following command: **Microsoft.Dynamics.Nav.Client.exe -configure -profile:"order processor"**  
+2.  Open the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/nav_windows_md.md)]--> in configuration mode by typing the following command: **Microsoft.Dynamics.Nav.Client.exe -configure -profile:"order processor"**  
   
-     The ADD INCLUDE<!--[!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)]--> opens in configuration mode. The UI customization that you now perform in the **Customize** window will apply to the user interface for all users who are assigned the Order Processor profile. For more information, see [How to: Open Microsoft Dynamics NAV in Configuration Mode](../SetupAndAdministration/how-to-open-microsoft-dynamics-nav-in-configuration-mode.md).  
+     The ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/how-to-open-microsoft-dynamics-nav-in-configuration-mode.md).  
   
 ## Customizing the Sales Orders Ribbon for the Order Processor Profile  
  The following procedure shows how to add the **Page Notes** action to the **Process** group on the ribbon on the **Sales Orders** page. This UI customization will be visible to order processors when they access the **Sales Orders** page from the **Sales Order - Open** tile on the **Sales Order Processor** Role Center.  
@@ -98,7 +98,7 @@ Administrators configure the user interface by customizing the user interface fo
   
 2.  Choose the **Sales Order - Open** tile.  
   
-3.  In the **Sales Orders** window, on **Application** menu ![Application Menu button in menu bar](../BusinessFunctionality/IntegratingWithMicrosoftOffice/media/applicationmenuicon.png "ApplicationMenuIcon"), choose **Customize**, and then choose **Customize Ribbon**.  
+3.  In the **Sales Orders** window, on **Application** menu ![Application Menu button in menu bar](../FullExperience/media/applicationmenuicon.png "ApplicationMenuIcon"), choose **Customize**, and then choose **Customize Ribbon**.  
   
 4.  In the **Available actions** list, expand **Help**, and then choose **Page Notes**. Alternatively, use the **Search** box above the list.  
   
@@ -108,10 +108,10 @@ Administrators configure the user interface by customizing the user interface fo
   
 7.  Choose the **OK** button to save and close the **Customize** window.  
   
- The **Page Notes** action is now visible to users assigned to the Order Processor profile when they access the **Sales Orders** window by choosing the **Sales Orders – Open** tile on their Role Center. For more information, see [How to: Customize Ribbons](../SetupAndAdministration/how-to-customize-ribbons.md).  
+ The **Page Notes** action is now visible to users assigned to the Order Processor profile when they access the **Sales Orders** window by choosing the **Sales Orders – Open** tile on their Role Center. For more information, see [How to: Customize Ribbons](../FullExperience/how-to-customize-ribbons.md).  
   
 > [!NOTE]  
->  In some cases, an action can be a promoted action if the **PromotedIsBig** property is set to **Yes** in the ADD INCLUDE<!--[!INCLUDE[nav_dev_long](../BusinessFunctionality/DataExchange/includes/nav_dev_long_md.md)]-->. If an action has this setting, this takes precedence over your choices in the **Customize Ribbon** window. For more information, see [How to: Promote Actions on Pages](../Topic/How%20to:%20Promote%20Actions%20on%20Pages.md).  
+>  In some cases, an action can be a promoted action if the **PromotedIsBig** property is set to **Yes** in the ADD INCLUDE<!--[!INCLUDE[nav_dev_long](../../includes/How%20to:%20Promote%20Actions%20on%20Pages.md).  
   
 ## Customizing a Sales Orders FactBox Pane for the Order Processor Profile  
  The following procedure shows how to add the **Notes** FactBox to the FactBox pane on the **Sales Orders** page. This UI customization will be visible to order processors when they access the **Sales Orders** page from the **Customer Card** window.  
@@ -122,16 +122,16 @@ Administrators configure the user interface by customizing the user interface fo
   
 2.  Select a customer, and then, on the **Navigate** tab, in the **Documents** group, choose **Orders**.  
   
-3.  In the **Sales Orders** window, on the **Application** menu ![Application Menu button in menu bar](../BusinessFunctionality/IntegratingWithMicrosoftOffice/media/applicationmenuicon.png "ApplicationMenuIcon"), choose **Customize**, and then choose **Choose FactBoxes**.  
+3.  In the **Sales Orders** window, on the **Application** menu ![Application Menu button in menu bar](../FullExperience/media/applicationmenuicon.png "ApplicationMenuIcon"), choose **Customize**, and then choose **Choose FactBoxes**.  
   
 4.  From the **Available FactBoxes** pane, select **Notes**, and then choose the **Add** button.  
   
 5.  Choose the **OK** button to save and close the **Customize** window.  
   
- The **Notes** FactBox is now visible to users assigned to the Order Processor profile when they access the **Sales Orders** window by choosing the Orders actions in a **Customer Card** window. For more information, see [How to: Customize FactBoxes](../SetupAndAdministration/how-to-customize-factboxes.md).  
+ The **Notes** FactBox is now visible to users assigned to the Order Processor profile when they access the **Sales Orders** window by choosing the Orders actions in a **Customer Card** window. For more information, see [How to: Customize FactBoxes](../FullExperience/how-to-customize-factboxes.md).  
   
 ## Cancelling UI Customization for the Order Processor Profile  
- You can cancel UI customization for profiles in three ways. For more information, see [How to: Cancel UI Configuration](../SetupAndAdministration/how-to-cancel-ui-configuration.md).  
+ You can cancel UI customization for profiles in three ways. For more information, see [How to: Cancel UI Configuration](../FullExperience/how-to-cancel-ui-configuration.md).  
   
  The following procedure shows how to cancel only the specific UI customization that you made for the **Sales Orders** page when it is accessed from the **Sales Orders – Open** tile on the Role Center.  
   
@@ -141,17 +141,17 @@ Administrators configure the user interface by customizing the user interface fo
   
 2.  Choose the **Sales Order - Open** tile.  
   
-3.  In the **Sales Orders** window, on **Application** menu ![Application Menu button in menu bar](../BusinessFunctionality/IntegratingWithMicrosoftOffice/media/applicationmenuicon.png "ApplicationMenuIcon"), choose **Customize**, and then choose **Restore Defaults**.  
+3.  In the **Sales Orders** window, on **Application** menu ![Application Menu button in menu bar](../FullExperience/media/applicationmenuicon.png "ApplicationMenuIcon"), choose **Customize**, and then choose **Restore Defaults**.  
   
 4.  Choose the **OK** button to save and close the **Customize** window.  
   
  The UI customization that you made in a previous procedure to show the **Manage Notes** action in the **Sale Orders** window when it is accessed from the **Sales Orders – Open** tile on the Role Center is now canceled.  
   
 ## Reusing UI Customization for the Order Processor Profile in Other Databases  
- You can export a profile, for example to reuse the UI configuration by importing the profile into another ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> database.  
+ You can export a profile, for example to reuse the UI configuration by importing the profile into another ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> database.  
   
 > [!NOTE]  
->  ADD INCLUDE<!--[!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)]--> must be in configuration mode, otherwise the exported XML file will be empty.  
+>  ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/nav_windows_md.md)]--> must be in configuration mode, otherwise the exported XML file will be empty.  
   
 #### To export a profile  
   
@@ -170,7 +170,7 @@ Administrators configure the user interface by customizing the user interface fo
 3.  In the **Import from XML File** window, select the profile that you want to import.  
   
     > [!NOTE]  
-    >  If the database already contains an Order Processor profile, then you must first delete that profile. For more information, see [Manage Profiles](../SetupAndAdministration/manage-profiles.md).  
+    >  If the database already contains an Order Processor profile, then you must first delete that profile. For more information, see [Manage Profiles](../FullExperience/manage-profiles.md).  
   
 4.  Choose the **OK** button to import the new profile.  
   
@@ -180,5 +180,5 @@ Administrators configure the user interface by customizing the user interface fo
  In this walkthrough, you have configured the user interface for the Order Processor profile and prepared to reuse the configuration in another database. All users assigned to the profile see these changes. If you want users to have even more customized user interfaces, you can urge them to make their own UI customization in addition to the customization that you have made. For more information, PERSONALIZATION Personalize the User Interface.  
   
 ## See Also  
- [Customize the User Interface](../SetupAndAdministration/customize-the-user-interface.md)   
- [Administration in the Clients](../SetupAndAdministration/administration-in-the-clients.md)
+ [Customize the User Interface](../FullExperience/customize-the-user-interface.md)   
+ [Administration in the Clients](../FullExperience/administration-in-the-clients.md)

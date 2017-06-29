@@ -34,20 +34,20 @@ If you have set up the VAT features correctly, VAT is calculated and posted auto
   
 |**To**|**See**|  
 |------------|-------------|  
-|Post a journal where the entire amount must be treated as VAT, for example, if you receive a VAT invoice from the tax authorities for imported goods.|[How to: Post Import VAT](../Finance/how-to-post-import-vat.md)|  
-|Post a purchase invoice where the entire amount must be treated as VAT.|[How to: Post Import VAT with Purchase Invoices](../Finance/how-to-post-import-vat-with-purchase-invoices.md)|  
-|View entries that have been created by posting VAT.|[How to: View VAT Entries](../Finance/how-to-view-vat-entries.md)|  
-|Define how the VAT statement will be calculated.|[How to: Define VAT Statements](../Finance/how-to-define-vat-statements.md)|  
-|Preview a VAT statement on screen before printing the statement.|[How to: Preview VAT Statements](../Finance/how-to-preview-vat-statements.md)|  
-|Print a VAT statement that you can use to fill in the payment slip for the tax authorities.|[How to: Print VAT Statements](../Finance/how-to-print-vat-statements.md)|  
-|Create a periodic VAT report that can be submitted to the tax authorities.|[VAT and VIES Report Setup](../Finance/vat-and-vies-report-setup.md)|  
-|Print a VIES report for sales to other EU countries\/regions.|[VAT- VIES Declaration Tax Auth-duplicate](../Topic/\($%20R_19%20VAT-%20VIES%20Declaration%20Tax%20Auth%20$\)-duplicate.md)|  
-|Close the open VAT entries and post the net settlement amount to the VAT settlement account.|[How to: Transfer VAT Amounts to the Settlement Account](../Finance/how-to-transfer-vat-amounts-to-the-settlement-account.md)|  
+|Post a journal where the entire amount must be treated as VAT, for example, if you receive a VAT invoice from the tax authorities for imported goods.|[How to: Post Import VAT](../FullExperience/how-to-post-import-vat.md)|  
+|Post a purchase invoice where the entire amount must be treated as VAT.|[How to: Post Import VAT with Purchase Invoices](../FullExperience/how-to-post-import-vat-with-purchase-invoices.md)|  
+|View entries that have been created by posting VAT.|[How to: View VAT Entries](../FullExperience/how-to-view-vat-entries.md)|  
+|Define how the VAT statement will be calculated.|[How to: Define VAT Statements](../FullExperience/how-to-define-vat-statements.md)|  
+|Preview a VAT statement on screen before printing the statement.|[How to: Preview VAT Statements](../FullExperience/how-to-preview-vat-statements.md)|  
+|Print a VAT statement that you can use to fill in the payment slip for the tax authorities.|[How to: Print VAT Statements](../FullExperience/how-to-print-vat-statements.md)|  
+|Create a periodic VAT report that can be submitted to the tax authorities.|[VAT and VIES Report Setup](../FullExperience/vat-and-vies-report-setup.md)|  
+|Print a VIES report for sales to other EU countries\/regions.|[VAT- VIES Declaration Tax Auth-duplicate](../FullExperience/\($%20R_19%20VAT-%20VIES%20Declaration%20Tax%20Auth%20$\)-duplicate.md)|  
+|Close the open VAT entries and post the net settlement amount to the VAT settlement account.|[How to: Transfer VAT Amounts to the Settlement Account](../FullExperience/how-to-transfer-vat-amounts-to-the-settlement-account.md)|  
   
 ## See Also  
  Type   
  Calc. and Post VAT Settlement   
- [Set Up VAT](../Finance/set-up-vat.md)   
- [How to: Record VAT](../Finance/how-to-record-vat.md)   
- [How to: Correct VAT](../Finance/how-to-correct-vat.md)   
+ [Set Up VAT](../FullExperience/set-up-vat.md)   
+ [How to: Record VAT](../FullExperience/how-to-record-vat.md)   
+ [How to: Correct VAT](../FullExperience/how-to-correct-vat.md)   
  Calc. and Post VAT Settlement

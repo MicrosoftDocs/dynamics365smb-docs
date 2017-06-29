@@ -38,23 +38,23 @@ Similar to the general posting setup described in **Set Up Posting Groups**, you
   
 |**To**|**See**|  
 |------------|-------------|  
-|Learn about setting up VAT, including setting up VAT posting groups and VAT posting setup combinations, and using reverse charge VAT.|[How to: Create a VAT Combination Setup](../Finance/how-to-create-a-vat-combination-setup.md)|  
-|Set up posting groups that you can use to categorize customers and vendors for VAT posting purposes.|[How to: Set Up VAT Business Posting Groups](../Finance/how-to-set-up-vat-business-posting-groups.md)|  
-|Set up posting groups that you can use to categorize items and resources for VAT posting purposes.|[How to: Set Up VAT Product Posting Groups](../Finance/how-to-set-up-vat-product-posting-groups.md)|  
-|Set up the VAT percentage and default posting accounts for each combination of a VAT product group and a VAT business group.|[How to: Set Up Combinations of VAT Business Posting Groups and VAT Product Posting Groups](../Finance/how-to-set-up-combinations-of-vat-business-posting-groups-and-vat-product-posting-groups.md)|  
-|Link VAT business posting groups to general business posting groups, so they are assigned automatically.|[How to: Set Up Default VAT Business Posting Groups](../Finance/how-to-set-up-default-vat-business-posting-groups.md)|  
-|Link VAT product posting groups to general product posting groups, so they are assigned automatically.|[How to: Set Up Default VAT Product Posting Groups](../Finance/how-to-set-up-default-vat-product-posting-groups.md)|  
-|Assign VAT posting groups to general ledger accounts manually.|[How to: Assign VAT Posting Groups to General Ledger Accounts](../Finance/how-to-assign-vat-posting-groups-to-general-ledger-accounts.md)|  
-|Assign VAT business posting groups to customer and vendor accounts manually.|[How to: Assign VAT Business Posting Groups to Customer Accounts and Vendor Accounts](../Finance/how-to-assign-vat-business-posting-groups-to-customer-accounts-and-vendor-accounts.md)|  
-|Assign VAT product posting groups to item and resource accounts manually.|[How to: Assign VAT Product Posting Groups to Item Accounts and Resource Accounts](../Finance/how-to-assign-vat-product-posting-groups-to-item-accounts-and-resource-accounts.md)|  
-|Use the import VAT feature to post a document where the entire amount must be treated as VAT, for example, if you receive a VAT invoice from the tax authorities for imported goods.|[How to: Set Up Codes for Import VAT](../Finance/how-to-set-up-codes-for-import-vat.md)|  
-|Set up at least one VAT business posting group for reverse charge VAT in order to have VAT on purchases from the EU treated appropriately.|[How to: Enter Basic Information on Reverse Charge VAT for Purchases](../Finance/how-to-enter-basic-information-on-reverse-charge-vat-for-purchases.md)|  
-|Have VAT amounts calculated and posted to a temporary general ledger account when an invoice is posted, and then posted to the correct general ledger account and included in VAT statements when the actual payment of the invoice is posted.|[How to: Use Accounts for Unrealized VAT](../Finance/how-to-use-accounts-for-unrealized-vat.md)|  
-|Revert the payment discount part of the VAT amount when the payment discount is granted.|[How to: Revert VAT on Payment Discounts](../Finance/how-to-revert-vat-on-payment-discounts.md)|  
-|Set up periodic VAT reports that must be submitted to the tax authorities.|[VAT and VIES Report Setup](../Finance/vat-and-vies-report-setup.md)|  
+|Learn about setting up VAT, including setting up VAT posting groups and VAT posting setup combinations, and using reverse charge VAT.|[How to: Create a VAT Combination Setup](../FullExperience/how-to-create-a-vat-combination-setup.md)|  
+|Set up posting groups that you can use to categorize customers and vendors for VAT posting purposes.|[How to: Set Up VAT Business Posting Groups](../FullExperience/how-to-set-up-vat-business-posting-groups.md)|  
+|Set up posting groups that you can use to categorize items and resources for VAT posting purposes.|[How to: Set Up VAT Product Posting Groups](../FullExperience/how-to-set-up-vat-product-posting-groups.md)|  
+|Set up the VAT percentage and default posting accounts for each combination of a VAT product group and a VAT business group.|[How to: Set Up Combinations of VAT Business Posting Groups and VAT Product Posting Groups](../FullExperience/how-to-set-up-combinations-of-vat-business-posting-groups-and-vat-product-posting-groups.md)|  
+|Link VAT business posting groups to general business posting groups, so they are assigned automatically.|[How to: Set Up Default VAT Business Posting Groups](../FullExperience/how-to-set-up-default-vat-business-posting-groups.md)|  
+|Link VAT product posting groups to general product posting groups, so they are assigned automatically.|[How to: Set Up Default VAT Product Posting Groups](../FullExperience/how-to-set-up-default-vat-product-posting-groups.md)|  
+|Assign VAT posting groups to general ledger accounts manually.|[How to: Assign VAT Posting Groups to General Ledger Accounts](../FullExperience/how-to-assign-vat-posting-groups-to-general-ledger-accounts.md)|  
+|Assign VAT business posting groups to customer and vendor accounts manually.|[How to: Assign VAT Business Posting Groups to Customer Accounts and Vendor Accounts](../FullExperience/how-to-assign-vat-business-posting-groups-to-customer-accounts-and-vendor-accounts.md)|  
+|Assign VAT product posting groups to item and resource accounts manually.|[How to: Assign VAT Product Posting Groups to Item Accounts and Resource Accounts](../FullExperience/how-to-assign-vat-product-posting-groups-to-item-accounts-and-resource-accounts.md)|  
+|Use the import VAT feature to post a document where the entire amount must be treated as VAT, for example, if you receive a VAT invoice from the tax authorities for imported goods.|[How to: Set Up Codes for Import VAT](../FullExperience/how-to-set-up-codes-for-import-vat.md)|  
+|Set up at least one VAT business posting group for reverse charge VAT in order to have VAT on purchases from the EU treated appropriately.|[How to: Enter Basic Information on Reverse Charge VAT for Purchases](../FullExperience/how-to-enter-basic-information-on-reverse-charge-vat-for-purchases.md)|  
+|Have VAT amounts calculated and posted to a temporary general ledger account when an invoice is posted, and then posted to the correct general ledger account and included in VAT statements when the actual payment of the invoice is posted.|[How to: Use Accounts for Unrealized VAT](../FullExperience/how-to-use-accounts-for-unrealized-vat.md)|  
+|Revert the payment discount part of the VAT amount when the payment discount is granted.|[How to: Revert VAT on Payment Discounts](../FullExperience/how-to-revert-vat-on-payment-discounts.md)|  
+|Set up periodic VAT reports that must be submitted to the tax authorities.|[VAT and VIES Report Setup](../FullExperience/vat-and-vies-report-setup.md)|  
   
 ## See Also  
- [How to: Set Up Default VAT Business Posting Groups](../Finance/how-to-set-up-default-vat-business-posting-groups.md)   
- [How to: Set Up Default VAT Product Posting Groups](../Finance/how-to-set-up-default-vat-product-posting-groups.md)   
- [How to: Set Up Combinations of VAT Business Posting Groups and VAT Product Posting Groups](../Finance/how-to-set-up-combinations-of-vat-business-posting-groups-and-vat-product-posting-groups.md)   
- [Set Up Posting Groups](../Finance/set-up-posting-groups.md)
+ [How to: Set Up Default VAT Business Posting Groups](../FullExperience/how-to-set-up-default-vat-business-posting-groups.md)   
+ [How to: Set Up Default VAT Product Posting Groups](../FullExperience/how-to-set-up-default-vat-product-posting-groups.md)   
+ [How to: Set Up Combinations of VAT Business Posting Groups and VAT Product Posting Groups](../FullExperience/how-to-set-up-combinations-of-vat-business-posting-groups-and-vat-product-posting-groups.md)   
+ [Set Up Posting Groups](../FullExperience/set-up-posting-groups.md)

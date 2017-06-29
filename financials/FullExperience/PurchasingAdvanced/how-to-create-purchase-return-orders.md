@@ -36,7 +36,7 @@ If you have agreed with your vendor to return a purchased item that you are diss
   
 6.  Fill in the lines manually, or use one of the following functions to copy information from other documents.  
   
-    |**Function**|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |**Function**|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
     |------------------|---------------------------------------|  
     |**Get Posted Document Lines to Reverse**|Copies lines of one or more posted documents to be reversed.|  
     |**Copy Document**|Copies both the header and lines of one posted or open document to be reversed.<br /><br /> Requires that the **Exact Cost Reversing Mandatory** check box is selected in the **\($ N\_460 Purchases & Payables Setup $\)** window.|  
@@ -47,8 +47,8 @@ If you have agreed with your vendor to return a purchased item that you are diss
   
 ## See Also  
  Appl.-to Item Entry   
- [How to: Assign Exact Cost Reversing in Purchases](../Finance/how-to-assign-exact-cost-reversing-in-purchases.md)   
- [How to: Create and Post Purchase Allowances](../Finance/how-to-create-and-post-purchase-allowances.md)   
- [How to: Create Replacement Purchase Orders](../Purchasing/how-to-create-replacement-purchase-orders.md)   
- [How to: Create Corrective Purchase Invoices](../Finance/how-to-create-corrective-purchase-invoices.md)   
- [About Returns Management](../Purchasing/about-returns-management.md)
+ [How to: Assign Exact Cost Reversing in Purchases](../FullExperience/how-to-assign-exact-cost-reversing-in-purchases.md)   
+ [How to: Create and Post Purchase Allowances](../FullExperience/how-to-create-and-post-purchase-allowances.md)   
+ [How to: Create Replacement Purchase Orders](../FullExperience/how-to-create-replacement-purchase-orders.md)   
+ [How to: Create Corrective Purchase Invoices](../FullExperience/how-to-create-corrective-purchase-invoices.md)   
+ [About Returns Management](../FullExperience/about-returns-management.md)

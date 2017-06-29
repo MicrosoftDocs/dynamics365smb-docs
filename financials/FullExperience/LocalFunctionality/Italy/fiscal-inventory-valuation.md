@@ -28,10 +28,10 @@ You must submit an annual report that shows the monetary value of inventory item
   
 -   Discrete LIFO cost  
   
-## Fiscal Inventory Valuation in ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->  
- Initially, you must set up the fiscal inventory valuation for all cost types in the **Item Costing Setup** window and the **Item Card** window. For more information, see [How to: Set Up Fiscal Inventory Valuation](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-set-up-fiscal-inventory-valuation.md).  
+## Fiscal Inventory Valuation in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->  
+ Initially, you must set up the fiscal inventory valuation for all cost types in the **Item Costing Setup** window and the **Item Card** window. For more information, see [How to: Set Up Fiscal Inventory Valuation](../FullExperience/how-to-set-up-fiscal-inventory-valuation.md).  
   
- When you set up ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> for the first time, you must enter the inventory item ledger entries for the first year in order to calculate the item’s valuation. You can do this in the **Before Start Item Cost** window. For more information, see [How to: Set Up Initial Item Costs](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-set-up-initial-item-costs.md).  
+ When you set up ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-set-up-initial-item-costs.md).  
   
  To calculate discrete LIFO cost, you must set up information in the **Item Card** window and the **Subcontracting Prices** window.  
   
@@ -46,9 +46,9 @@ You must submit an annual report that shows the monetary value of inventory item
  For year-end operations, such as calculating the profit and loss during a fiscal year, there is a definitive period and a non-definitive period. If the **Competence Year** field in the **Item Cost History List** window is equal to the fiscal year end date, it is a definitive period, and you cannot recalculate data for a definitive period. If the definitive data differs from the fiscal year end date, then it is a non-definitive period. There should be data for at least one non-definitive period to perform calculations or partial calculations.  
   
 ## See Also  
- [Italy Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/italy-local-functionality.md)   
- [How to: Set Up Fiscal Inventory Valuation](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-set-up-fiscal-inventory-valuation.md)   
- [How to: Set Up Initial Item Costs](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-set-up-initial-item-costs.md)   
+ [Italy Local Functionality](../FullExperience/italy-local-functionality.md)   
+ [How to: Set Up Fiscal Inventory Valuation](../FullExperience/how-to-set-up-fiscal-inventory-valuation.md)   
+ [How to: Set Up Initial Item Costs](../FullExperience/how-to-set-up-initial-item-costs.md)   
  Item Cost History List   
  Calculate End Year Costs   
  Item Card   

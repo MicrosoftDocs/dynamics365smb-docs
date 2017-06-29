@@ -54,4 +54,4 @@ The following fields have been added to the VAT Posting Setup form \(ID 472\):
  In the **Trans. VAT Account** field, enter Subaccount 90-3 Gain VAT or Subaccount 62 Prepayment VAT. If this field is blank, the postings use the account from the Customer posting groups from the **Receivables Account** field.  
   
 ## See Also  
- [VAT Ledgers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/vat-ledgers.md)
+ [VAT Ledgers](../FullExperience/vat-ledgers.md)

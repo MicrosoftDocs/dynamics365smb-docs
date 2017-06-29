@@ -24,19 +24,19 @@ Cost accounting is concerned with recording and reporting business operating cos
   
 |**To**|**See**|  
 |------------|-------------|  
-|Distinguish the five different costing methods and their effect on cost flows.|[Design Details: Costing Methods](../ApplicationDesign/design-details-costing-methods.md)|  
-|Learn how item application entries dynamically link inventory decreases with increases to keep control of cost flows.|[Design Details: Item Application](../ApplicationDesign/design-details-item-application.md)|  
+|Distinguish the five different costing methods and their effect on cost flows.|[Design Details: Costing Methods](../FullExperience/design-details-costing-methods.md)|  
+|Learn how item application entries dynamically link inventory decreases with increases to keep control of cost flows.|[Design Details: Item Application](../FullExperience/design-details-item-application.md)|  
 |Distinguish item ledger entries \(physical\) from the related value entries \(financial\).|Item Ledger Entry|  
-|Learn how an item's unit cost is continuously updated with the cost of its latest transaction according to the item's costing method.|[Unit Cost Calculation](../Finance/unit-cost-calculation.md)|  
-|Read why standard costs are often used by manufacturing companies as a valuation base for components and end items.|[About Calculating Standard Cost](../Finance/about-calculating-standard-cost.md)|  
-|Learn how an item's average cost is dynamically calculated according to the selected average cost period.|[Average Cost](../Finance/average-cost.md)|  
-|Distinguish expected cost \(not yet invoiced\) from actual cost and learn how it is managed in the general ledger.|[Design Details: Expected Cost Posting](../ApplicationDesign/design-details-expected-cost-posting.md)|  
+|Learn how an item's unit cost is continuously updated with the cost of its latest transaction according to the item's costing method.|[Unit Cost Calculation](../FullExperience/unit-cost-calculation.md)|  
+|Read why standard costs are often used by manufacturing companies as a valuation base for components and end items.|[About Calculating Standard Cost](../FullExperience/about-calculating-standard-cost.md)|  
+|Learn how an item's average cost is dynamically calculated according to the selected average cost period.|[Average Cost](../FullExperience/average-cost.md)|  
+|Distinguish expected cost \(not yet invoiced\) from actual cost and learn how it is managed in the general ledger.|[Design Details: Expected Cost Posting](../FullExperience/design-details-expected-cost-posting.md)|  
 |Understand the cost adjustment mechanism, which ensures that costs are brought forward even if inventory transactions happen in a random manner.|Adjust Cost - Item Entries|  
-|Understand how the value of inventory is reflected in the general ledger.|[How to: Post Inventory Costs to the General Ledger](../DesignAndEngineering/how-to-post-inventory-costs-to-the-general-ledger.md)|  
-|Learn how item charges, such as freight and insurance, can assign additional cost components to an item's unit cost.|[Cost Assignment](../Finance/cost-assignment.md)|  
-|Read how inventory periods help a company to control inventory value over time by defining shorter periods that can be closed for posting as the fiscal year progresses.|[How to: Work with Inventory Periods](../Finance/how-to-work-with-inventory-periods.md)|  
-|Read how item and resource costs are processed and distributed to the general ledger when you post assembly orders.|[Design Details: Assembly Order Posting](../ApplicationDesign/design-details-assembly-order-posting.md)|  
+|Understand how the value of inventory is reflected in the general ledger.|[How to: Post Inventory Costs to the General Ledger](../FullExperience/how-to-post-inventory-costs-to-the-general-ledger.md)|  
+|Learn how item charges, such as freight and insurance, can assign additional cost components to an item's unit cost.|[Cost Assignment](../FullExperience/cost-assignment.md)|  
+|Read how inventory periods help a company to control inventory value over time by defining shorter periods that can be closed for posting as the fiscal year progresses.|[How to: Work with Inventory Periods](../FullExperience/how-to-work-with-inventory-periods.md)|  
+|Read how item and resource costs are processed and distributed to the general ledger when you post assembly orders.|[Design Details: Assembly Order Posting](../FullExperience/design-details-assembly-order-posting.md)|  
   
 ## See Also  
- [Design Details: Inventory Costing](../ApplicationDesign/design-details-inventory-costing.md)   
+ [Design Details: Inventory Costing](../FullExperience/design-details-inventory-costing.md)   
  [http:\/\/www.microsoft.com\/dynamics\/partnersource.mspx](http://www.microsoft.com/dynamics/partnersource.mspx)

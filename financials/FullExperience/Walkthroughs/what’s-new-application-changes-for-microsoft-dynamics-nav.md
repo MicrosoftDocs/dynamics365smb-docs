@@ -47,7 +47,7 @@ When product defects occur, the errors must be identified and affected items mus
 ## Prerequisites  
  To complete this walkthrough, you will need:  
   
--   The ADD INCLUDE<!--[!INCLUDE[demolong](../ApplicationDesign/includes/demolong_md.md)]--> company.  
+-   The ADD INCLUDE<!--[!INCLUDE[demolong](../../includes/demolong_md.md)]--> company.  
   
 -   To create new items and several business transactions by following the "Prepare Sample Data" section, later in this walkthrough.  
   
@@ -350,5 +350,5 @@ When product defects occur, the errors must be identified and affected items mus
  This completes the walkthrough of how to use the **Navigate** window for defects management in integration with the **Item Tracing** window.  
   
 ## See Also  
- [Business Process Walkthroughs](../GettingStarted/business-process-walkthroughs.md)   
- [How to: Trace Item-Tracked Items](../Receiving/how-to-trace-item-tracked-items.md)
+ [Business Process Walkthroughs](../FullExperience/business-process-walkthroughs.md)   
+ [How to: Trace Item-Tracked Items](../FullExperience/how-to-trace-item-tracked-items.md)

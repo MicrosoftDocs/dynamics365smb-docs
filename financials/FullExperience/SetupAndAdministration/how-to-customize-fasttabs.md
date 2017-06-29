@@ -29,13 +29,13 @@ FastTabs help organize information about pages into simple, manageable groups. Y
 -   Hide fields on FastTabs.  
   
 > [!NOTE]  
->  Depending on the setting in the **UI Elements Removal** field in the ADD INCLUDE<!--[!INCLUDE[nav_admin](../BusinessFunctionality/LoggingAndTrackingEmailInteractions/includes/nav_admin_md.md)]-->, only FastTabs and fields that you have permissions for will appear in the **Customize** window. For more information, see [How to: Specify When UI Elements Are Removed](../Topic/How%20to:%20Specify%20When%20UI%20Elements%20Are%20Removed.md).  
+>  Depending on the setting in the **UI Elements Removal** field in the ADD INCLUDE<!--[!INCLUDE[nav_admin](../../includes/How%20to:%20Specify%20When%20UI%20Elements%20Are%20Removed.md).  
   
  You can make multiple customizations of the same page based on different access points to the page. For example, you can customize that FastTabs in the **Sales Orders** window look different when the window is opened from the **Customer Card** window than when it is opened from your Role Center. The point from which you access the page to be customized is recorded in that specific page customization. Accordingly, there may be multiple customization records for the same page under your logon, as you can see in the **Delete User Personalization** window.  
   
 ### To start customizing a FastTab  
   
-1.  On a page with FastTabs, on the **Application** menu ![Microsoft Dynamics NAV Application menu](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/media/rtc_applicationmenu.png "RTC\_ApplicationMenu"), select **Customize**, and then choose **Customize This Page**.  
+1.  On a page with FastTabs, on the **Application** menu ![Microsoft Dynamics NAV Application menu](../FullExperience/media/rtc_applicationmenu.png "RTC\_ApplicationMenu"), select **Customize**, and then choose **Customize This Page**.  
   
 2.  In the **Customize \<Page Name\>** dialog box, choose **FastTabs**.  
   
@@ -96,15 +96,15 @@ FastTabs help organize information about pages into simple, manageable groups. Y
 -   In the Customize window, choose the **Restore Defaults** button, and then choose the **OK** button.  
   
     > [!NOTE]  
-    >  All customization of FastTabs that you have ever made for this page under your current user logon or since you last used the **Restore Defaults** button are canceled. The layout of FastTabs on the page is reset to the default configuration for your profile. For more information, see [How to: Cancel UI Personalization](../SetupAndAdministration/how-to-cancel-ui-personalization.md).  
+    >  All customization of FastTabs that you have ever made for this page under your current user logon or since you last used the **Restore Defaults** button are canceled. The layout of FastTabs on the page is reset to the default configuration for your profile. For more information, see [How to: Cancel UI Personalization](../FullExperience/how-to-cancel-ui-personalization.md).  
   
 ## See Also  
  PERSONALIZATION Personalize the User Interface   
- [How to: Customize Ribbons](../SetupAndAdministration/how-to-customize-ribbons.md)   
- [How to: Customize FactBoxes](../SetupAndAdministration/how-to-customize-factboxes.md)   
- [How to: Specify When UI Elements Are Removed](../Topic/How%20to:%20Specify%20When%20UI%20Elements%20Are%20Removed.md)   
- [How to: Cancel UI Personalization](../SetupAndAdministration/how-to-cancel-ui-personalization.md)   
+ [How to: Customize Ribbons](../FullExperience/how-to-customize-ribbons.md)   
+ [How to: Customize FactBoxes](../FullExperience/how-to-customize-factboxes.md)   
+ [How to: Specify When UI Elements Are Removed](../FullExperience/How%20to:%20Specify%20When%20UI%20Elements%20Are%20Removed.md)   
+ [How to: Cancel UI Personalization](../FullExperience/how-to-cancel-ui-personalization.md)   
  Delete User Personalization   
- [Customize the User Interface](../SetupAndAdministration/customize-the-user-interface.md)   
- [Working with Product Name](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)   
- [Learn About the RoleTailored Design](../GettingStarted/learn-about-the-roletailored-design.md)
+ [Customize the User Interface](../FullExperience/customize-the-user-interface.md)   
+ [Working with Product Name](../FullExperience/working-with-$-p_1-product-name-$-.md)   
+ [Learn About the RoleTailored Design](../FullExperience/learn-about-the-roletailored-design.md)

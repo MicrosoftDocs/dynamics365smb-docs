@@ -38,9 +38,9 @@ You can use the **Bank Detail Cashflow Compare** report to compare the flow of c
   
 1.  In the **Search** box, enter **Bank Detail Cashflow Compare**, and then choose the relevant link.  
   
-2.  On the **ADD INCLUDE<!--[!INCLUDE[bp_optionsheading](../../DesignAndEngineering/includes/bp_optionsheading_md.md)]-->** FastTab, fill in the fields as described in the following table.  
+2.  On the **ADD INCLUDE<!--[!INCLUDE[bp_optionsheading](../../includes/bp_optionsheading_md.md)]-->** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_28020\_N\_2\_1260000 Compare Start Date $\)**|Specifies the start date for the comparison.|  
     |**\($ R\_28020\_N\_2\_1260003 Compare End Date $\)**|Specifies the end date for comparison.|  
@@ -49,5 +49,5 @@ You can use the **Bank Detail Cashflow Compare** report to compare the flow of c
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [How to: Create Check Installments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-create-check-installments.md)   
- [Australia Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/australia-local-functionality.md)
+ [How to: Create Check Installments](../FullExperience/how-to-create-check-installments.md)   
+ [Australia Local Functionality](../FullExperience/australia-local-functionality.md)

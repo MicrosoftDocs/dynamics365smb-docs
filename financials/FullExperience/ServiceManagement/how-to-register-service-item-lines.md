@@ -38,7 +38,7 @@ When you have created a service order or service quote, you need to register the
   
 5.  On the **Lines** toolbar, on the **Line** menu, select **Comments**, and then choose **Faults** to, open the **Service Comments** window for the service item on the line. In the **Date** and **Comment** fields, enter the current date and whatever comments you or the customer may have on the faults of the service item.  
   
-6.  You may need to fill in the **Fault Reason Code** field, depending on the settings on the **Mandatory Fields** FastTab in the **Service Mgt. Setup** window. If this field is not visible on the **Lines** FastTab, you can add it. ADD INCLUDE<!--[!INCLUDE[bp_choose_columns](../DesignAndEngineering/includes/bp_choose_columns_md.md)]-->  
+6.  You may need to fill in the **Fault Reason Code** field, depending on the settings on the **Mandatory Fields** FastTab in the **Service Mgt. Setup** window. If this field is not visible on the **Lines** FastTab, you can add it. ADD INCLUDE<!--[!INCLUDE[bp_choose_columns](../../includes/bp_choose_columns_md.md)]-->  
   
      For more information, see Service Mgt. Setup.  
   
@@ -51,10 +51,10 @@ When you have created a service order or service quote, you need to register the
  Repeat these steps for each service item line you want to register.  
   
 ## See Also  
- [How to: Create Service Items](../Service/how-to-create-service-items.md)   
- [How to: Change Response Times for Service Item Lines](../Service/how-to-change-response-times-for-service-item-lines.md)   
- [How to: Lend Loaners](../Service/how-to-lend-loaners.md)   
- [How to: Register Service Item Loaner Comments](../Service/how-to-register-service-item-loaner-comments.md)   
- [How to: Register Accessory Comments](../Service/how-to-register-accessory-comments.md)   
- [How to: View Troubleshooting Guidelines](../Service/how-to-view-troubleshooting-guidelines.md)   
- [How to: Change Service Pricing for Service Items](../Service/how-to-change-service-pricing-for-service-items.md)
+ [How to: Create Service Items](../FullExperience/how-to-create-service-items.md)   
+ [How to: Change Response Times for Service Item Lines](../FullExperience/how-to-change-response-times-for-service-item-lines.md)   
+ [How to: Lend Loaners](../FullExperience/how-to-lend-loaners.md)   
+ [How to: Register Service Item Loaner Comments](../FullExperience/how-to-register-service-item-loaner-comments.md)   
+ [How to: Register Accessory Comments](../FullExperience/how-to-register-accessory-comments.md)   
+ [How to: View Troubleshooting Guidelines](../FullExperience/how-to-view-troubleshooting-guidelines.md)   
+ [How to: Change Service Pricing for Service Items](../FullExperience/how-to-change-service-pricing-for-service-items.md)

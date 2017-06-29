@@ -22,7 +22,7 @@ The terms "running the planning worksheet" or "running MRP" refer to the calcula
   
 -   *MRP* is the calculation of material requirements based on actual demand for components and the production forecast on the component level. MRP is calculated only for items that are not MPS items. The purpose of MRP is to provide time-phased formal plans, by item, to supply the appropriate item, at the appropriate time, in the appropriate location, in the appropriate quantity.  
   
- The planning algorithms used for both MPS and MRP are identical. The planning algorithms pertain to netting, reuse of existing replenishment orders, and action messages. The planning system process examines what is needed or will be needed \(demand\) and what is on-hand or expected \(supply\). When these quantities are netted against each other, ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> provides action messages. Action messages are suggestions to create a new order, change an order \(quantity or date\), or cancel an order already on order. The term "order" includes purchase orders, assembly order, production orders, and transfer orders.  
+ The planning algorithms used for both MPS and MRP are identical. The planning algorithms pertain to netting, reuse of existing replenishment orders, and action messages. The planning system process examines what is needed or will be needed \(demand\) and what is on-hand or expected \(supply\). When these quantities are netted against each other, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> provides action messages. Action messages are suggestions to create a new order, change an order \(quantity or date\), or cancel an order already on order. The term "order" includes purchase orders, assembly order, production orders, and transfer orders.  
   
  Proper planning results depend on the set up done on item cards, assembly BOMs, production BOMs, and routings.  
   
@@ -38,7 +38,7 @@ The terms "running the planning worksheet" or "running MRP" refer to the calcula
   
 -   **Get Action Messages:** This function serves as a short-term planning tool by issuing action messages to alert the user of any modifications made since the last regenerative or net change plan was calculated.  
   
- With each planned method, ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> generates worksheet entries assuming infinite capacity. Work center and machine center capacity is not considered when you develop schedules.  
+ With each planned method, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> generates worksheet entries assuming infinite capacity. Work center and machine center capacity is not considered when you develop schedules.  
   
 > [!IMPORTANT]  
 >  The Calculate Regenerative Plan function is the most common process. The Calculate Plan and Carry out Action Messages functions, however, can be used to run the Calculate Net Change Plan process.  
@@ -53,7 +53,7 @@ The terms "running the planning worksheet" or "running MRP" refer to the calcula
   
 3.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**MPS**|Select to initiate the calculation of a master production schedule. Items with open sales orders or production forecasts are considered in this run.|  
     |**MRP**|Select to initiate the calculation of material requirements planning. Items with dependent requirements are considered in this run. Typically,  MPS and MRP are run at the same time. To run MPS and MRP at the same time, the **Combined MPS\/MRP Calculation** field must be selected on the **Planning** FastTab in the **Manufacturing Setup** window.|  
@@ -74,7 +74,7 @@ The terms "running the planning worksheet" or "running MRP" refer to the calcula
   
 2.  On the **Options** FastTab, specify how to create the supplies. Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Production Order**|Specify how you want to create production orders. You can do this directly from the planning line proposals. You can create either planned or firm planned production orders.|  
     |**Assembly Order**|Specify how you want to create assembly orders. You can do this directly from the planning line proposals.|  
@@ -103,21 +103,21 @@ The terms "running the planning worksheet" or "running MRP" refer to the calcula
   
  In response to any supply\/demand imbalances, the following action messages are generated.  
   
-|Action Message|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+|Action Message|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
 |--------------------|---------------------------------------|  
 |**New**|If a demand cannot be fulfilled by suggesting action messages to **Change Qty.**, **Reschedule**, or **Reschedule & Change Qty.** on existing orders, the action message **New** is generated, which suggests a new order. In addition, the message **New** is generated if there are no existing supply orders in the reorder cycle of the item in question. This parameter determines the number of periods forward and backward in the availability profile when it searches for an order to reschedule.|  
-|**Change Quantity**|When demand that is tracked to a supply order experiences a quantity change, the action message **Change Qty.** is generated, which indicates that the related supply should be changed relative to the change in demand. If a new demand emerges, ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> searches for the nearest existing unreserved supply order in the reorder cycle, and issues a change of action message for that order.|  
+|**Change Quantity**|When demand that is tracked to a supply order experiences a quantity change, the action message **Change Qty.** is generated, which indicates that the related supply should be changed relative to the change in demand. If a new demand emerges, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> searches for the nearest existing unreserved supply order in the reorder cycle, and issues a change of action message for that order.|  
 |**Reschedule**|When a supply or demand order experiences a date modification causing an imbalance in the order network, the action message **Reschedule** is generated. If there is a one-to-one relationship between demand and supply, an action message is generated suggesting that the supply order be moved accordingly. If the supply-order covers demand from more than one sales order, the supply order is re-scheduled equal to the date of the first demand.|  
 |**Resch. & Chg. Qty.**|If both the dates and quantities of an order have been modified, you must change plans with regard to both circumstances. Action messaging gathers both actions in one message, **Resched. and Chg. Qty.**, to ensure that the order network returns to balance.|  
-|**Cancel**|If a demand, which has been covered on an order-to-order basis, is deleted, an action message is generated to cancel the related supply order. If the relationship is not order-to-order, an action message is generated to change in order to reduce the supply. If through other factors, such as inventory adjustments, a supply order is not required at the time the action messages are generated by the user, ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> suggests an action message of **Cancel** in the worksheet.|  
+|**Cancel**|If a demand, which has been covered on an order-to-order basis, is deleted, an action message is generated to cancel the related supply order. If the relationship is not order-to-order, an action message is generated to change in order to reduce the supply. If through other factors, such as inventory adjustments, a supply order is not required at the time the action messages are generated by the user, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> suggests an action message of **Cancel** in the worksheet.|  
   
 ## See Also  
- [Design Details: Supply Planning](../ApplicationDesign/design-details-supply-planning.md)   
- [How to: Register New Products](../DesignAndEngineering/how-to-register-new-products.md)   
+ [Design Details: Supply Planning](../FullExperience/design-details-supply-planning.md)   
+ [How to: Register New Products](../FullExperience/how-to-register-new-products.md)   
  Get Action Messages   
- [How to: Create Production BOMs](../DesignAndEngineering/how-to-create-production-boms.md)   
- [How to: Create Routings](../DesignAndEngineering/how-to-create-routings.md)   
- [How to: Plan for New Demand](../OperationsPlanning/how-to-plan-for-new-demand.md)   
- [How to: Refresh Planning Demands](../OperationsPlanning/how-to-refresh-planning-demands.md)   
- [How to: Track Entries in Planning Lines](../OperationsPlanning/how-to-track-entries-in-planning-lines.md)   
- [How to: View Item Availability](../OperationsPlanning/how-to-view-item-availability.md)
+ [How to: Create Production BOMs](../FullExperience/how-to-create-production-boms.md)   
+ [How to: Create Routings](../FullExperience/how-to-create-routings.md)   
+ [How to: Plan for New Demand](../FullExperience/how-to-plan-for-new-demand.md)   
+ [How to: Refresh Planning Demands](../FullExperience/how-to-refresh-planning-demands.md)   
+ [How to: Track Entries in Planning Lines](../FullExperience/how-to-track-entries-in-planning-lines.md)   
+ [How to: View Item Availability](../FullExperience/how-to-view-item-availability.md)

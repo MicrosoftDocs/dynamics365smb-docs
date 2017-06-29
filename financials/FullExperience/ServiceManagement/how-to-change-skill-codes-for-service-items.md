@@ -29,7 +29,7 @@ You may want to change the skill codes assigned to service items, for example, *
 4.  On the line with the code to be changed, in the **Skill Code** field, select the relevant skill code.  
   
 ## See Also  
- [How to: Change Skill Codes for Items](../Service/how-to-change-skill-codes-for-items.md)   
- [How to: Assign Skill Codes to Service Item Groups](../Service/how-to-assign-skill-codes-to-service-item-groups.md)   
- [How to: Assign Skill Codes to Items and Service Items](../Service/how-to-assign-skill-codes-to-items-and-service-items.md)   
- [How to: Assign Skill Codes to Service Item Groups](../Service/how-to-assign-skill-codes-to-service-item-groups.md)
+ [How to: Change Skill Codes for Items](../FullExperience/how-to-change-skill-codes-for-items.md)   
+ [How to: Assign Skill Codes to Service Item Groups](../FullExperience/how-to-assign-skill-codes-to-service-item-groups.md)   
+ [How to: Assign Skill Codes to Items and Service Items](../FullExperience/how-to-assign-skill-codes-to-items-and-service-items.md)   
+ [How to: Assign Skill Codes to Service Item Groups](../FullExperience/how-to-assign-skill-codes-to-service-item-groups.md)

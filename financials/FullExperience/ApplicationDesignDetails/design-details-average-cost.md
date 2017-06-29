@@ -16,14 +16,14 @@
 
     ---
 # Design Details: Average Cost
-The average cost of an item is calculated with a periodic weighted average, based on the average cost period that is set up in ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]-->.  
+The average cost of an item is calculated with a periodic weighted average, based on the average cost period that is set up in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
   
  The valuation date is set automatically.  
   
 ## Setting Up Average Cost Calculation  
  The following table describes the two fields in the **Inventory Setup** window that must be filled to enable average cost calculation.  
   
-|ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+|ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
 |---
     title: Insert topic title| Microsoft Docs
     description: Insert description
@@ -59,7 +59,7 @@ The average cost of an item is calculated with a periodic weighted average, base
 |02-16-20|-1|-17.00|4|  
   
 ## See Also  
- [Design Details: Inventory Costing](../ApplicationDesign/design-details-inventory-costing.md)   
- [Design Details: Costing Methods](../ApplicationDesign/design-details-costing-methods.md)   
- [Design Details: Cost Adjustment](../ApplicationDesign/design-details-cost-adjustment.md)   
- [Design Details: Item Application](../ApplicationDesign/design-details-item-application.md)
+ [Design Details: Inventory Costing](../FullExperience/design-details-inventory-costing.md)   
+ [Design Details: Costing Methods](../FullExperience/design-details-costing-methods.md)   
+ [Design Details: Cost Adjustment](../FullExperience/design-details-cost-adjustment.md)   
+ [Design Details: Item Application](../FullExperience/design-details-item-application.md)

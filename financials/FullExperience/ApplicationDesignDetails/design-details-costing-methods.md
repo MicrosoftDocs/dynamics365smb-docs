@@ -16,9 +16,9 @@
 
     ---
 # Design Details: Costing Methods
-The costing method determines if an actual or a budgeted value is capitalized and used in the cost calculation. Together with the posting date and sequence, the costing method also influences how the cost flow is recorded. The following methods are supported in ADD INCLUDE<!--[!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)]-->:  
+The costing method determines if an actual or a budgeted value is capitalized and used in the cost calculation. Together with the posting date and sequence, the costing method also influences how the cost flow is recorded. The following methods are supported in ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]-->:  
   
-|Costing method|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|When to use|  
+|Costing method|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|When to use|  
 |--------------------|---------------------------------------|-----------------|  
 |FIFO|An item’s unit cost is the actual value of any receipt of the item, selected by the FIFO rule.<br /><br /> In inventory valuation, it is assumed that the first items placed in inventory are sold first.|In business environments where product cost is stable.<br /><br /> \(When prices are rising, the balance sheet shows greater value. This means that tax liabilities increase, but credit scores and the ability to borrow cash improve.\)<br /><br /> For items with a limited shelf life, because the oldest goods need to be sold before they pass their sell-by date.|  
 |LIFO|An item’s unit cost is the actual value of any receipt of the item, selected by the LIFO rule.<br /><br /> In inventory valuation, it is assumed that the last items placed in inventory are sold first.|Disallowed in many countries\/regions, as it can be used to depress profit.<br /><br /> \(When prices are rising, the value on the income statement decreases. This means that tax liabilities decrease, but the ability to borrow cash deteriorates.\)|  
@@ -28,7 +28,7 @@ The costing method determines if an actual or a budgeted value is capitalized an
   
  The following image shows how costs flow through the inventory for each costing method.  
   
- ![Costing methods](../ApplicationDesign/media/design_details_inventory_costing_7_costing_methods.png "design\_details\_inventory\_costing\_7\_costing\_methods")  
+ ![Costing methods](../FullExperience/media/design_details_inventory_costing_7_costing_methods.png "design\_details\_inventory\_costing\_7\_costing\_methods")  
   
  Costing methods differ in the way that they value inventory decreases and if they use actual cost or standard cost as the valuation base. The following table explains the different characteristics. \(The LIFO method is excluded, as it is very similar to the FIFO method.\)  
   
@@ -112,7 +112,7 @@ The costing method determines if an actual or a budgeted value is capitalized an
   
  **Average**  
   
- For items using the **Average** costing method, inventory decreases are valued by calculating a weighted average of the remaining inventory on the last day of the average cost period in which the inventory decrease was posted. For more information, see [Design Details: Average Cost](../ApplicationDesign/design-details-average-cost.md).  
+ For items using the **Average** costing method, inventory decreases are valued by calculating a weighted average of the remaining inventory on the last day of the average cost period in which the inventory decrease was posted. For more information, see [Design Details: Average Cost](../FullExperience/design-details-average-cost.md).  
   
  The following table shows how inventory decreases are valued for the **Average** costing method.  
   
@@ -149,7 +149,7 @@ The costing method determines if an actual or a budgeted value is capitalized an
 |04-01-20|-1|-30.00|**3**|6|  
   
 ## See Also  
- [Design Details: Inventory Costing](../ApplicationDesign/design-details-inventory-costing.md)   
- [Design Details: Variance](../ApplicationDesign/design-details-variance.md)   
- [Design Details: Average Cost](../ApplicationDesign/design-details-average-cost.md)   
- [Design Details: Item Application](../ApplicationDesign/design-details-item-application.md)
+ [Design Details: Inventory Costing](../FullExperience/design-details-inventory-costing.md)   
+ [Design Details: Variance](../FullExperience/design-details-variance.md)   
+ [Design Details: Average Cost](../FullExperience/design-details-average-cost.md)   
+ [Design Details: Item Application](../FullExperience/design-details-item-application.md)

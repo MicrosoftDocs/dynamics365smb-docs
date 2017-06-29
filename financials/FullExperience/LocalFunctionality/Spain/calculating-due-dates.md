@@ -21,13 +21,13 @@ In Spain, there is a legal limit for the number of days that a payment can be de
 ## Payment Terms  
  To help you meet the legal requirements, you can set up payment terms so that the due dates are calculated correctly. This includes specifying the maximum number of calendar days that a payment can be delayed after delivery. For example, you can create separate payment terms for sales to the public sector and sales to private companies. The following table illustrates how you can set up payment terms.  
   
-|ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|Public sector|Private company|  
+|ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tablefield_md.md)]-->|Public sector|Private company|  
 |---------------------------------|-------------------|---------------------|  
 |**Code**|**1M\(8D\) PUB**|**1M\(8D\) PRI**|  
 |**Due Date Calculation**|**1M**|**1M**|  
 |**Max. No. of Days till Due Date**|**30**|**60**|  
   
- For each customer and vendor, you must select the appropriate payment term code. Then, when you create a document for that customer or vendor, ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> will calculate a due date that does not exceed the limit for the relevant payment term.  
+ For each customer and vendor, you must select the appropriate payment term code. Then, when you create a document for that customer or vendor, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> will calculate a due date that does not exceed the limit for the relevant payment term.  
   
 > [!IMPORTANT]  
 >  You cannot post a document that creates a bill where one or more installments have a due date that is later than the limit that is specified in the **Max. No. of Days till Due Date** field.  
@@ -37,7 +37,7 @@ In Spain, there is a legal limit for the number of days that a payment can be de
  You can change the calculated due date manually, but you cannot make it later than the limit that you specify for the payment term. For example, the due date can be calculated to be very late because of conflicts with non-payment periods. In that case, you can decide to make the due date earlier than the non-payment period.  
   
 ## Overdue Payments  
- You must include information about overdue payments in the annual reports for the government. ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> includes two reports to help you identify overdue payments from customers and payments that you are late in making.  
+ You must include information about overdue payments in the annual reports for the government. ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> includes two reports to help you identify overdue payments from customers and payments that you are late in making.  
   
  The **Customer - Overdue Payments** and **Vendor - Overdue Payments** reports include a section for each customer or vendor that lists the payments with the following information:  
   
@@ -61,7 +61,7 @@ In Spain, there is a legal limit for the number of days that a payment can be de
   
  Each section has a summary section with the following information.  
   
-|Information|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+|Information|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
 |-----------------|---------------------------------------|  
 |Weighted average term exceeded|This formula is calculated based on the number of posted payments for the specified period, the number of days that payments were delayed, and the paid amount in \(LCY\). For more information, see the official declaration [BOE-A-2010-10708](http://go.microsoft.com/fwlink/?LinkId=224630) on the Boletín Oficial del Estado website.|  
 |Payments within the legal limit|The amounts in LCY and the percentage of the total payments that were made before the maximum allowed due date for each transaction.|  
@@ -70,9 +70,9 @@ In Spain, there is a legal limit for the number of days that a payment can be de
  At the end of these reports, there is a section that summarizes this information for all payments. These reports will show information based on applied detailed customer ledger entries or applied detailed vendor ledger entries. The information is based on the date filters that you specify. For more information, see Customer - Overdue Payments and Vendor - Overdue Payments.  
   
 ## See Also  
- [How to: Set Limits for Due Dates](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/how-to-set-limits-for-due-dates.md)   
- [How to: Set Up Payment Terms](../../Finance/how-to-set-up-payment-terms.md)   
- [Apply Purchase Transactions](../../Finance/apply-purchase-transactions.md)   
- [Apply Sales Transactions](../../Finance/apply-sales-transactions.md)   
+ [How to: Set Limits for Due Dates](../FullExperience/how-to-set-limits-for-due-dates.md)   
+ [How to: Set Up Payment Terms](../FullExperience/how-to-set-up-payment-terms.md)   
+ [Apply Purchase Transactions](../FullExperience/apply-purchase-transactions.md)   
+ [Apply Sales Transactions](../FullExperience/apply-sales-transactions.md)   
  Customer - Overdue Payments   
  Vendor - Overdue Payments

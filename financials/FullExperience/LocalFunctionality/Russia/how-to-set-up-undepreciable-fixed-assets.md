@@ -27,6 +27,6 @@ You need to create or select a card for the fixed asset that should be repaid. T
 3.  Choose the **OK** button.  
   
 ## See Also  
- [How to: Set Up a Quantity Book](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-set-up-a-quantity-book.md)   
- [Undepreciable Fixed Assets](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/undepreciable-fixed-assets.md)   
- [Fixed Assets](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/fixed-assets.md)
+ [How to: Set Up a Quantity Book](../FullExperience/how-to-set-up-a-quantity-book.md)   
+ [Undepreciable Fixed Assets](../FullExperience/undepreciable-fixed-assets.md)   
+ [Fixed Assets](../FullExperience/fixed-assets.md)

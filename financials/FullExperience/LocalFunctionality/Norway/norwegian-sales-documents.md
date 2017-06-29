@@ -16,7 +16,7 @@
 
     ---
 # Norwegian Sales Documents
-ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> supports two sets of sales documents. A document set consists of a sales invoice, sales credit memo, reminder, and finance charge memo.  
+ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> supports two sets of sales documents. A document set consists of a sales invoice, sales credit memo, reminder, and finance charge memo.  
   
  Set 1 is based on international reports. You cannot print Norwegian giro or use paper sources\/trays in this set of reports.  
   
@@ -49,5 +49,5 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]
 -   **\($ R\_10607 Finance Charge Memo 2 $\)**  
   
 ## See Also  
- [Norwegian Giro and OCR-B Font](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/norwegian-giro-and-ocr-b-font.md)   
- [Paper Sources and Tray Numbers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/paper-sources-and-tray-numbers.md)
+ [Norwegian Giro and OCR-B Font](../FullExperience/norwegian-giro-and-ocr-b-font.md)   
+ [Paper Sources and Tray Numbers](../FullExperience/paper-sources-and-tray-numbers.md)

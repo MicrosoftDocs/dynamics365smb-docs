@@ -39,11 +39,11 @@ The relationship between the cost type and the general ledger account is created
   
 -   Accounts for operational accounting, such as Calc. Interest and Depreciation, only take costs from the operational accounting.  
   
--   Helping cost types, such as cost types 9901, 9902, and 9903 in the ADD INCLUDE<!--[!INCLUDE[demoname](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/demoname_md.md)]--> database, are used as credit and debit accounts for allocations.  
+-   Helping cost types, such as cost types 9901, 9902, and 9903 in the ADD INCLUDE<!--[!INCLUDE[demoname](../../includes/demoname_md.md)]--> database, are used as credit and debit accounts for allocations.  
   
--   The helping account, 9920 in the ADD INCLUDE<!--[!INCLUDE[demo](../ApplicationDesign/includes/demo_md.md)]--> database, contains actual accruals that show the difference between costs and the expense from the general ledger.  
+-   The helping account, 9920 in the ADD INCLUDE<!--[!INCLUDE[demo](../../includes/demo_md.md)]--> database, contains actual accruals that show the difference between costs and the expense from the general ledger.  
   
 ## See Also  
- [How to: Set Up Cost Types](../Finance/how-to-set-up-cost-types.md)   
- [Set Up Cost Accounting](../Finance/set-up-cost-accounting.md)   
- [About Cost Accounting](../Finance/about-cost-accounting.md)
+ [How to: Set Up Cost Types](../FullExperience/how-to-set-up-cost-types.md)   
+ [Set Up Cost Accounting](../FullExperience/set-up-cost-accounting.md)   
+ [About Cost Accounting](../FullExperience/about-cost-accounting.md)

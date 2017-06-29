@@ -16,7 +16,7 @@
 
     ---
 # How to: Block Inventory Items for Sales or Purchases
-In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, an item can be marked as blocked for sales, blocked for purchase, or blocked for all purposes.  
+In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, an item can be marked as blocked for sales, blocked for purchase, or blocked for all purposes.  
   
  The following table illustrates what occurs when items are blocked.  
   
@@ -60,7 +60,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
  Purchase Line   
  Item Journal   
  Item Journal Line   
- [Swiss Inventory Management](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/swiss-inventory-management.md)   
- [How to: Block Shipment for Negative Inventory](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-block-shipment-for-negative-inventory.md)   
- [How to: Copy Existing Items to New Items](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-copy-existing-items-to-new-items.md)   
- [How to: Deactivate Item Cost Tracking](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-deactivate-item-cost-tracking.md)
+ [Swiss Inventory Management](../FullExperience/swiss-inventory-management.md)   
+ [How to: Block Shipment for Negative Inventory](../FullExperience/how-to-block-shipment-for-negative-inventory.md)   
+ [How to: Copy Existing Items to New Items](../FullExperience/how-to-copy-existing-items-to-new-items.md)   
+ [How to: Deactivate Item Cost Tracking](../FullExperience/how-to-deactivate-item-cost-tracking.md)

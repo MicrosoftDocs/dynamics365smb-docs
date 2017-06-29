@@ -28,7 +28,7 @@ During an examination of the books for a fiscal year, a tax inspector can ask fo
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_11412\_N\_2\_1101100000 Start Date $\)**|Specify the start date of the period on which the data must be based.|  
     |**\($ B\_11412\_N\_2\_1000003 End Date $\)**|Specify the end date of the period on which the data must be based.|  
@@ -39,6 +39,6 @@ During an examination of the books for a fiscal year, a tax inspector can ask fo
      When you run the report, you must specify the name and location of the exported file. The default file name is **audit.xaf**, but you can change that. The file extension must be .xaf.  
   
 ## See Also  
- [Electronic VAT and ICP Declarations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/electronic-vat-and-icp-declarations.md)   
- [How to: Submit Electronic VAT and ICP Declarations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/how-to-submit-electronic-vat-and-icp-declarations.md)   
+ [Electronic VAT and ICP Declarations](../FullExperience/electronic-vat-and-icp-declarations.md)   
+ [How to: Submit Electronic VAT and ICP Declarations](../FullExperience/how-to-submit-electronic-vat-and-icp-declarations.md)   
  Tax Authority - Audit File

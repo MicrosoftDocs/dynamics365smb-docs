@@ -16,4 +16,4 @@
 
     ---
 # Italy Local Functionality Tables, Reports, Batch Jobs, and Windows
-ADD INCLUDE<!--[!INCLUDE[emptyBookNodeText](../../Finance/includes/emptybooknodetext_md.md)]-->
+ADD INCLUDE<!--[!INCLUDE[emptyBookNodeText](../../includes/emptybooknodetext_md.md)]-->

@@ -28,13 +28,13 @@ Before you define cost allocations, you must understand how cost entries come fr
   
 |**To**|**See**|  
 |------------|-------------|  
-|Understand criteria for transferring cost entries from general ledger.|[Criteria for Transferring General Ledger Entries to Cost Entries](../Finance/criteria-for-transferring-general-ledger-entries-to-cost-entries.md)|  
-|Transfer general ledger entries to cost entries with a batch job.|[How to: Transfer General Ledger Entries to Cost Entries](../Finance/how-to-transfer-general-ledger-entries-to-cost-entries.md)<br /><br /> [Automatic Transfer and Combined Entries](../Finance/automatic-transfer-and-combined-entries.md)|  
-|See the results of the transfer.|[Results of the Transfer](../Finance/results-of-the-transfer.md)|  
+|Understand criteria for transferring cost entries from general ledger.|[Criteria for Transferring General Ledger Entries to Cost Entries](../FullExperience/criteria-for-transferring-general-ledger-entries-to-cost-entries.md)|  
+|Transfer general ledger entries to cost entries with a batch job.|[How to: Transfer General Ledger Entries to Cost Entries](../FullExperience/automatic-transfer-and-combined-entries.md)|  
+|See the results of the transfer.|[Results of the Transfer](../FullExperience/results-of-the-transfer.md)|  
 |Learn where you can post cost entries.|Cost Journal|  
   
 ## See Also  
- [About Cost Accounting](../Finance/about-cost-accounting.md)   
- [Set Up Cost Accounting](../Finance/set-up-cost-accounting.md)   
- [Define and Allocate Costs](../Finance/define-and-allocate-costs.md)   
- [Manage Cost Accounting](../Finance/manage-cost-accounting.md)
+ [About Cost Accounting](../FullExperience/about-cost-accounting.md)   
+ [Set Up Cost Accounting](../FullExperience/set-up-cost-accounting.md)   
+ [Define and Allocate Costs](../FullExperience/define-and-allocate-costs.md)   
+ [Manage Cost Accounting](../FullExperience/manage-cost-accounting.md)

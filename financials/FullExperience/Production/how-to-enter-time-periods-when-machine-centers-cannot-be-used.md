@@ -39,7 +39,7 @@ You can define time periods where machine centers cannot be used.
 5.  On the **Navigate** tab, in the **Absence** group, choose **Update** to calculate the calendar entries for the machine center. This must be done every time you enter calendar entries.  
   
 ## See Also  
- [Shop Calendars](../OperationsPlanning/shop-calendars.md)   
- [How to: Update Calendar Entries for Machine Centers](../OperationsPlanning/how-to-update-calendar-entries-for-machine-centers.md)   
- [How to: Recalculate Calendar Entries for Machine Centers](../OperationsPlanning/how-to-recalculate-calendar-entries-for-machine-centers.md)   
- [How to: Enter Time Periods When Work Centers Cannot Be Used](../Production/how-to-enter-time-periods-when-work-centers-cannot-be-used.md)
+ [Shop Calendars](../FullExperience/shop-calendars.md)   
+ [How to: Update Calendar Entries for Machine Centers](../FullExperience/how-to-update-calendar-entries-for-machine-centers.md)   
+ [How to: Recalculate Calendar Entries for Machine Centers](../FullExperience/how-to-recalculate-calendar-entries-for-machine-centers.md)   
+ [How to: Enter Time Periods When Work Centers Cannot Be Used](../FullExperience/how-to-enter-time-periods-when-work-centers-cannot-be-used.md)

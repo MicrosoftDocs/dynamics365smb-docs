@@ -29,4 +29,4 @@ You can use the **Service Order Types** window to set up codes to identify types
  Repeat these steps for each service order type you want to create.  
   
 ## See Also  
- [How to: Create Service Orders](../Service/how-to-create-service-orders.md)
+ [How to: Create Service Orders](../FullExperience/how-to-create-service-orders.md)

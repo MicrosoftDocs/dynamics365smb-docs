@@ -24,7 +24,7 @@ You can use the structure of data that is contained in the data templates to con
   
 1.  In the **Search** box, enter **Configuration Templates**, and then choose the related link.  
   
-2.  In the **Setup Master Templates** window, select the item template that you have created and choose **Edit**. For more information on how to create a template, see [How to: Create a Configuration Template](../SetupAndAdministration/how-to-create-a-configuration-template.md).  
+2.  In the **Setup Master Templates** window, select the item template that you have created and choose **Edit**. For more information on how to create a template, see [How to: Create a Configuration Template](../FullExperience/how-to-create-a-configuration-template.md).  
   
 3.  On the **Actions** tab, choose **Create Instance**. An item card is created.  
   
@@ -36,7 +36,7 @@ You can use the structure of data that is contained in the data templates to con
   
 7.  Expand various FastTabs, and verify that the information was created correctly on them.  
   
- After you have created and verified the structure of the configuration templates, you can continue with the actual migration of your customer’s data into the new ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> database.  
+ After you have created and verified the structure of the configuration templates, you can continue with the actual migration of your customer’s data into the new ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> database.  
   
 ## See Also  
- [How to: Use a Configuration Template on a Record](../SetupAndAdministration/how-to-use-a-configuration-template-on-a-record.md)
+ [How to: Use a Configuration Template on a Record](../FullExperience/how-to-use-a-configuration-template-on-a-record.md)

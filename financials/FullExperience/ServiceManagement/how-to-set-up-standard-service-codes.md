@@ -31,5 +31,5 @@ You can use standard service codes to create service documents with similar comb
 5.  Repeat these steps for each code you want to set up.  
   
 ## See Also  
- [How to: Insert Service Lines by Using Standard Service Codes](../Service/how-to-insert-service-lines-by-using-standard-service-codes.md)   
- [How to: Assign Standard Service Codes to Service Item Groups](../Service/how-to-assign-standard-service-codes-to-service-item-groups.md)
+ [How to: Insert Service Lines by Using Standard Service Codes](../FullExperience/how-to-insert-service-lines-by-using-standard-service-codes.md)   
+ [How to: Assign Standard Service Codes to Service Item Groups](../FullExperience/how-to-assign-standard-service-codes-to-service-item-groups.md)

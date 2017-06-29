@@ -33,5 +33,5 @@ The item obligatory acts feature enables you to print the obligatory reports use
 |Sales Shipment M-15|To print Sales Shipment M-15 from the sales order<br /><br /> -   In the **Search** box, enter **Sales Orders**, select an order, choose **Print**, and then select the **Sales Shipment M-15** check box.<br /><br /> To print Sales Shipment M-15 from the sales invoice<br /><br /> -   In the **Search** box, enter **Sales Invoices**, select an invoice, choose **Print**, and then select the **Sales Shipment M-15** check box.<br /><br /> To print from the posted sales invoice<br /><br /> -   In the **Search** box, enter **Posted Sales Invoices**, select an invoice, choose **Print**, and then select the **Sales Shipment M-15** check box.<br /><br /> This report is usually printed at the time of shipment of materials out of the company.<br /><br /> For more information, see Sales Shipment M-15 and Posted Sales Shipment M-15.|  
   
 ## See Also  
- [Item Documents](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/item-documents.md)   
- [Item General Ledger Turnover](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/item-general-ledger-turnover.md)
+ [Item Documents](../FullExperience/item-documents.md)   
+ [Item General Ledger Turnover](../FullExperience/item-general-ledger-turnover.md)

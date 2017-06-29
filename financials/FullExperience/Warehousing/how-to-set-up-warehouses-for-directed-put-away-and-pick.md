@@ -33,7 +33,7 @@ Directed put-away and pick gives you access to advanced warehousing features tha
 > [!NOTE]  
 >  You cannot set up the warehouse to use bins when the location has open item ledger entries.  
   
- The next step is to define the type of bins you want to operate. For more information, see [How to: Set Up Bin Types](../WarehouseActivities/how-to-set-up-bin-types.md). The bin type defines how to use a given bin when processing the flow of items through the warehouse. You can assign a bin type to both a zone and to a bin.  
+ The next step is to define the type of bins you want to operate. For more information, see [How to: Set Up Bin Types](../FullExperience/how-to-set-up-bin-types.md). The bin type defines how to use a given bin when processing the flow of items through the warehouse. You can assign a bin type to both a zone and to a bin.  
   
  You can also define warehouse class codes, if the warehouse carries items that need various storage conditions. Warehouse class codes are used when suggesting item placement in bins. You assign the warehouse class codes to product groups, which are then assigned to items and SKUs, or to zones and bins that can accommodate the storage conditions required by the warehouse class codes.  
   
@@ -62,13 +62,13 @@ Directed put-away and pick gives you access to advanced warehousing features tha
 > [!NOTE]  
 >  If you want to operate without zones, you must still create one zone code that is undefined except for the code.  
   
- The next step in setting up the warehouse is to define bins. For more information, see [How to: Set Up Locations to Use Bins](../WarehouseActivities/how-to-set-up-locations-to-use-bins.md).  
+ The next step in setting up the warehouse is to define bins. For more information, see [How to: Set Up Locations to Use Bins](../FullExperience/how-to-set-up-locations-to-use-bins.md).  
   
- In addition, you must create put-away templates and counting periods. For more information, see [How to: Set Up Put-away Templates](../WarehouseActivities/how-to-set-up-put-away-templates.md) and [How to: Set Up Physical Inventory Counting Periods](../WarehouseActivities/how-to-set-up-physical-inventory-counting-periods.md).  
+ In addition, you must create put-away templates and counting periods. For more information, see [How to: Set Up Put-away Templates](../FullExperience/how-to-set-up-physical-inventory-counting-periods.md).  
   
 ## See Also  
- [Configure Warehouse Processes](../WarehouseActivities/configure-warehouse-processes.md)   
- [How to: Set Up Items for Directed Put-away and Pick](../WarehouseActivities/how-to-set-up-items-for-directed-put-away-and-pick.md)   
- [How to: Convert Existing Locations to Warehouse Locations](../WarehouseActivities/how-to-convert-existing-locations-to-warehouse-locations.md)   
- [About Warehouse Management](../WarehouseActivities/about-warehouse-management.md)   
- [Design Details: Warehouse Management](../ApplicationDesign/design-details-warehouse-management.md)
+ [Configure Warehouse Processes](../FullExperience/configure-warehouse-processes.md)   
+ [How to: Set Up Items for Directed Put-away and Pick](../FullExperience/how-to-set-up-items-for-directed-put-away-and-pick.md)   
+ [How to: Convert Existing Locations to Warehouse Locations](../FullExperience/how-to-convert-existing-locations-to-warehouse-locations.md)   
+ [About Warehouse Management](../FullExperience/about-warehouse-management.md)   
+ [Design Details: Warehouse Management](../FullExperience/design-details-warehouse-management.md)

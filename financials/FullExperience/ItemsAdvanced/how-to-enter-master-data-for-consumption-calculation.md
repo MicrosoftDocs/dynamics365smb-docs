@@ -27,5 +27,5 @@ The method for the calculation of the consumption posting time is assigned to th
 3.  On the **Replenishment** FastTab, fill in the **Flushing Method** field to select the method to use to calculate the consumption.  
   
 ## See Also  
- [How to: Post Consumption Manually](../Production/how-to-post-consumption-manually.md)   
+ [How to: Post Consumption Manually](../FullExperience/how-to-post-consumption-manually.md)   
  Flushing Method

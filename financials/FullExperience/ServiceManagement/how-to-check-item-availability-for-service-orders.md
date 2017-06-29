@@ -43,4 +43,4 @@ You can check and see if an item you need to fulfill an order is in stock, and i
 ## See Also  
  Demand Overview   
  Reservation   
- [How to: Reserve Items for a Service Order](../Service/how-to-reserve-items-for-a-service-order.md)
+ [How to: Reserve Items for a Service Order](../FullExperience/how-to-reserve-items-for-a-service-order.md)

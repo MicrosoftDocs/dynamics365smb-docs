@@ -103,5 +103,5 @@ You can use telebanking for trade with domestic and foreign customers and vendor
  The bank statement containing our payment to Hernandez Ortiz will be sent to us by our bank *ABN*. Therefore we should chose *OFFICE NET EXTRA* as the appropriate import protocol.  
   
 ## See Also  
- [How to: Create Proposals](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/how-to-create-proposals.md)   
- [How to: Create and Export Payment History](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/how-to-create-and-export-payment-history.md)
+ [How to: Create Proposals](../FullExperience/how-to-create-proposals.md)   
+ [How to: Create and Export Payment History](../FullExperience/how-to-create-and-export-payment-history.md)

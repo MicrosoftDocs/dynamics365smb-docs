@@ -32,7 +32,7 @@ After you have set up the change log, activated it, and made changes to data, yo
 >  You can set filters on any of the fields. If you do not set any filters, the document will include all your records.  
   
 ## See Also  
- [How to: Enter Dates and Times](../WorkingWithDynamics/how-to-enter-dates-and-times.md)   
- [How to: Enable the Change Log](../SetupAndAdministration/how-to-enable-the-change-log.md)   
- [How to: View Change Log Entries](../SetupAndAdministration/how-to-view-change-log-entries.md)   
- [How to: Delete Change Log Entries](../SetupAndAdministration/how-to-delete-change-log-entries.md)
+ [How to: Enter Dates and Times](../FullExperience/how-to-enter-dates-and-times.md)   
+ [How to: Enable the Change Log](../FullExperience/how-to-enable-the-change-log.md)   
+ [How to: View Change Log Entries](../FullExperience/how-to-view-change-log-entries.md)   
+ [How to: Delete Change Log Entries](../FullExperience/how-to-delete-change-log-entries.md)

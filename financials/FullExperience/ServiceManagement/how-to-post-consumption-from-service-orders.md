@@ -24,7 +24,7 @@ The following procedure describes how to post the items, resource hours, and or 
   
 2.  Open the service order you want to post consumption for.  
   
-3.  On the **Lines** FastTab, select the service item. Choose **Actions**![Action Menu icon](../DesignAndEngineering/media/actionmenuicon.png "actionMenuIcon"), choose **Order**, and then choose **Service Lines**.  
+3.  On the **Lines** FastTab, select the service item. Choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Order**, and then choose **Service Lines**.  
   
 4.  In the **Service Lines** window, find the required entries and specify in the **Qty. to Consume** field the quantities for which you will post consumption. Tthe quantity cannot be larger than the quantity already shipped and the quantity remaining not invoiced after partial invoicing of this shipment.  
   
@@ -36,6 +36,6 @@ The following procedure describes how to post the items, resource hours, and or 
  The service is posted as consumed either partially or fully, depending on the value in the **Qty. to Consume** field, and the relevant ledger entries are created. In addition, previously posted service shipment documents are updated chronologically with the consumed quantities. The relevant quantities will be updated on the service lines of the order.  
   
 ## See Also  
- [How to: Post Shipments from Service Orders](../Service/how-to-post-shipments-from-service-orders.md)   
- [How to: Post Invoices from Service Orders](../Service/how-to-post-invoices-from-service-orders.md)   
- [How to: Undo Service Consumption](../Service/how-to-undo-service-consumption.md)
+ [How to: Post Shipments from Service Orders](../FullExperience/how-to-post-shipments-from-service-orders.md)   
+ [How to: Post Invoices from Service Orders](../FullExperience/how-to-post-invoices-from-service-orders.md)   
+ [How to: Undo Service Consumption](../FullExperience/how-to-undo-service-consumption.md)

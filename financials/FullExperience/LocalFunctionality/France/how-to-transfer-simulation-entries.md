@@ -34,6 +34,6 @@ When you have created and posted simulation entries to the general ledger, you c
 5.  Open the relevant general journal and post the newly created journal entries.  
   
 ## See Also  
- [How to: Set Up Simulation](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-set-up-simulation.md)   
- [How to: Create Simulation Entries](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-create-simulation-entries.md)   
- [How to: Delete Simulation Entries](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-delete-simulation-entries.md)
+ [How to: Set Up Simulation](../FullExperience/how-to-set-up-simulation.md)   
+ [How to: Create Simulation Entries](../FullExperience/how-to-create-simulation-entries.md)   
+ [How to: Delete Simulation Entries](../FullExperience/how-to-delete-simulation-entries.md)

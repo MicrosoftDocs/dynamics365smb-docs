@@ -24,7 +24,7 @@ After an invoice has been created you can allocate and post fixed asset charges.
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_14912\_F\_1\_1210000 Source Document Type $\)**|Specify the source document type. Types include **Invoice**, **Order**, and **Posted Invoice**.|  
     |**\($ R\_14912\_F\_1\_1210002 Source Document No. $\)**|Specify the source document number that is associated with the fixed asset charge.|  
@@ -35,5 +35,5 @@ After an invoice has been created you can allocate and post fixed asset charges.
   
 ## See Also  
  Purchase Header   
- [Fixed Assets Accounting Setup](../../Finance/fixed-assets-accounting-setup.md)   
+ [Fixed Assets Accounting Setup](../FullExperience/fixed-assets-accounting-setup.md)   
  Allocate FA Charges

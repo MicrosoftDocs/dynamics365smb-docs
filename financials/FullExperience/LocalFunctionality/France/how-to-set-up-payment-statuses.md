@@ -16,7 +16,7 @@
 
     ---
 # How to: Set Up Payment Statuses
-To use payment management, you must set up payment statuses to define payment document progress levels. You must define a set of statuses for each payment class. For more information, see [How to: Set Up Payment Classes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-set-up-payment-classes.md).  
+To use payment management, you must set up payment statuses to define payment document progress levels. You must define a set of statuses for each payment class. For more information, see [How to: Set Up Payment Classes](../FullExperience/how-to-set-up-payment-classes.md).  
   
 ### To set up payment statuses  
   
@@ -28,7 +28,7 @@ To use payment management, you must set up payment statuses to define payment do
   
 4.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Name**|The payment status description.|  
     |**RIB**|Select to indicate that information about the Relevé d Identité Bancaire \(RIB\) statement for the customer or vendor must be displayed in the payment lines. The RIB information includes the bank branch number, agency code, bank account number, bank name, RIB key, and key verification.|  
@@ -42,11 +42,11 @@ To use payment management, you must set up payment statuses to define payment do
   
 ## See Also  
  View-Edit Payment Line   
- [Payment Management](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/payment-management.md)   
- [How to: Set Up Payment Classes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-set-up-payment-classes.md)   
- [How to: Set Up Payment Steps](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-set-up-payment-steps.md)   
- [How to: Set Up Payment Addresses](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-set-up-payment-addresses.md)   
- [How to: Create Payment Slips](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-create-payment-slips.md)   
- [How to: Post Payment Slips](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-post-payment-slips.md)   
- [How to: Archive Payment Slips](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-archive-payment-slips.md)   
- [How to: Export or Import Payment Management Setup Parameters](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-export-or-import-payment-management-setup-parameters.md)
+ [Payment Management](../FullExperience/payment-management.md)   
+ [How to: Set Up Payment Classes](../FullExperience/how-to-set-up-payment-classes.md)   
+ [How to: Set Up Payment Steps](../FullExperience/how-to-set-up-payment-steps.md)   
+ [How to: Set Up Payment Addresses](../FullExperience/how-to-set-up-payment-addresses.md)   
+ [How to: Create Payment Slips](../FullExperience/how-to-create-payment-slips.md)   
+ [How to: Post Payment Slips](../FullExperience/how-to-post-payment-slips.md)   
+ [How to: Archive Payment Slips](../FullExperience/how-to-archive-payment-slips.md)   
+ [How to: Export or Import Payment Management Setup Parameters](../FullExperience/how-to-export-or-import-payment-management-setup-parameters.md)

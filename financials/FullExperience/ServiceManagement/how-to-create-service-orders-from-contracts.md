@@ -34,5 +34,5 @@ You can automatically create service orders for the maintenance of service items
 5.  Choose the **OK** button to create the service orders.  
   
 ## See Also  
- [How to: Create Service Orders](../Service/how-to-create-service-orders.md)   
- [How to: Create Service Contracts and Service Contract Quotes](../Service/how-to-create-service-contracts-and-service-contract-quotes.md)
+ [How to: Create Service Orders](../FullExperience/how-to-create-service-orders.md)   
+ [How to: Create Service Contracts and Service Contract Quotes](../FullExperience/how-to-create-service-contracts-and-service-contract-quotes.md)

@@ -16,7 +16,7 @@
 
     ---
 # Date Calculation for Sales
-ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> automatically calculates the earliest possible date that an item on a sales order line can be shipped.  
+ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> automatically calculates the earliest possible date that an item on a sales order line can be shipped.  
   
  If the customer has requested a specific delivery date, then the date on which the items must be available to pick to meet that delivery date is calculated.  
   
@@ -43,7 +43,7 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]-->
 ## See Also  
  Requested Delivery Date   
  Shipment Date   
- [How to: Enter Outbound Warehouse Handling Time](../DesignAndEngineering/how-to-enter-outbound-warehouse-handling-time.md)   
- [How to: Set Up Shipping Agent Services](../Sales/how-to-set-up-shipping-agent-services.md)   
- [About Order Promising](../Sales/about-order-promising.md)   
- [How to: Calculate Order Promising Dates](../Sales/how-to-calculate-order-promising-dates.md)
+ [How to: Enter Outbound Warehouse Handling Time](../FullExperience/how-to-enter-outbound-warehouse-handling-time.md)   
+ [How to: Set Up Shipping Agent Services](../FullExperience/how-to-set-up-shipping-agent-services.md)   
+ [About Order Promising](../FullExperience/about-order-promising.md)   
+ [How to: Calculate Order Promising Dates](../FullExperience/how-to-calculate-order-promising-dates.md)

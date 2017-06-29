@@ -16,7 +16,7 @@
 
     ---
 # How to: Export SEPA Payment Files
-The following procedure describes how to export a SEPA payment file, one of the payment options supported by ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->. The procedure describes how to create a payment for a vendor, but the same steps also apply to creating payments for a customer.  
+The following procedure describes how to export a SEPA payment file, one of the payment options supported by ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->. The procedure describes how to create a payment for a vendor, but the same steps also apply to creating payments for a customer.  
   
  Before starting this procedure, you need to specify the following information on the vendor card:  
   
@@ -54,7 +54,7 @@ The following procedure describes how to export a SEPA payment file, one of the 
   
 7.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Document No.**|Specifies the document number for the journal line.|  
     |**Account Type**|Select the account type as **Vendor**.|  
@@ -70,4 +70,4 @@ The following procedure describes how to export a SEPA payment file, one of the 
  You can export a line again if needed. On the **Home** tab, in the Bank group, choose **Export Payments to File**, and then choose **Yes**.  
   
 ## See Also  
- [How to: Export BACS Files](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/how-to-export-bacs-files.md)
+ [How to: Export BACS Files](../FullExperience/how-to-export-bacs-files.md)

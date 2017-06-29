@@ -46,7 +46,7 @@ You must specify the supply type on tax invoices. To do this, you must update th
   
 3.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Code**|Specify the code for the supply type. You can enter a maximum of 10 alphanumeric characters.|  
     |**Description**|Specify the name of the supply type. You can enter a maximum of 30 alphanumeric characters.|  
@@ -68,4 +68,4 @@ You must specify the supply type on tax invoices. To do this, you must update th
 ## See Also  
  Customer Card   
  Vendor Card   
- [United Kingdom Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/united-kingdom-local-functionality.md)
+ [United Kingdom Local Functionality](../FullExperience/united-kingdom-local-functionality.md)

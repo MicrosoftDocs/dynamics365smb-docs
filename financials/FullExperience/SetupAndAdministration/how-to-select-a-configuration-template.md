@@ -19,7 +19,7 @@
 When you select an existing data template, you must evaluate whether the template that you created for the new company are sufficient for the customer. Review the provided fields and values to determine which templates are appropriate for a new company.  
   
 > [!TIP]  
->  You can also use data templates to create new records quickly. Use them for faster and more accurate data creation. For more information, see [How to: Create Cards by Using Data Templates](../WorkingWithDynamics/how-to-create-cards-by-using-data-templates.md).  
+>  You can also use data templates to create new records quickly. Use them for faster and more accurate data creation. For more information, see [How to: Create Cards by Using Data Templates](../FullExperience/how-to-create-cards-by-using-data-templates.md).  
   
 ### To select a data template  
   
@@ -32,4 +32,4 @@ When you select an existing data template, you must evaluate whether the templat
  If the default templates do not meet your needs, you can create new templates or add fields to an existing template. If the default templates are sufficient, you can use them to create records based on master data templates.  
   
 ## See Also  
- [How to: Create a Configuration Template](../SetupAndAdministration/how-to-create-a-configuration-template.md)
+ [How to: Create a Configuration Template](../FullExperience/how-to-create-a-configuration-template.md)

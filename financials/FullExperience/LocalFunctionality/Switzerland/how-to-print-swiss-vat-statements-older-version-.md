@@ -36,7 +36,7 @@
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_11518\_F\_1\_6 Closed with Journal no. $\)**|Select the general ledger journals that contain the posting source of the VAT adjusting entries. This field evaluates accounting periods that have already been settled.|  
     |**\($ R\_11518\_F\_1\_8 Open until date $\)**|Select the last date for settling open or unsettled VAT entries.|  
@@ -53,8 +53,8 @@
 3.  Choose the **Print** button to print the VAT statement or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [Swiss Value Added Tax](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/swiss-value-added-tax.md)   
- [VAT Rates for Switzerland](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/vat-rates-for-switzerland.md)   
+ [Swiss Value Added Tax](../FullExperience/swiss-value-added-tax.md)   
+ [VAT Rates for Switzerland](../FullExperience/vat-rates-for-switzerland.md)   
  VAT Posting Setup   
  General Ledger Setup   
  VAT Entry

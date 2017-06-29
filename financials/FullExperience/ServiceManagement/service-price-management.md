@@ -56,14 +56,14 @@ The service price management functionality lets you apply the best price to serv
   
  The following table describes the calculations.  
   
-|ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+|ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../../includes/bp_tabledescription_md.md)]-->|  
 |----------------------------------|---------------------------------------|  
 |**Fixed Price**|This means that you charge a fixed price for the service item, resource, general ledger account, or cost, regardless of the real costs or regular charges. Selecting this option means that the service price adjustment will reach the exact amount specified in the service price group.|  
 |**Maximum**|This means that you put an upper limit on the charge to your customer, regardless of the real costs or regular charges. Selecting this option means that the service price adjustment will only be performed if the total price exceeds the amount specified in the service price group.|  
 |**Minimum**|This means that you put a lower limit on the charge to your customer, regardless of the real costs or regular charges. Selecting this option means that the service price adjustment will only be performed if the total amount is less than the amount specified on the service price group.|  
   
 ## See Also  
- [How to: Set Up Service Price Adjustment Groups](../Service/how-to-set-up-service-price-adjustment-groups.md)   
- [How to: Set Up Service Price Groups](../Service/how-to-set-up-service-price-groups.md)   
- [How to: Create Service Price Adjustments](../Service/how-to-create-service-price-adjustments.md)   
- [How to: Change Service Pricing for Service Items](../Service/how-to-change-service-pricing-for-service-items.md)
+ [How to: Set Up Service Price Adjustment Groups](../FullExperience/how-to-set-up-service-price-adjustment-groups.md)   
+ [How to: Set Up Service Price Groups](../FullExperience/how-to-set-up-service-price-groups.md)   
+ [How to: Create Service Price Adjustments](../FullExperience/how-to-create-service-price-adjustments.md)   
+ [How to: Change Service Pricing for Service Items](../FullExperience/how-to-change-service-pricing-for-service-items.md)

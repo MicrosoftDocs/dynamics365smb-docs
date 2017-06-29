@@ -18,11 +18,11 @@
 # How to: Specify When and How to Receive Notifications
 When you set up users in approval workflows, you must specify in the **Notification Setup** and **Notification Schedule** windows how and when each user receives notifications about approval workflow steps. Individual users can also change their notification setup by choosing the **Change Notification Settings** button on any notification.  
   
- Before you can set up an approval user’s notification preferences, you must set the user up as an approval user. For more information, [How to: Set Up Approval Users](../../BusinessFunctionality/Workflow/how-to-set-up-approval-users.md).  
+ Before you can set up an approval user’s notification preferences, you must set the user up as an approval user. For more information, [How to: Set Up Approval Users](../FullExperience/how-to-set-up-approval-users.md).  
   
- You define the layout and content of notifications by setting up notification templates. For more information, see [How to: Manage Notification Templates](../../BusinessFunctionality/Workflow/how-to-manage-notification-templates.md).  
+ You define the layout and content of notifications by setting up notification templates. For more information, see [How to: Manage Notification Templates](../FullExperience/how-to-manage-notification-templates.md).  
   
- Many approval workflow steps are about notifying users that an event has occurred that they must act on. For example, on one workflow step, the event can be that User 1 requests approval of a new record. The related response is that a notification is sent to User 2, the approver. On the next workflow step, the event can be that User 2 approves the record. The related response is that a notification is sent to User 3 to start a process with the approved record. For workflow steps that are about approval, each notification is tied to an approval entry. For more information, see [Workflow](../../BusinessFunctionality/Workflow/workflow.md).  
+ Many approval workflow steps are about notifying users that an event has occurred that they must act on. For example, on one workflow step, the event can be that User 1 requests approval of a new record. The related response is that a notification is sent to User 2, the approver. On the next workflow step, the event can be that User 2 approves the record. The related response is that a notification is sent to User 3 to start a process with the approved record. For workflow steps that are about approval, each notification is tied to an approval entry. For more information, see [Workflow](../FullExperience/workflow.md).  
   
 ### Specify when and how users receive notifications  
   
@@ -32,7 +32,7 @@ When you set up users in approval workflows, you must specify in the **Notificat
   
 3.  In the **Notification Setup** window, fill the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Notification Type**|Specify what type of event the notification is about.<br /><br /> Select one of the following options:<br /><br /> -   **New Record** specifies that the notification is about a new record, such as a document, that the user must act on.<br />-   **Approval** specifies that the notification is about one or more approval requests.<br />-   **Overdue** specifies that the notification is to remind users that they are late in acting on an event.|  
     |**Notification Template Code**|Specify the code of the notification template that is used to create notifications for the user.|  
@@ -44,7 +44,7 @@ When you set up users in approval workflows, you must specify in the **Notificat
   
 5.  In the **Notification Schedule** window, fill the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Recurrence**|Specify the recurrence pattern in which the user receives notifications.|  
     |**Time**|Specify what time of the day the user receives notifications when the value in the **Recurrence** field is different from **Instantly**.|  
@@ -63,9 +63,9 @@ When you set up users in approval workflows, you must specify in the **Notificat
  Notification Setup   
  Notification Schedule   
  Notification Templates   
- [How to: Set Up Approval Users](../../BusinessFunctionality/Workflow/how-to-set-up-approval-users.md)   
- [How to: Manage Notification Templates](../../BusinessFunctionality/Workflow/how-to-manage-notification-templates.md)   
- [Setting Up Workflow Notifications](../../BusinessFunctionality/Workflow/setting-up-workflow-notifications.md)   
+ [How to: Set Up Approval Users](../FullExperience/how-to-set-up-approval-users.md)   
+ [How to: Manage Notification Templates](../FullExperience/how-to-manage-notification-templates.md)   
+ [Setting Up Workflow Notifications](../FullExperience/setting-up-workflow-notifications.md)   
  Workflow   
- [Set Up Workflows](../../BusinessFunctionality/Workflow/set-up-workflows.md)   
- [Use Workflows](../../BusinessFunctionality/Workflow/use-workflows.md)
+ [Set Up Workflows](../FullExperience/set-up-workflows.md)   
+ [Use Workflows](../FullExperience/use-workflows.md)

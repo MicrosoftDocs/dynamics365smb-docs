@@ -30,7 +30,7 @@ Account book reports display all the general ledger entries created in a specifi
   
 2.  In the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_10706\_F\_1\_1 Closing Transaction Description $\)**|Enter the description for the closing period transaction.|  
     |**\($ R\_10706\_F\_1\_5 Opening Transaction Description $\)**|Enter the description for the opening period transaction.|  
@@ -47,7 +47,7 @@ Account book reports display all the general ledger entries created in a specifi
   
 2.  In the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_10716\_F\_1\_7 From Date $\)**|Enter the start date of the report.|  
     |**\($ R\_10716\_F\_1\_6 To Date $\)**|Enter the end date of the report.|  
@@ -59,6 +59,6 @@ Account book reports display all the general ledger entries created in a specifi
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [Spain Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/spain-local-functionality.md)   
+ [Spain Local Functionality](../FullExperience/spain-local-functionality.md)   
  Account - Official Acc. Book   
  Official Acc. Summarized Book

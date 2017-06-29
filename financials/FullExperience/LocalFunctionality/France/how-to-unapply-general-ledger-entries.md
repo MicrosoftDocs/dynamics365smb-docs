@@ -29,4 +29,4 @@ You can unapply general ledger entries in a very straightforward way.
 4.  On the **Navigate** tab, in the **Process** group, choose **Unapply Entries**.  
   
 ## See Also  
- [How to: Apply General Ledger Entries](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-apply-general-ledger-entries.md)
+ [How to: Apply General Ledger Entries](../FullExperience/how-to-apply-general-ledger-entries.md)

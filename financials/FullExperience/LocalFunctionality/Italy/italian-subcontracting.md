@@ -24,6 +24,6 @@ Companies contracted for production often outsource the production of components
  You can send an item to a subcontractor and have the subcontractor return it as a Work in Progress \(WIP\) to the main contractor. You can also send and receive groups of items without forced reference to the item card.  
   
 ## See Also  
- [How to: Calculate and Post Job Completion Entries](../../Jobs/how-to-calculate-and-post-job-completion-entries.md)   
+ [How to: Calculate and Post Job Completion Entries](../FullExperience/how-to-calculate-and-post-job-completion-entries.md)   
  WIP-Total   
- [Italy Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/italy-local-functionality.md)
+ [Italy Local Functionality](../FullExperience/italy-local-functionality.md)

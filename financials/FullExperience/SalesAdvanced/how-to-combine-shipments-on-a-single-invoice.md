@@ -28,7 +28,7 @@ If you want to invoice more than one shipment at a time, you can use the combine
   
 3.  In the **Sell-to Customer No.** field, enter the customer who will receive the invoice for the shipped items.  
   
-4.  On the **Lines** FastTab, choose **Actions**![Action Menu icon](../DesignAndEngineering/media/actionmenuicon.png "actionMenuIcon"), choose **Functions**, and then choose **Get Shipment Lines**.  
+4.  On the **Lines** FastTab, choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Functions**, and then choose **Get Shipment Lines**.  
   
 5.  Select the shipment line that you want to include in the invoice:  
   
@@ -77,11 +77,11 @@ If you want to invoice more than one shipment at a time, you can use the combine
 -   Choose the **OK** button.  
   
 ## See Also  
- [How to: Combine Receipts](../Finance/how-to-combine-receipts.md)   
- [How to: Combine Return Receipts](../Sales/how-to-combine-return-receipts.md)   
- [How to: Combine Return Shipments](../Purchasing/how-to-combine-return-shipments.md)   
- [Processing Sales Orders](../Sales/processing-sales-orders.md)   
+ [How to: Combine Receipts](../FullExperience/how-to-combine-receipts.md)   
+ [How to: Combine Return Receipts](../FullExperience/how-to-combine-return-receipts.md)   
+ [How to: Combine Return Shipments](../FullExperience/how-to-combine-return-shipments.md)   
+ [Processing Sales Orders](../FullExperience/processing-sales-orders.md)   
  Combine Shipments   
  Delete Invoiced Sales Orders   
  Delete Invd Blnkt Sales Orders   
- [Shipping](../Topic/Shipping.md)
+ [Shipping](../FullExperience/Shipping.md)

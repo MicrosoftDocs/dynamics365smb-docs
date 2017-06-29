@@ -40,7 +40,7 @@ You can update the calendar entries after making changes in the shop calendar. T
 >  Only existing calendar entries of the machine center are validated; therefore, the function cannot create new calendar entries.  
   
 ## See Also  
- [Shop Calendars](../OperationsPlanning/shop-calendars.md)   
- [How to: Enter Time Periods When Machine Centers Cannot Be Used](../Production/how-to-enter-time-periods-when-machine-centers-cannot-be-used.md)   
- [How to: Update Calendar Entries for Machine Centers](../OperationsPlanning/how-to-update-calendar-entries-for-machine-centers.md)   
- [How to: Recalculate Calendar Entries for Work Centers](../OperationsPlanning/how-to-recalculate-calendar-entries-for-work-centers.md)
+ [Shop Calendars](../FullExperience/shop-calendars.md)   
+ [How to: Enter Time Periods When Machine Centers Cannot Be Used](../FullExperience/how-to-enter-time-periods-when-machine-centers-cannot-be-used.md)   
+ [How to: Update Calendar Entries for Machine Centers](../FullExperience/how-to-update-calendar-entries-for-machine-centers.md)   
+ [How to: Recalculate Calendar Entries for Work Centers](../FullExperience/how-to-recalculate-calendar-entries-for-work-centers.md)

@@ -18,7 +18,7 @@
 # About Production Orders
 Production orders are used to manage the conversion of purchased materials into manufactured items. Production orders \(job or work orders\) route work through various facilities \(work or machine centers\) on the shop floor.  
   
- Before proceeding with production, most companies perform supply planning, typically once a week, to calculate how many production orders and purchase orders to execute to fulfill that week’s sales demand. Purchase orders supply the components that are required according to the production BOM to produce the end items. more information, see [Operations Planning](../OperationsPlanning/operations-planning.md) and [Purchasing](../Purchasing/purchasing.md).  
+ Before proceeding with production, most companies perform supply planning, typically once a week, to calculate how many production orders and purchase orders to execute to fulfill that week’s sales demand. Purchase orders supply the components that are required according to the production BOM to produce the end items. more information, see [Operations Planning](../FullExperience/purchasing.md).  
   
  Production orders are the central components of the program's manufacturing functionality and they contain the following information:  
   
@@ -142,7 +142,7 @@ Production orders are used to manage the conversion of purchased materials into 
 ### Material Consumption  
  The program offers a variety of options for how a manufacturing company might want to record material consumption. For example, material consumption may be recorded manually, which might be desirable if there are frequent component substitutions or greater than expected scrap.  
   
- Consumption of materials may be processed through the [Consumption Journal](../Topic/\($%20N_99000846%20Consumption%20Journal%20$\).md), but also may be recorded automatically by the program, known as automatic reporting. The reporting methods are:  
+ Consumption of materials may be processed through the [Consumption Journal](../FullExperience/\($%20N_99000846%20Consumption%20Journal%20$\).md), but also may be recorded automatically by the program, known as automatic reporting. The reporting methods are:  
   
 -   Manual  
   
@@ -224,7 +224,7 @@ Production orders are used to manage the conversion of purchased materials into 
 ### Production Output  
  The program provides you with the capability to track how much time is spent working on a Production Order, in addition to recording the quantity produced. This information can help you more accurately determine the costs of production. Also, manufacturers using a standard costing system may want to record actual information in order to help them develop better standards.  
   
- Output may be processed through the [Output Journal](../Production/-$-n_99000823-output-journal-$-.md), but also may be recorded automatically by the program. The program copies the flushing method from the Machine Center or Work Center card to the Production Order Routing when refreshing. As with material consumption, there are three reporting methods for output:  
+ Output may be processed through the [Output Journal](../FullExperience/-$-n_99000823-output-journal-$-.md), but also may be recorded automatically by the program. The program copies the flushing method from the Machine Center or Work Center card to the Production Order Routing when refreshing. As with material consumption, there are three reporting methods for output:  
   
 -   Manual  
   
@@ -279,7 +279,7 @@ Production orders are used to manage the conversion of purchased materials into 
  In the Production Journal, Consumption Quantities are posted as negative Item Ledger Entries, Output Quantities are posted as positive ledger entries, and times spent are posted as Capacity Ledger Entries.  
   
 ## See Also  
- [How to: Run MPS and MRP](../OperationsPlanning/how-to-run-mps-and-mrp.md)   
- [How to: Create Production Orders from Sales Orders](../OperationsPlanning/how-to-create-production-orders-from-sales-orders.md)   
- [How to: Plan for New Demand](../OperationsPlanning/how-to-plan-for-new-demand.md)   
+ [How to: Run MPS and MRP](../FullExperience/how-to-run-mps-and-mrp.md)   
+ [How to: Create Production Orders from Sales Orders](../FullExperience/how-to-create-production-orders-from-sales-orders.md)   
+ [How to: Plan for New Demand](../FullExperience/how-to-plan-for-new-demand.md)   
  Production Order Statistics

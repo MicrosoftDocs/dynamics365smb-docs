@@ -30,7 +30,7 @@ Forecasting functionality is used to create anticipated demand; actual demand is
  In most cases, then, the production planner modifies the sales forecast to fit the conditions of production, yet still satisfies the sales forecast.  
   
 ## Creating Forecasts  
- [Forecasts are created](../OperationsPlanning/how-to-create-a-forecast.md) manually using the **Production Forecast.** Multiple forecasts can exist in the system, and are differentiated by name and type. Forecasts can be copied and edited as necessary. Note that only one forecast is valid for planning purposes at a time.  
+ [Forecasts are created](../FullExperience/how-to-create-a-forecast.md) manually using the **Production Forecast.** Multiple forecasts can exist in the system, and are differentiated by name and type. Forecasts can be copied and edited as necessary. Note that only one forecast is valid for planning purposes at a time.  
   
  The forecast consists of a number of records each stating item number, forecast date, and forecasted quantity. The forecast of an item covers a period, which is defined by the forecast date and the forecast date of the next \(later\) forecast record. From a planning point of view, the forecasted quantity should be available at the start of the demand period.  
   
@@ -45,12 +45,12 @@ Forecasting functionality is used to create anticipated demand; actual demand is
  The forecast period is valid from its starting date until the date the next forecast starts. The time interval window gives you multiple choices to insert the demand at a specific date in a period. It is therefore recommended not to change the forecast period scope unless you want to move all forecast entries to the starting date of this period.  
   
 ### Forecast by Locations  
- It can be stated in the manufacturing setup if [forecasts on locations are to be limited to each location](../Topic/\($%20T_99000765_37%20Use%20Forecast%20on%20Locations%20$\).md). Note, though, that if location-based forecasts are viewed in isolation, the overall forecast may not be representative.  
+ It can be stated in the manufacturing setup if [forecasts on locations are to be limited to each location](../FullExperience/\($%20T_99000765_37%20Use%20Forecast%20on%20Locations%20$\).md). Note, though, that if location-based forecasts are viewed in isolation, the overall forecast may not be representative.  
   
 ## See Also  
- [How to: Run MPS and MRP](../OperationsPlanning/how-to-run-mps-and-mrp.md)   
- [How to: Create Production Orders from Sales Orders](../OperationsPlanning/how-to-create-production-orders-from-sales-orders.md)   
+ [How to: Run MPS and MRP](../FullExperience/how-to-run-mps-and-mrp.md)   
+ [How to: Create Production Orders from Sales Orders](../FullExperience/how-to-create-production-orders-from-sales-orders.md)   
  Order Planning   
- [How to: Plan for New Demand](../OperationsPlanning/how-to-plan-for-new-demand.md)   
- [How to: Plan Project Orders](../OperationsPlanning/how-to-plan-project-orders.md)   
- [Production Forecast-duplicate](../Topic/\($%20N_99000919%20Production%20Forecast%20$\)-duplicate.md)
+ [How to: Plan for New Demand](../FullExperience/how-to-plan-for-new-demand.md)   
+ [How to: Plan Project Orders](../FullExperience/how-to-plan-project-orders.md)   
+ [Production Forecast-duplicate](../FullExperience/\($%20N_99000919%20Production%20Forecast%20$\)-duplicate.md)

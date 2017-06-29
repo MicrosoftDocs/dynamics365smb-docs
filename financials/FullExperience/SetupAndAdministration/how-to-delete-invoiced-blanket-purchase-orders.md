@@ -27,6 +27,6 @@ Blanket purchase orders are not deleted after you have processed and invoiced al
 3.  Choose the **OK** button.  
   
 ## See Also  
- [How to: Delete Invoiced Purchase Orders](../Purchasing/how-to-delete-invoiced-purchase-orders.md)   
- [How to: Create Blanket Purchase Orders](../Purchasing/how-to-create-blanket-purchase-orders.md)   
- [How to: Delete Invoiced Purchase Return Orders](../SetupAndAdministration/how-to-delete-invoiced-purchase-return-orders.md)
+ [How to: Delete Invoiced Purchase Orders](../FullExperience/how-to-delete-invoiced-purchase-orders.md)   
+ [How to: Create Blanket Purchase Orders](../FullExperience/how-to-create-blanket-purchase-orders.md)   
+ [How to: Delete Invoiced Purchase Return Orders](../FullExperience/how-to-delete-invoiced-purchase-return-orders.md)

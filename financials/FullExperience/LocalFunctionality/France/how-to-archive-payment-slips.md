@@ -48,16 +48,16 @@ When a payment slip has been processed, you can separate it from the active paym
      The payment slips are archived.  
   
     > [!NOTE]  
-    >  This batch job will only archive payment slips that have the **Archiving Authorized** check box selected in the **Payment Status** window. For more information, see [How to: Set Up Payment Statuses](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-set-up-payment-statuses.md).  
+    >  This batch job will only archive payment slips that have the **Archiving Authorized** check box selected in the **Payment Status** window. For more information, see [How to: Set Up Payment Statuses](../FullExperience/how-to-set-up-payment-statuses.md).  
   
 ## See Also  
- [Payment Management](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/payment-management.md)   
- [How to: Set Up Payment Classes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-set-up-payment-classes.md)   
- [How to: Set Up Payment Statuses](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-set-up-payment-statuses.md)   
- [How to: Set Up Payment Steps](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-set-up-payment-steps.md)   
- [How to: Set Up Payment Addresses](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-set-up-payment-addresses.md)   
- [How to: Create Payment Slips](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-create-payment-slips.md)   
- [How to: Post Payment Slips](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-post-payment-slips.md)   
+ [Payment Management](../FullExperience/payment-management.md)   
+ [How to: Set Up Payment Classes](../FullExperience/how-to-set-up-payment-classes.md)   
+ [How to: Set Up Payment Statuses](../FullExperience/how-to-set-up-payment-statuses.md)   
+ [How to: Set Up Payment Steps](../FullExperience/how-to-set-up-payment-steps.md)   
+ [How to: Set Up Payment Addresses](../FullExperience/how-to-set-up-payment-addresses.md)   
+ [How to: Create Payment Slips](../FullExperience/how-to-create-payment-slips.md)   
+ [How to: Post Payment Slips](../FullExperience/how-to-post-payment-slips.md)   
  Archiving Authorized   
  Payment Status   
  Payment Status   

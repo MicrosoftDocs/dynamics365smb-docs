@@ -35,9 +35,9 @@ After you have tested the data, you can start the consolidation. This means that
 7.  Choose the **OK** button to start the import.  
   
 ## See Also  
- [How to: Consolidate from Files](../Finance/how-to-consolidate-from-files.md)   
- [How to: Process Consolidations](../Finance/how-to-process-consolidations.md)   
- [How to: Test Databases Before Consolidating](../Finance/how-to-test-databases-before-consolidating.md)   
- [How to: Test Files Before Consolidating](../Finance/how-to-test-files-before-consolidating.md)   
- [How to: Enter Basic Information for Consolidated Companies](../Finance/how-to-enter-basic-information-for-consolidated-companies.md)   
+ [How to: Consolidate from Files](../FullExperience/how-to-consolidate-from-files.md)   
+ [How to: Process Consolidations](../FullExperience/how-to-process-consolidations.md)   
+ [How to: Test Databases Before Consolidating](../FullExperience/how-to-test-databases-before-consolidating.md)   
+ [How to: Test Files Before Consolidating](../FullExperience/how-to-test-files-before-consolidating.md)   
+ [How to: Enter Basic Information for Consolidated Companies](../FullExperience/how-to-enter-basic-information-for-consolidated-companies.md)   
  Dimension

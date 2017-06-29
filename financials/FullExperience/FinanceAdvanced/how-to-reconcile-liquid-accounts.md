@@ -32,5 +32,5 @@ For each account included in a reconciliation, the net sum of all amounts on the
 >  If you print a test report before posting, a reconciliation appears at the end of the report.  
   
 ## See Also  
- [How to: Mark General Ledger Accounts for Reconciliation](../Finance/how-to-mark-general-ledger-accounts-for-reconciliation.md)   
- [How to: Fill and Post General Journals](../Finance/how-to-fill-and-post-general-journals.md)
+ [How to: Mark General Ledger Accounts for Reconciliation](../FullExperience/how-to-mark-general-ledger-accounts-for-reconciliation.md)   
+ [How to: Fill and Post General Journals](../FullExperience/how-to-fill-and-post-general-journals.md)

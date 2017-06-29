@@ -23,4 +23,4 @@ A blanket purchase order represents a framework for an agreement between you and
  An example of when a Blanket Purchase Order could be used is when you have a standing order with your vendor to purchase 100 units of an item every month for a year.  
   
 ## See Also  
- [How to: Create Blanket Purchase Orders](../Purchasing/how-to-create-blanket-purchase-orders.md)
+ [How to: Create Blanket Purchase Orders](../FullExperience/how-to-create-blanket-purchase-orders.md)

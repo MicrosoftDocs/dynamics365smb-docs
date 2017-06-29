@@ -44,9 +44,9 @@ If the resource allocated to a service task cannot accomplish the work, it means
 8.  Repeat these steps for each service task you want to reallocate.  
   
 ## See Also  
- [Allocation Status and Repair Status](../Service/allocation-status-and-repair-status.md)   
- [How to: Allocate Resources by Using Service Orders](../Service/how-to-allocate-resources-by-using-service-orders.md)   
- [How to: Allocate Resources by Using the Dispatch Board](../Service/how-to-allocate-resources-by-using-the-dispatch-board.md)   
- [How to: Cancel Allocations](../Service/how-to-cancel-allocations.md)   
- [How to: Reallocate Resources by Using Service Orders](../Service/how-to-reallocate-resources-by-using-service-orders.md)   
- [How to: Use the Dispatch Board](../Service/how-to-use-the-dispatch-board.md)
+ [Allocation Status and Repair Status](../FullExperience/allocation-status-and-repair-status.md)   
+ [How to: Allocate Resources by Using Service Orders](../FullExperience/how-to-allocate-resources-by-using-service-orders.md)   
+ [How to: Allocate Resources by Using the Dispatch Board](../FullExperience/how-to-allocate-resources-by-using-the-dispatch-board.md)   
+ [How to: Cancel Allocations](../FullExperience/how-to-cancel-allocations.md)   
+ [How to: Reallocate Resources by Using Service Orders](../FullExperience/how-to-reallocate-resources-by-using-service-orders.md)   
+ [How to: Use the Dispatch Board](../FullExperience/how-to-use-the-dispatch-board.md)

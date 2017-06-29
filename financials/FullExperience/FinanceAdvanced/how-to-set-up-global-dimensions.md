@@ -16,7 +16,7 @@
 
     ---
 # How to: Set Up Global Dimensions
-A global dimension is a dimension that you can use as a filter anywhere in ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]-->. You can set up two dimensions as global dimensions. Choose the two dimensions that you will use most frequently in your reports. You can, however, use any dimension as a filter in the **Analysis by Dimensions** window.  
+A global dimension is a dimension that you can use as a filter anywhere in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->. You can set up two dimensions as global dimensions. Choose the two dimensions that you will use most frequently in your reports. You can, however, use any dimension as a filter in the **Analysis by Dimensions** window.  
   
 > [!IMPORTANT]  
 >  Changing a global dimension requires that the program makes changes to all the entries posted using that dimension. This can take some time. To avoid having to make such a change, you should choose your global dimensions carefully.  
@@ -32,7 +32,7 @@ A global dimension is a dimension that you can use as a filter anywhere in ADD I
 4.  View the global dimensions on the **Dimensions** FastTab.  
   
 ## See Also  
- [How to: Set Up Shortcut Dimensions](../Finance/how-to-set-up-shortcut-dimensions.md)   
+ [How to: Set Up Shortcut Dimensions](../FullExperience/how-to-set-up-shortcut-dimensions.md)   
  Default Dimension   
  Dimension   
  Analysis by Dimensions

@@ -22,10 +22,10 @@ A central role, such as the application administrator, must regularly deal with 
   
 |**To**|**See**|  
 |------------|-------------|  
-|Delete documents|[Delete Documents](../SetupAndAdministration/delete-documents.md)|  
-|Delete documents by running batch jobs.|[Delete Documents with Batch Jobs](../SetupAndAdministration/delete-documents-with-batch-jobs.md)|  
-|Compress or combine entries so that they take up less space in the database.|[Date Compress with Batch Jobs](../SetupAndAdministration/date-compress-with-batch-jobs.md)|  
+|Delete documents|[Delete Documents](../FullExperience/delete-documents.md)|  
+|Delete documents by running batch jobs.|[Delete Documents with Batch Jobs](../FullExperience/delete-documents-with-batch-jobs.md)|  
+|Compress or combine entries so that they take up less space in the database.|[Date Compress with Batch Jobs](../FullExperience/date-compress-with-batch-jobs.md)|  
   
 ## See Also  
- [How to: Delete Fixed Assets](../Finance/how-to-delete-fixed-assets.md)   
- [How to: Delete Insurance Cards](../Finance/how-to-delete-insurance-cards.md)
+ [How to: Delete Fixed Assets](../FullExperience/how-to-delete-fixed-assets.md)   
+ [How to: Delete Insurance Cards](../FullExperience/how-to-delete-insurance-cards.md)

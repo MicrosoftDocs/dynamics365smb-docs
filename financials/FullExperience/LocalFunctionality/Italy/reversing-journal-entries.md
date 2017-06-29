@@ -28,4 +28,4 @@ Controls have been added to the **Reverse Transaction Entries** window to comply
   
 ## See Also  
  Reverse Transaction Entries   
- [Italy Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/italy-local-functionality.md)
+ [Italy Local Functionality](../FullExperience/italy-local-functionality.md)

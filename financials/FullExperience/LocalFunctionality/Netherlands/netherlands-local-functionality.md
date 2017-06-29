@@ -16,14 +16,14 @@
 
     ---
 # Netherlands Local Functionality
-The following topics describe the local functionality in the Dutch version of ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->.  
+The following topics describe the local functionality in the Dutch version of ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
   
 ## In This Section  
- [What's New-duplicate 10](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/what-s-new-duplicate-10.md)  
-  [CMR Notes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/cmr-notes.md)  
-  [Dutch Electronic Banking](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/dutch-electronic-banking.md)  
-  [Electronic Tax Declarations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/electronic-tax-declarations.md)  
-  [General Ledger-duplicate](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/general-ledger-duplicate.md)  
-  [Payables and Receivables](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/payables-and-receivables.md)  
-  [Single EURO Payments Area \(SEPA\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/single-euro-payments-area-sepa-.md)  
-  [Dutch Work in Progress Accounts](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/dutch-work-in-progress-accounts.md)
+ [What's New-duplicate 10](../FullExperience/what-s-new-duplicate-10.md)  
+  [CMR Notes](../FullExperience/cmr-notes.md)  
+  [Dutch Electronic Banking](../FullExperience/dutch-electronic-banking.md)  
+  [Electronic Tax Declarations](../FullExperience/electronic-tax-declarations.md)  
+  [General Ledger-duplicate](../FullExperience/general-ledger-duplicate.md)  
+  [Payables and Receivables](../FullExperience/payables-and-receivables.md)  
+  [Single EURO Payments Area \(SEPA\)](../FullExperience/single-euro-payments-area-sepa-.md)  
+  [Dutch Work in Progress Accounts](../FullExperience/dutch-work-in-progress-accounts.md)

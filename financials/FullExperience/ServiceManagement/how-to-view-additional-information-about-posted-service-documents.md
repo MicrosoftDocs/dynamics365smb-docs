@@ -33,5 +33,5 @@ When you post a service invoice, a service shipment, or a service credit memo, t
  After a period of time, you may have a large amount of outdated information in these windows. To save space in the database, you can delete the documents you have already printed.  
   
 ## See Also  
- [How to: Delete Invoiced Service Orders](../Service/how-to-delete-invoiced-service-orders.md)   
- [Service Statistics for Posted Documents](../Service/service-statistics-for-posted-documents.md)
+ [How to: Delete Invoiced Service Orders](../FullExperience/how-to-delete-invoiced-service-orders.md)   
+ [Service Statistics for Posted Documents](../FullExperience/service-statistics-for-posted-documents.md)

@@ -16,17 +16,17 @@
 
     ---
 # How to: Create Journal Opening Balances
-ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> includes several batch jobs that are provided to help in the transfer of legacy account balances to a newly configured company. You can easily transfer this data for the customer journal, the vendor journal, the item journal, and the G\/L journal. The first step is to create a configuration package that includes the setup tables for those journals. The following procedure assumes that this step is completed. The procedure describes the subsequent steps, which include applying the package that is provided by a partner.  
+ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> includes several batch jobs that are provided to help in the transfer of legacy account balances to a newly configured company. You can easily transfer this data for the customer journal, the vendor journal, the item journal, and the G\/L journal. The first step is to create a configuration package that includes the setup tables for those journals. The following procedure assumes that this step is completed. The procedure describes the subsequent steps, which include applying the package that is provided by a partner.  
   
- Before you start, make sure that you are on the RapidStart Services Role Center page. It provides the correct context for your configuration work. To change your Role Center home page, see [How to: Change Role Centers](../GettingStarted/how-to-change-role-centers.md). Choose the RapidStart Profile ID.  
+ Before you start, make sure that you are on the RapidStart Services Role Center page. It provides the correct context for your configuration work. To change your Role Center home page, see [How to: Change Role Centers](../FullExperience/how-to-change-role-centers.md). Choose the RapidStart Profile ID.  
   
 ### To apply the entries in a journal to a new company  
   
-1.  Configure a new company and apply a configuration package to it. For more information, see [How to: Configure a Company with the RapidStart Wizard](../SetupAndAdministration/how-to-configure-a-company-with-the-rapidstart-wizard.md).  
+1.  Configure a new company and apply a configuration package to it. For more information, see [How to: Configure a Company with the RapidStart Wizard](../FullExperience/how-to-configure-a-company-with-the-rapidstart-wizard.md).  
   
      The new company does not contain information about journal opening balances.  
   
-2.  Open the configuration worksheet, and import existing data about customers, items, vendors, and the general ledger. For more information, see [How to: Migrate Customer Data](../SetupAndAdministration/how-to-migrate-customer-data.md) and [How to: Import Customer Data](../SetupAndAdministration/how-to-import-customer-data.md).  
+2.  Open the configuration worksheet, and import existing data about customers, items, vendors, and the general ledger. For more information, see [How to: Migrate Customer Data](../FullExperience/how-to-import-customer-data.md).  
   
 3.  On the **Report** tab, in the **Create** group, choose the appropriate batch job, for example, **Create G\/L Journal Lines**.  
   
@@ -45,9 +45,9 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]-->
  You can use this procedure to import journal information for each journal type.  
   
 ## See Also  
- [Use Templates to Prepare Customer Data for Migration](../SetupAndAdministration/use-templates-to-prepare-customer-data-for-migration.md)   
+ [Use Templates to Prepare Customer Data for Migration](../FullExperience/use-templates-to-prepare-customer-data-for-migration.md)   
  Create Item Journal Lines   
  Create Customer Journal Lines   
  Create Vendor Journal Lines   
  Create G-L Acc. Journal Lines   
- [Tips and Tricks: RapidStart Services](../SetupAndAdministration/tips-and-tricks-rapidstart-services.md)
+ [Tips and Tricks: RapidStart Services](../FullExperience/tips-and-tricks-rapidstart-services.md)

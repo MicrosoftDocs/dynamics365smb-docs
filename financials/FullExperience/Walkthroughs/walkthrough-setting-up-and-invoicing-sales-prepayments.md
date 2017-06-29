@@ -16,7 +16,7 @@
 
     ---
 # Walkthrough: Setting Up and Invoicing Sales Prepayments
-Prepayments are payments that are invoiced and posted to a sales or purchase prepayment order before final invoicing. You may require a deposit before you manufacture items to order, or you may require payment before you ship items to a customer. You use the prepayments functionality in ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> to invoice and collect deposits that are required from customers or remit deposits to vendors. Thus, you can make sure that all payments are posted against an invoice.  
+Prepayments are payments that are invoiced and posted to a sales or purchase prepayment order before final invoicing. You may require a deposit before you manufacture items to order, or you may require payment before you ship items to a customer. You use the prepayments functionality in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> to invoice and collect deposits that are required from customers or remit deposits to vendors. Thus, you can make sure that all payments are posted against an invoice.  
   
  Prepayment requirements can be defined for a customer or vendor for all items or selected items. After you complete the required setup, you can generate prepayment invoices from sales and purchase orders for the calculated prepayment amount. You can change the default amounts on the invoice as needed. For example, you can send additional prepayment invoices if additional items are added to the order.  
   
@@ -45,7 +45,7 @@ Prepayments are payments that are invoiced and posted to a sales or purchase pre
 -   Accounts Receivable Administrator \(Arnie\)  
   
 ## Story  
- Phyllis is an accounting manager. She makes decisions about which customers are required to pay a deposit before items are manufactured or shipped. Phyllis sets up ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> to calculate prepayments automatically.  
+ Phyllis is an accounting manager. She makes decisions about which customers are required to pay a deposit before items are manufactured or shipped. Phyllis sets up ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> to calculate prepayments automatically.  
   
  Susan is a sales order processor. When a customer calls to place an order, she enters the order into the system while the customer is on the telephone. This way, she can verify prices and payment terms with the customer immediately, and she can make adjustments to the order while she negotiates with the customer.  
   
@@ -160,7 +160,7 @@ Prepayments are payments that are invoiced and posted to a sales or purchase pre
   
      By default, the prepayment fields on the sales line are hidden, so you must display them.  
   
-7.  On **Lines** FastTab, on the toolbar, choose **Actions**![Actions](../GettingStarted/media/actionsicon.png "ActionsIcon"), and then choose **Choose Columns**.  
+7.  On **Lines** FastTab, on the toolbar, choose **Actions**![Actions](../FullExperience/media/actionsicon.png "ActionsIcon"), and then choose **Choose Columns**.  
   
 8.  Add the following fields: **Prepayment %**, **Prepayment Line Amount Excl. VAT**, and **Prepmt. Amt. Inv. Excl. VAT**.  
   
@@ -172,7 +172,7 @@ Prepayments are payments that are invoiced and posted to a sales or purchase pre
   
      The **Prepayment %** field on the line with item **1100** contains **40**. This is the percentage you entered in the **Sales Prepayment Percentages** window for item **1100** and customer **20000**.  
   
-     For more information, see [How to: Define Prepayment Percentages](../Purchasing/how-to-define-prepayment-percentages.md).  
+     For more information, see [How to: Define Prepayment Percentages](../FullExperience/how-to-define-prepayment-percentages.md).  
   
 11. On the **Navigate** tab, in the **Order** group, choose **Statistics**.  
   
@@ -266,11 +266,11 @@ Prepayments are payments that are invoiced and posted to a sales or purchase pre
 -   In the **Search** box, enter **Posted Sales Invoices**, and then choose the related link.  
   
 ## Next Steps  
- This walkthrough has taken you through steps to set up ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> to handle prepayments. You have set up default prepayment percentages on customers and items, and you have also used different methods to calculate the prepayments on an order. You have tried to assign one total prepayment amount to the order, and you have had the prepayment amount calculated as a percentage of the whole order.  
+ This walkthrough has taken you through steps to set up ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> to handle prepayments. You have set up default prepayment percentages on customers and items, and you have also used different methods to calculate the prepayments on an order. You have tried to assign one total prepayment amount to the order, and you have had the prepayment amount calculated as a percentage of the whole order.  
   
  You have also posted a prepayment invoice, created a second prepayment invoice when the order has changed, and posted the final invoice for the remaining amount.  
   
- The prepayments functionality in ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> makes it easy to set up and enforce prepayment rules for customers and items, and it enables you to post every payment against an invoice.  
+ The prepayments functionality in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> makes it easy to set up and enforce prepayment rules for customers and items, and it enables you to post every payment against an invoice.  
   
 ## See Also  
- [Business Process Walkthroughs](../GettingStarted/business-process-walkthroughs.md)
+ [Business Process Walkthroughs](../FullExperience/business-process-walkthroughs.md)

@@ -33,7 +33,7 @@ After you use the **Close Income Statement** batch job to generate the year-end 
  Once posted, an entry is posted to each income statement account so that its balance becomes zero and the year's result is transferred to the balance sheet.  
   
 ## See Also  
- [Year End Processes Overview](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/year-end-processes-overview.md)   
- [How to: Close Years](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-close-years.md)   
- [How to: Fiscally Close Years](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-fiscally-close-years.md)   
+ [Year End Processes Overview](../FullExperience/year-end-processes-overview.md)   
+ [How to: Close Years](../FullExperience/how-to-close-years.md)   
+ [How to: Fiscally Close Years](../FullExperience/how-to-fiscally-close-years.md)   
  Close Income Statement

@@ -16,7 +16,7 @@
 
     ---
 # How to: Set Up Reports for VAT and Intrastat
-In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you can specify which reports to use to create the documents that you must submit to the authorities, such as the VAT statement and the Intrastat form.  
+In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can specify which reports to use to create the documents that you must submit to the authorities, such as the VAT statement and the Intrastat form.  
   
 ### To set up reports for VAT  
   
@@ -26,7 +26,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
   
 3.  Specify the report or batch job that must run when a user starts the activity for the document type that you specified in the **Usage** field. Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Sequence**|Specifies where a report is in the printing order.|  
     |**Report ID**|Specifies the ID of the report that prints for this document type.|  
@@ -42,7 +42,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
   
 3.  Specify the report or batch job that must run when a user starts the activity for the document type that you specified in the **Usage** field. Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Sequence**|Specifies where a report is in the printing order.|  
     |**Report ID**|Specifies the ID of the report that prints for this document type.|  
@@ -51,8 +51,8 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
 4.  Choose the **OK** button.  
   
 ## See Also  
- [How to: Print VAT Reports-duplicate](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-print-vat-reports-duplicate.md)   
- [How to: Export and Print Intrastat Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-export-and-print-intrastat-reports.md)   
+ [How to: Print VAT Reports-duplicate](../FullExperience/how-to-print-vat-reports-duplicate.md)   
+ [How to: Export and Print Intrastat Reports](../FullExperience/how-to-export-and-print-intrastat-reports.md)   
  Report Selection - VAT   
  Report Selection - Intrastat   
  DACH Report Selections   

@@ -36,7 +36,7 @@ Código Cuenta Cliente \(CCC\) is a unique account code used by banks to identif
   
 2.  On the **Payments** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|Position|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|--------------|---------------------------------------|  
     |**CCC Bank No.**|1-4|Identifies the bank where the account has been opened.|  
     |**CCC Bank Branch No.**|5-8|Identifies the branch code. If the bank does not use this reference, the branch code can be zeros.|  
@@ -57,7 +57,7 @@ Código Cuenta Cliente \(CCC\) is a unique account code used by banks to identif
 3.  Choose the **OK** button.  
   
 ## See Also  
- [How to: Enter Company Information](../../Finance/how-to-enter-company-information.md)   
- [How to: Set Up Bank Accounts](../../Finance/how-to-set-up-bank-accounts.md)   
+ [How to: Enter Company Information](../FullExperience/how-to-enter-company-information.md)   
+ [How to: Set Up Bank Accounts](../FullExperience/how-to-set-up-bank-accounts.md)   
  Customer Bank Account Card   
- [How to: Set Up Vendor Bank Accounts](../../Purchasing/how-to-set-up-vendor-bank-accounts.md)
+ [How to: Set Up Vendor Bank Accounts](../FullExperience/how-to-set-up-vendor-bank-accounts.md)

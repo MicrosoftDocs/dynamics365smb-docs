@@ -22,7 +22,7 @@ Before you can start to use the electronic banking functionality for CODA statem
   
 -   Version code  
   
--   IBLC\/BLWI codes - For more information, see [How to: Set Up IBLC-BLWI Transaction Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-iblc-blwi-transaction-codes.md).  
+-   IBLC\/BLWI codes - For more information, see [How to: Set Up IBLC-BLWI Transaction Codes](../FullExperience/how-to-set-up-iblc-blwi-transaction-codes.md).  
   
 ### To set up protocol numbers and version codes  
   
@@ -32,7 +32,7 @@ Before you can start to use the electronic banking functionality for CODA statem
   
 3.  On the **Posting** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Protocol No.**|Enter the protocol number that is used by the CODA system to import coded bank account statements.|  
     |**Version Code**|Enter the version code used by the CODA system to import coded bank account statements.|  
@@ -40,6 +40,6 @@ Before you can start to use the electronic banking functionality for CODA statem
 4.  Choose the **OK** button.  
   
 ## See Also  
- [CODA Bank Statements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/coda-bank-statements.md)   
- [How to: Set Up IBLC-BLWI Transaction Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-iblc-blwi-transaction-codes.md)   
- [How to: Import CODA Statements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-import-coda-statements.md)
+ [CODA Bank Statements](../FullExperience/coda-bank-statements.md)   
+ [How to: Set Up IBLC-BLWI Transaction Codes](../FullExperience/how-to-set-up-iblc-blwi-transaction-codes.md)   
+ [How to: Import CODA Statements](../FullExperience/how-to-import-coda-statements.md)

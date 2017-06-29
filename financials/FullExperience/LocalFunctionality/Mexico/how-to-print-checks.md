@@ -16,23 +16,23 @@
 
     ---
 # How to: Print Checks
-In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you can use the print check option to manage check payments to vendors or refunds to customers. This option lets you generate electronic payments.  
+In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can use the print check option to manage check payments to vendors or refunds to customers. This option lets you generate electronic payments.  
   
- For more information about check layouts, see [How to: Define Check Layouts](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-define-check-layouts.md).  
+ For more information about check layouts, see [How to: Define Check Layouts](../FullExperience/how-to-define-check-layouts.md).  
   
 ### To print checks  
   
 1.  In the **Search** box, enter **Payment Journals**, and then choose the related link.  
   
-2.  In the **Payment Journal** window, fill in the payment journal lines. Either enter the lines manually or on the **Navigate** tab, in the **Payments** groups, choose **Suggest Vendor Payments**. For more information, see [How to: Generate Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-generate-electronic-payments.md).  
+2.  In the **Payment Journal** window, fill in the payment journal lines. Either enter the lines manually or on the **Navigate** tab, in the **Payments** groups, choose **Suggest Vendor Payments**. For more information, see [How to: Generate Electronic Payments](../FullExperience/how-to-generate-electronic-payments.md).  
   
 3.  In the payment journal line, select the **Bank Payment Type**. Use the following table to determine the bank payment type that you want to use to manage check payments.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_optionsheading](../../DesignAndEngineering/includes/bp_optionsheading_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_optionsheading](../../includes/bp_tabledescription_md.md)]-->|  
     |-------------------------------------|---------------------------------------|  
     |**\<Blank\>**|Select this option if you do not want to create a check. This is the default option.|  
     |**Computer Check**|Select this option if you want to print a check for the amount on the payment journal line. You must print the checks before you can post the journal lines. You can only select **Computer Check** if the **Bal. Account Type** or the **Account Type** is **Bank Account**.|  
-    |**Manual Check**|Select this option if you have created a check manually and want to create a corresponding check ledger entry for this amount. By using this option, you cannot print checks from ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->. You can only select **Manual Check** if the **Bal. Account Type** or the **Account Type** is **Bank Account**.|  
+    |**Manual Check**|Select this option if you have created a check manually and want to create a corresponding check ledger entry for this amount. By using this option, you cannot print checks from ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->. You can only select **Manual Check** if the **Bal. Account Type** or the **Account Type** is **Bank Account**.|  
     |**Electronic Payment**|Select this option if you want to export this payment, together with other payments, to a file and then transmit that file to your bank. This will allow your bank to electronically transfer the payments from your bank account to the payee's bank account. By using this option, you must export and then transmit the journal lines before you can post. You can only select **Electronic Payment** if the **Bal. Account Type** or the **Account Type** is **Bank Account**, **Vendor**, or **Customer**.|  
     |**Electronic Payment-IAT**|Select this option to export electronic payments using the International ACH Transaction \(IAT\) file format. This file format is required if a payment transaction includes financial agencies outside the United States. By using this option, you must export and then transmit the journal lines before you can post. You can only select **Electronic Payment-IAT** if the **Bal. Account Type** or the **Account Type** is **Bank Account**, **Vendor**, or **Customer**.|  
   
@@ -59,7 +59,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
 2.  After the journal lines have been printed, exported, transmitted, or posted, check ledger entries are created in the Check Ledger Entry table.  
   
 ## See Also  
- [Electronic Payments for United States, Canada, and Mexico](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/electronic-payments-for-united-states-canada-and-mexico.md)   
+ [Electronic Payments for United States, Canada, and Mexico](../FullExperience/electronic-payments-for-united-states-canada-and-mexico.md)   
  Export Electronic Payments   
- [How to: Define Check Layouts](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-define-check-layouts.md)   
- [How to: Generate Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-generate-electronic-payments.md)
+ [How to: Define Check Layouts](../FullExperience/how-to-define-check-layouts.md)   
+ [How to: Generate Electronic Payments](../FullExperience/how-to-generate-electronic-payments.md)

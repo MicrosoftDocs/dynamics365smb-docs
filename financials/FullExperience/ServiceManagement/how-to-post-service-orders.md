@@ -49,12 +49,12 @@ When you have created a service order, filled in all the necessary information a
  When posting the order, the corresponding ledger entries and posted documents are created. The relevant fields are updated in the service order document.  
   
 ## See Also  
- [How to: Batch Post Service Orders](../Service/how-to-batch-post-service-orders.md)   
- [How to: Post Service Lines](../Service/how-to-post-service-lines.md)   
- [How to: Prepare Service Line Items for Warehouse Handling](../Service/how-to-prepare-service-line-items-for-warehouse-handling.md)   
- [How to: Post Shipments from Service Orders](../Service/how-to-post-shipments-from-service-orders.md)   
- [How to: Post Invoices from Service Orders](../Service/how-to-post-invoices-from-service-orders.md)   
- [How to: Post Consumption from Service Orders](../Service/how-to-post-consumption-from-service-orders.md)   
- [How to: Check Service Orders Before Posting Them](../Service/how-to-check-service-orders-before-posting-them.md)   
- [How to: Invoice Service Contracts](../Finance/how-to-invoice-service-contracts.md)   
- [How to: Print Test Reports Before Posting Service Documents](../Service/how-to-print-test-reports-before-posting-service-documents.md)
+ [How to: Batch Post Service Orders](../FullExperience/how-to-batch-post-service-orders.md)   
+ [How to: Post Service Lines](../FullExperience/how-to-post-service-lines.md)   
+ [How to: Prepare Service Line Items for Warehouse Handling](../FullExperience/how-to-prepare-service-line-items-for-warehouse-handling.md)   
+ [How to: Post Shipments from Service Orders](../FullExperience/how-to-post-shipments-from-service-orders.md)   
+ [How to: Post Invoices from Service Orders](../FullExperience/how-to-post-invoices-from-service-orders.md)   
+ [How to: Post Consumption from Service Orders](../FullExperience/how-to-post-consumption-from-service-orders.md)   
+ [How to: Check Service Orders Before Posting Them](../FullExperience/how-to-check-service-orders-before-posting-them.md)   
+ [How to: Invoice Service Contracts](../FullExperience/how-to-invoice-service-contracts.md)   
+ [How to: Print Test Reports Before Posting Service Documents](../FullExperience/how-to-print-test-reports-before-posting-service-documents.md)

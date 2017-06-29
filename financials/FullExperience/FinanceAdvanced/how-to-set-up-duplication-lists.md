@@ -31,7 +31,7 @@ When you fill in journal lines to be posted to a depreciation book, you can dupl
 5.  Close the window.  
   
 ## See Also  
- [Set Up Depreciation](../Finance/set-up-depreciation.md)   
- [How to: Define Default Templates and Batches for Depreciation Books](../Finance/how-to-define-default-templates-and-batches-for-depreciation-books.md)   
- [How to: Post Entries to Different Depreciation Books](../Finance/how-to-post-entries-to-different-depreciation-books.md)   
- [Depreciate or Amortize Assets](../Finance/depreciate-or-amortize-assets.md)
+ [Set Up Depreciation](../FullExperience/set-up-depreciation.md)   
+ [How to: Define Default Templates and Batches for Depreciation Books](../FullExperience/how-to-define-default-templates-and-batches-for-depreciation-books.md)   
+ [How to: Post Entries to Different Depreciation Books](../FullExperience/how-to-post-entries-to-different-depreciation-books.md)   
+ [Depreciate or Amortize Assets](../FullExperience/depreciate-or-amortize-assets.md)

@@ -38,4 +38,4 @@ When you create a consumption journal or an output journal, and the warehouse lo
   
 ## See Also  
  Bins   
- [How to: Set Up Locations to Use Bins](../WarehouseActivities/how-to-set-up-locations-to-use-bins.md)
+ [How to: Set Up Locations to Use Bins](../FullExperience/how-to-set-up-locations-to-use-bins.md)

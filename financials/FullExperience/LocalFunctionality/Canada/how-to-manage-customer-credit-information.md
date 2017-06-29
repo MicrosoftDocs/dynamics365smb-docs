@@ -16,7 +16,7 @@
 
     ---
 # How to: Manage Customer Credit Information
-In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you can add comments to customer credit information. You can also hold and block customers with bad credit before shipping or invoicing occurs.  
+In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can add comments to customer credit information. You can also hold and block customers with bad credit before shipping or invoicing occurs.  
   
 ### To add comments to customer credit information  
   
@@ -26,7 +26,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
   
 3.  In the **Comment Sheet** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Date**|The date of the comment.|  
     |**Comment**|The comment about the customer. You can enter a maximum of 80 alphanumeric characters.|  
@@ -66,6 +66,6 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
   
 ## See Also  
  Customer - Order Summary   
- [United States Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedStates/united-states-local-functionality.md)   
- [Canada Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/canada-local-functionality.md)   
- [Mexico Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Mexico/mexico-local-functionality.md)
+ [United States Local Functionality](../FullExperience/united-states-local-functionality.md)   
+ [Canada Local Functionality](../FullExperience/canada-local-functionality.md)   
+ [Mexico Local Functionality](../FullExperience/mexico-local-functionality.md)

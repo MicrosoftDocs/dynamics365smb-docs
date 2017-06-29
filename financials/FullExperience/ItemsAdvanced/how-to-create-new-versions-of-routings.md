@@ -34,7 +34,7 @@ The version principle enables you to manage several versions of a routing. The s
   
 6.  To create operations lines, select the first blank link. Fill in the **Operation No.** field according to the sequence of operations. The operation lines are sorted in ascending order by operation numbers. To be able to make changes later, we recommend you to select adequate step widths.  
   
-     The **Next Operation No.** field refers to the following operation. The number of the operation can be entered directly. ADD INCLUDE<!--[!INCLUDE[bp_choose_columns](../DesignAndEngineering/includes/bp_choose_columns_md.md)]-->  
+     The **Next Operation No.** field refers to the following operation. The number of the operation can be entered directly. ADD INCLUDE<!--[!INCLUDE[bp_choose_columns](../../includes/bp_choose_columns_md.md)]-->  
   
      The correct sequence of operations is checked before setting the status to **Certified**.  
   
@@ -43,13 +43,13 @@ The version principle enables you to manage several versions of a routing. The s
  You can enter comments for each operation and assign tools, personnel, and quality measures in the same way as you do for routings.  
   
 ## See Also  
- [Purpose of the Routings](../DesignAndEngineering/purpose-of-the-routings.md)   
- [How to: Create Routings](../DesignAndEngineering/how-to-create-routings.md)   
- [How to: Copy Routing Versions](../DesignAndEngineering/how-to-copy-routing-versions.md)   
- [How to: Set Up Routing Link Codes](../DesignAndEngineering/how-to-set-up-routing-link-codes.md)   
- [How to: Enter Comments for Operations](../Production/how-to-enter-comments-for-operations.md)   
- [How to: Assign Tools to Operations](../Production/how-to-assign-tools-to-operations.md)   
- [How to: Assign Personnel to Operations](../Production/how-to-assign-personnel-to-operations.md)   
- [How to: Assign Quality Measures to Operations](../Production/how-to-assign-quality-measures-to-operations.md)   
- [How to: Set Up Machine Centers](../Production/how-to-set-up-machine-centers.md)   
- [How to: Set Up Work Centers](../Production/how-to-set-up-work-centers.md)
+ [Purpose of the Routings](../FullExperience/purpose-of-the-routings.md)   
+ [How to: Create Routings](../FullExperience/how-to-create-routings.md)   
+ [How to: Copy Routing Versions](../FullExperience/how-to-copy-routing-versions.md)   
+ [How to: Set Up Routing Link Codes](../FullExperience/how-to-set-up-routing-link-codes.md)   
+ [How to: Enter Comments for Operations](../FullExperience/how-to-enter-comments-for-operations.md)   
+ [How to: Assign Tools to Operations](../FullExperience/how-to-assign-tools-to-operations.md)   
+ [How to: Assign Personnel to Operations](../FullExperience/how-to-assign-personnel-to-operations.md)   
+ [How to: Assign Quality Measures to Operations](../FullExperience/how-to-assign-quality-measures-to-operations.md)   
+ [How to: Set Up Machine Centers](../FullExperience/how-to-set-up-machine-centers.md)   
+ [How to: Set Up Work Centers](../FullExperience/how-to-set-up-work-centers.md)

@@ -18,7 +18,7 @@
 # How to: Register Costs for Service Items
 When working on service items in service orders, you may need to register alternative cost for the service of specific service items. The following procedure shows how to register the cost in the **Service Item Worksheet** window.  
   
- If the service order requires a link between the service and service items, you can use the same procedure to register the cost in the **Service Lines** window, which you open by opening relevant service order first, and then choosing **Actions**![Action Menu icon](../DesignAndEngineering/media/actionmenuicon.png "actionMenuIcon"), choosing **Order**, and choosing **Service Lines**.  
+ If the service order requires a link between the service and service items, you can use the same procedure to register the cost in the **Service Lines** window, which you open by opening relevant service order first, and then choosing **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choosing **Order**, and choosing **Service Lines**.  
   
 ### To register costs for service items  
   
@@ -37,7 +37,7 @@ When working on service items in service orders, you may need to register altern
  Repeat these steps for each service cost you want to register.  
   
 ## See Also  
- [How to: Register Costs for Service Orders](../Service/how-to-register-costs-for-service-orders.md)   
- [How to: Insert Starting Fees for Service Items](../Service/how-to-insert-starting-fees-for-service-items.md)   
- [How to: Insert Travel Fees for Service Items](../Service/how-to-insert-travel-fees-for-service-items.md)   
- [How to: Set Up Service Costs](../Service/how-to-set-up-service-costs.md)
+ [How to: Register Costs for Service Orders](../FullExperience/how-to-register-costs-for-service-orders.md)   
+ [How to: Insert Starting Fees for Service Items](../FullExperience/how-to-insert-starting-fees-for-service-items.md)   
+ [How to: Insert Travel Fees for Service Items](../FullExperience/how-to-insert-travel-fees-for-service-items.md)   
+ [How to: Set Up Service Costs](../FullExperience/how-to-set-up-service-costs.md)

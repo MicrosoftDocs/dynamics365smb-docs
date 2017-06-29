@@ -31,7 +31,7 @@ From the **Machine Center Card** window, you can view the posted entries for the
 4.  Close the window.  
   
 ## See Also  
- [Structure of the Capacity](../Production/structure-of-the-capacity.md)   
- [How to: Set Up Machine Centers](../Production/how-to-set-up-machine-centers.md)   
- [How to: Display Work Center Ledger Entries](../Production/how-to-display-work-center-ledger-entries.md)   
- [How to: Display Machine Center Statistics](../Production/how-to-display-machine-center-statistics.md)
+ [Structure of the Capacity](../FullExperience/structure-of-the-capacity.md)   
+ [How to: Set Up Machine Centers](../FullExperience/how-to-set-up-machine-centers.md)   
+ [How to: Display Work Center Ledger Entries](../FullExperience/how-to-display-work-center-ledger-entries.md)   
+ [How to: Display Machine Center Statistics](../FullExperience/how-to-display-machine-center-statistics.md)

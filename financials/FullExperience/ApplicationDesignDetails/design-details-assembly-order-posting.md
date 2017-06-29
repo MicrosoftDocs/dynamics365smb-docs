@@ -18,7 +18,7 @@
 # Design Details: Assembly Order Posting
 Assembly order posting is based on the same principles as when posting the similar activities of sales orders and production consumption\/output. However, the principles are combined in that assembly orders have their own posting UI, like that for sales orders, while the actual entry posting happens in the background as direct item and resource journal postings, like that for production consumption, output, and capacity.  
   
- Similarly to production order posting, the consumed components and the used resources are converted and output as the assembly item when the assembly order is posted. For more information, see [Design Details: Production Order Posting](../ApplicationDesign/design-details-production-order-posting.md). However, the cost flow for assembly orders is less complex, especially because assembly cost posting only occurs once and therefore does not generate work-in-process inventory.  
+ Similarly to production order posting, the consumed components and the used resources are converted and output as the assembly item when the assembly order is posted. For more information, see [Design Details: Production Order Posting](../FullExperience/design-details-production-order-posting.md). However, the cost flow for assembly orders is less complex, especially because assembly cost posting only occurs once and therefore does not generate work-in-process inventory.  
   
  The following journal postings occur during assembly order posting:  
   
@@ -32,14 +32,14 @@ Assembly order posting is based on the same principles as when posting the simil
   
  The following diagram shows the structure of item and resource ledger entries that result from assembly order posting.  
   
- ![Resource and capacity costs](../ApplicationDesign/media/design_details_assembly_posting_1.png "design\_details\_assembly\_posting\_1")  
+ ![Resource and capacity costs](../FullExperience/media/design_details_assembly_posting_1.png "design\_details\_assembly\_posting\_1")  
   
 > [!NOTE]  
 >  Machine and work centers are included to illustrate that capacity ledger entries are created from both production and assembly.  
   
  The following diagram shows how assembly data flows into ledger entries during posting:  
   
- ![Data flow during posting](../ApplicationDesign/media/design_details_assembly_posting_2.png "design\_details\_assembly\_posting\_2")  
+ ![Data flow during posting](../FullExperience/media/design_details_assembly_posting_2.png "design\_details\_assembly\_posting\_2")  
   
 ## Posting Sequence  
  The posting of an assembly order occurs in the following order:  
@@ -61,7 +61,7 @@ Assembly order posting is based on the same principles as when posting the simil
 ## Cost Adjustment  
  Once an assembly order is posted, meaning that components \(material\) and resources are assembled into a new item, then it should be possible to determine the actual cost of that assembly item, and the actual inventory cost of the components involved. This is achieved by forwarding costs from the posted entries of the source \(the components and resources\) to the posted entries of the destination \(the assembly item\). The forwarding of costs is done by calculating and generating new entries, called adjustment entries that become associated with the destination entries.  
   
- The assembly costs to be forwarded are detected with the Order Level detection mechanism. For information about other adjustment detection mechanisms, see [Design Details: Cost Adjustment](../ApplicationDesign/design-details-cost-adjustment.md).  
+ The assembly costs to be forwarded are detected with the Order Level detection mechanism. For information about other adjustment detection mechanisms, see [Design Details: Cost Adjustment](../FullExperience/design-details-cost-adjustment.md).  
   
 ### Detecting the Adjustment  
  The order Level detection function is used in conversion scenarios, production and assembly. The function works as follows:  
@@ -72,7 +72,7 @@ Assembly order posting is based on the same principles as when posting the simil
   
  The following graphic shows the adjustment entry structure and how assembly costs are adjusted.  
   
- ![Adjustment entry structure](../ApplicationDesign/media/design_details_assembly_posting_3.png "design\_details\_assembly\_posting\_3")  
+ ![Adjustment entry structure](../FullExperience/media/design_details_assembly_posting_3.png "design\_details\_assembly\_posting\_3")  
   
 ### Performing the Adjustment  
  The spreading of detected adjustments from material and resource costs onto the assembly output entries is performed by the **Adjust Cost – Item Entries** batch job. It contains the Make Multilevel Adjustment function, which consists of the following two elements:  
@@ -81,15 +81,15 @@ Assembly order posting is based on the same principles as when posting the simil
   
 -   Make Single Level Adjustments – which forwards costs for individual items using their costing method. Lines 9 and 10 in the algorithm below are responsible for that.  
   
- ![Assembly adjustment algorithm](../ApplicationDesign/media/design_details_assembly_posting_4.jpg "design\_details\_assembly\_posting\_4")  
+ ![Assembly adjustment algorithm](../FullExperience/media/design_details_assembly_posting_4.jpg "design\_details\_assembly\_posting\_4")  
   
 > [!NOTE]  
 >  The Make WIP Adjustments element, in lines 7 and 8, is responsible for forwarding production material and capacity usage to the output of unfinished production orders. This is not used when adjusting assembly order costs as the concept of WIP does not apply to assembly.  
   
- For information about how costs from assembly and production are posted to the general ledger, see [Design Details: Inventory Posting](../ApplicationDesign/design-details-inventory-posting.md).  
+ For information about how costs from assembly and production are posted to the general ledger, see [Design Details: Inventory Posting](../FullExperience/design-details-inventory-posting.md).  
   
 ## Assembly Costs are Always Actual  
- The concept of work in process \(WIP\) does not apply in assembly order posting. Assembly costs are only posted as actual cost, never as expected cost. For more information, see [Design Details: Expected Cost Posting](../ApplicationDesign/design-details-expected-cost-posting.md).  
+ The concept of work in process \(WIP\) does not apply in assembly order posting. Assembly costs are only posted as actual cost, never as expected cost. For more information, see [Design Details: Expected Cost Posting](../FullExperience/design-details-expected-cost-posting.md).  
   
  This is enabled by the following data structure.  
   
@@ -105,7 +105,7 @@ Assembly order posting is based on the same principles as when posting the simil
 |Assembly Order Line|Item|Inventory Posting Group|Gen. Prod. Posting Group|  
 |Assembly Order Line|Resource||Gen. Prod. Posting Group|  
   
- Accordingly, only actual costs are posted to the general ledger, and no interim accounts are populated from assembly order posting. For more information, see [Design Details: Accounts in the General Ledger](../ApplicationDesign/design-details-accounts-in-the-general-ledger.md)  
+ Accordingly, only actual costs are posted to the general ledger, and no interim accounts are populated from assembly order posting. For more information, see [Design Details: Accounts in the General Ledger](../FullExperience/design-details-accounts-in-the-general-ledger.md)  
   
 ## Assemble to Order  
  The item ledger entry that results from posting an assemble-to-order sale is fixed applied to the related item ledger entry for the assembly output. Accordingly, the cost of an assemble-to-order sale is derived from the assembly order that it was linked to.  
@@ -115,6 +115,6 @@ Assembly order posting is based on the same principles as when posting the simil
  Posting sales order lines where a part is inventory quantity and another part is assemble-to-order quantity results in separate item ledger entries, one for the inventory quantity and one for the assemble-to-order quantity.  
   
 ## See Also  
- [Design Details: Inventory Costing](../ApplicationDesign/design-details-inventory-costing.md)   
- [Design Details: Production Order Posting](../ApplicationDesign/design-details-production-order-posting.md)   
- [Design Details: Costing Methods](../ApplicationDesign/design-details-costing-methods.md)
+ [Design Details: Inventory Costing](../FullExperience/design-details-inventory-costing.md)   
+ [Design Details: Production Order Posting](../FullExperience/design-details-production-order-posting.md)   
+ [Design Details: Costing Methods](../FullExperience/design-details-costing-methods.md)

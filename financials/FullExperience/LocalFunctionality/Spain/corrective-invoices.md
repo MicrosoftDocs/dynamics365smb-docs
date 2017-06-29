@@ -37,4 +37,4 @@ The corrective invoice functionality allows you to send a corrective invoice whe
 -   You can post a corrective invoice without corrected invoice numbers only when the corrections are necessary due to discounts or volume rebates.  
   
 ## See Also  
- [Spain Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/spain-local-functionality.md)
+ [Spain Local Functionality](../FullExperience/spain-local-functionality.md)

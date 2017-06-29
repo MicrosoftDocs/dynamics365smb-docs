@@ -28,7 +28,7 @@ You might need to create a service invoice for the service that has already been
   
 4.  Create invoice lines for services shipped but not invoiced. Alternatively, you can run the **Get Shipment Lines** function.  
   
-    1.  Choose **Actions**![Action Menu icon](../DesignAndEngineering/media/actionmenuicon.png "actionMenuIcon"), choose **Functions**, and then choose **Get Shipment Lines**.  
+    1.  Choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Functions**, and then choose **Get Shipment Lines**.  
   
     2.  In the **Get Service Shipment Lines** window, select the shipment lines that you want to invoice, and choose the **OK** button. The selected posted shipment lines are inserted into the invoice.  
   
@@ -37,7 +37,7 @@ You might need to create a service invoice for the service that has already been
  The posted service invoice is created, as well as the corresponding ledger entries. Previously posted shipment documents are updated with the invoiced quantities and the relevant quantities on the service lines of the source orders.  
   
 ## See Also  
- [How to: Create Combined Invoices](../Service/how-to-create-combined-invoices.md)   
- [How to: Create Service Invoices Manually](../Service/how-to-create-service-invoices-manually.md)   
- [How to: Post Invoices from Service Orders](../Service/how-to-post-invoices-from-service-orders.md)   
- [How to: Undo Service Shipments](../Service/how-to-undo-service-shipments.md)
+ [How to: Create Combined Invoices](../FullExperience/how-to-create-combined-invoices.md)   
+ [How to: Create Service Invoices Manually](../FullExperience/how-to-create-service-invoices-manually.md)   
+ [How to: Post Invoices from Service Orders](../FullExperience/how-to-post-invoices-from-service-orders.md)   
+ [How to: Undo Service Shipments](../FullExperience/how-to-undo-service-shipments.md)

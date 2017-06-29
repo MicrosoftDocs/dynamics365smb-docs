@@ -48,5 +48,5 @@ The **Subcontracting Worksheet** window functions like the **Planning Worksheet*
  The worksheet line that was turned into a purchase order is deleted from the worksheet. Once a purchase order is created, it will not appear in the worksheet again.  
   
 ## See Also  
- [About Subcontracting](../OperationsPlanning/about-subcontracting.md)   
- [How to: Post Subcontract Purchase Orders](../Purchasing/how-to-post-subcontract-purchase-orders.md)
+ [About Subcontracting](../FullExperience/about-subcontracting.md)   
+ [How to: Post Subcontract Purchase Orders](../FullExperience/how-to-post-subcontract-purchase-orders.md)

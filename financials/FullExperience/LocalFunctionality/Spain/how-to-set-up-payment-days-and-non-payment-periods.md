@@ -32,7 +32,7 @@ Payment days and non-payment periods are used to calculate due dates. Due date c
   
 3.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Payment Days Code**|Enter the payment day code.|  
     |**Non-Paymt. Periods Code**|Enter the non-payment periods code.|  
@@ -67,7 +67,7 @@ Payment days and non-payment periods are used to calculate due dates. Due date c
   
 3.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**From Date**|Enter the starting date for the non-payment period.|  
     |**To Date**|Enter the ending date for the non-payment period.|  
@@ -76,6 +76,6 @@ Payment days and non-payment periods are used to calculate due dates. Due date c
 4.  Choose the **OK** button.  
   
 ## See Also  
- [Spain Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/spain-local-functionality.md)   
+ [Spain Local Functionality](../FullExperience/spain-local-functionality.md)   
  Payment Days   
  Non-Payment Periods

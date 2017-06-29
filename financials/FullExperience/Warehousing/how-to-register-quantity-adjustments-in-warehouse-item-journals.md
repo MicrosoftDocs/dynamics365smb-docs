@@ -18,7 +18,7 @@
 # How to: Register Quantity Adjustments in Warehouse Item Journals
 If your location uses directed put-away and pick, use the **Whse. Item Journal** to post, outside the context of the physical inventory, all positive and negative adjustments in item quantity that you know are real gains, such as items previously posted as missing that show up unexpectedly, or real losses, such as breakage.  
   
- Unlike posting adjustments in the inventory item journal, using the warehouse item journal gives you an additional level of adjustment that makes your quantity records even more precise at all times. The warehouse thus always has a complete record of how many items are on hand and where they are stored, but each adjustment registration is not posted immediately to the item ledger. In the registering process, credits or debits are made to the real bin with the quantity adjustment and a counterbalancing entry is made in an adjustment bin, a virtual bin with no real items. This bin is defined during in the **Invt. Adjustment Bin Code** on the location card. At regular intervals, you synchronize warehouse entries with the item ledger. For more information, [How to: Post Quantity Adjustments for Bins](../WarehouseActivities/how-to-post-quantity-adjustments-for-bins.md).  
+ Unlike posting adjustments in the inventory item journal, using the warehouse item journal gives you an additional level of adjustment that makes your quantity records even more precise at all times. The warehouse thus always has a complete record of how many items are on hand and where they are stored, but each adjustment registration is not posted immediately to the item ledger. In the registering process, credits or debits are made to the real bin with the quantity adjustment and a counterbalancing entry is made in an adjustment bin, a virtual bin with no real items. This bin is defined during in the **Invt. Adjustment Bin Code** on the location card. At regular intervals, you synchronize warehouse entries with the item ledger. For more information, [How to: Post Quantity Adjustments for Bins](../FullExperience/how-to-post-quantity-adjustments-for-bins.md).  
   
 > [!NOTE]  
 >  If the location does not use directed put-away and pick, simply use the **Item Journal** to post, outside the context of the physical inventory, all positive and negative adjustments in item quantity that you know are real gains or real losses. In that case, no adjustment with warehouse entries is required.  
@@ -48,6 +48,6 @@ If your location uses directed put-away and pick, use the **Whse. Item Journal**
  Whse. Phys. Invt. Journal   
  Warehouse Item Journal   
  Qty. \(Phys. Inventory\)%20$\).md)   
- [Warehouse Adjustment Bin](../WarehouseActivities/warehouse-adjustment-bin.md)   
+ [Warehouse Adjustment Bin](../FullExperience/warehouse-adjustment-bin.md)   
  Warehouse Adjustment Bin   
- [How to: Post Quantity Adjustments for Bins](../WarehouseActivities/how-to-post-quantity-adjustments-for-bins.md)
+ [How to: Post Quantity Adjustments for Bins](../FullExperience/how-to-post-quantity-adjustments-for-bins.md)

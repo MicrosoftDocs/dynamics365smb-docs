@@ -42,6 +42,6 @@ You may need to remove contract lines from the service contract as you remove co
 >  If the contract is detailed and prepaid, and you have posted invoices for the contract, you can create a credit memo for the contract. On the **Actions** tab, in the **Functions** group, choose **Create Credit Memo**. This is unnecessary if the check box in the **Automatic Credit Memos** field on the **Invoice Details** FastTab is selected. In that case, a credit memo is created automatically when you remove a contract line.  
   
 ## See Also  
- [How to: Cancel Contracts](../Service/how-to-cancel-contracts.md)   
- [How to: Create Contract Service Credit Memos](../Service/how-to-create-contract-service-credit-memos.md)   
+ [How to: Cancel Contracts](../FullExperience/how-to-cancel-contracts.md)   
+ [How to: Create Contract Service Credit Memos](../FullExperience/how-to-create-contract-service-credit-memos.md)   
  Automatic Credit Memos

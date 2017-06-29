@@ -92,5 +92,5 @@ Superior customer service is a key strategic objective of companies that strive 
  When deciding on which document to use as a preferred entry point for a compensation agreement, the user must be aware that, in contrast to a credit memo\/invoice \(where posting updates both quantity and value at the same time\), the return order offers the possibility of separating the quantity and value parts of the transaction. Therefore, companies where this flexibility is essential may prefer using a return order rather than a credit memo.  
   
 ## See Also  
- [How to: Process Purchase Returns](../Purchasing/how-to-process-purchase-returns.md)   
- [How to: Process Sales Returns](../Sales/how-to-process-sales-returns.md)
+ [How to: Process Purchase Returns](../FullExperience/how-to-process-purchase-returns.md)   
+ [How to: Process Sales Returns](../FullExperience/how-to-process-sales-returns.md)

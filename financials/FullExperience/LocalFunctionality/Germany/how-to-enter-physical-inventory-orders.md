@@ -20,7 +20,7 @@ A physical inventory order is a complete document that consists of a physical in
   
  The physical inventory order lines contain the information about the items and their locations. You can create the physical inventory order lines manually, or you can let the program automatically create physical inventory order lines for you. You can do this by using batch jobs.  
   
- Before you can create physical inventory orders you have to set up properties for physical inventory. For more information, see [How to: Set Up Physical Inventory Documents](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-set-up-physical-inventory-documents.md).  
+ Before you can create physical inventory orders you have to set up properties for physical inventory. For more information, see [How to: Set Up Physical Inventory Documents](../FullExperience/how-to-set-up-physical-inventory-documents.md).  
   
 ### To create a physical inventory order  
   
@@ -30,7 +30,7 @@ A physical inventory order is a complete document that consists of a physical in
   
 3.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Description**|Sets a description for the physical inventory order.|  
     |**Location Code**|Sets location code for the item in the order line.|  
@@ -38,7 +38,7 @@ A physical inventory order is a complete document that consists of a physical in
     |**Order Date**|Sets the creation date for the physical inventory order.|  
     |**Posting Date**|Sets the posting date for the physical inventory order.|  
   
- You can add lines to the physical inventory order manually, or ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> can create new physical inventory order lines automatically. To create new physical inventory order lines automatically, you have two possibilities:  
+ You can add lines to the physical inventory order manually, or ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> can create new physical inventory order lines automatically. To create new physical inventory order lines automatically, you have two possibilities:  
   
 -   You can create new physical inventory order lines based on inventory items and item ledger entries.  
   
@@ -52,7 +52,7 @@ A physical inventory order is a complete document that consists of a physical in
   
 2.  In the **Calc. Phys. Invt. Order Lines** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Calculate Qty. Expected**|Select to calculate and insert the quantity expected data for newly created physical inventory order lines.|  
     |**Items Not on Inventory**|Select to insert physical inventory order lines for items that have a value of zero in the **Quantity Expected** field.|  
@@ -67,7 +67,7 @@ A physical inventory order is a complete document that consists of a physical in
   
 2.  In the **Copy Phys. Invt. Order** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Document Type**|Specify the type of document to copy.|  
     |**Document No.**|Specify the document to copy.|  
@@ -77,16 +77,16 @@ A physical inventory order is a complete document that consists of a physical in
   
      You can run the batch job more than once. If there are already existing lines for the physical inventory order, the program will append the new lines at the end.  
   
- For each physical inventory order, you can create one or more physical inventory recordings. There you can document the physical count. For more information, see [How to: Create a Physical Inventory Recording](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-create-a-physical-inventory-recording.md).  
+ For each physical inventory order, you can create one or more physical inventory recordings. There you can document the physical count. For more information, see [How to: Create a Physical Inventory Recording](../FullExperience/how-to-create-a-physical-inventory-recording.md).  
   
  You can compare and document the expected quantities from the physical inventory order lines with the \(counted\) quantities from the physical inventory recording lines. You can post the physical inventory differences.  
   
 ## See Also  
- [Physical Inventory Documents](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/physical-inventory-documents.md)   
- [How to: Enter Dimensions for Physical Inventory Orders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-enter-dimensions-for-physical-inventory-orders.md)   
- [How to: View Duplicate Physical Inventory Order Lines](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-view-duplicate-physical-inventory-order-lines.md)   
- [How to: Create a Physical Inventory Recording](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-create-a-physical-inventory-recording.md)   
- [How to: Calculate Quantity On Hand for a Physical Inventory Order](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-calculate-quantity-on-hand-for-a-physical-inventory-order.md)   
- [How to: Post Physical Inventory Orders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-post-physical-inventory-orders.md)   
+ [Physical Inventory Documents](../FullExperience/physical-inventory-documents.md)   
+ [How to: Enter Dimensions for Physical Inventory Orders](../FullExperience/how-to-enter-dimensions-for-physical-inventory-orders.md)   
+ [How to: View Duplicate Physical Inventory Order Lines](../FullExperience/how-to-view-duplicate-physical-inventory-order-lines.md)   
+ [How to: Create a Physical Inventory Recording](../FullExperience/how-to-create-a-physical-inventory-recording.md)   
+ [How to: Calculate Quantity On Hand for a Physical Inventory Order](../FullExperience/how-to-calculate-quantity-on-hand-for-a-physical-inventory-order.md)   
+ [How to: Post Physical Inventory Orders](../FullExperience/how-to-post-physical-inventory-orders.md)   
  Calc. Phys. Invt. Order Lines   
  Copy Phys. Invt. Order

@@ -35,7 +35,7 @@ You can direct the flow of items through bins that you have defined for particul
   
  The bin types that you can create are listed below.  
   
-|**Bin type**|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+|**Bin type**|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
 |------------------|---------------------------------------|  
 |RECEIVE|Items registered as posted receipts but not yet put away.|  
 |SHIP|Items picked for warehouse shipment lines but not yet posted as shipped.|  
@@ -47,4 +47,4 @@ You can direct the flow of items through bins that you have defined for particul
 ## See Also  
  Bin Types   
  Bin Contents   
- [How to: Set Up Locations to Use Bins](../WarehouseActivities/how-to-set-up-locations-to-use-bins.md)
+ [How to: Set Up Locations to Use Bins](../FullExperience/how-to-set-up-locations-to-use-bins.md)

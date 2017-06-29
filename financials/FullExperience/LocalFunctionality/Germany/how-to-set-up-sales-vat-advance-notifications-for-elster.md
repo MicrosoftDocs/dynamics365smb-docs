@@ -16,7 +16,7 @@
 
     ---
 # How to: Set Up Sales VAT Advance Notifications for ELSTER
-In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, to submit valid sales VAT advance notifications to the ELSTER portal, you must set up the following:  
+In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, to submit valid sales VAT advance notifications to the ELSTER portal, you must set up the following:  
   
 -   The company registration information and tax office information.  
   
@@ -36,7 +36,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
   
 3.  On the **Tax Office** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---
     title: Insert topic title| Microsoft Docs
     description: Insert description
@@ -60,7 +60,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
   
 4.  On the **HTTP Servers** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ T\_11013\_8 HTTP Server URL 1 $\)**|Specifies a server of the Oberfinanzdirektion \(OFD\), such as **http:\/\/datenannahme1.elster.de\/Elster2\/EMS**.|  
     |**\($ T\_11013\_9 HTTP Server URL 2 $\)**|Specifies a server of the OFD, such as **http:\/\/datenannahme2.elster.de\/Elster2\/EMS**.|  
@@ -104,8 +104,8 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
 ## See Also  
  Sales VAT Adv. Notification   
  VAT Statement Line   
- [Electronic Submission of Sales VAT Advance Notifications to ELSTER](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/electronic-submission-of-sales-vat-advance-notifications-to-elster.md)   
- [How to: Create and Submit Sales VAT Advance Notifications](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-create-and-submit-sales-vat-advance-notifications.md)   
- [How to: Enter Company Information](../../Finance/how-to-enter-company-information.md)   
+ [Electronic Submission of Sales VAT Advance Notifications to ELSTER](../FullExperience/electronic-submission-of-sales-vat-advance-notifications-to-elster.md)   
+ [How to: Create and Submit Sales VAT Advance Notifications](../FullExperience/how-to-create-and-submit-sales-vat-advance-notifications.md)   
+ [How to: Enter Company Information](../FullExperience/how-to-enter-company-information.md)   
  Company Information   
  General Ledger Setup

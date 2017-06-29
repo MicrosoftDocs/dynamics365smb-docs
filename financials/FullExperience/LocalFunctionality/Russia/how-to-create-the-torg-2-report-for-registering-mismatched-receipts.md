@@ -24,7 +24,7 @@ The TORG-2 report is used to document inconsistencies for deviations of received
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_14925\_F\_1\_1210014 Order No. $\)**|Specifies the document number.|  
     |**\($ B\_14925\_F\_1\_1210018 Order Date $\)**|Specifies the document date.|  
@@ -33,7 +33,7 @@ The TORG-2 report is used to document inconsistencies for deviations of received
 3.  Choose the **OK** button.  
   
 ## See Also  
- [Inventory Setup](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/inventory-setup.md)   
+ [Inventory Setup](../FullExperience/inventory-setup.md)   
  Item Report TORG-29   
  Items Receipt Act TORG-1   
  Receipt Deviations TORG-2   

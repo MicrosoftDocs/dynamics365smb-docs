@@ -16,7 +16,7 @@
 
     ---
 # How to: Create Payment Slips
-You can create payments slips to manage vendor and customer payments. Before you create payment slips, you must set up payment classes. For more information, see [How to: Set Up Payment Classes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-set-up-payment-classes.md).  
+You can create payments slips to manage vendor and customer payments. Before you create payment slips, you must set up payment classes. For more information, see [How to: Set Up Payment Classes](../FullExperience/how-to-set-up-payment-classes.md).  
   
  The following procedure describes how to create payment slips for vendor payments, but the same steps also apply to creating payment slips for customer payments.  
   
@@ -32,16 +32,16 @@ You can create payments slips to manage vendor and customer payments. Before you
   
 5.  On the **General** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Currency Code**|Specify the currency code to be used for the payment lines.|  
     |**Posting Date**|Specify the posting date.|  
     |**Document Date**|Specify the document date.|  
-    |**Amount \(LCY\)**|The total amount from the payment lines. This field is updated automatically when the net line amounts are changed.<br /><br /> ADD INCLUDE<!--[!INCLUDE[bp_fieldnoneditable](../../Finance/includes/bp_fieldnoneditable_md.md)]-->|  
+    |**Amount \(LCY\)**|The total amount from the payment lines. This field is updated automatically when the net line amounts are changed.<br /><br /> ADD INCLUDE<!--[!INCLUDE[bp_fieldnoneditable](../../includes/bp_fieldnoneditable_md.md)]-->|  
   
 6.  On the **Lines** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Account Type**|The account type to which the payment line is posted.|  
     |**Account No.**|The unique identification number for the account to which the entry will be posted.|  
@@ -69,7 +69,7 @@ You can create payments slips to manage vendor and customer payments. Before you
   
 11. In the **Suggest Vendor Payments** batch job, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_10862\_N\_2\_1120001 Last Payment Date $\)**|The last payment date for the vendor ledger entries that are to be included in the batch job.|  
     |**\($ B\_10862\_N\_2\_1120002 Find Payment Discounts $\)**|Select to include vendor ledger entries for which you can receive a payment discount.|  
@@ -86,7 +86,7 @@ You can create payments slips to manage vendor and customer payments. Before you
   
 14. In the **Payment Slip** window, on the **Posting** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Source Code**|The source code for the payment slip.|  
     |**Department Code**|The relevant dimension code.|  
@@ -138,13 +138,13 @@ You can create payments slips to manage vendor and customer payments. Before you
 5.  In the case of error, review the errors listed in the **File Export Errors** FactBox, and take the appropriate action.  
   
 ## See Also  
- [Payment Management](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/payment-management.md)   
- [How to: Set Up Payment Classes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-set-up-payment-classes.md)   
- [How to: Set Up Payment Statuses](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-set-up-payment-statuses.md)   
- [How to: Set Up Payment Steps](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-set-up-payment-steps.md)   
- [How to: Set Up Payment Addresses](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-set-up-payment-addresses.md)   
- [How to: Post Payment Slips](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-post-payment-slips.md)   
- [How to: Archive Payment Slips](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-archive-payment-slips.md)   
- [How to: Export or Import Payment Management Setup Parameters](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-export-or-import-payment-management-setup-parameters.md)   
+ [Payment Management](../FullExperience/payment-management.md)   
+ [How to: Set Up Payment Classes](../FullExperience/how-to-set-up-payment-classes.md)   
+ [How to: Set Up Payment Statuses](../FullExperience/how-to-set-up-payment-statuses.md)   
+ [How to: Set Up Payment Steps](../FullExperience/how-to-set-up-payment-steps.md)   
+ [How to: Set Up Payment Addresses](../FullExperience/how-to-set-up-payment-addresses.md)   
+ [How to: Post Payment Slips](../FullExperience/how-to-post-payment-slips.md)   
+ [How to: Archive Payment Slips](../FullExperience/how-to-archive-payment-slips.md)   
+ [How to: Export or Import Payment Management Setup Parameters](../FullExperience/how-to-export-or-import-payment-management-setup-parameters.md)   
  Priority   
  Dimension Value

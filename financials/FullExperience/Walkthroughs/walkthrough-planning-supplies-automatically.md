@@ -16,16 +16,16 @@
 
     ---
 # Walkthrough: Picking and Shipping in Basic Warehousing
-In ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]-->, the outbound processes for picking and shipping can be performed in four ways using different functionalities depending on the warehouse complexity level.  
+In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, the outbound processes for picking and shipping can be performed in four ways using different functionalities depending on the warehouse complexity level.  
   
-|Method|Inbound process|Bins|Picks|Shipments|Complexity level \(See [Design Details: Warehouse Setup](../ApplicationDesign/design-details-warehouse-setup.md)\)|  
+|Method|Inbound process|Bins|Picks|Shipments|Complexity level \(See [Design Details: Warehouse Setup](../FullExperience/design-details-warehouse-setup.md)\)|  
 |------------|---------------------|----------|-----------|---------------|--------------------------------------------------------------------------------------------------------------------|  
 |A|Post pick and shipment from the order line|X|||2|  
 |B|Post pick and shipment from an inventory pick document||X||3|  
 |C|Post pick and shipment from a warehouse shipment document|||X|4\/5\/6|  
 |D|Post pick from a warehouse pick document and post shipment from a warehouse shipment document||X|X|4\/5\/6|  
   
- For more information, see [Design Details: Outbound Warehouse Flow](../ApplicationDesign/design-details-outbound-warehouse-flow.md).  
+ For more information, see [Design Details: Outbound Warehouse Flow](../FullExperience/design-details-outbound-warehouse-flow.md).  
   
  The following walkthrough demonstrates method B in the previous table.  
   
@@ -56,7 +56,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]
 ## Prerequisites  
  To complete this walkthrough, you will need:  
   
--   ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> with the ADD INCLUDE<!--[!INCLUDE[demolong](../ApplicationDesign/includes/demolong_md.md)]--> installed.  
+-   ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/demolong_md.md)]--> installed.  
   
 -   To make yourself a warehouse employee at SILVER location by following these steps:  
   
@@ -76,13 +76,13 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]
   
         |Entry Type|Item Number|Location Code|Bin Code|Quantity|  
         |----------------|-----------------|-------------------|--------------|--------------|  
-        |Positive Adjmt.|LS-81|SILVER|S-01-0001 **Note:**  The item’s default bin in ADD INCLUDE<!--[!INCLUDE[demo](../ApplicationDesign/includes/demo_md.md)]-->.|20|  
+        |Positive Adjmt.|LS-81|SILVER|S-01-0001 **Note:**  The item’s default bin in ADD INCLUDE<!--[!INCLUDE[demo](../../includes/demo_md.md)]-->.|20|  
         |Positive Adjmt.|LS-81|SILVER|S-01-0002|20|  
   
     3.  On the **Actions** tab, in the **Posting** group, choose **Post**, and then select the **Yes** button.  
   
 ## Story  
- Ellen, the warehouse manager at ADD INCLUDE<!--[!INCLUDE[demoname](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/demoname_md.md)]-->, sets up SILVER warehouse for basic pick handling where warehouse workers process outbound orders individually. Susan, the order processor, creates a sales order for 30 units of item LS-81 to be shipped to customer 10000 from the SILVER Warehouse. John, the warehouse worker must make sure that the shipment is prepared and delivered to the customer. John manages all involved tasks in the **Inventory Pick** window, which automatically points to the bins where LS-81 is stored.  
+ Ellen, the warehouse manager at ADD INCLUDE<!--[!INCLUDE[demoname](../../includes/demoname_md.md)]-->, sets up SILVER warehouse for basic pick handling where warehouse workers process outbound orders individually. Susan, the order processor, creates a sales order for 30 units of item LS-81 to be shipped to customer 10000 from the SILVER Warehouse. John, the warehouse worker must make sure that the shipment is prepared and delivered to the customer. John manages all involved tasks in the **Inventory Pick** window, which automatically points to the bins where LS-81 is stored.  
   
 ## Setting Up the Location  
  The setup of the **Location Card** window defines the company’s warehouse flows.  
@@ -142,11 +142,11 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]
 ## See Also  
  Inventory Pick   
  Location Card   
- [How to: Pick Items with Inventory Picks](../DesignAndEngineering/how-to-pick-items-with-inventory-picks.md)   
- [How to: Pick Items for Warehouse Shipment](../WarehouseActivities/how-to-pick-items-for-warehouse-shipment.md)   
- [How to: Set Up Basic Warehouses with Operations Areas](../WarehouseActivities/how-to-set-up-basic-warehouses-with-operations-areas.md)   
- [How to: Move Components to an Operation Area in Basic Warehousing](../WarehouseActivities/how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
- [How to: Pick for Production in Basic Warehousing](../WarehouseActivities/how-to-pick-for-production-in-basic-warehousing.md)   
- [How to: Move Items Ad Hoc in Basic Warehousing](../WarehouseActivities/how-to-move-items-ad-hoc-in-basic-warehousing.md)   
- [Design Details: Outbound Warehouse Flow](../ApplicationDesign/design-details-outbound-warehouse-flow.md)   
- [Business Process Walkthroughs](../GettingStarted/business-process-walkthroughs.md)
+ [How to: Pick Items with Inventory Picks](../FullExperience/how-to-pick-items-with-inventory-picks.md)   
+ [How to: Pick Items for Warehouse Shipment](../FullExperience/how-to-pick-items-for-warehouse-shipment.md)   
+ [How to: Set Up Basic Warehouses with Operations Areas](../FullExperience/how-to-set-up-basic-warehouses-with-operations-areas.md)   
+ [How to: Move Components to an Operation Area in Basic Warehousing](../FullExperience/how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
+ [How to: Pick for Production in Basic Warehousing](../FullExperience/how-to-pick-for-production-in-basic-warehousing.md)   
+ [How to: Move Items Ad Hoc in Basic Warehousing](../FullExperience/how-to-move-items-ad-hoc-in-basic-warehousing.md)   
+ [Design Details: Outbound Warehouse Flow](../FullExperience/design-details-outbound-warehouse-flow.md)   
+ [Business Process Walkthroughs](../FullExperience/business-process-walkthroughs.md)

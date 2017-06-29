@@ -25,7 +25,7 @@ In addition to the general balancing of supply and demand, the planning system m
  The reorder point reflects a certain inventory level. However, inventory levels can move significantly during the time bucket and, therefore, the planning system must constantly monitor the projected available inventory.  
   
 ## See Also  
- [Design Details: Reordering Policies](../ApplicationDesign/design-details-reordering-policies.md)   
- [Design Details: Planning Parameters](../ApplicationDesign/design-details-planning-parameters.md)   
- [Design Details: Handling Reordering Policies](../ApplicationDesign/design-details-handling-reordering-policies.md)   
- [Design Details: Supply Planning](../ApplicationDesign/design-details-supply-planning.md)
+ [Design Details: Reordering Policies](../FullExperience/design-details-reordering-policies.md)   
+ [Design Details: Planning Parameters](../FullExperience/design-details-planning-parameters.md)   
+ [Design Details: Handling Reordering Policies](../FullExperience/design-details-handling-reordering-policies.md)   
+ [Design Details: Supply Planning](../FullExperience/design-details-supply-planning.md)

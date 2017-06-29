@@ -31,6 +31,6 @@ You must localize Intrastat reporting to be legally compliant. The code for the 
 5.  Choose the **OK** button.  
   
 ## See Also  
- [United Kingdom Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/united-kingdom-local-functionality.md)   
- [How to: Report Intrastat on a Disk](../../Finance/how-to-report-intrastat-on-a-disk.md)   
- [How to: Report Intrastat on Forms](../../Finance/how-to-report-intrastat-on-forms.md)
+ [United Kingdom Local Functionality](../FullExperience/united-kingdom-local-functionality.md)   
+ [How to: Report Intrastat on a Disk](../FullExperience/how-to-report-intrastat-on-a-disk.md)   
+ [How to: Report Intrastat on Forms](../FullExperience/how-to-report-intrastat-on-forms.md)

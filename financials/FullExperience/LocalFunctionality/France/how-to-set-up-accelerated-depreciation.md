@@ -33,7 +33,7 @@ To use the accelerated depreciation calculation, you must set up the following d
   
 3.  On the **General** FastTab, fill in the required fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Code**|The unique identification code for the accounting depreciation book. You can enter a maximum of 10 alphanumeric characters.|  
     |**Description**|The depreciation book description.|  
@@ -43,7 +43,7 @@ To use the accelerated depreciation calculation, you must set up the following d
   
 4.  On the **Integration** FastTab, select the **Derogatory** check box to integrate accelerated depreciation with the general ledger.  
   
-     For more information, see [How to: Set Up Depreciation Books](../../Finance/how-to-set-up-depreciation-books.md) and Depreciation Book.  
+     For more information, see [How to: Set Up Depreciation Books](../FullExperience/how-to-set-up-depreciation-books.md) and Depreciation Book.  
   
 5.  Choose the **OK** button.  
   
@@ -55,24 +55,24 @@ To use the accelerated depreciation calculation, you must set up the following d
   
 3.  On the **General** FastTab, fill in the required fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Code**|The unique identification code for the tax depreciation book. You can enter a maximum of 10 alphanumeric characters.|  
     |**Description**|The tax depreciation book description.|  
   
 4.  In the **Derogatory Calculation** field, select the accounting depreciation book code to indicate that this is a tax depreciation book to calculate derogatory depreciation.  
   
-     For more information, see [How to: Set Up Depreciation Books](../../Finance/how-to-set-up-depreciation-books.md) and Depreciation Book.  
+     For more information, see [How to: Set Up Depreciation Books](../FullExperience/how-to-set-up-depreciation-books.md) and Depreciation Book.  
   
 5.  Choose the **OK** button.  
   
      The **Used with Derogatory Book** field in the accounting depreciation book is updated with the tax depreciation book code.  
   
 ## See Also  
- [Accelerated Depreciation](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/accelerated-depreciation.md)   
- [How to: Calculate Accelerated Depreciation](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-calculate-accelerated-depreciation.md)   
- [How to: Set Up Depreciation Books](../../Finance/how-to-set-up-depreciation-books.md)   
+ [Accelerated Depreciation](../FullExperience/accelerated-depreciation.md)   
+ [How to: Calculate Accelerated Depreciation](../FullExperience/how-to-calculate-accelerated-depreciation.md)   
+ [How to: Set Up Depreciation Books](../FullExperience/how-to-set-up-depreciation-books.md)   
  Depreciation Book   
  Fixed Asset   
  Fixed Asset Card   
- [Set Up Depreciation](../../Finance/set-up-depreciation.md)
+ [Set Up Depreciation](../FullExperience/set-up-depreciation.md)

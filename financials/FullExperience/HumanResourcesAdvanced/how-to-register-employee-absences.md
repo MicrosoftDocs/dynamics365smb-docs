@@ -32,4 +32,4 @@ In order for you to be able to manage employee absences, you must register them.
 >  To obtain meaningful statistics, always use the same unit of measure, hour or day, when registering employee absences.  
   
 ## See Also  
- [How to: Assign Cause of Inactivity Codes to Employees](../HumanResources/how-to-assign-cause-of-inactivity-codes-to-employees.md)
+ [How to: Assign Cause of Inactivity Codes to Employees](../FullExperience/how-to-assign-cause-of-inactivity-codes-to-employees.md)

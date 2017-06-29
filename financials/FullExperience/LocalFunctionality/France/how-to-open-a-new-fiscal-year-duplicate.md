@@ -40,8 +40,8 @@ Before you can post in a fiscal year, you must open the fiscal year and define i
 >  In concordance with French law no more than two open fiscal years are allowed.  
   
 ## See Also  
- [How to: Specify Posting Periods](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-specify-posting-periods.md)   
- [How to: Close Years](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-close-years.md)   
- [How to: Post the Year-End Closing Entry](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-post-the-year-end-closing-entry.md)   
- [How to: Fiscally Close Years](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-fiscally-close-years.md)   
- [Fiscal Periods and Fiscal Years](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/fiscal-periods-and-fiscal-years.md)
+ [How to: Specify Posting Periods](../FullExperience/how-to-specify-posting-periods.md)   
+ [How to: Close Years](../FullExperience/how-to-close-years.md)   
+ [How to: Post the Year-End Closing Entry](../FullExperience/how-to-post-the-year-end-closing-entry.md)   
+ [How to: Fiscally Close Years](../FullExperience/how-to-fiscally-close-years.md)   
+ [Fiscal Periods and Fiscal Years](../FullExperience/fiscal-periods-and-fiscal-years.md)

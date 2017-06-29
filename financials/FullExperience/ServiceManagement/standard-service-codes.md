@@ -25,6 +25,6 @@ When you perform typical service, you often have to create service documents tha
 ## See Also  
  Standard Service Code Card   
  Standard Serv. Item Gr. Codes   
- [How to: Assign Standard Service Codes to Service Item Groups](../Service/how-to-assign-standard-service-codes-to-service-item-groups.md)   
- [How to: Set Up Standard Service Codes](../Service/how-to-set-up-standard-service-codes.md)   
- [How to: Insert Service Lines by Using Standard Service Codes](../Service/how-to-insert-service-lines-by-using-standard-service-codes.md)
+ [How to: Assign Standard Service Codes to Service Item Groups](../FullExperience/how-to-assign-standard-service-codes-to-service-item-groups.md)   
+ [How to: Set Up Standard Service Codes](../FullExperience/how-to-set-up-standard-service-codes.md)   
+ [How to: Insert Service Lines by Using Standard Service Codes](../FullExperience/how-to-insert-service-lines-by-using-standard-service-codes.md)

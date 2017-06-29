@@ -16,21 +16,21 @@
 
     ---
 # Payables and Receivables-duplicate
-In Russia, there are specific ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> features that you can use to track and manage your accounts payable and accounts receivable.  
+In Russia, there are specific ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> features that you can use to track and manage your accounts payable and accounts receivable.  
   
 ## Getting Started with Payables and Receivables  
  Use the following table to learn more about the payables and receivables features that are available for Russia.  
   
-|Topic|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+|Topic|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
 |-----------|---------------------------------------|  
 |Custom Declarations|Enables you to create and print customs declarations for import and export goods.|  
-|[How to: Set Up and Create Letters of Attorney](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-set-up-and-create-letters-of-attorney.md)|Enables you to create and print a Letter of Attorney that you can use to authorize an individual or organization to act on the behalf of another in a legal or business matter.|  
-|[Russian Payables Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/russian-payables-reports.md)|Enables you to view and print general ledger turnover and finance reports that originate from vendor purchase transactions.|  
-|[Russian Receivables Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/russian-receivables-reports.md)|Enables you to view and print general ledger turnover and finance reports that originate from customer sales transactions.|  
-|[How to: Set Up Customer Prepayments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-set-up-customer-prepayments.md)|Enables you to set up advance payments on sales orders that are received before a final invoice is issued.|  
-|[How to: Set Up Vendor Prepayments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-set-up-vendor-prepayments.md)|Enables you to set up advance payments on purchase orders that are paid before a final invoice is issued.|  
-|[How to: Set Up Customer and Vendor Agreements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-set-up-customer-and-vendor-agreements.md)|Enables you to set up agreements with customers and vendors.|  
-|[How to: Combine Customer or Vendor Cards](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-combine-customer-or-vendor-cards.md)|Enables you to combine two customer or vendor cards that belong to one customer or vendor.|  
+|[How to: Set Up and Create Letters of Attorney](../FullExperience/how-to-set-up-and-create-letters-of-attorney.md)|Enables you to create and print a Letter of Attorney that you can use to authorize an individual or organization to act on the behalf of another in a legal or business matter.|  
+|[Russian Payables Reports](../FullExperience/russian-payables-reports.md)|Enables you to view and print general ledger turnover and finance reports that originate from vendor purchase transactions.|  
+|[Russian Receivables Reports](../FullExperience/russian-receivables-reports.md)|Enables you to view and print general ledger turnover and finance reports that originate from customer sales transactions.|  
+|[How to: Set Up Customer Prepayments](../FullExperience/how-to-set-up-customer-prepayments.md)|Enables you to set up advance payments on sales orders that are received before a final invoice is issued.|  
+|[How to: Set Up Vendor Prepayments](../FullExperience/how-to-set-up-vendor-prepayments.md)|Enables you to set up advance payments on purchase orders that are paid before a final invoice is issued.|  
+|[How to: Set Up Customer and Vendor Agreements](../FullExperience/how-to-set-up-customer-and-vendor-agreements.md)|Enables you to set up agreements with customers and vendors.|  
+|[How to: Combine Customer or Vendor Cards](../FullExperience/how-to-combine-customer-or-vendor-cards.md)|Enables you to combine two customer or vendor cards that belong to one customer or vendor.|  
   
 ## See Also  
- [Walkthrough: Setting Up and Invoicing Sales Prepayments](../../GettingStarted/walkthrough-setting-up-and-invoicing-sales-prepayments.md)
+ [Walkthrough: Setting Up and Invoicing Sales Prepayments](../FullExperience/walkthrough-setting-up-and-invoicing-sales-prepayments.md)

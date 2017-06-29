@@ -33,8 +33,8 @@ When a customer purchases a new item and wants to include it in the existing ser
 6.  Verify and correct the numbers in the **Line Discount %**, **Line Discount Amount**, **Response Time**, **Service Period**, and other fields as needed.  
   
 ## See Also  
- [How to: Insert Service Contract Lines into Service Contracts or Contract Quotes](../Service/how-to-insert-service-contract-lines-into-service-contracts-or-contract-quotes.md)   
- [How to: Change the Annual Amount on Service Contracts or Contract Quotes](../Service/how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)   
- [How to: Create Service Contracts and Service Contract Quotes](../Service/how-to-create-service-contracts-and-service-contract-quotes.md)   
- [How to: Create Service Items](../Service/how-to-create-service-items.md)   
- [How to: Remove Contract Quote Lines](../Service/how-to-remove-contract-quote-lines.md)
+ [How to: Insert Service Contract Lines into Service Contracts or Contract Quotes](../FullExperience/how-to-insert-service-contract-lines-into-service-contracts-or-contract-quotes.md)   
+ [How to: Change the Annual Amount on Service Contracts or Contract Quotes](../FullExperience/how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)   
+ [How to: Create Service Contracts and Service Contract Quotes](../FullExperience/how-to-create-service-contracts-and-service-contract-quotes.md)   
+ [How to: Create Service Items](../FullExperience/how-to-create-service-items.md)   
+ [How to: Remove Contract Quote Lines](../FullExperience/how-to-remove-contract-quote-lines.md)

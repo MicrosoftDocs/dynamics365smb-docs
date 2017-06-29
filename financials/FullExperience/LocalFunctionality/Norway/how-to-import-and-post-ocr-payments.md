@@ -35,7 +35,7 @@ Before you can receive optical character recognition \(OCR\) payments, you must 
   
 4.  In the **OCR Payment-BBS** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_15000064\_F\_1\_1080000  File Name $\)**|Enter the full path of the import file.|  
   
@@ -50,9 +50,9 @@ Before you can receive optical character recognition \(OCR\) payments, you must 
      The OCR payment files are posted to the cash receipt journal.  
   
 ## See Also  
- [Electronic Banking in Norway](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/electronic-banking-in-norway.md)   
- [How to: Set Up KID Numbers on Sales Documents](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-set-up-kid-numbers-on-sales-documents.md)   
- [How to: Set Up OCR Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-set-up-ocr-payments.md)   
+ [Electronic Banking in Norway](../FullExperience/electronic-banking-in-norway.md)   
+ [How to: Set Up KID Numbers on Sales Documents](../FullExperience/how-to-set-up-kid-numbers-on-sales-documents.md)   
+ [How to: Set Up OCR Payments](../FullExperience/how-to-set-up-ocr-payments.md)   
  Cash Receipt Journal   
- [How to: Fill and Post General Journals](../../Finance/how-to-fill-and-post-general-journals.md)   
- [How to: Print the OCR Journal - Test Report](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-print-the-ocr-journal-test-report.md)
+ [How to: Fill and Post General Journals](../FullExperience/how-to-fill-and-post-general-journals.md)   
+ [How to: Print the OCR Journal - Test Report](../FullExperience/how-to-print-the-ocr-journal-test-report.md)

@@ -45,6 +45,6 @@ The main task in setting up a new base calendar is to specify and define the non
 >  Any base calendar defined for the vendor or the location affects how the dates are calculated and rounded to working days. For more information, see the Lead Time Calculation field on purchase lines.  
   
 ## See Also  
- [How to: Assign Base Calendars](../../Production/how-to-assign-base-calendars.md)   
- [How to: Customize a Calendar](../../Production/how-to-customize-a-calendar.md)   
- [How to: Create Work Center Calendars](../../OperationsPlanning/how-to-create-work-center-calendars.md)
+ [How to: Assign Base Calendars](../FullExperience/how-to-assign-base-calendars.md)   
+ [How to: Customize a Calendar](../FullExperience/how-to-customize-a-calendar.md)   
+ [How to: Create Work Center Calendars](../FullExperience/how-to-create-work-center-calendars.md)

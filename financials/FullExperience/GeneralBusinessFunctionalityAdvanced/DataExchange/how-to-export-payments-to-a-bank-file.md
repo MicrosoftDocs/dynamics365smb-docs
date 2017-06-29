@@ -18,25 +18,25 @@
 # How to: Export Payments to a Bank File
 When you are ready to make payments to your vendors using the **Payment Journal** window, you can export a file with the payment information on the journal lines. You can then upload the file to your electronic bank to process the related money transfers.  
   
- In the generic version of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)]-->, a global provider of services to convert bank data to any file format that your bank requires is set up and connected.  
+ In the generic version of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]-->, a global provider of services to convert bank data to any file format that your bank requires is set up and connected.  
   
 > [!NOTE]  
 >  The bank data conversion service may impose a limit on the number of lines that can be exported in one file. You will receive an error message if the limit is exceeded.  
   
- In addition, the generic version of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)]--> supports the SEPA Credit Transfer format. In your country\/region, other formats for electronic payments may be available. For more information, see [Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](../../Finance/make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
+ In addition, the generic version of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
   
- To enable export of a bank file formats that are not supported by the generic or local versions of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)]-->, you can use the Date Exchange Framework. For more information, see [How to: Set Up Data Exchange Definitions](../../BusinessFunctionality/DataExchange/how-to-set-up-data-exchange-definitions.md).  
+ To enable export of a bank file formats that are not supported by the generic or local versions of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/how-to-set-up-data-exchange-definitions.md).  
   
- Before you can export from a payment journal, you must enable export on the related journal batch. In addition, you bank account and the vendor’s bank account must be set up for electronic payment. For more information, see [How to: Set Up SEPA Credit Transfer](../../BusinessFunctionality/DataExchange/how-to-set-up-sepa-credit-transfer.md) or [How to: Set Up the Bank Data Conversion Service](../../BusinessFunctionality/DataExchange/how-to-set-up-the-bank-data-conversion-service.md).  
+ Before you can export from a payment journal, you must enable export on the related journal batch. In addition, you bank account and the vendor’s bank account must be set up for electronic payment. For more information, see [How to: Set Up SEPA Credit Transfer](../FullExperience/how-to-set-up-the-bank-data-conversion-service.md).  
   
 ### To export payments to a bank file  
   
 1.  In the **Search** box, enter **Payment Journals**, and then choose the related link.  
   
-2.  Fill payment journal lines, for example, by using the **Suggest Vendor Payments** function. For more information, see [How to: Suggest Vendor Payments](../../Finance/how-to-suggest-vendor-payments.md).  
+2.  Fill payment journal lines, for example, by using the **Suggest Vendor Payments** function. For more information, see [How to: Suggest Vendor Payments](../FullExperience/how-to-suggest-vendor-payments.md).  
   
     > [!NOTE]  
-    >  You can select how posting dates are inserted on the journal lines. For more information, see [How to: Insert Due Date as Posting Date on Payment Journal Lines](../../Finance/how-to-insert-due-date-as-posting-date-on-payment-journal-lines.md).  
+    >  You can select how posting dates are inserted on the journal lines. For more information, see [How to: Insert Due Date as Posting Date on Payment Journal Lines](../FullExperience/how-to-insert-due-date-as-posting-date-on-payment-journal-lines.md).  
   
 3.  When you have completed all payment journal lines, on the **Home** tab, in the **Bank** group, choose **Export Payments to File**.  
   
@@ -61,7 +61,7 @@ When you are ready to make payments to your vendors using the **Payment Journal*
 >  1.  In a payment journal with suggested payment lines, you can sort on either the **Exported to Payment File** column or the **Total Exported Amount** and then delete payment suggestions for open invoices for which payments have already been made and you do not want to make payments for.  
 > 2.  Alternatively, on the **Suggest Vendor Payments** batch job, where you specify which payments to insert in the payment journal, you can select the **Skip Exported Payments** check box if you do not want to insert journal lines for payments that have already been exported.  
 >   
->  To see information about exported payments, on the **Home** tab, in the **Bank** group, choose **Payment Export History**. For more information, see [How to: Re-export Payments to a Bank File](../../Finance/how-to-re-export-payments-to-a-bank-file.md).  
+>  To see information about exported payments, on the **Home** tab, in the **Bank** group, choose **Payment Export History**. For more information, see [How to: Re-export Payments to a Bank File](../FullExperience/how-to-re-export-payments-to-a-bank-file.md).  
   
 ## See Also  
  Payment Export Format   
@@ -71,11 +71,11 @@ When you are ready to make payments to your vendors using the **Payment Journal*
  Recipient Bank Account   
  Allow Payment Export   
  Suggest Vendor Payments   
- [Field Mapping When Exporting Payment Files Using Bank Data Conversion Service](../../BusinessFunctionality/DataExchange/field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)   
- [Field Mapping When Importing SEPA CAMT Files](../../BusinessFunctionality/DataExchange/field-mapping-when-importing-sepa-camt-files.md)   
- [How to: Import Bank Statements](../../BusinessFunctionality/DataExchange/how-to-import-bank-statements.md)   
+ [Field Mapping When Exporting Payment Files Using Bank Data Conversion Service](../FullExperience/field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)   
+ [Field Mapping When Importing SEPA CAMT Files](../FullExperience/field-mapping-when-importing-sepa-camt-files.md)   
+ [How to: Import Bank Statements](../FullExperience/how-to-import-bank-statements.md)   
  Ext. Doc. No. Mandatory   
- [How to: Set Up Data Exchange Definitions](../../BusinessFunctionality/DataExchange/how-to-set-up-data-exchange-definitions.md)   
- [How to: Set Up SEPA Credit Transfer](../../BusinessFunctionality/DataExchange/how-to-set-up-sepa-credit-transfer.md)   
- [How to: Suggest Vendor Payments](../../Finance/how-to-suggest-vendor-payments.md)   
- [How to: Insert Due Date as Posting Date on Payment Journal Lines](../../Finance/how-to-insert-due-date-as-posting-date-on-payment-journal-lines.md)
+ [How to: Set Up Data Exchange Definitions](../FullExperience/how-to-set-up-data-exchange-definitions.md)   
+ [How to: Set Up SEPA Credit Transfer](../FullExperience/how-to-set-up-sepa-credit-transfer.md)   
+ [How to: Suggest Vendor Payments](../FullExperience/how-to-suggest-vendor-payments.md)   
+ [How to: Insert Due Date as Posting Date on Payment Journal Lines](../FullExperience/how-to-insert-due-date-as-posting-date-on-payment-journal-lines.md)

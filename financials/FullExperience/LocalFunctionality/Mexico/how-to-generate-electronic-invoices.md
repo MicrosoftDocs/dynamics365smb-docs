@@ -16,7 +16,7 @@
 
     ---
 # How to: Generate Electronic Invoices
-In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, after you post a sales invoice you must generate an electronic invoice that will be sent to the customer. You can also export the electronic invoice as an XML file, which you can save to a specified location.  
+In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, after you post a sales invoice you must generate an electronic invoice that will be sent to the customer. You can also export the electronic invoice as an XML file, which you can save to a specified location.  
   
  The following procedure describes how to generate electronic invoices for sales invoices, but the same steps also apply to service invoices and credit memos.  
   
@@ -33,10 +33,10 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
      To verify the electronic invoice activity, in the **Posted Sales Invoice** window, on the **Invoicing** FastTab, the **Electronic Document Sent** and **No. of E-Document Submissions** fields will be updated.  
   
 > [!NOTE]  
->  ADD INCLUDE<!--[!INCLUDE[bp_refimplementation](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/includes/bp_refimplementation_md.md)]-->  
+>  ADD INCLUDE<!--[!INCLUDE[bp_refimplementation](../../includes/bp_refimplementation_md.md)]-->  
   
 ## See Also  
- [How to: Set Up Electronic Invoicing](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Mexico/how-to-set-up-electronic-invoicing.md)   
- [Electronic Invoicing](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Mexico/electronic-invoicing.md)   
+ [How to: Set Up Electronic Invoicing](../FullExperience/how-to-set-up-electronic-invoicing.md)   
+ [Electronic Invoicing](../FullExperience/electronic-invoicing.md)   
  Posted Sales Invoice   
  General Ledger Setup

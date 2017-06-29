@@ -48,6 +48,6 @@ The service statistics feature lets you gain a statistical overview of the conte
  The lines in the lower part of the **Service Credit Memo Statistics** window show the VAT details on the amounts in the posted credit memo.  
   
 ## See Also  
- [How to: View Additional Information About Posted Service Documents](../Service/how-to-view-additional-information-about-posted-service-documents.md)   
- [Service Statistics](../Service/service-statistics.md)   
+ [How to: View Additional Information About Posted Service Documents](../FullExperience/how-to-view-additional-information-about-posted-service-documents.md)   
+ [Service Statistics](../FullExperience/service-statistics.md)   
  Service Statistics

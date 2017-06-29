@@ -34,7 +34,7 @@ This walkthrough describes how you can use account schedules to make cash flow f
 ### Prerequisites  
  To complete this walkthrough, you will need:  
   
--   ADD INCLUDE<!--[!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)]--> with the ADD INCLUDE<!--[!INCLUDE[demolong](../ApplicationDesign/includes/demolong_md.md)]--> installed.  
+-   ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/demolong_md.md)]--> installed.  
   
 -   The cash flow worksheet lines are registered.  
   
@@ -44,7 +44,7 @@ This walkthrough describes how you can use account schedules to make cash flow f
 -   Controller  
   
 ## Story  
- Ken is a controller at ADD INCLUDE<!--[!INCLUDE[demoname](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/demoname_md.md)]--> who makes monthly cash flow forecasts. He includes finance, sales, purchase, and fixed assets in the forecast, and then he presents it to CFO Sara for business insight.  
+ Ken is a controller at ADD INCLUDE<!--[!INCLUDE[demoname](../../includes/demoname_md.md)]--> who makes monthly cash flow forecasts. He includes finance, sales, purchase, and fixed assets in the forecast, and then he presents it to CFO Sara for business insight.  
   
 ## Setting Up a New Account Schedule Name  
  An account schedule consists of a cash flow account schedule name with a series of lines and a column layout.  
@@ -115,11 +115,11 @@ This walkthrough describes how you can use account schedules to make cash flow f
 3.  On the **Actions** tab, in the **Functions** group, choose **Print** to print the cash flow forecast.  
   
 ## See Also  
- [How to: Create New Account Schedules](../BusinessIntelligence/how-to-create-new-account-schedules.md)   
- [How to: Set Up Account Schedule Rows Manually](../BusinessIntelligence/how-to-set-up-account-schedule-rows-manually.md)   
- [How to: Set Up Account Schedule Columns Manually](../BusinessIntelligence/how-to-set-up-account-schedule-columns-manually.md)   
- [How to: Assign Predefined Column Layouts to Account Schedules](../BusinessIntelligence/how-to-assign-predefined-column-layouts-to-account-schedules.md)   
- [How to: Create Account Schedule Columns That Calculate Percentages](../BusinessIntelligence/how-to-create-account-schedule-columns-that-calculate-percentages.md)   
- [How to: Set Up Account Schedules with Overviews](../BusinessIntelligence/how-to-set-up-account-schedules-with-overviews.md)   
+ [How to: Create New Account Schedules](../FullExperience/how-to-create-new-account-schedules.md)   
+ [How to: Set Up Account Schedule Rows Manually](../FullExperience/how-to-set-up-account-schedule-rows-manually.md)   
+ [How to: Set Up Account Schedule Columns Manually](../FullExperience/how-to-set-up-account-schedule-columns-manually.md)   
+ [How to: Assign Predefined Column Layouts to Account Schedules](../FullExperience/how-to-assign-predefined-column-layouts-to-account-schedules.md)   
+ [How to: Create Account Schedule Columns That Calculate Percentages](../FullExperience/how-to-create-account-schedule-columns-that-calculate-percentages.md)   
+ [How to: Set Up Account Schedules with Overviews](../FullExperience/how-to-set-up-account-schedules-with-overviews.md)   
  Account Schedule Names   
  Account Schedule

@@ -39,4 +39,4 @@ You cannot create an invoice without a customer number. This is true, even if yo
   
 ## See Also  
  Customer Card   
- [Manage Cash](../Finance/manage-cash.md)
+ [Manage Cash](../FullExperience/manage-cash.md)

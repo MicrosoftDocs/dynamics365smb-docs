@@ -48,8 +48,8 @@ When you have created service orders or quotes, you can make use of resource ava
 >  For a service item in a service order, there can only be **Active** allocation entries with one resource or resource group at a time.  
   
 ## See Also  
- [How to: Allocate Resources by Using the Dispatch Board](../Service/how-to-allocate-resources-by-using-the-dispatch-board.md)   
- [How to: Allocate Resources by Using Resource Group Availability](../Service/how-to-allocate-resources-by-using-resource-group-availability.md)   
- [How to: Add Resource Capacity](../Service/how-to-add-resource-capacity.md)   
- [How to: Assign Skill Codes to Resources](../Service/how-to-assign-skill-codes-to-resources.md)   
- [How to: Assign Resources to Service Zones](../Service/how-to-assign-resources-to-service-zones.md)
+ [How to: Allocate Resources by Using the Dispatch Board](../FullExperience/how-to-allocate-resources-by-using-the-dispatch-board.md)   
+ [How to: Allocate Resources by Using Resource Group Availability](../FullExperience/how-to-allocate-resources-by-using-resource-group-availability.md)   
+ [How to: Add Resource Capacity](../FullExperience/how-to-add-resource-capacity.md)   
+ [How to: Assign Skill Codes to Resources](../FullExperience/how-to-assign-skill-codes-to-resources.md)   
+ [How to: Assign Resources to Service Zones](../FullExperience/how-to-assign-resources-to-service-zones.md)

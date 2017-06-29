@@ -16,7 +16,7 @@
 
     ---
 # How to: Define Check Layouts
-In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you can design your checks to conform with the standards set by the local authorities. Check images can be printed in English, French, or Spanish.  
+In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can design your checks to conform with the standards set by the local authorities. Check images can be printed in English, French, or Spanish.  
   
  Checks are designed to print in both the United States and Canadian check image formats in either a check-stub-check format or a stub-stub-check format.  
   
@@ -28,7 +28,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
   
 3.  Use the following table to determine the ID of the report that you want to use to print checks.  
   
-    |Report ID|Report name|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |Report ID|Report name|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------|-----------------|---------------------------------------|  
     |1401|Check|This is the default report.|  
     |10401|Check \(Stub\/Stub\/Check\)|This report is designed to print checks in a stub\/stub\/check format.|  
@@ -36,10 +36,10 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
   
 4.  Choose the **OK** button.  
   
-     To print checks, see [How to: Print Checks](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-print-checks.md).  
+     To print checks, see [How to: Print Checks](../FullExperience/how-to-print-checks.md).  
   
 ## See Also  
  Check \(Stub-Check-Stub\)   
  Check \(Stub-Stub-Check\)   
  Check   
- [How to: Print Checks](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-print-checks.md)
+ [How to: Print Checks](../FullExperience/how-to-print-checks.md)

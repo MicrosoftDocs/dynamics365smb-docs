@@ -30,8 +30,8 @@ To be able to administer an employee's absence, you must register the absence in
   
 |**To**|**See**|  
 |------------|-------------|  
-|Keep track of employee absences.|[How to: Register Employee Absences](../HumanResources/how-to-register-employee-absences.md)|  
-|Get an overview of an employee's absences.|[How to: Access an Overview of a Specific Employee’s Absence](../HumanResources/how-to-access-an-overview-of-a-specific-employee’s-absence.md)|  
-|Get an overview of an employee's absences by a specific category.|[How to: Access an Overview of a Specific Employee’s Absences by Categories](../HumanResources/how-to-access-an-overview-of-a-specific-employee’s-absences-by-categories.md)|  
-|Get an overview of all employee absences by a specific category.|[How to: Access an Overview of All Employees’ Absences by Categories](../HumanResources/how-to-access-an-overview-of-all-employees’-absences-by-categories.md)|  
-|Get an overview of all employee absences for a specific period.|[How to: Access an Overview of All Employees’ Absences by Periods](../HumanResources/how-to-access-an-overview-of-all-employees’-absences-by-periods.md)|
+|Keep track of employee absences.|[How to: Register Employee Absences](../FullExperience/how-to-register-employee-absences.md)|  
+|Get an overview of an employee's absences.|[How to: Access an Overview of a Specific Employee’s Absence](../FullExperience/how-to-access-an-overview-of-a-specific-employee’s-absence.md)|  
+|Get an overview of an employee's absences by a specific category.|[How to: Access an Overview of a Specific Employee’s Absences by Categories](../FullExperience/how-to-access-an-overview-of-a-specific-employee’s-absences-by-categories.md)|  
+|Get an overview of all employee absences by a specific category.|[How to: Access an Overview of All Employees’ Absences by Categories](../FullExperience/how-to-access-an-overview-of-all-employees’-absences-by-categories.md)|  
+|Get an overview of all employee absences for a specific period.|[How to: Access an Overview of All Employees’ Absences by Periods](../FullExperience/how-to-access-an-overview-of-all-employees’-absences-by-periods.md)|

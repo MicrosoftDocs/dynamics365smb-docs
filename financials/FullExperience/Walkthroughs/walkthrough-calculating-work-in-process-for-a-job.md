@@ -37,19 +37,19 @@ With jobs, you can schedule the usage of your company's resources and keep track
  This walkthrough uses the project team member \(Tricia\) as the persona.  
   
 ## Prerequisites  
- Before you can perform the tasks in the walkthrough, the ADD INCLUDE<!--[!INCLUDE[demolong](../ApplicationDesign/includes/demolong_md.md)]--> must be installed on your computer.  
+ Before you can perform the tasks in the walkthrough, the ADD INCLUDE<!--[!INCLUDE[demolong](../../includes/demolong_md.md)]--> must be installed on your computer.  
   
 ## Story  
- This walkthrough focuses on the ADD INCLUDE<!--[!INCLUDE[demoname](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/demoname_md.md)]-->, a design and consultancy firm that designs and fits new infrastructures, such as conference halls and offices, with furniture, accessories, and storage units. Most of the work at ADD INCLUDE<!--[!INCLUDE[demo](../ApplicationDesign/includes/demo_md.md)]--> is project-oriented and Tricia, a project team member, uses jobs to have an overview of each ongoing job that ADD INCLUDE<!--[!INCLUDE[demo](../ApplicationDesign/includes/demo_md.md)]--> has started and also the jobs that are completed. Some of the jobs can be very lengthy and can run over months. Tricia can use a WIP account to record the work in process and to track the costs throughout the job.  
+ This walkthrough focuses on the ADD INCLUDE<!--[!INCLUDE[demoname](../../includes/demo_md.md)]--> has started and also the jobs that are completed. Some of the jobs can be very lengthy and can run over months. Tricia can use a WIP account to record the work in process and to track the costs throughout the job.  
   
 ## Calculating WIP  
- ADD INCLUDE<!--[!INCLUDE[demoname](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/demoname_md.md)]--> has taken on a lengthy project that has now extended across reporting periods. Tricia, a project team member, calculates the work in process \(WIP\) to make sure that the financial statement of the company will be accurate.  
+ ADD INCLUDE<!--[!INCLUDE[demoname](../../includes/demoname_md.md)]--> has taken on a lengthy project that has now extended across reporting periods. Tricia, a project team member, calculates the work in process \(WIP\) to make sure that the financial statement of the company will be accurate.  
   
  During this procedure, Tricia will select a specific group of tasks that will be included in the WIP calculation. In the **Job Task Lines** window, she can specify these lines in the **WIP-Total** column.  
   
  The following table describes the three options.  
   
-|ADD INCLUDE<!--[!INCLUDE[bp_optionsheading](../DesignAndEngineering/includes/bp_optionsheading_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+|ADD INCLUDE<!--[!INCLUDE[bp_optionsheading](../../includes/bp_tabledescription_md.md)]-->|  
 |-------------------------------------|---------------------------------------|  
 |**\<blank\>**|Leave blank if the job task is a part of a group of tasks.|  
 |**Total**|Defines the range or group of tasks that are included in the WIP and recognition calculation. Within the group, any job task with **Job Task Type** set to **Posting** will be included in the WIP Total, unless its **WIP-Total** field is set to **Excluded**.|  
@@ -63,7 +63,7 @@ With jobs, you can schedule the usage of your company's resources and keep track
   
 2.  In the **Jobs** list, select the **Deerfield** job. On the **Home** tab, in the **Manage** group, choose **Edit**. This will open the job card in edit mode.  
   
-     WIP can be calculated based on Cost Value, Sales Value, Cost of Sales, Percentage of Completion, or Completed Contract. In this example, ADD INCLUDE<!--[!INCLUDE[demo](../ApplicationDesign/includes/demo_md.md)]--> uses the Cost Value method.  
+     WIP can be calculated based on Cost Value, Sales Value, Cost of Sales, Percentage of Completion, or Completed Contract. In this example, ADD INCLUDE<!--[!INCLUDE[demo](../../includes/demo_md.md)]--> uses the Cost Value method.  
   
 3.  On the **Posting** FastTab, choose the **WIP Method** field, and then select **Cost Value**.  
   
@@ -82,7 +82,7 @@ With jobs, you can schedule the usage of your company's resources and keep track
   
 6.  In the **Job Calculate WIP** window, you can select a job that you want to calculate WIP. On the **Job** FastTab, select **Deerfield** in the **No.** field.  
   
-7.  In the **Posting Date** field, enter a date that is later than the work date set for ADD INCLUDE<!--[!INCLUDE[demoname](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/demoname_md.md)]--> For more information, see [\($ S\_WORKDATE How to: Set the Work Date $\)](../WorkingWithDynamics/-$-s_workdate-how-to-set-the-work-date-$-.md) and [How to: Enter Dates and Times](../WorkingWithDynamics/how-to-enter-dates-and-times.md).  
+7.  In the **Posting Date** field, enter a date that is later than the work date set for ADD INCLUDE<!--[!INCLUDE[demoname](../../includes/how-to-enter-dates-and-times.md).  
   
 8.  In the **Document No.** field, enter **1**. This creates a document that you can refer to later for traceability.  
   
@@ -184,10 +184,10 @@ With jobs, you can schedule the usage of your company's resources and keep track
     >  Suppose Tricia calculated and posted WIP for a job with incorrect dates. Following the method that was discussed earlier, she can reverse the incorrect postings, correct the dates, and repost to the general ledger.  
   
 ## Next Steps  
- This walkthrough has taken you through the steps of calculating WIP in ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]-->. In larger jobs, it may be useful to transfer the costs to a WIP account periodically while the job is being completed. This walkthrough has shown you how to exclude task lines from a calculation. It also shows you when you would have to recalculate. And finally, this walkthrough demonstrates how to post the WIP to the general ledger. An example of how to reverse a WIP posting to the general ledger is also included.  
+ This walkthrough has taken you through the steps of calculating WIP in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->. In larger jobs, it may be useful to transfer the costs to a WIP account periodically while the job is being completed. This walkthrough has shown you how to exclude task lines from a calculation. It also shows you when you would have to recalculate. And finally, this walkthrough demonstrates how to post the WIP to the general ledger. An example of how to reverse a WIP posting to the general ledger is also included.  
   
 ## See Also  
- [Business Process Walkthroughs](../GettingStarted/business-process-walkthroughs.md)   
- [Walkthrough: Managing Projects with Jobs](../GettingStarted/walkthrough-managing-projects-with-jobs.md)   
- [Understanding WIP Methods](../Jobs/understanding-wip-methods.md)   
- [Monitor Progress and Performance](../Jobs/monitor-progress-and-performance.md)
+ [Business Process Walkthroughs](../FullExperience/business-process-walkthroughs.md)   
+ [Walkthrough: Managing Projects with Jobs](../FullExperience/walkthrough-managing-projects-with-jobs.md)   
+ [Understanding WIP Methods](../FullExperience/understanding-wip-methods.md)   
+ [Monitor Progress and Performance](../FullExperience/monitor-progress-and-performance.md)

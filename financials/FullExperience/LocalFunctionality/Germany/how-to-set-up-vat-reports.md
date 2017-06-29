@@ -16,7 +16,7 @@
 
     ---
 # How to: Set Up VAT Reports
-Information from various invoice types is used to feed data into the EU Sales List report. To file a VAT report under the ELMA5 system from ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you need to set up report parameters.  
+Information from various invoice types is used to feed data into the EU Sales List report. To file a VAT report under the ELMA5 system from ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you need to set up report parameters.  
   
 ### To set up a VAT report  
   
@@ -26,7 +26,7 @@ Information from various invoice types is used to feed data into the EU Sales Li
   
      If the field is left blank, users must create a corrective VAT report instead.  
   
-3.  Select the **Export Cancellation Lines** check box if you want to include information about cancellation lines when you export data for the VAT report of EU sales. For more information, see [How to: Correct VAT Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-correct-vat-reports.md).  
+3.  Select the **Export Cancellation Lines** check box if you want to include information about cancellation lines when you export data for the VAT report of EU sales. For more information, see [How to: Correct VAT Reports](../FullExperience/how-to-correct-vat-reports.md).  
   
 4.  On the **Numbering** FastTab, specify the number series that will be used for standard VAT reports. This will be the default numbering series that is used on any VAT Report that you then create.  
   
@@ -39,5 +39,5 @@ Information from various invoice types is used to feed data into the EU Sales Li
 6.  Choose the **OK** button.  
   
 ## See Also  
- [VAT Reporting](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/vat-reporting.md)   
- [How to: Create VAT Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-create-vat-reports.md)
+ [VAT Reporting](../FullExperience/vat-reporting.md)   
+ [How to: Create VAT Reports](../FullExperience/how-to-create-vat-reports.md)

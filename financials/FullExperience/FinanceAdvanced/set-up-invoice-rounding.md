@@ -29,17 +29,17 @@ It may be necessary to round invoice amounts when you create invoices. Local reg
 -   Activate the function.  
   
 > [!NOTE]  
->  In addition to the invoice rounding features, amounts on invoices can be rounded by the unit-amount rounding feature and the amount rounding feature. For more information, see [Set Up Currencies](../Finance/set-up-currencies.md).  
+>  In addition to the invoice rounding features, amounts on invoices can be rounded by the unit-amount rounding feature and the amount rounding feature. For more information, see [Set Up Currencies](../FullExperience/set-up-currencies.md).  
   
  The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
   
 |**To**|**See**|  
 |------------|-------------|  
-|Set up the general ledger accounts where invoice rounding differences will be posted.|[How to: Set Up General Ledger Accounts for Invoice Rounding Differences](../Finance/how-to-set-up-general-ledger-accounts-for-invoice-rounding-differences.md)|  
-|Set up rounding rules to use the automatic invoice rounding function for invoices in local currency.|[How to: Set Up Rounding Rules for the LCY](../Finance/how-to-set-up-rounding-rules-for-the-lcy.md)|  
-|Set up rounding rules to use the automatic invoice rounding function for invoices in foreign currency.|[How to: Set Up Rounding Rules for Foreign Currency](../Finance/how-to-set-up-rounding-rules-for-foreign-currency.md)|  
-|Activate the invoice rounding function so that sales and purchase invoices are rounded automatically.|[How to: Enable the Invoice Rounding Function](../Finance/how-to-enable-the-invoice-rounding-function.md)|  
+|Set up the general ledger accounts where invoice rounding differences will be posted.|[How to: Set Up General Ledger Accounts for Invoice Rounding Differences](../FullExperience/how-to-set-up-general-ledger-accounts-for-invoice-rounding-differences.md)|  
+|Set up rounding rules to use the automatic invoice rounding function for invoices in local currency.|[How to: Set Up Rounding Rules for the LCY](../FullExperience/how-to-set-up-rounding-rules-for-the-lcy.md)|  
+|Set up rounding rules to use the automatic invoice rounding function for invoices in foreign currency.|[How to: Set Up Rounding Rules for Foreign Currency](../FullExperience/how-to-set-up-rounding-rules-for-foreign-currency.md)|  
+|Activate the invoice rounding function so that sales and purchase invoices are rounded automatically.|[How to: Enable the Invoice Rounding Function](../FullExperience/how-to-enable-the-invoice-rounding-function.md)|  
   
 ## See Also  
- [Set Up Currencies](../Finance/set-up-currencies.md)   
- [How to: Allow for Rounding Differences When You Apply Entries in Different Currencies](../Finance/how-to-allow-for-rounding-differences-when-you-apply-entries-in-different-currencies.md)
+ [Set Up Currencies](../FullExperience/set-up-currencies.md)   
+ [How to: Allow for Rounding Differences When You Apply Entries in Different Currencies](../FullExperience/how-to-allow-for-rounding-differences-when-you-apply-entries-in-different-currencies.md)

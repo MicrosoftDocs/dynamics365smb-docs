@@ -40,7 +40,7 @@ When registering service lines for service orders, you may want to register line
   
 2.  Open the service order you want to register text lines for.  
   
-3.  Select the line that includes the relevant service item. On the **Lines** FastTab, choose **Actions**![Action Menu icon](../DesignAndEngineering/media/actionmenuicon.png "actionMenuIcon"), choose **Order**, and then choose **Service Lines**.  
+3.  Select the line that includes the relevant service item. On the **Lines** FastTab, choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Order**, and then choose **Service Lines**.  
   
      If the service order requires a link between service and service items, you have to select the **Lines Not Item Related** option in the **Selection Filter** field if you want the text lines to apply to the service order in general.  
   
@@ -49,4 +49,4 @@ When registering service lines for service orders, you may want to register line
  Repeat these steps for each text line you want to register.  
   
 ## See Also  
- [How to: Insert Extended Text in Service Orders](../Sales/how-to-insert-extended-text-in-service-orders.md)
+ [How to: Insert Extended Text in Service Orders](../FullExperience/how-to-insert-extended-text-in-service-orders.md)

@@ -31,5 +31,5 @@ The **\($ R\_305 Vendor – Summary Aging $\)** report displays amounts that wil
 4.  Choose the **Print** button to print the report, or choose the **Preview** button to preview the report before printing it.  
   
 ## See Also  
- [How to: Use the Vendor - Detail Trial Balance Report](../Topic/How%20to:%20Use%20the%20Vendor%20-%20Detail%20Trial%20Balance%20Report.md)   
- [How to: Suggest Vendor Payments](../Finance/how-to-suggest-vendor-payments.md)
+ [How to: Use the Vendor - Detail Trial Balance Report](../FullExperience/How%20to:%20Use%20the%20Vendor%20-%20Detail%20Trial%20Balance%20Report.md)   
+ [How to: Suggest Vendor Payments](../FullExperience/how-to-suggest-vendor-payments.md)

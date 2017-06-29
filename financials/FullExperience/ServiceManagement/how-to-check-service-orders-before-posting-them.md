@@ -29,7 +29,7 @@ Before you post a service order, you can check whether there are any errors, or 
      All parts of the order are validated and the results are presented in a report. If the report indicates any errors or lack of information, you must correct the problem. You can then print a new test report.  
   
 ## See Also  
- [How to: Post Service Orders](../Service/how-to-post-service-orders.md)   
- [How to: Post Service Lines](../Service/how-to-post-service-lines.md)   
- [How to: Post Invoices from Service Orders](../Service/how-to-post-invoices-from-service-orders.md)   
- [How to: Create Combined Invoices](../Service/how-to-create-combined-invoices.md)
+ [How to: Post Service Orders](../FullExperience/how-to-post-service-orders.md)   
+ [How to: Post Service Lines](../FullExperience/how-to-post-service-lines.md)   
+ [How to: Post Invoices from Service Orders](../FullExperience/how-to-post-invoices-from-service-orders.md)   
+ [How to: Create Combined Invoices](../FullExperience/how-to-create-combined-invoices.md)

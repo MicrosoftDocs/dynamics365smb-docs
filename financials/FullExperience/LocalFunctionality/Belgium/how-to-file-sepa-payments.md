@@ -16,7 +16,7 @@
 
     ---
 # How to: File SEPA Payments
-In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you can use Single Euro Payments Area \(SEPA\) credit transfers to file SEPA payments with the bank.  
+In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can use Single Euro Payments Area \(SEPA\) credit transfers to file SEPA payments with the bank.  
   
  SEPA unifies payment methods in participating European countries\/regions, which makes international payments as easy to process as domestic payments. European citizens and companies can make and receive payments in euros, whether within or across national borders, with the same basic conditions, rights, and obligations, regardless of location.  
   
@@ -36,7 +36,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
   
 2.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_2000005\_N\_2\_11 Journal Template Name $\)**|Specify the general journal template for the SEPA payment report.|  
     |**\($ B\_2000005\_N\_2\_7 Journal Batch $\)**|Specify the general journal batch for the SEPA payment report.|  
@@ -49,7 +49,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
   
 ## See Also  
  File SEPA Payments   
- [How to: Set Up Export Protocols](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-export-protocols.md)   
+ [How to: Set Up Export Protocols](../FullExperience/how-to-set-up-export-protocols.md)   
  Export Protocol   
- [How to: File Non-Euro SEPA Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-file-non-euro-sepa-payments.md)   
- [How to: Activate SEPA Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-activate-sepa-payments.md)
+ [How to: File Non-Euro SEPA Payments](../FullExperience/how-to-file-non-euro-sepa-payments.md)   
+ [How to: Activate SEPA Payments](../FullExperience/how-to-activate-sepa-payments.md)

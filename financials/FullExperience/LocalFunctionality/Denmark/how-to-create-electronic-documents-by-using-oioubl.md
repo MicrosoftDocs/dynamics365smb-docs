@@ -16,7 +16,7 @@
 
     ---
 # How to: Create Electronic Documents by Using OIOUBL
-When you sell goods or services to a customer in the public sector, you must submit documents electronically. In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you can create electronic documents for invoices, credit memos, reminders, and finance charge memos. Before you can create the electronic documents, you must have set up file locations and information about the customers. For more information, see [How to: Set Up OIOUBL](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Denmark/how-to-set-up-oioubl.md) and [How to: Set Up Customers for OIOUBL](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Denmark/how-to-set-up-customers-for-oioubl.md).  
+When you sell goods or services to a customer in the public sector, you must submit documents electronically. In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-set-up-customers-for-oioubl.md).  
   
 ## Creating Electronic Documents  
  Electronic documents can only be created after a document has been posted or issued. The following sections describe how to post a sales invoice with the required information and then create an electronic sales invoice, but the same procedure applies to sales credit memos, reminders, finance charge memos, service invoices, and service credit memos.  
@@ -59,9 +59,9 @@ When you sell goods or services to a customer in the public sector, you must sub
  An XML file is created and stored at the location that was defined in the **\($ N\_459 Sales & Receivables Setup $\)** window. You can now submit the document to the customer.  
   
 ## See Also  
- [How to: Set Up OIOUBL](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Denmark/how-to-set-up-oioubl.md)   
- [How to: Set Up Customers for OIOUBL](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Denmark/how-to-set-up-customers-for-oioubl.md)   
- [OIOUBL Electronic Invoicing Overview](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Denmark/oioubl-electronic-invoicing-overview.md)   
+ [How to: Set Up OIOUBL](../FullExperience/how-to-set-up-oioubl.md)   
+ [How to: Set Up Customers for OIOUBL](../FullExperience/how-to-set-up-customers-for-oioubl.md)   
+ [OIOUBL Electronic Invoicing Overview](../FullExperience/oioubl-electronic-invoicing-overview.md)   
  Create Electronic Invoices   
  Create Electronic Credit Memos   
  Create Electronic Reminders   

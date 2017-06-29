@@ -40,7 +40,7 @@ The system must keep a constant control of item availability in the warehouse, s
   
  The following diagram shows the different elements of the calculation.  
   
- ![Available to pick, with reservation overlap](../ApplicationDesign/media/design_details_warehouse_management_availability_2.png "design\_details\_warehouse\_management\_availability\_2")  
+ ![Available to pick, with reservation overlap](../FullExperience/media/design_details_warehouse_management_availability_2.png "design\_details\_warehouse\_management\_availability\_2")  
   
 ## Quantity Available to Reserve  
  Because the concepts of bin content and reservation co-exist, the quantity of items that are available to reserve must be aligned with allocations to outbound warehouse documents.  
@@ -70,7 +70,7 @@ The system must keep a constant control of item availability in the warehouse, s
   
  The following diagram shows the different elements of the calculation.  
   
- ![Avaliable to reserve, per warehouse allocations](../ApplicationDesign/media/design_details_warehouse_management_availability_3.png "design\_details\_warehouse\_management\_availability\_3")  
+ ![Avaliable to reserve, per warehouse allocations](../FullExperience/media/design_details_warehouse_management_availability_3.png "design\_details\_warehouse\_management\_availability\_3")  
   
 ## See Also  
- [Design Details: Warehouse Management](../ApplicationDesign/design-details-warehouse-management.md)
+ [Design Details: Warehouse Management](../FullExperience/design-details-warehouse-management.md)

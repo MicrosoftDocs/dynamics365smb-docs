@@ -26,10 +26,10 @@ Using this procedure, you can invoice the customer for services provided on diff
   
 3.  Specify the customer you want to invoice and fill in the document header.  
   
-4.  On the **Lines** FastTab, choose **Actions**![Action Menu icon](../DesignAndEngineering/media/actionmenuicon.png "actionMenuIcon"), choose **Functions**, and then choose **Get Shipment Lines**. The **Get Service Shipment Lines** window displays all the shipped but not invoiced lines for the specified customer.  
+4.  On the **Lines** FastTab, choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Functions**, and then choose **Get Shipment Lines**. The **Get Service Shipment Lines** window displays all the shipped but not invoiced lines for the specified customer.  
   
 5.  In the **Get Service Shipment Lines** window, select the lines for the service you want to invoice, and then choose the **OK** button to insert the service shipment lines into the invoice. The selected lines are copied to the service invoice.  
   
 ## See Also  
- [How to: Invoice Posted Shipment Lines](../Service/how-to-invoice-posted-shipment-lines.md)   
- [How to: Get Service Shipment Lines](../Service/how-to-get-service-shipment-lines.md)
+ [How to: Invoice Posted Shipment Lines](../FullExperience/how-to-invoice-posted-shipment-lines.md)   
+ [How to: Get Service Shipment Lines](../FullExperience/how-to-get-service-shipment-lines.md)

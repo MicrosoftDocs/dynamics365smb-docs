@@ -16,17 +16,17 @@
 
     ---
 # About the Data Exchange Framework
-The format of files for exchange of data in bank files, electronic documents, currency exchange rates, and other with ERP systems vary depending on the provider of the data file or stream and on the country\/region. The generic version of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)]--> supports various bank file formats and data service standards. To provide support for other electronic document formats, you use the Data Exchange Framework. For more information, see [Data Exchange](../../BusinessFunctionality/DataExchange/data-exchange.md).  
+The format of files for exchange of data in bank files, electronic documents, currency exchange rates, and other with ERP systems vary depending on the provider of the data file or stream and on the country\/region. The generic version of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/data-exchange.md).  
   
  The following diagrams show the architecture of the Data Exchange Framework.  
   
- ![Data Exchange Framework &#45; Import](../../BusinessFunctionality/DataExchange/media/nav_dataexchangeframework_import.png "NAV\_DataExchangeFramework\_Import")  
+ ![Data Exchange Framework &#45; Import](../FullExperience/media/nav_dataexchangeframework_import.png "NAV\_DataExchangeFramework\_Import")  
   
- ![Data Exchange Framework &#45; Export](../../BusinessFunctionality/DataExchange/media/nav_dataexchangeframework_export.png "NAV\_DataExchangeFramework\_Export")  
+ ![Data Exchange Framework &#45; Export](../FullExperience/media/nav_dataexchangeframework_export.png "NAV\_DataExchangeFramework\_Export")  
   
 ## See Also  
  Data Exchange Definition   
  Bank Export-Import Setup   
  Data Exchange Mapping   
- [Data Exchange](../../BusinessFunctionality/DataExchange/data-exchange.md)   
- [How to: Use XML Schemas to Prepare Data Exchange Definitions](../../BusinessFunctionality/DataExchange/how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)
+ [Data Exchange](../FullExperience/data-exchange.md)   
+ [How to: Use XML Schemas to Prepare Data Exchange Definitions](../FullExperience/how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)

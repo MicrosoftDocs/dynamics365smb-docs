@@ -16,7 +16,7 @@
 
     ---
 # How to: Set Up Job Queues
-You can set up a job queue and specify the order in which designated reports, batch jobs, and codeunits are set up to run. The ADD INCLUDE<!--[!INCLUDE[nav_server](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_server_md.md)]--> reads from the job queue and determines which job to run next. When you set up a job queue, you can specify on which computer and on which service the job queue is to run.  
+You can set up a job queue and specify the order in which designated reports, batch jobs, and codeunits are set up to run. The ADD INCLUDE<!--[!INCLUDE[nav_server](../../includes/nav_server_md.md)]--> reads from the job queue and determines which job to run next. When you set up a job queue, you can specify on which computer and on which service the job queue is to run.  
   
  You can also create a NAV server instance that is dedicated to your job queue. This is useful when a job will need specific permissions, when a job has a heavy usage of resources, or when you want to separate of job queues. To do so, you specify startup parameters for NAS services.  
   
@@ -28,7 +28,7 @@ You can set up a job queue and specify the order in which designated reports, ba
   
 3.  On the **General** FastTab, in the **Code** field, enter a code for the job queue. In the **Description** field, enter a description of the job queue. You can enter up to 30 characters.  
   
-4.  Optionally, in the **Job Queue Category Filter** field, choose a filter that applies. For more information, see [How to: Create Job Queue Categories](../SetupAndAdministration/how-to-create-job-queue-categories.md).  
+4.  Optionally, in the **Job Queue Category Filter** field, choose a filter that applies. For more information, see [How to: Create Job Queue Categories](../FullExperience/how-to-create-job-queue-categories.md).  
   
      The remaining fields on the **General** FastTab are informational, and will be filled in after you start the job queue.  
   
@@ -40,7 +40,7 @@ You can set up a job queue and specify the order in which designated reports, ba
   
      To stop the job queue, on the **Home** tab, choose **Stop Job Queue**.  
   
- On the **NAS Settings** FastTab, you can set fields if you want to specify on which computer and which server instance the NAS that you want to run the job queue will be running. This can be important when you are fine tuning performance or when a server instance or computer is set up to handle specific ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> functionality. If you do not specify a server or computer, the job queue will run with the services that the client is running on.  
+ On the **NAS Settings** FastTab, you can set fields if you want to specify on which computer and which server instance the NAS that you want to run the job queue will be running. This can be important when you are fine tuning performance or when a server instance or computer is set up to handle specific ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> functionality. If you do not specify a server or computer, the job queue will run with the services that the client is running on.  
   
 ### To specify NAS settings  
   
@@ -58,10 +58,10 @@ You can set up a job queue and specify the order in which designated reports, ba
   
      Manually: On the **Process** tab, choose **Start Job Queue**. To stop the job queue, choose **Stop Job Queue**.  
   
- The next step is to create entries for your job queue. A job queue can have many entries, which are the jobs that the queue manages and runs. Information in the entry specifies how often the job should run, and when it should run. For more information, see [How to: Create Job Queue Entries](../SetupAndAdministration/how-to-create-job-queue-entries.md).  
+ The next step is to create entries for your job queue. A job queue can have many entries, which are the jobs that the queue manages and runs. Information in the entry specifies how often the job should run, and when it should run. For more information, see [How to: Create Job Queue Entries](../FullExperience/how-to-create-job-queue-entries.md).  
   
 ## See Also  
  Job Queues   
- [About Job Queues](../SetupAndAdministration/about-job-queues.md)   
+ [About Job Queues](../FullExperience/about-job-queues.md)   
  Job Queue Entries   
- [Configuring NAS Services](../Topic/Configuring%20NAS%20Services.md)
+ [Configuring NAS Services](../FullExperience/Configuring%20NAS%20Services.md)

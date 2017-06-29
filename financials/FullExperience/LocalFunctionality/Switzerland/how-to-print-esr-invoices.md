@@ -35,7 +35,7 @@ You can print an Einzahlungsschein mit Referenznummer \(ESR\) payment slip in th
   
 2.  In the **Sales Invoice ESR** batch job, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_3010532\_F\_1\_1150006 No. of copies $\)**|Enter the required number of report copies.|  
     |**\($ B\_3010532\_F\_1\_1150003 ESR Bank $\)**|Select the ESR bank code that is to be printed in the report.<br /><br /> If the value in this field is \<Blank\> and the ESR payment method code is not defined in the **ESR Setup** window, then the ESR main bank selected in the **ESR Setup** window will be printed.|  
@@ -47,7 +47,7 @@ You can print an Einzahlungsschein mit Referenznummer \(ESR\) payment slip in th
      You can also reprint the sales invoice ESR report or sales ESR coupon report.  
   
 ## See Also  
- [Swiss Electronic Payments Using ESR](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/swiss-electronic-payments-using-esr.md)   
- [How to: Import ESR Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-import-esr-payments.md)   
+ [Swiss Electronic Payments Using ESR](../FullExperience/swiss-electronic-payments-using-esr.md)   
+ [How to: Import ESR Payments](../FullExperience/how-to-import-esr-payments.md)   
  ESR Setup   
  Printer Selection

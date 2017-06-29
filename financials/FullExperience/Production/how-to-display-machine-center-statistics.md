@@ -29,6 +29,6 @@ You can view machine center statistics to get information about expected and act
 4.  Close the window.  
   
 ## See Also  
- [Structure of the Capacity](../Production/structure-of-the-capacity.md)   
- [How to: Set Up Machine Centers](../Production/how-to-set-up-machine-centers.md)   
- [How to: Display Work Center Statistics](../Production/how-to-display-work-center-statistics.md)
+ [Structure of the Capacity](../FullExperience/structure-of-the-capacity.md)   
+ [How to: Set Up Machine Centers](../FullExperience/how-to-set-up-machine-centers.md)   
+ [How to: Display Work Center Statistics](../FullExperience/how-to-display-work-center-statistics.md)

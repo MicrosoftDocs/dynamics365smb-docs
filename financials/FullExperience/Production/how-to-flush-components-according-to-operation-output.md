@@ -18,7 +18,7 @@
 # How to: Flush Components According to Operation Output
 For items that are set up with backward flushing method, the default behavior is to calculate and post component consumption when you change the status of a released production order to **Finished**. For more information, see Flushing Method.  
   
- If you also define routing link codes, then calculation and posting occurs when each operation is finished, and the quantity that was actually consumed in the operation is posted. For more information, see [How to: Create Routing Links](../DesignAndEngineering/how-to-create-routing-links.md).  
+ If you also define routing link codes, then calculation and posting occurs when each operation is finished, and the quantity that was actually consumed in the operation is posted. For more information, see [How to: Create Routing Links](../FullExperience/how-to-create-routing-links.md).  
   
  For example, if a production order to produce 800 meters requires 8 kg of a component, then when you post 200 meters as output, 2 kg are automatically posted as consumption.  
   
@@ -45,11 +45,11 @@ For items that are set up with backward flushing method, the default behavior is
   
 4.  In the **Search** box, enter **Routings**, and then choose the related link.  
   
-5.  Define routing link codes for every operation that consumes the component. For more information, see [How to: Create Routing Links](../DesignAndEngineering/how-to-create-routing-links.md).  
+5.  Define routing link codes for every operation that consumes the component. For more information, see [How to: Create Routing Links](../FullExperience/how-to-create-routing-links.md).  
   
 6.  In the **Search** box, enter **Production BOM**, and then choose the related link.  
   
-7.  Define routing link codes from each instance of the component to the operation where it is consumed. For more information, see [How to: Create Routing Links](../DesignAndEngineering/how-to-create-routing-links.md).  
+7.  Define routing link codes from each instance of the component to the operation where it is consumed. For more information, see [How to: Create Routing Links](../FullExperience/how-to-create-routing-links.md).  
   
     > [!IMPORTANT]  
     >  The component must have a routing link to the last operation in the routing.  
@@ -57,4 +57,4 @@ For items that are set up with backward flushing method, the default behavior is
 ## See Also  
  Routing Link Code   
  Flushing Method   
- [How to: Create Routing Links](../DesignAndEngineering/how-to-create-routing-links.md)
+ [How to: Create Routing Links](../FullExperience/how-to-create-routing-links.md)

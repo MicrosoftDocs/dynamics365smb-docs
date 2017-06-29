@@ -42,6 +42,6 @@ You can use a contract service credit memo when a customer cancels a prepaid ser
  To manually create a credit memo when contract lines are removed from a service contract, in the **Service Contract** window, on the **Actions** tab, in the **Functions** group, choose **Credit Memo**.  
   
 ## See Also  
- [How to: Remove Contract Lines](../Service/how-to-remove-contract-lines.md)   
- [How to: Cancel Contracts](../Service/how-to-cancel-contracts.md)   
+ [How to: Remove Contract Lines](../FullExperience/how-to-remove-contract-lines.md)   
+ [How to: Cancel Contracts](../FullExperience/how-to-cancel-contracts.md)   
  Get Prepaid Contract Entries

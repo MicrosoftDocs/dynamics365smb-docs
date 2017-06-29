@@ -24,7 +24,7 @@ You can export financial transactions for a particular period to an XML file for
   
 2.  In the **Export G\/L Entries to XML** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Starting Date**|Sets the starting date to export the financial transactions.|  
     |**Ending Date**|Sets the ending date to export the financial transactions.|  
@@ -37,4 +37,4 @@ You can export financial transactions for a particular period to an XML file for
     >  If you have set the start date and end date to include the entire fiscal year, the process can take several minutes.  
   
 ## See Also  
- [How to: Print General Ledger Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-print-general-ledger-reports.md)
+ [How to: Print General Ledger Reports](../FullExperience/how-to-print-general-ledger-reports.md)

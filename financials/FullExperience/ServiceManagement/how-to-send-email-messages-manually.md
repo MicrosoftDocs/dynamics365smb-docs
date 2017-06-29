@@ -29,6 +29,6 @@ If you have not set up a job queue to send email messages to customers or a mess
 4.  On the **Navigate** tab, in the **Queue** group, choose **Send E-Mail**. A dialog box opens. Choose the **OK** button to confirm sending the message.  
   
 ## See Also  
- [How to: View the Service Email Queue](../Service/how-to-view-the-service-email-queue.md)   
+ [How to: View the Service Email Queue](../FullExperience/how-to-view-the-service-email-queue.md)   
  Service E-Mail Queue   
  Job Queue Entries

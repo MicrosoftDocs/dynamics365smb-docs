@@ -16,14 +16,14 @@
 
     ---
 # How to: Complete the Configuration Questionnaire
-You use the setup questionnaire to structure and document a detailed discussion about the customer’s specific needs. You also use it to collect setup data from the customer to configure the relevant ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> setup tables, such as the general ledger, inventory, and customers.  
+You use the setup questionnaire to structure and document a detailed discussion about the customer’s specific needs. You also use it to collect setup data from the customer to configure the relevant ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> setup tables, such as the general ledger, inventory, and customers.  
   
 > [!NOTE]  
 >  You can also create your own setup questionnaire to meet your needs.  
   
 ### To complete the setup questionnaire  
   
-1.  In the ADD INCLUDE<!--[!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)]-->, select the company for which you want to complete the questionnaire. For more information, see [\($ S\_COMPANY How to: Select a Company $\)](../WorkingWithDynamics/-$-s_company-how-to-select-a-company-$-.md).  
+1.  In the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/-$-s_company-how-to-select-a-company-$-.md).  
   
 2.  In the **Search** box, enter **Configuration Questionnaire**, and then choose the related link.  
   
@@ -45,7 +45,7 @@ You use the setup questionnaire to structure and document a detailed discussion 
   
      On the **Home** tab, in the **Process** group, choose **Question Areas** to begin the process of validating and applying the answers to the setup questionnaire.  
   
- You can now review the completed setup questionnaire before applying the data to the ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> database.  
+ You can now review the completed setup questionnaire before applying the data to the ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> database.  
   
  The next procedure provides an alternative way of accessing configuration questionnaires. It assumes that the configuration package that you have been provided includes questionnaires.  
   
@@ -60,6 +60,6 @@ You use the setup questionnaire to structure and document a detailed discussion 
 4.  Choose the **OK** button to close the questionnaire.  
   
 ## See Also  
- [How to: Create a New Company](../SetupAndAdministration/how-to-create-a-new-company.md)   
- [How to: Validate the Configuration Questionnaire](../SetupAndAdministration/how-to-validate-the-configuration-questionnaire.md)   
- [How to: Create Configuration Questionnaires](../SetupAndAdministration/how-to-create-configuration-questionnaires.md)
+ [How to: Create a New Company](../FullExperience/how-to-create-a-new-company.md)   
+ [How to: Validate the Configuration Questionnaire](../FullExperience/how-to-validate-the-configuration-questionnaire.md)   
+ [How to: Create Configuration Questionnaires](../FullExperience/how-to-create-configuration-questionnaires.md)

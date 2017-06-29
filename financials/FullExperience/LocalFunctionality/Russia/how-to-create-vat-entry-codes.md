@@ -27,11 +27,11 @@ Invoices must specify a VAT entry type code. The VAT entry type codes are based 
   
 2.  In the **VAT Entry Types** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Code**|Specify a unique code for the VAT entry type. The code must be two characters long.|  
     |**Description**|Specify a description of the VAT entry.|  
     |**Comment**|Specify a comment, such as a description of when the code must be used.<br /><br /> The maximum length of the comment is 250 characters.|  
   
 ## See Also  
- [VAT](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/vat.md)
+ [VAT](../FullExperience/vat.md)

@@ -29,9 +29,9 @@ To test the domiciliation journal lines, you can use the **Domiciliation Journal
 4.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [Belgian Electronic Banking](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/belgian-electronic-banking.md)   
- [Direct Debit Using Domiciliation](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/direct-debit-using-domiciliation.md)   
- [How to: Set Up Domiciliations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-domiciliations.md)   
- [How to: Generate Domiciliation Suggestions](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-generate-domiciliation-suggestions.md)   
- [How to: Edit and Delete Domiciliation Lines](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-edit-and-delete-domiciliation-lines.md)   
- [How to: Export and Post Domiciliations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-export-and-post-domiciliations.md)
+ [Belgian Electronic Banking](../FullExperience/belgian-electronic-banking.md)   
+ [Direct Debit Using Domiciliation](../FullExperience/direct-debit-using-domiciliation.md)   
+ [How to: Set Up Domiciliations](../FullExperience/how-to-set-up-domiciliations.md)   
+ [How to: Generate Domiciliation Suggestions](../FullExperience/how-to-generate-domiciliation-suggestions.md)   
+ [How to: Edit and Delete Domiciliation Lines](../FullExperience/how-to-edit-and-delete-domiciliation-lines.md)   
+ [How to: Export and Post Domiciliations](../FullExperience/how-to-export-and-post-domiciliations.md)

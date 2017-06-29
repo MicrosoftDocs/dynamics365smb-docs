@@ -20,7 +20,7 @@ The **Costing Method** on the item card defines item’s cost flow is recorded a
   
  Setting the correct costing method according to item type and business environment is important to ensure economical inventories.  
   
- The following table provides best practices on how to set up the **Costing Method** field. For more information, see [Design Details: Costing Methods](../ApplicationDesign/design-details-costing-methods.md).  
+ The following table provides best practices on how to set up the **Costing Method** field. For more information, see [Design Details: Costing Methods](../FullExperience/design-details-costing-methods.md).  
   
 |Setup option|Best practice|Comment|  
 |------------------|-------------------|-------------|  
@@ -31,6 +31,6 @@ The **Costing Method** on the item card defines item’s cost flow is recorded a
 |Standard|Use where cost control is critical.<br /><br /> Use in repetitive manufacturing, to value the costs of direct material, direct labor, and manufacturing overhead.<br /><br /> Use where there is discipline and staff to maintain standards.|An item’s unit cost is preset based on estimated.<br /><br /> When the actual cost is realized later, the standard cost must be adjusted to the actual cost through variance values.|  
   
 ## See Also  
- [Design Details: Costing Methods](../ApplicationDesign/design-details-costing-methods.md)   
- [Design Details: Inventory Costing](../ApplicationDesign/design-details-inventory-costing.md)   
- [Set Up a Company With RapidStart Services for Microsoft Dynamics NAV](../SetupAndAdministration/set-up-a-company-with-rapidstart-services-for-microsoft-dynamics-nav.md)
+ [Design Details: Costing Methods](../FullExperience/design-details-costing-methods.md)   
+ [Design Details: Inventory Costing](../FullExperience/design-details-inventory-costing.md)   
+ [Set Up a Company With RapidStart Services for Microsoft Dynamics NAV](../FullExperience/set-up-a-company-with-rapidstart-services-for-microsoft-dynamics-nav.md)

@@ -46,5 +46,5 @@ You can invoice service contracts periodically. The invoice period for each cont
 >  It is not possible to create service invoices for the service contract when the **Change Status** field value is set to **Open**.  
   
 ## See Also  
- [Changing the Service Contract Status](../Service/changing-the-service-contract-status.md)   
- [How to: Create Service Contracts and Service Contract Quotes](../Service/how-to-create-service-contracts-and-service-contract-quotes.md)
+ [Changing the Service Contract Status](../FullExperience/changing-the-service-contract-status.md)   
+ [How to: Create Service Contracts and Service Contract Quotes](../FullExperience/how-to-create-service-contracts-and-service-contract-quotes.md)

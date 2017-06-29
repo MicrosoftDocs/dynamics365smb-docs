@@ -16,7 +16,7 @@
 
     ---
 # How to: Set Up Routing Link Codes
-The BOM position is not assigned to a special position in the routing but to a routing link code in the **Production BOM** window. The routing line is also assigned to a routing link code in the **Routing** window. ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> is very flexible due to this linking of BOM and routing. The positions can be changed as required, without changing the relationships between the BOM and the routing.  
+The BOM position is not assigned to a special position in the routing but to a routing link code in the **Production BOM** window. The routing line is also assigned to a routing link code in the **Routing** window. ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> is very flexible due to this linking of BOM and routing. The positions can be changed as required, without changing the relationships between the BOM and the routing.  
   
 ### To set up routing link codes  
   
@@ -27,6 +27,6 @@ The BOM position is not assigned to a special position in the routing but to a r
 3.  In the **Description** field, enter a text that describes the routing link code.  
   
 ## See Also  
- [How to: Create Routing Links](../DesignAndEngineering/how-to-create-routing-links.md)   
- [How to: Create Routings](../DesignAndEngineering/how-to-create-routings.md)   
- [How to: Create Production BOMs](../DesignAndEngineering/how-to-create-production-boms.md)
+ [How to: Create Routing Links](../FullExperience/how-to-create-routing-links.md)   
+ [How to: Create Routings](../FullExperience/how-to-create-routings.md)   
+ [How to: Create Production BOMs](../FullExperience/how-to-create-production-boms.md)

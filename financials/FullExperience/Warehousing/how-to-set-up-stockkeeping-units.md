@@ -38,4 +38,4 @@ You can use stockkeeping units to record information about your items for a spec
 >  To create several stockkeeping units for an item, use the **Create Stockkeeping Unit** batch job.  
   
 ## See Also  
- [How to: Register New Products](../DesignAndEngineering/how-to-register-new-products.md)
+ [How to: Register New Products](../FullExperience/how-to-register-new-products.md)

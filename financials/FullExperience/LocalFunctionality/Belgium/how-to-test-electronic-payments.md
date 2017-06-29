@@ -48,7 +48,7 @@ After you have set up electronic banking and generated payment suggestions, you 
 4.  Enter the payment journal line information. On the **Home** tab, in the **Process** group, choose **Check Payment Lines** to validate the payment journal lines. The validation that is performed on the journal lines depends on the type of check that is specified in the **Export Protocols** window.  
   
 ## See Also  
- [Belgian Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/belgian-electronic-payments.md)   
- [How to: Set Up Vendors for Automatic Payment Suggestions](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-vendors-for-automatic-payment-suggestions.md)   
- [How to: Generate Payment Suggestions](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-generate-payment-suggestions.md)   
- [How to: Print Payment Files](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-print-payment-files.md)
+ [Belgian Electronic Payments](../FullExperience/belgian-electronic-payments.md)   
+ [How to: Set Up Vendors for Automatic Payment Suggestions](../FullExperience/how-to-set-up-vendors-for-automatic-payment-suggestions.md)   
+ [How to: Generate Payment Suggestions](../FullExperience/how-to-generate-payment-suggestions.md)   
+ [How to: Print Payment Files](../FullExperience/how-to-print-payment-files.md)

@@ -21,7 +21,7 @@ Static allocation method is based on a definite value, such as square meters use
  This topic describes how to define three new allocation target cost objects for the allocation source PROD cost center using the established allocation ratio 5:2:4. The three target cost objects are ACCESSO, PAINT, and FITTINGS.  
   
 > [!NOTE]  
->  The example uses the demo data in the ADD INCLUDE<!--[!INCLUDE[demolong](../ApplicationDesign/includes/demolong_md.md)]-->.  
+>  The example uses the demo data in the ADD INCLUDE<!--[!INCLUDE[demolong](../../includes/demolong_md.md)]-->.  
   
 ### To define the allocation source PROD cost center on the General FastTab  
   
@@ -72,11 +72,11 @@ Static allocation method is based on a definite value, such as square meters use
 15. On the third line, in the **Share** field, enter the allocation ratio **4**.  
   
 > [!IMPORTANT]  
->  ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> automatically calculates the **Percent** field using a percentage rate that is dependent on all three allocation ratios that are entered in the **Share** field for all three lines.  
+>  ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> automatically calculates the **Percent** field using a percentage rate that is dependent on all three allocation ratios that are entered in the **Share** field for all three lines.  
   
 ## See Also  
- [How to: Set Up Allocation Source and Targets](../Finance/how-to-set-up-allocation-source-and-targets.md)   
+ [How to: Set Up Allocation Source and Targets](../FullExperience/how-to-set-up-allocation-source-and-targets.md)   
  Cost Allocation   
- [Define and Allocate Costs](../Finance/define-and-allocate-costs.md)   
- [Scenario Example: Defining Dynamic Allocations Based on Items Sold](../Finance/scenario-example-defining-dynamic-allocations-based-on-items-sold.md)   
- [Define and Allocate Costs](../Finance/define-and-allocate-costs.md)
+ [Define and Allocate Costs](../FullExperience/define-and-allocate-costs.md)   
+ [Scenario Example: Defining Dynamic Allocations Based on Items Sold](../FullExperience/scenario-example-defining-dynamic-allocations-based-on-items-sold.md)   
+ [Define and Allocate Costs](../FullExperience/define-and-allocate-costs.md)

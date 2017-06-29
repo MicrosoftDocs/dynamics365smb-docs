@@ -18,7 +18,7 @@
 # How to: Create Purchase Credit Memos
 You usually receive purchase credit memos when you return items to a vendor, but you can also receive them as compensation, such as a purchase allowance. In addition, you can use a credit memo to correct an incorrect purchase invoice.  
   
- When you post the credit memo, ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> creates a posted credit memo. If you have selected the **Return Shipment on Credit Memo** field, posting the credit memo will also create a posted return shipment.  
+ When you post the credit memo, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> creates a posted credit memo. If you have selected the **Return Shipment on Credit Memo** field, posting the credit memo will also create a posted return shipment.  
   
  From the credit memo, you can copy all types of purchase documents, quotes, orders, invoices, receipts, and return shipments.  
   
@@ -47,7 +47,7 @@ You usually receive purchase credit memos when you return items to a vendor, but
     -   You can use the **Get Posted Document Lines to Reverse** function to copy one or more posted document lines from one or more posted documents to the new credit memo document. This function’s purpose is to allow you to exactly reverse the costs from the posted document line. This function always exactly reverses the costs from the posted document line, regardless of whether exact cost reversing is set up as required in the purchases and payables setup.   
         When you use either of these functions, and, in the case of the **Copy Document** batch job, when you have also set up exact cost reversing as mandatory in the purchases and payables setup, the original item ledger entries in the **Appl.-to Item Entry** field are linked to ensure that the costs are copied from the original posted document.  
   
-         If the line has item tracking, ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> cannot provide exact cost reversing, because the reservation is not available from the purchase credit memo document. You can use the purchase return order for exact cost reversing of an item-tracked line.  
+         If the line has item tracking, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> cannot provide exact cost reversing, because the reservation is not available from the purchase credit memo document. You can use the purchase return order for exact cost reversing of an item-tracked line.  
   
 9. If the credit memo will be applied to a specific posted invoice, you can open that invoice in the **Posted Purchase Invoices** window.  
   
@@ -57,7 +57,7 @@ You usually receive purchase credit memos when you return items to a vendor, but
 >  Exact cost reversing of item tracking lines is not available from the Purchase Credit Memo document. If you want to use exact cost reversing with item tracking lines, use the Purchase Order or Purchase Return Order document instead.  
   
 ## See Also  
- [Correction of Incorrect Posted Documents](../Finance/correction-of-incorrect-posted-documents.md)   
- [How to: Copy Information from Purchase Documents to Purchase Credit Memos](../Finance/how-to-copy-information-from-purchase-documents-to-purchase-credit-memos.md)   
- [How to: View Purchase Credit Memo Statistics](../Finance/how-to-view-purchase-credit-memo-statistics.md)   
- [How to: Assign Item Charges to Purchase Documents](../Topic/How%20to:%20Assign%20Item%20Charges%20to%20Purchase%20Documents.md)
+ [Correction of Incorrect Posted Documents](../FullExperience/correction-of-incorrect-posted-documents.md)   
+ [How to: Copy Information from Purchase Documents to Purchase Credit Memos](../FullExperience/how-to-copy-information-from-purchase-documents-to-purchase-credit-memos.md)   
+ [How to: View Purchase Credit Memo Statistics](../FullExperience/how-to-view-purchase-credit-memo-statistics.md)   
+ [How to: Assign Item Charges to Purchase Documents](../FullExperience/How%20to:%20Assign%20Item%20Charges%20to%20Purchase%20Documents.md)

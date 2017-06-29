@@ -16,7 +16,7 @@
 
     ---
 # How to: Reconcile Bank Accounts by Using Bank Statements
-ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> provides a **Bank Rec.Worksheet** that you can use to reconcile bank account ledger entries with bank statements.  
+ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> provides a **Bank Rec.Worksheet** that you can use to reconcile bank account ledger entries with bank statements.  
   
 ### To reconcile bank accounts with bank statements  
   
@@ -26,7 +26,7 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]
   
 3.  On the **General** FastTab, fill in the required fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Bank Account No.**|The bank account number to reconcile.|  
     |**Statement No.**|The bank statement number to reconcile.|  
@@ -38,9 +38,9 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]
     > [!NOTE]  
     >  In the **Functions** group, you can also select the following bank reconciliation functions: suggest lines, clear lines, record adjustments, and recalculate the general ledger balance.  
   
-5.  In the **Bank Rec. Process Lines** batch job, on the **ADD INCLUDE<!--[!INCLUDE[bp_optionsheading](../../DesignAndEngineering/includes/bp_optionsheading_md.md)]-->** FastTab, fill in the fields as described in the following table.  
+5.  In the **Bank Rec. Process Lines** batch job, on the **ADD INCLUDE<!--[!INCLUDE[bp_optionsheading](../../includes/bp_optionsheading_md.md)]-->** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Record type to process**|Specify the type as **Checks**, **Deposits**, or **Both**.|  
     |**Mark lines as cleared**|Select to process the option selected in the **Record type to process** field.|  
@@ -57,8 +57,8 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]
 9. On the **Actions** tab, in the **Posting** group, choose **Post**.  
   
 ## See Also  
- [How to: Fill In Bank Reconciliations](../../Finance/how-to-fill-in-bank-reconciliations.md)   
- [How to: Post Bank Reconciliations](../../Finance/how-to-post-bank-reconciliations.md)   
- [How to: Post a Bank Reconciliation](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-post-a-bank-reconciliation.md)   
- [How to: Print Bank Reconciliation Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-print-bank-reconciliation-reports.md)   
+ [How to: Fill In Bank Reconciliations](../FullExperience/how-to-fill-in-bank-reconciliations.md)   
+ [How to: Post Bank Reconciliations](../FullExperience/how-to-post-bank-reconciliations.md)   
+ [How to: Post a Bank Reconciliation](../FullExperience/how-to-post-a-bank-reconciliation.md)   
+ [How to: Print Bank Reconciliation Reports](../FullExperience/how-to-print-bank-reconciliation-reports.md)   
  Bank Account Ledger Entries

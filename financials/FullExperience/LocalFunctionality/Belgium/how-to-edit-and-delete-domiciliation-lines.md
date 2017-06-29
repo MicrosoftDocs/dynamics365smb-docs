@@ -41,9 +41,9 @@ After you have generated domiciliation suggestions, you may want to change the d
 4.  Choose the **Yes** button.  
   
 ## See Also  
- [Direct Debit Using Domiciliation](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/direct-debit-using-domiciliation.md)   
- [How to: Set Up Domiciliations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-domiciliations.md)   
- [How to: Generate Domiciliation Suggestions](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-generate-domiciliation-suggestions.md)   
- [How to: Test Domiciliations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-test-domiciliations.md)   
- [How to: Edit and Delete Domiciliation Lines](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-edit-and-delete-domiciliation-lines.md)   
- [How to: Export and Post Domiciliations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-export-and-post-domiciliations.md)
+ [Direct Debit Using Domiciliation](../FullExperience/direct-debit-using-domiciliation.md)   
+ [How to: Set Up Domiciliations](../FullExperience/how-to-set-up-domiciliations.md)   
+ [How to: Generate Domiciliation Suggestions](../FullExperience/how-to-generate-domiciliation-suggestions.md)   
+ [How to: Test Domiciliations](../FullExperience/how-to-test-domiciliations.md)   
+ [How to: Edit and Delete Domiciliation Lines](../FullExperience/how-to-edit-and-delete-domiciliation-lines.md)   
+ [How to: Export and Post Domiciliations](../FullExperience/how-to-export-and-post-domiciliations.md)

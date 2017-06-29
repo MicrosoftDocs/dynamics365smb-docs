@@ -28,7 +28,7 @@ All European Union \(EU\) companies must submit Intrastat reports to the customs
   
 3.  In the **Intrastat Journal Templates** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Name**|The name of the Intrastat journal template. You can enter a maximum of 10 alphanumeric characters.|  
     |**Description**|The description of the Intrastat journal template. You can enter a maximum of 80 alphanumeric characters.|  
@@ -43,7 +43,7 @@ All European Union \(EU\) companies must submit Intrastat reports to the customs
   
 3.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Name**|The name of the Intrastat journal. You can enter a maximum of 10 alphanumeric characters.|  
     |**Description**|The description of the Intrastat journal. You can enter a maximum of 50 alphanumeric characters.|  
@@ -57,9 +57,9 @@ All European Union \(EU\) companies must submit Intrastat reports to the customs
   
 4.  To close the window, choose the **OK** button.  
   
- For more information, see [How to: Print Intrastat Reports for Italy](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-print-intrastat-reports-for-italy.md).  
+ For more information, see [How to: Print Intrastat Reports for Italy](../FullExperience/how-to-print-intrastat-reports-for-italy.md).  
   
 ## See Also  
- [How to: Set Up Intrastat Journal Templates and Batches](../../Finance/how-to-set-up-intrastat-journal-templates-and-batches.md)   
- [Italy Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/italy-local-functionality.md)   
- [How to: Print Intrastat Reports for Italy](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-print-intrastat-reports-for-italy.md)
+ [How to: Set Up Intrastat Journal Templates and Batches](../FullExperience/how-to-set-up-intrastat-journal-templates-and-batches.md)   
+ [Italy Local Functionality](../FullExperience/italy-local-functionality.md)   
+ [How to: Print Intrastat Reports for Italy](../FullExperience/how-to-print-intrastat-reports-for-italy.md)

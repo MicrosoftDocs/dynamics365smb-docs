@@ -32,7 +32,7 @@ If you have amended production order lines, you must also refresh the routing of
   
 5.  The following table describes the options available for this batch job.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)]-->|Selection|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../../includes/bp_tabledescription_md.md)]-->|  
     |----------------------------------|---------------|---------------------------------------|  
     |**Scheduling Direction**|**Forward**|This field has no effect on the outcome.|  
     ||**Backward**|This field has no effect on the outcome.|  
@@ -47,6 +47,6 @@ If you have amended production order lines, you must also refresh the routing of
 >  Calculating production order routing lines deletes previous changes in the routings.  
   
 ## See Also  
- [How to: Refresh Production Orders](../OperationsPlanning/how-to-refresh-production-orders.md)   
- [How to: Calculate Production Order Components](../OperationsPlanning/how-to-calculate-production-order-components.md)   
- [How to: Calculate Lines from Production Order Headers](../OperationsPlanning/how-to-calculate-lines-from-production-order-headers.md)
+ [How to: Refresh Production Orders](../FullExperience/how-to-refresh-production-orders.md)   
+ [How to: Calculate Production Order Components](../FullExperience/how-to-calculate-production-order-components.md)   
+ [How to: Calculate Lines from Production Order Headers](../FullExperience/how-to-calculate-lines-from-production-order-headers.md)

@@ -27,4 +27,4 @@ After entries have been completely or partially closed, during posting or at a l
 3.  On the **Navigate** tab, in the **Entry** group, choose **Applied Entries**.  
   
 ## See Also  
- [How to: View Open Applied Vendor Ledger Entries in the Vendor Ledger Entries Window](../Finance/how-to-view-open-applied-vendor-ledger-entries-in-the-vendor-ledger-entries-window.md)
+ [How to: View Open Applied Vendor Ledger Entries in the Vendor Ledger Entries Window](../FullExperience/how-to-view-open-applied-vendor-ledger-entries-in-the-vendor-ledger-entries-window.md)

@@ -34,12 +34,12 @@ The DatenTrägerAustausch \(DTA\) payment journal report displays information fo
   
 5.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
- You can edit or delete the payments in the payment journal. You can print the DTA journal multiple times to verify corrected payments, and then post the payment journal when it is accurate. For more information, see [How to: Suggest DTA Payment for Vendors](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-suggest-dta-payment-for-vendors.md) and [How to: Apply Vendor Ledger Entries](../../Finance/how-to-apply-vendor-ledger-entries.md) .  
+ You can edit or delete the payments in the payment journal. You can print the DTA journal multiple times to verify corrected payments, and then post the payment journal when it is accurate. For more information, see [How to: Suggest DTA Payment for Vendors](../FullExperience/how-to-apply-vendor-ledger-entries.md) .  
   
 ## See Also  
- [Swiss Electronic Payments Using DTA](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/swiss-electronic-payments-using-dta.md)   
- [How to: Suggest DTA Payment for Vendors](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-suggest-dta-payment-for-vendors.md)   
- [How to: Submit DTA Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-submit-dta-payments.md)   
- [How to: Export Payments Using EZAG](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-export-payments-using-ezag.md)   
+ [Swiss Electronic Payments Using DTA](../FullExperience/swiss-electronic-payments-using-dta.md)   
+ [How to: Suggest DTA Payment for Vendors](../FullExperience/how-to-suggest-dta-payment-for-vendors.md)   
+ [How to: Submit DTA Payments](../FullExperience/how-to-submit-dta-payments.md)   
+ [How to: Export Payments Using EZAG](../FullExperience/how-to-export-payments-using-ezag.md)   
  Payment Journal   
- [How to: Apply Vendor Ledger Entries](../../Finance/how-to-apply-vendor-ledger-entries.md)
+ [How to: Apply Vendor Ledger Entries](../FullExperience/how-to-apply-vendor-ledger-entries.md)

@@ -24,7 +24,7 @@ General ledger reports meet financial accounting standards, and they contain inf
   
 2.  Under **Reports and Analysis**, under **France**, choose one of the following reports.  
   
-    |Report|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |Report|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
     |------------|---------------------------------------|  
     |**Journals**|-   Shows all of the general ledger transactions.<br />-   Shows the subtotals of the transactions per period.<br /><br /> For more information, see Journals.|  
     |**G\/L Journal**|Shows the subtotals for each source code per month.<br /><br /> For more information, see G-L Journal.|  
@@ -48,4 +48,4 @@ General ledger reports meet financial accounting standards, and they contain inf
 4.  Choose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [How to: Export General Ledger Entries to an XML File](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-export-general-ledger-entries-to-an-xml-file.md)
+ [How to: Export General Ledger Entries to an XML File](../FullExperience/how-to-export-general-ledger-entries-to-an-xml-file.md)

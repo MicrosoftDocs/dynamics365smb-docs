@@ -47,8 +47,8 @@ All companies must provide an annual declaration, **Report 347**, to the tax aut
 2.  On the **Options** FastTab, fill in the fields. For more information, see Declaration Labels.  
   
 ## See Also  
- [Spain Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/spain-local-functionality.md)   
- [Report 347](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/report-347.md)   
+ [Spain Local Functionality](../FullExperience/spain-local-functionality.md)   
+ [Report 347](../FullExperience/report-347.md)   
  Make 347 Declaration   
  Declaration Labels   
  Not Fully Applied Cash Pmts.

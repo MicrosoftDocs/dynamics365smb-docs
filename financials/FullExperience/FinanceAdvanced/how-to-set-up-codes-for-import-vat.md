@@ -33,5 +33,5 @@ You use the import VAT feature when you need to post a document where the entire
 6.  In the **Purchase VAT Account** field, enter the general ledger account that must be used for posting import VAT. You do not have to enter any other general ledger accounts on the line.  
   
 ## See Also  
- [How to: Post Import VAT](../Finance/how-to-post-import-vat.md)   
- [How to: Create a VAT Combination Setup](../Finance/how-to-create-a-vat-combination-setup.md)
+ [How to: Post Import VAT](../FullExperience/how-to-post-import-vat.md)   
+ [How to: Create a VAT Combination Setup](../FullExperience/how-to-create-a-vat-combination-setup.md)

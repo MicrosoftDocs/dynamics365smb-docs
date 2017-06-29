@@ -29,7 +29,7 @@ To instruct the bank to transfer the payment amount from the customer’s bank a
   
 3.  In the **Create Direct Debit Collection** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**From Due Date**|Specify the earliest payment due date on sales invoices that you want to create a direct-debit collection for.|  
     |**To Due Date**|Specify the latest payment due date on sales invoices that you want to create a direct-debit collection for.|  
@@ -67,14 +67,14 @@ To instruct the bank to transfer the payment amount from the customer’s bank a
   
      The related direct-debit collection is closed.  
   
- You can now proceed to post receipts of payment for the involved sales invoices. You can do this as you typically post payment receipts, such as in the **Payment Registration** window, or you can post the related payment receipts directly from the **Direct Debit Collect. Entries** window. For more information, see [How to: Post SEPA Direct Debit Payment Receipts](../../Finance/how-to-post-sepa-direct-debit-payment-receipts.md).  
+ You can now proceed to post receipts of payment for the involved sales invoices. You can do this as you typically post payment receipts, such as in the **Payment Registration** window, or you can post the related payment receipts directly from the **Direct Debit Collect. Entries** window. For more information, see [How to: Post SEPA Direct Debit Payment Receipts](../FullExperience/how-to-post-sepa-direct-debit-payment-receipts.md).  
   
 ## See Also  
  Create Direct Debit Collection   
  Direct Debit Mandate ID   
  Direct Debit Collections   
  Direct Debit Collect. Entries   
- [How to: Set Up SEPA Direct Debit](../../BusinessFunctionality/DataExchange/how-to-set-up-sepa-direct-debit.md)   
- [How to: Post SEPA Direct Debit Payment Receipts](../../Finance/how-to-post-sepa-direct-debit-payment-receipts.md)   
- [Collect Payments with SEPA Direct Debit](../../Finance/collect-payments-with-sepa-direct-debit.md)   
+ [How to: Set Up SEPA Direct Debit](../FullExperience/how-to-set-up-sepa-direct-debit.md)   
+ [How to: Post SEPA Direct Debit Payment Receipts](../FullExperience/how-to-post-sepa-direct-debit-payment-receipts.md)   
+ [Collect Payments with SEPA Direct Debit](../FullExperience/collect-payments-with-sepa-direct-debit.md)   
  Payment Registration

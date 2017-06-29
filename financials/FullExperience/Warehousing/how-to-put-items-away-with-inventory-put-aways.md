@@ -22,7 +22,7 @@ When your location is setup to require put-away processing but not receive proce
   
 1.  In the **Search** box, enter **Inventory Put-away**, and then choose the related link.  
   
-2.  To begin working on the put-away document, you can either open a put-away document that has already been created, or you can create a new document. For more information on creating an Inventory Put-away, see [How to: Create Inventory Put-aways](../DesignAndEngineering/how-to-create-inventory-put-aways.md).  
+2.  To begin working on the put-away document, you can either open a put-away document that has already been created, or you can create a new document. For more information on creating an Inventory Put-away, see [How to: Create Inventory Put-aways](../FullExperience/how-to-create-inventory-put-aways.md).  
   
      To open a previously created put-away document, select one from the **Inventory Put-aways** list.  
   
@@ -32,7 +32,7 @@ When your location is setup to require put-away processing but not receive proce
   
 5.  Perform the put-away and enter the information for the actual quantity put away in the **Qty. to Handle** field.  
   
-     If it is necessary to place the items for one line in more than one bin, use the **Split Line** function on the **Lines** FastTab. For more information about splitting lines, see [How to: Split Warehouse Activity Lines](../WarehouseActivities/how-to-split-warehouse-activity-lines.md).  
+     If it is necessary to place the items for one line in more than one bin, use the **Split Line** function on the **Lines** FastTab. For more information about splitting lines, see [How to: Split Warehouse Activity Lines](../FullExperience/how-to-split-warehouse-activity-lines.md).  
   
 6.  When you have performed the put-away, on the **Actions** tab, in the **Posting** group, choose **Post** to post the put-away document.  
   
@@ -41,5 +41,5 @@ When your location is setup to require put-away processing but not receive proce
  You can see the posted put-away information in the **Posted Invt. Put-away List** window. On the **Navigate** tab, in the **Put away** group, choose **Posted Put-Aways**.  
   
 ## See Also  
- [How to: Create Inventory Put-aways](../DesignAndEngineering/how-to-create-inventory-put-aways.md)   
- [Put Items Away](../WarehouseActivities/put-items-away.md)
+ [How to: Create Inventory Put-aways](../FullExperience/how-to-create-inventory-put-aways.md)   
+ [Put Items Away](../FullExperience/put-items-away.md)

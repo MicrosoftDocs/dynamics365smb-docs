@@ -31,8 +31,8 @@ Production orders are finished by changing the status of the released production
 5.  Choose the **Yes** button to confirm your entries. The released production order is finished.  
   
 ## See Also  
- [How to: View Finished Production Orders](../Production/how-to-view-finished-production-orders.md)   
- [How to: Release Production Orders by Status Change](../OperationsPlanning/how-to-release-production-orders-by-status-change.md)   
- [How to: Release Production Orders Automatically](../OperationsPlanning/how-to-release-production-orders-automatically.md)   
- [About Production Orders](../Production/about-production-orders.md)   
- [Design Details: Production Order Posting](../ApplicationDesign/design-details-production-order-posting.md)
+ [How to: View Finished Production Orders](../FullExperience/how-to-view-finished-production-orders.md)   
+ [How to: Release Production Orders by Status Change](../FullExperience/how-to-release-production-orders-by-status-change.md)   
+ [How to: Release Production Orders Automatically](../FullExperience/how-to-release-production-orders-automatically.md)   
+ [About Production Orders](../FullExperience/about-production-orders.md)   
+ [Design Details: Production Order Posting](../FullExperience/design-details-production-order-posting.md)

@@ -33,4 +33,4 @@ If you want to enter information about an employee that is additional to the inf
 6.  Fill in as many lines as you need.  
   
 ## See Also  
- [How to: Set Up Employees](../HumanResources/how-to-set-up-employees.md)
+ [How to: Set Up Employees](../FullExperience/how-to-set-up-employees.md)

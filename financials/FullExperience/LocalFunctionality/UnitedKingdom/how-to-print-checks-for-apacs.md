@@ -28,7 +28,7 @@ The Association for Payment Clearing Services \(APACS\) specification defines a 
   
 4.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_1401\_N\_2\_1 Bank Account $\)**|Specifies bank account code.|  
     |**\($ R\_1401\_N\_2\_3 Last Check No. $\)**|Specifies the last check number that was specified in the **Bank Account Card** window.|  
@@ -40,6 +40,6 @@ The Association for Payment Clearing Services \(APACS\) specification defines a 
 5.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [Check-duplicate](../Topic/\($%20R_1401%20Check%20$\)-duplicate.md)   
+ [Check-duplicate](../FullExperience/\($%20R_1401%20Check%20$\)-duplicate.md)   
  Payment Journal   
- [United Kingdom Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/united-kingdom-local-functionality.md)
+ [United Kingdom Local Functionality](../FullExperience/united-kingdom-local-functionality.md)

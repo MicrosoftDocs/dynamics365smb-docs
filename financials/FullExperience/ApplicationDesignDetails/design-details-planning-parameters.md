@@ -16,7 +16,7 @@
 
     ---
 # Design Details: Planning Parameters
-This topic describes the different planning parameters that you can use in ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]-->.  
+This topic describes the different planning parameters that you can use in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
   
  The way in which the planning system controls item supply is determined by various settings on the item card or SKU, and settings in manufacturing setup. The following table shows how these parameters are used for planning.  
   
@@ -64,7 +64,7 @@ This topic describes the different planning parameters that you can use in ADD I
 ### Reordering Policies  
  The following reordering policies affect the quantity that is being reordered.  
   
-|Reordering policy|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+|Reordering policy|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
 |-----------------------|---------------------------------------|  
 |**Fixed Reorder Qty.**|At a minimum, the order quantity will be equal to the reorder quantity. It can be increased to meet the demand or the desired inventory level. This reordering policy is usually used with a reorder point.|  
 |**Maximum Qty.**|The order quantity will be calculated to meet the maximum inventory. If quantity modifiers are used, then maximum inventory can be violated. We do not recommend that you use the time bucket together with maximum quantity. The time bucket will usually be overruled. This reordering policy is usually used with a reorder point.|  
@@ -74,7 +74,7 @@ This topic describes the different planning parameters that you can use in ADD I
 ##  <a name="BKMK_OptimizeWhenandHowMuchToReorder"></a> Optimize When and How Much to Reorder  
  To obtain a rational supply plan, a planner will fine-tune planning parameters to limit rescheduling suggestions, accumulate demand \(dynamic reorder quantity\), or to avoid insignificant planning actions. The following reorder period fields help optimize when and how much to reorder.  
   
-|ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+|ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
 |---------------------------------|---------------------------------------|  
 |**Rescheduling Period**|This field is used to determine whether the action message should reschedule an existing order or cancel it and create a new order. The existing order will be rescheduled within one rescheduling period before the current supply and until one rescheduling period after the current supply.|  
 |**Lot Accumulation Period**|With reordering policy Lot-for-Lot, this field is used to accumulate multiple supply needs into one supply order. From the first planned supply, the system accumulates all supply needs in the following lot accumulation period into one supply, which is placed on the date of the first supply. Demand outside the lot accumulation period is not covered by this supply.|  
@@ -82,25 +82,25 @@ This topic describes the different planning parameters that you can use in ADD I
   
  The timing of rescheduling period, dampener period, and lot accumulation period is based on a supply date. The time bucket is based on the planning start date, as shown in the following illustration.  
   
- ![Time Bucket Elements](../ApplicationDesign/media/supply_planning_5_time_bucket_elements.png "supply\_planning\_5\_time\_bucket\_elements")  
+ ![Time Bucket Elements](../FullExperience/media/supply_planning_5_time_bucket_elements.png "supply\_planning\_5\_time\_bucket\_elements")  
   
  In the following examples, the black arrows represent existing supply \(up\) and demand \(down\). Red, green, and orange arrows are planning suggestions.  
   
  **Example 1**: The changed date is outside the rescheduling period, which causes the existing supply to be canceled. A new supply is suggested to cover the demand in the lot accumulation period.  
   
- ![Rescheuling Period, Lot Accumulation Period](../ApplicationDesign/media/supply_planning_5_recheduling_period_lot_accumulation_period.png "supply\_planning\_5\_recheduling\_period\_lot\_accumulation\_period")  
+ ![Rescheuling Period, Lot Accumulation Period](../FullExperience/media/supply_planning_5_recheduling_period_lot_accumulation_period.png "supply\_planning\_5\_recheduling\_period\_lot\_accumulation\_period")  
   
  **Example 2**: The changed date is in the rescheduling period, which causes the existing supply to be rescheduled. A new supply is suggested to cover the demand outside the lot accumulation period.  
   
- ![Rescheduling Period, Lot Accum. Period, Reschedule](../ApplicationDesign/media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "supply\_planning\_5\_recheduling\_period\_lot\_accum\_period\_reschedule")  
+ ![Rescheduling Period, Lot Accum. Period, Reschedule](../FullExperience/media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "supply\_planning\_5\_recheduling\_period\_lot\_accum\_period\_reschedule")  
   
  **Example 3**: There is a demand in the dampener period and the supply quantity in the lot accumulation period matches the supply quantity. The next demand is uncovered and a new supply is suggested.  
   
- ![Dampener Period, Lot Accumulation Period](../ApplicationDesign/media/supply_planning_5_dampener_period_lot_accumulation_period.png "supply\_planning\_5\_dampener\_period\_lot\_accumulation\_period")  
+ ![Dampener Period, Lot Accumulation Period](../FullExperience/media/supply_planning_5_dampener_period_lot_accumulation_period.png "supply\_planning\_5\_dampener\_period\_lot\_accumulation\_period")  
   
  **Example 4**: There is a demand in the dampener period and the supply remains on the same date. However, the current supply quantity is not enough to cover the demand in the lot accumulation period, so a change quantity action for the existing supply order is suggested.  
   
- ![Dampener Period, Lot Accum. Period, Change Qty.](../ApplicationDesign/media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "supply\_planning\_5\_dampener\_period\_lot\_accum\_period\_change\_qty")  
+ ![Dampener Period, Lot Accum. Period, Change Qty.](../FullExperience/media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "supply\_planning\_5\_dampener\_period\_lot\_accum\_period\_change\_qty")  
   
  **Default values:** The default value of the **Time Bucket** field and the three reorder period fields is blank. For all fields, except the **Dampener Period** field, this means 0D \(zero days\). If the **Dampener Period** field is blank, the global value in the **Default Dampener Period** field in the **Manufacturing Setup** window will be used.  
   
@@ -117,6 +117,6 @@ This topic describes the different planning parameters that you can use in ADD I
  If the **Make-to-Order** option is used, the planning system will analyze the production BOM of the item and create additional linked order proposals for those lower-level items that are also defined as make-to-order. This continues as long as there are make-to-order items in the descending BOM structures.  
   
 ## See Also  
- [Design Details: Handling Reordering Policies](../ApplicationDesign/design-details-handling-reordering-policies.md)   
- [Design Details: Balancing Demand and Supply](../ApplicationDesign/design-details-balancing-demand-and-supply.md)   
- [Design Details: Central Concepts of the Planning System](../ApplicationDesign/design-details-central-concepts-of-the-planning-system.md)
+ [Design Details: Handling Reordering Policies](../FullExperience/design-details-handling-reordering-policies.md)   
+ [Design Details: Balancing Demand and Supply](../FullExperience/design-details-balancing-demand-and-supply.md)   
+ [Design Details: Central Concepts of the Planning System](../FullExperience/design-details-central-concepts-of-the-planning-system.md)

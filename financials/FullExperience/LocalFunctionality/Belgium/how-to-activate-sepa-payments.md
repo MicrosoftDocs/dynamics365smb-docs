@@ -60,7 +60,7 @@ To submit vendor payments electronically in Single Euro Payments Area \(SEPA\) I
 5.  Choose the **OK** button.  
   
 ## See Also  
- [SEPA Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/sepa-payments.md)   
- [How to: File SEPA Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-file-sepa-payments.md)   
- [How to: File Non-Euro SEPA Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-file-non-euro-sepa-payments.md)   
- [How to: Set Up Export Protocols](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-export-protocols.md)
+ [SEPA Payments](../FullExperience/sepa-payments.md)   
+ [How to: File SEPA Payments](../FullExperience/how-to-file-sepa-payments.md)   
+ [How to: File Non-Euro SEPA Payments](../FullExperience/how-to-file-non-euro-sepa-payments.md)   
+ [How to: Set Up Export Protocols](../FullExperience/how-to-set-up-export-protocols.md)

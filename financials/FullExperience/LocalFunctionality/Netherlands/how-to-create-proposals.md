@@ -83,7 +83,7 @@ Proposals can be generated manually or automatically based on either vendor or c
 6.  If you want to view or adjust the proposal's detail lines, in the **Lines** part, in the toolbar, choose **Detail Information**. To return to the proposal, close the **Proposal Detail Line** window.  
   
 ## See Also  
- [How to: Register New Customers](../../Sales/how-to-register-new-customers.md)   
- [How to: Invoice Sales](../../Finance/how-to-invoice-sales.md)   
- [Record Purchase Invoices](../../Finance/record-purchase-invoices.md)   
- [How to: Create and Export Payment History](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/how-to-create-and-export-payment-history.md)
+ [How to: Register New Customers](../FullExperience/how-to-register-new-customers.md)   
+ [How to: Invoice Sales](../FullExperience/how-to-invoice-sales.md)   
+ [Record Purchase Invoices](../FullExperience/record-purchase-invoices.md)   
+ [How to: Create and Export Payment History](../FullExperience/how-to-create-and-export-payment-history.md)

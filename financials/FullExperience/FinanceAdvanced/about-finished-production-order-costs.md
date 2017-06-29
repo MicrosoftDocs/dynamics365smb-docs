@@ -23,6 +23,6 @@ Finishing the production order is an important task in completing the costing li
   
 ## See Also  
  Adjust Cost - Item Entries   
- [About Production Orders](../Production/about-production-orders.md)   
- [How to: Finish Production Orders](../Production/how-to-finish-production-orders.md)   
- [About Production Orders](../Production/about-production-orders.md)
+ [About Production Orders](../FullExperience/about-production-orders.md)   
+ [How to: Finish Production Orders](../FullExperience/how-to-finish-production-orders.md)   
+ [About Production Orders](../FullExperience/about-production-orders.md)

@@ -70,4 +70,4 @@ If your location requires both put-away and receive processing, and you want to 
 ## See Also  
  Put-away Worksheet   
  Warehouse Put-away   
- [Put Items Away](../WarehouseActivities/put-items-away.md)
+ [Put Items Away](../FullExperience/put-items-away.md)

@@ -53,7 +53,7 @@ Companies receive a unique enterprise number and one or more branch numbers from
 -   Location table  
   
 ## See Also  
- [Belgium Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/belgium-local-functionality.md)   
+ [Belgium Local Functionality](../FullExperience/belgium-local-functionality.md)   
  Company Information   
  Contact Card   
  Customer   

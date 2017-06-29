@@ -62,5 +62,5 @@ The Receivables Cartera module allows you to manage bills generated from sales i
 -   Factoring with risk - You take on the risks associated with non-payment.  
   
 ## See Also  
- [Cartera Module](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/cartera-module.md)   
- [Payments Cartera Module](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/payments-cartera-module.md)
+ [Cartera Module](../FullExperience/cartera-module.md)   
+ [Payments Cartera Module](../FullExperience/payments-cartera-module.md)

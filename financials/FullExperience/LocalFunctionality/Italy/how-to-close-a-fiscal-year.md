@@ -43,7 +43,7 @@ To evaluate profit and loss, a fiscal year closing report is provided at the end
   
 2.  On the **Options** tab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Fiscal Year Ending Date**|The ending date for the fiscal year.|  
     |**Gen. Journal Template**|The name of the general journal template in which to place the entries.|  
@@ -72,5 +72,5 @@ To evaluate profit and loss, a fiscal year closing report is provided at the end
      An entry is posted to each income statement account so that it has a zero balance. The year-end result is transferred to the balance sheet.  
   
 ## See Also  
- [About Year-End Processes](../../Finance/about-year-end-processes.md)   
- [Italy Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/italy-local-functionality.md)
+ [About Year-End Processes](../FullExperience/about-year-end-processes.md)   
+ [Italy Local Functionality](../FullExperience/italy-local-functionality.md)

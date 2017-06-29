@@ -16,7 +16,7 @@
 
     ---
 # Interest on Arrears Overview
-In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, finance charge terms can include interest on arrears if you have amounts outstanding from customers or amounts outstanding for vendors.  
+In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, finance charge terms can include interest on arrears if you have amounts outstanding from customers or amounts outstanding for vendors.  
   
 ## Calculating Interest on Arrears  
  For each finance charge term, you can define how the interest is calculated, and you can define different interest rates for different periods.  
@@ -26,7 +26,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
  After you run the report, if a customer owes interest on arrears, the information about the amount of interest on arrears to pay is added to the customer statement.  
   
 ## See Also  
- [How to: Set Up Interest on Arrears](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-set-up-interest-on-arrears.md)   
+ [How to: Set Up Interest on Arrears](../FullExperience/how-to-set-up-interest-on-arrears.md)   
  Finance Charge Terms   
  Finance Charge Terms   
- [Italy Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/italy-local-functionality.md)
+ [Italy Local Functionality](../FullExperience/italy-local-functionality.md)

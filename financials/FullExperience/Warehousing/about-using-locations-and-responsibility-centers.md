@@ -23,7 +23,7 @@ Using Multiple Locations and Responsibility Centers in Product Name provide mult
  Responsibility centers extends the multiple locations functionality by providing users the ability to handle administrative centers. A responsibility center can be a cost center, a profit center, an investment center, or other company-defined administrative center. Examples of responsibility centers are a sales office, a purchasing department for several locations, and a plant planning office. Using this functionality, for example, companies can set up user-specific views of sales and purchase documents related exclusively to a particular responsibility center.  
   
 ## See Also  
- [How to: Assign Locations to Entries](../WarehouseActivities/how-to-assign-locations-to-entries.md)   
- [How to: Set Up Locations](../DesignAndEngineering/how-to-set-up-locations.md)   
- [How to: Set Up Stockkeeping Units](../DesignAndEngineering/how-to-set-up-stockkeeping-units.md)   
- [How to: Set Up Responsibility Centers in Inventory](../BusinessFunctionality/ResponsibilityCenters/how-to-set-up-responsibility-centers-in-inventory.md)
+ [How to: Assign Locations to Entries](../FullExperience/how-to-assign-locations-to-entries.md)   
+ [How to: Set Up Locations](../FullExperience/how-to-set-up-locations.md)   
+ [How to: Set Up Stockkeeping Units](../FullExperience/how-to-set-up-stockkeeping-units.md)   
+ [How to: Set Up Responsibility Centers in Inventory](../FullExperience/how-to-set-up-responsibility-centers-in-inventory.md)

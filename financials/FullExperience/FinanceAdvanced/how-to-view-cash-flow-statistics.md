@@ -31,4 +31,4 @@ For each cash flow forecast, you can open a statistics window that contains the 
  CF Availability by Periods   
  Cash Flow Date List   
  Cash Flow Chart   
- [Walkthrough: Making Cash Flow Forecasts by Using Account Schedules](../Finance/walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+ [Walkthrough: Making Cash Flow Forecasts by Using Account Schedules](../FullExperience/walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)

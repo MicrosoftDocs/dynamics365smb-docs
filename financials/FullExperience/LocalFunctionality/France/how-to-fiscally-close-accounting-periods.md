@@ -34,7 +34,7 @@ When a fiscal period is complete, you can fiscally close the period to make sure
  When the period is fiscally closed, the Fiscally Closed field is selected, and the Fiscal Closing Date field is updated for the period.  
   
 ## See Also  
- [How to: Close Years](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-close-years.md)   
- [How to: Fiscally Close Years](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-fiscally-close-years.md)   
- [How to: Reopen Accounting Periods](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-reopen-accounting-periods.md)   
- [Fiscal Periods and Fiscal Years](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/fiscal-periods-and-fiscal-years.md)
+ [How to: Close Years](../FullExperience/how-to-close-years.md)   
+ [How to: Fiscally Close Years](../FullExperience/how-to-fiscally-close-years.md)   
+ [How to: Reopen Accounting Periods](../FullExperience/how-to-reopen-accounting-periods.md)   
+ [Fiscal Periods and Fiscal Years](../FullExperience/fiscal-periods-and-fiscal-years.md)

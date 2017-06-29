@@ -49,10 +49,10 @@ You must close Lastschrift Verfahren \(LSV\+\) collections to write LSV files th
 3.  Choose the **Yes** button to confirm the reopening of the collection.  
   
 ## See Also  
- [Swiss Electronic Payments Using LSV\+](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/swiss-electronic-payments-using-lsv-.md)   
- [How to: Process an LSV Collection](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-process-an-lsv-collection.md)   
- [How to: Post LSV\+ Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-post-lsv-payments.md)   
- [How to: Export Payments Using LSV](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-export-payments-using-lsv.md)   
+ [Swiss Electronic Payments Using LSV\+](../FullExperience/swiss-electronic-payments-using-lsv-.md)   
+ [How to: Process an LSV Collection](../FullExperience/how-to-process-an-lsv-collection.md)   
+ [How to: Post LSV\+ Payments](../FullExperience/how-to-post-lsv-payments.md)   
+ [How to: Export Payments Using LSV](../FullExperience/how-to-export-payments-using-lsv.md)   
  LSV Journal   
  LSV Journal Line   
  Cust. Ledger Entry

@@ -33,9 +33,9 @@ If you are going to change the annual amount of the service contract or contract
 6.  On the **Lines** FastTab, modify the values in the **Line Amount** field on the contract lines. Note that the contents in the **Calcd. Annual Amount** field is updated as soon as you change any line amount on the contract lines. The distribution is completed when the value in the **Calcd. Annual Amount** field is equal to the new annual amount.  
   
 ## See Also  
- [How to: Automatically Distribute the Annual Amount Difference on Contracts](../Service/how-to-automatically-distribute-the-annual-amount-difference-on-contracts.md)   
- [How to: Automatically Distribute the Annual Amount Difference on Contracts](../Service/how-to-automatically-distribute-the-annual-amount-difference-on-contracts.md)   
- [How to: Change the Annual Amount on Service Contracts or Contract Quotes](../Service/how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)   
- [Distribution Based on Line Amount](../Service/distribution-based-on-line-amount.md)   
- [Distribution Based on Profit](../Service/distribution-based-on-profit.md)   
- [Even Distribution](../Service/even-distribution.md)
+ [How to: Automatically Distribute the Annual Amount Difference on Contracts](../FullExperience/how-to-automatically-distribute-the-annual-amount-difference-on-contracts.md)   
+ [How to: Automatically Distribute the Annual Amount Difference on Contracts](../FullExperience/how-to-automatically-distribute-the-annual-amount-difference-on-contracts.md)   
+ [How to: Change the Annual Amount on Service Contracts or Contract Quotes](../FullExperience/how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)   
+ [Distribution Based on Line Amount](../FullExperience/distribution-based-on-line-amount.md)   
+ [Distribution Based on Profit](../FullExperience/distribution-based-on-profit.md)   
+ [Even Distribution](../FullExperience/even-distribution.md)

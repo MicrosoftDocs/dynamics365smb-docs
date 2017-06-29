@@ -16,7 +16,7 @@
 
     ---
 # Electronic Banking in Finland
-The ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> electronic banking feature allows you to process electronic customer and vendor payments. This feature supports domestic payments \(LM03\) and foreign payments \(LUM2\) for transferring electronic bank payments. To export or import electronic payments, you must first set up bank reference files to determine how payment files are processed.  
+The ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> electronic banking feature allows you to process electronic customer and vendor payments. This feature supports domestic payments \(LM03\) and foreign payments \(LUM2\) for transferring electronic bank payments. To export or import electronic payments, you must first set up bank reference files to determine how payment files are processed.  
   
 ## Customer Payments  
  Domestic customer payments can be imported from the bank and linked to the associated accounts receivable entry with a reference number. This type of automation enables incoming payments to be linked directly to open receivables without a delay in manual processing. The following steps explain how to import customer payments into a file from the bank and how to link these payments to invoices through their reference numbers.  
@@ -44,10 +44,10 @@ The ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.
 -   Send the payment transfer file to the bank.  
   
 ## See Also  
- [Finland Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Finland/finland-local-functionality.md)   
- [How to: Set Up Bank Reference Files](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Finland/how-to-set-up-bank-reference-files.md)   
- [How to: Generate Payment Files](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Finland/how-to-generate-payment-files.md)   
- [How to: Disregard Payment Discounts](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Finland/how-to-disregard-payment-discounts.md)   
+ [Finland Local Functionality](../FullExperience/finland-local-functionality.md)   
+ [How to: Set Up Bank Reference Files](../FullExperience/how-to-set-up-bank-reference-files.md)   
+ [How to: Generate Payment Files](../FullExperience/how-to-generate-payment-files.md)   
+ [How to: Disregard Payment Discounts](../FullExperience/how-to-disregard-payment-discounts.md)   
  Suggest Bank Payments   
  Import Ref. Payment   
  Ref. Payment - Imported   

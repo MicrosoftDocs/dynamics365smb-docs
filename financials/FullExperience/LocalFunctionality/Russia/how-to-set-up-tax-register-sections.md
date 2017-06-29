@@ -87,7 +87,7 @@ You can either create a new tax register section or select a tax register sectio
 3.  Choose **Delete** to remove the register from the register list.  
   
 ## See Also  
- [Tax Accounting](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/tax-accounting.md)   
- [Tax Registers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/tax-registers.md)   
- [How to: Create Tax Registers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-create-tax-registers.md)   
- [Collecting Profit Tax Information for Tax Declaration](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/collecting-profit-tax-information-for-tax-declaration.md)
+ [Tax Accounting](../FullExperience/tax-accounting.md)   
+ [Tax Registers](../FullExperience/tax-registers.md)   
+ [How to: Create Tax Registers](../FullExperience/how-to-create-tax-registers.md)   
+ [Collecting Profit Tax Information for Tax Declaration](../FullExperience/collecting-profit-tax-information-for-tax-declaration.md)

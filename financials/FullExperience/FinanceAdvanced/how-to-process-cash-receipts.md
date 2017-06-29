@@ -30,7 +30,7 @@ Cash receipts or deposits are registered using a cash receipt journal. A cash re
   
 5.  The **Document No.** field is filled in by the number series assigned to the batch.  
   
-6.  Use the **External Document No.** field to store an identifier such as the customer's check number. ADD INCLUDE<!--[!INCLUDE[bp_choose_columns](../DesignAndEngineering/includes/bp_choose_columns_md.md)]-->  
+6.  Use the **External Document No.** field to store an identifier such as the customer's check number. ADD INCLUDE<!--[!INCLUDE[bp_choose_columns](../../includes/bp_choose_columns_md.md)]-->  
   
 7.  In the **Account Type** field, select **Customer**.  
   
@@ -53,5 +53,5 @@ Cash receipts or deposits are registered using a cash receipt journal. A cash re
   
 ## See Also  
  Cash Receipt Journal   
- [How to: Fill and Post General Journals](../Finance/how-to-fill-and-post-general-journals.md)   
- [Apply Sales Transactions](../Finance/apply-sales-transactions.md)
+ [How to: Fill and Post General Journals](../FullExperience/how-to-fill-and-post-general-journals.md)   
+ [Apply Sales Transactions](../FullExperience/apply-sales-transactions.md)

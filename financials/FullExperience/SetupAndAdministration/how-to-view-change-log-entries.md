@@ -16,7 +16,7 @@
 
     ---
 # How to: View Change Log Entries
-After you have set up the change log, activated it, and made a change to data, ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> logs the change in a change log entry. You can view and filter the changes in the **Change Log Activated** window.  
+After you have set up the change log, activated it, and made a change to data, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> logs the change in a change log entry. You can view and filter the changes in the **Change Log Activated** window.  
   
 ### To view change log entries  
   
@@ -27,7 +27,7 @@ After you have set up the change log, activated it, and made a change to data, A
      ADD INCLUDE<!--[!INCLUDE[bp_fieldhelp]()]-->  
   
 ## See Also  
- [How to: Enable the Change Log](../SetupAndAdministration/how-to-enable-the-change-log.md)   
- [How to: Delete Change Log Entries](../SetupAndAdministration/how-to-delete-change-log-entries.md)   
- [How to: Print Change Log Entries](../SetupAndAdministration/how-to-print-change-log-entries.md)   
+ [How to: Enable the Change Log](../FullExperience/how-to-enable-the-change-log.md)   
+ [How to: Delete Change Log Entries](../FullExperience/how-to-delete-change-log-entries.md)   
+ [How to: Print Change Log Entries](../FullExperience/how-to-print-change-log-entries.md)   
  Change Log Activated

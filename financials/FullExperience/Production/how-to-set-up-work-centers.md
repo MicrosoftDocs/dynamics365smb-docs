@@ -24,7 +24,7 @@ A **Work Center** card organizes the fixed values and requirements of the produc
   
 -   At least one work center group is set up.  
   
--   A shop calendar is created. For more information, see [How to: Create Work Center Calendars](../OperationsPlanning/how-to-create-work-center-calendars.md).  
+-   A shop calendar is created. For more information, see [How to: Create Work Center Calendars](../FullExperience/how-to-create-work-center-calendars.md).  
   
  Before you can set up a work center, you must gather all data about your production resources.  
   
@@ -40,7 +40,7 @@ A **Work Center** card organizes the fixed values and requirements of the produc
   
 5.  In the **Work Center Group** field, select the higher-level resource grouping that the work center is organized under.  
   
-6.  Select the **Blocked** field if you want to prevent the work center from being used in any processing. This means, among others, that an item produced at the work center can not be posted from a production journal. For more information, see [How to: Register Consumption and Output](../Production/how-to-register-consumption-and-output.md).  
+6.  Select the **Blocked** field if you want to prevent the work center from being used in any processing. This means, among others, that an item produced at the work center can not be posted from a production journal. For more information, see [How to: Register Consumption and Output](../FullExperience/how-to-register-consumption-and-output.md).  
   
 ### To fill in the Posting FastTab  
   
@@ -60,7 +60,7 @@ A **Work Center** card organizes the fixed values and requirements of the produc
   
 7.  In the **Flushing Method** field, select whether output posting at this work center should be calculated and posted manually or automatically, using either of the following methods.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../../includes/bp_tabledescription_md.md)]-->|  
     |----------------------------------|---------------------------------------|  
     |**Forward**|Calculate and post output consumption automatically when the production order is released.|  
     |**Backward**|Calculate and post consumption automatically when the released production order is finished.|  
@@ -81,7 +81,7 @@ A **Work Center** card organizes the fixed values and requirements of the produc
     > [!NOTE]  
     >  The **Consolidated Calendar** field is only relevant if the installation includes the Machine Center granule.  
   
-4.  In the **Shop Calendar Code** field, select a shop calendar. For more information, see [How to: Create Work Center Calendars](../OperationsPlanning/how-to-create-work-center-calendars.md).  
+4.  In the **Shop Calendar Code** field, select a shop calendar. For more information, see [How to: Create Work Center Calendars](../FullExperience/how-to-create-work-center-calendars.md).  
   
 5.  In the **Queue Time** field, specify a fixed time span that must pass before assigned work can begin at this work center. Note that Queue Time is added to other non-productive time elements such as Wait Time and Move Time that you may define on routing lines using this work center.  
   
@@ -90,4 +90,4 @@ A **Work Center** card organizes the fixed values and requirements of the produc
 ## See Also  
  Work Center Card   
  Machine Center Card   
- [Shop Calendars](../OperationsPlanning/shop-calendars.md)
+ [Shop Calendars](../FullExperience/shop-calendars.md)

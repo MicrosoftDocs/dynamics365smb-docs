@@ -16,7 +16,7 @@
 
     ---
 # Reports-duplicate 15
-ADD INCLUDE<!--[!INCLUDE[bn_reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/includes/bn_reports_md.md)]-->  
+ADD INCLUDE<!--[!INCLUDE[bn_reports](../../includes/bn_reports_md.md)]-->  
   
 ## See Also  
- [Russia Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/russia-local-functionality.md)
+ [Russia Local Functionality](../FullExperience/russia-local-functionality.md)

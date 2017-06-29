@@ -24,7 +24,7 @@ You can process electronic payments from customers according to a predefined pay
   
 2.  On the **General** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Format**|Select an OCR payment file format. Formats include **BBS** and **Data Dialog**.|  
     |**FileName**|Enter the full path of the OCR payment file.|  
@@ -32,7 +32,7 @@ You can process electronic payments from customers according to a predefined pay
   
 3.  On the **Gen. Ledger** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Bal. Account Type**|Select a balance account type. Balance account types include **Gen. Ledg. Account** and **Bank Account**.|  
     |**Bal. Account No.**|Select a balance account number.|  
@@ -47,10 +47,10 @@ You can process electronic payments from customers according to a predefined pay
 >  OCR payments can only be posted to cash receipt journals when the **Force Doc. Balance** field has been cleared in the **Gen. Journal Template** table. For more information, see Gen. Journal Template.  
   
 ## See Also  
- [Electronic Banking in Norway](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/electronic-banking-in-norway.md)   
- [How to: Set Up KID Numbers on Sales Documents](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-set-up-kid-numbers-on-sales-documents.md)   
- [How to: Import and Post OCR Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-import-and-post-ocr-payments.md)   
- [How to: Print the OCR Journal - Test Report](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-print-the-ocr-journal-test-report.md)   
+ [Electronic Banking in Norway](../FullExperience/electronic-banking-in-norway.md)   
+ [How to: Set Up KID Numbers on Sales Documents](../FullExperience/how-to-set-up-kid-numbers-on-sales-documents.md)   
+ [How to: Import and Post OCR Payments](../FullExperience/how-to-import-and-post-ocr-payments.md)   
+ [How to: Print the OCR Journal - Test Report](../FullExperience/how-to-print-the-ocr-journal-test-report.md)   
  Gen. Journal Template   
  OCR Setup   
  OCR Setup

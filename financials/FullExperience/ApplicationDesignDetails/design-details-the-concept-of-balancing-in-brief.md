@@ -22,9 +22,9 @@ Demand is given by a company’s customers. Supply is what the company can creat
   
  The objective of the planning mechanism is to counterbalance the demand and supply of an item to ensure that supply will match demand in a feasible way as defined by the planning parameters and rules.  
   
- ![](../ApplicationDesign/media/nav_app_supply_planning_2_balancing.png "NAV\_APP\_supply\_planning\_2\_balancing")  
+ ![](../FullExperience/media/nav_app_supply_planning_2_balancing.png "NAV\_APP\_supply\_planning\_2\_balancing")  
   
 ## See Also  
- [Design Details: Balancing Demand and Supply](../ApplicationDesign/design-details-balancing-demand-and-supply.md)   
- [Design Details: Central Concepts of the Planning System](../ApplicationDesign/design-details-central-concepts-of-the-planning-system.md)   
- [Design Details: Supply Planning](../ApplicationDesign/design-details-supply-planning.md)
+ [Design Details: Balancing Demand and Supply](../FullExperience/design-details-balancing-demand-and-supply.md)   
+ [Design Details: Central Concepts of the Planning System](../FullExperience/design-details-central-concepts-of-the-planning-system.md)   
+ [Design Details: Supply Planning](../FullExperience/design-details-supply-planning.md)

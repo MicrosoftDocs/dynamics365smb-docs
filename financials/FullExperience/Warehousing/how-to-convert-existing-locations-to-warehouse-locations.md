@@ -31,13 +31,13 @@ You can enable an existing inventory location to use zones and bins and to opera
   
 2.  In the **Location Code** field, specify the location that you want to enable for warehouse processing.  
   
-3.  In the **Adjustment Bin Code** field, specify the bin at the location where unsynchronized warehouse entries are stored. For more information, see [Warehouse Adjustment Bin](../WarehouseActivities/warehouse-adjustment-bin.md).  
+3.  In the **Adjustment Bin Code** field, specify the bin at the location where unsynchronized warehouse entries are stored. For more information, see [Warehouse Adjustment Bin](../FullExperience/warehouse-adjustment-bin.md).  
   
      Using the open item ledger entries for the specified location, warehouse journal lines are created that sum up every combination of Item No., Variant Code, Unit of Measure Code, and, if necessary, Lot No. and Serial No. in the item ledger entries. The warehouse journal lines are then posted. This posting creates warehouse entries that place the inventory in the warehouse adjustment bin. The **Adjustment Bin Code** on the location card is also set.  
   
-4.  To see which items were added to the adjustment bin during the batch job, run the **Warehouse Adjustment Bin** report. For more information, see [How to: Post Quantity Adjustments for Bins](../WarehouseActivities/how-to-post-quantity-adjustments-for-bins.md).  
+4.  To see which items were added to the adjustment bin during the batch job, run the **Warehouse Adjustment Bin** report. For more information, see [How to: Post Quantity Adjustments for Bins](../FullExperience/how-to-post-quantity-adjustments-for-bins.md).  
   
-5.  When the **Create Warehouse Location** batch job has completed, perform and post a warehouse physical inventory. For more information, see [How to: Perform Warehouse Physical Inventories](../WarehouseActivities/how-to-perform-warehouse-physical-inventories.md).  
+5.  When the **Create Warehouse Location** batch job has completed, perform and post a warehouse physical inventory. For more information, see [How to: Perform Warehouse Physical Inventories](../FullExperience/how-to-perform-warehouse-physical-inventories.md).  
   
 > [!NOTE]  
 >  It is recommended that you run the **Create Warehouse Location** batch job at a time when it will not impact the daily work in the system. This job processes each entry in the **Item Ledger Entry** table, and if there are a large number of item ledger entries, the job can last several hours.  
@@ -45,5 +45,5 @@ You can enable an existing inventory location to use zones and bins and to opera
  For those locations that did not use warehouse management documents before the conversion, you must re-open and release any source documents that were partially received or partially shipped before the conversion.  
   
 ## See Also  
- [How to: Set Up Locations to Use Bins](../WarehouseActivities/how-to-set-up-locations-to-use-bins.md)   
- [How to: Set Up Warehouse Management](../WarehouseActivities/how-to-set-up-warehouse-management.md)
+ [How to: Set Up Locations to Use Bins](../FullExperience/how-to-set-up-locations-to-use-bins.md)   
+ [How to: Set Up Warehouse Management](../FullExperience/how-to-set-up-warehouse-management.md)

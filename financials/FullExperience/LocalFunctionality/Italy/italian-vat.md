@@ -18,7 +18,7 @@
 # Italian VAT
 Companies must pay VAT to the state for most purchased goods and services. VAT can be deducted if the goods or services purchased by a company are used in the production of its income.  
   
- In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you can define periodic VAT reports in the **VAT Report** window. You can fill in the lines based on VAT entries, and then export the VAT report to the appropriate authorities.  
+ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can define periodic VAT reports in the **VAT Report** window. You can fill in the lines based on VAT entries, and then export the VAT report to the appropriate authorities.  
   
 ## VAT Codes and Rates  
  VAT codes and rates must be set up even though some transactions are not subject to VAT rates. There are also many VAT-liable operations that are subject to a zero VAT rate by provision of the law.  
@@ -44,7 +44,7 @@ Companies must pay VAT to the state for most purchased goods and services. VAT c
  In Italy, the EU sales list \(Intrastat\) and annual listing reports are updated to include services. This involves a change in the reporting format. A new table for service tariffs is added so that companies can classify services that must be included in the Intrastat report. Users must add the relevant service tariff to all documents that are for cross-border transactions. The service tariff specified on the **Foreign Trade** FastTab for the document can be modified in each line in the document.  
   
 ## VAT Transaction Reports  
- You must submit periodic reports to the tax authorities, which list transactions that include VAT with amounts over a specified threshold. The VAT transaction reports are created based on transactions with customers or vendors from a country\/region that is outside the EU and is not blacklisted. Transactions with customers or vendors from EU countries\/regions are reported through **Intrastat** reports. Transactions with customers or vendors from countries\/regions that are blacklisted are reported through the **Blacklist Communication Report** report. ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> provides support for the following transaction types:  
+ You must submit periodic reports to the tax authorities, which list transactions that include VAT with amounts over a specified threshold. The VAT transaction reports are created based on transactions with customers or vendors from a country\/region that is outside the EU and is not blacklisted. Transactions with customers or vendors from EU countries\/regions are reported through **Intrastat** reports. Transactions with customers or vendors from countries\/regions that are blacklisted are reported through the **Blacklist Communication Report** report. ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> provides support for the following transaction types:  
   
 |||  
 |-|-|  
@@ -57,7 +57,7 @@ Companies must pay VAT to the state for most purchased goods and services. VAT c
 |FN - Customers invoices, when customer is non-resident|Yes|  
 |SE - Vendor invoices, when vendor is non-resident|Yes **Note:**  The purchase of services is assumed, but differentiation between service and goods is left for the user to implement.|  
   
- ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> does not report the following types of transactions:  
+ ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> does not report the following types of transactions:  
   
 -   Prepayment invoices, because the total amount will be reported at the time of the final invoice.  
   
@@ -74,11 +74,11 @@ Companies must pay VAT to the state for most purchased goods and services. VAT c
   
  When you post credit memos, you must update the **Refers to Period** field to specify the relevant period. The VAT transaction reports will include credit memos where the **Refers to Period** field is set to **Current Calendar Year** or **Previous Calendar Year**.  
   
- ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> adds credit memos to the VAT reports in different ways depending on the application status and the value of the **Refers to Period** field. The following table describes the scenarios.  
+ ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> adds credit memos to the VAT reports in different ways depending on the application status and the value of the **Refers to Period** field. The following table describes the scenarios.  
   
 |Scenario|Impact|  
 |--------------|------------|  
-|A credit memo is applied to a single invoice.<br /><br /> The **Refers to Period** field is set to **Current Calendar Year**.|The **Invoice No.** field will be set to the document number of the invoice.<br /><br /> The **Invoice Date** field will be set to the date that is specified in the **Operation Occurred Date** field<br /><br /> ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> will deduct the credit memo amount from the amount of the original invoice. If the resulting amount is above the threshold, both the invoice and credit memo will be included in the VAT transactions report. If the resulting amount is below the threshold, neither invoice or credit memo will be included in the VAT transactions report.|  
+|A credit memo is applied to a single invoice.<br /><br /> The **Refers to Period** field is set to **Current Calendar Year**.|The **Invoice No.** field will be set to the document number of the invoice.<br /><br /> The **Invoice Date** field will be set to the date that is specified in the **Operation Occurred Date** field<br /><br /> ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> will deduct the credit memo amount from the amount of the original invoice. If the resulting amount is above the threshold, both the invoice and credit memo will be included in the VAT transactions report. If the resulting amount is below the threshold, neither invoice or credit memo will be included in the VAT transactions report.|  
 |A credit memo is applied to multiple invoices, or it is not applied.<br /><br /> The **Refers to Period** field is set to **Current Calendar Year**.|The **Invoice Date** field will be set to the last day of the year that is specified in the **Operation Occurred Date** field. For example, if the **Operation Occurred Date** field is **07-11-11**, the **Invoice Date** field will be set to **31-12-11**.<br /><br /> Only the credit memo will be included in the VAT transactions report.|  
 |A credit memo is applied to multiple invoices, or it is not applied.<br /><br /> The **Refers to Period** field is set to **Previous Calendar Year**.|The **Invoice Date** field will be set to the last day of the year before the date that is specified in the **Operation Occurred Date** field. For example, if the **Operation Occurred Date** field is **07-11-11**, the **Invoice Date** field will be set to **31-12-10**.<br /><br /> Only the credit memo will be included in the VAT transactions report.|  
   
@@ -86,16 +86,16 @@ Companies must pay VAT to the state for most purchased goods and services. VAT c
   
  Transactions with reverse charges are not included in the VAT transaction reports. Transactions with prepayments are also not included in the VAT transaction reports.  
   
- To prepare your data for these reports, you must set up VAT posting to include VAT transaction report amounts. When a transaction such as posting a sales invoice is made that uses this VAT posting setup, ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> checks if the transaction meets the threshold amounts. The check is based on document lines because a document can contain lines that must be included in the VAT transaction report and lines that must be excluded. The VAT transaction reports must only contain the lines that must be submitted, so ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> compares amounts against the threshold for each line instead of for a document. For more information, see [How to: Prepare for VAT Transactions Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-prepare-for-vat-transactions-reports.md).  
+ To prepare your data for these reports, you must set up VAT posting to include VAT transaction report amounts. When a transaction such as posting a sales invoice is made that uses this VAT posting setup, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-prepare-for-vat-transactions-reports.md).  
   
- You must submit a VAT transactions report electronically to the tax authorities. For more information, see [How to: Create Electronic VAT Transactions Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-create-electronic-vat-transactions-reports.md).  
+ You must submit a VAT transactions report electronically to the tax authorities. For more information, see [How to: Create Electronic VAT Transactions Reports](../FullExperience/how-to-create-electronic-vat-transactions-reports.md).  
   
 ## See Also  
- [How to: Create a VAT Combination Setup](../../Finance/how-to-create-a-vat-combination-setup.md)   
- [How to: Prepare for VAT Transactions Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-prepare-for-vat-transactions-reports.md)   
- [How to: Create Electronic VAT Transactions Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-create-electronic-vat-transactions-reports.md)   
- [How to: Submit VAT Statements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-submit-vat-statements.md)   
- [How to: Update VAT Transactions Data](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-update-vat-transactions-data.md)   
- [How to: Report Trade with Customers and Vendors in Blacklist Countries-Regions](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-report-trade-with-customers-and-vendors-in-blacklist-countries-regions.md)   
+ [How to: Create a VAT Combination Setup](../FullExperience/how-to-create-a-vat-combination-setup.md)   
+ [How to: Prepare for VAT Transactions Reports](../FullExperience/how-to-prepare-for-vat-transactions-reports.md)   
+ [How to: Create Electronic VAT Transactions Reports](../FullExperience/how-to-create-electronic-vat-transactions-reports.md)   
+ [How to: Submit VAT Statements](../FullExperience/how-to-submit-vat-statements.md)   
+ [How to: Update VAT Transactions Data](../FullExperience/how-to-update-vat-transactions-data.md)   
+ [How to: Report Trade with Customers and Vendors in Blacklist Countries-Regions](../FullExperience/how-to-report-trade-with-customers-and-vendors-in-blacklist-countries-regions.md)   
  Annual VAT Comm. - 2010   
- [Italy Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/italy-local-functionality.md)
+ [Italy Local Functionality](../FullExperience/italy-local-functionality.md)

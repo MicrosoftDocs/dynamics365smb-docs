@@ -28,7 +28,7 @@ With electronic banking, you can make electronic payments to domestic, internati
   
 -   Electronic banking setup.  
   
--   IBLC\/BLWI codes - For more information, see [How to: Set Up IBLC-BLWI Transaction Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-iblc-blwi-transaction-codes.md).  
+-   IBLC\/BLWI codes - For more information, see [How to: Set Up IBLC-BLWI Transaction Codes](../FullExperience/how-to-set-up-iblc-blwi-transaction-codes.md).  
   
 -   Preferred bank accounts \(optional\).  
   
@@ -38,7 +38,7 @@ With electronic banking, you can make electronic payments to domestic, internati
   
 2.  In the **Electronic Banking Setup** window, on the **General** FastTab, fill in the fields as described in the following table. ADD INCLUDE<!--[!INCLUDE[bp_fieldhelp]()]-->  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Summarize Gen. Jnl. Lines**|Select to indicate if you want to group the payment journal lines for each vendor.|  
     |**Cut off Payment Message Texts**|Select to indicate if you want to truncate long payment messages. Messages will be truncated if greater than 106 characters for domestic payments and less than 140 characters for international payments.|  
@@ -49,21 +49,21 @@ With electronic banking, you can make electronic payments to domestic, internati
   
 3.  On the **Upload** FastTab, fill in the fields as described in the following table. ADD INCLUDE<!--[!INCLUDE[bp_fieldhelp]()]-->  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Upload integration Mode**|Specify the mode that you want to use to upload content to the Isabel server. The integration mode options include **Attended** and **Manual**. If the integration mode is set to **Attended**, you must set the **IBS Version** field to **6**. The entries in the **IBS Log** table will be created when payment files are generated. If the integration mode is set to **Manual**, you must log on to the Isabel server manually and no log entries will be created.|  
     |**Upload Path**|Specify the path to the folder where the files will be saved during the upload process.|  
   
 4.  On the **Download** FastTab, fill in the fields as described in the following table. ADD INCLUDE<!--[!INCLUDE[bp_fieldhelp]()]-->  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Download integration Mode**|Specify the mode that you want to use to download content to the Isabel server. The options include **Attended** and **Manual**. If the integration mode is set to **Attended**, you must set the **IBS Version** field to **6**. The entries in the **IBS Log** table will be created when the download is performed. If the integration mode is set to **Manual**, you must log on to the Isabel server manually and no log entries will be created.|  
     |**Download Path**|Specify the path to the folder where the files will be saved during the download process.|  
   
 5.  On the **Numbering** FastTab, fill in the fields as described in the following table. ADD INCLUDE<!--[!INCLUDE[bp_fieldhelp]()]-->  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**IBS Log Upload Nos.**|Specify the number series that is used for Isabel log entries created during the file upload process.|  
     |**IBS Log Download Nos.**|Specify the number series that is used for Isabel log entries created during the file download process.|  
@@ -88,12 +88,12 @@ With electronic banking, you can make electronic payments to domestic, internati
   
 ## See Also  
  [Isabel website](http://go.microsoft.com/fwlink/?LinkId=210323)   
- [Belgian Electronic Banking](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/belgian-electronic-banking.md)   
- [Belgian Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/belgian-electronic-payments.md)   
- [How to: Set Up IBLC-BLWI Transaction Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-iblc-blwi-transaction-codes.md)   
- [How to: Set Up Vendors for Automatic Payment Suggestions](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-vendors-for-automatic-payment-suggestions.md)   
- [How to: Generate Payment Suggestions](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-generate-payment-suggestions.md)   
- [How to: Create Payment Journal Templates and Batches](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-create-payment-journal-templates-and-batches.md)   
- [How to: Test Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-test-electronic-payments.md)   
- [How to: Manage Electronic Payment Lines](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-manage-electronic-payment-lines.md)   
- [How to: Print Payment Files](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-print-payment-files.md)
+ [Belgian Electronic Banking](../FullExperience/belgian-electronic-banking.md)   
+ [Belgian Electronic Payments](../FullExperience/belgian-electronic-payments.md)   
+ [How to: Set Up IBLC-BLWI Transaction Codes](../FullExperience/how-to-set-up-iblc-blwi-transaction-codes.md)   
+ [How to: Set Up Vendors for Automatic Payment Suggestions](../FullExperience/how-to-set-up-vendors-for-automatic-payment-suggestions.md)   
+ [How to: Generate Payment Suggestions](../FullExperience/how-to-generate-payment-suggestions.md)   
+ [How to: Create Payment Journal Templates and Batches](../FullExperience/how-to-create-payment-journal-templates-and-batches.md)   
+ [How to: Test Electronic Payments](../FullExperience/how-to-test-electronic-payments.md)   
+ [How to: Manage Electronic Payment Lines](../FullExperience/how-to-manage-electronic-payment-lines.md)   
+ [How to: Print Payment Files](../FullExperience/how-to-print-payment-files.md)

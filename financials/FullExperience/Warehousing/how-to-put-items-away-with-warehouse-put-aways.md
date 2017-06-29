@@ -20,9 +20,9 @@ When your location is set up to require warehouse put-away processing and wareho
   
  When you post a warehouse receipt, the source documents, such as purchase, inbound transfer, or sales return orders, are updated, the quantity received is posted to the item ledger, and the lines about the items received are sent to the put-away function in the warehouse. If you have internal put-away and pick, the internal put-away can also create lines for put-away.  
   
- Depending on the warehouse setup, the lines are either made available to the put-away worksheet or used to generate put-away instructions immediately. For more information, see [How to: Plan Put-aways in Worksheets](../WarehouseActivities/how-to-plan-put-aways-in-worksheets.md).  
+ Depending on the warehouse setup, the lines are either made available to the put-away worksheet or used to generate put-away instructions immediately. For more information, see [How to: Plan Put-aways in Worksheets](../FullExperience/how-to-plan-put-aways-in-worksheets.md).  
   
- In addition to the standard ways to create warehouse put-aways that are described in this topic, you can create the put-away from the related posted warehouse receipt. For more information, see [How to: Create Put-aways from Posted Receipts](../WarehouseActivities/how-to-create-put-aways-from-posted-receipts.md).  
+ In addition to the standard ways to create warehouse put-aways that are described in this topic, you can create the put-away from the related posted warehouse receipt. For more information, see [How to: Create Put-aways from Posted Receipts](../FullExperience/how-to-create-put-aways-from-posted-receipts.md).  
   
 ### To put items away without directed put-away and pick  
   
@@ -64,7 +64,7 @@ When your location is set up to require warehouse put-away processing and wareho
   
  At locations that are set up to use directed put-away and pick, the following settings are prerequisites for the procedure above:  
   
--   A put-away template is set up. For more information, see [How to: Set Up Put-away Templates](../WarehouseActivities/how-to-set-up-put-away-templates.md).  
+-   A put-away template is set up. For more information, see [How to: Set Up Put-away Templates](../FullExperience/how-to-set-up-put-away-templates.md).  
   
 -   The weight, cubage, and special storage requirements of the item or stockkeeping unit are defined. For more information, see Gross Weight.  
   
@@ -75,7 +75,7 @@ When your location is set up to require warehouse put-away processing and wareho
 ## See Also  
  Warehouse Receipt   
  Warehouse Put-away   
- [Put Items Away](../WarehouseActivities/put-items-away.md)   
- [How to: Prepare Shipments](../Topic/How%20to:%20Prepare%20Shipments.md)   
- [How to: Cross-Dock Items](../Receiving/how-to-cross-dock-items.md)   
- [How to: Receive Items](../Receiving/how-to-receive-items.md)
+ [Put Items Away](../FullExperience/put-items-away.md)   
+ [How to: Prepare Shipments](../FullExperience/How%20to:%20Prepare%20Shipments.md)   
+ [How to: Cross-Dock Items](../FullExperience/how-to-cross-dock-items.md)   
+ [How to: Receive Items](../FullExperience/how-to-receive-items.md)

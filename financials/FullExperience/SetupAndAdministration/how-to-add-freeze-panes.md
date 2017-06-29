@@ -35,13 +35,13 @@ If you must use the horizontal scroll bar to view all columns on a list page or 
 -   In the **Customize** window, choose the **Restore Defaults** button, and then choose the **OK** button.  
   
     > [!NOTE]  
-    >  All customization of freeze panes that you have ever made for this page under your current user logon or since you last used the **Restore Defaults** button are canceled. The freeze pane is reset to the default configuration for your profile. For more information, see [How to: Cancel UI Personalization](../SetupAndAdministration/how-to-cancel-ui-personalization.md).  
+    >  All customization of freeze panes that you have ever made for this page under your current user logon or since you last used the **Restore Defaults** button are canceled. The freeze pane is reset to the default configuration for your profile. For more information, see [How to: Cancel UI Personalization](../FullExperience/how-to-cancel-ui-personalization.md).  
   
 ## See Also  
  PERSONALIZATION Personalize the User Interface   
- [How to: Add or Remove Columns in a List or on Document Lines](../SetupAndAdministration/how-to-add-or-remove-columns-in-a-list-or-on-document-lines.md)   
- [How to: Cancel UI Personalization](../SetupAndAdministration/how-to-cancel-ui-personalization.md)   
+ [How to: Add or Remove Columns in a List or on Document Lines](../FullExperience/how-to-add-or-remove-columns-in-a-list-or-on-document-lines.md)   
+ [How to: Cancel UI Personalization](../FullExperience/how-to-cancel-ui-personalization.md)   
  Delete User Personalization   
- [Customize the User Interface](../SetupAndAdministration/customize-the-user-interface.md)   
- [Working with Product Name](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)   
- [Learn About the RoleTailored Design](../GettingStarted/learn-about-the-roletailored-design.md)
+ [Customize the User Interface](../FullExperience/customize-the-user-interface.md)   
+ [Working with Product Name](../FullExperience/working-with-$-p_1-product-name-$-.md)   
+ [Learn About the RoleTailored Design](../FullExperience/learn-about-the-roletailored-design.md)

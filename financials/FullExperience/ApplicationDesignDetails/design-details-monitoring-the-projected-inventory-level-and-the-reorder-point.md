@@ -50,7 +50,7 @@ Inventory is a type of supply, but for inventory planning, the planning system d
   
  The following shows a graphical illustration of this principle:  
   
- ![](../ApplicationDesign/media/nav_app_supply_planning_2_projected_inventory.png "NAV\_APP\_supply\_planning\_2\_projected\_inventory")  
+ ![](../FullExperience/media/nav_app_supply_planning_2_projected_inventory.png "NAV\_APP\_supply\_planning\_2\_projected\_inventory")  
   
 1.  Supply **Sa** of 4 \(fixed\) closes Demand **Da** of -3.  
   
@@ -77,7 +77,7 @@ Inventory is a type of supply, but for inventory planning, the planning system d
      In case of B, the reorder point is reached and a new order is created.  
   
 ## See Also  
- [Design Details: Reordering Policies](../ApplicationDesign/design-details-reordering-policies.md)   
- [Design Details: Planning Parameters](../ApplicationDesign/design-details-planning-parameters.md)   
- [Design Details: Handling Reordering Policies](../ApplicationDesign/design-details-handling-reordering-policies.md)   
- [Design Details: Supply Planning](../ApplicationDesign/design-details-supply-planning.md)
+ [Design Details: Reordering Policies](../FullExperience/design-details-reordering-policies.md)   
+ [Design Details: Planning Parameters](../FullExperience/design-details-planning-parameters.md)   
+ [Design Details: Handling Reordering Policies](../FullExperience/design-details-handling-reordering-policies.md)   
+ [Design Details: Supply Planning](../FullExperience/design-details-supply-planning.md)

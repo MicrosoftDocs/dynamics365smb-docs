@@ -24,7 +24,7 @@ You can review your account balances by General Index of Financial Information \
   
 2.  In the **Account Balances by GIFI Code** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Balance As of Date**|The balance as of the specified date.|  
     |**Print Details**|Select to view the individual general ledger account balances that make up the total for each GIFI code balance.<br /><br /> **NOTE:** If you clear the **Print Details** check box, only the GIFI code balances will be reported.|  
@@ -34,9 +34,9 @@ You can review your account balances by General Index of Financial Information \
 4.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [GIFI Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/gifi-codes.md)   
+ [GIFI Codes](../FullExperience/gifi-codes.md)   
  Account Balances by GIFI Code   
  Export GIFI Info. to Excel   
- [How to: Set Up GIFI Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-set-up-gifi-codes.md)   
- [How to: Export Balance Information by Using GIFI Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-export-balance-information-by-using-gifi-codes.md)   
- [How to: Associate GIFI Codes with Chart of Accounts](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-associate-gifi-codes-with-chart-of-accounts.md)
+ [How to: Set Up GIFI Codes](../FullExperience/how-to-set-up-gifi-codes.md)   
+ [How to: Export Balance Information by Using GIFI Codes](../FullExperience/how-to-export-balance-information-by-using-gifi-codes.md)   
+ [How to: Associate GIFI Codes with Chart of Accounts](../FullExperience/how-to-associate-gifi-codes-with-chart-of-accounts.md)

@@ -16,7 +16,7 @@
 
     ---
 # How to: Create Additional Sheets
-In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you can create additional sheets based on VAT purchase ledgers and VAT sales ledgers.  
+In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can create additional sheets based on VAT purchase ledgers and VAT sales ledgers.  
   
 ### To create entries for an additional sheet for a VAT purchase or sales ledger  
   
@@ -138,4 +138,4 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
 5.  In the additional sheet, the **Date of Facture** field reflects the corrected document date.  
   
 ## See Also  
- [VAT Ledgers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/vat-ledgers.md)
+ [VAT Ledgers](../FullExperience/vat-ledgers.md)

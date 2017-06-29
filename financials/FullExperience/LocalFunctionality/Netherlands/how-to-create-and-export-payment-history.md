@@ -16,7 +16,7 @@
 
     ---
 # How to: Create and Export Payment History
-After you have created a proposal and made any modifications, you can process the proposal to create a payment history. Proposals can be created manually or automatically from a vendor or customer ledger entry. For more information, see [How to: Create Proposals](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/how-to-create-proposals.md).  
+After you have created a proposal and made any modifications, you can process the proposal to create a payment history. Proposals can be created manually or automatically from a vendor or customer ledger entry. For more information, see [How to: Create Proposals](../FullExperience/how-to-create-proposals.md).  
   
  For exporting payment histories, the following protocols are supported:  
   
@@ -48,5 +48,5 @@ After you have created a proposal and made any modifications, you can process th
     >  A text file will be created. This file contains the path and file name as defined in the Default File Names Field field of the export protocol.  
   
 ## See Also  
- [How to: Create Proposals](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/how-to-create-proposals.md)   
+ [How to: Create Proposals](../FullExperience/how-to-create-proposals.md)   
  Paymt. History - Change Status Batch Job

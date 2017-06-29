@@ -41,5 +41,5 @@ If you want to include warehouse handling time in the order promising calculatio
 ## See Also  
  Location Card   
  Inventory Setup   
- [Date Calculation for Purchases](../Purchasing/date-calculation-for-purchases.md)   
- [Date Calculation for Purchases](../Purchasing/date-calculation-for-purchases.md)
+ [Date Calculation for Purchases](../FullExperience/date-calculation-for-purchases.md)   
+ [Date Calculation for Purchases](../FullExperience/date-calculation-for-purchases.md)

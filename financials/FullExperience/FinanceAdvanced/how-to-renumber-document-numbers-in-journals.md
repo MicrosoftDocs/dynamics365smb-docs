@@ -41,4 +41,4 @@ To make sure that you do not receive posting errors because of the document numb
  No. Series   
  Document No.   
  General Journal   
- [Work with General Journals](../Finance/work-with-general-journals.md)
+ [Work with General Journals](../FullExperience/work-with-general-journals.md)

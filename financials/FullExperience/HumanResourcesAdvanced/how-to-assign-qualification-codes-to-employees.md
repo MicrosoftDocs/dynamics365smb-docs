@@ -31,4 +31,4 @@ You can set up qualification codes for various qualifications, both academic and
 4.  In the **Employee Qualifications** window, fill in as many lines as necessary to register the relevant qualifications for the employee.  
   
 ## See Also  
- [How to: Assign Employment Contract Codes to Employees](../HumanResources/how-to-assign-employment-contract-codes-to-employees.md)
+ [How to: Assign Employment Contract Codes to Employees](../FullExperience/how-to-assign-employment-contract-codes-to-employees.md)

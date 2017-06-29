@@ -42,7 +42,7 @@ The production order lines contain the items that are to be produced in the prod
   
 9. The following table describes the options available for this batch job.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)]-->|Selection|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../../includes/bp_tabledescription_md.md)]-->|  
     |----------------------------------|---------------|---------------------------------------|  
     |**Scheduling Direction**|**Forward**|Scheduling starts from the starting date and proceeds forward to the finishing date. You must fill in the starting date to use this option.|  
     ||**Backward**|Scheduling starts from the ending date and proceeds backward to the starting date.|  
@@ -54,8 +54,8 @@ The production order lines contain the items that are to be produced in the prod
 10. Choose the **OK** button to confirm your selection. Now the production order lines are calculated.  
   
 ## See Also  
- [How to: Refresh Production Orders](../OperationsPlanning/how-to-refresh-production-orders.md)   
- [How to: Calculate Production Order Components](../OperationsPlanning/how-to-calculate-production-order-components.md)   
- [How to: Calculate Production Order Routing Lines](../OperationsPlanning/how-to-calculate-production-order-routing-lines.md)   
- [About Production Orders](../Production/about-production-orders.md)   
- [How to: Use the Manufacturing Batch Unit of Measure](../DesignAndEngineering/how-to-use-the-manufacturing-batch-unit-of-measure.md)
+ [How to: Refresh Production Orders](../FullExperience/how-to-refresh-production-orders.md)   
+ [How to: Calculate Production Order Components](../FullExperience/how-to-calculate-production-order-components.md)   
+ [How to: Calculate Production Order Routing Lines](../FullExperience/how-to-calculate-production-order-routing-lines.md)   
+ [About Production Orders](../FullExperience/about-production-orders.md)   
+ [How to: Use the Manufacturing Batch Unit of Measure](../FullExperience/how-to-use-the-manufacturing-batch-unit-of-measure.md)

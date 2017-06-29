@@ -39,8 +39,8 @@ A Business Activity Statement \(BAS\) is a form that businesses must submit to t
 7.  Update BAS with the receipt number received from the ATO.  
   
 ## See Also  
- [How to: Set Up Business Activity Statements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-set-up-business-activity-statements.md)   
- [How to: Export Business Activity Statements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-export-business-activity-statements.md)   
- [How to: Calculate Goods and Services Tax on Prepayments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-calculate-goods-and-services-tax-on-prepayments.md)   
- [How to: Print Goods and Services Tax Sales and Purchase Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-print-goods-and-services-tax-sales-and-purchase-reports.md)   
- [Australia Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/australia-local-functionality.md)
+ [How to: Set Up Business Activity Statements](../FullExperience/how-to-set-up-business-activity-statements.md)   
+ [How to: Export Business Activity Statements](../FullExperience/how-to-export-business-activity-statements.md)   
+ [How to: Calculate Goods and Services Tax on Prepayments](../FullExperience/how-to-calculate-goods-and-services-tax-on-prepayments.md)   
+ [How to: Print Goods and Services Tax Sales and Purchase Reports](../FullExperience/how-to-print-goods-and-services-tax-sales-and-purchase-reports.md)   
+ [Australia Local Functionality](../FullExperience/australia-local-functionality.md)

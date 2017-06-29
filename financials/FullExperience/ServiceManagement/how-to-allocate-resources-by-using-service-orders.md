@@ -42,8 +42,8 @@ After you have created and filled in a service order or service quote, you can a
 >  For a service item in a service order, there can only be Active allocation entries with one resource or resource group at a time.  
   
 ## See Also  
- [Allocation Status and Repair Status](../Service/allocation-status-and-repair-status.md)   
- [How to: Allocate Resources by Using the Dispatch Board](../Service/how-to-allocate-resources-by-using-the-dispatch-board.md)   
- [How to: Allocate Resources by Using Resource Availability](../Service/how-to-allocate-resources-by-using-resource-availability.md)   
- [How to: Cancel Allocations](../Service/how-to-cancel-allocations.md)   
- [How to: Reallocate Resources by Using the Dispatch Board](../Service/how-to-reallocate-resources-by-using-the-dispatch-board.md)
+ [Allocation Status and Repair Status](../FullExperience/allocation-status-and-repair-status.md)   
+ [How to: Allocate Resources by Using the Dispatch Board](../FullExperience/how-to-allocate-resources-by-using-the-dispatch-board.md)   
+ [How to: Allocate Resources by Using Resource Availability](../FullExperience/how-to-allocate-resources-by-using-resource-availability.md)   
+ [How to: Cancel Allocations](../FullExperience/how-to-cancel-allocations.md)   
+ [How to: Reallocate Resources by Using the Dispatch Board](../FullExperience/how-to-reallocate-resources-by-using-the-dispatch-board.md)

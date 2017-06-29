@@ -39,5 +39,5 @@ You use the **Repair Status Setup** window to set up repair status options that 
  Repeat these steps for each of the repair status options you want to create.  
   
 ## See Also  
- [How to: Work on Service Tasks](../Service/how-to-work-on-service-tasks.md)   
- [How to: Set Up Service Status Priorities](../Service/how-to-set-up-service-status-priorities.md)
+ [How to: Work on Service Tasks](../FullExperience/how-to-work-on-service-tasks.md)   
+ [How to: Set Up Service Status Priorities](../FullExperience/how-to-set-up-service-status-priorities.md)

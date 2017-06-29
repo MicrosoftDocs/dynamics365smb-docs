@@ -28,7 +28,7 @@ You can create a special order for a specific nonstock item to be shipped to a s
   
 2.  On the **Home** tab, in the **New** groups, choose **New**. Create and fill in a  sales order for the item.  
   
-3.  On the **Lines** FastTab, fill in the sales line. In the **Purchasing Code** field, select a purchasing code that has the **Special Order** field selected. ADD INCLUDE<!--[!INCLUDE[bp_choose_columns](../DesignAndEngineering/includes/bp_choose_columns_md.md)]-->  
+3.  On the **Lines** FastTab, fill in the sales line. In the **Purchasing Code** field, select a purchasing code that has the **Special Order** field selected. ADD INCLUDE<!--[!INCLUDE[bp_choose_columns](../../includes/bp_choose_columns_md.md)]-->  
   
      You must now create a purchase order from a requisition worksheet.  
   
@@ -44,7 +44,7 @@ You can create a special order for a specific nonstock item to be shipped to a s
   
      A message appears telling you that the purchase orders have been created. Choost the **OK** button.  
   
- A purchase order created as a special order for a sales order is respected by the planning system as it balances demand and supply. That is, the purchase order \(supply\) remains linked to the sales order \(demand\), even if that purchase order could supply another earlier demand. For more information, see [Design Details: Reservation, Order Tracking, and Action Messaging](../ApplicationDesign/design-details-reservation-order-tracking-and-action-messaging.md).  
+ A purchase order created as a special order for a sales order is respected by the planning system as it balances demand and supply. That is, the purchase order \(supply\) remains linked to the sales order \(demand\), even if that purchase order could supply another earlier demand. For more information, see [Design Details: Reservation, Order Tracking, and Action Messaging](../FullExperience/design-details-reservation-order-tracking-and-action-messaging.md).  
   
 > [!NOTE]  
 >  You cannot use the special order functionality if the item is already reserved. Therefore, for items that are sold on special orders, make sure the **Reserve** field on the item card is not set to **Always**.  
@@ -52,6 +52,6 @@ You can create a special order for a specific nonstock item to be shipped to a s
 ## See Also  
  Purchasing Code   
  Reserve   
- [How to: Create Drop Shipments](../Purchasing/how-to-create-drop-shipments.md)   
+ [How to: Create Drop Shipments](../FullExperience/how-to-create-drop-shipments.md)   
  Calculate Plan - Req. Wksh.   
- [Design Details: Reservation, Order Tracking, and Action Messaging](../ApplicationDesign/design-details-reservation-order-tracking-and-action-messaging.md)
+ [Design Details: Reservation, Order Tracking, and Action Messaging](../FullExperience/design-details-reservation-order-tracking-and-action-messaging.md)

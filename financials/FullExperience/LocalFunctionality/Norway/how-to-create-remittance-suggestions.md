@@ -29,7 +29,7 @@ You can create a remittance suggestion so that payment proposals are sent to ven
   
 3.  In the **Suggest Remittance Payments** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_15000001\_F\_1\_1 Last Payment Date $\)**|Specify the last payment date.|  
     |**\($ R\_15000001\_F\_1\_2 Find Payment Discounts $\)**|Select if you want to search for entries where a payment discount is available.|  
@@ -43,18 +43,18 @@ You can create a remittance suggestion so that payment proposals are sent to ven
 4.  Choose the **OK** button.  
   
 ## See Also  
- [Electronic Payments to Vendors in Norway](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/electronic-payments-to-vendors-in-norway.md)   
- [How to: Set Up Remittance Agreements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-set-up-remittance-agreements.md)   
- [How to: Create Remittance Accounts](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-create-remittance-accounts.md)   
- [How to: Set Up Vendors for Remittance](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-set-up-vendors-for-remittance.md)   
- [Recipient Reference Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/recipient-reference-codes.md)   
- [How to: Create Manual Remittance Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-create-manual-remittance-payments.md)   
- [How to: Set Up Payment Line Information](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-set-up-payment-line-information.md)   
- [How to: Test Remittance Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-test-remittance-payments.md)   
- [How to: Export Remittance Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-export-remittance-payments.md)   
- [Types of Payment Returns Files](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/types-of-payment-returns-files.md)   
- [How to: Import Payment Return Data](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-import-payment-return-data.md)   
- [How to: Delete Remittance Payment Orders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-delete-remittance-payment-orders.md)   
- [Remittance Errors](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/remittance-errors.md)   
- [How to: View Remittance Error Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-view-remittance-error-codes.md)   
- [How to: Cancel Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-cancel-payments.md)
+ [Electronic Payments to Vendors in Norway](../FullExperience/electronic-payments-to-vendors-in-norway.md)   
+ [How to: Set Up Remittance Agreements](../FullExperience/how-to-set-up-remittance-agreements.md)   
+ [How to: Create Remittance Accounts](../FullExperience/how-to-create-remittance-accounts.md)   
+ [How to: Set Up Vendors for Remittance](../FullExperience/how-to-set-up-vendors-for-remittance.md)   
+ [Recipient Reference Codes](../FullExperience/recipient-reference-codes.md)   
+ [How to: Create Manual Remittance Payments](../FullExperience/how-to-create-manual-remittance-payments.md)   
+ [How to: Set Up Payment Line Information](../FullExperience/how-to-set-up-payment-line-information.md)   
+ [How to: Test Remittance Payments](../FullExperience/how-to-test-remittance-payments.md)   
+ [How to: Export Remittance Payments](../FullExperience/how-to-export-remittance-payments.md)   
+ [Types of Payment Returns Files](../FullExperience/types-of-payment-returns-files.md)   
+ [How to: Import Payment Return Data](../FullExperience/how-to-import-payment-return-data.md)   
+ [How to: Delete Remittance Payment Orders](../FullExperience/how-to-delete-remittance-payment-orders.md)   
+ [Remittance Errors](../FullExperience/remittance-errors.md)   
+ [How to: View Remittance Error Codes](../FullExperience/how-to-view-remittance-error-codes.md)   
+ [How to: Cancel Payments](../FullExperience/how-to-cancel-payments.md)

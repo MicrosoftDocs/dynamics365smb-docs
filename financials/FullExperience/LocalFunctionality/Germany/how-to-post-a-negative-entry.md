@@ -31,5 +31,5 @@ You can use the **Correction** field to post a negative debit instead of a credi
 5.  To post the journal, on the **Home** tab, in the **Process** group, choose **Post**, and then choose the **Yes** button.  
   
 ## See Also  
- [How to: Make Corrections with General Journals](../../Finance/how-to-make-corrections-with-general-journals.md)   
- [Germany Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/germany-local-functionality.md)
+ [How to: Make Corrections with General Journals](../FullExperience/how-to-make-corrections-with-general-journals.md)   
+ [Germany Local Functionality](../FullExperience/germany-local-functionality.md)

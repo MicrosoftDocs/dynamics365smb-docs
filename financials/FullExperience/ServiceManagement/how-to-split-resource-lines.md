@@ -26,7 +26,7 @@ If the same resource, for example, a technician, works on all the service items 
   
 2.  Open the relevant service order.  
   
-3.  On the **Lines** FastTab, choose **Actions**![Action Menu icon](../DesignAndEngineering/media/actionmenuicon.png "actionMenuIcon"), choose **Order**, and then choose **Service Lines**. The **Service Lines** window opens.  
+3.  On the **Lines** FastTab, choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Order**, and then choose **Service Lines**. The **Service Lines** window opens.  
   
 4.  Select the resource line you want to split. The contents of the **Quantity** field is divided between all the service items in the order.  
   
@@ -35,4 +35,4 @@ If the same resource, for example, a technician, works on all the service items 
      Resource lines for the other service items in the order are created with the same resource number as the line you split. The quantity is the quantity for the line you split divided by the number of service items in the order.  
   
 ## See Also  
- [How to: Register Resource Hours](../Service/how-to-register-resource-hours.md)
+ [How to: Register Resource Hours](../FullExperience/how-to-register-resource-hours.md)

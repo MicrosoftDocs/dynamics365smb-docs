@@ -47,6 +47,6 @@ You can use the **Service Price Groups** window to set up groups containing serv
  Repeat these steps for each of the service price groups you want to create.  
   
 ## See Also  
- [How to: Create Service Price Adjustments](../Service/how-to-create-service-price-adjustments.md)   
- [How to: Set Up Service Price Adjustment Groups](../Service/how-to-set-up-service-price-adjustment-groups.md)   
- [Service Price Management](../Service/service-price-management.md)
+ [How to: Create Service Price Adjustments](../FullExperience/how-to-create-service-price-adjustments.md)   
+ [How to: Set Up Service Price Adjustment Groups](../FullExperience/how-to-set-up-service-price-adjustment-groups.md)   
+ [Service Price Management](../FullExperience/service-price-management.md)

@@ -24,7 +24,7 @@ You must create a list of transactions that include VAT with amounts over the cu
   
 2.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---
     title: Insert topic title| Microsoft Docs
     description: Insert description
@@ -47,14 +47,14 @@ You must create a list of transactions that include VAT with amounts over the cu
     |**Other**|The VAT entries that resulted in this line are not associated with a special contract, such as ongoing maintenance or other exceptions.|  
   
     > [!TIP]  
-    >  In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, the contract that the tax authorities are looking for can be blanket orders or service contracts. To identify if the VAT report line belongs to a blanket order or service contract, you can drill down to see the underlying VAT entries from the **Amount** field.  
+    >  In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, the contract that the tax authorities are looking for can be blanket orders or service contracts. To identify if the VAT report line belongs to a blanket order or service contract, you can drill down to see the underlying VAT entries from the **Amount** field.  
   
-     Credit memos are included in the VAT transaction report if the customer or vendor is from a country\/region that is outside the EU and not black-listed. For more information, see [Italian VAT](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/italian-vat.md).  
+     Credit memos are included in the VAT transaction report if the customer or vendor is from a country\/region that is outside the EU and not black-listed. For more information, see [Italian VAT](../FullExperience/italian-vat.md).  
   
- Now that you have created the VAT report, you must submit it to the tax authorities. For more information, see [How to: Export VAT Transactions Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-export-vat-transactions-reports.md).  
+ Now that you have created the VAT report, you must submit it to the tax authorities. For more information, see [How to: Export VAT Transactions Reports](../FullExperience/how-to-export-vat-transactions-reports.md).  
   
 ## See Also  
- [Italian VAT](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/italian-vat.md)   
+ [Italian VAT](../FullExperience/italian-vat.md)   
  VAT Report   
  VAT Report Error Log   
  Export VAT Transactions

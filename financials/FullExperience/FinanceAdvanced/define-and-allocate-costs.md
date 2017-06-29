@@ -36,17 +36,17 @@ Cost allocations move costs and revenues between cost types, cost centers, and c
   
 |To|See|  
 |--------|---------|  
-|Set up allocation source and its targets.|[How to: Set Up Allocation Source and Targets](../Finance/how-to-set-up-allocation-source-and-targets.md)|  
-|Set up various filters for dynamic allocation bases.|[Setting Filters for Dynamic Allocation Bases](../Finance/setting-filters-for-dynamic-allocation-bases.md)|  
-|See an example of how to define a static allocation.|[Scenario Example: Defining Static Allocations Based on Allocation Ratio](../Finance/scenario-example-defining-static-allocations-based-on-allocation-ratio.md)|  
-|See an example of how to define a dynamic allocation.|[Scenario Example: Defining Dynamic Allocations Based on Items Sold](../Finance/scenario-example-defining-dynamic-allocations-based-on-items-sold.md)|  
+|Set up allocation source and its targets.|[How to: Set Up Allocation Source and Targets](../FullExperience/how-to-set-up-allocation-source-and-targets.md)|  
+|Set up various filters for dynamic allocation bases.|[Setting Filters for Dynamic Allocation Bases](../FullExperience/setting-filters-for-dynamic-allocation-bases.md)|  
+|See an example of how to define a static allocation.|[Scenario Example: Defining Static Allocations Based on Allocation Ratio](../FullExperience/scenario-example-defining-static-allocations-based-on-allocation-ratio.md)|  
+|See an example of how to define a dynamic allocation.|[Scenario Example: Defining Dynamic Allocations Based on Items Sold](../FullExperience/scenario-example-defining-dynamic-allocations-based-on-items-sold.md)|  
 |Allocate costs.|Cost Allocation|  
 |See the results of cost allocations.|Cost Allocation<br /><br /> Cost Registers|  
 |Delete cost entries.|Delete Cost Entries|  
   
 ## See Also  
- [Set Up Cost Accounting](../Finance/set-up-cost-accounting.md)   
- [Transfer and Post Cost Entries](../Finance/transfer-and-post-cost-entries.md)   
- [Manage Cost Accounting](../Finance/manage-cost-accounting.md)   
- [Terminology in Cost Accounting](../Finance/terminology-in-cost-accounting.md)   
- [About Cost Accounting](../Finance/about-cost-accounting.md)
+ [Set Up Cost Accounting](../FullExperience/set-up-cost-accounting.md)   
+ [Transfer and Post Cost Entries](../FullExperience/transfer-and-post-cost-entries.md)   
+ [Manage Cost Accounting](../FullExperience/manage-cost-accounting.md)   
+ [Terminology in Cost Accounting](../FullExperience/terminology-in-cost-accounting.md)   
+ [About Cost Accounting](../FullExperience/about-cost-accounting.md)

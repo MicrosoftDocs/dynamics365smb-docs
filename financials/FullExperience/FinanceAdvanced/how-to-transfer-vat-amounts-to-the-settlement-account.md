@@ -36,6 +36,6 @@ Transferring VAT amounts to the settlement account means that the purchase VAT a
 >  If you calculate VAT on trade with the EU, you must also prepare a VIES declaration for the tax authorities.  
   
 ## See Also  
- [How to: Define VAT Statements](../Finance/how-to-define-vat-statements.md)   
- [How to: Print VAT Statements](../Finance/how-to-print-vat-statements.md)   
- [How to: Record VAT](../Finance/how-to-record-vat.md)
+ [How to: Define VAT Statements](../FullExperience/how-to-define-vat-statements.md)   
+ [How to: Print VAT Statements](../FullExperience/how-to-print-vat-statements.md)   
+ [How to: Record VAT](../FullExperience/how-to-record-vat.md)

@@ -16,7 +16,7 @@
 
     ---
 # Depreciation Methods-duplicate
-There are three depreciation methods that are unique to Russia that can be used in ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->.  
+There are three depreciation methods that are unique to Russia that can be used in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
   
 -   Straight-line method **\(SL-RU\)**  
   
@@ -55,15 +55,15 @@ There are three depreciation methods that are unique to Russia that can be used 
   
  Before you use this method, you will have to make sure that the appropriate settings have been applied in the **Tax Register Setup** window. Use the information in the following table to apply the correct settings.  
   
-|ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+|ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
 |---------------------------------|---------------------------------------|  
 |**Use Group Depr. Method from**|Enter the start date from which the non-linear depreciation method can be applied. The date should be the first day of the calendar year.|  
 |**Min. Group Balance**|Enter the minimum amount that is valid as the balance for the depreciation group. If the book value for the fixed assets is less than this amount, the depreciation can be written off in this period.|  
 |**Write-off in Charges**|Select if you want to write off fixed asset charges if the book value of the fixed assets is written off in the period when the book value is less than or equal to the **Min. Group Balance** amount. Otherwise, the book value will be written off in the next period.|  
   
 ## See Also  
- [Depreciation Bonus](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/depreciation-bonus.md)   
- [How to: Create Fixed Assets](../../Finance/how-to-create-fixed-assets.md)   
+ [Depreciation Bonus](../FullExperience/depreciation-bonus.md)   
+ [How to: Create Fixed Assets](../FullExperience/how-to-create-fixed-assets.md)   
  Fixed Asset Card   
  Fixed Asset Journal   
  Fixed Asset G-L Journal   

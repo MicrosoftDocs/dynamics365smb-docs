@@ -31,6 +31,6 @@ You can change the exchange rate on existing journal lines or sales and purchase
  When you post, the amounts are converted to LCY according to the new exchange rate.  
   
 ## See Also  
- [About Using Additional Reporting Currencies](../Finance/about-using-additional-reporting-currencies.md)   
- [How to: Set Up the Additional Reporting Currency](../Finance/how-to-set-up-the-additional-reporting-currency.md)   
- [How to: Adjust Currency Exchange Rates](../Finance/how-to-adjust-currency-exchange-rates.md)
+ [About Using Additional Reporting Currencies](../FullExperience/about-using-additional-reporting-currencies.md)   
+ [How to: Set Up the Additional Reporting Currency](../FullExperience/how-to-set-up-the-additional-reporting-currency.md)   
+ [How to: Adjust Currency Exchange Rates](../FullExperience/how-to-adjust-currency-exchange-rates.md)

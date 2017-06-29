@@ -24,7 +24,7 @@ Cash accounts are similar to bank accounts and are created identically. For more
   
 2.  In the **Cash Account Card** window, fill in the fields on the **Posting** FastTab as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Currency Code**|Specifies the currency code that is associated with the cash account.|  
     |**Debit Cash Order No. Series**|Specifies the serial numbers for outgoing cash orders.|  
@@ -36,8 +36,8 @@ Cash accounts are similar to bank accounts and are created identically. For more
 3.  Choose the **OK** button.  
   
 ## See Also  
- [Petty Cash Management](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/petty-cash-management.md)   
- [Bank and Cash Management](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/bank-and-cash-management.md)   
+ [Petty Cash Management](../FullExperience/petty-cash-management.md)   
+ [Bank and Cash Management](../FullExperience/bank-and-cash-management.md)   
  Cash Report CO-4   
  Cash Outgoing Order   
  Cash Ingoing Order   

@@ -37,6 +37,6 @@ If you want to change the inventory value of an item or that of a specific recei
  Repeat this procedure for all entries that you want to revalue.  
   
 ## See Also  
- [Inventory Revaluation](../DesignAndEngineering/inventory-revaluation.md)   
- [How to: Fill In the Revaluation Journal with the Batch Job](../DesignAndEngineering/how-to-fill-in-the-revaluation-journal-with-the-batch-job.md)   
- [How to: Fill In Revaluation Journals Manually](../DesignAndEngineering/how-to-fill-in-revaluation-journals-manually.md)
+ [Inventory Revaluation](../FullExperience/inventory-revaluation.md)   
+ [How to: Fill In the Revaluation Journal with the Batch Job](../FullExperience/how-to-fill-in-the-revaluation-journal-with-the-batch-job.md)   
+ [How to: Fill In Revaluation Journals Manually](../FullExperience/how-to-fill-in-revaluation-journals-manually.md)

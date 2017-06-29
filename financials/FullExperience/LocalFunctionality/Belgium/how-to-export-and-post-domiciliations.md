@@ -32,7 +32,7 @@ You can submit domiciliations to your bank by exporting the data to a file. When
   
 3.  In the **Create Gen. Jnl. Lines** window, select the **Options** FastTab, and then fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_2000021\_F\_1\_11 Journal Template Name $\)**|Select the general journal template that the domiciliations will be posted from.|  
     |**\($ R\_2000021\_F\_1\_7 Journal Batch $\)**|Select the general journal batch that the journal lines will be transferred from.|  
@@ -57,7 +57,7 @@ You can submit domiciliations to your bank by exporting the data to a file. When
   
 3.  In the **File Domiciliations** window, select the **Options** FastTab, and then fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_2000021\_F\_1\_11 Journal Template Name $\)**|Select the general journal template that the domiciliations will be posted from.|  
     |**\($ R\_2000021\_F\_1\_7 Journal Batch $\)**|Select the general journal batch that the journal lines will be transferred from.|  
@@ -79,8 +79,8 @@ You can submit domiciliations to your bank by exporting the data to a file. When
   
 ## See Also  
  SEPA Direct Debit Exp. Format   
- [Direct Debit Using Domiciliation](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/direct-debit-using-domiciliation.md)   
- [How to: Set Up Domiciliations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-domiciliations.md)   
- [How to: Generate Domiciliation Suggestions](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-generate-domiciliation-suggestions.md)   
- [How to: Test Domiciliations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-test-domiciliations.md)   
- [How to: Edit and Delete Domiciliation Lines](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-edit-and-delete-domiciliation-lines.md)
+ [Direct Debit Using Domiciliation](../FullExperience/direct-debit-using-domiciliation.md)   
+ [How to: Set Up Domiciliations](../FullExperience/how-to-set-up-domiciliations.md)   
+ [How to: Generate Domiciliation Suggestions](../FullExperience/how-to-generate-domiciliation-suggestions.md)   
+ [How to: Test Domiciliations](../FullExperience/how-to-test-domiciliations.md)   
+ [How to: Edit and Delete Domiciliation Lines](../FullExperience/how-to-edit-and-delete-domiciliation-lines.md)

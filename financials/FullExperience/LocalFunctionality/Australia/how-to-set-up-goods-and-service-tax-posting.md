@@ -28,7 +28,7 @@ Goods and services tax \(GST\) is the tax that is applied on most goods and serv
   
 2.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**VAT Bus. Posting Group**|Specifies the VAT business posting group code.|  
     |**VAT Prod. Posting Group**|Specifies the VAT product posting group code.|  
@@ -43,4 +43,4 @@ Goods and services tax \(GST\) is the tax that is applied on most goods and serv
   
 ## See Also  
  BAS-Update   
- [How to: Print Goods and Service Tax Settlement Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-print-goods-and-service-tax-settlement-reports.md)
+ [How to: Print Goods and Service Tax Settlement Reports](../FullExperience/how-to-print-goods-and-service-tax-settlement-reports.md)

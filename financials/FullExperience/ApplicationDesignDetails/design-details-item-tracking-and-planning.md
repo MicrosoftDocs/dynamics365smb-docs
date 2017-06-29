@@ -16,20 +16,20 @@
 
     ---
 # Design Details: Item Application
-When you post an inventory transaction, the quantity posting is recorded in the item ledger entries, the value posting in the value entries. For more information, see [Design Details: Inventory Posting](../ApplicationDesign/design-details-inventory-posting.md).  
+When you post an inventory transaction, the quantity posting is recorded in the item ledger entries, the value posting in the value entries. For more information, see [Design Details: Inventory Posting](../FullExperience/design-details-inventory-posting.md).  
   
- In addition, an item application is made to link the cost recipient to its cost source to provide cost forwarding according to the costing method. For more information, see [Design Details: Costing Methods](../ApplicationDesign/design-details-costing-methods.md).  
+ In addition, an item application is made to link the cost recipient to its cost source to provide cost forwarding according to the costing method. For more information, see [Design Details: Costing Methods](../FullExperience/design-details-costing-methods.md).  
   
- ADD INCLUDE<!--[!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)]--> makes two types of item application.  
+ ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]--> makes two types of item application.  
   
-|Application type|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+|Application type|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
 |----------------------|---------------------------------------|  
 |Quantity application|Created for all inventory transactions|  
 |Cost application|Created for inbound entries together with a quantity application as a result of user interaction in special processes.|  
   
  Item applications can be made in the following ways.  
   
-|Method|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|Application type|  
+|Method|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|Application type|  
 |------------|---------------------------------------|----------------------|  
 |Automatic|Occurs as general cost forwarding according to the costing method|Quantity application|  
 |Fixed|Made by the user when:<br /><br /> -   Processing returns<br />-   Posting corrections<br />-   Undoing quantity postings<br />-   Creating drop shipments **Note:**  The fixed application can be  made either manually by entering an entry number in the **Appl.-from Item Entry** field or by using a function, such as the **Get Posted Document Lines to Reverse**.|Quantity application<br /><br /> Cost application **Note:**  Cost application only occurs in inbound transactions where the **Appl.-from Item Entry** field is filled to create a fixed application. See the next table.|  
@@ -50,7 +50,7 @@ When you post an inventory transaction, the quantity posting is recorded in the 
   
  An item application entry records the following information.  
   
-|ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+|ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
 |---------------------------------|---------------------------------------|  
 |**Item Ledger Entry No.**|The number of the item ledger entry for the transaction that this application entry is created for.|  
 |**Inbound Item Entry No.**|The item ledger entry number of the inventory increase to which the transaction should be linked, if applicable.|  
@@ -86,7 +86,7 @@ When you post an inventory transaction, the quantity posting is recorded in the 
 ## Fixed Application  
  You make a fixed application when you specify that the cost of an inventory increase should apply to a specific inventory decrease, or vice versa. The fixed application affects the remaining quantities of the entries, but the fixed application also reverses the exact cost of the original entry that you are applying to, or from.  
   
- To make a fixed application, you use the **Appl.-to Item Entry** field or the **Appl.-from Item Entry** field in the document lines to specify the item ledger entry that you want the transaction line to apply to, or from. For example, you might make a fixed application when you want to create a cost application that specifies that a sales return should apply to a specific sales shipment to reverse the cost of the sales shipment. In this case, ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> ignores the costing method and applies the inventory decrease, or increase, for a sales return, to the item ledger entry that you specify. The advantage of making a fixed application is that the cost of the original transaction is passed to the new transaction.  
+ To make a fixed application, you use the **Appl.-to Item Entry** field or the **Appl.-from Item Entry** field in the document lines to specify the item ledger entry that you want the transaction line to apply to, or from. For example, you might make a fixed application when you want to create a cost application that specifies that a sales return should apply to a specific sales shipment to reverse the cost of the sales shipment. In this case, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> ignores the costing method and applies the inventory decrease, or increase, for a sales return, to the item ledger entry that you specify. The advantage of making a fixed application is that the cost of the original transaction is passed to the new transaction.  
   
 ### Example – Fixed Application in Purchase Return  
  The following example, which illustrates the effect of fixed application of a purchase return of an item using the FIFO costing method, is based on the following scenario:  
@@ -196,7 +196,7 @@ When you post an inventory transaction, the quantity posting is recorded in the 
  When you run the **Adjust Cost - Item Entries** batch job, the increased cost of the purchase entry, due to the item charge, is forwarded to the sales entry \(entry number 2\). The sales entry then forwards this increased cost to the sales credit entry \(entry number 3\). The final result is that the cost is correctly reversed.  
   
 > [!NOTE]  
->  If you are working with returns or credit memos and you have set up the **Exact Cost Reversing Mandatory** field in either the **\($ N\_460 Purchases & Payables Setup $\)** window or the **\($ N\_459 Sales & Receivables Setup $\)** window, as appropriate for your situation, then ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> automatically fills the various application entry fields when you use the **Copy Document** function. If you use the **Get Posted Document Lines to Reverse** function, then the fields are always filled automatically.  
+>  If you are working with returns or credit memos and you have set up the **Exact Cost Reversing Mandatory** field in either the **\($ N\_460 Purchases & Payables Setup $\)** window or the **\($ N\_459 Sales & Receivables Setup $\)** window, as appropriate for your situation, then ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> automatically fills the various application entry fields when you use the **Copy Document** function. If you use the **Get Posted Document Lines to Reverse** function, then the fields are always filled automatically.  
   
 > [!NOTE]  
 >  If you post a transaction with a fixed application, and the item ledger entry that you are applying to is closed, meaning that the remaining quantity is zero, then the old application is automatically undone and reapplies the item ledger entry using the fixed application that you specified.  
@@ -250,10 +250,10 @@ When you post an inventory transaction, the quantity posting is recorded in the 
   
 -   You have to return an item to which a sale has already been manually applied, without using the **Get Posted Document Lines to Reverse** function, and you must therefore undo the application.  
   
- ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> offers a feature for analyzing and correcting item applications. This work is performed in the **Application Worksheet** window.  
+ ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> offers a feature for analyzing and correcting item applications. This work is performed in the **Application Worksheet** window.  
   
 ## See Also  
- [Design Details: Inventory Costing](../ApplicationDesign/design-details-inventory-costing.md)   
- [Design Details: Costing Methods](../ApplicationDesign/design-details-costing-methods.md)   
- [Design Details: Average Cost](../ApplicationDesign/design-details-average-cost.md)   
- [Design Details: Cost Adjustment](../ApplicationDesign/design-details-cost-adjustment.md)
+ [Design Details: Inventory Costing](../FullExperience/design-details-inventory-costing.md)   
+ [Design Details: Costing Methods](../FullExperience/design-details-costing-methods.md)   
+ [Design Details: Average Cost](../FullExperience/design-details-average-cost.md)   
+ [Design Details: Cost Adjustment](../FullExperience/design-details-cost-adjustment.md)

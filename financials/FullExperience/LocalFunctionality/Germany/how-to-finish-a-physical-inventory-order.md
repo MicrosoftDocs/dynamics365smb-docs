@@ -24,7 +24,7 @@ After you have entered all data for the physical inventory order, you can finish
   
 -   In all physical inventory order lines, the quantity expected has been calculated.  
   
-     ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> shows this by setting a check mark in the field Qty. Exp. Calculated of the physical inventory order line.  
+     ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> shows this by setting a check mark in the field Qty. Exp. Calculated of the physical inventory order line.  
   
 -   Every physical inventory order line has been counted by at least one inventory recording line.  
   
@@ -45,9 +45,9 @@ After you have entered all data for the physical inventory order, you can finish
  You have to finish the physical inventory order header first before you can evaluate differences and before you can post the physical inventory order.  
   
 ## See Also  
- [How to: Enter Physical Inventory Orders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-enter-physical-inventory-orders.md)   
- [How to: Post Physical Inventory Orders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-post-physical-inventory-orders.md)   
- [How to: Calculate Quantity On Hand for a Physical Inventory Order](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-calculate-quantity-on-hand-for-a-physical-inventory-order.md)   
- [How to: Finish a Physical Inventory Recording](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-finish-a-physical-inventory-recording.md)   
- [How to: Analyze Physical Inventory Differences](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-analyze-physical-inventory-differences.md)   
- [Physical Inventory Order Lines With Item Tracking Lines](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/physical-inventory-order-lines-with-item-tracking-lines.md)
+ [How to: Enter Physical Inventory Orders](../FullExperience/how-to-enter-physical-inventory-orders.md)   
+ [How to: Post Physical Inventory Orders](../FullExperience/how-to-post-physical-inventory-orders.md)   
+ [How to: Calculate Quantity On Hand for a Physical Inventory Order](../FullExperience/how-to-calculate-quantity-on-hand-for-a-physical-inventory-order.md)   
+ [How to: Finish a Physical Inventory Recording](../FullExperience/how-to-finish-a-physical-inventory-recording.md)   
+ [How to: Analyze Physical Inventory Differences](../FullExperience/how-to-analyze-physical-inventory-differences.md)   
+ [Physical Inventory Order Lines With Item Tracking Lines](../FullExperience/physical-inventory-order-lines-with-item-tracking-lines.md)

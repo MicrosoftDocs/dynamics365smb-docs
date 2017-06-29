@@ -33,5 +33,5 @@ You can use the **Service Contract Account Groups** window to set up service con
  Repeat all steps for each service contract account group you want to create.  
   
 ## See Also  
- [How to: Set Up Service Contract Groups](../Service/how-to-set-up-service-contract-groups.md)   
- [Service Contracts](../Service/service-contracts.md)
+ [How to: Set Up Service Contract Groups](../FullExperience/how-to-set-up-service-contract-groups.md)   
+ [Service Contracts](../FullExperience/service-contracts.md)

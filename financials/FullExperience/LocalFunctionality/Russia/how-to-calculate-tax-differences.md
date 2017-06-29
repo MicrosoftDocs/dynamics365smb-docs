@@ -24,7 +24,7 @@ Tax differences are variations in tax amounts caused by the different rules for 
   
 2.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Periodicity**|Select **Month**, **Quarter**, or **Year** to define the type of accounting period that is used for tax calculations.|  
     |**Accounting Period**|Select the appropriate accounting period that is used for tax calculations.|  
@@ -38,8 +38,8 @@ Tax differences are variations in tax amounts caused by the different rules for 
  The tax differences for the period are calculated. You can view the tax difference calculation entries by opening the **Tax Differences** window.  
   
 ## See Also  
- [Tax Accounting](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/tax-accounting.md)   
+ [Tax Accounting](../FullExperience/tax-accounting.md)   
  [Tax Reports](assetId:///e42ca8e7-1cee-4fb8-9f71-e596f29cabc3)   
- [Tax Registers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/tax-registers.md)   
- [How to: Create Tax Registers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-create-tax-registers.md)   
- [Tax Differences](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/tax-differences.md)
+ [Tax Registers](../FullExperience/tax-registers.md)   
+ [How to: Create Tax Registers](../FullExperience/how-to-create-tax-registers.md)   
+ [Tax Differences](../FullExperience/tax-differences.md)

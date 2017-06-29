@@ -26,9 +26,9 @@ When you receive a loaner from a customer, you must register the receipt. You do
   
 3.  Choose the service item line with the loaner you want to receive.  
   
-4.  Choose **Actions**![Action Menu icon](../DesignAndEngineering/media/actionmenuicon.png "actionMenuIcon"), choose **Functions**, and then choose **Receive Loaner**.  
+4.  Choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Functions**, and then choose **Receive Loaner**.  
   
 ## See Also  
- [How to: Lend Loaners](../Service/how-to-lend-loaners.md)   
- [How to: Set Up Loaners](../Service/how-to-set-up-loaners.md)   
- [How to: Register Service Item Loaner Comments](../Service/how-to-register-service-item-loaner-comments.md)
+ [How to: Lend Loaners](../FullExperience/how-to-lend-loaners.md)   
+ [How to: Set Up Loaners](../FullExperience/how-to-set-up-loaners.md)   
+ [How to: Register Service Item Loaner Comments](../FullExperience/how-to-register-service-item-loaner-comments.md)

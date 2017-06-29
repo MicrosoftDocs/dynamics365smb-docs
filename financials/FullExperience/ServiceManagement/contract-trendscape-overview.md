@@ -28,7 +28,7 @@ The **Contract Trendscape** window gives a financial overview of the service con
   
  The following table describes the other fields on the **Lines** FastTab.  
   
-|ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+|ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
 |---------------------------------|---------------------------------------|  
 |**Prepaid Income**|The total income \(in LCY\) that has been posted to the prepaid account for the service contract in the periods specified in the **Period Start** field.|  
 |**Posted Income**|The total income \(in LCY\) that has been posted to the general ledger for the service contract in the periods specified in the **Period Start** field.|  

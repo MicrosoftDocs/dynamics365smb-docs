@@ -39,7 +39,7 @@ This planning function calculates changes made to a production order header and 
   
 4.  In the **Scheduling Direction** field, select one of the following options.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../../includes/bp_tabledescription_md.md)]-->|  
     |----------------------------------|---------------------------------------|  
     |**Back**|To calculate the operation sequence backwards from the earliest possible ending date, as defined by due date and other scheduled orders, to the latest possible starting date.<br /><br /> **NOTE:** This default option is relevant in the majority of situations.|  
     |**Forward**|To calculate the operation sequence forward from the latest possible starting date, as defined by due date and other scheduled orders, to the earliest possible ending date.<br /><br /> **NOTE:** This option is relevant for ASAP orders.|  
@@ -60,5 +60,5 @@ This planning function calculates changes made to a production order header and 
 >  Changes implemented with the **Refresh** function are very likely to change the capacity need of the production order. You may have to reschedule operations afterwards.  
   
 ## See Also  
- [How to: Replan Production Orders](../OperationsPlanning/how-to-replan-production-orders.md)   
- [About Production Orders](../Production/about-production-orders.md)
+ [How to: Replan Production Orders](../FullExperience/how-to-replan-production-orders.md)   
+ [About Production Orders](../FullExperience/about-production-orders.md)

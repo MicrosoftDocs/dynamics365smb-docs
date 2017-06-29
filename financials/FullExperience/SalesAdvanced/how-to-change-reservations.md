@@ -20,12 +20,12 @@ Sometimes, you may want to change an item reservation.
   
 ### To change a reservation  
   
-1.  From the document line that you want to reserve from, on the **Lines** FastTab, choose **Actions**![Action Menu icon](../DesignAndEngineering/media/actionmenuicon.png "actionMenuIcon"), choose **Functions**, and then choose **Reserve**.  
+1.  From the document line that you want to reserve from, on the **Lines** FastTab, choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Functions**, and then choose **Reserve**.  
   
 2.  From the **Reservation** window, on the **Navigate** tab, in the **Line** group, choose **Reservation Entries**. The **Reservation Entries** window opens.  
   
 3.  Update the **Quantity** field on the line you want to change.  
   
 ## See Also  
- [How to: Reserve Items for Sales Lines](../Sales/how-to-reserve-items-for-sales-lines.md)   
+ [How to: Reserve Items for Sales Lines](../FullExperience/how-to-reserve-items-for-sales-lines.md)   
  Reservation

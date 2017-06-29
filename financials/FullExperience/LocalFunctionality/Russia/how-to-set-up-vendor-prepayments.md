@@ -26,7 +26,7 @@ Prepayments are advance payments on purchase orders that are paid before the fin
   
 3.  On the **Prepayment** FastTab, enter the following information.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Use Prepayment Account**|Select to post prepayments using the special subaccount specified in the **Prepayment Account** field in the **Vendor Posting Groups** window.|  
     |**Posted PD Doc. Nos.**|Enter the code of the number series that you want to use for prepayment documents.|  
@@ -46,7 +46,7 @@ Prepayments are advance payments on purchase orders that are paid before the fin
  You can now track and record advance payments on purchase invoices.  
   
 ## See Also  
- [Walkthrough: Setting Up and Invoicing Sales Prepayments](../../GettingStarted/walkthrough-setting-up-and-invoicing-sales-prepayments.md)   
- [Invoice Prepayments](../../Finance/invoice-prepayments.md)   
- [Set Up Prepayments](../../Finance/set-up-prepayments.md)   
- [How to: Correct Prepayments](../../Finance/how-to-correct-prepayments.md)
+ [Walkthrough: Setting Up and Invoicing Sales Prepayments](../FullExperience/walkthrough-setting-up-and-invoicing-sales-prepayments.md)   
+ [Invoice Prepayments](../FullExperience/invoice-prepayments.md)   
+ [Set Up Prepayments](../FullExperience/set-up-prepayments.md)   
+ [How to: Correct Prepayments](../FullExperience/how-to-correct-prepayments.md)

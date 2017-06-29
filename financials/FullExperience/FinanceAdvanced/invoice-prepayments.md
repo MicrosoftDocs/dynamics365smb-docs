@@ -24,9 +24,9 @@ Prepayments are payments that are invoiced and posted to a sales or purchase pre
   
 |**To**|**See**|  
 |------------|-------------|  
-|Create an order, adjust the prepayment amounts, and issue an invoice for prepayment amounts.|[How to: Create Prepayment Invoices](../Finance/how-to-create-prepayment-invoices.md)|  
-|Issue an additional prepayment invoice, either for additional items or for an additional deposit on the original order, or issue a prepayment credit memo.|[How to: Correct Prepayments](../Finance/how-to-correct-prepayments.md)|  
+|Create an order, adjust the prepayment amounts, and issue an invoice for prepayment amounts.|[How to: Create Prepayment Invoices](../FullExperience/how-to-create-prepayment-invoices.md)|  
+|Issue an additional prepayment invoice, either for additional items or for an additional deposit on the original order, or issue a prepayment credit memo.|[How to: Correct Prepayments](../FullExperience/how-to-correct-prepayments.md)|  
   
 ## See Also  
- [Set Up Prepayments](../Finance/set-up-prepayments.md)   
- [Walkthrough: Setting Up and Invoicing Sales Prepayments](../GettingStarted/walkthrough-setting-up-and-invoicing-sales-prepayments.md)
+ [Set Up Prepayments](../FullExperience/set-up-prepayments.md)   
+ [Walkthrough: Setting Up and Invoicing Sales Prepayments](../FullExperience/walkthrough-setting-up-and-invoicing-sales-prepayments.md)

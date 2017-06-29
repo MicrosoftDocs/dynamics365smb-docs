@@ -27,5 +27,5 @@ You can set up the general ledger to use the work date as the posting date for c
 3.  Choose the **OK** button.  
   
 ## See Also  
- [Belgium Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/belgium-local-functionality.md)   
- [How to: Apply and Unapply General Ledger Entries](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-apply-and-unapply-general-ledger-entries.md)
+ [Belgium Local Functionality](../FullExperience/belgium-local-functionality.md)   
+ [How to: Apply and Unapply General Ledger Entries](../FullExperience/how-to-apply-and-unapply-general-ledger-entries.md)

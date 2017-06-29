@@ -29,7 +29,7 @@ The service order statistics feature gives you a quick overview of the contents 
 ## Details FastTab  
  Use this FastTab to view information about the items, resource hours, and costs to be invoiced and consumed. The following table describes the information about the FastTab, which is presented in three columns.  
   
-|Column|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+|Column|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
 |------------|---------------------------------------|  
 |**Invoicing**|Displays amounts that are to be posted as invoiced from the service order.|  
 |**Consuming**|Displays the quantity and cost of items, or resources that will be posted as consumed.|  
@@ -50,5 +50,5 @@ The service order statistics feature gives you a quick overview of the contents 
  The lines in the lower part of the **Service Statistics** window show the VAT details on the amounts in the service document.  
   
 ## See Also  
- [Service Statistics](../Service/service-statistics.md)   
- [How to: View Service Order Statistics](../Service/how-to-view-service-order-statistics.md)
+ [Service Statistics](../FullExperience/service-statistics.md)   
+ [How to: View Service Order Statistics](../FullExperience/how-to-view-service-order-statistics.md)

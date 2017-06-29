@@ -16,7 +16,7 @@
 
     ---
 # ELSTER Transmission Overview
-When a user submits a sales VAT advance notification from ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> to the Elektronische Steuererklärungen \(ELSTER\) online portal, the Microsoft.Dynamics.ElsterTransferHandler assembly processes the document and then transmits it to ELSTER. The following section describes technical aspects of submitting documents to ELSTER.  
+When a user submits a sales VAT advance notification from ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> to the Elektronische Steuererklärungen \(ELSTER\) online portal, the Microsoft.Dynamics.ElsterTransferHandler assembly processes the document and then transmits it to ELSTER. The following section describes technical aspects of submitting documents to ELSTER.  
   
 ### Process Overview  
   
@@ -26,11 +26,11 @@ When a user submits a sales VAT advance notification from ADD INCLUDE<!--[!INCLU
   
 3.  The complete document is handed over to Microsoft.Dynamics.ElsterTransferHandler. The assembly further processes the data \(encryption, compression, signature\) and sends it to one of the servers of the OFD.  
   
-     You can specify the servers of the OFD in the **Electronic VAT Decl. Setup** window. For more information, see [How to: Set Up Sales VAT Advance Notifications for ELSTER](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-set-up-sales-vat-advance-notifications-for-elster.md)  
+     You can specify the servers of the OFD in the **Electronic VAT Decl. Setup** window. For more information, see [How to: Set Up Sales VAT Advance Notifications for ELSTER](../FullExperience/how-to-set-up-sales-vat-advance-notifications-for-elster.md)  
   
 4.  The data is received and processed by the server of the OFD and a response document is sent back.  
   
-5.  The response document is received, decrypted, and decompressed by Microsoft.Dynamics.ElsterTransferHandler and returned as an XML document to ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->. You can then view the responses in the **VAT Transmission Log Entries** window.  
+5.  The response document is received, decrypted, and decompressed by Microsoft.Dynamics.ElsterTransferHandler and returned as an XML document to ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->. You can then view the responses in the **VAT Transmission Log Entries** window.  
   
 ## Process Details  
  The Microsoft.Dynamics.ElsterTransferHandler assembly is responsible for preparation before the transmission to the OFD and the processing of the response document before it is returned to the program.  
@@ -55,8 +55,8 @@ When a user submits a sales VAT advance notification from ADD INCLUDE<!--[!INCLU
  The identity of the sender is determined by mapping the certificate to a registered user. It is checked if the certificate is valid, if it is locked or if other conspicuities have been noticed.  
   
 ## See Also  
- [Error Messages of the ElsterTransferHandler](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/error-messages-of-the-elstertransferhandler.md)   
- [Electronic Submission of Sales VAT Advance Notifications to ELSTER](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/electronic-submission-of-sales-vat-advance-notifications-to-elster.md)   
- [How to: Set Up Sales VAT Advance Notifications for ELSTER](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-set-up-sales-vat-advance-notifications-for-elster.md)   
+ [Error Messages of the ElsterTransferHandler](../FullExperience/error-messages-of-the-elstertransferhandler.md)   
+ [Electronic Submission of Sales VAT Advance Notifications to ELSTER](../FullExperience/electronic-submission-of-sales-vat-advance-notifications-to-elster.md)   
+ [How to: Set Up Sales VAT Advance Notifications for ELSTER](../FullExperience/how-to-set-up-sales-vat-advance-notifications-for-elster.md)   
  Sales VAT Adv. Notif. Card   
  VAT Transmission Log Entries

@@ -35,9 +35,9 @@ You can submit the Intrastat report on a disk. Before creating the file, you can
 7.  Browse to the location where you want to save the file, and then enter the file name. Choose the **Save** button.  
   
 ## See Also  
- [How to: Print Checklist Reports](../Finance/how-to-print-checklist-reports.md)   
- [How to: Set Up and Record Intrastat](../Finance/how-to-set-up-and-record-intrastat.md)   
- [How to: Fill In Intrastat Journals](../Finance/how-to-fill-in-intrastat-journals.md)   
- [How to: Report Intrastat on Forms](../Finance/how-to-report-intrastat-on-forms.md)   
- [How to: Reorganize Intrastat Journals](../Finance/how-to-reorganize-intrastat-journals.md)   
- [How to: Set Up Intrastat Journal Templates and Batches](../Finance/how-to-set-up-intrastat-journal-templates-and-batches.md)
+ [How to: Print Checklist Reports](../FullExperience/how-to-print-checklist-reports.md)   
+ [How to: Set Up and Record Intrastat](../FullExperience/how-to-set-up-and-record-intrastat.md)   
+ [How to: Fill In Intrastat Journals](../FullExperience/how-to-fill-in-intrastat-journals.md)   
+ [How to: Report Intrastat on Forms](../FullExperience/how-to-report-intrastat-on-forms.md)   
+ [How to: Reorganize Intrastat Journals](../FullExperience/how-to-reorganize-intrastat-journals.md)   
+ [How to: Set Up Intrastat Journal Templates and Batches](../FullExperience/how-to-set-up-intrastat-journal-templates-and-batches.md)

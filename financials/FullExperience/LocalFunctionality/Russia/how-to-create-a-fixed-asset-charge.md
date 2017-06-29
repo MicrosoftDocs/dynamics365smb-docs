@@ -24,7 +24,7 @@ The following procedure shows how to create a new fixed asset charge.
   
 2.  On the **General** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**No.**|Specify the fixed asset charge code.|  
     |**Description**|Specify the description of the fixed asset charge.|  
@@ -40,4 +40,4 @@ The following procedure shows how to create a new fixed asset charge.
  Gen. Product Posting Group   
  VAT Product Posting Group   
  Tax Difference   
- [Fixed Assets Accounting Setup](../../Finance/fixed-assets-accounting-setup.md)
+ [Fixed Assets Accounting Setup](../FullExperience/fixed-assets-accounting-setup.md)

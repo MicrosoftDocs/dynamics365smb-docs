@@ -31,6 +31,6 @@ Periodically, you can run the **Delete Expired Components** batch job to maintai
 ## See Also  
  Prod. Order Components   
  Delete Expired Components   
- [How to: Calculate Production Order Components](../OperationsPlanning/how-to-calculate-production-order-components.md)   
- [How to: Create Production BOMs](../DesignAndEngineering/how-to-create-production-boms.md)   
- [How to: Enter Dates and Times](../WorkingWithDynamics/how-to-enter-dates-and-times.md)
+ [How to: Calculate Production Order Components](../FullExperience/how-to-calculate-production-order-components.md)   
+ [How to: Create Production BOMs](../FullExperience/how-to-create-production-boms.md)   
+ [How to: Enter Dates and Times](../FullExperience/how-to-enter-dates-and-times.md)

@@ -16,7 +16,7 @@
 
     ---
 # Budgets
-ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> provides budget functions so that you can plan and work with budgets.  
+ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> provides budget functions so that you can plan and work with budgets.  
   
 ## Budget Functions  
  You use budget functions to:  
@@ -37,5 +37,5 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]
   
 ## See Also  
  Budget   
- [How to: Create Budgets](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-create-budgets.md)   
- [How to: Import or Export a Budget](../../Finance/how-to-import-or-export-a-budget.md)
+ [How to: Create Budgets](../FullExperience/how-to-create-budgets.md)   
+ [How to: Import or Export a Budget](../FullExperience/how-to-import-or-export-a-budget.md)

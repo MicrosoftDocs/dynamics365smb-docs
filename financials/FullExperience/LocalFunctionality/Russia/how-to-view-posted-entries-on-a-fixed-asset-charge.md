@@ -23,5 +23,5 @@ You can view all posted fixed asset entries for each fixed asset charge code. Th
 -   In the **Search** box, enter **FA Ledger Entries**, and then choose the related link.  
   
 ## See Also  
- [How to: Create a Fixed Asset Charge](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-create-a-fixed-asset-charge.md)   
+ [How to: Create a Fixed Asset Charge](../FullExperience/how-to-create-a-fixed-asset-charge.md)   
  Purchase Header

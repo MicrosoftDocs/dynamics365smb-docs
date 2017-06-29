@@ -16,7 +16,7 @@
 
     ---
 # Tax
-ADD INCLUDE<!--[!INCLUDE[emptyBookNodeText](../../Finance/includes/emptybooknodetext_md.md)]-->  
+ADD INCLUDE<!--[!INCLUDE[emptyBookNodeText](../../includes/emptybooknodetext_md.md)]-->  
   
 ## See Also  
- [Australia Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/australia-local-functionality.md)
+ [Australia Local Functionality](../FullExperience/australia-local-functionality.md)

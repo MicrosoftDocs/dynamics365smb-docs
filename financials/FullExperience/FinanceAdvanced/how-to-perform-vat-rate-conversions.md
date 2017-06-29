@@ -69,9 +69,9 @@ You use the VAT rate change tool to manage changes in the standard rate of VAT. 
 6.  Review each entry. In particular, review transactions which use an old VAT rate.  
   
 ## See Also  
- [Understanding the VAT Rate Conversion Process](../Finance/understanding-the-vat-rate-conversion-process.md)   
- [How to: Prepare VAT Rate Change Conversions](../Finance/how-to-prepare-vat-rate-change-conversions.md)   
- [How to: Set Up VAT Rate Change Tool](../Finance/how-to-set-up-vat-rate-change-tool.md)   
+ [Understanding the VAT Rate Conversion Process](../FullExperience/understanding-the-vat-rate-conversion-process.md)   
+ [How to: Prepare VAT Rate Change Conversions](../FullExperience/how-to-prepare-vat-rate-change-conversions.md)   
+ [How to: Set Up VAT Rate Change Tool](../FullExperience/how-to-set-up-vat-rate-change-tool.md)   
  VAT Rate Change Log Entry   
  Perform Conversion   
  VAT Rate Change Setup

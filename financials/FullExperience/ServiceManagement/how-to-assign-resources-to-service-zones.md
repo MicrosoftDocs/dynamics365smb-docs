@@ -35,5 +35,5 @@ When you allocate a resource, for example, a technician, to a service task that 
  Repeat these steps for each assignment you want to enter.  
   
 ## See Also  
- [How to: Set Up Service Zones](../Service/how-to-set-up-service-zones.md)   
- [How to: Assign Service Zones to Customers](../Service/how-to-assign-service-zones-to-customers.md)
+ [How to: Set Up Service Zones](../FullExperience/how-to-set-up-service-zones.md)   
+ [How to: Assign Service Zones to Customers](../FullExperience/how-to-assign-service-zones-to-customers.md)

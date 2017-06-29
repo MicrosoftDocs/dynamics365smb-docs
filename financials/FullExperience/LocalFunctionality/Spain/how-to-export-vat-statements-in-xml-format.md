@@ -29,11 +29,11 @@ You can export a VAT statement in XML format and then submit it electronically t
     > [!IMPORTANT]  
     >  The VAT statement name must be of the template type **One Column Report**.  
     >   
-    >  In the standard version of ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, the VAT statement name for the 392 telematic statement is of the type **One Column Report**.  
+    >  In the standard version of ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, the VAT statement name for the 392 telematic statement is of the type **One Column Report**.  
   
-3.  In the **XML VAT Declaration** window, on the **ADD INCLUDE<!--[!INCLUDE[bp_optionsheading](../../DesignAndEngineering/includes/bp_optionsheading_md.md)]-->** FastTab, fill in the fields as described in the following table.  
+3.  In the **XML VAT Declaration** window, on the **ADD INCLUDE<!--[!INCLUDE[bp_optionsheading](../../includes/bp_optionsheading_md.md)]-->** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_10718\_N\_2\_1100000 VAT entries included $\)**|Specify if the VAT statement must include open entries, closed entries, or both open and closed entries.|  
     |**\($ B\_10718\_N\_2\_1100004 VAT entries included $\)**|Specify if the VAT statement must include only entries from the period that is specified in the **Date Filter** field, or also entries from previous periods.|  
@@ -50,6 +50,6 @@ You can export a VAT statement in XML format and then submit it electronically t
  You can open or save the generated XML file. You can now submit the VAT statement to the tax authorities.  
   
 ## See Also  
- [How to: Create Templates for Telematic VAT Statements in XML File Format](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/how-to-create-templates-for-telematic-vat-statements-in-xml-file-format.md)   
- [How to: Export VAT Statements in Text Format](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/how-to-export-vat-statements-in-text-format.md)   
+ [How to: Create Templates for Telematic VAT Statements in XML File Format](../FullExperience/how-to-create-templates-for-telematic-vat-statements-in-xml-file-format.md)   
+ [How to: Export VAT Statements in Text Format](../FullExperience/how-to-export-vat-statements-in-text-format.md)   
  XML VAT Declaration

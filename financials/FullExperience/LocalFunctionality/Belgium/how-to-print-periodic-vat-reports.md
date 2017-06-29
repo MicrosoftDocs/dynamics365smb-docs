@@ -30,7 +30,7 @@ The VAT reporting feature enables you to print VAT transaction details. You must
   
 2.  In the **\($ R\_11307 VAT – Form $\)** window, fill in the fields.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---
     title: Insert topic title| Microsoft Docs
     description: Insert description
@@ -63,7 +63,7 @@ The VAT reporting feature enables you to print VAT transaction details. You must
   
 2.  In the **\($ R\_11309 VAT Annual Listing – Disk $\)** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Year**|Enter the year of the VAT declaration. You should enter the year as a four digit code. For example, to print a declaration for 2013, you should enter "2013" \(instead of "13"\).|  
     |**Minimum**|Enter the customer's minimum year balance to be included in the report.<br /><br /> If the yearly balance of the customer is less than the minimum amount, the customer will not be included in the declaration.|  
@@ -87,5 +87,5 @@ The VAT reporting feature enables you to print VAT transaction details. You must
      For more information, see the VAT VIES Correction table.  
   
 ## See Also  
- [Belgian VAT](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/belgian-vat.md)   
- [How to: Set Up Non-Deductible VAT](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-non-deductible-vat.md)
+ [Belgian VAT](../FullExperience/belgian-vat.md)   
+ [How to: Set Up Non-Deductible VAT](../FullExperience/how-to-set-up-non-deductible-vat.md)

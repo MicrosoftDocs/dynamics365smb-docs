@@ -18,10 +18,10 @@
 # How to: Customize Ribbons
 By opening the **Customize Ribbon** window from any page that has a ribbon, you can customize the ribbon to optimize it for your work processes and preferences. For example, if you frequently use the **Dimensions** window, you can add the **Dimensions** action to the **Process** actions group. You can also remove actions that you never use for better overview.  
   
- ![Customize ribbon dialog for selecting actions](../SetupAndAdministration/media/rtc_customizeribbon.png "RTC\_CustomizeRibbon")  
+ ![Customize ribbon dialog for selecting actions](../FullExperience/media/rtc_customizeribbon.png "RTC\_CustomizeRibbon")  
   
 > [!NOTE]  
->  Depending on the setting in the **UI Elements Removal** field in the ADD INCLUDE<!--[!INCLUDE[nav_admin](../BusinessFunctionality/LoggingAndTrackingEmailInteractions/includes/nav_admin_md.md)]-->, only actions that you have permissions for will appear in the **Customize Ribbon** window. For more information, see [How to: Specify When UI Elements Are Removed](../Topic/How%20to:%20Specify%20When%20UI%20Elements%20Are%20Removed.md).  
+>  Depending on the setting in the **UI Elements Removal** field in the ADD INCLUDE<!--[!INCLUDE[nav_admin](../../includes/How%20to:%20Specify%20When%20UI%20Elements%20Are%20Removed.md).  
   
  You can make multiple customizations of the same page based on different access points to the page. For example, you can customize that the ribbon in the **Sales Orders** window looks different when the window is opened from the **Customer Card** window than when it is opened from your Role Center. The point from which you access the page to be customized is recorded in that specific page customization. Accordingly, there may be multiple customization records for the same page under your logon, as you can see in the **Delete User Personalization** window.  
   
@@ -45,13 +45,13 @@ By opening the **Customize Ribbon** window from any page that has a ribbon, you 
 >     3.  Open the dialog again and re-add the actions to the group.  
   
 > [!CAUTION]  
->  Any customization that alters the ribbon could affect the guidance provided in the ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> Help, because navigation steps in Help may refer to a different ribbon layout.  
+>  Any customization that alters the ribbon could affect the guidance provided in the ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> Help, because navigation steps in Help may refer to a different ribbon layout.  
   
  The following procedures describe how to perform typical customization of ribbons by working with groups, but the same steps apply to working with tabs.  
   
 ### To start customizing a ribbon  
   
--   On a page with a ribbon, on the **Application** menu ![Application Menu button in menu bar](../BusinessFunctionality/IntegratingWithMicrosoftOffice/media/applicationmenuicon.png "ApplicationMenuIcon"), choose **Customize**, and then choose **Customize Ribbon**.  
+-   On a page with a ribbon, on the **Application** menu ![Application Menu button in menu bar](../FullExperience/media/applicationmenuicon.png "ApplicationMenuIcon"), choose **Customize**, and then choose **Customize Ribbon**.  
   
 ### To filter for actions  
   
@@ -80,7 +80,7 @@ By opening the **Customize Ribbon** window from any page that has a ribbon, you 
 2.  Locate the action under **Available actions**, and choose the **Add** button.  
   
     > [!NOTE]  
-    >  In some cases, an action can be a promoted action if the **PromotedIsBig** property is set to **Yes** in the ADD INCLUDE<!--[!INCLUDE[nav_dev_long](../BusinessFunctionality/DataExchange/includes/nav_dev_long_md.md)]-->.  If an action has this setting, this takes precedence over your choices in the **Customize Ribbon** window. For more information, see [How to: Promote Actions on Pages](../Topic/How%20to:%20Promote%20Actions%20on%20Pages.md).  
+    >  In some cases, an action can be a promoted action if the **PromotedIsBig** property is set to **Yes** in the ADD INCLUDE<!--[!INCLUDE[nav_dev_long](../../includes/How%20to:%20Promote%20Actions%20on%20Pages.md).  
   
 ### To create a menu of actions  
   
@@ -105,17 +105,17 @@ By opening the **Customize Ribbon** window from any page that has a ribbon, you 
 -   In the **Customize** window, choose **Restore Defaults**, and then choose the **OK** button.  
   
     > [!NOTE]  
-    >  All customization of ribbons that you have ever made for this page under your current user logon or since you last used the **Restore Defaults** button are canceled. The layout of the ribbon on the page is reset to the default configuration for your profile. For more information, see [How to: Cancel UI Personalization](../SetupAndAdministration/how-to-cancel-ui-personalization.md).  
+    >  All customization of ribbons that you have ever made for this page under your current user logon or since you last used the **Restore Defaults** button are canceled. The layout of the ribbon on the page is reset to the default configuration for your profile. For more information, see [How to: Cancel UI Personalization](../FullExperience/how-to-cancel-ui-personalization.md).  
   
 ## See Also  
- [Ribbon](../GettingStarted/ribbon.md)   
+ [Ribbon](../FullExperience/ribbon.md)   
  PERSONALIZATION Personalize the User Interface   
- [How to: Define Promoted Action Categories Captions for the Ribbon](../Topic/How%20to:%20Define%20Promoted%20Action%20Categories%20Captions%20for%20the%20Ribbon.md)   
- [Troubleshooting: Removing Promoted Actions in Home Tab](../TroubleshootingUsingMicrosoftDynamicsNav/troubleshooting-removing-promoted-actions-in-home-tab.md)   
- [How to: Customize FastTabs](../SetupAndAdministration/how-to-customize-fasttabs.md)   
- [How to: Customize FactBoxes](../SetupAndAdministration/how-to-customize-factboxes.md)   
- [How to: Cancel UI Personalization](../SetupAndAdministration/how-to-cancel-ui-personalization.md)   
+ [How to: Define Promoted Action Categories Captions for the Ribbon](../FullExperience/How%20to:%20Define%20Promoted%20Action%20Categories%20Captions%20for%20the%20Ribbon.md)   
+ [Troubleshooting: Removing Promoted Actions in Home Tab](../FullExperience/troubleshooting-removing-promoted-actions-in-home-tab.md)   
+ [How to: Customize FastTabs](../FullExperience/how-to-customize-fasttabs.md)   
+ [How to: Customize FactBoxes](../FullExperience/how-to-customize-factboxes.md)   
+ [How to: Cancel UI Personalization](../FullExperience/how-to-cancel-ui-personalization.md)   
  Delete User Personalization   
- [Customize the User Interface](../SetupAndAdministration/customize-the-user-interface.md)   
- [Working with Product Name](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)   
- [Learn About the RoleTailored Design](../GettingStarted/learn-about-the-roletailored-design.md)
+ [Customize the User Interface](../FullExperience/customize-the-user-interface.md)   
+ [Working with Product Name](../FullExperience/working-with-$-p_1-product-name-$-.md)   
+ [Learn About the RoleTailored Design](../FullExperience/learn-about-the-roletailored-design.md)

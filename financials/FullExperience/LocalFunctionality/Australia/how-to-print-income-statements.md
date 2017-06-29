@@ -26,7 +26,7 @@ You can use the **Income Statement** report to view the company’s annual incom
   
 2.  In the **Income Statement** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_28025\_N\_2\_1450002 Amounts in whole $\)**|Specifies the nearest unit to which the amount must be rounded.|  
     |**\($ R\_28025\_N\_2\_1450001 Show Amounts in Add. Reporting Currency $\)**|Specifies if the amounts will be displayed in the additional reporting currency.|  
@@ -34,10 +34,10 @@ You can use the **Income Statement** report to view the company’s annual incom
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [How to: Set Up Business Activity Statements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-set-up-business-activity-statements.md)   
- [How to: Calculate and Post Withholding Tax Settlements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-calculate-and-post-withholding-tax-settlements.md)   
- [How to: View Withholding Tax Entries](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-view-withholding-tax-entries.md)   
- [How to: Compare Bank Cash Flow](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-compare-bank-cash-flow.md)   
- [How to: Print Balance Sheet Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-print-balance-sheet-reports.md)   
- [How to: Print Goods and Service Tax Settlement Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-print-goods-and-service-tax-settlement-reports.md)   
+ [How to: Set Up Business Activity Statements](../FullExperience/how-to-set-up-business-activity-statements.md)   
+ [How to: Calculate and Post Withholding Tax Settlements](../FullExperience/how-to-calculate-and-post-withholding-tax-settlements.md)   
+ [How to: View Withholding Tax Entries](../FullExperience/how-to-view-withholding-tax-entries.md)   
+ [How to: Compare Bank Cash Flow](../FullExperience/how-to-compare-bank-cash-flow.md)   
+ [How to: Print Balance Sheet Reports](../FullExperience/how-to-print-balance-sheet-reports.md)   
+ [How to: Print Goods and Service Tax Settlement Reports](../FullExperience/how-to-print-goods-and-service-tax-settlement-reports.md)   
  Bank Detail Cashflow Compare

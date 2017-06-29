@@ -24,10 +24,10 @@ If the flushing method is **Manual**, you must post the components manually, usi
   
 2.  Fill in the fields with the production order data and the consumption data.  
   
-     If the warehouse location where the components are stored is set up to use bins but does not require pick processing, assign a bin code to the journal line to indicate where the items should be taken from in the warehouse. For more information, see [How to: Assign Bin Codes on Journal Lines](../Production/how-to-assign-bin-codes-on-journal-lines.md).  
+     If the warehouse location where the components are stored is set up to use bins but does not require pick processing, assign a bin code to the journal line to indicate where the items should be taken from in the warehouse. For more information, see [How to: Assign Bin Codes on Journal Lines](../FullExperience/how-to-assign-bin-codes-on-journal-lines.md).  
   
 3.  On the **Actions** tab, in the **Posting** group, choose **Post** to post the consumption.  
   
 ## See Also  
- [How to: Enter Master Data for Consumption Calculation](../DesignAndEngineering/how-to-enter-master-data-for-consumption-calculation.md)   
- [About Production Orders](../Production/about-production-orders.md)
+ [How to: Enter Master Data for Consumption Calculation](../FullExperience/how-to-enter-master-data-for-consumption-calculation.md)   
+ [About Production Orders](../FullExperience/about-production-orders.md)

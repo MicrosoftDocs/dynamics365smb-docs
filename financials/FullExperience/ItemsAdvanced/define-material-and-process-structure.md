@@ -28,26 +28,26 @@ When designing products that are assembled or produced within the company before
   
 |**To**|**See**|  
 |------------|-------------|  
-|Learn the difference between bills of material for simple item processing versus advanced processing.|[Assembly BOMs or Production BOMs](../DesignAndEngineering/assembly-boms-or-production-boms.md)|  
-|Organize assembly components, subassemblies, or resources under a parent item.|[How to: Create Assembly BOMs](../DesignAndEngineering/how-to-create-assembly-boms.md)|  
-|Organize production components or subassemblies under a parent item.|[How to: Create Production BOMs](../DesignAndEngineering/how-to-create-production-boms.md)|  
-|Ensure correct calculation of components needed for an item that is stocked in one unit of measure but produced in another.|[How to: Use the Manufacturing Batch Unit of Measure](../DesignAndEngineering/how-to-use-the-manufacturing-batch-unit-of-measure.md)|  
-|Define the position of a component or subassembly in the product structure to ensure that the planning system prioritizes by BOM level.|[How to: Calculate Low-Level Codes](../DesignAndEngineering/how-to-calculate-low-level-codes.md)|  
-|Reflect a slightly different product structure that is still manufactured into the same end item.|[Creating New Versions of Production BOM](../DesignAndEngineering/how-to-create-new-versions-of-production-boms.md)s|  
-|View a list of all production BOM versions and the numbers of items that are used per BOM.|[How to: Compare Material Quantities in All Production BOM Versions](../DesignAndEngineering/how-to-compare-material-quantities-in-all-production-bom-versions.md)|  
-|Determine where a component or production BOM is used within existing product structures.|[How to: Find Where Production BOMs Are Used](../DesignAndEngineering/how-to-find-where-production-boms-are-used.md)|  
+|Learn the difference between bills of material for simple item processing versus advanced processing.|[Assembly BOMs or Production BOMs](../FullExperience/assembly-boms-or-production-boms.md)|  
+|Organize assembly components, subassemblies, or resources under a parent item.|[How to: Create Assembly BOMs](../FullExperience/how-to-create-assembly-boms.md)|  
+|Organize production components or subassemblies under a parent item.|[How to: Create Production BOMs](../FullExperience/how-to-create-production-boms.md)|  
+|Ensure correct calculation of components needed for an item that is stocked in one unit of measure but produced in another.|[How to: Use the Manufacturing Batch Unit of Measure](../FullExperience/how-to-use-the-manufacturing-batch-unit-of-measure.md)|  
+|Define the position of a component or subassembly in the product structure to ensure that the planning system prioritizes by BOM level.|[How to: Calculate Low-Level Codes](../FullExperience/how-to-calculate-low-level-codes.md)|  
+|Reflect a slightly different product structure that is still manufactured into the same end item.|[Creating New Versions of Production BOM](../FullExperience/how-to-create-new-versions-of-production-boms.md)s|  
+|View a list of all production BOM versions and the numbers of items that are used per BOM.|[How to: Compare Material Quantities in All Production BOM Versions](../FullExperience/how-to-compare-material-quantities-in-all-production-bom-versions.md)|  
+|Determine where a component or production BOM is used within existing product structures.|[How to: Find Where Production BOMs Are Used](../FullExperience/how-to-find-where-production-boms-are-used.md)|  
 |Add, replace, or remove a component in multiple production BOMs in one action.|Exchange Production BOM Item|  
-|Remove a component in multiple production BOMs by a certain date.|[How to: Delete Expired Components](../DesignAndEngineering/how-to-delete-expired-components.md)|  
-|Sequence production operations and assign them to established production resources.|[How to: Create Routings](../DesignAndEngineering/how-to-create-routings.md)|  
-|Reflect a slightly different process structure, which outputs the same end item.|[How to: Create New Versions of Routings](../DesignAndEngineering/how-to-create-new-versions-of-routings.md)|  
-|Connect components to specific operations in order to retain their relationship even though the production BOM or routing is modified.|[How to: Create Routing Links](../DesignAndEngineering/how-to-create-routing-links.md)|  
+|Remove a component in multiple production BOMs by a certain date.|[How to: Delete Expired Components](../FullExperience/how-to-delete-expired-components.md)|  
+|Sequence production operations and assign them to established production resources.|[How to: Create Routings](../FullExperience/how-to-create-routings.md)|  
+|Reflect a slightly different process structure, which outputs the same end item.|[How to: Create New Versions of Routings](../FullExperience/how-to-create-new-versions-of-routings.md)|  
+|Connect components to specific operations in order to retain their relationship even though the production BOM or routing is modified.|[How to: Create Routing Links](../FullExperience/how-to-create-routing-links.md)|  
 |Set up how to automatically post material consumption when releasing production or automatically post finished output when finishing production.|Flushing Method|  
 |Have the Production Journal window show the expected output quantity when first opened.|Preset Output Quantity|  
-|Define an operation as a standard task.|[How to: Create Standard Tasks](../DesignAndEngineering/how-to-create-standard-tasks.md)|  
+|Define an operation as a standard task.|[How to: Create Standard Tasks](../FullExperience/how-to-create-standard-tasks.md)|  
 |Specify codes that can be used to identify reasons that time or quantities were posted as down time.|Stop Codes|  
 |Specify codes that can be used to identify reasons that time or quantities were posted as scrap.|Scrap Codes|  
 |Prototype a production order to calculate what is needed to produce a new product.|Simulated Production Order|  
   
 ## See Also  
- [Configure Production Processes](../Production/configure-production-processes.md)   
- [Execute Production](../Production/execute-production.md)
+ [Configure Production Processes](../FullExperience/configure-production-processes.md)   
+ [Execute Production](../FullExperience/execute-production.md)

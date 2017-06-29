@@ -52,5 +52,5 @@ In advanced warehouse configurations, that is, locations with directed put-away 
 ## See Also  
  Qty. to Handle   
  Warehouse Movement   
- [How to: Plan Warehouse Movements in Worksheets](../WarehouseActivities/how-to-plan-warehouse-movements-in-worksheets.md)   
- [How to: Move Items Ad Hoc in Basic Warehousing](../WarehouseActivities/how-to-move-items-ad-hoc-in-basic-warehousing.md)
+ [How to: Plan Warehouse Movements in Worksheets](../FullExperience/how-to-plan-warehouse-movements-in-worksheets.md)   
+ [How to: Move Items Ad Hoc in Basic Warehousing](../FullExperience/how-to-move-items-ad-hoc-in-basic-warehousing.md)

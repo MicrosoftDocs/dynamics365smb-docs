@@ -16,19 +16,19 @@
 
     ---
 # How to: Configure New Companies using a Cmdlet
-In a number of scenarios, you may want to load and import a configuration package without involving your users or using the ADD INCLUDE<!--[!INCLUDE[rim](../Roles/includes/rim_md.md)]--> user interface. You can do so by using a ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> Windows PowerShell cmdlet. Scenarios where this may be useful include:  
+In a number of scenarios, you may want to load and import a configuration package without involving your users or using the ADD INCLUDE<!--[!INCLUDE[rim](../../includes/navnow_md.md)]--> Windows PowerShell cmdlet. Scenarios where this may be useful include:  
   
--   Performing data import across multiple ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> installations without opening each of installation manually.  
+-   Performing data import across multiple ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> installations without opening each of installation manually.  
   
 -   Configuring additional application areas for multiple customers.  
   
 ### To deploy a configuration package using a cmdlet  
   
-1.  Prepare a ADD INCLUDE<!--[!INCLUDE[rim](../Roles/includes/rim_md.md)]--> package. For example, you can create a package to import certain values and the names of the table and the fields to insert these values into.  
+1.  Prepare a ADD INCLUDE<!--[!INCLUDE[rim](../../includes/rim_md.md)]--> package. For example, you can create a package to import certain values and the names of the table and the fields to insert these values into.  
   
 2.  Place the package on a computer where you will run the cmdlet.  
   
-3.  Open the ADD INCLUDE<!--[!INCLUDE[nav_shell](../SetupAndAdministration/includes/nav_shell_md.md)]-->.  
+3.  Open the ADD INCLUDE<!--[!INCLUDE[nav_shell](../../includes/nav_shell_md.md)]-->.  
   
 4.  Enter **Invoke-NAVCodeUnit**, and specify information similar to the following example.  
   
@@ -42,5 +42,5 @@ In a number of scenarios, you may want to load and import a configuration packag
  Users can start to use the new functionality immediately.  
   
 ## See Also  
- [Microsoft Dynamics NAV Windows PowerShell Cmdlets](../Topic/Microsoft%20Dynamics%20NAV%20Windows%20PowerShell%20Cmdlets.md)   
- [How to: Configure New Companies](../SetupAndAdministration/how-to-configure-new-companies.md)
+ [Microsoft Dynamics NAV Windows PowerShell Cmdlets](../FullExperience/Microsoft%20Dynamics%20NAV%20Windows%20PowerShell%20Cmdlets.md)   
+ [How to: Configure New Companies](../FullExperience/how-to-configure-new-companies.md)

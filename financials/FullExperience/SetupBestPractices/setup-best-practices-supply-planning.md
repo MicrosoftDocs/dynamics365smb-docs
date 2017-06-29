@@ -24,12 +24,12 @@ Supply planning is a critical business area. When set up and used correctly, sup
   
 |**To**|**See**|  
 |------------|-------------|  
-|Learn the best practices for selecting the best reordering policy to plan efficiently and economically for an item according to carrying costs and demand patterns.|[Setup Best Practices: Reordering Policies](../SetupAndAdministration/setup-best-practices-reordering-policies.md)|  
-|Learn the best practices for specifying selected planning parameters under the defined reordering policy to plan efficiently and economically for an item according to critical elements, such as lead time, carrying costs, and seasonality.|[Setup Best Practices: Planning Parameters](../SetupAndAdministration/setup-best-practices-planning-parameters.md)|  
-|Learn the best practices for applying a general supply strategy to all item cards, such as always receiving items one day before they are needed or dampening the system’s reaction to small demand fluctuations.|[Setup Best Practices: Global Planning Setup](../SetupAndAdministration/setup-best-practices-global-planning-setup.md)|  
+|Learn the best practices for selecting the best reordering policy to plan efficiently and economically for an item according to carrying costs and demand patterns.|[Setup Best Practices: Reordering Policies](../FullExperience/setup-best-practices-reordering-policies.md)|  
+|Learn the best practices for specifying selected planning parameters under the defined reordering policy to plan efficiently and economically for an item according to critical elements, such as lead time, carrying costs, and seasonality.|[Setup Best Practices: Planning Parameters](../FullExperience/setup-best-practices-planning-parameters.md)|  
+|Learn the best practices for applying a general supply strategy to all item cards, such as always receiving items one day before they are needed or dampening the system’s reaction to small demand fluctuations.|[Setup Best Practices: Global Planning Setup](../FullExperience/setup-best-practices-global-planning-setup.md)|  
   
 ## See Also  
- [Design Details: Supply Planning](../ApplicationDesign/design-details-supply-planning.md)   
- [Design Details: Planning Parameters](../ApplicationDesign/design-details-planning-parameters.md)   
- [Set Up Complex Application Areas Using Best Practices](../SetupAndAdministration/set-up-complex-application-areas-using-best-practices.md)   
- [Set Up a Company With RapidStart Services for Microsoft Dynamics NAV](../SetupAndAdministration/set-up-a-company-with-rapidstart-services-for-microsoft-dynamics-nav.md)
+ [Design Details: Supply Planning](../FullExperience/design-details-supply-planning.md)   
+ [Design Details: Planning Parameters](../FullExperience/design-details-planning-parameters.md)   
+ [Set Up Complex Application Areas Using Best Practices](../FullExperience/set-up-complex-application-areas-using-best-practices.md)   
+ [Set Up a Company With RapidStart Services for Microsoft Dynamics NAV](../FullExperience/set-up-a-company-with-rapidstart-services-for-microsoft-dynamics-nav.md)

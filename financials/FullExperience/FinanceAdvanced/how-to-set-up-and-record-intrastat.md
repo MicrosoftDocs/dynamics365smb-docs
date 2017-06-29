@@ -30,15 +30,15 @@ All companies in the European Union must report their trade with other EU countr
   
 5.  In the **Search** box, enter **Transport Methods**, and then choose the related link.  
   
-6.  In the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**Transport Methods** window, enter the seven pre-defined Intrastat transport methods and codes.  
+6.  In the ![Shortcut icon](../FullExperience/media/shortcutcoldicon.gif "shortcutColdIcon")**Transport Methods** window, enter the seven pre-defined Intrastat transport methods and codes.  
   
-     You must fill in the above tables and assign **Transaction Types** and **Transport Method** values on the **Foreign Trade** FastTab of each sales and purchase document before you post any sales or purchases in ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]-->.  
+     You must fill in the above tables and assign **Transaction Types** and **Transport Method** values on the **Foreign Trade** FastTab of each sales and purchase document before you post any sales or purchases in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
   
-7.  In the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**Item Card** window, on the **Foreign Trade** FastTab, enter the appropriate Tariff number for this item in the **Tariff No.** field.  
+7.  In the ![Shortcut icon](../FullExperience/media/shortcutcoldicon.gif "shortcutColdIcon")**Item Card** window, on the **Foreign Trade** FastTab, enter the appropriate Tariff number for this item in the **Tariff No.** field.  
   
  Repeat the steps for all items. Tariff numbers must be assigned to each item.  
   
- In order for item entries to contain the necessary information when ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> imports them to the Intrastat journal line, you must have entered the necessary information.  
+ In order for item entries to contain the necessary information when ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> imports them to the Intrastat journal line, you must have entered the necessary information.  
   
 ##### Additional setup  
   
@@ -60,11 +60,11 @@ All companies in the European Union must report their trade with other EU countr
 -   After you have filled in the Intrastat Journal, you can print the **Intrastat - Checklist** report to make sure that that all information in the journal is correct, and then print an intrastat report onto a form or create one on a disk to submit to the tax authority in your country\/region.  
   
 ## See Also  
- [How to: Record VAT](../Finance/how-to-record-vat.md)   
- [How to: Reorganize Intrastat Journals](../Finance/how-to-reorganize-intrastat-journals.md)   
- [How to: Set Up Intrastat Journal Templates and Batches](../Finance/how-to-set-up-intrastat-journal-templates-and-batches.md)   
- [How to: Fill In Intrastat Journals](../Finance/how-to-fill-in-intrastat-journals.md)   
+ [How to: Record VAT](../FullExperience/how-to-record-vat.md)   
+ [How to: Reorganize Intrastat Journals](../FullExperience/how-to-reorganize-intrastat-journals.md)   
+ [How to: Set Up Intrastat Journal Templates and Batches](../FullExperience/how-to-set-up-intrastat-journal-templates-and-batches.md)   
+ [How to: Fill In Intrastat Journals](../FullExperience/how-to-fill-in-intrastat-journals.md)   
  Intrastat Jnl. Line   
  Intrastat - Checklist   
- [How to: Report Intrastat on Forms](../Finance/how-to-report-intrastat-on-forms.md)   
- [How to: Report Intrastat on a Disk](../Finance/how-to-report-intrastat-on-a-disk.md)
+ [How to: Report Intrastat on Forms](../FullExperience/how-to-report-intrastat-on-forms.md)   
+ [How to: Report Intrastat on a Disk](../FullExperience/how-to-report-intrastat-on-a-disk.md)

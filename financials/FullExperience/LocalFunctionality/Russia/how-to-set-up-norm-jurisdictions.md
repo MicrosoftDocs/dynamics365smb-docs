@@ -28,7 +28,7 @@ Norm jurisdictions are based on Russian tax laws that define a variety of tax ra
   
 4.  In the **Norm Groups** window, enter the following information.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Code**|Enter a code to identify the norm group.|  
     |**Description**|Enter a description for the norm group.|  
@@ -40,7 +40,7 @@ Norm jurisdictions are based on Russian tax laws that define a variety of tax ra
   
 6.  In the **Norm Details** window, enter the following information.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Effective Date**|Enter an effective date for the norm.|  
     |**Norm**|Enter a value for the norm. This value is used to calculate tax differences.|  
@@ -50,9 +50,9 @@ Norm jurisdictions are based on Russian tax laws that define a variety of tax ra
  The norm jurisdiction that you set up is now available for use in calculating tax differences.  
   
 ## See Also  
- [Tax Differences](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/tax-differences.md)   
- [Setting up Tax Difference Calculation](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/setting-up-tax-difference-calculation.md)   
- [Tax Accounting](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/tax-accounting.md)   
+ [Tax Differences](../FullExperience/tax-differences.md)   
+ [Setting up Tax Difference Calculation](../FullExperience/setting-up-tax-difference-calculation.md)   
+ [Tax Accounting](../FullExperience/tax-accounting.md)   
  [Tax Reports](assetId:///e42ca8e7-1cee-4fb8-9f71-e596f29cabc3)   
- [Tax Registers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/tax-registers.md)   
- [How to: Create Tax Registers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-create-tax-registers.md)
+ [Tax Registers](../FullExperience/tax-registers.md)   
+ [How to: Create Tax Registers](../FullExperience/how-to-create-tax-registers.md)

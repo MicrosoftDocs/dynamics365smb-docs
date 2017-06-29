@@ -25,6 +25,6 @@ Before you can use the automatic invoice rounding function, you must set up roun
 2.  In the **General Ledger Setup** window, on the **Application** FastTab, fill in the **Amount Rounding Precision**, **Unit-Amount Rounding Precision**, **Inv. Rounding Precision \(LCY\)** and **Invoice Rounding Type \(LCY\)** fields. ADD INCLUDE<!--[!INCLUDE[bp_fieldhelp]()]-->  
   
 ## See Also  
- [How to: Set Up Rounding Rules for Foreign Currency](../Finance/how-to-set-up-rounding-rules-for-foreign-currency.md)   
- [How to: Enable the Invoice Rounding Function](../Finance/how-to-enable-the-invoice-rounding-function.md)   
- [How to: Set Up General Ledger Accounts for Invoice Rounding Differences](../Finance/how-to-set-up-general-ledger-accounts-for-invoice-rounding-differences.md)
+ [How to: Set Up Rounding Rules for Foreign Currency](../FullExperience/how-to-set-up-rounding-rules-for-foreign-currency.md)   
+ [How to: Enable the Invoice Rounding Function](../FullExperience/how-to-enable-the-invoice-rounding-function.md)   
+ [How to: Set Up General Ledger Accounts for Invoice Rounding Differences](../FullExperience/how-to-set-up-general-ledger-accounts-for-invoice-rounding-differences.md)

@@ -16,7 +16,7 @@
 
     ---
 # Service Coding
-To successfully create a service management implementation, you should decide up front what your standard service offerings and scenarios will be. ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> has features to make this easy.  
+To successfully create a service management implementation, you should decide up front what your standard service offerings and scenarios will be. ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> has features to make this easy.  
   
  For example, you can set up a group of service codes to describe what service items are part of your solution. Each code represents a specific group of service lines that typically go together. A technician filling out a service order has to only select the appropriate service code and have the associated information automatically filled in, which helps standardize information gathering.  
   
@@ -24,10 +24,10 @@ To successfully create a service management implementation, you should decide up
   
 |**To**|**See**|  
 |------------|-------------|  
-|Understand how you can use standard service codes to set up service lines for all your service documents, which includes quotes and orders.|[Standard Service Codes](../Service/standard-service-codes.md)|  
-|Set up standard codes for all service lines.|[How to: Set Up Standard Service Codes](../Service/how-to-set-up-standard-service-codes.md)|  
-|Map service codes to service item groups.|[How to: Assign Standard Service Codes to Service Item Groups](../Service/how-to-assign-standard-service-codes-to-service-item-groups.md)|  
+|Understand how you can use standard service codes to set up service lines for all your service documents, which includes quotes and orders.|[Standard Service Codes](../FullExperience/standard-service-codes.md)|  
+|Set up standard codes for all service lines.|[How to: Set Up Standard Service Codes](../FullExperience/how-to-set-up-standard-service-codes.md)|  
+|Map service codes to service item groups.|[How to: Assign Standard Service Codes to Service Item Groups](../FullExperience/how-to-assign-standard-service-codes-to-service-item-groups.md)|  
   
 ## See Also  
  Standard Service Code   
- [Working with Product Name](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)
+ [Working with Product Name](../FullExperience/working-with-$-p_1-product-name-$-.md)

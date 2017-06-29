@@ -16,16 +16,16 @@
 
     ---
 # Walkthrough: Logging Email Interactions in the Microsoft Dynamics NAV Database
-In managing your relationships with contacts, it helps keep track of email correspondence. Email logging in ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> is designed to help you with that. It lets you keep records of your email correspondence in both ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> and Microsoft Exchange Server. For example, you can send an email message to a contact about an upcoming event. The contact replies, and confirms interest in participating. Both messages are logged on the contact card. Or, you might receive a complaint from a contact via an email message. You can track that contact's message and your response to it by using email logging.  
+In managing your relationships with contacts, it helps keep track of email correspondence. Email logging in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> and Microsoft Exchange Server. For example, you can send an email message to a contact about an upcoming event. The contact replies, and confirms interest in participating. Both messages are logged on the contact card. Or, you might receive a complaint from a contact via an email message. You can track that contact's message and your response to it by using email logging.  
   
- The email logging feature makes it possible to log all inbound and outbound email messages. The only requirement is that the email address be one that ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> recognizes. The address must belong to a salesperson or to a contact. The messages can be created in Outlook. They are logged automatically when you have email logging enabled. This gives you flexibility to choose the solution that best suits your needs.  
+ The email logging feature makes it possible to log all inbound and outbound email messages. The only requirement is that the email address be one that ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> recognizes. The address must belong to a salesperson or to a contact. The messages can be created in Outlook. They are logged automatically when you have email logging enabled. This gives you flexibility to choose the solution that best suits your needs.  
   
  After you have implemented email logging, you can make email correspondence available to all employees, even if a message was sent to a specific recipient. You do this by taking advantage of Exchange public folders. This improves knowledge sharing and enables better user productivity, because information is stored in one common location.  
   
  Because email logging is server-based, email messages are kept in their native environment instead of in the application. This makes it easier to administer and optimize database storage.  
   
 ## About This Walkthrough  
- This walkthrough describes how to install and maintain email logging for Microsoft Exchange Server in ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->.  
+ This walkthrough describes how to install and maintain email logging for Microsoft Exchange Server in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
   
  This walkthrough illustrates the following tasks:  
   
@@ -47,9 +47,9 @@ In managing your relationships with contacts, it helps keep track of email corre
   
  To complete this walkthrough, you will need:  
   
--   ADD INCLUDE<!--[!INCLUDE[demolong](../../ApplicationDesign/includes/demolong_md.md)]-->.  
+-   ADD INCLUDE<!--[!INCLUDE[demolong](../../includes/demolong_md.md)]-->.  
   
--   ADD INCLUDE<!--[!INCLUDE[nav_admin](../../BusinessFunctionality/LoggingAndTrackingEmailInteractions/includes/nav_admin_md.md)]-->.  
+-   ADD INCLUDE<!--[!INCLUDE[nav_admin](../../includes/nav_admin_md.md)]-->.  
   
 -   A connection to Microsoft Exchange Server 2013 or Microsoft Exchange Server 2010.  
   
@@ -64,20 +64,20 @@ In managing your relationships with contacts, it helps keep track of email corre
  To use email logging, you must be connected to Microsoft Exchange Server and have an email account.  
   
 > [!NOTE]  
->  For use in this walkthrough, consider creating a domain user email account that is not tied to specific individual. If you do this, you will also want to add the domain account to ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> as a Windows user who has a SUPER permission set.  
+>  For use in this walkthrough, consider creating a domain user email account that is not tied to specific individual. If you do this, you will also want to add the domain account to ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> as a Windows user who has a SUPER permission set.  
 >   
->  However, in a production environment, we recommend that you set up your service account that is assigned the minimum required ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> permissions, especially if you are running the service on a dedicated server instance.  
+>  However, in a production environment, we recommend that you set up your service account that is assigned the minimum required ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> permissions, especially if you are running the service on a dedicated server instance.  
   
- In Outlook, you will have to create two Exchange public folders to contain your mail. These folders are used to process messages and to archive them. This procedure must be completed before you continue to set up email logging in ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->.  
+ In Outlook, you will have to create two Exchange public folders to contain your mail. These folders are used to process messages and to archive them. This procedure must be completed before you continue to set up email logging in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
   
 > [!NOTE]  
 >  If you are an Exchange administrator, you can also use the Exchange Management Console to accomplish this task. For more information, see [Exchange Management Console](http://go.microsoft.com/fwlink/?LinkId=246184).  
   
 > [!NOTE]  
->  The email account that is used to configure email logging in ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> must have certain permissions with regard to the public folders.  
+>  The email account that is used to configure email logging in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> must have certain permissions with regard to the public folders.  
 >   
 >  -   When you configure email logging setup in the **Marketing Setup** window, the user name that is used for the validation of setup must have **Read** access to the public folders.  
-> -   When email logging is running on the ADD INCLUDE<!--[!INCLUDE[nav_server](../../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_server_md.md)]-->, the user account credentials that are used on the server instance must have full **Read**, **Write**, and **Delete items** permission levels set on the public folders.  
+> -   When email logging is running on the ADD INCLUDE<!--[!INCLUDE[nav_server](../../includes/nav_server_md.md)]-->, the user account credentials that are used on the server instance must have full **Read**, **Write**, and **Delete items** permission levels set on the public folders.  
   
  For more information, see [Managing Public Folder Permissions](http://go.microsoft.com/fwlink/?prd=12036).  
   
@@ -85,26 +85,26 @@ In managing your relationships with contacts, it helps keep track of email corre
   
 -   In Microsoft Outlook, in your mailbox, create two public folders.  
   
-    |Folder|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |Folder|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
     |------------|---------------------------------------|  
-    |Queue|Email messages are copied by a ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> user, typically a salesperson, to the queue folder, according to rules that you have set up.|  
+    |Queue|Email messages are copied by a ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> user, typically a salesperson, to the queue folder, according to rules that you have set up.|  
     |Storage|Incoming and outgoing messages are logged and automatically copied to the storage folder.|  
   
     > [!NOTE]  
-    >  ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> does not support folder paths that are longer than 250 characters. Accordingly, you should set up your public folder structure to be able to handle this limitation.  
+    >  ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> does not support folder paths that are longer than 250 characters. Accordingly, you should set up your public folder structure to be able to handle this limitation.  
   
      For more information, search Microsoft Outlook Help for "Create a folder."  
   
  For more information, see [Public folders in Exchange Server 2013](http://go.microsoft.com/fwlink/?LinkId=526140) and [Public folder procedures](http://go.microsoft.com/fwlink/?LinkId=526141).  
   
-## Configuring ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->  
- After you have set up public mail folders in Microsoft Outlook, you next configure ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> to interact with them. One aspect of setup requires that you specify how you want interactions to be recorded in an interactions log. The other aspect is to identify the folders in which you log your activities. The following steps require that you be logged in as a SUPER user who has all permissions.  
+## Configuring ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->  
+ After you have set up public mail folders in Microsoft Outlook, you next configure ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> to interact with them. One aspect of setup requires that you specify how you want interactions to be recorded in an interactions log. The other aspect is to identify the folders in which you log your activities. The following steps require that you be logged in as a SUPER user who has all permissions.  
   
 #### To configure email logging  
   
 1.  In the **Search** box, enter **Interaction Template Setup**, and then choose the related link.  
   
-2.  On the **General** FastTab, in the **E-Mails** field, select a template. For this walkthrough, select **EMAIL**. Choose the **OK** button. For more information, see [Interactions](../../Marketing/interactions.md).  
+2.  On the **General** FastTab, in the **E-Mails** field, select a template. For this walkthrough, select **EMAIL**. Choose the **OK** button. For more information, see [Interactions](../FullExperience/interactions.md).  
   
 3.  In the **Search** box, enter **Marketing Setup**, and then choose the related link.  
   
@@ -125,9 +125,9 @@ In managing your relationships with contacts, it helps keep track of email corre
   
 #### To set up Microsoft Dynamics NAV Server  
   
-1.  Open ADD INCLUDE<!--[!INCLUDE[nav_admin](../../BusinessFunctionality/LoggingAndTrackingEmailInteractions/includes/nav_admin_md.md)]-->. For more information, see [Microsoft Dynamics NAV Server Administration Tool](../Topic/Microsoft%20Dynamics%20NAV%20Server%20Administration%20Tool.md).  
+1.  Open ADD INCLUDE<!--[!INCLUDE[nav_admin](../../includes/Microsoft%20Dynamics%20NAV%20Server%20Administration%20Tool.md).  
   
-2.  Create a new server instance called EMAIL. For more information, see [How to: Create a Microsoft Dynamics NAV Server Instance](../Topic/How%20to:%20Create%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md). To prevent collisions with the default server port settings, set port information as follows.  
+2.  Create a new server instance called EMAIL. For more information, see [How to: Create a Microsoft Dynamics NAV Server Instance](../FullExperience/How%20to:%20Create%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md). To prevent collisions with the default server port settings, set port information as follows.  
   
     |Port|Setting|  
     |----------|-------------|  
@@ -146,7 +146,7 @@ In managing your relationships with contacts, it helps keep track of email corre
   
  For your company, you set up a job queue that you want to run every day. You also specify that you want the process to run every 5 minutes. Finally, you specify that the job queue should stop on the last day of the year, December 31.  
   
- In order to set up the job queue for email logging, a ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> user with sufficient permission sets is required. Consider using the permission sets BASIC and JOBQUEUESETUP as defined in the ADD INCLUDE<!--[!INCLUDE[demolong](../../ApplicationDesign/includes/demolong_md.md)]-->. The user must also be granted an explicit permission to run codeunit 5065. For more information, see [How to: Create Job Queue Entries](../../SetupAndAdministration/how-to-create-job-queue-entries.md).  
+ In order to set up the job queue for email logging, a ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-create-job-queue-entries.md).  
   
 #### To start the job queue  
   
@@ -166,7 +166,7 @@ In managing your relationships with contacts, it helps keep track of email corre
   
     ### General FastTab  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|Value|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tablefield_md.md)]-->|Value|  
     |---------------------------------|-----------|  
     |**Object Type to Run**|Codeunit|  
     |**Object ID to Run**|5065|  
@@ -178,7 +178,7 @@ In managing your relationships with contacts, it helps keep track of email corre
   
     ### Recurrence FastTab  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|Value|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tablefield_md.md)]-->|Value|  
     |---------------------------------|-----------|  
     |**Recurrence**|Set all days to True|  
     |**Starting Time**|6:00:00 AM|  
@@ -191,13 +191,13 @@ In managing your relationships with contacts, it helps keep track of email corre
   
 ### To start and test the job queue  
   
-1.  Open ADD INCLUDE<!--[!INCLUDE[nav_admin](../../BusinessFunctionality/LoggingAndTrackingEmailInteractions/includes/nav_admin_md.md)]-->.  
+1.  Open ADD INCLUDE<!--[!INCLUDE[nav_admin](../../includes/nav_admin_md.md)]-->.  
   
 2.  Select the EMAIL server instance, and start it.  
   
-     For more information, see [Managing Microsoft Dynamics NAV Server Instances](../Topic/Managing%20Microsoft%20Dynamics%20NAV%20Server%20Instances.md).  
+     For more information, see [Managing Microsoft Dynamics NAV Server Instances](../FullExperience/Managing%20Microsoft%20Dynamics%20NAV%20Server%20Instances.md).  
   
-3.  Return to the ADD INCLUDE<!--[!INCLUDE[rtc](../../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/rtc_md.md)]-->, and in the **Search** box, enter **Job Queue Log Entries**, and then choose the related link. To verify that the job queue is working as expected, note whether an entry is logged every five minutes.  
+3.  Return to the ADD INCLUDE<!--[!INCLUDE[rtc](../../includes/rtc_md.md)]-->, and in the **Search** box, enter **Job Queue Log Entries**, and then choose the related link. To verify that the job queue is working as expected, note whether an entry is logged every five minutes.  
   
 ## Testing Email Logging  
  Before you put a system into production, you can try some simple tests to see whether it is working as expected. The following procedure is representative of how a salesperson and his manager would use the system. The task has several prerequisites to make testing easy. First, you should set the email address of a test salesperson so that it is the same email account that you used for autodiscovery. The test salesperson should have an email address that you can use for testing. Next, set up a test contact that has an email address that you can verify receives mail.  
@@ -223,7 +223,7 @@ In managing your relationships with contacts, it helps keep track of email corre
 7.  On the salesperson card, on the **Navigate** tab, choose **Interaction Log Entries**. Verify that the email message that you sent is in the list. On the **Home** tab, choose **Show** to open the mail message.  
   
     > [!IMPORTANT]  
-    >  Email messages received through the Internet can have fake sender addresses. That means that interaction log entries in ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> that are created from email logging could potentially include fake addresses and should be reviewed with security in mind.  
+    >  Email messages received through the Internet can have fake sender addresses. That means that interaction log entries in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> that are created from email logging could potentially include fake addresses and should be reviewed with security in mind.  
   
 #### To integrate mail messages with public folders  
   
@@ -237,11 +237,11 @@ In managing your relationships with contacts, it helps keep track of email corre
 ## Using Email Logging and Interaction Logs  
  To verify your interactions, you can review the information that is recorded in the **Interaction Log Entries** window.  
   
- For more information, see [How to: Set Up Email Logging for use with the Job Queue](../../BusinessFunctionality/LoggingAndTrackingEmailInteractions/how-to-set-up-email-logging-for-use-with-the-job-queue.md)  
+ For more information, see [How to: Set Up Email Logging for use with the Job Queue](../FullExperience/how-to-set-up-email-logging-for-use-with-the-job-queue.md)  
   
 ## See Also  
- [Logging and Tracking Email Interactions](../../BusinessFunctionality/LoggingAndTrackingEmailInteractions/logging-and-tracking-email-interactions.md)   
+ [Logging and Tracking Email Interactions](../FullExperience/logging-and-tracking-email-interactions.md)   
  Folders   
  Relationship Management Setup   
- [Security Considerations for Email Logging](../../BusinessFunctionality/LoggingAndTrackingEmailInteractions/security-considerations-for-email-logging.md)   
- [Troubleshooting: Email Logging](../../BusinessFunctionality/LoggingAndTrackingEmailInteractions/troubleshooting-email-logging.md)
+ [Security Considerations for Email Logging](../FullExperience/security-considerations-for-email-logging.md)   
+ [Troubleshooting: Email Logging](../FullExperience/troubleshooting-email-logging.md)

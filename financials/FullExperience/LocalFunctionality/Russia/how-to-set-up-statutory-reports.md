@@ -16,7 +16,7 @@
 
     ---
 # How to: Set Up Statutory Reports
-The Russian federal tax authorities require companies to submit statutory reports in electronic formats such as XML or as Microsoft Excel documents. In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you must set up the templates, formats, XML schemas, and other prerequisites so that you can generate the required files.  
+The Russian federal tax authorities require companies to submit statutory reports in electronic formats such as XML or as Microsoft Excel documents. In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you must set up the templates, formats, XML schemas, and other prerequisites so that you can generate the required files.  
   
  After you have set up a report and specified the required information, you can export the report to Excel, and then print the report.  
   
@@ -93,8 +93,8 @@ The Russian federal tax authorities require companies to submit statutory report
   
          This creates a copy of the existing report with the tables and XML element lines. Now, you can make the appropriate changes as described earlier in this section.  
   
- You can now use the defined statutory reports to generate and submit reports to the authorities. For more information, see [How to: Create Statutory Report Data](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-create-statutory-report-data.md).  
+ You can now use the defined statutory reports to generate and submit reports to the authorities. For more information, see [How to: Create Statutory Report Data](../FullExperience/how-to-create-statutory-report-data.md).  
   
 ## See Also  
- [Statutory Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/statutory-reports.md)   
- [How to: Create Statutory Report Data](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-create-statutory-report-data.md)
+ [Statutory Reports](../FullExperience/statutory-reports.md)   
+ [How to: Create Statutory Report Data](../FullExperience/how-to-create-statutory-report-data.md)

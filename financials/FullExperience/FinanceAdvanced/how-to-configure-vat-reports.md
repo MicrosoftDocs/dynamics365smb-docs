@@ -19,14 +19,14 @@
 Before you can create VAT reports, you must specify which processes must be used to print or export the reports.  
   
 > [!IMPORTANT]  
->  In order to configure these processes, you must be familiar with C\/AL development and understand how codeunits work in ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]-->. If you are not familiar with codeunits, you must consult with your ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> certified partner.  
+>  In order to configure these processes, you must be familiar with C\/AL development and understand how codeunits work in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> certified partner.  
   
 ## VAT Report Configuration Codeunits  
- The VAT report configuration in ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> takes place in codeunits. At the center of the configuration is codeunit ID 740 that works as a mediator that can be called from different objects and pass data around without these objects knowing of each other.  
+ The VAT report configuration in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> takes place in codeunits. At the center of the configuration is codeunit ID 740 that works as a mediator that can be called from different objects and pass data around without these objects knowing of each other.  
   
- In codeunit ID 740, you can specify which codeunits must run when users want to print or export a VAT report. By following a mediation design pattern, the **VAT Report** window calls codeunit ID 740, and ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> then reads how to print or export. You can add additional functions in this codeunit, but the following table describes the preconfigured functions. For each function, you can specify one or more codeunits or reports to handle actual process.  
+ In codeunit ID 740, you can specify which codeunits must run when users want to print or export a VAT report. By following a mediation design pattern, the **VAT Report** window calls codeunit ID 740, and ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> then reads how to print or export. You can add additional functions in this codeunit, but the following table describes the preconfigured functions. For each function, you can specify one or more codeunits or reports to handle actual process.  
   
-|Function|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+|Function|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
 |---
     title: Insert topic title| Microsoft Docs
     description: Insert description
@@ -50,4 +50,4 @@ Before you can create VAT reports, you must specify which processes must be used
 |744|**VAT Report Check**|Handles the code for testing if the current VAT report is set up correctly.<br /><br /> Users will not be able to submit VAT reports that fail the validation that is specified in this codeunit.|  
   
 ## See Also  
- [VAT and VIES Report Setup](../Finance/vat-and-vies-report-setup.md)
+ [VAT and VIES Report Setup](../FullExperience/vat-and-vies-report-setup.md)

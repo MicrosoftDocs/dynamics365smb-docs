@@ -18,7 +18,7 @@
 # How to: Assign Serial Numbers and Lot Numbers During Outbound Transactions
 You can add serial numbers and lot numbers to any outbound document, and its posted item tracking entries are displayed in the related item ledger entries. There are two ways to add serial and lot numbers to outbound transactions:  
   
--   Selecting from existing serial or lot numbers. This applies when item tracking numbers have already been assigned during an inbound transaction. For more information, see [How to: Select from Existing Serial Numbers and Lot Numbers](../DesignAndEngineering/how-to-select-from-existing-serial-numbers-and-lot-numbers.md).  
+-   Selecting from existing serial or lot numbers. This applies when item tracking numbers have already been assigned during an inbound transaction. For more information, see [How to: Select from Existing Serial Numbers and Lot Numbers](../FullExperience/how-to-select-from-existing-serial-numbers-and-lot-numbers.md).  
   
 -   Assigning new serial or lot numbers during outbound transactions. This applies when item tracking numbers are not assigned to items until they are sold and ready to be shipped.  
   
@@ -29,7 +29,7 @@ You can add serial numbers and lot numbers to any outbound document, and its pos
   
 ### To assign a serial or lot number during outbound transaction  
   
-1.  Select the relevant document and, on the **Lines** FastTab, choose **Actions**![Action Menu icon](../DesignAndEngineering/media/actionmenuicon.png "actionMenuIcon"), choose **Order**, and then choose **Item Tracking Lines**.  
+1.  Select the relevant document and, on the **Lines** FastTab, choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Order**, and then choose **Item Tracking Lines**.  
   
      You can assign item tracking numbers in the following ways:  
   
@@ -55,4 +55,4 @@ You can add serial numbers and lot numbers to any outbound document, and its pos
  Item Tracking Code Card   
  SN Warehouse Tracking   
  Lot Warehouse Tracking   
- [How to: Select from Existing Serial Numbers and Lot Numbers](../DesignAndEngineering/how-to-select-from-existing-serial-numbers-and-lot-numbers.md)
+ [How to: Select from Existing Serial Numbers and Lot Numbers](../FullExperience/how-to-select-from-existing-serial-numbers-and-lot-numbers.md)

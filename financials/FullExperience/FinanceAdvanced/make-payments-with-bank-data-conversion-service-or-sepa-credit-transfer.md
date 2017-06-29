@@ -19,9 +19,9 @@
 In the **Payment Journal** window, you can process payments to your vendors by exporting a file together with the payment information from the journal lines. You can then upload the file to your electronic bank where the related money transfers are processed.  
   
 > [!NOTE]  
->  In the generic version of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)]-->, a global provider of services to convert bank data to any file format that your bank requires is set up and connected. In addition, the generic version of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)]--> supports the SEPA Credit Transfer format. In your country\/region, other formats for electronic payments may be available.  
+>  In the generic version of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]--> supports the SEPA Credit Transfer format. In your country\/region, other formats for electronic payments may be available.  
 >   
->  To enable export of bank file formats that are not supported by the generic or local versions of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)]-->, use the Date Exchange Framework. For more information, see [How to: Set Up Data Exchange Definitions](../BusinessFunctionality/DataExchange/how-to-set-up-data-exchange-definitions.md).  
+>  To enable export of bank file formats that are not supported by the generic or local versions of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/how-to-set-up-data-exchange-definitions.md).  
   
  To enable SEPA credit transfers, you must first set up a bank account, a vendor, and the general journal batch that the payment journal is based on.  
   
@@ -34,14 +34,14 @@ In the **Payment Journal** window, you can process payments to your vendors by e
   
 |**To**|**See**|  
 |------------|-------------|  
-|Activate the Bank Data Conversion Service feature to have any bank statement file converted to a format that you can import or to have your exported payment files converted to the format that your bank requires.|[How to: Set Up the Bank Data Conversion Service](../BusinessFunctionality/DataExchange/how-to-set-up-the-bank-data-conversion-service.md)|  
-|Set up a bank account, a vendor, and a payment journal for SEPA credit transfer.|[How to: Set Up SEPA Credit Transfer](../BusinessFunctionality/DataExchange/how-to-set-up-sepa-credit-transfer.md)|  
-|Fill the payment journal with lines for due payments to vendors, with the option to insert posting dates based on the due date of the related purchase documents.|[How to: Suggest Vendor Payments](../Finance/how-to-suggest-vendor-payments.md) and [How to: Insert Due Date as Posting Date on Payment Journal Lines](../Finance/how-to-insert-due-date-as-posting-date-on-payment-journal-lines.md)|  
-|Export payment journal lines to a file in the SEPA Credit Transfer format.|[How to: Export Payments to a Bank File](../BusinessFunctionality/DataExchange/how-to-export-payments-to-a-bank-file.md)|  
+|Activate the Bank Data Conversion Service feature to have any bank statement file converted to a format that you can import or to have your exported payment files converted to the format that your bank requires.|[How to: Set Up the Bank Data Conversion Service](../FullExperience/how-to-set-up-the-bank-data-conversion-service.md)|  
+|Set up a bank account, a vendor, and a payment journal for SEPA credit transfer.|[How to: Set Up SEPA Credit Transfer](../FullExperience/how-to-set-up-sepa-credit-transfer.md)|  
+|Fill the payment journal with lines for due payments to vendors, with the option to insert posting dates based on the due date of the related purchase documents.|[How to: Suggest Vendor Payments](../FullExperience/how-to-insert-due-date-as-posting-date-on-payment-journal-lines.md)|  
+|Export payment journal lines to a file in the SEPA Credit Transfer format.|[How to: Export Payments to a Bank File](../FullExperience/how-to-export-payments-to-a-bank-file.md)|  
 |Review which payments have been exported and into which files.|Credit Transfer Registers|  
-|When the electronic payment is successfully processed by the bank, post the payments.|[How to: Fill and Post General Journals](../Finance/how-to-fill-and-post-general-journals.md)|  
+|When the electronic payment is successfully processed by the bank, post the payments.|[How to: Fill and Post General Journals](../FullExperience/how-to-fill-and-post-general-journals.md)|  
   
 ## See Also  
- [Process Outgoing Payments](../Finance/process-outgoing-payments.md)   
- [Manage Payables](../Finance/manage-payables.md)   
- [Collect Payments with SEPA Direct Debit](../Finance/collect-payments-with-sepa-direct-debit.md)
+ [Process Outgoing Payments](../FullExperience/process-outgoing-payments.md)   
+ [Manage Payables](../FullExperience/manage-payables.md)   
+ [Collect Payments with SEPA Direct Debit](../FullExperience/collect-payments-with-sepa-direct-debit.md)

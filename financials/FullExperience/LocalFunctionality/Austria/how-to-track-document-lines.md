@@ -61,8 +61,8 @@ You can use the document tracking to view documents that are related to sales or
 7.  Choose the **OK** button.  
   
 ## See Also  
- [Enhanced Document Management](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/enhanced-document-management.md)   
- [How to: Set Up Automatic Archiving of Documents](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-set-up-automatic-archiving-of-documents.md)   
- [How to: Archive Blanket Orders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-archive-blanket-orders.md)   
- [How to: Create an Order from an Archived Blanket Order](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-create-an-order-from-an-archived-blanket-order.md)   
- [How to: Delete Archived Blanket Orders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-delete-archived-blanket-orders.md)
+ [Enhanced Document Management](../FullExperience/enhanced-document-management.md)   
+ [How to: Set Up Automatic Archiving of Documents](../FullExperience/how-to-set-up-automatic-archiving-of-documents.md)   
+ [How to: Archive Blanket Orders](../FullExperience/how-to-archive-blanket-orders.md)   
+ [How to: Create an Order from an Archived Blanket Order](../FullExperience/how-to-create-an-order-from-an-archived-blanket-order.md)   
+ [How to: Delete Archived Blanket Orders](../FullExperience/how-to-delete-archived-blanket-orders.md)

@@ -35,4 +35,4 @@ You can enter descriptions of standard tasks.
 6.  Choose the **OK** button to close the window.  
   
 ## See Also  
- [How to: Create Standard Tasks](../DesignAndEngineering/how-to-create-standard-tasks.md)
+ [How to: Create Standard Tasks](../FullExperience/how-to-create-standard-tasks.md)

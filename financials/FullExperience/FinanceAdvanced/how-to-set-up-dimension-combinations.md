@@ -24,7 +24,7 @@ To avoid posting entries with contradictory or irrelevant dimensions, you can bl
   
 2.  In the **Dimension Combinations** window, choose the field of the dimension combination and select one of the following options.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../../includes/bp_tabledescription_md.md)]-->|  
     |----------------------------------|---------------------------------------|  
     |**No limitation**|This dimension combination has no restrictions. All dimensions values are allowed.|  
     |**Limit**|This dimension combination has restrictions depending on which dimension values that you enter. You must define the limitations in the **Dimension Value Combination** window.|  
@@ -35,13 +35,13 @@ To avoid posting entries with contradictory or irrelevant dimensions, you can bl
 4.  Now select a dimension value combination that is blocked and enter **Blocked** in the field. A blank field means that the dimension value combination is allowed. Repeat if multiple combinations are blocked.  
   
 > [!NOTE]  
->  The same dimensions are displayed in both rows and columns and, therefore, all dimension combinations appear two times. ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> automatically displays the setting in both fields. You cannot select anything in the fields from the upper-left corner and down, because these fields have the same dimension in both rows and columns.  
+>  The same dimensions are displayed in both rows and columns and, therefore, all dimension combinations appear two times. ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> automatically displays the setting in both fields. You cannot select anything in the fields from the upper-left corner and down, because these fields have the same dimension in both rows and columns.  
 >   
 >  The selected option is not visible before you exit the field.  
 >   
 >  To show the name of the dimensions instead of the code, select the **Show Column Name** field.  
   
 ## See Also  
- [How to: Set Up Default Dimensions for One Account](../Finance/how-to-set-up-default-dimensions-for-one-account.md)   
+ [How to: Set Up Default Dimensions for One Account](../FullExperience/how-to-set-up-default-dimensions-for-one-account.md)   
  Default Dimension   
  Dimension

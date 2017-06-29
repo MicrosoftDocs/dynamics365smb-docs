@@ -268,6 +268,6 @@ The payables report feature enables you to view the vendor general ledger turnov
 |**Print Contractor Data**|Select this option to fill in the right side of the report with the vendor's data.|  
   
 ## See Also  
- [Russian Receivables Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/russian-receivables-reports.md)   
- [How to: Set Up Customer and Vendor Agreements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-set-up-customer-and-vendor-agreements.md)   
- [Payables and Receivables-duplicate](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/payables-and-receivables-duplicate.md)
+ [Russian Receivables Reports](../FullExperience/russian-receivables-reports.md)   
+ [How to: Set Up Customer and Vendor Agreements](../FullExperience/how-to-set-up-customer-and-vendor-agreements.md)   
+ [Payables and Receivables-duplicate](../FullExperience/payables-and-receivables-duplicate.md)

@@ -31,9 +31,9 @@ You can print the **\($ R\_5606 Fixed Asset - Book Value 02 $\)** report to see 
      The report shows the reclassification entries in a separate column.  
   
 ## See Also  
- [How to: Transfer Fixed Assets to Different Locations](../Finance/how-to-transfer-fixed-assets-to-different-locations.md)   
- [How to: Combine Fixed Assets](../Finance/how-to-combine-fixed-assets.md)   
- [How to: Split Up Fixed Assets](../Finance/how-to-split-up-fixed-assets.md)   
- [Fixed Assets Reports](../Finance/fixed-assets-reports.md)   
- [Transfer, Split, or Combine Assets](../Finance/transfer-split-or-combine-assets.md)   
+ [How to: Transfer Fixed Assets to Different Locations](../FullExperience/how-to-transfer-fixed-assets-to-different-locations.md)   
+ [How to: Combine Fixed Assets](../FullExperience/how-to-combine-fixed-assets.md)   
+ [How to: Split Up Fixed Assets](../FullExperience/how-to-split-up-fixed-assets.md)   
+ [Fixed Assets Reports](../FullExperience/fixed-assets-reports.md)   
+ [Transfer, Split, or Combine Assets](../FullExperience/transfer-split-or-combine-assets.md)   
  Fixed Asset - Book Value 02

@@ -39,5 +39,5 @@ You can either convert the entire blanket order into one order, or you can make 
 ## See Also  
  Purchase Order   
  Blanket Purchase Order   
- [How to: Create Blanket Purchase Orders](../Purchasing/how-to-create-blanket-purchase-orders.md)   
- [How to: View the Status of Blanket Purchase Orders](../Purchasing/how-to-view-the-status-of-blanket-purchase-orders.md)
+ [How to: Create Blanket Purchase Orders](../FullExperience/how-to-create-blanket-purchase-orders.md)   
+ [How to: View the Status of Blanket Purchase Orders](../FullExperience/how-to-view-the-status-of-blanket-purchase-orders.md)

@@ -25,4 +25,4 @@ The Dutch telebanking application allows you to combine ledger entries for the s
 -   The payment is not based upon an invoice.  
   
 ## See Also  
- [Telebanking](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/telebanking.md)
+ [Telebanking](../FullExperience/telebanking.md)

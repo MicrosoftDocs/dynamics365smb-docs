@@ -35,4 +35,4 @@ If you have a digitalized picture of an employee, that is, a picture that is a f
  If you want to copy the picture to a separate file, on the **Navigate** tab, in the **Employee** group, choose **Picture**. Right-click on the **Picture** field and choose **Save Picture As**. Specify the drive, path, and file name to which the picture will be exported.  
   
 ## See Also  
- [How to: Set Up Employees](../HumanResources/how-to-set-up-employees.md)
+ [How to: Set Up Employees](../FullExperience/how-to-set-up-employees.md)

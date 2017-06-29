@@ -24,11 +24,11 @@ To help plan the satisfaction of service, you can use the **Dispatch Board**, wh
   
 |**To**|**See**|  
 |------------|-------------|  
-|Learn how to use the Dispatch Board.|[How to: Use the Dispatch Board](../Service/how-to-use-the-dispatch-board.md)|  
-|Set up resources in a group and allocate them to a service order depending on availability.|[How to: Allocate Resource Groups](../Service/how-to-allocate-resource-groups.md)|  
-|Send email to a customer.|[How to: Send Email Messages Manually](../Service/how-to-send-email-messages-manually.md)|  
-|Track where on your service shelves a service item is located.|[How to: Set Up Service Shelves](../Service/how-to-set-up-service-shelves.md)|  
+|Learn how to use the Dispatch Board.|[How to: Use the Dispatch Board](../FullExperience/how-to-use-the-dispatch-board.md)|  
+|Set up resources in a group and allocate them to a service order depending on availability.|[How to: Allocate Resource Groups](../FullExperience/how-to-allocate-resource-groups.md)|  
+|Send email to a customer.|[How to: Send Email Messages Manually](../FullExperience/how-to-send-email-messages-manually.md)|  
+|Track where on your service shelves a service item is located.|[How to: Set Up Service Shelves](../FullExperience/how-to-set-up-service-shelves.md)|  
   
 ## See Also  
- [How to: Allocate Resources by Using Service Orders](../Service/how-to-allocate-resources-by-using-service-orders.md)   
+ [How to: Allocate Resources by Using Service Orders](../FullExperience/how-to-allocate-resources-by-using-service-orders.md)   
  Service Load Level

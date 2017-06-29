@@ -32,7 +32,7 @@ When you have received a transfer order, you can post the receipt.
   
 ## See Also  
  Transfer Order   
- [How to: Create Transfer Orders](../DesignAndEngineering/how-to-create-transfer-orders.md)   
- [How to: Ship Transfer Orders](../DesignAndEngineering/how-to-ship-transfer-orders.md)   
- [Status Field on Documents](../DesignAndEngineering/status-field-on-documents.md)   
- [Transfers](../DesignAndEngineering/transfers.md)
+ [How to: Create Transfer Orders](../FullExperience/how-to-create-transfer-orders.md)   
+ [How to: Ship Transfer Orders](../FullExperience/how-to-ship-transfer-orders.md)   
+ [Status Field on Documents](../FullExperience/status-field-on-documents.md)   
+ [Transfers](../FullExperience/transfers.md)

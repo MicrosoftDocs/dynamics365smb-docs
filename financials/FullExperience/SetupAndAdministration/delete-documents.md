@@ -16,10 +16,10 @@
 
     ---
 # Delete Documents
-This section provides an overview of how to delete documents in ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]-->.  
+This section provides an overview of how to delete documents in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
   
 ## See Also  
- [How to: Delete Invoiced Blanket Purchase Orders](../SetupAndAdministration/how-to-delete-invoiced-blanket-purchase-orders.md)   
- [How to: Delete Invoiced Purchase Orders](../Purchasing/how-to-delete-invoiced-purchase-orders.md)   
- [How to: Delete Invoiced Purchase Return Orders](../SetupAndAdministration/how-to-delete-invoiced-purchase-return-orders.md)   
- [How to: Delete Invoiced Service Orders](../Service/how-to-delete-invoiced-service-orders.md)
+ [How to: Delete Invoiced Blanket Purchase Orders](../FullExperience/how-to-delete-invoiced-blanket-purchase-orders.md)   
+ [How to: Delete Invoiced Purchase Orders](../FullExperience/how-to-delete-invoiced-purchase-orders.md)   
+ [How to: Delete Invoiced Purchase Return Orders](../FullExperience/how-to-delete-invoiced-purchase-return-orders.md)   
+ [How to: Delete Invoiced Service Orders](../FullExperience/how-to-delete-invoiced-service-orders.md)

@@ -16,14 +16,14 @@
 
     ---
 # Switzerland Local Functionality
-The following topics describe the local functionality in the Swiss version of ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->.  
+The following topics describe the local functionality in the Swiss version of ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
   
 ## In This Section  
- [Enhanced Document Management](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/enhanced-document-management.md)  
- [Swiss Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/swiss-electronic-payments.md)  
-  [Swiss Value Added Tax](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/swiss-value-added-tax.md)  
-  [Swiss Inventory Management](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/swiss-inventory-management.md)  
-  [Swiss General Ledger Accounts](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/swiss-general-ledger-accounts.md)  
-  [Swiss Purchase Documents and Sales Documents](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/swiss-purchase-documents-and-sales-documents.md)  
-  [How to: Print General Ledger Setup Information](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-print-general-ledger-setup-information.md)  
-  [Tables, Reports, Batch Jobs, and Windows-duplicate 10](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/tables-reports-batch-jobs-and-windows-duplicate-10.md)
+ [Enhanced Document Management](../FullExperience/enhanced-document-management.md)  
+ [Swiss Electronic Payments](../FullExperience/swiss-electronic-payments.md)  
+  [Swiss Value Added Tax](../FullExperience/swiss-value-added-tax.md)  
+  [Swiss Inventory Management](../FullExperience/swiss-inventory-management.md)  
+  [Swiss General Ledger Accounts](../FullExperience/swiss-general-ledger-accounts.md)  
+  [Swiss Purchase Documents and Sales Documents](../FullExperience/swiss-purchase-documents-and-sales-documents.md)  
+  [How to: Print General Ledger Setup Information](../FullExperience/how-to-print-general-ledger-setup-information.md)  
+  [Tables, Reports, Batch Jobs, and Windows-duplicate 10](../FullExperience/tables-reports-batch-jobs-and-windows-duplicate-10.md)

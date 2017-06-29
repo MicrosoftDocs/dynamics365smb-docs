@@ -16,7 +16,7 @@
 
     ---
 # How to: Print VAT Reconciliation Reports
-In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you can use the **VAT Reconciliation** report to view a list of general ledger accounts with their base amounts and VAT amounts. These amounts are grouped by VAT type to help with VAT settlement reconciliation.  
+In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can use the **VAT Reconciliation** report to view a list of general ledger accounts with their base amounts and VAT amounts. These amounts are grouped by VAT type to help with VAT settlement reconciliation.  
   
 ### To print a VAT reconciliation report  
   
@@ -24,7 +24,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Show Details**|Select to print all transaction amounts in the report.<br /><br /> If you do not select this field, a single cumulative line is printed for each general ledger account.|  
     |**Show Transactions without VAT**|Select to print a line for each general ledger account that transactions are posted to. You can use this option for both single accounts and multiple accounts.<br /><br /> The default is **No**. The report includes only those transactions that include VAT entries. If you select this field, the report includes all transactions.|  
@@ -34,6 +34,6 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
 4.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [Denmark Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Denmark/denmark-local-functionality.md)   
+ [Denmark Local Functionality](../FullExperience/denmark-local-functionality.md)   
  Reconcile Cust and Vend Accs   
  VAT Reconciliation

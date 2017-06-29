@@ -16,10 +16,10 @@
 
     ---
 # How to: Enable and Disable Encryption Keys
-You can encrypt data on the ADD INCLUDE<!--[!INCLUDE[nav_server](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_server_md.md)]--> by generating new or importing existing encryption keys that you enable on the server.  
+You can encrypt data on the ADD INCLUDE<!--[!INCLUDE[nav_server](../../includes/nav_server_md.md)]--> by generating new or importing existing encryption keys that you enable on the server.  
   
 > [!NOTE]  
->  If ADD INCLUDE<!--[!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)]--> is configured with multiple service tiers, then you must first enable encryption on one server and then export the key so it can be imported to another server where you enable encryption. You cannot generate different keys within one multiple-server environment.  
+>  If ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]--> is configured with multiple service tiers, then you must first enable encryption on one server and then export the key so it can be imported to another server where you enable encryption. You cannot generate different keys within one multiple-server environment.  
   
  You encrypt data by enabling an encryption key on a server where an encryption key exists.  
   
@@ -49,9 +49,9 @@ You can encrypt data on the ADD INCLUDE<!--[!INCLUDE[nav_server](../BusinessFunc
 3.  On the warning message about non-encrypted data, choose **Yes**.  
   
 ## See Also  
- [How to: Export and Import Encryption Keys](../SetupAndAdministration/how-to-export-and-import-encryption-keys.md)   
+ [How to: Export and Import Encryption Keys](../FullExperience/how-to-export-and-import-encryption-keys.md)   
  Encryption Enabled   
  Encryption Key Exists   
- [Manage Data Encryption](../SetupAndAdministration/manage-data-encryption.md)   
- [Installation Considerations for Microsoft SQL Server](../Topic/Installation%20Considerations%20for%20Microsoft%20SQL%20Server.md)   
- [How to: Configure the Microsoft Dynamics NAV Web client to Accept Host Names for Tenants](../Topic/How%20to:%20Configure%20the%20Microsoft%20Dynamics%20NAV%20Web%20client%20to%20Accept%20Host%20Names%20for%20Tenants.md)
+ [Manage Data Encryption](../FullExperience/manage-data-encryption.md)   
+ [Installation Considerations for Microsoft SQL Server](../FullExperience/Installation%20Considerations%20for%20Microsoft%20SQL%20Server.md)   
+ [How to: Configure the Microsoft Dynamics NAV Web client to Accept Host Names for Tenants](../FullExperience/How%20to:%20Configure%20the%20Microsoft%20Dynamics%20NAV%20Web%20client%20to%20Accept%20Host%20Names%20for%20Tenants.md)

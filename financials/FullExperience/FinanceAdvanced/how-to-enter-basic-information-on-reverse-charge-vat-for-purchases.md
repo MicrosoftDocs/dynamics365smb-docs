@@ -31,5 +31,5 @@ In order to correctly handle VAT on purchases from the EU, you must set up at le
  Repeat this procedure to set up as many combinations in the VAT posting setup as necessary.  
   
 ## See Also  
- [How to: Record VAT](../Finance/how-to-record-vat.md)   
- [How to: Set Up VAT Business Posting Groups](../Finance/how-to-set-up-vat-business-posting-groups.md)
+ [How to: Record VAT](../FullExperience/how-to-record-vat.md)   
+ [How to: Set Up VAT Business Posting Groups](../FullExperience/how-to-set-up-vat-business-posting-groups.md)

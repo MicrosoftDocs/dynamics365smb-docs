@@ -35,6 +35,6 @@ You can add any comments to every machine center.
 7.  Close the window.  
   
 ## See Also  
- [Structure of the Capacity](../Production/structure-of-the-capacity.md)   
- [How to: Set Up Machine Centers](../Production/how-to-set-up-machine-centers.md)   
- [How to: Enter Comments for Work Centers](../Production/how-to-enter-comments-for-work-centers.md)
+ [Structure of the Capacity](../FullExperience/structure-of-the-capacity.md)   
+ [How to: Set Up Machine Centers](../FullExperience/how-to-set-up-machine-centers.md)   
+ [How to: Enter Comments for Work Centers](../FullExperience/how-to-enter-comments-for-work-centers.md)

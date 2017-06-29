@@ -24,11 +24,11 @@ You can set up budgeted assets. This makes it possible to include any anticipate
   
 |**To**|**See**|  
 |------------|-------------|  
-|Set up fixed asset cards for fixed assets that you intend to buy in the future, so you can set up a budget for those costs.|[How to: Budget Acquisition Costs](../Finance/how-to-budget-acquisition-costs.md)|  
-|Post an acquisition cost with an opposite sign for the budgeted asset so that the total acquisition cost on the budgeted asset is the difference between the budgeted and the actual acquisition cost.|[How to: Buy Budgeted Fixed Assets](../Finance/how-to-buy-budgeted-fixed-assets.md)|  
-|Enter information about sales price and sales date for assets that you intend to sell within a budget period.|[How to: Budget Disposals of Fixed Assets](../Finance/how-to-budget-disposals-of-fixed-assets.md)|  
-|See the projected disposal values and calculate the gain and loss by running the Fixed Asset - Projected Value report.|[How to: View Projected Disposal Values](../Finance/how-to-view-projected-disposal-values.md)|  
-|Run a report to calculate future depreciation on assets.|[How to: Budget Depreciation](../Finance/how-to-budget-depreciation.md)|  
+|Set up fixed asset cards for fixed assets that you intend to buy in the future, so you can set up a budget for those costs.|[How to: Budget Acquisition Costs](../FullExperience/how-to-budget-acquisition-costs.md)|  
+|Post an acquisition cost with an opposite sign for the budgeted asset so that the total acquisition cost on the budgeted asset is the difference between the budgeted and the actual acquisition cost.|[How to: Buy Budgeted Fixed Assets](../FullExperience/how-to-buy-budgeted-fixed-assets.md)|  
+|Enter information about sales price and sales date for assets that you intend to sell within a budget period.|[How to: Budget Disposals of Fixed Assets](../FullExperience/how-to-budget-disposals-of-fixed-assets.md)|  
+|See the projected disposal values and calculate the gain and loss by running the Fixed Asset - Projected Value report.|[How to: View Projected Disposal Values](../FullExperience/how-to-view-projected-disposal-values.md)|  
+|Run a report to calculate future depreciation on assets.|[How to: Budget Depreciation](../FullExperience/how-to-budget-depreciation.md)|  
   
 ## See Also  
- [Dispose of or Retire Assets](../Finance/dispose-of-or-retire-assets.md)
+ [Dispose of or Retire Assets](../FullExperience/dispose-of-or-retire-assets.md)

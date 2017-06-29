@@ -35,6 +35,6 @@ A service credit memo document is typically used when a customer returns an item
 7.  On the credit memo lines, enter information about the items that have been returned or removed, or the compensation that will be given to the customer.  
   
 ## See Also  
- [How to: Post Service Credit Memos](../Service/how-to-post-service-credit-memos.md)   
- [How to: Print Test Reports Before Posting Service Documents](../Service/how-to-print-test-reports-before-posting-service-documents.md)   
- [How to: Batch Post Service Orders](../Service/how-to-batch-post-service-orders.md)
+ [How to: Post Service Credit Memos](../FullExperience/how-to-post-service-credit-memos.md)   
+ [How to: Print Test Reports Before Posting Service Documents](../FullExperience/how-to-print-test-reports-before-posting-service-documents.md)   
+ [How to: Batch Post Service Orders](../FullExperience/how-to-batch-post-service-orders.md)

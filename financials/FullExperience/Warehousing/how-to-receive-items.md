@@ -31,7 +31,7 @@ When items arrive at a warehouse that is set up for warehouse receipt processing
     > [!NOTE]  
     >  If you wish to receive items with warehouse class codes other than the class code of the bin in the **Bin Code** field on the document header, you must delete the contents of the **Bin Code** field on the header before you retrieve source document lines for the items.  
   
-3.  On the **Actions** tab, in the **Functions** group, choose **Get Source Documents**. The **Source Documents** window opens. You can also use filters to get source documents to narrow the results to a more specific set of source documents. For more information, see [How to: Use Filters to Get Source Documents](../Receiving/how-to-use-filters-to-get-source-documents.md).  
+3.  On the **Actions** tab, in the **Functions** group, choose **Get Source Documents**. The **Source Documents** window opens. You can also use filters to get source documents to narrow the results to a more specific set of source documents. For more information, see [How to: Use Filters to Get Source Documents](../FullExperience/how-to-use-filters-to-get-source-documents.md).  
   
 4.  Select the source documents for which you want to receive items and choose the **OK** button.  
   
@@ -55,8 +55,8 @@ When items arrive at a warehouse that is set up for warehouse receipt processing
 >  If your location uses directed put-away and pick, then the put-away templates are used to calculate the best place to put the items away. This is then printed on the put-away instruction.  
   
 ## See Also  
- [Receiving](../Receiving/receiving.md)   
- [Design Details: Warehouse Management](../ApplicationDesign/design-details-warehouse-management.md)   
- [How to: Put Items Away with Warehouse Put-aways](../WarehouseActivities/how-to-put-items-away-with-warehouse-put-aways.md)   
- [How to: Cross-Dock Items](../Receiving/how-to-cross-dock-items.md)   
- [How to: Use Filters to Get Source Documents](../Receiving/how-to-use-filters-to-get-source-documents.md)
+ [Receiving](../FullExperience/receiving.md)   
+ [Design Details: Warehouse Management](../FullExperience/design-details-warehouse-management.md)   
+ [How to: Put Items Away with Warehouse Put-aways](../FullExperience/how-to-put-items-away-with-warehouse-put-aways.md)   
+ [How to: Cross-Dock Items](../FullExperience/how-to-cross-dock-items.md)   
+ [How to: Use Filters to Get Source Documents](../FullExperience/how-to-use-filters-to-get-source-documents.md)

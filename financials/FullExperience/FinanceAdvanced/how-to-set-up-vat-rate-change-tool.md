@@ -26,7 +26,7 @@ This topic describes how you set up the VAT rate change tool and corresponding n
   
      The following table describes the options that you can select for a field.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../../includes/bp_tabledescription_md.md)]-->|  
     |----------------------------------|---------------------------------------|  
     |**No**|The selected field will not be updated.|  
     |**VAT Product Posting Group**|The selected field will be updated by the VAT product posting group conversion.|  
@@ -48,5 +48,5 @@ This topic describes how you set up the VAT rate change tool and corresponding n
 5.  Choose the **OK** button.  
   
 ## See Also  
- [How to: Prepare VAT Rate Change Conversions](../Finance/how-to-prepare-vat-rate-change-conversions.md)   
- [How to: Perform VAT Rate Conversions](../Finance/how-to-perform-vat-rate-conversions.md)
+ [How to: Prepare VAT Rate Change Conversions](../FullExperience/how-to-prepare-vat-rate-change-conversions.md)   
+ [How to: Perform VAT Rate Conversions](../FullExperience/how-to-perform-vat-rate-conversions.md)

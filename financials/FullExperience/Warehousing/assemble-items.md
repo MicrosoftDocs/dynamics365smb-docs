@@ -98,8 +98,8 @@ With warehouse management, you can organize and handle the items in inventory on
  If you want to register electronically the placement of items within the warehouse and your warehouse is set up for directed put-away and pick, you can use the automatic data capture system, which is designed to operate with handheld devices. The ADCS allows you to register the movements of items as soon as they are made.  
   
 ## See Also  
- [How to: Receive Items](../Receiving/how-to-receive-items.md)   
- [How to: Cross-Dock Items](../Receiving/how-to-cross-dock-items.md)   
- [How to: Put Items Away with Warehouse Put-aways](../WarehouseActivities/how-to-put-items-away-with-warehouse-put-aways.md)   
- [How to: Pick Items for Warehouse Shipment](../WarehouseActivities/how-to-pick-items-for-warehouse-shipment.md)   
- [How to: Prepare Shipments](../Topic/How%20to:%20Prepare%20Shipments.md)
+ [How to: Receive Items](../FullExperience/how-to-receive-items.md)   
+ [How to: Cross-Dock Items](../FullExperience/how-to-cross-dock-items.md)   
+ [How to: Put Items Away with Warehouse Put-aways](../FullExperience/how-to-put-items-away-with-warehouse-put-aways.md)   
+ [How to: Pick Items for Warehouse Shipment](../FullExperience/how-to-pick-items-for-warehouse-shipment.md)   
+ [How to: Prepare Shipments](../FullExperience/How%20to:%20Prepare%20Shipments.md)

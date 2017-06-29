@@ -18,7 +18,7 @@
 # How to: Create Service Price Adjustments
 You can assign service price groups to service items in the **Service Order** window. The service pricing breakdown is inserted for the items. You can then automatically create service price adjustments for costs, spare parts, and resource hours for these service items.  
   
- For more information, see [How to: Set Up Service Price Groups](../Service/how-to-set-up-service-price-groups.md) and [How to: Set Up Service Price Adjustment Groups](../Service/how-to-set-up-service-price-adjustment-groups.md).  
+ For more information, see [How to: Set Up Service Price Groups](../FullExperience/how-to-set-up-service-price-adjustment-groups.md).  
   
 ### To create a service price adjustment  
   
@@ -31,7 +31,7 @@ You can assign service price groups to service items in the **Service Order** wi
     > [!NOTE]  
     >  The service price adjustment function does not apply to service items that belong to service contracts. You can only adjust the service prices of items that are part of a service order. You cannot adjust the price of a service item if it has a warranty. You cannot adjust the price of a service item on a service order if the service lines linked to it have been posted as **Invoice**, either fully or in part. When you run the service price adjustment function, all discounts in the order are replaced by the values of the service price adjustment.  
   
-4.  Choose **Actions**![Action Menu icon](../DesignAndEngineering/media/actionmenuicon.png "actionMenuIcon"), choose **Order**, and then choose **Service Lines**. The **Service Lines** window opens. Enter the information regarding the service price adjustment of the service items on the order.  
+4.  Choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Order**, and then choose **Service Lines**. The **Service Lines** window opens. Enter the information regarding the service price adjustment of the service items on the order.  
   
 5.  On the **Actions** tab, in the **Functions** group, choose **Adjust Service Price**. Choose the **Yes** button to confirm that you want to adjust service prices. The **Service Line Price Adjmt.** window opens.  
   
@@ -39,9 +39,9 @@ You can assign service price groups to service items in the **Service Order** wi
   
 6.  Choose the **OK** button to confirm the service price adjustments.  
   
-7.  Choose **Actions**![Action Menu icon](../DesignAndEngineering/media/actionmenuicon.png "actionMenuIcon"), choose **Order**, and then choose **Service Lines** to view the adjustments made automatically.  
+7.  Choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Order**, and then choose **Service Lines** to view the adjustments made automatically.  
   
 ## See Also  
- [How to: Change Service Pricing for Service Items](../Service/how-to-change-service-pricing-for-service-items.md)   
- [Service Price Management](../Service/service-price-management.md)   
- [How to: Set Up Service Price Groups](../Service/how-to-set-up-service-price-groups.md)
+ [How to: Change Service Pricing for Service Items](../FullExperience/how-to-change-service-pricing-for-service-items.md)   
+ [Service Price Management](../FullExperience/service-price-management.md)   
+ [How to: Set Up Service Price Groups](../FullExperience/how-to-set-up-service-price-groups.md)

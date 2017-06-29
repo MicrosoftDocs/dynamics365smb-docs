@@ -16,7 +16,7 @@
 
     ---
 # How to: Print VAT Summary Information on Documents
-If VAT is calculated, VAT summary information is typically printed on sales and purchase documents. However, in Iceland, ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> does not print VAT summary information if only one VAT sales code is used in the document. You can modify this behavior by using the **Always Show VAT Summary** option.  
+If VAT is calculated, VAT summary information is typically printed on sales and purchase documents. However, in Iceland, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> does not print VAT summary information if only one VAT sales code is used in the document. You can modify this behavior by using the **Always Show VAT Summary** option.  
   
  The following procedure describes how to display VAT summary information on a sales invoice document, but the same steps also apply to sales order confirmations, sales quotes, sales credit memos, blanket sales orders, purchase orders, purchase invoices, and purchase credit memos.  
   
@@ -30,5 +30,5 @@ If VAT is calculated, VAT summary information is typically printed on sales and 
   
 ## See Also  
  VAT Balancing Report   
- [VAT Reporting and Settlement](../../Finance/vat-reporting-and-settlement.md)   
- [VAT and VIES Report Setup](../../Finance/vat-and-vies-report-setup.md)
+ [VAT Reporting and Settlement](../FullExperience/vat-reporting-and-settlement.md)   
+ [VAT and VIES Report Setup](../FullExperience/vat-and-vies-report-setup.md)

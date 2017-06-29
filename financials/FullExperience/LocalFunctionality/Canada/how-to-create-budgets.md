@@ -16,7 +16,7 @@
 
     ---
 # How to: Create Budgets
-In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, the create budget function allows you to do the following:  
+In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, the create budget function allows you to do the following:  
   
 -   Create budget amounts by period.  
   
@@ -40,7 +40,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
   
 6.  In the **Budget Amount by Period** batch job, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Budget Beginning Date**|The start date of the first budget period to be created.|  
     |**No. of Periods**|The number of budget periods to be created.|  
@@ -69,7 +69,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
   
 5.  In the **Budget from History** batch job, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**History Beginning Date**|The start date of the first historical period to be analyzed for the creation of the budget.|  
     |**Budget Beginning Date**|The start date of the first budget period to be created.|  
@@ -84,7 +84,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
   
 ## See Also  
  Copy G-L Budget   
- [How to: Import or Export a Budget](../../Finance/how-to-import-or-export-a-budget.md)   
- [Budgets](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/budgets.md)   
+ [How to: Import or Export a Budget](../FullExperience/how-to-import-or-export-a-budget.md)   
+ [Budgets](../FullExperience/budgets.md)   
  Export Budget to Excel   
  Import Budget from Excel

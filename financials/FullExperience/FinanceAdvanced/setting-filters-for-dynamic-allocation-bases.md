@@ -34,7 +34,7 @@ The dynamic allocation method is based on changeable values. For example, the nu
 |Items Purchased \(Amount\)|Item No.|Yes|Yes|Yes|Inventory Posting Group|  
   
 ## See Also  
- [Scenario Example: Defining Dynamic Allocations Based on Items Sold](../Finance/scenario-example-defining-dynamic-allocations-based-on-items-sold.md)   
- [How to: Set Up Allocation Source and Targets](../Finance/how-to-set-up-allocation-source-and-targets.md)   
+ [Scenario Example: Defining Dynamic Allocations Based on Items Sold](../FullExperience/scenario-example-defining-dynamic-allocations-based-on-items-sold.md)   
+ [How to: Set Up Allocation Source and Targets](../FullExperience/how-to-set-up-allocation-source-and-targets.md)   
  Cost Allocation   
- [Define and Allocate Costs](../Finance/define-and-allocate-costs.md)
+ [Define and Allocate Costs](../FullExperience/define-and-allocate-costs.md)

@@ -30,7 +30,7 @@ You can create and store any number of VAT ledgers. For example, you can create 
   
 2.  In the **VAT Ledger List** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Type**|Select the type of VAT ledger.|  
     |**Code**|Enter the code of the number series that is used for the VAT ledger. You can view the available codes in the **No. Series** window.|  
@@ -50,8 +50,8 @@ You can create and store any number of VAT ledgers. For example, you can create 
  Now, you can print the VAT ledger as a VAT ledger or as an additional sheet.  
   
 ## See Also  
- [VAT Ledgers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/vat-ledgers.md)   
- [How to: Set Up VAT Ledgers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-set-up-vat-ledgers.md)   
- [How to: Create Additional Sheets](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-create-additional-sheets.md)   
+ [VAT Ledgers](../FullExperience/vat-ledgers.md)   
+ [How to: Set Up VAT Ledgers](../FullExperience/how-to-set-up-vat-ledgers.md)   
+ [How to: Create Additional Sheets](../FullExperience/how-to-create-additional-sheets.md)   
  Create VAT Purchase Ledger   
  Create VAT Sales Ledger

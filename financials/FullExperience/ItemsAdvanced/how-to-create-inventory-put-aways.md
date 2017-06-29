@@ -43,7 +43,7 @@ When your location is set up to require put-away processing but not receive proc
     2.  On the **Actions** tab, in the **Warehouse** group, choose **Create Inbound Whse. Request**.  
   
 > [!NOTE]  
->  You can also create the inbound warehouse request by selecting the **Create Inbound Request** check box when you refresh the production order. For more information, see [How to: Refresh Production Orders](../OperationsPlanning/how-to-refresh-production-orders.md).  
+>  You can also create the inbound warehouse request by selecting the **Create Inbound Request** check box when you refresh the production order. For more information, see [How to: Refresh Production Orders](../FullExperience/how-to-refresh-production-orders.md).  
   
  When the warehouse request is created, someone working in the warehouse creating put-aways can see that the source document is ready and can create an inventory put-away document.  
   
@@ -81,5 +81,5 @@ When your location is set up to require put-away processing but not receive proc
   
 ## See Also  
  Inventory Put-away   
- [Put Items Away](../WarehouseActivities/put-items-away.md)   
- [How to: Put Items Away with Inventory Put-aways](../DesignAndEngineering/how-to-put-items-away-with-inventory-put-aways.md)
+ [Put Items Away](../FullExperience/put-items-away.md)   
+ [How to: Put Items Away with Inventory Put-aways](../FullExperience/how-to-put-items-away-with-inventory-put-aways.md)

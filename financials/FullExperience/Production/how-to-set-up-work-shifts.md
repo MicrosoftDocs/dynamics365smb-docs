@@ -27,5 +27,5 @@ To be able to assign work shifts to calendars, you must set up the various work 
 3.  Close the window.  
   
 ## See Also  
- [How to: Set Up Shop Calendars](../Production/how-to-set-up-shop-calendars.md)   
- [Configure Production Processes](../Production/configure-production-processes.md)
+ [How to: Set Up Shop Calendars](../FullExperience/how-to-set-up-shop-calendars.md)   
+ [Configure Production Processes](../FullExperience/configure-production-processes.md)

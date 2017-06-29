@@ -61,4 +61,4 @@ The fixed assets locations and the fixed assets employees feature enable you to:
  When posting the documents and journals, the values of these fields are transferred to the corresponding new fixed asset operations and to corresponding fields in the Fixed Asset cards.  
   
 ## See Also  
- [Fixed Asset Inventory](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/fixed-asset-inventory.md)
+ [Fixed Asset Inventory](../FullExperience/fixed-asset-inventory.md)

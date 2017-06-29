@@ -16,7 +16,7 @@
 
     ---
 # How to: Process an LSV Collection
-You can use **LSV Journals** to create and process payments from Lastschrift Verfahren \(LSV\+\) customers. You can register these payments in the cash receipt journal, create an LSV file, and then print the collection order. For more information, see the Cash Receipt Journal window and [How to: Export Payments Using LSV](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-export-payments-using-lsv.md).  
+You can use **LSV Journals** to create and process payments from Lastschrift Verfahren \(LSV\+\) customers. You can register these payments in the cash receipt journal, create an LSV file, and then print the collection order. For more information, see the Cash Receipt Journal window and [How to: Export Payments Using LSV](../FullExperience/how-to-export-payments-using-lsv.md).  
   
  When you run the **LSV Suggest Collection** batch job, each suggested collection is registered on an LSV journal line, and the open invoices are transferred to the LSV journals. For more information, see the LSV Journal table.  
   
@@ -30,7 +30,7 @@ You can use **LSV Journals** to create and process payments from Lastschrift Ver
   
 3.  In the **LSV Journal List** window, fill in the required fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**LSV Bank Code**|Select the LSV bank code for the bank that will perform the collection.|  
     |**LSV Journal Description**|Enter a description for the entry.|  
@@ -39,7 +39,7 @@ You can use **LSV Journals** to create and process payments from Lastschrift Ver
   
 5.  In the **LSV Suggest Collection** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_3010831\_F\_1\_9 No. $\)**|Enter the LSV journal number.|  
     |**\($ B\_3010831\_F\_1\_7 From due date $\)**|Specify the starting due date of open entries to be suggested for collection.|  
@@ -61,10 +61,10 @@ You can use **LSV Journals** to create and process payments from Lastschrift Ver
 3.  Choose the **OK** button.  
   
 ## See Also  
- [Swiss Electronic Payments Using LSV\+](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/swiss-electronic-payments-using-lsv-.md)   
- [How to: Close an LSV Collection](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-close-an-lsv-collection.md)   
- [How to: Post LSV\+ Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-post-lsv-payments.md)   
- [How to: Export Payments Using LSV](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-export-payments-using-lsv.md)   
+ [Swiss Electronic Payments Using LSV\+](../FullExperience/swiss-electronic-payments-using-lsv-.md)   
+ [How to: Close an LSV Collection](../FullExperience/how-to-close-an-lsv-collection.md)   
+ [How to: Post LSV\+ Payments](../FullExperience/how-to-post-lsv-payments.md)   
+ [How to: Export Payments Using LSV](../FullExperience/how-to-export-payments-using-lsv.md)   
  Cash Receipt Journal   
  LSV Journal   
  LSV Journal Line

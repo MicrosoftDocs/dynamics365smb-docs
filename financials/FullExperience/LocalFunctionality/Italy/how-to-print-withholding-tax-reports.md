@@ -24,7 +24,7 @@ The **Withholding Taxes** report displays a list of withholding taxes that are p
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_12101\_N\_2\_1130070 Reference Month $\)**|Enter the month of the withholding tax period in numeric format.|  
     |**\($ R\_12101\_N\_2\_1130071 Reference Year $\)**|Enter the year of the withholding tax period in numeric format.|  
@@ -34,5 +34,5 @@ The **Withholding Taxes** report displays a list of withholding taxes that are p
 3.  Chose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [How to: Set Up Withholding Tax-duplicate](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-set-up-withholding-tax-duplicate.md)   
+ [How to: Set Up Withholding Tax-duplicate](../FullExperience/how-to-set-up-withholding-tax-duplicate.md)   
  Withholding Taxes

@@ -21,6 +21,6 @@ Cash\/Bank\/Giro helps you posting both cash and bank\/giro transactions into th
  Next to this and in conjunction with Telebanking, it allows you import electronic bank statements into the Bank\/Giro Journals. If wanted the system can automatically reconcile these statements during this import process and determine whether a statement can be applied to open ledger entries for the relevant vendor\/customer.  
   
 ## See Also  
- [Telebanking](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/telebanking.md)   
- [How to: Print the Test Reports for Cash and Bank or Giro Journals](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals.md)   
- [How to: Enter and Post Cash and Bank or Giro Journals](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/how-to-enter-and-post-cash-and-bank-or-giro-journals.md)
+ [Telebanking](../FullExperience/telebanking.md)   
+ [How to: Print the Test Reports for Cash and Bank or Giro Journals](../FullExperience/how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals.md)   
+ [How to: Enter and Post Cash and Bank or Giro Journals](../FullExperience/how-to-enter-and-post-cash-and-bank-or-giro-journals.md)

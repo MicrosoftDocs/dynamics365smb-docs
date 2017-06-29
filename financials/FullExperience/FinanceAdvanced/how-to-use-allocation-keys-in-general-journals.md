@@ -43,6 +43,6 @@ You can allocate an entry in a general journal to several different accounts whe
 11. Post the journal.  
   
 ## See Also  
- [How to: Fill In Recurring Journals](../Finance/how-to-fill-in-recurring-journals.md)   
- [How to: Set Up Multiple Journal Batches](../Finance/how-to-set-up-multiple-journal-batches.md)   
+ [How to: Fill In Recurring Journals](../FullExperience/how-to-fill-in-recurring-journals.md)   
+ [How to: Set Up Multiple Journal Batches](../FullExperience/how-to-set-up-multiple-journal-batches.md)   
  General Journal Batches

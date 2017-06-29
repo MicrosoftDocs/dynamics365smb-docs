@@ -16,7 +16,7 @@
 
     ---
 # Batch Jobs-duplicate 22
-ADD INCLUDE<!--[!INCLUDE[bn_batchjobs](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/includes/bn_batchjobs_md.md)]-->  
+ADD INCLUDE<!--[!INCLUDE[bn_batchjobs](../../includes/bn_batchjobs_md.md)]-->  
   
 ## See Also  
- [Russia Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/russia-local-functionality.md)
+ [Russia Local Functionality](../FullExperience/russia-local-functionality.md)

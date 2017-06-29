@@ -24,7 +24,7 @@ Fiscal documents must contain all company information. You can enter all relevan
   
 2.  Enter the information into the FastTabs as described in the following table.  
   
-    |FastTab|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |FastTab|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
     |-------------|---------------------------------------|  
     |**General**|The general company information.|  
     |**Communication**|The company contact information.|  
@@ -35,5 +35,5 @@ Fiscal documents must contain all company information. You can enter all relevan
 3.  Choose the **OK** button.  
   
 ## See Also  
- [Italy Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/italy-local-functionality.md)   
+ [Italy Local Functionality](../FullExperience/italy-local-functionality.md)   
  Company Information

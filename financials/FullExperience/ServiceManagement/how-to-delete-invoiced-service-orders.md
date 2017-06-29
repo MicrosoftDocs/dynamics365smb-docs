@@ -29,4 +29,4 @@ Orders are usually deleted automatically after having been fully invoiced. When 
 3.  Choose the **OK** button.  
   
 ## See Also  
- [How to: View Additional Information About Posted Service Documents](../Service/how-to-view-additional-information-about-posted-service-documents.md)
+ [How to: View Additional Information About Posted Service Documents](../FullExperience/how-to-view-additional-information-about-posted-service-documents.md)

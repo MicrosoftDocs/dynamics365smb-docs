@@ -34,8 +34,8 @@ You use business group codes to determine posting according to the location \(co
 >  The general posting setup does not apply to bank accounts.  
   
 ## See Also  
- [About Posting Groups](../Finance/about-posting-groups.md)   
+ [About Posting Groups](../FullExperience/about-posting-groups.md)   
  General Posting Setup   
- [How to: Set Up General Product Groups](../Finance/how-to-set-up-general-product-groups.md)   
- [How to: Set Up Default VAT Business Posting Groups](../Finance/how-to-set-up-default-vat-business-posting-groups.md)   
- [How to: Set Up Combinations of General Business Groups and General Product Groups](../Finance/how-to-set-up-combinations-of-general-business-groups-and-general-product-groups.md)
+ [How to: Set Up General Product Groups](../FullExperience/how-to-set-up-general-product-groups.md)   
+ [How to: Set Up Default VAT Business Posting Groups](../FullExperience/how-to-set-up-default-vat-business-posting-groups.md)   
+ [How to: Set Up Combinations of General Business Groups and General Product Groups](../FullExperience/how-to-set-up-combinations-of-general-business-groups-and-general-product-groups.md)

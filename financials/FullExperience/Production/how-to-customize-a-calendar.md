@@ -50,5 +50,5 @@ The main task in customizing a base calendar for your company, or one of its bus
 >  If you make changes to a base calendar for which customized calendar changes exist, all existing customized calendars are updated automatically.  
   
 ## See Also  
- [How to: Set Up Base Calendars](../BusinessFunctionality/HowToSetUpBaseCalendars/how-to-set-up-base-calendars.md)   
- [How to: Assign Base Calendars](../Production/how-to-assign-base-calendars.md)
+ [How to: Set Up Base Calendars](../FullExperience/how-to-set-up-base-calendars.md)   
+ [How to: Assign Base Calendars](../FullExperience/how-to-assign-base-calendars.md)

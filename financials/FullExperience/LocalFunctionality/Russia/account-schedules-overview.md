@@ -42,7 +42,7 @@ Account schedules are one of the main tools that you can use to provide informat
  G-L Account Turnover   
  G-L Account Card   
  G-L Account Entries Analysis   
- [Account Schedule-duplicate](../Topic/\($%20R_25%20Account%20Schedule%20$\)-duplicate.md)   
- [How to: Import and Export Account Schedules](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-import-and-export-account-schedules.md)   
- [How to: Define an Account Schedule Extension](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-define-an-account-schedule-extension.md)   
- [How to: Define an Account Schedule Constant](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-define-an-account-schedule-constant.md)
+ [Account Schedule-duplicate](../FullExperience/\($%20R_25%20Account%20Schedule%20$\)-duplicate.md)   
+ [How to: Import and Export Account Schedules](../FullExperience/how-to-import-and-export-account-schedules.md)   
+ [How to: Define an Account Schedule Extension](../FullExperience/how-to-define-an-account-schedule-extension.md)   
+ [How to: Define an Account Schedule Constant](../FullExperience/how-to-define-an-account-schedule-constant.md)

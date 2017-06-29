@@ -51,6 +51,6 @@ When you use functionality to get posted receipt or shipment lines from related 
  The contents of the **Serial No.** and **Lot No.** fields are not editable. However, you can delete complete lines or change the quantities to match changes being made on the source line.  
   
 ## See Also  
- [How to: Set Up Item Tracking Codes](../DesignAndEngineering/how-to-set-up-item-tracking-codes.md)   
- [How to: Assign Serial Numbers and Lot Numbers During Inbound Transactions](../WarehouseActivities/how-to-assign-serial-numbers-and-lot-numbers-during-inbound-transactions.md)   
- [How to: Assign Serial Numbers and Lot Numbers During Outbound Transactions](../WarehouseActivities/how-to-assign-serial-numbers-and-lot-numbers-during-outbound-transactions.md)
+ [How to: Set Up Item Tracking Codes](../FullExperience/how-to-set-up-item-tracking-codes.md)   
+ [How to: Assign Serial Numbers and Lot Numbers During Inbound Transactions](../FullExperience/how-to-assign-serial-numbers-and-lot-numbers-during-inbound-transactions.md)   
+ [How to: Assign Serial Numbers and Lot Numbers During Outbound Transactions](../FullExperience/how-to-assign-serial-numbers-and-lot-numbers-during-outbound-transactions.md)

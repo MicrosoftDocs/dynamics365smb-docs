@@ -24,7 +24,7 @@ You must define a location for storing Offentlig Information Online UBL \(OIOUBL
   
 2.  In the **\($ N\_459 Sales & Receivables Setup $\)** window, on the **OIOUBL** FastTab, in the **Output Paths** section, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Invoice Path**|The path and name of the folder where you want to store the OIOUBL files for sales invoices.|  
     |**Cr. Memo Path**|The path and name of the folder where you want to store the OIOUBL files for sales credit memos.|  
@@ -33,13 +33,13 @@ You must define a location for storing Offentlig Information Online UBL \(OIOUBL
   
 3.  In the **Default OIOUBL Profile Code** field, select the profile that most of your public sector customers use.  
   
-     When you select a profile, ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> updates open sales documents and service documents with the specified profile. For more information, see [OIOUBL Electronic Invoicing Overview](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Denmark/oioubl-electronic-invoicing-overview.md).  
+     When you select a profile, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/oioubl-electronic-invoicing-overview.md).  
   
     1.  To create a new profile, choose the **Default OIOUBL Profile Code** field, and then choose **New**.  
   
     2.  In the **OIOUBL Profile List** window, fill in the fields as described in the following table.  
   
-        |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+        |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
         |---------------------------------|---------------------------------------|  
         |**Code**|Specifies the code for the OIOUBL profile.|  
         |**Profile ID**|Specifies the profile that you want to support in the electronic documents that you send to customers in the Danish public sector, such as **Procurement-BilSim-1.0**.|  
@@ -55,7 +55,7 @@ You must define a location for storing Offentlig Information Online UBL \(OIOUBL
   
 2.  In the **Service Mgt. Setup** window, on the **OIOUBL** FastTab, in the **Output Paths** section, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Service Invoice Path**|The path and name of the folder where you want to store the OIOUBL files for service invoices.|  
     |**Service Cr. Memo Path**|The path and name of the folder where you want to store the OIOUBL files for service credit memos.|  
@@ -70,9 +70,9 @@ You must define a location for storing Offentlig Information Online UBL \(OIOUBL
   
 2.  In the **Payment Methods** window, for each payment method that you will use for electronic invoices, in the **Payment Channel** field, select a payment channel. The following table describes the options.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_optionsheading](../../DesignAndEngineering/includes/bp_optionsheading_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_optionsheading](../../includes/bp_tabledescription_md.md)]-->|  
     |-------------------------------------|---------------------------------------|  
-    |**Payment Slip**|The payment is made by using a payment slip, such as giro or an FI card \(Fællesindbetalingskort\). **Important:**  This payment channel is not supported in the standard version of ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->.|  
+    |**Payment Slip**|The payment is made by using a payment slip, such as giro or an FI card \(Fællesindbetalingskort\). **Important:**  This payment channel is not supported in the standard version of ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.|  
     |**Account Transfer**|The payment is made by transfer from the customer’s bank account.|  
     |**National Clearing**|The payment is made by transfer from the customer’s bank account and is processed by a clearing house.|  
     |**Direct Debit**|The payment is made by using the unified bank payment service \(PBS\).|  
@@ -91,13 +91,13 @@ You must define a location for storing Offentlig Information Online UBL \(OIOUBL
   
  You must also make sure that the OIOUBL Country-Region Code field is filled in for Denmark in the **Countries\/Regions** window.  
   
- Finally, you must specify EAN numbers and account codes for the relevant customers. For more information, see [How to: Set Up Customers for OIOUBL](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Denmark/how-to-set-up-customers-for-oioubl.md).  
+ Finally, you must specify EAN numbers and account codes for the relevant customers. For more information, see [How to: Set Up Customers for OIOUBL](../FullExperience/how-to-set-up-customers-for-oioubl.md).  
   
 ## See Also  
- [OIOUBL Electronic Invoicing Overview](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Denmark/oioubl-electronic-invoicing-overview.md)   
- [How to: Set Up Customers for OIOUBL](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Denmark/how-to-set-up-customers-for-oioubl.md)   
+ [OIOUBL Electronic Invoicing Overview](../FullExperience/oioubl-electronic-invoicing-overview.md)   
+ [How to: Set Up Customers for OIOUBL](../FullExperience/how-to-set-up-customers-for-oioubl.md)   
  Payment Methods   
- [\($ N\_459 Sales & Receivables Setup $\)-duplicate](../../Sales/-$-n_459-sales-receivables-setup-$-duplicate.md)   
+ [\($ N\_459 Sales & Receivables Setup $\)-duplicate](../FullExperience/-$-n_459-sales-receivables-setup-$-duplicate.md)   
  Service Mgt. Setup   
  Countries\/Regions   
  Item Charges

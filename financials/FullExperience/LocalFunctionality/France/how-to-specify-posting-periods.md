@@ -36,6 +36,6 @@ When you specify posting periods, you limit the period in which posting is allow
 >  You can define different posting periods for different users and apply a posting period to a user in the **User Setup** window. If you enter dates here, the dates entered on the **General** tab in the **General Ledger Setup** window will not apply to these users.  
   
 ## See Also  
- [Fiscal Periods and Fiscal Years](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/fiscal-periods-and-fiscal-years.md)   
+ [Fiscal Periods and Fiscal Years](../FullExperience/fiscal-periods-and-fiscal-years.md)   
  General Ledger Setup   
  Allowed Posting Range

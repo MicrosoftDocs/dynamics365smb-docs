@@ -16,20 +16,20 @@
 
     ---
 # Fiscal Periods and Fiscal Years
-A fiscal year is typically divided into 12 monthly fiscal periods. In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you can have two fiscal years open at the same time. You cannot create a third fiscal year if there are two fiscal years open.  
+A fiscal year is typically divided into 12 monthly fiscal periods. In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can have two fiscal years open at the same time. You cannot create a third fiscal year if there are two fiscal years open.  
   
  To close a fiscal year, you must close the accounting periods within that year.  
   
- You can only reopen a closed accounting period if the period falls within an open fiscal year. For more information, see [How to: Close Years](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-close-years.md). You cannot reopen a closed fiscal year.  
+ You can only reopen a closed accounting period if the period falls within an open fiscal year. For more information, see [How to: Close Years](../FullExperience/how-to-close-years.md). You cannot reopen a closed fiscal year.  
   
 ## Closing Fiscal Periods and Fiscal Years  
- After a fiscal year is complete, you must close the accounting periods within that fiscal year. This is to ensure that general ledger entries are not posted for that period. For more information, see [How to: Fiscally Close Accounting Periods](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-fiscally-close-accounting-periods.md) and [How to: Fiscally Close Years](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-fiscally-close-years.md).  
+ After a fiscal year is complete, you must close the accounting periods within that fiscal year. This is to ensure that general ledger entries are not posted for that period. For more information, see [How to: Fiscally Close Accounting Periods](../FullExperience/how-to-fiscally-close-years.md).  
   
  A fiscal year can be closed if all of the following criteria are met:  
   
 -   The posting dates in the **User Setup** window and the **General Ledger Setup** window do not fall within the year that you are closing. For more information, see User Setup and General Ledger Setup.  
   
--   The fiscal year has been closed using the **Close Year** function in the **Accounting Periods** window. For more information, see [How to: Close Accounting Periods](../../Finance/how-to-close-accounting-periods.md).  
+-   The fiscal year has been closed using the **Close Year** function in the **Accounting Periods** window. For more information, see [How to: Close Accounting Periods](../FullExperience/how-to-close-accounting-periods.md).  
   
 -   All of the unposted journal lines and simulation entries for the year have been posted or deleted.  
   
@@ -48,15 +48,15 @@ A fiscal year is typically divided into 12 monthly fiscal periods. In ADD INCLUD
 -   Close the fiscal year using the **Fiscally Close Year** function.  
   
 ## See Also  
- [How to: Open a New Fiscal Year](../../Finance/how-to-open-a-new-fiscal-year.md)   
- [How to: Specify Posting Periods-duplicate](../../Finance/how-to-specify-posting-periods-duplicate.md)   
- [How to: Post the Year-End Closing Entry-duplicate](../../Finance/how-to-post-the-year-end-closing-entry-duplicate.md)   
- [How to: Fiscally Close Accounting Periods](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-fiscally-close-accounting-periods.md)   
- [How to: Close Years](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-close-years.md)   
- [How to: Post the Year-End Closing Entry](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-post-the-year-end-closing-entry.md)   
- [How to: Fiscally Close Years](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-fiscally-close-years.md)   
- [How to: Reopen Accounting Periods](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-reopen-accounting-periods.md)   
- [How to: Close Income Statement Accounts](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-close-income-statement-accounts.md)   
+ [How to: Open a New Fiscal Year](../FullExperience/how-to-open-a-new-fiscal-year.md)   
+ [How to: Specify Posting Periods-duplicate](../FullExperience/how-to-specify-posting-periods-duplicate.md)   
+ [How to: Post the Year-End Closing Entry-duplicate](../FullExperience/how-to-post-the-year-end-closing-entry-duplicate.md)   
+ [How to: Fiscally Close Accounting Periods](../FullExperience/how-to-fiscally-close-accounting-periods.md)   
+ [How to: Close Years](../FullExperience/how-to-close-years.md)   
+ [How to: Post the Year-End Closing Entry](../FullExperience/how-to-post-the-year-end-closing-entry.md)   
+ [How to: Fiscally Close Years](../FullExperience/how-to-fiscally-close-years.md)   
+ [How to: Reopen Accounting Periods](../FullExperience/how-to-reopen-accounting-periods.md)   
+ [How to: Close Income Statement Accounts](../FullExperience/how-to-close-income-statement-accounts.md)   
  User Setup   
  General Ledger Setup   
- [France Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/france-local-functionality.md)
+ [France Local Functionality](../FullExperience/france-local-functionality.md)

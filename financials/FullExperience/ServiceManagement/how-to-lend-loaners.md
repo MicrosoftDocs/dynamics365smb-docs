@@ -31,6 +31,6 @@ You can lend customers loaners to temporarily replace service items that you hav
 5.  Choose **Yes** to confirm that you the loaner you have selected is correct.  
   
 ## See Also  
- [How to: Receive Loaners](../Service/how-to-receive-loaners.md)   
- [How to: Register Service Item Loaner Comments](../Service/how-to-register-service-item-loaner-comments.md)   
- [How to: Set Up Loaners](../Service/how-to-set-up-loaners.md)
+ [How to: Receive Loaners](../FullExperience/how-to-receive-loaners.md)   
+ [How to: Register Service Item Loaner Comments](../FullExperience/how-to-register-service-item-loaner-comments.md)   
+ [How to: Set Up Loaners](../FullExperience/how-to-set-up-loaners.md)

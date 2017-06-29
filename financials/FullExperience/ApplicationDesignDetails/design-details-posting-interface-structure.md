@@ -16,7 +16,7 @@
 
     ---
 # Design Details: Posting Interface Structure
-In the ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> posting interface structure, there are several global procedures that use the same structure:  
+In the ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> posting interface structure, there are several global procedures that use the same structure:  
   
 -   RunWithCheck and RunWithoutCheck call procedure Code – generic posting interface for Gen. Jnl Line.  
   
@@ -29,4 +29,4 @@ In the ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.
 -   UnapplyVendLedgEntry – post unapply of vendor application, called from codeunit 227 VendEntry-Apply Posted Entries  
   
 ## See Also  
- [Design Details: Posting Engine Structure](../ApplicationDesign/design-details-posting-engine-structure.md)
+ [Design Details: Posting Engine Structure](../FullExperience/design-details-posting-engine-structure.md)

@@ -81,8 +81,8 @@ Tax difference calculations must be set up if there is a tax difference for the 
 5.  Post the Future Expenses journal.  
   
 ## See Also  
- [Tax Registers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/tax-registers.md)   
+ [Tax Registers](../FullExperience/tax-registers.md)   
  [Tax Differences](assetId:///e42ca8e7-1cee-4fb8-9f71-e596f29cabc3)   
- [Tax Difference Registers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/tax-difference-registers.md)   
- [How to: Set Up Norm Jurisdictions](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-set-up-norm-jurisdictions.md)   
- [How to: Post Tax Differences](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-post-tax-differences.md)
+ [Tax Difference Registers](../FullExperience/tax-difference-registers.md)   
+ [How to: Set Up Norm Jurisdictions](../FullExperience/how-to-set-up-norm-jurisdictions.md)   
+ [How to: Post Tax Differences](../FullExperience/how-to-post-tax-differences.md)

@@ -31,5 +31,5 @@ Sometimes, you must make a negative adjustment to the value, but not the quantit
   
 ## See Also  
  Revaluation Journal   
- [How to: Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](../Finance/how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)   
- [How to: Enter New Values When Revaluing Items](../DesignAndEngineering/how-to-enter-new-values-when-revaluing-items.md)
+ [How to: Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](../FullExperience/how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)   
+ [How to: Enter New Values When Revaluing Items](../FullExperience/how-to-enter-new-values-when-revaluing-items.md)

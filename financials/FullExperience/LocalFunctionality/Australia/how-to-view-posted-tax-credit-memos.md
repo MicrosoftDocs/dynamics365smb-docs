@@ -26,7 +26,7 @@ You can use the **Posted Sales Tax Credit Memo** window and **Posted Purch. Tax 
   
 2.  View the FastTabs as described in the following table.  
   
-    |FastTab|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |FastTab|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
     |-------------|---------------------------------------|  
     |**General**|General information about the credit memo.|  
     |**Posted Sales Tax Cr. Memo Sub**|Posted sales tax credit memo information.|  
@@ -37,8 +37,8 @@ You can use the **Posted Sales Tax Credit Memo** window and **Posted Purch. Tax 
 3.  Choose the **OK** button.  
   
 ## See Also  
- [How to: View Posted Tax Invoices](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-view-posted-tax-invoices.md)   
- [How to: View Withholding Tax Entries](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-view-withholding-tax-entries.md)   
+ [How to: View Posted Tax Invoices](../FullExperience/how-to-view-posted-tax-invoices.md)   
+ [How to: View Withholding Tax Entries](../FullExperience/how-to-view-withholding-tax-entries.md)   
  Purch. Tax Cr. Memo Line   
  Purch. Tax Cr. Memo Hdr.   
  Sales Tax Cr.Memo Line   

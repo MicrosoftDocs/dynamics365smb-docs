@@ -41,5 +41,5 @@ A physical inventory is typically taken at some recurring interval, for example 
      Choose the **Yes** button to change the code and calculate the first counting period for the item. The next time you choose to calculate a counting period in the warehouse physical inventory journal, the item appears as a line in the **Phys. Invt. Item Selection** window. You can now begin to count the item on a periodic basis.  
   
 ## See Also  
- [How to: Perform a Physical Inventory](../DesignAndEngineering/how-to-perform-a-physical-inventory.md)   
+ [How to: Perform a Physical Inventory](../FullExperience/how-to-perform-a-physical-inventory.md)   
  Phys. Invt. Counting Periods

@@ -20,7 +20,7 @@ To consolidate several companies' figures in a consolidated company, you must fi
   
 ### To enter basic information for consolidated companies  
   
-1.  Open the consolidated company. On the ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> menu, choose **Select Company**.  
+1.  Open the consolidated company. On the ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> menu, choose **Select Company**.  
   
 2.  In the **Search** box, enter **Business Units**, and then choose the related link.  
   
@@ -35,11 +35,11 @@ To consolidate several companies' figures in a consolidated company, you must fi
  If your business unit uses a foreign currency, you must specify the exchange rate that must be used in the consolidation. You must also enter consolidation information about the business unit's general ledger accounts.  
   
 ## See Also  
- [How to: Process Consolidations](../Finance/how-to-process-consolidations.md)   
- [How to: Consolidate from Databases](../Finance/how-to-consolidate-from-databases.md)   
- [How to: Consolidate from Files](../Finance/how-to-consolidate-from-files.md)   
- [How to: Test Databases Before Consolidating](../Finance/how-to-test-databases-before-consolidating.md)   
- [How to: Test Files Before Consolidating](../Finance/how-to-test-files-before-consolidating.md)   
- [How to: Export Business Unit Information](../Finance/how-to-export-business-unit-information.md)   
- [How to: Specify Exchange Rates for Consolidations](../Finance/how-to-specify-exchange-rates-for-consolidations.md)   
- [How to: Enter Consolidation Information on General Ledger Accounts](../Finance/how-to-enter-consolidation-information-on-general-ledger-accounts.md)
+ [How to: Process Consolidations](../FullExperience/how-to-process-consolidations.md)   
+ [How to: Consolidate from Databases](../FullExperience/how-to-consolidate-from-databases.md)   
+ [How to: Consolidate from Files](../FullExperience/how-to-consolidate-from-files.md)   
+ [How to: Test Databases Before Consolidating](../FullExperience/how-to-test-databases-before-consolidating.md)   
+ [How to: Test Files Before Consolidating](../FullExperience/how-to-test-files-before-consolidating.md)   
+ [How to: Export Business Unit Information](../FullExperience/how-to-export-business-unit-information.md)   
+ [How to: Specify Exchange Rates for Consolidations](../FullExperience/how-to-specify-exchange-rates-for-consolidations.md)   
+ [How to: Enter Consolidation Information on General Ledger Accounts](../FullExperience/how-to-enter-consolidation-information-on-general-ledger-accounts.md)

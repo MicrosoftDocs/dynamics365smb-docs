@@ -20,7 +20,7 @@ A contract gain or loss entry is generated whenever a contract quote is converte
   
  To view contract gains or losses, open one of the following windows.  
   
-|**Window**|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+|**Window**|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
 |----------------|---------------------------------------|  
 |**Contract Gain\/Loss \(Contracts\)**|To view the contract gain\/loss by service contract.|  
 |**Contract Gain\/Loss \(Groups\)**|To view the contract gain\/loss by service contract group.|  
@@ -41,8 +41,8 @@ A contract gain or loss entry is generated whenever a contract quote is converte
 5.  Choose the **OK** button to close the window.  
   
 ## See Also  
- [Contract Gain-Loss \(Customers\) Overview](../Service/contract-gain-loss-customers-overview.md)   
- [Contract Gain-Loss \(Reason Codes\) Overview](../Service/contract-gain-loss-reason-codes-overview.md)   
- [Contract Gain-Loss \(Responsibility Centers\)  Overview](../Service/contract-gain-loss-responsibility-centers-overview.md)   
- [Contract Gain-Loss \(Groups\) Overview](../Service/contract-gain-loss-groups-overview.md)   
- [Contract Gain-Loss \(Service Contracts\) Overview](../Service/contract-gain-loss-service-contracts-overview.md)
+ [Contract Gain-Loss \(Customers\) Overview](../FullExperience/contract-gain-loss-customers-overview.md)   
+ [Contract Gain-Loss \(Reason Codes\) Overview](../FullExperience/contract-gain-loss-reason-codes-overview.md)   
+ [Contract Gain-Loss \(Responsibility Centers\)  Overview](../FullExperience/contract-gain-loss-responsibility-centers-overview.md)   
+ [Contract Gain-Loss \(Groups\) Overview](../FullExperience/contract-gain-loss-groups-overview.md)   
+ [Contract Gain-Loss \(Service Contracts\) Overview](../FullExperience/contract-gain-loss-service-contracts-overview.md)

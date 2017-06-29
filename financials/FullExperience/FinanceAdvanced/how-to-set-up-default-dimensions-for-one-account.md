@@ -16,7 +16,7 @@
 
     ---
 # How to: Set Up Default Dimensions for One Account
-You can set up a default dimension for a specific individual account. ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> will then copy this code to the journal, sales, or purchase line when the account number field is filled in on the line. However, you may delete or change the code if appropriate.  
+You can set up a default dimension for a specific individual account. ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> will then copy this code to the journal, sales, or purchase line when the account number field is filled in on the line. However, you may delete or change the code if appropriate.  
   
  The following procedure is for setting up default dimension for a customer account.  
   
@@ -35,9 +35,9 @@ You can set up a default dimension for a specific individual account. ADD INCLUD
 >  Entering a code in the dimension field on the account card does not guarantee that the code will be used when you post. This is because it may be changed on the journal, sales, or purchase line. To make sure that that the code is not changed when you post, select the **Same Code** option.  
   
 ## See Also  
- [How to: Set Up Default or Required Dimensions for Account Types](../Finance/how-to-set-up-default-or-required-dimensions-for-account-types.md)   
- [How to: Set Up Global Dimensions](../Finance/how-to-set-up-global-dimensions.md)   
- [How to: Set Up Shortcut Dimensions](../Finance/how-to-set-up-shortcut-dimensions.md)   
+ [How to: Set Up Default or Required Dimensions for Account Types](../FullExperience/how-to-set-up-default-or-required-dimensions-for-account-types.md)   
+ [How to: Set Up Global Dimensions](../FullExperience/how-to-set-up-global-dimensions.md)   
+ [How to: Set Up Shortcut Dimensions](../FullExperience/how-to-set-up-shortcut-dimensions.md)   
  Default Dimension   
  Dimension   
  Adjust Exchange Rates   

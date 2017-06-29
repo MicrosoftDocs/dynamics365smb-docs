@@ -29,6 +29,6 @@ In order to process electronic payments, you must set up transaction codes accor
 4.  Choose the **OK** button.  
   
 ## See Also  
- [Belgian Electronic Banking](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/belgian-electronic-banking.md)   
- [How to: Set Up Electronic Banking](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-electronic-banking.md)   
- [How to: Set Up Bank Accounts for CODA](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-bank-accounts-for-coda.md)
+ [Belgian Electronic Banking](../FullExperience/belgian-electronic-banking.md)   
+ [How to: Set Up Electronic Banking](../FullExperience/how-to-set-up-electronic-banking.md)   
+ [How to: Set Up Bank Accounts for CODA](../FullExperience/how-to-set-up-bank-accounts-for-coda.md)

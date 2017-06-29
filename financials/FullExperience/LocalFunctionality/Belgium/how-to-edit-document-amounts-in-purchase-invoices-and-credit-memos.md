@@ -16,7 +16,7 @@
 
     ---
 # How to: Edit Document Amounts in Purchase Invoices and Credit Memos
-ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> lets you easily edit document amounts in purchase invoices and credit memos.  
+ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> lets you easily edit document amounts in purchase invoices and credit memos.  
   
 ### To edit document amounts  
   
@@ -28,5 +28,5 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]
   
 ## See Also  
  Purchase Header   
- [How to: Set Up Standard Purchase and Sales Lines](../../Purchasing/how-to-set-up-standard-purchase-and-sales-lines.md)   
+ [How to: Set Up Standard Purchase and Sales Lines](../FullExperience/how-to-set-up-standard-purchase-and-sales-lines.md)   
  Standard Purchase Code

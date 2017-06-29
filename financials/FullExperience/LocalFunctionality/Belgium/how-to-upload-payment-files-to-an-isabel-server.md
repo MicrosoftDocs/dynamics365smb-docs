@@ -38,4 +38,4 @@ Payment files can be uploaded using the **IBS Logs** window. The **Upload Integr
 ## See Also  
  Electronic Banking Setup   
  IBS Logs   
- [How to: Archive IBS Log Entries](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-archive-ibs-log-entries.md)
+ [How to: Archive IBS Log Entries](../FullExperience/how-to-archive-ibs-log-entries.md)

@@ -36,6 +36,6 @@ When you sell goods to a customer in another EU country\/region, the customer mu
 >  A certificate of supply is also required when you return a shipment to a vendor in another EU country\/region.  
   
 ## See Also  
- [How to: Process Certificates of Supply](../Finance/how-to-process-certificates-of-supply.md)   
- [Processing Sales Orders](../Sales/processing-sales-orders.md)   
- [How to: Enable the Change Log](../SetupAndAdministration/how-to-enable-the-change-log.md)
+ [How to: Process Certificates of Supply](../FullExperience/how-to-process-certificates-of-supply.md)   
+ [Processing Sales Orders](../FullExperience/processing-sales-orders.md)   
+ [How to: Enable the Change Log](../FullExperience/how-to-enable-the-change-log.md)

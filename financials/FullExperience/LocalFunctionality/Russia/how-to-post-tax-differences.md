@@ -26,7 +26,7 @@ The **Tax Difference Journal** is used to create and post tax difference transac
   
 2.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Posting Date**|Enter the transaction date.|  
     |**Document No.**|Enter the document number from the source transaction.|  
@@ -62,9 +62,9 @@ The **Tax Difference Journal** is used to create and post tax difference transac
 4.  On the **Action Pane**, in the **Process** actions group, choose **Ledger Entries** to open the **Tax Diff. Ledger Entry** window and review the posted entries.  
   
 ## See Also  
- [Tax Differences](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/tax-differences.md)   
- [Setting up Tax Difference Calculation](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/setting-up-tax-difference-calculation.md)   
- [Tax Accounting](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/tax-accounting.md)   
+ [Tax Differences](../FullExperience/tax-differences.md)   
+ [Setting up Tax Difference Calculation](../FullExperience/setting-up-tax-difference-calculation.md)   
+ [Tax Accounting](../FullExperience/tax-accounting.md)   
  [Tax Reports](assetId:///e42ca8e7-1cee-4fb8-9f71-e596f29cabc3)   
- [Tax Registers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/tax-registers.md)   
- [How to: Create Tax Registers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-create-tax-registers.md)
+ [Tax Registers](../FullExperience/tax-registers.md)   
+ [How to: Create Tax Registers](../FullExperience/how-to-create-tax-registers.md)

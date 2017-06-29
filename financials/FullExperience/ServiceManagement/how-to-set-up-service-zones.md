@@ -31,5 +31,5 @@ You can use the **Service Zones** window to set up service zones that split your
  Repeat these steps for each service zone you want to create.  
   
 ## See Also  
- [How to: Assign Resources to Service Zones](../Service/how-to-assign-resources-to-service-zones.md)   
- [How to: Assign Service Zones to Customers](../Service/how-to-assign-service-zones-to-customers.md)
+ [How to: Assign Resources to Service Zones](../FullExperience/how-to-assign-resources-to-service-zones.md)   
+ [How to: Assign Service Zones to Customers](../FullExperience/how-to-assign-service-zones-to-customers.md)

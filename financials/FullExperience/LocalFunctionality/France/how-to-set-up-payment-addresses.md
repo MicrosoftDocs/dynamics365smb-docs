@@ -30,7 +30,7 @@ To use payment management, you must set up payment addresses that will be used f
   
 4.  Fill in the required fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Code**|The payment address code.|  
     |**Default Value**|Select to use this address as the default payment address. You can select one default payment address.|  
@@ -45,12 +45,12 @@ To use payment management, you must set up payment addresses that will be used f
 >  If a payment address is not set up, the address in the vendor or customer card is set as the default value.  
   
 ## See Also  
- [Payment Management](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/payment-management.md)   
- [How to: Set Up Payment Classes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-set-up-payment-classes.md)   
- [How to: Set Up Payment Statuses](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-set-up-payment-statuses.md)   
- [How to: Set Up Payment Steps](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-set-up-payment-steps.md)   
- [How to: Create Payment Slips](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-create-payment-slips.md)   
- [How to: Post Payment Slips](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-post-payment-slips.md)   
- [How to: Archive Payment Slips](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-archive-payment-slips.md)   
- [How to: Export or Import Payment Management Setup Parameters](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-export-or-import-payment-management-setup-parameters.md)   
+ [Payment Management](../FullExperience/payment-management.md)   
+ [How to: Set Up Payment Classes](../FullExperience/how-to-set-up-payment-classes.md)   
+ [How to: Set Up Payment Statuses](../FullExperience/how-to-set-up-payment-statuses.md)   
+ [How to: Set Up Payment Steps](../FullExperience/how-to-set-up-payment-steps.md)   
+ [How to: Create Payment Slips](../FullExperience/how-to-create-payment-slips.md)   
+ [How to: Post Payment Slips](../FullExperience/how-to-post-payment-slips.md)   
+ [How to: Archive Payment Slips](../FullExperience/how-to-archive-payment-slips.md)   
+ [How to: Export or Import Payment Management Setup Parameters](../FullExperience/how-to-export-or-import-payment-management-setup-parameters.md)   
  Payment Address

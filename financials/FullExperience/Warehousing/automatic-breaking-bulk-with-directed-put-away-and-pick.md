@@ -16,7 +16,7 @@
 
     ---
 # Automatic Breaking Bulk with Directed Put-away and Pick
-For locations that use directed put-away and pick, ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> can, in various situations, automatically breakbulk, that is, break a larger unit of measure into smaller units of measure, when it creates warehouse instructions that fulfill the needs of source documents, production orders, or internal picks and put-aways. To breakbulk sometimes also means gathering smaller units of measure, if necessary, to meet outbound requests by breaking the larger unit of measure on the source document or production order into the smaller units of measure that are available in the warehouse. ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> breakbulks as follows:  
+For locations that use directed put-away and pick, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> breakbulks as follows:  
   
 ## Breakbulking in Picks  
  If you want to store items in several different units of measure and allow them to be automatically combined as needed in the picking process, select the **Allow Breakbulk** field on the location card.  
@@ -44,6 +44,6 @@ For locations that use directed put-away and pick, ADD INCLUDE<!--[!INCLUDE[navn
   
 ## See Also  
  Allow Breakbulk   
- [How to: Calculate Bin Replenishment](../WarehouseActivities/how-to-calculate-bin-replenishment.md)   
- [Design Details: Warehouse Management](../ApplicationDesign/design-details-warehouse-management.md)   
- [Perform Warehouse Activities](../WarehouseActivities/perform-warehouse-activities.md)
+ [How to: Calculate Bin Replenishment](../FullExperience/how-to-calculate-bin-replenishment.md)   
+ [Design Details: Warehouse Management](../FullExperience/design-details-warehouse-management.md)   
+ [Perform Warehouse Activities](../FullExperience/perform-warehouse-activities.md)

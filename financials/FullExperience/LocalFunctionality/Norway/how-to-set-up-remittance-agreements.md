@@ -16,7 +16,7 @@
 
     ---
 # How to: Set Up Remittance Agreements
-You must sign an agreement of remittance with the bank when you set up electronic payments. You can create more than one remittance agreement if you have an agreement with two or more banks. For each agreement, you must specify one or more accounts from which the payment should be made. For each account, you must create a remittance account. For more information, see [How to: Create Remittance Accounts](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-create-remittance-accounts.md).  
+You must sign an agreement of remittance with the bank when you set up electronic payments. You can create more than one remittance agreement if you have an agreement with two or more banks. For each agreement, you must specify one or more accounts from which the payment should be made. For each account, you must create a remittance account. For more information, see [How to: Create Remittance Accounts](../FullExperience/how-to-create-remittance-accounts.md).  
   
 ### To set up a remittance agreement  
   
@@ -26,7 +26,7 @@ You must sign an agreement of remittance with the bank when you set up electroni
   
 3.  On the **General** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Code**|Specify the agreement code from the bank.|  
     |**Description**|Specify a name for the agreement, such as the name of the bank.|  
@@ -34,7 +34,7 @@ You must sign an agreement of remittance with the bank when you set up electroni
   
 4.  On the **Bank** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Operator No.**|Specify the operator information given by the bank.|  
     |**Company\/Agreement No.**|Specify the company information given by the bank.|  
@@ -45,20 +45,20 @@ You must sign an agreement of remittance with the bank when you set up electroni
   
 5.  On the **BBS** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**BBS Customer Unit ID**|Specify the identification of the agreement for Bankernes Betalingssentral \(BBS\). This code is provided by BBS.|  
     |**Latest BBS Payment Order No.**|Specify the entry number that was used when payment was sent to BBS.|  
   
 6.  On the **Send** FastTab, fill in the field as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Payment File Name**|Specify the path and the name of the file that contains the electronic payment order that was sent to the bank.|  
   
 7.  On the **Receive** FastTab, fill in the fields as described in the following table.  
   
-    |Field|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |Field|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
     |-----------|---------------------------------------|  
     |**Save Return File**|Select to automatically name the return file after it is imported without errors.|  
     |**Receipt Return Required**|Select to verify that the first-time return report is imported.|  
@@ -67,7 +67,7 @@ You must sign an agreement of remittance with the bank when you set up electroni
   
 8.  On the **Finance** FastTab, fill in the field as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**New Document Per Field**|Specify how documents are numbered when payments are posted. Options include **Date**, **Vendor**, and **Specified for account**.|  
   
@@ -83,18 +83,18 @@ You must sign an agreement of remittance with the bank when you set up electroni
 12. Choose the **OK** button.  
   
 ## See Also  
- [Electronic Payments to Vendors in Norway](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/electronic-payments-to-vendors-in-norway.md)   
- [How to: Create Remittance Accounts](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-create-remittance-accounts.md)   
- [How to: Set Up Vendors for Remittance](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-set-up-vendors-for-remittance.md)   
- [Recipient Reference Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/recipient-reference-codes.md)   
- [How to: Create Remittance Suggestions](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-create-remittance-suggestions.md)   
- [How to: Create Manual Remittance Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-create-manual-remittance-payments.md)   
- [How to: Set Up Payment Line Information](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-set-up-payment-line-information.md)   
- [How to: Test Remittance Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-test-remittance-payments.md)   
- [How to: Export Remittance Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-export-remittance-payments.md)   
- [Types of Payment Returns Files](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/types-of-payment-returns-files.md)   
- [How to: Import Payment Return Data](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-import-payment-return-data.md)   
- [How to: Delete Remittance Payment Orders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-delete-remittance-payment-orders.md)   
- [Remittance Errors](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/remittance-errors.md)   
- [How to: View Remittance Error Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-view-remittance-error-codes.md)   
- [How to: Cancel Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-cancel-payments.md)
+ [Electronic Payments to Vendors in Norway](../FullExperience/electronic-payments-to-vendors-in-norway.md)   
+ [How to: Create Remittance Accounts](../FullExperience/how-to-create-remittance-accounts.md)   
+ [How to: Set Up Vendors for Remittance](../FullExperience/how-to-set-up-vendors-for-remittance.md)   
+ [Recipient Reference Codes](../FullExperience/recipient-reference-codes.md)   
+ [How to: Create Remittance Suggestions](../FullExperience/how-to-create-remittance-suggestions.md)   
+ [How to: Create Manual Remittance Payments](../FullExperience/how-to-create-manual-remittance-payments.md)   
+ [How to: Set Up Payment Line Information](../FullExperience/how-to-set-up-payment-line-information.md)   
+ [How to: Test Remittance Payments](../FullExperience/how-to-test-remittance-payments.md)   
+ [How to: Export Remittance Payments](../FullExperience/how-to-export-remittance-payments.md)   
+ [Types of Payment Returns Files](../FullExperience/types-of-payment-returns-files.md)   
+ [How to: Import Payment Return Data](../FullExperience/how-to-import-payment-return-data.md)   
+ [How to: Delete Remittance Payment Orders](../FullExperience/how-to-delete-remittance-payment-orders.md)   
+ [Remittance Errors](../FullExperience/remittance-errors.md)   
+ [How to: View Remittance Error Codes](../FullExperience/how-to-view-remittance-error-codes.md)   
+ [How to: Cancel Payments](../FullExperience/how-to-cancel-payments.md)

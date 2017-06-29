@@ -50,4 +50,4 @@ When you have created journal lines which you know you are likely to create agai
  When you have finished saving the standard item journal, the **Item Journal** window is displayed so you can proceed to post it, knowing that it can easily be recreated next time you need to post the same or similar lines.  
   
 ## See Also  
- [How to: Reuse Standard Journals](../DesignAndEngineering/how-to-reuse-standard-journals.md)
+ [How to: Reuse Standard Journals](../FullExperience/how-to-reuse-standard-journals.md)

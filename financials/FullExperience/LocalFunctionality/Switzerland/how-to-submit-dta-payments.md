@@ -22,9 +22,9 @@ To submit DatenTrägerAustausch \(DTA\) payments to your bank for payment, you m
   
 -   Print the DTA payment order.  
   
- Before you submit DTA payments, you must verify the list of vendors for DTA payment. For more information, see [How to: Verify a List of Vendors for DTA Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-verify-a-list-of-vendors-for-dta-payments.md).  
+ Before you submit DTA payments, you must verify the list of vendors for DTA payment. For more information, see [How to: Verify a List of Vendors for DTA Payments](../FullExperience/how-to-verify-a-list-of-vendors-for-dta-payments.md).  
   
- You can post the payment journal after the bank payments are complete. In the payment journal, you can have the DTA payments suggested based on posted invoices. The suggested payments contain vendor and external document number information, and can be modified. For more information, see [How to: Suggest DTA Payment for Vendors](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-suggest-dta-payment-for-vendors.md).  
+ You can post the payment journal after the bank payments are complete. In the payment journal, you can have the DTA payments suggested based on posted invoices. The suggested payments contain vendor and external document number information, and can be modified. For more information, see [How to: Suggest DTA Payment for Vendors](../FullExperience/how-to-suggest-dta-payment-for-vendors.md).  
   
 ### To generate a DTA file  
   
@@ -36,7 +36,7 @@ To submit DatenTrägerAustausch \(DTA\) payments to your bank for payment, you m
   
 4.  In the **DTA File** batch job, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_3010541\_F\_1\_5 DTA Bank for File $\)**|Select the DTA bank code from which the information for the file name and backup copy is to be transferred. This field uses the main bank name as the default, but you can modify this information if you want.|  
     |**\($ B\_3010541\_F\_1\_1 Combined payment for vendor $\)**|Specify if the payment lines that have the same vendor, currency, bank, and debit bank will be combined in the generated DTA file.|  
@@ -60,10 +60,10 @@ To submit DatenTrägerAustausch \(DTA\) payments to your bank for payment, you m
      You must submit the DTA payment order and the DTA file to the bank, where payments to the vendors are released in a few hours. After the payments have been processed by the bank, you can post the payment journal.  
   
 ## See Also  
- [Swiss Electronic Payments Using DTA](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/swiss-electronic-payments-using-dta.md)   
- [How to: Suggest DTA Payment for Vendors](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-suggest-dta-payment-for-vendors.md)   
- [How to: Verify a List of Vendors for DTA Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-verify-a-list-of-vendors-for-dta-payments.md)   
- [How to: Export Payments Using EZAG](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-export-payments-using-ezag.md)   
+ [Swiss Electronic Payments Using DTA](../FullExperience/swiss-electronic-payments-using-dta.md)   
+ [How to: Suggest DTA Payment for Vendors](../FullExperience/how-to-suggest-dta-payment-for-vendors.md)   
+ [How to: Verify a List of Vendors for DTA Payments](../FullExperience/how-to-verify-a-list-of-vendors-for-dta-payments.md)   
+ [How to: Export Payments Using EZAG](../FullExperience/how-to-export-payments-using-ezag.md)   
  Payment Journal   
  General Journal   
  DTA Setup

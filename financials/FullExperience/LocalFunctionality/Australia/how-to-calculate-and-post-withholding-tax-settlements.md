@@ -29,9 +29,9 @@ You can use the **Calc. and Post WHT Settlement** window to calculate and post t
   
 1.  In the **Search** box, enter **Calc. and Post WHT Settlement**, and then choose the related link.  
   
-2.  On the **ADD INCLUDE<!--[!INCLUDE[bp_optionsheading](../../DesignAndEngineering/includes/bp_optionsheading_md.md)]-->** FastTab, fill in the fields as described in the following table.  
+2.  On the **ADD INCLUDE<!--[!INCLUDE[bp_optionsheading](../../includes/bp_optionsheading_md.md)]-->** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_28041\_N\_2\_13 Starting Date $\)**|The start date of the period for which WHT has to be settled.|  
     |**\($ R\_28041\_N\_2\_11 Ending Date $\)**|The end date of the period for which WHT has to be settled.|  
@@ -47,7 +47,7 @@ You can use the **Calc. and Post WHT Settlement** window to calculate and post t
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [Withholding Tax](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/withholding-tax.md)   
- [How to: Set Up Withholding Tax](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-set-up-withholding-tax.md)   
- [How to: Set Up Revenue Types for Withholding Tax](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-set-up-revenue-types-for-withholding-tax.md)   
- [How to: View Withholding Tax Entries](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-view-withholding-tax-entries.md)
+ [Withholding Tax](../FullExperience/withholding-tax.md)   
+ [How to: Set Up Withholding Tax](../FullExperience/how-to-set-up-withholding-tax.md)   
+ [How to: Set Up Revenue Types for Withholding Tax](../FullExperience/how-to-set-up-revenue-types-for-withholding-tax.md)   
+ [How to: View Withholding Tax Entries](../FullExperience/how-to-view-withholding-tax-entries.md)

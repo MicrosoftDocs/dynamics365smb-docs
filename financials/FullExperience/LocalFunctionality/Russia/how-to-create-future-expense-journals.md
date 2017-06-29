@@ -22,7 +22,7 @@ Future expense journals are used to post expenses to a special account on a mont
   
 ### To create future expense journals  
   
-1.  In the **Search** box, enter **VAT Posting Setup**, and then choose the related link. Use the **VAT Posting Setup** window to create VAT posting groups. For more information, see [How to: Set Up VAT Product Posting Groups](../../Finance/how-to-set-up-vat-product-posting-groups.md) and [How to: Set Up VAT Business Posting Groups](../../Finance/how-to-set-up-vat-business-posting-groups.md).  
+1.  In the **Search** box, enter **VAT Posting Setup**, and then choose the related link. Use the **VAT Posting Setup** window to create VAT posting groups. For more information, see [How to: Set Up VAT Product Posting Groups](../FullExperience/how-to-set-up-vat-business-posting-groups.md).  
   
 2.  On the **Settlement** FastTab, in the **VAT Settlement Template** field, select a template.  
   
@@ -38,7 +38,7 @@ Future expense journals are used to post expenses to a special account on a mont
   
 7.  In the **Future Expense Journal** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**FA Posting Date**|Specifies the fixed asset posting date that is associated with the future expense journal.|  
     |**Document No.**|Specifies the document number that is associated with the future expense journal.|  
@@ -65,6 +65,6 @@ Future expense journals are used to post expenses to a special account on a mont
   
 ## See Also  
  Fixed Asset Setup   
- [Fixed Assets Accounting Setup](../../Finance/fixed-assets-accounting-setup.md)   
+ [Fixed Assets Accounting Setup](../FullExperience/fixed-assets-accounting-setup.md)   
  Fixed Asset Card   
- [How to: Set Up a Future Expense Card](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-set-up-a-future-expense-card.md)
+ [How to: Set Up a Future Expense Card](../FullExperience/how-to-set-up-a-future-expense-card.md)

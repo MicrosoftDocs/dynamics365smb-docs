@@ -29,8 +29,8 @@ You can view entries that have been posted with withholding tax \(WHT\) for a sp
  You can view the posted WHT entries in the **WHT Entry** window.  
   
 ## See Also  
- [Withholding Tax](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/withholding-tax.md)   
- [How to: Set Up Revenue Types for Withholding Tax](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-set-up-revenue-types-for-withholding-tax.md)   
- [How to: Set Up Withholding Tax-duplicate](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-set-up-withholding-tax-duplicate.md)   
- [How to: Calculate and Post Withholding Tax Settlements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-calculate-and-post-withholding-tax-settlements.md)   
+ [Withholding Tax](../FullExperience/withholding-tax.md)   
+ [How to: Set Up Revenue Types for Withholding Tax](../FullExperience/how-to-set-up-revenue-types-for-withholding-tax.md)   
+ [How to: Set Up Withholding Tax-duplicate](../FullExperience/how-to-set-up-withholding-tax-duplicate.md)   
+ [How to: Calculate and Post Withholding Tax Settlements](../FullExperience/how-to-calculate-and-post-withholding-tax-settlements.md)   
  G\/L Registers

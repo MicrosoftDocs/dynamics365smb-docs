@@ -32,8 +32,8 @@ When you enter a VAT-liable amount including VAT on a journal line, you must ent
  The **Gen. Posting Type**, **Gen. Bus. Posting Group**, and **Gen. Prod. Posting Group** fields and the corresponding fields for the balancing account are filled in automatically, but they can be changed if necessary.  
   
 ## See Also  
- [How to: Create a VAT Combination Setup](../Finance/how-to-create-a-vat-combination-setup.md)   
- [How to: Fill In Recurring Journals](../Finance/how-to-fill-in-recurring-journals.md)   
- [How to: Fill and Post General Journals](../Finance/how-to-fill-and-post-general-journals.md)   
- [How to: Set Up Default Balancing Accounts](../Finance/how-to-set-up-default-balancing-accounts.md)   
- [How to: Set Up Multiple Journal Batches](../Finance/how-to-set-up-multiple-journal-batches.md)
+ [How to: Create a VAT Combination Setup](../FullExperience/how-to-create-a-vat-combination-setup.md)   
+ [How to: Fill In Recurring Journals](../FullExperience/how-to-fill-in-recurring-journals.md)   
+ [How to: Fill and Post General Journals](../FullExperience/how-to-fill-and-post-general-journals.md)   
+ [How to: Set Up Default Balancing Accounts](../FullExperience/how-to-set-up-default-balancing-accounts.md)   
+ [How to: Set Up Multiple Journal Batches](../FullExperience/how-to-set-up-multiple-journal-batches.md)

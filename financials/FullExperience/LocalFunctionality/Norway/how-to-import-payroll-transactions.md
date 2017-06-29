@@ -24,7 +24,7 @@ You can import payroll transactions into a general journal from two external pay
   
 2.  On the **General** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Payroll System**|Select a payroll system.|  
     |**File Name**|Enter the full path of the file.|  
@@ -44,7 +44,7 @@ You can import payroll transactions into a general journal from two external pay
   
 3.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Posting Date**|Select a payroll system.|  
     |**Document text**|Enter the full path of the file.|  
@@ -53,8 +53,8 @@ You can import payroll transactions into a general journal from two external pay
 4.  Choose the **OK** button.  
   
 ## See Also  
- [Norway Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/norway-local-functionality.md)   
+ [Norway Local Functionality](../FullExperience/norway-local-functionality.md)   
  General Journal   
  Payroll Integration Setup   
  Import Hogia Windows Payroll   
- [\($ B\_15000066 Import Huldt & Lillevik $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/-$-b_15000066-import-huldt-lillevik-$-.md)
+ [\($ B\_15000066 Import Huldt & Lillevik $\)](../FullExperience/-$-b_15000066-import-huldt-lillevik-$-.md)

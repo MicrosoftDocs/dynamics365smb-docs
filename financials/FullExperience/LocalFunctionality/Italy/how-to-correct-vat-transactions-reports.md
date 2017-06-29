@@ -20,7 +20,7 @@
   
 1.  In the **Search** box, enter **VAT Reports**, and then choose the related link.  
   
-2.  Create a new report. For more information, see [How to: Create Electronic VAT Transactions Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-create-electronic-vat-transactions-reports.md).  
+2.  Create a new report. For more information, see [How to: Create Electronic VAT Transactions Reports](../FullExperience/how-to-create-electronic-vat-transactions-reports.md).  
   
 3.  In the new report, change the **VAT Report Type** field to **Corrective** or **Cancellation**. In the **Original Report No.** field, select the report that you want to correct from the list of available reports. The**Start Date** and **End Date** fields are copied from the original report.  
   
@@ -47,5 +47,5 @@
 7.  On the **Home** tab, in the **Process** group, choose **Mark as Submitted** to finalize the report. The **Status** field is updated to Submitted.  
   
 ## See Also  
- [How to: Export VAT Transactions Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-export-vat-transactions-reports.md)   
+ [How to: Export VAT Transactions Reports](../FullExperience/how-to-export-vat-transactions-reports.md)   
  VAT Report Type

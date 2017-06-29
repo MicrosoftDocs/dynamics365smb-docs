@@ -81,4 +81,4 @@ The obligatory sales reports feature enables you to print the following reports:
  The Order Shipment report is printed from sales documents that are not yet posted.  
   
 ## See Also  
- [Russian Receivables Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/russian-receivables-reports.md)
+ [Russian Receivables Reports](../FullExperience/russian-receivables-reports.md)

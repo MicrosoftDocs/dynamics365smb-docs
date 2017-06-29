@@ -36,7 +36,7 @@ After you have created a physical inventory order and after you have entered the
 >  If there are more than one such physical inventory order lines, an error message appears. You can have the program to show you the duplicate lines.  
   
 ## See Also  
- [How to: Create a Physical Inventory Recording](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-create-a-physical-inventory-recording.md)   
- [How to: Finish a Physical Inventory Recording](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-finish-a-physical-inventory-recording.md)   
- [How to: View Duplicate Physical Inventory Order Lines](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-view-duplicate-physical-inventory-order-lines.md)   
- [Physical Inventory Order Lines With Item Tracking Lines](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/physical-inventory-order-lines-with-item-tracking-lines.md)
+ [How to: Create a Physical Inventory Recording](../FullExperience/how-to-create-a-physical-inventory-recording.md)   
+ [How to: Finish a Physical Inventory Recording](../FullExperience/how-to-finish-a-physical-inventory-recording.md)   
+ [How to: View Duplicate Physical Inventory Order Lines](../FullExperience/how-to-view-duplicate-physical-inventory-order-lines.md)   
+ [Physical Inventory Order Lines With Item Tracking Lines](../FullExperience/physical-inventory-order-lines-with-item-tracking-lines.md)

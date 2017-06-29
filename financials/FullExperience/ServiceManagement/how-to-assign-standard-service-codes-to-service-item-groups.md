@@ -31,5 +31,5 @@ You may often need to create service documents with service lines that contain s
 5.  Repeat steps 2 through 4 for all of the service item groups to which you want to assign standard service codes.  
   
 ## See Also  
- [How to: Insert Service Lines by Using Standard Service Codes](../Service/how-to-insert-service-lines-by-using-standard-service-codes.md)   
- [How to: Set Up Standard Service Codes](../Service/how-to-set-up-standard-service-codes.md)
+ [How to: Insert Service Lines by Using Standard Service Codes](../FullExperience/how-to-insert-service-lines-by-using-standard-service-codes.md)   
+ [How to: Set Up Standard Service Codes](../FullExperience/how-to-set-up-standard-service-codes.md)

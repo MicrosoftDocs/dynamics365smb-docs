@@ -29,5 +29,5 @@ If you have posted a sales return order as received, but the item is subsequentl
 3.  On the **Actions** tab, in the **Functions** group, choose **Copy Document** to copy the lines from the incorrectly posted sales credit memo. For more information, see Copy Sales Document.  
   
 ## See Also  
- [How to: Invoice Sales](../Finance/how-to-invoice-sales.md)   
- [About Returns Management](../Purchasing/about-returns-management.md)
+ [How to: Invoice Sales](../FullExperience/how-to-invoice-sales.md)   
+ [About Returns Management](../FullExperience/about-returns-management.md)

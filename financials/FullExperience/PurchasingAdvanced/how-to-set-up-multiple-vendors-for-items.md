@@ -38,4 +38,4 @@ If you purchase the same item from more than one vendor, you must enter informat
 6.  If you want to set up multiple vendors of the item, repeat these steps for each vendor.  
   
 ## See Also  
- [How to: Register New Vendors](../Purchasing/how-to-register-new-vendors.md)
+ [How to: Register New Vendors](../FullExperience/how-to-register-new-vendors.md)

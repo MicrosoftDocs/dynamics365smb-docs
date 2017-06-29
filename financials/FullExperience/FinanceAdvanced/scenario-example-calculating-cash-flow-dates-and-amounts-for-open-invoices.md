@@ -33,7 +33,7 @@ This topic shows how the cash flow forecast dates and amounts are calculated for
 -   The cash flow payment terms are 21 days\/3 days-4%.  
   
 ## Results  
- This section uses the setup scenarios that are described in the [Cash Flow Forecast Dates and Amounts](../Finance/cash-flow-forecast-dates-and-amounts.md) topic to show the calculation results of the cash flow forecast dates and amounts.  
+ This section uses the setup scenarios that are described in the [Cash Flow Forecast Dates and Amounts](../FullExperience/cash-flow-forecast-dates-and-amounts.md) topic to show the calculation results of the cash flow forecast dates and amounts.  
   
 ### Results Based on Setup Scenario 1  
  The following table shows the cash flow forecast dates and amounts based on the setup scenario 1.  
@@ -64,4 +64,4 @@ This topic shows how the cash flow forecast dates and amounts are calculated for
 |Any work date after January 7, 2013|January 15, 2013|100|  
   
 ## See Also  
- [Cash Flow Forecast Dates and Amounts](../Finance/cash-flow-forecast-dates-and-amounts.md)
+ [Cash Flow Forecast Dates and Amounts](../FullExperience/cash-flow-forecast-dates-and-amounts.md)

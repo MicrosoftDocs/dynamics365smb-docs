@@ -16,7 +16,7 @@
 
     ---
 # How to: Export VAT Transactions Reports
-After you create a report, you can release it, and then export it for the authorities. To change the report, make sure that the Modify Submitted Reports check box is enabled in the VAT Report Setup window. If it is not, to change the report when you want to correct an error, you will have to create a new report, add the report with the error in the original report number, and then create a corrective report. For more information, see [How to: Correct VAT Transactions Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-correct-vat-transactions-reports.md).  
+After you create a report, you can release it, and then export it for the authorities. To change the report, make sure that the Modify Submitted Reports check box is enabled in the VAT Report Setup window. If it is not, to change the report when you want to correct an error, you will have to create a new report, add the report with the error in the original report number, and then create a corrective report. For more information, see [How to: Correct VAT Transactions Reports](../FullExperience/how-to-correct-vat-transactions-reports.md).  
   
  It is only possible to change the lines and fields when the document has the status Open. In the Released status, only the receipt no. is available for change. In the Submitted status, all fields are locked.  
   
@@ -28,7 +28,7 @@ After you create a report, you can release it, and then export it for the author
   
     -   Select the relevant VAT report from the list, and on the **Home** tab, choose **Edit**.  
   
-    -   On the **Home** tab, choose **New**, and create a new report. For more information, see [How to: Create Electronic VAT Transactions Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-create-electronic-vat-transactions-reports.md).  
+    -   On the **Home** tab, choose **New**, and create a new report. For more information, see [How to: Create Electronic VAT Transactions Reports](../FullExperience/how-to-create-electronic-vat-transactions-reports.md).  
   
 3.  Review the transaction details. To exclude a line from being reported to the tax authority, on the line, clear the **Incl. in Report** check box. To see the VAT entries that the line is based on, right-click the **Amount** field, and choose the AssistButton.  
   
@@ -37,7 +37,7 @@ After you create a report, you can release it, and then export it for the author
   
 4.  On the **Home** tab, in the **Process** group, choose **Release**. The **Status** field is updated to Released.  
   
-     ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> validates that the VAT report is valid and ready for submission. If the validation fails, the errors are shown in the **VAT Report Error Log** window so that you can make the appropriate changes.  
+     ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> validates that the VAT report is valid and ready for submission. If the validation fails, the errors are shown in the **VAT Report Error Log** window so that you can make the appropriate changes.  
   
      After you release a VAT report, you cannot edit it. If you have to change the report after it is released, you have to first reopen it. On the **Home** tab, in the **Process** group, choose **Reopen**.  
   
@@ -59,4 +59,4 @@ After you create a report, you can release it, and then export it for the author
 ## See Also  
  Export VAT Transactions   
  VAT Report Error Log   
- [How to: Correct VAT Transactions Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-correct-vat-transactions-reports.md)
+ [How to: Correct VAT Transactions Reports](../FullExperience/how-to-correct-vat-transactions-reports.md)

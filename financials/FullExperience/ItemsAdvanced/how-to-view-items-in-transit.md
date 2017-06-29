@@ -29,5 +29,5 @@ If you have set up your inventory in different locations and are transferring it
 4.  On the **Actions** tab, in the **General** group, choose **Show Matrix**.  
   
 ## See Also  
- [How to: Set Up In-Transit Codes](../DesignAndEngineering/how-to-set-up-in-transit-codes.md)   
- [How to: Create Transfer Orders](../DesignAndEngineering/how-to-create-transfer-orders.md)
+ [How to: Set Up In-Transit Codes](../FullExperience/how-to-set-up-in-transit-codes.md)   
+ [How to: Create Transfer Orders](../FullExperience/how-to-create-transfer-orders.md)

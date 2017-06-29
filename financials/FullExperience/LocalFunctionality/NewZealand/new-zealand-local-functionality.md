@@ -16,11 +16,11 @@
 
     ---
 # New Zealand Local Functionality
-The following topics describe the local functionality in the New Zealand version of ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->.  
+The following topics describe the local functionality in the New Zealand version of ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
   
 ## In This Section  
- [Addresses](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/addresses.md)  
-  [Calculating Distribution Amounts](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/calculating-distribution-amounts.md)  
-  [How to: Determine Sales Price by Cost Plus Percentage](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-determine-sales-price-by-cost-plus-percentage.md)  
-  [How to: Print Deposit Slip Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-print-deposit-slip-reports.md)  
-  [How to: Print Bank Account Reconciliation Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-print-bank-account-reconciliation-reports.md)
+ [Addresses](../FullExperience/addresses.md)  
+  [Calculating Distribution Amounts](../FullExperience/calculating-distribution-amounts.md)  
+  [How to: Determine Sales Price by Cost Plus Percentage](../FullExperience/how-to-determine-sales-price-by-cost-plus-percentage.md)  
+  [How to: Print Deposit Slip Reports](../FullExperience/how-to-print-deposit-slip-reports.md)  
+  [How to: Print Bank Account Reconciliation Reports](../FullExperience/how-to-print-bank-account-reconciliation-reports.md)

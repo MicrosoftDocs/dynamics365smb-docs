@@ -42,7 +42,7 @@
 -   If the field has no value, it will be blank for alphanumeric fields and populated with zeros for numeric fields.  
   
 ## See Also  
- [Spain Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/spain-local-functionality.md)   
- [How to: Create Report 347](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/how-to-create-report-347.md)   
+ [Spain Local Functionality](../FullExperience/spain-local-functionality.md)   
+ [How to: Create Report 347](../FullExperience/how-to-create-report-347.md)   
  Make 347 Declaration   
  Declaration Labels

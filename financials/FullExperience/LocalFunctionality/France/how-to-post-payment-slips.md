@@ -16,9 +16,9 @@
 
     ---
 # How to: Post Payment Slips
-You must post payment slips to complete a payment transaction and to create the related financial data. You can post a payment slip if the payment slip's **Action Type** is set to **Ledger**. For more information, see [How to: Set Up Payment Steps](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-set-up-payment-steps.md) and [Payment Step Table](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/-$-t_10862-payment-step-$-.md).  
+You must post payment slips to complete a payment transaction and to create the related financial data. You can post a payment slip if the payment slip's **Action Type** is set to **Ledger**. For more information, see [How to: Set Up Payment Steps](../FullExperience/-$-t_10862-payment-step-$-.md).  
   
- Before you post a payment slip, you must create the payment slip. For more information, see [How to: Create Payment Slips](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-create-payment-slips.md).  
+ Before you post a payment slip, you must create the payment slip. For more information, see [How to: Create Payment Slips](../FullExperience/how-to-create-payment-slips.md).  
   
 ### To post a payment slip  
   
@@ -33,13 +33,13 @@ You must post payment slips to complete a payment transaction and to create the 
      The payment slip is posted.  
   
 ## See Also  
- [Payment Management](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/payment-management.md)   
- [How to: Set Up Payment Classes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-set-up-payment-classes.md)   
- [How to: Set Up Payment Statuses](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-set-up-payment-statuses.md)   
- [How to: Set Up Payment Steps](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-set-up-payment-steps.md)   
- [How to: Set Up Payment Addresses](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-set-up-payment-addresses.md)   
- [How to: Create Payment Slips](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-create-payment-slips.md)   
- [How to: Export or Import Payment Management Setup Parameters](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-export-or-import-payment-management-setup-parameters.md)   
- [How to: Archive Payment Slips](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-archive-payment-slips.md)   
+ [Payment Management](../FullExperience/payment-management.md)   
+ [How to: Set Up Payment Classes](../FullExperience/how-to-set-up-payment-classes.md)   
+ [How to: Set Up Payment Statuses](../FullExperience/how-to-set-up-payment-statuses.md)   
+ [How to: Set Up Payment Steps](../FullExperience/how-to-set-up-payment-steps.md)   
+ [How to: Set Up Payment Addresses](../FullExperience/how-to-set-up-payment-addresses.md)   
+ [How to: Create Payment Slips](../FullExperience/how-to-create-payment-slips.md)   
+ [How to: Export or Import Payment Management Setup Parameters](../FullExperience/how-to-export-or-import-payment-management-setup-parameters.md)   
+ [How to: Archive Payment Slips](../FullExperience/how-to-archive-payment-slips.md)   
  Payment Step   
  Payment Slip

@@ -38,7 +38,7 @@ Before you can use electronic banking, you must set up export protocols. Export 
   
 3.  In the **Export Protocols**  window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Code**|Specify a code that uniquely identifies the export protocol.|  
     |**Description**|Specify a description for the export protocol entry. You can enter a maximum of 50 characters, both numbers and letters.|  
@@ -52,8 +52,8 @@ Before you can use electronic banking, you must set up export protocols. Export 
 4.  Choose the **OK** button.  
   
 ## See Also  
- [Belgian Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/belgian-electronic-payments.md)   
+ [Belgian Electronic Payments](../FullExperience/belgian-electronic-payments.md)   
  Export Protocols   
  Export Protocol   
- [How to: Create Payment Journal Templates and Batches](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-create-payment-journal-templates-and-batches.md)   
- [How to: Test Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-test-electronic-payments.md)
+ [How to: Create Payment Journal Templates and Batches](../FullExperience/how-to-create-payment-journal-templates-and-batches.md)   
+ [How to: Test Electronic Payments](../FullExperience/how-to-test-electronic-payments.md)

@@ -39,6 +39,6 @@ Companies in Iceland are required to send the tax authority a data file in a pre
 3.  In the **IRS Number** field, select an IRS number from the list.  
   
 ## See Also  
- [Special Data Output and Reports for the Tax Authority](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Iceland/special-data-output-and-reports-for-the-tax-authority.md)   
+ [Special Data Output and Reports for the Tax Authority](../FullExperience/special-data-output-and-reports-for-the-tax-authority.md)   
  IRS Group   
  IRS Details

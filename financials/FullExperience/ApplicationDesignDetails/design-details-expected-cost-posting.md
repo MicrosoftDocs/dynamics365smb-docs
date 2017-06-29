@@ -79,8 +79,8 @@ Expected costs represent the estimation of, for example, a purchased item’s co
 |01-15-20|Inventory Account|2130|100|5|  
   
 ## See Also  
- [Design Details: Inventory Costing](../ApplicationDesign/design-details-inventory-costing.md)   
- [Design Details: Cost Adjustment](../ApplicationDesign/design-details-cost-adjustment.md)   
- [Design Details: Reconciliation with the General Ledger](../ApplicationDesign/design-details-reconciliation-with-the-general-ledger.md)   
- [Design Details: Inventory Posting](../ApplicationDesign/design-details-inventory-posting.md)   
- [Design Details: Variance](../ApplicationDesign/design-details-variance.md)
+ [Design Details: Inventory Costing](../FullExperience/design-details-inventory-costing.md)   
+ [Design Details: Cost Adjustment](../FullExperience/design-details-cost-adjustment.md)   
+ [Design Details: Reconciliation with the General Ledger](../FullExperience/design-details-reconciliation-with-the-general-ledger.md)   
+ [Design Details: Inventory Posting](../FullExperience/design-details-inventory-posting.md)   
+ [Design Details: Variance](../FullExperience/design-details-variance.md)

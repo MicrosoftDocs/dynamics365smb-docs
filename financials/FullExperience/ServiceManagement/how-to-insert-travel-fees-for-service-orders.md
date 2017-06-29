@@ -18,7 +18,7 @@
 # How to: Insert Travel Fees for Service Orders
 When working on service items in service orders, you may need to register travel fees for the service order in general. The following procedure shows how to insert fees for travel to the service zone of the customer in the service order in the **Service Lines** window.  
   
- Before you can insert travel fees, you must set up service costs for travel to specific service zones. For more information, see [How to: Set Up Service Costs](../Service/how-to-set-up-service-costs.md).  
+ Before you can insert travel fees, you must set up service costs for travel to specific service zones. For more information, see [How to: Set Up Service Costs](../FullExperience/how-to-set-up-service-costs.md).  
   
 ### To insert a travel fee for a service order  
   
@@ -26,14 +26,14 @@ When working on service items in service orders, you may need to register travel
   
 2.  Open the relevant service order.  
   
-3.  Select a service line. Choose **Actions**![Action Menu icon](../DesignAndEngineering/media/actionmenuicon.png "actionMenuIcon"), choose **Order**, and then choose **Service Lines**. The **Service Lines** window opens.  
+3.  Select a service line. Choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Order**, and then choose **Service Lines**. The **Service Lines** window opens.  
   
 4.  On the **Actions** tab, in the **Functions** group, choose **Insert Travel Fee**.  
   
      A service line is inserted with the travel fee to the service zone where the customer in the service order is located. The travel fee applies to the service order in general.  
   
 ## See Also  
- [How to: Insert Travel Fees for Service Items](../Service/how-to-insert-travel-fees-for-service-items.md)   
- [How to: Set Up Service Zones](../Service/how-to-set-up-service-zones.md)   
- [How to: Register Costs for Service Items](../Service/how-to-register-costs-for-service-items.md)   
- [How to: Register Costs for Service Orders](../Service/how-to-register-costs-for-service-orders.md)
+ [How to: Insert Travel Fees for Service Items](../FullExperience/how-to-insert-travel-fees-for-service-items.md)   
+ [How to: Set Up Service Zones](../FullExperience/how-to-set-up-service-zones.md)   
+ [How to: Register Costs for Service Items](../FullExperience/how-to-register-costs-for-service-items.md)   
+ [How to: Register Costs for Service Orders](../FullExperience/how-to-register-costs-for-service-orders.md)

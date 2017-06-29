@@ -39,8 +39,8 @@ You use the **Profile** card to create profiles for end users. Each profile is a
  The procedure for modifying an existing profile is the same, except you select an existing profile in the Profiles page instead of clicking **New**.  
   
 ## See Also  
- [Working with Role Centers](../SetupAndAdministration/working-with-role-centers.md)   
- [How to: Assign a User to a Profile](../SetupAndAdministration/how-to-assign-a-user-to-a-profile.md)   
- [Working with Role Centers](../SetupAndAdministration/working-with-role-centers.md)   
- [Profiles and Role Centers](../SetupAndAdministration/profiles-and-role-centers.md)   
- [Security Overview](../Topic/Security%20Overview.md)
+ [Working with Role Centers](../FullExperience/working-with-role-centers.md)   
+ [How to: Assign a User to a Profile](../FullExperience/how-to-assign-a-user-to-a-profile.md)   
+ [Working with Role Centers](../FullExperience/working-with-role-centers.md)   
+ [Profiles and Role Centers](../FullExperience/profiles-and-role-centers.md)   
+ [Security Overview](../FullExperience/Security%20Overview.md)

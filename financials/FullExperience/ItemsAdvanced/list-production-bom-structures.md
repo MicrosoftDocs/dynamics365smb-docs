@@ -27,5 +27,5 @@ The structure of the production BOM can be represented by reports. For represent
 -   Cost Share Explosion of BOM  
   
 ## See Also  
- [How to: Print List of Items Needed for Production BOMs](../DesignAndEngineering/how-to-print-list-of-items-needed-for-production-boms.md)   
- [How to: Print Production Costs](../Finance/how-to-print-production-costs.md)
+ [How to: Print List of Items Needed for Production BOMs](../FullExperience/how-to-print-list-of-items-needed-for-production-boms.md)   
+ [How to: Print Production Costs](../FullExperience/how-to-print-production-costs.md)

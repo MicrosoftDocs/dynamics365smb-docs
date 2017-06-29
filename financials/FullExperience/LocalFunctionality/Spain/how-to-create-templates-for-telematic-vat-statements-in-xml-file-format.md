@@ -33,7 +33,7 @@ In order to submit VAT statements electronically, you must create templates to g
     >   
     >  For more information, see the [Spanish Tax Agency](http://go.microsoft.com/fwlink/?LinkID=238181) website.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**VAT Stmt. Name**|Specify the VAT statement name that this template is for.|  
     |**No.**|Specify the field number in the text file.|  
@@ -54,6 +54,6 @@ In order to submit VAT statements electronically, you must create templates to g
  This creates the template. Now, you can create a file that you can then submit to the tax authorities.  
   
 ## See Also  
- [How to: Export VAT Statements in XML Format](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/how-to-export-vat-statements-in-xml-format.md)   
- [How to: Create Templates for Telematic VAT Statements in Text File Format](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/how-to-create-templates-for-telematic-vat-statements-in-text-file-format.md)   
+ [How to: Export VAT Statements in XML Format](../FullExperience/how-to-export-vat-statements-in-xml-format.md)   
+ [How to: Create Templates for Telematic VAT Statements in Text File Format](../FullExperience/how-to-create-templates-for-telematic-vat-statements-in-text-file-format.md)   
  AEAT Transference Format XML

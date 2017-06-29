@@ -40,15 +40,15 @@ This planning task starts from a sales order and uses the **Sales Order Planning
   
 9. On the **Actions** tab, in the **Functions** group, choose **Refresh** to calculate new demand.  
   
- The order header line for the project order is displayed with all unfulfilled demand lines expanded under it. Although the production order contains lines for several produced items, the total demand for all production order lines is listed under one order header line in the **Order Planning** window, and the original customer name is displayed. You can now proceed to plan for the demand as described in [How to: Plan for New Demand](../OperationsPlanning/how-to-plan-for-new-demand.md).  
+ The order header line for the project order is displayed with all unfulfilled demand lines expanded under it. Although the production order contains lines for several produced items, the total demand for all production order lines is listed under one order header line in the **Order Planning** window, and the original customer name is displayed. You can now proceed to plan for the demand as described in [How to: Plan for New Demand](../FullExperience/how-to-plan-for-new-demand.md).  
   
 > [!NOTE]  
 >  Demand lines in the project production order that have **Prod. Order** in their **Replenishment System** field represent underlying production orders. After you have generated these production orders, you must again calculate a plan in the **Order Planning** window to identify any unfulfilled component demand for them. In that case, they are displayed as demand lines under a normal production order header line, meaning, the project relation is no longer visible in the window. However, if you are using the Order Tracking feature, then you can look back and forth to all supply orders made under the original sales order.  
   
 ## See Also  
- [About Planning Functionality](../OperationsPlanning/about-planning-functionality.md)   
+ [About Planning Functionality](../FullExperience/about-planning-functionality.md)   
  Order Tracking   
- [How to: Refresh Production Orders](../OperationsPlanning/how-to-refresh-production-orders.md)   
- [How to: Replan Production Orders](../OperationsPlanning/how-to-replan-production-orders.md)   
- [How to: Create Production Orders from Sales Orders](../OperationsPlanning/how-to-create-production-orders-from-sales-orders.md)   
- [Design Details: Supply Planning](../ApplicationDesign/design-details-supply-planning.md)
+ [How to: Refresh Production Orders](../FullExperience/how-to-refresh-production-orders.md)   
+ [How to: Replan Production Orders](../FullExperience/how-to-replan-production-orders.md)   
+ [How to: Create Production Orders from Sales Orders](../FullExperience/how-to-create-production-orders-from-sales-orders.md)   
+ [Design Details: Supply Planning](../FullExperience/design-details-supply-planning.md)

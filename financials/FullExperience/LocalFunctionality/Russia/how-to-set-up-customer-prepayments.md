@@ -26,7 +26,7 @@ Prepayments are advance payments on sales orders that are received, invoiced, an
   
 3.  On the **Prepayment** FastTab, enter the following information.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Use Prepayment Account**|Select to post prepayments using the subaccount specified in the **Prepayment Account** field in the **Customer Posting Groups** window.|  
     |**Create Prepayment Invoice**|Select to create an invoice for the prepayment. If this field is not selected, an invoice for the prepayment will not be created.|  
@@ -48,7 +48,7 @@ Prepayments are advance payments on sales orders that are received, invoiced, an
  You can now invoice and collect advance payments from customers and post the payments to the correct invoices and accounts.  
   
 ## See Also  
- [Walkthrough: Setting Up and Invoicing Sales Prepayments](../../GettingStarted/walkthrough-setting-up-and-invoicing-sales-prepayments.md)   
- [Invoice Prepayments](../../Finance/invoice-prepayments.md)   
- [Set Up Prepayments](../../Finance/set-up-prepayments.md)   
- [How to: Correct Prepayments](../../Finance/how-to-correct-prepayments.md)
+ [Walkthrough: Setting Up and Invoicing Sales Prepayments](../FullExperience/walkthrough-setting-up-and-invoicing-sales-prepayments.md)   
+ [Invoice Prepayments](../FullExperience/invoice-prepayments.md)   
+ [Set Up Prepayments](../FullExperience/set-up-prepayments.md)   
+ [How to: Correct Prepayments](../FullExperience/how-to-correct-prepayments.md)

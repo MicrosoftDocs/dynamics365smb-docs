@@ -30,5 +30,5 @@ Before you can use warehouse documents to control your inventory movements, you 
   
 ## See Also  
  Warehouse Activity Line   
- [About Warehouse Management](../WarehouseActivities/about-warehouse-management.md)   
- [Design Details: Warehouse Management](../ApplicationDesign/design-details-warehouse-management.md)
+ [About Warehouse Management](../FullExperience/about-warehouse-management.md)   
+ [Design Details: Warehouse Management](../FullExperience/design-details-warehouse-management.md)

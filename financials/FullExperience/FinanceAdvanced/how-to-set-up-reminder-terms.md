@@ -29,7 +29,7 @@ Management of receivables includes checking whether amounts due are paid on time
 3.  If you want to use more than one combination of the settings, you must set up a code for each one.  
   
 ## See Also  
- [How to: Create Reminders Automatically](../Finance/how-to-create-reminders-automatically.md)   
- [How to: Create Reminders Manually](../Finance/how-to-create-reminders-manually.md)   
- [How to: Set Up Reminder Levels](../Finance/how-to-set-up-reminder-levels.md)   
- [How to: Set Up Reminder Text](../Finance/how-to-set-up-reminder-text.md)
+ [How to: Create Reminders Automatically](../FullExperience/how-to-create-reminders-automatically.md)   
+ [How to: Create Reminders Manually](../FullExperience/how-to-create-reminders-manually.md)   
+ [How to: Set Up Reminder Levels](../FullExperience/how-to-set-up-reminder-levels.md)   
+ [How to: Set Up Reminder Text](../FullExperience/how-to-set-up-reminder-text.md)

@@ -16,15 +16,15 @@
 
     ---
 # Design Details: Searching for Dimension Combinations
-When you close a window after you edit a set of dimensions, ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> evaluates whether the edited set of dimensions exists. If the set does not exist, a new set is created and the dimension combination ID is returned.  
+When you close a window after you edit a set of dimensions, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> evaluates whether the edited set of dimensions exists. If the set does not exist, a new set is created and the dimension combination ID is returned.  
   
 ## Building Search Tree  
- Table 481 **Dimension Set Tree Node** is used when ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> evaluates whether a set of dimensions already exists in table 480 **Dimension Set Entry** table. The evaluation is performed by recursively traversing the search tree starting at the top level numbered 0. The top level 0 represents a dimension set with no dimension set entries. The children of this dimension set represent dimension sets with only one dimension set entry. The children of these dimension sets represent dimension sets with two children, and so on.  
+ Table 481 **Dimension Set Tree Node** is used when ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> evaluates whether a set of dimensions already exists in table 480 **Dimension Set Entry** table. The evaluation is performed by recursively traversing the search tree starting at the top level numbered 0. The top level 0 represents a dimension set with no dimension set entries. The children of this dimension set represent dimension sets with only one dimension set entry. The children of these dimension sets represent dimension sets with two children, and so on.  
   
 ### Example 1  
  The following diagram represents a search tree with six dimension sets. Only the distinguishing dimension set entry is displayed in the diagram.  
   
- ![Dimension tree structure](../ApplicationDesign/media/nav2013_dimension_tree.png "NAV2013\_Dimension\_Tree")  
+ ![Dimension tree structure](../FullExperience/media/nav2013_dimension_tree.png "NAV2013\_Dimension\_Tree")  
   
  The following table describes a complete list of dimension set entries that make up each dimension set.  
   
@@ -39,14 +39,14 @@ When you close a window after you edit a set of dimensions, ADD INCLUDE<!--[!INC
 |Set 6|AREA 40, PROJ VW|  
   
 ### Example 2  
- This example shows how ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> evaluates whether a dimension set that consists of the dimension set entries AREA 40, DEPT PROD exists.  
+ This example shows how ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> evaluates whether a dimension set that consists of the dimension set entries AREA 40, DEPT PROD exists.  
   
- First, ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> checks whether AREA 40 exists as a child of the parent ID 0. ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> finds a hit in the **Dimension Set Tree Node** table. The hit is marked as the dimension set 5 in the diagram. After ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> has found the hit, it continues by checking whether DEPT PROD exists as a child of the dimension set 5. Because this is not the case, ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> creates a new dimension set by using the unused ID 7. The new dimension set 7 contains the dimension set entries AREA 40 and DEPT PROD. ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> also updates the **Dimension Set Tree Node** table to make sure that the search tree looks like the following diagram. Thus dimension set 7 becomes a child of the dimension set 5.  
+ First, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> also updates the **Dimension Set Tree Node** table to make sure that the search tree looks like the following diagram. Thus dimension set 7 becomes a child of the dimension set 5.  
   
- ![NAV2013&#95;Dimension&#95;Tree&#95;Example 2](../ApplicationDesign/media/nav2013_dimension_tree_example2.png "NAV2013\_Dimension\_Tree\_Example2")  
+ ![NAV2013&#95;Dimension&#95;Tree&#95;Example 2](../FullExperience/media/nav2013_dimension_tree_example2.png "NAV2013\_Dimension\_Tree\_Example2")  
   
 ### Finding Dimension Set ID  
- At a conceptual level, **Parent ID**, **Dimension**, and **Dimension Value**, in the search tree, are combined and used as the primary key because ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> traverses the tree in the same order as the dimension entries. The GET function \(record\) is used to search for dimension set ID. The following code example shows how to find the dimension set ID when there are three dimension values.  
+ At a conceptual level, **Parent ID**, **Dimension**, and **Dimension Value**, in the search tree, are combined and used as the primary key because ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> traverses the tree in the same order as the dimension entries. The GET function \(record\) is used to search for dimension set ID. The following code example shows how to find the dimension set ID when there are three dimension values.  
   
 ```  
 DimSet."Parent ID" := 0;  // 'root'  
@@ -58,7 +58,7 @@ EXIT(DimSet.ID);
   
 ```  
   
- However, to preserve the ability of ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> to rename a dimension and dimension value, table 348 **Dimension Value** is extended with an integer field of **Dimension Value ID**. This table converts the field pair **Dimension** and **Dimension Value** to an integer value. When you rename the dimension and dimension value, the integer value is not changed.  
+ However, to preserve the ability of ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> to rename a dimension and dimension value, table 348 **Dimension Value** is extended with an integer field of **Dimension Value ID**. This table converts the field pair **Dimension** and **Dimension Value** to an integer value. When you rename the dimension and dimension value, the integer value is not changed.  
   
 ```  
 DimSet."Parent ID" := 0;  // 'root'  
@@ -71,9 +71,9 @@ EXIT(DimSet.ID);
 ```  
   
 ## See Also  
- [GET Function \(Record\)](../Topic/GET%20Function%20\(Record\).md)   
- [Design Details: Dimension Set Entries](../ApplicationDesign/design-details-dimension-set-entries.md)   
- [Dimension Set Entries Overview](../ApplicationDesign/dimension-set-entries-overview.md)   
- [Design Details: Table Structure](../ApplicationDesign/design-details-table-structure.md)   
- [Design Details: Codeunit 408 Dimension Management](../ApplicationDesign/design-details-codeunit-408-dimension-management.md)   
- [Design Details: Code Examples of Changed Patterns in Modifications](../ApplicationDesign/design-details-code-examples-of-changed-patterns-in-modifications.md)
+ [GET Function \(Record\)](../FullExperience/GET%20Function%20\(Record\).md)   
+ [Design Details: Dimension Set Entries](../FullExperience/design-details-dimension-set-entries.md)   
+ [Dimension Set Entries Overview](../FullExperience/dimension-set-entries-overview.md)   
+ [Design Details: Table Structure](../FullExperience/design-details-table-structure.md)   
+ [Design Details: Codeunit 408 Dimension Management](../FullExperience/design-details-codeunit-408-dimension-management.md)   
+ [Design Details: Code Examples of Changed Patterns in Modifications](../FullExperience/design-details-code-examples-of-changed-patterns-in-modifications.md)

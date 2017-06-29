@@ -38,6 +38,6 @@ You can use the **Refresh Planning Demand** batch job to refresh the planning co
 6.  Choose the **OK** button to confirm your selections.  
   
 ## See Also  
- [How to: Plan for New Demand](../OperationsPlanning/how-to-plan-for-new-demand.md)   
- [How to: Replan Production Orders](../OperationsPlanning/how-to-replan-production-orders.md)   
- [How to: Run MPS and MRP](../OperationsPlanning/how-to-run-mps-and-mrp.md)
+ [How to: Plan for New Demand](../FullExperience/how-to-plan-for-new-demand.md)   
+ [How to: Replan Production Orders](../FullExperience/how-to-replan-production-orders.md)   
+ [How to: Run MPS and MRP](../FullExperience/how-to-run-mps-and-mrp.md)

@@ -20,13 +20,13 @@ After you have set up the consolidated company and the business units, and you h
   
  Before you do so, it is a good idea to check whether there are differences between the basic information in the business units and in the consolidated company. There are two reports for this purpose: one for testing a database and one for testing a file.  
   
- For more information, see [How to: Test Databases Before Consolidating](../Finance/how-to-test-databases-before-consolidating.md).  
+ For more information, see [How to: Test Databases Before Consolidating](../FullExperience/how-to-test-databases-before-consolidating.md).  
   
 ### To test files before consolidating  
   
-1.  Open the consolidated company. For more information, see [\($ S\_COMPANY How to: Select a Company $\)](../WorkingWithDynamics/-$-s_company-how-to-select-a-company-$-.md)  
+1.  Open the consolidated company. For more information, see [\($ S\_COMPANY How to: Select a Company $\)](../FullExperience/-$-s_company-how-to-select-a-company-$-.md)  
   
-2.  In the **Search** box, enter **Business Units**, and then choose the related link.Open the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**Business Units** window.  
+2.  In the **Search** box, enter **Business Units**, and then choose the related link.Open the ![Shortcut icon](../FullExperience/media/shortcutcoldicon.gif "shortcutColdIcon")**Business Units** window.  
   
 3.  In the **Business Units** window, on the **Actions** tab, in the **Functions** group, choose **Test File**.  
   
@@ -35,9 +35,9 @@ After you have set up the consolidated company and the business units, and you h
  The report is similar to the Test Database report.  
   
 ## See Also  
- [How to: Process Consolidations](../Finance/how-to-process-consolidations.md)   
- [How to: Consolidate from Databases](../Finance/how-to-consolidate-from-databases.md)   
- [How to: Consolidate from Files](../Finance/how-to-consolidate-from-files.md)   
- [How to: Enter Basic Information for Consolidated Companies](../Finance/how-to-enter-basic-information-for-consolidated-companies.md)   
- [How to: Enter Consolidation Information on General Ledger Accounts](../Finance/how-to-enter-consolidation-information-on-general-ledger-accounts.md)   
- [\($ S\_COMPANY How to: Select a Company $\)](../WorkingWithDynamics/-$-s_company-how-to-select-a-company-$-.md)
+ [How to: Process Consolidations](../FullExperience/how-to-process-consolidations.md)   
+ [How to: Consolidate from Databases](../FullExperience/how-to-consolidate-from-databases.md)   
+ [How to: Consolidate from Files](../FullExperience/how-to-consolidate-from-files.md)   
+ [How to: Enter Basic Information for Consolidated Companies](../FullExperience/how-to-enter-basic-information-for-consolidated-companies.md)   
+ [How to: Enter Consolidation Information on General Ledger Accounts](../FullExperience/how-to-enter-consolidation-information-on-general-ledger-accounts.md)   
+ [\($ S\_COMPANY How to: Select a Company $\)](../FullExperience/-$-s_company-how-to-select-a-company-$-.md)

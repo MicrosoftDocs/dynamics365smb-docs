@@ -28,7 +28,7 @@ The default setting for payment tolerance is allowed. To disallow a certain cust
     >  If the customer or vendor has open entries, you must remove payment tolerance from entries that are currently open.  
   
 ## See Also  
- [How to: Set Up Tolerances](../Finance/how-to-set-up-tolerances.md)   
+ [How to: Set Up Tolerances](../FullExperience/how-to-set-up-tolerances.md)   
  Change Payment Tolerance   
- [How to: Enable or Disable Payment Tolerance Warnings](../Finance/how-to-enable-or-disable-payment-tolerance-warnings.md)   
- [Payment Tolerance and Payment Discount Tolerance](../Finance/payment-tolerance-and-payment-discount-tolerance.md)
+ [How to: Enable or Disable Payment Tolerance Warnings](../FullExperience/how-to-enable-or-disable-payment-tolerance-warnings.md)   
+ [Payment Tolerance and Payment Discount Tolerance](../FullExperience/payment-tolerance-and-payment-discount-tolerance.md)

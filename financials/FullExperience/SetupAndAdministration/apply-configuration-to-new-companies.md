@@ -22,10 +22,10 @@ After you have created a configuration package, the next step is to deploy the p
   
 |**To**|**See**|  
 |------------|-------------|  
-|Create a new company in the ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> database.|[How to: Create a New Company](../SetupAndAdministration/how-to-create-a-new-company.md)|  
-|Import and apply a configuration package to a new company.|[How to: Configure New Companies](../SetupAndAdministration/how-to-configure-new-companies.md)|  
-|Help a customer complete their own configuration.|[How to: Configure a Company with the RapidStart Wizard](../SetupAndAdministration/how-to-configure-a-company-with-the-rapidstart-wizard.md)|  
-|Apply journal entries.|[How to: Create Journal Opening Balances](../SetupAndAdministration/how-to-create-journal-opening-balances.md)|  
+|Create a new company in the ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-create-a-new-company.md)|  
+|Import and apply a configuration package to a new company.|[How to: Configure New Companies](../FullExperience/how-to-configure-new-companies.md)|  
+|Help a customer complete their own configuration.|[How to: Configure a Company with the RapidStart Wizard](../FullExperience/how-to-configure-a-company-with-the-rapidstart-wizard.md)|  
+|Apply journal entries.|[How to: Create Journal Opening Balances](../FullExperience/how-to-create-journal-opening-balances.md)|  
   
 ## See Also  
- [Set Up Company Configuration](../SetupAndAdministration/set-up-company-configuration.md)
+ [Set Up Company Configuration](../FullExperience/set-up-company-configuration.md)

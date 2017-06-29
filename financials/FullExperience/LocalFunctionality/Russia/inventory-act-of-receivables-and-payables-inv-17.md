@@ -117,5 +117,5 @@ The inventory act of receivables and payables feature enables you to prepare an 
 6.  Click **Print**, and then click **Supplement to Invent. Act INV-17** to print the supplement to the inventory act.  
   
 ## See Also  
- [Russian Payables Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/russian-payables-reports.md)   
- [Russian Receivables Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/russian-receivables-reports.md)
+ [Russian Payables Reports](../FullExperience/russian-payables-reports.md)   
+ [Russian Receivables Reports](../FullExperience/russian-receivables-reports.md)

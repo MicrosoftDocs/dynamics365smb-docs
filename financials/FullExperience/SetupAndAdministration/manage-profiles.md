@@ -16,16 +16,16 @@
 
     ---
 # Manage Profiles
-You use profiles to link Role Centers to users. Like Role Centers, profiles align with the roles and responsibilities in your organization. ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> provides a set of default profiles, which each correspond to and link to a Role Center. Administrators can modify existing profiles or create new ones.  
+You use profiles to link Role Centers to users. Like Role Centers, profiles align with the roles and responsibilities in your organization. ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> provides a set of default profiles, which each correspond to and link to a Role Center. Administrators can modify existing profiles or create new ones.  
   
 > [!NOTE]  
 >  Profiles are not explicitly linked to the roles and permissions that constitute the security system, but profile users must have permissions that align with their roles in the security system. For more information, see [Security in the Role Tailored Environment](http://go.microsoft.com/fwlink?LinkId=147633) in the MSDN Library.  
   
 |**To**|**See**|  
 |------------|-------------|  
-|Create a profile.|[How to: Create Profiles](../SetupAndAdministration/how-to-create-profiles.md)|  
-|Assign users to profiles.|[How to: Assign Users to Profiles](../SetupAndAdministration/how-to-assign-users-to-profiles.md)|  
-|Export a profile.|[How to: Export or Import Profiles](../SetupAndAdministration/how-to-export-or-import-profiles.md)|  
+|Create a profile.|[How to: Create Profiles](../FullExperience/how-to-create-profiles.md)|  
+|Assign users to profiles.|[How to: Assign Users to Profiles](../FullExperience/how-to-assign-users-to-profiles.md)|  
+|Export a profile.|[How to: Export or Import Profiles](../FullExperience/how-to-export-or-import-profiles.md)|  
 |Work with the Profile Card window.|Profile Card|  
 |Work with the Profile List window.|Profile List|  
   

@@ -16,7 +16,7 @@
 
     ---
 # Design Details: Codeunit 408 Dimension Management
-Codeunit 408 Dimension Management is a function library that handles common tasks that are related to dimensions, such as copying from one table to another or from one document to another. This topic lists the functions that are modified in ADD INCLUDE<!--[!INCLUDE[navsicily](../ApplicationDesign/includes/navsicily_md.md)]--> and specifies what has to be done to the functions. Many functions are deleted because there is no need for copying between dimension tables.  
+Codeunit 408 Dimension Management is a function library that handles common tasks that are related to dimensions, such as copying from one table to another or from one document to another. This topic lists the functions that are modified in ADD INCLUDE<!--[!INCLUDE[navsicily](../../includes/navsicily_md.md)]--> and specifies what has to be done to the functions. Many functions are deleted because there is no need for copying between dimension tables.  
   
 ## Modified Functions  
   
@@ -31,7 +31,7 @@ Codeunit 408 Dimension Management is a function library that handles common task
  Functions that are deleted from codeunit 408 in connection with the Dimension Set Entries feature are listed below.  
   
 > [!CAUTION]  
->  During the upgrade of application code from ADD INCLUDE<!--[!INCLUDE[nav_2009_long](../ApplicationDesign/includes/nav_2009_long_md.md)]--> or earlier versions to ADD INCLUDE<!--[!INCLUDE[navnowlong](../ApplicationDesign/includes/navnowlong_md.md)]-->, the following functions are not available in ADD INCLUDE<!--[!INCLUDE[navnowlong](../ApplicationDesign/includes/navnowlong_md.md)]-->. If you have customizations that use one or more of the functions, you must upgrade that code accordingly. For more information, see [Upgrading the Application Code](../Topic/Upgrading%20the%20Application%20Code.md).  
+>  During the upgrade of application code from ADD INCLUDE<!--[!INCLUDE[nav_2009_long](../../includes/Upgrading%20the%20Application%20Code.md).  
   
  InsertJnlLineDim  
   
@@ -184,8 +184,8 @@ Codeunit 408 Dimension Management is a function library that handles common task
  UpdateDocDefaultDim2  
   
 ## See Also  
- [Design Details: Dimension Set Entries](../ApplicationDesign/design-details-dimension-set-entries.md)   
- [Dimension Set Entries Overview](../ApplicationDesign/dimension-set-entries-overview.md)   
- [Design Details: Searching for Dimension Combinations](../ApplicationDesign/design-details-searching-for-dimension-combinations.md)   
- [Design Details: Table Structure](../ApplicationDesign/design-details-table-structure.md)   
- [Design Details: Code Examples of Changed Patterns in Modifications](../ApplicationDesign/design-details-code-examples-of-changed-patterns-in-modifications.md)
+ [Design Details: Dimension Set Entries](../FullExperience/design-details-dimension-set-entries.md)   
+ [Dimension Set Entries Overview](../FullExperience/dimension-set-entries-overview.md)   
+ [Design Details: Searching for Dimension Combinations](../FullExperience/design-details-searching-for-dimension-combinations.md)   
+ [Design Details: Table Structure](../FullExperience/design-details-table-structure.md)   
+ [Design Details: Code Examples of Changed Patterns in Modifications](../FullExperience/design-details-code-examples-of-changed-patterns-in-modifications.md)

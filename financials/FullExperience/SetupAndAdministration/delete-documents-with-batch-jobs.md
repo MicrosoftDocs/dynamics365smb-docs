@@ -19,5 +19,5 @@
 This section provides an overview of how you can delete orders, quotes, entries and more using batch jobs.  
   
 ## See Also  
- [Delete Documents](../SetupAndAdministration/delete-documents.md)   
- [Date Compress with Batch Jobs](../SetupAndAdministration/date-compress-with-batch-jobs.md)
+ [Delete Documents](../FullExperience/delete-documents.md)   
+ [Date Compress with Batch Jobs](../FullExperience/date-compress-with-batch-jobs.md)

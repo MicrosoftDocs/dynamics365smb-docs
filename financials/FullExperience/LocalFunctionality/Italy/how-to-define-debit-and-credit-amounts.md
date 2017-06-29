@@ -24,7 +24,7 @@ The **Debit Amount** and **Credit Amount** fields are included in multiple journ
   
 2.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Debit Amount**|Enter the debit amount.|  
     |**Credit Amount**|Enter the credit amount.|  
@@ -35,5 +35,5 @@ The **Debit Amount** and **Credit Amount** fields are included in multiple journ
 3.  Choose the **OK** button.  
   
 ## See Also  
- [Italy Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/italy-local-functionality.md)   
+ [Italy Local Functionality](../FullExperience/italy-local-functionality.md)   
  Debit\/Credit

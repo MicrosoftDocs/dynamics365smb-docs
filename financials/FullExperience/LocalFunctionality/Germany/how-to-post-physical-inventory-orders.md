@@ -58,5 +58,5 @@ After completing a physical inventory order and changing its status to **Finishe
 4.  Close the window.  
   
 ## See Also  
- [Physical Inventory Documents](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/physical-inventory-documents.md)   
- [How to: Enter Physical Inventory Orders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-enter-physical-inventory-orders.md)
+ [Physical Inventory Documents](../FullExperience/physical-inventory-documents.md)   
+ [How to: Enter Physical Inventory Orders](../FullExperience/how-to-enter-physical-inventory-orders.md)

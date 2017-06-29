@@ -16,7 +16,7 @@
 
     ---
 # Proportional VAT
-ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> allows you to calculate VAT when there is both deductible and non-deductible VAT. Because it is difficult to know where and how an item is used, you will have to contact the Norwegian tax authorities to determine whether a specified percentage of the VAT is deductible based on historical data.  
+ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> allows you to calculate VAT when there is both deductible and non-deductible VAT. Because it is difficult to know where and how an item is used, you will have to contact the Norwegian tax authorities to determine whether a specified percentage of the VAT is deductible based on historical data.  
   
 ## Example  
  A bus company owns both buses and trucks. When gasoline is purchased, the gasoline is stored in one holding tank. When the gasoline is used in a bus for transporting children, it is not deductible. When the gasoline is used in a truck, the gasoline may be deductible. The agreement between the bus company and the Norwegian tax authorities might be that 60 percent of the VAT is deductible.  
@@ -37,5 +37,5 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]
 >  If this functionality is used on a purchase order that is used for buying items for inventory, the functionality will not influence the cost of the item. The cost of the item will be added by using the non-deductible VAT. This works on the general ledger level only.  
   
 ## See Also  
- [How to: Calculate Proportional VAT](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-calculate-proportional-vat.md)   
- [Norwegian VAT Reporting](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/norwegian-vat-reporting.md)
+ [How to: Calculate Proportional VAT](../FullExperience/how-to-calculate-proportional-vat.md)   
+ [Norwegian VAT Reporting](../FullExperience/norwegian-vat-reporting.md)

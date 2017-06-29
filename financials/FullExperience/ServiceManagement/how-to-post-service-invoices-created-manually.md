@@ -35,5 +35,5 @@ When you have created an invoice, filled in all the information, and made any re
      If the **Shipment on Invoice** field in the **Service Mgt. Setup** window is selected, a posted service shipment linked to the invoice is also created.  
   
 ## See Also  
- [How to: Print Test Reports Before Posting Service Documents](../Service/how-to-print-test-reports-before-posting-service-documents.md)   
- [How to: Create Service Invoices Manually](../Service/how-to-create-service-invoices-manually.md)
+ [How to: Print Test Reports Before Posting Service Documents](../FullExperience/how-to-print-test-reports-before-posting-service-documents.md)   
+ [How to: Create Service Invoices Manually](../FullExperience/how-to-create-service-invoices-manually.md)

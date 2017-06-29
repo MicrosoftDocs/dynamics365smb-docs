@@ -38,7 +38,7 @@ From a new or an open warehouse receipt or warehouse shipment, you can use the *
   
  All released source document lines that fulfill the filter criteria are now inserted in **Warehouse Receipt** or **Warehouse Shipment** window from which you activated the filter function.  
   
- For information about releasing outbound source documents for shipment, see [How to: Pick Items for Warehouse Shipment](../WarehouseActivities/how-to-pick-items-for-warehouse-shipment.md).  
+ For information about releasing outbound source documents for shipment, see [How to: Pick Items for Warehouse Shipment](../FullExperience/how-to-pick-items-for-warehouse-shipment.md).  
   
  The filter combinations that you define are saved in the **Filters to Get Source Docs.** window until the next time you need it. You can make an unlimited number of filter combinations.  
   
@@ -50,6 +50,6 @@ From a new or an open warehouse receipt or warehouse shipment, you can use the *
  Warehouse Receipt   
  Warehouse Shipment   
  Warehouse Source Filter   
- [How to: Pick Items for Warehouse Shipment](../WarehouseActivities/how-to-pick-items-for-warehouse-shipment.md)   
- [How to: Receive Items](../Receiving/how-to-receive-items.md)   
- [Shipping](../Topic/Shipping.md)
+ [How to: Pick Items for Warehouse Shipment](../FullExperience/how-to-pick-items-for-warehouse-shipment.md)   
+ [How to: Receive Items](../FullExperience/how-to-receive-items.md)   
+ [Shipping](../FullExperience/Shipping.md)

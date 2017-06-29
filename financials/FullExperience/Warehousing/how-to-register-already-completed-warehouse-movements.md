@@ -32,4 +32,4 @@ If your location uses directed put-away and pick, and you need to move items to 
 ## See Also  
  Whse. Reclassification Journal   
  Warehouse Movement   
- [How to: Move Items in Advanced Warehousing](../WarehouseActivities/how-to-move-items-in-advanced-warehousing.md)
+ [How to: Move Items in Advanced Warehousing](../FullExperience/how-to-move-items-in-advanced-warehousing.md)

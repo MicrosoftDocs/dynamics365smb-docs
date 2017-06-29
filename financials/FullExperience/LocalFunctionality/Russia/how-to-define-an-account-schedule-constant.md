@@ -16,7 +16,7 @@
 
     ---
 # How to: Define an Account Schedule Constant
-ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> enables you to define a constant for an account schedule line. Constants are useful if an account schedule value does not change.  
+ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> enables you to define a constant for an account schedule line. Constants are useful if an account schedule value does not change.  
   
 ### To define an account schedule constant  
   
@@ -31,9 +31,9 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]
 ## See Also  
  Account Schedule Names   
  Account Schedule   
- [Account Schedule-duplicate](../Topic/\($%20R_25%20Account%20Schedule%20$\)-duplicate.md)   
+ [Account Schedule-duplicate](../FullExperience/\($%20R_25%20Account%20Schedule%20$\)-duplicate.md)   
  Acc. Schedule Name   
- [How to: Create New Account Schedules](../../BusinessIntelligence/how-to-create-new-account-schedules.md)   
- [Create and Set Up Account Schedules](../../BusinessIntelligence/create-and-set-up-account-schedules.md)   
- [Account Schedules Overview](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/account-schedules-overview.md)   
- [How to: Define an Account Schedule Extension](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-define-an-account-schedule-extension.md)
+ [How to: Create New Account Schedules](../FullExperience/how-to-create-new-account-schedules.md)   
+ [Create and Set Up Account Schedules](../FullExperience/create-and-set-up-account-schedules.md)   
+ [Account Schedules Overview](../FullExperience/account-schedules-overview.md)   
+ [How to: Define an Account Schedule Extension](../FullExperience/how-to-define-an-account-schedule-extension.md)

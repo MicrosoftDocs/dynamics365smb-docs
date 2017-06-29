@@ -62,9 +62,9 @@ If you change the annual amount of the service contract or contract quote, you m
 |Item 3|24.00|27.00|11.37|3.07|23.93|-0.07|  
   
 ## See Also  
- [How to: Automatically Distribute the Annual Amount Difference on Contracts](../Service/how-to-automatically-distribute-the-annual-amount-difference-on-contracts.md)   
- [How to: Change the Annual Amount on Service Contracts or Contract Quotes](../Service/how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)   
- [Distribution Based on Profit](../Service/distribution-based-on-profit.md)   
- [Even Distribution](../Service/even-distribution.md)   
- [How to: Manually Distribute the Annual Amount Difference on Contracts](../Service/how-to-manually-distribute-the-annual-amount-difference-on-contracts.md)   
+ [How to: Automatically Distribute the Annual Amount Difference on Contracts](../FullExperience/how-to-automatically-distribute-the-annual-amount-difference-on-contracts.md)   
+ [How to: Change the Annual Amount on Service Contracts or Contract Quotes](../FullExperience/how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)   
+ [Distribution Based on Profit](../FullExperience/distribution-based-on-profit.md)   
+ [Even Distribution](../FullExperience/even-distribution.md)   
+ [How to: Manually Distribute the Annual Amount Difference on Contracts](../FullExperience/how-to-manually-distribute-the-annual-amount-difference-on-contracts.md)   
  Line Amount

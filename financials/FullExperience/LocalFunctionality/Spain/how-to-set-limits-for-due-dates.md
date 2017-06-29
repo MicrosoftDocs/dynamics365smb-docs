@@ -32,5 +32,5 @@ You can modify payment terms to have limits for the maximum number of days that 
 >  You cannot post a document that creates a bill where one or more installments have a due date that is later than the limit that is specified in the **Max. No. of Days till Due Date** field.  
   
 ## See Also  
- [Calculating Due Dates](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/calculating-due-dates.md)   
- [How to: Set Up Payment Terms](../../Finance/how-to-set-up-payment-terms.md)
+ [Calculating Due Dates](../FullExperience/calculating-due-dates.md)   
+ [How to: Set Up Payment Terms](../FullExperience/how-to-set-up-payment-terms.md)

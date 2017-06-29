@@ -16,7 +16,7 @@
 
     ---
 # How to: Validate Customer Data
-Customer data must be validated before you apply the records to the ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> database.  
+Customer data must be validated before you apply the records to the ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> database.  
   
 > [!NOTE]  
 >  In most cases, invalid data is not created in the database. However, the application can occasionally be blocked if an imported migration table contains errors.  
@@ -38,4 +38,4 @@ Customer data must be validated before you apply the records to the ADD INCLUDE<
  You are now ready to apply the customer’s data to the database.  
   
 ## See Also  
- [How to: Apply Customer Data](../SetupAndAdministration/how-to-apply-customer-data.md)
+ [How to: Apply Customer Data](../FullExperience/how-to-apply-customer-data.md)

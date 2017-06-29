@@ -16,13 +16,13 @@
 
     ---
 # How to: Configure a Company with the RapidStart Wizard
-You can quickly configure a new company that you have created by using the ADD INCLUDE<!--[!INCLUDE[rim](../Roles/includes/rim_md.md)]--> configuration wizard. Before implementing the following procedures, make sure that you have initialized and opened your new company and are on the ADD INCLUDE<!--[!INCLUDE[rim](../Roles/includes/rim_md.md)]--> Role Center. To change your Role Center home page, see [How to: Change Role Centers](../GettingStarted/how-to-change-role-centers.md). Choose the RapidStart Profile ID.  
+You can quickly configure a new company that you have created by using the ADD INCLUDE<!--[!INCLUDE[rim](../../includes/how-to-change-role-centers.md). Choose the RapidStart Profile ID.  
   
- In the following procedure, you have provided the customer with the configuration package, which is then installed on a computer. The customer opens the new company, which contains no customer data. You or the customer company follows the steps in the ADD INCLUDE<!--[!INCLUDE[rim](../Roles/includes/rim_md.md)]--> wizard, which are described in this procedure, to provide basic information about the company. The wizard both imports the configuration package, and then applies the package to the company.  
+ In the following procedure, you have provided the customer with the configuration package, which is then installed on a computer. The customer opens the new company, which contains no customer data. You or the customer company follows the steps in the ADD INCLUDE<!--[!INCLUDE[rim](../../includes/rim_md.md)]--> wizard, which are described in this procedure, to provide basic information about the company. The wizard both imports the configuration package, and then applies the package to the company.  
   
 ### To configure a new company  
   
-1.  On the ADD INCLUDE<!--[!INCLUDE[rim](../Roles/includes/rim_md.md)]--> Role Center home page, on the **Home** tab, choose **RapidStart Wizard**.  
+1.  On the ADD INCLUDE<!--[!INCLUDE[rim](../../includes/rim_md.md)]--> Role Center home page, on the **Home** tab, choose **RapidStart Wizard**.  
   
 2.  Expand the **Step 1** FastTab, which contains general information about the new company. Enter the appropriate information about the new company in the fields. There is one field that you are required to fill out, **Name**. The rest of the fields are optional.  
   
@@ -36,7 +36,7 @@ You can quickly configure a new company that you have created by using the ADD I
   
     1.  Apply the configuration. On the **Actions** tab, choose **Apply Package**. This imports the configuration package and applies the package database data all at the same time.  
   
-    2.  Review the configuration after it has been applied. This option lets you review configuration details and questionnaires provided by the partner and import some master data that is required for your company. On the **Actions** tab, choose **Configuration Worksheet**. For more information, see [How to: Complete the Configuration Questionnaire](../SetupAndAdministration/how-to-complete-the-configuration-questionnaire.md).  
+    2.  Review the configuration after it has been applied. This option lets you review configuration details and questionnaires provided by the partner and import some master data that is required for your company. On the **Actions** tab, choose **Configuration Worksheet**. For more information, see [How to: Complete the Configuration Questionnaire](../FullExperience/how-to-complete-the-configuration-questionnaire.md).  
   
 6.  Expand the **Step 5** FastTab. Specify which Role Center you want to be the default for the new company.  
   
@@ -52,5 +52,5 @@ You can quickly configure a new company that you have created by using the ADD I
  At this point, you have configured the company, and applied data to it.  
   
 ## See Also  
- [How to: Create a New Company](../SetupAndAdministration/how-to-create-a-new-company.md)   
- [How to: Create Companies](../Topic/How%20to:%20Create%20Companies.md)
+ [How to: Create a New Company](../FullExperience/how-to-create-a-new-company.md)   
+ [How to: Create Companies](../FullExperience/How%20to:%20Create%20Companies.md)

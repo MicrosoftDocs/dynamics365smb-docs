@@ -24,14 +24,14 @@ You can assign any tools to a routing line, that is, an operation. The assigned 
   
 2.  Open the **Routing** card that you want to update. Select the line you want to process.  
   
-3.  On the **Lines** FastTab, choose **Actions**![Action Menu icon](../DesignAndEngineering/media/actionmenuicon.png "actionMenuIcon"), choose **Operation**, and then choose **Tools**.  
+3.  On the **Lines** FastTab, choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Operation**, and then choose **Tools**.  
   
 4.  Fill in the fields in the **Routing Tools** window.  
   
 5.  Choose the **OK** button to exit the window. The entered values are copied and assigned to the operation.  
   
 ## See Also  
- [How to: Create Routings](../DesignAndEngineering/how-to-create-routings.md)   
- [How to: Assign Personnel to Operations](../Production/how-to-assign-personnel-to-operations.md)   
- [How to: Assign Quality Measures to Operations](../Production/how-to-assign-quality-measures-to-operations.md)   
- [How to: Assign Tools to Standard Tasks](../Production/how-to-assign-tools-to-standard-tasks.md)
+ [How to: Create Routings](../FullExperience/how-to-create-routings.md)   
+ [How to: Assign Personnel to Operations](../FullExperience/how-to-assign-personnel-to-operations.md)   
+ [How to: Assign Quality Measures to Operations](../FullExperience/how-to-assign-quality-measures-to-operations.md)   
+ [How to: Assign Tools to Standard Tasks](../FullExperience/how-to-assign-tools-to-standard-tasks.md)

@@ -32,4 +32,4 @@ You can use translated VAT clauses for customers who have a language code that i
   
 ## See Also  
  VAT Clause Translations   
- [How to: Set Up VAT Clauses](../Finance/how-to-set-up-vat-clauses.md)
+ [How to: Set Up VAT Clauses](../FullExperience/how-to-set-up-vat-clauses.md)

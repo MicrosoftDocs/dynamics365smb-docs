@@ -23,11 +23,11 @@
   
  A company can use the cash accounting method if business sales do not exceed 2,000,000 euros per year. There is one exception to this rule for a business whose receipts in cash from any single customer exceeds the sum of 100,000 euros.  
   
- In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you can set up posting groups for cash-based VAT accounting for purchases and sales.  
+ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can set up posting groups for cash-based VAT accounting for purchases and sales.  
   
- If you file a report under this regimen, the following label is applied to certain ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> reports: **Régimen especial del criterio de caja**. The modified reports are:  
+ If you file a report under this regimen, the following label is applied to certain ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> reports: **Régimen especial del criterio de caja**. The modified reports are:  
   
-|Report|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+|Report|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
 |------------|---------------------------------------|  
 |Report 117|Reminder|  
 |Report 118|Finance Charge Memo|  
@@ -99,7 +99,7 @@
 -   If the field has no value, it will be empty for alphanumeric fields and populated with zeros for numeric fields.  
   
 ## See Also  
- [How to: Create Report 340](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/how-to-create-report-340.md)   
+ [How to: Create Report 340](../FullExperience/how-to-create-report-340.md)   
  Make 340 Declaration   
- [Payments in Cash](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/payments-in-cash.md)   
- [Spain Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/spain-local-functionality.md)
+ [Payments in Cash](../FullExperience/payments-in-cash.md)   
+ [Spain Local Functionality](../FullExperience/spain-local-functionality.md)

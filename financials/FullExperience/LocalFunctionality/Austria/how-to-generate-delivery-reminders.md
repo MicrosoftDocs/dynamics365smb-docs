@@ -16,10 +16,10 @@
 
     ---
 # How to: Generate Delivery Reminders
-In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you can create delivery reminders when a purchase has not been delivered as expected. You can create a single delivery reminder manually, or you can generate delivery reminders for all overdue deliveries. For more information, see [How to: Create Delivery Reminders Manually](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-create-delivery-reminders-manually.md).  
+In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-create-delivery-reminders-manually.md).  
   
 > [!NOTE]  
->  To create delivery reminders, you must set up the delivery reminder properties. For more information, see [How to: Set Up Delivery Reminders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-set-up-delivery-reminders.md).  
+>  To create delivery reminders, you must set up the delivery reminder properties. For more information, see [How to: Set Up Delivery Reminders](../FullExperience/how-to-set-up-delivery-reminders.md).  
   
 ### To generate delivery reminders for all overdue deliveries  
   
@@ -36,9 +36,9 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
  If there are overdue deliveries that match the filters that you have set, deliver reminders are created. You can now issue and print the delivery reminders.  
   
 ## See Also  
- [How to: Create Delivery Reminders Manually](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-create-delivery-reminders-manually.md)   
- [How to: Set Up Delivery Reminders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-set-up-delivery-reminders.md)   
- [How to: Assign Delivery Reminder Codes to Vendors](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-assign-delivery-reminder-codes-to-vendors.md)   
- [How to: Issue Delivery Reminders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-issue-delivery-reminders.md)   
- [Delivery Reminders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/delivery-reminders.md)   
+ [How to: Create Delivery Reminders Manually](../FullExperience/how-to-create-delivery-reminders-manually.md)   
+ [How to: Set Up Delivery Reminders](../FullExperience/how-to-set-up-delivery-reminders.md)   
+ [How to: Assign Delivery Reminder Codes to Vendors](../FullExperience/how-to-assign-delivery-reminder-codes-to-vendors.md)   
+ [How to: Issue Delivery Reminders](../FullExperience/how-to-issue-delivery-reminders.md)   
+ [Delivery Reminders](../FullExperience/delivery-reminders.md)   
  Create Delivery Reminder

@@ -16,7 +16,7 @@
 
     ---
 # How to: Create a Bankers&#39; Automated Clearing Service File
-In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you can use Bankers' Automated Clearing Service \(BACS\) to process financial transactions electronically. To use BACS as the default vendor payment method, you must set export vendor payments to a BACS file using the **Export BACS** option. The resulting file can then be read by third-party applications to allow electronic bank payments.  
+In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can use Bankers' Automated Clearing Service \(BACS\) to process financial transactions electronically. To use BACS as the default vendor payment method, you must set export vendor payments to a BACS file using the **Export BACS** option. The resulting file can then be read by third-party applications to allow electronic bank payments.  
   
  You can keep track of BACS events, such as exporting and voiding, with the **BACS Ledger Entry** table. You can keep track of BACS transmissions using the **BACS Register** table.  
   
@@ -48,7 +48,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
   
 4.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Document No.**|Specifies the document number for the journal line.|  
     |**Account Type**|Select the account type as **Vendor**.|  
@@ -60,8 +60,8 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
 5.  Choose the **OK** button.  
   
 ## See Also  
- [How to: Export BACS Files](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/how-to-export-bacs-files.md)   
+ [How to: Export BACS Files](../FullExperience/how-to-export-bacs-files.md)   
  BACS Ledger Entry   
  BACS Register   
  Payment Journal   
- [United Kingdom Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/united-kingdom-local-functionality.md)
+ [United Kingdom Local Functionality](../FullExperience/united-kingdom-local-functionality.md)

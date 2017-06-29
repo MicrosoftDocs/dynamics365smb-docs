@@ -26,7 +26,7 @@ Código Cuenta Cliente \(CCC\) is a unique bank account identification code. The
   
 2.  On the **Payments** FastTab, fill in the fields as described in the following table  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|Position|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|--------------|---------------------------------------|  
     |**CCC Bank No.**|1-4|Identifies the bank where the account has been opened.|  
     |**CCC Bank Branch No.**|5-8|Identifies the branch code. If the bank does not use this reference, these can be zeros.|  
@@ -34,4 +34,4 @@ Código Cuenta Cliente \(CCC\) is a unique bank account identification code. The
     |**CCC Bank Account No.**|11-20 \(Spain\)<br /><br /> 11-21 \(Portugal\)|Identifies the account number, which may be adjusted with preceding zeros.|  
   
 ## See Also  
- [Spain Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/spain-local-functionality.md)
+ [Spain Local Functionality](../FullExperience/spain-local-functionality.md)

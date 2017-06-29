@@ -31,6 +31,6 @@ You use a VAT statement to calculate your VAT settlement amount for a certain pe
 5.  Fill in the fields in the **VAT Statement** window. ADD INCLUDE<!--[!INCLUDE[bp_fieldhelp]()]-->  
   
 ## See Also  
- [How to: Create a VAT Combination Setup](../Finance/how-to-create-a-vat-combination-setup.md)   
- [How to: Preview VAT Statements](../Finance/how-to-preview-vat-statements.md)   
- [How to: Print VAT Statements](../Finance/how-to-print-vat-statements.md)
+ [How to: Create a VAT Combination Setup](../FullExperience/how-to-create-a-vat-combination-setup.md)   
+ [How to: Preview VAT Statements](../FullExperience/how-to-preview-vat-statements.md)   
+ [How to: Print VAT Statements](../FullExperience/how-to-print-vat-statements.md)

@@ -16,7 +16,7 @@
 
     ---
 # How to: Export or Import Profiles
-You can export a profile, for example to reuse UI configurations in other ADD INCLUDE<!--[!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)]--> databases.  
+You can export a profile, for example to reuse UI configurations in other ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]--> databases.  
   
  You can quickly implement UI configurations for a profile by importing an XML file that holds the configured profile.  
   
@@ -37,10 +37,10 @@ You can export a profile, for example to reuse UI configurations in other ADD IN
   
 2.  In the **Import from XML File** window, select the profile that you want to import.  
   
-     If you are importing a profile that already exists in the database, then you must first delete that profile. For more information, see [Manage Profiles](../SetupAndAdministration/manage-profiles.md).  
+     If you are importing a profile that already exists in the database, then you must first delete that profile. For more information, see [Manage Profiles](../FullExperience/manage-profiles.md).  
   
 3.  Choose the **OK** button to import the new profile.  
   
 ## See Also  
- [Administration in the Clients](../SetupAndAdministration/administration-in-the-clients.md)   
- [Configure the User Interface](../SetupAndAdministration/configure-the-user-interface.md)
+ [Administration in the Clients](../FullExperience/administration-in-the-clients.md)   
+ [Configure the User Interface](../FullExperience/configure-the-user-interface.md)

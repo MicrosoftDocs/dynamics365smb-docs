@@ -26,7 +26,7 @@ The intangible assets accounting feature allows you to post intangible assets to
   
 2.  Select a fixed asset. In the **Fixed Asset Card** window, select **Intangible Asset** in the **FA Type** field.  
   
-3.  Purchase and release the intangible asset. For more information, see [How to: Purchase and Release Undepreciable Fixed Assets](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-purchase-and-release-undepreciable-fixed-assets.md).  
+3.  Purchase and release the intangible asset. For more information, see [How to: Purchase and Release Undepreciable Fixed Assets](../FullExperience/how-to-purchase-and-release-undepreciable-fixed-assets.md).  
   
 4.  Print the **Receiving-Transmission Act** report. In the **Search** box, enter **Intq. FA Rec.-Tran. Act**, to print the unposted version of the report. Or, in the **Search** box, enter **Posted Intg. FA Rec.-Tran. Act** to print the posted version of the report.  
   

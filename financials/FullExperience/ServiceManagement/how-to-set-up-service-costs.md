@@ -37,6 +37,6 @@ You can use the **Service Costs** window to set up cost codes with set prices fo
  Repeat these steps for each service cost you want to create.  
   
 ## See Also  
- [How to: Register Costs for Service Orders](../Service/how-to-register-costs-for-service-orders.md)   
- [How to: Register Costs for Service Items](../Service/how-to-register-costs-for-service-items.md)   
- [How to: Set Up Service Zones](../Service/how-to-set-up-service-zones.md)
+ [How to: Register Costs for Service Orders](../FullExperience/how-to-register-costs-for-service-orders.md)   
+ [How to: Register Costs for Service Items](../FullExperience/how-to-register-costs-for-service-items.md)   
+ [How to: Set Up Service Zones](../FullExperience/how-to-set-up-service-zones.md)

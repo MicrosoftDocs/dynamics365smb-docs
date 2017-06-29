@@ -39,4 +39,4 @@ Nomenclature génerale des Activités économiques dans les Communautés Europé
 3.  Choose the **OK** button.  
   
 ## See Also  
- [Spain Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/spain-local-functionality.md)
+ [Spain Local Functionality](../FullExperience/spain-local-functionality.md)

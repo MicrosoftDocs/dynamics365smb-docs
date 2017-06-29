@@ -16,14 +16,14 @@
 
     ---
 # Statutory Reports
-ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> lets you set up statutory reports so that you can import and export data for electronic tax reporting and other required documents.  
+ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> lets you set up statutory reports so that you can import and export data for electronic tax reporting and other required documents.  
   
  After you have set up a report and specified the required information, you can export the report to Excel, and then print the report.  
   
 ## Getting Started with Statutory Reports  
  Use the windows based on the following key tables to set up and create statutory reports.  
   
-|Tables|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+|Tables|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
 |------------|---------------------------------------|  
 |Statutory Report Setup|Specifies information that is used to set up statutory reports including templates, formats, number series, and export destinations.|  
 |Format Version|Specifies setup information about the different report formats. This includes when to use which report, the XML schema to use, and the required data format.|  
@@ -34,17 +34,17 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]
 |Stat. Report Requisites Group|Specifies the conditions used to format and process statutory reports including export type, Microsoft Excel mapping, and cell quantity.|  
   
 ## Data for Statutory Reports  
- The statutory reports are based on account schedules and tax registers. For each statutory report that you set up in the **Statutory Reports** window, you define how the data maps to fields on tables in ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> by creating table mappings. In the **Statutory Report Tables** window, in the **Int. Source Type** field, you specify the area that the data comes from as described in the following table.  
+ The statutory reports are based on account schedules and tax registers. For each statutory report that you set up in the **Statutory Reports** window, you define how the data maps to fields on tables in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> by creating table mappings. In the **Statutory Report Tables** window, in the **Int. Source Type** field, you specify the area that the data comes from as described in the following table.  
   
-|ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../../ApplicationDesign/includes/bp_tableoption_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+|ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../../includes/bp_tabledescription_md.md)]-->|  
 |----------------------------------|---------------------------------------|  
 |**Acc. Schedule**|The data is based on an account schedule.|  
-|**Tax Register**|The data is based on a tax register. For more information, see [Tax Registers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/tax-registers.md).|  
-|**Tax Difference**|The data is based on a tax difference. For more information, see [Tax Differences](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/tax-differences.md).|  
+|**Tax Register**|The data is based on a tax register. For more information, see [Tax Registers](../FullExperience/tax-registers.md).|  
+|**Tax Difference**|The data is based on a tax difference. For more information, see [Tax Differences](../FullExperience/tax-differences.md).|  
 |**Payroll Analysis Report**|The data is based on payroll analysis.|  
   
 ## See Also  
  Excel Template   
- [Tax Accounting](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/tax-accounting.md)   
- [Tax Differences](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/tax-differences.md)   
+ [Tax Accounting](../FullExperience/tax-accounting.md)   
+ [Tax Differences](../FullExperience/tax-differences.md)   
  [Selecting the Report Data Source](assetId:///79db2621-6067-4421-8fe6-3ef2baba1ecc)

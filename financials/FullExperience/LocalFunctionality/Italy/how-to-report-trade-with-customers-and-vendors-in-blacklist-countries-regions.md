@@ -24,7 +24,7 @@ You must submit a periodic report of transactions with customers and vendors in 
   
  On a monthly or quarterly basis, you must generate the blacklist communication report for transactions with countries\/regions that have privileged taxation and send it to the Italian Revenue Agency. The Italian Revenue Agency decides which countries\/regions are included on the blacklist. You can view or change countries\/regions on the blacklist by using the **Countries\/Regions** window. The periodic report includes only transactions that have an amount above a certain threshold. The threshold amount calculation is applied at the document level. For more information, see the [Italian Revenue Agency](http://go.microsoft.com/fwlink/?LinkId=396483).  
   
- Before you can submit the periodic report, you must set up ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->.  
+ Before you can submit the periodic report, you must set up ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
   
 ### To update the relevant countries\/regions  
   
@@ -47,7 +47,7 @@ You must submit a periodic report of transactions with customers and vendors in 
   
 3.  In the **Blacklist Comm. Amounts** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---
     title: Insert topic title| Microsoft Docs
     description: Insert description
@@ -74,7 +74,7 @@ You must submit a periodic report of transactions with customers and vendors in 
 3.  Optional. Select the VAT Statement template, and on the **Navigate** tab, choose **Statement Names**. You can provide the template with a name and description. Otherwise, the template will have the name Default when you access it in the **Blacklist Communication** window.  
   
 ## Creating the List of Transactions  
- Depending on the size and type of company, you must generate and submit a report of transactions with vendors in blacklisted countries\/regions on a monthly or quarterly basis. A suggested mapping of transactions to ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> accounts is provided in the following procedure, based on Spesometro 2013.  
+ Depending on the size and type of company, you must generate and submit a report of transactions with vendors in blacklisted countries\/regions on a monthly or quarterly basis. A suggested mapping of transactions to ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> accounts is provided in the following procedure, based on Spesometro 2013.  
   
 #### To set up the template to create the list of Blacklist transactions  
   
@@ -84,25 +84,25 @@ You must submit a periodic report of transactions with customers and vendors in 
   
 3.  Fill in the lines with the relevant information as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->Field|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|**Data Type**|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|**Data Type**|  
     |--------------------------------------|---------------------------------------|-------------------|  
     |**Row No.**|Specify a row number. To enable correct filtering, we recommend that you number rows as follows: 1001..1006, and so forth.|Code|  
     |**Description**|Enter a description of the line. You can enter up to a maximum of 50 characters.<br /><br /> The types of transactions that you are required to report include the sales and purchase of goods and services. These transactions can be taxable, non-taxable, or exempt. Also subject to reporting are invoices for transactions that are not subject to VAT.<br /><br /> Finally, you must also include information for credit note transactions.|Text|  
     |**Type**|Specify the Type of the account that the blacklist report will include, for example, VAT Entry Totaling.|Option|  
-    |**Blacklist Country\/Region Transaction**|Select the check box to include information from VAT entries that originate with a person or organization that has their residence in a blacklist country\/region. In general, only select the check box when the Type of the line is VAT Entry Totaling.<br /><br /> If the check box is not selected, ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> only retrieves non-blacklist items.|Boolean|  
-    |**Gen. Posting Type**|Select a posting type. For the blacklist communication report, you can choose any of the options, but typical choices are one of the following:<br /><br /> Sale<br /><br /> Purchase<br /><br /> If you leave the field blank, ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> will only return VAT Statement lines that have this field blank as well.<br /><br /> If you choose the Type VAT Entry Totaling, then in this field, you can only choose among Purchase, Sale, and Settlement.|Option|  
+    |**Blacklist Country\/Region Transaction**|Select the check box to include information from VAT entries that originate with a person or organization that has their residence in a blacklist country\/region. In general, only select the check box when the Type of the line is VAT Entry Totaling.<br /><br /> If the check box is not selected, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> only retrieves non-blacklist items.|Boolean|  
+    |**Gen. Posting Type**|Select a posting type. For the blacklist communication report, you can choose any of the options, but typical choices are one of the following:<br /><br /> Sale<br /><br /> Purchase<br /><br /> If you leave the field blank, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> will only return VAT Statement lines that have this field blank as well.<br /><br /> If you choose the Type VAT Entry Totaling, then in this field, you can only choose among Purchase, Sale, and Settlement.|Option|  
     |**EU Service**|Specify whether the entry total represents sales of services to other EU countries\/regions.|Boolean|  
     |**Document Type**|Specify a document type. You can choose any of the options, but typical choices are one of the following:<br /><br /> Invoice<br /><br /> Credit Memo<br /><br /> If you leave the field blank, then Microsoft Dynamics NAV returns all document types.|Option|  
-    |**Refers To Period**|Specify what period the documents refer to. When you export data and you have not specified a date, the setting in this field is ignored.<br /><br /> If you have leave this field blank, then ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> returns those entries that have this field blank as well. In addition, it returns those entries that are without reverse sales for VAT Entry Totaling.|Option|  
-    |**VAT Bus. Posting Group**|Specify a VAT Business Posting Group. Fill in this field when the Type of the line is VAT Entry Totaling.<br /><br /> If you leave this field blank, then ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> returns entries with any specified group.|Code|  
-    |**VAT Prod. Posting Group**|Specify a VAT Product Posting Group. Fill in this field when the Type of the line is VAT Entry Totaling.<br /><br /> If you leave this field blank, then ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> returns entries with any specified group.|Code|  
-    |**Amount Type**|Specify the type of the Amount that is being reported. Options include:<br /><br /> Base<br /><br /> Amount<br /><br /> If you leave this field blank, then ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> returns no information.|Option|  
+    |**Refers To Period**|Specify what period the documents refer to. When you export data and you have not specified a date, the setting in this field is ignored.<br /><br /> If you have leave this field blank, then ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> returns those entries that have this field blank as well. In addition, it returns those entries that are without reverse sales for VAT Entry Totaling.|Option|  
+    |**VAT Bus. Posting Group**|Specify a VAT Business Posting Group. Fill in this field when the Type of the line is VAT Entry Totaling.<br /><br /> If you leave this field blank, then ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> returns entries with any specified group.|Code|  
+    |**VAT Prod. Posting Group**|Specify a VAT Product Posting Group. Fill in this field when the Type of the line is VAT Entry Totaling.<br /><br /> If you leave this field blank, then ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> returns entries with any specified group.|Code|  
+    |**Amount Type**|Specify the type of the Amount that is being reported. Options include:<br /><br /> Base<br /><br /> Amount<br /><br /> If you leave this field blank, then ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> returns no information.|Option|  
     |**Row Totaling**|Specify which rows are to be totaled. For example, you can enter 1001..1006 to total those rows.|Text|  
     |**Round Factor**|Specify a rounding factor that is used to round the VAT entry amounts.|Option|  
     |**Calculate with**|Specify whether to calculate the amount with a sign or the opposite sign.|Option|  
     |**Print**|Specify if you want to print information from the line.|Boolean|  
     |**Print with**|Specify whether to include the sign of the amount when you print.|Option|  
-    |**Blacklisted Comm. Field**|Specify the field that the VAT totaling should map to in the file to be exported. Valid entries are limited to what is defined in the Spesometro 2013: BL003001 – BL008002. **Important:**  The **Blacklisted Comm.** field can contain only the currently required field names that are specified by Spesometro. If you specify another field name, ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> displays an error message. <br /><br /> For example, specify BL005001 for the total base amount for credit notes relating to customer transactions.<br /><br /> If you leave the field blank, the field will not be exported, but it will be part of the printout that you use for review. If you map multiple ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> account fields to the same Blacklist Comm. Field value, the export of the data will be the sum of those lines. The printout will list each line.|Code|  
+    |**Blacklisted Comm. Field**|Specify the field that the VAT totaling should map to in the file to be exported. Valid entries are limited to what is defined in the Spesometro 2013: BL003001 – BL008002. **Important:**  The **Blacklisted Comm.** field can contain only the currently required field names that are specified by Spesometro. If you specify another field name, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> account fields to the same Blacklist Comm. Field value, the export of the data will be the sum of those lines. The printout will list each line.|Code|  
     |**New Page**|Specify if you want to insert a new page after the line when you print the information.|Boolean|  
   
  The printed report includes all transactions that meet threshold requirements. It does not include those transactions that do not.  
@@ -121,7 +121,7 @@ You must submit a periodic report of transactions with customers and vendors in 
   
 6.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_12128\_N\_2\_12 Starting Date $\)**|Optional. Enter the start date for the blacklist report, which is based on the date that the operations occurred.|  
     |**\($ R\_12128\_N\_2\_10 Ending Date $\)**|Enter the end date for the blacklist report.|  
@@ -153,7 +153,7 @@ You must submit a periodic report of transactions with customers and vendors in 
   
 7.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_12129\_N\_2\_12 Starting Date $\)**|Enter the start date for the blacklist report.|  
     |**\($ R\_12129\_N\_2\_10 Ending Date $\)**|Enter the end date for the blacklist report.|  
@@ -176,4 +176,4 @@ You must submit a periodic report of transactions with customers and vendors in 
  Customs Authority Vendors   
  VAT Posting Setup   
  Countries\/Regions   
- [Italian VAT](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/italian-vat.md)
+ [Italian VAT](../FullExperience/italian-vat.md)

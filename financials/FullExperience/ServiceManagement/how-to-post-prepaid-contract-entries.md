@@ -35,5 +35,5 @@ If you work with prepaid service contracts, you must regularly post prepaid cont
 6.  Choose the **OK** button to post the entries.  
   
 ## See Also  
- [Service Management Setup](../Service/service-management-setup.md)   
+ [Service Management Setup](../FullExperience/service-management-setup.md)   
  Service Mgt. Setup

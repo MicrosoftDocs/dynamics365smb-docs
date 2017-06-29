@@ -16,7 +16,7 @@
 
     ---
 # How to: Set Up Document Printing
-In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you can print the sales reports that use the required giro specifications by using different paper types and paper trays.  
+In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can print the sales reports that use the required giro specifications by using different paper types and paper trays.  
   
  When you use tray numbers and paper sources for Norwegian sales documents, you must consider how the printer and printer driver interpret this information. You may have to specify other tray numbers for your specific printer.  
   
@@ -33,11 +33,11 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
   
 -   Reminders  
   
- The Norwegian version of ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> contains the following sets of sales documents.  
+ The Norwegian version of ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> contains the following sets of sales documents.  
   
-|**Set**|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+|**Set**|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
 |-------------|---------------------------------------|  
-|1|The standard ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> documents. No giro information is printed.|  
+|1|The standard ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> documents. No giro information is printed.|  
 |2|The giro is printed on every page. The last page prints the giro total.|  
   
 ### To set up paper trays  
@@ -61,6 +61,6 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
   
 ## See Also  
  Printer Selection   
- [Paper Sources and Tray Numbers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/paper-sources-and-tray-numbers.md)   
- [Norwegian Giro and OCR-B Font](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/norwegian-giro-and-ocr-b-font.md)   
- [How to: Set Up KID Numbers on Sales Documents](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-set-up-kid-numbers-on-sales-documents.md)
+ [Paper Sources and Tray Numbers](../FullExperience/paper-sources-and-tray-numbers.md)   
+ [Norwegian Giro and OCR-B Font](../FullExperience/norwegian-giro-and-ocr-b-font.md)   
+ [How to: Set Up KID Numbers on Sales Documents](../FullExperience/how-to-set-up-kid-numbers-on-sales-documents.md)

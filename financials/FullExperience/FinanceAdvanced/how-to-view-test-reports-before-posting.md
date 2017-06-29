@@ -32,10 +32,10 @@ When you are ready to post a document, such as an order, invoice, or a credit me
      All parts of the purchase invoice are tested, and the result is presented in a report. If the report indicates any errors or missing information, then you must correct the problem before posting the purchase invoice.  
   
 ## See Also  
- [How to: Create Purchase Orders Manually](../Purchasing/how-to-create-purchase-orders-manually.md)   
- [How to: Record Purchases](../Finance/how-to-record-purchases.md)   
- [How to: Create Purchase Credit Memos](../Finance/how-to-create-purchase-credit-memos.md)   
- [How to: Post Purchase Invoices](../Finance/how-to-post-purchase-invoices.md)   
- [How to: Post Purchase Invoices](../Finance/how-to-post-purchase-invoices.md)   
- [How to: Post Purchase Credit Memos](../Finance/how-to-post-purchase-credit-memos.md)   
+ [How to: Create Purchase Orders Manually](../FullExperience/how-to-create-purchase-orders-manually.md)   
+ [How to: Record Purchases](../FullExperience/how-to-record-purchases.md)   
+ [How to: Create Purchase Credit Memos](../FullExperience/how-to-create-purchase-credit-memos.md)   
+ [How to: Post Purchase Invoices](../FullExperience/how-to-post-purchase-invoices.md)   
+ [How to: Post Purchase Invoices](../FullExperience/how-to-post-purchase-invoices.md)   
+ [How to: Post Purchase Credit Memos](../FullExperience/how-to-post-purchase-credit-memos.md)   
  Purchase Document - Test

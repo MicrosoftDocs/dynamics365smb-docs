@@ -22,7 +22,7 @@ The recipient reference code determines the message that is sent to the recipien
   
  The recipient reference codes are described in the following table.  
   
-|**Code**|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+|**Code**|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
 |--------------|---------------------------------------|  
 |**%1**|The document type. Either invoice or credit memo.|  
 |**%2**|The vendor's invoice number.|  
@@ -37,4 +37,4 @@ The recipient reference code determines the message that is sent to the recipien
 |**%11**|The Kunde ID number from the vendor ledger entry.|  
   
 ## See Also  
- [How to: Set Up Vendors for Remittance](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-set-up-vendors-for-remittance.md)
+ [How to: Set Up Vendors for Remittance](../FullExperience/how-to-set-up-vendors-for-remittance.md)

@@ -19,7 +19,7 @@
 This topic shows an example of how to define allocations by using the dynamic allocation method. In the example, you change the dynamic allocation of the costs for the SALES cost center to support the new cost object IT EQUIPMENT. IT EQUIPMENT packages have item numbers in the range from 8904-W to 8924-W. You use the previous year’s sales figures to calculate the share. The allocation is posted to the helping cost type 9903.  
   
 > [!NOTE]  
->  The example uses the demo data in the ADD INCLUDE<!--[!INCLUDE[demolong](../ApplicationDesign/includes/demolong_md.md)]-->.  
+>  The example uses the demo data in the ADD INCLUDE<!--[!INCLUDE[demolong](../../includes/demolong_md.md)]-->.  
   
 ### To define dynamic allocations based on items sold in the previous year  
   
@@ -52,12 +52,12 @@ This topic shows an example of how to define allocations by using the dynamic al
 14. On the **Home** tab, in the **Process** group, choose **Calculate Allocation Key** to calculate the share.  
   
     > [!IMPORTANT]  
-    >  ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> uses the previous years’ sales figures to calculate a share of 1596.50 LCY with 100 percent for the IT EQUIPMENT packages. This means that all of the items sold last year will be allocated to the cost object IT EQUIPMENT.  
+    >  ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> uses the previous years’ sales figures to calculate a share of 1596.50 LCY with 100 percent for the IT EQUIPMENT packages. This means that all of the items sold last year will be allocated to the cost object IT EQUIPMENT.  
   
 ## See Also  
- [Setting Filters for Dynamic Allocation Bases](../Finance/setting-filters-for-dynamic-allocation-bases.md)   
- [How to: Set Up Allocation Source and Targets](../Finance/how-to-set-up-allocation-source-and-targets.md)   
+ [Setting Filters for Dynamic Allocation Bases](../FullExperience/setting-filters-for-dynamic-allocation-bases.md)   
+ [How to: Set Up Allocation Source and Targets](../FullExperience/how-to-set-up-allocation-source-and-targets.md)   
  Cost Allocation   
- [Define and Allocate Costs](../Finance/define-and-allocate-costs.md)   
- [Terminology in Cost Accounting](../Finance/terminology-in-cost-accounting.md)   
- [About Cost Accounting](../Finance/about-cost-accounting.md)
+ [Define and Allocate Costs](../FullExperience/define-and-allocate-costs.md)   
+ [Terminology in Cost Accounting](../FullExperience/terminology-in-cost-accounting.md)   
+ [About Cost Accounting](../FullExperience/about-cost-accounting.md)

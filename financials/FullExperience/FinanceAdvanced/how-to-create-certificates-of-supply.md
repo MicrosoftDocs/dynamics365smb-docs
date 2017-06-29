@@ -47,5 +47,5 @@ When you sell goods to a customer in another EU country\/region, you can print a
      You can preview or print the document. When you choose **Print Certificate of Supply** and print the document, the **Printed** check box is automatically selected. In addition, if not already specified, the status of the certificate is updated to **Required**.  
   
 ## See Also  
- [How to: Process Certificates of Supply](../Finance/how-to-process-certificates-of-supply.md)   
- [Certificates of Supply](../Finance/certificates-of-supply.md)
+ [How to: Process Certificates of Supply](../FullExperience/how-to-process-certificates-of-supply.md)   
+ [Certificates of Supply](../FullExperience/certificates-of-supply.md)

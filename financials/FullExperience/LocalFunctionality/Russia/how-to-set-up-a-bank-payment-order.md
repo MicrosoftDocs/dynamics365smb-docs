@@ -38,5 +38,5 @@ Bank payment orders must be used if a bank payment is for the official state bud
   
 ## See Also  
  [How to: Set Up Bank Interface Files](assetId:///e960b140-df19-4ff4-bcfa-5a034ceb4b53)   
- [Bank Management](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/bank-management.md)   
+ [Bank Management](../FullExperience/bank-management.md)   
  KBK

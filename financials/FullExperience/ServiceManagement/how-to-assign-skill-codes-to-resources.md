@@ -31,6 +31,6 @@ A resource, for example, a technician, may have specific skills necessary to ser
 3.  In the **Skill Code** field, select the relevant skill code.  
   
 ## See Also  
- [How to: Assign Skill Codes to Service Item Groups](../Service/how-to-assign-skill-codes-to-service-item-groups.md)   
- [How to: Assign Skill Codes to Items and Service Items](../Service/how-to-assign-skill-codes-to-items-and-service-items.md)   
- [How to: Set Up Skill Codes](../Service/how-to-set-up-skill-codes.md)
+ [How to: Assign Skill Codes to Service Item Groups](../FullExperience/how-to-assign-skill-codes-to-service-item-groups.md)   
+ [How to: Assign Skill Codes to Items and Service Items](../FullExperience/how-to-assign-skill-codes-to-items-and-service-items.md)   
+ [How to: Set Up Skill Codes](../FullExperience/how-to-set-up-skill-codes.md)

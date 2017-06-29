@@ -38,7 +38,7 @@ You can create multiple fixed asset cards automatically during purchase invoice 
   
 8.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Type**|Select **Fixed Asset**.|  
     |**No.**|Specify the fixed asset number.<br /><br /> **NOTE:** This should be the same fixed asset number that you entered in the **Fixed Asset** list.|  
@@ -47,5 +47,5 @@ You can create multiple fixed asset cards automatically during purchase invoice 
 9. Choose the **OK** button.  
   
 ## See Also  
- [Manage Fixed Assets](../../Finance/manage-fixed-assets.md)   
- [Italian Fixed Assets](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/italian-fixed-assets.md)
+ [Manage Fixed Assets](../FullExperience/manage-fixed-assets.md)   
+ [Italian Fixed Assets](../FullExperience/italian-fixed-assets.md)

@@ -22,13 +22,13 @@ Before you start working with cost accounting, you must perform setup tasks.
   
 |To|See|  
 |--------|---------|  
-|Create the chart of cost types.|[How to: Set Up Cost Types](../Finance/how-to-set-up-cost-types.md)|  
-|Learn about the connection between the cost type and the general ledger account.|[Defining the Relationship Between Cost Types and General Ledger Accounts](../Finance/defining-the-relationship-between-cost-types-and-general-ledger-accounts.md)|  
-|Create the chart of cost centers.|[How to: Set Up Cost Centers](../Finance/how-to-set-up-cost-centers.md)|  
-|Create the chart of cost objects.|[How to: Set Up Cost Objects](../Finance/how-to-set-up-cost-objects.md)|  
+|Create the chart of cost types.|[How to: Set Up Cost Types](../FullExperience/how-to-set-up-cost-types.md)|  
+|Learn about the connection between the cost type and the general ledger account.|[Defining the Relationship Between Cost Types and General Ledger Accounts](../FullExperience/defining-the-relationship-between-cost-types-and-general-ledger-accounts.md)|  
+|Create the chart of cost centers.|[How to: Set Up Cost Centers](../FullExperience/how-to-set-up-cost-centers.md)|  
+|Create the chart of cost objects.|[How to: Set Up Cost Objects](../FullExperience/how-to-set-up-cost-objects.md)|  
 |Set up rules for transferring the chart of cost types from the general ledger.|Cost Accounting Setup|  
   
 ## See Also  
- [Manage Cost Accounting](../Finance/manage-cost-accounting.md)   
- [Transfer and Post Cost Entries](../Finance/transfer-and-post-cost-entries.md)   
- [Define and Allocate Costs](../Finance/define-and-allocate-costs.md)
+ [Manage Cost Accounting](../FullExperience/manage-cost-accounting.md)   
+ [Transfer and Post Cost Entries](../FullExperience/transfer-and-post-cost-entries.md)   
+ [Define and Allocate Costs](../FullExperience/define-and-allocate-costs.md)

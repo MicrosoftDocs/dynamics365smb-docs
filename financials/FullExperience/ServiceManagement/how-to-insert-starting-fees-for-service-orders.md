@@ -26,14 +26,14 @@ When working on service items in service orders, you may need to register a star
   
 2.  Open the relevant service order.  
   
-3.  Select a service line. Choose **Actions**![Action Menu icon](../DesignAndEngineering/media/actionmenuicon.png "actionMenuIcon"), choose **Order**, and then choose **Service Lines**. The **Service Lines** window opens.  
+3.  Select a service line. Choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Order**, and then choose **Service Lines**. The **Service Lines** window opens.  
   
 4.  On the **Actions** tab, in the **Functions** group, choose **Insert Starting Fee**.  
   
      A service line of type **Cost** is inserted with the starting fee. The starting fee applies to the service order in general.  
   
 ## See Also  
- [How to: Insert Starting Fees for Service Items](../Service/how-to-insert-starting-fees-for-service-items.md)   
- [How to: Set Up Service Costs](../Service/how-to-set-up-service-costs.md)   
- [How to: Register Costs for Service Items](../Service/how-to-register-costs-for-service-items.md)   
- [How to: Register Costs for Service Orders](../Service/how-to-register-costs-for-service-orders.md)
+ [How to: Insert Starting Fees for Service Items](../FullExperience/how-to-insert-starting-fees-for-service-items.md)   
+ [How to: Set Up Service Costs](../FullExperience/how-to-set-up-service-costs.md)   
+ [How to: Register Costs for Service Items](../FullExperience/how-to-register-costs-for-service-items.md)   
+ [How to: Register Costs for Service Orders](../FullExperience/how-to-register-costs-for-service-orders.md)

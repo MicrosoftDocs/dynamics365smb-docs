@@ -39,5 +39,5 @@ The **Customer Card** and **Vendor Card** windows include several additional fie
  The **Default Bank Code** field is added to the **Payments** FastTab of the customer card and the vendor card.  
   
 ## See Also  
- [Payables and Receivables-duplicate](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/payables-and-receivables-duplicate.md)   
- [Bank Management](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/bank-management.md)
+ [Payables and Receivables-duplicate](../FullExperience/payables-and-receivables-duplicate.md)   
+ [Bank Management](../FullExperience/bank-management.md)

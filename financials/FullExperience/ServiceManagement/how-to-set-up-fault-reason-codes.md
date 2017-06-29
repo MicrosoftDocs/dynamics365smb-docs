@@ -31,4 +31,4 @@ You can use the **Fault Reason Codes** window to set up fault reasons codes to d
  Repeat these steps to set up as many fault reason codes as you want.  
   
 ## See Also  
- [How to: Register Fault Reason Codes](../Service/how-to-register-fault-reason-codes.md)
+ [How to: Register Fault Reason Codes](../FullExperience/how-to-register-fault-reason-codes.md)

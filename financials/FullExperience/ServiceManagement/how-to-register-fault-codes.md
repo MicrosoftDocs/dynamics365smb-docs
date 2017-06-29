@@ -37,6 +37,6 @@ When the customer brings in a service item for repair, you can assign a fault co
  Alternatively, you can register both fault and resolution codes using fault\/resolution codes relationships.  
   
 ## See Also  
- [How to: Register Resolution Codes](../Service/how-to-register-resolution-codes.md)   
- [How to: Set Up Fault Codes](../Service/how-to-set-up-fault-codes.md)   
- [How to: Register Fault Comments](../Service/how-to-register-fault-comments.md)
+ [How to: Register Resolution Codes](../FullExperience/how-to-register-resolution-codes.md)   
+ [How to: Set Up Fault Codes](../FullExperience/how-to-set-up-fault-codes.md)   
+ [How to: Register Fault Comments](../FullExperience/how-to-register-fault-comments.md)

@@ -35,7 +35,7 @@ You can set up your transfer routes and assign a default in-transit code, shippi
   
 ## See Also  
  Transfer Routes   
- [How to: Set Up Transfer Routes](../DesignAndEngineering/how-to-set-up-transfer-routes.md)   
- [How to: Set Up In-Transit Codes](../DesignAndEngineering/how-to-set-up-in-transit-codes.md)   
- [How to: Set Up Shipping Agents](../WarehouseActivities/how-to-set-up-shipping-agents.md)   
- [How to: Set Up Shipping Agent Services](../Sales/how-to-set-up-shipping-agent-services.md)
+ [How to: Set Up Transfer Routes](../FullExperience/how-to-set-up-transfer-routes.md)   
+ [How to: Set Up In-Transit Codes](../FullExperience/how-to-set-up-in-transit-codes.md)   
+ [How to: Set Up Shipping Agents](../FullExperience/how-to-set-up-shipping-agents.md)   
+ [How to: Set Up Shipping Agent Services](../FullExperience/how-to-set-up-shipping-agent-services.md)

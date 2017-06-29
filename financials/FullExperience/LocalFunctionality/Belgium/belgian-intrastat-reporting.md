@@ -25,15 +25,15 @@ Companies in the European Union \(EU\) are required to report trade with other c
  To determine the type of declaration that you should use, visit the [National Bank of Belgium](http://go.microsoft.com/fwlink/?LinkId=163064) Web site.  
   
 ## Submitting the Intrastat Report  
- In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you can export the Intrastat declarations to a file that you can then submit to the OneGate portal. For more information, see [How to: Export Intrastat Third-Party Declararations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-export-intrastat-third-party-declararations.md).  
+ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-export-intrastat-third-party-declararations.md).  
   
 ## See Also  
- [Belgium Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/belgium-local-functionality.md)   
- [How to: Set Up Declaration Types](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-declaration-types.md)   
- [How to: Set Up Belgian Tariff Numbers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-belgian-tariff-numbers.md)   
- [How to: Set Up Intrastat Establishment Numbers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-intrastat-establishment-numbers.md)   
- [How to: Export Intrastat Third-Party Declararations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-export-intrastat-third-party-declararations.md)   
- [How to: Print the Intrastat Form Report](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-print-the-intrastat-form-report.md)   
- [How to: Set Up and Record Intrastat](../../Finance/how-to-set-up-and-record-intrastat.md)   
- [How to: Fill In Intrastat Journals](../../Finance/how-to-fill-in-intrastat-journals.md)   
- [How to: Print the Intrastat Form Report](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-print-the-intrastat-form-report.md)
+ [Belgium Local Functionality](../FullExperience/belgium-local-functionality.md)   
+ [How to: Set Up Declaration Types](../FullExperience/how-to-set-up-declaration-types.md)   
+ [How to: Set Up Belgian Tariff Numbers](../FullExperience/how-to-set-up-belgian-tariff-numbers.md)   
+ [How to: Set Up Intrastat Establishment Numbers](../FullExperience/how-to-set-up-intrastat-establishment-numbers.md)   
+ [How to: Export Intrastat Third-Party Declararations](../FullExperience/how-to-export-intrastat-third-party-declararations.md)   
+ [How to: Print the Intrastat Form Report](../FullExperience/how-to-print-the-intrastat-form-report.md)   
+ [How to: Set Up and Record Intrastat](../FullExperience/how-to-set-up-and-record-intrastat.md)   
+ [How to: Fill In Intrastat Journals](../FullExperience/how-to-fill-in-intrastat-journals.md)   
+ [How to: Print the Intrastat Form Report](../FullExperience/how-to-print-the-intrastat-form-report.md)

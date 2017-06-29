@@ -35,6 +35,6 @@ To complete the Business Activity Statement \(BAS\) setup, you must map fuel tax
 7.  Choose the **OK** button.  
   
 ## See Also  
- [BAS Fuel Tax Credits](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/bas-fuel-tax-credits.md)   
- [How to: Set Up BAS XML Fields](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-set-up-bas-xml-fields.md)   
- [Business Activity Statements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/business-activity-statements.md)
+ [BAS Fuel Tax Credits](../FullExperience/bas-fuel-tax-credits.md)   
+ [How to: Set Up BAS XML Fields](../FullExperience/how-to-set-up-bas-xml-fields.md)   
+ [Business Activity Statements](../FullExperience/business-activity-statements.md)

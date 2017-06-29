@@ -25,5 +25,5 @@ When the status of service orders is updated to **Finished**, and the customer i
      In the list, you can see the status of each entry in the queue and the relevant subject line of the email message that will be sent.  
   
 ## See Also  
- [How to: Send Email Messages Manually](../Service/how-to-send-email-messages-manually.md)   
+ [How to: Send Email Messages Manually](../FullExperience/how-to-send-email-messages-manually.md)   
  Job Queues

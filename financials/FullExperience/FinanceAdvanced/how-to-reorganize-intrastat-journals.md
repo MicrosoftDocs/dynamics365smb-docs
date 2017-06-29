@@ -31,6 +31,6 @@ You must submit an Intrastat report every month and create a new journal batch f
 4.  On **Home** Tab, choose **Delete** or press Ctrl\+D. Choose the **Yes** button.  
   
 ## See Also  
- [How to: Set Up and Record Intrastat](../Finance/how-to-set-up-and-record-intrastat.md)   
- [How to: Fill In Intrastat Journals](../Finance/how-to-fill-in-intrastat-journals.md)   
- [How to: Set Up Intrastat Journal Templates and Batches](../Finance/how-to-set-up-intrastat-journal-templates-and-batches.md)
+ [How to: Set Up and Record Intrastat](../FullExperience/how-to-set-up-and-record-intrastat.md)   
+ [How to: Fill In Intrastat Journals](../FullExperience/how-to-fill-in-intrastat-journals.md)   
+ [How to: Set Up Intrastat Journal Templates and Batches](../FullExperience/how-to-set-up-intrastat-journal-templates-and-batches.md)

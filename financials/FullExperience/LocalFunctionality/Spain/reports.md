@@ -16,4 +16,4 @@
 
     ---
 # Reports
-ADD INCLUDE<!--[!INCLUDE[bn_reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/includes/bn_reports_md.md)]-->
+ADD INCLUDE<!--[!INCLUDE[bn_reports](../../includes/bn_reports_md.md)]-->

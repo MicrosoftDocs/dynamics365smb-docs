@@ -39,4 +39,4 @@ You can use the **Service Hours** window to set up specific service hours for th
 8.  Choose the **OK** button.  
   
 ## See Also  
- [How to: Set Up Default Service Hours](../Service/how-to-set-up-default-service-hours.md)
+ [How to: Set Up Default Service Hours](../FullExperience/how-to-set-up-default-service-hours.md)

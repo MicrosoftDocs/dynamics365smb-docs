@@ -33,9 +33,9 @@ The **Prod. BOM Where-Used** window displays where a production BOM is used.
 4.  Close the window.  
   
 ## See Also  
- [Concepts of Production BOMs](../DesignAndEngineering/concepts-of-production-boms.md)   
- [How to: Create Production BOMs](../DesignAndEngineering/how-to-create-production-boms.md)   
- [How to: Post Scrap Manually](../Production/how-to-post-scrap-manually.md)   
+ [Concepts of Production BOMs](../FullExperience/concepts-of-production-boms.md)   
+ [How to: Create Production BOMs](../FullExperience/how-to-create-production-boms.md)   
+ [How to: Post Scrap Manually](../FullExperience/how-to-post-scrap-manually.md)   
  Scrap Percentage   
- [How to: Find Where Production BOM Components Are Used](../DesignAndEngineering/how-to-find-where-production-bom-components-are-used.md)   
- [How to: Find Where Routings Are Used](../DesignAndEngineering/how-to-find-where-routings-are-used.md)
+ [How to: Find Where Production BOM Components Are Used](../FullExperience/how-to-find-where-production-bom-components-are-used.md)   
+ [How to: Find Where Routings Are Used](../FullExperience/how-to-find-where-routings-are-used.md)

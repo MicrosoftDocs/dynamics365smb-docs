@@ -31,5 +31,5 @@ Sometimes you may need to change an allocation that has already been set up.
 5.  Close the **Allocations** window.  
   
 ## See Also  
- [How to: Fill In Recurring Journals](../Finance/how-to-fill-in-recurring-journals.md)   
- [How to: Use Allocation Keys in General Journals](../Finance/how-to-use-allocation-keys-in-general-journals.md)
+ [How to: Fill In Recurring Journals](../FullExperience/how-to-fill-in-recurring-journals.md)   
+ [How to: Use Allocation Keys in General Journals](../FullExperience/how-to-use-allocation-keys-in-general-journals.md)

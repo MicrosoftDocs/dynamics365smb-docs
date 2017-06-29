@@ -26,9 +26,9 @@ The Human Resources feature lets you keep detailed records of your employees. Yo
   
 |**To**|**See**|  
 |------------|-------------|  
-|Create a new employee, or to edit an existing employee's information.|[Set up Employees](../HumanResources/set-up-employees.md)|  
-|Assign various codes to employees.|[Assign Codes](../HumanResources/assign-codes.md)|  
-|Keep track of an employee's absence.|[Register Absences](../HumanResources/register-absences.md)|  
+|Create a new employee, or to edit an existing employee's information.|[Set up Employees](../FullExperience/set-up-employees.md)|  
+|Assign various codes to employees.|[Assign Codes](../FullExperience/assign-codes.md)|  
+|Keep track of an employee's absence.|[Register Absences](../FullExperience/register-absences.md)|  
   
 ## See Also  
- [Jobs](../Jobs/jobs.md)
+ [Jobs](../FullExperience/jobs.md)

@@ -29,5 +29,5 @@ You can associate any number of order addresses with a vendor. Each address is i
 4.  Enter the order address code and related information.  
   
 ## See Also  
- [Vendor Addresses](../Purchasing/vendor-addresses.md)   
- [How to: Use Alternative Order Addresses for Vendors](../Purchasing/how-to-use-alternative-order-addresses-for-vendors.md)
+ [Vendor Addresses](../FullExperience/vendor-addresses.md)   
+ [How to: Use Alternative Order Addresses for Vendors](../FullExperience/how-to-use-alternative-order-addresses-for-vendors.md)

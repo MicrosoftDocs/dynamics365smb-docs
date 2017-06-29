@@ -30,7 +30,7 @@ This topic describes how to create a VAT combination setup.
   
 5.  In the **Copy** field, select one of the following values.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_optionsheading](../DesignAndEngineering/includes/bp_optionsheading_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_optionsheading](../../includes/bp_tabledescription_md.md)]-->|  
     |-------------------------------------|---------------------------------------|  
     |**All Fields**|Copies all fields|  
     |**Selected Fields**|Selects one or more of the following fields:<br /><br /> -   **VAT% etc.**<br />-   **Sales Accounts**<br />-   **Purchase Accounts**|  
@@ -40,12 +40,12 @@ This topic describes how to create a VAT combination setup.
  For more information, see Copy - VAT Posting Setup.  
   
 ## See Also  
- [About Setting Up VAT](../Finance/about-setting-up-vat.md)   
- [How to: Enter Basic Information on Reverse Charge VAT for Purchases](../Finance/how-to-enter-basic-information-on-reverse-charge-vat-for-purchases.md)   
- [How to: Record VAT](../Finance/how-to-record-vat.md)   
- [How to: Revert VAT on Payment Discounts](../Finance/how-to-revert-vat-on-payment-discounts.md)   
- [How to: Set Up Codes for Import VAT](../Finance/how-to-set-up-codes-for-import-vat.md)   
- [How to: Set Up General Ledger Accounts for Invoice Rounding Differences](../Finance/how-to-set-up-general-ledger-accounts-for-invoice-rounding-differences.md)   
- [How to: Use Accounts for Unrealized VAT](../Finance/how-to-use-accounts-for-unrealized-vat.md)   
+ [About Setting Up VAT](../FullExperience/about-setting-up-vat.md)   
+ [How to: Enter Basic Information on Reverse Charge VAT for Purchases](../FullExperience/how-to-enter-basic-information-on-reverse-charge-vat-for-purchases.md)   
+ [How to: Record VAT](../FullExperience/how-to-record-vat.md)   
+ [How to: Revert VAT on Payment Discounts](../FullExperience/how-to-revert-vat-on-payment-discounts.md)   
+ [How to: Set Up Codes for Import VAT](../FullExperience/how-to-set-up-codes-for-import-vat.md)   
+ [How to: Set Up General Ledger Accounts for Invoice Rounding Differences](../FullExperience/how-to-set-up-general-ledger-accounts-for-invoice-rounding-differences.md)   
+ [How to: Use Accounts for Unrealized VAT](../FullExperience/how-to-use-accounts-for-unrealized-vat.md)   
  VAT Posting Setup   
  Copy - VAT Posting Setup

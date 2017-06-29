@@ -48,8 +48,8 @@ Each allocation consists of an allocation source and one or more allocation targ
 >  Select the **Blocked** check box to deactivate the allocation setup.  
   
 ## See Also  
- [Setting Filters for Dynamic Allocation Bases](../Finance/setting-filters-for-dynamic-allocation-bases.md)   
- [Scenario Example: Defining Static Allocations Based on Allocation Ratio](../Finance/scenario-example-defining-static-allocations-based-on-allocation-ratio.md)   
- [Scenario Example: Defining Dynamic Allocations Based on Items Sold](../Finance/scenario-example-defining-dynamic-allocations-based-on-items-sold.md)   
- [Define and Allocate Costs](../Finance/define-and-allocate-costs.md)   
- [Terminology in Cost Accounting](../Finance/terminology-in-cost-accounting.md)
+ [Setting Filters for Dynamic Allocation Bases](../FullExperience/setting-filters-for-dynamic-allocation-bases.md)   
+ [Scenario Example: Defining Static Allocations Based on Allocation Ratio](../FullExperience/scenario-example-defining-static-allocations-based-on-allocation-ratio.md)   
+ [Scenario Example: Defining Dynamic Allocations Based on Items Sold](../FullExperience/scenario-example-defining-dynamic-allocations-based-on-items-sold.md)   
+ [Define and Allocate Costs](../FullExperience/define-and-allocate-costs.md)   
+ [Terminology in Cost Accounting](../FullExperience/terminology-in-cost-accounting.md)

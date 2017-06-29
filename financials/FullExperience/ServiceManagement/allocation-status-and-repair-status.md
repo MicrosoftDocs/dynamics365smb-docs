@@ -41,7 +41,7 @@ The repair status of service items and the allocation status of the allocation e
 -   There is a search for allocation entries for all the service items in the service order that have the status **Active**. If such allocation entries are found, their allocation status is changed from **Active** to **Reallocation Needed**.  
   
 ## Canceling Allocations  
- When you cancel an allocation for a service item, ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> updates the allocation status of the corresponding allocation entry in the following way:  
+ When you cancel an allocation for a service item, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> updates the allocation status of the corresponding allocation entry in the following way:  
   
 -   The allocation status is changed from **Active** to **Reallocation Needed**.  
   
@@ -76,8 +76,8 @@ The repair status of service items and the allocation status of the allocation e
  A new allocation entry that contains the new resource is created that has the status **Active**.  
   
 ## See Also  
- [How to: Cancel Allocations](../Service/how-to-cancel-allocations.md)   
- [How to: Reallocate Resources by Using the Dispatch Board](../Service/how-to-reallocate-resources-by-using-the-dispatch-board.md)   
- [How to: Reallocate Resources by Using Service Orders](../Service/how-to-reallocate-resources-by-using-service-orders.md)   
- [How to: Work on Service Tasks](../Service/how-to-work-on-service-tasks.md)   
- [How to: Set Up Repair Statuses](../Service/how-to-set-up-repair-statuses.md)
+ [How to: Cancel Allocations](../FullExperience/how-to-cancel-allocations.md)   
+ [How to: Reallocate Resources by Using the Dispatch Board](../FullExperience/how-to-reallocate-resources-by-using-the-dispatch-board.md)   
+ [How to: Reallocate Resources by Using Service Orders](../FullExperience/how-to-reallocate-resources-by-using-service-orders.md)   
+ [How to: Work on Service Tasks](../FullExperience/how-to-work-on-service-tasks.md)   
+ [How to: Set Up Repair Statuses](../FullExperience/how-to-set-up-repair-statuses.md)

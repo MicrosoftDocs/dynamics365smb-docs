@@ -35,8 +35,8 @@ You may want to change the skill codes assigned to items, for example, changing 
     -   Delete the skill codes or update their relation: Select this option if you want to change the skill code on this item only. The skill code on the related service items will be reassigned, that is, the **Assigned From** field will be updated.  
   
 ## See Also  
- [How to: Change Skill Codes for Service Item Groups](../Service/how-to-change-skill-codes-for-service-item-groups.md)   
- [How to: Change Skill Codes for Service Items](../Service/how-to-change-skill-codes-for-service-items.md)   
+ [How to: Change Skill Codes for Service Item Groups](../FullExperience/how-to-change-skill-codes-for-service-item-groups.md)   
+ [How to: Change Skill Codes for Service Items](../FullExperience/how-to-change-skill-codes-for-service-items.md)   
  Assigned From   
- [How to: Assign Skill Codes to Items and Service Items](../Service/how-to-assign-skill-codes-to-items-and-service-items.md)   
- [How to: Assign Skill Codes to Service Item Groups](../Service/how-to-assign-skill-codes-to-service-item-groups.md)
+ [How to: Assign Skill Codes to Items and Service Items](../FullExperience/how-to-assign-skill-codes-to-items-and-service-items.md)   
+ [How to: Assign Skill Codes to Service Item Groups](../FullExperience/how-to-assign-skill-codes-to-service-item-groups.md)

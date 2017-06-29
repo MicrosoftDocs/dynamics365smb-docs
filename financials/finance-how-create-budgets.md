@@ -22,6 +22,8 @@ You can have multiple budgets for identical time periods by creating budgets wit
 
  Budgets play an important role in business intelligence, such as in financial statement based on account schedules that include budget entries or when analyzing budgeted versus actual amounts in the chart of accounts. For more information, see [Business Intelligence](bi.md).
 
+ Budgets play an important role in business intelligence, such as in financial statement based on account schedules that include budget entries or when analyzing budgeted versus actual amounts in the chart of accounts. For more information, see [Business Intelligence](bi.md).   
+
  > [!NOTE]  
 >   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).  
 

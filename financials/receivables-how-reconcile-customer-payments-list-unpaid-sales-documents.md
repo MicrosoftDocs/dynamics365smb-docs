@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts, customer payment
-ms.date: 03/29/2017
+ms.date: 06/16/2017
 ms.author: sgroespe
 
 ---
@@ -172,7 +172,7 @@ Proceed to record an undocumented payment.
 1. Choose the **General Journal** action.  
 
     The **General Journal** window opens with one line prefilled with the balancing account of the journal batch that is set up in the **Payment Registration Setup** window.  
-2. Fill in the remaining fields on the general journal line, such as the amount and the customer number or other information from the bank statement. For more information, see [How to: Work With General Journals](ui-work-general-journals.md).  
+2. Fill in the remaining fields on the general journal line, such as the amount and the customer number or other information from the bank statement. For more information, see [How to: Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md).  
 
 You can either post the journal line to update the total on the balancing account. Alternatively, you can leave the journal line unposted, and perhaps append it with a note that the payment needs more analysis.  
 

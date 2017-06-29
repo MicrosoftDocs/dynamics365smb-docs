@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 06/15/2017
 ms.author: jswymer
 
 ---
@@ -50,4 +50,4 @@ If you have selected the **Create Follow-up Segment** check box, a new segment i
 [Managing Contacts](marketing-contacts.md)  
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
 [Setting Up Relationship Management](marketing-setup-marketing.md)  
-[Working withFinancials](ui-work-product.md)
+[Working with Financials](ui-work-product.md)

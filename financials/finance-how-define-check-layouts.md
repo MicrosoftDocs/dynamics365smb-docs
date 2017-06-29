@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
-ms.date: 06/02/2017
+ms.date: 06/15/2017
 ms.author: edupont
 
 ---
@@ -31,7 +31,7 @@ Checks are designed to print in both the United States and Canadian check image 
 | 10401 |Check (Stub/Stub/Check) |This report is designed to print checks in a stub/stub/check format. |
 | 10411 |Check (Stub/Check/Stub) |This report is designed to print checks in a check/stub/check format. |
 
-When you have set up check layouts, you can print checks from the **Payment Journal** window. For more information, see [Work With Checks](payables-how-work-checks.md).
+When you have set up check layouts, you can print checks from the **Payment Journal** window. For more information, see [How to: Work with Checks](payables-how-work-checks.md).
 
 ## See Also
 [Managing Payables](payables-manage-payables.md)  

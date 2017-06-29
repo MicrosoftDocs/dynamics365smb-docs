@@ -27,7 +27,7 @@ Companies may want to keep track of items from the moment they enter the company
   
 1.  In the **Search** box, enter **Purchase Oders**, and then choose the related link.  
   
-2.  Select the relevant document line and on the **Lines** FastTab, choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Line**, and then choose **Item Tracking Lines**.  
+2.  Select the relevant document line and on the **Lines** FastTab, choose **Actions**![Action Menu icon](../media/actionmenuicon.png "actionMenuIcon"), choose **Line**, and then choose **Item Tracking Lines**.  
   
      You can assign serial or lot numbers in the following ways:  
   
@@ -61,4 +61,4 @@ Companies may want to keep track of items from the moment they enter the company
  Lot Warehouse Tracking   
  SN Warehouse Tracking   
  Item Tracking Code Card   
- [How to: Set Up Item Tracking Codes](../FullExperience/how-to-set-up-item-tracking-codes.md)
+ [How to: Set Up Item Tracking Codes](../how-to-set-up-item-tracking-codes.md)

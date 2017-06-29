@@ -18,14 +18,14 @@
 # Walkthrough: Picking and Shipping in Basic Warehousing
 In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, the outbound processes for picking and shipping can be performed in four ways using different functionalities depending on the warehouse complexity level.  
   
-|Method|Inbound process|Bins|Picks|Shipments|Complexity level \(See [Design Details: Warehouse Setup](../FullExperience/design-details-warehouse-setup.md)\)|  
+|Method|Inbound process|Bins|Picks|Shipments|Complexity level \(See [Design Details: Warehouse Setup](../design-details-warehouse-setup.md)\)|  
 |------------|---------------------|----------|-----------|---------------|--------------------------------------------------------------------------------------------------------------------|  
 |A|Post pick and shipment from the order line|X|||2|  
 |B|Post pick and shipment from an inventory pick document||X||3|  
 |C|Post pick and shipment from a warehouse shipment document|||X|4\/5\/6|  
 |D|Post pick from a warehouse pick document and post shipment from a warehouse shipment document||X|X|4\/5\/6|  
   
- For more information, see [Design Details: Outbound Warehouse Flow](../FullExperience/design-details-outbound-warehouse-flow.md).  
+ For more information, see [Design Details: Outbound Warehouse Flow](../design-details-outbound-warehouse-flow.md).  
   
  The following walkthrough demonstrates method B in the previous table.  
   
@@ -142,11 +142,11 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, the outbou
 ## See Also  
  Inventory Pick   
  Location Card   
- [How to: Pick Items with Inventory Picks](../FullExperience/how-to-pick-items-with-inventory-picks.md)   
- [How to: Pick Items for Warehouse Shipment](../FullExperience/how-to-pick-items-for-warehouse-shipment.md)   
- [How to: Set Up Basic Warehouses with Operations Areas](../FullExperience/how-to-set-up-basic-warehouses-with-operations-areas.md)   
- [How to: Move Components to an Operation Area in Basic Warehousing](../FullExperience/how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
- [How to: Pick for Production in Basic Warehousing](../FullExperience/how-to-pick-for-production-in-basic-warehousing.md)   
- [How to: Move Items Ad Hoc in Basic Warehousing](../FullExperience/how-to-move-items-ad-hoc-in-basic-warehousing.md)   
- [Design Details: Outbound Warehouse Flow](../FullExperience/design-details-outbound-warehouse-flow.md)   
- [Business Process Walkthroughs](../FullExperience/business-process-walkthroughs.md)
+ [How to: Pick Items with Inventory Picks](../how-to-pick-items-with-inventory-picks.md)   
+ [How to: Pick Items for Warehouse Shipment](../how-to-pick-items-for-warehouse-shipment.md)   
+ [How to: Set Up Basic Warehouses with Operations Areas](../how-to-set-up-basic-warehouses-with-operations-areas.md)   
+ [How to: Move Components to an Operation Area in Basic Warehousing](../how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
+ [How to: Pick for Production in Basic Warehousing](../how-to-pick-for-production-in-basic-warehousing.md)   
+ [How to: Move Items Ad Hoc in Basic Warehousing](../how-to-move-items-ad-hoc-in-basic-warehousing.md)   
+ [Design Details: Outbound Warehouse Flow](../design-details-outbound-warehouse-flow.md)   
+ [Business Process Walkthroughs](../business-process-walkthroughs.md)

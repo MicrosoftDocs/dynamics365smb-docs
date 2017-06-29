@@ -44,5 +44,5 @@ To use the electronic VAT declaration, you must set up a VAT category code for a
      You can now map the VAT statement data directly to an XML element.  
   
 ## See Also  
- [Electronic VAT and ICP Declarations](../FullExperience/electronic-vat-and-icp-declarations.md)   
- [How to: Create Electronic VAT and ICP Declarations](../FullExperience/how-to-create-electronic-vat-and-icp-declarations.md)
+ [Electronic VAT and ICP Declarations](../electronic-vat-and-icp-declarations.md)   
+ [How to: Create Electronic VAT and ICP Declarations](../how-to-create-electronic-vat-and-icp-declarations.md)

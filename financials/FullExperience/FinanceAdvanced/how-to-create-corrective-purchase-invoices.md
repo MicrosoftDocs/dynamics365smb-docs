@@ -22,10 +22,10 @@ If you have posted a purchase return order as shipped, but the item is subsequen
   
 1.  In the **Search** box, enter **Purchase Invoice**, and then choose the related link.  
   
-2.  In the **Purchase Invoice** window, create a new purchase invoice. For more information, see [How to: Record Purchases](../FullExperience/how-to-record-purchases.md).  
+2.  In the **Purchase Invoice** window, create a new purchase invoice. For more information, see [How to: Record Purchases](../how-to-record-purchases.md).  
   
 3.  On the **Home** tab, in the **Process** group, choose **Copy Purchase Document** to copy the lines from the incorrectly posted purchase credit memo.  
   
 ## See Also  
- [How to: Record Purchases](../FullExperience/how-to-record-purchases.md)   
- [About Returns Management](../FullExperience/about-returns-management.md)
+ [How to: Record Purchases](../how-to-record-purchases.md)   
+ [About Returns Management](../about-returns-management.md)

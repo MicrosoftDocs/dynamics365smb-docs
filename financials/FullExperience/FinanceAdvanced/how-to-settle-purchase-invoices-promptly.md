@@ -33,5 +33,5 @@ If you need to pay the vendor by cash or check, you can have the necessary posti
 >  If you frequently pay purchase invoices in cash, it is a good idea to set up a specific payment method with a balancing account and enter this method in the **Payment Method** field on the vendor card. The balancing account number is inserted automatically on the invoice header every time you create a new invoice.  
   
 ## See Also  
- [How to: Post Purchase Invoices](../FullExperience/how-to-post-purchase-invoices.md)   
- [Process Purchases](../FullExperience/process-purchases.md)
+ [How to: Post Purchase Invoices](../how-to-post-purchase-invoices.md)   
+ [Process Purchases](../process-purchases.md)

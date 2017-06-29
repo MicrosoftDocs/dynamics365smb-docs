@@ -39,5 +39,5 @@ You may regularly need to change the capacity of resources, such as technicians,
  Repeat these steps for each resource to which you want to change capacity.  
   
 ## See Also  
- [How to: Allocate Resources by Using Resource Availability](../FullExperience/how-to-allocate-resources-by-using-resource-availability.md)   
- [How to: Set Up Work-Hour Templates](../FullExperience/how-to-set-up-work-hour-templates.md)
+ [How to: Allocate Resources by Using Resource Availability](../how-to-allocate-resources-by-using-resource-availability.md)   
+ [How to: Set Up Work-Hour Templates](../how-to-set-up-work-hour-templates.md)

@@ -63,8 +63,8 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can su
      The XML file is transmitted to ELSTER.  
   
 ## See Also  
- [Electronic Submission of Sales VAT Advance Notifications to ELSTER](../FullExperience/electronic-submission-of-sales-vat-advance-notifications-to-elster.md)   
- [How to: Set Up Sales VAT Advance Notifications for ELSTER](../FullExperience/how-to-set-up-sales-vat-advance-notifications-for-elster.md)   
+ [Electronic Submission of Sales VAT Advance Notifications to ELSTER](../electronic-submission-of-sales-vat-advance-notifications-to-elster.md)   
+ [How to: Set Up Sales VAT Advance Notifications for ELSTER](../how-to-set-up-sales-vat-advance-notifications-for-elster.md)   
  VAT Statement   
  Sales VAT Adv. Notif. Card   
  Sales VAT Advance Notification   

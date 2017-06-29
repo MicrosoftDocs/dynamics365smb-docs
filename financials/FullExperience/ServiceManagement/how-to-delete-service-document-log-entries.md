@@ -32,4 +32,4 @@ You can delete the automatically generated service document log entries, for exa
   
 ## See Also  
  Delete Service Document Log   
- [How to: Create Service Orders](../FullExperience/how-to-create-service-orders.md)
+ [How to: Create Service Orders](../how-to-create-service-orders.md)

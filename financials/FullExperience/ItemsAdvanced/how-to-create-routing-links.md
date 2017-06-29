@@ -16,7 +16,7 @@
 
     ---
 # How to: Create Routing Links
-You can create routing links to connect components to specific operations in order to retain their relationship even though the production BOM or routing is modified. It also facilitates just-in-time flushing of components, namely when the specific linked operation starts, not when the complete production order is released. For more information see [How to: Flush Components According to Operation Output](../FullExperience/how-to-flush-components-according-to-operation-output.md).  
+You can create routing links to connect components to specific operations in order to retain their relationship even though the production BOM or routing is modified. It also facilitates just-in-time flushing of components, namely when the specific linked operation starts, not when the complete production order is released. For more information see [How to: Flush Components According to Operation Output](../how-to-flush-components-according-to-operation-output.md).  
   
  Another important benefit is that linked components and operations are displayed in a logical process structure when you use the **Production Journal** window for output and consumption posting.  
   
@@ -43,7 +43,7 @@ You can create routing links to connect components to specific operations in ord
   
      Routing link codes are now assigned to operations. Next, you must create the actual link by assigning the same codes to specific components in the relevant production BOM.  
   
-6.  Open the ![Shortcut icon](../FullExperience/media/shortcutcoldicon.gif "shortcutColdIcon")**[production BOM](DynamicsNAV:////runpage?Page=99000787)** that contains the components that you want to link to the above operations.  
+6.  Open the ![Shortcut icon](../media/shortcutcoldicon.gif "shortcutColdIcon")**[production BOM](DynamicsNAV:////runpage?Page=99000787)** that contains the components that you want to link to the above operations.  
   
 7.  Make sure the BOM status is **Under Development**.  
   
@@ -54,7 +54,7 @@ You can create routing links to connect components to specific operations in ord
 10. Set the production BOM status to **Certified**.  
   
     > [!NOTE]  
-    >  To enable the routing links on an existing production order, you must first refresh. For more information, see [How to: Refresh Production Orders](../FullExperience/how-to-refresh-production-orders.md).  
+    >  To enable the routing links on an existing production order, you must first refresh. For more information, see [How to: Refresh Production Orders](../how-to-refresh-production-orders.md).  
   
  The selected components will now be linked to the selected operations when you create or refresh a production order using the production BOM and routing in question. This is visible in the **Prod. Order Components** window under the production order, and here you can also remove and add the defined routing link codes at any time.  
   
@@ -62,6 +62,6 @@ You can create routing links to connect components to specific operations in ord
  Production Journal   
  Prod. Order Components   
  Routing Link Code   
- [How to: Set Up Routing Link Codes](../FullExperience/how-to-set-up-routing-link-codes.md)   
- [How to: Refresh Production Orders](../FullExperience/how-to-refresh-production-orders.md)   
- [How to: Flush Components According to Operation Output](../FullExperience/how-to-flush-components-according-to-operation-output.md)
+ [How to: Set Up Routing Link Codes](../how-to-set-up-routing-link-codes.md)   
+ [How to: Refresh Production Orders](../how-to-refresh-production-orders.md)   
+ [How to: Flush Components According to Operation Output](../how-to-flush-components-according-to-operation-output.md)

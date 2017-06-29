@@ -36,12 +36,12 @@ The run time represents work progress in the form of the necessary working time.
   
 8.  If the operation is completed, select the **Finished** field.  
   
-9. If the warehouse location where the items should be put away uses bins but does not require put-away processing, assign a bin code to the journal line to specify where the items should be placed in the warehouse. For more information, see [How to: Assign Bin Codes on Journal Lines](../FullExperience/how-to-assign-bin-codes-on-journal-lines.md).  
+9. If the warehouse location where the items should be put away uses bins but does not require put-away processing, assign a bin code to the journal line to specify where the items should be placed in the warehouse. For more information, see [How to: Assign Bin Codes on Journal Lines](../how-to-assign-bin-codes-on-journal-lines.md).  
   
 10. On the **Actions** tab, in the **Posting** group, choose **Post** to post the operations. Choose the **Yes** button.  
   
 ## See Also  
- [How to: Register Consumption and Output](../FullExperience/how-to-register-consumption-and-output.md)   
- [How to: Enter Master Data for Output Posting](../FullExperience/how-to-enter-master-data-for-output-posting.md)   
- [How to: Post Output Quantity](../FullExperience/how-to-post-output-quantity.md)   
- [About Production Orders](../FullExperience/about-production-orders.md)
+ [How to: Register Consumption and Output](../how-to-register-consumption-and-output.md)   
+ [How to: Enter Master Data for Output Posting](../how-to-enter-master-data-for-output-posting.md)   
+ [How to: Post Output Quantity](../how-to-post-output-quantity.md)   
+ [About Production Orders](../about-production-orders.md)

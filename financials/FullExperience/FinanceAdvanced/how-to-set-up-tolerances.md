@@ -24,19 +24,19 @@ Tolerance on days and amounts allows you to close an invoice even though the pay
   
 1.  In the **Search** box, enter **General Posting Setup**, and then choose the related link.  
   
-2.  In the ![Shortcut icon](../FullExperience/media/shortcutcoldicon.gif "shortcutColdIcon")**General Posting Setup** window, set up a debit and a credit sales payment tolerance account and a debit and a credit purchase payment tolerance account.  
+2.  In the ![Shortcut icon](../media/shortcutcoldicon.gif "shortcutColdIcon")**General Posting Setup** window, set up a debit and a credit sales payment tolerance account and a debit and a credit purchase payment tolerance account.  
   
 3.  In the **Search** box, enter **Customer Posting Setup**, and then choose the related link.  
   
-4.  In the ![Shortcut icon](../FullExperience/media/shortcutcoldicon.gif "shortcutColdIcon")**Customer Posting Groups** window, set up a debit and a credit payment tolerance account.  
+4.  In the ![Shortcut icon](../media/shortcutcoldicon.gif "shortcutColdIcon")**Customer Posting Groups** window, set up a debit and a credit payment tolerance account.  
   
 5.  In the **Search** box, enter **Vendor Posting Setup**, and then choose the related link.  
   
-6.  In the ![Shortcut icon](../FullExperience/media/shortcutcoldicon.gif "shortcutColdIcon")**Vendor Posting Groups** window, set up a debit and a credit payment tolerance account.  
+6.  In the ![Shortcut icon](../media/shortcutcoldicon.gif "shortcutColdIcon")**Vendor Posting Groups** window, set up a debit and a credit payment tolerance account.  
   
 7.  In the **Search** box, enter **General Ledger Setup**, and then choose the related link.  
   
-8.  Open the ![Shortcut icon](../FullExperience/media/shortcutcoldicon.gif "shortcutColdIcon")**General Ledger Setup** window.  
+8.  Open the ![Shortcut icon](../media/shortcutcoldicon.gif "shortcutColdIcon")**General Ledger Setup** window.  
   
 9. On the **Application** FastTab, fill in the **Pmt. Disc. Tolerance Posting**, **Payment Discount Grace Period** and **Payment Tolerance Posting** fields. For Help about a specific field, click the field and press F1.  
   
@@ -54,10 +54,10 @@ Tolerance on days and amounts allows you to close an invoice even though the pay
 >   
 >  When you set up tolerance, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> also checks if there are any open entries and calculates the tolerance for these entries.  
 >   
->  For more information about how to block tolerances, see [How to: Block Payment Tolerances for a Customer or a Vendor](../FullExperience/how-to-enable-or-disable-payment-tolerance-warnings.md).  
+>  For more information about how to block tolerances, see [How to: Block Payment Tolerances for a Customer or a Vendor](../how-to-enable-or-disable-payment-tolerance-warnings.md).  
   
 ## See Also  
- [Payment Tolerance and Payment Discount Tolerance](../FullExperience/payment-tolerance-and-payment-discount-tolerance.md)   
- [How to: Block Payment Tolerances for a Customer or a Vendor](../FullExperience/how-to-block-payment-tolerances-for-a-customer-or-a-vendor.md)   
- [How to: Enable or Disable Payment Tolerance Warnings](../FullExperience/how-to-enable-or-disable-payment-tolerance-warnings.md)   
+ [Payment Tolerance and Payment Discount Tolerance](../payment-tolerance-and-payment-discount-tolerance.md)   
+ [How to: Block Payment Tolerances for a Customer or a Vendor](../how-to-block-payment-tolerances-for-a-customer-or-a-vendor.md)   
+ [How to: Enable or Disable Payment Tolerance Warnings](../how-to-enable-or-disable-payment-tolerance-warnings.md)   
  Change Payment Tolerance

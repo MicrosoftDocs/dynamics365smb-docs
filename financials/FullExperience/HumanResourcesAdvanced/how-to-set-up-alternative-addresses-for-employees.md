@@ -31,4 +31,4 @@ You can use alternative addresses to keep track of your employees’ location, f
  Repeat the procedure for all alternative addresses you want to set up for the employee.  
   
 ## See Also  
- [How to: Set Up Employees](../FullExperience/how-to-set-up-employees.md)
+ [How to: Set Up Employees](../how-to-set-up-employees.md)

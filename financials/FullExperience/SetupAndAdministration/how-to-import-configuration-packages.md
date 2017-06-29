@@ -52,7 +52,7 @@ When you create a new company, you can import company settings for the new compa
  If the selection of tables does not meet your needs, you can create one or more new data migration files. If the files are sufficient, you can continue with the data migration using .xls or .xml files.  
   
 ## See Also  
- [How to: Create and Modify the Migration Tables List](../FullExperience/how-to-create-and-modify-the-migration-tables-list.md)   
- [How to: Import Customer Data](../FullExperience/how-to-import-customer-data.md)   
- [How to: Create and Modify the Migration Tables List](../FullExperience/how-to-create-and-modify-the-migration-tables-list.md)   
- [How to: Create a Configuration Package](../FullExperience/how-to-create-a-configuration-package.md)
+ [How to: Create and Modify the Migration Tables List](../how-to-create-and-modify-the-migration-tables-list.md)   
+ [How to: Import Customer Data](../how-to-import-customer-data.md)   
+ [How to: Create and Modify the Migration Tables List](../how-to-create-and-modify-the-migration-tables-list.md)   
+ [How to: Create a Configuration Package](../how-to-create-a-configuration-package.md)

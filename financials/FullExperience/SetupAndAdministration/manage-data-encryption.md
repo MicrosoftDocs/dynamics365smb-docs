@@ -23,10 +23,10 @@ You can encrypt data on the ADD INCLUDE<!--[!INCLUDE[nav_server](../../includes/
 > [!IMPORTANT]  
 >  If you export companies and other data that is secured by data encryption, then remember to also export the encryption key so that you can access the data after you import it into another database, for example when you restore a backup. Creating a backup of encrypted data involves the following high-level steps.  
 >   
->  1.  Export the data from one database. For more information, see [How to: Export and Import Companies and Other Data in Clients](../FullExperience/How%20to:%20Export%20and%20Import%20Companies%20and%20Other%20Data%20in%20Clients.md).  
-> 2.  Export the data encryption key. For more information, see [How to: Export and Import Encryption Keys](../FullExperience/how-to-export-and-import-encryption-keys.md).  
-> 3.  Import the data into another database. For more information, see [How to: Export and Import Companies and Other Data in Clients](../FullExperience/How%20to:%20Export%20and%20Import%20Companies%20and%20Other%20Data%20in%20Clients.md).  
-> 4.  Import the data encryption key. For more information, see [How to: Export and Import Encryption Keys](../FullExperience/how-to-export-and-import-encryption-keys.md).  
+>  1.  Export the data from one database. For more information, see [How to: Export and Import Companies and Other Data in Clients](../How%20to:%20Export%20and%20Import%20Companies%20and%20Other%20Data%20in%20Clients.md).  
+> 2.  Export the data encryption key. For more information, see [How to: Export and Import Encryption Keys](../how-to-export-and-import-encryption-keys.md).  
+> 3.  Import the data into another database. For more information, see [How to: Export and Import Companies and Other Data in Clients](../How%20to:%20Export%20and%20Import%20Companies%20and%20Other%20Data%20in%20Clients.md).  
+> 4.  Import the data encryption key. For more information, see [How to: Export and Import Encryption Keys](../how-to-export-and-import-encryption-keys.md).  
   
  The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
   
@@ -38,7 +38,7 @@ You can encrypt data on the ADD INCLUDE<!--[!INCLUDE[nav_server](../../includes/
 ## See Also  
  Encryption Enabled   
  Encryption Key Exists   
- [Manage Data Encryption](../FullExperience/manage-data-encryption.md)   
- [Exporting and Importing Companies and Other Data](../FullExperience/Exporting%20and%20Importing%20Companies%20and%20Other%20Data.md)   
- [Installation Considerations for Microsoft SQL Server](../FullExperience/Installation%20Considerations%20for%20Microsoft%20SQL%20Server.md)   
- [How to: Configure the Microsoft Dynamics NAV Web client to Accept Host Names for Tenants](../FullExperience/How%20to:%20Configure%20the%20Microsoft%20Dynamics%20NAV%20Web%20client%20to%20Accept%20Host%20Names%20for%20Tenants.md)
+ [Manage Data Encryption](../manage-data-encryption.md)   
+ [Exporting and Importing Companies and Other Data](../Exporting%20and%20Importing%20Companies%20and%20Other%20Data.md)   
+ [Installation Considerations for Microsoft SQL Server](../Installation%20Considerations%20for%20Microsoft%20SQL%20Server.md)   
+ [How to: Configure the Microsoft Dynamics NAV Web client to Accept Host Names for Tenants](../How%20to:%20Configure%20the%20Microsoft%20Dynamics%20NAV%20Web%20client%20to%20Accept%20Host%20Names%20for%20Tenants.md)

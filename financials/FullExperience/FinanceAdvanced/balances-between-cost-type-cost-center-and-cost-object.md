@@ -25,6 +25,6 @@ When you set up cost accounting, you should make sure that all entries are assig
  When you print the chart of cost type, the chart of cost centers, and the chart of cost objects reports, you can analyze this relationship.  
   
 ## See Also  
- [Set Up Cost Accounting](../FullExperience/set-up-cost-accounting.md)   
- [Terminology in Cost Accounting](../FullExperience/terminology-in-cost-accounting.md)   
- [About Cost Accounting](../FullExperience/about-cost-accounting.md)
+ [Set Up Cost Accounting](../set-up-cost-accounting.md)   
+ [Terminology in Cost Accounting](../terminology-in-cost-accounting.md)   
+ [About Cost Accounting](../about-cost-accounting.md)

@@ -80,4 +80,4 @@ https://localhost:7048/nav_server_instance/OData/Customer?company='CRONUS Intern
   
 ## See Also  
  Web Services   
- [Web Service Walkthroughs](../FullExperience/Web%20Service%20Walkthroughs.md)
+ [Web Service Walkthroughs](../Web%20Service%20Walkthroughs.md)

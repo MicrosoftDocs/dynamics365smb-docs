@@ -24,7 +24,7 @@ The link between the blanket order and the originating purchase order is retaine
   
 2.  Open the blanket purchase order you want to view.  
   
-3.  To view unposted entries, on the **Lines** FastTab, select the line in question, choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Line**, and then choose **Unposted Lines**. Choose one of the following options.  
+3.  To view unposted entries, on the **Lines** FastTab, select the line in question, choose **Actions**![Action Menu icon](../media/actionmenuicon.png "actionMenuIcon"), choose **Line**, and then choose **Unposted Lines**. Choose one of the following options.  
   
     |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../../includes/bp_tabledescription_md.md)]-->|  
     |----------------------------------|---------------------------------------|  
@@ -33,7 +33,7 @@ The link between the blanket order and the originating purchase order is retaine
     |**Return Orders**|Open return orders that have been associated with the selected line.|  
     |**Credit Memos**|Open credit memos that have been associated with the selected line.|  
   
-4.  To view posted entries, on the **Lines** FastTab, select the line in question, choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Line**, and then choose **Posted Lines**. Choose one of the following options.  
+4.  To view posted entries, on the **Lines** FastTab, select the line in question, choose **Actions**![Action Menu icon](../media/actionmenuicon.png "actionMenuIcon"), choose **Line**, and then choose **Posted Lines**. Choose one of the following options.  
   
     |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../../includes/bp_tabledescription_md.md)]-->|  
     |----------------------------------|---------------------------------------|  
@@ -45,6 +45,6 @@ The link between the blanket order and the originating purchase order is retaine
 5.  In the **Purchase Lines** window, on the **Navigate** tab, in the **Line** group, choose **Show Document** to view the entry.  
   
 ## See Also  
- [About Blanket Purchase Orders](../FullExperience/about-blanket-purchase-orders.md)   
- [How to: Create Blanket Purchase Orders](../FullExperience/how-to-create-blanket-purchase-orders.md)   
- [How to: View the Status of Blanket Purchase Orders](../FullExperience/how-to-view-the-status-of-blanket-purchase-orders.md)
+ [About Blanket Purchase Orders](../about-blanket-purchase-orders.md)   
+ [How to: Create Blanket Purchase Orders](../how-to-create-blanket-purchase-orders.md)   
+ [How to: View the Status of Blanket Purchase Orders](../how-to-view-the-status-of-blanket-purchase-orders.md)

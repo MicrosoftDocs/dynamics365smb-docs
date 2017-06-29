@@ -24,4 +24,4 @@ The following table describes a sequence of tasks, with links to the topics that
 |Use the **Payment Journal** window to register payments to vendors.|Payment Journal|  
   
 ## See Also  
- [Work with General Journals](../FullExperience/work-with-general-journals.md)
+ [Work with General Journals](../work-with-general-journals.md)

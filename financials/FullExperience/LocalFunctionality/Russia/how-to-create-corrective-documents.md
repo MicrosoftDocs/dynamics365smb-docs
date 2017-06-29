@@ -34,13 +34,13 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can cr
      Some fields are filled in automatically when you select a customer. Other fields you must fill in manually. You must make sure that the values of fields such as **Prices Including VAT** and **Currency Code**, relevant dimensions, and so on are the same in the corrective document as in the original invoice.  
   
     > [!NOTE]  
-    >  On the **Invoicing** tab, fill in the **Agreement No.** field if you have set up an agreement. For more information, see [How to: Set Up Customer and Vendor Agreements](../FullExperience/how-to-set-up-customer-and-vendor-agreements.md).  
+    >  On the **Invoicing** tab, fill in the **Agreement No.** field if you have set up an agreement. For more information, see [How to: Set Up Customer and Vendor Agreements](../how-to-set-up-customer-and-vendor-agreements.md).  
   
 3.  On the **VAT** tab, fill in the fields as described in the following table.  
   
     |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
-    |**Additional VAT Ledger Sheet**|Optionally, select to include this document in the additional VAT ledger. For more information, see [VAT Ledgers](../FullExperience/vat-ledgers.md).|  
+    |**Additional VAT Ledger Sheet**|Optionally, select to include this document in the additional VAT ledger. For more information, see [VAT Ledgers](../vat-ledgers.md).|  
     |**Corrected Document Date**|If you selected the **Additional VAT Ledger Sheet** field, specify the posting date of the document that you are correcting.<br /><br /> This ensures that the original invoice is listed as canceled in the additional sheet for the sales VAT book in the relevant report period.|  
     |**Corrective Document**|Select to make this document a corrective document.|  
     |**Corrective Doc. Type**|Choose **Correction** to make this a correction to an invoice.|  
@@ -82,7 +82,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can cr
   
     |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
-    |**Additional VAT Ledger Sheet**|Optionally, select to include this document in the additional VAT ledger. For more information, see [VAT Ledgers](../FullExperience/vat-ledgers.md).|  
+    |**Additional VAT Ledger Sheet**|Optionally, select to include this document in the additional VAT ledger. For more information, see [VAT Ledgers](../vat-ledgers.md).|  
     |**Corrected Document Date**|If you selected the **Additional VAT Ledger Sheet** field, specify the posting date of the document that you are revising.<br /><br /> This ensures that the original invoice is listed as canceled in the additional sheet for the sales VAT book in the relevant report period.|  
     |**Corrective Document**|Select to make this document a corrective document.|  
     |**Corrective Doc. Type**|Choose **Revision** to make this a revision document.|  
@@ -97,4 +97,4 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can cr
  The posted document is included in the list of posted invoices. This means that you can select it in the **Corrected Doc. No.** field if you must create a correction for this corrected document.  
   
 ## See Also  
- [Corrective Documents](../FullExperience/corrective-documents.md)
+ [Corrective Documents](../corrective-documents.md)

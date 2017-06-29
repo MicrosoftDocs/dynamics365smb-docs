@@ -58,4 +58,4 @@ You can define 13 accounting periods to calculate straight line depreciation. Yo
 ## See Also  
  Accounting Period   
  Fixed Asset - Projected Value   
- [United Kingdom Local Functionality](../FullExperience/united-kingdom-local-functionality.md)
+ [United Kingdom Local Functionality](../united-kingdom-local-functionality.md)

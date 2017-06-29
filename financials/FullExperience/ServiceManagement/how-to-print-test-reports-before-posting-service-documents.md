@@ -35,6 +35,6 @@ When you have created a service document, such as an order, invoice, or credit m
  The document is checked for any errors or a lack of information, and the results are reported. If there are any errors, you must correct the problem. You can then print a new test report and post the document.  
   
 ## See Also  
- [How to: Post Service Orders](../FullExperience/how-to-post-service-orders.md)   
- [How to: Post Service Credit Memos](../FullExperience/how-to-post-service-credit-memos.md)   
- [How to: Post Service Invoices Created Manually](../FullExperience/how-to-post-service-invoices-created-manually.md)
+ [How to: Post Service Orders](../how-to-post-service-orders.md)   
+ [How to: Post Service Credit Memos](../how-to-post-service-credit-memos.md)   
+ [How to: Post Service Invoices Created Manually](../how-to-post-service-invoices-created-manually.md)

@@ -28,19 +28,19 @@ You can reserve items for production orders. You have to distinguish between pro
   
 3.  Select the relevant production order line.  
   
-4.  On the **Lines** FastTab, choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Functions**, and then choose **Reserve**.  
+4.  On the **Lines** FastTab, choose **Actions**![Action Menu icon](../media/actionmenuicon.png "actionMenuIcon"), choose **Functions**, and then choose **Reserve**.  
   
 5.  Select the **Sales Line, Order** line, and then on the **Actions** tab, in the **Functions** group, choose **Reserve from Current Line**.  
   
  The quantity you entered in the firm planned production order line is now reserved.  
   
 > [!NOTE]  
->  If item tracking lines exist for the sales order, the reservation system will take you through additional steps. For more information, see [How to: Reserve Item-Tracked Items](../FullExperience/how-to-reserve-item-tracked-items.md).  
+>  If item tracking lines exist for the sales order, the reservation system will take you through additional steps. For more information, see [How to: Reserve Item-Tracked Items](../how-to-reserve-item-tracked-items.md).  
   
 ## See Also  
- [How to: Amend or Cancel Item Reservations](../FullExperience/how-to-amend-or-cancel-item-reservations.md)   
- [How to: Reserve Items for Production Components](../FullExperience/how-to-reserve-items-for-production-components.md)   
- [How to: Reserve Item-Tracked Items](../FullExperience/how-to-reserve-item-tracked-items.md)   
- [How to: Track Item Reservations](../FullExperience/how-to-track-item-reservations.md)   
- [How to: View Item Availability](../FullExperience/how-to-view-item-availability.md)   
- [About Production Orders](../FullExperience/about-production-orders.md)
+ [How to: Amend or Cancel Item Reservations](../how-to-amend-or-cancel-item-reservations.md)   
+ [How to: Reserve Items for Production Components](../how-to-reserve-items-for-production-components.md)   
+ [How to: Reserve Item-Tracked Items](../how-to-reserve-item-tracked-items.md)   
+ [How to: Track Item Reservations](../how-to-track-item-reservations.md)   
+ [How to: View Item Availability](../how-to-view-item-availability.md)   
+ [About Production Orders](../about-production-orders.md)

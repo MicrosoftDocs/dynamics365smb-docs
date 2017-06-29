@@ -38,6 +38,6 @@ You use intercompany documents to post transactions with your intercompany partn
 >  You can send sales and purchase orders and return orders before posting. Invoices and credit memos cannot be sent until they are posted.  
   
 ## See Also  
- [How to: Handle Outgoing Intercompany Transactions](../FullExperience/how-to-handle-outgoing-intercompany-transactions.md)   
- [How to: Handle Incoming Intercompany Transactions](../FullExperience/how-to-handle-incoming-intercompany-transactions.md)   
- [How to: Fill In and Post Intercompany Journals](../FullExperience/how-to-fill-in-and-post-intercompany-journals.md)
+ [How to: Handle Outgoing Intercompany Transactions](../how-to-handle-outgoing-intercompany-transactions.md)   
+ [How to: Handle Incoming Intercompany Transactions](../how-to-handle-incoming-intercompany-transactions.md)   
+ [How to: Fill In and Post Intercompany Journals](../how-to-fill-in-and-post-intercompany-journals.md)

@@ -35,5 +35,5 @@ You can copy routings. This is useful for long routings or when slight changes a
 4.  Change the **Status** field to **Certified**.  
   
 ## See Also  
- [How to: Create Routings](../FullExperience/how-to-create-routings.md)   
- [How to: Copy Routing Versions](../FullExperience/how-to-copy-routing-versions.md)
+ [How to: Create Routings](../how-to-create-routings.md)   
+ [How to: Copy Routing Versions](../how-to-copy-routing-versions.md)

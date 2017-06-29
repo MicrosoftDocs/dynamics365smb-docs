@@ -40,6 +40,6 @@ After you have set up your bins, you can set up the bin contents. In other words
 >  You can set up several bin contents at the same time in the **Bin Content Creation Worksheet** window.  
   
 ## See Also  
- [How to: Set Up Locations to Use Bins](../FullExperience/how-to-set-up-locations-to-use-bins.md)   
- [How to: Create Bins in the Bin Creation Worksheet](../FullExperience/how-to-create-bins-in-the-bin-creation-worksheet.md)   
- [How to: Create Bin Content in Worksheets](../FullExperience/how-to-create-bin-content-in-worksheets.md)
+ [How to: Set Up Locations to Use Bins](../how-to-set-up-locations-to-use-bins.md)   
+ [How to: Create Bins in the Bin Creation Worksheet](../how-to-create-bins-in-the-bin-creation-worksheet.md)   
+ [How to: Create Bin Content in Worksheets](../how-to-create-bin-content-in-worksheets.md)

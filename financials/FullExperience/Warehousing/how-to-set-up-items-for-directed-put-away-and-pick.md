@@ -31,6 +31,6 @@ When you set up a warehouse location for directed put-away and pick, you have ne
 5.  On the **Warehouse** FastTab of the item card, fill in the fields to define how the item should be handled in the warehouse.  
   
 ## See Also  
- [How to: Set Up Locations to Use Bins](../FullExperience/how-to-set-up-locations-to-use-bins.md)   
- [How to: Convert Existing Locations to Warehouse Locations](../FullExperience/how-to-convert-existing-locations-to-warehouse-locations.md)   
- [How to: Set Up Warehouses for Directed Put-away and Pick](../FullExperience/how-to-set-up-warehouses-for-directed-put-away-and-pick.md)
+ [How to: Set Up Locations to Use Bins](../how-to-set-up-locations-to-use-bins.md)   
+ [How to: Convert Existing Locations to Warehouse Locations](../how-to-convert-existing-locations-to-warehouse-locations.md)   
+ [How to: Set Up Warehouses for Directed Put-away and Pick](../how-to-set-up-warehouses-for-directed-put-away-and-pick.md)

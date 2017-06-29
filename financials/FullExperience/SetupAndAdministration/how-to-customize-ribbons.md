@@ -18,7 +18,7 @@
 # How to: Customize Ribbons
 By opening the **Customize Ribbon** window from any page that has a ribbon, you can customize the ribbon to optimize it for your work processes and preferences. For example, if you frequently use the **Dimensions** window, you can add the **Dimensions** action to the **Process** actions group. You can also remove actions that you never use for better overview.  
   
- ![Customize ribbon dialog for selecting actions](../FullExperience/media/rtc_customizeribbon.png "RTC\_CustomizeRibbon")  
+ ![Customize ribbon dialog for selecting actions](../media/rtc_customizeribbon.png "RTC\_CustomizeRibbon")  
   
 > [!NOTE]  
 >  Depending on the setting in the **UI Elements Removal** field in the ADD INCLUDE<!--[!INCLUDE[nav_admin](../../includes/How%20to:%20Specify%20When%20UI%20Elements%20Are%20Removed.md).  
@@ -51,7 +51,7 @@ By opening the **Customize Ribbon** window from any page that has a ribbon, you 
   
 ### To start customizing a ribbon  
   
--   On a page with a ribbon, on the **Application** menu ![Application Menu button in menu bar](../FullExperience/media/applicationmenuicon.png "ApplicationMenuIcon"), choose **Customize**, and then choose **Customize Ribbon**.  
+-   On a page with a ribbon, on the **Application** menu ![Application Menu button in menu bar](../media/applicationmenuicon.png "ApplicationMenuIcon"), choose **Customize**, and then choose **Customize Ribbon**.  
   
 ### To filter for actions  
   
@@ -105,17 +105,17 @@ By opening the **Customize Ribbon** window from any page that has a ribbon, you 
 -   In the **Customize** window, choose **Restore Defaults**, and then choose the **OK** button.  
   
     > [!NOTE]  
-    >  All customization of ribbons that you have ever made for this page under your current user logon or since you last used the **Restore Defaults** button are canceled. The layout of the ribbon on the page is reset to the default configuration for your profile. For more information, see [How to: Cancel UI Personalization](../FullExperience/how-to-cancel-ui-personalization.md).  
+    >  All customization of ribbons that you have ever made for this page under your current user logon or since you last used the **Restore Defaults** button are canceled. The layout of the ribbon on the page is reset to the default configuration for your profile. For more information, see [How to: Cancel UI Personalization](../how-to-cancel-ui-personalization.md).  
   
 ## See Also  
- [Ribbon](../FullExperience/ribbon.md)   
+ [Ribbon](../ribbon.md)   
  PERSONALIZATION Personalize the User Interface   
- [How to: Define Promoted Action Categories Captions for the Ribbon](../FullExperience/How%20to:%20Define%20Promoted%20Action%20Categories%20Captions%20for%20the%20Ribbon.md)   
- [Troubleshooting: Removing Promoted Actions in Home Tab](../FullExperience/troubleshooting-removing-promoted-actions-in-home-tab.md)   
- [How to: Customize FastTabs](../FullExperience/how-to-customize-fasttabs.md)   
- [How to: Customize FactBoxes](../FullExperience/how-to-customize-factboxes.md)   
- [How to: Cancel UI Personalization](../FullExperience/how-to-cancel-ui-personalization.md)   
+ [How to: Define Promoted Action Categories Captions for the Ribbon](../How%20to:%20Define%20Promoted%20Action%20Categories%20Captions%20for%20the%20Ribbon.md)   
+ [Troubleshooting: Removing Promoted Actions in Home Tab](../troubleshooting-removing-promoted-actions-in-home-tab.md)   
+ [How to: Customize FastTabs](../how-to-customize-fasttabs.md)   
+ [How to: Customize FactBoxes](../how-to-customize-factboxes.md)   
+ [How to: Cancel UI Personalization](../how-to-cancel-ui-personalization.md)   
  Delete User Personalization   
- [Customize the User Interface](../FullExperience/customize-the-user-interface.md)   
- [Working with Product Name](../FullExperience/working-with-$-p_1-product-name-$-.md)   
- [Learn About the RoleTailored Design](../FullExperience/learn-about-the-roletailored-design.md)
+ [Customize the User Interface](../customize-the-user-interface.md)   
+ [Working with Product Name](../working-with-$-p_1-product-name-$-.md)   
+ [Learn About the RoleTailored Design](../learn-about-the-roletailored-design.md)

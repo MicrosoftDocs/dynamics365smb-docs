@@ -48,7 +48,7 @@
 |Shift\+Tab|Moves to the previous element.|  
 |While moving an element, press Esc.|Cancels the move. **Note:**  Does not work if you have released the mouse button.|  
   
- To learn how to drag elements inside the **Timeline** FastTab, see [How to: Modify Planning Suggestions in a Graphical View](../FullExperience/how-to-modify-planning-suggestions-in-a-graphical-view.md).  
+ To learn how to drag elements inside the **Timeline** FastTab, see [How to: Modify Planning Suggestions in a Graphical View](../how-to-modify-planning-suggestions-in-a-graphical-view.md).  
   
 ## See Also  
  Item Availability by Timeline

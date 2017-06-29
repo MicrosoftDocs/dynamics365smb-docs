@@ -24,12 +24,12 @@ One way to set up a service management business is to have standard contractual 
   
 |**To**|**See**|  
 |------------|-------------|  
-|Set up a template to create standard contracts and service contract quotes.|[How to: Set Up Contract Templates](../FullExperience/how-to-set-up-contract-templates.md)|  
-|Create a contract or quote in the **Service Contract** window.|[How to: Create Service Contracts and Service Contract Quotes](../FullExperience/how-to-create-service-contracts-and-service-contract-quotes.md)|  
-|Create a quote for service for a prospective customer who is not yet in your system.|[How to: Set Up Customer Templates](../FullExperience/how-to-set-up-customer-templates.md)|  
-|Apply discounts to a service quote or contract for spare parts or service costs, for example.|[How to: Add Contract Discounts](../FullExperience/how-to-add-contract-discounts.md)|  
-|Associate comments with specific contracts.|[How to: Register Service Contract Comments](../FullExperience/how-to-register-service-contract-comments.md)|  
+|Set up a template to create standard contracts and service contract quotes.|[How to: Set Up Contract Templates](../how-to-set-up-contract-templates.md)|  
+|Create a contract or quote in the **Service Contract** window.|[How to: Create Service Contracts and Service Contract Quotes](../how-to-create-service-contracts-and-service-contract-quotes.md)|  
+|Create a quote for service for a prospective customer who is not yet in your system.|[How to: Set Up Customer Templates](../how-to-set-up-customer-templates.md)|  
+|Apply discounts to a service quote or contract for spare parts or service costs, for example.|[How to: Add Contract Discounts](../how-to-add-contract-discounts.md)|  
+|Associate comments with specific contracts.|[How to: Register Service Contract Comments](../how-to-register-service-contract-comments.md)|  
   
 ## See Also  
  Service Contract   
- [Service Price Management](../FullExperience/service-price-management.md)
+ [Service Price Management](../service-price-management.md)

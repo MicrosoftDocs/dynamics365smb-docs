@@ -79,8 +79,8 @@ You can submit domiciliations to your bank by exporting the data to a file. When
   
 ## See Also  
  SEPA Direct Debit Exp. Format   
- [Direct Debit Using Domiciliation](../FullExperience/direct-debit-using-domiciliation.md)   
- [How to: Set Up Domiciliations](../FullExperience/how-to-set-up-domiciliations.md)   
- [How to: Generate Domiciliation Suggestions](../FullExperience/how-to-generate-domiciliation-suggestions.md)   
- [How to: Test Domiciliations](../FullExperience/how-to-test-domiciliations.md)   
- [How to: Edit and Delete Domiciliation Lines](../FullExperience/how-to-edit-and-delete-domiciliation-lines.md)
+ [Direct Debit Using Domiciliation](../direct-debit-using-domiciliation.md)   
+ [How to: Set Up Domiciliations](../how-to-set-up-domiciliations.md)   
+ [How to: Generate Domiciliation Suggestions](../how-to-generate-domiciliation-suggestions.md)   
+ [How to: Test Domiciliations](../how-to-test-domiciliations.md)   
+ [How to: Edit and Delete Domiciliation Lines](../how-to-edit-and-delete-domiciliation-lines.md)

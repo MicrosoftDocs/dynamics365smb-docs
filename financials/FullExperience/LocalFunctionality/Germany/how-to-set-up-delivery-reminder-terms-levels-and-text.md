@@ -26,7 +26,7 @@ To create delivery reminders, you must set up the following:
   
  Each delivery reminder term has two or more delivery reminder levels, and for each delivery reminder level, you can specify text that will be part of the delivery reminder.  
   
- For more information, see [Delivery Reminders](../FullExperience/delivery-reminders.md).  
+ For more information, see [Delivery Reminders](../delivery-reminders.md).  
   
 ### To set up delivery reminder terms  
   
@@ -78,11 +78,11 @@ To create delivery reminders, you must set up the following:
 4.  Choose the **OK** button.  
   
 ## See Also  
- [Delivery Reminders](../FullExperience/delivery-reminders.md)   
- [How to: Set Up Delivery Reminders](../FullExperience/how-to-set-up-delivery-reminders.md)   
- [How to: Assign Delivery Reminder Codes to Vendors](../FullExperience/how-to-assign-delivery-reminder-codes-to-vendors.md)   
- [How to: Create Delivery Reminders Manually](../FullExperience/how-to-create-delivery-reminders-manually.md)   
- [How to: Issue Delivery Reminders](../FullExperience/how-to-issue-delivery-reminders.md)   
+ [Delivery Reminders](../delivery-reminders.md)   
+ [How to: Set Up Delivery Reminders](../how-to-set-up-delivery-reminders.md)   
+ [How to: Assign Delivery Reminder Codes to Vendors](../how-to-assign-delivery-reminder-codes-to-vendors.md)   
+ [How to: Create Delivery Reminders Manually](../how-to-create-delivery-reminders-manually.md)   
+ [How to: Issue Delivery Reminders](../how-to-issue-delivery-reminders.md)   
  Delivery Reminder Term   
  Delivery Reminder Level   
  Delivery Reminder Text

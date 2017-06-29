@@ -27,5 +27,5 @@ After transactions are posted to bank accounts, you can view the entries in the 
 3.  On the **Navigate** tab, in the **Bank Acc.** group, choose **Ledger Entries**.  
   
 ## See Also  
- [How to: Set Up Bank Accounts](../FullExperience/how-to-set-up-bank-accounts.md)   
- [How to: View Check Ledger Entries](../FullExperience/how-to-view-check-ledger-entries.md)
+ [How to: Set Up Bank Accounts](../how-to-set-up-bank-accounts.md)   
+ [How to: View Check Ledger Entries](../how-to-view-check-ledger-entries.md)

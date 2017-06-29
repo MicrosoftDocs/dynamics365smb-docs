@@ -31,5 +31,5 @@ You can assign service zones to customers in the **Customer Card** window. When 
  Repeat these steps for each customer you want to assign a service zone to.  
   
 ## See Also  
- [How to: Assign Resources to Service Zones](../FullExperience/how-to-assign-resources-to-service-zones.md)   
- [How to: Set Up Service Zones](../FullExperience/how-to-set-up-service-zones.md)
+ [How to: Assign Resources to Service Zones](../how-to-assign-resources-to-service-zones.md)   
+ [How to: Set Up Service Zones](../how-to-set-up-service-zones.md)

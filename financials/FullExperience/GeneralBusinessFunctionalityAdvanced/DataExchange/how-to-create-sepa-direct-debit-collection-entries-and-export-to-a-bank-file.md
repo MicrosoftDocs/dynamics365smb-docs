@@ -67,14 +67,14 @@ To instruct the bank to transfer the payment amount from the customer’s bank a
   
      The related direct-debit collection is closed.  
   
- You can now proceed to post receipts of payment for the involved sales invoices. You can do this as you typically post payment receipts, such as in the **Payment Registration** window, or you can post the related payment receipts directly from the **Direct Debit Collect. Entries** window. For more information, see [How to: Post SEPA Direct Debit Payment Receipts](../FullExperience/how-to-post-sepa-direct-debit-payment-receipts.md).  
+ You can now proceed to post receipts of payment for the involved sales invoices. You can do this as you typically post payment receipts, such as in the **Payment Registration** window, or you can post the related payment receipts directly from the **Direct Debit Collect. Entries** window. For more information, see [How to: Post SEPA Direct Debit Payment Receipts](../how-to-post-sepa-direct-debit-payment-receipts.md).  
   
 ## See Also  
  Create Direct Debit Collection   
  Direct Debit Mandate ID   
  Direct Debit Collections   
  Direct Debit Collect. Entries   
- [How to: Set Up SEPA Direct Debit](../FullExperience/how-to-set-up-sepa-direct-debit.md)   
- [How to: Post SEPA Direct Debit Payment Receipts](../FullExperience/how-to-post-sepa-direct-debit-payment-receipts.md)   
- [Collect Payments with SEPA Direct Debit](../FullExperience/collect-payments-with-sepa-direct-debit.md)   
+ [How to: Set Up SEPA Direct Debit](../how-to-set-up-sepa-direct-debit.md)   
+ [How to: Post SEPA Direct Debit Payment Receipts](../how-to-post-sepa-direct-debit-payment-receipts.md)   
+ [Collect Payments with SEPA Direct Debit](../collect-payments-with-sepa-direct-debit.md)   
  Payment Registration

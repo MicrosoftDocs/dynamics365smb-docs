@@ -34,13 +34,13 @@ Reverse an inward registration if you want to cancel it, for example, because yo
   
      The inward registration has been reversed and deleted. You can see the resulting negative entry in the **Inward Reg. Entry** window.  
   
- For information about creating a new inward registration, see [How to: Post Preliminary Invoices by Using Inward Registration](../FullExperience/how-to-post-preliminary-invoices-by-using-inward-registration.md).  
+ For information about creating a new inward registration, see [How to: Post Preliminary Invoices by Using Inward Registration](../how-to-post-preliminary-invoices-by-using-inward-registration.md).  
   
 ## See Also  
  Inward Registration   
  Inward Reg. Entry   
  Inward Reg. Line   
- [Record Purchase Invoices](../FullExperience/record-purchase-invoices.md)   
- [How to: Post Preliminary Invoices by Using Inward Registration](../FullExperience/how-to-post-preliminary-invoices-by-using-inward-registration.md)   
- [How to: Record VAT](../FullExperience/how-to-record-vat.md)   
- [Sweden Local Functionality](../FullExperience/sweden-local-functionality.md)
+ [Record Purchase Invoices](../record-purchase-invoices.md)   
+ [How to: Post Preliminary Invoices by Using Inward Registration](../how-to-post-preliminary-invoices-by-using-inward-registration.md)   
+ [How to: Record VAT](../how-to-record-vat.md)   
+ [Sweden Local Functionality](../sweden-local-functionality.md)

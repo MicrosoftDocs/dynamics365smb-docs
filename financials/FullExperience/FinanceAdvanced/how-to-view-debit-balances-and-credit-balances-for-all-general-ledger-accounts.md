@@ -31,6 +31,6 @@ You can view debit and credit balances for all general ledger accounts for a sin
 >  You can choose to have the calculations include or exclude closing entries by selecting the appropriate option in the **Closing Entries** field. You can also apply additional filters although by default, the **Filter** pane is not displayed.  
   
 ## See Also  
- [How to: View Debit and Credit Balances for Single General Ledger Accounts](../FullExperience/how-to-view-debit-and-credit-balances-for-single-general-ledger-accounts.md)   
- [How to: View Balances for All General Ledger Accounts by Periods](../FullExperience/how-to-view-balances-for-all-general-ledger-accounts-by-periods.md)   
+ [How to: View Debit and Credit Balances for Single General Ledger Accounts](../how-to-view-debit-and-credit-balances-for-single-general-ledger-accounts.md)   
+ [How to: View Balances for All General Ledger Accounts by Periods](../how-to-view-balances-for-all-general-ledger-accounts-by-periods.md)   
  G\/L Balance

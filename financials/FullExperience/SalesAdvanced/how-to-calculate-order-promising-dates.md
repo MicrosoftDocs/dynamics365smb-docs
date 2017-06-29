@@ -44,5 +44,5 @@ The order promising function is a tool for calculating the earliest possible dat
   
 ## See Also  
  Order Promising Lines   
- [About Order Promising](../FullExperience/about-order-promising.md)   
- [How to: Set Up Order Promising](../FullExperience/how-to-set-up-order-promising.md)
+ [About Order Promising](../about-order-promising.md)   
+ [How to: Set Up Order Promising](../how-to-set-up-order-promising.md)

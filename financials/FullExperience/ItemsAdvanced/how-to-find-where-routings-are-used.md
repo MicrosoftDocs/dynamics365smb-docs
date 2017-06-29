@@ -30,5 +30,5 @@ You can use the **Where-used** function to find out which items use a certain ro
 4.  Close the window.  
   
 ## See Also  
- [How to: Create Routings](../FullExperience/how-to-create-routings.md)   
- [How to: Find Where Production BOMs Are Used](../FullExperience/how-to-find-where-production-boms-are-used.md)
+ [How to: Create Routings](../how-to-create-routings.md)   
+ [How to: Find Where Production BOMs Are Used](../how-to-find-where-production-boms-are-used.md)

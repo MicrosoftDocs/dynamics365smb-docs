@@ -47,6 +47,6 @@ If you have amended production order lines, you must also refresh the routing of
 >  Calculating production order routing lines deletes previous changes in the routings.  
   
 ## See Also  
- [How to: Refresh Production Orders](../FullExperience/how-to-refresh-production-orders.md)   
- [How to: Calculate Production Order Components](../FullExperience/how-to-calculate-production-order-components.md)   
- [How to: Calculate Lines from Production Order Headers](../FullExperience/how-to-calculate-lines-from-production-order-headers.md)
+ [How to: Refresh Production Orders](../how-to-refresh-production-orders.md)   
+ [How to: Calculate Production Order Components](../how-to-calculate-production-order-components.md)   
+ [How to: Calculate Lines from Production Order Headers](../how-to-calculate-lines-from-production-order-headers.md)

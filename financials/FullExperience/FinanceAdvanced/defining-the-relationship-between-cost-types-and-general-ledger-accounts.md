@@ -44,6 +44,6 @@ The relationship between the cost type and the general ledger account is created
 -   The helping account, 9920 in the ADD INCLUDE<!--[!INCLUDE[demo](../../includes/demo_md.md)]--> database, contains actual accruals that show the difference between costs and the expense from the general ledger.  
   
 ## See Also  
- [How to: Set Up Cost Types](../FullExperience/how-to-set-up-cost-types.md)   
- [Set Up Cost Accounting](../FullExperience/set-up-cost-accounting.md)   
- [About Cost Accounting](../FullExperience/about-cost-accounting.md)
+ [How to: Set Up Cost Types](../how-to-set-up-cost-types.md)   
+ [Set Up Cost Accounting](../set-up-cost-accounting.md)   
+ [About Cost Accounting](../about-cost-accounting.md)

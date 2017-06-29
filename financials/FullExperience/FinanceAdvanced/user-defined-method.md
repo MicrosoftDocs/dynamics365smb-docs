@@ -27,10 +27,10 @@ The program has a facility that allows you to set up user-defined depreciation m
 ## Depreciation Based on Number of Units  
  This user-defined method can also be used to depreciate based on number of units, for example, in the case of production machines with an established lifetime capacity. In the **Depreciation Tables** window, you can enter the number of units that can be produced in each period \(month, quarter, year, or accounting period\).  
   
- For an example, see [Example - User-Defined Depreciation Method](../FullExperience/example-user-defined-depreciation-method.md) for more information.  
+ For an example, see [Example - User-Defined Depreciation Method](../example-user-defined-depreciation-method.md) for more information.  
   
 ## See Also  
- [How to: Set Up User-Defined Depreciation Methods](../FullExperience/how-to-set-up-user-defined-depreciation-methods.md)   
- [Depreciation Methods](../FullExperience/depreciation-methods.md)   
- [Depreciate or Amortize Assets](../FullExperience/depreciate-or-amortize-assets.md)   
- [Set Up Depreciation](../FullExperience/set-up-depreciation.md)
+ [How to: Set Up User-Defined Depreciation Methods](../how-to-set-up-user-defined-depreciation-methods.md)   
+ [Depreciation Methods](../depreciation-methods.md)   
+ [Depreciate or Amortize Assets](../depreciate-or-amortize-assets.md)   
+ [Set Up Depreciation](../set-up-depreciation.md)

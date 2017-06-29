@@ -32,4 +32,4 @@ As you create a configuration package for a solution, you can view and customize
 3.  Review the available information. Modify it as necessary by deleting records that are not relevant or by adding new ones.  
   
 ## See Also  
- [How to: Manage Company Configuration in a Worksheet](../FullExperience/how-to-manage-company-configuration-in-a-worksheet.md)
+ [How to: Manage Company Configuration in a Worksheet](../how-to-manage-company-configuration-in-a-worksheet.md)

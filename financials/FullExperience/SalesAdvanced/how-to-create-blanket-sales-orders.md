@@ -16,7 +16,7 @@
 
     ---
 # How to: Create Blanket Sales Orders
-Use blanket orders when a customer has agreed to buy large quantities that are to be delivered in several smaller shipments over a certain period of time. For more information, see [About Blanket Sales Orders](../FullExperience/about-blanket-sales-orders.md).  
+Use blanket orders when a customer has agreed to buy large quantities that are to be delivered in several smaller shipments over a certain period of time. For more information, see [About Blanket Sales Orders](../about-blanket-sales-orders.md).  
   
  The topic contains the following sections:  
   
@@ -54,9 +54,9 @@ Use blanket orders when a customer has agreed to buy large quantities that are t
   
 3.  Choose the **OK** button.  
   
-4.  To see the results of the preceding steps, on the **Lines** FastTab, choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Line**, choose **Unposted Lines**, and then choose **Orders**.  
+4.  To see the results of the preceding steps, on the **Lines** FastTab, choose **Actions**![Action Menu icon](../media/actionmenuicon.png "actionMenuIcon"), choose **Line**, choose **Unposted Lines**, and then choose **Orders**.  
   
-5.  In the **Sales Lines** window, select the appropriate sales order, on the **Lines** FastTab, choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Line**, and then choose **Show Document**.  
+5.  In the **Sales Lines** window, select the appropriate sales order, on the **Lines** FastTab, choose **Actions**![Action Menu icon](../media/actionmenuicon.png "actionMenuIcon"), choose **Line**, and then choose **Show Document**.  
   
  The following applies to sales orders after they have been created from blanket sales orders:  
   
@@ -77,7 +77,7 @@ Use blanket orders when a customer has agreed to buy large quantities that are t
 -   If a customer is also recorded as a contact in the Marketing application area, and if you have specified an interaction template code for blanket sales order in the **Marketing Setup** window, an interaction is recorded in the Interaction Log Entry table when you select **Print** to print the blanket sales order.  
   
 ## See Also  
- [How to: Convert Blanket Sales Orders to Sales Orders](../FullExperience/how-to-convert-blanket-sales-orders-to-sales-orders.md)   
- [How to: View the Status of Blanket Sales Orders](../FullExperience/how-to-view-the-status-of-blanket-sales-orders.md)   
- [How to: View Unposted and Posted Blanket Sales Order Lines](../FullExperience/how-to-view-unposted-and-posted-blanket-sales-order-lines.md)   
+ [How to: Convert Blanket Sales Orders to Sales Orders](../how-to-convert-blanket-sales-orders-to-sales-orders.md)   
+ [How to: View the Status of Blanket Sales Orders](../how-to-view-the-status-of-blanket-sales-orders.md)   
+ [How to: View Unposted and Posted Blanket Sales Order Lines](../how-to-view-unposted-and-posted-blanket-sales-order-lines.md)   
  Delete Invd Blnkt Sales Orders

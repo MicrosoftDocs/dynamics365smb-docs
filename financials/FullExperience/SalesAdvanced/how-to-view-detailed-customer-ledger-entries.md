@@ -30,4 +30,4 @@ All adjustments to a customer ledger entry, for example, payment discounts or ch
   
 ## See Also  
  Customer Ledger Entries   
- [How to: View Applied Customer Ledger Entries from the Ledger Entry Window](../FullExperience/how-to-view-applied-customer-ledger-entries-from-the-ledger-entry-window.md)
+ [How to: View Applied Customer Ledger Entries from the Ledger Entry Window](../how-to-view-applied-customer-ledger-entries-from-the-ledger-entry-window.md)

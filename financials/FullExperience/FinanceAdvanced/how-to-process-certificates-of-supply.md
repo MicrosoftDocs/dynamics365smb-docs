@@ -103,5 +103,5 @@ When you sell goods to a customer in another EU country\/region, you must send t
     > -   To print a certificate of supply.  
   
 ## See Also  
- [Certificates of Supply](../FullExperience/certificates-of-supply.md)   
- [How to: Create Certificates of Supply](../FullExperience/how-to-create-certificates-of-supply.md)
+ [Certificates of Supply](../certificates-of-supply.md)   
+ [How to: Create Certificates of Supply](../how-to-create-certificates-of-supply.md)

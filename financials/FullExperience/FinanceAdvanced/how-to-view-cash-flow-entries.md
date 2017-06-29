@@ -29,5 +29,5 @@ Each time that you register cash flow worksheet lines, you can view the informat
 4.  The window shows you the entries and documents that are the sources for the cash flow entries.  
   
 ## See Also  
- [How to: Register Cash Flow Worksheet Lines](../FullExperience/how-to-register-cash-flow-worksheet-lines.md)   
+ [How to: Register Cash Flow Worksheet Lines](../how-to-register-cash-flow-worksheet-lines.md)   
  Cash Flow Forecast Card

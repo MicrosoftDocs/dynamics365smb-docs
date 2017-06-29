@@ -27,5 +27,5 @@ After a reminder has been created, you can get an overview of it.
      The **General** FastTab shows a summary of the reminder. On the **Customer** FastTab, you can see the customer’s current balance and credit limit in LCY.  
   
 ## See Also  
- [How to: Create Reminders Automatically](../FullExperience/how-to-create-reminders-automatically.md)   
- [How to: Create Reminders Manually](../FullExperience/how-to-create-reminders-manually.md)
+ [How to: Create Reminders Automatically](../how-to-create-reminders-automatically.md)   
+ [How to: Create Reminders Manually](../how-to-create-reminders-manually.md)

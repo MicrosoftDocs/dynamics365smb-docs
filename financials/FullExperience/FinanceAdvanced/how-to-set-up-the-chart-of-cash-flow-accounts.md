@@ -68,7 +68,7 @@ In the cash flow forecast, the individual values that affect the cash flow of yo
   
 ## See Also  
  Chart of Cash Flow Accounts   
- [Cash Flow Overview](../FullExperience/cash-flow-overview.md)   
- [How to: Set Up Cash Flow Forecasts](../FullExperience/how-to-set-up-cash-flow-forecasts.md)   
- [How to: Configure Accounts for Cash Flow Setup](../FullExperience/how-to-configure-accounts-for-cash-flow-setup.md)   
+ [Cash Flow Overview](../cash-flow-overview.md)   
+ [How to: Set Up Cash Flow Forecasts](../how-to-set-up-cash-flow-forecasts.md)   
+ [How to: Configure Accounts for Cash Flow Setup](../how-to-configure-accounts-for-cash-flow-setup.md)   
  Suggest Worksheet Lines

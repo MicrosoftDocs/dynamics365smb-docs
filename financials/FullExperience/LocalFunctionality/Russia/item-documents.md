@@ -175,9 +175,9 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> includes sever
      On the **Home** tab, in the **Print** group, choose **Print**.  
   
 ## See Also  
- [Inventory Setup](../FullExperience/inventory-setup.md)   
- [Item Obligatory Acts](../FullExperience/item-obligatory-acts.md)   
- [Item General Ledger Turnover](../FullExperience/item-general-ledger-turnover.md)   
+ [Inventory Setup](../inventory-setup.md)   
+ [Item Obligatory Acts](../item-obligatory-acts.md)   
+ [Item General Ledger Turnover](../item-general-ledger-turnover.md)   
  Item Report TORG-29   
  Items Receipt Act TORG-1   
  Receipt Deviations TORG-2   

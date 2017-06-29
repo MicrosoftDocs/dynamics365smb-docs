@@ -29,7 +29,7 @@ You must submit an annual report that shows the monetary value of inventory item
 -   Discrete LIFO cost  
   
 ## Fiscal Inventory Valuation in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->  
- Initially, you must set up the fiscal inventory valuation for all cost types in the **Item Costing Setup** window and the **Item Card** window. For more information, see [How to: Set Up Fiscal Inventory Valuation](../FullExperience/how-to-set-up-fiscal-inventory-valuation.md).  
+ Initially, you must set up the fiscal inventory valuation for all cost types in the **Item Costing Setup** window and the **Item Card** window. For more information, see [How to: Set Up Fiscal Inventory Valuation](../how-to-set-up-fiscal-inventory-valuation.md).  
   
  When you set up ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-set-up-initial-item-costs.md).  
   
@@ -46,9 +46,9 @@ You must submit an annual report that shows the monetary value of inventory item
  For year-end operations, such as calculating the profit and loss during a fiscal year, there is a definitive period and a non-definitive period. If the **Competence Year** field in the **Item Cost History List** window is equal to the fiscal year end date, it is a definitive period, and you cannot recalculate data for a definitive period. If the definitive data differs from the fiscal year end date, then it is a non-definitive period. There should be data for at least one non-definitive period to perform calculations or partial calculations.  
   
 ## See Also  
- [Italy Local Functionality](../FullExperience/italy-local-functionality.md)   
- [How to: Set Up Fiscal Inventory Valuation](../FullExperience/how-to-set-up-fiscal-inventory-valuation.md)   
- [How to: Set Up Initial Item Costs](../FullExperience/how-to-set-up-initial-item-costs.md)   
+ [Italy Local Functionality](../italy-local-functionality.md)   
+ [How to: Set Up Fiscal Inventory Valuation](../how-to-set-up-fiscal-inventory-valuation.md)   
+ [How to: Set Up Initial Item Costs](../how-to-set-up-initial-item-costs.md)   
  Item Cost History List   
  Calculate End Year Costs   
  Item Card   

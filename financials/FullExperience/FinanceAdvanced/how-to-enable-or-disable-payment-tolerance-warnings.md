@@ -31,9 +31,9 @@ The payment tolerance warning appears when you post an application that has a ba
 >  The default option for the **Payment Tolerance Warning** window is **Leave the Balance as Remaining Amount**. The default option for the **Pmt. Disc. Tolerance Warning** window the is **Do Not Accept the Late Payment Discount**.  
   
 ## See Also  
- [How to: Set Up Tolerances](../FullExperience/how-to-set-up-tolerances.md)   
- [How to: Block Payment Tolerances for a Customer or a Vendor](../FullExperience/how-to-block-payment-tolerances-for-a-customer-or-a-vendor.md)   
+ [How to: Set Up Tolerances](../how-to-set-up-tolerances.md)   
+ [How to: Block Payment Tolerances for a Customer or a Vendor](../how-to-block-payment-tolerances-for-a-customer-or-a-vendor.md)   
  Change Payment Tolerance   
- [Payment Tolerance and Payment Discount Tolerance](../FullExperience/payment-tolerance-and-payment-discount-tolerance.md)   
+ [Payment Tolerance and Payment Discount Tolerance](../payment-tolerance-and-payment-discount-tolerance.md)   
  Pmt. Disc. Tolerance Warning   
  Payment Tolerance Warning

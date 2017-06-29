@@ -24,17 +24,17 @@ Before you can manage sales processes, you must configure the rules and values t
   
  A separate series of tasks related to creating customer master data is to record the customers' discount and price agreements in windows linked to the customer cards.  
   
- Finance-related sales configuration, such as payment and reminder handling, are covered in [Set Up Receivables and Payables](../FullExperience/set-up-receivables-and-payables.md).  
+ Finance-related sales configuration, such as payment and reminder handling, are covered in [Set Up Receivables and Payables](../set-up-receivables-and-payables.md).  
   
  The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
   
 |**To**|**See**|  
 |------------|-------------|  
-|Configure general rules about sales processing, how values are posted, and which document number series to use.|[Set Up General Sales Rules and Values](../FullExperience/set-up-general-sales-rules-and-values.md)|  
-|Enter information about new customers to define how to handle sales processes with each vendor.|[Create New Customer Accounts](../FullExperience/create-new-customer-accounts.md)|  
-|Enter the different discounts and alternative prices that you grant the customers depending on item, quantities, and\/or date.|[Record Sales Price, Discount, and Payment Agreements](../FullExperience/record-sales-price-discount-and-payment-agreements.md)|  
+|Configure general rules about sales processing, how values are posted, and which document number series to use.|[Set Up General Sales Rules and Values](../set-up-general-sales-rules-and-values.md)|  
+|Enter information about new customers to define how to handle sales processes with each vendor.|[Create New Customer Accounts](../create-new-customer-accounts.md)|  
+|Enter the different discounts and alternative prices that you grant the customers depending on item, quantities, and\/or date.|[Record Sales Price, Discount, and Payment Agreements](../record-sales-price-discount-and-payment-agreements.md)|  
   
 ## See Also  
- [Configure Purchase Processes](../FullExperience/configure-purchase-processes.md)   
- [Configure Finance Processes](../FullExperience/configure-finance-processes.md)   
- [Setup and Administration](../FullExperience/setup-and-administration.md)
+ [Configure Purchase Processes](../configure-purchase-processes.md)   
+ [Configure Finance Processes](../configure-finance-processes.md)   
+ [Setup and Administration](../setup-and-administration.md)

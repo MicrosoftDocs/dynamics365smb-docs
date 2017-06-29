@@ -42,5 +42,5 @@ In a number of scenarios, you may want to load and import a configuration packag
  Users can start to use the new functionality immediately.  
   
 ## See Also  
- [Microsoft Dynamics NAV Windows PowerShell Cmdlets](../FullExperience/Microsoft%20Dynamics%20NAV%20Windows%20PowerShell%20Cmdlets.md)   
- [How to: Configure New Companies](../FullExperience/how-to-configure-new-companies.md)
+ [Microsoft Dynamics NAV Windows PowerShell Cmdlets](../Microsoft%20Dynamics%20NAV%20Windows%20PowerShell%20Cmdlets.md)   
+ [How to: Configure New Companies](../how-to-configure-new-companies.md)

@@ -24,10 +24,10 @@ You can use the ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--
   
 |**To**|**See**|  
 |------------|-------------|  
-|Learn more about service pricing.|[Service Price Management](../FullExperience/service-price-management.md)|  
-|Set up service price groups for mapping service to a specific customer or currency, for example.|[How to: Set Up Service Price Groups](../FullExperience/how-to-set-up-service-price-groups.md)|  
-|Adjust pricing on service order items.|[How to: Create Service Price Adjustments](../FullExperience/how-to-create-service-price-adjustments.md)|  
-|Change the pricing on a service item manually.|[How to: Change Service Pricing for Service Items](../FullExperience/how-to-change-service-pricing-for-service-items.md)|  
+|Learn more about service pricing.|[Service Price Management](../service-price-management.md)|  
+|Set up service price groups for mapping service to a specific customer or currency, for example.|[How to: Set Up Service Price Groups](../how-to-set-up-service-price-groups.md)|  
+|Adjust pricing on service order items.|[How to: Create Service Price Adjustments](../how-to-create-service-price-adjustments.md)|  
+|Change the pricing on a service item manually.|[How to: Change Service Pricing for Service Items](../how-to-change-service-pricing-for-service-items.md)|  
   
 ## See Also  
- [How to: Set Up Service Costs](../FullExperience/how-to-set-up-service-costs.md)
+ [How to: Set Up Service Costs](../how-to-set-up-service-costs.md)

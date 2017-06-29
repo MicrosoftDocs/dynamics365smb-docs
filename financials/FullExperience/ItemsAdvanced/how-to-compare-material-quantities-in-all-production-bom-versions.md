@@ -33,5 +33,5 @@ The version matrix function offers a comparison of material quantities for each 
 5.  Close the window.  
   
 ## See Also  
- [Production BOM Versions](../FullExperience/production-bom-versions.md)   
- [How to: Create New Versions of Production BOMs](../FullExperience/how-to-create-new-versions-of-production-boms.md)
+ [Production BOM Versions](../production-bom-versions.md)   
+ [How to: Create New Versions of Production BOMs](../how-to-create-new-versions-of-production-boms.md)

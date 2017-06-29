@@ -48,7 +48,7 @@ This planning task can be performed in the **Order Planning** window, which disp
   
         |Demand type|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
         |-----------------|---------------------------------------|  
-        |**Production**|The description of the produced item.<br /><br /> For production demand for a project production order, the customer name is displayed. For more information, see [How to: Plan Project Orders](../FullExperience/how-to-plan-project-orders.md).|  
+        |**Production**|The description of the produced item.<br /><br /> For production demand for a project production order, the customer name is displayed. For more information, see [How to: Plan Project Orders](../how-to-plan-project-orders.md).|  
         |**Sales**|The customer name.|  
   
      The first planning line has the earliest demand date, and therefore you should plan this line first. To see the actual demand lines, either sales order lines or component lines, of each order header line, you must expand the line.  
@@ -136,9 +136,9 @@ This planning task can be performed in the **Order Planning** window, which disp
   
 ## See Also  
  Reserve   
- [About Planning Functionality](../FullExperience/about-planning-functionality.md)   
- [How to: Refresh Production Orders](../FullExperience/how-to-refresh-production-orders.md)   
- [How to: Replan Production Orders](../FullExperience/how-to-replan-production-orders.md)   
- [How to: Run MPS and MRP](../FullExperience/how-to-run-mps-and-mrp.md)   
- [Design Details: Supply Planning](../FullExperience/design-details-supply-planning.md)   
- [Setup Best Practices: Supply Planning](../FullExperience/setup-best-practices-supply-planning.md)
+ [About Planning Functionality](../about-planning-functionality.md)   
+ [How to: Refresh Production Orders](../how-to-refresh-production-orders.md)   
+ [How to: Replan Production Orders](../how-to-replan-production-orders.md)   
+ [How to: Run MPS and MRP](../how-to-run-mps-and-mrp.md)   
+ [Design Details: Supply Planning](../design-details-supply-planning.md)   
+ [Setup Best Practices: Supply Planning](../setup-best-practices-supply-planning.md)

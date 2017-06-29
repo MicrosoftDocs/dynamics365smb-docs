@@ -54,7 +54,7 @@ You may want to restructure your warehouse with new bin codes and new bin charac
   
 ### To restructure an advanced warehouse that uses directed put-away and pick  
   
-1.  Create the new bins that you want to use in the future. For more information, see [How to: Create Bins in the Bin Creation Worksheet](../FullExperience/how-to-create-bins-in-the-bin-creation-worksheet.md).  
+1.  Create the new bins that you want to use in the future. For more information, see [How to: Create Bins in the Bin Creation Worksheet](../how-to-create-bins-in-the-bin-creation-worksheet.md).  
   
 2.  Move all the contents of your current bins to the new bins that you just created.  
   
@@ -62,7 +62,7 @@ You may want to restructure your warehouse with new bin codes and new bin charac
   
     2.  For the bins where no real movement of items is involved, create a line for each of your current bins in the **Warehouse Reclassification Journal** with the old bin code, **From Bin Code**, and the new bin code, **To Bin Code**.  
   
-    3.  If some of the movements involve actual physical movements that you want employees to perform, use **Movement Worksheets** to prepare movement instructions instead of using the warehouse reclassification journal. For more information, see [How to: Move Items in Advanced Warehousing](../FullExperience/how-to-move-items-in-advanced-warehousing.md).  
+    3.  If some of the movements involve actual physical movements that you want employees to perform, use **Movement Worksheets** to prepare movement instructions instead of using the warehouse reclassification journal. For more information, see [How to: Move Items in Advanced Warehousing](../how-to-move-items-in-advanced-warehousing.md).  
   
 3.  When the old bins are emptied, reclassify them as **QC** type bins to ensure that they are not included in item flows.  
   
@@ -72,7 +72,7 @@ You may want to restructure your warehouse with new bin codes and new bin charac
   
     3.  In the **Bins** window, in the **Bin Type Code** field, enter **QC** for each of the old bins that you emptied in step 3 in the previous procedure.  
   
- You have now removed the bins from the warehouse flow, and reclassified them as QC bins. QC bins have none of the activity fields in the **Bin Types** window selected and are therefore not considered by the item flow. For more information, see [How to: Set Up Bin Types](../FullExperience/how-to-set-up-bin-types.md).  
+ You have now removed the bins from the warehouse flow, and reclassified them as QC bins. QC bins have none of the activity fields in the **Bin Types** window selected and are therefore not considered by the item flow. For more information, see [How to: Set Up Bin Types](../how-to-set-up-bin-types.md).  
   
 ### To delete a bin  
   
@@ -104,11 +104,11 @@ You may want to restructure your warehouse with new bin codes and new bin charac
 >  If you are renaming a receiving bin or a shipping bin, all the posted receipts or shipments that refer to the bin in question are renamed.  
   
 ## See Also  
- [How to: Set Up Locations to Use Bins](../FullExperience/how-to-set-up-locations-to-use-bins.md)   
- [How to: Set Up Warehouses for Directed Put-away and Pick](../FullExperience/how-to-set-up-warehouses-for-directed-put-away-and-pick.md)   
- [How to: Set Up Warehouse Management](../FullExperience/how-to-set-up-warehouse-management.md)   
+ [How to: Set Up Locations to Use Bins](../how-to-set-up-locations-to-use-bins.md)   
+ [How to: Set Up Warehouses for Directed Put-away and Pick](../how-to-set-up-warehouses-for-directed-put-away-and-pick.md)   
+ [How to: Set Up Warehouse Management](../how-to-set-up-warehouse-management.md)   
  Bin Content   
- [How to: Set Up Bin Contents](../FullExperience/how-to-set-up-bin-contents.md)   
- [How to: Delete Registered Warehouse Documents](../FullExperience/how-to-delete-registered-warehouse-documents.md)   
- [Design Details: Warehouse Management](../FullExperience/design-details-warehouse-management.md)   
- [Configure Warehouse Processes](../FullExperience/configure-warehouse-processes.md)
+ [How to: Set Up Bin Contents](../how-to-set-up-bin-contents.md)   
+ [How to: Delete Registered Warehouse Documents](../how-to-delete-registered-warehouse-documents.md)   
+ [Design Details: Warehouse Management](../design-details-warehouse-management.md)   
+ [Configure Warehouse Processes](../configure-warehouse-processes.md)

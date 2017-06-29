@@ -19,7 +19,7 @@
 You must take a physical inventory, that is, count the actual items on hand, to check if the quantity registered is the same as the physical quantity in stock at the end of a fiscal year, if not more often. If there are differences, you must post them to the item accounts before you do the inventory valuation.  
   
 > [!IMPORTANT]  
->  This topic describes how to perform a physical inventory in a non-directed warehouse setup. For information on how to perform it in a warehouse setup with directed put-away and pick, see [How to: Perform Warehouse Physical Inventories](../FullExperience/how-to-perform-warehouse-physical-inventories.md).  
+>  This topic describes how to perform a physical inventory in a non-directed warehouse setup. For information on how to perform it in a warehouse setup with directed put-away and pick, see [How to: Perform Warehouse Physical Inventories](../how-to-perform-warehouse-physical-inventories.md).  
   
  Apart from the physical counting task, the complete process involves the following three tasks:  
   
@@ -67,7 +67,7 @@ You must take a physical inventory, that is, count the actual items on hand, to 
      The related fields are updated accordingly.  
   
     > [!NOTE]  
-    >  If the physical count reveals differences that are caused by items posted with incorrect location codes, do not enter the differences in the physical inventory journal. Instead, use the reclassification journal or a transfer order to redirect the items to the correct locations. For more information, see Item Reclass. Journal or [How to: Create Transfer Orders](../FullExperience/how-to-create-transfer-orders.md).  
+    >  If the physical count reveals differences that are caused by items posted with incorrect location codes, do not enter the differences in the physical inventory journal. Instead, use the reclassification journal or a transfer order to redirect the items to the correct locations. For more information, see Item Reclass. Journal or [How to: Create Transfer Orders](../how-to-create-transfer-orders.md).  
   
 3.  To adjust the calculated quantities to the actual counted quantities, on the **Actions** tab, in the **Posting** group, choose **Post**.  
   
@@ -79,5 +79,5 @@ You must take a physical inventory, that is, count the actual items on hand, to 
   
 ## See Also  
  Phys. Inventory Journal   
- [How to: Perform Warehouse Physical Inventories](../FullExperience/how-to-perform-warehouse-physical-inventories.md)   
- [Design Details: Integration with Inventory](../FullExperience/design-details-integration-with-inventory.md)
+ [How to: Perform Warehouse Physical Inventories](../how-to-perform-warehouse-physical-inventories.md)   
+ [Design Details: Integration with Inventory](../design-details-integration-with-inventory.md)

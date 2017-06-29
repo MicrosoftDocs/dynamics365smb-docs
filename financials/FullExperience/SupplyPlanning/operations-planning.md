@@ -20,20 +20,20 @@ The production operations required to transform inputs into finished goods must 
   
  Microsoft Dynamics NAV offers features to supply for anticipated and actual demand from sale and production as well as features for distribution planning using stockkeeping units and location transfers.  
   
- Although a production order can be used to execute a [project sale of produced items](../FullExperience/invoice-jobs.md) functionality.  
+ Although a production order can be used to execute a [project sale of produced items](../invoice-jobs.md) functionality.  
   
  Operations planning typically starts with resource planning, such as setting production capacities in the shop calendars and planning for potential subcontracting of production operations. Then you can perform master planning to manage sales demand and production demand for components.  
   
- The configuration needed to prepare production capacities, such as creating shop calendars, routings, and machine centers is described in [Configure Production Processes](../FullExperience/configure-production-processes.md).  
+ The configuration needed to prepare production capacities, such as creating shop calendars, routings, and machine centers is described in [Configure Production Processes](../configure-production-processes.md).  
   
  The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
   
 |**To**|**See**|  
 |------------|-------------|  
-|Describe the physical capabilities, such as resources, calendars of capacity, and locations.|[Plan for Resource Availability](../FullExperience/plan-for-resource-availability.md)|  
-|Prepare an overall plan that reflects anticipated purchasing, transfer, and production to be finalized with material requirements planning.|[Perform Master Planning](../FullExperience/perform-master-planning.md)|  
-|Prepare a detailed executable supply plan based on production master data, existing supply orders, and new demand to calculate what and when to buy, transfer, or produce.|[Perform Material Requirements Planning](../FullExperience/perform-material-requirements-planning.md)|  
-|Transform suggested planning lines to supply orders; purchase, transfer, or production, and notify the warehouse to pick components.|[Communicate Production Plans](../FullExperience/communicate-production-plans.md)|  
+|Describe the physical capabilities, such as resources, calendars of capacity, and locations.|[Plan for Resource Availability](../plan-for-resource-availability.md)|  
+|Prepare an overall plan that reflects anticipated purchasing, transfer, and production to be finalized with material requirements planning.|[Perform Master Planning](../perform-master-planning.md)|  
+|Prepare a detailed executable supply plan based on production master data, existing supply orders, and new demand to calculate what and when to buy, transfer, or produce.|[Perform Material Requirements Planning](../perform-material-requirements-planning.md)|  
+|Transform suggested planning lines to supply orders; purchase, transfer, or production, and notify the warehouse to pick components.|[Communicate Production Plans](../communicate-production-plans.md)|  
   
 ## See Also  
- [Configure Production Processes](../FullExperience/configure-production-processes.md)
+ [Configure Production Processes](../configure-production-processes.md)

@@ -33,6 +33,6 @@ It is possible to set up many different calendars. A calendar is then assigned t
  After you have defined the working days for this calendar, you must define the exceptions, such as holidays and company holidays.  
   
 ## See Also  
- [How to: Set Up Work Shifts](../FullExperience/how-to-set-up-work-shifts.md)   
- [How to: Set Up Holiday Calendars](../FullExperience/how-to-set-up-holiday-calendars.md)   
- [How to: Create Work Center Calendars](../FullExperience/how-to-create-work-center-calendars.md)
+ [How to: Set Up Work Shifts](../how-to-set-up-work-shifts.md)   
+ [How to: Set Up Holiday Calendars](../how-to-set-up-holiday-calendars.md)   
+ [How to: Create Work Center Calendars](../how-to-create-work-center-calendars.md)

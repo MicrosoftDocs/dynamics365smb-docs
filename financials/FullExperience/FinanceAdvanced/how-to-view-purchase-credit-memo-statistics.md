@@ -24,7 +24,7 @@ When you have created a purchase credit memo and filled in the lines, you can se
   
 2.  On the **Home** tab, in the **New** group, choose **New**.  
   
-3.  Create a purchase credit memo. For more information, see [How to: Create Purchase Credit Memos](../FullExperience/how-to-create-purchase-credit-memos.md).  
+3.  Create a purchase credit memo. For more information, see [How to: Create Purchase Credit Memos](../how-to-create-purchase-credit-memos.md).  
   
 4.  In the **Purchase Credit Memo** window, on the **Navigate** tab, in the **Cr. Memo** group, choose **Statistics**.  
   
@@ -36,5 +36,5 @@ When you have created a purchase credit memo and filled in the lines, you can se
 >  If something must be corrected, you can return to the purchase credit memo and make the necessary changes.  
   
 ## See Also  
- [How to: Create Purchase Credit Memos](../FullExperience/how-to-create-purchase-credit-memos.md)   
- [How to: View Additional Purchase Document Information](../FullExperience/how-to-view-additional-purchase-document-information.md)
+ [How to: Create Purchase Credit Memos](../how-to-create-purchase-credit-memos.md)   
+ [How to: View Additional Purchase Document Information](../how-to-view-additional-purchase-document-information.md)

@@ -26,12 +26,12 @@ If you want to set up a new chart of accounts or add new accounts to an existing
   
 |**To**|**See**|  
 |------------|-------------|  
-|Set up general ledger accounts in the chart of accounts window, so you have an overview of the chart of accounts while you work.|[How to: Set Up General Ledger Accounts in the Chart of Accounts Window](../FullExperience/how-to-set-up-general-ledger-accounts-in-the-chart-of-accounts-window.md)|  
-|Enter descriptive text for a general ledger account, in addition to what can be stored in the **Name** field.|[How to: Use More Than One Line for General Ledger Account Names](../FullExperience/how-to-use-more-than-one-line-for-general-ledger-account-names.md)|  
-|Determine which accounts will be included when you reconcile a general journal before posting it.|[How to: Mark General Ledger Accounts for Reconciliation](../FullExperience/how-to-mark-general-ledger-accounts-for-reconciliation.md)|  
-|Insert a page break after an account when you print the chart of accounts.|[How to: Insert Page Breaks in the Chart of Accounts](../FullExperience/how-to-insert-page-breaks-in-the-chart-of-accounts.md)|  
-|Learn about the consequences of deleting a general ledger account.|[Deletion of G-L Accounts](../FullExperience/deletion-of-g-l-accounts.md)|  
-|Find out if a general ledger account is used for automatic posting, before deleting the account.|[How to: View Where General Ledger Accounts Are Used](../FullExperience/how-to-view-where-general-ledger-accounts-are-used.md)|  
+|Set up general ledger accounts in the chart of accounts window, so you have an overview of the chart of accounts while you work.|[How to: Set Up General Ledger Accounts in the Chart of Accounts Window](../how-to-set-up-general-ledger-accounts-in-the-chart-of-accounts-window.md)|  
+|Enter descriptive text for a general ledger account, in addition to what can be stored in the **Name** field.|[How to: Use More Than One Line for General Ledger Account Names](../how-to-use-more-than-one-line-for-general-ledger-account-names.md)|  
+|Determine which accounts will be included when you reconcile a general journal before posting it.|[How to: Mark General Ledger Accounts for Reconciliation](../how-to-mark-general-ledger-accounts-for-reconciliation.md)|  
+|Insert a page break after an account when you print the chart of accounts.|[How to: Insert Page Breaks in the Chart of Accounts](../how-to-insert-page-breaks-in-the-chart-of-accounts.md)|  
+|Learn about the consequences of deleting a general ledger account.|[Deletion of G-L Accounts](../deletion-of-g-l-accounts.md)|  
+|Find out if a general ledger account is used for automatic posting, before deleting the account.|[How to: View Where General Ledger Accounts Are Used](../how-to-view-where-general-ledger-accounts-are-used.md)|  
   
 ## See Also  
- [Working with Product Name](../FullExperience/working-with-$-p_1-product-name-$-.md)
+ [Working with Product Name](../working-with-$-p_1-product-name-$-.md)

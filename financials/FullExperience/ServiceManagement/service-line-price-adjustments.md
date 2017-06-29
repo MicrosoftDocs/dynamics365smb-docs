@@ -23,7 +23,7 @@ In the **Service Line Price Adjmt.** window, you can see information about the s
  You can, for example, set up price adjustment groups that adjust service lines that include any spare parts, that adjust the lines for a particular resource, or that adjust the lines for all spare parts with a particular combination of general business and product posting groups.  
   
 ## See Also  
- [How to: Set Up Service Price Adjustment Groups](../FullExperience/how-to-set-up-service-price-adjustment-groups.md)   
- [How to: Create Service Price Adjustments](../FullExperience/how-to-create-service-price-adjustments.md)   
- [How to: Change Service Pricing for Service Items](../FullExperience/how-to-change-service-pricing-for-service-items.md)   
- [Service Price Management](../FullExperience/service-price-management.md)
+ [How to: Set Up Service Price Adjustment Groups](../how-to-set-up-service-price-adjustment-groups.md)   
+ [How to: Create Service Price Adjustments](../how-to-create-service-price-adjustments.md)   
+ [How to: Change Service Pricing for Service Items](../how-to-change-service-pricing-for-service-items.md)   
+ [Service Price Management](../service-price-management.md)

@@ -18,7 +18,7 @@
 # How to: Perform Cycle Counting
 Although you count all items in inventory at least once a year, you may have decided to count some items more often, perhaps because they are more valuable, or because they are very fast movers and a large part of your business.  
   
- Before you begin cycle counting, you must set up and assign physical inventory counting periods. For more information, see [How to: Set Up Physical Inventory Counting Periods](../FullExperience/how-to-set-up-physical-inventory-counting-periods.md).  
+ Before you begin cycle counting, you must set up and assign physical inventory counting periods. For more information, see [How to: Set Up Physical Inventory Counting Periods](../how-to-set-up-physical-inventory-counting-periods.md).  
   
  You can perform the cycle counting in either of the following ways depending on your warehouse setup:  
   
@@ -60,7 +60,7 @@ Although you count all items in inventory at least once a year, you may have dec
     > [!NOTE]  
     >  You must count the item in all the bins that contain the particular item. If you delete some of the bin lines that the program has retrieved for counting in the **Whse. Phys. Inventory** window, then you will not be counting all the items in the warehouse. If you later post such incomplete results in the Phys. Inventory Journal, the amounts posted will be incorrect.  
   
-5.  Print the ![Shortcut icon](../FullExperience/media/shortcutcoldicon.gif "shortcutColdIcon")**Whse. Phys. Inventory List** report without filtering out some of the lines.  
+5.  Print the ![Shortcut icon](../media/shortcutcoldicon.gif "shortcutColdIcon")**Whse. Phys. Inventory List** report without filtering out some of the lines.  
   
 6.  Count the items and note the quantities on the report.  
   
@@ -102,7 +102,7 @@ Although you count all items in inventory at least once a year, you may have dec
  When you have done this, the lines for these items in the **Phys. Invt. Item Selection** window will not be brought up until the work date is within the next cycle counting period, as indicated on the item\/stockkeeping unit card.  
   
 ## See Also  
- [How to: Perform a Physical Inventory](../FullExperience/how-to-perform-a-physical-inventory.md)   
- [How to: Set Up Physical Inventory Counting Periods](../FullExperience/how-to-set-up-physical-inventory-counting-periods.md)   
- [Count, Adjust, and Reclassify Inventory](../FullExperience/count-adjust-and-reclassify-inventory.md)   
- [Design Details: Integration with Inventory](../FullExperience/design-details-integration-with-inventory.md)
+ [How to: Perform a Physical Inventory](../how-to-perform-a-physical-inventory.md)   
+ [How to: Set Up Physical Inventory Counting Periods](../how-to-set-up-physical-inventory-counting-periods.md)   
+ [Count, Adjust, and Reclassify Inventory](../count-adjust-and-reclassify-inventory.md)   
+ [Design Details: Integration with Inventory](../design-details-integration-with-inventory.md)

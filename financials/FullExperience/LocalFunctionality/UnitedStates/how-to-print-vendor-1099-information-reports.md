@@ -61,7 +61,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can us
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [United States Local Functionality](../FullExperience/united-states-local-functionality.md)   
+ [United States Local Functionality](../united-states-local-functionality.md)   
  Vendor 1099 Information   
  Vendor 1099 Int   
  Vendor 1099 Div   

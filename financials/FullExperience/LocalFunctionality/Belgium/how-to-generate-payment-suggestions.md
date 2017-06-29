@@ -42,9 +42,9 @@ After you have set up electronic banking, you can start generating payment sugge
      When the batch job is finished, the payment journal contains all vendor ledger entries that match the filters.  
   
 ## See Also  
- [Belgian Electronic Payments](../FullExperience/belgian-electronic-payments.md)   
- [How to: Set Up Vendors for Automatic Payment Suggestions](../FullExperience/how-to-set-up-vendors-for-automatic-payment-suggestions.md)   
- [How to: Create Payment Journal Templates and Batches](../FullExperience/how-to-create-payment-journal-templates-and-batches.md)   
- [How to: Test Electronic Payments](../FullExperience/how-to-test-electronic-payments.md)   
- [How to: Manage Electronic Payment Lines](../FullExperience/how-to-manage-electronic-payment-lines.md)   
- [How to: Print Payment Files](../FullExperience/how-to-print-payment-files.md)
+ [Belgian Electronic Payments](../belgian-electronic-payments.md)   
+ [How to: Set Up Vendors for Automatic Payment Suggestions](../how-to-set-up-vendors-for-automatic-payment-suggestions.md)   
+ [How to: Create Payment Journal Templates and Batches](../how-to-create-payment-journal-templates-and-batches.md)   
+ [How to: Test Electronic Payments](../how-to-test-electronic-payments.md)   
+ [How to: Manage Electronic Payment Lines](../how-to-manage-electronic-payment-lines.md)   
+ [How to: Print Payment Files](../how-to-print-payment-files.md)

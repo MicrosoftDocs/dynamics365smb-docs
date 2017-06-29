@@ -53,7 +53,7 @@ Before a G\/L account can be deleted, the following criteria must be met:
  FA Allocation  
   
 ## See Also  
- [How to: View Where General Ledger Accounts Are Used](../FullExperience/how-to-view-where-general-ledger-accounts-are-used.md)   
+ [How to: View Where General Ledger Accounts Are Used](../how-to-view-where-general-ledger-accounts-are-used.md)   
  General Ledger Setup   
  Allow G\/L Acc. Deletion Before   
  Check G\/L Account Usage

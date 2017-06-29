@@ -37,7 +37,7 @@ Depending on your service level agreements with a customer, you may have to hand
  You can consider the following examples of using the multiple contracts functionality.  
   
 ## Creating Multiple Contracts per Service Item  
- You can manually create a service contract or contract quote for service items already registered in non-canceled contracts owned by the same customer. To do this, follow the standard procedure of creating service contracts and service contract quotes. For more information, see [How to: Create Service Contracts and Service Contract Quotes](../FullExperience/how-to-create-service-contracts-and-service-contract-quotes.md).  
+ You can manually create a service contract or contract quote for service items already registered in non-canceled contracts owned by the same customer. To do this, follow the standard procedure of creating service contracts and service contract quotes. For more information, see [How to: Create Service Contracts and Service Contract Quotes](../how-to-create-service-contracts-and-service-contract-quotes.md).  
   
  When you add a service item on a contract line that is registered in other service contracts or contract quotes, a warning message is displayed stating that the service item already belongs to one or more service contracts or contract quotes. If you confirm this message, all relevant service item information is copied to a newly created contract line.  
   
@@ -48,6 +48,6 @@ Depending on your service level agreements with a customer, you may have to hand
  You can manually create a service order for a service item that is registered in multiple active contracts. A service contract is active when it is signed and not expired.  
   
 ## See Also  
- [How to: Add Contract Lines to Service Contracts or Service Contract Quotes](../FullExperience/how-to-add-contract-lines-to-service-contracts-or-service-contract-quotes.md)   
+ [How to: Add Contract Lines to Service Contracts or Service Contract Quotes](../how-to-add-contract-lines-to-service-contracts-or-service-contract-quotes.md)   
  Copy Service Document   
- [How to: Create Service Orders](../FullExperience/how-to-create-service-orders.md)
+ [How to: Create Service Orders](../how-to-create-service-orders.md)

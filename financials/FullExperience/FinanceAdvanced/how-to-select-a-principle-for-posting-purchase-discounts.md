@@ -36,7 +36,7 @@ When you post a purchase invoice that includes one or more discounts, you can ch
     |**No Discounts**|Subtracted|Subtracted|  
   
 ## See Also  
- [How to: Set Up Invoice Discount Terms](../FullExperience/how-to-set-up-invoice-discount-terms.md)   
- [How to: Enter Invoice Discount Codes on Vendor Cards](../FullExperience/how-to-enter-invoice-discount-codes-on-vendor-cards.md)   
- [How to: Invoice Purchases with Invoice Discounts in LCY](../FullExperience/how-to-invoice-purchases-with-invoice-discounts-in-lcy.md)   
- [How to: Invoice Purchases with Invoice Discounts in a Foreign Currency](../FullExperience/how-to-invoice-purchases-with-invoice-discounts-in-a-foreign-currency.md)
+ [How to: Set Up Invoice Discount Terms](../how-to-set-up-invoice-discount-terms.md)   
+ [How to: Enter Invoice Discount Codes on Vendor Cards](../how-to-enter-invoice-discount-codes-on-vendor-cards.md)   
+ [How to: Invoice Purchases with Invoice Discounts in LCY](../how-to-invoice-purchases-with-invoice-discounts-in-lcy.md)   
+ [How to: Invoice Purchases with Invoice Discounts in a Foreign Currency](../how-to-invoice-purchases-with-invoice-discounts-in-a-foreign-currency.md)

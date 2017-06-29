@@ -29,5 +29,5 @@ Each item in a production BOM must have a low-level code.
 3.  In the **Search** box, enter **Calculate Low-Level Code**, and then choose the related link. The **Calculate Low-Level Code** batch job opens. Choose the **Yes** button to calculate the low-level codes.  
   
 ## See Also  
- [Concepts of Production BOMs](../FullExperience/concepts-of-production-boms.md)   
- [How to: Create Production BOMs](../FullExperience/how-to-create-production-boms.md)
+ [Concepts of Production BOMs](../concepts-of-production-boms.md)   
+ [How to: Create Production BOMs](../how-to-create-production-boms.md)

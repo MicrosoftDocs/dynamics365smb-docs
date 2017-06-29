@@ -18,7 +18,7 @@
 # How to: Reuse Standard Journals
 When you need to fill a journal with lines that you have saved as a standard journal, you use a function to copy the standard journal lines into the journal.  
   
- Before you can use the **Get Standard Journals** function that is described in this procedure, you must create one or more standard journals. For more information, see [How to: Save Standard Journals](../FullExperience/how-to-save-standard-journals.md).  
+ Before you can use the **Get Standard Journals** function that is described in this procedure, you must create one or more standard journals. For more information, see [How to: Save Standard Journals](../how-to-save-standard-journals.md).  
   
 > [!NOTE]  
 >  The following procedure refers to the item journal, but the information also applies to the general journal.  
@@ -53,6 +53,6 @@ When you need to fill a journal with lines that you have saved as a standard jou
 6.  Post the item journal.  
   
 ## See Also  
- [How to: Save Standard Journals](../FullExperience/how-to-save-standard-journals.md)   
+ [How to: Save Standard Journals](../how-to-save-standard-journals.md)   
  Save as Standard Item Journal   
  Item Journal

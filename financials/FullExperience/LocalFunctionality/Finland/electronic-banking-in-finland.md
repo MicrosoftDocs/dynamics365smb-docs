@@ -44,10 +44,10 @@ The ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> electronic
 -   Send the payment transfer file to the bank.  
   
 ## See Also  
- [Finland Local Functionality](../FullExperience/finland-local-functionality.md)   
- [How to: Set Up Bank Reference Files](../FullExperience/how-to-set-up-bank-reference-files.md)   
- [How to: Generate Payment Files](../FullExperience/how-to-generate-payment-files.md)   
- [How to: Disregard Payment Discounts](../FullExperience/how-to-disregard-payment-discounts.md)   
+ [Finland Local Functionality](../finland-local-functionality.md)   
+ [How to: Set Up Bank Reference Files](../how-to-set-up-bank-reference-files.md)   
+ [How to: Generate Payment Files](../how-to-generate-payment-files.md)   
+ [How to: Disregard Payment Discounts](../how-to-disregard-payment-discounts.md)   
  Suggest Bank Payments   
  Import Ref. Payment   
  Ref. Payment - Imported   

@@ -20,13 +20,13 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> you can sel
   
 ### To add or remove panes  
   
--   On the **Application** menu ![Microsoft Dynamics NAV Application menu](../FullExperience/media/rtc_applicationmenu.png "RTC\_ApplicationMenu"), select **Customize**, and add or remove a check mark next to the specific pane.  
+-   On the **Application** menu ![Microsoft Dynamics NAV Application menu](../media/rtc_applicationmenu.png "RTC\_ApplicationMenu"), select **Customize**, and add or remove a check mark next to the specific pane.  
   
  When you close the menu, the page or place updates with your changes.  
   
 ## See Also  
  PERSONALIZATION Personalize the User Interface   
- [How to: Customize FactBoxes](../FullExperience/how-to-customize-factboxes.md)   
- [Customize the User Interface](../FullExperience/customize-the-user-interface.md)   
- [Working with Product Name](../FullExperience/working-with-$-p_1-product-name-$-.md)   
- [Learn About the RoleTailored Design](../FullExperience/learn-about-the-roletailored-design.md)
+ [How to: Customize FactBoxes](../how-to-customize-factboxes.md)   
+ [Customize the User Interface](../customize-the-user-interface.md)   
+ [Working with Product Name](../working-with-$-p_1-product-name-$-.md)   
+ [Learn About the RoleTailored Design](../learn-about-the-roletailored-design.md)

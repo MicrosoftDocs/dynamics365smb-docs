@@ -75,8 +75,8 @@ Static allocation method is based on a definite value, such as square meters use
 >  ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> automatically calculates the **Percent** field using a percentage rate that is dependent on all three allocation ratios that are entered in the **Share** field for all three lines.  
   
 ## See Also  
- [How to: Set Up Allocation Source and Targets](../FullExperience/how-to-set-up-allocation-source-and-targets.md)   
+ [How to: Set Up Allocation Source and Targets](../how-to-set-up-allocation-source-and-targets.md)   
  Cost Allocation   
- [Define and Allocate Costs](../FullExperience/define-and-allocate-costs.md)   
- [Scenario Example: Defining Dynamic Allocations Based on Items Sold](../FullExperience/scenario-example-defining-dynamic-allocations-based-on-items-sold.md)   
- [Define and Allocate Costs](../FullExperience/define-and-allocate-costs.md)
+ [Define and Allocate Costs](../define-and-allocate-costs.md)   
+ [Scenario Example: Defining Dynamic Allocations Based on Items Sold](../scenario-example-defining-dynamic-allocations-based-on-items-sold.md)   
+ [Define and Allocate Costs](../define-and-allocate-costs.md)

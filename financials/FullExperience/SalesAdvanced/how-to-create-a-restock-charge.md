@@ -34,7 +34,7 @@ You may decide to charge your customer a restock fee to cover the physical handl
   
 6.  In the **Unit Price** field, enter a negative amount equivalent to the restock charge.  
   
-7.  On the **Lines** FastTab, choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Line**, and then choose **Item Charge Assignment**.   
+7.  On the **Lines** FastTab, choose **Actions**![Action Menu icon](../media/actionmenuicon.png "actionMenuIcon"), choose **Line**, and then choose **Item Charge Assignment**.   
     The **Item Charge Assignment \(Sales\)** window opens.  
   
 8.  In the **Qty. to Assign** field, enter the same amount that you entered in the **Quantity** field on the relevant sales return order.  
@@ -46,6 +46,6 @@ You may decide to charge your customer a restock fee to cover the physical handl
   
 ## See Also  
  Item Charge Assignment \(Sales\)%20$\).md)   
- [How to: Create Sales Return Orders](../FullExperience/how-to-create-sales-return-orders.md)   
+ [How to: Create Sales Return Orders](../how-to-create-sales-return-orders.md)   
  Item Charges   
- [How to: Assign Item Charges to Sales Documents](../FullExperience/how-to-assign-item-charges-to-sales-documents.md)
+ [How to: Assign Item Charges to Sales Documents](../how-to-assign-item-charges-to-sales-documents.md)

@@ -75,7 +75,7 @@ The production BOMs support the version principle which is explained below.
  In a production BOM, seventy metal parts with the dimensions length \= 0.20 m and width \= 0.15 m are required. The values are entered as follows: Calculation Formula \= Length \* Width, Length \= 20, Width \= 15, Quantity per \= 70. The quantity is given by the Quantity per \* Length \* Width, that is, Quantity \= 70 \* 0.20 m \* 0.15 m \= 2.1 m2.  
   
 ## See Also  
- [Concepts of Production BOMs](../FullExperience/concepts-of-production-boms.md)   
- [How to: Create New Versions of Production BOMs](../FullExperience/how-to-create-new-versions-of-production-boms.md)   
- [How to: Copy Versions of Production BOMs](../FullExperience/how-to-copy-versions-of-production-boms.md)   
- [How to: Compare Material Quantities in All Production BOM Versions](../FullExperience/how-to-compare-material-quantities-in-all-production-bom-versions.md)
+ [Concepts of Production BOMs](../concepts-of-production-boms.md)   
+ [How to: Create New Versions of Production BOMs](../how-to-create-new-versions-of-production-boms.md)   
+ [How to: Copy Versions of Production BOMs](../how-to-copy-versions-of-production-boms.md)   
+ [How to: Compare Material Quantities in All Production BOM Versions](../how-to-compare-material-quantities-in-all-production-bom-versions.md)

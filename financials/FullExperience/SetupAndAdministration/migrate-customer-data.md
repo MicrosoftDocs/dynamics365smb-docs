@@ -27,13 +27,13 @@ You can migrate existing customer data from an existing ERP system to ADD INCLUD
   
 |**To**|**See**|  
 |------------|-------------|  
-|Evaluate default data migration files and determine whether they meet the customer's needs.|[How to: Import Configuration Packages](../FullExperience/how-to-import-configuration-packages.md)|  
-|Create new customized migration files if the default migration files do not meet the customer's needs.|[How to: Create and Modify the Migration Tables List](../FullExperience/how-to-create-and-modify-the-migration-tables-list.md)|  
-|Export necessary migration files.|[How to: Export Migration Tables](../FullExperience/how-to-export-migration-tables.md)|  
-|Automatically or manually capture customer information.|[How to: Migrate Customer Data](../FullExperience/how-to-migrate-customer-data.md)|  
+|Evaluate default data migration files and determine whether they meet the customer's needs.|[How to: Import Configuration Packages](../how-to-import-configuration-packages.md)|  
+|Create new customized migration files if the default migration files do not meet the customer's needs.|[How to: Create and Modify the Migration Tables List](../how-to-create-and-modify-the-migration-tables-list.md)|  
+|Export necessary migration files.|[How to: Export Migration Tables](../how-to-export-migration-tables.md)|  
+|Automatically or manually capture customer information.|[How to: Migrate Customer Data](../how-to-migrate-customer-data.md)|  
 |Import customer information into the ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-import-customer-data.md)|  
 |Validate customer information and resolve errors before applying customer information to the ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-validate-customer-data.md)|  
 |Apply validated customer information to the ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-apply-customer-data.md)|  
   
 ## See Also  
- [How to: Create and Modify the Migration Tables List](../FullExperience/how-to-create-and-modify-the-migration-tables-list.md)
+ [How to: Create and Modify the Migration Tables List](../how-to-create-and-modify-the-migration-tables-list.md)

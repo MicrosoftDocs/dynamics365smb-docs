@@ -40,7 +40,7 @@ You can send a customer a credit memo with a price reduction if the customer has
   
 7.  In the **Unit Price** field, enter the amount of the sales allowance.  
   
-8.  Assign the sales allowance as an item charge to the items in the posted shipment. For more information, see [How to: Assign Item Charges to Sales Documents](../FullExperience/how-to-assign-item-charges-to-sales-documents.md). When you have assigned the allowance, return to the credit memo window.  
+8.  Assign the sales allowance as an item charge to the items in the posted shipment. For more information, see [How to: Assign Item Charges to Sales Documents](../how-to-assign-item-charges-to-sales-documents.md). When you have assigned the allowance, return to the credit memo window.  
   
 ### To post a sales allowance  
   
@@ -51,8 +51,8 @@ You can send a customer a credit memo with a price reduction if the customer has
 2.  Choose the **Yes** button, or if you are posting a return order, select **Receive and Invoice**, and then choose the **OK** button.  
   
 ## See Also  
- [How to: Create Sales Return Orders](../FullExperience/how-to-create-sales-return-orders.md)   
- [How to: Get Return Receipt Lines for Item Charges](../FullExperience/how-to-get-return-receipt-lines-for-item-charges.md)   
- [How to: Get Shipment Lines for Item Charges](../FullExperience/how-to-get-shipment-lines-for-item-charges.md)   
- [How to: Post Sales Returns](../FullExperience/how-to-post-sales-returns.md)   
- [How to: Suggest Item Charge Assignments on Sales Documents](../FullExperience/how-to-suggest-item-charge-assignments-on-sales-documents.md)
+ [How to: Create Sales Return Orders](../how-to-create-sales-return-orders.md)   
+ [How to: Get Return Receipt Lines for Item Charges](../how-to-get-return-receipt-lines-for-item-charges.md)   
+ [How to: Get Shipment Lines for Item Charges](../how-to-get-shipment-lines-for-item-charges.md)   
+ [How to: Post Sales Returns](../how-to-post-sales-returns.md)   
+ [How to: Suggest Item Charge Assignments on Sales Documents](../how-to-suggest-item-charge-assignments-on-sales-documents.md)

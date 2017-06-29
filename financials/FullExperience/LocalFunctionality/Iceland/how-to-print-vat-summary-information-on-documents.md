@@ -30,5 +30,5 @@ If VAT is calculated, VAT summary information is typically printed on sales and 
   
 ## See Also  
  VAT Balancing Report   
- [VAT Reporting and Settlement](../FullExperience/vat-reporting-and-settlement.md)   
- [VAT and VIES Report Setup](../FullExperience/vat-and-vies-report-setup.md)
+ [VAT Reporting and Settlement](../vat-reporting-and-settlement.md)   
+ [VAT and VIES Report Setup](../vat-and-vies-report-setup.md)

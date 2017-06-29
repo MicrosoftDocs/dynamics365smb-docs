@@ -29,6 +29,6 @@ You can use the **Resolution Codes** window to set up resolution codes to identi
  Repeat these steps for each resolution code you want to create.  
   
 ## See Also  
- [How to: Register Resolution Codes](../FullExperience/how-to-register-resolution-codes.md)   
- [How to: Set Up Fault Codes](../FullExperience/how-to-set-up-fault-codes.md)   
- [How to: Insert Fault and Resolution Code Relationships](../FullExperience/how-to-insert-fault-and-resolution-code-relationships.md)
+ [How to: Register Resolution Codes](../how-to-register-resolution-codes.md)   
+ [How to: Set Up Fault Codes](../how-to-set-up-fault-codes.md)   
+ [How to: Insert Fault and Resolution Code Relationships](../how-to-insert-fault-and-resolution-code-relationships.md)

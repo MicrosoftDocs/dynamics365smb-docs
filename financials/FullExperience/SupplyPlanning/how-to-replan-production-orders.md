@@ -21,7 +21,7 @@ This planning function calculates changes made to components and routings lines,
  Based on the changes you have made to the components and routing lines, the **Replan** function calculates and plans for any new demand for the production order. It is typically used after you have added or changed components that constitute underlying production orders.  
   
 > [!NOTE]  
->  To include changes made to the header, you must first refresh the production order. For more information, see [How to: Refresh Production Orders](../FullExperience/how-to-refresh-production-orders.md).  
+>  To include changes made to the header, you must first refresh the production order. For more information, see [How to: Refresh Production Orders](../how-to-refresh-production-orders.md).  
   
 ### To replan a production order  
   
@@ -58,6 +58,6 @@ This planning function calculates changes made to components and routings lines,
 >  Changes implemented with the **Replan** function are very likely to change the capacity need of the production order and you may therefore have to reschedule operations afterwards.  
   
 ## See Also  
- [How to: Refresh Production Orders](../FullExperience/how-to-refresh-production-orders.md)   
- [How to: Plan for New Demand](../FullExperience/how-to-plan-for-new-demand.md)   
- [About Production Orders](../FullExperience/about-production-orders.md)
+ [How to: Refresh Production Orders](../how-to-refresh-production-orders.md)   
+ [How to: Plan for New Demand](../how-to-plan-for-new-demand.md)   
+ [About Production Orders](../about-production-orders.md)

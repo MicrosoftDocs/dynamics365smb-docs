@@ -37,8 +37,8 @@ In Belgium, you must have a third-party declarant fill out the Intrastat declara
  The file will be created in the directory that you indicated. Next, the declaration must be submitted to the OneGate portal.  
   
 ## See Also  
- [Belgian Intrastat Reporting](../FullExperience/belgian-intrastat-reporting.md)   
- [How to: Set Up Declaration Types](../FullExperience/how-to-set-up-declaration-types.md)   
- [How to: Set Up Belgian Tariff Numbers](../FullExperience/how-to-set-up-belgian-tariff-numbers.md)   
- [How to: Set Up Intrastat Establishment Numbers](../FullExperience/how-to-set-up-intrastat-establishment-numbers.md)   
- [How to: Print the Intrastat Form Report](../FullExperience/how-to-print-the-intrastat-form-report.md)
+ [Belgian Intrastat Reporting](../belgian-intrastat-reporting.md)   
+ [How to: Set Up Declaration Types](../how-to-set-up-declaration-types.md)   
+ [How to: Set Up Belgian Tariff Numbers](../how-to-set-up-belgian-tariff-numbers.md)   
+ [How to: Set Up Intrastat Establishment Numbers](../how-to-set-up-intrastat-establishment-numbers.md)   
+ [How to: Print the Intrastat Form Report](../how-to-print-the-intrastat-form-report.md)

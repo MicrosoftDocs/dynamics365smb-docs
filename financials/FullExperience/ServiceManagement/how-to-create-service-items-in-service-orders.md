@@ -32,11 +32,11 @@ When you receive items for service that you want to register as service items, y
   
 6.  Fill in the **Description** field.  
   
-7.  Choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Functions**, and then choose **Create Service Item**, and confirm the subsequent message.  
+7.  Choose **Actions**![Action Menu icon](../media/actionmenuicon.png "actionMenuIcon"), choose **Functions**, and then choose **Create Service Item**, and confirm the subsequent message.  
   
  A number is assigned to the service item and a service item card is created. The **Service Item No.** field is filled in with the number of the new service item.  
   
 ## See Also  
- [How to: Create Service Items](../FullExperience/how-to-create-service-items.md)   
- [How to: Create Service Items When Shipping Items](../FullExperience/how-to-create-service-items-when-shipping-items.md)   
- [How to: Register Service Item Lines](../FullExperience/how-to-register-service-item-lines.md)
+ [How to: Create Service Items](../how-to-create-service-items.md)   
+ [How to: Create Service Items When Shipping Items](../how-to-create-service-items-when-shipping-items.md)   
+ [How to: Register Service Item Lines](../how-to-register-service-item-lines.md)

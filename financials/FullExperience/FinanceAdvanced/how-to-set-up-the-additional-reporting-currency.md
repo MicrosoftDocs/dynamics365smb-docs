@@ -122,7 +122,7 @@ Follow these steps to set up the additional reporting currency:
 >  The **Add. Reporting Currency** field will only be activated after you choose the **OK** button in the **Adjust Add. Reporting Currency** batch job.  
   
 ## See Also  
- [About Using Additional Reporting Currencies](../FullExperience/about-using-additional-reporting-currencies.md)   
+ [About Using Additional Reporting Currencies](../about-using-additional-reporting-currencies.md)   
  Realized G\/L Gains Account   
  Realized G\/L Losses Account   
  Residual Gains Account   

@@ -24,12 +24,12 @@ A domiciliation is a financial agreement between you and your customers, allowin
   
 -   Domiciliation number - This is a unique code obtained from the bank which identifies the domiciliation agreement between you, your customer, and the bank. The contract contains details regarding payment frequency, bank account numbers, and amounts. When you send your payments to the bank, the bank will use the domiciliation number to identify all parties involved.  
   
--   Preferred bank account - The preferred bank account will be suggested as a default bank account on all domiciliation suggestions for that customer. If necessary, you can change the bank account before posting the domiciliation suggestions. For more information, see [How to: Generate Domiciliation Suggestions](../FullExperience/how-to-generate-domiciliation-suggestions.md).  
+-   Preferred bank account - The preferred bank account will be suggested as a default bank account on all domiciliation suggestions for that customer. If necessary, you can change the bank account before posting the domiciliation suggestions. For more information, see [How to: Generate Domiciliation Suggestions](../how-to-generate-domiciliation-suggestions.md).  
   
 ## See Also  
- [Belgian Electronic Banking](../FullExperience/belgian-electronic-banking.md)   
- [How to: Set Up Domiciliations](../FullExperience/how-to-set-up-domiciliations.md)   
- [How to: Generate Domiciliation Suggestions](../FullExperience/how-to-generate-domiciliation-suggestions.md)   
- [How to: Test Domiciliations](../FullExperience/how-to-test-domiciliations.md)   
- [How to: Edit and Delete Domiciliation Lines](../FullExperience/how-to-edit-and-delete-domiciliation-lines.md)   
- [How to: Export and Post Domiciliations](../FullExperience/how-to-export-and-post-domiciliations.md)
+ [Belgian Electronic Banking](../belgian-electronic-banking.md)   
+ [How to: Set Up Domiciliations](../how-to-set-up-domiciliations.md)   
+ [How to: Generate Domiciliation Suggestions](../how-to-generate-domiciliation-suggestions.md)   
+ [How to: Test Domiciliations](../how-to-test-domiciliations.md)   
+ [How to: Edit and Delete Domiciliation Lines](../how-to-edit-and-delete-domiciliation-lines.md)   
+ [How to: Export and Post Domiciliations](../how-to-export-and-post-domiciliations.md)

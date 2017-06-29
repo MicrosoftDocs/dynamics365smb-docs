@@ -31,11 +31,11 @@ If consolidation takes place in another database than the one where you have you
  Now you can send the file together with the data for your company to the company where the consolidation will be performed.  
   
 ## See Also  
- [How to: Process Consolidations](../FullExperience/how-to-process-consolidations.md)   
- [How to: Enter Basic Information for Consolidated Companies](../FullExperience/how-to-enter-basic-information-for-consolidated-companies.md)   
- [How to: Enter Consolidation Information on General Ledger Accounts](../FullExperience/how-to-enter-consolidation-information-on-general-ledger-accounts.md)   
- [How to: Test Databases Before Consolidating](../FullExperience/how-to-test-databases-before-consolidating.md)   
- [How to: Test Files Before Consolidating](../FullExperience/how-to-test-files-before-consolidating.md)   
- [How to: Consolidate from Databases](../FullExperience/how-to-consolidate-from-databases.md)   
- [How to: Consolidate from Files](../FullExperience/how-to-consolidate-from-files.md)   
- [\($ S\_COMPANY How to: Select a Company $\)](../FullExperience/-$-s_company-how-to-select-a-company-$-.md)
+ [How to: Process Consolidations](../how-to-process-consolidations.md)   
+ [How to: Enter Basic Information for Consolidated Companies](../how-to-enter-basic-information-for-consolidated-companies.md)   
+ [How to: Enter Consolidation Information on General Ledger Accounts](../how-to-enter-consolidation-information-on-general-ledger-accounts.md)   
+ [How to: Test Databases Before Consolidating](../how-to-test-databases-before-consolidating.md)   
+ [How to: Test Files Before Consolidating](../how-to-test-files-before-consolidating.md)   
+ [How to: Consolidate from Databases](../how-to-consolidate-from-databases.md)   
+ [How to: Consolidate from Files](../how-to-consolidate-from-files.md)   
+ [\($ S\_COMPANY How to: Select a Company $\)](../-$-s_company-how-to-select-a-company-$-.md)

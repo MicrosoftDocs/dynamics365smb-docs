@@ -40,12 +40,12 @@ When working on service items in service orders, you may need to use spare parts
   
 2.  Open the service order you want to register spare parts for.  
   
-3.  Select the line that includes the relevant service item. Choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Order**, and then choose **Service Lines**.  
+3.  Select the line that includes the relevant service item. Choose **Actions**![Action Menu icon](../media/actionmenuicon.png "actionMenuIcon"), choose **Order**, and then choose **Service Lines**.  
   
 4.  Enter a new service line.  
   
  Repeat these steps for each spare part you want to register.  
   
 ## See Also  
- [How to: Replace Components](../FullExperience/how-to-replace-components.md)   
- [How to: Replace Service Items](../FullExperience/how-to-replace-service-items.md)
+ [How to: Replace Components](../how-to-replace-components.md)   
+ [How to: Replace Service Items](../how-to-replace-service-items.md)

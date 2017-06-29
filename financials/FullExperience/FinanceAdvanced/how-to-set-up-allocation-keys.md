@@ -31,5 +31,5 @@ Transactions can be allocated to various departments or projects, according to u
 4.  Repeat this procedure for each of the posting types that you want to define allocation keys for.  
   
 ## See Also  
- [Fixed Assets Accounting Setup](../FullExperience/fixed-assets-accounting-setup.md)   
- [How to: Set Up Fixed Asset Posting Groups](../FullExperience/how-to-set-up-fixed-asset-posting-groups.md)
+ [Fixed Assets Accounting Setup](../fixed-assets-accounting-setup.md)   
+ [How to: Set Up Fixed Asset Posting Groups](../how-to-set-up-fixed-asset-posting-groups.md)

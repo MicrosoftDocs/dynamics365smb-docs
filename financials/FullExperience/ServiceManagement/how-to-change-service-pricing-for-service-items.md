@@ -31,5 +31,5 @@ You can manually change the breakdown of service pricing for a service item in t
  You cannot assign a service price group to a service item line or create service pricing for it manually if you have posted as **Invoice** the service lines linked to the line.  
   
 ## See Also  
- [How to: Create Service Price Adjustments](../FullExperience/how-to-create-service-price-adjustments.md)   
- [Service Price Management](../FullExperience/service-price-management.md)
+ [How to: Create Service Price Adjustments](../how-to-create-service-price-adjustments.md)   
+ [Service Price Management](../service-price-management.md)

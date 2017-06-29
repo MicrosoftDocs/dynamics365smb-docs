@@ -20,7 +20,7 @@ When ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]--> receive
   
  When ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]--> is required to run an automation object, you are presented with a dialog box. You can decide whether that type of object should always or never be able to run.  
   
- You can cancel your decisions for handling files and automation objects by opening the **Reset User-Specified Settings** window from your Role Center. For more information, see [How to: Cancel Basic UI Changes and File Handling Decisions](../FullExperience/how-to-cancel-basic-ui-changes-and-file-handling-decisions.md).  
+ You can cancel your decisions for handling files and automation objects by opening the **Reset User-Specified Settings** window from your Role Center. For more information, see [How to: Cancel Basic UI Changes and File Handling Decisions](../how-to-cancel-basic-ui-changes-and-file-handling-decisions.md).  
   
 ### To specify how to handle external files  
   
@@ -38,9 +38,9 @@ When ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]--> receive
   
 ## See Also  
  PERSONALIZATION Personalize the User Interface   
- [How to: Cancel Basic UI Changes and File Handling Decisions](../FullExperience/how-to-cancel-basic-ui-changes-and-file-handling-decisions.md)   
- [How to: Make Basic UI Changes](../FullExperience/how-to-make-basic-ui-changes.md)   
+ [How to: Cancel Basic UI Changes and File Handling Decisions](../how-to-cancel-basic-ui-changes-and-file-handling-decisions.md)   
+ [How to: Make Basic UI Changes](../how-to-make-basic-ui-changes.md)   
  DELETEPERSONALIZATION Reset User-Specified Settings   
- [Customize the User Interface](../FullExperience/customize-the-user-interface.md)   
- [Working with Product Name](../FullExperience/working-with-$-p_1-product-name-$-.md)   
- [Learn About the RoleTailored Design](../FullExperience/learn-about-the-roletailored-design.md)
+ [Customize the User Interface](../customize-the-user-interface.md)   
+ [Working with Product Name](../working-with-$-p_1-product-name-$-.md)   
+ [Learn About the RoleTailored Design](../learn-about-the-roletailored-design.md)

@@ -25,7 +25,7 @@ If you want to return items to your vendor or cancel services that you have purc
  You can apply the purchase credit memo to one or more posted purchase invoices. This reverses the ledger entries that are affected by the change and enables a refund collection from the vendor. If you want to apply the purchase credit memo to a specific posted purchase invoice, see step 4. If you want to apply the purchase credit memo to multiple posted purchase invoices, follow steps 14 through 18.  
   
 > [!NOTE]  
->  If a posted purchase invoice has not yet been paid, then you can use the **Correct** or **Cancel** functions on the posted purchase invoice to automatically reverse the involved transactions. These functions only work for unpaid invoices, and they do not support partial returns or cancellations. For more information, see [How to: Correct or Cancel Unpaid Purchase Invoices](../FullExperience/how-to-correct-or-cancel-unpaid-purchase-invoices.md).  
+>  If a posted purchase invoice has not yet been paid, then you can use the **Correct** or **Cancel** functions on the posted purchase invoice to automatically reverse the involved transactions. These functions only work for unpaid invoices, and they do not support partial returns or cancellations. For more information, see [How to: Correct or Cancel Unpaid Purchase Invoices](../how-to-correct-or-cancel-unpaid-purchase-invoices.md).  
   
 ### To create a purchase credit memo  
   
@@ -36,7 +36,7 @@ If you want to return items to your vendor or cancel services that you have purc
 3.  In the **Vendor Name** field, enter the name of an existing vendor. This is a search-as-you-type field. **Name** is the default filter.  
   
     > [!NOTE]  
-    >  If you prefer to find and enter vendors by number or telephone number, you can easily change the default filter. For more information, see [How to: Enter Data](../FullExperience/how-to-enter-data.md).  
+    >  If you prefer to find and enter vendors by number or telephone number, you can easily change the default filter. For more information, see [How to: Enter Data](../how-to-enter-data.md).  
   
      Other fields on the purchase credit memo header are now filled with the standard information about the selected customer. You can edit all the fields, such as the fields in the **Payment Details** group, to reflect the credit memo agreement.  
   
@@ -72,7 +72,7 @@ If you want to return items to your vendor or cancel services that you have purc
 11. On the **Lines** FastTab, in the **No.** field, enter the number of an inventory item or service. This is a search-as-you-type field. **No.** is the default filter.  
   
     > [!NOTE]  
-    >  If you prefer to find and enter items by name, then you can easily change the default filter. For more information, see [How to: Enter Data](../FullExperience/how-to-enter-data.md).  
+    >  If you prefer to find and enter items by name, then you can easily change the default filter. For more information, see [How to: Enter Data](../how-to-enter-data.md).  
   
 12. In the **Quantity** field, enter the number of items to be reversed.  
   
@@ -106,9 +106,9 @@ If you want to return items to your vendor or cancel services that you have purc
  The purchase credit memo is removed and replaced with a new document in the list of posted purchase credit memos, which you access from the Role Center.  
   
 ## See Also  
- [How to: Record Purchases](../FullExperience/how-to-record-purchases.md)   
- [How to: Register New Products](../FullExperience/how-to-register-new-products.md)   
- [How to: Register New Vendors](../FullExperience/how-to-register-new-vendors.md)   
+ [How to: Record Purchases](../how-to-record-purchases.md)   
+ [How to: Register New Products](../how-to-register-new-products.md)   
+ [How to: Register New Vendors](../how-to-register-new-vendors.md)   
  DEPARTMENTS Departments   
- [Business Functionality](../FullExperience/Business%20Functionality.md)   
- [Working with Product Name](../FullExperience/working-with-$-p_1-product-name-$-.md)
+ [Business Functionality](../Business%20Functionality.md)   
+ [Working with Product Name](../working-with-$-p_1-product-name-$-.md)

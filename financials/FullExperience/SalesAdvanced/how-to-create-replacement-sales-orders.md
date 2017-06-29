@@ -37,5 +37,5 @@ You may decide to compensate a customer for an item that you have sold them by r
   
 ## See Also  
  Sales Return Order   
- [How to: Create Sales Return Orders](../FullExperience/how-to-create-sales-return-orders.md)   
- [Manage Sales Returns](../FullExperience/manage-sales-returns.md)
+ [How to: Create Sales Return Orders](../how-to-create-sales-return-orders.md)   
+ [Manage Sales Returns](../manage-sales-returns.md)

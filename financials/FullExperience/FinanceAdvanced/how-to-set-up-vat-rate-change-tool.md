@@ -48,5 +48,5 @@ This topic describes how you set up the VAT rate change tool and corresponding n
 5.  Choose the **OK** button.  
   
 ## See Also  
- [How to: Prepare VAT Rate Change Conversions](../FullExperience/how-to-prepare-vat-rate-change-conversions.md)   
- [How to: Perform VAT Rate Conversions](../FullExperience/how-to-perform-vat-rate-conversions.md)
+ [How to: Prepare VAT Rate Change Conversions](../how-to-prepare-vat-rate-change-conversions.md)   
+ [How to: Perform VAT Rate Conversions](../how-to-perform-vat-rate-conversions.md)

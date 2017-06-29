@@ -35,5 +35,5 @@ You can use the **Loaner Card** window to set up loaners that you can lend to cu
  Repeat these steps for each loaner you want to create.  
   
 ## See Also  
- [How to: Lend Loaners](../FullExperience/how-to-lend-loaners.md)   
- [How to: Receive Loaners](../FullExperience/how-to-receive-loaners.md)
+ [How to: Lend Loaners](../how-to-lend-loaners.md)   
+ [How to: Receive Loaners](../how-to-receive-loaners.md)

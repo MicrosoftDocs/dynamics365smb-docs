@@ -34,6 +34,6 @@ From a vendor card, you can see various statistics about the vendor. The **Vendo
     |**Balance at Date**|The view is calculated from entries with dates up to and including the last day of the selected period.|  
   
 ## See Also  
- [How to: View Vendor Statistics by Currencies](../FullExperience/how-to-view-vendor-statistics-by-currencies.md)   
- [How to: View Vendor Statistics by Currencies](../FullExperience/how-to-view-vendor-statistics-by-currencies.md)   
- [How to: View Vendor Entry Statistics](../FullExperience/how-to-view-vendor-entry-statistics.md)
+ [How to: View Vendor Statistics by Currencies](../how-to-view-vendor-statistics-by-currencies.md)   
+ [How to: View Vendor Statistics by Currencies](../how-to-view-vendor-statistics-by-currencies.md)   
+ [How to: View Vendor Entry Statistics](../how-to-view-vendor-entry-statistics.md)

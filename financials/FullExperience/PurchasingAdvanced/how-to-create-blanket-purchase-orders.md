@@ -16,7 +16,7 @@
 
     ---
 # How to: Create Blanket Purchase Orders
-You can use blanket orders when you have committed to buying large quantities of an item that are to be received in several smaller shipments over a certain period of time. For more information, see [About Blanket Purchase Orders](../FullExperience/about-blanket-purchase-orders.md).  
+You can use blanket orders when you have committed to buying large quantities of an item that are to be received in several smaller shipments over a certain period of time. For more information, see [About Blanket Purchase Orders](../about-blanket-purchase-orders.md).  
   
 ### To create a blanket purchase order  
   
@@ -73,6 +73,6 @@ You can use blanket orders when you have committed to buying large quantities of
 -   If a vendor is also recorded as a contact in Sales & Marketing, and if you have specified an interaction template code for blanket purchase orders in the **Marketing Setup** window, when you print the blanket purchase order, an interaction is automatically recorded in the **Interaction Log Entry** table.  
   
 ## See Also  
- [How to: Convert Blanket Purchase Orders to Purchase Orders](../FullExperience/how-to-convert-blanket-purchase-orders-to-purchase-orders.md)   
- [How to: View the Status of Blanket Purchase Orders](../FullExperience/how-to-view-the-status-of-blanket-purchase-orders.md)   
- [How to: View Unposted and Posted Blanket Purchase Order Lines](../FullExperience/how-to-view-unposted-and-posted-blanket-purchase-order-lines.md)
+ [How to: Convert Blanket Purchase Orders to Purchase Orders](../how-to-convert-blanket-purchase-orders-to-purchase-orders.md)   
+ [How to: View the Status of Blanket Purchase Orders](../how-to-view-the-status-of-blanket-purchase-orders.md)   
+ [How to: View Unposted and Posted Blanket Purchase Order Lines](../how-to-view-unposted-and-posted-blanket-purchase-order-lines.md)

@@ -42,4 +42,4 @@ With directed put-away and pick functionality, the most appropriate bin for your
   
 ## See Also  
  Put-away Template   
- [Put Items Away](../FullExperience/put-items-away.md)
+ [Put Items Away](../put-items-away.md)

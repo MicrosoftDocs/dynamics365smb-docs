@@ -31,7 +31,7 @@ You can see the availability of each cash flow forecast by period in an overview
 ## See Also  
  Cash Flow Forecast Card   
  CF Availability by Periods   
- [How to: View Cash Flow Statistics](../FullExperience/how-to-view-cash-flow-statistics.md)   
+ [How to: View Cash Flow Statistics](../how-to-view-cash-flow-statistics.md)   
  Cash Flow Date List   
  Cash Flow Chart   
- [Walkthrough: Making Cash Flow Forecasts by Using Account Schedules](../FullExperience/walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+ [Walkthrough: Making Cash Flow Forecasts by Using Account Schedules](../walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)

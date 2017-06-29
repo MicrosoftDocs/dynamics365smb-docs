@@ -24,7 +24,7 @@ In the bin creation worksheet, you can create bins manually or you can allow the
 >  As soon as you use a bin, you cannot delete it, since entries associated with it have been created. But if you want to use another bin-naming system, you can use the reclassification journal to in effect move your items to a new bin system. This process is manual and takes time, however, so it is best to set up your bins correctly from the start.  
   
 > [!NOTE]  
->  To work with the **Bin Creation Worksheet** window, you must be set up as a warehouse employee at the location where the bins exist. For more information, see [How to: Set Up Warehouse Employees](../FullExperience/how-to-set-up-warehouse-employees.md).  
+>  To work with the **Bin Creation Worksheet** window, you must be set up as a warehouse employee at the location where the bins exist. For more information, see [How to: Set Up Warehouse Employees](../how-to-set-up-warehouse-employees.md).  
   
 ### To make bins in the bin creation worksheet  
   
@@ -59,5 +59,5 @@ In the bin creation worksheet, you can create bins manually or you can allow the
  Repeat the process for another set of bins until you have created all the bins in your warehouse.  
   
 ## See Also  
- [How to: Create Individual Bins](../FullExperience/how-to-create-individual-bins.md)   
- [How to: Set Up Bin Contents](../FullExperience/how-to-set-up-bin-contents.md)
+ [How to: Create Individual Bins](../how-to-create-individual-bins.md)   
+ [How to: Set Up Bin Contents](../how-to-set-up-bin-contents.md)

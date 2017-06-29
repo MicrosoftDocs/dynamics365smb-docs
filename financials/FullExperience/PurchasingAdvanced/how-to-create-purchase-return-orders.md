@@ -47,8 +47,8 @@ If you have agreed with your vendor to return a purchased item that you are diss
   
 ## See Also  
  Appl.-to Item Entry   
- [How to: Assign Exact Cost Reversing in Purchases](../FullExperience/how-to-assign-exact-cost-reversing-in-purchases.md)   
- [How to: Create and Post Purchase Allowances](../FullExperience/how-to-create-and-post-purchase-allowances.md)   
- [How to: Create Replacement Purchase Orders](../FullExperience/how-to-create-replacement-purchase-orders.md)   
- [How to: Create Corrective Purchase Invoices](../FullExperience/how-to-create-corrective-purchase-invoices.md)   
- [About Returns Management](../FullExperience/about-returns-management.md)
+ [How to: Assign Exact Cost Reversing in Purchases](../how-to-assign-exact-cost-reversing-in-purchases.md)   
+ [How to: Create and Post Purchase Allowances](../how-to-create-and-post-purchase-allowances.md)   
+ [How to: Create Replacement Purchase Orders](../how-to-create-replacement-purchase-orders.md)   
+ [How to: Create Corrective Purchase Invoices](../how-to-create-corrective-purchase-invoices.md)   
+ [About Returns Management](../about-returns-management.md)

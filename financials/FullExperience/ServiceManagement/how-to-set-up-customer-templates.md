@@ -37,4 +37,4 @@ You may often have contacts or potential customers asking for quotes. These cont
  Repeat these steps for each customer template you want to set up.  
   
 ## See Also  
- [How to: Create Customers within Service Orders](../FullExperience/how-to-create-customers-within-service-orders.md)
+ [How to: Create Customers within Service Orders](../how-to-create-customers-within-service-orders.md)

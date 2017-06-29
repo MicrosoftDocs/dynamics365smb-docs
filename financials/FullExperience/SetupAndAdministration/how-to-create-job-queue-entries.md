@@ -62,4 +62,4 @@ A job queue can have many entries, which are the jobs that the queue manages and
 >  If you have set up your job queues to run automatically, you do not have to activate the job queue.  
   
 ## See Also  
- [How to: Set Up Job Queues](../FullExperience/how-to-set-up-job-queues.md)
+ [How to: Set Up Job Queues](../how-to-set-up-job-queues.md)

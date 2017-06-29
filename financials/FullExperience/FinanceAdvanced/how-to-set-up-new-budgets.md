@@ -46,7 +46,7 @@ You can have multiple budgets for identical time periods by creating budgets wit
 >  On the **Filters** FastTab, there are between 4 to 8 filters, depending on how many budget dimensions you have set up under the budget name.  
   
 ## See Also  
- [How to: Import or Export a Budget](../FullExperience/how-to-import-or-export-a-budget.md)   
- [How to: View Budgets](../FullExperience/how-to-view-budgets.md)   
+ [How to: Import or Export a Budget](../how-to-import-or-export-a-budget.md)   
+ [How to: View Budgets](../how-to-view-budgets.md)   
  Dimension   
  Copy G-L Budget

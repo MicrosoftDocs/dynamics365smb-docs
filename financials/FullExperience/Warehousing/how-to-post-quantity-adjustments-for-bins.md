@@ -30,7 +30,7 @@ If you are using bins at a location, you will need to occasionally adjust the qu
 3.  Post the journal lines.  
   
 ## Bin Adjustment in Advanced Warehouses that Use Directed Put-away and Pick  
- If you are using directed put-away and pick at the location, you use the **Warehouse Item Journal** window to perform extraordinary quantity changes in the warehouse bins. For more information, see [How to: Register Quantity Adjustments in Warehouse Item Journals](../FullExperience/how-to-register-quantity-adjustments-in-warehouse-item-journals.md).  
+ If you are using directed put-away and pick at the location, you use the **Warehouse Item Journal** window to perform extraordinary quantity changes in the warehouse bins. For more information, see [How to: Register Quantity Adjustments in Warehouse Item Journals](../how-to-register-quantity-adjustments-in-warehouse-item-journals.md).  
   
  When you register these differences, the positive and negative adjustment quantities are registered in the warehouse adjustment bin, but the quantities are not posted to the item ledger until you post the content of the adjustment bin.  
   
@@ -54,8 +54,8 @@ If you are using bins at a location, you will need to occasionally adjust the qu
 6.  Post the journal lines to enter the quantity differences in the item ledger. The inventory in the warehouse bins now corresponds precisely to the inventory in the item ledger.  
   
 ## See Also  
- [Count, Adjust, and Reclassify Inventory](../FullExperience/count-adjust-and-reclassify-inventory.md)   
- [Warehouse Adjustment Bin](../FullExperience/warehouse-adjustment-bin.md)   
+ [Count, Adjust, and Reclassify Inventory](../count-adjust-and-reclassify-inventory.md)   
+ [Warehouse Adjustment Bin](../warehouse-adjustment-bin.md)   
  Warehouse Item Journal   
  Bin Content   
- [Design Details: Warehouse Management](../FullExperience/design-details-warehouse-management.md)
+ [Design Details: Warehouse Management](../design-details-warehouse-management.md)

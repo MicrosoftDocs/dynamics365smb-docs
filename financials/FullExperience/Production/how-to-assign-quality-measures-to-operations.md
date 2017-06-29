@@ -24,7 +24,7 @@ You can assign any quality measures to an operation. The assigned quality measur
   
 2.  On the **Lines** FastTab, select the line you want to process.  
   
-3.  Choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Operation**, and then choose **Quality Measures**.  
+3.  Choose **Actions**![Action Menu icon](../media/actionmenuicon.png "actionMenuIcon"), choose **Operation**, and then choose **Quality Measures**.  
   
 4.  Fill in the **Qlty Measure Code** field.  
   
@@ -32,7 +32,7 @@ You can assign any quality measures to an operation. The assigned quality measur
   
 ## See Also  
  Qlty Measure Code   
- [How to: Assign Tools to Operations](../FullExperience/how-to-assign-tools-to-operations.md)   
- [How to: Create Routings](../FullExperience/how-to-create-routings.md)   
- [How to: Assign Personnel to Operations](../FullExperience/how-to-assign-personnel-to-operations.md)   
- [How to: Assign Quality Measures to Standard Tasks](../FullExperience/how-to-assign-quality-measures-to-standard-tasks.md)
+ [How to: Assign Tools to Operations](../how-to-assign-tools-to-operations.md)   
+ [How to: Create Routings](../how-to-create-routings.md)   
+ [How to: Assign Personnel to Operations](../how-to-assign-personnel-to-operations.md)   
+ [How to: Assign Quality Measures to Standard Tasks](../how-to-assign-quality-measures-to-standard-tasks.md)

@@ -40,6 +40,6 @@ When the supply balancing procedures have been performed, there are three possib
  This concludes the descriptions of how demand and supply is loaded, prioritized, and balanced by the planning system. In integration with this supply planning activity, the system must ensure that the required inventory level of each planned item is maintained according to its reordering policies.  
   
 ## See Also  
- [Design Details: Balancing Demand and Supply](../FullExperience/design-details-balancing-demand-and-supply.md)   
- [Design Details: Central Concepts of the Planning System](../FullExperience/design-details-central-concepts-of-the-planning-system.md)   
- [Design Details: Supply Planning](../FullExperience/design-details-supply-planning.md)
+ [Design Details: Balancing Demand and Supply](../design-details-balancing-demand-and-supply.md)   
+ [Design Details: Central Concepts of the Planning System](../design-details-central-concepts-of-the-planning-system.md)   
+ [Design Details: Supply Planning](../design-details-supply-planning.md)

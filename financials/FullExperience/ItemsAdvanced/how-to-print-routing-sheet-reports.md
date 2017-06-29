@@ -29,5 +29,5 @@ The structure of the routing can be shown by printing the following report.
 4.  Choose **Print** to print the report or **Preview** to display it on the screen.  
   
 ## See Also  
- [How to: Create Routings](../FullExperience/how-to-create-routings.md)   
+ [How to: Create Routings](../how-to-create-routings.md)   
  Routing

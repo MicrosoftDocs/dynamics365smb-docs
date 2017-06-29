@@ -18,7 +18,7 @@
 # How to: Create Customers within Service Orders
 When you create service orders for customers that are not registered in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can create the customers within the **Service Order** or **Service Quote** windows.  
   
- You need to set up customer templates before you can create customers within service orders. For more information, see [How to: Set Up Customer Templates](../FullExperience/how-to-set-up-customer-templates.md).  
+ You need to set up customer templates before you can create customers within service orders. For more information, see [How to: Set Up Customer Templates](../how-to-set-up-customer-templates.md).  
   
 ### To create a customer within a service order  
   
@@ -37,4 +37,4 @@ When you create service orders for customers that are not registered in ADD INCL
  A number is automatically assigned to the new customer and a customer card is created with the relevant fields in the service order filled in by copying information from the service customer template.  
   
 ## See Also  
- [How to: Create Service Orders](../FullExperience/how-to-create-service-orders.md)
+ [How to: Create Service Orders](../how-to-create-service-orders.md)

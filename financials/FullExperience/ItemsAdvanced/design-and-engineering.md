@@ -18,7 +18,7 @@
 # Design and Engineering
 There are many common processes in central design and engineering work, such as specifying how and when items are handled. For example, you can specify whether items are just purchased and sold, or are manufactured from components before sale. For the first design tasks, you need to define rules and values for all items by completing item cards with specific master data. Lastly, for produced items, you must define the material structures and process structures in master data records for specific production BOMs and routings.  
   
- A related set of production setup is to [configure production processes](../FullExperience/production.md) department.  
+ A related set of production setup is to [configure production processes](../production.md) department.  
   
  The data and setup that you enter during design and engineering is later used in sales and operations when the item is handled.  
   
@@ -26,5 +26,5 @@ There are many common processes in central design and engineering work, such as 
   
 |**To**|**See**|  
 |------------|-------------|  
-|Establish how and when an item is to be handled, by creating master data and attaching related item information.|[Design Products](../FullExperience/design-products.md)|  
-|Prepare production master data, such as BOMs and routings, which govern how items are produced.|[Define Material and Process Structure](../FullExperience/define-material-and-process-structure.md)|
+|Establish how and when an item is to be handled, by creating master data and attaching related item information.|[Design Products](../design-products.md)|  
+|Prepare production master data, such as BOMs and routings, which govern how items are produced.|[Define Material and Process Structure](../define-material-and-process-structure.md)|

@@ -33,6 +33,6 @@ With an automatic release, you can release several production orders at the same
 5.  Choose the **Yes** button. The production orders are now released.  
   
 ## See Also  
- [How to: Release Production Orders by Status Change](../FullExperience/how-to-release-production-orders-by-status-change.md)   
- [How to: Finish Production Orders](../FullExperience/how-to-finish-production-orders.md)   
- [About Production Orders](../FullExperience/about-production-orders.md)
+ [How to: Release Production Orders by Status Change](../how-to-release-production-orders-by-status-change.md)   
+ [How to: Finish Production Orders](../how-to-finish-production-orders.md)   
+ [About Production Orders](../about-production-orders.md)

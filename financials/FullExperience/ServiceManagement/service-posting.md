@@ -21,12 +21,12 @@ Service posting functionality lets you process your documents efficiently and ma
 > [!NOTE]  
 >  The following describes service posting regardless of how items are physically handled in the warehouse.  
 >   
->  In a location that is not set up to require warehouse handling, you perform the posting actions directly from the **Service Lines** window. In locations that involve warehouse handling, the described posting actions, except Ship and Consume, are performed indirectly through varying warehouse ship functions, depending on setup. For more information, see [Pick Items](../FullExperience/How%20to:%20Prepare%20Shipments.md).  
+>  In a location that is not set up to require warehouse handling, you perform the posting actions directly from the **Service Lines** window. In locations that involve warehouse handling, the described posting actions, except Ship and Consume, are performed indirectly through varying warehouse ship functions, depending on setup. For more information, see [Pick Items](../How%20to:%20Prepare%20Shipments.md).  
   
 ## Ship  
  The ship option lets you register the relevant items and time entered on the lines of a service order after you complete the service. A posted shipment is created and updates occur in the Inventory module and other modules in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> to reflect that the items have been taken out of the inventory and sent to the customer. In particular, the item ledger entries, value ledger entries, service ledger entries, and warranty ledger entries are produced.  
   
- If the location is set up to require warehouse handling, then the shipping and moving of service line items functions in the same ways as for other source documents. The only difference is that service line items can be consumed either externally or internally, which requires two different release functions. For more information, see [How to: Prepare Service Line Items for Warehouse Handling](../FullExperience/how-to-prepare-service-line-items-for-warehouse-handling.md).  
+ If the location is set up to require warehouse handling, then the shipping and moving of service line items functions in the same ways as for other source documents. The only difference is that service line items can be consumed either externally or internally, which requires two different release functions. For more information, see [How to: Prepare Service Line Items for Warehouse Handling](../how-to-prepare-service-line-items-for-warehouse-handling.md).  
   
 ## Invoice  
  You have to use the invoice option to issue an invoice to the customer you want to charge for the service. Usually, it is the difference between the shipped quantity registered by the **Post Shipment** function and the consumed quantity registered by the **Post Consumption** function that is subject to invoice. You cannot invoice what has not been shipped. When you run the **Post Invoice** function, you create a posted service invoice and update the documents posted before to make them consistent with the quantities that are contained in the issued invoice. Like in other posting procedures, the relevant ledger entries that includes general ledger entries, are generated.  
@@ -43,10 +43,10 @@ Service posting functionality lets you process your documents efficiently and ma
  After the posting has been completed, you will be able to view the posted service documents from the corresponding **Posted Service Shipment** and **Posted Service Invoice** windows. The posted entries created can be seen in various windows that contain posted entries, such as **G\/L Entries**, **Item Ledger Entries**, **Warehouse Entries**, **Service Ledger Entries**, **Job Ledger Entries**, and **Warranty Ledger Entries**.  
   
 ## See Also  
- [Deliver Service](../FullExperience/deliver-service.md)   
+ [Deliver Service](../deliver-service.md)   
  Service Lines   
  Service Order   
  Item Ledger Entries   
  Location Card   
- [How to: Post Service Lines](../FullExperience/how-to-post-service-lines.md)   
- [How to: Prepare Service Line Items for Warehouse Handling](../FullExperience/how-to-prepare-service-line-items-for-warehouse-handling.md)
+ [How to: Post Service Lines](../how-to-post-service-lines.md)   
+ [How to: Prepare Service Line Items for Warehouse Handling](../how-to-prepare-service-line-items-for-warehouse-handling.md)

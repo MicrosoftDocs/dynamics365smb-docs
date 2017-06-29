@@ -34,14 +34,14 @@ In the **Payment Journal** window, you can process payments to your vendors by e
   
 |**To**|**See**|  
 |------------|-------------|  
-|Activate the Bank Data Conversion Service feature to have any bank statement file converted to a format that you can import or to have your exported payment files converted to the format that your bank requires.|[How to: Set Up the Bank Data Conversion Service](../FullExperience/how-to-set-up-the-bank-data-conversion-service.md)|  
-|Set up a bank account, a vendor, and a payment journal for SEPA credit transfer.|[How to: Set Up SEPA Credit Transfer](../FullExperience/how-to-set-up-sepa-credit-transfer.md)|  
-|Fill the payment journal with lines for due payments to vendors, with the option to insert posting dates based on the due date of the related purchase documents.|[How to: Suggest Vendor Payments](../FullExperience/how-to-insert-due-date-as-posting-date-on-payment-journal-lines.md)|  
-|Export payment journal lines to a file in the SEPA Credit Transfer format.|[How to: Export Payments to a Bank File](../FullExperience/how-to-export-payments-to-a-bank-file.md)|  
+|Activate the Bank Data Conversion Service feature to have any bank statement file converted to a format that you can import or to have your exported payment files converted to the format that your bank requires.|[How to: Set Up the Bank Data Conversion Service](../how-to-set-up-the-bank-data-conversion-service.md)|  
+|Set up a bank account, a vendor, and a payment journal for SEPA credit transfer.|[How to: Set Up SEPA Credit Transfer](../how-to-set-up-sepa-credit-transfer.md)|  
+|Fill the payment journal with lines for due payments to vendors, with the option to insert posting dates based on the due date of the related purchase documents.|[How to: Suggest Vendor Payments](../how-to-insert-due-date-as-posting-date-on-payment-journal-lines.md)|  
+|Export payment journal lines to a file in the SEPA Credit Transfer format.|[How to: Export Payments to a Bank File](../how-to-export-payments-to-a-bank-file.md)|  
 |Review which payments have been exported and into which files.|Credit Transfer Registers|  
-|When the electronic payment is successfully processed by the bank, post the payments.|[How to: Fill and Post General Journals](../FullExperience/how-to-fill-and-post-general-journals.md)|  
+|When the electronic payment is successfully processed by the bank, post the payments.|[How to: Fill and Post General Journals](../how-to-fill-and-post-general-journals.md)|  
   
 ## See Also  
- [Process Outgoing Payments](../FullExperience/process-outgoing-payments.md)   
- [Manage Payables](../FullExperience/manage-payables.md)   
- [Collect Payments with SEPA Direct Debit](../FullExperience/collect-payments-with-sepa-direct-debit.md)
+ [Process Outgoing Payments](../process-outgoing-payments.md)   
+ [Manage Payables](../manage-payables.md)   
+ [Collect Payments with SEPA Direct Debit](../collect-payments-with-sepa-direct-debit.md)

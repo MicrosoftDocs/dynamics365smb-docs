@@ -34,7 +34,7 @@ The Maximum Quantity policy is a way to maintain inventory using a reorder point
  If the scheduled date is a non-working day, the planning system moves the order forward to the nearest working date. This may result in an order that meets a reorder point but does not meet some specific demand. For such unbalanced demand, the planning system creates an extra supply.  
   
 ## See Also  
- [Design Details: Reordering Policies](../FullExperience/design-details-reordering-policies.md)   
- [Design Details: Planning Parameters](../FullExperience/design-details-planning-parameters.md)   
- [Design Details: Handling Reordering Policies](../FullExperience/design-details-handling-reordering-policies.md)   
- [Design Details: Supply Planning](../FullExperience/design-details-supply-planning.md)
+ [Design Details: Reordering Policies](../design-details-reordering-policies.md)   
+ [Design Details: Planning Parameters](../design-details-planning-parameters.md)   
+ [Design Details: Handling Reordering Policies](../design-details-handling-reordering-policies.md)   
+ [Design Details: Supply Planning](../design-details-supply-planning.md)

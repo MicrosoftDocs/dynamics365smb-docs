@@ -29,8 +29,8 @@ After you have tested the data, you can start the consolidation. This means that
 4.  Choose the **OK** button to start the import.  
   
 ## See Also  
- [How to: Consolidate from Databases](../FullExperience/how-to-consolidate-from-databases.md)   
- [How to: Process Consolidations](../FullExperience/how-to-process-consolidations.md)   
- [How to: Test Databases Before Consolidating](../FullExperience/how-to-test-databases-before-consolidating.md)   
- [How to: Test Files Before Consolidating](../FullExperience/how-to-test-files-before-consolidating.md)   
- [How to: Enter Basic Information for Consolidated Companies](../FullExperience/how-to-enter-basic-information-for-consolidated-companies.md)
+ [How to: Consolidate from Databases](../how-to-consolidate-from-databases.md)   
+ [How to: Process Consolidations](../how-to-process-consolidations.md)   
+ [How to: Test Databases Before Consolidating](../how-to-test-databases-before-consolidating.md)   
+ [How to: Test Files Before Consolidating](../how-to-test-files-before-consolidating.md)   
+ [How to: Enter Basic Information for Consolidated Companies](../how-to-enter-basic-information-for-consolidated-companies.md)

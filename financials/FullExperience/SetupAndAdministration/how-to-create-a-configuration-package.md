@@ -109,8 +109,8 @@ When you configure a new company, table relations are recognized and processed. 
 5.  Choose the **OK** button.  
   
 ## See Also  
- [How to: Assign a Configuration Package](../FullExperience/how-to-assign-a-configuration-package.md)   
+ [How to: Assign a Configuration Package](../how-to-assign-a-configuration-package.md)   
  Copy Package   
  Get Package Tables   
- [How to: Manage Company Configuration in a Worksheet](../FullExperience/how-to-manage-company-configuration-in-a-worksheet.md)   
- [How to: Import Configuration Packages](../FullExperience/how-to-import-configuration-packages.md)
+ [How to: Manage Company Configuration in a Worksheet](../how-to-manage-company-configuration-in-a-worksheet.md)   
+ [How to: Import Configuration Packages](../how-to-import-configuration-packages.md)

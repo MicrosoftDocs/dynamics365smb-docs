@@ -46,4 +46,4 @@ You can record manual expenses.
   
 ## See Also  
  Cash Flow Manual Expenses   
- [How to: Register Cash Flow Worksheet Lines](../FullExperience/how-to-register-cash-flow-worksheet-lines.md)
+ [How to: Register Cash Flow Worksheet Lines](../how-to-register-cash-flow-worksheet-lines.md)

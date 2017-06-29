@@ -31,5 +31,5 @@ You can view posted amounts for each asset and depreciation book.
 5.  Close the window.  
   
 ## See Also  
- [How to: Post Entries to Different Depreciation Books](../FullExperience/how-to-post-entries-to-different-depreciation-books.md)   
+ [How to: Post Entries to Different Depreciation Books](../how-to-post-entries-to-different-depreciation-books.md)   
  FA Posting Types Overview

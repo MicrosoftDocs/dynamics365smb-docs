@@ -22,7 +22,7 @@ When you have created a transfer order by filling in all the necessary informati
   
 1.  In the **Search** box, enter **Transfer Orders**, and then choose the related link.  
   
-2.  Create the transfer order. For more information, see [How to: Create Transfer Orders](../FullExperience/how-to-create-transfer-orders.md).  
+2.  Create the transfer order. For more information, see [How to: Create Transfer Orders](../how-to-create-transfer-orders.md).  
   
 3.  On the **Actions** tab, in the **Release** group, choose **Release**.  
   
@@ -31,8 +31,8 @@ When you have created a transfer order by filling in all the necessary informati
 5.  Select **Ship** in the message box, and then choose the **OK** button.  
   
 ## See Also  
- [Transfers](../FullExperience/transfers.md)   
- [How to: Create Transfer Orders](../FullExperience/how-to-create-transfer-orders.md)   
- [How to: Release Orders](../FullExperience/how-to-release-orders.md)   
- [How to: Release Orders](../FullExperience/how-to-release-orders.md)   
- [Status Field on Documents](../FullExperience/status-field-on-documents.md)
+ [Transfers](../transfers.md)   
+ [How to: Create Transfer Orders](../how-to-create-transfer-orders.md)   
+ [How to: Release Orders](../how-to-release-orders.md)   
+ [How to: Release Orders](../how-to-release-orders.md)   
+ [Status Field on Documents](../status-field-on-documents.md)

@@ -28,6 +28,6 @@ You can disable personalization for all users by modifying the profile. When you
   
 ## See Also  
  PERSONALIZATION Personalize the User Interface   
- [How to: Cancel UI Personalization](../FullExperience/how-to-cancel-ui-personalization.md)   
- [Configure the User Interface](../FullExperience/configure-the-user-interface.md)   
- [Manage Profiles](../FullExperience/manage-profiles.md)
+ [How to: Cancel UI Personalization](../how-to-cancel-ui-personalization.md)   
+ [Configure the User Interface](../configure-the-user-interface.md)   
+ [Manage Profiles](../manage-profiles.md)

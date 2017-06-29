@@ -34,4 +34,4 @@ After you have set up your recurring journal, you can start to fill in the field
 >  The quantity will be deleted on the lines where the selected option in the **Recurring Method** field is **Variable**.  
   
 ## See Also  
- [How to: Set Up Recurring Journals](../FullExperience/how-to-set-up-recurring-journals.md)
+ [How to: Set Up Recurring Journals](../how-to-set-up-recurring-journals.md)

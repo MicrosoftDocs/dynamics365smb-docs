@@ -47,4 +47,4 @@ You can direct the flow of items through bins that you have defined for particul
 ## See Also  
  Bin Types   
  Bin Contents   
- [How to: Set Up Locations to Use Bins](../FullExperience/how-to-set-up-locations-to-use-bins.md)
+ [How to: Set Up Locations to Use Bins](../how-to-set-up-locations-to-use-bins.md)

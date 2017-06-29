@@ -49,9 +49,9 @@ You can encrypt data on the ADD INCLUDE<!--[!INCLUDE[nav_server](../../includes/
 3.  On the warning message about non-encrypted data, choose **Yes**.  
   
 ## See Also  
- [How to: Export and Import Encryption Keys](../FullExperience/how-to-export-and-import-encryption-keys.md)   
+ [How to: Export and Import Encryption Keys](../how-to-export-and-import-encryption-keys.md)   
  Encryption Enabled   
  Encryption Key Exists   
- [Manage Data Encryption](../FullExperience/manage-data-encryption.md)   
- [Installation Considerations for Microsoft SQL Server](../FullExperience/Installation%20Considerations%20for%20Microsoft%20SQL%20Server.md)   
- [How to: Configure the Microsoft Dynamics NAV Web client to Accept Host Names for Tenants](../FullExperience/How%20to:%20Configure%20the%20Microsoft%20Dynamics%20NAV%20Web%20client%20to%20Accept%20Host%20Names%20for%20Tenants.md)
+ [Manage Data Encryption](../manage-data-encryption.md)   
+ [Installation Considerations for Microsoft SQL Server](../Installation%20Considerations%20for%20Microsoft%20SQL%20Server.md)   
+ [How to: Configure the Microsoft Dynamics NAV Web client to Accept Host Names for Tenants](../How%20to:%20Configure%20the%20Microsoft%20Dynamics%20NAV%20Web%20client%20to%20Accept%20Host%20Names%20for%20Tenants.md)

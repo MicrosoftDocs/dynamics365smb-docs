@@ -34,6 +34,6 @@ In warehouse put-aways, movements, or picks, and in inventory put-aways and inve
 >  If the location uses directed put-away and pick and you split the lines, you must be familiar with the warehouse and be able to choose a bin that matches the storage requirements of the item and that fulfills the general requirements of the warehouse document. For example, you would not split a line on a pick document and place some items in the bulk storage.  
   
 ## See Also  
- [Perform Warehouse Activities](../FullExperience/perform-warehouse-activities.md)   
+ [Perform Warehouse Activities](../perform-warehouse-activities.md)   
  Qty. to Handle   
  Warehouse Activity Line

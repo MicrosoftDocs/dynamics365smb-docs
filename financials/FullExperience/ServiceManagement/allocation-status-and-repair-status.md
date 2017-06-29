@@ -76,8 +76,8 @@ The repair status of service items and the allocation status of the allocation e
  A new allocation entry that contains the new resource is created that has the status **Active**.  
   
 ## See Also  
- [How to: Cancel Allocations](../FullExperience/how-to-cancel-allocations.md)   
- [How to: Reallocate Resources by Using the Dispatch Board](../FullExperience/how-to-reallocate-resources-by-using-the-dispatch-board.md)   
- [How to: Reallocate Resources by Using Service Orders](../FullExperience/how-to-reallocate-resources-by-using-service-orders.md)   
- [How to: Work on Service Tasks](../FullExperience/how-to-work-on-service-tasks.md)   
- [How to: Set Up Repair Statuses](../FullExperience/how-to-set-up-repair-statuses.md)
+ [How to: Cancel Allocations](../how-to-cancel-allocations.md)   
+ [How to: Reallocate Resources by Using the Dispatch Board](../how-to-reallocate-resources-by-using-the-dispatch-board.md)   
+ [How to: Reallocate Resources by Using Service Orders](../how-to-reallocate-resources-by-using-service-orders.md)   
+ [How to: Work on Service Tasks](../how-to-work-on-service-tasks.md)   
+ [How to: Set Up Repair Statuses](../how-to-set-up-repair-statuses.md)

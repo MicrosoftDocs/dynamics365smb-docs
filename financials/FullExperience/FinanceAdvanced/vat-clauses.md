@@ -39,4 +39,4 @@ VAT clauses are used to provide descriptive information about the VAT that is be
 -   Finance Charge Memo  
   
 ## See Also  
- [How to: Set Up VAT Clauses](../FullExperience/how-to-set-up-vat-clauses.md)
+ [How to: Set Up VAT Clauses](../how-to-set-up-vat-clauses.md)

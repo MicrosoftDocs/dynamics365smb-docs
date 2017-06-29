@@ -25,21 +25,21 @@ To understand how the planning system works, it is necessary to understand the p
  Generally, these goals are achieved by balancing supply with demand.  
   
 ## In This Section  
- [Design Details: Demand and Supply](../FullExperience/design-details-demand-and-supply.md)  
+ [Design Details: Demand and Supply](../design-details-demand-and-supply.md)  
   
- [Design Details: The Concept of Balancing in Brief](../FullExperience/design-details-the-concept-of-balancing-in-brief.md)  
+ [Design Details: The Concept of Balancing in Brief](../design-details-the-concept-of-balancing-in-brief.md)  
   
- [Design Details: Dealing with Orders Before the Planning Starting Date](../FullExperience/design-details-dealing-with-orders-before-the-planning-starting-date.md)  
+ [Design Details: Dealing with Orders Before the Planning Starting Date](../design-details-dealing-with-orders-before-the-planning-starting-date.md)  
   
- [Design Details: Loading the Inventory Profiles](../FullExperience/design-details-loading-the-inventory-profiles.md)  
+ [Design Details: Loading the Inventory Profiles](../design-details-loading-the-inventory-profiles.md)  
   
- [Design Details: Prioritizing Orders](../FullExperience/design-details-prioritizing-orders.md)  
+ [Design Details: Prioritizing Orders](../design-details-prioritizing-orders.md)  
   
- [Design Details: Balancing Supply with Demand](../FullExperience/design-details-balancing-supply-with-demand.md)  
+ [Design Details: Balancing Supply with Demand](../design-details-balancing-supply-with-demand.md)  
   
- [Design Details: Closing Demand and Supply](../FullExperience/design-details-closing-demand-and-supply.md)  
+ [Design Details: Closing Demand and Supply](../design-details-closing-demand-and-supply.md)  
   
 ## See Also  
- [Design Details: Central Concepts of the Planning System](../FullExperience/design-details-central-concepts-of-the-planning-system.md)   
- [Design Details: Handling Reordering Policies](../FullExperience/design-details-handling-reordering-policies.md)   
- [Design Details: Supply Planning](../FullExperience/design-details-supply-planning.md)
+ [Design Details: Central Concepts of the Planning System](../design-details-central-concepts-of-the-planning-system.md)   
+ [Design Details: Handling Reordering Policies](../design-details-handling-reordering-policies.md)   
+ [Design Details: Supply Planning](../design-details-supply-planning.md)

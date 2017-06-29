@@ -19,5 +19,5 @@
 This section provides an overview of how you can compress data so that it takes up less space.  
   
 ## See Also  
- [Delete Documents](../FullExperience/delete-documents.md)   
- [Delete Documents with Batch Jobs](../FullExperience/delete-documents-with-batch-jobs.md)
+ [Delete Documents](../delete-documents.md)   
+ [Delete Documents with Batch Jobs](../delete-documents-with-batch-jobs.md)

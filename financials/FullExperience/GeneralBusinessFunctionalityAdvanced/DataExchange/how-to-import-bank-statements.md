@@ -20,20 +20,20 @@ You can import electronic bank statements from your bank to quickly populate ADD
   
  You can use three different features to import bank statements from your bank.  
   
--   Use the Bank Statement service to import the bank statement directly as a bank feed. For setup information, see [How to: Set Up the Bank Statement Service](../FullExperience/how-to-link-bank-accounts-to-online-bank-accounts.md).  
+-   Use the Bank Statement service to import the bank statement directly as a bank feed. For setup information, see [How to: Set Up the Bank Statement Service](../how-to-link-bank-accounts-to-online-bank-accounts.md).  
   
--   Use the Bank Data Conversion service to convert bank statement files in any format to a data stream that you can import. For setup information, see [How to: Set Up the Bank Data Conversion Service](../FullExperience/how-to-set-up-the-bank-data-conversion-service.md).  
+-   Use the Bank Data Conversion service to convert bank statement files in any format to a data stream that you can import. For setup information, see [How to: Set Up the Bank Data Conversion Service](../how-to-set-up-the-bank-data-conversion-service.md).  
   
--   Use the predefined data exchange definition for SEPA CAMT bank statements or set up a new definition for another bank format using the Data Exchange Framework. For setup information, see [How to: Set Up Data Exchange Definitions](../FullExperience/how-to-set-up-data-exchange-definitions.md).  
+-   Use the predefined data exchange definition for SEPA CAMT bank statements or set up a new definition for another bank format using the Data Exchange Framework. For setup information, see [How to: Set Up Data Exchange Definitions](../how-to-set-up-data-exchange-definitions.md).  
   
 > [!NOTE]  
 >  For all three features, you start the import by choosing the **Import Bank Transactions** action in the **Payment Reconciliation Journal** window.  
   
  You can import bank statement files in the following scenarios:  
   
--   As the first step in reconciling payments with open entries in the **Payment Reconciliation Journal** window. For more information, see [How to: Reconcile Payments Using Automatic Application](../FullExperience/how-to-reconcile-payments-using-automatic-application.md).  
+-   As the first step in reconciling payments with open entries in the **Payment Reconciliation Journal** window. For more information, see [How to: Reconcile Payments Using Automatic Application](../how-to-reconcile-payments-using-automatic-application.md).  
   
--   As the first step in reconciling bank accounts in the **Bank Acc. Reconciliation** window. For more information, see [How to: Match Bank Statement Lines with Bank Account Ledger Entries](../FullExperience/how-to-match-bank-statement-lines-with-bank-account-ledger-entries.md).  
+-   As the first step in reconciling bank accounts in the **Bank Acc. Reconciliation** window. For more information, see [How to: Match Bank Statement Lines with Bank Account Ledger Entries](../how-to-match-bank-statement-lines-with-bank-account-ledger-entries.md).  
   
 ### To import bank transactions into the Payment Reconciliation Journal Window  
   
@@ -53,7 +53,7 @@ You can import electronic bank statements from your bank to quickly populate ADD
   
 6.  If the Bank Statement service is enabled, in the **Bank Statement Filter** window, specify the date interval for the bank statements to be imported as a bank feed.  
   
- You can now proceed to review the automatic payment applications automatically or manually apply. For more information, see [How to: Reconcile Payments Using Automatic Application](../FullExperience/how-to-review-or-apply-payments-after-automatic-application.md).  
+ You can now proceed to review the automatic payment applications automatically or manually apply. For more information, see [How to: Reconcile Payments Using Automatic Application](../how-to-review-or-apply-payments-after-automatic-application.md).  
   
 ### To import bank statements into the Bank Acc. Reconciliation window  
   
@@ -65,14 +65,14 @@ You can import electronic bank statements from your bank to quickly populate ADD
   
      The bank statement lines are filled into the left pane of the **Bank Acc. Reconciliation** window.  
   
- You can now proceed to automatically or manually match bank entries to reconcile the bank account. For more information, see [How to: Match Bank Statement Lines with Bank Account Ledger Entries](../FullExperience/how-to-match-bank-statement-lines-with-bank-account-ledger-entries.md).  
+ You can now proceed to automatically or manually match bank entries to reconcile the bank account. For more information, see [How to: Match Bank Statement Lines with Bank Account Ledger Entries](../how-to-match-bank-statement-lines-with-bank-account-ledger-entries.md).  
   
 ## See Also  
  Payment Reconciliation Journal   
  Bank Acc. Reconciliation   
- [How to: Reconcile Payments Using Automatic Application](../FullExperience/how-to-reconcile-payments-using-automatic-application.md)   
- [How to: Match Bank Statement Lines with Bank Account Ledger Entries](../FullExperience/how-to-match-bank-statement-lines-with-bank-account-ledger-entries.md)   
- [How to: Set Up the Bank Statement Service](../FullExperience/how-to-set-up-the-bank-statement-service.md)   
- [How to: Link Bank Accounts to Online Bank Accounts](../FullExperience/how-to-link-bank-accounts-to-online-bank-accounts.md)   
- [How to: Set Up the Bank Data Conversion Service](../FullExperience/how-to-set-up-the-bank-data-conversion-service.md)   
- [How to: Set Up Data Exchange Definitions](../FullExperience/how-to-set-up-data-exchange-definitions.md)
+ [How to: Reconcile Payments Using Automatic Application](../how-to-reconcile-payments-using-automatic-application.md)   
+ [How to: Match Bank Statement Lines with Bank Account Ledger Entries](../how-to-match-bank-statement-lines-with-bank-account-ledger-entries.md)   
+ [How to: Set Up the Bank Statement Service](../how-to-set-up-the-bank-statement-service.md)   
+ [How to: Link Bank Accounts to Online Bank Accounts](../how-to-link-bank-accounts-to-online-bank-accounts.md)   
+ [How to: Set Up the Bank Data Conversion Service](../how-to-set-up-the-bank-data-conversion-service.md)   
+ [How to: Set Up Data Exchange Definitions](../how-to-set-up-data-exchange-definitions.md)

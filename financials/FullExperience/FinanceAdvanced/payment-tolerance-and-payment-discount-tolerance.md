@@ -25,7 +25,7 @@ You can set up payment tolerance to close an invoice when the payment does not f
   
  You specify the method for posting payment discount tolerance in the **G\/L Setup** window.  
   
- For more information, see [How to: Set Up Tolerances](../FullExperience/how-to-set-up-tolerances.md).  
+ For more information, see [How to: Set Up Tolerances](../how-to-set-up-tolerances.md).  
   
 ## Payment Tolerance  
  You can use payment tolerance so that every outstanding amount has a set maximum allowed payment tolerance. If the payment tolerance is met, then the payment amount is analyzed.  
@@ -47,12 +47,12 @@ You can set up payment tolerance to close an invoice when the payment does not f
   
 -   The second warning is for the payment tolerance. You are informed that all entries can be closed because the difference is in the sum of the maximum payment tolerance for the applied entries. You can then choose whether to accept tolerance on the payment amount.  
   
- For more information, see [How to: Enable or Disable Payment Tolerance Warnings](../FullExperience/how-to-enable-or-disable-payment-tolerance-warnings.md).  
+ For more information, see [How to: Enable or Disable Payment Tolerance Warnings](../how-to-enable-or-disable-payment-tolerance-warnings.md).  
   
 ## See Also  
- [How to: Set Up Tolerances](../FullExperience/how-to-set-up-tolerances.md)   
- [How to: Block Payment Tolerances for a Customer or a Vendor](../FullExperience/how-to-block-payment-tolerances-for-a-customer-or-a-vendor.md)   
- [How to: Enable or Disable Payment Tolerance Warnings](../FullExperience/how-to-enable-or-disable-payment-tolerance-warnings.md)   
+ [How to: Set Up Tolerances](../how-to-set-up-tolerances.md)   
+ [How to: Block Payment Tolerances for a Customer or a Vendor](../how-to-block-payment-tolerances-for-a-customer-or-a-vendor.md)   
+ [How to: Enable or Disable Payment Tolerance Warnings](../how-to-enable-or-disable-payment-tolerance-warnings.md)   
  Change Payment Tolerance   
- [Example  - Tolerance Calculations for Single Document](../FullExperience/example----tolerance-calculations-for-single-document.md)   
- [Example  - Tolerance Calculations for Multiple Document](../FullExperience/example----tolerance-calculations-for-multiple-document.md)
+ [Example  - Tolerance Calculations for Single Document](../example----tolerance-calculations-for-single-document.md)   
+ [Example  - Tolerance Calculations for Multiple Document](../example----tolerance-calculations-for-multiple-document.md)

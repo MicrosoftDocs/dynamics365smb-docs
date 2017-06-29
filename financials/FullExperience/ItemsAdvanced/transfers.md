@@ -32,10 +32,10 @@ If your warehouse has more than one location, you can transfer items between loc
  You can set up transfer routes between locations. This enables you to assign a default in-transit code, shipping agent and shipping agent service code. When you have done this, the program can use the information to calculate the receipt date.  
   
 ## See Also  
- [How to: Set Up Locations](../FullExperience/how-to-set-up-locations.md)   
- [How to: Set Up In-Transit Codes](../FullExperience/how-to-set-up-in-transit-codes.md)   
- [How to: Set Up Transfer Routes](../FullExperience/how-to-set-up-transfer-routes.md)   
- [How to: Create Transfer Orders](../FullExperience/how-to-create-transfer-orders.md)   
- [How to: Ship Transfer Orders](../FullExperience/how-to-ship-transfer-orders.md)   
- [How to: Receive Transfer Orders](../FullExperience/how-to-receive-transfer-orders.md)   
- [How to: View Items in Transit](../FullExperience/how-to-view-items-in-transit.md)
+ [How to: Set Up Locations](../how-to-set-up-locations.md)   
+ [How to: Set Up In-Transit Codes](../how-to-set-up-in-transit-codes.md)   
+ [How to: Set Up Transfer Routes](../how-to-set-up-transfer-routes.md)   
+ [How to: Create Transfer Orders](../how-to-create-transfer-orders.md)   
+ [How to: Ship Transfer Orders](../how-to-ship-transfer-orders.md)   
+ [How to: Receive Transfer Orders](../how-to-receive-transfer-orders.md)   
+ [How to: View Items in Transit](../how-to-view-items-in-transit.md)

@@ -26,18 +26,18 @@ You can use the **Internal Service Comment Sheet** window to register internal c
   
 2.  Open the relevant service order.  
   
-3.  Select the line you want to register internal comments for. Choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Line**, choose **Comments**, and then choose **Internal**. The **Internal Service Comment Sheet** window opens.  
+3.  Select the line you want to register internal comments for. Choose **Actions**![Action Menu icon](../media/actionmenuicon.png "actionMenuIcon"), choose **Line**, choose **Comments**, and then choose **Internal**. The **Internal Service Comment Sheet** window opens.  
   
 4.  In the **Date** field, enter a date.  
   
 5.  In the **Comment** field, enter a comment. You can enter a maximum of 80 characters, including spaces. If you need to enter additional text, go to the next line. You can fill in as many lines as necessary.  
   
 ## See Also  
- [How to: Register Accessory Comments](../FullExperience/how-to-register-accessory-comments.md)   
- [How to: Register Fault Comments](../FullExperience/how-to-register-fault-comments.md)   
- [How to: Register Loaner Comments](../FullExperience/how-to-register-loaner-comments.md)   
- [How to: Register Resolution Comments](../FullExperience/how-to-register-resolution-comments.md)   
- [How to: Register Service Contract Comments](../FullExperience/how-to-register-service-contract-comments.md)   
- [How to: Register Service Item Comments](../FullExperience/how-to-register-service-item-comments.md)   
- [How to: Register Service Item Loaner Comments](../FullExperience/how-to-register-service-item-loaner-comments.md)   
- [How to: Register Service Order Comments](../FullExperience/how-to-register-service-order-comments.md)
+ [How to: Register Accessory Comments](../how-to-register-accessory-comments.md)   
+ [How to: Register Fault Comments](../how-to-register-fault-comments.md)   
+ [How to: Register Loaner Comments](../how-to-register-loaner-comments.md)   
+ [How to: Register Resolution Comments](../how-to-register-resolution-comments.md)   
+ [How to: Register Service Contract Comments](../how-to-register-service-contract-comments.md)   
+ [How to: Register Service Item Comments](../how-to-register-service-item-comments.md)   
+ [How to: Register Service Item Loaner Comments](../how-to-register-service-item-loaner-comments.md)   
+ [How to: Register Service Order Comments](../how-to-register-service-order-comments.md)

@@ -39,9 +39,9 @@ You can export balance information using General Index of Financial Information 
   
 ## See Also  
  GIFI Code   
- [GIFI Codes](../FullExperience/gifi-codes.md)   
+ [GIFI Codes](../gifi-codes.md)   
  Account Balances by GIFI Code   
  Export GIFI Info. to Excel   
- [How to: Set Up GIFI Codes](../FullExperience/how-to-set-up-gifi-codes.md)   
- [How to: View Account Balances by Using the GIFI Code Report](../FullExperience/how-to-view-account-balances-by-using-the-gifi-code-report.md)   
- [How to: Associate GIFI Codes with Chart of Accounts](../FullExperience/how-to-associate-gifi-codes-with-chart-of-accounts.md)
+ [How to: Set Up GIFI Codes](../how-to-set-up-gifi-codes.md)   
+ [How to: View Account Balances by Using the GIFI Code Report](../how-to-view-account-balances-by-using-the-gifi-code-report.md)   
+ [How to: Associate GIFI Codes with Chart of Accounts](../how-to-associate-gifi-codes-with-chart-of-accounts.md)

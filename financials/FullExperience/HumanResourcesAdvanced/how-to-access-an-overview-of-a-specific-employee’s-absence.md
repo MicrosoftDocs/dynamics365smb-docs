@@ -29,4 +29,4 @@ You can get an overview of an individual employee’s absences.
  The **Employee Absences** window shows all the absences and the date on which they started and ended.  
   
 ## See Also  
- [How to: Access an Overview of a Specific Employee’s Absences by Categories](../FullExperience/how-to-access-an-overview-of-a-specific-employee’s-absences-by-categories.md)
+ [How to: Access an Overview of a Specific Employee’s Absences by Categories](../how-to-access-an-overview-of-a-specific-employee’s-absences-by-categories.md)

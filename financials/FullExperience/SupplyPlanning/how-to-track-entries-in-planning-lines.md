@@ -29,5 +29,5 @@ The order tracking function offers you an overview of the documents that are rel
 4.  On the **Actions** tab, in the **General** group, choose **Show** to view the tracked line.  
   
 ## See Also  
- [How to: Track Item Reservations](../FullExperience/how-to-track-item-reservations.md)   
- [How to: Run MPS and MRP](../FullExperience/how-to-run-mps-and-mrp.md)
+ [How to: Track Item Reservations](../how-to-track-item-reservations.md)   
+ [How to: Run MPS and MRP](../how-to-run-mps-and-mrp.md)

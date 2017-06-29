@@ -29,7 +29,7 @@ You may agree to compensate a customer by letting them return a sold item agains
   
 1.  In the **Search** box, enter **Sales Return Orders**, and then choose the related link.  
   
-2.  Enter a line for a returned item. For more information, see [How to: Create Sales Return Orders](../FullExperience/how-to-create-sales-return-orders.md).  
+2.  Enter a line for a returned item. For more information, see [How to: Create Sales Return Orders](../how-to-create-sales-return-orders.md).  
   
 3.  Choose the **Appl.-from Item Entry** field, and then select the number of the original sales entry number.  
   
@@ -39,7 +39,7 @@ You may agree to compensate a customer by letting them return a sold item agains
   
 1.  In the **Search** box, enter **Sales Return Orders**, and then choose the related link.  
   
-2.  Enter a line for a returned item. For more information, see [How to: Create Sales Return Orders](../FullExperience/how-to-create-sales-return-orders.md).  
+2.  Enter a line for a returned item. For more information, see [How to: Create Sales Return Orders](../how-to-create-sales-return-orders.md).  
   
 3.  On the **Home** tab, in the **Process**  group, choose **Get Posted Document Lines to Reverse**.  
   
@@ -51,10 +51,10 @@ You may agree to compensate a customer by letting them return a sold item agains
 >  If the line has item tracking, then the **Appl.-from Item Entry** field is filled on the related line in the **Item Tracking Lines** window instead of on the sales return line.  
   
 ## See Also  
- [How to: Reverse Posted Document Lines](../FullExperience/how-to-reverse-posted-document-lines.md)   
- [Design Details: Inventory Costing](../FullExperience/design-details-inventory-costing.md)   
+ [How to: Reverse Posted Document Lines](../how-to-reverse-posted-document-lines.md)   
+ [Design Details: Inventory Costing](../design-details-inventory-costing.md)   
  Posted Sales Document Lines   
  Item Tracking Lines   
  Appl.-from Item Entry   
  Applies-to Entry   
- [How to: Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](../FullExperience/how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
+ [How to: Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](../how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)

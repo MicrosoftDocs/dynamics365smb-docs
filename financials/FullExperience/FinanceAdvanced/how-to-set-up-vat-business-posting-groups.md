@@ -29,9 +29,9 @@ Before setting up VAT business posting groups, you must decide how many differen
  Repeat this procedure for each VAT business posting group you want to set up.  
   
 ## See Also  
- [How to: Set Up VAT Product Posting Groups](../FullExperience/how-to-set-up-vat-product-posting-groups.md)   
- [How to: Assign VAT Business Posting Groups to Customer Accounts and Vendor Accounts](../FullExperience/how-to-assign-vat-business-posting-groups-to-customer-accounts-and-vendor-accounts.md)   
- [How to: Assign VAT Posting Groups to General Ledger Accounts](../FullExperience/how-to-assign-vat-posting-groups-to-general-ledger-accounts.md)   
- [How to: Assign VAT Product Posting Groups to Item Accounts and Resource Accounts](../FullExperience/how-to-assign-vat-product-posting-groups-to-item-accounts-and-resource-accounts.md)   
- [How to: Set Up Combinations of VAT Business Posting Groups and VAT Product Posting Groups](../FullExperience/how-to-set-up-combinations-of-vat-business-posting-groups-and-vat-product-posting-groups.md)   
- [How to: Create a VAT Combination Setup](../FullExperience/how-to-create-a-vat-combination-setup.md)
+ [How to: Set Up VAT Product Posting Groups](../how-to-set-up-vat-product-posting-groups.md)   
+ [How to: Assign VAT Business Posting Groups to Customer Accounts and Vendor Accounts](../how-to-assign-vat-business-posting-groups-to-customer-accounts-and-vendor-accounts.md)   
+ [How to: Assign VAT Posting Groups to General Ledger Accounts](../how-to-assign-vat-posting-groups-to-general-ledger-accounts.md)   
+ [How to: Assign VAT Product Posting Groups to Item Accounts and Resource Accounts](../how-to-assign-vat-product-posting-groups-to-item-accounts-and-resource-accounts.md)   
+ [How to: Set Up Combinations of VAT Business Posting Groups and VAT Product Posting Groups](../how-to-set-up-combinations-of-vat-business-posting-groups-and-vat-product-posting-groups.md)   
+ [How to: Create a VAT Combination Setup](../how-to-create-a-vat-combination-setup.md)

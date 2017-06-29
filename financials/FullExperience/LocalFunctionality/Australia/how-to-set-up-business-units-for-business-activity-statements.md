@@ -59,5 +59,5 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can co
   
 ## See Also  
  General Ledger Setup   
- [Business Activity Statements](../FullExperience/business-activity-statements.md)   
- [How to: Set Up Business Activity Statements](../FullExperience/how-to-set-up-business-activity-statements.md)
+ [Business Activity Statements](../business-activity-statements.md)   
+ [How to: Set Up Business Activity Statements](../how-to-set-up-business-activity-statements.md)

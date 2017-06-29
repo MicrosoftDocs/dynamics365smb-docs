@@ -41,7 +41,7 @@ Cost accounting can help you understand the costs of running a business. Cost ac
   
  The following diagram shows the workflow in cost accounting.  
   
- ![Cost Accounting overview](../FullExperience/media/costaccountingoverview.png "CostAccountingOverview")  
+ ![Cost Accounting overview](../media/costaccountingoverview.png "CostAccountingOverview")  
   
 ## Cost Types, Cost Centers, and Cost Objects  
  You define cost types, cost centers, and cost objects to analyze what the costs are, where the costs come from, and who should bear the costs.  
@@ -73,5 +73,5 @@ Cost accounting can help you understand the costs of running a business. Cost ac
  Most reports and statistics are based on the posted cost entries. You can set the sorting of the results and use filters to define which data must be displayed. You can create reports for cost distribution analysis. In addition, you can use the standard account schedules to define how your reports for the chart of cost types are displayed.  
   
 ## See Also  
- [Manage Cost Accounting](../FullExperience/manage-cost-accounting.md)   
- [Terminology in Cost Accounting](../FullExperience/terminology-in-cost-accounting.md)
+ [Manage Cost Accounting](../manage-cost-accounting.md)   
+ [Terminology in Cost Accounting](../terminology-in-cost-accounting.md)

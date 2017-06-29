@@ -71,6 +71,6 @@ Within a given SKU, the requested or available date represents the highest prior
 5.  Planned\/Open – all order types \(Planning Flexibility \= Unlimited\)  
   
 ## See Also  
- [Design Details: Balancing Demand and Supply](../FullExperience/design-details-balancing-demand-and-supply.md)   
- [Design Details: Central Concepts of the Planning System](../FullExperience/design-details-central-concepts-of-the-planning-system.md)   
- [Design Details: Supply Planning](../FullExperience/design-details-supply-planning.md)
+ [Design Details: Balancing Demand and Supply](../design-details-balancing-demand-and-supply.md)   
+ [Design Details: Central Concepts of the Planning System](../design-details-central-concepts-of-the-planning-system.md)   
+ [Design Details: Supply Planning](../design-details-supply-planning.md)

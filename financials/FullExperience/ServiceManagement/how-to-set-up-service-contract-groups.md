@@ -31,6 +31,6 @@ You can use the **Service Contract Groups** window to set up groups of service c
  Repeat all steps for each service contract group you want to set up.  
   
 ## See Also  
- [How to: Add Contract Discounts](../FullExperience/how-to-add-contract-discounts.md)   
- [How to: Create Service Contracts and Service Contract Quotes](../FullExperience/how-to-create-service-contracts-and-service-contract-quotes.md)   
- [How to: Set Up Service Contract Account Groups](../FullExperience/how-to-set-up-service-contract-account-groups.md)
+ [How to: Add Contract Discounts](../how-to-add-contract-discounts.md)   
+ [How to: Create Service Contracts and Service Contract Quotes](../how-to-create-service-contracts-and-service-contract-quotes.md)   
+ [How to: Set Up Service Contract Account Groups](../how-to-set-up-service-contract-account-groups.md)

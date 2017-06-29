@@ -37,6 +37,6 @@ As companies operate in increasingly more countries\/regions, it becomes more im
   
 ## See Also  
  Adjust Add. Reporting Currency   
- [How to: Set Up the Additional Reporting Currency](../FullExperience/how-to-set-up-the-additional-reporting-currency.md)   
- [How to: Adjust Currency Exchange Rates](../FullExperience/how-to-adjust-currency-exchange-rates.md)   
- [How to: Set Up the Additional Reporting Currency](../FullExperience/how-to-set-up-the-additional-reporting-currency.md)
+ [How to: Set Up the Additional Reporting Currency](../how-to-set-up-the-additional-reporting-currency.md)   
+ [How to: Adjust Currency Exchange Rates](../how-to-adjust-currency-exchange-rates.md)   
+ [How to: Set Up the Additional Reporting Currency](../how-to-set-up-the-additional-reporting-currency.md)

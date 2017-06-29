@@ -45,6 +45,6 @@ VAT is charged on transactions that involve goods and services in Spain or goods
  With VAT-VIES declaration you can run a batch file to generate European Union \(EU\) sales reports. The batch file exports the entries in the required file format for submission to customs and tax authorities.  
   
 ## See Also  
- [Spain Local Functionality](../FullExperience/spain-local-functionality.md)   
- [Report 340](../FullExperience/report-340.md)   
- [Report 347](../FullExperience/report-347.md)
+ [Spain Local Functionality](../spain-local-functionality.md)   
+ [Report 340](../report-340.md)   
+ [Report 347](../report-347.md)

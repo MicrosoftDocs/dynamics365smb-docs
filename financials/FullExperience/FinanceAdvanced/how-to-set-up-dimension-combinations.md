@@ -42,6 +42,6 @@ To avoid posting entries with contradictory or irrelevant dimensions, you can bl
 >  To show the name of the dimensions instead of the code, select the **Show Column Name** field.  
   
 ## See Also  
- [How to: Set Up Default Dimensions for One Account](../FullExperience/how-to-set-up-default-dimensions-for-one-account.md)   
+ [How to: Set Up Default Dimensions for One Account](../how-to-set-up-default-dimensions-for-one-account.md)   
  Default Dimension   
  Dimension

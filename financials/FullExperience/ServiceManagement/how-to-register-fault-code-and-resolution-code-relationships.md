@@ -33,6 +33,6 @@ After repairing a service item, you can register both the fault code and the res
  The selected fault and resolution codes now appear in the corresponding fields in the **Service Item Worksheet** window. You can also register the codes directly in this window.  
   
 ## See Also  
- [How to: Register Fault Codes](../FullExperience/how-to-register-fault-codes.md)   
- [How to: Register Resolution Codes](../FullExperience/how-to-register-resolution-codes.md)   
- [How to: Insert Fault and Resolution Code Relationships](../FullExperience/how-to-insert-fault-and-resolution-code-relationships.md)
+ [How to: Register Fault Codes](../how-to-register-fault-codes.md)   
+ [How to: Register Resolution Codes](../how-to-register-resolution-codes.md)   
+ [How to: Insert Fault and Resolution Code Relationships](../how-to-insert-fault-and-resolution-code-relationships.md)

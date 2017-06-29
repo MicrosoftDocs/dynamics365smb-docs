@@ -31,7 +31,7 @@ If you require personnel with qualifications, special knowledge, or special auth
  The entered values are copied and assigned to the standard task.  
   
 ## See Also  
- [How to: Assign Personnel to Operations](../FullExperience/how-to-assign-personnel-to-operations.md)   
- [How to: Create Standard Tasks](../FullExperience/how-to-create-standard-tasks.md)   
- [How to: Assign Tools to Standard Tasks](../FullExperience/how-to-assign-tools-to-standard-tasks.md)   
- [How to: Assign Quality Measures to Standard Tasks](../FullExperience/how-to-assign-quality-measures-to-standard-tasks.md)
+ [How to: Assign Personnel to Operations](../how-to-assign-personnel-to-operations.md)   
+ [How to: Create Standard Tasks](../how-to-create-standard-tasks.md)   
+ [How to: Assign Tools to Standard Tasks](../how-to-assign-tools-to-standard-tasks.md)   
+ [How to: Assign Quality Measures to Standard Tasks](../how-to-assign-quality-measures-to-standard-tasks.md)

@@ -20,7 +20,7 @@ You can make corrections to already posted VAT entries and change the total sale
   
  Even though you may have set up one or more combinations to handle import VAT, you must set up at least one VAT product posting group code. For example, you can name it **CORRECT** for correction purposes, unless you can use the same general ledger account in the **Purchase VAT Account** field on the VAT posting setup line.  
   
- For more information, see [How to: Set Up Codes for Import VAT](../FullExperience/how-to-set-up-codes-for-import-vat.md).  
+ For more information, see [How to: Set Up Codes for Import VAT](../how-to-set-up-codes-for-import-vat.md).  
   
 ### To correct VAT  
   
@@ -34,4 +34,4 @@ You can make corrections to already posted VAT entries and change the total sale
 3.  On the **Home** tab, choose **Post** to post the journal.  
   
 ## See Also  
- [How to: Record VAT](../FullExperience/how-to-record-vat.md)
+ [How to: Record VAT](../how-to-record-vat.md)

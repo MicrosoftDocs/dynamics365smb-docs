@@ -40,4 +40,4 @@ If you want to copy sales prices, such as an individual customer's sales prices 
 ## See Also  
  Sales Prices   
  Sales Price Worksheet   
- [How to: Create Sales Prices for a Customer](../FullExperience/how-to-create-sales-prices-for-a-customer.md)
+ [How to: Create Sales Prices for a Customer](../how-to-create-sales-prices-for-a-customer.md)

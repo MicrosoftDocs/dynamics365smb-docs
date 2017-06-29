@@ -29,4 +29,4 @@ When you register a service item line in a service order or quote, the response 
 4.  Either in the **Response Time \(Hours\)** field or in the **Response Date** and **Response Time** fields, enter the new response hours or response date and time.  
   
 ## See Also  
- [How to: Create Service Orders](../FullExperience/how-to-create-service-orders.md)
+ [How to: Create Service Orders](../how-to-create-service-orders.md)

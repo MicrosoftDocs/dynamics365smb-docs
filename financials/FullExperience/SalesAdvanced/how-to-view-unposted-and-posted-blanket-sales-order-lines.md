@@ -20,7 +20,7 @@ The link between the blanket sales order and the originating sales order, and an
   
 ### To view unposted entries  
   
-1.  Select the line in question and then on the **Lines** FastTab, click **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), **Line**, **Unposted Lines**. The following options are available:  
+1.  Select the line in question and then on the **Lines** FastTab, click **Actions**![Action Menu icon](../media/actionmenuicon.png "actionMenuIcon"), **Line**, **Unposted Lines**. The following options are available:  
   
     |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../../includes/bp_tabledescription_md.md)]-->|  
     |----------------------------------|---------------------------------------|  
@@ -29,11 +29,11 @@ The link between the blanket sales order and the originating sales order, and an
     |**Return Orders:**|Specifies open return orders that have been associated with the selected line.|  
     |**Credit Memos**|Specifies open credit memos that have been associated with the selected line.|  
   
-2.  In the **Sales Lines** window, select the appropriate document. On the **Lines** FastTab, click **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), **Line**, **Show Document** to view the entry.  
+2.  In the **Sales Lines** window, select the appropriate document. On the **Lines** FastTab, click **Actions**![Action Menu icon](../media/actionmenuicon.png "actionMenuIcon"), **Line**, **Show Document** to view the entry.  
   
 ### To view posted entries  
   
-1.  Select the line in question and then on the **Lines** FastTab, click **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), **Line**, **Posted Lines**. The following options are available:  
+1.  Select the line in question and then on the **Lines** FastTab, click **Actions**![Action Menu icon](../media/actionmenuicon.png "actionMenuIcon"), **Line**, **Posted Lines**. The following options are available:  
   
     |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../../includes/bp_tabledescription_md.md)]-->|  
     |----------------------------------|---------------------------------------|  
@@ -43,6 +43,6 @@ The link between the blanket sales order and the originating sales order, and an
     |**Credit Memos**|Posted credit memos that have been associated with the selected line.|  
   
 ## See Also  
- [About Blanket Sales Orders](../FullExperience/about-blanket-sales-orders.md)   
- [How to: Create Blanket Sales Orders](../FullExperience/how-to-create-blanket-sales-orders.md)   
- [How to: View the Status of Blanket Sales Orders](../FullExperience/how-to-view-the-status-of-blanket-sales-orders.md)
+ [About Blanket Sales Orders](../about-blanket-sales-orders.md)   
+ [How to: Create Blanket Sales Orders](../how-to-create-blanket-sales-orders.md)   
+ [How to: View the Status of Blanket Sales Orders](../how-to-view-the-status-of-blanket-sales-orders.md)

@@ -29,7 +29,7 @@ The **Planning** FastTab in the **Manufacturing Setup** window contains several 
 |Default Dampener Quantity|Set between 5 and 20 percent of the item’s lot size.||  
   
 ## See Also  
- [Setup Best Practices: Supply Planning](../FullExperience/setup-best-practices-supply-planning.md)   
+ [Setup Best Practices: Supply Planning](../setup-best-practices-supply-planning.md)   
  Manufacturing Setup   
- [Design Details: Supply Planning](../FullExperience/design-details-supply-planning.md)   
- [Set Up a Company With RapidStart Services for Microsoft Dynamics NAV](../FullExperience/set-up-a-company-with-rapidstart-services-for-microsoft-dynamics-nav.md)
+ [Design Details: Supply Planning](../design-details-supply-planning.md)   
+ [Set Up a Company With RapidStart Services for Microsoft Dynamics NAV](../set-up-a-company-with-rapidstart-services-for-microsoft-dynamics-nav.md)

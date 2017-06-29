@@ -25,7 +25,7 @@ The follow table shows the various ways you can view an item’s availability.
 |Variant|To view actual and projected availability figures grouped according to variant code.|  
 |Location|To view actual and projected availability figures grouped according to location code.|  
 |BOM Level|To see how many parent items you are able to make, by assembly or production, based on the availability of components and lower-level parents.|  
-|Timeline|To see a graphical view of an item’s projected inventory based on future supply and demand events, with or without planning suggestions. The result is a graphical representation of the inventory profile. **Note:**  You can change planning suggestions by dragging elements across the timeline and then save them back to the planning worksheet. For more information, see [How to: Modify Planning Suggestions in a Graphical View](../FullExperience/how-to-modify-planning-suggestions-in-a-graphical-view.md).|  
+|Timeline|To see a graphical view of an item’s projected inventory based on future supply and demand events, with or without planning suggestions. The result is a graphical representation of the inventory profile. **Note:**  You can change planning suggestions by dragging elements across the timeline and then save them back to the planning worksheet. For more information, see [How to: Modify Planning Suggestions in a Graphical View](../how-to-modify-planning-suggestions-in-a-graphical-view.md).|  
   
  You can open five of these different views as separate windows from all application areas where items are handled, such as item cards, planning or requisition lines, and any kind of order line or component line. The **Item Availability Timeline** window can only be opened from item cards and planning or requisition lines.  
   
@@ -157,7 +157,7 @@ The follow table shows the various ways you can view an item’s availability.
   
      The **Item Availability Timeline** window opens with the item number, location, and variant of the item on the selected planning line prefilled in the fields on the **Options** FastTab. The **Timeline** FastTab shows a graphical representation of the item’s projected inventory based on actual supply and demand events and the suggested supply orders. Clear the **Include Planning Suggestions** field if you only want to see actual inventory figures.  
   
- You can modify the suggested supply orders by dragging the related icons up and down on the **Timeline** FastTab. For more information, see [How to: Modify Planning Suggestions in a Graphical View](../FullExperience/how-to-modify-planning-suggestions-in-a-graphical-view.md).  
+ You can modify the suggested supply orders by dragging the related icons up and down on the **Timeline** FastTab. For more information, see [How to: Modify Planning Suggestions in a Graphical View](../how-to-modify-planning-suggestions-in-a-graphical-view.md).  
   
 ## See Also  
  Item Availability by Event   
@@ -172,4 +172,4 @@ The follow table shows the various ways you can view an item’s availability.
  Location Card   
  Item Variant   
  Planning Worksheet   
- [How to: Modify Planning Suggestions in a Graphical View](../FullExperience/how-to-modify-planning-suggestions-in-a-graphical-view.md)
+ [How to: Modify Planning Suggestions in a Graphical View](../how-to-modify-planning-suggestions-in-a-graphical-view.md)

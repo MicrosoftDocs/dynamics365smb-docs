@@ -27,7 +27,7 @@ You can set up inventory to use the same column for original and corrective post
 -   Periodic adjustments of item costs.  
   
 > [!NOTE]  
->  You must enable red storno in the **Inventory Setup** window before you can post corrective entries. For more information, see [Inventory Setup](../FullExperience/inventory-setup.md).  
+>  You must enable red storno in the **Inventory Setup** window before you can post corrective entries. For more information, see [Inventory Setup](../inventory-setup.md).  
   
 ### To post corrective entries in the item journal  
   
@@ -82,5 +82,5 @@ You can set up inventory to use the same column for original and corrective post
 3.  Post the document.  
   
 ## See Also  
- [Inventory Setup](../FullExperience/inventory-setup.md)   
+ [Inventory Setup](../inventory-setup.md)   
  Item Journal Line

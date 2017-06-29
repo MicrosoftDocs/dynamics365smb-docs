@@ -31,6 +31,6 @@ If you want to set up components for service items that are BOMs, you can copy t
      If the item that the service item is linked to is a BOM, the components for all the items in the BOM are created automatically.  
   
 ## See Also  
- [How to: Set Up Service Item Components](../FullExperience/how-to-set-up-service-item-components.md)   
- [How to: Create Service Items](../FullExperience/how-to-create-service-items.md)   
- [How to: Create Service Items When Shipping Items](../FullExperience/how-to-create-service-items-when-shipping-items.md)
+ [How to: Set Up Service Item Components](../how-to-set-up-service-item-components.md)   
+ [How to: Create Service Items](../how-to-create-service-items.md)   
+ [How to: Create Service Items When Shipping Items](../how-to-create-service-items-when-shipping-items.md)

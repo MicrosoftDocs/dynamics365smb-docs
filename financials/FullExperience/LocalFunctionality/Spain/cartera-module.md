@@ -31,6 +31,6 @@ The Cartera module allows you to use specific documents, such as bills of exchan
  The Cartera module contains the Receivables Cartera module and the Payments Cartera module. The Receivables Cartera module allows you to manage bills generated from sales invoices. The Payments Cartera module allows you to manage payables documents generated from purchase invoices or from the Cartera journal.  
   
 ## See Also  
- [Receivables Cartera Module](../FullExperience/receivables-cartera-module.md)   
- [Payments Cartera Module](../FullExperience/payments-cartera-module.md)   
- [Spain Local Functionality](../FullExperience/spain-local-functionality.md)
+ [Receivables Cartera Module](../receivables-cartera-module.md)   
+ [Payments Cartera Module](../payments-cartera-module.md)   
+ [Spain Local Functionality](../spain-local-functionality.md)

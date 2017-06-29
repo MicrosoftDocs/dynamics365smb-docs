@@ -36,5 +36,5 @@ For some items, you might want to set up specific warranties in the item trackin
  Warranty Date   
  Warranty Date   
  Man. Warranty Date Entry Reqd.   
- [How to: Set Up Expiration Rules for Serial Numbers and Lot Numbers](../FullExperience/how-to-set-up-expiration-rules-for-serial-numbers-and-lot-numbers.md)   
- [How to: Set Up Item Tracking Codes](../FullExperience/how-to-set-up-item-tracking-codes.md)
+ [How to: Set Up Expiration Rules for Serial Numbers and Lot Numbers](../how-to-set-up-expiration-rules-for-serial-numbers-and-lot-numbers.md)   
+ [How to: Set Up Item Tracking Codes](../how-to-set-up-item-tracking-codes.md)

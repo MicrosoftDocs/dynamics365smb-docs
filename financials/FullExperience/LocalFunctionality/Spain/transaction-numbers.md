@@ -23,5 +23,5 @@ Transaction numbers allow you to group entries with the same document number and
  Having a unique sequential transaction number, ordered by date, allows you to identify every transaction posted in a fiscal year.  
   
 ## See Also  
- [How to: Post and Print All Transactions for a Period](../FullExperience/how-to-post-and-print-all-transactions-for-a-period.md)   
- [Spain Local Functionality](../FullExperience/spain-local-functionality.md)
+ [How to: Post and Print All Transactions for a Period](../how-to-post-and-print-all-transactions-for-a-period.md)   
+ [Spain Local Functionality](../spain-local-functionality.md)

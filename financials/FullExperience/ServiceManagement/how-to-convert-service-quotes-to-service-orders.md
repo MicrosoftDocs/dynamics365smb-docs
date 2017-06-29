@@ -33,4 +33,4 @@ When a customer has accepted a service quote, you convert it to a service order.
  ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> searches for allocation entries for all the service items in the service quote that have the status **Active**. If it finds such allocation entries, their allocation status is updated to **Reallocation Needed**. When you reallocate the service items in the service order, the status of the allocation entries registered for the quote are updated to **Finished**.  
   
 ## See Also  
- [How to: Create Service Quotes](../FullExperience/how-to-create-service-quotes.md)
+ [How to: Create Service Quotes](../how-to-create-service-quotes.md)

@@ -33,6 +33,6 @@ You may need to change the default bin assignment for an item or assign a defaul
   
 ## See Also  
  Bins   
- [How to: Assign Default Bins to Items](../FullExperience/how-to-assign-default-bins-to-items.md)   
+ [How to: Assign Default Bins to Items](../how-to-assign-default-bins-to-items.md)   
  Default Bin Selection   
- [How to: Set Up Locations to Use Bins](../FullExperience/how-to-set-up-locations-to-use-bins.md)
+ [How to: Set Up Locations to Use Bins](../how-to-set-up-locations-to-use-bins.md)

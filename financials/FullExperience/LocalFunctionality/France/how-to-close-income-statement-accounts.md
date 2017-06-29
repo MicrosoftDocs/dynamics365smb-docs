@@ -16,7 +16,7 @@
 
     ---
 # How to: Close Income Statement Accounts
-Before you can run the **Close Income Statement** batch job, you must close the fiscal year. For more information, see [How to: Fiscally Close Years](../FullExperience/how-to-fiscally-close-years.md).  
+Before you can run the **Close Income Statement** batch job, you must close the fiscal year. For more information, see [How to: Fiscally Close Years](../how-to-fiscally-close-years.md).  
   
 ### To close the income statement accounts  
   
@@ -37,5 +37,5 @@ Before you can run the **Close Income Statement** batch job, you must close the 
 7.  On the **Home** tab, in the **Process** group, choose **Post** to post the journal.  
   
 ## See Also  
- [How to: Fiscally Close Years](../FullExperience/how-to-fiscally-close-years.md)   
+ [How to: Fiscally Close Years](../how-to-fiscally-close-years.md)   
  Close Income Statement

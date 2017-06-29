@@ -54,8 +54,8 @@ The production order lines contain the items that are to be produced in the prod
 10. Choose the **OK** button to confirm your selection. Now the production order lines are calculated.  
   
 ## See Also  
- [How to: Refresh Production Orders](../FullExperience/how-to-refresh-production-orders.md)   
- [How to: Calculate Production Order Components](../FullExperience/how-to-calculate-production-order-components.md)   
- [How to: Calculate Production Order Routing Lines](../FullExperience/how-to-calculate-production-order-routing-lines.md)   
- [About Production Orders](../FullExperience/about-production-orders.md)   
- [How to: Use the Manufacturing Batch Unit of Measure](../FullExperience/how-to-use-the-manufacturing-batch-unit-of-measure.md)
+ [How to: Refresh Production Orders](../how-to-refresh-production-orders.md)   
+ [How to: Calculate Production Order Components](../how-to-calculate-production-order-components.md)   
+ [How to: Calculate Production Order Routing Lines](../how-to-calculate-production-order-routing-lines.md)   
+ [About Production Orders](../about-production-orders.md)   
+ [How to: Use the Manufacturing Batch Unit of Measure](../how-to-use-the-manufacturing-batch-unit-of-measure.md)

@@ -31,6 +31,6 @@ If you have set up a large number of service orders, it is advantageous to post 
 4.  Choose the **OK** button to start the batch job.  
   
 ## See Also  
- [How to: Post Service Orders](../FullExperience/how-to-post-service-orders.md)   
- [How to: Post Service Lines](../FullExperience/how-to-post-service-lines.md)   
- [How to: Check Service Orders Before Posting Them](../FullExperience/how-to-check-service-orders-before-posting-them.md)
+ [How to: Post Service Orders](../how-to-post-service-orders.md)   
+ [How to: Post Service Lines](../how-to-post-service-lines.md)   
+ [How to: Check Service Orders Before Posting Them](../how-to-check-service-orders-before-posting-them.md)

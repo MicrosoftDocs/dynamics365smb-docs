@@ -37,6 +37,6 @@ The **Direct Sales Details** and **Direct Purchase Details** reports include hea
 ## See Also  
  Direct Sales Details   
  Direct Purchase Details   
- [How to: Create Purchase Orders Manually](../FullExperience/how-to-create-purchase-orders-manually.md)   
- [How to: Create Sales Orders Manually](../FullExperience/how-to-create-sales-orders-manually.md)   
- [United Kingdom Local Functionality](../FullExperience/united-kingdom-local-functionality.md)
+ [How to: Create Purchase Orders Manually](../how-to-create-purchase-orders-manually.md)   
+ [How to: Create Sales Orders Manually](../how-to-create-sales-orders-manually.md)   
+ [United Kingdom Local Functionality](../united-kingdom-local-functionality.md)

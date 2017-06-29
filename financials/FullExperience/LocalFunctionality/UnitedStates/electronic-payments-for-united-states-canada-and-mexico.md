@@ -21,5 +21,5 @@ ADD INCLUDE<!--[!INCLUDE[nav_current_short](../../includes/nav_current_short_md.
  Before you can transfer payments electronically to a vendor, you must set up a bank account for the vendor. You must also set up the electronic payment links with your bank and set up the **Bank Account Card** for your own bank to handle electronic payments. Your bank will provide the transmission program.  
   
 ## See Also  
- [How to: Set Up Electronic Payments for Bank Accounts](../FullExperience/how-to-set-up-electronic-payments-for-bank-accounts.md)   
- [How to: Generate Electronic Payments](../FullExperience/how-to-generate-electronic-payments.md)
+ [How to: Set Up Electronic Payments for Bank Accounts](../how-to-set-up-electronic-payments-for-bank-accounts.md)   
+ [How to: Generate Electronic Payments](../how-to-generate-electronic-payments.md)

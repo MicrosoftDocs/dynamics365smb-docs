@@ -22,14 +22,14 @@ In the cash flow worksheet, you register the forecasted transactions of cash inf
   
 |To|See|  
 |--------|---------|  
-|Record recurring manual revenues.|[How to: Record Manual Revenues](../FullExperience/how-to-record-manual-revenues.md)|  
-|Record recurring manual expenses.|[How to: Record Manual Expenses](../FullExperience/how-to-record-manual-expenses.md)|  
-|Automatically transfer information from the areas of general ledger, purchasing, sales, service, and fixed assets to the cash flow worksheet for cash flow forecast.|[How to: Register Cash Flow Worksheet Lines](../FullExperience/how-to-register-cash-flow-worksheet-lines.md)|  
-|Understand how cash flow payment terms are calculated and used.|[Cash Flow Forecast Dates and Amounts](../FullExperience/cash-flow-forecast-dates-and-amounts.md)|  
-|See an example of how cash flow payment terms are calculated.|[Scenario Example: Calculating Cash Flow Dates and Amounts for Open Invoices](../FullExperience/scenario-example-calculating-cash-flow-dates-and-amounts-for-open-invoices.md)|  
+|Record recurring manual revenues.|[How to: Record Manual Revenues](../how-to-record-manual-revenues.md)|  
+|Record recurring manual expenses.|[How to: Record Manual Expenses](../how-to-record-manual-expenses.md)|  
+|Automatically transfer information from the areas of general ledger, purchasing, sales, service, and fixed assets to the cash flow worksheet for cash flow forecast.|[How to: Register Cash Flow Worksheet Lines](../how-to-register-cash-flow-worksheet-lines.md)|  
+|Understand how cash flow payment terms are calculated and used.|[Cash Flow Forecast Dates and Amounts](../cash-flow-forecast-dates-and-amounts.md)|  
+|See an example of how cash flow payment terms are calculated.|[Scenario Example: Calculating Cash Flow Dates and Amounts for Open Invoices](../scenario-example-calculating-cash-flow-dates-and-amounts-for-open-invoices.md)|  
   
 ## See Also  
- [Manage Cash Flow Forecasts](../FullExperience/manage-cash-flow-forecasts.md)   
- [Cash Flow Overview](../FullExperience/cash-flow-overview.md)   
- [Set Up Cash Flow Forecasts](../FullExperience/set-up-cash-flow-forecasts.md)   
- [Analyze and Print Cash Flow Forecasts](../FullExperience/analyze-and-print-cash-flow-forecasts.md)
+ [Manage Cash Flow Forecasts](../manage-cash-flow-forecasts.md)   
+ [Cash Flow Overview](../cash-flow-overview.md)   
+ [Set Up Cash Flow Forecasts](../set-up-cash-flow-forecasts.md)   
+ [Analyze and Print Cash Flow Forecasts](../analyze-and-print-cash-flow-forecasts.md)

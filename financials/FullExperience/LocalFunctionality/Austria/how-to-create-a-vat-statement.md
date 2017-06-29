@@ -47,6 +47,6 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> allows you to 
  If your VAT statement does not contain errors, you can now submit the FDF file to the tax authorities. For more information, see the [Finanz-Online portal](http://go.microsoft.com/fwlink/?LinkId=239929).  
   
 ## See Also  
- [VAT Reporting](../FullExperience/vat-reporting.md)   
+ [VAT Reporting](../vat-reporting.md)   
  VAT Statement AT   
  Company Information

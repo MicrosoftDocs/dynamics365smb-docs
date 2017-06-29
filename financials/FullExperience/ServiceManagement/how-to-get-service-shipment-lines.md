@@ -26,13 +26,13 @@ You can fill in the lines of a service invoice with the selected posted shipment
   
 3.  Fill in the fields on the **General** FastTab.  
   
-4.  Choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Functions**, and then choose **Get Shipment Lines**.  
+4.  Choose **Actions**![Action Menu icon](../media/actionmenuicon.png "actionMenuIcon"), choose **Functions**, and then choose **Get Shipment Lines**.  
   
 5.  In the **Get Service Shipment Lines** window, select the relevant service shipment lines, and then choose the **OK** button to insert the lines into the invoice.  
   
  The selected posted shipment lines are inserted into the invoice for the specified customer.  
   
 ## See Also  
- [How to: Invoice Posted Shipment Lines](../FullExperience/how-to-invoice-posted-shipment-lines.md)   
- [How to: Create Combined Invoices](../FullExperience/how-to-create-combined-invoices.md)   
- [How to: Create Service Invoices Manually](../FullExperience/how-to-create-service-invoices-manually.md)
+ [How to: Invoice Posted Shipment Lines](../how-to-invoice-posted-shipment-lines.md)   
+ [How to: Create Combined Invoices](../how-to-create-combined-invoices.md)   
+ [How to: Create Service Invoices Manually](../how-to-create-service-invoices-manually.md)

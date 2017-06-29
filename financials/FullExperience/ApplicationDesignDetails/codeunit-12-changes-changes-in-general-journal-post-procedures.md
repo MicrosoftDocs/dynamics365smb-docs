@@ -187,4 +187,4 @@ The following changes have been implemented in this release of ADD INCLUDE<!--[!
 ||CreateGLEntriesForTotalAmounts|Added|  
   
 ## See Also  
- [Codeunit 12 Changes: Mapping Global Variables for General Journal Post Line](../FullExperience/codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)
+ [Codeunit 12 Changes: Mapping Global Variables for General Journal Post Line](../codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)

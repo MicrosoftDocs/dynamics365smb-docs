@@ -41,7 +41,7 @@ You can use a questionnaire to help you determine the scope and needs of configu
 -   Warehouse Setup  
   
 > [!NOTE]  
->  To see a complete list of setup tables, in the **Search** box, enter **Setup**, and then choose the related link. To determine the scope of migration of records data, use migration functionality. For more information, see [Migrate Customer Data](../FullExperience/migrate-customer-data.md).  
+>  To see a complete list of setup tables, in the **Search** box, enter **Setup**, and then choose the related link. To determine the scope of migration of records data, use migration functionality. For more information, see [Migrate Customer Data](../migrate-customer-data.md).  
   
 ### To create a custom configuration questionnaire  
   
@@ -77,5 +77,5 @@ You can use a questionnaire to help you determine the scope and needs of configu
 12. Choose the **Close** button.  
   
 ## See Also  
- [How to: Complete the Configuration Questionnaire](../FullExperience/how-to-complete-the-configuration-questionnaire.md)   
+ [How to: Complete the Configuration Questionnaire](../how-to-complete-the-configuration-questionnaire.md)   
  Config. Questionnaire

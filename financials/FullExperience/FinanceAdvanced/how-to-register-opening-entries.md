@@ -49,9 +49,9 @@ If you are using the fixed assets in ADD INCLUDE<!--[!INCLUDE[navnow](../../incl
  If the fixed assets are not integrated with the general ledger, skip steps 4 and 8.  
   
 ## See Also  
- [How to: Create Fixed Assets](../FullExperience/how-to-create-fixed-assets.md)   
- [How to: Set Up General Default Values for Fixed Assets](../FullExperience/how-to-set-up-general-default-values-for-fixed-assets.md)   
- [How to: Set Up Fixed Asset Depreciation Books Manually](../FullExperience/how-to-set-up-fixed-asset-depreciation-books-manually.md)   
- [How to: Set Up Fixed Asset Depreciation Books Automatically](../FullExperience/how-to-set-up-fixed-asset-depreciation-books-automatically.md)   
- [How to: Fill In and Post Fixed Asset General Ledger Journals](../FullExperience/how-to-fill-in-and-post-fixed-asset-general-ledger-journals.md)   
- [How to: Fill In and Post Fixed Asset Journals](../FullExperience/how-to-fill-in-and-post-fixed-asset-journals.md)
+ [How to: Create Fixed Assets](../how-to-create-fixed-assets.md)   
+ [How to: Set Up General Default Values for Fixed Assets](../how-to-set-up-general-default-values-for-fixed-assets.md)   
+ [How to: Set Up Fixed Asset Depreciation Books Manually](../how-to-set-up-fixed-asset-depreciation-books-manually.md)   
+ [How to: Set Up Fixed Asset Depreciation Books Automatically](../how-to-set-up-fixed-asset-depreciation-books-automatically.md)   
+ [How to: Fill In and Post Fixed Asset General Ledger Journals](../how-to-fill-in-and-post-fixed-asset-general-ledger-journals.md)   
+ [How to: Fill In and Post Fixed Asset Journals](../how-to-fill-in-and-post-fixed-asset-journals.md)

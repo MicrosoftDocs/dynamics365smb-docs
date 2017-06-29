@@ -24,7 +24,7 @@ The **Response Time \(Hours\)** field is automatically filled in, depending on w
 |**Service item is not included on contract**|If the service item is on a service contract, the value in the **Response Time \(Hours\)** field is used on the corresponding service contract line if it is non-zero.<br /><br /> Otherwise, the value in **the Response Time \(Hours\)** field from the corresponding service contract header is used if it is non-zero.|  
   
 ## See Also  
- [How to: Change Response Times for Service Item Lines](../FullExperience/how-to-change-response-times-for-service-item-lines.md)   
+ [How to: Change Response Times for Service Item Lines](../how-to-change-response-times-for-service-item-lines.md)   
  Response Time \(Hours\)%20$\).md)   
  Default Response Time \(Hours\)%20$\).md)   
  Default Response Time \(Hours\)%20$\).md)

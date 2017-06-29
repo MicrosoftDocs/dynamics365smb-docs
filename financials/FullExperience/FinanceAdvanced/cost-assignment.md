@@ -28,5 +28,5 @@ An Item Charge gives you the possibility to include the value of additional cost
   
 ## See Also  
  Item Charge   
- [Assignment of Item Charges to Purchase Documents](../FullExperience/assignment-of-item-charges-to-purchase-documents.md)   
- [How to: Assign Item Charges to Purchase Documents](../FullExperience/How%20to:%20Assign%20Item%20Charges%20to%20Purchase%20Documents.md)
+ [Assignment of Item Charges to Purchase Documents](../assignment-of-item-charges-to-purchase-documents.md)   
+ [How to: Assign Item Charges to Purchase Documents](../How%20to:%20Assign%20Item%20Charges%20to%20Purchase%20Documents.md)

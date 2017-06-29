@@ -24,12 +24,12 @@ A service management application must interface with a customer request for serv
   
 |**To**|**See**|  
 |------------|-------------|  
-|Take customer requests for service and turn the requests into service orders.|[Receive Customer Inquiries and Requests for Service](../FullExperience/receive-customer-inquiries-and-requests-for-service.md)|  
-|Set up a system to provide customers with loaners while their items are under repair.|[Set Up Loaner Program](../FullExperience/set-up-loaner-program.md)|  
-|Set up and fine-tune pricing details on service items.|[Set Service Pricing](../FullExperience/set-service-pricing.md)|  
+|Take customer requests for service and turn the requests into service orders.|[Receive Customer Inquiries and Requests for Service](../receive-customer-inquiries-and-requests-for-service.md)|  
+|Set up a system to provide customers with loaners while their items are under repair.|[Set Up Loaner Program](../set-up-loaner-program.md)|  
+|Set up and fine-tune pricing details on service items.|[Set Service Pricing](../set-service-pricing.md)|  
   
 ## See Also  
  Loaner   
  Service Order Type   
  Service Price Group   
- [Working with Product Name](../FullExperience/working-with-$-p_1-product-name-$-.md)
+ [Working with Product Name](../working-with-$-p_1-product-name-$-.md)

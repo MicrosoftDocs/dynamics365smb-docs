@@ -28,5 +28,5 @@ You can release sales and purchase orders to the next stage of processing before
 >  You can make changes to a released order by reopening it. However, you can only change lines already processed by the warehouse by increasing the quantity.  
   
 ## See Also  
- [How to: Reopen Released Orders](../FullExperience/how-to-reopen-released-orders.md)   
- [Status Field on Documents](../FullExperience/status-field-on-documents.md)
+ [How to: Reopen Released Orders](../how-to-reopen-released-orders.md)   
+ [Status Field on Documents](../status-field-on-documents.md)

@@ -24,10 +24,10 @@ To use the Human Resources feature, you must set up employees by creating a new 
   
 |**To**|**See**|  
 |------------|-------------|  
-|Create a new employee.|[How to: Set Up Employees](../FullExperience/how-to-set-up-employees.md)|  
-|Enter an alternative address for an employee.|[How to: Set Up Alternative Addresses for Employees](../FullExperience/how-to-set-up-alternative-addresses-for-employees.md)|  
-|Enter comments about an employee.|[How to: Enter Comments About Employees](../FullExperience/how-to-enter-comments-about-employees.md)|  
-|Insert a picture of the employee.|[How to: Insert Pictures of Employees](../FullExperience/how-to-insert-pictures-of-employees.md)|  
+|Create a new employee.|[How to: Set Up Employees](../how-to-set-up-employees.md)|  
+|Enter an alternative address for an employee.|[How to: Set Up Alternative Addresses for Employees](../how-to-set-up-alternative-addresses-for-employees.md)|  
+|Enter comments about an employee.|[How to: Enter Comments About Employees](../how-to-enter-comments-about-employees.md)|  
+|Insert a picture of the employee.|[How to: Insert Pictures of Employees](../how-to-insert-pictures-of-employees.md)|  
   
 ## See Also  
  Employee

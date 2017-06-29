@@ -31,10 +31,10 @@ Sometimes you must provide a customer a loaner item for use when your customer s
   
 |**To**|**See**|  
 |------------|-------------|  
-|Set up a loaner component to your service application.|[How to: Set Up Loaners](../FullExperience/how-to-set-up-loaners.md)|  
-|Provide temporary replacement items to a customer when repair service is performed.|[How to: Lend Loaners](../FullExperience/how-to-lend-loaners.md)|  
-|Track and manage the return of loaners from customers.|[How to: Receive Loaners](../FullExperience/how-to-receive-loaners.md)|  
+|Set up a loaner component to your service application.|[How to: Set Up Loaners](../how-to-set-up-loaners.md)|  
+|Provide temporary replacement items to a customer when repair service is performed.|[How to: Lend Loaners](../how-to-lend-loaners.md)|  
+|Track and manage the return of loaners from customers.|[How to: Receive Loaners](../how-to-receive-loaners.md)|  
   
 ## See Also  
- [How to: Register Loaner Comments](../FullExperience/how-to-register-loaner-comments.md)   
- [How to: Register Service Item Loaner Comments](../FullExperience/how-to-register-service-item-loaner-comments.md)
+ [How to: Register Loaner Comments](../how-to-register-loaner-comments.md)   
+ [How to: Register Service Item Loaner Comments](../how-to-register-service-item-loaner-comments.md)

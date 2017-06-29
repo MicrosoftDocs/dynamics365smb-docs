@@ -29,4 +29,4 @@ You can assign service item groups to items on the item card. The service item g
  Repeat these steps for each item that you want to assign to a service item group.  
   
 ## See Also  
- [How to: Set Up Service Item Groups](../FullExperience/how-to-set-up-service-item-groups.md)
+ [How to: Set Up Service Item Groups](../how-to-set-up-service-item-groups.md)

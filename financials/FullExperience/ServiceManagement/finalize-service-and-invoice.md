@@ -24,14 +24,14 @@ Ease in invoicing your service orders is a key feature of ADD INCLUDE<!--[!INCLU
   
 |**To**|**See**|  
 |------------|-------------|  
-|Create a service invoice based on a service contract.|[How to: Invoice Service Contracts](../FullExperience/how-to-invoice-service-contracts.md)|  
-|Take a service order and manage the posting of individual service lines to the ledger.|[How to: Post Invoices from Service Orders](../FullExperience/how-to-post-invoices-from-service-orders.md)|  
-|Create a service invoice that is not connected to a contract or existing service order.|[How to: Create Service Invoices Manually](../FullExperience/how-to-create-service-invoices-manually.md)|  
-|Create one invoice for multiple service orders related to one customer.|[How to: Create Combined Invoices](../FullExperience/how-to-create-combined-invoices.md)|  
-|Review and print information about an invoice, shipment, or credit memo.|[How to: View Additional Information About Posted Service Documents](../FullExperience/how-to-view-additional-information-about-posted-service-documents.md)|  
-|Post a service order and update the ledger.|[How to: Post Service Orders](../FullExperience/how-to-post-service-orders.md)|  
-|Post individual service lines.|[How to: Post Service Lines](../FullExperience/how-to-post-service-lines.md)|  
-|To check for problems before posting an invoice or other service document.|[How to: Print Test Reports Before Posting Service Documents](../FullExperience/how-to-print-test-reports-before-posting-service-documents.md)|  
+|Create a service invoice based on a service contract.|[How to: Invoice Service Contracts](../how-to-invoice-service-contracts.md)|  
+|Take a service order and manage the posting of individual service lines to the ledger.|[How to: Post Invoices from Service Orders](../how-to-post-invoices-from-service-orders.md)|  
+|Create a service invoice that is not connected to a contract or existing service order.|[How to: Create Service Invoices Manually](../how-to-create-service-invoices-manually.md)|  
+|Create one invoice for multiple service orders related to one customer.|[How to: Create Combined Invoices](../how-to-create-combined-invoices.md)|  
+|Review and print information about an invoice, shipment, or credit memo.|[How to: View Additional Information About Posted Service Documents](../how-to-view-additional-information-about-posted-service-documents.md)|  
+|Post a service order and update the ledger.|[How to: Post Service Orders](../how-to-post-service-orders.md)|  
+|Post individual service lines.|[How to: Post Service Lines](../how-to-post-service-lines.md)|  
+|To check for problems before posting an invoice or other service document.|[How to: Print Test Reports Before Posting Service Documents](../how-to-print-test-reports-before-posting-service-documents.md)|  
   
 ## See Also  
- [Manage Receivables](../FullExperience/manage-receivables.md)
+ [Manage Receivables](../manage-receivables.md)

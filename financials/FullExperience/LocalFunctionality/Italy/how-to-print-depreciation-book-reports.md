@@ -40,7 +40,7 @@ The **Depreciation Book** is a fiscal report that is sorted by year and item cla
 6.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [How to: Set Up Depreciation Books](../FullExperience/how-to-set-up-depreciation-books.md)   
- [Italian Fixed Assets](../FullExperience/italian-fixed-assets.md)   
- [How to: Create Multiple Fixed Asset Cards](../FullExperience/how-to-create-multiple-fixed-asset-cards.md)   
- [How to: Set Up Compressed Depreciation of Fixed Assets](../FullExperience/how-to-set-up-compressed-depreciation-of-fixed-assets.md)
+ [How to: Set Up Depreciation Books](../how-to-set-up-depreciation-books.md)   
+ [Italian Fixed Assets](../italian-fixed-assets.md)   
+ [How to: Create Multiple Fixed Asset Cards](../how-to-create-multiple-fixed-asset-cards.md)   
+ [How to: Set Up Compressed Depreciation of Fixed Assets](../how-to-set-up-compressed-depreciation-of-fixed-assets.md)

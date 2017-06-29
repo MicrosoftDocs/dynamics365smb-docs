@@ -21,7 +21,7 @@ If item processing operations occur at your warehouse location, then you may hav
 > [!NOTE]  
 >  For information about moving items between bins without source documents, see Internal Movement.  
   
- In advanced warehouse configurations, which are locations that use the **Directed Put-away and Pick** setup field, you can use the **Movement Worksheet** window to move items between bins. For more information, see [How to: Move Items in Advanced Warehousing](../FullExperience/how-to-move-items-in-advanced-warehousing.md).  
+ In advanced warehouse configurations, which are locations that use the **Directed Put-away and Pick** setup field, you can use the **Movement Worksheet** window to move items between bins. For more information, see [How to: Move Items in Advanced Warehousing](../how-to-move-items-in-advanced-warehousing.md).  
   
  In basic warehouse configurations, which are locations that use the **Bin Mandatory** setup field and the **Require Pick** setup field, you can register movement of items to internal operation areas based on internal source documents in the following ways:  
   
@@ -82,9 +82,9 @@ If item processing operations occur at your warehouse location, then you may hav
  Create Movements Automatically   
  To-Assembly Bin Code   
  To-Production Bin Code   
- [How to: Pick for Production in Basic Warehousing](../FullExperience/how-to-pick-for-production-in-basic-warehousing.md)   
+ [How to: Pick for Production in Basic Warehousing](../how-to-pick-for-production-in-basic-warehousing.md)   
  Inventory Pick   
  Internal Movement   
  Warehouse Movement   
  Assembly Order   
- [How to: Move Items in Advanced Warehousing](../FullExperience/how-to-move-items-in-advanced-warehousing.md)
+ [How to: Move Items in Advanced Warehousing](../how-to-move-items-in-advanced-warehousing.md)

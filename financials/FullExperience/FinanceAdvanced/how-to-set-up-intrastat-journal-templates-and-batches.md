@@ -50,8 +50,8 @@ Before you can use the **Intrastat Journal**, you must decide which Intrastat jo
 >  **Intrastat Journal Batches** are not similar in structure to other journal batches.  
   
 ## See Also  
- [How to: Fill In Intrastat Journals](../FullExperience/how-to-fill-in-intrastat-journals.md)   
- [How to: Reorganize Intrastat Journals](../FullExperience/how-to-reorganize-intrastat-journals.md)   
+ [How to: Fill In Intrastat Journals](../how-to-fill-in-intrastat-journals.md)   
+ [How to: Reorganize Intrastat Journals](../how-to-reorganize-intrastat-journals.md)   
  Intrastat Journal Templates   
  Intrastat Jnl. Batches   
  Amounts in Add. Currency   

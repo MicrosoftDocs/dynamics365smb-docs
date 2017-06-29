@@ -34,7 +34,7 @@ The following procedure describes how to export a BACS file, one of the payment 
   
      Choose the **OK** button.  
   
-6.  In the **Payment Journal** window, create a payment line. For more information, see [How to: Create a Bankers' Automated Clearing Service File](../FullExperience/how-to-create-a-bankers-automated-clearing-service-file.md).  
+6.  In the **Payment Journal** window, create a payment line. For more information, see [How to: Create a Bankers' Automated Clearing Service File](../how-to-create-a-bankers-automated-clearing-service-file.md).  
   
 7.  On the **Home** tab, in the **Process** group, choose **Export Payments to File**.  
   
@@ -50,4 +50,4 @@ The following procedure describes how to export a BACS file, one of the payment 
  You can export a line again if needed. On the **Home** tab, in the Bank group, choose **Export Payments to File**, and then choose **Yes**.  
   
 ## See Also  
- [How to: Create a Bankers' Automated Clearing Service File](../FullExperience/how-to-create-a-bankers-automated-clearing-service-file.md)
+ [How to: Create a Bankers' Automated Clearing Service File](../how-to-create-a-bankers-automated-clearing-service-file.md)

@@ -32,7 +32,7 @@ You can transfer general ledger entries to cost entries.
   
 5.  In the **Search** box, enter **Chart of Accounts**, and then choose the related link.  
   
-6.  For each relevant general ledger account, in the **G\/L Account Card** window, on the **Cost Accounting** FastTab, verify that the **Cost Type No.** field is linked correctly to a cost type. For more information, see [Defining the Relationship Between Cost Types and General Ledger Accounts](../FullExperience/defining-the-relationship-between-cost-types-and-general-ledger-accounts.md).  
+6.  For each relevant general ledger account, in the **G\/L Account Card** window, on the **Cost Accounting** FastTab, verify that the **Cost Type No.** field is linked correctly to a cost type. For more information, see [Defining the Relationship Between Cost Types and General Ledger Accounts](../defining-the-relationship-between-cost-types-and-general-ledger-accounts.md).  
   
 7.  Verify that all relevant general ledger entries have dimension values that correspond to a cost center and a cost object.  
   
@@ -45,10 +45,10 @@ You can transfer general ledger entries to cost entries.
      During the transfer, the process creates connections in the entries in the **Cost Entry** table and the **Cost Register** table. This makes it possible to trace the source of cost entries.  
   
 ## See Also  
- [Criteria for Transferring General Ledger Entries to Cost Entries](../FullExperience/criteria-for-transferring-general-ledger-entries-to-cost-entries.md)   
- [Automatic Transfer and Combined Entries](../FullExperience/automatic-transfer-and-combined-entries.md)   
- [Results of the Transfer](../FullExperience/results-of-the-transfer.md)   
- [Transfer and Post Cost Entries](../FullExperience/transfer-and-post-cost-entries.md)   
- [Defining the Relationship Between Cost Types and General Ledger Accounts](../FullExperience/defining-the-relationship-between-cost-types-and-general-ledger-accounts.md)   
+ [Criteria for Transferring General Ledger Entries to Cost Entries](../criteria-for-transferring-general-ledger-entries-to-cost-entries.md)   
+ [Automatic Transfer and Combined Entries](../automatic-transfer-and-combined-entries.md)   
+ [Results of the Transfer](../results-of-the-transfer.md)   
+ [Transfer and Post Cost Entries](../transfer-and-post-cost-entries.md)   
+ [Defining the Relationship Between Cost Types and General Ledger Accounts](../defining-the-relationship-between-cost-types-and-general-ledger-accounts.md)   
  Cost Accounting Setup   
  Cost Type Card

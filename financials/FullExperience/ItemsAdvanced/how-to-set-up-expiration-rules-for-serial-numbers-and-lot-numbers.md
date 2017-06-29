@@ -34,5 +34,5 @@ For some items you might want to set up specific expiration dates and rules in t
 ## See Also  
  Strict Expiration Posting   
  Man. Expir. Date Entry Reqd.   
- [How to: Set Up Warranties for Serial Numbers and Lot Numbers](../FullExperience/how-to-set-up-warranties-for-serial-numbers-and-lot-numbers.md)   
- [How to: Set Up Item Tracking Codes](../FullExperience/how-to-set-up-item-tracking-codes.md)
+ [How to: Set Up Warranties for Serial Numbers and Lot Numbers](../how-to-set-up-warranties-for-serial-numbers-and-lot-numbers.md)   
+ [How to: Set Up Item Tracking Codes](../how-to-set-up-item-tracking-codes.md)

@@ -37,5 +37,5 @@ You can make a correction to an order after you have posted a prepayment invoice
 8.  Issue an additional prepayment invoice. To do this, increase the prepayment amount on one or more lines and post the prepayment invoice. A new invoice will be created for the difference between the prepayment amounts invoiced and the new prepayment amounts.  
   
 ## See Also  
- [How to: Create Prepayment Invoices](../FullExperience/how-to-create-prepayment-invoices.md)   
- [How to: Define Prepayment Percentages](../FullExperience/how-to-define-prepayment-percentages.md)
+ [How to: Create Prepayment Invoices](../how-to-create-prepayment-invoices.md)   
+ [How to: Define Prepayment Percentages](../how-to-define-prepayment-percentages.md)

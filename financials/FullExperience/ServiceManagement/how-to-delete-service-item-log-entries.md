@@ -32,4 +32,4 @@ You can delete the automatically generated service item log entries, for example
   
 ## See Also  
  Delete Service Item Log   
- [How to: Create Service Items](../FullExperience/how-to-create-service-items.md)
+ [How to: Create Service Items](../how-to-create-service-items.md)

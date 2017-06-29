@@ -29,6 +29,6 @@ When you post a payment journal line where the **Bank Payment Type** field conta
  The **Entry Status** field contains information about the current status of the check.  
   
 ## See Also  
- [How to: View Bank Account Ledger Entries](../FullExperience/how-to-view-bank-account-ledger-entries.md)   
- [How to: Set Up Bank Accounts](../FullExperience/how-to-set-up-bank-accounts.md)   
- [How to: Issue Checks](../FullExperience/how-to-issue-checks.md)
+ [How to: View Bank Account Ledger Entries](../how-to-view-bank-account-ledger-entries.md)   
+ [How to: Set Up Bank Accounts](../how-to-set-up-bank-accounts.md)   
+ [How to: Issue Checks](../how-to-issue-checks.md)

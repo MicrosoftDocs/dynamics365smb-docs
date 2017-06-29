@@ -36,7 +36,7 @@ You can quickly configure a new company that you have created by using the ADD I
   
     1.  Apply the configuration. On the **Actions** tab, choose **Apply Package**. This imports the configuration package and applies the package database data all at the same time.  
   
-    2.  Review the configuration after it has been applied. This option lets you review configuration details and questionnaires provided by the partner and import some master data that is required for your company. On the **Actions** tab, choose **Configuration Worksheet**. For more information, see [How to: Complete the Configuration Questionnaire](../FullExperience/how-to-complete-the-configuration-questionnaire.md).  
+    2.  Review the configuration after it has been applied. This option lets you review configuration details and questionnaires provided by the partner and import some master data that is required for your company. On the **Actions** tab, choose **Configuration Worksheet**. For more information, see [How to: Complete the Configuration Questionnaire](../how-to-complete-the-configuration-questionnaire.md).  
   
 6.  Expand the **Step 5** FastTab. Specify which Role Center you want to be the default for the new company.  
   
@@ -52,5 +52,5 @@ You can quickly configure a new company that you have created by using the ADD I
  At this point, you have configured the company, and applied data to it.  
   
 ## See Also  
- [How to: Create a New Company](../FullExperience/how-to-create-a-new-company.md)   
- [How to: Create Companies](../FullExperience/How%20to:%20Create%20Companies.md)
+ [How to: Create a New Company](../how-to-create-a-new-company.md)   
+ [How to: Create Companies](../How%20to:%20Create%20Companies.md)

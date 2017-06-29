@@ -36,8 +36,8 @@ You can use the **Fault Codes** window to set up fault codes that describe the t
   
 ## See Also  
  Fault Reporting Level   
- [How to: Register Fault Codes](../FullExperience/how-to-register-fault-codes.md)   
- [How to: Set Up Fault Areas](../FullExperience/how-to-set-up-fault-areas.md)   
- [How to: Set Up Symptom Codes](../FullExperience/how-to-set-up-symptom-codes.md)   
- [How to: Set Up Resolution Codes](../FullExperience/how-to-set-up-resolution-codes.md)   
- [How to: Insert Fault and Resolution Code Relationships](../FullExperience/how-to-insert-fault-and-resolution-code-relationships.md)
+ [How to: Register Fault Codes](../how-to-register-fault-codes.md)   
+ [How to: Set Up Fault Areas](../how-to-set-up-fault-areas.md)   
+ [How to: Set Up Symptom Codes](../how-to-set-up-symptom-codes.md)   
+ [How to: Set Up Resolution Codes](../how-to-set-up-resolution-codes.md)   
+ [How to: Insert Fault and Resolution Code Relationships](../how-to-insert-fault-and-resolution-code-relationships.md)

@@ -18,7 +18,7 @@
 # How to: Make Basic UI Changes
 As basic types of UI personalization, you can change the size and position of any window, the width of columns and the height of column headers, and you can change the sorting of data in columns.  
   
- You can cancel your basic UI changes by opening the **Reset User-Specified Settings** window from your Role Center. For more information, see [How to: Cancel Basic UI Changes and File Handling Decisions](../FullExperience/how-to-cancel-basic-ui-changes-and-file-handling-decisions.md).  
+ You can cancel your basic UI changes by opening the **Reset User-Specified Settings** window from your Role Center. For more information, see [How to: Cancel Basic UI Changes and File Handling Decisions](../how-to-cancel-basic-ui-changes-and-file-handling-decisions.md).  
   
  You perform the main types of UI personalization in the **Customize** window. For more information, see PERSONALIZATION Personalize the User Interface.  
   
@@ -37,14 +37,14 @@ As basic types of UI personalization, you can change the size and position of an
   
      Alternatively, open the shortcut menu for the column header, and then choose either **Ascending** or **Descending**.  
   
- For more information, see [Sorting](../FullExperience/sorting.md).  
+ For more information, see [Sorting](../sorting.md).  
   
 ## See Also  
  PERSONALIZATION Personalize the User Interface   
- [How to: Cancel Basic UI Changes and File Handling Decisions](../FullExperience/how-to-cancel-basic-ui-changes-and-file-handling-decisions.md)   
- [How to: Specify How to Handle External Files and Automation Objects](../FullExperience/how-to-specify-how-to-handle-external-files-and-automation-objects.md)   
+ [How to: Cancel Basic UI Changes and File Handling Decisions](../how-to-cancel-basic-ui-changes-and-file-handling-decisions.md)   
+ [How to: Specify How to Handle External Files and Automation Objects](../how-to-specify-how-to-handle-external-files-and-automation-objects.md)   
  DELETEPERSONALIZATION Reset User-Specified Settings   
- [Sorting](../FullExperience/sorting.md)   
- [Customize the User Interface](../FullExperience/customize-the-user-interface.md)   
- [Working with Product Name](../FullExperience/working-with-$-p_1-product-name-$-.md)   
- [Learn About the RoleTailored Design](../FullExperience/learn-about-the-roletailored-design.md)
+ [Sorting](../sorting.md)   
+ [Customize the User Interface](../customize-the-user-interface.md)   
+ [Working with Product Name](../working-with-$-p_1-product-name-$-.md)   
+ [Learn About the RoleTailored Design](../learn-about-the-roletailored-design.md)

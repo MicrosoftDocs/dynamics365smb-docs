@@ -20,15 +20,15 @@ This topic lists the setup tasks for the cash flow forecast. It lists a sequence
   
 |**To**|**See**|  
 |------------|-------------|  
-|Arrange the individual values that affect cash inflows and outflows by using the chart of cash flow accounts.|[How to: Set Up the Chart of Cash Flow Accounts](../FullExperience/how-to-set-up-the-chart-of-cash-flow-accounts.md)|  
-|Include the liquid funds in the general ledger for the cash flow forecast.|[How to: Set Up Liquid Funds for Cash Flow Forecasts](../FullExperience/how-to-set-up-liquid-funds-for-cash-flow-forecasts.md)|  
-|Configure which accounts are used for the entries in the areas of general ledger, purchases, sales, service, and fixed assets.|[How to: Configure Accounts for Cash Flow Setup](../FullExperience/how-to-configure-accounts-for-cash-flow-setup.md)|  
-|Plan manual revenues for a set time period for the cash flow forecast.|[How to: Record Manual Revenues](../FullExperience/how-to-record-manual-revenues.md)|  
-|Plan manual expenses for a set time period for the cash flow forecast.|[How to: Record Manual Expenses](../FullExperience/how-to-record-manual-expenses.md)|  
-|Create a cash flow forecast and save the values as history.|[How to: Set Up Cash Flow Forecasts](../FullExperience/how-to-set-up-cash-flow-forecasts.md)|  
+|Arrange the individual values that affect cash inflows and outflows by using the chart of cash flow accounts.|[How to: Set Up the Chart of Cash Flow Accounts](../how-to-set-up-the-chart-of-cash-flow-accounts.md)|  
+|Include the liquid funds in the general ledger for the cash flow forecast.|[How to: Set Up Liquid Funds for Cash Flow Forecasts](../how-to-set-up-liquid-funds-for-cash-flow-forecasts.md)|  
+|Configure which accounts are used for the entries in the areas of general ledger, purchases, sales, service, and fixed assets.|[How to: Configure Accounts for Cash Flow Setup](../how-to-configure-accounts-for-cash-flow-setup.md)|  
+|Plan manual revenues for a set time period for the cash flow forecast.|[How to: Record Manual Revenues](../how-to-record-manual-revenues.md)|  
+|Plan manual expenses for a set time period for the cash flow forecast.|[How to: Record Manual Expenses](../how-to-record-manual-expenses.md)|  
+|Create a cash flow forecast and save the values as history.|[How to: Set Up Cash Flow Forecasts](../how-to-set-up-cash-flow-forecasts.md)|  
   
 ## See Also  
- [Cash Flow Overview](../FullExperience/cash-flow-overview.md)   
- [Manage Cash Flow Forecasts](../FullExperience/manage-cash-flow-forecasts.md)   
- [Work with Cash Flow Worksheets](../FullExperience/work-with-cash-flow-worksheets.md)   
- [Analyze and Print Cash Flow Forecasts](../FullExperience/analyze-and-print-cash-flow-forecasts.md)
+ [Cash Flow Overview](../cash-flow-overview.md)   
+ [Manage Cash Flow Forecasts](../manage-cash-flow-forecasts.md)   
+ [Work with Cash Flow Worksheets](../work-with-cash-flow-worksheets.md)   
+ [Analyze and Print Cash Flow Forecasts](../analyze-and-print-cash-flow-forecasts.md)

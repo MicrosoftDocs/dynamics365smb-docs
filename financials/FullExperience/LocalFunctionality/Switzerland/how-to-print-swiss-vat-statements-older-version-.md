@@ -53,8 +53,8 @@
 3.  Choose the **Print** button to print the VAT statement or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [Swiss Value Added Tax](../FullExperience/swiss-value-added-tax.md)   
- [VAT Rates for Switzerland](../FullExperience/vat-rates-for-switzerland.md)   
+ [Swiss Value Added Tax](../swiss-value-added-tax.md)   
+ [VAT Rates for Switzerland](../vat-rates-for-switzerland.md)   
  VAT Posting Setup   
  General Ledger Setup   
  VAT Entry

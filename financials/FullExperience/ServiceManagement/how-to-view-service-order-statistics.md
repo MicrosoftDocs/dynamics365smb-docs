@@ -40,6 +40,6 @@ When you have created a service order and filled in the lines, you can see the r
 >  If something must be corrected, you can return to the service order and make the necessary changes.  
   
 ## See Also  
- [How to: Create Service Orders](../FullExperience/how-to-create-service-orders.md)   
- [How to: Create Service Orders from Contracts](../FullExperience/how-to-create-service-orders-from-contracts.md)   
- [Service Order Statistics](../FullExperience/service-order-statistics.md)
+ [How to: Create Service Orders](../how-to-create-service-orders.md)   
+ [How to: Create Service Orders from Contracts](../how-to-create-service-orders-from-contracts.md)   
+ [Service Order Statistics](../service-order-statistics.md)

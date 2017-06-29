@@ -28,11 +28,11 @@ Companies in the European Union \(EU\) must report the extent of their trade wit
   
 |**To**|**See**|  
 |------------|-------------|  
-|Use a batch job to suggest lines in an Intrastat journal, and fill in missing information manually.|[How to: Fill In Intrastat Journals](../FullExperience/how-to-fill-in-intrastat-journals.md)|  
-|Print a report with the information that you need to fill in the Intrastat form.|[How to: Report Intrastat on Forms](../FullExperience/how-to-report-intrastat-on-forms.md)|  
-|Print a report containing the information that will be included on the Intrastat disk.|[How to: Print Checklist Reports](../FullExperience/how-to-print-checklist-reports.md)|  
-|Export a file containing the Intrastat report.|[How to: Report Intrastat on a Disk](../FullExperience/how-to-report-intrastat-on-a-disk.md)|  
-|Delete journal batches that you no longer need.|[How to: Reorganize Intrastat Journals](../FullExperience/how-to-reorganize-intrastat-journals.md)|  
+|Use a batch job to suggest lines in an Intrastat journal, and fill in missing information manually.|[How to: Fill In Intrastat Journals](../how-to-fill-in-intrastat-journals.md)|  
+|Print a report with the information that you need to fill in the Intrastat form.|[How to: Report Intrastat on Forms](../how-to-report-intrastat-on-forms.md)|  
+|Print a report containing the information that will be included on the Intrastat disk.|[How to: Print Checklist Reports](../how-to-print-checklist-reports.md)|  
+|Export a file containing the Intrastat report.|[How to: Report Intrastat on a Disk](../how-to-report-intrastat-on-a-disk.md)|  
+|Delete journal batches that you no longer need.|[How to: Reorganize Intrastat Journals](../how-to-reorganize-intrastat-journals.md)|  
   
 ## See Also  
- [Set Up Intrastat](../FullExperience/set-up-intrastat.md)
+ [Set Up Intrastat](../set-up-intrastat.md)

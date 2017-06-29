@@ -33,5 +33,5 @@ When you purchase goods, you usually receive the invoice from the person or comp
 4.  On the **Invoicing** FastTab, in the **Pay-to Vendor No.** field, enter the number of the vendor you must pay.  
   
 ## See Also  
- [Vendor Addresses](../FullExperience/vendor-addresses.md)   
- [How to: Use Permanent Invoicing Addresses for Vendors](../FullExperience/how-to-use-permanent-invoicing-addresses-for-vendors.md)
+ [Vendor Addresses](../vendor-addresses.md)   
+ [How to: Use Permanent Invoicing Addresses for Vendors](../how-to-use-permanent-invoicing-addresses-for-vendors.md)

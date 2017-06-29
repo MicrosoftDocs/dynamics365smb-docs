@@ -39,12 +39,12 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> lets you set u
 |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../../includes/bp_tabledescription_md.md)]-->|  
 |----------------------------------|---------------------------------------|  
 |**Acc. Schedule**|The data is based on an account schedule.|  
-|**Tax Register**|The data is based on a tax register. For more information, see [Tax Registers](../FullExperience/tax-registers.md).|  
-|**Tax Difference**|The data is based on a tax difference. For more information, see [Tax Differences](../FullExperience/tax-differences.md).|  
+|**Tax Register**|The data is based on a tax register. For more information, see [Tax Registers](../tax-registers.md).|  
+|**Tax Difference**|The data is based on a tax difference. For more information, see [Tax Differences](../tax-differences.md).|  
 |**Payroll Analysis Report**|The data is based on payroll analysis.|  
   
 ## See Also  
  Excel Template   
- [Tax Accounting](../FullExperience/tax-accounting.md)   
- [Tax Differences](../FullExperience/tax-differences.md)   
+ [Tax Accounting](../tax-accounting.md)   
+ [Tax Differences](../tax-differences.md)   
  [Selecting the Report Data Source](assetId:///79db2621-6067-4421-8fe6-3ef2baba1ecc)

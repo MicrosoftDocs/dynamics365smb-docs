@@ -16,7 +16,7 @@
 
     ---
 # Design Details: Accounts in the General Ledger
-To reconcile inventory and capacity ledger entries with the general ledger, the related value entries are posted to different accounts in the general ledger. For more information, see [Design Details: Reconciliation with the General Ledger](../FullExperience/design-details-reconciliation-with-the-general-ledger.md).  
+To reconcile inventory and capacity ledger entries with the general ledger, the related value entries are posted to different accounts in the general ledger. For more information, see [Design Details: Reconciliation with the General Ledger](../design-details-reconciliation-with-the-general-ledger.md).  
   
 ## From the Inventory Ledger  
  The following table shows the relationship between different types of inventory value entries and the accounts and balancing accounts in the general ledger.  
@@ -74,7 +74,7 @@ To reconcile inventory and capacity ledger entries with the general ledger, the 
 ## Assembly Costs are Always Actual  
  As shown in the table above, assembly postings are not represented in interim accounts. This is because the concept of work in process \(WIP\) does not apply in assembly output posting, unlike in production output posting. Assembly costs are only posted as actual cost, never as expected cost.  
   
- For more information, see [Design Details: Assembly Order Posting](../FullExperience/design-details-assembly-order-posting.md).  
+ For more information, see [Design Details: Assembly Order Posting](../design-details-assembly-order-posting.md).  
   
 ## Calculating the Amount to Post to the General Ledger  
  The following fields in the **Value Entry** table are used to calculate the expected cost amount that is posted to the general ledger:  
@@ -95,6 +95,6 @@ To reconcile inventory and capacity ledger entries with the general ledger, the 
 |Expected Cost|Cost Amount \(Expected\) –  Expected Cost Posted to G\/L|  
   
 ## See Also  
- [Design Details: Inventory Costing](../FullExperience/design-details-inventory-costing.md)   
- [Design Details: Inventory Posting](../FullExperience/design-details-inventory-posting.md)   
- [Design Details: Expected Cost Posting](../FullExperience/design-details-expected-cost-posting.md)
+ [Design Details: Inventory Costing](../design-details-inventory-costing.md)   
+ [Design Details: Inventory Posting](../design-details-inventory-posting.md)   
+ [Design Details: Expected Cost Posting](../design-details-expected-cost-posting.md)

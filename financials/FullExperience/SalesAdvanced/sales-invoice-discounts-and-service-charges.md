@@ -40,6 +40,6 @@ When you use invoice discounts, the size of the invoice amount determines the si
 >  Before you start entering this information in the program, it is a good idea to prepare an outline of the discount structure you want to use. This makes it easier to see which customers can be linked to the same invoice discount window. The fewer windows you have to set up, the faster you can enter the basic information.  
   
 ## See Also  
- [How to: Set Up and Assign Sales Invoice Discount Codes](../FullExperience/how-to-set-up-and-assign-sales-invoice-discount-codes.md)   
- [How to: Invoice with Sales Invoice Discounts in Foreign Currencies](../FullExperience/how-to-invoice-with-sales-invoice-discounts-in-foreign-currencies.md)   
- [How to: Invoice with Sales Invoice Discounts in LCY](../FullExperience/how-to-invoice-with-sales-invoice-discounts-in-lcy.md)
+ [How to: Set Up and Assign Sales Invoice Discount Codes](../how-to-set-up-and-assign-sales-invoice-discount-codes.md)   
+ [How to: Invoice with Sales Invoice Discounts in Foreign Currencies](../how-to-invoice-with-sales-invoice-discounts-in-foreign-currencies.md)   
+ [How to: Invoice with Sales Invoice Discounts in LCY](../how-to-invoice-with-sales-invoice-discounts-in-lcy.md)

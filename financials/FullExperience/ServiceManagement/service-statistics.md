@@ -38,6 +38,6 @@ The service statistics feature lets you gain a quick overview of the contents of
  The lines in the lower part of the **Service Statistics** window show the VAT details on the amounts in the service document.  
   
 ## See Also  
- [How to: View Service Statistics](../FullExperience/how-to-view-service-statistics.md)   
- [Service Order Statistics](../FullExperience/service-order-statistics.md)   
- [Service Statistics for Posted Documents](../FullExperience/service-statistics-for-posted-documents.md)
+ [How to: View Service Statistics](../how-to-view-service-statistics.md)   
+ [Service Order Statistics](../service-order-statistics.md)   
+ [Service Statistics for Posted Documents](../service-statistics-for-posted-documents.md)

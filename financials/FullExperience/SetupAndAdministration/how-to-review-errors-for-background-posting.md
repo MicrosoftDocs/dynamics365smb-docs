@@ -36,9 +36,9 @@ Errors for background posting are easy to determine. ADD INCLUDE<!--[!INCLUDE[na
   
 ### To view an error from the My Job Queue part  
   
-1.  Add the **My Job Queue** part to your role center. For more information, see [How to: Use My Job Queue Part](../FullExperience/how-to-use-my-job-queue-part.md).  
+1.  Add the **My Job Queue** part to your role center. For more information, see [How to: Use My Job Queue Part](../how-to-use-my-job-queue-part.md).  
   
 2.  If an entry has the status **Error**, choose **Show Error**. The error message is displayed.  
   
 ## See Also  
- [How to: Check Job Queues Entries](../FullExperience/how-to-check-job-queues-entries.md)
+ [How to: Check Job Queues Entries](../how-to-check-job-queues-entries.md)

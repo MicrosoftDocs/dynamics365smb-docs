@@ -40,8 +40,8 @@ If you are going to change the annual amount of the service contract or contract
      The value in the **Calcd. Annual Amount** field and the line amounts on the contract lines are updated. This means that the annual amount difference has been successfully distributed.  
   
 ## See Also  
- [How to: Change the Annual Amount on Service Contracts or Contract Quotes](../FullExperience/how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)   
- [Distribution Based on Line Amount](../FullExperience/distribution-based-on-line-amount.md)   
- [Distribution Based on Profit](../FullExperience/distribution-based-on-profit.md)   
- [Even Distribution](../FullExperience/even-distribution.md)   
- [How to: Manually Distribute the Annual Amount Difference on Contracts](../FullExperience/how-to-manually-distribute-the-annual-amount-difference-on-contracts.md)
+ [How to: Change the Annual Amount on Service Contracts or Contract Quotes](../how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)   
+ [Distribution Based on Line Amount](../distribution-based-on-line-amount.md)   
+ [Distribution Based on Profit](../distribution-based-on-profit.md)   
+ [Even Distribution](../even-distribution.md)   
+ [How to: Manually Distribute the Annual Amount Difference on Contracts](../how-to-manually-distribute-the-annual-amount-difference-on-contracts.md)

@@ -35,5 +35,5 @@ An item tracking code reflects the different considerations a company has regard
  For more information about item tracking parameters, select a field and press the F1 key.  
   
 ## See Also  
- [How to: Set Up Warranties for Serial Numbers and Lot Numbers](../FullExperience/how-to-set-up-warranties-for-serial-numbers-and-lot-numbers.md)   
- [How to: Set Up Expiration Rules for Serial Numbers and Lot Numbers](../FullExperience/how-to-set-up-expiration-rules-for-serial-numbers-and-lot-numbers.md)
+ [How to: Set Up Warranties for Serial Numbers and Lot Numbers](../how-to-set-up-warranties-for-serial-numbers-and-lot-numbers.md)   
+ [How to: Set Up Expiration Rules for Serial Numbers and Lot Numbers](../how-to-set-up-expiration-rules-for-serial-numbers-and-lot-numbers.md)

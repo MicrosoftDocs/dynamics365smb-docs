@@ -618,8 +618,8 @@ This walkthrough introduces you to the project management features in jobs. Jobs
  This walkthrough has taken you through some of the basic steps of working with jobs in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->. You have learned about how to create a new job, how to copy a job, and how to handle payments. Also, you have seen a demonstration of how to track hours and create invoices.  
   
 ## See Also  
- [Business Process Walkthroughs](../FullExperience/business-process-walkthroughs.md)   
- [Set Up Jobs](../FullExperience/set-up-jobs.md)   
- [Price, Schedule, and Manage Resources](../FullExperience/price-schedule-and-manage-resources.md)   
- [Monitor Progress and Performance](../FullExperience/monitor-progress-and-performance.md)   
- [Invoice Jobs](../FullExperience/invoice-jobs.md)
+ [Business Process Walkthroughs](../business-process-walkthroughs.md)   
+ [Set Up Jobs](../set-up-jobs.md)   
+ [Price, Schedule, and Manage Resources](../price-schedule-and-manage-resources.md)   
+ [Monitor Progress and Performance](../monitor-progress-and-performance.md)   
+ [Invoice Jobs](../invoice-jobs.md)

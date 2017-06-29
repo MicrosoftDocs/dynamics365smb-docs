@@ -28,7 +28,7 @@ If you want to invoice more than one purchase receipt at a time, you can use the
   
 2.  On the **Home** tab, in the **New** group, choose **New**.  
   
-3.  Create a purchase invoice. For more information, see [How to: Record Purchases](../FullExperience/how-to-record-purchases.md).  
+3.  Create a purchase invoice. For more information, see [How to: Record Purchases](../how-to-record-purchases.md).  
   
 4.  On the **Lines** FastTab, choose, **Functions**, and then choose **Get Receipt Lines**.  
   
@@ -47,8 +47,8 @@ If you want to invoice more than one purchase receipt at a time, you can use the
 3.  Alternatively, delete the individual orders manually. On the **Home** tab, in the **Manage** group, choose **Delete**.  
   
 ## See Also  
- [How to: Combine Return Receipts](../FullExperience/how-to-combine-return-receipts.md)   
- [How to: Combine Return Receipts](../FullExperience/how-to-combine-return-receipts.md)   
+ [How to: Combine Return Receipts](../how-to-combine-return-receipts.md)   
+ [How to: Combine Return Receipts](../how-to-combine-return-receipts.md)   
  Purchase Order   
  Blanket Purchase Order   
- [Processing Purchase Orders](../FullExperience/processing-purchase-orders.md)
+ [Processing Purchase Orders](../processing-purchase-orders.md)

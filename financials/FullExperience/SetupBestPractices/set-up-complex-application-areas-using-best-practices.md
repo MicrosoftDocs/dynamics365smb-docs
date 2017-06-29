@@ -22,11 +22,11 @@ Entering the correct setup values from the start is important to the success of 
   
  Help in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> includes best-practice information about how to set up key fields in the following application areas:  
   
--   [Setup Best Practices: Supply Planning](../FullExperience/setup-best-practices-supply-planning.md)  
+-   [Setup Best Practices: Supply Planning](../setup-best-practices-supply-planning.md)  
   
--   [Setup Best Practices: Costing Method](../FullExperience/setup-best-practices-costing-method.md)  
+-   [Setup Best Practices: Costing Method](../setup-best-practices-costing-method.md)  
   
 ## See Also  
- [Set Up a Company With RapidStart Services for Microsoft Dynamics NAV](../FullExperience/set-up-a-company-with-rapidstart-services-for-microsoft-dynamics-nav.md)   
- [Design Details: Supply Planning](../FullExperience/design-details-supply-planning.md)   
- [Design Details: Costing Methods](../FullExperience/design-details-costing-methods.md)
+ [Set Up a Company With RapidStart Services for Microsoft Dynamics NAV](../set-up-a-company-with-rapidstart-services-for-microsoft-dynamics-nav.md)   
+ [Design Details: Supply Planning](../design-details-supply-planning.md)   
+ [Design Details: Costing Methods](../design-details-costing-methods.md)

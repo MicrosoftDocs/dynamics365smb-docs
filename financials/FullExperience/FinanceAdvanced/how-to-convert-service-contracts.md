@@ -67,7 +67,7 @@ Because the VAT rate change tool cannot convert service contracts, these contrac
   
 ### To create a new credit memo  
   
-1.  Run the VAT rate change tool on July 1, 2012. The general product posting group or the VAT product posting group is changed. For more information, see [How to: Perform VAT Rate Conversions](../FullExperience/how-to-perform-vat-rate-conversions.md).  
+1.  Run the VAT rate change tool on July 1, 2012. The general product posting group or the VAT product posting group is changed. For more information, see [How to: Perform VAT Rate Conversions](../how-to-perform-vat-rate-conversions.md).  
   
 2.  After running the VAT rate change tool, enter a contract expiration date for the service contract. You can now delete the service contract line and create a new line that is identical to the old one.  
   
@@ -80,4 +80,4 @@ Because the VAT rate change tool cannot convert service contracts, these contrac
 6.  After the conversion is complete, VAT and service ledger entries will be correct.  
   
 ## See Also  
- [How to: Perform VAT Rate Conversions](../FullExperience/how-to-perform-vat-rate-conversions.md)
+ [How to: Perform VAT Rate Conversions](../how-to-perform-vat-rate-conversions.md)

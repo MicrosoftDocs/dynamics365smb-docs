@@ -33,5 +33,5 @@ You can use the **Service Contract Templates** window to set up contract templat
 5.  On the **Navigate** tab, in the **Contract Template** group, choose **Service Discounts** to add contract discounts.  
   
 ## See Also  
- [How to: Create Service Contracts and Service Contract Quotes](../FullExperience/how-to-create-service-contracts-and-service-contract-quotes.md)   
- [How to: Add Contract Discounts](../FullExperience/how-to-add-contract-discounts.md)
+ [How to: Create Service Contracts and Service Contract Quotes](../how-to-create-service-contracts-and-service-contract-quotes.md)   
+ [How to: Add Contract Discounts](../how-to-add-contract-discounts.md)

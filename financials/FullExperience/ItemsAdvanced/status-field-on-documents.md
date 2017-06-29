@@ -50,5 +50,5 @@ When you create a quote, order or credit memo, the **Status** field on the docum
 ## See Also  
  Sales Order   
  Status   
- [How to: Release Orders](../FullExperience/how-to-release-orders.md)   
- [How to: Reopen Released Orders](../FullExperience/how-to-reopen-released-orders.md)
+ [How to: Release Orders](../how-to-release-orders.md)   
+ [How to: Reopen Released Orders](../how-to-reopen-released-orders.md)

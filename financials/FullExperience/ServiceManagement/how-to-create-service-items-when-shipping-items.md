@@ -41,7 +41,7 @@ When you ship items by posting either service orders or service invoices, the sh
  Installed in Item No.   
  Service Item   
  Item Tracking Lines   
- [How to: Create Service Items](../FullExperience/how-to-create-service-items.md)   
- [How to: Set Up Service Item Groups](../FullExperience/how-to-set-up-service-item-groups.md)   
- [How to: Set Up Service Item Components](../FullExperience/how-to-set-up-service-item-components.md)   
- [How to: Explode Assembly BOMs](../FullExperience/how-to-explode-assembly-boms.md)
+ [How to: Create Service Items](../how-to-create-service-items.md)   
+ [How to: Set Up Service Item Groups](../how-to-set-up-service-item-groups.md)   
+ [How to: Set Up Service Item Components](../how-to-set-up-service-item-components.md)   
+ [How to: Explode Assembly BOMs](../how-to-explode-assembly-boms.md)

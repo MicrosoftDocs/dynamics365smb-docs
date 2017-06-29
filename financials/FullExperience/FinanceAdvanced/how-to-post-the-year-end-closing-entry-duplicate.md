@@ -33,5 +33,5 @@ After you use the **Close Income Statement** batch job to generate the year-end 
   
 ## See Also  
  Close Income Statement   
- [About Year-End Processes](../FullExperience/about-year-end-processes.md)   
- [How to: Close Accounting Periods](../FullExperience/how-to-close-accounting-periods.md)
+ [About Year-End Processes](../about-year-end-processes.md)   
+ [How to: Close Accounting Periods](../how-to-close-accounting-periods.md)

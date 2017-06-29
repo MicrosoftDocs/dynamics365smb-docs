@@ -23,9 +23,9 @@ You use profiles to link Role Centers to users. Like Role Centers, profiles alig
   
 |**To**|**See**|  
 |------------|-------------|  
-|Create a profile.|[How to: Create Profiles](../FullExperience/how-to-create-profiles.md)|  
-|Assign users to profiles.|[How to: Assign Users to Profiles](../FullExperience/how-to-assign-users-to-profiles.md)|  
-|Export a profile.|[How to: Export or Import Profiles](../FullExperience/how-to-export-or-import-profiles.md)|  
+|Create a profile.|[How to: Create Profiles](../how-to-create-profiles.md)|  
+|Assign users to profiles.|[How to: Assign Users to Profiles](../how-to-assign-users-to-profiles.md)|  
+|Export a profile.|[How to: Export or Import Profiles](../how-to-export-or-import-profiles.md)|  
 |Work with the Profile Card window.|Profile Card|  
 |Work with the Profile List window.|Profile List|  
   

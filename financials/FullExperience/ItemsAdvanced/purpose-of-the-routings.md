@@ -27,10 +27,10 @@ Manufacturing companies use routings to show the manufacturing process. The prog
  The routings are assigned to the articles in the item master data.  
   
 ## See Also  
- [How to: Create Routings](../FullExperience/how-to-create-routings.md)   
- [How to: Create New Versions of Routings](../FullExperience/how-to-create-new-versions-of-routings.md)   
- [How to: Find Where Routings Are Used](../FullExperience/how-to-find-where-routings-are-used.md)   
- [How to: Copy Routings](../FullExperience/how-to-copy-routings.md)   
- [How to: Create Standard Tasks](../FullExperience/how-to-create-standard-tasks.md)   
- [How to: Set Up Routing Link Codes](../FullExperience/how-to-set-up-routing-link-codes.md)   
- [How to: Create Routing Links](../FullExperience/how-to-create-routing-links.md)
+ [How to: Create Routings](../how-to-create-routings.md)   
+ [How to: Create New Versions of Routings](../how-to-create-new-versions-of-routings.md)   
+ [How to: Find Where Routings Are Used](../how-to-find-where-routings-are-used.md)   
+ [How to: Copy Routings](../how-to-copy-routings.md)   
+ [How to: Create Standard Tasks](../how-to-create-standard-tasks.md)   
+ [How to: Set Up Routing Link Codes](../how-to-set-up-routing-link-codes.md)   
+ [How to: Create Routing Links](../how-to-create-routing-links.md)

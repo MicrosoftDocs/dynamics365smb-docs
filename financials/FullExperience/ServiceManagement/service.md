@@ -36,13 +36,13 @@ Providing ongoing service to customers is an important part of any business and 
   
 |**To**|**See**|  
 |------------|-------------|  
-|Set up Service Management, including fault codes, policies, default documents and templates.|[Configure Service Processes](../FullExperience/configure-service-processes.md)|  
-|Set up service orders, service tasks, and dispatch systems.|[Plan Service](../FullExperience/plan-service.md)|  
-|Set up contracts using templates and provide quotes and estimates|[Fulfill Service Contracts](../FullExperience/fulfill-service-contracts.md)|  
-|Determine solutions, provide loaners, and establish service pricing.|[Handle Customer Inquiries](../FullExperience/handle-customer-inquiries.md)|  
-|Finalize service details, provide service to customers, and invoice service orders.|[Deliver Service](../FullExperience/deliver-service.md)|  
+|Set up Service Management, including fault codes, policies, default documents and templates.|[Configure Service Processes](../configure-service-processes.md)|  
+|Set up service orders, service tasks, and dispatch systems.|[Plan Service](../plan-service.md)|  
+|Set up contracts using templates and provide quotes and estimates|[Fulfill Service Contracts](../fulfill-service-contracts.md)|  
+|Determine solutions, provide loaners, and establish service pricing.|[Handle Customer Inquiries](../handle-customer-inquiries.md)|  
+|Finalize service details, provide service to customers, and invoice service orders.|[Deliver Service](../deliver-service.md)|  
   
 ## See Also  
- [Manage Receivables](../FullExperience/manage-receivables.md)   
- [Jobs](../FullExperience/jobs.md)   
- [Working with Product Name](../FullExperience/working-with-$-p_1-product-name-$-.md)
+ [Manage Receivables](../manage-receivables.md)   
+ [Jobs](../jobs.md)   
+ [Working with Product Name](../working-with-$-p_1-product-name-$-.md)

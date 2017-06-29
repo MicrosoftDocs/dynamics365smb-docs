@@ -40,6 +40,6 @@ The Association for Payment Clearing Services \(APACS\) specification defines a 
 5.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [Check-duplicate](../FullExperience/\($%20R_1401%20Check%20$\)-duplicate.md)   
+ [Check-duplicate](../\($%20R_1401%20Check%20$\)-duplicate.md)   
  Payment Journal   
- [United Kingdom Local Functionality](../FullExperience/united-kingdom-local-functionality.md)
+ [United Kingdom Local Functionality](../united-kingdom-local-functionality.md)

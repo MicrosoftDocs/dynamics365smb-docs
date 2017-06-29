@@ -34,8 +34,8 @@ You can always delete change log entries that are of no use to you.
 >  To keep a history of the deleted change log entries, you can print a report of the change log entries that you want to delete.  
   
 ## See Also  
- [How to: Enter Dates and Times](../FullExperience/how-to-enter-dates-and-times.md)   
- [How to: Print Change Log Entries](../FullExperience/how-to-print-change-log-entries.md)   
- [How to: Enable the Change Log](../FullExperience/how-to-enable-the-change-log.md)   
- [How to: View Change Log Entries](../FullExperience/how-to-view-change-log-entries.md)   
- [How to: Print Change Log Entries](../FullExperience/how-to-print-change-log-entries.md)
+ [How to: Enter Dates and Times](../how-to-enter-dates-and-times.md)   
+ [How to: Print Change Log Entries](../how-to-print-change-log-entries.md)   
+ [How to: Enable the Change Log](../how-to-enable-the-change-log.md)   
+ [How to: View Change Log Entries](../how-to-view-change-log-entries.md)   
+ [How to: Print Change Log Entries](../how-to-print-change-log-entries.md)

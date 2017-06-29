@@ -35,6 +35,6 @@ Sometimes you may want to amend or cancel an item reservation.
 6.  If you decide to cancel the reservation, on the **Actions** tab, in the **Functions** group, choose **Cancel Reservation**.  
   
 ## See Also  
- [How to: Reserve Items for Production Order Lines](../FullExperience/how-to-reserve-items-for-production-order-lines.md)   
- [How to: Reserve Items for Production Components](../FullExperience/how-to-reserve-items-for-production-components.md)   
- [How to: Track Item Reservations](../FullExperience/how-to-track-item-reservations.md)
+ [How to: Reserve Items for Production Order Lines](../how-to-reserve-items-for-production-order-lines.md)   
+ [How to: Reserve Items for Production Components](../how-to-reserve-items-for-production-components.md)   
+ [How to: Track Item Reservations](../how-to-track-item-reservations.md)

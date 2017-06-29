@@ -86,8 +86,8 @@ How you put away your output from production depends on how your warehouse is se
 >  You cannot enter the source document number, such as the Production Order No., in the internal put-away, put-away, or movement documents for either of these procedures.  
   
 ## See Also  
- [Put Items Away](../FullExperience/put-items-away.md)   
- [How to: Put Items Away with Inventory Put-aways](../FullExperience/how-to-put-items-away-with-inventory-put-aways.md)   
- [How to: Put Items Away with Warehouse Put-aways](../FullExperience/how-to-put-items-away-with-warehouse-put-aways.md)   
- [How to: Move Components to an Operation Area in Basic Warehousing](../FullExperience/how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
- [How to: Pick for Internal Operations in Advanced Warehousing](../FullExperience/how-to-pick-for-internal-operations-in-advanced-warehousing.md)
+ [Put Items Away](../put-items-away.md)   
+ [How to: Put Items Away with Inventory Put-aways](../how-to-put-items-away-with-inventory-put-aways.md)   
+ [How to: Put Items Away with Warehouse Put-aways](../how-to-put-items-away-with-warehouse-put-aways.md)   
+ [How to: Move Components to an Operation Area in Basic Warehousing](../how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
+ [How to: Pick for Internal Operations in Advanced Warehousing](../how-to-pick-for-internal-operations-in-advanced-warehousing.md)

@@ -115,11 +115,11 @@ This walkthrough describes how you can use account schedules to make cash flow f
 3.  On the **Actions** tab, in the **Functions** group, choose **Print** to print the cash flow forecast.  
   
 ## See Also  
- [How to: Create New Account Schedules](../FullExperience/how-to-create-new-account-schedules.md)   
- [How to: Set Up Account Schedule Rows Manually](../FullExperience/how-to-set-up-account-schedule-rows-manually.md)   
- [How to: Set Up Account Schedule Columns Manually](../FullExperience/how-to-set-up-account-schedule-columns-manually.md)   
- [How to: Assign Predefined Column Layouts to Account Schedules](../FullExperience/how-to-assign-predefined-column-layouts-to-account-schedules.md)   
- [How to: Create Account Schedule Columns That Calculate Percentages](../FullExperience/how-to-create-account-schedule-columns-that-calculate-percentages.md)   
- [How to: Set Up Account Schedules with Overviews](../FullExperience/how-to-set-up-account-schedules-with-overviews.md)   
+ [How to: Create New Account Schedules](../how-to-create-new-account-schedules.md)   
+ [How to: Set Up Account Schedule Rows Manually](../how-to-set-up-account-schedule-rows-manually.md)   
+ [How to: Set Up Account Schedule Columns Manually](../how-to-set-up-account-schedule-columns-manually.md)   
+ [How to: Assign Predefined Column Layouts to Account Schedules](../how-to-assign-predefined-column-layouts-to-account-schedules.md)   
+ [How to: Create Account Schedule Columns That Calculate Percentages](../how-to-create-account-schedule-columns-that-calculate-percentages.md)   
+ [How to: Set Up Account Schedules with Overviews](../how-to-set-up-account-schedules-with-overviews.md)   
  Account Schedule Names   
  Account Schedule

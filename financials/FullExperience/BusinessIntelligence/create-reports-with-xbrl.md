@@ -32,7 +32,7 @@ XBRL, which stands for eXtensible Business Reporting Language, is an XML-based l
   
 |**To**|**See**|  
 |------------|-------------|  
-|Learn about sharing financial data using XBRL.|[eXtensible Business Reporting Language](../FullExperience/extensible-business-reporting-language.md)|  
-|Import the XBRL taxonomy, which consists of one or more schemas and some linkbases, into your company database.|[How to: Import XBRLTaxonomies](../FullExperience/how-to-import-xbrltaxonomies.md)|  
-|Supply the lines of the schemas with all the information that is required, including basic company information, the actual financial statements, notes to the financial statements, and supplemental schedules to satisfy the particular financial reporting requirements.|[How to: Set Up XBRL Lines](../FullExperience/how-to-set-up-xbrl-lines.md)|  
-|Update the current taxonomy to stay current with changes.|[How to: Update XBRL Taxonomies](../FullExperience/how-to-update-xbrl-taxonomies.md)|
+|Learn about sharing financial data using XBRL.|[eXtensible Business Reporting Language](../extensible-business-reporting-language.md)|  
+|Import the XBRL taxonomy, which consists of one or more schemas and some linkbases, into your company database.|[How to: Import XBRLTaxonomies](../how-to-import-xbrltaxonomies.md)|  
+|Supply the lines of the schemas with all the information that is required, including basic company information, the actual financial statements, notes to the financial statements, and supplemental schedules to satisfy the particular financial reporting requirements.|[How to: Set Up XBRL Lines](../how-to-set-up-xbrl-lines.md)|  
+|Update the current taxonomy to stay current with changes.|[How to: Update XBRL Taxonomies](../how-to-update-xbrl-taxonomies.md)|

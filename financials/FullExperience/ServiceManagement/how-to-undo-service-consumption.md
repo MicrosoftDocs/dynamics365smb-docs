@@ -24,7 +24,7 @@ You may need to cancel the consumption on the service order because it was poste
   
 2.  Open the posted service shipment for which the erroneous consumption was posted.  
   
-3.  On the **Lines** FastTab, choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Shipment**, and then choose **Service Shipment Lines**.  
+3.  On the **Lines** FastTab, choose **Actions**![Action Menu icon](../media/actionmenuicon.png "actionMenuIcon"), choose **Shipment**, and then choose **Service Shipment Lines**.  
   
 4.  In the **Posted Service Shipment Lines** window, select the lines containing the incorrect consumption. On the **Actions** tab, in the **Functions** group, choose **Undo Consumption**.  
   
@@ -34,5 +34,5 @@ You may need to cancel the consumption on the service order because it was poste
 >  You will not be able to undo the service consumption if the service order has already been closed. It is also impossible to undo consumption that has been posted to the Jobs area, meaning there are job ledger entries linked to this consumption.  
   
 ## See Also  
- [How to: Undo Service Shipments](../FullExperience/how-to-undo-service-shipments.md)   
- [How to: Register Service Operations](../FullExperience/how-to-register-service-operations.md)
+ [How to: Undo Service Shipments](../how-to-undo-service-shipments.md)   
+ [How to: Register Service Operations](../how-to-register-service-operations.md)

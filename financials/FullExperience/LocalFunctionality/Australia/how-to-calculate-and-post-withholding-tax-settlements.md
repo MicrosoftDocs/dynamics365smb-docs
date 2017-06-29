@@ -47,7 +47,7 @@ You can use the **Calc. and Post WHT Settlement** window to calculate and post t
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [Withholding Tax](../FullExperience/withholding-tax.md)   
- [How to: Set Up Withholding Tax](../FullExperience/how-to-set-up-withholding-tax.md)   
- [How to: Set Up Revenue Types for Withholding Tax](../FullExperience/how-to-set-up-revenue-types-for-withholding-tax.md)   
- [How to: View Withholding Tax Entries](../FullExperience/how-to-view-withholding-tax-entries.md)
+ [Withholding Tax](../withholding-tax.md)   
+ [How to: Set Up Withholding Tax](../how-to-set-up-withholding-tax.md)   
+ [How to: Set Up Revenue Types for Withholding Tax](../how-to-set-up-revenue-types-for-withholding-tax.md)   
+ [How to: View Withholding Tax Entries](../how-to-view-withholding-tax-entries.md)

@@ -26,15 +26,15 @@ Entering the correct setup values from the start is important to the success of 
   
 |**To**|**See**|  
 |------------|-------------|  
-|Define the configuration for new companies.|[Set Up a Company With RapidStart Services for Microsoft Dynamics NAV](../FullExperience/set-up-a-company-with-rapidstart-services-for-microsoft-dynamics-nav.md)|  
-|Add users and manage permissions and access to data.|[Administration in the Clients](../FullExperience/administration-in-the-clients.md)|  
-|As an administrator, configure the user interface for multiple users by customizing the UI for a profile that the users are assigned to.<br /><br /> As a user, personalize the user interface of your personal version of the profile by customizing the user interface under your own user logon.|[Customize the User Interface](../FullExperience/customize-the-user-interface.md)|  
-|Encrypt data on the Microsoft Dynamics NAV Server by generating new or importing existing encryption keys that you enable on the server.|[Manage Data Encryption](../FullExperience/manage-data-encryption.md)|  
-|Support your setup decisions with recommendations for selected fields that are known to potentially cause the solution to be inefficient if set up incorrectly|[Set Up Complex Application Areas Using Best Practices](../FullExperience/set-up-complex-application-areas-using-best-practices.md)|  
-|Expose pages, codeunits, and queries as web services.|[How to: Publish a Web Service](../FullExperience/how-to-publish-a-web-service.md)|  
+|Define the configuration for new companies.|[Set Up a Company With RapidStart Services for Microsoft Dynamics NAV](../set-up-a-company-with-rapidstart-services-for-microsoft-dynamics-nav.md)|  
+|Add users and manage permissions and access to data.|[Administration in the Clients](../administration-in-the-clients.md)|  
+|As an administrator, configure the user interface for multiple users by customizing the UI for a profile that the users are assigned to.<br /><br /> As a user, personalize the user interface of your personal version of the profile by customizing the user interface under your own user logon.|[Customize the User Interface](../customize-the-user-interface.md)|  
+|Encrypt data on the Microsoft Dynamics NAV Server by generating new or importing existing encryption keys that you enable on the server.|[Manage Data Encryption](../manage-data-encryption.md)|  
+|Support your setup decisions with recommendations for selected fields that are known to potentially cause the solution to be inefficient if set up incorrectly|[Set Up Complex Application Areas Using Best Practices](../set-up-complex-application-areas-using-best-practices.md)|  
+|Expose pages, codeunits, and queries as web services.|[How to: Publish a Web Service](../how-to-publish-a-web-service.md)|  
 |Set up an SMTP server to enable e-mail communication in and out of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/how-to-set-up-smtp-email.md)|  
   
 ## See Also  
- [Getting Started-duplicate](../FullExperience/getting-started-duplicate.md)   
- [Working with Product Name](../FullExperience/working-with-$-p_1-product-name-$-.md)   
- [Business Functionality](../FullExperience/Business%20Functionality.md)
+ [Getting Started-duplicate](../getting-started-duplicate.md)   
+ [Working with Product Name](../working-with-$-p_1-product-name-$-.md)   
+ [Business Functionality](../Business%20Functionality.md)

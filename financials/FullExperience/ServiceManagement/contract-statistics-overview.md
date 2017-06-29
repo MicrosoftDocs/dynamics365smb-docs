@@ -34,5 +34,5 @@ In the **Contract Statistics** window, you can see up-to-date information about 
  For each entry type, you can see the invoiced amount, discount amount, cost, prepaid amount, profit amount, and percentage \(invoiced amount minus cost\).  
   
 ## See Also  
- [How to: View Service Statistics](../FullExperience/how-to-view-service-statistics.md)   
+ [How to: View Service Statistics](../how-to-view-service-statistics.md)   
  Contract Statistics

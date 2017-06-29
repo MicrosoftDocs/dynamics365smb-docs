@@ -23,4 +23,4 @@ If your company has different types of addresses, such as a legal address or an 
   
 ## See Also  
  Company Information   
- [Statutory Reports](../FullExperience/statutory-reports.md)
+ [Statutory Reports](../statutory-reports.md)

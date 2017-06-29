@@ -36,8 +36,8 @@ When you have created a service document, that is, a quote, invoice, or credit m
 >  If something must be corrected, you can return to the service document window and make the necessary changes.  
   
 ## See Also  
- [How to: Create Service Credit Memos](../FullExperience/how-to-create-service-credit-memos.md)   
- [How to: Create Service Invoices Manually](../FullExperience/how-to-create-service-invoices-manually.md)   
- [How to: Create Service Quotes](../FullExperience/how-to-create-service-quotes.md)   
- [Service Statistics](../FullExperience/service-statistics.md)   
- [How to: View Service Order Statistics](../FullExperience/how-to-view-service-order-statistics.md)
+ [How to: Create Service Credit Memos](../how-to-create-service-credit-memos.md)   
+ [How to: Create Service Invoices Manually](../how-to-create-service-invoices-manually.md)   
+ [How to: Create Service Quotes](../how-to-create-service-quotes.md)   
+ [Service Statistics](../service-statistics.md)   
+ [How to: View Service Order Statistics](../how-to-view-service-order-statistics.md)

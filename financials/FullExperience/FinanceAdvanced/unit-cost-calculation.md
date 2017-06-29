@@ -46,4 +46,4 @@ As a rule, the value in the Unit Cost field on the item card is based on the sta
 ## See Also  
  Costing Method   
  Value Entry   
- [Average Cost](../FullExperience/average-cost.md)
+ [Average Cost](../average-cost.md)

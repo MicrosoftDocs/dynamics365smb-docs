@@ -22,11 +22,11 @@ If you require your customers to submit payment before you ship an order to them
   
  After you create a sales or purchase order, you can create a prepayment invoice. You can use the default percentages for each sales or purchase line, or you can adjust the amount as necessary. For example, you can specify a total amount for the entire order.  
   
- Because the prepaid amount belongs to the buyer until they have received the goods or services, you need to set up general ledger accounts to hold the prepayment amounts until the final invoice is posted. Sales prepayments must be recorded in a liabilities account until the items are shipped. Purchase prepayments must be recorded in an assets account until the items are received. In addition, you must set up a separate general ledger account for each VAT identifier. For more information, see [Set Up Prepayments](../FullExperience/set-up-prepayments.md).  
+ Because the prepaid amount belongs to the buyer until they have received the goods or services, you need to set up general ledger accounts to hold the prepayment amounts until the final invoice is posted. Sales prepayments must be recorded in a liabilities account until the items are shipped. Purchase prepayments must be recorded in an assets account until the items are received. In addition, you must set up a separate general ledger account for each VAT identifier. For more information, see [Set Up Prepayments](../set-up-prepayments.md).  
   
 ### To add prepayment accounts to the general posting setup  
   
--   In the ![Shortcut icon](../FullExperience/media/shortcutcoldicon.gif "shortcutColdIcon")**General Posting Setup** window, you must fill in the following fields:  
+-   In the ![Shortcut icon](../media/shortcutcoldicon.gif "shortcutColdIcon")**General Posting Setup** window, you must fill in the following fields:  
   
      **Sales Prepayments Account**  
   
@@ -34,13 +34,13 @@ If you require your customers to submit payment before you ship an order to them
   
 ### To set up number series for prepayment documents  
   
--   If you use prepayments for sales, in the ![Shortcut icon](../FullExperience/media/shortcutcoldicon.gif "shortcutColdIcon")**[\($ N\_459 Sales & Receivables Setup $\)](DynamicsNAV:////runpage?Page=459)** window, fill in the following fields:  
+-   If you use prepayments for sales, in the ![Shortcut icon](../media/shortcutcoldicon.gif "shortcutColdIcon")**[\($ N\_459 Sales & Receivables Setup $\)](DynamicsNAV:////runpage?Page=459)** window, fill in the following fields:  
   
      **Posted Prepmt. Inv. Nos.**  
   
      **Posted Prepmt. Cr. Memo Nos.**  
   
--   If you use prepayments for purchases, in the ![Shortcut icon](../FullExperience/media/shortcutcoldicon.gif "shortcutColdIcon")**[\($ N\_460 Purchases & Payables Setup $\)](DynamicsNAV:////runpage?Page=460)** window, fill in the following fields:  
+-   If you use prepayments for purchases, in the ![Shortcut icon](../media/shortcutcoldicon.gif "shortcutColdIcon")**[\($ N\_460 Purchases & Payables Setup $\)](DynamicsNAV:////runpage?Page=460)** window, fill in the following fields:  
   
      **Posted Prepmt. Inv. Nos.**  
   
@@ -76,5 +76,5 @@ If you require your customers to submit payment before you ship an order to them
  However, if you change the contents of the **Prepayment Percentage** field on the sales or purchase header after you create the lines, the prepayment percentage on all of the lines will be updated. This makes it easy to create an order with a fixed prepayment percentage, regardless of the percentage set up on items.  
   
 ## See Also  
- [How to: Create Prepayment Invoices](../FullExperience/how-to-create-prepayment-invoices.md)   
- [How to: Correct Prepayments](../FullExperience/how-to-correct-prepayments.md)
+ [How to: Create Prepayment Invoices](../how-to-create-prepayment-invoices.md)   
+ [How to: Correct Prepayments](../how-to-correct-prepayments.md)

@@ -35,4 +35,4 @@ When you work with lot or serial numbers, ADD INCLUDE<!--[!INCLUDE[navnow](../..
  ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> automatically checks the availability of the item when you close the window to confirm that there are no availability problems.  
   
 ## See Also  
- [How to: Select from Existing Serial Numbers and Lot Numbers](../FullExperience/how-to-select-from-existing-serial-numbers-and-lot-numbers.md)
+ [How to: Select from Existing Serial Numbers and Lot Numbers](../how-to-select-from-existing-serial-numbers-and-lot-numbers.md)

@@ -35,8 +35,8 @@ To obtain the information that is required on the Intrastat form from the statis
      If you have both sales and purchase transactions, you must complete a separate form for each type, so that you must print the report two times.  
   
 ## See Also  
- [How to: Set Up and Record Intrastat](../FullExperience/how-to-set-up-and-record-intrastat.md)   
- [How to: Fill In Intrastat Journals](../FullExperience/how-to-fill-in-intrastat-journals.md)   
- [How to: Report Intrastat on a Disk](../FullExperience/how-to-report-intrastat-on-a-disk.md)   
- [How to: Reorganize Intrastat Journals](../FullExperience/how-to-reorganize-intrastat-journals.md)   
- [How to: Set Up Intrastat Journal Templates and Batches](../FullExperience/how-to-set-up-intrastat-journal-templates-and-batches.md)
+ [How to: Set Up and Record Intrastat](../how-to-set-up-and-record-intrastat.md)   
+ [How to: Fill In Intrastat Journals](../how-to-fill-in-intrastat-journals.md)   
+ [How to: Report Intrastat on a Disk](../how-to-report-intrastat-on-a-disk.md)   
+ [How to: Reorganize Intrastat Journals](../how-to-reorganize-intrastat-journals.md)   
+ [How to: Set Up Intrastat Journal Templates and Batches](../how-to-set-up-intrastat-journal-templates-and-batches.md)

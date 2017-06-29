@@ -30,7 +30,7 @@ You use the **User Personalization** page to assign a user to a profile.
   
     |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
-    |**User ID**|Choose the **AssistEdit** button to view all available user logins, select the relevant user, and then choose the **OK** button.<br /><br /> For more information, see [How to: Create Microsoft Dynamics NAV Users](../FullExperience/How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).|  
+    |**User ID**|Choose the **AssistEdit** button to view all available user logins, select the relevant user, and then choose the **OK** button.<br /><br /> For more information, see [How to: Create Microsoft Dynamics NAV Users](../How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).|  
     |**Profile ID**|select a profile ID that you have already created. Choose the **AssistEdit** button to view all available profiles.|  
     |**Language ID**|Select the appropriate language ID, or leave this field blank.|  
     |**Company**|Select a company from the **Companies** window.|  
@@ -41,7 +41,7 @@ You use the **User Personalization** page to assign a user to a profile.
 >  The **Language ID** and **Company** values are overwritten by user values when the user starts a session.  
   
 ## See Also  
- [Working with Role Centers](../FullExperience/working-with-role-centers.md)   
- [Profiles and Role Centers](../FullExperience/profiles-and-role-centers.md)   
- [How to: Create a Profile](../FullExperience/how-to-create-a-profile.md)   
- [How to: Create Microsoft Dynamics NAV Users](../FullExperience/How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md)
+ [Working with Role Centers](../working-with-role-centers.md)   
+ [Profiles and Role Centers](../profiles-and-role-centers.md)   
+ [How to: Create a Profile](../how-to-create-a-profile.md)   
+ [How to: Create Microsoft Dynamics NAV Users](../How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md)

@@ -44,7 +44,7 @@ When you have created service orders or quotes, you can allocate resource groups
 >  For a service item in a service order, there can only be **Active** allocation entries with one resource or resource group at a time.  
   
 ## See Also  
- [How to: Allocate Resources by Using Resource Group Availability](../FullExperience/how-to-allocate-resources-by-using-resource-group-availability.md)   
- [How to: Allocate Resources by Using the Dispatch Board](../FullExperience/how-to-allocate-resources-by-using-the-dispatch-board.md)   
- [How to: Cancel Allocations](../FullExperience/how-to-cancel-allocations.md)   
- [How to: Reallocate Resources by Using the Dispatch Board](../FullExperience/how-to-reallocate-resources-by-using-the-dispatch-board.md)
+ [How to: Allocate Resources by Using Resource Group Availability](../how-to-allocate-resources-by-using-resource-group-availability.md)   
+ [How to: Allocate Resources by Using the Dispatch Board](../how-to-allocate-resources-by-using-the-dispatch-board.md)   
+ [How to: Cancel Allocations](../how-to-cancel-allocations.md)   
+ [How to: Reallocate Resources by Using the Dispatch Board](../how-to-reallocate-resources-by-using-the-dispatch-board.md)

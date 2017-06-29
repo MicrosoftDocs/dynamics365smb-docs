@@ -36,7 +36,7 @@ You can fill in the fields in the Intrastat journal manually or retrieve item en
 >  The batch job retrieves only the entries that contain a country\/region code for which an Intrastat code has been entered in the **Countries\/Regions** window. Therefore, you must enter Intrastat codes for the country\/region codes for which you will run the batch job.  
   
 ## See Also  
- [How to: Create a VAT Combination Setup](../FullExperience/how-to-create-a-vat-combination-setup.md)   
- [How to: Report Intrastat on a Disk](../FullExperience/how-to-report-intrastat-on-a-disk.md)   
- [How to: Report Intrastat on Forms](../FullExperience/how-to-report-intrastat-on-forms.md)   
- [How to: Reorganize Intrastat Journals](../FullExperience/how-to-reorganize-intrastat-journals.md)
+ [How to: Create a VAT Combination Setup](../how-to-create-a-vat-combination-setup.md)   
+ [How to: Report Intrastat on a Disk](../how-to-report-intrastat-on-a-disk.md)   
+ [How to: Report Intrastat on Forms](../how-to-report-intrastat-on-forms.md)   
+ [How to: Reorganize Intrastat Journals](../how-to-reorganize-intrastat-journals.md)

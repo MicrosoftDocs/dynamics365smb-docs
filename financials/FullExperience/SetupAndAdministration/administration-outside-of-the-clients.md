@@ -27,8 +27,8 @@ Some of the administration tasks for ADD INCLUDE<!--[!INCLUDE[navnow](../../incl
 -   Creation and management of ADD INCLUDE<!--[!INCLUDE[nav_server](../../includes/nav_server_md.md)]--> instances.  
   
 ## See Also  
- [Administration in the Clients](../FullExperience/administration-in-the-clients.md)   
- [Customize the User Interface](../FullExperience/customize-the-user-interface.md)   
- [Administration](../FullExperience/Administration.md)   
- [Set Up a Company With RapidStart Services for Microsoft Dynamics NAV](../FullExperience/set-up-a-company-with-rapidstart-services-for-microsoft-dynamics-nav.md)   
- [Security Overview](../FullExperience/Security%20Overview.md)
+ [Administration in the Clients](../administration-in-the-clients.md)   
+ [Customize the User Interface](../customize-the-user-interface.md)   
+ [Administration](../Administration.md)   
+ [Set Up a Company With RapidStart Services for Microsoft Dynamics NAV](../set-up-a-company-with-rapidstart-services-for-microsoft-dynamics-nav.md)   
+ [Security Overview](../Security%20Overview.md)

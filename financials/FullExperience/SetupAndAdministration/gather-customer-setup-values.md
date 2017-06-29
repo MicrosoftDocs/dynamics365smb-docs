@@ -21,7 +21,7 @@ You use the setup questionnaire to help reduce your implementation workload by s
  You can change all default values in a questionnaire to more closely match customer needs.  
   
 > [!TIP]  
->  For more information about defining setup values in supply planning fields, see [Setup Best Practices: Supply Planning](../FullExperience/setup-best-practices-supply-planning.md).  
+>  For more information about defining setup values in supply planning fields, see [Setup Best Practices: Supply Planning](../setup-best-practices-supply-planning.md).  
   
  When your customer completes the questionnaire, you import the file into the customer's new ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> company, which you have created based on industry-specific data templates that match the questionnaire. You and your customer validate the questionnaire answers before you apply them to the database, and then work directly in the database to set up the company.  
   
@@ -29,10 +29,10 @@ You use the setup questionnaire to help reduce your implementation workload by s
   
 |**To**|**See**|  
 |------------|-------------|  
-|Review, export, and complete the setup questionnaire.|[How to: Complete the Configuration Questionnaire](../FullExperience/how-to-complete-the-configuration-questionnaire.md)|  
-|Validate the responses that are provided by the customer.|[How to: Validate the Configuration Questionnaire](../FullExperience/how-to-validate-the-configuration-questionnaire.md)|  
+|Review, export, and complete the setup questionnaire.|[How to: Complete the Configuration Questionnaire](../how-to-complete-the-configuration-questionnaire.md)|  
+|Validate the responses that are provided by the customer.|[How to: Validate the Configuration Questionnaire](../how-to-validate-the-configuration-questionnaire.md)|  
 |Transfer answers from the setup questionnaire to setup tables in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-apply-answers-from-the-configuration-questionnaire.md)|  
   
 ## See Also  
- [Set Up Company Configuration](../FullExperience/set-up-company-configuration.md)   
- [Set Up Complex Application Areas Using Best Practices](../FullExperience/set-up-complex-application-areas-using-best-practices.md)
+ [Set Up Company Configuration](../set-up-company-configuration.md)   
+ [Set Up Complex Application Areas Using Best Practices](../set-up-complex-application-areas-using-best-practices.md)

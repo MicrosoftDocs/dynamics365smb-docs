@@ -64,5 +64,5 @@ If you require your customers to submit payment before you ship an order to them
  When you are ready to post the rest of the invoice, post it as you would post any invoice, and the prepayment amount will automatically be deducted from the amount due.  
   
 ## See Also  
- [How to: Define Prepayment Percentages](../FullExperience/how-to-define-prepayment-percentages.md)   
- [How to: Correct Prepayments](../FullExperience/how-to-correct-prepayments.md)
+ [How to: Define Prepayment Percentages](../how-to-define-prepayment-percentages.md)   
+ [How to: Correct Prepayments](../how-to-correct-prepayments.md)

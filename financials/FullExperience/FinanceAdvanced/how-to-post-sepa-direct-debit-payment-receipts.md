@@ -16,7 +16,7 @@
 
     ---
 # How to: Post SEPA Direct Debit Payment Receipts
-When a direct debit collection is successfully processed by your bank, you can proceed to post receipt of the payment for the involved sales invoices. For more information, see [How to: Create SEPA Direct Debit Collection Entries and Export to a Bank File](../FullExperience/how-to-create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file.md).  
+When a direct debit collection is successfully processed by your bank, you can proceed to post receipt of the payment for the involved sales invoices. For more information, see [How to: Create SEPA Direct Debit Collection Entries and Export to a Bank File](../how-to-create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file.md).  
   
  You can post the payment receipt directly from the **Direct Debit Collections** window or the **Direct Debit Collect. Entries** window. Alternatively, you can relay the work to another user by preparing the related journal lines.  
   
@@ -24,7 +24,7 @@ When a direct debit collection is successfully processed by your bank, you can p
   
 1.  In the **Search** box, enter **Direct Debit Collections**, and then choose the related link.  
   
-2.  Select a line for a direct debit collection that has been exported to a bank file and successfully processed by the bank. For more information, see [How to: Create SEPA Direct Debit Collection Entries and Export to a Bank File](../FullExperience/how-to-create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file.md).  
+2.  Select a line for a direct debit collection that has been exported to a bank file and successfully processed by the bank. For more information, see [How to: Create SEPA Direct Debit Collection Entries and Export to a Bank File](../how-to-create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file.md).  
   
 3.  On the **Home** tab, in the **Process** group, choose **Post Payment Receipts**.  
   
@@ -43,5 +43,5 @@ When a direct debit collection is successfully processed by your bank, you can p
  Post Direct Debit Collection   
  Direct Debit Collections   
  Direct Debit Collect. Entries   
- [Collect Payments with SEPA Direct Debit](../FullExperience/collect-payments-with-sepa-direct-debit.md)   
- [Process Incoming Payments](../FullExperience/process-incoming-payments.md)
+ [Collect Payments with SEPA Direct Debit](../collect-payments-with-sepa-direct-debit.md)   
+ [Process Incoming Payments](../process-incoming-payments.md)

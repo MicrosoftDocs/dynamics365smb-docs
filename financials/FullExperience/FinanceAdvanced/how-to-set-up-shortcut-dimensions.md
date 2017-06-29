@@ -33,6 +33,6 @@ You can choose up to eight dimensions whose values that you can enter directly o
 >  The dimensions that you choose for shortcut dimensions should be the dimensions you most often enter manually.  
   
 ## See Also  
- [How to: Set Up Global Dimensions](../FullExperience/how-to-set-up-global-dimensions.md)   
+ [How to: Set Up Global Dimensions](../how-to-set-up-global-dimensions.md)   
  Default Dimension   
  Dimension

@@ -32,8 +32,8 @@ If your company is in the European Union \(EU\), you must report the extent of y
   
 |**To**|**See**|  
 |------------|-------------|  
-|Set up various Intrastat codes, such as tariff numbers, transaction types and transport methods.|[How to: Set Up and Record Intrastat](../FullExperience/how-to-set-up-and-record-intrastat.md)|  
-|Create Intrastat journal templates and batches that you will use for Intrastat reporting.|[How to: Set Up Intrastat Journal Templates and Batches](../FullExperience/how-to-set-up-intrastat-journal-templates-and-batches.md)|  
+|Set up various Intrastat codes, such as tariff numbers, transaction types and transport methods.|[How to: Set Up and Record Intrastat](../how-to-set-up-and-record-intrastat.md)|  
+|Create Intrastat journal templates and batches that you will use for Intrastat reporting.|[How to: Set Up Intrastat Journal Templates and Batches](../how-to-set-up-intrastat-journal-templates-and-batches.md)|  
   
 ## See Also  
- [Report Intrastat](../FullExperience/report-intrastat.md)
+ [Report Intrastat](../report-intrastat.md)

@@ -38,4 +38,4 @@ You use the **Default Service Hours** window to set up the usual service working
 >  If you leave the lines in the **Default Service Hours** window empty, the default value is 24 hours, valid only for calendar working days.  
   
 ## See Also  
- [How to: Set Up Contract Specific Service Hours](../FullExperience/how-to-set-up-contract-specific-service-hours.md)
+ [How to: Set Up Contract Specific Service Hours](../how-to-set-up-contract-specific-service-hours.md)

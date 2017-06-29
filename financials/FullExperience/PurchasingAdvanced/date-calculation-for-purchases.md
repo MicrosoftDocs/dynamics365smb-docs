@@ -45,6 +45,6 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> automatically 
 ## See Also  
  Expected Receipt Date   
  Order Date   
- [How to: Enter Inbound Warehouse Handling Time](../FullExperience/how-to-enter-inbound-warehouse-handling-time.md)   
- [Date Calculation for Sales](../FullExperience/date-calculation-for-sales.md)   
- [About Order Promising](../FullExperience/about-order-promising.md)
+ [How to: Enter Inbound Warehouse Handling Time](../how-to-enter-inbound-warehouse-handling-time.md)   
+ [Date Calculation for Sales](../date-calculation-for-sales.md)   
+ [About Order Promising](../about-order-promising.md)

@@ -24,7 +24,7 @@ You can reallocate resources directly from a service order or service quote when
   
 2.  Open the relevant service order.  
   
-3.  Select the service item line corresponding to the service task you want to allocate a resource to.  Choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Line**, and then choose **Resource Allocations**. The **Resource Allocations** window opens.  
+3.  Select the service item line corresponding to the service task you want to allocate a resource to.  Choose **Actions**![Action Menu icon](../media/actionmenuicon.png "actionMenuIcon"), choose **Line**, and then choose **Resource Allocations**. The **Resource Allocations** window opens.  
   
 4.  In the **Resource Allocations** window, select an allocation entry with the service task you want to reallocate the resource to. In the **Resource No.** field, select the relevant resource. This overwrites the resource number already in the field.  
   
@@ -42,8 +42,8 @@ You can reallocate resources directly from a service order or service quote when
 7.  Repeat these steps for each service task you want to reallocate.  
   
 ## See Also  
- [Allocation Status and Repair Status](../FullExperience/allocation-status-and-repair-status.md)   
- [How to: Allocate Resources by Using Service Orders](../FullExperience/how-to-allocate-resources-by-using-service-orders.md)   
- [How to: Allocate Resources by Using the Dispatch Board](../FullExperience/how-to-allocate-resources-by-using-the-dispatch-board.md)   
- [How to: Cancel Allocations](../FullExperience/how-to-cancel-allocations.md)   
- [How to: Reallocate Resources by Using the Dispatch Board](../FullExperience/how-to-reallocate-resources-by-using-the-dispatch-board.md)
+ [Allocation Status and Repair Status](../allocation-status-and-repair-status.md)   
+ [How to: Allocate Resources by Using Service Orders](../how-to-allocate-resources-by-using-service-orders.md)   
+ [How to: Allocate Resources by Using the Dispatch Board](../how-to-allocate-resources-by-using-the-dispatch-board.md)   
+ [How to: Cancel Allocations](../how-to-cancel-allocations.md)   
+ [How to: Reallocate Resources by Using the Dispatch Board](../how-to-reallocate-resources-by-using-the-dispatch-board.md)

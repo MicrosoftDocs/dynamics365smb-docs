@@ -39,4 +39,4 @@ When you configure companies using ADD INCLUDE<!--[!INCLUDE[rimlong](../../inclu
 4.  Migrate open fixed asset entries.  
   
 ## See Also  
- [Set Up a Company With RapidStart Services for Microsoft Dynamics NAV](../FullExperience/set-up-a-company-with-rapidstart-services-for-microsoft-dynamics-nav.md)
+ [Set Up a Company With RapidStart Services for Microsoft Dynamics NAV](../set-up-a-company-with-rapidstart-services-for-microsoft-dynamics-nav.md)

@@ -29,6 +29,6 @@ You can use your automatic data capture system \(ADCS\) to register the movement
 -   Messages to show confirmations or errors about activities performed and registered by the handheld device user.  
   
 ## See Also  
- [How to: Set Up a Warehouse to Use ADCS](../FullExperience/how-to-set-up-a-warehouse-to-use-adcs.md)   
+ [How to: Set Up a Warehouse to Use ADCS](../how-to-set-up-a-warehouse-to-use-adcs.md)   
  Item Identifier   
  Identifier Code

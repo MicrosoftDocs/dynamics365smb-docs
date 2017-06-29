@@ -52,7 +52,7 @@ If you need to link special information to a specific item tracking number, for 
   
 5.  Modify the short description text, the comment record, or the **Blocked** field.  
   
- You cannot modify the serial or lot numbers or quantities. To do so, you must reclassify the item ledger entry in question. For more information, see [Reclassifying Lot or Serial Numbers](../FullExperience/how-to-reclassify-lot-numbers-and-serial-numbers.md).  
+ You cannot modify the serial or lot numbers or quantities. To do so, you must reclassify the item ledger entry in question. For more information, see [Reclassifying Lot or Serial Numbers](../how-to-reclassify-lot-numbers-and-serial-numbers.md).  
   
 ## See Also  
  Item Tracking Lines   

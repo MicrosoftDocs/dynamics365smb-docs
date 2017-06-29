@@ -35,6 +35,6 @@ When you have set up simulation of general ledger entries, you can create simula
 7.  Select the most recent register, and then, on the **Navigate** tab, choose **General Ledger**.  
   
 ## See Also  
- [How to: Set Up Simulation](../FullExperience/how-to-set-up-simulation.md)   
- [How to: Transfer Simulation Entries](../FullExperience/how-to-transfer-simulation-entries.md)   
- [How to: Delete Simulation Entries](../FullExperience/how-to-delete-simulation-entries.md)
+ [How to: Set Up Simulation](../how-to-set-up-simulation.md)   
+ [How to: Transfer Simulation Entries](../how-to-transfer-simulation-entries.md)   
+ [How to: Delete Simulation Entries](../how-to-delete-simulation-entries.md)

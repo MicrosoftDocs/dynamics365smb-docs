@@ -44,6 +44,6 @@ If you want to set up a completely new chart of accounts or add new accounts to 
 >  If you have entered definitions in the **Totaling** fields for **End-Total** accounts before executing the indent function, you must enter them again because the function overwrites the values in all **End-Total** fields.  
   
 ## See Also  
- [How to: Insert Page Breaks in the Chart of Accounts](../FullExperience/how-to-insert-page-breaks-in-the-chart-of-accounts.md)   
- [How to: Use More Than One Line for General Ledger Account Names](../FullExperience/how-to-use-more-than-one-line-for-general-ledger-account-names.md)   
- [How to: Make Windows Editable](../FullExperience/how-to-make-windows-editable.md)
+ [How to: Insert Page Breaks in the Chart of Accounts](../how-to-insert-page-breaks-in-the-chart-of-accounts.md)   
+ [How to: Use More Than One Line for General Ledger Account Names](../how-to-use-more-than-one-line-for-general-ledger-account-names.md)   
+ [How to: Make Windows Editable](../how-to-make-windows-editable.md)

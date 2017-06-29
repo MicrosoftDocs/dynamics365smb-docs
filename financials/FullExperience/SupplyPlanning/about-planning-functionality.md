@@ -18,7 +18,7 @@
 # About Planning Functionality
 The planning system takes all demand and supply data into account, nets the results, and creates suggestions for balancing the supply to meet the demand.  
   
- For detailed information, see [Design Details: Supply Planning](../FullExperience/design-details-supply-planning.md).  
+ For detailed information, see [Design Details: Supply Planning](../design-details-supply-planning.md).  
   
 ## Demand and Supply  
  Planning has two elements: demand and supply. These must be held in balance to ensure that the demand is met in a timely and cost-efficient manner.  
@@ -45,7 +45,7 @@ The planning system takes all demand and supply data into account, nets the resu
   
 -   Reordering Policy  
   
--   [Reorder Point](../FullExperience/\($%20T_27_34%20Reorder%20Point%20$\).md)  
+-   [Reorder Point](../\($%20T_27_34%20Reorder%20Point%20$\).md)  
   
 -   Maximum Inventory  
   
@@ -59,13 +59,13 @@ The planning system takes all demand and supply data into account, nets the resu
   
 -   Reorder Quantity  
   
--   [Safety Lead Time](../FullExperience/\($%20T_27_5415%20Safety%20Lead%20Time%20$\).md)  
+-   [Safety Lead Time](../\($%20T_27_5415%20Safety%20Lead%20Time%20$\).md)  
   
 -   Safety Stock Quantity  
   
 -   Assembly Policy  
   
--   [Manufacturing Policy](../FullExperience/-$-t_27_5442-manufacturing-policy-$-.md)  
+-   [Manufacturing Policy](../-$-t_27_5442-manufacturing-policy-$-.md)  
   
  The following order modifiers exist on the item or SKU card:  
   
@@ -77,25 +77,25 @@ The planning system takes all demand and supply data into account, nets the resu
   
  Global planning setup fields on the **Manufacturing Setup** window include:  
   
--   [Dynamic Low-Level Code](../FullExperience/\($%20T_99000765_12%20Dynamic%20Low-Level%20Code%20$\).md)  
+-   [Dynamic Low-Level Code](../\($%20T_99000765_12%20Dynamic%20Low-Level%20Code%20$\).md)  
   
--   [Current Production Forecast](../FullExperience/\($%20T_99000765_35%20Current%20Production%20Forecast%20$\).md)  
+-   [Current Production Forecast](../\($%20T_99000765_35%20Current%20Production%20Forecast%20$\).md)  
   
--   [Use Forecast on Locations](../FullExperience/\($%20T_99000765_37%20Use%20Forecast%20on%20Locations%20$\).md)  
+-   [Use Forecast on Locations](../\($%20T_99000765_37%20Use%20Forecast%20on%20Locations%20$\).md)  
   
--   [Default Safety Lead Time](../FullExperience/\($%20T_99000765_42%20Default%20Safety%20Lead%20Time%20$\).md)  
+-   [Default Safety Lead Time](../\($%20T_99000765_42%20Default%20Safety%20Lead%20Time%20$\).md)  
   
 -   Blank Overflow Level  
   
--   [Combined MPS\/MRP Calculation](../FullExperience/\($%20T_99000765_38%20Combined%20MPS-MRP%20Calculation%20$\).md)  
+-   [Combined MPS\/MRP Calculation](../\($%20T_99000765_38%20Combined%20MPS-MRP%20Calculation%20$\).md)  
   
--   [Components at Location](../FullExperience/\($%20T_99000765_39%20Components%20at%20Location%20$\).md)  
+-   [Components at Location](../\($%20T_99000765_39%20Components%20at%20Location%20$\).md)  
   
 -   Default Dampener Period  
   
 -   Default Dampener Quantity  
   
- For more information, see [Design Details: Planning Parameters](../FullExperience/design-details-planning-parameters.md)  
+ For more information, see [Design Details: Planning Parameters](../design-details-planning-parameters.md)  
   
  Planning is affected by many additional factors, such as the planning horizon defined by the order and ending dates specified when you run MPS\/MRP from the **Planning Worksheet** or **Order Planning** windows.  
   
@@ -104,8 +104,8 @@ The planning system takes all demand and supply data into account, nets the resu
  Stockkeeping Unit   
  Planning Worksheet   
  Order Planning   
- [How to: Run MPS and MRP](../FullExperience/how-to-run-mps-and-mrp.md)   
- [Design Details: Supply Planning](../FullExperience/design-details-supply-planning.md)   
- [About Forecasting Functionality](../FullExperience/about-forecasting-functionality.md)   
- [How to: Plan Project Orders](../FullExperience/how-to-plan-project-orders.md)   
- [How to: Plan for New Demand](../FullExperience/how-to-plan-for-new-demand.md)
+ [How to: Run MPS and MRP](../how-to-run-mps-and-mrp.md)   
+ [Design Details: Supply Planning](../design-details-supply-planning.md)   
+ [About Forecasting Functionality](../about-forecasting-functionality.md)   
+ [How to: Plan Project Orders](../how-to-plan-project-orders.md)   
+ [How to: Plan for New Demand](../how-to-plan-for-new-demand.md)

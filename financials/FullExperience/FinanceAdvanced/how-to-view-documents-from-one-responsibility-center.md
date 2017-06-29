@@ -36,4 +36,4 @@ You can set up users so that in their daily routines the program retrieves only 
 >  Users will still be able to view all posted documents and ledger entries, not just those related to their own responsibility center.  
   
 ## See Also  
- [How to: Set Up Responsibility Centers](../FullExperience/how-to-set-up-responsibility-centers.md)
+ [How to: Set Up Responsibility Centers](../how-to-set-up-responsibility-centers.md)

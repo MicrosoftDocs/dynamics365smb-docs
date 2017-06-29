@@ -24,10 +24,10 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> provides featu
   
 |**To**|**See**|  
 |------------|-------------|  
-|Plan the delivery of service by using the **Dispatch Board**. You can also use project management tools in the Jobs department to help in planning.|[Plan and Allocate Service Orders](../FullExperience/plan-and-allocate-service-orders.md)|  
-|Post orders before delivering service, so that your accounting is up-to-date.|[Prepare for Service](../FullExperience/prepare-for-service.md)|  
-|Deliver service to customers, by using the Service Tasks feature.|[Provide Service](../FullExperience/provide-service.md)|  
-|Create invoices and post them to your financial management system.|[Finalize Service and Invoice](../FullExperience/finalize-service-and-invoice.md)|  
+|Plan the delivery of service by using the **Dispatch Board**. You can also use project management tools in the Jobs department to help in planning.|[Plan and Allocate Service Orders](../plan-and-allocate-service-orders.md)|  
+|Post orders before delivering service, so that your accounting is up-to-date.|[Prepare for Service](../prepare-for-service.md)|  
+|Deliver service to customers, by using the Service Tasks feature.|[Provide Service](../provide-service.md)|  
+|Create invoices and post them to your financial management system.|[Finalize Service and Invoice](../finalize-service-and-invoice.md)|  
   
 ## See Also  
- [Jobs](../FullExperience/jobs.md)
+ [Jobs](../jobs.md)

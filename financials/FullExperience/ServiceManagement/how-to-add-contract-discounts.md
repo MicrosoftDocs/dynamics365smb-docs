@@ -32,8 +32,8 @@ You can add contract discounts on services for contract quotes and service contr
   
  Repeat these steps for each service discount you want to add to the selected contract quote.  
   
- To add contract discounts directly to a service contract, perform similar steps from the ![Shortcut icon](../FullExperience/media/shortcutcoldicon.gif "shortcutColdIcon")**Service Contract** window.  
+ To add contract discounts directly to a service contract, perform similar steps from the ![Shortcut icon](../media/shortcutcoldicon.gif "shortcutColdIcon")**Service Contract** window.  
   
 ## See Also  
- [How to: Create Service Contracts and Service Contract Quotes](../FullExperience/how-to-create-service-contracts-and-service-contract-quotes.md)   
- [How to: Set Up Contract Templates](../FullExperience/how-to-set-up-contract-templates.md)
+ [How to: Create Service Contracts and Service Contract Quotes](../how-to-create-service-contracts-and-service-contract-quotes.md)   
+ [How to: Set Up Contract Templates](../how-to-set-up-contract-templates.md)

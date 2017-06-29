@@ -31,6 +31,6 @@ When you purchase goods, you usually receive the invoice from the person or comp
  Every time you fill in a purchase invoice, this number and the associated name and address are copied to the corresponding fields on the purchase header.  
   
 ## See Also  
- [How to: Select Invoicing Addresses for Single Transactions](../FullExperience/how-to-select-invoicing-addresses-for-single-transactions.md)   
- [How to: Use Alternative Order Addresses for Vendors](../FullExperience/how-to-use-alternative-order-addresses-for-vendors.md)   
- [Vendor Addresses](../FullExperience/vendor-addresses.md)
+ [How to: Select Invoicing Addresses for Single Transactions](../how-to-select-invoicing-addresses-for-single-transactions.md)   
+ [How to: Use Alternative Order Addresses for Vendors](../how-to-use-alternative-order-addresses-for-vendors.md)   
+ [Vendor Addresses](../vendor-addresses.md)

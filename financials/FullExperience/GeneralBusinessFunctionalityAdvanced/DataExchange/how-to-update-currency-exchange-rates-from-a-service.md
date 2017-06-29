@@ -16,7 +16,7 @@
 
     ---
 # How to: Set Up SEPA Direct Debit
-From the **Direct Debit Collections** window, you can export instructions to your electronic bank to perform a direct debit collection from the customer’s bank account to your bank account. For more information, see [Collect Payments with SEPA Direct Debit](../FullExperience/collect-payments-with-sepa-direct-debit.md).  
+From the **Direct Debit Collections** window, you can export instructions to your electronic bank to perform a direct debit collection from the customer’s bank account to your bank account. For more information, see [Collect Payments with SEPA Direct Debit](../collect-payments-with-sepa-direct-debit.md).  
   
 > [!NOTE]  
 >  The generic version of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]--> supports the SEPA Credit Transfer format. In your country\/region, other formats for electronic payments may be available.  
@@ -90,10 +90,10 @@ From the **Direct Debit Collections** window, you can export instructions to you
   
 6.  Repeat steps 1 through 5 for all customers that you want to set up for SEPA direct debits.  
   
- The direct-debit mandate is automatically inserted in the **Direct Debit Mandate ID** field when you create a sales invoice for the customer that you selected in step 2. For more information, see [How to: Create Multiple Sales Invoices Based on Standard Sales Codes](../FullExperience/how-to-create-multiple-sales-invoices-based-on-standard-sales-codes.md).  
+ The direct-debit mandate is automatically inserted in the **Direct Debit Mandate ID** field when you create a sales invoice for the customer that you selected in step 2. For more information, see [How to: Create Multiple Sales Invoices Based on Standard Sales Codes](../how-to-create-multiple-sales-invoices-based-on-standard-sales-codes.md).  
   
 ## See Also  
  SEPA Direct Debit Exp. Format   
  SEPA Direct Debit Mandates   
- [Collect Payments with SEPA Direct Debit](../FullExperience/collect-payments-with-sepa-direct-debit.md)   
- [Data Exchange](../FullExperience/data-exchange.md)
+ [Collect Payments with SEPA Direct Debit](../collect-payments-with-sepa-direct-debit.md)   
+ [Data Exchange](../data-exchange.md)

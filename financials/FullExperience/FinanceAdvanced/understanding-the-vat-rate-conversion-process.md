@@ -34,4 +34,4 @@ This topic describes the VAT rate change conversion process.
 -   Will not convert service contracts.  
   
 ## See Also  
- [How to: Perform VAT Rate Conversions](../FullExperience/how-to-perform-vat-rate-conversions.md)
+ [How to: Perform VAT Rate Conversions](../how-to-perform-vat-rate-conversions.md)

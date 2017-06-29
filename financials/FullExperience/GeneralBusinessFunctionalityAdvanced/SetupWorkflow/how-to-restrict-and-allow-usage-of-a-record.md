@@ -30,7 +30,7 @@ If you want to restrict a record from being used in certain activities, for exam
   
 1.  In the **Search** box, enter **Workflows**, and then choose the related link.  
   
-2.  In the **Workflows** window, create a new workflow named Purchase Order Approval Workflow. For more information, see [How to: Create Workflows](../FullExperience/how-to-create-workflows.md).  
+2.  In the **Workflows** window, create a new workflow named Purchase Order Approval Workflow. For more information, see [How to: Create Workflows](../how-to-create-workflows.md).  
   
 3.  On the **Home** tab, in the **Process** group, choose **Copy From Workflow Template**.  
   
@@ -44,6 +44,6 @@ If you want to restrict a record from being used in certain activities, for exam
   
 ## See Also  
  Workflow Templates   
- [How to: Create Workflows](../FullExperience/how-to-create-workflows.md)   
- [Workflow](../FullExperience/workflow.md)   
- [How to: Block Inventory Items for Sales or Purchases](../FullExperience/how-to-block-inventory-items-for-sales-or-purchases.md)
+ [How to: Create Workflows](../how-to-create-workflows.md)   
+ [Workflow](../workflow.md)   
+ [How to: Block Inventory Items for Sales or Purchases](../how-to-block-inventory-items-for-sales-or-purchases.md)

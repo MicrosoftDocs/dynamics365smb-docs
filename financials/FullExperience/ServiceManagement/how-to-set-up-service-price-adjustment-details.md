@@ -41,5 +41,5 @@ You can use the **Serv. Price Adjmt. Detail** window to set up the details for t
  Repeat these steps for each service price adjustment group that you want to create.  
   
 ## See Also  
- [How to: Set Up Service Price Adjustment Groups](../FullExperience/how-to-set-up-service-price-adjustment-groups.md)   
- [Service Price Management](../FullExperience/service-price-management.md)
+ [How to: Set Up Service Price Adjustment Groups](../how-to-set-up-service-price-adjustment-groups.md)   
+ [Service Price Management](../service-price-management.md)

@@ -19,10 +19,10 @@
 ADD INCLUDE<!--[!INCLUDE[nav_current_short](../../includes/nav_current_short_md.md)]--> provides Finnish enhancements to comply with regulations for VAT and European Union \(EU\) sales reporting. The **VAT-VIES Declaration Tax Auth** report and the **EC Sales List** report include the **EU Service** field, which allows you to print service-related sales amounts separately from item-related sales amounts based on different posting groups. This information is required in VAT reports for EU third-party trade transactions in 2010 and all subsequent years.  
   
 ## See Also  
- [Finland Local Functionality](../FullExperience/finland-local-functionality.md)   
+ [Finland Local Functionality](../finland-local-functionality.md)   
  Countries-Regions   
- [VAT- VIES Declaration Tax Auth-duplicate](../FullExperience/\($%20R_19%20VAT-%20VIES%20Declaration%20Tax%20Auth%20$\)-duplicate.md)   
+ [VAT- VIES Declaration Tax Auth-duplicate](../\($%20R_19%20VAT-%20VIES%20Declaration%20Tax%20Auth%20$\)-duplicate.md)   
  VAT- VIES Declaration Disk   
- [EC Sales List-duplicate](../FullExperience/\($%20R_130%20EC%20Sales%20List%20$\)-duplicate.md)   
+ [EC Sales List-duplicate](../\($%20R_130%20EC%20Sales%20List%20$\)-duplicate.md)   
  Get Item Ledger Entries   
  VAT Posting Setup

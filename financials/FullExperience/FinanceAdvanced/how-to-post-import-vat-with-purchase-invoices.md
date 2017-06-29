@@ -20,7 +20,7 @@ Instead of using a general journal to post an import VAT invoice, you can use a 
   
 ### To set up purchasing for posting import VAT invoices  
   
-1.  Set up a vendor card for the import authority that sends you the import VAT invoice. The **Gen. Bus. Posting Group** and **VAT Bus. Posting Group** must be set up in the same way as the general ledger account for the import VAT. For more information, see [How to: Register New Vendors](../FullExperience/how-to-register-new-vendors.md).  
+1.  Set up a vendor card for the import authority that sends you the import VAT invoice. The **Gen. Bus. Posting Group** and **VAT Bus. Posting Group** must be set up in the same way as the general ledger account for the import VAT. For more information, see [How to: Register New Vendors](../how-to-register-new-vendors.md).  
   
 2.  Create a **Gen. Product Posting Group** for the import VAT and set up an import VAT **Def. VAT Product Posting Group** for the related **Gen. Product Posting Group**.  
   
@@ -51,5 +51,5 @@ Instead of using a general journal to post an import VAT invoice, you can use a 
 7.  Post the invoice.  
   
 ## See Also  
- [How to: Post Import VAT](../FullExperience/how-to-post-import-vat.md)   
- [How to: View VAT Entries](../FullExperience/how-to-view-vat-entries.md)
+ [How to: Post Import VAT](../how-to-post-import-vat.md)   
+ [How to: View VAT Entries](../how-to-view-vat-entries.md)

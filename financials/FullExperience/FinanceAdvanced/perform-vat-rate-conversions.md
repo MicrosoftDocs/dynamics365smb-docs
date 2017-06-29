@@ -22,7 +22,7 @@ The VAT rate change tool lets you easily manage VAT rate changes in order to mai
   
 |To|See|  
 |--------|---------|  
-|Prepare your database to manage VAT rate changes.|[How to: Prepare VAT Rate Change Conversions](../FullExperience/how-to-prepare-vat-rate-change-conversions.md)|  
-|Define which master data has to be updated and update old general posting groups and VAT posting groups to new general posting groups and VAT posting groups.|[How to: Set Up VAT Rate Change Tool](../FullExperience/how-to-set-up-vat-rate-change-tool.md)|  
-|Implement changes on open documents and journal lines.|[How to: Perform VAT Rate Conversions](../FullExperience/how-to-perform-vat-rate-conversions.md)|  
-|Understand the VAT rate change conversion.|[Understanding the VAT Rate Conversion Process](../FullExperience/understanding-the-vat-rate-conversion-process.md)|
+|Prepare your database to manage VAT rate changes.|[How to: Prepare VAT Rate Change Conversions](../how-to-prepare-vat-rate-change-conversions.md)|  
+|Define which master data has to be updated and update old general posting groups and VAT posting groups to new general posting groups and VAT posting groups.|[How to: Set Up VAT Rate Change Tool](../how-to-set-up-vat-rate-change-tool.md)|  
+|Implement changes on open documents and journal lines.|[How to: Perform VAT Rate Conversions](../how-to-perform-vat-rate-conversions.md)|  
+|Understand the VAT rate change conversion.|[Understanding the VAT Rate Conversion Process](../understanding-the-vat-rate-conversion-process.md)|

@@ -27,4 +27,4 @@ In Iceland, in accordance with legislation, ADD INCLUDE<!--[!INCLUDE[navnow](../
 -   Purchase credit memos  
   
 ## See Also  
- [How to: Invoice Sales](../FullExperience/how-to-invoice-sales.md)
+ [How to: Invoice Sales](../how-to-invoice-sales.md)

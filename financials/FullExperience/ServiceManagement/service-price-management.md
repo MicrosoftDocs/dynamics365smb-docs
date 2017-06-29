@@ -63,7 +63,7 @@ The service price management functionality lets you apply the best price to serv
 |**Minimum**|This means that you put a lower limit on the charge to your customer, regardless of the real costs or regular charges. Selecting this option means that the service price adjustment will only be performed if the total amount is less than the amount specified on the service price group.|  
   
 ## See Also  
- [How to: Set Up Service Price Adjustment Groups](../FullExperience/how-to-set-up-service-price-adjustment-groups.md)   
- [How to: Set Up Service Price Groups](../FullExperience/how-to-set-up-service-price-groups.md)   
- [How to: Create Service Price Adjustments](../FullExperience/how-to-create-service-price-adjustments.md)   
- [How to: Change Service Pricing for Service Items](../FullExperience/how-to-change-service-pricing-for-service-items.md)
+ [How to: Set Up Service Price Adjustment Groups](../how-to-set-up-service-price-adjustment-groups.md)   
+ [How to: Set Up Service Price Groups](../how-to-set-up-service-price-groups.md)   
+ [How to: Create Service Price Adjustments](../how-to-create-service-price-adjustments.md)   
+ [How to: Change Service Pricing for Service Items](../how-to-change-service-pricing-for-service-items.md)

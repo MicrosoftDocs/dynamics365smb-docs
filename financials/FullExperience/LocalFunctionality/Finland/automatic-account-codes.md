@@ -23,8 +23,8 @@ You can use customized posting groups to automate recurring transactions in jour
  You can also use automatic account codes to trigger cost or revenue allocations across different dimensions. For example, you can set up an automatic account group to divide total expenses across three departments when posting an invoice.  
   
 ## See Also  
- [How to: Set Up Automatic Account Posting Groups](../FullExperience/how-to-set-up-automatic-account-posting-groups.md)   
- [OBSOLETE: Accrual Accounting](../FullExperience/OBSOLETE:%20Accrual%20Accounting.md)   
- [About Posting Groups](../FullExperience/about-posting-groups.md)   
- [How to: Fill and Post General Journals](../FullExperience/how-to-fill-and-post-general-journals.md)   
- [OBSOLETE: How to: Set Up Accrual Accounting](../FullExperience/OBSOLETE:%20How%20to:%20Set%20Up%20Accrual%20Accounting.md)
+ [How to: Set Up Automatic Account Posting Groups](../how-to-set-up-automatic-account-posting-groups.md)   
+ [OBSOLETE: Accrual Accounting](../OBSOLETE:%20Accrual%20Accounting.md)   
+ [About Posting Groups](../about-posting-groups.md)   
+ [How to: Fill and Post General Journals](../how-to-fill-and-post-general-journals.md)   
+ [OBSOLETE: How to: Set Up Accrual Accounting](../OBSOLETE:%20How%20to:%20Set%20Up%20Accrual%20Accounting.md)

@@ -40,5 +40,5 @@ When you have created your bins, you can create the bin content that you want fo
  In this worksheet, you can work with a number of bin content lines for a number of bins and thereby obtain a good overview of what you are putting into various bins in a given zone, aisle, or rack.  
   
 ## See Also  
- [How to: Assign Default Bins to Items](../FullExperience/how-to-assign-default-bins-to-items.md)   
- [How to: Modify Bin Content](../FullExperience/how-to-modify-bin-content.md)
+ [How to: Assign Default Bins to Items](../how-to-assign-default-bins-to-items.md)   
+ [How to: Modify Bin Content](../how-to-modify-bin-content.md)

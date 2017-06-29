@@ -47,6 +47,6 @@ When you service a service item that is composed of components, you may need to 
  The new item is not registered as a component of the service item until you post this service line or the service order.  
   
 ## See Also  
- [How to: Register Spare Parts](../FullExperience/how-to-register-spare-parts.md)   
- [How to: Set Up Service Item Components](../FullExperience/how-to-set-up-service-item-components.md)   
- [How to: Replace Service Items](../FullExperience/how-to-replace-service-items.md)
+ [How to: Register Spare Parts](../how-to-register-spare-parts.md)   
+ [How to: Set Up Service Item Components](../how-to-set-up-service-item-components.md)   
+ [How to: Replace Service Items](../how-to-replace-service-items.md)

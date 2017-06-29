@@ -35,8 +35,8 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, there are 
 3.  Choose the **OK** button.  
   
 ## See Also  
- [Belgian Intrastat Reporting](../FullExperience/belgian-intrastat-reporting.md)   
- [How to: Set Up Belgian Tariff Numbers](../FullExperience/how-to-set-up-belgian-tariff-numbers.md)   
- [How to: Set Up Intrastat Establishment Numbers](../FullExperience/how-to-set-up-intrastat-establishment-numbers.md)   
- [How to: Export Intrastat Third-Party Declararations](../FullExperience/how-to-export-intrastat-third-party-declararations.md)   
- [How to: Print the Intrastat Form Report](../FullExperience/how-to-print-the-intrastat-form-report.md)
+ [Belgian Intrastat Reporting](../belgian-intrastat-reporting.md)   
+ [How to: Set Up Belgian Tariff Numbers](../how-to-set-up-belgian-tariff-numbers.md)   
+ [How to: Set Up Intrastat Establishment Numbers](../how-to-set-up-intrastat-establishment-numbers.md)   
+ [How to: Export Intrastat Third-Party Declararations](../how-to-export-intrastat-third-party-declararations.md)   
+ [How to: Print the Intrastat Form Report](../how-to-print-the-intrastat-form-report.md)

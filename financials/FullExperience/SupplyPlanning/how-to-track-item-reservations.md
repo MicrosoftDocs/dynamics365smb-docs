@@ -26,10 +26,10 @@ The tracking facility offers you an overview of the various documents related to
   
 2.  Open the relevant firm planned production order   from the list.  
   
-3.  On the **Lines** FastTab, choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Functions**, and then choose **Order Tracking**.   
+3.  On the **Lines** FastTab, choose **Actions**![Action Menu icon](../media/actionmenuicon.png "actionMenuIcon"), choose **Functions**, and then choose **Order Tracking**.   
     The lines in the **Order Tracking** window display the documents that are related to the current production order line.  
   
 ## See Also  
- [How to: Reserve Items for Production Order Lines](../FullExperience/how-to-reserve-items-for-production-order-lines.md)   
- [How to: Reserve Items for Production Components](../FullExperience/how-to-reserve-items-for-production-components.md)   
- [How to: Amend or Cancel Item Reservations](../FullExperience/how-to-amend-or-cancel-item-reservations.md)
+ [How to: Reserve Items for Production Order Lines](../how-to-reserve-items-for-production-order-lines.md)   
+ [How to: Reserve Items for Production Components](../how-to-reserve-items-for-production-components.md)   
+ [How to: Amend or Cancel Item Reservations](../how-to-amend-or-cancel-item-reservations.md)

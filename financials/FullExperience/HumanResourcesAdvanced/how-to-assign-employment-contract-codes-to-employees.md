@@ -31,4 +31,4 @@ You can set up employment contract codes for the various contracts you use in yo
  Repeat the procedure for all employees for whom you want to assign a contract code.  
   
 ## See Also  
- [How to: Assign Qualification Codes to Employees](../FullExperience/how-to-assign-qualification-codes-to-employees.md)
+ [How to: Assign Qualification Codes to Employees](../how-to-assign-qualification-codes-to-employees.md)

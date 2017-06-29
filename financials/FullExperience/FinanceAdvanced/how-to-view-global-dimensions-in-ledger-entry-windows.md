@@ -16,7 +16,7 @@
 
     ---
 # How to: View Global Dimensions in Ledger Entry Windows
-Note that global dimensions are always company-defined and company-named. To see the global dimensions for your company, open the ![Shortcut icon](../FullExperience/media/shortcutcoldicon.gif "shortcutColdIcon")**General Ledger Setup** window.  
+Note that global dimensions are always company-defined and company-named. To see the global dimensions for your company, open the ![Shortcut icon](../media/shortcutcoldicon.gif "shortcutColdIcon")**General Ledger Setup** window.  
   
  In a ledger entry window, you can see whether there are global dimensions for the entries. The two global dimensions differ from the rest of your dimensions because you can use them as filters anywhere in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
   
@@ -39,5 +39,5 @@ Note that global dimensions are always company-defined and company-named. To see
 >  To see only the entries for a certain global dimension, you can use a field filter.  
   
 ## See Also  
- [How to: Set Up Global Dimensions](../FullExperience/how-to-set-up-global-dimensions.md)   
+ [How to: Set Up Global Dimensions](../how-to-set-up-global-dimensions.md)   
  Dimension

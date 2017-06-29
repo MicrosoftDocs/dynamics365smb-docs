@@ -29,5 +29,5 @@ If necessary, you can use more than one line for a general ledger account name.
 4.  Fill in one or more lines with the text that is to be copied and the account name.  
   
 ## See Also  
- [How to: Insert Extended Text](../FullExperience/how-to-insert-extended-text.md)   
- [How to: Set Up General Ledger Accounts in the Chart of Accounts Window](../FullExperience/how-to-set-up-general-ledger-accounts-in-the-chart-of-accounts-window.md)
+ [How to: Insert Extended Text](../how-to-insert-extended-text.md)   
+ [How to: Set Up General Ledger Accounts in the Chart of Accounts Window](../how-to-set-up-general-ledger-accounts-in-the-chart-of-accounts-window.md)

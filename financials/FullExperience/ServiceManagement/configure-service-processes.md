@@ -26,13 +26,13 @@ Service management in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.
   
 |**To**|**See**|  
 |------------|-------------|  
-|Learn more about the key features of the Service Management Setup window.|[Service Management Setup](../FullExperience/service-management-setup.md)|  
-|Standardize coding for the service lines that underlie all service items.|[Service Coding](../FullExperience/service-coding.md)|  
-|Standardize coding for fault reporting and resolution status.|[Fault Reporting](../FullExperience/fault-reporting.md)|  
-|Define and map the skills that a service requires to people and other resources.|[How to: Set Up Skill Codes](../FullExperience/how-to-set-up-skill-codes.md)|  
-|Set up guidelines to support the **Troubleshooting** window.|[How to: Set Up Troubleshooting Guidelines](../FullExperience/how-to-set-up-troubleshooting-guidelines.md)|  
-|Associate specific costs with service items. Examples of costs include travel costs and support costs.|[How to: Set Up Service Costs](../FullExperience/how-to-set-up-service-costs.md)|  
+|Learn more about the key features of the Service Management Setup window.|[Service Management Setup](../service-management-setup.md)|  
+|Standardize coding for the service lines that underlie all service items.|[Service Coding](../service-coding.md)|  
+|Standardize coding for fault reporting and resolution status.|[Fault Reporting](../fault-reporting.md)|  
+|Define and map the skills that a service requires to people and other resources.|[How to: Set Up Skill Codes](../how-to-set-up-skill-codes.md)|  
+|Set up guidelines to support the **Troubleshooting** window.|[How to: Set Up Troubleshooting Guidelines](../how-to-set-up-troubleshooting-guidelines.md)|  
+|Associate specific costs with service items. Examples of costs include travel costs and support costs.|[How to: Set Up Service Costs](../how-to-set-up-service-costs.md)|  
   
 ## See Also  
- [Determine Service Offerings](../FullExperience/determine-service-offerings.md)   
- [Working with Product Name](../FullExperience/working-with-$-p_1-product-name-$-.md)
+ [Determine Service Offerings](../determine-service-offerings.md)   
+ [Working with Product Name](../working-with-$-p_1-product-name-$-.md)

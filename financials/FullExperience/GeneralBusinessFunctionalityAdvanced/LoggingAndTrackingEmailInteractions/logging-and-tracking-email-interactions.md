@@ -38,9 +38,9 @@ Email logging in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-
 |Email address is longer than 80 characters.|The message is not copied and is deleted from the queue folder.|  
   
 ## See Also  
- [Walkthrough: Logging Email Interactions in the Microsoft Dynamics NAV Database](../FullExperience/walkthrough-logging-email-interactions-in-the-microsoft-dynamics-nav-database.md)   
- [How to: Set Up Email Logging](../FullExperience/how-to-set-up-email-logging.md)   
- [How to: Set Up Email Logging for use with the Job Queue](../FullExperience/how-to-set-up-email-logging-for-use-with-the-job-queue.md)   
- [How to: Run Email Logging](../FullExperience/how-to-run-email-logging.md)   
- [Troubleshooting: Email Logging](../FullExperience/troubleshooting-email-logging.md)   
- [Security Considerations for Email Logging](../FullExperience/security-considerations-for-email-logging.md)
+ [Walkthrough: Logging Email Interactions in the Microsoft Dynamics NAV Database](../walkthrough-logging-email-interactions-in-the-microsoft-dynamics-nav-database.md)   
+ [How to: Set Up Email Logging](../how-to-set-up-email-logging.md)   
+ [How to: Set Up Email Logging for use with the Job Queue](../how-to-set-up-email-logging-for-use-with-the-job-queue.md)   
+ [How to: Run Email Logging](../how-to-run-email-logging.md)   
+ [Troubleshooting: Email Logging](../troubleshooting-email-logging.md)   
+ [Security Considerations for Email Logging](../security-considerations-for-email-logging.md)

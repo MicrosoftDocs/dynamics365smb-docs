@@ -43,5 +43,5 @@ You can create sales and production forecasts with the **Production Forecast** w
 >  You can also edit an existing forecast. In the **Production Forecast Matrix** window, On the **Actions** tab, choose **Copy Production Forecast** and populate the **Production Forecast** window with an existing forecast. You can then edit quantities as appropriate.  
   
 ## See Also  
- [Production Forecast-duplicate](../FullExperience/\($%20N_99000919%20Production%20Forecast%20$\)-duplicate.md)   
- [About Forecasting Functionality](../FullExperience/about-forecasting-functionality.md)
+ [Production Forecast-duplicate](../\($%20N_99000919%20Production%20Forecast%20$\)-duplicate.md)   
+ [About Forecasting Functionality](../about-forecasting-functionality.md)

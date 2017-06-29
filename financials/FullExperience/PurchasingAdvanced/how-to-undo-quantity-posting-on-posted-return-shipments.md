@@ -24,7 +24,7 @@ If you have made an incorrect quantity posting, that is if you have made a retur
   
 2.  Open the relevant Posted Return Shipment and select the line or lines you want to correct.  
   
-3.  On the **Lines** FastTab, choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Functions**, and then choose **Undo Return Shipment.**  
+3.  On the **Lines** FastTab, choose **Actions**![Action Menu icon](../media/actionmenuicon.png "actionMenuIcon"), choose **Functions**, and then choose **Undo Return Shipment.**  
   
      A corrective line is inserted in the posted document, and the **Return Qty. Shipped** and **Return Shpd. Not Invd.** fields on the return order are set to zero.  
   
@@ -40,5 +40,5 @@ If you have made an incorrect quantity posting, that is if you have made a retur
   
 ## See Also  
  Purchase Return Order   
- [Manage Purchase Returns](../FullExperience/manage-purchase-returns.md)   
- [How to: Undo Quantity Postings on Posted Shipments](../FullExperience/how-to-undo-quantity-postings-on-posted-shipments.md)
+ [Manage Purchase Returns](../manage-purchase-returns.md)   
+ [How to: Undo Quantity Postings on Posted Shipments](../how-to-undo-quantity-postings-on-posted-shipments.md)

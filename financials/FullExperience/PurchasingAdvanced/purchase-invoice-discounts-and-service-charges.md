@@ -32,8 +32,8 @@ If you have fixed terms for invoice discounts with any vendors, you can enter th
 >  Before you enter this information, it is a good idea to prepare an outline of the discount structure that you want to use. This makes it easier to see which vendors can be linked to the same invoice discount window. The fewer windows that you have to set up, the faster that you can enter the basic information.  
   
 ## See Also  
- [How to: Set Up Invoice Discount Terms](../FullExperience/how-to-set-up-invoice-discount-terms.md)   
- [How to: Enter Invoice Discount Codes on Vendor Cards](../FullExperience/how-to-enter-invoice-discount-codes-on-vendor-cards.md)   
- [How to: Select a Principle for Posting Purchase Discounts](../FullExperience/how-to-select-a-principle-for-posting-purchase-discounts.md)   
- [How to: Invoice Purchases with Invoice Discounts in LCY](../FullExperience/how-to-invoice-purchases-with-invoice-discounts-in-lcy.md)   
- [How to: Invoice Purchases with Invoice Discounts in a Foreign Currency](../FullExperience/how-to-invoice-purchases-with-invoice-discounts-in-a-foreign-currency.md)
+ [How to: Set Up Invoice Discount Terms](../how-to-set-up-invoice-discount-terms.md)   
+ [How to: Enter Invoice Discount Codes on Vendor Cards](../how-to-enter-invoice-discount-codes-on-vendor-cards.md)   
+ [How to: Select a Principle for Posting Purchase Discounts](../how-to-select-a-principle-for-posting-purchase-discounts.md)   
+ [How to: Invoice Purchases with Invoice Discounts in LCY](../how-to-invoice-purchases-with-invoice-discounts-in-lcy.md)   
+ [How to: Invoice Purchases with Invoice Discounts in a Foreign Currency](../how-to-invoice-purchases-with-invoice-discounts-in-a-foreign-currency.md)

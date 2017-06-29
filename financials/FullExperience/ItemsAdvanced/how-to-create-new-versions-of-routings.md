@@ -43,13 +43,13 @@ The version principle enables you to manage several versions of a routing. The s
  You can enter comments for each operation and assign tools, personnel, and quality measures in the same way as you do for routings.  
   
 ## See Also  
- [Purpose of the Routings](../FullExperience/purpose-of-the-routings.md)   
- [How to: Create Routings](../FullExperience/how-to-create-routings.md)   
- [How to: Copy Routing Versions](../FullExperience/how-to-copy-routing-versions.md)   
- [How to: Set Up Routing Link Codes](../FullExperience/how-to-set-up-routing-link-codes.md)   
- [How to: Enter Comments for Operations](../FullExperience/how-to-enter-comments-for-operations.md)   
- [How to: Assign Tools to Operations](../FullExperience/how-to-assign-tools-to-operations.md)   
- [How to: Assign Personnel to Operations](../FullExperience/how-to-assign-personnel-to-operations.md)   
- [How to: Assign Quality Measures to Operations](../FullExperience/how-to-assign-quality-measures-to-operations.md)   
- [How to: Set Up Machine Centers](../FullExperience/how-to-set-up-machine-centers.md)   
- [How to: Set Up Work Centers](../FullExperience/how-to-set-up-work-centers.md)
+ [Purpose of the Routings](../purpose-of-the-routings.md)   
+ [How to: Create Routings](../how-to-create-routings.md)   
+ [How to: Copy Routing Versions](../how-to-copy-routing-versions.md)   
+ [How to: Set Up Routing Link Codes](../how-to-set-up-routing-link-codes.md)   
+ [How to: Enter Comments for Operations](../how-to-enter-comments-for-operations.md)   
+ [How to: Assign Tools to Operations](../how-to-assign-tools-to-operations.md)   
+ [How to: Assign Personnel to Operations](../how-to-assign-personnel-to-operations.md)   
+ [How to: Assign Quality Measures to Operations](../how-to-assign-quality-measures-to-operations.md)   
+ [How to: Set Up Machine Centers](../how-to-set-up-machine-centers.md)   
+ [How to: Set Up Work Centers](../how-to-set-up-work-centers.md)

@@ -38,9 +38,9 @@ To set up service standards and responses for your company, you can establish ho
     ms.author: sgroespe
 
     ------------|-------------|  
-|Set up common fault codes and areas. Use these to describe typical faults.|[How to: Set Up Fault Codes](../FullExperience/how-to-set-up-fault-codes.md)|  
-|Set up a list of typical symptoms that a customer might use to describe certain faults.|[How to: Set Up Symptom Codes](../FullExperience/how-to-set-up-symptom-codes.md)|  
-|Establish a list of typical repair methods or resolutions to service problems.|[How to: Set Up Resolution Codes](../FullExperience/how-to-set-up-resolution-codes.md)|  
+|Set up common fault codes and areas. Use these to describe typical faults.|[How to: Set Up Fault Codes](../how-to-set-up-fault-codes.md)|  
+|Set up a list of typical symptoms that a customer might use to describe certain faults.|[How to: Set Up Symptom Codes](../how-to-set-up-symptom-codes.md)|  
+|Establish a list of typical repair methods or resolutions to service problems.|[How to: Set Up Resolution Codes](../how-to-set-up-resolution-codes.md)|  
   
 ## See Also  
  Fault Code   

@@ -40,12 +40,12 @@ This topic describes how to create a VAT combination setup.
  For more information, see Copy - VAT Posting Setup.  
   
 ## See Also  
- [About Setting Up VAT](../FullExperience/about-setting-up-vat.md)   
- [How to: Enter Basic Information on Reverse Charge VAT for Purchases](../FullExperience/how-to-enter-basic-information-on-reverse-charge-vat-for-purchases.md)   
- [How to: Record VAT](../FullExperience/how-to-record-vat.md)   
- [How to: Revert VAT on Payment Discounts](../FullExperience/how-to-revert-vat-on-payment-discounts.md)   
- [How to: Set Up Codes for Import VAT](../FullExperience/how-to-set-up-codes-for-import-vat.md)   
- [How to: Set Up General Ledger Accounts for Invoice Rounding Differences](../FullExperience/how-to-set-up-general-ledger-accounts-for-invoice-rounding-differences.md)   
- [How to: Use Accounts for Unrealized VAT](../FullExperience/how-to-use-accounts-for-unrealized-vat.md)   
+ [About Setting Up VAT](../about-setting-up-vat.md)   
+ [How to: Enter Basic Information on Reverse Charge VAT for Purchases](../how-to-enter-basic-information-on-reverse-charge-vat-for-purchases.md)   
+ [How to: Record VAT](../how-to-record-vat.md)   
+ [How to: Revert VAT on Payment Discounts](../how-to-revert-vat-on-payment-discounts.md)   
+ [How to: Set Up Codes for Import VAT](../how-to-set-up-codes-for-import-vat.md)   
+ [How to: Set Up General Ledger Accounts for Invoice Rounding Differences](../how-to-set-up-general-ledger-accounts-for-invoice-rounding-differences.md)   
+ [How to: Use Accounts for Unrealized VAT](../how-to-use-accounts-for-unrealized-vat.md)   
  VAT Posting Setup   
  Copy - VAT Posting Setup

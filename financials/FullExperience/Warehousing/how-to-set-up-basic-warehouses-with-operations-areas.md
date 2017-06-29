@@ -78,7 +78,7 @@ If internal operation areas such as production or assembly exist in basic wareho
  Flushing Method   
  Bin Code   
  Dedicated   
- [How to: Move Components to an Operation Area in Basic Warehousing](../FullExperience/how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
- [How to: Pick for Production in Basic Warehousing](../FullExperience/how-to-pick-for-production-in-basic-warehousing.md)   
- [How to: Move Items Ad Hoc in Basic Warehousing](../FullExperience/how-to-move-items-ad-hoc-in-basic-warehousing.md)   
- [How to: Convert Existing Locations to Warehouse Locations](../FullExperience/how-to-convert-existing-locations-to-warehouse-locations.md)
+ [How to: Move Components to an Operation Area in Basic Warehousing](../how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
+ [How to: Pick for Production in Basic Warehousing](../how-to-pick-for-production-in-basic-warehousing.md)   
+ [How to: Move Items Ad Hoc in Basic Warehousing](../how-to-move-items-ad-hoc-in-basic-warehousing.md)   
+ [How to: Convert Existing Locations to Warehouse Locations](../how-to-convert-existing-locations-to-warehouse-locations.md)

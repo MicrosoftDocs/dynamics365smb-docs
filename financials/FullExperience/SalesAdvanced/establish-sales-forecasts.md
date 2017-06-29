@@ -35,11 +35,11 @@ You can use the following features to plan for future sales:
 |**To**|**See**|  
 |------------|-------------|  
 |View budgeted sales figures per item, period, location, or dimensions.|Sales Budget Overview|  
-|Learn how to use forecasting in planning, such as to create "what if" scenarios and efficiently plan for and meet demand.|[About Forecasting Functionality](../FullExperience/about-forecasting-functionality.md)|  
-|Enter forecasted sales and production demand into the planning system to include them as indirect demand in supply plans.|[How to: Create a Forecast](../FullExperience/how-to-create-a-forecast.md)|  
-|Learn how to use blanket sales orders to generate indirect sales demand and thereby provide a type of forecast for sales and production planners.|[About Blanket Sales Orders](../FullExperience/about-blanket-sales-orders.md)|  
-|Compile agreed future sales orders to one customer in a blanket sales order to enable quick order creation and to capture the indirect demand as a type of forecast.|[How to: Create Blanket Sales Orders](../FullExperience/how-to-create-blanket-sales-orders.md)|  
+|Learn how to use forecasting in planning, such as to create "what if" scenarios and efficiently plan for and meet demand.|[About Forecasting Functionality](../about-forecasting-functionality.md)|  
+|Enter forecasted sales and production demand into the planning system to include them as indirect demand in supply plans.|[How to: Create a Forecast](../how-to-create-a-forecast.md)|  
+|Learn how to use blanket sales orders to generate indirect sales demand and thereby provide a type of forecast for sales and production planners.|[About Blanket Sales Orders](../about-blanket-sales-orders.md)|  
+|Compile agreed future sales orders to one customer in a blanket sales order to enable quick order creation and to capture the indirect demand as a type of forecast.|[How to: Create Blanket Sales Orders](../how-to-create-blanket-sales-orders.md)|  
   
 ## See Also  
- [Perform Master Planning](../FullExperience/perform-master-planning.md)   
- [Business Intelligence](../FullExperience/business-intelligence.md)
+ [Perform Master Planning](../perform-master-planning.md)   
+ [Business Intelligence](../business-intelligence.md)

@@ -25,7 +25,7 @@ When a user creates a new database, that user is assigned only one permission se
 > [!NOTE]  
 >  Another prerequisite permission set is the FOUNDATION permission set.  
 >   
->  If you want to use the UI Elements Removal feature to automatically remove UI elements according to user permissions, it is recommended that you use the FOUNDATION permission set together with the relevant application permission sets. For more information, see [Removing Elements from the User Interface According to Permissions](../FullExperience/removing-elements-from-the-user-interface-according-to-permissions.md).  
+>  If you want to use the UI Elements Removal feature to automatically remove UI elements according to user permissions, it is recommended that you use the FOUNDATION permission set together with the relevant application permission sets. For more information, see [Removing Elements from the User Interface According to Permissions](../removing-elements-from-the-user-interface-according-to-permissions.md).  
   
 ## Modifying the BASIC Permission Set with Default Permissions  
  Before beginning the following procedure, you have to install ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/demo_md.md)]-->.  
@@ -63,8 +63,8 @@ When a user creates a new database, that user is assigned only one permission se
 >  Depending on the setting in the **UI Elements Removal** field in the ADD INCLUDE<!--[!INCLUDE[nav_admin](../../includes/How%20to:%20Specify%20When%20UI%20Elements%20Are%20Removed.md).  
   
 ## See Also  
- [Security Overview](../FullExperience/Security%20Overview.md)   
- [Managing Permissions and Permission Sets](../FullExperience/Managing%20Permissions%20and%20Permission%20Sets.md)   
- [How to: Create or Modify Permission Sets](../FullExperience/How%20to:%20Create%20or%20Modify%20Permission%20Sets.md)   
- [Customize the User Interface](../FullExperience/customize-the-user-interface.md)   
- [Removing Elements from the User Interface According to Permissions](../FullExperience/removing-elements-from-the-user-interface-according-to-permissions.md)
+ [Security Overview](../Security%20Overview.md)   
+ [Managing Permissions and Permission Sets](../Managing%20Permissions%20and%20Permission%20Sets.md)   
+ [How to: Create or Modify Permission Sets](../How%20to:%20Create%20or%20Modify%20Permission%20Sets.md)   
+ [Customize the User Interface](../customize-the-user-interface.md)   
+ [Removing Elements from the User Interface According to Permissions](../removing-elements-from-the-user-interface-according-to-permissions.md)

@@ -18,11 +18,11 @@
 # How to: Receive and Convert Electronic Documents
 The generic version of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]-->.  
   
- In addition to receiving electronic documents directly from trading partners, you can receive electronic documents from an OCR service that has turned your PDF or image files into electronic documents. For more information, see [How to: Use OCR to Turn PDF and Image Files into Electronic Documents](../FullExperience/how-to-use-ocr-to-turn-pdf-and-image-files-into-electronic-documents.md).  
+ In addition to receiving electronic documents directly from trading partners, you can receive electronic documents from an OCR service that has turned your PDF or image files into electronic documents. For more information, see [How to: Use OCR to Turn PDF and Image Files into Electronic Documents](../how-to-use-ocr-to-turn-pdf-and-image-files-into-electronic-documents.md).  
   
  Before you can receive electronic documents through the document exchange service, you must set up various master data, such as company information, vendors, items, and units of measure. These are used to identify the business partners and items when converting data in elements in the incoming document file to fields in ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/how-to-set-up-a-document-exchange-service.md).  
   
- Before you can receive electronic documents through the OCR service, you must set up and enable the preconfigured service connection. For more information, see [How to: Set Up an OCR Service](../FullExperience/how-to-set-up-an-ocr-service.md).  
+ Before you can receive electronic documents through the OCR service, you must set up and enable the preconfigured service connection. For more information, see [How to: Set Up an OCR Service](../how-to-set-up-an-ocr-service.md).  
   
  The traffic of electronic documents in and out of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/how-to-set-up-job-queues.md).  
   
@@ -43,7 +43,7 @@ The generic version of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_
   
 2.  Select the line for the incoming document record that represents a new incoming electronic invoice, and then, on the **Home** tab, in the **Manage** group, choose **Edit**.  
   
-     In the **Incoming Document Card** window, the related XML file is attached, and most of the fields are prefilled with information from the electronic invoice. For more information, see [How to: Create Incoming Document Records](../FullExperience/how-to-create-incoming-document-records.md).  
+     In the **Incoming Document Card** window, the related XML file is attached, and most of the fields are prefilled with information from the electronic invoice. For more information, see [How to: Create Incoming Document Records](../how-to-create-incoming-document-records.md).  
   
 3.  In the **Data Exchange Type** field, choose **PEPPOL - Invoice** or **OCR – Invoice** depending on the source of the electronic document.  
   
@@ -60,10 +60,10 @@ The generic version of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_
  Text-to-Account Mapping Wksh.   
  OCR Status   
  Status   
- [Incoming Documents](../FullExperience/incoming-documents.md)   
- [How to: Set Up Electronic Document Sending and Receiving](../FullExperience/how-to-set-up-electronic-document-sending-and-receiving.md)   
- [How to: Handle Errors When Receiving Electronic Documents](../FullExperience/how-to-handle-errors-when-receiving-electronic-documents.md)   
- [How to: Send Electronic Documents](../FullExperience/how-to-send-electronic-documents.md)   
- [How to: Set Up Data Exchange Definitions](../FullExperience/how-to-set-up-data-exchange-definitions.md)   
- [Data Exchange](../FullExperience/data-exchange.md)   
- [Business Functionality](../FullExperience/Business%20Functionality.md)
+ [Incoming Documents](../incoming-documents.md)   
+ [How to: Set Up Electronic Document Sending and Receiving](../how-to-set-up-electronic-document-sending-and-receiving.md)   
+ [How to: Handle Errors When Receiving Electronic Documents](../how-to-handle-errors-when-receiving-electronic-documents.md)   
+ [How to: Send Electronic Documents](../how-to-send-electronic-documents.md)   
+ [How to: Set Up Data Exchange Definitions](../how-to-set-up-data-exchange-definitions.md)   
+ [Data Exchange](../data-exchange.md)   
+ [Business Functionality](../Business%20Functionality.md)

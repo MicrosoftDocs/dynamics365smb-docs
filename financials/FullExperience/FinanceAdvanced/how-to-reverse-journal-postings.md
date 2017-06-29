@@ -67,6 +67,6 @@ To undo an erroneous journal posting, select the entry and create a reverse  ent
 > -   Entries that have been date compressed.  
   
 ## See Also  
- [How to: Unapply Applied Customer or Vendor Ledger Entries](../FullExperience/How%20to:%20Unapply%20Applied%20Customer%20or%20Vendor%20Ledger%20Entries.md)   
- [How to: Make Corrections with General Journals](../FullExperience/how-to-make-corrections-with-general-journals.md)   
- [How to: Unapply Applied Customer or Vendor Ledger Entries](../FullExperience/How%20to:%20Unapply%20Applied%20Customer%20or%20Vendor%20Ledger%20Entries.md)
+ [How to: Unapply Applied Customer or Vendor Ledger Entries](../How%20to:%20Unapply%20Applied%20Customer%20or%20Vendor%20Ledger%20Entries.md)   
+ [How to: Make Corrections with General Journals](../how-to-make-corrections-with-general-journals.md)   
+ [How to: Unapply Applied Customer or Vendor Ledger Entries](../How%20to:%20Unapply%20Applied%20Customer%20or%20Vendor%20Ledger%20Entries.md)

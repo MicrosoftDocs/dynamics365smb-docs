@@ -41,6 +41,6 @@ You can use the **Serv. Price Adjmt. Group** window to set up price adjustment g
  Repeat these steps for each group of service lines that you want to adjust, by using a service price adjustment group.  
   
 ## See Also  
- [How to: Set Up Service Price Groups](../FullExperience/how-to-set-up-service-price-groups.md)   
- [How to: Set Up Service Price Adjustment Details](../FullExperience/how-to-set-up-service-price-adjustment-details.md)   
- [Service Price Management](../FullExperience/service-price-management.md)
+ [How to: Set Up Service Price Groups](../how-to-set-up-service-price-groups.md)   
+ [How to: Set Up Service Price Adjustment Details](../how-to-set-up-service-price-adjustment-details.md)   
+ [Service Price Management](../service-price-management.md)

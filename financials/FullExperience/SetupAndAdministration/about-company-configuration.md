@@ -22,4 +22,4 @@ You can provide a customer or prospective customer with an installation of ADD I
  In the file based configuration of ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you install the configuration files at a file location that can be easily accessed, such as on the product media, or on a file server, SharePoint server, or FTP server.  
   
 ## See Also  
- [Set Up a Company With RapidStart Services for Microsoft Dynamics NAV](../FullExperience/set-up-a-company-with-rapidstart-services-for-microsoft-dynamics-nav.md)
+ [Set Up a Company With RapidStart Services for Microsoft Dynamics NAV](../set-up-a-company-with-rapidstart-services-for-microsoft-dynamics-nav.md)

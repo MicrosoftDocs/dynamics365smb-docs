@@ -43,7 +43,7 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> automatically 
 ## See Also  
  Requested Delivery Date   
  Shipment Date   
- [How to: Enter Outbound Warehouse Handling Time](../FullExperience/how-to-enter-outbound-warehouse-handling-time.md)   
- [How to: Set Up Shipping Agent Services](../FullExperience/how-to-set-up-shipping-agent-services.md)   
- [About Order Promising](../FullExperience/about-order-promising.md)   
- [How to: Calculate Order Promising Dates](../FullExperience/how-to-calculate-order-promising-dates.md)
+ [How to: Enter Outbound Warehouse Handling Time](../how-to-enter-outbound-warehouse-handling-time.md)   
+ [How to: Set Up Shipping Agent Services](../how-to-set-up-shipping-agent-services.md)   
+ [About Order Promising](../about-order-promising.md)   
+ [How to: Calculate Order Promising Dates](../how-to-calculate-order-promising-dates.md)

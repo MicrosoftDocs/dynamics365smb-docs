@@ -18,7 +18,7 @@
 # How to: Create and Customize Miniforms
 You use miniforms to describe the information that you want to present on a handheld device. For example, you can create miniforms to support the warehouse activity of picking items. After you create a miniform, you can add functions to it for the common actions that a user takes with handheld devices, such as moving up or down a line.  
   
- To implement or change the functionality of a miniform function, you must create a new codeunit or modify an existing one to perform the required action or response. You can learn more about ADCS functionality by examining codeunits such as 7705, which is the handling codeunit for logon functionality. Codeunit 7705 shows how a Card-type miniform works. For more information, see [How to: Modify ADCS Functions](../FullExperience/How%20to:%20Modify%20ADCS%20Functions.md).  
+ To implement or change the functionality of a miniform function, you must create a new codeunit or modify an existing one to perform the required action or response. You can learn more about ADCS functionality by examining codeunits such as 7705, which is the handling codeunit for logon functionality. Codeunit 7705 shows how a Card-type miniform works. For more information, see [How to: Modify ADCS Functions](../How%20to:%20Modify%20ADCS%20Functions.md).  
   
 ### To create a miniform for ADCS  
   

@@ -38,5 +38,5 @@ You can assign a location to an entry after you have posted it, for example, if 
 ## See Also  
  Item Ledger Entries   
  Item Reclass. Journal   
- [Count, Adjust, and Reclassify Inventory](../FullExperience/count-adjust-and-reclassify-inventory.md)   
- [How to: Set Up Locations](../FullExperience/how-to-set-up-locations.md)
+ [Count, Adjust, and Reclassify Inventory](../count-adjust-and-reclassify-inventory.md)   
+ [How to: Set Up Locations](../how-to-set-up-locations.md)

@@ -18,7 +18,7 @@
 # How to: Reserve Item-Tracked Items
 From outbound documents for item-tracked items, such as sales orders or production component lists, you can reserve specific serial or lot numbers. This may be relevant, for example, if you need production components from a specific lot to ensure consistency with earlier production batches, or because a customer has requested a specific serial number.  
   
- This is referred to as a specific reservation, because you reserve from the quantity of  Item X that belongs to Lot X. If you simply reserve from quantities of Item X, then it is a normal, non-specific, reservation. For more information, see [How to: Reserve Items for Sales Lines](../FullExperience/how-to-reserve-items-for-sales-lines.md).  
+ This is referred to as a specific reservation, because you reserve from the quantity of  Item X that belongs to Lot X. If you simply reserve from quantities of Item X, then it is a normal, non-specific, reservation. For more information, see [How to: Reserve Items for Sales Lines](../how-to-reserve-items-for-sales-lines.md).  
   
  The following procedure is based on a sales order.  
   
@@ -47,8 +47,8 @@ From outbound documents for item-tracked items, such as sales orders or producti
 10. On the **Actions** tab, in the **Functions** group, choose either **Auto Reserve** or **Reserve from Current Line** to create the reservation on the specific item tracking numbers.  
   
 ## See Also  
- [How to: Reserve Items for Sales Lines](../FullExperience/how-to-reserve-items-for-sales-lines.md)   
- [How to: Reserve Items for Production Components](../FullExperience/how-to-reserve-items-for-production-components.md)   
- [How to: Reserve Items for Production Order Lines](../FullExperience/how-to-reserve-items-for-production-order-lines.md)   
- [How to: Cancel Reservations](../FullExperience/how-to-cancel-reservations.md)   
- [How to: Change Reservations](../FullExperience/how-to-change-reservations.md)
+ [How to: Reserve Items for Sales Lines](../how-to-reserve-items-for-sales-lines.md)   
+ [How to: Reserve Items for Production Components](../how-to-reserve-items-for-production-components.md)   
+ [How to: Reserve Items for Production Order Lines](../how-to-reserve-items-for-production-order-lines.md)   
+ [How to: Cancel Reservations](../how-to-cancel-reservations.md)   
+ [How to: Change Reservations](../how-to-change-reservations.md)

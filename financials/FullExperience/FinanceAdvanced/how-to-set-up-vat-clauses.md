@@ -30,7 +30,7 @@ You set up a VAT clause to describe information about the type of VAT that is be
   
 5.  In the **VAT Posting Setup** window, you can set up a new posting group. On the **Home** tab, choose **New**.  
   
-     Complete the setup by filling in the fields on the setup card. In the **VAT Clause Code** field, select a code that you have set up. For more information, see [How to: Create a VAT Combination Setup](../FullExperience/how-to-create-a-vat-combination-setup.md).  
+     Complete the setup by filling in the fields on the setup card. In the **VAT Clause Code** field, select a code that you have set up. For more information, see [How to: Create a VAT Combination Setup](../how-to-create-a-vat-combination-setup.md).  
   
 6.  Choose the **OK** button.  
   
@@ -45,6 +45,6 @@ You set up a VAT clause to describe information about the type of VAT that is be
 4.  Choose the **OK** button.  
   
 ## See Also  
- [VAT Clauses](../FullExperience/vat-clauses.md)   
+ [VAT Clauses](../vat-clauses.md)   
  VAT Clauses   
  VAT Posting Setup

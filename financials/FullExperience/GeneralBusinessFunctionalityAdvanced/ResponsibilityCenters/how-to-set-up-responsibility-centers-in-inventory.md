@@ -34,4 +34,4 @@ You can set up responsibility centers to help administer your business.
 >  When you enter a responsibility center code on a document, it affects the address, dimensions, and prices on the document.  
   
 ## See Also  
- [About Using Locations and Responsibility Centers](../FullExperience/about-using-locations-and-responsibility-centers.md)
+ [About Using Locations and Responsibility Centers](../about-using-locations-and-responsibility-centers.md)

@@ -36,7 +36,7 @@ After you have set up codes for import VAT, you can post import VAT invoices.
 6.  After filling in the fields, on the **Home** tab, choose **Post** to post the journal.  
   
 ## See Also  
- [How to: Set Up Codes for Import VAT](../FullExperience/how-to-set-up-codes-for-import-vat.md)   
- [How to: Record VAT](../FullExperience/how-to-record-vat.md)   
- [How to: Post Import VAT with Purchase Invoices](../FullExperience/how-to-post-import-vat-with-purchase-invoices.md)   
- [How to: View VAT Entries](../FullExperience/how-to-view-vat-entries.md)
+ [How to: Set Up Codes for Import VAT](../how-to-set-up-codes-for-import-vat.md)   
+ [How to: Record VAT](../how-to-record-vat.md)   
+ [How to: Post Import VAT with Purchase Invoices](../how-to-post-import-vat-with-purchase-invoices.md)   
+ [How to: View VAT Entries](../how-to-view-vat-entries.md)

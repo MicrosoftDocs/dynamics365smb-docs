@@ -20,37 +20,37 @@ The starting point for any business that deals with physical goods is to establi
   
  When the item card is completed, you can proceed to other product design tasks, such as defining cross-reference descriptions or substitution items and creating stockkeeping units for items stored in multiple locations.  
   
- Items that are assembled or produced within a company require additional product design tasks, which are described in [Define Material and Process Structure](../FullExperience/define-material-and-process-structure.md).  
+ Items that are assembled or produced within a company require additional product design tasks, which are described in [Define Material and Process Structure](../define-material-and-process-structure.md).  
   
  The following table describes a sequence of tasks with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
   
 |**To**|**See**|  
 |------------|-------------|  
-|Create an item card for each inventory item or service that you trade in.|[How to: Register New Products](../FullExperience/how-to-register-new-products.md)|  
-|Initiate a new item card based on a company-specific data template.|[How to: Create Cards by Using Data Templates](../FullExperience/how-to-create-cards-by-using-data-templates.md)|  
-|Enable electronic document sending by filling various fields on item cards that identify the item when mapping data to the external file.|[How to: Set Up Electronic Document Sending and Receiving](../FullExperience/how-to-set-up-electronic-document-sending-and-receiving.md)|  
+|Create an item card for each inventory item or service that you trade in.|[How to: Register New Products](../how-to-register-new-products.md)|  
+|Initiate a new item card based on a company-specific data template.|[How to: Create Cards by Using Data Templates](../how-to-create-cards-by-using-data-templates.md)|  
+|Enable electronic document sending by filling various fields on item cards that identify the item when mapping data to the external file.|[How to: Set Up Electronic Document Sending and Receiving](../how-to-set-up-electronic-document-sending-and-receiving.md)|  
 |Define how the planning system calculates replenishment of the item.|Reordering Policy|  
 |Define if the planning system must calculate production need for lower production BOM levels of the item.|Manufacturing Policy|  
-|Define how the outbound unit cost of the item is applied to inbound transactions for inventory valuation.|[Design Details: Costing Methods](../FullExperience/design-details-costing-methods.md)|  
-|Specify in which unit of measure the item is handled by default and which alternate units of measure exist.|[How to: Set Up Item Units of Measure](../FullExperience/how-to-set-up-item-units-of-measure.md)|  
+|Define how the outbound unit cost of the item is applied to inbound transactions for inventory valuation.|[Design Details: Costing Methods](../design-details-costing-methods.md)|  
+|Specify in which unit of measure the item is handled by default and which alternate units of measure exist.|[How to: Set Up Item Units of Measure](../how-to-set-up-item-units-of-measure.md)|  
 |Write a comment that can be shown on all documents where the item is handled.|Comment Line|  
 |Assign one or more default dimensions to the item card that will be included on related document lines and eventually work as a source of analysis of historic transactions.|Default Dimension|  
-|Attach a picture \(.bmp file\) of the item.|[How to: Insert Pictures](../FullExperience/how-to-insert-pictures.md)|  
+|Attach a picture \(.bmp file\) of the item.|[How to: Insert Pictures](../how-to-insert-pictures.md)|  
 |Define one or more variations of the item that customers may choose from.|Item Variant|  
 |Make a cross-reference between the item's number and another item code, such as a barcode.|Item Cross Reference|  
 |Specify which other items can be offered to customers if the first item choice is not available.|Item Substitution|  
-|Create a simplified item card for items that need not be managed as inventory items, such as drop-shipment items, special order items, or internal office supplies.|[How to: Create Nonstock Items](../FullExperience/how-to-create-nonstock-items.md)|  
+|Create a simplified item card for items that need not be managed as inventory items, such as drop-shipment items, special order items, or internal office supplies.|[How to: Create Nonstock Items](../how-to-create-nonstock-items.md)|  
 |List codes for product groups to group items by product type, such as chairs.|Product Group|  
 |List codes for item categories, to group items or product groups, such as furniture.|Item Category|  
-|Set up language translations for item descriptions so that foreign vendors and customers can get printed documents in their own language.|[How to: Set Up and Use Item Translations](../FullExperience/how-to-set-up-and-use-item-translations.md)|  
-|Write additional text that can be shown in separate document lines in addition to the item description.|[How to: Set Up Extended Text](../FullExperience/how-to-set-up-extended-text.md)|  
-|Set up number series and rules for serial\/lot numbers and assign item tracking codes to items for item tracking.|[How to: Set Up Item Tracking Codes](../FullExperience/how-to-set-up-item-tracking-codes.md)|  
+|Set up language translations for item descriptions so that foreign vendors and customers can get printed documents in their own language.|[How to: Set Up and Use Item Translations](../how-to-set-up-and-use-item-translations.md)|  
+|Write additional text that can be shown in separate document lines in addition to the item description.|[How to: Set Up Extended Text](../how-to-set-up-extended-text.md)|  
+|Set up number series and rules for serial\/lot numbers and assign item tracking codes to items for item tracking.|[How to: Set Up Item Tracking Codes](../how-to-set-up-item-tracking-codes.md)|  
 |Create a hierarchy of items that are sold together as one item, such as a kit.|Assembly BOM|  
 |Define an additional item record that reflects unique rules and values for the item at one location.|Create Stockkeeping Unit|  
   
 ## See Also  
- [Create New Vendor Accounts](../FullExperience/create-new-vendor-accounts.md)   
- [Purchase Goods](../FullExperience/purchase-goods.md)   
- [Create New Customer Accounts](../FullExperience/create-new-customer-accounts.md)   
- [Sell Goods](../FullExperience/sell-goods.md)   
- [Execute Production](../FullExperience/execute-production.md)
+ [Create New Vendor Accounts](../create-new-vendor-accounts.md)   
+ [Purchase Goods](../purchase-goods.md)   
+ [Create New Customer Accounts](../create-new-customer-accounts.md)   
+ [Sell Goods](../sell-goods.md)   
+ [Execute Production](../execute-production.md)

@@ -37,10 +37,10 @@ You can export a profile, for example to reuse UI configurations in other ADD IN
   
 2.  In the **Import from XML File** window, select the profile that you want to import.  
   
-     If you are importing a profile that already exists in the database, then you must first delete that profile. For more information, see [Manage Profiles](../FullExperience/manage-profiles.md).  
+     If you are importing a profile that already exists in the database, then you must first delete that profile. For more information, see [Manage Profiles](../manage-profiles.md).  
   
 3.  Choose the **OK** button to import the new profile.  
   
 ## See Also  
- [Administration in the Clients](../FullExperience/administration-in-the-clients.md)   
- [Configure the User Interface](../FullExperience/configure-the-user-interface.md)
+ [Administration in the Clients](../administration-in-the-clients.md)   
+ [Configure the User Interface](../configure-the-user-interface.md)

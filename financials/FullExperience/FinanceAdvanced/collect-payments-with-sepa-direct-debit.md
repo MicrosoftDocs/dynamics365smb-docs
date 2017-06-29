@@ -24,7 +24,7 @@ With your customer’s consent, you can collect payments directly from the custo
   
  You can set up standard customer sales codes with the direct-debit payment method and mandate information. You can then use the **Create Standard Cust. Invoices** batch job to generate multiple sales invoices with the direct-debit information prefilled. This is can be done manually or automatically, according to the payment due date.  
   
- When payments are successfully processed, as communicated by your bank, you can post the payment receipts either directly from the **Direct Debit Collect. Entries** window or by moving the payment lines to the journal where you post payment receipts, such as the **Cash Receipt Journal** window. Alternatively, depending on your cash management process, you can wait and just apply the payments as a part of bank reconciliation. For more information, see [How to: Match Bank Statement Lines with Bank Account Ledger Entries](../FullExperience/how-to-match-bank-statement-lines-with-bank-account-ledger-entries.md).  
+ When payments are successfully processed, as communicated by your bank, you can post the payment receipts either directly from the **Direct Debit Collect. Entries** window or by moving the payment lines to the journal where you post payment receipts, such as the **Cash Receipt Journal** window. Alternatively, depending on your cash management process, you can wait and just apply the payments as a part of bank reconciliation. For more information, see [How to: Match Bank Statement Lines with Bank Account Ledger Entries](../how-to-match-bank-statement-lines-with-bank-account-ledger-entries.md).  
   
 > [!NOTE]  
 >  To collect payments using SEPA Direct Debit, the currency on the sales invoice must be EURO.  
@@ -33,13 +33,13 @@ With your customer’s consent, you can collect payments directly from the custo
   
 |**To**|**See**|  
 |------------|-------------|  
-|Prepare bank account formats, payment methods, and customer agreements for SEPA direct debit.|[How to: Set Up SEPA Direct Debit](../FullExperience/how-to-set-up-sepa-direct-debit.md)|  
-|Instruct your bank to transfer payment amounts from your customers’ bank accounts to your company’s account according to your setup of SEPA direct debit.|[How to: Create SEPA Direct Debit Collection Entries and Export to a Bank File](../FullExperience/how-to-create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file.md)|  
-|Set up standard customer sales codes for direct-debit invoices and generate sales invoices with direct-debit information when the invoices are due for payment.|[How to: Create Multiple Sales Invoices Based on Standard Sales Codes](../FullExperience/how-to-create-multiple-sales-invoices-based-on-standard-sales-codes.md)|  
-|Post payments made as SEPA direct debits.|[How to: Post SEPA Direct Debit Payment Receipts](../FullExperience/how-to-post-sepa-direct-debit-payment-receipts.md)|  
+|Prepare bank account formats, payment methods, and customer agreements for SEPA direct debit.|[How to: Set Up SEPA Direct Debit](../how-to-set-up-sepa-direct-debit.md)|  
+|Instruct your bank to transfer payment amounts from your customers’ bank accounts to your company’s account according to your setup of SEPA direct debit.|[How to: Create SEPA Direct Debit Collection Entries and Export to a Bank File](../how-to-create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file.md)|  
+|Set up standard customer sales codes for direct-debit invoices and generate sales invoices with direct-debit information when the invoices are due for payment.|[How to: Create Multiple Sales Invoices Based on Standard Sales Codes](../how-to-create-multiple-sales-invoices-based-on-standard-sales-codes.md)|  
+|Post payments made as SEPA direct debits.|[How to: Post SEPA Direct Debit Payment Receipts](../how-to-post-sepa-direct-debit-payment-receipts.md)|  
   
 ## See Also  
  Direct Debit Collect. Entries   
  Direct Debit Collect. Entries   
  Create Recurring Sales Inv.   
- [Manage Receivables](../FullExperience/manage-receivables.md)
+ [Manage Receivables](../manage-receivables.md)

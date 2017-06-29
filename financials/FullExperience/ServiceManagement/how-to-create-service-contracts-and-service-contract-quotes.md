@@ -37,9 +37,9 @@ You can create a service contract either manually or from a service contract quo
 8.  Fill in the rest of the fields in the **Service Contract Quote** window as needed.  
   
 ## See Also  
- [How to: Add Contract Lines to Service Contracts or Service Contract Quotes](../FullExperience/how-to-add-contract-lines-to-service-contracts-or-service-contract-quotes.md)   
- [How to: Add Contract Discounts](../FullExperience/how-to-add-contract-discounts.md)   
- [How to: Set Up Contract Templates](../FullExperience/how-to-set-up-contract-templates.md)   
- [How to: Set Up Service Contract Groups](../FullExperience/how-to-set-up-service-contract-groups.md)   
- [How to: Convert Service Contract Quotes to Service Contracts](../FullExperience/how-to-convert-service-contract-quotes-to-service-contracts.md)   
- [How to: Update Service Contract Prices](../FullExperience/how-to-update-service-contract-prices.md)
+ [How to: Add Contract Lines to Service Contracts or Service Contract Quotes](../how-to-add-contract-lines-to-service-contracts-or-service-contract-quotes.md)   
+ [How to: Add Contract Discounts](../how-to-add-contract-discounts.md)   
+ [How to: Set Up Contract Templates](../how-to-set-up-contract-templates.md)   
+ [How to: Set Up Service Contract Groups](../how-to-set-up-service-contract-groups.md)   
+ [How to: Convert Service Contract Quotes to Service Contracts](../how-to-convert-service-contract-quotes-to-service-contracts.md)   
+ [How to: Update Service Contract Prices](../how-to-update-service-contract-prices.md)

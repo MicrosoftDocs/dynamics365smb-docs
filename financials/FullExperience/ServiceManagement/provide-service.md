@@ -24,11 +24,11 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> features a **S
   
 |**To**|**See**|  
 |------------|-------------|  
-|Use the **Service Tasks** window to schedule and initiate service on an order.|[How to: Work on Service Tasks](../FullExperience/how-to-work-on-service-tasks.md)|  
-|Make updates to reflect all details of an order.|[How to: Register Service Operations](../FullExperience/how-to-register-service-operations.md)|  
-|Keep parts inventory up-to-date.|[How to: Register Spare Parts](../FullExperience/how-to-register-spare-parts.md)|  
-|Update the automatically applied response time for a service order.|[How to: Change Response Times for Service Item Lines](../FullExperience/how-to-change-response-times-for-service-item-lines.md)|  
-|View which service items are in high demand and other statistics about your service management system.|[How to: View Service Statistics](../FullExperience/how-to-view-service-statistics.md)|  
+|Use the **Service Tasks** window to schedule and initiate service on an order.|[How to: Work on Service Tasks](../how-to-work-on-service-tasks.md)|  
+|Make updates to reflect all details of an order.|[How to: Register Service Operations](../how-to-register-service-operations.md)|  
+|Keep parts inventory up-to-date.|[How to: Register Spare Parts](../how-to-register-spare-parts.md)|  
+|Update the automatically applied response time for a service order.|[How to: Change Response Times for Service Item Lines](../how-to-change-response-times-for-service-item-lines.md)|  
+|View which service items are in high demand and other statistics about your service management system.|[How to: View Service Statistics](../how-to-view-service-statistics.md)|  
   
 ## See Also  
  Service Tasks

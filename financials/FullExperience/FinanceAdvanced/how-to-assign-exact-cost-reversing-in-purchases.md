@@ -29,7 +29,7 @@ You may agree with your vendor to return a purchased item to them. When you have
   
 1.  In the **Search** box, enter **Purchase Return Orders**, and then choose the related link.  
   
-2.  Enter a line for a returned item. For more information, see [How to: Create Purchase Return Orders](../FullExperience/how-to-create-purchase-return-orders.md).  
+2.  Enter a line for a returned item. For more information, see [How to: Create Purchase Return Orders](../how-to-create-purchase-return-orders.md).  
   
 3.  Choose the **Appl.-to Item Entry** field, and then select the number of the original purchase entry number.  
   
@@ -39,7 +39,7 @@ You may agree with your vendor to return a purchased item to them. When you have
   
 1.  In the **Search** box, enter **Purchase Return Orders**, and then choose the related link.  
   
-2.  Enter a line for a returned item. For more information, see [How to: Create Purchase Return Orders](../FullExperience/how-to-create-purchase-return-orders.md).  
+2.  Enter a line for a returned item. For more information, see [How to: Create Purchase Return Orders](../how-to-create-purchase-return-orders.md).  
   
 3.  On the **Home** tab, in the **Process**  group, choose **Get Posted Document Lines to Reverse**.  
   
@@ -51,10 +51,10 @@ You may agree with your vendor to return a purchased item to them. When you have
 >  If the line has item tracking, then the **Appl.-to Item Entry** field is filled on the related line in the **Item Tracking Lines** window instead of on the purchase return line.  
   
 ## See Also  
- [How to: Reverse Posted Document Lines](../FullExperience/how-to-reverse-posted-document-lines.md)   
- [Design Details: Inventory Costing](../FullExperience/design-details-inventory-costing.md)   
+ [How to: Reverse Posted Document Lines](../how-to-reverse-posted-document-lines.md)   
+ [Design Details: Inventory Costing](../design-details-inventory-costing.md)   
  Posted Purchase Document Lines   
  Item Tracking Lines   
  Appl.-to Item Entry   
  Applies-to Entry   
- [How to: Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](../FullExperience/how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
+ [How to: Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](../how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)

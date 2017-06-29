@@ -24,11 +24,11 @@ Typically, a service management system tracks resource hours and service order s
   
 |**To**|**See**|  
 |------------|-------------|  
-|Set up your organization's typical service work hours.|[How to: Set Up Default Service Hours](../FullExperience/how-to-set-up-default-service-hours.md)|  
-|Use a standard template for work hour tracking.|[How to: Set Up Work-Hour Templates](../FullExperience/how-to-set-up-work-hour-templates.md)|  
-|Track order and repair status in order to forecast service priorities.|[Service Order Status and Repair Status](../FullExperience/service-order-status-and-repair-status.md)|  
+|Set up your organization's typical service work hours.|[How to: Set Up Default Service Hours](../how-to-set-up-default-service-hours.md)|  
+|Use a standard template for work hour tracking.|[How to: Set Up Work-Hour Templates](../how-to-set-up-work-hour-templates.md)|  
+|Track order and repair status in order to forecast service priorities.|[Service Order Status and Repair Status](../service-order-status-and-repair-status.md)|  
   
 ## See Also  
- [How to: Change Response Times for Service Item Lines](../FullExperience/how-to-change-response-times-for-service-item-lines.md)   
- [Jobs](../FullExperience/jobs.md)   
- [How to: Send Email Messages Manually](../FullExperience/how-to-send-email-messages-manually.md)
+ [How to: Change Response Times for Service Item Lines](../how-to-change-response-times-for-service-item-lines.md)   
+ [Jobs](../jobs.md)   
+ [How to: Send Email Messages Manually](../how-to-send-email-messages-manually.md)

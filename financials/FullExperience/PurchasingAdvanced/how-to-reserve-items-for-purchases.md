@@ -24,7 +24,7 @@ You can reserve items for purchase orders. Before you can do this, you must have
   
 2.  From a purchase order, select the line you want to reserve the items from.  
   
-3.  On the **Lines** FastTab, choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Functions**, and then choose **Reserve**.  
+3.  On the **Lines** FastTab, choose **Actions**![Action Menu icon](../media/actionmenuicon.png "actionMenuIcon"), choose **Functions**, and then choose **Reserve**.  
   
 4.  In the **Reservation** window, on the **Actions** tab, in the **Functions** group, choose from the following options.  
   
@@ -36,5 +36,5 @@ You can reserve items for purchase orders. Before you can do this, you must have
   
 ## See Also  
  Purchase Order   
- [How to: Change Reservations](../FullExperience/how-to-change-reservations.md)   
- [How to: Cancel Reservations](../FullExperience/how-to-cancel-reservations.md)
+ [How to: Change Reservations](../how-to-change-reservations.md)   
+ [How to: Cancel Reservations](../how-to-cancel-reservations.md)

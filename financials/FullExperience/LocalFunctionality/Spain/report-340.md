@@ -99,7 +99,7 @@
 -   If the field has no value, it will be empty for alphanumeric fields and populated with zeros for numeric fields.  
   
 ## See Also  
- [How to: Create Report 340](../FullExperience/how-to-create-report-340.md)   
+ [How to: Create Report 340](../how-to-create-report-340.md)   
  Make 340 Declaration   
- [Payments in Cash](../FullExperience/payments-in-cash.md)   
- [Spain Local Functionality](../FullExperience/spain-local-functionality.md)
+ [Payments in Cash](../payments-in-cash.md)   
+ [Spain Local Functionality](../spain-local-functionality.md)

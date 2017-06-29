@@ -60,6 +60,6 @@ You use the setup questionnaire to structure and document a detailed discussion 
 4.  Choose the **OK** button to close the questionnaire.  
   
 ## See Also  
- [How to: Create a New Company](../FullExperience/how-to-create-a-new-company.md)   
- [How to: Validate the Configuration Questionnaire](../FullExperience/how-to-validate-the-configuration-questionnaire.md)   
- [How to: Create Configuration Questionnaires](../FullExperience/how-to-create-configuration-questionnaires.md)
+ [How to: Create a New Company](../how-to-create-a-new-company.md)   
+ [How to: Validate the Configuration Questionnaire](../how-to-validate-the-configuration-questionnaire.md)   
+ [How to: Create Configuration Questionnaires](../how-to-create-configuration-questionnaires.md)

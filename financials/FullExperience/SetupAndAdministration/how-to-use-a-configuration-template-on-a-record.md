@@ -31,4 +31,4 @@ You can apply a data template to any record that is in ADD INCLUDE<!--[!INCLUDE[
  The default values from the chosen customer template are copied to the customer card.  
   
 ## See Also  
- [Migrate Customer Data](../FullExperience/migrate-customer-data.md)
+ [Migrate Customer Data](../migrate-customer-data.md)

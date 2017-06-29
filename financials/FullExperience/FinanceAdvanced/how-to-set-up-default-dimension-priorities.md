@@ -32,6 +32,6 @@ Different account types, such as a customer account and an item account, can hav
 >  If you set up two tables with the same priority for the same source code, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> will always select the table with the lowest table ID.  
   
 ## See Also  
- [How to: Set Up Default Dimensions for One Account](../FullExperience/how-to-set-up-default-dimensions-for-one-account.md)   
+ [How to: Set Up Default Dimensions for One Account](../how-to-set-up-default-dimensions-for-one-account.md)   
  Default Dimension   
  Dimension

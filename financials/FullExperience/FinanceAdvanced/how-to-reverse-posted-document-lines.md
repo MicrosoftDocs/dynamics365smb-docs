@@ -62,6 +62,6 @@ The **Get Posted Document Lines to Reverse** function is useful when you need to
 ## See Also  
  Sales Return Order   
  Purchase Return Order   
- [How to: Assign Exact Cost Reversing in Sales](../FullExperience/how-to-assign-exact-cost-reversing-in-sales.md)   
- [How to: Assign Exact Cost Reversing in Purchases](../FullExperience/how-to-assign-exact-cost-reversing-in-purchases.md)   
- [How to: Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](../FullExperience/how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
+ [How to: Assign Exact Cost Reversing in Sales](../how-to-assign-exact-cost-reversing-in-sales.md)   
+ [How to: Assign Exact Cost Reversing in Purchases](../how-to-assign-exact-cost-reversing-in-purchases.md)   
+ [How to: Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](../how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)

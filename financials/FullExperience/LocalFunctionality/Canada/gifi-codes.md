@@ -25,8 +25,8 @@ Fiscal information can include general ledger accounts, reports, income statemen
  You can export balance information by GIFI code and save the exported file in a Microsoft Office Excel workbook, which is useful for transferring information to your tax preparation software.  
   
 ## See Also  
- [How to: Set Up GIFI Codes](../FullExperience/how-to-set-up-gifi-codes.md)   
- [How to: Associate GIFI Codes with Chart of Accounts](../FullExperience/how-to-associate-gifi-codes-with-chart-of-accounts.md)   
- [How to: View Account Balances by Using the GIFI Code Report](../FullExperience/how-to-view-account-balances-by-using-the-gifi-code-report.md)   
- [How to: Export Balance Information by Using GIFI Codes](../FullExperience/how-to-export-balance-information-by-using-gifi-codes.md)   
- [Canada Local Functionality](../FullExperience/canada-local-functionality.md)
+ [How to: Set Up GIFI Codes](../how-to-set-up-gifi-codes.md)   
+ [How to: Associate GIFI Codes with Chart of Accounts](../how-to-associate-gifi-codes-with-chart-of-accounts.md)   
+ [How to: View Account Balances by Using the GIFI Code Report](../how-to-view-account-balances-by-using-the-gifi-code-report.md)   
+ [How to: Export Balance Information by Using GIFI Codes](../how-to-export-balance-information-by-using-gifi-codes.md)   
+ [Canada Local Functionality](../canada-local-functionality.md)

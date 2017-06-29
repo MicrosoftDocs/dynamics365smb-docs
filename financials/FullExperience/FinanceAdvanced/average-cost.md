@@ -28,8 +28,8 @@ In cost accounting, you can transfer general ledger entries to a cost type by us
 >  If you have selected the **Auto Transfer from G\/L** check box in the **Cost Accounting Setup** window, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> updates the cost accounting after every posting in the general ledger. Combined entries are not possible.  
   
 ## See Also  
- [How to: Transfer General Ledger Entries to Cost Entries](../FullExperience/how-to-transfer-general-ledger-entries-to-cost-entries.md)   
- [Criteria for Transferring General Ledger Entries to Cost Entries](../FullExperience/criteria-for-transferring-general-ledger-entries-to-cost-entries.md)   
- [Results of the Transfer](../FullExperience/results-of-the-transfer.md)   
- [Transfer and Post Cost Entries](../FullExperience/transfer-and-post-cost-entries.md)   
+ [How to: Transfer General Ledger Entries to Cost Entries](../how-to-transfer-general-ledger-entries-to-cost-entries.md)   
+ [Criteria for Transferring General Ledger Entries to Cost Entries](../criteria-for-transferring-general-ledger-entries-to-cost-entries.md)   
+ [Results of the Transfer](../results-of-the-transfer.md)   
+ [Transfer and Post Cost Entries](../transfer-and-post-cost-entries.md)   
  Cost Accounting Setup

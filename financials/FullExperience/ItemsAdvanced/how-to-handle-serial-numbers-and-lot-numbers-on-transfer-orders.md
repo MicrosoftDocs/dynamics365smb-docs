@@ -37,6 +37,6 @@ Procedures for handling serial and lot numbers that are being transferred betwee
  During the transfer, the **Item Tracking Lines** window remains locked for writing.  
   
 ## See Also  
- [How to: Assign Serial Numbers and Lot Numbers During Inbound Transactions](../FullExperience/how-to-assign-serial-numbers-and-lot-numbers-during-inbound-transactions.md)   
- [How to: Assign Serial Numbers and Lot Numbers During Outbound Transactions](../FullExperience/how-to-assign-serial-numbers-and-lot-numbers-during-outbound-transactions.md)   
- [How to: Select from Existing Serial Numbers and Lot Numbers](../FullExperience/how-to-select-from-existing-serial-numbers-and-lot-numbers.md)
+ [How to: Assign Serial Numbers and Lot Numbers During Inbound Transactions](../how-to-assign-serial-numbers-and-lot-numbers-during-inbound-transactions.md)   
+ [How to: Assign Serial Numbers and Lot Numbers During Outbound Transactions](../how-to-assign-serial-numbers-and-lot-numbers-during-outbound-transactions.md)   
+ [How to: Select from Existing Serial Numbers and Lot Numbers](../how-to-select-from-existing-serial-numbers-and-lot-numbers.md)

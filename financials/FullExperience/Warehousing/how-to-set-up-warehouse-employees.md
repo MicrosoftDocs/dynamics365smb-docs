@@ -37,6 +37,6 @@ Each user who performs warehouse activities must be set up as a warehouse employ
 8.  Repeat these steps to assign other employees to locations or assign non-default locations to existing warehouse employees.  
   
 ## See Also  
- [Configure Warehouse Processes](../FullExperience/configure-warehouse-processes.md)   
- [How to: Set Up Warehouse Management](../FullExperience/how-to-set-up-warehouse-management.md)   
- [How to: Convert Existing Locations to Warehouse Locations](../FullExperience/how-to-convert-existing-locations-to-warehouse-locations.md)
+ [Configure Warehouse Processes](../configure-warehouse-processes.md)   
+ [How to: Set Up Warehouse Management](../how-to-set-up-warehouse-management.md)   
+ [How to: Convert Existing Locations to Warehouse Locations](../how-to-convert-existing-locations-to-warehouse-locations.md)

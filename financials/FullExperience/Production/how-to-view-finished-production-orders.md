@@ -33,7 +33,7 @@ All finished production orders are archived when their status has been changed f
     |**Dimensions**|You can view the dimension used for the production order line.|  
     |**Statistics**|The **Finished Prod. Order Stat.** window opens.|  
   
-4.  On the **Lines** FastTab, choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Line**, and then choose between the following options.  
+4.  On the **Lines** FastTab, choose **Actions**![Action Menu icon](../media/actionmenuicon.png "actionMenuIcon"), choose **Line**, and then choose between the following options.  
   
     |Line|Description|  
     |----------|-----------------|  
@@ -41,6 +41,6 @@ All finished production orders are archived when their status has been changed f
     |**Components**|The components used in the production order BOM are displayed.|  
   
 ## See Also  
- [How to: Finish Production Orders](../FullExperience/how-to-finish-production-orders.md)   
- [How to: Release Production Orders Automatically](../FullExperience/how-to-release-production-orders-automatically.md)   
- [How to: Release Production Orders by Status Change](../FullExperience/how-to-release-production-orders-by-status-change.md)
+ [How to: Finish Production Orders](../how-to-finish-production-orders.md)   
+ [How to: Release Production Orders Automatically](../how-to-release-production-orders-automatically.md)   
+ [How to: Release Production Orders by Status Change](../how-to-release-production-orders-by-status-change.md)

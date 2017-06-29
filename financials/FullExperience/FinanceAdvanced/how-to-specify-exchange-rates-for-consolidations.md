@@ -20,7 +20,7 @@ There are three exchange rates that ADD INCLUDE<!--[!INCLUDE[navnow](../../inclu
   
  If the **Currency Exchange Rate Table** field on the business unit card contains Local, you can change the exchange rate from the business unit card. The exchange rates are copied from the **Currency Exchange Rate** table, but you can change them before consolidating. Before you can enter the exchange rates, you must enter information about the relevant business unit.  
   
- For more information, see [How to: Enter Basic Information for Consolidated Companies](../FullExperience/how-to-enter-basic-information-for-consolidated-companies.md).  
+ For more information, see [How to: Enter Basic Information for Consolidated Companies](../how-to-enter-basic-information-for-consolidated-companies.md).  
   
 ### To specify exchange rates for consolidations  
   
@@ -37,5 +37,5 @@ There are three exchange rates that ADD INCLUDE<!--[!INCLUDE[navnow](../../inclu
 6.  Modify the contents of the **Relational Exch. Rate** field as appropriate.  
   
 ## See Also  
- [How to: Process Consolidations](../FullExperience/how-to-process-consolidations.md)   
- [How to: Adjust Currency Exchange Rates](../FullExperience/how-to-adjust-currency-exchange-rates.md)
+ [How to: Process Consolidations](../how-to-process-consolidations.md)   
+ [How to: Adjust Currency Exchange Rates](../how-to-adjust-currency-exchange-rates.md)

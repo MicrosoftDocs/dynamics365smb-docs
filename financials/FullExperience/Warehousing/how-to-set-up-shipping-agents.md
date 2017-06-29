@@ -32,5 +32,5 @@ You can set up a code for each of your shipping agents and enter information abo
 >  If you delete the shipping agent on the order line, the shipping agent service code is also deleted. The contents of fields that were based in part on the shipping agent service are recalculated.  
   
 ## See Also  
- [How to: Set Up Shipping Agent Services](../FullExperience/how-to-set-up-shipping-agent-services.md)   
- [How to: Track Packages](../FullExperience/How%20to:%20Track%20Packages.md)
+ [How to: Set Up Shipping Agent Services](../how-to-set-up-shipping-agent-services.md)   
+ [How to: Track Packages](../How%20to:%20Track%20Packages.md)

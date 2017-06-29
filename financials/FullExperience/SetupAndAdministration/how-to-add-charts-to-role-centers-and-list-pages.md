@@ -26,7 +26,7 @@ When you have complex information, you may want to view a visual representation 
   
 ### To add a generic chart to your Role Center  
   
-1.  On your Role Center, on the **Application** menu ![Microsoft Dynamics NAV Application menu](../FullExperience/media/rtc_applicationmenu.png "RTC\_ApplicationMenu"), select **Customize**, and then **Customize this Page**.  
+1.  On your Role Center, on the **Application** menu ![Microsoft Dynamics NAV Application menu](../media/rtc_applicationmenu.png "RTC\_ApplicationMenu"), select **Customize**, and then **Customize this Page**.  
   
 2.  In the **Customize the Role Center** window, in the **Available parts** field, select **Chart Part**, and then choose **Add**.  
   
@@ -46,11 +46,11 @@ When you have complex information, you may want to view a visual representation 
 >  By default, the chart pane is hidden because it can slow down performance. You should only show the chart when you must have the information.  
   
 ## See Also  
- [How to: Create Generic Charts](../FullExperience/How%20to:%20Create%20Generic%20Charts.md)   
+ [How to: Create Generic Charts](../How%20to:%20Create%20Generic%20Charts.md)   
  PERSONALIZATION Personalize the User Interface   
- [How to: Customize FastTabs](../FullExperience/how-to-customize-fasttabs.md)   
- [How to: Customize FactBoxes](../FullExperience/how-to-customize-factboxes.md)   
- [How to: Customize Ribbons](../FullExperience/how-to-customize-ribbons.md)   
- [Customize the User Interface](../FullExperience/customize-the-user-interface.md)   
- [Working with Product Name](../FullExperience/working-with-$-p_1-product-name-$-.md)   
- [Learn About the RoleTailored Design](../FullExperience/learn-about-the-roletailored-design.md)
+ [How to: Customize FastTabs](../how-to-customize-fasttabs.md)   
+ [How to: Customize FactBoxes](../how-to-customize-factboxes.md)   
+ [How to: Customize Ribbons](../how-to-customize-ribbons.md)   
+ [Customize the User Interface](../customize-the-user-interface.md)   
+ [Working with Product Name](../working-with-$-p_1-product-name-$-.md)   
+ [Learn About the RoleTailored Design](../learn-about-the-roletailored-design.md)

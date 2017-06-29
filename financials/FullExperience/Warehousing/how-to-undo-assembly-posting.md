@@ -37,7 +37,7 @@ Sometimes you may need to undo a posted assembly order, for example when the ord
 > [!TIP]  
 >  To solve conflicts due to line changes, you can manually revert the changes on the lines in question before undoing the related posted assembly order. Alternatively, you can post the assembly order fully and then select to recreate it when undoing the posting.  
   
- The following procedure describes how to undo posted assembly orders where the items were assembled to stock. If you want to undo posted assembly orders where the items were assembled to a sales order, then you must use the **Undo Shipment** function on the posted shipment that relates to the posted assembly order. For more information, see [How to: Undo Quantity Postings on Posted Shipments](../FullExperience/how-to-undo-quantity-postings-on-posted-shipments.md). The undoing of the posted assembly order then happens automatically in the same way as described in this topic.  
+ The following procedure describes how to undo posted assembly orders where the items were assembled to stock. If you want to undo posted assembly orders where the items were assembled to a sales order, then you must use the **Undo Shipment** function on the posted shipment that relates to the posted assembly order. For more information, see [How to: Undo Quantity Postings on Posted Shipments](../how-to-undo-quantity-postings-on-posted-shipments.md). The undoing of the posted assembly order then happens automatically in the same way as described in this topic.  
   
 ### To undo posting of an assembly order  
   
@@ -62,11 +62,11 @@ Sometimes you may need to undo a posted assembly order, for example when the ord
  Reversed   
  Item Rcpt. Entry No.   
  Item Shpt. Entry No.   
- [How to: Assign Exact Cost Reversing in Sales](../FullExperience/how-to-assign-exact-cost-reversing-in-sales.md)   
+ [How to: Assign Exact Cost Reversing in Sales](../how-to-assign-exact-cost-reversing-in-sales.md)   
  Assembled Quantity   
  Consumed Quantity   
  Remaining Quantity   
- [How to: Undo Quantity Postings on Posted Shipments](../FullExperience/how-to-undo-quantity-postings-on-posted-shipments.md)   
- [Assemble to Order or Assemble to Stock](../FullExperience/assemble-to-order-or-assemble-to-stock.md)   
- [How to: Assemble Items](../FullExperience/how-to-assemble-items.md)   
- [How to: Sell Items Assembled to Order](../FullExperience/how-to-sell-items-assembled-to-order.md)
+ [How to: Undo Quantity Postings on Posted Shipments](../how-to-undo-quantity-postings-on-posted-shipments.md)   
+ [Assemble to Order or Assemble to Stock](../assemble-to-order-or-assemble-to-stock.md)   
+ [How to: Assemble Items](../how-to-assemble-items.md)   
+ [How to: Sell Items Assembled to Order](../how-to-sell-items-assembled-to-order.md)

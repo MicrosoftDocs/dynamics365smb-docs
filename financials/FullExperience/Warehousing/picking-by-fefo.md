@@ -45,13 +45,13 @@ First-Expired-First-Out \(FEFO\) is a sorting method that ensures that the oldes
 > -   If the **Strict Expiration Posting** field is selected, then only items that are not expired will be included in the pick. This applies even if you are not using Pick according to FEFO.  
   
 ## See Also  
- [Pick Items](../FullExperience/pick-items.md)   
+ [Pick Items](../pick-items.md)   
  SN Specific Tracking   
  Require Pick   
  Inventory Movement   
  Movement Worksheet   
- [How to: Pick Items for Warehouse Shipment](../FullExperience/how-to-pick-items-for-warehouse-shipment.md)   
- [How to: Pick Items with Inventory Picks](../FullExperience/how-to-pick-items-with-inventory-picks.md)   
+ [How to: Pick Items for Warehouse Shipment](../how-to-pick-items-for-warehouse-shipment.md)   
+ [How to: Pick Items with Inventory Picks](../how-to-pick-items-with-inventory-picks.md)   
  Strict Expiration Posting   
  Pick According to FEFO   
  Bin Mandatory

@@ -27,5 +27,5 @@ The work center groups offer you the possibility for classifying work groups. Se
 3.  Close the window.  
   
 ## See Also  
- [Structure of the Capacity](../FullExperience/structure-of-the-capacity.md)   
+ [Structure of the Capacity](../structure-of-the-capacity.md)   
  Work Center Card

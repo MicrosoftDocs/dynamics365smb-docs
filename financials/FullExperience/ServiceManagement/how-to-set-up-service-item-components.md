@@ -37,6 +37,6 @@ A service item can consist of several components, which can be replaced with spa
  Repeat these steps for each component you want to set up for the service item.  
   
 ## See Also  
- [How to: Set Up Service Item Components from BOMs](../FullExperience/how-to-set-up-service-item-components-from-boms.md)   
- [How to: Create Service Items](../FullExperience/how-to-create-service-items.md)   
- [How to: Replace Components](../FullExperience/how-to-replace-components.md)
+ [How to: Set Up Service Item Components from BOMs](../how-to-set-up-service-item-components-from-boms.md)   
+ [How to: Create Service Items](../how-to-create-service-items.md)   
+ [How to: Replace Components](../how-to-replace-components.md)

@@ -20,9 +20,9 @@ A routing holds master data that captures the process requirements of a given pr
   
  **Prerequisites**  
   
--   Item cards are created. For more information, see [How to: Register New Products](../FullExperience/how-to-register-new-products.md).  
+-   Item cards are created. For more information, see [How to: Register New Products](../how-to-register-new-products.md).  
   
--   Production resources are set up. For more information, see [How to: Set Up Work Centers](../FullExperience/how-to-set-up-work-centers.md).  
+-   Production resources are set up. For more information, see [How to: Set Up Work Centers](../how-to-set-up-work-centers.md).  
   
 -   Gather all data about produced items, production resources, operation specifications, and process times.  
   
@@ -52,7 +52,7 @@ A routing holds master data that captures the process requirements of a given pr
 4.  In the **Routing Link Code** field, enter a code to connect the component to a specific operation. ADD INCLUDE<!--[!INCLUDE[bp_choose_columns](../../includes/bp_choose_columns_md.md)]-->  
   
     > [!NOTE]  
-    >  Routing links between operations and components ensure that material consumption is not posted until it has actually been consumed. In addition, routing links provide a process view in the **Production Journal** window where components are listed under the linked operation. For more information, see [How to: Create Routing Links](../FullExperience/how-to-create-routing-links.md).  
+    >  Routing links between operations and components ensure that material consumption is not posted until it has actually been consumed. In addition, routing links provide a process view in the **Production Journal** window where components are listed under the linked operation. For more information, see [How to: Create Routing Links](../how-to-create-routing-links.md).  
   
 5.  In the **Run Time** and **Setup Time** fields, enter the process times needed to perform the operation.  
   
@@ -67,10 +67,10 @@ A routing holds master data that captures the process requirements of a given pr
   
 9. Certify the routing.  
   
-10. You can now attach the new routing to the card of the production item in question. For more information, see [How to: Register New Products](../FullExperience/how-to-register-new-products.md).  
+10. You can now attach the new routing to the card of the production item in question. For more information, see [How to: Register New Products](../how-to-register-new-products.md).  
   
 > [!NOTE]  
 >  Remember also to recalculate the item’s standard cost from the **Item** card: On the **Navigate** tab, in the **Item** group, choose **Manufacturing**, and then set **Calc. Standard Cost** to **All Levels**.  
   
 ## See Also  
- [Purpose of the Routings](../FullExperience/purpose-of-the-routings.md)
+ [Purpose of the Routings](../purpose-of-the-routings.md)

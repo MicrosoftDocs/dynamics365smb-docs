@@ -37,4 +37,4 @@ You can export financial transactions for a particular period to an XML file for
     >  If you have set the start date and end date to include the entire fiscal year, the process can take several minutes.  
   
 ## See Also  
- [How to: Print General Ledger Reports](../FullExperience/how-to-print-general-ledger-reports.md)
+ [How to: Print General Ledger Reports](../how-to-print-general-ledger-reports.md)

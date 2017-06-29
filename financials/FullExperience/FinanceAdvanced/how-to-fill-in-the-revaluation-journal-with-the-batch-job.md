@@ -18,7 +18,7 @@
 # How to: Fill In the Revaluation Journal with the Batch Job
 If you want to appreciate or depreciate an item or a specific item ledger entry, you must use the revaluation journal.  
   
- First, you must fill in the revaluation journal with information about the current, calculated value of the specified item or item ledger entry. You can do this [manually](../FullExperience/how-to-fill-in-revaluation-journals-manually.md) or use the **Calculate Inventory Value** batch job.  
+ First, you must fill in the revaluation journal with information about the current, calculated value of the specified item or item ledger entry. You can do this [manually](../how-to-fill-in-revaluation-journals-manually.md) or use the **Calculate Inventory Value** batch job.  
   
 ### To fill in the revaluation journal with the batch job  
   
@@ -39,6 +39,6 @@ If you want to appreciate or depreciate an item or a specific item ledger entry,
  The value entries are created to reflect the revaluing. You can see these from the item card.  
   
 ## See Also  
- [Inventory Revaluation](../FullExperience/inventory-revaluation.md)   
- [How to: Enter New Values When Revaluing Items](../FullExperience/how-to-enter-new-values-when-revaluing-items.md)   
- [How to: Fill In Revaluation Journals Manually](../FullExperience/how-to-fill-in-revaluation-journals-manually.md)
+ [Inventory Revaluation](../inventory-revaluation.md)   
+ [How to: Enter New Values When Revaluing Items](../how-to-enter-new-values-when-revaluing-items.md)   
+ [How to: Fill In Revaluation Journals Manually](../how-to-fill-in-revaluation-journals-manually.md)

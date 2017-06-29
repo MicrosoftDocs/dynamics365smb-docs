@@ -29,7 +29,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can se
 2.  On the **Home** tab, choose **New** to create a new responsibility center. Fill in the fields. ADD INCLUDE<!--[!INCLUDE[bp_fieldhelp]()]-->  
   
 > [!NOTE]  
->  If you are using responsibility centers to administer your company, it can be useful to have a default responsibility center for your company. You assign it in the ![Shortcut icon](../FullExperience/media/shortcutcoldicon.gif "shortcutColdIcon")**Company Information** window, on the **Shipping** FastTab, in the **Responsibility Center** field. The responsibility center assigned to the company will be used on all purchase and sales documents, if the user, customer, or vendor have no default responsibility center.  
+>  If you are using responsibility centers to administer your company, it can be useful to have a default responsibility center for your company. You assign it in the ![Shortcut icon](../media/shortcutcoldicon.gif "shortcutColdIcon")**Company Information** window, on the **Shipping** FastTab, in the **Responsibility Center** field. The responsibility center assigned to the company will be used on all purchase and sales documents, if the user, customer, or vendor have no default responsibility center.  
   
 > [!NOTE]  
 >  When you enter a responsibility center code on a document, it affects the address, dimensions, and prices on the document.

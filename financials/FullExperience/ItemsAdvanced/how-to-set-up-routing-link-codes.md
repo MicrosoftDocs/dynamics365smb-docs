@@ -27,6 +27,6 @@ The BOM position is not assigned to a special position in the routing but to a r
 3.  In the **Description** field, enter a text that describes the routing link code.  
   
 ## See Also  
- [How to: Create Routing Links](../FullExperience/how-to-create-routing-links.md)   
- [How to: Create Routings](../FullExperience/how-to-create-routings.md)   
- [How to: Create Production BOMs](../FullExperience/how-to-create-production-boms.md)
+ [How to: Create Routing Links](../how-to-create-routing-links.md)   
+ [How to: Create Routings](../how-to-create-routings.md)   
+ [How to: Create Production BOMs](../how-to-create-production-boms.md)

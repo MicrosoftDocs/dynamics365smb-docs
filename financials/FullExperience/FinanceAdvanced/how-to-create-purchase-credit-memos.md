@@ -57,7 +57,7 @@ You usually receive purchase credit memos when you return items to a vendor, but
 >  Exact cost reversing of item tracking lines is not available from the Purchase Credit Memo document. If you want to use exact cost reversing with item tracking lines, use the Purchase Order or Purchase Return Order document instead.  
   
 ## See Also  
- [Correction of Incorrect Posted Documents](../FullExperience/correction-of-incorrect-posted-documents.md)   
- [How to: Copy Information from Purchase Documents to Purchase Credit Memos](../FullExperience/how-to-copy-information-from-purchase-documents-to-purchase-credit-memos.md)   
- [How to: View Purchase Credit Memo Statistics](../FullExperience/how-to-view-purchase-credit-memo-statistics.md)   
- [How to: Assign Item Charges to Purchase Documents](../FullExperience/How%20to:%20Assign%20Item%20Charges%20to%20Purchase%20Documents.md)
+ [Correction of Incorrect Posted Documents](../correction-of-incorrect-posted-documents.md)   
+ [How to: Copy Information from Purchase Documents to Purchase Credit Memos](../how-to-copy-information-from-purchase-documents-to-purchase-credit-memos.md)   
+ [How to: View Purchase Credit Memo Statistics](../how-to-view-purchase-credit-memo-statistics.md)   
+ [How to: Assign Item Charges to Purchase Documents](../How%20to:%20Assign%20Item%20Charges%20to%20Purchase%20Documents.md)

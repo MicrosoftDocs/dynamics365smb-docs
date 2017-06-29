@@ -41,4 +41,4 @@ Consolidation means combining the general ledger entries of two or more separate
  You set up the consolidated company in a database in the same way that you set up other companies. The chart of accounts is independent of the chart of accounts in the other business units, and the chart of accounts in the individual business units may differ from one another. The consolidation features in the program lets you set up a list of companies to consolidate, verify the accounting data before consolidating, import from files and databases, and generate consolidation reports.  
   
 ## See Also  
- [How to: Process Consolidations](../FullExperience/how-to-process-consolidations.md)
+ [How to: Process Consolidations](../how-to-process-consolidations.md)

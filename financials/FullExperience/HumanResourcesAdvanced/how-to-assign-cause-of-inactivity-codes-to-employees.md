@@ -31,5 +31,5 @@ You can use cause of inactivity codes to define various reasons for employee ina
  Repeat the procedure for all employees that are inactive.  
   
 ## See Also  
- [How to: Assign Grounds for Termination Codes to Employees](../FullExperience/how-to-assign-grounds-for-termination-codes-to-employees.md)   
- [How to: Register Employee Absences](../FullExperience/how-to-register-employee-absences.md)
+ [How to: Assign Grounds for Termination Codes to Employees](../how-to-assign-grounds-for-termination-codes-to-employees.md)   
+ [How to: Register Employee Absences](../how-to-register-employee-absences.md)

@@ -45,33 +45,33 @@ Job queues are an effective tool to schedule the running of business processes i
   
      ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/use-job-queues-to-schedule-tasks.md).  
   
-5.  In the **Search** box, enter **Job Queues**, and then choose the related link. For more information, see [How to: Set Up Job Queues](../FullExperience/how-to-set-up-job-queues.md).  
+5.  In the **Search** box, enter **Job Queues**, and then choose the related link. For more information, see [How to: Set Up Job Queues](../how-to-set-up-job-queues.md).  
   
 6.  In the **Code** field, select the job queue code **SPPOST**, and on the **Home** tab, choose **Edit**.  
   
-7.  Expand the **NAS Settings** FastTab, and clear the **Start Automatically from NAS** check box. For more information on starting job queues, see [How to: Set Up Job Queues](../FullExperience/how-to-set-up-job-queues.md).  
+7.  Expand the **NAS Settings** FastTab, and clear the **Start Automatically from NAS** check box. For more information on starting job queues, see [How to: Set Up Job Queues](../how-to-set-up-job-queues.md).  
   
 8.  On the **Home** tab, in the **Process** group, choose **Start Job Queue**.  
   
-9. To verify that the job queue is working as expected, post a sales order. For more information, see [How to: Post Sales Orders](../FullExperience/how-to-post-sales-orders.md).  
+9. To verify that the job queue is working as expected, post a sales order. For more information, see [How to: Post Sales Orders](../how-to-post-sales-orders.md).  
   
     > [!TIP]  
     >  If you do not want to post an individual sales order that is scheduled for posting, you can remove it from the job queue.  
     >   
-    >  1.  For the sales order page or the sales order list, customize the ribbon to add the following action: **Remove From Job Queue**. For more information, see [How to: Customize Ribbons](../FullExperience/how-to-customize-ribbons.md).  
+    >  1.  For the sales order page or the sales order list, customize the ribbon to add the following action: **Remove From Job Queue**. For more information, see [How to: Customize Ribbons](../how-to-customize-ribbons.md).  
     > 2.  Select the order that you want to remove from the queue, and in the group where you have added the action, choose **Remove From Job Queue**.  
   
 10. In the **Search** box, enter **Job Queue Log Entries**, and then choose the related link.  
   
      In the **Job Queue Log Entries** window, you can see whether the sales order posting is in process or has succeeded in the job queue.  
   
- An alternative way to see your log entries is to use the **My Job Queue** part. For more information, see [How to: Use My Job Queue Part](../FullExperience/how-to-use-my-job-queue-part.md).  
+ An alternative way to see your log entries is to use the **My Job Queue** part. For more information, see [How to: Use My Job Queue Part](../how-to-use-my-job-queue-part.md).  
   
  The next procedure explains the steps you need to take to post and print in the background.  
   
 ### To post and print in the background  
   
-1.  Set up a printer to work in the background. For more information, see [How to: Specify Printer Selection for Reports](../FullExperience/Printing%20Reports%20from%20a%20Background%20Session.md).  
+1.  Set up a printer to work in the background. For more information, see [How to: Specify Printer Selection for Reports](../Printing%20Reports%20from%20a%20Background%20Session.md).  
   
 2.  In the **Search** box, enter **Sales & Receivables Setup**, and then choose the related link.  
   
@@ -85,7 +85,7 @@ Job queues are an effective tool to schedule the running of business processes i
 >  When you send a document to a printer, and the printer displays a dialog box, such as a request for credentials or a warning about low printer ink, your document is posted but not printed. The corresponding job queue entry eventually times out and the **Status** field is set to **Error**. Accordingly, we recommend that you do not use a printer setup that requires interaction with the display of printer dialog boxes in conjunction with background posting.  
   
 ## See Also  
- [How to: Set Up Job Queues](../FullExperience/how-to-set-up-job-queues.md)   
- [How to: Use My Job Queue Part](../FullExperience/how-to-use-my-job-queue-part.md)   
+ [How to: Set Up Job Queues](../how-to-set-up-job-queues.md)   
+ [How to: Use My Job Queue Part](../how-to-use-my-job-queue-part.md)   
  My Job Queue   
- [Printing Reports from a Background Session](../FullExperience/Printing%20Reports%20from%20a%20Background%20Session.md)
+ [Printing Reports from a Background Session](../Printing%20Reports%20from%20a%20Background%20Session.md)

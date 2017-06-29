@@ -22,7 +22,7 @@ In EU countries\/regions, every sales and purchase transaction is subject to VAT
  You can calculate and display VAT amounts in sales and purchase documents differently depending on the type of customer or vendor that you are dealing with. You can also override the VAT amount calculated by the program to match the VAT amount calculated by your vendor on a given transaction.  
   
 ### VAT correction  
- It is possible to make corrections to posted VAT entries. This allows you to change the total sales or purchase VAT amounts without changing the VAT base. The feature may be used, for example, if you receive an invoice from a vendor who has calculated VAT incorrectly. For more information on making corrections to posted VAT entries, see [How to: Correct VAT](../FullExperience/how-to-correct-vat.md).  
+ It is possible to make corrections to posted VAT entries. This allows you to change the total sales or purchase VAT amounts without changing the VAT base. The feature may be used, for example, if you receive an invoice from a vendor who has calculated VAT incorrectly. For more information on making corrections to posted VAT entries, see [How to: Correct VAT](../how-to-correct-vat.md).  
   
 ### Unit Price and Line Amount Including\/Excluding VAT  
  When you select an item in the **No.** field in a sales document, the program also fills in the **Unit Price** field. The unit price is calculated and transferred from either the **Item** card or from the item prices allowed for the item and customer. The program only calculates the **Line Amount** when you enter a quantity for the line.  
@@ -49,10 +49,10 @@ In EU countries\/regions, every sales and purchase transaction is subject to VAT
 |Check mark|Check mark|The **Unit Price** on the Item Card is copied to **Unit Price Incl. VAT** field on the sales lines.|  
   
 ## See Also  
- [How to: Record VAT](../FullExperience/how-to-record-vat.md)   
- [Import VAT](../FullExperience/import-vat.md)   
- [VAT Reporting and Settlement](../FullExperience/vat-reporting-and-settlement.md)   
- [How to: Enter VAT-liable Amounts Without VAT in General Journals](../FullExperience/how-to-enter-vat-liable-amounts-without-vat-in-general-journals.md)   
- [How to: Set Up and Record Intrastat](../FullExperience/how-to-set-up-and-record-intrastat.md)   
- [How to: Create a VAT Combination Setup](../FullExperience/how-to-create-a-vat-combination-setup.md)   
- [How to: View VAT Entries](../FullExperience/how-to-view-vat-entries.md)
+ [How to: Record VAT](../how-to-record-vat.md)   
+ [Import VAT](../import-vat.md)   
+ [VAT Reporting and Settlement](../vat-reporting-and-settlement.md)   
+ [How to: Enter VAT-liable Amounts Without VAT in General Journals](../how-to-enter-vat-liable-amounts-without-vat-in-general-journals.md)   
+ [How to: Set Up and Record Intrastat](../how-to-set-up-and-record-intrastat.md)   
+ [How to: Create a VAT Combination Setup](../how-to-create-a-vat-combination-setup.md)   
+ [How to: View VAT Entries](../how-to-view-vat-entries.md)

@@ -29,7 +29,7 @@ Reclassifying item tracking for an item means changing a lot or serial number to
 4.  If you want to enter a new item tracking number, enter it in the **New Serial No.** or **New Lot No.** field. If you want, you can merge one or more lots to one new or existing lot.  
   
     > [!NOTE]  
-    >  Be aware that when you reclassify expiration dates, then the items with the earliest expiration dates for outbound transactions are suggested first. For more information, see [Picking by FEFO](../FullExperience/picking-by-fefo.md).  
+    >  Be aware that when you reclassify expiration dates, then the items with the earliest expiration dates for outbound transactions are suggested first. For more information, see [Picking by FEFO](../picking-by-fefo.md).  
   
 5.  If you would like to enter a new expiration date for the serial or lot number, enter it in the **New Expiration Date** field.  
   
@@ -49,6 +49,6 @@ Reclassifying item tracking for an item means changing a lot or serial number to
 8.  Post the journal to link the renewed item tracking numbers or expiration dates to the associated item ledger entry.  
   
 ## See Also  
- [How to: Assign Serial Numbers and Lot Numbers During Inbound Transactions](../FullExperience/how-to-assign-serial-numbers-and-lot-numbers-during-inbound-transactions.md)   
- [How to: Assign Serial Numbers and Lot Numbers During Outbound Transactions](../FullExperience/how-to-assign-serial-numbers-and-lot-numbers-during-outbound-transactions.md)   
- [How to: Record Serial Number and Lot Number Information](../FullExperience/how-to-record-serial-number-and-lot-number-information.md)
+ [How to: Assign Serial Numbers and Lot Numbers During Inbound Transactions](../how-to-assign-serial-numbers-and-lot-numbers-during-inbound-transactions.md)   
+ [How to: Assign Serial Numbers and Lot Numbers During Outbound Transactions](../how-to-assign-serial-numbers-and-lot-numbers-during-outbound-transactions.md)   
+ [How to: Record Serial Number and Lot Number Information](../how-to-record-serial-number-and-lot-number-information.md)

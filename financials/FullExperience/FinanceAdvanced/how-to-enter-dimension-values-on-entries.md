@@ -49,8 +49,8 @@ Dimension value codes are always company-defined.
   
 ## See Also  
  Edit Dimension Set Entries   
- [How to: Correct Dimension Value Codes on Item Ledger Entries for Purchase](../FullExperience/how-to-correct-dimension-value-codes-on-item-ledger-entries-for-purchase.md)   
- [How to: Correct Dimension Value Codes on Item Ledger Entries for Sales](../FullExperience/how-to-correct-dimension-value-codes-on-item-ledger-entries-for-sales.md)   
- [How to: Correct Dimension Value Codes on Ledger Entries](../FullExperience/how-to-correct-dimension-value-codes-on-ledger-entries.md)   
+ [How to: Correct Dimension Value Codes on Item Ledger Entries for Purchase](../how-to-correct-dimension-value-codes-on-item-ledger-entries-for-purchase.md)   
+ [How to: Correct Dimension Value Codes on Item Ledger Entries for Sales](../how-to-correct-dimension-value-codes-on-item-ledger-entries-for-sales.md)   
+ [How to: Correct Dimension Value Codes on Ledger Entries](../how-to-correct-dimension-value-codes-on-ledger-entries.md)   
  Default Dimension   
  Dimension

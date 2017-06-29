@@ -49,7 +49,7 @@ A sales credit memo is typically used when a customer returns an item, but it ca
  If the **Return Receipt on Credit Memo** field is selected in the Sales & Receivables setup, a posted return receipt will be created when the credit memo is posted.  
   
 ## See Also  
- [How to: View Additional Information About Sales Credit Memos](../FullExperience/how-to-view-additional-information-about-sales-credit-memos.md)   
- [How to: Correct Sales Invoices with Credit Memos](../FullExperience/how-to-correct-sales-invoices-with-credit-memos.md)   
- [How to: Create and Post Sales Allowances](../FullExperience/how-to-create-and-post-sales-allowances.md)   
- [How to: Combine Return Receipts](../FullExperience/how-to-combine-return-receipts.md)
+ [How to: View Additional Information About Sales Credit Memos](../how-to-view-additional-information-about-sales-credit-memos.md)   
+ [How to: Correct Sales Invoices with Credit Memos](../how-to-correct-sales-invoices-with-credit-memos.md)   
+ [How to: Create and Post Sales Allowances](../how-to-create-and-post-sales-allowances.md)   
+ [How to: Combine Return Receipts](../how-to-combine-return-receipts.md)

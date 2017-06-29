@@ -20,7 +20,7 @@ The following table describes a sequence of tasks to perform cash flow forecasts
   
 |To|See|  
 |--------|---------|  
-|See introduction to cash flow forecasts.|[Cash Flow Overview](../FullExperience/cash-flow-overview.md)|  
-|Set up cash flow forecasts.|[Set Up Cash Flow Forecasts](../FullExperience/set-up-cash-flow-forecasts.md)|  
-|Register cash flow forecasts.|[Work with Cash Flow Worksheets](../FullExperience/work-with-cash-flow-worksheets.md)|  
-|Analyze cash flow forecasts.|[Analyze and Print Cash Flow Forecasts](../FullExperience/analyze-and-print-cash-flow-forecasts.md)|
+|See introduction to cash flow forecasts.|[Cash Flow Overview](../cash-flow-overview.md)|  
+|Set up cash flow forecasts.|[Set Up Cash Flow Forecasts](../set-up-cash-flow-forecasts.md)|  
+|Register cash flow forecasts.|[Work with Cash Flow Worksheets](../work-with-cash-flow-worksheets.md)|  
+|Analyze cash flow forecasts.|[Analyze and Print Cash Flow Forecasts](../analyze-and-print-cash-flow-forecasts.md)|

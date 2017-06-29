@@ -26,21 +26,21 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> contains some 
   
  The VAT statement is normally defined when you initially set up the company in the program. It is recommended that you set up the statement with the format that is required by the tax authorities. After the statement has been defined, it can be previewed and printed.  
   
- For more information on VAT statements, see [How to: Define VAT Statements](../FullExperience/how-to-print-vat-statements.md).  
+ For more information on VAT statements, see [How to: Define VAT Statements](../how-to-print-vat-statements.md).  
   
 ## VAT Settlement  
  Periodically, you must remit the net VAT to the tax authorities. You can use a batch job as often as you want if you need to settle VAT frequently. After you have approved the VAT statement, you can run the **Calc. and Post VAT Settlement** batch job to close the open VAT entries and transfer purchase and sales VAT amounts to the VAT settlement account.  
   
- For more information on transferring VAT amounts, see [How to: Transfer VAT Amounts to the Settlement Account](../FullExperience/how-to-transfer-vat-amounts-to-the-settlement-account.md).  
+ For more information on transferring VAT amounts, see [How to: Transfer VAT Amounts to the Settlement Account](../how-to-transfer-vat-amounts-to-the-settlement-account.md).  
   
 > [!NOTE]  
 >  As soon as the VAT entries have been posted and their status is closed, they cannot be opened again. However, you can still create VAT reports from these closed entries.  
   
 ## See Also  
- [Recording VAT](../FullExperience/recording-vat.md)   
- [How to: Record VAT](../FullExperience/how-to-record-vat.md)   
- [Import VAT](../FullExperience/import-vat.md)   
- [How to: Enter VAT-liable Amounts Without VAT in General Journals](../FullExperience/how-to-enter-vat-liable-amounts-without-vat-in-general-journals.md)   
- [How to: Set Up and Record Intrastat](../FullExperience/how-to-set-up-and-record-intrastat.md)   
- [How to: Create a VAT Combination Setup](../FullExperience/how-to-create-a-vat-combination-setup.md)   
- [How to: View VAT Entries](../FullExperience/how-to-view-vat-entries.md)
+ [Recording VAT](../recording-vat.md)   
+ [How to: Record VAT](../how-to-record-vat.md)   
+ [Import VAT](../import-vat.md)   
+ [How to: Enter VAT-liable Amounts Without VAT in General Journals](../how-to-enter-vat-liable-amounts-without-vat-in-general-journals.md)   
+ [How to: Set Up and Record Intrastat](../how-to-set-up-and-record-intrastat.md)   
+ [How to: Create a VAT Combination Setup](../how-to-create-a-vat-combination-setup.md)   
+ [How to: View VAT Entries](../how-to-view-vat-entries.md)

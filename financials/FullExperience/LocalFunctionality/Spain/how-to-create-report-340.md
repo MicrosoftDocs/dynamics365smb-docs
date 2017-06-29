@@ -58,7 +58,7 @@ Report 340 includes all sales invoices and purchase invoices posted by a company
  If you print the posted document, for example, a posted sales invoice, it will include the following label: **Régimen especial del criterio de caja**.  
   
 ## See Also  
- [Report 340](../FullExperience/report-340.md)   
+ [Report 340](../report-340.md)   
  Make 340 Declaration   
- [Payments in Cash](../FullExperience/payments-in-cash.md)   
+ [Payments in Cash](../payments-in-cash.md)   
  [Spanish Tax Agency](http://www.aeat.es/wps/portal/Home?channel=1af861cd949a1010VgnVCM100000d7005a80____&ver=L&site=56d8237c0bc1ff00VgnVCM100000d7005a80____&idioma=es_ES&menu=0&img=0)

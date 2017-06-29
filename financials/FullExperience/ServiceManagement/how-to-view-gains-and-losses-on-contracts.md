@@ -41,8 +41,8 @@ A contract gain or loss entry is generated whenever a contract quote is converte
 5.  Choose the **OK** button to close the window.  
   
 ## See Also  
- [Contract Gain-Loss \(Customers\) Overview](../FullExperience/contract-gain-loss-customers-overview.md)   
- [Contract Gain-Loss \(Reason Codes\) Overview](../FullExperience/contract-gain-loss-reason-codes-overview.md)   
- [Contract Gain-Loss \(Responsibility Centers\)  Overview](../FullExperience/contract-gain-loss-responsibility-centers-overview.md)   
- [Contract Gain-Loss \(Groups\) Overview](../FullExperience/contract-gain-loss-groups-overview.md)   
- [Contract Gain-Loss \(Service Contracts\) Overview](../FullExperience/contract-gain-loss-service-contracts-overview.md)
+ [Contract Gain-Loss \(Customers\) Overview](../contract-gain-loss-customers-overview.md)   
+ [Contract Gain-Loss \(Reason Codes\) Overview](../contract-gain-loss-reason-codes-overview.md)   
+ [Contract Gain-Loss \(Responsibility Centers\)  Overview](../contract-gain-loss-responsibility-centers-overview.md)   
+ [Contract Gain-Loss \(Groups\) Overview](../contract-gain-loss-groups-overview.md)   
+ [Contract Gain-Loss \(Service Contracts\) Overview](../contract-gain-loss-service-contracts-overview.md)

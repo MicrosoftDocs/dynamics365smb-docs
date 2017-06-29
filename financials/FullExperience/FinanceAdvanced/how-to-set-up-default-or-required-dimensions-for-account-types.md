@@ -40,10 +40,10 @@ You can set up a default dimension for an account type. ADD INCLUDE<!--[!INCLUDE
 >  If an account must have a different dimension assigned to it than the default dimension already set up for the account type, you must set up a default dimension for this account. The default dimension for the individual account then replaces the default dimension for the account type.  
   
 ## See Also  
- [How to: Set Up Dimension Combinations](../FullExperience/how-to-set-up-dimension-combinations.md)   
- [How to: Set Up Default Dimensions for One Account](../FullExperience/how-to-set-up-default-dimensions-for-one-account.md)   
- [How to: Set Up Global Dimensions](../FullExperience/how-to-set-up-global-dimensions.md)   
- [How to: Set Up Shortcut Dimensions](../FullExperience/how-to-set-up-shortcut-dimensions.md)   
+ [How to: Set Up Dimension Combinations](../how-to-set-up-dimension-combinations.md)   
+ [How to: Set Up Default Dimensions for One Account](../how-to-set-up-default-dimensions-for-one-account.md)   
+ [How to: Set Up Global Dimensions](../how-to-set-up-global-dimensions.md)   
+ [How to: Set Up Shortcut Dimensions](../how-to-set-up-shortcut-dimensions.md)   
  Default Dimension   
  Dimension   
  Adjust Exchange Rates   

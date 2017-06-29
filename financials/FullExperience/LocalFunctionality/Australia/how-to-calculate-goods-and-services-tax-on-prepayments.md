@@ -27,10 +27,10 @@ When a partial payment or prepayment is made, you must calculate Goods and Servi
 3.  Choose the **OK** button.  
   
 ## See Also  
- [Business Activity Statements](../FullExperience/business-activity-statements.md)   
- [How to: Set Up Business Activity Statements](../FullExperience/how-to-set-up-business-activity-statements.md)   
- [How to: Export Business Activity Statements](../FullExperience/how-to-export-business-activity-statements.md)   
- [How to: Print Goods and Services Tax Sales and Purchase Reports](../FullExperience/how-to-print-goods-and-services-tax-sales-and-purchase-reports.md)   
- [Invoice Prepayments](../FullExperience/invoice-prepayments.md)   
+ [Business Activity Statements](../business-activity-statements.md)   
+ [How to: Set Up Business Activity Statements](../how-to-set-up-business-activity-statements.md)   
+ [How to: Export Business Activity Statements](../how-to-export-business-activity-statements.md)   
+ [How to: Print Goods and Services Tax Sales and Purchase Reports](../how-to-print-goods-and-services-tax-sales-and-purchase-reports.md)   
+ [Invoice Prepayments](../invoice-prepayments.md)   
  General Ledger Setup   
- [Australia Local Functionality](../FullExperience/australia-local-functionality.md)
+ [Australia Local Functionality](../australia-local-functionality.md)

@@ -29,4 +29,4 @@ You can quickly get an overview of confidential information related to your empl
  The columns on the left list the employees. The columns on the right list the various types of confidential information and indicate which employees the information is valid for.  
   
 ## See Also  
- [How to: Assign Confidential Information Codes to Employees](../FullExperience/how-to-assign-confidential-information-codes-to-employees.md)
+ [How to: Assign Confidential Information Codes to Employees](../how-to-assign-confidential-information-codes-to-employees.md)

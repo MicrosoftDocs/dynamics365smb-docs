@@ -60,5 +60,5 @@ This planning function calculates changes made to a production order header and 
 >  Changes implemented with the **Refresh** function are very likely to change the capacity need of the production order. You may have to reschedule operations afterwards.  
   
 ## See Also  
- [How to: Replan Production Orders](../FullExperience/how-to-replan-production-orders.md)   
- [About Production Orders](../FullExperience/about-production-orders.md)
+ [How to: Replan Production Orders](../how-to-replan-production-orders.md)   
+ [About Production Orders](../about-production-orders.md)

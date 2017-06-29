@@ -24,11 +24,11 @@ If you have set up extended texts for standard texts, you can insert extended te
   
 2.  Open the relevant service order.  
   
-3.  Choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Order**, and then choose **Service Lines**. The **Service Lines** window opens.  
+3.  Choose **Actions**![Action Menu icon](../media/actionmenuicon.png "actionMenuIcon"), choose **Order**, and then choose **Service Lines**. The **Service Lines** window opens.  
   
 4.  Select the service line with the standard text code you want to insert extended text for. On the **Actions** tab, in the **Functions** group, choose **Insert Ext. Texts**.  
   
      A new service line is created with the extended text with the language code of the customer in the service order.  
   
 ## See Also  
- [How to: Define Extended Text for Standard Text Codes](../FullExperience/how-to-define-extended-text-for-standard-text-codes.md)
+ [How to: Define Extended Text for Standard Text Codes](../how-to-define-extended-text-for-standard-text-codes.md)

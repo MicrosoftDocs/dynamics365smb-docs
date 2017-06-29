@@ -29,4 +29,4 @@ You can quickly get an overview of the miscellaneous articles that are in your e
      The columns on the left list the employees. The columns on the right list the various types of miscellaneous articles and indicate which employees have them.  
   
 ## See Also  
- [How to: Assign Miscellaneous Article Codes to Employees](../FullExperience/how-to-assign-miscellaneous-article-codes-to-employees.md)
+ [How to: Assign Miscellaneous Article Codes to Employees](../how-to-assign-miscellaneous-article-codes-to-employees.md)

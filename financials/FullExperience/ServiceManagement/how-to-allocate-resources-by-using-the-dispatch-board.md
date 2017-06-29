@@ -22,7 +22,7 @@ When you have created and fulfilled a number of service orders and service quote
   
 1.  In the **Search** box, enter **Dispatch Board**, and then choose the related link.  
   
-2.  Apply filters to view the documents that meet certain conditions. For more information about entering criteria in filters, see [Enter Criteria in Filters](../FullExperience/enter-criteria-in-filters.md).  
+2.  Apply filters to view the documents that meet certain conditions. For more information about entering criteria in filters, see [Enter Criteria in Filters](../enter-criteria-in-filters.md).  
   
 3.  Select the document that contains the service task you want to allocate a resource to. On the **Navigation** tab, in the **Planning** group, choose **Resource Allocations**. The **Resource Allocations** window opens.  
   
@@ -38,9 +38,9 @@ When you have created and fulfilled a number of service orders and service quote
 >  For a service item in a service order, there can be only **Active** allocation entries with one resource or resource group at a time.  
   
 ## See Also  
- [How to: Allocate Resources by Using Service Orders](../FullExperience/how-to-allocate-resources-by-using-service-orders.md)   
- [How to: Allocate Resources by Using Resource Availability](../FullExperience/how-to-allocate-resources-by-using-resource-availability.md)   
- [How to: Allocate Resource Groups](../FullExperience/how-to-allocate-resource-groups.md)   
- [How to: Cancel Allocations](../FullExperience/how-to-cancel-allocations.md)   
- [How to: Reallocate Resources by Using the Dispatch Board](../FullExperience/how-to-reallocate-resources-by-using-the-dispatch-board.md)   
- [How to: Use the Dispatch Board](../FullExperience/how-to-use-the-dispatch-board.md)
+ [How to: Allocate Resources by Using Service Orders](../how-to-allocate-resources-by-using-service-orders.md)   
+ [How to: Allocate Resources by Using Resource Availability](../how-to-allocate-resources-by-using-resource-availability.md)   
+ [How to: Allocate Resource Groups](../how-to-allocate-resource-groups.md)   
+ [How to: Cancel Allocations](../how-to-cancel-allocations.md)   
+ [How to: Reallocate Resources by Using the Dispatch Board](../how-to-reallocate-resources-by-using-the-dispatch-board.md)   
+ [How to: Use the Dispatch Board](../how-to-use-the-dispatch-board.md)

@@ -35,7 +35,7 @@ In the capacity journal, you post consumed capacities that are not assigned to t
 7.  Choose the **Yes** button to confirm the question.  
   
 ## See Also  
- [How to: Post Output Quantity](../FullExperience/how-to-post-output-quantity.md)   
- [How to: Post Scrap Manually](../FullExperience/how-to-post-scrap-manually.md)   
- [How to: Register Consumption and Output](../FullExperience/how-to-register-consumption-and-output.md)   
- [Structure of the Capacity](../FullExperience/structure-of-the-capacity.md)
+ [How to: Post Output Quantity](../how-to-post-output-quantity.md)   
+ [How to: Post Scrap Manually](../how-to-post-scrap-manually.md)   
+ [How to: Register Consumption and Output](../how-to-register-consumption-and-output.md)   
+ [Structure of the Capacity](../structure-of-the-capacity.md)

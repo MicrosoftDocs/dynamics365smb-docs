@@ -51,10 +51,10 @@ When you have created a service order or service quote, you need to register the
  Repeat these steps for each service item line you want to register.  
   
 ## See Also  
- [How to: Create Service Items](../FullExperience/how-to-create-service-items.md)   
- [How to: Change Response Times for Service Item Lines](../FullExperience/how-to-change-response-times-for-service-item-lines.md)   
- [How to: Lend Loaners](../FullExperience/how-to-lend-loaners.md)   
- [How to: Register Service Item Loaner Comments](../FullExperience/how-to-register-service-item-loaner-comments.md)   
- [How to: Register Accessory Comments](../FullExperience/how-to-register-accessory-comments.md)   
- [How to: View Troubleshooting Guidelines](../FullExperience/how-to-view-troubleshooting-guidelines.md)   
- [How to: Change Service Pricing for Service Items](../FullExperience/how-to-change-service-pricing-for-service-items.md)
+ [How to: Create Service Items](../how-to-create-service-items.md)   
+ [How to: Change Response Times for Service Item Lines](../how-to-change-response-times-for-service-item-lines.md)   
+ [How to: Lend Loaners](../how-to-lend-loaners.md)   
+ [How to: Register Service Item Loaner Comments](../how-to-register-service-item-loaner-comments.md)   
+ [How to: Register Accessory Comments](../how-to-register-accessory-comments.md)   
+ [How to: View Troubleshooting Guidelines](../how-to-view-troubleshooting-guidelines.md)   
+ [How to: Change Service Pricing for Service Items](../how-to-change-service-pricing-for-service-items.md)

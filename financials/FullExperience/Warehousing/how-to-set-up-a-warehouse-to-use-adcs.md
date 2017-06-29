@@ -19,7 +19,7 @@
 To use ADCS, you must specify which warehouse locations use the technology.  
   
 > [!NOTE]  
->  We recommend that you do not set up a warehouse to use ADCS if the warehouse also has a bin capacity policy. For more information, see the section "Resolving a web service exception about callback functions" in [Troubleshooting: ADCS](../FullExperience/Troubleshooting:%20ADCS.md).  
+>  We recommend that you do not set up a warehouse to use ADCS if the warehouse also has a bin capacity policy. For more information, see the section "Resolving a web service exception about callback functions" in [Troubleshooting: ADCS](../Troubleshooting:%20ADCS.md).  
   
 ### To set up a warehouse to use ADCS  
   
@@ -30,5 +30,5 @@ To use ADCS, you must specify which warehouse locations use the technology.
 3.  Expand the **Warehouse** FastTab and select the **Use ADCS** check box.  
   
 ## See Also  
- [How to: Set Up Items to Use ADCS](../FullExperience/how-to-set-up-items-to-use-adcs.md)   
- [Use Automated Data Capture Systems \(ADCS\)](../FullExperience/use-automated-data-capture-systems-adcs-.md)
+ [How to: Set Up Items to Use ADCS](../how-to-set-up-items-to-use-adcs.md)   
+ [Use Automated Data Capture Systems \(ADCS\)](../use-automated-data-capture-systems-adcs-.md)

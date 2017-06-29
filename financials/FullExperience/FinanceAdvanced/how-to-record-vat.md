@@ -16,14 +16,14 @@
 
     ---
 # How to: Record VAT
-In EU countries\/regions, every sales and purchase transaction is subject to VAT calculations. For more information about recording VAT, see [Recording VAT](../FullExperience/recording-vat.md).  
+In EU countries\/regions, every sales and purchase transaction is subject to VAT calculations. For more information about recording VAT, see [Recording VAT](../recording-vat.md).  
   
 ## Manually Adjusting VAT Amounts in Sales and Purchase Documents  
  The program automatically calculates the VAT using the customer's VAT Bus. Posting Group and the item's VAT Prod. Posting Group. However, you can also manually enter the VAT amounts, if the amount calculated by the program is slightly different to that calculated by your customer or vendor, for example, due to rounding.  
   
 #### To manually enter VAT in sales documents  
   
-1.  In the ![Shortcut icon](../FullExperience/media/shortcutcoldicon.gif "shortcutColdIcon")**General Ledger Setup** window, specify a **Max. VAT Difference Allowed** between the amount calculated by the program and the manual amount.  
+1.  In the ![Shortcut icon](../media/shortcutcoldicon.gif "shortcutColdIcon")**General Ledger Setup** window, specify a **Max. VAT Difference Allowed** between the amount calculated by the program and the manual amount.  
   
 2.  In the **Sales & Receivables Setup** window, place a check mark in the **Allow Vat Difference** field.  
   
@@ -43,13 +43,13 @@ In EU countries\/regions, every sales and purchase transaction is subject to VAT
   
 #### Before you manually enter VAT on a general journal  
   
-1.  In the ![Shortcut icon](../FullExperience/media/shortcutcoldicon.gif "shortcutColdIcon")**General Ledger Setup** window, specify a **Max. VAT Difference Allowed** between the amount calculated by the program and the manual amount.  
+1.  In the ![Shortcut icon](../media/shortcutcoldicon.gif "shortcutColdIcon")**General Ledger Setup** window, specify a **Max. VAT Difference Allowed** between the amount calculated by the program and the manual amount.  
   
-2.  Place a check mark in the **Allow VAT Difference** field for the relevant journal in the ![Shortcut icon](../FullExperience/media/shortcutcoldicon.gif "shortcutColdIcon")**General Journal Templates** window.  
+2.  Place a check mark in the **Allow VAT Difference** field for the relevant journal in the ![Shortcut icon](../media/shortcutcoldicon.gif "shortcutColdIcon")**General Journal Templates** window.  
   
 #### Before you manually enter VAT on sales and purchase journals  
   
-1.  Check the **Allow VAT Difference** field in the ![Shortcut icon](../FullExperience/media/shortcutcoldicon.gif "shortcutColdIcon")**[\($ N\_460 Purchases & Payables Setup $\)](DynamicsNAV:////runpage?Page=460)** windows, respectively.  
+1.  Check the **Allow VAT Difference** field in the ![Shortcut icon](../media/shortcutcoldicon.gif "shortcutColdIcon")**[\($ N\_460 Purchases & Payables Setup $\)](DynamicsNAV:////runpage?Page=460)** windows, respectively.  
   
 2.  Once you have completed the setup described above, you can adjust the **VAT Amount** field on the general journal line, or the **Bal. VAT Amount** field on the sales or purchase journal line, to equal the invoice VAT amount. The program will check that the difference is not greater than the specified maximum.  
   
@@ -57,10 +57,10 @@ In EU countries\/regions, every sales and purchase transaction is subject to VAT
     >  If the difference is greater, a warning will be displayed stating the maximum allowed difference and you will be unable to proceed until the amount is adjusted accordingly. Click **OK** and enter another amount that is within the allowed range. If the VAT difference is equal to or lower than the maximum allowed, the program will show the difference in the **VAT Difference** field.  
   
 ## See Also  
- [Recording VAT](../FullExperience/recording-vat.md)   
- [Import VAT](../FullExperience/import-vat.md)   
- [VAT Reporting and Settlement](../FullExperience/vat-reporting-and-settlement.md)   
- [How to: Enter VAT-liable Amounts Without VAT in General Journals](../FullExperience/how-to-enter-vat-liable-amounts-without-vat-in-general-journals.md)   
- [How to: Set Up and Record Intrastat](../FullExperience/how-to-set-up-and-record-intrastat.md)   
- [How to: Create a VAT Combination Setup](../FullExperience/how-to-create-a-vat-combination-setup.md)   
- [How to: View VAT Entries](../FullExperience/how-to-view-vat-entries.md)
+ [Recording VAT](../recording-vat.md)   
+ [Import VAT](../import-vat.md)   
+ [VAT Reporting and Settlement](../vat-reporting-and-settlement.md)   
+ [How to: Enter VAT-liable Amounts Without VAT in General Journals](../how-to-enter-vat-liable-amounts-without-vat-in-general-journals.md)   
+ [How to: Set Up and Record Intrastat](../how-to-set-up-and-record-intrastat.md)   
+ [How to: Create a VAT Combination Setup](../how-to-create-a-vat-combination-setup.md)   
+ [How to: View VAT Entries](../how-to-view-vat-entries.md)

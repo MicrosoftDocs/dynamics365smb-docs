@@ -24,10 +24,10 @@ If a payment discount has been calculated on the basis of an invoice amount that
   
 2.  On the **General** FastTab, select the **Adjust for Payment Disc.** field.  
   
-3.  Open the ![Shortcut icon](../FullExperience/bp_choose_columns_md.md)]-->  
+3.  Open the ![Shortcut icon](../bp_choose_columns_md.md)]-->  
   
      Note that you must activate the **Adjust for Payments Disc.** field in both the general ledger setup in general and the VAT posting setup for specific combinations of a VAT business posting group and a VAT product posting group.  
   
 ## See Also  
- [How to: Correct VAT](../FullExperience/how-to-correct-vat.md)   
- [How to: Determine Base Amounts for Payment Discounts on Sales](../FullExperience/how-to-determine-base-amounts-for-payment-discounts-on-sales.md)
+ [How to: Correct VAT](../how-to-correct-vat.md)   
+ [How to: Determine Base Amounts for Payment Discounts on Sales](../how-to-determine-base-amounts-for-payment-discounts-on-sales.md)

@@ -22,7 +22,7 @@ You may agree with your vendor that they compensate you for a purchased item by 
   
 1.  In the **Search** box, enter **Purchase Return Orders**, and then choose the related link.  
   
-2.  Create a purchase return order. For more information, see [How to: Create Purchase Return Orders](../FullExperience/how-to-create-purchase-return-orders.md).  
+2.  Create a purchase return order. For more information, see [How to: Create Purchase Return Orders](../how-to-create-purchase-return-orders.md).  
   
 3.  Enter a purchase return order line for the item that you are returning.  
   
@@ -39,5 +39,5 @@ You may agree with your vendor that they compensate you for a purchased item by 
 7.  Choose the **Yes** button to see the replacement purchase order that is created.  
   
 ## See Also  
- [How to: Create Purchase Return Orders](../FullExperience/how-to-create-purchase-return-orders.md)   
- [Manage Purchase Returns](../FullExperience/manage-purchase-returns.md)
+ [How to: Create Purchase Return Orders](../how-to-create-purchase-return-orders.md)   
+ [Manage Purchase Returns](../manage-purchase-returns.md)

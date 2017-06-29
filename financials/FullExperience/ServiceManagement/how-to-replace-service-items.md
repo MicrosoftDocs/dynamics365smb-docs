@@ -41,5 +41,5 @@ If you cannot repair a service item, you may have to replace the service item ei
  The new item is not registered as a service item with a service item number until you post this service invoice line or the service order.  
   
 ## See Also  
- [How to: Register Spare Parts](../FullExperience/how-to-register-spare-parts.md)   
- [How to: Replace Components](../FullExperience/how-to-replace-components.md)
+ [How to: Register Spare Parts](../how-to-register-spare-parts.md)   
+ [How to: Replace Components](../how-to-replace-components.md)

@@ -45,6 +45,6 @@ It is important to understand the criteria for transferring general ledger entri
 -   The entries have been posted with a closing date. These are typically entries that set back the balance of the income statement at the end of the year.  
   
 ## See Also  
- [How to: Transfer General Ledger Entries to Cost Entries](../FullExperience/how-to-transfer-general-ledger-entries-to-cost-entries.md)   
- [Transfer and Post Cost Entries](../FullExperience/transfer-and-post-cost-entries.md)   
- [About Cost Accounting](../FullExperience/about-cost-accounting.md)
+ [How to: Transfer General Ledger Entries to Cost Entries](../how-to-transfer-general-ledger-entries-to-cost-entries.md)   
+ [Transfer and Post Cost Entries](../transfer-and-post-cost-entries.md)   
+ [About Cost Accounting](../about-cost-accounting.md)

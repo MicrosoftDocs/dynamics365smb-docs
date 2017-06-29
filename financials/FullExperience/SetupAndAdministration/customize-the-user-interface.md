@@ -33,11 +33,11 @@ The concept of UI customization in ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../inclu
   
 |**To**|**See**|  
 |------------|-------------|  
-|As an administrator, remove UI elements according to permissions. Then, configure different profile-specific page layouts using the same UI customization functions that users use.|[Configure the User Interface](../FullExperience/configure-the-user-interface.md)|  
+|As an administrator, remove UI elements according to permissions. Then, configure different profile-specific page layouts using the same UI customization functions that users use.|[Configure the User Interface](../configure-the-user-interface.md)|  
 |As a user, change how actions, fields, and page parts are placed in your personal version of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]--> using a rich set of UI customization functions.|PERSONALIZATION Personalize the User Interface|  
   
 ## See Also  
- [Administration in the Clients](../FullExperience/administration-in-the-clients.md)   
+ [Administration in the Clients](../administration-in-the-clients.md)   
  [Customization: Configuration and Personalization](http://msdn.microsoft.com/en-us/library/jj677170\(v=nav.70\).aspx)   
- [Setup and Administration](../FullExperience/setup-and-administration.md)   
- [Working with Product Name](../FullExperience/working-with-$-p_1-product-name-$-.md)
+ [Setup and Administration](../setup-and-administration.md)   
+ [Working with Product Name](../working-with-$-p_1-product-name-$-.md)

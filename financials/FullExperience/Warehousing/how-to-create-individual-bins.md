@@ -39,10 +39,10 @@ The most effective way to create the bins of your warehouse is to generate group
 3.  On the **Actions** tab, in the **Functions** group, choose **Create Bins**.  
   
 > [!NOTE]  
->  The **Bin Creation Worksheet** also contains a function that will create the bin lines for you. For more information, see [Creating Bins in the Worksheet](../FullExperience/how-to-create-bins-in-the-bin-creation-worksheet.md).  
+>  The **Bin Creation Worksheet** also contains a function that will create the bin lines for you. For more information, see [Creating Bins in the Worksheet](../how-to-create-bins-in-the-bin-creation-worksheet.md).  
   
 ## See Also  
  Bin Creation Worksheet   
- [How to: Create Bins in the Bin Creation Worksheet](../FullExperience/how-to-create-bins-in-the-bin-creation-worksheet.md)   
- [How to: Create Bins in the Bin Creation Worksheet](../FullExperience/how-to-create-bins-in-the-bin-creation-worksheet.md)   
- [How to: Set Up Locations to Use Bins](../FullExperience/how-to-set-up-locations-to-use-bins.md)
+ [How to: Create Bins in the Bin Creation Worksheet](../how-to-create-bins-in-the-bin-creation-worksheet.md)   
+ [How to: Create Bins in the Bin Creation Worksheet](../how-to-create-bins-in-the-bin-creation-worksheet.md)   
+ [How to: Set Up Locations to Use Bins](../how-to-set-up-locations-to-use-bins.md)

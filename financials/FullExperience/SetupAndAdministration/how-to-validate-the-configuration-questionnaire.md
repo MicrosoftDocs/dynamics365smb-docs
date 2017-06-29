@@ -38,4 +38,4 @@ It is important to validate the setup questionnaire before you apply it to the A
  After you have completed your validation, your data is ready to be applied to the database.  
   
 ## See Also  
- [How to: Apply Answers from the Configuration Questionnaire](../FullExperience/how-to-apply-answers-from-the-configuration-questionnaire.md)
+ [How to: Apply Answers from the Configuration Questionnaire](../how-to-apply-answers-from-the-configuration-questionnaire.md)

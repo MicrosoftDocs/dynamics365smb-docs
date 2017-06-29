@@ -31,5 +31,5 @@ You can enter comments for each operation in a routing.
 5.  Close the window.  
   
 ## See Also  
- [How to: Enter Comments for Routings](../FullExperience/how-to-enter-comments-for-routings.md)   
- [How to: Create Routings](../FullExperience/how-to-create-routings.md)
+ [How to: Enter Comments for Routings](../how-to-enter-comments-for-routings.md)   
+ [How to: Create Routings](../how-to-create-routings.md)

@@ -18,7 +18,7 @@
 # Move Items
 While in inventory, items may need to be moved between bins to support the daily warehouse activities involved in keeping items flowing through the warehouse. Some movements happen in direct relation to internal operations, such as a production order that needs components delivered or end items put away. Other movements happen as mere warehouse space optimization or as ad-hoc movements to and from operations.  
   
- Moving items inside a location is less complicated because their inventory levels, represented by item ledger entries, do not change. Moving items to other locations, on the other hand, affects the item ledger entries and must therefore be done by transfer order. This is described in [Shipping](../FullExperience/Shipping.md).  
+ Moving items inside a location is less complicated because their inventory levels, represented by item ledger entries, do not change. Moving items to other locations, on the other hand, affects the item ledger entries and must therefore be done by transfer order. This is described in [Shipping](../Shipping.md).  
   
  Additional movement tasks are to periodically replenish picking bins or shop floor bins and to modify bin content information.  
   
@@ -26,14 +26,14 @@ While in inventory, items may need to be moved between bins to support the daily
   
 |**To**|**See**|  
 |------------|-------------|  
-|Plan which bins to fill or empty to maintain an efficient flow, such as emptying a bulk storage area before a large receipt.|[How to: Plan Warehouse Movements in Worksheets](../FullExperience/how-to-plan-warehouse-movements-in-worksheets.md)|  
-|Use the warehouse movement worksheet to move items in advanced warehouse configurations, both for source documents and ad hoc.|[How to: Move Items in Advanced Warehousing](../FullExperience/how-to-move-items-in-advanced-warehousing.md)|  
-|Record a movement between bins in advanced warehouse configurations after the movement has been completed.|[How to: Register Already Completed Warehouse Movements](../FullExperience/how-to-register-already-completed-warehouse-movements.md)|  
-|Update the frequency at which bins, such as picking bins, must be replenished as a result of demand fluctuations.|[How to: Calculate Bin Replenishment](../FullExperience/how-to-calculate-bin-replenishment.md)|  
-|Bring component items to internal operations in basic warehouse configurations as requested by source documents for those operations.|[How to: Move Components to an Operation Area in Basic Warehousing](../FullExperience/how-to-move-components-to-an-operation-area-in-basic-warehousing.md)|  
-|Move items between bins in basic warehouse configurations at any time and without source documents.|[How to: Move Items Ad Hoc in Basic Warehousing](../FullExperience/how-to-move-items-ad-hoc-in-basic-warehousing.md)|  
+|Plan which bins to fill or empty to maintain an efficient flow, such as emptying a bulk storage area before a large receipt.|[How to: Plan Warehouse Movements in Worksheets](../how-to-plan-warehouse-movements-in-worksheets.md)|  
+|Use the warehouse movement worksheet to move items in advanced warehouse configurations, both for source documents and ad hoc.|[How to: Move Items in Advanced Warehousing](../how-to-move-items-in-advanced-warehousing.md)|  
+|Record a movement between bins in advanced warehouse configurations after the movement has been completed.|[How to: Register Already Completed Warehouse Movements](../how-to-register-already-completed-warehouse-movements.md)|  
+|Update the frequency at which bins, such as picking bins, must be replenished as a result of demand fluctuations.|[How to: Calculate Bin Replenishment](../how-to-calculate-bin-replenishment.md)|  
+|Bring component items to internal operations in basic warehouse configurations as requested by source documents for those operations.|[How to: Move Components to an Operation Area in Basic Warehousing](../how-to-move-components-to-an-operation-area-in-basic-warehousing.md)|  
+|Move items between bins in basic warehouse configurations at any time and without source documents.|[How to: Move Items Ad Hoc in Basic Warehousing](../how-to-move-items-ad-hoc-in-basic-warehousing.md)|  
   
 ## See Also  
- [Design and Engineering](../FullExperience/design-and-engineering.md)   
- [Perform Warehouse Activities](../FullExperience/perform-warehouse-activities.md)   
- [Shipping](../FullExperience/Shipping.md)
+ [Design and Engineering](../design-and-engineering.md)   
+ [Perform Warehouse Activities](../perform-warehouse-activities.md)   
+ [Shipping](../Shipping.md)

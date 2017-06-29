@@ -30,15 +30,15 @@ You can consolidate the general ledger entries of two or more separate companies
   
 |**To**|**See**|  
 |------------|-------------|  
-|Learn what you can accomplish with the consolidation features in Product Name.|[About Consolidations](../FullExperience/about-consolidations.md)|  
-|Get an overview of how to perform a consolidation, from setup through finalization of the consolidation process.|[How to: Process Consolidations](../FullExperience/how-to-process-consolidations.md)|  
-|Update exchange rates for a business unit that has financial statements in a foreign currency.|[How to: Specify Exchange Rates for Consolidations](../FullExperience/how-to-specify-exchange-rates-for-consolidations.md)|  
-|Export data from a company in a different Product Name database.|[How to: Export Business Unit Information](../FullExperience/how-to-export-business-unit-information.md)|  
-|Check whether there are differences between the setup of the consolidated company and the setup of the business units in a different Product Name database.|[How to: Test Databases Before Consolidating](../FullExperience/how-to-test-databases-before-consolidating.md)|  
-|Check whether there are differences between the setup of the consolidated company and the setup of the business units in a file.|[How to: Test Files Before Consolidating](../FullExperience/how-to-test-files-before-consolidating.md)|  
-|Import consolidations data from business units in the same database.|[How to: Consolidate from Databases](../FullExperience/how-to-consolidate-from-databases.md)|  
-|Import consolidations data from a file.|[How to: Consolidate from Files](../FullExperience/how-to-consolidate-from-files.md)|  
+|Learn what you can accomplish with the consolidation features in Product Name.|[About Consolidations](../about-consolidations.md)|  
+|Get an overview of how to perform a consolidation, from setup through finalization of the consolidation process.|[How to: Process Consolidations](../how-to-process-consolidations.md)|  
+|Update exchange rates for a business unit that has financial statements in a foreign currency.|[How to: Specify Exchange Rates for Consolidations](../how-to-specify-exchange-rates-for-consolidations.md)|  
+|Export data from a company in a different Product Name database.|[How to: Export Business Unit Information](../how-to-export-business-unit-information.md)|  
+|Check whether there are differences between the setup of the consolidated company and the setup of the business units in a different Product Name database.|[How to: Test Databases Before Consolidating](../how-to-test-databases-before-consolidating.md)|  
+|Check whether there are differences between the setup of the consolidated company and the setup of the business units in a file.|[How to: Test Files Before Consolidating](../how-to-test-files-before-consolidating.md)|  
+|Import consolidations data from business units in the same database.|[How to: Consolidate from Databases](../how-to-consolidate-from-databases.md)|  
+|Import consolidations data from a file.|[How to: Consolidate from Files](../how-to-consolidate-from-files.md)|  
   
 ## See Also  
  Consol. Translation Method   
- [Set Up Consolidations](../FullExperience/set-up-consolidations.md)
+ [Set Up Consolidations](../set-up-consolidations.md)

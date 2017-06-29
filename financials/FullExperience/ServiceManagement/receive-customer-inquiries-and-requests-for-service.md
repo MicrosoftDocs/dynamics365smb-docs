@@ -24,11 +24,11 @@ You can use Service Management to determine what your service offerings will be,
   
 |**To**|**See**|  
 |------------|-------------|  
-|Create a service order in response to a customer request. You can also create an order from a contract, for example, for quarterly customer service calls.|[How to: Create Service Orders](../FullExperience/how-to-create-service-orders.md)|  
-|Create a service quote, and then convert the quote into a service order|[How to: Create Service Quotes](../FullExperience/how-to-create-service-quotes.md)|  
-|Assign resources, including service technicians or spare parts to an order.|[How to: Allocate Resources by Using Service Orders](../FullExperience/how-to-allocate-resources-by-using-service-orders.md)|  
-|Verify the information in a service order.|[How to: Check Service Orders Before Posting Them](../FullExperience/how-to-check-service-orders-before-posting-them.md)|  
-|Clean up the information about service orders that were posted from the **Service Invoice** window.|[How to: Delete Invoiced Service Orders](../FullExperience/how-to-delete-invoiced-service-orders.md)|  
+|Create a service order in response to a customer request. You can also create an order from a contract, for example, for quarterly customer service calls.|[How to: Create Service Orders](../how-to-create-service-orders.md)|  
+|Create a service quote, and then convert the quote into a service order|[How to: Create Service Quotes](../how-to-create-service-quotes.md)|  
+|Assign resources, including service technicians or spare parts to an order.|[How to: Allocate Resources by Using Service Orders](../how-to-allocate-resources-by-using-service-orders.md)|  
+|Verify the information in a service order.|[How to: Check Service Orders Before Posting Them](../how-to-check-service-orders-before-posting-them.md)|  
+|Clean up the information about service orders that were posted from the **Service Invoice** window.|[How to: Delete Invoiced Service Orders](../how-to-delete-invoiced-service-orders.md)|  
   
 ## See Also  
- [Service Management Setup](../FullExperience/service-management-setup.md)
+ [Service Management Setup](../service-management-setup.md)

@@ -34,7 +34,7 @@ You can combine return receipts if your customer returns several items that are 
   
 4.  In the **Sell-to Customer No.** field, select the customer who will receive the credit memo for the returned items.  
   
-5.  Choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Functions**, and then choose **Get Return Receipt Lines**.  
+5.  Choose **Actions**![Action Menu icon](../media/actionmenuicon.png "actionMenuIcon"), choose **Functions**, and then choose **Get Return Receipt Lines**.  
   
 6.  Select the return receipt lines that you want to include in the credit memo:  
   
@@ -76,9 +76,9 @@ You can combine return receipts if your customer returns several items that are 
  Alternatively, delete individual sales return orders manually.  
   
 ## See Also  
- [How to: Combine Receipts](../FullExperience/how-to-combine-receipts.md)   
- [How to: Combine Return Shipments](../FullExperience/how-to-combine-return-shipments.md)   
- [How to: Combine Shipments on a Single Invoice](../FullExperience/how-to-combine-shipments-on-a-single-invoice.md)   
- [How to: Get Return Receipt Lines for Item Charges](../FullExperience/how-to-get-return-receipt-lines-for-item-charges.md)   
- [How to: Process Sales Returns](../FullExperience/how-to-process-sales-returns.md)   
- [How to: Undo Quantity Posting on Posted Return Receipts](../FullExperience/how-to-undo-quantity-posting-on-posted-return-receipts.md)
+ [How to: Combine Receipts](../how-to-combine-receipts.md)   
+ [How to: Combine Return Shipments](../how-to-combine-return-shipments.md)   
+ [How to: Combine Shipments on a Single Invoice](../how-to-combine-shipments-on-a-single-invoice.md)   
+ [How to: Get Return Receipt Lines for Item Charges](../how-to-get-return-receipt-lines-for-item-charges.md)   
+ [How to: Process Sales Returns](../how-to-process-sales-returns.md)   
+ [How to: Undo Quantity Posting on Posted Return Receipts](../how-to-undo-quantity-posting-on-posted-return-receipts.md)

@@ -28,4 +28,4 @@ In the **Service Contract Account Group** window, you can view, change, or creat
 |**Prepaid Contract Account**|Contains the general ledger account number for the prepaid contract account.|  
   
 ## See Also  
- [How to: Set Up Service Contract Account Groups](../FullExperience/how-to-set-up-service-contract-account-groups.md)
+ [How to: Set Up Service Contract Account Groups](../how-to-set-up-service-contract-account-groups.md)

@@ -35,6 +35,6 @@ You can make changes to a released sales, purchase, transfer, or service order b
 >  If you make changes to a released order, you must notify the warehouse about the changes.  
   
 ## See Also  
- [How to: Release Orders](../FullExperience/how-to-release-orders.md)   
- [Status Field on Documents](../FullExperience/status-field-on-documents.md)   
- [How to: Prepare Service Line Items for Warehouse Handling](../FullExperience/how-to-prepare-service-line-items-for-warehouse-handling.md)
+ [How to: Release Orders](../how-to-release-orders.md)   
+ [Status Field on Documents](../status-field-on-documents.md)   
+ [How to: Prepare Service Line Items for Warehouse Handling](../how-to-prepare-service-line-items-for-warehouse-handling.md)

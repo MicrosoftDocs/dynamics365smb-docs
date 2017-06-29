@@ -45,11 +45,11 @@ When you set up a new production order, there are fields that must always be fil
     |**Ending Date-Time**|Specifies the ending date and time when the last operation must end. **Note:**  This field is automatically filled based on the item’s routing and the value that you enter in the **Due Date** field.|  
     |**Quantity**|Specifies how many units to produce.|  
   
- Instead of filling the production order line fields manually, use the **Refresh** function. For more information, see [How to: Refresh Production Orders](../FullExperience/how-to-refresh-production-orders.md).  
+ Instead of filling the production order line fields manually, use the **Refresh** function. For more information, see [How to: Refresh Production Orders](../how-to-refresh-production-orders.md).  
   
 ## See Also  
- [How to: Create Production Order Headers](../FullExperience/how-to-create-production-order-headers.md)   
- [How to: Refresh Production Orders](../FullExperience/how-to-refresh-production-orders.md)   
- [How to: Refresh Production Orders](../FullExperience/how-to-refresh-production-orders.md)   
- [About Production Orders](../FullExperience/about-production-orders.md)   
- [How to: Use the Manufacturing Batch Unit of Measure](../FullExperience/how-to-use-the-manufacturing-batch-unit-of-measure.md)
+ [How to: Create Production Order Headers](../how-to-create-production-order-headers.md)   
+ [How to: Refresh Production Orders](../how-to-refresh-production-orders.md)   
+ [How to: Refresh Production Orders](../how-to-refresh-production-orders.md)   
+ [About Production Orders](../about-production-orders.md)   
+ [How to: Use the Manufacturing Batch Unit of Measure](../how-to-use-the-manufacturing-batch-unit-of-measure.md)

@@ -31,4 +31,4 @@ You may want to insert a page break in the chart of accounts so that the break w
 5.  Close the window.  
   
 ## See Also  
- [How to: Set Up General Ledger Accounts in the Chart of Accounts Window](../FullExperience/how-to-set-up-general-ledger-accounts-in-the-chart-of-accounts-window.md)
+ [How to: Set Up General Ledger Accounts in the Chart of Accounts Window](../how-to-set-up-general-ledger-accounts-in-the-chart-of-accounts-window.md)

@@ -43,8 +43,8 @@ There are times when output posting must be reversed. An example of this would b
 ## See Also  
  Output Journal   
  Production Journal   
- [About Production Orders](../FullExperience/about-production-orders.md)   
- [How to: Post Output Quantity](../FullExperience/how-to-post-output-quantity.md)   
- [How to: Post Run Times](../FullExperience/how-to-post-run-times.md)   
- [How to: Release Production Orders Automatically](../FullExperience/how-to-release-production-orders-automatically.md)   
- [How to: Release Production Orders by Status Change](../FullExperience/how-to-release-production-orders-by-status-change.md)
+ [About Production Orders](../about-production-orders.md)   
+ [How to: Post Output Quantity](../how-to-post-output-quantity.md)   
+ [How to: Post Run Times](../how-to-post-run-times.md)   
+ [How to: Release Production Orders Automatically](../how-to-release-production-orders-automatically.md)   
+ [How to: Release Production Orders by Status Change](../how-to-release-production-orders-by-status-change.md)

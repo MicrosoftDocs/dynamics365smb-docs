@@ -24,7 +24,7 @@ You can cancel a service shipment that has been posted by mistake or contains so
   
 2.  Open the relevant posted service shipment.  
   
-3.  On the **Lines** FastTab, choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Shipment**, and then choose **Service Shipment Lines**. The **Posted Service Shipment Lines** window opens.  
+3.  On the **Lines** FastTab, choose **Actions**![Action Menu icon](../media/actionmenuicon.png "actionMenuIcon"), choose **Shipment**, and then choose **Service Shipment Lines**. The **Posted Service Shipment Lines** window opens.  
   
 4.  Select the relevant line.  
   
@@ -36,5 +36,5 @@ You can cancel a service shipment that has been posted by mistake or contains so
 >  You will not be able to undo a service shipment that has already been invoiced.  
   
 ## See Also  
- [How to: Undo Service Consumption](../FullExperience/how-to-undo-service-consumption.md)   
- [How to: Register Service Operations](../FullExperience/how-to-register-service-operations.md)
+ [How to: Undo Service Consumption](../how-to-undo-service-consumption.md)   
+ [How to: Register Service Operations](../how-to-register-service-operations.md)

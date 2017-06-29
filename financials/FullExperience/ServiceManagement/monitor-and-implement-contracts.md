@@ -24,9 +24,9 @@ After you have set up a system to initiate and maintain service contracts, you c
   
 |**To**|**See**|  
 |------------|-------------|  
-|Create a service quote and convert it into a service order.|[How to: Create Service Quotes](../FullExperience/how-to-create-service-quotes.md)|  
-|Set up the accounting required for annual service contracts.|[How to: Change the Annual Amount on Service Contracts or Contract Quotes](../FullExperience/how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)|  
-|Keep track of a contract for which service has been prepaid.|[How to: Post Prepaid Contract Entries](../FullExperience/how-to-post-prepaid-contract-entries.md)|  
+|Create a service quote and convert it into a service order.|[How to: Create Service Quotes](../how-to-create-service-quotes.md)|  
+|Set up the accounting required for annual service contracts.|[How to: Change the Annual Amount on Service Contracts or Contract Quotes](../how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)|  
+|Keep track of a contract for which service has been prepaid.|[How to: Post Prepaid Contract Entries](../how-to-post-prepaid-contract-entries.md)|  
   
 ## See Also  
- [How to: Invoice Service Contracts](../FullExperience/how-to-invoice-service-contracts.md)
+ [How to: Invoice Service Contracts](../how-to-invoice-service-contracts.md)

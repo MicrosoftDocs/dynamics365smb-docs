@@ -53,5 +53,5 @@ Cash receipts or deposits are registered using a cash receipt journal. A cash re
   
 ## See Also  
  Cash Receipt Journal   
- [How to: Fill and Post General Journals](../FullExperience/how-to-fill-and-post-general-journals.md)   
- [Apply Sales Transactions](../FullExperience/apply-sales-transactions.md)
+ [How to: Fill and Post General Journals](../how-to-fill-and-post-general-journals.md)   
+ [Apply Sales Transactions](../apply-sales-transactions.md)

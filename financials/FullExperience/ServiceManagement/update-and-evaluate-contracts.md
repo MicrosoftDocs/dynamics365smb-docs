@@ -24,11 +24,11 @@ Sometimes you have to change the terms of a contract after it has been created. 
   
 |**To**|**See**|  
 |------------|-------------|  
-|Update a contract to change its terms, because the contract status must be set to **Open**.|[Changing the Service Contract Status](../FullExperience/changing-the-service-contract-status.md)|  
-|Delete or cancel a contract.|[How to: Cancel Contracts](../FullExperience/how-to-cancel-contracts.md)|  
-|Track gain and loss in your service contract system.|[How to: View Gains and Losses on Contracts](../FullExperience/how-to-view-gains-and-losses-on-contracts.md)|  
-|Perform analysis of your service contract business and see related statistics.|[Contract Statistics Overview](../FullExperience/contract-statistics-overview.md)|  
+|Update a contract to change its terms, because the contract status must be set to **Open**.|[Changing the Service Contract Status](../changing-the-service-contract-status.md)|  
+|Delete or cancel a contract.|[How to: Cancel Contracts](../how-to-cancel-contracts.md)|  
+|Track gain and loss in your service contract system.|[How to: View Gains and Losses on Contracts](../how-to-view-gains-and-losses-on-contracts.md)|  
+|Perform analysis of your service contract business and see related statistics.|[Contract Statistics Overview](../contract-statistics-overview.md)|  
   
 ## See Also  
- [Set Service Pricing](../FullExperience/set-service-pricing.md)   
- [How to: Invoice Service Contracts](../FullExperience/how-to-invoice-service-contracts.md)
+ [Set Service Pricing](../set-service-pricing.md)   
+ [How to: Invoice Service Contracts](../how-to-invoice-service-contracts.md)

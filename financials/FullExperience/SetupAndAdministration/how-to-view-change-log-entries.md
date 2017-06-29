@@ -27,7 +27,7 @@ After you have set up the change log, activated it, and made a change to data, A
      ADD INCLUDE<!--[!INCLUDE[bp_fieldhelp]()]-->  
   
 ## See Also  
- [How to: Enable the Change Log](../FullExperience/how-to-enable-the-change-log.md)   
- [How to: Delete Change Log Entries](../FullExperience/how-to-delete-change-log-entries.md)   
- [How to: Print Change Log Entries](../FullExperience/how-to-print-change-log-entries.md)   
+ [How to: Enable the Change Log](../how-to-enable-the-change-log.md)   
+ [How to: Delete Change Log Entries](../how-to-delete-change-log-entries.md)   
+ [How to: Print Change Log Entries](../how-to-print-change-log-entries.md)   
  Change Log Activated

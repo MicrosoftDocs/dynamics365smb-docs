@@ -38,4 +38,4 @@ Customer data must be validated before you apply the records to the ADD INCLUDE<
  You are now ready to apply the customer’s data to the database.  
   
 ## See Also  
- [How to: Apply Customer Data](../FullExperience/how-to-apply-customer-data.md)
+ [How to: Apply Customer Data](../how-to-apply-customer-data.md)

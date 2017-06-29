@@ -41,6 +41,6 @@ To configure a profile, for example to customize the profile’s user interface,
     ```  
   
 ## See Also  
- [Configure the User Interface](../FullExperience/configure-the-user-interface.md)   
- [How to: Create a Profile](../FullExperience/how-to-create-a-profile.md)   
- [How to: Assign a User to a Profile](../FullExperience/how-to-assign-a-user-to-a-profile.md)
+ [Configure the User Interface](../configure-the-user-interface.md)   
+ [How to: Create a Profile](../how-to-create-a-profile.md)   
+ [How to: Assign a User to a Profile](../how-to-assign-a-user-to-a-profile.md)

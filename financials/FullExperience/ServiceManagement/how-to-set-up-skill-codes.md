@@ -31,6 +31,6 @@ You can use the **Skill Codes** window to set up codes for skills that are requi
  Repeat these steps for each skill code that you want to create.  
   
 ## See Also  
- [How to: Assign Skill Codes to Resources](../FullExperience/how-to-assign-skill-codes-to-resources.md)   
- [How to: Assign Skill Codes to Service Item Groups](../FullExperience/how-to-assign-skill-codes-to-service-item-groups.md)   
- [How to: Assign Skill Codes to Items and Service Items](../FullExperience/how-to-assign-skill-codes-to-items-and-service-items.md)
+ [How to: Assign Skill Codes to Resources](../how-to-assign-skill-codes-to-resources.md)   
+ [How to: Assign Skill Codes to Service Item Groups](../how-to-assign-skill-codes-to-service-item-groups.md)   
+ [How to: Assign Skill Codes to Items and Service Items](../how-to-assign-skill-codes-to-items-and-service-items.md)

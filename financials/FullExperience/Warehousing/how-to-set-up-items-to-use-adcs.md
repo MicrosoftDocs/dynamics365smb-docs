@@ -35,6 +35,6 @@ Each warehouse item that you want to use with ADCS must be assigned an identifie
 5.  To review the information, expand the **Warehouse** FastTab and choose the **Identifier Code** field. The **Item Identifiers List** window opens. You can review the information that you have entered.  
   
 ## See Also  
- [Use Automated Data Capture Systems \(ADCS\)](../FullExperience/use-automated-data-capture-systems-adcs-.md)   
+ [Use Automated Data Capture Systems \(ADCS\)](../use-automated-data-capture-systems-adcs-.md)   
  Item Identifier   
  Item Identifiers List

@@ -31,7 +31,7 @@ If you want to cancel all UI customization that you have ever made for a page un
   
 ### To cancel UI customization that you have made to a UI area on a page  
   
-1.  From the page where you have customized a UI area, such as the ribbon, on the **Application** menu ![Application Menu button in menu bar](../FullExperience/media/applicationmenuicon.png "ApplicationMenuIcon"), choose **Customize**, and then choose **Customize \<UI area\>**.  
+1.  From the page where you have customized a UI area, such as the ribbon, on the **Application** menu ![Application Menu button in menu bar](../media/applicationmenuicon.png "ApplicationMenuIcon"), choose **Customize**, and then choose **Customize \<UI area\>**.  
   
 2.  At the bottom of the **Customize** window, choose the **Restore Defaults** button.  
   
@@ -41,7 +41,7 @@ If you want to cancel all UI customization that you have ever made for a page un
 ## See Also  
  Delete User Personalization   
  PERSONALIZATION Personalize the User Interface   
- [How to: Cancel UI Configuration](../FullExperience/how-to-cancel-ui-configuration.md)   
- [Working with Product Name](../FullExperience/working-with-$-p_1-product-name-$-.md)   
- [Learn About the RoleTailored Design](../FullExperience/learn-about-the-roletailored-design.md)   
- [Customize the User Interface](../FullExperience/customize-the-user-interface.md)
+ [How to: Cancel UI Configuration](../how-to-cancel-ui-configuration.md)   
+ [Working with Product Name](../working-with-$-p_1-product-name-$-.md)   
+ [Learn About the RoleTailored Design](../learn-about-the-roletailored-design.md)   
+ [Customize the User Interface](../customize-the-user-interface.md)

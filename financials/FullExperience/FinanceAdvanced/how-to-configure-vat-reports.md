@@ -50,4 +50,4 @@ Before you can create VAT reports, you must specify which processes must be used
 |744|**VAT Report Check**|Handles the code for testing if the current VAT report is set up correctly.<br /><br /> Users will not be able to submit VAT reports that fail the validation that is specified in this codeunit.|  
   
 ## See Also  
- [VAT and VIES Report Setup](../FullExperience/vat-and-vies-report-setup.md)
+ [VAT and VIES Report Setup](../vat-and-vies-report-setup.md)

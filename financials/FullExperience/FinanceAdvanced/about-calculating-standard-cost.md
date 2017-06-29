@@ -95,7 +95,7 @@ Many manufacturing companies select a valuation base of standard cost. This also
  Because subcontracting is an outsourced capacity, you set up the cost of both direct and indirect subcontracting services on the work center card that represents the subcontracting operation.  
   
 ## Updating Standard Costs  
- To update or calculate the standard cost of assembly items, use the function from the item card. For more information, see [How to: Calculate the Standard Cost of Assembly BOMs](../FullExperience/how-to-calculate-the-standard-cost-of-assembly-boms.md).  
+ To update or calculate the standard cost of assembly items, use the function from the item card. For more information, see [How to: Calculate the Standard Cost of Assembly BOMs](../how-to-calculate-the-standard-cost-of-assembly-boms.md).  
   
  The process of updating or calculating standard costs typically consists of the following tasks:  
   
@@ -108,14 +108,14 @@ Many manufacturing companies select a valuation base of standard cost. This also
 4.  Implementing the changes to update the **Unit Cost** field on the item card and perform inventory revaluation. For more information, see Revaluation Journal.  
   
 ## See Also  
- [Design Details: Costing Methods](../FullExperience/design-details-costing-methods.md)   
+ [Design Details: Costing Methods](../design-details-costing-methods.md)   
  Replenishment System   
  Resource Usage Type   
  Assembly Order   
  Cost Incl. Setup   
- [How to: Calculate the Standard Cost of Assembly BOMs](../FullExperience/how-to-calculate-the-standard-cost-of-assembly-boms.md)   
+ [How to: Calculate the Standard Cost of Assembly BOMs](../how-to-calculate-the-standard-cost-of-assembly-boms.md)   
  Roll Up Standard Cost   
- [How to: Fill In Revaluation Journals Manually](../FullExperience/how-to-fill-in-revaluation-journals-manually.md)   
- [How to: Fill In the Revaluation Journal with the Batch Job](../FullExperience/how-to-fill-in-the-revaluation-journal-with-the-batch-job.md)   
- [How to: Update Standard Costs](../FullExperience/how-to-update-standard-costs.md)   
- [Design Details: Inventory Costing](../FullExperience/design-details-inventory-costing.md)
+ [How to: Fill In Revaluation Journals Manually](../how-to-fill-in-revaluation-journals-manually.md)   
+ [How to: Fill In the Revaluation Journal with the Batch Job](../how-to-fill-in-the-revaluation-journal-with-the-batch-job.md)   
+ [How to: Update Standard Costs](../how-to-update-standard-costs.md)   
+ [Design Details: Inventory Costing](../design-details-inventory-costing.md)

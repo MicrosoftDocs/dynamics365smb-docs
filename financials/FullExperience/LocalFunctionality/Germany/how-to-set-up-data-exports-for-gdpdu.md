@@ -70,7 +70,7 @@ You must set up data export record sources to be able to export Grundsätze zum 
     |**Export File Name**|Specify the name of the file that data from this table will be exported to.<br /><br /> For example, if the table is the **G\/L Account** table, the value of the **Export Table Name** can be **GLAccount**, and the value of the **Export File Name** field can be **GLAccount.txt**.|  
     |**Key No.**|Optional. Specify the key field.|  
   
-     For more information on setting filters, see [GDPdU Filter Examples](../FullExperience/gdpdu-filter-examples.md).  
+     For more information on setting filters, see [GDPdU Filter Examples](../gdpdu-filter-examples.md).  
   
      Next, you must specify the fields that data will be exported from.  
   
@@ -113,6 +113,6 @@ You must set up data export record sources to be able to export Grundsätze zum 
      This validates the list of fields against the keys for the tables. If you select a primary key after you select a secondary key, an error message displays, and you must change the order of the fields in the **Fields** pane.  
   
 ## See Also  
- [Process for Data Access and Testability of Digital Documents \(GDPdU\)](../FullExperience/process-for-data-access-and-testability-of-digital-documents-gdpdu-.md)   
- [How to: Export GDPdU Data](../FullExperience/how-to-export-gdpdu-data.md)   
- [GDPdU Filter Examples](../FullExperience/gdpdu-filter-examples.md)
+ [Process for Data Access and Testability of Digital Documents \(GDPdU\)](../process-for-data-access-and-testability-of-digital-documents-gdpdu-.md)   
+ [How to: Export GDPdU Data](../how-to-export-gdpdu-data.md)   
+ [GDPdU Filter Examples](../gdpdu-filter-examples.md)

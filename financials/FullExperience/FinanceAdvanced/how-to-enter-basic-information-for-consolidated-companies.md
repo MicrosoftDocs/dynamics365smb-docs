@@ -35,11 +35,11 @@ To consolidate several companies' figures in a consolidated company, you must fi
  If your business unit uses a foreign currency, you must specify the exchange rate that must be used in the consolidation. You must also enter consolidation information about the business unit's general ledger accounts.  
   
 ## See Also  
- [How to: Process Consolidations](../FullExperience/how-to-process-consolidations.md)   
- [How to: Consolidate from Databases](../FullExperience/how-to-consolidate-from-databases.md)   
- [How to: Consolidate from Files](../FullExperience/how-to-consolidate-from-files.md)   
- [How to: Test Databases Before Consolidating](../FullExperience/how-to-test-databases-before-consolidating.md)   
- [How to: Test Files Before Consolidating](../FullExperience/how-to-test-files-before-consolidating.md)   
- [How to: Export Business Unit Information](../FullExperience/how-to-export-business-unit-information.md)   
- [How to: Specify Exchange Rates for Consolidations](../FullExperience/how-to-specify-exchange-rates-for-consolidations.md)   
- [How to: Enter Consolidation Information on General Ledger Accounts](../FullExperience/how-to-enter-consolidation-information-on-general-ledger-accounts.md)
+ [How to: Process Consolidations](../how-to-process-consolidations.md)   
+ [How to: Consolidate from Databases](../how-to-consolidate-from-databases.md)   
+ [How to: Consolidate from Files](../how-to-consolidate-from-files.md)   
+ [How to: Test Databases Before Consolidating](../how-to-test-databases-before-consolidating.md)   
+ [How to: Test Files Before Consolidating](../how-to-test-files-before-consolidating.md)   
+ [How to: Export Business Unit Information](../how-to-export-business-unit-information.md)   
+ [How to: Specify Exchange Rates for Consolidations](../how-to-specify-exchange-rates-for-consolidations.md)   
+ [How to: Enter Consolidation Information on General Ledger Accounts](../how-to-enter-consolidation-information-on-general-ledger-accounts.md)

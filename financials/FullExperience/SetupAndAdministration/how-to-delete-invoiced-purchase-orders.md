@@ -29,6 +29,6 @@ In certain situations, you may need to delete invoiced purchase orders that have
      ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> checks that you have fully invoiced the deleted purchase orders. You cannot delete orders that you have not fully invoiced and received.  
   
 ## See Also  
- [How to: Delete Invoiced Blanket Purchase Orders](../FullExperience/how-to-delete-invoiced-blanket-purchase-orders.md)   
- [How to: Delete Invoiced Purchase Return Orders](../FullExperience/how-to-delete-invoiced-purchase-return-orders.md)   
- [Processing Purchase Orders](../FullExperience/processing-purchase-orders.md)
+ [How to: Delete Invoiced Blanket Purchase Orders](../how-to-delete-invoiced-blanket-purchase-orders.md)   
+ [How to: Delete Invoiced Purchase Return Orders](../how-to-delete-invoiced-purchase-return-orders.md)   
+ [Processing Purchase Orders](../processing-purchase-orders.md)

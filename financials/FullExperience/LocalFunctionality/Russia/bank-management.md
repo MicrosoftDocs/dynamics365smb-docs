@@ -48,4 +48,4 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can cr
  Bank Account G-L Turnover   
  Bank Account Card   
  Bank Directory   
- [How to: Set Up a Bank Payment Order](../FullExperience/how-to-set-up-a-bank-payment-order.md)
+ [How to: Set Up a Bank Payment Order](../how-to-set-up-a-bank-payment-order.md)

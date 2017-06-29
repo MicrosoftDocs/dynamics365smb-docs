@@ -18,9 +18,9 @@
 # Filling the Consumption Bin
 This flow chart shows how the **Bin Code** field on production order component lines is filled according to your setup.  
   
- ![Bin flow chart](../FullExperience/media/binflow.png "BinFlow")  
+ ![Bin flow chart](../media/binflow.png "BinFlow")  
   
 ## See Also  
- [How to: Set Up Locations to Use Bins](../FullExperience/how-to-set-up-locations-to-use-bins.md)   
- [How to: Set Up Basic Warehouses with Operations Areas](../FullExperience/how-to-set-up-basic-warehouses-with-operations-areas.md)   
+ [How to: Set Up Locations to Use Bins](../how-to-set-up-locations-to-use-bins.md)   
+ [How to: Set Up Basic Warehouses with Operations Areas](../how-to-set-up-basic-warehouses-with-operations-areas.md)   
  Bin Code

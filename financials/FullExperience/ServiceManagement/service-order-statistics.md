@@ -50,5 +50,5 @@ The service order statistics feature gives you a quick overview of the contents 
  The lines in the lower part of the **Service Statistics** window show the VAT details on the amounts in the service document.  
   
 ## See Also  
- [Service Statistics](../FullExperience/service-statistics.md)   
- [How to: View Service Order Statistics](../FullExperience/how-to-view-service-order-statistics.md)
+ [Service Statistics](../service-statistics.md)   
+ [How to: View Service Order Statistics](../how-to-view-service-order-statistics.md)

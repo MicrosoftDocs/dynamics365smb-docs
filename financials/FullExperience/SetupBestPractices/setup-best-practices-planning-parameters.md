@@ -22,7 +22,7 @@ The **Planning** FastTab on the item card is the center of a company’s supply 
   
 |Setup field|Best practice|Comment|  
 |-----------------|-------------------|-------------|  
-|Reordering Policy||For more information, see [Setup Best Practices: Reordering Policies](../FullExperience/setup-best-practices-reordering-policies.md).|  
+|Reordering Policy||For more information, see [Setup Best Practices: Reordering Policies](../setup-best-practices-reordering-policies.md).|  
 |Reserve|Select **Never** when the item is planned using a reorder point.<br /><br /> In manufacturing, select **Never** to allow the planning system to cover all demands.<br /><br /> Select **Optional** for items that you may want to reserve for top-priority customers.<br /><br /> Select **Always** for non-unique items, such as items of type miscellaneous that are inbound for specific demands.|Reservations generally counteract the purpose of planning, which is to balance demand and supply. Therefore, items that are set up for planning should generally not be reserved.<br /><br /> If the user reserves an inventory quantity for future demand, then the planning foundation will be disturbed, and the reorder point may not work correctly. Even if the projected inventory level is acceptable with regard to the reorder point, the quantities may not be available because of the reservation.|  
 |Dampener Period|Set with regard to the supplier’s flexibility.|If the supplier accepts last-minute changes to orders, then use a longer period. If the supplier requires firm planning, then shorten your period as much as possible.<br /><br /> For information about the global setup, see Default Dampener Period.|  
 |Dampener Quantity||For information about the global setup, see Default Dampener Quantity.|  
@@ -37,9 +37,9 @@ The **Planning** FastTab on the item card is the center of a company’s supply 
 > [!NOTE]  
 >  The best practices for planning parameters on item cards also apply to the same fields on SKU cards.  
 >   
->  If companies plan for demand at different locations, then it is strongly advised to define SKUs for each location and that all demand is created by using a value in the **Location Code** field. For more information, see [Design Details: Demand at Blank Location](../FullExperience/design-details-demand-at-blank-location.md).  
+>  If companies plan for demand at different locations, then it is strongly advised to define SKUs for each location and that all demand is created by using a value in the **Location Code** field. For more information, see [Design Details: Demand at Blank Location](../design-details-demand-at-blank-location.md).  
   
 ## See Also  
- [Setup Best Practices: Supply Planning](../FullExperience/setup-best-practices-supply-planning.md)   
- [Design Details: Supply Planning](../FullExperience/design-details-supply-planning.md)   
- [Set Up a Company With RapidStart Services for Microsoft Dynamics NAV](../FullExperience/set-up-a-company-with-rapidstart-services-for-microsoft-dynamics-nav.md)
+ [Setup Best Practices: Supply Planning](../setup-best-practices-supply-planning.md)   
+ [Design Details: Supply Planning](../design-details-supply-planning.md)   
+ [Set Up a Company With RapidStart Services for Microsoft Dynamics NAV](../set-up-a-company-with-rapidstart-services-for-microsoft-dynamics-nav.md)

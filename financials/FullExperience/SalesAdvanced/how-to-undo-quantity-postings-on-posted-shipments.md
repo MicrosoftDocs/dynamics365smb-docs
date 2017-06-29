@@ -24,7 +24,7 @@ Sometimes, you may make an incorrect quantity posting. For example, you may have
   
 2.  Open the relevant posted sales shipment, and select the line or lines you want to correct.  
   
-3.  On the **Lines** FastTab, choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Functions**, and then choose **Undo Shipment**.  
+3.  On the **Lines** FastTab, choose **Actions**![Action Menu icon](../media/actionmenuicon.png "actionMenuIcon"), choose **Functions**, and then choose **Undo Shipment**.  
   
      A corrective line is created in the posted document. The **Quantity Shipped** field on the sales order is decreased by the quantity that you have undone. In turn, the **Qty. to Ship** is increased by the undone quantity. On the posted shipment line, in the corrective line **Quantity** is equal to the quantity of the line being undone. The **Correction** check box is selected for the lines.  
   
@@ -37,7 +37,7 @@ Sometimes, you may make an incorrect quantity posting. For example, you may have
      If the order is to be shipped through a warehouse shipment, then create and post a new warehouse shipment.  
   
 > [!NOTE]  
->  If the item on the shipment was assembled to order, then the linked assembly order will automatically be reversed when you undo the shipment. For more information, see [How to: Undo Assembly Posting](../FullExperience/how-to-undo-assembly-posting.md).  
+>  If the item on the shipment was assembled to order, then the linked assembly order will automatically be reversed when you undo the shipment. For more information, see [How to: Undo Assembly Posting](../how-to-undo-assembly-posting.md).  
   
 > [!NOTE]  
 >  If the sales shipment is posted as a result of a drop shipment, you cannot undo the quantity posting because it is linked to a posted purchase receipt.  
@@ -49,5 +49,5 @@ Sometimes, you may make an incorrect quantity posting. For example, you may have
  Posted Sales Shipment   
  Sales Order   
  Assembly Order   
- [How to: Sell Items Assembled to Order](../FullExperience/how-to-sell-items-assembled-to-order.md)   
- [Process Sales](../FullExperience/process-sales.md)
+ [How to: Sell Items Assembled to Order](../how-to-sell-items-assembled-to-order.md)   
+ [Process Sales](../process-sales.md)

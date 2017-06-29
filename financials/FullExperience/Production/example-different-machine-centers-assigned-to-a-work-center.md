@@ -27,5 +27,5 @@ It is important to plan which capacities are to make up the total capacity when 
 ## See Also  
  Work Center Card   
  Machine Center Card   
- [Shop Calendars](../FullExperience/shop-calendars.md)   
+ [Shop Calendars](../shop-calendars.md)   
  Consolidated Calendar

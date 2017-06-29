@@ -26,17 +26,17 @@ When you register service item lines in service orders or quotes, you can view t
   
 3.  Select the service item line you want to view troubleshooting guidelines for.  
   
-4.  Choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Line**, and then choose **Troubleshooting**.  
+4.  Choose **Actions**![Action Menu icon](../media/actionmenuicon.png "actionMenuIcon"), choose **Line**, and then choose **Troubleshooting**.  
   
  If there are troubleshooting guidelines for the service item on the line, they appear in the **Troubleshooting** window. Troubleshooting guidelines can be assigned specifically to the service item on the line, to the item on the line, or to the service item group on the line. If there are not any troubleshooting guidelines, a message is displayed.  
   
 ## See Also  
- [How to: Assign Troubleshooting Guidelines to Service Item Groups](../FullExperience/how-to-assign-troubleshooting-guidelines-to-service-item-groups.md)   
- [How to: Assign Troubleshooting Guidelines to Items](../FullExperience/how-to-assign-troubleshooting-guidelines-to-items.md)   
- [How to: Assign Troubleshooting Guidelines to Service Item Groups](../FullExperience/how-to-assign-troubleshooting-guidelines-to-service-item-groups.md)   
- [How to: Assign Troubleshooting Guidelines to Items](../FullExperience/how-to-assign-troubleshooting-guidelines-to-items.md)   
- [How to: Assign Troubleshooting Guidelines to Service Items](../FullExperience/how-to-assign-troubleshooting-guidelines-to-service-items.md)   
- [How to: Assign Troubleshooting Guidelines to Service Item Groups](../FullExperience/how-to-assign-troubleshooting-guidelines-to-service-item-groups.md)   
- [How to: Assign Troubleshooting Guidelines to Service Items](../FullExperience/how-to-assign-troubleshooting-guidelines-to-service-items.md)   
- [How to: Set Up Troubleshooting Guidelines](../FullExperience/how-to-set-up-troubleshooting-guidelines.md)   
- [How to: Assign Troubleshooting Guidelines to Service Item Groups](../FullExperience/how-to-assign-troubleshooting-guidelines-to-service-item-groups.md)
+ [How to: Assign Troubleshooting Guidelines to Service Item Groups](../how-to-assign-troubleshooting-guidelines-to-service-item-groups.md)   
+ [How to: Assign Troubleshooting Guidelines to Items](../how-to-assign-troubleshooting-guidelines-to-items.md)   
+ [How to: Assign Troubleshooting Guidelines to Service Item Groups](../how-to-assign-troubleshooting-guidelines-to-service-item-groups.md)   
+ [How to: Assign Troubleshooting Guidelines to Items](../how-to-assign-troubleshooting-guidelines-to-items.md)   
+ [How to: Assign Troubleshooting Guidelines to Service Items](../how-to-assign-troubleshooting-guidelines-to-service-items.md)   
+ [How to: Assign Troubleshooting Guidelines to Service Item Groups](../how-to-assign-troubleshooting-guidelines-to-service-item-groups.md)   
+ [How to: Assign Troubleshooting Guidelines to Service Items](../how-to-assign-troubleshooting-guidelines-to-service-items.md)   
+ [How to: Set Up Troubleshooting Guidelines](../how-to-set-up-troubleshooting-guidelines.md)   
+ [How to: Assign Troubleshooting Guidelines to Service Item Groups](../how-to-assign-troubleshooting-guidelines-to-service-item-groups.md)

@@ -33,5 +33,5 @@ You may at times need to modify bin content to update the details of a bin conte
   
 ## See Also  
  Bin Contents   
- [How to: Set Up Bin Contents](../FullExperience/how-to-set-up-bin-contents.md)   
+ [How to: Set Up Bin Contents](../how-to-set-up-bin-contents.md)   
  Bins

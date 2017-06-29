@@ -30,7 +30,7 @@ There are several ways you can determine the text that appears on the printed re
   
 ## See Also  
  Update Reminder Text   
- [How to: Set Up Reminder Levels](../FullExperience/how-to-set-up-reminder-levels.md)   
- [How to: Set Up Reminder Text](../FullExperience/how-to-set-up-reminder-text.md)   
- [How to: Create Reminders Automatically](../FullExperience/how-to-create-reminders-automatically.md)   
- [How to: Create Reminders Manually](../FullExperience/how-to-create-reminders-manually.md)
+ [How to: Set Up Reminder Levels](../how-to-set-up-reminder-levels.md)   
+ [How to: Set Up Reminder Text](../how-to-set-up-reminder-text.md)   
+ [How to: Create Reminders Automatically](../how-to-create-reminders-automatically.md)   
+ [How to: Create Reminders Manually](../how-to-create-reminders-manually.md)

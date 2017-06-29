@@ -86,11 +86,11 @@ You can use the **General Ledger Setup** window to set up unrealized sales tax. 
 9. Choose the **OK** button.  
   
 ## See Also  
- [How to: Set Up Sales Tax](../FullExperience/how-to-set-up-sales-tax.md)   
- [How to: Set Up Sales Tax Groups](../FullExperience/how-to-set-up-sales-tax-groups.md)   
- [How to: Set Up Sales Tax Jurisdictions](../FullExperience/how-to-set-up-sales-tax-jurisdictions.md)   
- [How to: Set Up Sales Tax Details](../FullExperience/how-to-set-up-sales-tax-details.md)   
- [How to: Set Up Use Tax and Purchase Tax](../FullExperience/how-to-set-up-use-tax-and-purchase-tax.md)   
+ [How to: Set Up Sales Tax](../how-to-set-up-sales-tax.md)   
+ [How to: Set Up Sales Tax Groups](../how-to-set-up-sales-tax-groups.md)   
+ [How to: Set Up Sales Tax Jurisdictions](../how-to-set-up-sales-tax-jurisdictions.md)   
+ [How to: Set Up Sales Tax Details](../how-to-set-up-sales-tax-details.md)   
+ [How to: Set Up Use Tax and Purchase Tax](../how-to-set-up-use-tax-and-purchase-tax.md)   
  General Ledger Setup   
- [\($ T\_311 Sales & Receivables Setup $\)](../FullExperience/\($%20T_311%20Sales%20&%20Receivables%20Setup%20$\).md)   
- [\($ N\_460 Purchases & Payables Setup $\)](../FullExperience/-$-n_460-purchases-payables-setup-$-.md)
+ [\($ T\_311 Sales & Receivables Setup $\)](../\($%20T_311%20Sales%20&%20Receivables%20Setup%20$\).md)   
+ [\($ N\_460 Purchases & Payables Setup $\)](../-$-n_460-purchases-payables-setup-$-.md)

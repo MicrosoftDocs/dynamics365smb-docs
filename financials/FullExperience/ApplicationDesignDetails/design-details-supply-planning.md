@@ -21,18 +21,18 @@ This documentation provides detailed technical insight to the concepts and princ
  It explains how the planning system works and how to adjust the algorithms to meet planning requirements in different environments. It first introduces central solution concepts and then describes the logic of the central mechanism, supply balancing, before proceeding to explain how inventory planning is performed with the use of reordering policies.  
   
 ## In This Section  
- [Design Details: Central Concepts of the Planning System](../FullExperience/design-details-central-concepts-of-the-planning-system.md)  
+ [Design Details: Central Concepts of the Planning System](../design-details-central-concepts-of-the-planning-system.md)  
   
- [Design Details: Reservation, Order Tracking, and Action Messaging](../FullExperience/design-details-reservation-order-tracking-and-action-messaging.md)  
+ [Design Details: Reservation, Order Tracking, and Action Messaging](../design-details-reservation-order-tracking-and-action-messaging.md)  
   
- [Design Details: Balancing Demand and Supply](../FullExperience/design-details-balancing-demand-and-supply.md)  
+ [Design Details: Balancing Demand and Supply](../design-details-balancing-demand-and-supply.md)  
   
- [Design Details: Handling Reordering Policies](../FullExperience/design-details-handling-reordering-policies.md)  
+ [Design Details: Handling Reordering Policies](../design-details-handling-reordering-policies.md)  
   
- [Design Details: Planning Parameters](../FullExperience/design-details-planning-parameters.md)  
+ [Design Details: Planning Parameters](../design-details-planning-parameters.md)  
   
- [Design Details: Planning Assignment Table](../FullExperience/design-details-planning-assignment-table.md)  
+ [Design Details: Planning Assignment Table](../design-details-planning-assignment-table.md)  
   
- [Design Details: Demand at Blank Location](../FullExperience/design-details-demand-at-blank-location.md)  
+ [Design Details: Demand at Blank Location](../design-details-demand-at-blank-location.md)  
   
- [Design Details: Transfers in Planning](../FullExperience/design-details-transfers-in-planning.md)
+ [Design Details: Transfers in Planning](../design-details-transfers-in-planning.md)

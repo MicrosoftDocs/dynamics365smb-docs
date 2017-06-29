@@ -28,5 +28,5 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> lets you easil
   
 ## See Also  
  Purchase Header   
- [How to: Set Up Standard Purchase and Sales Lines](../FullExperience/how-to-set-up-standard-purchase-and-sales-lines.md)   
+ [How to: Set Up Standard Purchase and Sales Lines](../how-to-set-up-standard-purchase-and-sales-lines.md)   
  Standard Purchase Code

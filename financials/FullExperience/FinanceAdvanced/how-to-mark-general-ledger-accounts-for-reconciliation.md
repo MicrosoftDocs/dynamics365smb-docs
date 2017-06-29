@@ -29,5 +29,5 @@ After you have filled in a general journal and before you post it, you may want 
 3.  On the **General** FastTab, select the **Reconciliation Account** check box.  
   
 ## See Also  
- [How to: Reconcile Liquid Accounts](../FullExperience/how-to-reconcile-liquid-accounts.md)   
- [How to: Fill and Post General Journals](../FullExperience/how-to-fill-and-post-general-journals.md)
+ [How to: Reconcile Liquid Accounts](../how-to-reconcile-liquid-accounts.md)   
+ [How to: Fill and Post General Journals](../how-to-fill-and-post-general-journals.md)

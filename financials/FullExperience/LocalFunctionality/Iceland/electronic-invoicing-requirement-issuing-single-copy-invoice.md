@@ -24,4 +24,4 @@ In Iceland, you must send a report to the government if an invoice has been prin
   
 ## See Also  
  IRS notification   
- [\($ N\_459 Sales & Receivables Setup $\)](../FullExperience/-$-n_459-sales-receivables-setup-$-.md)
+ [\($ N\_459 Sales & Receivables Setup $\)](../-$-n_459-sales-receivables-setup-$-.md)

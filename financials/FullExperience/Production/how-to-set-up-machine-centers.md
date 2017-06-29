@@ -34,11 +34,11 @@ The machine centers are used as the lowest capacity level. No further subdivisio
 >  The **Work Center No.** field is used to link the machine center to a work center.  
   
 ## See Also  
- [Structure of the Capacity](../FullExperience/structure-of-the-capacity.md)   
- [How to: Display Machine Center Statistics](../FullExperience/how-to-display-machine-center-statistics.md)   
- [How to: Enter Comments for Machine Centers](../FullExperience/how-to-enter-comments-for-machine-centers.md)   
- [How to: Display the Machine Center Ledger Entries](../FullExperience/how-to-display-the-machine-center-ledger-entries.md)   
- [How to: Display the Load on Machine Centers](../FullExperience/how-to-display-the-load-on-machine-centers.md)   
- [How to: Set Up Work Centers](../FullExperience/how-to-set-up-work-centers.md)   
- [How to: Assign General Production Posting Groups to Work Centers and Machine Centers](../FullExperience/how-to-assign-general-production-posting-groups-to-work-centers-and-machine-centers.md)   
- [How to: Create Work Center Calendars](../FullExperience/how-to-create-work-center-calendars.md)
+ [Structure of the Capacity](../structure-of-the-capacity.md)   
+ [How to: Display Machine Center Statistics](../how-to-display-machine-center-statistics.md)   
+ [How to: Enter Comments for Machine Centers](../how-to-enter-comments-for-machine-centers.md)   
+ [How to: Display the Machine Center Ledger Entries](../how-to-display-the-machine-center-ledger-entries.md)   
+ [How to: Display the Load on Machine Centers](../how-to-display-the-load-on-machine-centers.md)   
+ [How to: Set Up Work Centers](../how-to-set-up-work-centers.md)   
+ [How to: Assign General Production Posting Groups to Work Centers and Machine Centers](../how-to-assign-general-production-posting-groups-to-work-centers-and-machine-centers.md)   
+ [How to: Create Work Center Calendars](../how-to-create-work-center-calendars.md)

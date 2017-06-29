@@ -32,7 +32,7 @@ A global dimension is a dimension that you can use as a filter anywhere in ADD I
 4.  View the global dimensions on the **Dimensions** FastTab.  
   
 ## See Also  
- [How to: Set Up Shortcut Dimensions](../FullExperience/how-to-set-up-shortcut-dimensions.md)   
+ [How to: Set Up Shortcut Dimensions](../how-to-set-up-shortcut-dimensions.md)   
  Default Dimension   
  Dimension   
  Analysis by Dimensions

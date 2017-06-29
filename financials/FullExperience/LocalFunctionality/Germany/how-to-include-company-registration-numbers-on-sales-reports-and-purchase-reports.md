@@ -38,4 +38,4 @@ When generating certain sales reports and purchase reports, you can print regist
   
 ## See Also  
  Company Information   
- [How to: Register New Vendors](../FullExperience/how-to-register-new-vendors.md)
+ [How to: Register New Vendors](../how-to-register-new-vendors.md)

@@ -24,12 +24,12 @@ Depending on the requirements of your country\/region, you must submit periodic 
  For detailed information about how ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> Help collection.  
   
 ### VAT and VIES Report Configuration  
- Before you can create VAT reports, you must specify a number series that will be used for VAT reports and you must specify if your company can make corrective VAT reports. For more information, see [How to: Set Up VAT Reports-duplicate](../FullExperience/how-to-set-up-vat-reports-duplicate.md).  
+ Before you can create VAT reports, you must specify a number series that will be used for VAT reports and you must specify if your company can make corrective VAT reports. For more information, see [How to: Set Up VAT Reports-duplicate](../how-to-set-up-vat-reports-duplicate.md).  
   
- You must also set up general information about how the VAT reports will be created. As part of this, you must specify which processes must be used to print or export the reports. This configuration is performed in preconfigured codeunits. For more information, see [How to: Configure VAT Reports](../FullExperience/how-to-configure-vat-reports.md).  
+ You must also set up general information about how the VAT reports will be created. As part of this, you must specify which processes must be used to print or export the reports. This configuration is performed in preconfigured codeunits. For more information, see [How to: Configure VAT Reports](../how-to-configure-vat-reports.md).  
   
 > [!IMPORTANT]  
 >  You must be familiar with C\/AL development in order to configure how VAT reports are printed or exported.  
   
 ## See Also  
- [How to: Configure VAT Reports](../FullExperience/how-to-configure-vat-reports.md)
+ [How to: Configure VAT Reports](../how-to-configure-vat-reports.md)

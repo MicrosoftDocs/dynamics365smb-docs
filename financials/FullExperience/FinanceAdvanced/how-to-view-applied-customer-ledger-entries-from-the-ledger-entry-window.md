@@ -29,7 +29,7 @@ After entries have been completely or partially closed, during posting or afterw
 4.  On the **Navigate** tab, in the **Entry** group, choose **Applied Entries**.  
   
 ## See Also  
- [How to: Allow for Rounding Differences When You Apply Entries in Different Currencies](../FullExperience/how-to-allow-for-rounding-differences-when-you-apply-entries-in-different-currencies.md)   
- [How to: Allow for Application of Customer Ledger Entries in Different Currencies](../FullExperience/how-to-allow-for-application-of-customer-ledger-entries-in-different-currencies.md)   
- [How to: View Open Applied Customer Ledger Entries in the Customer Ledger Entries Window](../FullExperience/how-to-view-open-applied-customer-ledger-entries-in-the-customer-ledger-entries-window.md)   
- [How to: Unapply Applied Customer or Vendor Ledger Entries](../FullExperience/How%20to:%20Unapply%20Applied%20Customer%20or%20Vendor%20Ledger%20Entries.md)
+ [How to: Allow for Rounding Differences When You Apply Entries in Different Currencies](../how-to-allow-for-rounding-differences-when-you-apply-entries-in-different-currencies.md)   
+ [How to: Allow for Application of Customer Ledger Entries in Different Currencies](../how-to-allow-for-application-of-customer-ledger-entries-in-different-currencies.md)   
+ [How to: View Open Applied Customer Ledger Entries in the Customer Ledger Entries Window](../how-to-view-open-applied-customer-ledger-entries-in-the-customer-ledger-entries-window.md)   
+ [How to: Unapply Applied Customer or Vendor Ledger Entries](../How%20to:%20Unapply%20Applied%20Customer%20or%20Vendor%20Ledger%20Entries.md)

@@ -64,10 +64,10 @@ Cost objects are projects, products, or services of a company. The chart of cost
 ## See Also  
  Chart of Cost Objects   
  Cost Object Card   
- [Defining Cost Centers and Cost Objects for Chart of Accounts](../FullExperience/defining-cost-centers-and-cost-objects-for-chart-of-accounts.md)   
- [Balances Between Cost Type, Cost Center, and Cost Object](../FullExperience/balances-between-cost-type-cost-center-and-cost-object.md)   
+ [Defining Cost Centers and Cost Objects for Chart of Accounts](../defining-cost-centers-and-cost-objects-for-chart-of-accounts.md)   
+ [Balances Between Cost Type, Cost Center, and Cost Object](../balances-between-cost-type-cost-center-and-cost-object.md)   
  Update Cost Acctg. Dimensions   
  Align Cost Object Dimension   
- [Set Up Cost Accounting](../FullExperience/set-up-cost-accounting.md)   
- [Terminology in Cost Accounting](../FullExperience/terminology-in-cost-accounting.md)   
- [About Cost Accounting](../FullExperience/about-cost-accounting.md)
+ [Set Up Cost Accounting](../set-up-cost-accounting.md)   
+ [Terminology in Cost Accounting](../terminology-in-cost-accounting.md)   
+ [About Cost Accounting](../about-cost-accounting.md)

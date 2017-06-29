@@ -29,6 +29,6 @@ You must assign a general product posting group to each work center and machine 
  You use the same procedure to assign a general product posting group to a machine center from the **Machine Center** card.  
   
 ## See Also  
- [How to: Set Up Work Centers](../FullExperience/how-to-set-up-work-centers.md)   
- [How to: Set Up Machine Centers](../FullExperience/how-to-set-up-machine-centers.md)   
- [How to: Set Up Work Center Groups](../FullExperience/how-to-set-up-work-center-groups.md)
+ [How to: Set Up Work Centers](../how-to-set-up-work-centers.md)   
+ [How to: Set Up Machine Centers](../how-to-set-up-machine-centers.md)   
+ [How to: Set Up Work Center Groups](../how-to-set-up-work-center-groups.md)

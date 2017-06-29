@@ -35,7 +35,7 @@ When a taxonomy changes you need to update the current taxonomy accordingly. The
 7.  Choose the **Yes** button to apply the linkbase to the schema.  
   
 ## See Also  
- [How to: Set Up XBRL Lines](../FullExperience/how-to-set-up-xbrl-lines.md)   
- [How to: Set Up XBRL Lines](../FullExperience/how-to-set-up-xbrl-lines.md)   
+ [How to: Set Up XBRL Lines](../how-to-set-up-xbrl-lines.md)   
+ [How to: Set Up XBRL Lines](../how-to-set-up-xbrl-lines.md)   
  XBRL Export Instance - Spec. 2   
- [eXtensible Business Reporting Language](../FullExperience/extensible-business-reporting-language.md)
+ [eXtensible Business Reporting Language](../extensible-business-reporting-language.md)

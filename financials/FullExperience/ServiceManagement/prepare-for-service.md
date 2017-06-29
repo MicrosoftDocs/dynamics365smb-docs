@@ -24,8 +24,8 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> makes it easy 
   
 |**To**|**See**|  
 |------------|-------------|  
-|Learn more about posting features for service management.|[Service Posting](../FullExperience/service-posting.md)|  
-|Update inventory and other resource use from a service order.|[How to: Post Shipments from Service Orders](../FullExperience/how-to-post-shipments-from-service-orders.md)|  
+|Learn more about posting features for service management.|[Service Posting](../service-posting.md)|  
+|Update inventory and other resource use from a service order.|[How to: Post Shipments from Service Orders](../how-to-post-shipments-from-service-orders.md)|  
   
 ## See Also  
- [How to: Check Service Orders Before Posting Them](../FullExperience/how-to-check-service-orders-before-posting-them.md)
+ [How to: Check Service Orders Before Posting Them](../how-to-check-service-orders-before-posting-them.md)

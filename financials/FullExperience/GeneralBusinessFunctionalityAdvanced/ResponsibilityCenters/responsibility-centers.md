@@ -22,9 +22,9 @@ Responsibility centers providing the ability to handle administrative centers. A
   
 |**To**|**See**|  
 |------------|-------------|  
-|Learn how to manage multi-site companies in the most flexible, optimal way.|[About Using Locations and Responsibility Centers](../FullExperience/about-using-locations-and-responsibility-centers.md)|  
-|Administer your business.|[How to: Set Up Responsibility Centers in Inventory](../FullExperience/how-to-set-up-responsibility-centers-in-inventory.md)|  
-|Assign responsibility centers to users.|[How to: View Documents from One Responsibility Center](../FullExperience/how-to-view-documents-from-one-responsibility-center.md)|  
+|Learn how to manage multi-site companies in the most flexible, optimal way.|[About Using Locations and Responsibility Centers](../about-using-locations-and-responsibility-centers.md)|  
+|Administer your business.|[How to: Set Up Responsibility Centers in Inventory](../how-to-set-up-responsibility-centers-in-inventory.md)|  
+|Assign responsibility centers to users.|[How to: View Documents from One Responsibility Center](../how-to-view-documents-from-one-responsibility-center.md)|  
   
 ## See Also  
- [How to: Set Up Locations](../FullExperience/how-to-set-up-locations.md)
+ [How to: Set Up Locations](../how-to-set-up-locations.md)

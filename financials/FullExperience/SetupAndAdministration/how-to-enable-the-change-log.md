@@ -58,7 +58,7 @@ A common problem in an administrative computer system is to locate the origin of
 -   **User Property**  
   
 ## See Also  
- [How to: View Change Log Entries](../FullExperience/how-to-view-change-log-entries.md)   
- [How to: Delete Change Log Entries](../FullExperience/how-to-delete-change-log-entries.md)   
- [How to: Print Change Log Entries](../FullExperience/how-to-print-change-log-entries.md)   
+ [How to: View Change Log Entries](../how-to-view-change-log-entries.md)   
+ [How to: Delete Change Log Entries](../how-to-delete-change-log-entries.md)   
+ [How to: Print Change Log Entries](../how-to-print-change-log-entries.md)   
  Change Log Activated

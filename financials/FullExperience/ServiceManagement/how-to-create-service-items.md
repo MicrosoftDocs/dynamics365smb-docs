@@ -39,10 +39,10 @@ When you receive an unregistered item for servicing, you can register it as a se
  Repeat these steps for each service item you want to create.  
   
 ## See Also  
- [How to: Create Service Items When Shipping Items](../FullExperience/how-to-create-service-items-when-shipping-items.md)   
- [How to: Register Service Item Comments](../FullExperience/how-to-register-service-item-comments.md)   
- [How to: Set Up Service Item Components](../FullExperience/how-to-set-up-service-item-components.md)   
- [How to: Assign Skill Codes to Items and Service Items](../FullExperience/how-to-assign-skill-codes-to-items-and-service-items.md)   
- [How to: Assign Troubleshooting Guidelines to Service Items](../FullExperience/how-to-assign-troubleshooting-guidelines-to-service-items.md)   
- [How to: Set Up Service Item Groups](../FullExperience/how-to-set-up-service-item-groups.md)   
- [How to: Create Service Items in Service Orders](../FullExperience/how-to-create-service-items-in-service-orders.md)
+ [How to: Create Service Items When Shipping Items](../how-to-create-service-items-when-shipping-items.md)   
+ [How to: Register Service Item Comments](../how-to-register-service-item-comments.md)   
+ [How to: Set Up Service Item Components](../how-to-set-up-service-item-components.md)   
+ [How to: Assign Skill Codes to Items and Service Items](../how-to-assign-skill-codes-to-items-and-service-items.md)   
+ [How to: Assign Troubleshooting Guidelines to Service Items](../how-to-assign-troubleshooting-guidelines-to-service-items.md)   
+ [How to: Set Up Service Item Groups](../how-to-set-up-service-item-groups.md)   
+ [How to: Create Service Items in Service Orders](../how-to-create-service-items-in-service-orders.md)

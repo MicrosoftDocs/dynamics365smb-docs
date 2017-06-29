@@ -27,7 +27,7 @@ You can add or remove FactBoxes in the FactBox pane with the **Customize** dialo
   
 #### To start customizing a FactBox Pane  
   
-1.  On the **Application** menu ![Microsoft Dynamics NAV Application menu](../FullExperience/media/rtc_applicationmenu.png "RTC\_ApplicationMenu"), select **Customize**, and then choose **Customize This Page**.  
+1.  On the **Application** menu ![Microsoft Dynamics NAV Application menu](../media/rtc_applicationmenu.png "RTC\_ApplicationMenu"), select **Customize**, and then choose **Customize This Page**.  
   
 2.  In the **Customize \<Page Name\>** dialog box, select **FactBoxes**.  
   
@@ -52,13 +52,13 @@ You can add or remove FactBoxes in the FactBox pane with the **Customize** dialo
 -   Choose the **Restore Defaults** button, and then choose the **OK** button.  
   
     > [!NOTE]  
-    >  All the FastBox Pane customization that you have ever made for this page under your current user logon or since you last used the **Restore Defaults** button are canceled. The FactBox Pane is reset to the default configuration for your profile. For more information, see [How to: Cancel UI Personalization](../FullExperience/how-to-cancel-ui-personalization.md).  
+    >  All the FastBox Pane customization that you have ever made for this page under your current user logon or since you last used the **Restore Defaults** button are canceled. The FactBox Pane is reset to the default configuration for your profile. For more information, see [How to: Cancel UI Personalization](../how-to-cancel-ui-personalization.md).  
   
 ## Customizing FactBoxes  
   
 #### To start customizing a FactBox  
   
-1.  Pause on the FactBox with the pointer until the **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon") menu is displayed.  
+1.  Pause on the FactBox with the pointer until the **Actions**![Action Menu icon](../media/actionmenuicon.png "actionMenuIcon") menu is displayed.  
   
 2.  Choose **Actions**, and then choose **Customize**.  
   
@@ -75,15 +75,15 @@ You can add or remove FactBoxes in the FactBox pane with the **Customize** dialo
 -   In the **Customize** window, choose the **Restore Defaults** button, and then choose the **OK** button.  
   
     > [!NOTE]  
-    >  All customization of FactBoxes that you have ever made for this page under your current user logon or since you last used the **Restore Defaults** button are canceled. The FactBoxes on the page are reset to the default configuration for your profile. For more information, see [How to: Cancel UI Personalization](../FullExperience/how-to-cancel-ui-personalization.md).  
+    >  All customization of FactBoxes that you have ever made for this page under your current user logon or since you last used the **Restore Defaults** button are canceled. The FactBoxes on the page are reset to the default configuration for your profile. For more information, see [How to: Cancel UI Personalization](../how-to-cancel-ui-personalization.md).  
   
 ## See Also  
  PERSONALIZATION Personalize the User Interface   
- [How to: Customize Ribbons](../FullExperience/how-to-customize-ribbons.md)   
- [How to: Customize FastTabs](../FullExperience/how-to-customize-fasttabs.md)   
- [How to: Specify When UI Elements Are Removed](../FullExperience/How%20to:%20Specify%20When%20UI%20Elements%20Are%20Removed.md)   
- [How to: Cancel UI Personalization](../FullExperience/how-to-cancel-ui-personalization.md)   
+ [How to: Customize Ribbons](../how-to-customize-ribbons.md)   
+ [How to: Customize FastTabs](../how-to-customize-fasttabs.md)   
+ [How to: Specify When UI Elements Are Removed](../How%20to:%20Specify%20When%20UI%20Elements%20Are%20Removed.md)   
+ [How to: Cancel UI Personalization](../how-to-cancel-ui-personalization.md)   
  Delete User Personalization   
- [Customize the User Interface](../FullExperience/customize-the-user-interface.md)   
- [Working with Product Name](../FullExperience/working-with-$-p_1-product-name-$-.md)   
- [Learn About the RoleTailored Design](../FullExperience/learn-about-the-roletailored-design.md)
+ [Customize the User Interface](../customize-the-user-interface.md)   
+ [Working with Product Name](../working-with-$-p_1-product-name-$-.md)   
+ [Learn About the RoleTailored Design](../learn-about-the-roletailored-design.md)

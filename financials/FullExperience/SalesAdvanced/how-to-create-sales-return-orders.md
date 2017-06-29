@@ -37,17 +37,17 @@ You may agree to compensate a customer for an item that you sold them by allowin
     -   You can use the **Copy Document** batch job to copy an existing document to the return order. Use this function to copy the entire document. It can be either a posted document or a document that is not yet posted. This function only enables exact cost reversing when exact cost reversing is set up as mandatory in the sales and receivables setup.  
   
     -   You can use the **Get Posted Document Lines to Reverse** function to copy one or more posted document lines from one or more posted documents. This function always exactly reverses the costs from the posted document line, regardless of whether exact cost reversing is set up as mandatory in the sales and receivables setup.   
-        When you use either of these functions, a link is created to the original item ledger entries in the **Appl.-from Item Entry** field to ensure that the costs are copied from the original posted document. If the line has item tracking, the **Appl.-from Item Entry** field is filled in on the item tracking line or lines instead of on the document line. For more information, see [How to: Assign Exact Cost Reversing in Sales](../FullExperience/how-to-assign-exact-cost-reversing-in-sales.md).  
+        When you use either of these functions, a link is created to the original item ledger entries in the **Appl.-from Item Entry** field to ensure that the costs are copied from the original posted document. If the line has item tracking, the **Appl.-from Item Entry** field is filled in on the item tracking line or lines instead of on the document line. For more information, see [How to: Assign Exact Cost Reversing in Sales](../how-to-assign-exact-cost-reversing-in-sales.md).  
   
 7.  In the **Return Reason Code** field, select the reason for the return.  
   
  If the location on the sales return order line is set up to require bins, but not to require put-away processing, you can assign a bin code on the line to indicate where the item should be placed when it arrives at the location.  
   
 ## See Also  
- [How to: Create a Restock Charge](../FullExperience/how-to-create-a-restock-charge.md)   
- [How to: Reverse Posted Document Lines](../FullExperience/how-to-reverse-posted-document-lines.md)   
- [How to: Create and Post Sales Allowances](../FullExperience/how-to-create-and-post-sales-allowances.md)   
- [How to: Post Sales Returns](../FullExperience/how-to-post-sales-returns.md)   
- [How to: Create Replacement Sales Orders](../FullExperience/how-to-create-replacement-sales-orders.md)   
- [How to: Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](../FullExperience/how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)   
- [Manage Sales Returns](../FullExperience/manage-sales-returns.md)
+ [How to: Create a Restock Charge](../how-to-create-a-restock-charge.md)   
+ [How to: Reverse Posted Document Lines](../how-to-reverse-posted-document-lines.md)   
+ [How to: Create and Post Sales Allowances](../how-to-create-and-post-sales-allowances.md)   
+ [How to: Post Sales Returns](../how-to-post-sales-returns.md)   
+ [How to: Create Replacement Sales Orders](../how-to-create-replacement-sales-orders.md)   
+ [How to: Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](../how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)   
+ [Manage Sales Returns](../manage-sales-returns.md)

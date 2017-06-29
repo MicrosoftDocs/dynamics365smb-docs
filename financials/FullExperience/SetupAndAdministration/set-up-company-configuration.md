@@ -30,14 +30,14 @@ The implementation process begins with the ADD INCLUDE<!--[!INCLUDE[navnow](../.
   
 |**To**|**See**|  
 |------------|-------------|  
-|Plan a configuration.|[How to: Manage Company Configuration in a Worksheet](../FullExperience/how-to-manage-company-configuration-in-a-worksheet.md)|  
-|Create configuration package.|[How to: Create a Configuration Package](../FullExperience/how-to-create-a-configuration-package.md)|  
-|Gather and categorize the information that you want to use to configure a new company and arrange tables in a logical way in the **Configuration Worksheet** window.|[How to: Customize a Package or Worksheet](../FullExperience/how-to-customize-a-package-or-worksheet.md)|  
-|Assign your defined tables to configuration packages in the **Configuration Worksheet** window.|[How to: Assign a Configuration Package](../FullExperience/how-to-assign-a-configuration-package.md)|  
-|Modify configuration data.|[How to: Review and Customize Existing Database Data](../FullExperience/how-to-review-and-customize-existing-database-data.md)|  
-|Modify permission sets with default permissions using RapidStart Services.|[How to: Work with the BASIC Permission Set](../FullExperience/how-to-work-with-the-basic-permission-set.md)|  
-|Create a new company and copy data to a production environment.|[How to: Copy Data from Test Environment to Production Environment](../FullExperience/how-to-copy-data-from-test-environment-to-production-environment.md)|  
+|Plan a configuration.|[How to: Manage Company Configuration in a Worksheet](../how-to-manage-company-configuration-in-a-worksheet.md)|  
+|Create configuration package.|[How to: Create a Configuration Package](../how-to-create-a-configuration-package.md)|  
+|Gather and categorize the information that you want to use to configure a new company and arrange tables in a logical way in the **Configuration Worksheet** window.|[How to: Customize a Package or Worksheet](../how-to-customize-a-package-or-worksheet.md)|  
+|Assign your defined tables to configuration packages in the **Configuration Worksheet** window.|[How to: Assign a Configuration Package](../how-to-assign-a-configuration-package.md)|  
+|Modify configuration data.|[How to: Review and Customize Existing Database Data](../how-to-review-and-customize-existing-database-data.md)|  
+|Modify permission sets with default permissions using RapidStart Services.|[How to: Work with the BASIC Permission Set](../how-to-work-with-the-basic-permission-set.md)|  
+|Create a new company and copy data to a production environment.|[How to: Copy Data from Test Environment to Production Environment](../how-to-copy-data-from-test-environment-to-production-environment.md)|  
   
 ## See Also  
- [Setup and Administration](../FullExperience/setup-and-administration.md)   
- [Set Up Complex Application Areas Using Best Practices](../FullExperience/set-up-complex-application-areas-using-best-practices.md)
+ [Setup and Administration](../setup-and-administration.md)   
+ [Set Up Complex Application Areas Using Best Practices](../set-up-complex-application-areas-using-best-practices.md)

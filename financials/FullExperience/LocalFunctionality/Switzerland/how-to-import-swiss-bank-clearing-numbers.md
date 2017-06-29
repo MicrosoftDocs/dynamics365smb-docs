@@ -47,8 +47,8 @@ Bank clearing numbers are unique numbers used to identify each bank agency or br
 5.  Choose the **OK** button.  
   
 ## See Also  
- [Swiss Electronic Payments](../FullExperience/swiss-electronic-payments.md)   
+ [Swiss Electronic Payments](../swiss-electronic-payments.md)   
  Bank Directory   
  Customer Bank Account   
  Vendor Bank Account   
- [How to: Set Up Vendor Bank Accounts](../FullExperience/how-to-set-up-vendor-bank-accounts.md)
+ [How to: Set Up Vendor Bank Accounts](../how-to-set-up-vendor-bank-accounts.md)

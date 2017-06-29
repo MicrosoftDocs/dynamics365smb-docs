@@ -37,10 +37,10 @@ After you have created a service order or service quote, registered service item
      Fill in the **Repair Status** field with the **Finished** or **Partly Serviced** status if the service item has been completely serviced or another resource will continue servicing. The **Finished** or **Reallocation Needed** status is specified automatically for the allocation entry corresponding to the service item.  
   
 ## See Also  
- [Allocation Status and Repair Status](../FullExperience/allocation-status-and-repair-status.md)   
- [How to: Insert Starting Fees for Service Items](../FullExperience/how-to-insert-starting-fees-for-service-items.md)   
- [How to: Insert Travel Fees for Service Items](../FullExperience/how-to-insert-travel-fees-for-service-items.md)   
- [How to: Register Costs for Service Orders](../FullExperience/how-to-register-costs-for-service-orders.md)   
- [How to: Register Resource Hours](../FullExperience/how-to-register-resource-hours.md)   
- [How to: Register Spare Parts](../FullExperience/how-to-register-spare-parts.md)   
- [How to: Register Text Lines](../FullExperience/how-to-register-text-lines.md)
+ [Allocation Status and Repair Status](../allocation-status-and-repair-status.md)   
+ [How to: Insert Starting Fees for Service Items](../how-to-insert-starting-fees-for-service-items.md)   
+ [How to: Insert Travel Fees for Service Items](../how-to-insert-travel-fees-for-service-items.md)   
+ [How to: Register Costs for Service Orders](../how-to-register-costs-for-service-orders.md)   
+ [How to: Register Resource Hours](../how-to-register-resource-hours.md)   
+ [How to: Register Spare Parts](../how-to-register-spare-parts.md)   
+ [How to: Register Text Lines](../how-to-register-text-lines.md)

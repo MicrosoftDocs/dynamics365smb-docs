@@ -47,5 +47,5 @@ You can assign a base calendar to your company and its business partners, such a
 >  Before you can make customized calendar entries, you must first assign a base calendar to the company.  
   
 ## See Also  
- [How to: Set Up Base Calendars](../FullExperience/how-to-set-up-base-calendars.md)   
- [How to: Customize a Calendar](../FullExperience/how-to-customize-a-calendar.md)
+ [How to: Set Up Base Calendars](../how-to-set-up-base-calendars.md)   
+ [How to: Customize a Calendar](../how-to-customize-a-calendar.md)

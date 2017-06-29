@@ -33,5 +33,5 @@ If your location uses both put-away processing and receive processing and you ha
 5.  Fill in the batch job request window to create the put-away, and then choose the **OK** button.  
   
 ## See Also  
- [Put Items Away](../FullExperience/put-items-away.md)   
- [Design Details: Inbound Warehouse Flow](../FullExperience/design-details-inbound-warehouse-flow.md)
+ [Put Items Away](../put-items-away.md)   
+ [Design Details: Inbound Warehouse Flow](../design-details-inbound-warehouse-flow.md)

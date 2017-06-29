@@ -30,6 +30,6 @@ After the working days have been created, the exceptions must be specified.
   
 ## See Also  
  Work Center Calendar   
- [How to: Set Up Shop Calendars](../FullExperience/how-to-set-up-shop-calendars.md)   
- [Shop Calendars](../FullExperience/shop-calendars.md)   
- [How to: Set Up Base Calendars](../FullExperience/how-to-set-up-base-calendars.md)
+ [How to: Set Up Shop Calendars](../how-to-set-up-shop-calendars.md)   
+ [Shop Calendars](../shop-calendars.md)   
+ [How to: Set Up Base Calendars](../how-to-set-up-base-calendars.md)

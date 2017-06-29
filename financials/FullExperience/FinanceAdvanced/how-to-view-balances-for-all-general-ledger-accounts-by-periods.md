@@ -29,6 +29,6 @@ You can view balances for all general ledger accounts for all periods.
 4.  On the **Home** tab, choose **Show Matrix** to view the matrix window.  
   
 ## See Also  
- [How to: View Debit Balances and Credit Balances for All General Ledger Accounts](../FullExperience/how-to-view-debit-balances-and-credit-balances-for-all-general-ledger-accounts.md)   
- [How to: View Debit and Credit Balances for Single General Ledger Accounts](../FullExperience/how-to-view-debit-and-credit-balances-for-single-general-ledger-accounts.md)   
+ [How to: View Debit Balances and Credit Balances for All General Ledger Accounts](../how-to-view-debit-balances-and-credit-balances-for-all-general-ledger-accounts.md)   
+ [How to: View Debit and Credit Balances for Single General Ledger Accounts](../how-to-view-debit-and-credit-balances-for-single-general-ledger-accounts.md)   
  G\/L Balance by Dimension

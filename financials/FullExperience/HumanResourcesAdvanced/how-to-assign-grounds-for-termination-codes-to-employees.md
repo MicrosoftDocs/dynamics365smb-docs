@@ -31,4 +31,4 @@ You can use grounds for termination codes to define various reasons for employee
  Repeat the procedure for all employees that have been terminated.  
   
 ## See Also  
- [How to: Assign Cause of Inactivity Codes to Employees](../FullExperience/how-to-assign-cause-of-inactivity-codes-to-employees.md)
+ [How to: Assign Cause of Inactivity Codes to Employees](../how-to-assign-cause-of-inactivity-codes-to-employees.md)

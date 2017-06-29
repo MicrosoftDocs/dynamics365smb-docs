@@ -44,7 +44,7 @@ You can create different types of VAT reports depending on the requirements of y
     |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**No.**|Specify the report number.<br /><br /> Depending on the type of report, and the configuration in your company, you can use the automatically generated number, select a different number series, or enter a different number manually.|  
-    |**VAT Report Config. Code**|Select the appropriate configuration code.<br /><br /> The configuration code specifies how the VAT report is generated. For more information, see [VAT and VIES Report Setup](../FullExperience/vat-and-vies-report-setup.md).|  
+    |**VAT Report Config. Code**|Select the appropriate configuration code.<br /><br /> The configuration code specifies how the VAT report is generated. For more information, see [VAT and VIES Report Setup](../vat-and-vies-report-setup.md).|  
     |**VAT Report Type**|Specify if you want to create a standard, corrective, or supplementary VAT report.|  
     |**Reference VAT Report**|Specify the original VAT report if you selected a value that is not **Standard** in the **VAT Report Type** field.|  
     |**Start Date**|Specify the start date of the report period.|  
@@ -79,5 +79,5 @@ You can create different types of VAT reports depending on the requirements of y
  If you must submit a corrective VAT report or delete a submitted VAT report, you must create a new VAT report as described earlier.  
   
 ## See Also  
- [VAT and VIES Report Setup](../FullExperience/vat-and-vies-report-setup.md)   
+ [VAT and VIES Report Setup](../vat-and-vies-report-setup.md)   
  No. Series

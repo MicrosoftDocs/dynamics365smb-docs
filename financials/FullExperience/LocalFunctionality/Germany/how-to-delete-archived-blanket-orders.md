@@ -31,9 +31,9 @@ You can delete the archived versions of deleted blanket sales orders and blanket
      This deletes the archived versions of the specified blanket order.  
   
 ## See Also  
- [Enhanced Document Management](../FullExperience/enhanced-document-management.md)   
- [How to: Set Up Automatic Archiving of Documents](../FullExperience/how-to-set-up-automatic-archiving-of-documents.md)   
- [How to: Archive Blanket Orders](../FullExperience/how-to-archive-blanket-orders.md)   
- [How to: Create an Order from an Archived Blanket Order](../FullExperience/how-to-create-an-order-from-an-archived-blanket-order.md)   
- [How to: Track Document Lines](../FullExperience/how-to-track-document-lines.md)   
+ [Enhanced Document Management](../enhanced-document-management.md)   
+ [How to: Set Up Automatic Archiving of Documents](../how-to-set-up-automatic-archiving-of-documents.md)   
+ [How to: Archive Blanket Orders](../how-to-archive-blanket-orders.md)   
+ [How to: Create an Order from an Archived Blanket Order](../how-to-create-an-order-from-an-archived-blanket-order.md)   
+ [How to: Track Document Lines](../how-to-track-document-lines.md)   
  Del. Bl. Sales Order Versions

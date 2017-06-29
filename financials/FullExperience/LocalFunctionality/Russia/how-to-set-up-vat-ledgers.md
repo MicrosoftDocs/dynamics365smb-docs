@@ -57,10 +57,10 @@ VAT ledgers are used to store details about VAT in transactions that involve goo
  Now, you can create VAT ledgers for purchases and sales.  
   
 ## See Also  
- [About Setting Up VAT](../FullExperience/about-setting-up-vat.md)   
- [How to: Set Up VAT Business Posting Groups](../FullExperience/how-to-set-up-vat-business-posting-groups.md)   
- [How to: Assign VAT Business Posting Groups to Customer Accounts and Vendor Accounts](../FullExperience/how-to-assign-vat-business-posting-groups-to-customer-accounts-and-vendor-accounts.md)   
- [How to: Register VAT on Purchase Orders](../FullExperience/how-to-register-vat-on-purchase-orders.md)   
- [How to: Prepare VAT Entries for Posting](../FullExperience/how-to-prepare-vat-entries-for-posting.md)   
- [How to: Create VAT Ledgers](../FullExperience/how-to-create-vat-ledgers.md)   
- [How to: Create Additional Sheets](../FullExperience/how-to-create-additional-sheets.md)
+ [About Setting Up VAT](../about-setting-up-vat.md)   
+ [How to: Set Up VAT Business Posting Groups](../how-to-set-up-vat-business-posting-groups.md)   
+ [How to: Assign VAT Business Posting Groups to Customer Accounts and Vendor Accounts](../how-to-assign-vat-business-posting-groups-to-customer-accounts-and-vendor-accounts.md)   
+ [How to: Register VAT on Purchase Orders](../how-to-register-vat-on-purchase-orders.md)   
+ [How to: Prepare VAT Entries for Posting](../how-to-prepare-vat-entries-for-posting.md)   
+ [How to: Create VAT Ledgers](../how-to-create-vat-ledgers.md)   
+ [How to: Create Additional Sheets](../how-to-create-additional-sheets.md)

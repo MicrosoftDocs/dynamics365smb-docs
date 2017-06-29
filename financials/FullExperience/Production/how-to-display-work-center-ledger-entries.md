@@ -31,6 +31,6 @@ From the **Work Center** card, you can view the posted entries of the work cente
 4.  Close the window.  
   
 ## See Also  
- [Structure of the Capacity](../FullExperience/structure-of-the-capacity.md)   
- [How to: Display the Machine Center Ledger Entries](../FullExperience/how-to-display-the-machine-center-ledger-entries.md)   
- [How to: Set Up Work Centers](../FullExperience/how-to-set-up-work-centers.md)
+ [Structure of the Capacity](../structure-of-the-capacity.md)   
+ [How to: Display the Machine Center Ledger Entries](../how-to-display-the-machine-center-ledger-entries.md)   
+ [How to: Set Up Work Centers](../how-to-set-up-work-centers.md)

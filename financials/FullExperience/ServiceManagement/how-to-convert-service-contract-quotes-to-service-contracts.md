@@ -49,9 +49,9 @@ When a customer has accepted a service contract quote, you convert it to a servi
  The service invoice is posted to the service account of the contract, even if the contract is prepaid.  
   
 ## See Also  
- [How to: Create Service Contracts and Service Contract Quotes](../FullExperience/how-to-create-service-contracts-and-service-contract-quotes.md)   
- [How to: Invoice Service Contracts](../FullExperience/how-to-invoice-service-contracts.md)   
- [How to: Add Contract Lines to Service Contracts or Service Contract Quotes](../FullExperience/how-to-add-contract-lines-to-service-contracts-or-service-contract-quotes.md)   
- [How to: Remove Contract Lines](../FullExperience/how-to-remove-contract-lines.md)   
- [How to: Update Service Contract Prices](../FullExperience/how-to-update-service-contract-prices.md)   
- [How to: Cancel Contracts](../FullExperience/how-to-cancel-contracts.md)
+ [How to: Create Service Contracts and Service Contract Quotes](../how-to-create-service-contracts-and-service-contract-quotes.md)   
+ [How to: Invoice Service Contracts](../how-to-invoice-service-contracts.md)   
+ [How to: Add Contract Lines to Service Contracts or Service Contract Quotes](../how-to-add-contract-lines-to-service-contracts-or-service-contract-quotes.md)   
+ [How to: Remove Contract Lines](../how-to-remove-contract-lines.md)   
+ [How to: Update Service Contract Prices](../how-to-update-service-contract-prices.md)   
+ [How to: Cancel Contracts](../how-to-cancel-contracts.md)

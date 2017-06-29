@@ -31,4 +31,4 @@ You can set up confidential information codes for confidential information, such
 4.  In the **Confidential Information** window, fill in as many lines as necessary to register the confidential information that is relevant to the employee.  
   
 ## See Also  
- [How to: Access an Overview of Confidential Information](../FullExperience/how-to-access-an-overview-of-confidential-information.md)
+ [How to: Access an Overview of Confidential Information](../how-to-access-an-overview-of-confidential-information.md)

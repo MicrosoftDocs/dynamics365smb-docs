@@ -42,7 +42,7 @@ You can create and post simulation entries to the general ledger without affecti
  Now you can create simulation entries using the general journal.  
   
 ## See Also  
- [How to: Define Source Codes](../FullExperience/how-to-define-source-codes.md)   
- [How to: Create Simulation Entries](../FullExperience/how-to-create-simulation-entries.md)   
- [How to: Delete Simulation Entries](../FullExperience/how-to-delete-simulation-entries.md)   
- [How to: Transfer Simulation Entries](../FullExperience/how-to-transfer-simulation-entries.md)
+ [How to: Define Source Codes](../how-to-define-source-codes.md)   
+ [How to: Create Simulation Entries](../how-to-create-simulation-entries.md)   
+ [How to: Delete Simulation Entries](../how-to-delete-simulation-entries.md)   
+ [How to: Transfer Simulation Entries](../how-to-transfer-simulation-entries.md)

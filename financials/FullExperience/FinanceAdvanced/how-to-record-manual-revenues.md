@@ -46,4 +46,4 @@ You can record manual revenues.
   
 ## See Also  
  Cash Flow Manual Revenues   
- [How to: Register Cash Flow Worksheet Lines](../FullExperience/how-to-register-cash-flow-worksheet-lines.md)
+ [How to: Register Cash Flow Worksheet Lines](../how-to-register-cash-flow-worksheet-lines.md)

@@ -29,6 +29,6 @@ You can view separate debit and credit balances for a single general ledger acco
  The window displays a scrollable list of debit and credit amounts for any series of periods that you select.  
   
 ## See Also  
- [How to: View Debit Balances and Credit Balances for All General Ledger Accounts](../FullExperience/how-to-view-debit-balances-and-credit-balances-for-all-general-ledger-accounts.md)   
- [How to: View Balances for All General Ledger Accounts by Periods](../FullExperience/how-to-view-balances-for-all-general-ledger-accounts-by-periods.md)   
+ [How to: View Debit Balances and Credit Balances for All General Ledger Accounts](../how-to-view-debit-balances-and-credit-balances-for-all-general-ledger-accounts.md)   
+ [How to: View Balances for All General Ledger Accounts by Periods](../how-to-view-balances-for-all-general-ledger-accounts-by-periods.md)   
  G\/L Account Balance

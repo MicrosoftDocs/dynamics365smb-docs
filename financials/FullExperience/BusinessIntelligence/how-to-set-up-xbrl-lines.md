@@ -43,7 +43,7 @@ After you import or update the taxonomy, the lines of the schemas must be suppli
 >  Lines that are not relevant can be marked as line type **NOT APPLICABLE** so the lines are not exported.  
   
 ## See Also  
- [How to: Import XBRLTaxonomies](../FullExperience/how-to-import-xbrltaxonomies.md)   
- [How to: Update XBRL Taxonomies](../FullExperience/how-to-update-xbrl-taxonomies.md)   
+ [How to: Import XBRLTaxonomies](../how-to-import-xbrltaxonomies.md)   
+ [How to: Update XBRL Taxonomies](../how-to-update-xbrl-taxonomies.md)   
  XBRL Export Instance - Spec. 2   
- [eXtensible Business Reporting Language](../FullExperience/extensible-business-reporting-language.md)
+ [eXtensible Business Reporting Language](../extensible-business-reporting-language.md)

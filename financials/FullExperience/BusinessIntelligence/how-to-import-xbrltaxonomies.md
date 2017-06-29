@@ -38,7 +38,7 @@ The first step in working with the XBRL functionality is to import the taxonomy 
 >  Instead of individually applying the linkbases after the import, you can wait until you have imported all linkbases and then apply them at the same time. To do this, choose the **NO** button when you are prompted to apply the newly imported linkbase to the schema. Then select the lines with the linkbases that you want to apply.  
   
 ## See Also  
- [How to: Set Up XBRL Lines](../FullExperience/how-to-set-up-xbrl-lines.md)   
+ [How to: Set Up XBRL Lines](../how-to-set-up-xbrl-lines.md)   
  XBRL Export Instance - Spec. 2   
- [How to: Update XBRL Taxonomies](../FullExperience/how-to-update-xbrl-taxonomies.md)   
- [eXtensible Business Reporting Language](../FullExperience/extensible-business-reporting-language.md)
+ [How to: Update XBRL Taxonomies](../how-to-update-xbrl-taxonomies.md)   
+ [eXtensible Business Reporting Language](../extensible-business-reporting-language.md)

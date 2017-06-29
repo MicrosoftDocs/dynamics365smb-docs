@@ -36,6 +36,6 @@ Servicing items that belong to certain service item groups may require specific 
 >  You can only assign a skill code that differs from the existing ones for the selected service item group.  
   
 ## See Also  
- [How to: Assign Skill Codes to Resources](../FullExperience/how-to-assign-skill-codes-to-resources.md)   
- [How to: Assign Skill Codes to Items and Service Items](../FullExperience/how-to-assign-skill-codes-to-items-and-service-items.md)   
- [How to: Set Up Skill Codes](../FullExperience/how-to-set-up-skill-codes.md)
+ [How to: Assign Skill Codes to Resources](../how-to-assign-skill-codes-to-resources.md)   
+ [How to: Assign Skill Codes to Items and Service Items](../how-to-assign-skill-codes-to-items-and-service-items.md)   
+ [How to: Set Up Skill Codes](../how-to-set-up-skill-codes.md)

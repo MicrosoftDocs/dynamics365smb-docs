@@ -24,9 +24,9 @@ The key element to service management is the people who supply service. By using
   
 |**To**|**See**|  
 |------------|-------------|  
-|Assign a skill code to a service technician or other resource.|[How to: Assign Skill Codes to Resources](../FullExperience/how-to-assign-skill-codes-to-resources.md)|  
-|Map services zones either to your customer or resource locations.|[How to: Set Up Service Zones](../FullExperience/how-to-set-up-service-zones.md)|  
+|Assign a skill code to a service technician or other resource.|[How to: Assign Skill Codes to Resources](../how-to-assign-skill-codes-to-resources.md)|  
+|Map services zones either to your customer or resource locations.|[How to: Set Up Service Zones](../how-to-set-up-service-zones.md)|  
   
 ## See Also  
- [How to: Set Up Skill Codes](../FullExperience/how-to-set-up-skill-codes.md)   
- [How to: Use the Dispatch Board](../FullExperience/how-to-use-the-dispatch-board.md)
+ [How to: Set Up Skill Codes](../how-to-set-up-skill-codes.md)   
+ [How to: Use the Dispatch Board](../how-to-use-the-dispatch-board.md)

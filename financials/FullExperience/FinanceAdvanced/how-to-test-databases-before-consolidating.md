@@ -20,7 +20,7 @@ After you have set up the consolidated company and the business units and export
   
  Before you do this, it is a good idea to check whether there are differences between the basic information in the business units and in the consolidated company. There are two reports that you can use to test the database and file.  
   
- For more information, see [How to: Export Business Unit Information](../FullExperience/how-to-test-files-before-consolidating.md).  
+ For more information, see [How to: Export Business Unit Information](../how-to-test-files-before-consolidating.md).  
   
 ### To test databases before consolidating  
   
@@ -41,11 +41,11 @@ After you have set up the consolidated company and the business units and export
  If the report contains errors, you must correct them before you run the consolidation.  
   
 ## See Also  
- [How to: Process Consolidations](../FullExperience/how-to-process-consolidations.md)   
- [How to: Enter Basic Information for Consolidated Companies](../FullExperience/how-to-enter-basic-information-for-consolidated-companies.md)   
- [How to: Enter Consolidation Information on General Ledger Accounts](../FullExperience/how-to-enter-consolidation-information-on-general-ledger-accounts.md)   
- [How to: Export Business Unit Information](../FullExperience/how-to-export-business-unit-information.md)   
- [How to: Consolidate from Databases](../FullExperience/how-to-consolidate-from-databases.md)   
- [How to: Consolidate from Files](../FullExperience/how-to-consolidate-from-files.md)   
+ [How to: Process Consolidations](../how-to-process-consolidations.md)   
+ [How to: Enter Basic Information for Consolidated Companies](../how-to-enter-basic-information-for-consolidated-companies.md)   
+ [How to: Enter Consolidation Information on General Ledger Accounts](../how-to-enter-consolidation-information-on-general-ledger-accounts.md)   
+ [How to: Export Business Unit Information](../how-to-export-business-unit-information.md)   
+ [How to: Consolidate from Databases](../how-to-consolidate-from-databases.md)   
+ [How to: Consolidate from Files](../how-to-consolidate-from-files.md)   
  Dimension   
- [\($ S\_COMPANY How to: Select a Company $\)](../FullExperience/-$-s_company-how-to-select-a-company-$-.md)
+ [\($ S\_COMPANY How to: Select a Company $\)](../-$-s_company-how-to-select-a-company-$-.md)

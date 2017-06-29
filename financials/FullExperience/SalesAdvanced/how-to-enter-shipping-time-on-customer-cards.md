@@ -28,5 +28,5 @@ If you want to include a shipping time in the order promising calculation on the
   
 ## See Also  
  Customer Card   
- [How to: Calculate Order Promising Dates](../FullExperience/how-to-calculate-order-promising-dates.md)   
- [About Order Promising](../FullExperience/about-order-promising.md)
+ [How to: Calculate Order Promising Dates](../how-to-calculate-order-promising-dates.md)   
+ [About Order Promising](../about-order-promising.md)

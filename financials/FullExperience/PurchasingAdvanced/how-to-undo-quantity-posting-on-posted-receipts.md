@@ -35,6 +35,6 @@ If you have made an incorrect quantity posting, that is, if you have made a purc
      The **Quantity Received** and **Qty. Rcd. Not Invoiced** fields on the related purchase order are set to zero.  
   
 ## See Also  
- [How to: Undo Quantity Posting on Posted Return Receipts](../FullExperience/how-to-undo-quantity-posting-on-posted-return-receipts.md)   
+ [How to: Undo Quantity Posting on Posted Return Receipts](../how-to-undo-quantity-posting-on-posted-return-receipts.md)   
  Qty. Rcd. Not Invoiced   
  Quantity Received

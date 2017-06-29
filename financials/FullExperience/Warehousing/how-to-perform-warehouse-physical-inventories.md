@@ -18,7 +18,7 @@
 # How to: Perform Warehouse Physical Inventories
 At least once in every fiscal year, you must take a physical inventory to see if the quantity registered is the same as the physical quantity in stock. If there are differences, you must post them to the item accounts before you do an inventory valuation. You also post your results to the physical inventory ledger, to record that you have counted a particular item on a particular date.  
   
- If you are not using directed put-away and pick for a location, you perform a physical inventory using the Phys. Inventory Journal. For more information, see [How to: Perform a Physical Inventory](../FullExperience/how-to-perform-a-physical-inventory.md). If you are using directed put-away and pick, you use the Whse. Phys. Inventory Journal, and later on, the Phys. Inventory Journal. This process is described here. In warehouses with bins, the counting is performed and registered bin by bin.  
+ If you are not using directed put-away and pick for a location, you perform a physical inventory using the Phys. Inventory Journal. For more information, see [How to: Perform a Physical Inventory](../how-to-perform-a-physical-inventory.md). If you are using directed put-away and pick, you use the Whse. Phys. Inventory Journal, and later on, the Phys. Inventory Journal. This process is described here. In warehouses with bins, the counting is performed and registered bin by bin.  
   
 ### To perform a warehouse physical inventory  
   
@@ -38,7 +38,7 @@ At least once in every fiscal year, you must take a physical inventory to see if
   
 7.  In the **Search** box, enter **Whse. Phys. Inventory List**, and choose the related link.  
   
-8.  Open the ![Shortcut icon](../FullExperience/media/shortcutcoldicon.gif "shortcutColdIcon") report request page and print the lists on which you want employees to record the quantity of items that they count in each bin.  
+8.  Open the ![Shortcut icon](../media/shortcutcoldicon.gif "shortcutColdIcon") report request page and print the lists on which you want employees to record the quantity of items that they count in each bin.  
   
 9. When the counting is done, enter the counted quantities in the **Qty. \(Phys. Inventory\)** field in the warehouse physical inventory journal.  
   
@@ -53,7 +53,7 @@ At least once in every fiscal year, you must take a physical inventory to see if
   
     -   If the quantity calculated is equal to the physical quantity, the program registers an entry of 0 for both the bin and the adjustment bin. The entries are the record that on the registering date, a warehouse physical inventory was performed, and there was no discrepancy in inventory for the item.  
   
- When you register the warehouse physical inventory, you are not posting to the item ledger, the physical inventory ledger, or the value ledger, but the records are there for immediate reconciliation whenever necessary. If you like to keep precise records of what is happening in the warehouse, however, and you counted all of the bins where the items were registered, you should immediately post the warehouse results as an inventory physical inventory. For more information, see [How to: Perform a Physical Inventory](../FullExperience/how-to-perform-a-physical-inventory.md).  
+ When you register the warehouse physical inventory, you are not posting to the item ledger, the physical inventory ledger, or the value ledger, but the records are there for immediate reconciliation whenever necessary. If you like to keep precise records of what is happening in the warehouse, however, and you counted all of the bins where the items were registered, you should immediately post the warehouse results as an inventory physical inventory. For more information, see [How to: Perform a Physical Inventory](../how-to-perform-a-physical-inventory.md).  
   
 ### To post warehouse results as a physical inventory  
   
@@ -73,7 +73,7 @@ At least once in every fiscal year, you must take a physical inventory to see if
 >  Only an employee with permissions in the Inventory area can update the item ledger and physical inventory ledger with the results of the warehouse physical inventory.  
   
 ## See Also  
- [How to: Perform a Physical Inventory](../FullExperience/how-to-perform-a-physical-inventory.md)   
- [How to: Set Up Physical Inventory Counting Periods](../FullExperience/how-to-set-up-physical-inventory-counting-periods.md)   
- [Count, Adjust, and Reclassify Inventory](../FullExperience/count-adjust-and-reclassify-inventory.md)   
- [Design Details: Integration with Inventory](../FullExperience/design-details-integration-with-inventory.md)
+ [How to: Perform a Physical Inventory](../how-to-perform-a-physical-inventory.md)   
+ [How to: Set Up Physical Inventory Counting Periods](../how-to-set-up-physical-inventory-counting-periods.md)   
+ [Count, Adjust, and Reclassify Inventory](../count-adjust-and-reclassify-inventory.md)   
+ [Design Details: Integration with Inventory](../design-details-integration-with-inventory.md)

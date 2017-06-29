@@ -30,10 +30,10 @@ You set up default VAT business posting groups by linking them to general busine
   
  If it is not relevant or you do not want to use this feature for either individual or all general business posting group codes, leave the two fields blank. Then you must manually assign VAT business posting groups to customers, vendors, and general ledger accounts.  
   
- For more information about how to assign VAT to accounts, see [How to: Assign VAT Business Posting Groups to Customer Accounts and Vendor Accounts](../FullExperience/how-to-assign-vat-posting-groups-to-general-ledger-accounts.md).  
+ For more information about how to assign VAT to accounts, see [How to: Assign VAT Business Posting Groups to Customer Accounts and Vendor Accounts](../how-to-assign-vat-posting-groups-to-general-ledger-accounts.md).  
   
 ## See Also  
- [How to: Set Up Default VAT Product Posting Groups](../FullExperience/how-to-set-up-default-vat-product-posting-groups.md)   
- [How to: Create a VAT Combination Setup](../FullExperience/how-to-create-a-vat-combination-setup.md)   
- [How to: Set Up VAT Business Posting Groups](../FullExperience/how-to-set-up-vat-business-posting-groups.md)   
+ [How to: Set Up Default VAT Product Posting Groups](../how-to-set-up-default-vat-product-posting-groups.md)   
+ [How to: Create a VAT Combination Setup](../how-to-create-a-vat-combination-setup.md)   
+ [How to: Set Up VAT Business Posting Groups](../how-to-set-up-vat-business-posting-groups.md)   
  Def. VAT Bus. Posting Group

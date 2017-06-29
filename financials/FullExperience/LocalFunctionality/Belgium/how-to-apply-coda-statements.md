@@ -60,13 +60,13 @@ After a CODA statement has been imported, the statement lines can be accessed fr
   
 6.  Choose the **OK** button.  
   
-     When you start the batch job, statement amounts will be applied to existing ledger entries based on the transaction codes. For more information, see [How to: Set Up Bank Accounts for CODA](../FullExperience/how-to-set-up-bank-accounts-for-coda.md).  
+     When you start the batch job, statement amounts will be applied to existing ledger entries based on the transaction codes. For more information, see [How to: Set Up Bank Accounts for CODA](../how-to-set-up-bank-accounts-for-coda.md).  
   
 ## See Also  
- [CODA Bank Statements](../FullExperience/coda-bank-statements.md)   
- [How to: Set Up Bank Accounts for CODA](../FullExperience/how-to-set-up-bank-accounts-for-coda.md)   
- [How to: Set Up IBLC-BLWI Transaction Codes](../FullExperience/how-to-set-up-iblc-blwi-transaction-codes.md)   
- [How to: Import CODA Statements](../FullExperience/how-to-import-coda-statements.md)   
- [How to: Create Financial Journals](../FullExperience/how-to-create-financial-journals.md)   
- [How to: Automatically Transfer and Post CODA Statements](../FullExperience/how-to-automatically-transfer-and-post-coda-statements.md)   
- [How to: Manually Transfer and Post CODA Statements](../FullExperience/how-to-manually-transfer-and-post-coda-statements.md)
+ [CODA Bank Statements](../coda-bank-statements.md)   
+ [How to: Set Up Bank Accounts for CODA](../how-to-set-up-bank-accounts-for-coda.md)   
+ [How to: Set Up IBLC-BLWI Transaction Codes](../how-to-set-up-iblc-blwi-transaction-codes.md)   
+ [How to: Import CODA Statements](../how-to-import-coda-statements.md)   
+ [How to: Create Financial Journals](../how-to-create-financial-journals.md)   
+ [How to: Automatically Transfer and Post CODA Statements](../how-to-automatically-transfer-and-post-coda-statements.md)   
+ [How to: Manually Transfer and Post CODA Statements](../how-to-manually-transfer-and-post-coda-statements.md)

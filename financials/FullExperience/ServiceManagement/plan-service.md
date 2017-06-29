@@ -24,13 +24,13 @@ With ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can 
   
 |**To**|**See**|  
 |------------|-------------|  
-|Set up and customize service items and service groups. This includes establishing which skills a service requires and troubleshooting guidance.|[Determine Service Offerings](../FullExperience/determine-service-offerings.md)|  
-|Establish service hours and status types to add time predictability to your service management application.|[Assign Service Work Hours and Levels](../FullExperience/assign-service-work-hours-and-levels.md)|  
-|Set up a tool to manage customer service representative and resource assignments based on availability, skill, and proximity.|[Identify People and Resources](../FullExperience/identify-people-and-resources.md)|  
+|Set up and customize service items and service groups. This includes establishing which skills a service requires and troubleshooting guidance.|[Determine Service Offerings](../determine-service-offerings.md)|  
+|Establish service hours and status types to add time predictability to your service management application.|[Assign Service Work Hours and Levels](../assign-service-work-hours-and-levels.md)|  
+|Set up a tool to manage customer service representative and resource assignments based on availability, skill, and proximity.|[Identify People and Resources](../identify-people-and-resources.md)|  
   
 ## See Also  
  Service Cost   
  Service Item   
  Service Item Component   
  Troubleshooting Setup   
- [Working with Product Name](../FullExperience/working-with-$-p_1-product-name-$-.md)
+ [Working with Product Name](../working-with-$-p_1-product-name-$-.md)

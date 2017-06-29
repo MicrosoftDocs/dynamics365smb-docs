@@ -42,14 +42,14 @@ To use payment management, you must set up payment classes to define operation t
 4.  Choose the **OK** button.  
   
 ## See Also  
- [Payment Management](../FullExperience/payment-management.md)   
- [How to: Set Up Payment Statuses](../FullExperience/how-to-set-up-payment-statuses.md)   
- [How to: Set Up Payment Steps](../FullExperience/how-to-set-up-payment-steps.md)   
- [How to: Set Up Payment Addresses](../FullExperience/how-to-set-up-payment-addresses.md)   
- [How to: Export or Import Payment Management Setup Parameters](../FullExperience/how-to-export-or-import-payment-management-setup-parameters.md)   
- [How to: Create Payment Slips](../FullExperience/how-to-create-payment-slips.md)   
- [How to: Post Payment Slips](../FullExperience/how-to-post-payment-slips.md)   
- [How to: Archive Payment Slips](../FullExperience/how-to-archive-payment-slips.md)   
+ [Payment Management](../payment-management.md)   
+ [How to: Set Up Payment Statuses](../how-to-set-up-payment-statuses.md)   
+ [How to: Set Up Payment Steps](../how-to-set-up-payment-steps.md)   
+ [How to: Set Up Payment Addresses](../how-to-set-up-payment-addresses.md)   
+ [How to: Export or Import Payment Management Setup Parameters](../how-to-export-or-import-payment-management-setup-parameters.md)   
+ [How to: Create Payment Slips](../how-to-create-payment-slips.md)   
+ [How to: Post Payment Slips](../how-to-post-payment-slips.md)   
+ [How to: Archive Payment Slips](../how-to-archive-payment-slips.md)   
  Payment Class   
  Payment Class   
  Realize VAT   

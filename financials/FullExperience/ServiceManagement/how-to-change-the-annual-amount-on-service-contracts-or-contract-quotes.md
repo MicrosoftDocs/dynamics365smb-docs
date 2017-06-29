@@ -33,8 +33,8 @@ You can change the annual amount of the service contract or contract quote to co
 6.  Depending on whether the check box in the **Allow Unbalanced Amounts** field is selected or not, run either the manual or automatic distribution of the annual amount difference. As a result, the contract lines will be updated in a way so that the **Calcd. Annual Amount** field value is equal to the new annual amount.  
   
 ## See Also  
- [How to: Automatically Distribute the Annual Amount Difference on Contracts](../FullExperience/how-to-automatically-distribute-the-annual-amount-difference-on-contracts.md)   
- [Distribution Based on Line Amount](../FullExperience/distribution-based-on-line-amount.md)   
- [Distribution Based on Profit](../FullExperience/distribution-based-on-profit.md)   
- [Even Distribution](../FullExperience/even-distribution.md)   
- [How to: Manually Distribute the Annual Amount Difference on Contracts](../FullExperience/how-to-manually-distribute-the-annual-amount-difference-on-contracts.md)
+ [How to: Automatically Distribute the Annual Amount Difference on Contracts](../how-to-automatically-distribute-the-annual-amount-difference-on-contracts.md)   
+ [Distribution Based on Line Amount](../distribution-based-on-line-amount.md)   
+ [Distribution Based on Profit](../distribution-based-on-profit.md)   
+ [Even Distribution](../even-distribution.md)   
+ [How to: Manually Distribute the Annual Amount Difference on Contracts](../how-to-manually-distribute-the-annual-amount-difference-on-contracts.md)

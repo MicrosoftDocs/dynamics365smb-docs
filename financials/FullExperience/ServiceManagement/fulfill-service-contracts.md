@@ -24,11 +24,11 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> includes featu
   
 |**To**|**See**|  
 |------------|-------------|  
-|Learn about the **Service Contracts** window and set up contracts, customer templates, and a system for managing service quotes.|[Develop and Establish Contracts](../FullExperience/develop-and-establish-contracts.md)|  
-|Create service contract quotes and convert a quote into a service contract.|[Monitor and Implement Contracts](../FullExperience/monitor-and-implement-contracts.md)|  
-|Update the terms of a contract and track profit and loss.|[Update and Evaluate Contracts](../FullExperience/update-and-evaluate-contracts.md)|  
+|Learn about the **Service Contracts** window and set up contracts, customer templates, and a system for managing service quotes.|[Develop and Establish Contracts](../develop-and-establish-contracts.md)|  
+|Create service contract quotes and convert a quote into a service contract.|[Monitor and Implement Contracts](../monitor-and-implement-contracts.md)|  
+|Update the terms of a contract and track profit and loss.|[Update and Evaluate Contracts](../update-and-evaluate-contracts.md)|  
   
 ## See Also  
  Contract Group   
  Service Contract Template   
- [Working with Product Name](../FullExperience/working-with-$-p_1-product-name-$-.md)
+ [Working with Product Name](../working-with-$-p_1-product-name-$-.md)

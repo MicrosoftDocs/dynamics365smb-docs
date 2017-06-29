@@ -29,6 +29,6 @@ If you use directed put-away and pick for a warehouse, when you register differe
  The other documents that create entries in the adjustment bin - purchase invoices, purchase credit memos, sales invoices, and sales credit memos - are normally not regarded in the warehouse because you cannot create a receipt or shipment for them. They are, however, documents that concern company inventory. For example, if you do not want the customer to return an item that was damaged upon delivery, but decide to issue a sales credit memo, the inventory loss must somehow be reflected in the item ledger, and the adjustment journal provides the means to do so. Another example is the posting of a purchase invoice, which creates a positive entry in the item ledger and in the adjustment bin at the same time.  
   
 ## See Also  
- [How to: Perform Warehouse Physical Inventories](../FullExperience/how-to-perform-warehouse-physical-inventories.md)   
- [How to: Register Quantity Adjustments in Warehouse Item Journals](../FullExperience/how-to-register-quantity-adjustments-in-warehouse-item-journals.md)   
- [How to: Post Quantity Adjustments for Bins](../FullExperience/how-to-post-quantity-adjustments-for-bins.md)
+ [How to: Perform Warehouse Physical Inventories](../how-to-perform-warehouse-physical-inventories.md)   
+ [How to: Register Quantity Adjustments in Warehouse Item Journals](../how-to-register-quantity-adjustments-in-warehouse-item-journals.md)   
+ [How to: Post Quantity Adjustments for Bins](../how-to-post-quantity-adjustments-for-bins.md)

@@ -30,7 +30,7 @@ Use the configuration worksheet to gather together and categorize the informatio
   
 4.  In the **Line Type** field, choose **Table**. In the **Table ID** field, select the table you want to include in the worksheet.  
   
- Now you can assign the tables to specific configuration packages that you have created or plan to create. For more information, see [How to: Assign a Configuration Package](../FullExperience/how-to-assign-a-configuration-package.md).  
+ Now you can assign the tables to specific configuration packages that you have created or plan to create. For more information, see [How to: Assign a Configuration Package](../how-to-assign-a-configuration-package.md).  
   
 ### To work with promoted tables  
   
@@ -39,4 +39,4 @@ Use the configuration worksheet to gather together and categorize the informatio
 2.  To see the filtered view, on the **Home** tab, in the **Show** group, choose **Promoted Only**. The list of tables contains only those tables that have the check box selected.  
   
 ## See Also  
- [How to: Create a Configuration Package](../FullExperience/how-to-create-a-configuration-package.md)
+ [How to: Create a Configuration Package](../how-to-create-a-configuration-package.md)

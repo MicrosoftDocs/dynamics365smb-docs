@@ -37,5 +37,5 @@ If you need to cancel allocations of resources, for example, technicians, to ser
  Repeat these steps for each service task that you want to cancel allocation for.  
   
 ## See Also  
- [How to: Reallocate Resources by Using the Dispatch Board](../FullExperience/how-to-reallocate-resources-by-using-the-dispatch-board.md)   
- [Allocation Status and Repair Status](../FullExperience/allocation-status-and-repair-status.md)
+ [How to: Reallocate Resources by Using the Dispatch Board](../how-to-reallocate-resources-by-using-the-dispatch-board.md)   
+ [Allocation Status and Repair Status](../allocation-status-and-repair-status.md)

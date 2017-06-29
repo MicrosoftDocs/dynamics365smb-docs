@@ -46,6 +46,6 @@ Before you create the first VAT transaction report, you should prepare the exist
 -   The **Type** field for the VAT entry must not be **Settlement**.  
   
 ## See Also  
- [How to: Prepare for VAT Transactions Reports](../FullExperience/how-to-prepare-for-vat-transactions-reports.md)   
- [Italian VAT](../FullExperience/italian-vat.md)   
+ [How to: Prepare for VAT Transactions Reports](../how-to-prepare-for-vat-transactions-reports.md)   
+ [Italian VAT](../italian-vat.md)   
  Update VAT Transaction Data

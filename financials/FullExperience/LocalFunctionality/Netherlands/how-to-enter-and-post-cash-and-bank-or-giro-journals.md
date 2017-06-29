@@ -84,6 +84,6 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can us
      The entries are posted to the general ledger. For more information, see General Ledger Entries.  
   
 ## See Also  
- [How to: Print the Test Reports for Cash and Bank or Giro Journals](../FullExperience/how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals.md)   
+ [How to: Print the Test Reports for Cash and Bank or Giro Journals](../how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals.md)   
  VAT Product Posting Groups   
  General Ledger Entries

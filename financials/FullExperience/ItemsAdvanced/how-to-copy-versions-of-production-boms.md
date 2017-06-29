@@ -59,5 +59,5 @@ When working with long production BOMs or slight changes in the versions, it is 
 5.  Change the **Status** field to **Certified**.  
   
 ## See Also  
- [How to: Create Production BOMs](../FullExperience/how-to-create-production-boms.md)   
- [How to: Create New Versions of Production BOMs](../FullExperience/how-to-create-new-versions-of-production-boms.md)
+ [How to: Create Production BOMs](../how-to-create-production-boms.md)   
+ [How to: Create New Versions of Production BOMs](../how-to-create-new-versions-of-production-boms.md)

@@ -37,7 +37,7 @@ Every month a post code file will be delivered with all post code mutations in a
  Information about the imported post code will be saved in the Post Code Update Log Entry Table table.  
   
 ## See Also  
- [Dutch Post Codes](../FullExperience/dutch-post-codes.md)   
+ [Dutch Post Codes](../dutch-post-codes.md)   
  Post Code Update Log Entry Table   
  Post Code Updates Window   
  Post Code Range Table

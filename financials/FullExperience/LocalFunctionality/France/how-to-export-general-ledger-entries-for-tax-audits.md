@@ -53,4 +53,4 @@ The standard audit file for tax purposes records key business information \(tran
   
 ## See Also  
  Export G-L Entries - Tax Audit   
- [How to: Close Years](../FullExperience/how-to-close-years.md)
+ [How to: Close Years](../how-to-close-years.md)

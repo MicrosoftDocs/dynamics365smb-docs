@@ -41,8 +41,8 @@ The **Intrastat - Form** report must be used for reporting to Intrastat. In Belg
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [Belgian Intrastat Reporting](../FullExperience/belgian-intrastat-reporting.md)   
- [How to: Set Up Declaration Types](../FullExperience/how-to-set-up-declaration-types.md)   
- [How to: Set Up Belgian Tariff Numbers](../FullExperience/how-to-set-up-belgian-tariff-numbers.md)   
- [How to: Set Up Intrastat Establishment Numbers](../FullExperience/how-to-set-up-intrastat-establishment-numbers.md)   
- [How to: Export Intrastat Third-Party Declararations](../FullExperience/how-to-export-intrastat-third-party-declararations.md)
+ [Belgian Intrastat Reporting](../belgian-intrastat-reporting.md)   
+ [How to: Set Up Declaration Types](../how-to-set-up-declaration-types.md)   
+ [How to: Set Up Belgian Tariff Numbers](../how-to-set-up-belgian-tariff-numbers.md)   
+ [How to: Set Up Intrastat Establishment Numbers](../how-to-set-up-intrastat-establishment-numbers.md)   
+ [How to: Export Intrastat Third-Party Declararations](../how-to-export-intrastat-third-party-declararations.md)

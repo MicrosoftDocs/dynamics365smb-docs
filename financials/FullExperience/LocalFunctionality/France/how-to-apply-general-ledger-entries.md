@@ -36,4 +36,4 @@ You apply general ledger entries to justify ledger balances on asset and liabili
 >  Applied entries will be identified by the same three-letter combination and the same date. Balanced entries will be assigned only uppercase letters, and unbalanced entries will be assigned only lowercase letters.  
   
 ## See Also  
- [How to: Unapply General Ledger Entries](../FullExperience/how-to-unapply-general-ledger-entries.md)
+ [How to: Unapply General Ledger Entries](../how-to-unapply-general-ledger-entries.md)

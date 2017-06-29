@@ -37,7 +37,7 @@ Plan movements in the worksheet using a bin replenishment function or manually p
     > -   The **Bin Mandatory** check box on the location card is selected.  
     > -   The **From Zone** and **From Bin** fields are blank.  
   
-     For more information, see [Picking by FEFO](../FullExperience/picking-by-fefo.md).  
+     For more information, see [Picking by FEFO](../picking-by-fefo.md).  
   
 3.  Look through the lines and change them if necessary, or delete some of them if there is not enough time to perform them all.  
   
@@ -67,7 +67,7 @@ Plan movements in the worksheet using a bin replenishment function or manually p
     > -   The **Bin Mandatory** check box on the location card is selected.  
     > -   The **From Zone** and **From Bin** fields are blank.  
   
-     For more information, see [Picking by FEFO](../FullExperience/picking-by-fefo.md).  
+     For more information, see [Picking by FEFO](../picking-by-fefo.md).  
   
 5.  Complete some of the retrieved lines to reflect the changes you want to make. For each item that you want to move, you must fill in the **Item No.**, **From Bin Code**, **To Bin Code**, and **Quantity** fields.  
   
@@ -78,5 +78,5 @@ Plan movements in the worksheet using a bin replenishment function or manually p
 ## See Also  
  Movement Worksheet   
  Calculate Bin Replenishment   
- [How to: Calculate Bin Replenishment](../FullExperience/how-to-calculate-bin-replenishment.md)   
- [Move Items](../FullExperience/move-items.md)
+ [How to: Calculate Bin Replenishment](../how-to-calculate-bin-replenishment.md)   
+ [Move Items](../move-items.md)

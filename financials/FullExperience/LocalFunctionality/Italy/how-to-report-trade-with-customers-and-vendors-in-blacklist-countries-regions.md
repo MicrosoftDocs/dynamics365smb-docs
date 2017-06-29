@@ -176,4 +176,4 @@ You must submit a periodic report of transactions with customers and vendors in 
  Customs Authority Vendors   
  VAT Posting Setup   
  Countries\/Regions   
- [Italian VAT](../FullExperience/italian-vat.md)
+ [Italian VAT](../italian-vat.md)

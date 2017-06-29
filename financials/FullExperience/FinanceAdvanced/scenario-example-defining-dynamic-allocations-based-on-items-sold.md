@@ -55,9 +55,9 @@ This topic shows an example of how to define allocations by using the dynamic al
     >  ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> uses the previous years’ sales figures to calculate a share of 1596.50 LCY with 100 percent for the IT EQUIPMENT packages. This means that all of the items sold last year will be allocated to the cost object IT EQUIPMENT.  
   
 ## See Also  
- [Setting Filters for Dynamic Allocation Bases](../FullExperience/setting-filters-for-dynamic-allocation-bases.md)   
- [How to: Set Up Allocation Source and Targets](../FullExperience/how-to-set-up-allocation-source-and-targets.md)   
+ [Setting Filters for Dynamic Allocation Bases](../setting-filters-for-dynamic-allocation-bases.md)   
+ [How to: Set Up Allocation Source and Targets](../how-to-set-up-allocation-source-and-targets.md)   
  Cost Allocation   
- [Define and Allocate Costs](../FullExperience/define-and-allocate-costs.md)   
- [Terminology in Cost Accounting](../FullExperience/terminology-in-cost-accounting.md)   
- [About Cost Accounting](../FullExperience/about-cost-accounting.md)
+ [Define and Allocate Costs](../define-and-allocate-costs.md)   
+ [Terminology in Cost Accounting](../terminology-in-cost-accounting.md)   
+ [About Cost Accounting](../about-cost-accounting.md)

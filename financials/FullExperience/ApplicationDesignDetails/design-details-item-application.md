@@ -16,9 +16,9 @@
 
     ---
 # Design Details: Item Application
-When you post an inventory transaction, the quantity posting is recorded in the item ledger entries, the value posting in the value entries. For more information, see [Design Details: Inventory Posting](../FullExperience/design-details-inventory-posting.md).  
+When you post an inventory transaction, the quantity posting is recorded in the item ledger entries, the value posting in the value entries. For more information, see [Design Details: Inventory Posting](../design-details-inventory-posting.md).  
   
- In addition, an item application is made to link the cost recipient to its cost source to provide cost forwarding according to the costing method. For more information, see [Design Details: Costing Methods](../FullExperience/design-details-costing-methods.md).  
+ In addition, an item application is made to link the cost recipient to its cost source to provide cost forwarding according to the costing method. For more information, see [Design Details: Costing Methods](../design-details-costing-methods.md).  
   
  ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]--> makes two types of item application.  
   
@@ -253,7 +253,7 @@ When you post an inventory transaction, the quantity posting is recorded in the 
  ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> offers a feature for analyzing and correcting item applications. This work is performed in the **Application Worksheet** window.  
   
 ## See Also  
- [Design Details: Inventory Costing](../FullExperience/design-details-inventory-costing.md)   
- [Design Details: Costing Methods](../FullExperience/design-details-costing-methods.md)   
- [Design Details: Average Cost](../FullExperience/design-details-average-cost.md)   
- [Design Details: Cost Adjustment](../FullExperience/design-details-cost-adjustment.md)
+ [Design Details: Inventory Costing](../design-details-inventory-costing.md)   
+ [Design Details: Costing Methods](../design-details-costing-methods.md)   
+ [Design Details: Average Cost](../design-details-average-cost.md)   
+ [Design Details: Cost Adjustment](../design-details-cost-adjustment.md)

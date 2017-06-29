@@ -56,4 +56,4 @@ After you have imported and validated information from a setup questionnaire, yo
  You have now configured setup with the customer’s business information and rules.  
   
 ## See Also  
- [Gather Customer Setup Values](../FullExperience/gather-customer-setup-values.md)
+ [Gather Customer Setup Values](../gather-customer-setup-values.md)

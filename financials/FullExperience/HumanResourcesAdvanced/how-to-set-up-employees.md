@@ -27,7 +27,7 @@ When you set up a new employee, there are fields that must always be filled in, 
 3.  Fill in the fields on the card. The **No.** field is required.  
   
 ## See Also  
- [How to: Assign Qualification Codes to Employees](../FullExperience/how-to-assign-qualification-codes-to-employees.md)   
- [How to: Assign Relative Codes to Employees](../FullExperience/how-to-assign-relative-codes-to-employees.md)   
- [How to: Insert Pictures of Employees](../FullExperience/how-to-insert-pictures-of-employees.md)   
- [How to: Enter Comments About Employees](../FullExperience/how-to-enter-comments-about-employees.md)
+ [How to: Assign Qualification Codes to Employees](../how-to-assign-qualification-codes-to-employees.md)   
+ [How to: Assign Relative Codes to Employees](../how-to-assign-relative-codes-to-employees.md)   
+ [How to: Insert Pictures of Employees](../how-to-insert-pictures-of-employees.md)   
+ [How to: Enter Comments About Employees](../how-to-enter-comments-about-employees.md)

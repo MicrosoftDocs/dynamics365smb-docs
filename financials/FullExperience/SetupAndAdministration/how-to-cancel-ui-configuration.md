@@ -62,11 +62,11 @@ You can cancel UI customizations that you have made as configuration for a profi
  The UI customization for the profile of the particular UI area on the particular page is canceled. The layout of the UI area on the page is reset to the default configuration, as made either by the administrator or as installed with ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]-->.  
   
 ## See Also  
- [Configure the User Interface](../FullExperience/configure-the-user-interface.md)   
+ [Configure the User Interface](../configure-the-user-interface.md)   
  PERSONALIZATION Personalize the User Interface   
  Delete Profile Configuration   
- [How to: Cancel UI Personalization](../FullExperience/how-to-cancel-ui-personalization.md)   
+ [How to: Cancel UI Personalization](../how-to-cancel-ui-personalization.md)   
  Delete User Personalization   
- [How to: Disable Personalization](../FullExperience/how-to-disable-personalization.md)   
- [Customize the User Interface](../FullExperience/customize-the-user-interface.md)   
- [Manage Profiles](../FullExperience/manage-profiles.md)
+ [How to: Disable Personalization](../how-to-disable-personalization.md)   
+ [Customize the User Interface](../customize-the-user-interface.md)   
+ [Manage Profiles](../manage-profiles.md)

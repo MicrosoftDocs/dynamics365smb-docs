@@ -126,4 +126,4 @@ This topic provides a high\-level overview of how you can work through the conso
   
 ## See Also  
  Consolidated Trial Balance   
- [\($ R\_18 Consolidated Trial Balance \(4\) $\)](../Topic/\($%20R_18%20Consolidated%20Trial%20Balance%20\(4\)%20$\).md)
+ Consolidated Trial Balance \(4\)%20$\).md)

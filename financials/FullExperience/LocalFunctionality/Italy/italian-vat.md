@@ -99,5 +99,5 @@ Companies must pay VAT to the state for most purchased goods and services. VAT c
  [How to: Submit VAT Statements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-submit-vat-statements.md)   
  [How to: Update VAT Transactions Data](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-update-vat-transactions-data.md)   
  [How to: Report Trade with Customers and Vendors in Blacklist Countries\-Regions](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-report-trade-with-customers-and-vendors-in-blacklist-countries-regions.md)   
- [\($ R\_12126 Annual VAT Comm. \- 2010 $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/-$-r_12126-annual-vat-comm.-2010-$-.md)   
+ Annual VAT Comm. \- 2010   
  [Italy Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/italy-local-functionality.md)

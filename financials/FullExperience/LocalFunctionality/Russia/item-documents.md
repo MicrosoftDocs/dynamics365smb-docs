@@ -16,7 +16,7 @@ translation.priority.ht:
   - "ru-ru"
 ---
 # Item Documents
-[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] includes several documents that you can use to manage your warehouse. This also includes reports that you must submit for official reporting, such as the [\($ R\_14919 Item Report TORG\-29 $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-r_14919-item-report-torg-29-$-.md), [\($ B\_14918 Items Receipt Act TORG\-1 $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-b_14918-items-receipt-act-torg-1-$-.md), and [\($ B\_14925 Receipt Deviations TORG\-2 $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-b_14925-receipt-deviations-torg-2-$-.md) reports.  
+[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] includes several documents that you can use to manage your warehouse. This also includes reports that you must submit for official reporting, such as the Item Report TORG\-29, Items Receipt Act TORG\-1, and Receipt Deviations TORG\-2 reports.  
   
  The following types of documents are useful for managing your warehouse:  
   
@@ -178,7 +178,7 @@ translation.priority.ht:
  [Inventory Setup](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/inventory-setup.md)   
  [Item Obligatory Acts](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/item-obligatory-acts.md)   
  [Item General Ledger Turnover](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/item-general-ledger-turnover.md)   
- [\($ R\_14919 Item Report TORG\-29 $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-r_14919-item-report-torg-29-$-.md)   
- [\($ B\_14918 Items Receipt Act TORG\-1 $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-b_14918-items-receipt-act-torg-1-$-.md)   
- [\($ B\_14925 Receipt Deviations TORG\-2 $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-b_14925-receipt-deviations-torg-2-$-.md)   
- [\($ R\_14976 Transfer Order TORG\-13 $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-r_14976-transfer-order-torg-13-$-.md)
+ Item Report TORG\-29   
+ Items Receipt Act TORG\-1   
+ Receipt Deviations TORG\-2   
+ Transfer Order TORG\-13

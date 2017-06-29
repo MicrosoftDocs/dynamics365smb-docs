@@ -45,5 +45,5 @@ translation.priority.ht:
 ## See Also  
  [Spain Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/spain-local-functionality.md)   
  [How to: Create Report 347](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/how-to-create-report-347.md)   
- [\($ B\_10707 Make 347 Declaration $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-b_10707-make-347-declaration-$-.md)   
+ Make 347 Declaration   
  Declaration Labels

@@ -53,5 +53,5 @@ You must submit a periodic report of trade with other EU countries\/regions to t
  When you post the sales invoice, [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] saves the delivery operation code in the **VAT Entry** table, and then, when you create the Report 349 declaration, the VAT amount is included in the section for the appropriate delivery operation code.  
   
 ## See Also  
- [\($ B\_10710 Make 349 Declaration $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-b_10710-make-349-declaration-$-.md)   
+ Make 349 Declaration   
  [How to: Create Report 349](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/how-to-create-report-349.md)

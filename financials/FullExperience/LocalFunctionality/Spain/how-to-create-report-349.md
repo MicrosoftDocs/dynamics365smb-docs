@@ -68,5 +68,5 @@ You must submit a periodic report of trade with other EU countries\/regions to t
   
 ## See Also  
  [Report 349](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/report-349.md)   
- [\($ B\_10710 Make 349 Declaration $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-b_10710-make-349-declaration-$-.md)   
+ Make 349 Declaration   
  Declaration Labels

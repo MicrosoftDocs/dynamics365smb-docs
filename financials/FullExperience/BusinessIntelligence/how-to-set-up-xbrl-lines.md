@@ -73,5 +73,5 @@ After you import or update the taxonomy, the lines of the schemas must be suppli
 ## See Also  
  [How to: Import XBRLTaxonomies](../BusinessIntelligence/how-to-import-xbrltaxonomies.md)   
  [How to: Update XBRL Taxonomies](../BusinessIntelligence/how-to-update-xbrl-taxonomies.md)   
- [\($ R\_505 XBRL Export Instance \- Spec. 2 $\)](../Topic/\($%20R_505%20XBRL%20Export%20Instance%20-%20Spec.%202%20$\).md)   
+ XBRL Export Instance \- Spec. 2   
  [eXtensible Business Reporting Language](../BusinessIntelligence/extensible-business-reporting-language.md)

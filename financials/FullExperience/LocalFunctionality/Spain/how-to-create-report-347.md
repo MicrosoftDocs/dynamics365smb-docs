@@ -35,7 +35,7 @@ All companies must provide an annual declaration, **Report 347**, to the tax aut
   
 1.  In the **Search** box, enter **Make 347 Declaration**, and then choose the related link.  
   
-2.  On the **Options** FastTab, fill in the fields. For more information, see [\($ B\_10707 Make 347 Declaration $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-b_10707-make-347-declaration-$-.md).  
+2.  On the **Options** FastTab, fill in the fields. For more information, see Make 347 Declaration.  
   
 3.  Choose the **OK** button.  
   
@@ -50,6 +50,6 @@ All companies must provide an annual declaration, **Report 347**, to the tax aut
 ## See Also  
  [Spain Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/spain-local-functionality.md)   
  [Report 347](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/report-347.md)   
- [\($ B\_10707 Make 347 Declaration $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-b_10707-make-347-declaration-$-.md)   
+ Make 347 Declaration   
  Declaration Labels   
  Not Fully Applied Cash Pmts.

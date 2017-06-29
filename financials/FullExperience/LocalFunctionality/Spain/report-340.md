@@ -101,6 +101,6 @@ translation.priority.ht:
   
 ## See Also  
  [How to: Create Report 340](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/how-to-create-report-340.md)   
- [\($ B\_10743 Make 340 Declaration $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-b_10743-make-340-declaration-$-.md)   
+ Make 340 Declaration   
  [Payments in Cash](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/payments-in-cash.md)   
  [Spain Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/spain-local-functionality.md)

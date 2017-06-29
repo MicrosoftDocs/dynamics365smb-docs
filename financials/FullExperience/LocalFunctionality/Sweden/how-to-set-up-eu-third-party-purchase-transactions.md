@@ -30,7 +30,7 @@ European Union \(EU\) third\-party trade occurs when you receive a purchase invo
 ## See Also  
  Purchase Invoice   
  Purchase Header   
- [\($ T\_38\_11200 EU 3\-Party Trade $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Sweden/-$-t_38_11200-eu-3-party-trade-$-.md)   
+ EU 3\-Party Trade   
  [VAT\- VIES Declaration Tax Auth\-duplicate 1](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Sweden/-$-r_19-vat-vies-declaration-tax-auth-$-duplicate-1.md)   
  [Set Up VAT](../../Finance/set-up-vat.md)   
  [Sweden Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Sweden/sweden-local-functionality.md)

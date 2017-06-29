@@ -37,7 +37,7 @@ Cash accounts are similar to bank accounts and are created identically. For more
 ## See Also  
  [Petty Cash Management](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/petty-cash-management.md)   
  [Bank and Cash Management](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/bank-and-cash-management.md)   
- [\($ R\_14902 Cash Report CO\-4 $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-r_14902-cash-report-co-4-$-.md)   
+ Cash Report CO\-4   
  Cash Outgoing Order   
  Cash Ingoing Order   
  Bank Account Card

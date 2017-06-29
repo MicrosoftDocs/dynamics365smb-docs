@@ -30,5 +30,5 @@ The **Cash Ingoing Order CO\-1** report prints the Ingoing Cash Order form, whic
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen. Choose the **Cancel** button to save the information without printing the report.  
   
 ## See Also  
- [\($ R\_14902 Cash Report CO\-4 $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-r_14902-cash-report-co-4-$-.md)   
- [\($ R\_12463 Cash Order Journal CO\-3 $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-r_12463-cash-order-journal-co-3-$-.md)
+ Cash Report CO\-4   
+ Cash Order Journal CO\-3

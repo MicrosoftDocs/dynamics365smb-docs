@@ -34,4 +34,4 @@ With the electronic payments functionality, you can pay vendors using electronic
  [How to: Set Up Bank Accounts for Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/how-to-set-up-bank-accounts-for-electronic-payments.md)   
  [How to: Pay Vendors by Using Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/how-to-pay-vendors-by-using-electronic-payments.md)   
  Export Electronic Payments   
- [\($ R\_7000060 PO \- Export N34.1 $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-r_7000060-po-export-n34.1-$-.md)
+ PO \- Export N34.1

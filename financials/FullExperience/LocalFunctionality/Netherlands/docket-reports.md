@@ -20,7 +20,7 @@ The Dutch telebanking application allows you to combine ledger entries for the s
   
  When generating payment proposals using the Get Proposal Entries batch job the system will place a check mark in the Docket field on the proposal in case that:  
   
--   The resulting combined payment includes too many invoice numbers to list them in the available four description fields of the new proposal line: [\($ T\_11000000\_11 Description 1 $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-t_11000000_11-description-1-field-$-.md) field, [\($ T\_11000000\_12 Description 2 $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-t_11000000_12-description-2-field-$-.md) field, [\($ T\_11000000\_13 Description 3 $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-t_11000000_13-description-3-field-$-.md) field, and [\($ T\_11000000\_14 Description 4 $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-t_11000000_14-description-4-field-$-.md) field.  
+-   The resulting combined payment includes too many invoice numbers to list them in the available four description fields of the new proposal line: Description 1 field, Description 2 field, Description 3 field, and Description 4 field.  
   
 -   The payment is not based upon an invoice.  
   

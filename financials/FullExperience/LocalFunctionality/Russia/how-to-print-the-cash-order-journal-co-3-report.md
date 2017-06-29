@@ -35,4 +35,4 @@ The **\($ R\_12463 Cash Order Journal CO\-3 $\)** report shows the unified stand
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen. Choose the **Cancel** button to save the information without printing the report.  
   
 ## See Also  
- [\($ R\_12463 Cash Order Journal CO\-3 $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-r_12463-cash-order-journal-co-3-$-.md)
+ Cash Order Journal CO\-3

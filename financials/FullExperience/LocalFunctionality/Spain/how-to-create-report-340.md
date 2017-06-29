@@ -60,6 +60,6 @@ Report 340 includes all sales invoices and purchase invoices posted by a company
   
 ## See Also  
  [Report 340](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/report-340.md)   
- [\($ B\_10743 Make 340 Declaration $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-b_10743-make-340-declaration-$-.md)   
+ Make 340 Declaration   
  [Payments in Cash](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/payments-in-cash.md)   
  [Spanish Tax Agency](http://www.aeat.es/wps/portal/Home?channel=1af861cd949a1010VgnVCM100000d7005a80____&ver=L&site=56d8237c0bc1ff00VgnVCM100000d7005a80____&idioma=es_ES&menu=0&img=0)

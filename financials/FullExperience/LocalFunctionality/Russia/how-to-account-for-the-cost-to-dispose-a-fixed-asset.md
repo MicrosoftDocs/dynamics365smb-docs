@@ -19,7 +19,7 @@ The maintenance on disposal feature enables you to account for the amount spent 
   
  The expenses of a fixed asset disposal can be posted from general ledger journals, fixed asset journals, and purchase documents. The following procedure shows how to post the expenses for a fixed asset disposal by using the Fixed Asset General Ledger Journal.  
   
- The expenses on a fixed asset disposal can be printed in the [\($ R\_12493 FA Write\-off Act FA\-4 $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-r_12493-fa-write-off-act-fa-4-$-.md) report and the [\($ R\_14990 FA Writeoff Act FA\-4a $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-r_14990-fa-writeoff-act-fa-4a-$-.md) report.  
+ The expenses on a fixed asset disposal can be printed in the FA Write\-off Act FA\-4 report and the FA Writeoff Act FA\-4a report.  
   
 ### To set up a maintenance code  
   

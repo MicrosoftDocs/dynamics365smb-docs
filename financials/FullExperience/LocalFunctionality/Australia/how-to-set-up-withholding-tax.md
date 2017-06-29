@@ -1,22 +1,20 @@
 ---
-title: "How to: Set Up Withholding Tax"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "Business Activity Statement (BAS), setting up withholding tax"
-  - "posting groups, WHT"
-  - "withholding tax, setting up"
-ms.assetid: 06b087a5-782c-4af3-9d96-34aa900b801c
-caps.latest.revision: 20
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "en-au"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up Withholding Tax
 Withholding tax \(WHT\) is the tax withheld by a company when it makes a payment to a vendor, in which the full amount owed to the vendor is reduced by the tax withheld. The withheld tax is then remitted to the Australian Taxation Office \(ATO\) when the next Business Activity Statement \(BAS\) is submitted.  
   

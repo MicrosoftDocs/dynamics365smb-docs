@@ -1,21 +1,20 @@
 ---
-title: "How to: Create Payment Slips"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "payment slips"
-  - "payment files"
-ms.assetid: e1d42533-6e6c-4ee2-9d25-53eac831ca50
-caps.latest.revision: 34
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "fr-fr"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Create Payment Slips
 You can create payments slips to manage vendor and customer payments. Before you create payment slips, you must set up payment classes. For more information, see [How to: Set Up Payment Classes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-set-up-payment-classes.md).  
   

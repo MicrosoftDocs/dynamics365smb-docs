@@ -1,19 +1,20 @@
 ---
-title: "How to: Create VAT Entry Codes"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "VAT entry codes, creating"
-ms.assetid: 4fb13bce-13de-46aa-a678-976ff558f008
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "ru-ru"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Create VAT Entry Codes
 Invoices must specify a VAT entry type code. The VAT entry type codes are based on a list that is established by legislation. Some types of documents, such as corrective or revision invoices, have several codes from the list.  
   

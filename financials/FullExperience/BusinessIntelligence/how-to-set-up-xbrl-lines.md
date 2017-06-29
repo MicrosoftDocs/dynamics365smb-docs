@@ -1,48 +1,20 @@
 ---
-title: "How to: Set Up XBRL Lines"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "eXtensible Business Reporting Language, setting up lines"
-  - "taxonomies, setting up"
-ms.assetid: f2c16ef0-afcf-4031-a56c-6fb8b36f78bb
-caps.latest.revision: 6
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-my"
-  - "en-nz"
-  - "en-ph"
-  - "en-sg"
-  - "en-zw"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up XBRL Lines
 After you import or update the taxonomy, the lines of the schemas must be supplied with all the information that is required. This information will include basic company information, the actual financial statements, notes to the financial statements, supplemental schedules, and other information that is required to satisfy the particular financial reporting requirements.  
   

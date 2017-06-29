@@ -1,40 +1,20 @@
 ---
-title: "Field Mapping When Exporting Payment Files Using Bank Data Conversion Service"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-ms.assetid: 3d034002-a213-4cd0-b6cd-e7bd28b59a01
-caps.latest.revision: 6
-ms.author: "sgroespe"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Field Mapping When Exporting Payment Files Using Bank Data Conversion Service
 When you export payment files using the Bank Data Conversion Service feature, the data that you export is exposed to the provider of the bank data conversion service. The service provider is responsible for the privacy of this data. For more information about how the Bank Data Conversion Service feature works, see [About the Data Exchange Framework](../../BusinessFunctionality/DataExchange/about-the-data-exchange-framework.md).  
   

@@ -1,19 +1,20 @@
 ---
-title: "Future Expenses (Deferrals)"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "future expenses, overview"
-ms.assetid: aabc2409-1b76-43a1-9b67-2e545157b4a6
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "ru-ru"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Future Expenses (Deferrals)
 The future expenses \(deferrals\) feature enables you to:  
   

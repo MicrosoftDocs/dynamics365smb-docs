@@ -1,18 +1,20 @@
 ---
-title: "Planning with Manual Transfer Orders"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-ms.assetid: 5341bd45-2ca3-45cb-a0c9-8079e6f8ba3b
-caps.latest.revision: 5
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Planning with Manual Transfer Orders
 As you can see from the [Replenishment System](../Topic/\($%20T_5700_5419%20Replenishment%20System%20$\).md) field on a SKU card, the planning system can be set up to create transfer orders to balance supply and demand across locations.  
   

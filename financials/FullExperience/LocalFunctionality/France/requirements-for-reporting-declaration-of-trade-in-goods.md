@@ -1,20 +1,20 @@
 ---
-title: "Requirements for Reporting Declaration of Trade in Goods"
-ms.custom: na
-ms.date: "06-04-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "Declaration of Trade in Goods (DEB), about"
-ms.assetid: 94a3840f-9240-4313-8f32-ab4ba8973c7c
-caps.latest.revision: 5
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "fr-fr"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Requirements for Reporting Declaration of Trade in Goods
 This topic shows a list of required fields that are needed for reporting Declaration of Trade in Goods \(DEB\) based on the DTI\+ format. For more information, see Export DEB DTI.  
   

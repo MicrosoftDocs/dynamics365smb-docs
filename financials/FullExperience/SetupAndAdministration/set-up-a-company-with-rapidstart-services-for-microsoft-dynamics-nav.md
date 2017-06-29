@@ -1,45 +1,20 @@
 ---
-title: "Set Up a Company With RapidStart Services for Microsoft Dynamics NAV"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "RapidStart Services, about"
-  - "companies, creating with RapidStart Services"
-  - "companies, RapidStart Services"
-ms.assetid: 05735533-21b1-47dc-a7d3-9ae8cb866790
-caps.latest.revision: 48
-ms.author: "solsen"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Set Up a Company With RapidStart Services for Microsoft Dynamics NAV
 You can set up a new company in ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> with ADD INCLUDE<!--[!INCLUDE[rimlong](../SetupAndAdministration/includes/rimlong_md.md)]-->. ADD INCLUDE<!--[!INCLUDE[rim](../Roles/includes/rim_md.md)]--> is a tool designed to shorten deployment times, improve quality of implementation, introduce a repeatable approach to implementations, and enhance productivity by automating and simplifying recurring tasks.  
   

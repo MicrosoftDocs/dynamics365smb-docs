@@ -1,22 +1,20 @@
 ---
-title: "How to: Set Up Reports for VAT and Intrastat"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "VAT, reports"
-  - "Intrastat, setting up reports"
-  - "VAT, Intrastat"
-ms.assetid: e49fd417-9994-4519-a080-caf51ee8b684
-caps.latest.revision: 6
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "de-de"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up Reports for VAT and Intrastat
 In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you can specify which reports to use to create the documents that you must submit to the authorities, such as the VAT statement and the Intrastat form.  
   

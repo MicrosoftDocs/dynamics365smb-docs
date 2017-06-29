@@ -1,46 +1,20 @@
 ---
-title: "Warehouse Adjustment Bin"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "warehouse, adjustment bins"
-  - "inventory, adjustment bins"
-  - "bins, quantity adjustments"
-  - "adjusting, warehouse"
-ms.assetid: 5c49f54a-2f10-41a4-9e43-5a9ad46115a6
-caps.latest.revision: 3
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Warehouse Adjustment Bin
 If you use directed put\-away and pick for a warehouse, when you register differences in item quantity in bins in the warehouse item journal, the positive and negative adjustment quantities are registered in the adjustment bin. The quantities are not automatically posted to the item ledger. At appropriate intervals as defined by company policy, you must post the entries in the adjustment bin to the item ledger, so that the item ledger quantities correspond to the actual quantities of items in the warehouse. Some companies find it appropriate to post adjustments to the item ledger every day, while others may find it adequate to reconcile every week or every two weeks.  
   

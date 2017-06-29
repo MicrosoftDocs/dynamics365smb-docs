@@ -1,48 +1,20 @@
 ---
-title: "eXtensible Business Reporting Language"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "taxonomies, about"
-  - "eXtensible Business Reporting Language, about"
-ms.assetid: 2ea689c9-f7ae-4a41-845c-142f8b99147e
-caps.latest.revision: 3
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-my"
-  - "en-nz"
-  - "en-ph"
-  - "en-sg"
-  - "en-zw"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # eXtensible Business Reporting Language
 XBRL \(e **X**tensible **B**usiness **R**eporting **L**anguage\) is an XML\-based language for financial reporting. XBRL provides a standard for uniform reporting for all users of the financial information supply chain; such as public and private companies, the accounting profession, regulators, analysts, the investment community, capital markets and lenders, as well as key third parties such as software developers and data aggregators.  
   

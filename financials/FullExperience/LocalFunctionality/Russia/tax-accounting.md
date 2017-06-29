@@ -1,20 +1,20 @@
 ---
-title: "Tax Accounting"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "tax accounting, setting up"
-  - "tax registers, defining"
-ms.assetid: bff0b833-2996-4e03-8f07-ab23a9f2f9d6
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "ru-ru"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Tax Accounting
 In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you can set up and maintain tax registers to track taxable profits and losses. This is based on the following tax accounting principles:  
   

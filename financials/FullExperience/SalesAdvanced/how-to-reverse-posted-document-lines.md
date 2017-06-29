@@ -1,45 +1,20 @@
 ---
-title: "How to: Reverse Posted Document Lines"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "reversing, posted document lines"
-  - "sales credit memos, reversing posted document lines"
-  - "copying, posted document lines"
-ms.assetid: 48d208dd-f5f8-4801-b3b1-5e31eaed5b9f
-caps.latest.revision: 5
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Reverse Posted Document Lines
 The **Get Posted Document Lines to Reverse** function is useful when you need to copy one or more lines that appear in one or more posted documents. This is particularly helpful when you are creating a return order or a credit memo and you want the costs to be an exact reversal of the original order. This means that the costs on the credit memo reflect the cost that was on the original document and that the prices include any discounts that may have been applied to that order.  
   

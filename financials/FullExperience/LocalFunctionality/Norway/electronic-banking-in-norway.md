@@ -1,19 +1,20 @@
 ---
-title: "Electronic Banking in Norway"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "electronic banking, in Norway"
-ms.assetid: f4f801f8-2a3a-431a-b868-6a076df3fd4d
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "nb-no"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Electronic Banking in Norway
 ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> includes Norwegian enhancements to electronic banking. You can use this functionality to perform the following operations:  
   

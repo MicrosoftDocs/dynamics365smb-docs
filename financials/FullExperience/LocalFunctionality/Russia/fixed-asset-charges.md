@@ -1,20 +1,20 @@
 ---
-title: "Fixed Asset Charges"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "fixed assets, charges"
-  - "fixed asset charges"
-ms.assetid: 5b966b4c-fd6b-4243-9aca-6d69c7dffd04
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "ru-ru"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Fixed Asset Charges
 In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you can use fixed asset charges to include additional charges on the purchase of fixed assets in the fixed asset acquisition cost. For more information, see [How to: Create a Fixed Asset Charge](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-create-a-fixed-asset-charge.md).  
   

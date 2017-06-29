@@ -1,20 +1,20 @@
 ---
-title: "How to: Import CODA Statements"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "CODA, importing statements"
-ms.assetid: d8518f04-0e7b-48e8-850a-5525681718e7
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "fr-be"
-  - "nl-be"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Import CODA Statements
 When you receive a CODA statement from your bank, you must import it into ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->. Before starting the import, you must have enabled one or more bank accounts for CODA. For more information, see [How to: Set Up Bank Accounts for CODA](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-bank-accounts-for-coda.md).  
   

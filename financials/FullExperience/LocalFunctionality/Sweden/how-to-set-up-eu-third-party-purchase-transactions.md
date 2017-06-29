@@ -1,19 +1,20 @@
 ---
-title: "How to: Set Up EU Third-Party Purchase Transactions"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "VIES reporting, 3-party trade"
-ms.assetid: 3c234cbf-81ca-45c2-b2e2-4ff358593fdb
-caps.latest.revision: 25
-ms.author: "edupont"
-translation.priority.ht: 
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up EU Third-Party Purchase Transactions
 European Union \(EU\) third\-party trade occurs when you receive a purchase invoice from a customer in one EU country\/region and the products are sent to a different EU country\/region without entering Sweden. The transaction amount must be identified and reported separately to comply with Swedish VAT reporting and VAT Information Exchange System \(VIES\) requirements. ADD INCLUDE<!--[!INCLUDE[nav_current_short](../../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_current_short_md.md)]--> includes Swedish enhancements that allow purchase transactions to be set up as EU third\-party trade. Posted EU third\-party transactions can then be filtered in VAT statements and excluded from the amount in the **Sales to Customer** column in the **VAT\- VIES Declaration Tax Auth** report.  
   

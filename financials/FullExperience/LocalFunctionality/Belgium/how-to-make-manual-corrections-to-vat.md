@@ -1,21 +1,20 @@
 ---
-title: "How to: Make Manual Corrections to VAT"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "VAT, manual corrections"
-  - "VAT, correcting"
-ms.assetid: 20d9550d-98dc-435a-bcc9-63dcf3733b65
-caps.latest.revision: 5
-ms.author: "edupont"
-translation.priority.ht: 
-  - "fr-be"
-  - "nl-be"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Make Manual Corrections to VAT
 You can make corrections to posted VAT entries without posting the correction into the VAT or general ledger entries. This is useful if you need to make a change to the total sales or purchases VAT amounts without changing the VAT base. For example, you can manually correct VAT if you receive an invoice from a vendor who has calculated VAT incorrectly.  
   

@@ -1,18 +1,20 @@
 ---
-title: "EU Sales List in Germany"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-ms.assetid: c42f1963-06e7-4432-b1f2-530fa1a1cd27
-caps.latest.revision: 7
-ms.author: "edupont"
-manager: "tsiggaar"
-translation.priority.ht: 
-  - "de-de"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # EU Sales List in Germany
 In Germany, the German EU sales list is submitted to the "Bundeszentralamt für Steuern" \(BZSt\) through the BZSt Online Portal by using the ELMA5 interface.  
   

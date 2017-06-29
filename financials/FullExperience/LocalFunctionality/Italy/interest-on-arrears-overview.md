@@ -1,20 +1,20 @@
 ---
-title: "Interest on Arrears Overview"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "interest, on arrears"
-ms.assetid: b6846148-94ef-4f0d-aa3f-4b0c0e0d2ed0
-caps.latest.revision: 16
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "it-it"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Interest on Arrears Overview
 In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, finance charge terms can include interest on arrears if you have amounts outstanding from customers or amounts outstanding for vendors.  
   

@@ -1,28 +1,20 @@
 ---
-title: "How to: Create Budgets"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "budgets, by history"
-  - "budgets, creating"
-  - "importing, budgets"
-  - "exporting, budgets"
-  - "budgets, importing"
-  - "budgets, by period"
-  - "budgets, exporting"
-ms.assetid: 775189b0-e212-4be6-b871-225e687da48b
-caps.latest.revision: 25
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "en-ca"
-  - "es-mx"
-  - "fr-ca"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Create Budgets
 In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, the create budget function allows you to do the following:  
   

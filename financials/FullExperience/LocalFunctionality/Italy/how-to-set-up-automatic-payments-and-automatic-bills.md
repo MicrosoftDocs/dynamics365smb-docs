@@ -1,22 +1,20 @@
 ---
-title: "How to: Set Up Automatic Payments and Automatic Bills"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "customer bills, setting up"
-  - "bills, setting up"
-  - "vendor bills, setting up"
-ms.assetid: fcf22c63-8ac2-493d-9c8c-778e1c060d6c
-caps.latest.revision: 44
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "it-it"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up Automatic Payments and Automatic Bills
 In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you can manage automatic payments and bills.  
   
@@ -29,32 +27,23 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
 2.  On the **Payments** FastTab, fill in the key fields as described in the following table.  
   
     |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
-    |---------------------------------|---------------------------------------|  
-    |**SIA Code**|Specify the company identification number that your company has been assigned by the bank.|  
-    |**Autoriz. No.**|Specify the authorization number that your company has been assigned by the bank.|  
-    |**Autoriz. Date**|Specify the date of when the bank assigned your company the authorization number.|  
-    |**Signature on Bill**|Specify the signature that will appear on bills and bank receipts.|  
-    |**IBAN**|Specify the International Bank Account Number \(IBAN\) for the bank account that you specified in the **Bank Account No.** field.|  
-    |**SWIFT Code**|If you do trade with customers or vendors abroad, specify the Society for Worldwide Interbank Financial Telecommunication \(SWIFT\) code for your bank.|  
-    |**BBAN**|Specify the Basic Bank Account Number \(BBAN\) for your bank account.|  
-  
-    > [!NOTE]  
-    >  All of these entries are used during automatic payments and automatic billing.  
-  
-3.  Choose the **OK** button.  
-  
-### To set up a bill posting group for a bank account  
-  
-1.  In the **Search** box, enter **Bank Accounts**, and then choose the related link.  
-  
-2.  In the **Bank Account List** window, select the relevant bank account, and then, on the **Home** tab, choose **Edit**.  
-  
-3.  In the **Bank Account Card** window, on the **Navigate** tab, choose **Bill Posting Group**.  
-  
-4.  Fill in the fields as described in the following table.  
-  
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
-    |---------------------------------|---------------------------------------|  
+    |---
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---------------------------------|---------------------------------------|  
     |**Payment Method**|Select the payment method for the type of payments made to or from this bank account. For example, for the bank account that will be used for automatic payments made by customers, select a payment method for bank transfers.|  
     |**Bills For Collection Acc. No.**|Specify the general ledger account where bills for collection will be credited.|  
     |**Bills For Discount Acc. No.**|Specify the general ledger account where bill discounts will be debited.|  

@@ -1,19 +1,20 @@
 ---
-title: "How to: Purchase and Release Undepreciable Fixed Assets"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "fixed assets, releasing"
-ms.assetid: ebfdc652-8b98-4105-8607-8ba412912a06
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "ru-ru"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Purchase and Release Undepreciable Fixed Assets
 After posting the fixed assets, you must create a fixed asset release act of the fixed asset and post it. If you open the **Fixed Asset Card** window for that fixed asset, you can see that in the corresponding lines, the depreciation for operation contains a zero, and the book value also contains a zero.  
   

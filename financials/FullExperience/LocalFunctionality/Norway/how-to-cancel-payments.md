@@ -1,19 +1,20 @@
 ---
-title: "How to: Cancel Payments"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "payments, canceling"
-ms.assetid: fb979705-39ff-4ace-9f01-e71198d4424b
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "nb-no"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Cancel Payments
 ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> includes Norwegian enhancements that allow you to cancel payments. If the payment has been sent to the bank, the bank must be contacted to cancel the remittance that they received.  
   

@@ -1,20 +1,20 @@
 ---
-title: "How to: Print VAT Information on Invoices"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "VAT, on invoices"
-  - "invoices, VAT information"
-ms.assetid: e243d1db-5bf0-40c5-b8f2-bf7df04e0bf4
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "fi-fi"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Print VAT Information on Invoices
 You can use posting groups to print VAT information for each item on the sales invoice.  
   

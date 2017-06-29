@@ -1,22 +1,20 @@
 ---
-title: "EAN Location Number"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "Global Location Numbers (GLN)"
-  - "European Article Numbering (EAN)"
-  - "EAN location numbers, about"
-ms.assetid: bc7b7247-be10-4ce8-99c0-ad8f4f8c1ee7
-caps.latest.revision: 8
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # EAN Location Number
 A European Article Numbering \(EAN\) location number is an electronic address that you can use when you send an electronic invoice. This number uniquely identifies the buyer’s billing address. EAN location numbers can be used in countries\/regions outside Europe and are also referred to as Global Location Numbers \(GLN\).  
   

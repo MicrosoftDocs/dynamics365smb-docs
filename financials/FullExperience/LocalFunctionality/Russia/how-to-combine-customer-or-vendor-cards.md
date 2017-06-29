@@ -1,22 +1,20 @@
 ---
-title: "How to: Combine Customer or Vendor Cards"
-ms.custom: na
-ms.date: "06-04-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "customers, combining vendor or customer cards"
-  - "vendors, combining customer or vendor cards"
-  - "customers, combining customer or vendor cards"
-  - "vendors, combining vendor or customer cards"
-ms.assetid: 1ab1157b-275f-474f-9c21-c0620a10707f
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "ru-ru"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Combine Customer or Vendor Cards
 The change double links feature enables you to combine two Customer or Vendor cards that belong to one customer or vendor.  
   

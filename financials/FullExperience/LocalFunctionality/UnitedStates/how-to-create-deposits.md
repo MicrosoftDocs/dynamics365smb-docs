@@ -1,22 +1,20 @@
 ---
-title: "How to: Create Deposits"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "deposits, creating"
-ms.assetid: d7fa7c0f-3f44-4d37-abbe-a525c29ffc55
-caps.latest.revision: 23
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "en-ca"
-  - "es-mx"
-  - "fr-ca"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Create Deposits
 You can make deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos.  
   

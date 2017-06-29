@@ -1,21 +1,20 @@
 ---
-title: "How to: Activate SEPA Payments"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "vendor payments, SEPA"
-  - "SEPA, activating payments"
-ms.assetid: 12af0fae-694d-43ff-890b-096dd24024b2
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "fr-be"
-  - "nl-be"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Activate SEPA Payments
 To submit vendor payments electronically in Single Euro Payments Area \(SEPA\) ISO 20022 payment format, you must set up prerequisites for enabling SEPA payments.  
   

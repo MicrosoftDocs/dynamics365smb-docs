@@ -1,17 +1,20 @@
 ---
-title: "How to: Export BACS Files"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-ms.assetid: 5174d162-6e2e-4c42-aa31-1097d936f548
-caps.latest.revision: 4
-ms.author: "edupont"
-translation.priority.ht: 
-  - "en-gb"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Export BACS Files
 The following procedure describes how to export a BACS file, one of the payment options supported by ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->.  
   

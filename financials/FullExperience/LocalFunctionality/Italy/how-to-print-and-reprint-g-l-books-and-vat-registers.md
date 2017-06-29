@@ -1,24 +1,20 @@
 ---
-title: "How to: Print and Reprint G-L Books and VAT Registers"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "registers, VAT"
-  - "registers, printing"
-  - "VAT register, print"
-  - "registers, general ledger"
-  - "general ledger book report, printing"
-ms.assetid: c94e157f-cae4-44e5-93d6-bc4a95260169
-caps.latest.revision: 9
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "it-it"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Print and Reprint G-L Books and VAT Registers
 The tax authorities require that you submit two fiscal reports that list all of the posted ledger entries, the **G\/L Book \- Print** report and the **VAT Register \- Print** report. Each printed page must have its own progressive number, and therefore, you must update ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> with the last printed page number before you run these reports again.  
   

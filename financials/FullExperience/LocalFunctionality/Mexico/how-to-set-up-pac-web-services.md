@@ -1,20 +1,20 @@
 ---
-title: "How to: Set Up PAC Web Services"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "electronic invoices, setting up PAC"
-ms.assetid: 6a3a8cdd-52cb-4539-9e78-b0dae3376558
-caps.latest.revision: 8
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "es-mx"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up PAC Web Services
 Before you can send invoices and credit memos electronically, you must specify one or more providers of the electronic stamp that must be included in invoices in Mexico.  
   
@@ -31,16 +31,23 @@ Before you can send invoices and credit memos electronically, you must specify o
 2.  Fill in the fields as described in the following table.  
   
     |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
-    |---------------------------------|---------------------------------------|  
-    |**Code**|Specify a unique ID for the authorized service provider, PAC, such as **PAC1**.|  
-    |**Name**|Specify the name of the PAC.|  
-  
-3.  On the **Navigate** tab, choose **Details**.  
-  
-4.  Fill in the fields as described in the following table.  
-  
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
-    |---------------------------------|---------------------------------------|  
+    |---
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---------------------------------|---------------------------------------|  
     |**Environment**|Specify if the web service is for a test environment or a production environment.|  
     |**Type**|Specify if the web method is for requesting a digital stamp or for canceling.|  
     |**Method Name**|Specify the name of the web method, such as **GeneraTimbre** or **CancelaTimbre**.|  

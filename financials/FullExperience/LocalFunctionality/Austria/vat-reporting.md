@@ -1,24 +1,20 @@
 ---
-title: "VAT Reporting"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "VAT, reports"
-  - "ELSTER, reporting"
-ms.assetid: 1061197b-b08e-4833-b901-b150a0e5fa9f
-caps.latest.revision: 22
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "fr-ch"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # VAT Reporting
 You can report VAT electronically to the tax authorities. You can generate, electronically sign, encrypt, and send an XML file directly to the German ELSTER portal. Response messages are received and processed in the same transaction.  
   

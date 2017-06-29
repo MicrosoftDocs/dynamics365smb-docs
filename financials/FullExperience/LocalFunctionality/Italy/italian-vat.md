@@ -1,22 +1,20 @@
 ---
-title: "Italian VAT"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "VAT reporting, about"
-  - "service tariffs"
-  - "VAT, in Italy"
-ms.assetid: 0cad8837-bc4a-4ad7-bf39-4f8c1bd09709
-caps.latest.revision: 33
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "it-it"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Italian VAT
 Companies must pay VAT to the state for most purchased goods and services. VAT can be deducted if the goods or services purchased by a company are used in the production of its income.  
   

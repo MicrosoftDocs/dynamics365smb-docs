@@ -1,22 +1,20 @@
 ---
-title: "How to: Print Withholding Tax Reports"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "withholding tax, reports"
-  - "tax, reports"
-  - "tax, reporting withholding"
-ms.assetid: 8639cbb9-9980-40e7-a4d4-d406563c9b80
-caps.latest.revision: 30
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "it-it"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Print Withholding Tax Reports
 The **Withholding Taxes** report displays a list of withholding taxes that are payable to the government.  
   

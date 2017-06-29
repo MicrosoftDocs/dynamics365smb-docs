@@ -1,23 +1,20 @@
 ---
-title: "How to: Set Up Customers for OIOUBL"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "EAN location numbers, customers"
-  - "OIOUBL, customers"
-  - "customers, setting up for OIOUBL"
-  - "electronic invoices, setting up customers"
-ms.assetid: e910fe6d-6221-4a04-9fb5-d098a79d396b
-caps.latest.revision: 11
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up Customers for OIOUBL
 To create Offentlig Information Online UBL \(OIOUBL\) documents for customers in the public sector, you must add OIOUBL information to the relevant customers.  
   

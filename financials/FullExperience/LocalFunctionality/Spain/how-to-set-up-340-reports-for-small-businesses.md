@@ -1,17 +1,20 @@
 ---
-title: "How to: Set Up 340 Reports for Small Businesses"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-ms.assetid: 5b8a7e68-7bbf-4841-896e-ae0495997386
-caps.latest.revision: 3
-ms.author: "edupont"
-translation.priority.ht: 
-  - "es-es"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up 340 Reports for Small Businesses
 Use the following procedure to set up your business to report on a cash basis, that is, Cash Accounting Criteria \(CAC\). If you have not already done so, you can set up posting groups for cash\-based VAT accounting for purchases and sales.  
   

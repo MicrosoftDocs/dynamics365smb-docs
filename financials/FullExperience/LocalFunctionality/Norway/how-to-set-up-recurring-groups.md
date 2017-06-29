@@ -1,19 +1,20 @@
 ---
-title: "How to: Set Up Recurring Groups"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "recurring groups"
-ms.assetid: e496b996-f61d-4c25-b223-fe14e1482ae5
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "nb-no"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up Recurring Groups
 The **Recurring Group Code** field in the **Blanket Sales Order** window defines date formulas that can be used both as a template and to create sales orders based on date intervals. You must set up recurring groups before you can set up recurring orders.  
   

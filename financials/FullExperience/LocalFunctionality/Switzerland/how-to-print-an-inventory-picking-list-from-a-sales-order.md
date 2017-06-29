@@ -1,20 +1,20 @@
 ---
-title: "How to: Print an Inventory Picking List from a Sales Order"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "inventory picking list, printing"
-ms.assetid: 8cb2f2f5-d628-41af-b077-5447566191a0
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "de-ch"
-  - "fr-ch"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Print an Inventory Picking List from a Sales Order
 You can print an inventory picking list directly from a sales order. The picking list contains a list of items with the following information:  
   

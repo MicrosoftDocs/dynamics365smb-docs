@@ -1,29 +1,20 @@
 ---
-title: "Walkthrough: Synchronizing Information Between Outlook and Microsoft Dynamics NAV"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "synchronization, meetings with Outlook"
-  - "Outlook synchronization, synchronizing"
-ms.assetid: 0bffbaee-2b9d-435f-af97-61f8f36f2198
-caps.latest.revision: 30
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-de"
-  - "es-es"
-  - "fi-fi"
-  - "fr-fr"
-  - "it-it"
-  - "nb-no"
-  - "nl-nl"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Walkthrough: Synchronizing Information Between Outlook and Microsoft Dynamics NAV
 You can set up synchronization between ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> and Microsoft Outlook, so that information about meetings, to\-dos, and contacts can be shared between team members and updated across the two products. For example, a salesperson working outside the office can create a new meeting in Outlook in her company's calendar, and then her manager in the corporate office can see that to\-do in ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]-->.  
   

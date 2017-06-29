@@ -1,21 +1,20 @@
 ---
-title: "How to: Set Up Electronic VAT and ICP Declarations"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "electronic declarations, setting up"
-  - "VAT, electronic declarations"
-ms.assetid: cb7ee497-eb81-409e-b104-0663c758b6ef
-caps.latest.revision: 15
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "nl-nl"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up Electronic VAT and ICP Declarations
 To get your Digipoort communications to work, you may have to adjust your network settings. Digipoort uses a secure communication protocol and requires using TCP port 443. Before proceeding with the following procedure, set up your network to use this port.  
   

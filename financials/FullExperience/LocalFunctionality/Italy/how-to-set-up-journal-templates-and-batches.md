@@ -1,22 +1,20 @@
 ---
-title: "How to: Set Up Journal Templates and Batches"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "journal batches, setting up for Intrastat"
-  - "journal templates, setting up for Intrastat"
-  - "Intrastat, setting up journals"
-ms.assetid: de2a9634-3fd7-4c78-9327-a84a001d34dc
-caps.latest.revision: 18
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "it-it"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up Journal Templates and Batches
 All European Union \(EU\) companies must submit Intrastat reports to the customs office, detailing their trade with other EU countries\/regions for the current year. An Intrastat summary report is presented to the tax authorities monthly, quarterly, or yearly depending upon the company's business.  
   

@@ -1,21 +1,20 @@
 ---
-title: "Australia Local Functionality"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "local functionality, about"
-  - "country/region-specific, about"
-ms.assetid: 24758f22-c798-4d4d-b4fb-268725b885ed
-caps.latest.revision: 17
-ms.author: "edupont"
-manager: "pchapman"
-translation.priority.ht: 
-  - "en-au"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Australia Local Functionality
 The following topics describe the local functionality in the Australian version of ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->.  
   

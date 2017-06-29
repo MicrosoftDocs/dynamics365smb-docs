@@ -1,20 +1,20 @@
 ---
-title: "How to: View Ledger Reconciliations"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "reconciling, general ledger with customer and vendor ledgers"
-ms.assetid: c9be5147-d00a-4937-8d95-776b794513a7
-caps.latest.revision: 7
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "fr-fr"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: View Ledger Reconciliations
 ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> includes two reports that can help you reconcile general ledger entries with customer ledger entries and vendor ledger entries. The reports print a separate page for each customer or vendor that sums up amounts from general ledger transactions based on payments and posted invoices.  
   

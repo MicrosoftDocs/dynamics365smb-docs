@@ -1,21 +1,20 @@
 ---
-title: "Swiss Value Added Tax"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "VAT, amounts and exchange rates"
-  - "VAT, Swiss"
-ms.assetid: 0edace66-a335-4c97-870a-e51bddd27fa8
-caps.latest.revision: 4
-ms.author: "edupont"
-translation.priority.ht: 
-  - "de-ch"
-  - "fr-ch"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Swiss Value Added Tax
 ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> includes the following enhancements to Swiss VAT reporting:  
   

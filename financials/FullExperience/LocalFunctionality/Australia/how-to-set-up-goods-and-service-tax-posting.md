@@ -1,21 +1,20 @@
 ---
-title: "How to: Set Up Goods and Service Tax Posting"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "posting, goods and service tax"
-  - "goods and services tax (GST), setting up"
-ms.assetid: 22ed8798-cefd-437d-94ae-76e32726c6e1
-caps.latest.revision: 17
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "en-au"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up Goods and Service Tax Posting
 Goods and services tax \(GST\) is the tax that is applied on most goods and services. The GST that is paid and received during a period is reported in the Business Activity Statement \(BAS\) that has to be submitted to the Australian Taxation Office \(ATO\).  
   

@@ -1,26 +1,20 @@
 ---
-title: "Enhanced Document Management"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "documents, archiving"
-  - "enhanced archive document management"
-  - "archiving, documents"
-  - "document management"
-ms.assetid: 3d1ef4a8-191c-44e7-a5b3-4e22008f6483
-caps.latest.revision: 25
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "fr-ch"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Enhanced Document Management
 In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you can archive documents and track work across archived and non\-archived documents.  
   

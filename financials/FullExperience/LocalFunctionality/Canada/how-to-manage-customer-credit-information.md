@@ -1,24 +1,20 @@
 ---
-title: "How to: Manage Customer Credit Information"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "credit management"
-  - "customer credit information"
-  - "CMR notes, customer credit management"
-ms.assetid: 9434d98d-5e31-4fa3-a446-d550d3dec603
-caps.latest.revision: 32
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "en-ca"
-  - "es-mx"
-  - "fr-ca"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Manage Customer Credit Information
 In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you can add comments to customer credit information. You can also hold and block customers with bad credit before shipping or invoicing occurs.  
   

@@ -1,18 +1,20 @@
 ---
-title: "BAS Fuel Tax Credits"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-ms.assetid: 533cb48e-fe51-46f2-8f78-aa0aa705bb40
-caps.latest.revision: 2
-ms.author: "edupont"
-manager: "tsiggaar"
-translation.priority.ht: 
-  - "en-au"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # BAS Fuel Tax Credits
 Fuel tax credits provide companies with a credit for the fuel tax \(excise or customs duty\) included in the price of fuel used for business activities in:  
   

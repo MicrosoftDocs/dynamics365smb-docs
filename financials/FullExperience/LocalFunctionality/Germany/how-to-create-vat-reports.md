@@ -1,17 +1,20 @@
 ---
-title: "How to: Create VAT Reports"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-ms.assetid: 9afe60e3-7312-4875-91c0-cd76b0c3cef2
-caps.latest.revision: 5
-ms.author: "edupont"
-translation.priority.ht: 
-  - "de-de"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Create VAT Reports
 You can configure different types of VAT reports based on requirements. Then, when you have to submit a VAT report, you can create it in the **VAT Report** window and then export it in electronic format that conforms to the ELMA5 format requirements.  
   

@@ -1,32 +1,20 @@
 ---
-title: "Unit Cost Calculation"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "direct costs, calculating"
-  - "unit costs, calculating"
-  - "costs, calculating"
-  - "average costs, unit cost calculations"
-ms.assetid: 336da59e-eb99-4116-b2b3-96bd43b30a3f
-caps.latest.revision: 4
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-my"
-  - "en-nz"
-  - "en-ph"
-  - "en-sg"
-  - "en-zw"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Unit Cost Calculation
 As a rule, the value in the Unit Cost field on the item card is based on the standard cost for items with costing method standard. For items with all other costing methods, it is based on the calculation of the inventory available \(invoiced costs and expected costs\) divided by the quantity on hand.  
   

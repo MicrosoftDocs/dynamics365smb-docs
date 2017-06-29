@@ -1,22 +1,20 @@
 ---
-title: "Automatic Account Codes"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "account codes, about"
-  - "automatic account codes, about"
-ms.assetid: 3b3d0573-59b8-49e8-8abd-1dfad2b9650c
-caps.latest.revision: 11
-ms.author: "edupont"
-manager: "pchapman"
-translation.priority.ht: 
-  - "fi-fi"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Automatic Account Codes
 You can use customized posting groups to automate recurring transactions in journals, sales documents, or purchase documents. These posting groups can be used throughout ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> to trigger automatic postings and allocations across different accounts or dimensions.  
   

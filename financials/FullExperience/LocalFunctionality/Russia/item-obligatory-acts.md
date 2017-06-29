@@ -1,34 +1,20 @@
 ---
-title: "Item Obligatory Acts"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "INV-19"
-  - "M-17"
-  - "official reports in Russia, INV-19"
-  - "M-15"
-  - "official reports in Russia, M-4"
-  - "M-11"
-  - "official reports in Russia, M-11"
-  - "INV-3"
-  - "official reports in Russia, M-17"
-  - "official reports in Russia, INV-3"
-  - "M-4"
-  - "inventory, Russian official reports"
-  - "TORG13"
-  - "official reports in Russia, M-15"
-  - "official reports in Russia, TORG13"
-  - "official reports in Russia, inventory items"
-ms.assetid: e22d0ebd-1fdd-4ea8-8ff4-c310d1ce54e3
-caps.latest.revision: 3
-ms.author: "edupont"
-translation.priority.ht: 
-  - "ru-ru"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Item Obligatory Acts
 The item obligatory acts feature enables you to print the obligatory reports used for the material and production resources in your company. These reports contain item information such as the item number and description, item storage place, item information brand, sort, profile, size, unit of measure, and vendor information.  
   

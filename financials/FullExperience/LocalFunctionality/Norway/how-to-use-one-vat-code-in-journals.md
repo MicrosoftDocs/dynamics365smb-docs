@@ -1,17 +1,20 @@
 ---
-title: "How to: Use One VAT Code in Journals"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-ms.assetid: 4e6ce4e6-6d10-46d1-8e00-1388422c82bf
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "nb-no"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Use One VAT Code in Journals
 In Norway, you can use the feature one VAT code in a journal, so that you can post VAT by using a single field, **VAT Code**. After it is set up, the one VAT code is a quick way to fill in the commonly used VAT fields.  
   

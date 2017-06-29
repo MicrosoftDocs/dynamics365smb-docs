@@ -1,20 +1,20 @@
 ---
-title: "How to: View Duplicate Physical Inventory Order Lines"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "physical inventory, duplicate orders"
-ms.assetid: f3b8b50c-5e8c-4417-88b2-0e20b26507ce
-caps.latest.revision: 8
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "de-de"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: View Duplicate Physical Inventory Order Lines
 If you create physical inventory order lines manually, or if you change automatically created lines, you must make sure that there are no duplicate lines. You can create a list of duplicate physical inventory order lines.  
   

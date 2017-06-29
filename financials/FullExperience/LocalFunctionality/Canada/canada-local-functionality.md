@@ -1,22 +1,20 @@
 ---
-title: "Canada Local Functionality"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "local functionality, about"
-  - "country/region-specific, about"
-ms.assetid: c7429106-543f-4b90-9be1-32317a7ff545
-caps.latest.revision: 15
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "en-ca"
-  - "fr-ca"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Canada Local Functionality
 The following topics describe the local functionality in the Canadian version of ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->.  
   

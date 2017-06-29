@@ -1,22 +1,20 @@
 ---
-title: "How to: Create Electronic VAT and ICP Declarations"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "electronic declarations, creating"
-  - "electronic declarations, submitting"
-  - "electronic declarations, VAT"
-ms.assetid: e7a12268-0421-4fe4-a354-8ab0d8128420
-caps.latest.revision: 26
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "nl-nl"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Create Electronic VAT and ICP Declarations
 To create electronic VAT and ICP declarations, you must first set up the declaration using the **Elec. Tax Declaration Setup** window. Then you can submit them to the tax authorities.  
   
@@ -34,24 +32,23 @@ To create electronic VAT and ICP declarations, you must first set up the declara
 3.  In the **Elec. Tax Declaration Card** window, on the **General** FastTab, fill in the required fields as described in the following table.  
   
     |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
-    |---------------------------------|---------------------------------------|  
-    |**Declaration Type**|Select the type of electronic declaration you want to create. The options include **VAT Declaration** and **ICP Declaration**.|  
-    |**No.**|The number for the electronic declaration.|  
-    |**Declaration Period**|The period for which you want to create the electronic declaration.<br /><br /> For ICP declarations, the period is only for a quarter.|  
-    |**Declaration Year**|The year for which you want to create the electronic declaration.|  
-    |**Message ID**|Displays the ID of the response message received from the tax authority.<br /><br /> ADD INCLUDE<!--[!INCLUDE[bp_fieldnoneditable](../../Finance/includes/bp_fieldnoneditable_md.md)]--><br /><br /> You must refer to this ID when you contact the tax authorities for any questions regarding your electronic declaration.|  
-    |**Status**|The status of the electronic declaration. For more information, see Status Field.<br /><br /> ADD INCLUDE<!--[!INCLUDE[bp_fieldnoneditable](../../Finance/includes/bp_fieldnoneditable_md.md)]-->|  
-    |**Our Reference**|The unique identification for the electronic declaration that is to be included in the electronic declaration file. This field must be exactly 11 characters, must start with OB\-, and can only contain numbers, letters, and dashes.<br /><br /> You cannot change this field after you have created the electronic declaration.|  
-    |**Date Created**|The date on which the electronic declaration was created.<br /><br /> ADD INCLUDE<!--[!INCLUDE[bp_fieldnoneditable](../../Finance/includes/bp_fieldnoneditable_md.md)]-->|  
-    |**Date Submitted**|The date on which the electronic declaration is submitted to the tax authorities.<br /><br /> ADD INCLUDE<!--[!INCLUDE[bp_fieldnoneditable](../../Finance/includes/bp_fieldnoneditable_md.md)]-->|  
-    |**Date Received**|The date on which a response message from the tax authorities' for an electronic declaration is processed.<br /><br /> ADD INCLUDE<!--[!INCLUDE[bp_fieldnoneditable](../../Finance/includes/bp_fieldnoneditable_md.md)]-->|  
-  
-4.  On the **Home** tab, in the **Process** group, choose **Create Electronic Tax Declaration**.  
-  
-5.  In the **Create Elec. VAT Declaration** or the **Create Elec. ICP Declaration** window, on the **Options** FastTab, fill in the fields as described in the following table.  
-  
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
-    |---------------------------------|---------------------------------------|  
+    |---
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---------------------------------|---------------------------------------|  
     |**Template Name**|The name of the template that will be used to create the electronic declaration.|  
     |**Statement Name**|The name of the statement that will be used to create the electronic declaration.|  
   

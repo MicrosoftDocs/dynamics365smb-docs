@@ -1,36 +1,20 @@
 ---
-title: "Walkthrough: Conducting a Sales Campaign"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "registering, sales campaign responses"
-  - "sales campaigns, selecting the target audience"
-  - "mining sales campaign data"
-  - "sales campaigns, mining data"
-  - "sending letters to sales contacts"
-  - "sales campaigns, registering responses"
-  - "sales campaigns, setting up"
-  - "sales campaigns, sending letters"
-  - "business process walkthroughs, conducting sales campaigns"
-ms.assetid: 473f4b29-102d-4a38-8c7b-c43b2f2c2223
-caps.latest.revision: 28
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-de"
-  - "es-es"
-  - "fi-fi"
-  - "fr-fr"
-  - "it-it"
-  - "nb-no"
-  - "nl-nl"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Walkthrough: Conducting a Sales Campaign
 A campaign is any kind of activity that involves several contacts. An important part of setting up a campaign involves selecting the target audience for your campaign. For this purpose, in ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]-->, you create a segment, or a group of contacts using filters.  
   

@@ -1,20 +1,20 @@
 ---
-title: "How to: Analyze Physical Inventory Differences"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "physical inventory, analyzing orders"
-ms.assetid: 96552fd7-e89f-4ecc-93f3-ea78831ee984
-caps.latest.revision: 7
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "de-de"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Analyze Physical Inventory Differences
 After you have finished the physical inventory order, you can analyze the physical inventory differences.  
   

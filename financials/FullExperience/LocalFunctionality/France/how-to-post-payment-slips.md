@@ -1,21 +1,20 @@
 ---
-title: "How to: Post Payment Slips"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "posting, payment slips"
-  - "payment slips, posting"
-ms.assetid: 3361e77f-a629-4ac8-a3d1-baba0940b9f6
-caps.latest.revision: 23
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "fr-fr"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Post Payment Slips
 You must post payment slips to complete a payment transaction and to create the related financial data. You can post a payment slip if the payment slip's **Action Type** is set to **Ledger**. For more information, see [How to: Set Up Payment Steps](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-set-up-payment-steps.md) and [Payment Step Table](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/-$-t_10862-payment-step-$-.md).  
   

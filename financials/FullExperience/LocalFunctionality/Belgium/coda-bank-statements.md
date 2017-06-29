@@ -1,21 +1,20 @@
 ---
-title: "CODA Bank Statements"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "bank statements, CODA"
-  - "CODA, bank statements"
-ms.assetid: ad26695d-6f55-4a48-9ed8-dd9e517e5f78
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "fr-be"
-  - "nl-be"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # CODA Bank Statements
 The Coded Statement of Account \(CODA\) is a national banking standard, designed by the Belgian Banker's Association, which allows you to automatically process electronic bank statements.  
   

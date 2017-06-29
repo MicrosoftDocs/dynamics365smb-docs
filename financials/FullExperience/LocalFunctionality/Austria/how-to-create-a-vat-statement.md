@@ -1,19 +1,20 @@
 ---
-title: "How to: Create a VAT Statement"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "VAT, statements"
-ms.assetid: 7906e872-a814-4d53-91d3-ad1936deaacd
-caps.latest.revision: 3
-ms.author: "edupont"
-translation.priority.ht: 
-  - "de-at"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Create a VAT Statement
 ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> allows you to submit a periodic report of VAT transactions. The VAT statement is submitted as a FDF file that corresponds with an editable PDF file from the tax authorities.  
   

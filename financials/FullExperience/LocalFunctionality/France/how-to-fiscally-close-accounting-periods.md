@@ -1,21 +1,20 @@
 ---
-title: "How to: Fiscally Close Accounting Periods"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "accounting periods, fiscally closing"
-  - "closing, accounting periods"
-ms.assetid: 8728896d-e424-4fdc-8a78-e6f2dbb4af28
-caps.latest.revision: 6
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "fr-fr"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Fiscally Close Accounting Periods
 When a fiscal period is complete, you can fiscally close the period to make sure that no more general ledger entries can be posted.  
   

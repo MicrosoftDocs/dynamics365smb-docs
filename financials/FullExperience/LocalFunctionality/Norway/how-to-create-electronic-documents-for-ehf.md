@@ -1,19 +1,20 @@
 ---
-title: "How to: Create Electronic Documents for EHF"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "electronic documents, creating"
-ms.assetid: dfc2fc4c-620a-4893-9fd8-59e49290b05f
-caps.latest.revision: 3
-ms.author: "edupont"
-translation.priority.ht: 
-  - "nb-no"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Create Electronic Documents for EHF
 When you sell goods or services to a customer in the public sector, you must submit documents electronically. In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you can create electronic documents for invoices, credit memos, reminders, and finance charge memos. Before you can create the electronic documents, you must have set up file locations and information about the customers. For more information, see [How to: Set Up EHF](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-set-up-ehf.md) and [How to: Set Up Customers for EHF](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-set-up-customers-for-ehf.md).  
   

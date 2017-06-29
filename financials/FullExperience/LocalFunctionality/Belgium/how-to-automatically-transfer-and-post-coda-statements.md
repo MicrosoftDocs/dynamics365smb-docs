@@ -1,21 +1,20 @@
 ---
-title: "How to: Automatically Transfer and Post CODA Statements"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "CODA, automatically posting statements"
-  - "CODA, automatically transferring statements"
-ms.assetid: 4c96ecbe-970e-4f74-a036-6b0cb03d052e
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "fr-be"
-  - "nl-be"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Automatically Transfer and Post CODA Statements
 After you have applied and processed all CODA statement lines, you can transfer the CODA statement lines to a financial journal.  
   

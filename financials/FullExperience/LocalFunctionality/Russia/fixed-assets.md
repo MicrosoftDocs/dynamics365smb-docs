@@ -1,20 +1,20 @@
 ---
-title: "Fixed Assets"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "fixed assets, getting started"
-  - "fixed assets"
-ms.assetid: ef9a7d5b-4b50-4e2d-b6aa-6cabfbeec85b
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "ru-ru"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Fixed Assets
 In Russia, there are specific ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> features that you can use to track and manage your fixed assets. You can use fixed assets functionality to manage depreciation and maintenance costs, track the movement of fixed assets, manage the sale or disposal of fixed assets, and generate various reports and statistics.  
   

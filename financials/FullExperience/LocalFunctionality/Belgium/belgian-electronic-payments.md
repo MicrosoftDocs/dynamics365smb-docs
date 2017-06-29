@@ -1,21 +1,20 @@
 ---
-title: "Belgian Electronic Payments"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "electronic payments, in Belgium"
-  - "electronic payments, correcting payment lines"
-ms.assetid: c9f0b743-4f66-4acc-99b5-e03ae2012924
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "fr-be"
-  - "nl-be"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Belgian Electronic Payments
 In the electronic banking module in ADD INCLUDE<!--[!INCLUDE[nav_current_short](../../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_current_short_md.md)]-->, you can make domestic, international, SEPA, and non\-Euro SEPA electronic payments.  
   

@@ -1,24 +1,20 @@
 ---
-title: "How to: Track Document Lines"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "tracking, document lines"
-  - "document lines, tracking"
-ms.assetid: 65fe18d7-6f5a-4ff6-b869-dab2336320d6
-caps.latest.revision: 30
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "fr-ch"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Track Document Lines
 You can use the document tracking to view documents that are related to sales order lines and purchase order lines for orders and archived orders. You can also see an overview of documents related to order lines. This helps you to identify documents used to process orders.  
   

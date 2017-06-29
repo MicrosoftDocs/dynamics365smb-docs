@@ -1,21 +1,20 @@
 ---
-title: "How to: Delete Expired Components"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "production BOMs, components"
-  - "expired components"
-ms.assetid: 440736ee-cf4c-4e49-b16f-1f5facc4538b
-caps.latest.revision: 8
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Delete Expired Components
 Periodically, you can run the **Delete Expired Components** batch job to maintain the BOM lines. Old lines where ending dates have expired can be removed from the BOM. The BOM headers are not changed.  
   

@@ -1,21 +1,20 @@
 ---
-title: "How to: Create and Print a Swiss VAT Statement"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "VAT, setting up reporting"
-  - "VAT, printing statements"
-ms.assetid: b80c8ec0-7339-4cb1-a136-ad934f68ba71
-caps.latest.revision: 4
-ms.author: "edupont"
-translation.priority.ht: 
-  - "de-ch"
-  - "fr-ch"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Create and Print a Swiss VAT Statement
 Based on the information that you have specified in the **VAT Posting Setup** window, ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> can automatically create a new VAT Statement Setup for realized VAT reporting. Before proceeding with the procedures in this topic, make sure that you have set up VAT posting setup with values specified for the sales and purchase cipher fields.  
   

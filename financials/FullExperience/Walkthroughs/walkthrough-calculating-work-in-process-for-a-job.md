@@ -1,34 +1,20 @@
 ---
-title: "Walkthrough: Calculating Work in Process for a Job"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "jobs, reversing a work in process posting"
-  - "jobs, posting work in process to the general ledger"
-  - "work in process, reversing a posting"
-  - "jobs, calculating work in process"
-  - "work in process, calculating"
-  - "work in process, posting to the general ledger"
-  - "business process walkthroughs, calculating work in process"
-ms.assetid: 565a8fb5-4dc7-4a31-a6f0-49e05cb0b400
-caps.latest.revision: 31
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-de"
-  - "es-es"
-  - "fi-fi"
-  - "fr-fr"
-  - "it-it"
-  - "nb-no"
-  - "nl-nl"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Walkthrough: Calculating Work in Process for a Job
 With jobs, you can schedule the usage of your company's resources and keep track of the various costs associated with the usage of resources on a specific project. Jobs involve the consumption of employee hours, machine hours, inventory items, and other types of usage that have to be tracked as a job progresses. If a job runs over a long period, you may want to transfer these costs to a Work in Process \(WIP\) account on the balance sheet while the job is being completed. You can then recognize the costs and sales in your income statement accounts when it is appropriate.  
   

@@ -1,21 +1,20 @@
 ---
-title: "How to: Create Report 349"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "349 report, submitting"
-  - "Report 349, submitting"
-ms.assetid: e4117fb3-8830-4939-860c-23a5aa386c91
-caps.latest.revision: 10
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "es-es"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Create Report 349
 You must submit a periodic report of trade with other EU countries\/regions to the tax authorities. This declaration, Report 349, must be submitted to the tax authorities electronically on the tax agency website or on a CD\-ROM. For more information, see the [Spanish Tax Agency](http://go.microsoft.com/fwlink/?LinkId=238181) website.  
   

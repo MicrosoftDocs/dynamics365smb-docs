@@ -1,23 +1,20 @@
 ---
-title: "How to: Import and Export Account Schedules"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "account schedules"
-  - "importing, account schedules"
-  - "exporting, account schedules"
-  - "account schedules, exporting"
-  - "account schedules, importing"
-ms.assetid: 7650e6ef-fed1-4ce4-a21c-890747162fd5
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "ru-ru"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Import and Export Account Schedules
 ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> enables you to import and export account schedules into other companies and databases.  
   

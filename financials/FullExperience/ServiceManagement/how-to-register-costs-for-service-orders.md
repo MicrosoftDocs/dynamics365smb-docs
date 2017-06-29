@@ -1,43 +1,20 @@
 ---
-title: "How to: Register Costs for Service Orders"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "costs, registering for service orders"
-ms.assetid: 5a3068b9-0b66-4a8d-9791-180d4de5a7ee
-caps.latest.revision: 6
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Register Costs for Service Orders
 When working on service items in service orders, you may need to register additional costs for a service order in general. For example, you can insert a fee for travel to the service zone where the customer is located for whom the service order was created. You can also insert a starting fee for the order. For more information, see [How to: Insert Travel Fees for Service Orders](../Service/how-to-insert-travel-fees-for-service-orders.md) and [How to: Insert Starting Fees for Service Orders](../Service/how-to-insert-starting-fees-for-service-orders.md).  
   

@@ -1,21 +1,20 @@
 ---
-title: "How to: Set Up Intrastat Establishment Numbers"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "establishment numbers"
-  - "Intrastat, establishment numbers"
-ms.assetid: d5d6e45a-b3c5-4103-8b4b-b7177448c2d5
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "fr-be"
-  - "nl-be"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up Intrastat Establishment Numbers
 The Intrastat establishment number is a company identification number that is printed on the Intrastat declaration.  
   

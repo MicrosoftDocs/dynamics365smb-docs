@@ -1,20 +1,20 @@
 ---
-title: "How to: Assign Locations to Entries"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "locations, assigning to entries"
-ms.assetid: ba94c69d-4029-4844-8874-e084843a1c00
-caps.latest.revision: 5
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Assign Locations to Entries
 You can assign a location to an entry after you have posted it, for example, if you have forgotten to define a location for a purchase or sales order.  
   

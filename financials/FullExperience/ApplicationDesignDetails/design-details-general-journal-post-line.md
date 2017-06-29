@@ -1,44 +1,20 @@
 ---
-title: "Design Details: General Journal Post Line"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "general journal post line, overview"
-  - "general journal post line"
-ms.assetid: a4e7f5e2-1136-4ff7-ad3c-43f4c05de9be
-caps.latest.revision: 2
-ms.author: "edupont"
-manager: "edupont"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Design Details: General Journal Post Line
 This documentation provides detailed technical insight into the concepts and principles that are used to redesign the general journal posting line feature in ADD INCLUDE<!--[!INCLUDE[navnowlong](../ApplicationDesign/includes/navnowlong_md.md)]-->. The redesign makes codeunit 12 simpler and more maintainable. The documentation starts by describing conceptual overviews of the redesign. Then it explains the technical architecture to show the changes that result from the redesign.  
   

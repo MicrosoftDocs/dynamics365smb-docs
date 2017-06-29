@@ -1,22 +1,20 @@
 ---
-title: "How to: Report Trade with Customers and Vendors in Blacklist Countries-Regions"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "VAT, Blacklist communications"
-  - "VAT, reporting trade with certain countries/regions"
-  - "VAT reports, reporting trade with certain countries/regions"
-ms.assetid: 6c4ecf1e-b473-4406-acf2-44141a22c94a
-caps.latest.revision: 18
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "it-it"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Report Trade with Customers and Vendors in Blacklist Countries-Regions
 You must submit a periodic report of transactions with customers and vendors in certain countries\/regions that the Italian government has identified in a blacklist. The blacklist communication report must be submitted to the Italian Revenue Agency to help prevent VAT fraud. Transactions that are subject to blacklist reporting include the following:  
   
@@ -50,30 +48,23 @@ You must submit a periodic report of transactions with customers and vendors in 
 3.  In the **Blacklist Comm. Amounts** window, fill in the fields as described in the following table.  
   
     |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
-    |---------------------------------|---------------------------------------|  
-    |**Start Date**|Specifies the start date for the threshold amounts. Transactions that are posted on or after this date are included in the calculations for the blacklist communication report.|  
-    |**Threshold Amount**|Specifies the minimum invoice base amount, per document, that will be included in the blacklist communication report. This amount is determined by the requirements from the tax authorities. The date used for the threshold reporting is the end date of the Blacklist reporting period.|  
-  
- For the current threshold amount, see the [Italian Revenue Agency](http://go.microsoft.com/fwlink/?LinkID=206524).  
-  
-### To specify a vendor as the customs authority vendor  
-  
-1.  In the **Search** box, enter **Customs Authority Vendors**, and then choose the related link.  
-  
-2.  In the **Vendor No.** field, select the relevant vendor.  
-  
-     For more information, see Customs Authority Vendors window.  
-  
-### To set up and view the Blacklist statement template  
-  
-1.  In the **Search** box, enter **VAT Statement Templates**, and then choose the related link.  
-  
-2.  From the list, choose **Blacklist**.  
-  
-     The template specifies which reports and pages IDs that are used with the Blacklist Communication report. The template fields are described in the following table.  
-  
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
-    |---------------------------------|---------------------------------------|  
+    |---
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---------------------------------|---------------------------------------|  
     |**Name**|Specifies the name of the template, **Blacklist**.|  
     |**Description**|Specifies a description of the template, Blacklist Communication.|  
     |**Form ID**|Specifies the window where you set up the list of transactions for the blacklist communication, **12110**.|  

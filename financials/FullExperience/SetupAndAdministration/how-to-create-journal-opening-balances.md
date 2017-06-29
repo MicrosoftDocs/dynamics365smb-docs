@@ -1,46 +1,20 @@
 ---
-title: "How to: Create Journal Opening Balances"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "migrating, transactions"
-  - "transctions, migrating"
-  - "journals, migrating data"
-  - "journals, creating opening balances"
-ms.assetid: 8bdddba9-93e8-4fd7-aa86-de4c0fddc35d
-caps.latest.revision: 3
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Create Journal Opening Balances
 ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> includes several batch jobs that are provided to help in the transfer of legacy account balances to a newly configured company. You can easily transfer this data for the customer journal, the vendor journal, the item journal, and the G\/L journal. The first step is to create a configuration package that includes the setup tables for those journals. The following procedure assumes that this step is completed. The procedure describes the subsequent steps, which include applying the package that is provided by a partner.  
   

@@ -1,21 +1,20 @@
 ---
-title: "Belgian VAT"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "VAT, in Belgium"
-  - "VAT, non-deductible"
-ms.assetid: 547af500-b537-4ca9-ab63-0aaaeebc83ae
-caps.latest.revision: 3
-ms.author: "edupont"
-translation.priority.ht: 
-  - "fr-be"
-  - "nl-be"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Belgian VAT
 ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> includes Belgium enhancements to VAT reporting feature that enables you to print VAT transaction details. You must send the following reports to the Belgian tax authorities:  
   

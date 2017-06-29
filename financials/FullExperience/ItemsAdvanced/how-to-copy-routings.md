@@ -1,20 +1,20 @@
 ---
-title: "How to: Copy Routings"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "routings, copying"
-ms.assetid: 18f6bf51-1f22-4b36-89cb-c3c52c043dc3
-caps.latest.revision: 7
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Copy Routings
 You can copy routings. This is useful for long routings or when slight changes are to be made. You can copy an existing version of a routing into a new or existing one. The copy function deletes old lines in the current routing.  
   

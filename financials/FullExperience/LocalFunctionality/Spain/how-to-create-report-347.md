@@ -1,21 +1,20 @@
 ---
-title: "How to: Create Report 347"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "Report 347, submitting"
-  - "347 report, submitting"
-ms.assetid: 3cd588e7-50ae-4380-9967-fc216f6ba0e8
-caps.latest.revision: 26
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "es-es"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Create Report 347
 All companies must provide an annual declaration, **Report 347**, to the tax authorities providing the sales and purchase transactions from the previous fiscal period.  
   

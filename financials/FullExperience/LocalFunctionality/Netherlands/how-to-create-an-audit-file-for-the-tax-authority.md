@@ -1,20 +1,20 @@
 ---
-title: "How to: Create an Audit File for the Tax Authority"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "audit files, creating"
-ms.assetid: 755f8232-52cf-44d1-83f2-0d48cb7b0172
-caps.latest.revision: 11
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "nl-nl"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Create an Audit File for the Tax Authority
 During an examination of the books for a fiscal year, a tax inspector can ask for data about the basis transactions from the general ledger for that fiscal year. Basis transactions usually are processed via journal entries. That is the reason why the journal entries are the basis for the audit file.  
   

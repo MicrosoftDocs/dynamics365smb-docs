@@ -1,20 +1,20 @@
 ---
-title: "How to: Export Payments Using LSV"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "LSV payments, exporting"
-ms.assetid: 3fbf75e9-3169-4204-a64b-6fc317ec57f5
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "de-ch"
-  - "fr-ch"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Export Payments Using LSV
 You can export or write Lastschrift Verfahren \(LSV\+\) files that contain payments information after closing the LSV collection. You can send the generated files to the bank on a disk, or use an electronic file transfer such as your online banking software or an Internet portal.  
   

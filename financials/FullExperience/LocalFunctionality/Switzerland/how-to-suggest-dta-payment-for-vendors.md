@@ -1,20 +1,20 @@
 ---
-title: "How to: Suggest DTA Payment for Vendors"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "DTA payments, suggesting vendors"
-ms.assetid: 8daeddb8-bb59-451f-b491-fa22f44bcb80
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "de-ch"
-  - "fr-ch"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Suggest DTA Payment for Vendors
 You can suggest vendor payments using the payment journal, and transfer the overdue invoices into the journal for individual vendors. You can also examine each vendor for open credit memos or open payments, and build a list of vendors for DatenTrägerAustausch \(DTA\) processing. For more information, see [How to: Verify a List of Vendors for DTA Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-verify-a-list-of-vendors-for-dta-payments.md).  
   

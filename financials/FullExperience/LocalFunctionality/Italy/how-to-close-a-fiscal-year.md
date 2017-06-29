@@ -1,23 +1,20 @@
 ---
-title: "How to: Close a Fiscal Year"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "fiscal years, closing"
-  - "closing, fiscal years"
-  - "year-end closing, posting"
-  - "year-end closing, entries"
-ms.assetid: 9f7fd695-e85c-4e96-8bc2-ad5f87dcb67a
-caps.latest.revision: 35
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "it-it"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Close a Fiscal Year
 To evaluate profit and loss, a fiscal year closing report is provided at the end of each fiscal year.  
   

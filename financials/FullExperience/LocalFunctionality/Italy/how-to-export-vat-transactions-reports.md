@@ -1,17 +1,20 @@
 ---
-title: "How to: Export VAT Transactions Reports"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-ms.assetid: 0c5707ba-ceb4-4620-b7ab-a1a7a0970296
-caps.latest.revision: 7
-ms.author: "edupont"
-translation.priority.ht: 
-  - "it-it"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Export VAT Transactions Reports
 After you create a report, you can release it, and then export it for the authorities. To change the report, make sure that the Modify Submitted Reports check box is enabled in the VAT Report Setup window. If it is not, to change the report when you want to correct an error, you will have to create a new report, add the report with the error in the original report number, and then create a corrective report. For more information, see [How to: Correct VAT Transactions Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-correct-vat-transactions-reports.md).  
   

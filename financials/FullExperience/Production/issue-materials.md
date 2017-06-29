@@ -1,43 +1,20 @@
 ---
-title: "Issue Materials"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "materials"
-ms.assetid: 1502b5c4-1449-49ec-aa9a-28c8806b6d50
-caps.latest.revision: 7
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Issue Materials
 The first physical activity in a production process is to prepare the materials that are to be processed in the production operations. Apart from the warehouse activities involved in bringing components to the machine center in question, the issue of materials mainly concerns the way component items are posted to the database as consumed. Consumption posting can be done manually, by filling and posting journal lines after production operations. Or, it can be done automatically depending on the setup of flushing method. Components can be either forward flushed when the production order is released or it can be backward flushed along with output posting when the production order changes to finished.  
   

@@ -1,20 +1,20 @@
 ---
-title: "Sweden Local Functionality"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "local functionality, about"
-  - "country/region-specific, about"
-ms.assetid: 1d411c60-a2ee-4257-83c9-254e3a262bac
-caps.latest.revision: 8
-ms.author: "edupont"
-translation.priority.ht: 
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Sweden Local Functionality
 The following topics describe the local functionality in the Swedish version of ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->.  
   

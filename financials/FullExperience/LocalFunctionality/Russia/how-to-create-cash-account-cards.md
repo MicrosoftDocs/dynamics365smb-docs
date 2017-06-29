@@ -1,19 +1,20 @@
 ---
-title: "How to: Create Cash Account Cards"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "cash account cards, creating"
-ms.assetid: da24ba18-7c35-426f-9a8b-5832684706d1
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "ru-ru"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Create Cash Account Cards
 Cash accounts are similar to bank accounts and are created identically. For more information about bank accounts, see Bank Account Card. You can create as many cash account cards as needed.  
   

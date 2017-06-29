@@ -1,25 +1,20 @@
 ---
-title: "How to: Enter and Post Cash and Bank or Giro Journals"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "bank journals, posting"
-  - "giro, journals"
-  - "bank journals, entering"
-  - "bank/giro, posting"
-  - "cash journals"
-  - "bank/giro, journals"
-ms.assetid: 39540a57-c740-443c-ad9d-50b694f68a98
-caps.latest.revision: 24
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "nl-nl"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Enter and Post Cash and Bank or Giro Journals
 In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you can use the cash and bank journals to enter the transactions that affect the cash and bank accounts by using **Cash Book** and **Bank Book**.  
   

@@ -1,28 +1,20 @@
 ---
-title: "How to: Run Email Logging"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "email logging, running"
-  - "email logging, automating"
-ms.assetid: 837b9c82-ddf6-4730-ba66-a1f84b5647e2
-caps.latest.revision: 6
-ms.author: "edupont"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-de"
-  - "es-es"
-  - "fi-fi"
-  - "fr-fr"
-  - "it-it"
-  - "nb-no"
-  - "nl-nl"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Run Email Logging
 Email logging can be used to capture email activities between a ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> salesperson or purchaser and a ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> contact. Both persons must have valid email addresses that are registered on the respective salesperson and contact cards.  
   

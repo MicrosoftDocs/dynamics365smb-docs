@@ -1,19 +1,20 @@
 ---
-title: "Undepreciable Fixed Assets"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "fixed assets, undepreciable"
-ms.assetid: 0f13d9c7-275b-4256-8a66-967eeb828de6
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "ru-ru"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Undepreciable Fixed Assets
 The undepreciable fixed assets feature enables you to repay fixed assets with the whole amount of their acquisition at the time of their release. It also automatically creates quantity records for these fixed assets in order to keep records of their existence and movements in quantitative terms.  
   

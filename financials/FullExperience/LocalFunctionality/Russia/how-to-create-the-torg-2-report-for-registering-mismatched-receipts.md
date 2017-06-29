@@ -1,19 +1,20 @@
 ---
-title: "How to: Create the TORG-2 Report for Registering Mismatched Receipts"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "TORG reports, creating"
-ms.assetid: cf29b0cd-ed2a-406b-866b-ca050b25ce43
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "ru-ru"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Create the TORG-2 Report for Registering Mismatched Receipts
 The TORG\-2 report is used to document inconsistencies for deviations of received goods that are not imported.  
   

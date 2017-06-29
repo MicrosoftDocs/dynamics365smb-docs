@@ -1,37 +1,20 @@
 ---
-title: "Walkthrough: Setting Up and Invoicing Sales Prepayments"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "finance, invoicing prepayments"
-  - "prepayments, applying to an order"
-  - "finance, setting up prepayments"
-  - "prepayments, setting up"
-  - "prepayments, correcting orders"
-  - "invoicing prepayments"
-  - "prepayments, creating an invoice"
-  - "business process walkthroughs, setting up and invoicing prepayments"
-  - "prepayments, invoicing"
-  - "correcting, prepayments"
-ms.assetid: 29cdb024-6a59-4225-a0b1-c8c2fab0900a
-caps.latest.revision: 21
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-de"
-  - "es-es"
-  - "fi-fi"
-  - "fr-fr"
-  - "it-it"
-  - "nb-no"
-  - "nl-nl"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Walkthrough: Setting Up and Invoicing Sales Prepayments
 Prepayments are payments that are invoiced and posted to a sales or purchase prepayment order before final invoicing. You may require a deposit before you manufacture items to order, or you may require payment before you ship items to a customer. You use the prepayments functionality in ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> to invoice and collect deposits that are required from customers or remit deposits to vendors. Thus, you can make sure that all payments are posted against an invoice.  
   

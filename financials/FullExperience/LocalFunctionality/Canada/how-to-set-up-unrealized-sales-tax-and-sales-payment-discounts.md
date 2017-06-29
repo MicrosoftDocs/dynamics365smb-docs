@@ -1,26 +1,20 @@
 ---
-title: "How to: Set Up Unrealized Sales Tax and Sales Payment Discounts"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "sales tax, unrealized"
-  - "payment discounts, setting up sales tax"
-  - "sales tax, payment discounts"
-  - "sales payment discounts"
-  - "unrealized tax"
-ms.assetid: 5099af58-e312-4f2e-982c-aa8e117c0eb9
-caps.latest.revision: 27
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "en-ca"
-  - "es-mx"
-  - "fr-ca"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up Unrealized Sales Tax and Sales Payment Discounts
 You can use the **General Ledger Setup** window to set up unrealized sales tax. You can also set up maximum correction tax amounts so that you can limit the tax correction amounts that are entered for sales and purchases. This allows you to overwrite the calculated tax when there are rounding differences between what is calculated on the purchase order, and what is calculated on the purchase invoice from the vendor.  
   

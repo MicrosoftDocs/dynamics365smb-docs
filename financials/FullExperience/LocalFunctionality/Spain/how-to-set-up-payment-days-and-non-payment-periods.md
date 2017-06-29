@@ -1,21 +1,20 @@
 ---
-title: "How to: Set Up Payment Days and Non-Payment Periods"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "payment days"
-  - "non-payment days"
-  - "due dates, setting up payment days"
-  - "due dates, setting up non-payment periods"
-ms.assetid: 6f2fbc8b-6af3-4ca0-ae7b-2833ef68797d
-caps.latest.revision: 28
-ms.author: "edupont"
-manager: "terryaus"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up Payment Days and Non-Payment Periods
 Payment days and non\-payment periods are used to calculate due dates. Due date calculation is used for sales and purchase documents.  
   

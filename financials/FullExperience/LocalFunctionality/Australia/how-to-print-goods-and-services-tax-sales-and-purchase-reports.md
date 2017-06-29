@@ -1,20 +1,20 @@
 ---
-title: "How to: Print Goods and Services Tax Sales and Purchase Reports"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "goods and services tax (GST), printing reports"
-ms.assetid: 58cbcabd-16d6-4dcf-b5c4-f02ced05b536
-caps.latest.revision: 23
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "en-au"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Print Goods and Services Tax Sales and Purchase Reports
 You can create reports of goods and services tax \(GST\) for purchases and sales from the **BAS Calc. Schedule List** window. Goods and Services Tax \(GST\) is the tax applied on most goods and services bought and sold in Australia.  
   

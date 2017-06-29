@@ -1,29 +1,20 @@
 ---
-title: "Walkthrough: Tracing Serial-Lot Numbers"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "business process walkthroughs, tracing serial numbers"
-  - "tracing, serial/lot numbers"
-ms.assetid: 27e812b2-c032-4f08-8f63-5d55a8522306
-caps.latest.revision: 18
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-de"
-  - "es-es"
-  - "fi-fi"
-  - "fr-fr"
-  - "it-it"
-  - "nb-no"
-  - "nl-nl"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Walkthrough: Tracing Serial-Lot Numbers
 When product defects occur, the errors must be identified and affected items must be prevented from leaving the company. If defective items have already been shipped, you must trace who received them and, if you need to, recall the items.  
   

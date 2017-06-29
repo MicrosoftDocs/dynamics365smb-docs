@@ -1,24 +1,20 @@
 ---
-title: "How to: Set Up Withholding Tax-duplicate"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "vendor payments, setting up withholding tax"
-  - "tax, withholding"
-  - "payments, vendor"
-  - "payments, withholding tax"
-  - "withholding tax, setting up"
-ms.assetid: 90bfd783-7e81-42d6-bd87-68ce95f8ba2b
-caps.latest.revision: 38
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "it-it"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up Withholding Tax-duplicate
 Companies must pay withholding tax to the government for third\-party services and vendor purchases. Withholding tax is calculated during invoice payment rather than during invoice posting.  
   

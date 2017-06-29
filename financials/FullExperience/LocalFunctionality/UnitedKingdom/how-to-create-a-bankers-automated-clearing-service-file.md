@@ -1,21 +1,20 @@
 ---
-title: "How to: Create a Bankers&#39; Automated Clearing Service File"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "BACS"
-  - "Bankers' Automated Clearing Service (BACS)"
-ms.assetid: cd8e1205-6dfa-4c8d-8c3d-df4395ae97ce
-caps.latest.revision: 44
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "en-gb"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Create a Bankers&#39; Automated Clearing Service File
 In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you can use Bankers' Automated Clearing Service \(BACS\) to process financial transactions electronically. To use BACS as the default vendor payment method, you must set export vendor payments to a BACS file using the **Export BACS** option. The resulting file can then be read by third\-party applications to allow electronic bank payments.  
   

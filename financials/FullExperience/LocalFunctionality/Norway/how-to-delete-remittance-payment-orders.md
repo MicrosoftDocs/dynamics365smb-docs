@@ -1,19 +1,20 @@
 ---
-title: "How to: Delete Remittance Payment Orders"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "remittance, deleting payment orders"
-ms.assetid: ae5dcd0d-be8a-4770-b5d7-54e48ce4345f
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "nb-no"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Delete Remittance Payment Orders
 Orders can be deleted if they are managed in full and are in a closed financial year. An order is managed in full if no payments in the **Waiting Journal** window have a status of **Sent** or **Approved**.  
   

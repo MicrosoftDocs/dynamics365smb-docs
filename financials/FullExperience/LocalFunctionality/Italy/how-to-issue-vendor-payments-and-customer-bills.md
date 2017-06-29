@@ -1,22 +1,20 @@
 ---
-title: "How to: Issue Vendor Payments and Customer Bills"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "customer bills, paying"
-  - "vendor bills, paying"
-  - "SEPA, about"
-  - "SEPA, payments"
-ms.assetid: 97d6d0c7-ad1a-4bb1-b8d3-a2ded28e2918
-caps.latest.revision: 5
-ms.author: "edupont"
-translation.priority.ht: 
-  - "it-it"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Issue Vendor Payments and Customer Bills
 The vendor and customer bill pay feature supports SEPA\-based formats in addition to Italian file formats. You can pay vendors according to the SEPA Credit Transfer standard and collect payment from customers according to the SEPA Direct Debit standard. The following procedure describes the process for sending a SEPA\-based payment to a vendor. The steps are similar for collecting payment from a customer.  
   

@@ -1,21 +1,20 @@
 ---
-title: "Swiss Purchase Documents and Sales Documents"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "sales documents, defined (Swiss)"
-  - "purchase documents, defined (Swiss)"
-ms.assetid: 47ef05d6-a0be-49ca-9851-62bea37f2613
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "de-ch"
-  - "fr-ch"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Swiss Purchase Documents and Sales Documents
 ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> includes Swiss enhancements to purchase documents and sales documents. This includes the following:  
   

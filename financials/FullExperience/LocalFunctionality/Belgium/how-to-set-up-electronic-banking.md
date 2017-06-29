@@ -1,22 +1,20 @@
 ---
-title: "How to: Set Up Electronic Banking"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "electronic banking, in Belgium"
-  - "electronic banking, setting up"
-  - "bank accounts, setting up preferred accounts"
-ms.assetid: ecefd58c-77e8-47cd-b508-c701cf21733d
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "fr-be"
-  - "nl-be"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up Electronic Banking
 With electronic banking, you can make electronic payments to domestic, international, SEPA, and non\-Euro SEPA vendors and customers.  
   

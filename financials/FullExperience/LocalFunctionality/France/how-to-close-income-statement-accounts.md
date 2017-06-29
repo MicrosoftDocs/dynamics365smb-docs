@@ -1,21 +1,20 @@
 ---
-title: "How to: Close Income Statement Accounts"
-ms.custom: na
-ms.date: "06-04-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "accounts, closing"
-  - "income statements, closing accounts"
-ms.assetid: 1d7cdc43-8fcc-4c01-a3aa-b4b07215ee62
-caps.latest.revision: 7
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "fr-fr"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Close Income Statement Accounts
 Before you can run the **Close Income Statement** batch job, you must close the fiscal year. For more information, see [How to: Fiscally Close Years](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-fiscally-close-years.md).  
   

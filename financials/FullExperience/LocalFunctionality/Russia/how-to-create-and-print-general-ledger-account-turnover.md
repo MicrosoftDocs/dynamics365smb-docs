@@ -1,23 +1,20 @@
 ---
-title: "How to: Create and Print General Ledger Account Turnover"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "account turnover, printing"
-  - "turnover, general ledger accounts"
-  - "account turnover, creating"
-  - "account turnover"
-  - "general ledger, turnover accounts"
-ms.assetid: fa45e5b7-b412-483d-bcb1-fc33a88349c7
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "ru-ru"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Create and Print General Ledger Account Turnover
 ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> enables you to create general ledger account turnover information in the **G\/L Account Turnover** window.  
   

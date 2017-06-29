@@ -1,19 +1,20 @@
 ---
-title: "How to: Set Up Bank Reference Files"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "bank reference files"
-ms.assetid: a49775c0-1323-44cb-8b94-f507767f929c
-caps.latest.revision: 3
-ms.author: "edupont"
-translation.priority.ht: 
-  - "fi-fi"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up Bank Reference Files
 To process electronic payments, you must first set up bank reference files to determine how payment data should be imported or exported.  
   

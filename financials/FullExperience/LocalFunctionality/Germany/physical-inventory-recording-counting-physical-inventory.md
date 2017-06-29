@@ -1,21 +1,20 @@
 ---
-title: "Physical Inventory Recording - Counting Physical Inventory"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "physical inventory, counting"
-  - "inventory, counting"
-ms.assetid: 4f30b803-4746-42ae-9202-3b9937683d45
-caps.latest.revision: 5
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "de-de"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Physical Inventory Recording - Counting Physical Inventory
 After you have created a physical inventory order and after you have entered the physical inventory order lines, you can take the physical inventory. Therefore you can use the physical inventory recording documents.  
   

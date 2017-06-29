@@ -1,22 +1,20 @@
 ---
-title: "Process for Data Access and Testability of Digital Documents (GDPdU)"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "GDPdU, about"
-  - "export data, about"
-  - "data export, about GDPdU"
-ms.assetid: c00a1801-2aff-45d0-80e0-d8b51ea50936
-caps.latest.revision: 33
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "de-de"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Process for Data Access and Testability of Digital Documents (GDPdU)
 You can export data from ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> according to the process for data access and testability of digital documents \(GDPdU\), which is based on German tax law.  
   

@@ -26,7 +26,7 @@ Material consumption credits the inventory account and debits the WIP account.
   
 2.  On the **Actions** tab, in the **General** group, choose **Setup**.  
   
-3.  Choose the **WIP Account** field, and select the general ledger account where your ongoing consumption costs are recorded. For more information, see [Design Details: Production Order Posting](../design-details-production-order-posting.md).  
+3.  Choose the **WIP Account** field, and select the general ledger account where your ongoing consumption costs are recorded. For more information, see [Design Details: Production Order Posting](design-details-production-order-posting.md).  
   
 ## See Also  
  [How to: Post Consumption Manually](../how-to-post-consumption-manually.md)   

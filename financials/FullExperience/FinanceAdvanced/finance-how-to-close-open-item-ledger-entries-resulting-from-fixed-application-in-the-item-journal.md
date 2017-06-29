@@ -38,4 +38,4 @@ You can use the **Applies-from Entry** field in the **Item Journal** window to c
  [How to: Create Sales Return Orders](../how-to-create-sales-return-orders.md)   
  [How to: Assign Exact Cost Reversing in Sales](../how-to-assign-exact-cost-reversing-in-sales.md)   
  [Manage Inventory Costs](../manage-inventory-costs.md)   
- [Design Details: Costing Methods](../design-details-costing-methods.md)
+ [Design Details: Costing Methods](design-details-costing-methods.md)

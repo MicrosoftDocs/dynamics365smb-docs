@@ -62,5 +62,5 @@ Variance is defined as the difference between the actual cost and the standard c
 |**Rolled-up Mfg. Ovhd. Cost**|Not applicable|![Equation 9](../media/design_details_inventory_costing_11_equation_9.png "design\_details\_inventory\_costing\_11\_equation\_9")|  
   
 ## See Also  
- [Design Details: Inventory Costing](../design-details-inventory-costing.md)   
- [Design Details: Costing Methods](../design-details-costing-methods.md)
+ [Design Details: Inventory Costing](design-details-inventory-costing.md)   
+ [Design Details: Costing Methods](design-details-costing-methods.md)

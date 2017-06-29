@@ -62,6 +62,6 @@ You must periodically update the standard costs of components and roll the new c
  [About Calculating Standard Cost](../about-calculating-standard-cost.md)   
  [Manage Inventory Costs](../manage-inventory-costs.md)   
  Unit Cost   
- [Design Details: Costing Methods](../design-details-costing-methods.md)   
+ [Design Details: Costing Methods](design-details-costing-methods.md)   
  [How to: Fill In Revaluation Journals Manually](../how-to-fill-in-revaluation-journals-manually.md)   
  [How to: Fill In the Revaluation Journal with the Batch Job](../how-to-fill-in-the-revaluation-journal-with-the-batch-job.md)

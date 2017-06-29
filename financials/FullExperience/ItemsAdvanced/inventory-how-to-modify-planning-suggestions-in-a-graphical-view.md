@@ -66,7 +66,7 @@ A typical planning activity is to change or add planning worksheet lines to modi
  Item Availability by Timeline   
  Planning Worksheet   
  Carry Out Action Msg.-Plan.   
- [Design Details: Supply Planning](../design-details-supply-planning.md)   
+ [Design Details: Supply Planning](design-details-supply-planning.md)   
  Location Filter   
  Variant Filter   
  Last Updated   

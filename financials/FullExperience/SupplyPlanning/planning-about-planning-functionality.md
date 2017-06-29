@@ -18,7 +18,7 @@
 # About Planning Functionality
 The planning system takes all demand and supply data into account, nets the results, and creates suggestions for balancing the supply to meet the demand.  
   
- For detailed information, see [Design Details: Supply Planning](../design-details-supply-planning.md).  
+ For detailed information, see [Design Details: Supply Planning](design-details-supply-planning.md).  
   
 ## Demand and Supply  
  Planning has two elements: demand and supply. These must be held in balance to ensure that the demand is met in a timely and cost-efficient manner.  
@@ -95,7 +95,7 @@ The planning system takes all demand and supply data into account, nets the resu
   
 -   Default Dampener Quantity  
   
- For more information, see [Design Details: Planning Parameters](../design-details-planning-parameters.md)  
+ For more information, see [Design Details: Planning Parameters](design-details-planning-parameters.md)  
   
  Planning is affected by many additional factors, such as the planning horizon defined by the order and ending dates specified when you run MPS\/MRP from the **Planning Worksheet** or **Order Planning** windows.  
   
@@ -105,7 +105,7 @@ The planning system takes all demand and supply data into account, nets the resu
  Planning Worksheet   
  Order Planning   
  [How to: Run MPS and MRP](../how-to-run-mps-and-mrp.md)   
- [Design Details: Supply Planning](../design-details-supply-planning.md)   
+ [Design Details: Supply Planning](design-details-supply-planning.md)   
  [About Forecasting Functionality](../about-forecasting-functionality.md)   
  [How to: Plan Project Orders](../how-to-plan-project-orders.md)   
  [How to: Plan for New Demand](../how-to-plan-for-new-demand.md)

@@ -64,4 +64,4 @@ If the **Assembly Policy** field on the item card of an assembly item contains *
  From-Assembly Bin Code   
  [How to: Sell Assemble-to-Order Items and Inventory Items Together](../how-to-sell-assemble-to-order-items-and-inventory-items-together.md)   
  [How to: Assemble Items](../how-to-assemble-items.md)   
- [Design Details: Assembly Order Posting](../design-details-assembly-order-posting.md)
+ [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)

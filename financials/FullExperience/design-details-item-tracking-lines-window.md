@@ -16,7 +16,7 @@
 
     ---
 # Design Details: Item Tracking Lines Window
-Item tracking records and reservation records are created in the reservation system, and their availability is calculated dynamically. Data that is entered in the **Item Tracking Lines** window is managed in a temporary version of the **Tracking Specification** table. When the window is closed, the active data is committed to the **Reservation Entry** table and the historic data is committed to the **Tracking Specification** table. For more information, see [Design Details: Active versus Historic Item Tracking Entries](../design-details-active-versus-historic-item-tracking-entries.md).  
+Item tracking records and reservation records are created in the reservation system, and their availability is calculated dynamically. Data that is entered in the **Item Tracking Lines** window is managed in a temporary version of the **Tracking Specification** table. When the window is closed, the active data is committed to the **Reservation Entry** table and the historic data is committed to the **Tracking Specification** table. For more information, see [Design Details: Active versus Historic Item Tracking Entries](design-details-active-versus-historic-item-tracking-entries.md).  
   
  Lookups from the **Serial No.** and **Lot No.** fields show availability based on both the **Item Ledger Entry** table and the **Reservation Entry** table, with no date filter. The matrix of quantity fields on the header of the **Item Tracking Lines** window dynamically displays the quantities and sums of item tracking numbers that are being entered on the lines of the window. The quantities must correspond to those of the document line, which is indicated by **0** in the **Undefined** fields in the header of the window.  
   
@@ -28,7 +28,7 @@ Item tracking records and reservation records are created in the reservation sys
   
 -   If the item is set up for serial number-specific tracking or lot number- specific tracking, then you cannot post an outbound document line unless an item with the defined serial or lot number exists in inventory. If you try to post an outbound document line for an item with a serial lot number that is not in inventory, then an error message blocks the posting.  
   
- The rules for entering data in the **Item Tracking Lines** window also support the coupling principles that govern order tracking, planning, and reservation. For more information, see [Design Details: Item Tracking and Planning](../design-details-item-tracking-and-planning.md).  
+ The rules for entering data in the **Item Tracking Lines** window also support the coupling principles that govern order tracking, planning, and reservation. For more information, see [Design Details: Item Tracking and Planning](design-details-item-tracking-and-planning.md).  
   
 ## See Also  
- [Design Details: Item Tracking](../design-details-item-tracking.md)
+ [Design Details: Item Tracking](design-details-item-tracking.md)

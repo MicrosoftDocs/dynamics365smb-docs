@@ -108,7 +108,7 @@ Many manufacturing companies select a valuation base of standard cost. This also
 4.  Implementing the changes to update the **Unit Cost** field on the item card and perform inventory revaluation. For more information, see Revaluation Journal.  
   
 ## See Also  
- [Design Details: Costing Methods](../design-details-costing-methods.md)   
+ [Design Details: Costing Methods](design-details-costing-methods.md)   
  Replenishment System   
  Resource Usage Type   
  Assembly Order   
@@ -118,4 +118,4 @@ Many manufacturing companies select a valuation base of standard cost. This also
  [How to: Fill In Revaluation Journals Manually](../how-to-fill-in-revaluation-journals-manually.md)   
  [How to: Fill In the Revaluation Journal with the Batch Job](../how-to-fill-in-the-revaluation-journal-with-the-batch-job.md)   
  [How to: Update Standard Costs](../how-to-update-standard-costs.md)   
- [Design Details: Inventory Costing](../design-details-inventory-costing.md)
+ [Design Details: Inventory Costing](design-details-inventory-costing.md)

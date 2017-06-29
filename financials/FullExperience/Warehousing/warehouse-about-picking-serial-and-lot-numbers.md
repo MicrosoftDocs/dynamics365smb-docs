@@ -47,6 +47,6 @@ Outbound handling of serial or lot numbers is a frequent task in different wareh
  Item Tracking Lines   
  [How to: Assign Serial Numbers and Lot Numbers During Outbound Transactions](../how-to-assign-serial-numbers-and-lot-numbers-during-outbound-transactions.md)   
  [How to: Set Up Warehouse Management](../how-to-set-up-warehouse-management.md)   
- [Design Details: Warehouse Management](../design-details-warehouse-management.md)   
+ [Design Details: Warehouse Management](design-details-warehouse-management.md)   
  Lot Specific Tracking   
  Lot Warehouse Tracking

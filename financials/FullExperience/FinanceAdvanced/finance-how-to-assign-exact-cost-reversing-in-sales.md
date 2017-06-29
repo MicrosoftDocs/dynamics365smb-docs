@@ -52,7 +52,7 @@ You may agree to compensate a customer by letting them return a sold item agains
   
 ## See Also  
  [How to: Reverse Posted Document Lines](../how-to-reverse-posted-document-lines.md)   
- [Design Details: Inventory Costing](../design-details-inventory-costing.md)   
+ [Design Details: Inventory Costing](design-details-inventory-costing.md)   
  Posted Sales Document Lines   
  Item Tracking Lines   
  Appl.-from Item Entry   

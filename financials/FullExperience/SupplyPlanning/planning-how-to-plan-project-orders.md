@@ -51,4 +51,4 @@ This planning task starts from a sales order and uses the **Sales Order Planning
  [How to: Refresh Production Orders](../how-to-refresh-production-orders.md)   
  [How to: Replan Production Orders](../how-to-replan-production-orders.md)   
  [How to: Create Production Orders from Sales Orders](../how-to-create-production-orders-from-sales-orders.md)   
- [Design Details: Supply Planning](../design-details-supply-planning.md)
+ [Design Details: Supply Planning](design-details-supply-planning.md)

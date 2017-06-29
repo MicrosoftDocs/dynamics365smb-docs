@@ -25,6 +25,6 @@ Demand is given by a company’s customers. Supply is what the company can creat
  ![](../media/nav_app_supply_planning_2_balancing.png "NAV\_APP\_supply\_planning\_2\_balancing")  
   
 ## See Also  
- [Design Details: Balancing Demand and Supply](../design-details-balancing-demand-and-supply.md)   
- [Design Details: Central Concepts of the Planning System](../design-details-central-concepts-of-the-planning-system.md)   
- [Design Details: Supply Planning](../design-details-supply-planning.md)
+ [Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md)   
+ [Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md)   
+ [Design Details: Supply Planning](design-details-supply-planning.md)

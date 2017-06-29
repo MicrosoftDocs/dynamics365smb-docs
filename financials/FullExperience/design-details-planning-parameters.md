@@ -117,6 +117,6 @@ This topic describes the different planning parameters that you can use in ADD I
  If the **Make-to-Order** option is used, the planning system will analyze the production BOM of the item and create additional linked order proposals for those lower-level items that are also defined as make-to-order. This continues as long as there are make-to-order items in the descending BOM structures.  
   
 ## See Also  
- [Design Details: Handling Reordering Policies](../design-details-handling-reordering-policies.md)   
- [Design Details: Balancing Demand and Supply](../design-details-balancing-demand-and-supply.md)   
- [Design Details: Central Concepts of the Planning System](../design-details-central-concepts-of-the-planning-system.md)
+ [Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md)   
+ [Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md)   
+ [Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md)

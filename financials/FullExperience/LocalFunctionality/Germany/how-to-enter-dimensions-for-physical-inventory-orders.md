@@ -44,4 +44,4 @@ After you have created a physical inventory order, you can enter dimensions for 
  [How to: Enter Physical Inventory Orders](../how-to-enter-physical-inventory-orders.md)   
  [How to: Post Physical Inventory Orders](../how-to-post-physical-inventory-orders.md)   
  Phys. Invt. Order Diff. List   
- [Dimension Set Entries Overview](../design-details-dimension-set-entries-overview.md)
+ [Dimension Set Entries Overview](design-details-dimension-set-entries-overview.md)

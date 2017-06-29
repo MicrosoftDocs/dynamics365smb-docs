@@ -18,7 +18,7 @@
 # Design Details: Loading the Inventory Profiles
 To sort out the many sources of demand and supply, the planning system organizes them on two timelines called inventory profiles.  
   
- The normal types of demand and supply with due dates on or after the planning starting date are loaded into each inventory profile. When loaded, the different demand and supply types are sorted according to overall priorities, such as due date, low-level codes, location, and variant. In addition, order priorities are applied to the different types to ensure that the most important demand is fulfilled first. For more information, see [Design Details: Prioritizing Orders](../design-details-prioritizing-orders.md).  
+ The normal types of demand and supply with due dates on or after the planning starting date are loaded into each inventory profile. When loaded, the different demand and supply types are sorted according to overall priorities, such as due date, low-level codes, location, and variant. In addition, order priorities are applied to the different types to ensure that the most important demand is fulfilled first. For more information, see [Design Details: Prioritizing Orders](design-details-prioritizing-orders.md).  
   
  As previously mentioned, demand could also be negative. This means that it should be treated as supply; however, unlike the normal types of supply, negative demand is considered fixed supply. The planning system can take it into account, but will not suggest any changes to it.  
   
@@ -40,7 +40,7 @@ To sort out the many sources of demand and supply, the planning system organizes
  The planning system controls this by running through the inventory profile. When a new combination is found, the program creates an internal control record that holds the actual combination information. The program inserts the SKU as the control record, or outer loop. As a result, the proper planning parameters according to a combination of variant and location are set, and the program can proceed to the inner loop.  
   
 > [!NOTE]  
->  The program does not require the user to enter a SKU record when entering demand and\/or supply for a particular combination of variant and location. Therefore, if a SKU does not exist for a given combination, the program creates its own temporary SKU record based on the item card data. If Location Mandatory is set to Yes in the Inventory Setup window, then either a SKU must be created or Components at Location must be set to Yes. For more information, see [Design Details: Demand at Blank Location](../design-details-demand-at-blank-location.md).  
+>  The program does not require the user to enter a SKU record when entering demand and\/or supply for a particular combination of variant and location. Therefore, if a SKU does not exist for a given combination, the program creates its own temporary SKU record based on the item card data. If Location Mandatory is set to Yes in the Inventory Setup window, then either a SKU must be created or Components at Location must be set to Yes. For more information, see [Design Details: Demand at Blank Location](design-details-demand-at-blank-location.md).  
   
 ## Serial\/Lot Numbers are Loaded by Specification Level  
  Attributes in the form of serial\/lot numbers are loaded into the inventory profiles along with the demand and supply that they are assigned to.  
@@ -54,7 +54,7 @@ To sort out the many sources of demand and supply, the planning system organizes
   
  Another reason that serial\/lot numbered supply is inflexible is that serial\/lot numbers are generally assigned so late in the process that it would be confusing if changes are suggested.  
   
- The balancing of serial\/lot numbers does not respect the [Frozen Zone](../design-details-dealing-with-orders-before-the-planning-starting-date.md). If demand and supply is not synchronized, the planning system will suggest changes or suggest new orders, regardless of the planning starting date.  
+ The balancing of serial\/lot numbers does not respect the [Frozen Zone](design-details-dealing-with-orders-before-the-planning-starting-date.md). If demand and supply is not synchronized, the planning system will suggest changes or suggest new orders, regardless of the planning starting date.  
   
 ## Order-to-Order Links are Never Broken  
  When planning an order-to-order item, the linked supply must not be used for any demand other than what it was originally intended for. The linked demand should not be covered by any other random supply, even if, in its present situation, it is available in time and quantity. For example, an assembly order that is linked to a sales order in an assemble-to-order scenario cannot be used to cover other demand.  
@@ -94,7 +94,7 @@ To sort out the many sources of demand and supply, the planning system organizes
  The planning calculation considers open sales orders linked to the specific blanket order line, but it does not consider any valid time period. Nor does it consider posted orders, since the posting procedure has already reduced the outstanding blanket order quantity.  
   
 ## See Also  
- [Design Details: Balancing Demand and Supply](../design-details-balancing-demand-and-supply.md)   
- [Design Details: Central Concepts of the Planning System](../design-details-central-concepts-of-the-planning-system.md)   
- [Design Details: Supply Planning](../design-details-supply-planning.md)   
- [Design Details: Planning Parameters](../design-details-planning-parameters.md)
+ [Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md)   
+ [Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md)   
+ [Design Details: Supply Planning](design-details-supply-planning.md)   
+ [Design Details: Planning Parameters](design-details-planning-parameters.md)

@@ -56,7 +56,7 @@ When items arrive at a warehouse that is set up for warehouse receipt processing
   
 ## See Also  
  [Receiving](../receiving.md)   
- [Design Details: Warehouse Management](../design-details-warehouse-management.md)   
+ [Design Details: Warehouse Management](design-details-warehouse-management.md)   
  [How to: Put Items Away with Warehouse Put-aways](../how-to-put-items-away-with-warehouse-put-aways.md)   
  [How to: Cross-Dock Items](../how-to-cross-dock-items.md)   
  [How to: Use Filters to Get Source Documents](../how-to-use-filters-to-get-source-documents.md)

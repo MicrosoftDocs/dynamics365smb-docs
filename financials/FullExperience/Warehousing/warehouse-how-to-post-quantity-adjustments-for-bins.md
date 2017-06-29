@@ -58,4 +58,4 @@ If you are using bins at a location, you will need to occasionally adjust the qu
  [Warehouse Adjustment Bin](../warehouse-adjustment-bin.md)   
  Warehouse Item Journal   
  Bin Content   
- [Design Details: Warehouse Management](../design-details-warehouse-management.md)
+ [Design Details: Warehouse Management](design-details-warehouse-management.md)

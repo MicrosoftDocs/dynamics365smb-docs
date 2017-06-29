@@ -22,18 +22,18 @@ As the flow of goods in today’s supply chain becomes more and more complex, th
   
 ## In This Section  
   
--   [Design Details: Item Tracking Design](../design-details-item-tracking-design.md)  
+-   [Design Details: Item Tracking Design](design-details-item-tracking-design.md)  
   
--   [Design Details: Item Tracking Posting Structure](../design-details-item-tracking-posting-structure.md)  
+-   [Design Details: Item Tracking Posting Structure](design-details-item-tracking-posting-structure.md)  
   
--   [Design Details: Active versus Historic Item Tracking Entries](../design-details-active-versus-historic-item-tracking-entries.md)  
+-   [Design Details: Active versus Historic Item Tracking Entries](design-details-active-versus-historic-item-tracking-entries.md)  
   
--   [Design Details: Item Tracking Lines Window](../design-details-item-tracking-lines-window.md)  
+-   [Design Details: Item Tracking Lines Window](design-details-item-tracking-lines-window.md)  
   
--   [Design Details: Item Tracking Availability](../design-details-item-tracking-availability.md)  
+-   [Design Details: Item Tracking Availability](design-details-item-tracking-availability.md)  
   
--   [Design Details: Item Tracking and Planning](../design-details-item-tracking-and-planning.md)  
+-   [Design Details: Item Tracking and Planning](design-details-item-tracking-and-planning.md)  
   
--   [Design Details: Item Tracking and Reservations](../design-details-item-tracking-and-reservations.md)  
+-   [Design Details: Item Tracking and Reservations](design-details-item-tracking-and-reservations.md)  
   
--   [Design Details: Item Tracking in the Warehouse](../design-details-item-tracking-in-the-warehouse.md)
+-   [Design Details: Item Tracking in the Warehouse](design-details-item-tracking-in-the-warehouse.md)

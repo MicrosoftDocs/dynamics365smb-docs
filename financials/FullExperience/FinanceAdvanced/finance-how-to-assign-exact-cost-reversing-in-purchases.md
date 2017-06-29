@@ -52,7 +52,7 @@ You may agree with your vendor to return a purchased item to them. When you have
   
 ## See Also  
  [How to: Reverse Posted Document Lines](../how-to-reverse-posted-document-lines.md)   
- [Design Details: Inventory Costing](../design-details-inventory-costing.md)   
+ [Design Details: Inventory Costing](design-details-inventory-costing.md)   
  Posted Purchase Document Lines   
  Item Tracking Lines   
  Appl.-to Item Entry   

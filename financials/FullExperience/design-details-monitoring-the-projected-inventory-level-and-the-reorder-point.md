@@ -77,7 +77,7 @@ Inventory is a type of supply, but for inventory planning, the planning system d
      In case of B, the reorder point is reached and a new order is created.  
   
 ## See Also  
- [Design Details: Reordering Policies](../design-details-reordering-policies.md)   
- [Design Details: Planning Parameters](../design-details-planning-parameters.md)   
- [Design Details: Handling Reordering Policies](../design-details-handling-reordering-policies.md)   
- [Design Details: Supply Planning](../design-details-supply-planning.md)
+ [Design Details: Reordering Policies](design-details-reordering-policies.md)   
+ [Design Details: Planning Parameters](design-details-planning-parameters.md)   
+ [Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md)   
+ [Design Details: Supply Planning](design-details-supply-planning.md)

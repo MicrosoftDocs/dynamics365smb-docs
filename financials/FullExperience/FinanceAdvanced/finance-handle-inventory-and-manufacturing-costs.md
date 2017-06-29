@@ -43,4 +43,4 @@ Although much of the cost accounting functionality is expressed in underlying pr
  [Manage Sales Returns](../manage-sales-returns.md)   
  [Execute Production](../execute-production.md)   
  [Close Years and Periods](../close-years-and-periods.md)   
- [Design Details: Inventory Costing](../design-details-inventory-costing.md)
+ [Design Details: Inventory Costing](design-details-inventory-costing.md)

@@ -183,9 +183,9 @@ Codeunit 408 Dimension Management is a function library that handles common task
   
  UpdateDocDefaultDim2  
   
- [Design Details: Dimension Set Entries](../design-details-dimension-set-entries.md)   
+ [Design Details: Dimension Set Entries](design-details-dimension-set-entries.md)   
  [Dimension Set Entries Overview](../dimension-set-entries-overview.md)   
- [Design Details: Searching for Dimension Combinations](../design-details-searching-for-dimension-combinations.md)   
- [Design Details: Table Structure](../design-details-table-structure.md)   
- [Design Details: Code Examples of Changed Patterns in Modifications](../design-details-code-examples-of-changed-patterns-in-modifications.md)
+ [Design Details: Searching for Dimension Combinations](design-details-searching-for-dimension-combinations.md)   
+ [Design Details: Table Structure](design-details-table-structure.md)   
+ [Design Details: Code Examples of Changed Patterns in Modifications](design-details-code-examples-of-changed-patterns-in-modifications.md)
 

@@ -32,13 +32,13 @@ The inbound flow in a warehouse begins when items arrive in the warehouse of the
   
 2.  Assembly order with output posting  
   
- The last two represent inbound flows to the warehouse from internal operation areas. For more information about warehouse handling for internal inbound and outbound processes, see [Design Details: Internal Warehouse Flows](../design-details-internal-warehouse-flows.md).  
+ The last two represent inbound flows to the warehouse from internal operation areas. For more information about warehouse handling for internal inbound and outbound processes, see [Design Details: Internal Warehouse Flows](design-details-internal-warehouse-flows.md).  
   
- Processes and UI documents in inbound warehouse flows are different for basic and advanced warehousing. The main difference is that activities are performed order-by-order in basic warehousing, and they are consolidated for multiple orders in advanced warehousing. For more information about different warehouse complexity levels, see [Design Details: Warehouse Overview](../design-details-warehouse-setup.md).  
+ Processes and UI documents in inbound warehouse flows are different for basic and advanced warehousing. The main difference is that activities are performed order-by-order in basic warehousing, and they are consolidated for multiple orders in advanced warehousing. For more information about different warehouse complexity levels, see [Design Details: Warehouse Overview](design-details-warehouse-setup.md).  
   
  In ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]-->, the inbound processes of receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.  
   
-|Method|Inbound process|Bins|Receipts|Put-aways|Complexity level \(See [Design Details: Warehouse Setup](../design-details-warehouse-setup.md)\)|  
+|Method|Inbound process|Bins|Receipts|Put-aways|Complexity level \(See [Design Details: Warehouse Setup](design-details-warehouse-setup.md)\)|  
 |------------|---------------------|----------|--------------|----------------|--------------------------------------------------------------------------------------------------------------------|  
 |A|Post receipt and put-away from the order line|X|||2|  
 |B|Post receipt and put-away from an inventory put-away document|||X|3|  
@@ -110,4 +110,4 @@ The inbound flow in a warehouse begins when items arrive in the warehouse of the
  Warehouse entries are created, and the warehouse put-away lines are deleted, if fully handled. The warehouse put-away document remains open until the full quantity of the related posted warehouse receipt is registered. The **Qty. Put Away** field on the warehouse receipt order lines is updated.  
   
 ## See Also  
- [Design Details: Warehouse Management](../design-details-warehouse-management.md)
+ [Design Details: Warehouse Management](design-details-warehouse-management.md)

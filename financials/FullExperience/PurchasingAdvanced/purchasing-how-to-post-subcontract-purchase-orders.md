@@ -43,4 +43,4 @@ When the purchase order has been created from the subcontractor worksheet, then 
  Subcontracting Worksheet   
  [How to: Register Consumption and Output](../how-to-register-consumption-and-output.md)   
  [How to: Calculate Subcontracting Worksheets and Create Subcontract Purchase Orders](../how-to-calculate-subcontracting-worksheets-and-create-subcontract-purchase-orders.md)   
- [Design Details: Inventory Costing](../design-details-inventory-costing.md)
+ [Design Details: Inventory Costing](design-details-inventory-costing.md)

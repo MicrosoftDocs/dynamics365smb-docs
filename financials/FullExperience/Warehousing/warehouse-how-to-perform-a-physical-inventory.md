@@ -80,4 +80,4 @@ You must take a physical inventory, that is, count the actual items on hand, to 
 ## See Also  
  Phys. Inventory Journal   
  [How to: Perform Warehouse Physical Inventories](../how-to-perform-warehouse-physical-inventories.md)   
- [Design Details: Integration with Inventory](../design-details-integration-with-inventory.md)
+ [Design Details: Integration with Inventory](design-details-integration-with-inventory.md)

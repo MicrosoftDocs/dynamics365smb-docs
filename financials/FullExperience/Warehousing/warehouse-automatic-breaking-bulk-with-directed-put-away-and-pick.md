@@ -45,5 +45,5 @@ For locations that use directed put-away and pick, ADD INCLUDE<!--[!INCLUDE[navn
 ## See Also  
  Allow Breakbulk   
  [How to: Calculate Bin Replenishment](../how-to-calculate-bin-replenishment.md)   
- [Design Details: Warehouse Management](../design-details-warehouse-management.md)   
+ [Design Details: Warehouse Management](design-details-warehouse-management.md)   
  [Perform Warehouse Activities](../perform-warehouse-activities.md)

@@ -24,9 +24,9 @@ Demand is the common term used for any kind of gross demand, such as a sales ord
   
  When inventory profiles are loaded, the different demand-supply sets are balanced to output a supply plan that fulfills the listed goals.  
   
- Planning parameters and inventory levels are other types of demand and supply respectively, which undergo integrated balancing to replenish stock items. For more information, see [Design Details: Handling Reordering Policies](../design-details-handling-reordering-policies.md).  
+ Planning parameters and inventory levels are other types of demand and supply respectively, which undergo integrated balancing to replenish stock items. For more information, see [Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md).  
   
 ## See Also  
- [Design Details: Balancing Demand and Supply](../design-details-balancing-demand-and-supply.md)   
- [Design Details: Central Concepts of the Planning System](../design-details-central-concepts-of-the-planning-system.md)   
- [Design Details: Supply Planning](../design-details-supply-planning.md)
+ [Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md)   
+ [Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md)   
+ [Design Details: Supply Planning](design-details-supply-planning.md)

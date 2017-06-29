@@ -72,8 +72,8 @@ EXIT(DimSet.ID);
 
 ## See Also  
  [GET Function \(Record\)](../GET%20Function%20\(Record\).md)   
- [Design Details: Dimension Set Entries](../design-details-dimension-set-entries.md)   
- [Dimension Set Entries Overview](../design-details-dimension-set-entries-overview.md)   
- [Design Details: Table Structure](../design-details-table-structure.md)   
- [Design Details: Codeunit 408 Dimension Management](../design-details-codeunit-408-dimension-management.md)   
- [Design Details: Code Examples of Changed Patterns in Modifications](../design-details-code-examples-of-changed-patterns-in-modifications.md)
+ [Design Details: Dimension Set Entries](design-details-dimension-set-entries.md)   
+ [Dimension Set Entries Overview](design-details-dimension-set-entries-overview.md)   
+ [Design Details: Table Structure](design-details-table-structure.md)   
+ [Design Details: Codeunit 408 Dimension Management](design-details-codeunit-408-dimension-management.md)   
+ [Design Details: Code Examples of Changed Patterns in Modifications](design-details-code-examples-of-changed-patterns-in-modifications.md)

@@ -140,5 +140,5 @@ This planning task can be performed in the **Order Planning** window, which disp
  [How to: Refresh Production Orders](../how-to-refresh-production-orders.md)   
  [How to: Replan Production Orders](../how-to-replan-production-orders.md)   
  [How to: Run MPS and MRP](../how-to-run-mps-and-mrp.md)   
- [Design Details: Supply Planning](../design-details-supply-planning.md)   
+ [Design Details: Supply Planning](design-details-supply-planning.md)   
  [Setup Best Practices: Supply Planning](../setup-best-practices-supply-planning.md)

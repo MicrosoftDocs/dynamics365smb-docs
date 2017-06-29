@@ -53,5 +53,5 @@ Codeunit 12, **Gen. Jnl.-Post Line**, is the major application object for genera
 -   The use of global variables has been minimized, so that each procedure uses parameters and encapsulates its own application logic.  
   
 ## See Also  
- [Design Details: Posting Interface Structure](../design-details-posting-interface-structure.md)   
- [Design Details: Posting Engine Structure](../design-details-posting-engine-structure.md)
+ [Design Details: Posting Interface Structure](design-details-posting-interface-structure.md)   
+ [Design Details: Posting Engine Structure](design-details-posting-engine-structure.md)

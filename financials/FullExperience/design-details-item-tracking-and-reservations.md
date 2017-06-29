@@ -91,4 +91,4 @@ Simultaneous use of reservation and specific item tracking is uncommon, because 
  **Item XX cannot be fully applied.**  
   
 ## See Also  
- [Design Details: Item Tracking](../design-details-item-tracking.md)
+ [Design Details: Item Tracking](design-details-item-tracking.md)

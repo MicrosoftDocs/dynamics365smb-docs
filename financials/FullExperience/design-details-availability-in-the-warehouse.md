@@ -73,4 +73,4 @@ The system must keep a constant control of item availability in the warehouse, s
  ![Avaliable to reserve, per warehouse allocations](../media/design_details_warehouse_management_availability_3.png "design\_details\_warehouse\_management\_availability\_3")  
   
 ## See Also  
- [Design Details: Warehouse Management](../design-details-warehouse-management.md)
+ [Design Details: Warehouse Management](design-details-warehouse-management.md)

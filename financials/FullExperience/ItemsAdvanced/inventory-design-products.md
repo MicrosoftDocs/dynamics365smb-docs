@@ -31,7 +31,7 @@ The starting point for any business that deals with physical goods is to establi
 |Enable electronic document sending by filling various fields on item cards that identify the item when mapping data to the external file.|[How to: Set Up Electronic Document Sending and Receiving](../how-to-set-up-electronic-document-sending-and-receiving.md)|  
 |Define how the planning system calculates replenishment of the item.|Reordering Policy|  
 |Define if the planning system must calculate production need for lower production BOM levels of the item.|Manufacturing Policy|  
-|Define how the outbound unit cost of the item is applied to inbound transactions for inventory valuation.|[Design Details: Costing Methods](../design-details-costing-methods.md)|  
+|Define how the outbound unit cost of the item is applied to inbound transactions for inventory valuation.|[Design Details: Costing Methods](design-details-costing-methods.md)|  
 |Specify in which unit of measure the item is handled by default and which alternate units of measure exist.|[How to: Set Up Item Units of Measure](../how-to-set-up-item-units-of-measure.md)|  
 |Write a comment that can be shown on all documents where the item is handled.|Comment Line|  
 |Assign one or more default dimensions to the item card that will be included on related document lines and eventually work as a source of analysis of historic transactions.|Default Dimension|  

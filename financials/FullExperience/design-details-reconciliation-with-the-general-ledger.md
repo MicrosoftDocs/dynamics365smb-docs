@@ -130,9 +130,9 @@ When you post inventory transactions, such as sales shipments, production output
   
      ![Results of adjustment posting to G&#47;L accounts](../media/design_details_inventory_costing_3_gl_posting_adjustment.png "design\_details\_inventory\_costing\_3\_GL\_posting\_adjustment")  
   
- For more information about the relationship between the account types and the different types of value entries, see [Design Details: Accounts in the General Ledger](../design-details-accounts-in-the-general-ledger.md).  
+ For more information about the relationship between the account types and the different types of value entries, see [Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md).  
   
 ## See Also  
- [Design Details: Inventory Costing](../design-details-inventory-costing.md)   
- [Design Details: Expected Cost Posting](../design-details-expected-cost-posting.md)   
- [Design Details: Cost Adjustment](../design-details-cost-adjustment.md)
+ [Design Details: Inventory Costing](design-details-inventory-costing.md)   
+ [Design Details: Expected Cost Posting](design-details-expected-cost-posting.md)   
+ [Design Details: Cost Adjustment](design-details-cost-adjustment.md)

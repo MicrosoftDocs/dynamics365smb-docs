@@ -42,11 +42,11 @@ This topic describes how dimension set entries are stored and posted in ADD INCL
  By storing dimension sets once in the database, database space is preserved, and overall performance is improved.  
   
 ## See Also  
- [Design Details: Searching for Dimension Combinations](../design-details-searching-for-dimension-combinations.md)   
- [Design Details: Table Structure](../design-details-table-structure.md)   
- [Design Details: Codeunit 408 Dimension Management](../design-details-codeunit-408-dimension-management.md)   
- [Design Details: Code Examples of Changed Patterns in Modifications](../design-details-code-examples-of-changed-patterns-in-modifications.md)   
- [Design Details: Dimension Set Entries](../design-details-dimension-set-entries.md)   
+ [Design Details: Searching for Dimension Combinations](design-details-searching-for-dimension-combinations.md)   
+ [Design Details: Table Structure](design-details-table-structure.md)   
+ [Design Details: Codeunit 408 Dimension Management](design-details-codeunit-408-dimension-management.md)   
+ [Design Details: Code Examples of Changed Patterns in Modifications](design-details-code-examples-of-changed-patterns-in-modifications.md)   
+ [Design Details: Dimension Set Entries](design-details-dimension-set-entries.md)   
  Dimension Set Entry   
  Dimension Set Tree Node   
  Reclas. Dimension Set Buffer

@@ -32,9 +32,9 @@ The **Reordering Policy** field on item cards offers four different planning met
 ## See Also  
  [Setup Best Practices: Supply Planning](../setup-best-practices-supply-planning.md)   
  Reordering Policy   
- [Design Details: Reordering Policies](../design-details-reordering-policies.md)   
- [Design Details: Order](../design-details-order.md)   
- [Design Details: Lot-for-Lot](../design-details-lot-for-lot.md)   
- [Design Details: Fixed Reorder Qty.](../design-details-fixed-reorder-qty..md)   
- [Design Details: Maximum Qty.](../design-details-maximum-qty..md)   
+ [Design Details: Reordering Policies](design-details-reordering-policies.md)   
+ [Design Details: Order](design-details-order.md)   
+ [Design Details: Lot-for-Lot](design-details-lot-for-lot.md)   
+ [Design Details: Fixed Reorder Qty.](design-details-fixed-reorder-qty..md)   
+ [Design Details: Maximum Qty.](design-details-maximum-qty..md)   
  [Set Up a Company With RapidStart Services for Microsoft Dynamics NAV](../set-up-a-company-with-rapidstart-services-for-microsoft-dynamics-nav.md)

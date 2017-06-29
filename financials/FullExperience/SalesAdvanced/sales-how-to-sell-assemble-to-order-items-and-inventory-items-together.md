@@ -49,4 +49,4 @@ If the **Assembly Policy** field on the item card of an assembly item contains *
  [How to: Sell Inventory Items in Assemble-to-Order Flows](../how-to-sell-inventory-items-in-assemble-to-order-flows.md)   
  [How to: Assemble Items](../how-to-assemble-items.md)   
  Assemble-to-Order Link   
- [Design Details: Assembly Order Posting](../design-details-assembly-order-posting.md)
+ [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)

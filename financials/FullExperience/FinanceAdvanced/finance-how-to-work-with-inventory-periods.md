@@ -84,4 +84,4 @@ Inventory periods define a period of time in which you can post changes to inven
   
 ## See Also  
  Inventory Periods   
- [Design Details: Inventory Periods](../design-details-inventory-periods.md)
+ [Design Details: Inventory Periods](design-details-inventory-periods.md)

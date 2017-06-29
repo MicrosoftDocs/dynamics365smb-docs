@@ -37,9 +37,9 @@ The **Planning** FastTab on the item card is the center of a company’s supply 
 > [!NOTE]  
 >  The best practices for planning parameters on item cards also apply to the same fields on SKU cards.  
 >   
->  If companies plan for demand at different locations, then it is strongly advised to define SKUs for each location and that all demand is created by using a value in the **Location Code** field. For more information, see [Design Details: Demand at Blank Location](../design-details-demand-at-blank-location.md).  
+>  If companies plan for demand at different locations, then it is strongly advised to define SKUs for each location and that all demand is created by using a value in the **Location Code** field. For more information, see [Design Details: Demand at Blank Location](design-details-demand-at-blank-location.md).  
   
 ## See Also  
  [Setup Best Practices: Supply Planning](../setup-best-practices-supply-planning.md)   
- [Design Details: Supply Planning](../design-details-supply-planning.md)   
+ [Design Details: Supply Planning](design-details-supply-planning.md)   
  [Set Up a Company With RapidStart Services for Microsoft Dynamics NAV](../set-up-a-company-with-rapidstart-services-for-microsoft-dynamics-nav.md)

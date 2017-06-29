@@ -68,7 +68,7 @@ You can view and manually change certain item application entries that are creat
   
 ## See Also  
  Application Worksheet   
- [Design Details: Item Application](../design-details-item-application.md)   
+ [Design Details: Item Application](design-details-item-application.md)   
  Automatic Cost Adjustment   
  Item Application Entry   
  Item Application Entry History   

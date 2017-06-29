@@ -43,8 +43,8 @@ The Fixed Reorder Qty. policy is related to inventory planning of typical C-item
  If the user has reserved a quantity, for instance a quantity in inventory, for some distant demand, the planning foundation will be disturbed. Even if the projected inventory level is acceptable in relation to the reorder point, the quantities might not be available. The system may try to compensate for that by creating exception orders; however, it is recommended that the Reserve field is set to Never on items that are planned using a reorder point.  
   
 ## See Also  
- [Design Details: Reordering Policies](../design-details-reordering-policies.md)   
- [Design Details: Maximum Qty.](../design-details-maximum-qty..md)   
- [Design Details: Planning Parameters](../design-details-planning-parameters.md)   
- [Design Details: Handling Reordering Policies](../design-details-handling-reordering-policies.md)   
- [Design Details: Supply Planning](../design-details-supply-planning.md)
+ [Design Details: Reordering Policies](design-details-reordering-policies.md)   
+ [Design Details: Maximum Qty.](design-details-maximum-qty..md)   
+ [Design Details: Planning Parameters](design-details-planning-parameters.md)   
+ [Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md)   
+ [Design Details: Supply Planning](design-details-supply-planning.md)

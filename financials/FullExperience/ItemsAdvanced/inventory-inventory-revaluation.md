@@ -37,6 +37,6 @@ The inventory value of an item can change over time, for example, as a result of
 ## See Also  
  Applies-to Entry   
  [How to: Fill In the Revaluation Journal with the Batch Job](../how-to-fill-in-the-revaluation-journal-with-the-batch-job.md)   
- [Design Details: Expected Cost Posting](../design-details-expected-cost-posting.md)   
+ [Design Details: Expected Cost Posting](design-details-expected-cost-posting.md)   
  [How to: Fill In Revaluation Journals Manually](../how-to-fill-in-revaluation-journals-manually.md)   
  [How to: Enter New Values When Revaluing Items](../how-to-enter-new-values-when-revaluing-items.md)

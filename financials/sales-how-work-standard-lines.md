@@ -15,7 +15,7 @@ ms.date: 06/28/2017
 ms.author: sgroespe
 
 ---
-# How to: Quickly Create Recurring Sales and Purchase Lines
+# How to: Create Recurring Sales and Purchase Lines
 If you often need to create sales and purchase lines with similar information, you can set up standard lines that you can then insert on recurring sales and purchase documents, for example, for recurring replenishment orders.  
 
 The following procedure shows how to work with standard sales lines. It works in a similar way for standard purchase lines.  

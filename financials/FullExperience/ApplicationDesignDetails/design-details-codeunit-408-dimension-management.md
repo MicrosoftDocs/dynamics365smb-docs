@@ -189,3 +189,4 @@ Codeunit 408 Dimension Management is a function library that handles common task
  [Design Details: Searching for Dimension Combinations](../FullExperience/design-details-searching-for-dimension-combinations.md)   
  [Design Details: Table Structure](../FullExperience/design-details-table-structure.md)   
  [Design Details: Code Examples of Changed Patterns in Modifications](../FullExperience/design-details-code-examples-of-changed-patterns-in-modifications.md)
+

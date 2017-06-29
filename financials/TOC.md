@@ -123,7 +123,7 @@
 ## [How to: Make Offers](sales-how-make-offers.md)
 ## [How to: Invoice Sales](sales-how-invoice-sales.md)
 ## [How to: Sell Products](sales-how-sell-products.md)
-## [How to: Quickly Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md)
+## [How to: Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md)
 ## [How to: Make Drop Shipments](sales-how-drop-shipment.md)
 ## [How to: Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md)
 ## [How to: Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md)

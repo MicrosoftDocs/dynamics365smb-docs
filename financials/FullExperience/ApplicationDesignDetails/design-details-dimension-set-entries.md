@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: "article"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "dimension set entries, overview"
 ms.assetid: d4537fe9-8436-4bf5-b942-a9d6f3fdbb9e
 caps.latest.revision: 9
 ms.author: "sgroespe"
 manager: "terryaus"
-translation.priority.ht:
+translation.priority.ht: 
   - "da-dk"
   - "de-at"
   - "de-ch"
@@ -40,14 +40,14 @@ translation.priority.ht:
 ---
 # Design Details: Dimension Set Entries
 This documentation provides detailed technical insight into the concepts and principles that are used to redesign the dimension entry storing and posting feature in [!INCLUDE[navnowlong](../ApplicationDesign/includes/navnowlong_md.md)]. The documentation starts by describing conceptual overviews of the redesign. Then it explains the technical architecture to show how the redesign is made. Finally, it provides code examples to prepare you for dimension code migration and upgrade.  
-
+  
 ## In This Section  
- [Dimension Set Entries Overview](../ApplicationDesign/design-details-dimension-set-entries-overview.md)  
-
+ [Dimension Set Entries Overview](../ApplicationDesign/dimension-set-entries-overview.md)  
+  
  [Design Details: Searching for Dimension Combinations](../ApplicationDesign/design-details-searching-for-dimension-combinations.md)  
-
+  
  [Design Details: Table Structure](../ApplicationDesign/design-details-table-structure.md)  
-
+  
  [Design Details: Codeunit 408 Dimension Management](../ApplicationDesign/design-details-codeunit-408-dimension-management.md)  
-
+  
  [Design Details: Code Examples of Changed Patterns in Modifications](../ApplicationDesign/design-details-code-examples-of-changed-patterns-in-modifications.md)

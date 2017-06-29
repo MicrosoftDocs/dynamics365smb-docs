@@ -26,7 +26,7 @@ You can import and export general ledger data according to the standard import e
   
 2.  Fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> -->|  
     |---------------------------------|---------------------------------------|  
     |**File Name**|Enter the name and path of the file that you want to import.|  
     |**\($ B\_11208\_F\_1\_1070002 Gen. Journal Template $\)**|Select a general journal template.|  

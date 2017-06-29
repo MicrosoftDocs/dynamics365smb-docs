@@ -14,7 +14,7 @@ translation.priority.ht:
   - "nl-be"
 ---
 # Isabel 6
-The Isabel organization has developed a Client Isabel Synchronizer \(CIS\) platform that allows [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] to securely integrate with Isabel. CIS handles document exchange to and from the Isabel server.  
+The Isabel organization has developed a Client Isabel Synchronizer \(CIS\) platform that allows FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> --> to securely integrate with Isabel. CIS handles document exchange to and from the Isabel server.  
   
  To upload or download the bank files, you will have to set up your environment to work with Isabel. [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] communicates to the CIS.dll through a COM wrapper.  
   

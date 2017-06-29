@@ -39,13 +39,13 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Item Tracking Availability
-When you work with lot or serial numbers, [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] calculates availability information for lot and serial numbers and shows it in the various item tracking windows. This lets you see how much of a lot or serial number is currently being used on other documents. This reduces errors and uncertainty caused by double allocations.  
+When you work with lot or serial numbers, FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> --> --> --> calculates availability information for lot and serial numbers and shows it in the various item tracking windows. This lets you see how much of a lot or serial number is currently being used on other documents. This reduces errors and uncertainty caused by double allocations.  
   
  In the **Item Tracking Lines** window, a warning icon is shown in the **Availability, Lot No.** or **Availability, Serial No.** fields if some or all of the quantity you have selected is already being used in other documents or if the lot or serial number is not available.  
   
  In the **Lot No.\/Serial No.\-List** window, the **Lot No.\/Serial No.\-Availability** window, and the **Item Tracking – Select Entries** window, information is displayed about how much quantity of an item is being used. This includes the following information.  
   
-|[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+|FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
 |---------------------------------|---------------------------------------|  
 |**Total Quantity**|The total number of item currently in inventory.|  
 |**Total Requested Quantity**|The total number of items that are requested that will be used in this and other documents.|  

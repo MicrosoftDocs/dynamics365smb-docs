@@ -40,11 +40,11 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Profiles and Role Centers
-Profiles are collections of [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] users who share the same Role Center. A Role Center is a type of page on which you can place different parts. Each part is a container in which you can host other pages or pre\-defined system parts, such as an Outlook part or parts for adding tasks, notifications, or notes.  
+Profiles are collections of FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> users who share the same Role Center. A Role Center is a type of page on which you can place different parts. Each part is a container in which you can host other pages or pre\-defined system parts, such as an Outlook part or parts for adding tasks, notifications, or notes.  
   
  The user interface of Role Centers and all other pages can be customized. For more information, see [Customize the User Interface](../SetupAndAdministration/customize-the-user-interface.md).  
   
- The concept of UI customization in [!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)] is divided in two:  
+ The concept of UI customization in FIX INCLUDE HERE<!--[!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)] --> is divided in two:  
   
 -   Configuration, performed by the administrator  
   

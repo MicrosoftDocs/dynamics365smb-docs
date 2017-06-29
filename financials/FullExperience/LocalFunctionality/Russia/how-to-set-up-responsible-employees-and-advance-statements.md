@@ -50,7 +50,7 @@ The **Advance Statement** report enables you to print and view information about
   
 3.  The **Resp. Employee Card** window contains the following information entered manually or from the corresponding glossary and settings.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> --> --> --> --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> --> --> -->|  
     |---------------------------------|---------------------------------------|  
     |**No.**|Specifies the value that is filled automatically from the **Employee Card** window, or is entered manually.|  
     |**Name, \($ T\_23\_4 Name2 $\)**|Specifies the value that is filled automatically from similar fields in the **Employee Card** window or is entered manually.|  

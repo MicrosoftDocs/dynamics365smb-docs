@@ -16,7 +16,7 @@ translation.priority.ht:
   - "ru-ru"
 ---
 # Tax Accounting
-In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can set up and maintain tax registers to track taxable profits and losses. This is based on the following tax accounting principles:  
+In FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> -->, you can set up and maintain tax registers to track taxable profits and losses. This is based on the following tax accounting principles:  
   
 -   The financial database is used for tax accounting.  
   
@@ -33,7 +33,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can se
 ## Tax Registers  
  There are two types of tax registers that are used for tracking taxable profits and losses.  
   
-|Tax Register Type|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+|Tax Register Type|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> -->|  
 |-----------------------|---------------------------------------|  
 |Analytic Tax Register|An analytic register is based on ledger entries for taxable transactions. The information provides a continuous chronological reflection of business operations, which tracks taxable profits and losses based on tax codes.|  
 |Synthetic Tax Register|A synthetic register is based on summarized and calculated information from an analytic register or another synthetic register.|  

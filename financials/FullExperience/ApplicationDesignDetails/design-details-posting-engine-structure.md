@@ -45,7 +45,7 @@ Posting interface and some other functions in codeunit 12 use posting engine fun
   
  The functions in the following table provide a standard framework for designing posting procedures \(such as Code, CustPostApplyCustledgEntry, VendPostApplyVendLedgEntry, UnapplyCustLedgEntry, UnapplyVendLedgEntry, and Reverse\) and exclusive access to table 17, G\/L Entry.  
   
-|Routine|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+|Routine|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
 |-------------|---------------------------------------|  
 |StartPosting|Initializes posting buffer TempGLEntryBuf, locks G\/L Entry and VAT Entry tables, and initializes Accounting Period, G\/L Register, and Exchange Rate. Should be called only once, then NextEntryNo is 0.|  
 |ContinuePosting|Checks and posts unrealized VAT for previous transaction increment NextTransactionNo and prepares post of next line.|  

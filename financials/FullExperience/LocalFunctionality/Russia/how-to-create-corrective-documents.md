@@ -15,7 +15,7 @@ translation.priority.ht:
   - "ru-ru"
 ---
 # How to: Create Corrective Documents
-In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can create corrective invoices and credit memos to reflect a change in the invoiced amount or quantity.  
+In FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> -->, you can create corrective invoices and credit memos to reflect a change in the invoiced amount or quantity.  
   
  You can also create revision documents if you discover a mistake in an issued invoice or credit memo.  
   
@@ -37,7 +37,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can cr
   
 3.  On the **VAT** tab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> -->|  
     |---------------------------------|---------------------------------------|  
     |**Additional VAT Ledger Sheet**|Optionally, select to include this document in the additional VAT ledger. For more information, see [VAT Ledgers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/vat-ledgers.md).|  
     |**Corrected Document Date**|If you selected the **Additional VAT Ledger Sheet** field, specify the posting date of the document that you are correcting.<br /><br /> This ensures that the original invoice is listed as canceled in the additional sheet for the sales VAT book in the relevant report period.|  

@@ -28,7 +28,7 @@ You can use the **Posted Sales Tax Credit Memo** window and **Posted Purch. Tax 
   
 2.  View the FastTabs as described in the following table.  
   
-    |FastTab|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FastTab|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
     |-------------|---------------------------------------|  
     |**General**|General information about the credit memo.|  
     |**Posted Sales Tax Cr. Memo Sub**|Posted sales tax credit memo information.|  

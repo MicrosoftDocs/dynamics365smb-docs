@@ -39,7 +39,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Setup and Administration
-Entering the correct setup values from the start is important to the success of any new business software. Whether you use [!INCLUDE[rim](../Roles/includes/rim_md.md)] to implement setup values or you manually enter them in the new company, you can support your setup decisions with some general recommendations for selected setup fields that are known to potentially cause the solution to be inefficient if defined incorrectly.  
+Entering the correct setup values from the start is important to the success of any new business software. Whether you use FIX INCLUDE HERE<!--[!INCLUDE[rim](../Roles/includes/rim_md.md)] --> to implement setup values or you manually enter them in the new company, you can support your setup decisions with some general recommendations for selected setup fields that are known to potentially cause the solution to be inefficient if defined incorrectly.  
   
  A super user or an administrator can set up the Data Exchange Framework to enable users to export and import data in bank and payroll files, for example for various cash management processes.  
   
@@ -55,7 +55,7 @@ Entering the correct setup values from the start is important to the success of 
 |Encrypt data on the Microsoft Dynamics NAV Server by generating new or importing existing encryption keys that you enable on the server.|[Manage Data Encryption](../SetupAndAdministration/manage-data-encryption.md)|  
 |Support your setup decisions with recommendations for selected fields that are known to potentially cause the solution to be inefficient if set up incorrectly|[Set Up Complex Application Areas Using Best Practices](../SetupAndAdministration/set-up-complex-application-areas-using-best-practices.md)|  
 |Expose pages, codeunits, and queries as web services.|[How to: Publish a Web Service](../SetupAndAdministration/how-to-publish-a-web-service.md)|  
-|Set up an SMTP server to enable e\-mail communication in and out of [!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)].|[How to: Set Up SMTP Email](../BusinessFunctionality/Workflow/how-to-set-up-smtp-email.md)|  
+|Set up an SMTP server to enable e\-mail communication in and out of FIX INCLUDE HERE<!--[!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)] -->.|[How to: Set Up SMTP Email](../BusinessFunctionality/Workflow/how-to-set-up-smtp-email.md)|  
   
 ## See Also  
  [Getting Started\-duplicate](../GettingStarted/getting-started-duplicate.md)   

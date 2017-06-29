@@ -36,7 +36,7 @@ Companies must deliver their VAT and ICP declarations electronically to the tax 
  For each electronic declaration the tax authorities will send a response message. These messages must be received from the server of the tax authorities and processed.  
   
 ## Response Message from the Tax Authorities  
- The tax authorities will send a response message to inform the company about the status of their electronic declarations. The first step is to import the response messages from the tax authorities in [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]. The second step is processing the response messages.  
+ The tax authorities will send a response message to inform the company about the status of their electronic declarations. The first step is to import the response messages from the tax authorities in FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->. The second step is processing the response messages.  
   
  The response message must be linked to the related electronic tax declaration. For more information, see Elec. Tax Declaration Header Table. If no accompanying electronic tax declaration is found, an error message will appear.  
   

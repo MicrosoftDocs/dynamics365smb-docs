@@ -18,7 +18,7 @@ translation.priority.ht:
 # Walkthrough: Exporting GDPdU Data
 You can export business data for auditing purposes. How the data export is set up is different for all companies, and you should ask your tax advisor and the tax auditor. The following walkthrough describes the end\-to\-end process, but it is an example only.  
   
- The sample implementation illustrates a scenario where the auditor has requested that you export data from your general ledger, and information about your customers and vendors. This is not an example that is based on actual requirements from a tax auditor, but it serves to illustrate how to export data according to the process for data access and testability of digital documents \(GDPdU\) in [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)].  
+ The sample implementation illustrates a scenario where the auditor has requested that you export data from your general ledger, and information about your customers and vendors. This is not an example that is based on actual requirements from a tax auditor, but it serves to illustrate how to export data according to the process for data access and testability of digital documents \(GDPdU\) in FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> -->.  
   
 ## About This Walkthrough  
  This walkthrough illustrates the following tasks:  
@@ -32,7 +32,7 @@ You can export business data for auditing purposes. How the data export is set u
 ## Prerequisites  
  To complete this walkthrough, you will need:  
   
--   The German version of [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] with the [!INCLUDE[demo](../../ApplicationDesign/includes/demo_md.md)] AG installed. For more information, see [Demo Option](../Topic/Demo%20Option.md).  
+-   The German version of [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] with the FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[demo](../../ApplicationDesign/includes/demo_md.md)] --> --> --> AG installed. For more information, see [Demo Option](../Topic/Demo%20Option.md).  
   
 -   The .DTD file that is required according to the GDPdU. In this scenario, **gdpdu\-01\-08\-2002.dtd**.  
   
@@ -52,7 +52,7 @@ You can export business data for auditing purposes. How the data export is set u
   
 3.  In the **Data Exports** window, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> --> --> --> --> --> --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> --> --> --> --> --> --> -->|  
     |---------------------------------|---------------------------------------|  
     |**Code**|The unique code for the data export, **AUDIT\-Q113**.|  
     |**Description**|The description for the data export, **Data export for Q1 of CY 2013**.|  

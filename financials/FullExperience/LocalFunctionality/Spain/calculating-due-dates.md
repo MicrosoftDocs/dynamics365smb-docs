@@ -22,13 +22,13 @@ In Spain, there is a legal limit for the number of days that a payment can be de
 ## Payment Terms  
  To help you meet the legal requirements, you can set up payment terms so that the due dates are calculated correctly. This includes specifying the maximum number of calendar days that a payment can be delayed after delivery. For example, you can create separate payment terms for sales to the public sector and sales to private companies. The following table illustrates how you can set up payment terms.  
   
-|[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|Public sector|Private company|  
+|FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] -->|Public sector|Private company|  
 |---------------------------------|-------------------|---------------------|  
 |**Code**|**1M\(8D\) PUB**|**1M\(8D\) PRI**|  
 |**Due Date Calculation**|**1M**|**1M**|  
 |**Max. No. of Days till Due Date**|**30**|**60**|  
   
- For each customer and vendor, you must select the appropriate payment term code. Then, when you create a document for that customer or vendor, [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] will calculate a due date that does not exceed the limit for the relevant payment term.  
+ For each customer and vendor, you must select the appropriate payment term code. Then, when you create a document for that customer or vendor, FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> --> will calculate a due date that does not exceed the limit for the relevant payment term.  
   
 > [!IMPORTANT]  
 >  You cannot post a document that creates a bill where one or more installments have a due date that is later than the limit that is specified in the **Max. No. of Days till Due Date** field.  
@@ -62,7 +62,7 @@ In Spain, there is a legal limit for the number of days that a payment can be de
   
  Each section has a summary section with the following information.  
   
-|Information|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+|Information|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
 |-----------------|---------------------------------------|  
 |Weighted average term exceeded|This formula is calculated based on the number of posted payments for the specified period, the number of days that payments were delayed, and the paid amount in \(LCY\). For more information, see the official declaration [BOE\-A\-2010\-10708](http://go.microsoft.com/fwlink/?LinkId=224630) on the Boletín Oficial del Estado website.|  
 |Payments within the legal limit|The amounts in LCY and the percentage of the total payments that were made before the maximum allowed due date for each transaction.|  

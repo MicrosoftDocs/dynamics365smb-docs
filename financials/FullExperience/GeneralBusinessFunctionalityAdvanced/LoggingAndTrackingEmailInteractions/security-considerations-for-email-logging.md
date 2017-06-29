@@ -26,7 +26,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Security Considerations for Email Logging
-Email messages received through the Internet can have fake sender addresses. That means that interaction log entries in [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] that are created from email logging could potentially include fake addresses and should be reviewed for security reasons.  
+Email messages received through the Internet can have fake sender addresses. That means that interaction log entries in FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> --> that are created from email logging could potentially include fake addresses and should be reviewed for security reasons.  
   
  Before opening any mail message, make sure that you recognize the sender’s email address.  
   

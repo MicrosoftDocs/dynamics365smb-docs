@@ -34,7 +34,7 @@ After you have created delivery reminders, you must issue and print them so that
   
 4.  In the **Issue Delivery Reminder** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
     |---------------------------------|---------------------------------------|  
     |**Print**|Select to print the delivery reminders when they are issued.|  
     |**Replace Posting Date**|Select to replace the existing posting date for the delivery reminder.|  

@@ -39,7 +39,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Apply Customer Data
-When you have all imported data migration records that are valid and have no errors, you can apply the records to the [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] database.  
+When you have all imported data migration records that are valid and have no errors, you can apply the records to the FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> --> database.  
   
 ### To apply customer data  
   

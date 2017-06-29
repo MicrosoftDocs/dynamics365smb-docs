@@ -39,7 +39,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Import Bank Statements
-You can import electronic bank statements from your bank to quickly populate [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] with data about actual bank transactions.  
+You can import electronic bank statements from your bank to quickly populate FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> with data about actual bank transactions.  
   
  You can use three different features to import bank statements from your bank.  
   

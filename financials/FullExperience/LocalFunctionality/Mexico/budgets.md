@@ -23,7 +23,7 @@ translation.priority.ht:
   - "fr-ca"
 ---
 # Budgets
-[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] provides budget functions so that you can plan and work with budgets.  
+FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> provides budget functions so that you can plan and work with budgets.  
   
 ## Budget Functions  
  You use budget functions to:  

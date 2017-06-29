@@ -24,7 +24,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: View Change Log Entries
-After you have set up the change log, activated it, and made a change to data, [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] logs the change in a change log entry. You can view and filter the changes in the **Change Log Activated** window.  
+After you have set up the change log, activated it, and made a change to data, FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> logs the change in a change log entry. You can view and filter the changes in the **Change Log Activated** window.  
   
 ### To view change log entries  
   
@@ -32,7 +32,7 @@ After you have set up the change log, activated it, and made a change to data, [
   
 2.  In the **Change Log Entries** window, remove any filters. The window now displays all change log entries.  
   
-     [!INCLUDE[bp_fieldhelp]()]  
+     FIX INCLUDE HERE<!--[!INCLUDE[bp_fieldhelp]()] -->  
   
 ## See Also  
  [How to: Enable the Change Log](../SetupAndAdministration/how-to-enable-the-change-log.md)   

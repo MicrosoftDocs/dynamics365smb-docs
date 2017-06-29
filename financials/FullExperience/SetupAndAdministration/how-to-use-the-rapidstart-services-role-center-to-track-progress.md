@@ -39,9 +39,9 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Use the RapidStart Services Role Center to Track Progress
-When you use [!INCLUDE[rim](../Roles/includes/rim_md.md)], we recommend that you track your work and use the RapidStart Services Role Center as your home page. It provides the correct context for your configuration work. To change your Role Center home page, see [How to: Change Role Centers](../GettingStarted/how-to-change-role-centers.md). Choose the RapidStart Profile ID.  
+When you use FIX INCLUDE HERE<!--[!INCLUDE[rim](../Roles/includes/rim_md.md)] -->, we recommend that you track your work and use the RapidStart Services Role Center as your home page. It provides the correct context for your configuration work. To change your Role Center home page, see [How to: Change Role Centers](../GettingStarted/how-to-change-role-centers.md). Choose the RapidStart Profile ID.  
   
- As you continue with your work, you can assign each table the status that reflects where you are in the process. [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] then keeps track of the table status in the **Activities** part on the **Home** page.  
+ As you continue with your work, you can assign each table the status that reflects where you are in the process. FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> --> then keeps track of the table status in the **Activities** part on the **Home** page.  
   
  By default, when you add a table to the configuration worksheet, its status is set to blank. This means that configuration of the table has not begun. This is reflected in the **Not Started** count in the **Activities** tile.  
   
@@ -55,7 +55,7 @@ When you use [!INCLUDE[rim](../Roles/includes/rim_md.md)], we recommend that you
   
 3.  Select a table, and in the **Status** field, choose the appropriate status.  
   
-     [!INCLUDE[bp_fieldhelp]()]  
+     FIX INCLUDE HERE<!--[!INCLUDE[bp_fieldhelp]()] -->  
   
 4.  Choose the **OK** button.  
   

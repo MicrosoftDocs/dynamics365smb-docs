@@ -16,7 +16,7 @@ translation.priority.ht:
   - "ru-ru"
 ---
 # Item Documents
-[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] includes several documents that you can use to manage your warehouse. This also includes reports that you must submit for official reporting, such as the Item Report TORG\-29, Items Receipt Act TORG\-1, and Receipt Deviations TORG\-2 reports.  
+FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> includes several documents that you can use to manage your warehouse. This also includes reports that you must submit for official reporting, such as the Item Report TORG\-29, Items Receipt Act TORG\-1, and Receipt Deviations TORG\-2 reports.  
   
  The following types of documents are useful for managing your warehouse:  
   
@@ -48,7 +48,7 @@ translation.priority.ht:
   
 2.  In the header of the **Item Receipt** window, enter the fields described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> --> --> --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> --> --> --> -->|  
     |---------------------------------|---------------------------------------|  
     |**No.**|Specifies the warehouse document header number.|  
     |**Posting Description**|Specifies the posting description.|  

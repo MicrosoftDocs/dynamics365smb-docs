@@ -35,7 +35,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Exchange Data
-You can exchange data between [!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)] and external files or streams in connection with common business tasks, such as sending and receiving electronic documents and importing and exporting bank files. For more information, see [Data Exchange](../../BusinessFunctionality/DataExchange/data-exchange.md).  
+You can exchange data between FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)] --> --> --> --> --> and external files or streams in connection with common business tasks, such as sending and receiving electronic documents and importing and exporting bank files. For more information, see [Data Exchange](../../BusinessFunctionality/DataExchange/data-exchange.md).  
   
  Before you can send and receive electronic documents or import and export bank files, you must set up the Data Exchange Framework to process the involved data files or streams. In addition, you must set up related areas. These include master data for customers that you send electronic invoices to and the bank data conversion service in case you distribute bank file conversions to an external service provider. For more information, see [Set Up Data Exchange](../../BusinessFunctionality/DataExchange/set-up-data-exchange.md).  
   

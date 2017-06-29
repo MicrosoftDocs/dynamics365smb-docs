@@ -44,7 +44,7 @@ By opening the **Customize Ribbon** window from any page that has a ribbon, you 
  ![Customize ribbon dialog for selecting actions](../SetupAndAdministration/media/rtc_customizeribbon.png "RTC\_CustomizeRibbon")  
   
 > [!NOTE]  
->  Depending on the setting in the **UI Elements Removal** field in the [!INCLUDE[nav_admin](../BusinessFunctionality/LoggingAndTrackingEmailInteractions/includes/nav_admin_md.md)], only actions that you have permissions for will appear in the **Customize Ribbon** window. For more information, see [How to: Specify When UI Elements Are Removed](../Topic/How%20to:%20Specify%20When%20UI%20Elements%20Are%20Removed.md).  
+>  Depending on the setting in the **UI Elements Removal** field in the FIX INCLUDE HERE<!--[!INCLUDE[nav_admin](../BusinessFunctionality/LoggingAndTrackingEmailInteractions/includes/nav_admin_md.md)] -->, only actions that you have permissions for will appear in the **Customize Ribbon** window. For more information, see [How to: Specify When UI Elements Are Removed](../Topic/How%20to:%20Specify%20When%20UI%20Elements%20Are%20Removed.md).  
   
  You can make multiple customizations of the same page based on different access points to the page. For example, you can customize that the ribbon in the **Sales Orders** window looks different when the window is opened from the **Customer Card** window than when it is opened from your Role Center. The point from which you access the page to be customized is recorded in that specific page customization. Accordingly, there may be multiple customization records for the same page under your logon, as you can see in the **Delete User Personalization** window.  
   
@@ -68,7 +68,7 @@ By opening the **Customize Ribbon** window from any page that has a ribbon, you 
 >     3.  Open the dialog again and re\-add the actions to the group.  
   
 > [!CAUTION]  
->  Any customization that alters the ribbon could affect the guidance provided in the [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] Help, because navigation steps in Help may refer to a different ribbon layout.  
+>  Any customization that alters the ribbon could affect the guidance provided in the FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> Help, because navigation steps in Help may refer to a different ribbon layout.  
   
  The following procedures describe how to perform typical customization of ribbons by working with groups, but the same steps apply to working with tabs.  
   
@@ -103,7 +103,7 @@ By opening the **Customize Ribbon** window from any page that has a ribbon, you 
 2.  Locate the action under **Available actions**, and choose the **Add** button.  
   
     > [!NOTE]  
-    >  In some cases, an action can be a promoted action if the **PromotedIsBig** property is set to **Yes** in the [!INCLUDE[nav_dev_long](../BusinessFunctionality/DataExchange/includes/nav_dev_long_md.md)].  If an action has this setting, this takes precedence over your choices in the **Customize Ribbon** window. For more information, see [How to: Promote Actions on Pages](../Topic/How%20to:%20Promote%20Actions%20on%20Pages.md).  
+    >  In some cases, an action can be a promoted action if the **PromotedIsBig** property is set to **Yes** in the FIX INCLUDE HERE<!--[!INCLUDE[nav_dev_long](../BusinessFunctionality/DataExchange/includes/nav_dev_long_md.md)] -->.  If an action has this setting, this takes precedence over your choices in the **Customize Ribbon** window. For more information, see [How to: Promote Actions on Pages](../Topic/How%20to:%20Promote%20Actions%20on%20Pages.md).  
   
 ### To create a menu of actions  
   

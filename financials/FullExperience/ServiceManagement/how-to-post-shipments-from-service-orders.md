@@ -40,7 +40,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Post Shipments from Service Orders
-After specifying the details of a service, you can adjust and post the quantities of items used, time spent, and costs incurred. As a result, [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] makes the necessary changes to reflect the new state of your inventory and current status of the specific order processing.  
+After specifying the details of a service, you can adjust and post the quantities of items used, time spent, and costs incurred. As a result, FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> makes the necessary changes to reflect the new state of your inventory and current status of the specific order processing.  
   
  The following procedure shows how to post shipment of service line items in locations that are not set up to require warehouse handling.  
   

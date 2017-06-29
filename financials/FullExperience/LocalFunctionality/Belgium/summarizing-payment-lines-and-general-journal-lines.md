@@ -17,7 +17,7 @@ translation.priority.ht:
   - "nl-be"
 ---
 # Summarizing Payment Lines and General Journal Lines
-In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can post an invoice that has more than one line with the same general ledger account, but has different descriptions. A general ledger entry is created individually for each invoice line that is posted. The invoice line description will be copied to the general ledger account description in the general ledger entries. [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] handles the following types of transactions in the same way:  
+In FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> --> --> --> --> --> -->, you can post an invoice that has more than one line with the same general ledger account, but has different descriptions. A general ledger entry is created individually for each invoice line that is posted. The invoice line description will be copied to the general ledger account description in the general ledger entries. [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] handles the following types of transactions in the same way:  
   
 -   Domestic payments  
   

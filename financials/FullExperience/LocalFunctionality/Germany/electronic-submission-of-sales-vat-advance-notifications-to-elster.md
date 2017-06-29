@@ -17,7 +17,7 @@ translation.priority.ht:
   - "de-de"
 ---
 # Electronic Submission of Sales VAT Advance Notifications to ELSTER
-In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can electronically submit tax documents and VAT statements, such as the sales VAT advance notification, to the tax authorities.  
+In FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> --> --> --> --> --> --> --> --> --> --> --> -->, you can electronically submit tax documents and VAT statements, such as the sales VAT advance notification, to the tax authorities.  
   
 ## Sales VAT Advance Notifications  
  [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] creates an XML document containing tax and base amounts, along with company information. You can validate the data before submitting it to the tax authorities. You can set up the XML document using the layout that is defined in the tax authorities' style sheet. You can then transmit the XML document to the tax authorities' Elektronische Steuererklärungen \(ELSTER\) online portal interface.  
@@ -27,7 +27,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can el
  The tax authorities' server processes the submitted XML document, and sends an XML document in response. This response document displays codes and descriptions for errors that occurred during the processing of the submitted XML document. The XML documents are encrypted during transmission. For more information, see the [ELSTER online portal](http://go.microsoft.com/fwlink/?LinkId=155998).  
   
 ## Architectural Overview  
- [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] includes an interface to the ELSTER portal, the Microsoft.Dynamics.ElsterTransferHandler.dll assembly. The assembly manages the communication with the ELSTER portal and installs when you install the [!INCLUDE[nav_windows](../../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)]. For more information, see [ELSTER Transmission Overview](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/elster-transmission-overview.md).  
+ [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] includes an interface to the ELSTER portal, the Microsoft.Dynamics.ElsterTransferHandler.dll assembly. The assembly manages the communication with the ELSTER portal and installs when you install the FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[nav_windows](../../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)] --> -->. For more information, see [ELSTER Transmission Overview](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/elster-transmission-overview.md).  
   
  The ELSTER portal has requirements for computers that will submit documents. This includes a software certificate that you must acquire for each user who will submit documents to ELSTER. You must verify your installation against the information that is available on [ELSTER online portal](http://go.microsoft.com/fwlink/?LinkId=155998). The following section describes installation considerations for your [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] implementation.  
   

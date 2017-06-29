@@ -45,7 +45,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Dimension Set Entries Overview
-This topic describes how dimension set entries are stored and posted in [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)].  
+This topic describes how dimension set entries are stored and posted in FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] -->.  
   
 ## Dimension Sets  
  A dimension set is a unique combination of dimension values. It is stored as dimension set entries in the database. Each dimension set entry represents a single dimension value. The dimension set is identified by a common dimension set ID that is assigned to each dimension set entry that belongs to the dimension set.  

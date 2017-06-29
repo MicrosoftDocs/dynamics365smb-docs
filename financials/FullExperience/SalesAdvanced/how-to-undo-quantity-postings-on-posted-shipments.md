@@ -66,7 +66,7 @@ Sometimes, you may make an incorrect quantity posting. For example, you may have
 >  If the sales shipment is posted as a result of a drop shipment, you cannot undo the quantity posting because it is linked to a posted purchase receipt.  
   
 > [!NOTE]  
->  [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] does not support undoing posted receipts if warehousing is in use. Therefore, if the sales shipment is posted that based on a warehouse inventory pick document, you cannot undo the quantity posting because it is linked to a posted receipt.  
+>  FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> does not support undoing posted receipts if warehousing is in use. Therefore, if the sales shipment is posted that based on a warehouse inventory pick document, you cannot undo the quantity posting because it is linked to a posted receipt.  
   
 ## See Also  
  Posted Sales Shipment   

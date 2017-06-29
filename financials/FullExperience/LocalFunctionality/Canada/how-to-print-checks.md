@@ -18,7 +18,7 @@ translation.priority.ht:
   - "fr-ca"
 ---
 # How to: Print Checks
-In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can use the print check option to manage check payments to vendors or refunds to customers. This option lets you generate electronic payments.  
+In FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> -->, you can use the print check option to manage check payments to vendors or refunds to customers. This option lets you generate electronic payments.  
   
  For more information about check layouts, see [How to: Define Check Layouts](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-define-check-layouts.md).  
   
@@ -30,7 +30,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can us
   
 3.  In the payment journal line, select the **Bank Payment Type**. Use the following table to determine the bank payment type that you want to use to manage check payments.  
   
-    |[!INCLUDE[bp_optionsheading](../../DesignAndEngineering/includes/bp_optionsheading_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--[!INCLUDE[bp_optionsheading](../../DesignAndEngineering/includes/bp_optionsheading_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
     |-------------------------------------|---------------------------------------|  
     |**\<Blank\>**|Select this option if you do not want to create a check. This is the default option.|  
     |**Computer Check**|Select this option if you want to print a check for the amount on the payment journal line. You must print the checks before you can post the journal lines. You can only select **Computer Check** if the **Bal. Account Type** or the **Account Type** is **Bank Account**.|  

@@ -45,7 +45,7 @@ You may agree with your vendor to return a purchased item to them. When you have
   
  Two functions exist to assign the cost reversing automatically.  
   
-|**Function**|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+|**Function**|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
 |------------------|---------------------------------------|  
 |**Get Posted Document Lines to Reverse**|Copies lines of one or more posted documents to be reversed.|  
 |**Copy Document**|Copies both the header and lines of one posted or open document to be reversed.<br /><br /> Requires that the **Exact Cost Reversing Mandatory** check box is selected in the **\($ N\_460 Purchases & Payables Setup $\)** window.|  

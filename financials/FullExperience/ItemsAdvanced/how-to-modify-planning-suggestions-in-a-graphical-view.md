@@ -74,7 +74,7 @@ A typical planning activity is to change or add planning worksheet lines to modi
   
 7.  In addition to moving elements by drag and drop, you can modify planning suggestions by using a number of right\-click functions. Right\-click on the green circle of a suggested supply element and select one the following functions  
   
-    |Function|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |Function|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
     |--------------|---------------------------------------|  
     |**Create New Supply**|Creates a new element point where you right\-click, which represents a new suggested supply order. It becomes a new line in the planning worksheet when you choose **Save Changes**.<br /><br /> **NOTE:** If the **Location Filter** or **Variant Filter** fields on the **Options** FastTab are empty or have more than one filter value, then the new supply is created and later saved to the planning or requisition worksheet with the following codes:<br /><br /> \* If the filter field is empty, then the new supply is created without a location or variant code.<br /><br /> \* If more than one filter value is defined, then the new supply is created for the first filter value according to the sorting method.<br /><br /> If you want another variant or location code, then you must manually change it on the new planning line.|  
     |**Auto\-Adjust Supply**|Optimizes a new supply that you have created in the graph by making sure that it results in zero inventory before the next supply.|  

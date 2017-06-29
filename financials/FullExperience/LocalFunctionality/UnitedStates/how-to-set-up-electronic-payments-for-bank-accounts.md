@@ -19,7 +19,7 @@ translation.priority.ht:
   - "fr-ca"
 ---
 # How to: Set Up Electronic Payments for Bank Accounts
-In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can send electronic payments to vendors and electronic refunds to customers using the electronic payments function.  
+In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->, you can send electronic payments to vendors and electronic refunds to customers using the electronic payments function.  
   
  Electronic payments are exported in a standard United States or Canadian file format, and transmitted to the bank for processing. In the United States, this is done through the Automated Clearing House \(ACH\). In Canada, this is done through the Royal Bank.  
   
@@ -31,7 +31,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can se
   
 3.  On the **Transfer** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
     |---------------------------------|---------------------------------------|  
     |**Export Format**|The country\-specific file format for the export file. Choose the country\/region format that your bank uses.|  
     |**Payment Export Format**|The export file format when the format is not country\-specific.<br /><br /> If this field is filled, then the **Export Format** field will be ignored. The payment file will be exported as set up in the **Payment Export Format** field. For more information, see [How to: Export Payments to a Bank File](../../BusinessFunctionality/DataExchange/how-to-export-payments-to-a-bank-file.md).|  

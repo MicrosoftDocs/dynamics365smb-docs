@@ -17,7 +17,7 @@ The **Transaction Text** field in the **Payment Reconciliation Journal** window 
   
  The following table describes the six values that may be shown in the **Transaction Text** field.  
   
-|Transaction Text|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+|Transaction Text|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
 |-----------------------------------------|---------------------------------------|  
 |**Matching Amount**|The amount paid covers exactly the remaining amount on an unpaid sales invoice that is identified by the FIK number.|  
 |**Partial Amount**|The amount paid is less than the remaining amount on an unpaid sales invoice that is identified by the FIK number.|  

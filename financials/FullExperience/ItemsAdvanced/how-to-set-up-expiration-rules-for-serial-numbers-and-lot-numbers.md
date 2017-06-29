@@ -50,7 +50,7 @@ For some items you might want to set up specific expiration dates and rules in t
   
 3.  On the **Misc.** FastTab, select the following check boxes.  
   
-    |[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
     |---------------------------------|---------------------------------------|  
     |**Strict Expiration Posting**|Specifies that an expiration date assigned to the item tracking number as it entered inventory must be respected when it exits inventory.|  
     |**Man. Expir. Date Entry Reqd.**|Specifies that you must manually enter an expiration date on the item tracking line.|  

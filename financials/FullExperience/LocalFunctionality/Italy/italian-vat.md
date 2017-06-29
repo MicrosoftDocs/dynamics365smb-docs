@@ -20,7 +20,7 @@ translation.priority.ht:
 # Italian VAT
 Companies must pay VAT to the state for most purchased goods and services. VAT can be deducted if the goods or services purchased by a company are used in the production of its income.  
   
- In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can define periodic VAT reports in the **VAT Report** window. You can fill in the lines based on VAT entries, and then export the VAT report to the appropriate authorities.  
+ In FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> --> --> --> --> --> -->, you can define periodic VAT reports in the **VAT Report** window. You can fill in the lines based on VAT entries, and then export the VAT report to the appropriate authorities.  
   
 ## VAT Codes and Rates  
  VAT codes and rates must be set up even though some transactions are not subject to VAT rates. There are also many VAT\-liable operations that are subject to a zero VAT rate by provision of the law.  

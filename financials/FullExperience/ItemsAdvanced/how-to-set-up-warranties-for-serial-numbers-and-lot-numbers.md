@@ -51,7 +51,7 @@ For some items, you might want to set up specific warranties in the item trackin
   
 3.  On the **Misc.** FastTab, fill in the **Warranty Date Formula** field and select the check box as follows.  
   
-    |[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
     |---------------------------------|---------------------------------------|  
     |**Warranty Date Formula**|Specifies the last day of warranty for the item.|  
     |**Man. Warranty Date Entry Reqd.**|Specifies that you must manually enter a warranty date on the item tracking line.|  

@@ -26,7 +26,7 @@ You must submit a periodic report of transactions with customers and vendors in 
   
  On a monthly or quarterly basis, you must generate the blacklist communication report for transactions with countries\/regions that have privileged taxation and send it to the Italian Revenue Agency. The Italian Revenue Agency decides which countries\/regions are included on the blacklist. You can view or change countries\/regions on the blacklist by using the **Countries\/Regions** window. The periodic report includes only transactions that have an amount above a certain threshold. The threshold amount calculation is applied at the document level. For more information, see the [Italian Revenue Agency](http://go.microsoft.com/fwlink/?LinkId=396483).  
   
- Before you can submit the periodic report, you must set up [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)].  
+ Before you can submit the periodic report, you must set up FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> --> --> --> --> --> --> --> --> -->.  
   
 ### To update the relevant countries\/regions  
   
@@ -49,7 +49,7 @@ You must submit a periodic report of transactions with customers and vendors in 
   
 3.  In the **Blacklist Comm. Amounts** window, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> --> --> --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> --> --> --> -->|  
     |---------------------------------|---------------------------------------|  
     |**Start Date**|Specifies the start date for the threshold amounts. Transactions that are posted on or after this date are included in the calculations for the blacklist communication report.|  
     |**Threshold Amount**|Specifies the minimum invoice base amount, per document, that will be included in the blacklist communication report. This amount is determined by the requirements from the tax authorities. The date used for the threshold reporting is the end date of the Blacklist reporting period.|  

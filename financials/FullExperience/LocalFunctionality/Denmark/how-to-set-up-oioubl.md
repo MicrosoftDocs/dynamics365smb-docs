@@ -26,7 +26,7 @@ You must define a location for storing Offentlig Information Online UBL \(OIOUBL
   
 2.  In the **\($ N\_459 Sales & Receivables Setup $\)** window, on the **OIOUBL** FastTab, in the **Output Paths** section, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> --> --> -->|  
     |---------------------------------|---------------------------------------|  
     |**Invoice Path**|The path and name of the folder where you want to store the OIOUBL files for sales invoices.|  
     |**Cr. Memo Path**|The path and name of the folder where you want to store the OIOUBL files for sales credit memos.|  
@@ -35,7 +35,7 @@ You must define a location for storing Offentlig Information Online UBL \(OIOUBL
   
 3.  In the **Default OIOUBL Profile Code** field, select the profile that most of your public sector customers use.  
   
-     When you select a profile, [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] updates open sales documents and service documents with the specified profile. For more information, see [OIOUBL Electronic Invoicing Overview](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Denmark/oioubl-electronic-invoicing-overview.md).  
+     When you select a profile, FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> --> updates open sales documents and service documents with the specified profile. For more information, see [OIOUBL Electronic Invoicing Overview](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Denmark/oioubl-electronic-invoicing-overview.md).  
   
     1.  To create a new profile, choose the **Default OIOUBL Profile Code** field, and then choose **New**.  
   
@@ -72,7 +72,7 @@ You must define a location for storing Offentlig Information Online UBL \(OIOUBL
   
 2.  In the **Payment Methods** window, for each payment method that you will use for electronic invoices, in the **Payment Channel** field, select a payment channel. The following table describes the options.  
   
-    |[!INCLUDE[bp_optionsheading](../../DesignAndEngineering/includes/bp_optionsheading_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--[!INCLUDE[bp_optionsheading](../../DesignAndEngineering/includes/bp_optionsheading_md.md)] -->|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |-------------------------------------|---------------------------------------|  
     |**Payment Slip**|The payment is made by using a payment slip, such as giro or an FI card \(Fællesindbetalingskort\). **Important:**  This payment channel is not supported in the standard version of [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)].|  
     |**Account Transfer**|The payment is made by transfer from the customer’s bank account.|  

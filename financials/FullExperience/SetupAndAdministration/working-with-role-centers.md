@@ -38,7 +38,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Working with Role Centers
-A Role Center is a home page in [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] for all users of a profile. For example, the Order Processor Role Center has been configured to reflect the tasks and priorities of an order processor. In [!INCLUDE[rtc](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/rtc_md.md)]s, the profile that is used appears in the header of the Role Center’s main content area. An administrator can then customize this Role Center to meet the needs of a specific role in a specific company. The Order Processor Role Center can then be further personalized on a single computer to meet the needs of a person who is carrying out the job as an order processor. This person can personalize the Role Center by saving queries, adding filters, and adding or removing fields.  
+A Role Center is a home page in FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> for all users of a profile. For example, the Order Processor Role Center has been configured to reflect the tasks and priorities of an order processor. In FIX INCLUDE HERE<!--[!INCLUDE[rtc](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/rtc_md.md)] -->s, the profile that is used appears in the header of the Role Center’s main content area. An administrator can then customize this Role Center to meet the needs of a specific role in a specific company. The Order Processor Role Center can then be further personalized on a single computer to meet the needs of a person who is carrying out the job as an order processor. This person can personalize the Role Center by saving queries, adding filters, and adding or removing fields.  
   
 ## Administrator\-Configured Elements  
  You can configure the following elements in Role Centers:  
@@ -58,7 +58,7 @@ A Role Center is a home page in [!INCLUDE[navnow](../ApplicationDesign/includes/
 -   Report menus  
   
 ## Preconfigured Role Centers  
- There are 21 Role Centers available in [!INCLUDE[nav_current_short](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_current_short_md.md)]. The following Role Centers have been fully configured:  
+ There are 21 Role Centers available in FIX INCLUDE HERE<!--[!INCLUDE[nav_current_short](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_current_short_md.md)] -->. The following Role Centers have been fully configured:  
   
 -   9004 \- Bookkeeper Role Center  
   

@@ -36,7 +36,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # About Mapping
-When you apply data that you have imported from Excel or from a RapidStart package, [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] uses the mapping values that you have provided for a particular field and automatically substitutes the values in your data with the values linked to the field. How [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] treats and handles the mapping depends on table relations:  
+When you apply data that you have imported from Excel or from a RapidStart package, FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> --> --> --> --> --> uses the mapping values that you have provided for a particular field and automatically substitutes the values in your data with the values linked to the field. How [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] treats and handles the mapping depends on table relations:  
   
 -   If you define a mapping directly for a field in a table, then [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] uses it.  
   

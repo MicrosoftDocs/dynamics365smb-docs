@@ -40,11 +40,11 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Fault Reporting
-To set up service standards and responses for your company, you can establish how to capture and record fault information and what action to take in response to service items. The [!INCLUDE[demolong](../ApplicationDesign/includes/demolong_md.md)] for [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] provides four options, from which you can select one in the **General** FastTab of the **Service Mgt. Setup** window. Your selection serves as the default implementation for your service application.  
+To set up service standards and responses for your company, you can establish how to capture and record fault information and what action to take in response to service items. The FIX INCLUDE HERE<!--[!INCLUDE[demolong](../ApplicationDesign/includes/demolong_md.md)] --> for FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> provides four options, from which you can select one in the **General** FastTab of the **Service Mgt. Setup** window. Your selection serves as the default implementation for your service application.  
   
  The following table describes the various fault reporting levels.  
   
-|Fault|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+|Fault|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
 |-----------|---------------------------------------|  
 |**None**|No reporting codes are used.|  
 |**Fault**|Codes are listed in the **Fault Codes** table. These codes can identify service item faults or actions to take on service items. You can cluster related codes into **Fault Area Code** groupings|  

@@ -51,7 +51,7 @@ If necessary, you can use more than one line for a general ledger account name.
   
 2.  In the **Chart of Accounts** window, on the **Home** tab, in the **Manage** group, choose **Edit** to display the **G\/L Account Card** window.  
   
-3.  On the **Navigate** tab, in the **Account** group, choose **Extended Texts**. The **Extended Text** window appears. [!INCLUDE[bp_fieldhelp]()]  
+3.  On the **Navigate** tab, in the **Account** group, choose **Extended Texts**. The **Extended Text** window appears. FIX INCLUDE HERE<!--[!INCLUDE[bp_fieldhelp]()] -->  
   
 4.  Fill in one or more lines with the text that is to be copied and the account name.  
   

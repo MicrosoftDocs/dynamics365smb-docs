@@ -16,7 +16,7 @@ translation.priority.ht:
   - "en-au"
 ---
 # How to: Set Up BAS XML Fields
-In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you must define setup names for XML fields in the Business Activity Statement \(BAS\). You can group the required BAS XML field IDs under one setup name.  
+In FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> -->, you must define setup names for XML fields in the Business Activity Statement \(BAS\). You can group the required BAS XML field IDs under one setup name.  
   
 ### To set up BAS XML fields  
   

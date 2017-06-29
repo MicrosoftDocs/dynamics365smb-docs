@@ -39,7 +39,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Results of the Transfer
-During the transfer of general ledger entries to cost entries, [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] creates connections in the entries in the **G\/L Entry** table, the **Cost Entry** table, and the **Cost Register** table to make it possible to trace the connections between cost entries and general ledger entries.  
+During the transfer of general ledger entries to cost entries, FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> --> --> --> --> --> creates connections in the entries in the **G\/L Entry** table, the **Cost Entry** table, and the **Cost Register** table to make it possible to trace the connections between cost entries and general ledger entries.  
   
 ## General Ledger Entries  
  For each general ledger entry that is transferred to cost accounting, [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] fills the cost **Entry No.** field.  

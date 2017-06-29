@@ -43,7 +43,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Service
-Providing ongoing service to customers is an important part of any business and one that can be a source of customer satisfaction and loyalty, in addition to revenue. However, managing and tracking service is not always easy, and [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] provides a set of tools to help. These tools are designed to support repair shop and field service operations, and can be used in business scenarios such as complex customer service distribution systems, industrial service environments with bills of materials, and high volume dispatching of service technicians with requirements for spare parts management.  
+Providing ongoing service to customers is an important part of any business and one that can be a source of customer satisfaction and loyalty, in addition to revenue. However, managing and tracking service is not always easy, and FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> provides a set of tools to help. These tools are designed to support repair shop and field service operations, and can be used in business scenarios such as complex customer service distribution systems, industrial service environments with bills of materials, and high volume dispatching of service technicians with requirements for spare parts management.  
   
  With these tools you can accomplish the following:  
   

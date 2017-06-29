@@ -36,7 +36,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # About the Data Exchange Framework
-The format of files for exchange of data in bank files, electronic documents, currency exchange rates, and other with ERP systems vary depending on the provider of the data file or stream and on the country\/region. The generic version of [!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)] supports various bank file formats and data service standards. To provide support for other electronic document formats, you use the Data Exchange Framework. For more information, see [Data Exchange](../../BusinessFunctionality/DataExchange/data-exchange.md).  
+The format of files for exchange of data in bank files, electronic documents, currency exchange rates, and other with ERP systems vary depending on the provider of the data file or stream and on the country\/region. The generic version of FIX INCLUDE HERE<!--[!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)] --> supports various bank file formats and data service standards. To provide support for other electronic document formats, you use the Data Exchange Framework. For more information, see [Data Exchange](../../BusinessFunctionality/DataExchange/data-exchange.md).  
   
  The following diagrams show the architecture of the Data Exchange Framework.  
   

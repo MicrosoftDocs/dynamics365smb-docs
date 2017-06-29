@@ -40,7 +40,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Design Details: General Journal Post Line
-This documentation provides detailed technical insight into the concepts and principles that are used to redesign the general journal posting line feature in [!INCLUDE[navnowlong](../ApplicationDesign/includes/navnowlong_md.md)]. The redesign makes codeunit 12 simpler and more maintainable. The documentation starts by describing conceptual overviews of the redesign. Then it explains the technical architecture to show the changes that result from the redesign.  
+This documentation provides detailed technical insight into the concepts and principles that are used to redesign the general journal posting line feature in FIX INCLUDE HERE<!--[!INCLUDE[navnowlong](../ApplicationDesign/includes/navnowlong_md.md)] -->. The redesign makes codeunit 12 simpler and more maintainable. The documentation starts by describing conceptual overviews of the redesign. Then it explains the technical architecture to show the changes that result from the redesign.  
   
 ## In This Section  
  [General Journal Post Line Overview](../ApplicationDesign/general-journal-post-line-overview.md)  

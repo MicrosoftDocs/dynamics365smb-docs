@@ -38,9 +38,9 @@ With electronic banking, you can make electronic payments to domestic, internati
   
 1.  In the **Search** box, enter **Electronic Banking Setup**, and then choose the related link.  
   
-2.  In the **Electronic Banking Setup** window, on the **General** FastTab, fill in the fields as described in the following table. [!INCLUDE[bp_fieldhelp]()]  
+2.  In the **Electronic Banking Setup** window, on the **General** FastTab, fill in the fields as described in the following table. FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_fieldhelp]()] --> --> --> -->  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> --> --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> --> --> -->|  
     |---------------------------------|---------------------------------------|  
     |**Summarize Gen. Jnl. Lines**|Select to indicate if you want to group the payment journal lines for each vendor.|  
     |**Cut off Payment Message Texts**|Select to indicate if you want to truncate long payment messages. Messages will be truncated if greater than 106 characters for domestic payments and less than 140 characters for international payments.|  

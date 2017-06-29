@@ -40,14 +40,14 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Design Details: Average Cost
-The average cost of an item is calculated with a periodic weighted average, based on the average cost period that is set up in [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)].  
+The average cost of an item is calculated with a periodic weighted average, based on the average cost period that is set up in FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] -->.  
   
  The valuation date is set automatically.  
   
 ## Setting Up Average Cost Calculation  
  The following table describes the two fields in the **Inventory Setup** window that must be filled to enable average cost calculation.  
   
-|[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+|FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
 |---------------------------------|---------------------------------------|  
 |**Average Cost Period**|Specifies which period the average cost is calculated in. The following options exist:<br /><br /> -   **Day**<br />-   **Week**<br />-   **Month**<br />-   **Accounting Period**<br /><br /> All inventory decreases that are posted in the average cost period receive the average cost calculated for that period.|  
 |**Average Cost Calc. Type**|Specifies how the average cost is calculated. The following options exist:<br /><br /> -   **Item**<br />-   **Item, Variant, and Location**<br />     With this option, the average cost is calculated for each item, for each location, and for each variant of the item. This means that the average cost of this item depends on where it is stored and which variant of the item that you have selected, such as color.|  

@@ -17,7 +17,7 @@ translation.priority.ht:
   - "fr-fr"
 ---
 # Payment Management
-[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] allows you to manage bills of exchange, electronic payments, and vendor payments using the payment management function.  
+FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> allows you to manage bills of exchange, electronic payments, and vendor payments using the payment management function.  
   
  You can manage customer and vendor payments using payment slips. Before you create a payment slip, you must set up the following prerequisites:  
   

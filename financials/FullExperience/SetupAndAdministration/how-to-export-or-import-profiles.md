@@ -44,7 +44,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Export or Import Profiles
-You can export a profile, for example to reuse UI configurations in other [!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)] databases.  
+You can export a profile, for example to reuse UI configurations in other FIX INCLUDE HERE<!--[!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)] --> databases.  
   
  You can quickly implement UI configurations for a profile by importing an XML file that holds the configured profile.  
   

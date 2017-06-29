@@ -17,7 +17,7 @@ translation.priority.ht:
   - "nl-be"
 ---
 # Belgian VAT
-[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] includes Belgium enhancements to VAT reporting feature that enables you to print VAT transaction details. You must send the following reports to the Belgian tax authorities:  
+FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> includes Belgium enhancements to VAT reporting feature that enables you to print VAT transaction details. You must send the following reports to the Belgian tax authorities:  
   
 -   Monthly\/Quarterly declaration \- This report is used to create monthly or quarterly VAT declarations, depending on your company revenue.  
   

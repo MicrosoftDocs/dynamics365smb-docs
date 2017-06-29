@@ -21,7 +21,7 @@ translation.priority.ht:
 # Standard Sales Codes
 For some customers, companies send sales invoices with similar information. Often these documents contain one single invoice line, which is practically always to be posted on the same account, and which contains the same amount.  
   
- In order to facilitate sales document entry, the standard sales codes have been introduced in [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]. Standard sales codes allow you to setup sales lines to be used regularly. You can setup any number of standard sales codes, and each of them can consist of any number of standard sales lines.  
+ In order to facilitate sales document entry, the standard sales codes have been introduced in FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->. Standard sales codes allow you to setup sales lines to be used regularly. You can setup any number of standard sales codes, and each of them can consist of any number of standard sales lines.  
   
  You can let the program insert standard sales lines in different ways. You can specify this in the field [Insert Std. Cust. Sales Lines\-duplicate](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-t_311_11313-insert-std.-cust.-sales-lines-$-duplicate.md) on the [\($ N\_459 Sales & Receivables Setup $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-n_459-sales-receivables-setup-window-$-.md) window.  
   

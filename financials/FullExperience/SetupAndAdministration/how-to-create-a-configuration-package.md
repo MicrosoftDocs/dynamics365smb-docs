@@ -41,9 +41,9 @@ translation.priority.ht:
 # How to: Create a Configuration Package
 When you configure a new company, table relations are recognized and processed. Data is imported and applied in the correct order. Dimension tables are also imported if they are included in the configuration package.  
   
- To help your customer use the configuration package, you may want to add a questionnaire or a set of questionnaires to the package. The questionnaire can help the customer in understanding the various setup options. Typically, questionnaires are created for the major setup tables within [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)], when a customer may require additional guidance about how to select an appropriate setting. For more information, see [How to: Create Configuration Questionnaires](../SetupAndAdministration/how-to-create-configuration-questionnaires.md).  
+ To help your customer use the configuration package, you may want to add a questionnaire or a set of questionnaires to the package. The questionnaire can help the customer in understanding the various setup options. Typically, questionnaires are created for the major setup tables within FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> -->, when a customer may require additional guidance about how to select an appropriate setting. For more information, see [How to: Create Configuration Questionnaires](../SetupAndAdministration/how-to-create-configuration-questionnaires.md).  
   
- Make sure that you are on the [!INCLUDE[rim](../Roles/includes/rim_md.md)] Role Center page for the baseline company. To change your Role Center home page, see [How to: Change Role Centers](../GettingStarted/how-to-change-role-centers.md). Choose the RapidStart Profile ID.  
+ Make sure that you are on the FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[rim](../Roles/includes/rim_md.md)] --> --> Role Center page for the baseline company. To change your Role Center home page, see [How to: Change Role Centers](../GettingStarted/how-to-change-role-centers.md). Choose the RapidStart Profile ID.  
   
 > [!IMPORTANT]  
 >  When exporting and importing configuration packages between two company databases, the databases should have the same schema to ensure that all data is transferred successfully. This means that the databases should have the same table and field structure, in which the tables have the same primary keys and fields have the same IDs and data types.  
@@ -58,7 +58,7 @@ When you configure a new company, table relations are recognized and processed. 
   
 3.  On the **General** FastTab, fill in the fields as appropriate.  
   
-     [!INCLUDE[bp_fieldhelp]()]  
+     FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_fieldhelp]()] --> -->  
   
 4.  To exclude the configuration questionnaires, configuration templates, and configuration worksheet tables from the package, select the **Exclude Configuration Tables** check box. Otherwise, these tables will be added to the list of package tables automatically when you export the package.  
   

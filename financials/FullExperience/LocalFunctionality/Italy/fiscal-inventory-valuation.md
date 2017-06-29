@@ -29,7 +29,7 @@ You must submit an annual report that shows the monetary value of inventory item
   
 -   Discrete LIFO cost  
   
-## Fiscal Inventory Valuation in [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]  
+## Fiscal Inventory Valuation in FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> -->  
  Initially, you must set up the fiscal inventory valuation for all cost types in the **Item Costing Setup** window and the **Item Card** window. For more information, see [How to: Set Up Fiscal Inventory Valuation](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-set-up-fiscal-inventory-valuation.md).  
   
  When you set up [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] for the first time, you must enter the inventory item ledger entries for the first year in order to calculate the item’s valuation. You can do this in the **Before Start Item Cost** window. For more information, see [How to: Set Up Initial Item Costs](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-set-up-initial-item-costs.md).  

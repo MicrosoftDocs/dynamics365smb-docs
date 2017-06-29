@@ -39,7 +39,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Configure a Company with the RapidStart Wizard
-You can quickly configure a new company that you have created by using the [!INCLUDE[rim](../Roles/includes/rim_md.md)] configuration wizard. Before implementing the following procedures, make sure that you have initialized and opened your new company and are on the [!INCLUDE[rim](../Roles/includes/rim_md.md)] Role Center. To change your Role Center home page, see [How to: Change Role Centers](../GettingStarted/how-to-change-role-centers.md). Choose the RapidStart Profile ID.  
+You can quickly configure a new company that you have created by using the FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[rim](../Roles/includes/rim_md.md)] --> --> --> --> configuration wizard. Before implementing the following procedures, make sure that you have initialized and opened your new company and are on the [!INCLUDE[rim](../Roles/includes/rim_md.md)] Role Center. To change your Role Center home page, see [How to: Change Role Centers](../GettingStarted/how-to-change-role-centers.md). Choose the RapidStart Profile ID.  
   
  In the following procedure, you have provided the customer with the configuration package, which is then installed on a computer. The customer opens the new company, which contains no customer data. You or the customer company follows the steps in the [!INCLUDE[rim](../Roles/includes/rim_md.md)] wizard, which are described in this procedure, to provide basic information about the company. The wizard both imports the configuration package, and then applies the package to the company.  
   
@@ -49,7 +49,7 @@ You can quickly configure a new company that you have created by using the [!INC
   
 2.  Expand the **Step 1** FastTab, which contains general information about the new company. Enter the appropriate information about the new company in the fields. There is one field that you are required to fill out, **Name**. The rest of the fields are optional.  
   
-     [!INCLUDE[bp_fieldhelp]()]  
+     FIX INCLUDE HERE<!--[!INCLUDE[bp_fieldhelp]()] -->  
   
 3.  Expand the **Step 2** FastTab, which contains communication and contact information for the new company. Enter the appropriate information about the new company in the fields.  
   

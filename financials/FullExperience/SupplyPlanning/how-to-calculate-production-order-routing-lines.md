@@ -57,7 +57,7 @@ If you have amended production order lines, you must also refresh the routing of
   
 5.  The following table describes the options available for this batch job.  
   
-    |[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)]|Selection|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)] -->|Selection|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
     |----------------------------------|---------------|---------------------------------------|  
     |**Scheduling Direction**|**Forward**|This field has no effect on the outcome.|  
     ||**Backward**|This field has no effect on the outcome.|  

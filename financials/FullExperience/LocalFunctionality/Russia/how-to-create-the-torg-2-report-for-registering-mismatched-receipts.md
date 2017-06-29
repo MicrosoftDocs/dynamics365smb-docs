@@ -23,7 +23,7 @@ The TORG\-2 report is used to document inconsistencies for deviations of receive
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_14925\_F\_1\_1210014 Order No. $\)**|Specifies the document number.|  
     |**\($ B\_14925\_F\_1\_1210018 Order Date $\)**|Specifies the document date.|  

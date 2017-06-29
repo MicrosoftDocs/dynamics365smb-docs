@@ -17,7 +17,7 @@ translation.priority.ht:
   - "es-es"
 ---
 # How to: Set Up Bank Accounts for Electronic Payments
-In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can set up bank accounts to make electronic payments.  
+In FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> -->, you can set up bank accounts to make electronic payments.  
   
 ### To set up bank accounts for electronic payments  
   
@@ -27,7 +27,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can se
   
 3.  On the **Transfer** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> --> -->|  
     |---------------------------------|---------------------------------------|  
     |**E\-Pay Export File Path**|Enter the full path of the electronic payment file, start with the drive letter and end with a backslash \(\\\). The file name is not included here. You should use the directory where [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] is installed. For example: **C:\\NAV\\** would be a possible entry for this field. You can enter a maximum of 100 characters.|  
     |**Last E\-Pay Export File Name**|Specify the name of the file with the .txt file name extension, without the path., Because the file name will be incremented every time that an electronic payment file is exported, this file name should have digits in it. This will create a permanent record of every file that you have exported to the bank. For example, **DD000000.txt** could be a possible first entry for this field. You can enter a maximum of 50 characters.|  

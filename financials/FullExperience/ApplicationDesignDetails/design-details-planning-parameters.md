@@ -39,7 +39,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Design Details: Planning Parameters
-This topic describes the different planning parameters that you can use in [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)].  
+This topic describes the different planning parameters that you can use in FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] -->.  
   
  The way in which the planning system controls item supply is determined by various settings on the item card or SKU, and settings in manufacturing setup. The following table shows how these parameters are used for planning.  
   
@@ -87,7 +87,7 @@ This topic describes the different planning parameters that you can use in [!INC
 ### Reordering Policies  
  The following reordering policies affect the quantity that is being reordered.  
   
-|Reordering policy|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+|Reordering policy|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)] --> -->|  
 |-----------------------|---------------------------------------|  
 |**Fixed Reorder Qty.**|At a minimum, the order quantity will be equal to the reorder quantity. It can be increased to meet the demand or the desired inventory level. This reordering policy is usually used with a reorder point.|  
 |**Maximum Qty.**|The order quantity will be calculated to meet the maximum inventory. If quantity modifiers are used, then maximum inventory can be violated. We do not recommend that you use the time bucket together with maximum quantity. The time bucket will usually be overruled. This reordering policy is usually used with a reorder point.|  
@@ -97,7 +97,7 @@ This topic describes the different planning parameters that you can use in [!INC
 ##  <a name="BKMK_OptimizeWhenandHowMuchToReorder"></a> Optimize When and How Much to Reorder  
  To obtain a rational supply plan, a planner will fine\-tune planning parameters to limit rescheduling suggestions, accumulate demand \(dynamic reorder quantity\), or to avoid insignificant planning actions. The following reorder period fields help optimize when and how much to reorder.  
   
-|[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+|FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)] -->|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
 |---------------------------------|---------------------------------------|  
 |**Rescheduling Period**|This field is used to determine whether the action message should reschedule an existing order or cancel it and create a new order. The existing order will be rescheduled within one rescheduling period before the current supply and until one rescheduling period after the current supply.|  
 |**Lot Accumulation Period**|With reordering policy Lot\-for\-Lot, this field is used to accumulate multiple supply needs into one supply order. From the first planned supply, the system accumulates all supply needs in the following lot accumulation period into one supply, which is placed on the date of the first supply. Demand outside the lot accumulation period is not covered by this supply.|  

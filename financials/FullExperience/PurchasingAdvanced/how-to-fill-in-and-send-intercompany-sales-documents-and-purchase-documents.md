@@ -45,7 +45,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Fill In and Send Intercompany Sales Documents and Purchase Documents
-You use intercompany documents to post transactions with your intercompany partners. When you post an intercompany document in your company, [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] creates a corresponding document in your IC outbox that you can transfer to your partner. Your partner can then post the document in their company, without having to reenter the data.  
+You use intercompany documents to post transactions with your intercompany partners. When you post an intercompany document in your company, FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> creates a corresponding document in your IC outbox that you can transfer to your partner. Your partner can then post the document in their company, without having to reenter the data.  
   
  The following procedure describes how to fill in and send an intercompany sales order, but the same steps also apply to intercompany purchase orders, intercompany invoices, return orders, and credit memos  
   

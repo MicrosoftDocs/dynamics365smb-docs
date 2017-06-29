@@ -50,7 +50,7 @@ This walkthrough demonstrates the process of planning supply orders to fulfill n
 -   Sales Order Processor  
   
 ## Prerequisites  
- Before you begin this walkthrough, you must install the [!INCLUDE[demolong](../ApplicationDesign/includes/demolong_md.md)]. The following modifications must be made to the database:  
+ Before you begin this walkthrough, you must install the FIX INCLUDE HERE<!--[!INCLUDE[demolong](../ApplicationDesign/includes/demolong_md.md)] -->. The following modifications must be made to the database:  
   
 -   Delete all existing sales orders for bicycles.  
   
@@ -68,7 +68,7 @@ This walkthrough demonstrates the process of planning supply orders to fulfill n
  In a more complex manufacturing environment, the planning worksheet is used to plan supply based on item parameters such as rescheduling period, safety lead time, reorder point, and batch calculations of consolidated demand from all product levels.  
   
 ## Setting Up the Sample Data  
- The standard [!INCLUDE[demo](../ApplicationDesign/includes/demo_md.md)] demonstration company currently has lots of unplanned demand. During the different planning tasks in this walkthrough, you will have to deviate from the realistic business flow by ignoring demand with close due dates and instead use demand with later due dates.  
+ The standard FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[demo](../ApplicationDesign/includes/demo_md.md)] --> --> demonstration company currently has lots of unplanned demand. During the different planning tasks in this walkthrough, you will have to deviate from the realistic business flow by ignoring demand with close due dates and instead use demand with later due dates.  
   
 ## Using the Order Planning Window  
  The **Order Planning** window can be accessed from several different locations on the **Departments** menu in the navigation pane:  

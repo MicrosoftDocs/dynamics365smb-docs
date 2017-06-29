@@ -16,7 +16,7 @@ translation.priority.ht:
   - "ru-ru"
 ---
 # How to: Release, Track, and Write-Off Fixed Assets
-You can manage your fixed assets utilizing the fixed assets acts features in [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]. Fixed assets acts allow you to release, track, and write\-off the fixed assets of your organization.  
+You can manage your fixed assets utilizing the fixed assets acts features in FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->. Fixed assets acts allow you to release, track, and write\-off the fixed assets of your organization.  
   
  The first step to managing your fixed assets is to set up fixed assets numbering and source codes.  
   
@@ -45,7 +45,7 @@ You can manage your fixed assets utilizing the fixed assets acts features in [!I
   
 2.  On the **General** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> --> --> --> --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> --> --> --> --> -->|  
     |---------------------------------|---------------------------------------|  
     |**No.**|Enter the identification number that is assigned to the fixed asset release.|  
     |**Posting Description**|Enter a description for the fixed asset release. A description is automatically created from the document type and release number.|  

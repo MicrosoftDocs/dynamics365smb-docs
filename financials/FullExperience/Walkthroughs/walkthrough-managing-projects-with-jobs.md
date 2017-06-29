@@ -80,12 +80,12 @@ This walkthrough introduces you to the project management features in jobs. Jobs
 ## Prerequisites  
  Before you can perform the tasks in the walkthrough, you must do the following:  
   
--   Install the [!INCLUDE[demolong](../ApplicationDesign/includes/demolong_md.md)].  
+-   Install the FIX INCLUDE HERE<!--[!INCLUDE[demolong](../ApplicationDesign/includes/demolong_md.md)] -->.  
   
 -   Create sample data by using the steps in the following section.  
   
 ## Story  
- This walkthrough focuses on [!INCLUDE[demoname](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/demoname_md.md)], a design and consultancy firm that designs and fits new infrastructures, such as conference halls and offices, with furniture, accessories, and storage units. Most of its work is project oriented. Prakash is a project manager at [!INCLUDE[demo](../ApplicationDesign/includes/demo_md.md)]. He uses jobs to give him an overview of each ongoing job that [!INCLUDE[demo](../ApplicationDesign/includes/demo_md.md)] has started, as well as the jobs that are completed. He is usually the one who sets up deals with customers and enters the core of the job, which is task and planning lines in addition to prices, into [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]. He finds that creating, maintaining, and reviewing information is straightforward. Prakash also likes the way [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] enables copying jobs and payment by installments.  
+ This walkthrough focuses on FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[demoname](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/demoname_md.md)] --> --> -->, a design and consultancy firm that designs and fits new infrastructures, such as conference halls and offices, with furniture, accessories, and storage units. Most of its work is project oriented. Prakash is a project manager at FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[demo](../ApplicationDesign/includes/demo_md.md)] --> --> --> --> -->. He uses jobs to give him an overview of each ongoing job that [!INCLUDE[demo](../ApplicationDesign/includes/demo_md.md)] has started, as well as the jobs that are completed. He is usually the one who sets up deals with customers and enters the core of the job, which is task and planning lines in addition to prices, into FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> --> -->. He finds that creating, maintaining, and reviewing information is straightforward. Prakash also likes the way [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] enables copying jobs and payment by installments.  
   
  Tricia, a project team member who reports to Prakash, is responsible for monitoring the job day\-to\-day. She enters her own work in addition to the work performed by technicians on every task. She records the items that they have used and the costs that they have incurred.  
   
@@ -209,7 +209,7 @@ This walkthrough introduces you to the project management features in jobs. Jobs
   
 2.  The following table describes the information that you should enter in the fields.  
   
-    |Job Task No.|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|Job Task Type|  
+    |Job Task No.|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)] --> -->|Job Task Type|  
     |------------------|---------------------------------------|-------------------|  
     |1000|Consulting on hall setup|Begin\-Total|  
     |1010|Consultation meeting with customer|Posting|  

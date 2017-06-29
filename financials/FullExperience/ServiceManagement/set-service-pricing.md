@@ -40,7 +40,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Set Service Pricing
-You can use the [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] pricing features to set up and customize your application so that you apply and adjust pricing on service items, repairs, and orders. These pricing decisions are then easily transmitted to the invoicing process.  
+You can use the FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> pricing features to set up and customize your application so that you apply and adjust pricing on service items, repairs, and orders. These pricing decisions are then easily transmitted to the invoicing process.  
   
  As your implementation requires, you can set up pricing groups and map them to specific time periods, customers, or currency. You can set up fixed, minimum, or maximum pricing, depending on the service contracts that you have with customers. Finally, as you adjust your prices, you can view and approve the changes before committing them to the ledger.  
   

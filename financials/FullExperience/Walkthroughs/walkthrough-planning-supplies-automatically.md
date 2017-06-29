@@ -25,7 +25,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Walkthrough: Picking and Shipping in Basic Warehousing
-In [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)], the outbound processes for picking and shipping can be performed in four ways using different functionalities depending on the warehouse complexity level.  
+In FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> -->, the outbound processes for picking and shipping can be performed in four ways using different functionalities depending on the warehouse complexity level.  
   
 |Method|Inbound process|Bins|Picks|Shipments|Complexity level \(See [Design Details: Warehouse Setup](../ApplicationDesign/design-details-warehouse-setup.md)\)|  
 |------------|---------------------|----------|-----------|---------------|--------------------------------------------------------------------------------------------------------------------|  
@@ -65,7 +65,7 @@ In [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)], the outbound 
 ## Prerequisites  
  To complete this walkthrough, you will need:  
   
--   [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] with the [!INCLUDE[demolong](../ApplicationDesign/includes/demolong_md.md)] installed.  
+-   [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] with the FIX INCLUDE HERE<!--[!INCLUDE[demolong](../ApplicationDesign/includes/demolong_md.md)] --> installed.  
   
 -   To make yourself a warehouse employee at SILVER location by following these steps:  
   
@@ -85,13 +85,13 @@ In [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)], the outbound 
   
         |Entry Type|Item Number|Location Code|Bin Code|Quantity|  
         |----------------|-----------------|-------------------|--------------|--------------|  
-        |Positive Adjmt.|LS\-81|SILVER|S\-01\-0001 **Note:**  The item’s default bin in [!INCLUDE[demo](../ApplicationDesign/includes/demo_md.md)].|20|  
+        |Positive Adjmt.|LS\-81|SILVER|S\-01\-0001 **Note:**  The item’s default bin in FIX INCLUDE HERE<!--[!INCLUDE[demo](../ApplicationDesign/includes/demo_md.md)] -->.|20|  
         |Positive Adjmt.|LS\-81|SILVER|S\-01\-0002|20|  
   
     3.  On the **Actions** tab, in the **Posting** group, choose **Post**, and then select the **Yes** button.  
   
 ## Story  
- Ellen, the warehouse manager at [!INCLUDE[demoname](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/demoname_md.md)], sets up SILVER warehouse for basic pick handling where warehouse workers process outbound orders individually. Susan, the order processor, creates a sales order for 30 units of item LS\-81 to be shipped to customer 10000 from the SILVER Warehouse. John, the warehouse worker must make sure that the shipment is prepared and delivered to the customer. John manages all involved tasks in the **Inventory Pick** window, which automatically points to the bins where LS\-81 is stored.  
+ Ellen, the warehouse manager at FIX INCLUDE HERE<!--[!INCLUDE[demoname](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/demoname_md.md)] -->, sets up SILVER warehouse for basic pick handling where warehouse workers process outbound orders individually. Susan, the order processor, creates a sales order for 30 units of item LS\-81 to be shipped to customer 10000 from the SILVER Warehouse. John, the warehouse worker must make sure that the shipment is prepared and delivered to the customer. John manages all involved tasks in the **Inventory Pick** window, which automatically points to the bins where LS\-81 is stored.  
   
 ## Setting Up the Location  
  The setup of the **Location Card** window defines the company’s warehouse flows.  

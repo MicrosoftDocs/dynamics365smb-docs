@@ -43,7 +43,7 @@ To create delivery reminders, you must set up the following:
   
 3.  Fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> -->|  
     |---------------------------------|---------------------------------------|  
     |**Code**|The code for the delivery reminder term. You can enter a maximum of 10 alphanumeric characters.|  
     |**Description**|The description for the delivery reminder term. You can enter a maximum of 30 alphanumeric characters.|  

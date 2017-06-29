@@ -39,7 +39,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Import Customer Data
-After the customer data has been entered in the data migration files in Excel, you import the files into [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)].  
+After the customer data has been entered in the data migration files in Excel, you import the files into FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> -->.  
   
 ### To import customer data  
   

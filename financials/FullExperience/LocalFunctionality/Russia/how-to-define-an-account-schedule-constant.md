@@ -16,7 +16,7 @@ translation.priority.ht:
   - "ru-ru"
 ---
 # How to: Define an Account Schedule Constant
-[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] enables you to define a constant for an account schedule line. Constants are useful if an account schedule value does not change.  
+FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> enables you to define a constant for an account schedule line. Constants are useful if an account schedule value does not change.  
   
 ### To define an account schedule constant  
   

@@ -56,7 +56,7 @@ After you import or update the taxonomy, the lines of the schemas must be suppli
   
 3.  On the **Home** tab, in the **Process** group, choose **Lines**.  
   
-4.  Select a line and fill in the fields. [!INCLUDE[bp_fieldhelp]()]  
+4.  Select a line and fill in the fields. FIX INCLUDE HERE<!--[!INCLUDE[bp_fieldhelp]()] -->  
   
 5.  To read detailed information about what to fill in, on the **Navigate**, in the **XBRL Line** group, choose **Information**.  
   

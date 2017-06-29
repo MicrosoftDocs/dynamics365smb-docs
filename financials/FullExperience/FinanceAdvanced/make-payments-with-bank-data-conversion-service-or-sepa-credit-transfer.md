@@ -39,7 +39,7 @@ translation.priority.ht:
 In the **Payment Journal** window, you can process payments to your vendors by exporting a file together with the payment information from the journal lines. You can then upload the file to your electronic bank where the related money transfers are processed.  
   
 > [!NOTE]  
->  In the generic version of [!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)], a global provider of services to convert bank data to any file format that your bank requires is set up and connected. In addition, the generic version of [!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)] supports the SEPA Credit Transfer format. In your country\/region, other formats for electronic payments may be available.  
+>  In the generic version of FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)] --> --> -->, a global provider of services to convert bank data to any file format that your bank requires is set up and connected. In addition, the generic version of [!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)] supports the SEPA Credit Transfer format. In your country\/region, other formats for electronic payments may be available.  
 >   
 >  To enable export of bank file formats that are not supported by the generic or local versions of [!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)], use the Date Exchange Framework. For more information, see [How to: Set Up Data Exchange Definitions](../BusinessFunctionality/DataExchange/how-to-set-up-data-exchange-definitions.md).  
   

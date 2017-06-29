@@ -18,7 +18,7 @@ translation.priority.ht:
   - "de-de"
 ---
 # How to: Set Up Reports for VAT and Intrastat
-In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can specify which reports to use to create the documents that you must submit to the authorities, such as the VAT statement and the Intrastat form.  
+In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->, you can specify which reports to use to create the documents that you must submit to the authorities, such as the VAT statement and the Intrastat form.  
   
 ### To set up reports for VAT  
   
@@ -28,7 +28,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can sp
   
 3.  Specify the report or batch job that must run when a user starts the activity for the document type that you specified in the **Usage** field. Fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> -->|  
     |---------------------------------|---------------------------------------|  
     |**Sequence**|Specifies where a report is in the printing order.|  
     |**Report ID**|Specifies the ID of the report that prints for this document type.|  

@@ -26,7 +26,7 @@ translation.priority.ht:
   - "en-zw"
 ---
 # How to: Register Opening Entries
-If you are using the fixed assets in [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] for the first time, you must set up the general ledger application area before you set up fixed assets. How you do this depends on whether fixed assets is integrated with general ledger.  
+If you are using the fixed assets in FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> --> for the first time, you must set up the general ledger application area before you set up fixed assets. How you do this depends on whether fixed assets is integrated with general ledger.  
   
  The following procedure is used if fixed asset transactions are to be posted to the general ledger.  
   

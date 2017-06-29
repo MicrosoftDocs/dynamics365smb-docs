@@ -20,7 +20,7 @@ translation.priority.ht:
 # Report 349
 You must submit a periodic report of trade with other EU countries\/regions to the tax authorities. In Spain, this Report 349 is part of the EU intra\-community VAT Information Exchange System \(VIES\).  
   
- In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], the Report 349 declaration is based on VAT entries that are filtered by the EU country\/region codes. You must create a 349 declaration and then submit the file to the [Spanish Tax Agency](http://go.microsoft.com/fwlink/?LinkId=238181) website or on CD\-ROM.  
+ In FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> --> --> --> -->, the Report 349 declaration is based on VAT entries that are filtered by the EU country\/region codes. You must create a 349 declaration and then submit the file to the [Spanish Tax Agency](http://go.microsoft.com/fwlink/?LinkId=238181) website or on CD\-ROM.  
   
  When you create a Report 349 declaration that includes credit memos, the entries will display in the **\($ N\_10736 Customer\/Vendor Warnings 349 $\)** window so that you can include them as corrections to invoices.You must make the appropriate changes to the lines in the **\($ N\_10736 Customer\/Vendor Warnings 349 $\)** window before you can submit the declaration. For more information, [How to: Create Report 349](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/how-to-create-report-349.md).  
   
@@ -29,7 +29,7 @@ You must submit a periodic report of trade with other EU countries\/regions to t
   
  Before you submit the 349 declaration, you must make sure that all VAT entries have the relevant delivery operation codes. The following table describes the delivery operation codes that are currently supported in [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)].  
   
-|Delivery operation code|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+|Delivery operation code|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
 |-----------------------------|---------------------------------------|  
 |**E**|Identifies transactions with items that were delivered to customers in another EU country\/region and are not included in either the M or the H delivery operation code.|  
 |**M**|Identifies transactions with items that were delivered to customers in another EU country\/region and which were previously imported into Spain as tax exempt according to the VAT law.|  

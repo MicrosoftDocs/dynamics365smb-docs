@@ -24,7 +24,7 @@ If you sell or purchase items, and you then reach an agreement to change the pri
   
  The following table describes when to use which corrective document.  
   
-|Corrective document type|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+|Corrective document type|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
 |------------------------------|---------------------------------------|  
 |Corrective invoice|Use this document type to post an increase in quantity or price after the items were shipped.|  
 |Corrective credit memo|Use this document type to post a reduction in quantity or price after the items were shipped.|  

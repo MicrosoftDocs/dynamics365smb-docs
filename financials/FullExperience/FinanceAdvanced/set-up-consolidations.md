@@ -44,7 +44,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Set Up Consolidations
-You can consolidate the general ledger entries of two or more separate companies \(subsidiaries\) into a consolidated company. Each individual company involved in a consolidation is called a business unit. The combined company is called the consolidated company. You can import data into the consolidated company from other companies in the same database, from other [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] databases, or from files. You can use any number of business units in a consolidation.  
+You can consolidate the general ledger entries of two or more separate companies \(subsidiaries\) into a consolidated company. Each individual company involved in a consolidation is called a business unit. The combined company is called the consolidated company. You can import data into the consolidated company from other companies in the same database, from other FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> --> databases, or from files. You can use any number of business units in a consolidation.  
   
  You can set up the consolidated company in the same way that you set up other companies. The chart of accounts in the consolidated company is independent of the charts of accounts in the business units, and the charts of accounts in individual business units may differ from one another.  
   

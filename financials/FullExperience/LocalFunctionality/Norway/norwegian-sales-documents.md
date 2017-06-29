@@ -15,7 +15,7 @@ translation.priority.ht:
   - "nb-no"
 ---
 # Norwegian Sales Documents
-[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] supports two sets of sales documents. A document set consists of a sales invoice, sales credit memo, reminder, and finance charge memo.  
+FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> supports two sets of sales documents. A document set consists of a sales invoice, sales credit memo, reminder, and finance charge memo.  
   
  Set 1 is based on international reports. You cannot print Norwegian giro or use paper sources\/trays in this set of reports.  
   

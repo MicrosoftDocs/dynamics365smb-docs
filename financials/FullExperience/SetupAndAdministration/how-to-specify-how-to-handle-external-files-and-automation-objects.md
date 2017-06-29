@@ -37,7 +37,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Specify How to Handle External Files and Automation Objects
-When [!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)] receives an external file, you are presented with a dialog box. In addition to selecting what to do with the file, you can decide how to treat that file type next time it is received.  
+When FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)] --> --> --> --> receives an external file, you are presented with a dialog box. In addition to selecting what to do with the file, you can decide how to treat that file type next time it is received.  
   
  When [!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)] is required to run an automation object, you are presented with a dialog box. You can decide whether that type of object should always or never be able to run.  
   

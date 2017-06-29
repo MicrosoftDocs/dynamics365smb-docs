@@ -16,7 +16,7 @@ translation.priority.ht:
   - "es-es"
 ---
 # How to: Void Electronic Payments
-In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can void the exported payment file. By voiding the file, the entire payment journal from which the file was created, will be deleted.  
+In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->, you can void the exported payment file. By voiding the file, the entire payment journal from which the file was created, will be deleted.  
   
 ### To void electronic payments  
   
@@ -24,7 +24,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can vo
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> -->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_10722\_N\_2\_1100000 Bank Account No. $\)**|Specify the bank account number from which the payments will be voided.|  
   

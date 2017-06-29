@@ -25,7 +25,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Walkthrough: Synchronizing Information Between Outlook and Microsoft Dynamics NAV
-You can set up synchronization between [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] and Microsoft Outlook, so that information about meetings, to\-dos, and contacts can be shared between team members and updated across the two products. For example, a salesperson working outside the office can create a new meeting in Outlook in her company's calendar, and then her manager in the corporate office can see that to\-do in [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)].  
+You can set up synchronization between FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> and Microsoft Outlook, so that information about meetings, to\-dos, and contacts can be shared between team members and updated across the two products. For example, a salesperson working outside the office can create a new meeting in Outlook in her company's calendar, and then her manager in the corporate office can see that to\-do in [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)].  
   
  The synchronization framework provides default mapping between the [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] contacts, salesperson, and to\-dos, and Microsoft Outlook contacts, tasks, and meetings. You can synchronize the entities either manually or automatically at set intervals.  
   
@@ -68,7 +68,7 @@ You can set up synchronization between [!INCLUDE[navnow](../ApplicationDesign/in
 -   Sales Representative, David  
   
 > [!NOTE]  
->  So that you can quickly begin performing the following procedures, you will use your own [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] user settings and Outlook account, instead of setting up Michael and David as new users in the [!INCLUDE[demoname](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/demoname_md.md)] database. See the "Prerequisites" section that follows for information about the required Outlook integration setup.  
+>  So that you can quickly begin performing the following procedures, you will use your own [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] user settings and Outlook account, instead of setting up Michael and David as new users in the FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[demoname](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/demoname_md.md)] --> --> database. See the "Prerequisites" section that follows for information about the required Outlook integration setup.  
   
 ## Prerequisites  
  To complete this walkthrough, you will need:  
@@ -81,7 +81,7 @@ You can set up synchronization between [!INCLUDE[navnow](../ApplicationDesign/in
   
     -   Outlook Integration is installed.  
   
-    -   [!INCLUDE[demolong](../ApplicationDesign/includes/demolong_md.md)] is installed.  
+    -   FIX INCLUDE HERE<!--[!INCLUDE[demolong](../ApplicationDesign/includes/demolong_md.md)] --> is installed.  
   
     -   Your name is added as a salesperson, with your name and email address defined exactly as they are in your Outlook profile.  
   
@@ -94,7 +94,7 @@ You can set up synchronization between [!INCLUDE[navnow](../ApplicationDesign/in
     -   The connection between [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] and Outlook is working. To test the connection, choose the **Settings** button, and then on the **Connection** tab, choose **Test Connection**.  
   
 ## Story  
- Michael is an account manager for [!INCLUDE[demoname](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/demoname_md.md)] He works primarily in the [!INCLUDE[demo](../ApplicationDesign/includes/demo_md.md)] office, and uses [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]. His coworker, David, is a sales representative who works mainly in the field and uses Outlook to track contacts, tasks, and appointments. Because Michael and David share information, they synchronize their information regularly throughout the day. This enables Michael to set appointments for David, while also keeping track of David's activities in the field.  
+ Michael is an account manager for [!INCLUDE[demoname](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/demoname_md.md)] He works primarily in the FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[demo](../ApplicationDesign/includes/demo_md.md)] --> --> office, and uses [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]. His coworker, David, is a sales representative who works mainly in the field and uses Outlook to track contacts, tasks, and appointments. Because Michael and David share information, they synchronize their information regularly throughout the day. This enables Michael to set appointments for David, while also keeping track of David's activities in the field.  
   
  In this scenario, Michael creates an appointment for David to meet with an existing customer. When David synchronizes, he sees the meeting that Michael has created. He does not think that he can drive to the location in time, so that he moves the meeting to another day in his Outlook calendar. He synchronizes again and the changes are updated in [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)], so that Michael can track the change.  
   

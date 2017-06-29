@@ -51,7 +51,7 @@ You can reserve items for purchase orders. Before you can do this, you must have
   
 4.  In the **Reservation** window, on the **Actions** tab, in the **Functions** group, choose from the following options.  
   
-|[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)]|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+|FIX INCLUDE HERE<!--[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
 |----------------------------------|---------------------------------------|  
 |**Auto Reserve**|To automatically reserve items in the **Reservation** window.|  
 |**Reserve from Current Line**|To reserve the items from the document on the line you have selected.|  

@@ -19,7 +19,7 @@ translation.priority.ht:
   - "de-de"
 ---
 # How to: Set Up Sales VAT Advance Notifications for ELSTER
-In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], to submit valid sales VAT advance notifications to the ELSTER portal, you must set up the following:  
+In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->, to submit valid sales VAT advance notifications to the ELSTER portal, you must set up the following:  
   
 -   The company registration information and tax office information.  
   
@@ -39,7 +39,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], to submit 
   
 3.  On the **Tax Office** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> --> -->|  
     |---------------------------------|---------------------------------------|  
     |**Tax Office Number**|The tax office number. You can ask your tax office for this number.|  
     |**Registration No.**|The company's registration number.<br /><br /> You can enter a maximum of 20 alphanumeric characters.|  

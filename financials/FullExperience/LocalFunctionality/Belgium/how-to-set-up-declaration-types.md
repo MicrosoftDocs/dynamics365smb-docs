@@ -17,7 +17,7 @@ translation.priority.ht:
   - "nl-be"
 ---
 # How to: Set Up Declaration Types
-In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], there are two types of declaration:  
+In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->, there are two types of declaration:  
   
 -   Simplified declaration  
   

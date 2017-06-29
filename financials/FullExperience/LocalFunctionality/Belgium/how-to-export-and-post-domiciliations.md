@@ -33,7 +33,7 @@ You can submit domiciliations to your bank by exporting the data to a file. When
   
 3.  In the **Create Gen. Jnl. Lines** window, select the **Options** FastTab, and then fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> -->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_2000021\_F\_1\_11 Journal Template Name $\)**|Select the general journal template that the domiciliations will be posted from.|  
     |**\($ R\_2000021\_F\_1\_7 Journal Batch $\)**|Select the general journal batch that the journal lines will be transferred from.|  

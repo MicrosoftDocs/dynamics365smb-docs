@@ -51,7 +51,7 @@ If you have fixed terms for invoice discounts with any vendors, you can enter th
   
  You can define the terms of the invoice discount in LCY for domestic vendors and in foreign currency for foreign vendors.  
   
- You can choose to have [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] automatically calculate the invoice discounts for quotes, blanket orders, orders, invoices, or credit memos.  
+ You can choose to have FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> automatically calculate the invoice discounts for quotes, blanket orders, orders, invoices, or credit memos.  
   
 > [!TIP]  
 >  Before you enter this information, it is a good idea to prepare an outline of the discount structure that you want to use. This makes it easier to see which vendors can be linked to the same invoice discount window. The fewer windows that you have to set up, the faster that you can enter the basic information.  

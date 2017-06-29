@@ -16,7 +16,7 @@ translation.priority.ht:
   - "nl-be"
 ---
 # How to: File SEPA Payments
-In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can use Single Euro Payments Area \(SEPA\) credit transfers to file SEPA payments with the bank.  
+In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->, you can use Single Euro Payments Area \(SEPA\) credit transfers to file SEPA payments with the bank.  
   
  SEPA unifies payment methods in participating European countries\/regions, which makes international payments as easy to process as domestic payments. European citizens and companies can make and receive payments in euros, whether within or across national borders, with the same basic conditions, rights, and obligations, regardless of location.  
   
@@ -36,7 +36,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can us
   
 2.  Fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_2000005\_N\_2\_11 Journal Template Name $\)**|Specify the general journal template for the SEPA payment report.|  
     |**\($ B\_2000005\_N\_2\_7 Journal Batch $\)**|Specify the general journal batch for the SEPA payment report.|  

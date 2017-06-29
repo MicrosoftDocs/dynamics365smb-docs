@@ -19,7 +19,7 @@ translation.priority.ht:
   - "fr-ca"
 ---
 # How to: Print Bank Reconciliation Reports
-In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can print the following bank reconciliation reports:  
+In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->, you can print the following bank reconciliation reports:  
   
 -   **Bank Rec. Test Report** \- Displays the list of errors that are found in the bank reconciliation statement. You can generate this report before you post the bank reconciliation statement to make sure that there are no errors in the statement.  
   
@@ -33,7 +33,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can pr
   
 3.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_10407\_F\_1\_1020010 Print details $\)**|Select to print reconciliation details in the report. If you select this check box, all of the other print check boxes are automatically selected. You can clear a check box if you do not want to include its details in the report.|  
     |**\($ R\_10407\_F\_1\_1020008 Print checks $\)**|Select to print check details in the report.|  

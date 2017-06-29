@@ -26,7 +26,7 @@ Tax registers are used to track and manage taxable profits and losses in accorda
   
 2.  On the **General** FastTab, enter the following information.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> --> -->|  
     |---------------------------------|---------------------------------------|  
     |**No.**|Specifies the entry number that is assigned to the tax register.|  
     |**Description**|Enter a description for the tax register.|  

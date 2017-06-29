@@ -32,7 +32,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Walkthrough: Conducting a Sales Campaign
-A campaign is any kind of activity that involves several contacts. An important part of setting up a campaign involves selecting the target audience for your campaign. For this purpose, in [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)], you create a segment, or a group of contacts using filters.  
+A campaign is any kind of activity that involves several contacts. An important part of setting up a campaign involves selecting the target audience for your campaign. For this purpose, in FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> -->, you create a segment, or a group of contacts using filters.  
   
  You use these features in Sales & Marketing to carefully plan your marketing activities and to manage your interactions with contacts and customers. You can create campaigns and set up segments of your contacts for mailings and other types of interactions with your contacts and prospective customers.  
   
@@ -61,10 +61,10 @@ A campaign is any kind of activity that involves several contacts. An important 
 -   Marketing Staffer  
   
 ## Prerequisites  
- Before you can perform the tasks in the walkthrough, you must install the [!INCLUDE[demolong](../ApplicationDesign/includes/demolong_md.md)].  
+ Before you can perform the tasks in the walkthrough, you must install the FIX INCLUDE HERE<!--[!INCLUDE[demolong](../ApplicationDesign/includes/demolong_md.md)] -->.  
   
 ## Story  
- The marketing manager in the Sales department of [!INCLUDE[demoname](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/demoname_md.md)] is responsible for planning campaigns and for executing them. He also makes decisions about which trade shows to participate in and he evaluates campaign progress.  
+ The marketing manager in the Sales department of FIX INCLUDE HERE<!--[!INCLUDE[demoname](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/demoname_md.md)] --> is responsible for planning campaigns and for executing them. He also makes decisions about which trade shows to participate in and he evaluates campaign progress.  
   
  The marketing staffer in the Marketing department handles producing, distributing, and placing marketing material.  
   

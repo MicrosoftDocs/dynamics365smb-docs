@@ -46,7 +46,7 @@ translation.priority.ht:
 # How to: Export Business Unit Information
 If consolidation takes place in another database than the one where you have your company's information, than you must export consolidation data from your company to a file. Each company must be exported separately.  
   
-### To export business unit information from databases in [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]  
+### To export business unit information from databases in FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] -->  
   
 1.  Open the company that you want to export.  
   

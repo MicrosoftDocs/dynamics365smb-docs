@@ -68,7 +68,7 @@ FastTabs help organize information about pages into simple, manageable groups. Y
 -   Hide fields on FastTabs.  
   
 > [!NOTE]  
->  Depending on the setting in the **UI Elements Removal** field in the [!INCLUDE[nav_admin](../BusinessFunctionality/LoggingAndTrackingEmailInteractions/includes/nav_admin_md.md)], only FastTabs and fields that you have permissions for will appear in the **Customize** window. For more information, see [How to: Specify When UI Elements Are Removed](../Topic/How%20to:%20Specify%20When%20UI%20Elements%20Are%20Removed.md).  
+>  Depending on the setting in the **UI Elements Removal** field in the FIX INCLUDE HERE<!--[!INCLUDE[nav_admin](../BusinessFunctionality/LoggingAndTrackingEmailInteractions/includes/nav_admin_md.md)] -->, only FastTabs and fields that you have permissions for will appear in the **Customize** window. For more information, see [How to: Specify When UI Elements Are Removed](../Topic/How%20to:%20Specify%20When%20UI%20Elements%20Are%20Removed.md).  
   
  You can make multiple customizations of the same page based on different access points to the page. For example, you can customize that FastTabs in the **Sales Orders** window look different when the window is opened from the **Customer Card** window than when it is opened from your Role Center. The point from which you access the page to be customized is recorded in that specific page customization. Accordingly, there may be multiple customization records for the same page under your logon, as you can see in the **Delete User Personalization** window.  
   

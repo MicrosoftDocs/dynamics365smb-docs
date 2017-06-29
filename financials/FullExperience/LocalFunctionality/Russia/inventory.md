@@ -15,4 +15,4 @@ translation.priority.ht:
   - "ru-ru"
 ---
 # Inventory
-[!INCLUDE[emptyBookNodeText](../../Finance/includes/emptybooknodetext_md.md)]
+FIX INCLUDE HERE<!--[!INCLUDE[emptyBookNodeText](../../Finance/includes/emptybooknodetext_md.md)] -->

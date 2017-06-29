@@ -30,7 +30,7 @@ The VAT reporting feature enables you to print VAT transaction details. You must
   
 2.  In the **\($ R\_11307 VAT – Form $\)** window, fill in the fields.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> --> -->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_11307\_F\_1\_2 Declaration Type $\)**|Specify the type of declaration that you want to print. Options include **Month** and **Quarter**.|  
     |**\($ R\_11307\_F\_1\_5 Month or quarter $\)**|Enter the month or quarter of the VAT declaration.<br /><br /> -   If you select **Month**, you must enter a value between 1 and 12 \(1 \= January, 2 \= February, and so on\).<br />-   If you select **Quarter**, you must enter a value between 1 and 4 \(1 \= first quarter, 2 \= second quarter, and so on\).|  

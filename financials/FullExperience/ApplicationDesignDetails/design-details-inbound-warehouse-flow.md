@@ -59,7 +59,7 @@ The inbound flow in a warehouse begins when items arrive in the warehouse of the
   
  Processes and UI documents in inbound warehouse flows are different for basic and advanced warehousing. The main difference is that activities are performed order\-by\-order in basic warehousing, and they are consolidated for multiple orders in advanced warehousing. For more information about different warehouse complexity levels, see [Design Details: Warehouse Overview](../ApplicationDesign/design-details-warehouse-overview.md) and [Design Details: Warehouse Setup](../ApplicationDesign/design-details-warehouse-setup.md).  
   
- In [!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)], the inbound processes of receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.  
+ In FIX INCLUDE HERE<!--[!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)] -->, the inbound processes of receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.  
   
 |Method|Inbound process|Bins|Receipts|Put\-aways|Complexity level \(See [Design Details: Warehouse Setup](../ApplicationDesign/design-details-warehouse-setup.md)\)|  
 |------------|---------------------|----------|--------------|----------------|--------------------------------------------------------------------------------------------------------------------|  

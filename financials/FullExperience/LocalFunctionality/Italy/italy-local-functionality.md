@@ -17,7 +17,7 @@ translation.priority.ht:
   - "it-it"
 ---
 # Italy Local Functionality
-The following topics describe the local functionality in the Italian version of [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)].  
+The following topics describe the local functionality in the Italian version of FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->.  
   
 ## In This Section  
  [What's New\-duplicate 4](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/what-s-new-duplicate-4.md)  

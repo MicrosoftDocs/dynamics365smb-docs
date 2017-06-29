@@ -13,7 +13,7 @@ translation.priority.ht:
   - "de-de"
 ---
 # How to: Set Up VAT Reports
-Information from various invoice types is used to feed data into the EU Sales List report. To file a VAT report under the ELMA5 system from [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you need to set up report parameters.  
+Information from various invoice types is used to feed data into the EU Sales List report. To file a VAT report under the ELMA5 system from FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->, you need to set up report parameters.  
   
 ### To set up a VAT report  
   

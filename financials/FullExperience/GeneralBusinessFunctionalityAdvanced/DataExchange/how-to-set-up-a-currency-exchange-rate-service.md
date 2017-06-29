@@ -51,7 +51,7 @@ You can use an external service to keep your for currency exchange rates up to d
   
 4.  On the **General** FastTab in the **Curr. Exch. Rate Service Card** window, fill the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> --> -->|  
     |---------------------------------|---------------------------------------|  
     |**Code**|Identify the currency exchange rate service.|  
     |**Description**|Describe the currency exchange rate service.|  
@@ -71,7 +71,7 @@ You can use an external service to keep your for currency exchange rates up to d
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**Caption**|Specify the caption of a field in [!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)] that a node in the currency exchange rate file must map to. **Note:**  The four most common fields are automatically entered when you fill the **Web Service URL** field.|  
+    |**Caption**|Specify the caption of a field in FIX INCLUDE HERE<!--[!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)] --> that a node in the currency exchange rate file must map to. **Note:**  The four most common fields are automatically entered when you fill the **Web Service URL** field.|  
     |**Source**|Specify the XPath to the XML node that should be mapped to the field specified in the **Caption** field.<br /><br /> When you choose the **Source** field, the **Select Source** window opens where you see and select nodes according to the XML structure of the file.|  
     |**Default Value**|Specify a value that will be used if the currency exchange rate service does not provide a value.|  
     |**Transformation Rule**|Specify a rule for transforming imported text to a supported value before it can be mapped to the specified field.|  

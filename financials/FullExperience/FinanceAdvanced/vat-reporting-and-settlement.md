@@ -38,7 +38,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # VAT Reporting and Settlement
-[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] contains some special tables to manage the tasks necessary for settling VAT and reporting to the customs and tax authorities.  
+FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> --> contains some special tables to manage the tasks necessary for settling VAT and reporting to the customs and tax authorities.  
   
 ## VAT Reporting  
  You can use tables to calculate the VAT due for a period. [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] creates an entry in the **VAT Entries** window for each posted transaction that involves VAT. These entries are used to calculate the VAT that must be settled for a given period. Then you can prepare and print the VAT statement report.  

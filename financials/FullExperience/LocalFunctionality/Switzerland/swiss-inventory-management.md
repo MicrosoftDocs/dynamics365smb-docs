@@ -17,7 +17,7 @@ translation.priority.ht:
   - "fr-ch"
 ---
 # Swiss Inventory Management
-[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] includes Swiss enhancements to inventory management. This includes the following:  
+FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> includes Swiss enhancements to inventory management. This includes the following:  
   
 -   Detailed reporting.  For more information, see the Inventory \- Sales Statistics report and the Inventory \- List report.  
   

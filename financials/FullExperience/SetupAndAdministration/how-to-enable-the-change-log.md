@@ -40,10 +40,10 @@ A common problem in an administrative computer system is to locate the origin of
   
 5.  To activate the change log, in the **Change Log Setup** window, select the **Change Log Activated** field. Close the window.  
   
- You must restart the [!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)] for the new change log settings to take effect.  
+ You must restart the FIX INCLUDE HERE<!--[!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)] --> for the new change log settings to take effect.  
   
 > [!IMPORTANT]  
->  The change log cannot track all changes to BLOB fields. [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] tracks that the BLOB field gets set or cleared but cannot read if the field value changes.  
+>  The change log cannot track all changes to BLOB fields. FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> --> --> tracks that the BLOB field gets set or cleared but cannot read if the field value changes.  
   
  [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] always logs changes to the **Change Log Activated** field, which means that you are always able to see which user deactivated or reactivated the change log. This cannot be turned off.  
   

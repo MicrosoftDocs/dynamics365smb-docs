@@ -19,7 +19,7 @@ translation.priority.ht:
   - "it-it"
 ---
 # Vendor Payments and Customer Bills Overview
-In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can manage automatic bills to customers and from vendors.  
+In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->, you can manage automatic bills to customers and from vendors.  
   
  In addition, the bill pay feature supports the issuance of payment in many formats, including SEPA Credit Transfer, SEPA Direct Debit, and Italian bill formats.  
   

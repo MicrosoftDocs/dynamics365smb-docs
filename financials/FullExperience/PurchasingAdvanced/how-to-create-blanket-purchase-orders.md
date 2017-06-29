@@ -81,7 +81,7 @@ You can use blanket orders when you have committed to buying large quantities of
   
 -   The purchase order line quantity must not exceed the quantity of the associated blanket order line. Otherwise, you cannot post the purchase order.  
   
-    -   When the purchase order is posted as received or invoiced, [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] updates the **Quantity Received** and **Quantity Invoiced** fields on the related blanket order.  
+    -   When the purchase order is posted as received or invoiced, FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> --> updates the **Quantity Received** and **Quantity Invoiced** fields on the related blanket order.  
   
     -   The blanket order number and line number are recorded as properties of the purchase lines when it is created from a blanket order.  
   

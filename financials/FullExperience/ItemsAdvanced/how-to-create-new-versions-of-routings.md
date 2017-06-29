@@ -34,7 +34,7 @@ The version principle enables you to manage several versions of a routing. The s
   
 6.  To create operations lines, select the first blank link. Fill in the **Operation No.** field according to the sequence of operations. The operation lines are sorted in ascending order by operation numbers. To be able to make changes later, we recommend you to select adequate step widths.  
   
-     The **Next Operation No.** field refers to the following operation. The number of the operation can be entered directly. [!INCLUDE[bp_choose_columns](../DesignAndEngineering/includes/bp_choose_columns_md.md)]  
+     The **Next Operation No.** field refers to the following operation. The number of the operation can be entered directly. FIX INCLUDE HERE<!--[!INCLUDE[bp_choose_columns](../DesignAndEngineering/includes/bp_choose_columns_md.md)] -->  
   
      The correct sequence of operations is checked before setting the status to **Certified**.  
   

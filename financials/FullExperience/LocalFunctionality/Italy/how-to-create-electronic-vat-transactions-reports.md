@@ -25,7 +25,7 @@ You must create a list of transactions that include VAT with amounts over the cu
   
 2.  Fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> -->|  
     |---------------------------------|---------------------------------------|  
     |**No.**|Specify the report number.<br /><br /> Depending on the type of report, and the configuration in your company, you can use the automatically generated number, select a different number series, or enter a different number manually.|  
     |**VAT Report Config. Code**|Select the **VAT Transactions Report** configuration code.<br /><br /> The configuration code specifies how the VAT report is generated. For more information, see [Italian VAT](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/italian-vat.md).|  
@@ -48,14 +48,14 @@ You must create a list of transactions that include VAT with amounts over the cu
   
 5.  Verify that the **Contract Payment Type** field is set to the appropriate value in each suggested line. The following table describes the options.  
   
-    |[!INCLUDE[bp_tableoption](../../ApplicationDesign/includes/bp_tableoption_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tableoption](../../ApplicationDesign/includes/bp_tableoption_md.md)] -->|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |----------------------------------|---------------------------------------|  
     |**Without Contract**|The VAT entries that resulted in this line are not associated with a contract.|  
     |**Contract**|The VAT entries that resulted in this line are associated with a contract.|  
     |**Other**|The VAT entries that resulted in this line are not associated with a special contract, such as ongoing maintenance or other exceptions.|  
   
     > [!TIP]  
-    >  In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], the contract that the tax authorities are looking for can be blanket orders or service contracts. To identify if the VAT report line belongs to a blanket order or service contract, you can drill down to see the underlying VAT entries from the **Amount** field.  
+    >  In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->, the contract that the tax authorities are looking for can be blanket orders or service contracts. To identify if the VAT report line belongs to a blanket order or service contract, you can drill down to see the underlying VAT entries from the **Amount** field.  
   
      Credit memos are included in the VAT transaction report if the customer or vendor is from a country\/region that is outside the EU and not black\-listed. For more information, see [Italian VAT](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/italian-vat.md).  
   

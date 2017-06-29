@@ -19,7 +19,7 @@ translation.priority.ht:
   - "fr-ca"
 ---
 # How to: Void Posted Checks
-In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you must void the **Payment Journal** from which the export was initiated to void a check. You cannot void the journal after the file has been transmitted. You must post printed checks before you can void printed checks.  
+In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->, you must void the **Payment Journal** from which the export was initiated to void a check. You cannot void the journal after the file has been transmitted. You must post printed checks before you can void printed checks.  
   
 ### To post printed checks  
   
@@ -27,7 +27,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you must v
   
 2.  In the **Edit \- Payment Journal** window, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
     |---------------------------------|---------------------------------------|  
     |**Batch Name**|The required batch name.|  
     |**Posting Date**|The posting date for the entry.|  

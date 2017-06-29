@@ -19,7 +19,7 @@ translation.priority.ht:
   - "es-mx"
 ---
 # Electronic Invoicing
-Mexican companies must be able to send invoices electronically as Comprobante Fiscal Digital por Internet \(CFDI\) files. [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] supports CFDI so that you can export sales and service invoices and credit memos as electronic documents that have the required digital signature.  
+Mexican companies must be able to send invoices electronically as Comprobante Fiscal Digital por Internet \(CFDI\) files. FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> --> --> --> --> --> --> supports CFDI so that you can export sales and service invoices and credit memos as electronic documents that have the required digital signature.  
   
  The CFDI file is an XML file that contains:  
   
@@ -71,7 +71,7 @@ Mexican companies must be able to send invoices electronically as Comprobante Fi
  For more information, see [How to: Generate Electronic Invoices](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Mexico/how-to-generate-electronic-invoices.md).  
   
 ## Communication Component  
- The [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] component for electronic invoicing deploys in a library assembly, Microsoft.Dynamics.NAV.MX.dll, which is installed automatically when you install the [!INCLUDE[nav_windows](../../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)]. The component handles the communication with the PAC web services and also generates the QR codes that are included in the printed documents. For examples of how to use the Microsoft.Dynamics.NAV.MX.dll assembly, see codeunit 10145 **E\-Invoice Mgt.** and codeunit 10147 **E\-Invoice Object Factory**.  
+ The [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] component for electronic invoicing deploys in a library assembly, Microsoft.Dynamics.NAV.MX.dll, which is installed automatically when you install the FIX INCLUDE HERE<!--[!INCLUDE[nav_windows](../../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)] -->. The component handles the communication with the PAC web services and also generates the QR codes that are included in the printed documents. For examples of how to use the Microsoft.Dynamics.NAV.MX.dll assembly, see codeunit 10145 **E\-Invoice Mgt.** and codeunit 10147 **E\-Invoice Object Factory**.  
   
  When you generate an electronic document to request a stamp, [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] creates an XML document and sends it to the PAC for processing. The original XML document contains the same information as the original string field that is shown on the printed document. The original string includes the following information:  
   

@@ -19,7 +19,7 @@ translation.priority.ht:
 # How to: Export GDPdU Data
 You can export financial data and tax data according to the process for data access and testability of digital documents \(GDPdU\). You can also select various options to be included in an XML file.  
   
- If there is no data to export, [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] creates empty files.  
+ If there is no data to export, FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> creates empty files.  
   
 ### To export GDPdU data  
   
@@ -27,7 +27,7 @@ You can export financial data and tax data according to the process for data acc
   
 2.  In the **GDPdU Export** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tableoption](../../ApplicationDesign/includes/bp_tableoption_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tableoption](../../ApplicationDesign/includes/bp_tableoption_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
     |----------------------------------|---------------------------------------|  
     |**\($ B\_11015\_N\_2\_1140000 Starting Date $\)**|Specifies the start date for the data export.<br /><br /> **NOTE:** If the data export source includes period fields, the start date and the end date are used as filter values for the period fields.|  
     |**\($ B\_11015\_N\_2\_1140002 Ending Date $\)**|Specifies the end date for the data export.|  

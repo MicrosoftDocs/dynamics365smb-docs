@@ -19,7 +19,7 @@ translation.priority.ht:
   - "fr-ch"
 ---
 # How to: Print General Ledger Setup Information
-Before you use [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] in the daily business, you can run the **G\/L Setup Information** report to display the master data that you have set up. You can look over this master data so that you have a baseline to compare to, and then verify that you have set up posting groups correctly, for example.  
+Before you use FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> in the daily business, you can run the **G\/L Setup Information** report to display the master data that you have set up. You can look over this master data so that you have a baseline to compare to, and then verify that you have set up posting groups correctly, for example.  
   
 ### To print general ledger setup information  
   
@@ -27,7 +27,7 @@ Before you use [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]
   
 2.  On the **Options** FastTab, in the **Setup Information** field, select the master data area as described in the following table.  
   
-    |[!INCLUDE[bp_optionsheading](../../DesignAndEngineering/includes/bp_optionsheading_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--[!INCLUDE[bp_optionsheading](../../DesignAndEngineering/includes/bp_optionsheading_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
     |-------------------------------------|---------------------------------------|  
     |**G\/L Setup \- Company Data \- Consolidation**|Displays tables for general ledger setup, company information, and business units.|  
     |**Posting Groups**|Displays customer posting group tables, vendor posting group tables, inventory posting group tables, and bank account posting group tables.|  

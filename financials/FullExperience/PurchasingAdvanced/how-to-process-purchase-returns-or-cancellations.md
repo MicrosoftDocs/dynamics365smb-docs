@@ -65,7 +65,7 @@ If you want to return items to your vendor or cancel services that you have purc
   
 4.  To apply the purchase credit memo to one posted purchase invoice, fill in the fields in the **Application Details** group as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
     |---------------------------------|---------------------------------------|  
     |**Applies\-to Doc. Type**|Specify the type of document that the purchase credit memo is applied to.|  
     |**Applies\-to Doc. No.**|Specify the purchase document that the purchase credit memo is applied to.|  

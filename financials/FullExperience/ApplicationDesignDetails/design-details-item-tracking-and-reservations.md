@@ -51,7 +51,7 @@ Simultaneous use of reservation and specific item tracking is uncommon, because 
   
  Reservation of item tracking numbers falls into two categories, as shown in the following table.  
   
-|Reservation|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+|Reservation|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
 |-----------------|---------------------------------------|  
 |Specific|You select a specific serial or lot number when you reserve the inventory item from a demand, such as a sales order.<br /><br /> This is a regular reservation. It is a rigid link between supply and demand that both carry serial or lot numbers. **Note:**  The demand carries serial or lot numbers. <br /><br /> For example, you want to reserve a can of blue paint from Lot A, because the customer requests it. A can of blue paint from Lot A is shipped to the customer.|  
 |Nonspecific|You do not select a specific serial or lot number when you reserve the inventory item from a demand, such as a sales order.<br /><br /> This is a state that is imposed on a reservation entry for serial or lot numbers that are not selected specifically. **Note:**  The demand does not carry serial or lot numbers. <br /><br /> For example, you want to reserve a can of blue paint from any lot for your sales order. A can of blue paint from a random serial or lot number is shipped to the customer.|  

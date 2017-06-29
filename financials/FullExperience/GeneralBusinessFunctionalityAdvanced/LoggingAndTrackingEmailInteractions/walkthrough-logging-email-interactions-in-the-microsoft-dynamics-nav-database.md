@@ -41,7 +41,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Walkthrough: Logging Email Interactions in the Microsoft Dynamics NAV Database
-In managing your relationships with contacts, it helps keep track of email correspondence. Email logging in [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] is designed to help you with that. It lets you keep records of your email correspondence in both [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] and Microsoft Exchange Server. For example, you can send an email message to a contact about an upcoming event. The contact replies, and confirms interest in participating. Both messages are logged on the contact card. Or, you might receive a complaint from a contact via an email message. You can track that contact's message and your response to it by using email logging.  
+In managing your relationships with contacts, it helps keep track of email correspondence. Email logging in FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> --> --> --> --> --> --> --> --> --> --> --> --> --> is designed to help you with that. It lets you keep records of your email correspondence in both [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] and Microsoft Exchange Server. For example, you can send an email message to a contact about an upcoming event. The contact replies, and confirms interest in participating. Both messages are logged on the contact card. Or, you might receive a complaint from a contact via an email message. You can track that contact's message and your response to it by using email logging.  
   
  The email logging feature makes it possible to log all inbound and outbound email messages. The only requirement is that the email address be one that [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] recognizes. The address must belong to a salesperson or to a contact. The messages can be created in Outlook. They are logged automatically when you have email logging enabled. This gives you flexibility to choose the solution that best suits your needs.  
   
@@ -72,9 +72,9 @@ In managing your relationships with contacts, it helps keep track of email corre
   
  To complete this walkthrough, you will need:  
   
--   [!INCLUDE[demolong](../../ApplicationDesign/includes/demolong_md.md)].  
+-   FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[demolong](../../ApplicationDesign/includes/demolong_md.md)] --> -->.  
   
--   [!INCLUDE[nav_admin](../../BusinessFunctionality/LoggingAndTrackingEmailInteractions/includes/nav_admin_md.md)].  
+-   FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[nav_admin](../../BusinessFunctionality/LoggingAndTrackingEmailInteractions/includes/nav_admin_md.md)] --> --> -->.  
   
 -   A connection to Microsoft Exchange Server 2013 or Microsoft Exchange Server 2010.  
   
@@ -102,7 +102,7 @@ In managing your relationships with contacts, it helps keep track of email corre
 >  The email account that is used to configure email logging in [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] must have certain permissions with regard to the public folders.  
 >   
 >  -   When you configure email logging setup in the **Marketing Setup** window, the user name that is used for the validation of setup must have **Read** access to the public folders.  
-> -   When email logging is running on the [!INCLUDE[nav_server](../../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_server_md.md)], the user account credentials that are used on the server instance must have full **Read**, **Write**, and **Delete items** permission levels set on the public folders.  
+> -   When email logging is running on the FIX INCLUDE HERE<!--[!INCLUDE[nav_server](../../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_server_md.md)] -->, the user account credentials that are used on the server instance must have full **Read**, **Write**, and **Delete items** permission levels set on the public folders.  
   
  For more information, see [Managing Public Folder Permissions](http://go.microsoft.com/fwlink/?prd=12036).  
   
@@ -110,7 +110,7 @@ In managing your relationships with contacts, it helps keep track of email corre
   
 -   In Microsoft Outlook, in your mailbox, create two public folders.  
   
-    |Folder|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |Folder|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
     |------------|---------------------------------------|  
     |Queue|Email messages are copied by a [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] user, typically a salesperson, to the queue folder, according to rules that you have set up.|  
     |Storage|Incoming and outgoing messages are logged and automatically copied to the storage folder.|  
@@ -191,7 +191,7 @@ In managing your relationships with contacts, it helps keep track of email corre
   
     ### General FastTab  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|Value|  
+    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> -->|Value|  
     |---------------------------------|-----------|  
     |**Object Type to Run**|Codeunit|  
     |**Object ID to Run**|5065|  
@@ -222,7 +222,7 @@ In managing your relationships with contacts, it helps keep track of email corre
   
      For more information, see [Managing Microsoft Dynamics NAV Server Instances](../Topic/Managing%20Microsoft%20Dynamics%20NAV%20Server%20Instances.md).  
   
-3.  Return to the [!INCLUDE[rtc](../../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/rtc_md.md)], and in the **Search** box, enter **Job Queue Log Entries**, and then choose the related link. To verify that the job queue is working as expected, note whether an entry is logged every five minutes.  
+3.  Return to the FIX INCLUDE HERE<!--[!INCLUDE[rtc](../../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/rtc_md.md)] -->, and in the **Search** box, enter **Job Queue Log Entries**, and then choose the related link. To verify that the job queue is working as expected, note whether an entry is logged every five minutes.  
   
 ## Testing Email Logging  
  Before you put a system into production, you can try some simple tests to see whether it is working as expected. The following procedure is representative of how a salesperson and his manager would use the system. The task has several prerequisites to make testing easy. First, you should set the email address of a test salesperson so that it is the same email account that you used for autodiscovery. The test salesperson should have an email address that you can use for testing. Next, set up a test contact that has an email address that you can verify receives mail.  

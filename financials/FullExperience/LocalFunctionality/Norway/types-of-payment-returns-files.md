@@ -18,7 +18,7 @@ translation.priority.ht:
   - "nb-no"
 ---
 # Types of Payment Returns Files
-[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] includes two types of payment return files that can be imported:  
+FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> includes two types of payment return files that can be imported:  
   
 -   Receipt returns  
   

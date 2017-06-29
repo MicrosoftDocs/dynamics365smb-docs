@@ -51,10 +51,10 @@ After setting up the chart of accounts for a consolidated company, you must spec
   
 2.  In the **Search** box, enter **Chart of Accounts**, and then choose the related link.  
   
-3.  In the **Chart of Accounts** window, for each general ledger account that has the **Posting** type, fill in the **Consol. Debit Acc.**, **Consol. Credit Acc.**, and **Consol. Translation Method** fields. [!INCLUDE[bp_fieldhelp]()]  
+3.  In the **Chart of Accounts** window, for each general ledger account that has the **Posting** type, fill in the **Consol. Debit Acc.**, **Consol. Credit Acc.**, and **Consol. Translation Method** fields. FIX INCLUDE HERE<!--[!INCLUDE[bp_fieldhelp]()] -->  
   
     > [!IMPORTANT]  
-    >  These fields are available in the Chart of Accounts window, but not shown by default. [!INCLUDE[bp_customize](../Finance/includes/bp_customize_md.md)]  
+    >  These fields are available in the Chart of Accounts window, but not shown by default. FIX INCLUDE HERE<!--[!INCLUDE[bp_customize](../Finance/includes/bp_customize_md.md)] -->  
   
 4.  After entering account numbers for all the general ledger accounts, close the **Chart of Accounts** window.  
   

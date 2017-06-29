@@ -27,7 +27,7 @@ You must submit periodic reports to the tax authorities to list all transactions
   
 3.  Fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> --> --> --> --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> --> --> --> --> -->|  
     |---------------------------------|---------------------------------------|  
     |**Starting Date**|Specifies the start date for this threshold, such as 01.05.2011.<br /><br /> Transactions that are posted on or after this date are included in the calculations for the VAT transaction report.|  
     |**Threshold Amount Excl. VAT**|Specifies the minimum base amount that will be included in the VAT transaction report.<br /><br /> This amount is determined by the requirements from the tax authorities.|  
@@ -37,7 +37,7 @@ You must submit periodic reports to the tax authorities to list all transactions
   
  You must also configure each VAT posting setup that is used for transactions that are included in the VAT transaction report.  
   
- The initial setting of the **Include in VAT Transac. Report** check box is based your VAT posting setup, the customer and vendor country\/region, and the specific line, but you can override the setting of the check box in sales, purchase, service, and general journal lines that are posted to VAT entries. If [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] does not permit the changed setting, an error will be displayed during posting.  
+ The initial setting of the **Include in VAT Transac. Report** check box is based your VAT posting setup, the customer and vendor country\/region, and the specific line, but you can override the setting of the check box in sales, purchase, service, and general journal lines that are posted to VAT entries. If FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> --> --> --> --> --> does not permit the changed setting, an error will be displayed during posting.  
   
 ### To set up VAT posting for VAT transaction reporting  
   

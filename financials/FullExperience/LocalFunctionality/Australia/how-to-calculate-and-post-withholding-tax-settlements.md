@@ -30,9 +30,9 @@ You can use the **Calc. and Post WHT Settlement** window to calculate and post t
   
 1.  In the **Search** box, enter **Calc. and Post WHT Settlement**, and then choose the related link.  
   
-2.  On the **[!INCLUDE[bp_optionsheading](../../DesignAndEngineering/includes/bp_optionsheading_md.md)]** FastTab, fill in the fields as described in the following table.  
+2.  On the **FIX INCLUDE HERE<!--[!INCLUDE[bp_optionsheading](../../DesignAndEngineering/includes/bp_optionsheading_md.md)] -->** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_28041\_N\_2\_13 Starting Date $\)**|The start date of the period for which WHT has to be settled.|  
     |**\($ R\_28041\_N\_2\_11 Ending Date $\)**|The end date of the period for which WHT has to be settled.|  

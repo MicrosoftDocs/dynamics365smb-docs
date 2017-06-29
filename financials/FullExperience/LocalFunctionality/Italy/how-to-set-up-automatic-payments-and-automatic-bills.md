@@ -18,7 +18,7 @@ translation.priority.ht:
   - "it-it"
 ---
 # How to: Set Up Automatic Payments and Automatic Bills
-In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can manage automatic payments and bills.  
+In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->, you can manage automatic payments and bills.  
   
  To use automatic payments and automatic bills, you must set up the relevant information.  
   
@@ -28,7 +28,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can ma
   
 2.  On the **Payments** FastTab, fill in the key fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> --> -->|  
     |---------------------------------|---------------------------------------|  
     |**SIA Code**|Specify the company identification number that your company has been assigned by the bank.|  
     |**Autoriz. No.**|Specify the authorization number that your company has been assigned by the bank.|  

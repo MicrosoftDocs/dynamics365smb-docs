@@ -41,7 +41,7 @@ translation.priority.ht:
 # Design Details: Inventory Posting
 Each inventory transaction, such as a purchase receipt or a sales shipment, posts two entries of different types.  
   
-|Entry type|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+|Entry type|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
 |----------------|---------------------------------------|  
 |Quantity|Reflects the change of quantity in inventory. This information is stored in item ledger entries.<br /><br /> Accompanied by item application entries.|  
 |Value|Reflects the change of inventory value. This information is stored in value entries.<br /><br /> One or more value entries can exist for each item ledger entry or capacity ledger entry.<br /><br /> For information about capacity value entries related to the use of production or assembly resources, see [Design Details: Production Order Posting](../ApplicationDesign/design-details-production-order-posting.md).|  

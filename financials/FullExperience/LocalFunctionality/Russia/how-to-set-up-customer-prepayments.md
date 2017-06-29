@@ -28,7 +28,7 @@ Prepayments are advance payments on sales orders that are received, invoiced, an
   
 3.  On the **Prepayment** FastTab, enter the following information.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
     |---------------------------------|---------------------------------------|  
     |**Use Prepayment Account**|Select to post prepayments using the subaccount specified in the **Prepayment Account** field in the **Customer Posting Groups** window.|  
     |**Create Prepayment Invoice**|Select to create an invoice for the prepayment. If this field is not selected, an invoice for the prepayment will not be created.|  

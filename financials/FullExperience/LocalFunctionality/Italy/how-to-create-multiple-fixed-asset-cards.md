@@ -39,7 +39,7 @@ You can create multiple fixed asset cards automatically during purchase invoice 
   
 8.  Fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
     |---------------------------------|---------------------------------------|  
     |**Type**|Select **Fixed Asset**.|  
     |**No.**|Specify the fixed asset number.<br /><br /> **NOTE:** This should be the same fixed asset number that you entered in the **Fixed Asset** list.|  

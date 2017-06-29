@@ -37,7 +37,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Troubleshooting: The File that You Are Trying to Use Is Too Large
-If you are trying to upload a large image file that is larger than 30 MB, such as a high\-resolution photo, [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] will give you an error message that says that the file that you are trying to upload is too large. This behavior can be changed by modifying the IIS configuration to support large file uploads.  
+If you are trying to upload a large image file that is larger than 30 MB, such as a high\-resolution photo, FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> --> --> will give you an error message that says that the file that you are trying to upload is too large. This behavior can be changed by modifying the IIS configuration to support large file uploads.  
   
 ## Resolution  
  The IIS administrator should make the following changes in the Internet Information Services \(IIS\) Manager.  
@@ -52,7 +52,7 @@ If you are trying to upload a large image file that is larger than 30 MB, such a
   
 5.  In the left pane of IIS Manager, select the [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] web site, and choose **Configuration Editor**.  
   
-6.  In the **Configuration Editor**, make sure that the **From** field is set to [!INCLUDE[navnowlong](../ApplicationDesign/includes/navnowlong_md.md)] Web Client Web.config.  
+6.  In the **Configuration Editor**, make sure that the **From** field is set to FIX INCLUDE HERE<!--[!INCLUDE[navnowlong](../ApplicationDesign/includes/navnowlong_md.md)] --> Web Client Web.config.  
   
 7.  Set the **Section** field to **system.web\/httpRuntime** and now several properties will appear.  
   

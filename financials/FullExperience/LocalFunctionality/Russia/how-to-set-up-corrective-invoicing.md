@@ -15,7 +15,7 @@ translation.priority.ht:
   - "ru-ru"
 ---
 # How to: Set Up Corrective Invoicing
-You can create corrective invoices and corrective credit memos to reflect changes in quantity and amounts after the items were shipped or received. First, you must set up [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] with prerequisites.  
+You can create corrective invoices and corrective credit memos to reflect changes in quantity and amounts after the items were shipped or received. First, you must set up FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> with prerequisites.  
   
 ### To set up number series for corrective documents  
   

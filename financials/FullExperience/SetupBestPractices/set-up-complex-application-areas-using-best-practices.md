@@ -42,9 +42,9 @@ translation.priority.ht:
 # Set Up Complex Application Areas Using Best Practices
 Entering the correct setup values from the start is important to the success of any new business software.  
   
- Whether you use [!INCLUDE[rim](../Roles/includes/rim_md.md)] to implement setup values or you manually enter them in the new company, you can support your setup decisions with some general recommendations for selected setup fields that are known to potentially cause the solution to be inefficient if defined incorrectly.  
+ Whether you use FIX INCLUDE HERE<!--[!INCLUDE[rim](../Roles/includes/rim_md.md)] --> to implement setup values or you manually enter them in the new company, you can support your setup decisions with some general recommendations for selected setup fields that are known to potentially cause the solution to be inefficient if defined incorrectly.  
   
- Help in [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] includes best\-practice information about how to set up key fields in the following application areas:  
+ Help in FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> includes best\-practice information about how to set up key fields in the following application areas:  
   
 -   [Setup Best Practices: Supply Planning](../SetupAndAdministration/setup-best-practices-supply-planning.md)  
   

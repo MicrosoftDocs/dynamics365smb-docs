@@ -38,7 +38,7 @@ If you have to submit a corrective VAT report or delete a submitted VAT report, 
      **Suggest Lines** will create entries to account for the difference between the filters.  
   
     > [!NOTE]  
-    >  If the updated filters exclude a customer or vendor, [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] creates a Cancellation line for the previous reported amount and a Correction entry with amount 0.  
+    >  If the updated filters exclude a customer or vendor, FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> creates a Cancellation line for the previous reported amount and a Correction entry with amount 0.  
   
 ### To correct a VAT report  
   

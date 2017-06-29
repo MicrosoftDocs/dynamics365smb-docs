@@ -24,11 +24,11 @@ translation.priority.ht:
   
  A company can use the cash accounting method if business sales do not exceed 2,000,000 euros per year. There is one exception to this rule for a business whose receipts in cash from any single customer exceeds the sum of 100,000 euros.  
   
- In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can set up posting groups for cash\-based VAT accounting for purchases and sales.  
+ In FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> -->, you can set up posting groups for cash\-based VAT accounting for purchases and sales.  
   
  If you file a report under this regimen, the following label is applied to certain [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] reports: **Régimen especial del criterio de caja**. The modified reports are:  
   
-|Report|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+|Report|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
 |------------|---------------------------------------|  
 |Report 117|Reminder|  
 |Report 118|Finance Charge Memo|  

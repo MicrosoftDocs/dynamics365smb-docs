@@ -39,7 +39,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Validate Customer Data
-Customer data must be validated before you apply the records to the [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] database.  
+Customer data must be validated before you apply the records to the FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> database.  
   
 > [!NOTE]  
 >  In most cases, invalid data is not created in the database. However, the application can occasionally be blocked if an imported migration table contains errors.  

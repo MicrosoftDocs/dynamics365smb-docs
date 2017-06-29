@@ -18,7 +18,7 @@ translation.priority.ht:
   - "de-de"
 ---
 # How to: Create and Submit Sales VAT Advance Notifications
-In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can submit the sales VAT advance notification file electronically to the ELSTER portal. You can transmit the sales VAT advance notification file to the tax authorities after you have verified the calculated tax amount and the base amount.  
+In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->, you can submit the sales VAT advance notification file electronically to the ELSTER portal. You can transmit the sales VAT advance notification file to the tax authorities after you have verified the calculated tax amount and the base amount.  
   
 ### To create an XML document for sales VAT advance notification  
   
@@ -28,7 +28,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can su
   
 3.  In the **Sales VAT Adv. Notif. Card** window, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> -->|  
     |---------------------------------|---------------------------------------|  
     |**Description**|Specify a description of the sales VAT advance notification.|  
     |**XSL\-Filename**|Specify the path to the style sheet, such as C:\/Program Files\/ElsterFormular\/Stylesheet\/UStVAT.xsl.|  

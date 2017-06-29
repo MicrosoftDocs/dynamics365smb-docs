@@ -20,7 +20,7 @@ translation.priority.ht:
   - "fr-ca"
 ---
 # How to: Manage Customer Credit Information
-In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can add comments to customer credit information. You can also hold and block customers with bad credit before shipping or invoicing occurs.  
+In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->, you can add comments to customer credit information. You can also hold and block customers with bad credit before shipping or invoicing occurs.  
   
 ### To add comments to customer credit information  
   
@@ -30,7 +30,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can ad
   
 3.  In the **Comment Sheet** window, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
     |---------------------------------|---------------------------------------|  
     |**Date**|The date of the comment.|  
     |**Comment**|The comment about the customer. You can enter a maximum of 80 alphanumeric characters.|  

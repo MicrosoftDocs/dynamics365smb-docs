@@ -33,13 +33,13 @@ To create electronic VAT and ICP declarations, you must first set up the declara
   
 3.  In the **Elec. Tax Declaration Card** window, on the **General** FastTab, fill in the required fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> -->|  
     |---------------------------------|---------------------------------------|  
     |**Declaration Type**|Select the type of electronic declaration you want to create. The options include **VAT Declaration** and **ICP Declaration**.|  
     |**No.**|The number for the electronic declaration.|  
     |**Declaration Period**|The period for which you want to create the electronic declaration.<br /><br /> For ICP declarations, the period is only for a quarter.|  
     |**Declaration Year**|The year for which you want to create the electronic declaration.|  
-    |**Message ID**|Displays the ID of the response message received from the tax authority.<br /><br /> [!INCLUDE[bp_fieldnoneditable](../../Finance/includes/bp_fieldnoneditable_md.md)]<br /><br /> You must refer to this ID when you contact the tax authorities for any questions regarding your electronic declaration.|  
+    |**Message ID**|Displays the ID of the response message received from the tax authority.<br /><br /> FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_fieldnoneditable](../../Finance/includes/bp_fieldnoneditable_md.md)] --> --> --> --> --><br /><br /> You must refer to this ID when you contact the tax authorities for any questions regarding your electronic declaration.|  
     |**Status**|The status of the electronic declaration. For more information, see Status Field.<br /><br /> [!INCLUDE[bp_fieldnoneditable](../../Finance/includes/bp_fieldnoneditable_md.md)]|  
     |**Our Reference**|The unique identification for the electronic declaration that is to be included in the electronic declaration file. This field must be exactly 11 characters, must start with OB\-, and can only contain numbers, letters, and dashes.<br /><br /> You cannot change this field after you have created the electronic declaration.|  
     |**Date Created**|The date on which the electronic declaration was created.<br /><br /> [!INCLUDE[bp_fieldnoneditable](../../Finance/includes/bp_fieldnoneditable_md.md)]|  

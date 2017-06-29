@@ -56,7 +56,7 @@ You can create routing links to connect components to specific operations in ord
   
      Make sure the routing status is **Under Development**.  
   
-3.  On the relevant routing line, in the **Routing Link Code** field, select a code. [!INCLUDE[bp_choose_columns](../DesignAndEngineering/includes/bp_choose_columns_md.md)] For information about how to create routing link codes, see [How to: Set Up Routing Link Codes](../DesignAndEngineering/how-to-set-up-routing-link-codes.md).  
+3.  On the relevant routing line, in the **Routing Link Code** field, select a code. FIX INCLUDE HERE<!--[!INCLUDE[bp_choose_columns](../DesignAndEngineering/includes/bp_choose_columns_md.md)] --> For information about how to create routing link codes, see [How to: Set Up Routing Link Codes](../DesignAndEngineering/how-to-set-up-routing-link-codes.md).  
   
 4.  Proceed to add different routing link codes to other operations in the routing, if relevant.  
   

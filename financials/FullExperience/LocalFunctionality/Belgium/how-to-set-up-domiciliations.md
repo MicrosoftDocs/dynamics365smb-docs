@@ -29,7 +29,7 @@ Before you can use electronic banking for domiciliations, you must enter the cus
   
 3.  On the **Payments** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
     |---------------------------------|---------------------------------------|  
     |**Domiciliation**|Enter the domiciliation number for the customer. This number will be used when you create domiciliations for this customer.|  
     |**Preferred Bank Account**|Enter the preferred bank account for transactions with this customer. This account will be used when you create a payment suggestion for this customer.|  

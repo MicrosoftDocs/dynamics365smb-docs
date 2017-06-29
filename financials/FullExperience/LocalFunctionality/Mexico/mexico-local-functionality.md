@@ -17,7 +17,7 @@ translation.priority.ht:
   - "es-mx"
 ---
 # Mexico Local Functionality
-The following topics describe the local functionality in the Mexican version of [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)].  
+The following topics describe the local functionality in the Mexican version of FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->.  
   
 ## In This Section  
  [What's New\-duplicate 8](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Mexico/what-s-new-duplicate-8.md)  

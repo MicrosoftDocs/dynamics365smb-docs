@@ -45,7 +45,7 @@ translation.priority.ht:
 # How to: View Item Availability
 The follow table shows the various ways you can view an item’s availability.  
   
-|Organized by|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+|Organized by|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)] --> --> -->|  
 |------------------|---------------------------------------|  
 |Event|To view summarized or detailed availability figures on dates when supply or demand events change the item’s actual, projected, forecasted, or suggested inventory. **Note:**  You can choose **Calculate** to include any availability changes that occurred since you last opened or calculated the window.|  
 |Period|To view actual and projected availability figures in a calendar format that you can filter by different periods.|  
@@ -97,7 +97,7 @@ The follow table shows the various ways you can view an item’s availability.
   
 5.  In the **View as** field, select one of the following options for how you want availability figures to be displayed.  
   
-    |[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)]|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)] --> -->|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |----------------------------------|---------------------------------------|  
     |**Net Change**|Displays the net change in availability in the selected time interval.|  
     |**Balance at Date**|Displays the availability on the last day of the selected time interval.|  

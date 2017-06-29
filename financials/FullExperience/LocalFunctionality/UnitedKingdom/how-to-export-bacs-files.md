@@ -13,7 +13,7 @@ translation.priority.ht:
   - "en-gb"
 ---
 # How to: Export BACS Files
-The following procedure describes how to export a BACS file, one of the payment options supported by [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)].  
+The following procedure describes how to export a BACS file, one of the payment options supported by FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->.  
   
 ### To export a BACS file  
   

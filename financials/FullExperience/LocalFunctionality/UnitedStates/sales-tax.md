@@ -15,7 +15,7 @@ ms.author: "edupont"
 manager: "terryaus"
 ---
 # Sales Tax
-You can set up [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] to calculate sales tax. Companies collect and remit sales tax to government authorities for products that are sold to end users. Sales tax can be charged based on tax jurisdiction or charged to existing sales tax. You can also track unrealized sales tax in the general ledger.  
+You can set up FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> --> to calculate sales tax. Companies collect and remit sales tax to government authorities for products that are sold to end users. Sales tax can be charged based on tax jurisdiction or charged to existing sales tax. You can also track unrealized sales tax in the general ledger.  
   
 |To|See|  
 |--------|---------|  

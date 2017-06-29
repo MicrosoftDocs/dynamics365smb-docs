@@ -46,7 +46,7 @@ You must specify the supply type on tax invoices. To do this, you must update th
   
 3.  Fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
     |---------------------------------|---------------------------------------|  
     |**Code**|Specify the code for the supply type. You can enter a maximum of 10 alphanumeric characters.|  
     |**Description**|Specify the name of the supply type. You can enter a maximum of 30 alphanumeric characters.|  

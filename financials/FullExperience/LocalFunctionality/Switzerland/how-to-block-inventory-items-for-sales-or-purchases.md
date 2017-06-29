@@ -17,7 +17,7 @@ translation.priority.ht:
   - "fr-ch"
 ---
 # How to: Block Inventory Items for Sales or Purchases
-In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], an item can be marked as blocked for sales, blocked for purchase, or blocked for all purposes.  
+In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->, an item can be marked as blocked for sales, blocked for purchase, or blocked for all purposes.  
   
  The following table illustrates what occurs when items are blocked.  
   

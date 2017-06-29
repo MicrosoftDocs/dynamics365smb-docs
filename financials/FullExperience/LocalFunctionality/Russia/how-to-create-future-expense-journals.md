@@ -37,7 +37,7 @@ Future expense journals are used to post expenses to a special account on a mont
   
 7.  In the **Future Expense Journal** window, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
     |---------------------------------|---------------------------------------|  
     |**FA Posting Date**|Specifies the fixed asset posting date that is associated with the future expense journal.|  
     |**Document No.**|Specifies the document number that is associated with the future expense journal.|  

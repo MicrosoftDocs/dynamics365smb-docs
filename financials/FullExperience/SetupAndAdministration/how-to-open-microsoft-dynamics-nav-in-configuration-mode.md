@@ -40,7 +40,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Open Microsoft Dynamics NAV in Configuration Mode
-To configure a profile, for example to customize the profile’s user interface, you must open the [!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)] in configuration mode.  
+To configure a profile, for example to customize the profile’s user interface, you must open the FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)] --> --> --> --> in configuration mode.  
   
 ### To open the [!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)] in configuration mode  
   

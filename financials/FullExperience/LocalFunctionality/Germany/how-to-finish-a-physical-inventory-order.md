@@ -24,7 +24,7 @@ After you have entered all data for the physical inventory order, you can finish
   
 -   In all physical inventory order lines, the quantity expected has been calculated.  
   
-     [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] shows this by setting a check mark in the field Qty. Exp. Calculated of the physical inventory order line.  
+     FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> shows this by setting a check mark in the field Qty. Exp. Calculated of the physical inventory order line.  
   
 -   Every physical inventory order line has been counted by at least one inventory recording line.  
   

@@ -16,12 +16,12 @@ translation.priority.ht:
   - "ru-ru"
 ---
 # Russia Local Functionality
-In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], there are Russian specific features that you can use to track and manage your business. For example, you can use the local functionality features in [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] to calculate VAT due based on Russian VAT rates and regulations.  
+In FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> -->, there are Russian specific features that you can use to track and manage your business. For example, you can use the local functionality features in [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] to calculate VAT due based on Russian VAT rates and regulations.  
   
 ## Getting Started with Russia Local Functionality  
  Use the following table to learn more about local functionality that is available for Russia.  
   
-|Topic|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+|Topic|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
 |-----------|---------------------------------------|  
 |[Account Schedules Overview](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/account-schedules-overview.md)|Enables you to define information for statutory reports by creating user\-defined rows and columns.|  
 |[Bank and Cash Management](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/bank-and-cash-management.md)|Enables you to manage petty cash and amount differences.|  

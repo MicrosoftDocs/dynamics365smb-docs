@@ -42,14 +42,14 @@ translation.priority.ht:
 Before you can create VAT reports, you must specify which processes must be used to print or export the reports.  
   
 > [!IMPORTANT]  
->  In order to configure these processes, you must be familiar with C\/AL development and understand how codeunits work in [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]. If you are not familiar with codeunits, you must consult with your [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] certified partner.  
+>  In order to configure these processes, you must be familiar with C\/AL development and understand how codeunits work in FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> --> --> --> --> --> -->. If you are not familiar with codeunits, you must consult with your [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] certified partner.  
   
 ## VAT Report Configuration Codeunits  
  The VAT report configuration in [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] takes place in codeunits. At the center of the configuration is codeunit ID 740 that works as a mediator that can be called from different objects and pass data around without these objects knowing of each other.  
   
  In codeunit ID 740, you can specify which codeunits must run when users want to print or export a VAT report. By following a mediation design pattern, the **VAT Report** window calls codeunit ID 740, and [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] then reads how to print or export. You can add additional functions in this codeunit, but the following table describes the preconfigured functions. For each function, you can specify one or more codeunits or reports to handle actual process.  
   
-|Function|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+|Function|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)] --> -->|  
 |--------------|---------------------------------------|  
 |**GetLines**|Specifies which process to run when a user wants to import VAT entries into the **VAT Report** window.|  
 |**Export**|Specifies which process to run when a user wants to export a VAT report from the **VAT Report** window in order to submit it to the tax authorities.|  
@@ -63,7 +63,7 @@ Before you can create VAT reports, you must specify which processes must be used
   
 #### To configure VAT reports  
   
-1.  In the [!INCLUDE[nav_dev_long](../BusinessFunctionality/DataExchange/includes/nav_dev_long_md.md)], open **Object Designer**.  
+1.  In the FIX INCLUDE HERE<!--[!INCLUDE[nav_dev_long](../BusinessFunctionality/DataExchange/includes/nav_dev_long_md.md)] -->, open **Object Designer**.  
   
 2.  Open codeunit 740 in design mode.  
   

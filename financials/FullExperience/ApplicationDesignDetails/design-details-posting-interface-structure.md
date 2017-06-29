@@ -40,7 +40,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Design Details: Posting Interface Structure
-In the [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] posting interface structure, there are several global procedures that use the same structure:  
+In the FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> posting interface structure, there are several global procedures that use the same structure:  
   
 -   RunWithCheck and RunWithoutCheck call procedure Code – generic posting interface for Gen. Jnl Line.  
   

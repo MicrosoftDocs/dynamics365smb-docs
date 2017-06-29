@@ -25,7 +25,7 @@ You must submit a periodic report of trade with other EU countries\/regions to t
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> -->|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_10710\_N\_2\_1100011 Fiscal Year $\)**|Specify the year of the reporting period.|  
     |**\($ B\_10710\_N\_2\_1100013 Period $\)**|Select the period that the report covers. This can be a year, a month, or a quarter.|  

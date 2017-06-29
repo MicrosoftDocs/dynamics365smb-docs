@@ -16,7 +16,7 @@ translation.priority.ht:
   - "it-it"
 ---
 # How to: Set Up Initial Item Costs
-When you set up [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you must enter information about item costs that occurred before you began using [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] in your organization.  
+When you set up FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> -->, you must enter information about item costs that occurred before you began using [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] in your organization.  
   
  In the **Before Start Item Cost** window, you can enter information about inventory items, such as component costs, routing costs, and overhead costs.  
   

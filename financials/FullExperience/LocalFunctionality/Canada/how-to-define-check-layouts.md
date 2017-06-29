@@ -19,7 +19,7 @@ translation.priority.ht:
   - "fr-ca"
 ---
 # How to: Define Check Layouts
-In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can design your checks to conform with the standards set by the local authorities. Check images can be printed in English, French, or Spanish.  
+In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->, you can design your checks to conform with the standards set by the local authorities. Check images can be printed in English, French, or Spanish.  
   
  Checks are designed to print in both the United States and Canadian check image formats in either a check\-stub\-check format or a stub\-stub\-check format.  
   
@@ -31,7 +31,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can de
   
 3.  Use the following table to determine the ID of the report that you want to use to print checks.  
   
-    |Report ID|Report name|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |Report ID|Report name|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
     |---------------|-----------------|---------------------------------------|  
     |1401|Check|This is the default report.|  
     |10401|Check \(Stub\/Stub\/Check\)|This report is designed to print checks in a stub\/stub\/check format.|  

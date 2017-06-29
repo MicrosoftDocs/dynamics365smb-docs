@@ -37,7 +37,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Delete Documents
-This section provides an overview of how to delete documents in [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)].  
+This section provides an overview of how to delete documents in FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] -->.  
   
 ## See Also  
  [How to: Delete Invoiced Blanket Purchase Orders](../SetupAndAdministration/how-to-delete-invoiced-blanket-purchase-orders.md)   

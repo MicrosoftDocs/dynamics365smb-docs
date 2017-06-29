@@ -58,7 +58,7 @@ If you purchase the same item from more than one vendor, you must enter informat
   
 5.  Optionally, fill in the remaining fields.  
   
-     [!INCLUDE[bp_fieldhelp]()]  
+     FIX INCLUDE HERE<!--[!INCLUDE[bp_fieldhelp]()] -->  
   
 6.  If you want to set up multiple vendors of the item, repeat these steps for each vendor.  
   

@@ -49,7 +49,7 @@ To instruct the bank to transfer the payment amount from the customer’s bank a
   
 3.  In the **Create Direct Debit Collection** window, fill in the fields as described in the following table.  
   
-    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
+    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**From Due Date**|Specify the earliest payment due date on sales invoices that you want to create a direct\-debit collection for.|  
     |**To Due Date**|Specify the latest payment due date on sales invoices that you want to create a direct\-debit collection for.|  

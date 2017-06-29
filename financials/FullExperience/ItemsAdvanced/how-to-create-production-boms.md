@@ -53,7 +53,7 @@ A production BOM holds master data that describes the components and subassembli
     > [!NOTE]  
     >  This scrap percentage represents components that are scrapped during production when picking from inventory, whereas the scrap percentage on routing lines represents scrapped output before putting on inventory.  
   
-5.  In the **Routing Link Code** field, enter a code to connect the component to a specific operation. FIX INCLUDE HERE<!--[!INCLUDE[bp_choose_columns](../DesignAndEngineering/includes/bp_choose_columns_md.md)] -->  
+5.  In the **Routing Link Code** field, enter a code to connect the component to a specific operation. [!INCLUDE[bp_choose_columns](../DesignAndEngineering/includes/bp_choose_columns_md.md)]  
   
      Routing links between operations and components ensure that material consumption is not posted until it has actually been consumed. In addition, routing links provide a process view in the **Production Journal** window where components are listed under the linked operation. For more information, see [How to: Create Routing Links](../DesignAndEngineering/how-to-create-routing-links.md).  
   

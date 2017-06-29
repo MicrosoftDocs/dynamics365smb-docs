@@ -38,7 +38,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Logging and Tracking Email Interactions
-Email logging in FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> --> --> --> --> --> --> is a service that allows email integration between Microsoft Exchange Server and [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]. This lets the user maintain information about current email messages in both systems. It also lets the user, a salesperson or a purchaser, share and publish information that has been communicated to [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] contacts.  
+Email logging in [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] is a service that allows email integration between Microsoft Exchange Server and [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]. This lets the user maintain information about current email messages in both systems. It also lets the user, a salesperson or a purchaser, share and publish information that has been communicated to [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] contacts.  
   
 ## How It Works  
  Email logging is designed to capture interactions between senders and recipients on the **To:** line of email messages. It captures the interactions that have been successfully concluded; interactions that are in a postponed state are not tracked.  

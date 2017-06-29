@@ -19,7 +19,7 @@ translation.priority.ht:
 # CODA Bank Statements
 The Coded Statement of Account \(CODA\) is a national banking standard, designed by the Belgian Banker's Association, which allows you to automatically process electronic bank statements.  
   
- Each type of transaction in a CODA statement is assigned a unique code. FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> --> --> uses this code to interpret transactions and apply them to the corresponding ledger entries.  
+ Each type of transaction in a CODA statement is assigned a unique code. [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] uses this code to interpret transactions and apply them to the corresponding ledger entries.  
   
 ## Applying Statement Lines  
  When you have imported a CODA statement, you can apply the statement lines to existing ledger entries, based on the information in the **Transaction Coding** table.  

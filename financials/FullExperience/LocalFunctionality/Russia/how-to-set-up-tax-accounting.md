@@ -16,7 +16,7 @@ translation.priority.ht:
   - "ru-ru"
 ---
 # How to: Set Up Tax Accounting
-Tax accounting lets you apply rules for recognizing income and expenses that follow your local tax laws. You can activate tax accounting features in FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> --> by setting up tax registers.  
+Tax accounting lets you apply rules for recognizing income and expenses that follow your local tax laws. You can activate tax accounting features in [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] by setting up tax registers.  
   
 ### To activate tax accounting  
   
@@ -24,7 +24,7 @@ Tax accounting lets you apply rules for recognizing income and expenses that fol
   
 2.  On the **General** FastTab, select codes for the following dimensions.  
   
-    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> -->|  
+    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**Condition Dimension Code**|Select a dimension code that describes the condition of the tax register.|  
     |**Kind Dimension Code**|Select a dimension code that describes the type of tax register.|  

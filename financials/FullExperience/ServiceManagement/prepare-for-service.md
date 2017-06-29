@@ -39,7 +39,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Prepare for Service
-FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> makes it easy to post service orders at any point in your work application's workflow. You can set up your system so that a service technician can post a service order after all information has been filled in. However, it is more typical to permit a service technician to only post shipments. If it better suits your workflow, you can specify that posting occur at any point during the provision of service.  
+[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] makes it easy to post service orders at any point in your work application's workflow. You can set up your system so that a service technician can post a service order after all information has been filled in. However, it is more typical to permit a service technician to only post shipments. If it better suits your workflow, you can specify that posting occur at any point during the provision of service.  
   
  There is also a built\-in Undo function, in case you want to undo a posting.  
   

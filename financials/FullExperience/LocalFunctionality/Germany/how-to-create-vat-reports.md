@@ -21,7 +21,7 @@ You can configure different types of VAT reports based on requirements. Then, wh
   
 2.  Fill in the fields in the **General** FastTab, including the fields that are described in the following table.  
   
-    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> -->|  
+    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**No.**|Specify the report number.<br /><br /> Depending on the type of report, and the configuration in your company, you can use the automatically generated number, select a different number series, or enter a different number manually.|  
     |**VAT Report Type**|Select the appropriate VAT Report type. The default setting is  **Standard**. If the report is an update to an existing report, choose **Corrective**.|  
@@ -57,7 +57,7 @@ You can configure different types of VAT reports based on requirements. Then, wh
   
 2.  Confirm that you want to release the report.  
   
-     FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> validates that the VAT report is set up correctly. If the validation fails, the errors are shown in the **VAT Report Error Log** window so that you can make the appropriate changes. For example, an error displays if you try to release a standard VAT report but you have not yet added any lines to the report.  
+     [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] validates that the VAT report is set up correctly. If the validation fails, the errors are shown in the **VAT Report Error Log** window so that you can make the appropriate changes. For example, an error displays if you try to release a standard VAT report but you have not yet added any lines to the report.  
   
      When you mark a VAT report as released, it becomes non\-editable. If you must change the report after marking it as released, you must first reopen it.  
   

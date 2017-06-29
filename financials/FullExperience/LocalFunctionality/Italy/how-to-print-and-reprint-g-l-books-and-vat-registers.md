@@ -20,7 +20,7 @@ translation.priority.ht:
   - "it-it"
 ---
 # How to: Print and Reprint G-L Books and VAT Registers
-The tax authorities require that you submit two fiscal reports that list all of the posted ledger entries, the **G\/L Book \- Print** report and the **VAT Register \- Print** report. Each printed page must have its own progressive number, and therefore, you must update FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> --> --> with the last printed page number before you run these reports again.  
+The tax authorities require that you submit two fiscal reports that list all of the posted ledger entries, the **G\/L Book \- Print** report and the **VAT Register \- Print** report. Each printed page must have its own progressive number, and therefore, you must update [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] with the last printed page number before you run these reports again.  
   
  The following procedure describes how to print or reprint the **G\/L Book \- Print** report, but the same steps apply to printing or reprinting the **VAT Register \- Print** report.  
   
@@ -30,7 +30,7 @@ The tax authorities require that you submit two fiscal reports that list all of 
   
 2.  Fill in the fields as described in the following table.  
   
-    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
+    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_12121\_N\_2\_1130006 Report Type $\)**|Select the type of report to create.<br /><br /> If you select **Reprint**, the **\($ R\_12121\_N\_2\_1130000 From Progressive No. $\)** field becomes enabled.|  
     |**\($ R\_12121\_N\_2\_1130004 Starting Date $\)**|Enter the first date in the period from which posted entries will be shown.|  

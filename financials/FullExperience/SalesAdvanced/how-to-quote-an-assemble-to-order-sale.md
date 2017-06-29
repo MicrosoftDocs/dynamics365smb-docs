@@ -53,7 +53,7 @@ You can use assembly management to customize an assembly item to a customer’s 
   
 2.  Create a sales quote line with one line for an assembly item. For more information, see [How to: Make Offers](../Sales/how-to-make-offers.md).  
   
-3.  In the **Qty. to Assemble to Order** field, enter the full quantity. FIX INCLUDE HERE<!--[!INCLUDE[bp_choose_columns](../DesignAndEngineering/includes/bp_choose_columns_md.md)] -->  
+3.  In the **Qty. to Assemble to Order** field, enter the full quantity. [!INCLUDE[bp_choose_columns](../DesignAndEngineering/includes/bp_choose_columns_md.md)]  
   
     > [!NOTE]  
     >  You should not quote a partial quantity. Therefore, you must enter the same quantity that you entered in the **Quantity** field on the sales quote line.  

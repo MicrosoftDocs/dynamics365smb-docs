@@ -18,7 +18,7 @@ translation.priority.ht:
   - "de-de"
 ---
 # How to: Declare VAT-VIES Tax
-FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> includes the VAT\-VIES declaration report, which you can use to submit information about sales transactions with other European Union \(EU\) countries\/regions to the customs and tax authorities' list system. The report displays information in the same format that is used in the customs and tax authorities' declaration list.  
+[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] includes the VAT\-VIES declaration report, which you can use to submit information about sales transactions with other European Union \(EU\) countries\/regions to the customs and tax authorities' list system. The report displays information in the same format that is used in the customs and tax authorities' declaration list.  
   
  Depending on the volume of sales of goods or services to other EU countries\/regions, you must submit monthly, bi\-monthly, or quarterly declarations. If your company has sales of more than 100,000 euros per quarter, you must submit a monthly declaration. If your company has sales of less than 100,000 euros per quarter, you must submit a quarterly declaration. For more information, see the [BZSt website](http://go.microsoft.com/fwlink/?LinkId=204368).  
   
@@ -30,7 +30,7 @@ FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md
   
 2.  In the **\($ R\_11007 VAT\-Vies Declaration Tax – DE $\)** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
+    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_11007\_N\_2\_1140000 Reporting Period $\)**|Select the time period that the report applies to. This can be a month, a two\-month period, a quarter, or the calendar year.|  
     |**\($ R\_11007\_N\_2\_1140002 Date of Signature $\)**|Enter the date on which the VAT\-VIES declaration is sent.|  

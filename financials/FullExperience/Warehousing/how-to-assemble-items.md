@@ -74,7 +74,7 @@ If the **Replenishment System** field on the item card contains **Assembly**, th
 5.  In the **Quantity** field, enter how many units of the item that you want assembled.  
   
     > [!NOTE]  
-    >  If one or more components are not available to fulfill the entered assembly item quantity on the defined due date, then the **Assembly Availability** window automatically opens to provide detailed information about how many assembly items can be assembled based on component availability. For more information about this window, see Assembly Availability. FIX INCLUDE HERE<!--[!INCLUDE[bp_windownoneditable](../LocalFunctionalityForMicrosoftDynamicsNav2016/includes/bp_windownoneditable_md.md)] --> When you close the window, the assembly order is created with availability alerts on the affected component lines.  
+    >  If one or more components are not available to fulfill the entered assembly item quantity on the defined due date, then the **Assembly Availability** window automatically opens to provide detailed information about how many assembly items can be assembled based on component availability. For more information about this window, see Assembly Availability. [!INCLUDE[bp_windownoneditable](../LocalFunctionalityForMicrosoftDynamicsNav2016/includes/bp_windownoneditable_md.md)] When you close the window, the assembly order is created with availability alerts on the affected component lines.  
   
      The assembly order lines are automatically filled with the contents of the assembly BOM and with line quantities according to the assembly order header.  
   

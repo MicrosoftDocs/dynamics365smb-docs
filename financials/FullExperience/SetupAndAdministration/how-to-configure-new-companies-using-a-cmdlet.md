@@ -36,7 +36,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Configure New Companies using a Cmdlet
-In a number of scenarios, you may want to load and import a configuration package without involving your users or using the FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[rim](../Roles/includes/rim_md.md)] --> --> user interface. You can do so by using a FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> --> Windows PowerShell cmdlet. Scenarios where this may be useful include:  
+In a number of scenarios, you may want to load and import a configuration package without involving your users or using the [!INCLUDE[rim](../Roles/includes/rim_md.md)] user interface. You can do so by using a [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] Windows PowerShell cmdlet. Scenarios where this may be useful include:  
   
 -   Performing data import across multiple [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] installations without opening each of installation manually.  
   
@@ -48,7 +48,7 @@ In a number of scenarios, you may want to load and import a configuration packag
   
 2.  Place the package on a computer where you will run the cmdlet.  
   
-3.  Open the FIX INCLUDE HERE<!--[!INCLUDE[nav_shell](../SetupAndAdministration/includes/nav_shell_md.md)] -->.  
+3.  Open the [!INCLUDE[nav_shell](../SetupAndAdministration/includes/nav_shell_md.md)].  
   
 4.  Enter **Invoke\-NAVCodeUnit**, and specify information similar to the following example.  
   

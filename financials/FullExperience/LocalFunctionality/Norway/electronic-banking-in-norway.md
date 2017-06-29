@@ -15,7 +15,7 @@ translation.priority.ht:
   - "nb-no"
 ---
 # Electronic Banking in Norway
-FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> includes Norwegian enhancements to electronic banking. You can use this functionality to perform the following operations:  
+[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] includes Norwegian enhancements to electronic banking. You can use this functionality to perform the following operations:  
   
 -   Receive electronic payments based on an optical character recognition \(OCR\) payment ID.  
   

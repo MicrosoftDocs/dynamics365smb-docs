@@ -17,7 +17,7 @@ translation.priority.ht:
   - "fr-ch"
 ---
 # Swiss Purchase Documents and Sales Documents
-FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> includes Swiss enhancements to purchase documents and sales documents. This includes the following:  
+[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] includes Swiss enhancements to purchase documents and sales documents. This includes the following:  
   
 -   Enhanced posting descriptions for general ledger entries, customer ledger entries, and vendor ledger entries. For more information, see the G\/L Entry table, the Cust. Ledger Entry table, and the Vendor Ledger Entry table.  
   

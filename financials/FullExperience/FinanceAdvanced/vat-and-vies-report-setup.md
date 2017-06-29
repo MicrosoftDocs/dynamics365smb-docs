@@ -40,7 +40,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # VAT and VIES Report Setup
-Depending on the requirements of your country\/region, you must submit periodic VAT reports. In FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> --> --> -->, you can define statutory reports such as periodic VAT reports and VIES declarations.  
+Depending on the requirements of your country\/region, you must submit periodic VAT reports. In [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)], you can define statutory reports such as periodic VAT reports and VIES declarations.  
   
 ## VAT and VIES Reports  
  In addition to the periodic VAT statements that you submit to settle VAT, the tax authorities can require that you submit periodic reports of transactions that include VAT. If you are a resident of a country\/region in the EU, you must also submit a VIES declaration for trade with other EU countries\/regions. In most cases, the required report must have general information about the company name and the reporting period, and it must have lines or groups of lines that describe the VAT\-related transactions. In [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)], in the **VAT Report** window, you can define these reports much like you create documents such as orders, invoices, and credit memos. You can fill in the lines based on VAT entries, and then export the VAT report to the appropriate authorities. Depending on your country\/region and the type of VAT report that you have set up, the report can be exported in different formats.  

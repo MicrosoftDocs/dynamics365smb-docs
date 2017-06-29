@@ -24,7 +24,7 @@ You can print the **\($ R\_15000100 OCR Journal – Test $\)** report to test th
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
+    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_15000100\_F\_1\_1080113 Show only Lines with OCR Errors $\)**|Select to print only the journal lines that contain a warning in the test report.|  
     |**\($ R\_15000100\_F\_1\_1 Show Dimensions $\)**|Select to print dimension information on the test report.|  

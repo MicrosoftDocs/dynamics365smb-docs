@@ -16,7 +16,7 @@ translation.priority.ht:
   - "ru-ru"
 ---
 # How to: Register VAT on Purchase Orders
-In Russia, organizations are required to keep a journal of received and issued VAT invoices. FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> enables you to register VAT on purchase orders so that the information is tracked in the VAT invoices journal.  
+In Russia, organizations are required to keep a journal of received and issued VAT invoices. [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] enables you to register VAT on purchase orders so that the information is tracked in the VAT invoices journal.  
   
 ### To register VAT on a purchase order  
   
@@ -24,7 +24,7 @@ In Russia, organizations are required to keep a journal of received and issued V
   
 2.  On the **Shipping** FastTab, fill in the fields as described in the following table.  
   
-    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> -->|  
+    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**Vendor Receipts No.**|Enter the identification number from the vendor receipt.|  
     |**Vendor Receipts Date**|Enter the date from the vendor receipt.|  

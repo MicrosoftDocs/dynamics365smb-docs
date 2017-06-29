@@ -43,7 +43,7 @@ Users may experience slow mobile client responses especially noticeable when the
  The IIS administrator must make sure that dynamic compression is enabled on the IIS. For more information, see [Enable HTTP Compression of Dynamic Content](http://go.microsoft.com/fwlink/?LinkId=392634)  
   
 > [!NOTE]  
->  Dynamic compression is enabled by the FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> installer when you install FIX INCLUDE HERE<!--[!INCLUDE[nav_web_server](../TroubleshootingUsingMicrosoftDynamicsNav/includes/nav_web_server_md.md)] -->.  
+>  Dynamic compression is enabled by the [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] installer when you install [!INCLUDE[nav_web_server](../TroubleshootingUsingMicrosoftDynamicsNav/includes/nav_web_server_md.md)].  
   
 ## See Also  
  [Troubleshooting Using Microsoft Dynamics NAV](../TroubleshootingUsingMicrosoftDynamicsNav/troubleshooting-using-microsoft-dynamics-nav.md)   

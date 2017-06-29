@@ -16,7 +16,7 @@ translation.priority.ht:
   - "nb-no"
 ---
 # Norwegian VAT Reporting
-FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> includes Norwegian enhancements that allow you to calculate and report VAT to the Norwegian tax authorities.  
+[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] includes Norwegian enhancements that allow you to calculate and report VAT to the Norwegian tax authorities.  
   
  This topic shows the typical steps that you should follow when reporting Norwegian VAT.  
   

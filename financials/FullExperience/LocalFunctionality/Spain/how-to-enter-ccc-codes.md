@@ -26,7 +26,7 @@ Código Cuenta Cliente \(CCC\) is a unique bank account identification code. The
   
 2.  On the **Payments** FastTab, fill in the fields as described in the following table  
   
-    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] -->|Position|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
+    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|Position|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|--------------|---------------------------------------|  
     |**CCC Bank No.**|1\-4|Identifies the bank where the account has been opened.|  
     |**CCC Bank Branch No.**|5\-8|Identifies the branch code. If the bank does not use this reference, these can be zeros.|  

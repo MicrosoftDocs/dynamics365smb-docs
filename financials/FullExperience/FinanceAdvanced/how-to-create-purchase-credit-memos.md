@@ -41,7 +41,7 @@ translation.priority.ht:
 # How to: Create Purchase Credit Memos
 You usually receive purchase credit memos when you return items to a vendor, but you can also receive them as compensation, such as a purchase allowance. In addition, you can use a credit memo to correct an incorrect purchase invoice.  
   
- When you post the credit memo, FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> --> creates a posted credit memo. If you have selected the **Return Shipment on Credit Memo** field, posting the credit memo will also create a posted return shipment.  
+ When you post the credit memo, [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] creates a posted credit memo. If you have selected the **Return Shipment on Credit Memo** field, posting the credit memo will also create a posted return shipment.  
   
  From the credit memo, you can copy all types of purchase documents, quotes, orders, invoices, receipts, and return shipments.  
   

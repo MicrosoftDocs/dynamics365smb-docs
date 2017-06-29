@@ -20,7 +20,7 @@ translation.priority.ht:
   - "ru-ru"
 ---
 # How to: View and Print Account Turnover Information
-FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> enables you to view account turnover information in correspondence with other accounts.  
+[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] enables you to view account turnover information in correspondence with other accounts.  
   
 ### To view account turnover information  
   
@@ -28,7 +28,7 @@ FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md
   
 2.  On the **General** FastTab, enter the following information.  
   
-    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> -->|  
+    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**Date Filter**|Enter the date filter for which you want to view account information.|  
     |**Business Unit Filter**|Select the business unit filter for which you want to view account information.|  

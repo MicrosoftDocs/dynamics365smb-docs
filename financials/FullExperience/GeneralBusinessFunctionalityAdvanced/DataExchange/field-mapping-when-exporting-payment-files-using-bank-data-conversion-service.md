@@ -41,9 +41,9 @@ When you export payment files using the Bank Data Conversion Service feature, th
 > [!CAUTION]  
 >  When you export payment files by using the Bank Data Conversion Service feature, some of your business data will be exposed to the provider of the service. The service provider, AMC Consult A\/S, is responsible for the privacy of this data. For more information, see [AMC Privacy Policy](http://go.microsoft.com/fwlink/?LinkId=510158).  
   
- The following table lists the fields in FIX INCLUDE HERE<!--[!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)] --> from which data can be exported to the service provider.  
+ The following table lists the fields in [!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)] from which data can be exported to the service provider.  
   
-|Mapped Field|Field in Table|Table|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
+|Mapped Field|Field in Table|Table|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
 |------------------|--------------------|-----------|---------------------------------------|  
 |Creditor No.|Creditor No.|Bank Account|The identifier assigned to your company by your bank to collect payments|  
 |Sender Bank Account No.|Bank Account No.\/IBAN|Bank Account|Your company's bank account number \(IBAN or other\) that is specified on the bank account card|  

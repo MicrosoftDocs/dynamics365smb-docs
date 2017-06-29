@@ -41,7 +41,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Symbols and Icons on the Timeline FastTab
-|Symbol\/Icon|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)] --> --> -->|  
+|Symbol\/Icon|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
 |------------------|---------------------------------------|  
 |Black cross|Orders \(both supply and demand\).<br /><br /> -   Cannot be modified.<br />-   Visible when the **Show Projected Inventory** field is selected \(orange graph\).|  
 |Red circle|Existing supply orders that are not in planning suggestions.<br /><br /> -   Cannot be modified.<br />-   Visible when the **Show Projected Inventory** field is selected \(orange graph\).|  

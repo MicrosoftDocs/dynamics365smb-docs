@@ -14,4 +14,4 @@ translation.priority.ht:
   - "it-it"
 ---
 # Italy Local Functionality Tables, Reports, Batch Jobs, and Windows
-FIX INCLUDE HERE<!--[!INCLUDE[emptyBookNodeText](../../Finance/includes/emptybooknodetext_md.md)] -->
+[!INCLUDE[emptyBookNodeText](../../Finance/includes/emptybooknodetext_md.md)]

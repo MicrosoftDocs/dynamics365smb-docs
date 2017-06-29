@@ -16,7 +16,7 @@ translation.priority.ht:
   - "es-es"
 ---
 # How to: Export Electronic Payments
-In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->, you can export payment journal entries into a file format according to four different payment standards. You must use the following windows to export according to the different payment standards.  
+In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can export payment journal entries into a file format according to four different payment standards. You must use the following windows to export according to the different payment standards.  
   
 |Payment standard|Window to export from|  
 |----------------------|---------------------------|  
@@ -42,7 +42,7 @@ In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow
   
 4.  In the **\($ R\_7000060 PO \- Export N34.1 $\)** window, fill in the fields as described in the following table.  
   
-    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> --> -->|  
+    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_10721\_N\_2\_1100000 Bank Account No. $\)**|Select the bank account from which the payments will be exported.|  
     |**\($ R\_10721\_N\_2\_1100002 Settle Date $\)**|Specify the date that the export will be transmitted to the bank. This date will be the posting date for the payment journal entries that are exported.|  
@@ -93,7 +93,7 @@ In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow
     >  You can only post the payment order after you have successfully exported the electronic payments.  
   
     > [!NOTE]  
-    >  In the generic version of FIX INCLUDE HERE<!--[!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)] -->, the **Payment Journal** window is used in a similar way to export electronic payments in the SEPA Credit Transfer format. For more information, see [Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](../../Finance/make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
+    >  In the generic version of [!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)], the **Payment Journal** window is used in a similar way to export electronic payments in the SEPA Credit Transfer format. For more information, see [Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](../../Finance/make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
   
 ### To export electronic payments from the Cartera module  
   

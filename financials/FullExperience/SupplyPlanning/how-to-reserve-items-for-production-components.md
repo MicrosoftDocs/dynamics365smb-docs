@@ -58,7 +58,7 @@ You can reserve items for production orders. You have to distinguish between res
   
 6.  Choose **Actions**![Action Menu icon](../DesignAndEngineering/media/actionmenuicon.png "actionMenuIcon"), choose **Functions**, and then choose **Reserve**.  
   
-7.  In the **Reservation** window, select a line, and then FIX INCLUDE HERE<!--[!INCLUDE[bp_ribbonxml](../Token/bp_ribbonxml_md.md)] --> on the **Actions** tab, in the **Functions** group, choose **Reserve from Current Line**.  
+7.  In the **Reservation** window, select a line, and then [!INCLUDE[bp_ribbonxml](../Token/bp_ribbonxml_md.md)] on the **Actions** tab, in the **Functions** group, choose **Reserve from Current Line**.  
   
  The quantity you entered in the firm planned production component line is now reserved.  
   

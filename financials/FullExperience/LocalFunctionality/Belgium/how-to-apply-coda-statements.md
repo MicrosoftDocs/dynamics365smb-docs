@@ -34,10 +34,10 @@ After a CODA statement has been imported, the statement lines can be accessed fr
   
 4.  In the **CODA Statement Lines** FastTab, for each statement line, fill in the fields as described in the following table.  
   
-    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> -->|  
+    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**Account No.**|Enter the number of the general ledger account, bank, customer, vendor, or fixed asset, which the bank account statement line is linked to.|  
-    |**Description**|FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> automatically retrieves the description from the imported CODA file, but you can modify the contents of this field.|  
+    |**Description**|[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] automatically retrieves the description from the imported CODA file, but you can modify the contents of this field.|  
   
 5.  Choose the **OK** button.  
   

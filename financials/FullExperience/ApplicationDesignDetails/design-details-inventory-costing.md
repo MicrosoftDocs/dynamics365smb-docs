@@ -39,7 +39,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Design Details: Inventory Costing
-This documentation provides detailed technical insight to the concepts and principles that are used within the Inventory Costing features in FIX INCLUDE HERE<!--[!INCLUDE[nav_current_long](../ApplicationDesign/includes/nav_current_long_md.md)] -->.  
+This documentation provides detailed technical insight to the concepts and principles that are used within the Inventory Costing features in [!INCLUDE[nav_current_long](../ApplicationDesign/includes/nav_current_long_md.md)].  
   
  Inventory costing, also referred to as cost management, is concerned with recording and reporting business operating costs.  
   

@@ -40,7 +40,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Set Up Job Queues
-You can set up a job queue and specify the order in which designated reports, batch jobs, and codeunits are set up to run. The FIX INCLUDE HERE<!--[!INCLUDE[nav_server](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_server_md.md)] --> reads from the job queue and determines which job to run next. When you set up a job queue, you can specify on which computer and on which service the job queue is to run.  
+You can set up a job queue and specify the order in which designated reports, batch jobs, and codeunits are set up to run. The [!INCLUDE[nav_server](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_server_md.md)] reads from the job queue and determines which job to run next. When you set up a job queue, you can specify on which computer and on which service the job queue is to run.  
   
  You can also create a NAV server instance that is dedicated to your job queue. This is useful when a job will need specific permissions, when a job has a heavy usage of resources, or when you want to separate of job queues. To do so, you specify startup parameters for NAS services.  
   
@@ -64,7 +64,7 @@ You can set up a job queue and specify the order in which designated reports, ba
   
      To stop the job queue, on the **Home** tab, choose **Stop Job Queue**.  
   
- On the **NAS Settings** FastTab, you can set fields if you want to specify on which computer and which server instance the NAS that you want to run the job queue will be running. This can be important when you are fine tuning performance or when a server instance or computer is set up to handle specific FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> functionality. If you do not specify a server or computer, the job queue will run with the services that the client is running on.  
+ On the **NAS Settings** FastTab, you can set fields if you want to specify on which computer and which server instance the NAS that you want to run the job queue will be running. This can be important when you are fine tuning performance or when a server instance or computer is set up to handle specific [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] functionality. If you do not specify a server or computer, the job queue will run with the services that the client is running on.  
   
 ### To specify NAS settings  
   

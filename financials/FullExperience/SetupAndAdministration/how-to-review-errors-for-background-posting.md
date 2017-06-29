@@ -40,7 +40,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Review Errors for Background Posting
-Errors for background posting are easy to determine. FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> provides several options for you to access this information.  
+Errors for background posting are easy to determine. [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] provides several options for you to access this information.  
   
 ### To view an error from a sales or purchase document  
   

@@ -39,7 +39,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Design Details: Codeunit 408 Dimension Management
-Codeunit 408 Dimension Management is a function library that handles common tasks that are related to dimensions, such as copying from one table to another or from one document to another. This topic lists the functions that are modified in FIX INCLUDE HERE<!--[!INCLUDE[navsicily](../ApplicationDesign/includes/navsicily_md.md)] --> and specifies what has to be done to the functions. Many functions are deleted because there is no need for copying between dimension tables.  
+Codeunit 408 Dimension Management is a function library that handles common tasks that are related to dimensions, such as copying from one table to another or from one document to another. This topic lists the functions that are modified in [!INCLUDE[navsicily](../ApplicationDesign/includes/navsicily_md.md)] and specifies what has to be done to the functions. Many functions are deleted because there is no need for copying between dimension tables.  
   
 ## Modified Functions  
   
@@ -54,7 +54,7 @@ Codeunit 408 Dimension Management is a function library that handles common task
  Functions that are deleted from codeunit 408 in connection with the Dimension Set Entries feature are listed below.  
   
 > [!CAUTION]  
->  During the upgrade of application code from FIX INCLUDE HERE<!--[!INCLUDE[nav_2009_long](../ApplicationDesign/includes/nav_2009_long_md.md)] --> or earlier versions to FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnowlong](../ApplicationDesign/includes/navnowlong_md.md)] --> -->, the following functions are not available in [!INCLUDE[navnowlong](../ApplicationDesign/includes/navnowlong_md.md)]. If you have customizations that use one or more of the functions, you must upgrade that code accordingly. For more information, see [Upgrading the Application Code](../Topic/Upgrading%20the%20Application%20Code.md).  
+>  During the upgrade of application code from [!INCLUDE[nav_2009_long](../ApplicationDesign/includes/nav_2009_long_md.md)] or earlier versions to [!INCLUDE[navnowlong](../ApplicationDesign/includes/navnowlong_md.md)], the following functions are not available in [!INCLUDE[navnowlong](../ApplicationDesign/includes/navnowlong_md.md)]. If you have customizations that use one or more of the functions, you must upgrade that code accordingly. For more information, see [Upgrading the Application Code](../Topic/Upgrading%20the%20Application%20Code.md).  
   
  InsertJnlLineDim  
   

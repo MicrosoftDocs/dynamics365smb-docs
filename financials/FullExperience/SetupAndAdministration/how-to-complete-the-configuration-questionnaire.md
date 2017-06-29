@@ -40,14 +40,14 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Complete the Configuration Questionnaire
-You use the setup questionnaire to structure and document a detailed discussion about the customer’s specific needs. You also use it to collect setup data from the customer to configure the relevant FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> --> setup tables, such as the general ledger, inventory, and customers.  
+You use the setup questionnaire to structure and document a detailed discussion about the customer’s specific needs. You also use it to collect setup data from the customer to configure the relevant [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] setup tables, such as the general ledger, inventory, and customers.  
   
 > [!NOTE]  
 >  You can also create your own setup questionnaire to meet your needs.  
   
 ### To complete the setup questionnaire  
   
-1.  In the FIX INCLUDE HERE<!--[!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)] -->, select the company for which you want to complete the questionnaire. For more information, see [\($ S\_COMPANY How to: Select a Company $\)](../WorkingWithDynamics/-$-s_company-how-to-select-a-company-$-.md).  
+1.  In the [!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)], select the company for which you want to complete the questionnaire. For more information, see [\($ S\_COMPANY How to: Select a Company $\)](../WorkingWithDynamics/-$-s_company-how-to-select-a-company-$-.md).  
   
 2.  In the **Search** box, enter **Configuration Questionnaire**, and then choose the related link.  
   

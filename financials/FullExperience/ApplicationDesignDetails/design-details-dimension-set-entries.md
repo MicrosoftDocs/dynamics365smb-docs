@@ -39,7 +39,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Design Details: Dimension Set Entries
-This documentation provides detailed technical insight into the concepts and principles that are used to redesign the dimension entry storing and posting feature in FIX INCLUDE HERE<!--[!INCLUDE[navnowlong](../ApplicationDesign/includes/navnowlong_md.md)] -->. The documentation starts by describing conceptual overviews of the redesign. Then it explains the technical architecture to show how the redesign is made. Finally, it provides code examples to prepare you for dimension code migration and upgrade.  
+This documentation provides detailed technical insight into the concepts and principles that are used to redesign the dimension entry storing and posting feature in [!INCLUDE[navnowlong](../ApplicationDesign/includes/navnowlong_md.md)]. The documentation starts by describing conceptual overviews of the redesign. Then it explains the technical architecture to show how the redesign is made. Finally, it provides code examples to prepare you for dimension code migration and upgrade.  
   
 ## In This Section  
  [Dimension Set Entries Overview](../ApplicationDesign/dimension-set-entries-overview.md)  

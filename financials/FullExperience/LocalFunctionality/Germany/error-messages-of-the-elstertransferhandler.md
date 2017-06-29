@@ -18,14 +18,14 @@ translation.priority.ht:
   - "de-de"
 ---
 # Error Messages of the ElsterTransferHandler
-When FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> --> --> --> --> --> --> --> submits sales VAT advance notifications, errors can occur.  
+When [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] submits sales VAT advance notifications, errors can occur.  
   
  For example, if the configuration file for the Microsoft.Dynamics.ElsterTransferHandler.dll assembly does not contain the correct friendly name of the public certificate, the ELSTER portal returns error 3400, and [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] displays the corresponding error message.  
   
 ## Error Messages  
  The following table lists the error messages that the ELSTER portal sends to [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)].  
   
-|**Error number**|**FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->**|  
+|**Error number**|**[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]**|  
 |----------------------|-------------------------------------------|  
 |1000|ELSTER cannot identify the sender as [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]. The Microsoft.Dynamics.ElsterTransferHandler.dll assembly can only be used with Microsoft Dynamics products.|  
 |2000|No connection could be made to the OFD servers while transmitting data. This can be a problem with your network connection. Check your network configuration, or try again later.|  

@@ -16,12 +16,12 @@ translation.priority.ht:
   - "ru-ru"
 ---
 # Fixed Assets
-In Russia, there are specific FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> features that you can use to track and manage your fixed assets. You can use fixed assets functionality to manage depreciation and maintenance costs, track the movement of fixed assets, manage the sale or disposal of fixed assets, and generate various reports and statistics.  
+In Russia, there are specific [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] features that you can use to track and manage your fixed assets. You can use fixed assets functionality to manage depreciation and maintenance costs, track the movement of fixed assets, manage the sale or disposal of fixed assets, and generate various reports and statistics.  
   
 ## Getting Started with Fixed Assets  
  Use the following table to learn more about the fixed asset features that are available for Russia.  
   
-|Topic|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
+|Topic|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
 |-----------|---------------------------------------|  
 |[How to: Calculate Assessed Tax](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-calculate-assessed-tax.md)|Enables you to calculate the assessed tax for fixed assets.|  
 |[Depreciation Bonus](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/depreciation-bonus.md)|Enables you to include fixed asset and capital investment expenses in the current period.|  

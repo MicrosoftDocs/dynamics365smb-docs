@@ -27,7 +27,7 @@ After an invoice has been created you can allocate and post fixed asset charges.
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
+    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_14912\_F\_1\_1210000 Source Document Type $\)**|Specify the source document type. Types include **Invoice**, **Order**, and **Posted Invoice**.|  
     |**\($ R\_14912\_F\_1\_1210002 Source Document No. $\)**|Specify the source document number that is associated with the fixed asset charge.|  

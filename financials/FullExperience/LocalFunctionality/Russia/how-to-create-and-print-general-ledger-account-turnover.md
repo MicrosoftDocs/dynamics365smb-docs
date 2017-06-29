@@ -19,7 +19,7 @@ translation.priority.ht:
   - "ru-ru"
 ---
 # How to: Create and Print General Ledger Account Turnover
-FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> enables you to create general ledger account turnover information in the **G\/L Account Turnover** window.  
+[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] enables you to create general ledger account turnover information in the **G\/L Account Turnover** window.  
   
  You can then verify this information in the following reports:  
   
@@ -35,7 +35,7 @@ FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md
   
 2.  On the **General** FastTab, enter the following information.  
   
-    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> --> --> --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> --> --> --> -->|  
+    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**Date Filter**|Enter the date filter for which you want to view account information.|  
     |**Business Unit Filter**|Select the business unit filter for which you want to view account information.|  

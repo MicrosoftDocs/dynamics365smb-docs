@@ -36,13 +36,13 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Administration in the Clients
-After you create users and assign them to permission sets, add them to profiles, which will align them with Role Centers in FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> -->.  
+After you create users and assign them to permission sets, add them to profiles, which will align them with Role Centers in [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)].  
   
 -   [Profiles and Role Centers](../SetupAndAdministration/profiles-and-role-centers.md)  
   
 |**To**|**See**|  
 |------------|-------------|  
-|Perform a series of security and administration tasks that can only be done in the FIX INCLUDE HERE<!--[!INCLUDE[nav_dev_short](../LocalFunctionalityForMicrosoftDynamicsNav2016/includes/nav_dev_short_md.md)] --> or the FIX INCLUDE HERE<!--[!INCLUDE[nav_admin](../BusinessFunctionality/LoggingAndTrackingEmailInteractions/includes/nav_admin_md.md)] -->.|[Administration Outside of the Clients](../SetupAndAdministration/administration-outside-of-the-clients.md)|  
+|Perform a series of security and administration tasks that can only be done in the [!INCLUDE[nav_dev_short](../LocalFunctionalityForMicrosoftDynamicsNav2016/includes/nav_dev_short_md.md)] or the [!INCLUDE[nav_admin](../BusinessFunctionality/LoggingAndTrackingEmailInteractions/includes/nav_admin_md.md)].|[Administration Outside of the Clients](../SetupAndAdministration/administration-outside-of-the-clients.md)|  
 |Define in which date intervals users can post to the database, and which responsibility centers they belong to.|User Setup|  
 |Create and configure Profiles, and then assign users to Profiles.|[Manage Profiles](../SetupAndAdministration/manage-profiles.md)|  
 |Perform administrative tasks for the application, such as logs and managing documents using batch jobs.|[Administer the Application](../SetupAndAdministration/administer-the-application.md)|  

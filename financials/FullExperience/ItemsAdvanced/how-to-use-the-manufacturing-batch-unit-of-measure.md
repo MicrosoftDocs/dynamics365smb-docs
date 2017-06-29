@@ -28,7 +28,7 @@ If an item is stocked in one unit of measure but produced in another, a producti
 1.  The manufacturing batch unit of measure is set up as an alternative unit of measure in the **Item Units of Measure** window on the item to be produced. The batch unit of measure will not replace the base unit of measure on the item.  
   
     > [!NOTE]  
-    >  If it doesn't already exist, you may need to add the manufacturing batch unit of measure code to the **Units of Measure** window. FIX INCLUDE HERE<!--[!INCLUDE[bp_choose_columns](../DesignAndEngineering/includes/bp_choose_columns_md.md)] -->  
+    >  If it doesn't already exist, you may need to add the manufacturing batch unit of measure code to the **Units of Measure** window. [!INCLUDE[bp_choose_columns](../DesignAndEngineering/includes/bp_choose_columns_md.md)]  
   
 2.  Create a production BOM for the item set up with the manufacturing batch unit of measure. For more information, see [How to: Create Production BOMs](../DesignAndEngineering/how-to-create-production-boms.md).  
   

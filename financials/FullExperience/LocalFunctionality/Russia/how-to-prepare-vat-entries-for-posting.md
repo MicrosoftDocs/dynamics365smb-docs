@@ -24,7 +24,7 @@ You may want to periodically remit the net VAT from sales and purchase transacti
   
 2.  Select the filters that define the VAT related transactions that you want to include in the VAT settlement.  
   
-    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
+    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**Type**|Select the type of transactions that you want to include in the VAT settlement.|  
     |**View by**|Select the time period for the VAT settlement.|  

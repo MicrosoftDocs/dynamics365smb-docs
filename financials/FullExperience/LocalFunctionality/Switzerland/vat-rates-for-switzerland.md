@@ -16,7 +16,7 @@ translation.priority.ht:
   - "fr-ch"
 ---
 # VAT Rates for Switzerland
-If VAT rates change, you must use the VAT rate change tool. In earlier versions of FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> you could temporarily use both the old and the new VAT rates for transactions, depending on the shipping dates. This functionality has been deprecated.  
+If VAT rates change, you must use the VAT rate change tool. In earlier versions of [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] you could temporarily use both the old and the new VAT rates for transactions, depending on the shipping dates. This functionality has been deprecated.  
   
  For more information, see [Perform VAT Rate Conversions](../../Finance/perform-vat-rate-conversions.md).  
   

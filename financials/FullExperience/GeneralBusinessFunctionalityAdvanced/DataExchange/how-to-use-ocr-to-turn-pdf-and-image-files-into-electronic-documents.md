@@ -35,7 +35,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Use OCR to Turn PDF and Image Files into Electronic Documents
-From PDF or image files that you receive from your trading partners, you can have an external OCR service \(Optical Character Recognition\) generate electronic documents that can be converted to document records in FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)] --> --> --> -->. For example, when you receive an invoice in PDF format from your vendor, you can send it to the OCR service from the **Incoming Documents** window. This is described in the first procedure.  
+From PDF or image files that you receive from your trading partners, you can have an external OCR service \(Optical Character Recognition\) generate electronic documents that can be converted to document records in [!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)]. For example, when you receive an invoice in PDF format from your vendor, you can send it to the OCR service from the **Incoming Documents** window. This is described in the first procedure.  
   
  As an alternative to sending the file from the **Incoming Documents** window, you can send the file to the OCR service by email. Then, when you receive the electronic document back, a related incoming document record is created automatically. This is described in the second procedure.  
   

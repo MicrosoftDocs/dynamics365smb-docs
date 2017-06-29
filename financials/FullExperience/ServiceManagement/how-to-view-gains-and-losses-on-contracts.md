@@ -43,7 +43,7 @@ A contract gain or loss entry is generated whenever a contract quote is converte
   
  To view contract gains or losses, open one of the following windows.  
   
-|**Window**|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
+|**Window**|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
 |----------------|---------------------------------------|  
 |**Contract Gain\/Loss \(Contracts\)**|To view the contract gain\/loss by service contract.|  
 |**Contract Gain\/Loss \(Groups\)**|To view the contract gain\/loss by service contract group.|  

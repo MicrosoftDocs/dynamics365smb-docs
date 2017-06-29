@@ -27,7 +27,7 @@ Based on both sales and purchase transactions, telebanking enables you to genera
 ## Proposals  
  Based on vendor and customer ledger entries, telebanking enables you to generate payment and collection proposals. This can be done for any bank that has been set up for your company. Both domestic and foreign payments and collections are possible.  
   
- You can set up FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> --> --> to combine payments to or collections from the same bank account automatically.  
+ You can set up [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] to combine payments to or collections from the same bank account automatically.  
   
  When a proposal has been agreed upon, it should be processed into a payment history.  
   

@@ -30,7 +30,7 @@ All vendors must export the data required for auditing in a Content Separated Va
   
 2.  In the **VAT Audit** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> -->|  
+    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_10512\_N\_2\_2 Export Customers $\)**|Select to export the file to the **Customer** table.|  
     |**\($ B\_10512\_N\_2\_8 Export Open Payments $\)**|Select to export the open credit entries.|  

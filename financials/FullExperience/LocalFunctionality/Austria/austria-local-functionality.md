@@ -16,7 +16,7 @@ translation.priority.ht:
   - "de-at"
 ---
 # Austria Local Functionality
-The following topics describe the local functionality in the Austrian version of FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->.  
+The following topics describe the local functionality in the Austrian version of [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)].  
   
 ## In This Section  
  [What's New\-duplicate 18](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/what-s-new-duplicate-18.md)  

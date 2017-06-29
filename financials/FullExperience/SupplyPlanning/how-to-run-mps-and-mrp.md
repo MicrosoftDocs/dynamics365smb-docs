@@ -53,7 +53,7 @@ The terms "running the planning worksheet" or "running MRP" refer to the calcula
   
 -   *MRP* is the calculation of material requirements based on actual demand for components and the production forecast on the component level. MRP is calculated only for items that are not MPS items. The purpose of MRP is to provide time\-phased formal plans, by item, to supply the appropriate item, at the appropriate time, in the appropriate location, in the appropriate quantity.  
   
- The planning algorithms used for both MPS and MRP are identical. The planning algorithms pertain to netting, reuse of existing replenishment orders, and action messages. The planning system process examines what is needed or will be needed \(demand\) and what is on\-hand or expected \(supply\). When these quantities are netted against each other, FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> --> --> --> provides action messages. Action messages are suggestions to create a new order, change an order \(quantity or date\), or cancel an order already on order. The term "order" includes purchase orders, assembly order, production orders, and transfer orders.  
+ The planning algorithms used for both MPS and MRP are identical. The planning algorithms pertain to netting, reuse of existing replenishment orders, and action messages. The planning system process examines what is needed or will be needed \(demand\) and what is on\-hand or expected \(supply\). When these quantities are netted against each other, [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] provides action messages. Action messages are suggestions to create a new order, change an order \(quantity or date\), or cancel an order already on order. The term "order" includes purchase orders, assembly order, production orders, and transfer orders.  
   
  Proper planning results depend on the set up done on item cards, assembly BOMs, production BOMs, and routings.  
   
@@ -84,7 +84,7 @@ The terms "running the planning worksheet" or "running MRP" refer to the calcula
   
 3.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)] --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)] --> --> -->|  
+    |[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**MPS**|Select to initiate the calculation of a master production schedule. Items with open sales orders or production forecasts are considered in this run.|  
     |**MRP**|Select to initiate the calculation of material requirements planning. Items with dependent requirements are considered in this run. Typically,  MPS and MRP are run at the same time. To run MPS and MRP at the same time, the **Combined MPS\/MRP Calculation** field must be selected on the **Planning** FastTab in the **Manufacturing Setup** window.|  

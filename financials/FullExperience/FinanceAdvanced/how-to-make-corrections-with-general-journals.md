@@ -47,7 +47,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Make Corrections with General Journals
-When you discover an erroneous entry, it must be corrected. Since it is not possible to change or delete a ledger entry, the only way to correct an error is to post one or more corrective entries. FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> offers two features that can help you correct erroneous postings.  
+When you discover an erroneous entry, it must be corrected. Since it is not possible to change or delete a ledger entry, the only way to correct an error is to post one or more corrective entries. [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] offers two features that can help you correct erroneous postings.  
   
 -   Reversing by creating a credit memo. For more information, see [Correction of Incorrect Posted Documents](../Finance/correction-of-incorrect-posted-documents.md).  
   

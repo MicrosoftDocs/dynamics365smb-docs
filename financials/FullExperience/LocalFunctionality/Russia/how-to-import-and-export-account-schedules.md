@@ -19,7 +19,7 @@ translation.priority.ht:
   - "ru-ru"
 ---
 # How to: Import and Export Account Schedules
-FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> enables you to import and export account schedules into other companies and databases.  
+[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] enables you to import and export account schedules into other companies and databases.  
   
 ### To import and export account schedules  
   

@@ -18,7 +18,7 @@ translation.priority.ht:
   - "de-de"
 ---
 # Process for Data Access and Testability of Digital Documents (GDPdU)
-You can export data from FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> --> --> according to the process for data access and testability of digital documents \(GDPdU\), which is based on German tax law.  
+You can export data from [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] according to the process for data access and testability of digital documents \(GDPdU\), which is based on German tax law.  
   
 ## Overview  
  Section 147\(6\) of the German Fiscal Code \(Abgabenordnung, AO\) allows tax authorities to assess the data of electronic accounting systems digitally. They may do this with a data storage device submitted to them or by direct or indirect access to the system. In the data storage device scenario, the tax liable company \(or the person or entity entrusted with accounting and tax duties\) must provide appropriate data storage devices with the data in computer\-readable form. This means for the tax authorities that they will be able to access at will all stored data, including the master data and connections with sort and filter functions. To provide data that can be used and evaluated in this manner, you must define and standardize the file formats for submission by data storage device.  
@@ -49,7 +49,7 @@ You can export data from FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HER
 #### Data Export Filters  
  When you set up a data export, you can filter data on different levels as described in the following table.  
   
-|Filter level|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
+|Filter level|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
 |------------------|---------------------------------------|  
 |Period filters|You can specify a start date and end date for the data that will be exported. You can then use this period filter to filter the data. For example, if you set a period filter for the export, you can then set table filters that use the period.|  
 |Table filters|You can set filters on each table in the export. For example, you can include only open ledger entries, or entries that have a posting date in the specified filter. You can also set a filter that is based on FlowFields, such as **Net Change \(LCY\)**, to only export customers where there has been a change, for example. **Important:**  You cannot set a table filter that is based on a FlowFilter. <br /><br /> When you add table filters, you can increase performance by specifying the fields that the exported data will be sorted by the value of the **Key No.** field for the record definition. Which keys to use depends on the table. For example, if the table only has two key fields and relatively few entries, then the sort order does not affect the speed of the export. But for a table such as G\/L Entry, the export is faster if you specify the key in advance, such as the `G/L Account No.,Posting Date` key. If you do not specify a key, then the primary key is used, which might not be the best choice.<br /><br /> Other tables in which it can be useful to specify the key include the Cust. Ledger Entry and Vendor Ledger Entry tables.|  

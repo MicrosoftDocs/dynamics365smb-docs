@@ -45,9 +45,9 @@ When you post an inventory transaction, the quantity posting is recorded in the 
   
  In addition, an item application is made to link the cost recipient to its cost source to provide cost forwarding according to the costing method. For more information, see [Design Details: Costing Methods](../ApplicationDesign/design-details-costing-methods.md).  
   
- FIX INCLUDE HERE<!--[!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)] --> makes two types of item application.  
+ [!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)] makes two types of item application.  
   
-|Application type|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)] --> --> -->|  
+|Application type|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
 |----------------------|---------------------------------------|  
 |Quantity application|Created for all inventory transactions|  
 |Cost application|Created for inbound entries together with a quantity application as a result of user interaction in special processes.|  
@@ -75,7 +75,7 @@ When you post an inventory transaction, the quantity posting is recorded in the 
   
  An item application entry records the following information.  
   
-|FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)] -->|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+|[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
 |---------------------------------|---------------------------------------|  
 |**Item Ledger Entry No.**|The number of the item ledger entry for the transaction that this application entry is created for.|  
 |**Inbound Item Entry No.**|The item ledger entry number of the inventory increase to which the transaction should be linked, if applicable.|  
@@ -111,7 +111,7 @@ When you post an inventory transaction, the quantity posting is recorded in the 
 ## Fixed Application  
  You make a fixed application when you specify that the cost of an inventory increase should apply to a specific inventory decrease, or vice versa. The fixed application affects the remaining quantities of the entries, but the fixed application also reverses the exact cost of the original entry that you are applying to, or from.  
   
- To make a fixed application, you use the **Appl.\-to Item Entry** field or the **Appl.\-from Item Entry** field in the document lines to specify the item ledger entry that you want the transaction line to apply to, or from. For example, you might make a fixed application when you want to create a cost application that specifies that a sales return should apply to a specific sales shipment to reverse the cost of the sales shipment. In this case, FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> --> --> ignores the costing method and applies the inventory decrease, or increase, for a sales return, to the item ledger entry that you specify. The advantage of making a fixed application is that the cost of the original transaction is passed to the new transaction.  
+ To make a fixed application, you use the **Appl.\-to Item Entry** field or the **Appl.\-from Item Entry** field in the document lines to specify the item ledger entry that you want the transaction line to apply to, or from. For example, you might make a fixed application when you want to create a cost application that specifies that a sales return should apply to a specific sales shipment to reverse the cost of the sales shipment. In this case, [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] ignores the costing method and applies the inventory decrease, or increase, for a sales return, to the item ledger entry that you specify. The advantage of making a fixed application is that the cost of the original transaction is passed to the new transaction.  
   
 ### Example – Fixed Application in Purchase Return  
  The following example, which illustrates the effect of fixed application of a purchase return of an item using the FIFO costing method, is based on the following scenario:  

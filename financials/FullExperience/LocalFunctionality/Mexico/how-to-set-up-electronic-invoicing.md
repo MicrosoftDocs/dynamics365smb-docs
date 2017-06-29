@@ -16,7 +16,7 @@ translation.priority.ht:
   - "es-mx"
 ---
 # How to: Set Up Electronic Invoicing
-Before you can send electronic documents, you must set up FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> to ensure that the tax identification number \(RFC\), personal identification number \(CURP\), and state inscription IDs are available for your company and all your customers and vendors. You also need to set up the parameters that are needed for sending electronic invoices to customers and vendors. These parameters include the certificate thumbprint, which is the certificate that you received from the Mexico tax authority \(SAT\).  
+Before you can send electronic documents, you must set up [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] to ensure that the tax identification number \(RFC\), personal identification number \(CURP\), and state inscription IDs are available for your company and all your customers and vendors. You also need to set up the parameters that are needed for sending electronic invoices to customers and vendors. These parameters include the certificate thumbprint, which is the certificate that you received from the Mexico tax authority \(SAT\).  
   
 > [!IMPORTANT]  
 >  The certificate that you received from the Mexico tax authority must be installed for each user who sends electronic invoices. For more information, see the [Servicio de Administracíon Tributaria](http://go.microsoft.com/fwlink/?LinkId=242772) website.  
@@ -29,7 +29,7 @@ Before you can send electronic documents, you must set up FIX INCLUDE HERE<!--[!
   
 2.  In the **Company Information** window, on the **Tax** FastTab, fill in the fields as described in the following table.  
   
-    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> --> --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> --> --> -->|  
+    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**Tax Scheme**|Enter the tax scheme that your company uses complies with.<br /><br /> Commonly used tax schemes are Régimen General, Régimen intermedio, and Régimen de pequeños contribuyentes \(REPECOS\). **Important:**  You cannot send an electronic invoice unless you have specified the tax scheme.|  
     |**RFC No.**|Enter the federal registration number for taxpayers.<br /><br /> The Registro Federal de Contribuyentes \(RFC\) tax identification type can be applied to companies and to people. An RFC number for a company is 12 characters, while an RFC number for a person is 13 characters.|  

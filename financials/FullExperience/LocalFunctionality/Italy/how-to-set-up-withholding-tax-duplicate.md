@@ -48,7 +48,7 @@ Companies must pay withholding tax to the government for third\-party services a
   
 3.  Fill in the FastTabs as described in the following table.  
   
-    |FastTab|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
+    |FastTab|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |-------------|---------------------------------------|  
     |**General**|The vendor personal data.|  
     |**Communication**|The contact details for the vendor.|  

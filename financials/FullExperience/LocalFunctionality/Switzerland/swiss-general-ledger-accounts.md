@@ -20,7 +20,7 @@ translation.priority.ht:
   - "fr-ch"
 ---
 # Swiss General Ledger Accounts
-FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> --> includes Swiss enhancements to general ledger accounts. This allows you to do the following:  
+[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] includes Swiss enhancements to general ledger accounts. This allows you to do the following:  
   
 -   Maintain the foreign currency balances of a bank account in the general ledger.  
   

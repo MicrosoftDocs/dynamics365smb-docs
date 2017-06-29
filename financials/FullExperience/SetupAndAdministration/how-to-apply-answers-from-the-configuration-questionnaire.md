@@ -40,7 +40,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Apply Answers from the Configuration Questionnaire
-After you have imported and validated information from a setup questionnaire, you can transfer, or apply the setup data to the corresponding tables in the FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> --> database.  
+After you have imported and validated information from a setup questionnaire, you can transfer, or apply the setup data to the corresponding tables in the [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] database.  
   
 ### To apply answers from the setup questionnaire  
   

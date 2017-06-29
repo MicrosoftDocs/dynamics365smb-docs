@@ -51,10 +51,10 @@ With jobs, you can schedule the usage of your company's resources and keep track
  This walkthrough uses the project team member \(Tricia\) as the persona.  
   
 ## Prerequisites  
- Before you can perform the tasks in the walkthrough, the FIX INCLUDE HERE<!--[!INCLUDE[demolong](../ApplicationDesign/includes/demolong_md.md)] --> must be installed on your computer.  
+ Before you can perform the tasks in the walkthrough, the [!INCLUDE[demolong](../ApplicationDesign/includes/demolong_md.md)] must be installed on your computer.  
   
 ## Story  
- This walkthrough focuses on the FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[demoname](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/demoname_md.md)] --> --> -->, a design and consultancy firm that designs and fits new infrastructures, such as conference halls and offices, with furniture, accessories, and storage units. Most of the work at FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[demo](../ApplicationDesign/includes/demo_md.md)] --> --> --> is project\-oriented and Tricia, a project team member, uses jobs to have an overview of each ongoing job that [!INCLUDE[demo](../ApplicationDesign/includes/demo_md.md)] has started and also the jobs that are completed. Some of the jobs can be very lengthy and can run over months. Tricia can use a WIP account to record the work in process and to track the costs throughout the job.  
+ This walkthrough focuses on the [!INCLUDE[demoname](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/demoname_md.md)], a design and consultancy firm that designs and fits new infrastructures, such as conference halls and offices, with furniture, accessories, and storage units. Most of the work at [!INCLUDE[demo](../ApplicationDesign/includes/demo_md.md)] is project\-oriented and Tricia, a project team member, uses jobs to have an overview of each ongoing job that [!INCLUDE[demo](../ApplicationDesign/includes/demo_md.md)] has started and also the jobs that are completed. Some of the jobs can be very lengthy and can run over months. Tricia can use a WIP account to record the work in process and to track the costs throughout the job.  
   
 ## Calculating WIP  
  [!INCLUDE[demoname](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/demoname_md.md)] has taken on a lengthy project that has now extended across reporting periods. Tricia, a project team member, calculates the work in process \(WIP\) to make sure that the financial statement of the company will be accurate.  
@@ -63,7 +63,7 @@ With jobs, you can schedule the usage of your company's resources and keep track
   
  The following table describes the three options.  
   
-|FIX INCLUDE HERE<!--[!INCLUDE[bp_optionsheading](../DesignAndEngineering/includes/bp_optionsheading_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
+|[!INCLUDE[bp_optionsheading](../DesignAndEngineering/includes/bp_optionsheading_md.md)]|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
 |-------------------------------------|---------------------------------------|  
 |**\<blank\>**|Leave blank if the job task is a part of a group of tasks.|  
 |**Total**|Defines the range or group of tasks that are included in the WIP and recognition calculation. Within the group, any job task with **Job Task Type** set to **Posting** will be included in the WIP Total, unless its **WIP\-Total** field is set to **Excluded**.|  
@@ -198,7 +198,7 @@ With jobs, you can schedule the usage of your company's resources and keep track
     >  Suppose Tricia calculated and posted WIP for a job with incorrect dates. Following the method that was discussed earlier, she can reverse the incorrect postings, correct the dates, and repost to the general ledger.  
   
 ## Next Steps  
- This walkthrough has taken you through the steps of calculating WIP in FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] -->. In larger jobs, it may be useful to transfer the costs to a WIP account periodically while the job is being completed. This walkthrough has shown you how to exclude task lines from a calculation. It also shows you when you would have to recalculate. And finally, this walkthrough demonstrates how to post the WIP to the general ledger. An example of how to reverse a WIP posting to the general ledger is also included.  
+ This walkthrough has taken you through the steps of calculating WIP in [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]. In larger jobs, it may be useful to transfer the costs to a WIP account periodically while the job is being completed. This walkthrough has shown you how to exclude task lines from a calculation. It also shows you when you would have to recalculate. And finally, this walkthrough demonstrates how to post the WIP to the general ledger. An example of how to reverse a WIP posting to the general ledger is also included.  
   
 ## See Also  
  [Business Process Walkthroughs](../GettingStarted/business-process-walkthroughs.md)   

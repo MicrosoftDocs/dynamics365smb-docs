@@ -18,7 +18,7 @@ translation.priority.ht:
   - "nl-be"
 ---
 # Belgium Local Functionality
-The following topics describe the local functionality in the Belgian version of FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->.  
+The following topics describe the local functionality in the Belgian version of [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)].  
   
 ## In This Section  
  [Belgian Electronic Banking](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/belgian-electronic-banking.md)  

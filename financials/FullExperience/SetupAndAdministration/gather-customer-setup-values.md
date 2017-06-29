@@ -39,7 +39,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Gather Customer Setup Values
-You use the setup questionnaire to help reduce your implementation workload by streamlining the task of setting up the new company. You can generate the setup questionnaire in FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> --> --> and then provide it to your customer as an Excel \(.xls\) or XML file.  
+You use the setup questionnaire to help reduce your implementation workload by streamlining the task of setting up the new company. You can generate the setup questionnaire in [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] and then provide it to your customer as an Excel \(.xls\) or XML file.  
   
  You can change all default values in a questionnaire to more closely match customer needs.  
   

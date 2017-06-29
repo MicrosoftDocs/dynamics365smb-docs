@@ -17,7 +17,7 @@ translation.priority.ht:
   - "es-es"
 ---
 # Spain Local Functionality
-The following topics describe the local functionality in the Spanish version of FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->.  
+The following topics describe the local functionality in the Spanish version of [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)].  
   
 ## In This Section  
  [What's New\-duplicate 17](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/what-s-new-duplicate-17.md)  

@@ -40,7 +40,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Validate the Configuration Questionnaire
-It is important to validate the setup questionnaire before you apply it to the FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> --> --> --> database. Validation is a manual review process to make sure that the fields have been entered in the correct [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] format. It is also a way to make sure that data formatting is preserved during the import from Excel.  
+It is important to validate the setup questionnaire before you apply it to the [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] database. Validation is a manual review process to make sure that the fields have been entered in the correct [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] format. It is also a way to make sure that data formatting is preserved during the import from Excel.  
   
  A common validation task is to check that text strings are not entered into date fields. This review process is necessary because the format of the answer in the questionnaire is not validated automatically when the **Apply Answers** function is run.  
   

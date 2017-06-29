@@ -57,7 +57,7 @@ This walkthrough describes how you can use account schedules to make cash flow f
 ### Prerequisites  
  To complete this walkthrough, you will need:  
   
--   FIX INCLUDE HERE<!--[!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)] --> with the FIX INCLUDE HERE<!--[!INCLUDE[demolong](../ApplicationDesign/includes/demolong_md.md)] --> installed.  
+-   [!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)] with the [!INCLUDE[demolong](../ApplicationDesign/includes/demolong_md.md)] installed.  
   
 -   The cash flow worksheet lines are registered.  
   
@@ -67,7 +67,7 @@ This walkthrough describes how you can use account schedules to make cash flow f
 -   Controller  
   
 ## Story  
- Ken is a controller at FIX INCLUDE HERE<!--[!INCLUDE[demoname](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/demoname_md.md)] --> who makes monthly cash flow forecasts. He includes finance, sales, purchase, and fixed assets in the forecast, and then he presents it to CFO Sara for business insight.  
+ Ken is a controller at [!INCLUDE[demoname](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/demoname_md.md)] who makes monthly cash flow forecasts. He includes finance, sales, purchase, and fixed assets in the forecast, and then he presents it to CFO Sara for business insight.  
   
 ## Setting Up a New Account Schedule Name  
  An account schedule consists of a cash flow account schedule name with a series of lines and a column layout.  

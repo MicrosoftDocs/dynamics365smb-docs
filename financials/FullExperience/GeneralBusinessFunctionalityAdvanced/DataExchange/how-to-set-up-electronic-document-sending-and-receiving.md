@@ -35,7 +35,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Set Up an OCR Service
-You use an external provider of OCR services to have PDF or image files turned into electronic documents that can be converted to document records in FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)] --> -->. For more information, see [How to: Use OCR to Turn PDF and Image Files into Electronic Documents](../../BusinessFunctionality/DataExchange/how-to-use-ocr-to-turn-pdf-and-image-files-into-electronic-documents.md).  
+You use an external provider of OCR services to have PDF or image files turned into electronic documents that can be converted to document records in [!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)]. For more information, see [How to: Use OCR to Turn PDF and Image Files into Electronic Documents](../../BusinessFunctionality/DataExchange/how-to-use-ocr-to-turn-pdf-and-image-files-into-electronic-documents.md).  
   
 ### To set up an OCR service  
   
@@ -43,7 +43,7 @@ You use an external provider of OCR services to have PDF or image files turned i
   
 2.  Fill the fields as described in the following table.  
   
-    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
+    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**User Name**|Specify the user name that represents your company’s login to the OCR service.|  
     |**Password**|Specify the password that is used for your company’s login to the OCR service.|  

@@ -16,14 +16,14 @@ translation.priority.ht:
   - "ru-ru"
 ---
 # Statutory Reports
-FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> --> lets you set up statutory reports so that you can import and export data for electronic tax reporting and other required documents.  
+[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] lets you set up statutory reports so that you can import and export data for electronic tax reporting and other required documents.  
   
  After you have set up a report and specified the required information, you can export the report to Excel, and then print the report.  
   
 ## Getting Started with Statutory Reports  
  Use the windows based on the following key tables to set up and create statutory reports.  
   
-|Tables|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> -->|  
+|Tables|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
 |------------|---------------------------------------|  
 |Statutory Report Setup|Specifies information that is used to set up statutory reports including templates, formats, number series, and export destinations.|  
 |Format Version|Specifies setup information about the different report formats. This includes when to use which report, the XML schema to use, and the required data format.|  
@@ -36,7 +36,7 @@ FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesig
 ## Data for Statutory Reports  
  The statutory reports are based on account schedules and tax registers. For each statutory report that you set up in the **Statutory Reports** window, you define how the data maps to fields on tables in [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] by creating table mappings. In the **Statutory Report Tables** window, in the **Int. Source Type** field, you specify the area that the data comes from as described in the following table.  
   
-|FIX INCLUDE HERE<!--[!INCLUDE[bp_tableoption](../../ApplicationDesign/includes/bp_tableoption_md.md)] -->|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+|[!INCLUDE[bp_tableoption](../../ApplicationDesign/includes/bp_tableoption_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
 |----------------------------------|---------------------------------------|  
 |**Acc. Schedule**|The data is based on an account schedule.|  
 |**Tax Register**|The data is based on a tax register. For more information, see [Tax Registers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/tax-registers.md).|  

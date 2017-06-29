@@ -41,7 +41,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Set Up a Company With RapidStart Services for Microsoft Dynamics NAV
-You can set up a new company in FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> --> --> with FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[rimlong](../SetupAndAdministration/includes/rimlong_md.md)] --> --> -->. FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[rim](../Roles/includes/rim_md.md)] --> --> --> --> --> is a tool designed to shorten deployment times, improve quality of implementation, introduce a repeatable approach to implementations, and enhance productivity by automating and simplifying recurring tasks.  
+You can set up a new company in [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] with [!INCLUDE[rimlong](../SetupAndAdministration/includes/rimlong_md.md)]. [!INCLUDE[rim](../Roles/includes/rim_md.md)] is a tool designed to shorten deployment times, improve quality of implementation, introduce a repeatable approach to implementations, and enhance productivity by automating and simplifying recurring tasks.  
   
  [!INCLUDE[rim](../Roles/includes/rim_md.md)] helps you gain an overview of the setup process of your new company by providing a worksheet in which you can set up the tables often involved in the configuration process of new companies. As you do this, you can create a questionnaire to guide your customers through the collection of setup information. Your customers have the option of using the questionnaire to set up application areas, or they can open the setup page directly and do the setup there. Most importantly, [!INCLUDE[rim](../Roles/includes/rim_md.md)] helps you, as a customer, prepare the company with default setup data that you can fine\-tune and customize. Lastly, when you use [!INCLUDE[rim](../Roles/includes/rim_md.md)], you can configure and migrate existing customer data, such as a list of customers or items, into the new company.  
   
@@ -57,7 +57,7 @@ You can set up a new company in FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCL
   
 -   Configuration questionnaire  
   
- You can find the tools in the FIX INCLUDE HERE<!--[!INCLUDE[rtc](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/rtc_md.md)] --> in the **Application Setup** area.  
+ You can find the tools in the [!INCLUDE[rtc](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/rtc_md.md)] in the **Application Setup** area.  
   
 > [!IMPORTANT]  
 >  There are areas of [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] that you will have to set up manually. These include adding users, setting up accounting periods, and setting up dimensions for business intelligence.  

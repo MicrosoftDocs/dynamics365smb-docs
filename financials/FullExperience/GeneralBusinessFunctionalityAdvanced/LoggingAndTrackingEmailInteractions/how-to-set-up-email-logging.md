@@ -41,9 +41,9 @@ translation.priority.ht:
 You set up email logging in the **Marketing Setup** window. Setup requires an email account that has a valid email address on Exchange. It also requires that you use public folders. This enables you to share and log information and email in a company.  
   
 > [!NOTE]  
->  Consider creating a domain user email account that is not tied to specific individual. If you do this, you will also have to add the domain account to FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> --> --> --> as a Windows user who has the relevant permission set.  
+>  Consider creating a domain user email account that is not tied to specific individual. If you do this, you will also have to add the domain account to [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] as a Windows user who has the relevant permission set.  
   
- In order to set up email logging, you will require a [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] user who has sufficient permission sets. Consider using the permission sets BASIC and RM\-SETUP as defined in the FIX INCLUDE HERE<!--[!INCLUDE[demolong](../../ApplicationDesign/includes/demolong_md.md)] -->.  
+ In order to set up email logging, you will require a [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] user who has sufficient permission sets. Consider using the permission sets BASIC and RM\-SETUP as defined in the [!INCLUDE[demolong](../../ApplicationDesign/includes/demolong_md.md)].  
   
  You must also have configured public folders on your Exchange server. For more information about configuring public folders in Exchange Server, see [Public folders](http://go.microsoft.com/fwlink/?LinkId=526140).  
   
@@ -59,7 +59,7 @@ You set up email logging in the **Marketing Setup** window. Setup requires an em
   
 4.  If you use Exchange Online, you must also specify the following fields:  
   
-    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
+    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**Exchange Service URL**|Optionally, specify the URL for your Exchange service.<br /><br /> If you specify this URL, [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] connects faster to Exchange when you choose **Validate Email Logging Setup**.|  
     |**Exchange Account User Name**|Specify the name of the user account that has access to Exchange.|  

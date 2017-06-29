@@ -28,7 +28,7 @@ You can create a remittance suggestion so that payment proposals are sent to ven
   
 3.  In the **Suggest Remittance Payments** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
+    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_15000001\_F\_1\_1 Last Payment Date $\)**|Specify the last payment date.|  
     |**\($ R\_15000001\_F\_1\_2 Find Payment Discounts $\)**|Select if you want to search for entries where a payment discount is available.|  

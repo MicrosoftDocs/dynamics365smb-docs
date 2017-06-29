@@ -18,7 +18,7 @@ translation.priority.ht:
   - "fr-ca"
 ---
 # Canada Local Functionality
-The following topics describe the local functionality in the Canadian version of FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->.  
+The following topics describe the local functionality in the Canadian version of [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)].  
   
 ## In This Section  
  [What's New\-duplicate 7](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/what-s-new-duplicate-7.md)  

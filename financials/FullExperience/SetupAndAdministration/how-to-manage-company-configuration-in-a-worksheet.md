@@ -42,9 +42,9 @@ translation.priority.ht:
 # How to: Manage Company Configuration in a Worksheet
 The configuration worksheet is the central location in which you can plan, track, and perform your configuration work. You can create a worksheet for each company that you are working with or create a standard configuration worksheet that can be used for configuring multiple identical companies.  
   
- Before you start, make sure that you are on the FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[rim](../Roles/includes/rim_md.md)] --> --> Role Center page. It provides the correct context for your configuration work. To change your Role Center home page, see [How to: Change Role Centers](../GettingStarted/how-to-change-role-centers.md). Choose the RapidStart Profile ID.  
+ Before you start, make sure that you are on the [!INCLUDE[rim](../Roles/includes/rim_md.md)] Role Center page. It provides the correct context for your configuration work. To change your Role Center home page, see [How to: Change Role Centers](../GettingStarted/how-to-change-role-centers.md). Choose the RapidStart Profile ID.  
   
- The first step in preparing a configuration package is to select a company that you have already set up and modified to suit most of your solution needs. This company serves as the baseline for your configuration work on new companies. In the worksheet, you designate the tables that you want your configuration to control and handle. Since most tables in FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> --> --> --> have relationships and dependencies on other tables, you should also include those related tables as necessary. Together, these tables will then serve as the structure around which you will build a new company. Subsequent steps help you package and then deploy your configuration.  
+ The first step in preparing a configuration package is to select a company that you have already set up and modified to suit most of your solution needs. This company serves as the baseline for your configuration work on new companies. In the worksheet, you designate the tables that you want your configuration to control and handle. Since most tables in [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] have relationships and dependencies on other tables, you should also include those related tables as necessary. Together, these tables will then serve as the structure around which you will build a new company. Subsequent steps help you package and then deploy your configuration.  
   
  To aide you in tracking and reviewing your work, use the **Config. Package Table** FactBox to see information about records. Use the **Config. Related Tables** FactBox to monitor table relationships.  
   
@@ -52,7 +52,7 @@ The configuration worksheet is the central location in which you can plan, track
   
 ### To open the configuration worksheet  
   
-1.  In the FIX INCLUDE HERE<!--[!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)] -->, open the company that is the baseline for configuration, and then open its Role Center Home page for [!INCLUDE[rim](../Roles/includes/rim_md.md)].  
+1.  In the [!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)], open the company that is the baseline for configuration, and then open its Role Center Home page for [!INCLUDE[rim](../Roles/includes/rim_md.md)].  
   
 2.  In the **Search** box, enter **Configuration Worksheet**, and then choose the related link.  
   
@@ -100,7 +100,7 @@ The configuration worksheet is the central location in which you can plan, track
   
      On the **Options** FastTab, specify the types of tables that you want to add to the configuration. The following table describes the options.  
   
-    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
+    |[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)]|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |----------------------------------|---------------------------------------|  
     |**Include with Data Only**|Select the check box to include only those tables that contain data. For example, you may want to include a table that already defines the typical payment terms that your solution supports.|  
     |**Include Related Tables**|Select the check box to include all related tables. To add a subset of related tables, see step 3 in this procedure.|  
@@ -147,7 +147,7 @@ The configuration worksheet is the central location in which you can plan, track
   
 3.  To filter to a certain set of records to include in the configuration worksheet, on the **Actions** tab, in the **Show** group, choose **Filters**. Specify the appropriate filter values.  
   
-     FIX INCLUDE HERE<!--[!INCLUDE[bp_fieldhelp]()] -->  
+     [!INCLUDE[bp_fieldhelp]()]  
   
  You can create areas of functionality and groups of tables in the worksheet in order to put similar functionality together. For example, in setting up the chart of accounts for your configuration, you may decide to create a group of posting tables. Typically, areas are used to group a set of tables that correspond to a functional area. Each area can contain groups. A group can be used to arrange tables that have a common meaning together.  
   

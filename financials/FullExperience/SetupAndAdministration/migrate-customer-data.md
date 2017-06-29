@@ -41,7 +41,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Migrate Customer Data
-You can migrate existing customer data from an existing ERP system to FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> --> --> --> using the data migration tools of FIX INCLUDE HERE<!--[!INCLUDE[rimlong](../SetupAndAdministration/includes/rimlong_md.md)] -->. You can use Excel .xlsx files as the data carrier. You can also manually move the data by entering it directly into the company.  
+You can migrate existing customer data from an existing ERP system to [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] using the data migration tools of [!INCLUDE[rimlong](../SetupAndAdministration/includes/rimlong_md.md)]. You can use Excel .xlsx files as the data carrier. You can also manually move the data by entering it directly into the company.  
   
  The **Migration Overview** window and the **Configuration worksheet** provide access to the functions and views to perform all the tasks that relate to data migration. We recommend that you migrate one table at a time, to handle dependencies in your data. In migration, you will also touch the master data tables, which contain information about customers, vendors, items, contacts, and the general ledger.  
   

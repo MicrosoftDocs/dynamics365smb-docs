@@ -74,7 +74,7 @@ Tolerance on days and amounts allows you to close an invoice even though the pay
 11. To run the **Change Payment Tolerance** batch job, fill in the **Payment Tolerance %** and **Max Payment Tolerance Amount** fields, and then choose the **OK** button. For Help about a specific field, click the field and press F1.  
   
 > [!IMPORTANT]  
->  You have now set up tolerance for local currency only. If you want FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> --> to handle tolerance on payments, credit memos, and refunds in a foreign currency, you must run the **Change Payment Tolerance** batch job. You must enter a currency in the **Currency Code** field.  
+>  You have now set up tolerance for local currency only. If you want [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] to handle tolerance on payments, credit memos, and refunds in a foreign currency, you must run the **Change Payment Tolerance** batch job. You must enter a currency in the **Currency Code** field.  
   
 > [!NOTE]  
 >  To deactivate tolerance for a customer or vendor, you must block tolerance on the relevant customer or vendor card.  

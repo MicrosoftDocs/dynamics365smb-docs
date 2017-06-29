@@ -38,7 +38,7 @@ translation.priority.ht:
 # Field Mapping When Importing SEPA CAMT Files
 The generic version of Microsoft Dynamics NAV supports the regional SEPA standard \(Single Euro Payments Area\) for importing SEPA bank statements \(CAMT format\). For more information, see [How to: Import Bank Statements](../../BusinessFunctionality/DataExchange/how-to-import-bank-statements.md).  
   
- The SEPA CAMT standard itself has local variations. Therefore, you may have to modify the generic data exchange definition \(represented by the **SEPA CAMT** code in the **Posting Exchange Definitions** window to adapt it to a local variation of the standard. The following tables show the element\-to\-field mapping for tables 81, 273, and 274 in the SEPA CAMT implementation in FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)] --> -->.  
+ The SEPA CAMT standard itself has local variations. Therefore, you may have to modify the generic data exchange definition \(represented by the **SEPA CAMT** code in the **Posting Exchange Definitions** window to adapt it to a local variation of the standard. The following tables show the element\-to\-field mapping for tables 81, 273, and 274 in the SEPA CAMT implementation in [!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)].  
   
  For information about creating or adjusting a data exchange definition, see [How to: Set Up Data Exchange Definitions](../../BusinessFunctionality/DataExchange/how-to-set-up-data-exchange-definitions.md).  
   

@@ -39,7 +39,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Create Customers within Service Orders
-When you create service orders for customers that are not registered in FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] -->, you can create the customers within the **Service Order** or **Service Quote** windows.  
+When you create service orders for customers that are not registered in [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)], you can create the customers within the **Service Order** or **Service Quote** windows.  
   
  You need to set up customer templates before you can create customers within service orders. For more information, see [How to: Set Up Customer Templates](../Service/how-to-set-up-customer-templates.md).  
   

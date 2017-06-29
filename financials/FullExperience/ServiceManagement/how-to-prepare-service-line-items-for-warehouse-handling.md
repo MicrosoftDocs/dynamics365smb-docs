@@ -44,7 +44,7 @@ Service lines, like other outbound document lines, such as on sales, outbound tr
   
  All source documents must signal to warehouse workers, by means of a release function, that the documents are ready for handling. On service orders, you use the Release to Ship feature to signal to warehouse workers that the items are ready to be picked and shipped to the customer’s address.  
   
- When a source document is released, the related warehouse activity document can be created from the source document to push that request for work to warehouse workers. Alternatively, warehouse workers can generate the warehouse activity document by pulling the request from one or more released source documents. The push or pull options are supported by standard warehouse features in FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] -->.  
+ When a source document is released, the related warehouse activity document can be created from the source document to push that request for work to warehouse workers. Alternatively, warehouse workers can generate the warehouse activity document by pulling the request from one or more released source documents. The push or pull options are supported by standard warehouse features in [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)].  
   
  The following procedure shows the push scenario for service line items. For information about pull scenarios where warehouse workers fill pick documents based on released shipments, see [How to: Pick Items for Warehouse Shipment](../WarehouseActivities/how-to-pick-items-for-warehouse-shipment.md).  
   

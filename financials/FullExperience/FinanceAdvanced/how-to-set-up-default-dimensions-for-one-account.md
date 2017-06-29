@@ -45,7 +45,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Set Up Default Dimensions for One Account
-You can set up a default dimension for a specific individual account. FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> will then copy this code to the journal, sales, or purchase line when the account number field is filled in on the line. However, you may delete or change the code if appropriate.  
+You can set up a default dimension for a specific individual account. [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] will then copy this code to the journal, sales, or purchase line when the account number field is filled in on the line. However, you may delete or change the code if appropriate.  
   
  The following procedure is for setting up default dimension for a customer account.  
   

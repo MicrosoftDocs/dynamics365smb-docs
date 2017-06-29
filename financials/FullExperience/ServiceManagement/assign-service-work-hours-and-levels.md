@@ -39,7 +39,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Assign Service Work Hours and Levels
-Typically, a service management system tracks resource hours and service order status in order to forecast workloads and service needs. FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> has built\-in tools that you can customize to record this kind of information.  
+Typically, a service management system tracks resource hours and service order status in order to forecast workloads and service needs. [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] has built\-in tools that you can customize to record this kind of information.  
   
  After you set the default service hours of your company, you can calculate response times for service orders or send warnings or alerts when service calls come in. The alert feature is implemented together with the job scheduler.  
   

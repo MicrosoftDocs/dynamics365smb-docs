@@ -33,12 +33,12 @@ You can create payments slips to manage vendor and customer payments. Before you
   
 5.  On the **General** FastTab, fill in the fields as described in the following table.  
   
-    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> --> --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> --> --> -->|  
+    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**Currency Code**|Specify the currency code to be used for the payment lines.|  
     |**Posting Date**|Specify the posting date.|  
     |**Document Date**|Specify the document date.|  
-    |**Amount \(LCY\)**|The total amount from the payment lines. This field is updated automatically when the net line amounts are changed.<br /><br /> FIX INCLUDE HERE<!--[!INCLUDE[bp_fieldnoneditable](../../Finance/includes/bp_fieldnoneditable_md.md)] -->|  
+    |**Amount \(LCY\)**|The total amount from the payment lines. This field is updated automatically when the net line amounts are changed.<br /><br /> [!INCLUDE[bp_fieldnoneditable](../../Finance/includes/bp_fieldnoneditable_md.md)]|  
   
 6.  On the **Lines** FastTab, fill in the fields as described in the following table.  
   

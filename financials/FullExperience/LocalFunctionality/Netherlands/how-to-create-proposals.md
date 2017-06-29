@@ -32,7 +32,7 @@ Proposals can be generated manually or automatically based on either vendor or c
   
 3.  At a minimum, you must fill in the **Account Type**, **Account No.**, **Transaction Mode**, **Bank Account No.**, and **Amount** fields.  
   
-     FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_fieldhelp]()] --> --> --> --> -->  
+     [!INCLUDE[bp_fieldhelp]()]  
   
 4.  If you want to view or adjust the proposal's detail lines, in the **Lines** part, in the toolbar, choose **Detail Information**. To return to the proposal, close the **Proposal Detail Line** window.  
   

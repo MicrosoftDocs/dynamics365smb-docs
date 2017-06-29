@@ -30,7 +30,7 @@ When you select electronic payment in the payment journal, the information is ex
   
 3.  In the **Suggest Vendor Payments** batch job, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
+    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**Last Payment Date**|The last valid payment date for vendor ledger entries.|  
     |**Find Payment Discounts**|Select to include vendor ledger entries for which you can receive a payment discount.|  

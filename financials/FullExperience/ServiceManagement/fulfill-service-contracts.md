@@ -39,7 +39,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Fulfill Service Contracts
-FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> includes features to make setting up ongoing service contracts easy. You can set up contract templates, which you can then use to create standardized contracts for your business. In addition, you can set up a system to create quotes for service and to turn those quotes into contracts.  
+[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] includes features to make setting up ongoing service contracts easy. You can set up contract templates, which you can then use to create standardized contracts for your business. In addition, you can set up a system to create quotes for service and to turn those quotes into contracts.  
   
  As part of your business processes, you may also want to monitor your contracts and update and evaluate them. You can set up a system to keep track of contract status, and view how gain and loss information about your contracts is being posted.  
   

@@ -19,7 +19,7 @@ translation.priority.ht:
   - "en-au"
 ---
 # How to: Set Up Business Units for Business Activity Statements
-In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->, you can consolidate the financial statements of various companies into one financial statement.  
+In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can consolidate the financial statements of various companies into one financial statement.  
   
  You must set up a consolidation company to perform the consolidation. In this company, the total amounts for all accounts in the group, from both the parent company and subsidiaries are added together. You must also indicate the general ledger accounts in the consolidated company to which the total should be transferred.  
   
@@ -39,7 +39,7 @@ In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow
   
 2.  Fill in the required fields as described in the following table.  
   
-    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> -->|  
+    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**BAS to be Lodged as a Group**|Select if you are logging a business activity statement for a group of companies.|  
     |**BAS Group Company**|Select if this company is the main company in the group of companies for which you are lodging a group business activity statement.|  

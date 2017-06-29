@@ -71,7 +71,7 @@ This planning task can be performed in the **Order Planning** window, which disp
   
     3.  The **Description field** contains the following depending on the demand type.  
   
-        |Demand type|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)] --> --> --> -->|  
+        |Demand type|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
         |-----------------|---------------------------------------|  
         |**Production**|The description of the produced item.<br /><br /> For production demand for a project production order, the customer name is displayed. For more information, see [How to: Plan Project Orders](../OperationsPlanning/how-to-plan-project-orders.md).|  
         |**Sales**|The customer name.|  
@@ -82,7 +82,7 @@ This planning task can be performed in the **Order Planning** window, which disp
   
 3.  For each expanded planning line, that is, demand line, you can see values in information fields at the bottom of the window.  
   
-    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)] --> --> -->|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)]|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |----------------------------------|---------------------------------------|  
     |**Qty. on Other Locations**|Shows if the item exists on another location. You can then look up and select it.|  
     |**Substitutes Exist**|Shows if a substitute item is created for the item. You can then look up and select it. Note that this feature only applies to components, that is, from demand lines of type **Production**.|  

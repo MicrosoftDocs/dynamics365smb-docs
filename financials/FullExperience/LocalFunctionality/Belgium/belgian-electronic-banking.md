@@ -18,7 +18,7 @@ translation.priority.ht:
 # Belgian Electronic Banking
 Electronic banking allows you to electronically exchange data with Belgian financial institutions. Data can be exchanged either on disk, by modem, or via Interbanks Standards Association Belgium \(Isabel\). This way you can benefit from a faster processing time and avoid errors caused by manual data entry or processing.  
   
- In FIX INCLUDE HERE<!--[!INCLUDE[nav_current_short](../../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_current_short_md.md)] -->, you can use electronic banking to perform the following functions:  
+ In [!INCLUDE[nav_current_short](../../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_current_short_md.md)], you can use electronic banking to perform the following functions:  
   
 -   Send electronic payments  
   

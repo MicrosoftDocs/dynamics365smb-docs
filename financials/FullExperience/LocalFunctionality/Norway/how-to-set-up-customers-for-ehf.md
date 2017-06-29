@@ -25,10 +25,10 @@ To create Elektronisk Handelsformat \(EHF\) documents for customers in the publi
   
 3.  On the **Invoicing** FastTab, fill in the fields as described in the following table.  
   
-    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
+    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**GLN**|Required. Enter the Global Location Number \(GLN\) for the customer.|  
-    |**Account Code**|Enter the account code for the customer.<br /><br /> Customers in the public sector provide an account code when they place an order or requisition. Based on the value of this field, the account code is included in the EHF documents that you create in FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->. For more information, see Account Code.|  
+    |**Account Code**|Enter the account code for the customer.<br /><br /> Customers in the public sector provide an account code when they place an order or requisition. Based on the value of this field, the account code is included in the EHF documents that you create in [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]. For more information, see Account Code.|  
     |**E\-Invoice**|Select the check box to use electronic invoicing with this customer.|  
     |**Responsibility Center**|Make sure that the Responsibility Center that you have selected has a Country\/Region Code specified.|  
   

@@ -25,7 +25,7 @@ Companies in the European Union \(EU\) are required to report trade with other c
  To determine the type of declaration that you should use, visit the [National Bank of Belgium](http://go.microsoft.com/fwlink/?LinkId=163064) Web site.  
   
 ## Submitting the Intrastat Report  
- In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->, you can export the Intrastat declarations to a file that you can then submit to the OneGate portal. For more information, see [How to: Export Intrastat Third\-Party Declararations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-export-intrastat-third-party-declararations.md).  
+ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can export the Intrastat declarations to a file that you can then submit to the OneGate portal. For more information, see [How to: Export Intrastat Third\-Party Declararations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-export-intrastat-third-party-declararations.md).  
   
 ## See Also  
  [Belgium Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/belgium-local-functionality.md)   

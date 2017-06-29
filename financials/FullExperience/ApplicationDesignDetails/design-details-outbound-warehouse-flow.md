@@ -61,7 +61,7 @@ The outbound flow in the warehouse begins with a request from released source do
   
  Processes and UI documents in outbound warehouse flows are different for basic and advanced warehousing. The main difference is that activities are performed order\-by\-order in basic warehousing, and they are consolidated for multiple orders in advanced warehousing. For more information about different warehouse complexity levels, see [Design Details: Warehouse Overview](../ApplicationDesign/design-details-warehouse-overview.md) and [Design Details: Warehouse Setup](../ApplicationDesign/design-details-warehouse-setup.md).  
   
- In FIX INCLUDE HERE<!--[!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)] -->, the outbound processes of picking and shipping can be performed in four ways using different functionalities depending on the warehouse complexity level.  
+ In [!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)], the outbound processes of picking and shipping can be performed in four ways using different functionalities depending on the warehouse complexity level.  
   
 |Method|Inbound process|Bins|Picks|Shipments|Complexity level \(See [Design Details: Warehouse Setup](../ApplicationDesign/design-details-warehouse-setup.md)\)|  
 |------------|---------------------|----------|-----------|---------------|--------------------------------------------------------------------------------------------------------------------|  

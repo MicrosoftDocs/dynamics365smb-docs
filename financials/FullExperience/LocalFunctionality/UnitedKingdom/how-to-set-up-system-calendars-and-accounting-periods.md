@@ -58,7 +58,7 @@ For many companies, the fiscal year does not coincide with the calendar year. Fi
   
 3.  Clear the check boxes described in the following table.  
   
-    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> --> -->|  
+    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**Use System For Day Period**|Specifies if the day period information is retrieved from the accounting period calendar, instead of from the system calendar.|  
     |**Use System For Week Period**|Specifies if the week period information is retrieved from the accounting period calendar, instead of from the system calendar.|  

@@ -15,7 +15,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Set Up EU Third-Party Purchase Transactions
-European Union \(EU\) third\-party trade occurs when you receive a purchase invoice from a customer in one EU country\/region and the products are sent to a different EU country\/region without entering Sweden. The transaction amount must be identified and reported separately to comply with Swedish VAT reporting and VAT Information Exchange System \(VIES\) requirements. FIX INCLUDE HERE<!--[!INCLUDE[nav_current_short](../../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_current_short_md.md)] --> includes Swedish enhancements that allow purchase transactions to be set up as EU third\-party trade. Posted EU third\-party transactions can then be filtered in VAT statements and excluded from the amount in the **Sales to Customer** column in the **VAT\- VIES Declaration Tax Auth** report.  
+European Union \(EU\) third\-party trade occurs when you receive a purchase invoice from a customer in one EU country\/region and the products are sent to a different EU country\/region without entering Sweden. The transaction amount must be identified and reported separately to comply with Swedish VAT reporting and VAT Information Exchange System \(VIES\) requirements. [!INCLUDE[nav_current_short](../../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_current_short_md.md)] includes Swedish enhancements that allow purchase transactions to be set up as EU third\-party trade. Posted EU third\-party transactions can then be filtered in VAT statements and excluded from the amount in the **Sales to Customer** column in the **VAT\- VIES Declaration Tax Auth** report.  
   
 ### To set up EU third\-party purchase transactions  
   

@@ -49,7 +49,7 @@ When you set up a warehouse location for directed put\-away and pick, you have n
   
 2.  Select the item that you want to set up for directed put\-away and pick.  
   
-3.  On the **Navigate** tab, in the **Item** group, choose the **Units of Measure** button. Fill in the fields in this window to define the different units of measure in which the item may be transacted. In this window, you should also fill in the height, width, length, cubage, and weight for the unit of measure. FIX INCLUDE HERE<!--[!INCLUDE[bp_choose_columns](../DesignAndEngineering/includes/bp_choose_columns_md.md)] --> Choose the **OK** button.  
+3.  On the **Navigate** tab, in the **Item** group, choose the **Units of Measure** button. Fill in the fields in this window to define the different units of measure in which the item may be transacted. In this window, you should also fill in the height, width, length, cubage, and weight for the unit of measure. [!INCLUDE[bp_choose_columns](../DesignAndEngineering/includes/bp_choose_columns_md.md)] Choose the **OK** button.  
   
 4.  On the **Navigate** tab, in the **Warehouse** group, choose **Bin Contents**. In this window, you can define the location and bin to which the item should be associated. The **Default** field is not used when the location is set up for directed put\-away and pick. Choose the **OK** button.  
   

@@ -16,7 +16,7 @@ translation.priority.ht:
   - "nl-be"
 ---
 # How to: Import CODA Statements
-When you receive a CODA statement from your bank, you must import it into FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->. Before starting the import, you must have enabled one or more bank accounts for CODA. For more information, see [How to: Set Up Bank Accounts for CODA](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-bank-accounts-for-coda.md).  
+When you receive a CODA statement from your bank, you must import it into [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]. Before starting the import, you must have enabled one or more bank accounts for CODA. For more information, see [How to: Set Up Bank Accounts for CODA](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-bank-accounts-for-coda.md).  
   
 ### To import a CODA statement  
   

@@ -30,7 +30,7 @@ Account book reports display all the general ledger entries created in a specifi
   
 2.  In the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> -->|  
+    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_10706\_F\_1\_1 Closing Transaction Description $\)**|Enter the description for the closing period transaction.|  
     |**\($ R\_10706\_F\_1\_5 Opening Transaction Description $\)**|Enter the description for the opening period transaction.|  

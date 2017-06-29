@@ -70,7 +70,7 @@ Before you can use the **Intrastat Journal**, you must decide which Intrastat jo
   
 3.  On each batch line, set up the relevant information in the following fields.  
   
-    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
+    |[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**Statistics Period**|Enter the statistics period as a four\-digit number, where the first two digits represent the year and the next two digits represent the month. For example, enter **1206** for June 2012.|  
     |**Currency Identifier**|Enter a code that identifies the currency of the Intrastat report. For example, you can enter **EUR** for euro and **USD** for US dollars.|  

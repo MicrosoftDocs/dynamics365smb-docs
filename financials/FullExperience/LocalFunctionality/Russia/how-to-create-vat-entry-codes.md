@@ -26,7 +26,7 @@ Invoices must specify a VAT entry type code. The VAT entry type codes are based 
   
 2.  In the **VAT Entry Types** window, fill in the fields as described in the following table.  
   
-    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
+    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**Code**|Specify a unique code for the VAT entry type. The code must be two characters long.|  
     |**Description**|Specify a description of the VAT entry.|  

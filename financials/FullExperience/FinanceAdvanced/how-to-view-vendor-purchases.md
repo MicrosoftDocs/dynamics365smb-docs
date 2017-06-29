@@ -52,7 +52,7 @@ From a vendor card, you can see various statistics about the vendor. The **Vendo
   
 4.  In the **View as** field, specify what the view will be based on by selecting one of the following options.  
   
-    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
+    |[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)]|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |----------------------------------|---------------------------------------|  
     |**Net Change**|The view is calculated from entries with posting dates within the selected period.|  
     |**Balance at Date**|The view is calculated from entries with dates up to and including the last day of the selected period.|  

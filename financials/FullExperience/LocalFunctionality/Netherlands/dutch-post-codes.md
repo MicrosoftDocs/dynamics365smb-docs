@@ -16,7 +16,7 @@ translation.priority.ht:
   - "nl-nl"
 ---
 # Dutch Post Codes
-In the Netherlands, a company called Cendris delivers post code and post code updates for your business. These updates are important for marketing and relationship management activities. Each month Cendris delivers a file that has changes to the post code data for you to import into FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->.  
+In the Netherlands, a company called Cendris delivers post code and post code updates for your business. These updates are important for marketing and relationship management activities. Each month Cendris delivers a file that has changes to the post code data for you to import into [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)].  
   
 ## See Also  
  [How to: Import Post Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/how-to-import-post-codes.md)   

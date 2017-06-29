@@ -35,7 +35,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Receive and Convert Electronic Documents
-The generic version of FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)] --> --> --> --> --> --> --> --> --> supports receiving electronic invoices and credit memos in the PEPPOL format, which is supported by the largest providers of document exchange services. To receive an invoice from a vendor as an electronic PEPPOL document, you process the document in the **Incoming Documents** window to convert it to a purchase invoice or general journal line in [!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)].  
+The generic version of [!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)] supports receiving electronic invoices and credit memos in the PEPPOL format, which is supported by the largest providers of document exchange services. To receive an invoice from a vendor as an electronic PEPPOL document, you process the document in the **Incoming Documents** window to convert it to a purchase invoice or general journal line in [!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)].  
   
  In addition to receiving electronic documents directly from trading partners, you can receive electronic documents from an OCR service that has turned your PDF or image files into electronic documents. For more information, see [How to: Use OCR to Turn PDF and Image Files into Electronic Documents](../BusinessFunctionality/DataExchange/how-to-use-ocr-to-turn-pdf-and-image-files-into-electronic-documents.md).  
   

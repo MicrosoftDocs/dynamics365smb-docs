@@ -15,4 +15,4 @@ translation.priority.ht:
   - "ru-ru"
 ---
 # Human Resources
-FIX INCLUDE HERE<!--[!INCLUDE[emptyBookNodeText](../../Finance/includes/emptybooknodetext_md.md)] -->
+[!INCLUDE[emptyBookNodeText](../../Finance/includes/emptybooknodetext_md.md)]

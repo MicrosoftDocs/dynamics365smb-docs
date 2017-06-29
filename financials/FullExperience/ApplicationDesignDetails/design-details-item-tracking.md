@@ -41,7 +41,7 @@ translation.priority.ht:
 # Design Details: Item Tracking
 As the flow of goods in today’s supply chain becomes more and more complex, the ability to keep track of items is increasingly important to the companies involved. Monitoring an item’s transaction flow is a legal requirement in the business of medical and chemical supply, but other businesses may want to monitor products with warranties or expiration dates for customer service reasons.  
   
- An item tracking system should provide a company with easy handling of serial and lot numbers, considering each unique piece of merchandise: when and where received, where stored, when and where sold. FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> has gradually expanded its coverage of this business requirement and today provides application\-wide functionality and a solid core on which to develop extensions.  
+ An item tracking system should provide a company with easy handling of serial and lot numbers, considering each unique piece of merchandise: when and where received, where stored, when and where sold. [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] has gradually expanded its coverage of this business requirement and today provides application\-wide functionality and a solid core on which to develop extensions.  
   
 ## In This Section  
   

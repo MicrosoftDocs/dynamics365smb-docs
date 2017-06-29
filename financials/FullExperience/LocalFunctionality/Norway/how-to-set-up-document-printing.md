@@ -16,7 +16,7 @@ translation.priority.ht:
   - "nb-no"
 ---
 # How to: Set Up Document Printing
-In FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> --> -->, you can print the sales reports that use the required giro specifications by using different paper types and paper trays.  
+In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can print the sales reports that use the required giro specifications by using different paper types and paper trays.  
   
  When you use tray numbers and paper sources for Norwegian sales documents, you must consider how the printer and printer driver interpret this information. You may have to specify other tray numbers for your specific printer.  
   
@@ -35,7 +35,7 @@ In FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow]
   
  The Norwegian version of [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] contains the following sets of sales documents.  
   
-|**Set**|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
+|**Set**|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
 |-------------|---------------------------------------|  
 |1|The standard [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] documents. No giro information is printed.|  
 |2|The giro is printed on every page. The last page prints the giro total.|  

@@ -52,7 +52,7 @@ You use the **User Personalization** page to assign a user to a profile.
   
 3.  In the **User Personalization** window, fill in the fields described in the following table.  
   
-    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
+    |[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**User ID**|Choose the **AssistEdit** button to view all available user logins, select the relevant user, and then choose the **OK** button.<br /><br /> For more information, see [How to: Create Microsoft Dynamics NAV Users](../Topic/How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).|  
     |**Profile ID**|select a profile ID that you have already created. Choose the **AssistEdit** button to view all available profiles.|  

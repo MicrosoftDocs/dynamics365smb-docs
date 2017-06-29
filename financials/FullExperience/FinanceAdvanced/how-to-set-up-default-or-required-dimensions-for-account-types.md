@@ -45,7 +45,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Set Up Default or Required Dimensions for Account Types
-You can set up a default dimension for an account type. FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> will then copy this code to the journal, sales or purchase line when the account type is filled in on the line. However, you may delete or change the code if appropriate.  
+You can set up a default dimension for an account type. [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] will then copy this code to the journal, sales or purchase line when the account type is filled in on the line. However, you may delete or change the code if appropriate.  
   
  You can also make a dimension required, so that it is not possible to post an entry with a specific type of account unless the account has a dimension value assigned to it.  
   
@@ -57,7 +57,7 @@ You can set up a default dimension for an account type. FIX INCLUDE HERE<!--[!IN
   
 3.  On the **Navigate** tab, in the **Dimension** group, choose **Account Type Default Dim**.  
   
-4.  Fill in a line for each new default dimension that you want to set up. FIX INCLUDE HERE<!--[!INCLUDE[bp_fieldhelp]()] -->  
+4.  Fill in a line for each new default dimension that you want to set up. [!INCLUDE[bp_fieldhelp]()]  
   
 > [!TIP]  
 >  If you want to make a dimension required but you do not want to assign a default value to the dimension, leave the **Dimension Value Code** field blank and then select **Code Mandatory** in the **Value Posting** field.  

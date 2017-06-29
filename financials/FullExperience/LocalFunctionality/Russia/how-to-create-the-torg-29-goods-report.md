@@ -25,7 +25,7 @@ The TORG\-29 report shows the item documents that you can use to submit for rece
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
+    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_14919\_F\_1\_1210028 Location Code $\)**|Specifies the location that the report is for.|  
     |**\($ R\_14919\_F\_1\_1210003 Report No. $\)**|Specifies the number of times that the report has printed based on the value of the **Last Goods Report No.** field in the **Location Card** window.|  

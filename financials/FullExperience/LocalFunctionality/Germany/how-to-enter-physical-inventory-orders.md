@@ -33,7 +33,7 @@ A physical inventory order is a complete document that consists of a physical in
   
 3.  Fill in the fields as described in the following table.  
   
-    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> --> -->|  
+    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**Description**|Sets a description for the physical inventory order.|  
     |**Location Code**|Sets location code for the item in the order line.|  
@@ -41,7 +41,7 @@ A physical inventory order is a complete document that consists of a physical in
     |**Order Date**|Sets the creation date for the physical inventory order.|  
     |**Posting Date**|Sets the posting date for the physical inventory order.|  
   
- You can add lines to the physical inventory order manually, or FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> can create new physical inventory order lines automatically. To create new physical inventory order lines automatically, you have two possibilities:  
+ You can add lines to the physical inventory order manually, or [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] can create new physical inventory order lines automatically. To create new physical inventory order lines automatically, you have two possibilities:  
   
 -   You can create new physical inventory order lines based on inventory items and item ledger entries.  
   

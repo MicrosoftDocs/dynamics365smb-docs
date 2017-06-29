@@ -17,7 +17,7 @@ translation.priority.ht:
   - "da-dk"
 ---
 # Denmark Local Functionality
-This section describes local functionality in FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> in Denmark.  
+This section describes local functionality in [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] in Denmark.  
   
 ## In This Section  
  [What's New](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Denmark/what-s-new.md)  

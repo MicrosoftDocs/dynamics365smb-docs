@@ -29,7 +29,7 @@ You can use the **CBG Posting \- Test** report to edit the statement lines and s
   
 2.  In the **Cash Journal** window, on the **Actions** tab, choose **Test Report**.  
   
-3.  To include the information on applied entries for the statement lines, on the **FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_optionsheading](../../DesignAndEngineering/includes/bp_optionsheading_md.md)] --> -->** FastTab, select the **\($ R\_11400\_N\_2\_5 Show Applied Entries $\)** check box.  
+3.  To include the information on applied entries for the statement lines, on the **[!INCLUDE[bp_optionsheading](../../DesignAndEngineering/includes/bp_optionsheading_md.md)]** FastTab, select the **\($ R\_11400\_N\_2\_5 Show Applied Entries $\)** check box.  
   
      For more information, see [How to: Apply and Unapply General Ledger Entries](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-apply-and-unapply-general-ledger-entries.md).  
   

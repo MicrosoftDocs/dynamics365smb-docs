@@ -25,7 +25,7 @@ After you create a recurring group, you can set up recurring orders on the blank
   
 3.  On the **General** FastTab, fill in the fields as described in the following table.  
   
-    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> -->|  
+    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**Order Date**|Enter the order date. The order date is used when you create new recurring orders. Orders with an order date on or before the processing date are processed.|  
     |**Recurring Group Code**|Enter the recurring group code for the recurring group. When a blanket order contains a recurring group code, the blanket order is available as a recurring order.|  

@@ -28,9 +28,9 @@ You must submit a periodic report of goods and services tax \(GST\) settlement. 
   
 2.  Choose the appropriate BAS calculation sheet, and then, on the **Actions** tab, choose **Calculate GST Statement**.  
   
-3.  On the **FIX INCLUDE HERE<!--[!INCLUDE[bp_optionsheading](../../DesignAndEngineering/includes/bp_optionsheading_md.md)] -->** FastTab, fill in the fields as described in the following table.  
+3.  On the **[!INCLUDE[bp_optionsheading](../../DesignAndEngineering/includes/bp_optionsheading_md.md)]** FastTab, fill in the fields as described in the following table.  
   
-    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
+    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_11603\_N\_2\_1 Settlement Account Type $\)**|The settlement account type.|  
     |**\($ R\_11603\_N\_2\_3 Settlement Account No. $\)**|The general ledger account number or vendor number, based on the type selected in the **Settlement Account Type** field.|  

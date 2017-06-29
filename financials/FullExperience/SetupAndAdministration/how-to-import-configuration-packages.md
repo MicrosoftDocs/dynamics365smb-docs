@@ -42,7 +42,7 @@ translation.priority.ht:
 When you create a new company, you can import company settings for the new company. You import the settings from a .rapidstart file, which delivers the package contents in a compressed format. A corresponding set of default data migration tables are imported. The data set contains master data tables and the setup data tables. Your first task in data migration is to evaluate if the default migration setup meets the needs of the new company.  
   
 > [!NOTE]  
->  You cannot rename a file that is not already a FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[rim](../Roles/includes/rim_md.md)] --> --> --> configuration package as a .rapidstart configuration package file and then try to import it into FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> -->. If you try to do so, you will receive an error message.  
+>  You cannot rename a file that is not already a [!INCLUDE[rim](../Roles/includes/rim_md.md)] configuration package as a .rapidstart configuration package file and then try to import it into [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]. If you try to do so, you will receive an error message.  
   
  The [!INCLUDE[rim](../Roles/includes/rim_md.md)] migration tools can be applied to any [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] table. Use the migration tools for fast and accurate data transfer.  
   

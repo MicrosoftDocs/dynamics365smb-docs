@@ -35,7 +35,7 @@ Withholding tax \(WHT\) is the tax withheld by a company when it makes a payment
   
 2.  Fill in the fields as described in the following table.  
   
-    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> -->|  
+    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**Code**|Specify the code for the product posting group. You can enter a maximum of 10 alphanumeric characters.|  
     |**Description**|Specify the description for the product posting group. You can enter a maximum of 50 alphanumeric characters.|  

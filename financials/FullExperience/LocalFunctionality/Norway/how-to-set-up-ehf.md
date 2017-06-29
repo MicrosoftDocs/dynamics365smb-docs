@@ -21,7 +21,7 @@ You must define a location for storing Elektronisk Handelsformat \(EHF\) files w
   
 2.  In the **\($ N\_459 Sales & Receivables Setup $\)** window, on the **E\-Invoice** FastTab, in the **Output Paths** section, fill in the fields as described in the following table.  
   
-    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> -->|  
+    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**Invoice Path**|The path and name of the folder where you want to store the EHF files for sales invoices.|  
     |**Cr. Memo Path**|The path and name of the folder where you want to store the EHF files for sales credit memos.|  

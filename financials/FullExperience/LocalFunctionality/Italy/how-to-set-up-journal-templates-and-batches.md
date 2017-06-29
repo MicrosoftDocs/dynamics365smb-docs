@@ -30,7 +30,7 @@ All European Union \(EU\) companies must submit Intrastat reports to the customs
   
 3.  In the **Intrastat Journal Templates** window, fill in the fields as described in the following table.  
   
-    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> -->|  
+    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**Name**|The name of the Intrastat journal template. You can enter a maximum of 10 alphanumeric characters.|  
     |**Description**|The description of the Intrastat journal template. You can enter a maximum of 80 alphanumeric characters.|  

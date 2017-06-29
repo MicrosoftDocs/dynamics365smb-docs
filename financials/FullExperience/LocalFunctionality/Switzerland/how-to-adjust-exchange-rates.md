@@ -40,9 +40,9 @@ If you have taxable sales in a foreign currency, you must use the official rate 
   
 5.  In the **Search** box, enter **Adjust Exchange Rates**, and then choose the related link.  
   
-6.  On the **Options** FastTab, fill in the fields as described in the following table. FIX INCLUDE HERE<!--[!INCLUDE[bp_fieldhelp]()] -->  
+6.  On the **Options** FastTab, fill in the fields as described in the following table. [!INCLUDE[bp_fieldhelp]()]  
   
-    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
+    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_595\_F\_1\_1 Starting Date $\)**|Enter a date to specify the beginning of the period for which entries will be adjusted.|  
     |**\($ B\_595\_F\_1\_2 Ending Date $\)**|Enter the last date for which entries will be adjusted. This date is typically the same as the posting date in the **\($ B\_595\_F\_1\_4 Posting Date $\)** field.|  

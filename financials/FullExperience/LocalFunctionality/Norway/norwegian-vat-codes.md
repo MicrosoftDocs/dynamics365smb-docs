@@ -16,9 +16,9 @@ translation.priority.ht:
   - "nb-no"
 ---
 # Norwegian VAT Codes
-In FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> --> --> -->, VAT processing information can be easily set up using standard Norwegian VAT codes. The following table shows the standard Norwegian VAT codes.  
+In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], VAT processing information can be easily set up using standard Norwegian VAT codes. The following table shows the standard Norwegian VAT codes.  
   
-|**Code**|**FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> -->**|  
+|**Code**|**[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]**|  
 |--------------|-------------------------------------------|  
 |**0**|Sale \- No VAT|  
 |**1**|Purchase \- VAT|  
@@ -75,7 +75,7 @@ In FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<
   
  The general posting type will be handled in two ways, depending on the value in the **Test Gen. Posting Type** field.  
   
-|**FIX INCLUDE HERE<!--[!INCLUDE[bp_optionsheading](../../DesignAndEngineering/includes/bp_optionsheading_md.md)] -->**|**[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]**|  
+|**[!INCLUDE[bp_optionsheading](../../DesignAndEngineering/includes/bp_optionsheading_md.md)]**|**[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]**|  
 |-----------------------------------------|-------------------------------------------|  
 |**Mandatory**|The general posting type is automatically set to **Sale** on journal lines. Before you post, [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] verifies if the general posting type is specified, but there is no verification if the field is set to **Sale**.<br /><br /> **VAT Code 3** can be used for both sales and purchase documents.|  
 |**Same**|The general posting type is automatically set to **Sale** on journal lines. Before you post, [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] verifies if the general posting type is set to **Sale**.<br /><br /> **VAT Code 3** can be used for sales documents, but not on purchase documents.<br /><br /> This enables you to restrict the use of VAT codes to predefined general posting types.|  

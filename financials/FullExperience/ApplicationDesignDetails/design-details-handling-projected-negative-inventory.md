@@ -72,7 +72,7 @@ The reorder point expresses the anticipated demand during the lead time of the i
 9. Final check: No outstanding inventory level reminders exist.  
   
 > [!NOTE]  
->  Step 4 reflects how the system reacts in versions earlier than FIX INCLUDE HERE<!--[!INCLUDE[nav2009sp1](../ApplicationDesign/includes/nav2009sp1_md.md)] -->.  
+>  Step 4 reflects how the system reacts in versions earlier than [!INCLUDE[nav2009sp1](../ApplicationDesign/includes/nav2009sp1_md.md)].  
   
  This concludes the description of central principles relating to inventory planning based on reordering policies. The following section describes the characteristics of the four supported reordering policies.  
   

@@ -12,7 +12,7 @@ ms.author: "edupont"
 manager: "terryaus"
 ---
 # United States Local Functionality
-The following topics describe the local functionality in the United States version of FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->.  
+The following topics describe the local functionality in the United States version of [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)].  
   
 ## In This Section  
  [What's New\-duplicate 5](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedStates/what-s-new-duplicate-5.md)  

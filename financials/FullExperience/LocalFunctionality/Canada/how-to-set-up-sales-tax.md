@@ -18,7 +18,7 @@ translation.priority.ht:
   - "fr-ca"
 ---
 # How to: Set Up Sales Tax
-In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->, you need to set the tax calculation type before you can set up sales tax.  
+In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you need to set the tax calculation type before you can set up sales tax.  
   
 ### To set up sales tax  
   

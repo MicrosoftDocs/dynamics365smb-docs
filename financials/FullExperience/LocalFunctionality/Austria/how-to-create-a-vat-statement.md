@@ -15,7 +15,7 @@ translation.priority.ht:
   - "de-at"
 ---
 # How to: Create a VAT Statement
-FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> allows you to submit a periodic report of VAT transactions. The VAT statement is submitted as a FDF file that corresponds with an editable PDF file from the tax authorities.  
+[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] allows you to submit a periodic report of VAT transactions. The VAT statement is submitted as a FDF file that corresponds with an editable PDF file from the tax authorities.  
   
 > [!IMPORTANT]  
 >  You must fill in detailed information about your company address in the Company Information window before you create the VAT statement. This includes information about street, building, floor, and room number. This information is included in the FDF file.  
@@ -26,7 +26,7 @@ FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
+    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_11110\_N\_2\_1160010 Starting Date $\)**|Specifies the start date of the VAT period.|  
     |**\($ B\_11110\_N\_2\_1160012 Ending Date $\)**|Specifies the end date of the VAT period.|  

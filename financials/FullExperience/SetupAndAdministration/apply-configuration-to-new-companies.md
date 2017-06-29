@@ -45,7 +45,7 @@ After you have created a configuration package, the next step is to deploy the p
   
 |**To**|**See**|  
 |------------|-------------|  
-|Create a new company in the FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> database.|[How to: Create a New Company](../SetupAndAdministration/how-to-create-a-new-company.md)|  
+|Create a new company in the [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] database.|[How to: Create a New Company](../SetupAndAdministration/how-to-create-a-new-company.md)|  
 |Import and apply a configuration package to a new company.|[How to: Configure New Companies](../SetupAndAdministration/how-to-configure-new-companies.md)|  
 |Help a customer complete their own configuration.|[How to: Configure a Company with the RapidStart Wizard](../SetupAndAdministration/how-to-configure-a-company-with-the-rapidstart-wizard.md)|  
 |Apply journal entries.|[How to: Create Journal Opening Balances](../SetupAndAdministration/how-to-create-journal-opening-balances.md)|  

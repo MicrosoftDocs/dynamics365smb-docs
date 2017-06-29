@@ -63,7 +63,7 @@ You can direct the flow of items through bins that you have defined for particul
   
  The bin types that you can create are listed below.  
   
-|**Bin type**|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
+|**Bin type**|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
 |------------------|---------------------------------------|  
 |RECEIVE|Items registered as posted receipts but not yet put away.|  
 |SHIP|Items picked for warehouse shipment lines but not yet posted as shipped.|  

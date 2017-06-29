@@ -17,7 +17,7 @@ ms.author: "edupont"
 manager: "terryaus"
 ---
 # How to: Print Vendor 1099 Information Reports
-In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->, you can use the following tax forms to report 1099 transactions:  
+In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can use the following tax forms to report 1099 transactions:  
   
 -   Vendor 1099 Div – Dividends  
   
@@ -41,7 +41,7 @@ In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow
   
 4.  On the **Invoicing** FastTab, fill in the fields as described in the following table.  
   
-    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
+    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**IRS 1099 Code**|Select the 1099 code for the vendor.|  
     |**Tax Liable**|Select to set the tax liability for the vendor.|  

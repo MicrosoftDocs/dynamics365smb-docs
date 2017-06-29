@@ -17,7 +17,7 @@ translation.priority.ht:
   - "en-gb"
 ---
 # United Kingdom Local Functionality
-The following topics describe the local functionality in the United Kingdom version of FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->.  
+The following topics describe the local functionality in the United Kingdom version of [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)].  
   
 ## In This Section  
  [What's New\-duplicate 16](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/what-s-new-duplicate-16.md)  

@@ -55,7 +55,7 @@ Plan movements in the worksheet using a bin replenishment function or manually p
   
 2.  On the **Actions** tab, in the **Functions** group, choose **Calculate Bin Replenishment**.  
   
-     FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> creates lines that indicate precisely how you should move items from the low\-ranking bins to the higher\-ranking bins.  
+     [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] creates lines that indicate precisely how you should move items from the low\-ranking bins to the higher\-ranking bins.  
   
     > [!NOTE]  
     >  A movement is suggested according to FEFO when you activate the **Create Movement** function if the following conditions are met for an item:  

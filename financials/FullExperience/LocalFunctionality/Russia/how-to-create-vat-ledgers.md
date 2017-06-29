@@ -29,7 +29,7 @@ You can create and store any number of VAT ledgers. For example, you can create 
   
 2.  In the **VAT Ledger List** window, fill in the fields as described in the following table.  
   
-    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
+    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**Type**|Select the type of VAT ledger.|  
     |**Code**|Enter the code of the number series that is used for the VAT ledger. You can view the available codes in the **No. Series** window.|  

@@ -54,7 +54,7 @@ You cancel you basic UI changes and decisions for handling of files and automati
   
 2.  Choose the **Reset UI settings** button. Alternatively, choose the **Reset all** button to also cancel your decisions for handling files and automation objects.  
   
- All basic UI changes that you have ever made under your current user logon to FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)] --> --> -->, or since you last chose the **Reset UI settings** button, are canceled. The user interface is reset to the default configuration for your profile.  
+ All basic UI changes that you have ever made under your current user logon to [!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)], or since you last chose the **Reset UI settings** button, are canceled. The user interface is reset to the default configuration for your profile.  
   
 ### To cancel your decision for running or saving external files  
   

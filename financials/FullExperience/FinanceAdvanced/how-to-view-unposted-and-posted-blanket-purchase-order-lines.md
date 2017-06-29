@@ -49,7 +49,7 @@ The link between the blanket order and the originating purchase order is retaine
   
 3.  To view unposted entries, on the **Lines** FastTab, select the line in question, choose **Actions**![Action Menu icon](../DesignAndEngineering/media/actionmenuicon.png "actionMenuIcon"), choose **Line**, and then choose **Unposted Lines**. Choose one of the following options.  
   
-    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)] --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)] --> -->|  
+    |[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)]|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |----------------------------------|---------------------------------------|  
     |**Orders**|Open orders associated with the selected line.|  
     |**Invoices**|Open invoices that have been associated with the selected line. Open invoices are manually associated with a blanket order by entering the blanket order number on the purchase invoice line.|  

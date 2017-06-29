@@ -47,7 +47,7 @@ As you create a configuration package for a solution, you can view and customize
 1.  In the configuration worksheet, identify the tables whose data that you want to view or customize.  
   
     > [!NOTE]  
-    >  Make sure that each table has a page ID assigned to it. For standard FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> --> tables, this value is automatically filled in. For custom tables, you have to provide the ID.  
+    >  Make sure that each table has a page ID assigned to it. For standard [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] tables, this value is automatically filled in. For custom tables, you have to provide the ID.  
   
 2.  On the **Actions** tab, in the **Show** group, choose **Database Data**.  
   

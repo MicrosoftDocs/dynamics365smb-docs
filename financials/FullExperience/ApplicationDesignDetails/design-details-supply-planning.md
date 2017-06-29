@@ -39,7 +39,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Design Details: Supply Planning
-This documentation provides detailed technical insight to the concepts and principles that are used within the Supply Planning features in FIX INCLUDE HERE<!--[!INCLUDE[nav_current_long](../ApplicationDesign/includes/nav_current_long_md.md)] -->.  
+This documentation provides detailed technical insight to the concepts and principles that are used within the Supply Planning features in [!INCLUDE[nav_current_long](../ApplicationDesign/includes/nav_current_long_md.md)].  
   
  It explains how the planning system works and how to adjust the algorithms to meet planning requirements in different environments. It first introduces central solution concepts and then describes the logic of the central mechanism, supply balancing, before proceeding to explain how inventory planning is performed with the use of reordering policies.  
   

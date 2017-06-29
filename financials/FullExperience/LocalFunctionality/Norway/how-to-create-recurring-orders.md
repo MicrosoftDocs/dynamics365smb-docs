@@ -23,7 +23,7 @@ The create recurring orders process will find all of the recurring orders based 
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
+    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_15000300\_F\_1\_1 Processing Date $\)**|Enter the date to process the blanket orders.|  
     |**\($ B\_15000300\_F\_1\_3 Create only latest $\)**|Select to create only the latest recurring order for the blanket orders processed. This option overrides the equivalent option for the recurring group.|  

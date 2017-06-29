@@ -14,4 +14,4 @@ translation.priority.ht:
   - "nl-nl"
 ---
 # Payables and Receivables
-FIX INCLUDE HERE<!--[!INCLUDE[emptyBookNodeText](../../Finance/includes/emptybooknodetext_md.md)] -->
+[!INCLUDE[emptyBookNodeText](../../Finance/includes/emptybooknodetext_md.md)]

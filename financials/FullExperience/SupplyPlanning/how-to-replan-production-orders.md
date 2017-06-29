@@ -63,7 +63,7 @@ This planning function calculates changes made to components and routings lines,
   
 6.  In the **Scheduling Direction** field, select one of the following options.  
   
-    |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)] --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)] --> -->|  
+    |[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)]|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |----------------------------------|---------------------------------------|  
     |**Back**|Calculates the operation sequence backwards from the earliest possible ending date, defined by due date and\/or other scheduled orders, to the latest possible starting date. **Note:**  This default option is relevant in the majority of situations.|  
     |**Forward**|Calculates the operation sequence forward from the earliest latest possible starting date, defined by due date and\/or other scheduled orders, to the earliest possible ending date. **Note:**  This option is only relevant for expedite orders.|  

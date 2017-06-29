@@ -16,7 +16,7 @@ translation.priority.ht:
   - "fi-fi"
 ---
 # Finland Local Functionality
-The following topics describe the local functionality in the Finnish version of FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->.  
+The following topics describe the local functionality in the Finnish version of [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)].  
   
 ## In This Section  
  [Automatic Account Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Finland/automatic-account-codes.md)  

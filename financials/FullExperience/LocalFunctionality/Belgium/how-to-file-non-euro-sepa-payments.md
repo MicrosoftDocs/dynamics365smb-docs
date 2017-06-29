@@ -16,7 +16,7 @@ translation.priority.ht:
   - "nl-be"
 ---
 # How to: File Non-Euro SEPA Payments
-In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->, you can file non\-euro SEPA payments with the bank. This is useful when you make payments to other countries that do not use SEPA and for currencies other than the euro.  
+In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can file non\-euro SEPA payments with the bank. This is useful when you make payments to other countries that do not use SEPA and for currencies other than the euro.  
   
  Before you can file a non\-euro SEPA payment you must complete the following administration tasks:  
   
@@ -34,7 +34,7 @@ In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow
   
 2.  Fill in the fields as described in the following table.  
   
-    |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
+    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_2000006\_N\_2\_1 Journal Template Name $\)**|Specify the general journal template for the non\-euro SEPA payment report.|  
     |**\($ B\_2000006\_N\_2\_7 Journal Batch $\)**|Specify the general journal batch for the non\-euro SEPA payment report.|  

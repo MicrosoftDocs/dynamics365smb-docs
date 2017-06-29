@@ -17,7 +17,7 @@ translation.priority.ht:
   - "en-au"
 ---
 # Australia Local Functionality
-The following topics describe the local functionality in the Australian version of FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->.  
+The following topics describe the local functionality in the Australian version of [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)].  
   
 ## In This Section  
  [What's New\-duplicate 11](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/what-s-new-duplicate-11.md)  

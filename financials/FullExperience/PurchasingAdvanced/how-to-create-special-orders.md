@@ -40,7 +40,7 @@ You can create a special order for a specific nonstock item to be shipped to a s
   
 7.  On the requisition worksheet line, in the **Action Message** field, select **New**.  
   
-8.  In the **Req. Worksheet** window, on the **Actions** tab, in the **Functions** group, choose **Carry Out Action Message**. The **Carry Out Action Msg. - Req.** window opens. Choose the **OK** button.  
+8.  In the **Req. Worksheet** window, on the **Actions** tab, in the **Functions** group, choose **Carry Out Action Message**. The **Carry Out Action Msg. \- Req.** window opens. Choose the **OK** button.  
   
      A message appears telling you that the purchase orders have been created. Choost the **OK** button.  
   
@@ -53,5 +53,5 @@ You can create a special order for a specific nonstock item to be shipped to a s
  Purchasing Code   
  Reserve   
  [How to: Create Drop Shipments](../Purchasing/how-to-create-drop-shipments.md)   
- Calculate Plan - Req. Wksh.   
+ Calculate Plan \- Req. Wksh.   
  [Design Details: Reservation, Order Tracking, and Action Messaging](../ApplicationDesign/design-details-reservation-order-tracking-and-action-messaging.md)

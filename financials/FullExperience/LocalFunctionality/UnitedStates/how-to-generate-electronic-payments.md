@@ -39,7 +39,7 @@ When you select electronic payment in the payment journal, the information is ex
     |**New Doc. No. per Line**|Select to fill in the payment journal lines with consecutive document numbers.|  
     |**Bal. Account Type**|Select **Bank Account** for the balance account type.|  
     |**Bal. Account No.**|The balance account number.|  
-    |**Bank Payment Type**|Select **Electronic Payment** to export payment journal entries to a file using the Automated Clearing House \(ACH\) standard file format.<br /><br /> –or–<br /><br /> Select **Electronic Payment-IAT** to export payment journal entries to a file using the International ACH Transaction \(IAT\) file format. This file format is required if a payment transaction involves financial agencies outside of the United States.|  
+    |**Bank Payment Type**|Select **Electronic Payment** to export payment journal entries to a file using the Automated Clearing House \(ACH\) standard file format.<br /><br /> –or–<br /><br /> Select **Electronic Payment\-IAT** to export payment journal entries to a file using the International ACH Transaction \(IAT\) file format. This file format is required if a payment transaction involves financial agencies outside of the United States.|  
   
 4.  On the **Vendor** FastTab, select the appropriate filters.  
   
@@ -52,7 +52,7 @@ When you select electronic payment in the payment journal, the information is ex
  Priority   
  [How to: Set Up Electronic Payments for Bank Accounts](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-set-up-electronic-payments-for-bank-accounts.md)   
  [How to: Void Posted Checks](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-void-posted-checks.md)   
- [Bank Payment Type-duplicate](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-t_81_70-bank-payment-type-$-duplicate.md)   
+ [Bank Payment Type\-duplicate](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-t_81_70-bank-payment-type-$-duplicate.md)   
  [Electronic Payments for United States, Canada, and Mexico](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/electronic-payments-for-united-states-canada-and-mexico.md)   
  [How to: Transmit Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-transmit-electronic-payments.md)   
- [How to: Export Electronic Payments-duplicate](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-export-electronic-payments-duplicate.md)
+ [How to: Export Electronic Payments\-duplicate](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-export-electronic-payments-duplicate.md)

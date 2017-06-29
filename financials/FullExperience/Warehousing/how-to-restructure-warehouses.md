@@ -20,19 +20,19 @@ You may want to restructure your warehouse with new bin codes and new bin charac
   
  You will not undertake this kind of activity very often, but situations can occur where a reclassification is necessary to achieve or maintain a more efficient operation. For example:  
   
-1.  You might want to switch to bin codes that support the use of automatic data capture, for example, with hand-held devices.  
+1.  You might want to switch to bin codes that support the use of automatic data capture, for example, with hand\-held devices.  
   
 2.  The warehouse may have purchased a new rack system that gives new possibilities in item storage.  
   
 3.  The company may have altered its item assortment and moved the warehouse to a new physical location to accommodate this change.  
   
- If your warehouse is set up to use bins but not directed put-away and pick, restructure your warehouse by creating the new bins that you want to use in the future.  
+ If your warehouse is set up to use bins but not directed put\-away and pick, restructure your warehouse by creating the new bins that you want to use in the future.  
   
 ### To restructure a basic warehouse that uses bins only  
   
 1.  In the **Search** box, enter **Locations**, and then choose the related link.  
   
-2.  On the **Warehouse** FastTab, set the **Default Bin Selection** field to **Last-Used Bin**.  
+2.  On the **Warehouse** FastTab, set the **Default Bin Selection** field to **Last\-Used Bin**.  
   
 3.  Move all the contents of your current bins to the new bins that you have just created.  
   
@@ -52,7 +52,7 @@ You may want to restructure your warehouse with new bin codes and new bin charac
   
  You have now emptied the bins where the items used to be. The default bins for your items have now been changed to the new bins.  
   
-### To restructure an advanced warehouse that uses directed put-away and pick  
+### To restructure an advanced warehouse that uses directed put\-away and pick  
   
 1.  Create the new bins that you want to use in the future. For more information, see [How to: Create Bins in the Bin Creation Worksheet](../WarehouseActivities/how-to-create-bins-in-the-bin-creation-worksheet.md).  
   
@@ -99,13 +99,13 @@ You may want to restructure your warehouse with new bin codes and new bin charac
 4.  Choose the **Yes** button.  
   
 > [!NOTE]  
->  If you choose **Yes** and there are many entries concerning this bin, for example, because you have not deleted warehouse documents for some time, it may take some time to rename all the records. Therefore, if you use this method, consider running the batch job **Delete Registered Whse. Documents** before you start the renaming process. Also note that the only documents that are deleted in this batch job are put-aways, picks, and movements.  
+>  If you choose **Yes** and there are many entries concerning this bin, for example, because you have not deleted warehouse documents for some time, it may take some time to rename all the records. Therefore, if you use this method, consider running the batch job **Delete Registered Whse. Documents** before you start the renaming process. Also note that the only documents that are deleted in this batch job are put\-aways, picks, and movements.  
 >   
 >  If you are renaming a receiving bin or a shipping bin, all the posted receipts or shipments that refer to the bin in question are renamed.  
   
 ## See Also  
  [How to: Set Up Locations to Use Bins](../WarehouseActivities/how-to-set-up-locations-to-use-bins.md)   
- [How to: Set Up Warehouses for Directed Put-away and Pick](../WarehouseActivities/how-to-set-up-warehouses-for-directed-put-away-and-pick.md)   
+ [How to: Set Up Warehouses for Directed Put\-away and Pick](../WarehouseActivities/how-to-set-up-warehouses-for-directed-put-away-and-pick.md)   
  [How to: Set Up Warehouse Management](../WarehouseActivities/how-to-set-up-warehouse-management.md)   
  Bin Content   
  [How to: Set Up Bin Contents](../WarehouseActivities/how-to-set-up-bin-contents.md)   

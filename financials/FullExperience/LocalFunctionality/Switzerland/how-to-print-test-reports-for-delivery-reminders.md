@@ -24,9 +24,9 @@ After you have created delivery reminders and made any needed modifications, you
   
 1.  In the **Search** box, enter **Delivery Reminder**, and then choose the related link.  
   
-2.  In the **Delivery Reminder List** window, on the **Report** tab, choose **Delivery Reminder - Test**.  
+2.  In the **Delivery Reminder List** window, on the **Report** tab, choose **Delivery Reminder \- Test**.  
   
-3.  In the **Delivery Reminder - Test** window, set a filter if you want to print only selected delivery reminders.  
+3.  In the **Delivery Reminder \- Test** window, set a filter if you want to print only selected delivery reminders.  
   
 4.  Choose the **Print** to print the report or choose the **Preview** button to view it on the screen.  
   
@@ -34,4 +34,4 @@ After you have created delivery reminders and made any needed modifications, you
  [Delivery Reminders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/delivery-reminders.md)   
  [How to: Generate Delivery Reminders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-generate-delivery-reminders.md)   
  [How to: Issue Delivery Reminders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-issue-delivery-reminders.md)   
- Delivery Reminder - Test
+ Delivery Reminder \- Test

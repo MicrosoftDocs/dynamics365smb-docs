@@ -32,17 +32,17 @@ You can configure different types of VAT reports based on requirements. Then, wh
     |**Start Date**|Specify the start date of the report period.|  
     |**End Date**|Specify the end date of the report period.|  
     |**EU Goods\/Services**|Specify whether the report applies to **Goods**, **Services**, or both. The default is **Both**.|  
-    |**Report Period Type**|Specify the time period that the report applies to:<br /><br /> -   Month<br />-   Quarter<br />-   Year<br />-   Bi-Monthly|  
+    |**Report Period Type**|Specify the time period that the report applies to:<br /><br /> -   Month<br />-   Quarter<br />-   Year<br />-   Bi\-Monthly|  
     |**Report Period No.**|Specify the number of the VAT period.|  
     |**Report Year**|Specify the year that the VAT report covers.|  
     |**Processing Date**|Specify the date that the VAT report is created.|  
   
-3.  Fill in the fields in the **Sign-off** FastTab, including the key fields that are described in the following table.  
+3.  Fill in the fields in the **Sign\-off** FastTab, including the key fields that are described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**Sign-off Place**|Specify the location where the VAT report was signed off.|  
-    |**Sign-off Date**|Specify the date that the VAT report has been signed off.|  
+    |**Sign\-off Place**|Specify the location where the VAT report was signed off.|  
+    |**Sign\-off Date**|Specify the date that the VAT report has been signed off.|  
     |**Signed by Employee No.**|Specify the number of the employee who signed the VAT report from the lookup list.|  
     |**Created by Employee No.**|Specify the number of the employee who created the VAT report from the lookup list.|  
   
@@ -62,7 +62,7 @@ You can configure different types of VAT reports based on requirements. Then, wh
   
      FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> validates that the VAT report is set up correctly. If the validation fails, the errors are shown in the **VAT Report Error Log** window so that you can make the appropriate changes. For example, an error displays if you try to release a standard VAT report but you have not yet added any lines to the report.  
   
-     When you mark a VAT report as released, it becomes non-editable. If you must change the report after marking it as released, you must first reopen it.  
+     When you mark a VAT report as released, it becomes non\-editable. If you must change the report after marking it as released, you must first reopen it.  
   
 3.  On the **Actions** tab, choose **Export** to create a VAT report of EU Sales List data in ELMA5 format. Save a copy of the report, which has the required name specified by ELMA5.  
   

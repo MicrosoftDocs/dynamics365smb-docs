@@ -28,7 +28,7 @@ Intrastat reporting is required throughout the European Union \(EU\) and must fo
   
 3.  On the **Home** tab, in the **Process** group, choose **Checklist Report**.  
   
-4.  In the **Intrastat - Checklist DE** window, on the **Options** FastTab, select the **Show Intrastat Journal Lines** check box.  
+4.  In the **Intrastat \- Checklist DE** window, on the **Options** FastTab, select the **Show Intrastat Journal Lines** check box.  
   
     > [!IMPORTANT]  
     >  If you clear the **Show Intrastat Journal Lines** check box, the report displays only the information that must be reported to the tax authorities, and not the lines in the journal.  

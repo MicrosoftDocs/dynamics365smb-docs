@@ -44,7 +44,7 @@ Future expense journals are used to post expenses to a special account on a mont
     |**Document No.**|Specifies the document number that is associated with the future expense journal.|  
     |**FA No.**|Specifies the fixed asset number that is associated with the future expense journal.|  
     |**Depreciation Book Code**|Specifies the depreciation book code that is associated with the future expense journal.|  
-    |**FA Posting Type**|Specifies the fixed asset posting type that is associated with the future expense journal. Fixed asset posting types include **Acquisition Cost**, **Depreciation**, **Write-Down**, **Appreciation**, **Custom 1**, **Custom 2**, **Disposal**, **Maintenance**, **Salvage Value**, and **Transfer**.|  
+    |**FA Posting Type**|Specifies the fixed asset posting type that is associated with the future expense journal. Fixed asset posting types include **Acquisition Cost**, **Depreciation**, **Write\-Down**, **Appreciation**, **Custom 1**, **Custom 2**, **Disposal**, **Maintenance**, **Salvage Value**, and **Transfer**.|  
     |**Description**|Specifies the description that is associated with the future expense journal.|  
     |**Location Code**|Specifies the location code that is associated with the future expense journal.|  
     |**Amount**|Specifies the amount that is associated with the future expense journal.|  

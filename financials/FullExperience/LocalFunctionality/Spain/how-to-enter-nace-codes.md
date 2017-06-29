@@ -28,7 +28,7 @@ Nomenclature génerale des Activités économiques dans les Communautés Europé
   
 -   Financial operations  
   
- You can enter NACE codes in the **Company Information** window. NACE codes are unique five- or six-digit codes that are assigned to industry sectors. For example, DA.15.83 - Manufacture of Sugar.  
+ You can enter NACE codes in the **Company Information** window. NACE codes are unique five\- or six\-digit codes that are assigned to industry sectors. For example, DA.15.83 \- Manufacture of Sugar.  
   
 ### To enter NACE codes  
   

@@ -38,10 +38,10 @@ Código Cuenta Cliente \(CCC\) is a unique account code used by banks to identif
   
     |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] -->|Position|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
     |---------------------------------|--------------|---------------------------------------|  
-    |**CCC Bank No.**|1-4|Identifies the bank where the account has been opened.|  
-    |**CCC Bank Branch No.**|5-8|Identifies the branch code. If the bank does not use this reference, the branch code can be zeros.|  
-    |**CCC Control Digits**|9-10|Identifies the control digits.|  
-    |**CCC Bank Account No.**|11-20 \(Spain\)<br /><br /> 11-21 \(Portugal\)|Identifies the account number, which may be adjusted with preceding zeros.|  
+    |**CCC Bank No.**|1\-4|Identifies the bank where the account has been opened.|  
+    |**CCC Bank Branch No.**|5\-8|Identifies the branch code. If the bank does not use this reference, the branch code can be zeros.|  
+    |**CCC Control Digits**|9\-10|Identifies the control digits.|  
+    |**CCC Bank Account No.**|11\-20 \(Spain\)<br /><br /> 11\-21 \(Portugal\)|Identifies the account number, which may be adjusted with preceding zeros.|  
   
  The following procedure describes how to set up bank CCC codes for existing customer bank accounts, but the same steps apply to vendors, bank accounts, and company information.  
   

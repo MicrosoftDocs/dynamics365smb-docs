@@ -16,10 +16,10 @@
 
     ---
 # How to: Post Quantity Adjustments for Bins
-If you are using bins at a location, you will need to occasionally adjust the quantity in a bin, when the quantity recorded in the system is inaccurate because of a physical gain or loss of an item. There are two methods of posting a quantity adjustment in a bin. Which one you use depends on whether the location is set up to use directed put-away and pick or not. The two methods are described below.  
+If you are using bins at a location, you will need to occasionally adjust the quantity in a bin, when the quantity recorded in the system is inaccurate because of a physical gain or loss of an item. There are two methods of posting a quantity adjustment in a bin. Which one you use depends on whether the location is set up to use directed put\-away and pick or not. The two methods are described below.  
   
 ## Bin Adjustment in Basic Warehouse that Use Bins Only  
- If you are not using directed put-away and pick at the location, you can change the quantity in a bin with the  **Item Journal** window. Posting the item journal adjusts the quantity in the item ledger entries and the related warehouse entries.  
+ If you are not using directed put\-away and pick at the location, you can change the quantity in a bin with the  **Item Journal** window. Posting the item journal adjusts the quantity in the item ledger entries and the related warehouse entries.  
   
 #### To post bin adjustment in basic warehouses that use bins only  
   
@@ -29,8 +29,8 @@ If you are using bins at a location, you will need to occasionally adjust the qu
   
 3.  Post the journal lines.  
   
-## Bin Adjustment in Advanced Warehouses that Use Directed Put-away and Pick  
- If you are using directed put-away and pick at the location, you use the **Warehouse Item Journal** window to perform extraordinary quantity changes in the warehouse bins. For more information, see [How to: Register Quantity Adjustments in Warehouse Item Journals](../WarehouseActivities/how-to-register-quantity-adjustments-in-warehouse-item-journals.md).  
+## Bin Adjustment in Advanced Warehouses that Use Directed Put\-away and Pick  
+ If you are using directed put\-away and pick at the location, you use the **Warehouse Item Journal** window to perform extraordinary quantity changes in the warehouse bins. For more information, see [How to: Register Quantity Adjustments in Warehouse Item Journals](../WarehouseActivities/how-to-register-quantity-adjustments-in-warehouse-item-journals.md).  
   
  When you register these differences, the positive and negative adjustment quantities are registered in the warehouse adjustment bin, but the quantities are not posted to the item ledger until you post the content of the adjustment bin.  
   
@@ -39,7 +39,7 @@ If you are using bins at a location, you will need to occasionally adjust the qu
   
  At appropriate intervals as defined by company policy, you must post the warehouse adjustment bin records in the item ledger. Some companies find it appropriate to post adjustments to the item ledger every day, while others may find it adequate to reconcile less frequently.  
   
-#### To post bin adjustment in advanced warehouses that use directed put-away and pick  
+#### To post bin adjustment in advanced warehouses that use directed put\-away and pick  
   
 1.  In the **Search** box, enter **Item Journal**, and then choose the related link.  
   

@@ -51,5 +51,5 @@ In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow
  File SEPA Payments   
  [How to: Set Up Export Protocols](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-export-protocols.md)   
  Export Protocol   
- [How to: File Non-Euro SEPA Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-file-non-euro-sepa-payments.md)   
+ [How to: File Non\-Euro SEPA Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-file-non-euro-sepa-payments.md)   
  [How to: Activate SEPA Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-activate-sepa-payments.md)

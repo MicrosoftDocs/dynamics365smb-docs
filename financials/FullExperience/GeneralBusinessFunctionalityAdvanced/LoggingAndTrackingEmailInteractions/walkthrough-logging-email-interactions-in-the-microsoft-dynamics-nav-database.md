@@ -22,7 +22,7 @@ In managing your relationships with contacts, it helps keep track of email corre
   
  After you have implemented email logging, you can make email correspondence available to all employees, even if a message was sent to a specific recipient. You do this by taking advantage of Exchange public folders. This improves knowledge sharing and enables better user productivity, because information is stored in one common location.  
   
- Because email logging is server-based, email messages are kept in their native environment instead of in the application. This makes it easier to administer and optimize database storage.  
+ Because email logging is server\-based, email messages are kept in their native environment instead of in the application. This makes it easier to administer and optimize database storage.  
   
 ## About This Walkthrough  
  This walkthrough describes how to install and maintain email logging for Microsoft Exchange Server in [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)].  
@@ -33,7 +33,7 @@ In managing your relationships with contacts, it helps keep track of email corre
   
 -   Testing and using email logging.  
   
--   Performance fine-tuning.  
+-   Performance fine\-tuning.  
   
 ### Roles  
  This walkthrough provides tasks that are generally performed by the following user roles:  
@@ -104,11 +104,11 @@ In managing your relationships with contacts, it helps keep track of email corre
   
 1.  In the **Search** box, enter **Interaction Template Setup**, and then choose the related link.  
   
-2.  On the **General** FastTab, in the **E-Mails** field, select a template. For this walkthrough, select **EMAIL**. Choose the **OK** button. For more information, see [Interactions](../../Marketing/interactions.md).  
+2.  On the **General** FastTab, in the **E\-Mails** field, select a template. For this walkthrough, select **EMAIL**. Choose the **OK** button. For more information, see [Interactions](../../Marketing/interactions.md).  
   
 3.  In the **Search** box, enter **Marketing Setup**, and then choose the related link.  
   
-4.  Expand the **E-Mail Logging** FastTab and in the **Autodiscovery E-mail Address** field, enter the email address of a user in your company who has an email account on a Microsoft Exchange Server.  
+4.  Expand the **E\-Mail Logging** FastTab and in the **Autodiscovery E\-mail Address** field, enter the email address of a user in your company who has an email account on a Microsoft Exchange Server.  
   
 5.  In the **Queue Folder Path** field, choose the **AssistEdit** button. The **Exchange Public Folders** window opens.  
   
@@ -212,7 +212,7 @@ In managing your relationships with contacts, it helps keep track of email corre
   
 3.  Choose **Edit** to open the contact card.  
   
-4.  Expand the **Communications** FastTab, and in the **E-mail** field, choose the button with a picture of an envelope on it. An Outlook window opens in which you can create and send a simple message.  
+4.  Expand the **Communications** FastTab, and in the **E\-mail** field, choose the button with a picture of an envelope on it. An Outlook window opens in which you can create and send a simple message.  
   
 5.  Send a message from the salesperson to the contact. Also send a message from the contact to the salesperson.  
   

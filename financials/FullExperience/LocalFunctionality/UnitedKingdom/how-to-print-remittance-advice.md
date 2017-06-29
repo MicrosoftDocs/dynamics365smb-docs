@@ -26,7 +26,7 @@ You can print remittance advice before posting a payment journal and after posti
   
 3.  On the **Navigate** tab, in the **Payments** group, choose **Print Remittance Advice**.  
   
-4.  In the **Remittance Advice - Journal** batch job, on the **Gen. Journal Line** FastTab, and select the appropriate filters.  
+4.  In the **Remittance Advice \- Journal** batch job, on the **Gen. Journal Line** FastTab, and select the appropriate filters.  
   
     > [!NOTE]  
     >  You can filter using the vendor's external document number to match payments with invoices.  
@@ -36,7 +36,7 @@ You can print remittance advice before posting a payment journal and after posti
 6.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- Remittance Advice - Journal   
- Remittance Advice - Entries   
+ Remittance Advice \- Journal   
+ Remittance Advice \- Entries   
  Payment Journal   
  [United Kingdom Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/united-kingdom-local-functionality.md)

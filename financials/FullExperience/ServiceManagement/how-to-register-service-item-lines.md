@@ -34,7 +34,7 @@ When you have created a service order or service quote, you need to register the
   
     -   If the service item is not registered, you can either register it as a service item or fill in the **Description** field. You can fill in the **Serial No.** and **Item No.** fields if appropriate.  
   
-    -   If the service item is registered, but included in a non-active contract, it will be added to the service order line with the **Contract No.** field left blank.  
+    -   If the service item is registered, but included in a non\-active contract, it will be added to the service order line with the **Contract No.** field left blank.  
   
 5.  On the **Lines** toolbar, on the **Line** menu, select **Comments**, and then choose **Faults** to, open the **Service Comments** window for the service item on the line. In the **Date** and **Comment** fields, enter the current date and whatever comments you or the customer may have on the faults of the service item.  
   

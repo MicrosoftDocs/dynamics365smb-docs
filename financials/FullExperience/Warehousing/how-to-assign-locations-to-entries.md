@@ -26,14 +26,14 @@ You can assign a location to an entry after you have posted it, for example, if 
   
 3.  In the **New Location Code** field, enter the location you want to assign to the entry.  
   
-4.  In the **Applies-to Entry** field, enter the entry number of the entry to which you want to add the location information.  
+4.  In the **Applies\-to Entry** field, enter the entry number of the entry to which you want to add the location information.  
   
 5.  Post the entry.  
   
  When you use a journal line to add information on an entry, two item ledger entries are created, one with a negative quantity and the location code from the **Location Code** field, and one with a positive quantity and the location code from the **New Location Code** field.  
   
 > [!NOTE]  
->  You cannot use the item reclassification journal to change a location if either the old or new location uses directed put-away and pick. You must instead use the transfer order.  
+>  You cannot use the item reclassification journal to change a location if either the old or new location uses directed put\-away and pick. You must instead use the transfer order.  
   
 ## See Also  
  Item Ledger Entries   

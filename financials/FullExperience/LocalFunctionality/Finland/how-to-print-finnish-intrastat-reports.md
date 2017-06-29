@@ -31,7 +31,7 @@ Companies in the European Union \(EU\) must report the extent of their trade wit
 4.  Choose **Print**.  
   
 ## See Also  
- Intrastat - File Setup   
- Intrastat - Checklist   
+ Intrastat \- File Setup   
+ Intrastat \- Checklist   
  [How to: Report Intrastat on a Disk](../../Finance/how-to-report-intrastat-on-a-disk.md)   
  [How to: Report Intrastat on Forms](../../Finance/how-to-report-intrastat-on-forms.md)

@@ -38,7 +38,7 @@ You can either create a new tax register section or select a tax register sectio
   
 4.  On the **Dimensions** FastTab, enter the dimension codes to filter the information selected for tax registers. Dimension codes can be changed only when the **Status** field of the tax register version has the value **Open**.  
   
-5.  On the **Balance** FastTab, enter the deadlines for debtor and creditor liabilities applied in accordance with the current taxation period. For example, Debit Balance Point 1 \= - 45D, Debit Balance Point 2 \= - 90D.  
+5.  On the **Balance** FastTab, enter the deadlines for debtor and creditor liabilities applied in accordance with the current taxation period. For example, Debit Balance Point 1 \= \- 45D, Debit Balance Point 2 \= \- 90D.  
   
 6.  On the **System** FastTab, select the actual norm code for the current tax register version in the **Norm Jurisdiction Code** field. Select the form number **17209** in the **Form ID** field.  
   

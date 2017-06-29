@@ -19,7 +19,7 @@
 The following topics describe the local functionality in the United States version of FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->.  
   
 ## In This Section  
- [What's New-duplicate 5](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedStates/what-s-new-duplicate-5.md)  
+ [What's New\-duplicate 5](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedStates/what-s-new-duplicate-5.md)  
   [Budgets](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/budgets.md)  
   [Electronic Payments for United States, Canada, and Mexico](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/electronic-payments-for-united-states-canada-and-mexico.md)  
   [Sales Tax](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedStates/sales-tax.md)  
@@ -33,4 +33,4 @@ The following topics describe the local functionality in the United States versi
   [How to: Reconcile Bank Accounts by Using Bank Statements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-reconcile-bank-accounts-by-using-bank-statements.md)  
   [How to: Print Vendor 1099 Information Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedStates/how-to-print-vendor-1099-information-reports.md)  
   [How to: Print Troubleshooting Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-print-troubleshooting-reports.md)  
-  [Tables, Reports, Batch Jobs, and Windows-duplicate 4](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/tables-reports-batch-jobs-and-windows-duplicate-4.md)
+  [Tables, Reports, Batch Jobs, and Windows\-duplicate 4](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/tables-reports-batch-jobs-and-windows-duplicate-4.md)

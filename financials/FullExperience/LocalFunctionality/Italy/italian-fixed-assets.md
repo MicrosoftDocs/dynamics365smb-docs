@@ -16,7 +16,7 @@
 
     ---
 # Italian Fixed Assets
-Fixed assets are properties owned by a company and used in the production of its income. Assets can be either tangible or intangible, and can be either durable or non-durable. Cars, machines, and furniture are examples of tangible assets. Startup costs and licenses are examples of intangible assets.  
+Fixed assets are properties owned by a company and used in the production of its income. Assets can be either tangible or intangible, and can be either durable or non\-durable. Cars, machines, and furniture are examples of tangible assets. Startup costs and licenses are examples of intangible assets.  
   
  The following features have been added to the fixed assets functionality:  
   

@@ -88,6 +88,6 @@ FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md
   
 ## See Also  
  G\/L Account   
- G-L Account Turnover   
- G-L Account Card   
- G-L Account Entries Analysis
+ G\-L Account Turnover   
+ G\-L Account Card   
+ G\-L Account Entries Analysis

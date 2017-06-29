@@ -56,6 +56,6 @@ Companies must deliver their VAT and ICP declarations electronically to the tax 
 ## See Also  
  [Electronic VAT and ICP Declarations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/electronic-vat-and-icp-declarations.md)   
  [OBSOLETE: General Parameters and Certificates](../Topic/OBSOLETE:%20General%20Parameters%20and%20Certificates.md)   
- [OBSOLETE: How to: Set Up PKI-Based User Certificates for Electronic Tax Declarations](../Topic/OBSOLETE:%20How%20to:%20Set%20Up%20PKI-Based%20User%20Certificates%20for%20Electronic%20Tax%20Declarations.md)   
+ [OBSOLETE: How to: Set Up PKI\-Based User Certificates for Electronic Tax Declarations](../Topic/OBSOLETE:%20How%20to:%20Set%20Up%20PKI-Based%20User%20Certificates%20for%20Electronic%20Tax%20Declarations.md)   
  [OBSOLETE: How to: Register for Electronic VAT and ICP Declarations](../Topic/OBSOLETE:%20How%20to:%20Register%20for%20Electronic%20VAT%20and%20ICP%20Declarations.md)   
  Elec. Tax Declaration Setup Window

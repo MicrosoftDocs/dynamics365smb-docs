@@ -18,7 +18,7 @@
 # Set up Employees
 To use the Human Resources feature, you must set up employees by creating a new employee card. From the employee card, you can enter basic information about the employee or update an existing employee's information. By setting up employees and related information, you ensure that relevant data is always readily available.  
   
- You can modify an employee's details at any time. Keeping up-to-date records about your employees simplifies personnel tasks. For example, if an employee's address changes, you can register this information on their employee card.  
+ You can modify an employee's details at any time. Keeping up\-to\-date records about your employees simplifies personnel tasks. For example, if an employee's address changes, you can register this information on their employee card.  
   
  The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
   

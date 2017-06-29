@@ -19,7 +19,7 @@
 Plan movements in the worksheet using a bin replenishment function or manually planning the lines that you want to create as movement instructions.  
   
 ## Calculating Replenishment Movements  
- As the warehouse ships items out to customers, the bins with the highest bin rankings contain fewer and fewer items. To fill up these high-ranking pick bins with items from other bins, run the **Calculate Bin Replenishment** function in the **Movement Worksheet** window  
+ As the warehouse ships items out to customers, the bins with the highest bin rankings contain fewer and fewer items. To fill up these high\-ranking pick bins with items from other bins, run the **Calculate Bin Replenishment** function in the **Movement Worksheet** window  
   
 #### To calculate a replenishment movement  
   
@@ -27,7 +27,7 @@ Plan movements in the worksheet using a bin replenishment function or manually p
   
 2.  On the **Actions** tab, in the **Functions** group, choose **Calculate Bin Replenishment**.  
   
-     FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> creates lines that indicate precisely how you should move items from the low-ranking bins to the higher-ranking bins.  
+     FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> creates lines that indicate precisely how you should move items from the low\-ranking bins to the higher\-ranking bins.  
   
     > [!NOTE]  
     >  A movement is suggested according to FEFO when you activate the **Create Movement** function if the following conditions are met for an item:  
@@ -55,7 +55,7 @@ Plan movements in the worksheet using a bin replenishment function or manually p
 3.  Fill in the relevant fields in the batch job request window. For example, if you want to see the bin content of all the bins in a certain zone at the location, fill in the **Zone Code** field. If you want to retrieve lines for each bin that contains a particular item, fill in the **Item No.** field.  
   
     > [!NOTE]  
-    >  You cannot manually move items in or out of a bin of bin type RECEIVE, because items that are in a RECEIVE-type bin must be registered as being put away before they are part of available inventory.  
+    >  You cannot manually move items in or out of a bin of bin type RECEIVE, because items that are in a RECEIVE\-type bin must be registered as being put away before they are part of available inventory.  
   
 4.  If you are retrieving many lines, choose **Sort** to select a sorting method to determine the order the lines will appear in the worksheet, and then choose the **OK** button.  
   

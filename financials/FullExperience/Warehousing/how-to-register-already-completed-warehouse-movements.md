@@ -16,7 +16,7 @@
 
     ---
 # How to: Register Already Completed Warehouse Movements
-If your location uses directed put-away and pick, and you need to move items to other bins without a pre-existing warehouse put-away, pick, or movement, you can register the correct placement of the items in the warehouse using the **Whse. Reclassification Journal**.  
+If your location uses directed put\-away and pick, and you need to move items to other bins without a pre\-existing warehouse put\-away, pick, or movement, you can register the correct placement of the items in the warehouse using the **Whse. Reclassification Journal**.  
   
 ### To register the movement of an item that has already occurred  
   

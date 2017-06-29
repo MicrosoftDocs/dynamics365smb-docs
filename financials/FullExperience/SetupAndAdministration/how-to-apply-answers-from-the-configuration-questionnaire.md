@@ -28,7 +28,7 @@ After you have imported and validated information from a setup questionnaire, yo
   
      To apply the whole questionnaire, on the **Process** tab, choose **Apply Answers**.  
   
-     -or-  
+     \-or\-  
   
      To apply answers for a specific **Question Area** only, choose **Question Areas**, select a **Question Area** in the list, and then on the **Home** tab, choose **Edit**. In the **Process** group, choose **Apply Answers**.  
   

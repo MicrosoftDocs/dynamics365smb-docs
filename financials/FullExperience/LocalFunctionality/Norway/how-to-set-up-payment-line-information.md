@@ -51,7 +51,7 @@ Payment journal line information for the remittance payment is set up in the **P
     |---------------------------------|---------------------------------------|  
     |**Recipient Ref. Abroad**|Specify the payment text that is sent to the vendor.|  
     |**Payment Type Code Abroad**|Specify the payment type code that is assigned to the payment.|  
-    |**Check**|Specify whether a check must be issued.<br /><br /> \* <br />                        **No** - No check is issued.<br /><br /> \* **Send to employer** - Check is issued and sent to the employer.<br /><br /> \* **Send to beneficiary** - Check is issued and sent to the beneficiary.|  
+    |**Check**|Specify whether a check must be issued.<br /><br /> \* <br />                        **No** \- No check is issued.<br /><br /> \* **Send to employer** \- Check is issued and sent to the employer.<br /><br /> \* **Send to beneficiary** \- Check is issued and sent to the beneficiary.|  
     |**Urgent**|Select if the payment is urgent and should be treated as an urgent transfer.|  
     |**Agreed Exch. Rate**|Specify the exchange rate which the bank agrees upon.|  
     |**Agreed With**|Specify who the agreement is entered with, if an exchange rate is agreed upon.|  

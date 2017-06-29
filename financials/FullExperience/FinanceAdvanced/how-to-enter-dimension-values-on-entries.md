@@ -16,7 +16,7 @@
 
     ---
 # How to: Enter Dimension Values on Entries
-Dimension value codes are always company-defined.  
+Dimension value codes are always company\-defined.  
   
 ### To view dimension values for a company  
   

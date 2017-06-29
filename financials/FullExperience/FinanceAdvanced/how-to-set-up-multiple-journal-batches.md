@@ -36,5 +36,5 @@ If you need multiple journals of a certain type, you can create multiple journal
 ## See Also  
  [How to: Fill In Recurring Journals](../Finance/how-to-fill-in-recurring-journals.md)   
  [How to: Fill and Post General Journals](../Finance/how-to-fill-and-post-general-journals.md)   
- [How to: Enter VAT-liable Amounts Without VAT in General Journals](../Finance/how-to-enter-vat-liable-amounts-without-vat-in-general-journals.md)   
+ [How to: Enter VAT\-liable Amounts Without VAT in General Journals](../Finance/how-to-enter-vat-liable-amounts-without-vat-in-general-journals.md)   
  [How to: Set Up Default Balancing Accounts](../Finance/how-to-set-up-default-balancing-accounts.md)

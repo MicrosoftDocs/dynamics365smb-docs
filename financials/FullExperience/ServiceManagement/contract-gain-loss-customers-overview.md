@@ -20,7 +20,7 @@ The **Contract Gain\/Loss \(Customers\)** matrix shows a scrollable summary of c
   
  You fill in the **Contract Gain\/Loss \(Customers\)** window to determine what will be shown in the matrix.  
   
- You can specify which customers are included in the window by setting filters in the **Customer No. Filter** and  **Ship-to Filter** fields. If you do not set any filters, the window will include information about all customers.  
+ You can specify which customers are included in the window by setting filters in the **Customer No. Filter** and  **Ship\-to Filter** fields. If you do not set any filters, the window will include information about all customers.  
   
  In the **Period Start** field, you can specify the starting date of the period that you want to view.  
   
@@ -36,4 +36,4 @@ The **Contract Gain\/Loss \(Customers\)** matrix shows a scrollable summary of c
 >  If you have set the time interval to **Day** and you want to scroll over a long period, you can do it faster by shifting to a larger interval such as **Quarter**. When you have found the desired period, you can shift back to the original interval to see the data in more detail.  
   
 ## See Also  
- Contract Gain-Loss \(Customers\)%20$\).md)
+ Contract Gain\-Loss \(Customers\)%20$\).md)

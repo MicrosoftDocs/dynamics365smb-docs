@@ -31,7 +31,7 @@ If you want to appreciate or depreciate an item or a specific item ledger entry,
   
 3.  Select the item that you want to revalue, and choose the **OK** button.  
   
-4.  Select the **Applies-to Entry** field to open the **Item Ledger Entries** window. All item ledger entries relating to this item are displayed.  
+4.  Select the **Applies\-to Entry** field to open the **Item Ledger Entries** window. All item ledger entries relating to this item are displayed.  
   
 5.  Select the specific item ledger entry that you want to revalue, and choose the **OK** button.  
   

@@ -21,14 +21,14 @@ You may occasionally need to move items between internal bins, not receiving or 
 > [!NOTE]  
 >  For information about moving items between bins based on source documents, see Inventory Movement.  
   
- In basic warehouse configurations, that is locations that use the **Bin Mandatory** setup field and possibly the **Require Pick** and the **Require Put-away** setup fields, you can register ad hoc movements without source documents in the following ways:  
+ In basic warehouse configurations, that is locations that use the **Bin Mandatory** setup field and possibly the **Require Pick** and the **Require Put\-away** setup fields, you can register ad hoc movements without source documents in the following ways:  
   
 -   With the **Internal Movement** window.  
   
 -   With the **Item Reclassification Journal** window.  
   
 > [!NOTE]  
->  In advanced warehouse configurations, that is locations that use the **Directed Put-away and Pick** setup field, you use the **Movement Worksheet** window or the **Internal Whse. Pick** or the **Internal Whse. Put-away** windows to move items ad hoc between bins.  
+>  In advanced warehouse configurations, that is locations that use the **Directed Put\-away and Pick** setup field, you use the **Movement Worksheet** window or the **Internal Whse. Pick** or the **Internal Whse. Put\-away** windows to move items ad hoc between bins.  
   
 ### To move items as an internal movement  
   
@@ -86,7 +86,7 @@ You may occasionally need to move items between internal bins, not receiving or 
  Internal Movement   
  Inventory Movement   
  Item Reclass. Journal   
- To-Production Bin Code   
+ To\-Production Bin Code   
  Dedicated   
  Whse. Get Bin Content   
  [How to: Move Components to an Operation Area in Basic Warehousing](../WarehouseActivities/how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   

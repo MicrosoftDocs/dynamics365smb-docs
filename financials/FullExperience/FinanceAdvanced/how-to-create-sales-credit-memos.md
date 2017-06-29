@@ -28,7 +28,7 @@ A sales credit memo is typically used when a customer returns an item, but it ca
   
 3.  Fill in the **No.** field.  
   
-4.  In the **Sell-to Customer No.** field, enter the number of the customer that returned the items.  
+4.  In the **Sell\-to Customer No.** field, enter the number of the customer that returned the items.  
   
 5.  You can fill in the lines manually, or you have two options for filling the credit memo lines automatically:  
   
@@ -36,7 +36,7 @@ A sales credit memo is typically used when a customer returns an item, but it ca
   
     -   You can use the **Get Posted Document Lines to Reverse** function to copy one or more posted document lines from one or more posted documents. This function’s purpose is to allow you to exactly reverse the costs from the posted document line.  
   
-6.  On the **Invoicing** FastTab, you can see the other information that was copied from the customer card. If you want to post the credit memo to a different customer than the one specified on the **General** FastTab, enter the number of that customer in the **Bill-to Customer No.** field.  
+6.  On the **Invoicing** FastTab, you can see the other information that was copied from the customer card. If you want to post the credit memo to a different customer than the one specified on the **General** FastTab, enter the number of that customer in the **Bill\-to Customer No.** field.  
   
 7.  You can compare the credit memo to the original posted document, for example, in the **Posted Sales Invoices** window.  
   

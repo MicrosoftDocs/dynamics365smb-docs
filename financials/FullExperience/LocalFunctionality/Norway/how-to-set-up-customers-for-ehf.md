@@ -32,7 +32,7 @@ To create Elektronisk Handelsformat \(EHF\) documents for customers in the publi
     |---------------------------------|---------------------------------------|  
     |**GLN**|Required. Enter the Global Location Number \(GLN\) for the customer.|  
     |**Account Code**|Enter the account code for the customer.<br /><br /> Customers in the public sector provide an account code when they place an order or requisition. Based on the value of this field, the account code is included in the EHF documents that you create in FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->. For more information, see Account Code.|  
-    |**E-Invoice**|Select the check box to use electronic invoicing with this customer.|  
+    |**E\-Invoice**|Select the check box to use electronic invoicing with this customer.|  
     |**Responsibility Center**|Make sure that the Responsibility Center that you have selected has a Country\/Region Code specified.|  
   
  These fields are specific to EHF. The values are used in all EHF documents that you create for this customer. For more information, see [EHF Electronic Invoicing in Norway](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/ehf-electronic-invoicing-in-norway.md).  

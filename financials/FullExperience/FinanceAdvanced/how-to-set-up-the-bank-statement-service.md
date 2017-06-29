@@ -62,9 +62,9 @@ Follow these steps to set up the additional reporting currency:
     |----------------------------------|---------------------------------------|  
     |**No Adjustment**|No exchange rate adjustment is made to the general ledger account. This is the default option.<br /><br /> **NOTE:** This option should be selected if the exchange rate between the LCY and additional reporting currency is always fixed.|  
     |**Adjust Amount**|The LCY amount is adjusted for any exchange rate gains or losses. Exchange rate gains or losses are posted to the general ledger account in the **Amount** field and to the accounts you specified for gains or losses in the **Realized G\/L Gains Account** and **Realized G\/L Losses Account** fields in the **Currencies** window.|  
-    |**Adjust Additional-Currency Amount**|The additional reporting currency is adjusted for any exchange rate gains or losses. Exchange rate gains or losses are posted to the general ledger account in the **Additional-Currency Amount** field and to the accounts you specified for gains or losses in the **Realized G\/L Gains Account** and **Realized G\/L Losses Account** fields in the **Currencies** window.|  
+    |**Adjust Additional\-Currency Amount**|The additional reporting currency is adjusted for any exchange rate gains or losses. Exchange rate gains or losses are posted to the general ledger account in the **Additional\-Currency Amount** field and to the accounts you specified for gains or losses in the **Realized G\/L Gains Account** and **Realized G\/L Losses Account** fields in the **Currencies** window.|  
   
-     Exchange rate gains and losses are posted first when you run the **Adjust Exchange Rates** batch job. In that batch job, the adjustment exchange rate is identified in the **Currency Exchange Rates** window, and then the amounts in the **Amount** and **Additional-Currency Amount** fields on the general ledger entry are compared to determine whether there is an exchange rate gain or loss. The batch job uses the option that you select in the **Exchange Rate Adjustment** field to determine whether to calculate and post exchange rate gains or losses for general ledger accounts.  
+     Exchange rate gains and losses are posted first when you run the **Adjust Exchange Rates** batch job. In that batch job, the adjustment exchange rate is identified in the **Currency Exchange Rates** window, and then the amounts in the **Amount** and **Additional\-Currency Amount** fields on the general ledger entry are compared to determine whether there is an exchange rate gain or loss. The batch job uses the option that you select in the **Exchange Rate Adjustment** field to determine whether to calculate and post exchange rate gains or losses for general ledger accounts.  
   
 5.  Close the **G\/L Account Card** window.  
   
@@ -76,7 +76,7 @@ Follow these steps to set up the additional reporting currency:
   
 3.  If you post in an additional reporting currency, you can specify in the **VAT Exchange Rate Adjustment** field how the accounts set up for VAT posting in the **VAT Posting Setup** window will be adjusted for exchange rate fluctuations between LCY and the additional reporting currency.  
   
-     When you run the **Adjust Exchange Rates** batch job, the adjustment exchange rate is identified in the **Currency Exchange Rate** window and then the amounts in the **Amount** and **Additional-Currency Amount** fields on the VAT entry are compared to determine whether there is an exchange rate gain or loss. The batch job uses the option that you select in this field to determine how to post exchange rate gains or losses for VAT accounts.  
+     When you run the **Adjust Exchange Rates** batch job, the adjustment exchange rate is identified in the **Currency Exchange Rate** window and then the amounts in the **Amount** and **Additional\-Currency Amount** fields on the VAT entry are compared to determine whether there is an exchange rate gain or loss. The batch job uses the option that you select in this field to determine how to post exchange rate gains or losses for VAT accounts.  
   
      You have the same options as with general ledger entries but in this case the entries adjusted will be the VAT entries.  
   
@@ -84,7 +84,7 @@ Follow these steps to set up the additional reporting currency:
     |----------------------------------|---------------------------------------|  
     |**No Adjustment**|No exchange rate adjustment is made to the general ledger account. This is the default option.|  
     |**Adjust Amount**|The LCY amount is adjusted for any exchange rate gains or losses. Exchange rate gains or losses are posted to the general ledger account in the **Amount** field and to the accounts you specified for gains or losses in the **Realized G\/L Gains Account** and **Realized G\/L Losses Account** fields in the **Currencies** window.|  
-    |**Adjust Additional-Currency Amount**|The additional reporting currency is adjusted for any exchange rate gains or losses. Exchange rate gains or losses are posted to the general ledger account in the **Additional-Currency Amount** field and to the accounts you specified for gains or losses in the **Realized G\/L Gains Account** and **Realized G\/L Losses Account** fields in the **Currencies** window.|  
+    |**Adjust Additional\-Currency Amount**|The additional reporting currency is adjusted for any exchange rate gains or losses. Exchange rate gains or losses are posted to the general ledger account in the **Additional\-Currency Amount** field and to the accounts you specified for gains or losses in the **Realized G\/L Gains Account** and **Realized G\/L Losses Account** fields in the **Currencies** window.|  
   
 ### To activate the additional reporting currency  
   

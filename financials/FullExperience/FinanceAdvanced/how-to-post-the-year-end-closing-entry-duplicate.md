@@ -16,7 +16,7 @@
 
     ---
 # How to: Post the Year-End Closing Entry-duplicate
-After you use the **Close Income Statement** batch job to generate the year-end closing entry or entries, you must open the journal you specified in the batch job, and then review and post the entries.  
+After you use the **Close Income Statement** batch job to generate the year\-end closing entry or entries, you must open the journal you specified in the batch job, and then review and post the entries.  
   
 ### To post the year end closing entry  
   
@@ -33,5 +33,5 @@ After you use the **Close Income Statement** batch job to generate the year-end 
   
 ## See Also  
  Close Income Statement   
- [About Year-End Processes](../Finance/about-year-end-processes.md)   
+ [About Year\-End Processes](../Finance/about-year-end-processes.md)   
  [How to: Close Accounting Periods](../Finance/how-to-close-accounting-periods.md)

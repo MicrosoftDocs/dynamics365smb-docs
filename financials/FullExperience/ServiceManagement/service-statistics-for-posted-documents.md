@@ -30,7 +30,7 @@ The service statistics feature lets you gain a statistical overview of the conte
   
  This window has two FastTabs, **General** and **Customer**.  
   
--   The **General** FastTab provides you with the totals of the posted service invoice. The data include total amount on the service lines \(including and excluding VAT\) that has been posted as invoiced, VAT part, cost, and profit on the posted invoice. The FastTab also displays specific item-related information about the items on the service invoice lines, such as weight, volume, and the quantity of parcels.  
+-   The **General** FastTab provides you with the totals of the posted service invoice. The data include total amount on the service lines \(including and excluding VAT\) that has been posted as invoiced, VAT part, cost, and profit on the posted invoice. The FastTab also displays specific item\-related information about the items on the service invoice lines, such as weight, volume, and the quantity of parcels.  
   
 -   The **Customer** FastTab displays the balance on the customer's accountin addition to the maximum credit that can be endued to the customer you invoiced.  
   

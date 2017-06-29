@@ -41,19 +41,19 @@ A fiscal year is typically divided into 12 monthly fiscal periods. In FIX INCLUD
   
 -   Close the fiscal year using the **Close Year** function.  
   
--   Generate a year-end closing entry.  
+-   Generate a year\-end closing entry.  
   
--   Post the year-end closing entry, along with the offset equity account entries.  
+-   Post the year\-end closing entry, along with the offset equity account entries.  
   
 -   Close the fiscal year using the **Fiscally Close Year** function.  
   
 ## See Also  
  [How to: Open a New Fiscal Year](../../Finance/how-to-open-a-new-fiscal-year.md)   
- [How to: Specify Posting Periods-duplicate](../../Finance/how-to-specify-posting-periods-duplicate.md)   
- [How to: Post the Year-End Closing Entry-duplicate](../../Finance/how-to-post-the-year-end-closing-entry-duplicate.md)   
+ [How to: Specify Posting Periods\-duplicate](../../Finance/how-to-specify-posting-periods-duplicate.md)   
+ [How to: Post the Year\-End Closing Entry\-duplicate](../../Finance/how-to-post-the-year-end-closing-entry-duplicate.md)   
  [How to: Fiscally Close Accounting Periods](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-fiscally-close-accounting-periods.md)   
  [How to: Close Years](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-close-years.md)   
- [How to: Post the Year-End Closing Entry](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-post-the-year-end-closing-entry.md)   
+ [How to: Post the Year\-End Closing Entry](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-post-the-year-end-closing-entry.md)   
  [How to: Fiscally Close Years](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-fiscally-close-years.md)   
  [How to: Reopen Accounting Periods](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-reopen-accounting-periods.md)   
  [How to: Close Income Statement Accounts](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-close-income-statement-accounts.md)   

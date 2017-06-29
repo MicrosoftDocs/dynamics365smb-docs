@@ -33,7 +33,7 @@ If the **Replenishment System** field on the item card contains **Assembly**, th
  For more information about how to set up an assembly item, see [Assemble to Order or Assemble to Stock](../DesignAndEngineering/assemble-to-order-or-assemble-to-stock.md).  
   
 > [!NOTE]  
->  These setup options are default settings that manage how sales and assembly order lines are initially processed. You can depart from these defaults and supply the assembly item in the most optimal way when processing a sale. For more information, see [How to: Sell Inventory Items in Assemble-to-Order Flows](../Sales/how-to-sell-inventory-items-in-assemble-to-order-flows.md) and [How to: Sell Assemble-to-Order Items and Inventory Items Together](../Sales/how-to-sell-assemble-to-order-items-and-inventory-items-together.md).  
+>  These setup options are default settings that manage how sales and assembly order lines are initially processed. You can depart from these defaults and supply the assembly item in the most optimal way when processing a sale. For more information, see [How to: Sell Inventory Items in Assemble\-to\-Order Flows](../Sales/how-to-sell-inventory-items-in-assemble-to-order-flows.md) and [How to: Sell Assemble\-to\-Order Items and Inventory Items Together](../Sales/how-to-sell-assemble-to-order-items-and-inventory-items-together.md).  
   
  In this procedure, you create and process an assembly order for items that are assembled to stock, which means without a linked sales order. The steps include initiating the assembly order, handling potential component availability issues, and partially posting assembly item output.  
   
@@ -69,7 +69,7 @@ If the **Replenishment System** field on the item card contains **Assembly**, th
     > [!NOTE]  
     >  If warnings are still present in any of the assembly order lines, then the posting is blocked. A message about which component or components are not in inventory is displayed.  
   
-     After posting succeeds, the assembly item is posted as output to the location code and potential bin code that are defined on the assembly order. For manually created assembly orders, the location may be copied from the **Default Location for Orders** setup field. For assemble-to-order flows, the location code may be copied from the sales order line.  
+     After posting succeeds, the assembly item is posted as output to the location code and potential bin code that are defined on the assembly order. For manually created assembly orders, the location may be copied from the **Default Location for Orders** setup field. For assemble\-to\-order flows, the location code may be copied from the sales order line.  
   
 ## See Also  
  Assembly Order   
@@ -80,6 +80,6 @@ If the **Replenishment System** field on the item card contains **Assembly**, th
  Quantity to Consume   
  [How to: Create Assembly BOMs](../DesignAndEngineering/how-to-create-assembly-boms.md)   
  [How to: Sell Items Assembled to Order](../Sales/how-to-sell-items-assembled-to-order.md)   
- [How to: Sell Inventory Items in Assemble-to-Order Flows](../Sales/how-to-sell-inventory-items-in-assemble-to-order-flows.md)   
- [How to: Sell Assemble-to-Order Items and Inventory Items Together](../Sales/how-to-sell-assemble-to-order-items-and-inventory-items-together.md)   
+ [How to: Sell Inventory Items in Assemble\-to\-Order Flows](../Sales/how-to-sell-inventory-items-in-assemble-to-order-flows.md)   
+ [How to: Sell Assemble\-to\-Order Items and Inventory Items Together](../Sales/how-to-sell-assemble-to-order-items-and-inventory-items-together.md)   
  [Assemble to Order or Assemble to Stock](../DesignAndEngineering/assemble-to-order-or-assemble-to-stock.md)

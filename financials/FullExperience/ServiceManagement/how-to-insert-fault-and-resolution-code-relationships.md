@@ -35,5 +35,5 @@ To be able to see the most common methods of repair for particular item faults w
 7.  Confirm the subsequent message.  
   
 ## See Also  
- Insert Fault-Resol. Codes Relationships   
+ Insert Fault\-Resol. Codes Relationships   
  [How to: Register Fault Code and Resolution Code Relationships](../Service/how-to-register-fault-code-and-resolution-code-relationships.md)

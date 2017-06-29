@@ -16,7 +16,7 @@
 
     ---
 # How to: Create Routing Links
-You can create routing links to connect components to specific operations in order to retain their relationship even though the production BOM or routing is modified. It also facilitates just-in-time flushing of components, namely when the specific linked operation starts, not when the complete production order is released. For more information see [How to: Flush Components According to Operation Output](../Production/how-to-flush-components-according-to-operation-output.md).  
+You can create routing links to connect components to specific operations in order to retain their relationship even though the production BOM or routing is modified. It also facilitates just\-in\-time flushing of components, namely when the specific linked operation starts, not when the complete production order is released. For more information see [How to: Flush Components According to Operation Output](../Production/how-to-flush-components-according-to-operation-output.md).  
   
  Another important benefit is that linked components and operations are displayed in a logical process structure when you use the **Production Journal** window for output and consumption posting.  
   
@@ -37,7 +37,7 @@ You can create routing links to connect components to specific operations in ord
     > [!NOTE]  
     >  You should not use the same routing link code in different operations on a routing because you may incorrectly link a component to two different operations, so that it is consumed two times.  
     >   
-    >  It is a good idea to name the routing link code after the operation in order to ensure operation-specific routing links.  
+    >  It is a good idea to name the routing link code after the operation in order to ensure operation\-specific routing links.  
   
 5.  Set the routing status to **Certified**.  
   

@@ -24,7 +24,7 @@ During an examination of the books for a fiscal year, a tax inspector can ask fo
   
 ### To make an Audit file  
   
-1.  In the **Search** box, enter **Tax Authority - Audit File**, and then choose the related link.  
+1.  In the **Search** box, enter **Tax Authority \- Audit File**, and then choose the related link.  
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
@@ -41,4 +41,4 @@ During an examination of the books for a fiscal year, a tax inspector can ask fo
 ## See Also  
  [Electronic VAT and ICP Declarations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/electronic-vat-and-icp-declarations.md)   
  [How to: Submit Electronic VAT and ICP Declarations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/how-to-submit-electronic-vat-and-icp-declarations.md)   
- Tax Authority - Audit File
+ Tax Authority \- Audit File

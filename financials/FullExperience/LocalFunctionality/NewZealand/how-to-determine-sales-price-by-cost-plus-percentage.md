@@ -26,7 +26,7 @@ Use the cost plus percentage function to set a sales price based on the cost of 
   
 3.  Under **Lists**, click **Customers**.  
   
-4.  Double-click the required customer.  
+4.  Double\-click the required customer.  
   
      –or–  
   

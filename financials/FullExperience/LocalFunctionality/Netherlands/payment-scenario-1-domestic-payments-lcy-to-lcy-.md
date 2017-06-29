@@ -40,9 +40,9 @@ You can use telebanking for trade with domestic and foreign customers and vendor
 ## Create Vendor\/Customer  
  Create vendor\/customer and enter all necessary information. Special attention should be paid to:  
   
--   **Currency Code**: leave empty - i.e. it is set to the local currency \(LCY\).  
+-   **Currency Code**: leave empty \- i.e. it is set to the local currency \(LCY\).  
   
--   **Transaction Mode**: select an appropriate, default transaction mode - i.e. one that can deal with local currency payments for your bank.  
+-   **Transaction Mode**: select an appropriate, default transaction mode \- i.e. one that can deal with local currency payments for your bank.  
   
 -   **Preferred Bank Account**: select an appropriate, default vendor\/customer bank account having the same Currency Code as the vendor\/customer itself.  
   
@@ -57,7 +57,7 @@ You can use telebanking for trade with domestic and foreign customers and vendor
   
 -   **Preferred Bank Account**: enter a valid bank account number.  
   
--   **Currency Code**: leave empty - i.e. it is set to the local currency \(LCY\).  
+-   **Currency Code**: leave empty \- i.e. it is set to the local currency \(LCY\).  
   
 -   **Owner Information**:be sure all owner information has been entered.  
   
@@ -67,9 +67,9 @@ You can use telebanking for trade with domestic and foreign customers and vendor
 ## Create and Post Purchase Invoice for Vendor or Sales Invoice for Customer  
  Create a purchase\/sales invoice and enter all necessary information. Special attention should be paid to:  
   
--   **Currency Code**: leave empty - i.e. it is set to the local currency \(LCY\).  
+-   **Currency Code**: leave empty \- i.e. it is set to the local currency \(LCY\).  
   
--   **Transaction Mode**: select an appropriate, default transaction mode - i.e. one that can deal with local currency payments for your bank.  
+-   **Transaction Mode**: select an appropriate, default transaction mode \- i.e. one that can deal with local currency payments for your bank.  
   
 -   **Preferred Bank Account**: select an appropriate, default vendor\/customer bank account having the same Currency Code is the vendor\/customer itself.  
   
@@ -78,13 +78,13 @@ You can use telebanking for trade with domestic and foreign customers and vendor
  When the invoice is finished it can be posted.  
   
 ### Example  
- When creating a purchase invoice for Olek Johansson we enter *OLEK* in the ***Buy-from Vendor No.*** field. By default the *Currency Code*, *Transaction Mode* and *Bank Account* fields will be populated with values taken from the Olek Johansson's vendor card. Therefore the *Currency Code*, *Transaction Mode* and *Bank Account* fields will be *\<empty\>*, *ABN* and *OJBA* respectively. Nevertheless, these values can be changed.  
+ When creating a purchase invoice for Olek Johansson we enter *OLEK* in the ***Buy\-from Vendor No.*** field. By default the *Currency Code*, *Transaction Mode* and *Bank Account* fields will be populated with values taken from the Olek Johansson's vendor card. Therefore the *Currency Code*, *Transaction Mode* and *Bank Account* fields will be *\<empty\>*, *ABN* and *OJBA* respectively. Nevertheless, these values can be changed.  
   
 ## Create Proposal  
- Open the Telebank - Bank Overview Window window and browse to the bank through which we want to perform our payment. Open the Proposal window and generate payment proposals using the Get Proposal Entries batch job.  
+ Open the Telebank \- Bank Overview Window window and browse to the bank through which we want to perform our payment. Open the Proposal window and generate payment proposals using the Get Proposal Entries batch job.  
   
 ### Example  
- Through the Telebank - Bank Overview window we open the Proposal window for our bank *ABN*. Using the batch job one proposal line will be created for the purchase invoice we just created and posted for vendor *OLEK*.  
+ Through the Telebank \- Bank Overview window we open the Proposal window for our bank *ABN*. Using the batch job one proposal line will be created for the purchase invoice we just created and posted for vendor *OLEK*.  
   
 ## Create Payment History  
  From the Proposal window we process our proposal into a payment history. The proposal will disappear and can be found in the Payment History Overview window for the same bank.  

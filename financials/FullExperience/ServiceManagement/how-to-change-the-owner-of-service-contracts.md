@@ -38,9 +38,9 @@ You may need to change the owner of a service contract. If a service item in a s
   
 5.  In the **New Customer No.** field, select the new customer, and then choose the **OK** button to copy it to the field.  
   
-6.  In the **New Ship-to Code** field, select the address, and then choose the **OK** button to copy it to the field.  
+6.  In the **New Ship\-to Code** field, select the address, and then choose the **OK** button to copy it to the field.  
   
-7.  Choose the **OK** button to change the customer and ship-to code of the service contracts.  
+7.  Choose the **OK** button to change the customer and ship\-to code of the service contracts.  
   
 8.  On the **Actions** tab, in the **Functions** group, choose **Lock Contract** to lock the contract and to make sure that the changes will be part of the contracts.  
   

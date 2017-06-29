@@ -16,13 +16,13 @@
 
     ---
 # Responsibility Centers
-Responsibility centers providing the ability to handle administrative centers. A responsibility center can be a cost center, a profit center, an investment center, or other company-defined administrative center. Examples of responsibility centers are a sales office, a purchasing department for several locations, and a plant planning office. Using this functionality, for example, companies can set up user-specific views of sales and purchase documents related exclusively to a particular responsibility center.  
+Responsibility centers providing the ability to handle administrative centers. A responsibility center can be a cost center, a profit center, an investment center, or other company\-defined administrative center. Examples of responsibility centers are a sales office, a purchasing department for several locations, and a plant planning office. Using this functionality, for example, companies can set up user\-specific views of sales and purchase documents related exclusively to a particular responsibility center.  
   
  The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
   
 |**To**|**See**|  
 |------------|-------------|  
-|Learn how to manage multi-site companies in the most flexible, optimal way.|[About Using Locations and Responsibility Centers](../../BusinessFunctionality/ResponsibilityCenters/about-using-locations-and-responsibility-centers.md)|  
+|Learn how to manage multi\-site companies in the most flexible, optimal way.|[About Using Locations and Responsibility Centers](../../BusinessFunctionality/ResponsibilityCenters/about-using-locations-and-responsibility-centers.md)|  
 |Administer your business.|[How to: Set Up Responsibility Centers in Inventory](../../BusinessFunctionality/ResponsibilityCenters/how-to-set-up-responsibility-centers-in-inventory.md)|  
 |Assign responsibility centers to users.|[How to: View Documents from One Responsibility Center](../../BusinessFunctionality/ResponsibilityCenters/how-to-view-documents-from-one-responsibility-center.md)|  
   

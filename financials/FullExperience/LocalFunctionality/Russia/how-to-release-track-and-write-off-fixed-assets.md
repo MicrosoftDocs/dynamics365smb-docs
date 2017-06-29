@@ -16,7 +16,7 @@
 
     ---
 # How to: Release, Track, and Write-Off Fixed Assets
-You can manage your fixed assets utilizing the fixed assets acts features in FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->. Fixed assets acts allow you to release, track, and write-off the fixed assets of your organization.  
+You can manage your fixed assets utilizing the fixed assets acts features in FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->. Fixed assets acts allow you to release, track, and write\-off the fixed assets of your organization.  
   
  The first step to managing your fixed assets is to set up fixed assets numbering and source codes.  
   
@@ -105,9 +105,9 @@ You can manage your fixed assets utilizing the fixed assets acts features in FIX
 4.  Choose the **OK** button to post your entries and record the movement of the fixed asset.  
   
 ## Writing Off the Value of a Fixed Asset  
- During the sale or disposal of a fixed asset, you may want to write-off the remaining book value of the asset that has not been depreciated. You can use the **FA Writeoff Act** window to write-off the remaining value of a fixed assets.  
+ During the sale or disposal of a fixed asset, you may want to write\-off the remaining book value of the asset that has not been depreciated. You can use the **FA Writeoff Act** window to write\-off the remaining value of a fixed assets.  
   
-#### To write-off the value of a fixed asset  
+#### To write\-off the value of a fixed asset  
   
 1.  In the **Search** box, enter **FA Writeoff Act**, and then choose the related link.  
   
@@ -115,15 +115,15 @@ You can manage your fixed assets utilizing the fixed assets acts features in FIX
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**No.**|Enter an identification number that is assigned to the fixed asset write-off entry.|  
-    |**Posting Description**|Enter a description for the fixed asset write-off entry. A description is automatically created from the document type and write-off number.|  
-    |**Reason Document No.**|Enter the identification number of the source document that is the reason for the fixed asset write-off.|  
-    |**Reason Document Date**|Enter the date of the source document that is the reason for the fixed asset write-off. This information is used in fixed asset reports and entries.|  
+    |**No.**|Enter an identification number that is assigned to the fixed asset write\-off entry.|  
+    |**Posting Description**|Enter a description for the fixed asset write\-off entry. A description is automatically created from the document type and write\-off number.|  
+    |**Reason Document No.**|Enter the identification number of the source document that is the reason for the fixed asset write\-off.|  
+    |**Reason Document Date**|Enter the date of the source document that is the reason for the fixed asset write\-off. This information is used in fixed asset reports and entries.|  
     |**FA Location Code**|Specifies the location of the fixed asset.|  
     |**FA Employee No.**|Enter the employee number of the person who maintains possession of the fixed asset.|  
-    |**FA Posting Date**|Enter the date on which the fixed asset write-off entry is posted. This information is used in fixed asset reports and entries.|  
-    |**External Document No.**|Enter the number of the external document that relates to this fixed asset write-off entry.|  
-    |**Posting No.**|Enter an identifying posting number to use for the fixed asset write-off entry.|  
+    |**FA Posting Date**|Enter the date on which the fixed asset write\-off entry is posted. This information is used in fixed asset reports and entries.|  
+    |**External Document No.**|Enter the number of the external document that relates to this fixed asset write\-off entry.|  
+    |**Posting No.**|Enter an identifying posting number to use for the fixed asset write\-off entry.|  
     |**\($ T\_12470\_8 Shortcut Dimension 1 Code $\)**|Enter the department code that is associated with the fixed asset.|  
     |**\($ T\_12470\_9 Shortcut Dimension 2 Code $\)**|Enter the incexp code that is associated with the fixed asset.|  
   
@@ -131,13 +131,13 @@ You can manage your fixed assets utilizing the fixed assets acts features in FIX
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**FA No.**|Enter an identification number that is assigned to the fixed asset write-off line entry.|  
-    |**Description**|Enter a description for the fixed asset write-off line entry.|  
+    |**FA No.**|Enter an identification number that is assigned to the fixed asset write\-off line entry.|  
+    |**Description**|Enter a description for the fixed asset write\-off line entry.|  
     |**Depreciation Book Code**|Enter the code for the depreciation book that is used to post depreciation for the fixed asset. The value is set using information from the **Fixed Asset Setup** window.|  
     |**Item Receipt No.**|Enter the receipt number from the item sale or disposal document.|  
-    |**Reason Code**|Enter a reason code for the fixed asset write-off entry.|  
+    |**Reason Code**|Enter a reason code for the fixed asset write\-off entry.|  
   
-4.  Choose the **OK** button  to post your entries and record the write-off of the fixed asset.  
+4.  Choose the **OK** button  to post your entries and record the write\-off of the fixed asset.  
   
 ## See Also  
  [How to: Create Fixed Assets](../../Finance/how-to-create-fixed-assets.md)   

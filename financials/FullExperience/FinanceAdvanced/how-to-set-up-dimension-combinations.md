@@ -35,7 +35,7 @@ To avoid posting entries with contradictory or irrelevant dimensions, you can bl
 4.  Now select a dimension value combination that is blocked and enter **Blocked** in the field. A blank field means that the dimension value combination is allowed. Repeat if multiple combinations are blocked.  
   
 > [!NOTE]  
->  The same dimensions are displayed in both rows and columns and, therefore, all dimension combinations appear two times. FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> automatically displays the setting in both fields. You cannot select anything in the fields from the upper-left corner and down, because these fields have the same dimension in both rows and columns.  
+>  The same dimensions are displayed in both rows and columns and, therefore, all dimension combinations appear two times. FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> automatically displays the setting in both fields. You cannot select anything in the fields from the upper\-left corner and down, because these fields have the same dimension in both rows and columns.  
 >   
 >  The selected option is not visible before you exit the field.  
 >   

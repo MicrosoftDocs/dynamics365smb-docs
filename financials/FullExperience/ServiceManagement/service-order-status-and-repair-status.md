@@ -52,13 +52,13 @@ The **Status** field in the **Service Order** window and the service item repair
 ## Example  
  A typical priority level assignment could be as follows:  
   
--   In Process - High  
+-   In Process \- High  
   
--   Pending - Medium high  
+-   Pending \- Medium high  
   
--   On Hold - Medium low  
+-   On Hold \- Medium low  
   
--   Finished - Low  
+-   Finished \- Low  
   
  For example, if one service item has the repair status **Initial**, linked to the service order status **Pending**, another has the repair status **In Process**, linked to the service order status **In Process**, and a third has the repair status **Spare Part Ordered**, linked to the service order status **On Hold**, the resulting service order status will be **In Process** because this has the highest priority.  
   

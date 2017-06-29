@@ -28,7 +28,7 @@ You can consolidate the general ledger entries of two or more separate companies
   
 |**To**|**See**|  
 |------------|-------------|  
-|Specify - in the subsidiary companies - which general ledger accounts in each business unit are to be included in the consolidation, and specify the consolidation translation method for each account.|[How to: Enter Consolidation Information on General Ledger Accounts](../Finance/how-to-enter-consolidation-information-on-general-ledger-accounts.md)|  
+|Specify \- in the subsidiary companies \- which general ledger accounts in each business unit are to be included in the consolidation, and specify the consolidation translation method for each account.|[How to: Enter Consolidation Information on General Ledger Accounts](../Finance/how-to-enter-consolidation-information-on-general-ledger-accounts.md)|  
 |Set up—in the consolidated company—a business unit card for each company to be included in the consolidation.|[How to: Enter Basic Information for Consolidated Companies](../Finance/how-to-enter-basic-information-for-consolidated-companies.md)|  
   
 ## See Also  

@@ -18,7 +18,7 @@
 # Design Products
 The starting point for any business that deals with physical goods is to establish the item. First, you must create a database record for the item, an item card. The item card is a placeholder for critical master data that is used throughout the supply chain as the item is processed. All the rules and values, such as costing method, dimension codes, and substitutions that apply to the item are entered on the item card. After you create the item card, this record controls how the item is processed in business documents by providing information, such as price, sales terms, availability, and planning parameters.  
   
- When the item card is completed, you can proceed to other product design tasks, such as defining cross-reference descriptions or substitution items and creating stockkeeping units for items stored in multiple locations.  
+ When the item card is completed, you can proceed to other product design tasks, such as defining cross\-reference descriptions or substitution items and creating stockkeeping units for items stored in multiple locations.  
   
  Items that are assembled or produced within a company require additional product design tasks, which are described in [Define Material and Process Structure](../DesignAndEngineering/define-material-and-process-structure.md).  
   
@@ -27,7 +27,7 @@ The starting point for any business that deals with physical goods is to establi
 |**To**|**See**|  
 |------------|-------------|  
 |Create an item card for each inventory item or service that you trade in.|[How to: Register New Products](../DesignAndEngineering/how-to-register-new-products.md)|  
-|Initiate a new item card based on a company-specific data template.|[How to: Create Cards by Using Data Templates](../WorkingWithDynamics/how-to-create-cards-by-using-data-templates.md)|  
+|Initiate a new item card based on a company\-specific data template.|[How to: Create Cards by Using Data Templates](../WorkingWithDynamics/how-to-create-cards-by-using-data-templates.md)|  
 |Enable electronic document sending by filling various fields on item cards that identify the item when mapping data to the external file.|[How to: Set Up Electronic Document Sending and Receiving](../BusinessFunctionality/DataExchange/how-to-set-up-electronic-document-sending-and-receiving.md)|  
 |Define how the planning system calculates replenishment of the item.|Reordering Policy|  
 |Define if the planning system must calculate production need for lower production BOM levels of the item.|Manufacturing Policy|  
@@ -37,9 +37,9 @@ The starting point for any business that deals with physical goods is to establi
 |Assign one or more default dimensions to the item card that will be included on related document lines and eventually work as a source of analysis of historic transactions.|Default Dimension|  
 |Attach a picture \(.bmp file\) of the item.|[How to: Insert Pictures](../DesignAndEngineering/how-to-insert-pictures.md)|  
 |Define one or more variations of the item that customers may choose from.|Item Variant|  
-|Make a cross-reference between the item's number and another item code, such as a barcode.|Item Cross Reference|  
+|Make a cross\-reference between the item's number and another item code, such as a barcode.|Item Cross Reference|  
 |Specify which other items can be offered to customers if the first item choice is not available.|Item Substitution|  
-|Create a simplified item card for items that need not be managed as inventory items, such as drop-shipment items, special order items, or internal office supplies.|[How to: Create Nonstock Items](../DesignAndEngineering/how-to-create-nonstock-items.md)|  
+|Create a simplified item card for items that need not be managed as inventory items, such as drop\-shipment items, special order items, or internal office supplies.|[How to: Create Nonstock Items](../DesignAndEngineering/how-to-create-nonstock-items.md)|  
 |List codes for product groups to group items by product type, such as chairs.|Product Group|  
 |List codes for item categories, to group items or product groups, such as furniture.|Item Category|  
 |Set up language translations for item descriptions so that foreign vendors and customers can get printed documents in their own language.|[How to: Set Up and Use Item Translations](../DesignAndEngineering/how-to-set-up-and-use-item-translations.md)|  

@@ -27,6 +27,6 @@ If you want to change the sales prices for several items, you can use the  **Adj
 3.  Specify the conditions for the batch job.  
   
 ## See Also  
- [About Adjust Item Costs-Prices](../Finance/about-adjust-item-costs-prices.md)   
+ [About Adjust Item Costs\-Prices](../Finance/about-adjust-item-costs-prices.md)   
  [How to: Create Sales Prices for a Group of Customers](../DesignAndEngineering/how-to-create-sales-prices-for-a-group-of-customers.md)   
  [How to: Create Sales Prices for All Customers](../DesignAndEngineering/how-to-create-sales-prices-for-all-customers.md)

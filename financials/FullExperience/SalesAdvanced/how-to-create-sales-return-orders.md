@@ -28,7 +28,7 @@ You may agree to compensate a customer for an item that you sold them by allowin
   
 3.  Fill in the **No.** field. You can do this in several ways, depending on how you have set up your numbering system.  
   
-4.  In the **Sell-to Customer No.** field, enter the customer number.  
+4.  In the **Sell\-to Customer No.** field, enter the customer number.  
   
 5.  In the **External Document No.** field, enter the customer's reference number.  
   
@@ -37,11 +37,11 @@ You may agree to compensate a customer for an item that you sold them by allowin
     -   You can use the **Copy Document** batch job to copy an existing document to the return order. Use this function to copy the entire document. It can be either a posted document or a document that is not yet posted. This function only enables exact cost reversing when exact cost reversing is set up as mandatory in the sales and receivables setup.  
   
     -   You can use the **Get Posted Document Lines to Reverse** function to copy one or more posted document lines from one or more posted documents. This function always exactly reverses the costs from the posted document line, regardless of whether exact cost reversing is set up as mandatory in the sales and receivables setup.   
-        When you use either of these functions, a link is created to the original item ledger entries in the **Appl.-from Item Entry** field to ensure that the costs are copied from the original posted document. If the line has item tracking, the **Appl.-from Item Entry** field is filled in on the item tracking line or lines instead of on the document line. For more information, see [How to: Assign Exact Cost Reversing in Sales](../Finance/how-to-assign-exact-cost-reversing-in-sales.md).  
+        When you use either of these functions, a link is created to the original item ledger entries in the **Appl.\-from Item Entry** field to ensure that the costs are copied from the original posted document. If the line has item tracking, the **Appl.\-from Item Entry** field is filled in on the item tracking line or lines instead of on the document line. For more information, see [How to: Assign Exact Cost Reversing in Sales](../Finance/how-to-assign-exact-cost-reversing-in-sales.md).  
   
 7.  In the **Return Reason Code** field, select the reason for the return.  
   
- If the location on the sales return order line is set up to require bins, but not to require put-away processing, you can assign a bin code on the line to indicate where the item should be placed when it arrives at the location.  
+ If the location on the sales return order line is set up to require bins, but not to require put\-away processing, you can assign a bin code on the line to indicate where the item should be placed when it arrives at the location.  
   
 ## See Also  
  [How to: Create a Restock Charge](../Sales/how-to-create-a-restock-charge.md)   

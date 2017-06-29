@@ -16,9 +16,9 @@
 
     ---
 # How to: Print the Intrastat Form Report
-The **Intrastat - Form** report must be used for reporting to Intrastat. In Belgium, you must report the movement of goods to the statistics authorities every month, and the report must be sent to the tax authorities.  
+The **Intrastat \- Form** report must be used for reporting to Intrastat. In Belgium, you must report the movement of goods to the statistics authorities every month, and the report must be sent to the tax authorities.  
   
- Before you print the **Intrastat - Form** report, you can also print the **Intrastat Checklist** report to verify the contents of the report.  
+ Before you print the **Intrastat \- Form** report, you can also print the **Intrastat Checklist** report to verify the contents of the report.  
   
 ### To print the Intrastat form report  
   
@@ -45,4 +45,4 @@ The **Intrastat - Form** report must be used for reporting to Intrastat. In Belg
  [How to: Set Up Declaration Types](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-declaration-types.md)   
  [How to: Set Up Belgian Tariff Numbers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-belgian-tariff-numbers.md)   
  [How to: Set Up Intrastat Establishment Numbers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-intrastat-establishment-numbers.md)   
- [How to: Export Intrastat Third-Party Declararations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-export-intrastat-third-party-declararations.md)
+ [How to: Export Intrastat Third\-Party Declararations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-export-intrastat-third-party-declararations.md)

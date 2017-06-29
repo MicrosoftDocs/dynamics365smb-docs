@@ -30,7 +30,7 @@ You must sign an agreement of remittance with the bank when you set up electroni
     |---------------------------------|---------------------------------------|  
     |**Code**|Specify the agreement code from the bank.|  
     |**Description**|Specify a name for the agreement, such as the name of the bank.|  
-    |**Payment System**|Select the payment system that will be used. Payment systems include **DnB Telebank**, **K-LINK**, **SparNett**, **Fokus Bank**, **Postbanken**, **Other bank**, and **BBS**.|  
+    |**Payment System**|Select the payment system that will be used. Payment systems include **DnB Telebank**, **K\-LINK**, **SparNett**, **Fokus Bank**, **Postbanken**, **Other bank**, and **BBS**.|  
   
 4.  On the **Bank** FastTab, fill in the fields as described in the following table.  
   
@@ -61,7 +61,7 @@ You must sign an agreement of remittance with the bank when you set up electroni
     |Field|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |-----------|---------------------------------------|  
     |**Save Return File**|Select to automatically name the return file after it is imported without errors.|  
-    |**Receipt Return Required**|Select to verify that the first-time return report is imported.|  
+    |**Receipt Return Required**|Select to verify that the first\-time return report is imported.|  
     |**Return File Is Not In Use**|Select if you do not want to use return files for approval and settlement of payment. You can use this feature if you do not want to update payments with return information from the bank.|  
     |**On Hold Rejection Code**|Enter the code to update a rejected vendor ledger entry. The ledger entry will be marked as **On Hold**, which means that after rejection, it is not added to the remittance proposal again.<br /><br /> If the code is blank, the entry is not marked as **On Hold**, which means that after rejection it can be added to a remittance proposal again.|  
   

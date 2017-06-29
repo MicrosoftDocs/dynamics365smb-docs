@@ -16,7 +16,7 @@
 
     ---
 # How to: Create Report 349
-You must submit a periodic report of trade with other EU countries\/regions to the tax authorities. This declaration, Report 349, must be submitted to the tax authorities electronically on the tax agency website or on a CD-ROM. For more information, see the [Spanish Tax Agency](http://go.microsoft.com/fwlink/?LinkId=238181) website.  
+You must submit a periodic report of trade with other EU countries\/regions to the tax authorities. This declaration, Report 349, must be submitted to the tax authorities electronically on the tax agency website or on a CD\-ROM. For more information, see the [Spanish Tax Agency](http://go.microsoft.com/fwlink/?LinkId=238181) website.  
   
 ### To create Report 349  
   
@@ -33,7 +33,7 @@ You must submit a periodic report of trade with other EU countries\/regions to t
     |**\($ B\_10710\_N\_2\_1100017 Telephone Number $\)**|Specify the telephone number for contact.|  
     |**\($ B\_10710\_N\_2\_1100019 Declaration Number $\)**|Specify the number of the declaration. For example, if this is your first 349 declaration, the number is **3490000000000**.|  
     |**\($ B\_10710\_N\_2\_1100021 Company Country\/Region $\)**|Enter the country\/region for your company.|  
-    |**\($ B\_10710\_N\_2\_1100001 Declaration Media Type $\)**|Select the media type for the declaration.<br /><br /> To submit the declaration electronically, select **Telematic**.<br /><br /> To submit the declaration on CD-ROM, select **Physical support**. If you want to submit the 349 declaration on a CD-ROM, you must also print labels for the disk. For more information, see Declaration Labels.|  
+    |**\($ B\_10710\_N\_2\_1100001 Declaration Media Type $\)**|Select the media type for the declaration.<br /><br /> To submit the declaration electronically, select **Telematic**.<br /><br /> To submit the declaration on CD\-ROM, select **Physical support**. If you want to submit the 349 declaration on a CD\-ROM, you must also print labels for the disk. For more information, see Declaration Labels.|  
     |**\($ B\_10710\_N\_2\_1100004 Excluded Gen. Product Posting Groups $\)**|Specify the general product posting group that you do not want to include in the declaration.|  
   
 3.  Choose the **OK** button.  

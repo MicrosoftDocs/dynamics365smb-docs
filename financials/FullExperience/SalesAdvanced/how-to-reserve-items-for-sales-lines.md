@@ -35,9 +35,9 @@ You can reserve items for sales orders. You must have already set up a sales ord
     |**Cancel Reservation from Current Line**|To cancel reservation of the items from the document on the line you have selected.|  
   
 > [!NOTE]  
->  If item tracking lines exist for the sales order, the reservation system will take you through special steps. For more information, see [How to: Reserve Item-Tracked Items](../DesignAndEngineering/how-to-reserve-item-tracked-items.md).  
+>  If item tracking lines exist for the sales order, the reservation system will take you through special steps. For more information, see [How to: Reserve Item\-Tracked Items](../DesignAndEngineering/how-to-reserve-item-tracked-items.md).  
   
 ## See Also  
  [How to: Change Reservations](../Sales/how-to-change-reservations.md)   
  [How to: Cancel Reservations](../Sales/how-to-cancel-reservations.md)   
- [How to: Reserve Item-Tracked Items](../DesignAndEngineering/how-to-reserve-item-tracked-items.md)
+ [How to: Reserve Item\-Tracked Items](../DesignAndEngineering/how-to-reserve-item-tracked-items.md)

@@ -27,9 +27,9 @@ The Coded Statement of Account \(CODA\) is a national banking standard, designed
   
  If the transaction coding of the statement line is found, the statement lines will be matched to the following account types and corresponding account numbers:  
   
--   General ledger - If the account type is general ledger account, the statement line is posted on the corresponding general ledger account.  
+-   General ledger \- If the account type is general ledger account, the statement line is posted on the corresponding general ledger account.  
   
--   Customer or vendor - If the account type is customer or vendor, a matching customer or vendor ledger entry is found based on the following criteria:  
+-   Customer or vendor \- If the account type is customer or vendor, a matching customer or vendor ledger entry is found based on the following criteria:  
   
     -   If a ledger entry is found using the standard format, the ledger entry will be matched to the statement line and the application status will be set to **Applied**. If the ledger entry does not use the standard format, the bank account number of the customer or vendor is used to find the customer or vendor.  
   
@@ -46,7 +46,7 @@ The Coded Statement of Account \(CODA\) is a national banking standard, designed
 ## See Also  
  [Belgian Electronic Banking](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/belgian-electronic-banking.md)   
  [How to: Set Up Bank Accounts for CODA](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-bank-accounts-for-coda.md)   
- [How to: Set Up IBLC-BLWI Transaction Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-iblc-blwi-transaction-codes.md)   
+ [How to: Set Up IBLC\-BLWI Transaction Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-iblc-blwi-transaction-codes.md)   
  [How to: Import CODA Statements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-import-coda-statements.md)   
  [How to: Apply CODA Statements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-apply-coda-statements.md)   
  [How to: Create Financial Journals](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-create-financial-journals.md)   

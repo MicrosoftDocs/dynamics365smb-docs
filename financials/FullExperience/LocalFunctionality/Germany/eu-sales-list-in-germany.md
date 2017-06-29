@@ -28,5 +28,5 @@ In Germany, the German EU sales list is submitted to the "Bundeszentralamt für 
   
 ## See Also  
  [BZSt Online Portal](http://www.bzst.de)   
- VAT- VIES Declaration Disk   
+ VAT\- VIES Declaration Disk   
  [How to: Create VAT Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-create-vat-reports.md)

@@ -20,7 +20,7 @@ Use the disregard payment discount at full payment feature to accept payments wh
   
 -   Payment discount date \< payment date \<\= payment tolerance date  
   
--   Full amount \>\= payment amount \>\= full amount - payment discount  
+-   Full amount \>\= payment amount \>\= full amount \- payment discount  
   
 ### To disregard a payment discount  
   

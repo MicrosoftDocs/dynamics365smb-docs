@@ -20,7 +20,7 @@ Manufacturing companies use routings to show the manufacturing process. The prog
   
  The program supports the production of part families, that is, identical or similar parts can be manufactured with a single routing.  
   
- The routing is the basis of process scheduling, capacity scheduling, and optionally of scheduled assignment of material needs \(manufacturing-synchronous planning\) and manufacturing documents.  
+ The routing is the basis of process scheduling, capacity scheduling, and optionally of scheduled assignment of material needs \(manufacturing\-synchronous planning\) and manufacturing documents.  
   
  In order to be able to work with routings, the master data of the capacity planning must be set up first.  
   

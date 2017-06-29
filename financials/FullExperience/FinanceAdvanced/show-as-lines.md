@@ -47,13 +47,13 @@ Contains different views of the statistics of this item, based on what you selec
   
  If you select this view, the program shows a line for each item charge that you have set up in the **Item Charge** window.  
   
- If an item charge has been assigned to an item ledger entry in the **Item Charge Assignment \(Purch\)** window, that amount will be shown in the right-hand pane.  
+ If an item charge has been assigned to an item ledger entry in the **Item Charge Assignment \(Purch\)** window, that amount will be shown in the right\-hand pane.  
   
  **Sales Item Charge Spec.**  
   
  If you select this view, the program shows a line for each item charge that you have set up in the Item Charge window.  
   
- If an item charge has been assigned to an item ledger entry in the Item Charge Assignment \(Sales\) window, that amount will be shown in the right-hand pane.  
+ If an item charge has been assigned to an item ledger entry in the Item Charge Assignment \(Sales\) window, that amount will be shown in the right\-hand pane.  
   
 ## See Also  
  Show as Lines   

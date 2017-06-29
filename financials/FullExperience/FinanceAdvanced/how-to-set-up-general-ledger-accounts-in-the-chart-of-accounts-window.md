@@ -32,7 +32,7 @@ If you want to set up a completely new chart of accounts or add new accounts to 
   
 6.  In the **Account Type** field, identify the purpose of the account. To view the options, choose the field. Only the first type, **Posting**, represents an account that you can post to; the others are used to create totals and headings in the chart of accounts.  
   
-7.  For accounts of the **Total** account type, you must fill in the **Totaling** field. For **End-Total** accounts, this field is filled in automatically by the Indent function.  
+7.  For accounts of the **Total** account type, you must fill in the **Totaling** field. For **End\-Total** accounts, this field is filled in automatically by the Indent function.  
   
      In addition to the fields described earlier in this section, you must fill in the **Gen. Bus. Posting Group**, **Gen. Prod. Posting Group**, **VAT Bus. Posting Group**, and **VAT Prod. Posting Group** fields. For Help about a specific field, choose the field and press F1.  
   
@@ -41,7 +41,7 @@ If you want to set up a completely new chart of accounts or add new accounts to 
 9. After you have set up all the accounts, on the **Actions** tab, in the **Functions** group, choose **Indent Chart of Accounts**. Choose the **Yes** button.  
   
 > [!IMPORTANT]  
->  If you have entered definitions in the **Totaling** fields for **End-Total** accounts before executing the indent function, you must enter them again because the function overwrites the values in all **End-Total** fields.  
+>  If you have entered definitions in the **Totaling** fields for **End\-Total** accounts before executing the indent function, you must enter them again because the function overwrites the values in all **End\-Total** fields.  
   
 ## See Also  
  [How to: Insert Page Breaks in the Chart of Accounts](../Finance/how-to-insert-page-breaks-in-the-chart-of-accounts.md)   

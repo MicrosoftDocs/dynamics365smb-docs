@@ -16,7 +16,7 @@
 
     ---
 # Walkthrough: Planning Supplies Manually
-This walkthrough demonstrates the process of planning supply orders to fulfill new demand. You can initiate supply planning at fixed intervals, for example, every morning or every Monday, or when you are notified by sales or production, depending on the type of demand. In this walkthrough you will use the **Order Planning** window, a simple supply planning tool that is based on manual decision-making instead of parameter-based automatic planning.  
+This walkthrough demonstrates the process of planning supply orders to fulfill new demand. You can initiate supply planning at fixed intervals, for example, every morning or every Monday, or when you are notified by sales or production, depending on the type of demand. In this walkthrough you will use the **Order Planning** window, a simple supply planning tool that is based on manual decision\-making instead of parameter\-based automatic planning.  
   
 ## About This Walkthrough  
  This walkthrough illustrates the following tasks:  
@@ -78,7 +78,7 @@ This walkthrough demonstrates the process of planning supply orders to fulfill n
   
      The planning system analyzes any new demand that has been introduced, such as new sales, changed sales, or production orders.  
   
-     Based on total availability, the quantity needed for each demand line is calculated. This calculation is performed order-by-order. This means that the order which includes the demand line with the earliest due date or shipment date will be calculated first. After that, additional demand lines will be calculated in the same order, regardless of the due date or shipment date.  
+     Based on total availability, the quantity needed for each demand line is calculated. This calculation is performed order\-by\-order. This means that the order which includes the demand line with the earliest due date or shipment date will be calculated first. After that, additional demand lines will be calculated in the same order, regardless of the due date or shipment date.  
   
 3.  Be sure that the **Order Planning** window is maximized and that column fields are resized to show all the default field names.  
   
@@ -99,7 +99,7 @@ This walkthrough demonstrates the process of planning supply orders to fulfill n
   
 1.  Expand the first line \(choose the \+ symbol\).  
   
-2.  Choose the first demand line, with item **LSU-15**, and then on the **Navigate** tab, in the **Line** group, choose **Show Document**.  
+2.  Choose the first demand line, with item **LSU\-15**, and then on the **Navigate** tab, in the **Line** group, choose **Show Document**.  
   
 3.  Close the opened production order to return to the **Order Planning** window.  
   
@@ -153,7 +153,7 @@ This walkthrough demonstrates the process of planning supply orders to fulfill n
   
 2.  Expand the line and move the pointer to the demand line.  
   
-     Sales order **2008** is for ten loudspeakers, item **LS-120**, ordered by John Haddock Insurance Co.  
+     Sales order **2008** is for ten loudspeakers, item **LS\-120**, ordered by John Haddock Insurance Co.  
   
      The item’s defined replenishment system and default vendor will display.  
   
@@ -232,7 +232,7 @@ This walkthrough demonstrates the process of planning supply orders to fulfill n
   
 7.  In the **Make Supply Order** window, in the **Make Orders for** field, choose the **All Lines** option, and then choose the **OK** button to create production orders for the second product level of the order.  
   
-     Note that the top-level production demand for production order 101001 no longer exists. This means that the initial production demand for subassemblies has been planned for.  
+     Note that the top\-level production demand for production order 101001 no longer exists. This means that the initial production demand for subassemblies has been planned for.  
   
      In the **Order Planning** window, you calculate a plan again in order to plan the bicycle structure.  
   
@@ -254,7 +254,7 @@ This walkthrough demonstrates the process of planning supply orders to fulfill n
   
 13. In the **Search** box, enter **Firm Planned Prod. Orders**, and then choose the related link.  
   
-     In the **Firm Planned Prod. Orders** window review how start times and end times of individual orders are scheduled according to the product structure. The lowest-level components are produced first. Therefore, you must plan multilevel orders as demonstrated in this planning workflow.  
+     In the **Firm Planned Prod. Orders** window review how start times and end times of individual orders are scheduled according to the product structure. The lowest\-level components are produced first. Therefore, you must plan multilevel orders as demonstrated in this planning workflow.  
   
 ## See Also  
  [Business Process Walkthroughs](../GettingStarted/business-process-walkthroughs.md)   

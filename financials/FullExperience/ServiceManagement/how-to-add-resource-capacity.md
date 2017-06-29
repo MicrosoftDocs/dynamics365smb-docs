@@ -30,7 +30,7 @@ You may regularly need to change the capacity of resources, such as technicians,
   
 5.  In the **Starting Date** and **Ending Date** fields, define the time period for which you want to change capacity.  
   
-6.  In the **Work-Hour Template** field, select the relevant template.  
+6.  In the **Work\-Hour Template** field, select the relevant template.  
   
 7.  In the **Monday**, **Tuesday**, **Wednesday**, **Thursday**, **Friday**, **Saturday**, and **Sunday** fields, you can change the template work hours.  
   
@@ -40,4 +40,4 @@ You may regularly need to change the capacity of resources, such as technicians,
   
 ## See Also  
  [How to: Allocate Resources by Using Resource Availability](../Service/how-to-allocate-resources-by-using-resource-availability.md)   
- [How to: Set Up Work-Hour Templates](../Service/how-to-set-up-work-hour-templates.md)
+ [How to: Set Up Work\-Hour Templates](../Service/how-to-set-up-work-hour-templates.md)

@@ -16,7 +16,7 @@
 
     ---
 # How to: Set Up Withholding Tax-duplicate
-Companies must pay withholding tax to the government for third-party services and vendor purchases. Withholding tax is calculated during invoice payment rather than during invoice posting.  
+Companies must pay withholding tax to the government for third\-party services and vendor purchases. Withholding tax is calculated during invoice payment rather than during invoice posting.  
   
 ### To set up withholding tax codes  
   
@@ -62,9 +62,9 @@ Companies must pay withholding tax to the government for third-party services an
   
 2.  Select the relevant purchase invoice, and then on the **Home** tab, in the **Manage** group, choose **Edit**.  
   
-3.  On the **Navigate** tab, in the **Invoice** group, Choose **Withhold Taxes-Soc. Sec.**.  
+3.  On the **Navigate** tab, in the **Invoice** group, Choose **Withhold Taxes\-Soc. Sec.**.  
   
-4.  In the **Withh. Taxes-Contribution Card** window, on the **Withhold Taxes** FastTab, in the **Withholding Tax Code** field, select the code for the withholding tax.  
+4.  In the **Withh. Taxes\-Contribution Card** window, on the **Withhold Taxes** FastTab, in the **Withholding Tax Code** field, select the code for the withholding tax.  
   
 5.  To calculate the withholding tax amount before posting, on the **Home** tab, in the **Process** group, choose **Calculate**.  
   

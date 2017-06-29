@@ -27,9 +27,9 @@ FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md
   
  Document set 1 contains the following reports:  
   
--   **Sales - Invoice**  
+-   **Sales \- Invoice**  
   
--   **Sales - Credit Memo**  
+-   **Sales \- Credit Memo**  
   
 -   **Reminder**  
   
@@ -40,14 +40,14 @@ FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md
   
  Document set 2 contains the following reports:  
   
--   **\($ R\_10604 Sales - Invoice 2 $\)**  
+-   **\($ R\_10604 Sales \- Invoice 2 $\)**  
   
--   **\($ R\_10605 Sales - Credit Memo 2 $\)**  
+-   **\($ R\_10605 Sales \- Credit Memo 2 $\)**  
   
 -   **\($ R\_10615 Reminder 2 $\)**  
   
 -   **\($ R\_10607 Finance Charge Memo 2 $\)**  
   
 ## See Also  
- [Norwegian Giro and OCR-B Font](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/norwegian-giro-and-ocr-b-font.md)   
+ [Norwegian Giro and OCR\-B Font](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/norwegian-giro-and-ocr-b-font.md)   
  [Paper Sources and Tray Numbers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/paper-sources-and-tray-numbers.md)

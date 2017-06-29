@@ -62,7 +62,7 @@ Cost accounting can help you understand the costs of running a business. Cost ac
 ## Cost Allocations  
  Allocations move costs and revenues between cost types, cost centers, and cost objects. Overhead costs are first posted to cost centers and later charged to cost objects. For example, this might be done in a sales department that sells several products at the same time. Direct costs can be directly allocated to a cost object, such as a material purchased for a specific product.  
   
- The allocation base that is used and the accuracy of the allocation definition have an influence on the results of cost allocations. The allocation definition is used to allocate costs first from so-called pre-cost centers to main cost centers and then from cost centers to cost objects.  
+ The allocation base that is used and the accuracy of the allocation definition have an influence on the results of cost allocations. The allocation definition is used to allocate costs first from so\-called pre\-cost centers to main cost centers and then from cost centers to cost objects.  
   
  Each allocation consists of an allocation source and one or more allocation targets. You can allocate actual values or budgeted values by using the static allocation method that is based on a definite value, such as square footage, or an established allocation ratio of 5:2:4. You can also allocate actual values or budgeted values by using the dynamic allocation method with nine predefined allocation bases and 12 dynamic date ranges.  
   

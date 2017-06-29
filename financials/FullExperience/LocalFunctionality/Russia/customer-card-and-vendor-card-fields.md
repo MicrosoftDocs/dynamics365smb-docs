@@ -24,13 +24,13 @@ The **Customer Card** and **Vendor Card** windows include several additional fie
   
 -   **OKONX Code**  
   
- Every company uses these codes, and they must be shown in required documents such as payment documents and factura-invoices.  
+ Every company uses these codes, and they must be shown in required documents such as payment documents and factura\-invoices.  
   
 -   The **KPP Code** field is for the code of the company registration.  
   
 -   The **OKPO Code** field is for the Classification of Enterprises and Organizations code.  
   
--   The **OKONX Code** field is for a federation-wide classifier of a sector of the national economy.  
+-   The **OKONX Code** field is for a federation\-wide classifier of a sector of the national economy.  
   
  The KPP code has also been added to the **Payments** FastTab of the **Customer Card** form.  
   
@@ -39,5 +39,5 @@ The **Customer Card** and **Vendor Card** windows include several additional fie
  The **Default Bank Code** field is added to the **Payments** FastTab of the customer card and the vendor card.  
   
 ## See Also  
- [Payables and Receivables-duplicate](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/payables-and-receivables-duplicate.md)   
+ [Payables and Receivables\-duplicate](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/payables-and-receivables-duplicate.md)   
  [Bank Management](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/bank-management.md)

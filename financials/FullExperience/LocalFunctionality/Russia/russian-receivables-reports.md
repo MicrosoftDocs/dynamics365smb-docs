@@ -165,12 +165,12 @@ The receivables report feature enables you to view the customer general ledger t
 |**Report Currency**|Enter currency that you want to use in the report. You can choose:<br /><br /> -   Local currency<br />-   Transaction currency|  
 |**New Page For Customer**|Select this field to print the data for each customer on a separate page.|  
   
-## Customer - Reconciliation Act \(Report 14910\)  
+## Customer \- Reconciliation Act \(Report 14910\)  
  The Customer – Reconciliation Act report shows the payments or liabilities of the customer. It is used for the reconciliation of mutual payments of contractors.  
   
  To access the Customer – Reconciliation Act report  
   
--   In **Financial Management**, choose **Receivables**, choose **Reports**, and then choose **Customer - Reconciliation Act**.  
+-   In **Financial Management**, choose **Receivables**, choose **Reports**, and then choose **Customer \- Reconciliation Act**.  
   
  The following levels of detail are possible:  
   
@@ -223,4 +223,4 @@ The receivables report feature enables you to view the customer general ledger t
 ## See Also  
  [Russian Payables Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/russian-payables-reports.md)   
  [How to: Set Up Customer and Vendor Agreements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-set-up-customer-and-vendor-agreements.md)   
- [Payables and Receivables-duplicate](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/payables-and-receivables-duplicate.md)
+ [Payables and Receivables\-duplicate](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/payables-and-receivables-duplicate.md)

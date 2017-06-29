@@ -36,7 +36,7 @@ You can add any user as a user of an Automated Data Capture System \(ADCS\). Whe
   
 3.  On the **Home** tab, in the **Manage** group, choose **Edit List**.  
   
-4.  Select a warehouse employee from the list. In the **ADCS User** field, choose the drop-down arrow, and then select the name of an ADCS user from the list.  
+4.  Select a warehouse employee from the list. In the **ADCS User** field, choose the drop\-down arrow, and then select the name of an ADCS user from the list.  
   
     > [!NOTE]  
     >  The default warehouse for the employee should be one that uses ADCS. For more information, see [How to: Set Up a Warehouse to Use ADCS](../WarehouseActivities/how-to-set-up-a-warehouse-to-use-adcs.md).  

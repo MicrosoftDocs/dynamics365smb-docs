@@ -36,5 +36,5 @@ To send electronic payments to vendors, you must first generate a payment file f
  [How to: Disregard Payment Discounts](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Finland/how-to-disregard-payment-discounts.md)   
  Suggest Bank Payments   
  Bank Payments to send   
- Ref. Payment - Exported   
+ Ref. Payment \- Exported   
  Payment

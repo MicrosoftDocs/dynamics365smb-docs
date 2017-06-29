@@ -57,10 +57,10 @@ FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**Own vendor recipient ref.**|Select to use the recipient reference from the vendor.|  
-    |**\($ T\_23\_15000005 Recipient ref. 1 -- inv. $\)**|Enter the text that will print on the payment invoice.|  
-    |**\($ T\_23\_15000008 Recipient ref. 1 - cred. $\)**|Enter the text that will print on the payment invoice when deducting a credit memo.|  
+    |**\($ T\_23\_15000005 Recipient ref. 1 \-\- inv. $\)**|Enter the text that will print on the payment invoice.|  
+    |**\($ T\_23\_15000008 Recipient ref. 1 \- cred. $\)**|Enter the text that will print on the payment invoice when deducting a credit memo.|  
   
-     If remittance to BBS is used, the text from **Recipient ref. - inv.** and **Recipient ref. -cred.** is displayed on the payment specification in lines one through three, columns one and two. You can insert a maximum of 80 characters on the payment specification.  
+     If remittance to BBS is used, the text from **Recipient ref. \- inv.** and **Recipient ref. \-cred.** is displayed on the payment specification in lines one through three, columns one and two. You can insert a maximum of 80 characters on the payment specification.  
   
      The text in the recipient reference fields can be formatted automatically with special codes. For more information, see [Recipient Reference Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/recipient-reference-codes.md).  
   
@@ -69,15 +69,15 @@ FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**Recipient Ref. Abroad**|Enter the text that will print on the payment invoice.|  
-    |**Warning Notice**|Select one of the following options to specify how a warning notice is sent from the recipient's bank to the recipient.<br /><br /> -   **None** - No confirmation is sent.<br />-   **Phone** - Confirmation is given by phone.<br />-   **Fax** - Confirmation is sent by fax.<br />-   **Other** - A text message in the **Warning Text** field is used.|  
+    |**Warning Notice**|Select one of the following options to specify how a warning notice is sent from the recipient's bank to the recipient.<br /><br /> -   **None** \- No confirmation is sent.<br />-   **Phone** \- Confirmation is given by phone.<br />-   **Fax** \- Confirmation is sent by fax.<br />-   **Other** \- A text message in the **Warning Text** field is used.|  
     |**Warning Text**|Enter the warning text that is used if the **Warning Notice** field is set to **Other**.|  
     |**Recipient Confirmation**|Select to specify how confirmation of payment is sent to the recipient.|  
     |**Telex Country\/Region Code**|Specify the country\/region code if the confirmation is sent using telex.|  
     |**Telex\/Fax No.**|Specify the telex or fax number if the confirmation is sent using telex or fax.|  
     |**Recipient Contact**|Specify the contact person’s name if a telex or fax confirmation is sent to the recipient.|  
-    |**Charges Domestic**|Specify who is charged the domestic charges in connection with the payment.<br /><br /> -   **Debitremitter** - The remitter is charged.<br />-   **Debitrecipient** - The recipient is charged.<br />-   **Default** - The bank's way of charging is used. Typically this is the remitter who is charged.|  
-    |**Charges Abroad**|Specify who is charged for foreign payments.<br /><br /> -   **Debitremitter** - The remitter is charged.<br />-   **Debitrecipient** - The recipient is charged.<br />-   **Default** - The bank's way of charging is used. Typically this is the remitter who is charged.|  
-    |**Payment Type Code Abroad**|Enter a two-digit code for the payment type.|  
+    |**Charges Domestic**|Specify who is charged the domestic charges in connection with the payment.<br /><br /> -   **Debitremitter** \- The remitter is charged.<br />-   **Debitrecipient** \- The recipient is charged.<br />-   **Default** \- The bank's way of charging is used. Typically this is the remitter who is charged.|  
+    |**Charges Abroad**|Specify who is charged for foreign payments.<br /><br /> -   **Debitremitter** \- The remitter is charged.<br />-   **Debitrecipient** \- The recipient is charged.<br />-   **Default** \- The bank's way of charging is used. Typically this is the remitter who is charged.|  
+    |**Payment Type Code Abroad**|Enter a two\-digit code for the payment type.|  
     |**Specification \(Norges Bank\)**|Specify information for your local government bank. Contact your bank for further information.|  
   
 9. On the **Bank abroad** FastTab, fill in the fields as described in the following table.  

@@ -33,7 +33,7 @@ The concept of UI customization in FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INC
   
 |**To**|**See**|  
 |------------|-------------|  
-|As an administrator, remove UI elements according to permissions. Then, configure different profile-specific page layouts using the same UI customization functions that users use.|[Configure the User Interface](../SetupAndAdministration/configure-the-user-interface.md)|  
+|As an administrator, remove UI elements according to permissions. Then, configure different profile\-specific page layouts using the same UI customization functions that users use.|[Configure the User Interface](../SetupAndAdministration/configure-the-user-interface.md)|  
 |As a user, change how actions, fields, and page parts are placed in your personal version of [!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)] using a rich set of UI customization functions.|PERSONALIZATION Personalize the User Interface|  
   
 ## See Also  

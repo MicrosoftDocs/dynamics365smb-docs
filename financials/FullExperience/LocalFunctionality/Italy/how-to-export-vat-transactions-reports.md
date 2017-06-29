@@ -30,7 +30,7 @@ After you create a report, you can release it, and then export it for the author
   
     -   On the **Home** tab, choose **New**, and create a new report. For more information, see [How to: Create Electronic VAT Transactions Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-create-electronic-vat-transactions-reports.md).  
   
-3.  Review the transaction details. To exclude a line from being reported to the tax authority, on the line, clear the **Incl. in Report** check box. To see the VAT entries that the line is based on, right-click the **Amount** field, and choose the AssistButton.  
+3.  Review the transaction details. To exclude a line from being reported to the tax authority, on the line, clear the **Incl. in Report** check box. To see the VAT entries that the line is based on, right\-click the **Amount** field, and choose the AssistButton.  
   
     > [!NOTE]  
     >  You can create an empty report, that is, a report that has no lines, in the case in which there are no transactions to report.  

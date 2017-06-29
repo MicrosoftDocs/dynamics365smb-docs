@@ -28,7 +28,7 @@ You can report VAT electronically to the tax authorities. You can generate, elec
 |**VAT Statement Schedule**|This report can be retrieved from the **VAT Statement** form.<br /><br /> Prints the settings in the VAT statement. Using this report, you can print the characteristics of the **Sales VAT Adv. Not. Acc. Proof**.|  
   
 ## See Also  
- [How to: Print VAT Reports-duplicate](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-print-vat-reports-duplicate.md)   
+ [How to: Print VAT Reports\-duplicate](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-print-vat-reports-duplicate.md)   
  VAT Statement Line   
  [How to: Correct VAT](../../Finance/how-to-correct-vat.md)   
  VAT Statement AT   

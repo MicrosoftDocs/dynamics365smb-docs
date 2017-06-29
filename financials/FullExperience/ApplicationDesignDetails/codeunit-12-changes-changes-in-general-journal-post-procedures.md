@@ -137,19 +137,19 @@ The following changes have been implemented in this release of FIX INCLUDE HERE<
 |CheckCalcPmtDiscCVVend||Moved to Codeunit 426 Payment Tolerance Management|  
 |CheckCalcPmtDiscVend||Moved to Codeunit 426 Payment Tolerance Management|  
 |CheckCalcPmtDiscGenJnlVend||Moved to Codeunit 426 Payment Tolerance Management|  
-|Reverse|Reverse|Moved to Codeunit 17 Gen. Jnl.-Post Reverse|  
-|ReverseCustLedgEntry|ReverseCustLedgEntry|Moved to Codeunit 17 Gen. Jnl.-Post Reverse|  
-|ReverseVendLedgEntry|ReverseVendLedgEntry|Moved to Codeunit 17 Gen. Jnl.-Post Reverse|  
-|ReverseBankAccLedgEntry|ReverseBankAccLedgEntry|Moved to Codeunit 17 Gen. Jnl.-Post Reverse|  
-|ReverseVAT|ReverseVAT|Moved to Codeunit 17 Gen. Jnl.-Post Reverse|  
-|SetReversalDescription|SetReversalDescription|Moved to Codeunit 17 Gen. Jnl.-Post Reverse|  
-|ApplyCustLedgEntryByReversal|ApplyCustLedgEntryByReversal|Moved to Codeunit 17 Gen. Jnl.-Post Reverse|  
-|ApplyVendLedgEntryByReversal|ApplyVendLedgEntryByReversal|Moved to Codeunit 17 Gen. Jnl.-Post Reverse|  
-|PostPmtDiscountVATByUnapply|PostPmtDiscountVATByUnapply|Moved to Codeunit 17 Gen. Jnl.-Post Reverse|  
-||CheckDimComb|Added in Codeunit 17 Gen. Jnl.-Post Reverse|  
-||CopyCustLedgEntry|Added in Codeunit 17 Gen. Jnl.-Post Reverse|  
-||CopyVendLedgEntry|Added in Codeunit 17 Gen. Jnl.-Post Reverse|  
-||CopyBankAccLedgEntry|Added in Codeunit 17 Gen. Jnl.-Post Reverse|  
+|Reverse|Reverse|Moved to Codeunit 17 Gen. Jnl.\-Post Reverse|  
+|ReverseCustLedgEntry|ReverseCustLedgEntry|Moved to Codeunit 17 Gen. Jnl.\-Post Reverse|  
+|ReverseVendLedgEntry|ReverseVendLedgEntry|Moved to Codeunit 17 Gen. Jnl.\-Post Reverse|  
+|ReverseBankAccLedgEntry|ReverseBankAccLedgEntry|Moved to Codeunit 17 Gen. Jnl.\-Post Reverse|  
+|ReverseVAT|ReverseVAT|Moved to Codeunit 17 Gen. Jnl.\-Post Reverse|  
+|SetReversalDescription|SetReversalDescription|Moved to Codeunit 17 Gen. Jnl.\-Post Reverse|  
+|ApplyCustLedgEntryByReversal|ApplyCustLedgEntryByReversal|Moved to Codeunit 17 Gen. Jnl.\-Post Reverse|  
+|ApplyVendLedgEntryByReversal|ApplyVendLedgEntryByReversal|Moved to Codeunit 17 Gen. Jnl.\-Post Reverse|  
+|PostPmtDiscountVATByUnapply|PostPmtDiscountVATByUnapply|Moved to Codeunit 17 Gen. Jnl.\-Post Reverse|  
+||CheckDimComb|Added in Codeunit 17 Gen. Jnl.\-Post Reverse|  
+||CopyCustLedgEntry|Added in Codeunit 17 Gen. Jnl.\-Post Reverse|  
+||CopyVendLedgEntry|Added in Codeunit 17 Gen. Jnl.\-Post Reverse|  
+||CopyBankAccLedgEntry|Added in Codeunit 17 Gen. Jnl.\-Post Reverse|  
 |HandlDtlAddjustment|HandleDtldAdjustment|Updated|  
 |CollectAddjustment|CollectAdjustment|Updated|  
 |SetOverDimErr|SetOverDimErr|Updated|  

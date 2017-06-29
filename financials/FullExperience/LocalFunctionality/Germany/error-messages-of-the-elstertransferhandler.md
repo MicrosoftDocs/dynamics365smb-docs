@@ -30,9 +30,9 @@ When FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HER
 |2100|The XML file could not been sent because the connection was lost unexpectedly.|  
 |2200|No connection could be made to the OFD servers while receiving data. This can be a problem with your network connection. Check your network configuration, or try again later.|  
 |2300|The response document could not been received because the connection was lost unexpectedly.|  
-|3000|ELSTER could not access the user-specific certificate. You must make sure that the certificate is installed correctly.|  
+|3000|ELSTER could not access the user\-specific certificate. You must make sure that the certificate is installed correctly.|  
 |3100|You have submitted a document but you do not have access to the certificate store. You must make sure that the certificate is installed correctly.|  
-|3200|The user-specific certificate could not be found. You must make sure that the certificate is installed correctly.|  
+|3200|The user\-specific certificate could not be found. You must make sure that the certificate is installed correctly.|  
 |3300|The specified certificate does not have a private key, or the password for the private key is incorrect. You must make sure that the certificate is installed correctly.|  
 |3400|The public certificate of the OFD could not be opened. You must make sure that the certificate is installed correctly.|  
 |4000|The response document could not be decrypted because the private key does not match the public key that was used for encryption.|  

@@ -18,11 +18,11 @@
 # Item General Ledger Turnover
 The following form and reports enable the creation of turnover sheet for goods and materials.  
   
--   Item General Ledger Turnover form - Form 12449  
+-   Item General Ledger Turnover form \- Form 12449  
   
--   Item Turnover \(Qty.\) - Report 12469  
+-   Item Turnover \(Qty.\) \- Report 12469  
   
--   Item Turnover Checklist - Report 12489  
+-   Item Turnover Checklist \- Report 12489  
   
 ## Item General Ledger Turnover Form \(12449\)  
  The Item General Ledger Turnover form shows the turnover for items in quantities and costs, the balance at the beginning of the month, positive and negative adjustment, and the balance at the end of the month.  

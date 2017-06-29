@@ -38,7 +38,7 @@ The **Get Posted Document Lines to Reverse** function is useful when you need to
   
  The following processes occur:  
   
--   For posted document lines of the type **Item**, a new document line is created that is a copy of the posted document line, with the quantity that has not yet been reversed. The **Appl.-from Item Entry** field, for sales documents, or the **Appl.-to Item Entry** field, for purchase documents, is filled in as appropriate, with the number of the item ledger entry of the posted document line.  
+-   For posted document lines of the type **Item**, a new document line is created that is a copy of the posted document line, with the quantity that has not yet been reversed. The **Appl.\-from Item Entry** field, for sales documents, or the **Appl.\-to Item Entry** field, for purchase documents, is filled in as appropriate, with the number of the item ledger entry of the posted document line.  
   
 -   For posted document lines that are not of the type **Item**, such as item charges, a new document line is created that is a copy of the original posted document line.  
   
@@ -48,7 +48,7 @@ The **Get Posted Document Lines to Reverse** function is useful when you need to
   
 -   If the copied document is a posted invoice or credit memo, the unit price, invoice discounts, and line discounts from the posted document line are copied.  
   
--   If the posted document line contains item tracking lines, the **Appl.-from Item Entry** field on the item tracking lines is filled with the appropriate item ledger entry numbers from the posted item tracking lines.  
+-   If the posted document line contains item tracking lines, the **Appl.\-from Item Entry** field on the item tracking lines is filled with the appropriate item ledger entry numbers from the posted item tracking lines.  
   
  When you copy from a posted invoice or posted credit memo, the program copies any relevant invoice discounts and line discounts as valid at the time of posting that document from the posted document line to the new document line. Be aware, however, that if the **Calc. Inv. Discount** option is activated in either the purchases and payables setup or the sales and receivables setup, as pertains to the situation, the invoice discount will be newly calculated when you post the new document line. It can be, therefore, that the line amount for the new line is different than the line amount for the posted document line, depending on the new calculation of the invoice discount.  
   
@@ -57,7 +57,7 @@ The **Get Posted Document Lines to Reverse** function is useful when you need to
 >   
 >  If part of the quantity of the posted document line has already been reversed or sold or consumed, a line is created for only the quantity that remains in inventory or that has not been returned. If the full quantity of the posted document line has already been reversed, a new document line is not created.  
 >   
->  If the flow of goods in the posted document is the same as the flow of goods in the new document, a copy of the original posted document line in the new document is created. The **Appl.-from Item Entry** field, for sales documents, or **Appl.-to Item Entry** field, for purchase documents, is not filled in because, in this case, exact cost reversing is not possible. For example, if you use the **Get Posted Document Lines to Reverse** function to get a posted sales credit memo line for a new sales credit memo, only the original posted credit memo line is copied to the new credit memo.  
+>  If the flow of goods in the posted document is the same as the flow of goods in the new document, a copy of the original posted document line in the new document is created. The **Appl.\-from Item Entry** field, for sales documents, or **Appl.\-to Item Entry** field, for purchase documents, is not filled in because, in this case, exact cost reversing is not possible. For example, if you use the **Get Posted Document Lines to Reverse** function to get a posted sales credit memo line for a new sales credit memo, only the original posted credit memo line is copied to the new credit memo.  
   
 ## See Also  
  Sales Return Order   

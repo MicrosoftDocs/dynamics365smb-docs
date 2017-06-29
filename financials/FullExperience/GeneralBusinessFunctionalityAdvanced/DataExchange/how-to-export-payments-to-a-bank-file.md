@@ -61,7 +61,7 @@ When you are ready to make payments to your vendors using the **Payment Journal*
 >  1.  In a payment journal with suggested payment lines, you can sort on either the **Exported to Payment File** column or the **Total Exported Amount** and then delete payment suggestions for open invoices for which payments have already been made and you do not want to make payments for.  
 > 2.  Alternatively, on the **Suggest Vendor Payments** batch job, where you specify which payments to insert in the payment journal, you can select the **Skip Exported Payments** check box if you do not want to insert journal lines for payments that have already been exported.  
 >   
->  To see information about exported payments, on the **Home** tab, in the **Bank** group, choose **Payment Export History**. For more information, see [How to: Re-export Payments to a Bank File](../../Finance/how-to-re-export-payments-to-a-bank-file.md).  
+>  To see information about exported payments, on the **Home** tab, in the **Bank** group, choose **Payment Export History**. For more information, see [How to: Re\-export Payments to a Bank File](../../Finance/how-to-re-export-payments-to-a-bank-file.md).  
   
 ## See Also  
  Payment Export Format   

@@ -36,7 +36,7 @@ Expected costs represent the estimation of, for example, a purchased item’s co
   
 |Posting Date|Entry Type|Cost Amount \(Expected\)|Expected Cost Posted to G\/L|Expected Cost|Item Ledger Entry No.|Entry No.|  
 |------------------|----------------|------------------------------|----------------------------------|-------------------|---------------------------|---------------|  
-|01-01-20|Direct Cost|95.00|95.00|Yes|1|1|  
+|01\-01\-20|Direct Cost|95.00|95.00|Yes|1|1|  
   
  **Relation Entries in the G\/L – Item Ledger Relation Table**  
   
@@ -47,10 +47,10 @@ Expected costs represent the estimation of, for example, a purchased item’s co
   
  **General Ledger Entries**  
   
-|Posting Date|G\/L Account|Account No. \(En-US Demo\)|Amount|Entry No.|  
+|Posting Date|G\/L Account|Account No. \(En\-US Demo\)|Amount|Entry No.|  
 |------------------|------------------|---------------------------------|------------|---------------|  
-|01-01-20|Inventory Accrual Account \(Interim\)|5530|-95.00|2|  
-|01-01-20|Inventory Account \(Interim\)|2131|95.00|1|  
+|01\-01\-20|Inventory Accrual Account \(Interim\)|5530|\-95.00|2|  
+|01\-01\-20|Inventory Account \(Interim\)|2131|95.00|1|  
   
  At a later date, you post the purchase order as invoiced. The invoiced cost is LCY 100.00.  
   
@@ -58,7 +58,7 @@ Expected costs represent the estimation of, for example, a purchased item’s co
   
 |Posting Date|Cost Amount \(Actual\)|Cost Amount \(Expected\)|Cost Posted to G\/L|Expected Cost|Item Ledger Entry No.|Entry No.|  
 |------------------|----------------------------|------------------------------|-------------------------|-------------------|---------------------------|---------------|  
-|01-15-20|100.00|-95.00|100.00|No|1|2|  
+|01\-15\-20|100.00|\-95.00|100.00|No|1|2|  
   
  **Relation Entries in the G\/L – Item Ledger Relation Table**  
   
@@ -71,12 +71,12 @@ Expected costs represent the estimation of, for example, a purchased item’s co
   
  **General Ledger Entries**  
   
-|Posting Date|G\/L Account|Account No. \(En-US Demo\)|Amount|Entry No.|  
+|Posting Date|G\/L Account|Account No. \(En\-US Demo\)|Amount|Entry No.|  
 |------------------|------------------|---------------------------------|------------|---------------|  
-|01-15-20|Inventory Accrual Account \(Interim\)|5530|95.00|4|  
-|01-15-20|Inventory Account \(Interim\)|2131|-95.00|3|  
-|01-15-20|Direct Cost Applied Account|7291|-100|6|  
-|01-15-20|Inventory Account|2130|100|5|  
+|01\-15\-20|Inventory Accrual Account \(Interim\)|5530|95.00|4|  
+|01\-15\-20|Inventory Account \(Interim\)|2131|\-95.00|3|  
+|01\-15\-20|Direct Cost Applied Account|7291|\-100|6|  
+|01\-15\-20|Inventory Account|2130|100|5|  
   
 ## See Also  
  [Design Details: Inventory Costing](../ApplicationDesign/design-details-inventory-costing.md)   

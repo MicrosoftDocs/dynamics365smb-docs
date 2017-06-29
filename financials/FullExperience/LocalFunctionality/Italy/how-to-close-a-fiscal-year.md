@@ -22,9 +22,9 @@ To evaluate profit and loss, a fiscal year closing report is provided at the end
   
 -   Closing the fiscal year using the **Accounting Period** option.  
   
--   Generating a year-end closing entry using the **Close Income Statement** option.  
+-   Generating a year\-end closing entry using the **Close Income Statement** option.  
   
--   Posting the year-end closing entry.  
+-   Posting the year\-end closing entry.  
   
 ### To close a fiscal year  
   
@@ -37,7 +37,7 @@ To evaluate profit and loss, a fiscal year closing report is provided at the end
     > [!IMPORTANT]  
     >  After the fiscal year is closed it cannot be opened again, and the period in the fiscal year cannot be changed.  
   
-### To generate a year-end closing entry using the Close Income Statement option  
+### To generate a year\-end closing entry using the Close Income Statement option  
   
 1.  In the **Search** box, enter **Close Income Statement**, and then choose the related link.  
   
@@ -59,7 +59,7 @@ To evaluate profit and loss, a fiscal year closing report is provided at the end
   
 3.  Choose the **OK**  button to create the journal entries.  
   
-### To post the year-end closing entry  
+### To post the year\-end closing entry  
   
 1.  In the **Search** box, enter **General Journals**, and then choose the related link.  
   
@@ -69,8 +69,8 @@ To evaluate profit and loss, a fiscal year closing report is provided at the end
   
 4.  To post the journal, on the **Home** tab, in the **Process** group, choose **Post**.  
   
-     An entry is posted to each income statement account so that it has a zero balance. The year-end result is transferred to the balance sheet.  
+     An entry is posted to each income statement account so that it has a zero balance. The year\-end result is transferred to the balance sheet.  
   
 ## See Also  
- [About Year-End Processes](../../Finance/about-year-end-processes.md)   
+ [About Year\-End Processes](../../Finance/about-year-end-processes.md)   
  [Italy Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/italy-local-functionality.md)

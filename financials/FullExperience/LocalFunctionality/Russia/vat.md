@@ -23,7 +23,7 @@ VAT is charged on transactions that involve goods and services in Russia or good
   
 -   The highest VAT rate is applied to transactions that involve most types of goods and services.  
   
--   The mid-level VAT rate is applied to transactions that involve a select group of food products, children’s products, and medical goods.  
+-   The mid\-level VAT rate is applied to transactions that involve a select group of food products, children’s products, and medical goods.  
   
 -   The lowest VAT rate is a tax incentive that is applied to exported goods.  
   

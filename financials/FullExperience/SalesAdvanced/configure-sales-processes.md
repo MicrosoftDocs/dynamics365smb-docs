@@ -24,7 +24,7 @@ Before you can manage sales processes, you must configure the rules and values t
   
  A separate series of tasks related to creating customer master data is to record the customers' discount and price agreements in windows linked to the customer cards.  
   
- Finance-related sales configuration, such as payment and reminder handling, are covered in [Set Up Receivables and Payables](../Finance/set-up-receivables-and-payables.md).  
+ Finance\-related sales configuration, such as payment and reminder handling, are covered in [Set Up Receivables and Payables](../Finance/set-up-receivables-and-payables.md).  
   
  The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
   

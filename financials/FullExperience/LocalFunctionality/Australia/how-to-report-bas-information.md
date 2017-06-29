@@ -30,7 +30,7 @@ You need to report the Business Activity Statement \(BAS\) calculation informati
   
 5.  In the **BAS Calculation Sheet** window, on the **Home** tab, in the **Process** group, choose **Update**.  
   
-6.  In the **BAS-Update** window, choose the **Preview** button to view the update information. Choose the **OK** button to close the preview window.  
+6.  In the **BAS\-Update** window, choose the **Preview** button to view the update information. Choose the **OK** button to close the preview window.  
   
 7.  In the **BAS Calculation Sheet** window, on the **Home** tab, in the **Process** group, choose **Export**.  
   

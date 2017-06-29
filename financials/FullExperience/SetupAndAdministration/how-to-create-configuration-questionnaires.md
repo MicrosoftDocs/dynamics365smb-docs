@@ -18,7 +18,7 @@
 # How to: Create Configuration Questionnaires
 You can use a questionnaire to help you determine the scope and needs of configuration. You can create a new questionnaire, or modify an existing questionnaire by adding new questions or question areas.  
   
- You can create questionnaires for setup-type tables only. For example you can use the tool to provide information to the following windows:  
+ You can create questionnaires for setup\-type tables only. For example you can use the tool to provide information to the following windows:  
   
 -   Company Information  
   
@@ -66,7 +66,7 @@ You can use a questionnaire to help you determine the scope and needs of configu
      As needed, you can also delete questions that you do not want to include in the questionnaire.  
   
     > [!NOTE]  
-    >  The **Answer Option** field describes the type and format of the answer of the data that is appropriate. The **Answer** field contains user-supplied information.  
+    >  The **Answer Option** field describes the type and format of the answer of the data that is appropriate. The **Answer** field contains user\-supplied information.  
     >   
     >  As needed, you can also define default answers in the **Answer** field. These values are used by default for custom setup. However, the person filling in the questionnaire can modify and update the answer.  
   

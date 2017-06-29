@@ -43,7 +43,7 @@ Production orders are used to manage the conversion of purchased materials into 
 -   Tracking of finished manufacturing  
   
 ## Production Order Creation  
- Production orders can be created on an order-by-order basis manually from the **Production Order** window, or generated from the **Sales Order Planning** and\/or **Order Planning** window. Multiple orders are created from the **Planning Worksheet** window.  
+ Production orders can be created on an order\-by\-order basis manually from the **Production Order** window, or generated from the **Sales Order Planning** and\/or **Order Planning** window. Multiple orders are created from the **Planning Worksheet** window.  
   
  Production orders are created using information from:  
   
@@ -76,7 +76,7 @@ Production orders are used to manage the conversion of purchased materials into 
 ### Simulated Production Order  
  The Simulated Production Order is unique based on the following characteristics:  
   
--   As its name implies, it is a simulation and its main purpose is for quoting and costing - such as when the Research and Development department wants to get a cost estimate on a proposed item. A simulated production order serves as an example of a production order.  
+-   As its name implies, it is a simulation and its main purpose is for quoting and costing \- such as when the Research and Development department wants to get a cost estimate on a proposed item. A simulated production order serves as an example of a production order.  
   
 -   It does not influence the planning of orders. Planning \(MPS and MRP\) neither considers nor is affected by simulated production orders. Also, a simulated production order cannot be used as a template because it disappears when you change its status.  
   
@@ -113,7 +113,7 @@ Production orders are used to manage the conversion of purchased materials into 
   
 -   When a production order has been released, it does not necessarily mean that materials have been picked or the job has physically moved to its first operation.  
   
--   In a MTO \(Make-to-Order\) environment, it is not unusual to create a released production order immediately after the entry of the sales order.  
+-   In a MTO \(Make\-to\-Order\) environment, it is not unusual to create a released production order immediately after the entry of the sales order.  
   
 -   Actual material consumption and product output can be recorded manually with a released production order. In addition, automatic flushing of consumption and product output only occurs for released production orders.  
   
@@ -154,7 +154,7 @@ Production orders are used to manage the conversion of purchased materials into 
   
  Forward consumption reporting assumes the expected quantity of all materials for the entire order is consumed at the release of a production order, unless using routing link codes. When using routing link codes, the material consumed after the start of the operational step is recorded in the Output Journal. To forward flush the entire production order, you need to do two things:  
   
--   All items in the top-level production BOM need to have forward flushing selected on their respective item card.  
+-   All items in the top\-level production BOM need to have forward flushing selected on their respective item card.  
   
 -   All routing link codes on the production BOM must be removed.  
   
@@ -173,7 +173,7 @@ Production orders are used to manage the conversion of purchased materials into 
   
 -   Back Flushing the Entire Order  
   
-#### Automatic Reporting - Forward Flush the Entire Order  
+#### Automatic Reporting \- Forward Flush the Entire Order  
  If you forward flush the production order at the start of the job, the behavior of the program is very similar to a manual consumption. The major difference is that consumption happens automatically.  
   
 -   The entire contents of the production BOM are consumed and deducted from inventory at the time the released production order is refreshed.  
@@ -194,18 +194,18 @@ Production orders are used to manage the conversion of purchased materials into 
   
 -   high component consumption in early operations  
   
-#### Automatic Reporting - Forward Flushing by Operation  
+#### Automatic Reporting \- Forward Flushing by Operation  
  Flushing by operation allows you to deduct inventory during a specific operation in the routing of the parent item. Material is tied to the routing using routing link codes, which correspond to routing link codes applied to components in the production BOM.  
   
  The flush takes place when the operation that has the same routing link code is started. Started means that some activity is recorded in the output journal for that operation. And that activity might just be that a setup time is entered.  
   
  The amount of the flush is for the quantity per assembly stated on the production BOM multiplied by the number of parent items being built \(expected quantity\).  
   
- This technique is best employed when there are many operations and certain components are not needed until late in the assembly sequence. In fact, a Just-in-Time \(JIT\) setup might not even have the items on hand when the RPO is begun.  
+ This technique is best employed when there are many operations and certain components are not needed until late in the assembly sequence. In fact, a Just\-in\-Time \(JIT\) setup might not even have the items on hand when the RPO is begun.  
   
  Material can be consumed during operations by using routing link codes. Some components may not be used until final assembly operations and should not be withdrawn from stock until that time.  
   
-#### Automatic Reporting - Back Flushing by Operation  
+#### Automatic Reporting \- Back Flushing by Operation  
  Back flushing by operation records consumption after the operation is posted in the output journal.  
   
  The advantage of this method is that the number of parent parts finished in the operation is known.  
@@ -214,7 +214,7 @@ Production orders are used to manage the conversion of purchased materials into 
   
  The amount of the flush is for the quantity per assembly stated on the production BOM multiplied by the number of parent items that were posted as output quantity at that operation. This might be different from the expected quantity.  
   
-#### Automatic Reporting - Back Flushing the Entire Order  
+#### Automatic Reporting \- Back Flushing the Entire Order  
  This reporting method does not consider routing link codes.  
   
  No components are picked until the released production order status is changed to *Finished*. The amount of the flush is the quantity per assembly stated on the production BOM multiplied by the number of parent items that were finished and placed into inventory.  
@@ -268,9 +268,9 @@ Production orders are used to manage the conversion of purchased materials into 
   
 -   Quantities and times already posted for the order are displayed at the bottom of the journal as actual entries.  
   
--   Fields where data entry is irrelevant are blank and non-editable.  
+-   Fields where data entry is irrelevant are blank and non\-editable.  
   
--   The user can set up the way output quantities are preset in the journal - for example, that the last operation must have zero as Output Quantity.  
+-   The user can set up the way output quantities are preset in the journal \- for example, that the last operation must have zero as Output Quantity.  
   
 -   If you happen to exit the journal without posting your changes, a request message is displayed allowing you to stay in the journal.  
   

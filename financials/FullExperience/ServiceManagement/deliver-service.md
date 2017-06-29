@@ -25,7 +25,7 @@ FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md
 |**To**|**See**|  
 |------------|-------------|  
 |Plan the delivery of service by using the **Dispatch Board**. You can also use project management tools in the Jobs department to help in planning.|[Plan and Allocate Service Orders](../Service/plan-and-allocate-service-orders.md)|  
-|Post orders before delivering service, so that your accounting is up-to-date.|[Prepare for Service](../Service/prepare-for-service.md)|  
+|Post orders before delivering service, so that your accounting is up\-to\-date.|[Prepare for Service](../Service/prepare-for-service.md)|  
 |Deliver service to customers, by using the Service Tasks feature.|[Provide Service](../Service/provide-service.md)|  
 |Create invoices and post them to your financial management system.|[Finalize Service and Invoice](../Service/finalize-service-and-invoice.md)|  
   

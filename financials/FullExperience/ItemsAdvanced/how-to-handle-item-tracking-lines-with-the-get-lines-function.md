@@ -20,15 +20,15 @@ When you use functionality to get posted receipt or shipment lines from related 
   
  The functionality supports the following inbound processes:  
   
--   **Get Receipt Lines** - from a purchase invoice.  
+-   **Get Receipt Lines** \- from a purchase invoice.  
   
--   **Get Return Shipment Lines** - from a purchase credit memo.  
+-   **Get Return Shipment Lines** \- from a purchase credit memo.  
   
  The functionality supports the following outbound processes:  
   
--   **Get Shipment Lines** - from a sales invoice or combined shipments.  
+-   **Get Shipment Lines** \- from a sales invoice or combined shipments.  
   
--   **Get Return Receipt Lines** - from a sales credit memo.  
+-   **Get Return Receipt Lines** \- from a sales credit memo.  
   
  In these situations, the existing item tracking lines are copied automatically to the invoice or credit memo, but the **Item Tracking Lines** window does not permit changes to the serial or lot numbers. Only the quantities can be changed.  
   

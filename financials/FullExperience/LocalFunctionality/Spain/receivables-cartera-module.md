@@ -57,9 +57,9 @@ The Receivables Cartera module allows you to manage bills generated from sales i
   
  You can use bill groups for the following:  
   
--   Factoring without risk - The factoring company takes on the risks associated with non-payment.  
+-   Factoring without risk \- The factoring company takes on the risks associated with non\-payment.  
   
--   Factoring with risk - You take on the risks associated with non-payment.  
+-   Factoring with risk \- You take on the risks associated with non\-payment.  
   
 ## See Also  
  [Cartera Module](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/cartera-module.md)   

@@ -28,7 +28,7 @@ You may need to insert the contract or contract quote lines to register service 
   
 4.  On the **Invoice Details** FastTab, select the check box in the **Allow Unbalanced Amounts** field if you want to change the annual amount and distribute the annual amount difference manually on the contract lines. Otherwise, clear the check box in the **Allow Unbalanced Amounts** field to distribute the annual amount difference automatically on the contract lines after you change the annual amount.  
   
-5.  On the **Actions** tab, in the **Functions** group, choose **Select Contract Lines** or **Select Contract Quote Lines**. The **Contract Line Selection** window opens, showing all the service items registered to the customer. If a ship-to address is specified in the contract or contract quote, it will be displayed in this window.  
+5.  On the **Actions** tab, in the **Functions** group, choose **Select Contract Lines** or **Select Contract Quote Lines**. The **Contract Line Selection** window opens, showing all the service items registered to the customer. If a ship\-to address is specified in the contract or contract quote, it will be displayed in this window.  
   
 6.  Select the service items you want to include in the service contract or service contract quote, and then choose the **OK** button.  
   

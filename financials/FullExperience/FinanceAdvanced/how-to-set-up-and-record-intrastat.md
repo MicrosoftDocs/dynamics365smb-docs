@@ -26,11 +26,11 @@ All companies in the European Union must report their trade with other EU countr
   
 3.  In the **Search** box, enter **Transaction Types**, and then choose the related link.  
   
-4.  In the **Transaction Types** window, enter the 22 pre-defined Intrastat transaction types and codes.  
+4.  In the **Transaction Types** window, enter the 22 pre\-defined Intrastat transaction types and codes.  
   
 5.  In the **Search** box, enter **Transport Methods**, and then choose the related link.  
   
-6.  In the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**Transport Methods** window, enter the seven pre-defined Intrastat transport methods and codes.  
+6.  In the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**Transport Methods** window, enter the seven pre\-defined Intrastat transport methods and codes.  
   
      You must fill in the above tables and assign **Transaction Types** and **Transport Method** values on the **Foreign Trade** FastTab of each sales and purchase document before you post any sales or purchases in FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> -->.  
   
@@ -57,7 +57,7 @@ All companies in the European Union must report their trade with other EU countr
   
 ### To submit Intrastat  
   
--   After you have filled in the Intrastat Journal, you can print the **Intrastat - Checklist** report to make sure that that all information in the journal is correct, and then print an intrastat report onto a form or create one on a disk to submit to the tax authority in your country\/region.  
+-   After you have filled in the Intrastat Journal, you can print the **Intrastat \- Checklist** report to make sure that that all information in the journal is correct, and then print an intrastat report onto a form or create one on a disk to submit to the tax authority in your country\/region.  
   
 ## See Also  
  [How to: Record VAT](../Finance/how-to-record-vat.md)   
@@ -65,6 +65,6 @@ All companies in the European Union must report their trade with other EU countr
  [How to: Set Up Intrastat Journal Templates and Batches](../Finance/how-to-set-up-intrastat-journal-templates-and-batches.md)   
  [How to: Fill In Intrastat Journals](../Finance/how-to-fill-in-intrastat-journals.md)   
  Intrastat Jnl. Line   
- Intrastat - Checklist   
+ Intrastat \- Checklist   
  [How to: Report Intrastat on Forms](../Finance/how-to-report-intrastat-on-forms.md)   
  [How to: Report Intrastat on a Disk](../Finance/how-to-report-intrastat-on-a-disk.md)

@@ -34,7 +34,7 @@ There are times when output posting must be reversed. An example of this would b
   
 7.  In the **Output Quantity** field, type a negative quantity, if a value was entered into this field during posting.  
   
-8.  In the **Applies-To Entry** field, select the associated item ledger entry. This reverses the capacity and item ledger entries.  
+8.  In the **Applies\-To Entry** field, select the associated item ledger entry. This reverses the capacity and item ledger entries.  
   
 9. Post the reversal.  
   

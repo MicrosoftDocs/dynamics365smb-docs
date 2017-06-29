@@ -49,8 +49,8 @@ This planning function calculates changes made to components and routings lines,
     |[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)]|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |----------------------------------|---------------------------------------|  
     |**No Levels**|Do not consider lower level production. This only updates the item’s schedule, like refresh.|  
-    |**One Level**|Plan for first-level production demand. First-level production orders may be created.|  
-    |**All Levels**|Plan for all-level production demand. All-level production orders may be created.|  
+    |**One Level**|Plan for first\-level production demand. First\-level production orders may be created.|  
+    |**All Levels**|Plan for all\-level production demand. All\-level production orders may be created.|  
   
 8.  Select **One Level**, and choose the **OK** button to replan the production order, and calculate and create a new underlying production order for the introduced subassembly, if it is not fully available.  
   

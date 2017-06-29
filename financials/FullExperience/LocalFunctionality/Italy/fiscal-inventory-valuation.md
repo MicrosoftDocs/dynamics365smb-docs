@@ -38,12 +38,12 @@ You must submit an annual report that shows the monetary value of inventory item
 > [!NOTE]  
 >  The discrete LIFO cost can only be calculated for items for which the **Inventory Valuation** is set to **Discrete LIFO** in the **Item Card** window.  
   
- After you set up the discrete LIFO cost calculation, you can post sales and purchase transactions based on year-end costs.  
+ After you set up the discrete LIFO cost calculation, you can post sales and purchase transactions based on year\-end costs.  
   
 ### End of Year  
  At the end of the fiscal year, you can run the Calculate End Year Costs batch job to calculate the fiscal inventory value of each inventory item according to the required valuation methods. The results are shown in the Item Cost History List window. Then, you can run the **Fiscal Inventory Valuation** report and the **LIFO Valuation** report to show the inventory valuation.  
   
- For year-end operations, such as calculating the profit and loss during a fiscal year, there is a definitive period and a non-definitive period. If the **Competence Year** field in the **Item Cost History List** window is equal to the fiscal year end date, it is a definitive period, and you cannot recalculate data for a definitive period. If the definitive data differs from the fiscal year end date, then it is a non-definitive period. There should be data for at least one non-definitive period to perform calculations or partial calculations.  
+ For year\-end operations, such as calculating the profit and loss during a fiscal year, there is a definitive period and a non\-definitive period. If the **Competence Year** field in the **Item Cost History List** window is equal to the fiscal year end date, it is a definitive period, and you cannot recalculate data for a definitive period. If the definitive data differs from the fiscal year end date, then it is a non\-definitive period. There should be data for at least one non\-definitive period to perform calculations or partial calculations.  
   
 ## See Also  
  [Italy Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/italy-local-functionality.md)   

@@ -26,13 +26,13 @@ If you have a digitalized picture of an employee, that is, a picture that is a f
   
 3.  On the **Navigate** tab, in the **Employee** group, choose **Picture**.  
   
-4.  Right-click on the **Picture** field and choose **Select Picture**.  
+4.  Right\-click on the **Picture** field and choose **Select Picture**.  
   
 5.  Select the drive, path, and file name, and then choose **Open**.  
   
  The picture is now imported into the **Employee Picture** window.  
   
- If you want to copy the picture to a separate file, on the **Navigate** tab, in the **Employee** group, choose **Picture**. Right-click on the **Picture** field and choose **Save Picture As**. Specify the drive, path, and file name to which the picture will be exported.  
+ If you want to copy the picture to a separate file, on the **Navigate** tab, in the **Employee** group, choose **Picture**. Right\-click on the **Picture** field and choose **Save Picture As**. Specify the drive, path, and file name to which the picture will be exported.  
   
 ## See Also  
  [How to: Set Up Employees](../HumanResources/how-to-set-up-employees.md)

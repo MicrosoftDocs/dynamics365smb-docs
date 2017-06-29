@@ -50,7 +50,7 @@ You can process electronic payments from customers according to a predefined pay
  [Electronic Banking in Norway](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/electronic-banking-in-norway.md)   
  [How to: Set Up KID Numbers on Sales Documents](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-set-up-kid-numbers-on-sales-documents.md)   
  [How to: Import and Post OCR Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-import-and-post-ocr-payments.md)   
- [How to: Print the OCR Journal - Test Report](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-print-the-ocr-journal-test-report.md)   
+ [How to: Print the OCR Journal \- Test Report](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-print-the-ocr-journal-test-report.md)   
  Gen. Journal Template   
  OCR Setup   
  OCR Setup

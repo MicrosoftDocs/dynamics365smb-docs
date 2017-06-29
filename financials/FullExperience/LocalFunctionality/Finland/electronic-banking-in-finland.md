@@ -50,6 +50,6 @@ The FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navno
  [How to: Disregard Payment Discounts](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Finland/how-to-disregard-payment-discounts.md)   
  Suggest Bank Payments   
  Import Ref. Payment   
- Ref. Payment - Imported   
- Ref. Payment - Exported Buffer   
+ Ref. Payment \- Imported   
+ Ref. Payment \- Exported Buffer   
  Bank Payments to send

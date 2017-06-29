@@ -22,7 +22,7 @@ If you need to link special information to a specific item tracking number, for 
   
 1.  In the **Search** box, enter **Sales Orders**, and then select the related link.  
   
-2.  Create a sales order line for an item-tracked item.  
+2.  Create a sales order line for an item\-tracked item.  
   
      Proceed to assign serial and lot numbers to the sales order line.  
   

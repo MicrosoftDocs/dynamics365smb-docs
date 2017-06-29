@@ -24,7 +24,7 @@ Similar to the general posting setup described in **Set Up Posting Groups**, you
  The import VAT feature is used when you need to post a document where the entire amount must be treated as VAT. This is necessary if you receive a VAT invoice from the tax authorities for imported goods. To handle import VAT, you must set up at least one VAT product posting group for import VAT, and include it in at least one combination in the VAT posting setup.  
   
 ## Reverse Charge VAT  
- Usually, the seller of an item calculates and withholds VAT. Companies in the EU, however, must use reversed VAT calculation when trading with other companies that are registered as VAT-liable in another EU country\/region. This means that instead of VAT being calculated by the seller, it must be calculated by the purchaser.  
+ Usually, the seller of an item calculates and withholds VAT. Companies in the EU, however, must use reversed VAT calculation when trading with other companies that are registered as VAT\-liable in another EU country\/region. This means that instead of VAT being calculated by the seller, it must be calculated by the purchaser.  
   
  You must set up at least one VAT business posting group for reverse charge VAT, and include it in at least one combination in the VAT posting setup. The reverse charge VAT feature can be used in connection with the standard VAT calculation principle, as well as with the unrealized VAT calculation principle.  
   

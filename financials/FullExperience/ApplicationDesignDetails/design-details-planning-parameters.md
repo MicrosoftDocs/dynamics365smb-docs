@@ -24,10 +24,10 @@ This topic describes the different planning parameters that you can use in FIX I
 |-------------|---------------|  
 |Define if the item is to be planned|Reordering Policy \= Blank|  
 |Define when to reorder|Time Bucket<br /><br /> Reorder Point<br /><br /> Safety Lead Time|  
-|Define how much to reorder|Safety Stock Quantity<br /><br /> Reordering Policy:<br /><br /> -   Fixed Reorder Qty. plus Reorder Quantity<br />-   Maximum Qty. plus Maximum Inventory<br />-   Order<br />-   Lot-for-Lot|  
+|Define how much to reorder|Safety Stock Quantity<br /><br /> Reordering Policy:<br /><br /> -   Fixed Reorder Qty. plus Reorder Quantity<br />-   Maximum Qty. plus Maximum Inventory<br />-   Order<br />-   Lot\-for\-Lot|  
 |Optimize when and how much to reorder|Rescheduling Period<br /><br /> Lot Accumulation Period<br /><br /> Dampener Period|  
 |Modify the supply orders|Minimum Order Quantity<br /><br /> Maximum Order Quantity<br /><br /> Order Multiple|  
-|Delimit the planned item|Manufacturing Policy:<br /><br /> -   Make-to-Stock<br />-   Make-to-Order|  
+|Delimit the planned item|Manufacturing Policy:<br /><br /> -   Make\-to\-Stock<br />-   Make\-to\-Order|  
   
 ## Define If the Item Will Be Planned  
  To include an item\/SKU in the planning process, it must have a reordering policy otherwise it must be planned manually, for example, with the Order Planning feature.  
@@ -51,11 +51,11 @@ This topic describes the different planning parameters that you can use in FIX I
   
 1.  The quantity of the order proposal is calculated to meet the specified minimum inventory level of the item, usually the safety stock quantity. If nothing is specified, the minimum inventory level is zero.  
   
-2.  If the projected available inventory is below the safety stock quantity, a backward-scheduled supply order is suggested. The order quantity will at least fill the safety stock quantity, and can be increased by gross demand within the time bucket, by the reordering policy, and by the order modifiers.  
+2.  If the projected available inventory is below the safety stock quantity, a backward\-scheduled supply order is suggested. The order quantity will at least fill the safety stock quantity, and can be increased by gross demand within the time bucket, by the reordering policy, and by the order modifiers.  
   
-3.  If the projected inventory is on or below the reorder point \(calculated from aggregated changes within the time bucket\) and above the safety stock quantity, a forward-scheduled exception order is suggested. Both the gross demand to be met and the reordering policy will determine the order quantity. At minimum, the order quantity will meet the reorder point.  
+3.  If the projected inventory is on or below the reorder point \(calculated from aggregated changes within the time bucket\) and above the safety stock quantity, a forward\-scheduled exception order is suggested. Both the gross demand to be met and the reordering policy will determine the order quantity. At minimum, the order quantity will meet the reorder point.  
   
-4.  If there is more gross demand due before the ending date of the forward-scheduled order proposal, and this demand brings the currently calculated projected available inventory below the safety stock quantity, the order quantity is increased to make up the deficit. The suggested supply order is then scheduled backward from the due date of the gross demand that would have violated the safety stock quantity.  
+4.  If there is more gross demand due before the ending date of the forward\-scheduled order proposal, and this demand brings the currently calculated projected available inventory below the safety stock quantity, the order quantity is increased to make up the deficit. The suggested supply order is then scheduled backward from the due date of the gross demand that would have violated the safety stock quantity.  
   
 5.  If the **Time Bucket** field is not filled in, only the gross demand on the same due date will be added.  
   
@@ -68,16 +68,16 @@ This topic describes the different planning parameters that you can use in FIX I
 |-----------------------|---------------------------------------|  
 |**Fixed Reorder Qty.**|At a minimum, the order quantity will be equal to the reorder quantity. It can be increased to meet the demand or the desired inventory level. This reordering policy is usually used with a reorder point.|  
 |**Maximum Qty.**|The order quantity will be calculated to meet the maximum inventory. If quantity modifiers are used, then maximum inventory can be violated. We do not recommend that you use the time bucket together with maximum quantity. The time bucket will usually be overruled. This reordering policy is usually used with a reorder point.|  
-|**Order**|The order quantity will be calculated to meet each single demand event and the demand-supply set will remain linked until execution. No planning parameters are considered.|  
-|**Lot-for-Lot**|The quantity is calculated to meet the sum of the demand that comes due in the time bucket.|  
+|**Order**|The order quantity will be calculated to meet each single demand event and the demand\-supply set will remain linked until execution. No planning parameters are considered.|  
+|**Lot\-for\-Lot**|The quantity is calculated to meet the sum of the demand that comes due in the time bucket.|  
   
 ##  <a name="BKMK_OptimizeWhenandHowMuchToReorder"></a> Optimize When and How Much to Reorder  
- To obtain a rational supply plan, a planner will fine-tune planning parameters to limit rescheduling suggestions, accumulate demand \(dynamic reorder quantity\), or to avoid insignificant planning actions. The following reorder period fields help optimize when and how much to reorder.  
+ To obtain a rational supply plan, a planner will fine\-tune planning parameters to limit rescheduling suggestions, accumulate demand \(dynamic reorder quantity\), or to avoid insignificant planning actions. The following reorder period fields help optimize when and how much to reorder.  
   
 |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)] -->|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
 |---------------------------------|---------------------------------------|  
 |**Rescheduling Period**|This field is used to determine whether the action message should reschedule an existing order or cancel it and create a new order. The existing order will be rescheduled within one rescheduling period before the current supply and until one rescheduling period after the current supply.|  
-|**Lot Accumulation Period**|With reordering policy Lot-for-Lot, this field is used to accumulate multiple supply needs into one supply order. From the first planned supply, the system accumulates all supply needs in the following lot accumulation period into one supply, which is placed on the date of the first supply. Demand outside the lot accumulation period is not covered by this supply.|  
+|**Lot Accumulation Period**|With reordering policy Lot\-for\-Lot, this field is used to accumulate multiple supply needs into one supply order. From the first planned supply, the system accumulates all supply needs in the following lot accumulation period into one supply, which is placed on the date of the first supply. Demand outside the lot accumulation period is not covered by this supply.|  
 |**Dampener Period**|This field is used to avoid minor rescheduling of existing supply out in time. Changes from the supply date until one dampener period from the supply date will not generate any action messages.<br /><br /> As a result a positive delta between the suggested new supply date and the original supply date will always be larger than the dampener period.|  
   
  The timing of rescheduling period, dampener period, and lot accumulation period is based on a supply date. The time bucket is based on the planning start date, as shown in the following illustration.  
@@ -112,9 +112,9 @@ This topic describes the different planning parameters that you can use in FIX I
 ## Delimit the Item  
  The **Manufacturing Policy** option defines which additional orders the MRP calculation will propose.  
   
- If the **Make-to-Stock** option is used, the orders concern only the item in question.  
+ If the **Make\-to\-Stock** option is used, the orders concern only the item in question.  
   
- If the **Make-to-Order** option is used, the planning system will analyze the production BOM of the item and create additional linked order proposals for those lower-level items that are also defined as make-to-order. This continues as long as there are make-to-order items in the descending BOM structures.  
+ If the **Make\-to\-Order** option is used, the planning system will analyze the production BOM of the item and create additional linked order proposals for those lower\-level items that are also defined as make\-to\-order. This continues as long as there are make\-to\-order items in the descending BOM structures.  
   
 ## See Also  
  [Design Details: Handling Reordering Policies](../ApplicationDesign/design-details-handling-reordering-policies.md)   

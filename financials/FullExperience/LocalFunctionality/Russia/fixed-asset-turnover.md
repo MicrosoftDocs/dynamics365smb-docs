@@ -44,7 +44,7 @@ The fixed asset turnover feature enables you to:
  For more information, see FA Turnover.  
   
 ## Comparing Depreciation Book Entries Report  
- The **Comparing Depr. Book Entries** report shows the amounts of fixed asset operations of the main types in two selected depreciation books for all selected fixed assets. You can view the amounts of the acquisition cost, write-down, appreciation, and depreciation. The report can be used for auditing the posting of fixed asset operations.  
+ The **Comparing Depr. Book Entries** report shows the amounts of fixed asset operations of the main types in two selected depreciation books for all selected fixed assets. You can view the amounts of the acquisition cost, write\-down, appreciation, and depreciation. The report can be used for auditing the posting of fixed asset operations.  
   
  For more information, see Comparing Depr. Book Entries.  
   
@@ -56,12 +56,12 @@ The fixed asset turnover feature enables you to:
 ## Fixed Asset General Ledger Turnover Window  
  The **FA G\/L Turnover** window shows financial turnover as a result of fixed asset posting. General ledger entries are the basis for amounts shown in the window. You can define what is shown in the window by setting filters.  
   
- For more information, see FA G-L Turnover.  
+ For more information, see FA G\-L Turnover.  
   
 ## Fixed Asset General Ledger Turnover Report  
  The **Fixed Asset G\/L Turnover** report is similar to the **FA G\/L Turnover** window, but it is in a printing layout, and has differences in the options and in the information and fields that can be shown in the layout. You can define what is included in the report by setting filters.  
   
- For more information, see Fixed Asset G-L Turnover.  
+ For more information, see Fixed Asset G\-L Turnover.  
   
 ## See Also  
  [Fixed Asset Locations and Employees](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/fixed-asset-locations-and-employees.md)   

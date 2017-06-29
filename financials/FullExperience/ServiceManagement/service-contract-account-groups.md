@@ -24,7 +24,7 @@ In the **Service Contract Account Group** window, you can view, change, or creat
 |---------------------------------|---------------------------------------|  
 |**Code**|Entering a code in this field links the service contract to the general ledger account that you want to post it to.|  
 |**Description**|Describes the service contract account group.|  
-|**Non-Prepaid Contract Account**|Contains the general ledger account number for the non-prepaid contract account.|  
+|**Non\-Prepaid Contract Account**|Contains the general ledger account number for the non\-prepaid contract account.|  
 |**Prepaid Contract Account**|Contains the general ledger account number for the prepaid contract account.|  
   
 ## See Also  

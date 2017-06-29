@@ -21,7 +21,7 @@ To create electronic VAT and ICP declarations, you must first set up the declara
 > [!NOTE]  
 >  If you have selected the **Part of Fiscal Entity** field in the **Elec. Tax Declaration Setup** window, then you can create an electronic declaration for only one company. If you want to combine the tax information for all subsidiaries of a holding company, you must create a VAT statement on paper for each subsidiary company and manually calculate the total amounts for the holding company. These total amounts of the holding company must be entered on the website of the tax authorities. You cannot combine tax information for ICP declarations. ICP declarations must always be submitted individually.  
   
- If there are no intra-community deliveries in the declaration period, then an electronic ICP declaration is created without XML elements for the deliveries. If you submit such a declaration, an error message will be displayed.  
+ If there are no intra\-community deliveries in the declaration period, then an electronic ICP declaration is created without XML elements for the deliveries. If you submit such a declaration, an error message will be displayed.  
   
 ### To create an electronic VAT or ICP declaration  
   

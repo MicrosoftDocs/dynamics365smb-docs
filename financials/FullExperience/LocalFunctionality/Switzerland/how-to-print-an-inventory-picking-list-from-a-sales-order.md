@@ -47,4 +47,4 @@ You can print an inventory picking list directly from a sales order. The picking
  [How to: Print Sales and Purchase Orders During Batch Posting](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-print-sales-and-purchase-orders-during-batch-posting.md)   
  Picking List   
  Inventory Picking List   
- Prod. Order - Picking List
+ Prod. Order \- Picking List

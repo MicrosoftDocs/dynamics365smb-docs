@@ -31,7 +31,7 @@ Cost centers are departments that are responsible for costs and income. The char
 3.  On the **Actions** tab, in the **Functions** group, choose **Get Cost Centers from Dimension** to transfer dimension values to the chart of cost centers. The function transfers the dimension values that you defined in step 1.  
   
     > [!NOTE]  
-    >  You can set up the **Align Cost Center Dimension**  field to define a one-way synchronization of dimension values from the general ledger to the chart of cost centers. You cannot define a synchronization of the chart of cost centers to dimension values from the general ledger.  
+    >  You can set up the **Align Cost Center Dimension**  field to define a one\-way synchronization of dimension values from the general ledger to the chart of cost centers. You cannot define a synchronization of the chart of cost centers to dimension values from the general ledger.  
   
  The chart of cost centers now contains all specified dimension values from the general ledger and includes titles and subtotals.  
   
@@ -46,11 +46,11 @@ Cost centers are departments that are responsible for costs and income. The char
   
 3.  In the **Name** field, enter the cost center name.  
   
-4.  Choose the drop-down arrow in the **Line Type** field to specify the purpose of the cost center.  
+4.  Choose the drop\-down arrow in the **Line Type** field to specify the purpose of the cost center.  
   
     -   For cost centers of the **Total** type, you must fill in the **Totaling** field. Use the **or** operator, which is a vertical line \(**&#124;**\) to set ranges of cost centers.  
   
-    -   For cost centers of the **End-Total** line type, this field is filled in automatically when you use the indent function.  
+    -   For cost centers of the **End\-Total** line type, this field is filled in automatically when you use the indent function.  
   
 5.  Fill in the **Sorting Order** and **Cost Subtype** fields.  
   
@@ -59,7 +59,7 @@ Cost centers are departments that are responsible for costs and income. The char
 7.  After you have set up all the cost centers, on the **Home** tab, in the **Process** group, choose **Indent Cost Centers**. Choose the **Yes** button.  
   
 > [!IMPORTANT]  
->  If you have entered definitions in the **Totaling** fields for **End-Total** cost centers before you run the indent function, then you must enter them again. The function overwrites the values in all **End-Total** fields.  
+>  If you have entered definitions in the **Totaling** fields for **End\-Total** cost centers before you run the indent function, then you must enter them again. The function overwrites the values in all **End\-Total** fields.  
   
 ## See Also  
  Chart of Cost Centers   

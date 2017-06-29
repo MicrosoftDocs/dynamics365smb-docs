@@ -26,7 +26,7 @@ If you want to invoice more than one shipment at a time, you can use the combine
   
 2.  On the **Home** tab, in the **New** group, choose **New**.  
   
-3.  In the **Sell-to Customer No.** field, enter the customer who will receive the invoice for the shipped items.  
+3.  In the **Sell\-to Customer No.** field, enter the customer who will receive the invoice for the shipped items.  
   
 4.  On the **Lines** FastTab, choose **Actions**![Action Menu icon](../DesignAndEngineering/media/actionmenuicon.png "actionMenuIcon"), choose **Functions**, and then choose **Get Shipment Lines**.  
   
@@ -36,7 +36,7 @@ If you want to invoice more than one shipment at a time, you can use the combine
   
     -   To insert specific lines, select the lines and choose the **OK** button. You can use the Ctrl key to select multiple nonsequential lines.  
   
-6.  If an incorrect shipment line was selected or you want to start over, you can simply delete the lines on the invoice and re-run the **Get Shipment Lines** function.  
+6.  If an incorrect shipment line was selected or you want to start over, you can simply delete the lines on the invoice and re\-run the **Get Shipment Lines** function.  
   
 7.  To post the invoice, on the **Actions** tab, in the **Posting** group, choose **Post**.  
   

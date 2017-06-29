@@ -36,7 +36,7 @@ This planning task can be performed in the **Order Planning** window, which disp
   
      The window displays planning lines according to the view filter **All Demand**, meaning sales order lines as well as production component lines with insufficient availability. You can change this filter as you like.  
   
-     When the plan is being calculated, any new demand that has arisen since a plan was last calculated is analyzed. The quantity needed is calculated based on total availability of each demand line found. This calculation is done order-by-order, meaning that the order that includes the demand line with the earliest due date or shipment date is considered first, and all other demand lines in that production order, irrespective of their individual due dates or shipment dates, are also calculated for that order. Therefore, all planning lines under one order header line have the same demand date. When the calculation is completed, all unfulfilled demand is displayed as planning lines, sorted by the earliest demand date, with the various quantity fields filled in.  
+     When the plan is being calculated, any new demand that has arisen since a plan was last calculated is analyzed. The quantity needed is calculated based on total availability of each demand line found. This calculation is done order\-by\-order, meaning that the order that includes the demand line with the earliest due date or shipment date is considered first, and all other demand lines in that production order, irrespective of their individual due dates or shipment dates, are also calculated for that order. Therefore, all planning lines under one order header line have the same demand date. When the calculation is completed, all unfulfilled demand is displayed as planning lines, sorted by the earliest demand date, with the various quantity fields filled in.  
   
      The **Order Planning** window is filled with order header lines representing orders with unfulfilled demand.  
   
@@ -81,9 +81,9 @@ This planning task can be performed in the **Order Planning** window, which disp
   
 5.  From the **Supply From** field, you can look up in the relevant list and select where the supply should come from:  
   
-    -   If replenishment system is **Purchase**, the look-up button in this field looks up in the **Item Vendor Catalog** window.  
+    -   If replenishment system is **Purchase**, the look\-up button in this field looks up in the **Item Vendor Catalog** window.  
   
-    -   If replenishment system is **Transfer**, the look-up button in this field looks up in the **Location List** window.  
+    -   If replenishment system is **Transfer**, the look\-up button in this field looks up in the **Location List** window.  
   
      In case the item exists in another location, the **Qty. on Other Location** field at the bottom shows a value and you can then look up and select the location from which the item should be supplied when you make the transfer order.  
   

@@ -20,7 +20,7 @@ When the status of service orders is updated to **Finished**, and the customer i
   
 ### To view the service email queue  
   
--   In the **Search** box, enter **View E-Mail Queue**, and then choose the related link.  
+-   In the **Search** box, enter **View E\-Mail Queue**, and then choose the related link.  
   
      In the list, you can see the status of each entry in the queue and the relevant subject line of the email message that will be sent.  
   

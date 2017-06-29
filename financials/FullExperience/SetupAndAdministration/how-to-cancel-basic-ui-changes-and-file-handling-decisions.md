@@ -16,20 +16,20 @@
 
     ---
 # How to: Cancel Basic UI Changes and File Handling Decisions
-You cancel you basic UI changes and decisions for handling of files and automation objects by opening the **Reset User-Specified Settings** window from your Role Center.  
+You cancel you basic UI changes and decisions for handling of files and automation objects by opening the **Reset User\-Specified Settings** window from your Role Center.  
   
  As basic types of UI personalization, you can change the size and position of any window, the width of columns, and the height of column headers, and you can change the sorting of data in columns. For more information, see [How to: Make Basic UI Changes](../SetupAndAdministration/how-to-make-basic-ui-changes.md).  
   
  You also perform a basic type of personalization when you select whether to run, save, or cancel external files by default and whether to allow automation objects by default. For more information, see [How to: Specify How to Handle External Files and Automation Objects](../SetupAndAdministration/how-to-specify-how-to-handle-external-files-and-automation-objects.md).  
   
 > [!NOTE]  
->  You perform your main UI personalization in the **Customize** window. The **Reset User-Specified Settings** function does not cancel changes that you make in the **Customize** window. For more information, see [How to: Cancel UI Personalization](../SetupAndAdministration/how-to-cancel-ui-personalization.md).  
+>  You perform your main UI personalization in the **Customize** window. The **Reset User\-Specified Settings** function does not cancel changes that you make in the **Customize** window. For more information, see [How to: Cancel UI Personalization](../SetupAndAdministration/how-to-cancel-ui-personalization.md).  
   
 ### To cancel basic UI changes that you have made to window sizes, column sizes, or column sorting  
   
 1.  Go to your Role Center.  
   
-     On the **Application** menu ![Application Menu button in menu bar](../BusinessFunctionality/IntegratingWithMicrosoftOffice/media/applicationmenuicon.png "ApplicationMenuIcon"), choose **Customize**, and then choose **Reset User-Specified Settings**.  
+     On the **Application** menu ![Application Menu button in menu bar](../BusinessFunctionality/IntegratingWithMicrosoftOffice/media/applicationmenuicon.png "ApplicationMenuIcon"), choose **Customize**, and then choose **Reset User\-Specified Settings**.  
   
 2.  Choose the **Reset UI settings** button. Alternatively, choose the **Reset all** button to also cancel your decisions for handling files and automation objects.  
   
@@ -39,7 +39,7 @@ You cancel you basic UI changes and decisions for handling of files and automati
   
 1.  Go to your Role Center.  
   
-     On the **Application** menu ![Application Menu button in menu bar](../BusinessFunctionality/IntegratingWithMicrosoftOffice/media/applicationmenuicon.png "ApplicationMenuIcon"), choose **Customize**, and then choose **Reset User-Specified Settings**.  
+     On the **Application** menu ![Application Menu button in menu bar](../BusinessFunctionality/IntegratingWithMicrosoftOffice/media/applicationmenuicon.png "ApplicationMenuIcon"), choose **Customize**, and then choose **Reset User\-Specified Settings**.  
   
 2.  Choose the **Reset file handling decision** button. Alternatively, choose the **Reset all** button to also cancel your view changes and decision for handling automation objects.  
   
@@ -49,7 +49,7 @@ You cancel you basic UI changes and decisions for handling of files and automati
   
 1.  Go to your Role Center.  
   
-     On the **Application** menu ![Application Menu button in menu bar](../BusinessFunctionality/IntegratingWithMicrosoftOffice/media/applicationmenuicon.png "ApplicationMenuIcon"), choose **Customize**, and then choose **Reset User-Specified Settings**.  
+     On the **Application** menu ![Application Menu button in menu bar](../BusinessFunctionality/IntegratingWithMicrosoftOffice/media/applicationmenuicon.png "ApplicationMenuIcon"), choose **Customize**, and then choose **Reset User\-Specified Settings**.  
   
 2.  Choose the **Reset automation decisions** button. Alternatively, choose the **Reset all** button to also cancel your view changes and decision for running or saving external files.  
   

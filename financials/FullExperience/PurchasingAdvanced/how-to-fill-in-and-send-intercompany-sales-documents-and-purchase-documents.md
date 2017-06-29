@@ -26,7 +26,7 @@ You use intercompany documents to post transactions with your intercompany partn
   
 2.  On the **Home** tab, choose **New** to create a new sales order.  
   
-3.  In the **Sell-to Customer No.** field, enter the number of a customer who has been assigned an intercompany partner code.  
+3.  In the **Sell\-to Customer No.** field, enter the number of a customer who has been assigned an intercompany partner code.  
   
 4.  Fill in the rest of the fields on the document header.  
   

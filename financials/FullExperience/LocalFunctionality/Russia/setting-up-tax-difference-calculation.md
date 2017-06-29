@@ -19,7 +19,7 @@
 Tax difference calculations must be set up if there is a tax difference for the presentation of fixed asset entries, item cost entries, or finance transactions in bookkeeping and tax accounting for which expenses to write off must be fixed. To set tax difference, click **Setup** and then click **Tax Differences**.  
   
 ## Setting Up Posting Groups  
- In the menu sub-item **Posting Groups**, you must determine finance accounts from the set up chart of accounts, where finance transactions with tax differences are accounted for.  
+ In the menu sub\-item **Posting Groups**, you must determine finance accounts from the set up chart of accounts, where finance transactions with tax differences are accounted for.  
   
  In the Tax Difference Posting Groups form, enter the fields described in the following table.  
   

@@ -19,7 +19,7 @@
 The following topics describe the local functionality in the Australian version of FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->.  
   
 ## In This Section  
- [What's New-duplicate 11](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/what-s-new-duplicate-11.md)  
+ [What's New\-duplicate 11](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/what-s-new-duplicate-11.md)  
   [Australian Business Numbers and Adjustment Notes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/australian-business-numbers-and-adjustment-notes.md)  
   [Business Activity Statements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/business-activity-statements.md)  
   [Tax](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/tax.md)  
@@ -33,4 +33,4 @@ The following topics describe the local functionality in the Australian version 
   [How to: Print Deposit Slip Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-print-deposit-slip-reports.md)  
   [How to: Print Bank Account Reconciliation Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-print-bank-account-reconciliation-reports.md)  
   [How to: Create Check Installments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-create-check-installments.md)  
-  [Tables, Reports, Batch Jobs, and Windows-duplicate 9](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/tables-reports-batch-jobs-and-windows-duplicate-9.md)
+  [Tables, Reports, Batch Jobs, and Windows\-duplicate 9](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/tables-reports-batch-jobs-and-windows-duplicate-9.md)

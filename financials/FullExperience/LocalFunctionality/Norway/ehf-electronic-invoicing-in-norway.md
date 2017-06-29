@@ -41,7 +41,7 @@ Companies must send sales invoices and credit memos to the Norwegian public sect
   
 -   Reminder  
   
- The electronic documents are stored in the locations that are defined in the [\($ N\_459 Sales & Receivables Setup $\)-duplicate](../../Sales/-$-n_459-sales-receivables-setup-$-duplicate.md) window. For more information, see [How to: Set Up EHF](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-set-up-ehf.md).  
+ The electronic documents are stored in the locations that are defined in the [\($ N\_459 Sales & Receivables Setup $\)\-duplicate](../../Sales/-$-n_459-sales-receivables-setup-$-duplicate.md) window. For more information, see [How to: Set Up EHF](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-set-up-ehf.md).  
   
 ### VAT Treatment  
  VAT percentages and the type of transaction determine the VAT Type that is exported in the electronic document.  

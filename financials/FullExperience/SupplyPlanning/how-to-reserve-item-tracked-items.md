@@ -16,9 +16,9 @@
 
     ---
 # How to: Reserve Item-Tracked Items
-From outbound documents for item-tracked items, such as sales orders or production component lists, you can reserve specific serial or lot numbers. This may be relevant, for example, if you need production components from a specific lot to ensure consistency with earlier production batches, or because a customer has requested a specific serial number.  
+From outbound documents for item\-tracked items, such as sales orders or production component lists, you can reserve specific serial or lot numbers. This may be relevant, for example, if you need production components from a specific lot to ensure consistency with earlier production batches, or because a customer has requested a specific serial number.  
   
- This is referred to as a specific reservation, because you reserve from the quantity of  Item X that belongs to Lot X. If you simply reserve from quantities of Item X, then it is a normal, non-specific, reservation. For more information, see [How to: Reserve Items for Sales Lines](../Sales/how-to-reserve-items-for-sales-lines.md).  
+ This is referred to as a specific reservation, because you reserve from the quantity of  Item X that belongs to Lot X. If you simply reserve from quantities of Item X, then it is a normal, non\-specific, reservation. For more information, see [How to: Reserve Items for Sales Lines](../Sales/how-to-reserve-items-for-sales-lines.md).  
   
  The following procedure is based on a sales order.  
   
@@ -26,7 +26,7 @@ From outbound documents for item-tracked items, such as sales orders or producti
   
 1.  In the **Search** box, enter **Sales Orders**, and then select the related link.  
   
-2.  Create a sales order line for an item-tracked item.  
+2.  Create a sales order line for an item\-tracked item.  
   
      Proceed to assign serial and lot numbers to the sales order line.  
   
@@ -42,7 +42,7 @@ From outbound documents for item-tracked items, such as sales orders or producti
   
 8.  In the   **Item Tracking List** window, select the serial and lot number combination that you have just assigned.  
   
-9. Choose the **OK** button to open the **Reservation** window showing only supply with the specified item tracking number. If there are any non-specific reservations on any of the item tracking numbers that you have specified for this line, you are informed of the quantity that has already been reserved.  
+9. Choose the **OK** button to open the **Reservation** window showing only supply with the specified item tracking number. If there are any non\-specific reservations on any of the item tracking numbers that you have specified for this line, you are informed of the quantity that has already been reserved.  
   
 10. On the **Actions** tab, in the **Functions** group, choose either **Auto Reserve** or **Reserve from Current Line** to create the reservation on the specific item tracking numbers.  
   

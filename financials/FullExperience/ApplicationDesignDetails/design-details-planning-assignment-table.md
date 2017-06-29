@@ -22,7 +22,7 @@ All items should be planned for, however, there is no reason to calculate a plan
   
  For multiple locations, the assignment takes place at the level of item per location combination. If, for example, a sales order has been created at only one location, the program will assign the item at that specific location for planning.  
   
- The reason for selecting items for planning is a matter of system performance. If no change in an item’s demand-supply pattern has occurred, the planning system will not suggest any actions to be taken. Without the planning assignment, the system would have to perform the calculations for all items in order to find out what to plan for, and that would drain system resources.  
+ The reason for selecting items for planning is a matter of system performance. If no change in an item’s demand\-supply pattern has occurred, the planning system will not suggest any actions to be taken. Without the planning assignment, the system would have to perform the calculations for all items in order to find out what to plan for, and that would drain system resources.  
   
  The **Planning Assignment** table monitors demand and supply events and assigns the appropriate items for planning. The following events are monitored:  
   
@@ -38,7 +38,7 @@ All items should be planned for, however, there is no reason to calculate a plan
   
 -   Unplanned changes in inventory.  
   
- For these direct supply-demand displacements, the order tracking and action messaging system maintains the Planning Assignment table and states a planning reason as an action message.  
+ For these direct supply\-demand displacements, the order tracking and action messaging system maintains the Planning Assignment table and states a planning reason as an action message.  
   
  The following changes in master data can also cause a planning imbalance:  
   

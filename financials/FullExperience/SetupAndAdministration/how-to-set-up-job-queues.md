@@ -46,7 +46,7 @@ You can set up a job queue and specify the order in which designated reports, ba
   
 1.  To start a job queue on any server instance on a computer, choose the **Start on this NAS Computer** field. The **Server Instance List** window opens. Select the computer on the server instance on which you want to run the job queue. Choose the **OK** button.  
   
-     -or-  
+     \-or\-  
   
      To start a job queue on a specific server instance, choose the **Start on this NAS Instance** field. Select the server instance on which you want to run the job queue. Choose the **OK** button.  
   
@@ -54,7 +54,7 @@ You can set up a job queue and specify the order in which designated reports, ba
   
      Automatically: On the **NAS Settings** FastTab, select the **Start Automatically from NAS** check box.  
   
-     -or-  
+     \-or\-  
   
      Manually: On the **Process** tab, choose **Start Job Queue**. To stop the job queue, choose **Stop Job Queue**.  
   

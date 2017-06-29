@@ -37,7 +37,7 @@ To account for future period expenses you have to set up a future expense card.
     |**Last Date Modified**|Specifies the date the future expense was last modified.|  
     |**Tax Amount**|Specifies the tax amount that is associated with the future expense.|  
   
-3.  In the **Depreciation Method** field, select **Straight-Line**.  
+3.  In the **Depreciation Method** field, select **Straight\-Line**.  
   
 4.  Choose the **OK** button.  
   

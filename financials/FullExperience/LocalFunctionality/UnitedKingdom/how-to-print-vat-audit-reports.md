@@ -20,7 +20,7 @@ All vendors must export the data required for auditing in a Content Separated Va
   
 -   **VAT Audit**  report – This report is used for VAT auditing.  
   
--   **VAT Entry Exception** report - This report details the differences between the calculated VAT and the changes that occur because of rounding, VAT tolerance percentage, and discounts. It also displays the difference in VAT amounts for the tax authorities.  
+-   **VAT Entry Exception** report \- This report details the differences between the calculated VAT and the changes that occur because of rounding, VAT tolerance percentage, and discounts. It also displays the difference in VAT amounts for the tax authorities.  
   
 ### To print the VAT audit report  
   

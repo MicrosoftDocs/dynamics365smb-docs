@@ -33,7 +33,7 @@ You use the setup questionnaire to structure and document a detailed discussion 
   
      On the **Actions** tab, choose **Export to Excel** and save the file.  
   
-     -or-  
+     \-or\-  
   
      On the **Actions** tab, choose **Export to XML**.  
   

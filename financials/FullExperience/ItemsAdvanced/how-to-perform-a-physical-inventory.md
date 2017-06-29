@@ -19,7 +19,7 @@
 You must take a physical inventory, that is, count the actual items on hand, to check if the quantity registered is the same as the physical quantity in stock at the end of a fiscal year, if not more often. If there are differences, you must post them to the item accounts before you do the inventory valuation.  
   
 > [!IMPORTANT]  
->  This topic describes how to perform a physical inventory in a non-directed warehouse setup. For information on how to perform it in a warehouse setup with directed put-away and pick, see [How to: Perform Warehouse Physical Inventories](../WarehouseActivities/how-to-perform-warehouse-physical-inventories.md).  
+>  This topic describes how to perform a physical inventory in a non\-directed warehouse setup. For information on how to perform it in a warehouse setup with directed put\-away and pick, see [How to: Perform Warehouse Physical Inventories](../WarehouseActivities/how-to-perform-warehouse-physical-inventories.md).  
   
  Apart from the physical counting task, the complete process involves the following three tasks:  
   

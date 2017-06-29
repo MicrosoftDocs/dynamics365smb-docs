@@ -42,7 +42,7 @@ You can use telebanking for trade with domestic and foreign customers and vendor
   
 -   **Currency Code**: set it to the foreign currency \(FCY\).  
   
--   **Transaction Mode**: select an appropriate, default transaction mode - i.e. one that can deal with foreign currency payments for your foreign bank.  
+-   **Transaction Mode**: select an appropriate, default transaction mode \- i.e. one that can deal with foreign currency payments for your foreign bank.  
   
 -   **Preferred Bank Account**: select an appropriate, default vendor\/customer bank account having the same Currency Code as the vendor\/customer itself.  
   
@@ -50,7 +50,7 @@ You can use telebanking for trade with domestic and foreign customers and vendor
 >  In order to be able to enter a bank account in the **Bank Account** vendor\/customer bank accounts must be available. See below.  
   
 ### Example  
- Jannet Carter \(code *JANNET*\) is one of our US vendors. Purchase invoices will be paid through our foreign bank account \(code *ABN-USD*\) to her bank account \(code *JCBA*\). Both bank account ABN-USD and JCBA are denominated in the same foreign currency \(FCY\) - i.e. USD. Therefore on Jannet Carter's Vendor Card we set the *Currency Code* field to *USD*, fill the *Transaction Mode* field with *ABN-USD* that is linked to our bank account *ABN-USD* and set the *Bank Account* field to *JCBA*.  
+ Jannet Carter \(code *JANNET*\) is one of our US vendors. Purchase invoices will be paid through our foreign bank account \(code *ABN\-USD*\) to her bank account \(code *JCBA*\). Both bank account ABN\-USD and JCBA are denominated in the same foreign currency \(FCY\) \- i.e. USD. Therefore on Jannet Carter's Vendor Card we set the *Currency Code* field to *USD*, fill the *Transaction Mode* field with *ABN\-USD* that is linked to our bank account *ABN\-USD* and set the *Bank Account* field to *JCBA*.  
   
 ## Create Vendor\/Customer Bank Account  
  Create vendor\/customer bank account and enter all necessary information. Special attention should be paid to:  
@@ -62,14 +62,14 @@ You can use telebanking for trade with domestic and foreign customers and vendor
 -   **Owner Information**:be sure all owner information has been entered.  
   
 ### Example  
- Jannet Carter's bank account \(code *JCBA*\) is denominated in foreign currency \(FCY\) - i.e. USD. Therefore on Jannet Carter's Vendor Bank Account Card we enter a valid number in the *Bank Account No.* field *,* set the *Currency Code* field to *USD* and fill the fields on the Owner Information tab with appropriate values.  
+ Jannet Carter's bank account \(code *JCBA*\) is denominated in foreign currency \(FCY\) \- i.e. USD. Therefore on Jannet Carter's Vendor Bank Account Card we enter a valid number in the *Bank Account No.* field *,* set the *Currency Code* field to *USD* and fill the fields on the Owner Information tab with appropriate values.  
   
 ## Create and Post Purchase Invoice for Vendor or Sales Invoice for Customer  
  Create a purchase\/sales invoice and enter all necessary information. Special attention should be paid to:  
   
 -   **Currency Code**: set it to the foreign currency \(FCY\).  
   
--   **Transaction Mode**: select an appropriate, default transaction mode - i.e. one that can deal with foreign currency payments for your foreign bank.  
+-   **Transaction Mode**: select an appropriate, default transaction mode \- i.e. one that can deal with foreign currency payments for your foreign bank.  
   
 -   **Preferred Bank Account**: select an appropriate, default vendor\/customer bank account having the same Currency Code is the vendor\/customer itself.  
   
@@ -78,31 +78,31 @@ You can use telebanking for trade with domestic and foreign customers and vendor
  When the invoice is finished it can be posted.  
   
 ### Example  
- When creating a purchase invoice for Jannet Carter we enter *JANNET* in the ***Buy-from Vendor No.*** field. By default the *Currency Code*, *Transaction Mode* and *Bank Account* fields will be populated with values taken from the Jannet Carter's vendor card. Therefore the *Currency Code*, *Transaction Mode* and *Bank Account* fields will be *USD*, *ABN-USD* and *JCBA* respectively. Nevertheless, these values can be changed.  
+ When creating a purchase invoice for Jannet Carter we enter *JANNET* in the ***Buy\-from Vendor No.*** field. By default the *Currency Code*, *Transaction Mode* and *Bank Account* fields will be populated with values taken from the Jannet Carter's vendor card. Therefore the *Currency Code*, *Transaction Mode* and *Bank Account* fields will be *USD*, *ABN\-USD* and *JCBA* respectively. Nevertheless, these values can be changed.  
   
 ## Create Proposal  
- Open the Telebank - Bank Overview Window window and browse to the bank through which we want to perform our payment. Open the Proposal window and generate payment proposals using the Get Proposal Entries batch job.  
+ Open the Telebank \- Bank Overview Window window and browse to the bank through which we want to perform our payment. Open the Proposal window and generate payment proposals using the Get Proposal Entries batch job.  
   
 ### Example  
- Through the Telebank - Bank Overview window we open the Proposal window for our bank *ABN-USD*. Using the batch job one proposal line will be created for the purchase invoice we just created and posted for vendor *JANNET*.  
+ Through the Telebank \- Bank Overview window we open the Proposal window for our bank *ABN\-USD*. Using the batch job one proposal line will be created for the purchase invoice we just created and posted for vendor *JANNET*.  
   
 ## Create Payment History  
  From the Proposal window we process our proposal into a payment history. The proposal will disappear and can be found in the Payment History Overview window for the same bank.  
   
 ### Example  
- We process our proposal concerning the payment to vendor *JANNET* and open the Payment History Overview window for our bank *ABN-USD*. The last payment history is the one we just created.  
+ We process our proposal concerning the payment to vendor *JANNET* and open the Payment History Overview window for our bank *ABN\-USD*. The last payment history is the one we just created.  
   
 ## Export Payment History  
  Open the Payment History Overview Window window, browse to the relevant payment history and choose **Export**. The export batch job will appear for the export protocol that is linked to this payment. For this export the system already has entered appropriate filters. Check, if wanted, any of the fields on the Options tab and click OK to export the payment. The system will generate a text file using a filename as defined in the Default File Names Field field of the export protocol, which now is ready to be sent to our bank.  
   
 ### Example  
- As the transaction mode associated with our payment is *ABN-USD* the BBV or PAYMUL batch job will appear.  
+ As the transaction mode associated with our payment is *ABN\-USD* the BBV or PAYMUL batch job will appear.  
   
 ## Import Bank Statement  
  After receiving electronic bank statements from our bank we can import them by running the appropriate import protocol from the Import Protocol List window.  
   
 ### Example  
- The bank statement containing our payment to Jannet Carter will be sent to us by our bank *ABN-USD*. Therefore we should chose *OFFICE NET EXTRA* as the appropriate import protocol.  
+ The bank statement containing our payment to Jannet Carter will be sent to us by our bank *ABN\-USD*. Therefore we should chose *OFFICE NET EXTRA* as the appropriate import protocol.  
   
 ## See Also  
  [How to: Create Proposals](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/how-to-create-proposals.md)   

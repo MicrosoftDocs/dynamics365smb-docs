@@ -25,7 +25,7 @@ When you configure companies using FIX INCLUDE HERE<!--[!INCLUDE[rimlong](../Set
  To aid the process of filling out a configuration questionnaire, consider defining default answers to indicate best practices.  
   
 ## Batch creation of journal lines  
- We recommend that you use the data migration tools provided to migrate journal entries. Otherwise, if you use a batch job to create journal lines, that has a limited scope and only generates pre-default fields into a journal. The rest of the journal then has to be completed manually.  
+ We recommend that you use the data migration tools provided to migrate journal entries. Otherwise, if you use a batch job to create journal lines, that has a limited scope and only generates pre\-default fields into a journal. The rest of the journal then has to be completed manually.  
   
 ## Migrating transactions  
  We recommend that you migrate opening balances in steps, in the following order.  

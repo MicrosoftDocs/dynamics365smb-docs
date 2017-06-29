@@ -38,7 +38,7 @@ Accelerated depreciation is calculated based on the differences between the acco
  You must set up the tax book as a derogatory book by using an accelerated depreciation setup parameter. If this parameter is set, differences between the tax book and the accounting book are calculated and posted as accelerated depreciation amounts. For more information, see [How to: Set Up Accelerated Depreciation](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-set-up-accelerated-depreciation.md).  
   
 ### Example  
- If you have a fixed asset valued at 1,000 euros that is depreciated in the accounting depreciation book over five years, and depreciated in the tax depreciation book over three years, then the accounting depreciation for the first year is 200 euros \(1,000\/5\) and the tax depreciation for the first year is 333.33 euros \(1,000\/3\). The accelerated depreciation amount is the difference between these two amounts: 133.33 euros \(333.33 - 200\).  
+ If you have a fixed asset valued at 1,000 euros that is depreciated in the accounting depreciation book over five years, and depreciated in the tax depreciation book over three years, then the accounting depreciation for the first year is 200 euros \(1,000\/5\) and the tax depreciation for the first year is 333.33 euros \(1,000\/3\). The accelerated depreciation amount is the difference between these two amounts: 133.33 euros \(333.33 \- 200\).  
   
 ### Accelerated Depreciation Accounts  
  Accelerated depreciation uses the derogatory fixed asset posting type. Statistics and reports use this posting type to report the accelerated depreciation calculation. For more information, see [Depreciation Methods](../../Finance/depreciation-methods.md).  

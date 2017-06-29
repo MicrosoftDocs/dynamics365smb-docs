@@ -22,7 +22,7 @@ Withholding Tax \(WHT\) is tax withheld by a company when making a payment to a 
   
 -   The vendor is a local supplier who has not supplied an Australian Business Number \(ABN\) before the payment is processed, and the individual transaction amount is greater than the specified threshold amount.  
   
--   The vendor is a non-resident supplier and the payment is to be made to this non-resident entity in the form of interest, royalty, or dividend payments. Currently, there is no minimum threshold amount. Withholding rates may vary due to payment, or international tax treaties existing between Australia and the vendor's country.  
+-   The vendor is a non\-resident supplier and the payment is to be made to this non\-resident entity in the form of interest, royalty, or dividend payments. Currently, there is no minimum threshold amount. Withholding rates may vary due to payment, or international tax treaties existing between Australia and the vendor's country.  
   
  **WHT Business Posting Groups** and **WHT Product Posting Groups** must be set up in the **WHT Posting Setup** window so that the correct WHT calculations are made for each vendor.  
   
@@ -58,7 +58,7 @@ Withholding Tax \(WHT\) is tax withheld by a company when making a payment to a 
  The percentage withheld is specified in **WHT Posting Setup**. The amount to be withheld is calculated automatically at the time of payment. The WHT certificate is printed automatically, and then sent to the vendor with payment. The WHT certificate explains the reasons for not sending the full invoiced amount.  
   
 ## WHT for Foreign Suppliers  
- Ensure that a valid combination of **General Business** and **General Product PostingGroups** has been established for vendors for whom you need to withhold tax, other than for non-ABN.  
+ Ensure that a valid combination of **General Business** and **General Product PostingGroups** has been established for vendors for whom you need to withhold tax, other than for non\-ABN.  
   
 ## See Also  
  [How to: Set Up Withholding Tax](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-set-up-withholding-tax.md)   

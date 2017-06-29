@@ -22,7 +22,7 @@ A single postal code can include multiple cities in the same region.
   
  For example, Australian postal code 4069 covers the cities of Chapel Hill and Kenmore in the state of Queensland. However, there is also a city named Chapel Hill in the state of South Australia, located in postal code 5153.  
   
- To avoid confusion and improve address accuracy, available options display when you enter data in address fields. For example, when you enter a postal code on a customer card, you can select from a list of all available cities for that postal code in the **City** field drop-down list. Likewise, when you enter a city name, you can select from a list of all available states in the **State** field drop-down list.  
+ To avoid confusion and improve address accuracy, available options display when you enter data in address fields. For example, when you enter a postal code on a customer card, you can select from a list of all available cities for that postal code in the **City** field drop\-down list. Likewise, when you enter a city name, you can select from a list of all available states in the **State** field drop\-down list.  
   
  To enable this functionality, you must enter the data into the **Post Code** table. You can do this manually, or you can download a copy of the Australian postal codes from the Australian Post Office website. Downloadable postal codes are not available for New Zealand.  
   

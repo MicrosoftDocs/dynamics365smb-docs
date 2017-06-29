@@ -16,9 +16,9 @@
 
     ---
 # How to: Print the Test Reports for Cash and Bank or Giro Journals
-You can use the **CBG Posting - Test** report to edit the statement lines and see the effect of posting before you post cash journals and bank or giro journals.  
+You can use the **CBG Posting \- Test** report to edit the statement lines and see the effect of posting before you post cash journals and bank or giro journals.  
   
- This report displays the statement lines of a cash journal and bank journal or giro journal. For more information, see CBG Statement Line Table and Bank-Giro Journal Window.  
+ This report displays the statement lines of a cash journal and bank journal or giro journal. For more information, see CBG Statement Line Table and Bank\-Giro Journal Window.  
   
 ### To print the test report for cash journal  
   
@@ -57,7 +57,7 @@ You can use the **CBG Posting - Test** report to edit the statement lines and se
 ## See Also  
  [How to: Apply and Unapply General Ledger Entries](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-apply-and-unapply-general-ledger-entries.md)   
  CBG Statement Line Table   
- [Cash-Bank-Giro](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/cash-bank-giro.md)   
+ [Cash\-Bank\-Giro](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/cash-bank-giro.md)   
  Cash Journal Window   
- Bank-Giro Journal Window   
- CBG Posting - Test Report
+ Bank\-Giro Journal Window   
+ CBG Posting \- Test Report

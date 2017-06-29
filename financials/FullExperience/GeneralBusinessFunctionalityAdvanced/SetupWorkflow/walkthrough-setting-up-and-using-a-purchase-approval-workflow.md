@@ -16,7 +16,7 @@
 
     ---
 # Use Workflows
-You can set up and use workflows that connect business-process tasks performed by different users. System tasks, such as automatic posting, can be included as steps in workflows, preceded or followed by user tasks. Requesting and granting approval to create new records are typical workflow steps.  
+You can set up and use workflows that connect business\-process tasks performed by different users. System tasks, such as automatic posting, can be included as steps in workflows, preceded or followed by user tasks. Requesting and granting approval to create new records are typical workflow steps.  
   
  Before you can begin to use workflows, you must set up workflow users, create the workflows, potentially preceded by code customization and specify how users receive notifications. For more information, see [Set Up Workflows](../../BusinessFunctionality/Workflow/set-up-workflows.md).  
   
@@ -27,7 +27,7 @@ You can set up and use workflows that connect business-process tasks performed b
   
 |**To**|**See**|  
 |------------|-------------|  
-|Set a workflow to start when the first entry-point event occurs.|[How to: Enable Workflows](../../BusinessFunctionality/Workflow/how-to-enable-workflows.md)|  
+|Set a workflow to start when the first entry\-point event occurs.|[How to: Enable Workflows](../../BusinessFunctionality/Workflow/how-to-enable-workflows.md)|  
 |Request approval of a task.|[How to: Request Approval](../../BusinessFunctionality/Workflow/how-to-request-approval.md)|  
 |Act on a workflow notification to approve or reject a request, either in a list view or on the page of the task in question.|[How to: Approve or Reject Requests for Approval](../../BusinessFunctionality/Workflow/how-to-approve-or-reject-requests-for-approval.md)|  
 |Delegate an approval request to a substitute approver, for example because the original approver is out of office.|[How to: Delegate Requests for Approval](../../BusinessFunctionality/Workflow/how-to-delegate-requests-for-approval.md)|  

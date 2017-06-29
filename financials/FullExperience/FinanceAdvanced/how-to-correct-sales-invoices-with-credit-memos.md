@@ -36,7 +36,7 @@ If you have posted an incorrect invoice, you can correct it by issuing a credit 
   
          This function always exactly reverses the costs from the posted document line, regardless of whether exact cost reversing is required in the **\($ N\_459 Sales & Receivables Setup $\)** window.  
   
-     When you use either of these functions, a link is created to the original item ledger entries in the **Appl.-from Item Entry** field to ensure that the costs are copied from the original posted document. If the line has item tracking, the **Appl.-from Item Entry** field is filled in on the item tracking line or lines instead of on the document line.  
+     When you use either of these functions, a link is created to the original item ledger entries in the **Appl.\-from Item Entry** field to ensure that the costs are copied from the original posted document. If the line has item tracking, the **Appl.\-from Item Entry** field is filled in on the item tracking line or lines instead of on the document line.  
   
 4.  Post the credit memo.  
   
@@ -45,5 +45,5 @@ If you have posted an incorrect invoice, you can correct it by issuing a credit 
  [How to: Assign Exact Cost Reversing in Sales](../Finance/how-to-assign-exact-cost-reversing-in-sales.md)   
  [Processing Sales Orders](../Sales/processing-sales-orders.md)   
  Copy Sales Document   
- Appl.-from Item Entry   
+ Appl.\-from Item Entry   
  Correction

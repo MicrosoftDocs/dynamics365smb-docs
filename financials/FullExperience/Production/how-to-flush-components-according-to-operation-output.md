@@ -24,11 +24,11 @@ For items that are set up with backward flushing method, the default behavior is
   
  This functionality is useful for the following reasons:  
   
--   **Inventory Valuation** - Value entries for output and consumption are created in parallel as the production order progresses. Without routing link codes, the inventory value will increase as output is posted and then decrease at a later point in time when the value of component consumption is posted together with the finished production order.  
+-   **Inventory Valuation** \- Value entries for output and consumption are created in parallel as the production order progresses. Without routing link codes, the inventory value will increase as output is posted and then decrease at a later point in time when the value of component consumption is posted together with the finished production order.  
   
--   **Inventory Availability** - With gradual consumption posting, the availability of component items is more up-to-date, which is important to maintain the internal balance between demand and supply. Without routing link codes, other demands for the component may believe that it is available as long as it is pending a delayed consumption posting.  
+-   **Inventory Availability** \- With gradual consumption posting, the availability of component items is more up\-to\-date, which is important to maintain the internal balance between demand and supply. Without routing link codes, other demands for the component may believe that it is available as long as it is pending a delayed consumption posting.  
   
--   **Just-in-Time** – With the ability to customize products to customer requests, you can minimize waste by making sure that work and system changes only occur when it is necessary.  
+-   **Just\-in\-Time** – With the ability to customize products to customer requests, you can minimize waste by making sure that work and system changes only occur when it is necessary.  
   
  The following procedure shows how to combine backward flushing and routing link codes so that the quantity that is flushed for each operation is proportional to the actual output of the finished operation.  
   
@@ -41,7 +41,7 @@ For items that are set up with backward flushing method, the default behavior is
 3.  On the **Replenishment** FastTab, in the **Flushing Method** field, select **Forward**.  
   
     > [!NOTE]  
-    >  Select **Pick\+ Forward** if the component is used in a location that is set up for directed put-away and pick.  
+    >  Select **Pick\+ Forward** if the component is used in a location that is set up for directed put\-away and pick.  
   
 4.  In the **Search** box, enter **Routings**, and then choose the related link.  
   

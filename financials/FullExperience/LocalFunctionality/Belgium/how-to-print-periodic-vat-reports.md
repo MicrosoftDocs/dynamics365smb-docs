@@ -22,7 +22,7 @@ The VAT reporting feature enables you to print VAT transaction details. You must
   
 -   VAT annual listing \(on paper\/disk\)  
   
--   VAT-VIES listing \(on paper\/disk\)  
+-   VAT\-VIES listing \(on paper\/disk\)  
   
 ### To print the monthly\/quarterly declaration  
   
@@ -74,11 +74,11 @@ The VAT reporting feature enables you to print VAT transaction details. You must
   
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen. Choose the **Cancel** button to save the information without printing the report.  
   
-### To print the VAT-VIES declaration report to disk  
+### To print the VAT\-VIES declaration report to disk  
   
 1.  In the **Search** box, enter the **VAT – Vies Declaration Disk**, and then choose the related link.  
   
-2.  Enter the required information, and choose the **OK** button to start the batch job, which will create an xml file. For more information, see VAT- VIES Declaration Disk.  
+2.  Enter the required information, and choose the **OK** button to start the batch job, which will create an xml file. For more information, see VAT\- VIES Declaration Disk.  
   
 3.  If you have to make a correction, in the **Search** box, enter **VAT – VIES Correction**, and then choose the related link.  
   
@@ -88,4 +88,4 @@ The VAT reporting feature enables you to print VAT transaction details. You must
   
 ## See Also  
  [Belgian VAT](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/belgian-vat.md)   
- [How to: Set Up Non-Deductible VAT](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-non-deductible-vat.md)
+ [How to: Set Up Non\-Deductible VAT](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-non-deductible-vat.md)

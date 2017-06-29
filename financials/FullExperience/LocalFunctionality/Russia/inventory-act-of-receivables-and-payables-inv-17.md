@@ -18,9 +18,9 @@
 # Inventory Act of Receivables And Payables INV-17
 The inventory act of receivables and payables feature enables you to prepare an inventory of debts and liabilities, and print reports in the following formats:  
   
--   INV-17  
+-   INV\-17  
   
--   Supplement to INV-17  
+-   Supplement to INV\-17  
   
 ## Setting Up a Number Series for Inventory Acts  
  The following procedure shows how to set up a number series for inventory acts.  
@@ -88,8 +88,8 @@ The inventory act of receivables and payables feature enables you to prepare an 
   
  The debts and liabilities amount for the selected vendor or customer is recalculated and the lines are inserted in the document.  
   
-## Printing the INV-17 form and the Supplement to INV-17 form  
- The following procedure shows how to print the INV-17 form and the Supplement to INV-17 form.  
+## Printing the INV\-17 form and the Supplement to INV\-17 form  
+ The following procedure shows how to print the INV\-17 form and the Supplement to INV\-17 form.  
   
 1.  In the Inventory Account Card window, click **Functions**.  
   
@@ -112,9 +112,9 @@ The inventory act of receivables and payables feature enables you to prepare an 
     > [!NOTE]  
     >  All selected signatures will be reflected in the appropriate fields.  
   
-5.  Click **Print**, and then click **Invent. Act INV-17** to print the inventory act.  
+5.  Click **Print**, and then click **Invent. Act INV\-17** to print the inventory act.  
   
-6.  Click **Print**, and then click **Supplement to Invent. Act INV-17** to print the supplement to the inventory act.  
+6.  Click **Print**, and then click **Supplement to Invent. Act INV\-17** to print the supplement to the inventory act.  
   
 ## See Also  
  [Russian Payables Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/russian-payables-reports.md)   

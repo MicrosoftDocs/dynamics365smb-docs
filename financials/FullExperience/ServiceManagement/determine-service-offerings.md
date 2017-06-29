@@ -27,6 +27,6 @@ When you set up service management, you have to decide what services to offer cu
 |Use the **Service Item** window to associate groups of service items into logical groups.|[How to: Set Up Service Item Groups](../Service/how-to-set-up-service-item-groups.md)|  
   
 ## See Also  
- [How to: Trace Item-Tracked Items](../Receiving/how-to-trace-item-tracked-items.md)   
+ [How to: Trace Item\-Tracked Items](../Receiving/how-to-trace-item-tracked-items.md)   
  Item Journal   
  Req. Worksheet

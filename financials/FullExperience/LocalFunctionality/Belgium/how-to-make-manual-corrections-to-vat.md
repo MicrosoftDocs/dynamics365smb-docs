@@ -32,7 +32,7 @@ You can make corrections to posted VAT entries without posting the correction in
     |---------------------------------|---------------------------------------|  
     |**Posting Date**|Enter the posting date of the VAT correction.|  
     |**Amount**|Enter the amount of the VAT correction. You must enter the correction amount, not the new amount. For example, if the amount is 1000.00 and should be 1200.00, enter 200.00.|  
-    |**Additional-Currency Amount**|This field displays the amount of the VAT correction in the additional reporting currency.<br /><br /> The field is automatically calculated, based on the contents of the **Amount** field and the current exchange rate.|  
+    |**Additional\-Currency Amount**|This field displays the amount of the VAT correction in the additional reporting currency.<br /><br /> The field is automatically calculated, based on the contents of the **Amount** field and the current exchange rate.|  
   
 5.  Choose the **OK** button.  
   
@@ -43,10 +43,10 @@ You can make corrections to posted VAT entries without posting the correction in
     |Action|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |------------|---------------------------------------|  
     |**Detailed Report**|Opens the **VAT Statement** report. For more information, see VAT Statement.|  
-    |**Form\/Intervat Declaration**|Opens the **VAT –Form** report. For more information, see VAT - Form.<br /><br /> The **Form\/Intervat Declaration** report is based on the VAT Statement template that is defined in the general ledger setup. Therefore, it may export data that is not the same as what is shown in the **VAT Statement Preview** window.|  
+    |**Form\/Intervat Declaration**|Opens the **VAT –Form** report. For more information, see VAT \- Form.<br /><br /> The **Form\/Intervat Declaration** report is based on the VAT Statement template that is defined in the general ledger setup. Therefore, it may export data that is not the same as what is shown in the **VAT Statement Preview** window.|  
     |**Declaration Summary Report**|Opens the **VAT Statement Summary** report. For more information, see VAT Statement Summary.|  
   
 ## See Also  
  [Belgian VAT](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/belgian-vat.md)   
  [How to: Print Periodic VAT Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-print-periodic-vat-reports.md)   
- [How to: Set Up Non-Deductible VAT](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-non-deductible-vat.md)
+ [How to: Set Up Non\-Deductible VAT](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-non-deductible-vat.md)

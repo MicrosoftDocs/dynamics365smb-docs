@@ -18,18 +18,18 @@
 # Design Details: Item Tracking Posting Structure
 To align with inventory costing functionality and to obtain a simpler and more robust solution, item ledger entries are used as the primary carrier of item tracking numbers.  
   
- Item tracking numbers on order network entities and non-order network entities are specified in the **Reservation Entry** table \(T337\). Item tracking numbers that are related to historical information are retrieved directly from the item ledger entries that are related to the transaction in question. This means that item ledger entries reflect the item tracking specification of the posted order line.  
+ Item tracking numbers on order network entities and non\-order network entities are specified in the **Reservation Entry** table \(T337\). Item tracking numbers that are related to historical information are retrieved directly from the item ledger entries that are related to the transaction in question. This means that item ledger entries reflect the item tracking specification of the posted order line.  
   
  The **Item Tracking Lines** window retrieves the information from T337 and the item ledger entries and shows it through the temporary table, **Tracking Specification** \(T336\). T336 also hold the temporary data in the **Item Tracking Lines window** for item tracking quantities that remain to be invoiced.  
   
-## One-to-Many Relation  
+## One\-to\-Many Relation  
  The **Item Entry Relation** table, which is used to link a posted document line with its related item ledger entries, consists of two main parts:  
   
 -   A pointer to the posted document line, the **Order Line No.** field.  
   
 -   An entry number pointing to an item ledger entry, the **Item Entry No.** field.  
   
- The functionality of the existing **Entry No.** field, which relates an item ledger entry to a posted document line, handles the typical one-to-one relation when no item tracking numbers exist on the posted document line. If item tracking numbers exist, then the **Entry No.** field is left blank, and the one-to-many relation is handled by the **Item Entry Relation** table. If the posted document line carries item tracking numbers but only relates to a single item ledger entry, then the **Entry No.** field handles the relation, and the no record is created in the **Item Entry Relation** table.  
+ The functionality of the existing **Entry No.** field, which relates an item ledger entry to a posted document line, handles the typical one\-to\-one relation when no item tracking numbers exist on the posted document line. If item tracking numbers exist, then the **Entry No.** field is left blank, and the one\-to\-many relation is handled by the **Item Entry Relation** table. If the posted document line carries item tracking numbers but only relates to a single item ledger entry, then the **Entry No.** field handles the relation, and the no record is created in the **Item Entry Relation** table.  
   
 ## Codeunits 80 and 90  
  To split the item ledger entries during posting, the code in codeunit 80 and codeunit 90, is encircled by loops that run through global temporary record variables. This code calls codeunit 22 with an item journal line. These variables are initialized when item tracking numbers exist for the document line. To keep the code simple, this looping structure is always used. If no item tracking numbers exist for the document line, then a single record is inserted, and the loop runs only once.  

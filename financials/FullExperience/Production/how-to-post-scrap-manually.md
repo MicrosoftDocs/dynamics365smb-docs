@@ -36,7 +36,7 @@ If scrap is produced during processing, it can be entered in the output journal.
   
 8.  In the **Scrap Code** field, enter the scrap code.  
   
-9. If the warehouse location where the items should be put away uses bins but does not require put-away processing, assign a bin code to the journal line to specify where the items should be placed in the warehouse. For more information, see [How to: Assign Bin Codes on Journal Lines](../Production/how-to-assign-bin-codes-on-journal-lines.md).  
+9. If the warehouse location where the items should be put away uses bins but does not require put\-away processing, assign a bin code to the journal line to specify where the items should be placed in the warehouse. For more information, see [How to: Assign Bin Codes on Journal Lines](../Production/how-to-assign-bin-codes-on-journal-lines.md).  
   
 10. Click **Actions**, **Posting**, **Post** to post the operations.  
   

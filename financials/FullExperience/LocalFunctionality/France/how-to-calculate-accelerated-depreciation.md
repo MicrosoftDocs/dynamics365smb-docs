@@ -36,7 +36,7 @@ In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow
     |**FA Posting Date**|Specify the ending date for the depreciation calculation, if this is the first depreciation entry for the asset. The depreciation starting date that is defined in the **FA Depreciation Books** window is used as the starting date for the depreciation calculation. If you have already depreciated the asset, the fixed asset posting date of the last depreciation entry is used as the starting date for the depreciation calculation.|  
     |**Use Force No. of Days**|Select to use the number of days in the **Force No. of Days** field for the depreciation calculation.|  
     |**Force No. of Days**|The number of days for the depreciation calculation. You can only enter a number in this field if the **Use Force No of Days** check box is selected.|  
-    |**Posting Date**|The posting date for the calculated depreciation.<br /><br /> You can leave this field blank if the **\($ T\_5611\_19 Use Same FA \+ G\/L Posting Dates $\)** field in the accounting depreciation book is selected. The posting date is copied to the resulting journal lines. For more information, see [\($ T\_5611\_19 Use Same FA\+G-L Posting Dates $\)](../Topic/\($%20T_5611_19%20Use%20Same%20FA+G-L%20Posting%20Dates%20$\).md).|  
+    |**Posting Date**|The posting date for the calculated depreciation.<br /><br /> You can leave this field blank if the **\($ T\_5611\_19 Use Same FA \+ G\/L Posting Dates $\)** field in the accounting depreciation book is selected. The posting date is copied to the resulting journal lines. For more information, see [\($ T\_5611\_19 Use Same FA\+G\-L Posting Dates $\)](../Topic/\($%20T_5611_19%20Use%20Same%20FA+G-L%20Posting%20Dates%20$\).md).|  
     |**Document No.**|The document number for the fixed asset journal batch. Leave this field blank if you have set up a numbering series for the fixed asset journal batch in the **No. Series** window. For more information, see No. Series.|  
     |**Posting Description**|The posting description for the fixed asset journal entries.|  
     |**Insert Bal. Account**|Select to automatically insert balancing accounts in the resulting journal. The **Calculate Depreciation** batch job only uses balancing accounts that are defined in the FA Posting Group.|  
@@ -53,7 +53,7 @@ In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow
  Fixed Asset   
  Fixed Asset Card   
  [Set Up Depreciation](../../Finance/set-up-depreciation.md)   
- [\($ T\_5611\_19 Use Same FA\+G-L Posting Dates $\)](../Topic/\($%20T_5611_19%20Use%20Same%20FA+G-L%20Posting%20Dates%20$\).md)   
+ [\($ T\_5611\_19 Use Same FA\+G\-L Posting Dates $\)](../Topic/\($%20T_5611_19%20Use%20Same%20FA+G-L%20Posting%20Dates%20$\).md)   
  FA Posting Group   
  No. Series   
  Depreciation Book   

@@ -26,14 +26,14 @@ You apply general ledger entries to justify ledger balances on asset and liabili
   
 3.  In the **Apply G\/L Entries** window, select the ledger entries that you want to apply.  
   
-4.  On the **Navigate** tab, in the **Process** group, choose **Set Applies-to ID** to populate the Applies-to ID field with the user ID of the current user.  
+4.  On the **Navigate** tab, in the **Process** group, choose **Set Applies\-to ID** to populate the Applies\-to ID field with the user ID of the current user.  
   
 5.  On the **Navigate** tab, in the **Process** group, choose **Post Application**.  
   
      This effectuates the application by setting the Letter and Letter Date fields.  
   
 > [!NOTE]  
->  Applied entries will be identified by the same three-letter combination and the same date. Balanced entries will be assigned only uppercase letters, and unbalanced entries will be assigned only lowercase letters.  
+>  Applied entries will be identified by the same three\-letter combination and the same date. Balanced entries will be assigned only uppercase letters, and unbalanced entries will be assigned only lowercase letters.  
   
 ## See Also  
  [How to: Unapply General Ledger Entries](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-unapply-general-ledger-entries.md)

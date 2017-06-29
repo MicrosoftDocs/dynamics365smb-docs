@@ -42,6 +42,6 @@ Before you can post in a fiscal year, you must open the fiscal year and define i
 ## See Also  
  [How to: Specify Posting Periods](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-specify-posting-periods.md)   
  [How to: Close Years](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-close-years.md)   
- [How to: Post the Year-End Closing Entry](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-post-the-year-end-closing-entry.md)   
+ [How to: Post the Year\-End Closing Entry](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-post-the-year-end-closing-entry.md)   
  [How to: Fiscally Close Years](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-fiscally-close-years.md)   
  [Fiscal Periods and Fiscal Years](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/fiscal-periods-and-fiscal-years.md)

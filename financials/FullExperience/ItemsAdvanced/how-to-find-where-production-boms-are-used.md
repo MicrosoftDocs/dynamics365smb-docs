@@ -16,7 +16,7 @@
 
     ---
 # How to: Find Where Production BOMs Are Used
-The **Prod. BOM Where-Used** window displays where a production BOM is used.  
+The **Prod. BOM Where\-Used** window displays where a production BOM is used.  
   
 ### To find where production BOMs are used  
   
@@ -24,7 +24,7 @@ The **Prod. BOM Where-Used** window displays where a production BOM is used.
   
 2.  Open the relevant production BOM from the list.  
   
-3.  Select an item line, and on the **Navigate** tab, in the **Prod. BOM** group, choose **Where-Used**.  
+3.  Select an item line, and on the **Navigate** tab, in the **Prod. BOM** group, choose **Where\-Used**.  
   
      The quantity in the **Quantity Needed** field specifies the quantity including scrap percentage.  
   

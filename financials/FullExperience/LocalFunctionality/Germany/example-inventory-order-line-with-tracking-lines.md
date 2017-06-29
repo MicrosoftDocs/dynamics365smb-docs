@@ -18,17 +18,17 @@
 # Example - Inventory Order Line with Tracking Lines
 The physical inventory order line should contain the following data:  
   
--   Item No.: 80216-V  
+-   Item No.: 80216\-V  
   
 -   Location Code: BLUE  
   
 -   The fields Variant Code and Bin Code may be blank.  
   
- There is a check mark in the field Use Tracking Lines on the physical inventory order line and the item 80216-V should be posted all time with lot nos. according to the item tracking code.  
+ There is a check mark in the field Use Tracking Lines on the physical inventory order line and the item 80216\-V should be posted all time with lot nos. according to the item tracking code.  
   
  The posting date on the physical inventory order header should be 12\/31\/2002.  
   
- The expected quantity of the item 80216-V at the location BLUE on 12\/31\/2001 should be 120 pieces.  
+ The expected quantity of the item 80216\-V at the location BLUE on 12\/31\/2001 should be 120 pieces.  
   
  The quantity on stock consists of the following lots:  
   
@@ -41,7 +41,7 @@ The physical inventory order line should contain the following data:
 |CH1006|10|  
 |**Total**|**120**|  
   
- There had been recorded the following physical inventory recording lines for the item 80216-V, location code BLUE:  
+ There had been recorded the following physical inventory recording lines for the item 80216\-V, location code BLUE:  
   
 ## Recorded Lot Nos. on the Physical Inventory Recording Lines:  
   
@@ -52,7 +52,7 @@ The physical inventory order line should contain the following data:
 |CH1003|20|  
 |**Total**|**112**|  
   
- When finishing the physical inventory order the program will calculate for the item 80216-V at the location BLUE a negative adjustment of 8 pieces and will create the following entries:  
+ When finishing the physical inventory order the program will calculate for the item 80216\-V at the location BLUE a negative adjustment of 8 pieces and will create the following entries:  
   
 ## Item Tracking lines to post:  
   
@@ -60,9 +60,9 @@ The physical inventory order line should contain the following data:
 |-----------------|---------------------------|---------------------------|--------------------------|  
 |CH1001|80|80|0|  
 |CH1002|0|12|\+ 12|  
-|CH1003|30|20|- 10|  
-|CH1006|10|0|- 10|  
-|**Total**|**120**|**112**|**- 8**|  
+|CH1003|30|20|\- 10|  
+|CH1006|10|0|\- 10|  
+|**Total**|**120**|**112**|**\- 8**|  
   
 ## See Also  
  [Physical Inventory Order Lines With Item Tracking Lines](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/physical-inventory-order-lines-with-item-tracking-lines.md)

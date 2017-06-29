@@ -41,9 +41,9 @@ The **Tax Difference Journal** is used to create and post tax difference transac
     |**Amount \(Base\)**|Enter an expense amount based on book accounting transactions. This information is used if the tax difference calculation is for a set period of time.|  
     |**Amount \(Tax\)**|Enter an expense amount based on tax accounting transactions. This information is used if the tax difference calculation is for a set period of time.|  
     |**Difference**|Enter the value of the difference between the book accounting and tax accounting transactions.|  
-    |**YTD Amount \(Base\)**|Enter the year-to-date value of the expense or income amount based on the book accounting data.|  
-    |**YTD Amount \(Tax\)**|Enter the year-to-date value of the expense or income amount based on the tax accounting data.|  
-    |**YTD Difference**|Enter the year-to-date value of the difference between the book accounting and tax accounting transactions.|  
+    |**YTD Amount \(Base\)**|Enter the year\-to\-date value of the expense or income amount based on the book accounting data.|  
+    |**YTD Amount \(Tax\)**|Enter the year\-to\-date value of the expense or income amount based on the tax accounting data.|  
+    |**YTD Difference**|Enter the year\-to\-date value of the difference between the book accounting and tax accounting transactions.|  
     |**Tax Diff. Calc. Mode**|Specifies the difference of the counting mode. If **Balance** is selected, the difference will be calculated by a creating total starting from the start of the year. If not selected, the difference will be created for the current period.|  
     |**Tax Amount**|Specifies the counting result. The value of this field will correct the profit tax in the book accounting transactions.|  
     |**Asset Tax Amount**|Specifies the calculated asset tax amount.|  

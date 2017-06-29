@@ -28,7 +28,7 @@ If you have agreed with your vendor to return a purchased item that you are diss
   
 3.  Leave the **No.** field to automatically insert the next number from the default number series. Alternatively, choose the field to select from an alternative series.  
   
-4.  In the **Buy-from Vendor No.** field, enter the number of the vendor that you originally bought the item from.  
+4.  In the **Buy\-from Vendor No.** field, enter the number of the vendor that you originally bought the item from.  
   
      The **General** FastTab and all other FastTabs are now filled with master data from the vendor card.  
   
@@ -41,12 +41,12 @@ If you have agreed with your vendor to return a purchased item that you are diss
     |**Get Posted Document Lines to Reverse**|Copies lines of one or more posted documents to be reversed.|  
     |**Copy Document**|Copies both the header and lines of one posted or open document to be reversed.<br /><br /> Requires that the **Exact Cost Reversing Mandatory** check box is selected in the **\($ N\_460 Purchases & Payables Setup $\)** window.|  
   
-     When you post the purchase return order, a link is created through the **Appl.-to Item Entry** field to the original item ledger entry to ensure that the costs are copied from the original posted purchase order.  
+     When you post the purchase return order, a link is created through the **Appl.\-to Item Entry** field to the original item ledger entry to ensure that the costs are copied from the original posted purchase order.  
   
 7.  Choose the **Return Reason Code** field to select a relevant code to describe the reason why you are returning the item.  
   
 ## See Also  
- Appl.-to Item Entry   
+ Appl.\-to Item Entry   
  [How to: Assign Exact Cost Reversing in Purchases](../Finance/how-to-assign-exact-cost-reversing-in-purchases.md)   
  [How to: Create and Post Purchase Allowances](../Finance/how-to-create-and-post-purchase-allowances.md)   
  [How to: Create Replacement Purchase Orders](../Purchasing/how-to-create-replacement-purchase-orders.md)   

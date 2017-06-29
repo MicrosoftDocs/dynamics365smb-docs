@@ -16,7 +16,7 @@
 
     ---
 # How to: Set Up Electronic Banking
-With electronic banking, you can make electronic payments to domestic, international, SEPA, and non-Euro SEPA vendors and customers.  
+With electronic banking, you can make electronic payments to domestic, international, SEPA, and non\-Euro SEPA vendors and customers.  
   
  Your company subscribes to an eBanking contract with the bank to maintain a certain bank account or several bank accounts. The company also subscribes to Isabel to send payment files to and receive bank statement files from the bank electronically. Therefore, the company receives smartcards linked to the eBanking contract. The smartcards are secured by PIN codes.  
   
@@ -28,7 +28,7 @@ With electronic banking, you can make electronic payments to domestic, internati
   
 -   Electronic banking setup.  
   
--   IBLC\/BLWI codes - For more information, see [How to: Set Up IBLC-BLWI Transaction Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-iblc-blwi-transaction-codes.md).  
+-   IBLC\/BLWI codes \- For more information, see [How to: Set Up IBLC\-BLWI Transaction Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-iblc-blwi-transaction-codes.md).  
   
 -   Preferred bank accounts \(optional\).  
   
@@ -43,7 +43,7 @@ With electronic banking, you can make electronic payments to domestic, internati
     |**Summarize Gen. Jnl. Lines**|Select to indicate if you want to group the payment journal lines for each vendor.|  
     |**Cut off Payment Message Texts**|Select to indicate if you want to truncate long payment messages. Messages will be truncated if greater than 106 characters for domestic payments and less than 140 characters for international payments.|  
     |**IBS Version**|Specify the version of Isabel that is currently used for electronic banking in your organization.|  
-    |**Notification E-mail address**|Specify the notification email address that you want to use for electronic banking balance and transaction messages. This is the default address that is used to contact the Isabel server.|  
+    |**Notification E\-mail address**|Specify the notification email address that you want to use for electronic banking balance and transaction messages. This is the default address that is used to contact the Isabel server.|  
     |**Language**|Specify the language that you want to use for electronic bank balance and transaction messages.|  
     |**IBS Service Version**|Specify the service version that is used to communicate with the Isabel server.|  
   
@@ -90,7 +90,7 @@ With electronic banking, you can make electronic payments to domestic, internati
  [Isabel website](http://go.microsoft.com/fwlink/?LinkId=210323)   
  [Belgian Electronic Banking](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/belgian-electronic-banking.md)   
  [Belgian Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/belgian-electronic-payments.md)   
- [How to: Set Up IBLC-BLWI Transaction Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-iblc-blwi-transaction-codes.md)   
+ [How to: Set Up IBLC\-BLWI Transaction Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-iblc-blwi-transaction-codes.md)   
  [How to: Set Up Vendors for Automatic Payment Suggestions](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-vendors-for-automatic-payment-suggestions.md)   
  [How to: Generate Payment Suggestions](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-generate-payment-suggestions.md)   
  [How to: Create Payment Journal Templates and Batches](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-create-payment-journal-templates-and-batches.md)   

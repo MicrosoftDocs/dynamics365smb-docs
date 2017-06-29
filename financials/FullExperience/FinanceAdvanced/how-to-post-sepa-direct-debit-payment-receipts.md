@@ -20,7 +20,7 @@ When a direct debit collection is successfully processed by your bank, you can p
   
  You can post the payment receipt directly from the **Direct Debit Collections** window or the **Direct Debit Collect. Entries** window. Alternatively, you can relay the work to another user by preparing the related journal lines.  
   
-### To post a direct-debit payment receipt from the Direct Debit Collections window  
+### To post a direct\-debit payment receipt from the Direct Debit Collections window  
   
 1.  In the **Search** box, enter **Direct Debit Collections**, and then choose the related link.  
   

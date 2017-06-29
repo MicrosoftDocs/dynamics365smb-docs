@@ -22,7 +22,7 @@ Demand is the common term used for any kind of gross demand, such as a sales ord
   
  To sort out the many sources of demand and supply, the planning system organizes them on two time lines called inventory profiles. One profile holds demand events, and the other holds the corresponding supply events. Each event represents one order network entity, such as a sales order line, an item ledger entry, or a production order line.  
   
- When inventory profiles are loaded, the different demand-supply sets are balanced to output a supply plan that fulfills the listed goals.  
+ When inventory profiles are loaded, the different demand\-supply sets are balanced to output a supply plan that fulfills the listed goals.  
   
  Planning parameters and inventory levels are other types of demand and supply respectively, which undergo integrated balancing to replenish stock items. For more information, see [Design Details: Handling Reordering Policies](../ApplicationDesign/design-details-handling-reordering-policies.md).  
   

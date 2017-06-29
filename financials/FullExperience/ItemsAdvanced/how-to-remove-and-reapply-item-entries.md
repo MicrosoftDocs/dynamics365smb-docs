@@ -64,7 +64,7 @@ You can view and manually change certain item application entries that are creat
     > [!NOTE]  
     >  If you have chosen to make an application that would create an infinite loop in the cost adjustment process, then the application that you proposed is not made. This can occur when the original entries created negative stock. The application is not made. Therefore, you must select a different entry for the application.  
   
-6.  If the **Automatic Cost Adjustment** field in the **Inventory Setup** is set to **Always**, then the cost adjustment batch job is automatically run after you make a reapplication. Otherwise, run the **Adjust Cost - Item Entries** batch job to make sure that all costs are up to date.  
+6.  If the **Automatic Cost Adjustment** field in the **Inventory Setup** is set to **Always**, then the cost adjustment batch job is automatically run after you make a reapplication. Otherwise, run the **Adjust Cost \- Item Entries** batch job to make sure that all costs are up to date.  
   
 ## See Also  
  Application Worksheet   
@@ -73,4 +73,4 @@ You can view and manually change certain item application entries that are creat
  Item Application Entry   
  Item Application Entry History   
  Automatic Cost Adjustment   
- Adjust Cost - Item Entries
+ Adjust Cost \- Item Entries

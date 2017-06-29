@@ -30,7 +30,7 @@ Use blanket orders when a customer has agreed to buy large quantities that are t
   
 2.  On the **Home** tab, in the **New** group, choose **New**. Create a new blanket sales order.  
   
-3.  In the **No.** field, you can press the Enter key to select the next available number. Fill in the **Sell-to Customer No.** field.  
+3.  In the **No.** field, you can press the Enter key to select the next available number. Fill in the **Sell\-to Customer No.** field.  
   
 4.  Leave the **Order Date** field blank. When the separate sales orders are created from the blanket order, the order date of the sales order is set to equal the actual work date.  
   

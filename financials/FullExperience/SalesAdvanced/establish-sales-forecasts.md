@@ -26,7 +26,7 @@ You can use the following features to plan for future sales:
   
  As input to decision makers in the finance department, you can use sales budgets to record how many or for how much of each item you expect to sell in future periods. Budget figures are always created per item, but they may be combined with different dimensions, such as location, customer, and project. Budgets can also be viewed in multiple ways by filtering on the used dimensions or budget values.  
   
- The **Production Forecast** window is used to organize both sales and production forecasts and is primarily used as input to decision makers in supply planning. The sales forecast is the sales department's best guess at what will be sold in the future, and is specified by item and by period. However, the sales forecast is not always adequate for production. In contrast, a production forecast is the projected level of customer demand for a make-to-order end item or component.  
+ The **Production Forecast** window is used to organize both sales and production forecasts and is primarily used as input to decision makers in supply planning. The sales forecast is the sales department's best guess at what will be sold in the future, and is specified by item and by period. However, the sales forecast is not always adequate for production. In contrast, a production forecast is the projected level of customer demand for a make\-to\-order end item or component.  
   
  You can also use a blanket sales order to forecast indirect sales demand.  
   

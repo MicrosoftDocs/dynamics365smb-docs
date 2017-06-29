@@ -24,7 +24,7 @@ Orders are usually deleted automatically after having been fully invoiced. When 
   
 1.  In the **Search** box, enter **Delete Invoiced Service Orders**, and then choose the related link. The **Delete Invoiced Service Orders** batch job request window opens.  
   
-2.  To select the orders to be deleted, you can set filters in the **No.**, **Customer No.**, and **Bill-to Customer No.** fields.  
+2.  To select the orders to be deleted, you can set filters in the **No.**, **Customer No.**, and **Bill\-to Customer No.** fields.  
   
 3.  Choose the **OK** button.  
   

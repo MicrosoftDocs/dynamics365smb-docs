@@ -51,7 +51,7 @@ The core of the planning system involves balancing demand and supply by means of
  The procedure starts all over with the next demand and the current supply or vice versa. The current supply might be able to cover this next demand as well, or the current demand has not yet been fully covered.  
   
 ## Rules Concerning Actions for Supply Events  
- When the planning system performs a top-down calculation in which supply must fulfill demand, the demand is taken as a given, that is, it lies outside the control of the planning system. However, the supply side can be managed. Therefore, the planning system will suggest creating new supply orders, rescheduling existing ones, and\/or changing the order quantity. If an existing supply order becoming superfluous, the planning system will suggest that the user cancels it.  
+ When the planning system performs a top\-down calculation in which supply must fulfill demand, the demand is taken as a given, that is, it lies outside the control of the planning system. However, the supply side can be managed. Therefore, the planning system will suggest creating new supply orders, rescheduling existing ones, and\/or changing the order quantity. If an existing supply order becoming superfluous, the planning system will suggest that the user cancels it.  
   
  If the user wants to exclude an existing supply order from the planning suggestions, he can state that it has no planning flexibility \(Planning Flexibility \= None\). Then, excess supply from that order will be used to cover demand, but no action will be suggested.  
   
@@ -61,7 +61,7 @@ The core of the planning system involves balancing demand and supply by means of
   
     -   It represents inventory \(always on day zero\).  
   
-    -   It has an order-to-order linked to another demand.  
+    -   It has an order\-to\-order linked to another demand.  
   
     -   It lies outside the reschedule window defined by the time bucket.  
   
@@ -80,9 +80,9 @@ The core of the planning system involves balancing demand and supply by means of
     -   It lies outside the reschedule window defined by the time bucket.  
   
 > [!NOTE]  
->  When planning an item using a reorder point, the supply order can always be scheduled in if necessary. This is common in forward-scheduled supply orders triggered by a reorder point.  
+>  When planning an item using a reorder point, the supply order can always be scheduled in if necessary. This is common in forward\-scheduled supply orders triggered by a reorder point.  
   
--   **Increase Quantity**: The quantity of an existing supply order can be increased to meet the demand unless the supply order is linked directly to a demand by an order-to-order link.  
+-   **Increase Quantity**: The quantity of an existing supply order can be increased to meet the demand unless the supply order is linked directly to a demand by an order\-to\-order link.  
   
 > [!NOTE]  
 >  Even though it is possible to increase the supply order, it may be limited due to a defined maximum order quantity.  

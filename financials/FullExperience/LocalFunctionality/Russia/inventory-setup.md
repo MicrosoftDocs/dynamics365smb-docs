@@ -41,7 +41,7 @@ As part of inventory management, you can set up inventory to:
  For more information, see [How to: Post Red Storno Corrections](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-post-red-storno-corrections.md).  
   
 ### Adjusting Item Cost  
- If you select the Enable Red Storno field in the **Inventory Setup** window, then negative deviations are posted according to red storno when you run the Adjust Cost - Item Entries batch job.  
+ If you select the Enable Red Storno field in the **Inventory Setup** window, then negative deviations are posted according to red storno when you run the Adjust Cost \- Item Entries batch job.  
   
 ## See Also  
  [Item Documents](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/item-documents.md)   

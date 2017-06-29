@@ -24,7 +24,7 @@ When a fiscal year is complete, you must fiscally close the periods that it comp
   
 -   All journal lines that are not posted and all simulation entries for the year are either posted or deleted before the year is fiscally closed.  
   
--   All closing entries are up-to-date.  
+-   All closing entries are up\-to\-date.  
   
 ### To fiscally close years  
   
@@ -41,5 +41,5 @@ When a fiscal year is complete, you must fiscally close the periods that it comp
 ## See Also  
  [How to: Close Years](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-close-years.md)   
  [Year End Processes Overview](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/year-end-processes-overview.md)   
- [How to: Post the Year-End Closing Entry](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-post-the-year-end-closing-entry.md)   
- [How to: Open a New Fiscal Year-duplicate](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-open-a-new-fiscal-year-duplicate.md)
+ [How to: Post the Year\-End Closing Entry](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-post-the-year-end-closing-entry.md)   
+ [How to: Open a New Fiscal Year\-duplicate](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-open-a-new-fiscal-year-duplicate.md)

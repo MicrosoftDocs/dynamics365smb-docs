@@ -38,7 +38,7 @@ The following fields have been added to the VAT Posting Setup form \(ID 472\):
   
  The following procedure shows how the accounting entries are created.  
   
-1.  Enter Subaccount 90-3, Gain VAT, in the **Trans. VAT Account No.** field.  
+1.  Enter Subaccount 90\-3, Gain VAT, in the **Trans. VAT Account No.** field.  
   
 2.  Enter Subaccount 68, VAT to Federal Budget, in the **Sales VAT Account** field.  
   
@@ -46,12 +46,12 @@ The following fields have been added to the VAT Posting Setup form \(ID 472\):
   
 |Accounting Entries|Settings|  
 |------------------------|--------------|  
-|**Amount \+ Tax**|Debit 62 Payables and Receivables - Credit 90-1 Gain and Sales Amount Including VAT<br /><br /> Debit 90-3 Gain VAT<br /><br /> Credit 68 VAT to Federal Budget<br /><br /> Sales VAT Amount|  
-|**Amount & Tax**|Debit 62 Payables and Receivables<br /><br /> Credit 90-1 Gain<br /><br /> Amount Excluding VAT<br /><br /> Debit 62 Payables and Receivables<br /><br /> Credit 90-3 Gain VAT<br /><br /> Sales VAT Amount<br /><br /> Debit 90-3 Gain VAT<br /><br /> Credit 68 VAT to Budget<br /><br /> Sales VAT amount|  
-|**\<Blank\>**|Debit 62 Payables and Receivables<br /><br /> Credit 90-1 Gain<br /><br /> Amount Excluding VAT<br /><br /> Debit 62 Payables and Receivables<br /><br /> Credit 68 VAT to Budget<br /><br /> Sales VAT Amount|  
+|**Amount \+ Tax**|Debit 62 Payables and Receivables \- Credit 90\-1 Gain and Sales Amount Including VAT<br /><br /> Debit 90\-3 Gain VAT<br /><br /> Credit 68 VAT to Federal Budget<br /><br /> Sales VAT Amount|  
+|**Amount & Tax**|Debit 62 Payables and Receivables<br /><br /> Credit 90\-1 Gain<br /><br /> Amount Excluding VAT<br /><br /> Debit 62 Payables and Receivables<br /><br /> Credit 90\-3 Gain VAT<br /><br /> Sales VAT Amount<br /><br /> Debit 90\-3 Gain VAT<br /><br /> Credit 68 VAT to Budget<br /><br /> Sales VAT amount|  
+|**\<Blank\>**|Debit 62 Payables and Receivables<br /><br /> Credit 90\-1 Gain<br /><br /> Amount Excluding VAT<br /><br /> Debit 62 Payables and Receivables<br /><br /> Credit 68 VAT to Budget<br /><br /> Sales VAT Amount|  
   
 ## Trans. VAT Account Field  
- In the **Trans. VAT Account** field, enter Subaccount 90-3 Gain VAT or Subaccount 62 Prepayment VAT. If this field is blank, the postings use the account from the Customer posting groups from the **Receivables Account** field.  
+ In the **Trans. VAT Account** field, enter Subaccount 90\-3 Gain VAT or Subaccount 62 Prepayment VAT. If this field is blank, the postings use the account from the Customer posting groups from the **Receivables Account** field.  
   
 ## See Also  
  [VAT Ledgers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/vat-ledgers.md)

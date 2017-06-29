@@ -26,7 +26,7 @@ You can create sales and production forecasts with the **Production Forecast** w
   
 3.  In the **Location Filter** field, select the location to which this forecast will apply.  
   
-4.  In the **Forecast Type** field, select **Sales Item**,  **Component**, or **Both**. If you select **Sales Item** or **Component**, then you can edit the quantity by period. If you select **Both**, then you cannot edit the quantity, but you can choose the drop-down arrow button and view the production forecast entries.  
+4.  In the **Forecast Type** field, select **Sales Item**,  **Component**, or **Both**. If you select **Sales Item** or **Component**, then you can edit the quantity by period. If you select **Both**, then you cannot edit the quantity, but you can choose the drop\-down arrow button and view the production forecast entries.  
   
 5.  Specify a **Date Filter** if you want to limit the amount of data displayed.  
   
@@ -43,5 +43,5 @@ You can create sales and production forecasts with the **Production Forecast** w
 >  You can also edit an existing forecast. In the **Production Forecast Matrix** window, On the **Actions** tab, choose **Copy Production Forecast** and populate the **Production Forecast** window with an existing forecast. You can then edit quantities as appropriate.  
   
 ## See Also  
- [Production Forecast-duplicate](../Topic/\($%20N_99000919%20Production%20Forecast%20$\)-duplicate.md)   
+ [Production Forecast\-duplicate](../Topic/\($%20N_99000919%20Production%20Forecast%20$\)-duplicate.md)   
  [About Forecasting Functionality](../Sales/about-forecasting-functionality.md)

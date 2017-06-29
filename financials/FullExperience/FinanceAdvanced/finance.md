@@ -35,5 +35,5 @@ Product Name enables you to manage all common finance processes and information,
 |Use intercompany documents and journals to minimize data entry when you post transactions between intercompany partners.|[Manage Intercompany Transactions](../Finance/manage-intercompany-transactions.md)|  
 |Manage inventory and manufacturing costs, report costs, and reconcile costs with the general ledger.|[Manage Inventory Costs](../Finance/manage-inventory-costs.md)|  
 |Acquire, maintain, insure, split, combine, revalue, depreciate, or dispose of fixed assets.|[Manage Fixed Assets](../Finance/manage-fixed-assets.md)|  
-|Close an accounting period, register prior-year entries, and transfer balances from the income statement account to the balance sheet.|[Close Years and Periods](../Finance/close-years-and-periods.md)|  
+|Close an accounting period, register prior\-year entries, and transfer balances from the income statement account to the balance sheet.|[Close Years and Periods](../Finance/close-years-and-periods.md)|  
 |Fill in and post general journals and recurring journals.|[Work with General Journals](../Finance/work-with-general-journals.md)|

@@ -49,5 +49,5 @@ FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md
  Create Item Journal Lines   
  Create Customer Journal Lines   
  Create Vendor Journal Lines   
- Create G-L Acc. Journal Lines   
+ Create G\-L Acc. Journal Lines   
  [Tips and Tricks: RapidStart Services](../SetupAndAdministration/tips-and-tricks-rapidstart-services.md)

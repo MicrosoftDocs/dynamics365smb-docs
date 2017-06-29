@@ -24,7 +24,7 @@ You can choose up to eight dimensions whose values that you can enter directly o
   
 2.  In the **General Ledger Setup** window, on the **Dimensions** FastTab, in the **Shortcut Dimension 3 Code** field, enter the code for a dimension.  
   
-3.  Repeat the procedure for **Shortcut Dimension 4-8 Code** fields.  
+3.  Repeat the procedure for **Shortcut Dimension 4\-8 Code** fields.  
   
 > [!NOTE]  
 >  The **Shortcut Dimension 1 Code** and **Shortcut Dimension 2 Code** are the same as the **Global Dimension 1 Code** and **Global Dimension 2 Code**. These fields are already filled in.  

@@ -20,7 +20,7 @@ The purpose of the time bucket is to collect demand events within the time windo
   
  For reordering policies that use a reorder point, you can define a time bucket. This ensures that demand within the same time period is accumulated before checking the impact on the projected inventory and whether the reorder point has been passed. If the reorder point is passed, a new supply order is scheduled forward from the end of the period defined by the time bucket. The time buckets begin on the planning starting date.  
   
- The time-bucketed concept reflects the manual process of checking the inventory level on a frequent basis rather than for each transaction. The user needs to define the frequency \(the time bucket\). For example, the user gathers all item needs from one vendor to place a weekly order.  
+ The time\-bucketed concept reflects the manual process of checking the inventory level on a frequent basis rather than for each transaction. The user needs to define the frequency \(the time bucket\). For example, the user gathers all item needs from one vendor to place a weekly order.  
   
  ![](../ApplicationDesign/media/nav_app_supply_planning_2_reorder_cycle.png "NAV\_APP\_supply\_planning\_2\_reorder\_cycle")  
   

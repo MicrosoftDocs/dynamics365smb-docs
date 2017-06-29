@@ -16,15 +16,15 @@
 
     ---
 # How to: Sell Items Assembled to Order
-If the **Assembly Policy** field on the item card of an assembly item is **Assemble-to-Order**, then the item is not expected to be in inventory, and it must be assembled specifically to a sales order. When you enter the item on a sales order line, then an assembly order is automatically created and linked to the sales order.  
+If the **Assembly Policy** field on the item card of an assembly item is **Assemble\-to\-Order**, then the item is not expected to be in inventory, and it must be assembled specifically to a sales order. When you enter the item on a sales order line, then an assembly order is automatically created and linked to the sales order.  
   
 > [!NOTE]  
->  If some assemble-to-order items are already in inventory, then you can deduct that quantity from the assembly order and reserve it from inventory. For more information, see [How to: Sell Inventory Items in Assemble-to-Order Flows](../Sales/how-to-sell-inventory-items-in-assemble-to-order-flows.md). Similarly, when you are selling assembly items from inventory and all items are not available, you can initiate an assembly order to automatically supply a part or all of the sales order quantity. For more information, see [How to: Sell Assemble-to-Order Items and Inventory Items Together](../Sales/how-to-sell-assemble-to-order-items-and-inventory-items-together.md).  
+>  If some assemble\-to\-order items are already in inventory, then you can deduct that quantity from the assembly order and reserve it from inventory. For more information, see [How to: Sell Inventory Items in Assemble\-to\-Order Flows](../Sales/how-to-sell-inventory-items-in-assemble-to-order-flows.md). Similarly, when you are selling assembly items from inventory and all items are not available, you can initiate an assembly order to automatically supply a part or all of the sales order quantity. For more information, see [How to: Sell Assemble\-to\-Order Items and Inventory Items Together](../Sales/how-to-sell-assemble-to-order-items-and-inventory-items-together.md).  
   
  In this procedure, you process the sale of an item that will be assembled according to specifications that are requested by the customer. The steps include initiating the sales order line, customizing the assembly item by editing its components and resources, checking availability to establish a delivery date, and releasing the sales order to be assembled and immediately shipped.  
   
 > [!NOTE]  
->  The following procedure does not include the standard sales order steps before the step where you enter the assemble-to-order item on a sales order line.  
+>  The following procedure does not include the standard sales order steps before the step where you enter the assemble\-to\-order item on a sales order line.  
   
 ### To sell an item that is assembled to order  
   
@@ -43,22 +43,22 @@ If the **Assembly Policy** field on the item card of an assembly item is **Assem
   
      An assembly order is now automatically created and linked to the sales order line. The due date of this assembly order is synchronized with the shipment date of the sales order line.  
   
-     The quantity to sell is copied to the **Qty. to Assemble to Order** field, which indicates that the item setup expects the full quantity on the sales line to be assembled to the order. You can decrease the quantity to assemble to order, such as if you know that some items are already available. For more information, see [How to: Sell Inventory Items in Assemble-to-Order Flows](../Sales/how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
+     The quantity to sell is copied to the **Qty. to Assemble to Order** field, which indicates that the item setup expects the full quantity on the sales line to be assembled to the order. You can decrease the quantity to assemble to order, such as if you know that some items are already available. For more information, see [How to: Sell Inventory Items in Assemble\-to\-Order Flows](../Sales/how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
   
-6.  To reflect that the customer wants an additional item in a kit, on the **Lines** FastTab, choose **Line**, choose **Assemble to Order**, and then choose **Assemble-to-Order Lines** to view and change the standard assembly components. Alternatively, choose the **Qty. to Assemble to Order** field.  
+6.  To reflect that the customer wants an additional item in a kit, on the **Lines** FastTab, choose **Line**, choose **Assemble to Order**, and then choose **Assemble\-to\-Order Lines** to view and change the standard assembly components. Alternatively, choose the **Qty. to Assemble to Order** field.  
   
-7.  In the **Assemble-to-Order Lines** window, create a new line of type **Item** for the requested additional kit content. The line represents an additional assembly component.  
+7.  In the **Assemble\-to\-Order Lines** window, create a new line of type **Item** for the requested additional kit content. The line represents an additional assembly component.  
   
      You could also customize the order by increasing the quantity of one standard item in the kit. You can do this by increasing the value in the **Quantity Per** field on the specific assembly order line.  
   
     > [!NOTE]  
-    >  The **Assemble-to-Order Lines** window only contains the basic fields that a salesperson is expected to use to customize the component list, add item tracking numbers, or to solve component availability issues. To see more assembly order information, such as the assembly order starting date, on the **Home** tab, in the **Process** group, choose **Show Documents**. This opens a full view of the assembly order that is linked to the sales order line. You cannot change the contents of most fields on the assembly order header, and you cannot post assembly output from it because you must use shipment posting of the sales order line.  
+    >  The **Assemble\-to\-Order Lines** window only contains the basic fields that a salesperson is expected to use to customize the component list, add item tracking numbers, or to solve component availability issues. To see more assembly order information, such as the assembly order starting date, on the **Home** tab, in the **Process** group, choose **Show Documents**. This opens a full view of the assembly order that is linked to the sales order line. You cannot change the contents of most fields on the assembly order header, and you cannot post assembly output from it because you must use shipment posting of the sales order line.  
     >   
     >  On the header of linked assembly orders, only the **Starting Date** field can be changed to enable assembly workers to specify a date that is earlier than the due date when they will start the process. All fields on the lines of the linked assembly order can be changed so that warehouse workers can enter consumption figures during the process.  
   
 8.  Review or react to component availability issues. For example, select an available substitute item or establish a later due date.  
   
-9. Close the **Assemble-to-Order Lines** window. The linked assembly order is now ready to start to assemble the customized items by the due date.  
+9. Close the **Assemble\-to\-Order Lines** window. The linked assembly order is now ready to start to assemble the customized items by the due date.  
   
 10. On the sales order, on the **Actions** tab, in the **Release** group, choose **Release** to notify the assembly department that the assembly process can start.  
   
@@ -67,14 +67,14 @@ If the **Assembly Policy** field on the item card of an assembly item is **Assem
 ## See Also  
  Assembly Order   
  Assembly Policy   
- From-Assembly Bin Code   
+ From\-Assembly Bin Code   
  Qty. to Assemble to Order   
- Assemble-to-Order Lines   
+ Assemble\-to\-Order Lines   
  Starting Date   
  Substitution Available   
  Quantity per   
- [How to: Sell Inventory Items in Assemble-to-Order Flows](../Sales/how-to-sell-inventory-items-in-assemble-to-order-flows.md)   
- [How to: Sell Assemble-to-Order Items and Inventory Items Together](../Sales/how-to-sell-assemble-to-order-items-and-inventory-items-together.md)   
+ [How to: Sell Inventory Items in Assemble\-to\-Order Flows](../Sales/how-to-sell-inventory-items-in-assemble-to-order-flows.md)   
+ [How to: Sell Assemble\-to\-Order Items and Inventory Items Together](../Sales/how-to-sell-assemble-to-order-items-and-inventory-items-together.md)   
  [How to: Assemble Items](../WarehouseActivities/how-to-assemble-items.md)   
  [Assemble to Order or Assemble to Stock](../DesignAndEngineering/assemble-to-order-or-assemble-to-stock.md)   
- Assemble-to-Order Link
+ Assemble\-to\-Order Link

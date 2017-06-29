@@ -22,11 +22,11 @@ Although you count all items in inventory at least once a year, you may have dec
   
  You can perform the cycle counting in either of the following ways depending on your warehouse setup:  
   
--   If your location is not using directed put-away and pick, you use the **Phys. Inventory Journal** window in the **Inventory** menu, and the procedure is much the same as when you conduct a physical inventory without cycle counting.  
+-   If your location is not using directed put\-away and pick, you use the **Phys. Inventory Journal** window in the **Inventory** menu, and the procedure is much the same as when you conduct a physical inventory without cycle counting.  
   
--   If your location is using directed put-away and pick, you first use the **Whse. Phys. Invt. Journal** window, and then you use the **Item Journal** window to run the **Calculate Whse. Adjustment** function.  
+-   If your location is using directed put\-away and pick, you first use the **Whse. Phys. Invt. Journal** window, and then you use the **Item Journal** window to run the **Calculate Whse. Adjustment** function.  
   
-### To perform cycle counting without directed put-away and pick  
+### To perform cycle counting without directed put\-away and pick  
   
 1.  In the **Search** box, enter **Phys. Inventory Journal**, and choose the related link.  
   
@@ -47,7 +47,7 @@ Although you count all items in inventory at least once a year, you may have dec
   
 8.  Post the results of the physical inventory. The program creates item ledger entries for the items where adjustment is necessary and physical inventory ledger entries for all the items for which you have performed the cycle count. If you are using bins, the program also creates warehouse entries for the items for which an adjustment is necessary.  
   
-### To perform cycle counting with directed put-away and pick  
+### To perform cycle counting with directed put\-away and pick  
   
 1.  In the **Search** box, enter **Whse. Phys. Invt. Journal**, and choose the related link.  
   
@@ -70,7 +70,7 @@ Although you count all items in inventory at least once a year, you may have dec
   
  When you have counted the item or stockkeeping unit in all the bins that contain it, you are ready to post the results in the item ledger and the physical inventory ledger.  
   
-### To post the results with directed put-away and pick  
+### To post the results with directed put\-away and pick  
   
 1.  In the **Search** box, enter **Item Journal**, and choose the related link.  
   

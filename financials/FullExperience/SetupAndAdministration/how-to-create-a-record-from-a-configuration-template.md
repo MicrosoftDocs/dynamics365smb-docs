@@ -16,7 +16,7 @@
 
     ---
 # How to: Create a Record from a  Configuration Template
-You can use the structure of data that is contained in the data templates to convert your information into records in the database, one-by-one. To do so, you use the **Create Instance** function. This is a miniature version of the data migration process and can be useful for prototyping or treating smaller data creation tasks.  
+You can use the structure of data that is contained in the data templates to convert your information into records in the database, one\-by\-one. To do so, you use the **Create Instance** function. This is a miniature version of the data migration process and can be useful for prototyping or treating smaller data creation tasks.  
   
  The following steps illustrate how to create an item card from an item data template. You can create a record from any data template using the same procedure.  
   

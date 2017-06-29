@@ -39,7 +39,7 @@ The assessed tax feature enables you to calculate the assessed tax for fixed ass
     |---------------------------------|---------------------------------------|  
     |**Code**|Specifies a code for an assessed tax allowance.|  
     |**Description**|Specifies a description for the assessed tax code.|  
-    |**Region Code**|Specifies a two-character region code that is used together with the Tax Authority No. field to determine the OKATO code.|  
+    |**Region Code**|Specifies a two\-character region code that is used together with the Tax Authority No. field to determine the OKATO code.|  
     |**\($ T\_14921\_5 Rate % $\)**|Specifies the tax rate for the assessed tax. If there are any tax allowances that reduce the tax rate, they must be included in the rate percentage.|  
     |**Dec. Rate Tax Allowance Code**|Specifies a code for the assessed tax allowance code that reduces the calculated assessed tax amount according to the tax allowances directory. This code is defined in the **Assessed Tax Allowance** table.|  
     |**Dec. Amount Tax Allowance Code**|Specifies the amount of an assessed tax allowance.|  

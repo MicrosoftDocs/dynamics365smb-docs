@@ -23,7 +23,7 @@ The following topics describe the local functionality in the Finnish version of 
   [Electronic Banking in Finland](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Finland/electronic-banking-in-finland.md)  
   [Posting Depreciation Differences](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Finland/posting-depreciation-differences.md)  
   [SEPA Credit Transfer Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Finland/sepa-credit-transfer-payments.md)  
-  [VAT-VIES Declaration in Finland](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Finland/vat-vies-declaration-in-finland.md)  
+  [VAT\-VIES Declaration in Finland](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Finland/vat-vies-declaration-in-finland.md)  
   
 ## See Also  
- [Getting Started-duplicate](../../GettingStarted/getting-started-duplicate.md)
+ [Getting Started\-duplicate](../../GettingStarted/getting-started-duplicate.md)

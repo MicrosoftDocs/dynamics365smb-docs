@@ -40,7 +40,7 @@ When you have complex information, you may want to view a visual representation 
   
 1.  On the list page, select **Show as Chart**.  
   
-2.  Select a measure and a dimension to create a custom chart. To see additional information, select a secondary dimension. For example, to create a simple bar chart, select a dimension on the x-axis, and then select the **Dimension Count** dimension on the y-axis.  
+2.  Select a measure and a dimension to create a custom chart. To see additional information, select a secondary dimension. For example, to create a simple bar chart, select a dimension on the x\-axis, and then select the **Dimension Count** dimension on the y\-axis.  
   
 > [!NOTE]  
 >  By default, the chart pane is hidden because it can slow down performance. You should only show the chart when you must have the information.  

@@ -32,7 +32,7 @@ You can combine return receipts if your customer returns several items that are 
   
 3.  Fill in the **No.** field.  
   
-4.  In the **Sell-to Customer No.** field, select the customer who will receive the credit memo for the returned items.  
+4.  In the **Sell\-to Customer No.** field, select the customer who will receive the credit memo for the returned items.  
   
 5.  Choose **Actions**![Action Menu icon](../DesignAndEngineering/media/actionmenuicon.png "actionMenuIcon"), choose **Functions**, and then choose **Get Return Receipt Lines**.  
   
@@ -42,7 +42,7 @@ You can combine return receipts if your customer returns several items that are 
   
     -   To insert specific lines, select the lines and choose the **OK** button. You can use the Ctrl key to select multiple nonsequential lines.  
   
-7.  If an incorrect shipment line was selected or you want to start over, you can simply delete the lines on the credit memo and re-run the **Get Return Receipt Lines** function.  
+7.  If an incorrect shipment line was selected or you want to start over, you can simply delete the lines on the credit memo and re\-run the **Get Return Receipt Lines** function.  
   
 8.  Post the invoice.  
   

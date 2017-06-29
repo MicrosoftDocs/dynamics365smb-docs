@@ -16,7 +16,7 @@
 
     ---
 # Schedule Production Activities
-Before starting actual production activities, it is often necessary to fine schedule the rough-cut production schedule that resulted from [Operations Planning](../OperationsPlanning/operations-planning.md). The main part of this work is to fit planned operations into the larger matrix of planned and started operations on multiple production resources along a time line. As a part of constantly maintaining a balanced production schedule, the work may also involve finding ways to better utilize resources to adjust for unforeseen changes in capacity.  
+Before starting actual production activities, it is often necessary to fine schedule the rough\-cut production schedule that resulted from [Operations Planning](../OperationsPlanning/operations-planning.md). The main part of this work is to fit planned operations into the larger matrix of planned and started operations on multiple production resources along a time line. As a part of constantly maintaining a balanced production schedule, the work may also involve finding ways to better utilize resources to adjust for unforeseen changes in capacity.  
   
  The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
   
@@ -27,9 +27,9 @@ Before starting actual production activities, it is often necessary to fine sche
 |Learn how to use the **Work Center Load** window to fine schedule production activities \(works similarly for machine centers\).|Work Center Load|  
 |View the load on a work center over time \(works similarly for machine centers\).|[How to: Display the Load on Work Centers](../Production/how-to-display-the-load-on-work-centers.md)|  
 |View a report of loads on machine and work centers.|Work Center Load|  
-|View a list of work centers that are overloaded, shown by efficiency bars \(works similarly for machine centers\).|Work Center Load - Bar|  
+|View a list of work centers that are overloaded, shown by efficiency bars \(works similarly for machine centers\).|Work Center Load \- Bar|  
 |Suspend the strict capacity need calculation to allow one or more operations to extend into unavailable shop calendar time.|Schedule Manually|  
-|Get an overview of operations that are currently outsourced and do not require internal scheduling.|Subcontractor - Dispatch List|  
+|Get an overview of operations that are currently outsourced and do not require internal scheduling.|Subcontractor \- Dispatch List|  
   
 ## See Also  
  [Plan for Resource Availability](../OperationsPlanning/plan-for-resource-availability.md)   

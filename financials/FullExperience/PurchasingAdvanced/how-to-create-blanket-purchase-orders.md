@@ -26,7 +26,7 @@ You can use blanket orders when you have committed to buying large quantities of
   
 3.  In the **No.** field, press Enter to assign the default number series.  
   
-4.  In the **Buy-from Vendor No.** field, select the vendor.  
+4.  In the **Buy\-from Vendor No.** field, select the vendor.  
   
 5.  Leave the **Order Date** field blank. When the separate purchase orders are created from the blanket order, the order date of the purchase order will be set to equal to the actual work date.  
   

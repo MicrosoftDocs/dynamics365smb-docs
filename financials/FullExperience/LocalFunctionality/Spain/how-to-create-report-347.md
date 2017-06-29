@@ -18,7 +18,7 @@
 # How to: Create Report 347
 All companies must provide an annual declaration, **Report 347**, to the tax authorities providing the sales and purchase transactions from the previous fiscal period.  
   
- The Report 347 declaration is generated in a format that is approved by the tax authorities for upload to their Virtual Office website or submission on CD-ROM.  
+ The Report 347 declaration is generated in a format that is approved by the tax authorities for upload to their Virtual Office website or submission on CD\-ROM.  
   
  Before you create the Report 347 declaration, you can run a report to identify payments in cash that have not been applied to a document.  
   

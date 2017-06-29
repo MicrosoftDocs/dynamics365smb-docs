@@ -30,24 +30,24 @@ You usually receive purchase credit memos when you return items to a vendor, but
   
 2.  In the **Purchase Credit Memos** window, on the **Home** tab, in the **New** group, choose **New**.  
   
-3.  On the **Purchase Credit Memo Card**, fill in the **No.** field. In the **Buy-from Vendor No.** field, enter the number of the vendor to whom you returned the items.  
+3.  On the **Purchase Credit Memo Card**, fill in the **No.** field. In the **Buy\-from Vendor No.** field, enter the number of the vendor to whom you returned the items.  
   
-4.  If you want to post the credit memo to a different vendor than the one specified on the **General** FastTab, enter the number of that vendor in the **Pay-to Vendor No.** field on the **Invoicing** FastTab.  
+4.  If you want to post the credit memo to a different vendor than the one specified on the **General** FastTab, enter the number of that vendor in the **Pay\-to Vendor No.** field on the **Invoicing** FastTab.  
   
 5.  In the **Posting Date** field, enter the posting date.  
   
 6.  In the **Vendor Cr. Memo No.** field, enter the number that the vendor uses for the credit memo you are creating.  
   
-7.  If the purchase credit memo will be applied to an invoice that has already been posted, fill in the **Applies-to Doc. Type** field and the **Applies-to Doc. No.** field on the **Application** FastTab.  
+7.  If the purchase credit memo will be applied to an invoice that has already been posted, fill in the **Applies\-to Doc. Type** field and the **Applies\-to Doc. No.** field on the **Application** FastTab.  
   
 8.  On the credit memo lines, enter information about the items that you have returned. You can either fill in the lines manually, or, if you want to copy information from other documents, you have two options for filling in the lines automatically:  
   
     -   You can use the **Copy Document** batch job to copy an existing document to the credit memo. Use this function to copy the entire document. It can be either a posted document or a document that is not yet posted. This function only reverses costs exactly when exact cost reversing is set up as mandatory in the purchases and payables setup.  
   
     -   You can use the **Get Posted Document Lines to Reverse** function to copy one or more posted document lines from one or more posted documents to the new credit memo document. This function’s purpose is to allow you to exactly reverse the costs from the posted document line. This function always exactly reverses the costs from the posted document line, regardless of whether exact cost reversing is set up as required in the purchases and payables setup.   
-        When you use either of these functions, and, in the case of the **Copy Document** batch job, when you have also set up exact cost reversing as mandatory in the purchases and payables setup, the original item ledger entries in the **Appl.-to Item Entry** field are linked to ensure that the costs are copied from the original posted document.  
+        When you use either of these functions, and, in the case of the **Copy Document** batch job, when you have also set up exact cost reversing as mandatory in the purchases and payables setup, the original item ledger entries in the **Appl.\-to Item Entry** field are linked to ensure that the costs are copied from the original posted document.  
   
-         If the line has item tracking, [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] cannot provide exact cost reversing, because the reservation is not available from the purchase credit memo document. You can use the purchase return order for exact cost reversing of an item-tracked line.  
+         If the line has item tracking, [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] cannot provide exact cost reversing, because the reservation is not available from the purchase credit memo document. You can use the purchase return order for exact cost reversing of an item\-tracked line.  
   
 9. If the credit memo will be applied to a specific posted invoice, you can open that invoice in the **Posted Purchase Invoices** window.  
   

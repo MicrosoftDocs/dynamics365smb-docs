@@ -18,7 +18,7 @@
 # How to: Select Invoicing Addresses for Single Transactions
 When you purchase goods, you usually receive the invoice from the person or company that you ordered the goods from. Sometimes, you may receive the invoice from a different vendor.  
   
- If you do not know beforehand that a certain invoicing address will be used for every invoice from a vendor, do not fill in the **Pay-to Customer No.** field on the vendor card. Instead, enter the pay-to vendor number after you have set up a purchase quote, order, or invoice header.  
+ If you do not know beforehand that a certain invoicing address will be used for every invoice from a vendor, do not fill in the **Pay\-to Customer No.** field on the vendor card. Instead, enter the pay\-to vendor number after you have set up a purchase quote, order, or invoice header.  
   
  The following procedure uses a purchase quote as an example, but it also applies to purchase orders and purchase invoices.  
   
@@ -28,9 +28,9 @@ When you purchase goods, you usually receive the invoice from the person or comp
   
 2.  Create a new purchase quote and give it a number.  
   
-3.  In the **Buy-from Vendor No.** field, enter the number of the vendor that you are going to buy something from.  
+3.  In the **Buy\-from Vendor No.** field, enter the number of the vendor that you are going to buy something from.  
   
-4.  On the **Invoicing** FastTab, in the **Pay-to Vendor No.** field, enter the number of the vendor you must pay.  
+4.  On the **Invoicing** FastTab, in the **Pay\-to Vendor No.** field, enter the number of the vendor you must pay.  
   
 ## See Also  
  [Vendor Addresses](../Purchasing/vendor-addresses.md)   

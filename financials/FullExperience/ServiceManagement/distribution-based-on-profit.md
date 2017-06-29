@@ -24,11 +24,11 @@ If you change the annual amount of the service contract or contract quote, you m
   
 3.  The contents in the Line Discount Amount, Line Discount %, and Profit fields are updated with regard to the new value in the **Line Amount** field in the following way:  
   
-    -   Line Discount Amount \= Line Value - Line Amount  
+    -   Line Discount Amount \= Line Value \- Line Amount  
   
     -   Line Discount % \= Line Discount Amount \/ Line Value \* 100  
   
-    -   Profit \= Line Amount - Line Cost  
+    -   Profit \= Line Amount \- Line Cost  
   
  The steps are repeated for each contract line.  
   

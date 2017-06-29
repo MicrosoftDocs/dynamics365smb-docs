@@ -16,7 +16,7 @@
 
     ---
 # How to: Find Where Production BOM Components Are Used
-The where-used option displays where a component is used.  
+The where\-used option displays where a component is used.  
   
 ### To find where production BOM components are used  
   
@@ -24,7 +24,7 @@ The where-used option displays where a component is used.
   
 2.  Open the relevant production BOM from the list.  
   
-3.  Select an item line and on the **Lines** FastTab, choose **Actions**, choose **Components**, and then choose **Where-Used**.  
+3.  Select an item line and on the **Lines** FastTab, choose **Actions**, choose **Components**, and then choose **Where\-Used**.  
   
 4.  Close the window.  
   

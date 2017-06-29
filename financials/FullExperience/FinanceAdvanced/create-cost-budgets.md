@@ -24,11 +24,11 @@ Budgeting in cost accounting resembles budgeting in the general ledger. A cost b
   
 |To|See|  
 |--------|---------|  
-|Transfer budgets from the general ledger.|Copy G-L Budget to Cost Acctg.|  
+|Transfer budgets from the general ledger.|Copy G\-L Budget to Cost Acctg.|  
 |Copy cost budgets.|Copy Cost Budget|  
 |Allocate budgets.|Cost Allocation|  
 |See cost budget registers and cost budget entries.|Cost Budget Registers|  
-|Print cost budget comparisons using various reports.|Cost Acctg. Balance-Budget<br /><br /> Cost Acctg. Statement-Budget<br /><br /> Cost Budget by Cost Center<br /><br /> Cost Budget by Cost Object|  
+|Print cost budget comparisons using various reports.|Cost Acctg. Balance\-Budget<br /><br /> Cost Acctg. Statement\-Budget<br /><br /> Cost Budget by Cost Center<br /><br /> Cost Budget by Cost Object|  
   
 ## See Also  
  [Manage Cost Accounting](../Finance/manage-cost-accounting.md)   

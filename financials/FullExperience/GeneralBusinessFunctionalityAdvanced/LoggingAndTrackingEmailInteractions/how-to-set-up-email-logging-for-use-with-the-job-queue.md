@@ -38,7 +38,7 @@ You can run regular background processing such as email logging using a job queu
 2.  Create a new server instance that uses a user account for the service account. The user account must have an account on an Exchange Server. For more information, see [How to: Create a Microsoft Dynamics NAV Server Instance](../Topic/How%20to:%20Create%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md).  
   
     > [!NOTE]  
-    >  The user must have sufficient [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] permissions. Consider using the permission sets BASIC, RM-CONT, and JOBEQUEUERUN as defined in the FIX INCLUDE HERE<!--[!INCLUDE[demolong](../../ApplicationDesign/includes/demolong_md.md)] -->.  
+    >  The user must have sufficient [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] permissions. Consider using the permission sets BASIC, RM\-CONT, and JOBEQUEUERUN as defined in the FIX INCLUDE HERE<!--[!INCLUDE[demolong](../../ApplicationDesign/includes/demolong_md.md)] -->.  
   
 3.  Choose **Edit**. On the **NAS Services** FastTab, in the **Startup Codeunit** field, enter the following parameter: *450*. In the **Company** field, enter the name of the company.  
   
@@ -48,7 +48,7 @@ You can run regular background processing such as email logging using a job queu
   
 6.  If there are errors in starting the queue, you can check the event viewer log. In **Control Panel**, open **Administrative Tools**, and then choose **Event Viewer**.  
   
-7.  Select **Windows Logs**, and then choose **Application** to open the Services snap-in.  
+7.  Select **Windows Logs**, and then choose **Application** to open the Services snap\-in.  
   
  Review the error message and make modifications as needed. After you have verified that the server instance is running correctly, you can stop it from running. Then, set up a job queue to run on the server instance.  
   

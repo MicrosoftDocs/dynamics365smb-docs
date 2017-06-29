@@ -18,13 +18,13 @@
 # How to: Define Check Layouts
 In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->, you can design your checks to conform with the standards set by the local authorities. Check images can be printed in English, French, or Spanish.  
   
- Checks are designed to print in both the United States and Canadian check image formats in either a check-stub-check format or a stub-stub-check format.  
+ Checks are designed to print in both the United States and Canadian check image formats in either a check\-stub\-check format or a stub\-stub\-check format.  
   
 ### To define check layouts  
   
 1.  In the **Search** box, enter **Report Selections Bank Account**, and choose the related link.  
   
-2.  In the **Report Selection - Bank Acc.** window, in the **Usage** field, select **Check**.  
+2.  In the **Report Selection \- Bank Acc.** window, in the **Usage** field, select **Check**.  
   
 3.  Use the following table to determine the ID of the report that you want to use to print checks.  
   
@@ -39,7 +39,7 @@ In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow
      To print checks, see [How to: Print Checks](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-print-checks.md).  
   
 ## See Also  
- Check \(Stub-Check-Stub\)   
- Check \(Stub-Stub-Check\)   
+ Check \(Stub\-Check\-Stub\)   
+ Check \(Stub\-Stub\-Check\)   
  Check   
  [How to: Print Checks](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-print-checks.md)

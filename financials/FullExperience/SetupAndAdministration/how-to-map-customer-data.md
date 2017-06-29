@@ -53,4 +53,4 @@ You can map values from an existing ERP system into your FIX INCLUDE HERE<!--FIX
  Config. Field Mapping   
  [How to: Apply Customer Data](../SetupAndAdministration/how-to-apply-customer-data.md)   
  [How to: Clean Up and Process Data](../SetupAndAdministration/how-to-clean-up-and-process-data.md)   
- Config. Package - Process
+ Config. Package \- Process

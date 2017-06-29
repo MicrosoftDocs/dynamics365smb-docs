@@ -32,19 +32,19 @@ The petty cash management feature enables you to:
   
 -   Print the following required forms:  
   
-    -   Cash Ingoing Order CO-1  
+    -   Cash Ingoing Order CO\-1  
   
-    -   Cash Outgoing Order CO-2  
+    -   Cash Outgoing Order CO\-2  
   
 -   Print the following required reports:  
   
-    -   Cash Order Journal CO-3  
+    -   Cash Order Journal CO\-3  
   
     -   Cash Additional Sheet  
   
     -   Cash Additional Sheet \(Curr.\)  
   
-    -   Cash Report CO-4.  
+    -   Cash Report CO\-4.  
   
     -   Cash Register \(Month\)  
   
@@ -75,7 +75,7 @@ The petty cash management feature enables you to:
 |**Reason**, **Supplement**, **Including**|These fields are transferred to Check Ledger entries during posting and used in printing forms of posted and unposted ingoing cash orders. They can be filled in manually or with the Text Codes functionality.|  
 |**Debit Account**|This field indicates the general ledger account that is debited as a result of order posting. It is automatically shown according to the posting group's setup of the account \(or balance account if the Income field contains a negative value\). It is also used in the printing form. This field is not editable.|  
 |**Credit Account**|This field indicates the general ledger account that is credited as a result of order posting. It is automatically shown according to the posting group's setup of the balance account \(or account if the **Income** field contains a negative value\). It is used in printing forms. This field is not editable.|  
-|**Reason Code**, **Applies-to Doc. Type**, **Applies-to Doc. No**.,<br /><br /> **Global Dimension 1 Code**, **Global Dimension 2 Code**|Enter these fields in general journals.|  
+|**Reason Code**, **Applies\-to Doc. Type**, **Applies\-to Doc. No**.,<br /><br /> **Global Dimension 1 Code**, **Global Dimension 2 Code**|Enter these fields in general journals.|  
   
 ## Ingoing Cash Order Form Functions  
  The following functions in the table can be executed from the **Document** button.  
@@ -83,7 +83,7 @@ The petty cash management feature enables you to:
 |Functions|Description|  
 |---------------|-----------------|  
 |Check List \(F5 Hot Key\)|Shows the list of ingoing cash orders \(filtered by the current General Journal batch name from the value of the Cash field\).|  
-|Dimensions \(Shift-Ctrl-D Hot Key\)|Standard access to Journal Line Dimensions.|  
+|Dimensions \(Shift\-Ctrl\-D Hot Key\)|Standard access to Journal Line Dimensions.|  
   
  The following functions in the table can be executed from the **Functions** button.  
   
@@ -94,7 +94,7 @@ The petty cash management feature enables you to:
   
  Click **Posting** from the **Posting** button \(Hot Key F11\) to make posting to ledger entries similar to standard posting from payment journals and cash receipt journals.  
   
- Click the **Print** button to run the Cash Ingoing Order CO-1 report, which shows the printing form of the ingoing cash order. Select the **Printing Test** field to run the preview mode.  
+ Click the **Print** button to run the Cash Ingoing Order CO\-1 report, which shows the printing form of the ingoing cash order. Select the **Printing Test** field to run the preview mode.  
   
  The report shows the printing form of the ingoing cash order. To meet requirements, it can also change some database data. If the cash order is not printed, if the **Printing Test** field is not selected, and the **Bank Payment Type** field is set to Computer Check, then the report carries out the following functions:  
   
@@ -133,15 +133,15 @@ The petty cash management feature enables you to:
 |**Analitic Code**|This field is not editable. This field is equal to the value of the **Account Number** field.|  
 |**Debit Account**|This field indicates the general ledger account that is debited as a result of order posting. It is automatically shown according to the posting group's setup of the account \(or balance account if the Income field contains a negative value\). It is also used in the printing form. This field is not editable.|  
 |**Credit Account**|This field indicates the general ledger account that is credited as a result of order posting. It is automatically shown according to the posting group's setup of the balance account \(or account if the Income field contains a negative value\). It is used in printing forms. This field is not editable.|  
-|**Reason Code**, **Applies-to Doc. Type**, **Applies-to Doc. No.**,<br /><br /> **Global Dimension 1 Code**, **Global Dimension 2 Code**|Enter these fields in general journals.|  
+|**Reason Code**, **Applies\-to Doc. Type**, **Applies\-to Doc. No.**,<br /><br /> **Global Dimension 1 Code**, **Global Dimension 2 Code**|Enter these fields in general journals.|  
   
  The functions executed from the form are the same as those for the Ingoing Cash Order form.  
   
 ## Posted Cash Credit Order Report  
  To print an outgoing cash order form after it has been posted; you can run a report that prints the same form from Check Ledger Entries using **Print**. It has no parameters. Before printing, the report ensures that this is really an outgoing cash order, and not an ingoing cash order or bank payment.  
   
-## Cash Order Journal CO-3 Report  
- The Cash Order Journal CO-3 shows the register of posted ingoing and outgoing cash orders during some reporting period in the unified standard printing form that is certified by Russian accounting legislation. For more information, see [How to: Print the Cash Order Journal CO-3 Report](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-print-the-cash-order-journal-co-3-report.md).  
+## Cash Order Journal CO\-3 Report  
+ The Cash Order Journal CO\-3 shows the register of posted ingoing and outgoing cash orders during some reporting period in the unified standard printing form that is certified by Russian accounting legislation. For more information, see [How to: Print the Cash Order Journal CO\-3 Report](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-print-the-cash-order-journal-co-3-report.md).  
   
 ## Cash Additional Sheet Reports  
  The Cash Additional Sheet and Cash Additional Sheet \(Curr.\) reports show the unified standard printing forms for the cash booking register for one operational day of the cash account. These reports are usually printed every day, and their numbering continues according to the value of the **Last Cash Report Page No.** field in the corresponding cash account card. The reports increase that number by one and use this number as a page number of the report \(but only if the report parameter Repeat Printing is not selected\). They can only be printed per day.  
@@ -160,16 +160,16 @@ The petty cash management feature enables you to:
 |Date|Enter the operation date of the cash account for printing in the report.|  
 |Repeat printing|Select this field to ensure that the printing process does not increase the value of the **Last Cash Report Page No.** field in the corresponding cash account card and that the report is printed with this number \(indicated in the cash account card\). This serves repeated printing.|  
   
-## Cash Report CO-4  
- The **\($ R\_14902 Cash Report CO-4 $\)** report shows mandatory daily cash transactions in standard format as required by Russian accounting legislation. For more information, see[How to: Print the Cash Report CO-4 Report](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-print-the-cash-report-co-4-report.md).  
+## Cash Report CO\-4  
+ The **\($ R\_14902 Cash Report CO\-4 $\)** report shows mandatory daily cash transactions in standard format as required by Russian accounting legislation. For more information, see[How to: Print the Cash Report CO\-4 Report](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-print-the-cash-report-co-4-report.md).  
   
 ## See Also  
  [Bank Management](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/bank-management.md)   
  [How to: Create Cash Account Cards](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-create-cash-account-cards.md)   
- [How to: Print the Cash Order Journal CO-3 Report](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-print-the-cash-order-journal-co-3-report.md)   
- [How to: Print the Cash Report CO-4 Report](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-print-the-cash-report-co-4-report.md)   
+ [How to: Print the Cash Order Journal CO\-3 Report](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-print-the-cash-order-journal-co-3-report.md)   
+ [How to: Print the Cash Report CO\-4 Report](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-print-the-cash-report-co-4-report.md)   
  [How to: Print the Ingoing Cash Order Report](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-print-the-ingoing-cash-order-report.md)   
  [How to: Print the Cash Register \(Month\) Report](assetId:///10a26052-053a-408e-9015-9ef26ebb2b8d)   
  [How to: Print the Outgoing Cash Order Report](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-print-the-outgoing-cash-order-report.md)   
- Cash Report CO-4   
- Cash Order Journal CO-3
+ Cash Report CO\-4   
+ Cash Order Journal CO\-3

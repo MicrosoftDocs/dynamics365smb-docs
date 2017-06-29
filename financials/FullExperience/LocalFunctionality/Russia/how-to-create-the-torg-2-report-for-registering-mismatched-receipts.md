@@ -16,11 +16,11 @@
 
     ---
 # How to: Create the TORG-2 Report for Registering Mismatched Receipts
-The TORG-2 report is used to document inconsistencies for deviations of received goods that are not imported.  
+The TORG\-2 report is used to document inconsistencies for deviations of received goods that are not imported.  
   
-### To create the TORG-2 report  
+### To create the TORG\-2 report  
   
-1.  In the **Search** box, enter **Receipt Deviations TORG-2**, and then choose the related link.  
+1.  In the **Search** box, enter **Receipt Deviations TORG\-2**, and then choose the related link.  
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
@@ -34,7 +34,7 @@ The TORG-2 report is used to document inconsistencies for deviations of received
   
 ## See Also  
  [Inventory Setup](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/inventory-setup.md)   
- Item Report TORG-29   
- Items Receipt Act TORG-1   
- Receipt Deviations TORG-2   
- Transfer Order TORG-13
+ Item Report TORG\-29   
+ Items Receipt Act TORG\-1   
+ Receipt Deviations TORG\-2   
+ Transfer Order TORG\-13

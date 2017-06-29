@@ -26,7 +26,7 @@ An Australian Business Number \(ABN\) is a single identifier for all business de
 ## Adjustment Notes  
  Adjustment notes are issued by suppliers to a business when the amount of consideration for taxable supplies changes. The recipient needs an adjustment note to claim more or less GST credits than previously claimed.  
   
- Section 19-10 of A New Tax System \(Goods and Services Tax\) Act 1999 defines an adjustment event as any event that has the effect of:  
+ Section 19\-10 of A New Tax System \(Goods and Services Tax\) Act 1999 defines an adjustment event as any event that has the effect of:  
   
 -   Canceling a supply or acquisition.  
   

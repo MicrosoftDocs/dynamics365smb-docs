@@ -22,7 +22,7 @@ Before you can use warehouse documents to control your inventory movements, you 
   
 1.  In the **Search** box, enter **Warehouse Setup**, and then choose the related link.  
   
-2.  On the **General** FastTab, select the functionality you want implemented in the warehouses. Options are **Require Receive**, **Require Put-away**, **Require Shipment**, and **Require Pick**.  
+2.  On the **General** FastTab, select the functionality you want implemented in the warehouses. Options are **Require Receive**, **Require Put\-away**, **Require Shipment**, and **Require Pick**.  
   
 3.  On the **General** FastTab, in the **Receipt Posting Policy** and the **Shipment Posting Policy** fields, select **Posting errors are not processed** if you do not want to show any posting errors. Select **Stop and show the first posting error** if you want to show the posting errors.  
   

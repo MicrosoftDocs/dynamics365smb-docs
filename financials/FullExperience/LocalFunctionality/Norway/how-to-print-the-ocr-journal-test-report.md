@@ -20,7 +20,7 @@ You can print the **\($ R\_15000100 OCR Journal – Test $\)** report to test th
   
 ### To print the OCR Journal – Test report  
   
-1.  In the **Search** box, enter **OCR Journal - Test**, and then choose the related link.  
+1.  In the **Search** box, enter **OCR Journal \- Test**, and then choose the related link.  
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   

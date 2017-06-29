@@ -16,7 +16,7 @@
 
     ---
 # Enhanced Document Management
-In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->, you can archive documents and track work across archived and non-archived documents.  
+In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->, you can archive documents and track work across archived and non\-archived documents.  
   
 ## Archiving Documents  
  You can use enhanced archive document management to:  

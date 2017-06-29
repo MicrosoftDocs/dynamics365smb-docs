@@ -45,5 +45,5 @@ To align with inventory costing functionality and to obtain a simpler and more r
  Codeunit 22 loops through the item tracking numbers and splits the posting into the respective item ledger entries that carry the item tracking numbers. Information about which item ledger entries are created is returned to T337 by using a temporary T336 record, which is called by a procedure in codeunit 22. This procedure is triggered when codeunit 22 has finished its run because at that point, the codeunit 22 object contains the information. When the temporary T336 record is retrieved, codeunits 80 and 90 create records in the **Item Entry Relation** table to link the created item ledger entries to the created shipment or receipt line. Codeunits 80 or codeunit 90 then converts the temporary T336 records to real T336 records that are related to the line in question. However, this conversion occurs only if the posted document line is not deleted, because it is only partially posted.  
   
 ## See Also  
- [Design Details: Item Tracking](../FullExperience/design-details-item-tracking.md)   
- [Design Details: Item Tracking Design](../FullExperience/design-details-item-tracking-design.md)
+ [Design Details: Item Tracking](../design-details-item-tracking.md)   
+ [Design Details: Item Tracking Design](../design-details-item-tracking-design.md)

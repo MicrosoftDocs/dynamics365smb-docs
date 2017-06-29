@@ -18,9 +18,9 @@
 # How to: Export and Import Workflows
 To transfer workflows to other ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]--> databases, for example to save time when creating new workflows, you can export and import workflows.  
   
- Another way to quickly create workflows is to create workflows from workflow templates. For more information, see [How to: Create Workflows from Workflow Templates](../FullExperience/how-to-create-workflows-from-workflow-templates.md).  
+ Another way to quickly create workflows is to create workflows from workflow templates. For more information, see [How to: Create Workflows from Workflow Templates](../how-to-create-workflows-from-workflow-templates.md).  
   
- In the **Workflow** window, you create a workflow by listing the involved steps on the lines. Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options. You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code. For more information, see [How to: Create Workflows](../FullExperience/how-to-create-workflows.md).  
+ In the **Workflow** window, you create a workflow by listing the involved steps on the lines. Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options. You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code. For more information, see [How to: Create Workflows](../how-to-create-workflows.md).  
   
 ### To export a workflow  
   
@@ -48,12 +48,12 @@ To transfer workflows to other ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/
  Workflow Templates   
  Workflow Response Options   
  Notification Entries   
- [How to: Create Workflows](../FullExperience/how-to-create-workflows.md)   
- [How to: Create Workflows from Workflow Templates](../FullExperience/how-to-create-workflows-from-workflow-templates.md)   
- [How to: View Archived Workflow Step Instances](../FullExperience/how-to-view-archived-workflow-step-instances.md)   
- [How to: Delete Workflows](../FullExperience/how-to-delete-workflows.md)   
- [Walkthrough: Setting Up and Using a Purchase Approval Workflow](../FullExperience/walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
- [Set Up Workflows](../FullExperience/set-up-workflows.md)   
- [Use Workflows](../FullExperience/use-workflows.md)   
- [Workflow](../FullExperience/workflow.md)   
- [Business Functionality](../FullExperience/Business%20Functionality.md)
+ [How to: Create Workflows](../how-to-create-workflows.md)   
+ [How to: Create Workflows from Workflow Templates](../how-to-create-workflows-from-workflow-templates.md)   
+ [How to: View Archived Workflow Step Instances](../how-to-view-archived-workflow-step-instances.md)   
+ [How to: Delete Workflows](../how-to-delete-workflows.md)   
+ [Walkthrough: Setting Up and Using a Purchase Approval Workflow](../walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
+ [Set Up Workflows](../set-up-workflows.md)   
+ [Use Workflows](../use-workflows.md)   
+ [Workflow](../workflow.md)   
+ [Business Functionality](../Business%20Functionality.md)

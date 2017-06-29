@@ -16,7 +16,7 @@
 
     ---
 # How to: Set Up a Document Exchange Service
-You use an external service provider to exchange electronic documents with your trading partners. For more information, see [Data Exchange](../FullExperience/data-exchange.md).  
+You use an external service provider to exchange electronic documents with your trading partners. For more information, see [Data Exchange](../data-exchange.md).  
   
 ### To set up a document exchange service  
   
@@ -44,13 +44,13 @@ You use an external service provider to exchange electronic documents with your 
   
 1.  In the **VAN Service Setup** window, on the **Home** tab, in the **Encryption** group, choose **Encryption Management**.  
   
-2.  In the **Data Encryption Management** window, enable encryption of your data. For more information, see [Manage Data Encryption](../FullExperience/manage-data-encryption.md).  
+2.  In the **Data Encryption Management** window, enable encryption of your data. For more information, see [Manage Data Encryption](../manage-data-encryption.md).  
   
 ## See Also  
  Doc. Exch. Service Setup   
- [How to: Set Up the Tradeshift Service to Dispatch Electronic Documents](../FullExperience/how-to-set-up-a-document-exchange-service.md)   
- [How to: Send Electronic Documents](../FullExperience/how-to-send-electronic-documents.md)   
- [How to: Receive and Convert Electronic Documents](../FullExperience/how-to-receive-and-convert-electronic-documents.md)   
- [Data Exchange](../FullExperience/data-exchange.md)   
- [Incoming Documents](../FullExperience/incoming-documents.md)   
- [Business Functionality](../FullExperience/Business%20Functionality.md)
+ [How to: Set Up the Tradeshift Service to Dispatch Electronic Documents](../how-to-set-up-a-document-exchange-service.md)   
+ [How to: Send Electronic Documents](../how-to-send-electronic-documents.md)   
+ [How to: Receive and Convert Electronic Documents](../how-to-receive-and-convert-electronic-documents.md)   
+ [Data Exchange](../data-exchange.md)   
+ [Incoming Documents](../incoming-documents.md)   
+ [Business Functionality](../Business%20Functionality.md)

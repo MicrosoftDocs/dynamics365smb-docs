@@ -16,11 +16,11 @@
 
     ---
 # Field Mapping When Importing SEPA CAMT Files
-The generic version of Microsoft Dynamics NAV supports the regional SEPA standard \(Single Euro Payments Area\) for importing SEPA bank statements \(CAMT format\). For more information, see [How to: Import Bank Statements](../FullExperience/how-to-import-bank-statements.md).  
+The generic version of Microsoft Dynamics NAV supports the regional SEPA standard \(Single Euro Payments Area\) for importing SEPA bank statements \(CAMT format\). For more information, see [How to: Import Bank Statements](../how-to-import-bank-statements.md).  
   
  The SEPA CAMT standard itself has local variations. Therefore, you may have to modify the generic data exchange definition \(represented by the **SEPA CAMT** code in the **Posting Exchange Definitions** window to adapt it to a local variation of the standard. The following tables show the element-to-field mapping for tables 81, 273, and 274 in the SEPA CAMT implementation in ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]-->.  
   
- For information about creating or adjusting a data exchange definition, see [How to: Set Up Data Exchange Definitions](../FullExperience/how-to-set-up-data-exchange-definitions.md).  
+ For information about creating or adjusting a data exchange definition, see [How to: Set Up Data Exchange Definitions](../how-to-set-up-data-exchange-definitions.md).  
   
 ## CAMT data mapping to fields in the General Journal table \(81\)  
   
@@ -62,8 +62,8 @@ The generic version of Microsoft Dynamics NAV supports the regional SEPA standar
  Payment Reconciliation Journal   
  Payment Application   
  Bank Acc. Reconciliation   
- [Data Exchange](../FullExperience/data-exchange.md)   
- [How to: Import Bank Statements](../FullExperience/how-to-import-bank-statements.md)   
- [How to: Use XML Schemas to Prepare Data Exchange Definitions](../FullExperience/how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)   
- [How to: Reconcile Payments Using Automatic Application](../FullExperience/how-to-reconcile-payments-using-automatic-application.md)   
- [How to: Match Bank Statement Lines with Bank Account Ledger Entries](../FullExperience/how-to-match-bank-statement-lines-with-bank-account-ledger-entries.md)
+ [Data Exchange](../data-exchange.md)   
+ [How to: Import Bank Statements](../how-to-import-bank-statements.md)   
+ [How to: Use XML Schemas to Prepare Data Exchange Definitions](../how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)   
+ [How to: Reconcile Payments Using Automatic Application](../how-to-reconcile-payments-using-automatic-application.md)   
+ [How to: Match Bank Statement Lines with Bank Account Ledger Entries](../how-to-match-bank-statement-lines-with-bank-account-ledger-entries.md)

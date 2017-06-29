@@ -68,4 +68,4 @@ You must specify the supply type on tax invoices. To do this, you must update th
 ## See Also  
  Customer Card   
  Vendor Card   
- [United Kingdom Local Functionality](../FullExperience/united-kingdom-local-functionality.md)
+ [United Kingdom Local Functionality](../united-kingdom-local-functionality.md)

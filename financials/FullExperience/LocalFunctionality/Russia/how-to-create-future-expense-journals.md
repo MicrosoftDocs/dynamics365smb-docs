@@ -22,7 +22,7 @@ Future expense journals are used to post expenses to a special account on a mont
   
 ### To create future expense journals  
   
-1.  In the **Search** box, enter **VAT Posting Setup**, and then choose the related link. Use the **VAT Posting Setup** window to create VAT posting groups. For more information, see [How to: Set Up VAT Product Posting Groups](../FullExperience/how-to-set-up-vat-business-posting-groups.md).  
+1.  In the **Search** box, enter **VAT Posting Setup**, and then choose the related link. Use the **VAT Posting Setup** window to create VAT posting groups. For more information, see [How to: Set Up VAT Product Posting Groups](../how-to-set-up-vat-business-posting-groups.md).  
   
 2.  On the **Settlement** FastTab, in the **VAT Settlement Template** field, select a template.  
   
@@ -65,6 +65,6 @@ Future expense journals are used to post expenses to a special account on a mont
   
 ## See Also  
  Fixed Asset Setup   
- [Fixed Assets Accounting Setup](../FullExperience/fixed-assets-accounting-setup.md)   
+ [Fixed Assets Accounting Setup](../fixed-assets-accounting-setup.md)   
  Fixed Asset Card   
- [How to: Set Up a Future Expense Card](../FullExperience/how-to-set-up-a-future-expense-card.md)
+ [How to: Set Up a Future Expense Card](../how-to-set-up-a-future-expense-card.md)

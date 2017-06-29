@@ -46,7 +46,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can el
   
  If you use a proxy server to submit the ELSTER documents, you must specify the settings in the **Electronic VAT Decl. Setup** window.  
   
- For more information, see [How to: Set Up Sales VAT Advance Notifications for ELSTER](../FullExperience/how-to-set-up-sales-vat-advance-notifications-for-elster.md).  
+ For more information, see [How to: Set Up Sales VAT Advance Notifications for ELSTER](../how-to-set-up-sales-vat-advance-notifications-for-elster.md).  
   
 ### Certificates and Style Sheets  
  Your company must register at the ELSTER online portal so that you can acquire the necessary certificates. If you have already registered, you do not have to register again.  
@@ -70,8 +70,8 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can el
  After you have submitted a document to ELSTER, an entry is made in the **VAT Transmission Log Entries** window. When the ELSTER online portal processed the submitted document, errors can occur, and ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/elster-transmission-overview.md).  
   
 ## See Also  
- [How to: Set Up Sales VAT Advance Notifications for ELSTER](../FullExperience/how-to-set-up-sales-vat-advance-notifications-for-elster.md)   
- [How to: Create and Submit Sales VAT Advance Notifications](../FullExperience/how-to-create-and-submit-sales-vat-advance-notifications.md)   
+ [How to: Set Up Sales VAT Advance Notifications for ELSTER](../how-to-set-up-sales-vat-advance-notifications-for-elster.md)   
+ [How to: Create and Submit Sales VAT Advance Notifications](../how-to-create-and-submit-sales-vat-advance-notifications.md)   
  [ELSTER online portal](http://go.microsoft.com/fwlink/?LinkId=155998)   
  Sales VAT Adv. Notif. Card   
  Certificates   

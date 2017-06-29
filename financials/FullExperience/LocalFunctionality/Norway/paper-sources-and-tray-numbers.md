@@ -49,5 +49,5 @@ When printing Norwegian sales documents, you can set up different tray numbers a
  If the printer supports other tray numbers, you can enter these numbers in the **First Page - Tray Number**, **Other Pages - Tray Number**, and **Giro Page - Tray Number** fields in the **Printer Selection** table.  
   
 ## See Also  
- [Norwegian Sales Documents](../FullExperience/norwegian-sales-documents.md)   
- [Norwegian Giro and OCR-B Font](../FullExperience/norwegian-giro-and-ocr-b-font.md)
+ [Norwegian Sales Documents](../norwegian-sales-documents.md)   
+ [Norwegian Giro and OCR-B Font](../norwegian-giro-and-ocr-b-font.md)

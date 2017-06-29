@@ -19,11 +19,11 @@
 The following topics describe the local functionality in the Swiss version of ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
   
 ## In This Section  
- [Enhanced Document Management](../FullExperience/enhanced-document-management.md)  
- [Swiss Electronic Payments](../FullExperience/swiss-electronic-payments.md)  
-  [Swiss Value Added Tax](../FullExperience/swiss-value-added-tax.md)  
-  [Swiss Inventory Management](../FullExperience/swiss-inventory-management.md)  
-  [Swiss General Ledger Accounts](../FullExperience/swiss-general-ledger-accounts.md)  
-  [Swiss Purchase Documents and Sales Documents](../FullExperience/swiss-purchase-documents-and-sales-documents.md)  
-  [How to: Print General Ledger Setup Information](../FullExperience/how-to-print-general-ledger-setup-information.md)  
-  [Tables, Reports, Batch Jobs, and Windows-duplicate 10](../FullExperience/tables-reports-batch-jobs-and-windows-duplicate-10.md)
+ [Enhanced Document Management](../enhanced-document-management.md)  
+ [Swiss Electronic Payments](../swiss-electronic-payments.md)  
+  [Swiss Value Added Tax](../swiss-value-added-tax.md)  
+  [Swiss Inventory Management](../swiss-inventory-management.md)  
+  [Swiss General Ledger Accounts](../swiss-general-ledger-accounts.md)  
+  [Swiss Purchase Documents and Sales Documents](../swiss-purchase-documents-and-sales-documents.md)  
+  [How to: Print General Ledger Setup Information](../how-to-print-general-ledger-setup-information.md)  
+  [Tables, Reports, Batch Jobs, and Windows-duplicate 10](../tables-reports-batch-jobs-and-windows-duplicate-10.md)

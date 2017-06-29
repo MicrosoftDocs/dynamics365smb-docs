@@ -39,13 +39,13 @@ Use an inward registration to post a preliminary purchase invoice, which you ove
   
  An inward registration is now created to represent the preliminary invoice posting until you overwrite it with the final invoice posting later. You can see the resulting positive entry in the **Inward Reg. Entry** window.  
   
- If you want to cancel the inward registration before the final invoice posting, then you must reverse the inward registration manually. For more information, see [How to: Reverse Preliminary Invoices by Using Inward Registration](../FullExperience/how-to-reverse-preliminary-invoices-by-using-inward-registration.md)  
+ If you want to cancel the inward registration before the final invoice posting, then you must reverse the inward registration manually. For more information, see [How to: Reverse Preliminary Invoices by Using Inward Registration](../how-to-reverse-preliminary-invoices-by-using-inward-registration.md)  
   
 ## See Also  
  Inward Registration   
  Inward Reg. Entry   
  Inward Reg. Line   
- [Record Purchase Invoices](../FullExperience/record-purchase-invoices.md)   
- [How to: Reverse Preliminary Invoices by Using Inward Registration](../FullExperience/how-to-reverse-preliminary-invoices-by-using-inward-registration.md)   
- [How to: Record VAT](../FullExperience/how-to-record-vat.md)   
- [Sweden Local Functionality](../FullExperience/sweden-local-functionality.md)
+ [Record Purchase Invoices](../record-purchase-invoices.md)   
+ [How to: Reverse Preliminary Invoices by Using Inward Registration](../how-to-reverse-preliminary-invoices-by-using-inward-registration.md)   
+ [How to: Record VAT](../how-to-record-vat.md)   
+ [Sweden Local Functionality](../sweden-local-functionality.md)

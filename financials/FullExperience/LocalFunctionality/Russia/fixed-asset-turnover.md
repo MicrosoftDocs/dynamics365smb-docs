@@ -64,7 +64,7 @@ The fixed asset turnover feature enables you to:
  For more information, see Fixed Asset G-L Turnover.  
   
 ## See Also  
- [Fixed Asset Locations and Employees](../FullExperience/fixed-asset-locations-and-employees.md)   
- [Fixed Asset Charges](../FullExperience/fixed-asset-charges.md)   
- [Fixed Assets](../FullExperience/fixed-assets.md)   
- [Fixed Asset Inventory](../FullExperience/fixed-asset-inventory.md)
+ [Fixed Asset Locations and Employees](../fixed-asset-locations-and-employees.md)   
+ [Fixed Asset Charges](../fixed-asset-charges.md)   
+ [Fixed Assets](../fixed-assets.md)   
+ [Fixed Asset Inventory](../fixed-asset-inventory.md)

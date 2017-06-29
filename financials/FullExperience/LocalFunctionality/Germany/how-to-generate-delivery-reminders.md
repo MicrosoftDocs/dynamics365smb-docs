@@ -19,7 +19,7 @@
 In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-create-delivery-reminders-manually.md).  
   
 > [!NOTE]  
->  To create delivery reminders, you must set up the delivery reminder properties. For more information, see [How to: Set Up Delivery Reminders](../FullExperience/how-to-set-up-delivery-reminders.md).  
+>  To create delivery reminders, you must set up the delivery reminder properties. For more information, see [How to: Set Up Delivery Reminders](../how-to-set-up-delivery-reminders.md).  
   
 ### To generate delivery reminders for all overdue deliveries  
   
@@ -36,9 +36,9 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-create-delivery-remind
  If there are overdue deliveries that match the filters that you have set, deliver reminders are created. You can now issue and print the delivery reminders.  
   
 ## See Also  
- [How to: Create Delivery Reminders Manually](../FullExperience/how-to-create-delivery-reminders-manually.md)   
- [How to: Set Up Delivery Reminders](../FullExperience/how-to-set-up-delivery-reminders.md)   
- [How to: Assign Delivery Reminder Codes to Vendors](../FullExperience/how-to-assign-delivery-reminder-codes-to-vendors.md)   
- [How to: Issue Delivery Reminders](../FullExperience/how-to-issue-delivery-reminders.md)   
- [Delivery Reminders](../FullExperience/delivery-reminders.md)   
+ [How to: Create Delivery Reminders Manually](../how-to-create-delivery-reminders-manually.md)   
+ [How to: Set Up Delivery Reminders](../how-to-set-up-delivery-reminders.md)   
+ [How to: Assign Delivery Reminder Codes to Vendors](../how-to-assign-delivery-reminder-codes-to-vendors.md)   
+ [How to: Issue Delivery Reminders](../how-to-issue-delivery-reminders.md)   
+ [Delivery Reminders](../delivery-reminders.md)   
  Create Delivery Reminder

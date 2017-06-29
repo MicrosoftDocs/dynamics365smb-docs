@@ -27,7 +27,7 @@ In the Netherlands, you use Digipoort to make periodic electronic filings for VA
   
  You will have to import the certificates that you receive into the Windows Certificate store. This is a change from prior releases, in which you stored your certificates in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
   
- For more information, see [How to: Set Up Certificates for use with Digipoort](../FullExperience/how-to-set-up-certificates-for-use-with-digipoort.md).  
+ For more information, see [How to: Set Up Certificates for use with Digipoort](../how-to-set-up-certificates-for-use-with-digipoort.md).  
   
 ## See Also  
- [How to: Set Up Certificates for use with Digipoort](../FullExperience/how-to-set-up-certificates-for-use-with-digipoort.md)
+ [How to: Set Up Certificates for use with Digipoort](../how-to-set-up-certificates-for-use-with-digipoort.md)

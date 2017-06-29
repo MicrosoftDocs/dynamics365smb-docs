@@ -49,7 +49,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can li
 3.  To specify the end of the period, choose the **Allow Posting To** field, and then enter the last date the user will be able to post to the company.  
   
 ## See Also  
- [Belgium Local Functionality](../FullExperience/belgium-local-functionality.md)   
+ [Belgium Local Functionality](../belgium-local-functionality.md)   
  General Ledger Setup   
  Gen. Journal Template   
- [How to: Specify Posting Periods-duplicate](../FullExperience/how-to-specify-posting-periods-duplicate.md)
+ [How to: Specify Posting Periods-duplicate](../how-to-specify-posting-periods-duplicate.md)

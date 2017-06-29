@@ -35,8 +35,8 @@ After you have entered all data for a physical inventory recording, you can fini
  If no such physical inventory order line exists, and if the **Recording without order permit** field is selected on the physical inventory recording header, a new line is inserted automatically and the **Recorded without Order** field on the physical inventory order line is selected. Otherwise, an error message is displayed and the process is canceled. If there are more than one such physical inventory order lines, an error message is displayed and the process is canceled.  
   
 ## See Also  
- [How to: Create a Physical Inventory Recording](../FullExperience/how-to-create-a-physical-inventory-recording.md)   
- [How to: Create a Physical Inventory Recording](../FullExperience/how-to-create-a-physical-inventory-recording.md)   
- [How to: View Duplicate Physical Inventory Order Lines](../FullExperience/how-to-view-duplicate-physical-inventory-order-lines.md)   
- [How to: Analyze Physical Inventory Differences](../FullExperience/how-to-analyze-physical-inventory-differences.md)   
- [Physical Inventory Order Lines With Item Tracking Lines](../FullExperience/physical-inventory-order-lines-with-item-tracking-lines.md)
+ [How to: Create a Physical Inventory Recording](../how-to-create-a-physical-inventory-recording.md)   
+ [How to: Create a Physical Inventory Recording](../how-to-create-a-physical-inventory-recording.md)   
+ [How to: View Duplicate Physical Inventory Order Lines](../how-to-view-duplicate-physical-inventory-order-lines.md)   
+ [How to: Analyze Physical Inventory Differences](../how-to-analyze-physical-inventory-differences.md)   
+ [Physical Inventory Order Lines With Item Tracking Lines](../physical-inventory-order-lines-with-item-tracking-lines.md)

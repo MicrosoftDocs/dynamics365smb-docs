@@ -43,9 +43,9 @@ You can identify whether items are reconciled in the **Bank Account Reconciliati
   
 8.  Choose the **OK** button.  
   
- To apply a statement line to an entry in **BACS Ledger Entry** table, you must use the **Apply Entries** function, in the same way you would do it for check ledger entries. For more information, see Bank Acc. Reconciliation and [How to: Match Bank Statement Lines with Bank Account Ledger Entries](../FullExperience/how-to-match-bank-statement-lines-with-bank-account-ledger-entries.md).  
+ To apply a statement line to an entry in **BACS Ledger Entry** table, you must use the **Apply Entries** function, in the same way you would do it for check ledger entries. For more information, see Bank Acc. Reconciliation and [How to: Match Bank Statement Lines with Bank Account Ledger Entries](../how-to-match-bank-statement-lines-with-bank-account-ledger-entries.md).  
   
 ## See Also  
  Bank Acc. Recon. Statement   
- [United Kingdom Local Functionality](../FullExperience/united-kingdom-local-functionality.md)   
- [Reconcile Bank Accounts](../FullExperience/reconcile-bank-accounts.md)
+ [United Kingdom Local Functionality](../united-kingdom-local-functionality.md)   
+ [Reconcile Bank Accounts](../reconcile-bank-accounts.md)

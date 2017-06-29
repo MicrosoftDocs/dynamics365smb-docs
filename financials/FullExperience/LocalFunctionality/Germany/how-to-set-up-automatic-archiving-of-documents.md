@@ -35,10 +35,10 @@ You can set up automatic archiving of sales documents and purchase documents—s
 3.  Choose the **OK** button.  
   
 ## See Also  
- [Enhanced Document Management](../FullExperience/enhanced-document-management.md)   
- [How to: Archive Blanket Orders](../FullExperience/how-to-archive-blanket-orders.md)   
- [How to: Create an Order from an Archived Blanket Order](../FullExperience/how-to-create-an-order-from-an-archived-blanket-order.md)   
- [How to: Delete Archived Blanket Orders](../FullExperience/how-to-delete-archived-blanket-orders.md)   
- [How to: Track Document Lines](../FullExperience/how-to-track-document-lines.md)   
- [\($ T\_311 Sales & Receivables Setup $\)](../FullExperience/\($%20T_311%20Sales%20&%20Receivables%20Setup%20$\).md)   
- [\($ T\_312 Purchases &amp; Payables Setup $\)](../FullExperience/\($%20T_312%20Purchases%20&amp;%20Payables%20Setup%20$\).md)
+ [Enhanced Document Management](../enhanced-document-management.md)   
+ [How to: Archive Blanket Orders](../how-to-archive-blanket-orders.md)   
+ [How to: Create an Order from an Archived Blanket Order](../how-to-create-an-order-from-an-archived-blanket-order.md)   
+ [How to: Delete Archived Blanket Orders](../how-to-delete-archived-blanket-orders.md)   
+ [How to: Track Document Lines](../how-to-track-document-lines.md)   
+ [\($ T\_311 Sales & Receivables Setup $\)](../\($%20T_311%20Sales%20&%20Receivables%20Setup%20$\).md)   
+ [\($ T\_312 Purchases &amp; Payables Setup $\)](../\($%20T_312%20Purchases%20&amp;%20Payables%20Setup%20$\).md)

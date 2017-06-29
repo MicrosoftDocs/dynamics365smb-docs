@@ -37,6 +37,6 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can sp
 3.  Choose the **OK** button.  
   
 ## See Also  
- [OBSOLETE: Standard Purchase Codes and Standard Sales Codes](../FullExperience/OBSOLETE:%20Standard%20Purchase%20Codes%20and%20Standard%20Sales%20Codes.md)   
- [\($ N\_459 Sales & Receivables Setup $\)-duplicate](../FullExperience/-$-n_459-sales-receivables-setup-$-duplicate.md)   
- [\($ N\_460 Purchases & Payables Setup $\)](../FullExperience/-$-n_460-purchases-payables-setup-$-.md)
+ [OBSOLETE: Standard Purchase Codes and Standard Sales Codes](../OBSOLETE:%20Standard%20Purchase%20Codes%20and%20Standard%20Sales%20Codes.md)   
+ [\($ N\_459 Sales & Receivables Setup $\)-duplicate](../-$-n_459-sales-receivables-setup-$-duplicate.md)   
+ [\($ N\_460 Purchases & Payables Setup $\)](../-$-n_460-purchases-payables-setup-$-.md)

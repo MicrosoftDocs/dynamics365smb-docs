@@ -50,9 +50,9 @@ When you submit a VAT or ICP declaration to the tax authorities electronically, 
 5.  To export a message or attachment, on the **Actions** tab, in the **Functions** group, choose **Export Response Message** or **Export Response Attachment**.  
   
 ## See Also  
- [Electronic VAT and ICP Declarations](../FullExperience/electronic-vat-and-icp-declarations.md)   
- [How to: Set Up VAT Categories](../FullExperience/how-to-set-up-vat-categories.md)   
- [How to: Create Electronic VAT and ICP Declarations](../FullExperience/how-to-create-electronic-vat-and-icp-declarations.md)   
+ [Electronic VAT and ICP Declarations](../electronic-vat-and-icp-declarations.md)   
+ [How to: Set Up VAT Categories](../how-to-set-up-vat-categories.md)   
+ [How to: Create Electronic VAT and ICP Declarations](../how-to-create-electronic-vat-and-icp-declarations.md)   
  Elec. Tax Declaration Header Table   
  Elec. Tax Decl. Response Msg. Table   
  Receive Response Messages Batch Job   

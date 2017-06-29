@@ -128,6 +128,6 @@ The core of the planning system involves balancing demand and supply by means of
 >  Even if the item is not set up for dynamic order tracking, the planned system will create balanced order tracking links as explained above.  
   
 ## See Also  
- [Design Details: Balancing Demand and Supply](../FullExperience/design-details-balancing-demand-and-supply.md)   
- [Design Details: Central Concepts of the Planning System](../FullExperience/design-details-central-concepts-of-the-planning-system.md)   
- [Design Details: Supply Planning](../FullExperience/design-details-supply-planning.md)
+ [Design Details: Balancing Demand and Supply](../design-details-balancing-demand-and-supply.md)   
+ [Design Details: Central Concepts of the Planning System](../design-details-central-concepts-of-the-planning-system.md)   
+ [Design Details: Supply Planning](../design-details-supply-planning.md)

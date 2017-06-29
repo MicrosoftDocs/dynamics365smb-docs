@@ -50,9 +50,9 @@ Norm jurisdictions are based on Russian tax laws that define a variety of tax ra
  The norm jurisdiction that you set up is now available for use in calculating tax differences.  
   
 ## See Also  
- [Tax Differences](../FullExperience/tax-differences.md)   
- [Setting up Tax Difference Calculation](../FullExperience/setting-up-tax-difference-calculation.md)   
- [Tax Accounting](../FullExperience/tax-accounting.md)   
+ [Tax Differences](../tax-differences.md)   
+ [Setting up Tax Difference Calculation](../setting-up-tax-difference-calculation.md)   
+ [Tax Accounting](../tax-accounting.md)   
  [Tax Reports](assetId:///e42ca8e7-1cee-4fb8-9f71-e596f29cabc3)   
- [Tax Registers](../FullExperience/tax-registers.md)   
- [How to: Create Tax Registers](../FullExperience/how-to-create-tax-registers.md)
+ [Tax Registers](../tax-registers.md)   
+ [How to: Create Tax Registers](../how-to-create-tax-registers.md)

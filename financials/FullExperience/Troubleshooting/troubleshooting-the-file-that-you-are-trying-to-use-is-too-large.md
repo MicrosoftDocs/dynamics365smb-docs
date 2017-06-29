@@ -42,4 +42,4 @@ If you are trying to upload a large image file that is larger than 30 MB, such a
  The new settings should take effect immediately without refreshing the IIS or the site.  
   
 ## See Also  
- [Troubleshooting Using Microsoft Dynamics NAV](../FullExperience/troubleshooting-using-microsoft-dynamics-nav.md)
+ [Troubleshooting Using Microsoft Dynamics NAV](../troubleshooting-using-microsoft-dynamics-nav.md)

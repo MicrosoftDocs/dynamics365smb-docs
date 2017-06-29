@@ -35,5 +35,5 @@ After an invoice has been created you can allocate and post fixed asset charges.
   
 ## See Also  
  Purchase Header   
- [Fixed Assets Accounting Setup](../FullExperience/fixed-assets-accounting-setup.md)   
+ [Fixed Assets Accounting Setup](../fixed-assets-accounting-setup.md)   
  Allocate FA Charges

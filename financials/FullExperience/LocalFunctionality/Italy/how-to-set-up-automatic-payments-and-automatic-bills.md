@@ -88,14 +88,14 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can ma
  Now, you can process customer bills and vendor bills so that they are handled automatically.  
   
 ## See Also  
- [How to: Set Up Payment Terms-duplicate](../FullExperience/how-to-set-up-payment-terms-duplicate.md)   
+ [How to: Set Up Payment Terms-duplicate](../how-to-set-up-payment-terms-duplicate.md)   
  SEPA Direct Debit Exp. Format   
  Company Information   
  Bank Account Card   
- [\($ N\_459 Sales & Receivables Setup $\)-duplicate](../FullExperience/-$-n_459-sales-receivables-setup-$-duplicate.md)   
- [\($ N\_460 Purchases & Payables Setup $\)](../FullExperience/-$-n_460-purchases-payables-setup-$-.md)   
+ [\($ N\_459 Sales & Receivables Setup $\)-duplicate](../-$-n_459-sales-receivables-setup-$-duplicate.md)   
+ [\($ N\_460 Purchases & Payables Setup $\)](../-$-n_460-purchases-payables-setup-$-.md)   
  Customer Card   
  Vendor Card   
  Bill   
  Bill   
- [Italy Local Functionality](../FullExperience/italy-local-functionality.md)
+ [Italy Local Functionality](../italy-local-functionality.md)

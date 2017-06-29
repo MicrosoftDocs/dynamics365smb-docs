@@ -47,7 +47,7 @@ This topic describes some common problems that you may see when you use email lo
   
 -   The interaction group code must be SYSTEM.  
   
- For more information, see [How to: Set Up Interaction Templates](../FullExperience/how-to-set-up-interaction-templates.md).  
+ For more information, see [How to: Set Up Interaction Templates](../how-to-set-up-interaction-templates.md).  
   
 ##  <a name="ChangingStorage"></a> Changing Storage Locations  
  You can update the storage location for your email messages, with the following considerations.  
@@ -70,7 +70,7 @@ This topic describes some common problems that you may see when you use email lo
 ## Upgrades to Job Queue Functionality Require Changes in Your Email Logging Implementation  
  Job queue categories have been introduced in ADD INCLUDE<!--[!INCLUDE[nav_current_long](../../includes/nav_current_long_md.md)]-->. Accordingly, to upgrade email logging, you will have to update your implementation to reflect this change.  
   
- For more information, see [How to: Set Up Job Queues](../FullExperience/how-to-create-job-queue-categories.md).  
+ For more information, see [How to: Set Up Job Queues](../how-to-create-job-queue-categories.md).  
   
 ##  <a name="ErrorViewingMailBased"></a> Error when viewing mail based on interaction log entries  
  **Description**: An error may appear when you want to view a logged email in the **Interaction Log Entries** window. The error occurs when ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> attempts to open the corresponding email in Microsoft Outlook.  
@@ -78,5 +78,5 @@ This topic describes some common problems that you may see when you use email lo
  **Workaround**: Make sure that you are not running either ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> or Outlook as administrator. Otherwise, close all instances of Outlook, and then, in the **Interaction Log Entries** window, choose **Show** again.  
   
 ## See Also  
- [Walkthrough: Logging Email Interactions in the Microsoft Dynamics NAV Database](../FullExperience/walkthrough-logging-email-interactions-in-the-microsoft-dynamics-nav-database.md)   
- [Logging and Tracking Email Interactions](../FullExperience/logging-and-tracking-email-interactions.md)
+ [Walkthrough: Logging Email Interactions in the Microsoft Dynamics NAV Database](../walkthrough-logging-email-interactions-in-the-microsoft-dynamics-nav-database.md)   
+ [Logging and Tracking Email Interactions](../logging-and-tracking-email-interactions.md)

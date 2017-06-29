@@ -36,10 +36,10 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can de
   
 4.  Choose the **OK** button.  
   
-     To print checks, see [How to: Print Checks](../FullExperience/how-to-print-checks.md).  
+     To print checks, see [How to: Print Checks](../how-to-print-checks.md).  
   
 ## See Also  
  Check \(Stub-Check-Stub\)   
  Check \(Stub-Stub-Check\)   
  Check   
- [How to: Print Checks](../FullExperience/how-to-print-checks.md)
+ [How to: Print Checks](../how-to-print-checks.md)

@@ -77,7 +77,7 @@ All items should be planned for, however, there is no reason to calculate a plan
 -   MRP: If the planning system detects that the item is being replenished by an MPS planning line or MPS supply order, the item will be left out of the planning. However, any demand from relevant components is included.  
   
 ## See Also  
- [Design Details: Balancing Demand and Supply](../FullExperience/design-details-balancing-demand-and-supply.md)   
- [Design Details: Handling Reordering Policies](../FullExperience/design-details-handling-reordering-policies.md)   
- [Design Details: Transfers in Planning](../FullExperience/design-details-transfers-in-planning.md)   
- [Design Details: Planning Parameters](../FullExperience/design-details-planning-parameters.md)
+ [Design Details: Balancing Demand and Supply](../design-details-balancing-demand-and-supply.md)   
+ [Design Details: Handling Reordering Policies](../design-details-handling-reordering-policies.md)   
+ [Design Details: Transfers in Planning](../design-details-transfers-in-planning.md)   
+ [Design Details: Planning Parameters](../design-details-planning-parameters.md)

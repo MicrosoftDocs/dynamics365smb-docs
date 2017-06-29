@@ -31,9 +31,9 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> enables you to
 ## See Also  
  Account Schedule Names   
  Account Schedule   
- [Account Schedule-duplicate](../FullExperience/\($%20R_25%20Account%20Schedule%20$\)-duplicate.md)   
+ [Account Schedule-duplicate](../\($%20R_25%20Account%20Schedule%20$\)-duplicate.md)   
  Acc. Schedule Name   
- [How to: Create New Account Schedules](../FullExperience/how-to-create-new-account-schedules.md)   
- [Create and Set Up Account Schedules](../FullExperience/create-and-set-up-account-schedules.md)   
- [Account Schedules Overview](../FullExperience/account-schedules-overview.md)   
- [How to: Define an Account Schedule Extension](../FullExperience/how-to-define-an-account-schedule-extension.md)
+ [How to: Create New Account Schedules](../how-to-create-new-account-schedules.md)   
+ [Create and Set Up Account Schedules](../create-and-set-up-account-schedules.md)   
+ [Account Schedules Overview](../account-schedules-overview.md)   
+ [How to: Define an Account Schedule Extension](../how-to-define-an-account-schedule-extension.md)

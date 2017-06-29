@@ -64,7 +64,7 @@ You can set up synchronization between ADD INCLUDE<!--[!INCLUDE[navnow](../../in
 ## Prerequisites  
  To complete this walkthrough, you will need:  
   
--   Perform the steps in the walkthrough: [Walkthrough: Setting Up Outlook Synchronization](../FullExperience/Walkthrough:%20Setting%20Up%20Outlook%20Synchronization.md).  
+-   Perform the steps in the walkthrough: [Walkthrough: Setting Up Outlook Synchronization](../Walkthrough:%20Setting%20Up%20Outlook%20Synchronization.md).  
   
 -   Ensure that web services are running.  
   
@@ -137,7 +137,7 @@ You can set up synchronization between ADD INCLUDE<!--[!INCLUDE[navnow](../../in
      The **Next To-do Date** field lists the new date of the meeting. You can choose the date field to open the to-do list, and see the changes that you made to the appointment.  
   
 ## Handling a Synchronization Conflict  
- Michael decides to call the customer to let the customer know that David has made changes to the appointment. He finds that there is a conflict in the contact information, and troubleshoots the conflict. Although this scenario demonstrates how to solve the conflict manually, you can also set up synchronization to handle conflicts automatically. For more information, see [How to: Set Up Synchronization Conflict Resolution Options](../FullExperience/How%20to:%20Set%20Up%20Synchronization%20Conflict%20Resolution%20Options.md).  
+ Michael decides to call the customer to let the customer know that David has made changes to the appointment. He finds that there is a conflict in the contact information, and troubleshoots the conflict. Although this scenario demonstrates how to solve the conflict manually, you can also set up synchronization to handle conflicts automatically. For more information, see [How to: Set Up Synchronization Conflict Resolution Options](../How%20to:%20Set%20Up%20Synchronization%20Conflict%20Resolution%20Options.md).  
   
 #### To handle a conflict  
   
@@ -215,5 +215,5 @@ You can set up synchronization between ADD INCLUDE<!--[!INCLUDE[navnow](../../in
      Now that you have completed this walkthrough, you can establish synchronization entities and begin synchronizing between Outlook and your company's ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> implementation.  
   
 ## See Also  
- [Outlook Add-in-Product Name Synchronization Add-in](../FullExperience/Outlook%20Add-in-\($%20P_1%20Product%20Name%20$\)%20Synchronization%20Add-in.md)   
- [Troubleshooting: Microsoft Office Outlook Integration and Synchronization](../FullExperience/Troubleshooting:%20Microsoft%20Office%20Outlook%20Integration%20and%20Synchronization.md)
+ [Outlook Add-in-Product Name Synchronization Add-in](../Outlook%20Add-in-\($%20P_1%20Product%20Name%20$\)%20Synchronization%20Add-in.md)   
+ [Troubleshooting: Microsoft Office Outlook Integration and Synchronization](../Troubleshooting:%20Microsoft%20Office%20Outlook%20Integration%20and%20Synchronization.md)

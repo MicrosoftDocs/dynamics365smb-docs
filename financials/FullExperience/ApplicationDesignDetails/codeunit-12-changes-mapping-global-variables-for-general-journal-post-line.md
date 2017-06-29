@@ -106,4 +106,4 @@ The following changes have been implemented in this release of ADD INCLUDE<!--[!
 ||CrCardTransactionEntryNo@1013 : Integer;|Added|  
   
 ## See Also  
- [Codeunit 12 Changes: Changes in General Journal Post Procedures](../FullExperience/codeunit-12-changes-changes-in-general-journal-post-procedures.md)
+ [Codeunit 12 Changes: Changes in General Journal Post Procedures](../codeunit-12-changes-changes-in-general-journal-post-procedures.md)

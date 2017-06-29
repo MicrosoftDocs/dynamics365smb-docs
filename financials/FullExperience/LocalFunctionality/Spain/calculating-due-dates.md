@@ -70,9 +70,9 @@ In Spain, there is a legal limit for the number of days that a payment can be de
  At the end of these reports, there is a section that summarizes this information for all payments. These reports will show information based on applied detailed customer ledger entries or applied detailed vendor ledger entries. The information is based on the date filters that you specify. For more information, see Customer - Overdue Payments and Vendor - Overdue Payments.  
   
 ## See Also  
- [How to: Set Limits for Due Dates](../FullExperience/how-to-set-limits-for-due-dates.md)   
- [How to: Set Up Payment Terms](../FullExperience/how-to-set-up-payment-terms.md)   
- [Apply Purchase Transactions](../FullExperience/apply-purchase-transactions.md)   
- [Apply Sales Transactions](../FullExperience/apply-sales-transactions.md)   
+ [How to: Set Limits for Due Dates](../how-to-set-limits-for-due-dates.md)   
+ [How to: Set Up Payment Terms](../how-to-set-up-payment-terms.md)   
+ [Apply Purchase Transactions](../apply-purchase-transactions.md)   
+ [Apply Sales Transactions](../apply-sales-transactions.md)   
  Customer - Overdue Payments   
  Vendor - Overdue Payments

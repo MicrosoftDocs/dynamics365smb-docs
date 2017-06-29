@@ -35,10 +35,10 @@ VAT is charged on transactions that involve goods and services in Russia or good
  For most organizations, VAT payments are required to be submitted no later than the 20th day of the month. The timely submission of VAT payments is the responsibility of the taxpayer.  
   
 ## See Also  
- [About Setting Up VAT](../FullExperience/about-setting-up-vat.md)   
- [How to: Set Up VAT Business Posting Groups](../FullExperience/how-to-set-up-vat-business-posting-groups.md)   
- [How to: Assign VAT Business Posting Groups to Customer Accounts and Vendor Accounts](../FullExperience/how-to-assign-vat-business-posting-groups-to-customer-accounts-and-vendor-accounts.md)   
- [How to: Set Up VAT Ledgers](../FullExperience/how-to-set-up-vat-ledgers.md)   
- [How to: Correct VAT](../FullExperience/how-to-correct-vat.md)   
- [How to: Prepare VAT Entries for Posting](../FullExperience/how-to-prepare-vat-entries-for-posting.md)   
+ [About Setting Up VAT](../about-setting-up-vat.md)   
+ [How to: Set Up VAT Business Posting Groups](../how-to-set-up-vat-business-posting-groups.md)   
+ [How to: Assign VAT Business Posting Groups to Customer Accounts and Vendor Accounts](../how-to-assign-vat-business-posting-groups-to-customer-accounts-and-vendor-accounts.md)   
+ [How to: Set Up VAT Ledgers](../how-to-set-up-vat-ledgers.md)   
+ [How to: Correct VAT](../how-to-correct-vat.md)   
+ [How to: Prepare VAT Entries for Posting](../how-to-prepare-vat-entries-for-posting.md)   
  VAT Entry

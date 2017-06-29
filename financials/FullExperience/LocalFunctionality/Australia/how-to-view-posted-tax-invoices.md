@@ -37,7 +37,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can us
 3.  Choose the **OK** button.  
   
 ## See Also  
- [How to: View Posted Tax Credit Memos](../FullExperience/how-to-view-posted-tax-credit-memos.md)   
+ [How to: View Posted Tax Credit Memos](../how-to-view-posted-tax-credit-memos.md)   
  Sales Tax Invoice Line   
  Purch. Tax Inv. Line   
  Sales Invoice   

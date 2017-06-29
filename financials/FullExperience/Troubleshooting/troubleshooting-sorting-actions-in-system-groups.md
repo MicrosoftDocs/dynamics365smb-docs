@@ -22,4 +22,4 @@ In the Microsoft Dynamics NAV Windows client, you cannot order actions in system
  Remove all actions from the group, apply changes, and then add the actions again. This will ensure that metadata is created for all actions and that they can be sorted as you want.  
   
 ## See Also  
- [How to: Customize Ribbons](../FullExperience/how-to-customize-ribbons.md)
+ [How to: Customize Ribbons](../how-to-customize-ribbons.md)

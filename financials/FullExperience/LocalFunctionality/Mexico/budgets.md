@@ -37,5 +37,5 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> provides budge
   
 ## See Also  
  Budget   
- [How to: Create Budgets](../FullExperience/how-to-create-budgets.md)   
- [How to: Import or Export a Budget](../FullExperience/how-to-import-or-export-a-budget.md)
+ [How to: Create Budgets](../how-to-create-budgets.md)   
+ [How to: Import or Export a Budget](../how-to-import-or-export-a-budget.md)

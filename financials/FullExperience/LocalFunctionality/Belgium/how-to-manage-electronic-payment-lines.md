@@ -33,6 +33,6 @@ You can have ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> s
 4.  Choose the **OK** button.  
   
 ## See Also  
- [Belgian Electronic Payments](../FullExperience/belgian-electronic-payments.md)   
- [How to: Generate Payment Suggestions](../FullExperience/how-to-generate-payment-suggestions.md)   
- [How to: Test Electronic Payments](../FullExperience/how-to-test-electronic-payments.md)
+ [Belgian Electronic Payments](../belgian-electronic-payments.md)   
+ [How to: Generate Payment Suggestions](../how-to-generate-payment-suggestions.md)   
+ [How to: Test Electronic Payments](../how-to-test-electronic-payments.md)

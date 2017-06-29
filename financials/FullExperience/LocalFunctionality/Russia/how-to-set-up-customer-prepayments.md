@@ -48,7 +48,7 @@ Prepayments are advance payments on sales orders that are received, invoiced, an
  You can now invoice and collect advance payments from customers and post the payments to the correct invoices and accounts.  
   
 ## See Also  
- [Walkthrough: Setting Up and Invoicing Sales Prepayments](../FullExperience/walkthrough-setting-up-and-invoicing-sales-prepayments.md)   
- [Invoice Prepayments](../FullExperience/invoice-prepayments.md)   
- [Set Up Prepayments](../FullExperience/set-up-prepayments.md)   
- [How to: Correct Prepayments](../FullExperience/how-to-correct-prepayments.md)
+ [Walkthrough: Setting Up and Invoicing Sales Prepayments](../walkthrough-setting-up-and-invoicing-sales-prepayments.md)   
+ [Invoice Prepayments](../invoice-prepayments.md)   
+ [Set Up Prepayments](../set-up-prepayments.md)   
+ [How to: Correct Prepayments](../how-to-correct-prepayments.md)

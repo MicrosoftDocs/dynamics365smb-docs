@@ -22,7 +22,7 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> includes Swiss
   
 -   The ability to track an invoice with multiple shipments.  
   
--   Including an item card location code as the default location code for sales lines and item journals. For more information, see [How to: Set Up Locations](../FullExperience/how-to-set-up-locations.md) and the Item Card window.  
+-   Including an item card location code as the default location code for sales lines and item journals. For more information, see [How to: Set Up Locations](../how-to-set-up-locations.md) and the Item Card window.  
   
 ## Managing Item Details  
  Companies can have different warehouses for different product categories. In such cases, you must use the default location code retrieved from the item card. When you define a location code for an item, it is transferred to the sales lines and item journals as a default item location code. For more information, see the Sales Line and the Item Journal Line table.  
@@ -35,11 +35,11 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> includes Swiss
  If multiple shipments have been posted for a customer, then you can create a combined invoice with the **Get Shipment Lines** function. For more information, see the Get Shipment Lines window. When you use this function, the text created on the invoice lines includes information about the shipment number and the shipment date. For example, the text could appear as Shipment No. 102040 of 25.01.01. This allows you to easily track invoices with multiple shipments.  
   
 ## See Also  
- [How to: Block Shipment for Negative Inventory](../FullExperience/how-to-block-shipment-for-negative-inventory.md)   
- [How to: Block Inventory Items for Sales or Purchases](../FullExperience/how-to-block-inventory-items-for-sales-or-purchases.md)   
- [How to: Copy Existing Items to New Items](../FullExperience/how-to-copy-existing-items-to-new-items.md)   
- [How to: Deactivate Item Cost Tracking](../FullExperience/how-to-deactivate-item-cost-tracking.md)   
- [Switzerland Local Functionality](../FullExperience/switzerland-local-functionality.md)   
+ [How to: Block Shipment for Negative Inventory](../how-to-block-shipment-for-negative-inventory.md)   
+ [How to: Block Inventory Items for Sales or Purchases](../how-to-block-inventory-items-for-sales-or-purchases.md)   
+ [How to: Copy Existing Items to New Items](../how-to-copy-existing-items-to-new-items.md)   
+ [How to: Deactivate Item Cost Tracking](../how-to-deactivate-item-cost-tracking.md)   
+ [Switzerland Local Functionality](../switzerland-local-functionality.md)   
  Inventory - Sales Statistics   
  Inventory - List   
  Item Card   
@@ -47,5 +47,5 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> includes Swiss
  Item Ledger Entry   
  Item Journal Line   
  Sales Line   
- [How to: Set Up Locations](../FullExperience/how-to-set-up-locations.md)   
+ [How to: Set Up Locations](../how-to-set-up-locations.md)   
  Get Shipment Lines

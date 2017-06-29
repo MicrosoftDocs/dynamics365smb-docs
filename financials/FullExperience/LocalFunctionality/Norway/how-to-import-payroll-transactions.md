@@ -53,8 +53,8 @@ You can import payroll transactions into a general journal from two external pay
 4.  Choose the **OK** button.  
   
 ## See Also  
- [Norway Local Functionality](../FullExperience/norway-local-functionality.md)   
+ [Norway Local Functionality](../norway-local-functionality.md)   
  General Journal   
  Payroll Integration Setup   
  Import Hogia Windows Payroll   
- [\($ B\_15000066 Import Huldt & Lillevik $\)](../FullExperience/-$-b_15000066-import-huldt-lillevik-$-.md)
+ [\($ B\_15000066 Import Huldt & Lillevik $\)](../-$-b_15000066-import-huldt-lillevik-$-.md)

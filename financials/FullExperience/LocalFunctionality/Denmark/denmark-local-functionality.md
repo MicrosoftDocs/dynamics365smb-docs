@@ -19,7 +19,7 @@
 This section describes local functionality in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> in Denmark.  
   
 ## In This Section  
- [What's New](../FullExperience/what-s-new.md)  
-  [OIOUBL Electronic Invoicing Overview](../FullExperience/oioubl-electronic-invoicing-overview.md)  
-  [VAT-VIES Reporting](../FullExperience/vat-vies-reporting.md)  
- [Tables, Reports, Batch Jobs, and Windows](../FullExperience/tables-reports-batch-jobs-and-windows.md)
+ [What's New](../what-s-new.md)  
+  [OIOUBL Electronic Invoicing Overview](../oioubl-electronic-invoicing-overview.md)  
+  [VAT-VIES Reporting](../vat-vies-reporting.md)  
+ [Tables, Reports, Batch Jobs, and Windows](../tables-reports-batch-jobs-and-windows.md)

@@ -32,7 +32,7 @@ Email logging can be used to capture email activities between a ADD INCLUDE<!--[
   
 ### To automate and run email logging  
   
-1.  Start the job queue that you have specified to manage email logging. For more information, see [How to: Set Up Job Queues](../FullExperience/how-to-set-up-email-logging-for-use-with-the-job-queue.md).  
+1.  Start the job queue that you have specified to manage email logging. For more information, see [How to: Set Up Job Queues](../how-to-set-up-email-logging-for-use-with-the-job-queue.md).  
   
 2.  In your Outlook Sent folder, select the email messages that you want to use in email logging. The messages must be to or from a registered ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> salesperson or contact.  
   
@@ -41,7 +41,7 @@ Email logging can be used to capture email activities between a ADD INCLUDE<!--[
     > [!TIP]  
     >  You can use Outlook rules to automate this process. For example, you can set up a rule to always copy mail from a certain contact to your public queue folder. For more information, search Outlook Help for a topic called "Manage messages by using rules."  
   
-4.  After the mail in the queue folder is processed and determined to be valid, it is moved to the public storage folder. For more information, see [Logging and Tracking Email Interactions](../FullExperience/logging-and-tracking-email-interactions.md).  
+4.  After the mail in the queue folder is processed and determined to be valid, it is moved to the public storage folder. For more information, see [Logging and Tracking Email Interactions](../logging-and-tracking-email-interactions.md).  
   
 5.  In the **Search** box, enter **Interaction Log Entries**, and then choose the related link.  
   
@@ -53,4 +53,4 @@ Email logging can be used to capture email activities between a ADD INCLUDE<!--[
 7.  Select the log entry for the email message that you want to review. To review the mail, on the **Home** tab, choose **Show.** The email message opens in Outlook. You can reply to the mail. To have the mail interaction tracked in the **Interaction Log**, repeat step 3.  
   
 ## See Also  
- [Logging and Tracking Email Interactions](../FullExperience/logging-and-tracking-email-interactions.md)
+ [Logging and Tracking Email Interactions](../logging-and-tracking-email-interactions.md)

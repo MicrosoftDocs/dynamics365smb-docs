@@ -60,7 +60,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, an item ca
  Purchase Line   
  Item Journal   
  Item Journal Line   
- [Swiss Inventory Management](../FullExperience/swiss-inventory-management.md)   
- [How to: Block Shipment for Negative Inventory](../FullExperience/how-to-block-shipment-for-negative-inventory.md)   
- [How to: Copy Existing Items to New Items](../FullExperience/how-to-copy-existing-items-to-new-items.md)   
- [How to: Deactivate Item Cost Tracking](../FullExperience/how-to-deactivate-item-cost-tracking.md)
+ [Swiss Inventory Management](../swiss-inventory-management.md)   
+ [How to: Block Shipment for Negative Inventory](../how-to-block-shipment-for-negative-inventory.md)   
+ [How to: Copy Existing Items to New Items](../how-to-copy-existing-items-to-new-items.md)   
+ [How to: Deactivate Item Cost Tracking](../how-to-deactivate-item-cost-tracking.md)

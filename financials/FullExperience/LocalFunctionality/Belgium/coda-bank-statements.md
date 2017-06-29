@@ -41,14 +41,14 @@ The Coded Statement of Account \(CODA\) is a national banking standard, designed
   
  You can run the process as many times as you like. Only statement lines with a blank application status will be applied.  
   
- When you have applied all statement lines to a general ledger account or to a matching customer ledger entry or vendor ledger entry, you are ready to post the CODA statement lines. For more information, see [How to: Automatically Transfer and Post CODA Statements](../FullExperience/how-to-manually-transfer-and-post-coda-statements.md).  
+ When you have applied all statement lines to a general ledger account or to a matching customer ledger entry or vendor ledger entry, you are ready to post the CODA statement lines. For more information, see [How to: Automatically Transfer and Post CODA Statements](../how-to-manually-transfer-and-post-coda-statements.md).  
   
 ## See Also  
- [Belgian Electronic Banking](../FullExperience/belgian-electronic-banking.md)   
- [How to: Set Up Bank Accounts for CODA](../FullExperience/how-to-set-up-bank-accounts-for-coda.md)   
- [How to: Set Up IBLC-BLWI Transaction Codes](../FullExperience/how-to-set-up-iblc-blwi-transaction-codes.md)   
- [How to: Import CODA Statements](../FullExperience/how-to-import-coda-statements.md)   
- [How to: Apply CODA Statements](../FullExperience/how-to-apply-coda-statements.md)   
- [How to: Create Financial Journals](../FullExperience/how-to-create-financial-journals.md)   
- [How to: Automatically Transfer and Post CODA Statements](../FullExperience/how-to-automatically-transfer-and-post-coda-statements.md)   
- [How to: Manually Transfer and Post CODA Statements](../FullExperience/how-to-manually-transfer-and-post-coda-statements.md)
+ [Belgian Electronic Banking](../belgian-electronic-banking.md)   
+ [How to: Set Up Bank Accounts for CODA](../how-to-set-up-bank-accounts-for-coda.md)   
+ [How to: Set Up IBLC-BLWI Transaction Codes](../how-to-set-up-iblc-blwi-transaction-codes.md)   
+ [How to: Import CODA Statements](../how-to-import-coda-statements.md)   
+ [How to: Apply CODA Statements](../how-to-apply-coda-statements.md)   
+ [How to: Create Financial Journals](../how-to-create-financial-journals.md)   
+ [How to: Automatically Transfer and Post CODA Statements](../how-to-automatically-transfer-and-post-coda-statements.md)   
+ [How to: Manually Transfer and Post CODA Statements](../how-to-manually-transfer-and-post-coda-statements.md)

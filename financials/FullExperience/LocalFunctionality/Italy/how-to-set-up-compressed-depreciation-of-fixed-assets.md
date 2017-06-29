@@ -34,8 +34,8 @@ You can compress fixed asset depreciation into subclasses and choose to display 
 4.  Choose the **OK** button.  
   
 ## See Also  
- [How to: Set Up Depreciation Books](../FullExperience/how-to-set-up-depreciation-books.md)   
- [Italian Fixed Assets](../FullExperience/italian-fixed-assets.md)   
- [How to: Set Up Alternate Depreciation Methods](../FullExperience/how-to-set-up-alternate-depreciation-methods.md)   
- [How to: Create Multiple Fixed Asset Cards](../FullExperience/how-to-create-multiple-fixed-asset-cards.md)   
- [How to: Print Depreciation Book Reports](../FullExperience/how-to-print-depreciation-book-reports.md)
+ [How to: Set Up Depreciation Books](../how-to-set-up-depreciation-books.md)   
+ [Italian Fixed Assets](../italian-fixed-assets.md)   
+ [How to: Set Up Alternate Depreciation Methods](../how-to-set-up-alternate-depreciation-methods.md)   
+ [How to: Create Multiple Fixed Asset Cards](../how-to-create-multiple-fixed-asset-cards.md)   
+ [How to: Print Depreciation Book Reports](../how-to-print-depreciation-book-reports.md)

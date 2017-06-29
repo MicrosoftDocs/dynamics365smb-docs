@@ -28,7 +28,7 @@ You can use the **CBG Posting - Test** report to edit the statement lines and se
   
 3.  To include the information on applied entries for the statement lines, on the **ADD INCLUDE<!--[!INCLUDE[bp_optionsheading](../../includes/bp_optionsheading_md.md)]-->** FastTab, select the **\($ R\_11400\_N\_2\_5 Show Applied Entries $\)** check box.  
   
-     For more information, see [How to: Apply and Unapply General Ledger Entries](../FullExperience/how-to-apply-and-unapply-general-ledger-entries.md).  
+     For more information, see [How to: Apply and Unapply General Ledger Entries](../how-to-apply-and-unapply-general-ledger-entries.md).  
   
 4.  On the **CBG Statement** FastTab, select the appropriate filters.  
   
@@ -55,9 +55,9 @@ You can use the **CBG Posting - Test** report to edit the statement lines and se
 7.  Choose the **Print** button to print the report or choose the **Preview** button to view it in on the screen.  
   
 ## See Also  
- [How to: Apply and Unapply General Ledger Entries](../FullExperience/how-to-apply-and-unapply-general-ledger-entries.md)   
+ [How to: Apply and Unapply General Ledger Entries](../how-to-apply-and-unapply-general-ledger-entries.md)   
  CBG Statement Line Table   
- [Cash-Bank-Giro](../FullExperience/cash-bank-giro.md)   
+ [Cash-Bank-Giro](../cash-bank-giro.md)   
  Cash Journal Window   
  Bank-Giro Journal Window   
  CBG Posting - Test Report

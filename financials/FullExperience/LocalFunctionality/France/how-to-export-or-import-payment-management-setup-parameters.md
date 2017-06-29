@@ -26,7 +26,7 @@ You can export or import payment management setup parameters to an external disk
   
 -   Transfer \(XMLport 10862\) – To create a vendor payment transfer \(credit transfer\).  
   
- You can select these formats when you set up the payment status for your payment class. For more information, see [How to: Set Up Payment Classes](../FullExperience/how-to-set-up-payment-classes.md).  
+ You can select these formats when you set up the payment status for your payment class. For more information, see [How to: Set Up Payment Classes](../how-to-set-up-payment-classes.md).  
   
 ### To export or import payment management setup parameters  
   
@@ -41,11 +41,11 @@ You can export or import payment management setup parameters to an external disk
 4.  Choose the **OK** button.  
   
 ## See Also  
- [Payment Management](../FullExperience/payment-management.md)   
- [How to: Set Up Payment Classes](../FullExperience/how-to-set-up-payment-classes.md)   
- [How to: Set Up Payment Statuses](../FullExperience/how-to-set-up-payment-statuses.md)   
- [How to: Set Up Payment Steps](../FullExperience/how-to-set-up-payment-steps.md)   
- [How to: Set Up Payment Addresses](../FullExperience/how-to-set-up-payment-addresses.md)   
- [How to: Create Payment Slips](../FullExperience/how-to-create-payment-slips.md)   
- [How to: Archive Payment Slips](../FullExperience/how-to-archive-payment-slips.md)   
+ [Payment Management](../payment-management.md)   
+ [How to: Set Up Payment Classes](../how-to-set-up-payment-classes.md)   
+ [How to: Set Up Payment Statuses](../how-to-set-up-payment-statuses.md)   
+ [How to: Set Up Payment Steps](../how-to-set-up-payment-steps.md)   
+ [How to: Set Up Payment Addresses](../how-to-set-up-payment-addresses.md)   
+ [How to: Create Payment Slips](../how-to-create-payment-slips.md)   
+ [How to: Archive Payment Slips](../how-to-archive-payment-slips.md)   
  Payment Class

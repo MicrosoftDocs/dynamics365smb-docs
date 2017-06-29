@@ -35,4 +35,4 @@ The **Cash Outgoing Order CO-2** report shows the outgoing cash order, which is 
 ## See Also  
  Cash Report CO-4   
  Cash Order Journal CO-3   
- [Petty Cash Management](../FullExperience/petty-cash-management.md)
+ [Petty Cash Management](../petty-cash-management.md)

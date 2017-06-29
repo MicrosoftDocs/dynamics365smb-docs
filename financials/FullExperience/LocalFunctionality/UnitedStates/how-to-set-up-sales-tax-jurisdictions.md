@@ -76,8 +76,8 @@ In the United States, states, counties, cities, and localities can charge sales 
 5.  Choose the **OK** button.  
   
 ## See Also  
- [How to: Set Up Sales Tax](../FullExperience/how-to-set-up-sales-tax.md)   
- [How to: Set Up Sales Tax Groups](../FullExperience/how-to-set-up-sales-tax-groups.md)   
- [How to: Set Up Sales Tax Details](../FullExperience/how-to-set-up-sales-tax-details.md)   
- [How to: Set Up Unrealized Sales Tax and Sales Payment Discounts](../FullExperience/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)   
- [How to: Set Up Use Tax and Purchase Tax](../FullExperience/how-to-set-up-use-tax-and-purchase-tax.md)
+ [How to: Set Up Sales Tax](../how-to-set-up-sales-tax.md)   
+ [How to: Set Up Sales Tax Groups](../how-to-set-up-sales-tax-groups.md)   
+ [How to: Set Up Sales Tax Details](../how-to-set-up-sales-tax-details.md)   
+ [How to: Set Up Unrealized Sales Tax and Sales Payment Discounts](../how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)   
+ [How to: Set Up Use Tax and Purchase Tax](../how-to-set-up-use-tax-and-purchase-tax.md)

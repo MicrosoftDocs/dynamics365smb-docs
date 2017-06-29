@@ -56,4 +56,4 @@ The letter of attorney feature enables you to create and print a Letter of Attor
 2.  Choose the **OK** button.  
   
 ## See Also  
- [How to: Set Up Responsible Employees and Advance Statements](../FullExperience/how-to-set-up-responsible-employees-and-advance-statements.md)
+ [How to: Set Up Responsible Employees and Advance Statements](../how-to-set-up-responsible-employees-and-advance-statements.md)

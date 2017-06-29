@@ -82,5 +82,5 @@ After you have defined the statutory reports that are required by the tax author
  Now, you can submit the report. For more information, see [Statutory Reporting Directives](http://go.microsoft.com/fwlink/?LinkId=216142) on the Federal Tax Services website.  
   
 ## See Also  
- [Statutory Reports](../FullExperience/statutory-reports.md)   
- [How to: Set Up Statutory Reports](../FullExperience/how-to-set-up-statutory-reports.md)
+ [Statutory Reports](../statutory-reports.md)   
+ [How to: Set Up Statutory Reports](../how-to-set-up-statutory-reports.md)

@@ -25,4 +25,4 @@ A General Interbank Recurring Order \(giro\) is a payment system that operates l
  You can use any OCR-B font, but if other fonts are used, the sales documents must be updated by a Microsoft Certified Partner. Contact your partner for more information.  
   
 ## See Also  
- [Norwegian Sales Documents](../FullExperience/norwegian-sales-documents.md)
+ [Norwegian Sales Documents](../norwegian-sales-documents.md)

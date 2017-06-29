@@ -298,6 +298,6 @@ You can export business data for auditing purposes. How the data export is set u
  The next time the tax auditors request new data, Cassie and Sean can collaborate to create a new data export.  
   
 ## See Also  
- [Process for Data Access and Testability of Digital Documents \(GDPdU\)](../FullExperience/process-for-data-access-and-testability-of-digital-documents-gdpdu-.md)   
- [How to: Set Up Data Exports for GDPdU](../FullExperience/how-to-set-up-data-exports-for-gdpdu.md)   
- [How to: Export GDPdU Data](../FullExperience/how-to-export-gdpdu-data.md)
+ [Process for Data Access and Testability of Digital Documents \(GDPdU\)](../process-for-data-access-and-testability-of-digital-documents-gdpdu-.md)   
+ [How to: Set Up Data Exports for GDPdU](../how-to-set-up-data-exports-for-gdpdu.md)   
+ [How to: Export GDPdU Data](../how-to-export-gdpdu-data.md)

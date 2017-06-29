@@ -19,4 +19,4 @@
 ADD INCLUDE<!--[!INCLUDE[bn_reports](../../includes/bn_reports_md.md)]-->  
   
 ## See Also  
- [Russia Local Functionality](../FullExperience/russia-local-functionality.md)
+ [Russia Local Functionality](../russia-local-functionality.md)

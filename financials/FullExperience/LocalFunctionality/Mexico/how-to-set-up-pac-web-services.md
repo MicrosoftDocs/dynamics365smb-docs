@@ -61,5 +61,5 @@ Before you can send invoices and credit memos electronically, you must specify o
     >  SAT has certified more than one PAC in Mexico, and you must obtain the appropriate information for communication with the PAC of your choice.  
   
 ## See Also  
- [Electronic Invoicing](../FullExperience/electronic-invoicing.md)   
- [How to: Set Up Electronic Invoicing](../FullExperience/how-to-set-up-electronic-invoicing.md)
+ [Electronic Invoicing](../electronic-invoicing.md)   
+ [How to: Set Up Electronic Invoicing](../how-to-set-up-electronic-invoicing.md)

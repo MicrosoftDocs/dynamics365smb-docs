@@ -32,7 +32,7 @@ You can export financial data and tax data according to the process for data acc
     |**\($ B\_11015\_N\_2\_1140002 Ending Date $\)**|Specifies the end date for the data export.|  
     |**\($ B\_11015\_N\_2\_1140084 Include Closing Date $\)**|Specifies if the data export must include the closing date for the period.|  
   
-3.  On the **Data Export Record Definition** FastTab, select the appropriate filters to identify the data export and data export record type. For more information, see [Process for Data Access and Testability of Digital Documents \(GDPdU\)](../FullExperience/process-for-data-access-and-testability-of-digital-documents-gdpdu-.md).  
+3.  On the **Data Export Record Definition** FastTab, select the appropriate filters to identify the data export and data export record type. For more information, see [Process for Data Access and Testability of Digital Documents \(GDPdU\)](../process-for-data-access-and-testability-of-digital-documents-gdpdu-.md).  
   
 4.  To export the data, choose the **OK** button.  
   
@@ -42,4 +42,4 @@ You can export financial data and tax data according to the process for data acc
  You will be notified when the export completes. If you cancel the export, or if you close the window, you will also be notified that the export has completed, but the log folder will be empty. However, depending on your configuration, some files may have been exported, but the export might not be complete.  
   
 ## See Also  
- [Process for Data Access and Testability of Digital Documents \(GDPdU\)](../FullExperience/process-for-data-access-and-testability-of-digital-documents-gdpdu-.md)
+ [Process for Data Access and Testability of Digital Documents \(GDPdU\)](../process-for-data-access-and-testability-of-digital-documents-gdpdu-.md)

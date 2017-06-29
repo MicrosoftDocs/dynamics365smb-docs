@@ -40,4 +40,4 @@ You can use the following reports for month-end reconciliation and auditing:
  Stock Shipped not Invoiced   
  Nonstock Item   
  Nonstock Item Card   
- [United Kingdom Local Functionality](../FullExperience/united-kingdom-local-functionality.md)
+ [United Kingdom Local Functionality](../united-kingdom-local-functionality.md)

@@ -34,6 +34,6 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can us
 4.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [Denmark Local Functionality](../FullExperience/denmark-local-functionality.md)   
+ [Denmark Local Functionality](../denmark-local-functionality.md)   
  Reconcile Cust and Vend Accs   
  VAT Reconciliation

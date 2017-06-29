@@ -108,10 +108,10 @@ Sales tax includes taxes that companies pay for using items:
 4.  Choose the **OK** button.  
   
 ## See Also  
- [How to: Set Up Sales Tax](../FullExperience/how-to-set-up-sales-tax.md)   
- [How to: Set Up Sales Tax Groups](../FullExperience/how-to-set-up-sales-tax-groups.md)   
- [How to: Set Up Sales Tax Jurisdictions](../FullExperience/how-to-set-up-sales-tax-jurisdictions.md)   
- [How to: Set Up Unrealized Sales Tax and Sales Payment Discounts](../FullExperience/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)   
- [How to: Set Up Sales Tax Details](../FullExperience/how-to-set-up-sales-tax-details.md)   
- [How to: Enter Company Information](../FullExperience/how-to-enter-company-information.md)   
- [How to: Set Up Locations](../FullExperience/how-to-set-up-locations.md)
+ [How to: Set Up Sales Tax](../how-to-set-up-sales-tax.md)   
+ [How to: Set Up Sales Tax Groups](../how-to-set-up-sales-tax-groups.md)   
+ [How to: Set Up Sales Tax Jurisdictions](../how-to-set-up-sales-tax-jurisdictions.md)   
+ [How to: Set Up Unrealized Sales Tax and Sales Payment Discounts](../how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)   
+ [How to: Set Up Sales Tax Details](../how-to-set-up-sales-tax-details.md)   
+ [How to: Enter Company Information](../how-to-enter-company-information.md)   
+ [How to: Set Up Locations](../how-to-set-up-locations.md)

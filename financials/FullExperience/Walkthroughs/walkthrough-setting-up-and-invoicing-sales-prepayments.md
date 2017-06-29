@@ -160,7 +160,7 @@ Prepayments are payments that are invoiced and posted to a sales or purchase pre
   
      By default, the prepayment fields on the sales line are hidden, so you must display them.  
   
-7.  On **Lines** FastTab, on the toolbar, choose **Actions**![Actions](../FullExperience/media/actionsicon.png "ActionsIcon"), and then choose **Choose Columns**.  
+7.  On **Lines** FastTab, on the toolbar, choose **Actions**![Actions](../media/actionsicon.png "ActionsIcon"), and then choose **Choose Columns**.  
   
 8.  Add the following fields: **Prepayment %**, **Prepayment Line Amount Excl. VAT**, and **Prepmt. Amt. Inv. Excl. VAT**.  
   
@@ -172,7 +172,7 @@ Prepayments are payments that are invoiced and posted to a sales or purchase pre
   
      The **Prepayment %** field on the line with item **1100** contains **40**. This is the percentage you entered in the **Sales Prepayment Percentages** window for item **1100** and customer **20000**.  
   
-     For more information, see [How to: Define Prepayment Percentages](../FullExperience/how-to-define-prepayment-percentages.md).  
+     For more information, see [How to: Define Prepayment Percentages](../how-to-define-prepayment-percentages.md).  
   
 11. On the **Navigate** tab, in the **Order** group, choose **Statistics**.  
   
@@ -273,4 +273,4 @@ Prepayments are payments that are invoiced and posted to a sales or purchase pre
  The prepayments functionality in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> makes it easy to set up and enforce prepayment rules for customers and items, and it enables you to post every payment against an invoice.  
   
 ## See Also  
- [Business Process Walkthroughs](../FullExperience/business-process-walkthroughs.md)
+ [Business Process Walkthroughs](../business-process-walkthroughs.md)

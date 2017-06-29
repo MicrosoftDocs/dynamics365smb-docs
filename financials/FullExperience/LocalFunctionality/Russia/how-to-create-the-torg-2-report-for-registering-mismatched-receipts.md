@@ -33,7 +33,7 @@ The TORG-2 report is used to document inconsistencies for deviations of received
 3.  Choose the **OK** button.  
   
 ## See Also  
- [Inventory Setup](../FullExperience/inventory-setup.md)   
+ [Inventory Setup](../inventory-setup.md)   
  Item Report TORG-29   
  Items Receipt Act TORG-1   
  Receipt Deviations TORG-2   

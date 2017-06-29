@@ -29,4 +29,4 @@ In the ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> posting
 -   UnapplyVendLedgEntry – post unapply of vendor application, called from codeunit 227 VendEntry-Apply Posted Entries  
   
 ## See Also  
- [Design Details: Posting Engine Structure](../FullExperience/design-details-posting-engine-structure.md)
+ [Design Details: Posting Engine Structure](../design-details-posting-engine-structure.md)

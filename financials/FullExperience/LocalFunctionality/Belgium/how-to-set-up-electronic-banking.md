@@ -28,7 +28,7 @@ With electronic banking, you can make electronic payments to domestic, internati
   
 -   Electronic banking setup.  
   
--   IBLC\/BLWI codes - For more information, see [How to: Set Up IBLC-BLWI Transaction Codes](../FullExperience/how-to-set-up-iblc-blwi-transaction-codes.md).  
+-   IBLC\/BLWI codes - For more information, see [How to: Set Up IBLC-BLWI Transaction Codes](../how-to-set-up-iblc-blwi-transaction-codes.md).  
   
 -   Preferred bank accounts \(optional\).  
   
@@ -88,12 +88,12 @@ With electronic banking, you can make electronic payments to domestic, internati
   
 ## See Also  
  [Isabel website](http://go.microsoft.com/fwlink/?LinkId=210323)   
- [Belgian Electronic Banking](../FullExperience/belgian-electronic-banking.md)   
- [Belgian Electronic Payments](../FullExperience/belgian-electronic-payments.md)   
- [How to: Set Up IBLC-BLWI Transaction Codes](../FullExperience/how-to-set-up-iblc-blwi-transaction-codes.md)   
- [How to: Set Up Vendors for Automatic Payment Suggestions](../FullExperience/how-to-set-up-vendors-for-automatic-payment-suggestions.md)   
- [How to: Generate Payment Suggestions](../FullExperience/how-to-generate-payment-suggestions.md)   
- [How to: Create Payment Journal Templates and Batches](../FullExperience/how-to-create-payment-journal-templates-and-batches.md)   
- [How to: Test Electronic Payments](../FullExperience/how-to-test-electronic-payments.md)   
- [How to: Manage Electronic Payment Lines](../FullExperience/how-to-manage-electronic-payment-lines.md)   
- [How to: Print Payment Files](../FullExperience/how-to-print-payment-files.md)
+ [Belgian Electronic Banking](../belgian-electronic-banking.md)   
+ [Belgian Electronic Payments](../belgian-electronic-payments.md)   
+ [How to: Set Up IBLC-BLWI Transaction Codes](../how-to-set-up-iblc-blwi-transaction-codes.md)   
+ [How to: Set Up Vendors for Automatic Payment Suggestions](../how-to-set-up-vendors-for-automatic-payment-suggestions.md)   
+ [How to: Generate Payment Suggestions](../how-to-generate-payment-suggestions.md)   
+ [How to: Create Payment Journal Templates and Batches](../how-to-create-payment-journal-templates-and-batches.md)   
+ [How to: Test Electronic Payments](../how-to-test-electronic-payments.md)   
+ [How to: Manage Electronic Payment Lines](../how-to-manage-electronic-payment-lines.md)   
+ [How to: Print Payment Files](../how-to-print-payment-files.md)

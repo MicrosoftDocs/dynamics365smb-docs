@@ -30,5 +30,5 @@ The Isabel organization has developed a Client Isabel Synchronizer \(CIS\) platf
   
 ## See Also  
  [Isabel website](http://go.microsoft.com/fwlink/?LinkId=210323)   
- [Belgian Electronic Banking](../FullExperience/belgian-electronic-banking.md)   
- [How to: Set Up Electronic Banking](../FullExperience/how-to-set-up-electronic-banking.md)
+ [Belgian Electronic Banking](../belgian-electronic-banking.md)   
+ [How to: Set Up Electronic Banking](../how-to-set-up-electronic-banking.md)

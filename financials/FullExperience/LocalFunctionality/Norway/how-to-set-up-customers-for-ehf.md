@@ -18,7 +18,7 @@
 # How to: Set Up Customers for EHF
 To create Elektronisk Handelsformat \(EHF\) documents for customers in the public sector, you must add EHF information to the relevant customers.  
   
- This topic only describes fields that apply to EHF. For more information on setting up customers, in general, see [How to: Register New Customers](../FullExperience/how-to-register-new-customers.md).  
+ This topic only describes fields that apply to EHF. For more information on setting up customers, in general, see [How to: Register New Customers](../how-to-register-new-customers.md).  
   
 ### To set up a customer that uses Elektronisk Handelsformat  
   
@@ -35,8 +35,8 @@ To create Elektronisk Handelsformat \(EHF\) documents for customers in the publi
     |**E-Invoice**|Select the check box to use electronic invoicing with this customer.|  
     |**Responsibility Center**|Make sure that the Responsibility Center that you have selected has a Country\/Region Code specified.|  
   
- These fields are specific to EHF. The values are used in all EHF documents that you create for this customer. For more information, see [EHF Electronic Invoicing in Norway](../FullExperience/ehf-electronic-invoicing-in-norway.md).  
+ These fields are specific to EHF. The values are used in all EHF documents that you create for this customer. For more information, see [EHF Electronic Invoicing in Norway](../ehf-electronic-invoicing-in-norway.md).  
   
 ## See Also  
- [How to: Create Electronic Documents for EHF](../FullExperience/how-to-create-electronic-documents-for-ehf.md)   
- [How to: Set Up EHF](../FullExperience/how-to-set-up-ehf.md)
+ [How to: Create Electronic Documents for EHF](../how-to-create-electronic-documents-for-ehf.md)   
+ [How to: Set Up EHF](../how-to-set-up-ehf.md)

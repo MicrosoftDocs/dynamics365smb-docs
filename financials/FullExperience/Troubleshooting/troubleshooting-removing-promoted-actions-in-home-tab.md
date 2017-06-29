@@ -22,4 +22,4 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> removing a 
  Remove the action, apply changes, add the action again, and then apply changes. Or, remove the action, add it again in same session, and then apply changes. Remove duplicate instances and apply changes.  
   
 ## See Also  
- [How to: Customize Ribbons](../FullExperience/how-to-customize-ribbons.md)
+ [How to: Customize Ribbons](../how-to-customize-ribbons.md)

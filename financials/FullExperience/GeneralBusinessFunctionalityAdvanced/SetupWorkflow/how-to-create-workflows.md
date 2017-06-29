@@ -18,7 +18,7 @@
 # How to: Cancel Requests for Approval
 A customer may want to change an order after it has been submitted for approval. In this case, you can cancel the approval process and make the necessary changes to the order before you request approval again.  
   
- If you just want to make a minor change to an approved document, you can reopen it temporarily, and then release it again, without requesting approval again. For more information, see [How to: Make Minor Changes to Approved Records](../FullExperience/how-to-make-minor-changes-to-approved-records.md).  
+ If you just want to make a minor change to an approved document, you can reopen it temporarily, and then release it again, without requesting approval again. For more information, see [How to: Make Minor Changes to Approved Records](../how-to-make-minor-changes-to-approved-records.md).  
   
  Approval of records must be set up as workflows, one workflow for each scenario, such as the Purchase Invoice Approval Workflow. The generic version of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]--> includes workflow templates for approval of all types of sales and purchase documents and for other records, such as customer cards. For more information, see the list of workflow templates in the Workflow Templates window.  
   
@@ -31,14 +31,14 @@ A customer may want to change an order after it has been submitted for approval.
     >   
     >  If you choose **Journal Batch**, then approval requests for all journal lines are canceled, also those that you may not see because of filters.  
   
- When the approval request has been canceled, the status of the related approval entry is changed to **Canceled**. The status of the record is updated from **Pending Approval** to **Open**. The approval process can then start again. For more information, see [How to: Request Approval](../FullExperience/how-to-request-approval.md).  
+ When the approval request has been canceled, the status of the related approval entry is changed to **Canceled**. The status of the record is updated from **Pending Approval** to **Open**. The approval process can then start again. For more information, see [How to: Request Approval](../how-to-request-approval.md).  
   
 ## See Also  
  Requests to Approve   
- [How to: Approve or Reject Requests for Approval](../FullExperience/how-to-approve-or-reject-requests-for-approval.md)   
- [How to: Make Minor Changes to Approved Records](../FullExperience/how-to-make-minor-changes-to-approved-records.md)   
- [Walkthrough: Setting Up and Using a Purchase Approval Workflow](../FullExperience/walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
- [Set Up Workflows](../FullExperience/set-up-workflows.md)   
- [Use Workflows](../FullExperience/use-workflows.md)   
- [Workflow](../FullExperience/workflow.md)   
- [Business Functionality](../FullExperience/Business%20Functionality.md)
+ [How to: Approve or Reject Requests for Approval](../how-to-approve-or-reject-requests-for-approval.md)   
+ [How to: Make Minor Changes to Approved Records](../how-to-make-minor-changes-to-approved-records.md)   
+ [Walkthrough: Setting Up and Using a Purchase Approval Workflow](../walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
+ [Set Up Workflows](../set-up-workflows.md)   
+ [Use Workflows](../use-workflows.md)   
+ [Workflow](../workflow.md)   
+ [Business Functionality](../Business%20Functionality.md)

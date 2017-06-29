@@ -54,16 +54,16 @@ You set up email logging in the **Marketing Setup** window. Setup requires an em
   
 8.  To make sure that the address is valid on an Exchange Server, on the **Actions** tab, choose **Validate Email Logging Setup**.  
   
- After you have completed the setup of email logging, set up a job queue to start the process of having your email interactions logged on a regular or one-time basis. For more information, see [How to: Set Up Email Logging for use with the Job Queue](../FullExperience/how-to-set-up-email-logging-for-use-with-the-job-queue.md).  
+ After you have completed the setup of email logging, set up a job queue to start the process of having your email interactions logged on a regular or one-time basis. For more information, see [How to: Set Up Email Logging for use with the Job Queue](../how-to-set-up-email-logging-for-use-with-the-job-queue.md).  
   
 ### To undo email logging setup  
   
 -   To undo all settings for email logging setup, on the **Actions** tab, choose **Clear Email Logging Setup**.  
   
 ## See Also  
- [How to: Create Interactions](../FullExperience/how-to-create-interactions.md)   
+ [How to: Create Interactions](../how-to-create-interactions.md)   
  Storage Folder Name   
  Queue Folder Name   
- [How to: Set Up Email Logging for use with the Job Queue](../FullExperience/how-to-set-up-email-logging-for-use-with-the-job-queue.md)   
- [Walkthrough: Logging Email Interactions in the Microsoft Dynamics NAV Database](../FullExperience/walkthrough-logging-email-interactions-in-the-microsoft-dynamics-nav-database.md)   
- [Logging and Tracking Email Interactions](../FullExperience/logging-and-tracking-email-interactions.md)
+ [How to: Set Up Email Logging for use with the Job Queue](../how-to-set-up-email-logging-for-use-with-the-job-queue.md)   
+ [Walkthrough: Logging Email Interactions in the Microsoft Dynamics NAV Database](../walkthrough-logging-email-interactions-in-the-microsoft-dynamics-nav-database.md)   
+ [Logging and Tracking Email Interactions](../logging-and-tracking-email-interactions.md)

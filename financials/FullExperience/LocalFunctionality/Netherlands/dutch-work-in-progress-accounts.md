@@ -30,4 +30,4 @@ When there is a change in the number of items in inventory, you can determine wh
  For example, if a bicycle wheel is produced for stock, assign the WIP account to the wheel. If the bicycle wheel is produced as a BOM component for a bicycle, assign the WIP account to the bicycle.  
   
 ## See Also  
- [Netherlands Local Functionality](../FullExperience/netherlands-local-functionality.md)
+ [Netherlands Local Functionality](../netherlands-local-functionality.md)

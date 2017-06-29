@@ -38,18 +38,18 @@ In the electronic banking module in ADD INCLUDE<!--[!INCLUDE[nav_current_short](
 |Correction|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
 |----------------|---------------------------------------|  
 |Add a payment journal line|If the payment journal already contains many lines and you want to add an additional line, you can enter the journal line manually. For example, if you want to reimburse a credit memo to a customer. These types of customer payments are not suggested automatically by the **Suggest Vendor Payments** batch job.|  
-|Edit a payment journal line|If you have not assigned a bank account to the payment journal or if you have not specified a preferred bank account on the Vendor card, you will have to manually enter this information on each journal line before posting the journal. If you specify a bank account for a vendor, the bank account will be copied to all payment journal lines for that vendor. For more information, see [How to: Set Up Electronic Banking](../FullExperience/how-to-set-up-electronic-banking.md).|  
+|Edit a payment journal line|If you have not assigned a bank account to the payment journal or if you have not specified a preferred bank account on the Vendor card, you will have to manually enter this information on each journal line before posting the journal. If you specify a bank account for a vendor, the bank account will be copied to all payment journal lines for that vendor. For more information, see [How to: Set Up Electronic Banking](../how-to-set-up-electronic-banking.md).|  
 |Delete a payment journal line|The **Suggest Vendor Payments** batch job creates payment suggestions for all vendors matching the specified criteria. If you want to prevent payment for a specific vendor ledger entry or vendor, you can delete the corresponding journal lines.|  
   
- For more information, see [How to: Manage Electronic Payment Lines](../FullExperience/how-to-manage-electronic-payment-lines.md).  
+ For more information, see [How to: Manage Electronic Payment Lines](../how-to-manage-electronic-payment-lines.md).  
   
 ## See Also  
- [Belgian Electronic Banking](../FullExperience/belgian-electronic-banking.md)   
- [How to: Set Up Electronic Banking](../FullExperience/how-to-set-up-electronic-banking.md)   
- [How to: Set Up IBLC-BLWI Transaction Codes](../FullExperience/how-to-set-up-iblc-blwi-transaction-codes.md)   
- [How to: Set Up Vendors for Automatic Payment Suggestions](../FullExperience/how-to-set-up-vendors-for-automatic-payment-suggestions.md)   
- [How to: Generate Payment Suggestions](../FullExperience/how-to-generate-payment-suggestions.md)   
- [How to: Create Payment Journal Templates and Batches](../FullExperience/how-to-create-payment-journal-templates-and-batches.md)   
- [How to: Test Electronic Payments](../FullExperience/how-to-test-electronic-payments.md)   
- [How to: Manage Electronic Payment Lines](../FullExperience/how-to-manage-electronic-payment-lines.md)   
- [How to: Print Payment Files](../FullExperience/how-to-print-payment-files.md)
+ [Belgian Electronic Banking](../belgian-electronic-banking.md)   
+ [How to: Set Up Electronic Banking](../how-to-set-up-electronic-banking.md)   
+ [How to: Set Up IBLC-BLWI Transaction Codes](../how-to-set-up-iblc-blwi-transaction-codes.md)   
+ [How to: Set Up Vendors for Automatic Payment Suggestions](../how-to-set-up-vendors-for-automatic-payment-suggestions.md)   
+ [How to: Generate Payment Suggestions](../how-to-generate-payment-suggestions.md)   
+ [How to: Create Payment Journal Templates and Batches](../how-to-create-payment-journal-templates-and-batches.md)   
+ [How to: Test Electronic Payments](../how-to-test-electronic-payments.md)   
+ [How to: Manage Electronic Payment Lines](../how-to-manage-electronic-payment-lines.md)   
+ [How to: Print Payment Files](../how-to-print-payment-files.md)

@@ -69,11 +69,11 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> handles the
  The EndToEndId in the SEPA message is taken from the payment message and can be truncated to the maximum length of 45 characters.  
   
 ## See Also  
- [How to: Set Up Electronic Banking](../FullExperience/how-to-set-up-electronic-banking.md)   
+ [How to: Set Up Electronic Banking](../how-to-set-up-electronic-banking.md)   
  Summarize Gen. Jnl. Lines   
  Cut off Payment Message Texts   
  Chart of Accounts   
- [How to: Set Up General Ledger Accounts in the Chart of Accounts Window](../FullExperience/how-to-set-up-general-ledger-accounts-in-the-chart-of-accounts-window.md)   
+ [How to: Set Up General Ledger Accounts in the Chart of Accounts Window](../how-to-set-up-general-ledger-accounts-in-the-chart-of-accounts-window.md)   
  Purchase Invoice   
- [How to: Post Purchase Invoices](../FullExperience/how-to-post-purchase-invoices.md)   
+ [How to: Post Purchase Invoices](../how-to-post-purchase-invoices.md)   
  Sales Invoice

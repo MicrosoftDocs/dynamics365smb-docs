@@ -40,7 +40,7 @@ To use fiscal inventory valuation, you must set up inventory valuation methods.
 3.  Choose the **OK** button.  
   
 ## See Also  
- [Fiscal Inventory Valuation](../FullExperience/fiscal-inventory-valuation.md)   
+ [Fiscal Inventory Valuation](../fiscal-inventory-valuation.md)   
  Item Costing Setup   
  Item Card   
  Item

@@ -20,7 +20,7 @@ When a fiscal year is complete, you must fiscally close the periods that it comp
   
  Before fiscal closing is allowed the following must be done:  
   
--   The fiscal year has been closed first. For more information, see [How to: Close Years](../FullExperience/how-to-close-years.md).  
+-   The fiscal year has been closed first. For more information, see [How to: Close Years](../how-to-close-years.md).  
   
 -   All journal lines that are not posted and all simulation entries for the year are either posted or deleted before the year is fiscally closed.  
   
@@ -39,7 +39,7 @@ When a fiscal year is complete, you must fiscally close the periods that it comp
  When the fiscal year is fiscally closed, the **Fiscally Closed** field for all the periods in the year is selected. The fiscally closed year cannot be opened again, and you cannot clear the **Fiscally Closed** field.  
   
 ## See Also  
- [How to: Close Years](../FullExperience/how-to-close-years.md)   
- [Year End Processes Overview](../FullExperience/year-end-processes-overview.md)   
- [How to: Post the Year-End Closing Entry](../FullExperience/how-to-post-the-year-end-closing-entry.md)   
- [How to: Open a New Fiscal Year-duplicate](../FullExperience/how-to-open-a-new-fiscal-year-duplicate.md)
+ [How to: Close Years](../how-to-close-years.md)   
+ [Year End Processes Overview](../year-end-processes-overview.md)   
+ [How to: Post the Year-End Closing Entry](../how-to-post-the-year-end-closing-entry.md)   
+ [How to: Open a New Fiscal Year-duplicate](../how-to-open-a-new-fiscal-year-duplicate.md)

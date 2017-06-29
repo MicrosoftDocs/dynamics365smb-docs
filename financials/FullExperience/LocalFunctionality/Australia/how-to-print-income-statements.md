@@ -34,10 +34,10 @@ You can use the **Income Statement** report to view the company’s annual incom
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [How to: Set Up Business Activity Statements](../FullExperience/how-to-set-up-business-activity-statements.md)   
- [How to: Calculate and Post Withholding Tax Settlements](../FullExperience/how-to-calculate-and-post-withholding-tax-settlements.md)   
- [How to: View Withholding Tax Entries](../FullExperience/how-to-view-withholding-tax-entries.md)   
- [How to: Compare Bank Cash Flow](../FullExperience/how-to-compare-bank-cash-flow.md)   
- [How to: Print Balance Sheet Reports](../FullExperience/how-to-print-balance-sheet-reports.md)   
- [How to: Print Goods and Service Tax Settlement Reports](../FullExperience/how-to-print-goods-and-service-tax-settlement-reports.md)   
+ [How to: Set Up Business Activity Statements](../how-to-set-up-business-activity-statements.md)   
+ [How to: Calculate and Post Withholding Tax Settlements](../how-to-calculate-and-post-withholding-tax-settlements.md)   
+ [How to: View Withholding Tax Entries](../how-to-view-withholding-tax-entries.md)   
+ [How to: Compare Bank Cash Flow](../how-to-compare-bank-cash-flow.md)   
+ [How to: Print Balance Sheet Reports](../how-to-print-balance-sheet-reports.md)   
+ [How to: Print Goods and Service Tax Settlement Reports](../how-to-print-goods-and-service-tax-settlement-reports.md)   
  Bank Detail Cashflow Compare

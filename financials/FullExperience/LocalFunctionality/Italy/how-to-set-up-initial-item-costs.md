@@ -33,9 +33,9 @@ When you set up ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--
  The entries in this window will be used to calculate the average year cost. For more information, see Item Cost History List and Calculate End Year Costs.  
   
 ## See Also  
- [Fiscal Inventory Valuation](../FullExperience/fiscal-inventory-valuation.md)   
- [How to: Set Up Fiscal Inventory Valuation](../FullExperience/how-to-set-up-fiscal-inventory-valuation.md)   
- [Average Cost](../FullExperience/average-cost.md)   
+ [Fiscal Inventory Valuation](../fiscal-inventory-valuation.md)   
+ [How to: Set Up Fiscal Inventory Valuation](../how-to-set-up-fiscal-inventory-valuation.md)   
+ [Average Cost](../average-cost.md)   
  Inventory Setup   
  Before Start Item Cost   
  Item Cost History List   

@@ -33,4 +33,4 @@ Some general ledger accounts do not accept payment discounts or invoice discount
 6.  Choose the **OK** button.  
   
 ## See Also  
- [Spain Local Functionality](../FullExperience/spain-local-functionality.md)
+ [Spain Local Functionality](../spain-local-functionality.md)

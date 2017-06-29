@@ -38,5 +38,5 @@ When inventory is not tracked for an item, the item cost does not need to be tra
 ## See Also  
  Item   
  Item Ledger Entry   
- [Swiss Inventory Management](../FullExperience/swiss-inventory-management.md)   
- [How to: Block Inventory Items for Sales or Purchases](../FullExperience/how-to-block-inventory-items-for-sales-or-purchases.md)
+ [Swiss Inventory Management](../swiss-inventory-management.md)   
+ [How to: Block Inventory Items for Sales or Purchases](../how-to-block-inventory-items-for-sales-or-purchases.md)

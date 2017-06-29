@@ -25,5 +25,5 @@ Email messages received through the Internet can have fake sender addresses. Tha
  For more information about the steps that you can take to make your application more secure, see [Security TechCenter](http://go.microsoft.com/fwlink/?LinkID=80207).  
   
 ## See Also  
- [Logging and Tracking Email Interactions](../FullExperience/logging-and-tracking-email-interactions.md)   
- [Security and Protection](../FullExperience/Security%20and%20Protection.md)
+ [Logging and Tracking Email Interactions](../logging-and-tracking-email-interactions.md)   
+ [Security and Protection](../Security%20and%20Protection.md)

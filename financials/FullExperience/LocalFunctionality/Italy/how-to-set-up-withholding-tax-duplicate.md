@@ -89,4 +89,4 @@ Companies must pay withholding tax to the government for third-party services an
  Vendor Card   
  Purchase Invoice   
  Payment Journal   
- [How to: Print Withholding Tax Reports](../FullExperience/how-to-print-withholding-tax-reports.md)
+ [How to: Print Withholding Tax Reports](../how-to-print-withholding-tax-reports.md)

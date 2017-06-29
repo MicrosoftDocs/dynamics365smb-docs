@@ -59,9 +59,9 @@ When you sell goods or services to a customer in the public sector, you must sub
  An XML file is created and stored at the location that was defined in the **\($ N\_459 Sales & Receivables Setup $\)** window. You can now submit the document to the customer.  
   
 ## See Also  
- [How to: Set Up OIOUBL](../FullExperience/how-to-set-up-oioubl.md)   
- [How to: Set Up Customers for OIOUBL](../FullExperience/how-to-set-up-customers-for-oioubl.md)   
- [OIOUBL Electronic Invoicing Overview](../FullExperience/oioubl-electronic-invoicing-overview.md)   
+ [How to: Set Up OIOUBL](../how-to-set-up-oioubl.md)   
+ [How to: Set Up Customers for OIOUBL](../how-to-set-up-customers-for-oioubl.md)   
+ [OIOUBL Electronic Invoicing Overview](../oioubl-electronic-invoicing-overview.md)   
  Create Electronic Invoices   
  Create Electronic Credit Memos   
  Create Electronic Reminders   

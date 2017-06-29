@@ -19,11 +19,11 @@
 The following topics describe the local functionality in the Finnish version of ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
   
 ## In This Section  
- [Automatic Account Codes](../FullExperience/automatic-account-codes.md)  
-  [Electronic Banking in Finland](../FullExperience/electronic-banking-in-finland.md)  
-  [Posting Depreciation Differences](../FullExperience/posting-depreciation-differences.md)  
-  [SEPA Credit Transfer Payments](../FullExperience/sepa-credit-transfer-payments.md)  
-  [VAT-VIES Declaration in Finland](../FullExperience/vat-vies-declaration-in-finland.md)  
+ [Automatic Account Codes](../automatic-account-codes.md)  
+  [Electronic Banking in Finland](../electronic-banking-in-finland.md)  
+  [Posting Depreciation Differences](../posting-depreciation-differences.md)  
+  [SEPA Credit Transfer Payments](../sepa-credit-transfer-payments.md)  
+  [VAT-VIES Declaration in Finland](../vat-vies-declaration-in-finland.md)  
   
 ## See Also  
- [Getting Started-duplicate](../FullExperience/getting-started-duplicate.md)
+ [Getting Started-duplicate](../getting-started-duplicate.md)

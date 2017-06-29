@@ -39,5 +39,5 @@ Cost components are different types of costs that make up the value of an invent
 >  Freight and insurance costs are item charges that can be added to an item’s cost at any time. When you run the **Adjust Cost - Item Entries** batch job, the value of any related inventory decreases are updated accordingly.  
   
 ## See Also  
- [Design Details: Inventory Costing](../FullExperience/design-details-inventory-costing.md)   
- [Design Details: Variance](../FullExperience/design-details-variance.md)
+ [Design Details: Inventory Costing](../design-details-inventory-costing.md)   
+ [Design Details: Variance](../design-details-variance.md)

@@ -186,8 +186,8 @@ To understand how the dimension entry storing and posting is redesigned, it is i
 |7136|**Item Budget Buffer**|  
   
 ## See Also  
- [Design Details: Dimension Set Entries](../FullExperience/design-details-dimension-set-entries.md)   
- [Dimension Set Entries Overview](../FullExperience/dimension-set-entries-overview.md)   
- [Design Details: Searching for Dimension Combinations](../FullExperience/design-details-searching-for-dimension-combinations.md)   
- [Design Details: Codeunit 408 Dimension Management](../FullExperience/design-details-codeunit-408-dimension-management.md)   
- [Design Details: Code Examples of Changed Patterns in Modifications](../FullExperience/design-details-code-examples-of-changed-patterns-in-modifications.md)
+ [Design Details: Dimension Set Entries](../design-details-dimension-set-entries.md)   
+ [Dimension Set Entries Overview](../dimension-set-entries-overview.md)   
+ [Design Details: Searching for Dimension Combinations](../design-details-searching-for-dimension-combinations.md)   
+ [Design Details: Codeunit 408 Dimension Management](../design-details-codeunit-408-dimension-management.md)   
+ [Design Details: Code Examples of Changed Patterns in Modifications](../design-details-code-examples-of-changed-patterns-in-modifications.md)

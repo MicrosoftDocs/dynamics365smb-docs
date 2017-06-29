@@ -57,7 +57,7 @@ To process electronic payments, you must first set up bank reference files to de
   
 ## See Also  
  Payment Export Format   
- [Electronic Banking in Finland](../FullExperience/electronic-banking-in-finland.md)   
- [How to: Generate Payment Files](../FullExperience/how-to-generate-payment-files.md)   
- [How to: Disregard Payment Discounts](../FullExperience/how-to-disregard-payment-discounts.md)   
+ [Electronic Banking in Finland](../electronic-banking-in-finland.md)   
+ [How to: Generate Payment Files](../how-to-generate-payment-files.md)   
+ [How to: Disregard Payment Discounts](../how-to-disregard-payment-discounts.md)   
  Reference File Setup

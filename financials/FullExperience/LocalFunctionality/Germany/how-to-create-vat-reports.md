@@ -71,5 +71,5 @@ You can configure different types of VAT reports based on requirements. Then, wh
 4.  On the **Home** tab, choose **Mark as Submitted**.  
   
 ## See Also  
- [How to: Correct VAT Reports](../FullExperience/how-to-correct-vat-reports.md)   
- [How to: Set Up VAT Reports](../FullExperience/how-to-set-up-vat-reports.md)
+ [How to: Correct VAT Reports](../how-to-correct-vat-reports.md)   
+ [How to: Set Up VAT Reports](../how-to-set-up-vat-reports.md)

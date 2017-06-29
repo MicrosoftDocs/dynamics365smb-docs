@@ -34,8 +34,8 @@ Use the disregard payment discount at full payment feature to accept payments wh
 >  When you apply one payment to multiple invoices, the feature to ignore payment discount at full payment is not supported.  
   
 ## See Also  
- [Electronic Banking in Finland](../FullExperience/electronic-banking-in-finland.md)   
- [How to: Generate Payment Files](../FullExperience/how-to-generate-payment-files.md)   
- [How to: Set Up Payment Terms](../FullExperience/how-to-set-up-payment-terms.md)   
- [Payment Tolerance and Payment Discount Tolerance](../FullExperience/payment-tolerance-and-payment-discount-tolerance.md)   
- [How to: Set Up Bank Reference Files](../FullExperience/how-to-set-up-bank-reference-files.md)
+ [Electronic Banking in Finland](../electronic-banking-in-finland.md)   
+ [How to: Generate Payment Files](../how-to-generate-payment-files.md)   
+ [How to: Set Up Payment Terms](../how-to-set-up-payment-terms.md)   
+ [Payment Tolerance and Payment Discount Tolerance](../payment-tolerance-and-payment-discount-tolerance.md)   
+ [How to: Set Up Bank Reference Files](../how-to-set-up-bank-reference-files.md)

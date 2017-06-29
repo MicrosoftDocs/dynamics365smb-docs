@@ -61,6 +61,6 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can pr
   
 ## See Also  
  Printer Selection   
- [Paper Sources and Tray Numbers](../FullExperience/paper-sources-and-tray-numbers.md)   
- [Norwegian Giro and OCR-B Font](../FullExperience/norwegian-giro-and-ocr-b-font.md)   
- [How to: Set Up KID Numbers on Sales Documents](../FullExperience/how-to-set-up-kid-numbers-on-sales-documents.md)
+ [Paper Sources and Tray Numbers](../paper-sources-and-tray-numbers.md)   
+ [Norwegian Giro and OCR-B Font](../norwegian-giro-and-ocr-b-font.md)   
+ [How to: Set Up KID Numbers on Sales Documents](../how-to-set-up-kid-numbers-on-sales-documents.md)

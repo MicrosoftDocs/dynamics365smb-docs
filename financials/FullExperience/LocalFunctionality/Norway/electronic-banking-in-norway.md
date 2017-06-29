@@ -47,10 +47,10 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> includes Norwe
 >  The KID cannot be used for credit memos. If a credit memo is part of the payment, invoices in the same payment must be treated as payments without a KID.  
   
 ## See Also  
- [Norway Local Functionality](../FullExperience/norway-local-functionality.md)   
- [Norwegian Giro and OCR-B Font](../FullExperience/norwegian-giro-and-ocr-b-font.md)   
- [How to: Set Up KID Numbers on Sales Documents](../FullExperience/how-to-set-up-kid-numbers-on-sales-documents.md)   
- [How to: Set Up OCR Payments](../FullExperience/how-to-set-up-ocr-payments.md)   
- [How to: Import and Post OCR Payments](../FullExperience/how-to-import-and-post-ocr-payments.md)   
- [Electronic Payments to Vendors in Norway](../FullExperience/electronic-payments-to-vendors-in-norway.md)   
- [How to: Print the OCR Journal - Test Report](../FullExperience/how-to-print-the-ocr-journal-test-report.md)
+ [Norway Local Functionality](../norway-local-functionality.md)   
+ [Norwegian Giro and OCR-B Font](../norwegian-giro-and-ocr-b-font.md)   
+ [How to: Set Up KID Numbers on Sales Documents](../how-to-set-up-kid-numbers-on-sales-documents.md)   
+ [How to: Set Up OCR Payments](../how-to-set-up-ocr-payments.md)   
+ [How to: Import and Post OCR Payments](../how-to-import-and-post-ocr-payments.md)   
+ [Electronic Payments to Vendors in Norway](../electronic-payments-to-vendors-in-norway.md)   
+ [How to: Print the OCR Journal - Test Report](../how-to-print-the-ocr-journal-test-report.md)

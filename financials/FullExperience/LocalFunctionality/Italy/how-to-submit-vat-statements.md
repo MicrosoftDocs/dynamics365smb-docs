@@ -51,8 +51,8 @@ Companies must pay VAT for most purchased goods and services. VAT can be deducte
  The exported file can now be submitted to the tax authorities.  
   
 ## See Also  
- [Set Up VAT](../FullExperience/set-up-vat.md)   
- [How to: Record VAT](../FullExperience/how-to-record-vat.md)   
- [How to: Define VAT Statements](../FullExperience/how-to-define-vat-statements.md)   
+ [Set Up VAT](../set-up-vat.md)   
+ [How to: Record VAT](../how-to-record-vat.md)   
+ [How to: Define VAT Statements](../how-to-define-vat-statements.md)   
  VAT Exemptions   
  Calc. and Post VAT Settlement

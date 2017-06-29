@@ -84,7 +84,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, the create
   
 ## See Also  
  Copy G-L Budget   
- [How to: Import or Export a Budget](../FullExperience/how-to-import-or-export-a-budget.md)   
- [Budgets](../FullExperience/budgets.md)   
+ [How to: Import or Export a Budget](../how-to-import-or-export-a-budget.md)   
+ [Budgets](../budgets.md)   
  Export Budget to Excel   
  Import Budget from Excel

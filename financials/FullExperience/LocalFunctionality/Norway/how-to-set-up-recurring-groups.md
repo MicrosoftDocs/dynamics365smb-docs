@@ -49,7 +49,7 @@ The **Recurring Group Code** field in the **Blanket Sales Order** window defines
 5.  Choose the **OK** button.  
   
 ## See Also  
- [How to: Enter Dates and Times](../FullExperience/how-to-enter-dates-and-times.md)   
- [Recurring Orders](../FullExperience/recurring-orders.md)   
- [How to: Set Up Recurring Orders](../FullExperience/how-to-set-up-recurring-orders.md)   
- [How to: Create Recurring Orders](../FullExperience/how-to-create-recurring-orders.md)
+ [How to: Enter Dates and Times](../how-to-enter-dates-and-times.md)   
+ [Recurring Orders](../recurring-orders.md)   
+ [How to: Set Up Recurring Orders](../how-to-set-up-recurring-orders.md)   
+ [How to: Create Recurring Orders](../how-to-create-recurring-orders.md)

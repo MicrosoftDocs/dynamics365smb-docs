@@ -59,9 +59,9 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you must v
 6.  To void the check, choose the **OK** button.  
   
 ## See Also  
- [How to: Issue Checks](../FullExperience/how-to-issue-checks.md)   
- [How to: Void Checks](../FullExperience/how-to-void-checks.md)   
+ [How to: Issue Checks](../how-to-issue-checks.md)   
+ [How to: Void Checks](../how-to-void-checks.md)   
  Check Ledger Entries   
  Void-Transmit Elec. Payments   
- [How to: Set Up Electronic Payments for Bank Accounts](../FullExperience/how-to-set-up-electronic-payments-for-bank-accounts.md)   
- [How to: Generate Electronic Payments](../FullExperience/how-to-generate-electronic-payments.md)
+ [How to: Set Up Electronic Payments for Bank Accounts](../how-to-set-up-electronic-payments-for-bank-accounts.md)   
+ [How to: Generate Electronic Payments](../how-to-generate-electronic-payments.md)

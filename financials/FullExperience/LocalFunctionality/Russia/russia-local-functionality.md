@@ -23,20 +23,20 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> to calculat
   
 |Topic|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
 |-----------|---------------------------------------|  
-|[Account Schedules Overview](../FullExperience/account-schedules-overview.md)|Enables you to define information for statutory reports by creating user-defined rows and columns.|  
-|[Bank and Cash Management](../FullExperience/bank-and-cash-management.md)|Enables you to manage petty cash and amount differences.|  
-|[Bank Management](../FullExperience/bank-management.md)|Enables you to create bank directory structures to keep bank reference information in one location, create budget classifications, and print and post required documents.|  
-|[Fixed Assets](../FullExperience/fixed-assets.md)|Enables you to manage depreciation and maintenance costs, track the movement of fixed assets, manage the sale or disposal of fixed assets, and generate various reports and statistics.|  
-|[General Ledger Correspondence](../FullExperience/general-ledger-correspondence.md)|Enables you to create, view, and print account turnover information.|  
-|[Human Resources](../FullExperience/human-resources.md)|Enables you to print and view information about payments made to and from employees.|  
-|[Inventory](../FullExperience/inventory.md)|Enables you to set up and manage your inventory including item documents, item and inventory acts, and general ledger turnover.|  
-|[Payables and Receivables-duplicate](../FullExperience/payables-and-receivables-duplicate.md)|Enables you to manage your payables and receivables reports, prepayments, agreements, and cards.|  
-|[Statutory Reports](../FullExperience/statutory-reports.md)|Enables you to import and export data for electronic tax reporting and other documents required by law.|  
-|[Tax Accounting](../FullExperience/tax-accounting.md)|Enables you to follow tax accounting principles by setting up tax registers and calculating tax differences.|  
+|[Account Schedules Overview](../account-schedules-overview.md)|Enables you to define information for statutory reports by creating user-defined rows and columns.|  
+|[Bank and Cash Management](../bank-and-cash-management.md)|Enables you to manage petty cash and amount differences.|  
+|[Bank Management](../bank-management.md)|Enables you to create bank directory structures to keep bank reference information in one location, create budget classifications, and print and post required documents.|  
+|[Fixed Assets](../fixed-assets.md)|Enables you to manage depreciation and maintenance costs, track the movement of fixed assets, manage the sale or disposal of fixed assets, and generate various reports and statistics.|  
+|[General Ledger Correspondence](../general-ledger-correspondence.md)|Enables you to create, view, and print account turnover information.|  
+|[Human Resources](../human-resources.md)|Enables you to print and view information about payments made to and from employees.|  
+|[Inventory](../inventory.md)|Enables you to set up and manage your inventory including item documents, item and inventory acts, and general ledger turnover.|  
+|[Payables and Receivables-duplicate](../payables-and-receivables-duplicate.md)|Enables you to manage your payables and receivables reports, prepayments, agreements, and cards.|  
+|[Statutory Reports](../statutory-reports.md)|Enables you to import and export data for electronic tax reporting and other documents required by law.|  
+|[Tax Accounting](../tax-accounting.md)|Enables you to follow tax accounting principles by setting up tax registers and calculating tax differences.|  
 |[Tax Reports](assetId:///e42ca8e7-1cee-4fb8-9f71-e596f29cabc3)|Enables you to design tax reports and export them using a Microsoft Excel format.|  
-|[VAT](../FullExperience/vat.md)|Enables you to set up, calculate, and pay VAT amounts based on Russian VAT rates and regulations.|  
+|[VAT](../vat.md)|Enables you to set up, calculate, and pay VAT amounts based on Russian VAT rates and regulations.|  
   
 ## See Also  
- [Russian Chart of Accounts](../FullExperience/russian-chart-of-accounts.md)   
- [Russian Receivables Reports](../FullExperience/russian-receivables-reports.md)   
- [Russian Payables Reports](../FullExperience/russian-payables-reports.md)
+ [Russian Chart of Accounts](../russian-chart-of-accounts.md)   
+ [Russian Receivables Reports](../russian-receivables-reports.md)   
+ [Russian Payables Reports](../russian-payables-reports.md)

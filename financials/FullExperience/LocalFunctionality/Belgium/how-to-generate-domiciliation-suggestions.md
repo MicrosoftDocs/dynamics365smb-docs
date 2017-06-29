@@ -41,12 +41,12 @@ After you have set up domiciliations, you can start generating domiciliation sug
      When the batch job is finished, the domiciliation journal contains all open customer ledger entries that match the filters.  
   
 > [!NOTE]  
->  The domiciliation suggestions will only include customers who have a Domiciliation number set up. For more information, see [How to: Set Up Domiciliations](../FullExperience/how-to-set-up-domiciliations.md).  
+>  The domiciliation suggestions will only include customers who have a Domiciliation number set up. For more information, see [How to: Set Up Domiciliations](../how-to-set-up-domiciliations.md).  
   
 ## See Also  
- [Belgian Electronic Banking](../FullExperience/belgian-electronic-banking.md)   
- [Direct Debit Using Domiciliation](../FullExperience/direct-debit-using-domiciliation.md)   
- [How to: Set Up Domiciliations](../FullExperience/how-to-set-up-domiciliations.md)   
- [How to: Test Domiciliations](../FullExperience/how-to-test-domiciliations.md)   
- [How to: Edit and Delete Domiciliation Lines](../FullExperience/how-to-edit-and-delete-domiciliation-lines.md)   
- [How to: Export and Post Domiciliations](../FullExperience/how-to-export-and-post-domiciliations.md)
+ [Belgian Electronic Banking](../belgian-electronic-banking.md)   
+ [Direct Debit Using Domiciliation](../direct-debit-using-domiciliation.md)   
+ [How to: Set Up Domiciliations](../how-to-set-up-domiciliations.md)   
+ [How to: Test Domiciliations](../how-to-test-domiciliations.md)   
+ [How to: Edit and Delete Domiciliation Lines](../how-to-edit-and-delete-domiciliation-lines.md)   
+ [How to: Export and Post Domiciliations](../how-to-export-and-post-domiciliations.md)

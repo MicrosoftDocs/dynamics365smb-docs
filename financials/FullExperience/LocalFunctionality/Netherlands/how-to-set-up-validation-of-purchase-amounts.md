@@ -52,5 +52,5 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can ac
 3.  Choose the **OK** button.  
   
 ## See Also  
- [\($ N\_460 Purchases & Payables Setup $\)](../FullExperience/-$-n_460-purchases-payables-setup-$-.md)   
- [Netherlands Local Functionality](../FullExperience/netherlands-local-functionality.md)
+ [\($ N\_460 Purchases & Payables Setup $\)](../-$-n_460-purchases-payables-setup-$-.md)   
+ [Netherlands Local Functionality](../netherlands-local-functionality.md)

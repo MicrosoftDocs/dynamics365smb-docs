@@ -31,4 +31,4 @@ The recurring journal extension feature enables you to enter a line for a recurr
   
 ## See Also  
  Recurring General Journal   
- [How to: Fill In Recurring Journals](../FullExperience/how-to-fill-in-recurring-journals.md)
+ [How to: Fill In Recurring Journals](../how-to-fill-in-recurring-journals.md)

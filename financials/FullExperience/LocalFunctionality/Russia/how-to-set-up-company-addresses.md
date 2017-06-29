@@ -35,5 +35,5 @@ If your company has different types of addresses, such as a legal address or an 
 4.  Choose the **OK** button to close the window.  
   
 ## See Also  
- [Company Addresses](../FullExperience/company-addresses.md)   
+ [Company Addresses](../company-addresses.md)   
  Address Type

@@ -16,7 +16,7 @@
 
     ---
 # How to: Import Swiss Post Codes
-You can import the latest post code file and use it to update the **Post Code** table. The post code file can be downloaded from the [Swiss Post](http://go.microsoft.com/fwlink/?LinkId=150292) website. After importing the latest post code, you can define post codes for customers or vendors. For more information, see [How to: Register New Customers](../FullExperience/how-to-register-new-vendors.md).  
+You can import the latest post code file and use it to update the **Post Code** table. The post code file can be downloaded from the [Swiss Post](http://go.microsoft.com/fwlink/?LinkId=150292) website. After importing the latest post code, you can define post codes for customers or vendors. For more information, see [How to: Register New Customers](../how-to-register-new-vendors.md).  
   
 ### To import post codes  
   
@@ -41,19 +41,19 @@ You can import the latest post code file and use it to update the **Post Code** 
 3.  In the **Customer Card** window, on the **General** FastTab, in the **Post Code** field, select the post code for the customer's address.  
   
     > [!NOTE]  
-    >  When you select the post code, the **City** and **Country\/Region Code** fields populate automatically with the information from the **Post Code** table. For more information, see [How to: Register New Customers](../FullExperience/how-to-register-new-customers.md).  
+    >  When you select the post code, the **City** and **Country\/Region Code** fields populate automatically with the information from the **Post Code** table. For more information, see [How to: Register New Customers](../how-to-register-new-customers.md).  
   
 4.  Choose the **OK** button.  
   
 ## See Also  
  Import Post Codes   
- [Swiss Purchase Documents and Sales Documents](../FullExperience/swiss-purchase-documents-and-sales-documents.md)   
- [How to: Set Up Automatic Archiving of Documents in Switzerland](../FullExperience/how-to-set-up-automatic-archiving-of-documents-in-switzerland.md)   
- [How to: Print an Inventory Picking List from a Sales Order](../FullExperience/how-to-print-an-inventory-picking-list-from-a-sales-order.md)   
- [How to: Print Sales and Purchase Orders During Batch Posting](../FullExperience/how-to-print-sales-and-purchase-orders-during-batch-posting.md)   
+ [Swiss Purchase Documents and Sales Documents](../swiss-purchase-documents-and-sales-documents.md)   
+ [How to: Set Up Automatic Archiving of Documents in Switzerland](../how-to-set-up-automatic-archiving-of-documents-in-switzerland.md)   
+ [How to: Print an Inventory Picking List from a Sales Order](../how-to-print-an-inventory-picking-list-from-a-sales-order.md)   
+ [How to: Print Sales and Purchase Orders During Batch Posting](../how-to-print-sales-and-purchase-orders-during-batch-posting.md)   
  Post Code   
- [How to: Register New Vendors](../FullExperience/how-to-register-new-vendors.md)   
- [How the Post Code and City Fields Are Filled](../FullExperience/how-the-post-code-and-city-fields-are-filled.md)   
+ [How to: Register New Vendors](../how-to-register-new-vendors.md)   
+ [How the Post Code and City Fields Are Filled](../how-the-post-code-and-city-fields-are-filled.md)   
  Customer   
  Customer Card   
  Vendor   

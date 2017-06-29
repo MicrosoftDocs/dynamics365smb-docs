@@ -34,4 +34,4 @@ The **Link to Accon** report enables you to create a file that can be imported i
 4.  Choose the **OK** button.  
   
 ## See Also  
- [Belgium Local Functionality](../FullExperience/belgium-local-functionality.md)
+ [Belgium Local Functionality](../belgium-local-functionality.md)

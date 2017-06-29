@@ -24,7 +24,7 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> includes VAT r
   
 -   **VAT Statement Germany**  
   
- For more information, see [VAT Reporting](../FullExperience/vat-reporting.md).  
+ For more information, see [VAT Reporting](../vat-reporting.md).  
   
 ### To print the Sales VAT Adv. Not. Acc. Proof report  
   
@@ -80,9 +80,9 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> includes VAT r
 5.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [VAT Reporting](../FullExperience/vat-reporting.md)   
- [How to: Preview VAT Statements](../FullExperience/how-to-preview-vat-statements.md)   
- [Electronic Submission of Sales VAT Advance Notifications to ELSTER](../FullExperience/electronic-submission-of-sales-vat-advance-notifications-to-elster.md)   
+ [VAT Reporting](../vat-reporting.md)   
+ [How to: Preview VAT Statements](../how-to-preview-vat-statements.md)   
+ [Electronic Submission of Sales VAT Advance Notifications to ELSTER](../electronic-submission-of-sales-vat-advance-notifications-to-elster.md)   
  Sales VAT Adv. Not. Acc. Proof   
  VAT Statement Schedule   
  VAT Statement Germany

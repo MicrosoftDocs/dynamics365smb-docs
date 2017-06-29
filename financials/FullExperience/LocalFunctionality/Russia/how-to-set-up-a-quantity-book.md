@@ -33,5 +33,5 @@ Create a depreciation book to keep record of the fixed assets quantities that wi
 6.  Choose the **OK** button.  
   
 ## See Also  
- [Undepreciable Fixed Assets](../FullExperience/undepreciable-fixed-assets.md)   
- [Fixed Assets](../FullExperience/fixed-assets.md)
+ [Undepreciable Fixed Assets](../undepreciable-fixed-assets.md)   
+ [Fixed Assets](../fixed-assets.md)

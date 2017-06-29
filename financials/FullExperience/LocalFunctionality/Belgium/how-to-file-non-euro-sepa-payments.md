@@ -48,6 +48,6 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can fi
 ## See Also  
  File Non Euro SEPA Payments   
  File SEPA Payments   
- [How to: File SEPA Payments](../FullExperience/how-to-file-sepa-payments.md)   
- [How to: Activate SEPA Payments](../FullExperience/how-to-activate-sepa-payments.md)   
- [SEPA Payments](../FullExperience/sepa-payments.md)
+ [How to: File SEPA Payments](../how-to-file-sepa-payments.md)   
+ [How to: Activate SEPA Payments](../how-to-activate-sepa-payments.md)   
+ [SEPA Payments](../sepa-payments.md)

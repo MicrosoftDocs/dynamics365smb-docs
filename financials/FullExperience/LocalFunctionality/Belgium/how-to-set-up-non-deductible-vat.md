@@ -32,5 +32,5 @@ You can calculate VAT amounts for specific types of expenses which can be partia
 4.  Choose the **OK** button.  
   
 ## See Also  
- [Belgian VAT](../FullExperience/belgian-vat.md)   
- [How to: Print Periodic VAT Reports](../FullExperience/how-to-print-periodic-vat-reports.md)
+ [Belgian VAT](../belgian-vat.md)   
+ [How to: Print Periodic VAT Reports](../how-to-print-periodic-vat-reports.md)

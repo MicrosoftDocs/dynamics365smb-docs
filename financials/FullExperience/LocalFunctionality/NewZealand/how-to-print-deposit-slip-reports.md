@@ -33,4 +33,4 @@ The **Deposit Slip** report displays cash and check details in a format required
 6.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [Australia Local Functionality](../FullExperience/australia-local-functionality.md)
+ [Australia Local Functionality](../australia-local-functionality.md)

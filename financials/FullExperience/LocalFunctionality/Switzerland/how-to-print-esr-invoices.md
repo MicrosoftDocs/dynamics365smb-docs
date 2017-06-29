@@ -47,7 +47,7 @@ You can print an Einzahlungsschein mit Referenznummer \(ESR\) payment slip in th
      You can also reprint the sales invoice ESR report or sales ESR coupon report.  
   
 ## See Also  
- [Swiss Electronic Payments Using ESR](../FullExperience/swiss-electronic-payments-using-esr.md)   
- [How to: Import ESR Payments](../FullExperience/how-to-import-esr-payments.md)   
+ [Swiss Electronic Payments Using ESR](../swiss-electronic-payments-using-esr.md)   
+ [How to: Import ESR Payments](../how-to-import-esr-payments.md)   
  ESR Setup   
  Printer Selection

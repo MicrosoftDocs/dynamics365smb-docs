@@ -24,7 +24,7 @@ When you close a window after you edit a set of dimensions, ADD INCLUDE<!--[!INC
 ### Example 1  
  The following diagram represents a search tree with six dimension sets. Only the distinguishing dimension set entry is displayed in the diagram.  
   
- ![Dimension tree structure](../FullExperience/media/nav2013_dimension_tree.png "NAV2013\_Dimension\_Tree")  
+ ![Dimension tree structure](../media/nav2013_dimension_tree.png "NAV2013\_Dimension\_Tree")  
   
  The following table describes a complete list of dimension set entries that make up each dimension set.  
   
@@ -43,7 +43,7 @@ When you close a window after you edit a set of dimensions, ADD INCLUDE<!--[!INC
   
  First, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> also updates the **Dimension Set Tree Node** table to make sure that the search tree looks like the following diagram. Thus dimension set 7 becomes a child of the dimension set 5.  
   
- ![NAV2013&#95;Dimension&#95;Tree&#95;Example 2](../FullExperience/media/nav2013_dimension_tree_example2.png "NAV2013\_Dimension\_Tree\_Example2")  
+ ![NAV2013&#95;Dimension&#95;Tree&#95;Example 2](../media/nav2013_dimension_tree_example2.png "NAV2013\_Dimension\_Tree\_Example2")  
   
 ### Finding Dimension Set ID  
  At a conceptual level, **Parent ID**, **Dimension**, and **Dimension Value**, in the search tree, are combined and used as the primary key because ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> traverses the tree in the same order as the dimension entries. The GET function \(record\) is used to search for dimension set ID. The following code example shows how to find the dimension set ID when there are three dimension values.  
@@ -71,9 +71,9 @@ EXIT(DimSet.ID);
 ```  
   
 ## See Also  
- [GET Function \(Record\)](../FullExperience/GET%20Function%20\(Record\).md)   
- [Design Details: Dimension Set Entries](../FullExperience/design-details-dimension-set-entries.md)   
- [Dimension Set Entries Overview](../FullExperience/dimension-set-entries-overview.md)   
- [Design Details: Table Structure](../FullExperience/design-details-table-structure.md)   
- [Design Details: Codeunit 408 Dimension Management](../FullExperience/design-details-codeunit-408-dimension-management.md)   
- [Design Details: Code Examples of Changed Patterns in Modifications](../FullExperience/design-details-code-examples-of-changed-patterns-in-modifications.md)
+ [GET Function \(Record\)](../GET%20Function%20\(Record\).md)   
+ [Design Details: Dimension Set Entries](../design-details-dimension-set-entries.md)   
+ [Dimension Set Entries Overview](../dimension-set-entries-overview.md)   
+ [Design Details: Table Structure](../design-details-table-structure.md)   
+ [Design Details: Codeunit 408 Dimension Management](../design-details-codeunit-408-dimension-management.md)   
+ [Design Details: Code Examples of Changed Patterns in Modifications](../design-details-code-examples-of-changed-patterns-in-modifications.md)

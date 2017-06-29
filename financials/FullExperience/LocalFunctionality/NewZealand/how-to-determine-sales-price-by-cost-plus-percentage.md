@@ -60,5 +60,5 @@ Use the cost plus percentage function to set a sales price based on the cost of 
 9. Click **OK**.  
   
 ## See Also  
- [Australia Local Functionality](../FullExperience/australia-local-functionality.md)   
+ [Australia Local Functionality](../australia-local-functionality.md)   
  Sales Prices

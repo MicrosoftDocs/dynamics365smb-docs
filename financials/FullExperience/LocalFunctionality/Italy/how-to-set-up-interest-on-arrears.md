@@ -53,7 +53,7 @@ For each finance charge term, you can specify how interest on arrears must be ca
 4.  Choose the **OK** button.  
   
 ## See Also  
- [Interest on Arrears Overview](../FullExperience/interest-on-arrears-overview.md)   
+ [Interest on Arrears Overview](../interest-on-arrears-overview.md)   
  Finance Charge Terms   
  Interest on Arrears Window   
  Int. on Arrears Code   

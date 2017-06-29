@@ -50,14 +50,14 @@ Item tracking lines are used to enter serial nos. and lot nos. for physical inve
   
  You can view the item tracking lines to post for the current physical inventory order line. Click **Line**, **Item Tracking Lines**, **All Diff. Tracking Lines**. The window **Phys. Invt. Item Track. List** opens.  
   
- For more information, see [Example - Inventory Order Line with Tracking Lines](../FullExperience/example-inventory-order-line-with-tracking-lines.md).  
+ For more information, see [Example - Inventory Order Line with Tracking Lines](../example-inventory-order-line-with-tracking-lines.md).  
   
  You can have the program to print the item tracking lines optional when printing the report Phys. Invt. Order Diff. List for the inventory order lines.  
   
 ## See Also  
- [How to: Enter Physical Inventory Orders](../FullExperience/how-to-enter-physical-inventory-orders.md)   
- [How to: Calculate Quantity On Hand for a Physical Inventory Order](../FullExperience/how-to-calculate-quantity-on-hand-for-a-physical-inventory-order.md)   
- [Physical Inventory Recording - Counting Physical Inventory](../FullExperience/physical-inventory-recording-counting-physical-inventory.md)   
- [How to: Finish a Physical Inventory Recording](../FullExperience/how-to-finish-a-physical-inventory-recording.md)   
- [How to: Finish a Physical Inventory Order](../FullExperience/how-to-finish-a-physical-inventory-order.md)   
- [How to: Analyze Physical Inventory Differences](../FullExperience/how-to-analyze-physical-inventory-differences.md)
+ [How to: Enter Physical Inventory Orders](../how-to-enter-physical-inventory-orders.md)   
+ [How to: Calculate Quantity On Hand for a Physical Inventory Order](../how-to-calculate-quantity-on-hand-for-a-physical-inventory-order.md)   
+ [Physical Inventory Recording - Counting Physical Inventory](../physical-inventory-recording-counting-physical-inventory.md)   
+ [How to: Finish a Physical Inventory Recording](../how-to-finish-a-physical-inventory-recording.md)   
+ [How to: Finish a Physical Inventory Order](../how-to-finish-a-physical-inventory-order.md)   
+ [How to: Analyze Physical Inventory Differences](../how-to-analyze-physical-inventory-differences.md)

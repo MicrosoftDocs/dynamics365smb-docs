@@ -20,13 +20,13 @@ The format of files for exchange of data in bank files, electronic documents, cu
   
  The following diagrams show the architecture of the Data Exchange Framework.  
   
- ![Data Exchange Framework &#45; Import](../FullExperience/media/nav_dataexchangeframework_import.png "NAV\_DataExchangeFramework\_Import")  
+ ![Data Exchange Framework &#45; Import](../media/nav_dataexchangeframework_import.png "NAV\_DataExchangeFramework\_Import")  
   
- ![Data Exchange Framework &#45; Export](../FullExperience/media/nav_dataexchangeframework_export.png "NAV\_DataExchangeFramework\_Export")  
+ ![Data Exchange Framework &#45; Export](../media/nav_dataexchangeframework_export.png "NAV\_DataExchangeFramework\_Export")  
   
 ## See Also  
  Data Exchange Definition   
  Bank Export-Import Setup   
  Data Exchange Mapping   
- [Data Exchange](../FullExperience/data-exchange.md)   
- [How to: Use XML Schemas to Prepare Data Exchange Definitions](../FullExperience/how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)
+ [Data Exchange](../data-exchange.md)   
+ [How to: Use XML Schemas to Prepare Data Exchange Definitions](../how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)

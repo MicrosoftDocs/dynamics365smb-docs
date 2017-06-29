@@ -21,15 +21,15 @@ Each inventory transaction, such as a purchase receipt or a sales shipment, post
 |Entry type|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
 |----------------|---------------------------------------|  
 |Quantity|Reflects the change of quantity in inventory. This information is stored in item ledger entries.<br /><br /> Accompanied by item application entries.|  
-|Value|Reflects the change of inventory value. This information is stored in value entries.<br /><br /> One or more value entries can exist for each item ledger entry or capacity ledger entry.<br /><br /> For information about capacity value entries related to the use of production or assembly resources, see [Design Details: Production Order Posting](../FullExperience/design-details-production-order-posting.md).|  
+|Value|Reflects the change of inventory value. This information is stored in value entries.<br /><br /> One or more value entries can exist for each item ledger entry or capacity ledger entry.<br /><br /> For information about capacity value entries related to the use of production or assembly resources, see [Design Details: Production Order Posting](../design-details-production-order-posting.md).|  
   
- In relation to quantity postings, item application entries exist to link inventory increase with inventory decrease. This enables the costing engine to forward costs from increases to the related decreases and vice versa. For more information, see [Design Details: Item Application](../FullExperience/design-details-item-application.md).  
+ In relation to quantity postings, item application entries exist to link inventory increase with inventory decrease. This enables the costing engine to forward costs from increases to the related decreases and vice versa. For more information, see [Design Details: Item Application](../design-details-item-application.md).  
   
  Item ledger entries, value entries, and item application entries are created as a result of posting an item journal line, either indirectly by posting an order line or directly in the Item Journal window.  
   
- At regular intervals, value entries that are created in the inventory ledger are posted to the general ledger to reconcile the two ledgers for financial control reasons. For more information, see [Design Details: Reconciliation with the General Ledger](../FullExperience/design-details-reconciliation-with-the-general-ledger.md).  
+ At regular intervals, value entries that are created in the inventory ledger are posted to the general ledger to reconcile the two ledgers for financial control reasons. For more information, see [Design Details: Reconciliation with the General Ledger](../design-details-reconciliation-with-the-general-ledger.md).  
   
- ![Entry flow between inventory and G&#47;L](../FullExperience/media/design_details_inventory_costing_1_entry_flow.png "design\_details\_inventory\_costing\_1\_entry\_flow")  
+ ![Entry flow between inventory and G&#47;L](../media/design_details_inventory_costing_1_entry_flow.png "design\_details\_inventory\_costing\_1\_entry\_flow")  
   
 ## Example  
  The following example shows how item ledger entries, value entries, and item application entries result in general ledger entries.  
@@ -77,7 +77,7 @@ Each inventory transaction, such as a purchase receipt or a sales shipment, post
   
  At the end of the accounting period, you run the **Post Inventory Cost to G\/L** batch job to reconcile these inventory transactions with the general ledger.  
   
- For more information, see [Design Details: Reconciliation with the General Ledger](../FullExperience/design-details-accounts-in-the-general-ledger.md).  
+ For more information, see [Design Details: Reconciliation with the General Ledger](../design-details-accounts-in-the-general-ledger.md).  
   
  The following tables show the result of reconciling the inventory transactions in this example with the general ledger.  
   
@@ -121,9 +121,9 @@ Each inventory transaction, such as a purchase receipt or a sales shipment, post
 ## Assembly and Production Posting  
  Capacity and resource ledger entries represent the time that is posted as consumed in production or assembly. These process costs are posted as value entries to the general ledger along with the involved material costs in a similar structure as described for item ledger entries in this topic.  
   
- For more information, see [Design Details: Assembly Order Posting](../FullExperience/design-details-production-order-posting.md).  
+ For more information, see [Design Details: Assembly Order Posting](../design-details-production-order-posting.md).  
   
 ## See Also  
- [Design Details: Inventory Costing](../FullExperience/design-details-inventory-costing.md)   
- [Design Details: Accounts in the General Ledger](../FullExperience/design-details-accounts-in-the-general-ledger.md)   
- [Design Details: Cost Components](../FullExperience/design-details-cost-components.md)
+ [Design Details: Inventory Costing](../design-details-inventory-costing.md)   
+ [Design Details: Accounts in the General Ledger](../design-details-accounts-in-the-general-ledger.md)   
+ [Design Details: Cost Components](../design-details-cost-components.md)

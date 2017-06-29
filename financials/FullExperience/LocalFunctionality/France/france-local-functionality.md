@@ -19,10 +19,10 @@
 The following topics describe the local functionality in the French version of ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
   
 ## In This Section  
- [What's New-duplicate 6](../FullExperience/what-s-new-duplicate-6.md)  
-  [General Ledger](../FullExperience/general-ledger.md)  
-  [Fiscal Periods and Fiscal Years](../FullExperience/fiscal-periods-and-fiscal-years.md)  
-  [Accelerated Depreciation](../FullExperience/accelerated-depreciation.md)  
-  [Payment Management](../FullExperience/payment-management.md)  
-  [Simulation of Entries](../FullExperience/simulation-of-entries.md)  
-  [Tables, Reports, Batch Jobs, and Windows-duplicate 1](../FullExperience/tables-reports-batch-jobs-and-windows-duplicate-1.md)
+ [What's New-duplicate 6](../what-s-new-duplicate-6.md)  
+  [General Ledger](../general-ledger.md)  
+  [Fiscal Periods and Fiscal Years](../fiscal-periods-and-fiscal-years.md)  
+  [Accelerated Depreciation](../accelerated-depreciation.md)  
+  [Payment Management](../payment-management.md)  
+  [Simulation of Entries](../simulation-of-entries.md)  
+  [Tables, Reports, Batch Jobs, and Windows-duplicate 1](../tables-reports-batch-jobs-and-windows-duplicate-1.md)

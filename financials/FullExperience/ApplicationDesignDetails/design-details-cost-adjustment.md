@@ -18,7 +18,7 @@
 # Design Details: Cost Adjustment
 The main purpose of cost adjustment is to forward cost changes from cost sources to cost recipients, according to an item’s costing method, to provide correct inventory valuation.  
   
- An item can be sales invoiced before it has been purchase invoiced, so that the recorded inventory value of the sale does not match the actual purchase cost. Cost adjustment updates the cost of goods sold \(COGS\) for historic sales entries to ensure that they match the costs of the inbound transactions to which they are applied. For more information, see [Design Details: Item Application](../FullExperience/design-details-item-application.md).  
+ An item can be sales invoiced before it has been purchase invoiced, so that the recorded inventory value of the sale does not match the actual purchase cost. Cost adjustment updates the cost of goods sold \(COGS\) for historic sales entries to ensure that they match the costs of the inbound transactions to which they are applied. For more information, see [Design Details: Item Application](../design-details-item-application.md).  
   
  The following are secondary purposes, or functions, of cost adjustment:  
   
@@ -26,13 +26,13 @@ The main purpose of cost adjustment is to forward cost changes from cost sources
   
     -   Change the status of value entries from **Expected** to **Actual**.  
   
-    -   Clear WIP accounts. For more information, see [Design Details: Production Order Posting](../FullExperience/design-details-production-order-posting.md).  
+    -   Clear WIP accounts. For more information, see [Design Details: Production Order Posting](../design-details-production-order-posting.md).  
   
-    -   Post variance. For more information, see [Design Details: Variance](../FullExperience/design-details-variance.md).  
+    -   Post variance. For more information, see [Design Details: Variance](../design-details-variance.md).  
   
 -   Update the unit cost on the item card.  
   
- Inventory costs must be adjusted before the related value entries can be reconciled with the general ledger. For more information, see [Design Details: Reconciliation with the General Ledger](../FullExperience/design-details-reconciliation-with-the-general-ledger.md).  
+ Inventory costs must be adjusted before the related value entries can be reconciled with the general ledger. For more information, see [Design Details: Reconciliation with the General Ledger](../design-details-reconciliation-with-the-general-ledger.md).  
   
 ## Detecting the Adjustment  
  The task of detecting if cost adjustment should occur is primarily performed by the Item Jnl.-Post Line routine, while the task of calculating and generating cost adjustment entries is performed by the **Adjust Cost – Item Entries** batch job.  
@@ -68,9 +68,9 @@ The main purpose of cost adjustment is to forward cost changes from cost sources
   
  The Order Level function is used to detect adjustments in assembly posting. The following graphic shows the adjustment entry structure:  
   
- ![Adjustment entry structure](../FullExperience/media/design_details_assembly_posting_3.png "design\_details\_assembly\_posting\_3")  
+ ![Adjustment entry structure](../media/design_details_assembly_posting_3.png "design\_details\_assembly\_posting\_3")  
   
- For more information, see [Design Details: Assembly Order Posting](../FullExperience/design-details-assembly-order-posting.md).  
+ For more information, see [Design Details: Assembly Order Posting](../design-details-assembly-order-posting.md).  
   
 ## Manual versus Automatic Cost Adjustment  
  Cost adjustment can be performed in two ways:  
@@ -177,9 +177,9 @@ The main purpose of cost adjustment is to forward cost changes from cost sources
  If you have set up the automatic cost adjustment to apply to postings that occur within a day or a week from the current work date, then the automatic cost adjustment does not run, and the cost of the purchase is not forwarded to the sale until you run the **Adjust Cost - Item Entries** batch job.  
   
 ## See Also  
- [Design Details: Inventory Costing](../FullExperience/design-details-inventory-costing.md)   
- [Design Details: Reconciliation with the General Ledger](../FullExperience/design-details-reconciliation-with-the-general-ledger.md)   
- [Design Details: Inventory Posting](../FullExperience/design-details-inventory-posting.md)   
- [Design Details: Variance](../FullExperience/design-details-variance.md)   
- [Design Details: Assembly Order Posting](../FullExperience/design-details-assembly-order-posting.md)   
- [Design Details: Production Order Posting](../FullExperience/design-details-production-order-posting.md)
+ [Design Details: Inventory Costing](../design-details-inventory-costing.md)   
+ [Design Details: Reconciliation with the General Ledger](../design-details-reconciliation-with-the-general-ledger.md)   
+ [Design Details: Inventory Posting](../design-details-inventory-posting.md)   
+ [Design Details: Variance](../design-details-variance.md)   
+ [Design Details: Assembly Order Posting](../design-details-assembly-order-posting.md)   
+ [Design Details: Production Order Posting](../design-details-production-order-posting.md)

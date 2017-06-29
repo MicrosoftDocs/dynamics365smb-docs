@@ -39,4 +39,4 @@ You can print remittance advice before posting a payment journal and after posti
  Remittance Advice - Journal   
  Remittance Advice - Entries   
  Payment Journal   
- [United Kingdom Local Functionality](../FullExperience/united-kingdom-local-functionality.md)
+ [United Kingdom Local Functionality](../united-kingdom-local-functionality.md)

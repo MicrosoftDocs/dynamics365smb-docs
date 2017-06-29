@@ -44,5 +44,5 @@ The Warehouse Management application area and the Inventory application area int
  If you enter a positive quantity and post the line, then the inventory stored in the bin increases, and the quantity of the default adjustment bin decreases correspondingly.  
   
 ## See Also  
- [Design Details: Warehouse Management](../FullExperience/design-details-warehouse-management.md)   
- [Design Details: Availability in the Warehouse](../FullExperience/design-details-availability-in-the-warehouse.md)
+ [Design Details: Warehouse Management](../design-details-warehouse-management.md)   
+ [Design Details: Availability in the Warehouse](../design-details-availability-in-the-warehouse.md)

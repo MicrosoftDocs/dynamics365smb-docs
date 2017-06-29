@@ -57,9 +57,9 @@ All European Union \(EU\) companies must submit Intrastat reports to the customs
   
 4.  To close the window, choose the **OK** button.  
   
- For more information, see [How to: Print Intrastat Reports for Italy](../FullExperience/how-to-print-intrastat-reports-for-italy.md).  
+ For more information, see [How to: Print Intrastat Reports for Italy](../how-to-print-intrastat-reports-for-italy.md).  
   
 ## See Also  
- [How to: Set Up Intrastat Journal Templates and Batches](../FullExperience/how-to-set-up-intrastat-journal-templates-and-batches.md)   
- [Italy Local Functionality](../FullExperience/italy-local-functionality.md)   
- [How to: Print Intrastat Reports for Italy](../FullExperience/how-to-print-intrastat-reports-for-italy.md)
+ [How to: Set Up Intrastat Journal Templates and Batches](../how-to-set-up-intrastat-journal-templates-and-batches.md)   
+ [Italy Local Functionality](../italy-local-functionality.md)   
+ [How to: Print Intrastat Reports for Italy](../how-to-print-intrastat-reports-for-italy.md)

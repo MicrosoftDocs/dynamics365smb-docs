@@ -89,11 +89,11 @@ When you post inventory transactions, such as sales shipments, production output
   
     2.  Cost of goods sold \(COGS\) is posted. \(Sale\)  
   
-         ![Results of sale posting to G&#47;L accounts](../FullExperience/media/design_details_inventory_costing_3_gl_posting_sales.png "design\_details\_inventory\_costing\_3\_GL\_posting\_sales")  
+         ![Results of sale posting to G&#47;L accounts](../media/design_details_inventory_costing_3_gl_posting_sales.png "design\_details\_inventory\_costing\_3\_GL\_posting\_sales")  
   
 5.  The user posts consumption of 150 links, which is the number of links used to produce one chain. \(Consumption, Material\)  
   
-     ![Results of material posting to G&#47;L accounts](../FullExperience/media/design_details_inventory_costing_3_gl_posting_material.png "design\_details\_inventory\_costing\_3\_GL\_posting\_material")  
+     ![Results of material posting to G&#47;L accounts](../media/design_details_inventory_costing_3_gl_posting_material.png "design\_details\_inventory\_costing\_3\_GL\_posting\_material")  
   
 6.  The work center used 60 minutes to produce the chain. The user posts the conversion cost. \(Consumption, Capacity\)  
   
@@ -101,7 +101,7 @@ When you post inventory transactions, such as sales shipments, production output
   
     2.  The indirect costs are calculated and posted. \(Consumption, Capacity\)  
   
-         ![Results of capacity posting to G&#47;L accounts](../FullExperience/media/design_details_inventory_costing_3_gl_posting_capacity.png "design\_details\_inventory\_costing\_3\_GL\_posting\_capacity")  
+         ![Results of capacity posting to G&#47;L accounts](../media/design_details_inventory_costing_3_gl_posting_capacity.png "design\_details\_inventory\_costing\_3\_GL\_posting\_capacity")  
   
 7.  The user posts the expected cost of one chain. \(Output\)  
   
@@ -115,7 +115,7 @@ When you post inventory transactions, such as sales shipments, production output
   
     4.  This results in a variance amount of LCY 157.00. Variances are only calculated for standard-cost items. \(Output\)  
   
-         ![Results of output posting to G&#47;L accounts](../FullExperience/media/design_details_inventory_costing_3_gl_posting_output.png "design\_details\_inventory\_costing\_3\_GL\_posting\_output")  
+         ![Results of output posting to G&#47;L accounts](../media/design_details_inventory_costing_3_gl_posting_output.png "design\_details\_inventory\_costing\_3\_GL\_posting\_output")  
   
         > [!NOTE]  
         >  For the sake of simplicity, only one variance account is shown. In reality, five different accounts exist:  
@@ -128,11 +128,11 @@ When you post inventory transactions, such as sales shipments, production output
   
 9. The user revalues the chain from LCY 150.00 to LCY 140.00. \(Adjustment\/Revaluation\/Rounding\/Transfer\)  
   
-     ![Results of adjustment posting to G&#47;L accounts](../FullExperience/media/design_details_inventory_costing_3_gl_posting_adjustment.png "design\_details\_inventory\_costing\_3\_GL\_posting\_adjustment")  
+     ![Results of adjustment posting to G&#47;L accounts](../media/design_details_inventory_costing_3_gl_posting_adjustment.png "design\_details\_inventory\_costing\_3\_GL\_posting\_adjustment")  
   
- For more information about the relationship between the account types and the different types of value entries, see [Design Details: Accounts in the General Ledger](../FullExperience/design-details-accounts-in-the-general-ledger.md).  
+ For more information about the relationship between the account types and the different types of value entries, see [Design Details: Accounts in the General Ledger](../design-details-accounts-in-the-general-ledger.md).  
   
 ## See Also  
- [Design Details: Inventory Costing](../FullExperience/design-details-inventory-costing.md)   
- [Design Details: Expected Cost Posting](../FullExperience/design-details-expected-cost-posting.md)   
- [Design Details: Cost Adjustment](../FullExperience/design-details-cost-adjustment.md)
+ [Design Details: Inventory Costing](../design-details-inventory-costing.md)   
+ [Design Details: Expected Cost Posting](../design-details-expected-cost-posting.md)   
+ [Design Details: Cost Adjustment](../design-details-cost-adjustment.md)

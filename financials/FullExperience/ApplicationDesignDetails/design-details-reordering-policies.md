@@ -19,15 +19,15 @@
 Reordering policies define how much to order when the item needs to be replenished. Four different reordering policies exist.  
   
 ## In This Section  
- [Design Details: Fixed Reorder Qty.](../FullExperience/design-details-fixed-reorder-qty..md)  
+ [Design Details: Fixed Reorder Qty.](../design-details-fixed-reorder-qty..md)  
   
- [Design Details: Maximum Qty.](../FullExperience/design-details-maximum-qty..md)  
+ [Design Details: Maximum Qty.](../design-details-maximum-qty..md)  
   
- [Design Details: Order](../FullExperience/design-details-order.md)  
+ [Design Details: Order](../design-details-order.md)  
   
- [Design Details: Lot-for-Lot](../FullExperience/design-details-lot-for-lot.md)  
+ [Design Details: Lot-for-Lot](../design-details-lot-for-lot.md)  
   
 ## See Also  
- [Design Details: Planning Parameters](../FullExperience/design-details-planning-parameters.md)   
- [Design Details: Handling Reordering Policies](../FullExperience/design-details-handling-reordering-policies.md)   
- [Design Details: Supply Planning](../FullExperience/design-details-supply-planning.md)
+ [Design Details: Planning Parameters](../design-details-planning-parameters.md)   
+ [Design Details: Handling Reordering Policies](../design-details-handling-reordering-policies.md)   
+ [Design Details: Supply Planning](../design-details-supply-planning.md)

@@ -43,11 +43,11 @@ Tax accounting lets you apply rules for recognizing income and expenses that fol
   
 6.  Choose the **Close** button to close the window and save your entries.  
   
- For more information about how to set up and customize tax registers, see [How to: Create Tax Registers](../FullExperience/how-to-create-tax-registers.md).  
+ For more information about how to set up and customize tax registers, see [How to: Create Tax Registers](../how-to-create-tax-registers.md).  
   
 ## See Also  
- [Tax Accounting](../FullExperience/tax-accounting.md)   
+ [Tax Accounting](../tax-accounting.md)   
  [Tax Reports](assetId:///e42ca8e7-1cee-4fb8-9f71-e596f29cabc3)   
- [Tax Registers](../FullExperience/tax-registers.md)   
- [How to: Create Tax Registers](../FullExperience/how-to-create-tax-registers.md)   
- [Tax Differences](../FullExperience/tax-differences.md)
+ [Tax Registers](../tax-registers.md)   
+ [How to: Create Tax Registers](../how-to-create-tax-registers.md)   
+ [Tax Differences](../tax-differences.md)

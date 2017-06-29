@@ -31,7 +31,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can se
     |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Export Format**|The country-specific file format for the export file. Choose the country\/region format that your bank uses.|  
-    |**Payment Export Format**|The export file format when the format is not country-specific.<br /><br /> If this field is filled, then the **Export Format** field will be ignored. The payment file will be exported as set up in the **Payment Export Format** field. For more information, see [How to: Export Payments to a Bank File](../FullExperience/how-to-export-payments-to-a-bank-file.md).|  
+    |**Payment Export Format**|The export file format when the format is not country-specific.<br /><br /> If this field is filled, then the **Export Format** field will be ignored. The payment file will be exported as set up in the **Payment Export Format** field. For more information, see [How to: Export Payments to a Bank File](../how-to-export-payments-to-a-bank-file.md).|  
     |**E-Pay Export File Path**|The full directory path, starting with the drive letter and ending with a back slash \(\\\). You can enter a maximum of 80 characters.|  
     |**Last E-Pay Export File Name**|The file name without the path information. The file name should contain digits. The name will be incremented every time that it is exported, maintaining a permanent record of every file that you export to the bank. You can enter a maximum of 30 characters.|  
     |**Transit No.**|The bank transit number.|  
@@ -67,5 +67,5 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can se
 7.  Choose the **OK** button.  
   
 ## See Also  
- [How to: Generate Electronic Payments](../FullExperience/how-to-generate-electronic-payments.md)   
- [How to: Void Posted Checks](../FullExperience/how-to-void-posted-checks.md)
+ [How to: Generate Electronic Payments](../how-to-generate-electronic-payments.md)   
+ [How to: Void Posted Checks](../how-to-void-posted-checks.md)

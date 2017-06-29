@@ -66,4 +66,4 @@ In Norway, you can use the feature one VAT code in a journal, so that you can po
 >  No changes are made to the posting.  
   
 ## See Also  
- [Norwegian VAT Codes](../FullExperience/norwegian-vat-codes.md)
+ [Norwegian VAT Codes](../norwegian-vat-codes.md)

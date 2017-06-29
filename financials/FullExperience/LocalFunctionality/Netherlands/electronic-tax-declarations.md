@@ -27,7 +27,7 @@ Companies must deliver their VAT and ICP declarations electronically to the tax 
   
 3.  Enter general data and personal data received from the tax authorities in the Elec. Tax Declaration Setup Window window.  
   
- For more information, see [Electronic VAT and ICP Declarations](../FullExperience/electronic-vat-and-icp-declarations.md).  
+ For more information, see [Electronic VAT and ICP Declarations](../electronic-vat-and-icp-declarations.md).  
   
 ## Create and Submit Electronic Declarations  
  When the tasks stated above are finished the application can create and submit VAT and ICP declarations to the tax authorities.  
@@ -54,8 +54,8 @@ Companies must deliver their VAT and ICP declarations electronically to the tax 
  To setup electronic declarations for subsidiaries of a holding company, you must place a check mark in the field Part of Fiscal Entity Field in the Elec. Tax Declaration Setup Window window.  
   
 ## See Also  
- [Electronic VAT and ICP Declarations](../FullExperience/electronic-vat-and-icp-declarations.md)   
- [OBSOLETE: General Parameters and Certificates](../FullExperience/OBSOLETE:%20General%20Parameters%20and%20Certificates.md)   
- [OBSOLETE: How to: Set Up PKI-Based User Certificates for Electronic Tax Declarations](../FullExperience/OBSOLETE:%20How%20to:%20Set%20Up%20PKI-Based%20User%20Certificates%20for%20Electronic%20Tax%20Declarations.md)   
- [OBSOLETE: How to: Register for Electronic VAT and ICP Declarations](../FullExperience/OBSOLETE:%20How%20to:%20Register%20for%20Electronic%20VAT%20and%20ICP%20Declarations.md)   
+ [Electronic VAT and ICP Declarations](../electronic-vat-and-icp-declarations.md)   
+ [OBSOLETE: General Parameters and Certificates](../OBSOLETE:%20General%20Parameters%20and%20Certificates.md)   
+ [OBSOLETE: How to: Set Up PKI-Based User Certificates for Electronic Tax Declarations](../OBSOLETE:%20How%20to:%20Set%20Up%20PKI-Based%20User%20Certificates%20for%20Electronic%20Tax%20Declarations.md)   
+ [OBSOLETE: How to: Register for Electronic VAT and ICP Declarations](../OBSOLETE:%20How%20to:%20Register%20for%20Electronic%20VAT%20and%20ICP%20Declarations.md)   
  Elec. Tax Declaration Setup Window

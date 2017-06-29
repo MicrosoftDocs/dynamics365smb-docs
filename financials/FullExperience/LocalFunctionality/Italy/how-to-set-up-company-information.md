@@ -35,5 +35,5 @@ Fiscal documents must contain all company information. You can enter all relevan
 3.  Choose the **OK** button.  
   
 ## See Also  
- [Italy Local Functionality](../FullExperience/italy-local-functionality.md)   
+ [Italy Local Functionality](../italy-local-functionality.md)   
  Company Information

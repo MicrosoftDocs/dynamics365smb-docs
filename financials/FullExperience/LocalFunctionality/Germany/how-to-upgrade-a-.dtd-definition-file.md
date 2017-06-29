@@ -29,4 +29,4 @@ You can explicitly validate a .dtd file after you import one in order to address
 4.  Select a file to import, and then in the **Process** group, choose **Validate**.  
   
 ## See Also  
- [How to: Set Up Data Exports for GDPdU](../FullExperience/how-to-set-up-data-exports-for-gdpdu.md)
+ [How to: Set Up Data Exports for GDPdU](../how-to-set-up-data-exports-for-gdpdu.md)

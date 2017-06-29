@@ -21,7 +21,7 @@ If you are certain that a workflow is no longer being used, you can delete it. A
 > [!CAUTION]  
 >  When you delete a workflow, all information in the workflow will be lost.  
   
- In the **Workflow** window, you create a workflow by listing the involved steps on the lines. Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options. You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code. For more information, see [How to: Create Workflows](../FullExperience/how-to-create-workflows.md).  
+ In the **Workflow** window, you create a workflow by listing the involved steps on the lines. Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options. You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code. For more information, see [How to: Create Workflows](../how-to-create-workflows.md).  
   
 ### To delete a workflow  
   
@@ -39,11 +39,11 @@ If you are certain that a workflow is no longer being used, you can delete it. A
  Workflow   
  Workflow Response Options   
  Notification Entries   
- [How to: Create Workflows](../FullExperience/how-to-create-workflows.md)   
- [How to: Enable Workflows](../FullExperience/how-to-enable-workflows.md)   
- [How to: View Archived Workflow Step Instances](../FullExperience/how-to-view-archived-workflow-step-instances.md)   
- [Walkthrough: Setting Up and Using a Purchase Approval Workflow](../FullExperience/walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
- [Set Up Workflows](../FullExperience/set-up-workflows.md)   
- [Use Workflows](../FullExperience/use-workflows.md)   
- [Workflow](../FullExperience/workflow.md)   
- [Business Functionality](../FullExperience/Business%20Functionality.md)
+ [How to: Create Workflows](../how-to-create-workflows.md)   
+ [How to: Enable Workflows](../how-to-enable-workflows.md)   
+ [How to: View Archived Workflow Step Instances](../how-to-view-archived-workflow-step-instances.md)   
+ [Walkthrough: Setting Up and Using a Purchase Approval Workflow](../walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
+ [Set Up Workflows](../set-up-workflows.md)   
+ [Use Workflows](../use-workflows.md)   
+ [Workflow](../workflow.md)   
+ [Business Functionality](../Business%20Functionality.md)

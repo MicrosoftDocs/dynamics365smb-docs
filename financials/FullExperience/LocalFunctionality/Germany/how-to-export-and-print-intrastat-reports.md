@@ -24,7 +24,7 @@ Intrastat reporting is required throughout the European Union \(EU\) and must fo
   
 1.  In the **Search** box, enter **Intrastat Journals**, and then choose the related link.  
   
-2.  In the **Batch Name** field, select the required journal batch name. For more information, see [How to: Set Up Intrastat Journal Templates and Batches](../FullExperience/how-to-set-up-intrastat-journal-templates-and-batches.md).  
+2.  In the **Batch Name** field, select the required journal batch name. For more information, see [How to: Set Up Intrastat Journal Templates and Batches](../how-to-set-up-intrastat-journal-templates-and-batches.md).  
   
 3.  On the **Home** tab, in the **Process** group, choose **Checklist Report**.  
   
@@ -72,6 +72,6 @@ Intrastat reporting is required throughout the European Union \(EU\) and must fo
  When the file is exported, the **Reported** check box in the **Intrastat Jnl. Batches** window will be selected, and the **Internal Ref. No.** field on every entry in the journal will be filled in. You can manually change the contents of the field. For example, you can make changes when you need to run the report again. For more information, see Intrastat Jnl. Batch.  
   
 ## See Also  
- [VAT Reporting](../FullExperience/vat-reporting.md)   
- [How to: Set Up Intrastat Journal Templates and Batches](../FullExperience/how-to-set-up-intrastat-journal-templates-and-batches.md)   
+ [VAT Reporting](../vat-reporting.md)   
+ [How to: Set Up Intrastat Journal Templates and Batches](../how-to-set-up-intrastat-journal-templates-and-batches.md)   
  Intrastat Jnl. Batch

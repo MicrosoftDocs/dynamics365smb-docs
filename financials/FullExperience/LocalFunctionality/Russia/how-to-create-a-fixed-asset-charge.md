@@ -40,4 +40,4 @@ The following procedure shows how to create a new fixed asset charge.
  Gen. Product Posting Group   
  VAT Product Posting Group   
  Tax Difference   
- [Fixed Assets Accounting Setup](../FullExperience/fixed-assets-accounting-setup.md)
+ [Fixed Assets Accounting Setup](../fixed-assets-accounting-setup.md)

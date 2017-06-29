@@ -16,11 +16,11 @@
 
     ---
 # How to: Set Up a Currency Exchange Rate Service
-You can use an external service to keep your for currency exchange rates up to date. For more information, see [How to: Update Currency Exchange Rates from a Service](../FullExperience/how-to-update-currency-exchange-rates-from-a-service.md).  
+You can use an external service to keep your for currency exchange rates up to date. For more information, see [How to: Update Currency Exchange Rates from a Service](../how-to-update-currency-exchange-rates-from-a-service.md).  
   
  To update currency exchange rates, for example with the service provided by the European Central Bank, you must first set up the service.  
   
- The service that provides updated currency exchange rates is enabled by a data exchange definition. Accordingly, the **Exch. Rate Update Setup Card** window is a condensed view of the **Data Exchange Definition** window for the data exchange definition in question. For more information, see [How to: Set Up Data Exchange Definitions](../FullExperience/how-to-set-up-data-exchange-definitions.md).  
+ The service that provides updated currency exchange rates is enabled by a data exchange definition. Accordingly, the **Exch. Rate Update Setup Card** window is a condensed view of the **Data Exchange Definition** window for the data exchange definition in question. For more information, see [How to: Set Up Data Exchange Definitions](../how-to-set-up-data-exchange-definitions.md).  
   
 ### To set up a currency exchange rate service  
   
@@ -65,6 +65,6 @@ You can use an external service to keep your for currency exchange rates up to d
  Currencies   
  Exch. Rate Update Setup Card   
  Data Exch. Field Mapping Buf.   
- [How to: Set Up a Currency Exchange Rate Service](../FullExperience/how-to-set-up-a-currency-exchange-rate-service.md)   
- [How to: Set Up Data Exchange Definitions](../FullExperience/how-to-set-up-data-exchange-definitions.md)   
- [Data Exchange](../FullExperience/data-exchange.md)
+ [How to: Set Up a Currency Exchange Rate Service](../how-to-set-up-a-currency-exchange-rate-service.md)   
+ [How to: Set Up Data Exchange Definitions](../how-to-set-up-data-exchange-definitions.md)   
+ [Data Exchange](../data-exchange.md)

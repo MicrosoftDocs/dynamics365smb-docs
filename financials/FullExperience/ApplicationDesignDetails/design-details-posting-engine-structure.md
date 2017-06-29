@@ -36,4 +36,4 @@ Posting interface and some other functions in codeunit 12 use posting engine fun
 |CreateGLEntryFromVATEntry|Same as CreateGLEntry, but also copies posting groups from VAT entry.|  
   
 ## See Also  
- [Design Details: Posting Interface Structure](../FullExperience/design-details-posting-interface-structure.md)
+ [Design Details: Posting Interface Structure](../design-details-posting-interface-structure.md)

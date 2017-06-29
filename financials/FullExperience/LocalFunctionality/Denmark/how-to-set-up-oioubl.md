@@ -91,13 +91,13 @@ You must define a location for storing Offentlig Information Online UBL \(OIOUBL
   
  You must also make sure that the OIOUBL Country-Region Code field is filled in for Denmark in the **Countries\/Regions** window.  
   
- Finally, you must specify EAN numbers and account codes for the relevant customers. For more information, see [How to: Set Up Customers for OIOUBL](../FullExperience/how-to-set-up-customers-for-oioubl.md).  
+ Finally, you must specify EAN numbers and account codes for the relevant customers. For more information, see [How to: Set Up Customers for OIOUBL](../how-to-set-up-customers-for-oioubl.md).  
   
 ## See Also  
- [OIOUBL Electronic Invoicing Overview](../FullExperience/oioubl-electronic-invoicing-overview.md)   
- [How to: Set Up Customers for OIOUBL](../FullExperience/how-to-set-up-customers-for-oioubl.md)   
+ [OIOUBL Electronic Invoicing Overview](../oioubl-electronic-invoicing-overview.md)   
+ [How to: Set Up Customers for OIOUBL](../how-to-set-up-customers-for-oioubl.md)   
  Payment Methods   
- [\($ N\_459 Sales & Receivables Setup $\)-duplicate](../FullExperience/-$-n_459-sales-receivables-setup-$-duplicate.md)   
+ [\($ N\_459 Sales & Receivables Setup $\)-duplicate](../-$-n_459-sales-receivables-setup-$-duplicate.md)   
  Service Mgt. Setup   
  Countries\/Regions   
  Item Charges

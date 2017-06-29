@@ -221,6 +221,6 @@ The receivables report feature enables you to view the customer general ledger t
 |**Print Contractor Data**|Select this option to fill in the, the right side of the report with the customer's data.|  
   
 ## See Also  
- [Russian Payables Reports](../FullExperience/russian-payables-reports.md)   
- [How to: Set Up Customer and Vendor Agreements](../FullExperience/how-to-set-up-customer-and-vendor-agreements.md)   
- [Payables and Receivables-duplicate](../FullExperience/payables-and-receivables-duplicate.md)
+ [Russian Payables Reports](../russian-payables-reports.md)   
+ [How to: Set Up Customer and Vendor Agreements](../how-to-set-up-customer-and-vendor-agreements.md)   
+ [Payables and Receivables-duplicate](../payables-and-receivables-duplicate.md)

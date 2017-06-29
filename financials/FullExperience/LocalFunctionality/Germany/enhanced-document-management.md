@@ -60,11 +60,11 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can ar
 -   Posted invoices  
   
 ## See Also  
- [About Blanket Sales Orders](../FullExperience/about-blanket-sales-orders.md)   
- [About Blanket Purchase Orders](../FullExperience/about-blanket-purchase-orders.md)   
- [How to: Set Up Automatic Archiving of Documents](../FullExperience/how-to-set-up-automatic-archiving-of-documents.md)   
- [How to: Archive Blanket Orders](../FullExperience/how-to-archive-blanket-orders.md)   
- [How to: Create an Order from an Archived Blanket Order](../FullExperience/how-to-create-an-order-from-an-archived-blanket-order.md)   
- [How to: Delete Archived Blanket Orders](../FullExperience/how-to-delete-archived-blanket-orders.md)   
- [How to: Track Document Lines](../FullExperience/how-to-track-document-lines.md)   
- [Germany Local Functionality](../FullExperience/germany-local-functionality.md)
+ [About Blanket Sales Orders](../about-blanket-sales-orders.md)   
+ [About Blanket Purchase Orders](../about-blanket-purchase-orders.md)   
+ [How to: Set Up Automatic Archiving of Documents](../how-to-set-up-automatic-archiving-of-documents.md)   
+ [How to: Archive Blanket Orders](../how-to-archive-blanket-orders.md)   
+ [How to: Create an Order from an Archived Blanket Order](../how-to-create-an-order-from-an-archived-blanket-order.md)   
+ [How to: Delete Archived Blanket Orders](../how-to-delete-archived-blanket-orders.md)   
+ [How to: Track Document Lines](../how-to-track-document-lines.md)   
+ [Germany Local Functionality](../germany-local-functionality.md)

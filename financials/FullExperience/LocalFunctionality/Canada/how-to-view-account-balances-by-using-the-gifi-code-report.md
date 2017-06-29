@@ -34,9 +34,9 @@ You can review your account balances by General Index of Financial Information \
 4.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [GIFI Codes](../FullExperience/gifi-codes.md)   
+ [GIFI Codes](../gifi-codes.md)   
  Account Balances by GIFI Code   
  Export GIFI Info. to Excel   
- [How to: Set Up GIFI Codes](../FullExperience/how-to-set-up-gifi-codes.md)   
- [How to: Export Balance Information by Using GIFI Codes](../FullExperience/how-to-export-balance-information-by-using-gifi-codes.md)   
- [How to: Associate GIFI Codes with Chart of Accounts](../FullExperience/how-to-associate-gifi-codes-with-chart-of-accounts.md)
+ [How to: Set Up GIFI Codes](../how-to-set-up-gifi-codes.md)   
+ [How to: Export Balance Information by Using GIFI Codes](../how-to-export-balance-information-by-using-gifi-codes.md)   
+ [How to: Associate GIFI Codes with Chart of Accounts](../how-to-associate-gifi-codes-with-chart-of-accounts.md)

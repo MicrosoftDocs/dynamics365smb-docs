@@ -230,4 +230,4 @@ A campaign is any kind of activity that involves several contacts. An important 
      After the segment is logged, an entry for the campaign is automatically created to record this action in the **Campaign Entries** window.  
   
 ## See Also  
- [Business Process Walkthroughs](../FullExperience/business-process-walkthroughs.md)
+ [Business Process Walkthroughs](../business-process-walkthroughs.md)

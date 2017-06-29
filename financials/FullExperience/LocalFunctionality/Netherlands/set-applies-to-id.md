@@ -23,4 +23,4 @@ Use this to apply one or more G\/L entries. Select the entry, and then choose **
  You must choose **Set Applies-to ID** for all the entries that you want to apply before you choose **Post Application**.  
   
 ## See Also  
- [How to: Apply and Unapply General Ledger Entries](../FullExperience/how-to-apply-and-unapply-general-ledger-entries.md)
+ [How to: Apply and Unapply General Ledger Entries](../how-to-apply-and-unapply-general-ledger-entries.md)

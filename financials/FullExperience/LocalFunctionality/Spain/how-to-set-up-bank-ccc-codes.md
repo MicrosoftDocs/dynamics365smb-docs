@@ -57,7 +57,7 @@ Código Cuenta Cliente \(CCC\) is a unique account code used by banks to identif
 3.  Choose the **OK** button.  
   
 ## See Also  
- [How to: Enter Company Information](../FullExperience/how-to-enter-company-information.md)   
- [How to: Set Up Bank Accounts](../FullExperience/how-to-set-up-bank-accounts.md)   
+ [How to: Enter Company Information](../how-to-enter-company-information.md)   
+ [How to: Set Up Bank Accounts](../how-to-set-up-bank-accounts.md)   
  Customer Bank Account Card   
- [How to: Set Up Vendor Bank Accounts](../FullExperience/how-to-set-up-vendor-bank-accounts.md)
+ [How to: Set Up Vendor Bank Accounts](../how-to-set-up-vendor-bank-accounts.md)

@@ -35,7 +35,7 @@ You can run regular background processing such as email logging using a job queu
   
 1.  Open ADD INCLUDE<!--[!INCLUDE[nav_admin](../../includes/Microsoft%20Dynamics%20NAV%20Server%20Administration%20Tool.md).  
   
-2.  Create a new server instance that uses a user account for the service account. The user account must have an account on an Exchange Server. For more information, see [How to: Create a Microsoft Dynamics NAV Server Instance](../FullExperience/How%20to:%20Create%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md).  
+2.  Create a new server instance that uses a user account for the service account. The user account must have an account on an Exchange Server. For more information, see [How to: Create a Microsoft Dynamics NAV Server Instance](../How%20to:%20Create%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md).  
   
     > [!NOTE]  
     >  The user must have sufficient ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/demolong_md.md)]-->.  
@@ -53,4 +53,4 @@ You can run regular background processing such as email logging using a job queu
  Review the error message and make modifications as needed. After you have verified that the server instance is running correctly, you can stop it from running. Then, set up a job queue to run on the server instance.  
   
 ## See Also  
- [How to: Set Up Job Queues](../FullExperience/how-to-set-up-job-queues.md)
+ [How to: Set Up Job Queues](../how-to-set-up-job-queues.md)

@@ -70,4 +70,4 @@ The following procedure describes how to export a SEPA payment file, one of the 
  You can export a line again if needed. On the **Home** tab, in the Bank group, choose **Export Payments to File**, and then choose **Yes**.  
   
 ## See Also  
- [How to: Export BACS Files](../FullExperience/how-to-export-bacs-files.md)
+ [How to: Export BACS Files](../how-to-export-bacs-files.md)

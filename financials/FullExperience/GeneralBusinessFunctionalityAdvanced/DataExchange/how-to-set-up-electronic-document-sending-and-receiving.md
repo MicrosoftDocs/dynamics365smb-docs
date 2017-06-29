@@ -42,12 +42,12 @@ You use an external provider of OCR services to have PDF or image files turned i
   
 1.  In the **OCR Service Setup** window, on the **Home** tab, in the **Encryption** group, choose **Encryption Management**.  
   
-2.  In the **Data Encryption Management** window, enable encryption of your data. For more information, see [Manage Data Encryption](../FullExperience/manage-data-encryption.md).  
+2.  In the **Data Encryption Management** window, enable encryption of your data. For more information, see [Manage Data Encryption](../manage-data-encryption.md).  
   
 ## See Also  
  OCR Service Setup   
  OCR Service Setup   
- [How to: Use OCR to Turn PDF and Image Files into Electronic Documents](../FullExperience/how-to-use-ocr-to-turn-pdf-and-image-files-into-electronic-documents.md)   
- [Manage Data Encryption](../FullExperience/manage-data-encryption.md)   
- [Incoming Documents](../FullExperience/incoming-documents.md)   
- [Business Functionality](../FullExperience/Business%20Functionality.md)
+ [How to: Use OCR to Turn PDF and Image Files into Electronic Documents](../how-to-use-ocr-to-turn-pdf-and-image-files-into-electronic-documents.md)   
+ [Manage Data Encryption](../manage-data-encryption.md)   
+ [Incoming Documents](../incoming-documents.md)   
+ [Business Functionality](../Business%20Functionality.md)

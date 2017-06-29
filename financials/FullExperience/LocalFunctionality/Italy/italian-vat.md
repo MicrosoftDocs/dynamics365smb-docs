@@ -88,14 +88,14 @@ Companies must pay VAT to the state for most purchased goods and services. VAT c
   
  To prepare your data for these reports, you must set up VAT posting to include VAT transaction report amounts. When a transaction such as posting a sales invoice is made that uses this VAT posting setup, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-prepare-for-vat-transactions-reports.md).  
   
- You must submit a VAT transactions report electronically to the tax authorities. For more information, see [How to: Create Electronic VAT Transactions Reports](../FullExperience/how-to-create-electronic-vat-transactions-reports.md).  
+ You must submit a VAT transactions report electronically to the tax authorities. For more information, see [How to: Create Electronic VAT Transactions Reports](../how-to-create-electronic-vat-transactions-reports.md).  
   
 ## See Also  
- [How to: Create a VAT Combination Setup](../FullExperience/how-to-create-a-vat-combination-setup.md)   
- [How to: Prepare for VAT Transactions Reports](../FullExperience/how-to-prepare-for-vat-transactions-reports.md)   
- [How to: Create Electronic VAT Transactions Reports](../FullExperience/how-to-create-electronic-vat-transactions-reports.md)   
- [How to: Submit VAT Statements](../FullExperience/how-to-submit-vat-statements.md)   
- [How to: Update VAT Transactions Data](../FullExperience/how-to-update-vat-transactions-data.md)   
- [How to: Report Trade with Customers and Vendors in Blacklist Countries-Regions](../FullExperience/how-to-report-trade-with-customers-and-vendors-in-blacklist-countries-regions.md)   
+ [How to: Create a VAT Combination Setup](../how-to-create-a-vat-combination-setup.md)   
+ [How to: Prepare for VAT Transactions Reports](../how-to-prepare-for-vat-transactions-reports.md)   
+ [How to: Create Electronic VAT Transactions Reports](../how-to-create-electronic-vat-transactions-reports.md)   
+ [How to: Submit VAT Statements](../how-to-submit-vat-statements.md)   
+ [How to: Update VAT Transactions Data](../how-to-update-vat-transactions-data.md)   
+ [How to: Report Trade with Customers and Vendors in Blacklist Countries-Regions](../how-to-report-trade-with-customers-and-vendors-in-blacklist-countries-regions.md)   
  Annual VAT Comm. - 2010   
- [Italy Local Functionality](../FullExperience/italy-local-functionality.md)
+ [Italy Local Functionality](../italy-local-functionality.md)

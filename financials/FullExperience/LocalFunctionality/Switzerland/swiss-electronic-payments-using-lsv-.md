@@ -35,11 +35,11 @@ The Lastschrift Verfahren \(LSV\+\)—or direct debit—electronic payment metho
 -   After the LSV processing date, you can check the LSV journal lines. If all of the LSV journal lines are closed, then the status of the **LSV Status** field is updated to  **Finished**.  
   
 ## See Also  
- [How to: Process an LSV Collection](../FullExperience/how-to-process-an-lsv-collection.md)   
- [How to: Close an LSV Collection](../FullExperience/how-to-close-an-lsv-collection.md)   
- [How to: Post LSV\+ Payments](../FullExperience/how-to-post-lsv-payments.md)   
- [How to: Export Payments Using LSV](../FullExperience/how-to-export-payments-using-lsv.md)   
- [Swiss Electronic Payments](../FullExperience/swiss-electronic-payments.md)   
- [Swiss Electronic Payments Using DTA](../FullExperience/swiss-electronic-payments-using-dta.md)   
- [Swiss Electronic Payments Using ESR](../FullExperience/swiss-electronic-payments-using-esr.md)   
+ [How to: Process an LSV Collection](../how-to-process-an-lsv-collection.md)   
+ [How to: Close an LSV Collection](../how-to-close-an-lsv-collection.md)   
+ [How to: Post LSV\+ Payments](../how-to-post-lsv-payments.md)   
+ [How to: Export Payments Using LSV](../how-to-export-payments-using-lsv.md)   
+ [Swiss Electronic Payments](../swiss-electronic-payments.md)   
+ [Swiss Electronic Payments Using DTA](../swiss-electronic-payments-using-dta.md)   
+ [Swiss Electronic Payments Using ESR](../swiss-electronic-payments-using-esr.md)   
  LSV Setup

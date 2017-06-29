@@ -49,5 +49,5 @@ An Australian Business Number \(ABN\) is a single identifier for all business de
 -   **Adjustment** and **BAS Adjustment**: These entries populate automatically. Some credit memos are Business Activity Statement \(BAS\) adjustments. Adjustment notes can only be applied against a single document.  
   
 ## See Also  
- [How to: Enter Australian Business Numbers](../FullExperience/how-to-enter-australian-business-numbers.md)   
- [Australia Local Functionality](../FullExperience/australia-local-functionality.md)
+ [How to: Enter Australian Business Numbers](../how-to-enter-australian-business-numbers.md)   
+ [Australia Local Functionality](../australia-local-functionality.md)

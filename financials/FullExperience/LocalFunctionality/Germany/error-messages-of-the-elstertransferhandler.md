@@ -47,5 +47,5 @@ When ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> submits s
 |9000|An error occurred when the ELSTER portal was trying to read the configuration of the certificate. You must verify the content of the generated XML document.|  
   
 ## See Also  
- [ELSTER Transmission Overview](../FullExperience/elster-transmission-overview.md)   
- [How to: Set Up Sales VAT Advance Notifications for ELSTER](../FullExperience/how-to-set-up-sales-vat-advance-notifications-for-elster.md)
+ [ELSTER Transmission Overview](../elster-transmission-overview.md)   
+ [How to: Set Up Sales VAT Advance Notifications for ELSTER](../how-to-set-up-sales-vat-advance-notifications-for-elster.md)

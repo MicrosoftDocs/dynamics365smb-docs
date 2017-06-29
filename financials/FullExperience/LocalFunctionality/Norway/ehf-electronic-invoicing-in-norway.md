@@ -23,7 +23,7 @@ Companies must send sales invoices and credit memos to the Norwegian public sect
 ## Implementation in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->  
  The current requirements for sending electronic invoices are based on the Universal Business Language \(UBL\) version 2.1 standard. For more information, see the [OASIS UBL](http://go.microsoft.com/fwlink/?LinkId=212593) website. The generated XML documents can then be sent to the customer.  
   
- To send documents electronically, you must assign European Article Numbering \(EAN\) location numbers and account codes to the relevant customers in the **Customer Card** window. For more information, see [How to: Set Up Customers for EHF](../FullExperience/how-to-set-up-customers-for-ehf.md). These numbers are included when you create documents, and post or issue them. After the documents have been posted or issued, you can create electronic versions to be sent to the customer.  
+ To send documents electronically, you must assign European Article Numbering \(EAN\) location numbers and account codes to the relevant customers in the **Customer Card** window. For more information, see [How to: Set Up Customers for EHF](../how-to-set-up-customers-for-ehf.md). These numbers are included when you create documents, and post or issue them. After the documents have been posted or issued, you can create electronic versions to be sent to the customer.  
   
  ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> exports certain electronic documents in version 2.0, which uses UBL version 2.1. You can submit the following types of documents:  
   
@@ -41,7 +41,7 @@ Companies must send sales invoices and credit memos to the Norwegian public sect
   
 -   Reminder  
   
- The electronic documents are stored in the locations that are defined in the [\($ N\_459 Sales & Receivables Setup $\)-duplicate](../FullExperience/how-to-set-up-ehf.md).  
+ The electronic documents are stored in the locations that are defined in the [\($ N\_459 Sales & Receivables Setup $\)-duplicate](../how-to-set-up-ehf.md).  
   
 ### VAT Treatment  
  VAT percentages and the type of transaction determine the VAT Type that is exported in the electronic document.  
@@ -57,4 +57,4 @@ Companies must send sales invoices and credit memos to the Norwegian public sect
 |K|Emission allowances for private or public businesses – buyer calculates VAT|None, reported as 0|  
   
 ## See Also  
- [How to: Set Up Customers for EHF](../FullExperience/how-to-set-up-customers-for-ehf.md)
+ [How to: Set Up Customers for EHF](../how-to-set-up-customers-for-ehf.md)

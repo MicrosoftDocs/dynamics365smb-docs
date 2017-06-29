@@ -103,4 +103,4 @@ You can use the following reports for VAT reporting:
  Detailed Vendor Ledg. Entries   
  Detailed Cust. Ledg. Entries   
  VAT Entries   
- [United Kingdom Local Functionality](../FullExperience/united-kingdom-local-functionality.md)
+ [United Kingdom Local Functionality](../united-kingdom-local-functionality.md)

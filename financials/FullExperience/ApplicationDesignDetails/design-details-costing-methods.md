@@ -28,7 +28,7 @@ The costing method determines if an actual or a budgeted value is capitalized an
   
  The following image shows how costs flow through the inventory for each costing method.  
   
- ![Costing methods](../FullExperience/media/design_details_inventory_costing_7_costing_methods.png "design\_details\_inventory\_costing\_7\_costing\_methods")  
+ ![Costing methods](../media/design_details_inventory_costing_7_costing_methods.png "design\_details\_inventory\_costing\_7\_costing\_methods")  
   
  Costing methods differ in the way that they value inventory decreases and if they use actual cost or standard cost as the valuation base. The following table explains the different characteristics. \(The LIFO method is excluded, as it is very similar to the FIFO method.\)  
   
@@ -112,7 +112,7 @@ The costing method determines if an actual or a budgeted value is capitalized an
   
  **Average**  
   
- For items using the **Average** costing method, inventory decreases are valued by calculating a weighted average of the remaining inventory on the last day of the average cost period in which the inventory decrease was posted. For more information, see [Design Details: Average Cost](../FullExperience/design-details-average-cost.md).  
+ For items using the **Average** costing method, inventory decreases are valued by calculating a weighted average of the remaining inventory on the last day of the average cost period in which the inventory decrease was posted. For more information, see [Design Details: Average Cost](../design-details-average-cost.md).  
   
  The following table shows how inventory decreases are valued for the **Average** costing method.  
   
@@ -149,7 +149,7 @@ The costing method determines if an actual or a budgeted value is capitalized an
 |04-01-20|-1|-30.00|**3**|6|  
   
 ## See Also  
- [Design Details: Inventory Costing](../FullExperience/design-details-inventory-costing.md)   
- [Design Details: Variance](../FullExperience/design-details-variance.md)   
- [Design Details: Average Cost](../FullExperience/design-details-average-cost.md)   
- [Design Details: Item Application](../FullExperience/design-details-item-application.md)
+ [Design Details: Inventory Costing](../design-details-inventory-costing.md)   
+ [Design Details: Variance](../design-details-variance.md)   
+ [Design Details: Average Cost](../design-details-average-cost.md)   
+ [Design Details: Item Application](../design-details-item-application.md)

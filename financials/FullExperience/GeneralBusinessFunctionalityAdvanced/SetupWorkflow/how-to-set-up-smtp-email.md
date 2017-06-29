@@ -40,8 +40,8 @@ To send e-mails from ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.m
  For more information about SMTP e-mail systems, see [Configure SMTP E-mail \(IIS 7\)](http://go.microsoft.com/fwlink/?LinkId=263830).  
   
 ## See Also  
- [How to: Manage Notification Templates](../FullExperience/how-to-manage-notification-templates.md)   
+ [How to: Manage Notification Templates](../how-to-manage-notification-templates.md)   
  SMTP Mail Setup   
- [Workflow](../FullExperience/workflow.md)   
- [Walkthrough: Setting Up and Using a Purchase Approval Workflow](../FullExperience/walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
+ [Workflow](../workflow.md)   
+ [Walkthrough: Setting Up and Using a Purchase Approval Workflow](../walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Configure SMTP E-mail \(IIS 7\)](http://go.microsoft.com/fwlink/?LinkId=263830)

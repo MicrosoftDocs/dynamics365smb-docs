@@ -43,10 +43,10 @@ You can post payments after you have received Lastschrift Verfahren \(LSV\+\) pa
 6.  On the **Home** tab, in the **Posting** group, choose **Post**.  
   
 ## See Also  
- [Swiss Electronic Payments Using LSV\+](../FullExperience/swiss-electronic-payments-using-lsv-.md)   
- [How to: Process an LSV Collection](../FullExperience/how-to-process-an-lsv-collection.md)   
- [How to: Close an LSV Collection](../FullExperience/how-to-close-an-lsv-collection.md)   
- [How to: Export Payments Using LSV](../FullExperience/how-to-export-payments-using-lsv.md)   
+ [Swiss Electronic Payments Using LSV\+](../swiss-electronic-payments-using-lsv-.md)   
+ [How to: Process an LSV Collection](../how-to-process-an-lsv-collection.md)   
+ [How to: Close an LSV Collection](../how-to-close-an-lsv-collection.md)   
+ [How to: Export Payments Using LSV](../how-to-export-payments-using-lsv.md)   
  Cash Receipt Journal   
  LSV Journal   
  LSV Journal Line

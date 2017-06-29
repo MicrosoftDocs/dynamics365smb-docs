@@ -48,7 +48,7 @@
  You can cancel depreciation bonus transactions by running the **Cancel FA Ledger Entries** batch job. After posting the depreciation bonus cancellation, all operations that are included in the depreciation bonus base must be manually selected as the depreciation bonus base.  
   
 ## See Also  
- [How to: Create Fixed Assets](../FullExperience/how-to-create-fixed-assets.md)   
+ [How to: Create Fixed Assets](../how-to-create-fixed-assets.md)   
  Fixed Asset Card   
  Fixed Asset Journal   
  Fixed Asset G-L Journal   

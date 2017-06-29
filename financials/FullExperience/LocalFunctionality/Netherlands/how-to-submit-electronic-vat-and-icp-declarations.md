@@ -46,4 +46,4 @@ With the eXtensible Business Reporting Language \(XBRL\) reporter, you can submi
   
 ## See Also  
  Elec. Tax Declaration Setup Window   
- [eXtensible Business Reporting Language](../FullExperience/extensible-business-reporting-language.md)
+ [eXtensible Business Reporting Language](../extensible-business-reporting-language.md)

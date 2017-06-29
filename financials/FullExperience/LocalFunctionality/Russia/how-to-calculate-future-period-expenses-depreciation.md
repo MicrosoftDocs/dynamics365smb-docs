@@ -31,8 +31,8 @@ The following procedure shows how to calculate future period expenses depreciati
 5.  Post the created lines with the calculated depreciation amounts.  
   
 ## See Also  
- [How to: Set Up a Future Expense Card](../FullExperience/how-to-set-up-a-future-expense-card.md)   
- [Future Expenses \(Deferrals\)](../FullExperience/future-expenses-deferrals-.md)   
- [How to: Create Future Expense Journals](../FullExperience/how-to-create-future-expense-journals.md)   
- [How to: Set Up Future Expenses in a Depreciation Book](../FullExperience/how-to-set-up-future-expenses-in-a-depreciation-book.md)   
- [How to: Create and Post a Purchase Invoice on a Future Expense](../FullExperience/how-to-create-and-post-a-purchase-invoice-on-a-future-expense.md)
+ [How to: Set Up a Future Expense Card](../how-to-set-up-a-future-expense-card.md)   
+ [Future Expenses \(Deferrals\)](../future-expenses-deferrals-.md)   
+ [How to: Create Future Expense Journals](../how-to-create-future-expense-journals.md)   
+ [How to: Set Up Future Expenses in a Depreciation Book](../how-to-set-up-future-expenses-in-a-depreciation-book.md)   
+ [How to: Create and Post a Purchase Invoice on a Future Expense](../how-to-create-and-post-a-purchase-invoice-on-a-future-expense.md)

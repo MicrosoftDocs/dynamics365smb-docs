@@ -43,7 +43,7 @@ After posting the fixed assets, you must create a fixed asset release act of the
 3.  Choose the **OK** button.  
   
 ## See Also  
- [How to: Set Up a Quantity Book](../FullExperience/how-to-set-up-a-quantity-book.md)   
- [Undepreciable Fixed Assets](../FullExperience/undepreciable-fixed-assets.md)   
- [How to: Set Up Undepreciable Fixed Assets](../FullExperience/how-to-set-up-undepreciable-fixed-assets.md)   
+ [How to: Set Up a Quantity Book](../how-to-set-up-a-quantity-book.md)   
+ [Undepreciable Fixed Assets](../undepreciable-fixed-assets.md)   
+ [How to: Set Up Undepreciable Fixed Assets](../how-to-set-up-undepreciable-fixed-assets.md)   
  Purchase Order

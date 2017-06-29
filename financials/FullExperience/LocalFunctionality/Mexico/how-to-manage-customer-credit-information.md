@@ -66,6 +66,6 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can ad
   
 ## See Also  
  Customer - Order Summary   
- [United States Local Functionality](../FullExperience/united-states-local-functionality.md)   
- [Canada Local Functionality](../FullExperience/canada-local-functionality.md)   
- [Mexico Local Functionality](../FullExperience/mexico-local-functionality.md)
+ [United States Local Functionality](../united-states-local-functionality.md)   
+ [Canada Local Functionality](../canada-local-functionality.md)   
+ [Mexico Local Functionality](../mexico-local-functionality.md)

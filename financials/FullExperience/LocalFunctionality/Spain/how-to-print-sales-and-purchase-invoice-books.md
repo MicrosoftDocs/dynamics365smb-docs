@@ -42,6 +42,6 @@ The **Sales Invoice Book** report and **Purchases Invoice Book** report allow yo
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [Spain Local Functionality](../FullExperience/spain-local-functionality.md)   
+ [Spain Local Functionality](../spain-local-functionality.md)   
  Purchases Invoice Book   
  Sales Invoice Book

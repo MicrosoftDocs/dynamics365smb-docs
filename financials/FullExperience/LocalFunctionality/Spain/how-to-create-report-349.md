@@ -66,6 +66,6 @@ You must submit a periodic report of trade with other EU countries\/regions to t
  For corrections to amounts that were included in an earlier 349 declaration, the window can show more than one warning for a customer or vendor with the same values in the **Original Declaration FY** and **Original Declaration Period** fields. In that case, you should combine the corrections in a single line so that the appropriate amounts for the **Previous Declared Amount** field and the **Original Declared Amount** field are included in the 349 declaration.  
   
 ## See Also  
- [Report 349](../FullExperience/report-349.md)   
+ [Report 349](../report-349.md)   
  Make 349 Declaration   
  Declaration Labels

@@ -104,7 +104,7 @@ In managing your relationships with contacts, it helps keep track of email corre
   
 1.  In the **Search** box, enter **Interaction Template Setup**, and then choose the related link.  
   
-2.  On the **General** FastTab, in the **E-Mails** field, select a template. For this walkthrough, select **EMAIL**. Choose the **OK** button. For more information, see [Interactions](../FullExperience/interactions.md).  
+2.  On the **General** FastTab, in the **E-Mails** field, select a template. For this walkthrough, select **EMAIL**. Choose the **OK** button. For more information, see [Interactions](../interactions.md).  
   
 3.  In the **Search** box, enter **Marketing Setup**, and then choose the related link.  
   
@@ -127,7 +127,7 @@ In managing your relationships with contacts, it helps keep track of email corre
   
 1.  Open ADD INCLUDE<!--[!INCLUDE[nav_admin](../../includes/Microsoft%20Dynamics%20NAV%20Server%20Administration%20Tool.md).  
   
-2.  Create a new server instance called EMAIL. For more information, see [How to: Create a Microsoft Dynamics NAV Server Instance](../FullExperience/How%20to:%20Create%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md). To prevent collisions with the default server port settings, set port information as follows.  
+2.  Create a new server instance called EMAIL. For more information, see [How to: Create a Microsoft Dynamics NAV Server Instance](../How%20to:%20Create%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md). To prevent collisions with the default server port settings, set port information as follows.  
   
     |Port|Setting|  
     |----------|-------------|  
@@ -195,7 +195,7 @@ In managing your relationships with contacts, it helps keep track of email corre
   
 2.  Select the EMAIL server instance, and start it.  
   
-     For more information, see [Managing Microsoft Dynamics NAV Server Instances](../FullExperience/Managing%20Microsoft%20Dynamics%20NAV%20Server%20Instances.md).  
+     For more information, see [Managing Microsoft Dynamics NAV Server Instances](../Managing%20Microsoft%20Dynamics%20NAV%20Server%20Instances.md).  
   
 3.  Return to the ADD INCLUDE<!--[!INCLUDE[rtc](../../includes/rtc_md.md)]-->, and in the **Search** box, enter **Job Queue Log Entries**, and then choose the related link. To verify that the job queue is working as expected, note whether an entry is logged every five minutes.  
   
@@ -237,11 +237,11 @@ In managing your relationships with contacts, it helps keep track of email corre
 ## Using Email Logging and Interaction Logs  
  To verify your interactions, you can review the information that is recorded in the **Interaction Log Entries** window.  
   
- For more information, see [How to: Set Up Email Logging for use with the Job Queue](../FullExperience/how-to-set-up-email-logging-for-use-with-the-job-queue.md)  
+ For more information, see [How to: Set Up Email Logging for use with the Job Queue](../how-to-set-up-email-logging-for-use-with-the-job-queue.md)  
   
 ## See Also  
- [Logging and Tracking Email Interactions](../FullExperience/logging-and-tracking-email-interactions.md)   
+ [Logging and Tracking Email Interactions](../logging-and-tracking-email-interactions.md)   
  Folders   
  Relationship Management Setup   
- [Security Considerations for Email Logging](../FullExperience/security-considerations-for-email-logging.md)   
- [Troubleshooting: Email Logging](../FullExperience/troubleshooting-email-logging.md)
+ [Security Considerations for Email Logging](../security-considerations-for-email-logging.md)   
+ [Troubleshooting: Email Logging](../troubleshooting-email-logging.md)

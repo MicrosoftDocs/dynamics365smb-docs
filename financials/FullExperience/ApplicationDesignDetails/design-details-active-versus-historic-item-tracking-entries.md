@@ -58,5 +58,5 @@ When parts of a document line quantity are posted, only that particular quantity
 |**T336**|7|0|0|7|7|  
   
 ## See Also  
- [Design Details: Item Tracking](../FullExperience/design-details-item-tracking.md)   
- [Design Details: Item Tracking Lines Window](../FullExperience/design-details-item-tracking-lines-window.md)
+ [Design Details: Item Tracking](../design-details-item-tracking.md)   
+ [Design Details: Item Tracking Lines Window](../design-details-item-tracking-lines-window.md)

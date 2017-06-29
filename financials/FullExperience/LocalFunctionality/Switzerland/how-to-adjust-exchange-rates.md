@@ -50,10 +50,10 @@ If you have taxable sales in a foreign currency, you must use the official rate 
 7.  Choose the **Print** button to start the batch job. This batch job controls whether VAT entries have to be adjusted and prepares an adjusting entry for each of these entries for the Unrealized\/Realized Exchange Rate Adjustment accounts. The existing VAT entries are also corrected.  
   
 ## See Also  
- [Swiss Value Added Tax](../FullExperience/swiss-value-added-tax.md)   
- [VAT Rates for Switzerland](../FullExperience/vat-rates-for-switzerland.md)   
+ [Swiss Value Added Tax](../swiss-value-added-tax.md)   
+ [VAT Rates for Switzerland](../vat-rates-for-switzerland.md)   
  VAT Posting Setup   
  General Ledger Setup   
  VAT Entry   
- [Adjust Exchange Rates-duplicate](../FullExperience/-$-b_595-adjust-exchange-rates-$-duplicate.md)   
+ [Adjust Exchange Rates-duplicate](../-$-b_595-adjust-exchange-rates-$-duplicate.md)   
  Currency Exchange Rates

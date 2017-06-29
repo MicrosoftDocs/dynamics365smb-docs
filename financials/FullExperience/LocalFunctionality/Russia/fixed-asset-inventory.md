@@ -106,4 +106,4 @@ The fixed assets inventory feature enables you to:
  The procedure to print the Fixed Asset Comparative Sheet INV-18 report is similar to the Fixed Asset Comparative Sheet INV-1 report.  
   
 ## See Also  
- [Fixed Asset Locations and Employees](../FullExperience/fixed-asset-locations-and-employees.md)
+ [Fixed Asset Locations and Employees](../fixed-asset-locations-and-employees.md)

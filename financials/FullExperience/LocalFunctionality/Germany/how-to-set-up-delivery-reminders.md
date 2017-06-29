@@ -40,8 +40,8 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can us
 4.  Choose the **OK** button.  
   
 ## See Also  
- [\($ N\_460 Purchases & Payables Setup $\)](../FullExperience/-$-n_460-purchases-payables-setup-$-.md)   
- [Delivery Reminders](../FullExperience/delivery-reminders.md)   
- [How to: Set Up Delivery Reminder Terms, Levels, and Text](../FullExperience/how-to-set-up-delivery-reminder-terms-levels-and-text.md)   
- [How to: Assign Delivery Reminder Codes to Vendors](../FullExperience/how-to-assign-delivery-reminder-codes-to-vendors.md)   
- [How to: Create Delivery Reminders Manually](../FullExperience/how-to-create-delivery-reminders-manually.md)
+ [\($ N\_460 Purchases & Payables Setup $\)](../-$-n_460-purchases-payables-setup-$-.md)   
+ [Delivery Reminders](../delivery-reminders.md)   
+ [How to: Set Up Delivery Reminder Terms, Levels, and Text](../how-to-set-up-delivery-reminder-terms-levels-and-text.md)   
+ [How to: Assign Delivery Reminder Codes to Vendors](../how-to-assign-delivery-reminder-codes-to-vendors.md)   
+ [How to: Create Delivery Reminders Manually](../how-to-create-delivery-reminders-manually.md)

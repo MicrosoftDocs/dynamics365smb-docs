@@ -55,6 +55,6 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, payment su
 3.  Choose the **OK** button.  
   
 ## See Also  
- [Belgian Electronic Payments](../FullExperience/belgian-electronic-payments.md)   
- [How to: Set Up Electronic Banking](../FullExperience/how-to-set-up-electronic-banking.md)   
- [How to: Set Up IBLC-BLWI Transaction Codes](../FullExperience/how-to-set-up-iblc-blwi-transaction-codes.md)
+ [Belgian Electronic Payments](../belgian-electronic-payments.md)   
+ [How to: Set Up Electronic Banking](../how-to-set-up-electronic-banking.md)   
+ [How to: Set Up IBLC-BLWI Transaction Codes](../how-to-set-up-iblc-blwi-transaction-codes.md)

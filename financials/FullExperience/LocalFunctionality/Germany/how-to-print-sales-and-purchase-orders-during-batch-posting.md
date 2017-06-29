@@ -33,5 +33,5 @@ After sales orders and purchase orders are batch posted, you can print the corre
 5.  To batch post and print the sales orders, choose the **OK** button.  
   
 ## See Also  
- [How to: Batch Post Sales Orders, Invoices, and Credit Memos](../FullExperience/how-to-batch-post-sales-orders-invoices-and-credit-memos.md)   
- [How to: Batch Post Purchase Orders, Invoices, and Credit Memos](../FullExperience/how-to-batch-post-purchase-orders-invoices-and-credit-memos.md)
+ [How to: Batch Post Sales Orders, Invoices, and Credit Memos](../how-to-batch-post-sales-orders-invoices-and-credit-memos.md)   
+ [How to: Batch Post Purchase Orders, Invoices, and Credit Memos](../how-to-batch-post-purchase-orders-invoices-and-credit-memos.md)

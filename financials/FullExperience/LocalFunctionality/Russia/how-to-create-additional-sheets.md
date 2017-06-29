@@ -138,4 +138,4 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can cr
 5.  In the additional sheet, the **Date of Facture** field reflects the corrected document date.  
   
 ## See Also  
- [VAT Ledgers](../FullExperience/vat-ledgers.md)
+ [VAT Ledgers](../vat-ledgers.md)

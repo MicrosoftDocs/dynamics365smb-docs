@@ -18,13 +18,13 @@
 # How to: Print Checks
 In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can use the print check option to manage check payments to vendors or refunds to customers. This option lets you generate electronic payments.  
   
- For more information about check layouts, see [How to: Define Check Layouts](../FullExperience/how-to-define-check-layouts.md).  
+ For more information about check layouts, see [How to: Define Check Layouts](../how-to-define-check-layouts.md).  
   
 ### To print checks  
   
 1.  In the **Search** box, enter **Payment Journals**, and then choose the related link.  
   
-2.  In the **Payment Journal** window, fill in the payment journal lines. Either enter the lines manually or on the **Navigate** tab, in the **Payments** groups, choose **Suggest Vendor Payments**. For more information, see [How to: Generate Electronic Payments](../FullExperience/how-to-generate-electronic-payments.md).  
+2.  In the **Payment Journal** window, fill in the payment journal lines. Either enter the lines manually or on the **Navigate** tab, in the **Payments** groups, choose **Suggest Vendor Payments**. For more information, see [How to: Generate Electronic Payments](../how-to-generate-electronic-payments.md).  
   
 3.  In the payment journal line, select the **Bank Payment Type**. Use the following table to determine the bank payment type that you want to use to manage check payments.  
   
@@ -59,7 +59,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can us
 2.  After the journal lines have been printed, exported, transmitted, or posted, check ledger entries are created in the Check Ledger Entry table.  
   
 ## See Also  
- [Electronic Payments for United States, Canada, and Mexico](../FullExperience/electronic-payments-for-united-states-canada-and-mexico.md)   
+ [Electronic Payments for United States, Canada, and Mexico](../electronic-payments-for-united-states-canada-and-mexico.md)   
  Export Electronic Payments   
- [How to: Define Check Layouts](../FullExperience/how-to-define-check-layouts.md)   
- [How to: Generate Electronic Payments](../FullExperience/how-to-generate-electronic-payments.md)
+ [How to: Define Check Layouts](../how-to-define-check-layouts.md)   
+ [How to: Generate Electronic Payments](../how-to-generate-electronic-payments.md)

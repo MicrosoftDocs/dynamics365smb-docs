@@ -16,7 +16,7 @@
 
     ---
 # How to: Post a Bank Reconciliation
-You can post bank reconciliation if you have reconciled the bank accounts in the **Bank Rec.Worksheet** window. For more information, see [How to: Reconcile Bank Accounts by Using Bank Statements](../FullExperience/how-to-reconcile-bank-accounts-by-using-bank-statements.md).  
+You can post bank reconciliation if you have reconciled the bank accounts in the **Bank Rec.Worksheet** window. For more information, see [How to: Reconcile Bank Accounts by Using Bank Statements](../how-to-reconcile-bank-accounts-by-using-bank-statements.md).  
   
  After the bank reconciliation has been posted, a bank account statement is created, and can be viewed from the relevant bank account card.  
   
@@ -46,8 +46,8 @@ You can post bank reconciliation if you have reconciled the bank accounts in the
 3.  Choose the **Close** button.  
   
 ## See Also  
- [How to: Print Bank Reconciliation Reports](../FullExperience/how-to-print-bank-reconciliation-reports.md)   
- [How to: Reconcile Bank Accounts by Using Bank Statements](../FullExperience/how-to-reconcile-bank-accounts-by-using-bank-statements.md)   
+ [How to: Print Bank Reconciliation Reports](../how-to-print-bank-reconciliation-reports.md)   
+ [How to: Reconcile Bank Accounts by Using Bank Statements](../how-to-reconcile-bank-accounts-by-using-bank-statements.md)   
  Bank Account Card   
  Bank Account   
  G\/L Entry   

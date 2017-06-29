@@ -47,5 +47,5 @@ You must define a location for storing Elektronisk Handelsformat \(EHF\) files w
 3.  Choose the **OK** button.  
   
 ## See Also  
- [How to: Set Up Customers for EHF](../FullExperience/how-to-set-up-customers-for-ehf.md)   
- [EHF Electronic Invoicing in Norway](../FullExperience/ehf-electronic-invoicing-in-norway.md)
+ [How to: Set Up Customers for EHF](../how-to-set-up-customers-for-ehf.md)   
+ [EHF Electronic Invoicing in Norway](../ehf-electronic-invoicing-in-norway.md)

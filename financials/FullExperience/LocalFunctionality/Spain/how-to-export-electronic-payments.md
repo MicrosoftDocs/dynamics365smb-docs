@@ -116,7 +116,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can ex
 ## See Also  
  Payment Orders   
  Payment Journal   
- [Electronic Payments – AEB N34.1](../FullExperience/electronic-payments-–-aeb-n34.1.md)   
+ [Electronic Payments – AEB N34.1](../electronic-payments-–-aeb-n34.1.md)   
  Export Electronic Payments   
- [How to: Set Up Bank Accounts for Electronic Payments](../FullExperience/how-to-set-up-bank-accounts-for-electronic-payments.md)   
- [Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](../FullExperience/make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
+ [How to: Set Up Bank Accounts for Electronic Payments](../how-to-set-up-bank-accounts-for-electronic-payments.md)   
+ [Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](../make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)

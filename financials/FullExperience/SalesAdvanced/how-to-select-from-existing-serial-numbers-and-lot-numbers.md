@@ -71,4 +71,4 @@ When you are working with items that require item tracking and you are creating 
 ## See Also  
  [Item Tracking Availability](../DesignAndEngineering/item-tracking-availability.md)   
  [How to: Assign Serial Numbers and Lot Numbers During Outbound Transactions](../WarehouseActivities/how-to-assign-serial-numbers-and-lot-numbers-during-outbound-transactions.md)   
- [\($ N\_6520 Item Tracing $\)](../Topic/\($%20N_6520%20Item%20Tracing%20$\).md)
+ Item Tracing

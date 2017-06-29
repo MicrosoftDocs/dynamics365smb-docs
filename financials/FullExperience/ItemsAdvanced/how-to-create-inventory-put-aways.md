@@ -97,7 +97,7 @@ When your location is set up to require put\-away processing but not receive pro
   
 ### To create several inventory put\-aways with the batch job  
   
-1.  In the **Search** box, enter **\($ R\_7323 Create Invt. Put\-away \/ Pick $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Create Invt. Put\-away \/ Pick**, and then choose the related link.  
   
 2.  On the **Warehouse Request** FastTab of the request window, use the **Source Document** and **Source No.** fields to filter on certain types of documents or ranges of document numbers.  
   
@@ -106,6 +106,6 @@ When your location is set up to require put\-away processing but not receive pro
 4.  Choose the **OK** button. The inventory put\-aways will be created, and if you selected the **Print Document** field, the put\-away list will be printed.  
   
 ## See Also  
- [\($ N\_7375 Inventory Put\-away $\)](../Topic/\($%20N_7375%20Inventory%20Put-away%20$\).md)   
+ Inventory Put\-away   
  [Put Items Away](../WarehouseActivities/put-items-away.md)   
  [How to: Put Items Away with Inventory Put\-aways](../DesignAndEngineering/how-to-put-items-away-with-inventory-put-aways.md)

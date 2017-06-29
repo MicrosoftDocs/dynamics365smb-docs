@@ -54,7 +54,7 @@ You can make corrections to already posted VAT entries and change the total sale
   
 1.  In the **Search** box, enter **General Journal**, and then choose the related link.  
   
-2.  In the **\($ N\_39 General Journal $\)** window, fill in a journal line for the correction. Enter the corrective amount in the **Amount** field. Note that the **VAT Base Amount** field remains 0.00.  
+2.  In the **General Journal** window, fill in a journal line for the correction. Enter the corrective amount in the **Amount** field. Note that the **VAT Base Amount** field remains 0.00.  
   
     > [!NOTE]  
     >  You cannot enter anything in the field. The base amount fields are not included in the standard layout, but they can be inserted by the system administrator.  

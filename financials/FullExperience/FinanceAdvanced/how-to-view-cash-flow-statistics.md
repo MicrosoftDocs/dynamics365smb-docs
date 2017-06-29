@@ -50,8 +50,8 @@ For each cash flow forecast, you can open a statistics window that contains the 
 3.  On the **Navigate** tab, in the **Cash Flow Forecast** group, choose **Statistics** to view the relevant information as of the current date for each cash flow forecast.  
   
 ## See Also  
- [\($ N\_849 Cash Flow Forecast List $\)](assetId:///4ff537d4-0fd1-4893-af71-d52fd31d415d)   
- [\($ N\_867 CF Availability by Periods $\)](assetId:///7aff34a1-daa5-4916-8eff-735f6e462531)   
- [\($ R\_846 Cash Flow Date List $\)](../Finance/-$-r_846-cash-flow-date-list-$-.md)   
- [\($ N\_869 Cash Flow Chart $\)](assetId:///68b122ba-3052-482c-b53c-89b0fbd7ae3a)   
+ Cash Flow Forecast List   
+ CF Availability by Periods   
+ Cash Flow Date List   
+ Cash Flow Chart   
  [Walkthrough: Making Cash Flow Forecasts by Using Account Schedules](../Finance/walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)

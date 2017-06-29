@@ -37,7 +37,7 @@ In the **Depreciation Table** window, you can set up user\-defined depreciation 
 3.  Choose the **OK** button to close the window.  
   
 ## See Also  
- [\($ B\_5683 Create Sum of Digits Table $\)](../Topic/\($%20B_5683%20Create%20Sum%20of%20Digits%20Table%20$\).md)   
+ Create Sum of Digits Table   
  [Depreciation Methods](../Finance/depreciation-methods.md)   
  [Set Up Depreciation](../Finance/set-up-depreciation.md)   
  [Depreciate or Amortize Assets](../Finance/depreciate-or-amortize-assets.md)

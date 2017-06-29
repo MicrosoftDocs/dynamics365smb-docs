@@ -35,9 +35,9 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: View Archived Workflow Step Instances
-All completed workflow step instances are saved in the **\($ N\_1530 Archived Workflow Step Instances $\)** window.  
+All completed workflow step instances are saved in the **Archived Workflow Step Instances** window.  
   
- In the **\($ N\_1501 Workflow $\)** window, you create a workflow by listing the involved steps on the lines. Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options. You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code. For more information, see [How to: Create Workflows](../../BusinessFunctionality/Workflow/how-to-create-workflows.md).  
+ In the **Workflow** window, you create a workflow by listing the involved steps on the lines. Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options. You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code. For more information, see [How to: Create Workflows](../../BusinessFunctionality/Workflow/how-to-create-workflows.md).  
   
 ### To view archived workflow step instances  
   
@@ -45,21 +45,21 @@ All completed workflow step instances are saved in the **\($ N\_1530 Archived Wo
   
 2.  Open the workflow for which you want to view all archived workflow step instances.  
   
-3.  In the **\($ N\_1501 Workflow $\)** window, on the **Navigate** tab, in the **General** group, choose **Archived Workflow Step Instances**.  
+3.  In the **Workflow** window, on the **Navigate** tab, in the **General** group, choose **Archived Workflow Step Instances**.  
   
-     The **\($ N\_1530 Archived Workflow Step Instances $\)** window opens showing the archived workflow step instances of the selected workflow.  
+     The **Archived Workflow Step Instances** window opens showing the archived workflow step instances of the selected workflow.  
   
 4.  Alternatively, in the **Search** box, enter **Archived Workflow Step Instances**, and then choose the related link.  
   
-     The **\($ N\_1530 Archived Workflow Step Instances $\)** window opens showing all archived workflow step instances. In the **\($ T\_1530\_2 Workflow Code $\)** field, you can see which workflow the archived workflow step instance belonged to.  
+     The **Archived Workflow Step Instances** window opens showing all archived workflow step instances. In the **Workflow Code** field, you can see which workflow the archived workflow step instance belonged to.  
   
 ## See Also  
- [\($ N\_1530 Archived Workflow Step Instances $\)](../Topic/\($%20N_1530%20Archived%20Workflow%20Step%20Instances%20$\).md)   
+ Archived Workflow Step Instances   
  [How to: Delete Workflows](../../BusinessFunctionality/Workflow/how-to-delete-workflows.md)   
- [\($ N\_1504 Workflow Step Instances $\)](../Topic/\($%20N_1504%20Workflow%20Step%20Instances%20$\).md)   
- [\($ N\_1501 Workflow $\)](../Topic/\($%20N_1501%20Workflow%20$\).md)   
- [\($ N\_1523 Workflow Response Options $\)](../Topic/\($%20N_1523%20Workflow%20Response%20Options%20$\).md)   
- [\($ N\_1511 Notification Entries $\)](../Topic/\($%20N_1511%20Notification%20Entries%20$\).md)   
+ Workflow Step Instances   
+ Workflow   
+ Workflow Response Options   
+ Notification Entries   
  [How to: Create Workflows](../../BusinessFunctionality/Workflow/how-to-create-workflows.md)   
  [How to: Enable Workflows](../../BusinessFunctionality/Workflow/how-to-enable-workflows.md)   
  [Walkthrough: Setting Up and Using a Purchase Approval Workflow](../../BusinessFunctionality/Workflow/walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   

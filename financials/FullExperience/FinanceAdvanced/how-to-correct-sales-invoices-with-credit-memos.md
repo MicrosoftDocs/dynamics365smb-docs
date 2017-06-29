@@ -55,6 +55,6 @@ If you have posted an incorrect invoice, you can correct it by issuing a credit 
  [Correction of Incorrect Posted Documents](../Finance/correction-of-incorrect-posted-documents.md)   
  [How to: Assign Exact Cost Reversing in Sales](../Finance/how-to-assign-exact-cost-reversing-in-sales.md)   
  [Processing Sales Orders](../Sales/processing-sales-orders.md)   
- [\($ B\_292 Copy Sales Document $\)](../Sales/-$-b_292-copy-sales-document-$-.md)   
- [\($ T\_37\_5811 Appl.\-from Item Entry $\)](../Topic/\($%20T_37_5811%20Appl.-from%20Item%20Entry%20$\).md)   
- [\($ T\_114\_98 Correction $\)](../Topic/\($%20T_114_98%20Correction%20$\).md)
+ Copy Sales Document   
+ Appl.\-from Item Entry   
+ Correction

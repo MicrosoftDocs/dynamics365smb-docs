@@ -45,7 +45,7 @@ You can update the prices on service contracts by specifying a price update perc
   
 ### To update a service contract price  
   
-1.  In the **Search** box, enter **Update Service Contract Prices**, and then choose the related link. The **\($ B\_6031 Update Contract Prices $\)** window opens.  
+1.  In the **Search** box, enter **Update Service Contract Prices**, and then choose the related link. The **Update Contract Prices** window opens.  
   
 2.  On the **Service Contract Header** FastTab, set the filters you want to apply.  
   
@@ -58,4 +58,4 @@ You can update the prices on service contracts by specifying a price update perc
 6.  Choose the **OK** button to update the prices.  
   
 ## See Also  
- [\($ B\_6031 Update Contract Prices $\)](../Topic/\($%20B_6031%20Update%20Contract%20Prices%20$\).md)
+ Update Contract Prices

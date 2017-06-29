@@ -23,7 +23,7 @@ The intangible assets accounting feature allows you to post intangible assets to
   
 1.  In the **Search** box, enter **Fixed Assets**, and then choose the related link.  
   
-2.  Select a fixed asset. In the **\($ N\_5600 Fixed Asset Card $\)** window, select **Intangible Asset** in the **\($ T\_5600\_12402 FA Type $\)** field.  
+2.  Select a fixed asset. In the **Fixed Asset Card** window, select **Intangible Asset** in the **FA Type** field.  
   
 3.  Purchase and release the intangible asset. For more information, see [How to: Purchase and Release Undepreciable Fixed Assets](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-purchase-and-release-undepreciable-fixed-assets.md).  
   

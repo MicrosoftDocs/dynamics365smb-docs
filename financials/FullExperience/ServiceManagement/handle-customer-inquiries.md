@@ -52,7 +52,7 @@ A service management application must interface with a customer request for serv
 |Set up and fine\-tune pricing details on service items.|[Set Service Pricing](../Service/set-service-pricing.md)|  
   
 ## See Also  
- [\($ T\_5913 Loaner $\)](../Topic/\($%20T_5913%20Loaner%20$\).md)   
- [\($ T\_5903 Service Order Type $\)](../Topic/\($%20T_5903%20Service%20Order%20Type%20$\).md)   
- [\($ T\_6080 Service Price Group $\)](../Topic/\($%20T_6080%20Service%20Price%20Group%20$\).md)   
- [Working with \($ P\_1 Product Name $\)](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)
+ Loaner   
+ Service Order Type   
+ Service Price Group   
+ [Working with Product Name](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)

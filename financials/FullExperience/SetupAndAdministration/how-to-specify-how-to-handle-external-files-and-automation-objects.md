@@ -58,10 +58,10 @@ When [!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)] receives a
      Alternatively, select the **Never allow** check box to. Next time that type of automation object is required to run, the dialog box will not appear, and the automation object will not run.  
   
 ## See Also  
- [\($ S\_PERSONALIZATION Personalize the User Interface $\)](../SetupAndAdministration/-$-s_personalization-personalize-the-user-interface-$-.md)   
+ PERSONALIZATION Personalize the User Interface   
  [How to: Cancel Basic UI Changes and File Handling Decisions](../SetupAndAdministration/how-to-cancel-basic-ui-changes-and-file-handling-decisions.md)   
  [How to: Make Basic UI Changes](../SetupAndAdministration/how-to-make-basic-ui-changes.md)   
- [\($ S\_DELETEPERSONALIZATION Reset User\-Specified Settings $\)](../Topic/\($%20S_DELETEPERSONALIZATION%20Reset%20User-Specified%20Settings%20$\).md)   
+ DELETEPERSONALIZATION Reset User\-Specified Settings   
  [Customize the User Interface](../SetupAndAdministration/customize-the-user-interface.md)   
- [Working with \($ P\_1 Product Name $\)](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)   
+ [Working with Product Name](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)   
  [Learn About the RoleTailored Design](../GettingStarted/learn-about-the-roletailored-design.md)

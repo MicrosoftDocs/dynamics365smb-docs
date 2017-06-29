@@ -59,4 +59,4 @@ In the **Service Item Statistics** window, you can see up\-to\-date information 
  \(Invoiced Amount \- Usage \(Cost\)\) x 100 \/ Invoiced Amount\)  
   
 ## See Also  
- [\($ N\_5982 Service Item Statistics $\)](../Topic/\($%20N_5982%20Service%20Item%20Statistics%20$\).md)
+ Service Item Statistics

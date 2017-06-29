@@ -78,6 +78,6 @@ Cash receipts or deposits are registered using a cash receipt journal. A cash re
 12. Post the journal.  
   
 ## See Also  
- [\($ N\_255 Cash Receipt Journal $\)](../Finance/-$-n_255-cash-receipt-journal-$-.md)   
+ Cash Receipt Journal   
  [How to: Fill and Post General Journals](../Finance/how-to-fill-and-post-general-journals.md)   
  [Apply Sales Transactions](../Finance/apply-sales-transactions.md)

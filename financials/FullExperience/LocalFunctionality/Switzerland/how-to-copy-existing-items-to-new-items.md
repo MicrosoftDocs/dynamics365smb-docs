@@ -27,7 +27,7 @@ You can group items with similar settings in an item catalog. When you add a new
   
 2.  Select the item that you want to copy, and then, on the **Actions** tab, in the **Functions** group, choose **Copy Item**.  
   
-3.  In the **\($ B\_11511 Item Copy $\)** window, fill in the fields as described in the following table.  
+3.  In the **Item Copy** window, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
@@ -43,4 +43,4 @@ You can group items with similar settings in an item catalog. When you add a new
 5.  To copy your selections to the new item, choose the **OK** button.  
   
 ## See Also  
- [\($ T\_27 Item $\)](../Topic/\($%20T_27%20Item%20$\).md)
+ Item

@@ -19,9 +19,9 @@ translation.priority.ht:
   
 ## See Also  
  [Finland Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Finland/finland-local-functionality.md)   
- [\($ N\_10 Countries\-Regions $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Finland/-$-n_10-countries-regions-$-.md)   
- [\($ R\_19 VAT\- VIES Declaration Tax Auth $\)\-duplicate](../Topic/\($%20R_19%20VAT-%20VIES%20Declaration%20Tax%20Auth%20$\)-duplicate.md)   
- [\($ B\_88 VAT\- VIES Declaration Disk $\)](../Topic/\($%20B_88%20VAT-%20VIES%20Declaration%20Disk%20$\).md)   
- [\($ R\_130 EC Sales List $\)\-duplicate](../Topic/\($%20R_130%20EC%20Sales%20List%20$\)-duplicate.md)   
- [\($ B\_594 Get Item Ledger Entries $\)](../Topic/\($%20B_594%20Get%20Item%20Ledger%20Entries%20$\).md)   
- [\($ N\_472 VAT Posting Setup $\)](assetId:///a96dd9fe-bfcb-46d8-874f-1046a0dcc1f7)
+ Countries\-Regions   
+ [VAT\- VIES Declaration Tax Auth\-duplicate](../Topic/\($%20R_19%20VAT-%20VIES%20Declaration%20Tax%20Auth%20$\)-duplicate.md)   
+ VAT\- VIES Declaration Disk   
+ [EC Sales List\-duplicate](../Topic/\($%20R_130%20EC%20Sales%20List%20$\)-duplicate.md)   
+ Get Item Ledger Entries   
+ VAT Posting Setup

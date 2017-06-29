@@ -19,10 +19,10 @@ translation.priority.ht:
   - "fr-ca"
 ---
 # How to: Export Electronic Payments-duplicate
-You can use the [\($ R\_10083 Export Electronic Payments $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-r_10083-export-electronic-payments-$-.md) report to export payment journal entries to a file that is based on the Automated Clearing House \(ACH\) standard file format or the International ACH Transaction \(IAT\) file format.  The file can then be used to transmit electronic payments to a bank. For more information, see [How to: Transmit Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-transmit-electronic-payments.md).  
+You can use the Export Electronic Payments report to export payment journal entries to a file that is based on the Automated Clearing House \(ACH\) standard file format or the International ACH Transaction \(IAT\) file format.  The file can then be used to transmit electronic payments to a bank. For more information, see [How to: Transmit Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-transmit-electronic-payments.md).  
   
 > [!IMPORTANT]  
->  If you have set up the **\($ T\_270\_1210 Payment Export Format $\)** field in the **\($ N\_370 Bank Account Card $\)** window, for example to export using the SEPA standard, then the following procedure is not valid. To export these payments, refer to [How to: Export Payments to a Bank File](../../BusinessFunctionality/DataExchange/how-to-export-payments-to-a-bank-file.md).  
+>  If you have set up the **Payment Export Format** field in the **Bank Account Card** window, for example to export using the SEPA standard, then the following procedure is not valid. To export these payments, refer to [How to: Export Payments to a Bank File](../../BusinessFunctionality/DataExchange/how-to-export-payments-to-a-bank-file.md).  
   
 ### To export electronic payments  
   
@@ -30,7 +30,7 @@ You can use the [\($ R\_10083 Export Electronic Payments $\)](../../LocalFunctio
   
 2.  On the **Navigate** FastTab, choose **Electronic Payments**, and then choose **Export**.  
   
-3.  In the **\($ R\_10083 Export Electronic Payments $\)** window, on the **Options** FastTab, fill in the fields as described in the following table.  
+3.  In the **Export Electronic Payments** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
@@ -47,5 +47,5 @@ You can use the [\($ R\_10083 Export Electronic Payments $\)](../../LocalFunctio
  [How to: Set Up Electronic Payments for Bank Accounts](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-set-up-electronic-payments-for-bank-accounts.md)   
  [How to: Transmit Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-transmit-electronic-payments.md)   
  [How to: Generate Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-generate-electronic-payments.md)   
- [\($ N\_256 Payment Journal $\)](../../Finance/-$-n_256-payment-journal-$-.md)   
- [\($ R\_10083 Export Electronic Payments $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-r_10083-export-electronic-payments-$-.md)
+ Payment Journal   
+ Export Electronic Payments

@@ -42,7 +42,7 @@ translation.priority.ht:
 # How to: Quote an Assemble-to-Order Sale
 You can use assembly management to customize an assembly item to a customer’s request during the sales process. For more information, see [How to: Sell Items Assembled to Order](../Sales/how-to-sell-items-assembled-to-order.md).  
   
- As when you sell any other type of item, you can also create a sales quote for a customized assembly item before converting it to a sales order. This process involves several extra steps when you compare it to creating a regular sales quote, and it uses a variation of a linked assembly order, which is an assembly quote. For more information, see [\($ N\_930 Assembly Quote $\)](../Topic/\($%20N_930%20Assembly%20Quote%20$\).md).  
+ As when you sell any other type of item, you can also create a sales quote for a customized assembly item before converting it to a sales order. This process involves several extra steps when you compare it to creating a regular sales quote, and it uses a variation of a linked assembly order, which is an assembly quote. For more information, see Assembly Quote.  
   
 > [!NOTE]  
 >  Like all types of quotes, the quantities on assembly quotes are not used in availability, planning, or reservations.  
@@ -58,7 +58,7 @@ You can use assembly management to customize an assembly item to a customer’s 
     > [!NOTE]  
     >  You should not quote a partial quantity. Therefore, you must enter the same quantity that you entered in the **Quantity** field on the sales quote line.  
   
-4.  On the **Lines** FastTab, choose **Line**, choose **Assemble to Order**, and then choose **Assemble\-to\-Order Lines**. Alternatively, choose the **\($ T\_37\_900 Qty. to Assemble to Order $\)** field on the line.  
+4.  On the **Lines** FastTab, choose **Line**, choose **Assemble to Order**, and then choose **Assemble\-to\-Order Lines**. Alternatively, choose the **Qty. to Assemble to Order** field on the line.  
   
 5.  In the **Assemble\-to\-Order Lines** window, review or modify the assembly order lines according to the quote that the customer is requesting. If you want to view more information, on the **Home** tab, in the **Process** group, choose **Show Document** to open the complete blanket quote order. You cannot change the contents of most fields, and you cannot post.  
   
@@ -68,11 +68,11 @@ You can use assembly management to customize an assembly item to a customer’s 
   
 ## See Also  
  [How to: Sell Items Assembled to Order](../Sales/how-to-sell-items-assembled-to-order.md)   
- [\($ N\_930 Assembly Quote $\)](../Topic/\($%20N_930%20Assembly%20Quote%20$\).md)   
- [\($ N\_41 Sales Quote $\)](../Topic/\($%20N_41%20Sales%20Quote%20$\).md)   
+ Assembly Quote   
+ Sales Quote   
  [How to: Make Offers](../Sales/how-to-make-offers.md)   
  [How to: Convert Sales Quotes to Sales Orders](../Sales/how-to-convert-sales-quotes-to-sales-orders.md)   
- [\($ N\_900 Assembly Order $\)](../WarehouseActivities/-$-n_900-assembly-order-$-.md)   
- [\($ T\_37\_900 Qty. to Assemble to Order $\)](../Topic/\($%20T_37_900%20Qty.%20to%20Assemble%20to%20Order%20$\).md)   
- [\($ N\_914 Assemble\-to\-Order Lines $\)](../Topic/\($%20N_914%20Assemble-to-Order%20Lines%20$\).md)   
- [\($ T\_904 Assemble\-to\-Order Link $\)](../Topic/\($%20T_904%20Assemble-to-Order%20Link%20$\).md)
+ Assembly Order   
+ Qty. to Assemble to Order   
+ Assemble\-to\-Order Lines   
+ Assemble\-to\-Order Link

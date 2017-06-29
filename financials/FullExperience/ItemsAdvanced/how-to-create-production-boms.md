@@ -55,7 +55,7 @@ A production BOM holds master data that describes the components and subassembli
   
 5.  In the **Routing Link Code** field, enter a code to connect the component to a specific operation. [!INCLUDE[bp_choose_columns](../DesignAndEngineering/includes/bp_choose_columns_md.md)]  
   
-     Routing links between operations and components ensure that material consumption is not posted until it has actually been consumed. In addition, routing links provide a process view in the **\($ N\_5510 Production Journal $\)** window where components are listed under the linked operation. For more information, see [How to: Create Routing Links](../DesignAndEngineering/how-to-create-routing-links.md).  
+     Routing links between operations and components ensure that material consumption is not posted until it has actually been consumed. In addition, routing links provide a process view in the **Production Journal** window where components are listed under the linked operation. For more information, see [How to: Create Routing Links](../DesignAndEngineering/how-to-create-routing-links.md).  
   
 6.  To copy lines from an existing production BOM, on the **Actions** tab, in the **Functions** group, choose **Copy BOM** to select existing lines.  
   

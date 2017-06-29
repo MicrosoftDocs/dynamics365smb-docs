@@ -47,10 +47,10 @@ If you need to pay the vendor by cash or check, you can have the necessary posti
   
 2.  On the **Home** tab, in the **New** group, choose **New**.  
   
-3.  To pay either in cash or by bank transfer, enter the number of the general ledger cash account or the bank account in the **\($ T\_38\_55 Bal. Account No. $\)** field.  
+3.  To pay either in cash or by bank transfer, enter the number of the general ledger cash account or the bank account in the **Bal. Account No.** field.  
   
     > [!IMPORTANT]  
-    >  The **\($ T\_38\_94 Bal. Account Type $\)** and **\($ T\_38\_55 Bal. Account No. $\)** fields are not included in the standard layout of the invoice header. In order to post the payment of an invoice, you must first insert them with the design facilities.  
+    >  The **Bal. Account Type** and **Bal. Account No.** fields are not included in the standard layout of the invoice header. In order to post the payment of an invoice, you must first insert them with the design facilities.  
   
 > [!NOTE]  
 >  If you frequently pay purchase invoices in cash, it is a good idea to set up a specific payment method with a balancing account and enter this method in the **Payment Method** field on the vendor card. The balancing account number is inserted automatically on the invoice header every time you create a new invoice.  

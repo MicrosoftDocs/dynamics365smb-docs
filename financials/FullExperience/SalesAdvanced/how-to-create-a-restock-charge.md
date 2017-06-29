@@ -70,7 +70,7 @@ You may decide to charge your customer a restock fee to cover the physical handl
 >  Note that you can also select **Account \(G\/L\)** in the **Type** field and make a negative entry for the line by inserting a negative amount in the **Quantity** field. Then the restock charge is posted directly to the specified G\/L account.  
   
 ## See Also  
- [\($ N\_5814 Item Charge Assignment \(Sales\) $\)](../Topic/\($%20N_5814%20Item%20Charge%20Assignment%20\(Sales\)%20$\).md)   
+ Item Charge Assignment \(Sales\)%20$\).md)   
  [How to: Create Sales Return Orders](../Sales/how-to-create-sales-return-orders.md)   
- [\($ N\_5800 Item Charges $\)](../Topic/\($%20N_5800%20Item%20Charges%20$\).md)   
+ Item Charges   
  [How to: Assign Item Charges to Sales Documents](../Sales/how-to-assign-item-charges-to-sales-documents.md)

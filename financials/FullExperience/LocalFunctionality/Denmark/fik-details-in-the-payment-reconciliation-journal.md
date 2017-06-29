@@ -13,11 +13,11 @@ translation.priority.ht:
   - "da-dk"
 ---
 # FIK Details in the Payment Reconciliation Journal
-The **\($ T\_274\_23 Transaction Text $\)** field in the **\($ N\_1290 Payment Reconciliation Journal $\)** window shows information about the automatic application of payments using the Danish FIK standard. For more information, see [How to: Reconcile Payments Using Automatic Application](../../Finance/how-to-reconcile-payments-using-automatic-application.md).  
+The **Transaction Text** field in the **Payment Reconciliation Journal** window shows information about the automatic application of payments using the Danish FIK standard. For more information, see [How to: Reconcile Payments Using Automatic Application](../../Finance/how-to-reconcile-payments-using-automatic-application.md).  
   
- The following table describes the six values that may be shown in the **\($ T\_274\_23 Transaction Text $\)** field.  
+ The following table describes the six values that may be shown in the **Transaction Text** field.  
   
-|\($ T\_274\_23 Transaction Text $\)|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+|Transaction Text|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
 |-----------------------------------------|---------------------------------------|  
 |**Matching Amount**|The amount paid covers exactly the remaining amount on an unpaid sales invoice that is identified by the FIK number.|  
 |**Partial Amount**|The amount paid is less than the remaining amount on an unpaid sales invoice that is identified by the FIK number.|  
@@ -27,6 +27,6 @@ The **\($ T\_274\_23 Transaction Text $\)** field in the **\($ N\_1290 Payment R
 |**Invoice Already Paid**|The system has discovered that a FIK number on a payment matches a sales invoice that is fully applied and closed.|  
   
 ## See Also  
- [\($ N\_1290 Payment Reconciliation Journal $\)](assetId:///f4e11659-b474-4de0-bfae-2ae0116d0665)   
+ Payment Reconciliation Journal   
  [Reconcile Payments Automatically](../../Finance/reconcile-payments-automatically.md)   
  [What's New](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Denmark/what-s-new.md)

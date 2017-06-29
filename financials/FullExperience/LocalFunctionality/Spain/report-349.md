@@ -35,22 +35,22 @@ You must submit a periodic report of trade with other EU countries\/regions to t
 |**M**|Identifies transactions with items that were delivered to customers in another EU country\/region and which were previously imported into Spain as tax exempt according to the VAT law.|  
 |**H**|Identifies transactions with items that were delivered to customers in another EU country\/region and which were previously imported into Spain as tax exempt according to the VAT law, and which were conducted by an official tax representative.|  
   
- To help you manage exports to other EU countries\/regions in [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can create VAT product posting groups for each operation code. Then, when you apply a VAT posting group to an item that is sold, the [\($ T\_254\_10703 Delivery Operation Code $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-t_254_10703-delivery-operation-code-$-.md) field in the **\($ T\_254 VAT Entry $\)** table identifies the VAT transactions according to the operation code.  
+ To help you manage exports to other EU countries\/regions in [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can create VAT product posting groups for each operation code. Then, when you apply a VAT posting group to an item that is sold, the Delivery Operation Code field in the **VAT Entry** table identifies the VAT transactions according to the operation code.  
   
 ### Delivery Operation Codes and Item Setup  
- You can set up a VAT product posting group for each delivery operation type and then assign the appropriate VAT product posting group to items in the [\($ N\_30 Item Card $\)](../Topic/\($%20N_30%20Item%20Card%20$\).md) window.  
+ You can set up a VAT product posting group for each delivery operation type and then assign the appropriate VAT product posting group to items in the Item Card window.  
   
  If you have an inventory item that can be imported in different ways, for example if it is tax exempt in some cases and not tax exempt in other cases, you can create separate item cards with the appropriate VAT product posting group.  
   
  In the following example, you import chairs from another EU country\/region, and you resell the chairs to customers in other countries\/regions. One type of chair is exempt from VAT when you import it under certain circumstances, but otherwise it is not exempt. As a result, you create two item cards for it:  
   
--   One item card with a VAT product posting group with the [\($ T\_324\_10703 Delivery Operation Code $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-t_324_10703-delivery-operation-code-$-.md) field set to **M**.  
+-   One item card with a VAT product posting group with the Delivery Operation Code field set to **M**.  
   
--   One item card with a VAT product posting group with the **\($ T\_324\_10703 Delivery Operation Code $\)** field set to **E**.  
+-   One item card with a VAT product posting group with the **Delivery Operation Code** field set to **E**.  
   
  Then, when you create a sales order, you must make sure that you select the correct item in the sales lines.  
   
- When you post the sales invoice, [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] saves the delivery operation code in the **\($ T\_254 VAT Entry $\)** table, and then, when you create the Report 349 declaration, the VAT amount is included in the section for the appropriate delivery operation code.  
+ When you post the sales invoice, [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] saves the delivery operation code in the **VAT Entry** table, and then, when you create the Report 349 declaration, the VAT amount is included in the section for the appropriate delivery operation code.  
   
 ## See Also  
  [\($ B\_10710 Make 349 Declaration $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-b_10710-make-349-declaration-$-.md)   

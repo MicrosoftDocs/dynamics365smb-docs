@@ -41,4 +41,4 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can vo
 ## See Also  
  [How to: Set Up Bank Accounts for Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/how-to-set-up-bank-accounts-for-electronic-payments.md)   
  [How to: Pay Vendors by Using Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/how-to-pay-vendors-by-using-electronic-payments.md)   
- [\($ N\_256 Payment Journal $\)](../../Finance/-$-n_256-payment-journal-$-.md)
+ Payment Journal

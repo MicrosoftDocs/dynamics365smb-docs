@@ -47,7 +47,7 @@ translation.priority.ht:
 Plan movements in the worksheet using a bin replenishment function or manually planning the lines that you want to create as movement instructions.  
   
 ## Calculating Replenishment Movements  
- As the warehouse ships items out to customers, the bins with the highest bin rankings contain fewer and fewer items. To fill up these high\-ranking pick bins with items from other bins, run the **Calculate Bin Replenishment** function in the **\($ N\_7351 Movement Worksheet $\)** window  
+ As the warehouse ships items out to customers, the bins with the highest bin rankings contain fewer and fewer items. To fill up these high\-ranking pick bins with items from other bins, run the **Calculate Bin Replenishment** function in the **Movement Worksheet** window  
   
 #### To calculate a replenishment movement  
   
@@ -61,8 +61,8 @@ Plan movements in the worksheet using a bin replenishment function or manually p
     >  A movement is suggested according to FEFO when you activate the **Create Movement** function if the following conditions are met for an item:  
     >   
     >  -   The item has an expiration date.  
-    > -   The **\($ T\_14\_7307 Pick According to FEFO $\)** check box on the location card is selected.  
-    > -   The **\($ T\_14\_5732 Bin Mandatory $\)** check box on the location card is selected.  
+    > -   The **Pick According to FEFO** check box on the location card is selected.  
+    > -   The **Bin Mandatory** check box on the location card is selected.  
     > -   The **From Zone** and **From Bin** fields are blank.  
   
      For more information, see [Picking by FEFO](../WarehouseActivities/picking-by-fefo.md).  
@@ -91,8 +91,8 @@ Plan movements in the worksheet using a bin replenishment function or manually p
     >  Movement lines are retrieved according to FEFO when you activate the **Get Bin Content** function if the following conditions are met for an item:  
     >   
     >  -   The item has an expiration date.  
-    > -   The **\($ T\_14\_7307 Pick According to FEFO $\)** check box on the location card is selected.  
-    > -   The **\($ T\_14\_5732 Bin Mandatory $\)** check box on the location card is selected.  
+    > -   The **Pick According to FEFO** check box on the location card is selected.  
+    > -   The **Bin Mandatory** check box on the location card is selected.  
     > -   The **From Zone** and **From Bin** fields are blank.  
   
      For more information, see [Picking by FEFO](../WarehouseActivities/picking-by-fefo.md).  
@@ -104,7 +104,7 @@ Plan movements in the worksheet using a bin replenishment function or manually p
 7.  Once the movement worksheet lines accurately reflect how the movement action should be carried out by the warehouse employee, on the **Actions** tab, in the **Functions** group, choose **Create Movement** to create the instructions for the employee.  
   
 ## See Also  
- [\($ N\_7351 Movement Worksheet $\)](../Topic/\($%20N_7351%20Movement%20Worksheet%20$\).md)   
- [\($ B\_7300 Calculate Bin Replenishment $\)](../Topic/\($%20B_7300%20Calculate%20Bin%20Replenishment%20$\).md)   
+ Movement Worksheet   
+ Calculate Bin Replenishment   
  [How to: Calculate Bin Replenishment](../WarehouseActivities/how-to-calculate-bin-replenishment.md)   
  [Move Items](../WarehouseActivities/move-items.md)

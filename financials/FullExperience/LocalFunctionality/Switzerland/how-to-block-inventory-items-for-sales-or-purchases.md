@@ -25,7 +25,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], an item ca
 |--------------------|------------|  
 |**Sale blocked**|You cannot use the item in a sales document or in a sales item journal.|  
 |**Purchase blocked**|You cannot use the item in a purchase document, in a purchase item journal, or in purchase planning processes.|  
-|**Blocked**|You cannot use the item for any item transaction. For more information about blocking an item for all purposes, see [\($ N\_30 Item Card $\)](../Topic/\($%20N_30%20Item%20Card%20$\).md).|  
+|**Blocked**|You cannot use the item for any item transaction. For more information about blocking an item for all purposes, see Item Card.|  
   
 ### To block inventory items for sales  
   
@@ -49,18 +49,18 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], an item ca
   
  You will receive an error message if you try to do the following:  
   
--   Enter sales lines and purchase lines in sales documents and purchase documents for blocked items. For more information, see the [\($ T\_37 Sales Line $\)](../Topic/\($%20T_37%20Sales%20Line%20$\).md) table and the [\($ T\_39 Purchase Line $\)](../Topic/\($%20T_39%20Purchase%20Line%20$\).md) table.  
+-   Enter sales lines and purchase lines in sales documents and purchase documents for blocked items. For more information, see the Sales Line table and the Purchase Line table.  
   
--   Create new lines in an item journal for blocked items. For more information, see the [\($ N\_40 Item Journal $\)](../../WarehouseActivities/-$-n_40-item-journal-$-.md) window.  
+-   Create new lines in an item journal for blocked items. For more information, see the Item Journal window.  
   
 -   Post item transactions for blocked items.  
   
 ## See Also  
- [\($ T\_27 Item $\)](../Topic/\($%20T_27%20Item%20$\).md)   
- [\($ T\_37 Sales Line $\)](../Topic/\($%20T_37%20Sales%20Line%20$\).md)   
- [\($ T\_39 Purchase Line $\)](../Topic/\($%20T_39%20Purchase%20Line%20$\).md)   
- [\($ N\_40 Item Journal $\)](../../WarehouseActivities/-$-n_40-item-journal-$-.md)   
- [\($ T\_83 Item Journal Line $\)](../Topic/\($%20T_83%20Item%20Journal%20Line%20$\).md)   
+ Item   
+ Sales Line   
+ Purchase Line   
+ Item Journal   
+ Item Journal Line   
  [Swiss Inventory Management](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/swiss-inventory-management.md)   
  [How to: Block Shipment for Negative Inventory](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-block-shipment-for-negative-inventory.md)   
  [How to: Copy Existing Items to New Items](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-copy-existing-items-to-new-items.md)   

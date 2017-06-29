@@ -44,6 +44,6 @@ The order promising function is a tool for calculating the earliest possible dat
 5.  Choose the **Accept** button to accept the earliest shipment date available.  
   
 ## See Also  
- [\($ N\_99000959 Order Promising Lines $\)](../Topic/\($%20N_99000959%20Order%20Promising%20Lines%20$\).md)   
+ Order Promising Lines   
  [About Order Promising](../Sales/about-order-promising.md)   
  [How to: Set Up Order Promising](../Sales/how-to-set-up-order-promising.md)

@@ -50,11 +50,11 @@ You use the import VAT feature when you need to post a document where the entire
   
 1.  In the **Search** box, enter **VAT Product Posting Groups**, and then choose the related link.  
   
-2.  In the **\($ N\_471 VAT Product Posting Groups $\)** window, set up a new VAT posting group for import VAT.  
+2.  In the **VAT Product Posting Groups** window, set up a new VAT posting group for import VAT.  
   
 3.  In the **Search** box, enter **VAT Posting Setup**, and then choose the related link.  
   
-4.  In the **\($ N\_472 VAT Posting Setup $\)** window, set up a new line. You may use any of your existing VAT business posting groups in combination with the new VAT product posting group for import VAT.  
+4.  In the **VAT Posting Setup** window, set up a new line. You may use any of your existing VAT business posting groups in combination with the new VAT product posting group for import VAT.  
   
 5.  To view the options, choose the **VAT Calculation Type** field and then select the option **Full VAT**.  
   

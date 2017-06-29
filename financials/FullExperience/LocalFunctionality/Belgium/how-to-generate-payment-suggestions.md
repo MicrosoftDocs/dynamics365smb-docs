@@ -26,7 +26,7 @@ After you have set up electronic banking, you can start generating payment sugge
   
 2.  Select the appropriate journal batch, and on the **Home** tab, in the **Progress** group, choose **Suggest Vendor Payments**.  
   
-3.  In the **\($ B\_2000019 Suggest Vendor Payments EB $\)**  window, on the **Options** FastTab, fill in the fields as described in the following table.  
+3.  In the **Suggest Vendor Payments EB**  window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  

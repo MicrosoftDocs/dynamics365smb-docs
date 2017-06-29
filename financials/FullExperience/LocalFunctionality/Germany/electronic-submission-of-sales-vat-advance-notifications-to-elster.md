@@ -43,9 +43,9 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can el
   
 -   A personal .pfx certificate for that user.  
   
- You must then list the users and the friendly names of the certificates in the **\($ N\_11020 Certificates $\)** window. For more information about how to install a certificate and how to find the friendly name, see the Help for the operating system.  
+ You must then list the users and the friendly names of the certificates in the **Certificates** window. For more information about how to install a certificate and how to find the friendly name, see the Help for the operating system.  
   
- If you use a proxy server to submit the ELSTER documents, you must specify the settings in the **\($ N\_11019 Electronic VAT Decl. Setup $\)** window.  
+ If you use a proxy server to submit the ELSTER documents, you must specify the settings in the **Electronic VAT Decl. Setup** window.  
   
  For more information, see [How to: Set Up Sales VAT Advance Notifications for ELSTER](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-set-up-sales-vat-advance-notifications-for-elster.md).  
   
@@ -61,19 +61,19 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can el
   
  The personal .pfx certificate is required to clearly identify the user who submits the documents to the tax authorities. The personal certificate contains a digital signature that is included in the transmitted XML files. The name of the user who submitted the files is also included.  
   
- You must also download all relevant style sheets that the tax authorities make available. This includes the ustva.xsl style sheet that you must specify in the **\($ N\_11016 Sales VAT Adv. Notif. Card $\)** window, but the tax authorities may require additional style sheets that must be located in the same folder as the ustva.xsl style sheet.  
+ You must also download all relevant style sheets that the tax authorities make available. This includes the ustva.xsl style sheet that you must specify in the **Sales VAT Adv. Notif. Card** window, but the tax authorities may require additional style sheets that must be located in the same folder as the ustva.xsl style sheet.  
   
  For more information, see the [ELSTER online portal](http://go.microsoft.com/fwlink/?LinkId=155998)  
   
 ### Transmissions  
- In the [\($ N\_11017 Sales VAT Adv. Notification List $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/-$-n_11017-sales-vat-adv.-notification-list-$-.md) window, you can create and submit sales VAT advance notifications. When you create a document, you can preview it before submitting it to the ELSTER portal. The documents that are created are based on the XML stylesheets that are published at the ELSTER portal, and on the certificate and other information that you have set up in [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)].  
+ In the Sales VAT Adv. Notification List window, you can create and submit sales VAT advance notifications. When you create a document, you can preview it before submitting it to the ELSTER portal. The documents that are created are based on the XML stylesheets that are published at the ELSTER portal, and on the certificate and other information that you have set up in [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)].  
   
- After you have submitted a document to ELSTER, an entry is made in the **\($ N\_11018 VAT Transmission Log Entries $\)** window. When the ELSTER online portal processed the submitted document, errors can occur, and [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] displays an error message that is based on the error code from ELSTER. In most cases, the error is caused by problems with the user\-specific certificate or with network connectivity. For more information, see [Error Messages of the ElsterTransferHandler](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/error-messages-of-the-elstertransferhandler.md) and [ELSTER Transmission Overview](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/elster-transmission-overview.md).  
+ After you have submitted a document to ELSTER, an entry is made in the **VAT Transmission Log Entries** window. When the ELSTER online portal processed the submitted document, errors can occur, and [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] displays an error message that is based on the error code from ELSTER. In most cases, the error is caused by problems with the user\-specific certificate or with network connectivity. For more information, see [Error Messages of the ElsterTransferHandler](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/error-messages-of-the-elstertransferhandler.md) and [ELSTER Transmission Overview](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/elster-transmission-overview.md).  
   
 ## See Also  
  [How to: Set Up Sales VAT Advance Notifications for ELSTER](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-set-up-sales-vat-advance-notifications-for-elster.md)   
  [How to: Create and Submit Sales VAT Advance Notifications](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-create-and-submit-sales-vat-advance-notifications.md)   
  [ELSTER online portal](http://go.microsoft.com/fwlink/?LinkId=155998)   
- [\($ N\_11016 Sales VAT Adv. Notif. Card $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/-$-n_11016-sales-vat-adv.-notif.-card-$-.md)   
- [\($ N\_11020 Certificates $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/-$-n_11020-certificates-$-.md)   
- [\($ N\_11018 VAT Transmission Log Entries $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/-$-n_11018-vat-transmission-log-entries-$-.md)
+ Sales VAT Adv. Notif. Card   
+ Certificates   
+ VAT Transmission Log Entries

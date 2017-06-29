@@ -71,7 +71,7 @@ Administrators configure the user interface by customizing the user interface fo
   
 -   Reusing UI customization for the Order Processor profile in other databases  
   
- You perform configuration of other parts of the user interface, such as FastTabs and columns, just as described for ribbons and FactBoxes in this walkthrough. For more information, see [\($ S\_PERSONALIZATION Personalize the User Interface $\)](../SetupAndAdministration/-$-s_personalization-personalize-the-user-interface-$-.md).  
+ You perform configuration of other parts of the user interface, such as FastTabs and columns, just as described for ribbons and FactBoxes in this walkthrough. For more information, see PERSONALIZATION Personalize the User Interface.  
   
 ## Prerequisites  
  To complete this walkthrough, you will need:  
@@ -143,7 +143,7 @@ Administrators configure the user interface by customizing the user interface fo
 >  In some cases, an action can be a promoted action if the **PromotedIsBig** property is set to **Yes** in the [!INCLUDE[nav_dev_long](../BusinessFunctionality/DataExchange/includes/nav_dev_long_md.md)]. If an action has this setting, this takes precedence over your choices in the **Customize Ribbon** window. For more information, see [How to: Promote Actions on Pages](../Topic/How%20to:%20Promote%20Actions%20on%20Pages.md).  
   
 ## Customizing a Sales Orders FactBox Pane for the Order Processor Profile  
- The following procedure shows how to add the **Notes** FactBox to the FactBox pane on the **Sales Orders** page. This UI customization will be visible to order processors when they access the **Sales Orders** page from the **\($ N\_1300 Customer Card $\)** window.  
+ The following procedure shows how to add the **Notes** FactBox to the FactBox pane on the **Sales Orders** page. This UI customization will be visible to order processors when they access the **Sales Orders** page from the **Customer Card** window.  
   
 #### To add the Links FactBox to a FactBox pane  
   
@@ -157,7 +157,7 @@ Administrators configure the user interface by customizing the user interface fo
   
 5.  Choose the **OK** button to save and close the **Customize** window.  
   
- The **Notes** FactBox is now visible to users assigned to the Order Processor profile when they access the **Sales Orders** window by choosing the Orders actions in a **\($ N\_1300 Customer Card $\)** window. For more information, see [How to: Customize FactBoxes](../SetupAndAdministration/how-to-customize-factboxes.md).  
+ The **Notes** FactBox is now visible to users assigned to the Order Processor profile when they access the **Sales Orders** window by choosing the Orders actions in a **Customer Card** window. For more information, see [How to: Customize FactBoxes](../SetupAndAdministration/how-to-customize-factboxes.md).  
   
 ## Cancelling UI Customization for the Order Processor Profile  
  You can cancel UI customization for profiles in three ways. For more information, see [How to: Cancel UI Configuration](../SetupAndAdministration/how-to-cancel-ui-configuration.md).  
@@ -206,7 +206,7 @@ Administrators configure the user interface by customizing the user interface fo
  The UI customization that you have configured for the Order Processor profile in another database is now available in this database.  
   
 ## Next Steps  
- In this walkthrough, you have configured the user interface for the Order Processor profile and prepared to reuse the configuration in another database. All users assigned to the profile see these changes. If you want users to have even more customized user interfaces, you can urge them to make their own UI customization in addition to the customization that you have made. For more information, [\($ S\_PERSONALIZATION Personalize the User Interface $\)](../SetupAndAdministration/-$-s_personalization-personalize-the-user-interface-$-.md).  
+ In this walkthrough, you have configured the user interface for the Order Processor profile and prepared to reuse the configuration in another database. All users assigned to the profile see these changes. If you want users to have even more customized user interfaces, you can urge them to make their own UI customization in addition to the customization that you have made. For more information, PERSONALIZATION Personalize the User Interface.  
   
 ## See Also  
  [Customize the User Interface](../SetupAndAdministration/customize-the-user-interface.md)   

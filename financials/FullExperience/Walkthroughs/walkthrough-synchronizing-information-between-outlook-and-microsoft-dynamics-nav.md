@@ -224,5 +224,5 @@ You can set up synchronization between [!INCLUDE[navnow](../ApplicationDesign/in
      Now that you have completed this walkthrough, you can establish synchronization entities and begin synchronizing between Outlook and your company's [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] implementation.  
   
 ## See Also  
- [Outlook Add\-in\-\($ P\_1 Product Name $\) Synchronization Add\-in](../Topic/Outlook%20Add-in-\($%20P_1%20Product%20Name%20$\)%20Synchronization%20Add-in.md)   
+ [Outlook Add\-in\-Product Name Synchronization Add\-in](../Topic/Outlook%20Add-in-\($%20P_1%20Product%20Name%20$\)%20Synchronization%20Add-in.md)   
  [Troubleshooting: Microsoft Office Outlook Integration and Synchronization](../Topic/Troubleshooting:%20Microsoft%20Office%20Outlook%20Integration%20and%20Synchronization.md)

@@ -42,9 +42,9 @@ With your customer’s consent, you can collect payments directly from the custo
   
  To instruct the bank to transfer the payment amount from the customer’s bank account to your company’s account, you create a direct\-debit collection entry, which holds information about bank accounts, the affected sales invoices, and the direct\-debit mandate. You then export an XML file that is based on the collection entry, which you send to your bank for processing. Any payments that could not be processed will be communicated to you by your bank, and you must then manually reject the direct debit\-collection entries in question.  
   
- You can set up standard customer sales codes with the direct\-debit payment method and mandate information. You can then use the **\($ R\_172 Create Standard Cust. Invoices $\)** batch job to generate multiple sales invoices with the direct\-debit information prefilled. This is can be done manually or automatically, according to the payment due date.  
+ You can set up standard customer sales codes with the direct\-debit payment method and mandate information. You can then use the **Create Standard Cust. Invoices** batch job to generate multiple sales invoices with the direct\-debit information prefilled. This is can be done manually or automatically, according to the payment due date.  
   
- When payments are successfully processed, as communicated by your bank, you can post the payment receipts either directly from the **\($ N\_1208 Direct Debit Collect. Entries $\)** window or by moving the payment lines to the journal where you post payment receipts, such as the **\($ N\_255 Cash Receipt Journal $\)** window. Alternatively, depending on your cash management process, you can wait and just apply the payments as a part of bank reconciliation. For more information, see [How to: Match Bank Statement Lines with Bank Account Ledger Entries](../Finance/how-to-match-bank-statement-lines-with-bank-account-ledger-entries.md).  
+ When payments are successfully processed, as communicated by your bank, you can post the payment receipts either directly from the **Direct Debit Collect. Entries** window or by moving the payment lines to the journal where you post payment receipts, such as the **Cash Receipt Journal** window. Alternatively, depending on your cash management process, you can wait and just apply the payments as a part of bank reconciliation. For more information, see [How to: Match Bank Statement Lines with Bank Account Ledger Entries](../Finance/how-to-match-bank-statement-lines-with-bank-account-ledger-entries.md).  
   
 > [!NOTE]  
 >  To collect payments using SEPA Direct Debit, the currency on the sales invoice must be EURO.  
@@ -59,7 +59,7 @@ With your customer’s consent, you can collect payments directly from the custo
 |Post payments made as SEPA direct debits.|[How to: Post SEPA Direct Debit Payment Receipts](../Finance/how-to-post-sepa-direct-debit-payment-receipts.md)|  
   
 ## See Also  
- [\($ N\_1208 Direct Debit Collect. Entries $\)](../Topic/\($%20N_1208%20Direct%20Debit%20Collect.%20Entries%20$\).md)   
- [\($ N\_1208 Direct Debit Collect. Entries $\)](../Topic/\($%20N_1208%20Direct%20Debit%20Collect.%20Entries%20$\).md)   
- [\($ R\_172 Create Recurring Sales Inv. $\)](../Topic/\($%20R_172%20Create%20Recurring%20Sales%20Inv.%20$\).md)   
+ Direct Debit Collect. Entries   
+ Direct Debit Collect. Entries   
+ Create Recurring Sales Inv.   
  [Manage Receivables](../Finance/manage-receivables.md)

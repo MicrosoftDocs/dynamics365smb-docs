@@ -18,13 +18,13 @@ translation.priority.ht:
   - "en-au"
 ---
 # How to: View Posted Tax Invoices
-In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can use the **\($ N\_28071 Posted Sales Tax Invoice $\)** window and the **\($ N\_28075 Posted Purchase Tax Invoice $\)** window to view the details of posted sales tax invoices and posted purchase tax invoices.  
+In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can use the **Posted Sales Tax Invoice** window and the **Posted Purchase Tax Invoice** window to view the details of posted sales tax invoices and posted purchase tax invoices.  
   
  The following procedure describes how to view the posted sales tax invoice, but the same steps also apply to viewing posted purchase tax invoices.  
   
 ### To view a posted sales tax invoice  
   
-1.  In the **Search** box, enter **\($ R\_28071 Posted Sales Tax Invoice $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Posted Sales Tax Invoice**, and then choose the related link.  
   
 2.  View the FastTabs as described in the following table.  
   
@@ -40,7 +40,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can us
   
 ## See Also  
  [How to: View Posted Tax Credit Memos](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-view-posted-tax-credit-memos.md)   
- [\($ T\_28072 Sales Tax Invoice Line $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/-$-t_28072-sales-tax-invoice-line-$-.md)   
- [\($ T\_28076 Purch. Tax Inv. Line $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/-$-t_28076-purch.-tax-inv.-line-$-.md)   
- [\($ N\_43 Sales Invoice $\)](../Topic/\($%20N_43%20Sales%20Invoice%20$\).md)   
- [\($ N\_51 Purchase Invoice $\)](../Topic/\($%20N_51%20Purchase%20Invoice%20$\).md)
+ Sales Tax Invoice Line   
+ Purch. Tax Inv. Line   
+ Sales Invoice   
+ Purchase Invoice

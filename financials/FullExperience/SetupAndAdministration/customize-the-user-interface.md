@@ -58,10 +58,10 @@ The concept of UI customization in [!INCLUDE[dyn_nav](../ApplicationDesign/inclu
 |**To**|**See**|  
 |------------|-------------|  
 |As an administrator, remove UI elements according to permissions. Then, configure different profile\-specific page layouts using the same UI customization functions that users use.|[Configure the User Interface](../SetupAndAdministration/configure-the-user-interface.md)|  
-|As a user, change how actions, fields, and page parts are placed in your personal version of [!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)] using a rich set of UI customization functions.|[\($ S\_PERSONALIZATION Personalize the User Interface $\)](../SetupAndAdministration/-$-s_personalization-personalize-the-user-interface-$-.md)|  
+|As a user, change how actions, fields, and page parts are placed in your personal version of [!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)] using a rich set of UI customization functions.|PERSONALIZATION Personalize the User Interface|  
   
 ## See Also  
  [Administration in the Clients](../SetupAndAdministration/administration-in-the-clients.md)   
  [Customization: Configuration and Personalization](http://msdn.microsoft.com/en-us/library/jj677170\(v=nav.70\).aspx)   
  [Setup and Administration](../SetupAndAdministration/setup-and-administration.md)   
- [Working with \($ P\_1 Product Name $\)](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)
+ [Working with Product Name](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)

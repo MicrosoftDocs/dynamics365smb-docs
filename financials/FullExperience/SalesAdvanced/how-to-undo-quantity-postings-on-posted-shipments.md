@@ -49,9 +49,9 @@ Sometimes, you may make an incorrect quantity posting. For example, you may have
   
 3.  On the **Lines** FastTab, choose **Actions**![Action Menu icon](../DesignAndEngineering/media/actionmenuicon.png "actionMenuIcon"), choose **Functions**, and then choose **Undo Shipment**.  
   
-     A corrective line is created in the posted document. The **\($ T\_37\_60 Quantity Shipped $\)** field on the sales order is decreased by the quantity that you have undone. In turn, the **\($ T\_37\_18 Qty. to Ship $\)** is increased by the undone quantity. On the posted shipment line, in the corrective line **\($ T\_111\_15 Quantity $\)** is equal to the quantity of the line being undone. The **\($ T\_111\_5817 Correction $\)** check box is selected for the lines.  
+     A corrective line is created in the posted document. The **Quantity Shipped** field on the sales order is decreased by the quantity that you have undone. In turn, the **Qty. to Ship** is increased by the undone quantity. On the posted shipment line, in the corrective line **Quantity** is equal to the quantity of the line being undone. The **Correction** check box is selected for the lines.  
   
-     If the quantity was shipped in a warehouse shipment, a corrective line is inserted in the posted warehouse shipment. If the quantity was only partially shipped, then the **\($ T\_7321\_21 Qty. to Ship $\)** on the warehouse shipment is updated. The **\($ T\_7321\_25 Qty. Shipped $\)** field is decreased by the undone quantity.  
+     If the quantity was shipped in a warehouse shipment, a corrective line is inserted in the posted warehouse shipment. If the quantity was only partially shipped, then the **Qty. to Ship** on the warehouse shipment is updated. The **Qty. Shipped** field is decreased by the undone quantity.  
   
 4.  Go back to the sales order, and on the **Process** tab, in the **Release** group, choose **Reopen** to reopen it.  
   
@@ -69,8 +69,8 @@ Sometimes, you may make an incorrect quantity posting. For example, you may have
 >  [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] does not support undoing posted receipts if warehousing is in use. Therefore, if the sales shipment is posted that based on a warehouse inventory pick document, you cannot undo the quantity posting because it is linked to a posted receipt.  
   
 ## See Also  
- [\($ N\_130 Posted Sales Shipment $\)](../Topic/\($%20N_130%20Posted%20Sales%20Shipment%20$\).md)   
- [\($ N\_42 Sales Order $\)](../Topic/\($%20N_42%20Sales%20Order%20$\).md)   
- [\($ N\_900 Assembly Order $\)](../WarehouseActivities/-$-n_900-assembly-order-$-.md)   
+ Posted Sales Shipment   
+ Sales Order   
+ Assembly Order   
  [How to: Sell Items Assembled to Order](../Sales/how-to-sell-items-assembled-to-order.md)   
  [Process Sales](../Sales/process-sales.md)

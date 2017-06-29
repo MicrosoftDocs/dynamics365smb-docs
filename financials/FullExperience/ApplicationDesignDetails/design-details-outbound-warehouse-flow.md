@@ -91,12 +91,12 @@ The outbound flow in the warehouse begins with a request from released source do
  When the outbound source document is released, an outbound warehouse request is created automatically. It contains references to the source document type and number and is not visible to the user.  
   
 ### 3: Create Inventory Pick or Movement  
- In the **\($ N\_7377 Inventory Pick $\)** or **\($ N\_7382 Inventory Movement $\)** window, the warehouse worker retrieves, in a pull fashion, the pending source document lines based on outbound warehouse requests. Alternatively, the inventory pick lines are already created, in a push fashion, by the user who is responsible for the source document.  
+ In the **Inventory Pick** or **Inventory Movement** window, the warehouse worker retrieves, in a pull fashion, the pending source document lines based on outbound warehouse requests. Alternatively, the inventory pick lines are already created, in a push fashion, by the user who is responsible for the source document.  
   
 ### 4: Post Inventory Pick or Register Inventory Movement  
- On each line for items that have been picked or moved, partially or fully, the warehouse worker fills in the **\($ T\_5767\_20 Quantity $\)** field, and then posts the inventory pick or registers the inventory movement. Source documents related to the inventory pick are posted as shipped or consumed. Source documents related to inventory movements are not posted.  
+ On each line for items that have been picked or moved, partially or fully, the warehouse worker fills in the **Quantity** field, and then posts the inventory pick or registers the inventory movement. Source documents related to the inventory pick are posted as shipped or consumed. Source documents related to inventory movements are not posted.  
   
- For inventory picks, negative item ledger entries are created, warehouse entries are created, and the pick request is deleted, if fully handled. For example, the **\($ T\_37\_60 Quantity Shipped $\)** field on the outbound source document line is updated. A posted shipment document is created  that reflects the sales order, for example, and the shipped items.  
+ For inventory picks, negative item ledger entries are created, warehouse entries are created, and the pick request is deleted, if fully handled. For example, the **Quantity Shipped** field on the outbound source document line is updated. A posted shipment document is created  that reflects the sales order, for example, and the shipped items.  
   
 ## Advanced Warehousing  
  The following diagram illustrates the outbound warehouse flow by document type in advanced warehousing. The numbers in the diagram correspond with the steps in the sections following the diagram.  
@@ -110,7 +110,7 @@ The outbound flow in the warehouse begins with a request from released source do
  When the inbound source document is released, an outbound warehouse request is created automatically. It contains references to the source document type and number and is not visible to the user.  
   
 ### 3: Create Warehouse Shipment  
- In the **\($ N\_7335 Warehouse Shipment $\)** window, the shipping worker who is responsible retrieves pending source document lines based on the outbound warehouse request. Several source document lines can be combined in one warehouse shipment document.  
+ In the **Warehouse Shipment** window, the shipping worker who is responsible retrieves pending source document lines based on the outbound warehouse request. Several source document lines can be combined in one warehouse shipment document.  
   
 ### 4: Release Shipment \/ Create Warehouse Pick  
  The shipping worker who is responsible releases the warehouse shipment, so that warehouse workers can  create or coordinate warehouse picks for the shipment in question.  
@@ -126,20 +126,20 @@ The outbound flow in the warehouse begins with a request from released source do
  When the outbound source document is released, a warehouse pick request is created automatically. It contains references to the source document type and number and is not visible to the user. Depending on the setup, consumption from a production and assembly order also creates a pick request to pick the needed components from inventory.  
   
 ### 7: Generate Pick Worksheet Lines  
- The user who is responsible for coordinating picks, retrieves warehouse pick lines in the **\($ N\_7345 Pick Worksheet $\)** based on pick requests from warehouse shipments or internal operations with component consumption. The user selects the lines to be picked and prepares the picks by specifying which bins to take from, which bins to place in, and how many units to handle. The bins may be predefined by setup of the warehouse location or operation resource.  
+ The user who is responsible for coordinating picks, retrieves warehouse pick lines in the **Pick Worksheet** based on pick requests from warehouse shipments or internal operations with component consumption. The user selects the lines to be picked and prepares the picks by specifying which bins to take from, which bins to place in, and how many units to handle. The bins may be predefined by setup of the warehouse location or operation resource.  
   
- The user specifies picking methods for optimized warehouse handling and then uses a function to create the corresponding warehouse pick documents, which are assigned to different warehouse workers who perform warehouse picks. When the warehouse picks are fully assigned, the lines in the **\($ N\_7345 Pick Worksheet $\)** are deleted.  
+ The user specifies picking methods for optimized warehouse handling and then uses a function to create the corresponding warehouse pick documents, which are assigned to different warehouse workers who perform warehouse picks. When the warehouse picks are fully assigned, the lines in the **Pick Worksheet** are deleted.  
   
 ### 8: Create Warehouse Pick Documents  
  The warehouse worker who perform picks create a warehouse pick document, in a pull fashion, based on the released source document. Alternatively, the warehouse pick document is created and assigned to the warehouse worker in a push fashion.  
   
 ### 9: Register Warehouse Pick  
- On each line for items that have been picked, partially or fully, the warehouse worker fills in the **\($ T\_5767\_20 Quantity $\)** field in the **\($ N\_5779 Warehouse Pick $\)** window and then registers the warehouse pick.  
+ On each line for items that have been picked, partially or fully, the warehouse worker fills in the **Quantity** field in the **Warehouse Pick** window and then registers the warehouse pick.  
   
- Warehouse entries are created, and the warehouse pick lines are deleted, if fully handled. The warehouse pick document remains open until the full quantity of the related warehouse shipment is registered. The **\($ T\_7321\_23 Qty. Picked $\)** field on the warehouse shipment lines is updated accordingly.  
+ Warehouse entries are created, and the warehouse pick lines are deleted, if fully handled. The warehouse pick document remains open until the full quantity of the related warehouse shipment is registered. The **Qty. Picked** field on the warehouse shipment lines is updated accordingly.  
   
 ### 10: Post Warehouse Shipment  
- When all items on the warehouse shipment document are registered as picked to the specified shipment bins, the shipping worker who is responsible posts the warehouse shipment. Negative item ledger entries are created. For example, the **\($ T\_37\_60 Quantity Shipped $\)** field on the outbound source document line is updated.  
+ When all items on the warehouse shipment document are registered as picked to the specified shipment bins, the shipping worker who is responsible posts the warehouse shipment. Negative item ledger entries are created. For example, the **Quantity Shipped** field on the outbound source document line is updated.  
   
 ## See Also  
  [Design Details: Warehouse Management](../ApplicationDesign/design-details-warehouse-management.md)

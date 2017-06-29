@@ -23,7 +23,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can cr
   
 2.  On the **Actions** tab, choose **Functions**, and then choose **Create Additional Sheet**.  
   
-3.  Fill in the batch job according to the guidelines at [\($ B\_14963 Create VAT Sales Led. Ad. Sh. $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-b_14963-create-vat-sales-led.-ad.-sh.-$-.md).  
+3.  Fill in the batch job according to the guidelines at Create VAT Sales Led. Ad. Sh..  
   
  The parameters for creating a VAT purchase ledger additional sheet and VAT sales ledger additional sheet are the same as the parameters for creating the VAT Purchase Ledger and the VAT Sales Ledger.  
   

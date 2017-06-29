@@ -31,7 +31,7 @@ When a payment slip has been processed, you can separate it from the active paym
   
 2.  Select the relevant payment slip, and then, on the **Home** tab, in the **Manage** group, choose **Edit**.  
   
-3.  In the **\($ N\_10868 Payment Slip $\)** window, on the **Actions** tab, in the **Functions** group, choose **Archive**.  
+3.  In the **Payment Slip** window, on the **Actions** tab, in the **Functions** group, choose **Archive**.  
   
 4.  Choose the **Yes** button to archive the payment slip.  
   
@@ -40,16 +40,16 @@ When a payment slip has been processed, you can separate it from the active paym
   
 ### To archive a batch of payment slips  
   
-1.  In the **Search** box, enter **\($ R\_10873 Archive Payment Slips $\)**, and then choose the relevant link.  
+1.  In the **Search** box, enter **Archive Payment Slips**, and then choose the relevant link.  
   
-2.  In the **\($ R\_10873 Archive Payment Slips $\)** window, on the **Payment Header** FastTab, select the appropriate filters.  
+2.  In the **Archive Payment Slips** window, on the **Payment Header** FastTab, select the appropriate filters.  
   
 3.  Choose the **OK** button.  
   
      The payment slips are archived.  
   
     > [!NOTE]  
-    >  This batch job will only archive payment slips that have the **\($ T\_10861\_21 Archiving Authorized $\)** check box selected in the **\($ N\_10865 Payment Status $\)** window. For more information, see [How to: Set Up Payment Statuses](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-set-up-payment-statuses.md).  
+    >  This batch job will only archive payment slips that have the **Archiving Authorized** check box selected in the **Payment Status** window. For more information, see [How to: Set Up Payment Statuses](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-set-up-payment-statuses.md).  
   
 ## See Also  
  [Payment Management](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/payment-management.md)   
@@ -59,7 +59,7 @@ When a payment slip has been processed, you can separate it from the active paym
  [How to: Set Up Payment Addresses](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-set-up-payment-addresses.md)   
  [How to: Create Payment Slips](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-create-payment-slips.md)   
  [How to: Post Payment Slips](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-post-payment-slips.md)   
- [\($ T\_10865\_43 Archiving Authorized $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/-$-t_10865_43-archiving-authorized-$-.md)   
- [\($ T\_10861 Payment Status $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/-$-t_10861-payment-status-$-.md)   
- [\($ N\_10865 Payment Status $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/-$-n_10865-payment-status-$-.md)   
- [\($ N\_10868 Payment Slip $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/-$-n_10868-payment-slip-$-.md)
+ Archiving Authorized   
+ Payment Status   
+ Payment Status   
+ Payment Slip

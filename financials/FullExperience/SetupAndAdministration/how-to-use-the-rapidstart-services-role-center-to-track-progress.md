@@ -45,7 +45,7 @@ When you use [!INCLUDE[rim](../Roles/includes/rim_md.md)], we recommend that you
   
  By default, when you add a table to the configuration worksheet, its status is set to blank. This means that configuration of the table has not begun. This is reflected in the **Not Started** count in the **Activities** tile.  
   
- For more information about table status options, see [\($ T\_8622\_21 Status $\)](../Topic/\($%20T_8622_21%20Status%20$\).md).  
+ For more information about table status options, see Status.  
   
 ### To update the status of a configuration table  
   
@@ -76,4 +76,4 @@ When you use [!INCLUDE[rim](../Roles/includes/rim_md.md)], we recommend that you
 3.  To see a list of tables with a particular status, select the appropriate filtered view.  
   
 ## See Also  
- [\($ T\_8622\_21 Status $\)](../Topic/\($%20T_8622_21%20Status%20$\).md)
+ Status

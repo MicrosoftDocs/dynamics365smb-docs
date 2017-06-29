@@ -39,14 +39,14 @@ At regular intervals, you must remind approval workflow users of overdue approva
   
  The **Send Overdue Approval Notifications** function checks for all open approval requests that are currently overdue. Each approver that has at least one overdue approval entry receives a notification with the list of all their overdue approval requests. The notification is also sent to their approver and all the requesters of the overdue approvals. This helps if the overdue approval entry must be delegated to a substitute. To see notification entries for overdue approval requests, see [How to: View Overdue Approval Requests](../../BusinessFunctionality/Workflow/how-to-view-overdue-approval-requests.md).  
   
- The due date is either the date when the request was made or it a date calculated from the value in the **\($ T\_1523\_15 due Date Formula $\)** field on the workflow response that represents the approvers action. For more information, see step 9.b. in [How to: Create Workflows](../../BusinessFunctionality/Workflow/how-to-create-workflows.md).  
+ The due date is either the date when the request was made or it a date calculated from the value in the **due Date Formula** field on the workflow response that represents the approvers action. For more information, see step 9.b. in [How to: Create Workflows](../../BusinessFunctionality/Workflow/how-to-create-workflows.md).  
   
  You can set up the overdue approval notification to include a list of all pending approvals and not just new ones that are overdue. For more information, see [How to: Manage Notification Templates](../../BusinessFunctionality/Workflow/how-to-manage-notification-templates.md).  
   
 > [!TIP]  
 >  It is advised that you set this function up to run periodically in a job queue. For more information, see [How to: Set Up Job Queues](../../SetupAndAdministration/how-to-set-up-job-queues.md).  
   
- Approval of records must be set up as workflows, one workflow for each scenario, such as the Purchase Invoice Approval Workflow. The generic version of [!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)] includes workflow templates for approval of all types of sales and purchase documents and for other records, such as customer cards. For more information, see the list of workflow templates in the [\($ N\_1505 Workflow Templates $\)](../Topic/\($%20N_1505%20Workflow%20Templates%20$\).md) window.  
+ Approval of records must be set up as workflows, one workflow for each scenario, such as the Purchase Invoice Approval Workflow. The generic version of [!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)] includes workflow templates for approval of all types of sales and purchase documents and for other records, such as customer cards. For more information, see the list of workflow templates in the Workflow Templates window.  
   
 ### To send overdue approval notifications  
   
@@ -55,8 +55,8 @@ At regular intervals, you must remind approval workflow users of overdue approva
      The **Send Overdue Approval Notifications** function is executed.  
   
 ## See Also  
- [\($ N\_666 Overdue Notification Entries $\)](../Topic/\($%20N_666%20Overdue%20Notification%20Entries%20$\).md)   
- [\($ N\_1510 Notification Templates $\)](../Topic/\($%20N_1510%20Notification%20Templates%20$\).md)   
+ Overdue Notification Entries   
+ Notification Templates   
  [How to: View Overdue Approval Requests](../../BusinessFunctionality/Workflow/how-to-view-overdue-approval-requests.md)   
  [How to: Manage Notification Templates](../../BusinessFunctionality/Workflow/how-to-manage-notification-templates.md)   
  [How to: Create Workflows](../../BusinessFunctionality/Workflow/how-to-create-workflows.md)   

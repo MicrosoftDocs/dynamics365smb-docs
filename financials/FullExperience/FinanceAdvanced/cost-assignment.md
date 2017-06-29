@@ -55,6 +55,6 @@ An Item Charge gives you the possibility to include the value of additional cost
 -   To include purchase allowances into the unit cost and sales allowances into the unit price.  
   
 ## See Also  
- [\($ T\_5800 Item Charge $\)](../Topic/\($%20T_5800%20Item%20Charge%20$\).md)   
+ Item Charge   
  [Assignment of Item Charges to Purchase Documents](../Finance/assignment-of-item-charges-to-purchase-documents.md)   
  [How to: Assign Item Charges to Purchase Documents](../Topic/How%20to:%20Assign%20Item%20Charges%20to%20Purchase%20Documents.md)

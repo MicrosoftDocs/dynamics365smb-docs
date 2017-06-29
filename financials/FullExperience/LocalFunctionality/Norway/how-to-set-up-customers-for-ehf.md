@@ -27,10 +27,10 @@ To create Elektronisk Handelsformat \(EHF\) documents for customers in the publi
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_18\_90 GLN $\)**|Required. Enter the Global Location Number \(GLN\) for the customer.|  
-    |**\($ T\_18\_10601 Account Code $\)**|Enter the account code for the customer.<br /><br /> Customers in the public sector provide an account code when they place an order or requisition. Based on the value of this field, the account code is included in the EHF documents that you create in [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]. For more information, see [\($ T\_18\_10601 Account Code $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/-$-t_18_10601-account-code-$-.md).|  
-    |**\($ T\_18\_10602 E\-Invoice $\)**|Select the check box to use electronic invoicing with this customer.|  
-    |**\($ T\_18\_5700 Responsibility Center $\)**|Make sure that the Responsibility Center that you have selected has a Country\/Region Code specified.|  
+    |**GLN**|Required. Enter the Global Location Number \(GLN\) for the customer.|  
+    |**Account Code**|Enter the account code for the customer.<br /><br /> Customers in the public sector provide an account code when they place an order or requisition. Based on the value of this field, the account code is included in the EHF documents that you create in [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]. For more information, see Account Code.|  
+    |**E\-Invoice**|Select the check box to use electronic invoicing with this customer.|  
+    |**Responsibility Center**|Make sure that the Responsibility Center that you have selected has a Country\/Region Code specified.|  
   
  These fields are specific to EHF. The values are used in all EHF documents that you create for this customer. For more information, see [EHF Electronic Invoicing in Norway](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/ehf-electronic-invoicing-in-norway.md).  
   

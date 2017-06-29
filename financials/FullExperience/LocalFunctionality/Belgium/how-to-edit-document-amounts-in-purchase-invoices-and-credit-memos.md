@@ -25,9 +25,9 @@ translation.priority.ht:
   
 2.  Edit the document amount in the **Doc. Amount Incl. VAT** field and the **Doc. Amount VAT** field.  
   
-3.  The value entered in the **Doc. Amount Incl. VAT** field is divided on the invoice lines according to how it was defined in the standard vendor purchase code scheme in the **\($ T\_173 Standard Purchase Code $\)** table. Accept the proposal and post the invoice or credit memo.  
+3.  The value entered in the **Doc. Amount Incl. VAT** field is divided on the invoice lines according to how it was defined in the standard vendor purchase code scheme in the **Standard Purchase Code** table. Accept the proposal and post the invoice or credit memo.  
   
 ## See Also  
- [\($ T\_38 Purchase Header $\)](../Topic/\($%20T_38%20Purchase%20Header%20$\).md)   
+ Purchase Header   
  [How to: Set Up Standard Purchase and Sales Lines](../../Purchasing/how-to-set-up-standard-purchase-and-sales-lines.md)   
- [\($ T\_173 Standard Purchase Code $\)](../Topic/\($%20T_173%20Standard%20Purchase%20Code%20$\).md)
+ Standard Purchase Code

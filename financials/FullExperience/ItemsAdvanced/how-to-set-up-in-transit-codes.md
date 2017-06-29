@@ -56,4 +56,4 @@ If you need more than one line to describe an item on a sales, purchase, or serv
 6.  On the FastTabs, select the documents to which you want the extended text to apply.  
   
 ## See Also  
- [\($ N\_386 Extended Text $\)](assetId:///5d6336ff-cb7e-45f9-b082-772d3edf35ae)
+ Extended Text

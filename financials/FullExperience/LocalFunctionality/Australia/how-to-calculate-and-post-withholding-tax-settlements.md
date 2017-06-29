@@ -17,7 +17,7 @@ translation.priority.ht:
   - "en-au"
 ---
 # How to: Calculate and Post Withholding Tax Settlements
-You can use the **\($ R\_28041 Calc. and Post WHT Settlement $\)** window to calculate and post the withholding tax \(WHT\).  
+You can use the **Calc. and Post WHT Settlement** window to calculate and post the withholding tax \(WHT\).  
   
  You can close WHT entries that are open or not settled and transfer the corresponding amount to the WHT settlement account.  
   
@@ -28,7 +28,7 @@ You can use the **\($ R\_28041 Calc. and Post WHT Settlement $\)** window to cal
   
 ### To calculate and post withholding tax settlements  
   
-1.  In the **Search** box, enter **\($ R\_28041 Calc. and Post WHT Settlement $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Calc. and Post WHT Settlement**, and then choose the related link.  
   
 2.  On the **[!INCLUDE[bp_optionsheading](../../DesignAndEngineering/includes/bp_optionsheading_md.md)]** FastTab, fill in the fields as described in the following table.  
   

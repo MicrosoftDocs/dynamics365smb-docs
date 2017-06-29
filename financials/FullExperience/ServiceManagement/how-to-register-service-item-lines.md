@@ -65,7 +65,7 @@ When you have created a service order or service quote, you need to register the
   
 6.  You may need to fill in the **Fault Reason Code** field, depending on the settings on the **Mandatory Fields** FastTab in the **Service Mgt. Setup** window. If this field is not visible on the **Lines** FastTab, you can add it. [!INCLUDE[bp_choose_columns](../DesignAndEngineering/includes/bp_choose_columns_md.md)]  
   
-     For more information, see [\($ N\_5919 Service Mgt. Setup $\)](../Topic/\($%20N_5919%20Service%20Mgt.%20Setup%20$\).md).  
+     For more information, see Service Mgt. Setup.  
   
 7.  You can select the **Warranty** field to automatically fill in the warranty related fields with the default warranty information specified in the **Service Mgt. Setup** window. The order date of the service order is used as the starting date of the warranty for spare parts and labor.  
   

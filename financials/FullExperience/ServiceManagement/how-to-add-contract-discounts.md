@@ -49,15 +49,15 @@ You can add contract discounts on services for contract quotes and service contr
   
 2.  Select the quote you want to add discounts for.  
   
-3.  On the **Navigate** tab, in the **Quote** group, choose **Service Discounts**. The **\($ N\_6058 Contract\/Service Discounts $\)** window opens.  
+3.  On the **Navigate** tab, in the **Quote** group, choose **Service Discounts**. The **Contract\/Service Discounts** window opens.  
   
 4.  To create a new contract discount, on the **Home** tab, in the **New** group, choose **New**.  
   
-5.  Fill in the fields in the **\($ N\_6058 Contract\/Service Discounts $\)** window.  
+5.  Fill in the fields in the **Contract\/Service Discounts** window.  
   
  Repeat these steps for each service discount you want to add to the selected contract quote.  
   
- To add contract discounts directly to a service contract, perform similar steps from the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**[\($ N\_6051 Service Contract $\)](DynamicsNAV:////runpage?Page=6051)** window.  
+ To add contract discounts directly to a service contract, perform similar steps from the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**Service Contract** window.  
   
 ## See Also  
  [How to: Create Service Contracts and Service Contract Quotes](../Service/how-to-create-service-contracts-and-service-contract-quotes.md)   

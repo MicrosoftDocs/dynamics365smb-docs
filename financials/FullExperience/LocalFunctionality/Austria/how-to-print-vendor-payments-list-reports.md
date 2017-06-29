@@ -19,7 +19,7 @@ translation.priority.ht:
   - "fr-ch"
 ---
 # How to: Print Vendor Payments List Reports
-The **\($ R\_11507 Vendor Payments List $\)** report provides a list of payments for each vendor. The report can sort payments chronologically or grouped by vendor.  
+The **Vendor Payments List** report provides a list of payments for each vendor. The report can sort payments chronologically or grouped by vendor.  
   
 ### To print the vendor payments list report  
   
@@ -35,4 +35,4 @@ The **\($ R\_11507 Vendor Payments List $\)** report provides a list of payments
  At the end of the report, the number of processed payments is displayed.  
   
 ## See Also  
- [\($ R\_11507 Vendor Payments List $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/-$-r_11507-vendor-payments-list-$-.md)
+ Vendor Payments List

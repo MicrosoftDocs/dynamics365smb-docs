@@ -18,7 +18,7 @@ translation.priority.ht:
 # How to: Download CODA Files from an Isabel Server
 CODA files can be downloaded manually or in attended mode.  
   
- To manually download CODA files, log  on to the Isabel server and select the files that you want to download. The downloaded files can then be imported from the **\($ T\_270 Bank Account $\)** table. For more information, see [How to: Import CODA Statements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-import-coda-statements.md).  
+ To manually download CODA files, log  on to the Isabel server and select the files that you want to download. The downloaded files can then be imported from the **Bank Account** table. For more information, see [How to: Import CODA Statements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-import-coda-statements.md).  
   
 ### To download CODA files in attended mode  
   
@@ -26,7 +26,7 @@ CODA files can be downloaded manually or in attended mode.
   
 2.  On the **Home** tab, in the **Process** group, choose **Download**.  
   
-3.  In the **\($ N\_2000012 IBS Download Request Options $\)** window, fill in the fields as described in the following table.  
+3.  In the **IBS Download Request Options** window, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
@@ -38,11 +38,11 @@ CODA files can be downloaded manually or in attended mode.
 4.  Choose the **OK** button.  
   
     > [!NOTE]  
-    >  You cannot delete any files from the Isabel server by using the **\($ N\_2000012 IBS Download Request Options $\)** window. You must manually delete the files by logging on to the Isabel server.  
+    >  You cannot delete any files from the Isabel server by using the **IBS Download Request Options** window. You must manually delete the files by logging on to the Isabel server.  
   
-     After the CODA files have been downloaded, the **\($ T\_2000010\_21 Process Status $\)** field will display **Created** in the **\($ N\_2000010 IBS Logs $\)** window. You can log on to the Isabel server to manually retrieve the files. For more information, see [How to: Import CODA Statements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-import-coda-statements.md).  
+     After the CODA files have been downloaded, the **Process Status** field will display **Created** in the **IBS Logs** window. You can log on to the Isabel server to manually retrieve the files. For more information, see [How to: Import CODA Statements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-import-coda-statements.md).  
   
 ## See Also  
- [\($ N\_2000012 IBS Download Request Options $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/-$-n_2000012-ibs-download-request-options-$-.md)   
- [\($ B\_2000030 Import CODA Statement $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/-$-b_2000030-import-coda-statement-$-.md)   
- [\($ N\_2000010 IBS Logs $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/-$-n_2000010-ibs-logs-$-.md)
+ IBS Download Request Options   
+ Import CODA Statement   
+ IBS Logs

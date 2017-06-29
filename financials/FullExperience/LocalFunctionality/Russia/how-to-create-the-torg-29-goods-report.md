@@ -17,7 +17,7 @@ translation.priority.ht:
 # How to: Create the TORG-29 Goods Report
 The TORG\-29 report shows the item documents that you can use to submit for receipts and shipments for a location.  
   
- When you run the report for a location, the **\($ T\_14\_12400 Last Goods Report No. $\)** and **\($ T\_14\_12401 Last Goods Report Date $\)** fields in the **\($ N\_5703 Location Card $\)** window are updated to ensure consistent reporting.  
+ When you run the report for a location, the **Last Goods Report No.** and **Last Goods Report Date** fields in the **Location Card** window are updated to ensure consistent reporting.  
   
 ### To create the TORG\-29 report  
   
@@ -28,7 +28,7 @@ The TORG\-29 report shows the item documents that you can use to submit for rece
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_14919\_F\_1\_1210028 Location Code $\)**|Specifies the location that the report is for.|  
-    |**\($ R\_14919\_F\_1\_1210003 Report No. $\)**|Specifies the number of times that the report has printed based on the value of the **\($ T\_14\_12400 Last Goods Report No. $\)** field in the **\($ N\_5703 Location Card $\)** window.|  
+    |**\($ R\_14919\_F\_1\_1210003 Report No. $\)**|Specifies the number of times that the report has printed based on the value of the **Last Goods Report No.** field in the **Location Card** window.|  
     |**\($ R\_14919\_F\_1\_1210005 Responsible Employee $\)**|Specifies the employee who is responsible for the validity of the data in the report.|  
     |**\($ R\_14919\_F\_1\_1210000 Report Acceptor $\)**|Specifies the employee who is responsible for accepting the report.|  
     |**\($ R\_14919\_F\_1\_1210002 Report Date $\)**|Specifies the date of the report.|  

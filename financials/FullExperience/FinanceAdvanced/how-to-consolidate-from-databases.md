@@ -52,7 +52,7 @@ After you have tested the data, you can start the consolidation. This means that
   
 2.  In the **Search** box, enter **Business Units**, and then choose the related link.  
   
-3.  In the **\($ N\_240 Business Units $\)** window, on the **Actions** tab, in the **Functions** group, choose **Import Database**.  
+3.  In the **Business Units** window, on the **Actions** tab, in the **Functions** group, choose **Import Database**.  
   
 4.  On the **Business Unit** FastTab, you can set a filter in the **Code** field to select the business units that will be consolidated.  
   
@@ -68,4 +68,4 @@ After you have tested the data, you can start the consolidation. This means that
  [How to: Test Databases Before Consolidating](../Finance/how-to-test-databases-before-consolidating.md)   
  [How to: Test Files Before Consolidating](../Finance/how-to-test-files-before-consolidating.md)   
  [How to: Enter Basic Information for Consolidated Companies](../Finance/how-to-enter-basic-information-for-consolidated-companies.md)   
- [\($ T\_348 Dimension $\)](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)
+ Dimension

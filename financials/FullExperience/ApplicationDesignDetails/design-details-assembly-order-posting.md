@@ -133,7 +133,7 @@ Assembly order posting is based on the same principles as when posting the simil
 ## Assemble to Order  
  The item ledger entry that results from posting an assemble\-to\-order sale is fixed applied to the related item ledger entry for the assembly output. Accordingly, the cost of an assemble\-to\-order sale is derived from the assembly order that it was linked to.  
   
- Item ledger entries of type Sale that result from posting assemble\-to\-order quantities are marked with **Yes** in the **\($ T\_32\_904 Assemble to Order $\)** field.  
+ Item ledger entries of type Sale that result from posting assemble\-to\-order quantities are marked with **Yes** in the **Assemble to Order** field.  
   
  Posting sales order lines where a part is inventory quantity and another part is assemble\-to\-order quantity results in separate item ledger entries, one for the inventory quantity and one for the assemble\-to\-order quantity.  
   

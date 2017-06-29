@@ -50,13 +50,13 @@ You can choose to have VAT amounts calculated and posted to a temporary general 
   
 1.  In the **Search** box, enter **General Ledger Setup**, and then choose the related link.  
   
-2.  In the **\($ N\_118 General Ledger Setup $\)** window, on the **General** FastTab, select the **Unrealized VAT** check box.  
+2.  In the **General Ledger Setup** window, on the **General** FastTab, select the **Unrealized VAT** check box.  
   
 3.  Close the window.  
   
 4.  In the **Search** box, enter **VAT Posting Setup**, and then choose the related link.  
   
-5.  In the **\($ N\_472 VAT Posting Setup $\)** window, to view the options, choose the **Unrealized VAT Type** field, and then select an option that determines how unrealized VAT will be handled.  
+5.  In the **VAT Posting Setup** window, to view the options, choose the **Unrealized VAT Type** field, and then select an option that determines how unrealized VAT will be handled.  
   
 6.  In the **Sales VAT Unreal. Account** field, enter the general ledger account for unrealized sales VAT.  
   

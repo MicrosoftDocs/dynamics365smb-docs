@@ -45,7 +45,7 @@ When you post a service invoice, a service shipment, or a service credit memo, t
   
 ### To view additional information about a posted service document  
   
-1.  In the **Search** box, enter **\($ N\_5978 Posted Service Invoice $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Posted Service Invoice**, and then choose the related link.  
   
 2.  Open the posted service invoice you want to view.  
   

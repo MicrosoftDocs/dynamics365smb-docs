@@ -58,7 +58,7 @@ You can import and export general ledger data according to the standard import e
   
 ## See Also  
  [Standard Import Export Group](http://go.microsoft.com/fwlink/?LinkID=164870&clcid=0x41d)   
- [\($ N\_11212 SIE Dimensions $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Sweden/-$-n_11212-sie-dimensions-$-.md)   
- [\($ B\_11208 SIE Import $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Sweden/-$-b_11208-sie-import-$-.md)   
- [\($ B\_11207 SIE Export $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Sweden/-$-b_11207-sie-export-$-.md)   
+ SIE Dimensions   
+ SIE Import   
+ SIE Export   
  [Sweden Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Sweden/sweden-local-functionality.md)

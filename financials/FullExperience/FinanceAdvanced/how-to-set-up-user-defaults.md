@@ -26,15 +26,15 @@ translation.priority.ht:
   - "en-zw"
 ---
 # How to: Set Up User Defaults
-You must set up a default set of templates and batches for each depreciation book. You can also specify a default for each user. The defaults are used when you enter a number in the **Insurance No.** field on a journal line and by the **\($ B\_5691 Index Insurance $\)** batch job.  
+You must set up a default set of templates and batches for each depreciation book. You can also specify a default for each user. The defaults are used when you enter a number in the **Insurance No.** field on a journal line and by the **Index Insurance** batch job.  
   
 ### To set up user defaults  
   
 1.  In the **Search** box, enter **FA Journal Setup**, and then choose the related link in **Financial Management**.  
   
-2.  In the **\($ T\_5605\_7 Insurance Jnl. Template Name $\)** field, choose the field to view the **Insurance Jnl Template List** window. Select one of the templates.  
+2.  In the **Insurance Jnl. Template Name** field, choose the field to view the **Insurance Jnl Template List** window. Select one of the templates.  
   
-3.  In the **\($ T\_5605\_8 Insurance Jnl. Batch Name $\)** field, choose the field to view the **\($ N\_5655 Insurance Journal Batches $\)** window. Select one of the batches.  
+3.  In the **Insurance Jnl. Batch Name** field, choose the field to view the **Insurance Journal Batches** window. Select one of the batches.  
   
 4.  Choose the **Close** button to close the window.  
   
@@ -45,7 +45,7 @@ You must set up a default set of templates and batches for each depreciation boo
  [Set Up Fixed Asset Insurance](../Finance/set-up-fixed-asset-insurance.md)   
  [Updating Insurance Information](../Finance/updating-insurance-information.md)   
  [Monitoring Insurance Coverage](../Finance/monitoring-insurance-coverage.md)   
- [\($ B\_5691 Index Insurance $\)](../Topic/\($%20B_5691%20Index%20Insurance%20$\).md)   
- [\($ T\_5605\_7 Insurance Jnl. Template Name $\)](../Topic/\($%20T_5605_7%20Insurance%20Jnl.%20Template%20Name%20$\).md)   
- [\($ T\_5605\_8 Insurance Jnl. Batch Name $\)](../Topic/\($%20T_5605_8%20Insurance%20Jnl.%20Batch%20Name%20$\).md)   
- [\($ N\_5655 Insurance Journal Batches $\)](../Topic/\($%20N_5655%20Insurance%20Journal%20Batches%20$\).md)
+ Index Insurance   
+ Insurance Jnl. Template Name   
+ Insurance Jnl. Batch Name   
+ Insurance Journal Batches

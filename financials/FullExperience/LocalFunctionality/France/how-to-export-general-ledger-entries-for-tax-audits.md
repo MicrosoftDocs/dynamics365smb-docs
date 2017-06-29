@@ -47,10 +47,10 @@ The standard audit file for tax purposes records key business information \(tran
   
 3.  Choose the **OK** button to export the file.  
   
-     When you create the report, [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] sorts the information in the report by the **\($ T\_45\_1 No. $\)** and **\($ T\_45\_4 Creation Date $\)** fields in the general ledger register.  
+     When you create the report, [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] sorts the information in the report by the **No.** and **Creation Date** fields in the general ledger register.  
   
      The report will have the following name: \<taxpayername\>FEC\<YYYYMMDD\>  
   
 ## See Also  
- [\($ R\_10885 Export G\-L Entries \- Tax Audit $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/-$-r_10885-export-g-l-entries-tax-audit-$-.md)   
+ Export G\-L Entries \- Tax Audit   
  [How to: Close Years](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-close-years.md)

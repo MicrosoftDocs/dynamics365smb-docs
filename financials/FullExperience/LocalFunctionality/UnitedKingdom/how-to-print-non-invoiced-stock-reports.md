@@ -20,9 +20,9 @@ translation.priority.ht:
 # How to: Print Non-Invoiced Stock Reports
 You can use the following reports for month\-end reconciliation and auditing:  
   
--   **\($ R\_10540 Stock Received not Invoiced $\)** – Displays stock that has been received, but not yet invoiced.  
+-   **Stock Received not Invoiced** – Displays stock that has been received, but not yet invoiced.  
   
--   **\($ R\_10541 Stock Shipped not Invoiced $\)** – Displays stock that has been shipped, but not yet invoiced.  
+-   **Stock Shipped not Invoiced** – Displays stock that has been shipped, but not yet invoiced.  
   
 ### To print non\-invoiced stock reports  
   
@@ -33,13 +33,13 @@ You can use the following reports for month\-end reconciliation and auditing:
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_10540\_N\_2\_1040000 Print details $\)**|Select to display the details that are printed in the report.|  
-    |**\($ R\_10540\_N\_2\_1040002 Ending Date $\)**|Specifies the end date.<br /><br /> **NOTE:** You can select the end date only in the **\($ R\_10540 Stock Received not Invoiced $\)** report.|  
+    |**\($ R\_10540\_N\_2\_1040002 Ending Date $\)**|Specifies the end date.<br /><br /> **NOTE:** You can select the end date only in the **Stock Received not Invoiced** report.|  
   
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [\($ R\_10540 Stock Received not Invoiced $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/-$-r_10540-stock-received-not-invoiced-$-.md)   
- [\($ R\_10541 Stock Shipped not Invoiced $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/-$-r_10541-stock-shipped-not-invoiced-$-.md)   
- [\($ T\_5718 Nonstock Item $\)](../Topic/\($%20T_5718%20Nonstock%20Item%20$\).md)   
- [\($ N\_5725 Nonstock Item Card $\)](../Topic/\($%20N_5725%20Nonstock%20Item%20Card%20$\).md)   
+ Stock Received not Invoiced   
+ Stock Shipped not Invoiced   
+ Nonstock Item   
+ Nonstock Item Card   
  [United Kingdom Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/united-kingdom-local-functionality.md)

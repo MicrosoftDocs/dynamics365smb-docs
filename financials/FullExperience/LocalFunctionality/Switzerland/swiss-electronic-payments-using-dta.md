@@ -20,7 +20,7 @@ translation.priority.ht:
 In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can make electronic payments for invoices using the DatenTrägerAustausch \(DTA\) electronic payment method. Swiss banks use the DTA electronic payment method to settle payments efficiently using standardized payment records. This method is based on data carriers and data transfer. This electronic service allows you to convert payments electronically in DTA format, and then submit them to your bank for payment.  
   
 > [!NOTE]  
->  Before you use the DTA electronic payment method, you must define the DTA settings for making electronic payments in the DTA setup. For more information, see the [\($ T\_3010541 DTA Setup $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/-$-t_3010541-dta-setup-$-.md) table.  
+>  Before you use the DTA electronic payment method, you must define the DTA settings for making electronic payments in the DTA setup. For more information, see the DTA Setup table.  
   
  With DTA electronic payments, you can do the following:  
   
@@ -30,7 +30,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can ma
   
 -   Submit the DTA file to the bank electronically, where vendor payments are released in a few hours. For more information, see [How to: Submit DTA Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-submit-dta-payments.md). After this has been done, the payment journal can be posted.  
   
- In the payment journal, you can have the DTA payments suggested based on posted invoices. The suggested payments contain vendor and external document number information, and can be modified. For more information, see [How to: Suggest DTA Payment for Vendors](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-suggest-dta-payment-for-vendors.md) and the [\($ R\_3010545 DTA Payment Journal $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/-$-r_3010545-dta-payment-journal-$-.md) window.  
+ In the payment journal, you can have the DTA payments suggested based on posted invoices. The suggested payments contain vendor and external document number information, and can be modified. For more information, see [How to: Suggest DTA Payment for Vendors](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-suggest-dta-payment-for-vendors.md) and the DTA Payment Journal window.  
   
  When you want to pay a vendor by using DTA, you generate a DTA file, which contains data from the payment journal line and the general journal line. Optionally, the DTA file can combine several payments to the vendor. The DTA file also contains posting text.  
   
@@ -45,5 +45,5 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can ma
  [How to: Export Payments Using EZAG](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-export-payments-using-ezag.md)   
  [Swiss Electronic Payments Using ESR](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/swiss-electronic-payments-using-esr.md)   
  [Swiss Electronic Payments Using LSV\+](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/swiss-electronic-payments-using-lsv-.md)   
- [\($ N\_256 Payment Journal $\)](../../Finance/-$-n_256-payment-journal-$-.md)   
- [\($ T\_3010541 DTA Setup $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/-$-t_3010541-dta-setup-$-.md)
+ Payment Journal   
+ DTA Setup

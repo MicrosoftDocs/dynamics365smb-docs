@@ -26,5 +26,5 @@ In Finland, the following depreciation methods are commonly used for fixed asset
   
 ## See Also  
  [Finland Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Finland/finland-local-functionality.md)   
- [\($ R\_13402 Calc. and Post Depr. Diff. $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Finland/-$-r_13402-calc.-and-post-depr.-diff.-$-.md)   
- [\($ R\_13400 G\-L Register FI $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Finland/-$-r_13400-g-l-register-fi-$-.md)
+ Calc. and Post Depr. Diff.   
+ G\-L Register FI

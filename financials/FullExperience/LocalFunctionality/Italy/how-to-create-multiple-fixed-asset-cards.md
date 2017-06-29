@@ -25,11 +25,11 @@ You can create multiple fixed asset cards automatically during purchase invoice 
   
 2.  Under **Lists**, choose **Fixed Assets**.  
   
-3.  In the **\($ N\_5601 Fixed Asset List $\)** window, on the **Home** tab, choose **New**.  
+3.  In the **Fixed Asset List** window, on the **Home** tab, choose **New**.  
   
-4.  In the **\($ N\_5600 Fixed Asset Card $\)** window, fill in the relevant fields.  
+4.  In the **Fixed Asset Card** window, fill in the relevant fields.  
   
-     You will use the value of the **\($ T\_5600\_1 No. $\)** field when you generate the remaining fixed assets later.  
+     You will use the value of the **No.** field when you generate the remaining fixed assets later.  
   
 5.  In the **Search** box, enter **Purchase Orders**, and then choose the related link.  
   

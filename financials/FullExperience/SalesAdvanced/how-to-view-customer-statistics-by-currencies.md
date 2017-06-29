@@ -50,8 +50,8 @@ When you have posted an invoice in multiple currencies, you can see the customer
   
 3.  On the **Navigate** tab, in the **History** group, choose **Statistics by Currencies**. The **Customer Stats. by Currencies** window opens. Each line shows the transaction statistics for the customer in the currency on the line.  
   
-4.  Choose the value in the **Balance** field on a specific line to open the **\($ N\_573 Detailed Cust. Ledg. Entries $\)** window and see the currency amounts that make up the balance on the line.  
+4.  Choose the value in the **Balance** field on a specific line to open the **Detailed Cust. Ledg. Entries** window and see the currency amounts that make up the balance on the line.  
   
 ## See Also  
- [\($ N\_21 Customer Card $\)](../Topic/\($%20N_21%20Customer%20Card%20$\).md)   
- [\($ N\_573 Detailed Cust. Ledg. Entries $\)](../Topic/\($%20N_573%20Detailed%20Cust.%20Ledg.%20Entries%20$\).md)
+ Customer Card   
+ Detailed Cust. Ledg. Entries

@@ -21,9 +21,9 @@ You can print monthly and quarterly Intrastat reports and submit them to the aut
   
  The following Intrastat reports are available:  
   
--   **\($ R\_502 Intrastat \- Checklist $\)** report  
+-   **Intrastat \- Checklist** report  
   
--   **\($ R\_501 Intrastat \- Form $\)** report  
+-   **Intrastat \- Form** report  
   
 ### To print quarterly or monthly reports  
   
@@ -31,13 +31,13 @@ You can print monthly and quarterly Intrastat reports and submit them to the aut
   
 2.  Select the required journal batch.  
   
-3.  To open the **\($ R\_12160 Intrastat \- Monthly $\)** report or the **\($ R\_12161 Intrastat \- Quarterly $\)** report, on the **Actions** tab, in the **Print** group, choose **Monthly Report** or choose **Quarterly Report**.  
+3.  To open the **Intrastat \- Monthly** report or the **Intrastat \- Quarterly** report, on the **Actions** tab, in the **Print** group, choose **Monthly Report** or choose **Quarterly Report**.  
   
 4.  On the **Intrastat Jnl. Line** FastTab, select the appropriate filters.  
   
 5.  Choose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.  
   
-6.  In the **\($ N\_311 Intrastat Journal $\)** window, to save the report details to a diskette, on the **Actions** tab, in the **Print** group, choose **Make Diskette**.  
+6.  In the **Intrastat Journal** window, to save the report details to a diskette, on the **Actions** tab, in the **Print** group, choose **Make Diskette**.  
   
     > [!NOTE]  
     >  Before you print, you can select the path and file name. If you do not specify this information, the file will be named **scambi.cee** and will print to the root of the C drive.  
@@ -61,6 +61,6 @@ You can print monthly and quarterly Intrastat reports and submit them to the aut
 3.  Choose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [\($ R\_502 Intrastat \- Checklist $\)](../Topic/\($%20R_502%20Intrastat%20-%20Checklist%20$\).md)   
- [\($ R\_501 Intrastat \- Form $\)](../Topic/\($%20R_501%20Intrastat%20-%20Form%20$\).md)   
+ Intrastat \- Checklist   
+ Intrastat \- Form   
  [How to: Set Up Journal Templates and Batches](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-set-up-journal-templates-and-batches.md)

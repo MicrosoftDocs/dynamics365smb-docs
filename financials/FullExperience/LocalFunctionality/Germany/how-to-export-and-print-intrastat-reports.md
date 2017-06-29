@@ -69,9 +69,9 @@ Intrastat reporting is required throughout the European Union \(EU\) and must fo
   
  The Intrastat information is exported, and you can either save the data to a file, or you can open the file in the appropriate program.  
   
- When the file is exported, the **\($ T\_262\_13 Reported $\)** check box in the **\($ N\_327 Intrastat Jnl. Batches $\)** window will be selected, and the **\($ T\_263\_24 Internal Ref. No. $\)** field on every entry in the journal will be filled in. You can manually change the contents of the field. For example, you can make changes when you need to run the report again. For more information, see [\($ T\_262 Intrastat Jnl. Batch $\)](assetId:///ba164b11-d08e-472e-a56b-e03648602a9b).  
+ When the file is exported, the **Reported** check box in the **Intrastat Jnl. Batches** window will be selected, and the **Internal Ref. No.** field on every entry in the journal will be filled in. You can manually change the contents of the field. For example, you can make changes when you need to run the report again. For more information, see Intrastat Jnl. Batch.  
   
 ## See Also  
  [VAT Reporting](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/vat-reporting.md)   
  [How to: Set Up Intrastat Journal Templates and Batches](../../Finance/how-to-set-up-intrastat-journal-templates-and-batches.md)   
- [\($ T\_262 Intrastat Jnl. Batch $\)](assetId:///ba164b11-d08e-472e-a56b-e03648602a9b)
+ Intrastat Jnl. Batch

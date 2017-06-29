@@ -96,7 +96,7 @@ Sales returns are used to compensate your customers for incorrect or damaged ite
   
 ## See Also  
  [How to: Create Sales Credit Memos](../Finance/how-to-create-sales-credit-memos.md)   
- [\($ B\_6697 Create Return\-Related Documents $\)](../Sales/-$-b_6697-create-return-related-documents-$-.md)   
+ Create Return\-Related Documents   
  [About Returns Management](../Purchasing/about-returns-management.md)   
  [How to: Create a Restock Charge](../Sales/how-to-create-a-restock-charge.md)   
  [How to: Assign Exact Cost Reversing in Sales](../Finance/how-to-assign-exact-cost-reversing-in-sales.md)   

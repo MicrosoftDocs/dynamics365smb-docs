@@ -102,5 +102,5 @@ https://localhost:7048/nav_server_instance/OData/Customer?company='CRONUS Intern
 ```  
   
 ## See Also  
- [\($ N\_810 Web Services $\)](../Topic/\($%20N_810%20Web%20Services%20$\).md)   
+ Web Services   
  [Web Service Walkthroughs](../Topic/Web%20Service%20Walkthroughs.md)

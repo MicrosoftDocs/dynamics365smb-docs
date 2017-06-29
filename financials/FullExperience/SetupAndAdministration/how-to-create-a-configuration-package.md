@@ -62,7 +62,7 @@ When you configure a new company, table relations are recognized and processed. 
   
 4.  To exclude the configuration questionnaires, configuration templates, and configuration worksheet tables from the package, select the **Exclude Configuration Tables** check box. Otherwise, these tables will be added to the list of package tables automatically when you export the package.  
   
-5.  On the **Actions** tab, in the **Functions** group, choose **Get Tables**. The **\($ B\_8616 Get Package Tables $\)** batch job window opens.  
+5.  On the **Actions** tab, in the **Functions** group, choose **Get Tables**. The **Get Package Tables** batch job window opens.  
   
      Choose the **Select Tables** field. The **Config. Selection** window opens.  
   
@@ -133,7 +133,7 @@ When you configure a new company, table relations are recognized and processed. 
   
 ## See Also  
  [How to: Assign a Configuration Package](../SetupAndAdministration/how-to-assign-a-configuration-package.md)   
- [\($ B\_8615 Copy Package $\)](../Topic/\($%20B_8615%20Copy%20Package%20$\).md)   
- [\($ B\_8616 Get Package Tables $\)](../Topic/\($%20B_8616%20Get%20Package%20Tables%20$\).md)   
+ Copy Package   
+ Get Package Tables   
  [How to: Manage Company Configuration in a Worksheet](../SetupAndAdministration/how-to-manage-company-configuration-in-a-worksheet.md)   
  [How to: Import Configuration Packages](../SetupAndAdministration/how-to-import-configuration-packages.md)

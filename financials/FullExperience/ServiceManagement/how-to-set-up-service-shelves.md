@@ -53,4 +53,4 @@ You can use the **Service Shelves** window to set up service shelves that identi
  Repeat all steps for each service shelf that you want to create.  
   
 ## See Also  
- [\($ N\_5944 Service Shelves $\)](../Topic/\($%20N_5944%20Service%20Shelves%20$\).md)
+ Service Shelves

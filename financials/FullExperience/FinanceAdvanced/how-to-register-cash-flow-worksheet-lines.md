@@ -51,7 +51,7 @@ In the worksheet for the cash flow forecast, you use a batch job to predict the 
   
 1.  In the **Search** box, enter **Cash Flow Worksheet**, and then choose the related link.  
   
-2.  On the **Home** tab, in the **Process** group, choose **Suggest Worksheet Lines** to open the **\($ B\_840 Suggest Worksheet Lines $\)** batch job.  
+2.  On the **Home** tab, in the **Process** group, choose **Suggest Worksheet Lines** to open the **Suggest Worksheet Lines** batch job.  
   
 3.  In the **\($ B\_840\_F\_1\_1 Cash Flow Forecast $\)** field, select a cash flow forecast number.  
   
@@ -70,7 +70,7 @@ In the worksheet for the cash flow forecast, you use a batch job to predict the 
   
 ## See Also  
  [Cash Flow Overview](../Finance/cash-flow-overview.md)   
- [\($ B\_840 Suggest Worksheet Lines $\)](../Topic/\($%20B_840%20Suggest%20Worksheet%20Lines%20$\).md)   
+ Suggest Worksheet Lines   
  [How to: Set Up Cash Flow Forecasts](../Finance/how-to-set-up-cash-flow-forecasts.md)   
  [How to: Set Up the Chart of Cash Flow Accounts](../Finance/how-to-set-up-the-chart-of-cash-flow-accounts.md)   
  [How to: Configure Accounts for Cash Flow Setup](../Finance/how-to-configure-accounts-for-cash-flow-setup.md)   

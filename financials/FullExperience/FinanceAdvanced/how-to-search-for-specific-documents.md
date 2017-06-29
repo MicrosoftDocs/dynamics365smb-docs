@@ -50,7 +50,7 @@ You can choose the **Navigate** function from ledger entry windows and windows c
   
 1.  In the **Search** box, enter **Chart of Accounts**, and then choose the related link.  
   
-2.  In the **\($ N\_16 Chart of Accounts $\)** window, select the account to which the document you are looking for was posted.  
+2.  In the **Chart of Accounts** window, select the account to which the document you are looking for was posted.  
   
 3.  Choose the **Balance** field to see a list of the ledger entries that make up the balance.  
   
@@ -58,4 +58,4 @@ You can choose the **Navigate** function from ledger entry windows and windows c
   
 5.  On the **Actions**, in the **Process** group, choose **Navigate**. [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] counts the records, and then the **Navigate** window appears. This window displays a list of the types of entries found and the number of each type.  
   
-6.  Choose the desired type, **G\/L Entry**. On the **Home** tab, in the **Process** group, choose **Show** to see the individual entries. The **\($ N\_20 General Ledger Entries $\)** window appears. It displays only the entries with the date and document number shown in the **Navigate** window. By choosing the other entry types, you can see corresponding lists.
+6.  Choose the desired type, **G\/L Entry**. On the **Home** tab, in the **Process** group, choose **Show** to see the individual entries. The **General Ledger Entries** window appears. It displays only the entries with the date and document number shown in the **Navigate** window. By choosing the other entry types, you can see corresponding lists.

@@ -48,6 +48,6 @@ The **Response Time \(Hours\)** field is automatically filled in, depending on w
   
 ## See Also  
  [How to: Change Response Times for Service Item Lines](../Service/how-to-change-response-times-for-service-item-lines.md)   
- [\($ T\_5965\_55 Response Time \(Hours\) $\)](../Topic/\($%20T_5965_55%20Response%20Time%20\(Hours\)%20$\).md)   
- [\($ T\_5904\_6 Default Response Time \(Hours\) $\)](../Topic/\($%20T_5904_6%20Default%20Response%20Time%20\(Hours\)%20$\).md)   
- [\($ T\_5911\_45 Default Response Time \(Hours\) $\)](../Topic/\($%20T_5911_45%20Default%20Response%20Time%20\(Hours\)%20$\).md)
+ Response Time \(Hours\)%20$\).md)   
+ Default Response Time \(Hours\)%20$\).md)   
+ Default Response Time \(Hours\)%20$\).md)

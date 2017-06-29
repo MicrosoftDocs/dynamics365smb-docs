@@ -52,11 +52,11 @@ When materials have been issued, the actual production operations can start and 
   
 |**To**|**See**|  
 |------------|-------------|  
-|Print the job cards to be used by machine operators who will read work instructions and enter quantities for output posting.|[\($ R\_99000762 Prod. Order \- Job Card $\)](../Production/-$-r_99000762-prod.-order-job-card-$-.md)|  
+|Print the job cards to be used by machine operators who will read work instructions and enter quantities for output posting.|Prod. Order \- Job Card|  
 |Record and post production output along with material and time consumption, for a single released production order line.|[How to: Register Consumption and Output](../Production/how-to-register-consumption-and-output.md)|  
 |Post time spent per operation.|[How to: Post Run Times](../Production/how-to-post-run-times.md)|  
 |Specify the warehouse bin where production output is placed \- in warehouses without directed put\-away and pick.|[How to: Assign Bin Codes on Journal Lines](../Production/how-to-assign-bin-codes-on-journal-lines.md)|  
-|Batch post produced items and production order value entries for one or more released production orders.|[\($ N\_99000823 Output Journal $\)](../Production/-$-n_99000823-output-journal-$-.md)|  
+|Batch post produced items and production order value entries for one or more released production orders.|Output Journal|  
 |Post the number of items produced in each finished operation which do not qualify as finished output, but as scrapped material.|[How to: Post Scrap Manually](../Production/how-to-post-scrap-manually.md)|  
 |Automatically request that warehouse workers put away finished goods by creating the inbound request document when refreshing the inventory or warehouse pick document.|"Create Inbound Request Field" in [Refresh Production Order Batch Job](../Production/-$-b_99001025-refresh-production-order-$-.md)|  
 |Put away finished goods according to the warehouse setup.|[How to: Put Away Production Output](../Production/how-to-put-away-production-output.md)|  
@@ -68,4 +68,4 @@ When materials have been issued, the actual production operations can start and 
 ## See Also  
  [Put Items Away](../WarehouseActivities/put-items-away.md)   
  [Schedule Production Activities](../Production/schedule-production-activities.md)   
- [Working with \($ P\_1 Product Name $\)](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)
+ [Working with Product Name](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)

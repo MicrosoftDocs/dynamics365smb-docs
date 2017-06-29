@@ -31,7 +31,7 @@ The Payments Cartera module allows you to manage payables documents generated fr
   
  There are different criteria for grouping documents into a single payment order. You can group documents sent to the same vendor, documents that have the same due date, documents sent to the same address, and so on.  
   
- For more information, see [\($ T\_7000020 Payment Order $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-t_7000020-payment-order-$-.md).  
+ For more information, see Payment Order.  
   
  Use the Payments Cartera module to manage the following:  
   

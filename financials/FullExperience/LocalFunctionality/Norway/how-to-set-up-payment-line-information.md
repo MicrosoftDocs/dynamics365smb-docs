@@ -16,7 +16,7 @@ translation.priority.ht:
   - "nb-no"
 ---
 # How to: Set Up Payment Line Information
-Payment journal line information for the remittance payment is set up in the **\($ N\_15000001 Payment Info $\)** window.  
+Payment journal line information for the remittance payment is set up in the **Payment Info** window.  
   
 ### To set up payment line information  
   
@@ -24,23 +24,23 @@ Payment journal line information for the remittance payment is set up in the **\
   
 2.  On the **Navigate** tab, choose **Payment Info**.  
   
-3.  In the **\($ N\_15000001 Payment Info $\)** window, on the **General** FastTab, fill in the fields as described in the following table.  
+3.  In the **Payment Info** window, on the **General** FastTab, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_81\_15000000 Remittance Account Code $\)**|Select the remittance account code.|  
-    |**\($ T\_81 15000018 Remittance Agreement Code $\)**|Specify the agreement code assigned to the account code.|  
-    |**\($ T\_81\_15000016 Remittance Type $\)**|Specify the remittance type assigned to the account code. Remittance types include **Domestic** and **Foreign**.|  
+    |**Remittance Account Code**|Select the remittance account code.|  
+    |**Remittance Agreement Code**|Specify the agreement code assigned to the account code.|  
+    |**Remittance Type**|Specify the remittance type assigned to the account code. Remittance types include **Domestic** and **Foreign**.|  
   
 4.  On the **Domestic** FastTab, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**\($ T\_81\_15000004 Recipient Ref. 1 – 3 $\)**|Specify the payment text which is sent to the vendor.|  
-    |**\($ T\_81\_15000003 KID \(Cust. id number\) $\)**|Specify the number sent to the vendor during payment.|  
-    |**\($ T\_81\_15000041 Our Account. No. $\)**|Specify the account number for your company.|  
-    |**\($ T\_81\_77 External Document No. $\)**|Specify the number of the external document.|  
-    |**\($ T\_81\_15000002 Payment Type Code Domestic $\)**|Specify the payment type code that is assigned to the payment.|  
+    |**KID \(Cust. id number\)**|Specify the number sent to the vendor during payment.|  
+    |**Our Account. No.**|Specify the account number for your company.|  
+    |**External Document No.**|Specify the number of the external document.|  
+    |**Payment Type Code Domestic**|Specify the payment type code that is assigned to the payment.|  
   
     > [!NOTE]  
     >  The recipient reference and the KID number cannot be entered for the same payment. If the KID is used, this is the only information that the vendor receives.  
@@ -49,14 +49,14 @@ Payment journal line information for the remittance payment is set up in the **\
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_81\_15000013 Recipient Ref. Abroad $\)**|Specify the payment text that is sent to the vendor.|  
-    |**\($ T\_81\_15000014 Payment Type Code Abroad $\)**|Specify the payment type code that is assigned to the payment.|  
-    |**\($ T\_81\_15000012 Check $\)**|Specify whether a check must be issued.<br /><br /> \* <br />                        **No** \- No check is issued.<br /><br /> \* **Send to employer** \- Check is issued and sent to the employer.<br /><br /> \* **Send to beneficiary** \- Check is issued and sent to the beneficiary.|  
-    |**\($ T\_81\_15000007 Urgent $\)**|Select if the payment is urgent and should be treated as an urgent transfer.|  
-    |**\($ T\_81\_15000008 Agreed Exch. Rate $\)**|Specify the exchange rate which the bank agrees upon.|  
-    |**\($ T\_81\_15000009 Agreed With $\)**|Specify who the agreement is entered with, if an exchange rate is agreed upon.|  
-    |**\($ T\_81\_15000010 Futures Contract No. $\)**|Specify the future contract number that is used for this payment.|  
-    |**\($ T\_81\_15000011 Futures Contract Exch. Rate $\)**|Specify the future contract exchange rate that is used for this payment.|  
+    |**Recipient Ref. Abroad**|Specify the payment text that is sent to the vendor.|  
+    |**Payment Type Code Abroad**|Specify the payment type code that is assigned to the payment.|  
+    |**Check**|Specify whether a check must be issued.<br /><br /> \* <br />                        **No** \- No check is issued.<br /><br /> \* **Send to employer** \- Check is issued and sent to the employer.<br /><br /> \* **Send to beneficiary** \- Check is issued and sent to the beneficiary.|  
+    |**Urgent**|Select if the payment is urgent and should be treated as an urgent transfer.|  
+    |**Agreed Exch. Rate**|Specify the exchange rate which the bank agrees upon.|  
+    |**Agreed With**|Specify who the agreement is entered with, if an exchange rate is agreed upon.|  
+    |**Futures Contract No.**|Specify the future contract number that is used for this payment.|  
+    |**Futures Contract Exch. Rate**|Specify the future contract exchange rate that is used for this payment.|  
   
 6.  Choose the **OK** button.  
   

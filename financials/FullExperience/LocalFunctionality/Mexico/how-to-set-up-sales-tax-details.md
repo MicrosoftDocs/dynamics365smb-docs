@@ -61,8 +61,8 @@ The **Tax Details** window contains a matrix table that uses different combinati
  For customers with ship\-to addresses, you can select whether sales to each alternative address are tax liable, and you can enter a tax area code for each alternative address. This allows you to select the tax area that corresponds to the ship\-to location.  
   
 ## See Also  
- [\($ R\_10322 Sales Tax Detail by Area  $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-r_10322-sales-tax-detail-by-area-$-.md)   
- [\($ R\_10323 Sales Tax Detail List $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-r_10323-sales-tax-detail-list-$-.md)   
+ Sales Tax Detail by Area   
+ Sales Tax Detail List   
  [How to: Set Up Sales Tax](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-set-up-sales-tax.md)   
  [How to: Set Up Sales Tax Groups](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-set-up-sales-tax-groups.md)   
  [How to: Set Up Sales Tax Jurisdictions](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-set-up-sales-tax-jurisdictions.md)   

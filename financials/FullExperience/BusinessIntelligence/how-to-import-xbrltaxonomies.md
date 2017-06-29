@@ -50,7 +50,7 @@ The first step in working with the XBRL functionality is to import the taxonomy 
   
 1.  In the **Search** box, enter **XBRL Taxonomies**, and then choose the related link.  
   
-2.  In the **\($ N\_582 XBRL Taxonomies $\)** window, create a new line and enter the name and description of the taxonomy.  
+2.  In the **XBRL Taxonomies** window, create a new line and enter the name and description of the taxonomy.  
   
 3.  On the **Navigate** tab, in the **Taxonomy** group, choose **Schemas** and insert the description of the schema.  
   

@@ -17,7 +17,7 @@ translation.priority.ht:
   - "da-dk"
 ---
 # How to: Print VAT Reconciliation Reports
-In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can use the **\($ R\_13620 VAT Reconciliation $\)** report to view a list of general ledger accounts with their base amounts and VAT amounts. These amounts are grouped by VAT type to help with VAT settlement reconciliation.  
+In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can use the **VAT Reconciliation** report to view a list of general ledger accounts with their base amounts and VAT amounts. These amounts are grouped by VAT type to help with VAT settlement reconciliation.  
   
 ### To print a VAT reconciliation report  
   
@@ -36,5 +36,5 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can us
   
 ## See Also  
  [Denmark Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Denmark/denmark-local-functionality.md)   
- [\($ R\_33 Reconcile Cust and Vend Accs $\)](../Topic/\($%20R_33%20Reconcile%20Cust%20and%20Vend%20Accs%20$\).md)   
- [\($ R\_13620 VAT Reconciliation $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Denmark/-$-r_13620-vat-reconciliation-$-.md)
+ Reconcile Cust and Vend Accs   
+ VAT Reconciliation

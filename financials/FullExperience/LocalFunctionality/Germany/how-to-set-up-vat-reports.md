@@ -19,15 +19,15 @@ Information from various invoice types is used to feed data into the EU Sales Li
   
 1.  In the **Search** box, enter **VAT Report Setup**, and then choose the related link.  
   
-2.  On the **General** FastTab, select the **\($ T\_743\_3 Modify Submitted Reports $\)** check box to let users modify VAT reports that have been submitted to the tax authorities.  
+2.  On the **General** FastTab, select the **Modify Submitted Reports** check box to let users modify VAT reports that have been submitted to the tax authorities.  
   
      If the field is left blank, users must create a corrective VAT report instead.  
   
-3.  Select the **\($ T\_743\_11005 Export Cancellation Lines $\)** check box if you want to include information about cancellation lines when you export data for the VAT report of EU sales. For more information, see [How to: Correct VAT Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-correct-vat-reports.md).  
+3.  Select the **Export Cancellation Lines** check box if you want to include information about cancellation lines when you export data for the VAT report of EU sales. For more information, see [How to: Correct VAT Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-correct-vat-reports.md).  
   
 4.  On the **Numbering** FastTab, specify the number series that will be used for standard VAT reports. This will be the default numbering series that is used on any VAT Report that you then create.  
   
-     Depending on the requirements, you can use the same number series for all VAT reports, or separate number series for each type of VAT report. For more information, see [\($ T\_308 No. Series $\)](assetId:///18dc626f-cdf2-4bd9-b1ab-d98927ce4c3b).  
+     Depending on the requirements, you can use the same number series for all VAT reports, or separate number series for each type of VAT report. For more information, see No. Series.  
   
      For example, if your company uses separate number series for standard and corrective VAT reports, this number series is the default number series. Users can select a different number series in the **No.** field when they create corrective reports.  
   

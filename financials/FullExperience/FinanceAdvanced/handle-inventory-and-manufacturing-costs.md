@@ -52,19 +52,19 @@ Although much of the cost accounting functionality is expressed in underlying pr
   
 |**To**|**See**|  
 |------------|-------------|  
-|Initiate and view the ever\-changing cost of the item as it is being traded.|[\($ T\_27\_22 Unit Cost $\)](../Finance/-$-t_27_22-unit-cost-$-.md)|  
+|Initiate and view the ever\-changing cost of the item as it is being traded.|Unit Cost|  
 |Use functions in return orders to ensure that the cost on the original posted document lines is reversed when adding or removing the returned item in inventory.|[How to: Assign Exact Cost Reversing in Sales](../Finance/how-to-assign-exact-cost-reversing-in-sales.md)|  
-|Periodically or automatically update the unit cost of one or multiple items to forward any cost changes from inbound entries, such as those for purchases or production output, to the related outbound entries, such as consumption or transfers.|[\($ B\_795 Adjust Cost \- Item Entries $\)](../Finance/-$-b_795-adjust-cost-item-entries-$-.md)|  
+|Periodically or automatically update the unit cost of one or multiple items to forward any cost changes from inbound entries, such as those for purchases or production output, to the related outbound entries, such as consumption or transfers.|Adjust Cost \- Item Entries|  
 |Enter an item charge, such as a freight charge, on a purchase or sales document and add that charge to the unit cost of the related items.|[How to: Assign Item Charges to Purchase Documents](../Topic/How%20to:%20Assign%20Item%20Charges%20to%20Purchase%20Documents.md)|  
-|Get insight into average cost dynamics to make pricing decisions or to track cost fluctuations caused by data entry errors.|[\($ N\_5847 Average Cost Calc. Overview $\)](../Finance/-$-n_5847-average-cost-calc.-overview-$-.md)|  
-|Update the unit cost and unit price of multiple items, for example, to reflect a general price increase of 5%.|[\($ B\_794 Adjust Item Costs\-Prices $\)](../Finance/-$-b_794-adjust-item-costs-prices-$-.md)|  
+|Get insight into average cost dynamics to make pricing decisions or to track cost fluctuations caused by data entry errors.|Average Cost Calc. Overview|  
+|Update the unit cost and unit price of multiple items, for example, to reflect a general price increase of 5%.|Adjust Item Costs\-Prices|  
 |Create a manufacturing item's standard cost by entering the three cost elements: material cost, capacity cost, and subcontractor cost.|[About Calculating Standard Cost](../Finance/about-calculating-standard-cost.md)|  
-|Update the standard cost of multiple items and production BOMs.|[\($ B\_99001014 Update Unit Cost $\)](../Finance/-$-b_99001014-update-unit-cost-$-.md)|  
+|Update the standard cost of multiple items and production BOMs.|Update Unit Cost|  
 |Calculate the unit cost of a BOM item based on the unit costs of its underlying components.|[How to: Calculate the Standard Cost of Assembly BOMs](../Finance/how-to-calculate-the-standard-cost-of-assembly-boms.md)|  
 |Complete the costing life cycle of a produced item by adjusting the costs and reconciling the value entries with the general ledger.|[How to: Finish Production Orders](../Production/how-to-finish-production-orders.md)|  
 |Change the value of an item in inventory or the value of one item ledger entry, such as a purchase transaction.|[Inventory Revaluation](../DesignAndEngineering/inventory-revaluation.md)|  
 |Manually undo an item application or reapply item ledger entries created by the program.|[How to: Remove and Reapply Item Entries](../DesignAndEngineering/how-to-remove-and-reapply-item-entries.md)|  
-|Use the **\($ T\_83\_5807 Applies\-from Entry $\)** field in the item journal to manually create a fixed application between an inbound transaction and the original outbound transaction.|[How to: Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](../Finance/how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
+|Use the **Applies\-from Entry** field in the item journal to manually create a fixed application between an inbound transaction and the original outbound transaction.|[How to: Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](../Finance/how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
   
 ## See Also  
  [Set Up Inventory Valuation and Costing](../Finance/set-up-inventory-valuation-and-costing.md)   

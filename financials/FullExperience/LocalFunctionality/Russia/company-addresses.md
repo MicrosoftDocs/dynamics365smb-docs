@@ -16,11 +16,11 @@ translation.priority.ht:
   - "ru-ru"
 ---
 # Company Addresses
-If your company has different types of addresses, such as a legal address or an address for use with tax inspection, you must set up these addresses in the [\($ T\_12425 Company Address $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-t_12425-company-address-$-.md) table. At a minimum, you must specify your legal address.  
+If your company has different types of addresses, such as a legal address or an address for use with tax inspection, you must set up these addresses in the Company Address table. At a minimum, you must specify your legal address.  
   
 ## Types of Addresses  
  Some statutory reports require certain types of addresses, such as the address for tax inspection or the address for the pension fund that the company reports. You can define two or more of each type of address and use unique codes for each of them.  
   
 ## See Also  
- [\($ N\_1 Company Information $\)](assetId:///45c9cfb7-ca1f-4323-99cd-9360a5631648)   
+ Company Information   
  [Statutory Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/statutory-reports.md)

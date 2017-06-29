@@ -25,7 +25,7 @@ To use payment management, you must set up payment statuses to define payment do
   
 2.  Select a payment class, and then, on the **Home** tab, in the **Process** group, choose **Status**.  
   
-3.  In the **\($ N\_10865 Payment Status $\)** window, on the **Home** tab, choose **New**.  
+3.  In the **Payment Status** window, on the **Home** tab, choose **New**.  
   
 4.  Fill in the fields as described in the following table.  
   
@@ -33,7 +33,7 @@ To use payment management, you must set up payment statuses to define payment do
     |---------------------------------|---------------------------------------|  
     |**Name**|The payment status description.|  
     |**RIB**|Select to indicate that information about the Relevé d Identité Bancaire \(RIB\) statement for the customer or vendor must be displayed in the payment lines. The RIB information includes the bank branch number, agency code, bank account number, bank name, RIB key, and key verification.|  
-    |**Look**|Select to indicate that the payment document lines that have reached this payment status can be edited and viewed in the **\($ N\_10862 View\/Edit Payment Line $\)** window.<br /><br /> For more information, see [\($ N\_10862 View\-Edit Payment Line $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/-$-n_10862-view-edit-payment-line-$-.md).|  
+    |**Look**|Select to indicate that the payment document lines that have reached this payment status can be edited and viewed in the **View\/Edit Payment Line** window.<br /><br /> For more information, see View\-Edit Payment Line.|  
     |**ReportMenu**|Select to indicate that the documents that have reached this payment status can be printed.|  
     |**Amount**|Select to display the amount in the payment lines.|  
     |**Payment in Progress**|Select to indicate that all billing and payment lines with this status must be considered when calculating the payments in progress.|  
@@ -42,7 +42,7 @@ To use payment management, you must set up payment statuses to define payment do
 5.  Choose the **OK** button.  
   
 ## See Also  
- [\($ N\_10862 View\-Edit Payment Line $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/-$-n_10862-view-edit-payment-line-$-.md)   
+ View\-Edit Payment Line   
  [Payment Management](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/payment-management.md)   
  [How to: Set Up Payment Classes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-set-up-payment-classes.md)   
  [How to: Set Up Payment Steps](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-set-up-payment-steps.md)   

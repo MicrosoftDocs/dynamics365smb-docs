@@ -47,7 +47,7 @@ You can set up your transfer routes and assign a default in\-transit code, shipp
   
 ### To set up a transfer route  
   
-1.  In the **Search** box, enter **\($ N\_5747 Transfer Routes $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Transfer Routes**, and then choose the related link.  
   
 2.  In the **Transfer Routes** window, on the **Options** FastTab, specify which codes to show in the **Transfer Routes Matrix** window.  
   
@@ -58,7 +58,7 @@ You can set up your transfer routes and assign a default in\-transit code, shipp
 5.  In the **Trans. Route Spec.** window, fill in the **In\-Transit Code**, **Shipping Agent**, and **Shipping Agent Service** fields.  
   
 ## See Also  
- [\($ N\_5747 Transfer Routes $\)](../Topic/\($%20N_5747%20Transfer%20Routes%20$\).md)   
+ Transfer Routes   
  [How to: Set Up Transfer Routes](../DesignAndEngineering/how-to-set-up-transfer-routes.md)   
  [How to: Set Up In\-Transit Codes](../DesignAndEngineering/how-to-set-up-in-transit-codes.md)   
  [How to: Set Up Shipping Agents](../WarehouseActivities/how-to-set-up-shipping-agents.md)   

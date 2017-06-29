@@ -29,4 +29,4 @@ The method for the calculation of the consumption posting time is assigned to th
   
 ## See Also  
  [How to: Post Consumption Manually](../Production/how-to-post-consumption-manually.md)   
- [\($ T\_27\_5417 Flushing Method $\)](../Topic/\($%20T_27_5417%20Flushing%20Method%20$\).md)
+ Flushing Method

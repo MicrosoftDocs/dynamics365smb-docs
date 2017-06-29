@@ -26,6 +26,6 @@ If VAT is calculated, VAT summary information is typically printed on sales and 
 3.  To display VAT information in the report, select the **Always Show VAT Summary** check box.  
   
 ## See Also  
- [\($ R\_10941 VAT Balancing Report $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Iceland/-$-r_10941-vat-balancing-report-$-.md)   
+ VAT Balancing Report   
  [VAT Reporting and Settlement](../../Finance/vat-reporting-and-settlement.md)   
  [VAT and VIES Report Setup](../../Finance/vat-and-vies-report-setup.md)

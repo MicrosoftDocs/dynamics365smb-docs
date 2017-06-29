@@ -45,7 +45,7 @@ If your location uses directed put\-away and pick, and you need to move items to
   
 ### To register the movement of an item that has already occurred  
   
-1.  In the **Search** box, enter **\($ N\_7365 Whse. Reclassification Journal $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Whse. Reclassification Journal**, and then choose the related link.  
   
 2.  Fill in the **Item No.**, **From Zone Code**, **From Bin Code**, **To Zone Code**, and **To Bin Code** fields.  
   
@@ -55,6 +55,6 @@ If your location uses directed put\-away and pick, and you need to move items to
 >  In this journal, you cannot create a warehouse movement instruction.  
   
 ## See Also  
- [\($ N\_7365 Whse. Reclassification Journal $\)](../Topic/\($%20N_7365%20Whse.%20Reclassification%20Journal%20$\).md)   
- [\($ N\_7315 Warehouse Movement $\)](../Topic/\($%20N_7315%20Warehouse%20Movement%20$\).md)   
+ Whse. Reclassification Journal   
+ Warehouse Movement   
  [How to: Move Items in Advanced Warehousing](../WarehouseActivities/how-to-move-items-in-advanced-warehousing.md)

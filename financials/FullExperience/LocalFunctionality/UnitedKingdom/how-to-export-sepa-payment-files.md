@@ -17,9 +17,9 @@ The following procedure describes how to export a SEPA payment file, one of the 
   
  Before starting this procedure, you need to specify the following information on the vendor card:  
   
--   **\($ T\_23\_47 Payment Method Code $\)**: Bank  
+-   **Payment Method Code**: Bank  
   
--   **\($ T\_23\_288 Preferred Bank Account $\)**  
+-   **Preferred Bank Account**  
   
  In addition, you must specify IBAN and SWIFT Code information for the recipient bank.  
   
@@ -31,34 +31,34 @@ The following procedure describes how to export a SEPA payment file, one of the 
   
 3.  On the **Transfer** FastTab, fill in the following fields:  
   
-    -   **\($ T\_270\_111 SWIFT Code $\)**  
+    -   **SWIFT Code**  
   
-    -   **\($ T\_270\_110 IBAN $\)**  
+    -   **IBAN**  
   
-    -   **\($ T\_270\_1210 Payment Export Format $\)**: SEPA  
+    -   **Payment Export Format**: SEPA  
   
-    -   **\($ T\_270\_115 SEPA CT Msg. ID No. Series $\)**  
+    -   **SEPA CT Msg. ID No. Series**  
   
      Close the window.  
   
 4.  In the **Search** box, enter **Payment Journals**, and then choose the related link.  
   
-5.  Select a batch in the **Batch Name** field. In the **\($ N\_251 General Journal Batches $\)** window, for the batch, select the **\($ T\_232\_11 Allow Payment Export $\)** check box.  
+5.  Select a batch in the **Batch Name** field. In the **General Journal Batches** window, for the batch, select the **Allow Payment Export** check box.  
   
      Choose the **OK** button.  
   
-6.  In the **\($ N\_256 Payment Journal $\)** window, create a payment line.  
+6.  In the **Payment Journal** window, create a payment line.  
   
 7.  Fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_81\_7 Document No. $\)**|Specifies the document number for the journal line.|  
-    |**\($ T\_81\_3 Account Type $\)**|Select the account type as **Vendor**.|  
-    |**\($ T\_81\_4 Account No. $\)**|Specifies the code of the vendor that you selected in the **\($ N\_26 Vendor Card $\)** window.|  
-    |**\($ T\_81\_288 Recipient Bank Account $\)**|Specifies the bank account that you have set on the vendor card as the preferred bank.|  
-    |**\($ T\_81\_12 Currency Code $\)**|Specifies the currency code.|  
-    |**\($ T\_81\_13 Amount $\)**|Specifies the total amount including VAT.|  
+    |**Document No.**|Specifies the document number for the journal line.|  
+    |**Account Type**|Select the account type as **Vendor**.|  
+    |**Account No.**|Specifies the code of the vendor that you selected in the **Vendor Card** window.|  
+    |**Recipient Bank Account**|Specifies the bank account that you have set on the vendor card as the preferred bank.|  
+    |**Currency Code**|Specifies the currency code.|  
+    |**Amount**|Specifies the total amount including VAT.|  
   
 8.  On the **Home** tab, in the **Process** group, choose **Export Payments to File**.  
   

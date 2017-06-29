@@ -50,6 +50,6 @@ If you want to include a shipping time in the order promising calculation on the
 3.  On the **Shipping** FastTab, in the **Shipping Time** field, enter the shipping time you want to include in the order promising calculation for this customer.  
   
 ## See Also  
- [\($ N\_21 Customer Card $\)](../Topic/\($%20N_21%20Customer%20Card%20$\).md)   
+ Customer Card   
  [How to: Calculate Order Promising Dates](../Sales/how-to-calculate-order-promising-dates.md)   
  [About Order Promising](../Sales/about-order-promising.md)

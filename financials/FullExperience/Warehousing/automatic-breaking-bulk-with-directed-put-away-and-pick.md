@@ -70,7 +70,7 @@ For locations that use directed put\-away and pick, [!INCLUDE[navnow](../Applica
 > -   Set up your alternative units of measure for the item as multiples of the base unit of measure.  
   
 ## See Also  
- [\($ T\_14\_7308 Allow Breakbulk $\)](../Topic/\($%20T_14_7308%20Allow%20Breakbulk%20$\).md)   
+ Allow Breakbulk   
  [How to: Calculate Bin Replenishment](../WarehouseActivities/how-to-calculate-bin-replenishment.md)   
  [Design Details: Warehouse Management](../ApplicationDesign/design-details-warehouse-management.md)   
  [Perform Warehouse Activities](../WarehouseActivities/perform-warehouse-activities.md)

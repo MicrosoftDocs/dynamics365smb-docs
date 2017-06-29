@@ -27,7 +27,7 @@ A physical inventory order is a complete document that consists of a physical in
   
 ### To create a physical inventory order  
   
-1.  In the **Search** box, enter **\($ N\_5005350 Phys. Inventory Order $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Phys. Inventory Order**, and then choose the related link.  
   
 2.  On the **Home** tab, choose **New**.  
   
@@ -47,13 +47,13 @@ A physical inventory order is a complete document that consists of a physical in
   
 -   You can create new physical inventory order lines based on existing or posted physical inventory orders by using the copy function.  
   
- Both batch jobs will check if there is already a line with the same values in the following fields on a physical inventory order line: [\($ T\_5005351\_20 Item No. $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/-$-t_5005351_20-item-no.-$-.md), [\($ T\_5005351\_21 Variant Code $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/-$-t_5005351_21-variant-code-$-.md), [\($ T\_5005351\_22 Location Code $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/-$-t_5005351_22-location-code-$-.md), and [\($ T\_5005351\_23 Bin Code $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/-$-t_5005351_23-bin-code-$-.md). In this case the new line is not inserted automatically to avoid duplicate lines.  
+ Both batch jobs will check if there is already a line with the same values in the following fields on a physical inventory order line: Item No., Variant Code, Location Code, and Bin Code. In this case the new line is not inserted automatically to avoid duplicate lines.  
   
 ### To automatically add physical inventory order lines from inventory  
   
-1.  In the **\($ N\_5005350 Phys. Inventory Order $\)** window, on the **Actions** tab, in the **Functions** group, choose **Calculate Lines**.  
+1.  In the **Phys. Inventory Order** window, on the **Actions** tab, in the **Functions** group, choose **Calculate Lines**.  
   
-2.  In the **\($ B\_5005360 Calc. Phys. Invt. Order Lines $\)** window, on the **Options** FastTab, fill in the fields as described in the following table.  
+2.  In the **Calc. Phys. Invt. Order Lines** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
@@ -66,9 +66,9 @@ A physical inventory order is a complete document that consists of a physical in
   
 ### To automatically add physical inventory order lines by copying documents  
   
-1.  In the **\($ N\_5005350 Phys. Inventory Order $\)** window, on the **Actions** tab, in the **Functions** group, choose **Copy Document**.  
+1.  In the **Phys. Inventory Order** window, on the **Actions** tab, in the **Functions** group, choose **Copy Document**.  
   
-2.  In the **\($ B\_5005362 Copy Phys. Invt. Order $\)** window, on the **Options** FastTab, fill in the fields as described in the following table.  
+2.  In the **Copy Phys. Invt. Order** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
@@ -91,5 +91,5 @@ A physical inventory order is a complete document that consists of a physical in
  [How to: Create a Physical Inventory Recording](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-create-a-physical-inventory-recording.md)   
  [How to: Calculate Quantity On Hand for a Physical Inventory Order](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-calculate-quantity-on-hand-for-a-physical-inventory-order.md)   
  [How to: Post Physical Inventory Orders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-post-physical-inventory-orders.md)   
- [\($ B\_5005360 Calc. Phys. Invt. Order Lines $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/-$-b_5005360-calc.-phys.-invt.-order-lines-$-.md)   
- [\($ B\_5005362 Copy Phys. Invt. Order $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/-$-b_5005362-copy-phys.-invt.-order-$-.md)
+ Calc. Phys. Invt. Order Lines   
+ Copy Phys. Invt. Order

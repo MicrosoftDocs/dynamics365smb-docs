@@ -95,7 +95,7 @@ Use blanket orders when a customer has agreed to buy large quantities that are t
   
 -   After the sales order has been created for the total quantity of a blanket order line, no other sales order can be created for the same line. Users are prevented from entering a quantity in the **Qty. to Ship** field. If, however, additional quantities need to be added to a blanket order, the value in the **Quantity** field can be increased and additional orders can then be created.  
   
--   The invoiced blanket sales order remains in the system until it is deleted, either by deleting individual blanket orders or by running the **\($ B\_291 Delete Invoiced Blanket Sales Orders $\)** batch job.  
+-   The invoiced blanket sales order remains in the system until it is deleted, either by deleting individual blanket orders or by running the **Delete Invoiced Blanket Sales Orders** batch job.  
   
 -   If a customer is also recorded as a contact in the Marketing application area, and if you have specified an interaction template code for blanket sales order in the **Marketing Setup** window, an interaction is recorded in the Interaction Log Entry table when you select **Print** to print the blanket sales order.  
   
@@ -103,4 +103,4 @@ Use blanket orders when a customer has agreed to buy large quantities that are t
  [How to: Convert Blanket Sales Orders to Sales Orders](../Sales/how-to-convert-blanket-sales-orders-to-sales-orders.md)   
  [How to: View the Status of Blanket Sales Orders](../Sales/how-to-view-the-status-of-blanket-sales-orders.md)   
  [How to: View Unposted and Posted Blanket Sales Order Lines](../Sales/how-to-view-unposted-and-posted-blanket-sales-order-lines.md)   
- [\($ B\_291 Delete Invd Blnkt Sales Orders $\)](../SetupAndAdministration/-$-b_291-delete-invd-blnkt-sales-orders-$-.md)
+ Delete Invd Blnkt Sales Orders

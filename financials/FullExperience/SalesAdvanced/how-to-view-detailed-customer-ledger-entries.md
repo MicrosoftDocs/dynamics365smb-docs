@@ -39,7 +39,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: View Detailed Customer Ledger Entries
-All adjustments to a customer ledger entry, for example, payment discounts or changes in currency exchange rates, are shown in the **\($ N\_573 Detailed Cust. Ledg. Entry $\)** window.  
+All adjustments to a customer ledger entry, for example, payment discounts or changes in currency exchange rates, are shown in the **Detailed Cust. Ledg. Entry** window.  
   
 ### To view detailed customer ledger entries  
   
@@ -52,5 +52,5 @@ All adjustments to a customer ledger entry, for example, payment discounts or ch
 4.  On the **Navigate** tab, in the **Entry** group, choose **Detailed Ledger Entry**.  
   
 ## See Also  
- [\($ N\_25 Customer Ledger Entries $\)](../Topic/\($%20N_25%20Customer%20Ledger%20Entries%20$\).md)   
+ Customer Ledger Entries   
  [How to: View Applied Customer Ledger Entries from the Ledger Entry Window](../Finance/how-to-view-applied-customer-ledger-entries-from-the-ledger-entry-window.md)

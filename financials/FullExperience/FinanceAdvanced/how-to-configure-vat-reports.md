@@ -47,19 +47,19 @@ Before you can create VAT reports, you must specify which processes must be used
 ## VAT Report Configuration Codeunits  
  The VAT report configuration in [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] takes place in codeunits. At the center of the configuration is codeunit ID 740 that works as a mediator that can be called from different objects and pass data around without these objects knowing of each other.  
   
- In codeunit ID 740, you can specify which codeunits must run when users want to print or export a VAT report. By following a mediation design pattern, the **\($ N\_740 VAT Report $\)** window calls codeunit ID 740, and [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] then reads how to print or export. You can add additional functions in this codeunit, but the following table describes the preconfigured functions. For each function, you can specify one or more codeunits or reports to handle actual process.  
+ In codeunit ID 740, you can specify which codeunits must run when users want to print or export a VAT report. By following a mediation design pattern, the **VAT Report** window calls codeunit ID 740, and [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] then reads how to print or export. You can add additional functions in this codeunit, but the following table describes the preconfigured functions. For each function, you can specify one or more codeunits or reports to handle actual process.  
   
 |Function|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
 |--------------|---------------------------------------|  
-|**GetLines**|Specifies which process to run when a user wants to import VAT entries into the **\($ N\_740 VAT Report $\)** window.|  
-|**Export**|Specifies which process to run when a user wants to export a VAT report from the **\($ N\_740 VAT Report $\)** window in order to submit it to the tax authorities.|  
+|**GetLines**|Specifies which process to run when a user wants to import VAT entries into the **VAT Report** window.|  
+|**Export**|Specifies which process to run when a user wants to export a VAT report from the **VAT Report** window in order to submit it to the tax authorities.|  
 |**Release**|Specifies which process to run when a user has printed or exported a VAT report so that it must be marked as released.|  
 |**Reopen**|Specifies which process to run when a user wants to resubmit an existing VAT report in order to make a correction.|  
-|**Print**|Specifies which process to run when a user wants to print a VAT report from the **\($ N\_740 VAT Report $\)** window.<br /><br /> If you have multiple report formats, you can write a CASE statement to run the appropriate process depending on the user’s selection of menu item.|  
+|**Print**|Specifies which process to run when a user wants to print a VAT report from the **VAT Report** window.<br /><br /> If you have multiple report formats, you can write a CASE statement to run the appropriate process depending on the user’s selection of menu item.|  
   
- [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] comes with default values for each function, but you can change these to suit your needs. For example, if your company wants to submit a VAT report that is printed in a specific format or on specific paper, for example, then you can edit the **Print** function in codeunit 740 to point to a report object that you create. This way, you will not have to edit the **\($ N\_740 VAT Report $\)** window object to access your report because the menu item on the window always just calls codeunit 740 to run whatever the **Print** function specifies.  
+ [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] comes with default values for each function, but you can change these to suit your needs. For example, if your company wants to submit a VAT report that is printed in a specific format or on specific paper, for example, then you can edit the **Print** function in codeunit 740 to point to a report object that you create. This way, you will not have to edit the **VAT Report** window object to access your report because the menu item on the window always just calls codeunit 740 to run whatever the **Print** function specifies.  
   
- In the standard version of this codeunit, more functions exist to handle other pieces of functionality. For example, you can change the default implementation to print using a different report, or to accept other values for the [\($ T\_740\_2 VAT Report Config. Code $\)](assetId:///c0a1de7e-b69b-4b51-9a30-42c96d8cbfc6) field.  
+ In the standard version of this codeunit, more functions exist to handle other pieces of functionality. For example, you can change the default implementation to print using a different report, or to accept other values for the VAT Report Config. Code field.  
   
 #### To configure VAT reports  
   

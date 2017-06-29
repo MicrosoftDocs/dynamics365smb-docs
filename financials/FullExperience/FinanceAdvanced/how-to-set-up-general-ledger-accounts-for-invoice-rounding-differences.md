@@ -57,7 +57,7 @@ To use the automatic invoice rounding function, you must set up the general ledg
   
 5.  Fill in the **VAT Prod. Posting Group** field. You may want to set up a new group code that can be used for invoice rounding.  
   
- Now you can assign the invoice rounding account to posting groups in the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**[\($ N\_110 Customer Posting Groups $\)](DynamicsNAV:////runpage?Page=110)** window and the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**[\($ N\_111 Vendor Posting Groups $\)](DynamicsNAV:////runpage?Page=111)** window.  
+ Now you can assign the invoice rounding account to posting groups in the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**Customer Posting Groups** window and the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**Vendor Posting Groups** window.  
   
 ## See Also  
  [How to: Set Up Rounding Rules for the LCY](../Finance/how-to-set-up-rounding-rules-for-the-lcy.md)   

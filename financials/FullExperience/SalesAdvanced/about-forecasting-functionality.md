@@ -54,7 +54,7 @@ Forecasting functionality is used to create anticipated demand; actual demand is
 ## See Also  
  [How to: Run MPS and MRP](../OperationsPlanning/how-to-run-mps-and-mrp.md)   
  [How to: Create Production Orders from Sales Orders](../OperationsPlanning/how-to-create-production-orders-from-sales-orders.md)   
- [\($ N\_5522 Order Planning $\)](../Topic/\($%20N_5522%20Order%20Planning%20$\).md)   
+ Order Planning   
  [How to: Plan for New Demand](../OperationsPlanning/how-to-plan-for-new-demand.md)   
  [How to: Plan Project Orders](../OperationsPlanning/how-to-plan-project-orders.md)   
- [\($ N\_99000919 Production Forecast $\)\-duplicate](../Topic/\($%20N_99000919%20Production%20Forecast%20$\)-duplicate.md)
+ [Production Forecast\-duplicate](../Topic/\($%20N_99000919%20Production%20Forecast%20$\)-duplicate.md)

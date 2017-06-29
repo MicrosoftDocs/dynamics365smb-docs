@@ -44,7 +44,7 @@ translation.priority.ht:
 If item processing operations occur at your warehouse location, then you may have to move items between internal bins to respond to internal source documents, such as production, assembly, or service orders at the location.  
   
 > [!NOTE]  
->  For information about moving items between bins without source documents, see [\($ N\_7399 Internal Movement $\)](../Topic/\($%20N_7399%20Internal%20Movement%20$\).md).  
+>  For information about moving items between bins without source documents, see Internal Movement.  
   
  In advanced warehouse configurations, which are locations that use the **Directed Put\-away and Pick** setup field, you can use the **Movement Worksheet** window to move items between bins. For more information, see [How to: Move Items in Advanced Warehousing](../WarehouseActivities/how-to-move-items-in-advanced-warehousing.md).  
   
@@ -55,16 +55,16 @@ If item processing operations occur at your warehouse location, then you may hav
 -   With the **Inventory Pick** window.  
   
 > [!NOTE]  
->  Inventory picks also post negative item ledger entries as consumption and are only supported for production components. For more information, see the [\($ N\_7377 Inventory Pick $\)](../Topic/\($%20N_7377%20Inventory%20Pick%20$\).md) window.  
+>  Inventory picks also post negative item ledger entries as consumption and are only supported for production components. For more information, see the Inventory Pick window.  
   
- For detailed information about inventory movements, see the [\($ N\_7382 Inventory Movement $\)](../Topic/\($%20N_7382%20Inventory%20Movement%20$\).md) window.  
+ For detailed information about inventory movements, see the Inventory Movement window.  
   
  Two different roles can create the initial inventory movement. An assembly worker, for example, can create it from a released assembly order so that it shows up in the warehouse worker’s list of work to do. To create an inventory movement for assembly order lines that are ready to have components moved to their specified bins, the assembly worker uses the **Create Inventory Movement** function.  
   
  Alternatively, a warehouse worker can create it by pointing to the released assembly order in question. This is described in the following procedure.  
   
 > [!NOTE]  
->  If the movement is for an assembly order where the item is assembled to a sales order, then you can define that the inventory movement document is automatically created when you create the inventory pick document that takes the finished assembly item and posts the shipment. To set this up, select the **\($ T\_905\_130 Create Movements Automatically $\)** field in the **\($ N\_905 Assembly Setup $\)** window  
+>  If the movement is for an assembly order where the item is assembled to a sales order, then you can define that the inventory movement document is automatically created when you create the inventory pick document that takes the finished assembly item and posts the shipment. To set this up, select the **Create Movements Automatically** field in the **Assembly Setup** window  
 >   
 >  For more information about assembly orders and basic warehousing, see [Handling Assemble-to-Order Items in Inventory Picks](../Topic/\($%20N_7377%20Inventory%20Pick%20$\).md#BKMK_HandlingAssembletoOrderItemsinInventoryPicks).  
   
@@ -72,7 +72,7 @@ If item processing operations occur at your warehouse location, then you may hav
   
 ### To move components to an operation area in basic warehousing  
   
-1.  In the **Search** box, enter **\($ N\_7382 Inventory Movement $\)**, and choose the relevant link.  
+1.  In the **Search** box, enter **Inventory Movement**, and choose the relevant link.  
   
 2.  On the **General** FastTab, fill in the **No.** field. You can press the Enter key  to select from the number series.  
   
@@ -98,18 +98,18 @@ If item processing operations occur at your warehouse location, then you may hav
      Warehouse entries are created reflecting that the components now exist in the bins specified on the assembly order lines.  
   
     > [!NOTE]  
-    >  Unlike when you move components with an inventory pick, consumption is not posted when you register an inventory movement. That step must be performed separately by posting the assembly order output and consumption. For more information, see [\($ N\_900 Assembly Order $\)](../WarehouseActivities/-$-n_900-assembly-order-$-.md).  
+    >  Unlike when you move components with an inventory pick, consumption is not posted when you register an inventory movement. That step must be performed separately by posting the assembly order output and consumption. For more information, see Assembly Order.  
   
 ## See Also  
- [\($ N\_7382 Inventory Movement $\)](../Topic/\($%20N_7382%20Inventory%20Movement%20$\).md)   
- [\($ N\_905 Assembly Setup $\)](../Topic/\($%20N_905%20Assembly%20Setup%20$\).md)   
- [\($ T\_5407\_33 Bin Code $\)](../Topic/\($%20T_5407_33%20Bin%20Code%20$\).md)   
- [\($ T\_905\_130 Create Movements Automatically $\)](../Topic/\($%20T_905_130%20Create%20Movements%20Automatically%20$\).md)   
- [\($ T\_14\_7330 To\-Assembly Bin Code $\)](../Topic/\($%20T_14_7330%20To-Assembly%20Bin%20Code%20$\).md)   
- [\($ T\_5409\_7302 To\-Production Bin Code $\)](../Topic/\($%20T_5409_7302%20To-Production%20Bin%20Code%20$\).md)   
+ Inventory Movement   
+ Assembly Setup   
+ Bin Code   
+ Create Movements Automatically   
+ To\-Assembly Bin Code   
+ To\-Production Bin Code   
  [How to: Pick for Production in Basic Warehousing](../WarehouseActivities/how-to-pick-for-production-in-basic-warehousing.md)   
- [\($ N\_7377 Inventory Pick $\)](../Topic/\($%20N_7377%20Inventory%20Pick%20$\).md)   
- [\($ N\_7399 Internal Movement $\)](../Topic/\($%20N_7399%20Internal%20Movement%20$\).md)   
- [\($ N\_7315 Warehouse Movement $\)](../Topic/\($%20N_7315%20Warehouse%20Movement%20$\).md)   
- [\($ N\_900 Assembly Order $\)](../WarehouseActivities/-$-n_900-assembly-order-$-.md)   
+ Inventory Pick   
+ Internal Movement   
+ Warehouse Movement   
+ Assembly Order   
  [How to: Move Items in Advanced Warehousing](../WarehouseActivities/how-to-move-items-in-advanced-warehousing.md)

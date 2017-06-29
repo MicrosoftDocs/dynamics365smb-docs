@@ -18,7 +18,7 @@ translation.priority.ht:
   - "en-au"
 ---
 # How to: Compare Bank Cash Flow
-You can use the **\($ R\_28020 Bank Detail Cashflow Compare $\)** report to compare the flow of cash in a particular bank for a specified period.  
+You can use the **Bank Detail Cashflow Compare** report to compare the flow of cash in a particular bank for a specified period.  
   
  The report displays the following details:  
   
@@ -38,7 +38,7 @@ You can use the **\($ R\_28020 Bank Detail Cashflow Compare $\)** report to comp
   
 ### To compare bank cash flow  
   
-1.  In the **Search** box, enter **\($ R\_28020 Bank Detail Cashflow Compare $\)**, and then choose the relevant link.  
+1.  In the **Search** box, enter **Bank Detail Cashflow Compare**, and then choose the relevant link.  
   
 2.  On the **[!INCLUDE[bp_optionsheading](../../DesignAndEngineering/includes/bp_optionsheading_md.md)]** FastTab, fill in the fields as described in the following table.  
   

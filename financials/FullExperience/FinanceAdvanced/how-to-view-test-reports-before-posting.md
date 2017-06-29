@@ -62,4 +62,4 @@ When you are ready to post a document, such as an order, invoice, or a credit me
  [How to: Post Purchase Invoices](../Finance/how-to-post-purchase-invoices.md)   
  [How to: Post Purchase Invoices](../Finance/how-to-post-purchase-invoices.md)   
  [How to: Post Purchase Credit Memos](../Finance/how-to-post-purchase-credit-memos.md)   
- [\($ R\_402 Purchase Document \- Test $\)](../Topic/\($%20R_402%20Purchase%20Document%20-%20Test%20$\).md)
+ Purchase Document \- Test

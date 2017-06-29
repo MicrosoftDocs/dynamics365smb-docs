@@ -17,7 +17,7 @@ translation.priority.ht:
   - "en-au"
 ---
 # How to: Print Goods and Service Tax Settlement Reports
-You must submit a periodic report of goods and services tax \(GST\) settlement. You can create this settlement from the **\($ N\_11603 BAS Calc. Schedule List $\)** window.  
+You must submit a periodic report of goods and services tax \(GST\) settlement. You can create this settlement from the **BAS Calc. Schedule List** window.  
   
 > [!IMPORTANT]  
 >  Before you calculate the GST settlement, you must export the business activity statement \(BAS\). For more information, see [How to: Export Business Activity Statements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-export-business-activity-statements.md).  

@@ -24,7 +24,7 @@ Companies must pay VAT for most purchased goods and services. VAT can be deducte
   
 1.  In the **Search** box, enter **VAT Statements**, and then choose the related link.  
   
-2.  In the **\($ N\_317 VAT Statement $\)** window, in the **\($ T\_256\_2 Name $\)** field, select the required VAT statement, and then, on the **Home** tab, in the **Process** group, choose **Print**.  
+2.  In the **VAT Statement** window, in the **Name** field, select the required VAT statement, and then, on the **Home** tab, in the **Process** group, choose **Print**.  
   
 3.  On the **Options** FastTab, enter a date interval to limit the period covered by the statement and define what type of VAT entries that you want to include.  
   
@@ -34,7 +34,7 @@ Companies must pay VAT for most purchased goods and services. VAT can be deducte
   
 ### To settle and post VAT transactions  
   
-1.  In the **Search** box, enter **\($ B\_20 Calc. and Post VAT Settlement $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Calc. and Post VAT Settlement**, and then choose the related link.  
   
 2.  On the **Options** FastTab, enter a date interval to limit the period covered by the VAT settlement, select the correct VAT settlement account, and then select **Post** if you want to post the VAT amounts to the settlement account.  
   
@@ -46,7 +46,7 @@ Companies must pay VAT for most purchased goods and services. VAT can be deducte
   
 1.  In the **Search** box, enter **VAT Statements**, and then choose the related link.  
   
-2.  In the **\($ N\_317 VAT Statement $\)** window, in the **\($ T\_256\_2 Name $\)** field, select the required VAT statement, and then, on the **Home** tab, in the **Process** group, choose **Print**, and then choose **PDF**.  
+2.  In the **VAT Statement** window, in the **Name** field, select the required VAT statement, and then, on the **Home** tab, in the **Process** group, choose **Print**, and then choose **PDF**.  
   
  The exported file can now be submitted to the tax authorities.  
   
@@ -54,5 +54,5 @@ Companies must pay VAT for most purchased goods and services. VAT can be deducte
  [Set Up VAT](../../Finance/set-up-vat.md)   
  [How to: Record VAT](../../Finance/how-to-record-vat.md)   
  [How to: Define VAT Statements](../../Finance/how-to-define-vat-statements.md)   
- [\($ N\_12100 VAT Exemptions $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/-$-n_12100-vat-exemptions-$-.md)   
- [\($ B\_20 Calc. and Post VAT Settlement $\)](../Topic/\($%20B_20%20Calc.%20and%20Post%20VAT%20Settlement%20$\).md)
+ VAT Exemptions   
+ Calc. and Post VAT Settlement

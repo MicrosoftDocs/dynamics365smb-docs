@@ -24,18 +24,18 @@ You must submit a periodic report of transactions with customers and vendors in 
   
 -   Sales of goods or services  
   
- On a monthly or quarterly basis, you must generate the blacklist communication report for transactions with countries\/regions that have privileged taxation and send it to the Italian Revenue Agency. The Italian Revenue Agency decides which countries\/regions are included on the blacklist. You can view or change countries\/regions on the blacklist by using the **\($ N\_10 Countries\/Regions $\)** window. The periodic report includes only transactions that have an amount above a certain threshold. The threshold amount calculation is applied at the document level. For more information, see the [Italian Revenue Agency](http://go.microsoft.com/fwlink/?LinkId=396483).  
+ On a monthly or quarterly basis, you must generate the blacklist communication report for transactions with countries\/regions that have privileged taxation and send it to the Italian Revenue Agency. The Italian Revenue Agency decides which countries\/regions are included on the blacklist. You can view or change countries\/regions on the blacklist by using the **Countries\/Regions** window. The periodic report includes only transactions that have an amount above a certain threshold. The threshold amount calculation is applied at the document level. For more information, see the [Italian Revenue Agency](http://go.microsoft.com/fwlink/?LinkId=396483).  
   
  Before you can submit the periodic report, you must set up [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)].  
   
 ### To update the relevant countries\/regions  
   
-1.  In the **Search** box, enter **\($ N\_10 Countries\/Regions $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Countries\/Regions**, and then choose the related link.  
   
-2.  Choose the relevant country\/region, and then select the **\($ T\_9\_12101 Blacklisted $\)** field.  
+2.  Choose the relevant country\/region, and then select the **Blacklisted** field.  
   
     > [!NOTE]  
-    >  You may not be able to see the **\($ T\_9\_12101 Blacklisted $\)** field. In that case, you must add it to the view.  
+    >  You may not be able to see the **Blacklisted** field. In that case, you must add it to the view.  
   
 3.  Enter the **Foreign Country\/Region Code** for the blacklisted country\/region.  
   
@@ -43,30 +43,30 @@ You must submit a periodic report of transactions with customers and vendors in 
   
 ### To specify the current threshold amount  
   
-1.  In the **Search** box, enter **\($ N\_472 VAT Posting Setup $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **VAT Posting Setup**, and then choose the related link.  
   
-2.  In the **\($ N\_472 VAT Posting Setup $\)** window, on the **Navigate** tab, in the **Setup** group, choose **Blacklist Comm. Amount**.  
+2.  In the **VAT Posting Setup** window, on the **Navigate** tab, in the **Setup** group, choose **Blacklist Comm. Amount**.  
   
-3.  In the **\($ N\_12191 Blacklist Comm. Amounts $\)** window, fill in the fields as described in the following table.  
+3.  In the **Blacklist Comm. Amounts** window, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_12194\_1 Start Date $\)**|Specifies the start date for the threshold amounts. Transactions that are posted on or after this date are included in the calculations for the blacklist communication report.|  
-    |**\($ T\_12194\_2 Threshold Amount $\)**|Specifies the minimum invoice base amount, per document, that will be included in the blacklist communication report. This amount is determined by the requirements from the tax authorities. The date used for the threshold reporting is the end date of the Blacklist reporting period.|  
+    |**Start Date**|Specifies the start date for the threshold amounts. Transactions that are posted on or after this date are included in the calculations for the blacklist communication report.|  
+    |**Threshold Amount**|Specifies the minimum invoice base amount, per document, that will be included in the blacklist communication report. This amount is determined by the requirements from the tax authorities. The date used for the threshold reporting is the end date of the Blacklist reporting period.|  
   
  For the current threshold amount, see the [Italian Revenue Agency](http://go.microsoft.com/fwlink/?LinkID=206524).  
   
 ### To specify a vendor as the customs authority vendor  
   
-1.  In the **Search** box, enter **\($ N\_12132 Customs Authority Vendors $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Customs Authority Vendors**, and then choose the related link.  
   
-2.  In the **\($ T\_12122\_1 Vendor No. $\)** field, select the relevant vendor.  
+2.  In the **Vendor No.** field, select the relevant vendor.  
   
-     For more information, see [\($ N\_12132 Customs Authority Vendors $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/-$-n_12132-customs-authority-vendors-$-.md) window.  
+     For more information, see Customs Authority Vendors window.  
   
 ### To set up and view the Blacklist statement template  
   
-1.  In the **Search** box, enter **\($ N\_318 VAT Statement Templates $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **VAT Statement Templates**, and then choose the related link.  
   
 2.  From the list, choose **Blacklist**.  
   
@@ -74,11 +74,11 @@ You must submit a periodic report of transactions with customers and vendors in 
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_255\_1 Name $\)**|Specifies the name of the template, **Blacklist**.|  
-    |**\($ T\_255\_2 Description $\)**|Specifies a description of the template, Blacklist Communication.|  
-    |**\($ T\_255\_6 Form ID $\)**|Specifies the window where you set up the list of transactions for the blacklist communication, **12110**.|  
-    |**\($ T\_255\_7 VAT Statement Report ID $\)**|Specifies the report that prints the list of transactions for the blacklist communication, **12128**.|  
-    |**\($ T\_255\_12100 VAT Stat. Export Report ID $\)**|Specifies the report that exports the list of transactions for the blacklist communication, **12129**.|  
+    |**Name**|Specifies the name of the template, **Blacklist**.|  
+    |**Description**|Specifies a description of the template, Blacklist Communication.|  
+    |**Form ID**|Specifies the window where you set up the list of transactions for the blacklist communication, **12110**.|  
+    |**VAT Statement Report ID**|Specifies the report that prints the list of transactions for the blacklist communication, **12128**.|  
+    |**VAT Stat. Export Report ID**|Specifies the report that exports the list of transactions for the blacklist communication, **12129**.|  
   
 3.  Optional. Select the VAT Statement template, and on the **Navigate** tab, choose **Statement Names**. You can provide the template with a name and description. Otherwise, the template will have the name Default when you access it in the **Blacklist Communication** window.  
   
@@ -118,7 +118,7 @@ You must submit a periodic report of transactions with customers and vendors in 
   
 #### To create and print the list of transactions  
   
-1.  In the **Search** box, enter **\($ N\_12110 Blacklist Communication $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Blacklist Communication**, and then choose the related link.  
   
 2.  In the **Name** field, select the relevant VAT statement name.  
   
@@ -148,13 +148,13 @@ You must submit a periodic report of transactions with customers and vendors in 
   
 #### To preview and export the list of transactions  
   
-1.  In the **Search** box, enter **\($ N\_12110 Blacklist Communication $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Blacklist Communication**, and then choose the related link.  
   
 2.  In the **Name** field, select the relevant VAT statement name.  
   
 3.  Fill in the lines with the relevant information. See the procedure for setting up the Blacklist template.  
   
-4.  On the **Navigate** tab, choose **Preview**. You can review the information to make sure that your mappings have provided you with the information that you expected. For more information, see [\($ N\_12138 Blacklisted Comm. Preview $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/-$-n_12138-blacklisted-comm.-preview-$-.md) window. Choose the **OK** button to close the window  
+4.  On the **Navigate** tab, choose **Preview**. You can review the information to make sure that your mappings have provided you with the information that you expected. For more information, see Blacklisted Comm. Preview window. Choose the **OK** button to close the window  
   
 5.  On the **Actions** tab, choose **Export**.  
   
@@ -180,9 +180,9 @@ You must submit a periodic report of transactions with customers and vendors in 
  You can now submit the list of transactions to the Italian Revenue Agency. If you have more than 1500 records, multiple files will be exported.  
   
 ## See Also  
- [\($ R\_12128 Blacklist Communication Report $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/-$-r_12128-blacklist-communication-report-$-.md)   
- [\($ N\_12110 Blacklist Communication $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/-$-n_12110-blacklist-communication-$-.md)   
- [\($ N\_12132 Customs Authority Vendors $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/-$-n_12132-customs-authority-vendors-$-.md)   
- [\($ N\_472 VAT Posting Setup $\)](assetId:///a96dd9fe-bfcb-46d8-874f-1046a0dcc1f7)   
- [\($ N\_10 Countries\/Regions $\)](assetId:///bf41e72c-c814-4b75-8364-efb0136882a4)   
+ Blacklist Communication Report   
+ Blacklist Communication   
+ Customs Authority Vendors   
+ VAT Posting Setup   
+ Countries\/Regions   
  [Italian VAT](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/italian-vat.md)

@@ -55,7 +55,7 @@ You must take a physical inventory, that is, count the actual items on hand, to 
   
 ### To calculate the expected inventory  
   
-1.  In the **Search** box, enter **\($ N\_392 Phys. Inventory Journal $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Phys. Inventory Journal**, and then choose the related link.  
   
 2.  On the **Actions** tab, in the **Functions** group, choose **Calculate Inventory**.  
   
@@ -70,11 +70,11 @@ You must take a physical inventory, that is, count the actual items on hand, to 
   
 ### To print the report used when counting  
   
-1.  In the  **\($ N\_392 Phys. Inventory Journal $\)** window containing the calculated expected inventory, on the **Actions** tab, in the **General** group, choose **Print**.  
+1.  In the  **Phys. Inventory Journal** window containing the calculated expected inventory, on the **Actions** tab, in the **General** group, choose **Print**.  
   
 2.  In the **Phys. Inventory List** window, on the **Options** FastTab, specify if the report should show the calculated quantity and if the report should list inventory items by serial\/lot numbers.  
   
-     For more information, see [\($ N\_392 Phys. Inventory Journal $\)](../Topic/\($%20N_392%20Phys.%20Inventory%20Journal%20$\).md).  
+     For more information, see Phys. Inventory Journal.  
   
 3.  On the **Item Journal Batch** FastTab, set filters if you only want to print the report for certain items, bins, locations, or dimensions.  
   
@@ -84,14 +84,14 @@ You must take a physical inventory, that is, count the actual items on hand, to 
   
 ### To enter and post the actual counted inventory  
   
-1.  In the **Search** box, enter **\($ N\_392 Phys. Inventory Journal $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Phys. Inventory Journal**, and then choose the related link.  
   
 2.  On each line where the actual inventory on hand, as determined by the physical count, differs from the calculated quantity, enter the actual inventory on hand in the **Qty. \(Phys. Inventory\)** field.  
   
      The related fields are updated accordingly.  
   
     > [!NOTE]  
-    >  If the physical count reveals differences that are caused by items posted with incorrect location codes, do not enter the differences in the physical inventory journal. Instead, use the reclassification journal or a transfer order to redirect the items to the correct locations. For more information, see [\($ N\_393 Item Reclass. Journal $\)](../WarehouseActivities/-$-n_393-item-reclass.-journal-$-.md) or [How to: Create Transfer Orders](../DesignAndEngineering/how-to-create-transfer-orders.md).  
+    >  If the physical count reveals differences that are caused by items posted with incorrect location codes, do not enter the differences in the physical inventory journal. Instead, use the reclassification journal or a transfer order to redirect the items to the correct locations. For more information, see Item Reclass. Journal or [How to: Create Transfer Orders](../DesignAndEngineering/how-to-create-transfer-orders.md).  
   
 3.  To adjust the calculated quantities to the actual counted quantities, on the **Actions** tab, in the **Posting** group, choose **Post**.  
   
@@ -102,6 +102,6 @@ You must take a physical inventory, that is, count the actual items on hand, to 
 5.  Open the item card in question, and then, on the **Navigate** tab, in the **Item** group, choose **Phys. Inventory ledger Entries**.  
   
 ## See Also  
- [\($ N\_392 Phys. Inventory Journal $\)](../Topic/\($%20N_392%20Phys.%20Inventory%20Journal%20$\).md)   
+ Phys. Inventory Journal   
  [How to: Perform Warehouse Physical Inventories](../WarehouseActivities/how-to-perform-warehouse-physical-inventories.md)   
  [Design Details: Integration with Inventory](../ApplicationDesign/design-details-integration-with-inventory.md)

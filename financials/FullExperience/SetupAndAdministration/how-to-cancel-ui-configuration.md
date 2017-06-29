@@ -41,7 +41,7 @@ You can cancel UI customizations that you have made as configuration for a profi
   
 -   Cancel all UI customization that you have made for a profile by using the **Clear Configured Pages** button in the **Profile Card** window.  
   
--   Cancel UI customization that you have made for specific pages for a profile by deleting rows in the **\($ N\_9190 Delete Profile Configuration $\)** window.  
+-   Cancel UI customization that you have made for specific pages for a profile by deleting rows in the **Delete Profile Configuration** window.  
   
 -   Cancel UI customization that you have made for a specific UI area for a specific page for a profile by using the **Restore Defaults** button in the **Customize** window.  
   
@@ -51,7 +51,7 @@ You can cancel UI customizations that you have made as configuration for a profi
 >  The only situation where UI configuration does overwrite UI personalization is when a UI element is removed by configuration. For example, if the administrator removes a field that the user has renamed or moved, then the field is still removed from the user’s UI.  
   
 > [!NOTE]  
->  In the **\($ N\_9191 Delete User Personalization $\)** window and with the **Restore Defaults** button in the **Customize** window, users can cancel UI customization that they have made to pages under their own user logon. When they do so, the layout of those pages is reset to any UI customization that the administrator has configured for the profile. If the profile has not been configured, then the layout of the user’s pages is reset to the profile configuration that was installed with [!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)]. For more information, see [How to: Cancel UI Personalization](../SetupAndAdministration/how-to-cancel-ui-personalization.md).  
+>  In the **Delete User Personalization** window and with the **Restore Defaults** button in the **Customize** window, users can cancel UI customization that they have made to pages under their own user logon. When they do so, the layout of those pages is reset to any UI customization that the administrator has configured for the profile. If the profile has not been configured, then the layout of the user’s pages is reset to the profile configuration that was installed with [!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)]. For more information, see [How to: Cancel UI Personalization](../SetupAndAdministration/how-to-cancel-ui-personalization.md).  
   
 ### To cancel all UI customization that you have made for a profile  
   
@@ -78,16 +78,16 @@ You can cancel UI customizations that you have made as configuration for a profi
   
 ### To cancel UI customization that you have made for a specific UI area for a specific page for a profile  
   
-1.  You can undo changes for that you have made to individual UI areas, such as a ribbon, by using the **Restore Defaults** button in the **Customize** window. Alternatively, you can undo all UI changes that you have made for a profile by using the **\($ N\_9190 Delete Profile Configuration $\)** window.  
+1.  You can undo changes for that you have made to individual UI areas, such as a ribbon, by using the **Restore Defaults** button in the **Customize** window. Alternatively, you can undo all UI changes that you have made for a profile by using the **Delete Profile Configuration** window.  
   
  The UI customization for the profile of the particular UI area on the particular page is canceled. The layout of the UI area on the page is reset to the default configuration, as made either by the administrator or as installed with [!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)].  
   
 ## See Also  
  [Configure the User Interface](../SetupAndAdministration/configure-the-user-interface.md)   
- [\($ S\_PERSONALIZATION Personalize the User Interface $\)](../SetupAndAdministration/-$-s_personalization-personalize-the-user-interface-$-.md)   
- [\($ N\_9190 Delete Profile Configuration $\)](../Topic/\($%20N_9190%20Delete%20Profile%20Configuration%20$\).md)   
+ PERSONALIZATION Personalize the User Interface   
+ Delete Profile Configuration   
  [How to: Cancel UI Personalization](../SetupAndAdministration/how-to-cancel-ui-personalization.md)   
- [\($ N\_9191 Delete User Personalization $\)](../Topic/\($%20N_9191%20Delete%20User%20Personalization%20$\).md)   
+ Delete User Personalization   
  [How to: Disable Personalization](../SetupAndAdministration/how-to-disable-personalization.md)   
  [Customize the User Interface](../SetupAndAdministration/customize-the-user-interface.md)   
  [Manage Profiles](../SetupAndAdministration/manage-profiles.md)

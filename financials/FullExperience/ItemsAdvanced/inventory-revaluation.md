@@ -55,12 +55,12 @@ The inventory value of an item can change over time, for example, as a result of
 ## The Revaluation Journal  
  In order to use the revaluation journal, you must consider the extent of the revaluation. There are two ways of filling in the journal with information about the current, calculated value of the specified item:  
   
--   You can [enter a line manually](../DesignAndEngineering/how-to-fill-in-revaluation-journals-manually.md) and link it to an item ledger entry in the **\($ T\_32\_28 Applies\-to Entry $\)** field. This will change the inventory value of all units of this item ledger entry. It will also change the inventory value of the units that are applied to this item ledger entry, regardless of their posting date.  
+-   You can [enter a line manually](../DesignAndEngineering/how-to-fill-in-revaluation-journals-manually.md) and link it to an item ledger entry in the **Applies\-to Entry** field. This will change the inventory value of all units of this item ledger entry. It will also change the inventory value of the units that are applied to this item ledger entry, regardless of their posting date.  
   
 -   You can fill in the journal by using the [Calculate Inventory Value batch job](../DesignAndEngineering/how-to-fill-in-the-revaluation-journal-with-the-batch-job.md). This method allows you to specify exactly how the revaluation will change the inventory value of an item or item ledger entry. The revaluation will be valid for entries relating to this item or item ledger entry from the posting date of the revaluation journal.  
   
 ## See Also  
- [\($ T\_32\_28 Applies\-to Entry $\)](../Topic/\($%20T_32_28%20Applies-to%20Entry%20$\).md)   
+ Applies\-to Entry   
  [How to: Fill In the Revaluation Journal with the Batch Job](../DesignAndEngineering/how-to-fill-in-the-revaluation-journal-with-the-batch-job.md)   
  [Design Details: Expected Cost Posting](../ApplicationDesign/design-details-expected-cost-posting.md)   
  [How to: Fill In Revaluation Journals Manually](../DesignAndEngineering/how-to-fill-in-revaluation-journals-manually.md)   

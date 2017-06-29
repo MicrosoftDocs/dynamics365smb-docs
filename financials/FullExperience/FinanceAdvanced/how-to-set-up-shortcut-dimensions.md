@@ -50,7 +50,7 @@ You can choose up to eight dimensions whose values that you can enter directly o
   
 1.  In the **Search** box, enter **General Ledger Setup**, and then choose the related link.  
   
-2.  In the **\($ N\_118 General Ledger Setup $\)** window, on the **Dimensions** FastTab, in the **Shortcut Dimension 3 Code** field, enter the code for a dimension.  
+2.  In the **General Ledger Setup** window, on the **Dimensions** FastTab, in the **Shortcut Dimension 3 Code** field, enter the code for a dimension.  
   
 3.  Repeat the procedure for **Shortcut Dimension 4\-8 Code** fields.  
   
@@ -62,5 +62,5 @@ You can choose up to eight dimensions whose values that you can enter directly o
   
 ## See Also  
  [How to: Set Up Global Dimensions](../Finance/how-to-set-up-global-dimensions.md)   
- [\($ T\_352 Default Dimension $\)](assetId:///bd021a4a-f67d-44ca-9e6a-4b54cf91e710)   
- [\($ T\_348 Dimension $\)](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)
+ Default Dimension   
+ Dimension

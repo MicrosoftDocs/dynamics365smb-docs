@@ -93,7 +93,7 @@ The terms "running the planning worksheet" or "running MRP" refer to the calcula
     |**Stop and Show First Error**|Select if you want the planning run to stop as soon as it encounters an error. At the same time, a message is displayed with information about the first error. If an error exists, only the successful planning lines made before the error was encountered will be presented in the planning worksheet. If you do not select this field, the **Calculate Plan** batch job will continue until it has completed, that is, errors will not interrupt the batch job. If one or more errors exist, a message will display after completion with information about how many items are affected. The **Planning Error Log** window will then open to provide more details about the error and links to the affected item cards.|  
     |**Use Forecast**|Select a forecast that should be included as demand when you run the planning batch job. The default forecast is set up on the **Planning** FastTab in the **Manufacturing Setup** window.|  
     |**Exclude Forecast Before**|Define how much of the selected forecast to include in the planning run by entering a date before which forecast demand is not included, thus allowing you to exclude old information.|  
-    |**Respect Planning Parameters for Exception Warnings**|By default, this field is selected.<br /><br /> Supply on planning lines with warnings is normally not modified according to planning parameters. Instead, the planning system only suggests a supply to cover the exact demand quantity. However, you can define certain planning parameters for planning lines to be respected with certain warnings.<br /><br /> For more information, see [\($ B\_99001017 Calculate Plan \- Plan. Wksh. $\)](../Topic/\($%20B_99001017%20Calculate%20Plan%20-%20Plan.%20Wksh.%20$\).md).|  
+    |**Respect Planning Parameters for Exception Warnings**|By default, this field is selected.<br /><br /> Supply on planning lines with warnings is normally not modified according to planning parameters. Instead, the planning system only suggests a supply to cover the exact demand quantity. However, you can define certain planning parameters for planning lines to be respected with certain warnings.<br /><br /> For more information, see Calculate Plan \- Plan. Wksh..|  
   
 4.  On the **Item** FastTab, set filters to run the planning based on item, item description, or location.  
   
@@ -145,7 +145,7 @@ The terms "running the planning worksheet" or "running MRP" refer to the calcula
 ## See Also  
  [Design Details: Supply Planning](../ApplicationDesign/design-details-supply-planning.md)   
  [How to: Register New Products](../DesignAndEngineering/how-to-register-new-products.md)   
- [\($ B\_99001023 Get Action Messages $\)](../Topic/\($%20B_99001023%20Get%20Action%20Messages%20$\).md)   
+ Get Action Messages   
  [How to: Create Production BOMs](../DesignAndEngineering/how-to-create-production-boms.md)   
  [How to: Create Routings](../DesignAndEngineering/how-to-create-routings.md)   
  [How to: Plan for New Demand](../OperationsPlanning/how-to-plan-for-new-demand.md)   

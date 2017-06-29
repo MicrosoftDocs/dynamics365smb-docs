@@ -49,7 +49,7 @@ To avoid posting entries with contradictory or irrelevant dimensions, you can bl
   
 1.  In the **Search** box, enter **Dimension Combinations**, and then choose the related link.  
   
-2.  In the **\($ N\_538 Dimension Combinations $\)** window, choose the field of the dimension combination and select one of the following options.  
+2.  In the **Dimension Combinations** window, choose the field of the dimension combination and select one of the following options.  
   
     |[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)]|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |----------------------------------|---------------------------------------|  
@@ -70,5 +70,5 @@ To avoid posting entries with contradictory or irrelevant dimensions, you can bl
   
 ## See Also  
  [How to: Set Up Default Dimensions for One Account](../Finance/how-to-set-up-default-dimensions-for-one-account.md)   
- [\($ T\_352 Default Dimension $\)](assetId:///bd021a4a-f67d-44ca-9e6a-4b54cf91e710)   
- [\($ T\_348 Dimension $\)](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)
+ Default Dimension   
+ Dimension

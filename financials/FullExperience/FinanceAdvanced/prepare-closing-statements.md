@@ -53,13 +53,13 @@ There are a number of standard reports that you can use to gather the informatio
   
 |**To**|**See**|  
 |------------|-------------|  
-|Print a trial balance report with balances and net changes for general ledger accounts.|[\($ R\_6 Trial Balance $\)](../Topic/\($%20R_6%20Trial%20Balance%20$\).md)|  
-|Get an overview of accounts receivable, with the age of amounts receivable calculated from the due date, posting date, or document date.|[\($ R\_120 Aged Accounts Receivable $\)](../Topic/\($%20R_120%20Aged%20Accounts%20Receivable%20$\).md)|  
-|Get an overview of accounts payable, with the age of amounts payable calculated from the due date, posting date or document date.|[\($ R\_322 Aged Accounts Payable $\)](../Topic/\($%20R_322%20Aged%20Accounts%20Payable%20$\).md)|  
-|Compare the trial balance with a budget.|[\($ R\_9 Trial Balance\-Budget $\)](../Topic/\($%20R_9%20Trial%20Balance-Budget%20$\).md)|  
-|Print a trial balance report with balances and net changes for general ledger accounts calculated for a series of periods.|[\($ R\_38 Trial Balance by Period $\)](../Topic/\($%20R_38%20Trial%20Balance%20by%20Period%20$\).md)|  
-|Print an account schedule to analyze figures in general ledger accounts or compare actual general ledger entries with general ledger budget entries.|[\($ R\_25 Account Schedule $\)\-duplicate](../Topic/\($%20R_25%20Account%20Schedule%20$\)-duplicate.md)|  
-|Check whether customer and vendor ledger entries balance with corresponding general ledger entries.|[\($ R\_33 Reconcile Cust and Vend Accs $\)](../Topic/\($%20R_33%20Reconcile%20Cust%20and%20Vend%20Accs%20$\).md)|  
+|Print a trial balance report with balances and net changes for general ledger accounts.|Trial Balance|  
+|Get an overview of accounts receivable, with the age of amounts receivable calculated from the due date, posting date, or document date.|Aged Accounts Receivable|  
+|Get an overview of accounts payable, with the age of amounts payable calculated from the due date, posting date or document date.|Aged Accounts Payable|  
+|Compare the trial balance with a budget.|Trial Balance\-Budget|  
+|Print a trial balance report with balances and net changes for general ledger accounts calculated for a series of periods.|Trial Balance by Period|  
+|Print an account schedule to analyze figures in general ledger accounts or compare actual general ledger entries with general ledger budget entries.|[Account Schedule\-duplicate](../Topic/\($%20R_25%20Account%20Schedule%20$\)-duplicate.md)|  
+|Check whether customer and vendor ledger entries balance with corresponding general ledger entries.|Reconcile Cust and Vend Accs|  
   
 ## See Also  
  [Create and Set Up Account Schedules](../BusinessIntelligence/create-and-set-up-account-schedules.md)

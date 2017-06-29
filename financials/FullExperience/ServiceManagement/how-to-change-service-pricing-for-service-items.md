@@ -46,7 +46,7 @@ You can manually change the breakdown of service pricing for a service item in t
   
 ### To change service pricing for a service item  
   
-1.  In the **Search** box, enter **\($ N\_5900 Service Order $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Service Order**, and then choose the related link.  
   
 2.  Select the relevant service order and open the service order card.  
   

@@ -52,7 +52,7 @@ After you import or update the taxonomy, the lines of the schemas must be suppli
   
 1.  In the **Search** box, enter **XBRL Taxonomies**, and then choose the related link.  
   
-2.  In the **\($ N\_582 XBRL Taxonomies $\)** window, select a taxonomy from the list.  
+2.  In the **XBRL Taxonomies** window, select a taxonomy from the list.  
   
 3.  On the **Home** tab, in the **Process** group, choose **Lines**.  
   

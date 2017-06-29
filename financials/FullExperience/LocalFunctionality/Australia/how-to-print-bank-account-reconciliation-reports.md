@@ -17,7 +17,7 @@ translation.priority.ht:
   - "en-nz"
 ---
 # How to: Print Bank Account Reconciliation Reports
-The **\($ R\_28021 Bank Account Reconciliation $\)** report displays open bank ledger entries as unpresented checks or unrecorded deposits.  
+The **Bank Account Reconciliation** report displays open bank ledger entries as unpresented checks or unrecorded deposits.  
   
 ### To print a bank account reconciliation report  
   
@@ -30,5 +30,5 @@ The **\($ R\_28021 Bank Account Reconciliation $\)** report displays open bank l
 4.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [\($ R\_28021 Bank Account Reconciliation $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/-$-r_28021-bank-account-reconciliation-$-.md)   
+ Bank Account Reconciliation   
  [Reconcile Bank Accounts](../../Finance/reconcile-bank-accounts.md)

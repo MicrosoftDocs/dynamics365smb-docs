@@ -30,11 +30,11 @@ When you sell goods or services to a customer in the public sector, you must sub
   
 3.  On the **General** FastTab, make sure that the following fields contain values:  
   
-    -   **\($ T\_112\_100 External Document No. $\)**  
+    -   **External Document No.**  
   
-    -   **\($ T\_112\_11 Your Reference $\)**  
+    -   **Your Reference**  
   
-     The **\($ T\_36\_100 External Document No. $\)** field contains the document number that the customer provided.  
+     The **External Document No.** field contains the document number that the customer provided.  
   
 4.  On the **Invoicing** FastTab, make sure that the following fields have values:  
   
@@ -46,7 +46,7 @@ When you sell goods or services to a customer in the public sector, you must sub
   
     -   **Shipment Date**  
   
-     Select the **\($ T\_36\_10613 E\-Invoice $\)** check box.  
+     Select the **E\-Invoice** check box.  
   
      The default value of the **Shipment Date** field is the posting date of the document.  
   
@@ -66,7 +66,7 @@ When you sell goods or services to a customer in the public sector, you must sub
     > [!IMPORTANT]  
     >  The **E\-Invoice** check box must be selected on the invoice in order to create an electronic invoice.  
   
-4.  Optionally, in the **\($ B\_10640 Create Electronic Invoices $\)** batch job window, set additional filters.  
+4.  Optionally, in the **Create Electronic Invoices** batch job window, set additional filters.  
   
 5.  Choose the **OK** button.  
   
@@ -76,9 +76,9 @@ When you sell goods or services to a customer in the public sector, you must sub
  [EHF Electronic Invoicing in Norway](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/ehf-electronic-invoicing-in-norway.md)   
  [\($ T\_311 Sales & Receivables Setup $\)](../Topic/\($%20T_311%20Sales%20&%20Receivables%20Setup%20$\).md)   
  [\($ N\_459 Sales & Receivables Setup $\)\-duplicate](../../Sales/-$-n_459-sales-receivables-setup-$-duplicate.md)   
- [\($ B\_10641 Create Electronic Credit Memos $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/-$-b_10641-create-electronic-credit-memos-$-.md)   
- [\($ B\_10640 Create Electronic Invoices $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/-$-b_10640-create-electronic-invoices-$-.md)   
- [\($ B\_10642 Create Electronic Reminders $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/-$-b_10642-create-electronic-reminders-$-.md)   
- [\($ B\_10645 Create Elec. Service Cr. Memos $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/-$-b_10645-create-elec.-service-cr.-memos-$-.md)   
- [\($ B\_10643 Create Elec. Fin. Chrg. Memos $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/-$-b_10643-create-elec.-fin.-chrg.-memos-$-.md)   
- [\($ B\_10644 Create Elec. Service Invoices $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/-$-b_10644-create-elec.-service-invoices-$-.md)
+ Create Electronic Credit Memos   
+ Create Electronic Invoices   
+ Create Electronic Reminders   
+ Create Elec. Service Cr. Memos   
+ Create Elec. Fin. Chrg. Memos   
+ Create Elec. Service Invoices

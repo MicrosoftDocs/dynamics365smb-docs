@@ -17,7 +17,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Reverse Preliminary Invoices by Using Inward Registration
-Reverse an inward registration if you want to cancel it, for example, because you do not need the preliminary purchase invoice. For more information, see [\($ N\_11200 Inward Registration $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Sweden/-$-n_11200-inward-registration-$-.md).  
+Reverse an inward registration if you want to cancel it, for example, because you do not need the preliminary purchase invoice. For more information, see Inward Registration.  
   
 ### To reverse a preliminary invoice  
   
@@ -27,20 +27,20 @@ Reverse an inward registration if you want to cancel it, for example, because yo
   
 3.  On the **Navigate** tab, in the **Invoice** group, choose **Inward Registration**.  
   
-4.  On the **Actions** tab, choose **Edit** to open the **\($ N\_11200 Inward Registration $\)** window.  
+4.  On the **Actions** tab, choose **Edit** to open the **Inward Registration** window.  
   
 5.  On the **Actions** tab, in the **Posting** group, and then choose **Reverse**.  
   
 6.  Choose **Yes** to confirm that you want to reverse the inward registration.  
   
-     The inward registration has been reversed and deleted. You can see the resulting negative entry in the **\($ N\_11205 Inward Reg. Entry $\)** window.  
+     The inward registration has been reversed and deleted. You can see the resulting negative entry in the **Inward Reg. Entry** window.  
   
  For information about creating a new inward registration, see [How to: Post Preliminary Invoices by Using Inward Registration](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Sweden/how-to-post-preliminary-invoices-by-using-inward-registration.md).  
   
 ## See Also  
- [\($ N\_11200 Inward Registration $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Sweden/-$-n_11200-inward-registration-$-.md)   
- [\($ N\_11205 Inward Reg. Entry $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Sweden/-$-n_11205-inward-reg.-entry-$-.md)   
- [\($ T\_11201 Inward Reg. Line $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Sweden/-$-t_11201-inward-reg.-line-$-.md)   
+ Inward Registration   
+ Inward Reg. Entry   
+ Inward Reg. Line   
  [Record Purchase Invoices](../../Finance/record-purchase-invoices.md)   
  [How to: Post Preliminary Invoices by Using Inward Registration](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Sweden/how-to-post-preliminary-invoices-by-using-inward-registration.md)   
  [How to: Record VAT](../../Finance/how-to-record-vat.md)   

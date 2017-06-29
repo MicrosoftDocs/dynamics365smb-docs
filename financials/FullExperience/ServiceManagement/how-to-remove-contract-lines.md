@@ -69,4 +69,4 @@ You may need to remove contract lines from the service contract as you remove co
 ## See Also  
  [How to: Cancel Contracts](../Service/how-to-cancel-contracts.md)   
  [How to: Create Contract Service Credit Memos](../Service/how-to-create-contract-service-credit-memos.md)   
- [\($ T\_5965\_71 Automatic Credit Memos $\)](../Topic/\($%20T_5965_71%20Automatic%20Credit%20Memos%20$\).md)
+ Automatic Credit Memos

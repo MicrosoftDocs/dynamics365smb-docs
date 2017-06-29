@@ -42,7 +42,7 @@ A tax group represents a group of inventory items or resources that are subject 
  The tax group is assigned on the **Invoicing** FastTab on the **Item** and **Resource** cards. In general ledger accounts, the tax group is assigned on the **Posting** FastTab. For more information, see [How to: Register New Products](../../DesignAndEngineering/how-to-register-new-products.md), [How to: Set Up a Resource](../../ResourcePlanning/how-to-set-up-a-resource.md), and [How to: Set Up General Ledger Accounts in the Chart of Accounts Window](../../Finance/how-to-set-up-general-ledger-accounts-in-the-chart-of-accounts-window.md).  
   
 ## See Also  
- [\($ R\_10324 Sales Tax Group List $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-r_10324-sales-tax-group-list-$-.md)   
+ Sales Tax Group List   
  [How to: Register New Products](../../DesignAndEngineering/how-to-register-new-products.md)   
  [How to: Set Up a Resource](../../ResourcePlanning/how-to-set-up-a-resource.md)   
  [How to: Set Up General Ledger Accounts in the Chart of Accounts Window](../../Finance/how-to-set-up-general-ledger-accounts-in-the-chart-of-accounts-window.md)   

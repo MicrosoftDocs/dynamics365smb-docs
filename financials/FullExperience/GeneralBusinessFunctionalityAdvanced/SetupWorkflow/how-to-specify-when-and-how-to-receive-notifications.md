@@ -35,7 +35,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Specify When and How to Receive Notifications
-When you set up users in approval workflows, you must specify in the **\($ N\_1512 Notification Setup $\)** and **\($ N\_1513 Notification Schedule $\)** windows how and when each user receives notifications about approval workflow steps. Individual users can also change their notification setup by choosing the **Change Notification Settings** button on any notification.  
+When you set up users in approval workflows, you must specify in the **Notification Setup** and **Notification Schedule** windows how and when each user receives notifications about approval workflow steps. Individual users can also change their notification setup by choosing the **Change Notification Settings** button on any notification.  
   
  Before you can set up an approval user’s notification preferences, you must set the user up as an approval user. For more information, [How to: Set Up Approval Users](../../BusinessFunctionality/Workflow/how-to-set-up-approval-users.md).  
   
@@ -49,42 +49,42 @@ When you set up users in approval workflows, you must specify in the **\($ N\_15
   
 2.  Select the line for the user that you want to set up notification preferences for, and then, on the **Home** tab, in the **Process** group, choose **Notification Setup**.  
   
-3.  In the **\($ N\_1512 Notification Setup $\)** window, fill the fields as described in the following table.  
+3.  In the **Notification Setup** window, fill the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_1512\_2 Notification Type $\)**|Specify what type of event the notification is about.<br /><br /> Select one of the following options:<br /><br /> -   **New Record** specifies that the notification is about a new record, such as a document, that the user must act on.<br />-   **Approval** specifies that the notification is about one or more approval requests.<br />-   **Overdue** specifies that the notification is to remind users that they are late in acting on an event.|  
-    |**\($ T\_1512\_3 Notification Template Code $\)**|Specify the code of the notification template that is used to create notifications for the user.|  
-    |**\($ T\_1512\_4 Unaggregated Notifications $\)**|Specify if the user receives one notification for each event or aggregated notifications.<br /><br /> If the **\($ T\_1512\_4 Unaggregated Notifications $\)** check box is not selected, then the user receives notifications that aggregate information about events that occur within the same recurrence pattern in the notification schedule.|  
+    |**Notification Type**|Specify what type of event the notification is about.<br /><br /> Select one of the following options:<br /><br /> -   **New Record** specifies that the notification is about a new record, such as a document, that the user must act on.<br />-   **Approval** specifies that the notification is about one or more approval requests.<br />-   **Overdue** specifies that the notification is to remind users that they are late in acting on an event.|  
+    |**Notification Template Code**|Specify the code of the notification template that is used to create notifications for the user.|  
+    |**Unaggregated Notifications**|Specify if the user receives one notification for each event or aggregated notifications.<br /><br /> If the **Unaggregated Notifications** check box is not selected, then the user receives notifications that aggregate information about events that occur within the same recurrence pattern in the notification schedule.|  
   
      You have now specified how the user receives notifications. Proceed to specify when the user receives notifications.  
   
 4.  On the **Home** tab, in the **Process** group, choose **Notification Schedule**.  
   
-5.  In the **\($ N\_1513 Notification Schedule $\)** window, fill the fields as described in the following table.  
+5.  In the **Notification Schedule** window, fill the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_1513\_3 Recurrence $\)**|Specify the recurrence pattern in which the user receives notifications.|  
-    |**\($ T\_1513\_4 Time $\)**|Specify what time of the day the user receives notifications when the value in the **\($ T\_1513\_3 Recurrence $\)** field is different from **Instantly**.|  
-    |**\($ T\_1513\_5 Daily Frequency $\)**|Specify on which type of days the user receives notifications when the value in the **\($ T\_1513\_3 Recurrence $\)** field is **Daily**.<br /><br /> Select **Weekday** to receive notifications every work day of the week. Select **Daily** to receive notifications every day of the week, including weekends.|  
-    |**\($ T\_1513\_6 Monday $\)** through **\($ T\_1513\_12 Sunday $\)**|Specify on which days the user receives notifications when the value in the **\($ T\_1513\_3 Recurrence $\)** field is **Weekly**.|  
-    |**\($ T\_1513\_13 Date of Month $\)**|Specify if the user receives notifications on the first, last, or a specific date of the month.|  
-    |**\($ T\_1513\_14 Monthly Notification Date $\)**|Specify the date of the month on which the user receives notifications when the value in the **\($ T\_1513\_13 Date of Month $\)** field is **Custom**.|  
+    |**Recurrence**|Specify the recurrence pattern in which the user receives notifications.|  
+    |**Time**|Specify what time of the day the user receives notifications when the value in the **Recurrence** field is different from **Instantly**.|  
+    |**Daily Frequency**|Specify on which type of days the user receives notifications when the value in the **Recurrence** field is **Daily**.<br /><br /> Select **Weekday** to receive notifications every work day of the week. Select **Daily** to receive notifications every day of the week, including weekends.|  
+    |**Monday** through **Sunday**|Specify on which days the user receives notifications when the value in the **Recurrence** field is **Weekly**.|  
+    |**Date of Month**|Specify if the user receives notifications on the first, last, or a specific date of the month.|  
+    |**Monthly Notification Date**|Specify the date of the month on which the user receives notifications when the value in the **Date of Month** field is **Custom**.|  
   
 ### Change when and how you receive notifications  
   
 1.  On one of the notifications that you have received, either as email or note, choose the **Change Notification Settings** button.  
   
-2.  In the **\($ N\_1512 Notification Setup $\)** window, change your notification preferences as described in the previous procedure.  
+2.  In the **Notification Setup** window, change your notification preferences as described in the previous procedure.  
   
 ## See Also  
- [\($ N\_1512 Notification Setup $\)](../Topic/\($%20N_1512%20Notification%20Setup%20$\).md)   
- [\($ N\_1513 Notification Schedule $\)](../Topic/\($%20N_1513%20Notification%20Schedule%20$\).md)   
- [\($ N\_1510 Notification Templates $\)](../Topic/\($%20N_1510%20Notification%20Templates%20$\).md)   
+ Notification Setup   
+ Notification Schedule   
+ Notification Templates   
  [How to: Set Up Approval Users](../../BusinessFunctionality/Workflow/how-to-set-up-approval-users.md)   
  [How to: Manage Notification Templates](../../BusinessFunctionality/Workflow/how-to-manage-notification-templates.md)   
  [Setting Up Workflow Notifications](../../BusinessFunctionality/Workflow/setting-up-workflow-notifications.md)   
- [\($ N\_1501 Workflow $\)](../Topic/\($%20N_1501%20Workflow%20$\).md)   
+ Workflow   
  [Set Up Workflows](../../BusinessFunctionality/Workflow/set-up-workflows.md)   
  [Use Workflows](../../BusinessFunctionality/Workflow/use-workflows.md)

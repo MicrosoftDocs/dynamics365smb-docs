@@ -23,11 +23,11 @@ You can use proportional VAT to calculate VAT when there is both deductible and 
   
 1.  In the **Search** box, enter **VAT Posting Setup**, and then choose the related link.  
   
-2.  In the **\($ T\_325 VAT Posting Setup $\)** window, fill in the fields as described in the following table.  
+2.  In the **VAT Posting Setup** window, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_325\_10604 Calc. Prop. Deduction VAT $\)**|Select to indicate that you want to use the proportional VAT percentage. **Important:**  This field is available in the **VAT Posting Setup** window, but it is not shown by default. [!INCLUDE[bp_customize](../../Finance/includes/bp_customize_md.md)]|  
+    |**Calc. Prop. Deduction VAT**|Select to indicate that you want to use the proportional VAT percentage. **Important:**  This field is available in the **VAT Posting Setup** window, but it is not shown by default. [!INCLUDE[bp_customize](../../Finance/includes/bp_customize_md.md)]|  
     |**\($ T\_325\_10605 Proportional Deduction VAT % $\)**|Enter the percentage of VAT to deduct.|  
   
 3.  Choose the **OK** button.  
@@ -35,4 +35,4 @@ You can use proportional VAT to calculate VAT when there is both deductible and 
 ## See Also  
  [Proportional VAT](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/proportional-vat.md)   
  [Norway Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/norway-local-functionality.md)   
- [\($ S\_PERSONALIZATION Personalize the User Interface $\)](../../SetupAndAdministration/-$-s_personalization-personalize-the-user-interface-$-.md)
+ PERSONALIZATION Personalize the User Interface

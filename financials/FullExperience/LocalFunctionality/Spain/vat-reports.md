@@ -29,7 +29,7 @@ VAT is charged on transactions that involve goods and services in Spain or goods
 ### VAT with EC Percentage  
  Preset general posting groups have an EC percentage in addition to their VAT percentage. Although the EC is tracked separately, both tax values are merged with VAT when it is possible. If the EC percentage is a separate field in the posting group, the EC is merged with the value in the **VAT %** column.  
   
- For printing sales and purchase invoice books, the VAT percent and EC percentages are displayed in the **\($ T\_254 VAT Entry $\)** table during posting.  
+ For printing sales and purchase invoice books, the VAT percent and EC percentages are displayed in the **VAT Entry** table during posting.  
   
 > [!NOTE]  
 >  If the item has no taxable VAT, 0 is automatically displayed in the **VAT %** field in the VAT information windows.  
@@ -40,7 +40,7 @@ VAT is charged on transactions that involve goods and services in Spain or goods
 ### VAT Statement  
  The VAT statement displays VAT amounts and base amounts in different columns.  
   
- There are two report template types in the **\($ T\_257 VAT Statement Name $\)** table:  
+ There are two report template types in the **VAT Statement Name** table:  
   
 -   **One\-Column Report**  
   

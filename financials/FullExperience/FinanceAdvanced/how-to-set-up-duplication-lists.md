@@ -29,7 +29,7 @@ When you fill in journal lines to be posted to a depreciation book, you can dupl
   
 ### To set up duplication lists  
   
-1.  In the **Search** box, enter **\($ N\_5619 Depreciation Books $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Depreciation Books**, and then choose the related link.  
   
 2.  Select a depreciation book.  
   

@@ -62,7 +62,7 @@ Management of receivables includes checking whether amounts due are paid on time
 |------------|-------------|  
 |Calculate interest or additional fees on overdue amounts, and issue a finance charge memo.|[Manage Finance Charges](../Finance/manage-finance-charges.md)|  
 |Remind customers of overdue amounts, with or without interest or other finance charges.|[Prepare Reminders](../Finance/prepare-reminders.md)|  
-|Print customer statements to inform customers of their account balance.|[\($ R\_116 Statement $\)](../Topic/\($%20R_116%20Statement%20$\).md)|  
+|Print customer statements to inform customers of their account balance.|Statement|  
 |Print reports that you can use to manage overdue receivables.|[Turn Over to Collections](../Finance/turn-over-to-collections.md)|  
   
 ## See Also  

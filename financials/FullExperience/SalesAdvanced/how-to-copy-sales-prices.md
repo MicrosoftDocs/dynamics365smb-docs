@@ -22,7 +22,7 @@ If you want to copy sales prices, such as an individual customer's sales prices 
   
 ### To copy sales prices  
   
-1.  In the **Search** box, enter **\($ N\_7023 Sales Price Worksheet $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Sales Price Worksheet**, and then choose the related link.  
   
 2.  On the **Actions** tab, in the **Functions** group, choose **Suggest Sales Price on Wksh.**  
   
@@ -38,6 +38,6 @@ If you want to copy sales prices, such as an individual customer's sales prices 
 >  This batch job only creates suggestions and it does not implement the suggested changes. If you are satisfied with the suggestions and want to implement them, that is insert them in the **Sales Prices** table, you can use the **Implement Price Changes** batch job, which is found on the **Actions** tab, in the **Functions** group, in the **Sales Price Worksheet** window.  
   
 ## See Also  
- [\($ N\_7002 Sales Prices $\)](../Topic/\($%20N_7002%20Sales%20Prices%20$\).md)   
- [\($ N\_7023 Sales Price Worksheet $\)](../Topic/\($%20N_7023%20Sales%20Price%20Worksheet%20$\).md)   
+ Sales Prices   
+ Sales Price Worksheet   
  [How to: Create Sales Prices for a Customer](../DesignAndEngineering/how-to-create-sales-prices-for-a-customer.md)

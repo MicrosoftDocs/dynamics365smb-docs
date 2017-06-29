@@ -47,4 +47,4 @@ This flow chart shows how the **Bin Code** field on production order component l
 ## See Also  
  [How to: Set Up Locations to Use Bins](../WarehouseActivities/how-to-set-up-locations-to-use-bins.md)   
  [How to: Set Up Basic Warehouses with Operations Areas](../WarehouseActivities/how-to-set-up-basic-warehouses-with-operations-areas.md)   
- [\($ T\_5406\_23 Bin Code $\)](../Topic/\($%20T_5406_23%20Bin%20Code%20$\).md)
+ Bin Code

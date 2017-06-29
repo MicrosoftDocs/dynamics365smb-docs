@@ -25,7 +25,7 @@ The physical inventory order line should contain the following data:
   
 -   The fields Variant Code and Bin Code may be blank.  
   
- There is a check mark in the field [\($ T\_5005351\_53 Use Tracking Lines $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/-$-t_5005351_53-use-tracking-lines-$-.md) on the physical inventory order line and the item 80216\-V should be posted all time with lot nos. according to the item tracking code.  
+ There is a check mark in the field Use Tracking Lines on the physical inventory order line and the item 80216\-V should be posted all time with lot nos. according to the item tracking code.  
   
  The posting date on the physical inventory order header should be 12\/31\/2002.  
   

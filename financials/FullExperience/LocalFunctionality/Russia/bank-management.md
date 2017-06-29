@@ -19,7 +19,7 @@ translation.priority.ht:
 In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can create bank directory structures to keep bank reference information in one location, create budget classifications, add bank account details to specific general ledger accounts, and print and post required documents.  
   
 ## Creating Bank Directory Structures  
- You can use a bank directory structure to keep reference information about all the banks in one location. This information can be used to automatically fill in the corresponding fields in the **\($ N\_370 Bank Account Card $\)**, **\($ N\_425 Vendor Bank Account Card $\)**, and **\($ N\_423 Customer Bank Account Card $\)** windows.  
+ You can use a bank directory structure to keep reference information about all the banks in one location. This information can be used to automatically fill in the corresponding fields in the **Bank Account Card**, **Vendor Bank Account Card**, and **Customer Bank Account Card** windows.  
   
 ## Creating Budget Classification Codes  
  You can use a budget classification codes catalog in bank payments that are made to the state budget, such as tax payments. These codes allow you to track the classification of budget payment types in the state budget.  
@@ -34,18 +34,18 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can cr
   
 |Report|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
 |------------|---------------------------------------|  
-|**\($ R\_12400 Bank Payment Order $\)**|This report is a copy of the bank payment order.|  
-|**\($ R\_12447 Bank Account G\/L Turnover $\)**|This report is a list of general ledger turnover information.|  
-|**\($ R\_12448 Bank Account Card $\)**|This report contains information about bank operations.|  
+|**Bank Payment Order**|This report is a copy of the bank payment order.|  
+|**Bank Account G\/L Turnover**|This report is a list of general ledger turnover information.|  
+|**Bank Account Card**|This report contains information about bank operations.|  
   
 ## See Also  
  [How to: Set Up Bank Interface Files](assetId:///e960b140-df19-4ff4-bcfa-5a034ceb4b53)   
- [\($ T\_12436 Bank Account Details $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-t_12436-bank-account-details-$-.md)   
- [\($ N\_370 Bank Account Card $\)](assetId:///c44f01ce-a89a-441e-a543-1a1e951edcaa)   
- [\($ N\_425 Vendor Bank Account Card $\)](../Topic/\($%20N_425%20Vendor%20Bank%20Account%20Card%20$\).md)   
- [\($ N\_423 Customer Bank Account Card $\)](../Topic/\($%20N_423%20Customer%20Bank%20Account%20Card%20$\).md)   
- [\($ R\_12400 Bank Payment Order $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-r_12400-bank-payment-order-$-.md)   
- [\($ R\_12447 Bank Account G\-L Turnover $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-r_12447-bank-account-g-l-turnover-$-.md)   
- [\($ R\_12448 Bank Account Card $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-r_12448-bank-account-card-$-.md)   
- [\($ T\_12409 Bank Directory $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-t_12409-bank-directory-$-.md)   
+ Bank Account Details   
+ Bank Account Card   
+ Vendor Bank Account Card   
+ Customer Bank Account Card   
+ Bank Payment Order   
+ Bank Account G\-L Turnover   
+ Bank Account Card   
+ Bank Directory   
  [How to: Set Up a Bank Payment Order](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-set-up-a-bank-payment-order.md)

@@ -19,14 +19,14 @@ translation.priority.ht:
 Proposals can be generated manually or automatically based on either vendor or customer ledger entries.  
   
 > [!IMPORTANT]  
->  To create a proposal, you must use the **\($ T\_288\_11000000 Owner Information $\)** field in the [\($ N\_425 Vendor Bank Account Card $\)](../Topic/\($%20N_425%20Vendor%20Bank%20Account%20Card%20$\).md) and [\($ N\_423 Customer Bank Account Card $\)](../Topic/\($%20N_423%20Customer%20Bank%20Account%20Card%20$\).md) windows.  
+>  To create a proposal, you must use the **Owner Information** field in the Vendor Bank Account Card and Customer Bank Account Card windows.  
   
 > [!NOTE]  
 >  At any time and at any level, before processing a proposal, the transaction mode and bank account can be modified. At the lowest level on the relevant vendor or customer ledger entries.  
   
 #### To create proposals manually  
   
-1.  In the **Search** box, enter **\($ N\_11000000 Telebank \- Bank Overview $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Telebank \- Bank Overview**, and then choose the related link.  
   
 2.  Select the relevant bank account. On the **Actions** tab, in the **Telebank** group, choose **Proposal**.  
   
@@ -46,13 +46,13 @@ Proposals can be generated manually or automatically based on either vendor or c
   
      [!INCLUDE[bp_fieldhelp]()]  
   
-3.  In the **Search** box, enter **\($ N\_11000000 Telebank \- Bank Overview $\)**, and then choose the related link.  
+3.  In the **Search** box, enter **Telebank \- Bank Overview**, and then choose the related link.  
   
 4.  Select the relevant bank account. On the **Actions** tab, in the **Telebank** group, choose **Proposal**.  
   
 5.  On the **Actions** tab, in the **Proposal** group, choose **Get Entries**.  
   
-     You can use the [\($ B\_11000000 Get Proposal Entries Batch Job $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-b_11000000-get-proposal-entries-batch-job-$-.md) batch job to generate proposal lines based on relevant customer ledger entries.  
+     You can use the Get Proposal Entries Batch Job batch job to generate proposal lines based on relevant customer ledger entries.  
   
     > [!NOTE]  
     >  Only proposal lines will be created for ledger entries that have a transaction mode of account type **Customer** and a link to the active bank account.  
@@ -69,13 +69,13 @@ Proposals can be generated manually or automatically based on either vendor or c
   
      [!INCLUDE[bp_fieldhelp]()]  
   
-3.  In the **Search** box, enter **\($ N\_11000000 Telebank \- Bank Overview $\)**, and then choose the related link.  
+3.  In the **Search** box, enter **Telebank \- Bank Overview**, and then choose the related link.  
   
 4.  Select the relevant bank account. On the **Actions** tab, in the **Telebank** group, choose **Proposal**.  
   
 5.  On the **Actions** tab, in the **Proposal** group, choose **Get Entries**.  
   
-     You can use the [\($ B\_11000000 Get Proposal Entries Batch Job $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-b_11000000-get-proposal-entries-batch-job-$-.md) batch job to generate proposal lines based on relevant vendor ledger entries.  
+     You can use the Get Proposal Entries Batch Job batch job to generate proposal lines based on relevant vendor ledger entries.  
   
     > [!NOTE]  
     >  Only proposal lines will be created for ledger entries that have a transaction mode of account type **Vendor** and a link to the active bank account.  

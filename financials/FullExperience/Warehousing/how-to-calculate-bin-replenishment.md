@@ -50,9 +50,9 @@ When the location is set up to use directed put\-away and pick, priorities of th
   
 ### To replenish pick bins  
   
-1.  In the **Search** box, enter **\($ N\_7351 Movement Worksheet $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Movement Worksheet**, and then choose the related link.  
   
-2.  On the **Actions** tab, in the **Functions** group, Choose **\($ B\_7300 Calculate Bin Replenishment $\)** to open the report request page.  
+2.  On the **Actions** tab, in the **Functions** group, Choose **Calculate Bin Replenishment** to open the report request page.  
   
 3.  Fill in the batch job request window to limit the scope of the replenishment suggestions that will be calculated. For example, you might be concerned with particular items, zones, or bins.  
   
@@ -74,7 +74,7 @@ When the location is set up to use directed put\-away and pick, priorities of th
 >  then the **From Zone** and **From Bin** fields will be blank because the algorithm to calculate from where to move the items is triggered only when you activate the **Create Movement** function.  
   
 ## See Also  
- [\($ B\_7300 Calculate Bin Replenishment $\)](../Topic/\($%20B_7300%20Calculate%20Bin%20Replenishment%20$\).md)   
- [\($ N\_7351 Movement Worksheet $\)](../Topic/\($%20N_7351%20Movement%20Worksheet%20$\).md)   
+ Calculate Bin Replenishment   
+ Movement Worksheet   
  [Move Items](../WarehouseActivities/move-items.md)   
  [Design Details: Internal Warehouse Flows](../ApplicationDesign/design-details-internal-warehouse-flows.md)

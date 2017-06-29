@@ -35,7 +35,7 @@ When you set up a new fixed asset, there are fields that must always be filled i
   
 3.  Fill in the fields.  
   
-     The **\($ T\_5600\_1 No. $\)** field is required.  
+     The **No.** field is required.  
   
 4.  Close the window.  
   

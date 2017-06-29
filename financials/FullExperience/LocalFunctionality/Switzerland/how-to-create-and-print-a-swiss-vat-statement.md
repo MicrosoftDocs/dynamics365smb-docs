@@ -17,19 +17,19 @@ translation.priority.ht:
   - "fr-ch"
 ---
 # How to: Create and Print a Swiss VAT Statement
-Based on the information that you have specified in the **\($ N\_472 VAT Posting Setup $\)** window, [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] can automatically create a new VAT Statement Setup for realized VAT reporting. Before proceeding with the procedures in this topic, make sure that you have set up VAT posting setup with values specified for the sales and purchase cipher fields.  
+Based on the information that you have specified in the **VAT Posting Setup** window, [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] can automatically create a new VAT Statement Setup for realized VAT reporting. Before proceeding with the procedures in this topic, make sure that you have set up VAT posting setup with values specified for the sales and purchase cipher fields.  
   
 ### To set up a Swiss VAT statement template  
   
 1.  In the **Search** box, enter **Update VAT Statement Template**, and then choose the related link.  
   
-2.  Select a template in the **VAT Statement Template Name** field. For more information about how to creat a new template, see [\($ T\_255 VAT Statement Template $\)](assetId:///678abbca-1d38-4cd2-a08c-0c1c69d6be6c).  
+2.  Select a template in the **VAT Statement Template Name** field. For more information about how to creat a new template, see VAT Statement Template.  
   
 3.  Choose the **OK** button. Choose the **Yes** button to confirm that you want to create a new template.  
   
 4.  Check the resulting VAT Statement and adjust as needed.  
   
-     The VAT Statement page contains the **\($ T\_256\_26100 VAT Statement Cipher $\)** field, which indicates in which cipher of the report the result will be printed. This field is automatically populated by the batch job based on the information in the **VAT Posting Setup** window. The field can be edited if needed.  
+     The VAT Statement page contains the **VAT Statement Cipher** field, which indicates in which cipher of the report the result will be printed. This field is automatically populated by the batch job based on the information in the **VAT Posting Setup** window. The field can be edited if needed.  
   
 ### To print the Swiss VAT statement  
   
@@ -54,4 +54,4 @@ Based on the information that you have specified in the **\($ N\_472 VAT Posting
   
 ## See Also  
  [Swiss Value Added Tax](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/swiss-value-added-tax.md)   
- [\($ R\_26100 Swiss VAT Statement $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/-$-r_26100-swiss-vat-statement-$-.md)
+ Swiss VAT Statement

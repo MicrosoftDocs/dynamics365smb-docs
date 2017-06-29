@@ -23,7 +23,7 @@ After you have set up domiciliations, you can start generating domiciliation sug
   
 1.  In the **Search** box, enter **Domiciliation Journal**, and then choose the related link.  
   
-2.  In the **\($ N\_2000022\_69 Batch Name $\)** field, select the required journal batch, and on the **Home** tab, in the **Progress** group, choose **Suggest Domiciliations**.  
+2.  In the **Batch Name** field, select the required journal batch, and on the **Home** tab, in the **Progress** group, choose **Suggest Domiciliations**.  
   
 3.  On the **Options** FastTab, fill in the fields as displayed in the following table.  
   

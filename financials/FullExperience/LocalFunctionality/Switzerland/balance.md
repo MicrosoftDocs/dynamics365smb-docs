@@ -14,7 +14,7 @@ translation.priority.ht:
   - "fr-ch"
 ---
 # Balance
-Specifies a temporary general ledger balance. When you choose the **Balance** action on the **Home** tab in the **Process** group, the [\($ N\_11500 G\-L Acc. Provisional Balance $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/-$-n_11500-g-l-acc.-provisional-balance-$-.md) window opens. It shows the balance of the final posted ledger entries and the balance of the postings entered in the current general journal.  
+Specifies a temporary general ledger balance. When you choose the **Balance** action on the **Home** tab in the **Process** group, the G\-L Acc. Provisional Balance window opens. It shows the balance of the final posted ledger entries and the balance of the postings entered in the current general journal.  
   
 ## See Also  
  [How to: View Temporary Balances in General Ledger Journals](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-view-temporary-balances-in-general-ledger-journals.md)

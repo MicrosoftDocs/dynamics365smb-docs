@@ -22,11 +22,11 @@ The DatenTrägerAustausch \(DTA\) payment journal report displays information fo
   
 1.  In the **Search** box, enter **Payment Journals**, and then choose the related link.  
   
-2.  In the **\($ N\_256\_33 Batch Name $\)** field, select the required journal batch.  
+2.  In the **Batch Name** field, select the required journal batch.  
   
 3.  Select the required suggested payment, and on the **Home** tab, in the **Report** group, select **Print Payment Journal**.  
   
-4.  In the **\($ R\_3010545 DTA Payment Journal $\)** window, on the **Options** FastTab, in the **\($ R\_3010545\_F\_1\_2 Layout $\)** field, select one of the following options:  
+4.  In the **DTA Payment Journal** window, on the **Options** FastTab, in the **\($ R\_3010545\_F\_1\_2 Layout $\)** field, select one of the following options:  
   
     -   **Amounts** – To print only the payment information.  
   
@@ -41,5 +41,5 @@ The DatenTrägerAustausch \(DTA\) payment journal report displays information fo
  [How to: Suggest DTA Payment for Vendors](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-suggest-dta-payment-for-vendors.md)   
  [How to: Submit DTA Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-submit-dta-payments.md)   
  [How to: Export Payments Using EZAG](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-export-payments-using-ezag.md)   
- [\($ N\_256 Payment Journal $\)](../../Finance/-$-n_256-payment-journal-$-.md)   
+ Payment Journal   
  [How to: Apply Vendor Ledger Entries](../../Finance/how-to-apply-vendor-ledger-entries.md)

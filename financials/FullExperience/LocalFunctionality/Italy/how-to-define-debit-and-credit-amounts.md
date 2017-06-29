@@ -37,4 +37,4 @@ The **Debit Amount** and **Credit Amount** fields are included in multiple journ
   
 ## See Also  
  [Italy Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/italy-local-functionality.md)   
- [\($ T\_15\_10 Debit\/Credit $\)](assetId:///1b898b0b-9f53-498a-a5de-4248072a3e72)
+ Debit\/Credit

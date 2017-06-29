@@ -55,9 +55,9 @@ After you have set up the consolidated company and the business units, and you h
   
 1.  Open the consolidated company. For more information, see [\($ S\_COMPANY How to: Select a Company $\)](../WorkingWithDynamics/-$-s_company-how-to-select-a-company-$-.md)  
   
-2.  In the **Search** box, enter **Business Units**, and then choose the related link.Open the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**[\($ N\_240 Business Units $\)](DynamicsNAV:////runpage?Page=240)** window.  
+2.  In the **Search** box, enter **Business Units**, and then choose the related link.Open the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**Business Units** window.  
   
-3.  In the **\($ N\_240 Business Units $\)** window, on the **Actions** tab, in the **Functions** group, choose **Test File**.  
+3.  In the **Business Units** window, on the **Actions** tab, in the **Functions** group, choose **Test File**.  
   
 4.  Enter the name of the file to be tested, and then choose **Print**.  
   

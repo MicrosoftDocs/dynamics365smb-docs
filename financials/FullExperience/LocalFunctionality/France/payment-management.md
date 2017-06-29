@@ -56,7 +56,7 @@ translation.priority.ht:
  [How to: Post Payment Slips](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-post-payment-slips.md)   
  [How to: Archive Payment Slips](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-archive-payment-slips.md)   
  [How to: Export or Import Payment Management Setup Parameters](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-export-or-import-payment-management-setup-parameters.md)   
- [\($ N\_10868 Payment Slip $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/-$-n_10868-payment-slip-$-.md)   
- [\($ T\_10860 Payment Class $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/-$-t_10860-payment-class-$-.md)   
- [\($ T\_270 Bank Account $\)](assetId:///859a3a4a-835d-4443-9715-a8d79d986654)   
+ Payment Slip   
+ Payment Class   
+ Bank Account   
  [France Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/france-local-functionality.md)

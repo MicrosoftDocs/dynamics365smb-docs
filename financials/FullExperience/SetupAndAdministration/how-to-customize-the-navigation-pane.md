@@ -105,10 +105,10 @@ You can customize the navigation pane with the **Customize Navigation Pane** win
  Your changes will appear in the navigation pane when you restart [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)].  
   
 ## See Also  
- [\($ S\_PERSONALIZATION Personalize the User Interface $\)](../SetupAndAdministration/-$-s_personalization-personalize-the-user-interface-$-.md)   
+ PERSONALIZATION Personalize the User Interface   
  [How to: Add Department Links to the Role Center](../SetupAndAdministration/how-to-add-department-links-to-the-role-center.md)   
  [How to: Customize Ribbons](../SetupAndAdministration/how-to-customize-ribbons.md)   
  [How to: Specify When UI Elements Are Removed](../Topic/How%20to:%20Specify%20When%20UI%20Elements%20Are%20Removed.md)   
  [Customize the User Interface](../SetupAndAdministration/customize-the-user-interface.md)   
- [Working with \($ P\_1 Product Name $\)](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)   
+ [Working with Product Name](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)   
  [Learn About the RoleTailored Design](../GettingStarted/learn-about-the-roletailored-design.md)

@@ -19,7 +19,7 @@ translation.priority.ht:
   - "fr-ca"
 ---
 # How to: Post a Bank Reconciliation
-You can post bank reconciliation if you have reconciled the bank accounts in the **\($ N\_10120 Bank Rec.Worksheet $\)** window. For more information, see [How to: Reconcile Bank Accounts by Using Bank Statements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-reconcile-bank-accounts-by-using-bank-statements.md).  
+You can post bank reconciliation if you have reconciled the bank accounts in the **Bank Rec.Worksheet** window. For more information, see [How to: Reconcile Bank Accounts by Using Bank Statements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-reconcile-bank-accounts-by-using-bank-statements.md).  
   
  After the bank reconciliation has been posted, a bank account statement is created, and can be viewed from the relevant bank account card.  
   
@@ -30,15 +30,15 @@ You can post bank reconciliation if you have reconciled the bank accounts in the
 2.  Select the bank account reconciliation that you want to post. On the **Home** tab, in the **Manage** group, choose **Edit**.  
   
     > [!NOTE]  
-    >  On the **General** FastTab, the **\($ N\_10120\_1020038 Difference $\)** field be must be zero before you can post the bank reconciliation.  
+    >  On the **General** FastTab, the **Difference** field be must be zero before you can post the bank reconciliation.  
   
-     When the bank reconciliation is posted, all of the related files are posted to the historical **\($ N\_10125 Post Bank Rec. Worksheet $\)** table. Any adjustments are posted to the **\($ T\_17 G\/L Entry $\)** table.  
+     When the bank reconciliation is posted, all of the related files are posted to the historical **Post Bank Rec. Worksheet** table. Any adjustments are posted to the **G\/L Entry** table.  
   
 3.  On the **Actions** tab, in the **Posting** group, choose **Post**.  
   
      The bank reconciliation is posted.  
   
-4.  To review a preliminary draft of the bank reconciliation statement, run the [\($ R\_10407 Bank Rec. Test Report $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-r_10407-bank-rec.-test-report-$-.md). To do this, on the **Actions** tab, in the **Posting** group, choose **Test Report**.  
+4.  To review a preliminary draft of the bank reconciliation statement, run the Bank Rec. Test Report. To do this, on the **Actions** tab, in the **Posting** group, choose **Test Report**.  
   
 ### To view the posted bank account reconciliations  
   
@@ -51,9 +51,9 @@ You can post bank reconciliation if you have reconciled the bank accounts in the
 ## See Also  
  [How to: Print Bank Reconciliation Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-print-bank-reconciliation-reports.md)   
  [How to: Reconcile Bank Accounts by Using Bank Statements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-reconcile-bank-accounts-by-using-bank-statements.md)   
- [\($ N\_370 Bank Account Card $\)](assetId:///c44f01ce-a89a-441e-a543-1a1e951edcaa)   
- [\($ T\_270 Bank Account $\)](assetId:///859a3a4a-835d-4443-9715-a8d79d986654)   
- [\($ T\_17 G\/L Entry $\)](assetId:///2b5b8281-fbfa-4b7f-a154-a9ec61afadfe)   
- [\($ N\_10120 Bank Rec.Worksheet $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-n_10120-bank-rec.worksheet-$-.md)   
- [\($ R\_10407 Bank Rec. Test Report $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-r_10407-bank-rec.-test-report-$-.md)   
- [\($ T\_10123 Posted Bank Rec. Header $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-t_10123-posted-bank-rec.-header-$-.md)
+ Bank Account Card   
+ Bank Account   
+ G\/L Entry   
+ Bank Rec.Worksheet   
+ Bank Rec. Test Report   
+ Posted Bank Rec. Header

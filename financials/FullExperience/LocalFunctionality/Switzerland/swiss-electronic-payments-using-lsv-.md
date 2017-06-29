@@ -21,7 +21,7 @@ The Lastschrift Verfahren \(LSV\+\)—or direct debit—electronic payment metho
   
  The LSV\+ method is a direct debit principle with right of objection. Business Direct Debit \(BDD\) is a direct debit system without right of objection. The file format to be sent to the bank is the same for LSV\+ and BDD.  
   
- Before using the LSV module, you must define the settings in the **\($ N\_3010831 LSV Setup $\)** window. For more information, see the [\($ T\_3010831 LSV Setup $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/-$-t_3010831-lsv-setup-$-.md) table.  
+ Before using the LSV module, you must define the settings in the **LSV Setup** window. For more information, see the LSV Setup table.  
   
 ## Automatic ESR Processing  
  You can download payment credit transactions in Einzahlungsschein mit Referenznummer \(ESR\) file format from the bank. You can receive processed LSV payments in the ESR file if the ESR reference number is integrated with the LSV\+ system. If LSV\+ payments are included in your imported LSV files, the related LSV journal lines are closed automatically. Automatic ESR processing is performed only for payments that use Swiss Francs \(CHF\), and requires that you do the following:  
@@ -33,7 +33,7 @@ The Lastschrift Verfahren \(LSV\+\)—or direct debit—electronic payment metho
     > [!NOTE]  
     >  When importing an ESR file, the LSV journal line is closed by ESR if the appropriate LSV journal is found, regardless of the ESR transaction type.  
   
--   After the LSV processing date, you can check the LSV journal lines. If all of the LSV journal lines are closed, then the status of the **\($ T\_3010832\_5 LSV Status $\)** field is updated to  **Finished**.  
+-   After the LSV processing date, you can check the LSV journal lines. If all of the LSV journal lines are closed, then the status of the **LSV Status** field is updated to  **Finished**.  
   
 ## See Also  
  [How to: Process an LSV Collection](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-process-an-lsv-collection.md)   
@@ -43,4 +43,4 @@ The Lastschrift Verfahren \(LSV\+\)—or direct debit—electronic payment metho
  [Swiss Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/swiss-electronic-payments.md)   
  [Swiss Electronic Payments Using DTA](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/swiss-electronic-payments-using-dta.md)   
  [Swiss Electronic Payments Using ESR](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/swiss-electronic-payments-using-esr.md)   
- [\($ T\_3010831 LSV Setup $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/-$-t_3010831-lsv-setup-$-.md)
+ LSV Setup

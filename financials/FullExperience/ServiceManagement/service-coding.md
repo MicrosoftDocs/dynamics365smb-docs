@@ -53,5 +53,5 @@ To successfully create a service management implementation, you should decide up
 |Map service codes to service item groups.|[How to: Assign Standard Service Codes to Service Item Groups](../Service/how-to-assign-standard-service-codes-to-service-item-groups.md)|  
   
 ## See Also  
- [\($ T\_5996 Standard Service Code $\)](../Topic/\($%20T_5996%20Standard%20Service%20Code%20$\).md)   
- [Working with \($ P\_1 Product Name $\)](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)
+ Standard Service Code   
+ [Working with Product Name](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)

@@ -48,7 +48,7 @@ It is important to plan which capacities are to make up the total capacity when 
  If capacities of work centers are to make no contribution to the total capacity, you can achieve this with efficiency \= 0.  
   
 ## See Also  
- [\($ N\_99000754 Work Center Card $\)](../Topic/\($%20N_99000754%20Work%20Center%20Card%20$\).md)   
- [\($ N\_99000760 Machine Center Card $\)](../Topic/\($%20N_99000760%20Machine%20Center%20Card%20$\).md)   
+ Work Center Card   
+ Machine Center Card   
  [Shop Calendars](../OperationsPlanning/shop-calendars.md)   
- [\($ T\_99000754\_52 Consolidated Calendar $\)](../Topic/\($%20T_99000754_52%20Consolidated%20Calendar%20$\).md)
+ Consolidated Calendar

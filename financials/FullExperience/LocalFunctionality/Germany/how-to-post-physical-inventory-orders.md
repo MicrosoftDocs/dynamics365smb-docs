@@ -32,11 +32,11 @@ After completing a physical inventory order and changing its status to **Finishe
   
 ### To post a physical inventory order  
   
-1.  In the **Search** box, enter **\($ N\_5005350 Phys. Inventory Order $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Phys. Inventory Order**, and then choose the related link.  
   
 2.  Select the physical inventory order that you want to complete, and then, on the **Home** tab, choose **Edit**.  
   
-     In the **\($ N\_5005350 Phys. Inventory Order $\)** window, you can view the quantity recorded after taking physical inventory in the **Qty. Recorded \(Base\)** field.  
+     In the **Phys. Inventory Order** window, you can view the quantity recorded after taking physical inventory in the **Qty. Recorded \(Base\)** field.  
   
 3.  On the **Home** tab, in the **Process** group, choose **Finish**.  
   
@@ -49,9 +49,9 @@ After completing a physical inventory order and changing its status to **Finishe
   
 ### To view posted physical inventory orders  
   
-1.  In the **Search** box, enter **\($ N\_5005358 Posted Phys. Invt. Order $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Posted Phys. Invt. Order**, and then choose the related link.  
   
-2.  In the **\($ N\_5005358 Posted Phys. Invt. Order $\)** window, select the posted inventory order that you want to view, and then, on the **Home** tab, choose **View**.  
+2.  In the **Posted Phys. Invt. Order** window, select the posted inventory order that you want to view, and then, on the **Home** tab, choose **View**.  
   
 3.  To view a list of related physical inventory recordings, on the **Navigate** tab, in the **Order** group, choose **Recordings**.  
   

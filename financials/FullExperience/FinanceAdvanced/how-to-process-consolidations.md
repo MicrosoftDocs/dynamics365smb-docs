@@ -73,7 +73,7 @@ This topic provides a high\-level overview of how you can work through the conso
     |When the dimension value code in the business unit is to be consolidated to a different dimension value code in the consolidated company.|Fill in the **Consolidated Code** field.<br /><br /> **NOTE:** The contents of the field should be the dimension value code that is contained in the consolidated company. For more information about how to consolidate dimension information, see [How to: Set Up Dimensions and Dimension Values](../Finance/how-to-set-up-dimensions-and-dimension-values.md).|  
   
 ## Exporting Data for Consolidations  
- If a business unit is located in another database, you must export the consolidation data to a file before it can be consolidated. Each company must be exported separately. For this purpose, use the **\($ B\_91 Export Consolidation $\)** batch job.  
+ If a business unit is located in another database, you must export the consolidation data to a file before it can be consolidated. Each company must be exported separately. For this purpose, use the **Export Consolidation** batch job.  
   
  After the batch job is run, all the entries in every general ledger account are processed. For every combination of selected dimensions and date, the contents of the entries' **Amount** fields are totaled and exported. The next combination of selected dimensions and date with the same account number is processed, then the combinations in the next account number are processed, and so on.  
   
@@ -122,8 +122,8 @@ This topic provides a high\-level overview of how you can work through the conso
   
 3.  Post the journal.  
   
- Before you post the eliminations, you can verify the effect on the trial balance of the consolidated company by using the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**[\($ R\_16 G\/L Consolidation Eliminations $\)](DynamicsNAV:////runreport?report=16)** report. The report displays a tentative trial balance. It shows the consequences of eliminating the entries by comparing the entries in the consolidated company with the eliminations that have been entered in the general journal. Calculating the eliminations is a time\-consuming manual process that may be aided by setting up specific intercompany accounts, intercompany customers\/vendors, and intercompany posting groups.  
+ Before you post the eliminations, you can verify the effect on the trial balance of the consolidated company by using the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**G\/L Consolidation Eliminations** report. The report displays a tentative trial balance. It shows the consequences of eliminating the entries by comparing the entries in the consolidated company with the eliminations that have been entered in the general journal. Calculating the eliminations is a time\-consuming manual process that may be aided by setting up specific intercompany accounts, intercompany customers\/vendors, and intercompany posting groups.  
   
 ## See Also  
- [\($ R\_17 Consolidated Trial Balance $\)](../Topic/\($%20R_17%20Consolidated%20Trial%20Balance%20$\).md)   
+ Consolidated Trial Balance   
  [\($ R\_18 Consolidated Trial Balance \(4\) $\)](../Topic/\($%20R_18%20Consolidated%20Trial%20Balance%20\(4\)%20$\).md)

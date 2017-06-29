@@ -32,13 +32,13 @@ Companies must pay withholding tax to the government for third\-party services a
   
 4.  Enter information into the relevant fields.  
   
-5.  To open add lines to the withhold code, on the **Navigate** tab, choose **\($ N\_12105 Withhold Code Lines $\)**.  
+5.  To open add lines to the withhold code, on the **Navigate** tab, choose **Withhold Code Lines**.  
   
 6.  Enter information into the relevant fields.  
   
 7.  Choose the **OK** button.  
   
-8.  To close the **\($ N\_12104 Withhold Codes $\)** window, choose the **OK** button.  
+8.  To close the **Withhold Codes** window, choose the **OK** button.  
   
 ### To set up withholding tax for vendors  
   
@@ -58,7 +58,7 @@ Companies must pay withholding tax to the government for third\-party services a
     |**Foreign Trade**|The foreign trade information for the vendor.|  
     |**Free Lance Fee**|Select the relevant withholding tax code in the **Withholding Tax Code** field to include the withholding tax information.|  
   
-4.  To close the **\($ N\_26 Vendor Card $\)** window, choose the **OK** button.  
+4.  To close the **Vendor Card** window, choose the **OK** button.  
   
 ### To calculate withholding tax for purchase invoices  
   
@@ -68,7 +68,7 @@ Companies must pay withholding tax to the government for third\-party services a
   
 3.  On the **Navigate** tab, in the **Invoice** group, Choose **Withhold Taxes\-Soc. Sec.**.  
   
-4.  In the **\($ N\_12133 Withh. Taxes\-Contribution Card $\)** window, on the **Withhold Taxes** FastTab, in the **\($ T\_12137\_11 Withholding Tax Code $\)** field, select the code for the withholding tax.  
+4.  In the **Withh. Taxes\-Contribution Card** window, on the **Withhold Taxes** FastTab, in the **Withholding Tax Code** field, select the code for the withholding tax.  
   
 5.  To calculate the withholding tax amount before posting, on the **Home** tab, in the **Process** group, choose **Calculate**.  
   
@@ -85,12 +85,12 @@ Companies must pay withholding tax to the government for third\-party services a
 4.  To make a vendor payment, on the **Home** tab, in the **Process** group, choose **Post**.  
   
     > [!NOTE]  
-    >  The amount in the new line in the **\($ N\_256 Payment Journal $\)** window is the withholding tax payment amount.  
+    >  The amount in the new line in the **Payment Journal** window is the withholding tax payment amount.  
   
-5.  To close the **\($ N\_256 Payment Journal $\)** window, choose the **OK** button.  
+5.  To close the **Payment Journal** window, choose the **OK** button.  
   
 ## See Also  
- [\($ N\_26 Vendor Card $\)](../Topic/\($%20N_26%20Vendor%20Card%20$\).md)   
- [\($ N\_51 Purchase Invoice $\)](../Topic/\($%20N_51%20Purchase%20Invoice%20$\).md)   
- [\($ N\_256 Payment Journal $\)](../../Finance/-$-n_256-payment-journal-$-.md)   
+ Vendor Card   
+ Purchase Invoice   
+ Payment Journal   
  [How to: Print Withholding Tax Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-print-withholding-tax-reports.md)

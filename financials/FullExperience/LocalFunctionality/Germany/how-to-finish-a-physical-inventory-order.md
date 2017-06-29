@@ -20,19 +20,19 @@ After you have entered all data for the physical inventory order, you can finish
   
  It is only possible to finish the physical inventory order if the following is true:  
   
--   For all related physical inventory recordings, the [\($ T\_5005350\_11 Status $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/-$-t_5005350_11-status-$-.md) field is set to **Finished**.  
+-   For all related physical inventory recordings, the Status field is set to **Finished**.  
   
 -   In all physical inventory order lines, the quantity expected has been calculated.  
   
-     [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] shows this by setting a check mark in the field [\($ T\_5005351\_51 Qty. Exp. Calculated $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/-$-t_5005351_51-qty.-exp.-calculated-$-.md) of the physical inventory order line.  
+     [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] shows this by setting a check mark in the field Qty. Exp. Calculated of the physical inventory order line.  
   
 -   Every physical inventory order line has been counted by at least one inventory recording line.  
   
-     This is indicated by selecting the [\($ T\_5005351\_12 In Recording Lines $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/-$-t_5005351_12-in-recording-lines-$-.md) field of the physical inventory order line. For a physical inventory order line, you can view a list of the physical inventory recording lines.  
+     This is indicated by selecting the In Recording Lines field of the physical inventory order line. For a physical inventory order line, you can view a list of the physical inventory recording lines.  
   
 ### To finish a physical inventory order  
   
-1.  In the **Search** box, enter **\($ N\_5005350 Phys. Inventory Order $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Phys. Inventory Order**, and then choose the related link.  
   
 2.  Open the physical inventory order that you want to finish.  
   

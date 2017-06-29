@@ -17,9 +17,9 @@ translation.priority.ht:
 ---
 # How to: Print Swiss VAT Statements (older version)
 > [!NOTE]  
->  This topic is retained for backward compatibility with the **\($ R\_11518 Swiss VAT Statement $\)** report. For information about using the newer Swiss VAT Statement, see [\($ R\_26100 Swiss VAT Statement $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/-$-r_26100-swiss-vat-statement-$-.md).  
+>  This topic is retained for backward compatibility with the **Swiss VAT Statement** report. For information about using the newer Swiss VAT Statement, see Swiss VAT Statement.  
   
- The **\($ R\_11518 Swiss VAT Statement $\)** is the standard calculation report for realizing VAT. You can print this report, and use it for quarterly tax reporting. The **\($ R\_11518 Swiss VAT Statement $\)** includes:  
+ The **Swiss VAT Statement** is the standard calculation report for realizing VAT. You can print this report, and use it for quarterly tax reporting. The **Swiss VAT Statement** includes:  
   
 -   A VAT entry.  
   
@@ -32,7 +32,7 @@ translation.priority.ht:
 1.  In the **Search** box, enter **Swiss VAT Statement**, and then choose the related link.  
   
     > [!NOTE]  
-    >  You will receive a message stating that the **\($ R\_11518 Swiss VAT Statement $\)** will open in the local language.  
+    >  You will receive a message stating that the **Swiss VAT Statement** will open in the local language.  
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
@@ -55,6 +55,6 @@ translation.priority.ht:
 ## See Also  
  [Swiss Value Added Tax](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/swiss-value-added-tax.md)   
  [VAT Rates for Switzerland](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/vat-rates-for-switzerland.md)   
- [\($ T\_325 VAT Posting Setup $\)](assetId:///5510a4f9-3ad3-461f-a53a-f3578c78a87f)   
- [\($ T\_98 General Ledger Setup $\)](assetId:///199e09dc-fe90-4792-be3e-ad395447dfd6)   
- [\($ T\_254 VAT Entry $\)](assetId:///e4113f5c-adc8-4bfd-8c4b-e7b5f11f4d32)
+ VAT Posting Setup   
+ General Ledger Setup   
+ VAT Entry

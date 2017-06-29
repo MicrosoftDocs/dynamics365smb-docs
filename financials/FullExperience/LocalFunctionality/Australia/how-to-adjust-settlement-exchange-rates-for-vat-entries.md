@@ -18,7 +18,7 @@ translation.priority.ht:
   - "en-au"
 ---
 # How to: Adjust Settlement Exchange Rates for VAT Entries
-You can use the **\($ B\_28140 Adjust Settlement Exch. Rates $\)** batch job to settle VAT entries according to the government exchange rate as defined in the **\($ T\_330 Currency Exchange Rate $\)** table.  
+You can use the **Adjust Settlement Exch. Rates** batch job to settle VAT entries according to the government exchange rate as defined in the **Currency Exchange Rate** table.  
   
 ### To adjust settlement exchange rates for VAT  
   
@@ -37,10 +37,10 @@ You can use the **\($ B\_28140 Adjust Settlement Exch. Rates $\)** batch job to 
   
 3.  Choose the **OK** button.  
   
-     The VAT entries are adjusted and you can view them in the **\($ R\_13 VAT Register $\)** report.  
+     The VAT entries are adjusted and you can view them in the **VAT Register** report.  
   
 ## See Also  
- [\($ T\_220\_21 Currency Exchange Rate Table $\)](assetId:///c2b9e4c1-cbde-4c6b-8e3a-c667db16b2a5)   
- [\($ N\_315 VAT Entries $\)](assetId:///565c1d1c-6dfe-4513-96e8-47101bb77390)   
- [\($ R\_13 VAT Register $\)](../Topic/\($%20R_13%20VAT%20Register%20$\).md)   
- [\($ T\_86 Exch. Rate Adjmt. Reg. $\)](assetId:///dde1cd95-0abb-43af-9a94-6e41ece7b006)
+ Currency Exchange Rate Table   
+ VAT Entries   
+ VAT Register   
+ Exch. Rate Adjmt. Reg.

@@ -51,8 +51,8 @@ You use profiles to link Role Centers to users. Like Role Centers, profiles alig
 |Create a profile.|[How to: Create Profiles](../SetupAndAdministration/how-to-create-profiles.md)|  
 |Assign users to profiles.|[How to: Assign Users to Profiles](../SetupAndAdministration/how-to-assign-users-to-profiles.md)|  
 |Export a profile.|[How to: Export or Import Profiles](../SetupAndAdministration/how-to-export-or-import-profiles.md)|  
-|Work with the Profile Card window.|[\($ N\_9170 Profile Card $\)](../SetupAndAdministration/-$-n_9170-profile-card-$-.md)|  
-|Work with the Profile List window.|[\($ N\_9171 Profile List $\)](../SetupAndAdministration/-$-n_9171-profile-list-$-.md)|  
+|Work with the Profile Card window.|Profile Card|  
+|Work with the Profile List window.|Profile List|  
   
 ## See Also  
  [Profiles and Roles Centers \(from the Microsoft Dynamics NAV 2013 Developer and IT Pro Documentation, on MSDN\)](http://msdn.microsoft.com/en-us/library/dd355357.aspx)

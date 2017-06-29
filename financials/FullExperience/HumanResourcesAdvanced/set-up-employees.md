@@ -54,4 +54,4 @@ To use the Human Resources feature, you must set up employees by creating a new 
 |Insert a picture of the employee.|[How to: Insert Pictures of Employees](../HumanResources/how-to-insert-pictures-of-employees.md)|  
   
 ## See Also  
- [\($ T\_5200 Employee $\)](../Topic/\($%20T_5200%20Employee%20$\).md)
+ Employee

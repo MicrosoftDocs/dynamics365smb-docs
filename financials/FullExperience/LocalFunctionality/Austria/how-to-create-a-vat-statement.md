@@ -18,7 +18,7 @@ translation.priority.ht:
 [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] allows you to submit a periodic report of VAT transactions. The VAT statement is submitted as a FDF file that corresponds with an editable PDF file from the tax authorities.  
   
 > [!IMPORTANT]  
->  You must fill in detailed information about your company address in the [\($ N\_1 Company Information $\)](assetId:///45c9cfb7-ca1f-4323-99cd-9360a5631648) window before you create the VAT statement. This includes information about street, building, floor, and room number. This information is included in the FDF file.  
+>  You must fill in detailed information about your company address in the Company Information window before you create the VAT statement. This includes information about street, building, floor, and room number. This information is included in the FDF file.  
   
 ### To create a VAT statement  
   
@@ -47,5 +47,5 @@ translation.priority.ht:
   
 ## See Also  
  [VAT Reporting](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/vat-reporting.md)   
- [\($ B\_11110 VAT Statement AT $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/-$-b_11110-vat-statement-at-$-.md)   
- [\($ N\_1 Company Information $\)](assetId:///45c9cfb7-ca1f-4323-99cd-9360a5631648)
+ VAT Statement AT   
+ Company Information

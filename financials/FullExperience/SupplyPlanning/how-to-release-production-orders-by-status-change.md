@@ -43,7 +43,7 @@ You can release both a planned production order and a firm planned production or
   
 ### To release a production order by changing status  
   
-1.  In the **Search** box, enter **\($ N\_99000829 Firm Planned Prod. Order $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Firm Planned Prod. Order**, and then choose the related link.  
   
 2.  Select the production order to be released.  
   

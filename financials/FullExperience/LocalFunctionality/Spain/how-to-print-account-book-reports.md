@@ -60,5 +60,5 @@ Account book reports display all the general ledger entries created in a specifi
   
 ## See Also  
  [Spain Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/spain-local-functionality.md)   
- [\($ R\_10706 Account \- Official Acc. Book $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-r_10706-account-official-acc.-book-$-.md)   
- [\($ R\_10716 Official Acc. Summarized Book $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-r_10716-official-acc.-summarized-book-$-.md)
+ Account \- Official Acc. Book   
+ Official Acc. Summarized Book

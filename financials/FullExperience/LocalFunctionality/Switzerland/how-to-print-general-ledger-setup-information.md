@@ -19,11 +19,11 @@ translation.priority.ht:
   - "fr-ch"
 ---
 # How to: Print General Ledger Setup Information
-Before you use [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] in the daily business, you can run the **\($ R\_11514 G\/L Setup Information $\)** report to display the master data that you have set up. You can look over this master data so that you have a baseline to compare to, and then verify that you have set up posting groups correctly, for example.  
+Before you use [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] in the daily business, you can run the **G\/L Setup Information** report to display the master data that you have set up. You can look over this master data so that you have a baseline to compare to, and then verify that you have set up posting groups correctly, for example.  
   
 ### To print general ledger setup information  
   
-1.  In the **Search** box, enter **\($ R\_11514 G\/L Setup Information $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **G\/L Setup Information**, and then choose the related link.  
   
 2.  On the **Options** FastTab, in the **Setup Information** field, select the master data area as described in the following table.  
   
@@ -39,18 +39,18 @@ Before you use [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [\($ R\_11514 G\-L Setup Information $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/-$-r_11514-g-l-setup-information-$-.md)   
- [\($ T\_98 General Ledger Setup $\)](assetId:///199e09dc-fe90-4792-be3e-ad395447dfd6)   
- [\($ T\_79 Company Information $\)](assetId:///2a44e662-0d42-429e-8131-e0012a89996a)   
- [\($ T\_220 Business Unit $\)](assetId:///bee5745b-543d-4588-90d6-4a6c79e2ce2b)   
- [\($ T\_92 Customer Posting Group $\)](../Topic/\($%20T_92%20Customer%20Posting%20Group%20$\).md)   
- [\($ T\_93 Vendor Posting Group $\)](../Topic/\($%20T_93%20Vendor%20Posting%20Group%20$\).md)   
- [\($ T\_94 Inventory Posting Group $\)](../Topic/\($%20T_94%20Inventory%20Posting%20Group%20$\).md)   
- [\($ T\_277 Bank Account Posting Group $\)](assetId:///b4a12ab6-0240-49f6-9d98-c561515d25fd)   
- [\($ T\_250 Gen. Business Posting Group $\)](assetId:///b4468ee4-0324-4b46-80b5-efa5b5c1ad28)   
- [\($ T\_251 Gen. Product Posting Group $\)](assetId:///850fd887-5799-4852-b2d5-5ec44f485dd8)   
- [\($ T\_252 General Posting Setup $\)](assetId:///8d1129f7-d16d-40a2-a351-8a1aed5953b3)   
- [\($ T\_323 VAT Business Posting Group $\)](assetId:///2062a4d9-5817-4137-ae5c-d51c7d397f08)   
- [\($ T\_324 VAT Product Posting Group $\)](assetId:///03dbc973-a1b4-4805-b4aa-ee13ba8dca13)   
- [\($ T\_325 VAT Posting Setup $\)](assetId:///5510a4f9-3ad3-461f-a53a-f3578c78a87f)   
- [\($ T\_308 No. Series $\)](assetId:///18dc626f-cdf2-4bd9-b1ab-d98927ce4c3b)
+ G\-L Setup Information   
+ General Ledger Setup   
+ Company Information   
+ Business Unit   
+ Customer Posting Group   
+ Vendor Posting Group   
+ Inventory Posting Group   
+ Bank Account Posting Group   
+ Gen. Business Posting Group   
+ Gen. Product Posting Group   
+ General Posting Setup   
+ VAT Business Posting Group   
+ VAT Product Posting Group   
+ VAT Posting Setup   
+ No. Series

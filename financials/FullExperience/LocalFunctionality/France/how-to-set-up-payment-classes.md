@@ -23,7 +23,7 @@ To use payment management, you must set up payment classes to define operation t
   
 1.  In the **Search** box, enter **Payment Slip Setup**, and then choose the relevant link.  
   
-2.  In the **\($ N\_10864 Payment Class $\)** window, on the **Home** tab, choose **New**.  
+2.  In the **Payment Class** window, on the **Home** tab, choose **New**.  
   
 3.  Fill in the fields as described in the following table.  
   
@@ -35,10 +35,10 @@ To use payment management, you must set up payment classes to define operation t
     |**Header No. Series**|The number series code for the payment slip header.|  
     |**Line No. Series**|The number series code for the payment slip lines. If you leave this field blank, the number for each payment line is created based on the payment header number.|  
     |**Suggestions**|The type of payment proposals that can be created automatically on a payment slip.|  
-    |**Unrealized VAT Reversal**|Specify the method to handle unrealized VAT.<br /><br /> If you select **Application**, VAT will be realized when you post the invoice application and payment application.<br /><br /> If you select **Delayed**, you must define the payment step during which VAT must be realized, by selecting the **\($ T\_10862\_19 Realize VAT $\)** field in the **\($ N\_10867 Payment Step Card $\)** window. For more information, see [\($ T\_10862\_19 Realize VAT $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/-$-t_10862_19-realize-vat-$-.md) and [\($ T\_10862 Payment Step $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/-$-t_10862-payment-step-$-.md).|  
-    |**\($ T\_10860\_12 SEPA Transfer Type $\)**|Specify the SEPA export format, either **Credit Transfer** or **Direct Debit**.|  
+    |**Unrealized VAT Reversal**|Specify the method to handle unrealized VAT.<br /><br /> If you select **Application**, VAT will be realized when you post the invoice application and payment application.<br /><br /> If you select **Delayed**, you must define the payment step during which VAT must be realized, by selecting the **Realize VAT** field in the **Payment Step Card** window. For more information, see Realize VAT and Payment Step.|  
+    |**SEPA Transfer Type**|Specify the SEPA export format, either **Credit Transfer** or **Direct Debit**.|  
   
-     For more information, see [\($ T\_10860 Payment Class $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/-$-t_10860-payment-class-$-.md).  
+     For more information, see Payment Class.  
   
 4.  Choose the **OK** button.  
   
@@ -51,7 +51,7 @@ To use payment management, you must set up payment classes to define operation t
  [How to: Create Payment Slips](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-create-payment-slips.md)   
  [How to: Post Payment Slips](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-post-payment-slips.md)   
  [How to: Archive Payment Slips](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-archive-payment-slips.md)   
- [\($ N\_10864 Payment Class $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/-$-n_10864-payment-class-$-.md)   
- [\($ T\_10860 Payment Class $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/-$-t_10860-payment-class-$-.md)   
- [\($ T\_10862\_19 Realize VAT $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/-$-t_10862_19-realize-vat-$-.md)   
- [\($ T\_10862 Payment Step $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/-$-t_10862-payment-step-$-.md)
+ Payment Class   
+ Payment Class   
+ Realize VAT   
+ Payment Step

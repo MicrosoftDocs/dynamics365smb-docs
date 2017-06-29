@@ -47,11 +47,11 @@ If you apply entries in different currencies, you must set up the general ledger
   
 ### To set up G\/L accounts for currency application rounding differences  
   
-1.  In the **Search** box, enter **\($ N\_110 Customer Posting Groups $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Customer Posting Groups**, and then choose the related link.  
   
 2.  In the **Debit Curr. Appln. Rndg. Acc.** and **Credit Curr. Appln. Rndg. Acc.** fields, enter the relevant general ledger accounts to post rounding differences.  
   
-3.  In the **Search** box, enter **\($ N\_111 Vendor Posting Groups $\)**, and then choose the related link.  
+3.  In the **Search** box, enter **Vendor Posting Groups**, and then choose the related link.  
   
 4.  In the **Debit Curr. Appln. Rndg. Acc.** and **Credit Curr. Appln. Rndg. Acc.** fields, enter the relevant general ledger accounts to post rounding differences.  
   

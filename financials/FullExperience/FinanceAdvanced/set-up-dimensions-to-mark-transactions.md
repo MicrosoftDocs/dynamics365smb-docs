@@ -66,12 +66,12 @@ Dimensions are data that you add to entries to categorize them for analysis. For
   
 |**To**|**See**|  
 |------------|-------------|  
-|Learn about dimensions and what you can use them for.|[\($ T\_348 Dimension $\)](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)|  
+|Learn about dimensions and what you can use them for.|Dimension|  
 |Set up a dimension and its values.|[How to: Set Up Dimensions and Dimension Values](../Finance/how-to-set-up-dimensions-and-dimension-values.md)|  
 |Select two dimensions that will be available globally and can be used as filters for general ledger entries, as well as on all reports, account schedules and batch jobs.|[How to: Set Up Global Dimensions](../Finance/how-to-set-up-global-dimensions.md)|  
 |Select up to six dimensions, in addition to the global dimensions, that you will be able to access directly from journal or document lines.|[How to: Set Up Shortcut Dimensions](../Finance/how-to-set-up-shortcut-dimensions.md)|  
 |Set up default dimension values for a single account, such as a customer.|[How to: Set Up Default Dimensions for One Account](../Finance/how-to-set-up-default-dimensions-for-one-account.md)|  
-|Set up default dimension values for a group of accounts that you define.|[\($ N\_542 Default Dimension \- Multiple $\)](assetId:///9dbb8368-e787-472c-86b4-e8157799bfe1)|  
+|Set up default dimension values for a group of accounts that you define.|Default Dimension \- Multiple|  
 |Set up default dimension values, or make a dimension mandatory for an account type, such as customer or salesperson accounts.|[How to: Set Up Default or Required Dimensions for Account Types](../Finance/how-to-set-up-default-or-required-dimensions-for-account-types.md)|  
 |Specify how to handle conflicts between default dimension values, for example from different sources on a journal or document line.|[How to: Set Up Default Dimension Priorities](../Finance/how-to-set-up-default-dimension-priorities.md)|  
 |Block or limit specific combinations of two dimensions.|[How to: Set Up Dimension Combinations](../Finance/how-to-set-up-dimension-combinations.md)|  

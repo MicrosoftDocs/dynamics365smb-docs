@@ -49,15 +49,15 @@ There are no requirements for when or how often you should enter new exchange ra
   
 1.  In the **Search** box, enter **Currencies**, and then choose the related link.  
   
-2.  In the **\($ N\_5 Currencies $\)** window, select the line with the currency code you want to update. On the **Actions** tab, choose **Exch. Rates**.  
+2.  In the **Currencies** window, select the line with the currency code you want to update. On the **Actions** tab, choose **Exch. Rates**.  
   
-3.  In the **\($ N\_483 Currency Exchange Rates $\)** window that appears, fill in the fields on the next blank line. [!INCLUDE[bp_fieldhelp]()]  
+3.  In the **Currency Exchange Rates** window that appears, fill in the fields on the next blank line. [!INCLUDE[bp_fieldhelp]()]  
   
 4.  Close the windows.  
   
-5.  Run the **\($ B\_595 Adjust Exchange Rates $\)** batch job to adjust the exchange rates of posted customer, vendor and bank account entries. The batch job also updates additional reporting currency amounts on general ledger entries.  
+5.  Run the **Adjust Exchange Rates** batch job to adjust the exchange rates of posted customer, vendor and bank account entries. The batch job also updates additional reporting currency amounts on general ledger entries.  
   
 ## See Also  
- [\($ B\_595 Adjust Exchange Rates $\)](../Topic/\($%20B_595%20Adjust%20Exchange%20Rates%20$\).md)   
+ Adjust Exchange Rates   
  [About Using Additional Reporting Currencies](../Finance/about-using-additional-reporting-currencies.md)   
  [How to: Change Exchange Rates When You Post](../Finance/how-to-change-exchange-rates-when-you-post.md)

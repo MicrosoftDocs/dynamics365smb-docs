@@ -43,7 +43,7 @@ translation.priority.ht:
 # How to: Select a Principle for Posting Purchase Discounts
 When you post a purchase invoice that includes one or more discounts, you can choose between two principles for posting discount amounts. You can post discounts separately or you can subtract discounts from invoice discounts.  
   
- Before you can do this, you must have already set up the necessary accounts for posting discount amounts in the chart of accounts. You must also check that you have entered the correct account numbers in the general posting setup in the **\($ T\_252\_15 Purch. Line Disc. Account $\)** and **\($ T\_252\_16 Purch. Inv. Disc. Account $\)** fields.  
+ Before you can do this, you must have already set up the necessary accounts for posting discount amounts in the chart of accounts. You must also check that you have entered the correct account numbers in the general posting setup in the **Purch. Line Disc. Account** and **Purch. Inv. Disc. Account** fields.  
   
 ### To choose a principle for posting purchase discounts  
   

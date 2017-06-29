@@ -63,5 +63,5 @@ You cannot create an invoice without a customer number. This is true, even if yo
 >  You must enter a number for a receivables account for the posting group, even though the balance in this account will always be 0 after you post an invoice.  
   
 ## See Also  
- [\($ N\_21 Customer Card $\)](../Topic/\($%20N_21%20Customer%20Card%20$\).md)   
+ Customer Card   
  [Manage Cash](../Finance/manage-cash.md)

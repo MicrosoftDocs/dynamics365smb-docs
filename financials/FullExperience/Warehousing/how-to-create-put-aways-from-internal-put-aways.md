@@ -81,8 +81,8 @@ After items have been put away and before they are picked to fulfill the needs o
 4.  On the **Actions** tab, in the **Functions** group, choose **Create Put\-away**. A warehouse put\-away instruction is now ready for a warehouse employee to perform.  
   
 ## See Also  
- [\($ N\_7357 Whse. Internal Pick $\)](../Topic/\($%20N_7357%20Whse.%20Internal%20Pick%20$\).md)   
- [\($ N\_7354 Whse. Internal Put\-away $\)](../Topic/\($%20N_7354%20Whse.%20Internal%20Put-away%20$\).md)   
+ Whse. Internal Pick   
+ Whse. Internal Put\-away   
  [Move Items](../WarehouseActivities/move-items.md)   
  [How to: Post Quantity Adjustments for Bins](../WarehouseActivities/how-to-post-quantity-adjustments-for-bins.md)   
  [How to: Register Quantity Adjustments in Warehouse Item Journals](../WarehouseActivities/how-to-register-quantity-adjustments-in-warehouse-item-journals.md)

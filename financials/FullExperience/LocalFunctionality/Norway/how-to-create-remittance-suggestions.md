@@ -18,7 +18,7 @@ translation.priority.ht:
 You can create a remittance suggestion so that payment proposals are sent to vendors who are set up to receive remittance payments. One payment transaction per posting date for each vendor is transferred to the bank.  
   
 > [!NOTE]  
->  To avoid creating payment suggestions for vendors who are remitted when the usual vendor suggestion process is used, add a filter for **Remittance** in the **\($ R\_15000001 Suggest Vendor Payments $\)** window and set the filter to **No**.  
+>  To avoid creating payment suggestions for vendors who are remitted when the usual vendor suggestion process is used, add a filter for **Remittance** in the **Suggest Vendor Payments** window and set the filter to **No**.  
   
 ### To create a remittance suggestion  
   

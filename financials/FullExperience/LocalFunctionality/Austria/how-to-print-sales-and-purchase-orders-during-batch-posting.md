@@ -32,7 +32,7 @@ After sales orders and purchase orders are batch posted, you can print the corre
   
 2.  On the **Home** tab, in the **Process** group, choose **Post Batch**.  
   
-3.  In the **\($ B\_296 Batch Post Sales Orders $\)** window, on the **Options** FastTab, select the **Print** check box.  
+3.  In the **Batch Post Sales Orders** window, on the **Options** FastTab, select the **Print** check box.  
   
 4.  Optionally, on the **Options** FastTab, fill in the additional fields.  
   

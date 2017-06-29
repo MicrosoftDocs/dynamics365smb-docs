@@ -18,13 +18,13 @@ translation.priority.ht:
 # How to: Suggest DTA Payment for Vendors
 You can suggest vendor payments using the payment journal, and transfer the overdue invoices into the journal for individual vendors. You can also examine each vendor for open credit memos or open payments, and build a list of vendors for DatenTrägerAustausch \(DTA\) processing. For more information, see [How to: Verify a List of Vendors for DTA Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-verify-a-list-of-vendors-for-dta-payments.md).  
   
- During the batch processing of DTA payment suggestions, the foreign currency \(FCY\) amount is converted to local currency \(LCY\) at the current rate for FCY payments, and transferred into the payment journal. For more information, see the **\($ N\_256 Payment Journal $\)** window. In the case of a bank debit, the LCY amount is overwritten with the debited LCY amount, and the exchange rate—or exchange factor—is calculated. For more information, see the [\($ T\_98 General Ledger Setup $\)](assetId:///199e09dc-fe90-4792-be3e-ad395447dfd6) table and the [\($ T\_330 Currency Exchange Rate $\)](assetId:///b0b89d1c-bc67-4cc9-ba62-20ddd368452c) table.  
+ During the batch processing of DTA payment suggestions, the foreign currency \(FCY\) amount is converted to local currency \(LCY\) at the current rate for FCY payments, and transferred into the payment journal. For more information, see the **Payment Journal** window. In the case of a bank debit, the LCY amount is overwritten with the debited LCY amount, and the exchange rate—or exchange factor—is calculated. For more information, see the General Ledger Setup table and the Currency Exchange Rate table.  
   
 ### To suggest DTA payment for vendors  
   
 1.  In the **Search** box, enter **Payment Journals**, and then choose the related link.  
   
-2.  In the **\($ N\_256\_33 Batch Name $\)** field, select the required journal batch.  
+2.  In the **Batch Name** field, select the required journal batch.  
   
 3.  Select the required payment line, and on the **Home** tab, in the **Process** group, select **DTA Suggest Vendor Payment**.  
   
@@ -52,10 +52,10 @@ You can suggest vendor payments using the payment journal, and transfer the over
  [How to: Verify a List of Vendors for DTA Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-verify-a-list-of-vendors-for-dta-payments.md)   
  [How to: Submit DTA Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-submit-dta-payments.md)   
  [How to: Export Payments Using EZAG](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-export-payments-using-ezag.md)   
- [\($ T\_3010541 DTA Setup $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/-$-t_3010541-dta-setup-$-.md)   
- [\($ T\_98 General Ledger Setup $\)](assetId:///199e09dc-fe90-4792-be3e-ad395447dfd6)   
- [\($ T\_330 Currency Exchange Rate $\)](assetId:///b0b89d1c-bc67-4cc9-ba62-20ddd368452c)   
- [\($ N\_256 Payment Journal $\)](../../Finance/-$-n_256-payment-journal-$-.md)   
+ DTA Setup   
+ General Ledger Setup   
+ Currency Exchange Rate   
+ Payment Journal   
  [How to: Suggest Vendor Payments](../../Finance/how-to-suggest-vendor-payments.md)   
- [\($ B\_393 Suggest Vendor Payments $\)](../Topic/\($%20B_393%20Suggest%20Vendor%20Payments%20$\).md)   
- [\($ T\_288\_3010550 Debit Bank $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/-$-t_288_3010550-debit-bank-$-.md)
+ Suggest Vendor Payments   
+ Debit Bank

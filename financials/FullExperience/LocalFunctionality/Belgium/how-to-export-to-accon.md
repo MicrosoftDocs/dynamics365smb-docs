@@ -16,7 +16,7 @@ translation.priority.ht:
   - "nl-be"
 ---
 # How to: Export to Accon
-The **\($ R\_11313 Link to Accon $\)** report enables you to create a file that can be imported into ACCON Plus to generate an annual income statement. The report exports the total balances of the general ledger accounts for a specific period.  
+The **Link to Accon** report enables you to create a file that can be imported into ACCON Plus to generate an annual income statement. The report exports the total balances of the general ledger accounts for a specific period.  
   
 ### To export the Link to Accon report  
   

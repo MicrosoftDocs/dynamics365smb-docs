@@ -72,8 +72,8 @@ When your warehouse location requires pick processing but does not require shipm
  You can also create an **Inventory Pick** directly from the released production order. On the **Actions** tab, in the **Warehouse** group, choose **Create Inventory Put\-away\/Pick\/Movement**, and then select the **Create Invt. Pick** field on the **Options** FastTab of the request window. You can print the pick list by selecting the **Print Document** field.  
   
 ## See Also  
- [\($ N\_7377 Inventory Pick $\)](../Topic/\($%20N_7377%20Inventory%20Pick%20$\).md)   
+ Inventory Pick   
  [How to: Pick for Internal Operations in Advanced Warehousing](../WarehouseActivities/how-to-pick-for-internal-operations-in-advanced-warehousing.md)   
- [\($ N\_7382 Inventory Movement $\)](../Topic/\($%20N_7382%20Inventory%20Movement%20$\).md)   
+ Inventory Movement   
  [How to: Move Components to an Operation Area in Basic Warehousing](../WarehouseActivities/how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
  [How to: Move Items Ad Hoc in Basic Warehousing](../WarehouseActivities/how-to-move-items-ad-hoc-in-basic-warehousing.md)

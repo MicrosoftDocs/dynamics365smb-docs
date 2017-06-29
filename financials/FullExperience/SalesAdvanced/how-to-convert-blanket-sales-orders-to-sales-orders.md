@@ -59,7 +59,7 @@ You can either convert an entire blanket order into one order, or you can make i
  A message appears informing you that the blanket order has been assigned an order number. You can see the new sales order in the [sales order list](DynamicsNAV:////runpage?Page=9305). Note that the blanket order has not been deleted.  
   
 ## See Also  
- [\($ N\_507 Blanket Sales Order $\)](../Topic/\($%20N_507%20Blanket%20Sales%20Order%20$\).md)   
- [\($ N\_42 Sales Order $\)](../Topic/\($%20N_42%20Sales%20Order%20$\).md)   
+ Blanket Sales Order   
+ Sales Order   
  [How to: Create Blanket Sales Orders](../Sales/how-to-create-blanket-sales-orders.md)   
  [About Blanket Sales Orders](../Sales/about-blanket-sales-orders.md)

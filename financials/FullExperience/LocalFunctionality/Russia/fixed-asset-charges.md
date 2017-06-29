@@ -37,6 +37,6 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can us
  [How to: Allocate and Post Fixed Asset Charges](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-allocate-and-post-fixed-asset-charges.md)   
  [How to: Create a Credit Memo for a Fixed Asset Charge](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-create-a-credit-memo-for-a-fixed-asset-charge.md)   
  [How to: View Posted Entries on a Fixed Asset Charge](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-view-posted-entries-on-a-fixed-asset-charge.md)   
- [\($ T\_5611 Depreciation Book $\)](../Topic/\($%20T_5611%20Depreciation%20Book%20$\).md)   
- [\($ T\_5612 FA Depreciation Book $\)](../Topic/\($%20T_5612%20FA%20Depreciation%20Book%20$\).md)   
+ Depreciation Book   
+ FA Depreciation Book   
  [How to: Set Up Fixed Asset Depreciation Books Automatically](../../Finance/how-to-set-up-fixed-asset-depreciation-books-automatically.md)

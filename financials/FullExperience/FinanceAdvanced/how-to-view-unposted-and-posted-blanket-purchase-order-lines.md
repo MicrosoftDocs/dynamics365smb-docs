@@ -43,7 +43,7 @@ The link between the blanket order and the originating purchase order is retaine
   
 ### To view unposted and posted blanket purchase order lines  
   
-1.  In the **Search** box, enter **\($ N\_509 Blanket Purchase Order $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Blanket Purchase Order**, and then choose the related link.  
   
 2.  Open the blanket purchase order you want to view.  
   

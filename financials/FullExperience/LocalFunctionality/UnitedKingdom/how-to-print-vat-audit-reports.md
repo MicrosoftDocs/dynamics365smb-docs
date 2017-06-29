@@ -28,16 +28,16 @@ All vendors must export the data required for auditing in a Content Separated Va
   
 1.  In the **Search** box, enter **VAT Audit**, and then choose the related link.  
   
-2.  In the **\($ B\_10512 VAT Audit $\)** window, on the **Options** FastTab, fill in the fields as described in the following table.  
+2.  In the **VAT Audit** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ B\_10512\_N\_2\_2 Export Customers $\)**|Select to export the file to the **\($ T\_18 Customer $\)** table.|  
+    |**\($ B\_10512\_N\_2\_2 Export Customers $\)**|Select to export the file to the **Customer** table.|  
     |**\($ B\_10512\_N\_2\_8 Export Open Payments $\)**|Select to export the open credit entries.|  
     |**\($ B\_10512\_N\_2\_12 Export Late Invoicing $\)**|Select to export customer entries that took longer to invoice than the number of days specified in the **\($ B\_10512\_N\_2\_21 Late Invoice Delay \(Days\) $\)** field.|  
     |**\($ B\_10512\_N\_2\_21 Late Invoice Delay \(Days\) $\)**|Enter the number of days between the invoice issue date and the payment received date. If the **\($ B\_10512\_N\_2\_12 Export Late Invoicing $\)** field is selected, entries exceeding this limit will be exported.|  
-    |**\($ B\_10512\_N\_2\_15 Export Vendors $\)**|Select to export the file to the **\($ T\_23 Vendor $\)** table.|  
-    |**\($ B\_10512\_N\_2\_16 Export VAT Entries $\)**|Select to export the entries in the **\($ T\_254 VAT Entry $\)** table.|  
+    |**\($ B\_10512\_N\_2\_15 Export Vendors $\)**|Select to export the file to the **Vendor** table.|  
+    |**\($ B\_10512\_N\_2\_16 Export VAT Entries $\)**|Select to export the entries in the **VAT Entry** table.|  
   
     > [!NOTE]  
     >  You must select at least one check box in this window.  
@@ -50,7 +50,7 @@ All vendors must export the data required for auditing in a Content Separated Va
   
 1.  In the **Search** box, enter **VAT Entry Exception Report**, and then choose the related link.  
   
-2.  In the **\($ B\_10511 VAT Entry Exception Report $\)** window, on the **Options** FastTab, fll in the fields as described in the following table.  
+2.  In the **VAT Entry Exception Report** window, on the **Options** FastTab, fll in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
@@ -68,7 +68,7 @@ All vendors must export the data required for auditing in a Content Separated Va
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [\($ B\_10512 VAT Audit $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/-$-b_10512-vat-audit-$-.md)   
- [\($ R\_10511 VAT Entry Exception $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/-$-r_10511-vat-entry-exception-$-.md)   
- [\($ R\_31 VAT Exception $\)](../Topic/\($%20R_31%20VAT%20Exception%20$\).md)   
+ VAT Audit   
+ VAT Entry Exception   
+ VAT Exception   
  [United Kingdom Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/united-kingdom-local-functionality.md)

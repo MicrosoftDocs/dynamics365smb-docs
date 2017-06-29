@@ -49,7 +49,7 @@ If you need multiple journals of a certain type, you can create multiple journal
   
 1.  In the **Search** box, enter **General Journal Templates**, and then choose the related link.  
   
-2.  In the **\($ N\_101 General Journal Templates $\)** window, select the line that contains the template for which you want to set up batches.  
+2.  In the **General Journal Templates** window, select the line that contains the template for which you want to set up batches.  
   
 3.  On the **Navigate** tab, in the **Template** group, choose **Batches**.  
   

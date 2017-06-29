@@ -43,7 +43,7 @@ The Receivables Cartera module allows you to manage bills generated from sales i
   
  A bill group of invoices can be submitted to a financial institution \(factor\) for risked factoring \(the risk of insolvency is covered by the company\) or unrisked factoring \(the risk of insolvency is covered by the factor\).  
   
- For more information, see [\($ T\_7000005 Bill Group $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-t_7000005-bill-group-$-.md).  
+ For more information, see Bill Group.  
   
  Bill groups include:  
   

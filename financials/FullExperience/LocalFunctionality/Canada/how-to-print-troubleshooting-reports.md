@@ -54,4 +54,4 @@ The following troubleshooting reports are available to assist Microsoft Certifie
  [Canada Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/canada-local-functionality.md)   
  [Mexico Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Mexico/mexico-local-functionality.md)   
  [United States Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedStates/united-states-local-functionality.md)   
- [\($ R\_10315  Data Dictionary $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-r_10315-data-dictionary-$-.md)
+ Data Dictionary

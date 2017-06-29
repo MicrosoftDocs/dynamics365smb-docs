@@ -27,54 +27,54 @@ You must sign an agreement of remittance with the bank when you set up electroni
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_15000000\_1 Code $\)**|Specify the agreement code from the bank.|  
-    |**\($ T\_15000000\_2 Description $\)**|Specify a name for the agreement, such as the name of the bank.|  
-    |**\($ T\_15000000\_3 Payment System $\)**|Select the payment system that will be used. Payment systems include **DnB Telebank**, **K\-LINK**, **SparNett**, **Fokus Bank**, **Postbanken**, **Other bank**, and **BBS**.|  
+    |**Code**|Specify the agreement code from the bank.|  
+    |**Description**|Specify a name for the agreement, such as the name of the bank.|  
+    |**Payment System**|Select the payment system that will be used. Payment systems include **DnB Telebank**, **K\-LINK**, **SparNett**, **Fokus Bank**, **Postbanken**, **Other bank**, and **BBS**.|  
   
 4.  On the **Bank** FastTab, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_15000000\_22 Operator No. $\)**|Specify the operator information given by the bank.|  
-    |**\($ T\_15000000\_23 Company\/Agreement No $\).**|Specify the company information given by the bank.|  
-    |**\($ T\_15000000\_24 Division $\)**|Specify the division information given by the bank.|  
-    |**\($ T\_15000000\_30 Latest Sequence No. $\)**|Specify the latest sequence number.|  
-    |**\($ T\_15000000\_32 Latest Daily Sequence No. $\)**|Specify the latest daily sequence number.|  
-    |**\($ T\_15000000\_32 Latest Export $\)**|Specify the date of the latest export.|  
+    |**Operator No.**|Specify the operator information given by the bank.|  
+    |**Company\/Agreement No.**|Specify the company information given by the bank.|  
+    |**Division**|Specify the division information given by the bank.|  
+    |**Latest Sequence No.**|Specify the latest sequence number.|  
+    |**Latest Daily Sequence No.**|Specify the latest daily sequence number.|  
+    |**Latest Export**|Specify the date of the latest export.|  
   
 5.  On the **BBS** FastTab, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_15000000\_25 BBS Customer Unit ID $\)**|Specify the identification of the agreement for Bankernes Betalingssentral \(BBS\). This code is provided by BBS.|  
-    |**\($ T\_15000000\_33 Latest BBS Payment Order No. $\)**|Specify the entry number that was used when payment was sent to BBS.|  
+    |**BBS Customer Unit ID**|Specify the identification of the agreement for Bankernes Betalingssentral \(BBS\). This code is provided by BBS.|  
+    |**Latest BBS Payment Order No.**|Specify the entry number that was used when payment was sent to BBS.|  
   
 6.  On the **Send** FastTab, fill in the field as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_15000000\_10 Payment File Name $\)**|Specify the path and the name of the file that contains the electronic payment order that was sent to the bank.|  
+    |**Payment File Name**|Specify the path and the name of the file that contains the electronic payment order that was sent to the bank.|  
   
 7.  On the **Receive** FastTab, fill in the fields as described in the following table.  
   
     |Field|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |-----------|---------------------------------------|  
-    |**\($ T\_15000000\_10 Save Return File $\)**|Select to automatically name the return file after it is imported without errors.|  
-    |**\($ T\_15000000\_23 Receipt Return Required $\)**|Select to verify that the first\-time return report is imported.|  
-    |**\($ T\_15000000\_18 Return File Is Not In Use $\)**|Select if you do not want to use return files for approval and settlement of payment. You can use this feature if you do not want to update payments with return information from the bank.|  
-    |**\($ T\_15000000\_17 On Hold Rejection Code $\)**|Enter the code to update a rejected vendor ledger entry. The ledger entry will be marked as **On Hold**, which means that after rejection, it is not added to the remittance proposal again.<br /><br /> If the code is blank, the entry is not marked as **On Hold**, which means that after rejection it can be added to a remittance proposal again.|  
+    |**Save Return File**|Select to automatically name the return file after it is imported without errors.|  
+    |**Receipt Return Required**|Select to verify that the first\-time return report is imported.|  
+    |**Return File Is Not In Use**|Select if you do not want to use return files for approval and settlement of payment. You can use this feature if you do not want to update payments with return information from the bank.|  
+    |**On Hold Rejection Code**|Enter the code to update a rejected vendor ledger entry. The ledger entry will be marked as **On Hold**, which means that after rejection, it is not added to the remittance proposal again.<br /><br /> If the code is blank, the entry is not marked as **On Hold**, which means that after rejection it can be added to a remittance proposal again.|  
   
 8.  On the **Finance** FastTab, fill in the field as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_15000000\_40 New Document Per Field $\)**|Specify how documents are numbered when payments are posted. Options include **Date**, **Vendor**, and **Specified for account**.|  
+    |**New Document Per Field**|Specify how documents are numbered when payments are posted. Options include **Date**, **Vendor**, and **Specified for account**.|  
   
 9. On the **Navigate** tab, in the **Receive** group, choose **Return File Setup List**.  
   
-10. In the **\($ T\_15000006 Return File Setup List $\)** window, on the **Home** tab, in the **New** group, choose **New**.  
+10. In the **Return File Setup List** window, on the **Home** tab, in the **New** group, choose **New**.  
   
-11. Enter the return file name in the **\($ T\_15000006\_10 Return File Name $\)** field.  
+11. Enter the return file name in the **Return File Name** field.  
   
     > [!NOTE]  
     >  At a minimum, you must set up one file name for each receipt return, rejected return, and settlement return. Contact your bank about the naming conventions that it uses.  

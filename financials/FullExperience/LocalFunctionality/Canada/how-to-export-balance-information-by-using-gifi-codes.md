@@ -40,10 +40,10 @@ You can export balance information using General Index of Financial Information 
      In the Excel file, the balance is rounded to the nearest percentage, but the cell value maintains the same percentage as it does in the general ledger.  
   
 ## See Also  
- [\($ T\_10015 GIFI Code $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-t_10015-gifi-code-$-.md)   
+ GIFI Code   
  [GIFI Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/gifi-codes.md)   
- [\($ R\_10004 Account Balances by GIFI Code $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-r_10004-account-balances-by-gifi-code-$-.md)   
- [\($ B\_10005 Export GIFI Info. to Excel $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-b_10005-export-gifi-info.-to-excel-$-.md)   
+ Account Balances by GIFI Code   
+ Export GIFI Info. to Excel   
  [How to: Set Up GIFI Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-set-up-gifi-codes.md)   
  [How to: View Account Balances by Using the GIFI Code Report](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-view-account-balances-by-using-the-gifi-code-report.md)   
  [How to: Associate GIFI Codes with Chart of Accounts](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-associate-gifi-codes-with-chart-of-accounts.md)

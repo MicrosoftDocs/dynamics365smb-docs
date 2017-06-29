@@ -27,25 +27,25 @@ If you require your customers to submit payment before you ship an order to them
   
 ### To add prepayment accounts to the general posting setup  
   
--   In the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**[\($ N\_314 General Posting Setup $\)](DynamicsNAV:////runpage?Page=314)** window, you must fill in the following fields:  
+-   In the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**General Posting Setup** window, you must fill in the following fields:  
   
-     **[\($ T\_252\_36 Sales Prepayments Account $\)](assetId:///5e588810-ec36-44f1-ab12-0f556fc4b58a)**  
+     **Sales Prepayments Account**  
   
-     **[\($ T\_252\_37 Purch. Prepayments Account $\)](assetId:///7cca15dd-e092-40ea-b8a5-590826dc030f)**  
+     **Purch. Prepayments Account**  
   
 ### To set up number series for prepayment documents  
   
 -   If you use prepayments for sales, in the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**[\($ N\_459 Sales & Receivables Setup $\)](DynamicsNAV:////runpage?Page=459)** window, fill in the following fields:  
   
-     **[\($ T\_311\_21 Posted Prepmt. Inv. Nos. $\)](../Topic/\($%20T_311_21%20Posted%20Prepmt.%20Inv.%20Nos.%20$\).md)**  
+     **Posted Prepmt. Inv. Nos.**  
   
-     **[\($ T\_311\_22 Posted Prepmt. Cr. Memo Nos. $\)](../Topic/\($%20T_311_22%20Posted%20Prepmt.%20Cr.%20Memo%20Nos.%20$\).md)**  
+     **Posted Prepmt. Cr. Memo Nos.**  
   
 -   If you use prepayments for purchases, in the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**[\($ N\_460 Purchases & Payables Setup $\)](DynamicsNAV:////runpage?Page=460)** window, fill in the following fields:  
   
-     **[\($ T\_312\_27 Posted Prepmt. Inv. Nos. $\)](../Topic/\($%20T_312_27%20Posted%20Prepmt.%20Inv.%20Nos.%20$\).md)**  
+     **Posted Prepmt. Inv. Nos.**  
   
-     **[\($ T\_312\_28 Posted Prepmt. Cr. Memo Nos. $\)](../Topic/\($%20T_312_28%20Posted%20Prepmt.%20Cr.%20Memo%20Nos.%20$\).md)**  
+     **Posted Prepmt. Cr. Memo Nos.**  
   
     > [!NOTE]  
     >  You can use the same number series for prepayment invoices and regular invoices, or you can use different number series. If you use different series, they must not overlap \- there must not be any numbers that exist in both series.  
@@ -74,7 +74,7 @@ If you require your customers to submit payment before you ship an order to them
   
  In other words, the prepayment percentage on the customer card will only apply if there is no prepayment percentage set up for the item.  
   
- However, if you change the contents of the **\($ T\_36\_130 Prepayment Percentage $\)** field on the sales or purchase header after you create the lines, the prepayment percentage on all of the lines will be updated. This makes it easy to create an order with a fixed prepayment percentage, regardless of the percentage set up on items.  
+ However, if you change the contents of the **Prepayment Percentage** field on the sales or purchase header after you create the lines, the prepayment percentage on all of the lines will be updated. This makes it easy to create an order with a fixed prepayment percentage, regardless of the percentage set up on items.  
   
 ## See Also  
  [How to: Create Prepayment Invoices](../Finance/how-to-create-prepayment-invoices.md)   

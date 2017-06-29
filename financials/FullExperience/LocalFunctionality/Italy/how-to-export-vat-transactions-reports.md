@@ -27,18 +27,18 @@ After you create a report, you can release it, and then export it for the author
   
     -   On the **Home** tab, choose **New**, and create a new report. For more information, see [How to: Create Electronic VAT Transactions Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-create-electronic-vat-transactions-reports.md).  
   
-3.  Review the transaction details. To exclude a line from being reported to the tax authority, on the line, clear the **Incl. in Report** check box. To see the VAT entries that the line is based on, right\-click the **\($ T\_741\_9 Amount $\)** field, and choose the AssistButton.  
+3.  Review the transaction details. To exclude a line from being reported to the tax authority, on the line, clear the **Incl. in Report** check box. To see the VAT entries that the line is based on, right\-click the **Amount** field, and choose the AssistButton.  
   
     > [!NOTE]  
     >  You can create an empty report, that is, a report that has no lines, in the case in which there are no transactions to report.  
   
-4.  On the **Home** tab, in the **Process** group, choose **Release**. The **\($ T\_740\_6 Status $\)** field is updated to Released.  
+4.  On the **Home** tab, in the **Process** group, choose **Release**. The **Status** field is updated to Released.  
   
-     [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] validates that the VAT report is valid and ready for submission. If the validation fails, the errors are shown in the **\($ N\_745 VAT Report Error Log $\)** window so that you can make the appropriate changes.  
+     [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] validates that the VAT report is valid and ready for submission. If the validation fails, the errors are shown in the **VAT Report Error Log** window so that you can make the appropriate changes.  
   
      After you release a VAT report, you cannot edit it. If you have to change the report after it is released, you have to first reopen it. On the **Home** tab, in the **Process** group, choose **Reopen**.  
   
-5.  On the **Home** tab, in the **Process** group, choose **Export**. The **\($ B\_12193 Export VAT Transactions $\)** batch job opens.  
+5.  On the **Home** tab, in the **Process** group, choose **Export**. The **Export VAT Transactions** batch job opens.  
   
 6.  Select the **\($ B\_12193\_N\_2\_1130000 Detailed Export $\)** check box, depending on your needs. The field controls whether to export the data in detailed format or in aggregate. If aggregate, lines are further grouped by VAT registration number or fiscal code.  
   
@@ -46,14 +46,14 @@ After you create a report, you can release it, and then export it for the author
   
      After you receive a response from the tax authorities, you must update the VAT report.  
   
-8.  On the **General** FastTab, in the **\($ T\_740\_12100 Tax Auth. Receipt No. $\)** field, specify the receipt number that you received from the tax authorities. In the **\($ T\_740\_12101 Tax Auth. Doc. No. $\)** field, specify the document number that you receive.  
+8.  On the **General** FastTab, in the **Tax Auth. Receipt No.** field, specify the receipt number that you received from the tax authorities. In the **Tax Auth. Doc. No.** field, specify the document number that you receive.  
   
-9. On the **Home** tab, in the **Process** group, choose **Mark as Submitted** to finalize the report. The **\($ T\_740\_6 Status $\)** field is updated to Submitted.  
+9. On the **Home** tab, in the **Process** group, choose **Mark as Submitted** to finalize the report. The **Status** field is updated to Submitted.  
   
     > [!NOTE]  
-    >  You can modify a report that has the status of Submitted only if you have enabled the **Modify Submitted Reports** check box in the **\($ N\_743 VAT Report Setup $\)** window.  
+    >  You can modify a report that has the status of Submitted only if you have enabled the **Modify Submitted Reports** check box in the **VAT Report Setup** window.  
   
 ## See Also  
- [\($ B\_12193 Export VAT Transactions $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/-$-b_12193-export-vat-transactions-$-.md)   
- [\($ N\_745 VAT Report Error Log $\)](assetId:///c35e6992-b833-484f-9026-d9ba5e4d528b)   
+ Export VAT Transactions   
+ VAT Report Error Log   
  [How to: Correct VAT Transactions Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-correct-vat-transactions-reports.md)

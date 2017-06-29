@@ -54,7 +54,7 @@ There are three exchange rates that [!INCLUDE[navnow](../ApplicationDesign/inclu
   
 1.  In the **Search** box, enter **Business Units**, and then choose the related link.  
   
-2.  In the **\($ N\_240 Business Units $\)** window, select the line with the relevant business unit. On the **Navigate** tab, in the **Exch. Rates** group, choose **Average Rate \(Manual\)**.  
+2.  In the **Business Units** window, select the line with the relevant business unit. On the **Navigate** tab, in the **Exch. Rates** group, choose **Average Rate \(Manual\)**.  
   
 3.  In the **Change Exchange Rate** window, the contents of the **Relational Exch. Rate** field have been copied from the **Currency Exchange Rate** table, but you can modify them. Close the window.  
   

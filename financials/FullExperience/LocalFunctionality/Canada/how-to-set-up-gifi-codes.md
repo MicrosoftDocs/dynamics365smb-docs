@@ -37,9 +37,9 @@ The Canada Revenue Agency uses General Index of Financial Information \(GIFI\) c
 4.  Choose the **OK** button.  
   
 ## See Also  
- [\($ T\_10015 GIFI Code $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-t_10015-gifi-code-$-.md)   
- [\($ R\_10004 Account Balances by GIFI Code $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-r_10004-account-balances-by-gifi-code-$-.md)   
- [\($ B\_10005 Export GIFI Info. to Excel $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-b_10005-export-gifi-info.-to-excel-$-.md)   
+ GIFI Code   
+ Account Balances by GIFI Code   
+ Export GIFI Info. to Excel   
  [GIFI Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/gifi-codes.md)   
  [How to: View Account Balances by Using the GIFI Code Report](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-view-account-balances-by-using-the-gifi-code-report.md)   
  [How to: Export Balance Information by Using GIFI Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-export-balance-information-by-using-gifi-codes.md)   

@@ -36,7 +36,7 @@ If an item is stocked in one unit of measure but produced in another, a producti
   
     2.  For each production BOM line, in the **Quantity Per** field, enter the quantity of this component item that is required to create this batch unit of measure.  
   
-3.  Open the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**[\($ N\_30 Item Card $\)](DynamicsNAV:////runpage?Page=30)** for the related item.  
+3.  Open the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**Item Card** for the related item.  
   
      On the **Replenishment** FastTab, in the **Production BOM No.** field, select the production BOM created above.  
   

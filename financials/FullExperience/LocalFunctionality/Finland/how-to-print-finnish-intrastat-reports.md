@@ -30,7 +30,7 @@ Companies in the European Union \(EU\) must report the extent of their trade wit
 4.  Choose **Print**.  
   
 ## See Also  
- [\($ T\_13400 Intrastat \- File Setup $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Finland/-$-t_13400-intrastat-file-setup-$-.md)   
- [\($ R\_502 Intrastat \- Checklist $\)](../Topic/\($%20R_502%20Intrastat%20-%20Checklist%20$\).md)   
+ Intrastat \- File Setup   
+ Intrastat \- Checklist   
  [How to: Report Intrastat on a Disk](../../Finance/how-to-report-intrastat-on-a-disk.md)   
  [How to: Report Intrastat on Forms](../../Finance/how-to-report-intrastat-on-forms.md)

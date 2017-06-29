@@ -18,7 +18,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Print Balance Sheet and Income Statement Reports
-You can print balance sheet reports and income statement reports to submit to banks and other authorities. The **\($ R\_11200 Balance Sheet $\)** report displays assets, liabilities, and equity. The **\($ R\_11201 Income Statement $\)** report displays income and expenses.  
+You can print balance sheet reports and income statement reports to submit to banks and other authorities. The **Balance Sheet** report displays assets, liabilities, and equity. The **Income Statement** report displays income and expenses.  
   
 ### To print a balance sheet report  
   
@@ -41,8 +41,8 @@ You can print balance sheet reports and income statement reports to submit to ba
 4.  Choose **Print** to print the report or choose **Preview** to view it on the screen.  
   
 ## See Also  
- [\($ R\_11200 Balance Sheet $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Sweden/-$-r_11200-balance-sheet-$-.md)   
- [\($ R\_11201 Income Statement $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Sweden/-$-r_11201-income-statement-$-.md)   
+ Balance Sheet   
+ Income Statement   
  [How to: View and Print Reports](../../WorkingWithDynamics/how-to-view-and-print-reports.md)   
  [How to: Set Filters](../../WorkingWithDynamics/how-to-set-filters.md)   
  [Sweden Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Sweden/sweden-local-functionality.md)

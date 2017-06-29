@@ -50,7 +50,7 @@ In EU countries\/regions, every sales and purchase transaction is subject to VAT
   
 #### To manually enter VAT in sales documents  
   
-1.  In the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**[\($ N\_118 General Ledger Setup $\)](DynamicsNAV:////runpage?Page=118)** window, specify a **Max. VAT Difference Allowed** between the amount calculated by the program and the manual amount.  
+1.  In the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**General Ledger Setup** window, specify a **Max. VAT Difference Allowed** between the amount calculated by the program and the manual amount.  
   
 2.  In the **Sales & Receivables Setup** window, place a check mark in the **Allow Vat Difference** field.  
   
@@ -70,9 +70,9 @@ In EU countries\/regions, every sales and purchase transaction is subject to VAT
   
 #### Before you manually enter VAT on a general journal  
   
-1.  In the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**[\($ N\_118 General Ledger Setup $\)](DynamicsNAV:////runpage?Page=118)** window, specify a **Max. VAT Difference Allowed** between the amount calculated by the program and the manual amount.  
+1.  In the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**General Ledger Setup** window, specify a **Max. VAT Difference Allowed** between the amount calculated by the program and the manual amount.  
   
-2.  Place a check mark in the **Allow VAT Difference** field for the relevant journal in the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**[\($ N\_101 General Journal Templates $\)](DynamicsNAV:////runpage?Page=101)** window.  
+2.  Place a check mark in the **Allow VAT Difference** field for the relevant journal in the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**General Journal Templates** window.  
   
 #### Before you manually enter VAT on sales and purchase journals  
   

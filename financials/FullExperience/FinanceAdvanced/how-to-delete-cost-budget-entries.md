@@ -39,13 +39,13 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Delete Cost Budget Entries
-You use the **\($ B\_1139 Delete Cost Budget Entries $\)** batch job to cancel cost budget entries from the cost budget register.  
+You use the **Delete Cost Budget Entries** batch job to cancel cost budget entries from the cost budget register.  
   
  To prevent any gaps in the cost budget entries and cost register entries, you cannot delete a single entry or a batch of entries in the middle of the list of register entries.  
   
 ### To delete a cost budget entry  
   
-1.  In the Search box, enter **\($ B\_1139 Delete Cost Budget Entries $\)**, and then choose the related link.  
+1.  In the Search box, enter **Delete Cost Budget Entries**, and then choose the related link.  
   
 2.  The **\($ B\_1139\_F\_1\_3 To Register No. $\)** field contains the last register entry number and cannot be changed.  
   
@@ -54,9 +54,9 @@ You use the **\($ B\_1139 Delete Cost Budget Entries $\)** batch job to cancel c
 4.  Choose the **OK** button to delete the selected cost budget entries.  
   
 > [!NOTE]  
->  To avoid an accidental deletion of cost budget entries, you can close register entries by marking the lines as **Closed** in the **\($ T\_1111\_23 Closed $\)** field in the **\($ N\_1121 Cost Budget Registers $\)** window.  
+>  To avoid an accidental deletion of cost budget entries, you can close register entries by marking the lines as **Closed** in the **Closed** field in the **Cost Budget Registers** window.  
   
 ## See Also  
- [\($ B\_1139 Delete Cost Budget Entries $\)](../Topic/\($%20B_1139%20Delete%20Cost%20Budget%20Entries%20$\).md)   
- [\($ T\_1111\_23 Closed $\)](assetId:///6cd90658-93eb-4f5c-974d-9c85274371af)   
- [\($ N\_1121 Cost Budget Registers $\)](assetId:///95124833-95f3-46d9-a5e6-5f4c0017b69a)
+ Delete Cost Budget Entries   
+ Closed   
+ Cost Budget Registers

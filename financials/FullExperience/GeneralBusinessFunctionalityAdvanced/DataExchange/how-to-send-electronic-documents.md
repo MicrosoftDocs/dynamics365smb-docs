@@ -64,11 +64,11 @@ The generic version of [!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_n
      The sales invoice is posted and sent to the customer as an electronic document in the PEPPOL format.  
   
     > [!NOTE]  
-    >  You can also send a posted sales invoice as an electronic document. The procedure is the same as described in this topic for non\-posted sales documents. In the **\($ N\_132 Posted Sales Invoice $\)** window, on the **Actions** tab, in the **General** group, choose **Activity Log** to view the status of the electronic document. For more information, see **\($ N\_710 Activity Log $\)**.  
+    >  You can also send a posted sales invoice as an electronic document. The procedure is the same as described in this topic for non\-posted sales documents. In the **Posted Sales Invoice** window, on the **Actions** tab, in the **General** group, choose **Activity Log** to view the status of the electronic document. For more information, see **Activity Log**.  
   
 ## See Also  
  [Invoice Sales Activities](../../Finance/invoice-sales-activities.md)   
- [\($ N\_710 Activity Log $\)](../Topic/\($%20N_710%20Activity%20Log%20$\).md)   
+ Activity Log   
  [How to: Set Up Document Sending Profiles](../../Sales/how-to-set-up-document-sending-profiles.md)   
  [How to: Set Up Electronic Document Sending and Receiving](../../BusinessFunctionality/DataExchange/how-to-set-up-electronic-document-sending-and-receiving.md)   
  [How to: Set Up a Document Exchange Service](../../BusinessFunctionality/DataExchange/how-to-set-up-a-document-exchange-service.md)   

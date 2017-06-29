@@ -15,10 +15,10 @@ translation.priority.ht:
   - "ru-ru"
 ---
 # How to: Set Up Responsible Employees and Advance Statements
-The **\($ R\_12452 Advance Statement $\)** report enables you to print and view information about payments made to and from responsible employees. This report also enables you to print and view primary documents of responsible employee expenses.  
+The **Advance Statement** report enables you to print and view information about payments made to and from responsible employees. This report also enables you to print and view primary documents of responsible employee expenses.  
   
 ## Creating the Responsible Employee Card  
- The **\($ N\_12427 Resp. Employee Card $\)** window is created for each responsible employee on the basis of the **\($ N\_5200 Employee Card $\)** window, but it can also be created independently.  
+ The **Resp. Employee Card** window is created for each responsible employee on the basis of the **Employee Card** window, but it can also be created independently.  
   
  It provides the following information:  
   
@@ -32,7 +32,7 @@ The **\($ R\_12452 Advance Statement $\)** report enables you to print and view 
   
 5.  Documents of the responsible employee \(unposted and posted advance statements\), which can be opened using the **Documents** button.  
   
- The following procedure shows how to access the **\($ N\_12427 Resp. Employee Card $\)** window.  
+ The following procedure shows how to access the **Resp. Employee Card** window.  
   
 #### To create a Responsible Employee card  
   
@@ -48,22 +48,22 @@ The **\($ R\_12452 Advance Statement $\)** report enables you to print and view 
   
 2.  On the **Actions** tab, in the **Functions** group, choose **Create Resp. Employee**.  
   
-3.  The **\($ N\_12427 Resp. Employee Card $\)** window contains the following information entered manually or from the corresponding glossary and settings.  
+3.  The **Resp. Employee Card** window contains the following information entered manually or from the corresponding glossary and settings.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_23\_1 No. $\)**|Specifies the value that is filled automatically from the **\($ N\_5200 Employee Card $\)** window, or is entered manually.|  
-    |**\($ T\_23\_2 Name $\), \($ T\_23\_4 Name2 $\)**|Specifies the value that is filled automatically from similar fields in the **\($ N\_5200 Employee Card $\)** window or is entered manually.|  
-    |**\($ T\_23\_5 Address $\), \($ T\_23\_6 Address 2 $\)**|Specifies the value that is filled automatically from similar fields in the **\($ N\_5200 Employee Card $\)** window or is entered manually.|  
-    |**\($ T\_23\_91 Post Code $\)**|Specifies the value that is filled automatically from similar fields in the **\($ N\_5200 Employee Card $\)** window or is entered manually.|  
-    |**\($ T\_23\_35 Country\/Region Code $\)**|Specifies the value that is filled automatically from similar fields in the **\($ N\_5200 Employee Card $\)** window or is entered manually.|  
-    |**\($ T\_23\_9 Phone No. $\)**|Specifies the value that is filled automatically from similar fields in the **\($ N\_5200 Employee Card $\)** window or is entered manually.|  
-    |**\($ T\_23\_3 Search Name $\)**|Specifies the value of the **Name** field is entered from the displayed **\($ N\_12427 Resp. Employee Card $\)** window.|  
-    |**Communication \(E\-Mail, Home Page\)**|Specifies the values that are filled automatically from similar fields in the **\($ N\_5200 Employee Card $\)** window or is entered manually.|  
-    |**\($ T\_23\_22 Currency Code $\)**|Specifies a blank by default.|  
-    |**\($ T\_23\_88 Gen. Bus. Posting Group $\)**|Specifies the value of the **Adv. Stmt. Gen. Bus. Posting Gr** field from the Purchases and Payables setup on the **Advance Statement** tab.|  
-    |**\($ T\_23\_110 VAT Bus. Posting Group $\)**|Specifies the value of the **Adv. Stmt. VAT Bus. Posting Gr** field from the Purchases and Payables setup on the **Advance Statement** tab.|  
-    |**\($ T\_23\_21 Vendor Posting Group $\)**|Specifies the value of the **Adv. Stmt. Vendor Posting Gr** field from the Purchases and Payables setup on the **Advance Statement** tab.|  
+    |**No.**|Specifies the value that is filled automatically from the **Employee Card** window, or is entered manually.|  
+    |**Name, \($ T\_23\_4 Name2 $\)**|Specifies the value that is filled automatically from similar fields in the **Employee Card** window or is entered manually.|  
+    |**Address, \($ T\_23\_6 Address 2 $\)**|Specifies the value that is filled automatically from similar fields in the **Employee Card** window or is entered manually.|  
+    |**Post Code**|Specifies the value that is filled automatically from similar fields in the **Employee Card** window or is entered manually.|  
+    |**Country\/Region Code**|Specifies the value that is filled automatically from similar fields in the **Employee Card** window or is entered manually.|  
+    |**Phone No.**|Specifies the value that is filled automatically from similar fields in the **Employee Card** window or is entered manually.|  
+    |**Search Name**|Specifies the value of the **Name** field is entered from the displayed **Resp. Employee Card** window.|  
+    |**Communication \(E\-Mail, Home Page\)**|Specifies the values that are filled automatically from similar fields in the **Employee Card** window or is entered manually.|  
+    |**Currency Code**|Specifies a blank by default.|  
+    |**Gen. Bus. Posting Group**|Specifies the value of the **Adv. Stmt. Gen. Bus. Posting Gr** field from the Purchases and Payables setup on the **Advance Statement** tab.|  
+    |**VAT Bus. Posting Group**|Specifies the value of the **Adv. Stmt. VAT Bus. Posting Gr** field from the Purchases and Payables setup on the **Advance Statement** tab.|  
+    |**Vendor Posting Group**|Specifies the value of the **Adv. Stmt. Vendor Posting Gr** field from the Purchases and Payables setup on the **Advance Statement** tab.|  
   
 ## Creating the Advance Statement  
  The **Advance Statement** is created by the responsible employees. This statement contains information about payments received by the employees and about primary documents that are provided to confirm the expenses.  
@@ -122,27 +122,27 @@ The **\($ R\_12452 Advance Statement $\)** report enables you to print and view 
   
 1.  In the **Search** box, enter **Advance Statements**, and then choose the related link.  
   
-     The **\($ N\_12431 Advance Statement $\)** window contains the following information in the **General** FastTab, in the header, entered manually or filled in from the corresponding glossary and settings.  
+     The **Advance Statement** window contains the following information in the **General** FastTab, in the header, entered manually or filled in from the corresponding glossary and settings.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_38\_3 No. $\)**|Specifies the number of the advance statement, which is calculated automatically. The number depends on the value of the **Advance Statement Nos.** field that was specified in the **Purchases & Payables Setup** window on the **Advance Statement** FastTab.|  
-    |**\($ T\_38\_20 Posting Date $\)**,<br /><br /> **\($ T\_38\_99 Document Date $\)**|Specifies the posting date and document date. By default, these fields are filled in with the value from the work date. It can also be filled in manually.|  
-    |**\($ T\_38\_2 Employee No. $\)**|Specifies the number of responsible employee. The value is selected manually from the vendor list.|  
-    |**\($ T\_38\_79 Employee Name $\)**|Specifies the name of responsible employee. This field is filled in automatically with the values of the **Name** and **Name2** fields of the **\($ N\_12427 Resp. Employee Card $\)** window.|  
-    |**\($ T\_38\_12401 Advance Purpose $\)**|Specifies the purpose of advance.|  
-    |**\($ T\_38\_22 Posting Description $\)**|Specifies the posting description of the document. This field is filled in automatically with the value from the **Invoice No.** field. The field can be edited manually.|  
-    |**\($ T\_38\_68 Vendor Invoice No. $\)**|Specifies the number of an external document. This field is filled in automatically.|  
+    |**No.**|Specifies the number of the advance statement, which is calculated automatically. The number depends on the value of the **Advance Statement Nos.** field that was specified in the **Purchases & Payables Setup** window on the **Advance Statement** FastTab.|  
+    |**Posting Date**,<br /><br /> **Document Date**|Specifies the posting date and document date. By default, these fields are filled in with the value from the work date. It can also be filled in manually.|  
+    |**Employee No.**|Specifies the number of responsible employee. The value is selected manually from the vendor list.|  
+    |**Employee Name**|Specifies the name of responsible employee. This field is filled in automatically with the values of the **Name** and **Name2** fields of the **Resp. Employee Card** window.|  
+    |**Advance Purpose**|Specifies the purpose of advance.|  
+    |**Posting Description**|Specifies the posting description of the document. This field is filled in automatically with the value from the **Invoice No.** field. The field can be edited manually.|  
+    |**Vendor Invoice No.**|Specifies the number of an external document. This field is filled in automatically.|  
     |||  
   
-2.  The **\($ N\_12431 Advance Statement $\)** window contains the following information in the **Statement** FastTab in the header, entered manually or filled in from the corresponding glossary and settings.  
+2.  The **Advance Statement** window contains the following information in the **Statement** FastTab in the header, entered manually or filled in from the corresponding glossary and settings.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_38\_12437 No. of Documents $\)**, **\($ T\_38\_12438 No. of Pages $\)**|Specifies the number of documents that confirm expenses and number of pages of these documents. The fields are filled in manually with numeric values.|  
-    |**\($ T\_38\_12402 Remaining or Overdraft Doc. No. $\)**|Specifies the cash document that closes the remaining or overdraft amount for this advance statement. A payment document is selected from the vendor ledger entries of the responsible employee.|  
+    |**No. of Documents**, **No. of Pages**|Specifies the number of documents that confirm expenses and number of pages of these documents. The fields are filled in manually with numeric values.|  
+    |**Remaining or Overdraft Doc. No.**|Specifies the cash document that closes the remaining or overdraft amount for this advance statement. A payment document is selected from the vendor ledger entries of the responsible employee.|  
   
-     The **\($ N\_12431 Advance statement $\)** window contains the following information from the expense lines that are created.  
+     The **Advance statement** window contains the following information from the expense lines that are created.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
@@ -165,7 +165,7 @@ The **\($ R\_12452 Advance Statement $\)** report enables you to print and view 
   
 1.  In the **Search** box, enter **Advance Statements**, and then choose the related link.  
   
-2.  In the **\($ N\_12431 Advance Statement $\)** window, on the **Home** tab, in the **Process** group, choose **Print**.  
+2.  In the **Advance Statement** window, on the **Home** tab, in the **Process** group, choose **Print**.  
   
     > [!NOTE]  
     >  The report is usually printed after creating the document for signing and confirmation.  
@@ -223,6 +223,6 @@ The **\($ R\_12452 Advance Statement $\)** report enables you to print and view 
 5.  Choose the **Print** button.  
   
 ## See Also  
- [\($ N\_5200 Employee Card $\)](../Topic/\($%20N_5200%20Employee%20Card%20$\).md)   
- [\($ R\_12452 Advance Statement $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-r_12452-advance-statement-$-.md)   
- [\($ R\_12454 Posted Advance Statement $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-r_12454-posted-advance-statement-$-.md)
+ Employee Card   
+ Advance Statement   
+ Posted Advance Statement

@@ -40,7 +40,7 @@ Inventory periods define a period of time in which you can post changes to inven
   
 #### To create an inventory period  
   
-1.  In the **Search** box, enter **\($ N\_5828 Inventory Periods $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Inventory Periods**, and then choose the related link.  
   
 2.  Create a new line.  
   
@@ -71,7 +71,7 @@ Inventory periods define a period of time in which you can post changes to inven
   
 3.  On the **Actions** tab, in the **Functions** group, choose **Post Inventory to G\/L**.  
   
-4.  In the    **\($ N\_5828 Inventory Periods $\)** window, select the inventory period you would like to close.  
+4.  In the    **Inventory Periods** window, select the inventory period you would like to close.  
   
 5.  On the **Actions** tab, in the **Functions** group, choose **Close Period**. After the inventory period has been closed, you cannot post inventory changes before the ending date. The cost of all items must be adjusted with the **Adjust Cost – Item Entries** batch job before you close the inventory period.  
   
@@ -84,7 +84,7 @@ Inventory periods define a period of time in which you can post changes to inven
   
 #### To reopen an inventory period  
   
-1.  In the **Search** box, enter **\($ N\_5828 Inventory Periods $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Inventory Periods**, and then choose the related link.  
   
 2.  Select the inventory period you would like to reopen.  
   
@@ -93,5 +93,5 @@ Inventory periods define a period of time in which you can post changes to inven
 4.  All inventory periods with ending dates later than the period you selected are reopened.  
   
 ## See Also  
- [\($ N\_5828 Inventory Periods $\)](../Topic/\($%20N_5828%20Inventory%20Periods%20$\).md)   
+ Inventory Periods   
  [Design Details: Inventory Periods](../ApplicationDesign/design-details-inventory-periods.md)

@@ -15,7 +15,7 @@ translation.priority.ht:
 # GDPdU Filter Examples
 The following topic provides examples of how you can use and combine different filter types when you set up your GPDdU exports. By setting filters appropriately, you can improve performance.  
   
- The following examples use the G\/L Entry and Cust. Ledger Entry tables for data. They assume that you have specified the following date in the **\($ B\_11015 Export Business Data $\)** batch job.  
+ The following examples use the G\/L Entry and Cust. Ledger Entry tables for data. They assume that you have specified the following date in the **Export Business Data** batch job.  
   
  Start Date \= 01\/01\/2013  
   

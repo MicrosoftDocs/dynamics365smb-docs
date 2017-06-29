@@ -25,7 +25,7 @@ The maintenance on disposal feature allows you to account for the amount spent t
   
 1.  In the **Search** box, enter **FA Setup**, and then choose the related link.  
   
-2.  On the **General** FastTab of the **\($ N\_5607 Fixed Asset Setup $\)** window, fill in the **\($ T\_5603\_12420 On Disposal Maintenance Code $\)** field. If the maintenance code does not exist, you must create it in the **\($ N\_5642 Maintenance $\)** window.  
+2.  On the **General** FastTab of the **Fixed Asset Setup** window, fill in the **On Disposal Maintenance Code** field. If the maintenance code does not exist, you must create it in the **Maintenance** window.  
   
 3.  Choose the **OK** button.  
   
@@ -33,14 +33,14 @@ The maintenance on disposal feature allows you to account for the amount spent t
   
 1.  In the **Search** box, enter **FA G\/L Journals**, and then choose the related link.  
   
-2.  In the **\($ N\_5628 Fixed Asset G\/L Journal $\)** window, fill in the fields as described in the following table.  
+2.  In the **Fixed Asset G\/L Journal** window, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_81\_3 Account Type $\)**|Select **Fixed Asset** as the account type.|  
-    |**\($ T\_81\_4 Account No. $\)**|Specifies the number of the fixed asset for disposal for which expenses are made.|  
-    |**\($ T\_81\_5601 FA Posting Type $\)**|Select **Maintenance** as the fixed asset posting type.|  
-    |**\($ T\_81\_5609 Maintenance Code $\)**|Specifies the maintenance code that was specified in the **On Disposal Maintenance Code** field of the **Fixed Asset Setup** window.|  
+    |**Account Type**|Select **Fixed Asset** as the account type.|  
+    |**Account No.**|Specifies the number of the fixed asset for disposal for which expenses are made.|  
+    |**FA Posting Type**|Select **Maintenance** as the fixed asset posting type.|  
+    |**Maintenance Code**|Specifies the maintenance code that was specified in the **On Disposal Maintenance Code** field of the **Fixed Asset Setup** window.|  
   
 3.  Choose the **OK** button.  
   
@@ -61,8 +61,8 @@ The maintenance on disposal feature allows you to account for the amount spent t
      After the fixed asset write\-off report is posted, it becomes the posted fixed asset write\-off report. You can print the Fixed Assets Write\-Off Fixed Asset\-4A report in the Posted FA Reports window.  
   
 ## See Also  
- [\($ N\_5607 Fixed Asset Setup $\)](../Topic/\($%20N_5607%20Fixed%20Asset%20Setup%20$\).md)   
+ Fixed Asset Setup   
  [Fixed Assets Accounting Setup](../../Finance/fixed-assets-accounting-setup.md)   
- [\($ N\_5600 Fixed Asset Card $\)](../Topic/\($%20N_5600%20Fixed%20Asset%20Card%20$\).md)   
- [\($ B\_14920 Calculate Assessed Tax $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-b_14920-calculate-assessed-tax-$-.md)   
- [\($ T\_14921 Assessed Tax Code $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-t_14921-assessed-tax-code-$-.md)
+ Fixed Asset Card   
+ Calculate Assessed Tax   
+ Assessed Tax Code

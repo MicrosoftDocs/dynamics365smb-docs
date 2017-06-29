@@ -26,7 +26,7 @@ You can export or write Lastschrift Verfahren \(LSV\+\) files that contain payme
   
 3.  On the **Actions** tab, in the **Functions** group, select **Write LSV File**.  
   
-4.  In the **\($ B\_3010834 Write LSV File $\)** window, on the **Options** FastTab, fill in the fields as described in the following table.  
+4.  In the **Write LSV File** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
@@ -40,6 +40,6 @@ You can export or write Lastschrift Verfahren \(LSV\+\) files that contain payme
  [How to: Process an LSV Collection](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-process-an-lsv-collection.md)   
  [How to: Close an LSV Collection](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-close-an-lsv-collection.md)   
  [How to: Post LSV\+ Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-post-lsv-payments.md)   
- [\($ T\_3010832 LSV Journal $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/-$-t_3010832-lsv-journal-$-.md)   
- [\($ T\_3010834 LSV Journal Line $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/-$-t_3010834-lsv-journal-line-$-.md)   
- [\($ T\_3010831 LSV Setup $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/-$-t_3010831-lsv-setup-$-.md)
+ LSV Journal   
+ LSV Journal Line   
+ LSV Setup

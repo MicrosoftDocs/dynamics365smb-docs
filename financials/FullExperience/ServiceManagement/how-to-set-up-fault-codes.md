@@ -60,7 +60,7 @@ You can use the **Fault Codes** window to set up fault codes that describe the t
  Repeat these steps for each fault code that you want to create.  
   
 ## See Also  
- [\($ T\_5911\_4 Fault Reporting Level $\)](../Topic/\($%20T_5911_4%20Fault%20Reporting%20Level%20$\).md)   
+ Fault Reporting Level   
  [How to: Register Fault Codes](../Service/how-to-register-fault-codes.md)   
  [How to: Set Up Fault Areas](../Service/how-to-set-up-fault-areas.md)   
  [How to: Set Up Symptom Codes](../Service/how-to-set-up-symptom-codes.md)   

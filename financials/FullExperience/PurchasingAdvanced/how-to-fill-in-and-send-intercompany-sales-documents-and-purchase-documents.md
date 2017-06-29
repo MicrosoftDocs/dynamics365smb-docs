@@ -55,11 +55,11 @@ You use intercompany documents to post transactions with your intercompany partn
   
 2.  On the **Home** tab, choose **New** to create a new sales order.  
   
-3.  In the **\($ T\_36\_2 Sell\-to Customer No. $\)** field, enter the number of a customer who has been assigned an intercompany partner code.  
+3.  In the **Sell\-to Customer No.** field, enter the number of a customer who has been assigned an intercompany partner code.  
   
 4.  Fill in the rest of the fields on the document header.  
   
-5.  Fill in the sales lines. Fill in the **\($ T\_37\_107 IC Partner Ref. Type $\)** and **\($ T\_37\_108 IC Partner Reference $\)** fields to indicate the item or account in your partner's company that corresponds to the item or account on the line.  
+5.  Fill in the sales lines. Fill in the **IC Partner Ref. Type** and **IC Partner Reference** fields to indicate the item or account in your partner's company that corresponds to the item or account on the line.  
   
 6.  To send the sales order before you post it, on the **Actions** tab, in the **Functions** group, choose **Send IC Sales Order Cnfmn.** Otherwise, the document will automatically be sent to your outbox when you post the document.  
   

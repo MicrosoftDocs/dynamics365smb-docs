@@ -42,7 +42,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # About Using Locations and Responsibility Centers
-Using Multiple Locations and Responsibility Centers in \($ P\_1 Product Name $\) provide multi\-site companies with the ability to manage their business operations in the most flexible, yet optimal way.  
+Using Multiple Locations and Responsibility Centers in Product Name provide multi\-site companies with the ability to manage their business operations in the most flexible, yet optimal way.  
   
  Multiple locations allows companies to manage their inventory in multiple locations using one database. Two concepts, locations and stockkeeping units, are the cornerstones of this granule. A location is defined as a place that handles physical placement and quantities of items. The concept is broad enough to include locations such as plants or production facilities as well as distribution centers, warehouses, showrooms and service vehicles. A stockkeeping unit is defined as an item at a specific location and\/or as a variant. Using stockkeeping units, companies with multiple locations are able to add replenishment information, addresses, and some financial posting information at the location level. As a result, they have the ability to replenish variants of the same item for each location as well as to order items for each location on the basis of location\-specific replenishment information.  
   

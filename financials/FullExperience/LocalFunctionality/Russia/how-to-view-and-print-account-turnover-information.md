@@ -24,21 +24,21 @@ translation.priority.ht:
   
 ### To view account turnover information  
   
-1.  In the **Search** box, enter **\($ N\_12403 G\/L Corresp. General Ledger $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **G\/L Corresp. General Ledger**, and then choose the related link.  
   
 2.  On the **General** FastTab, enter the following information.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_15\_28 Date Filter $\)**|Enter the date filter for which you want to view account information.|  
-    |**\($ T\_15\_42 Business Unit Filter $\)**|Select the business unit filter for which you want to view account information.|  
-    |**\($ T\_15\_29 Department Filter $\)**|Select the department filter for which you want to view account information.|  
-    |**\($ T\_15\_30 Incexp Filter $\)**|Select the income and expenses filter for which you want to view account information.|  
+    |**Date Filter**|Enter the date filter for which you want to view account information.|  
+    |**Business Unit Filter**|Select the business unit filter for which you want to view account information.|  
+    |**Department Filter**|Select the department filter for which you want to view account information.|  
+    |**Incexp Filter**|Select the income and expenses filter for which you want to view account information.|  
     |**Switch Debit\/Credit**|Specifies if you want to show the debit and credit balance for the account.|  
   
 ### To print account turnover information  
   
-1.  In the **Search** box, enter **\($ R\_12431 G\/L Corresp. General Ledger $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **G\/L Corresp. General Ledger**, and then choose the related link.  
   
 2.  On the **Options** FastTab, enter the following information.  
   
@@ -52,8 +52,8 @@ translation.priority.ht:
     |**\($ R\_12431\_F\_1\_11 Interim Total $\)**|Specifies if you want to print the report including interim totals.|  
   
 ## See Also  
- [\($ N\_240 Business Unit List $\)](assetId:///e17e2fcf-0d90-440d-9264-e14fc307b57c)   
- [\($ T\_349 Dimension Value $\)](assetId:///abbe4b49-2198-452c-9fa0-108cf5e6d7af)   
- [\($ R\_12431 G\-L Corresp. General Ledger $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-r_12431-g-l-corresp.-general-ledger-$-.md)   
- [\($ T\_12400 G\-L Correspondence $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-t_12400-g-l-correspondence-$-.md)   
- [\($ B\_12430 Create G\-L Correspondence $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-b_12430-create-g-l-correspondence-$-.md)
+ Business Unit List   
+ Dimension Value   
+ G\-L Corresp. General Ledger   
+ G\-L Correspondence   
+ Create G\-L Correspondence

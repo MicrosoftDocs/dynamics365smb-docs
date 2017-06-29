@@ -21,10 +21,10 @@ translation.priority.ht:
 # How to: Assign Serial Numbers and Lot Numbers During Inbound Transactions
 Companies may want to keep track of items from the moment they enter the company. In this situation, the purchase order is often the central document, although item tracking may be handled from any inbound document and its posted entries displayed in the related item ledger entries.  
   
- The exact rules for handling item tracking numbers across your company are governed by the setup in the **\($ N\_6512 Item Tracking Code Card $\)** window.  
+ The exact rules for handling item tracking numbers across your company are governed by the setup in the **Item Tracking Code Card** window.  
   
 > [!NOTE]  
->  To use item tracking numbers in warehouse activities, the **\($ T\_6502\_45 Lot Warehouse Tracking $\)** and **\($ T\_6502\_15 SN Warehouse Tracking $\)** setup fields must be selected, as they define the special principles in handling serial and lot numbers in warehouse activities.  
+>  To use item tracking numbers in warehouse activities, the **Lot Warehouse Tracking** and **SN Warehouse Tracking** setup fields must be selected, as they define the special principles in handling serial and lot numbers in warehouse activities.  
   
 ### To assign serial or lot numbers during an inbound transaction  
   
@@ -61,7 +61,7 @@ Companies may want to keep track of items from the moment they enter the company
  When the document is posted, the item tracking entries are carried to the associated item ledger entries.  
   
 ## See Also  
- [\($ T\_6502\_45 Lot Warehouse Tracking $\)](../Topic/\($%20T_6502_45%20Lot%20Warehouse%20Tracking%20$\).md)   
- [\($ T\_6502\_15 SN Warehouse Tracking $\)](../Topic/\($%20T_6502_15%20SN%20Warehouse%20Tracking%20$\).md)   
- [\($ N\_6512 Item Tracking Code Card $\)](../Topic/\($%20N_6512%20Item%20Tracking%20Code%20Card%20$\).md)   
+ Lot Warehouse Tracking   
+ SN Warehouse Tracking   
+ Item Tracking Code Card   
  [How to: Set Up Item Tracking Codes](../DesignAndEngineering/how-to-set-up-item-tracking-codes.md)

@@ -48,29 +48,29 @@ In the cash flow forecast, the individual values that affect the cash flow of yo
   
 2.  On the **Home** tab, in the **New** group, choose **New** to create a new cash flow account.  
   
-3.  In the **\($ T\_841\_1 No. $\)** field, enter the cash flow account number.  
+3.  In the **No.** field, enter the cash flow account number.  
   
-4.  In the **\($ T\_841\_2 Name $\)** field, enter the cash flow account name.  
+4.  In the **Name** field, enter the cash flow account name.  
   
-5.  In the **\($ T\_841\_4 Account Type $\)** field, select an account type to identify the purpose of the cash flow account.  
+5.  In the **Account Type** field, select an account type to identify the purpose of the cash flow account.  
   
     -   Entry \- An account type that you register forecasted amounts to.  
   
-    -   Total – An account type that creates a total. You must fill in the **\($ T\_841\_34 Totaling $\)** field.  
+    -   Total – An account type that creates a total. You must fill in the **Totaling** field.  
   
     -   End\-total – An account type that is filled in automatically by the **Indent Chart of Cash Flow Accounts** batch job.  
   
-6.  In the **\($ T\_841\_35 Source Type $\)**  field, select a source type.  
+6.  In the **Source Type**  field, select a source type.  
   
     > [!NOTE]  
-    >  The source type that is specified in the chart of cash flow accounts is used when you enter lines manually in the cash flow worksheet. When you use the **\($ B\_840 Suggest Worksheet Lines $\)** batch job, the source type is controlled by the batch job.  
+    >  The source type that is specified in the chart of cash flow accounts is used when you enter lines manually in the cash flow worksheet. When you use the **Suggest Worksheet Lines** batch job, the source type is controlled by the batch job.  
   
-7.  In the **\($ T\_841\_36 G\/L Integration $\)** field, select an option.  
+7.  In the **G\/L Integration** field, select an option.  
   
     > [!NOTE]  
     >  When a cash flow account is integrated with the general ledger, either the balances of the general ledger accounts or their budget values are included in cash flow forecast.  
   
-8.  In the **\($ T\_841\_37 G\/L Account Filter $\)** field, enter a filter to specify that only the entries that are registered to the filtered accounts are included in cash flow forecast.  
+8.  In the **G\/L Account Filter** field, enter a filter to specify that only the entries that are registered to the filtered accounts are included in cash flow forecast.  
   
 9. Choose the **OK** button to close the window.  
   
@@ -79,7 +79,7 @@ In the cash flow forecast, the individual values that affect the cash flow of yo
 11. After you have set up all the cash flow accounts, on the **Home** tab, in the **Process** group, select **Indent Chart of Cash Flow Accounts** to update the structure of cash flow accounts.  
   
 > [!NOTE]  
->  If you have entered definitions in the **\($ T\_841\_34 Totaling $\)** field for accounts of the **End\-Total** type before you perform the indent function, you must enter them again because the function overwrites the values in the **\($ T\_841\_34 Totaling $\)** field. The indent function moves all **End\-Totals** to the corresponding **Begin\-Totals** and indents the accounts that lie in between.  
+>  If you have entered definitions in the **Totaling** field for accounts of the **End\-Total** type before you perform the indent function, you must enter them again because the function overwrites the values in the **Totaling** field. The indent function moves all **End\-Totals** to the corresponding **Begin\-Totals** and indents the accounts that lie in between.  
   
 ### To add comments to cash flow accounts  
   
@@ -91,8 +91,8 @@ In the cash flow forecast, the individual values that affect the cash flow of yo
 >  This procedure is optional.  
   
 ## See Also  
- [\($ N\_851 Chart of Cash Flow Accounts $\)](assetId:///31304b24-56c5-4b6e-b2cd-cb54d5f21699)   
+ Chart of Cash Flow Accounts   
  [Cash Flow Overview](../Finance/cash-flow-overview.md)   
  [How to: Set Up Cash Flow Forecasts](../Finance/how-to-set-up-cash-flow-forecasts.md)   
  [How to: Configure Accounts for Cash Flow Setup](../Finance/how-to-configure-accounts-for-cash-flow-setup.md)   
- [\($ B\_840 Suggest Worksheet Lines $\)](../Topic/\($%20B_840%20Suggest%20Worksheet%20Lines%20$\).md)
+ Suggest Worksheet Lines

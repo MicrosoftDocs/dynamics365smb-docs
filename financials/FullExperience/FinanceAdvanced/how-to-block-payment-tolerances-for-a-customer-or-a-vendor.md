@@ -57,6 +57,6 @@ The default setting for payment tolerance is allowed. To disallow a certain cust
   
 ## See Also  
  [How to: Set Up Tolerances](../Finance/how-to-set-up-tolerances.md)   
- [\($ B\_34 Change Payment Tolerance $\)](../Topic/\($%20B_34%20Change%20Payment%20Tolerance%20$\).md)   
+ Change Payment Tolerance   
  [How to: Enable or Disable Payment Tolerance Warnings](../Finance/how-to-enable-or-disable-payment-tolerance-warnings.md)   
  [Payment Tolerance and Payment Discount Tolerance](../Finance/payment-tolerance-and-payment-discount-tolerance.md)

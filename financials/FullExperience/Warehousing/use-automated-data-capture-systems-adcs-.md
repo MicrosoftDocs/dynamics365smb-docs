@@ -56,5 +56,5 @@ You can use your automatic data capture system \(ADCS\) to register the movement
   
 ## See Also  
  [How to: Set Up a Warehouse to Use ADCS](../WarehouseActivities/how-to-set-up-a-warehouse-to-use-adcs.md)   
- [\($ T\_7704 Item Identifier $\)](../Topic/\($%20T_7704%20Item%20Identifier%20$\).md)   
- [\($ T\_27\_7700 Identifier Code $\)](../Topic/\($%20T_27_7700%20Identifier%20Code%20$\).md)
+ Item Identifier   
+ Identifier Code

@@ -23,9 +23,9 @@ You can export financial data and tax data according to the process for data acc
   
 ### To export GDPdU data  
   
-1.  In the **Search** box, enter **\($ B\_11015 Export Business Data $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Export Business Data**, and then choose the related link.  
   
-2.  In the **\($ B\_11015 GDPdU Export $\)** window, on the **Options** FastTab, fill in the fields as described in the following table.  
+2.  In the **GDPdU Export** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tableoption](../../ApplicationDesign/includes/bp_tableoption_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |----------------------------------|---------------------------------------|  
@@ -33,7 +33,7 @@ You can export financial data and tax data according to the process for data acc
     |**\($ B\_11015\_N\_2\_1140002 Ending Date $\)**|Specifies the end date for the data export.|  
     |**\($ B\_11015\_N\_2\_1140084 Include Closing Date $\)**|Specifies if the data export must include the closing date for the period.|  
   
-3.  On the **\($ T\_11003 Data Export Record Definition $\)** FastTab, select the appropriate filters to identify the data export and data export record type. For more information, see [Process for Data Access and Testability of Digital Documents \(GDPdU\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/process-for-data-access-and-testability-of-digital-documents-gdpdu-.md).  
+3.  On the **Data Export Record Definition** FastTab, select the appropriate filters to identify the data export and data export record type. For more information, see [Process for Data Access and Testability of Digital Documents \(GDPdU\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/process-for-data-access-and-testability-of-digital-documents-gdpdu-.md).  
   
 4.  To export the data, choose the **OK** button.  
   

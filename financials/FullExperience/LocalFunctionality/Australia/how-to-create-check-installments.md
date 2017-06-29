@@ -25,7 +25,7 @@ You can create check installments for post\-dated checks. You can define the num
   
 2.  Choose the relevant check, and then, on the **Home** tab, choose **Edit**.  
   
-3.  In the **\($ N\_28092 Post Dated Checks\-Purchase $\)** window, on the **Home** tab, choose **Create Check Installments**.  
+3.  In the **Post Dated Checks\-Purchase** window, on the **Home** tab, choose **Create Check Installments**.  
   
 4.  On the **[!INCLUDE[bp_optionsheading](../../DesignAndEngineering/includes/bp_optionsheading_md.md)]** FastTab, fill in the fields as described in the following table.  
   
@@ -38,7 +38,7 @@ You can create check installments for post\-dated checks. You can define the num
   
 6.  Choose the **OK** button.  
   
-     The installment checks are created and displayed in the **\($ N\_28092 Post Dated Checks\-Purchases $\)** window.  
+     The installment checks are created and displayed in the **Post Dated Checks\-Purchases** window.  
   
 ## See Also  
- [\($ N\_28092 Post Dated Checks\-Purchases $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/-$-n_28092-post-dated-checks-purchases-$-.md)
+ Post Dated Checks\-Purchases

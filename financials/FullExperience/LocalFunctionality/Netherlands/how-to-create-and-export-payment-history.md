@@ -25,29 +25,29 @@ After you have created a proposal and made any modifications, you can process th
   
 -   \($ B\_11000007 BTL91 $\)  
   
--   \($ B\_11000008 BBV $\)  
+-   BBV  
   
--   \($ B\_11000009 PAYMUL $\)  
+-   PAYMUL  
   
 ### To create a payment history for a proposal  
   
-1.  In the **Search** box, enter **\($ N\_11000000 Telebank \- Bank Overview $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Telebank \- Bank Overview**, and then choose the related link.  
   
      If you want to print the proposal before you process it, choose the **Print** button.  
   
 2.  To process the proposal, choose **Proposal** , and then choose **Process**.  
   
-3.  To view the payment history, close the **\($ N\_11000001 Telebank Proposal $\)** window. Make sure the same bank account in the **\($ N\_11000000 Telebank – Bank Overview $\)** window is selected. On the **Actions** tab, in the **Telebank** group, choose **Payment History**.  
+3.  To view the payment history, close the **Telebank Proposal** window. Make sure the same bank account in the **\($ N\_11000000 Telebank – Bank Overview $\)** window is selected. On the **Actions** tab, in the **Telebank** group, choose **Payment History**.  
   
-     The **\($ N\_11000007 Payment History List $\)** window displays the payment history that you just created.  
+     The **Payment History List** window displays the payment history that you just created.  
   
 ### To export a payment history  
   
--   In the **\($ N\_11000007 Payment History List $\)** window, on the **Home** tab, choose **Export**.  
+-   In the **Payment History List** window, on the **Home** tab, choose **Export**.  
   
     > [!NOTE]  
-    >  A text file will be created. This file contains the path and file name as defined in the [\($ T\_11000005\_21 Default File Names Field $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-t_11000005_21-default-file-names-field-$-.md) field of the export protocol.  
+    >  A text file will be created. This file contains the path and file name as defined in the Default File Names Field field of the export protocol.  
   
 ## See Also  
  [How to: Create Proposals](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/how-to-create-proposals.md)   
- [\($ B\_11000003 Paymt. History \- Change Status Batch Job $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-b_11000003-paymt.-history-change-status-batch-job-$-.md)
+ Paymt. History \- Change Status Batch Job

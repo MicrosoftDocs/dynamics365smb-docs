@@ -67,15 +67,15 @@ If you want to return items to your vendor or cancel services that you have purc
   
     |[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_38\_52 Applies\-to Doc. Type $\)**|Specify the type of document that the purchase credit memo is applied to.|  
-    |**\($ T\_38\_53 Applies\-to Doc. No. $\)**|Specify the purchase document that the purchase credit memo is applied to.|  
-    |**\($ T\_38\_118 Applies\-to ID $\)**|Specify if the purchase credit memo is applied to one or more posted purchase invoices using the **Apply Entries** function. For more information, see step 14.|  
+    |**Applies\-to Doc. Type**|Specify the type of document that the purchase credit memo is applied to.|  
+    |**Applies\-to Doc. No.**|Specify the purchase document that the purchase credit memo is applied to.|  
+    |**Applies\-to ID**|Specify if the purchase credit memo is applied to one or more posted purchase invoices using the **Apply Entries** function. For more information, see step 14.|  
   
      When you post the purchase credit memo, it will be applied to the specified posted purchase invoice.  
   
 5.  On the **Home** tab, in the **New** group, choose **Copy Document**.  
   
-6.  In the **\($ B\_492 Copy Purchase Document $\)** window, in the **Document Type** field, select **Posted Invoice**.  
+6.  In the **Copy Purchase Document** window, in the **Document Type** field, select **Posted Invoice**.  
   
 7.  Choose the **Document No.** field to open the **Posted Purchase Invoices** window, and then select the posted purchase invoice that you want to reverse.  
   
@@ -92,19 +92,19 @@ If you want to return items to your vendor or cancel services that you have purc
   
      In other scenarios, such as partial returns with reimbursement, or if you return additional products, proceed to fill or edit the purchase credit memo lines manually.  
   
-11. On the **Lines** FastTab, in the **\($ T\_39\_6 No. $\)** field, enter the number of an inventory item or service. This is a search\-as\-you\-type field. **No.** is the default filter.  
+11. On the **Lines** FastTab, in the **No.** field, enter the number of an inventory item or service. This is a search\-as\-you\-type field. **No.** is the default filter.  
   
     > [!NOTE]  
     >  If you prefer to find and enter items by name, then you can easily change the default filter. For more information, see [How to: Enter Data](../WorkingWithDynamics/how-to-enter-data.md).  
   
-12. In the **\($ T\_39\_15 Quantity $\)** field, enter the number of items to be reversed.  
+12. In the **Quantity** field, enter the number of items to be reversed.  
   
     > [!NOTE]  
-    >  For items of type **Service**, the quantity is a time unit, such as hours, as indicated in the **\($ T\_39\_5407 Unit of Measure Code $\)** field on the line.  
+    >  For items of type **Service**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.  
   
-     The **\($ T\_39\_103 Line Amount $\)** field is updated to show the value in the **\($ T\_39\_22 Direct Unit Cost $\)** field multiplied by the value in the **\($ T\_39\_15 Quantity $\)** field.  
+     The **Line Amount** field is updated to show the value in the **Direct Unit Cost** field multiplied by the value in the **Quantity** field.  
   
-     The price and line amount are shown with or without VAT depending on what you selected in the **\($ T\_23\_82 Prices Including VAT $\)** field on the vendor card.  
+     The price and line amount are shown with or without VAT depending on what you selected in the **Prices Including VAT** field on the vendor card.  
   
 13. Repeat steps 11 and 12 for every inventory item or service that you want to reverse.  
   
@@ -112,13 +112,13 @@ If you want to return items to your vendor or cancel services that you have purc
   
 14. To apply the purchase credit memo to multiple posted purchase invoices, on the **Home** tab, in the **Process** group, choose **Apply Entries**.  
   
-15. In the **\($ N\_233 Apply Vendor Entries $\)** window, select the lines with the entries that you want the applying entry to be applied to.  
+15. In the **Apply Vendor Entries** window, select the lines with the entries that you want the applying entry to be applied to.  
   
 16. On the **Navigate** tab, in the **Application** group, choose **Set Applies\-to ID**. The number of the purchase credit memo is inserted on the selected lines.  
   
-17. On each line, in the **\($ T\_25\_84 Amount to Apply $\)** field, enter the amount that you want to apply to the individual entry. If you do not enter an amount, the maximum amount is automatically applied. At the bottom of the **\($ N\_233 Apply Vendor Entries $\)** window, you can see the specific amount in the **\($ N\_233\_98 Applied Amount $\)** field and verify if the application balances.  
+17. On each line, in the **Amount to Apply** field, enter the amount that you want to apply to the individual entry. If you do not enter an amount, the maximum amount is automatically applied. At the bottom of the **Apply Vendor Entries** window, you can see the specific amount in the **Applied Amount** field and verify if the application balances.  
   
-18. Choose the **OK** button to close the **\($ N\_233 Apply Vendor Entries $\)** window. When you post the purchase credit memo, it will be applied to the specified posted purchase invoices.  
+18. Choose the **OK** button to close the **Apply Vendor Entries** window. When you post the purchase credit memo, it will be applied to the specified posted purchase invoices.  
   
      When you have created the needed purchase credit memo lines and the single or multiple applications are specified, you can proceed to post the purchase credit memo.  
   
@@ -132,6 +132,6 @@ If you want to return items to your vendor or cancel services that you have purc
  [How to: Record Purchases](../Finance/how-to-record-purchases.md)   
  [How to: Register New Products](../DesignAndEngineering/how-to-register-new-products.md)   
  [How to: Register New Vendors](../Purchasing/how-to-register-new-vendors.md)   
- [\($ S\_DEPARTMENTS Departments $\)](../GettingStarted/-$-s_departments-departments-$-.md)   
+ DEPARTMENTS Departments   
  [Business Functionality](../Topic/Business%20Functionality.md)   
- [Working with \($ P\_1 Product Name $\)](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)
+ [Working with Product Name](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)

@@ -49,7 +49,7 @@ For each account included in a reconciliation, the net sum of all amounts on the
   
 ### To reconcile liquid accounts  
   
-1.  In the **Search** box, enter **\($ N\_39 General Journal $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **General Journal**, and then choose the related link.  
   
 2.  Fill in at least one journal line with an account number, an amount, and an account number in the **Balancing Acc. No.** field.  
   

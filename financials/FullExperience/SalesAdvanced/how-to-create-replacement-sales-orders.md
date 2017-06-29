@@ -60,6 +60,6 @@ You may decide to compensate a customer for an item that you have sold them by r
 6.  When you run this batch job, the negative line for the replacement item is deleted from the sales return order and inserted itto a new **Sales Order** window.  
   
 ## See Also  
- [\($ N\_6630 Sales Return Order $\)](../Topic/\($%20N_6630%20Sales%20Return%20Order%20$\).md)   
+ Sales Return Order   
  [How to: Create Sales Return Orders](../Sales/how-to-create-sales-return-orders.md)   
  [Manage Sales Returns](../Sales/manage-sales-returns.md)

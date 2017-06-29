@@ -54,12 +54,12 @@ Cost accounting is concerned with recording and reporting business operating cos
 |------------|-------------|  
 |Distinguish the five different costing methods and their effect on cost flows.|[Design Details: Costing Methods](../ApplicationDesign/design-details-costing-methods.md)|  
 |Learn how item application entries dynamically link inventory decreases with increases to keep control of cost flows.|[Design Details: Item Application](../ApplicationDesign/design-details-item-application.md)|  
-|Distinguish item ledger entries \(physical\) from the related value entries \(financial\).|[\($ T\_32 Item Ledger Entry $\)](../Topic/\($%20T_32%20Item%20Ledger%20Entry%20$\).md)|  
+|Distinguish item ledger entries \(physical\) from the related value entries \(financial\).|Item Ledger Entry|  
 |Learn how an item's unit cost is continuously updated with the cost of its latest transaction according to the item's costing method.|[Unit Cost Calculation](../Finance/unit-cost-calculation.md)|  
 |Read why standard costs are often used by manufacturing companies as a valuation base for components and end items.|[About Calculating Standard Cost](../Finance/about-calculating-standard-cost.md)|  
 |Learn how an item's average cost is dynamically calculated according to the selected average cost period.|[Average Cost](../Finance/average-cost.md)|  
 |Distinguish expected cost \(not yet invoiced\) from actual cost and learn how it is managed in the general ledger.|[Design Details: Expected Cost Posting](../ApplicationDesign/design-details-expected-cost-posting.md)|  
-|Understand the cost adjustment mechanism, which ensures that costs are brought forward even if inventory transactions happen in a random manner.|[\($ B\_795 Adjust Cost \- Item Entries $\)](../Finance/-$-b_795-adjust-cost-item-entries-$-.md)|  
+|Understand the cost adjustment mechanism, which ensures that costs are brought forward even if inventory transactions happen in a random manner.|Adjust Cost \- Item Entries|  
 |Understand how the value of inventory is reflected in the general ledger.|[How to: Post Inventory Costs to the General Ledger](../DesignAndEngineering/how-to-post-inventory-costs-to-the-general-ledger.md)|  
 |Learn how item charges, such as freight and insurance, can assign additional cost components to an item's unit cost.|[Cost Assignment](../Finance/cost-assignment.md)|  
 |Read how inventory periods help a company to control inventory value over time by defining shorter periods that can be closed for posting as the fiscal year progresses.|[How to: Work with Inventory Periods](../Finance/how-to-work-with-inventory-periods.md)|  

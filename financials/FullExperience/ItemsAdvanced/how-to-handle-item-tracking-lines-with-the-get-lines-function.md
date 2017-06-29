@@ -39,7 +39,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Handle Item Tracking Lines with the Get Lines Function
-When you use functionality to get posted receipt or shipment lines from related invoices or credit memos, then any item tracking lines on the warehouse documents are transferred automatically, however, they are processed in a special way. For more information about getting lines, see [\($ N\_5709 Get Receipt Lines $\)](../Topic/\($%20N_5709%20Get%20Receipt%20Lines%20$\).md).  
+When you use functionality to get posted receipt or shipment lines from related invoices or credit memos, then any item tracking lines on the warehouse documents are transferred automatically, however, they are processed in a special way. For more information about getting lines, see Get Receipt Lines.  
   
  The functionality supports the following inbound processes:  
   

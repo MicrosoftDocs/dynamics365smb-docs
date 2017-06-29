@@ -22,13 +22,13 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can us
   
  Before you can file a SEPA payment you must complete the following administration tasks:  
   
--   Set up a new export protocol. For more information, see [\($ T\_2000005 Export Protocol $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/-$-t_2000005-export-protocol-$-.md).  
+-   Set up a new export protocol. For more information, see Export Protocol.  
   
--   In the **\($ T\_9 Country\/Region $\)** table, select the **\($ T\_9\_2000005 SEPA Allowed $\)** field for each country that belongs to the EEA zone.  
+-   In the **Country\/Region** table, select the **SEPA Allowed** field for each country that belongs to the EEA zone.  
   
--   Verify that the **\($ T\_98\_2000000 Currency Euro $\)** field in the **\($ T\_98 General Ledger Setup $\)** table corresponds with the currency in the payment lines.  
+-   Verify that the **Currency Euro** field in the **General Ledger Setup** table corresponds with the currency in the payment lines.  
   
--   Verify that the vendor’s **\($ T\_23\_288 Preferred Bank Account $\)** field in the **\($ T\_23 Vendor $\)** table contains the IBAN and SWIFT code.  
+-   Verify that the vendor’s **Preferred Bank Account** field in the **Vendor** table contains the IBAN and SWIFT code.  
   
 ### To file a SEPA payment  
   
@@ -41,15 +41,15 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can us
     |**\($ B\_2000005\_N\_2\_11 Journal Template Name $\)**|Specify the general journal template for the SEPA payment report.|  
     |**\($ B\_2000005\_N\_2\_7 Journal Batch $\)**|Specify the general journal batch for the SEPA payment report.|  
     |**\($ B\_2000005\_N\_2\_3 Post General Journal Lines $\)**|Specify if you want to transfer the payment lines to the general ledger.|  
-    |**\($ B\_2000005\_N\_2\_13 Include Dimensions $\)**|Enter the dimensions that you want to include in the SEPA payment report. The option is only available if the **\($ T\_11306\_2 Summarize Gen. Jnl. Lines $\)** field in the **\($ N\_11308 Electronic Banking Setup $\)** window is selected.|  
+    |**\($ B\_2000005\_N\_2\_13 Include Dimensions $\)**|Enter the dimensions that you want to include in the SEPA payment report. The option is only available if the **Summarize Gen. Jnl. Lines** field in the **Electronic Banking Setup** window is selected.|  
     |**\($ B\_2000005\_N\_2\_5 Execution Date $\)**|Enter an execution date if you want an execution date that differs from the posting date on the payment lines.|  
     |**\($ B\_2000005\_N\_2\_1 File Name $\)**|Enter the name of the file, including the drive and folder, to which you want to print the report.|  
   
 3.  Choose the **OK** button.  
   
 ## See Also  
- [\($ R\_2000005 File SEPA Payments $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/-$-r_2000005-file-sepa-payments-$-.md)   
+ File SEPA Payments   
  [How to: Set Up Export Protocols](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-export-protocols.md)   
- [\($ T\_2000005 Export Protocol $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/-$-t_2000005-export-protocol-$-.md)   
+ Export Protocol   
  [How to: File Non\-Euro SEPA Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-file-non-euro-sepa-payments.md)   
  [How to: Activate SEPA Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-activate-sepa-payments.md)

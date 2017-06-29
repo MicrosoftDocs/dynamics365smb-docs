@@ -82,7 +82,7 @@ If you have posted a document, for example a purchase order, and you discover th
   
  First, you must have set up an item charge number to identify these kinds of corrections.  
   
- You can then use the [\($ N\_5805 Item Charge Assignment \(Purch\) $\)](../Topic/\($%20N_5805%20Item%20Charge%20Assignment%20\(Purch\)%20$\).md) window to create a link to the incorrect posted purchase receipt. When you post the credit memo, the program updates the inventory value and the vendor ledger entries.  
+ You can then use the Item Charge Assignment \(Purch\)%20$\).md) window to create a link to the incorrect posted purchase receipt. When you post the credit memo, the program updates the inventory value and the vendor ledger entries.  
   
 ## See Also  
  [How to: Correct Purchase Invoices with Purchase Credit Memos](../Finance/how-to-correct-purchase-invoices-with-purchase-credit-memos.md)   

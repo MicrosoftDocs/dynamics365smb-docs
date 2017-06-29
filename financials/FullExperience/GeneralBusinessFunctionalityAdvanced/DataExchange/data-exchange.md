@@ -45,8 +45,8 @@ The format of files for exchange of data in bank files, electronic documents, cu
  ![Data Exchange Framework &#45; Export](../../BusinessFunctionality/DataExchange/media/nav_dataexchangeframework_export.png "NAV\_DataExchangeFramework\_Export")  
   
 ## See Also  
- [\($ N\_1210 Data Exchange Definition $\)](../Topic/\($%20N_1210%20Data%20Exchange%20Definition%20$\).md)   
- [\($ N\_1200 Bank Export\-Import Setup $\)](../Topic/\($%20N_1200%20Bank%20Export-Import%20Setup%20$\).md)   
- [\($ N\_1214 Data Exchange Mapping $\)](../Topic/\($%20N_1214%20Data%20Exchange%20Mapping%20$\).md)   
+ Data Exchange Definition   
+ Bank Export\-Import Setup   
+ Data Exchange Mapping   
  [Data Exchange](../../BusinessFunctionality/DataExchange/data-exchange.md)   
  [How to: Use XML Schemas to Prepare Data Exchange Definitions](../../BusinessFunctionality/DataExchange/how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)

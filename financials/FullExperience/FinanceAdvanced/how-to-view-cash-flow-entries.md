@@ -44,7 +44,7 @@ Each time that you register cash flow worksheet lines, you can view the informat
   
 1.  In the **Search** box, enter **Cash Flow Forecasts**, and then choose the related link.  
   
-2.  In the **\($ T\_840\_1 No. $\)** field, select a cash flow forecast number from the list.  
+2.  In the **No.** field, select a cash flow forecast number from the list.  
   
 3.  On the **Navigate** tab, in the **Cash Flow Forecast** group, choose **Entries**.  
   
@@ -52,4 +52,4 @@ Each time that you register cash flow worksheet lines, you can view the informat
   
 ## See Also  
  [How to: Register Cash Flow Worksheet Lines](../Finance/how-to-register-cash-flow-worksheet-lines.md)   
- [\($ N\_847 Cash Flow Forecast Card $\)](assetId:///b485a851-81b1-4986-afb2-84244f53f18e)
+ Cash Flow Forecast Card

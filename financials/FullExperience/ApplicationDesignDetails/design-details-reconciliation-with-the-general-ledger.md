@@ -44,19 +44,19 @@ When you post inventory transactions, such as sales shipments, production output
   
  There are two ways to reconcile the inventory ledger with the general ledger:  
   
--   Manually, by running the **\($ B\_1002 Post Inventory Cost to G\/L $\)** batch job.  
+-   Manually, by running the **Post Inventory Cost to G\/L** batch job.  
   
 -   Automatically, every time that you post an inventory transaction.  
   
 ## Post Inventory Cost to G\/L Batch Job  
- When you run the **\($ B\_1002 Post Inventory Cost to G\/L $\)** batch job, the general ledger entries are created based on value entries. You have the option to summarize general ledger entries for each value entry, or create general ledger entries for each combination of posting date, location code, inventory posting group, general business posting group, and general product posting group.  
+ When you run the **Post Inventory Cost to G\/L** batch job, the general ledger entries are created based on value entries. You have the option to summarize general ledger entries for each value entry, or create general ledger entries for each combination of posting date, location code, inventory posting group, general business posting group, and general product posting group.  
   
  The posting dates of the general ledger entries are set to the posting date of the corresponding value entry, except when the value entry falls in a closed accounting period. In this case, the value entry is skipped, and you must change either the general ledger setup or the user setup to enable posting in the date range.  
   
- When you run the **\($ B\_1002 Post Inventory Cost to G\/L $\)** batch job, you might receive errors because of missing setup or incompatible dimension setup. If the batch job encounters errors in the dimension setup, it overrides these errors and uses the dimensions of the value entry. For other errors, the batch job does not post the value entries and lists them at the end of the report in a section titled, **Skipped Entries**. To post these entries, you must first fix the errors. To see a list of errors before you run the batch job, you can run the **\($ B\_1003 Post Invt. Cost to G\/L \- Test $\)** report. This report lists all of the errors that are encountered during a test posting. You can fix the errors, and then run the inventory cost posting batch job without skipping any entries.  
+ When you run the **Post Inventory Cost to G\/L** batch job, you might receive errors because of missing setup or incompatible dimension setup. If the batch job encounters errors in the dimension setup, it overrides these errors and uses the dimensions of the value entry. For other errors, the batch job does not post the value entries and lists them at the end of the report in a section titled, **Skipped Entries**. To post these entries, you must first fix the errors. To see a list of errors before you run the batch job, you can run the **Post Invt. Cost to G\/L \- Test** report. This report lists all of the errors that are encountered during a test posting. You can fix the errors, and then run the inventory cost posting batch job without skipping any entries.  
   
 ## Automatic Cost Posting  
- To set up cost posting to the general ledger to run automatically when you post an inventory transaction, select the **\($ T\_313\_2 Automatic Cost Posting $\)** check box in the **\($ N\_461 Inventory Setup $\)** window. The posting date of the general ledger entry is the same as the posting date of the item ledger entry.  
+ To set up cost posting to the general ledger to run automatically when you post an inventory transaction, select the **Automatic Cost Posting** check box in the **Inventory Setup** window. The posting date of the general ledger entry is the same as the posting date of the item ledger entry.  
   
 ## Account Types  
  During reconciliation, inventory values are posted to the inventory account in the balance sheet. The same amount, but with the reverse sign, is posted to the relevant balancing account. Usually the balancing account is an income statement account. However, when you post direct cost related to consumption or output, the balancing account is a balance sheet account. The type of the item ledger entry and value entry determines which general ledger account to post to.  
@@ -66,30 +66,30 @@ When you post inventory transactions, such as sales shipments, production output
 ### Example  
  The following example shows a bike chain that is manufactured from purchased links. This example shows how the various general ledger account types are used in a typical scenario.  
   
- The **\($ T\_313\_5800 Expected Cost Posting to G\/L $\)** check box in the **\($ N\_461 Inventory Setup $\)** window is selected, and the following setup is defined.  
+ The **Expected Cost Posting to G\/L** check box in the **Inventory Setup** window is selected, and the following setup is defined.  
   
  The following table shows how the link is set up on the item card.  
   
 |Setup field|Value|  
 |-----------------|-----------|  
-|**\($ T\_27\_21 Costing Method $\)**|Standard|  
-|**\($ T\_27\_24 Standard Cost $\)**|LCY 1.00|  
-|**\($ T\_27\_99000757 Overhead Rate $\)**|LCY 0.02|  
+|**Costing Method**|Standard|  
+|**Standard Cost**|LCY 1.00|  
+|**Overhead Rate**|LCY 0.02|  
   
  The following table shows how the chain is set up on the item card.  
   
 |Setup field|Value|  
 |-----------------|-----------|  
-|**\($ T\_27\_21 Costing Method $\)**|Standard|  
-|**\($ T\_27\_24 Standard Cost $\)**|LCY 150.00|  
-|**\($ T\_27\_99000757 Overhead Rate $\)**|LCY 25.00|  
+|**Costing Method**|Standard|  
+|**Standard Cost**|LCY 150.00|  
+|**Overhead Rate**|LCY 25.00|  
   
  The following table shows how the work center is set up on the work center card.  
   
 |Setup field|Value|  
 |-----------------|-----------|  
-|**\($ T\_99000754\_19 Direct Unit Cost $\)**|LCY 2.00|  
-|**\($ T\_99000754\_20 Indirect Cost Percentage $\)**|10|  
+|**Direct Unit Cost**|LCY 2.00|  
+|**Indirect Cost Percentage**|10|  
   
 ##### Scenario  
   
@@ -129,7 +129,7 @@ When you post inventory transactions, such as sales shipments, production output
   
 7.  The user posts the expected cost of one chain. \(Output\)  
   
-8.  The user finishes the production order and runs the **\($ B\_795 Adjust Cost \- Item Entries $\)** batch job. \(Output\)  
+8.  The user finishes the production order and runs the **Adjust Cost \- Item Entries** batch job. \(Output\)  
   
     1.  The interim accounts are cleared. \(Output\)  
   

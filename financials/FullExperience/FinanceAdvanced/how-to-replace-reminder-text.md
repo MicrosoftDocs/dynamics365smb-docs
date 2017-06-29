@@ -52,7 +52,7 @@ There are several ways you can determine the text that appears on the printed re
 3.  Choose the **OK** button to update the beginning and ending texts.  
   
 ## See Also  
- [\($ B\_187 Update Reminder Text $\)](../Topic/\($%20B_187%20Update%20Reminder%20Text%20$\).md)   
+ Update Reminder Text   
  [How to: Set Up Reminder Levels](../Finance/how-to-set-up-reminder-levels.md)   
  [How to: Set Up Reminder Text](../Finance/how-to-set-up-reminder-text.md)   
  [How to: Create Reminders Automatically](../Finance/how-to-create-reminders-automatically.md)   

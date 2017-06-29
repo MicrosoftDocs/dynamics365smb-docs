@@ -60,4 +60,4 @@ In the **Contract Statistics** window, you can see up\-to\-date information abou
   
 ## See Also  
  [How to: View Service Statistics](../Service/how-to-view-service-statistics.md)   
- [\($ N\_6059 Contract Statistics $\)](../Topic/\($%20N_6059%20Contract%20Statistics%20$\).md)
+ Contract Statistics

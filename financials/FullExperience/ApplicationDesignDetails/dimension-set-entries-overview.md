@@ -59,13 +59,13 @@ This topic describes how dimension set entries are stored and posted in [!INCLUD
 |108|DEPARTMENT|SALES|Sales|  
   
 ## Dimension Set Entries  
- Dimension sets are stored in the **\($ T\_480 Dimension Set Entry $\)** table as dimension set entries with the same dimension set ID.  
+ Dimension sets are stored in the **Dimension Set Entry** table as dimension set entries with the same dimension set ID.  
   
  ![Dimension Entry overview](../ApplicationDesign/media/dimensionentrynav7.png "DimensionEntryNAV7")  
   
  When you create a new journal line, document header, or document line, you can specify a combination of dimension values. Instead of explicitly storing each dimension value in the database, a dimension set ID is assigned to the journal line, document header, or document line to specify the dimension set.  
   
- When you edit and close the **\($ N\_480 Edit Dimension Set Entries $\)** window, a check is performed to see whether the combination of dimension values exists as a dimension set in the table. If the combination occurs in the table, then the corresponding dimension set ID is assigned to the journal line, document header, or document line. Otherwise, a new dimension set is added to the table, and the new dimension set ID is assigned to the journal line, document header, or document line.  
+ When you edit and close the **Edit Dimension Set Entries** window, a check is performed to see whether the combination of dimension values exists as a dimension set in the table. If the combination occurs in the table, then the corresponding dimension set ID is assigned to the journal line, document header, or document line. Otherwise, a new dimension set is added to the table, and the new dimension set ID is assigned to the journal line, document header, or document line.  
   
 ## Performance Improvement  
  By storing dimension sets once in the database, database space is preserved, and overall performance is improved.  
@@ -76,6 +76,6 @@ This topic describes how dimension set entries are stored and posted in [!INCLUD
  [Design Details: Codeunit 408 Dimension Management](../ApplicationDesign/design-details-codeunit-408-dimension-management.md)   
  [Design Details: Code Examples of Changed Patterns in Modifications](../ApplicationDesign/design-details-code-examples-of-changed-patterns-in-modifications.md)   
  [Design Details: Dimension Set Entries](../ApplicationDesign/design-details-dimension-set-entries.md)   
- [\($ T\_480 Dimension Set Entry $\)](assetId:///d2bccaa5-90ff-4137-b56d-4c59eba5f533)   
- [\($ T\_481 Dimension Set Tree Node $\)](assetId:///469c53b7-4b44-49e6-b914-445e84ed8525)   
- [\($ T\_482 Reclas. Dimension Set Buffer $\)](assetId:///28a45482-7b26-4b9d-91ab-ab77c5ebe618)
+ Dimension Set Entry   
+ Dimension Set Tree Node   
+ Reclas. Dimension Set Buffer

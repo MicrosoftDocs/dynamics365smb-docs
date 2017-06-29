@@ -33,5 +33,5 @@ When a partial payment or prepayment is made, you must calculate Goods and Servi
  [How to: Export Business Activity Statements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-export-business-activity-statements.md)   
  [How to: Print Goods and Services Tax Sales and Purchase Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-print-goods-and-services-tax-sales-and-purchase-reports.md)   
  [Invoice Prepayments](../../Finance/invoice-prepayments.md)   
- [\($ T\_98 General Ledger Setup $\)](assetId:///199e09dc-fe90-4792-be3e-ad395447dfd6)   
+ General Ledger Setup   
  [Australia Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/australia-local-functionality.md)

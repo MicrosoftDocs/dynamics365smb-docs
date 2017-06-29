@@ -34,6 +34,6 @@ When a customer makes payment in a foreign currency, VAT must be recalculated us
   
 ## See Also  
  [How to: Define VAT Statements](../../Finance/how-to-define-vat-statements.md)   
- [\($ T\_256 VAT Statement Line $\)](assetId:///827c23e2-cae1-492e-9b90-68b5c3418236)   
+ VAT Statement Line   
  [How to: Set Up Unrealized Sales Tax and Sales Payment Discounts](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)   
  [Mexico Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Mexico/mexico-local-functionality.md)

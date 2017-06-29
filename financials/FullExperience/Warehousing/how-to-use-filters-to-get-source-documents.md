@@ -42,7 +42,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Use Filters to Get Source Documents
-From a new or an open warehouse receipt or warehouse shipment, you can use the **\($ N\_5784 Filters to Get Source Docs. $\)** window to retrieve the released source document lines that define which items to receive or ship.  
+From a new or an open warehouse receipt or warehouse shipment, you can use the **Filters to Get Source Docs.** window to retrieve the released source document lines that define which items to receive or ship.  
   
 ### To use filters to get source documents  
   
@@ -54,7 +54,7 @@ From a new or an open warehouse receipt or warehouse shipment, you can use the *
   
 4.  To set up a new filter, enter a descriptive code in the **Code** field, and then click **Modify**.  
   
-     The **\($ N\_5786 Source Document Filter Card $\)** window appears. The caption of the window includes **Inbound** if you are using the filter function to get receipt lines, or **Outbound** if you are preparing a shipment.  
+     The **Source Document Filter Card** window appears. The caption of the window includes **Inbound** if you are using the filter function to get receipt lines, or **Outbound** if you are preparing a shipment.  
   
 5.  Define the type of source document lines that you want to retrieve by filling in the relevant filter fields.  
   
@@ -66,16 +66,16 @@ From a new or an open warehouse receipt or warehouse shipment, you can use the *
   
  For information about releasing outbound source documents for shipment, see [How to: Pick Items for Warehouse Shipment](../WarehouseActivities/how-to-pick-items-for-warehouse-shipment.md).  
   
- The filter combinations that you define are saved in the **\($ N\_5784 Filters to Get Source Docs. $\)** window until the next time you need it. You can make an unlimited number of filter combinations.  
+ The filter combinations that you define are saved in the **Filters to Get Source Docs.** window until the next time you need it. You can make an unlimited number of filter combinations.  
   
  You can change the criteria at any time by clicking **Modify**.  
   
 ## See Also  
- [\($ N\_5784 Filters to Get Source Docs. $\)](../Topic/\($%20N_5784%20Filters%20to%20Get%20Source%20Docs.%20$\).md)   
- [\($ N\_5786 Source Document Filter Card $\)](../Topic/\($%20N_5786%20Source%20Document%20Filter%20Card%20$\).md)   
- [\($ N\_5768 Warehouse Receipt $\)](../Topic/\($%20N_5768%20Warehouse%20Receipt%20$\).md)   
- [\($ N\_7335 Warehouse Shipment $\)](../Topic/\($%20N_7335%20Warehouse%20Shipment%20$\).md)   
- [\($ T\_5771 Warehouse Source Filter $\)](../Topic/\($%20T_5771%20Warehouse%20Source%20Filter%20$\).md)   
+ Filters to Get Source Docs.   
+ Source Document Filter Card   
+ Warehouse Receipt   
+ Warehouse Shipment   
+ Warehouse Source Filter   
  [How to: Pick Items for Warehouse Shipment](../WarehouseActivities/how-to-pick-items-for-warehouse-shipment.md)   
  [How to: Receive Items](../Receiving/how-to-receive-items.md)   
  [Shipping](../Topic/Shipping.md)

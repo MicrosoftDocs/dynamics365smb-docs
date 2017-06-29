@@ -25,7 +25,7 @@ The letter of attorney feature enables you to create and print a Letter of Attor
   
 1.  In the **Search** box, enter **Purchases & Payables Setup**, and then choose the related link.  
   
-2.  On the **Background Posting** FastTab, fill in the **\($ T\_312\_14905 Letter of Attorney Nos. $\)** and **\($ T\_312\_14906 Released Letter of Attorney Nos. $\)** fields.  
+2.  On the **Background Posting** FastTab, fill in the **Letter of Attorney Nos.** and **Released Letter of Attorney Nos.** fields.  
   
 3.  Choose the **OK** button.  
   
@@ -37,20 +37,20 @@ The letter of attorney feature enables you to create and print a Letter of Attor
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_14905\_4 Letter of Attorney No. $\)**|Enter the number of the printed document. This number is documented in the printing form of the document and in the Letter of Attorney journal. This field is filled in automatically from the numbering series.|  
-    |**\($ T\_14905\_10 Employee No. $\)**|Enter the employee number.|  
-    |**\($ T\_14905\_11 Employee Full Name $\)**|Specifies the name of the employee. The field is filled in automatically from the **\($ N\_5200 Employee Card $\)**.|  
-    |**\($ T\_14905\_12 Employee Job Title $\)**|Specifies the job title of the employee. The field is filled in automatically from the **\($ N\_5200 Employee Card $\)**.|  
-    |**\($ T\_14905\_16 Source Document Type $\)**|Enter the type of source document. You can create a Letter of Attorney \(header and lines\) on the basis of an existing purchase document that is not yet posted.|  
-    |**\($ T\_14905\_17 Source Document No. $\)**|Enter the source document number.|  
-    |**\($ T\_14905\_20 Buy\-from Vendor No. $\)**|Specifies the vendor number. The field is filled in automatically from the purchase document when a source document is chosen. You can manually choose the vendor.|  
-    |**\($ T\_14905\_21 Buy\-from Vendor Name $\)**|Specifies the name of the vendor. The field is filled in automatically from the **\($ N\_26 Vendor Card $\)**.|  
-    |**\($ T\_14905\_30 Document Description $\)**|Specifies information about the source document. The field is filled in automatically, but you can also manually enter the document description.|  
-    |**\($ T\_14905\_50 Realization Check $\)**|Specifies the document that is realized.|  
-    |**\($ T\_14905\_2 Document Date $\)**|Enter the date of the Letter of Attorney. This field is filled in with the work date by default. Manually enter the date of the document, if needed.|  
-    |**\($ T\_14905\_3 Validity Date $\)**|Enter the validity date of the document. This field is filled in by default, with the date that occurs 15 days after the document date. Manually enter the validity date, if needed.|  
-    |**\($ T\_14905\_40 Status $\)**|Specifies the status of the document.|  
-    |**\($ T\_14905\_1 No. $\)**|Enter the number of the open document. This field is filled in automatically from the numbering series.|  
+    |**Letter of Attorney No.**|Enter the number of the printed document. This number is documented in the printing form of the document and in the Letter of Attorney journal. This field is filled in automatically from the numbering series.|  
+    |**Employee No.**|Enter the employee number.|  
+    |**Employee Full Name**|Specifies the name of the employee. The field is filled in automatically from the **Employee Card**.|  
+    |**Employee Job Title**|Specifies the job title of the employee. The field is filled in automatically from the **Employee Card**.|  
+    |**Source Document Type**|Enter the type of source document. You can create a Letter of Attorney \(header and lines\) on the basis of an existing purchase document that is not yet posted.|  
+    |**Source Document No.**|Enter the source document number.|  
+    |**Buy\-from Vendor No.**|Specifies the vendor number. The field is filled in automatically from the purchase document when a source document is chosen. You can manually choose the vendor.|  
+    |**Buy\-from Vendor Name**|Specifies the name of the vendor. The field is filled in automatically from the **Vendor Card**.|  
+    |**Document Description**|Specifies information about the source document. The field is filled in automatically, but you can also manually enter the document description.|  
+    |**Realization Check**|Specifies the document that is realized.|  
+    |**Document Date**|Enter the date of the Letter of Attorney. This field is filled in with the work date by default. Manually enter the date of the document, if needed.|  
+    |**Validity Date**|Enter the validity date of the document. This field is filled in by default, with the date that occurs 15 days after the document date. Manually enter the validity date, if needed.|  
+    |**Status**|Specifies the status of the document.|  
+    |**No.**|Enter the number of the open document. This field is filled in automatically from the numbering series.|  
   
 2.  Choose the **OK** button.  
   

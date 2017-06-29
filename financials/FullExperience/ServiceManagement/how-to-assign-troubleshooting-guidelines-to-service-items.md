@@ -45,7 +45,7 @@ You can assign troubleshooting guidelines to service items to help the technicia
   
 ### To assign troubleshooting guidelines to a service item  
   
-1.  In the **Search** box, enter **\($ N\_5980 Service Item List $\)**, and then choose the related link. Select the service item to which you want to assign troubleshooting guidelines.  
+1.  In the **Search** box, enter **Service Item List**, and then choose the related link. Select the service item to which you want to assign troubleshooting guidelines.  
   
 2.  On the **Navigate** tab, in the **Serv. Item** group, choose **Troubleshooting Setup**. The **Troubleshooting Setup** window opens.  
   

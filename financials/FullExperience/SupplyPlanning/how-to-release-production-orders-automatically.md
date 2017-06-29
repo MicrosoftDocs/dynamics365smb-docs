@@ -45,7 +45,7 @@ With an automatic release, you can release several production orders at the same
   
 ### To release production orders automatically  
   
-1.  In the **Search** box, enter **\($ N\_99000914 Change Production Order Status $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Change Production Order Status**, and then choose the related link.  
   
 2.  In the **Status Filter** field, select **Firm Planned** to filter the production orders to be released.  
   

@@ -26,12 +26,12 @@ Kunde ID \(KID\) is a customer identification number that provides a payment ref
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_311\_10603 KID Setup $\)**|Specifies a KID number format.|  
-    |**\($ T\_311\_10604 Document No. length $\)**|Enter the number of digits used for the document number.|  
-    |**\($ T\_311\_10605 Customer No. length $\)**|Enter the number of digits used for the customer number.|  
-    |**\($ T\_311\_10606 Use KID on Fin. Charge Memo $\)**|Select to print KID numbers on finance charge memos. **Note:**  If selected, then you must also select the **Document Type \+ Document No.** format in the **\($ T\_311\_10603 KID Setup $\)** field.|  
-    |**\($ T\_311\_10607 Use KID on Reminder $\)**|Select to print KID numbers on reminders. **Note:**  If selected, then you must also select the **Document Type \+ Document No.** format in the **\($ T\_311\_10603 KID Setup $\)** field.|  
-    |**\($ T\_311\_10600 Print Receipt on Giro $\)**|Select to print the receipt section on sales invoices, credit memos, reminders, or finance charge memos.There are several layout options available when printing the receipt section on sales documents that contain a Giro. For more information, see [Norwegian Sales Documents](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/norwegian-sales-documents.md)|  
+    |**KID Setup**|Specifies a KID number format.|  
+    |**Document No. length**|Enter the number of digits used for the document number.|  
+    |**Customer No. length**|Enter the number of digits used for the customer number.|  
+    |**Use KID on Fin. Charge Memo**|Select to print KID numbers on finance charge memos. **Note:**  If selected, then you must also select the **Document Type \+ Document No.** format in the **KID Setup** field.|  
+    |**Use KID on Reminder**|Select to print KID numbers on reminders. **Note:**  If selected, then you must also select the **Document Type \+ Document No.** format in the **KID Setup** field.|  
+    |**Print Receipt on Giro**|Select to print the receipt section on sales invoices, credit memos, reminders, or finance charge memos.There are several layout options available when printing the receipt section on sales documents that contain a Giro. For more information, see [Norwegian Sales Documents](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/norwegian-sales-documents.md)|  
   
 3.  Choose the **OK** button.  
   

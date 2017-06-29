@@ -49,7 +49,7 @@ When a taxonomy changes you need to update the current taxonomy accordingly. The
   
 1.  In the **Search** box, enter **XBRL Taxonomies**, and then choose the related link.  
   
-2.  In the **\($ N\_582 XBRL Taxonomies $\)** window, on the **Navigate** tab, in the **Taxonomy** group, choose **Schemas**.  
+2.  In the **XBRL Taxonomies** window, on the **Navigate** tab, in the **Taxonomy** group, choose **Schemas**.  
   
 3.  To update a schema, select the schema you want to update. On the **Home** tab, in the **Process** group, choose **Import**.  
   

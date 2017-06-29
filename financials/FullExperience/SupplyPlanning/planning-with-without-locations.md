@@ -27,7 +27,7 @@ Concerning planning with or without location codes on demand lines, the planning
   
  During a planning run, the system checks for the 3 setup values in sequence and plans accordingly:  
   
-1.  Is there a check mark in the **\($ T\_313\_3 Location Mandatory $\)** field?  
+1.  Is there a check mark in the **Location Mandatory** field?  
   
      If yes, then:  
   
@@ -39,7 +39,7 @@ Concerning planning with or without location codes on demand lines, the planning
   
      If no, then:  
   
-3.  Does the **\($ T\_5700\_5416 Components at Location $\)** field contain the demanded location code?  
+3.  Does the **Components at Location** field contain the demanded location code?  
   
      If yes, then:  
   
@@ -142,8 +142,8 @@ The item is planned according to: Reordering Policy \=  *Lot\-for\-Lot* \( *Orde
  Therefore, if you often plan for demand at locations, it is strongly advised to use the Stockkeeping Units feature.  
   
 ## See Also  
- [\($ N\_5700 Stockkeeping Unit Card $\)](../Topic/\($%20N_5700%20Stockkeeping%20Unit%20Card%20$\).md)   
- [\($ T\_313\_3 Location Mandatory $\)](../Topic/\($%20T_313_3%20Location%20Mandatory%20$\).md)   
- [\($ T\_5700\_5416 Components at Location $\)](../Topic/\($%20T_5700_5416%20Components%20at%20Location%20$\).md)   
+ Stockkeeping Unit Card   
+ Location Mandatory   
+ Components at Location   
  [Design Details: Supply Planning](../ApplicationDesign/design-details-supply-planning.md)   
  [Setup Best Practices: Supply Planning](../SetupAndAdministration/setup-best-practices-supply-planning.md)

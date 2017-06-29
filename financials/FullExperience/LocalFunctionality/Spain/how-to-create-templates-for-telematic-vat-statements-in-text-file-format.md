@@ -25,11 +25,11 @@ In order to submit VAT statements electronically, you must create templates to g
   
 ### To create a template for VAT statements in text file format  
   
-1.  In the **Search** box, enter **\($ N\_317 VAT Statement $\)**, and then choose the appropriate link.  
+1.  In the **Search** box, enter **VAT Statement**, and then choose the appropriate link.  
   
 2.  Select the required VAT statement, and then, on the **Actions** tab, choose **Telematic VAT**, and then choose **Design txt file**.  
   
-3.  In the **\($ N\_10704 Transference Format $\)** window, fill in the fields as described in the following table.  
+3.  In the **Transference Format** window, fill in the fields as described in the following table.  
   
     > [!IMPORTANT]  
     >  The values for the fields are determined by the tax authorities.  
@@ -38,15 +38,15 @@ In order to submit VAT statements electronically, you must create templates to g
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_10705\_1 VAT Stmt. Name $\)**|Specify the VAT statement name that this template is for.|  
-    |**\($ T\_10705\_2 No. $\)**|Specify the field number in the text file.|  
-    |**\($ T\_10705\_3 Position $\)**|Specify the position of this field in the text file.|  
-    |**\($ T\_10705\_4 Length $\)**|Specify the length of the field.|  
-    |**\($ T\_10705\_5 Type $\)**|Specify the type of the field. The available options are **Alphanumerical**, **Numerical**, **Fix**, **Ask**, and **Currency**.|  
-    |**\($ T\_10705\_6 Subtype $\)**|Specify the subtype of the field.<br /><br /> The subtype specifies if the line must show only the integer part of an amount, the decimal part, or the full amount.|  
-    |**\($ T\_10705\_7 Description $\)**|Specify the text that you want to appear on the label.|  
-    |**\($ T\_10705\_8 Value $\)**|Specify the value for the label.|  
-    |**\($ T\_10705\_9 Box $\)**|Specify the box number from which to retrieve the data.|  
+    |**VAT Stmt. Name**|Specify the VAT statement name that this template is for.|  
+    |**No.**|Specify the field number in the text file.|  
+    |**Position**|Specify the position of this field in the text file.|  
+    |**Length**|Specify the length of the field.|  
+    |**Type**|Specify the type of the field. The available options are **Alphanumerical**, **Numerical**, **Fix**, **Ask**, and **Currency**.|  
+    |**Subtype**|Specify the subtype of the field.<br /><br /> The subtype specifies if the line must show only the integer part of an amount, the decimal part, or the full amount.|  
+    |**Description**|Specify the text that you want to appear on the label.|  
+    |**Value**|Specify the value for the label.|  
+    |**Box**|Specify the box number from which to retrieve the data.|  
   
 4.  Repeat the previous step for additional lines in the VAT statement.  
   
@@ -57,4 +57,4 @@ In order to submit VAT statements electronically, you must create templates to g
 ## See Also  
  [How to: Export VAT Statements in Text Format](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/how-to-export-vat-statements-in-text-format.md)   
  [How to: Create Templates for Telematic VAT Statements in XML File Format](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/how-to-create-templates-for-telematic-vat-statements-in-xml-file-format.md)   
- [\($ T\_10705 AEAT Transference Format $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-t_10705-aeat-transference-format-$-.md)
+ AEAT Transference Format

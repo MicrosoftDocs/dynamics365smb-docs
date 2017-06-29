@@ -47,7 +47,7 @@ You may agree to compensate a customer by letting them return a sold item agains
 |**Function**|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
 |------------------|---------------------------------------|  
 |**Get Posted Document Lines to Reverse**|Copies lines of one or more posted documents to be reversed.|  
-|**Copy Document**|Copies both the header and lines of one posted document to be reversed.<br /><br /> Requires that the **\($ T\_311\_6602 Exact Cost Reversing Mandatory $\)** check box is selected in the **\($ N\_459 Sales & Receivables Setup $\)** window.|  
+|**Copy Document**|Copies both the header and lines of one posted document to be reversed.<br /><br /> Requires that the **Exact Cost Reversing Mandatory** check box is selected in the **\($ N\_459 Sales & Receivables Setup $\)** window.|  
   
 ### To assign exact cost reversing manually  
   
@@ -72,13 +72,13 @@ You may agree to compensate a customer by letting them return a sold item agains
  The selected line or lines are inserted under the sales return order line. The **Appl.\-from Item Entry** field on the lines are filled with number of the reversed item ledger entry.  
   
 > [!NOTE]  
->  If the line has item tracking, then the **Appl.\-from Item Entry** field is filled on the related line in the **\($ N\_6510 Item Tracking Lines $\)** window instead of on the sales return line.  
+>  If the line has item tracking, then the **Appl.\-from Item Entry** field is filled on the related line in the **Item Tracking Lines** window instead of on the sales return line.  
   
 ## See Also  
  [How to: Reverse Posted Document Lines](../Finance/how-to-reverse-posted-document-lines.md)   
  [Design Details: Inventory Costing](../ApplicationDesign/design-details-inventory-costing.md)   
- [\($ N\_5850 Posted Sales Document Lines $\)](../Topic/\($%20N_5850%20Posted%20Sales%20Document%20Lines%20$\).md)   
- [\($ N\_6510 Item Tracking Lines $\)](../Topic/\($%20N_6510%20Item%20Tracking%20Lines%20$\).md)   
- [\($ T\_37\_5811 Appl.\-from Item Entry $\)](../Topic/\($%20T_37_5811%20Appl.-from%20Item%20Entry%20$\).md)   
- [\($ T\_32\_28 Applies\-to Entry $\)](../Topic/\($%20T_32_28%20Applies-to%20Entry%20$\).md)   
+ Posted Sales Document Lines   
+ Item Tracking Lines   
+ Appl.\-from Item Entry   
+ Applies\-to Entry   
  [How to: Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](../Finance/how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)

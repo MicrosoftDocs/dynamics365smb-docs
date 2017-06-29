@@ -39,5 +39,5 @@ When generating certain sales reports and purchase reports, you can print regist
 4.  Choose the **OK** button.  
   
 ## See Also  
- [\($ N\_1 Company Information $\)](assetId:///45c9cfb7-ca1f-4323-99cd-9360a5631648)   
+ Company Information   
  [How to: Register New Vendors](../../Purchasing/how-to-register-new-vendors.md)

@@ -101,7 +101,7 @@ In managing your relationships with contacts, it helps keep track of email corre
 > [!NOTE]  
 >  The email account that is used to configure email logging in [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] must have certain permissions with regard to the public folders.  
 >   
->  -   When you configure email logging setup in the **\($ N\_5094 Marketing Setup $\)** window, the user name that is used for the validation of setup must have **Read** access to the public folders.  
+>  -   When you configure email logging setup in the **Marketing Setup** window, the user name that is used for the validation of setup must have **Read** access to the public folders.  
 > -   When email logging is running on the [!INCLUDE[nav_server](../../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_server_md.md)], the user account credentials that are used on the server instance must have full **Read**, **Write**, and **Delete items** permission levels set on the public folders.  
   
  For more information, see [Managing Public Folder Permissions](http://go.microsoft.com/fwlink/?prd=12036).  
@@ -127,21 +127,21 @@ In managing your relationships with contacts, it helps keep track of email corre
   
 #### To configure email logging  
   
-1.  In the **Search** box, enter **\($ N\_5186 Interaction Template Setup $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Interaction Template Setup**, and then choose the related link.  
   
-2.  On the **General** FastTab, in the **\($ T\_5122\_10 E\-Mails $\)** field, select a template. For this walkthrough, select **EMAIL**. Choose the **OK** button. For more information, see [Interactions](../../Marketing/interactions.md).  
+2.  On the **General** FastTab, in the **E\-Mails** field, select a template. For this walkthrough, select **EMAIL**. Choose the **OK** button. For more information, see [Interactions](../../Marketing/interactions.md).  
   
-3.  In the **Search** box, enter **\($ N\_5094 Marketing Setup $\)**, and then choose the related link.  
+3.  In the **Search** box, enter **Marketing Setup**, and then choose the related link.  
   
-4.  Expand the **E\-Mail Logging** FastTab and in the **\($ T\_5079\_69 Autodiscovery E\-mail Address $\)** field, enter the email address of a user in your company who has an email account on a Microsoft Exchange Server.  
+4.  Expand the **E\-Mail Logging** FastTab and in the **Autodiscovery E\-mail Address** field, enter the email address of a user in your company who has an email account on a Microsoft Exchange Server.  
   
-5.  In the **\($ T\_5079\_56 Queue Folder Path $\)** field, choose the **AssistEdit** button. The **\($ N\_5320 Exchange Public Folders $\)** window opens.  
+5.  In the **Queue Folder Path** field, choose the **AssistEdit** button. The **Exchange Public Folders** window opens.  
   
 6.  Select a folder name for your public folder, and on the **Home** tab, choose **Get Subfolders**. Navigate to the queue folder that you created in Outlook.  
   
-7.  In the **\($ T\_5079\_59 Storage Folder Path $\)** field, choose the **AssistEdit** button. Navigate to the storage folder that you created in Outlook.  
+7.  In the **Storage Folder Path** field, choose the **AssistEdit** button. Navigate to the storage folder that you created in Outlook.  
   
-8.  In the **\($ T\_5079\_70 Email Batch Size $\)** field, enter 20. This value specifies how many email messages to process at a time.  
+8.  In the **Email Batch Size** field, enter 20. This value specifies how many email messages to process at a time.  
   
 9. To make sure that the address and setup are valid on the Exchange Server, on the **Actions** tab, in the **Functions** group, choose **Validate Email Logging Setup**.  
   
@@ -175,44 +175,44 @@ In managing your relationships with contacts, it helps keep track of email corre
   
 #### To start the job queue  
   
-1.  In the **Search** box, enter **\($ N\_671 Job Queue Category $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Job Queue Category**, and then choose the related link.  
   
-2.  Choose **New**, and create a new category code called LOGGING. In the **\($ T\_471\_2 Description $\)** field, enter Email Logging. Choose the **OK** button.  
+2.  Choose **New**, and create a new category code called LOGGING. In the **Description** field, enter Email Logging. Choose the **OK** button.  
   
-3.  In the **Search** box, enter **\($ N\_670 Job Queues $\)**, and then choose the related link.  
+3.  In the **Search** box, enter **Job Queues**, and then choose the related link.  
   
-4.  Choose **New**, and create a new queue code called ELQ. In the **\($ T\_470\_2 Description $\)** field, enter **Email Logging Queue**.  
+4.  Choose **New**, and create a new queue code called ELQ. In the **Description** field, enter **Email Logging Queue**.  
   
-5.  Choose the **\($ T\_470\_3 Job Queue Category Filter $\)** field and set to LOGGING. Select the **\($ T\_470\_8 Start Automatically From NAS $\)** check box. Choose the **OK** button.  
+5.  Choose the **Job Queue Category Filter** field and set to LOGGING. Select the **Start Automatically From NAS** check box. Choose the **OK** button.  
   
-6.  In the **Search** box, enter **\($ N\_672 Job Queue Entries $\)**, and then choose the related link.  
+6.  In the **Search** box, enter **Job Queue Entries**, and then choose the related link.  
   
-7.  Choose **New**, and fill in the **\($ N\_673 Job Queue Entry $\)** card as follows.  
+7.  Choose **New**, and fill in the **Job Queue Entry** card as follows.  
   
     ### General FastTab  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|Value|  
     |---------------------------------|-----------|  
-    |**\($ T\_472\_7 Object Type to Run $\)**|Codeunit|  
-    |**\($ T\_472\_8 Object ID to Run $\)**|5065|  
-    |**\($ T\_472\_30 Description $\)**|Email Logging Job|  
-    |**\($ T\_472\_33 Job Queue Category Code $\)**|Logging|  
-    |**\($ T\_472\_11 Max. No. of Attempts to Run $\)**|3|  
-    |**\($ T\_472\_5 Expiration Date\\Time $\)**|December 31|  
-    |**\($ T\_472\_6 Earliest Start Date\/Time $\)**|One day earlier than today's date|  
+    |**Object Type to Run**|Codeunit|  
+    |**Object ID to Run**|5065|  
+    |**Description**|Email Logging Job|  
+    |**Job Queue Category Code**|Logging|  
+    |**Max. No. of Attempts to Run**|3|  
+    |**Expiration Date\\Time**|December 31|  
+    |**Earliest Start Date\/Time**|One day earlier than today's date|  
   
     ### Recurrence FastTab  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|Value|  
     |---------------------------------|-----------|  
-    |**\($ T\_472\_17 Recurrence $\)**|Set all days to True|  
-    |**\($ T\_472\_26 Starting Time $\)**|6:00:00 AM|  
-    |**\($ T\_472\_27 Ending Time $\)**|6:00:00 PM|  
-    |**\($ T\_472\_18 No. of Minutes Between Runs $\)**|5|  
+    |**Recurrence**|Set all days to True|  
+    |**Starting Time**|6:00:00 AM|  
+    |**Ending Time**|6:00:00 PM|  
+    |**No. of Minutes Between Runs**|5|  
   
      Choose the **OK** button.  
   
-8.  In the **\($ N\_672 Job Queue Entries $\)** window, select the job queue. On the **Home** tab, choose **Set Status to Ready**.  
+8.  In the **Job Queue Entries** window, select the job queue. On the **Home** tab, choose **Set Status to Ready**.  
   
 ### To start and test the job queue  
   
@@ -237,7 +237,7 @@ In managing your relationships with contacts, it helps keep track of email corre
   
 3.  Choose **Edit** to open the contact card.  
   
-4.  Expand the **Communications** FastTab, and in the **\($ T\_5050\_102 E\-mail $\)** field, choose the button with a picture of an envelope on it. An Outlook window opens in which you can create and send a simple message.  
+4.  Expand the **Communications** FastTab, and in the **E\-mail** field, choose the button with a picture of an envelope on it. An Outlook window opens in which you can create and send a simple message.  
   
 5.  Send a message from the salesperson to the contact. Also send a message from the contact to the salesperson.  
   
@@ -260,13 +260,13 @@ In managing your relationships with contacts, it helps keep track of email corre
     >  You can use Outlook rules to automate this process. For example, you can set up a rule to always copy mail from a certain contact to your public queue folder. Make your rules as specific as possible to avoid copying spam to the queue folder. For more information, search Outlook Help for a topic called "Manage messages by using rules."  
   
 ## Using Email Logging and Interaction Logs  
- To verify your interactions, you can review the information that is recorded in the **\($ N\_5076 Interaction Log Entries $\)** window.  
+ To verify your interactions, you can review the information that is recorded in the **Interaction Log Entries** window.  
   
  For more information, see [How to: Set Up Email Logging for use with the Job Queue](../../BusinessFunctionality/LoggingAndTrackingEmailInteractions/how-to-set-up-email-logging-for-use-with-the-job-queue.md)  
   
 ## See Also  
  [Logging and Tracking Email Interactions](../../BusinessFunctionality/LoggingAndTrackingEmailInteractions/logging-and-tracking-email-interactions.md)   
- [\($ N\_5320 Folders $\)](../Topic/\($%20N_5320%20Folders%20$\).md)   
- [\($ N\_5094 Relationship Management Setup $\)](../Topic/\($%20N_5094%20Relationship%20Management%20Setup%20$\).md)   
+ Folders   
+ Relationship Management Setup   
  [Security Considerations for Email Logging](../../BusinessFunctionality/LoggingAndTrackingEmailInteractions/security-considerations-for-email-logging.md)   
  [Troubleshooting: Email Logging](../../BusinessFunctionality/LoggingAndTrackingEmailInteractions/troubleshooting-email-logging.md)

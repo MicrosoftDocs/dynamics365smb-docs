@@ -49,36 +49,36 @@ Sometimes you may want to see an overview of the setup tables that cause [!INCLU
   
 1.  In the **Search** box, enter **Chart of Accounts**, and then choose the related link.  
   
-2.  In the **\($ N\_16 Chart of Accounts $\)** window, select the line with an account for which you want an overview. On the **Navigate** tab, in the **Account** group, choose **Where\-Used List**.  
+2.  In the **Chart of Accounts** window, select the line with an account for which you want an overview. On the **Navigate** tab, in the **Account** group, choose **Where\-Used List**.  
   
      The **G\/L Account Where\-Used List** window shows every line that refers to the general ledger account in the following setup tables:  
   
-     [\($ T\_4 Currency $\)](assetId:///8718cd98-90eb-4fc2-974f-a25bd2d873d1)  
+     Currency  
   
-     [\($ T\_92 Customer Posting Group $\)](../Topic/\($%20T_92%20Customer%20Posting%20Group%20$\).md)  
+     Customer Posting Group  
   
-     [\($ T\_93 Vendor Posting Group $\)](../Topic/\($%20T_93%20Vendor%20Posting%20Group%20$\).md)  
+     Vendor Posting Group  
   
-     [\($ T\_208 Job Posting Group $\)](../Topic/\($%20T_208%20Job%20Posting%20Group%20$\).md)  
+     Job Posting Group  
   
-     [\($ T\_252 General Posting Setup $\)](assetId:///8d1129f7-d16d-40a2-a351-8a1aed5953b3)  
+     General Posting Setup  
   
-     [\($ T\_277 Bank Account Posting Group $\)](assetId:///b4a12ab6-0240-49f6-9d98-c561515d25fd)  
+     Bank Account Posting Group  
   
-     [\($ T\_325 VAT Posting Setup $\)](assetId:///5510a4f9-3ad3-461f-a53a-f3578c78a87f)  
+     VAT Posting Setup  
   
-     [\($ T\_5606 FA Posting Group $\)](../Topic/\($%20T_5606%20FA%20Posting%20Group%20$\).md)  
+     FA Posting Group  
   
-     [\($ T\_5813 Inventory Posting Setup $\)](../Topic/\($%20T_5813%20Inventory%20Posting%20Setup%20$\).md)  
+     Inventory Posting Setup  
   
-     [\($ T\_5973 Service Contract Account Group $\)](../Topic/\($%20T_5973%20Service%20Contract%20Account%20Group%20$\).md)  
+     Service Contract Account Group  
   
-     [\($ T\_80 Gen. Journal Template $\)](assetId:///eb60bf94-fc5b-442c-acb8-91df074d20d2)  
+     Gen. Journal Template  
   
-     [\($ T\_232 Gen. Journal Batch $\)](assetId:///cbc7f5fe-ccd5-468c-bf25-ec1ebe2a3d12)  
+     Gen. Journal Batch  
   
-     [\($ T\_221 Gen. Jnl. Allocation $\)](assetId:///3888da16-0a70-4d4f-aef8-4a2d7c0b924b)  
+     Gen. Jnl. Allocation  
   
-     [\($ T\_5615 FA Allocation $\)](../Topic/\($%20T_5615%20FA%20Allocation%20$\).md)  
+     FA Allocation  
   
 3.  Repeat the procedure for each relevant account.

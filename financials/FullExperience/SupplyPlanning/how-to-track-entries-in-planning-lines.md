@@ -44,7 +44,7 @@ The order tracking function offers you an overview of the documents that are rel
   
 ### To track entries in planning lines  
   
-1.  In the **Search** box, enter **\($ N\_99000852 Planning Worksheet $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Planning Worksheet**, and then choose the related link.  
   
 2.  Select the line you want to track.  
   

@@ -35,7 +35,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can us
   
 2.  On the **Home** tab, choose **New**.  
   
-3.  In the **\($ N\_11403 Cash Journal $\)** window, on the **Lines** FastTab, fill in the required fields as described in the following table.  
+3.  In the **Cash Journal** window, on the **Lines** FastTab, fill in the required fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
@@ -44,7 +44,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can us
     |**Account Type**|The account type to which the entry is to be posted.|  
     |**Account No.**|The account number to which the entry is to be posted.|  
     |**Description**|The description of the entry. This field automatically populates the description of the account number selected in the **Account No.** field.|  
-    |**VAT Prod. Posting Group**|The VAT product posting group code used to post the entry. You can select a code in this field only if the **Account Type** is **G\/L Account**. For more information, see [\($ N\_471 VAT Product Posting Groups $\)](assetId:///fec65dff-74eb-4151-bdf2-c2981a718b58).|  
+    |**VAT Prod. Posting Group**|The VAT product posting group code used to post the entry. You can select a code in this field only if the **Account Type** is **G\/L Account**. For more information, see VAT Product Posting Groups.|  
     |**Amount**|The total amount that the statement line consists of. You must enter the debit amount without a plus or minus sign and the credit amount with a minus sign.<br /><br /> If this amount includes the VAT amount, then select the **Amount incl. VAT** check box.|  
   
 4.  On the **Home** tab, in the **Process** group, choose **Post**.  
@@ -52,7 +52,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can us
     > [!NOTE]  
     >  If there is a difference between the opening balance and the closing balance, you must change the closing balance before posting the entry.  
   
-     The entries are posted to the general ledger. For more information, see [\($ N\_20 General Ledger Entries $\)](assetId:///7634ea31-5577-42dc-9076-78cffea19ef4).  
+     The entries are posted to the general ledger. For more information, see General Ledger Entries.  
   
 ### To post bank or giro journals  
   
@@ -62,7 +62,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can us
   
 3.  Select the relevant journal template, and then choose the **OK** button.  
   
-4.  In the **\($ N\_11400 Bank\/Giro Journal $\)** window, fill in the fields as described in the following table.  
+4.  In the **Bank\/Giro Journal** window, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
@@ -86,9 +86,9 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can us
     > [!NOTE]  
     >  If there is a difference between the opening balance and the closing balance, you must change the closing balance before posting the entry.  
   
-     The entries are posted to the general ledger. For more information, see [\($ N\_20 General Ledger Entries $\)](assetId:///7634ea31-5577-42dc-9076-78cffea19ef4).  
+     The entries are posted to the general ledger. For more information, see General Ledger Entries.  
   
 ## See Also  
  [How to: Print the Test Reports for Cash and Bank or Giro Journals](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals.md)   
- [\($ N\_471 VAT Product Posting Groups $\)](assetId:///fec65dff-74eb-4151-bdf2-c2981a718b58)   
- [\($ N\_20 General Ledger Entries $\)](assetId:///7634ea31-5577-42dc-9076-78cffea19ef4)
+ VAT Product Posting Groups   
+ General Ledger Entries

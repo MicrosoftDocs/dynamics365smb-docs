@@ -51,12 +51,12 @@ The VAT reporting feature enables you to print VAT transaction details. You must
   
 1.  In the **Search** box, enter **Annual Listing**, and then choose the related link.  
   
-2.  In the **\($ R\_11308 VAT Annual Listing $\)** window, fill in the fields as described in the following table.  
+2.  In the **VAT Annual Listing** window, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_11308\_F\_1\_3 Wrong Enterprise No. $\)**|Specifies if you want to print the report that has erroneous enterprise numbers.|  
-    |**\($ R\_11308\_F\_1\_5 VAT Annual Listing $\)**|Specifies if you want to print the **\($ R\_11308 VAT Annual Listing $\)** report.|  
+    |**\($ R\_11308\_F\_1\_5 VAT Annual Listing $\)**|Specifies if you want to print the **VAT Annual Listing** report.|  
     |**\($ R\_11308\_F\_1\_6 Year $\)**|Enter the year of the period for which you want to print the report. You should enter the year as a 4 digit code. For example, to print a declaration for 2013, you should enter "2013" \(instead of "13"\).|  
     |**\($ R\_11308\_F\_1\_8 Minimum Amount $\)**|Enter the customer's minimum year balance to be included in the report. If the yearly balance of the customer is less than the minimum amount, the customer will not be included in the declaration.|  
     |**\($ R\_11308\_F\_1\_10 Include Customers From $\)**|Select to include customers from all countries\/regions or from a specific country\/region in the report.|  
@@ -85,13 +85,13 @@ The VAT reporting feature enables you to print VAT transaction details. You must
   
 1.  In the **Search** box, enter the **VAT – Vies Declaration Disk**, and then choose the related link.  
   
-2.  Enter the required information, and choose the **OK** button to start the batch job, which will create an xml file. For more information, see [\($ B\_11315 VAT\- VIES Declaration Disk $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/-$-b_11315-vat-vies-declaration-disk-$-.md).  
+2.  Enter the required information, and choose the **OK** button to start the batch job, which will create an xml file. For more information, see VAT\- VIES Declaration Disk.  
   
 3.  If you have to make a correction, in the **Search** box, enter **VAT – VIES Correction**, and then choose the related link.  
   
 4.  On the **Home** tab, in the **Manage** group, choose **Edit List**, and then enter the information that has to be adjusted. Choose the **OK** button.  
   
-     For more information, see the [\($ T\_11300 VAT VIES Correction $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/-$-t_11300-vat-vies-correction-$-.md) table.  
+     For more information, see the VAT VIES Correction table.  
   
 ## See Also  
  [Belgian VAT](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/belgian-vat.md)   

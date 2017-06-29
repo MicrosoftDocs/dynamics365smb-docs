@@ -44,7 +44,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Set Up Global Dimensions
-A global dimension is a dimension that you can use as a filter anywhere in [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]. You can set up two dimensions as global dimensions. Choose the two dimensions that you will use most frequently in your reports. You can, however, use any dimension as a filter in the **\($ N\_554 Analysis by Dimensions $\)** window.  
+A global dimension is a dimension that you can use as a filter anywhere in [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]. You can set up two dimensions as global dimensions. Choose the two dimensions that you will use most frequently in your reports. You can, however, use any dimension as a filter in the **Analysis by Dimensions** window.  
   
 > [!IMPORTANT]  
 >  Changing a global dimension requires that the program makes changes to all the entries posted using that dimension. This can take some time. To avoid having to make such a change, you should choose your global dimensions carefully.  
@@ -53,7 +53,7 @@ A global dimension is a dimension that you can use as a filter anywhere in [!INC
   
 1.  In the **Search** box, enter **General Ledger Setup**, and then choose the related link.  
   
-2.  In the **\($ N\_118 General Ledger Setup $\)** window, on the **Actions** tab, in the **Functions** group, choose **Change Global Dimensions**.  
+2.  In the **General Ledger Setup** window, on the **Actions** tab, in the **Functions** group, choose **Change Global Dimensions**.  
   
 3.  In the **Global Dimension 1** and **Global Dimension 2** fields, enter a dimension code.  
   
@@ -61,6 +61,6 @@ A global dimension is a dimension that you can use as a filter anywhere in [!INC
   
 ## See Also  
  [How to: Set Up Shortcut Dimensions](../Finance/how-to-set-up-shortcut-dimensions.md)   
- [\($ T\_352 Default Dimension $\)](assetId:///bd021a4a-f67d-44ca-9e6a-4b54cf91e710)   
- [\($ T\_348 Dimension $\)](assetId:///09a43eac-15fc-4036-9913-fe2b74a18bf3)   
- [\($ N\_554 Analysis by Dimensions $\)](assetId:///3554857b-fd4d-4452-a268-9576653d8e95)
+ Default Dimension   
+ Dimension   
+ Analysis by Dimensions

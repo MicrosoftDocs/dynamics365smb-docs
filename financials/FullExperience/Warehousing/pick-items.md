@@ -47,7 +47,7 @@ The warehouse activity of picking items before they are shipped or consumed is p
 |**To**|**See**|  
 |------------|-------------|  
 |Get an overview of the different ways to pick items depending on the complexity of the warehouse configuration.|[Picking Items](../WarehouseActivities/picking-items.md)|  
-|Print a list of the items to pick for one or more orders.|[\($ R\_5752 Picking List $\)](../WarehouseActivities/-$-r_5752-picking-list-$-.md)|  
+|Print a list of the items to pick for one or more orders.|Picking List|  
 |Post the shipment of items directly in the outbound order document because no warehouse features exist. \(Works the same for sales, transfer, and production orders.\)|"Posting Sales orders" in [Processing Sales Orders](../Sales/processing-sales-orders.md)|  
 |Pick items order by order and post the shipment in the same activity, in a basic warehouse configuration.|[How to: Pick Items with Inventory Picks](../DesignAndEngineering/how-to-pick-items-with-inventory-picks.md)|  
 |Pick components for production at a location with basic warehouse configuration.|[How to: Pick for Production in Basic Warehousing](../WarehouseActivities/how-to-pick-for-production-in-basic-warehousing.md)|  

@@ -47,7 +47,7 @@ The **Service Item Trendscape** window provides a scrollable summary of service 
   
  You can specify which service items are included in the trendscape by setting a filter in the **Service Item No**. field on the **General** FastTab.  
   
- The **Period Start** and **Period Name** fields on the **Lines** FastTab contain a series of dates that are determined by the time interval that you have selected in the **View by** field on the **Options** FastTab. Accounting periods are set up in the **\($ T\_50 Accounting Period $\)** table.  
+ The **Period Start** and **Period Name** fields on the **Lines** FastTab contain a series of dates that are determined by the time interval that you have selected in the **View by** field on the **Options** FastTab. Accounting periods are set up in the **Accounting Period** table.  
   
  The following table describes the other fields in the **Lines** FastTab.  
   
@@ -67,4 +67,4 @@ The **Service Item Trendscape** window provides a scrollable summary of service 
 >  If you have set the time interval to **Day** and you want to scroll over a long period, you can do it faster by shifting to a larger interval such as **Quarter**. When you have found the desired period, you can shift back to the original interval to see the data in more detail.  
   
 ## See Also  
- [\($ N\_5983 Service Item Trendscape $\)](../Topic/\($%20N_5983%20Service%20Item%20Trendscape%20$\).md)
+ Service Item Trendscape

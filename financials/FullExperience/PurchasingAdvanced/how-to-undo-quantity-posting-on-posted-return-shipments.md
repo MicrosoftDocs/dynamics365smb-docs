@@ -63,6 +63,6 @@ If you have made an incorrect quantity posting, that is if you have made a retur
 7.  Correct the entry in the **Quantity** field and post the order.  
   
 ## See Also  
- [\($ N\_6640 Purchase Return Order $\)](../Topic/\($%20N_6640%20Purchase%20Return%20Order%20$\).md)   
+ Purchase Return Order   
  [Manage Purchase Returns](../Purchasing/manage-purchase-returns.md)   
  [How to: Undo Quantity Postings on Posted Shipments](../Sales/how-to-undo-quantity-postings-on-posted-shipments.md)

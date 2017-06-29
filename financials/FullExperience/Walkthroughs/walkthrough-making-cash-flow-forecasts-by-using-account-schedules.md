@@ -76,22 +76,22 @@ This walkthrough describes how you can use account schedules to make cash flow f
   
 1.  In the **Search** box, enter **Account Schedules**, and then choose the related link.  
   
-2.  In the **\($ N\_103 Account Schedule Names $\)** window, on the **Home** tab, in the **New** group, choose **New** to create a new cash flow account schedule name.  
+2.  In the **Account Schedule Names** window, on the **Home** tab, in the **New** group, choose **New** to create a new cash flow account schedule name.  
   
-3.  In the **\($ T\_84\_1 Name $\)** field, enter **Forecast**.  
+3.  In the **Name** field, enter **Forecast**.  
   
-4.  In the **\($ T\_84\_2 Description $\)** field, enter **Cash Flow Forecast**.  
+4.  In the **Description** field, enter **Cash Flow Forecast**.  
   
-5.  Leave the **\($ T\_84\_3 Default Column Layout $\)** and **\($ T\_84\_4 Analysis View Name $\)** fields blank.  
+5.  Leave the **Default Column Layout** and **Analysis View Name** fields blank.  
   
 ## Setting Up Account Schedule Lines  
  After an account schedule name is set up, Ken defines each line that appears in the cash flow account schedule. Ken defines lines that can be shown in reports in addition to lines that are only for calculation purposes.  
   
 ### To set up account schedule lines  
   
-1.  In the **\($ N\_103 Account Schedule Names $\)** window, select the new **Forecast** account schedule name that you have created. On the **Home** tab, in the **Process** group, choose **Edit Account Schedule**.  
+1.  In the **Account Schedule Names** window, select the new **Forecast** account schedule name that you have created. On the **Home** tab, in the **Process** group, choose **Edit Account Schedule**.  
   
-2.  In the **\($ N\_104 Account Schedule $\)** window, enter each line exactly as shown in the following table.  
+2.  In the **Account Schedule** window, enter each line exactly as shown in the following table.  
   
     > [!NOTE]  
     >  Using the **Insert CF Accounts** function, you can quickly mark the cash flow accounts from the chart of cash flow accounts and copy them to account schedule lines.  
@@ -139,7 +139,7 @@ This walkthrough describes how you can use account schedules to make cash flow f
   
 ### To set up a new column layout  
   
-1.  In the **\($ N\_103 Account Schedule Names $\)** window, select the new **Forecast** account schedule name that you have created. On the **Home** tab, in the **Process** group, choose **Edit Column Layout Setup**.  
+1.  In the **Account Schedule Names** window, select the new **Forecast** account schedule name that you have created. On the **Home** tab, in the **Process** group, choose **Edit Column Layout Setup**.  
   
 2.  Create a new column layout with the name **Cash Flow**.  
   
@@ -158,15 +158,15 @@ This walkthrough describes how you can use account schedules to make cash flow f
   
 ### To assign the column layout to the account schedule name  
   
-1.  In the **\($ N\_103 Account Schedule Names $\)** window, select **Forecast** in the **\($ T\_84\_1 Name $\)** field.  
+1.  In the **Account Schedule Names** window, select **Forecast** in the **Name** field.  
   
-2.  In the **\($ T\_84\_3 Default Column Layout $\)** field, choose the column layout **Cash Flow** to assign as the default column layout.  
+2.  In the **Default Column Layout** field, choose the column layout **Cash Flow** to assign as the default column layout.  
   
 ### To view and print the cash flow forecast  
   
-1.  In the **\($ N\_103 Account Schedule Names $\)** window, on the **Home** tab, in the **Process** group, choose **Overview** to view the cash flow forecast.  
+1.  In the **Account Schedule Names** window, on the **Home** tab, in the **Process** group, choose **Overview** to view the cash flow forecast.  
   
-2.  In the **\($ N\_490 Acc. Schedule Overview $\)** window, you can select an amount and then view the cash flow forecast entries that make up the amount. In addition, you can view the formula that is used to calculate the amount. You can also filter the amounts by date and dimension.  
+2.  In the **Acc. Schedule Overview** window, you can select an amount and then view the cash flow forecast entries that make up the amount. In addition, you can view the formula that is used to calculate the amount. You can also filter the amounts by date and dimension.  
   
 3.  On the **Actions** tab, in the **Functions** group, choose **Print** to print the cash flow forecast.  
   
@@ -177,5 +177,5 @@ This walkthrough describes how you can use account schedules to make cash flow f
  [How to: Assign Predefined Column Layouts to Account Schedules](../BusinessIntelligence/how-to-assign-predefined-column-layouts-to-account-schedules.md)   
  [How to: Create Account Schedule Columns That Calculate Percentages](../BusinessIntelligence/how-to-create-account-schedule-columns-that-calculate-percentages.md)   
  [How to: Set Up Account Schedules with Overviews](../BusinessIntelligence/how-to-set-up-account-schedules-with-overviews.md)   
- [\($ N\_103 Account Schedule Names $\)](assetId:///7d5f3f62-f869-4b01-a4cf-566bb5d9eeb7)   
- [\($ N\_104 Account Schedule $\)](assetId:///54b79a65-bd11-40a9-b130-4b2932f20943)
+ Account Schedule Names   
+ Account Schedule

@@ -50,7 +50,7 @@ When you need to fill a journal with lines that you have saved as a standard jou
   
 ### To get a standard journal  
   
-1.  In the **Search** box, enter **\($ N\_40 Item Journal $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Item Journal**, and then choose the related link.  
   
 2.  On the **Actions** tab, in the **Functions** group, choose **Get Standard Journals**.  
   
@@ -64,7 +64,7 @@ When you need to fill a journal with lines that you have saved as a standard jou
   
      Now the item journal is filled with the lines you saved as the standard item journal. If journal lines already existed in the item journal, the inserted lines will be placed under the existing journal lines.  
   
-     If you did not check the **Save Unit Amount** field when you used the **\($ B\_751 Save as Standard Item Journal $\)** batch job, then the **Unit Amount** field on lines that are inserted from the standard journal is automatically filled with the item’s current value, copied from the **Unit Cost** field on the item card.  
+     If you did not check the **Save Unit Amount** field when you used the **Save as Standard Item Journal** batch job, then the **Unit Amount** field on lines that are inserted from the standard journal is automatically filled with the item’s current value, copied from the **Unit Cost** field on the item card.  
   
     > [!NOTE]  
     >  If you selected the **Save Unit Amount** or **Save Quantity** fields, you should now make sure the inserted values are correct for this particular inventory adjustment before you post the item journal.  
@@ -79,5 +79,5 @@ When you need to fill a journal with lines that you have saved as a standard jou
   
 ## See Also  
  [How to: Save Standard Journals](../Finance/how-to-save-standard-journals.md)   
- [\($ B\_751 Save as Standard Item Journal $\)](../Topic/\($%20B_751%20Save%20as%20Standard%20Item%20Journal%20$\).md)   
- [\($ N\_40 Item Journal $\)](../WarehouseActivities/-$-n_40-item-journal-$-.md)
+ Save as Standard Item Journal   
+ Item Journal

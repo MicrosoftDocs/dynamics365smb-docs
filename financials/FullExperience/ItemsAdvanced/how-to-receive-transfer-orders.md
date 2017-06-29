@@ -45,7 +45,7 @@ When you have received a transfer order, you can post the receipt.
   
 ### To receive a transfer order  
   
-1.  In the **Search** box, enter **\($ N\_5740 Transfer Order $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Transfer Order**, and then choose the related link.  
   
 2.  Find the transfer order that corresponds to the received items.  
   
@@ -56,7 +56,7 @@ When you have received a transfer order, you can post the receipt.
 5.  Select **Receive** in the message box, and choose the **OK** button.  
   
 ## See Also  
- [\($ N\_5740 Transfer Order $\)](../Topic/\($%20N_5740%20Transfer%20Order%20$\).md)   
+ Transfer Order   
  [How to: Create Transfer Orders](../DesignAndEngineering/how-to-create-transfer-orders.md)   
  [How to: Ship Transfer Orders](../DesignAndEngineering/how-to-ship-transfer-orders.md)   
  [Status Field on Documents](../DesignAndEngineering/status-field-on-documents.md)   

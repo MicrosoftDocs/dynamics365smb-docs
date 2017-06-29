@@ -66,8 +66,8 @@ Accelerated depreciation is calculated based on the differences between the acco
  [How to: Set Up Accelerated Depreciation](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-set-up-accelerated-depreciation.md)   
  [How to: Calculate Accelerated Depreciation](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-calculate-accelerated-depreciation.md)   
  [Set Up Depreciation](../../Finance/set-up-depreciation.md)   
- [\($ T\_5600 Fixed Asset $\)](../Topic/\($%20T_5600%20Fixed%20Asset%20$\).md)   
- [\($ N\_5600 Fixed Asset Card $\)](../Topic/\($%20N_5600%20Fixed%20Asset%20Card%20$\).md)   
- [\($ N\_5619 FA Depreciation Books $\)](../Topic/\($%20N_5619%20FA%20Depreciation%20Books%20$\).md)   
- [\($ T\_5612 FA Depreciation Book $\)](../Topic/\($%20T_5612%20FA%20Depreciation%20Book%20$\).md)   
+ Fixed Asset   
+ Fixed Asset Card   
+ FA Depreciation Books   
+ FA Depreciation Book   
  [France Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/france-local-functionality.md)

@@ -42,9 +42,9 @@ translation.priority.ht:
 The dynamic allocation method is based on changeable values. For example, the number of employees in a cost center or the items sold of a cost object in a specific time period. There are nine pre\-defined allocation bases and twelve dynamic date ranges. You set different filters based on the allocation base.  
   
 ## Setting Filters for Dynamic Allocation Bases  
- The following table shows which filters are possible for different allocation bases and which values are valid in the **\($ T\_1107\_31 No. Filter $\)** and **\($ T\_1107\_35 Group Filter $\)** fields. Press F1 in the **\($ T\_1107\_34 Date Filter Code $\)** field to read detailed descriptions.  
+ The following table shows which filters are possible for different allocation bases and which values are valid in the **No. Filter** and **Group Filter** fields. Press F1 in the **Date Filter Code** field to read detailed descriptions.  
   
-|**Base**|**\($ T\_1107\_31 No. Filter $\)**|**\($ T\_1107\_34 Date Filter Code $\)**|**\($ T\_1107\_32 Cost Center Filter $\)**|**\($ T\_1107\_33 Cost Object Filter $\)**|**\($ T\_1107\_35 Group Filter $\)**|  
+|**Base**|**No. Filter**|**Date Filter Code**|**Cost Center Filter**|**Cost Object Filter**|**Group Filter**|  
 |--------------|----------------------------------------|----------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------|  
 |G\/L Entries|G\/L Account|Yes|Yes|Yes|N\/A|  
 |G\/L Budget Entries|G\/L Account|Yes|Yes|Yes|G\/L Budget Name|  
@@ -59,5 +59,5 @@ The dynamic allocation method is based on changeable values. For example, the nu
 ## See Also  
  [Scenario Example: Defining Dynamic Allocations Based on Items Sold](../Finance/scenario-example-defining-dynamic-allocations-based-on-items-sold.md)   
  [How to: Set Up Allocation Source and Targets](../Finance/how-to-set-up-allocation-source-and-targets.md)   
- [\($ B\_1131 Cost Allocation $\)](../Finance/-$-b_1131-cost-allocation-$-.md)   
+ Cost Allocation   
  [Define and Allocate Costs](../Finance/define-and-allocate-costs.md)

@@ -20,22 +20,22 @@ In Russia, organizations are required to keep a journal of received and issued V
   
 ### To register VAT on a purchase order  
   
-1.  In the **Search** box, enter **\($ N\_50 Purchase Order $\)**, and then choose the related link. Select the relevant purchase order.  
+1.  In the **Search** box, enter **Purchase Order**, and then choose the related link. Select the relevant purchase order.  
   
 2.  On the **Shipping** FastTab, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_38\_12470 Vendor Receipts No. $\)**|Enter the identification number from the vendor receipt.|  
-    |**\($ T\_38\_12471 Vendor Receipts Date $\)**|Enter the date from the vendor receipt.|  
+    |**Vendor Receipts No.**|Enter the identification number from the vendor receipt.|  
+    |**Vendor Receipts Date**|Enter the date from the vendor receipt.|  
   
 3.  On the **VAT** FastTab, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_38\_12474 Vendor VAT Invoice No. $\)**|Enter the invoice number from the original VAT transaction.|  
-    |**\($ T\_38\_12472 Vendor VAT Invoice Date $\)**|Enter the invoice date from the original VAT transaction.|  
-    |**\($ T\_38\_12473 Vendor VAT Invoice Rcvd Date $\)**|Enter the date that the purchase was received.|  
+    |**Vendor VAT Invoice No.**|Enter the invoice number from the original VAT transaction.|  
+    |**Vendor VAT Invoice Date**|Enter the invoice date from the original VAT transaction.|  
+    |**Vendor VAT Invoice Rcvd Date**|Enter the date that the purchase was received.|  
   
  The VAT transaction is now registered and will be tracked in the VAT invoices journal after the purchase order is posted.  
   
@@ -43,6 +43,6 @@ In Russia, organizations are required to keep a journal of received and issued V
  [About Setting Up VAT](../../Finance/about-setting-up-vat.md)   
  [How to: Set Up VAT Business Posting Groups](../../Finance/how-to-set-up-vat-business-posting-groups.md)   
  [How to: Assign VAT Business Posting Groups to Customer Accounts and Vendor Accounts](../../Finance/how-to-assign-vat-business-posting-groups-to-customer-accounts-and-vendor-accounts.md)   
- [\($ T\_254 VAT Entry $\)](assetId:///e4113f5c-adc8-4bfd-8c4b-e7b5f11f4d32)   
+ VAT Entry   
  [How to: Set Up VAT Ledgers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-set-up-vat-ledgers.md)   
  [How to: Prepare VAT Entries for Posting](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-prepare-vat-entries-for-posting.md)

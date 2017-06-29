@@ -18,11 +18,11 @@ ms.author: "edupont"
 manager: "terryaus"
 ---
 # How to: Print Sales and Purchase Invoice Books
-The **\($ R\_10704 Sales Invoice Book $\)** report and **\($ R\_10704 Purchases Invoice Book $\)** report allow you to check all of the sales and purchase documents created for a specific period.  
+The **Sales Invoice Book** report and **Purchases Invoice Book** report allow you to check all of the sales and purchase documents created for a specific period.  
   
  Invoices posted from a journal are displayed in these reports. When a sales or purchase general posting journal line is posted, the VAT entry that is created stores information about the customer or vendor.  
   
- You can print the **\($ R\_10704 Sales Invoice Book $\)** report and **\($ R\_10704 Purchases Invoice Book $\)** report in additional reporting currency. You can also filter these reports to get a list of the following:  
+ You can print the **Sales Invoice Book** report and **Purchases Invoice Book** report in additional reporting currency. You can also filter these reports to get a list of the following:  
   
 -   Invoices  
   
@@ -32,7 +32,7 @@ The **\($ R\_10704 Sales Invoice Book $\)** report and **\($ R\_10704 Purchases 
   
 ### To print sales invoice book and purchase invoice book reports  
   
-1.  In the **Search** box, enter **\($ R\_10704 Sales Invoice Book $\)** or enter **\($ R\_10704 Purchases Invoice Book $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Sales Invoice Book** or enter **Purchases Invoice Book**, and then choose the related link.  
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
@@ -45,5 +45,5 @@ The **\($ R\_10704 Sales Invoice Book $\)** report and **\($ R\_10704 Purchases 
   
 ## See Also  
  [Spain Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/spain-local-functionality.md)   
- [\($ R\_10705 Purchases Invoice Book $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-r_10705-purchases-invoice-book-$-.md)   
- [\($ R\_10704 Sales Invoice Book $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-r_10704-sales-invoice-book-$-.md)
+ Purchases Invoice Book   
+ Sales Invoice Book

@@ -66,7 +66,7 @@ To use [!INCLUDE[rimlong](../SetupAndAdministration/includes/rimlong_md.md)], yo
   
  You can now import the configuration package that you exported from [!INCLUDE[demo](../ApplicationDesign/includes/demo_md.md)]. An easy way to do this is to use the [!INCLUDE[rim](../Roles/includes/rim_md.md)] wizard. For more information, see [How to: Configure a Company with the RapidStart Wizard](../SetupAndAdministration/how-to-configure-a-company-with-the-rapidstart-wizard.md). In addition, you can also configure a new company manually. For more information, see [How to: Configure New Companies](../SetupAndAdministration/how-to-configure-new-companies.md).  
   
- After you create a new company, some tables are automatically filled in, even if no company template is applied. For example, you can review the standard codes for posting and batch transactions in the **\($ N\_279 Source Code $\)** window. If you provide a local version of [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)], you should review this table and consider any local language issues.  
+ After you create a new company, some tables are automatically filled in, even if no company template is applied. For example, you can review the standard codes for posting and batch transactions in the **Source Code** window. If you provide a local version of [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)], you should review this table and consider any local language issues.  
   
 ## See Also  
- [\($ N\_279 Source Code Setup $\)](assetId:///dc7fc6db-e9d1-40a6-be60-2ba6e9cf5c69)
+ Source Code Setup

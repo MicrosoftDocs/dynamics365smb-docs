@@ -69,7 +69,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can ad
 4.  Choose the **OK** button.  
   
 ## See Also  
- [\($ R\_107 Customer \- Order Summary $\)](../Topic/\($%20R_107%20Customer%20-%20Order%20Summary%20$\).md)   
+ Customer \- Order Summary   
  [United States Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedStates/united-states-local-functionality.md)   
  [Canada Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/canada-local-functionality.md)   
  [Mexico Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Mexico/mexico-local-functionality.md)

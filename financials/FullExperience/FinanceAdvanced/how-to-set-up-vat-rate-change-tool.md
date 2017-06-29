@@ -62,11 +62,11 @@ This topic describes how you set up the VAT rate change tool and corresponding n
   
 1.  In the **Search** box, enter **VAT Rate Change Setup**, and then choose the related link.  
   
-2.  In the **\($ N\_550 VAT Rate Change Setup $\)** window, on the **Home** tab, in the **Process** group, choose either **VAT Prod. Posting Group Conv.** or **Gen Prod. Posting Group Conv.**.  
+2.  In the **VAT Rate Change Setup** window, on the **Home** tab, in the **Process** group, choose either **VAT Prod. Posting Group Conv.** or **Gen Prod. Posting Group Conv.**.  
   
-3.  In the **\($ T\_551\_2 From Code $\)** field, enter the current posting group.  
+3.  In the **From Code** field, enter the current posting group.  
   
-4.  In the **\($ T\_551\_3 To Code $\)** field, enter the new posting group.  
+4.  In the **To Code** field, enter the new posting group.  
   
 5.  Choose the **OK** button.  
   

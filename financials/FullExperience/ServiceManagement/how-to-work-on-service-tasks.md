@@ -46,7 +46,7 @@ After you have created a service order or service quote, registered service item
   
 ### To work on a service task  
   
-1.  In the **Search** box, enter **\($ N\_5915 Service Tasks $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Service Tasks**, and then choose the related link.  
   
 2.  If you want a list of service tasks a certain resource or resource group is allocated to, fill in the **Resource Filter** or **Resource Group Filter** field and press Enter.  
   

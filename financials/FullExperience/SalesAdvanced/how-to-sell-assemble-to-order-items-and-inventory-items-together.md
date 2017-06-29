@@ -44,7 +44,7 @@ If the **Assembly Policy** field on the item card of an assembly item contains *
  Similar flexibility exists when you are selling items to be assembled to the order and a part of the quantity is in inventory, which you want to deduct from the assembly order. For more information, see [How to: Sell Inventory Items in Assemble\-to\-Order Flows](../Sales/how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
   
 > [!NOTE]  
->  Certain rules apply to the **\($ T\_37\_18 Qty. to Ship $\)** field on sales order lines that contain a combination of assemble\-to\-order quantities and inventory quantities. For more information, see the Combination Scenarios section in [Assemble to Order or Assemble to Stock](../DesignAndEngineering/assemble-to-order-or-assemble-to-stock.md).  
+>  Certain rules apply to the **Qty. to Ship** field on sales order lines that contain a combination of assemble\-to\-order quantities and inventory quantities. For more information, see the Combination Scenarios section in [Assemble to Order or Assemble to Stock](../DesignAndEngineering/assemble-to-order-or-assemble-to-stock.md).  
   
 > [!NOTE]  
 >  The following procedure does not include the standard sales order steps that you need to follow before you create an assembly order for unavailable quantities.  
@@ -62,14 +62,14 @@ If the **Assembly Policy** field on the item card of an assembly item contains *
 5.  Proceed to release the sales order, to prepare it for picking of the inventory items and for assembly of the unavailable items. For more information about these standard assembly steps, see [How to: Assemble Items](../WarehouseActivities/how-to-assemble-items.md).  
   
 > [!CAUTION]  
->  The **Bin Code** field on the sales order may be prefilled according to the **\($ T\_14\_7332 Assemble\-to\-Order Shpt. Bin Code $\)** field or the **\($ T\_14\_7331 From\-Assembly Bin Code $\)** field on the location card. In that case, the **Bin Code** field on the sales order line may be incorrect in this combination of assemble\-to\-order and assemble\-to\-stock quantities. It is a good idea to examine the **Bin Code** field and make sure that the placement works for all quantities. Alternatively, enter the two different quantities on separate sales order lines.  
+>  The **Bin Code** field on the sales order may be prefilled according to the **Assemble\-to\-Order Shpt. Bin Code** field or the **From\-Assembly Bin Code** field on the location card. In that case, the **Bin Code** field on the sales order line may be incorrect in this combination of assemble\-to\-order and assemble\-to\-stock quantities. It is a good idea to examine the **Bin Code** field and make sure that the placement works for all quantities. Alternatively, enter the two different quantities on separate sales order lines.  
   
 ## See Also  
- [\($ N\_900 Assembly Order $\)](../WarehouseActivities/-$-n_900-assembly-order-$-.md)   
- [\($ T\_27\_910 Assembly Policy $\)](../Topic/\($%20T_27_910%20Assembly%20Policy%20$\).md)   
- [\($ T\_37\_900 Qty. to Assemble to Order $\)](../Topic/\($%20T_37_900%20Qty.%20to%20Assemble%20to%20Order%20$\).md)   
+ Assembly Order   
+ Assembly Policy   
+ Qty. to Assemble to Order   
  [How to: Sell Items Assembled to Order](../Sales/how-to-sell-items-assembled-to-order.md)   
  [How to: Sell Inventory Items in Assemble\-to\-Order Flows](../Sales/how-to-sell-inventory-items-in-assemble-to-order-flows.md)   
  [How to: Assemble Items](../WarehouseActivities/how-to-assemble-items.md)   
- [\($ T\_904 Assemble\-to\-Order Link $\)](../Topic/\($%20T_904%20Assemble-to-Order%20Link%20$\).md)   
+ Assemble\-to\-Order Link   
  [Design Details: Assembly Order Posting](../ApplicationDesign/design-details-assembly-order-posting.md)

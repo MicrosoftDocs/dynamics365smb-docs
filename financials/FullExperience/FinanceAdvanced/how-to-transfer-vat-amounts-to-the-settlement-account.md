@@ -50,7 +50,7 @@ Transferring VAT amounts to the settlement account means that the purchase VAT a
   
 1.  In the **Search** box, enter **VAT Statements**, and then choose the related link.  
   
-2.  In the **\($ N\_317 VAT Statement $\)** window, on the **Actions** tab, in the **Functions** group, choose **Calc. and Post VAT Settlement**.  
+2.  In the **VAT Statement** window, on the **Actions** tab, in the **Functions** group, choose **Calc. and Post VAT Settlement**.  
   
 3.  On the **VAT Posting Setup** FastTab, you can enter codes in the **VAT Bus. Posting Group** and **VAT Prod. Posting Group** fields to select the entries to be processed. If you do not enter any codes, entries with all business group codes and product group codes are included.  
   

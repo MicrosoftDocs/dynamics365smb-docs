@@ -56,8 +56,8 @@ You can encrypt data on the [!INCLUDE[nav_server](../BusinessFunctionality/Integ
 |Enable data encryption on a [!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)] server instance where an encryption key exists. Disable data encryption, for example to access a database for which you do not have the encryption key.|[How to: Enable and Disable Encryption Keys](../SetupAndAdministration/how-to-enable-and-disable-encryption-keys.md)|  
   
 ## See Also  
- [\($ N\_9905\_2 Encryption Enabled $\)](../Topic/\($%20N_9905_2%20Encryption%20Enabled%20$\).md)   
- [\($ N\_9905\_3 Encryption Key Exists $\)](../Topic/\($%20N_9905_3%20Encryption%20Key%20Exists%20$\).md)   
+ Encryption Enabled   
+ Encryption Key Exists   
  [Manage Data Encryption](../SetupAndAdministration/manage-data-encryption.md)   
  [Exporting and Importing Companies and Other Data](../Topic/Exporting%20and%20Importing%20Companies%20and%20Other%20Data.md)   
  [Installation Considerations for Microsoft SQL Server](../Topic/Installation%20Considerations%20for%20Microsoft%20SQL%20Server.md)   

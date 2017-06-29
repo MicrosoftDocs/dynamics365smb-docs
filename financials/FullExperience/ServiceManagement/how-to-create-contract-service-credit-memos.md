@@ -61,7 +61,7 @@ You can use a contract service credit memo when a customer cancels a prepaid ser
   
 5.  On the **General** FastTab, in the **Posting Date** and **Document Date** fields, enter a date.  
   
-6.  On the credit memo lines, enter information about the items that have been returned or removed, or the allowance that will be sent. You can also choose to use the **\($ B\_6033 Get Prepaid Contract Entries $\)** batch job.  
+6.  On the credit memo lines, enter information about the items that have been returned or removed, or the allowance that will be sent. You can also choose to use the **Get Prepaid Contract Entries** batch job.  
   
  To automatically create a credit memo when contract lines are removed from a service contract, in the **Service Contract** window, on the **Invoice Details** FastTab, select the **Automatic Credit Memos** check box.  
   
@@ -70,4 +70,4 @@ You can use a contract service credit memo when a customer cancels a prepaid ser
 ## See Also  
  [How to: Remove Contract Lines](../Service/how-to-remove-contract-lines.md)   
  [How to: Cancel Contracts](../Service/how-to-cancel-contracts.md)   
- [\($ B\_6033 Get Prepaid Contract Entries $\)](../Topic/\($%20B_6033%20Get%20Prepaid%20Contract%20Entries%20$\).md)
+ Get Prepaid Contract Entries

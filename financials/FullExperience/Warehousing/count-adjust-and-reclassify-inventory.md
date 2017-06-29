@@ -55,18 +55,18 @@ At least once every fiscal year you must take a physical inventory, that is, cou
 |**To**|**See**|  
 |------------|-------------|  
 |Learn how the warehouse adjustment bin functions as a means to synchronize warehouse entries \(made in warehouse activities\), with item ledger entries.|[Warehouse Adjustment Bin](../WarehouseActivities/warehouse-adjustment-bin.md)|  
-|Periodically synchronize warehouse entries, created from warehouse activities, with the related item ledger entries, especially prior to counting physical inventory.|[\($ B\_7315 Calculate Whse. Adjustment $\)](../WarehouseActivities/-$-b_7315-calculate-whse.-adjustment-$-.md)|  
+|Periodically synchronize warehouse entries, created from warehouse activities, with the related item ledger entries, especially prior to counting physical inventory.|Calculate Whse. Adjustment|  
 |In locations configured for directed put away and pick, make a physical count of items represented by warehouse entries only.|[How to: Perform Warehouse Physical Inventories](../WarehouseActivities/how-to-perform-warehouse-physical-inventories.md)|  
 |Prepare an inventory counting process by compiling all the inventory quantities that are recorded in the database, the expected inventory.|[How to: Perform a Physical Inventory](../DesignAndEngineering/how-to-perform-a-physical-inventory.md)|  
 |Count physical inventories at regular intervals.|[How to: Perform Cycle Counting](../WarehouseActivities/how-to-perform-cycle-counting.md)|  
 |Create initial item ledger entries, for example, in connection with a new installation.|[How to: Register Opening Item Entries](../DesignAndEngineering/how-to-register-opening-item-entries.md)|  
-|Increase or decrease inventory quantities directly without posting business documents.|[\($ N\_40 Item Journal $\)](../WarehouseActivities/-$-n_40-item-journal-$-.md)|  
+|Increase or decrease inventory quantities directly without posting business documents.|Item Journal|  
 |Save and reuse item journal lines for recurring postings, such as material consumption, in installations without production features.|[Save as Standard Journal](../Finance/how-to-save-standard-journals.md) and [Get Standard Journals](../DesignAndEngineering/how-to-reuse-standard-journals.md)|  
 |Record any observed differences in bin quantity as they occur to keep a record of how many items exist in the warehouse \- until synchronizing with the item ledger entries with the warehouse adjustment bin.|[How to: Register Quantity Adjustments in Warehouse Item Journals](../WarehouseActivities/how-to-register-quantity-adjustments-in-warehouse-item-journals.md)|  
 |Change the quantity \(of warehouse entries\) in bins while observing the requirements to synchronize with inventory quantities.|[How to: Post Quantity Adjustments for Bins](../WarehouseActivities/how-to-post-quantity-adjustments-for-bins.md)|  
 |Assign a different bin to an item than the default bin defined by the first place where the item was put away.|[How to: Change Default Bins for Items](../WarehouseActivities/how-to-change-default-bins-for-items.md)|  
 |Update the details of a bin content entry.|[How to: Modify Bin Content](../WarehouseActivities/how-to-modify-bin-content.md)|  
-|Change item attributes, such as serial\/lot numbers and variant codes.|[\($ N\_393 Item Reclass. Journal $\)](../WarehouseActivities/-$-n_393-item-reclass.-journal-$-.md)|  
+|Change item attributes, such as serial\/lot numbers and variant codes.|Item Reclass. Journal|  
 |Change serial\/lot numbers on item ledger entries and warehouse entries.|[How to: Reclassify Lot Numbers and Serial Numbers](../DesignAndEngineering/how-to-reclassify-lot-numbers-and-serial-numbers.md)|  
 |Use a dedicated warehouse reclassification journal to change warehouse entry attributes, such as bin codes and serial\/lot numbers.|"Restructure Your Warehouse when Using Directed Put\-away and Pick" in [Restructuring Your Warehouse](../WarehouseActivities/how-to-restructure-warehouses.md)|  
   

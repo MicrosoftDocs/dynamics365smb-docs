@@ -53,7 +53,7 @@ The need for VAT product posting groups is determined by the way items are taxed
   
 1.  In the **Search** box, enter **VAT Product Posting Groups**, and then choose the related link.  
   
-2.  In the **\($ N\_471 VAT Product Posting Groups $\)** window, enter a code in the **Code** field to identify the group.  
+2.  In the **VAT Product Posting Groups** window, enter a code in the **Code** field to identify the group.  
   
 3.  In the **Description** field, enter a brief description of the group.  
   

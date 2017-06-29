@@ -28,7 +28,7 @@ A fiscal year is typically divided into 12 monthly fiscal periods. In [!INCLUDE[
   
  A fiscal year can be closed if all of the following criteria are met:  
   
--   The posting dates in the **User Setup** window and the **General Ledger Setup** window do not fall within the year that you are closing. For more information, see [\($ T\_91 User Setup $\)](../Topic/\($%20T_91%20User%20Setup%20$\).md) and [\($ T\_98 General Ledger Setup $\)](assetId:///199e09dc-fe90-4792-be3e-ad395447dfd6).  
+-   The posting dates in the **User Setup** window and the **General Ledger Setup** window do not fall within the year that you are closing. For more information, see User Setup and General Ledger Setup.  
   
 -   The fiscal year has been closed using the **Close Year** function in the **Accounting Periods** window. For more information, see [How to: Close Accounting Periods](../../Finance/how-to-close-accounting-periods.md).  
   
@@ -36,7 +36,7 @@ A fiscal year is typically divided into 12 monthly fiscal periods. In [!INCLUDE[
   
 -   All closing entries are up to date.  
   
- When you close a fiscal period, the earliest open fiscal period is closed. The **Allow Posting From** field in the **General Ledger Setup** window is updated with the start date for the next open period, if the existing date in this field is not already a later date. If the **Allow Posting To** field in the **General Ledger Setup** window is within the closed period, then the value in the **Allow Posting To** field is updated with the end date for the first open fiscal period. For more information, see [\($ T\_98 General Ledger Setup $\)](assetId:///199e09dc-fe90-4792-be3e-ad395447dfd6).  
+ When you close a fiscal period, the earliest open fiscal period is closed. The **Allow Posting From** field in the **General Ledger Setup** window is updated with the start date for the next open period, if the existing date in this field is not already a later date. If the **Allow Posting To** field in the **General Ledger Setup** window is within the closed period, then the value in the **Allow Posting To** field is updated with the end date for the first open fiscal period. For more information, see General Ledger Setup.  
   
  At the end of the year, you must do the following:  
   
@@ -58,6 +58,6 @@ A fiscal year is typically divided into 12 monthly fiscal periods. In [!INCLUDE[
  [How to: Fiscally Close Years](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-fiscally-close-years.md)   
  [How to: Reopen Accounting Periods](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-reopen-accounting-periods.md)   
  [How to: Close Income Statement Accounts](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-close-income-statement-accounts.md)   
- [\($ T\_91 User Setup $\)](../Topic/\($%20T_91%20User%20Setup%20$\).md)   
- [\($ T\_98 General Ledger Setup $\)](assetId:///199e09dc-fe90-4792-be3e-ad395447dfd6)   
+ User Setup   
+ General Ledger Setup   
  [France Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/france-local-functionality.md)

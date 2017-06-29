@@ -41,7 +41,7 @@ As basic types of UI personalization, you can change the size and position of an
   
  You can cancel your basic UI changes by opening the **Reset User\-Specified Settings** window from your Role Center. For more information, see [How to: Cancel Basic UI Changes and File Handling Decisions](../SetupAndAdministration/how-to-cancel-basic-ui-changes-and-file-handling-decisions.md).  
   
- You perform the main types of UI personalization in the **Customize** window. For more information, see [\($ S\_PERSONALIZATION Personalize the User Interface $\)](../SetupAndAdministration/-$-s_personalization-personalize-the-user-interface-$-.md).  
+ You perform the main types of UI personalization in the **Customize** window. For more information, see PERSONALIZATION Personalize the User Interface.  
   
 > [!NOTE]  
 >  The following procedure does not describe how to resize windows and columns by dragging as that is considered basic behavior of programs running on Microsoft Windows.  
@@ -61,11 +61,11 @@ As basic types of UI personalization, you can change the size and position of an
  For more information, see [Sorting](../WorkingWithDynamics/sorting.md).  
   
 ## See Also  
- [\($ S\_PERSONALIZATION Personalize the User Interface $\)](../SetupAndAdministration/-$-s_personalization-personalize-the-user-interface-$-.md)   
+ PERSONALIZATION Personalize the User Interface   
  [How to: Cancel Basic UI Changes and File Handling Decisions](../SetupAndAdministration/how-to-cancel-basic-ui-changes-and-file-handling-decisions.md)   
  [How to: Specify How to Handle External Files and Automation Objects](../SetupAndAdministration/how-to-specify-how-to-handle-external-files-and-automation-objects.md)   
- [\($ S\_DELETEPERSONALIZATION Reset User\-Specified Settings $\)](../Topic/\($%20S_DELETEPERSONALIZATION%20Reset%20User-Specified%20Settings%20$\).md)   
+ DELETEPERSONALIZATION Reset User\-Specified Settings   
  [Sorting](../WorkingWithDynamics/sorting.md)   
  [Customize the User Interface](../SetupAndAdministration/customize-the-user-interface.md)   
- [Working with \($ P\_1 Product Name $\)](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)   
+ [Working with Product Name](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)   
  [Learn About the RoleTailored Design](../GettingStarted/learn-about-the-roletailored-design.md)

@@ -26,14 +26,14 @@ Before you can receive optical character recognition \(OCR\) payments, you must 
   
 1.  In the **Search** box, enter **Cash Receipt Journals**, and then choose the related link.  
   
-2.  In the **\($ N\_255\_33 Batch Name $\)** field, select a journal batch.  
+2.  In the **Batch Name** field, select a journal batch.  
   
     > [!NOTE]  
-    >  OCR payments can only be posted to a cash receipt journal that does not use a balance account in the **\($ T\_81\_11 Bal. Account No. $\)** field on the cash receipt journal line.  
+    >  OCR payments can only be posted to a cash receipt journal that does not use a balance account in the **Bal. Account No.** field on the cash receipt journal line.  
   
 3.  On the **Home** tab, in the **Process** group, choose **Import Payments**.  
   
-4.  In the **\($ R\_15000064 OCR Payment\-BBS $\)** window, fill in the fields as described in the following table.  
+4.  In the **OCR Payment\-BBS** window, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
@@ -53,6 +53,6 @@ Before you can receive optical character recognition \(OCR\) payments, you must 
  [Electronic Banking in Norway](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/electronic-banking-in-norway.md)   
  [How to: Set Up KID Numbers on Sales Documents](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-set-up-kid-numbers-on-sales-documents.md)   
  [How to: Set Up OCR Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-set-up-ocr-payments.md)   
- [\($ N\_255 Cash Receipt Journal $\)](../../Finance/-$-n_255-cash-receipt-journal-$-.md)   
+ Cash Receipt Journal   
  [How to: Fill and Post General Journals](../../Finance/how-to-fill-and-post-general-journals.md)   
  [How to: Print the OCR Journal \- Test Report](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-print-the-ocr-journal-test-report.md)

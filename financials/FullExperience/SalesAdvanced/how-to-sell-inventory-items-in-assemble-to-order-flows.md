@@ -49,7 +49,7 @@ If the **Assembly Policy** field on the item card of an assembly item contains *
  Similar functionality is available when you are selling assembly items from inventory and a part or all of the quantity is unavailable and can be supplied by an assembly order. For more information, see [How to: Sell Assemble\-to\-Order Items and Inventory Items Together](../Sales/how-to-sell-assemble-to-order-items-and-inventory-items-together.md).  
   
 > [!NOTE]  
->  Certain rules apply to the **\($ T\_37\_18 Qty. to Ship $\)** field on sales order lines that contain a combination of assemble\-to\-order quantities and inventory quantities. For more information, see the Combination Scenarios section in [Assemble to Order or Assemble to Stock](../DesignAndEngineering/assemble-to-order-or-assemble-to-stock.md).  
+>  Certain rules apply to the **Qty. to Ship** field on sales order lines that contain a combination of assemble\-to\-order quantities and inventory quantities. For more information, see the Combination Scenarios section in [Assemble to Order or Assemble to Stock](../DesignAndEngineering/assemble-to-order-or-assemble-to-stock.md).  
   
  In this procedure, you replace assemble\-to\-order quantities with inventory quantities on a sales order line. The steps include detecting that availability exists, deducting that quantity from the linked assembly order, and then reserving the inventory quantity to make sure that it is picked and shipped for the order.  
   
@@ -74,17 +74,17 @@ If the **Assembly Policy** field on the item card of an assembly item contains *
 8.  Release the sales order for picking of the inventory items and for assembly of the unavailable items. For more information, see [How to: Assemble Items](../WarehouseActivities/how-to-assemble-items.md).  
   
 > [!CAUTION]  
->  The **Bin Code** field on the sales order may be prefilled according to the **\($ T\_14\_7332 Assemble\-to\-Order Shpt. Bin Code $\)** or the **\($ T\_14\_7331 From\-Assembly Bin Code $\)** field on the location card. In that case, the **Bin Code** field on the sales order line may be incorrect in this combination of assemble\-to\-order and assemble\-to\-stock quantities. It is a good idea to look in the **Bin Code** field and ensure that the placement works for all quantities. Alternatively, enter the two different quantities on separate sales order lines.  
+>  The **Bin Code** field on the sales order may be prefilled according to the **Assemble\-to\-Order Shpt. Bin Code** or the **From\-Assembly Bin Code** field on the location card. In that case, the **Bin Code** field on the sales order line may be incorrect in this combination of assemble\-to\-order and assemble\-to\-stock quantities. It is a good idea to look in the **Bin Code** field and ensure that the placement works for all quantities. Alternatively, enter the two different quantities on separate sales order lines.  
   
 ## See Also  
- [\($ N\_900 Assembly Order $\)](../WarehouseActivities/-$-n_900-assembly-order-$-.md)   
- [\($ T\_27\_910 Assembly Policy $\)](../Topic/\($%20T_27_910%20Assembly%20Policy%20$\).md)   
- [\($ T\_37\_96 Reserve $\)](../Topic/\($%20T_37_96%20Reserve%20$\).md)   
- [\($ N\_498 Reservation $\)](../Topic/\($%20N_498%20Reservation%20$\).md)   
- [\($ T\_904 Assemble\-to\-Order Link $\)](../Topic/\($%20T_904%20Assemble-to-Order%20Link%20$\).md)   
- [\($ T\_37\_900 Qty. to Assemble to Order $\)](../Topic/\($%20T_37_900%20Qty.%20to%20Assemble%20to%20Order%20$\).md)   
- [\($ T\_14\_7332 Asm.\-to\-Order Shpt. Bin Code $\)](../Topic/\($%20T_14_7332%20Asm.-to-Order%20Shpt.%20Bin%20Code%20$\).md)   
- [\($ T\_14\_7331 From\-Assembly Bin Code $\)](../Topic/\($%20T_14_7331%20From-Assembly%20Bin%20Code%20$\).md)   
+ Assembly Order   
+ Assembly Policy   
+ Reserve   
+ Reservation   
+ Assemble\-to\-Order Link   
+ Qty. to Assemble to Order   
+ Asm.\-to\-Order Shpt. Bin Code   
+ From\-Assembly Bin Code   
  [How to: Sell Assemble\-to\-Order Items and Inventory Items Together](../Sales/how-to-sell-assemble-to-order-items-and-inventory-items-together.md)   
  [How to: Assemble Items](../WarehouseActivities/how-to-assemble-items.md)   
  [Design Details: Assembly Order Posting](../ApplicationDesign/design-details-assembly-order-posting.md)

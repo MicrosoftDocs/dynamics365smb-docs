@@ -60,7 +60,7 @@ You can either convert the entire blanket order into one order, or you can make 
 6.  Choose the **OK** button to close the **Blanket Purchase Order** window.  
   
 ## See Also  
- [\($ N\_50 Purchase Order $\)](../Topic/\($%20N_50%20Purchase%20Order%20$\).md)   
- [\($ N\_509 Blanket Purchase Order $\)](../Topic/\($%20N_509%20Blanket%20Purchase%20Order%20$\).md)   
+ Purchase Order   
+ Blanket Purchase Order   
  [How to: Create Blanket Purchase Orders](../Purchasing/how-to-create-blanket-purchase-orders.md)   
  [How to: View the Status of Blanket Purchase Orders](../Purchasing/how-to-view-the-status-of-blanket-purchase-orders.md)

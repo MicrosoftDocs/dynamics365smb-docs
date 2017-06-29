@@ -20,13 +20,13 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can ex
   
 |Payment standard|Window to export from|  
 |----------------------|---------------------------|  
-|AEB N34|**\($ N\_7000050 Payment Orders $\)**|  
-|AEB N34.1|**\($ N\_7000050 Payment Orders $\)**|  
-|E\-PAY|**\($ N\_256 Payment Journal $\)**|  
-|SEPA|**\($ N\_256 Payment Journal $\)** or **\($ N\_7000050 Payment Orders $\)**|  
+|AEB N34|**Payment Orders**|  
+|AEB N34.1|**Payment Orders**|  
+|E\-PAY|**Payment Journal**|  
+|SEPA|**Payment Journal** or **Payment Orders**|  
   
 > [!IMPORTANT]  
->  Before you can export a payment, you must select a payment format in the **\($ T\_270\_1210 Payment Export Format $\)** field in the **\($ N\_370 Bank Account Card $\)** window.  
+>  Before you can export a payment, you must select a payment format in the **Payment Export Format** field in the **Bank Account Card** window.  
   
 ### To export electronic payments using the Payment Orders window  
   
@@ -55,7 +55,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can ex
   
 5.  Choose **Print** or **Preview** to see the created payment file.  
   
-     The payment journal entries which have the **\($ T\_81\_70 Bank Payment Type $\)** field set to **Electronic Payment** will be exported. The data will be exported to a file that is formatted according the N34 or N34.1 standard format. In addition, remittance advice will be printed, which is suitable for mailing to each payee.  
+     The payment journal entries which have the **Bank Payment Type** field set to **Electronic Payment** will be exported. The data will be exported to a file that is formatted according the N34 or N34.1 standard format. In addition, remittance advice will be printed, which is suitable for mailing to each payee.  
   
     > [!NOTE]  
     >  You can only post the payment order after you have successfully exported the electronic payments.  
@@ -70,9 +70,9 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can ex
   
      Payments of type SEPA will be exported to a file immediately.  
   
-     Payments of type E\-PAY will be exported when you run the **\($ R\_10721 Export Electronic Payments $\)** report, which automatically opens when you choose **Export** in step 3.  
+     Payments of type E\-PAY will be exported when you run the **Export Electronic Payments** report, which automatically opens when you choose **Export** in step 3.  
   
-4.  In the **\($ R\_10721 Export Electronic Payments $\)** window, fill in the fields as described in the following table.  
+4.  In the **Export Electronic Payments** window, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
@@ -87,13 +87,13 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can ex
   
 5.  Choose **Print** or **Preview** to see the created payment file.  
   
-     The payment journal entries which have the **\($ T\_81\_70 Bank Payment Type $\)** field set to **Electronic Payment** will be exported. The data will be exported to a file that is formatted according to the selected payment standard. In addition, remittance advice will be printed, which is suitable for mailing to each payee.  
+     The payment journal entries which have the **Bank Payment Type** field set to **Electronic Payment** will be exported. The data will be exported to a file that is formatted according to the selected payment standard. In addition, remittance advice will be printed, which is suitable for mailing to each payee.  
   
     > [!NOTE]  
     >  You can only post the payment order after you have successfully exported the electronic payments.  
   
     > [!NOTE]  
-    >  In the generic version of [!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)], the **\($ N\_256 Payment Journal $\)** window is used in a similar way to export electronic payments in the SEPA Credit Transfer format. For more information, see [Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](../../Finance/make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
+    >  In the generic version of [!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)], the **Payment Journal** window is used in a similar way to export electronic payments in the SEPA Credit Transfer format. For more information, see [Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](../../Finance/make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
   
 ### To export electronic payments from the Cartera module  
   
@@ -114,9 +114,9 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can ex
 >  You can only post the payment order after you have successfully exported the electronic payments.  
   
 ## See Also  
- [\($ N\_7000050 Payment Orders $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-n_7000050-payment-orders-$-.md)   
- [\($ N\_256 Payment Journal $\)](../../Finance/-$-n_256-payment-journal-$-.md)   
+ Payment Orders   
+ Payment Journal   
  [Electronic Payments – AEB N34.1](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/electronic-payments-–-aeb-n34.1.md)   
- [\($ R\_10721 Export Electronic Payments $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-r_10721-export-electronic-payments-$-.md)   
+ Export Electronic Payments   
  [How to: Set Up Bank Accounts for Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/how-to-set-up-bank-accounts-for-electronic-payments.md)   
  [Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](../../Finance/make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)

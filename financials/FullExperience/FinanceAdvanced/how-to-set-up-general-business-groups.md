@@ -51,7 +51,7 @@ You use business group codes to determine posting according to the location \(co
   
 1.  In the **Search** box, enter **Gen. Business Posting Groups**, and then choose the related link.  
   
-2.  In the **\($ N\_312 Gen. Business Posting Groups $\)** window, on the **Home** tab, choose **Edit**.  
+2.  In the **Gen. Business Posting Groups** window, on the **Home** tab, choose **Edit**.  
   
 3.  Enter a code in the **Code** field to identify the group.  
   
@@ -64,7 +64,7 @@ You use business group codes to determine posting according to the location \(co
   
 ## See Also  
  [About Posting Groups](../Finance/about-posting-groups.md)   
- [\($ T\_252 General Posting Setup $\)](assetId:///8d1129f7-d16d-40a2-a351-8a1aed5953b3)   
+ General Posting Setup   
  [How to: Set Up General Product Groups](../Finance/how-to-set-up-general-product-groups.md)   
  [How to: Set Up Default VAT Business Posting Groups](../Finance/how-to-set-up-default-vat-business-posting-groups.md)   
  [How to: Set Up Combinations of General Business Groups and General Product Groups](../Finance/how-to-set-up-combinations-of-general-business-groups-and-general-product-groups.md)

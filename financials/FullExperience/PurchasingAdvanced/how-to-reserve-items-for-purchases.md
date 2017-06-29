@@ -58,6 +58,6 @@ You can reserve items for purchase orders. Before you can do this, you must have
 |**Cancel Reservation from Current Line**|To cancel reservation of the items from the document on the line you have selected.|  
   
 ## See Also  
- [\($ N\_50 Purchase Order $\)](../Topic/\($%20N_50%20Purchase%20Order%20$\).md)   
+ Purchase Order   
  [How to: Change Reservations](../Sales/how-to-change-reservations.md)   
  [How to: Cancel Reservations](../Sales/how-to-cancel-reservations.md)

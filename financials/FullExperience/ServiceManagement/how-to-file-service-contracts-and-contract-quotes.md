@@ -56,4 +56,4 @@ You can file service contracts and contract quotes at any time to record and arc
      To view the quote, on the **Navigate** tab, in the **Quote** group, choose **Filed Contract Quotes**.  
   
 ## See Also  
- [\($ N\_6073 Filed Service Contract List $\)](../Topic/\($%20N_6073%20Filed%20Service%20Contract%20List%20$\).md)
+ Filed Service Contract List

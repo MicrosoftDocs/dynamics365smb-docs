@@ -35,7 +35,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can us
   
 2.  Select a purchase order, and then on the **Home** tab, in the **Manage** group, choose **Edit**.  
   
-3.  On the **Lines** FastTab, select the **\($ T\_39\_10022 1099 Liable $\)** check box.  
+3.  On the **Lines** FastTab, select the **Liable** check box.  
   
      If the field is not visible, you must add it to the window.  
   

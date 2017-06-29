@@ -20,7 +20,7 @@ The structure of the routing can be shown by printing the following report.
   
 ### To print the routing sheet report  
   
-1.  In the **Search** box, enter **\($ R\_99000787 Routing Sheet $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Routing Sheet**, and then choose the related link.  
   
 2.  On the **Item** FastTab, enter a filter for the relevant item.  
   
@@ -30,4 +30,4 @@ The structure of the routing can be shown by printing the following report.
   
 ## See Also  
  [How to: Create Routings](../DesignAndEngineering/how-to-create-routings.md)   
- [\($ N\_99000766 Routing $\)](../Topic/\($%20N_99000766%20Routing%20$\).md)
+ Routing

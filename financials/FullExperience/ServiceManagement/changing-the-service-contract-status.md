@@ -43,9 +43,9 @@ translation.priority.ht:
 After the service contract is signed, the **Change Status** field value is automatically set to **Locked**. If you want to modify information in the service contract or service contract quote, first you have to change the status of the contract or contract quote from **Locked** to **Open**. Note that you cannot create service invoices for the service contract with the **Open** change status. After the contract or contract quote is modified, you have to change the status back to **Locked** to make it possible to create service invoices and ledger entries for the service contract, which includes the changes that you made to it.  
   
 > [!NOTE]  
->  The **Change Status** field is not related to the **\($ T\_5900\_130 Release Status $\)** field on the service order header, which governs the warehouse handling of service items.  
+>  The **Change Status** field is not related to the **Release Status** field on the service order header, which governs the warehouse handling of service items.  
   
 ## See Also  
- [\($ N\_5900 Service Order $\)](../Topic/\($%20N_5900%20Service%20Order%20$\).md)   
- [\($ T\_5900\_130 Release Status $\)](../Topic/\($%20T_5900_130%20Release%20Status%20$\).md)   
- [\($ T\_5965\_6 Change Status $\)](../Topic/\($%20T_5965_6%20Change%20Status%20$\).md)
+ Service Order   
+ Release Status   
+ Change Status

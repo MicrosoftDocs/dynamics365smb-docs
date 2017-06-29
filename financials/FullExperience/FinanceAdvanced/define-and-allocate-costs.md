@@ -65,9 +65,9 @@ Cost allocations move costs and revenues between cost types, cost centers, and c
 |Set up various filters for dynamic allocation bases.|[Setting Filters for Dynamic Allocation Bases](../Finance/setting-filters-for-dynamic-allocation-bases.md)|  
 |See an example of how to define a static allocation.|[Scenario Example: Defining Static Allocations Based on Allocation Ratio](../Finance/scenario-example-defining-static-allocations-based-on-allocation-ratio.md)|  
 |See an example of how to define a dynamic allocation.|[Scenario Example: Defining Dynamic Allocations Based on Items Sold](../Finance/scenario-example-defining-dynamic-allocations-based-on-items-sold.md)|  
-|Allocate costs.|[\($ B\_1131 Cost Allocation $\)](../Finance/-$-b_1131-cost-allocation-$-.md)|  
-|See the results of cost allocations.|[\($ B\_1131 Cost Allocation $\)](../Finance/-$-b_1131-cost-allocation-$-.md)<br /><br /> [\($ N\_1104 Cost Registers $\)](assetId:///73336483-f27e-4f25-af4f-82647821d5b0)|  
-|Delete cost entries.|[\($ B\_1130 Delete Cost Entries $\)](../Finance/-$-b_1130-delete-cost-entries-$-.md)|  
+|Allocate costs.|Cost Allocation|  
+|See the results of cost allocations.|Cost Allocation<br /><br /> Cost Registers|  
+|Delete cost entries.|Delete Cost Entries|  
   
 ## See Also  
  [Set Up Cost Accounting](../Finance/set-up-cost-accounting.md)   

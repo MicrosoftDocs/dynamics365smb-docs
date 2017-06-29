@@ -72,8 +72,8 @@ translation.priority.ht:
   
 ## See Also  
  [Use Templates to Prepare Customer Data for Migration](../SetupAndAdministration/use-templates-to-prepare-customer-data-for-migration.md)   
- [\($ B\_8613 Create Item Journal Lines $\)](../Topic/\($%20B_8613%20Create%20Item%20Journal%20Lines%20$\).md)   
- [\($ B\_8611 Create Customer Journal Lines $\)](../Topic/\($%20B_8611%20Create%20Customer%20Journal%20Lines%20$\).md)   
- [\($ B\_8612 Create Vendor Journal Lines $\)](../Topic/\($%20B_8612%20Create%20Vendor%20Journal%20Lines%20$\).md)   
- [\($ B\_8610 Create G\-L Acc. Journal Lines $\)](../Topic/\($%20B_8610%20Create%20G-L%20Acc.%20Journal%20Lines%20$\).md)   
+ Create Item Journal Lines   
+ Create Customer Journal Lines   
+ Create Vendor Journal Lines   
+ Create G\-L Acc. Journal Lines   
  [Tips and Tricks: RapidStart Services](../SetupAndAdministration/tips-and-tricks-rapidstart-services.md)

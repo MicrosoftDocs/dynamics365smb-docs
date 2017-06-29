@@ -45,7 +45,7 @@ translation.priority.ht:
 You may occasionally need to move items between internal bins, not receiving or shipping bins, without a specific demand from a source document. You may perform these ad hoc movements, for example, to reorganize the warehouse, to bring items to an inspection area, or to move additional items to and from a production area without a system relation to the production order source document.  
   
 > [!NOTE]  
->  For information about moving items between bins based on source documents, see [\($ N\_7382 Inventory Movement $\)](../Topic/\($%20N_7382%20Inventory%20Movement%20$\).md).  
+>  For information about moving items between bins based on source documents, see Inventory Movement.  
   
  In basic warehouse configurations, that is locations that use the **Bin Mandatory** setup field and possibly the **Require Pick** and the **Require Put\-away** setup fields, you can register ad hoc movements without source documents in the following ways:  
   
@@ -58,7 +58,7 @@ You may occasionally need to move items between internal bins, not receiving or 
   
 ### To move items as an internal movement  
   
-1.  In the **Search** box, enter **\($ N\_7399 Internal Movement $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Internal Movement**, and then choose the related link.  
   
 2.  On the **General** FastTab, fill in the **No.** field, either by leaving the field or by choosing the **AssistEdit** button to select from the number series.  
   
@@ -70,14 +70,14 @@ You may occasionally need to move items between internal bins, not receiving or 
   
 5.  In the **Due Date** field, enter the date by which the movement must be completed.  
   
-6.  On the **Lines** FastTab, choose the **Item No.** field to open the **Bin Contents List** window, and then select the item to move based on its availability in bins. Alternatively, choose **Get Bin Contents** to fill the internal movement lines based on your filters. For more information, see [\($ R\_7391 Whse. Get Bin Content $\)](../Topic/\($%20R_7391%20Whse.%20Get%20Bin%20Content%20$\).md).  
+6.  On the **Lines** FastTab, choose the **Item No.** field to open the **Bin Contents List** window, and then select the item to move based on its availability in bins. Alternatively, choose **Get Bin Contents** to fill the internal movement lines based on your filters. For more information, see Whse. Get Bin Content.  
   
      When you have selected the item, the **From Bin Code** field is automatically filled according to the selected bin content, but you can change it to any other bin where the item is available.  
   
     > [!NOTE]  
     >  Because the **Item No.** field and the **From Bin Code** field are connected, their values may change interdependently when you edit either field.  
   
-     The **To Bin Code** field is filled with the value you entered on the header, but you can change it on the line to any other bin code that isn’t blocked or dedicated to special purposes. For more information about making bins dedicated, see [\($ T\_7354\_41 Dedicated $\)](../Topic/\($%20T_7354_41%20Dedicated%20$\).md).  
+     The **To Bin Code** field is filled with the value you entered on the header, but you can change it on the line to any other bin code that isn’t blocked or dedicated to special purposes. For more information about making bins dedicated, see Dedicated.  
   
 7.  When you have defined which bins you want to move the item from and to, enter the quantity to move in the **Quantity** field.  
   
@@ -93,7 +93,7 @@ You may occasionally need to move items between internal bins, not receiving or 
   
 ### To move items with the item reclassification journal  
   
-1.  In the **Search** box, enter **\($ N\_393 Item Reclass. Journal $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Item Reclass. Journal**, and then choose the related link.  
   
 2.  On each journal line, define the bins from which and to which you want to move items by filling in the **Bin Code** and the **New Bin Code** fields.  
   
@@ -109,11 +109,11 @@ You may occasionally need to move items between internal bins, not receiving or 
     >  Unlike with movement documents, a movement posted with the reclassification journal does not create a warehouse request to perform the physical task.  
   
 ## See Also  
- [\($ N\_7399 Internal Movement $\)](../Topic/\($%20N_7399%20Internal%20Movement%20$\).md)   
- [\($ N\_7382 Inventory Movement $\)](../Topic/\($%20N_7382%20Inventory%20Movement%20$\).md)   
- [\($ N\_393 Item Reclass. Journal $\)](../WarehouseActivities/-$-n_393-item-reclass.-journal-$-.md)   
- [\($ T\_5409\_7302 To\-Production Bin Code $\)](../Topic/\($%20T_5409_7302%20To-Production%20Bin%20Code%20$\).md)   
- [\($ T\_7354\_41 Dedicated $\)](../Topic/\($%20T_7354_41%20Dedicated%20$\).md)   
- [\($ R\_7391 Whse. Get Bin Content $\)](../Topic/\($%20R_7391%20Whse.%20Get%20Bin%20Content%20$\).md)   
+ Internal Movement   
+ Inventory Movement   
+ Item Reclass. Journal   
+ To\-Production Bin Code   
+ Dedicated   
+ Whse. Get Bin Content   
  [How to: Move Components to an Operation Area in Basic Warehousing](../WarehouseActivities/how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
  [How to: Move Items in Advanced Warehousing](../WarehouseActivities/how-to-move-items-in-advanced-warehousing.md)

@@ -62,17 +62,17 @@ When designing products that are assembled or produced within the company before
 |Reflect a slightly different product structure that is still manufactured into the same end item.|[Creating New Versions of Production BOM](../DesignAndEngineering/how-to-create-new-versions-of-production-boms.md)s|  
 |View a list of all production BOM versions and the numbers of items that are used per BOM.|[How to: Compare Material Quantities in All Production BOM Versions](../DesignAndEngineering/how-to-compare-material-quantities-in-all-production-bom-versions.md)|  
 |Determine where a component or production BOM is used within existing product structures.|[How to: Find Where Production BOMs Are Used](../DesignAndEngineering/how-to-find-where-production-boms-are-used.md)|  
-|Add, replace, or remove a component in multiple production BOMs in one action.|[\($ B\_99001043 Exchange Production BOM Item $\)](../Topic/\($%20B_99001043%20Exchange%20Production%20BOM%20Item%20$\).md)|  
+|Add, replace, or remove a component in multiple production BOMs in one action.|Exchange Production BOM Item|  
 |Remove a component in multiple production BOMs by a certain date.|[How to: Delete Expired Components](../DesignAndEngineering/how-to-delete-expired-components.md)|  
 |Sequence production operations and assign them to established production resources.|[How to: Create Routings](../DesignAndEngineering/how-to-create-routings.md)|  
 |Reflect a slightly different process structure, which outputs the same end item.|[How to: Create New Versions of Routings](../DesignAndEngineering/how-to-create-new-versions-of-routings.md)|  
 |Connect components to specific operations in order to retain their relationship even though the production BOM or routing is modified.|[How to: Create Routing Links](../DesignAndEngineering/how-to-create-routing-links.md)|  
-|Set up how to automatically post material consumption when releasing production or automatically post finished output when finishing production.|[\($ T\_27\_5417 Flushing Method $\)](../Topic/\($%20T_27_5417%20Flushing%20Method%20$\).md)|  
-|Have the Production Journal window show the expected output quantity when first opened.|[\($ T\_99000765\_5500 Preset Output Quantity $\)](../Production/-$-t_99000765_5500-preset-output-quantity-$-.md)|  
+|Set up how to automatically post material consumption when releasing production or automatically post finished output when finishing production.|Flushing Method|  
+|Have the Production Journal window show the expected output quantity when first opened.|Preset Output Quantity|  
 |Define an operation as a standard task.|[How to: Create Standard Tasks](../DesignAndEngineering/how-to-create-standard-tasks.md)|  
-|Specify codes that can be used to identify reasons that time or quantities were posted as down time.|[\($ N\_99000779 Stop Codes $\)](../Topic/\($%20N_99000779%20Stop%20Codes%20$\).md)|  
-|Specify codes that can be used to identify reasons that time or quantities were posted as scrap.|[\($ N\_99000780 Scrap Codes $\)](../Topic/\($%20N_99000780%20Scrap%20Codes%20$\).md)|  
-|Prototype a production order to calculate what is needed to produce a new product.|[\($ N\_99000912 Simulated Production Order $\)](../Topic/\($%20N_99000912%20Simulated%20Production%20Order%20$\).md)|  
+|Specify codes that can be used to identify reasons that time or quantities were posted as down time.|Stop Codes|  
+|Specify codes that can be used to identify reasons that time or quantities were posted as scrap.|Scrap Codes|  
+|Prototype a production order to calculate what is needed to produce a new product.|Simulated Production Order|  
   
 ## See Also  
  [Configure Production Processes](../Production/configure-production-processes.md)   

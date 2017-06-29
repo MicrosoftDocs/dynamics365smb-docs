@@ -26,14 +26,14 @@ Before you can send invoices and credit memos electronically, you must specify o
   
 ### To set up a PAC web service  
   
-1.  In the **Search** box, enter **\($ N\_10455 PAC Web Services $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **PAC Web Services**, and then choose the related link.  
   
 2.  Fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_10000\_1 Code $\)**|Specify a unique ID for the authorized service provider, PAC, such as **PAC1**.|  
-    |**\($ T\_10000\_21 Name $\)**|Specify the name of the PAC.|  
+    |**Code**|Specify a unique ID for the authorized service provider, PAC, such as **PAC1**.|  
+    |**Name**|Specify the name of the PAC.|  
   
 3.  On the **Navigate** tab, choose **Details**.  
   
@@ -41,10 +41,10 @@ Before you can send invoices and credit memos electronically, you must specify o
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_10001\_2 Environment $\)**|Specify if the web service is for a test environment or a production environment.|  
-    |**\($ T\_10001\_3 Type $\)**|Specify if the web method is for requesting a digital stamp or for canceling.|  
-    |**\($ T\_10001\_21 Method Name $\)**|Specify the name of the web method, such as **GeneraTimbre** or **CancelaTimbre**.|  
-    |**\($ T\_10001\_22 Address $\)**|Specify the URL of the web method.|  
+    |**Environment**|Specify if the web service is for a test environment or a production environment.|  
+    |**Type**|Specify if the web method is for requesting a digital stamp or for canceling.|  
+    |**Method Name**|Specify the name of the web method, such as **GeneraTimbre** or **CancelaTimbre**.|  
+    |**Address**|Specify the URL of the web method.|  
   
      Contact your PAC for this information.  
   

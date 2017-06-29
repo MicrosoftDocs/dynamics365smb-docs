@@ -19,7 +19,7 @@ translation.priority.ht:
 Specifies if you want to view resource group allocation information by using the system calendar or the accounting calendar.  
   
 ## See Also  
- [\($ N\_6009 Res. Gr. Allocated per Service Order $\)](../Topic/\($%20N_6009%20Res.%20Gr.%20Allocated%20per%20Service%20Order%20$\).md)   
- [\($ N\_72 Resource Groups $\)](../Topic/\($%20N_72%20Resource%20Groups%20$\).md)   
- [\($ N\_10505 Calendar Setup $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/-$-n_10505-calendar-setup-$-.md)   
- [\($ T\_10505 Calendar Setup $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/-$-t_10505-calendar-setup-$-.md)
+ Res. Gr. Allocated per Service Order   
+ Resource Groups   
+ Calendar Setup   
+ Calendar Setup

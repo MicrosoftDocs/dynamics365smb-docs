@@ -36,9 +36,9 @@ The order promising function is a tool for calculating the earliest possible dat
   
 4.  Select a line, and on the **Navigate** tab, in the **Calculate** group, select one of the following options:  
   
-    -   Select **Available\-to\-Promise** if you want to calculate the earliest date that the item will be available with respect to inventory, scheduled receipts, and gross requirements.  
+    -   Select **Available-to-Promise** if you want to calculate the earliest date that the item will be available with respect to inventory, scheduled receipts, and gross requirements.  
   
-    -   Select **Capable\-to\-Promise** if you know that the item is presently out of stock and you want to calculate the earliest date that the item can be available by issuing new replenishment requisitions.  
+    -   Select **Capable-to-Promise** if you know that the item is presently out of stock and you want to calculate the earliest date that the item can be available by issuing new replenishment requisitions.  
   
 5.  Choose the **Accept** button to accept the earliest shipment date available.  
   

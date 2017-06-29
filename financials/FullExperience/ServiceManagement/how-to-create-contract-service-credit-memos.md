@@ -28,7 +28,7 @@ You can use a contract service credit memo when a customer cancels a prepaid ser
   
 4.  In the **Customer No.** field, enter the number of the customer in the service contract.  
   
-     On the **Invoicing** FastTab, you can see information copied from the **Customer** card. If you want to post the credit memo to a different customer than the one specified on the **General** FastTab, enter the number of that customer in the **Bill\-to Customer No.** field.  
+     On the **Invoicing** FastTab, you can see information copied from the **Customer** card. If you want to post the credit memo to a different customer than the one specified on the **General** FastTab, enter the number of that customer in the **Bill-to Customer No.** field.  
   
     > [!NOTE]  
     >  You can compare the credit memo to the original posted document in the **Posted Service Invoices** window. In the **Search** box, enter **Posted Service Invoices**, and then choose the related link.  

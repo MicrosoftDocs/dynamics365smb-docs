@@ -20,9 +20,9 @@ With the electronic payments functionality, you can pay vendors using electronic
   
  You can create electronic payments from the payment journals or from the Cartera functionality \(report list\). This is intended to cover the following cases:  
   
--   Invoices and open, non\-grouped Cartera documents. If you select to pay using electronic payments, then the payment file is generated from the **Export Electronic Payments** report.  
+-   Invoices and open, non-grouped Cartera documents. If you select to pay using electronic payments, then the payment file is generated from the **Export Electronic Payments** report.  
   
--   Invoices and Cartera documents that are grouped in a payment order. If you select to pay using electronic payments, the payment file is generated from the **\($ R\_7000060 PO \- Export N34.1 $\)** report, available in the Cartera report list.  
+-   Invoices and Cartera documents that are grouped in a payment order. If you select to pay using electronic payments, the payment file is generated from the **\($ R\_7000060 PO - Export N34.1 $\)** report, available in the Cartera report list.  
   
 > [!NOTE]  
 >  Partners may need to modify this report to meet their customer’s bank individual requirements.  
@@ -33,4 +33,4 @@ With the electronic payments functionality, you can pay vendors using electronic
  [How to: Set Up Bank Accounts for Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/how-to-set-up-bank-accounts-for-electronic-payments.md)   
  [How to: Pay Vendors by Using Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/how-to-pay-vendors-by-using-electronic-payments.md)   
  Export Electronic Payments   
- PO \- Export N34.1
+ PO - Export N34.1

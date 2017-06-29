@@ -36,5 +36,5 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]
  You can now view the debit and credit amounts for each customer, and you can see the document numbers that resulted in each general ledger transaction.  
   
 ## See Also  
- General\-Customer Ledger Reconciliation   
- General\-Vendor Ledger Reconciliation
+ General-Customer Ledger Reconciliation   
+ General-Vendor Ledger Reconciliation

@@ -65,7 +65,7 @@ This topic describes some common problems that you may see when you use email lo
   
 -   Copy all mails that are in the storage folder to the queue folder. The mail messages will be logged again.  
   
--   Rename the existing storage folder as the queue folder, so that the messages are logged again. In this instance, you will also want to re\-create a storage folder.  
+-   Rename the existing storage folder as the queue folder, so that the messages are logged again. In this instance, you will also want to re-create a storage folder.  
   
 ## Upgrades to Job Queue Functionality Require Changes in Your Email Logging Implementation  
  Job queue categories have been introduced in ADD INCLUDE<!--[!INCLUDE[nav_current_long](../../ApplicationDesign/includes/nav_current_long_md.md)]-->. Accordingly, to upgrade email logging, you will have to update your implementation to reflect this change.  

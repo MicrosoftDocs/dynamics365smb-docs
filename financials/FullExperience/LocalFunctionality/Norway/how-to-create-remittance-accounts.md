@@ -48,7 +48,7 @@ You must create one remittance account for each bank account where payment is ma
     |**Round off\/Divergence Acc. No.**|Specify the finance account to post the difference as a result of rounding.|  
     |**Max. Round off\/Diverg. \(LCY\)**|Specify the maximum rounding or difference, which is accepted by settlement return.|  
     |**Document No. Series**|Specify the number series to be used when you post payments by using the remittance system.|  
-    |**New Document Per.**|Select how documents will be numbered when you post a payment:<br /><br /> -   **Date** \- A new document is numbered according to the date the payment is made.<br />-   **Vendor** \- A new document is numbered according to the vendor.|  
+    |**New Document Per.**|Select how documents will be numbered when you post a payment:<br /><br /> -   **Date** - A new document is numbered according to the date the payment is made.<br />-   **Vendor** - A new document is numbered according to the vendor.|  
     |**Return Journal Template Name**|Specify the general journal template to which settled payments are transferred.|  
     |**Return Journal Name**|Specify the general journal batch to which settled payments are transferred.|  
   
@@ -56,8 +56,8 @@ You must create one remittance account for each bank account where payment is ma
   
     |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_15000003\_40 Recipient ref. 1\- Invoice $\)**|Specify the text that will print on the payment invoice.|  
-    |**\($ T\_15000003\_41 Recipient ref. 1\- Cr. Memo $\)**|Specify the text that will print on the payment invoice when deducting a credit memo.|  
+    |**\($ T\_15000003\_40 Recipient ref. 1- Invoice $\)**|Specify the text that will print on the payment invoice.|  
+    |**\($ T\_15000003\_41 Recipient ref. 1- Cr. Memo $\)**|Specify the text that will print on the payment invoice when deducting a credit memo.|  
   
 6.  On the **Foreign** FastTab, fill in the fields as described in the following table.  
   

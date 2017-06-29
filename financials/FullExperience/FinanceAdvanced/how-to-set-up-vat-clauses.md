@@ -24,7 +24,7 @@ You set up a VAT clause to describe information about the type of VAT that is be
   
 2.  The **VAT Clauses** window opens. On a new line, in the **Code** field, enter a code for the clause. This code is used when you set up a VAT Posting group.  
   
-3.  In the **Description** field, enter the text that you want to appear on VAT\-related documents. In the **\($ T\_560\_3 Description 2 $\)** field, enter additional text, if it is needed. The text will be displayed on a new line.  
+3.  In the **Description** field, enter the text that you want to appear on VAT-related documents. In the **\($ T\_560\_3 Description 2 $\)** field, enter additional text, if it is needed. The text will be displayed on a new line.  
   
 4.  On the **Home** tab, in the **Process** group, choose **Setup**.  
   

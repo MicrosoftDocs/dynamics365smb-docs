@@ -51,9 +51,9 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
 4.  Choose the **OK** button.  
   
 ## See Also  
- [How to: Print VAT Reports\-duplicate](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-print-vat-reports-duplicate.md)   
+ [How to: Print VAT Reports-duplicate](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-print-vat-reports-duplicate.md)   
  [How to: Export and Print Intrastat Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-export-and-print-intrastat-reports.md)   
- Report Selection \- VAT   
- Report Selection \- Intrastat   
+ Report Selection - VAT   
+ Report Selection - Intrastat   
  DACH Report Selections   
  Report Selections

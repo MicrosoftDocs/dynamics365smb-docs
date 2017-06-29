@@ -16,7 +16,7 @@
 
     ---
 # How to: Assign Bin Codes on Journal Lines
-When you create a consumption journal or an output journal, and the warehouse location is set up to use bins but not directed put\-away and pick, you assign a bin code to the journal line to indicate that the item will either come from or be placed in that bin. In the following procedure, a consumption journal is used as an example.  
+When you create a consumption journal or an output journal, and the warehouse location is set up to use bins but not directed put-away and pick, you assign a bin code to the journal line to indicate that the item will either come from or be placed in that bin. In the following procedure, a consumption journal is used as an example.  
   
 ### To assign a bin code to a journal line  
   

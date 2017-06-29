@@ -45,7 +45,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
  Vendor Bank Account Card   
  Customer Bank Account Card   
  Bank Payment Order   
- Bank Account G\-L Turnover   
+ Bank Account G-L Turnover   
  Bank Account Card   
  Bank Directory   
  [How to: Set Up a Bank Payment Order](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-set-up-a-bank-payment-order.md)

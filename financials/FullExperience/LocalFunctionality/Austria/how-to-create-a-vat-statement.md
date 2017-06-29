@@ -38,13 +38,13 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]
     |**\($ B\_11110\_N\_2\_1 Round to Whole Numbers $\)**|Select to round amounts to whole numbers.|  
     |**\($ B\_11110\_N\_2\_1160003 Surplus Used to Pay Dues $\)**|Select to use a potential surplus to cover other charges.|  
     |**\($ B\_11110\_N\_2\_1160005 Additional Invoices sent via Mail $\)**|Select if you will send additional information.|  
-    |**\($ B\_11110\_N\_2\_1160000 Number §6 Abs. 1 $\)**|Specify the number according to §6 section 1 if you want to claim tax\-free revenues without input tax reduction.|  
+    |**\($ B\_11110\_N\_2\_1160000 Number §6 Abs. 1 $\)**|Specify the number according to §6 section 1 if you want to claim tax-free revenues without input tax reduction.|  
   
 3.  Choose the **OK** button.  
   
 4.  When prompted, choose to save or open the generated XML file and FDF file.  
   
- If your VAT statement does not contain errors, you can now submit the FDF file to the tax authorities. For more information, see the [Finanz\-Online portal](http://go.microsoft.com/fwlink/?LinkId=239929).  
+ If your VAT statement does not contain errors, you can now submit the FDF file to the tax authorities. For more information, see the [Finanz-Online portal](http://go.microsoft.com/fwlink/?LinkId=239929).  
   
 ## See Also  
  [VAT Reporting](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/vat-reporting.md)   

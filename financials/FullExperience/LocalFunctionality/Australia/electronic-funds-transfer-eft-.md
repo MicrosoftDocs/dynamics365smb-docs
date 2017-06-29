@@ -21,7 +21,7 @@ You can pay vendors using the electronic funds transfer \(EFT\) system in Austra
 ## Setting up Electronic Funds Transfer in ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->  
  ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> can export EFT files that you can then upload to your bank’s website for additional processing. To submit EFT files, you must set up the following information:  
   
--   You must add EFT information to the bank account or bank accounts that you will use to pay vendors electronically. The EFT\-specific fields are on the **Transfer** FastTab in the Bank Account Card window.  
+-   You must add EFT information to the bank account or bank accounts that you will use to pay vendors electronically. The EFT-specific fields are on the **Transfer** FastTab in the Bank Account Card window.  
   
 -   For those vendors that you want to pay electronically, you must select the EFT Payment field and specify the vendor bank account in the EFT Vendor Bank Account Code field in the Vendor Card window.  
   

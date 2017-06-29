@@ -18,7 +18,7 @@
 # Digipoort Overview
 In the Netherlands, you use Digipoort to make periodic electronic filings for VAT declarations and ICP reports in EU sales list submissions. Digipoort is the electronic post office provided by the Dutch government for companies. It provides the common infrastructure for the communication of information between companies and the government, including VAT declarations. The reports are in XBRL format.  
   
- ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> provides a .dll component to provide the communication between ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> and the Digipoort server. Typically, the ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> installer installs the .dll to the following location: c:\\Program Files \(x86\)\\Microsoft Dynamics NAV\\\<version\>\\RoleTailored Client\\Add\-ins\\Microsoft.Dynamics.NL.Digipoortservice.dll.  
+ ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> provides a .dll component to provide the communication between ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> and the Digipoort server. Typically, the ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> installer installs the .dll to the following location: c:\\Program Files \(x86\)\\Microsoft Dynamics NAV\\\<version\>\\RoleTailored Client\\Add-ins\\Microsoft.Dynamics.NL.Digipoortservice.dll.  
   
  The Digipoort channel replaces the BAPI method for making submissions.  
   

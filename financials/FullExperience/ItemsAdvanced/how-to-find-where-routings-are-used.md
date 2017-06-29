@@ -16,7 +16,7 @@
 
     ---
 # How to: Find Where Routings Are Used
-You can use the **Where\-used** function to find out which items use a certain routing.  
+You can use the **Where-used** function to find out which items use a certain routing.  
   
 ### To find where routings are used  
   
@@ -24,8 +24,8 @@ You can use the **Where\-used** function to find out which items use a certain r
   
 2.  Open the relevant routing from the list.  
   
-3.  On the **Navigate** tab, in the **Routing** group, choose **Where\-Used**.   
-    The **Where\-Used** window shows all items in which reference is made to this routing in the **Routing No.** field.  
+3.  On the **Navigate** tab, in the **Routing** group, choose **Where-Used**.   
+    The **Where-Used** window shows all items in which reference is made to this routing in the **Routing No.** field.  
   
 4.  Close the window.  
   

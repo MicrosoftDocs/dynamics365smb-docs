@@ -34,13 +34,13 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
     |**Computer Check**|Select this option if you want to print a check for the amount on the payment journal line. You must print the checks before you can post the journal lines. You can only select **Computer Check** if the **Bal. Account Type** or the **Account Type** is **Bank Account**.|  
     |**Manual Check**|Select this option if you have created a check manually and want to create a corresponding check ledger entry for this amount. By using this option, you cannot print checks from ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->. You can only select **Manual Check** if the **Bal. Account Type** or the **Account Type** is **Bank Account**.|  
     |**Electronic Payment**|Select this option if you want to export this payment, together with other payments, to a file and then transmit that file to your bank. This will allow your bank to electronically transfer the payments from your bank account to the payee's bank account. By using this option, you must export and then transmit the journal lines before you can post. You can only select **Electronic Payment** if the **Bal. Account Type** or the **Account Type** is **Bank Account**, **Vendor**, or **Customer**.|  
-    |**Electronic Payment\-IAT**|Select this option to export electronic payments using the International ACH Transaction \(IAT\) file format. This file format is required if a payment transaction includes financial agencies outside the United States. By using this option, you must export and then transmit the journal lines before you can post. You can only select **Electronic Payment\-IAT** if the **Bal. Account Type** or the **Account Type** is **Bank Account**, **Vendor**, or **Customer**.|  
+    |**Electronic Payment-IAT**|Select this option to export electronic payments using the International ACH Transaction \(IAT\) file format. This file format is required if a payment transaction includes financial agencies outside the United States. By using this option, you must export and then transmit the journal lines before you can post. You can only select **Electronic Payment-IAT** if the **Bal. Account Type** or the **Account Type** is **Bank Account**, **Vendor**, or **Customer**.|  
   
 4.  Depending on the **Bank Payment Type** selection, do one the following:  
   
     -   If you selected **Computer Check**, to print checks, on the **Navigate** tab, in the **Payments** group, choose **Print Checks**. On the **Options** FastTab, select the bank account that matches the bank account on the lines of the payment journal.  
   
-    -   If you selected **Electronic Payment** or **Electronic Payment\-IAT**, to print checks, on the **Navigate** tab, in the **Payments** group, select **Electronic Payments**, and then choose **Export**. You can also use this function to print the remittance advice.  
+    -   If you selected **Electronic Payment** or **Electronic Payment-IAT**, to print checks, on the **Navigate** tab, in the **Payments** group, select **Electronic Payments**, and then choose **Export**. You can also use this function to print the remittance advice.  
   
 5.  After the checks have been printed successfully, you can post the payment journal.  
   
@@ -48,7 +48,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
   
 ### To transfer payment information to the bank  
   
-1.  If you selected a payment type of **Electronic Payment** or **Electronic Payment\-IAT**, in the **Payment Journal** window, on the **Navigate** tab, in the **Payments** group, select **Electronic Payments**, and then choose **Transmit**.  
+1.  If you selected a payment type of **Electronic Payment** or **Electronic Payment-IAT**, in the **Payment Journal** window, on the **Navigate** tab, in the **Payments** group, select **Electronic Payments**, and then choose **Transmit**.  
   
 2.  After the electronic payments have transmitted successfully, you can post the payment journal. On the **Actions** tab, in the **Posting** group, choose **Post** or choose **Post and Print**. For more information, see Payment Journal.  
   

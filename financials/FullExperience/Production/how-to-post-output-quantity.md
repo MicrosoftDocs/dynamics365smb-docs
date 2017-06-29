@@ -36,7 +36,7 @@ The output quantity represents the work progress in the form of the finished qua
   
 7.  If the operation has been completed, select the **Finished** field.  
   
-8.  If the warehouse location where the items should be put away uses bins but does not require put\-away processing,  assign a bin code to the journal line to specify where the items should be placed in the warehouse. For more information, see [How to: Assign Bin Codes on Journal Lines](../Production/how-to-assign-bin-codes-on-journal-lines.md).  
+8.  If the warehouse location where the items should be put away uses bins but does not require put-away processing,  assign a bin code to the journal line to specify where the items should be placed in the warehouse. For more information, see [How to: Assign Bin Codes on Journal Lines](../Production/how-to-assign-bin-codes-on-journal-lines.md).  
   
 9. On the **Actions** tab, in the **Posting** group, choose **Post** to post the operations. The output quantity will be posted. The item is now available for shipping.  
   

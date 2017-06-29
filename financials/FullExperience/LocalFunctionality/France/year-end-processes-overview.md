@@ -20,9 +20,9 @@ Year end closing in Microsoft Dynamics NAV involves three steps:
   
 1.  Closing the fiscal year using the [How to: Fiscally Close Accounting Periods](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-fiscally-close-accounting-periods.md) topic.  
   
-2.  Generating a year\-end closing entry using the Close Income Statement option topic.  
+2.  Generating a year-end closing entry using the Close Income Statement option topic.  
   
-3.  [Posting the year\-end closing entry](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-post-the-year-end-closing-entry.md) along with the offsetting equity account entries.  
+3.  [Posting the year-end closing entry](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-post-the-year-end-closing-entry.md) along with the offsetting equity account entries.  
   
 4.  Fiscally closing the fiscal year using the [How to: Fiscally Close Accounting Periods](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-fiscally-close-accounting-periods.md) topic.  
   
@@ -38,4 +38,4 @@ Year end closing in Microsoft Dynamics NAV involves three steps:
   
 ## See Also  
  [Fiscal Periods and Fiscal Years](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/fiscal-periods-and-fiscal-years.md)   
- [How to: Complete Period\-End Processes](../../Finance/how-to-complete-period-end-processes.md)
+ [How to: Complete Period-End Processes](../../Finance/how-to-complete-period-end-processes.md)

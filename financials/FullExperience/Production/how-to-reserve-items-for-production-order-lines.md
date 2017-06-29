@@ -35,12 +35,12 @@ You can reserve items for production orders. You have to distinguish between pro
  The quantity you entered in the firm planned production order line is now reserved.  
   
 > [!NOTE]  
->  If item tracking lines exist for the sales order, the reservation system will take you through additional steps. For more information, see [How to: Reserve Item\-Tracked Items](../DesignAndEngineering/how-to-reserve-item-tracked-items.md).  
+>  If item tracking lines exist for the sales order, the reservation system will take you through additional steps. For more information, see [How to: Reserve Item-Tracked Items](../DesignAndEngineering/how-to-reserve-item-tracked-items.md).  
   
 ## See Also  
  [How to: Amend or Cancel Item Reservations](../OperationsPlanning/how-to-amend-or-cancel-item-reservations.md)   
  [How to: Reserve Items for Production Components](../OperationsPlanning/how-to-reserve-items-for-production-components.md)   
- [How to: Reserve Item\-Tracked Items](../DesignAndEngineering/how-to-reserve-item-tracked-items.md)   
+ [How to: Reserve Item-Tracked Items](../DesignAndEngineering/how-to-reserve-item-tracked-items.md)   
  [How to: Track Item Reservations](../OperationsPlanning/how-to-track-item-reservations.md)   
  [How to: View Item Availability](../OperationsPlanning/how-to-view-item-availability.md)   
  [About Production Orders](../Production/about-production-orders.md)

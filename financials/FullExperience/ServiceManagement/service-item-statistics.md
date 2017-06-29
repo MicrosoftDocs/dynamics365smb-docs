@@ -16,7 +16,7 @@
 
     ---
 # Service Item Statistics
-In the **Service Item Statistics** window, you can see up\-to\-date information about the usage, invoiced amounts, and profit regarding the particular service item.  
+In the **Service Item Statistics** window, you can see up-to-date information about the usage, invoiced amounts, and profit regarding the particular service item.  
   
 ## General FastTab  
  Use this FastTab to see information about the following service ledger entry types:  
@@ -33,7 +33,7 @@ In the **Service Item Statistics** window, you can see up\-to\-date information 
   
  For each entry type, you can see the invoiced amount, usage \(amount\), cost amount, quantity, quantity invoiced and quantity consumed, profit amount and profit percentage. The profit percentage is calculated according to the following formula:  
   
- \(Invoiced Amount \- Usage \(Cost\)\) x 100 \/ Invoiced Amount\)  
+ \(Invoiced Amount - Usage \(Cost\)\) x 100 \/ Invoiced Amount\)  
   
 ## See Also  
  Service Item Statistics

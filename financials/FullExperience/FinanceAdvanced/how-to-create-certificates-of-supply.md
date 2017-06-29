@@ -28,7 +28,7 @@ When you sell goods to a customer in another EU country\/region, you can print a
   
 3.  In the **VAT Posting Setup Card** window, select the **Certificate of Supply Required** check box.  
   
-     For example, VAT posting setup for trade with customers and vendors in other EU countries\/regions that is VAT\-liable must require a certificate of supply.  
+     For example, VAT posting setup for trade with customers and vendors in other EU countries\/regions that is VAT-liable must require a certificate of supply.  
   
 ### To manually create a certificate of supply  
   

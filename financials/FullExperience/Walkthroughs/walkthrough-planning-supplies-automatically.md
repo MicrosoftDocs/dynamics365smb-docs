@@ -68,7 +68,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]
   
     4.  Select the **Default** field.  
   
--   Make item LS\-81 available at SILVER location by following these steps:  
+-   Make item LS-81 available at SILVER location by following these steps:  
   
     1.  In the **Search** box, enter **Item Journals**, and then choose the related link.  
   
@@ -76,13 +76,13 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]
   
         |Entry Type|Item Number|Location Code|Bin Code|Quantity|  
         |----------------|-----------------|-------------------|--------------|--------------|  
-        |Positive Adjmt.|LS\-81|SILVER|S\-01\-0001 **Note:**  The item’s default bin in ADD INCLUDE<!--[!INCLUDE[demo](../ApplicationDesign/includes/demo_md.md)]-->.|20|  
-        |Positive Adjmt.|LS\-81|SILVER|S\-01\-0002|20|  
+        |Positive Adjmt.|LS-81|SILVER|S-01-0001 **Note:**  The item’s default bin in ADD INCLUDE<!--[!INCLUDE[demo](../ApplicationDesign/includes/demo_md.md)]-->.|20|  
+        |Positive Adjmt.|LS-81|SILVER|S-01-0002|20|  
   
     3.  On the **Actions** tab, in the **Posting** group, choose **Post**, and then select the **Yes** button.  
   
 ## Story  
- Ellen, the warehouse manager at ADD INCLUDE<!--[!INCLUDE[demoname](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/demoname_md.md)]-->, sets up SILVER warehouse for basic pick handling where warehouse workers process outbound orders individually. Susan, the order processor, creates a sales order for 30 units of item LS\-81 to be shipped to customer 10000 from the SILVER Warehouse. John, the warehouse worker must make sure that the shipment is prepared and delivered to the customer. John manages all involved tasks in the **Inventory Pick** window, which automatically points to the bins where LS\-81 is stored.  
+ Ellen, the warehouse manager at ADD INCLUDE<!--[!INCLUDE[demoname](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/demoname_md.md)]-->, sets up SILVER warehouse for basic pick handling where warehouse workers process outbound orders individually. Susan, the order processor, creates a sales order for 30 units of item LS-81 to be shipped to customer 10000 from the SILVER Warehouse. John, the warehouse worker must make sure that the shipment is prepared and delivered to the customer. John manages all involved tasks in the **Inventory Pick** window, which automatically points to the bins where LS-81 is stored.  
   
 ## Setting Up the Location  
  The setup of the **Location Card** window defines the company’s warehouse flows.  
@@ -137,7 +137,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]
   
 6.  On the **Actions** tab, in the **Posting** group, choose **Post**, select **Ship**, and then choose the **OK** button.  
   
-     The 30 loudspeakers are now registered as picked from bins S\-01\-0001 and S\-01\-0002, and a negative item ledger entry is created reflecting the posted sales shipment.  
+     The 30 loudspeakers are now registered as picked from bins S-01-0001 and S-01-0002, and a negative item ledger entry is created reflecting the posted sales shipment.  
   
 ## See Also  
  Inventory Pick   

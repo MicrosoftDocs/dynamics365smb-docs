@@ -51,9 +51,9 @@ All European Union \(EU\) companies must submit Intrastat reports to the customs
     |**Type**|Select one of the following options:<br /><br /> -   **Purchases**<br />-   **Sales**|  
     |**Statistics Period**|The statistics period that the report will cover. Enter the value in YYMM format.|  
     |**Corrective Entry**|Select the **Corrective Entry** check box to correct an entry.|  
-    |**File Disk No.**|The number of the file disk.<br /><br /> This is used when you run the Intrastat \- Make Disk Tax Auth batch job.|  
+    |**File Disk No.**|The number of the file disk.<br /><br /> This is used when you run the Intrastat - Make Disk Tax Auth batch job.|  
     |**Currency Identifier**|The code to identify the currency for the Intrastat report.|  
-    |**Reported**|If the entry has already been reported to the tax authorities, select the **Reported** check box. This check box is selected automatically when you run the **Intrastat \- Make Disk Tax Auth** batch job for this entry.|  
+    |**Reported**|If the entry has already been reported to the tax authorities, select the **Reported** check box. This check box is selected automatically when you run the **Intrastat - Make Disk Tax Auth** batch job for this entry.|  
   
 4.  To close the window, choose the **OK** button.  
   

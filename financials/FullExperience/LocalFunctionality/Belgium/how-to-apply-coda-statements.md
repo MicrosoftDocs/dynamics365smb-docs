@@ -65,7 +65,7 @@ After a CODA statement has been imported, the statement lines can be accessed fr
 ## See Also  
  [CODA Bank Statements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/coda-bank-statements.md)   
  [How to: Set Up Bank Accounts for CODA](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-bank-accounts-for-coda.md)   
- [How to: Set Up IBLC\-BLWI Transaction Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-iblc-blwi-transaction-codes.md)   
+ [How to: Set Up IBLC-BLWI Transaction Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-iblc-blwi-transaction-codes.md)   
  [How to: Import CODA Statements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-import-coda-statements.md)   
  [How to: Create Financial Journals](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-create-financial-journals.md)   
  [How to: Automatically Transfer and Post CODA Statements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-automatically-transfer-and-post-coda-statements.md)   

@@ -145,11 +145,11 @@ Prepayments are payments that are invoiced and posted to a sales or purchase pre
   
 3.  On the new sales order, press Enter and an order number is automatically assigned to the order.  
   
-4.  In the **Sell\-to Customer No.** field, select **20000**.  
+4.  In the **Sell-to Customer No.** field, select **20000**.  
   
 5.  Accept the overdue balance warning that is displayed.  
   
-     When you press Enter in the **Sell\-to Customer No.** field, most fields on the sales order are filled in automatically.  
+     When you press Enter in the **Sell-to Customer No.** field, most fields on the sales order are filled in automatically.  
   
 6.  Fill in two sales lines with the following information.  
   
@@ -239,7 +239,7 @@ Prepayments are payments that are invoiced and posted to a sales or purchase pre
   
 3.  On the **Home** tab, in the **Process** group, choose **Apply Entries**.  
   
-4.  In the **Apply Customer Entries** window, select the first prepayment invoice, and then, on the **Home** tab, in the **Process** group, choose **Set Applies\-to ID**.  
+4.  In the **Apply Customer Entries** window, select the first prepayment invoice, and then, on the **Home** tab, in the **Process** group, choose **Set Applies-to ID**.  
   
 5.  Repeat the previous step for the second prepayment.  
   

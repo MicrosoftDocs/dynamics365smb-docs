@@ -18,7 +18,7 @@
 # Design Details: Assembly Order Posting
 Assembly order posting is based on the same principles as when posting the similar activities of sales orders and production consumption\/output. However, the principles are combined in that assembly orders have their own posting UI, like that for sales orders, while the actual entry posting happens in the background as direct item and resource journal postings, like that for production consumption, output, and capacity.  
   
- Similarly to production order posting, the consumed components and the used resources are converted and output as the assembly item when the assembly order is posted. For more information, see [Design Details: Production Order Posting](../ApplicationDesign/design-details-production-order-posting.md). However, the cost flow for assembly orders is less complex, especially because assembly cost posting only occurs once and therefore does not generate work\-in\-process inventory.  
+ Similarly to production order posting, the consumed components and the used resources are converted and output as the assembly item when the assembly order is posted. For more information, see [Design Details: Production Order Posting](../ApplicationDesign/design-details-production-order-posting.md). However, the cost flow for assembly orders is less complex, especially because assembly cost posting only occurs once and therefore does not generate work-in-process inventory.  
   
  The following journal postings occur during assembly order posting:  
   
@@ -108,11 +108,11 @@ Assembly order posting is based on the same principles as when posting the simil
  Accordingly, only actual costs are posted to the general ledger, and no interim accounts are populated from assembly order posting. For more information, see [Design Details: Accounts in the General Ledger](../ApplicationDesign/design-details-accounts-in-the-general-ledger.md)  
   
 ## Assemble to Order  
- The item ledger entry that results from posting an assemble\-to\-order sale is fixed applied to the related item ledger entry for the assembly output. Accordingly, the cost of an assemble\-to\-order sale is derived from the assembly order that it was linked to.  
+ The item ledger entry that results from posting an assemble-to-order sale is fixed applied to the related item ledger entry for the assembly output. Accordingly, the cost of an assemble-to-order sale is derived from the assembly order that it was linked to.  
   
- Item ledger entries of type Sale that result from posting assemble\-to\-order quantities are marked with **Yes** in the **Assemble to Order** field.  
+ Item ledger entries of type Sale that result from posting assemble-to-order quantities are marked with **Yes** in the **Assemble to Order** field.  
   
- Posting sales order lines where a part is inventory quantity and another part is assemble\-to\-order quantity results in separate item ledger entries, one for the inventory quantity and one for the assemble\-to\-order quantity.  
+ Posting sales order lines where a part is inventory quantity and another part is assemble-to-order quantity results in separate item ledger entries, one for the inventory quantity and one for the assemble-to-order quantity.  
   
 ## See Also  
  [Design Details: Inventory Costing](../ApplicationDesign/design-details-inventory-costing.md)   

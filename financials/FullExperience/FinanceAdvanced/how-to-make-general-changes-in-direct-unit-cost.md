@@ -33,4 +33,4 @@ If you need to change the direct unit cost for several items, you can use the **
 5.  Choose the **OK** button.  
   
 ## See Also  
- Adjust Item Costs\-Prices
+ Adjust Item Costs-Prices

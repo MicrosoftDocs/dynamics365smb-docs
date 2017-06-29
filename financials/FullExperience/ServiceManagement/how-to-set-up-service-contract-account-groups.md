@@ -26,7 +26,7 @@ You can use the **Service Contract Account Groups** window to set up service con
   
 3.  Fill in the **Code** and **Description** fields. These fields describe the service account group.  
   
-4.  Fill in the **Non\-Prepaid Contract Acc.** field. This field contains the general ledger account number for the non\-prepaid account.  
+4.  Fill in the **Non-Prepaid Contract Acc.** field. This field contains the general ledger account number for the non-prepaid account.  
   
 5.  Fill in the **Prepaid Contract Acc.** field. This field contains the general ledger account number for the prepaid account.  
   

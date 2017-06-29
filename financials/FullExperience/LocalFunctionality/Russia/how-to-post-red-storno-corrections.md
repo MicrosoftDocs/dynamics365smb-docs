@@ -38,10 +38,10 @@ You can set up inventory to use the same column for original and corrective post
     |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Entry Type**|Select the same entry type as the original posting.|  
-    |**Quantity**|Enter the quantity with the opposite sign of the original posting, such as **\-4**.|  
+    |**Quantity**|Enter the quantity with the opposite sign of the original posting, such as **-4**.|  
     |**Red Storno**|Select to post as a corrective posting.|  
   
-     You must also select the appropriate entries in the **Applies\-to Entry** or **Applies\-from Entry** fields.  
+     You must also select the appropriate entries in the **Applies-to Entry** or **Applies-from Entry** fields.  
   
 3.  Post the journal.  
   
@@ -61,7 +61,7 @@ You can set up inventory to use the same column for original and corrective post
   
 5.  Make the needed changes to quantity and amounts.  
   
-     You must also select the appropriate entries in the **Applies\-to Entry** or **Applies\-from Entry** fields. These fields identify the incorrectly posted document.  
+     You must also select the appropriate entries in the **Applies-to Entry** or **Applies-from Entry** fields. These fields identify the incorrectly posted document.  
   
 6.  Post the document.  
   
@@ -75,8 +75,8 @@ You can set up inventory to use the same column for original and corrective post
   
     |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
-    |**Applies\-to Entry**|Specifies the item entry that you want to revalue or reclassify.|  
-    |**Applies\-from Entry**|Specifies the item entry that you want to revalue or reclassify.|  
+    |**Applies-to Entry**|Specifies the item entry that you want to revalue or reclassify.|  
+    |**Applies-from Entry**|Specifies the item entry that you want to revalue or reclassify.|  
     |**Red Storno**|Select to post as a corrective posting.|  
   
 3.  Post the document.  

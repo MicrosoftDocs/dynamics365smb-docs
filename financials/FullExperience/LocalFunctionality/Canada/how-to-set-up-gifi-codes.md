@@ -26,7 +26,7 @@ The Canada Revenue Agency uses General Index of Financial Information \(GIFI\) c
   
 2.  In the **GIFI Codes** window, on the **Home** tab, choose **New**.  
   
-3.  In the **New \- GIFI Codes** window, fill in the fields as described in the following table.  
+3.  In the **New - GIFI Codes** window, fill in the fields as described in the following table.  
   
     |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  

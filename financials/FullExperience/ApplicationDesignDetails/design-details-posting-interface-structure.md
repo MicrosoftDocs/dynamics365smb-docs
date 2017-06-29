@@ -20,13 +20,13 @@ In the ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.
   
 -   RunWithCheck and RunWithoutCheck call procedure Code – generic posting interface for Gen. Jnl Line.  
   
--   CustPostApplyCustLedgEntry – post customer application, called from codeunit 226 CustEntry\-Apply Posted Entries.  
+-   CustPostApplyCustLedgEntry – post customer application, called from codeunit 226 CustEntry-Apply Posted Entries.  
   
--   VendPostApplyVendLedgEntry – post vendor application, called from codeunit 227 VendEntry\-Apply Posted Entries.  
+-   VendPostApplyVendLedgEntry – post vendor application, called from codeunit 227 VendEntry-Apply Posted Entries.  
   
--   UnapplyCustLedgEntry – post unapply of customer application, called from codeunit 226 CustEntry\-Apply Posted Entries  
+-   UnapplyCustLedgEntry – post unapply of customer application, called from codeunit 226 CustEntry-Apply Posted Entries  
   
--   UnapplyVendLedgEntry – post unapply of vendor application, called from codeunit 227 VendEntry\-Apply Posted Entries  
+-   UnapplyVendLedgEntry – post unapply of vendor application, called from codeunit 227 VendEntry-Apply Posted Entries  
   
 ## See Also  
  [Design Details: Posting Engine Structure](../ApplicationDesign/design-details-posting-engine-structure.md)

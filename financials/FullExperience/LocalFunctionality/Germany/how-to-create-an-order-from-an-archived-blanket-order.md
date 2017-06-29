@@ -26,7 +26,7 @@ You can create a new sales order or purchase order from an archived blanket orde
   
 2.  On the **Home** tab, choose **New**.  
   
-3.  On the **General** FastTab, in the **Sell\-to Customer No.** field, specify the customer.  
+3.  On the **General** FastTab, in the **Sell-to Customer No.** field, specify the customer.  
   
 4.  On the **Home** tab, in the **Process** group, choose **Copy Document**.  
   
@@ -41,4 +41,4 @@ You can create a new sales order or purchase order from an archived blanket orde
  [How to: Delete Archived Blanket Orders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-delete-archived-blanket-orders.md)   
  [How to: Track Document Lines](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-track-document-lines.md)   
  Copy Sales Document   
- [Copy Purchase Document\-duplicate](../../Purchasing/-$-b_492-copy-purchase-document-$-duplicate.md)
+ [Copy Purchase Document-duplicate](../../Purchasing/-$-b_492-copy-purchase-document-$-duplicate.md)

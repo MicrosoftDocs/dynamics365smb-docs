@@ -32,9 +32,9 @@ You use an external service provider to exchange electronic documents with your 
     |**Signup URL**|Specify the web page where you sign up for the document exchange service.|  
     |**Service URL**|Specify the address of the document exchange service, which will be called when you send and receive electronic documents.|  
     |**Login URL**|Specify the logon page for the document exchange service, which is where you enter your company’s user name and password to log on to the service.|  
-    |**Consumer Key**|Enter the 3\-legged OAuth key for the consumer key. This is provided by the document exchange service provider.|  
+    |**Consumer Key**|Enter the 3-legged OAuth key for the consumer key. This is provided by the document exchange service provider.|  
     |**Consumer Secret**|Enter the secret that protects the consumer key. This is provided by the document exchange service provider.|  
-    |**Token**|Enter the 3\-legged OAuth key for the token. This is provided by the document exchange service provider.|  
+    |**Token**|Enter the 3-legged OAuth key for the token. This is provided by the document exchange service provider.|  
     |**Token Secret**|Enter the secret that protects the token. This is provided by the document exchange service provider.|  
   
 > [!NOTE]  

@@ -18,7 +18,7 @@
 # How to: Edit and Delete Domiciliation Lines
 After you have generated domiciliation suggestions, you may want to change the domiciliations lines. For example, you may want to reassign a bank account or prevent payment for a specific customer or customer ledger entry.  
   
- After you have modified the journal lines, print the **Domiciliation Journal \- Test** report to test all journal lines.  
+ After you have modified the journal lines, print the **Domiciliation Journal - Test** report to test all journal lines.  
   
  The **Suggest Domiciliations** batch job creates domiciliation suggestions for all customers matching the specified criteria.  
   

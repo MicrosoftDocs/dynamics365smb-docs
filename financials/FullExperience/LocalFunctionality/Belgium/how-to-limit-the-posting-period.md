@@ -52,4 +52,4 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
  [Belgium Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/belgium-local-functionality.md)   
  General Ledger Setup   
  Gen. Journal Template   
- [How to: Specify Posting Periods\-duplicate](../../Finance/how-to-specify-posting-periods-duplicate.md)
+ [How to: Specify Posting Periods-duplicate](../../Finance/how-to-specify-posting-periods-duplicate.md)

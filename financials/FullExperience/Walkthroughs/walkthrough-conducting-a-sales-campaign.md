@@ -23,7 +23,7 @@ A campaign is any kind of activity that involves several contacts. An important 
  The Campaign and Segment features with their automated processes enable you to plan, organize, and keep track of your marketing activities. This will increase the chances of winning new customers and retaining existing customers.  
   
 ## About This Walkthrough  
- This walkthrough demonstrates the process for following up on a trade show and targeting potential customers \(contacts\) in a follow\-up campaign.  
+ This walkthrough demonstrates the process for following up on a trade show and targeting potential customers \(contacts\) in a follow-up campaign.  
   
  The walkthrough introduces the campaign and segment management feature in the Sales & Marketing department. This walkthrough illustrates the following tasks:  
   
@@ -160,7 +160,7 @@ A campaign is any kind of activity that involves several contacts. An important 
   
 8.  Choose the **Send Attachments** check box to have the attachments printed.  
   
-     Choose the **Create Follow\-up Segment** check box.  
+     Choose the **Create Follow-up Segment** check box.  
   
      Choose the **OK** button to start the **Log Segment** batch job.  
   
@@ -178,7 +178,7 @@ A campaign is any kind of activity that involves several contacts. An important 
   
 2.  In the **Subject \(Default\)** field, enter the following example text: **Thank you for visiting the trade show**.  
   
-3.  In the **Correspondence Type** field, choose **E\-Mail**.  
+3.  In the **Correspondence Type** field, choose **E-Mail**.  
   
 4.  Specify language settings, as in the previous procedure.  
   
@@ -186,7 +186,7 @@ A campaign is any kind of activity that involves several contacts. An important 
   
 6.  Choose the **Send Attachments** check box to have the attachments sent by email.  
   
-7.  Choose the **Create Follow\-up Segment** check box.  
+7.  Choose the **Create Follow-up Segment** check box.  
   
 8.  Choose the **OK** button.  
   

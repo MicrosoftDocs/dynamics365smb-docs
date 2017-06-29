@@ -16,13 +16,13 @@
 
     ---
 # How to: Print Non-Invoiced Stock Reports
-You can use the following reports for month\-end reconciliation and auditing:  
+You can use the following reports for month-end reconciliation and auditing:  
   
 -   **Stock Received not Invoiced** – Displays stock that has been received, but not yet invoiced.  
   
 -   **Stock Shipped not Invoiced** – Displays stock that has been shipped, but not yet invoiced.  
   
-### To print non\-invoiced stock reports  
+### To print non-invoiced stock reports  
   
 1.  In the **Search** box, enter **Stock Received not Invoiced** or **Stock Shipped not Invoiced**, and then choose the related link.  
   

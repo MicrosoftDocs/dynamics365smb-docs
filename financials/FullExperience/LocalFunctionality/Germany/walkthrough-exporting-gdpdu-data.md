@@ -16,7 +16,7 @@
 
     ---
 # Walkthrough: Exporting GDPdU Data
-You can export business data for auditing purposes. How the data export is set up is different for all companies, and you should ask your tax advisor and the tax auditor. The following walkthrough describes the end\-to\-end process, but it is an example only.  
+You can export business data for auditing purposes. How the data export is set up is different for all companies, and you should ask your tax advisor and the tax auditor. The following walkthrough describes the end-to-end process, but it is an example only.  
   
  The sample implementation illustrates a scenario where the auditor has requested that you export data from your general ledger, and information about your customers and vendors. This is not an example that is based on actual requirements from a tax auditor, but it serves to illustrate how to export data according to the process for data access and testability of digital documents \(GDPdU\) in ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->.  
   
@@ -34,7 +34,7 @@ You can export business data for auditing purposes. How the data export is set u
   
 -   The German version of ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> with the ADD INCLUDE<!--[!INCLUDE[demo](../../ApplicationDesign/includes/demo_md.md)]--> AG installed. For more information, see [Demo Option](../Topic/Demo%20Option.md).  
   
--   The .DTD file that is required according to the GDPdU. In this scenario, **gdpdu\-01\-08\-2002.dtd**.  
+-   The .DTD file that is required according to the GDPdU. In this scenario, **gdpdu-01-08-2002.dtd**.  
   
 ## Story  
  Cassie is an accountant at ADD INCLUDE<!--[!INCLUDE[demo](../../ApplicationDesign/includes/demo_md.md)]--> AG. She has been notified by the company’s tax auditor that they want to see a list of purchase and sales transactions in the first quarter of the calendar year 2013. Cassie knows the type of financial data that the auditor wants, but she needs the help of Sean to set up the export.  
@@ -54,10 +54,10 @@ You can export business data for auditing purposes. How the data export is set u
   
     |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
-    |**Code**|The unique code for the data export, **AUDIT\-Q113**.|  
+    |**Code**|The unique code for the data export, **AUDIT-Q113**.|  
     |**Description**|The description for the data export, **Data export for Q1 of CY 2013**.|  
   
-     The **AUDIT\-Q113** code is a container for the data export.  
+     The **AUDIT-Q113** code is a container for the data export.  
   
      Next, Cassie adds descriptions of the kind of data that she needs in the export.  
   
@@ -119,7 +119,7 @@ You can export business data for auditing purposes. How the data export is set u
   
 #### To add a .dtd file to a record definition  
   
-1.  In the **Data Exports** window, choose the **AUDIT\-Q113** data export. On the **Home** tab, choose **Record Definitions**.  
+1.  In the **Data Exports** window, choose the **AUDIT-Q113** data export. On the **Home** tab, choose **Record Definitions**.  
   
 2.  In the **Data Export Record Definitions** window, choose the line where the **Data Export Record Type Code** field is set to **GLCUSTVEND**. On the **Home** tab, in the **DTD File** group, choose **Inport**.  
   
@@ -278,14 +278,14 @@ You can export business data for auditing purposes. How the data export is set u
   
     |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
-    |**\($ B\_11015\_N\_2\_1140000 Starting Date $\)**|The start date. In this scenario, **01\-01\-2013**.|  
-    |**\($ B\_11015\_N\_2\_1140002 Ending Date $\)**|The end date. In this scenario, **03\-31\-2013**.|  
+    |**\($ B\_11015\_N\_2\_1140000 Starting Date $\)**|The start date. In this scenario, **01-01-2013**.|  
+    |**\($ B\_11015\_N\_2\_1140002 Ending Date $\)**|The end date. In this scenario, **03-31-2013**.|  
   
 3.  On the **GDPdU Record Definition** FastTab, select filters as described in the following table.  
   
     |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
-    |**Data Export Code**|In this scenario, **AUDIT\-Q113**.|  
+    |**Data Export Code**|In this scenario, **AUDIT-Q113**.|  
     |**Data Exp. Rec. Type Code**|In this scenario, **GLCUSTVEND**.|  
   
 4.  To export the data, choose the **OK** button.  

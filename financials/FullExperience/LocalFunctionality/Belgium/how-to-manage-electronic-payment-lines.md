@@ -26,7 +26,7 @@ You can have ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/n
   
 3.  Select a journal line and enter the information as needed.  
   
-     \- or \-  
+     - or -  
   
      To delete the selected line, on the **Home** tab, in the **Manage** group, choose **Delete**.  
   

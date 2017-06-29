@@ -62,7 +62,7 @@ A work center calendar specifies the working days and hours, shifts, holidays, a
     Tuesday 07:00 15:00 1  
     Tuesday 15:00 23:00 2  
   
-     Any week days that you do not define in the shop calendar, such as Saturday and Sunday, are considered non\-working days and will have zero available capacity in a work center calendar.  
+     Any week days that you do not define in the shop calendar, such as Saturday and Sunday, are considered non-working days and will have zero available capacity in a work center calendar.  
   
      When all the working days of a week are defined, you can close the **Shop Calendar Working Days** window and proceed to enter holidays.  
   

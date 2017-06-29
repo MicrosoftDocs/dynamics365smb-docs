@@ -18,7 +18,7 @@
 # Swiss Inventory Management
 ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> includes Swiss enhancements to inventory management. This includes the following:  
   
--   Detailed reporting.  For more information, see the Inventory \- Sales Statistics report and the Inventory \- List report.  
+-   Detailed reporting.  For more information, see the Inventory - Sales Statistics report and the Inventory - List report.  
   
 -   The ability to track an invoice with multiple shipments.  
   
@@ -29,7 +29,7 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]
   
  You can provide an item description with up to 50 characters, and a tariff number with up to 15 characters. For more information, see the Item Card window.  
   
- Additional information, such as customer number, ship\-to address code, and customer sales person code, is stored in item ledger entries. This information helps you to create customized reporting criteria, such as revenue per customer, and item or sales provisions for sales people. For more information, see the Item Ledger Entry table.  
+ Additional information, such as customer number, ship-to address code, and customer sales person code, is stored in item ledger entries. This information helps you to create customized reporting criteria, such as revenue per customer, and item or sales provisions for sales people. For more information, see the Item Ledger Entry table.  
   
 ### Invoices with Multiple Shipments  
  If multiple shipments have been posted for a customer, then you can create a combined invoice with the **Get Shipment Lines** function. For more information, see the Get Shipment Lines window. When you use this function, the text created on the invoice lines includes information about the shipment number and the shipment date. For example, the text could appear as Shipment No. 102040 of 25.01.01. This allows you to easily track invoices with multiple shipments.  
@@ -40,8 +40,8 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]
  [How to: Copy Existing Items to New Items](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-copy-existing-items-to-new-items.md)   
  [How to: Deactivate Item Cost Tracking](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-deactivate-item-cost-tracking.md)   
  [Switzerland Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/switzerland-local-functionality.md)   
- Inventory \- Sales Statistics   
- Inventory \- List   
+ Inventory - Sales Statistics   
+ Inventory - List   
  Item Card   
  Item   
  Item Ledger Entry   

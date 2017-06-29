@@ -20,7 +20,7 @@ In addition to the general balancing of supply and demand, the planning system m
   
  A reorder point represents demand during lead time. When the projected inventory passes below the inventory level defined by the reorder point, it is time to order more quantity. Meanwhile, the inventory is expected to decrease gradually and possibly reach zero \(or the safety stock level\), until the replenishment arrives.  
   
- Accordingly, the planning system will suggest a forward\-scheduled supply order at the point when the projected inventory passes below the reorder point.  
+ Accordingly, the planning system will suggest a forward-scheduled supply order at the point when the projected inventory passes below the reorder point.  
   
  The reorder point reflects a certain inventory level. However, inventory levels can move significantly during the time bucket and, therefore, the planning system must constantly monitor the projected available inventory.  
   

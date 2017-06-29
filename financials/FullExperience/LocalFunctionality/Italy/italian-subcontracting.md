@@ -25,5 +25,5 @@ Companies contracted for production often outsource the production of components
   
 ## See Also  
  [How to: Calculate and Post Job Completion Entries](../../Jobs/how-to-calculate-and-post-job-completion-entries.md)   
- WIP\-Total   
+ WIP-Total   
  [Italy Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/italy-local-functionality.md)

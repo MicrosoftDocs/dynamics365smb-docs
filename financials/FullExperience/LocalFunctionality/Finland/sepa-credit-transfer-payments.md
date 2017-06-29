@@ -22,7 +22,7 @@ ADD INCLUDE<!--[!INCLUDE[nav_current_short](../../BusinessFunctionality/Integrat
  [Finland Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Finland/finland-local-functionality.md)   
  Export SEPA Payment File   
  Bank Payments to send   
- Countries\-Regions   
+ Countries-Regions   
  Suggest Bank Payments   
  Vendor Bank Account Card   
  [How to: Set Up Bank Reference Files](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Finland/how-to-set-up-bank-reference-files.md)

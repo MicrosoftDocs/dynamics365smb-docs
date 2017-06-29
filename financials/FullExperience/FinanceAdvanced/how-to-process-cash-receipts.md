@@ -40,10 +40,10 @@ Cash receipts or deposits are registered using a cash receipt journal. A cash re
   
     |**Posting option**|**Process**|  
     |------------------------|-----------------|  
-    |To record a full invoice payment.|In the **Applies\-to Doc. No.** field, select the line to which payment should be applied.|  
-    |To record a partial invoice payment.|1.  In the **Amount** field, enter the amount you wish to apply as a negative number.<br />2.  In the **Applies\-to Doc. No.** field, select the line, and choose the **OK** button.|  
-    |If you are recording full payment for multiple invoices.|1.  On the **Actions** tab, in the **Functions** group, choose **Apply Entries**.<br />2.  For each line to which the payment is to be applied, select the line, and on the **Navigate** tab, in the **Application** group, choose **Set Applies\-to ID**.<br />3.  When you have finished all the lines, choose the **OK** button.|  
-    |If you are recording a partial payment for multiple invoices.|1.  On the **Actions** tab, in the **Functions** group, choose **Apply Entries**.<br />2.  On each line to which the payment is to be applied, on the **Navigate** tab, in the **Application** group, choose **Set Applies\-to ID**.<br />3.  Enter a value in the **Amount to Apply** field. Enter the partial amount as a positive number, and then choose the **OK** button.|  
+    |To record a full invoice payment.|In the **Applies-to Doc. No.** field, select the line to which payment should be applied.|  
+    |To record a partial invoice payment.|1.  In the **Amount** field, enter the amount you wish to apply as a negative number.<br />2.  In the **Applies-to Doc. No.** field, select the line, and choose the **OK** button.|  
+    |If you are recording full payment for multiple invoices.|1.  On the **Actions** tab, in the **Functions** group, choose **Apply Entries**.<br />2.  For each line to which the payment is to be applied, select the line, and on the **Navigate** tab, in the **Application** group, choose **Set Applies-to ID**.<br />3.  When you have finished all the lines, choose the **OK** button.|  
+    |If you are recording a partial payment for multiple invoices.|1.  On the **Actions** tab, in the **Functions** group, choose **Apply Entries**.<br />2.  On each line to which the payment is to be applied, on the **Navigate** tab, in the **Application** group, choose **Set Applies-to ID**.<br />3.  Enter a value in the **Amount to Apply** field. Enter the partial amount as a positive number, and then choose the **OK** button.|  
   
 10. In the **Balancing Account Type** field, select **G\/L Account** for cash payments, and **Bank Account** for other payments.  
   

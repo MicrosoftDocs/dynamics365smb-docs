@@ -35,7 +35,7 @@ The main purpose of cost adjustment is to forward cost changes from cost sources
  Inventory costs must be adjusted before the related value entries can be reconciled with the general ledger. For more information, see [Design Details: Reconciliation with the General Ledger](../ApplicationDesign/design-details-reconciliation-with-the-general-ledger.md).  
   
 ## Detecting the Adjustment  
- The task of detecting if cost adjustment should occur is primarily performed by the Item Jnl.\-Post Line routine, while the task of calculating and generating cost adjustment entries is performed by the **Adjust Cost – Item Entries** batch job.  
+ The task of detecting if cost adjustment should occur is primarily performed by the Item Jnl.-Post Line routine, while the task of calculating and generating cost adjustment entries is performed by the **Adjust Cost – Item Entries** batch job.  
   
  To be able to forward costs, the detection mechanism determines which sources have changed in costs and to which destination these costs should be forwarded. The following three detection functions exist in ADD INCLUDE<!--[!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)]-->:  
   
@@ -75,33 +75,33 @@ The main purpose of cost adjustment is to forward cost changes from cost sources
 ## Manual versus Automatic Cost Adjustment  
  Cost adjustment can be performed in two ways:  
   
--   Manually, by running the **Adjust Cost \- Item Entries** batch job. You can run this batch job either for all items or for only certain items or item categories. This batch job runs a cost adjustment for the items in inventory for which an inbound transaction has been made, such as a purchase. For items that use the average costing method, the batch job also makes an adjustment if any outbound transactions are created.  
+-   Manually, by running the **Adjust Cost - Item Entries** batch job. You can run this batch job either for all items or for only certain items or item categories. This batch job runs a cost adjustment for the items in inventory for which an inbound transaction has been made, such as a purchase. For items that use the average costing method, the batch job also makes an adjustment if any outbound transactions are created.  
   
 -   Automatically, by adjusting costs every time that you post an inventory transaction, and when you finish a production order. The cost adjustment is only run for the specific item or items affected by the posting. This is set up when you select the **Automatic Cost Adjustment** check box in the **Inventory Setup** window.  
   
  It is good practice to run the cost adjustment automatically when you post because unit costs are more frequently updated and therefore more accurate. The disadvantage is that the performance of the database can be affected by running the cost adjustment so often.  
   
- Because it is important to keep the unit cost of an item up to date, it is recommend that you run the **Adjust Cost \- Item Entries** batch job as often as possible, during nonworking hours. Alternatively, use automatic cost adjustment. This ensures that the unit cost is updated for items daily.  
+ Because it is important to keep the unit cost of an item up to date, it is recommend that you run the **Adjust Cost - Item Entries** batch job as often as possible, during nonworking hours. Alternatively, use automatic cost adjustment. This ensures that the unit cost is updated for items daily.  
   
  Regardless if you run the cost adjustment manually or automatically, the adjustment process and its consequences are the same. ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> calculates the value of the inbound transaction and forwards that cost to any outbound transactions, such as sales or consumptions, which have been applied to the inbound transaction. The cost adjustment creates value entries that contain adjustment amounts and amounts that compensate for rounding.  
   
  The new adjustment and rounding value entries have the posting date of the related invoice. Exceptions are if the value entries fall in a closed accounting period or inventory period or if the posting date is earlier than the date in the **Allow Posting From** field in the **General Ledger Setup** window. If this occurs, the batch job assigns the posting date as the first date of the next open period.  
   
-## Adjust Cost \- Item Entries Batch Job  
- When you run the **Adjust Cost \- Item Entries** batch job, you have the option to run the batch job for all items or for only certain items or categories.  
+## Adjust Cost - Item Entries Batch Job  
+ When you run the **Adjust Cost - Item Entries** batch job, you have the option to run the batch job for all items or for only certain items or categories.  
   
 > [!NOTE]  
 >  We recommend that you always run the batch job for all items and only use the filtering option to reduce the runtime of the batch job, or to fix the cost of a certain item.  
   
 ### Example  
- The following example shows if you post a purchased item as received and invoiced on 01\-01\-20. You later post the sold item as shipped and invoiced on 01\-15\-20. Then, you run the **Adjust Cost \- Item Entries** and **Post Inventory Cost to G\/L** batch jobs. The following entries are created.  
+ The following example shows if you post a purchased item as received and invoiced on 01-01-20. You later post the sold item as shipped and invoiced on 01-15-20. Then, you run the **Adjust Cost - Item Entries** and **Post Inventory Cost to G\/L** batch jobs. The following entries are created.  
   
  **Value Entries**  
   
 |Posting Date|Item Ledger Entry Type|Cost Amount \(Actual\)|Cost Posted to G\/L|Invoiced Quantity|Entry No.|  
 |------------------|----------------------------|----------------------------|-------------------------|-----------------------|---------------|  
-|01\-01\-20|Purchase|10.00|10.00|1|1|  
-|01\-15\-20|Sale|\-10.00|\-10.00|\-1|2|  
+|01-01-20|Purchase|10.00|10.00|1|1|  
+|01-15-20|Sale|-10.00|-10.00|-1|2|  
   
  **Relation Entries in the G\/L – Item Ledger Relation Table**  
   
@@ -114,21 +114,21 @@ The main purpose of cost adjustment is to forward cost changes from cost sources
   
  **General Ledger Entries**  
   
-|Posting Date|G\/L Account|Account No. \(En\-US Demo\)|Amount|Entry No.|  
+|Posting Date|G\/L Account|Account No. \(En-US Demo\)|Amount|Entry No.|  
 |------------------|------------------|---------------------------------|------------|---------------|  
-|01\-01\-20|\[Inventory Account\]|2130|10.00|1|  
-|01\-01\-20|\[Direct Cost Applied Account\]|7291|\-10.00|2|  
-|01\-15\-20|\[Inventory Account\]|2130|\-10.00|3|  
-|01\-15\-20|\[COGS Account\]|7290|10.00|4|  
+|01-01-20|\[Inventory Account\]|2130|10.00|1|  
+|01-01-20|\[Direct Cost Applied Account\]|7291|-10.00|2|  
+|01-15-20|\[Inventory Account\]|2130|-10.00|3|  
+|01-15-20|\[COGS Account\]|7290|10.00|4|  
   
- Later, you post a related purchase item charge for 2.00 LCY invoiced on 02\-10\-20. You run the **Adjust Cost \- Item Entries** batch job and then run the **Post Inventory Cost to G\/L** batch job. The cost adjustment batch job adjusts the cost of the sale by \-2.00 LCY accordingly, and the **Post Inventory Cost to G\/L** batch job posts the new value entries to the general ledger. The result is as follows.  
+ Later, you post a related purchase item charge for 2.00 LCY invoiced on 02-10-20. You run the **Adjust Cost - Item Entries** batch job and then run the **Post Inventory Cost to G\/L** batch job. The cost adjustment batch job adjusts the cost of the sale by -2.00 LCY accordingly, and the **Post Inventory Cost to G\/L** batch job posts the new value entries to the general ledger. The result is as follows.  
   
  **Value Entries**  
   
 |Posting Date|Item Ledger Entry Type|Cost Amount \(Actual\)|Cost Posted to G\/L|Invoiced Quantity|Adjustment|Entry No.|  
 |------------------|----------------------------|----------------------------|-------------------------|-----------------------|----------------|---------------|  
-|02\-10\-20|Purchase|2.00|2.00|0|No|3|  
-|01\-15\-20|Sale|\-2.00|\-2.00|0|Yes|4|  
+|02-10-20|Purchase|2.00|2.00|0|No|3|  
+|01-15-20|Sale|-2.00|-2.00|0|Yes|4|  
   
  **Relation Entries in the G\/L – Item Ledger Relation Table**  
   
@@ -141,12 +141,12 @@ The main purpose of cost adjustment is to forward cost changes from cost sources
   
  **General Ledger Entries**  
   
-|Posting Date|G\/L Account|Account No. \(En\-US Demo\)||Amount|Entry No.|  
+|Posting Date|G\/L Account|Account No. \(En-US Demo\)||Amount|Entry No.|  
 |------------------|------------------|---------------------------------|-|------------|---------------|  
-|02\-10\-20|\[Inventory Account\]|2130||2.00|5|  
-|02\-10\-20|\[Direct Cost Applied Account\]|7291||\-2.00|6|  
-|01\-15\-20|\[Inventory Account\]|2130||\-2.00|7|  
-|01\-15\-20|\[COGS Account\]|7290||2.00|8|  
+|02-10-20|\[Inventory Account\]|2130||2.00|5|  
+|02-10-20|\[Direct Cost Applied Account\]|7291||-2.00|6|  
+|01-15-20|\[Inventory Account\]|2130||-2.00|7|  
+|01-15-20|\[COGS Account\]|7290||2.00|8|  
   
 ## Automatic Cost Adjustment  
  To set up cost adjustment to run automatically when you post an inventory transaction, use the **Automatic Cost Adjustment** field in the **Inventory Setup** window. This field enables you to select how far back in time from the current work date that you want automatic cost adjustment to be performed. The following options exist.  
@@ -174,7 +174,7 @@ The main purpose of cost adjustment is to forward cost changes from cost sources
   
  If you have set up the automatic cost adjustment to apply to postings that occur within a month or a quarter from the current work date, then the automatic cost adjustment runs and forwards the cost of the purchase to the sale.  
   
- If you have set up the automatic cost adjustment to apply to postings that occur within a day or a week from the current work date, then the automatic cost adjustment does not run, and the cost of the purchase is not forwarded to the sale until you run the **Adjust Cost \- Item Entries** batch job.  
+ If you have set up the automatic cost adjustment to apply to postings that occur within a day or a week from the current work date, then the automatic cost adjustment does not run, and the cost of the purchase is not forwarded to the sale until you run the **Adjust Cost - Item Entries** batch job.  
   
 ## See Also  
  [Design Details: Inventory Costing](../ApplicationDesign/design-details-inventory-costing.md)   

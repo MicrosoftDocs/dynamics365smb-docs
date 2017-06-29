@@ -45,7 +45,7 @@ The generic version of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../ApplicationDesign/in
      The sales invoice is posted and sent to the customer as an electronic document in the PEPPOL format.  
   
     > [!NOTE]  
-    >  You can also send a posted sales invoice as an electronic document. The procedure is the same as described in this topic for non\-posted sales documents. In the **Posted Sales Invoice** window, on the **Actions** tab, in the **General** group, choose **Activity Log** to view the status of the electronic document. For more information, see **Activity Log**.  
+    >  You can also send a posted sales invoice as an electronic document. The procedure is the same as described in this topic for non-posted sales documents. In the **Posted Sales Invoice** window, on the **Actions** tab, in the **General** group, choose **Activity Log** to view the status of the electronic document. For more information, see **Activity Log**.  
   
 ## See Also  
  [Invoice Sales Activities](../Finance/invoice-sales-activities.md)   

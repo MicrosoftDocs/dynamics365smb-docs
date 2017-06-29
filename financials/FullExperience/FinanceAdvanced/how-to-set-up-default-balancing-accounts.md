@@ -33,7 +33,7 @@ You can set up a default balancing account for each journal batch and have ADD I
  If you want to use a balancing account different from the default account, you can manually change the balancing account type and balancing account number on the journal line.  
   
 ## See Also  
- [How to: Enter VAT\-liable Amounts Without VAT in General Journals](../Finance/how-to-enter-vat-liable-amounts-without-vat-in-general-journals.md)   
+ [How to: Enter VAT-liable Amounts Without VAT in General Journals](../Finance/how-to-enter-vat-liable-amounts-without-vat-in-general-journals.md)   
  [How to: Fill In Recurring Journals](../Finance/how-to-fill-in-recurring-journals.md)   
  [How to: Fill and Post General Journals](../Finance/how-to-fill-and-post-general-journals.md)   
  [How to: Set Up Multiple Journal Batches](../Finance/how-to-set-up-multiple-journal-batches.md)

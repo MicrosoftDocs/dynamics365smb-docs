@@ -46,11 +46,11 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
     ---------------------------------|---------------------------------------|  
     |**Contact for Tax Office**|The contact person for the tax office in your organization.|  
     |**Contact Phone No.**|The contact person's telephone number.|  
-    |**Contact E\-Mail**|The contact person's email address.|  
+    |**Contact E-Mail**|The contact person's email address.|  
   
-5.  On the **Actions** tab, in the **Functions** group, choose **Create XML\-File**.  
+5.  On the **Actions** tab, in the **Functions** group, choose **Create XML-File**.  
   
-6.  In the **Create Sales VAT Adv. Notif.** batch job, on the **Options** FastTab, in the **XML\-File** field, select **Create** or **Create and Show**.  
+6.  In the **Create Sales VAT Adv. Notif.** batch job, on the **Options** FastTab, in the **XML-File** field, select **Create** or **Create and Show**.  
   
 7.  Choose the **OK** button.  
   
@@ -58,7 +58,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
   
 1.  In the **Sales VAT Advance Notification List** window, select the document that you want to submit to ELSTER.  
   
-2.  On the **Actions** tab, in the **Functions** group, choose **Transmit XML\-File**.  
+2.  On the **Actions** tab, in the **Functions** group, choose **Transmit XML-File**.  
   
      The XML file is transmitted to ELSTER.  
   
@@ -68,4 +68,4 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
  VAT Statement   
  Sales VAT Adv. Notif. Card   
  Sales VAT Advance Notification   
- Create XML\-File VAT Adv. Notif.
+ Create XML-File VAT Adv. Notif.

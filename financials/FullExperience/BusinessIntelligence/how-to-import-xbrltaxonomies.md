@@ -39,6 +39,6 @@ The first step in working with the XBRL functionality is to import the taxonomy 
   
 ## See Also  
  [How to: Set Up XBRL Lines](../BusinessIntelligence/how-to-set-up-xbrl-lines.md)   
- XBRL Export Instance \- Spec. 2   
+ XBRL Export Instance - Spec. 2   
  [How to: Update XBRL Taxonomies](../BusinessIntelligence/how-to-update-xbrl-taxonomies.md)   
  [eXtensible Business Reporting Language](../BusinessIntelligence/extensible-business-reporting-language.md)

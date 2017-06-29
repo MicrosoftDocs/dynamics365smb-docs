@@ -52,5 +52,5 @@ Banks provide electronic bank statements for all your financial interactions. Yo
  Import Protocol   
  Reconciliation Status Field   
  CBG Statement Line Table   
- Bank\-Giro Journal Window   
+ Bank-Giro Journal Window   
  [How to: Match Bank Statement Lines with Bank Account Ledger Entries](../../Finance/how-to-match-bank-statement-lines-with-bank-account-ledger-entries.md)

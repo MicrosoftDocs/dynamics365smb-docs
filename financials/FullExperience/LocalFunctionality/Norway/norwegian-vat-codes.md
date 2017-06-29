@@ -20,14 +20,14 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
   
 |**Code**|**ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->**|  
 |--------------|-------------------------------------------|  
-|**0**|Sale \- No VAT|  
-|**1**|Purchase \- VAT|  
-|**2**|Purchase \- VAT and Inv. Tax|  
-|**3**|Sale \- VAT|  
-|**4**|Purchase \- VAT and 0% Inv. Tax|  
-|**11**|Purchase \- Full VAT|  
-|**13**|Sale \- Full VAT|  
-|**14**|Purchase \- Reverse Charge VAT|  
+|**0**|Sale - No VAT|  
+|**1**|Purchase - VAT|  
+|**2**|Purchase - VAT and Inv. Tax|  
+|**3**|Sale - VAT|  
+|**4**|Purchase - VAT and 0% Inv. Tax|  
+|**11**|Purchase - Full VAT|  
+|**13**|Sale - Full VAT|  
+|**14**|Purchase - Reverse Charge VAT|  
   
  Typically, you enter the **VAT Bus. Posting Group** and **VAT Prod. Posting Group** fields when you specify the VAT handling process.  
   

@@ -19,7 +19,7 @@
 Because the VAT rate change tool cannot convert service contracts, these contracts must be converted manually. This topic describes several alternative methods that you can use for service contract conversion.  
   
 > [!NOTE]  
->  This topic provides a high\-level workflow.  
+>  This topic provides a high-level workflow.  
   
  The following procedure describes how to correct an invoice for a prepaid service contact that has been created a year in advance.  
   

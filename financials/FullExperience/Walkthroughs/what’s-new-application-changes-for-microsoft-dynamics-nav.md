@@ -20,7 +20,7 @@ When product defects occur, the errors must be identified and affected items mus
   
  The first task of defects management is to investigate where the defective items came from and where they were used. This investigation is based on historic data and is made easier by searching through item tracking entries using the **Item Tracing** window.  
   
- The second task of defects management is to determine whether the traced items are planned for in open documents, such as non\-posted sales orders or consumption journals. This work is performed in the **Navigate** window. You can use the Navigate feature to search all kinds of database records.  
+ The second task of defects management is to determine whether the traced items are planned for in open documents, such as non-posted sales orders or consumption journals. This work is performed in the **Navigate** window. You can use the Navigate feature to search all kinds of database records.  
   
 ## About This Walkthrough  
  This walkthrough demonstrates how to identify which items are defective, which vendor supplied them, and where they are used so that those orders can be stopped or recalled.  
@@ -62,14 +62,14 @@ When product defects occur, the errors must be identified and affected items mus
   
  The results of this first item tracking task identify which racing frames were defective and which vendor supplied them. Afterward, but in the same overall tracking process, the quality controller must find all the sold racing bikes that contain racing frames from the faulty lot so that those orders can be stopped or recalled. Lastly, the quality controller must find any open documents where the faulty lot is used so that no additional transactions are made.  
   
- The first two defects\-management tasks are performed in the **Item Tracing** window. The last task is performed in the **Navigate** window in integration with the **Item Tracing** window.  
+ The first two defects-management tasks are performed in the **Item Tracing** window. The last task is performed in the **Navigate** window in integration with the **Item Tracing** window.  
   
 ## Prepare Sample Data  
  You must create the following new items:  
   
--   2000, Racing Frame: lot\-specific tracking, component of 1002  
+-   2000, Racing Frame: lot-specific tracking, component of 1002  
   
--   1002, Racing Bike: serial number\-specific tracking  
+-   1002, Racing Bike: serial number-specific tracking  
   
  Then you must create various purchase, production, and sales transactions with the two items.  
   
@@ -280,7 +280,7 @@ When product defects occur, the errors must be identified and affected items mus
   
 2.  In the **Item Tracing** window, enter **SN1** in the **Serial No. Filter** field, and then enter **1002** in the **Item Filter** field.  
   
-3.  Keep the default setting of **Item\-Tracked Only** in the **Show Components** field, and keep the default trace method of **Usage – Origin** in the **Trace Method**.  
+3.  Keep the default setting of **Item-Tracked Only** in the **Show Components** field, and keep the default trace method of **Usage – Origin** in the **Trace Method**.  
   
 4.  On the **Actions**  tab, in the **General** group, choose **Trace**.  
   
@@ -305,18 +305,18 @@ When product defects occur, the errors must be identified and affected items mus
     > [!NOTE]  
     >  Do not make any additional modifications to the trace result, as you will use it in the next section.  
   
-     This completes the first defects\-management task using the **Item Tracing** window. The quality controller must now determine whether other posted documents have processed racing frames from LOT1.  
+     This completes the first defects-management task using the **Item Tracing** window. The quality controller must now determine whether other posted documents have processed racing frames from LOT1.  
   
 ## Tracing from Origin to Usage  
  The quality controller has established that the faulty racing frames came from LOT1. He must now find any other racing bikes that contain racing frames from the faulty lot so that those bikes can be stopped or recalled.  
   
- One way to prepare this trace task in the **Item Tracing** window is to manually enter LOT1 in the **Lot No. Filter** field and 2000 in the **Item Filter** field. However, this walkthrough will use the **Trace Opposite \- from Line** function.  
+ One way to prepare this trace task in the **Item Tracing** window is to manually enter LOT1 in the **Lot No. Filter** field and 2000 in the **Item Filter** field. However, this walkthrough will use the **Trace Opposite - from Line** function.  
   
 #### To find all usage of the faulty lot  
   
 1.  In the **Item Tracing** window, select the line of the purchase receipt, the last trace line, and then, on the **Actions**  tab, in the **Functions** group, choose **Trace Opposite – from Line**.  
   
-     The trace result is now based on the filters of the trace line for the purchase receipt, LOT1 and item 2000, and the result is based on trace method **Origin \- Usage**.  
+     The trace result is now based on the filters of the trace line for the purchase receipt, LOT1 and item 2000, and the result is based on trace method **Origin - Usage**.  
   
      To obtain an overview of all usage of item 2000 with LOT1, continue to expand all trace lines.  
   
@@ -328,12 +328,12 @@ When product defects occur, the errors must be identified and affected items mus
   
      At the same time, he can see from the last three trace lines that another two items, SN3 and SN4, have been produced based on racing frames from LOT1. He takes action to block these end items in inventory.  
   
-     This completes the second defects management task using the **Item Tracing** window for defects management. Since the **Item Tracing** window is based on posted entries only, the quality controller must continue to the **Navigate** window to make sure that LOT1 is not used in non\-posted documents.  
+     This completes the second defects management task using the **Item Tracing** window for defects management. Since the **Item Tracing** window is based on posted entries only, the quality controller must continue to the **Navigate** window to make sure that LOT1 is not used in non-posted documents.  
   
 ## Finding All Records of a Serial\/Lot Number  
  With the **Item Tracing** window, the quality controller learned that LOT1 contained the faulty racing frames, which vendor supplied them, and in which posted transaction they have been used. He must now determine whether LOT1 is in any open documents by integrating from the trace result to the **Navigate** window where he can perform a search through all database records.  
   
-#### To find all occurrences of LOT1 in non\-posted records, such as open orders  
+#### To find all occurrences of LOT1 in non-posted records, such as open orders  
   
 1.  In the **Item Tracing** window, select the first trace line, the purchase receipt of LOT1.  
   
@@ -341,7 +341,7 @@ When product defects occur, the errors must be identified and affected items mus
   
      The **Navigate** window is preset with search filters based on the trace result for LOT1. The quality controller recognizes most of the records as pertaining to documents already identified in the **Item Tracing** window. For example, the last Navigate line of type Production Order refers to the two released production orders that consumed racing frames from LOT1.  
   
-     However, the second Navigate line of type **Sales Line** is a non\-posted document line, so the quality controller proceeds to investigate.  
+     However, the second Navigate line of type **Sales Line** is a non-posted document line, so the quality controller proceeds to investigate.  
   
 3.  To open the sales line record, select the second Navigate line, and then, on the **Home** tab, in the **Process** group, choose **Show**. Alternatively, choose the value in the **No. of Records** field.  
   
@@ -351,4 +351,4 @@ When product defects occur, the errors must be identified and affected items mus
   
 ## See Also  
  [Business Process Walkthroughs](../GettingStarted/business-process-walkthroughs.md)   
- [How to: Trace Item\-Tracked Items](../Receiving/how-to-trace-item-tracked-items.md)
+ [How to: Trace Item-Tracked Items](../Receiving/how-to-trace-item-tracked-items.md)

@@ -83,20 +83,20 @@ Administrators configure the user interface by customizing the user interface fo
 1.  Open a command prompt and change to the directory that contains the ADD INCLUDE<!--[!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)]--> executable. For example, type the following command:  cd ADD INCLUDE<!--[!INCLUDE[navnow_x86install](../SetupAndAdministration/includes/navnow_x86install_md.md)]-->\\RoleTailored Client  
   
     > [!NOTE]  
-    >  The top\-level directory may be **Program Files \(x86\)** or **Program Files**.  
+    >  The top-level directory may be **Program Files \(x86\)** or **Program Files**.  
   
-2.  Open the ADD INCLUDE<!--[!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)]--> in configuration mode by typing the following command: **Microsoft.Dynamics.Nav.Client.exe \-configure \-profile:"order processor"**  
+2.  Open the ADD INCLUDE<!--[!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)]--> in configuration mode by typing the following command: **Microsoft.Dynamics.Nav.Client.exe -configure -profile:"order processor"**  
   
      The ADD INCLUDE<!--[!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)]--> opens in configuration mode. The UI customization that you now perform in the **Customize** window will apply to the user interface for all users who are assigned the Order Processor profile. For more information, see [How to: Open Microsoft Dynamics NAV in Configuration Mode](../SetupAndAdministration/how-to-open-microsoft-dynamics-nav-in-configuration-mode.md).  
   
 ## Customizing the Sales Orders Ribbon for the Order Processor Profile  
- The following procedure shows how to add the **Page Notes** action to the **Process** group on the ribbon on the **Sales Orders** page. This UI customization will be visible to order processors when they access the **Sales Orders** page from the **Sales Order \- Open** tile on the **Sales Order Processor** Role Center.  
+ The following procedure shows how to add the **Page Notes** action to the **Process** group on the ribbon on the **Sales Orders** page. This UI customization will be visible to order processors when they access the **Sales Orders** page from the **Sales Order - Open** tile on the **Sales Order Processor** Role Center.  
   
 #### To add an action to the ribbon  
   
 1.  Go to the **Sales Order Processor** Role Center.  
   
-2.  Choose the **Sales Order \- Open** tile.  
+2.  Choose the **Sales Order - Open** tile.  
   
 3.  In the **Sales Orders** window, on **Application** menu ![Application Menu button in menu bar](../BusinessFunctionality/IntegratingWithMicrosoftOffice/media/applicationmenuicon.png "ApplicationMenuIcon"), choose **Customize**, and then choose **Customize Ribbon**.  
   
@@ -139,7 +139,7 @@ Administrators configure the user interface by customizing the user interface fo
   
 1.  Go to the **Sales Order Processor** Role Center.  
   
-2.  Choose the **Sales Order \- Open** tile.  
+2.  Choose the **Sales Order - Open** tile.  
   
 3.  In the **Sales Orders** window, on **Application** menu ![Application Menu button in menu bar](../BusinessFunctionality/IntegratingWithMicrosoftOffice/media/applicationmenuicon.png "ApplicationMenuIcon"), choose **Customize**, and then choose **Restore Defaults**.  
   

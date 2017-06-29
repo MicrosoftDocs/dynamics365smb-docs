@@ -28,7 +28,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
   
     |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
-    |**Insert Std. Cust. Sales Lines**|Specify the method by which to insert the standard customer sales lines.<br /><br /> -   **Manual** \- You must insert the standard sales lines that you set up for that customer. If you select this option, then you will not be able to select the **Quotes**, **Orders**, **Invoices**, or **Credit Memos** fields in the **Sales & Receivables Setup** window.<br />-   **Automatic** \- Automatically insert standard sales lines on sales documents that you create for a customer.<br />-   **Always Ask** \- Display a window with all the existing standard sales codes that you set up for the customer.|  
+    |**Insert Std. Cust. Sales Lines**|Specify the method by which to insert the standard customer sales lines.<br /><br /> -   **Manual** - You must insert the standard sales lines that you set up for that customer. If you select this option, then you will not be able to select the **Quotes**, **Orders**, **Invoices**, or **Credit Memos** fields in the **Sales & Receivables Setup** window.<br />-   **Automatic** - Automatically insert standard sales lines on sales documents that you create for a customer.<br />-   **Always Ask** - Display a window with all the existing standard sales codes that you set up for the customer.|  
     |**Quotes**|Select to insert standard sales lines on sales quotes.|  
     |**Orders**|Select to insert standard sales lines on sales orders.|  
     |**Invoices**|Select to insert standard sales lines on sales invoices.|  
@@ -38,5 +38,5 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
   
 ## See Also  
  [OBSOLETE: Standard Purchase Codes and Standard Sales Codes](../Topic/OBSOLETE:%20Standard%20Purchase%20Codes%20and%20Standard%20Sales%20Codes.md)   
- [\($ N\_459 Sales & Receivables Setup $\)\-duplicate](../../Sales/-$-n_459-sales-receivables-setup-$-duplicate.md)   
+ [\($ N\_459 Sales & Receivables Setup $\)-duplicate](../../Sales/-$-n_459-sales-receivables-setup-$-duplicate.md)   
  [\($ N\_460 Purchases & Payables Setup $\)](../../Purchasing/-$-n_460-purchases-payables-setup-$-.md)

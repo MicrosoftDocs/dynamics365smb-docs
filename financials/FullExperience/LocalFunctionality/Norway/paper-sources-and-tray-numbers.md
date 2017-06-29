@@ -30,9 +30,9 @@ When printing Norwegian sales documents, you can set up different tray numbers a
 |6|Envelope Manual Feed|  
 |7|Automatic Feed|  
 |8|Tractor Feed|  
-|9|Small\-format Feed|  
-|10|Large\-format Feed|  
-|11|Large\-capacity Feed|  
+|9|Small-format Feed|  
+|10|Large-format Feed|  
+|11|Large-capacity Feed|  
 |14|Cassette Feed|  
 |15|Automatically Select|  
 |256|Printer Specific Feed 1|  
@@ -46,8 +46,8 @@ When printing Norwegian sales documents, you can set up different tray numbers a
   
  When you use tray numbers and paper sources for Norwegian sales documents, you must consider how the printer and printer driver interpret this information. Not all printers and drivers use this numbering or naming system. You may have to specify other tray numbers for your specific printer.  
   
- If the printer supports other tray numbers, you can enter these numbers in the **First Page \- Tray Number**, **Other Pages \- Tray Number**, and **Giro Page \- Tray Number** fields in the **Printer Selection** table.  
+ If the printer supports other tray numbers, you can enter these numbers in the **First Page - Tray Number**, **Other Pages - Tray Number**, and **Giro Page - Tray Number** fields in the **Printer Selection** table.  
   
 ## See Also  
  [Norwegian Sales Documents](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/norwegian-sales-documents.md)   
- [Norwegian Giro and OCR\-B Font](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/norwegian-giro-and-ocr-b-font.md)
+ [Norwegian Giro and OCR-B Font](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/norwegian-giro-and-ocr-b-font.md)

@@ -68,7 +68,7 @@ You can create different types of VAT reports depending on the requirements of y
   
      ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> validates that the VAT report is set up correctly. If the validation fails, the errors are shown in the **VAT Report Error Log** window so that you can make the appropriate changes. For example, an error displays if you try to release a standard VAT report but you have not yet added any lines to the report.  
   
-     When you mark a VAT report as released, it becomes non\-editable. If you must change the report after marking it as released, you must first reopen it.  
+     When you mark a VAT report as released, it becomes non-editable. If you must change the report after marking it as released, you must first reopen it.  
   
 4.  On the **Home** tab, choose **Print** or choose **Export**.  
   

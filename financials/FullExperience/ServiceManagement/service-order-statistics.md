@@ -21,7 +21,7 @@ The service order statistics feature gives you a quick overview of the contents 
  The statistical data is displayed for a service order in the **Service Order Statistics** window for the relevant order. You can open the relevant statistics window from a service order. In the **Service Orders** window, on the **Home** tab, in the **Process** group, choose **Statistics**. The FastTabs in this window show information such as quantity, amount, VAT, cost, profit, and customer credit limit. The amounts in the window are in the currency of the service order, unless otherwise indicated.  
   
 ## General FastTab  
- Use this FastTab to see the totals of the service order. The data captures the total amount on the service lines, including and excluding VAT, VAT part, cost, and profit on the service lines. The FastTab also displays specific item\-related information about the items indicated on the service lines, such as weight, volume, and the quantity of parcels.  
+ Use this FastTab to see the totals of the service order. The data captures the total amount on the service lines, including and excluding VAT, VAT part, cost, and profit on the service lines. The FastTab also displays specific item-related information about the items indicated on the service lines, such as weight, volume, and the quantity of parcels.  
   
 ## Shipping FastTab  
  Use this FastTab to display information about the items, resources, or costs to be shipped. To provide the information, the values specified in the **Qty. to Ship** field are used on each service line in the order.  

@@ -26,7 +26,7 @@ This topic describes how to create a VAT combination setup.
   
 3.  On the **Actions** tab, in the **General** group, choose **Copy**.  
   
-4.  In the **Copy \- VAT Posting Setup** batch job, specify the **VAT Bus. Posting Group** and **VAT Prod. Posting Group** values of the line that you want to copy from.  
+4.  In the **Copy - VAT Posting Setup** batch job, specify the **VAT Bus. Posting Group** and **VAT Prod. Posting Group** values of the line that you want to copy from.  
   
 5.  In the **Copy** field, select one of the following values.  
   
@@ -37,7 +37,7 @@ This topic describes how to create a VAT combination setup.
   
 6.  Choose the **OK** button to copy the information.  
   
- For more information, see Copy \- VAT Posting Setup.  
+ For more information, see Copy - VAT Posting Setup.  
   
 ## See Also  
  [About Setting Up VAT](../Finance/about-setting-up-vat.md)   
@@ -48,4 +48,4 @@ This topic describes how to create a VAT combination setup.
  [How to: Set Up General Ledger Accounts for Invoice Rounding Differences](../Finance/how-to-set-up-general-ledger-accounts-for-invoice-rounding-differences.md)   
  [How to: Use Accounts for Unrealized VAT](../Finance/how-to-use-accounts-for-unrealized-vat.md)   
  VAT Posting Setup   
- Copy \- VAT Posting Setup
+ Copy - VAT Posting Setup

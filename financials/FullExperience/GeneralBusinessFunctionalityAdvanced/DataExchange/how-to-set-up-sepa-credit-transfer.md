@@ -31,9 +31,9 @@ You use an external provider of OCR services to have PDF or image files turned i
     |**Authorization Key**|Specify the authorization key that is used for your company’s login to the OCR service.|  
     |**Default OCR Document Template**|Specify the document template that must be used by default for electronic documents that are received from the OCR service. Chose the field to pick a supported document template from the **OCR Service Document Templates** window.<br /><br /> **NOTE:** To see any new document templates that the OCR service supports, choose the **Update Document Templates List** button in the **OCR Service Document Templates** window.|  
     |**Enabled**|Specify if the service is enabled.<br /><br /> **NOTE:** As soon as you enable the service, at least two job queue entries are created to process the traffic of electronic documents in and out of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)]-->. When you disable the service, the job queue entries are deleted.|  
-    |**Sign\-up URL**|Specify the Web page where you sign up for the OCR service.|  
+    |**Sign-up URL**|Specify the Web page where you sign up for the OCR service.|  
     |**Service URL**|Specify the address of the OCR service, which will be called when you send and receive files for OCR.|  
-    |**Sign\-in URL**|Specify the sign in page for the OCR service, which is where you enter your company’s user name, password, and authorization key to sign in to the service.|  
+    |**Sign-in URL**|Specify the sign in page for the OCR service, which is where you enter your company’s user name, password, and authorization key to sign in to the service.|  
   
 > [!NOTE]  
 >  It is recommended that you protect the logon information that you enter in the **OCR Service Setup** window. You can encrypt data on the Microsoft Dynamics NAV Server by generating new or importing existing encryption keys that you enable on the Microsoft Dynamics NAV Server instance that connects to the database. This is described in the following procedure.  

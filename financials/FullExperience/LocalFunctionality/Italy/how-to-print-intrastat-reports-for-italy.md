@@ -20,9 +20,9 @@ You can print monthly and quarterly Intrastat reports and submit them to the aut
   
  The following Intrastat reports are available:  
   
--   **Intrastat \- Checklist** report  
+-   **Intrastat - Checklist** report  
   
--   **Intrastat \- Form** report  
+-   **Intrastat - Form** report  
   
 ### To print quarterly or monthly reports  
   
@@ -30,7 +30,7 @@ You can print monthly and quarterly Intrastat reports and submit them to the aut
   
 2.  Select the required journal batch.  
   
-3.  To open the **Intrastat \- Monthly** report or the **Intrastat \- Quarterly** report, on the **Actions** tab, in the **Print** group, choose **Monthly Report** or choose **Quarterly Report**.  
+3.  To open the **Intrastat - Monthly** report or the **Intrastat - Quarterly** report, on the **Actions** tab, in the **Print** group, choose **Monthly Report** or choose **Quarterly Report**.  
   
 4.  On the **Intrastat Jnl. Line** FastTab, select the appropriate filters.  
   
@@ -41,9 +41,9 @@ You can print monthly and quarterly Intrastat reports and submit them to the aut
     > [!NOTE]  
     >  Before you print, you can select the path and file name. If you do not specify this information, the file will be named **scambi.cee** and will print to the root of the C drive.  
   
-### To print Intrastat \- Checklist reports  
+### To print Intrastat - Checklist reports  
   
-1.  In the **Search** box, enter **Intrastat \- Checklist**, and then choose the related link.  
+1.  In the **Search** box, enter **Intrastat - Checklist**, and then choose the related link.  
   
 2.  On the **Options** FastTab, select the **Show Intrastat Journal Lines** check box to include detailed information about the journal lines in the report.  
   
@@ -51,15 +51,15 @@ You can print monthly and quarterly Intrastat reports and submit them to the aut
   
 4.  Choose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.  
   
-### To print Intrastat \- Form reports  
+### To print Intrastat - Form reports  
   
-1.  In the **Search** box, enter **Intrastat \- Form**, and then choose the related link.  
+1.  In the **Search** box, enter **Intrastat - Form**, and then choose the related link.  
   
 2.  On the **Intrastat Jnl. Batch** and **Intrastat Jnl. Line** FastTabs, select the appropriate filters.  
   
 3.  Choose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- Intrastat \- Checklist   
- Intrastat \- Form   
+ Intrastat - Checklist   
+ Intrastat - Form   
  [How to: Set Up Journal Templates and Batches](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-set-up-journal-templates-and-batches.md)

@@ -67,4 +67,4 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
  Vendor 1099 Div   
  Vendor 1099 Misc   
  Vendor 1099 Magnetic Media   
- IRS 1099 Form\-Box
+ IRS 1099 Form-Box

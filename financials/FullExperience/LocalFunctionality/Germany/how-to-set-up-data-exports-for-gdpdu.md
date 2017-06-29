@@ -28,7 +28,7 @@ You must set up data export record sources to be able to export Grundsätze zum 
   
     |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
-    |**Code**|Specify the unique code for the data export, such as **Export\-1**.|  
+    |**Code**|Specify the unique code for the data export, such as **Export-1**.|  
     |**Description**|Specify the description for the data export.|  
   
  You must add record definitions to the data export. Each record definition represents a set of data that will be exported.  
@@ -45,7 +45,7 @@ You must set up data export record sources to be able to export Grundsätze zum 
     |**Description**|Specify the description for the record definition.|  
     |**Export Path**|Specify the path where the exported files will be stored.|  
   
-     Next, you must add the relevant .dtd file that is required according to the GDPdU, such as **gdpdu\-01\-08\-2002.dtd**. If you must import a new DTD file to replace an existing file, you must first export the existing DTD file.  
+     Next, you must add the relevant .dtd file that is required according to the GDPdU, such as **gdpdu-01-08-2002.dtd**. If you must import a new DTD file to replace an existing file, you must first export the existing DTD file.  
   
 3.  On the **Home** tab, in the **DTD File** group, choose **Import**.  
   
@@ -66,7 +66,7 @@ You must set up data export record sources to be able to export Grundsätze zum 
     |**Period Field No.**|Specify a filter for which date field will be used in setting the start date and end date of the report.<br /><br /> For example, if you select the **G\/L Entry** table as your data export source, you can select one of the date fields that are available in that table.|  
     |**Table Filter**|Specify a field on which you want to set a filter.<br /><br /> In the **Table Filter** window, enter filter settings in the **Field Filter** column.<br /><br /> For example, you can specify a field that conveys information about the amount. You can also specify a date field and set a filter for it if you want to filter on a time period other than Start Date .. End Date. However, you cannot specify a date field and set a filter for it if the same field is already used in the Period Field No.|  
     |**Date Filter Field No.**|Specify a date filter field if the table has one.<br /><br /> If the table has more than one date filter, do not specify one in this field.|  
-    |**Date Filter Handing**|Specify how the date filter is to be handled:<br /><br /> \* \<blank\>: No filter is set.<br /><br /> \* Period: Use the specified Start Date and End Date.<br /><br /> \* End Date Only: Use the batch job's End Date.<br /><br /> \* Start Date Only: Use the batch job's Start Date \- 1.|  
+    |**Date Filter Handing**|Specify how the date filter is to be handled:<br /><br /> \* \<blank\>: No filter is set.<br /><br /> \* Period: Use the specified Start Date and End Date.<br /><br /> \* End Date Only: Use the batch job's End Date.<br /><br /> \* Start Date Only: Use the batch job's Start Date - 1.|  
     |**Export File Name**|Specify the name of the file that data from this table will be exported to.<br /><br /> For example, if the table is the **G\/L Account** table, the value of the **Export Table Name** can be **GLAccount**, and the value of the **Export File Name** field can be **GLAccount.txt**.|  
     |**Key No.**|Optional. Specify the key field.|  
   

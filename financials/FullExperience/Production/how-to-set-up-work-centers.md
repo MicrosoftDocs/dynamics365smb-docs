@@ -38,7 +38,7 @@ A **Work Center** card organizes the fixed values and requirements of the produc
   
 4.  In the **Description** field, name the work center.  
   
-5.  In the **Work Center Group** field, select the higher\-level resource grouping that the work center is organized under.  
+5.  In the **Work Center Group** field, select the higher-level resource grouping that the work center is organized under.  
   
 6.  Select the **Blocked** field if you want to prevent the work center from being used in any processing. This means, among others, that an item produced at the work center can not be posted from a production journal. For more information, see [How to: Register Consumption and Output](../Production/how-to-register-consumption-and-output.md).  
   
@@ -48,7 +48,7 @@ A **Work Center** card organizes the fixed values and requirements of the produc
   
 2.  In the **Indirect Cost %** field, enter the general operation costs of using the work center as a percentage of the direct unit cost. This percentage amount is added to the direct cost in the calculation of the unit cost.  
   
-3.  In the **Overhead Rate** field, enter any non\-operational costs, for example maintenance expenses, of the work center as an absolute amount.  
+3.  In the **Overhead Rate** field, enter any non-operational costs, for example maintenance expenses, of the work center as an absolute amount.  
   
 4.  The **Unit Cost** field contains the calculated unit cost of producing one unit of measure at this work center, including all cost elements.  
   
@@ -83,7 +83,7 @@ A **Work Center** card organizes the fixed values and requirements of the produc
   
 4.  In the **Shop Calendar Code** field, select a shop calendar. For more information, see [How to: Create Work Center Calendars](../OperationsPlanning/how-to-create-work-center-calendars.md).  
   
-5.  In the **Queue Time** field, specify a fixed time span that must pass before assigned work can begin at this work center. Note that Queue Time is added to other non\-productive time elements such as Wait Time and Move Time that you may define on routing lines using this work center.  
+5.  In the **Queue Time** field, specify a fixed time span that must pass before assigned work can begin at this work center. Note that Queue Time is added to other non-productive time elements such as Wait Time and Move Time that you may define on routing lines using this work center.  
   
 6.  If you use the **Queue Time** field above then you must define a time unit of measure in the **Queue Time Unit of Meas. Code** field.  
   

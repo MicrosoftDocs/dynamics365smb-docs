@@ -48,7 +48,7 @@ To use automatic account codes, you must create an automatic account posting gro
  [OBSOLETE: Accrual Accounting](../Topic/OBSOLETE:%20Accrual%20Accounting.md)   
  [OBSOLETE: How to: Set Up Accrual Accounting](../Topic/OBSOLETE:%20How%20to:%20Set%20Up%20Accrual%20Accounting.md)   
  Allocation Percentage   
- G\-L Account No.   
+ G-L Account No.   
  [Total Balance](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Sweden/total-balance.md)   
  [About Posting Groups](../../Finance/about-posting-groups.md)   
  [How to: Fill and Post General Journals](../../Finance/how-to-fill-and-post-general-journals.md)   

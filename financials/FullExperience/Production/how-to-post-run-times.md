@@ -36,7 +36,7 @@ The run time represents work progress in the form of the necessary working time.
   
 8.  If the operation is completed, select the **Finished** field.  
   
-9. If the warehouse location where the items should be put away uses bins but does not require put\-away processing, assign a bin code to the journal line to specify where the items should be placed in the warehouse. For more information, see [How to: Assign Bin Codes on Journal Lines](../Production/how-to-assign-bin-codes-on-journal-lines.md).  
+9. If the warehouse location where the items should be put away uses bins but does not require put-away processing, assign a bin code to the journal line to specify where the items should be placed in the warehouse. For more information, see [How to: Assign Bin Codes on Journal Lines](../Production/how-to-assign-bin-codes-on-journal-lines.md).  
   
 10. On the **Actions** tab, in the **Posting** group, choose **Post** to post the operations. Choose the **Yes** button.  
   

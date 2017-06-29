@@ -19,7 +19,7 @@
 You can encrypt data on the ADD INCLUDE<!--[!INCLUDE[nav_server](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_server_md.md)]--> by generating new or importing existing encryption keys that you enable on the server.  
   
 > [!NOTE]  
->  If ADD INCLUDE<!--[!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)]--> is configured with multiple service tiers, then you must first enable encryption on one server and then export the key so it can be imported to another server where you enable encryption. You cannot generate different keys within one multiple\-server environment.  
+>  If ADD INCLUDE<!--[!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)]--> is configured with multiple service tiers, then you must first enable encryption on one server and then export the key so it can be imported to another server where you enable encryption. You cannot generate different keys within one multiple-server environment.  
   
  You encrypt data by enabling an encryption key on a server where an encryption key exists.  
   
@@ -46,7 +46,7 @@ You can encrypt data on the ADD INCLUDE<!--[!INCLUDE[nav_server](../BusinessFunc
   
 2.  On the **Home** tab, in the **Process** group, choose **Disable Encryption**.  
   
-3.  On the warning message about non\-encrypted data, choose **Yes**.  
+3.  On the warning message about non-encrypted data, choose **Yes**.  
   
 ## See Also  
  [How to: Export and Import Encryption Keys](../SetupAndAdministration/how-to-export-and-import-encryption-keys.md)   

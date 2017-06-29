@@ -24,7 +24,7 @@ To make sure that you do not receive posting errors because of the document numb
   
  This function also works on filtered views.  
   
- Any renumbering of document numbers will respect related applications, such as a payment application that has been made from the document on the journal line to a vendor account. Accordingly, the **Applies\-to ID** and **Applies\-to Doc. No.** fields on the affected ledger entries may be updated.  
+ Any renumbering of document numbers will respect related applications, such as a payment application that has been made from the document on the journal line to a vendor account. Accordingly, the **Applies-to ID** and **Applies-to Doc. No.** fields on the affected ledger entries may be updated.  
   
 > [!NOTE]  
 >  The following procedure is based on the **General Journal** window, but applies to all other journals that are based on the general journal, such as the **Payment Journal** window.  

@@ -41,6 +41,6 @@ The Single Euro Payments Area \(SEPA\) unifies payment methods in participating 
 -   Use the vendor bank’s International Bank Account Number \(IBAN\) and Bank Identifier Code \(BIC\) information.  
   
 ## See Also  
- [How to: Activate SEPA Payments\-duplicate](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/how-to-activate-sepa-payments-duplicate.md)   
+ [How to: Activate SEPA Payments-duplicate](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/how-to-activate-sepa-payments-duplicate.md)   
  [How to: Submit Vendor Payments Electronically in SEPA ISO 20022 Payment Format](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/how-to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format.md)   
  [Netherlands Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/netherlands-local-functionality.md)

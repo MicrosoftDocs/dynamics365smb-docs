@@ -16,14 +16,14 @@
 
     ---
 # Belgian Electronic Payments
-In the electronic banking module in ADD INCLUDE<!--[!INCLUDE[nav_current_short](../../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_current_short_md.md)]-->, you can make domestic, international, SEPA, and non\-Euro SEPA electronic payments.  
+In the electronic banking module in ADD INCLUDE<!--[!INCLUDE[nav_current_short](../../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_current_short_md.md)]-->, you can make domestic, international, SEPA, and non-Euro SEPA electronic payments.  
   
 |Electronic payment|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
 |------------------------|---------------------------------------|  
 |Domestic|These payments are in the local currency \(LCY\) and are processed by a local financial institution for beneficiaries who have accounts that have a local financial institution. The validity of the bank account numbers will be verified by ADD INCLUDE<!--[!INCLUDE[nav_current_short](../../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_current_short_md.md)]-->.|  
 |International|These payments are either in foreign currencies or in LCY and are processed by a local financial institution for beneficiaries who have accounts that have foreign financial institutions. The validity of the bank account numbers will not be verified by ADD INCLUDE<!--[!INCLUDE[nav_current_short](../../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_current_short_md.md)]-->.|  
 |SEPA|These payments are in euro and are processed in countries\/regions that accept SEPA payments. The validity of the bank account numbers will be verified by ADD INCLUDE<!--[!INCLUDE[nav_current_short](../../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_current_short_md.md)]-->.|  
-|Non\-Euro SEPA|These payments are in currency other than euro and made to a country\/region outside the European Economic Association \(EEA\). The validity of the bank account numbers will be verified by ADD INCLUDE<!--[!INCLUDE[nav_current_short](../../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_current_short_md.md)]-->.|  
+|Non-Euro SEPA|These payments are in currency other than euro and made to a country\/region outside the European Economic Association \(EEA\). The validity of the bank account numbers will be verified by ADD INCLUDE<!--[!INCLUDE[nav_current_short](../../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_current_short_md.md)]-->.|  
   
  In electronic banking, because the standard for electronic payments is different for countries\/regions, electronic payments created in ADD INCLUDE<!--[!INCLUDE[nav_current_short](../../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_current_short_md.md)]--> can only be processed by financial institutions in Belgium. For international payments, the local financial institutions will then have to process the payment with the foreign institutions.  
   
@@ -46,7 +46,7 @@ In the electronic banking module in ADD INCLUDE<!--[!INCLUDE[nav_current_short](
 ## See Also  
  [Belgian Electronic Banking](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/belgian-electronic-banking.md)   
  [How to: Set Up Electronic Banking](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-electronic-banking.md)   
- [How to: Set Up IBLC\-BLWI Transaction Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-iblc-blwi-transaction-codes.md)   
+ [How to: Set Up IBLC-BLWI Transaction Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-iblc-blwi-transaction-codes.md)   
  [How to: Set Up Vendors for Automatic Payment Suggestions](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-vendors-for-automatic-payment-suggestions.md)   
  [How to: Generate Payment Suggestions](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-generate-payment-suggestions.md)   
  [How to: Create Payment Journal Templates and Batches](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-create-payment-journal-templates-and-batches.md)   

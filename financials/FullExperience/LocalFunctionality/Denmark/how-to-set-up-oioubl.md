@@ -42,7 +42,7 @@ You must define a location for storing Offentlig Information Online UBL \(OIOUBL
         |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
         |---------------------------------|---------------------------------------|  
         |**Code**|Specifies the code for the OIOUBL profile.|  
-        |**Profile ID**|Specifies the profile that you want to support in the electronic documents that you send to customers in the Danish public sector, such as **Procurement\-BilSim\-1.0**.|  
+        |**Profile ID**|Specifies the profile that you want to support in the electronic documents that you send to customers in the Danish public sector, such as **Procurement-BilSim-1.0**.|  
   
 4.  Choose the **OK** button.  
   
@@ -89,7 +89,7 @@ You must define a location for storing Offentlig Information Online UBL \(OIOUBL
   
 2.  In the **Item Charges** window, for each item charge, in the **Charge Category** field, select a category. For more information, see Charge Category.  
   
- You must also make sure that the OIOUBL Country\-Region Code field is filled in for Denmark in the **Countries\/Regions** window.  
+ You must also make sure that the OIOUBL Country-Region Code field is filled in for Denmark in the **Countries\/Regions** window.  
   
  Finally, you must specify EAN numbers and account codes for the relevant customers. For more information, see [How to: Set Up Customers for OIOUBL](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Denmark/how-to-set-up-customers-for-oioubl.md).  
   
@@ -97,7 +97,7 @@ You must define a location for storing Offentlig Information Online UBL \(OIOUBL
  [OIOUBL Electronic Invoicing Overview](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Denmark/oioubl-electronic-invoicing-overview.md)   
  [How to: Set Up Customers for OIOUBL](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Denmark/how-to-set-up-customers-for-oioubl.md)   
  Payment Methods   
- [\($ N\_459 Sales & Receivables Setup $\)\-duplicate](../../Sales/-$-n_459-sales-receivables-setup-$-duplicate.md)   
+ [\($ N\_459 Sales & Receivables Setup $\)-duplicate](../../Sales/-$-n_459-sales-receivables-setup-$-duplicate.md)   
  Service Mgt. Setup   
  Countries\/Regions   
  Item Charges

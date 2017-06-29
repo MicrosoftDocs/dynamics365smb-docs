@@ -16,7 +16,7 @@
 
     ---
 # How to: Set Up Allocation Keys
-Transactions can be allocated to various departments or projects, according to user\-defined allocation keys. For example, you could set up an allocation key to allocate depreciation costs on cars with 35 percent to the administration department and 65 percent to the sales department.  
+Transactions can be allocated to various departments or projects, according to user-defined allocation keys. For example, you could set up an allocation key to allocate depreciation costs on cars with 35 percent to the administration department and 65 percent to the sales department.  
   
  Allocation keys apply to fixed asset classes and not to individual assets.  
   

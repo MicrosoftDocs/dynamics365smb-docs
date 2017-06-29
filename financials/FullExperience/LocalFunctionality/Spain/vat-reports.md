@@ -30,19 +30,19 @@ VAT is charged on transactions that involve goods and services in Spain or goods
 >  If the item has no taxable VAT, 0 is automatically displayed in the **VAT %** field in the VAT information windows.  
   
 ### Telematic VAT  
- With telematic VAT you can design and generate monthly and yearly tax reports as electronic files or printed files. You can submit these reports to the tax authorities using a third\-party program or an XML file from the tax authorities' website.  
+ With telematic VAT you can design and generate monthly and yearly tax reports as electronic files or printed files. You can submit these reports to the tax authorities using a third-party program or an XML file from the tax authorities' website.  
   
 ### VAT Statement  
  The VAT statement displays VAT amounts and base amounts in different columns.  
   
  There are two report template types in the **VAT Statement Name** table:  
   
--   **One\-Column Report**  
+-   **One-Column Report**  
   
--   **Two\-Columns Report**  
+-   **Two-Columns Report**  
   
-### VAT\-VIES Declaration  
- With VAT\-VIES declaration you can run a batch file to generate European Union \(EU\) sales reports. The batch file exports the entries in the required file format for submission to customs and tax authorities.  
+### VAT-VIES Declaration  
+ With VAT-VIES declaration you can run a batch file to generate European Union \(EU\) sales reports. The batch file exports the entries in the required file format for submission to customs and tax authorities.  
   
 ## See Also  
  [Spain Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/spain-local-functionality.md)   

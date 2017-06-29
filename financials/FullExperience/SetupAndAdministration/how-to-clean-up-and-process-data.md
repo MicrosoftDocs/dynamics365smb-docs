@@ -35,4 +35,4 @@ In some cases, you may want to clean up customer data and process it before you 
 ## See Also  
  [How to: Map Customer Data](../SetupAndAdministration/how-to-map-customer-data.md)   
  [How to: Apply Customer Data](../SetupAndAdministration/how-to-apply-customer-data.md)   
- Config. Package \- Process
+ Config. Package - Process

@@ -52,5 +52,5 @@ The standard audit file for tax purposes records key business information \(tran
      The report will have the following name: \<taxpayername\>FEC\<YYYYMMDD\>  
   
 ## See Also  
- Export G\-L Entries \- Tax Audit   
+ Export G-L Entries - Tax Audit   
  [How to: Close Years](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-close-years.md)

@@ -32,7 +32,7 @@ You can use the **Service Order** window to create documents where you enter inf
   
 4.  In the **Customer No.** field, select the relevant customer from the list.  
   
-     The customer\-relevant fields are filled in with information from the **Customer** table.  
+     The customer-relevant fields are filled in with information from the **Customer** table.  
   
 5.  Depending on the settings on the **Mandatory Fields** FastTab in the **Service Mgt. Setup** window, you may need to fill in the **Service Order Type** field on the **General** FastTab and the **Salesperson Code** field on the **Invoicing** FastTab.  
   

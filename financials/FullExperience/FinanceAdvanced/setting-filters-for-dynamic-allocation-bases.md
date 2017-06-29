@@ -16,7 +16,7 @@
 
     ---
 # Setting Filters for Dynamic Allocation Bases
-The dynamic allocation method is based on changeable values. For example, the number of employees in a cost center or the items sold of a cost object in a specific time period. There are nine pre\-defined allocation bases and twelve dynamic date ranges. You set different filters based on the allocation base.  
+The dynamic allocation method is based on changeable values. For example, the number of employees in a cost center or the items sold of a cost object in a specific time period. There are nine pre-defined allocation bases and twelve dynamic date ranges. You set different filters based on the allocation base.  
   
 ## Setting Filters for Dynamic Allocation Bases  
  The following table shows which filters are possible for different allocation bases and which values are valid in the **No. Filter** and **Group Filter** fields. Press F1 in the **Date Filter Code** field to read detailed descriptions.  

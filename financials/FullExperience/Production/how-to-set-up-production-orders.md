@@ -29,7 +29,7 @@ When you set up a new production order, there are fields that must always be fil
     |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**No.**|Specifies the next number from the production order number series.|  
-    |**Source Type**|Specifies either of the following types:<br /><br /> -   **Item** \- Standard items are produced for inventory.<br />-   **Familiy** \- A predefined family of items is produced for inventory.<br />-   **Sales header** \- Items are produced for the sales order that you select in the **Source No.** field.|  
+    |**Source Type**|Specifies either of the following types:<br /><br /> -   **Item** - Standard items are produced for inventory.<br />-   **Familiy** - A predefined family of items is produced for inventory.<br />-   **Sales header** - Items are produced for the sales order that you select in the **Source No.** field.|  
     |**Source No.**|Specifies the production order source according to the value that you select in the **Source Type** field.|  
     |**Search Description**|Specifies the description of the source that you enter in the **Source No.** field.|  
     |**Quantity**|Specifies how many units to produce.|  
@@ -41,8 +41,8 @@ When you set up a new production order, there are fields that must always be fil
     |---------------------------------|---------------------------------------|  
     |**Item No.**|Specifies the item that is produced.|  
     |**Due Date**|Specifies when the produced item is needed, for example, on a sales order.|  
-    |**Starting Date\-Time**|Specifies the starting date and time when the first operation must start. **Note:**  This field is automatically filled based on the item’s routing and the value that you enter in the **Due Date** field.|  
-    |**Ending Date\-Time**|Specifies the ending date and time when the last operation must end. **Note:**  This field is automatically filled based on the item’s routing and the value that you enter in the **Due Date** field.|  
+    |**Starting Date-Time**|Specifies the starting date and time when the first operation must start. **Note:**  This field is automatically filled based on the item’s routing and the value that you enter in the **Due Date** field.|  
+    |**Ending Date-Time**|Specifies the ending date and time when the last operation must end. **Note:**  This field is automatically filled based on the item’s routing and the value that you enter in the **Due Date** field.|  
     |**Quantity**|Specifies how many units to produce.|  
   
  Instead of filling the production order line fields manually, use the **Refresh** function. For more information, see [How to: Refresh Production Orders](../OperationsPlanning/how-to-refresh-production-orders.md).  

@@ -37,7 +37,7 @@ To process electronic payments, you must first set up bank reference files to de
     |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Export Foreign Payments**|Enter the full path of the payment file to export to foreign banks.|  
-    |**Due Date Handling**|Select how due date processing should be applied to foreign payments.<br /><br /> **Batch** – All payments in the file receive the same payment date.<br /><br /> –or–<br /><br /> **Transaction** – Each payment in the file receives a transaction\-specific payment date. Contact your bank to determine whether this setting should be used.|  
+    |**Due Date Handling**|Select how due date processing should be applied to foreign payments.<br /><br /> **Batch** – All payments in the file receive the same payment date.<br /><br /> –or–<br /><br /> **Transaction** – Each payment in the file receives a transaction-specific payment date. Contact your bank to determine whether this setting should be used.|  
     |**Default Service Fee Code**|Select a default service fee code for foreign banks.|  
     |**Default Payment Method**|Select a default payment method for foreign payments.|  
     |**Exchange Rate Contract No.**|Enter the exchange rate contract number.|  

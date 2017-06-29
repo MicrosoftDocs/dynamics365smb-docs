@@ -16,13 +16,13 @@
 
     ---
 # How to: Set Up SMTP Email
-To send e\-mails from ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> using an SMTP server, you must fill the **SMTP Mail Setup** window.  
+To send e-mails from ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> using an SMTP server, you must fill the **SMTP Mail Setup** window.  
   
- E\-mail sending is used for several features in ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, such as when notifying workflow users about a workflow step. For more information, see [Workflow](../../BusinessFunctionality/Workflow/workflow.md).  
+ E-mail sending is used for several features in ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, such as when notifying workflow users about a workflow step. For more information, see [Workflow](../../BusinessFunctionality/Workflow/workflow.md).  
   
- E\-mails that are sent from ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> are based on e\-mail templates that define which fields and text to show in the e\-mail. The e\-mail template is an HTML file that you can export, edit in Microsoft Word, for example, and then import. For more information, see [How to: Manage Notification Templates](../../BusinessFunctionality/Workflow/how-to-manage-notification-templates.md).  
+ E-mails that are sent from ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> are based on e-mail templates that define which fields and text to show in the e-mail. The e-mail template is an HTML file that you can export, edit in Microsoft Word, for example, and then import. For more information, see [How to: Manage Notification Templates](../../BusinessFunctionality/Workflow/how-to-manage-notification-templates.md).  
   
-### To set up SMTP e\-mail  
+### To set up SMTP e-mail  
   
 1.  In the **Search** box, enter **SMTP Mail Setup**, and then choose the related link.  
   
@@ -37,11 +37,11 @@ To send e\-mails from ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/i
   
 3.  Choose the **OK** button.  
   
- For more information about SMTP e\-mail systems, see [Configure SMTP E\-mail \(IIS 7\)](http://go.microsoft.com/fwlink/?LinkId=263830).  
+ For more information about SMTP e-mail systems, see [Configure SMTP E-mail \(IIS 7\)](http://go.microsoft.com/fwlink/?LinkId=263830).  
   
 ## See Also  
  [How to: Manage Notification Templates](../../BusinessFunctionality/Workflow/how-to-manage-notification-templates.md)   
  SMTP Mail Setup   
  [Workflow](../../BusinessFunctionality/Workflow/workflow.md)   
  [Walkthrough: Setting Up and Using a Purchase Approval Workflow](../../BusinessFunctionality/Workflow/walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
- [Configure SMTP E\-mail \(IIS 7\)](http://go.microsoft.com/fwlink/?LinkId=263830)
+ [Configure SMTP E-mail \(IIS 7\)](http://go.microsoft.com/fwlink/?LinkId=263830)

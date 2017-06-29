@@ -25,7 +25,7 @@ Reordering policies define how much to order when the item needs to be replenish
   
  [Design Details: Order](../ApplicationDesign/design-details-order.md)  
   
- [Design Details: Lot\-for\-Lot](../ApplicationDesign/design-details-lot-for-lot.md)  
+ [Design Details: Lot-for-Lot](../ApplicationDesign/design-details-lot-for-lot.md)  
   
 ## See Also  
  [Design Details: Planning Parameters](../ApplicationDesign/design-details-planning-parameters.md)   

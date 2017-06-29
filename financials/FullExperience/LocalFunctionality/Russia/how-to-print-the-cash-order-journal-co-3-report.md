@@ -16,15 +16,15 @@
 
     ---
 # How to: Print the Cash Order Journal CO-3 Report
-The **\($ R\_12463 Cash Order Journal CO\-3 $\)** report shows the unified standard printing form \(typically on a monthly basis\).  
+The **\($ R\_12463 Cash Order Journal CO-3 $\)** report shows the unified standard printing form \(typically on a monthly basis\).  
   
  This report shows the register of posted ingoing and outgoing cash orders during a specified reporting period.  
   
-### To print the cash order journal CO\-3 report  
+### To print the cash order journal CO-3 report  
   
-1.  In the **Search** box, enter **Cash Order Journal CO\-3**, and then choose the related link.  
+1.  In the **Search** box, enter **Cash Order Journal CO-3**, and then choose the related link.  
   
-2.  In the **\($ R\_12463 Cash Order Journal CO\-3 $\)** window, fill in the fields.  
+2.  In the **\($ R\_12463 Cash Order Journal CO-3 $\)** window, fill in the fields.  
   
     |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
@@ -36,4 +36,4 @@ The **\($ R\_12463 Cash Order Journal CO\-3 $\)** report shows the unified stand
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen. Choose the **Cancel** button to save the information without printing the report.  
   
 ## See Also  
- Cash Order Journal CO\-3
+ Cash Order Journal CO-3

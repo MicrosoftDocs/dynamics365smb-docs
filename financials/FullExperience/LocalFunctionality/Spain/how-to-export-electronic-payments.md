@@ -22,7 +22,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
 |----------------------|---------------------------|  
 |AEB N34|**Payment Orders**|  
 |AEB N34.1|**Payment Orders**|  
-|E\-PAY|**Payment Journal**|  
+|E-PAY|**Payment Journal**|  
 |SEPA|**Payment Journal** or **Payment Orders**|  
   
 > [!IMPORTANT]  
@@ -38,9 +38,9 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
   
      Payments of type SEPA will be exported to a file immediately.  
   
-     Payments of type N34 or N34.1 will be exported when you run the **\($ B\_7000090 Payment order \- Export N34 $\)** or **\($ R\_7000060 PO \- Export N34.1 $\)** report, which automatically opens when you choose **Export** in step 3.  
+     Payments of type N34 or N34.1 will be exported when you run the **\($ B\_7000090 Payment order - Export N34 $\)** or **\($ R\_7000060 PO - Export N34.1 $\)** report, which automatically opens when you choose **Export** in step 3.  
   
-4.  In the **\($ R\_7000060 PO \- Export N34.1 $\)** window, fill in the fields as described in the following table.  
+4.  In the **\($ R\_7000060 PO - Export N34.1 $\)** window, fill in the fields as described in the following table.  
   
     |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
@@ -70,7 +70,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
   
      Payments of type SEPA will be exported to a file immediately.  
   
-     Payments of type E\-PAY will be exported when you run the **Export Electronic Payments** report, which automatically opens when you choose **Export** in step 3.  
+     Payments of type E-PAY will be exported when you run the **Export Electronic Payments** report, which automatically opens when you choose **Export** in step 3.  
   
 4.  In the **Export Electronic Payments** window, fill in the fields as described in the following table.  
   
@@ -97,7 +97,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
   
 ### To export electronic payments from the Cartera module  
   
-1.  In the **Search** box, enter **PO \- Export N34.1**, and then choose the related link.  
+1.  In the **Search** box, enter **PO - Export N34.1**, and then choose the related link.  
   
 2.  Fill in the fields as described in the following table.  
   

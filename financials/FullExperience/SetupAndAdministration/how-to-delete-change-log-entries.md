@@ -22,7 +22,7 @@ You can always delete change log entries that are of no use to you.
   
 1.  In the **Search** box, enter **Delete Change Log Entries**, and then choose the related link.  
   
-2.  In the **Change Log \- Delete** window, enter the date or period for the change log entries you want to delete. You can also enter time.  
+2.  In the **Change Log - Delete** window, enter the date or period for the change log entries you want to delete. You can also enter time.  
   
 3.  Enter the table number of the tables for which you want to delete change log entries.  
   

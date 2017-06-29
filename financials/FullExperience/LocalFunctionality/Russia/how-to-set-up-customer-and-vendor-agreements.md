@@ -63,9 +63,9 @@ The customer and vendor agreements feature provides the following:
   
      On the **Navigate** tab, you can find the following functions:  
   
-    -   List \- Shows a list of customer or vendor agreements.  
+    -   List - Shows a list of customer or vendor agreements.  
   
-    -   Ledger Entries \- Shows customer or vendor ledger entries posted with this agreement code.  
+    -   Ledger Entries - Shows customer or vendor ledger entries posted with this agreement code.  
   
      The agreements are fully synchronized with dimensions. You can post transactions and choose the dimension value code of the appropriate agreement from the list of agreements.  
   

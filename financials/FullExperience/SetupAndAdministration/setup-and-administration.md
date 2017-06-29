@@ -32,9 +32,9 @@ Entering the correct setup values from the start is important to the success of 
 |Encrypt data on the Microsoft Dynamics NAV Server by generating new or importing existing encryption keys that you enable on the server.|[Manage Data Encryption](../SetupAndAdministration/manage-data-encryption.md)|  
 |Support your setup decisions with recommendations for selected fields that are known to potentially cause the solution to be inefficient if set up incorrectly|[Set Up Complex Application Areas Using Best Practices](../SetupAndAdministration/set-up-complex-application-areas-using-best-practices.md)|  
 |Expose pages, codeunits, and queries as web services.|[How to: Publish a Web Service](../SetupAndAdministration/how-to-publish-a-web-service.md)|  
-|Set up an SMTP server to enable e\-mail communication in and out of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)]-->.|[How to: Set Up SMTP Email](../BusinessFunctionality/Workflow/how-to-set-up-smtp-email.md)|  
+|Set up an SMTP server to enable e-mail communication in and out of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)]-->.|[How to: Set Up SMTP Email](../BusinessFunctionality/Workflow/how-to-set-up-smtp-email.md)|  
   
 ## See Also  
- [Getting Started\-duplicate](../GettingStarted/getting-started-duplicate.md)   
+ [Getting Started-duplicate](../GettingStarted/getting-started-duplicate.md)   
  [Working with Product Name](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)   
  [Business Functionality](../Topic/Business%20Functionality.md)

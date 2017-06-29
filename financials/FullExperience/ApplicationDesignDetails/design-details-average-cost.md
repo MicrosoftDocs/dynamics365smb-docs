@@ -41,22 +41,22 @@ The average cost of an item is calculated with a periodic weighted average, base
     ms.author: sgroespe
 
     -----------------------------------------|--------------------------------|------------------------------------------------|----------------------------------|  
-|01\-01\-20|1|10.00|1|  
-|01\-02\-20|1|20.00|2|  
-|02\-15\-20|\-1|\-15.00|3|  
-|02\-16\-20|\-1|\-15.00|4|  
+|01-01-20|1|10.00|1|  
+|01-02-20|1|20.00|2|  
+|02-15-20|-1|-15.00|3|  
+|02-16-20|-1|-15.00|4|  
   
- The user posts an inventory increase \(entry number 5\) with a valuation date \(01\-03\-20\) that comes before one or more inventory decreases. To balance the inventory, the average cost must be recalculated and adjusted to 17.00.  
+ The user posts an inventory increase \(entry number 5\) with a valuation date \(01-03-20\) that comes before one or more inventory decreases. To balance the inventory, the average cost must be recalculated and adjusted to 17.00.  
   
  The following table shows the value entries that exist for the item after entry number 5 is introduced.  
   
 |Valuation Date|Quantity|Cost Amount \(Actual\)|Entry No.|  
 |-----------------------------------------|--------------------------------|------------------------------------------------|----------------------------------|  
-|01\-01\-20|1|10.00|1|  
-|01\-02\-20|1|20.00|2|  
-|01\-03\-20|1|21.00|5|  
-|02\-15\-20|\-1|\-17.00|3|  
-|02\-16\-20|\-1|\-17.00|4|  
+|01-01-20|1|10.00|1|  
+|01-02-20|1|20.00|2|  
+|01-03-20|1|21.00|5|  
+|02-15-20|-1|-17.00|3|  
+|02-16-20|-1|-17.00|4|  
   
 ## See Also  
  [Design Details: Inventory Costing](../ApplicationDesign/design-details-inventory-costing.md)   

@@ -44,9 +44,9 @@ The general ledger correspondence feature enables you to:
   
 -   General Ledger Correspondence Journal Order \(report ID 12432\)  
   
--   General Ledger Correspondence Cross\-Reference \(report ID 12433\)  
+-   General Ledger Correspondence Cross-Reference \(report ID 12433\)  
   
--   General Ledger Correspondence Cross\-Reference \(A\) \(report ID 12434\)  
+-   General Ledger Correspondence Cross-Reference \(A\) \(report ID 12434\)  
   
 -   General Ledger Correspondence Entries Analysis \(report ID 12435\)  
   
@@ -101,7 +101,7 @@ The general ledger correspondence feature enables you to:
   
  To access the report  
   
--   In **Financial Management**, click **General Ledger**, click **Reports**, click **Correspondence**, and then click **Cross Reference \(A\).** The **Options** tab of the request form contains the same fields as the General Ledger Cross\-Reference report.  
+-   In **Financial Management**, click **General Ledger**, click **Reports**, click **Correspondence**, and then click **Cross Reference \(A\).** The **Options** tab of the request form contains the same fields as the General Ledger Cross-Reference report.  
   
 ### General Ledger Correspondence Entries Analysis Report  
  The General Ledger Correspondence Entries Analysis report shows the correspondence entries for each account. The report can be used to get an overview of general ledger account entries with correspondence and totals.  

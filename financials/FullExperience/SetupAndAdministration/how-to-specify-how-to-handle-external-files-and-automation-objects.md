@@ -20,7 +20,7 @@ When ADD INCLUDE<!--[!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.
   
  When ADD INCLUDE<!--[!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)]--> is required to run an automation object, you are presented with a dialog box. You can decide whether that type of object should always or never be able to run.  
   
- You can cancel your decisions for handling files and automation objects by opening the **Reset User\-Specified Settings** window from your Role Center. For more information, see [How to: Cancel Basic UI Changes and File Handling Decisions](../SetupAndAdministration/how-to-cancel-basic-ui-changes-and-file-handling-decisions.md).  
+ You can cancel your decisions for handling files and automation objects by opening the **Reset User-Specified Settings** window from your Role Center. For more information, see [How to: Cancel Basic UI Changes and File Handling Decisions](../SetupAndAdministration/how-to-cancel-basic-ui-changes-and-file-handling-decisions.md).  
   
 ### To specify how to handle external files  
   
@@ -40,7 +40,7 @@ When ADD INCLUDE<!--[!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.
  PERSONALIZATION Personalize the User Interface   
  [How to: Cancel Basic UI Changes and File Handling Decisions](../SetupAndAdministration/how-to-cancel-basic-ui-changes-and-file-handling-decisions.md)   
  [How to: Make Basic UI Changes](../SetupAndAdministration/how-to-make-basic-ui-changes.md)   
- DELETEPERSONALIZATION Reset User\-Specified Settings   
+ DELETEPERSONALIZATION Reset User-Specified Settings   
  [Customize the User Interface](../SetupAndAdministration/customize-the-user-interface.md)   
  [Working with Product Name](../WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)   
  [Learn About the RoleTailored Design](../GettingStarted/learn-about-the-roletailored-design.md)

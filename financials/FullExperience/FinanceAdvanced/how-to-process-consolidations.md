@@ -16,7 +16,7 @@
 
     ---
 # How to: Process Consolidations
-This topic provides a high\-level overview of how you can work through the consolidation process.  
+This topic provides a high-level overview of how you can work through the consolidation process.  
   
 ## Setting Up the Consolidation Company  
  Before you can perform a consolidation, you must set up the consolidated company. The company must be set up like any other company with its own chart of accounts and dimensions.  
@@ -93,7 +93,7 @@ This topic provides a high\-level overview of how you can work through the conso
   
 3.  Post the journal.  
   
- Before you post the eliminations, you can verify the effect on the trial balance of the consolidated company by using the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**G\/L Consolidation Eliminations** report. The report displays a tentative trial balance. It shows the consequences of eliminating the entries by comparing the entries in the consolidated company with the eliminations that have been entered in the general journal. Calculating the eliminations is a time\-consuming manual process that may be aided by setting up specific intercompany accounts, intercompany customers\/vendors, and intercompany posting groups.  
+ Before you post the eliminations, you can verify the effect on the trial balance of the consolidated company by using the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**G\/L Consolidation Eliminations** report. The report displays a tentative trial balance. It shows the consequences of eliminating the entries by comparing the entries in the consolidated company with the eliminations that have been entered in the general journal. Calculating the eliminations is a time-consuming manual process that may be aided by setting up specific intercompany accounts, intercompany customers\/vendors, and intercompany posting groups.  
   
 ## See Also  
  Consolidated Trial Balance   

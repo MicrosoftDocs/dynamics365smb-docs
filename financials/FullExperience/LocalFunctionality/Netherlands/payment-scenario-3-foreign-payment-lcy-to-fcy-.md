@@ -40,7 +40,7 @@ You can use telebanking for trade with domestic and foreign customers and vendor
   
 -   **Currency Code**: set it to the foreign currency \(FCY\).  
   
--   **Transaction Mode**: select an appropriate, default transaction mode \- i.e. one that can deal with foreign currency payments for your local bank.  
+-   **Transaction Mode**: select an appropriate, default transaction mode - i.e. one that can deal with foreign currency payments for your local bank.  
   
 -   **Preferred Bank Account**: select an appropriate, default vendor\/customer bank account having the same Currency Code as the vendor\/customer itself.  
   
@@ -67,7 +67,7 @@ You can use telebanking for trade with domestic and foreign customers and vendor
   
 -   **Currency Code**: set it to the foreign currency \(FCY\).  
   
--   **Transaction Mode**: select an appropriate, default transaction mode \- i.e. one that can deal with local currency payments for your local bank.  
+-   **Transaction Mode**: select an appropriate, default transaction mode - i.e. one that can deal with local currency payments for your local bank.  
   
 -   **Preferred Bank Account**: select an appropriate, default vendor\/customer bank account having the same Currency Code is the vendor\/customer itself.  
   
@@ -76,13 +76,13 @@ You can use telebanking for trade with domestic and foreign customers and vendor
  When the invoice is finished it can be posted.  
   
 ### Example  
- When creating a purchase invoice for Hernandez Ortiz we enter *ORTIZ* in the ***Buy\-from Vendor No.*** field. By default the *Currency Code*, *Transaction Mode* and *Bank Account* fields will be populated with values taken from the Hernandez Ortiz's vendor card. Therefore the *Currency Code*, *Transaction Mode* and *Bank Account* fields will be *MXN*, *ABN* and *HOBA* respectively. Nevertheless, these values can be changed.  
+ When creating a purchase invoice for Hernandez Ortiz we enter *ORTIZ* in the ***Buy-from Vendor No.*** field. By default the *Currency Code*, *Transaction Mode* and *Bank Account* fields will be populated with values taken from the Hernandez Ortiz's vendor card. Therefore the *Currency Code*, *Transaction Mode* and *Bank Account* fields will be *MXN*, *ABN* and *HOBA* respectively. Nevertheless, these values can be changed.  
   
 ## Create Proposal  
- Open the Telebank \- Bank Overview window and browse to the bank through which we want to perform our payment. Open the Proposal window and generate payment proposals using the Get Proposal Entries batch job.  
+ Open the Telebank - Bank Overview window and browse to the bank through which we want to perform our payment. Open the Proposal window and generate payment proposals using the Get Proposal Entries batch job.  
   
 ### Example  
- Through the Telebank \- Bank Overview window we open the Proposal window for our bank *ABN*. Using the batch job one proposal line will be created for the purchase invoice we just created and posted for vendor *ORTIZ*. The amount of the payment will be in local currency \(LCY\).  
+ Through the Telebank - Bank Overview window we open the Proposal window for our bank *ABN*. Using the batch job one proposal line will be created for the purchase invoice we just created and posted for vendor *ORTIZ*. The amount of the payment will be in local currency \(LCY\).  
   
 ## Create Payment History  
  From the Proposal window we process our proposal into a payment history. The proposal will disappear and can be found in the Payment History Overview window for the same bank.  

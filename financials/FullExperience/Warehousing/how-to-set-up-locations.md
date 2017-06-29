@@ -29,7 +29,7 @@ You can keep track of items in different locations by setting up locations.
 3.  Fill in the fields. For help about a specific field, select the field and press the F1 key.  
   
 ## See Also  
- [How to: Set Up In\-Transit Codes](../DesignAndEngineering/how-to-set-up-in-transit-codes.md)   
- [How to: Set Up Warehouses for Directed Put\-away and Pick](../WarehouseActivities/how-to-set-up-warehouses-for-directed-put-away-and-pick.md)   
+ [How to: Set Up In-Transit Codes](../DesignAndEngineering/how-to-set-up-in-transit-codes.md)   
+ [How to: Set Up Warehouses for Directed Put-away and Pick](../WarehouseActivities/how-to-set-up-warehouses-for-directed-put-away-and-pick.md)   
  [How to: Convert Existing Locations to Warehouse Locations](../WarehouseActivities/how-to-convert-existing-locations-to-warehouse-locations.md)   
  [About Using Locations and Responsibility Centers](../BusinessFunctionality/ResponsibilityCenters/about-using-locations-and-responsibility-centers.md)

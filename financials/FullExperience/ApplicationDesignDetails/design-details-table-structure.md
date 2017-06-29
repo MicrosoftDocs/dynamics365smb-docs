@@ -83,9 +83,9 @@ To understand how the dimension entry storing and posting is redesigned, it is i
 |12|**Dimension Value ID**|Integer|AutoIncrement. Used for references in table 480 and table 481.|  
   
 ###### Tables That Get New Field 480 Dimension Set ID  
- A new field, 480 **Dimension Set ID**, has been added to the following tables. For the tables that store posted data, the field only provides a non\-editable display of dimensions, which is marked as Drill\-down. For the tables that store working documents, the field is editable. The buffer tables that are used internally do not need editable or non\-editable capabilities.  
+ A new field, 480 **Dimension Set ID**, has been added to the following tables. For the tables that store posted data, the field only provides a non-editable display of dimensions, which is marked as Drill-down. For the tables that store working documents, the field is editable. The buffer tables that are used internally do not need editable or non-editable capabilities.  
   
- The 480 field is non\-editable in the following tables.  
+ The 480 field is non-editable in the following tables.  
   
 |Table No.|Table Name|  
 |---------------|----------------|  

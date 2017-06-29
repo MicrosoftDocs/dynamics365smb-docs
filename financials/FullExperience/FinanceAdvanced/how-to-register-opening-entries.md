@@ -42,7 +42,7 @@ If you are using the fixed assets in ADD INCLUDE<!--[!INCLUDE[navnow](../Applica
   
     -   A line with the accumulated depreciation from the start of the current fiscal year to the date that ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> is set to start calculating the depreciation.  
   
-     If you have other opening balances you can also enter them now, such as write\-down and appreciation.  
+     If you have other opening balances you can also enter them now, such as write-down and appreciation.  
   
 8.  After you have entered and posted the journal lines for each asset, turn on general ledger integration.  
   

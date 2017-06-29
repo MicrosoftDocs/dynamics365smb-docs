@@ -63,7 +63,7 @@ You can submit domiciliations to your bank by exporting the data to a file. When
     |**\($ R\_2000021\_F\_1\_7 Journal Batch $\)**|Select the general journal batch that the journal lines will be transferred from.|  
     |**\($ R\_2000021\_F\_1\_3 Post General Journal Lines $\)**|Select to post to the general ledger.|  
     |**\($ R\_2000021\_F\_1\_5 Pivot Date $\)**|Enter a pivot date if you want a date that differs from the posting date on the domiciliation lines. The date entered will overwrite the posting date on the selected journal lines.|  
-    |**\($ R\_2000021\_F\_1\_9 Inscription No. $\)**|Enter the inscription number that is on the intra\-community declaration disk. The number is included in the file and on the accompanying note.|  
+    |**\($ R\_2000021\_F\_1\_9 Inscription No. $\)**|Enter the inscription number that is on the intra-community declaration disk. The number is included in the file and on the accompanying note.|  
     |**\($ R\_2000021\_F\_1\_1 File Name $\)**|Enter the name of the export file that you are creating.|  
   
 4.  Choose the **Print** button to export the domiciliations and print the accompanying note, or choose the **Preview** button to view it on the screen. If you do not want to export the file now, choose the **Cancel** button.  

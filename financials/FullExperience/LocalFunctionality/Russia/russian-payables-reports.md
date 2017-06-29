@@ -41,7 +41,7 @@ The payables report feature enables you to view the vendor general ledger turnov
   
 |Field|Description|  
 |-----------|-----------------|  
-|**Date Filter**|Select this field to specify the period that the data is analyzed for. You can use the buttons on the lower\-left corner of the form, or you can enter the dates manually.|  
+|**Date Filter**|Select this field to specify the period that the data is analyzed for. You can use the buttons on the lower-left corner of the form, or you can enter the dates manually.|  
 |**General Ledger Account Filter**|Select this field to filter the data by general ledger accounts.|  
 |**Global Dimension 1 Filter**|Select this field to define a value for the Global Dimension 1 filter.|  
 |**Global Dimension 2 Filter**|Select this field to define a value for the Global Dimension 2 filter.|  
@@ -270,4 +270,4 @@ The payables report feature enables you to view the vendor general ledger turnov
 ## See Also  
  [Russian Receivables Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/russian-receivables-reports.md)   
  [How to: Set Up Customer and Vendor Agreements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-set-up-customer-and-vendor-agreements.md)   
- [Payables and Receivables\-duplicate](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/payables-and-receivables-duplicate.md)
+ [Payables and Receivables-duplicate](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/payables-and-receivables-duplicate.md)

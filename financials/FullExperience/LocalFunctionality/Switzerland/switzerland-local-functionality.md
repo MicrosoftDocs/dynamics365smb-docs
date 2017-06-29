@@ -26,4 +26,4 @@ The following topics describe the local functionality in the Swiss version of AD
   [Swiss General Ledger Accounts](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/swiss-general-ledger-accounts.md)  
   [Swiss Purchase Documents and Sales Documents](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/swiss-purchase-documents-and-sales-documents.md)  
   [How to: Print General Ledger Setup Information](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-print-general-ledger-setup-information.md)  
-  [Tables, Reports, Batch Jobs, and Windows\-duplicate 10](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/tables-reports-batch-jobs-and-windows-duplicate-10.md)
+  [Tables, Reports, Batch Jobs, and Windows-duplicate 10](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/tables-reports-batch-jobs-and-windows-duplicate-10.md)

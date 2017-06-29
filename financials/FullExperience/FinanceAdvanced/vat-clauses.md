@@ -26,11 +26,11 @@ VAT clauses are used to provide descriptive information about the VAT that is be
   
  The following reports support the display of VAT clauses:  
   
--   Sales \- Invoice  
+-   Sales - Invoice  
   
 -   Sales – Credit Memo  
   
--   Service \- Invoice  
+-   Service - Invoice  
   
 -   Service – Credit Memo  
   

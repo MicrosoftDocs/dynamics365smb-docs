@@ -24,7 +24,7 @@ If you want to appreciate or depreciate an item or a specific item ledger entry,
   
 1.  In the **Search** box, enter **Revaluation Journal**, and then choose the related link.  
   
-2.  As the calculation of inventory value can be rather time consuming, it is not desirable if the calculation is cancelled because of a precondition not met. Therefore, the **Calculate Inventory Value \- Test** batch job can be used. This test report checks preconditions for the inventory value calculation.  
+2.  As the calculation of inventory value can be rather time consuming, it is not desirable if the calculation is cancelled because of a precondition not met. Therefore, the **Calculate Inventory Value - Test** batch job can be used. This test report checks preconditions for the inventory value calculation.  
   
 3.  On the **Actions** tab, in the **Functions** group, choose **Calculate Inventory Value**. The **Calculate Inventory Value** window opens.  
   

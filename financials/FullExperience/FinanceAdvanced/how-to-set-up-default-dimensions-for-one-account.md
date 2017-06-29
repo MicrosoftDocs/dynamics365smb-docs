@@ -41,4 +41,4 @@ You can set up a default dimension for a specific individual account. ADD INCLUD
  Default Dimension   
  Dimension   
  Adjust Exchange Rates   
- Post Inventory Cost to G\-L
+ Post Inventory Cost to G-L

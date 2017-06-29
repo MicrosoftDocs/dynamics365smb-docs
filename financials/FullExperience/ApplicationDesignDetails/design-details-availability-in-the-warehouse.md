@@ -31,19 +31,19 @@ The system must keep a constant control of item availability in the warehouse, s
  The result is displayed in the **Available Qty. to Pick** field in the **Pick Worksheet** window, where the field is calculated dynamically. The value is also calculated when users create warehouse picks directly for outbound documents. Such outbound documents could be sales orders, production consumption, or outbound transfers, where the result is reflected in the related quantity fields, such as **Qty. to Handle**.  
   
 > [!NOTE]  
->  Concerning the priority of reservations, the quantity to reserve is subtracted from the quantity available to pick. For example, if the quantity available in pick bins is 5 units, but 100 units are in put\-away bins, then when you try to reserve more than 5 units for another order, an error message is displayed because the additional quantity must be available in pick bins.  
+>  Concerning the priority of reservations, the quantity to reserve is subtracted from the quantity available to pick. For example, if the quantity available in pick bins is 5 units, but 100 units are in put-away bins, then when you try to reserve more than 5 units for another order, an error message is displayed because the additional quantity must be available in pick bins.  
   
 ### Calculating the Quantity Available to Pick  
  The quantity available to pick is calculated as follows:  
   
- quantity available to pick \= quantity in pick bins \- quantity on picks and movements – \(reserved quantity in pick bins \+ reserved quantity on picks and movements\)  
+ quantity available to pick \= quantity in pick bins - quantity on picks and movements – \(reserved quantity in pick bins \+ reserved quantity on picks and movements\)  
   
  The following diagram shows the different elements of the calculation.  
   
  ![Available to pick, with reservation overlap](../ApplicationDesign/media/design_details_warehouse_management_availability_2.png "design\_details\_warehouse\_management\_availability\_2")  
   
 ## Quantity Available to Reserve  
- Because the concepts of bin content and reservation co\-exist, the quantity of items that are available to reserve must be aligned with allocations to outbound warehouse documents.  
+ Because the concepts of bin content and reservation co-exist, the quantity of items that are available to reserve must be aligned with allocations to outbound warehouse documents.  
   
  It should be possible to reserve all items in inventory, except those that have started outbound processing. Accordingly, the quantity that is available to reserve is defined as the quantity on all documents and all bin types, except the following outbound quantities:  
   
@@ -51,11 +51,11 @@ The system must keep a constant control of item availability in the warehouse, s
   
 -   Quantity in shipment bins  
   
--   Quantity in to\-production bins  
+-   Quantity in to-production bins  
   
 -   Quantity in open shop floor bins  
   
--   Quantity in to\-assembly bins  
+-   Quantity in to-assembly bins  
   
 -   Quantity in adjustment bins  
   
@@ -66,7 +66,7 @@ The system must keep a constant control of item availability in the warehouse, s
 ### Calculating the Quantity Available to Reserve  
  The quantity available to reserve is calculated as follows:  
   
- quantity available to reserve \= total quantity in inventory \- quantity on picks and movements for source documents \- reserved quantity \- quantity in outbound bins  
+ quantity available to reserve \= total quantity in inventory - quantity on picks and movements for source documents - reserved quantity - quantity in outbound bins  
   
  The following diagram shows the different elements of the calculation.  
   

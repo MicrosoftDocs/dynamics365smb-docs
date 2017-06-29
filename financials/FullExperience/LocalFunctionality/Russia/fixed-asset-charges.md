@@ -26,7 +26,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.m
   
 -   Modernization  
   
--   Partial write\-off  
+-   Partial write-off  
   
 -   Revaluation  
   

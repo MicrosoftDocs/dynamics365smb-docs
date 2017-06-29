@@ -64,7 +64,7 @@ Web services are a lightweight way to make application functionality available t
     |SOAP|https:\/\/*Server*:*SOAPWebServicePort*\/*ServerInstance*\/WS\/*CompanyName*\/services\/|https:\/\/localhost:7047\/ADD INCLUDE<!--[!INCLUDE[nav_server_instance](../SetupAndAdministration/includes/nav_server_instance_md.md)]-->\/WS\/CRONUS International Ltd.\/services\/|  
     |OData|https:\/\/*Server*:*ODataWebServicePort*\/*ServerInstance*\/OData\/Company\('*CompanyName*'\)|https:\/\/localhost:7048\/ADD INCLUDE<!--[!INCLUDE[nav_server_instance](../SetupAndAdministration/includes/nav_server_instance_md.md)]-->\/OData\/Company\('CRONUS International Ltd.'\)|  
   
-     The company name is case\-sensitive.  
+     The company name is case-sensitive.  
   
 2.  Review the information that is displayed in the browser. Verify that you can see the name of the web service that you have created.  
   

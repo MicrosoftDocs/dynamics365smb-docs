@@ -19,7 +19,7 @@
 The following topics describe the local functionality in the Icelandic version of Microsoft Dynamics NAV.  
   
 ## In This Section  
- [What's New\-duplicate 13](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Iceland/what-s-new-duplicate-13.md)  
+ [What's New-duplicate 13](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Iceland/what-s-new-duplicate-13.md)  
  [Icelandic Tax Regulations of Conditional Discounts](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Iceland/icelandic-tax-regulations-of-conditional-discounts.md)  
   [Electronic Invoicing Requirement: Issuing Single Copy Invoice](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Iceland/electronic-invoicing-requirement-issuing-single-copy-invoice.md)  
   [Deleting Posted Invoices and Credit Memos](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Iceland/deleting-posted-invoices-and-credit-memos.md)  

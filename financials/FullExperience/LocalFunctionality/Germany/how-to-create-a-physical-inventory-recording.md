@@ -78,7 +78,7 @@ After you have created a physical inventory order and its lines you can create a
  You can now finish the physical inventory recording. For more information, see [How to: Finish a Physical Inventory Recording](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-finish-a-physical-inventory-recording.md).  
   
 ## See Also  
- [Physical Inventory Recording \- Counting Physical Inventory](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/physical-inventory-recording-counting-physical-inventory.md)   
+ [Physical Inventory Recording - Counting Physical Inventory](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/physical-inventory-recording-counting-physical-inventory.md)   
  [How to: Enter Physical Inventory Orders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-enter-physical-inventory-orders.md)   
  [How to: Calculate Quantity On Hand for a Physical Inventory Order](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-calculate-quantity-on-hand-for-a-physical-inventory-order.md)   
  [How to: Finish a Physical Inventory Recording](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-finish-a-physical-inventory-recording.md)   

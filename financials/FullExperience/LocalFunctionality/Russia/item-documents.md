@@ -16,13 +16,13 @@
 
     ---
 # Item Documents
-ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> includes several documents that you can use to manage your warehouse. This also includes reports that you must submit for official reporting, such as the Item Report TORG\-29, Items Receipt Act TORG\-1, and Receipt Deviations TORG\-2 reports.  
+ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> includes several documents that you can use to manage your warehouse. This also includes reports that you must submit for official reporting, such as the Item Report TORG-29, Items Receipt Act TORG-1, and Receipt Deviations TORG-2 reports.  
   
  The following types of documents are useful for managing your warehouse:  
   
--   Item receipt act without the vendor invoice \- This is applied to the account receipt of items based on the quality, quantity, and cost.  
+-   Item receipt act without the vendor invoice - This is applied to the account receipt of items based on the quality, quantity, and cost.  
   
--   Item writing\-off act – This is applied to register damage for reasons such as the loss of quality of items that will no longer be sold.  
+-   Item writing-off act – This is applied to register damage for reasons such as the loss of quality of items that will no longer be sold.  
   
 -   Item transfer – This is applied to receipt and delivery shipments for transfer of items within the organization.  
   
@@ -95,7 +95,7 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]
 |Changing document status|Documents can be open or released for the next processing stage. Click **Functions**, click **Release** or **Functions**, and then click **Reopen**.|  
 |Reservation of document lines|Items can be reserved from the document line. Click **Functions**, and then click **Reserve.**|  
 |Warehouse adjustment calculation|Refers only to item quantity corrections in the warehouse bins. This is accessible only if advanced picking and placing is used in the warehouse.|  
-|Document posting|Click **Posting** to perform the following:<br /><br /> -   **Post \-** Post the Item Receipt document. The posted item receipt is created.<br />-   **Post and Print \-** Post the document and print the test report.|  
+|Document posting|Click **Posting** to perform the following:<br /><br /> -   **Post -** Post the Item Receipt document. The posted item receipt is created.<br />-   **Post and Print -** Post the document and print the test report.|  
   
 ## Analysis of a Posted Document Item Receipt Without a Vendor  
  The following procedure shows how to analyze a posted document item receipt without a vendor.  
@@ -109,8 +109,8 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]
   
 3.  Choose the **Print** button.  
   
-## Creating an Item Writing\-Off Act  
- The following procedure shows how to create an item writing\-off act.  
+## Creating an Item Writing-Off Act  
+ The following procedure shows how to create an item writing-off act.  
   
 1.  In the **Search** box, enter **Item Shipments**, and then choose the related link.  
   
@@ -141,8 +141,8 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]
   
  The functions available in the Item Shipment document are same as those in the Item Receipt document.  
   
-## Analysis of a Posted Document Item Writing\-Off Act  
- The following procedure shows how to analyze a posted document item writing\-off act.  
+## Analysis of a Posted Document Item Writing-Off Act  
+ The following procedure shows how to analyze a posted document item writing-off act.  
   
 1.  In the **Search** box, enter **Posted Item Shipments**, and then choose the related link.  
   
@@ -153,21 +153,21 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]
   
 3.  Choose **Print**.  
   
-## Report Transfer Order TORG\-13 Based on an Unposted Transfer Document  
- The following procedure shows how to create a Transfer Order TORG\-13 report based on transfer documents that are not posted.  
+## Report Transfer Order TORG-13 Based on an Unposted Transfer Document  
+ The following procedure shows how to create a Transfer Order TORG-13 report based on transfer documents that are not posted.  
   
 1.  In the **Search** box, enter **Transfer Orders**, and then choose the related link.  
   
      On the **Actions** tab, in the **General** group, choose **Print**.  
   
-## Report Transfer Order TORG\-13 Based on a Posted Transfer Document \- Transfer Receipt  
+## Report Transfer Order TORG-13 Based on a Posted Transfer Document - Transfer Receipt  
  The following procedure shows how to create a report based on a posted transfer document called a transfer receipt.  
   
 1.  In the **Search** box, enter **Posted Transfer Receipt**, and then choose the related link.  
   
 2.  On the **Home** tab, in the **Print** group, choose **Print**.  
   
-## Report Transfer Order TORG\-13 Based on a Posted Transfer Document \- Transfer Shipment  
+## Report Transfer Order TORG-13 Based on a Posted Transfer Document - Transfer Shipment  
  The following procedure shows how to create a report based on a posted transfer document called a transfer shipment.  
   
 1.  In the **Search** box, enter **Posted Transfer Shipments**, and then choose the related link.  
@@ -178,7 +178,7 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]
  [Inventory Setup](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/inventory-setup.md)   
  [Item Obligatory Acts](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/item-obligatory-acts.md)   
  [Item General Ledger Turnover](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/item-general-ledger-turnover.md)   
- Item Report TORG\-29   
- Items Receipt Act TORG\-1   
- Receipt Deviations TORG\-2   
- Transfer Order TORG\-13
+ Item Report TORG-29   
+ Items Receipt Act TORG-1   
+ Receipt Deviations TORG-2   
+ Transfer Order TORG-13

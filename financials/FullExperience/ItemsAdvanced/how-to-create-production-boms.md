@@ -22,7 +22,7 @@ A production BOM holds master data that describes the components and subassembli
   
 -   Item cards are created for parent items and their components. For more information, see [How to: Register New Products](../DesignAndEngineering/how-to-register-new-products.md).  
   
--   Gather all data about item structures: Top\-level items, subassemblies, components, and their interrelation.  
+-   Gather all data about item structures: Top-level items, subassemblies, components, and their interrelation.  
   
 ### To fill in the production BOM header  
   

@@ -26,7 +26,7 @@ If you have set up the VAT features correctly, VAT is calculated and posted auto
   
  You can use a VAT statement to calculate the VAT settlement amount for a period. You can then print a VAT statement and copy the information onto a payment slip.  
   
- VAT is not calculated on sales to VAT\-liable companies in other EU countries\/regions. You must report the value of such sales separately. You can use the **VAT \- VIES Declaration Tax Auth.** report to produce the declaration.  
+ VAT is not calculated on sales to VAT-liable companies in other EU countries\/regions. You must report the value of such sales separately. You can use the **VAT - VIES Declaration Tax Auth.** report to produce the declaration.  
   
  You can use the **Calc. and Post VAT Settlement** batch job to close the VAT entries and transfer purchase and sales VAT amounts to the VAT settlement account.  
   
@@ -41,7 +41,7 @@ If you have set up the VAT features correctly, VAT is calculated and posted auto
 |Preview a VAT statement on screen before printing the statement.|[How to: Preview VAT Statements](../Finance/how-to-preview-vat-statements.md)|  
 |Print a VAT statement that you can use to fill in the payment slip for the tax authorities.|[How to: Print VAT Statements](../Finance/how-to-print-vat-statements.md)|  
 |Create a periodic VAT report that can be submitted to the tax authorities.|[VAT and VIES Report Setup](../Finance/vat-and-vies-report-setup.md)|  
-|Print a VIES report for sales to other EU countries\/regions.|[VAT\- VIES Declaration Tax Auth\-duplicate](../Topic/\($%20R_19%20VAT-%20VIES%20Declaration%20Tax%20Auth%20$\)-duplicate.md)|  
+|Print a VIES report for sales to other EU countries\/regions.|[VAT- VIES Declaration Tax Auth-duplicate](../Topic/\($%20R_19%20VAT-%20VIES%20Declaration%20Tax%20Auth%20$\)-duplicate.md)|  
 |Close the open VAT entries and post the net settlement amount to the VAT settlement account.|[How to: Transfer VAT Amounts to the Settlement Account](../Finance/how-to-transfer-vat-amounts-to-the-settlement-account.md)|  
   
 ## See Also  

@@ -41,7 +41,7 @@ After you have created the physical inventory order and after you have entered t
   
 ## See Also  
  [How to: Enter Physical Inventory Orders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-enter-physical-inventory-orders.md)   
- [Physical Inventory Recording \- Counting Physical Inventory](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/physical-inventory-recording-counting-physical-inventory.md)   
+ [Physical Inventory Recording - Counting Physical Inventory](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/physical-inventory-recording-counting-physical-inventory.md)   
  [How to: Finish a Physical Inventory Order](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-finish-a-physical-inventory-order.md)   
  [How to: Finish a Physical Inventory Recording](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-finish-a-physical-inventory-recording.md)   
  [Physical Inventory Order Lines With Item Tracking Lines](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/physical-inventory-order-lines-with-item-tracking-lines.md)

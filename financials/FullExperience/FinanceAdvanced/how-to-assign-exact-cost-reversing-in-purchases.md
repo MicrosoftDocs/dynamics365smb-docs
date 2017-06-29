@@ -31,7 +31,7 @@ You may agree with your vendor to return a purchased item to them. When you have
   
 2.  Enter a line for a returned item. For more information, see [How to: Create Purchase Return Orders](../Purchasing/how-to-create-purchase-return-orders.md).  
   
-3.  Choose the **Appl.\-to Item Entry** field, and then select the number of the original purchase entry number.  
+3.  Choose the **Appl.-to Item Entry** field, and then select the number of the original purchase entry number.  
   
  This links the purchase return order to the original purchase entry and ensures that the item is valued at the original unit cost.  
   
@@ -45,16 +45,16 @@ You may agree with your vendor to return a purchased item to them. When you have
   
 4.  In the **Posted Purchase Document Lines** window, select the line or lines that you want to reverse, and then choose the **OK** button.  
   
- The selected line or lines are inserted under the purchase return order line. The **Appl.\-from Item Entry** field on the lines are filled with number of the reversed item ledger entry.  
+ The selected line or lines are inserted under the purchase return order line. The **Appl.-from Item Entry** field on the lines are filled with number of the reversed item ledger entry.  
   
 > [!NOTE]  
->  If the line has item tracking, then the **Appl.\-to Item Entry** field is filled on the related line in the **Item Tracking Lines** window instead of on the purchase return line.  
+>  If the line has item tracking, then the **Appl.-to Item Entry** field is filled on the related line in the **Item Tracking Lines** window instead of on the purchase return line.  
   
 ## See Also  
  [How to: Reverse Posted Document Lines](../Finance/how-to-reverse-posted-document-lines.md)   
  [Design Details: Inventory Costing](../ApplicationDesign/design-details-inventory-costing.md)   
  Posted Purchase Document Lines   
  Item Tracking Lines   
- Appl.\-to Item Entry   
- Applies\-to Entry   
+ Appl.-to Item Entry   
+ Applies-to Entry   
  [How to: Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](../Finance/how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)

@@ -16,7 +16,7 @@
 
     ---
 # How to: Create Corrective Sales Invoices
-If you have posted a sales return order as received, but the item is subsequently rejected, you must invoice the sales return order so as to complete the transaction. A  posted sales credit memo is created in the process. Then you can issue a corrective sales invoice to re\-invoice your customer.  
+If you have posted a sales return order as received, but the item is subsequently rejected, you must invoice the sales return order so as to complete the transaction. A  posted sales credit memo is created in the process. Then you can issue a corrective sales invoice to re-invoice your customer.  
   
  At this point, you have posted the sales return order as received and invoiced.  
   

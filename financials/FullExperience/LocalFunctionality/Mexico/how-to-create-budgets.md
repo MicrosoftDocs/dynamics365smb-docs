@@ -65,7 +65,7 @@ In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow
 4.  On the **Actions** tab, in the **Functions** group, select **Create Budget**, and then choose **From History**.  
   
     > [!NOTE]  
-    >  When you create a budget with the **From History** option, you get the same result as you would if use the **Copy Budget** function with **G\/L Entry** as the **Source**. The budget is based on actual general ledger entries for the specified period. For more information, see Copy G\-L Budget.  
+    >  When you create a budget with the **From History** option, you get the same result as you would if use the **Copy Budget** function with **G\/L Entry** as the **Source**. The budget is based on actual general ledger entries for the specified period. For more information, see Copy G-L Budget.  
   
 5.  In the **Budget from History** batch job, on the **Options** FastTab, fill in the fields as described in the following table.  
   
@@ -83,7 +83,7 @@ In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow
 7.  Choose the **OK** button.  
   
 ## See Also  
- Copy G\-L Budget   
+ Copy G-L Budget   
  [How to: Import or Export a Budget](../../Finance/how-to-import-or-export-a-budget.md)   
  [Budgets](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/budgets.md)   
  Export Budget to Excel   

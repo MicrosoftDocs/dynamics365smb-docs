@@ -26,7 +26,7 @@ Proposals can be generated manually or automatically based on either vendor or c
   
 #### To create proposals manually  
   
-1.  In the **Search** box, enter **Telebank \- Bank Overview**, and then choose the related link.  
+1.  In the **Search** box, enter **Telebank - Bank Overview**, and then choose the related link.  
   
 2.  Select the relevant bank account. On the **Actions** tab, in the **Telebank** group, choose **Proposal**.  
   
@@ -46,7 +46,7 @@ Proposals can be generated manually or automatically based on either vendor or c
   
      [!INCLUDE[bp_fieldhelp]()]  
   
-3.  In the **Search** box, enter **Telebank \- Bank Overview**, and then choose the related link.  
+3.  In the **Search** box, enter **Telebank - Bank Overview**, and then choose the related link.  
   
 4.  Select the relevant bank account. On the **Actions** tab, in the **Telebank** group, choose **Proposal**.  
   
@@ -69,7 +69,7 @@ Proposals can be generated manually or automatically based on either vendor or c
   
      [!INCLUDE[bp_fieldhelp]()]  
   
-3.  In the **Search** box, enter **Telebank \- Bank Overview**, and then choose the related link.  
+3.  In the **Search** box, enter **Telebank - Bank Overview**, and then choose the related link.  
   
 4.  Select the relevant bank account. On the **Actions** tab, in the **Telebank** group, choose **Proposal**.  
   

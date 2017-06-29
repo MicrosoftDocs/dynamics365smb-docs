@@ -16,21 +16,21 @@
 
     ---
 # User-Defined Method
-The program has a facility that allows you to set up user\-defined depreciation methods.  
+The program has a facility that allows you to set up user-defined depreciation methods.  
   
- With a user\-defined method, you use the **Depreciation Tables** window, where you must enter a depreciation percentage for each period \(month, quarter, year, or accounting period\).  
+ With a user-defined method, you use the **Depreciation Tables** window, where you must enter a depreciation percentage for each period \(month, quarter, year, or accounting period\).  
   
  The formula for calculating the depreciation amounts is:  
   
  Depreciation Amount \= \(Depreciation % \* Number of Depreciation Days \* Depr. Basis\) \/ \(100 \* 360\)  
   
 ## Depreciation Based on Number of Units  
- This user\-defined method can also be used to depreciate based on number of units, for example, in the case of production machines with an established lifetime capacity. In the **Depreciation Tables** window, you can enter the number of units that can be produced in each period \(month, quarter, year, or accounting period\).  
+ This user-defined method can also be used to depreciate based on number of units, for example, in the case of production machines with an established lifetime capacity. In the **Depreciation Tables** window, you can enter the number of units that can be produced in each period \(month, quarter, year, or accounting period\).  
   
- For an example, see [Example \- User\-Defined Depreciation Method](../Finance/example-user-defined-depreciation-method.md) for more information.  
+ For an example, see [Example - User-Defined Depreciation Method](../Finance/example-user-defined-depreciation-method.md) for more information.  
   
 ## See Also  
- [How to: Set Up User\-Defined Depreciation Methods](../Finance/how-to-set-up-user-defined-depreciation-methods.md)   
+ [How to: Set Up User-Defined Depreciation Methods](../Finance/how-to-set-up-user-defined-depreciation-methods.md)   
  [Depreciation Methods](../Finance/depreciation-methods.md)   
  [Depreciate or Amortize Assets](../Finance/depreciate-or-amortize-assets.md)   
  [Set Up Depreciation](../Finance/set-up-depreciation.md)

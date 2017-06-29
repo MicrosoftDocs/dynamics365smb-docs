@@ -26,7 +26,7 @@ A tax group represents a group of inventory items or resources that are subject 
   
 2.  In the **Tax Groups** window, on the **Home** tab, in the **New** group, choose **New**.  
   
-3.  In the **New \- Tax Groups** window, fill in the fields as described in the following table.  
+3.  In the **New - Tax Groups** window, fill in the fields as described in the following table.  
   
     |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
     |---------------------------------|---------------------------------------|  

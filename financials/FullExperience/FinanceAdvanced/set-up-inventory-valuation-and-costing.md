@@ -22,7 +22,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |------------|-------------|  
 |Set a costing method for each item to govern how its incoming cost is used to assess inventory value and the cost of goods sold.|[Design Details: Costing Methods](../ApplicationDesign/design-details-costing-methods.md)|  
 |Ensure that the cost is automatically posted to the general ledger whenever an inventory transaction is posted.|Automatic Cost Posting|  
-|Ensure that expected costs are posted to the general ledger to see from the interim G\/L accounts an estimate of the amounts due and the cost of the traded items before they are actually invoiced.|Expected Cost Posting to G\-L|  
+|Ensure that expected costs are posted to the general ledger to see from the interim G\/L accounts an estimate of the amounts due and the cost of the traded items before they are actually invoiced.|Expected Cost Posting to G-L|  
 |Set the system up to adjust for any cost changes automatically every time you post inventory transactions.|Automatic Cost Adjustment|  
 |Define if the average cost is to be calculated per item only or per item for each stockkkeping unit and for each variant of the item.|Average Cost Calc. Type|  
 |Select the period of time you would like the program to use for calculating the weighted average cost of items that use the average costing method.|Average Cost Period|  

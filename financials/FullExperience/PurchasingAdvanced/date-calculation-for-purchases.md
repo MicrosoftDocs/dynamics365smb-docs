@@ -25,7 +25,7 @@ FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md
 ## Calculating with a Requested Receipt Date  
  If there is a requested receipt date on the purchase order line, then that date is used as the starting point for the following calculations.  
   
- requested receipt date \- lead time calculation \= order date  
+ requested receipt date - lead time calculation \= order date  
   
  requested receipt date \+ inbound whse. handling time \+ safety lead time \= expected receipt date  
   

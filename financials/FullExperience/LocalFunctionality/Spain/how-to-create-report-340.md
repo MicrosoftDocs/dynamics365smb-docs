@@ -34,7 +34,7 @@ Report 340 includes all sales invoices and purchase invoices posted by a company
     |**\($ B\_10743\_N\_2\_1000000000 G\/L Acc. for Payments in Cash $\)**|Select one or more on general ledger accounts to include only the entries that are posted to the filtered general ledger accounts in the report. **Important:**  The field is designed for reporting payments in cash. When you export the data to a declaration .txt file, you will see that the **Amount Received in Cash** field in the declaration .txt file contains the accumulated value for the selected general ledger accounts. If you do not select any general ledger accounts, type 2 lines for payments in cash will not be created.|  
     |**\($ B\_10743\_N\_2\_1100007 Contact Name $\)**|Enter the surname and name for the company that is creating the operations declaration.|  
     |**\($ B\_10743\_N\_2\_1100009 Telephone Number $\)**|Enter the telephone number for the company that is creating the operations declaration.|  
-    |**\($ B\_10743\_N\_2\_1100011 Non Deduct. Gen. Prod. Post. Groups $\)**|Select the general product posting group. The selected posting groups are non\-deductible VAT.|  
+    |**\($ B\_10743\_N\_2\_1100011 Non Deduct. Gen. Prod. Post. Groups $\)**|Select the general product posting group. The selected posting groups are non-deductible VAT.|  
     |**\($ B\_10743\_N\_2\_1100015 Declaration Number $\)**|Enter the number to identify the operations declaration.|  
     |**\($ B\_10743\_N\_2\_1100017 Electronic Code $\)**|Specify the electronic code that is provided by the tax authorities.|  
     |**\($ B\_10743\_N\_2\_1100019 Declaration Media Type $\)**|Select the media type for the declaration.|  

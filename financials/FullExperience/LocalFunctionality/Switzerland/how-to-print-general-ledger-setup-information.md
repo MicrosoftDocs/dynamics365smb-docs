@@ -26,17 +26,17 @@ Before you use FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/inc
   
     |FIX INCLUDE HERE<!--[!INCLUDE[bp_optionsheading](../../DesignAndEngineering/includes/bp_optionsheading_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
     |-------------------------------------|---------------------------------------|  
-    |**G\/L Setup \- Company Data \- Consolidation**|Displays tables for general ledger setup, company information, and business units.|  
+    |**G\/L Setup - Company Data - Consolidation**|Displays tables for general ledger setup, company information, and business units.|  
     |**Posting Groups**|Displays customer posting group tables, vendor posting group tables, inventory posting group tables, and bank account posting group tables.|  
     |**Posting Matrix**|Displays general business posting group tables, general product posting group tables, and general posting group tables.|  
     |**VAT Setup**|Displays VAT business posting group tables, VAT product posting group tables, and VAT posting setup tables.|  
-    |**Source Code \- Reason Code**|Displays source tables, source code setup tables, and reason codes tables.|  
+    |**Source Code - Reason Code**|Displays source tables, source code setup tables, and reason codes tables.|  
     |**Check Number Series**|Select to provide an overview of the use of number series so that you can identify number series that are problematic for the data export for the Grundsätze zum Datenzugriff und zur Prüfbarkeit digitaler Unterlagen \(GDPdU\). The report will show number series with one of the following issues:<br /><br /> -   The number series allows manual document numbers.<br />-   The number series is not chronological.<br />-   The number series is used in more than one table or field.|  
   
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- G\-L Setup Information   
+ G-L Setup Information   
  General Ledger Setup   
  Company Information   
  Business Unit   

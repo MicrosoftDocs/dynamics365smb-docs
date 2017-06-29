@@ -31,7 +31,7 @@ You may agree to compensate a customer by letting them return a sold item agains
   
 2.  Enter a line for a returned item. For more information, see [How to: Create Sales Return Orders](../Sales/how-to-create-sales-return-orders.md).  
   
-3.  Choose the **Appl.\-from Item Entry** field, and then select the number of the original sales entry number.  
+3.  Choose the **Appl.-from Item Entry** field, and then select the number of the original sales entry number.  
   
  This links the sales return order to the original sales entry and ensures that the item is valued at the original unit cost.  
   
@@ -45,16 +45,16 @@ You may agree to compensate a customer by letting them return a sold item agains
   
 4.  In the **Posted Sales Document Lines** window, select the line or lines that you want to reverse, and then choose the **OK** button.  
   
- The selected line or lines are inserted under the sales return order line. The **Appl.\-from Item Entry** field on the lines are filled with number of the reversed item ledger entry.  
+ The selected line or lines are inserted under the sales return order line. The **Appl.-from Item Entry** field on the lines are filled with number of the reversed item ledger entry.  
   
 > [!NOTE]  
->  If the line has item tracking, then the **Appl.\-from Item Entry** field is filled on the related line in the **Item Tracking Lines** window instead of on the sales return line.  
+>  If the line has item tracking, then the **Appl.-from Item Entry** field is filled on the related line in the **Item Tracking Lines** window instead of on the sales return line.  
   
 ## See Also  
  [How to: Reverse Posted Document Lines](../Finance/how-to-reverse-posted-document-lines.md)   
  [Design Details: Inventory Costing](../ApplicationDesign/design-details-inventory-costing.md)   
  Posted Sales Document Lines   
  Item Tracking Lines   
- Appl.\-from Item Entry   
- Applies\-to Entry   
+ Appl.-from Item Entry   
+ Applies-to Entry   
  [How to: Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](../Finance/how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)

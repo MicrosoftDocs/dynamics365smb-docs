@@ -20,7 +20,7 @@ The **\($ R\_305 Vendor – Summary Aging $\)** report displays amounts that wil
   
  It contains one line per vendor per currency with amounts due in three periods, which you determine before printing, amounts due before and after these periods, and the current balance due to the vendor.  
   
-### To use the vendor \- summary aging report  
+### To use the vendor - summary aging report  
   
 1.  In the **Search** box, enter **\($ R\_305 Vendor – Summary Aging $\)**, and then choose the related link.  
   
@@ -31,5 +31,5 @@ The **\($ R\_305 Vendor – Summary Aging $\)** report displays amounts that wil
 4.  Choose the **Print** button to print the report, or choose the **Preview** button to preview the report before printing it.  
   
 ## See Also  
- [How to: Use the Vendor \- Detail Trial Balance Report](../Topic/How%20to:%20Use%20the%20Vendor%20-%20Detail%20Trial%20Balance%20Report.md)   
+ [How to: Use the Vendor - Detail Trial Balance Report](../Topic/How%20to:%20Use%20the%20Vendor%20-%20Detail%20Trial%20Balance%20Report.md)   
  [How to: Suggest Vendor Payments](../Finance/how-to-suggest-vendor-payments.md)

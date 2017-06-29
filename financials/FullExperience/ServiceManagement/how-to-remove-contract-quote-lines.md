@@ -26,7 +26,7 @@ You may need to remove service items as contract lines from service contract quo
   
 3.  Select the line with the service items that you want to remove.  
   
-4.  Right\-click on the line and select **Delete Line**.  
+4.  Right-click on the line and select **Delete Line**.  
   
  The line is removed from the contract quote that you selected.  
   

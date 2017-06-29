@@ -28,9 +28,9 @@ In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow
   
 3.  On the **Actions** tab, in the **Functions** group, choose **Send Electronic Document**. An email will be sent to the customer with the electronic invoice attached as an XML file. If you selected the **Send PDF Report** field in the **General Ledger Setup** window, a PDF will be included with the XML file.  
   
-4.  Optionally, on the **Actions** tab, in the **Functions** group, choose **Export E\-Document as XML**. Select the location where you want to save the electronic invoice as an XML file.  
+4.  Optionally, on the **Actions** tab, in the **Functions** group, choose **Export E-Document as XML**. Select the location where you want to save the electronic invoice as an XML file.  
   
-     To verify the electronic invoice activity, in the **Posted Sales Invoice** window, on the **Invoicing** FastTab, the **Electronic Document Sent** and **No. of E\-Document Submissions** fields will be updated.  
+     To verify the electronic invoice activity, in the **Posted Sales Invoice** window, on the **Invoicing** FastTab, the **Electronic Document Sent** and **No. of E-Document Submissions** fields will be updated.  
   
 > [!NOTE]  
 >  FIX INCLUDE HERE<!--[!INCLUDE[bp_refimplementation](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/includes/bp_refimplementation_md.md)] -->  

@@ -36,4 +36,4 @@ The **Contract Gain\/Loss \(Responsibility Centers\)** matrix shows a scrollable
 >  If you have set the time interval to **Day** and you want to scroll over a long period, you can do it faster by shifting to a larger interval such as **Quarter**. When you have found the desired period, you can shift back to the original interval to see the data in more detail.  
   
 ## See Also  
- Contract Gain\-Loss \(Responsibility Centers\)%20$\).md)
+ Contract Gain-Loss \(Responsibility Centers\)%20$\).md)

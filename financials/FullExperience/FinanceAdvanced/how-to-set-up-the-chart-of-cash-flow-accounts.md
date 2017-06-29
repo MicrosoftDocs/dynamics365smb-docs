@@ -30,11 +30,11 @@ In the cash flow forecast, the individual values that affect the cash flow of yo
   
 5.  In the **Account Type** field, select an account type to identify the purpose of the cash flow account.  
   
-    -   Entry \- An account type that you register forecasted amounts to.  
+    -   Entry - An account type that you register forecasted amounts to.  
   
     -   Total – An account type that creates a total. You must fill in the **Totaling** field.  
   
-    -   End\-total – An account type that is filled in automatically by the **Indent Chart of Cash Flow Accounts** batch job.  
+    -   End-total – An account type that is filled in automatically by the **Indent Chart of Cash Flow Accounts** batch job.  
   
 6.  In the **Source Type**  field, select a source type.  
   
@@ -50,12 +50,12 @@ In the cash flow forecast, the individual values that affect the cash flow of yo
   
 9. Choose the **OK** button to close the window.  
   
-10. Repeat steps 2\-9 to set up a new cash flow account.  
+10. Repeat steps 2-9 to set up a new cash flow account.  
   
 11. After you have set up all the cash flow accounts, on the **Home** tab, in the **Process** group, select **Indent Chart of Cash Flow Accounts** to update the structure of cash flow accounts.  
   
 > [!NOTE]  
->  If you have entered definitions in the **Totaling** field for accounts of the **End\-Total** type before you perform the indent function, you must enter them again because the function overwrites the values in the **Totaling** field. The indent function moves all **End\-Totals** to the corresponding **Begin\-Totals** and indents the accounts that lie in between.  
+>  If you have entered definitions in the **Totaling** field for accounts of the **End-Total** type before you perform the indent function, you must enter them again because the function overwrites the values in the **Totaling** field. The indent function moves all **End-Totals** to the corresponding **Begin-Totals** and indents the accounts that lie in between.  
   
 ### To add comments to cash flow accounts  
   

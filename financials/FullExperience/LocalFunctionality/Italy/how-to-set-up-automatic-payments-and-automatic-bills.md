@@ -88,11 +88,11 @@ In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow
  Now, you can process customer bills and vendor bills so that they are handled automatically.  
   
 ## See Also  
- [How to: Set Up Payment Terms\-duplicate](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-set-up-payment-terms-duplicate.md)   
+ [How to: Set Up Payment Terms-duplicate](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-set-up-payment-terms-duplicate.md)   
  SEPA Direct Debit Exp. Format   
  Company Information   
  Bank Account Card   
- [\($ N\_459 Sales & Receivables Setup $\)\-duplicate](../../Sales/-$-n_459-sales-receivables-setup-$-duplicate.md)   
+ [\($ N\_459 Sales & Receivables Setup $\)-duplicate](../../Sales/-$-n_459-sales-receivables-setup-$-duplicate.md)   
  [\($ N\_460 Purchases & Payables Setup $\)](../../Purchasing/-$-n_460-purchases-payables-setup-$-.md)   
  Customer Card   
  Vendor Card   

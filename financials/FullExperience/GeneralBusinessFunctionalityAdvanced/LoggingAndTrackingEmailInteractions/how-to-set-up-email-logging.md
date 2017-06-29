@@ -21,7 +21,7 @@ You set up email logging in the **Marketing Setup** window. Setup requires an em
 > [!NOTE]  
 >  Consider creating a domain user email account that is not tied to specific individual. If you do this, you will also have to add the domain account to FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> --> --> --> as a Windows user who has the relevant permission set.  
   
- In order to set up email logging, you will require a [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] user who has sufficient permission sets. Consider using the permission sets BASIC and RM\-SETUP as defined in the FIX INCLUDE HERE<!--[!INCLUDE[demolong](../../ApplicationDesign/includes/demolong_md.md)] -->.  
+ In order to set up email logging, you will require a [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] user who has sufficient permission sets. Consider using the permission sets BASIC and RM-SETUP as defined in the FIX INCLUDE HERE<!--[!INCLUDE[demolong](../../ApplicationDesign/includes/demolong_md.md)] -->.  
   
  You must also have configured public folders on your Exchange server. For more information about configuring public folders in Exchange Server, see [Public folders](http://go.microsoft.com/fwlink/?LinkId=526140).  
   
@@ -31,9 +31,9 @@ You set up email logging in the **Marketing Setup** window. Setup requires an em
   
 1.  In the **Search** box, enter **Marketing Setup**, and then choose the related link.  
   
-2.  Expand the **E\-Mail Logging** FastTab to enter information to enable email logging.  
+2.  Expand the **E-Mail Logging** FastTab to enter information to enable email logging.  
   
-3.  In the **Autodiscovery E\-Mail Address** field, enter the email address that you want to use to enable the discovery and identification of your Exchange connection.  
+3.  In the **Autodiscovery E-Mail Address** field, enter the email address that you want to use to enable the discovery and identification of your Exchange connection.  
   
 4.  If you use Exchange Online, you must also specify the following fields:  
   
@@ -54,7 +54,7 @@ You set up email logging in the **Marketing Setup** window. Setup requires an em
   
 8.  To make sure that the address is valid on an Exchange Server, on the **Actions** tab, choose **Validate Email Logging Setup**.  
   
- After you have completed the setup of email logging, set up a job queue to start the process of having your email interactions logged on a regular or one\-time basis. For more information, see [How to: Set Up Email Logging for use with the Job Queue](../../BusinessFunctionality/LoggingAndTrackingEmailInteractions/how-to-set-up-email-logging-for-use-with-the-job-queue.md).  
+ After you have completed the setup of email logging, set up a job queue to start the process of having your email interactions logged on a regular or one-time basis. For more information, see [How to: Set Up Email Logging for use with the Job Queue](../../BusinessFunctionality/LoggingAndTrackingEmailInteractions/how-to-set-up-email-logging-for-use-with-the-job-queue.md).  
   
 ### To undo email logging setup  
   

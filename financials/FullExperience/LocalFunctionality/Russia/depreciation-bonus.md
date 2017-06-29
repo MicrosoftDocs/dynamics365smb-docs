@@ -43,7 +43,7 @@
 ## Selecting and Canceling Depreciation Bonus Transactions  
  Depreciation bonus transactions should be posted before the monthly depreciation amount is calculated and posted.  
   
- To select depreciation bonus transactions for posting for a period, select **Depr. Bonus** in the Fixed Asset Journal window and the Fixed Asset G\-L Journalwindow.  
+ To select depreciation bonus transactions for posting for a period, select **Depr. Bonus** in the Fixed Asset Journal window and the Fixed Asset G-L Journalwindow.  
   
  You can cancel depreciation bonus transactions by running the **Cancel FA Ledger Entries** batch job. After posting the depreciation bonus cancellation, all operations that are included in the depreciation bonus base must be manually selected as the depreciation bonus base.  
   
@@ -51,7 +51,7 @@
  [How to: Create Fixed Assets](../../Finance/how-to-create-fixed-assets.md)   
  Fixed Asset Card   
  Fixed Asset Journal   
- Fixed Asset G\-L Journal   
+ Fixed Asset G-L Journal   
  FA Depreciation Book   
  Depreciation Group   
  Tax Register Setup

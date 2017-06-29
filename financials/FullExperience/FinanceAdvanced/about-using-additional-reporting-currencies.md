@@ -29,11 +29,11 @@ As companies operate in increasingly more countries\/regions, it becomes more im
 ## Displaying Reports and Amounts in the Additional Reporting Currency  
  Using an additional reporting currency can assist the reporting process for a company in the following cases:  
   
--   Companies in non\-EU countries\/regions that have a high proportion of transactions with EU country\/region companies. In this case, the non\-EU company may also wish to report in euro to make its financial reports more usable for its EU trade partners.  
+-   Companies in non-EU countries\/regions that have a high proportion of transactions with EU country\/region companies. In this case, the non-EU company may also wish to report in euro to make its financial reports more usable for its EU trade partners.  
   
 -   Companies that also wish to display reports in a more internationally traded currency than their own local currency.  
   
- Several reports in the General Ledger application area are based on G\/L entries. To display the financial data in the report in the additional reporting currency, you simply place a check mark in the Show in Add.\-Currency field on the Options FastTab for the relevant G\/L report.  
+ Several reports in the General Ledger application area are based on G\/L entries. To display the financial data in the report in the additional reporting currency, you simply place a check mark in the Show in Add.-Currency field on the Options FastTab for the relevant G\/L report.  
   
 ## See Also  
  Adjust Add. Reporting Currency   

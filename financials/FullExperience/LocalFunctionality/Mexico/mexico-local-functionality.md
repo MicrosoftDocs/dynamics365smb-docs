@@ -19,7 +19,7 @@
 The following topics describe the local functionality in the Mexican version of FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->.  
   
 ## In This Section  
- [What's New\-duplicate 8](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Mexico/what-s-new-duplicate-8.md)  
+ [What's New-duplicate 8](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Mexico/what-s-new-duplicate-8.md)  
   [Budgets](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/budgets.md)  
   [Electronic Invoicing](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Mexico/electronic-invoicing.md)  
   [Electronic Payments for United States, Canada, and Mexico](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/electronic-payments-for-united-states-canada-and-mexico.md)  
@@ -35,4 +35,4 @@ The following topics describe the local functionality in the Mexican version of 
   [Tax Identification Types for Mexico](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Mexico/tax-identification-types-for-mexico.md)  
   [VAT Recalculation](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Mexico/vat-recalculation.md)  
   [How to: Print Troubleshooting Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-print-troubleshooting-reports.md)  
-  [Tables, Reports, Batch Jobs, and Windows\-duplicate 4](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/tables-reports-batch-jobs-and-windows-duplicate-4.md)
+  [Tables, Reports, Batch Jobs, and Windows-duplicate 4](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/tables-reports-batch-jobs-and-windows-duplicate-4.md)

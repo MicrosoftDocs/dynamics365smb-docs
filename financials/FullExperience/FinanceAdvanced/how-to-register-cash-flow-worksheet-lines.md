@@ -22,7 +22,7 @@ In the worksheet for the cash flow forecast, you use a batch job to predict the 
 >  Before you register the worksheet entries, the relevant postings from the areas of general ledger, sales, purchasing, service, and fixed assets must be entered. In addition, possible manual revenues and manual expenses must be recorded.  
   
 > [!NOTE]  
->  In the cash flow worksheet, you update negative or positive amounts of cash inflows and outflows in single lines to cash flow accounts. This is different than the general journal, in which single\-line or multiple\-line accounts can be posted to an account.  
+>  In the cash flow worksheet, you update negative or positive amounts of cash inflows and outflows in single lines to cash flow accounts. This is different than the general journal, in which single-line or multiple-line accounts can be posted to an account.  
   
 ### To register the cash flow worksheet lines  
   

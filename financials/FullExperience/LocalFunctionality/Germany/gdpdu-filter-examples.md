@@ -46,7 +46,7 @@ The following topic provides examples of how you can use and combine different f
 |Table No.|Table Name|Period Field No.|Period Field Name|Table Filter|  
 |---------------|----------------|----------------------|-----------------------|------------------|  
 |17|G\/L Entry|4|Posting Date||  
-|21|Cust. Ledger Entry|||Cust. Ledger Entry: **Posting Date\=..31\-12\-13**|  
+|21|Cust. Ledger Entry|||Cust. Ledger Entry: **Posting Date\=..31-12-13**|  
   
  **Export Results**  
   

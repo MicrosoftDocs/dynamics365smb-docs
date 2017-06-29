@@ -31,7 +31,7 @@ When you receive a CODA statement from your bank, you must import it into FIX IN
 ## See Also  
  [CODA Bank Statements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/coda-bank-statements.md)   
  [How to: Set Up Bank Accounts for CODA](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-bank-accounts-for-coda.md)   
- [How to: Set Up IBLC\-BLWI Transaction Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-iblc-blwi-transaction-codes.md)   
+ [How to: Set Up IBLC-BLWI Transaction Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-iblc-blwi-transaction-codes.md)   
  [How to: Apply CODA Statements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-apply-coda-statements.md)   
  [How to: Create Financial Journals](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-create-financial-journals.md)   
  [How to: Automatically Transfer and Post CODA Statements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-automatically-transfer-and-post-coda-statements.md)   

@@ -24,9 +24,9 @@ For an item to participate in supply planning, a reorder policy must be defined.
   
 -   Order  
   
--   Lot\-for\-Lot  
+-   Lot-for-Lot  
   
- Fixed Reorder Qty. and Maximum Qty. policies relate to inventory planning. Although inventory planning is technically simpler than the balancing procedure, these policies must coexist with the step\-by\-step balancing of supply and order tracking. To control the integration between the two, and to provide visibility into the involved planning logic, strict principles govern how reordering policies are handled.  
+ Fixed Reorder Qty. and Maximum Qty. policies relate to inventory planning. Although inventory planning is technically simpler than the balancing procedure, these policies must coexist with the step-by-step balancing of supply and order tracking. To control the integration between the two, and to provide visibility into the involved planning logic, strict principles govern how reordering policies are handled.  
   
 ## In This Section  
  [Design Details: The Role of the Reorder Point](../ApplicationDesign/design-details-the-role-of-the-reorder-point.md)  

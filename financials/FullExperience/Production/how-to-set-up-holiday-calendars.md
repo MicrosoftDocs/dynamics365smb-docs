@@ -26,7 +26,7 @@ After the working days have been created, the exceptions must be specified.
   
 3.  On the **Navigate** tab, in the **Shop Cal.** group, choose **Holidays**.  
   
-4.  Enter the planned holiday. The holiday may only be a portion of the planned work time. In this case, enter only the corresponding period of time by filling in the **Starting Date\-Time** and **Ending Time** fields.  
+4.  Enter the planned holiday. The holiday may only be a portion of the planned work time. In this case, enter only the corresponding period of time by filling in the **Starting Date-Time** and **Ending Time** fields.  
   
 ## See Also  
  Work Center Calendar   

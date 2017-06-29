@@ -33,7 +33,7 @@ Companies must submit their business transaction entries, grouped by transaction
   
 4.  Choose the **OK** button.  
   
-     After the journal is posted, a final transaction number is assigned to entries in the journal. This number is a sequential, non\-gap number. Thus, for each fiscal year, all of the entries grouped by their transaction number are sorted by date in sequential order, with no gaps or blanks.  
+     After the journal is posted, a final transaction number is assigned to entries in the journal. This number is a sequential, non-gap number. Thus, for each fiscal year, all of the entries grouped by their transaction number are sorted by date in sequential order, with no gaps or blanks.  
   
 ### To print all transactions for a period  
   

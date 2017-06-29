@@ -29,7 +29,7 @@ When you post inventory transactions, such as sales shipments, production output
   
  The posting dates of the general ledger entries are set to the posting date of the corresponding value entry, except when the value entry falls in a closed accounting period. In this case, the value entry is skipped, and you must change either the general ledger setup or the user setup to enable posting in the date range.  
   
- When you run the **Post Inventory Cost to G\/L** batch job, you might receive errors because of missing setup or incompatible dimension setup. If the batch job encounters errors in the dimension setup, it overrides these errors and uses the dimensions of the value entry. For other errors, the batch job does not post the value entries and lists them at the end of the report in a section titled, **Skipped Entries**. To post these entries, you must first fix the errors. To see a list of errors before you run the batch job, you can run the **Post Invt. Cost to G\/L \- Test** report. This report lists all of the errors that are encountered during a test posting. You can fix the errors, and then run the inventory cost posting batch job without skipping any entries.  
+ When you run the **Post Inventory Cost to G\/L** batch job, you might receive errors because of missing setup or incompatible dimension setup. If the batch job encounters errors in the dimension setup, it overrides these errors and uses the dimensions of the value entry. For other errors, the batch job does not post the value entries and lists them at the end of the report in a section titled, **Skipped Entries**. To post these entries, you must first fix the errors. To see a list of errors before you run the batch job, you can run the **Post Invt. Cost to G\/L - Test** report. This report lists all of the errors that are encountered during a test posting. You can fix the errors, and then run the inventory cost posting batch job without skipping any entries.  
   
 ## Automatic Cost Posting  
  To set up cost posting to the general ledger to run automatically when you post an inventory transaction, select the **Automatic Cost Posting** check box in the **Inventory Setup** window. The posting date of the general ledger entry is the same as the posting date of the item ledger entry.  
@@ -79,7 +79,7 @@ When you post inventory transactions, such as sales shipments, production output
   
     3.  The indirect cost is calculated and posted. \(Purchase\)  
   
-    4.  The purchase variance is calculated and posted \(only for standard\-cost items\). \(Purchase\)  
+    4.  The purchase variance is calculated and posted \(only for standard-cost items\). \(Purchase\)  
   
 3.  The user sells one chain and posts the sales order as shipped. \(Sale\)  
   
@@ -105,7 +105,7 @@ When you post inventory transactions, such as sales shipments, production output
   
 7.  The user posts the expected cost of one chain. \(Output\)  
   
-8.  The user finishes the production order and runs the **Adjust Cost \- Item Entries** batch job. \(Output\)  
+8.  The user finishes the production order and runs the **Adjust Cost - Item Entries** batch job. \(Output\)  
   
     1.  The interim accounts are cleared. \(Output\)  
   
@@ -113,7 +113,7 @@ When you post inventory transactions, such as sales shipments, production output
   
     3.  The indirect cost \(overhead\) is transferred from the indirect cost account to the inventory account. \(Output\)  
   
-    4.  This results in a variance amount of LCY 157.00. Variances are only calculated for standard\-cost items. \(Output\)  
+    4.  This results in a variance amount of LCY 157.00. Variances are only calculated for standard-cost items. \(Output\)  
   
          ![Results of output posting to G&#47;L accounts](../ApplicationDesign/media/design_details_inventory_costing_3_gl_posting_output.png "design\_details\_inventory\_costing\_3\_GL\_posting\_output")  
   

@@ -27,9 +27,9 @@ General ledger reports meet financial accounting standards, and they contain inf
     |Report|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
     |------------|---------------------------------------|  
     |**Journals**|-   Shows all of the general ledger transactions.<br />-   Shows the subtotals of the transactions per period.<br /><br /> For more information, see Journals.|  
-    |**G\/L Journal**|Shows the subtotals for each source code per month.<br /><br /> For more information, see G\-L Journal.|  
-    |**G\/L Trial Balance**|Shows opening debit and credit balances, period debit and credit balances, and final debit and credit balances for all general ledger accounts.<br /><br /> For more information, see G\-L Trial Balance.|  
-    |**G\/L Detail Trial Balance**|-   Shows the general ledger transactions for all general ledger accounts.<br />-   Shows the subtotals of the transactions per general ledger account.<br /><br /> For more information, see G\-L Detail Trial Balance.|  
+    |**G\/L Journal**|Shows the subtotals for each source code per month.<br /><br /> For more information, see G-L Journal.|  
+    |**G\/L Trial Balance**|Shows opening debit and credit balances, period debit and credit balances, and final debit and credit balances for all general ledger accounts.<br /><br /> For more information, see G-L Trial Balance.|  
+    |**G\/L Detail Trial Balance**|-   Shows the general ledger transactions for all general ledger accounts.<br />-   Shows the subtotals of the transactions per general ledger account.<br /><br /> For more information, see G-L Detail Trial Balance.|  
     |**Customer Journal**|-   Shows the transactions of all customer accounts.<br />-   Show the subtotals of the customer transactions per period.<br /><br /> For more information, see Customer Journal.|  
     |**Customer Trial Balance**|Shows opening debit and credit balances, period debit and credit balances, and final debit and credit balances for all customer accounts.<br /><br /> For more information, see Customer Trial Balance.|  
     |**Customer Trial Balance**|-   Shows all of the transactions for all customer accounts.<br />-   Shows the subtotals of the customer transactions per account.<br /><br /> For more information, see Customer Trial Balance.|  

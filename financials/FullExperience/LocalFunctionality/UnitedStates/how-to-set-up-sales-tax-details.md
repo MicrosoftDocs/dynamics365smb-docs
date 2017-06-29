@@ -26,7 +26,7 @@ The **Tax Details** window contains a matrix table that uses different combinati
   
 2.  In the **Tax Details** window, on the **Home** tab, in the **New** group, choose **New**.  
   
-3.  In the **New \- Tax Details** window, fill in the fields as described in the following table.  
+3.  In the **New - Tax Details** window, fill in the fields as described in the following table.  
   
     |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> -->|  
     |---------------------------------|---------------------------------------|  
@@ -56,7 +56,7 @@ The **Tax Details** window contains a matrix table that uses different combinati
   
 4.  Choose the **OK** button.  
   
- For customers with ship\-to addresses, you can select whether sales to each alternative address are tax liable, and you can enter a tax area code for each alternative address. This allows you to select the tax area that corresponds to the ship\-to location.  
+ For customers with ship-to addresses, you can select whether sales to each alternative address are tax liable, and you can enter a tax area code for each alternative address. This allows you to select the tax area that corresponds to the ship-to location.  
   
 ## See Also  
  Sales Tax Detail by Area   

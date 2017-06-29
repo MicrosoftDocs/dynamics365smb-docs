@@ -29,7 +29,7 @@ From the **Direct Debit Collections** window, you can export instructions to you
   
 -   Set up the customer’s payment method.  
   
--   Set up the direct\-debit mandate that reflects your agreement with the customer to collect their payments in a certain agreement period.  
+-   Set up the direct-debit mandate that reflects your agreement with the customer to collect their payments in a certain agreement period.  
   
 ### To set up your bank account for SEPA direct debit  
   
@@ -45,7 +45,7 @@ From the **Direct Debit Collections** window, you can export instructions to you
   
 2.  In the **Payment Methods** window, on the **Home** tab, in the **New** group, choose **New**.  
   
-3.  Set up a payment method. Fill in the direct debit\-specific fields as described in the following table.  
+3.  Set up a payment method. Fill in the direct debit-specific fields as described in the following table.  
   
     |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)] --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)] --> -->|  
     |---------------------------------|---------------------------------------|  
@@ -65,7 +65,7 @@ From the **Direct Debit Collections** window, you can export instructions to you
   
 8.  Repeat steps 6 and 7 for all customers that you want to set up for SEPA direct debit collection.  
   
-#### To set up the direct\-debit mandate that represents the customer agreement  
+#### To set up the direct-debit mandate that represents the customer agreement  
   
 1.  In the **Search** box, enter **Customers**, and then choose the related link.  
   
@@ -79,18 +79,18 @@ From the **Direct Debit Collections** window, you can export instructions to you
   
     |[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**Customer Bank Account Code**|Specifies the bank account from which direct\-debit payments are collected. This field is filled automatically.|  
-    |**Valid From**|Specify the date when the direct\-debit mandate starts.|  
-    |**Valid To**|Specify the date when the direct\-debit mandate ends.|  
-    |**Date of Signature**|Specify the date when the customer signed the direct\-debit mandate.|  
+    |**Customer Bank Account Code**|Specifies the bank account from which direct-debit payments are collected. This field is filled automatically.|  
+    |**Valid From**|Specify the date when the direct-debit mandate starts.|  
+    |**Valid To**|Specify the date when the direct-debit mandate ends.|  
+    |**Date of Signature**|Specify the date when the customer signed the direct-debit mandate.|  
     |**Sequence Type**|Specify if the agreement covers multiple \(**Recurring**\) or a single \(**One Off**\) direct debit collection.|  
     |**Expected Number of Debits**|Specify how many direct debit collections you expect to make. This field is only relevant if you selected **Recurring** in the **Sequence Type** field.|  
-    |**Debit Counter**|Specifies how many direct debit collections have been made using this direct\-debit mandate. This field is automatically updated.|  
-    |**Blocked**|Specify that direct debit collections cannot be made using this direct\-debit mandate.|  
+    |**Debit Counter**|Specifies how many direct debit collections have been made using this direct-debit mandate. This field is automatically updated.|  
+    |**Blocked**|Specify that direct debit collections cannot be made using this direct-debit mandate.|  
   
 6.  Repeat steps 1 through 5 for all customers that you want to set up for SEPA direct debits.  
   
- The direct\-debit mandate is automatically inserted in the **Direct Debit Mandate ID** field when you create a sales invoice for the customer that you selected in step 2. For more information, see [How to: Create Multiple Sales Invoices Based on Standard Sales Codes](../Finance/how-to-create-multiple-sales-invoices-based-on-standard-sales-codes.md).  
+ The direct-debit mandate is automatically inserted in the **Direct Debit Mandate ID** field when you create a sales invoice for the customer that you selected in step 2. For more information, see [How to: Create Multiple Sales Invoices Based on Standard Sales Codes](../Finance/how-to-create-multiple-sales-invoices-based-on-standard-sales-codes.md).  
   
 ## See Also  
  SEPA Direct Debit Exp. Format   

@@ -43,7 +43,7 @@ Delivery reminders are used to track overdue vendor shipments, and to remind ven
  **Issued Delivery Reminder**  
  To view the delivery reminders for vendors.  
   
- **Delivery Reminder \- Test**  
+ **Delivery Reminder - Test**  
  To verify the delivery reminders before you issue them.  
   
  For more information, see [How to: Print Test Reports for Delivery Reminders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-print-test-reports-for-delivery-reminders.md).  

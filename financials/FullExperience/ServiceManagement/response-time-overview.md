@@ -20,8 +20,8 @@ The **Response Time \(Hours\)** field is automatically filled in, depending on w
   
 |FIX INCLUDE HERE<!--[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
 |----------------------------------|---------------------------------------|  
-|**Service item is included on contract**|If the service item is on a service contract, the value in the **Response Time \(Hours\)** field is used on the corresponding service contract line if it is non\-zero.<br /><br /> Otherwise, the value in **the Response Time \(Hours\)** field from the corresponding service contract header is used if it is non\-zero.|  
-|**Service item is not included on contract**|If the service item is on a service contract, the value in the **Response Time \(Hours\)** field is used on the corresponding service contract line if it is non\-zero.<br /><br /> Otherwise, the value in **the Response Time \(Hours\)** field from the corresponding service contract header is used if it is non\-zero.|  
+|**Service item is included on contract**|If the service item is on a service contract, the value in the **Response Time \(Hours\)** field is used on the corresponding service contract line if it is non-zero.<br /><br /> Otherwise, the value in **the Response Time \(Hours\)** field from the corresponding service contract header is used if it is non-zero.|  
+|**Service item is not included on contract**|If the service item is on a service contract, the value in the **Response Time \(Hours\)** field is used on the corresponding service contract line if it is non-zero.<br /><br /> Otherwise, the value in **the Response Time \(Hours\)** field from the corresponding service contract header is used if it is non-zero.|  
   
 ## See Also  
  [How to: Change Response Times for Service Item Lines](../Service/how-to-change-response-times-for-service-item-lines.md)   

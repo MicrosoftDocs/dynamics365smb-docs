@@ -16,9 +16,9 @@
 
     ---
 # How to: Enter VAT-liable Amounts Without VAT in General Journals
-When you enter a VAT\-liable amount including VAT on a journal line, you must enter it in the **Amount** field. Alternatively, you may enter the amount excluding VAT, also called the *VAT base*. If you choose to do so, you must not enter anything in the **Amount** field.  
+When you enter a VAT-liable amount including VAT on a journal line, you must enter it in the **Amount** field. Alternatively, you may enter the amount excluding VAT, also called the *VAT base*. If you choose to do so, you must not enter anything in the **Amount** field.  
   
-### To enter VAT\-liable amounts without VAT  
+### To enter VAT-liable amounts without VAT  
   
 1.  In the **Search** box, enter **General Journal**, and then choose the related link.  
   

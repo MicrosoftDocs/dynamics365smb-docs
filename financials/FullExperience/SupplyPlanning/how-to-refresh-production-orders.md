@@ -49,7 +49,7 @@ This planning function calculates changes made to a production order header and 
 6.  Select the **Warehouse – Create Inbound Request** field to create a warehouse request for the putting away of the production order's components.  
   
     > [!NOTE]  
-    >  The warehouse location must be set up to require put\-away processing but not directed put\-away and pick.  
+    >  The warehouse location must be set up to require put-away processing but not directed put-away and pick.  
   
 7.  Choose the **OK** button to start the **Refresh** function according to your settings.  
   

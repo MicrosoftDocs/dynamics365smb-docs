@@ -21,7 +21,7 @@ Companies must pay VAT to the state for most purchased goods and services. VAT c
  In FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> --> --> --> --> --> -->, you can define periodic VAT reports in the **VAT Report** window. You can fill in the lines based on VAT entries, and then export the VAT report to the appropriate authorities.  
   
 ## VAT Codes and Rates  
- VAT codes and rates must be set up even though some transactions are not subject to VAT rates. There are also many VAT\-liable operations that are subject to a zero VAT rate by provision of the law.  
+ VAT codes and rates must be set up even though some transactions are not subject to VAT rates. There are also many VAT-liable operations that are subject to a zero VAT rate by provision of the law.  
   
  The related VAT code is printed for each invoice line. Invoices for VAT transaction entries that are not subject to VAT rates must be recorded and printed with a note stating that VAT is not owed.  
   
@@ -31,17 +31,17 @@ Companies must pay VAT to the state for most purchased goods and services. VAT c
 ### Dates  
  The date of issue is the document date and the date of registration is the posting date. Reporting date filters are based on the posting dates. This is changed from the previous behavior in which reporting date filters were based on the Operation Occured Date.  
   
-### Non\-deductible VAT  
+### Non-deductible VAT  
  VAT cannot be deducted for some purchases because of:  
   
--   The type of goods or services purchased – VAT is fully or partially non\-deductible by provision of the law on goods like cars, mobile phones, food purchased at restaurants, and so on.  
+-   The type of goods or services purchased – VAT is fully or partially non-deductible by provision of the law on goods like cars, mobile phones, food purchased at restaurants, and so on.  
   
--   Partially deductible pro\-rated VAT – VAT is pro\-rated according to the ratio between sales operations for which VAT is owed, and all operations performed. VAT exceeding this ratio cannot be deducted.  
+-   Partially deductible pro-rated VAT – VAT is pro-rated according to the ratio between sales operations for which VAT is owed, and all operations performed. VAT exceeding this ratio cannot be deducted.  
   
 ## Service Tariffs  
- The European Union \(EU\) has issued directives that change the VAT reporting for cross\-border trade of goods and services in the EU.  
+ The European Union \(EU\) has issued directives that change the VAT reporting for cross-border trade of goods and services in the EU.  
   
- In Italy, the EU sales list \(Intrastat\) and annual listing reports are updated to include services. This involves a change in the reporting format. A new table for service tariffs is added so that companies can classify services that must be included in the Intrastat report. Users must add the relevant service tariff to all documents that are for cross\-border transactions. The service tariff specified on the **Foreign Trade** FastTab for the document can be modified in each line in the document.  
+ In Italy, the EU sales list \(Intrastat\) and annual listing reports are updated to include services. This involves a change in the reporting format. A new table for service tariffs is added so that companies can classify services that must be included in the Intrastat report. Users must add the relevant service tariff to all documents that are for cross-border transactions. The service tariff specified on the **Foreign Trade** FastTab for the document can be modified in each line in the document.  
   
 ## VAT Transaction Reports  
  You must submit periodic reports to the tax authorities, which list transactions that include VAT with amounts over a specified threshold. The VAT transaction reports are created based on transactions with customers or vendors from a country\/region that is outside the EU and is not blacklisted. Transactions with customers or vendors from EU countries\/regions are reported through **Intrastat** reports. Transactions with customers or vendors from countries\/regions that are blacklisted are reported through the **Blacklist Communication Report** report. [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] provides support for the following transaction types:  
@@ -49,13 +49,13 @@ Companies must pay VAT to the state for most purchased goods and services. VAT c
 |||  
 |-|-|  
 |**Transaction Type**|**Supported**|  
-|FE \- Customer invoices \(factures issued\)|Yes|  
-|FR \- Vendor invoices \(factures received\)|Yes|  
-|NE \- Customer credit notes \(notes issued\)|Yes|  
-|NR \- Vendor credit notes \(notes received\)|Yes|  
-|DF \- Transactions without invoices \(direct invoices\) \(customer\)|No|  
-|FN \- Customers invoices, when customer is non\-resident|Yes|  
-|SE \- Vendor invoices, when vendor is non\-resident|Yes **Note:**  The purchase of services is assumed, but differentiation between service and goods is left for the user to implement.|  
+|FE - Customer invoices \(factures issued\)|Yes|  
+|FR - Vendor invoices \(factures received\)|Yes|  
+|NE - Customer credit notes \(notes issued\)|Yes|  
+|NR - Vendor credit notes \(notes received\)|Yes|  
+|DF - Transactions without invoices \(direct invoices\) \(customer\)|No|  
+|FN - Customers invoices, when customer is non-resident|Yes|  
+|SE - Vendor invoices, when vendor is non-resident|Yes **Note:**  The purchase of services is assumed, but differentiation between service and goods is left for the user to implement.|  
   
  [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] does not report the following types of transactions:  
   
@@ -63,7 +63,7 @@ Companies must pay VAT to the state for most purchased goods and services. VAT c
   
 -   Operations without an invoice, for example, VAT entries posted via general ledger accounts, because a VAT registration number, a fiscal code, or a customer or vendor reference is required for inclusion in a report.  
   
--   Self\-billed transactions, which are not supported.  
+-   Self-billed transactions, which are not supported.  
   
  The VAT transactions reports include lines where the amount is over the threshold and lines that must be included for other legal reasons. The threshold amount is set by the Italian authorities.  
   
@@ -79,8 +79,8 @@ Companies must pay VAT to the state for most purchased goods and services. VAT c
 |Scenario|Impact|  
 |--------------|------------|  
 |A credit memo is applied to a single invoice.<br /><br /> The **Refers to Period** field is set to **Current Calendar Year**.|The **Invoice No.** field will be set to the document number of the invoice.<br /><br /> The **Invoice Date** field will be set to the date that is specified in the **Operation Occurred Date** field<br /><br /> [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] will deduct the credit memo amount from the amount of the original invoice. If the resulting amount is above the threshold, both the invoice and credit memo will be included in the VAT transactions report. If the resulting amount is below the threshold, neither invoice or credit memo will be included in the VAT transactions report.|  
-|A credit memo is applied to multiple invoices, or it is not applied.<br /><br /> The **Refers to Period** field is set to **Current Calendar Year**.|The **Invoice Date** field will be set to the last day of the year that is specified in the **Operation Occurred Date** field. For example, if the **Operation Occurred Date** field is **07\-11\-11**, the **Invoice Date** field will be set to **31\-12\-11**.<br /><br /> Only the credit memo will be included in the VAT transactions report.|  
-|A credit memo is applied to multiple invoices, or it is not applied.<br /><br /> The **Refers to Period** field is set to **Previous Calendar Year**.|The **Invoice Date** field will be set to the last day of the year before the date that is specified in the **Operation Occurred Date** field. For example, if the **Operation Occurred Date** field is **07\-11\-11**, the **Invoice Date** field will be set to **31\-12\-10**.<br /><br /> Only the credit memo will be included in the VAT transactions report.|  
+|A credit memo is applied to multiple invoices, or it is not applied.<br /><br /> The **Refers to Period** field is set to **Current Calendar Year**.|The **Invoice Date** field will be set to the last day of the year that is specified in the **Operation Occurred Date** field. For example, if the **Operation Occurred Date** field is **07-11-11**, the **Invoice Date** field will be set to **31-12-11**.<br /><br /> Only the credit memo will be included in the VAT transactions report.|  
+|A credit memo is applied to multiple invoices, or it is not applied.<br /><br /> The **Refers to Period** field is set to **Previous Calendar Year**.|The **Invoice Date** field will be set to the last day of the year before the date that is specified in the **Operation Occurred Date** field. For example, if the **Operation Occurred Date** field is **07-11-11**, the **Invoice Date** field will be set to **31-12-10**.<br /><br /> Only the credit memo will be included in the VAT transactions report.|  
   
  When service contracts are compared with the threshold, the **Annual Amount** field is converted to your local currency \(LCY\). The conversion is based on the **Currency Code** field and the exchange rate on the date in the **Starting Date** field for the service contract.  
   
@@ -96,6 +96,6 @@ Companies must pay VAT to the state for most purchased goods and services. VAT c
  [How to: Create Electronic VAT Transactions Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-create-electronic-vat-transactions-reports.md)   
  [How to: Submit VAT Statements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-submit-vat-statements.md)   
  [How to: Update VAT Transactions Data](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-update-vat-transactions-data.md)   
- [How to: Report Trade with Customers and Vendors in Blacklist Countries\-Regions](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-report-trade-with-customers-and-vendors-in-blacklist-countries-regions.md)   
- Annual VAT Comm. \- 2010   
+ [How to: Report Trade with Customers and Vendors in Blacklist Countries-Regions](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-report-trade-with-customers-and-vendors-in-blacklist-countries-regions.md)   
+ Annual VAT Comm. - 2010   
  [Italy Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/italy-local-functionality.md)

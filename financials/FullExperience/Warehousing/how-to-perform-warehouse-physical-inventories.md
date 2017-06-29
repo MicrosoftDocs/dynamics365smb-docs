@@ -18,7 +18,7 @@
 # How to: Perform Warehouse Physical Inventories
 At least once in every fiscal year, you must take a physical inventory to see if the quantity registered is the same as the physical quantity in stock. If there are differences, you must post them to the item accounts before you do an inventory valuation. You also post your results to the physical inventory ledger, to record that you have counted a particular item on a particular date.  
   
- If you are not using directed put\-away and pick for a location, you perform a physical inventory using the Phys. Inventory Journal. For more information, see [How to: Perform a Physical Inventory](../DesignAndEngineering/how-to-perform-a-physical-inventory.md). If you are using directed put\-away and pick, you use the Whse. Phys. Inventory Journal, and later on, the Phys. Inventory Journal. This process is described here. In warehouses with bins, the counting is performed and registered bin by bin.  
+ If you are not using directed put-away and pick for a location, you perform a physical inventory using the Phys. Inventory Journal. For more information, see [How to: Perform a Physical Inventory](../DesignAndEngineering/how-to-perform-a-physical-inventory.md). If you are using directed put-away and pick, you use the Whse. Phys. Inventory Journal, and later on, the Phys. Inventory Journal. This process is described here. In warehouses with bins, the counting is performed and registered bin by bin.  
   
 ### To perform a warehouse physical inventory  
   

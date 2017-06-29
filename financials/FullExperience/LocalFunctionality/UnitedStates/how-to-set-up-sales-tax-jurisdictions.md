@@ -32,7 +32,7 @@ In the United States, states, counties, cities, and localities can charge sales 
   
 2.  In the **Tax Jurisdictions** window, on the **Home** tab, in the **New** group, choose **New**.  
   
-3.  In the **New \- Tax Jurisdictions** window, fill in the fields as described in the following table.  
+3.  In the **New - Tax Jurisdictions** window, fill in the fields as described in the following table.  
   
     |FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] --> --> -->|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] --> --> -->|  
     |---------------------------------|---------------------------------------|  
@@ -40,8 +40,8 @@ In the United States, states, counties, cities, and localities can charge sales 
     |**Description**|A description of the tax jurisdiction.|  
     |**Tax Account \(Sales\)**|The general ledger account that you want to use to post calculated tax on sales transactions.|  
     |**Tax Account \(Purchases\)**|The general ledger account that you want to use to post calculated tax on purchase transactions.|  
-    |**Reverse Charge \(Purchases\)**|The general ledger account that you want to use to post calculated reverse\-charge tax on purchase transactions.|  
-    |**Report\-to Jurisdiction**|The tax jurisdiction that you want to associate with the jurisdiction that you are setting up.|  
+    |**Reverse Charge \(Purchases\)**|The general ledger account that you want to use to post calculated reverse-charge tax on purchase transactions.|  
+    |**Report-to Jurisdiction**|The tax jurisdiction that you want to associate with the jurisdiction that you are setting up.|  
     |**Country**|The country\/region used for the sales tax calculation.|  
     |**Calculate Tax on Tax**|Select to calculate additional sales tax for the current jurisdiction. This tax is on top of the sales tax that has already been charged for previous jurisdictions. This is calculated based on the principle of tax on tax. **Important:**  This field is available in the **Tax Jurisdiction** window, but it is not shown by default. To select the field, you must first add the column that shows this field. FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_customize](../../Finance/includes/bp_customize_md.md)] --> --> -->|  
     |**Print Description**|The description that prints on documents in place of the jurisdiction description. **Important:**  This field is available in the **Tax Jurisdiction** window, but it is not shown by default. To select the field, you must first add the column that shows this field. [!INCLUDE[bp_customize](../../Finance/includes/bp_customize_md.md)]|  

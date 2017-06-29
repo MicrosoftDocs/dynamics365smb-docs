@@ -42,7 +42,7 @@ You can enable an existing inventory location to use zones and bins and to opera
 > [!NOTE]  
 >  It is recommended that you run the **Create Warehouse Location** batch job at a time when it will not impact the daily work in the system. This job processes each entry in the **Item Ledger Entry** table, and if there are a large number of item ledger entries, the job can last several hours.  
   
- For those locations that did not use warehouse management documents before the conversion, you must re\-open and release any source documents that were partially received or partially shipped before the conversion.  
+ For those locations that did not use warehouse management documents before the conversion, you must re-open and release any source documents that were partially received or partially shipped before the conversion.  
   
 ## See Also  
  [How to: Set Up Locations to Use Bins](../WarehouseActivities/how-to-set-up-locations-to-use-bins.md)   

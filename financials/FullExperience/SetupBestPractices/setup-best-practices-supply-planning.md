@@ -18,9 +18,9 @@
 # Setup Best Practices: Supply Planning
 Supply planning is a critical business area. When set up and used correctly, supply planning helps a company avoid stock out and reduce both ordering costs and inventory costs.  
   
- It is not possible to prescribe one optimal setup of all planning fields as this varies from company to company because of business variables, such as market situation and business strategy. However, there are best practices for selecting options in items cards and global setup fields to help get the company started with timely and cost\-effective inventory flows.  
+ It is not possible to prescribe one optimal setup of all planning fields as this varies from company to company because of business variables, such as market situation and business strategy. However, there are best practices for selecting options in items cards and global setup fields to help get the company started with timely and cost-effective inventory flows.  
   
- The following topics provide best\-practice information about how to set up selected planning fields that are key to inventory and supply planning.  
+ The following topics provide best-practice information about how to set up selected planning fields that are key to inventory and supply planning.  
   
 |**To**|**See**|  
 |------------|-------------|  

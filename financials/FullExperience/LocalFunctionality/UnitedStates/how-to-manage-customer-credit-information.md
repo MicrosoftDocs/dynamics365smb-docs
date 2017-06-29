@@ -22,7 +22,7 @@ In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow
   
 1.  In the **Search** box, enter **Credit Management**, and then choose the related link.  
   
-2.  In the **Customer List \- Credit Mgmt.** window, select a customer. On the **Navigate** tab, in the **Customer** group, choose **Comments**.  
+2.  In the **Customer List - Credit Mgmt.** window, select a customer. On the **Navigate** tab, in the **Customer** group, choose **Comments**.  
   
 3.  In the **Comment Sheet** window, fill in the fields as described in the following table.  
   
@@ -65,7 +65,7 @@ In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow
 4.  Choose the **OK** button.  
   
 ## See Also  
- Customer \- Order Summary   
+ Customer - Order Summary   
  [United States Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedStates/united-states-local-functionality.md)   
  [Canada Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/canada-local-functionality.md)   
  [Mexico Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Mexico/mexico-local-functionality.md)

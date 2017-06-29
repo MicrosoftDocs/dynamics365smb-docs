@@ -21,7 +21,7 @@ If item processing operations occur at your warehouse location, then you may hav
 > [!NOTE]  
 >  For information about moving items between bins without source documents, see Internal Movement.  
   
- In advanced warehouse configurations, which are locations that use the **Directed Put\-away and Pick** setup field, you can use the **Movement Worksheet** window to move items between bins. For more information, see [How to: Move Items in Advanced Warehousing](../WarehouseActivities/how-to-move-items-in-advanced-warehousing.md).  
+ In advanced warehouse configurations, which are locations that use the **Directed Put-away and Pick** setup field, you can use the **Movement Worksheet** window to move items between bins. For more information, see [How to: Move Items in Advanced Warehousing](../WarehouseActivities/how-to-move-items-in-advanced-warehousing.md).  
   
  In basic warehouse configurations, which are locations that use the **Bin Mandatory** setup field and the **Require Pick** setup field, you can register movement of items to internal operation areas based on internal source documents in the following ways:  
   
@@ -61,7 +61,7 @@ If item processing operations occur at your warehouse location, then you may hav
   
      You can change the bin code on a Take line but only according to availability. If you choose the **AssistEdit** button in the **Bin Code** field on a Take line, then the **Bin Contents** window opens and only shows bins where the component is available.  
   
-     You cannot change the bin code on a Place line. Only the bin code that is defined on the component line of the source document is accepted. This supports the principle that the role who requests a component, which is an assembly worker in this procedure, knows where the component must be placed. If you want to place the components in a different bin, then you must first change the bin code on the component line and then re\-create the inventory movement lines.  
+     You cannot change the bin code on a Place line. Only the bin code that is defined on the component line of the source document is accepted. This supports the principle that the role who requests a component, which is an assembly worker in this procedure, knows where the component must be placed. If you want to place the components in a different bin, then you must first change the bin code on the component line and then re-create the inventory movement lines.  
   
 6.  In the **Qty. to Handle** field, enter the full or partial quantity that you have actually moved. The value on the Take and the Place lines must be the same. Otherwise, you cannot register the movement.  
   
@@ -80,8 +80,8 @@ If item processing operations occur at your warehouse location, then you may hav
  Assembly Setup   
  Bin Code   
  Create Movements Automatically   
- To\-Assembly Bin Code   
- To\-Production Bin Code   
+ To-Assembly Bin Code   
+ To-Production Bin Code   
  [How to: Pick for Production in Basic Warehousing](../WarehouseActivities/how-to-pick-for-production-in-basic-warehousing.md)   
  Inventory Pick   
  Internal Movement   

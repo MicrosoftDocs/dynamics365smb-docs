@@ -24,12 +24,12 @@ You can direct the flow of items through bins that you have defined for particul
   
 1.  In the **Search** box, enter **Bin Types**, and then choose the related link.  
   
-2.  In the **Bin Types** window, create a 10\-character code for a bin type.  
+2.  In the **Bin Types** window, create a 10-character code for a bin type.  
   
 3.  Select the activities that can be performed with each bin type.  
   
 > [!NOTE]  
->  Bin types are only applicable if you are using directed put\-away and pick for your location.  
+>  Bin types are only applicable if you are using directed put-away and pick for your location.  
   
  The bin type determines only how a bin is used when processing the flow of items through the warehouse. You can always override the suggestions for any warehouse document, and you can move items in or out of any bin by performing a warehouse movement.  
   
@@ -39,9 +39,9 @@ You can direct the flow of items through bins that you have defined for particul
 |------------------|---------------------------------------|  
 |RECEIVE|Items registered as posted receipts but not yet put away.|  
 |SHIP|Items picked for warehouse shipment lines but not yet posted as shipped.|  
-|PUT AWAY|Typically, items to be stored in large units of measure but that you do not want to access for picking purposes. Because these bins are not used for picking, either for production orders or shipments, your use of a Put Away type bin might be limited, but this bin type could be useful if you have purchased a large quantity of items. Bins of this type should always have a low bin\-ranking, so that when received items are put away, other higher\-ranking PUTPICK bins fixed to the item are put away first. If you are using this type of bin, you must regularly perform bin replenishment so that the items stored in these bins are also available in PUTPICK or PICK type bins.|  
+|PUT AWAY|Typically, items to be stored in large units of measure but that you do not want to access for picking purposes. Because these bins are not used for picking, either for production orders or shipments, your use of a Put Away type bin might be limited, but this bin type could be useful if you have purchased a large quantity of items. Bins of this type should always have a low bin-ranking, so that when received items are put away, other higher-ranking PUTPICK bins fixed to the item are put away first. If you are using this type of bin, you must regularly perform bin replenishment so that the items stored in these bins are also available in PUTPICK or PICK type bins.|  
 |PICK|Items to be used only for picking, for example, for items with an approaching expiration date that you have moved into this type of bin. You would place a high bin ranking on these bins so they are suggested for picking first.|  
-|PUTPICK|Items in bins that are suggested for both the put\-away and pick functions. Bins of this type probably have different bin rankings. You can set up your bulk storage bins as this type of bin with low bin rankings compared to your ordinary pick bins or forward picking area bins.|  
+|PUTPICK|Items in bins that are suggested for both the put-away and pick functions. Bins of this type probably have different bin rankings. You can set up your bulk storage bins as this type of bin with low bin rankings compared to your ordinary pick bins or forward picking area bins.|  
 |QC|This bin is used for inventory adjustments if you specify this bin on the location card in the **Adjustment Bin Code** field. You can also set up bins of this type for defective items and items being inspected. You can move items to this type of bin if you want to make them inaccessible to the usual item flow.<br /><br /> **NOTE:** Unlike all other bin types, the **QC** bin type has none of the item handling check boxes selected by default. This indicates that any content you place in a QC bin is excluded from item flows.|  
   
 ## See Also  

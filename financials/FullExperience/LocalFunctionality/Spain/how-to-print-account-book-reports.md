@@ -18,15 +18,15 @@
 # How to: Print Account Book Reports
 Account book reports display all the general ledger entries created in a specific period. The two account book reports are:  
   
--   **Official Account Book** report \- Displays information for every general ledger entry, grouped by transaction.  
+-   **Official Account Book** report - Displays information for every general ledger entry, grouped by transaction.  
   
--   **Official Account Summarized Book** report \- Displays a summary of general entries, grouped by heading or posting accounts.  
+-   **Official Account Summarized Book** report - Displays a summary of general entries, grouped by heading or posting accounts.  
   
  When sending these reports to the authorities or auditors, you can include additional pages that will precede your report. To do this, you need to manually set the report's first page number. For example, if you have three pages of information preceding your report, you can set the first page of the report to indicate that it is page 4.  
   
 ### To print an official account book report  
   
-1.  In the **Search** box, enter **Account \- Official Acc. Book**, and then choose the related link.  
+1.  In the **Search** box, enter **Account - Official Acc. Book**, and then choose the related link.  
   
 2.  In the **Options** FastTab, fill in the fields as described in the following table.  
   
@@ -60,5 +60,5 @@ Account book reports display all the general ledger entries created in a specifi
   
 ## See Also  
  [Spain Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/spain-local-functionality.md)   
- Account \- Official Acc. Book   
+ Account - Official Acc. Book   
  Official Acc. Summarized Book

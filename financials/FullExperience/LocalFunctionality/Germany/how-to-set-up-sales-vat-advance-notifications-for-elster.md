@@ -56,7 +56,7 @@ In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow
     ---------------------------------|---------------------------------------|  
     |**Use Proxy Server**|Select to use a proxy server for communication.|  
     |**Proxy Server Authent. Required**|Select to use a dedicated proxy server for authentication.<br /><br /> If you use a proxy server and the required dedicated authentication, then you must enter the user account and the password before transmitting. If you use Windows authentication, do not select this field.|  
-    |**Proxy Server IP\-Address\/Port**|The address and the port that will be used for communication if you use a proxy server.|  
+    |**Proxy Server IP-Address\/Port**|The address and the port that will be used for communication if you use a proxy server.|  
   
 4.  On the **HTTP Servers** FastTab, fill in the fields as described in the following table.  
   
@@ -77,7 +77,7 @@ In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow
   
     2.  On the **Actions** tab, choose **Upload Elster Certificate**, and then specify the certificate file, such as Coala2019.pem.cer.  
   
-    3.  Choose **Upload PFX File**, and then specify the personal certificate file for this user, such as test\-soft\-pse.pfx.  
+    3.  Choose **Upload PFX File**, and then specify the personal certificate file for this user, such as test-soft-pse.pfx.  
   
         > [!IMPORTANT]  
         >  If data encryption is not already enabled, you must enable it before you proceed. For more information, see Data Encryption Management.  
@@ -92,7 +92,7 @@ In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow
   
 1.  In the **Search** box, enter **VAT Statement**, and then choose the related link.  
   
-2.  In the **VAT Statement** window, in the **Name** field, choose the drop\-down arrow.  
+2.  In the **VAT Statement** window, in the **Name** field, choose the drop-down arrow.  
   
 3.  In the **VAT Statement Names** window, in the line for the appropriate VAT statement name select the **Sales VAT Adv. Notification** field.  
   

@@ -40,22 +40,22 @@ With jobs, you can schedule the usage of your company's resources and keep track
  Before you can perform the tasks in the walkthrough, the FIX INCLUDE HERE<!--[!INCLUDE[demolong](../ApplicationDesign/includes/demolong_md.md)] --> must be installed on your computer.  
   
 ## Story  
- This walkthrough focuses on the FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[demoname](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/demoname_md.md)] --> --> -->, a design and consultancy firm that designs and fits new infrastructures, such as conference halls and offices, with furniture, accessories, and storage units. Most of the work at FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[demo](../ApplicationDesign/includes/demo_md.md)] --> --> --> is project\-oriented and Tricia, a project team member, uses jobs to have an overview of each ongoing job that [!INCLUDE[demo](../ApplicationDesign/includes/demo_md.md)] has started and also the jobs that are completed. Some of the jobs can be very lengthy and can run over months. Tricia can use a WIP account to record the work in process and to track the costs throughout the job.  
+ This walkthrough focuses on the FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[demoname](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/demoname_md.md)] --> --> -->, a design and consultancy firm that designs and fits new infrastructures, such as conference halls and offices, with furniture, accessories, and storage units. Most of the work at FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[demo](../ApplicationDesign/includes/demo_md.md)] --> --> --> is project-oriented and Tricia, a project team member, uses jobs to have an overview of each ongoing job that [!INCLUDE[demo](../ApplicationDesign/includes/demo_md.md)] has started and also the jobs that are completed. Some of the jobs can be very lengthy and can run over months. Tricia can use a WIP account to record the work in process and to track the costs throughout the job.  
   
 ## Calculating WIP  
  [!INCLUDE[demoname](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/demoname_md.md)] has taken on a lengthy project that has now extended across reporting periods. Tricia, a project team member, calculates the work in process \(WIP\) to make sure that the financial statement of the company will be accurate.  
   
- During this procedure, Tricia will select a specific group of tasks that will be included in the WIP calculation. In the **Job Task Lines** window, she can specify these lines in the **WIP\-Total** column.  
+ During this procedure, Tricia will select a specific group of tasks that will be included in the WIP calculation. In the **Job Task Lines** window, she can specify these lines in the **WIP-Total** column.  
   
  The following table describes the three options.  
   
 |FIX INCLUDE HERE<!--[!INCLUDE[bp_optionsheading](../DesignAndEngineering/includes/bp_optionsheading_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
 |-------------------------------------|---------------------------------------|  
 |**\<blank\>**|Leave blank if the job task is a part of a group of tasks.|  
-|**Total**|Defines the range or group of tasks that are included in the WIP and recognition calculation. Within the group, any job task with **Job Task Type** set to **Posting** will be included in the WIP Total, unless its **WIP\-Total** field is set to **Excluded**.|  
+|**Total**|Defines the range or group of tasks that are included in the WIP and recognition calculation. Within the group, any job task with **Job Task Type** set to **Posting** will be included in the WIP Total, unless its **WIP-Total** field is set to **Excluded**.|  
 |**Excluded**|Applies only to a task with **Job Task Type** of **Posting**. The task is not included when WIP and recognition are calculated.|  
   
- In the following walkthrough, Tricia applies the Cost Value method, her company standard, to calculate WIP. She specifies what part of the job will be included in the WIP calculation by assigning WIP\-Total values to various job task lines.  
+ In the following walkthrough, Tricia applies the Cost Value method, her company standard, to calculate WIP. She specifies what part of the job will be included in the WIP calculation by assigning WIP-Total values to various job task lines.  
   
 #### To calculate WIP  
   
@@ -67,11 +67,11 @@ With jobs, you can schedule the usage of your company's resources and keep track
   
 3.  On the **Posting** FastTab, choose the **WIP Method** field, and then select **Cost Value**.  
   
-4.  On the **Home** tab, in the **Process** group, choose **Job Task Lines** and set the following values in the **WIP\-Total** field.  
+4.  On the **Home** tab, in the **Process** group, choose **Job Task Lines** and set the following values in the **WIP-Total** field.  
   
      The following table describes the values.  
   
-    |Job Task No.|WIP\-Total Field|  
+    |Job Task No.|WIP-Total Field|  
     |------------------|----------------------|  
     |1130|Excluded|  
     |1190|Total|  

@@ -30,5 +30,5 @@ The Intrastat establishment number is a company identification number that is pr
  [Belgian Intrastat Reporting](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/belgian-intrastat-reporting.md)   
  [How to: Set Up Declaration Types](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-declaration-types.md)   
  [How to: Set Up Belgian Tariff Numbers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-belgian-tariff-numbers.md)   
- [How to: Export Intrastat Third\-Party Declararations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-export-intrastat-third-party-declararations.md)   
+ [How to: Export Intrastat Third-Party Declararations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-export-intrastat-third-party-declararations.md)   
  [How to: Print the Intrastat Form Report](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-print-the-intrastat-form-report.md)

@@ -40,7 +40,7 @@ FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/i
  [Recording VAT](../Finance/recording-vat.md)   
  [How to: Record VAT](../Finance/how-to-record-vat.md)   
  [Import VAT](../Finance/import-vat.md)   
- [How to: Enter VAT\-liable Amounts Without VAT in General Journals](../Finance/how-to-enter-vat-liable-amounts-without-vat-in-general-journals.md)   
+ [How to: Enter VAT-liable Amounts Without VAT in General Journals](../Finance/how-to-enter-vat-liable-amounts-without-vat-in-general-journals.md)   
  [How to: Set Up and Record Intrastat](../Finance/how-to-set-up-and-record-intrastat.md)   
  [How to: Create a VAT Combination Setup](../Finance/how-to-create-a-vat-combination-setup.md)   
  [How to: View VAT Entries](../Finance/how-to-view-vat-entries.md)

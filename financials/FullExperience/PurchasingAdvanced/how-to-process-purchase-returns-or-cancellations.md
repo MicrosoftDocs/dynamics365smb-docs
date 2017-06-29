@@ -33,7 +33,7 @@ If you want to return items to your vendor or cancel services that you have purc
   
 2.  On the **Home** tab, in the **Manage** group, choose **New**.  
   
-3.  In the **Vendor Name** field, enter the name of an existing vendor. This is a search\-as\-you\-type field. **Name** is the default filter.  
+3.  In the **Vendor Name** field, enter the name of an existing vendor. This is a search-as-you-type field. **Name** is the default filter.  
   
     > [!NOTE]  
     >  If you prefer to find and enter vendors by number or telephone number, you can easily change the default filter. For more information, see [How to: Enter Data](../WorkingWithDynamics/how-to-enter-data.md).  
@@ -44,9 +44,9 @@ If you want to return items to your vendor or cancel services that you have purc
   
     |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
     |---------------------------------|---------------------------------------|  
-    |**Applies\-to Doc. Type**|Specify the type of document that the purchase credit memo is applied to.|  
-    |**Applies\-to Doc. No.**|Specify the purchase document that the purchase credit memo is applied to.|  
-    |**Applies\-to ID**|Specify if the purchase credit memo is applied to one or more posted purchase invoices using the **Apply Entries** function. For more information, see step 14.|  
+    |**Applies-to Doc. Type**|Specify the type of document that the purchase credit memo is applied to.|  
+    |**Applies-to Doc. No.**|Specify the purchase document that the purchase credit memo is applied to.|  
+    |**Applies-to ID**|Specify if the purchase credit memo is applied to one or more posted purchase invoices using the **Apply Entries** function. For more information, see step 14.|  
   
      When you post the purchase credit memo, it will be applied to the specified posted purchase invoice.  
   
@@ -69,7 +69,7 @@ If you want to return items to your vendor or cancel services that you have purc
   
      In other scenarios, such as partial returns with reimbursement, or if you return additional products, proceed to fill or edit the purchase credit memo lines manually.  
   
-11. On the **Lines** FastTab, in the **No.** field, enter the number of an inventory item or service. This is a search\-as\-you\-type field. **No.** is the default filter.  
+11. On the **Lines** FastTab, in the **No.** field, enter the number of an inventory item or service. This is a search-as-you-type field. **No.** is the default filter.  
   
     > [!NOTE]  
     >  If you prefer to find and enter items by name, then you can easily change the default filter. For more information, see [How to: Enter Data](../WorkingWithDynamics/how-to-enter-data.md).  
@@ -91,7 +91,7 @@ If you want to return items to your vendor or cancel services that you have purc
   
 15. In the **Apply Vendor Entries** window, select the lines with the entries that you want the applying entry to be applied to.  
   
-16. On the **Navigate** tab, in the **Application** group, choose **Set Applies\-to ID**. The number of the purchase credit memo is inserted on the selected lines.  
+16. On the **Navigate** tab, in the **Application** group, choose **Set Applies-to ID**. The number of the purchase credit memo is inserted on the selected lines.  
   
 17. On each line, in the **Amount to Apply** field, enter the amount that you want to apply to the individual entry. If you do not enter an amount, the maximum amount is automatically applied. At the bottom of the **Apply Vendor Entries** window, you can see the specific amount in the **Applied Amount** field and verify if the application balances.  
   

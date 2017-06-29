@@ -16,9 +16,9 @@
 
     ---
 # Walkthrough: Synchronizing Information Between Outlook and Microsoft Dynamics NAV
-You can set up synchronization between FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> and Microsoft Outlook, so that information about meetings, to\-dos, and contacts can be shared between team members and updated across the two products. For example, a salesperson working outside the office can create a new meeting in Outlook in her company's calendar, and then her manager in the corporate office can see that to\-do in [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)].  
+You can set up synchronization between FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> and Microsoft Outlook, so that information about meetings, to-dos, and contacts can be shared between team members and updated across the two products. For example, a salesperson working outside the office can create a new meeting in Outlook in her company's calendar, and then her manager in the corporate office can see that to-do in [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)].  
   
- The synchronization framework provides default mapping between the [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] contacts, salesperson, and to\-dos, and Microsoft Outlook contacts, tasks, and meetings. You can synchronize the entities either manually or automatically at set intervals.  
+ The synchronization framework provides default mapping between the [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] contacts, salesperson, and to-dos, and Microsoft Outlook contacts, tasks, and meetings. You can synchronize the entities either manually or automatically at set intervals.  
   
 > [!IMPORTANT]  
 >  You can create new a salesperson contact in Outlook, but that contact will not be synchronized to [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] as a salesperson.  
@@ -27,7 +27,7 @@ You can set up synchronization between FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--F
   
  The default setup contains mapping for five different [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] entities:  
   
--   To\-dos of type Meeting  
+-   To-dos of type Meeting  
   
 -   Contacts of type Company type  
   
@@ -35,14 +35,14 @@ You can set up synchronization between FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--F
   
 -   Salespeople  
   
--   To\-dos of type blank or Phone  
+-   To-dos of type blank or Phone  
   
  Companies might want to add more fields to this mapping. For more information, see the "Customizing Synchronization Fields" section in this walkthrough.  
   
 ## About This Walkthrough  
  This walkthrough illustrates the following tasks:  
   
--   Creating a to\-do, and synchronizing it with Outlook.  
+-   Creating a to-do, and synchronizing it with Outlook.  
   
 -   Handling a conflict between different data on the same record.  
   
@@ -80,7 +80,7 @@ You can set up synchronization between FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--F
   
 -   In Outlook, make sure that the following is true:  
   
-    -   [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] Synchronization buttons are displayed in the Add\-ins tab on the Outlook ribbon.  
+    -   [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] Synchronization buttons are displayed in the Add-ins tab on the Outlook ribbon.  
   
     -   The connection between [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] and Outlook is working. To test the connection, choose the **Settings** button, and then on the **Connection** tab, choose **Test Connection**.  
   
@@ -91,12 +91,12 @@ You can set up synchronization between FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--F
   
  Michael attempts to call the contact, but the telephone number is incorrect because someone else has entered a new number in Outlook and not yet synchronized with [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]. Michael reviews the conflict details, determines that the problem is related to the telephone number, and resolves the conflict.  
   
- Michael also realizes that he has to add some additional fields to the entities that are synchronized. He adds the territory code fields as user\-defined fields to the company contact information so that they will be displayed in both Outlook and [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)].  
+ Michael also realizes that he has to add some additional fields to the entities that are synchronized. He adds the territory code fields as user-defined fields to the company contact information so that they will be displayed in both Outlook and [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)].  
   
 ## Performing a Synchronization  
- First, Michael sets an appointment for David to meet with a customer by creating a to\-do in [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)], and then synchronizing with Outlook, so that the appointment is displayed on the team calendar.  
+ First, Michael sets an appointment for David to meet with a customer by creating a to-do in [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)], and then synchronizing with Outlook, so that the appointment is displayed on the team calendar.  
   
-#### To create a to\-do and synchronize it with Outlook  
+#### To create a to-do and synchronize it with Outlook  
   
 1.  In the **Search** box, enter **Contacts**, and then choose the related link.  
   
@@ -104,19 +104,19 @@ You can set up synchronization between FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--F
   
 3.  On the contact card, on the **General** FastTab, change the **Salesperson code** to your initials.  
   
-4.  On the **Navigate** tab, in the **Contact** group, choose **To\-dos**.  
+4.  On the **Navigate** tab, in the **Contact** group, choose **To-dos**.  
   
-5.  On the **Home** tab, in the **Process** group, choose **Create To\-do**.  
+5.  On the **Home** tab, in the **Process** group, choose **Create To-do**.  
   
-6.  In the **Create To\-do** wizard, add the following information:  
+6.  In the **Create To-do** wizard, add the following information:  
   
-    -   Set the to\-do as type **Meeting**.  
+    -   Set the to-do as type **Meeting**.  
   
     -   Add a short description, such as "discuss proposal."  
   
     -   Set the meeting for today and add a start time.  
   
-7.  Choose the **Next** button. Your name is displayed as the To\-do organizer, and **A. Gibson's Law Firm** as a required attendee.  
+7.  Choose the **Next** button. Your name is displayed as the To-do organizer, and **A. Gibson's Law Firm** as a required attendee.  
   
 8.  Choose the **Finish** button.  
   
@@ -134,7 +134,7 @@ You can set up synchronization between FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--F
   
 2.  Now, open [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] and locate the contact card for CT100006.  
   
-     The **Next To\-do Date** field lists the new date of the meeting. You can choose the date field to open the to\-do list, and see the changes that you made to the appointment.  
+     The **Next To-do Date** field lists the new date of the meeting. You can choose the date field to open the to-do list, and see the changes that you made to the appointment.  
   
 ## Handling a Synchronization Conflict  
  Michael decides to call the customer to let the customer know that David has made changes to the appointment. He finds that there is a conflict in the contact information, and troubleshoots the conflict. Although this scenario demonstrates how to solve the conflict manually, you can also set up synchronization to handle conflicts automatically. For more information, see [How to: Set Up Synchronization Conflict Resolution Options](../Topic/How%20to:%20Set%20Up%20Synchronization%20Conflict%20Resolution%20Options.md).  
@@ -208,12 +208,12 @@ You can set up synchronization between FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--F
   
 15. When the synchronization is finished, in Microsoft Outlook, open the new contact that you created in [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)].  
   
-16. On the **Contact** tab, in the **Show** group, choose **All fields** and then select the **User\-defined fields in this item** option.  
+16. On the **Contact** tab, in the **Show** group, choose **All fields** and then select the **User-defined fields in this item** option.  
   
      Here, you can see that both the salesperson code and the territory code are included in the Outlook contact information.  
   
      Now that you have completed this walkthrough, you can establish synchronization entities and begin synchronizing between Outlook and your company's [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] implementation.  
   
 ## See Also  
- [Outlook Add\-in\-Product Name Synchronization Add\-in](../Topic/Outlook%20Add-in-\($%20P_1%20Product%20Name%20$\)%20Synchronization%20Add-in.md)   
+ [Outlook Add-in-Product Name Synchronization Add-in](../Topic/Outlook%20Add-in-\($%20P_1%20Product%20Name%20$\)%20Synchronization%20Add-in.md)   
  [Troubleshooting: Microsoft Office Outlook Integration and Synchronization](../Topic/Troubleshooting:%20Microsoft%20Office%20Outlook%20Integration%20and%20Synchronization.md)

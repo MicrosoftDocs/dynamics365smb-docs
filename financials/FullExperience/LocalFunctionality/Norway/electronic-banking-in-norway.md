@@ -48,9 +48,9 @@ FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md
   
 ## See Also  
  [Norway Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/norway-local-functionality.md)   
- [Norwegian Giro and OCR\-B Font](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/norwegian-giro-and-ocr-b-font.md)   
+ [Norwegian Giro and OCR-B Font](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/norwegian-giro-and-ocr-b-font.md)   
  [How to: Set Up KID Numbers on Sales Documents](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-set-up-kid-numbers-on-sales-documents.md)   
  [How to: Set Up OCR Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-set-up-ocr-payments.md)   
  [How to: Import and Post OCR Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-import-and-post-ocr-payments.md)   
  [Electronic Payments to Vendors in Norway](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/electronic-payments-to-vendors-in-norway.md)   
- [How to: Print the OCR Journal \- Test Report](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-print-the-ocr-journal-test-report.md)
+ [How to: Print the OCR Journal - Test Report](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-print-the-ocr-journal-test-report.md)

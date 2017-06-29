@@ -24,7 +24,7 @@ In advanced warehousing where the location is set up to use picking as well as s
   
  You cannot create a warehouse pick document from scratch because a pick activity is always part of a workflow, either in a pull or a push scenario.  
   
- You can create the warehouse pick document in a push fashion by selecting **Create Whse. Pick** on the source document, such as a released assembly order or warehouse shipment. For more information, see Whse.\-Source \- Create Document and [How to: Pick Items for Warehouse Shipment](../WarehouseActivities/how-to-pick-items-for-warehouse-shipment.md).  
+ You can create the warehouse pick document in a push fashion by selecting **Create Whse. Pick** on the source document, such as a released assembly order or warehouse shipment. For more information, see Whse.-Source - Create Document and [How to: Pick Items for Warehouse Shipment](../WarehouseActivities/how-to-pick-items-for-warehouse-shipment.md).  
   
  Alternatively, you can create the warehouse pick document in a pull fashion by using the **Pick Worksheet** window to detect pick requests, both for shipment and internal operations, and then create the required warehouse pick documents.  
   
@@ -52,7 +52,7 @@ In advanced warehousing where the location is set up to use picking as well as s
   
 6.  Choose the **OK** button. Warehouse pick documents are created with pick lines for each component that is required in the internal operation. For more information, see Warehouse Pick.  
   
- If the internal operation area, such as a production shop floor, is set up with a default bin for placement of components to be used in the operation, then that bin code is inserted in the Place lines on the warehouse pick document to instruct warehouse workers where to place the items. For more information, see the To\-Production Bin Code or the To\-Assembly Bin Code field.  
+ If the internal operation area, such as a production shop floor, is set up with a default bin for placement of components to be used in the operation, then that bin code is inserted in the Place lines on the warehouse pick document to instruct warehouse workers where to place the items. For more information, see the To-Production Bin Code or the To-Assembly Bin Code field.  
   
 ## See Also  
  Pick Worksheet   
@@ -61,7 +61,7 @@ In advanced warehousing where the location is set up to use picking as well as s
  [How to: Pick Items for Warehouse Shipment](../WarehouseActivities/how-to-pick-items-for-warehouse-shipment.md)   
  Movement Worksheet   
  Create Pick   
- To\-Production Bin Code   
+ To-Production Bin Code   
  [How to: Pick for Production in Basic Warehousing](../WarehouseActivities/how-to-pick-for-production-in-basic-warehousing.md)   
  [How to: Move Components to an Operation Area in Basic Warehousing](../WarehouseActivities/how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
  [How to: Move Items in Advanced Warehousing](../WarehouseActivities/how-to-move-items-in-advanced-warehousing.md)

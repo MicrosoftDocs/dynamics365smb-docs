@@ -20,7 +20,7 @@ When you work with lot or serial numbers, FIX INCLUDE HERE<!--FIX INCLUDE HERE<!
   
  In the **Item Tracking Lines** window, a warning icon is shown in the **Availability, Lot No.** or **Availability, Serial No.** fields if some or all of the quantity you have selected is already being used in other documents or if the lot or serial number is not available.  
   
- In the **Lot No.\/Serial No.\-List** window, the **Lot No.\/Serial No.\-Availability** window, and the **Item Tracking – Select Entries** window, information is displayed about how much quantity of an item is being used. This includes the following information.  
+ In the **Lot No.\/Serial No.-List** window, the **Lot No.\/Serial No.-Availability** window, and the **Item Tracking – Select Entries** window, information is displayed about how much quantity of an item is being used. This includes the following information.  
   
 |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
 |---------------------------------|---------------------------------------|  

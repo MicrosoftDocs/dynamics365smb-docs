@@ -24,10 +24,10 @@ Before posting a purchase invoice or credit memo, the program checks if the 'amo
   
  To determine the reason of the difference between the document total amounts and the total amounts of the inserted purchase lines, you have the possibility to let the program calculate the total amount, total base amount, total VAT amount and total amount including VAT of the inserted purchase lines and show them at the bottom of the purchase invoice or purchase credit memo window.  
   
- Default the program will not show these total amounts, but you can switch it on by inserting a check mark in the field Show Totals on Purch. Inv.\-CM. on the [\($ N\_460 Purchases & Payables Setup $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-n_460-purchases-payables-setup-window-$-.md) window.  
+ Default the program will not show these total amounts, but you can switch it on by inserting a check mark in the field Show Totals on Purch. Inv.-CM. on the [\($ N\_460 Purchases & Payables Setup $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-n_460-purchases-payables-setup-window-$-.md) window.  
   
 > [!NOTE]  
->  If you activate this field, totals on all purchase invoices and credit memos must be recalculated. This can be a time\-consuming process depending on the number of documents that must be recalculated. You can not activate this field in case purchase invoices and\/or credit memos exist without any purchase lines or in case you have purchase invoices and\/or purchase credit memos with no quantity specified on the lines.  
+>  If you activate this field, totals on all purchase invoices and credit memos must be recalculated. This can be a time-consuming process depending on the number of documents that must be recalculated. You can not activate this field in case purchase invoices and\/or credit memos exist without any purchase lines or in case you have purchase invoices and\/or purchase credit memos with no quantity specified on the lines.  
   
 ## See Also  
  [How to: Set Up Validation of Purchase Amounts](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/how-to-set-up-validation-of-purchase-amounts.md)

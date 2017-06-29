@@ -18,7 +18,7 @@
 # Posting Depreciation Differences
 In Finland, the following depreciation methods are commonly used for fixed assets:  
   
--   Straight\-line depreciation which posts fixed assets to the general ledger.  
+-   Straight-line depreciation which posts fixed assets to the general ledger.  
   
 -   Declining balance depreciation which does not post fixed assets to the general ledger.  
   
@@ -27,4 +27,4 @@ In Finland, the following depreciation methods are commonly used for fixed asset
 ## See Also  
  [Finland Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Finland/finland-local-functionality.md)   
  Calc. and Post Depr. Diff.   
- G\-L Register FI
+ G-L Register FI

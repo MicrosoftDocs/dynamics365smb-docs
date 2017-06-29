@@ -43,9 +43,9 @@ Applying temporary general ledger entries allows companies to work with temporar
     > [!NOTE]  
     >  By default, the **Include Entries** field is set to **Open**. You can change the value of the **Include Entries** field to **All** or **Closed**. You can only apply general ledger entries that are **Open**.  
   
-4.  Select the relevant general ledger entry, and then, on the **Navigate** tab, in the **Application** group, choose **Set Applies\-to ID**.  
+4.  Select the relevant general ledger entry, and then, on the **Navigate** tab, in the **Application** group, choose **Set Applies-to ID**.  
   
-     The **Applies\-to ID** field is updated with the user ID. The remaining amount is displayed in the **Balance** field in the **Apply General Ledger Entries** window.  
+     The **Applies-to ID** field is updated with the user ID. The remaining amount is displayed in the **Balance** field in the **Apply General Ledger Entries** window.  
   
 5.  On the **Navigate** tab, in the **Application** group, choose **Post Application**.  
   
@@ -58,7 +58,7 @@ Applying temporary general ledger entries allows companies to work with temporar
     -   For all other general ledger entries, the **Remaining Amount** field is set to 0 and the **Open**, **Closed by Entry No.**, **Closed by Amount**, and **Closed at Date** fields are updated.  
   
     > [!NOTE]  
-    >  When posted, the general ledger entries which update the **Applies\-to ID** field are deleted.  
+    >  When posted, the general ledger entries which update the **Applies-to ID** field are deleted.  
   
 6.  Choose the **OK** button.  
   

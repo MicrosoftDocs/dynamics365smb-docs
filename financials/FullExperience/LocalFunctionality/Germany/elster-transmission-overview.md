@@ -48,7 +48,7 @@ When a user submits a sales VAT advance notification from FIX INCLUDE HERE<!--FI
  In order to transfer the encrypted data in a text based XML file it has to be Base64 coded. This is a method which is used to present binary data in a textual form.  
   
 ### Signature  
- For the signature of the data a method following the standard XML\-DSig is used. For more information, see [System.Security.Cryptography.Xml.SignedXml](http://go.microsoft.com/fwlink/?LinkId=200709) on the MSDN Library. This method applies a signature to the whole document or a part of the document which is encrypted with a certificate. Using this encryption \(also with an asymmetric method\) allows the mapping to a certain registered user by the OFD. Thus the integrity of the data can be assured and the identity of the sender can be determined by means of the signature.  
+ For the signature of the data a method following the standard XML-DSig is used. For more information, see [System.Security.Cryptography.Xml.SignedXml](http://go.microsoft.com/fwlink/?LinkId=200709) on the MSDN Library. This method applies a signature to the whole document or a part of the document which is encrypted with a certificate. Using this encryption \(also with an asymmetric method\) allows the mapping to a certain registered user by the OFD. Thus the integrity of the data can be assured and the identity of the sender can be determined by means of the signature.  
   
  The integrity is assured by the fact that if the document is changed after it has been signed the signature will become invalid and the OFD rejects the data.  
   

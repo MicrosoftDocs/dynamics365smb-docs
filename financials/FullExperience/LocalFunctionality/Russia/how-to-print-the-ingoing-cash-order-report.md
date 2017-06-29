@@ -16,13 +16,13 @@
 
     ---
 # How to: Print the Ingoing Cash Order Report
-The **Cash Ingoing Order CO\-1** report prints the Ingoing Cash Order form, which is a standard format required by Russian accounting legislation.  
+The **Cash Ingoing Order CO-1** report prints the Ingoing Cash Order form, which is a standard format required by Russian accounting legislation.  
   
 ### To print the ingoing cash order report  
   
 1.  In the **Search** box, enter **Cash Ingoing Order**, and then choose the related link.  
   
-2.  In the **\($ R\_12403 Cash Ingoing Order CO\-1 $\)** window, fill in the fields.  
+2.  In the **\($ R\_12403 Cash Ingoing Order CO-1 $\)** window, fill in the fields.  
   
     |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
     |---------------------------------|---------------------------------------|  
@@ -31,5 +31,5 @@ The **Cash Ingoing Order CO\-1** report prints the Ingoing Cash Order form, whic
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen. Choose the **Cancel** button to save the information without printing the report.  
   
 ## See Also  
- Cash Report CO\-4   
- Cash Order Journal CO\-3
+ Cash Report CO-4   
+ Cash Order Journal CO-3

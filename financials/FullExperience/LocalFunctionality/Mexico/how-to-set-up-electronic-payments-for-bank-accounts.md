@@ -30,10 +30,10 @@ In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow
   
     |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
     |---------------------------------|---------------------------------------|  
-    |**Export Format**|The country\-specific file format for the export file. Choose the country\/region format that your bank uses.|  
-    |**Payment Export Format**|The export file format when the format is not country\-specific.<br /><br /> If this field is filled, then the **Export Format** field will be ignored. The payment file will be exported as set up in the **Payment Export Format** field. For more information, see [How to: Export Payments to a Bank File](../../BusinessFunctionality/DataExchange/how-to-export-payments-to-a-bank-file.md).|  
-    |**E\-Pay Export File Path**|The full directory path, starting with the drive letter and ending with a back slash \(\\\). You can enter a maximum of 80 characters.|  
-    |**Last E\-Pay Export File Name**|The file name without the path information. The file name should contain digits. The name will be incremented every time that it is exported, maintaining a permanent record of every file that you export to the bank. You can enter a maximum of 30 characters.|  
+    |**Export Format**|The country-specific file format for the export file. Choose the country\/region format that your bank uses.|  
+    |**Payment Export Format**|The export file format when the format is not country-specific.<br /><br /> If this field is filled, then the **Export Format** field will be ignored. The payment file will be exported as set up in the **Payment Export Format** field. For more information, see [How to: Export Payments to a Bank File](../../BusinessFunctionality/DataExchange/how-to-export-payments-to-a-bank-file.md).|  
+    |**E-Pay Export File Path**|The full directory path, starting with the drive letter and ending with a back slash \(\\\). You can enter a maximum of 80 characters.|  
+    |**Last E-Pay Export File Name**|The file name without the path information. The file name should contain digits. The name will be incremented every time that it is exported, maintaining a permanent record of every file that you export to the bank. You can enter a maximum of 30 characters.|  
     |**Transit No.**|The bank transit number.|  
     |**Bank Account No.**|The bank account number.|  
     |**Bank Branch No.**|The bank branch number.|  
@@ -44,7 +44,7 @@ In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow
 4.  On the **Posting** FastTab, in the **Last Remittance Advice No.** field, enter the last remittance advice number.  
   
     > [!NOTE]  
-    >  Instead of using check stock to print remittance advice for employees who are not receiving a paycheck, you can print remittance advice using blank paper. If you use this option, you must use a different number series so that they are not confused with your check numbers. We recommend that you use letters in the number series, so that you can easily identify these as non\-checks. For example – RA00000. You can enter a maximum of 20 characters.  
+    >  Instead of using check stock to print remittance advice for employees who are not receiving a paycheck, you can print remittance advice using blank paper. If you use this option, you must use a different number series so that they are not confused with your check numbers. We recommend that you use letters in the number series, so that you can easily identify these as non-checks. For example – RA00000. You can enter a maximum of 20 characters.  
   
 5.  Create a directory on your computer for the transmission program path.  
   

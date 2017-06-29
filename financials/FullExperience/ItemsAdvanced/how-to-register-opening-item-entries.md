@@ -27,5 +27,5 @@ To record inventory on hand of individual items, you must post an entry for each
 3.  In the **Unit Amount** field, enter the price per unit of the item so that the item card is updated with the correct direct unit cost and unit cost. The total amount of the posted item entries, the total of all amounts in the **Amount** field in the item journal, must correspond to the amount posted to the general ledger account for inventory.  
   
 ## See Also  
- Post Inventory Cost to G\-L   
+ Post Inventory Cost to G-L   
  [How to: Post Purchases and Inventory Adjustments](../Finance/how-to-post-purchases-and-inventory-adjustments.md)

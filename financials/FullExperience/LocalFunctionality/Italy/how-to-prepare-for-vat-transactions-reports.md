@@ -88,7 +88,7 @@ You must submit periodic reports to the tax authorities to list all transactions
     > [!NOTE]  
     >  Before you can specify a tax representative, you must have created the tax representative as a contact.  
   
-#### To specify a tax representative for a non\-resident customer  
+#### To specify a tax representative for a non-resident customer  
   
 1.  In the **Search** box, enter **Customer Card**, and then choose the related link.  
   

@@ -20,7 +20,7 @@ To use FIX INCLUDE HERE<!--[!INCLUDE[rimlong](../SetupAndAdministration/includes
   
  In addition, you can apply specific setup data to your company after you initialize it. The information is provided in a configuration package, a .rapidstart file, which delivers content in a compressed format.  
   
- Example configuration packages, including country\/region\-specific files, are included with the FIX INCLUDE HERE<!--[!INCLUDE[demolong](../ApplicationDesign/includes/demolong_md.md)] -->. Use the following procedures to use the example configuration package with a new company.  
+ Example configuration packages, including country\/region-specific files, are included with the FIX INCLUDE HERE<!--[!INCLUDE[demolong](../ApplicationDesign/includes/demolong_md.md)] -->. Use the following procedures to use the example configuration package with a new company.  
   
 ### To use the example BASICCONFIG configuration package  
   

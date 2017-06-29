@@ -25,11 +25,11 @@ When you have created your bins, you can create the bin content that you want fo
 2.  On the worksheet header, in the **Name** field, select the worksheet of the location where you want to create bin contents.  
   
 3.  In the **Bin Code** field, select the code of the bin for which you want to define bin content.   
-    If you are using directed put\-away and pick in this location, the fields relating to that particular bin, such as **Bin Type**, **Warehouse Class Code**, and **Bin Ranking**, will be filled in automatically. This is information that you need to consider as you define the bin content.  
+    If you are using directed put-away and pick in this location, the fields relating to that particular bin, such as **Bin Type**, **Warehouse Class Code**, and **Bin Ranking**, will be filled in automatically. This is information that you need to consider as you define the bin content.  
   
-4.  Select the item that you want to assign to the bin, and fill in the fields related to the bin content. If you are using directed put\-away and pick, and want to use the **Calculate Bin Replenishment** function, fill in the **Max. Qty.** and **Min. Qty.** fields.  
+4.  Select the item that you want to assign to the bin, and fill in the fields related to the bin content. If you are using directed put-away and pick, and want to use the **Calculate Bin Replenishment** function, fill in the **Max. Qty.** and **Min. Qty.** fields.  
   
-     To set this bin as the preferred bin for the item even if the bin quantity is **0** and all other put\-away criteria equal, select the **Fixed** field.  
+     To set this bin as the preferred bin for the item even if the bin quantity is **0** and all other put-away criteria equal, select the **Fixed** field.  
   
 5.  Repeat steps 3 through 4 for each item you want to assign to a bin.  
   

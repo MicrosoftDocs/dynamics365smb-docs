@@ -18,10 +18,10 @@
 # About Forecasting Functionality
 Forecasting functionality is used to create anticipated demand; actual demand is created from sales and production orders. During creation of the Master Production Schedule \(MPS\), the forecast is netted against the sales and production orders. The *Component* option on the forecast determines which type of requirements to take into consideration in the netting process. If the forecast is for a sales item, only sales orders net the forecast. If it is for components, only dependent demand from production order components net the forecast.  
   
- Forecasting allows your company to create "what if" scenarios and efficiently and cost\-effectively plan for and meet demand. Accurate forecasting can make a critical difference in customer satisfaction levels with regard to order promising dates and on\-time delivery.  
+ Forecasting allows your company to create "what if" scenarios and efficiently and cost-effectively plan for and meet demand. Accurate forecasting can make a critical difference in customer satisfaction levels with regard to order promising dates and on-time delivery.  
   
 ## Sales Forecasts and Production Forecasts  
- The forecasting functionality in the program can be used to create sales or production forecasts, in combination or independently. For example, most make\-to\-order companies don't carry finished goods inventory, because each item is produced when it is ordered. Anticipating orders \(sales forecasting\) is critical for a reasonable turnaround time on the finished goods \(production forecasting\). As an example, component parts with lengthy delivery times, if not on order or on inventory, can delay production.  
+ The forecasting functionality in the program can be used to create sales or production forecasts, in combination or independently. For example, most make-to-order companies don't carry finished goods inventory, because each item is produced when it is ordered. Anticipating orders \(sales forecasting\) is critical for a reasonable turnaround time on the finished goods \(production forecasting\). As an example, component parts with lengthy delivery times, if not on order or on inventory, can delay production.  
   
 -   The sales forecast is the sales department's best guess at what will be sold in the future, and is specified by item and by period. However, the sales forecast is not always adequate for production.  
   
@@ -45,7 +45,7 @@ Forecasting functionality is used to create anticipated demand; actual demand is
  The forecast period is valid from its starting date until the date the next forecast starts. The time interval window gives you multiple choices to insert the demand at a specific date in a period. It is therefore recommended not to change the forecast period scope unless you want to move all forecast entries to the starting date of this period.  
   
 ### Forecast by Locations  
- It can be stated in the manufacturing setup if [forecasts on locations are to be limited to each location](../Topic/\($%20T_99000765_37%20Use%20Forecast%20on%20Locations%20$\).md). Note, though, that if location\-based forecasts are viewed in isolation, the overall forecast may not be representative.  
+ It can be stated in the manufacturing setup if [forecasts on locations are to be limited to each location](../Topic/\($%20T_99000765_37%20Use%20Forecast%20on%20Locations%20$\).md). Note, though, that if location-based forecasts are viewed in isolation, the overall forecast may not be representative.  
   
 ## See Also  
  [How to: Run MPS and MRP](../OperationsPlanning/how-to-run-mps-and-mrp.md)   
@@ -53,4 +53,4 @@ Forecasting functionality is used to create anticipated demand; actual demand is
  Order Planning   
  [How to: Plan for New Demand](../OperationsPlanning/how-to-plan-for-new-demand.md)   
  [How to: Plan Project Orders](../OperationsPlanning/how-to-plan-project-orders.md)   
- [Production Forecast\-duplicate](../Topic/\($%20N_99000919%20Production%20Forecast%20$\)-duplicate.md)
+ [Production Forecast-duplicate](../Topic/\($%20N_99000919%20Production%20Forecast%20$\)-duplicate.md)

@@ -24,12 +24,12 @@ After items have been put away and before they are picked to fulfill the needs o
   
  Likewise, items can be returned to the warehouse to be put away. The items may have been taken out of available inventory for a production order, and then not used at all. To make them part of available inventory again, they must be put away in the bin.  
   
- The options **Internal Picks** and **Internal Put\-aways** enable you to perform picks and put\-aways without having to refer to a particular source document. In both of these options, you can easily set up all the information you need to create a pick or put\-away warehouse instruction.  
+ The options **Internal Picks** and **Internal Put-aways** enable you to perform picks and put-aways without having to refer to a particular source document. In both of these options, you can easily set up all the information you need to create a pick or put-away warehouse instruction.  
   
 > [!NOTE]  
->  If you are not using internal picks and internal put\-aways, these adjustments can be performed using the methods to move items from bin to bin or to post quantity adjustments in a bin.  
+>  If you are not using internal picks and internal put-aways, these adjustments can be performed using the methods to move items from bin to bin or to post quantity adjustments in a bin.  
 >   
->  When the location uses directed put\-away and pick, and therefore uses bin types, you cannot manually move items in or out of a bin of bin type RECEIVE, because items that are in a RECEIVE\-type bin must be registered as being put away before they are part of available inventory.  
+>  When the location uses directed put-away and pick, and therefore uses bin types, you cannot manually move items in or out of a bin of bin type RECEIVE, because items that are in a RECEIVE-type bin must be registered as being put away before they are part of available inventory.  
   
 ### To create a pick from the internal pick  
   
@@ -41,19 +41,19 @@ After items have been put away and before they are picked to fulfill the needs o
   
 4.  On the **Actions** tab, in the **Functions** group, choose **Create Pick.** A warehouse pick instruction is now ready for a warehouse employee to perform.  
   
-### To create a put\-away from the internal put\-away  
+### To create a put-away from the internal put-away  
   
-1.  In the **Search** box, enter **Whse. Internal Put\-away**, and then choose the related link.  
+1.  In the **Search** box, enter **Whse. Internal Put-away**, and then choose the related link.  
   
 2.  Fill in the **No.** and **From Bin Code** fields on the **General** FastTab. The **From Bin Code** field specifies the bin where the items being returned to the warehouse, perhaps from production, are located.  
   
 3.  Fill in the item numbers and quantities on the lines.  
   
-4.  On the **Actions** tab, in the **Functions** group, choose **Create Put\-away**. A warehouse put\-away instruction is now ready for a warehouse employee to perform.  
+4.  On the **Actions** tab, in the **Functions** group, choose **Create Put-away**. A warehouse put-away instruction is now ready for a warehouse employee to perform.  
   
 ## See Also  
  Whse. Internal Pick   
- Whse. Internal Put\-away   
+ Whse. Internal Put-away   
  [Move Items](../WarehouseActivities/move-items.md)   
  [How to: Post Quantity Adjustments for Bins](../WarehouseActivities/how-to-post-quantity-adjustments-for-bins.md)   
  [How to: Register Quantity Adjustments in Warehouse Item Journals](../WarehouseActivities/how-to-register-quantity-adjustments-in-warehouse-item-journals.md)

@@ -26,7 +26,7 @@ When items arrive at a warehouse that is set up for warehouse receipt processing
   
      Fill in the fields on **General** FastTab. When you retrieve source document lines, some of the information is copied to each line.  
   
-     For directed put\-away and pick, if the location has a default zone and bin for receipts, the **Zone Code** and **Bin Code** fields are filled in automatically, but you can change them as appropriate.  
+     For directed put-away and pick, if the location has a default zone and bin for receipts, the **Zone Code** and **Bin Code** fields are filled in automatically, but you can change them as appropriate.  
   
     > [!NOTE]  
     >  If you wish to receive items with warehouse class codes other than the class code of the bin in the **Bin Code** field on the document header, you must delete the contents of the **Bin Code** field on the header before you retrieve source document lines for the items.  
@@ -45,18 +45,18 @@ When items arrive at a warehouse that is set up for warehouse receipt processing
   
 5.  Post the warehouse receipt. The quantity fields are updated on the source documents, and the items are recorded as part of company inventory.  
   
- If you are using warehouse put\-away, the receipt lines are sent to the warehouse put\-away function. The items, although received, cannot be picked until they have been put away. The received items are identified as available inventory only when the put\-away has been registered.  
+ If you are using warehouse put-away, the receipt lines are sent to the warehouse put-away function. The items, although received, cannot be picked until they have been put away. The received items are identified as available inventory only when the put-away has been registered.  
   
- If you are not using warehouse put\-away but you are using bins, the put\-away of the items in the bin specified on the source document line is recorded.  
+ If you are not using warehouse put-away but you are using bins, the put-away of the items in the bin specified on the source document line is recorded.  
   
 > [!NOTE]  
->  If you use the **Post and Print** function, you both post the receipt and print a put\-away instruction that shows you where to place the items in storage.  
+>  If you use the **Post and Print** function, you both post the receipt and print a put-away instruction that shows you where to place the items in storage.  
 >   
->  If your location uses directed put\-away and pick, then the put\-away templates are used to calculate the best place to put the items away. This is then printed on the put\-away instruction.  
+>  If your location uses directed put-away and pick, then the put-away templates are used to calculate the best place to put the items away. This is then printed on the put-away instruction.  
   
 ## See Also  
  [Receiving](../Receiving/receiving.md)   
  [Design Details: Warehouse Management](../ApplicationDesign/design-details-warehouse-management.md)   
- [How to: Put Items Away with Warehouse Put\-aways](../WarehouseActivities/how-to-put-items-away-with-warehouse-put-aways.md)   
- [How to: Cross\-Dock Items](../Receiving/how-to-cross-dock-items.md)   
+ [How to: Put Items Away with Warehouse Put-aways](../WarehouseActivities/how-to-put-items-away-with-warehouse-put-aways.md)   
+ [How to: Cross-Dock Items](../Receiving/how-to-cross-dock-items.md)   
  [How to: Use Filters to Get Source Documents](../Receiving/how-to-use-filters-to-get-source-documents.md)

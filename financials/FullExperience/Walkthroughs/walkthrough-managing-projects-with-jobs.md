@@ -28,7 +28,7 @@ This walkthrough introduces you to the project management features in jobs. Jobs
   
 -   Setting up job task lines and planning lines.  
   
--   Creating job\-specific prices for items, resources, and general ledger accounts.  
+-   Creating job-specific prices for items, resources, and general ledger accounts.  
   
 -   Invoicing from a job.  
   
@@ -44,7 +44,7 @@ This walkthrough introduces you to the project management features in jobs. Jobs
   
 -   Copying part of a job to a new job.  
   
--   Copying job\-specific prices.  
+-   Copying job-specific prices.  
   
 -   Copying planning lines.  
   
@@ -74,7 +74,7 @@ This walkthrough introduces you to the project management features in jobs. Jobs
 ## Story  
  This walkthrough focuses on FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[demoname](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/demoname_md.md)] --> --> -->, a design and consultancy firm that designs and fits new infrastructures, such as conference halls and offices, with furniture, accessories, and storage units. Most of its work is project oriented. Prakash is a project manager at FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[demo](../ApplicationDesign/includes/demo_md.md)] --> --> --> --> -->. He uses jobs to give him an overview of each ongoing job that [!INCLUDE[demo](../ApplicationDesign/includes/demo_md.md)] has started, as well as the jobs that are completed. He is usually the one who sets up deals with customers and enters the core of the job, which is task and planning lines in addition to prices, into FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> --> -->. He finds that creating, maintaining, and reviewing information is straightforward. Prakash also likes the way [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] enables copying jobs and payment by installments.  
   
- Tricia, a project team member who reports to Prakash, is responsible for monitoring the job day\-to\-day. She enters her own work in addition to the work performed by technicians on every task. She records the items that they have used and the costs that they have incurred.  
+ Tricia, a project team member who reports to Prakash, is responsible for monitoring the job day-to-day. She enters her own work in addition to the work performed by technicians on every task. She records the items that they have used and the costs that they have incurred.  
   
 ## Preparing Sample Data  
  To prepare for this walkthrough, you must add Tricia as a new resource.  
@@ -123,7 +123,7 @@ This walkthrough introduces you to the project management features in jobs. Jobs
   
     -   **Description**: **Tricia**  
   
-    -   **No. Series**: **JJNL\-GEN**  
+    -   **No. Series**: **JJNL-GEN**  
   
 4.  Choose the **OK** button to close all open windows.  
   
@@ -140,7 +140,7 @@ This walkthrough introduces you to the project management features in jobs. Jobs
   
     -   **Description**: **Advising on conference hall setup**  
   
-    -   **Bill\-to\-Customer No.**: **01445544**  
+    -   **Bill-to-Customer No.**: **01445544**  
   
 4.  On the **Posting** FastTab, enter the following information:  
   
@@ -198,10 +198,10 @@ This walkthrough introduces you to the project management features in jobs. Jobs
   
     |Job Task No.|FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)] --> -->|Job Task Type|  
     |------------------|---------------------------------------|-------------------|  
-    |1000|Consulting on hall setup|Begin\-Total|  
+    |1000|Consulting on hall setup|Begin-Total|  
     |1010|Consultation meeting with customer|Posting|  
     |1020|Development|Posting|  
-    |1090|Consulting Total|End\-Total|  
+    |1090|Consulting Total|End-Total|  
   
 3.  To show that some tasks are subcategories of other tasks, on the **Actions** tab, in the **Functions** group, choose **Indent Job Tasks**.  
   
@@ -364,7 +364,7 @@ This walkthrough introduces you to the project management features in jobs. Jobs
   
 2.  Select the **Guildford** job number, and on the **Home** tab, in the **Process** group, choose **Jobs Task Lines**.  
   
-3.  Select line 1120, and in the **Schedule \(Total Cost\)** field, right\-click the amount and choose **DrillDown**.  
+3.  Select line 1120, and in the **Schedule \(Total Cost\)** field, right-click the amount and choose **DrillDown**.  
   
      By reviewing the Job Planning lines, Prakash determines that he will also need Tricia for 30 hours for this stage of the project. He agrees on a fixed price with the customer.  
   
@@ -386,7 +386,7 @@ This walkthrough introduces you to the project management features in jobs. Jobs
   
 7.  Choose the **OK** button to close the window.  
   
-8.  In the **Schedule \(Total Cost\)** field, right\-click the field, and choose **Drilldown** again in the **Job Task Lines** window. View the changes to the schedule. You see that 30 hours have been added to the schedule.  
+8.  In the **Schedule \(Total Cost\)** field, right-click the field, and choose **Drilldown** again in the **Job Task Lines** window. View the changes to the schedule. You see that 30 hours have been added to the schedule.  
   
 9. Choose the **OK** button to close the windows.  
   
@@ -456,13 +456,13 @@ This walkthrough introduces you to the project management features in jobs. Jobs
   
 10. Select the GUILDFORD job. On the **Home** tab, in the **Process** group, choose **Job Task Lines**.  
   
-11. Select line 1120 and in the **Schedule \(Total Cost\)** field, right\-click the amount. Choose **DrillDown** to view the information.  
+11. Select line 1120 and in the **Schedule \(Total Cost\)** field, right-click the amount. Choose **DrillDown** to view the information.  
   
      Changes are automatically entered on the line for Job Task No. 1120. In the total cost of scheduled work, five additional hours of work by Tricia has been added to the schedule.  
   
 12. Choose the **Close** button to close the window.  
   
-13. Right\-click the amount in the **Contract \(Total Cost\)** field and choose **DrillDown** to view the information.  
+13. Right-click the amount in the **Contract \(Total Cost\)** field and choose **DrillDown** to view the information.  
   
      In the total price for the contract, only the original contracted 30 hours are included, because this is what was agreed upon with the customer.  
   
@@ -479,7 +479,7 @@ This walkthrough introduces you to the project management features in jobs. Jobs
   
     -   **Description**: **Setting up 10 Conference Rooms**  
   
-    -   **Bill\-To Customer No.**: **20000**  
+    -   **Bill-To Customer No.**: **20000**  
   
 3.  On the **Actions** tab, in the **Functions** group, choose **Copy Job Tasks from**.  
   
@@ -530,7 +530,7 @@ This walkthrough introduces you to the project management features in jobs. Jobs
   
     -   **Description**: **Redecoration of Reception Area**  
   
-    -   **Bill\-to\-Customer No.**: **30000**  
+    -   **Bill-to-Customer No.**: **30000**  
   
     -   **Job Posting Group**: **Setting up**  
   
@@ -550,10 +550,10 @@ This walkthrough introduces you to the project management features in jobs. Jobs
   
     |Line|Job Task No.|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|Job Task Type|  
     |----------|------------------|---------------------------------------|-------------------|  
-    |1|1000|Payment\-Down Payment|Posting|  
+    |1|1000|Payment-Down Payment|Posting|  
     |2|2000|Usage|Posting|  
-    |3|3000|Payment \- Midway|Posting|  
-    |4|4000|Payment \- Completion|Posting|  
+    |3|3000|Payment - Midway|Posting|  
+    |4|4000|Payment - Completion|Posting|  
   
 5.  In the **Job Task Lines** window, select task 1000, and on the **Home** tab, in the **Process** group, choose **Job Planning Lines**.  
   

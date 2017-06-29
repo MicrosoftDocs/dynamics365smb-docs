@@ -16,9 +16,9 @@
 
     ---
 # How to: Set Up User-Defined Depreciation Methods
-In the **Depreciation Table** window, you can set up user\-defined depreciation methods. For example, you can set up depreciation based on number of units.  
+In the **Depreciation Table** window, you can set up user-defined depreciation methods. For example, you can set up depreciation based on number of units.  
   
-### To set up user\-defined depreciation methods  
+### To set up user-defined depreciation methods  
   
 1.  In the **Search** box, enter **Depreciation Tables**, and then choose the related link.  
   

@@ -23,7 +23,7 @@ You use the setup questionnaire to help reduce your implementation workload by s
 > [!TIP]  
 >  For more information about defining setup values in supply planning fields, see [Setup Best Practices: Supply Planning](../SetupAndAdministration/setup-best-practices-supply-planning.md).  
   
- When your customer completes the questionnaire, you import the file into the customer's new [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] company, which you have created based on industry\-specific data templates that match the questionnaire. You and your customer validate the questionnaire answers before you apply them to the database, and then work directly in the database to set up the company.  
+ When your customer completes the questionnaire, you import the file into the customer's new [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] company, which you have created based on industry-specific data templates that match the questionnaire. You and your customer validate the questionnaire answers before you apply them to the database, and then work directly in the database to set up the company.  
   
  The following table describes the sequence of tasks with links to topics that describe them. These tasks are listed in the order in which you generally perform them.  
   

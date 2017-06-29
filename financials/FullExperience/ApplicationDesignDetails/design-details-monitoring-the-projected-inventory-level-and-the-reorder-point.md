@@ -52,13 +52,13 @@ Inventory is a type of supply, but for inventory planning, the planning system d
   
  ![](../ApplicationDesign/media/nav_app_supply_planning_2_projected_inventory.png "NAV\_APP\_supply\_planning\_2\_projected\_inventory")  
   
-1.  Supply **Sa** of 4 \(fixed\) closes Demand **Da** of \-3.  
+1.  Supply **Sa** of 4 \(fixed\) closes Demand **Da** of -3.  
   
-2.  CloseDemand: Create a decrease reminder of \-3 \(not shown\).  
+2.  CloseDemand: Create a decrease reminder of -3 \(not shown\).  
   
 3.  Supply **Sa** is closed with a surplus of 1 \(no more demand exists.  
   
-     This increases the projected inventory level to \+4, while the projected **available** inventory becomes \-1.  
+     This increases the projected inventory level to \+4, while the projected **available** inventory becomes -1.  
   
 4.  The next supply **Sb** of 2 \(another order\) has already been placed on the timeline.  
   
@@ -70,9 +70,9 @@ Inventory is a type of supply, but for inventory planning, the planning system d
   
 7.  System makes a final check: Is there any decrease reminder? Yes, there is one on the date of **Da**.  
   
-8.  System adds the decrease reminder of \-3 reminder to the projected inventory level, either A: \+4 \-3 \= 1 or B: \+6 \-3 \= \+3.  
+8.  System adds the decrease reminder of -3 reminder to the projected inventory level, either A: \+4 -3 \= 1 or B: \+6 -3 \= \+3.  
   
-9. In case of A, the system creates a forward\-scheduled order starting on date **Da**.  
+9. In case of A, the system creates a forward-scheduled order starting on date **Da**.  
   
      In case of B, the reorder point is reached and a new order is created.  
   

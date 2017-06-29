@@ -50,14 +50,14 @@ Item tracking lines are used to enter serial nos. and lot nos. for physical inve
   
  You can view the item tracking lines to post for the current physical inventory order line. Click **Line**, **Item Tracking Lines**, **All Diff. Tracking Lines**. The window **Phys. Invt. Item Track. List** opens.  
   
- For more information, see [Example \- Inventory Order Line with Tracking Lines](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/example-inventory-order-line-with-tracking-lines.md).  
+ For more information, see [Example - Inventory Order Line with Tracking Lines](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/example-inventory-order-line-with-tracking-lines.md).  
   
  You can have the program to print the item tracking lines optional when printing the report Phys. Invt. Order Diff. List for the inventory order lines.  
   
 ## See Also  
  [How to: Enter Physical Inventory Orders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-enter-physical-inventory-orders.md)   
  [How to: Calculate Quantity On Hand for a Physical Inventory Order](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-calculate-quantity-on-hand-for-a-physical-inventory-order.md)   
- [Physical Inventory Recording \- Counting Physical Inventory](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/physical-inventory-recording-counting-physical-inventory.md)   
+ [Physical Inventory Recording - Counting Physical Inventory](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/physical-inventory-recording-counting-physical-inventory.md)   
  [How to: Finish a Physical Inventory Recording](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-finish-a-physical-inventory-recording.md)   
  [How to: Finish a Physical Inventory Order](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-finish-a-physical-inventory-order.md)   
  [How to: Analyze Physical Inventory Differences](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-analyze-physical-inventory-differences.md)

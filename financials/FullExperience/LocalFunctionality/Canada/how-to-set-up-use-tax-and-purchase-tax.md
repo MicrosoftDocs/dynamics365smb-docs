@@ -53,7 +53,7 @@ Sales tax includes taxes that companies pay for using items:
   
 2.  In the **Tax Details** window, on the **Home** tab, in the **New** group, choose **New**.  
   
-3.  In the **New \- Tax Details** window, fill in the fields as described in the following table.  
+3.  In the **New - Tax Details** window, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
@@ -94,7 +94,7 @@ Sales tax includes taxes that companies pay for using items:
   
 4.  Choose the **OK** button.  
   
-### To set up purchase tax for non\-recoverable tax  
+### To set up purchase tax for non-recoverable tax  
   
 1.  In the **Search** box, enter **Tax Details**, and then choose the related link.  
   

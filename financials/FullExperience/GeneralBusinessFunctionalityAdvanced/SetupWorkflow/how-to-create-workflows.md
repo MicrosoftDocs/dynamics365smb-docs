@@ -27,7 +27,7 @@ A customer may want to change an order after it has been submitted for approval.
 -   In the window that displays the record, on the **Actions** tab, in the **Request Approval** group, choose **Cancel Approval Request**.  
   
     > [!NOTE]  
-    >  If the record is a journal line, then choose either **Selected Journal lines** or **Journal Batch** from the drop\-down list.  
+    >  If the record is a journal line, then choose either **Selected Journal lines** or **Journal Batch** from the drop-down list.  
     >   
     >  If you choose **Journal Batch**, then approval requests for all journal lines are canceled, also those that you may not see because of filters.  
   

@@ -30,7 +30,7 @@ After you have created a proposal and made any modifications, you can process th
   
 ### To create a payment history for a proposal  
   
-1.  In the **Search** box, enter **Telebank \- Bank Overview**, and then choose the related link.  
+1.  In the **Search** box, enter **Telebank - Bank Overview**, and then choose the related link.  
   
      If you want to print the proposal before you process it, choose the **Print** button.  
   
@@ -49,4 +49,4 @@ After you have created a proposal and made any modifications, you can process th
   
 ## See Also  
  [How to: Create Proposals](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/how-to-create-proposals.md)   
- Paymt. History \- Change Status Batch Job
+ Paymt. History - Change Status Batch Job

@@ -21,5 +21,5 @@ This section describes local functionality in FIX INCLUDE HERE<!--[!INCLUDE[navn
 ## In This Section  
  [What's New](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Denmark/what-s-new.md)  
   [OIOUBL Electronic Invoicing Overview](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Denmark/oioubl-electronic-invoicing-overview.md)  
-  [VAT\-VIES Reporting](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Denmark/vat-vies-reporting.md)  
+  [VAT-VIES Reporting](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Denmark/vat-vies-reporting.md)  
  [Tables, Reports, Batch Jobs, and Windows](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Denmark/tables-reports-batch-jobs-and-windows.md)

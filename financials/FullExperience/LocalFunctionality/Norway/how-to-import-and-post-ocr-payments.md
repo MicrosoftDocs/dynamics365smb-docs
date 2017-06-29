@@ -33,7 +33,7 @@ Before you can receive optical character recognition \(OCR\) payments, you must 
   
 3.  On the **Home** tab, in the **Process** group, choose **Import Payments**.  
   
-4.  In the **OCR Payment\-BBS** window, fill in the fields as described in the following table.  
+4.  In the **OCR Payment-BBS** window, fill in the fields as described in the following table.  
   
     |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
     |---------------------------------|---------------------------------------|  
@@ -55,4 +55,4 @@ Before you can receive optical character recognition \(OCR\) payments, you must 
  [How to: Set Up OCR Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-set-up-ocr-payments.md)   
  Cash Receipt Journal   
  [How to: Fill and Post General Journals](../../Finance/how-to-fill-and-post-general-journals.md)   
- [How to: Print the OCR Journal \- Test Report](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-print-the-ocr-journal-test-report.md)
+ [How to: Print the OCR Journal - Test Report](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-print-the-ocr-journal-test-report.md)

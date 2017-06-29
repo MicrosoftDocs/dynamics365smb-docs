@@ -18,11 +18,11 @@
 # How to: Submit Vendor Payments Electronically in SEPA ISO 20022 Payment Format
 In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->, you can create and submit Single Euro Payments Area \(SEPA\) ISO 20022 vendor payments electronically.  
   
- Before you can create and submit SEPA vendor payments, you must enable SEPA payments. For more information, see [How to: Activate SEPA Payments\-duplicate](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/how-to-activate-sepa-payments-duplicate.md).  
+ Before you can create and submit SEPA vendor payments, you must enable SEPA payments. For more information, see [How to: Activate SEPA Payments-duplicate](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/how-to-activate-sepa-payments-duplicate.md).  
   
 ### To submit vendor payments electronically in SEPA ISO 20022 payment format  
   
-1.  In the **Search** box, enter **Telebank\-Bank Overview**, and then choose the related link.  
+1.  In the **Search** box, enter **Telebank-Bank Overview**, and then choose the related link.  
   
 2.  Select the relevant bank account, and then, on the **Navigate** tab, in the **Telebank** group, choose **Proposal**.  
   
@@ -49,7 +49,7 @@ In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow
      The proposal lines populate in the **Telebank Proposal** window.  
   
 ## See Also  
- [How to: Activate SEPA Payments\-duplicate](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/how-to-activate-sepa-payments-duplicate.md)   
+ [How to: Activate SEPA Payments-duplicate](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/how-to-activate-sepa-payments-duplicate.md)   
  [Single EURO Payments Area \(SEPA\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/single-euro-payments-area-sepa-.md)   
- Telebank \- Bank Overview Window   
+ Telebank - Bank Overview Window   
  Telebank Proposal Window

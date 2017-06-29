@@ -22,9 +22,9 @@ Sometimes you may want to see an overview of the setup tables that cause FIX INC
   
 1.  In the **Search** box, enter **Chart of Accounts**, and then choose the related link.  
   
-2.  In the **Chart of Accounts** window, select the line with an account for which you want an overview. On the **Navigate** tab, in the **Account** group, choose **Where\-Used List**.  
+2.  In the **Chart of Accounts** window, select the line with an account for which you want an overview. On the **Navigate** tab, in the **Account** group, choose **Where-Used List**.  
   
-     The **G\/L Account Where\-Used List** window shows every line that refers to the general ledger account in the following setup tables:  
+     The **G\/L Account Where-Used List** window shows every line that refers to the general ledger account in the following setup tables:  
   
      Currency  
   

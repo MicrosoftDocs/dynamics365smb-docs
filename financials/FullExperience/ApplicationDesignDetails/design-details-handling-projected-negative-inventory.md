@@ -28,13 +28,13 @@ The reorder point expresses the anticipated demand during the lead time of the i
   
 1.  Supply **A**, initial projected inventory, is below reorder point.  
   
-2.  A new forward\-scheduled supply is created \(**C**\).  
+2.  A new forward-scheduled supply is created \(**C**\).  
   
      \(Quantity \= Maximum Inventory – Projected Inventory Level\)  
   
 3.  Supply **A** is closed by demand **B**, which is not fully covered.  
   
-     \(Demand **B** could try to schedule Supply C in but that will not happen according to the time\-bucket concept.\)  
+     \(Demand **B** could try to schedule Supply C in but that will not happen according to the time-bucket concept.\)  
   
 4.  New supply \(**D**\) is created to cover the remaining quantity on Demand **B**.  
   

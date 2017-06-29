@@ -42,7 +42,7 @@ You can use an external service to keep your for currency exchange rates up to d
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
-    |**Service URL**|Specify the URL of the currency exchange rate service.<br /><br /> Example: The ECB service: http:\/\/www.ecb.europa.eu\/stats\/eurofxref\/eurofxref\-daily.xml|  
+    |**Service URL**|Specify the URL of the currency exchange rate service.<br /><br /> Example: The ECB service: http:\/\/www.ecb.europa.eu\/stats\/eurofxref\/eurofxref-daily.xml|  
     |**Service Provider**|Specify the name of the service provider.|  
     |**Terms of Service**|Specify the URL of the service provider’s terms of use.|  
   

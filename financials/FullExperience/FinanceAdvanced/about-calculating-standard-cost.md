@@ -29,7 +29,7 @@ Many manufacturing companies select a valuation base of standard cost. This also
 ## Setting Up Standard Costs  
  Because the standard cost of a produced or assembled item can consist of multiple cost elements, including material, capacity \(labor\) and direct and overhead subcontractor costs, standard costs must be established for each of these elements.  
   
- The accounting task for an item\-processing company using standard costing is to:  
+ The accounting task for an item-processing company using standard costing is to:  
   
 -   Estimate a standard cost of the finished item and set it up on the item card.  
   
@@ -61,7 +61,7 @@ Many manufacturing companies select a valuation base of standard cost. This also
 |Cost calculation basis|Material cost calculation|  
 |----------------------------|-------------------------------|  
 |Single level|Produced item is equal to the total cost of all purchased or subassembled items on that item's production BOM.|  
-|Rolled\-up level or multilevel|Produced item is the sum of the material cost for all subassemblies on that item's BOM and the cost of all purchased items on that item's production BOM.|  
+|Rolled-up level or multilevel|Produced item is the sum of the material cost for all subassemblies on that item's BOM and the cost of all purchased items on that item's production BOM.|  
   
 ### Capacity Costs  
  Capacity costs are the costs that are associated with internal labor and machine costs. You must set up these costs for each resource \(in assembly management\) and work or machine center on the routing \(in production\). As with materials, you can identify both direct and indirect elements of capacity cost. For example, the direct cost for a work center may be the established shop rate to perform a specific function. The indirect cost for a work center may represent some general factory expenses, such as lighting, heating, and so on. As with material costs, you can express capacity overhead as an indirect cost percentage or a fixed overhead rate.  
@@ -87,7 +87,7 @@ Many manufacturing companies select a valuation base of standard cost. This also
   
      To specify setup time on the routing for planning but not include this expense in the standard cost calculation, clear the **Cost Incl. Setup** field on the  **General** FastTab in the **Manufacturing Setup** window.  
   
-     On a single\-level basis, this is the labor cost that is required to produce the finished production item and is specified on the production item's routing. On a multi\-level basis, this is the capacity cost that is specified for each individually produced item that is included in the parent item's BOM.  
+     On a single-level basis, this is the labor cost that is required to produce the finished production item and is specified on the production item's routing. On a multi-level basis, this is the capacity cost that is specified for each individually produced item that is included in the parent item's BOM.  
   
 ### Subcontractor Costs  
  Subcontractor costs are the costs that are associated with services that are provided by a company's outside vendors or subcontractors. Similar to material and capacity, subcontractor costs can consist of both direct and overhead amounts. Direct subcontractor cost represents the actual charge for each unit of services that is provided. For example, overhead subcontractor cost can represent freight and handling costs that are incurred by the company with a subcontracted order.  

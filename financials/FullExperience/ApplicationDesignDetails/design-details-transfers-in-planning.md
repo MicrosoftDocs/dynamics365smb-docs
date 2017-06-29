@@ -56,9 +56,9 @@ Transfer orders are also a source of supply when working at the SKU level. When 
 ## Transfer Level Code  
  The sequence in which the locations are processed in the planning system is determined by the transfer level code of the SKU.  
   
- The transfer level code is an internal field which is automatically calculated and stored on the SKU when SKU is created or modified. The calculation runs across all SKUs for a given combination of Item\/Variant and uses the location code and the transfer\-from code to determine the route the planning will have to use when traversing through the SKUs to ensure that all demands are processed.  
+ The transfer level code is an internal field which is automatically calculated and stored on the SKU when SKU is created or modified. The calculation runs across all SKUs for a given combination of Item\/Variant and uses the location code and the transfer-from code to determine the route the planning will have to use when traversing through the SKUs to ensure that all demands are processed.  
   
- The transfer level code will be 0 for SKUs with replenishment system Purchase or Prod. Order and will be \-1 for the first transfer level, \-2 for the second and so on. In the transfer chain described above, the levels would therefore be \-1 for RED and \-2 for GREEN, as shown in the following illustration.  
+ The transfer level code will be 0 for SKUs with replenishment system Purchase or Prod. Order and will be -1 for the first transfer level, -2 for the second and so on. In the transfer chain described above, the levels would therefore be -1 for RED and -2 for GREEN, as shown in the following illustration.  
   
  ![](../ApplicationDesign/media/nav_app_supply_planning_7_transfers6.gif "NAV\_APP\_supply\_planning\_7\_transfers6")  
   
@@ -84,7 +84,7 @@ Transfer orders are also a source of supply when working at the SKU level. When 
  ![](../ApplicationDesign/media/nav_app_supply_planning_7_transfers8.png "NAV\_APP\_supply\_planning\_7\_transfers8")  
   
 ## Changing Quantity in a Transfer Chain  
- In the following example, the starting point is a balanced situation with a transfer chain supplying a sales order of 27 on location RED with a corresponding purchase order on location BLUE, transferred via location PINK. Therefore, apart from sales and purchase, there are two transfer orders: BLUE\-PINK and PINK\-RED.  
+ In the following example, the starting point is a balanced situation with a transfer chain supplying a sales order of 27 on location RED with a corresponding purchase order on location BLUE, transferred via location PINK. Therefore, apart from sales and purchase, there are two transfer orders: BLUE-PINK and PINK-RED.  
   
  ![](../ApplicationDesign/media/nav_app_supply_planning_7_transfers9.png "NAV\_APP\_supply\_planning\_7\_transfers9")  
   
@@ -100,7 +100,7 @@ Transfer orders are also a source of supply when working at the SKU level. When 
   
  ![](../ApplicationDesign/media/nav_app_supply_planning_7_transfers12.png "NAV\_APP\_supply\_planning\_7\_transfers12")  
   
- The PINK\-RED transfer has been reduced to 22. The inbound part of the BLUE\-PINK transfer is not reserved, but because the outbound part is reserved it is not possible to reduce the quantity below 27.  
+ The PINK-RED transfer has been reduced to 22. The inbound part of the BLUE-PINK transfer is not reserved, but because the outbound part is reserved it is not possible to reduce the quantity below 27.  
   
 ## Lead Time Calculation  
  When calculating the due date of a transfer order different kinds of lead time will be taken into account.  
@@ -127,7 +127,7 @@ Transfer orders are also a source of supply when working at the SKU level. When 
   
  The starting and ending dates will be used to describe the actual transportation period.  
   
- The following illustration shows the interpretation of the starting date\-time and ending date\-time on planning lines related to transfer orders.  
+ The following illustration shows the interpretation of the starting date-time and ending date-time on planning lines related to transfer orders.  
   
  ![](../ApplicationDesign/media/nav_app_supply_planning_7_transfers13.png "NAV\_APP\_supply\_planning\_7\_transfers13")  
   
@@ -149,7 +149,7 @@ Transfer orders are also a source of supply when working at the SKU level. When 
  On the purchase order line, the Planned Receipt Date \+ Safety Lead Time \+ Inbound Warehouse Handling Time \= Expected Receipt Date.  
   
 ## Reschedule  
- When rescheduling an existing transfer line, the planning system must look up the outbound part and change the date\-time on this. It is important to note that if lead time has been defined, there will be a gap between the shipment and the receipt. As mentioned, the lead time can consist of more elements, such as transportation time and warehouse handling time. On a time line, the planning system will move back in time while it balances the elements.  
+ When rescheduling an existing transfer line, the planning system must look up the outbound part and change the date-time on this. It is important to note that if lead time has been defined, there will be a gap between the shipment and the receipt. As mentioned, the lead time can consist of more elements, such as transportation time and warehouse handling time. On a time line, the planning system will move back in time while it balances the elements.  
   
  ![](../ApplicationDesign/media/nav_app_supply_planning_7_transfers15.png "NAV\_APP\_supply\_planning\_7\_transfers15")  
   
@@ -158,8 +158,8 @@ Transfer orders are also a source of supply when working at the SKU level. When 
 ## Serial\/Lot Numbers in Transfer Chains  
  If the demand carries serial\/lot numbers, and the planning engine is run, it will give rise to some directly created transfer orders. For more information about this concept, see Item Attributes. If, however, serial\/lot numbers are removed from the demand, the created transfer orders in the chain will still carry the serial\/lot numbers and will therefore be ignored by planning \(not deleted\).  
   
-## Order\-to\-Order Links  
- In this example, BLUE SKU is set up with the Order reordering policy, while PINK and RED use Lot\-for\-Lot. When a sales order of 27 is created on location RED, it will lead to a chain of transfers with the last joint at location BLUE being reserved with binding. In this example, the reservations are not hard reservations created by the planner at PINK location, but bindings created by the planning system. The important difference is that the planning system can change the latter.  
+## Order-to-Order Links  
+ In this example, BLUE SKU is set up with the Order reordering policy, while PINK and RED use Lot-for-Lot. When a sales order of 27 is created on location RED, it will lead to a chain of transfers with the last joint at location BLUE being reserved with binding. In this example, the reservations are not hard reservations created by the planner at PINK location, but bindings created by the planning system. The important difference is that the planning system can change the latter.  
   
  ![](../ApplicationDesign/media/nav_app_supply_planning_7_transfers16.png "NAV\_APP\_supply\_planning\_7\_transfers16")  
   

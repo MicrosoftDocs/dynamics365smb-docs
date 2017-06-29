@@ -25,13 +25,13 @@ FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md
 ## Calculating a Requested Delivery Date  
  If you specify a requested delivery date on the sales order line, then that date is used as the starting point for the following calculations.  
   
- requested delivery date \- shipping time \= planned shipment date  
+ requested delivery date - shipping time \= planned shipment date  
   
- planned shipment date \- outbound whse. handling time \= shipment date  
+ planned shipment date - outbound whse. handling time \= shipment date  
   
  If the items are available to pick on the shipment date, then the sales process can continue.  
   
- If the items are not available to be picked on the shipment date, then a stock\-out warning is displayed.  
+ If the items are not available to be picked on the shipment date, then a stock-out warning is displayed.  
   
 ## Calculating the Earliest Possible Delivery Date  
  If you do not specify a requested delivery date on the sales order line, or if the requested delivery date cannot be met, then the earliest date on which that the items are available is calculated. That date is then entered in the **Shipment Date** field on the line, and the date on which you plan to ship the items as well as the date on which they will be delivered to the customer are calculated using the following formulas.  

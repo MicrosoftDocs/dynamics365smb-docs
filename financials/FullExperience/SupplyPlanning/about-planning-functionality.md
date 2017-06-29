@@ -21,9 +21,9 @@ The planning system takes all demand and supply data into account, nets the resu
  For detailed information, see [Design Details: Supply Planning](../ApplicationDesign/design-details-supply-planning.md).  
   
 ## Demand and Supply  
- Planning has two elements: demand and supply. These must be held in balance to ensure that the demand is met in a timely and cost\-efficient manner.  
+ Planning has two elements: demand and supply. These must be held in balance to ensure that the demand is met in a timely and cost-efficient manner.  
   
--   Demand is the common term used for any kind of gross requirement such as a sales order, service order, component need from assembly or production orders, outbound transfer, blanket order or forecast. In addition to these, the program allows some other technical types of demand \- such as a negative production or purchase order, negative inventory, and purchase return.  
+-   Demand is the common term used for any kind of gross requirement such as a sales order, service order, component need from assembly or production orders, outbound transfer, blanket order or forecast. In addition to these, the program allows some other technical types of demand - such as a negative production or purchase order, negative inventory, and purchase return.  
   
 -   Supply is the common word used for any kind of replenishment such as inventory, a purchase order, assembly order, production order, or inbound transfer. Correspondingly, there can be a negative sales or service order, negative component need or sales return – all of which in some way also represent supply.  
   
@@ -32,10 +32,10 @@ The planning system takes all demand and supply data into account, nets the resu
 ## Planning Calculation  
  The planning system is driven by anticipated and actual customer demand, as well as inventory reordering parameters. Running the planning calculation will result in the program suggesting specific actions \(Action Messages\) to take concerning possible replenishment from vendors, transfers between warehouses, or production. If replenishment orders already exist, the suggested actions could be to increase or expedite the orders to meet the changes in demand.  
   
- The basis of the planning routine is in the gross\-to\-net calculation. Net requirements drive planned order releases, which are scheduled based on the routing information \(manufactured items\) or the item card lead time \(purchased items\). Planned order release quantities are based on the planning calculation, and are affected by the parameters set on the individual item cards.  
+ The basis of the planning routine is in the gross-to-net calculation. Net requirements drive planned order releases, which are scheduled based on the routing information \(manufactured items\) or the item card lead time \(purchased items\). Planned order release quantities are based on the planning calculation, and are affected by the parameters set on the individual item cards.  
   
 ## Planning Parameters  
- The planning parameters control when, how much, and how to replenish based on the various settings on the item card \(or stockkeeping unit \- SKU\), and the manufacturing setup.  
+ The planning parameters control when, how much, and how to replenish based on the various settings on the item card \(or stockkeeping unit - SKU\), and the manufacturing setup.  
   
  The following planning parameters exist on the item or SKU card:  
   
@@ -77,7 +77,7 @@ The planning system takes all demand and supply data into account, nets the resu
   
  Global planning setup fields on the **Manufacturing Setup** window include:  
   
--   [Dynamic Low\-Level Code](../Topic/\($%20T_99000765_12%20Dynamic%20Low-Level%20Code%20$\).md)  
+-   [Dynamic Low-Level Code](../Topic/\($%20T_99000765_12%20Dynamic%20Low-Level%20Code%20$\).md)  
   
 -   [Current Production Forecast](../Topic/\($%20T_99000765_35%20Current%20Production%20Forecast%20$\).md)  
   

@@ -44,8 +44,8 @@ The letter of attorney feature enables you to create and print a Letter of Attor
     |**Employee Job Title**|Specifies the job title of the employee. The field is filled in automatically from the **Employee Card**.|  
     |**Source Document Type**|Enter the type of source document. You can create a Letter of Attorney \(header and lines\) on the basis of an existing purchase document that is not yet posted.|  
     |**Source Document No.**|Enter the source document number.|  
-    |**Buy\-from Vendor No.**|Specifies the vendor number. The field is filled in automatically from the purchase document when a source document is chosen. You can manually choose the vendor.|  
-    |**Buy\-from Vendor Name**|Specifies the name of the vendor. The field is filled in automatically from the **Vendor Card**.|  
+    |**Buy-from Vendor No.**|Specifies the vendor number. The field is filled in automatically from the purchase document when a source document is chosen. You can manually choose the vendor.|  
+    |**Buy-from Vendor Name**|Specifies the name of the vendor. The field is filled in automatically from the **Vendor Card**.|  
     |**Document Description**|Specifies information about the source document. The field is filled in automatically, but you can also manually enter the document description.|  
     |**Realization Check**|Specifies the document that is realized.|  
     |**Document Date**|Enter the date of the Letter of Attorney. This field is filled in with the work date by default. Manually enter the date of the document, if needed.|  

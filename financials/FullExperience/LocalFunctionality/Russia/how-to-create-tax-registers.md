@@ -24,11 +24,11 @@ The following procedure shows how to create tax registers.
   
 3.  Select one of the following fields:  
   
-    -   **Copy Section** \-Copies data from one tax register to another.  
+    -   **Copy Section** -Copies data from one tax register to another.  
   
-    -   **Clear Registers** \-Clears data already created in the tax registers and is used for debugging conditions to re\-count tax registers.  
+    -   **Clear Registers** -Clears data already created in the tax registers and is used for debugging conditions to re-count tax registers.  
   
-    -   **Create Registers** \-Creates data in the tax registers**.**  
+    -   **Create Registers** -Creates data in the tax registers**.**  
   
 4.  To create data, click **Create Register**. The **Tax Register Create** form opens.  
   
@@ -52,9 +52,9 @@ The following procedure shows how to create tax registers.
   
 8.  Using the register list, you can view the contents of any register or using the arrows at the top of the window, you can view the information going from one register to another.  
   
-9. With the arrows and buttons in the lower\-left corner of the window, you can view the contents of the registers for previously counted periods.  
+9. With the arrows and buttons in the lower-left corner of the window, you can view the contents of the registers for previously counted periods.  
   
-10. Click the **Drill\-down** button in the **Amount** field to view the sources based on which this was counted. A source can be a tax register or a list of transactions forming this amount, depending on the settings. If the source forming the sum is a tax register, click the **Drill\-down** button to open the window where the source tax register information is displayed. Then click the **Drill\-down** button in the **Amount** field on this form to get a list of transactions forming the amount.  
+10. Click the **Drill-down** button in the **Amount** field to view the sources based on which this was counted. A source can be a tax register or a list of transactions forming this amount, depending on the settings. If the source forming the sum is a tax register, click the **Drill-down** button to open the window where the source tax register information is displayed. Then click the **Drill-down** button in the **Amount** field on this form to get a list of transactions forming the amount.  
   
 11. Select a document and click **Navigate** to get all the transactions of the selected document.  
   

@@ -31,7 +31,7 @@ FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md
 ## See Also  
  Account Schedule Names   
  Account Schedule   
- [Account Schedule\-duplicate](../Topic/\($%20R_25%20Account%20Schedule%20$\)-duplicate.md)   
+ [Account Schedule-duplicate](../Topic/\($%20R_25%20Account%20Schedule%20$\)-duplicate.md)   
  Acc. Schedule Name   
  [How to: Create New Account Schedules](../../BusinessIntelligence/how-to-create-new-account-schedules.md)   
  [Create and Set Up Account Schedules](../../BusinessIntelligence/create-and-set-up-account-schedules.md)   

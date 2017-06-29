@@ -26,7 +26,7 @@ A service management application must interface with a customer request for serv
 |------------|-------------|  
 |Take customer requests for service and turn the requests into service orders.|[Receive Customer Inquiries and Requests for Service](../Service/receive-customer-inquiries-and-requests-for-service.md)|  
 |Set up a system to provide customers with loaners while their items are under repair.|[Set Up Loaner Program](../Service/set-up-loaner-program.md)|  
-|Set up and fine\-tune pricing details on service items.|[Set Service Pricing](../Service/set-service-pricing.md)|  
+|Set up and fine-tune pricing details on service items.|[Set Service Pricing](../Service/set-service-pricing.md)|  
   
 ## See Also  
  Loaner   

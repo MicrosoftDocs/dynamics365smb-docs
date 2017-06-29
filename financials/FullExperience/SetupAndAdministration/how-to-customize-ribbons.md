@@ -42,7 +42,7 @@ By opening the **Customize Ribbon** window from any page that has a ribbon, you 
 >   
 >      1.  Empty, but do not delete, the group where the problem occurs.  
 >     2.  Close the dialog using the **OK** button.  
->     3.  Open the dialog again and re\-add the actions to the group.  
+>     3.  Open the dialog again and re-add the actions to the group.  
   
 > [!CAUTION]  
 >  Any customization that alters the ribbon could affect the guidance provided in the FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> Help, because navigation steps in Help may refer to a different ribbon layout.  

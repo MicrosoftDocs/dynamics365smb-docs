@@ -26,7 +26,7 @@ The format of files for exchange of data in bank files, electronic documents, cu
   
 ## See Also  
  Data Exchange Definition   
- Bank Export\-Import Setup   
+ Bank Export-Import Setup   
  Data Exchange Mapping   
  [Data Exchange](../../BusinessFunctionality/DataExchange/data-exchange.md)   
  [How to: Use XML Schemas to Prepare Data Exchange Definitions](../../BusinessFunctionality/DataExchange/how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)

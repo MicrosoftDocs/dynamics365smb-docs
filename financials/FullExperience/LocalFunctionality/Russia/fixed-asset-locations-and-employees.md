@@ -32,7 +32,7 @@ The fixed assets locations and the fixed assets employees feature enable you to:
 2.  On the **General** tab, select the **FA Location Mandatory** field.  
   
 > [!NOTE]  
->  When this field is selected, fixed asset posting procedures are controlled as long as they generate fixed asset operations with a non\-zero value in the **Quantity** field.  
+>  When this field is selected, fixed asset posting procedures are controlled as long as they generate fixed asset operations with a non-zero value in the **Quantity** field.  
   
  The following procedure shows how to enter the data in the **Employee No** field.  
   
@@ -41,7 +41,7 @@ The fixed assets locations and the fixed assets employees feature enable you to:
 2.  On the **General** tab, select the **Employee No. Mandatory** field.  
   
 > [!NOTE]  
->  When this field is selected, fixed asset posting procedures are controlled as long as they generate fixed asset operations with a non\-zero value in the **Quantity** field.  
+>  When this field is selected, fixed asset posting procedures are controlled as long as they generate fixed asset operations with a non-zero value in the **Quantity** field.  
   
 ## Added Fields  
  Fields with references to fixed asset locations and responsible employees have been added to the following:  

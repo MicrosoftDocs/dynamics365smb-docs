@@ -50,6 +50,6 @@ FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md
 ## See Also  
  Business Unit List   
  Dimension Value   
- G\-L Corresp. General Ledger   
- G\-L Correspondence   
- Create G\-L Correspondence
+ G-L Corresp. General Ledger   
+ G-L Correspondence   
+ Create G-L Correspondence

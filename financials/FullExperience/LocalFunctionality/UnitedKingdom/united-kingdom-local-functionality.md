@@ -19,7 +19,7 @@
 The following topics describe the local functionality in the United Kingdom version of FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->.  
   
 ## In This Section  
- [What's New\-duplicate 16](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/what-s-new-duplicate-16.md)  
+ [What's New-duplicate 16](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/what-s-new-duplicate-16.md)  
   [Multiple Interest Rates Overview](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Finland/multiple-interest-rates-overview.md)  
   [How to: Enter Statutory Information](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/how-to-enter-statutory-information.md)  
   [How to: Set Up System Calendars and Accounting Periods](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/how-to-set-up-system-calendars-and-accounting-periods.md)  
@@ -35,8 +35,8 @@ The following topics describe the local functionality in the United Kingdom vers
   [How to: Print Checks for APACS](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/how-to-print-checks-for-apacs.md)  
   [How to: Print Remittance Advice](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/how-to-print-remittance-advice.md)  
   [How to: Print Direct Sales and Purchase Details Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/how-to-print-direct-sales-and-purchase-details-reports.md)  
-  [How to: Print Non\-Invoiced Stock Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/how-to-print-non-invoiced-stock-reports.md)  
+  [How to: Print Non-Invoiced Stock Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/how-to-print-non-invoiced-stock-reports.md)  
   [How to: Print VAT Audit Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/how-to-print-vat-audit-reports.md)  
   [How to: Print VAT Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/how-to-print-vat-reports.md)  
   [How to: Set Up Reverse Charges on VAT](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/how-to-set-up-reverse-charges-on-vat.md)  
-  [Tables, Reports, Batch Jobs, and Windows\-duplicate 3](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/tables-reports-batch-jobs-and-windows-duplicate-3.md)
+  [Tables, Reports, Batch Jobs, and Windows-duplicate 3](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/tables-reports-batch-jobs-and-windows-duplicate-3.md)

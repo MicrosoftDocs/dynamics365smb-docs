@@ -26,7 +26,7 @@ You can have FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/inclu
   
 3.  Select a journal line and enter the information as needed.  
   
-     \- or \-  
+     - or -  
   
      To delete the selected line, on the **Home** tab, in the **Manage** group, choose **Delete**.  
   

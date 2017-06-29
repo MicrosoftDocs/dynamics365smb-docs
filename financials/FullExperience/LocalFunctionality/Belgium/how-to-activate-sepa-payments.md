@@ -62,5 +62,5 @@ To submit vendor payments electronically in Single Euro Payments Area \(SEPA\) I
 ## See Also  
  [SEPA Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/sepa-payments.md)   
  [How to: File SEPA Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-file-sepa-payments.md)   
- [How to: File Non\-Euro SEPA Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-file-non-euro-sepa-payments.md)   
+ [How to: File Non-Euro SEPA Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-file-non-euro-sepa-payments.md)   
  [How to: Set Up Export Protocols](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-export-protocols.md)

@@ -41,10 +41,10 @@ Before you can use the **Intrastat Journal**, you must decide which Intrastat jo
   
     |FIX INCLUDE HERE<!--[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)] -->|FIX INCLUDE HERE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)] -->|  
     |---------------------------------|---------------------------------------|  
-    |**Statistics Period**|Enter the statistics period as a four\-digit number, where the first two digits represent the year and the next two digits represent the month. For example, enter **1206** for June 2012.|  
+    |**Statistics Period**|Enter the statistics period as a four-digit number, where the first two digits represent the year and the next two digits represent the month. For example, enter **1206** for June 2012.|  
     |**Currency Identifier**|Enter a code that identifies the currency of the Intrastat report. For example, you can enter **EUR** for euro and **USD** for US dollars.|  
     |**Amounts in Add. Currency**|Select this field if you want the Intrastat report to display in the additional reporting currency.|  
-    |**Reported**|This field is automatically filled when you run the **Intrastat \- Make Disk Tax Auth** batch job. If you want to run the batch job again, clear this field.|  
+    |**Reported**|This field is automatically filled when you run the **Intrastat - Make Disk Tax Auth** batch job. If you want to run the batch job again, clear this field.|  
   
 > [!NOTE]  
 >  **Intrastat Journal Batches** are not similar in structure to other journal batches.  
@@ -55,4 +55,4 @@ Before you can use the **Intrastat Journal**, you must decide which Intrastat jo
  Intrastat Journal Templates   
  Intrastat Jnl. Batches   
  Amounts in Add. Currency   
- Intrastat \- Make Disk Tax Auth
+ Intrastat - Make Disk Tax Auth

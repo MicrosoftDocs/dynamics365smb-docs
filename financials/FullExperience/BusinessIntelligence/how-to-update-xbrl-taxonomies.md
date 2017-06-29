@@ -37,5 +37,5 @@ When a taxonomy changes you need to update the current taxonomy accordingly. The
 ## See Also  
  [How to: Set Up XBRL Lines](../BusinessIntelligence/how-to-set-up-xbrl-lines.md)   
  [How to: Set Up XBRL Lines](../BusinessIntelligence/how-to-set-up-xbrl-lines.md)   
- XBRL Export Instance \- Spec. 2   
+ XBRL Export Instance - Spec. 2   
  [eXtensible Business Reporting Language](../BusinessIntelligence/extensible-business-reporting-language.md)

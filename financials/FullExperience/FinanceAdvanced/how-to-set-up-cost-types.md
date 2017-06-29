@@ -46,7 +46,7 @@ Chart of cost types are similar to the chart of accounts in the general ledger. 
     |---------------------------------|---------------------------------------|  
     |**No.**|Enter the cost type number. All cost types must have a number.|  
     |**Name**|Enter the cost type name.|  
-    |**Line Type**|Specify the purpose of the cost type. Only the cost type option indicates a cost type that you can post to. The other types are used to create totals and headings. For line types of the **Total** type, you must fill in the **Totaling** field. For line types of the **End\-Total** type, the field is filled in automatically when you use the **Indent Cost Types** function.|  
+    |**Line Type**|Specify the purpose of the cost type. Only the cost type option indicates a cost type that you can post to. The other types are used to create totals and headings. For line types of the **Total** type, you must fill in the **Totaling** field. For line types of the **End-Total** type, the field is filled in automatically when you use the **Indent Cost Types** function.|  
     |**G\/L Account Range**|Enter the general ledger account range.|  
     |**Cost Center Code**|Enter the cost center code.|  
     |**Cost Object Code**|Enter the cost object code.|  
@@ -58,7 +58,7 @@ Chart of cost types are similar to the chart of accounts in the general ledger. 
 4.  Link the new cost type to the corresponding general ledger account.  
   
 > [!IMPORTANT]  
->  If you have entered definitions in the **Totaling** fields for the line type of **End\-Total** before you run the **Indent Cost Types** function, then you must enter the definitions again because the function overwrites the values in all **End\-Total** fields.  
+>  If you have entered definitions in the **Totaling** fields for the line type of **End-Total** before you run the **Indent Cost Types** function, then you must enter the definitions again because the function overwrites the values in all **End-Total** fields.  
   
 ### To update cost types  
   
@@ -66,11 +66,11 @@ Chart of cost types are similar to the chart of accounts in the general ledger. 
   
 2.  In the **Align G\/L Account** field, you can choose from the following options.  
   
-    -   **No Alignment** \- There is no corresponding change in the chart of cost types when you change the chart of accounts.  
+    -   **No Alignment** - There is no corresponding change in the chart of cost types when you change the chart of accounts.  
   
-    -   **Automatic** \- A corresponding change is made in the chart of cost types when you change the chart of accounts.  
+    -   **Automatic** - A corresponding change is made in the chart of cost types when you change the chart of accounts.  
   
-    -   **Prompt** \- A message is displayed asking if you want to make a corresponding change in the chart of cost types when you change the chart of accounts.  
+    -   **Prompt** - A message is displayed asking if you want to make a corresponding change in the chart of cost types when you change the chart of accounts.  
   
 ## See Also  
  Chart of Cost Types   

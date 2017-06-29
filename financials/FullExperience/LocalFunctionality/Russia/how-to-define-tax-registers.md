@@ -28,7 +28,7 @@ Tax registers are used to track and manage taxable profits and losses in accorda
     |---------------------------------|---------------------------------------|  
     |**No.**|Specifies the entry number that is assigned to the tax register.|  
     |**Description**|Enter a description for the tax register.|  
-    |**Level**|Specifies the parent\/child relationship between tax registers. Top\-level parent tax registers should be **0**.|  
+    |**Level**|Specifies the parent\/child relationship between tax registers. Top-level parent tax registers should be **0**.|  
     |**Costing Method**|Select the inventory valuation costing method that is used for the tax register.|  
     |**G\/L Corr. Analysis View Code**|Select the code of the general ledger correspondence analysis view that you want to use for the tax register.|  
   

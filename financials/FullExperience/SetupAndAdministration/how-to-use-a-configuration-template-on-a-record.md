@@ -22,7 +22,7 @@ You can apply a data template to any record that is in FIX INCLUDE HERE<!--[!INC
   
 1.  Create a new contact, customer, item, or vendor record. For example, to create a new customer record, in the **Search** box, enter **Customers**, and then choose the related link.  
   
-2.  On the **Home** tab, in the **New** group, choose **New**. The **New \- Customer Card** window opens.  
+2.  On the **Home** tab, in the **New** group, choose **New**. The **New - Customer Card** window opens.  
   
 3.  Enter a customer number and enter a customer name. In the **Process** group, choose **Apply Template**.  
   

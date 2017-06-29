@@ -42,5 +42,5 @@ Goods and services tax \(GST\) is the tax that is applied on most goods and serv
 3.  Choose the **OK** button.  
   
 ## See Also  
- BAS\-Update   
+ BAS-Update   
  [How to: Print Goods and Service Tax Settlement Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-print-goods-and-service-tax-settlement-reports.md)

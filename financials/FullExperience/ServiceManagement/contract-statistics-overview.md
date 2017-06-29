@@ -16,10 +16,10 @@
 
     ---
 # Contract Statistics Overview
-In the **Contract Statistics** window, you can see up\-to\-date information about the income amount, prepaid amount, cost, discount, and profit regarding the particular service contract that you have accessed.  
+In the **Contract Statistics** window, you can see up-to-date information about the income amount, prepaid amount, cost, discount, and profit regarding the particular service contract that you have accessed.  
   
 ## General  
- On the **General** FastTab, you can see the amounts shown for the following contract\-related entries:  
+ On the **General** FastTab, you can see the amounts shown for the following contract-related entries:  
   
 -   Resources  
   

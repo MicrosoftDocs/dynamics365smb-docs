@@ -28,7 +28,7 @@ A service credit memo document is typically used when a customer returns an item
   
 4.  In the **Customer No.** field, enter the number of the customer who received the service.  
   
-5.  On the **Invoicing** FastTab, you can see the information that was copied from the **Customer** card. If you want to post the credit memo to a different customer than the one specified on the **General** FastTab, enter the number of that customer in the **Bill\-to Customer No.** field.  
+5.  On the **Invoicing** FastTab, you can see the information that was copied from the **Customer** card. If you want to post the credit memo to a different customer than the one specified on the **General** FastTab, enter the number of that customer in the **Bill-to Customer No.** field.  
   
 6.  On the General FastTab, in the **Posting Date** and **Document Date** fields, enter a date. These fields are filled in with the system work date automatically. If this date is not suitable, you can change it.  
   

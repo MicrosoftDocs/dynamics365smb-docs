@@ -26,7 +26,7 @@ In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow
   
 -   Modernization  
   
--   Partial write\-off  
+-   Partial write-off  
   
 -   Revaluation  
   

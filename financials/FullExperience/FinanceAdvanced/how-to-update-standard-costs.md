@@ -35,7 +35,7 @@ You must periodically update the standard costs of components and roll the new c
   
 ### To update standard costs  
   
-1.  Run the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**Adjust Cost\-Item Entries** batch job.  
+1.  Run the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**Adjust Cost-Item Entries** batch job.  
   
 2.  Run the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**Post Inventory Cost to G\/L** batch job.  
   

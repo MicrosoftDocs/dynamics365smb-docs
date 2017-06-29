@@ -16,7 +16,7 @@
 
     ---
 # How to: Define Accounting Periods for Straight Line Depreciation of Fixed Assets
-You can define 13 accounting periods to calculate straight line depreciation. You must calculate depreciation daily and distribute across the relevant periods. You can also define these accounting periods in the **FA \- Projected Value** report.  
+You can define 13 accounting periods to calculate straight line depreciation. You must calculate depreciation daily and distribute across the relevant periods. You can also define these accounting periods in the **FA - Projected Value** report.  
   
 > [!NOTE]  
 >  To calculate depreciation using both the old \(360 days\) and the new methods \(365 or 366 days\), create separate depreciation books; one for the old method, and one for the new method. Attach these books to the relevant assets.  
@@ -39,9 +39,9 @@ You can define 13 accounting periods to calculate straight line depreciation. Yo
   
 5.  Choose the **OK** button.  
   
-### To define accounting periods in the FA \- Projected Value report  
+### To define accounting periods in the FA - Projected Value report  
   
-1.  In the **Search** box, enter **FA \- Projected Value**, and then choose the related link.  
+1.  In the **Search** box, enter **FA - Projected Value**, and then choose the related link.  
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
@@ -57,5 +57,5 @@ You can define 13 accounting periods to calculate straight line depreciation. Yo
   
 ## See Also  
  Accounting Period   
- Fixed Asset \- Projected Value   
+ Fixed Asset - Projected Value   
  [United Kingdom Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/united-kingdom-local-functionality.md)

@@ -36,6 +36,6 @@ Revenue types are used to categorize withholding tax \(WHT\) entries and are use
   
 ## See Also  
  [Withholding Tax](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/withholding-tax.md)   
- [How to: Set Up Withholding Tax\-duplicate](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-set-up-withholding-tax-duplicate.md)   
+ [How to: Set Up Withholding Tax-duplicate](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-set-up-withholding-tax-duplicate.md)   
  [How to: View Withholding Tax Entries](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-view-withholding-tax-entries.md)   
  [How to: Calculate and Post Withholding Tax Settlements](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/how-to-calculate-and-post-withholding-tax-settlements.md)

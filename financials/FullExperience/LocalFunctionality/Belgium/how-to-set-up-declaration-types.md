@@ -38,5 +38,5 @@ In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow
  [Belgian Intrastat Reporting](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/belgian-intrastat-reporting.md)   
  [How to: Set Up Belgian Tariff Numbers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-belgian-tariff-numbers.md)   
  [How to: Set Up Intrastat Establishment Numbers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-set-up-intrastat-establishment-numbers.md)   
- [How to: Export Intrastat Third\-Party Declararations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-export-intrastat-third-party-declararations.md)   
+ [How to: Export Intrastat Third-Party Declararations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-export-intrastat-third-party-declararations.md)   
  [How to: Print the Intrastat Form Report](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Belgium/how-to-print-the-intrastat-form-report.md)

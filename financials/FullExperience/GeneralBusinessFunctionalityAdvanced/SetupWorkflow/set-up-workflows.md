@@ -16,7 +16,7 @@
 
     ---
 # Set Up Workflows
-You can set up and use workflows that connect business\-process tasks performed by different users. System tasks, such as automatic posting, can be included as steps in workflows, preceded or followed by user tasks. Requesting and granting approval to create new records are typical workflow steps. For more information, see [Use Workflows](../../BusinessFunctionality/Workflow/use-workflows.md).  
+You can set up and use workflows that connect business-process tasks performed by different users. System tasks, such as automatic posting, can be included as steps in workflows, preceded or followed by user tasks. Requesting and granting approval to create new records are typical workflow steps. For more information, see [Use Workflows](../../BusinessFunctionality/Workflow/use-workflows.md).  
   
  Before you begin to use workflows, you must set up workflow users and approval users, specify how users receive notifications about workflow steps, and then create the workflows, potentially preceded by code customization.  
   
@@ -37,7 +37,7 @@ You can set up and use workflows that connect business\-process tasks performed 
 |Specify the different steps of a workflow by connection workflow events with workflow responses.|[How to: Create Workflows](../../BusinessFunctionality/Workflow/how-to-create-workflows.md)|  
 |Use workflow templates to create new workflows.|[How to: Create Workflows from Workflow Templates](../../BusinessFunctionality/Workflow/how-to-create-workflows-from-workflow-templates.md)|  
 |Share workflows with other [!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)] databases by exporting and importing workflows.|[How to: Export and Import Workflows](../../BusinessFunctionality/Workflow/how-to-export-and-import-workflows.md)|  
-|Learn how to set up a workflow for approving sales documents by following an end\-to\-end procedure.|[Walkthrough: Setting Up and Using a Purchase Approval Workflow](../../BusinessFunctionality/Workflow/walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
+|Learn how to set up a workflow for approving sales documents by following an end-to-end procedure.|[Walkthrough: Setting Up and Using a Purchase Approval Workflow](../../BusinessFunctionality/Workflow/walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
 |Add support for a business scenario that requires new workflow events or responses by customizing the application code. \(This topic is in English language.\)|[Walkthrough: Implementing New Workflow Events and Responses](../../BusinessFunctionality/Workflow/walkthrough-implementing-new-workflow-events-and-responses.md) in Developer and IT Pro Help.|  
   
 ## See Also  

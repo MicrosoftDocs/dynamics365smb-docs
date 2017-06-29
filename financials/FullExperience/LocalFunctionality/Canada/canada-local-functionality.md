@@ -19,7 +19,7 @@
 The following topics describe the local functionality in the Canadian version of FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->.  
   
 ## In This Section  
- [What's New\-duplicate 7](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/what-s-new-duplicate-7.md)  
+ [What's New-duplicate 7](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/what-s-new-duplicate-7.md)  
   [Budgets](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/budgets.md)  
   [GIFI Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/gifi-codes.md)  
   [Electronic Payments for United States, Canada, and Mexico](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/electronic-payments-for-united-states-canada-and-mexico.md)  
@@ -33,4 +33,4 @@ The following topics describe the local functionality in the Canadian version of
   [How to: Print Checks](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-print-checks.md)  
   [How to: Void Posted Checks](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-void-posted-checks.md)  
   [How to: Print Troubleshooting Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-print-troubleshooting-reports.md)  
-  [Tables, Reports, Batch Jobs, and Windows\-duplicate 4](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/tables-reports-batch-jobs-and-windows-duplicate-4.md)
+  [Tables, Reports, Batch Jobs, and Windows-duplicate 4](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/tables-reports-batch-jobs-and-windows-duplicate-4.md)

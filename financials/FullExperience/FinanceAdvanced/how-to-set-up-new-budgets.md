@@ -18,7 +18,7 @@
 # How to: Set Up New Budgets
 You can have multiple budgets for identical time periods by creating budgets with separate names. First, you set up the budget name and enter the budget figures. The budget name is then included on all the budget entries you create.  
   
- When you create a budget, you can define four dimensions for each budget. These budget\-specific dimensions are called budget dimensions. You select the budget dimensions for each budget from among the dimensions you have already set up. Budget dimensions can be used to set filters on a budget and to add dimension information to budget entries. For more information, see Dimension.  
+ When you create a budget, you can define four dimensions for each budget. These budget-specific dimensions are called budget dimensions. You select the budget dimensions for each budget from among the dimensions you have already set up. Budget dimensions can be used to set filters on a budget and to add dimension information to budget entries. For more information, see Dimension.  
   
 ### To set up a new budget  
   
@@ -49,4 +49,4 @@ You can have multiple budgets for identical time periods by creating budgets wit
  [How to: Import or Export a Budget](../Finance/how-to-import-or-export-a-budget.md)   
  [How to: View Budgets](../BusinessIntelligence/how-to-view-budgets.md)   
  Dimension   
- Copy G\-L Budget
+ Copy G-L Budget

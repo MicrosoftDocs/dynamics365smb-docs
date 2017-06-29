@@ -54,13 +54,13 @@ All European Union \(EU\) companies must submit an Intrastat statistics report t
   
 4.  On the **Actions** tab, in the **Print** group, choose **Make Declaration**.  
   
-5.  In the **Intrastat \- Make Disk Tax Auth** batch job, expand the **Intrastat Jnl. Batch** FastTab, and then select the appropriate filters.  
+5.  In the **Intrastat - Make Disk Tax Auth** batch job, expand the **Intrastat Jnl. Batch** FastTab, and then select the appropriate filters.  
   
 6.  Expand the **Intrastat Jnl. Line** FastTab, select the appropriate filters, and then choose the **OK** button.  
   
      The Intrastat information is exported, and you can save the data to a file, or open the file in the appropriate program.  
   
 ## See Also  
- Intrastat \- Make Disk Tax Auth   
+ Intrastat - Make Disk Tax Auth   
  Intrastat Journal   
- Intrastat \- Checklist
+ Intrastat - Checklist

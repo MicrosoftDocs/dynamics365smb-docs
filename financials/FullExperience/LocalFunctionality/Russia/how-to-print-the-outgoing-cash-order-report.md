@@ -16,7 +16,7 @@
 
     ---
 # How to: Print the Outgoing Cash Order Report
-The **Cash Outgoing Order CO\-2** report shows the outgoing cash order, which is a standard format required by Russian accounting legislation.  
+The **Cash Outgoing Order CO-2** report shows the outgoing cash order, which is a standard format required by Russian accounting legislation.  
   
  It shows the register of posted ingoing and outgoing cash orders during a specified reporting period.  
   
@@ -33,6 +33,6 @@ The **Cash Outgoing Order CO\-2** report shows the outgoing cash order, which is
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen. Choose the **Cancel** button to save the information without printing the report.  
   
 ## See Also  
- Cash Report CO\-4   
- Cash Order Journal CO\-3   
+ Cash Report CO-4   
+ Cash Order Journal CO-3   
  [Petty Cash Management](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/petty-cash-management.md)

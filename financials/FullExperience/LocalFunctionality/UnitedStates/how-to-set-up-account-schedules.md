@@ -35,7 +35,7 @@ You can use account schedules to arrange and organize accounts in the chart of a
   
 4.  Select the required **CASH FLOW** account schedule to create cash flow statements, and then, on the **Home** tab, choose **Edit Account Schedule**.  
   
-5.  In the **Account Schedule \- CASH FLOW** window, fill in the fields as described in the following table.  
+5.  In the **Account Schedule - CASH FLOW** window, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
@@ -47,18 +47,18 @@ You can use account schedules to arrange and organize accounts in the chart of a
   
 7.  Select the **INCOME** account schedule, and then, on the **Home** tab, choose **Edit Account Schedule**.  
   
-8.  In the **Account Schedule \- INCOME** window, fill in the fields as described in the following table.  
+8.  In the **Account Schedule - INCOME** window, fill in the fields as described in the following table.  
   
     |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**Row No.**|The number for the account schedule line. You can enter a maximum of 10 alphanumeric characters.|  
     |**Description**|The description of the account schedule line.|  
-    |**Totaling Type**|**Posting Accounts** – To calculate the total from posting accounts in the chart of accounts.<br /><br /> –or–<br /><br /> **Total Accounts** – To calculate the total from the total accounts and end\-total accounts in the chart of accounts.<br /><br /> –or–<br /><br /> **Formula** – To calculate the total from other rows in the account schedule.<br /><br /> –or–<br /><br /> **Underline** – To place an underline in each column for the row.<br /><br /> –or–<br /><br /> **Double Underline** – To place a double underline in each column for the row.<br /><br /> –or–<br /><br /> **Set Base for Percent** – To set a base for calculating a percentage.|  
+    |**Totaling Type**|**Posting Accounts** – To calculate the total from posting accounts in the chart of accounts.<br /><br /> –or–<br /><br /> **Total Accounts** – To calculate the total from the total accounts and end-total accounts in the chart of accounts.<br /><br /> –or–<br /><br /> **Formula** – To calculate the total from other rows in the account schedule.<br /><br /> –or–<br /><br /> **Underline** – To place an underline in each column for the row.<br /><br /> –or–<br /><br /> **Double Underline** – To place a double underline in each column for the row.<br /><br /> –or–<br /><br /> **Set Base for Percent** – To set a base for calculating a percentage.|  
     |**New Page**|Select to provide a page break after the current account.|  
   
 9. Choose the **OK** button.  
   
 ## See Also  
  Account Schedule Column Layout   
- [Account Schedule\-duplicate](../Topic/\($%20R_25%20Account%20Schedule%20$\)-duplicate.md)   
+ [Account Schedule-duplicate](../Topic/\($%20R_25%20Account%20Schedule%20$\)-duplicate.md)   
  Account Schedule Layout

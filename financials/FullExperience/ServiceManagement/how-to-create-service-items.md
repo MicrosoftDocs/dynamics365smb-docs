@@ -28,7 +28,7 @@ When you receive an unregistered item for servicing, you can register it as a se
   
      Alternatively, if you have set up number series for service items in the **Service Mgt. Setup** window, you can press Enter to select the next available service item number.  
   
-4.  In the **Warranty Starting Date \(Parts\)** field, you can enter the starting date of the spare parts warranty for this service item. The warranty\-related fields are filled in with the default warranty information specified in the **Service Mgt. Setup** window. You can change the default warranty information.  
+4.  In the **Warranty Starting Date \(Parts\)** field, you can enter the starting date of the spare parts warranty for this service item. The warranty-related fields are filled in with the default warranty information specified in the **Service Mgt. Setup** window. You can change the default warranty information.  
   
 5.  Fill in the rest of the fields on the **General** FastTab.  
   

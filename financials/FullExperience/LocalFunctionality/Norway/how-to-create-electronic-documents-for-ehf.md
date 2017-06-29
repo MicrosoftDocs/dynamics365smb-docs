@@ -43,16 +43,16 @@ When you sell goods or services to a customer in the public sector, you must sub
   
     -   **Account Code**  
   
-    -   **Bill\-to Customer**  
+    -   **Bill-to Customer**  
   
     -   **Shipment Date**  
   
-     Select the **E\-Invoice** check box.  
+     Select the **E-Invoice** check box.  
   
      The default value of the **Shipment Date** field is the posting date of the document.  
   
     > [!NOTE]  
-    >  For reminders and finance charge memos, the **GLN No.**, **Account Code**, and **E\-Invoice** fields are on the **Posting** FastTab.  
+    >  For reminders and finance charge memos, the **GLN No.**, **Account Code**, and **E-Invoice** fields are on the **Posting** FastTab.  
   
 5.  On the **Home** tab, in the **Posting** group, choose **Post** to post the invoice.  
   
@@ -65,7 +65,7 @@ When you sell goods or services to a customer in the public sector, you must sub
 3.  On the **Home** tab, in the **Invoice** group, choose **Create Electronic Invoice**.  
   
     > [!IMPORTANT]  
-    >  The **E\-Invoice** check box must be selected on the invoice in order to create an electronic invoice.  
+    >  The **E-Invoice** check box must be selected on the invoice in order to create an electronic invoice.  
   
 4.  Optionally, in the **Create Electronic Invoices** batch job window, set additional filters.  
   
@@ -76,7 +76,7 @@ When you sell goods or services to a customer in the public sector, you must sub
 ## See Also  
  [EHF Electronic Invoicing in Norway](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/ehf-electronic-invoicing-in-norway.md)   
  [\($ T\_311 Sales & Receivables Setup $\)](../Topic/\($%20T_311%20Sales%20&%20Receivables%20Setup%20$\).md)   
- [\($ N\_459 Sales & Receivables Setup $\)\-duplicate](../../Sales/-$-n_459-sales-receivables-setup-$-duplicate.md)   
+ [\($ N\_459 Sales & Receivables Setup $\)-duplicate](../../Sales/-$-n_459-sales-receivables-setup-$-duplicate.md)   
  Create Electronic Credit Memos   
  Create Electronic Invoices   
  Create Electronic Reminders   

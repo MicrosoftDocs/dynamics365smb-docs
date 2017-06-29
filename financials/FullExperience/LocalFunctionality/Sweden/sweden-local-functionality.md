@@ -16,7 +16,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Sweden Local Functionality
-The following topics describe the local functionality in the Swedish version of [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)].  
+The following topics describe the local functionality in the Swedish version of ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->.  
   
 ## In This Section  
  [What's New\-duplicate 14](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Sweden/what-s-new-duplicate-14.md)  

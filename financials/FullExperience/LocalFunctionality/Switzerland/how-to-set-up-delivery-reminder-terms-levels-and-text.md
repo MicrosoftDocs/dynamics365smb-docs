@@ -43,7 +43,7 @@ To create delivery reminders, you must set up the following:
   
 3.  Fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Code**|The code for the delivery reminder term. You can enter a maximum of 10 alphanumeric characters.|  
     |**Description**|The description for the delivery reminder term. You can enter a maximum of 30 alphanumeric characters.|  
@@ -59,7 +59,7 @@ To create delivery reminders, you must set up the following:
   
 3.  Fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**No.**|The delivery reminder level number. This field is filled in automatically.|  
     |**Due Date Calculation**|The formula for the due date calculation for the delivery reminder. You can enter a combination of numbers from 0 to 9999, and date codes \(D for day, WD for weekday, W for week, M for month, Q for quarter, or Y for year\). The date codes denote the calculation for the delivery reminder due date. You can enter a maximum of 20 characters for the due date calculation formula.|  

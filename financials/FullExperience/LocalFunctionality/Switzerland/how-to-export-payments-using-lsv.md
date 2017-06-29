@@ -28,7 +28,7 @@ You can export or write Lastschrift Verfahren \(LSV\+\) files that contain payme
   
 4.  In the **Write LSV File** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_3010834\_F\_1\_5 No. $\)**|Specify the LSV journal number that you want to export.|  
     |**\($ B\_3010834\_F\_1\_3 Test $\)**|Specify if you are sending test deliveries to your bank. The bank does not process test files.|  

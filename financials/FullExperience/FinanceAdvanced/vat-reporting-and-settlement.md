@@ -38,10 +38,10 @@ translation.priority.ht:
   - "sv-se"
 ---
 # VAT Reporting and Settlement
-[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] contains some special tables to manage the tasks necessary for settling VAT and reporting to the customs and tax authorities.  
+ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> contains some special tables to manage the tasks necessary for settling VAT and reporting to the customs and tax authorities.  
   
 ## VAT Reporting  
- You can use tables to calculate the VAT due for a period. [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] creates an entry in the **VAT Entries** window for each posted transaction that involves VAT. These entries are used to calculate the VAT that must be settled for a given period. Then you can prepare and print the VAT statement report.  
+ You can use tables to calculate the VAT due for a period. ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> creates an entry in the **VAT Entries** window for each posted transaction that involves VAT. These entries are used to calculate the VAT that must be settled for a given period. Then you can prepare and print the VAT statement report.  
   
 ### VAT Statement  
  You use a VAT statement to specify the basis for calculating the VAT payable to the tax authorities. In the **VAT Statement** window, you define the VAT statement based on the accounts in the **Chart of Accounts** window or based on entries in the **VAT Entries** window. The advantage of using the VAT entries option is that you can close these entries by posting the VAT Settlement. It is easier to locate VAT correction entries in previous accounting periods, where the VAT statement has been done, by working with VAT entries.  

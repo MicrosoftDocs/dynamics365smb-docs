@@ -17,7 +17,7 @@ translation.priority.ht:
   - "en-nz"
 ---
 # New Zealand Local Functionality
-The following topics describe the local functionality in the New Zealand version of [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)].  
+The following topics describe the local functionality in the New Zealand version of ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->.  
   
 ## In This Section  
  [Addresses](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/addresses.md)  

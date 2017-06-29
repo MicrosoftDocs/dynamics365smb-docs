@@ -35,11 +35,11 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Set Up SMTP Email
-To send e\-mails from [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] using an SMTP server, you must fill the **SMTP Mail Setup** window.  
+To send e\-mails from ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> using an SMTP server, you must fill the **SMTP Mail Setup** window.  
   
- E\-mail sending is used for several features in [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], such as when notifying workflow users about a workflow step. For more information, see [Workflow](../../BusinessFunctionality/Workflow/workflow.md).  
+ E\-mail sending is used for several features in ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, such as when notifying workflow users about a workflow step. For more information, see [Workflow](../../BusinessFunctionality/Workflow/workflow.md).  
   
- E\-mails that are sent from [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] are based on e\-mail templates that define which fields and text to show in the e\-mail. The e\-mail template is an HTML file that you can export, edit in Microsoft Word, for example, and then import. For more information, see [How to: Manage Notification Templates](../../BusinessFunctionality/Workflow/how-to-manage-notification-templates.md).  
+ E\-mails that are sent from ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> are based on e\-mail templates that define which fields and text to show in the e\-mail. The e\-mail template is an HTML file that you can export, edit in Microsoft Word, for example, and then import. For more information, see [How to: Manage Notification Templates](../../BusinessFunctionality/Workflow/how-to-manage-notification-templates.md).  
   
 ### To set up SMTP e\-mail  
   
@@ -47,7 +47,7 @@ To send e\-mails from [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_
   
 2.  Fill the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**SMTP Server**|Specify the name of the SMTP server.|  
     |**SMTP Server Port**|Specify a port for the SMTP server. The default port is 25. **Note:**  When you set up the port, make sure that incoming and outgoing communications on the port is enabled for all clients and the Microsoft Dynamics NAV Server. Check your firewall settings.|  

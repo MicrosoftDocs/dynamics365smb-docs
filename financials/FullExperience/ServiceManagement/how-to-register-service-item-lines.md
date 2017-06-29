@@ -63,7 +63,7 @@ When you have created a service order or service quote, you need to register the
   
 5.  On the **Lines** toolbar, on the **Line** menu, select **Comments**, and then choose **Faults** to, open the **Service Comments** window for the service item on the line. In the **Date** and **Comment** fields, enter the current date and whatever comments you or the customer may have on the faults of the service item.  
   
-6.  You may need to fill in the **Fault Reason Code** field, depending on the settings on the **Mandatory Fields** FastTab in the **Service Mgt. Setup** window. If this field is not visible on the **Lines** FastTab, you can add it. [!INCLUDE[bp_choose_columns](../DesignAndEngineering/includes/bp_choose_columns_md.md)]  
+6.  You may need to fill in the **Fault Reason Code** field, depending on the settings on the **Mandatory Fields** FastTab in the **Service Mgt. Setup** window. If this field is not visible on the **Lines** FastTab, you can add it. ADD INCLUDE<!--[!INCLUDE[bp_choose_columns](../DesignAndEngineering/includes/bp_choose_columns_md.md)]-->  
   
      For more information, see Service Mgt. Setup.  
   

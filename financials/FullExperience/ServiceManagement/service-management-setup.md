@@ -43,7 +43,7 @@ translation.priority.ht:
 In the **Service Mgt. Setup** window, you can decide how you want certain aspects of the Service application area to be managed.  
   
 ## General FastTab  
- Use this FastTab to control various features that can help you manage your services. You can set up automatic email warnings for response times that you define for your service orders. You can use service zones and resource skills for managing planning, multi\-dimensional fault reporting for service items, define whether you assign one or more service items to a service order, whether [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] copies comments from a service order to the correspondent service shipment and invoice, and so on.  
+ Use this FastTab to control various features that can help you manage your services. You can set up automatic email warnings for response times that you define for your service orders. You can use service zones and resource skills for managing planning, multi\-dimensional fault reporting for service items, define whether you assign one or more service items to a service order, whether ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> copies comments from a service order to the correspondent service shipment and invoice, and so on.  
   
 ## Mandatory Fields FastTab  
  Use this FastTab to help you get the information that you require for your service transactions, such as starting and finishing dates for service orders, fault reason codes, and salespersons.  

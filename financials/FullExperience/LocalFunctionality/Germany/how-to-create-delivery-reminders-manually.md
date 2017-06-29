@@ -20,7 +20,7 @@ translation.priority.ht:
   - "fr-ch"
 ---
 # How to: Create Delivery Reminders Manually
-In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can create delivery reminders when a purchase has not been delivered as expected. You can create a single delivery reminder manually, or you can generate delivery reminders for all overdue deliveries. For more information, see [How to: Generate Delivery Reminders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-generate-delivery-reminders.md).  
+In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you can create delivery reminders when a purchase has not been delivered as expected. You can create a single delivery reminder manually, or you can generate delivery reminders for all overdue deliveries. For more information, see [How to: Generate Delivery Reminders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-generate-delivery-reminders.md).  
   
 > [!NOTE]  
 >  To create delivery reminders, you must set up the delivery reminder properties. For more information, see [How to: Set Up Delivery Reminders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-set-up-delivery-reminders.md).  
@@ -33,7 +33,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can cr
   
 3.  In the **Delivery Reminder** window, on the **General** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**No.**|The unique identification number for the delivery reminder.|  
     |**Vendor No.**|The number of the vendor for whom you want to post the delivery reminder.<br /><br /> When you select the vendor number, the **Name**, **Address**, **Post Code\/City**, and **Contact** fields are filled in automatically.|  

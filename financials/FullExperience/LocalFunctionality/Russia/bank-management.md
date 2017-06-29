@@ -16,7 +16,7 @@ translation.priority.ht:
   - "ru-ru"
 ---
 # Bank Management
-In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can create bank directory structures to keep bank reference information in one location, create budget classifications, add bank account details to specific general ledger accounts, and print and post required documents.  
+In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you can create bank directory structures to keep bank reference information in one location, create budget classifications, add bank account details to specific general ledger accounts, and print and post required documents.  
   
 ## Creating Bank Directory Structures  
  You can use a bank directory structure to keep reference information about all the banks in one location. This information can be used to automatically fill in the corresponding fields in the **Bank Account Card**, **Vendor Bank Account Card**, and **Customer Bank Account Card** windows.  
@@ -32,7 +32,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can cr
   
  You can print the following required bank management documents.  
   
-|Report|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+|Report|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
 |------------|---------------------------------------|  
 |**Bank Payment Order**|This report is a copy of the bank payment order.|  
 |**Bank Account G\/L Turnover**|This report is a list of general ledger turnover information.|  

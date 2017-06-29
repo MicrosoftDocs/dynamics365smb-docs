@@ -16,12 +16,12 @@ translation.priority.ht:
   - "ru-ru"
 ---
 # Payables and Receivables-duplicate
-In Russia, there are specific [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] features that you can use to track and manage your accounts payable and accounts receivable.  
+In Russia, there are specific ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> features that you can use to track and manage your accounts payable and accounts receivable.  
   
 ## Getting Started with Payables and Receivables  
  Use the following table to learn more about the payables and receivables features that are available for Russia.  
   
-|Topic|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+|Topic|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
 |-----------|---------------------------------------|  
 |Custom Declarations|Enables you to create and print customs declarations for import and export goods.|  
 |[How to: Set Up and Create Letters of Attorney](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-set-up-and-create-letters-of-attorney.md)|Enables you to create and print a Letter of Attorney that you can use to authorize an individual or organization to act on the behalf of another in a legal or business matter.|  

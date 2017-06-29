@@ -26,7 +26,7 @@ You can export balance information using General Index of Financial Information 
   
 2.  In the **Export GIFI Info. to Excel** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_10005\_F\_1\_1020000 Balance As of Date $\)**|The balance as of the specified date.|  
     |**\($ B\_10005\_F\_1\_1020006 Use Add. Rpt. Currency $\)**|Select to display the amounts in additional reporting currency.|  

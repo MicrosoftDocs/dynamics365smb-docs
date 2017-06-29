@@ -80,7 +80,7 @@ The service price management functionality lets you apply the best price to serv
   
  The following table describes the calculations.  
   
-|[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)]|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+|ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
 |----------------------------------|---------------------------------------|  
 |**Fixed Price**|This means that you charge a fixed price for the service item, resource, general ledger account, or cost, regardless of the real costs or regular charges. Selecting this option means that the service price adjustment will reach the exact amount specified in the service price group.|  
 |**Maximum**|This means that you put an upper limit on the charge to your customer, regardless of the real costs or regular charges. Selecting this option means that the service price adjustment will only be performed if the total price exceeds the amount specified in the service price group.|  

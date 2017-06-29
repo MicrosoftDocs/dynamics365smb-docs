@@ -40,7 +40,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Codeunit 12 Changes: Mapping Global Variables for General Journal Post Line
-The following changes have been implemented in this release of [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)].  
+The following changes have been implemented in this release of ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]-->.  
   
 |**Microsoft Dynamics NAV 2009 R2**|**Microsoft Dynamics NAV 2013 R2**|**Comment**|  
 |----------------------------------------|----------------------------------------|-----------------|  

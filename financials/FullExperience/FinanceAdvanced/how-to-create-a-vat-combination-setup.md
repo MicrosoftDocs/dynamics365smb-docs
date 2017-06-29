@@ -60,7 +60,7 @@ This topic describes how to create a VAT combination setup.
   
 5.  In the **Copy** field, select one of the following values.  
   
-    |[!INCLUDE[bp_optionsheading](../DesignAndEngineering/includes/bp_optionsheading_md.md)]|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_optionsheading](../DesignAndEngineering/includes/bp_optionsheading_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |-------------------------------------|---------------------------------------|  
     |**All Fields**|Copies all fields|  
     |**Selected Fields**|Selects one or more of the following fields:<br /><br /> -   **VAT% etc.**<br />-   **Sales Accounts**<br />-   **Purchase Accounts**|  

@@ -74,14 +74,14 @@ Tolerance on days and amounts allows you to close an invoice even though the pay
 11. To run the **Change Payment Tolerance** batch job, fill in the **Payment Tolerance %** and **Max Payment Tolerance Amount** fields, and then choose the **OK** button. For Help about a specific field, click the field and press F1.  
   
 > [!IMPORTANT]  
->  You have now set up tolerance for local currency only. If you want [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] to handle tolerance on payments, credit memos, and refunds in a foreign currency, you must run the **Change Payment Tolerance** batch job. You must enter a currency in the **Currency Code** field.  
+>  You have now set up tolerance for local currency only. If you want ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> to handle tolerance on payments, credit memos, and refunds in a foreign currency, you must run the **Change Payment Tolerance** batch job. You must enter a currency in the **Currency Code** field.  
   
 > [!NOTE]  
 >  To deactivate tolerance for a customer or vendor, you must block tolerance on the relevant customer or vendor card.  
 >   
 >  If you want to get a payment tolerance warning every time that you post an application in the tolerance, you must activate the payment tolerance warning.  
 >   
->  When you set up tolerance, [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] also checks if there are any open entries and calculates the tolerance for these entries.  
+>  When you set up tolerance, ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> also checks if there are any open entries and calculates the tolerance for these entries.  
 >   
 >  For more information about how to block tolerances, see [How to: Block Payment Tolerances for a Customer or a Vendor](../Finance/how-to-block-payment-tolerances-for-a-customer-or-a-vendor.md). For more about how to activate the payment tolerance warning, see [How to: Enable or Disable Payment Tolerance Warnings](../Finance/how-to-enable-or-disable-payment-tolerance-warnings.md).  
   

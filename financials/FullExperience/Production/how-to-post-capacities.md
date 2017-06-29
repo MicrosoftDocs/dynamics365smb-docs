@@ -54,7 +54,7 @@ In the capacity journal, you post consumed capacities that are not assigned to t
   
 5.  Enter the relevant data in the other fields, such as **Starting Time**, **Ending Time**, **Quantity**, and **Scrap**.  
   
-6.  [!INCLUDE[bp_ribbonxml](../Token/bp_ribbonxml_md.md)]On the **Action** tab, in the **Posting** group, choose **Post** to post the capacities.  
+6.  ADD INCLUDE<!--[!INCLUDE[bp_ribbonxml](../Token/bp_ribbonxml_md.md)]-->On the **Action** tab, in the **Posting** group, choose **Post** to post the capacities.  
   
 7.  Choose the **Yes** button to confirm the question.  
   

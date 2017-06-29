@@ -51,7 +51,7 @@ You can cancel UI customizations that you have made as configuration for a profi
 >  The only situation where UI configuration does overwrite UI personalization is when a UI element is removed by configuration. For example, if the administrator removes a field that the user has renamed or moved, then the field is still removed from the user’s UI.  
   
 > [!NOTE]  
->  In the **Delete User Personalization** window and with the **Restore Defaults** button in the **Customize** window, users can cancel UI customization that they have made to pages under their own user logon. When they do so, the layout of those pages is reset to any UI customization that the administrator has configured for the profile. If the profile has not been configured, then the layout of the user’s pages is reset to the profile configuration that was installed with [!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)]. For more information, see [How to: Cancel UI Personalization](../SetupAndAdministration/how-to-cancel-ui-personalization.md).  
+>  In the **Delete User Personalization** window and with the **Restore Defaults** button in the **Customize** window, users can cancel UI customization that they have made to pages under their own user logon. When they do so, the layout of those pages is reset to any UI customization that the administrator has configured for the profile. If the profile has not been configured, then the layout of the user’s pages is reset to the profile configuration that was installed with ADD INCLUDE<!--[!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)]-->. For more information, see [How to: Cancel UI Personalization](../SetupAndAdministration/how-to-cancel-ui-personalization.md).  
   
 ### To cancel all UI customization that you have made for a profile  
   
@@ -62,7 +62,7 @@ You can cancel UI customizations that you have made as configuration for a profi
 3.  In the **Profile Card** window, on the **Actions** tab, in the **Functions** group, choose **Clear Configured Pages**.  
   
 > [!NOTE]  
->  All UI customizations for the profile, both those installed with [!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)] and those made by the administrator, are canceled. No page layouts specific to the profile remain in the database.  
+>  All UI customizations for the profile, both those installed with ADD INCLUDE<!--[!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)]--> and those made by the administrator, are canceled. No page layouts specific to the profile remain in the database.  
   
 ### To cancel UI customization that you have made for specific page for a profile  
   
@@ -80,7 +80,7 @@ You can cancel UI customizations that you have made as configuration for a profi
   
 1.  You can undo changes for that you have made to individual UI areas, such as a ribbon, by using the **Restore Defaults** button in the **Customize** window. Alternatively, you can undo all UI changes that you have made for a profile by using the **Delete Profile Configuration** window.  
   
- The UI customization for the profile of the particular UI area on the particular page is canceled. The layout of the UI area on the page is reset to the default configuration, as made either by the administrator or as installed with [!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)].  
+ The UI customization for the profile of the particular UI area on the particular page is canceled. The layout of the UI area on the page is reset to the default configuration, as made either by the administrator or as installed with ADD INCLUDE<!--[!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)]-->.  
   
 ## See Also  
  [Configure the User Interface](../SetupAndAdministration/configure-the-user-interface.md)   

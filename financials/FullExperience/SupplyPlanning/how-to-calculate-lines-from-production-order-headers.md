@@ -66,7 +66,7 @@ The production order lines contain the items that are to be produced in the prod
   
 9. The following table describes the options available for this batch job.  
   
-    |[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)]|Selection|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)]-->|Selection|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |----------------------------------|---------------|---------------------------------------|  
     |**Scheduling Direction**|**Forward**|Scheduling starts from the starting date and proceeds forward to the finishing date. You must fill in the starting date to use this option.|  
     ||**Backward**|Scheduling starts from the ending date and proceeds backward to the starting date.|  

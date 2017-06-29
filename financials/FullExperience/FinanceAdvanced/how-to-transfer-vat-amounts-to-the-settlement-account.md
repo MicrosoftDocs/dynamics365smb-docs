@@ -54,7 +54,7 @@ Transferring VAT amounts to the settlement account means that the purchase VAT a
   
 3.  On the **VAT Posting Setup** FastTab, you can enter codes in the **VAT Bus. Posting Group** and **VAT Prod. Posting Group** fields to select the entries to be processed. If you do not enter any codes, entries with all business group codes and product group codes are included.  
   
-4.  On the **Options** FastTab, specify the conditions for the batch job. [!INCLUDE[bp_fieldhelp]()]  
+4.  On the **Options** FastTab, specify the conditions for the batch job. ADD INCLUDE<!--[!INCLUDE[bp_fieldhelp]()]-->  
   
 5.  Choose the **Print** button to start the batch job.  
   

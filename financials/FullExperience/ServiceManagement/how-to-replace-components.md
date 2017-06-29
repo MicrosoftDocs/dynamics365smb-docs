@@ -59,7 +59,7 @@ When you service a service item that is composed of components, you may need to 
   
      The following table describes these options in more detail.  
   
-    |[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)]|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |----------------------------------|---------------------------------------|  
     |**Replace Component**|Changes the status of the component you are replacing to not active, and it will appear on the replaced component list for the service item.|  
     |**New Component**|Enters the new component in the component list of the service item.|  

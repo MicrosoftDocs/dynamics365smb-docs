@@ -25,7 +25,7 @@ The **\($ R\_12463 Cash Order Journal CO\-3 $\)** report shows the unified stand
   
 2.  In the **\($ R\_12463 Cash Order Journal CO\-3 $\)** window, fill in the fields.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_12463\_N\_2\_1210011 Cash Account No. $\)**|Select the cash account number for which the journal is to be printed.|  
     |**\($ R\_12463\_N\_2\_1210000 Starting Date $\)**|Enter the start date of cash orders to be included in the register.|  

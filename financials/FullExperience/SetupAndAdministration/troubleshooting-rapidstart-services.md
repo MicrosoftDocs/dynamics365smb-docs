@@ -39,7 +39,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Troubleshooting: RapidStart Services
-This topic describes some common problems that you may see when you use [!INCLUDE[rimlong](../SetupAndAdministration/includes/rimlong_md.md)].  
+This topic describes some common problems that you may see when you use ADD INCLUDE<!--[!INCLUDE[rimlong](../SetupAndAdministration/includes/rimlong_md.md)]-->.  
   
 ## Binary type not supported  
  If you add a table to the Configuration Worksheet that contains a field of the Binary data type, you may receive the following error message:  

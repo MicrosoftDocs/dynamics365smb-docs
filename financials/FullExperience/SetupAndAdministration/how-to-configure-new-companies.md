@@ -44,11 +44,11 @@ You can configure and customize a new company that you have created. To fine tun
  The following procedures assume that you have created and saved a configuration package. For more information, see [How to: Create a Configuration Package](../SetupAndAdministration/how-to-create-a-configuration-package.md).  
   
 > [!NOTE]  
->  Before implementing the following procedures, make sure that you have initialized and opened your new company and are on the [!INCLUDE[rim](../Roles/includes/rim_md.md)] Role Center. To change your Role Center home page, see [How to: Change Role Centers](../GettingStarted/how-to-change-role-centers.md). Choose the RapidStart Profile ID.  
+>  Before implementing the following procedures, make sure that you have initialized and opened your new company and are on the ADD INCLUDE<!--[!INCLUDE[rim](../Roles/includes/rim_md.md)]--> Role Center. To change your Role Center home page, see [How to: Change Role Centers](../GettingStarted/how-to-change-role-centers.md). Choose the RapidStart Profile ID.  
   
 ### To import a configuration package  
   
-1.  Open the new company in the [!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)].  
+1.  Open the new company in the ADD INCLUDE<!--[!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)]-->.  
   
 2.  In the **Search** box, enter **Configuration Packages**, and then select the related link.  
   

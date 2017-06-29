@@ -19,12 +19,12 @@ translation.priority.ht:
 # CODA Bank Statements
 The Coded Statement of Account \(CODA\) is a national banking standard, designed by the Belgian Banker's Association, which allows you to automatically process electronic bank statements.  
   
- Each type of transaction in a CODA statement is assigned a unique code. [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] uses this code to interpret transactions and apply them to the corresponding ledger entries.  
+ Each type of transaction in a CODA statement is assigned a unique code. ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> uses this code to interpret transactions and apply them to the corresponding ledger entries.  
   
 ## Applying Statement Lines  
  When you have imported a CODA statement, you can apply the statement lines to existing ledger entries, based on the information in the **Transaction Coding** table.  
   
- If the transaction coding of the statement line is not found, [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] will stop processing and continue with the next statement line. If you select the **Default Posting** field, the statement line will be used as a default posting.  
+ If the transaction coding of the statement line is not found, ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> will stop processing and continue with the next statement line. If you select the **Default Posting** field, the statement line will be used as a default posting.  
   
  If the transaction coding of the statement line is found, the statement lines will be matched to the following account types and corresponding account numbers:  
   
@@ -38,7 +38,7 @@ The Coded Statement of Account \(CODA\) is a national banking standard, designed
   
     -   If the bank account number is used to find the customer or vendor, a matching ledger entry is found based on the amount of the statement line. If the amount is found, the statement line is matched to the corresponding ledger entry and the application status will be set to **Applied**.  
   
-    -   If the bank account number cannot be used to find the customer or vendor, [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] will either stop processing the current line or use the line as a default posting, before continuing with the next statement line.  
+    -   If the bank account number cannot be used to find the customer or vendor, ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> will either stop processing the current line or use the line as a default posting, before continuing with the next statement line.  
   
  You can run the process as many times as you like. Only statement lines with a blank application status will be applied.  
   

@@ -56,7 +56,7 @@ When you have created service orders or quotes, you can allocate resource groups
   
 5.  In the **Resource Group No.** field, choose the relevant resource group.  
   
-     [!INCLUDE[bp_choose_columns](../DesignAndEngineering/includes/bp_choose_columns_md.md)]  
+     ADD INCLUDE<!--[!INCLUDE[bp_choose_columns](../DesignAndEngineering/includes/bp_choose_columns_md.md)]-->  
   
 6.  Fill in the **Allocation Date** and **Allocated Hours** fields.  
   

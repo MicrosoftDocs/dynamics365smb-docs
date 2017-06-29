@@ -14,4 +14,4 @@ translation.priority.ht:
   - "fr-fr"
 ---
 # Simulation of Entries
-[!INCLUDE[emptyBookNodeText](../../Finance/includes/emptybooknodetext_md.md)]
+ADD INCLUDE<!--[!INCLUDE[emptyBookNodeText](../../Finance/includes/emptybooknodetext_md.md)]-->

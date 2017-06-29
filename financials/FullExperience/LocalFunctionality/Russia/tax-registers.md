@@ -17,12 +17,12 @@ translation.priority.ht:
   - "ru-ru"
 ---
 # Tax Registers
-In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can set up tax registers to track and manage taxable profits and losses in accordance with Russian tax accounting principles. Tax registers allow you to group taxable transactions into logical categories and apply tax accounting rules for the recognition of revenue and expenditures.  
+In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you can set up tax registers to track and manage taxable profits and losses in accordance with Russian tax accounting principles. Tax registers allow you to group taxable transactions into logical categories and apply tax accounting rules for the recognition of revenue and expenditures.  
   
 ## Types of Tax Registers  
  There are two types of tax registers that are used for tracking taxable profits and losses.  
   
-|Tax Register Type|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+|Tax Register Type|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
 |-----------------------|---------------------------------------|  
 |Analytic Tax Register|An analytic register is based on ledger entries for taxable transactions. The information provides a continuous chronological reflection of business operations, which tracks taxable profits and losses based on tax codes.|  
 |Synthetic Tax Register|A synthetic register is based on summarized and calculated information from an analytic register or another synthetic register.|  
@@ -30,7 +30,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can se
 ## Tax Registers  
  Transactions are processed using specific tax accounting principles that are applied to the following types of tax registers.  
   
-|Tax Register|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+|Tax Register|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
 |------------------|---------------------------------------|  
 |General Ledger Entry|An analytic register based on general ledger transaction entries.|  
 |CV Entry|A group of analytic registers based on information associated with debtor or creditor liabilities.|  
@@ -42,7 +42,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can se
 ## Getting Started with Tax Registers  
  To get started with tax registers, see the following topics on key tables, windows, and batch jobs to create and set up tax registers.  
   
-|Window|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+|Window|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
 |------------|---------------------------------------|  
 |Tax Register Setup|Specifies tax register details where you can set up and manage taxable profits and losses.|  
 |Create Tax Registers|Creates the tax registers that you define using the **Tax Register Setup** window.|  

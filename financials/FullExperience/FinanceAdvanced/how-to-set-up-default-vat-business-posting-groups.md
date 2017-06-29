@@ -47,7 +47,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Set Up Default VAT Business Posting Groups
-You set up default VAT business posting groups by linking them to general business posting groups. [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] automatically inserts the relevant code as the VAT business posting group when you assign the relevant business posting group to a customer, vendor, or general ledger account. Before you can do this, you must set up VAT business posting groups.  
+You set up default VAT business posting groups by linking them to general business posting groups. ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> automatically inserts the relevant code as the VAT business posting group when you assign the relevant business posting group to a customer, vendor, or general ledger account. Before you can do this, you must set up VAT business posting groups.  
   
 ### To set up default VAT business posting groups  
   

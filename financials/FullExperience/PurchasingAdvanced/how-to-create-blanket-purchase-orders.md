@@ -81,13 +81,13 @@ You can use blanket orders when you have committed to buying large quantities of
   
 -   The purchase order line quantity must not exceed the quantity of the associated blanket order line. Otherwise, you cannot post the purchase order.  
   
-    -   When the purchase order is posted as received or invoiced, [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] updates the **Quantity Received** and **Quantity Invoiced** fields on the related blanket order.  
+    -   When the purchase order is posted as received or invoiced, ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> updates the **Quantity Received** and **Quantity Invoiced** fields on the related blanket order.  
   
     -   The blanket order number and line number are recorded as properties of the purchase lines when it is created from a blanket order.  
   
 -   When purchase orders are not created directly from the blanket order but still relate to it, a link between a purchase order and a blanket order can be established by entering the associated blanket order number in the **Blanket Order No.** field on the purchase order line.  
   
--   After the purchase order has been created for the total quantity of a blanket order line, [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] ensures that other purchase orders cannot created for the same line by preventing users from entering a quantity in the **Qty. to Receive** field. If additional quantities must be added to a blanket order, the value in the **Quantity** field can be increased and additional orders can then be created.  
+-   After the purchase order has been created for the total quantity of a blanket order line, ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> ensures that other purchase orders cannot created for the same line by preventing users from entering a quantity in the **Qty. to Receive** field. If additional quantities must be added to a blanket order, the value in the **Quantity** field can be increased and additional orders can then be created.  
   
 -   The invoiced blanket purchase order remains until it is deleted, either by using the delete \(Ctrl\+D\) function on individual blanket orders or by running the **Delete Invoiced Blanket Purchase Orders** batch job.  
   

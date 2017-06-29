@@ -25,7 +25,7 @@ You must sign an agreement of remittance with the bank when you set up electroni
   
 3.  On the **General** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Code**|Specify the agreement code from the bank.|  
     |**Description**|Specify a name for the agreement, such as the name of the bank.|  
@@ -33,7 +33,7 @@ You must sign an agreement of remittance with the bank when you set up electroni
   
 4.  On the **Bank** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Operator No.**|Specify the operator information given by the bank.|  
     |**Company\/Agreement No.**|Specify the company information given by the bank.|  
@@ -44,20 +44,20 @@ You must sign an agreement of remittance with the bank when you set up electroni
   
 5.  On the **BBS** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**BBS Customer Unit ID**|Specify the identification of the agreement for Bankernes Betalingssentral \(BBS\). This code is provided by BBS.|  
     |**Latest BBS Payment Order No.**|Specify the entry number that was used when payment was sent to BBS.|  
   
 6.  On the **Send** FastTab, fill in the field as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Payment File Name**|Specify the path and the name of the file that contains the electronic payment order that was sent to the bank.|  
   
 7.  On the **Receive** FastTab, fill in the fields as described in the following table.  
   
-    |Field|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |Field|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |-----------|---------------------------------------|  
     |**Save Return File**|Select to automatically name the return file after it is imported without errors.|  
     |**Receipt Return Required**|Select to verify that the first\-time return report is imported.|  
@@ -66,7 +66,7 @@ You must sign an agreement of remittance with the bank when you set up electroni
   
 8.  On the **Finance** FastTab, fill in the field as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**New Document Per Field**|Specify how documents are numbered when payments are posted. Options include **Date**, **Vendor**, and **Specified for account**.|  
   

@@ -16,7 +16,7 @@ translation.priority.ht:
   - "ru-ru"
 ---
 # How to: Set Up Tax Accounting
-Tax accounting lets you apply rules for recognizing income and expenses that follow your local tax laws. You can activate tax accounting features in [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] by setting up tax registers.  
+Tax accounting lets you apply rules for recognizing income and expenses that follow your local tax laws. You can activate tax accounting features in ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> by setting up tax registers.  
   
 ### To activate tax accounting  
   
@@ -24,20 +24,20 @@ Tax accounting lets you apply rules for recognizing income and expenses that fol
   
 2.  On the **General** FastTab, select codes for the following dimensions.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Condition Dimension Code**|Select a dimension code that describes the condition of the tax register.|  
     |**Kind Dimension Code**|Select a dimension code that describes the type of tax register.|  
   
 3.  Select the following fields to activate entries in the tax register.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Create Acquis. FA Tax Ledger**|Select to create fixed asset acquisition entries.|  
     |**Create Reclass. FA Tax Ledger**|Select to create fixed asset reclassification entries.|  
     |**Create Acquis. FE Tax Ledger**|Select to create future expense acquisition entries.|  
   
-4.  Select the appropriate depreciation books in the **Tax Depreciation Book** and **Future Exp. Depreciation Book** fields. The depreciation books that you select should not be integrated with the [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] finance module.  
+4.  Select the appropriate depreciation books in the **Tax Depreciation Book** and **Future Exp. Depreciation Book** fields. The depreciation books that you select should not be integrated with the ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> finance module.  
   
 5.  Select the **Create Data for Printing Forms** check box to enable detailed tax register entry information to be printed on reports and forms.  
   

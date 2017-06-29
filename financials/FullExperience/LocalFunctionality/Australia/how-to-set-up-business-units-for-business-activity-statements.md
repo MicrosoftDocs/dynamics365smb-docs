@@ -19,7 +19,7 @@ translation.priority.ht:
   - "en-au"
 ---
 # How to: Set Up Business Units for Business Activity Statements
-In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can consolidate the financial statements of various companies into one financial statement.  
+In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you can consolidate the financial statements of various companies into one financial statement.  
   
  You must set up a consolidation company to perform the consolidation. In this company, the total amounts for all accounts in the group, from both the parent company and subsidiaries are added together. You must also indicate the general ledger accounts in the consolidated company to which the total should be transferred.  
   
@@ -39,7 +39,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can co
   
 2.  Fill in the required fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**BAS to be Lodged as a Group**|Select if you are logging a business activity statement for a group of companies.|  
     |**BAS Group Company**|Select if this company is the main company in the group of companies for which you are lodging a group business activity statement.|  
@@ -52,7 +52,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can co
   
 2.  Fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Company Name**|Specify the name of the company which will be added to the group company's business activity statement.|  
     |**Document No.**|Specify the BAS document number that has to be consolidated. This field is associated with the **BAS Version** field.|  

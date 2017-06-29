@@ -61,11 +61,11 @@ After you have set up the consolidated company and the business units and export
   
 4.  On the **Business Unit** FastTab, you can set a filter to select the business units to be tested. If you do not set a filter, all business units that are selected in **Consolidate** field will be tested.  
   
-5.  On the **Options** FastTab, fill in the appropriate fields. [!INCLUDE[bp_fieldhelp]()] Choose the **Copy Dimensions** field and select the dimension codes.  
+5.  On the **Options** FastTab, fill in the appropriate fields. ADD INCLUDE<!--[!INCLUDE[bp_fieldhelp]()]--> Choose the **Copy Dimensions** field and select the dimension codes.  
   
 6.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
- [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] checks whether you have used account numbers or dimension codes that are not in the consolidated company. If any errors are found, they are listed in the report. If there is insufficient space to display all the errors on the screen, [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] prints a message.  
+ ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> checks whether you have used account numbers or dimension codes that are not in the consolidated company. If any errors are found, they are listed in the report. If there is insufficient space to display all the errors on the screen, ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> prints a message.  
   
  If the report contains errors, you must correct them before you run the consolidation.  
   

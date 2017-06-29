@@ -17,7 +17,7 @@ translation.priority.ht:
   - "de-de"
 ---
 # Germany Local Functionality
-The following topics describe the local functionality in the German version of [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)].  
+The following topics describe the local functionality in the German version of ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->.  
   
 ## In This Section  
  [What's New\-duplicate 3](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/what-s-new-duplicate-3.md)  

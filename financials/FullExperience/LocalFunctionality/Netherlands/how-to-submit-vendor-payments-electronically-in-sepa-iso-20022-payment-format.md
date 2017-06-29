@@ -17,7 +17,7 @@ translation.priority.ht:
   - "nl-nl"
 ---
 # How to: Submit Vendor Payments Electronically in SEPA ISO 20022 Payment Format
-In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can create and submit Single Euro Payments Area \(SEPA\) ISO 20022 vendor payments electronically.  
+In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you can create and submit Single Euro Payments Area \(SEPA\) ISO 20022 vendor payments electronically.  
   
  Before you can create and submit SEPA vendor payments, you must enable SEPA payments. For more information, see [How to: Activate SEPA Payments\-duplicate](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/how-to-activate-sepa-payments-duplicate.md).  
   
@@ -31,7 +31,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can cr
   
 4.  In the **Get Proposal Entries** batch job, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Currency Date**|Specify the currency date.|  
     |**Pmt. Discount Date**|Specify the payment discount date.|  

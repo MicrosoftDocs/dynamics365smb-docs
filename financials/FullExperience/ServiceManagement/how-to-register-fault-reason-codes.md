@@ -50,7 +50,7 @@ You use fault reason codes to identify possible reasons for service item faults 
   
 3.  Select the line with the service item you want to register a fault reason code for.  
   
-4.  In the **Fault Reason Code** field, select the relevant fault reason code. [!INCLUDE[bp_choose_columns](../DesignAndEngineering/includes/bp_choose_columns_md.md)]  
+4.  In the **Fault Reason Code** field, select the relevant fault reason code. ADD INCLUDE<!--[!INCLUDE[bp_choose_columns](../DesignAndEngineering/includes/bp_choose_columns_md.md)]-->  
   
 ## See Also  
  [How to: Set Up Fault Reason Codes](../Service/how-to-set-up-fault-reason-codes.md)

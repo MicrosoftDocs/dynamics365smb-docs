@@ -28,7 +28,7 @@ You must create one remittance account for each bank account where payment is ma
   
 3.  In the **Remittance Account Card** window, on the **General** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Code**|Specify the identification code for the account.|  
     |**Remittance Agreement Code**|Select the agreement to which the account is connected.|  
@@ -39,7 +39,7 @@ You must create one remittance account for each bank account where payment is ma
   
 4.  On the **Finance** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Account Type**|Select the account type. Account types include **Finance account** and **Bank account**.|  
     |**Account No.**|Specify the account number depending on your selection in the **Account Type** field.|  
@@ -53,7 +53,7 @@ You must create one remittance account for each bank account where payment is ma
   
 5.  On the **Domestic** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ T\_15000003\_40 Recipient ref. 1\- Invoice $\)**|Specify the text that will print on the payment invoice.|  
     |**\($ T\_15000003\_41 Recipient ref. 1\- Cr. Memo $\)**|Specify the text that will print on the payment invoice when deducting a credit memo.|  
@@ -62,7 +62,7 @@ You must create one remittance account for each bank account where payment is ma
   
      This information is only used if the account is used for foreign payments. For remittance to BBS, do not use this tab.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Currency Code**|Specify the currency that is used for the bank account.<br /><br /> If the account is a currency account, the currency code must be given.|  
     |**Recipient Ref. Aboard**|Specify the template text that displays on the vendor card. This field is for foreign payments only.|  

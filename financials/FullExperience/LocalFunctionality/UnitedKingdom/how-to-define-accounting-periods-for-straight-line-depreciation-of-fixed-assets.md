@@ -29,7 +29,7 @@ You can define 13 accounting periods to calculate straight line depreciation. Yo
   
 3.  On the **General** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Code**|Specify a unique code that identifies the depreciation book. You can enter a maximum of 10 alphanumeric characters.|  
     |**Description**|Specify a description for the depreciation book.|  
@@ -45,7 +45,7 @@ You can define 13 accounting periods to calculate straight line depreciation. Yo
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_10560\_N\_2\_3 Depreciation Book $\)**|Specify the depreciation book code that must be included in the report.|  
     |**\($ R\_10560\_N\_2\_14 First Depreciation Date $\)**|Enter the start date for the period for which you must calculate projected depreciation.|  

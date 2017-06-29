@@ -51,7 +51,7 @@ After you import and apply setup data in the new database, you can start migrati
   
 -   **Vendor**  
   
- However, you can create a template structure for and apply it to any table in [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)].  
+ However, you can create a template structure for and apply it to any table in ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]-->.  
   
 > [!TIP]  
 >  You can also use data templates for daily operations to create new records that are based on templates. These data templates only work for the supported master data tables. For more information, see [How to: Create Cards by Using Data Templates](../WorkingWithDynamics/how-to-create-cards-by-using-data-templates.md).  

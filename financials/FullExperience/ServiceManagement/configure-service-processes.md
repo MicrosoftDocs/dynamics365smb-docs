@@ -41,7 +41,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Configure Service Processes
-Service management in [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] has features to help you configure and set up your service management system. Use these tools to set defaults, numbering series, and the required fields that you want a customer service representative to fill in. The information stored in the underlying tables determines how to manage certain aspects of the service management activities.  
+Service management in ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> has features to help you configure and set up your service management system. Use these tools to set defaults, numbering series, and the required fields that you want a customer service representative to fill in. The information stored in the underlying tables determines how to manage certain aspects of the service management activities.  
   
  In addition, you can establish coding for standard services, symptom, and fault codes, and set up service item types that your company's customer service needs require.  
   

@@ -23,7 +23,7 @@ You can process electronic payments from customers according to a predefined pay
   
 2.  On the **General** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Format**|Select an OCR payment file format. Formats include **BBS** and **Data Dialog**.|  
     |**FileName**|Enter the full path of the OCR payment file.|  
@@ -31,7 +31,7 @@ You can process electronic payments from customers according to a predefined pay
   
 3.  On the **Gen. Ledger** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Bal. Account Type**|Select a balance account type. Balance account types include **Gen. Ledg. Account** and **Bank Account**.|  
     |**Bal. Account No.**|Select a balance account number.|  

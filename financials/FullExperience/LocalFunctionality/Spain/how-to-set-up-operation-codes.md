@@ -21,7 +21,7 @@ You can add as many operation codes as you want to the table. However, the opera
   
 2.  In the **Operation Codes** window, fill in the fields as described in the following table  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Code**|Enter an operation code. You can only enter one letter or number.<br /><br /> Valid codes are numbers 1 – 8, and letters A – Z.<br /><br /> To submit a report under the CAC regimen, you must make certain that the code Z, which is required for these types of transactions, is in the list of operation codes.|  
     |**Description**|Enter a description for the operation code. You can enter a maximum of 30 letters and numbers.|  
@@ -34,7 +34,7 @@ You can add as many operation codes as you want to the table. However, the opera
   
 3.  In the General Product Posting Groups window, link each operation code to a general product posting group.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |Code|Enter a code to create a new general product posting group.|  
     |Description|Enter a description for the general product posting group|  

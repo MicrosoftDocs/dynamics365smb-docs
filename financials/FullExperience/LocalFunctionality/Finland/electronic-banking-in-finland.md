@@ -15,7 +15,7 @@ translation.priority.ht:
   - "fi-fi"
 ---
 # Electronic Banking in Finland
-The [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] electronic banking feature allows you to process electronic customer and vendor payments. This feature supports domestic payments \(LM03\) and foreign payments \(LUM2\) for transferring electronic bank payments. To export or import electronic payments, you must first set up bank reference files to determine how payment files are processed.  
+The ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> electronic banking feature allows you to process electronic customer and vendor payments. This feature supports domestic payments \(LM03\) and foreign payments \(LUM2\) for transferring electronic bank payments. To export or import electronic payments, you must first set up bank reference files to determine how payment files are processed.  
   
 ## Customer Payments  
  Domestic customer payments can be imported from the bank and linked to the associated accounts receivable entry with a reference number. This type of automation enables incoming payments to be linked directly to open receivables without a delay in manual processing. The following steps explain how to import customer payments into a file from the bank and how to link these payments to invoices through their reference numbers.  

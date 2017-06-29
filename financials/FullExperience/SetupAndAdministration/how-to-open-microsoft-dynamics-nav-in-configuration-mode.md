@@ -40,11 +40,11 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Open Microsoft Dynamics NAV in Configuration Mode
-To configure a profile, for example to customize the profile’s user interface, you must open the [!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)] in configuration mode.  
+To configure a profile, for example to customize the profile’s user interface, you must open the ADD INCLUDE<!--[!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)]--> in configuration mode.  
   
-### To open the [!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)] in configuration mode  
+### To open the ADD INCLUDE<!--[!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)]--> in configuration mode  
   
-1.  At the command prompt, navigate to the root folder of the [!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)]. For example:  
+1.  At the command prompt, navigate to the root folder of the ADD INCLUDE<!--[!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)]-->. For example:  
   
     ```  
     cd navnow_x86install\RoleTailored Client  
@@ -58,7 +58,7 @@ To configure a profile, for example to customize the profile’s user interface,
   
      Replace **profileid** with the name of the profile that you want to configure.  
   
-     For example, to configure the Accounting Manager profile, use this command to open the [!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)] in configuration mode:  
+     For example, to configure the Accounting Manager profile, use this command to open the ADD INCLUDE<!--[!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)]--> in configuration mode:  
   
     ```  
     Microsoft.Dynamics.Nav.Client.exe -configure -profile:"Accounting Manager"  

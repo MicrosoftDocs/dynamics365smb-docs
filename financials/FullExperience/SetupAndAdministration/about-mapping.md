@@ -36,18 +36,18 @@ translation.priority.ht:
   - "sv-se"
 ---
 # About Mapping
-When you apply data that you have imported from Excel or from a RapidStart package, [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] uses the mapping values that you have provided for a particular field and automatically substitutes the values in your data with the values linked to the field. How [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] treats and handles the mapping depends on table relations:  
+When you apply data that you have imported from Excel or from a RapidStart package, ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> uses the mapping values that you have provided for a particular field and automatically substitutes the values in your data with the values linked to the field. How ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> treats and handles the mapping depends on table relations:  
   
--   If you define a mapping directly for a field in a table, then [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] uses it.  
+-   If you define a mapping directly for a field in a table, then ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> uses it.  
   
--   If the field has a relation to another table, [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] searches for the mapping defined for the primary key field in the related table. The related table, however, must be part of the configuration package.  
+-   If the field has a relation to another table, ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> searches for the mapping defined for the primary key field in the related table. The related table, however, must be part of the configuration package.  
   
--   If mapping information is defined in both places, for the field directly and for the primary key in the related table, then [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] will search for the mapping in both places.  
+-   If mapping information is defined in both places, for the field directly and for the primary key in the related table, then ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> will search for the mapping in both places.  
   
 -   If the same mappings are defined directly for a field and in the related table, but have different new values, the mapping that is defined directly for the field takes priority over the mapping that is defined for the table that the field is referencing.  
   
 ## Example  
- The following example illustrates how [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] implements mapping definitions.  
+ The following example illustrates how ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> implements mapping definitions.  
   
 1.  Create a configuration table that has a Salesperson\/Purchaser table, table 13. Define a mapping for the Code field. For more information, see [How to: Map Customer Data](../SetupAndAdministration/how-to-map-customer-data.md).  
   

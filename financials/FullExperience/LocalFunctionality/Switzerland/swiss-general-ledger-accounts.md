@@ -20,7 +20,7 @@ translation.priority.ht:
   - "fr-ch"
 ---
 # Swiss General Ledger Accounts
-[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] includes Swiss enhancements to general ledger accounts. This allows you to do the following:  
+ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> includes Swiss enhancements to general ledger accounts. This allows you to do the following:  
   
 -   Maintain the foreign currency balances of a bank account in the general ledger.  
   
@@ -31,7 +31,7 @@ translation.priority.ht:
 -   Preview the effects that posting general journals would have on the balances of certain general ledger accounts before actually posting them.  
   
 ## General Ledger Accounts and General Journals  
- Companies often have different bank accounts for foreign currencies, and have a general ledger account for each bank account. In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can set up currency code and foreign currency balance information in the **Chart of Accounts** window. This allows you to maintain the original foreign currency balance of a bank account. For more information, see [Chart of Accounts Window](assetId:///fa407624-b670-44b6-8397-91aa606e4c39) and [G\/L Account Table](assetId:///a65c2b09-9bb2-43db-8c53-c047bfc49777).  
+ Companies often have different bank accounts for foreign currencies, and have a general ledger account for each bank account. In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you can set up currency code and foreign currency balance information in the **Chart of Accounts** window. This allows you to maintain the original foreign currency balance of a bank account. For more information, see [Chart of Accounts Window](assetId:///fa407624-b670-44b6-8397-91aa606e4c39) and [G\/L Account Table](assetId:///a65c2b09-9bb2-43db-8c53-c047bfc49777).  
   
  For example, a company has two bank accounts: one for local currency \(LCY\) and one for euros \(EUR\). You must create a general ledger account for each bank account. For the EUR account, define the currency code as **EUR** and post journals in EUR or LCY.  
   

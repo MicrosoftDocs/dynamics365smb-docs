@@ -39,9 +39,9 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Provide Service
-[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] features a **Service Tasks** window through which you can get an overview of all the service items that need attention. Think of it as your service dashboard where you can see what orders are pending, look for and register spare parts, and keep your inventory up\-to\-date.  
+ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> features a **Service Tasks** window through which you can get an overview of all the service items that need attention. Think of it as your service dashboard where you can see what orders are pending, look for and register spare parts, and keep your inventory up\-to\-date.  
   
- To track changes and get a graphical view of your service business, use [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] statistics tools for quick, automatically generated charting and analysis.  
+ To track changes and get a graphical view of your service business, use ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> statistics tools for quick, automatically generated charting and analysis.  
   
  The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
   

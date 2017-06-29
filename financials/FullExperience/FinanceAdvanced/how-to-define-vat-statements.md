@@ -57,7 +57,7 @@ You use a VAT statement to calculate your VAT settlement amount for a certain pe
   
 4.  Select the new VAT Statement name and choose the **OK** button.  
   
-5.  Fill in the fields in the **VAT Statement** window. [!INCLUDE[bp_fieldhelp]()]  
+5.  Fill in the fields in the **VAT Statement** window. ADD INCLUDE<!--[!INCLUDE[bp_fieldhelp]()]-->  
   
 ## See Also  
  [How to: Create a VAT Combination Setup](../Finance/how-to-create-a-vat-combination-setup.md)   

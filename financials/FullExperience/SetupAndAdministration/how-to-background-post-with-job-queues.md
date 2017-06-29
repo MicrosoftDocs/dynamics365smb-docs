@@ -44,7 +44,7 @@ Job queues are an effective tool to schedule the running of business processes i
   
  Alternatively, you may want to schedule postings for hours when it is convenient for your organization. For example, it may make sense in your business to run certain routines when most of the data entry for the day has concluded. You can achieve this by setting the job queue up to run various batch post reports, such as the **Batch Post Sales Orders**, **Batch Post Sales Invoices**, and **Batch Post Sales Credit Memos** reports.  
   
- [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] supports background posting for the following document types:  
+ ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> supports background posting for the following document types:  
   
 -   Sales: sales order, return order, credit memo, invoice  
   
@@ -67,7 +67,7 @@ Job queues are an effective tool to schedule the running of business processes i
   
 4.  To filter to the sales order type of job queue entry, choose the **Job Queue Category Code** field, and select the **SalesPost** category. When you choose this category, you are filtering to all sales orders that match any job queue that has the same category code.  
   
-     [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] creates a job queue entry that specifies codeunit 88. The creation of the entry is automatic. For more information about how to create a job queue entry, see [Use Job Queues to Schedule Tasks](../SetupAndAdministration/use-job-queues-to-schedule-tasks.md).  
+     ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> creates a job queue entry that specifies codeunit 88. The creation of the entry is automatic. For more information about how to create a job queue entry, see [Use Job Queues to Schedule Tasks](../SetupAndAdministration/use-job-queues-to-schedule-tasks.md).  
   
 5.  In the **Search** box, enter **Job Queues**, and then choose the related link. For more information, see [How to: Set Up Job Queues](../SetupAndAdministration/how-to-set-up-job-queues.md).  
   

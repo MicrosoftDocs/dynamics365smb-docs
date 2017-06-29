@@ -28,7 +28,7 @@ Revenue types are used to categorize withholding tax \(WHT\) entries and are use
   
 2.  Fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Code**|Specifies the unique code for the revenue type. You can enter a maximum of 10 alphanumeric characters.|  
     |**Description**|Specifies the description for the WHT revenue type.|  

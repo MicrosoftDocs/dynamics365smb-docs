@@ -41,7 +41,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Troubleshooting Using Microsoft Dynamics NAV
-This section contains information to help you resolve problems using [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)].  
+This section contains information to help you resolve problems using ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]-->.  
   
 ## Troubleshooting Topics  
  [Troubleshooting: Record Locked by Another User](../TroubleshootingUsingMicrosoftDynamicsNav/troubleshooting-record-locked-by-another-user.md)  

@@ -38,10 +38,10 @@ translation.priority.ht:
 Many workflow responses are about notifying a user that an event has occurred that they must act on. For example, on one workflow step, the event can be that User 1 requests approval of a new record, and the response is that a notification is sent to User 2, the approver. On the next workflow step, the event can be that User 2 approves the record, and the response is that a notification is sent to User 3 to start a related processing of the approved record. For workflow steps that are about approval, each notification is tied to an approval entry. For more information, see [Workflow](../../BusinessFunctionality/Workflow/workflow.md).  
   
 > [!NOTE]  
->  The generic version of [!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)] supports notifications as email and as internal notes.  
+>  The generic version of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)]--> supports notifications as email and as internal notes.  
   
 > [!IMPORTANT]  
->  All workflow notifications are sent through a job queue. Make sure that the job queue in your installation of [!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)] is set up to handle workflow notifications, and that the **Start Automatically From NAS** check box is selected. For more information, see [How to: Set Up Job Queues](../../SetupAndAdministration/how-to-set-up-job-queues.md).  
+>  All workflow notifications are sent through a job queue. Make sure that the job queue in your installation of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)]--> is set up to handle workflow notifications, and that the **Start Automatically From NAS** check box is selected. For more information, see [How to: Set Up Job Queues](../../SetupAndAdministration/how-to-set-up-job-queues.md).  
   
  You set up different aspects of workflow notifications in the following places:  
   
@@ -49,11 +49,11 @@ Many workflow responses are about notifying a user that an event has occurred th
   
 2.  You set when and how users receive workflow notifications by filling the **Notification Schedule** window for each workflow user. For more information, see [How to: Specify When and How to Receive Notifications](../../BusinessFunctionality/Workflow/how-to-specify-when-and-how-to-receive-notifications.md).  
   
-3.  You set up the general content and layout of notifications, including notifications about overdue workflow responses, by setting up notification templates in the **Notification Templates** window. You can use the default templates provided with [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], or you can export, modify, and then reimport them. For more information, see [How to: Manage Notification Templates](../../BusinessFunctionality/Workflow/how-to-manage-notification-templates.md).  
+3.  You set up the general content and layout of notifications, including notifications about overdue workflow responses, by setting up notification templates in the **Notification Templates** window. You can use the default templates provided with ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, or you can export, modify, and then reimport them. For more information, see [How to: Manage Notification Templates](../../BusinessFunctionality/Workflow/how-to-manage-notification-templates.md).  
   
 4.  You set up specific content and rules of a workflow notification when you create the workflow in question. You do this by selecting options in the **Workflow Response Options** window for the workflow response that represents the notification. For more information, see step 9 in [How to: Create Workflows](../../BusinessFunctionality/Workflow/how-to-create-workflows.md).  
   
- To send emails from [!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)] using an SMTP server, you must fill the **SMTP Mail Setup** window. For more information, see [How to: Set Up SMTP Email](../../BusinessFunctionality/Workflow/how-to-set-up-smtp-email.md).  
+ To send emails from ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)]--> using an SMTP server, you must fill the **SMTP Mail Setup** window. For more information, see [How to: Set Up SMTP Email](../../BusinessFunctionality/Workflow/how-to-set-up-smtp-email.md).  
   
 ## See Also  
  [How to: Set Up Approval Users](../../BusinessFunctionality/Workflow/how-to-set-up-approval-users.md)   

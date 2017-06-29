@@ -26,7 +26,7 @@ Tax registers are used to track and manage taxable profits and losses in accorda
   
 2.  On the **General** FastTab, enter the following information.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**No.**|Specifies the entry number that is assigned to the tax register.|  
     |**Description**|Enter a description for the tax register.|  
@@ -36,7 +36,7 @@ Tax registers are used to track and manage taxable profits and losses in accorda
   
 3.  On the **Register Lines** FastTab, enter the following information.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Line Code**|Enter a code to identify the tax register line.|  
     |**Account Type**|Select the account type of the tax register line. Options include **Correspondence** and **G\/L Account**.|  
@@ -48,7 +48,7 @@ Tax registers are used to track and manage taxable profits and losses in accorda
   
 4.  On the **Template Line** FastTab, enter the following information.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Line Code**|Enter a code to identify the tax register template line.|  
     |**Expression**|Enter a formula for the tax register template line.|  

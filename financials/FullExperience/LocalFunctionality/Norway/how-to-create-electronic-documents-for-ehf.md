@@ -15,12 +15,12 @@ translation.priority.ht:
   - "nb-no"
 ---
 # How to: Create Electronic Documents for EHF
-When you sell goods or services to a customer in the public sector, you must submit documents electronically. In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can create electronic documents for invoices, credit memos, reminders, and finance charge memos. Before you can create the electronic documents, you must have set up file locations and information about the customers. For more information, see [How to: Set Up EHF](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-set-up-ehf.md) and [How to: Set Up Customers for EHF](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-set-up-customers-for-ehf.md).  
+When you sell goods or services to a customer in the public sector, you must submit documents electronically. In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you can create electronic documents for invoices, credit memos, reminders, and finance charge memos. Before you can create the electronic documents, you must have set up file locations and information about the customers. For more information, see [How to: Set Up EHF](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-set-up-ehf.md) and [How to: Set Up Customers for EHF](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-set-up-customers-for-ehf.md).  
   
  Electronic documents can only be created after a document has been posted or issued. The following procedures describe how to post a sales invoice with the required information and then create an electronic sales invoice, but the same steps also apply to sales credit memos, reminders, finance charge memos, service invoices, and service credit memos.  
   
 > [!NOTE]  
->  The sum of lines in an exported electronic document will not reflect invoice rounding, even if it is enabled. Instead, [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] sums the lines without rounding.  
+>  The sum of lines in an exported electronic document will not reflect invoice rounding, even if it is enabled. Instead, ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> sums the lines without rounding.  
   
 ### To post a sales invoice  
   

@@ -43,7 +43,7 @@ If you want to make a minor change to a record after it has been approved, you c
   
  If you want to make significant changes to a record, such as the item number or quantity on a purchase invoice, you must cancel the approval request, make the change, and then request approval again. For more information, see [How to: Cancel Requests for Approval](../../BusinessFunctionality/Workflow/how-to-cancel-requests-for-approval.md) and [How to: Approve or Reject Requests for Approval](../../BusinessFunctionality/Workflow/how-to-approve-or-reject-requests-for-approval.md).  
   
- Approval of records must be set up as workflows, one workflow for each scenario, such as the Purchase Invoice Approval Workflow. The generic version of [!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)] includes workflow templates for approval of all types of sales and purchase documents and for other records, such as customer cards. For more information, see the list of workflow templates in the Workflow Templates window.  
+ Approval of records must be set up as workflows, one workflow for each scenario, such as the Purchase Invoice Approval Workflow. The generic version of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)]--> includes workflow templates for approval of all types of sales and purchase documents and for other records, such as customer cards. For more information, see the list of workflow templates in the Workflow Templates window.  
   
 ### To make minor changes to an approved record  
   

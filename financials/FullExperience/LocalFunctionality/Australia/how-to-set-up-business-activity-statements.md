@@ -41,10 +41,10 @@ You must set up a Business Activity Statement \(BAS\) to generate a BAS report. 
   
 3.  Fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**XML Field ID**|The name for the BAS field, as it appears in the XML file.|  
-    |**Field No.**|The internal [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] number that corresponds to the field label number in the XML file.|  
+    |**Field No.**|The internal ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> number that corresponds to the field label number in the XML file.|  
     |**Field Label No.**|This value is replicated from the XML file received from the Australian Tax Office \(ATO\). It refers to the relevant section of the BAS, as described in the BAS instructions from the ATO. **Note:**  The value in this field is updated when you select a value in the **Field No.** field.|  
     |**Field Description**|This is the description for the value in the **Field Label No.** field. **Note:**  The value in this field is updated when you select a value in the **Field No.** field.|  
   
@@ -58,7 +58,7 @@ You must set up a Business Activity Statement \(BAS\) to generate a BAS report. 
   
 3.  Fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Name**|The BAS setup name.|  
     |**Description**|The description for the BAS setup name.|  

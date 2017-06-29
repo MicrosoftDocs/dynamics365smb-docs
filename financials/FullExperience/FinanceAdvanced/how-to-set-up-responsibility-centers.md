@@ -43,7 +43,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Set Up Responsibility Centers
-In [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)], you can set up responsibility centers to help administer your business.  
+In ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]-->, you can set up responsibility centers to help administer your business.  
   
  A responsibility center can be a cost center, a profit center or an investment center. Examples of responsibility centers are a sales office, a purchasing department for several locations, and a plant planning office.  
   
@@ -53,7 +53,7 @@ In [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)], you can set u
   
 1.  In the **Search** box, enter **Responsibility Centers**, and then choose the related link.  
   
-2.  On the **Home** tab, choose **New** to create a new responsibility center. Fill in the fields. [!INCLUDE[bp_fieldhelp]()]  
+2.  On the **Home** tab, choose **New** to create a new responsibility center. Fill in the fields. ADD INCLUDE<!--[!INCLUDE[bp_fieldhelp]()]-->  
   
 > [!NOTE]  
 >  If you are using responsibility centers to administer your company, it can be useful to have a default responsibility center for your company. You assign it in the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**Company Information** window, on the **Shipping** FastTab, in the **Responsibility Center** field. The responsibility center assigned to the company will be used on all purchase and sales documents, if the user, customer, or vendor have no default responsibility center.  

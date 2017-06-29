@@ -17,7 +17,7 @@ translation.priority.ht:
   - "da-dk"
 ---
 # How to: Set Up Routing Link Codes
-The BOM position is not assigned to a special position in the routing but to a routing link code in the **Production BOM** window. The routing line is also assigned to a routing link code in the **Routing** window. [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] is very flexible due to this linking of BOM and routing. The positions can be changed as required, without changing the relationships between the BOM and the routing.  
+The BOM position is not assigned to a special position in the routing but to a routing link code in the **Production BOM** window. The routing line is also assigned to a routing link code in the **Routing** window. ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> is very flexible due to this linking of BOM and routing. The positions can be changed as required, without changing the relationships between the BOM and the routing.  
   
 ### To set up routing link codes  
   

@@ -17,7 +17,7 @@ translation.priority.ht:
   - "fr-ch"
 ---
 # Switzerland Local Functionality
-The following topics describe the local functionality in the Swiss version of [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)].  
+The following topics describe the local functionality in the Swiss version of ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->.  
   
 ## In This Section  
  [Enhanced Document Management](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/enhanced-document-management.md)  

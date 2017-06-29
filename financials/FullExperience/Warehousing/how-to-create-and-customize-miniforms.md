@@ -69,7 +69,7 @@ You use miniforms to describe the information that you want to present on a hand
   
     ```  
   
-2.  In the [!INCLUDE[nav_dev_long](../BusinessFunctionality/DataExchange/includes/nav_dev_long_md.md)], open table 7702 and add a code representing the new key. In this example, create a key that is named **F6**.  
+2.  In the ADD INCLUDE<!--[!INCLUDE[nav_dev_long](../BusinessFunctionality/DataExchange/includes/nav_dev_long_md.md)]-->, open table 7702 and add a code representing the new key. In this example, create a key that is named **F6**.  
   
 3.  Add C\/AL code to the relevant function of the miniform\-specific codeunit to handle the function key.  
   
@@ -83,7 +83,7 @@ You use miniforms to describe the information that you want to present on a hand
   
 4.  In the **Function Code** drop\-down list, select a code to represent the function that you want to associate with the miniform. For example, you can select ESC, which associates functionality with the press of the ESC key.  
   
- In the [!INCLUDE[nav_dev_short](../LocalFunctionalityForMicrosoftDynamicsNav2016/includes/nav_dev_short_md.md)], edit the code for the **Handling Codeunit** field to create or modify code to perform the required action or response.  
+ In the ADD INCLUDE<!--[!INCLUDE[nav_dev_short](../LocalFunctionalityForMicrosoftDynamicsNav2016/includes/nav_dev_short_md.md)]-->, edit the code for the **Handling Codeunit** field to create or modify code to perform the required action or response.  
   
 ## See Also  
  Miniform   

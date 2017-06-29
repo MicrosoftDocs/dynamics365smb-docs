@@ -42,7 +42,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Tips and Tricks: RapidStart Services
-When you configure companies using [!INCLUDE[rimlong](../SetupAndAdministration/includes/rimlong_md.md)], there are some tips and tricks that you can take advantage of to help your implementation go smoothly.  
+When you configure companies using ADD INCLUDE<!--[!INCLUDE[rimlong](../SetupAndAdministration/includes/rimlong_md.md)]-->, there are some tips and tricks that you can take advantage of to help your implementation go smoothly.  
   
 ## Take advantage of configuration templates  
  Configuration templates can help you streamline your implementation process. By using them, you can include similar customers in segments and then develop an implementation protocol that treats all customers in a segment in a similar manner. In that way, you can apply a level of preconfiguration to each segment and continue with a rapid implementation.  

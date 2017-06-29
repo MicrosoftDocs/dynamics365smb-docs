@@ -50,7 +50,7 @@ All companies in the European Union must report their trade with other EU countr
   
 1.  In the **Search** box, enter **Tariff Numbers**, and then choose the related link.  
   
-2.  In the **Tariff Numbers** window, enter the published tariff numbers for all items that you buy and sell. [!INCLUDE[bp_fieldhelp]()]  
+2.  In the **Tariff Numbers** window, enter the published tariff numbers for all items that you buy and sell. ADD INCLUDE<!--[!INCLUDE[bp_fieldhelp]()]-->  
   
 3.  In the **Search** box, enter **Transaction Types**, and then choose the related link.  
   
@@ -60,13 +60,13 @@ All companies in the European Union must report their trade with other EU countr
   
 6.  In the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**Transport Methods** window, enter the seven pre\-defined Intrastat transport methods and codes.  
   
-     You must fill in the above tables and assign **Transaction Types** and **Transport Method** values on the **Foreign Trade** FastTab of each sales and purchase document before you post any sales or purchases in [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)].  
+     You must fill in the above tables and assign **Transaction Types** and **Transport Method** values on the **Foreign Trade** FastTab of each sales and purchase document before you post any sales or purchases in ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]-->.  
   
 7.  In the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**Item Card** window, on the **Foreign Trade** FastTab, enter the appropriate Tariff number for this item in the **Tariff No.** field.  
   
  Repeat the steps for all items. Tariff numbers must be assigned to each item.  
   
- In order for item entries to contain the necessary information when [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] imports them to the Intrastat journal line, you must have entered the necessary information.  
+ In order for item entries to contain the necessary information when ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> imports them to the Intrastat journal line, you must have entered the necessary information.  
   
 ##### Additional setup  
   

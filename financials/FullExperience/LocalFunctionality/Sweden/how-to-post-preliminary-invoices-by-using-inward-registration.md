@@ -29,7 +29,7 @@ Use an inward registration to post a preliminary purchase invoice, which you ove
   
 4.  Choose **New**, enter a vendor invoice number on the header of the **Inward Registration** window, and then fill in the lines as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**VAT Prod. Posting Group**|Enter a VAT posting group. This code is used in conjunction with the VAT business posting group to retrieve the VAT percentage and the VAT calculation type.|  
     |**Gen. Prod. Posting Group**|Enter a general posting group.|  

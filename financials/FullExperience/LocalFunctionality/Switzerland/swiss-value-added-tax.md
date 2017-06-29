@@ -17,7 +17,7 @@ translation.priority.ht:
   - "fr-ch"
 ---
 # Swiss Value Added Tax
-[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] includes the following enhancements to Swiss VAT reporting:  
+ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> includes the following enhancements to Swiss VAT reporting:  
   
 -   Automatic adjustment of VAT amounts for invoices, according to payment discounts.  
   

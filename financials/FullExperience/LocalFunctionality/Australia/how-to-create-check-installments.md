@@ -27,9 +27,9 @@ You can create check installments for post\-dated checks. You can define the num
   
 3.  In the **Post Dated Checks\-Purchase** window, on the **Home** tab, choose **Create Check Installments**.  
   
-4.  On the **[!INCLUDE[bp_optionsheading](../../DesignAndEngineering/includes/bp_optionsheading_md.md)]** FastTab, fill in the fields as described in the following table.  
+4.  On the **ADD INCLUDE<!--[!INCLUDE[bp_optionsheading](../../DesignAndEngineering/includes/bp_optionsheading_md.md)]-->** FastTab, fill in the fields as described in the following table.  
   
-5.  |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+5.  |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_28091\_N\_2\_1380000 No. of Installments $\)**|Specifies the number of installments into which the post\-dated check will be divided.|  
     |**\($ R\_28091\_N\_2\_1380003 Interest % $\)**|Specifies the percent of interest.|  

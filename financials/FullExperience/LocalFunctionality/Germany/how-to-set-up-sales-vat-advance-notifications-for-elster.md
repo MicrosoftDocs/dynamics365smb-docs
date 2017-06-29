@@ -19,7 +19,7 @@ translation.priority.ht:
   - "de-de"
 ---
 # How to: Set Up Sales VAT Advance Notifications for ELSTER
-In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], to submit valid sales VAT advance notifications to the ELSTER portal, you must set up the following:  
+In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, to submit valid sales VAT advance notifications to the ELSTER portal, you must set up the following:  
   
 -   The company registration information and tax office information.  
   
@@ -39,7 +39,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], to submit 
   
 3.  On the **Tax Office** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Tax Office Number**|The tax office number. You can ask your tax office for this number.|  
     |**Registration No.**|The company's registration number.<br /><br /> You can enter a maximum of 20 alphanumeric characters.|  
@@ -65,7 +65,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], to submit 
   
 3.  Optionally, on the **Communication** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Use Proxy Server**|Select to use a proxy server for communication.|  
     |**Proxy Server Authent. Required**|Select to use a dedicated proxy server for authentication.<br /><br /> If you use a proxy server and the required dedicated authentication, then you must enter the user account and the password before transmitting. If you use Windows authentication, do not select this field.|  
@@ -73,7 +73,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], to submit 
   
 4.  On the **HTTP Servers** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ T\_11013\_8 HTTP Server URL 1 $\)**|Specifies a server of the Oberfinanzdirektion \(OFD\), such as **http:\/\/datenannahme1.elster.de\/Elster2\/EMS**.|  
     |**\($ T\_11013\_9 HTTP Server URL 2 $\)**|Specifies a server of the OFD, such as **http:\/\/datenannahme2.elster.de\/Elster2\/EMS**.|  

@@ -24,7 +24,7 @@ Fiscal documents must contain all company information. You can enter all relevan
   
 2.  Enter the information into the FastTabs as described in the following table.  
   
-    |FastTab|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FastTab|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |-------------|---------------------------------------|  
     |**General**|The general company information.|  
     |**Communication**|The company contact information.|  

@@ -36,10 +36,10 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Export and Import Encryption Keys
-You can encrypt data on the [!INCLUDE[nav_server](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_server_md.md)] instance by generating new encryption keys or importing or changing existing encryption keys that you enable on the server instance.  
+You can encrypt data on the ADD INCLUDE<!--[!INCLUDE[nav_server](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_server_md.md)]--> instance by generating new encryption keys or importing or changing existing encryption keys that you enable on the server instance.  
   
 > [!NOTE]  
->  If [!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)] is configured with multiple service tiers \([!INCLUDE[nav_server](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_server_md.md)] instances\), then you must first enable encryption on one server instance and then export the key so it can be imported to another server instance where you enable encryption. You cannot generate different keys within one multiple\-server instance environment.  
+>  If ADD INCLUDE<!--[!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)]--> is configured with multiple service tiers \(ADD INCLUDE<!--[!INCLUDE[nav_server](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_server_md.md)]--> instances\), then you must first enable encryption on one server instance and then export the key so it can be imported to another server instance where you enable encryption. You cannot generate different keys within one multiple\-server instance environment.  
   
 ## Exporting an Encryption Key  
  You export an encryption key to make a copy of the key or so that it can be imported on another server instance. Exporting an encryption key stores the encryption key that is used by the current server instance to a file on your computer or network.  
@@ -73,7 +73,7 @@ You can encrypt data on the [!INCLUDE[nav_server](../BusinessFunctionality/Integ
  If a server instance already has an encryption key, then you can replace the current encryption key with an encryption key that is stored in an encryption key file that was exported from another server.  
   
 > [!NOTE]  
->  If [!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)] is configured with multiple server instances, when you change the encryption key on a server instance, then the old encryption key is no longer valid on the other server instances. To enable the new encryption key on the other server instances, import it on each server instance.  
+>  If ADD INCLUDE<!--[!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)]--> is configured with multiple server instances, when you change the encryption key on a server instance, then the old encryption key is no longer valid on the other server instances. To enable the new encryption key on the other server instances, import it on each server instance.  
   
 #### To change an encryption key  
   

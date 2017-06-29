@@ -33,11 +33,11 @@ You can export a VAT statement in text format and then submit it electronically 
     > [!IMPORTANT]  
     >  The VAT statement name must be of the template type **One Column Report**.  
     >   
-    >  In the standard version of [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], the VAT statement name for the 320 telematic statement is of the type **One Column Report**.  
+    >  In the standard version of ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, the VAT statement name for the 320 telematic statement is of the type **One Column Report**.  
   
-4.  In the **Telematic VAT Declaration** window, on the **[!INCLUDE[bp_optionsheading](../../DesignAndEngineering/includes/bp_optionsheading_md.md)]** FastTab, fill in the fields as described in the following table.  
+4.  In the **Telematic VAT Declaration** window, on the **ADD INCLUDE<!--[!INCLUDE[bp_optionsheading](../../DesignAndEngineering/includes/bp_optionsheading_md.md)]-->** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_10715\_N\_2\_1 VAT entries included $\)**|Specify if the VAT statement must include open entries, closed entries, or both open and closed entries.|  
     |**\($ B\_10715\_N\_2\_4 VAT entries included $\)**|Specify if the VAT statement must include only entries from the period that is specified in the **Date Filter** field, or also entries from previous periods.|  

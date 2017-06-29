@@ -18,7 +18,7 @@ translation.priority.ht:
 # How to: Set Up PAC Web Services
 Before you can send invoices and credit memos electronically, you must specify one or more providers of the electronic stamp that must be included in invoices in Mexico.  
   
- When you send an electronic document, it must receive a digital stamp by an authorized service provider, PAC, before it can be sent to your customer. The communication between [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] and the PAC is managed through web services, and therefore, you must specify technical information about the web services of the PAC that you intend to use.  
+ When you send an electronic document, it must receive a digital stamp by an authorized service provider, PAC, before it can be sent to your customer. The communication between ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> and the PAC is managed through web services, and therefore, you must specify technical information about the web services of the PAC that you intend to use.  
   
  To use web services, you must identify the name of the method on the web service that processes requests for digital stamps. Your PAC can give you this information.  
   
@@ -30,7 +30,7 @@ Before you can send invoices and credit memos electronically, you must specify o
   
 2.  Fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Code**|Specify a unique ID for the authorized service provider, PAC, such as **PAC1**.|  
     |**Name**|Specify the name of the PAC.|  
@@ -39,7 +39,7 @@ Before you can send invoices and credit memos electronically, you must specify o
   
 4.  Fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Environment**|Specify if the web service is for a test environment or a production environment.|  
     |**Type**|Specify if the web method is for requesting a digital stamp or for canceling.|  

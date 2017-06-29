@@ -27,7 +27,7 @@ Report 340 includes all sales invoices and purchase invoices posted by a company
   
 2.  In the **\($ B\_10743 Make 340 Declaration $\)** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_10743\_N\_2\_1100000 Fiscal Year $\)**|Enter the fiscal year for which you want to create the operation declaration.|  
     |**\($ B\_10743\_N\_2\_1100003 Month $\)**|Select the month that you want to include in the operations declaration.|  

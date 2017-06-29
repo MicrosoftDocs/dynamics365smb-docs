@@ -31,7 +31,7 @@ Companies that run VAT\-registered businesses and sell or move goods to other VA
   
 2.  In the **EC Sales List** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_130\_N\_2\_1 Print Third Party Trade As $\)**|Specify how you want to print third\-party trade. Choose **Separate Lines** to create the report with third\-party trade as a separate line for each customer. Choose **Column with Amount** to create the report with third\-party trade as an additional column.|  
     |**\($ R\_130\_N\_2\_1000004 Create XML File $\)**|Select to create an electronic version of the **EC Sales List** report in XML file format.|  

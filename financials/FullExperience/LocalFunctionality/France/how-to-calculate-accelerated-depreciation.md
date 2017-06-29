@@ -17,7 +17,7 @@ translation.priority.ht:
   - "fr-fr"
 ---
 # How to: Calculate Accelerated Depreciation
-In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you calculate periodic depreciation for fixed assets by using the **Calculate Depreciation** batch job. The fixed asset depreciation book that is linked to the fixed asset defines the depreciation method, the starting date for depreciation, and the fixed asset posting group that is used in the batch job.  
+In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you calculate periodic depreciation for fixed assets by using the **Calculate Depreciation** batch job. The fixed asset depreciation book that is linked to the fixed asset defines the depreciation method, the starting date for depreciation, and the fixed asset posting group that is used in the batch job.  
   
  If a fixed asset depreciation book is integrated with the general ledger, then it is called an *accounting depreciation book*. If a fixed asset depreciation book is not integrated with the general ledger, then it is called a *tax depreciation book*.  
   
@@ -31,7 +31,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you calcul
   
 2.  In the **Calculate Depreciation** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Depreciation Book**|The unique identification code for the accounting depreciation book.|  
     |**FA Posting Date**|Specify the ending date for the depreciation calculation, if this is the first depreciation entry for the asset. The depreciation starting date that is defined in the **FA Depreciation Books** window is used as the starting date for the depreciation calculation. If you have already depreciated the asset, the fixed asset posting date of the last depreciation entry is used as the starting date for the depreciation calculation.|  

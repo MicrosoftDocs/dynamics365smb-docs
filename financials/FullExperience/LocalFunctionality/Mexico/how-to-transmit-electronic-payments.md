@@ -29,7 +29,7 @@ After you have exported payment journal entries to a file using the Export Elect
   
 3.  In the **Void\/Transmit Elec. Payments** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_10084\_N\_2\_1 Bank Account No. $\)**|Select the bank account for the electronic payment operation.|  
     |**\($ B\_10084\_N\_2\_3 E\-Pay Operation $\)**|Specifies if you want to transmit or void the electronic payment file. The **Transmit** option produces an electronic payment file to be transmitted to your bank for processing. The **Void** option voids the exported file. Confirm that the correct selection has been made before you process the electronic payment file.|  

@@ -40,7 +40,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Add or Remove Filter Panes and FactBox Panes
-In [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] you can select among different panes. These panes give you easy access to related information. Some panes can be added or removed directly in the **Customize** window, which opens when you select **Customize** from the Application menu. Some panes such as the Filter Pane, the ribbon, and the FactBox pane can also be added or removed by using the **Customize** dialog box. Panes on the Role Center can only be removed by using the **Customize** dialog box.  
+In ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> you can select among different panes. These panes give you easy access to related information. Some panes can be added or removed directly in the **Customize** window, which opens when you select **Customize** from the Application menu. Some panes such as the Filter Pane, the ribbon, and the FactBox pane can also be added or removed by using the **Customize** dialog box. Panes on the Role Center can only be removed by using the **Customize** dialog box.  
   
 ### To add or remove panes  
   

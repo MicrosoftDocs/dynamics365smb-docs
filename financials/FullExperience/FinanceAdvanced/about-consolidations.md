@@ -61,7 +61,7 @@ Consolidation means combining the general ledger entries of two or more separate
   
 -   In the same database as the consolidated company.  
   
--   In other [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] databases, including databases in older versions.  
+-   In other ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> databases, including databases in older versions.  
   
 -   In other accounting and business management programs \(assuming that you can export the data from the other program to a file with the appropriate format\).  
   

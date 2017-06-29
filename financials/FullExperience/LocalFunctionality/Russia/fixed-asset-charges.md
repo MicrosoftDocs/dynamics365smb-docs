@@ -16,7 +16,7 @@ translation.priority.ht:
   - "ru-ru"
 ---
 # Fixed Asset Charges
-In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can use fixed asset charges to include additional charges on the purchase of fixed assets in the fixed asset acquisition cost. For more information, see [How to: Create a Fixed Asset Charge](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-create-a-fixed-asset-charge.md).  
+In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you can use fixed asset charges to include additional charges on the purchase of fixed assets in the fixed asset acquisition cost. For more information, see [How to: Create a Fixed Asset Charge](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-create-a-fixed-asset-charge.md).  
   
  You can change the fixed asset acquisition cost in the following scenarios:  
   

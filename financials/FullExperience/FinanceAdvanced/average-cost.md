@@ -48,7 +48,7 @@ In cost accounting, you can transfer general ledger entries to a cost type by us
 |Month|All general ledger entries in the same calendar month are transferred as one entry to the corresponding cost type.|  
   
 > [!IMPORTANT]  
->  If you have selected the **Auto Transfer from G\/L** check box in the **Cost Accounting Setup** window, [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] updates the cost accounting after every posting in the general ledger. Combined entries are not possible.  
+>  If you have selected the **Auto Transfer from G\/L** check box in the **Cost Accounting Setup** window, ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> updates the cost accounting after every posting in the general ledger. Combined entries are not possible.  
   
 ## See Also  
  [How to: Transfer General Ledger Entries to Cost Entries](../Finance/how-to-transfer-general-ledger-entries-to-cost-entries.md)   

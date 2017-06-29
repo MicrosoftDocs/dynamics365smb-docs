@@ -18,7 +18,7 @@ translation.priority.ht:
   - "nb-no"
 ---
 # Norway Local Functionality
-The following topics describe the local functionality in the Norwegian version of [!INCLUDE[nav_current_short](../../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_current_short_md.md)].  
+The following topics describe the local functionality in the Norwegian version of ADD INCLUDE<!--[!INCLUDE[nav_current_short](../../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_current_short_md.md)]-->.  
   
 ## In This Section  
  [What's New\-duplicate 2](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/what-s-new-duplicate-2.md)  

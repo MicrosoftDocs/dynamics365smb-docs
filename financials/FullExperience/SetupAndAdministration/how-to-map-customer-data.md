@@ -36,21 +36,21 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Map Customer Data
-You can map values from an existing ERP system into your [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] implementation during the migration of data. There are two ways in which you can do this. In one method, you can have [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] take codes that are missing in [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] and automatically create them. In the other approach, you can take a value that exists in your ERP solution, for example, an option from a list, and map it to an existing valid option that [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] already has.  
+You can map values from an existing ERP system into your ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> implementation during the migration of data. There are two ways in which you can do this. In one method, you can have ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> take codes that are missing in ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> and automatically create them. In the other approach, you can take a value that exists in your ERP solution, for example, an option from a list, and map it to an existing valid option that ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> already has.  
   
- In the procedures that follow, you should review in advance which values you want to retain during the migration process. To perform the following procedures, you will need data migration files \(.xls\) that you have exported from [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]. For more information, see [How to: Export Migration Tables](../SetupAndAdministration/how-to-export-migration-tables.md).  
+ In the procedures that follow, you should review in advance which values you want to retain during the migration process. To perform the following procedures, you will need data migration files \(.xls\) that you have exported from ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]-->. For more information, see [How to: Export Migration Tables](../SetupAndAdministration/how-to-export-migration-tables.md).  
   
-### To add additional values to [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]  
+### To add additional values to ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]-->  
   
 1.  Open the configuration package for the company.  
   
 2.  Select the table for which you want to add additional values, and on the **Tables** FastTab, choose **Table**, and then choose **Fields**.  
   
-3.  For the fields for which you want [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] to permit additional values during migration, select the **Create Missing Codes** check box.  
+3.  For the fields for which you want ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> to permit additional values during migration, select the **Create Missing Codes** check box.  
   
 4.  Import the customer data. For more information, see [How to: Import Customer Data](../SetupAndAdministration/how-to-import-customer-data.md).  
   
-### To map values to be used during import to [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]  
+### To map values to be used during import to ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]-->  
   
 1.  Open the configuration package for the company.  
   

@@ -17,7 +17,7 @@ translation.priority.ht:
   - "nl-nl"
 ---
 # Netherlands Local Functionality
-The following topics describe the local functionality in the Dutch version of [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)].  
+The following topics describe the local functionality in the Dutch version of ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->.  
   
 ## In This Section  
  [What's New\-duplicate 10](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/what-s-new-duplicate-10.md)  

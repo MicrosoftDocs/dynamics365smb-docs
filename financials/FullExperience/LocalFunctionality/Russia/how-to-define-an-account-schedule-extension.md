@@ -15,7 +15,7 @@ translation.priority.ht:
   - "ru-ru"
 ---
 # How to: Define an Account Schedule Extension
-[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] enables you to define an extension for an account schedule line. Extensions are useful if you want to filter the data of your general ledger accounts.  
+ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> enables you to define an extension for an account schedule line. Extensions are useful if you want to filter the data of your general ledger accounts.  
   
 ### To define an account schedule extension  
   

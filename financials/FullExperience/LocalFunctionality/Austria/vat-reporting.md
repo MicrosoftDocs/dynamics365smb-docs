@@ -24,7 +24,7 @@ You can report VAT electronically to the tax authorities. You can generate, elec
   
  You can print the following local VAT reports.  
   
-|Report|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+|Report|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
 |------------|---------------------------------------|  
 |**VAT Statement Germany**|A simple VAT report. The main VAT reporting is handled by the ELSTER functionality. The amounts are differentiated by taxable base and taxable amount.<br /><br /> Serves as the basis for VAT registration for a selected period, and is printed according to the VAT statement in the VAT Statement Line table.<br /><br /> Use this report in conjunction with VAT correction. For more information, see [How to: Correct VAT](../../Finance/how-to-correct-vat.md).|  
 |**VAT Statement AT**|The Austrian VAT statement serves as the basis for VAT registration for a selected period, and is printed according to the VAT statement in the VAT Statement Line table. You can generate the report in three different formats. For more information, see VAT Statement AT.|  

@@ -27,7 +27,7 @@ For each payment term, you can specify if the payment can be made in installment
   
 2.  Fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Code**|Specify the unique identification code for the set of payment terms. You can enter a maximum of 10 alphanumeric characters.|  
     |**Payment Nos.**|Specify the number of installments allowed for this payment term.|  
@@ -37,7 +37,7 @@ For each payment term, you can specify if the payment can be made in installment
   
 4.  In the **Payment Terms Lines** window, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ T\_12170\_4 Payment % $\)**|Specify the percentage of the total payment that this installment is for.<br /><br /> For example, if the payment must be made in one installment, specify **100**.|  
     |**Due Date Calculation**|Specify the formula that is used to calculate the date that a payment must be made.<br /><br /> For example, if the payment must be made in one installment after two weeks, specify **14D**. For more information, see [How to: Enter Dates and Times](../../WorkingWithDynamics/how-to-enter-dates-and-times.md).|  

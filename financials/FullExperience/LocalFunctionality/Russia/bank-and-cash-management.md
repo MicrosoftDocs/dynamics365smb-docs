@@ -13,4 +13,4 @@ translation.priority.ht:
   - "ru-ru"
 ---
 # Bank and Cash Management
-[!INCLUDE[emptyBookNodeText](../../Finance/includes/emptybooknodetext_md.md)]
+ADD INCLUDE<!--[!INCLUDE[emptyBookNodeText](../../Finance/includes/emptybooknodetext_md.md)]-->

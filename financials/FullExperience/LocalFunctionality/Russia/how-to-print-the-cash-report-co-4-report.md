@@ -25,7 +25,7 @@ The **\($ R\_14902 Cash Report CO\-4 $\)** report shows the unified standard pri
   
 2.  In the **\($ R\_14902 Cash Report CO\-4 $\)** window, fill in the fields.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_14902\_N\_2\_1210012 Cash Account No. $\)**|Select a cash account number.|  
     |**\($ R\_14902\_N\_2\_1210010 Report Type $\)**|Select the type of report to run. Reports include **Cash Report CO\-4** and **Cash Additional Sheet**.|  

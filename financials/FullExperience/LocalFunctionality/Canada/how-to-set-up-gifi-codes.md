@@ -19,7 +19,7 @@ translation.priority.ht:
 # How to: Set Up GIFI Codes
 The Canada Revenue Agency uses General Index of Financial Information \(GIFI\) codes to collect, validate, and process financial and tax information electronically.  
   
- In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you must set up GIFI codes for general ledger accounts, reports, balance sheets, income sheets, and retained earning statements. For more information about GIFI codes, see the [Canada Revenue Agency website](http://go.microsoft.com/fwlink/?LinkId=214332).  
+ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you must set up GIFI codes for general ledger accounts, reports, balance sheets, income sheets, and retained earning statements. For more information about GIFI codes, see the [Canada Revenue Agency website](http://go.microsoft.com/fwlink/?LinkId=214332).  
   
 ### To set up GIFI codes  
   
@@ -29,7 +29,7 @@ The Canada Revenue Agency uses General Index of Financial Information \(GIFI\) c
   
 3.  In the **New \- GIFI Codes** window, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Code**|The GIFI code.|  
     |**Name**|The name or description of the corresponding GIFI code. You can enter a maximum of 120 alphanumeric characters.|  

@@ -27,7 +27,7 @@ You must submit periodic reports to the tax authorities to list all transactions
   
 3.  Fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Starting Date**|Specifies the start date for this threshold, such as 01.05.2011.<br /><br /> Transactions that are posted on or after this date are included in the calculations for the VAT transaction report.|  
     |**Threshold Amount Excl. VAT**|Specifies the minimum base amount that will be included in the VAT transaction report.<br /><br /> This amount is determined by the requirements from the tax authorities.|  
@@ -37,7 +37,7 @@ You must submit periodic reports to the tax authorities to list all transactions
   
  You must also configure each VAT posting setup that is used for transactions that are included in the VAT transaction report.  
   
- The initial setting of the **Include in VAT Transac. Report** check box is based your VAT posting setup, the customer and vendor country\/region, and the specific line, but you can override the setting of the check box in sales, purchase, service, and general journal lines that are posted to VAT entries. If [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] does not permit the changed setting, an error will be displayed during posting.  
+ The initial setting of the **Include in VAT Transac. Report** check box is based your VAT posting setup, the customer and vendor country\/region, and the specific line, but you can override the setting of the check box in sales, purchase, service, and general journal lines that are posted to VAT entries. If ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> does not permit the changed setting, an error will be displayed during posting.  
   
 ### To set up VAT posting for VAT transaction reporting  
   
@@ -45,17 +45,17 @@ You must submit periodic reports to the tax authorities to list all transactions
   
 2.  Select the VAT posting setup that must be enabled for VAT transaction reporting. Fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Include in VAT Transac. Rep.**|Select to include transactions that use this VAT posting setup in the VAT transaction report.|  
   
      Italian legislation provides a list of transactions that are exempt from VAT transaction reporting, such as financial transactions, insurance, and so on. If a line must be excluded from the VAT transaction reports, you can clear the Include in VAT Transac. Rep. check box for that line.  
   
- When a transaction such as posting a sales invoice is made that uses this VAT posting setup, [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] checks if the transaction meets the threshold amounts. The check is based on document lines because a document can contain lines that must be included in the VAT transaction report and lines that must be excluded. The VAT transaction reports must only contain the lines that must be submitted, so [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] compares amounts against the threshold for each line rather than for a document.  
+ When a transaction such as posting a sales invoice is made that uses this VAT posting setup, ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> checks if the transaction meets the threshold amounts. The check is based on document lines because a document can contain lines that must be included in the VAT transaction report and lines that must be excluded. The VAT transaction reports must only contain the lines that must be submitted, so ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> compares amounts against the threshold for each line rather than for a document.  
   
  Next, if you have a representative, you can set up appointment code information in the **Appointment Code** window.  
   
- In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can provide information about appointment codes, which are used in many types of VAT transaction reports. The codes are defined by the Italian tax authority, and are used to describe who is submitting the report on your behalf. Reports that use appointment codes include:  
+ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you can provide information about appointment codes, which are used in many types of VAT transaction reports. The codes are defined by the Italian tax authority, and are used to describe who is submitting the report on your behalf. Reports that use appointment codes include:  
   
 -   Annual VAT Communication  
   
@@ -94,9 +94,9 @@ You must submit periodic reports to the tax authorities to list all transactions
   
      For example, if your company uses separate number series for standard and corrective VAT reports, this number series is the default number series. Users can select a different number series in the **No.** field if they create corrective reports.  
   
-4.  On the **Intermediary** FastTab, enter information about the intermediary, such as the VAT Registration No. of the person or entity performing the report transmission. This information is used in the VAT report in the place of the company's information when [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] specifies the type of declarer.  
+4.  On the **Intermediary** FastTab, enter information about the intermediary, such as the VAT Registration No. of the person or entity performing the report transmission. This information is used in the VAT report in the place of the company's information when ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> specifies the type of declarer.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Intermediary VAT Registration No.**|Specify the VAT registration number of intermediary.<br /><br /> If you have a tax representative, you must fill in the field by using the VAT registration number or the fiscal code for the tax representative. You can find this information based on the value of the Tax Representative No. field in the **Company Information** window.|  
     |**Intermediary CAF Registration No.**|Specify the CAF registration number of your tax assistance center.|  
@@ -107,7 +107,7 @@ You must submit periodic reports to the tax authorities to list all transactions
     > [!NOTE]  
     >  If you do not have an appointment, but do have a tax representative, in the report Microsoft Dynamics NAV creates the appointment based on the tax representative information in the Company Information window. In that case, the Starting Date is the start date of the report. There is no Ending Date.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Appointment Code.**|Specify the code for the Spesometro appointment. You can select a code from the list that you set up in the **Appointment Codes** window.|  
     |**Vendor No.**|Required. Enter the number of the vendor doing the appointment work.|  
@@ -127,7 +127,7 @@ You must submit periodic reports to the tax authorities to list all transactions
   
 2.  On the **Individual** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Individual Person**|Select if this customer is an individual person.|  
     |**Resident**|Specify if the customer is a resident in Italy.<br /><br /> If a customer is not a resident, you must also specify a tax representative on the **Foreign Trade** FastTab.|  
@@ -147,12 +147,12 @@ You must submit periodic reports to the tax authorities to list all transactions
   
 2.  On the **Foreign Trade** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Tax Representative Type**|Specifies if the tax representative is a customer or a contact. You must set this field to **Contact**.|  
     |**Tax Representative No.**|Specify the contact that is the tax representative for this customer.|  
   
- You have set up information so that [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] will track new transactions with VAT that meet the thresholds that are specified by the tax authorities. Before you create the first VAT transaction report, you should prepare the existing data. For more information, see [How to: Update VAT Transactions Data](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-update-vat-transactions-data.md). You can then create VAT transactions reports. For more information, see [How to: Create Electronic VAT Transactions Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-create-electronic-vat-transactions-reports.md).  
+ You have set up information so that ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> will track new transactions with VAT that meet the thresholds that are specified by the tax authorities. Before you create the first VAT transaction report, you should prepare the existing data. For more information, see [How to: Update VAT Transactions Data](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-update-vat-transactions-data.md). You can then create VAT transactions reports. For more information, see [How to: Create Electronic VAT Transactions Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-create-electronic-vat-transactions-reports.md).  
   
 ## See Also  
  [How to: Update VAT Transactions Data](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-update-vat-transactions-data.md)   

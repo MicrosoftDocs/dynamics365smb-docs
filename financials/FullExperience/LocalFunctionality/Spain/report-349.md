@@ -20,22 +20,22 @@ translation.priority.ht:
 # Report 349
 You must submit a periodic report of trade with other EU countries\/regions to the tax authorities. In Spain, this Report 349 is part of the EU intra\-community VAT Information Exchange System \(VIES\).  
   
- In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], the Report 349 declaration is based on VAT entries that are filtered by the EU country\/region codes. You must create a 349 declaration and then submit the file to the [Spanish Tax Agency](http://go.microsoft.com/fwlink/?LinkId=238181) website or on CD\-ROM.  
+ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, the Report 349 declaration is based on VAT entries that are filtered by the EU country\/region codes. You must create a 349 declaration and then submit the file to the [Spanish Tax Agency](http://go.microsoft.com/fwlink/?LinkId=238181) website or on CD\-ROM.  
   
  When you create a Report 349 declaration that includes credit memos, the entries will display in the **\($ N\_10736 Customer\/Vendor Warnings 349 $\)** window so that you can include them as corrections to invoices.You must make the appropriate changes to the lines in the **\($ N\_10736 Customer\/Vendor Warnings 349 $\)** window before you can submit the declaration. For more information, [How to: Create Report 349](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/how-to-create-report-349.md).  
   
 ## Delivery Operation Codes  
- The Report 349 declaration must specify separate operation codes for the delivery of goods to other EU countries\/regions. You can set up separate VAT product posting groups for each type of export delivery. Then, when you apply a VAT posting group to an item that is sold, [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] stores the delivery operation code, and the transaction is included in the quarterly 349 declaration.  
+ The Report 349 declaration must specify separate operation codes for the delivery of goods to other EU countries\/regions. You can set up separate VAT product posting groups for each type of export delivery. Then, when you apply a VAT posting group to an item that is sold, ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> stores the delivery operation code, and the transaction is included in the quarterly 349 declaration.  
   
- Before you submit the 349 declaration, you must make sure that all VAT entries have the relevant delivery operation codes. The following table describes the delivery operation codes that are currently supported in [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)].  
+ Before you submit the 349 declaration, you must make sure that all VAT entries have the relevant delivery operation codes. The following table describes the delivery operation codes that are currently supported in ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->.  
   
-|Delivery operation code|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+|Delivery operation code|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
 |-----------------------------|---------------------------------------|  
 |**E**|Identifies transactions with items that were delivered to customers in another EU country\/region and are not included in either the M or the H delivery operation code.|  
 |**M**|Identifies transactions with items that were delivered to customers in another EU country\/region and which were previously imported into Spain as tax exempt according to the VAT law.|  
 |**H**|Identifies transactions with items that were delivered to customers in another EU country\/region and which were previously imported into Spain as tax exempt according to the VAT law, and which were conducted by an official tax representative.|  
   
- To help you manage exports to other EU countries\/regions in [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can create VAT product posting groups for each operation code. Then, when you apply a VAT posting group to an item that is sold, the Delivery Operation Code field in the **VAT Entry** table identifies the VAT transactions according to the operation code.  
+ To help you manage exports to other EU countries\/regions in ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you can create VAT product posting groups for each operation code. Then, when you apply a VAT posting group to an item that is sold, the Delivery Operation Code field in the **VAT Entry** table identifies the VAT transactions according to the operation code.  
   
 ### Delivery Operation Codes and Item Setup  
  You can set up a VAT product posting group for each delivery operation type and then assign the appropriate VAT product posting group to items in the Item Card window.  
@@ -50,7 +50,7 @@ You must submit a periodic report of trade with other EU countries\/regions to t
   
  Then, when you create a sales order, you must make sure that you select the correct item in the sales lines.  
   
- When you post the sales invoice, [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] saves the delivery operation code in the **VAT Entry** table, and then, when you create the Report 349 declaration, the VAT amount is included in the section for the appropriate delivery operation code.  
+ When you post the sales invoice, ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> saves the delivery operation code in the **VAT Entry** table, and then, when you create the Report 349 declaration, the VAT amount is included in the section for the appropriate delivery operation code.  
   
 ## See Also  
  Make 349 Declaration   

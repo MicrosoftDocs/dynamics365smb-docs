@@ -14,4 +14,4 @@ translation.priority.ht:
   - "nl-nl"
 ---
 # General Ledger-duplicate
-[!INCLUDE[emptyBookNodeText](../../Finance/includes/emptybooknodetext_md.md)]
+ADD INCLUDE<!--[!INCLUDE[emptyBookNodeText](../../Finance/includes/emptybooknodetext_md.md)]-->

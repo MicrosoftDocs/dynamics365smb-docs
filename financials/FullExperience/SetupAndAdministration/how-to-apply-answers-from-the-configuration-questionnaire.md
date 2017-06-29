@@ -40,7 +40,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Apply Answers from the Configuration Questionnaire
-After you have imported and validated information from a setup questionnaire, you can transfer, or apply the setup data to the corresponding tables in the [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] database.  
+After you have imported and validated information from a setup questionnaire, you can transfer, or apply the setup data to the corresponding tables in the ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> database.  
   
 ### To apply answers from the setup questionnaire  
   
@@ -58,7 +58,7 @@ After you have imported and validated information from a setup questionnaire, yo
   
 ### To verify that answers have been applied successfully  
   
-1.  Check setup windows for the various functional areas of [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]. To locate the window, in the **Search** box, enter the name of the setup window, and then choose the related link.  
+1.  Check setup windows for the various functional areas of ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]-->. To locate the window, in the **Search** box, enter the name of the setup window, and then choose the related link.  
   
      The following table identifies some common setup tables, but your verification of answers depends on which setup tables you use.  
   

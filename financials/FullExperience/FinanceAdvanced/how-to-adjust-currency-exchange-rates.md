@@ -51,7 +51,7 @@ There are no requirements for when or how often you should enter new exchange ra
   
 2.  In the **Currencies** window, select the line with the currency code you want to update. On the **Actions** tab, choose **Exch. Rates**.  
   
-3.  In the **Currency Exchange Rates** window that appears, fill in the fields on the next blank line. [!INCLUDE[bp_fieldhelp]()]  
+3.  In the **Currency Exchange Rates** window that appears, fill in the fields on the next blank line. ADD INCLUDE<!--[!INCLUDE[bp_fieldhelp]()]-->  
   
 4.  Close the windows.  
   

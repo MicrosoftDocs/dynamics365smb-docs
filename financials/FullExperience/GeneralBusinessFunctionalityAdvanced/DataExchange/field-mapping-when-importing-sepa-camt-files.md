@@ -38,7 +38,7 @@ translation.priority.ht:
 # Field Mapping When Importing SEPA CAMT Files
 The generic version of Microsoft Dynamics NAV supports the regional SEPA standard \(Single Euro Payments Area\) for importing SEPA bank statements \(CAMT format\). For more information, see [How to: Import Bank Statements](../../BusinessFunctionality/DataExchange/how-to-import-bank-statements.md).  
   
- The SEPA CAMT standard itself has local variations. Therefore, you may have to modify the generic data exchange definition \(represented by the **SEPA CAMT** code in the **Posting Exchange Definitions** window to adapt it to a local variation of the standard. The following tables show the element\-to\-field mapping for tables 81, 273, and 274 in the SEPA CAMT implementation in [!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)].  
+ The SEPA CAMT standard itself has local variations. Therefore, you may have to modify the generic data exchange definition \(represented by the **SEPA CAMT** code in the **Posting Exchange Definitions** window to adapt it to a local variation of the standard. The following tables show the element\-to\-field mapping for tables 81, 273, and 274 in the SEPA CAMT implementation in ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)]-->.  
   
  For information about creating or adjusting a data exchange definition, see [How to: Set Up Data Exchange Definitions](../../BusinessFunctionality/DataExchange/how-to-set-up-data-exchange-definitions.md).  
   
@@ -75,7 +75,7 @@ The generic version of Microsoft Dynamics NAV supports the regional SEPA standar
 |Stmt\/Ntry\/NtryDtls\/TxDtls\/RmtInf\/Ustrd|Unstructured|Text|Information supplied to enable the matching\/reconciliation of an entry with the items that the payment is intended to settle, such as commercial invoices in an accounts\-receivable system, in an unstructured form||6|Description|  
 |Stmt\/Ntry\/AddtlNtryInf|AdditionalEntryInformation|Text|Additional information about the entry||16|Transaction Information|  
   
- Elements in the **Ntry** node that are imported into [!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)] but not mapped to any fields are stored in the **Posting Exch. Column Def** table. Users can view these elements from the **Payment Reconciliation Journal**, **Payment Application**, and **Bank Acc. Reconciliation** windows by choosing the **Bank Statement Line Details** action. For more information, see [Reconcile Payments Automatically](../../Finance/reconcile-payments-automatically.md).  
+ Elements in the **Ntry** node that are imported into ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)]--> but not mapped to any fields are stored in the **Posting Exch. Column Def** table. Users can view these elements from the **Payment Reconciliation Journal**, **Payment Application**, and **Bank Acc. Reconciliation** windows by choosing the **Bank Statement Line Details** action. For more information, see [Reconcile Payments Automatically](../../Finance/reconcile-payments-automatically.md).  
   
 ## See Also  
  Data Exchange Definitions   

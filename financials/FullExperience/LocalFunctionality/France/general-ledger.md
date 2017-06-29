@@ -14,4 +14,4 @@ translation.priority.ht:
   - "fr-fr"
 ---
 # General Ledger
-[!INCLUDE[emptyBookNodeText](../../Finance/includes/emptybooknodetext_md.md)]
+ADD INCLUDE<!--[!INCLUDE[emptyBookNodeText](../../Finance/includes/emptybooknodetext_md.md)]-->

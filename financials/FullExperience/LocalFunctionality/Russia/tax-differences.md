@@ -18,7 +18,7 @@ translation.priority.ht:
 # Tax Differences
 Tax differences are variations in tax amounts caused by the different rules for recognizing income and expenses between entries for book accounting and tax accounting.  
   
- In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can set up tax difference registers and tax difference journals to track and manage differences between book accounting and tax accounting amounts.  
+ In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you can set up tax difference registers and tax difference journals to track and manage differences between book accounting and tax accounting amounts.  
   
 ## Preparing the Chart of Accounts  
  Before you set up tax differences, you will have to make sure that your chart of accounts is set up to correctly handle tax accounting and tax differences. At a minimum, your chart of accounts must contain tax difference accounts for income and expense transactions.  
@@ -26,7 +26,7 @@ Tax differences are variations in tax amounts caused by the different rules for 
 ## Getting Started with Tax Differences  
  To set up and view tax difference entries, you will use the following tables, which support tax differences windows.  
   
-|Window|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+|Window|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
 |------------|---------------------------------------|  
 |Tax Diff. Posting Group|Specifies posting groups for tax difference transactions.|  
 |Tax Diff. Journal Template|Specifies the journals that are used for posting tax difference entries.|  

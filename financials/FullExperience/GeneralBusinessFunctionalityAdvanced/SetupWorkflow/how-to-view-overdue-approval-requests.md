@@ -41,7 +41,7 @@ All approval requests have a due date by which they must be approved. If an appr
   
  At regular intervals, you must remind approval workflow users of overdue approval requests that they must react on. For more information, see [How to: Send Overdue Approval Notifications](../../BusinessFunctionality/Workflow/how-to-send-overdue-approval-notifications.md).  
   
- Approval of records must be set up as workflows, one workflow for each scenario, such as the Purchase Invoice Approval Workflow. The generic version of [!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)] includes workflow templates for approval of all types of sales and purchase documents and for other records, such as customer cards. For more information, see the list of workflow templates in the Workflow Templates window.  
+ Approval of records must be set up as workflows, one workflow for each scenario, such as the Purchase Invoice Approval Workflow. The generic version of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)]--> includes workflow templates for approval of all types of sales and purchase documents and for other records, such as customer cards. For more information, see the list of workflow templates in the Workflow Templates window.  
   
 ### To view overdue approval requests  
   

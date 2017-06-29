@@ -39,20 +39,20 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Publish a Web Service
-Web services are a lightweight way to make application functionality available to a variety of external systems and users. In [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)], you can expose pages, codeunits, and queries as web services. When you publish [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] objects as web services, they are immediately available on the network.  
+Web services are a lightweight way to make application functionality available to a variety of external systems and users. In ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]-->, you can expose pages, codeunits, and queries as web services. When you publish ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> objects as web services, they are immediately available on the network.  
   
- You can set up a web service in the [!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)] or the [!INCLUDE[nav_web](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/nav_web_md.md)]. You must then publish the web service so that it is available to service requests over the network. Users can discover web services by pointing a browser at the computer that is running [!INCLUDE[nav_server](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_server_md.md)] and requesting a list of available services. When you publish a web service, it is immediately available over the network for authenticated users. All authorized users can access metadata for [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] web services, but only users who have sufficient [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] permissions can access actual data.  
+ You can set up a web service in the ADD INCLUDE<!--[!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)]--> or the ADD INCLUDE<!--[!INCLUDE[nav_web](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/nav_web_md.md)]-->. You must then publish the web service so that it is available to service requests over the network. Users can discover web services by pointing a browser at the computer that is running ADD INCLUDE<!--[!INCLUDE[nav_server](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_server_md.md)]--> and requesting a list of available services. When you publish a web service, it is immediately available over the network for authenticated users. All authorized users can access metadata for ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> web services, but only users who have sufficient ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> permissions can access actual data.  
   
 ## Creating and Publishing a Web Service  
  The following steps explain how to create and publish a web service.  
   
 #### To create and publish a web service  
   
-1.  Open the [!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)] or the [!INCLUDE[nav_web](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/nav_web_md.md)].  
+1.  Open the ADD INCLUDE<!--[!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)]--> or the ADD INCLUDE<!--[!INCLUDE[nav_web](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/nav_web_md.md)]-->.  
   
-2.  In the [!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)], in the **Search** box, enter **Web Services**, and then choose the related link.  
+2.  In the ADD INCLUDE<!--[!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)]-->, in the **Search** box, enter **Web Services**, and then choose the related link.  
   
-     In the [!INCLUDE[nav_web](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/nav_web_md.md)], choose the **Search for Page or Report** button, enter **Web Services**, and then choose the related link.  
+     In the ADD INCLUDE<!--[!INCLUDE[nav_web](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/nav_web_md.md)]-->, choose the **Search for Page or Report** button, enter **Web Services**, and then choose the related link.  
   
 3.  In the **Web Services** page, choose **New**.  
   
@@ -74,7 +74,7 @@ Web services are a lightweight way to make application functionality available t
   
      When you publish the web service, in the **OData URL** and **SOAP URL** fields, you can see the URLs that are generated for the web service. You can test the web service immediately by choosing the links in the **OData URL** and **SOAP URL** fields. Optionally, you can copy the value of the field and save it for later use.  
   
- After you publish a web service, it is available on the [!INCLUDE[nav_server](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_server_md.md)] computer that you were connected to when you published. The web service is available across all [!INCLUDE[nav_server](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_server_md.md)] instances running on the server computer.  
+ After you publish a web service, it is available on the ADD INCLUDE<!--[!INCLUDE[nav_server](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_server_md.md)]--> computer that you were connected to when you published. The web service is available across all ADD INCLUDE<!--[!INCLUDE[nav_server](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_server_md.md)]--> instances running on the server computer.  
   
  You can verify the availability of that web service by using a browser, or you can choose the link in the **OData URL** and **SOAP URL** fields in the **Web Services** window. The following procedure illustrates how you can verify the availability of the web service for later use.  
   
@@ -84,14 +84,14 @@ Web services are a lightweight way to make application functionality available t
   
     |Web service type|Syntax|Example|  
     |----------------------|------------|-------------|  
-    |SOAP|https:\/\/*Server*:*SOAPWebServicePort*\/*ServerInstance*\/WS\/*CompanyName*\/services\/|https:\/\/localhost:7047\/[!INCLUDE[nav_server_instance](../SetupAndAdministration/includes/nav_server_instance_md.md)]\/WS\/CRONUS International Ltd.\/services\/|  
-    |OData|https:\/\/*Server*:*ODataWebServicePort*\/*ServerInstance*\/OData\/Company\('*CompanyName*'\)|https:\/\/localhost:7048\/[!INCLUDE[nav_server_instance](../SetupAndAdministration/includes/nav_server_instance_md.md)]\/OData\/Company\('CRONUS International Ltd.'\)|  
+    |SOAP|https:\/\/*Server*:*SOAPWebServicePort*\/*ServerInstance*\/WS\/*CompanyName*\/services\/|https:\/\/localhost:7047\/ADD INCLUDE<!--[!INCLUDE[nav_server_instance](../SetupAndAdministration/includes/nav_server_instance_md.md)]-->\/WS\/CRONUS International Ltd.\/services\/|  
+    |OData|https:\/\/*Server*:*ODataWebServicePort*\/*ServerInstance*\/OData\/Company\('*CompanyName*'\)|https:\/\/localhost:7048\/ADD INCLUDE<!--[!INCLUDE[nav_server_instance](../SetupAndAdministration/includes/nav_server_instance_md.md)]-->\/OData\/Company\('CRONUS International Ltd.'\)|  
   
      The company name is case\-sensitive.  
   
 2.  Review the information that is displayed in the browser. Verify that you can see the name of the web service that you have created.  
   
- When you access a web service, and you want to write data back to [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)], you must specify the company name. You can specify the company as part of the URI as shown in the examples, or you can specify the company as part of the query parameters. For example, the following URIs point to the same OData web service and are both valid URIs.  
+ When you access a web service, and you want to write data back to ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]-->, you must specify the company name. You can specify the company as part of the URI as shown in the examples, or you can specify the company as part of the query parameters. For example, the following URIs point to the same OData web service and are both valid URIs.  
   
 ```  
 https://localhost:7048/nav_server_instance/OData/Company('CRONUS International Ltd.')/Customer  

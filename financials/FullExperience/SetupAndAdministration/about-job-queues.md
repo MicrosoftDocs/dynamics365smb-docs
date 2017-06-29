@@ -39,10 +39,10 @@ translation.priority.ht:
   - "sv-se"
 ---
 # About Data Tables
-[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] data tables come in two basic types: Master and Setup. When you are setting up a company configuration, you can use these types to focus your configuration strategy.  
+ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> data tables come in two basic types: Master and Setup. When you are setting up a company configuration, you can use these types to focus your configuration strategy.  
   
 ## Master Data Tables  
- The following table lists a some example [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] master data tables. When you initialize a new company, these tables are empty.  
+ The following table lists a some example ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> master data tables. When you initialize a new company, these tables are empty.  
   
 ### Master Data Tables  
   
@@ -64,7 +64,7 @@ translation.priority.ht:
 |312|Purchases & Payables Setup|  
 |313|Inventory Setup|  
   
- In addition to setup data tables, [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] also has data tables that specify core information about the company and its business processes. The following table provides some examples.  
+ In addition to setup data tables, ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> also has data tables that specify core information about the company and its business processes. The following table provides some examples.  
   
 ###  
   

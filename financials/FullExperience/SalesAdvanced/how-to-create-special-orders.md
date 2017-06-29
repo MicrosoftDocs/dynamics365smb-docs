@@ -51,7 +51,7 @@ You can create a special order for a specific nonstock item to be shipped to a s
   
 2.  On the **Home** tab, in the **New** groups, choose **New**. Create and fill in a  sales order for the item.  
   
-3.  On the **Lines** FastTab, fill in the sales line. In the **Purchasing Code** field, select a purchasing code that has the **Special Order** field selected. [!INCLUDE[bp_choose_columns](../DesignAndEngineering/includes/bp_choose_columns_md.md)]  
+3.  On the **Lines** FastTab, fill in the sales line. In the **Purchasing Code** field, select a purchasing code that has the **Special Order** field selected. ADD INCLUDE<!--[!INCLUDE[bp_choose_columns](../DesignAndEngineering/includes/bp_choose_columns_md.md)]-->  
   
      You must now create a purchase order from a requisition worksheet.  
   

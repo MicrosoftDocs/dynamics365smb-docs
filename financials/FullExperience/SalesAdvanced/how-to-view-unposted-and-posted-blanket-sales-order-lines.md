@@ -45,7 +45,7 @@ The link between the blanket sales order and the originating sales order, and an
   
 1.  Select the line in question and then on the **Lines** FastTab, click **Actions**![Action Menu icon](../DesignAndEngineering/media/actionmenuicon.png "actionMenuIcon"), **Line**, **Unposted Lines**. The following options are available:  
   
-    |[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)]|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |----------------------------------|---------------------------------------|  
     |**Orders**|Specifies open orders associated with the selected line.|  
     |**Invoices**|Specifies open invoices that have been associated with the selected line. Open invoices are manually associated with a blanket order by entering the blanket order number on the sales invoice line.|  
@@ -58,7 +58,7 @@ The link between the blanket sales order and the originating sales order, and an
   
 1.  Select the line in question and then on the **Lines** FastTab, click **Actions**![Action Menu icon](../DesignAndEngineering/media/actionmenuicon.png "actionMenuIcon"), **Line**, **Posted Lines**. The following options are available:  
   
-    |[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)]|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |----------------------------------|---------------------------------------|  
     |**Shipments**|Posted shipments associated with the selected line.|  
     |**Invoices**|Posted invoices associated with the selected line.|  

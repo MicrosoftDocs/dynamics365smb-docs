@@ -16,7 +16,7 @@ translation.priority.ht:
   - "ru-ru"
 ---
 # Item Documents
-[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] includes several documents that you can use to manage your warehouse. This also includes reports that you must submit for official reporting, such as the Item Report TORG\-29, Items Receipt Act TORG\-1, and Receipt Deviations TORG\-2 reports.  
+ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> includes several documents that you can use to manage your warehouse. This also includes reports that you must submit for official reporting, such as the Item Report TORG\-29, Items Receipt Act TORG\-1, and Receipt Deviations TORG\-2 reports.  
   
  The following types of documents are useful for managing your warehouse:  
   
@@ -48,7 +48,7 @@ translation.priority.ht:
   
 2.  In the header of the **Item Receipt** window, enter the fields described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**No.**|Specifies the warehouse document header number.|  
     |**Posting Description**|Specifies the posting description.|  
@@ -62,7 +62,7 @@ translation.priority.ht:
   
 3.  In the document lines of the **Item Receipt** window, enter the fields described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Item No.**|Specifies the item number from the Item List table.|  
     |**Description**|Specifies the item description.|  
@@ -78,7 +78,7 @@ translation.priority.ht:
   
 5.  Enter the fields described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Employee Type**|Specifies the type of the employee.|  
     |**Employee No.**|Specifies the employee number of the employee who must sign.|  
@@ -122,7 +122,7 @@ translation.priority.ht:
   
     -   The fields in the following table are available only in the **Item Shipment** form.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**FA No.**|Specifies the fixed asset to write off items and materials.|  
     |**Depreciation Book Code**|Specifies the fixed asset depreciation book to which the additional cost will be added.|  
@@ -131,7 +131,7 @@ translation.priority.ht:
   
 5.  Enter the fields described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Employee Type**|Specifies the type of the employee.|  
     |**Employee No.**|Specifies the employee number of the employee who must sign.|  

@@ -30,7 +30,7 @@ The VAT reporting feature enables you to print VAT transaction details. You must
   
 2.  In the **\($ R\_11307 VAT – Form $\)** window, fill in the fields.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_11307\_F\_1\_2 Declaration Type $\)**|Specify the type of declaration that you want to print. Options include **Month** and **Quarter**.|  
     |**\($ R\_11307\_F\_1\_5 Month or quarter $\)**|Enter the month or quarter of the VAT declaration.<br /><br /> -   If you select **Month**, you must enter a value between 1 and 12 \(1 \= January, 2 \= February, and so on\).<br />-   If you select **Quarter**, you must enter a value between 1 and 4 \(1 \= first quarter, 2 \= second quarter, and so on\).|  
@@ -53,7 +53,7 @@ The VAT reporting feature enables you to print VAT transaction details. You must
   
 2.  In the **VAT Annual Listing** window, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_11308\_F\_1\_3 Wrong Enterprise No. $\)**|Specifies if you want to print the report that has erroneous enterprise numbers.|  
     |**\($ R\_11308\_F\_1\_5 VAT Annual Listing $\)**|Specifies if you want to print the **VAT Annual Listing** report.|  
@@ -70,7 +70,7 @@ The VAT reporting feature enables you to print VAT transaction details. You must
   
 2.  In the **\($ R\_11309 VAT Annual Listing – Disk $\)** window, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Year**|Enter the year of the VAT declaration. You should enter the year as a four digit code. For example, to print a declaration for 2013, you should enter "2013" \(instead of "13"\).|  
     |**Minimum**|Enter the customer's minimum year balance to be included in the report.<br /><br /> If the yearly balance of the customer is less than the minimum amount, the customer will not be included in the declaration.|  

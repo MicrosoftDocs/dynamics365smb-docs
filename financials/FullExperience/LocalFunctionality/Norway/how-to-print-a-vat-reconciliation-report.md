@@ -24,7 +24,7 @@ The **VAT Reconciliation** report shows the reconciliation settlement for the ba
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_10630\_N\_2\_1101100010 Show Details $\)**|Select if you want to include individual transactions.<br /><br /> If cleared, only one accumulated total will be printed for each account.|  
     |**\($ R\_10630\_N\_2\_1101100012 Show Transactions without VAT $\)**|Select if you want to print a list of all transactions without VAT amounts.|  

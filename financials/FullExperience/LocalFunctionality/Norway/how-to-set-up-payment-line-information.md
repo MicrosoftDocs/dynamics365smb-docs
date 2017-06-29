@@ -26,7 +26,7 @@ Payment journal line information for the remittance payment is set up in the **P
   
 3.  In the **Payment Info** window, on the **General** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Remittance Account Code**|Select the remittance account code.|  
     |**Remittance Agreement Code**|Specify the agreement code assigned to the account code.|  
@@ -34,7 +34,7 @@ Payment journal line information for the remittance payment is set up in the **P
   
 4.  On the **Domestic** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ T\_81\_15000004 Recipient Ref. 1 – 3 $\)**|Specify the payment text which is sent to the vendor.|  
     |**KID \(Cust. id number\)**|Specify the number sent to the vendor during payment.|  
@@ -47,7 +47,7 @@ Payment journal line information for the remittance payment is set up in the **P
   
 5.  On the **Foreign** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Recipient Ref. Abroad**|Specify the payment text that is sent to the vendor.|  
     |**Payment Type Code Abroad**|Specify the payment type code that is assigned to the payment.|  

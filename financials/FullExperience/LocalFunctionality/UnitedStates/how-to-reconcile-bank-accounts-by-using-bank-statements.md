@@ -22,7 +22,7 @@ translation.priority.ht:
   - "fr-ca"
 ---
 # How to: Reconcile Bank Accounts by Using Bank Statements
-[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] provides a **Bank Rec.Worksheet** that you can use to reconcile bank account ledger entries with bank statements.  
+ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> provides a **Bank Rec.Worksheet** that you can use to reconcile bank account ledger entries with bank statements.  
   
 ### To reconcile bank accounts with bank statements  
   
@@ -32,7 +32,7 @@ translation.priority.ht:
   
 3.  On the **General** FastTab, fill in the required fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Bank Account No.**|The bank account number to reconcile.|  
     |**Statement No.**|The bank statement number to reconcile.|  
@@ -44,9 +44,9 @@ translation.priority.ht:
     > [!NOTE]  
     >  In the **Functions** group, you can also select the following bank reconciliation functions: suggest lines, clear lines, record adjustments, and recalculate the general ledger balance.  
   
-5.  In the **Bank Rec. Process Lines** batch job, on the **[!INCLUDE[bp_optionsheading](../../DesignAndEngineering/includes/bp_optionsheading_md.md)]** FastTab, fill in the fields as described in the following table.  
+5.  In the **Bank Rec. Process Lines** batch job, on the **ADD INCLUDE<!--[!INCLUDE[bp_optionsheading](../../DesignAndEngineering/includes/bp_optionsheading_md.md)]-->** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Record type to process**|Specify the type as **Checks**, **Deposits**, or **Both**.|  
     |**Mark lines as cleared**|Select to process the option selected in the **Record type to process** field.|  

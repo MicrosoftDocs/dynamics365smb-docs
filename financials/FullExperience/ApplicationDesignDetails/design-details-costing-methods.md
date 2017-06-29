@@ -41,9 +41,9 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Design Details: Costing Methods
-The costing method determines if an actual or a budgeted value is capitalized and used in the cost calculation. Together with the posting date and sequence, the costing method also influences how the cost flow is recorded. The following methods are supported in [!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)]:  
+The costing method determines if an actual or a budgeted value is capitalized and used in the cost calculation. Together with the posting date and sequence, the costing method also influences how the cost flow is recorded. The following methods are supported in ADD INCLUDE<!--[!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)]-->:  
   
-|Costing method|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|When to use|  
+|Costing method|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|When to use|  
 |--------------------|---------------------------------------|-----------------|  
 |FIFO|An item’s unit cost is the actual value of any receipt of the item, selected by the FIFO rule.<br /><br /> In inventory valuation, it is assumed that the first items placed in inventory are sold first.|In business environments where product cost is stable.<br /><br /> \(When prices are rising, the balance sheet shows greater value. This means that tax liabilities increase, but credit scores and the ability to borrow cash improve.\)<br /><br /> For items with a limited shelf life, because the oldest goods need to be sold before they pass their sell\-by date.|  
 |LIFO|An item’s unit cost is the actual value of any receipt of the item, selected by the LIFO rule.<br /><br /> In inventory valuation, it is assumed that the last items placed in inventory are sold first.|Disallowed in many countries\/regions, as it can be used to depress profit.<br /><br /> \(When prices are rising, the value on the income statement decreases. This means that tax liabilities decrease, but the ability to borrow cash deteriorates.\)|  

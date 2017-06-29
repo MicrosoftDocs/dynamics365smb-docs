@@ -50,7 +50,7 @@ The **Advance Statement** report enables you to print and view information about
   
 3.  The **Resp. Employee Card** window contains the following information entered manually or from the corresponding glossary and settings.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**No.**|Specifies the value that is filled automatically from the **Employee Card** window, or is entered manually.|  
     |**Name, \($ T\_23\_4 Name2 $\)**|Specifies the value that is filled automatically from similar fields in the **Employee Card** window or is entered manually.|  
@@ -124,7 +124,7 @@ The **Advance Statement** report enables you to print and view information about
   
      The **Advance Statement** window contains the following information in the **General** FastTab, in the header, entered manually or filled in from the corresponding glossary and settings.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**No.**|Specifies the number of the advance statement, which is calculated automatically. The number depends on the value of the **Advance Statement Nos.** field that was specified in the **Purchases & Payables Setup** window on the **Advance Statement** FastTab.|  
     |**Posting Date**,<br /><br /> **Document Date**|Specifies the posting date and document date. By default, these fields are filled in with the value from the work date. It can also be filled in manually.|  
@@ -137,14 +137,14 @@ The **Advance Statement** report enables you to print and view information about
   
 2.  The **Advance Statement** window contains the following information in the **Statement** FastTab in the header, entered manually or filled in from the corresponding glossary and settings.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**No. of Documents**, **No. of Pages**|Specifies the number of documents that confirm expenses and number of pages of these documents. The fields are filled in manually with numeric values.|  
     |**Remaining or Overdraft Doc. No.**|Specifies the cash document that closes the remaining or overdraft amount for this advance statement. A payment document is selected from the vendor ledger entries of the responsible employee.|  
   
      The **Advance statement** window contains the following information from the expense lines that are created.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Type**|Select G\/L Account, Item, Fixed Asset, Charge \(Item\), Empl. Purchase depending on the type of expenses.|  
     |**No.**|If Type \= **G\/L Account**:<br /><br /> In the **No.** field, select a general ledger account from the General Ledger Account List glossary.<br /><br /> If Type \= **Item**:<br /><br /> In the **No.** field, select an Item card from the Item List glossary.<br /><br /> If Type \= **Fixed Asset**:<br /><br /> In the **No.** field, select a Fixed Asset card from the Fixed Asset List glossary.<br /><br /> If Type \= **Charge \(Item\)**:<br /><br /> In the **No.** field, select an item charge from the Item Charges and Fixed Asset Charges glossary.|  
@@ -172,7 +172,7 @@ The **Advance Statement** report enables you to print and view information about
   
 3.  On the **Purchase Header** FastTab, apply the following filters.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|Filter|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|Filter|  
     |---------------------------------|------------|  
     |**No.**|This field contains the unposted advance statement number. By default, a value from the open document is entered.|  
     |**Document Type**|This field is filled in automatically.|  
@@ -209,7 +209,7 @@ The **Advance Statement** report enables you to print and view information about
   
 3.  On the **Purch. Inv. Header** tab of the report, apply the following filters.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]Field|Filter|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->Field|Filter|  
     |--------------------------------------|------------|  
     |**No.**|This field contains the number of the posted advance statement. By default, this value is entered from the open document.|  
   

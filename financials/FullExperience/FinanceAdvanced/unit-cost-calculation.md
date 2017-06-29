@@ -35,10 +35,10 @@ As a rule, the value in the Unit Cost field on the item card is based on the sta
 ## Unit Cost Calculation for Purchases  
  When you purchase items, the value in the **Last Direct Cost** field on the item card is copied to the Direct Unit Cost field on a purchase line or to the Unit Amount line on an item journal line.  
   
- What you select in the **Costing Method** field influences how [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] calculates the contents of the **Unit Cost** field on the lines.  
+ What you select in the **Costing Method** field influences how ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> calculates the contents of the **Unit Cost** field on the lines.  
   
 ### Costing Method FIFO, LIFO, Specific, or Average  
- [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] calculates the contents of the Unit Cost \(LCY\)%20$\).md) field on the purchase line or the contents of the Unit Cost field on the item journal line according to the following formula:  
+ ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> calculates the contents of the Unit Cost \(LCY\)%20$\).md) field on the purchase line or the contents of the Unit Cost field on the item journal line according to the following formula:  
   
  Unit Cost \(LCY\) \= \(Direct Unit Cost – \(Discount Amount\/ Quantity\)\) \* \(1 \+ Indirect Cost %" \/ 100\)\) \+ Overhead Rate  
   
@@ -53,7 +53,7 @@ As a rule, the value in the Unit Cost field on the item card is based on the sta
 ## Unit Cost Calculation for Sales  
  When you sell items, the unit cost is copied from the Unit Cost field on the item card to the sales line or the item journal line.  
   
- When you post, the unit cost is copied to the sales invoice item entry, and it can be seen on the entry list for the item. [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] uses the unit cost from the source document line to calculate the contents of the Cost Amount \(Actual\)%20$\).md) field, or if applicable, the Cost Amount \(Expected\)%20$\).md) field in the value entry related to this item entry.  
+ When you post, the unit cost is copied to the sales invoice item entry, and it can be seen on the entry list for the item. ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> uses the unit cost from the source document line to calculate the contents of the Cost Amount \(Actual\)%20$\).md) field, or if applicable, the Cost Amount \(Expected\)%20$\).md) field in the value entry related to this item entry.  
   
 ## See Also  
  Costing Method   

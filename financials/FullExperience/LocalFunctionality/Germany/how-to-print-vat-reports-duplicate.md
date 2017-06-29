@@ -16,7 +16,7 @@ translation.priority.ht:
   - "de-de"
 ---
 # How to: Print VAT Reports-duplicate
-[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] includes VAT reports that you can use to submit information about VAT to the authorities. The following VAT reports are available for Germany:  
+ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> includes VAT reports that you can use to submit information about VAT to the authorities. The following VAT reports are available for Germany:  
   
 -   **Sales VAT Adv. Not. Acc. Proof**  
   
@@ -34,7 +34,7 @@ translation.priority.ht:
   
 3.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_11009\_N\_2\_1140011 Starting Date $\)**|Sets the start date.|  
     |**\($ R\_11009\_N\_2\_1140009 Ending Date $\)**|Sets the end date.|  
@@ -64,7 +64,7 @@ translation.priority.ht:
   
 2.  In the **VAT Statement Germany** batch job, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_11005\_N\_2\_1140013 Starting Date $\)**|Sets the start date.|  
     |**\($ R\_11005\_N\_2\_1140011 Ending Date $\)**|Sets the end date.|  

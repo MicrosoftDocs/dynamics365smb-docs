@@ -39,7 +39,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Handle Customer Inquiries
-A service management application must interface with a customer request for service. That service request usually is translated into a service order. [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] provides tools to create an order both directly in response to a customer request or as part of the contract process, if that is how your application is set up.  
+A service management application must interface with a customer request for service. That service request usually is translated into a service order. ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> provides tools to create an order both directly in response to a customer request or as part of the contract process, if that is how your application is set up.  
   
  If needed, you can manage a loaner program for your customers. You can also determine your pricing structure, put service pricing offerings into logical groupings, and create price adjustments.  
   

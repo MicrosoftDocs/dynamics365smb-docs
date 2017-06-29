@@ -61,7 +61,7 @@ The main purpose of cost adjustment is to forward cost changes from cost sources
 ## Detecting the Adjustment  
  The task of detecting if cost adjustment should occur is primarily performed by the Item Jnl.\-Post Line routine, while the task of calculating and generating cost adjustment entries is performed by the **Adjust Cost – Item Entries** batch job.  
   
- To be able to forward costs, the detection mechanism determines which sources have changed in costs and to which destination these costs should be forwarded. The following three detection functions exist in [!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)]:  
+ To be able to forward costs, the detection mechanism determines which sources have changed in costs and to which destination these costs should be forwarded. The following three detection functions exist in ADD INCLUDE<!--[!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)]-->:  
   
 -   Item Application Entry  
   
@@ -107,7 +107,7 @@ The main purpose of cost adjustment is to forward cost changes from cost sources
   
  Because it is important to keep the unit cost of an item up to date, it is recommend that you run the **Adjust Cost \- Item Entries** batch job as often as possible, during nonworking hours. Alternatively, use automatic cost adjustment. This ensures that the unit cost is updated for items daily.  
   
- Regardless if you run the cost adjustment manually or automatically, the adjustment process and its consequences are the same. [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] calculates the value of the inbound transaction and forwards that cost to any outbound transactions, such as sales or consumptions, which have been applied to the inbound transaction. The cost adjustment creates value entries that contain adjustment amounts and amounts that compensate for rounding.  
+ Regardless if you run the cost adjustment manually or automatically, the adjustment process and its consequences are the same. ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> calculates the value of the inbound transaction and forwards that cost to any outbound transactions, such as sales or consumptions, which have been applied to the inbound transaction. The cost adjustment creates value entries that contain adjustment amounts and amounts that compensate for rounding.  
   
  The new adjustment and rounding value entries have the posting date of the related invoice. Exceptions are if the value entries fall in a closed accounting period or inventory period or if the posting date is earlier than the date in the **Allow Posting From** field in the **General Ledger Setup** window. If this occurs, the batch job assigns the posting date as the first date of the next open period.  
   
@@ -175,7 +175,7 @@ The main purpose of cost adjustment is to forward cost changes from cost sources
 ## Automatic Cost Adjustment  
  To set up cost adjustment to run automatically when you post an inventory transaction, use the **Automatic Cost Adjustment** field in the **Inventory Setup** window. This field enables you to select how far back in time from the current work date that you want automatic cost adjustment to be performed. The following options exist.  
   
-|[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)]|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+|ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../ApplicationDesign/includes/bp_tableoption_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
 |----------------------------------|---------------------------------------|  
 |Never|Costs are not adjusted when you post.|  
 |Day|Costs are adjusted if posting occurs within one day from the work date.|  

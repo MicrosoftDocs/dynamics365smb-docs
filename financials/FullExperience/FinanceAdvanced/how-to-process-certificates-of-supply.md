@@ -81,7 +81,7 @@ When you sell goods to a customer in another EU country\/region, you must send t
   
 4.  To include information from the lines on the shipment document in the certificate, select the **Print Line Details** check box.  
   
-5.  Select the **Create Certificates of Supply if Not Already Created** check box to have [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] create certificates for posted shipments that do not have one at the moment of execution. When you select the check box, new certificates will be created for all posted shipments that do not have certificates within the selected range  
+5.  Select the **Create Certificates of Supply if Not Already Created** check box to have ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> create certificates for posted shipments that do not have one at the moment of execution. When you select the check box, new certificates will be created for all posted shipments that do not have certificates within the selected range  
   
 6.  By default, the filter settings are for the shipment document that you have selected. Fill in the filter information to select a specific certificate of supply that you want to print.  
   
@@ -101,7 +101,7 @@ When you sell goods to a customer in another EU country\/region, you must send t
   
      If the customer has returned the signed certificate of supply, choose **Received**. The **Receipt Date** field is updated. By default, the receipt date is set to the current work date.  
   
-     You can modify the date to reflect the date that you received the customer's signed certificate of supply. You can also add a link to the signed certificate using standard [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] linking.  
+     You can modify the date to reflect the date that you received the customer's signed certificate of supply. You can also add a link to the signed certificate using standard ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> linking.  
   
      If the customer does not return the signed certificate of supply, choose **Not Received**. You must then send the customer a new invoice that includes VAT, because the original invoice will not be accepted by the tax authority.  
   

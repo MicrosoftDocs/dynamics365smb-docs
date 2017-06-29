@@ -41,7 +41,7 @@ translation.priority.ht:
 # Monitor and Implement Contracts
 After you have set up a system to initiate and maintain service contracts, you can also monitor and implement the contracts. You can convert quotes into a service contract. Then you can create a service order from a contract by using the **Create Contract Service Orders** batch job. When the order is created, service starts.  
   
- In addition, you can adjust the accounting that is related to service contracts that have an annual amount billing. You can adjust it manually, or set up [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] to do this automatically.  
+ In addition, you can adjust the accounting that is related to service contracts that have an annual amount billing. You can adjust it manually, or set up ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> to do this automatically.  
   
  The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
   

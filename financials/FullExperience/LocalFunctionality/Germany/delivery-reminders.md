@@ -42,7 +42,7 @@ Delivery reminders are used to track overdue vendor shipments, and to remind ven
   
  You can also track documents in relation to purchase order lines and sales order lines.  
   
- [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] provides the following reports:  
+ ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> provides the following reports:  
   
  **Issued Delivery Reminder**  
  To view the delivery reminders for vendors.  

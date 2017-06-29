@@ -17,8 +17,8 @@ manager: "terryaus"
 # Electronic Funds Transfer (EFT)
 You can pay vendors using the electronic funds transfer \(EFT\) system in Australia.  
   
-## Setting up Electronic Funds Transfer in [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]  
- [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] can export EFT files that you can then upload to your bank’s website for additional processing. To submit EFT files, you must set up the following information:  
+## Setting up Electronic Funds Transfer in ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->  
+ ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> can export EFT files that you can then upload to your bank’s website for additional processing. To submit EFT files, you must set up the following information:  
   
 -   You must add EFT information to the bank account or bank accounts that you will use to pay vendors electronically. The EFT\-specific fields are on the **Transfer** FastTab in the Bank Account Card window.  
   

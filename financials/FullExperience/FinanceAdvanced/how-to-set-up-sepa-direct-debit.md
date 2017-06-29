@@ -39,9 +39,9 @@ translation.priority.ht:
 From the **Direct Debit Collections** window, you can export instructions to your electronic bank to perform a direct debit collection from the customer’s bank account to your bank account. For more information, see [Collect Payments with SEPA Direct Debit](../Finance/collect-payments-with-sepa-direct-debit.md).  
   
 > [!NOTE]  
->  The generic version of [!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)] supports the SEPA Credit Transfer format. In your country\/region, other formats for electronic payments may be available.  
+>  The generic version of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)]--> supports the SEPA Credit Transfer format. In your country\/region, other formats for electronic payments may be available.  
 >   
->  To enable export of a bank file formats that are not supported by the generic or local versions of [!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)], you can set up a data exchange definition by using the Date Exchange Framework. For more information, see [How to: Set Up Data Exchange Definitions](../BusinessFunctionality/DataExchange/how-to-set-up-data-exchange-definitions.md).  
+>  To enable export of a bank file formats that are not supported by the generic or local versions of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)]-->, you can set up a data exchange definition by using the Date Exchange Framework. For more information, see [How to: Set Up Data Exchange Definitions](../BusinessFunctionality/DataExchange/how-to-set-up-data-exchange-definitions.md).  
   
  Before you can process customer payments electronically by exporting direct debit instructions in the SEPA Direct Debit format, you must perform the following setup steps:  
   
@@ -67,7 +67,7 @@ From the **Direct Debit Collections** window, you can export instructions to you
   
 3.  Set up a payment method. Fill in the direct debit\-specific fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Direct Debit**|Specify if the payment method is for SEPA direct debit collection.|  
     |**Direct Debit Pmt. Terms Code**|Specify the payment terms, such as DON’T PAY, that are displayed on sales invoices that are paid with SEPA direct debit to indicate to the customer that the payment will be collected automatically. Alternatively, leave the field empty.|  
@@ -97,7 +97,7 @@ From the **Direct Debit Collections** window, you can export instructions to you
   
 5.  In the **SEPA Direct Debit Mandates** window, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Customer Bank Account Code**|Specifies the bank account from which direct\-debit payments are collected. This field is filled automatically.|  
     |**Valid From**|Specify the date when the direct\-debit mandate starts.|  

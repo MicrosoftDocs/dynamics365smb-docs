@@ -39,7 +39,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Finalize Service and Invoice
-Ease in invoicing your service orders is a key feature of [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]. You can send an invoice to your customers at any time, or create invoices periodically.  
+Ease in invoicing your service orders is a key feature of ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]-->. You can send an invoice to your customers at any time, or create invoices periodically.  
   
  To create an invoice directly, you can use the **Service Contract** window. You can also set up your system so that a service technician in the field can create an invoice for service that is not connected to a contract or order.  
   

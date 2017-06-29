@@ -19,7 +19,7 @@ translation.priority.ht:
   - "ru-ru"
 ---
 # How to: Create and Print General Ledger Account Turnover
-[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] enables you to create general ledger account turnover information in the **G\/L Account Turnover** window.  
+ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> enables you to create general ledger account turnover information in the **G\/L Account Turnover** window.  
   
  You can then verify this information in the following reports:  
   
@@ -35,7 +35,7 @@ translation.priority.ht:
   
 2.  On the **General** FastTab, enter the following information.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Date Filter**|Enter the date filter for which you want to view account information.|  
     |**Business Unit Filter**|Select the business unit filter for which you want to view account information.|  
@@ -45,7 +45,7 @@ translation.priority.ht:
   
      On the **Source** FastTab, enter the following information.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Source Type Filter**|Specify the source type filter for which you want to view account information.|  
     |**Source No. Filter**|Select the source number filter for which you want to view account information.|  
@@ -56,7 +56,7 @@ translation.priority.ht:
   
 2.  On the **Options** FastTab, enter the following information.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_12436\_N\_2\_5 Rounding Precision $\)**|Specify the interval that you want to use as the rounding difference for the relevant currency.|  
     |**\($ R\_12436\_N\_2\_7 Replace zero values by blanks $\)**|Select if you want to replace zero values with a blank entry.|  
@@ -70,7 +70,7 @@ translation.priority.ht:
   
 2.  On the **Options** FastTab, enter the following information.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_12437\_N\_2\_1210004 Show Correspondence $\)**|Select if you want to show general ledger correspondence information on the report.|  
     |**\($ R\_12437\_N\_2\_1210002 New Page for GL Acc $\)**|Select if you want to print a new page for each general ledger account.|  
@@ -82,7 +82,7 @@ translation.priority.ht:
   
 2.  On the **Options** FastTab, enter the following information.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_12438\_N\_2\_7 Without Zero Net Changes $\)**|Select to include the entries that do not have zero net changes.|  
     |**\($ R\_12438\_N\_2\_9 Without Zero Lines $\)**|Select to include the entries that do not have zero lines.|  

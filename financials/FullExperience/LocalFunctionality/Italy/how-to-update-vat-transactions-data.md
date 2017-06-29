@@ -31,15 +31,15 @@ Before you create the first VAT transaction report, you should prepare the exist
   
 3.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_12190\_N\_2\_1130008 Compare against Threshold $\)**|Select to compare VAT entries against the threshold amounts that are specified in the VAT posting setup.|  
-    |**\($ R\_12190\_N\_2\_1130000 Show List Only $\)**|Select if you do not want to update data.<br /><br /> If you select this field, [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] prints a report so that you can verify the changes before data is modified. The report contains a line for each document where the VAT base is equal to or greater than the threshold amounts. **Warning:**  Do not select both this field and the **Set Include in VAT Transaction Report** field.|  
+    |**\($ R\_12190\_N\_2\_1130000 Show List Only $\)**|Select if you do not want to update data.<br /><br /> If you select this field, ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> prints a report so that you can verify the changes before data is modified. The report contains a line for each document where the VAT base is equal to or greater than the threshold amounts. **Warning:**  Do not select both this field and the **Set Include in VAT Transaction Report** field.|  
     |**\($ R\_12190\_N\_2\_1130004 Set Include in VAT Transaction Report $\)**|Select to set the **Include in VAT Trans. Report** to **Yes** on all VAT entries where the amounts meet the threshold amounts that are specified in the VAT posting setup. **Warning:**  If you select this field, your data is updated. You should run the report as a test before you run it to change data.|  
   
 4.  Choose the **Print** button to update VAT transaction data, or choose the **Preview** button to view the changes.  
   
- When you run the report, [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] processes VAT entries based on the filters that you set. The following rules are also applied:  
+ When you run the report, ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> processes VAT entries based on the filters that you set. The following rules are also applied:  
   
 -   The **Blacklisted** field for the VAT entry must be blank.  
   

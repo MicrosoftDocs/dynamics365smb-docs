@@ -27,7 +27,7 @@ In Belgium, you must have a third\-party declarant fill out the Intrastat declar
   
 3.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_593\_F\_1\_1010012 Nihil declaration $\)**|Select if you do not have any trade transactions with European Union \(EU\) countries\/regions and want to send an empty declaration.|  
     |**\($ B\_593\_F\_1\_1010007 Enterprise No.\/VAT Reg. No. $\)**|Enter the enterprise or VAT registration number.|  

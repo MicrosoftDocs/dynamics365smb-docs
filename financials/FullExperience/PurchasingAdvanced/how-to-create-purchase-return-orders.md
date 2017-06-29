@@ -60,7 +60,7 @@ If you have agreed with your vendor to return a purchased item that you are diss
   
 6.  Fill in the lines manually, or use one of the following functions to copy information from other documents.  
   
-    |**Function**|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |**Function**|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |------------------|---------------------------------------|  
     |**Get Posted Document Lines to Reverse**|Copies lines of one or more posted documents to be reversed.|  
     |**Copy Document**|Copies both the header and lines of one posted or open document to be reversed.<br /><br /> Requires that the **Exact Cost Reversing Mandatory** check box is selected in the **\($ N\_460 Purchases & Payables Setup $\)** window.|  

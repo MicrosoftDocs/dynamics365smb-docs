@@ -42,14 +42,14 @@ translation.priority.ht:
 # How to: Export Payments to a Bank File
 When you are ready to make payments to your vendors using the **Payment Journal** window, you can export a file with the payment information on the journal lines. You can then upload the file to your electronic bank to process the related money transfers.  
   
- In the generic version of [!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)], a global provider of services to convert bank data to any file format that your bank requires is set up and connected.  
+ In the generic version of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)]-->, a global provider of services to convert bank data to any file format that your bank requires is set up and connected.  
   
 > [!NOTE]  
 >  The bank data conversion service may impose a limit on the number of lines that can be exported in one file. You will receive an error message if the limit is exceeded.  
   
- In addition, the generic version of [!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)] supports the SEPA Credit Transfer format. In your country\/region, other formats for electronic payments may be available. For more information, see [Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](../../Finance/make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
+ In addition, the generic version of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)]--> supports the SEPA Credit Transfer format. In your country\/region, other formats for electronic payments may be available. For more information, see [Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](../../Finance/make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
   
- To enable export of a bank file formats that are not supported by the generic or local versions of [!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)], you can use the Date Exchange Framework. For more information, see [How to: Set Up Data Exchange Definitions](../../BusinessFunctionality/DataExchange/how-to-set-up-data-exchange-definitions.md).  
+ To enable export of a bank file formats that are not supported by the generic or local versions of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)]-->, you can use the Date Exchange Framework. For more information, see [How to: Set Up Data Exchange Definitions](../../BusinessFunctionality/DataExchange/how-to-set-up-data-exchange-definitions.md).  
   
  Before you can export from a payment journal, you must enable export on the related journal batch. In addition, you bank account and the vendor’s bank account must be set up for electronic payment. For more information, see [How to: Set Up SEPA Credit Transfer](../../BusinessFunctionality/DataExchange/how-to-set-up-sepa-credit-transfer.md) or [How to: Set Up the Bank Data Conversion Service](../../BusinessFunctionality/DataExchange/how-to-set-up-the-bank-data-conversion-service.md).  
   

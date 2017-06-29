@@ -17,7 +17,7 @@ translation.priority.ht:
   - "fr-fr"
 ---
 # France Local Functionality
-The following topics describe the local functionality in the French version of [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)].  
+The following topics describe the local functionality in the French version of ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->.  
   
 ## In This Section  
  [What's New\-duplicate 6](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/what-s-new-duplicate-6.md)  

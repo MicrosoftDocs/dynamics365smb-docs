@@ -16,7 +16,7 @@ translation.priority.ht:
   - "ru-ru"
 ---
 # How to: Register VAT on Purchase Orders
-In Russia, organizations are required to keep a journal of received and issued VAT invoices. [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] enables you to register VAT on purchase orders so that the information is tracked in the VAT invoices journal.  
+In Russia, organizations are required to keep a journal of received and issued VAT invoices. ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> enables you to register VAT on purchase orders so that the information is tracked in the VAT invoices journal.  
   
 ### To register VAT on a purchase order  
   
@@ -24,14 +24,14 @@ In Russia, organizations are required to keep a journal of received and issued V
   
 2.  On the **Shipping** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Vendor Receipts No.**|Enter the identification number from the vendor receipt.|  
     |**Vendor Receipts Date**|Enter the date from the vendor receipt.|  
   
 3.  On the **VAT** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Vendor VAT Invoice No.**|Enter the invoice number from the original VAT transaction.|  
     |**Vendor VAT Invoice Date**|Enter the invoice date from the original VAT transaction.|  

@@ -39,7 +39,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Set Up Loaner Program
-Sometimes you must provide a customer a loaner item for use when your customer service team makes a repair. Using [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)], you can set up a loaner program, loan your customers items, and track the receipt of the items back.  
+Sometimes you must provide a customer a loaner item for use when your customer service team makes a repair. Using ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]-->, you can set up a loaner program, loan your customers items, and track the receipt of the items back.  
   
  In addition, you may choose to add notes about loaners, by using one of two ways to register comments:  
   

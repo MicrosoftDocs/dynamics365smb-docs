@@ -20,7 +20,7 @@ translation.priority.ht:
   - "ru-ru"
 ---
 # How to: View and Print Account Turnover Information
-[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] enables you to view account turnover information in correspondence with other accounts.  
+ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> enables you to view account turnover information in correspondence with other accounts.  
   
 ### To view account turnover information  
   
@@ -28,7 +28,7 @@ translation.priority.ht:
   
 2.  On the **General** FastTab, enter the following information.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Date Filter**|Enter the date filter for which you want to view account information.|  
     |**Business Unit Filter**|Select the business unit filter for which you want to view account information.|  
@@ -42,7 +42,7 @@ translation.priority.ht:
   
 2.  On the **Options** FastTab, enter the following information.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_12431\_F\_1\_2 Period Beginning $\)**|Select the start date for the information that you want to include in the report.|  
     |**\($ R\_12431\_F\_1\_4 Ending of Period $\)**|Select the end date for the information that you want to include in the report.|  

@@ -17,7 +17,7 @@ translation.priority.ht:
   - "fr-ch"
 ---
 # How to: Create and Print a Swiss VAT Statement
-Based on the information that you have specified in the **VAT Posting Setup** window, [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] can automatically create a new VAT Statement Setup for realized VAT reporting. Before proceeding with the procedures in this topic, make sure that you have set up VAT posting setup with values specified for the sales and purchase cipher fields.  
+Based on the information that you have specified in the **VAT Posting Setup** window, ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> can automatically create a new VAT Statement Setup for realized VAT reporting. Before proceeding with the procedures in this topic, make sure that you have set up VAT posting setup with values specified for the sales and purchase cipher fields.  
   
 ### To set up a Swiss VAT statement template  
   
@@ -37,7 +37,7 @@ Based on the information that you have specified in the **VAT Posting Setup** wi
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_26100\_F\_1\_1150062 Starting Date $\)**|Enter the date that you want the time interval for VAT statement lines that appear in the report to start.|  
     |**\($ R\_26100\_F\_1\_1150080 Ending Date $\)**|Enter the date that you want the time interval for VAT statement lines that appear in the report to end.|  

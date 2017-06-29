@@ -15,7 +15,7 @@ ms.author: "edupont"
 manager: "edupont"
 ---
 # How to: Set Up Standard Sales or Purchase Lines
-In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can specify how the standard sales or purchase codes will be entered when you are creating the specified sales or purchase documents.  
+In ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->, you can specify how the standard sales or purchase codes will be entered when you are creating the specified sales or purchase documents.  
   
  The following procedure describes how to set up a standard sales line, but the same steps apply to setting up standard purchase lines in the **\($ N\_460 Purchases & Payables Setup $\)** window.  
   
@@ -25,7 +25,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can sp
   
 2.  On the **Std. Customer Sales Codes** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Insert Std. Cust. Sales Lines**|Specify the method by which to insert the standard customer sales lines.<br /><br /> -   **Manual** \- You must insert the standard sales lines that you set up for that customer. If you select this option, then you will not be able to select the **Quotes**, **Orders**, **Invoices**, or **Credit Memos** fields in the **Sales & Receivables Setup** window.<br />-   **Automatic** \- Automatically insert standard sales lines on sales documents that you create for a customer.<br />-   **Always Ask** \- Display a window with all the existing standard sales codes that you set up for the customer.|  
     |**Quotes**|Select to insert standard sales lines on sales quotes.|  

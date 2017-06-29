@@ -29,7 +29,7 @@ You can make corrections to posted VAT entries without posting the correction in
   
 4.  On the **Home** tab, in the **Manage** group, choose **Edit List**. In the **Manual VAT Correction List** window, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Posting Date**|Enter the posting date of the VAT correction.|  
     |**Amount**|Enter the amount of the VAT correction. You must enter the correction amount, not the new amount. For example, if the amount is 1000.00 and should be 1200.00, enter 200.00.|  
@@ -41,7 +41,7 @@ You can make corrections to posted VAT entries without posting the correction in
   
 7.  To view a report related to the preview of the VAT information, on the **Home** tab, in the **Report** group, choose one of the following actions:  
   
-    |Action|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |Action|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |------------|---------------------------------------|  
     |**Detailed Report**|Opens the **VAT Statement** report. For more information, see VAT Statement.|  
     |**Form\/Intervat Declaration**|Opens the **VAT –Form** report. For more information, see VAT \- Form.<br /><br /> The **Form\/Intervat Declaration** report is based on the VAT Statement template that is defined in the general ledger setup. Therefore, it may export data that is not the same as what is shown in the **VAT Statement Preview** window.|  

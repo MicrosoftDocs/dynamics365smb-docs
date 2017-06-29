@@ -13,7 +13,7 @@ translation.priority.ht:
   - "ru-ru"
 ---
 # Batch Jobs-duplicate 22
-[!INCLUDE[bn_batchjobs](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/includes/bn_batchjobs_md.md)]  
+ADD INCLUDE<!--[!INCLUDE[bn_batchjobs](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Australia/includes/bn_batchjobs_md.md)]-->  
   
 ## See Also  
  [Russia Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/russia-local-functionality.md)

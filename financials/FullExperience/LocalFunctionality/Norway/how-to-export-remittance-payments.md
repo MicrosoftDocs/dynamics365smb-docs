@@ -38,7 +38,7 @@ You can use the export remittance payments process to export the payments file t
   
 4.  In the report window that opens, choose the **Options** FastTab, and fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_15000050\_F\_1\_13 Remittance agreement code $\)**|Specify the code for the agreement.|  
     |**\($ R\_15000050\_F\_1\_3 Operator $\)**|Specify the operator number.|  

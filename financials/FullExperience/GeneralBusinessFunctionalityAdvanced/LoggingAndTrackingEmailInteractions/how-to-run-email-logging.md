@@ -24,9 +24,9 @@ translation.priority.ht:
   - "sv-se"
 ---
 # How to: Run Email Logging
-Email logging can be used to capture email activities between a [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] salesperson or purchaser and a [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] contact. Both persons must have valid email addresses that are registered on the respective salesperson and contact cards.  
+Email logging can be used to capture email activities between a ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> salesperson or purchaser and a ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> contact. Both persons must have valid email addresses that are registered on the respective salesperson and contact cards.  
   
- You can create your email messages directly in Outlook, or you can create your messages in [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]. For more information, see [How to: Send Email Messages](../../WorkingWithDynamics/how-to-send-email-messages.md).  
+ You can create your email messages directly in Outlook, or you can create your messages in ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]-->. For more information, see [How to: Send Email Messages](../../WorkingWithDynamics/how-to-send-email-messages.md).  
   
 > [!IMPORTANT]  
 >  The interaction template associated with email logging must have the following characteristics:  
@@ -36,13 +36,13 @@ Email logging can be used to capture email activities between a [!INCLUDE[navnow
   
  When you can create email messages using the **Create Interactions** wizard, these interactions are automatically captured in the **Interactions Log Entries** window based on the interaction template that you used, which requires an attachment. If the correspondence type is E\-MAIL, you can still take advantage of email logging to create a storage location for your company's emails that is widely available for work sharing and transfer. Any interactions will also be captured in the log under the EMAIL Interaction Template code.  
   
- In order to use email logging, you will need sufficient permission sets. Consider using the permission sets BASIC and RM\-CONT as defined in the [!INCLUDE[demolong](../../ApplicationDesign/includes/demolong_md.md)].  
+ In order to use email logging, you will need sufficient permission sets. Consider using the permission sets BASIC and RM\-CONT as defined in the ADD INCLUDE<!--[!INCLUDE[demolong](../../ApplicationDesign/includes/demolong_md.md)]-->.  
   
 ### To automate and run email logging  
   
 1.  Start the job queue that you have specified to manage email logging. For more information, see [How to: Set Up Job Queues](../../SetupAndAdministration/how-to-set-up-job-queues.md) and [How to: Set Up Email Logging for use with the Job Queue](../../BusinessFunctionality/LoggingAndTrackingEmailInteractions/how-to-set-up-email-logging-for-use-with-the-job-queue.md).  
   
-2.  In your Outlook Sent folder, select the email messages that you want to use in email logging. The messages must be to or from a registered [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] salesperson or contact.  
+2.  In your Outlook Sent folder, select the email messages that you want to use in email logging. The messages must be to or from a registered ADD INCLUDE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)]--> salesperson or contact.  
   
 3.  Copy the emails messages to the queue folder that you have set up in Exchange public folders.  
   

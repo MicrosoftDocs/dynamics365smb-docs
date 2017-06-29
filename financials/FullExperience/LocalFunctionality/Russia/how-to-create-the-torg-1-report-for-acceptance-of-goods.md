@@ -23,7 +23,7 @@ The TORG\-1 report is used for the registration of incoming goods. This report l
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]-->|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_14918\_F\_1\_1210002 Show Actual Quantity $\)**|Specifies if the TORG\-1 report must include actual quantities for received items.|  
     |**\($ B\_14918\_F\_1\_1210000 Order No. $\)**|Specifies the document number.|  

@@ -29,7 +29,7 @@ Before you can post in a fiscal year, you must open the fiscal year and define i
   
 4.  Fill in the fields.  
   
-     [!INCLUDE[bp_fieldhelp]()]  
+     ADD INCLUDE<!--[!INCLUDE[bp_fieldhelp]()]-->  
   
 5.  Choose the **OK** button.  
   

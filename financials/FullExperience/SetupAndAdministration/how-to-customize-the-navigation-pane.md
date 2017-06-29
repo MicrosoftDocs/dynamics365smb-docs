@@ -43,7 +43,7 @@ translation.priority.ht:
 You can customize the navigation pane with the **Customize Navigation Pane** window.  
   
 > [!NOTE]  
->  Depending on the setting in the **UI Elements Removal** field in the [!INCLUDE[nav_admin](../BusinessFunctionality/LoggingAndTrackingEmailInteractions/includes/nav_admin_md.md)], only menus that you have permissions for will appear in the **Customize Navigation Pane** window. For more information, see [How to: Specify When UI Elements Are Removed](../Topic/How%20to:%20Specify%20When%20UI%20Elements%20Are%20Removed.md).  
+>  Depending on the setting in the **UI Elements Removal** field in the ADD INCLUDE<!--[!INCLUDE[nav_admin](../BusinessFunctionality/LoggingAndTrackingEmailInteractions/includes/nav_admin_md.md)]-->, only menus that you have permissions for will appear in the **Customize Navigation Pane** window. For more information, see [How to: Specify When UI Elements Are Removed](../Topic/How%20to:%20Specify%20When%20UI%20Elements%20Are%20Removed.md).  
   
 ### To start customizing the navigation pane window  
   
@@ -102,7 +102,7 @@ You can customize the navigation pane with the **Customize Navigation Pane** win
   
 -   In the **Customize** window, choose **Restore Defaults** and then choose the **OK** button.  
   
- Your changes will appear in the navigation pane when you restart [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)].  
+ Your changes will appear in the navigation pane when you restart ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]-->.  
   
 ## See Also  
  PERSONALIZATION Personalize the User Interface   

@@ -41,7 +41,7 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Date Calculation for Sales
-[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] automatically calculates the earliest possible date that an item on a sales order line can be shipped.  
+ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> automatically calculates the earliest possible date that an item on a sales order line can be shipped.  
   
  If the customer has requested a specific delivery date, then the date on which the items must be available to pick to meet that delivery date is calculated.  
   

@@ -76,13 +76,13 @@ As you grow your business, you will likely come to rely on a set of company type
   
 ### To create a company package  
   
-1.  Create a new [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] database. For more information, see [How to: Create Databases](../Topic/How%20to:%20Create%20Databases.md).  
+1.  Create a new ADD INCLUDE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]--> database. For more information, see [How to: Create Databases](../Topic/How%20to:%20Create%20Databases.md).  
   
 2.  Create a new company for the industry or solution template. For more information, see [How to: Create a New Company](../SetupAndAdministration/how-to-create-a-new-company.md).  
   
 3.  Setup the new company in the way you need. Fill in all required setup tables.  
   
-4.  Switch to the [!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)] and open the new company. Open the configuration worksheet.  
+4.  Switch to the ADD INCLUDE<!--[!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)]--> and open the new company. Open the configuration worksheet.  
   
 5.  Add the tables that you want to transfer to another company to the worksheet. Assign the worksheet lines to the package.  
   

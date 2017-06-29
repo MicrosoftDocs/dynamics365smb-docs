@@ -35,7 +35,7 @@ The Payment Management module allows you to export your payments electronically 
   
 5.  In the **Payment Step Card** window, fill in the fields.  
   
-     [!INCLUDE[bp_fieldhelp]()]  
+     ADD INCLUDE<!--[!INCLUDE[bp_fieldhelp]()]-->  
   
 6.  In the **Action Type** field, select **File**, and then in the **Export Type.** field, select **Report** or **XMLport**.  
   

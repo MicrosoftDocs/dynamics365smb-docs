@@ -36,9 +36,9 @@ translation.priority.ht:
   - "sv-se"
 ---
 # Manage Data Encryption
-You can encrypt data on the [!INCLUDE[nav_server](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_server_md.md)] by generating new or importing existing encryption keys that you enable on the [!INCLUDE[nav_server](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_server_md.md)] instance that connects to the database.  
+You can encrypt data on the ADD INCLUDE<!--[!INCLUDE[nav_server](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_server_md.md)]--> by generating new or importing existing encryption keys that you enable on the ADD INCLUDE<!--[!INCLUDE[nav_server](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_server_md.md)]--> instance that connects to the database.  
   
- If [!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)] is configured with multiple service tiers \([!INCLUDE[nav_server](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_server_md.md)] instances\), then you must first enable encryption on one server instance, and then export the key so it can be imported to other server instances where you enable encryption.  
+ If ADD INCLUDE<!--[!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)]--> is configured with multiple service tiers \(ADD INCLUDE<!--[!INCLUDE[nav_server](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_server_md.md)]--> instances\), then you must first enable encryption on one server instance, and then export the key so it can be imported to other server instances where you enable encryption.  
   
 > [!IMPORTANT]  
 >  If you export companies and other data that is secured by data encryption, then remember to also export the encryption key so that you can access the data after you import it into another database, for example when you restore a backup. Creating a backup of encrypted data involves the following high\-level steps.  
@@ -52,8 +52,8 @@ You can encrypt data on the [!INCLUDE[nav_server](../BusinessFunctionality/Integ
   
 |**To**|**See**|  
 |------------|-------------|  
-|Export a configuration key from one [!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)] server instance so that it can be imported on another server instance or to make a copy of the key.|[How to: Export and Import Encryption Keys](../SetupAndAdministration/how-to-export-and-import-encryption-keys.md)|  
-|Enable data encryption on a [!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)] server instance where an encryption key exists. Disable data encryption, for example to access a database for which you do not have the encryption key.|[How to: Enable and Disable Encryption Keys](../SetupAndAdministration/how-to-enable-and-disable-encryption-keys.md)|  
+|Export a configuration key from one ADD INCLUDE<!--[!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)]--> server instance so that it can be imported on another server instance or to make a copy of the key.|[How to: Export and Import Encryption Keys](../SetupAndAdministration/how-to-export-and-import-encryption-keys.md)|  
+|Enable data encryption on a ADD INCLUDE<!--[!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)]--> server instance where an encryption key exists. Disable data encryption, for example to access a database for which you do not have the encryption key.|[How to: Enable and Disable Encryption Keys](../SetupAndAdministration/how-to-enable-and-disable-encryption-keys.md)|  
   
 ## See Also  
  Encryption Enabled   

@@ -1,21 +1,20 @@
 ---
-title: "Fixed Asset Inventory"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "fixed asset inventory"
-  - "inventory, fixed assets"
-  - "fixed assets, inventory"
-ms.assetid: 3984a156-34d9-4457-a548-7a301298db13
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "ru-ru"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Fixed Asset Inventory
 The fixed assets inventory feature enables you to:  
   
@@ -87,10 +86,10 @@ The fixed assets inventory feature enables you to:
 ## Inventory Auditing of Fixed Assets  
  To begin inventory auditing of fixed assets, create the list of fixed assets to be inventoried in certain fixed asset locations, with calculated quantities and amounts, on the basis of system records.  
   
-## Fixed Asset Physical Inventory INV\-1 Report  
- You can print the Fixed Asset Physical Inventory INV\-1 report, which shows the list of fixed asset journal lines with all inventoried fixed assets filtered in the request form of the report. The report shows the calculated and actual quantities and amounts of inventoried fixed assets.  
+## Fixed Asset Physical Inventory INV-1 Report  
+ You can print the Fixed Asset Physical Inventory INV-1 report, which shows the list of fixed asset journal lines with all inventoried fixed assets filtered in the request form of the report. The report shows the calculated and actual quantities and amounts of inventoried fixed assets.  
   
- The following procedure shows how to print the Fixed Asset Physical Inventory INV\-1 report.  
+ The following procedure shows how to print the Fixed Asset Physical Inventory INV-1 report.  
   
 1.  On the **FA Journal Line** tab of the request form, filter the fixed asset journal lines to be included in the report.  
   
@@ -101,10 +100,10 @@ The fixed assets inventory feature enables you to:
   
 3.  On the **Options** tab, set other parameters for the report. All the parameters on this tab are shown on the printing form.  
   
-## Fixed Asset Comparative Sheet INV\-18 Report  
- The Fixed Asset Comparative Sheet INV\-18 report shows the list of fixed asset journal lines, but only those that have differences between calculated and actual quantities or amounts of inventoried fixed assets. The journal lines with inventoried fixed assets can be filtered in the request form of the report. The report shows the calculated and actual quantities and amounts of the inventoried fixed assets. You can print the Fixed Asset Comparative Sheet INV\-18 report.  
+## Fixed Asset Comparative Sheet INV-18 Report  
+ The Fixed Asset Comparative Sheet INV-18 report shows the list of fixed asset journal lines, but only those that have differences between calculated and actual quantities or amounts of inventoried fixed assets. The journal lines with inventoried fixed assets can be filtered in the request form of the report. The report shows the calculated and actual quantities and amounts of the inventoried fixed assets. You can print the Fixed Asset Comparative Sheet INV-18 report.  
   
- The procedure to print the Fixed Asset Comparative Sheet INV\-18 report is similar to the Fixed Asset Comparative Sheet INV\-1 report.  
+ The procedure to print the Fixed Asset Comparative Sheet INV-18 report is similar to the Fixed Asset Comparative Sheet INV-1 report.  
   
 ## See Also  
- [Fixed Asset Locations and Employees](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/fixed-asset-locations-and-employees.md)
+ [Fixed Asset Locations and Employees](../FullExperience/fixed-asset-locations-and-employees.md)

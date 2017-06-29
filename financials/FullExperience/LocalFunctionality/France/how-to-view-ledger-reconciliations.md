@@ -1,22 +1,22 @@
 ---
-title: "How to: View Ledger Reconciliations"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "reconciling, general ledger with customer and vendor ledgers"
-ms.assetid: c9be5147-d00a-4937-8d95-776b794513a7
-caps.latest.revision: 7
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "fr-fr"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: View Ledger Reconciliations
-[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] includes two reports that can help you reconcile general ledger entries with customer ledger entries and vendor ledger entries. The reports print a separate page for each customer or vendor that sums up amounts from general ledger transactions based on payments and posted invoices.  
+ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> includes two reports that can help you reconcile general ledger entries with customer ledger entries and vendor ledger entries. The reports print a separate page for each customer or vendor that sums up amounts from general ledger transactions based on payments and posted invoices.  
   
  The following procedure applies to viewing reconciliation between the general ledger and the customer ledger, but the same steps apply to reconciliation with the vendor ledger.  
   
@@ -24,9 +24,9 @@ translation.priority.ht:
   
 1.  In the **Search** box, enter **General Ledger**, and then choose the related link in **General Ledger**.  
   
-2.  Under **Reports**, under **France**, choose **\($ R\_10861 GL\/Cust. Ledger Reconciliation $\)**.  
+2.  Under **Reports**, under **France**, choose **GL\/Cust. Ledger Reconciliation**.  
   
-3.  In the **\($ R\_10861 GL\/Cust. Ledger Reconciliation $\)** window, set the appropriate filters.  
+3.  In the **GL\/Cust. Ledger Reconciliation** window, set the appropriate filters.  
   
     > [!NOTE]  
     >  You must specify a date filter.  
@@ -36,5 +36,5 @@ translation.priority.ht:
  You can now view the debit and credit amounts for each customer, and you can see the document numbers that resulted in each general ledger transaction.  
   
 ## See Also  
- [\($ R\_10861 General\-Customer Ledger Reconciliation $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/-$-r_10861-general-customer-ledger-reconciliation-$-.md)   
- [\($ R\_10863 General\-Vendor Ledger Reconciliation $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/-$-r_10863-general-vendor-ledger-reconciliation-$-.md)
+ General-Customer Ledger Reconciliation   
+ General-Vendor Ledger Reconciliation

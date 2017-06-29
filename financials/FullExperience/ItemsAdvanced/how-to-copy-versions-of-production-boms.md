@@ -1,20 +1,20 @@
 ---
-title: "How to: Copy Versions of Production BOMs"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "production BOMs, copying"
-ms.assetid: 5678881f-70ff-47d9-be17-3a138be6e68e
-caps.latest.revision: 7
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Copy Versions of Production BOMs
 When working with long production BOMs or slight changes in the versions, it is useful to copy an existing version of a production BOM into a new version or into an existing version. Already existing information on the lines is overwritten in the destination version.  
   
@@ -59,5 +59,5 @@ When working with long production BOMs or slight changes in the versions, it is 
 5.  Change the **Status** field to **Certified**.  
   
 ## See Also  
- [How to: Create Production BOMs](../DesignAndEngineering/how-to-create-production-boms.md)   
- [How to: Create New Versions of Production BOMs](../DesignAndEngineering/how-to-create-new-versions-of-production-boms.md)
+ [How to: Create Production BOMs](../FullExperience/how-to-create-production-boms.md)   
+ [How to: Create New Versions of Production BOMs](../FullExperience/how-to-create-new-versions-of-production-boms.md)

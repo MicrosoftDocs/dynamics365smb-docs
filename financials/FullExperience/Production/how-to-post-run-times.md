@@ -1,51 +1,26 @@
 ---
-title: "How to: Post Run Times"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "capacities, posting"
-  - "run time, posting capacities"
-  - "posting production orders, run time"
-ms.assetid: 4e670ff5-7494-4d04-ba87-e552ccdae84f
-caps.latest.revision: 9
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Post Run Times
 The run time represents work progress in the form of the necessary working time.  
   
 ### To post run time  
   
-1.  In the **Search** box, enter **\($ N\_99000823 Output Journal $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Output Journal**, and then choose the related link.  
   
 2.  In the **Posting Date** field, enter a posting date.  
   
@@ -61,12 +36,12 @@ The run time represents work progress in the form of the necessary working time.
   
 8.  If the operation is completed, select the **Finished** field.  
   
-9. If the warehouse location where the items should be put away uses bins but does not require put\-away processing, assign a bin code to the journal line to specify where the items should be placed in the warehouse. For more information, see [How to: Assign Bin Codes on Journal Lines](../Production/how-to-assign-bin-codes-on-journal-lines.md).  
+9. If the warehouse location where the items should be put away uses bins but does not require put-away processing, assign a bin code to the journal line to specify where the items should be placed in the warehouse. For more information, see [How to: Assign Bin Codes on Journal Lines](../FullExperience/how-to-assign-bin-codes-on-journal-lines.md).  
   
 10. On the **Actions** tab, in the **Posting** group, choose **Post** to post the operations. Choose the **Yes** button.  
   
 ## See Also  
- [How to: Register Consumption and Output](../Production/how-to-register-consumption-and-output.md)   
- [How to: Enter Master Data for Output Posting](../DesignAndEngineering/how-to-enter-master-data-for-output-posting.md)   
- [How to: Post Output Quantity](../Production/how-to-post-output-quantity.md)   
- [About Production Orders](../Production/about-production-orders.md)
+ [How to: Register Consumption and Output](../FullExperience/how-to-register-consumption-and-output.md)   
+ [How to: Enter Master Data for Output Posting](../FullExperience/how-to-enter-master-data-for-output-posting.md)   
+ [How to: Post Output Quantity](../FullExperience/how-to-post-output-quantity.md)   
+ [About Production Orders](../FullExperience/about-production-orders.md)

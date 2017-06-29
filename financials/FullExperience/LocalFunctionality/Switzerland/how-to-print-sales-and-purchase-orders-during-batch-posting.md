@@ -1,26 +1,20 @@
 ---
-title: "How to: Print Sales and Purchase Orders During Batch Posting"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "batch posting, sales orders"
-  - "posted sales orders"
-  - "batch posting, purchase orders"
-  - "posted purchase orders"
-ms.assetid: 85edcd97-e102-4b98-ba05-aced5937ad93
-caps.latest.revision: 25
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "fr-ch"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Print Sales and Purchase Orders During Batch Posting
 After sales orders and purchase orders are batch posted, you can print the corresponding posted documents.  
   
@@ -32,12 +26,12 @@ After sales orders and purchase orders are batch posted, you can print the corre
   
 2.  On the **Home** tab, in the **Process** group, choose **Post Batch**.  
   
-3.  In the **\($ B\_296 Batch Post Sales Orders $\)** window, on the **Options** FastTab, select the **Print** check box.  
+3.  In the **Batch Post Sales Orders** window, on the **Options** FastTab, select the **Print** check box.  
   
 4.  Optionally, on the **Options** FastTab, fill in the additional fields.  
   
 5.  To batch post and print the sales orders, choose the **OK** button.  
   
 ## See Also  
- [How to: Batch Post Sales Orders, Invoices, and Credit Memos](../../Finance/how-to-batch-post-sales-orders-invoices-and-credit-memos.md)   
- [How to: Batch Post Purchase Orders, Invoices, and Credit Memos](../../Finance/how-to-batch-post-purchase-orders-invoices-and-credit-memos.md)
+ [How to: Batch Post Sales Orders, Invoices, and Credit Memos](../FullExperience/how-to-batch-post-sales-orders-invoices-and-credit-memos.md)   
+ [How to: Batch Post Purchase Orders, Invoices, and Credit Memos](../FullExperience/how-to-batch-post-purchase-orders-invoices-and-credit-memos.md)

@@ -1,20 +1,20 @@
 ---
-title: "How to: Set Up Tax Register Sections"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "tax registers, sections"
-  - "tax registers, setting up"
-ms.assetid: bbff53ee-8f05-411b-a328-7a0a1f37df21
-caps.latest.revision: 3
-ms.author: "edupont"
-translation.priority.ht: 
-  - "ru-ru"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up Tax Register Sections
 You can either create a new tax register section or select a tax register section to be used in a company during the current taxation period. You can select a tax register section that was valid during previous taxation periods and view tax information for any of the periods. You can copy tax registers from one tax register section into another. You can also set up tax registers and adjust the algorithm of information collection into tax registers.  
   
@@ -38,7 +38,7 @@ You can either create a new tax register section or select a tax register sectio
   
 4.  On the **Dimensions** FastTab, enter the dimension codes to filter the information selected for tax registers. Dimension codes can be changed only when the **Status** field of the tax register version has the value **Open**.  
   
-5.  On the **Balance** FastTab, enter the deadlines for debtor and creditor liabilities applied in accordance with the current taxation period. For example, Debit Balance Point 1 \= \- 45D, Debit Balance Point 2 \= \- 90D.  
+5.  On the **Balance** FastTab, enter the deadlines for debtor and creditor liabilities applied in accordance with the current taxation period. For example, Debit Balance Point 1 \= - 45D, Debit Balance Point 2 \= - 90D.  
   
 6.  On the **System** FastTab, select the actual norm code for the current tax register version in the **Norm Jurisdiction Code** field. Select the form number **17209** in the **Form ID** field.  
   
@@ -87,7 +87,7 @@ You can either create a new tax register section or select a tax register sectio
 3.  Choose **Delete** to remove the register from the register list.  
   
 ## See Also  
- [Tax Accounting](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/tax-accounting.md)   
- [Tax Registers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/tax-registers.md)   
- [How to: Create Tax Registers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-create-tax-registers.md)   
- [Collecting Profit Tax Information for Tax Declaration](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/collecting-profit-tax-information-for-tax-declaration.md)
+ [Tax Accounting](../FullExperience/tax-accounting.md)   
+ [Tax Registers](../FullExperience/tax-registers.md)   
+ [How to: Create Tax Registers](../FullExperience/how-to-create-tax-registers.md)   
+ [Collecting Profit Tax Information for Tax Declaration](../FullExperience/collecting-profit-tax-information-for-tax-declaration.md)

@@ -1,51 +1,26 @@
 ---
-title: "Design Details: Costing Methods"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "item applications, costing methods"
-  - "application methods"
-  - "costing methods"
-ms.assetid: 949565f6-4596-464f-a4b3-989b10e1e02f
-caps.latest.revision: 21
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Design Details: Costing Methods
-The costing method determines if an actual or a budgeted value is capitalized and used in the cost calculation. Together with the posting date and sequence, the costing method also influences how the cost flow is recorded. The following methods are supported in [!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)]:  
+The costing method determines if an actual or a budgeted value is capitalized and used in the cost calculation. Together with the posting date and sequence, the costing method also influences how the cost flow is recorded. The following methods are supported in ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]-->:  
   
-|Costing method|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|When to use|  
+|Costing method|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|When to use|  
 |--------------------|---------------------------------------|-----------------|  
-|FIFO|An item’s unit cost is the actual value of any receipt of the item, selected by the FIFO rule.<br /><br /> In inventory valuation, it is assumed that the first items placed in inventory are sold first.|In business environments where product cost is stable.<br /><br /> \(When prices are rising, the balance sheet shows greater value. This means that tax liabilities increase, but credit scores and the ability to borrow cash improve.\)<br /><br /> For items with a limited shelf life, because the oldest goods need to be sold before they pass their sell\-by date.|  
+|FIFO|An item’s unit cost is the actual value of any receipt of the item, selected by the FIFO rule.<br /><br /> In inventory valuation, it is assumed that the first items placed in inventory are sold first.|In business environments where product cost is stable.<br /><br /> \(When prices are rising, the balance sheet shows greater value. This means that tax liabilities increase, but credit scores and the ability to borrow cash improve.\)<br /><br /> For items with a limited shelf life, because the oldest goods need to be sold before they pass their sell-by date.|  
 |LIFO|An item’s unit cost is the actual value of any receipt of the item, selected by the LIFO rule.<br /><br /> In inventory valuation, it is assumed that the last items placed in inventory are sold first.|Disallowed in many countries\/regions, as it can be used to depress profit.<br /><br /> \(When prices are rising, the value on the income statement decreases. This means that tax liabilities decrease, but the ability to borrow cash deteriorates.\)|  
 |Average|An item’s unit cost is calculated as the average unit cost at each point in time after a purchase.<br /><br /> For inventory valuation, it is assumes that all inventories are sold simultaneously.|In business environments where product cost is unstable.<br /><br /> When inventories are piled or mixed together and cannot be differentiated, such as chemicals.|  
 |Specific|An item’s unit cost is the exact cost at which the particular unit was received.|In production or trade of easily identifiable items with fairly high unit costs.<br /><br /> For items that are subject to regulation.<br /><br /> For items with serial numbers.|  
@@ -53,7 +28,7 @@ The costing method determines if an actual or a budgeted value is capitalized an
   
  The following image shows how costs flow through the inventory for each costing method.  
   
- ![Costing methods](../ApplicationDesign/media/design_details_inventory_costing_7_costing_methods.png "design\_details\_inventory\_costing\_7\_costing\_methods")  
+ ![Costing methods](../FullExperience/media/design_details_inventory_costing_7_costing_methods.png "design\_details\_inventory\_costing\_7\_costing\_methods")  
   
  Costing methods differ in the way that they value inventory decreases and if they use actual cost or standard cost as the valuation base. The following table explains the different characteristics. \(The LIFO method is excluded, as it is very similar to the FIFO method.\)  
   
@@ -61,8 +36,8 @@ The costing method determines if an actual or a budgeted value is capitalized an
 |-|----------|-------------|--------------|--------------|  
 |General characteristic|Easy to understand|Based on period options: **Day**\/**Week**\/**Month**\/**Quarter**\/**Accounting Period**.<br /><br /> Can be calculated per item or per item\/location\/variant.|Easy to use, but requires qualified maintenance.|Requires item tracking on both inbound and outbound transaction.<br /><br /> Typically used for serialized items.|  
 |Application\/Adjustment|Application keeps track of **the remaining quantity**.<br /><br /> Adjustment forwards costs according to quantity application.|Application keeps track of the **remaining quantity**.<br /><br /> Costs are calculated and forwarded per the **valuation date**.|Application keeps track of the **remaining quantity**.<br /><br /> Application is based on FIFO.|All applications are fixed.|  
-|Revaluation|Revalues invoiced quantity only.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|Revalues invoiced quantity only.<br /><br /> Can be done per item only.<br /><br /> Can be done backward in time.|Revalues invoiced and un\-invoiced quantities.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|Revalues invoiced quantity only.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|  
-|Miscellaneous|If you back\-date an inventory decrease, then existing entries are NOT reapplied to provide a correct FIFO cost flow.|If you back\-date an inventory increase or decrease, then the average cost is recalculated, and all affected entries are adjusted.<br /><br /> If you change the period or calculation type, then all affected entries must be adjusted.|Use the **Standard Worksheet** window to periodically update and roll up standard costs.<br /><br /> Is NOT supported per SKU.<br /><br /> No historic records exist for standard costs.|You can use specific item tracking without using the Specific costing method. Then the cost will NOT follow the lot number, but the cost assumption of the selected costing method.|  
+|Revaluation|Revalues invoiced quantity only.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|Revalues invoiced quantity only.<br /><br /> Can be done per item only.<br /><br /> Can be done backward in time.|Revalues invoiced and un-invoiced quantities.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|Revalues invoiced quantity only.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|  
+|Miscellaneous|If you back-date an inventory decrease, then existing entries are NOT reapplied to provide a correct FIFO cost flow.|If you back-date an inventory increase or decrease, then the average cost is recalculated, and all affected entries are adjusted.<br /><br /> If you change the period or calculation type, then all affected entries must be adjusted.|Use the **Standard Worksheet** window to periodically update and roll up standard costs.<br /><br /> Is NOT supported per SKU.<br /><br /> No historic records exist for standard costs.|You can use specific item tracking without using the Specific costing method. Then the cost will NOT follow the lot number, but the cost assumption of the selected costing method.|  
   
 ## Example  
  This section gives examples of how different costing methods affect inventory value.  
@@ -71,12 +46,12 @@ The costing method determines if an actual or a budgeted value is capitalized an
   
 |Posting Date|Quantity|Entry No.|  
 |------------------|--------------|---------------|  
-|01\-01\-20|1|1|  
-|01\-01\-20|1|2|  
-|01\-01\-20|1|3|  
-|02\-01\-20|\-1|4|  
-|03\-01\-20|\-1|5|  
-|04\-01\-20|\-1|6|  
+|01-01-20|1|1|  
+|01-01-20|1|2|  
+|01-01-20|1|3|  
+|02-01-20|-1|4|  
+|03-01-20|-1|5|  
+|04-01-20|-1|6|  
   
 > [!NOTE]  
 >  The resulting quantity in inventory is zero. Consequently, the inventory value must also be zero, regardless of the costing method.  
@@ -90,9 +65,9 @@ The costing method determines if an actual or a budgeted value is capitalized an
   
 |Posting Date|Quantity|Cost Amount \(Actual\)|Entry No.|  
 |------------------|--------------|----------------------------|---------------|  
-|01\-01\-20|1|10.00|1|  
-|01\-01\-20|1|20.00|2|  
-|01\-01\-20|1|30.00|3|  
+|01-01-20|1|10.00|1|  
+|01-01-20|1|20.00|2|  
+|01-01-20|1|30.00|3|  
   
  **Standard**  
   
@@ -102,9 +77,9 @@ The costing method determines if an actual or a budgeted value is capitalized an
   
 |Posting Date|Quantity|Cost Amount \(Actual\)|Entry No.|  
 |------------------|--------------|----------------------------|---------------|  
-|01\-01\-20|1|15.00|1|  
-|01\-01\-20|1|15.00|2|  
-|01\-01\-20|1|15.00|3|  
+|01-01-20|1|15.00|1|  
+|01-01-20|1|15.00|2|  
+|01-01-20|1|15.00|3|  
   
 ### Effect of Costing Methods on Valuing Inventory Decreases  
  **FIFO**  
@@ -117,9 +92,9 @@ The costing method determines if an actual or a budgeted value is capitalized an
   
 |Posting Date|Quantity|Cost Amount \(Actual\)|Entry No.|  
 |------------------|--------------|----------------------------|---------------|  
-|02\-01\-20|\-1|\-10.00|4|  
-|03\-01\-20|\-1|\-20.00|5|  
-|04\-01\-20|\-1|\-30.00|6|  
+|02-01-20|-1|-10.00|4|  
+|03-01-20|-1|-20.00|5|  
+|04-01-20|-1|-30.00|6|  
   
  **LIFO**  
   
@@ -131,21 +106,21 @@ The costing method determines if an actual or a budgeted value is capitalized an
   
 |Posting Date|Quantity|Cost Amount \(Actual\)|Entry No.|  
 |------------------|--------------|----------------------------|---------------|  
-|02\-01\-20|\-1|\-30.00|4|  
-|03\-01\-20|\-1|\-20.00|5|  
-|04\-01\-20|\-1|\-10.00|6|  
+|02-01-20|-1|-30.00|4|  
+|03-01-20|-1|-20.00|5|  
+|04-01-20|-1|-10.00|6|  
   
  **Average**  
   
- For items using the **Average** costing method, inventory decreases are valued by calculating a weighted average of the remaining inventory on the last day of the average cost period in which the inventory decrease was posted. For more information, see [Design Details: Average Cost](../ApplicationDesign/design-details-average-cost.md).  
+ For items using the **Average** costing method, inventory decreases are valued by calculating a weighted average of the remaining inventory on the last day of the average cost period in which the inventory decrease was posted. For more information, see [Design Details: Average Cost](../FullExperience/design-details-average-cost.md).  
   
  The following table shows how inventory decreases are valued for the **Average** costing method.  
   
 |Posting Date|Quantity|Cost Amount \(Actual\)|Entry No.|  
 |------------------|--------------|----------------------------|---------------|  
-|02\-01\-20|\-1|\-20.00|4|  
-|03\-01\-20|\-1|\-20.00|5|  
-|04\-01\-20|\-1|\-20.00|6|  
+|02-01-20|-1|-20.00|4|  
+|03-01-20|-1|-20.00|5|  
+|04-01-20|-1|-20.00|6|  
   
  **Standard**  
   
@@ -155,9 +130,9 @@ The costing method determines if an actual or a budgeted value is capitalized an
   
 |Posting Date|Quantity|Cost Amount \(Actual\)|Entry No.|  
 |------------------|--------------|----------------------------|---------------|  
-|02\-01\-20|\-1|\-15.00|4|  
-|03\-01\-20|\-1|\-15.00|5|  
-|04\-01\-20|\-1|\-15.00|6|  
+|02-01-20|-1|-15.00|4|  
+|03-01-20|-1|-15.00|5|  
+|04-01-20|-1|-15.00|6|  
   
  **Specific**  
   
@@ -167,14 +142,14 @@ The costing method determines if an actual or a budgeted value is capitalized an
   
  The following table shows how inventory decreases are valued for the **Specific** costing method.  
   
-|Posting Date|Quantity|Cost Amount \(Actual\)|Applies\-to Entry|Entry No.|  
+|Posting Date|Quantity|Cost Amount \(Actual\)|Applies-to Entry|Entry No.|  
 |------------------|--------------|----------------------------|-----------------------|---------------|  
-|02\-01\-20|\-1|\-20.00|**2**|4|  
-|03\-01\-20|\-1|\-10.00|**1**|5|  
-|04\-01\-20|\-1|\-30.00|**3**|6|  
+|02-01-20|-1|-20.00|**2**|4|  
+|03-01-20|-1|-10.00|**1**|5|  
+|04-01-20|-1|-30.00|**3**|6|  
   
 ## See Also  
- [Design Details: Inventory Costing](../ApplicationDesign/design-details-inventory-costing.md)   
- [Design Details: Variance](../ApplicationDesign/design-details-variance.md)   
- [Design Details: Average Cost](../ApplicationDesign/design-details-average-cost.md)   
- [Design Details: Item Application](../ApplicationDesign/design-details-item-application.md)
+ [Design Details: Inventory Costing](../FullExperience/design-details-inventory-costing.md)   
+ [Design Details: Variance](../FullExperience/design-details-variance.md)   
+ [Design Details: Average Cost](../FullExperience/design-details-average-cost.md)   
+ [Design Details: Item Application](../FullExperience/design-details-item-application.md)

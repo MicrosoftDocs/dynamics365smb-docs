@@ -1,22 +1,20 @@
 ---
-title: "How to: Include Company Registration Numbers on Sales Reports and Purchase Reports"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "registration numbers, vendor"
-  - "registration numbers, printing"
-  - "registration numbers, company"
-ms.assetid: d95db5ce-0dbc-48b5-8da8-e786fc3fa5ae
-caps.latest.revision: 29
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "de-de"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Include Company Registration Numbers on Sales Reports and Purchase Reports
 When generating certain sales reports and purchase reports, you can print registration numbers on the reports.  
   
@@ -39,5 +37,5 @@ When generating certain sales reports and purchase reports, you can print regist
 4.  Choose the **OK** button.  
   
 ## See Also  
- [\($ N\_1 Company Information $\)](assetId:///45c9cfb7-ca1f-4323-99cd-9360a5631648)   
- [How to: Register New Vendors](../../Purchasing/how-to-register-new-vendors.md)
+ Company Information   
+ [How to: Register New Vendors](../FullExperience/how-to-register-new-vendors.md)

@@ -1,33 +1,20 @@
 ---
-title: "Walkthrough: Managing Projects with Jobs"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "business process walkthroughs, project management"
-  - "jobs, setting up"
-  - "jobs, copying"
-  - "jobs, handling fixed prices"
-  - "copying, jobs"
-  - "jobs, project management"
-ms.assetid: 9e4a09c9-6a78-443c-b878-e87ecb0a64dc
-caps.latest.revision: 37
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-de"
-  - "es-es"
-  - "fi-fi"
-  - "fr-fr"
-  - "it-it"
-  - "nb-no"
-  - "nl-nl"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Walkthrough: Managing Projects with Jobs
 This walkthrough introduces you to the project management features in jobs. Jobs are a way for you to schedule the usage of your company's resources and to keep track of the various costs associated with the resources on a specific project. Jobs involves the consumption of employee hours, machine hours, inventory items, and other types of usage that you may want to track as a job progresses.  
   
@@ -41,7 +28,7 @@ This walkthrough introduces you to the project management features in jobs. Jobs
   
 -   Setting up job task lines and planning lines.  
   
--   Creating job\-specific prices for items, resources, and general ledger accounts.  
+-   Creating job-specific prices for items, resources, and general ledger accounts.  
   
 -   Invoicing from a job.  
   
@@ -57,7 +44,7 @@ This walkthrough introduces you to the project management features in jobs. Jobs
   
 -   Copying part of a job to a new job.  
   
--   Copying job\-specific prices.  
+-   Copying job-specific prices.  
   
 -   Copying planning lines.  
   
@@ -80,14 +67,14 @@ This walkthrough introduces you to the project management features in jobs. Jobs
 ## Prerequisites  
  Before you can perform the tasks in the walkthrough, you must do the following:  
   
--   Install the [!INCLUDE[demolong](../ApplicationDesign/includes/demolong_md.md)].  
+-   Install the ADD INCLUDE<!--[!INCLUDE[demolong](../../includes/demolong_md.md)]-->.  
   
 -   Create sample data by using the steps in the following section.  
   
 ## Story  
- This walkthrough focuses on [!INCLUDE[demoname](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/demoname_md.md)], a design and consultancy firm that designs and fits new infrastructures, such as conference halls and offices, with furniture, accessories, and storage units. Most of its work is project oriented. Prakash is a project manager at [!INCLUDE[demo](../ApplicationDesign/includes/demo_md.md)]. He uses jobs to give him an overview of each ongoing job that [!INCLUDE[demo](../ApplicationDesign/includes/demo_md.md)] has started, as well as the jobs that are completed. He is usually the one who sets up deals with customers and enters the core of the job, which is task and planning lines in addition to prices, into [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]. He finds that creating, maintaining, and reviewing information is straightforward. Prakash also likes the way [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] enables copying jobs and payment by installments.  
+ This walkthrough focuses on ADD INCLUDE<!--[!INCLUDE[demoname](../../includes/navnow_md.md)]--> enables copying jobs and payment by installments.  
   
- Tricia, a project team member who reports to Prakash, is responsible for monitoring the job day\-to\-day. She enters her own work in addition to the work performed by technicians on every task. She records the items that they have used and the costs that they have incurred.  
+ Tricia, a project team member who reports to Prakash, is responsible for monitoring the job day-to-day. She enters her own work in addition to the work performed by technicians on every task. She records the items that they have used and the costs that they have incurred.  
   
 ## Preparing Sample Data  
  To prepare for this walkthrough, you must add Tricia as a new resource.  
@@ -136,12 +123,12 @@ This walkthrough introduces you to the project management features in jobs. Jobs
   
     -   **Description**: **Tricia**  
   
-    -   **No. Series**: **JJNL\-GEN**  
+    -   **No. Series**: **JJNL-GEN**  
   
 4.  Choose the **OK** button to close all open windows.  
   
 ## Setting Up a Job  
- In this scenario, [!INCLUDE[demo](../ApplicationDesign/includes/demo_md.md)] has won a contract with a customer, Progressive Home Furnishings, to design a conference and dining hall. The customer is based in the United States and the project will require special software. The project manager reaches an agreement with the customer and creates a job that covers the agreement.  
+ In this scenario, ADD INCLUDE<!--[!INCLUDE[demo](../../includes/demo_md.md)]--> has won a contract with a customer, Progressive Home Furnishings, to design a conference and dining hall. The customer is based in the United States and the project will require special software. The project manager reaches an agreement with the customer and creates a job that covers the agreement.  
   
 #### To set up a job  
   
@@ -153,7 +140,7 @@ This walkthrough introduces you to the project management features in jobs. Jobs
   
     -   **Description**: **Advising on conference hall setup**  
   
-    -   **Bill\-to\-Customer No.**: **01445544**  
+    -   **Bill-to-Customer No.**: **01445544**  
   
 4.  On the **Posting** FastTab, enter the following information:  
   
@@ -165,7 +152,7 @@ This walkthrough introduces you to the project management features in jobs. Jobs
   
 5.  On the **Duration** FastTab, type today's date into the **Starting Date** and **Ending Date** fields. These dates will help apply currency conversions when the job is invoiced.  
   
-6.  On the **Foreign Trade** FastTab, set the currency code to **USD**. If you select USD in the **Invoice Currency Code** field, then the job will be invoiced in U.S. dollars and planned in the local currency of [!INCLUDE[demo](../ApplicationDesign/includes/demo_md.md)]. If both fields are left blank, then both invoicing and planning will be in the local currency of [!INCLUDE[demo](../ApplicationDesign/includes/demo_md.md)] only.  
+6.  On the **Foreign Trade** FastTab, set the currency code to **USD**. If you select USD in the **Invoice Currency Code** field, then the job will be invoiced in U.S. dollars and planned in the local currency of ADD INCLUDE<!--[!INCLUDE[demo](../../includes/demo_md.md)]--> only.  
   
  You can customize the pricing for customers on a per job basis, depending on the agreements you have set up. In the next procedure, the project manager specifies a cost for Tricia’s time, sets the price for the required software, and adds in the travel costs that the customer has agreed to pay.  
   
@@ -209,12 +196,12 @@ This walkthrough introduces you to the project management features in jobs. Jobs
   
 2.  The following table describes the information that you should enter in the fields.  
   
-    |Job Task No.|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|Job Task Type|  
+    |Job Task No.|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|Job Task Type|  
     |------------------|---------------------------------------|-------------------|  
-    |1000|Consulting on hall setup|Begin\-Total|  
+    |1000|Consulting on hall setup|Begin-Total|  
     |1010|Consultation meeting with customer|Posting|  
     |1020|Development|Posting|  
-    |1090|Consulting Total|End\-Total|  
+    |1090|Consulting Total|End-Total|  
   
 3.  To show that some tasks are subcategories of other tasks, on the **Actions** tab, in the **Functions** group, choose **Indent Job Tasks**.  
   
@@ -369,7 +356,7 @@ This walkthrough introduces you to the project management features in jobs. Jobs
 3.  Choose the **Close** button to close the **Job Statistics** window.  
   
 ## Handling Fixed Prices  
- [!INCLUDE[demoname](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/demoname_md.md)] has been contracted to set up conference rooms. As the project manager, Prakash wants a good overview of the tasks required for the job with the associated budgeted and incurred costs for each task. In addition, he wants to know the total contracted price for the job and the amount that has been invoiced to this point. He has reached an agreement with the customer regarding fixed pricing for the job.  
+ ADD INCLUDE<!--[!INCLUDE[demoname](../../includes/demoname_md.md)]--> has been contracted to set up conference rooms. As the project manager, Prakash wants a good overview of the tasks required for the job with the associated budgeted and incurred costs for each task. In addition, he wants to know the total contracted price for the job and the amount that has been invoiced to this point. He has reached an agreement with the customer regarding fixed pricing for the job.  
   
 #### To manage fixed pricing in jobs  
   
@@ -377,7 +364,7 @@ This walkthrough introduces you to the project management features in jobs. Jobs
   
 2.  Select the **Guildford** job number, and on the **Home** tab, in the **Process** group, choose **Jobs Task Lines**.  
   
-3.  Select line 1120, and in the **Schedule \(Total Cost\)** field, right\-click the amount and choose **DrillDown**.  
+3.  Select line 1120, and in the **Schedule \(Total Cost\)** field, right-click the amount and choose **DrillDown**.  
   
      By reviewing the Job Planning lines, Prakash determines that he will also need Tricia for 30 hours for this stage of the project. He agrees on a fixed price with the customer.  
   
@@ -399,7 +386,7 @@ This walkthrough introduces you to the project management features in jobs. Jobs
   
 7.  Choose the **OK** button to close the window.  
   
-8.  In the **Schedule \(Total Cost\)** field, right\-click the field, and choose **Drilldown** again in the **Job Task Lines** window. View the changes to the schedule. You see that 30 hours have been added to the schedule.  
+8.  In the **Schedule \(Total Cost\)** field, right-click the field, and choose **Drilldown** again in the **Job Task Lines** window. View the changes to the schedule. You see that 30 hours have been added to the schedule.  
   
 9. Choose the **OK** button to close the windows.  
   
@@ -469,13 +456,13 @@ This walkthrough introduces you to the project management features in jobs. Jobs
   
 10. Select the GUILDFORD job. On the **Home** tab, in the **Process** group, choose **Job Task Lines**.  
   
-11. Select line 1120 and in the **Schedule \(Total Cost\)** field, right\-click the amount. Choose **DrillDown** to view the information.  
+11. Select line 1120 and in the **Schedule \(Total Cost\)** field, right-click the amount. Choose **DrillDown** to view the information.  
   
      Changes are automatically entered on the line for Job Task No. 1120. In the total cost of scheduled work, five additional hours of work by Tricia has been added to the schedule.  
   
 12. Choose the **Close** button to close the window.  
   
-13. Right\-click the amount in the **Contract \(Total Cost\)** field and choose **DrillDown** to view the information.  
+13. Right-click the amount in the **Contract \(Total Cost\)** field and choose **DrillDown** to view the information.  
   
      In the total price for the contract, only the original contracted 30 hours are included, because this is what was agreed upon with the customer.  
   
@@ -492,7 +479,7 @@ This walkthrough introduces you to the project management features in jobs. Jobs
   
     -   **Description**: **Setting up 10 Conference Rooms**  
   
-    -   **Bill\-To Customer No.**: **20000**  
+    -   **Bill-To Customer No.**: **20000**  
   
 3.  On the **Actions** tab, in the **Functions** group, choose **Copy Job Tasks from**.  
   
@@ -515,7 +502,7 @@ This walkthrough introduces you to the project management features in jobs. Jobs
      By comparing prices, job task lines, and job planning lines for the two jobs, you can see that the information was successfully copied.  
   
 ## Making Payments by Installments  
- [!INCLUDE[demoname](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/demoname_md.md)] has just landed a large project that will take a year to be completed. Because it requires the dedication of many resources, the project manager sets up the contract so that the customer pays part of the price up front, part when the project is halfway completed, and the final payment upon completion.  
+ ADD INCLUDE<!--[!INCLUDE[demoname](../../includes/demoname_md.md)]--> has just landed a large project that will take a year to be completed. Because it requires the dedication of many resources, the project manager sets up the contract so that the customer pays part of the price up front, part when the project is halfway completed, and the final payment upon completion.  
   
 #### To set up a new account  
   
@@ -543,7 +530,7 @@ This walkthrough introduces you to the project management features in jobs. Jobs
   
     -   **Description**: **Redecoration of Reception Area**  
   
-    -   **Bill\-to\-Customer No.**: **30000**  
+    -   **Bill-to-Customer No.**: **30000**  
   
     -   **Job Posting Group**: **Setting up**  
   
@@ -561,12 +548,12 @@ This walkthrough introduces you to the project management features in jobs. Jobs
   
      The following table describes the lines that you will create.  
   
-    |Line|Job Task No.|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|Job Task Type|  
+    |Line|Job Task No.|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|Job Task Type|  
     |----------|------------------|---------------------------------------|-------------------|  
-    |1|1000|Payment\-Down Payment|Posting|  
+    |1|1000|Payment-Down Payment|Posting|  
     |2|2000|Usage|Posting|  
-    |3|3000|Payment \- Midway|Posting|  
-    |4|4000|Payment \- Completion|Posting|  
+    |3|3000|Payment - Midway|Posting|  
+    |4|4000|Payment - Completion|Posting|  
   
 5.  In the **Job Task Lines** window, select task 1000, and on the **Home** tab, in the **Process** group, choose **Job Planning Lines**.  
   
@@ -628,11 +615,11 @@ This walkthrough introduces you to the project management features in jobs. Jobs
 3.  On the **Home** tab, in the **Process** group, choose **Sales Invoice\/Credit Memo**. On the sales invoice, you can see that only the down payment is included in the invoice. You can now send this to the customer as agreed.  
   
 ## Next Steps  
- This walkthrough has taken you through some of the basic steps of working with jobs in [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]. You have learned about how to create a new job, how to copy a job, and how to handle payments. Also, you have seen a demonstration of how to track hours and create invoices.  
+ This walkthrough has taken you through some of the basic steps of working with jobs in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->. You have learned about how to create a new job, how to copy a job, and how to handle payments. Also, you have seen a demonstration of how to track hours and create invoices.  
   
 ## See Also  
- [Business Process Walkthroughs](../GettingStarted/business-process-walkthroughs.md)   
- [Set Up Jobs](../Jobs/set-up-jobs.md)   
- [Price, Schedule, and Manage Resources](../ResourcePlanning/price-schedule-and-manage-resources.md)   
- [Monitor Progress and Performance](../Jobs/monitor-progress-and-performance.md)   
- [Invoice Jobs](../Jobs/invoice-jobs.md)
+ [Business Process Walkthroughs](../FullExperience/business-process-walkthroughs.md)   
+ [Set Up Jobs](../FullExperience/set-up-jobs.md)   
+ [Price, Schedule, and Manage Resources](../FullExperience/price-schedule-and-manage-resources.md)   
+ [Monitor Progress and Performance](../FullExperience/monitor-progress-and-performance.md)   
+ [Invoice Jobs](../FullExperience/invoice-jobs.md)

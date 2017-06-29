@@ -1,21 +1,24 @@
 ---
-title: "GDPdU Filter Examples"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-ms.assetid: b9e6224b-826c-428a-967c-e8ca0582f7a4
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "de-de"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # GDPdU Filter Examples
 The following topic provides examples of how you can use and combine different filter types when you set up your GPDdU exports. By setting filters appropriately, you can improve performance.  
   
- The following examples use the G\/L Entry and Cust. Ledger Entry tables for data. They assume that you have specified the following date in the **\($ B\_11015 Export Business Data $\)** batch job.  
+ The following examples use the G\/L Entry and Cust. Ledger Entry tables for data. They assume that you have specified the following date in the **Export Business Data** batch job.  
   
  Start Date \= 01\/01\/2013  
   
@@ -43,7 +46,7 @@ The following topic provides examples of how you can use and combine different f
 |Table No.|Table Name|Period Field No.|Period Field Name|Table Filter|  
 |---------------|----------------|----------------------|-----------------------|------------------|  
 |17|G\/L Entry|4|Posting Date||  
-|21|Cust. Ledger Entry|||Cust. Ledger Entry: **Posting Date\=..31\-12\-13**|  
+|21|Cust. Ledger Entry|||Cust. Ledger Entry: **Posting Date\=..31-12-13**|  
   
  **Export Results**  
   
@@ -80,4 +83,4 @@ The following topic provides examples of how you can use and combine different f
 -   Customers that have Net Change \(LCY\) \<\> 0 on the day before the start date.  
   
 ## See Also  
- [How to: Set Up Data Exports for GDPdU](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-set-up-data-exports-for-gdpdu.md)
+ [How to: Set Up Data Exports for GDPdU](../FullExperience/how-to-set-up-data-exports-for-gdpdu.md)

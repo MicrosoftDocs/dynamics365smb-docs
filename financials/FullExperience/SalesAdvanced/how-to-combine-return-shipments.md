@@ -1,49 +1,20 @@
 ---
-title: "How to: Combine Return Shipments"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "shipments, combining"
-  - "returns, combining shipments"
-  - "return shipments, combining"
-  - "purchase returns, combining shipments"
-  - "return orders, combining shipments"
-  - "shipments, returns"
-  - "purchase credit memos, combining return shipments"
-ms.assetid: 13903618-4815-49eb-add4-d88d325b5161
-caps.latest.revision: 7
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Combine Return Shipments
 If you want to return items covered by different purchase return orders to the same vendor, then you can use the **Combine Return Shipments** function.  
   
@@ -61,7 +32,7 @@ If you want to return items covered by different purchase return orders to the s
   
 2.  On the **Home** tab, in the **New** group, choose **New**.  
   
-3.  Create a purchase credit memo. For more information, see [How to: Create Purchase Credit Memos](../Finance/how-to-create-purchase-credit-memos.md).  
+3.  Create a purchase credit memo. For more information, see [How to: Create Purchase Credit Memos](../FullExperience/how-to-create-purchase-credit-memos.md).  
   
 4.  On the **Lines** FastTab, choose **Functions**, and then choose **Get Return Shipment Lines**.  
   
@@ -80,9 +51,9 @@ If you want to return items covered by different purchase return orders to the s
 3.  Alternatively, delete the individual orders manually. On the **Home** tab, in the **Manage** group, choose **Delete**.  
   
 ## See Also  
- [How to: Combine Receipts](../Finance/how-to-combine-receipts.md)   
- [How to: Combine Return Receipts](../Sales/how-to-combine-return-receipts.md)   
- [How to: Combine Shipments on a Single Invoice](../Sales/how-to-combine-shipments-on-a-single-invoice.md)   
- [How to: Get Return Shipment Lines for Item Charges](../Finance/how-to-get-return-shipment-lines-for-item-charges.md)   
- [How to: Process Purchase Returns](../Purchasing/how-to-process-purchase-returns.md)   
- [How to: Undo Quantity Posting on Posted Return Shipments](../Purchasing/how-to-undo-quantity-posting-on-posted-return-shipments.md)
+ [How to: Combine Receipts](../FullExperience/how-to-combine-receipts.md)   
+ [How to: Combine Return Receipts](../FullExperience/how-to-combine-return-receipts.md)   
+ [How to: Combine Shipments on a Single Invoice](../FullExperience/how-to-combine-shipments-on-a-single-invoice.md)   
+ [How to: Get Return Shipment Lines for Item Charges](../FullExperience/how-to-get-return-shipment-lines-for-item-charges.md)   
+ [How to: Process Purchase Returns](../FullExperience/how-to-process-purchase-returns.md)   
+ [How to: Undo Quantity Posting on Posted Return Shipments](../FullExperience/how-to-undo-quantity-posting-on-posted-return-shipments.md)

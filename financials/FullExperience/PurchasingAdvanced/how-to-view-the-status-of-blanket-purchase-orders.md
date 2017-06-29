@@ -1,43 +1,20 @@
 ---
-title: "How to: View the Status of Blanket Purchase Orders"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "blanket purchase orders, viewing"
-ms.assetid: b5c55d76-d4e2-4bfe-8bf4-ad08aa37fb7a
-caps.latest.revision: 7
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: View the Status of Blanket Purchase Orders
 You can see the status of a blanket purchase order in the **Purchase Blanket Order Statistics** window. This may be relevant when you start to invoice the order that is created from the blanket purchase order.  
   
@@ -58,5 +35,5 @@ You can see the status of a blanket purchase order in the **Purchase Blanket Ord
      On the **Vendor** FastTab, you can see certain basic information about the vendor.  
   
 ## See Also  
- [How to: Create Blanket Purchase Orders](../Purchasing/how-to-create-blanket-purchase-orders.md)   
- [How to: Convert Blanket Purchase Orders to Purchase Orders](../Purchasing/how-to-convert-blanket-purchase-orders-to-purchase-orders.md)
+ [How to: Create Blanket Purchase Orders](../FullExperience/how-to-create-blanket-purchase-orders.md)   
+ [How to: Convert Blanket Purchase Orders to Purchase Orders](../FullExperience/how-to-convert-blanket-purchase-orders-to-purchase-orders.md)

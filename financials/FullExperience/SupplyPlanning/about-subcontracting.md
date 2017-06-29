@@ -1,43 +1,20 @@
 ---
-title: "About Subcontracting"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "subcontracting, about"
-ms.assetid: 37bd1c5b-1821-4999-9ea2-ae7a90535c79
-caps.latest.revision: 9
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # About Subcontracting
 Subcontracting, when a vendor performs one or more operational steps in production, is a standard operational step in many manufacturing companies. Subcontracting can be a rare occurrence or can be an integral part of all production processes.  
   
@@ -53,26 +30,26 @@ Subcontracting, when a vendor performs one or more operational steps in producti
  Subcontract Work Centers are set up the same as regular work centers with additional information. They are assigned to routings in the same manner as other work centers.  
   
 ### Subcontract Work Center Fields  
- This **Subcontractor No.** field designates the work center as a subcontract work center. You can enter the number of a subcontractor who supplies the work center. This field can be used to administer work centers, which are not in\-house but perform processing under contract.  
+ This **Subcontractor No.** field designates the work center as a subcontract work center. You can enter the number of a subcontractor who supplies the work center. This field can be used to administer work centers, which are not in-house but perform processing under contract.  
   
- If you subcontract with the vendor for a different rate for each process, then select the **Specific Unit Cost** field. This lets you set up a cost on each routing line and saves the time of re\-entering each purchase order. The cost on the routing line is used in processing instead of the cost on the work center cost fields. Selecting the **Specific Unit Cost** field calculates costs for the vendor by the routing operation.  
+ If you subcontract with the vendor for a different rate for each process, then select the **Specific Unit Cost** field. This lets you set up a cost on each routing line and saves the time of re-entering each purchase order. The cost on the routing line is used in processing instead of the cost on the work center cost fields. Selecting the **Specific Unit Cost** field calculates costs for the vendor by the routing operation.  
   
  If you subcontract at a single rate per vendor, leave the **Specific Unit Cost** field blank. The costs will be set up by filling in **Direct Unit Cost**, **Indirect Cost %**, and **Overhead Rate** fields.  
   
- For information about how to use the subcontract work center in a routing, see [How to: Update Calendar Entries for Work Centers](../OperationsPlanning/how-to-update-calendar-entries-for-work-centers.md).  
+ For information about how to use the subcontract work center in a routing, see [How to: Update Calendar Entries for Work Centers](../FullExperience/how-to-update-calendar-entries-for-work-centers.md).  
   
 ### Routings that use Subcontract Work Centers  
  Subcontract work centers can be used for operations on routings in the same way as regular work centers.  
   
- You can set up a routing that uses an outside work center as a standard operational step. Alternatively, you can modify the routing for a particular production order to include an outside operation. This might be needed in an emergency such as a server not working correctly, or during a temporary period of higher demand, where the work generally performed in\-house must be sent to a subcontractor.  
+ You can set up a routing that uses an outside work center as a standard operational step. Alternatively, you can modify the routing for a particular production order to include an outside operation. This might be needed in an emergency such as a server not working correctly, or during a temporary period of higher demand, where the work generally performed in-house must be sent to a subcontractor.  
   
- For more information, see [How to: Create Routings](../DesignAndEngineering/how-to-create-routings.md).  
+ For more information, see [How to: Create Routings](../FullExperience/how-to-create-routings.md).  
   
 ## Subcontracting Worksheet  
- Once you have [calculated the Subcontracting Worksheet](../OperationsPlanning/how-to-calculate-subcontracting-worksheets-and-create-subcontract-purchase-orders.md), the relevant document, in this case a purchase order, is created.  
+ Once you have [calculated the Subcontracting Worksheet](../FullExperience/how-to-calculate-subcontracting-worksheets-and-create-subcontract-purchase-orders.md), the relevant document, in this case a purchase order, is created.  
   
 ## Posting Subcontract Purchase Orders  
- Once the Subcontractor Purchase Orders have been created, they can be [posted](../Purchasing/how-to-post-subcontract-purchase-orders.md). Receiving the order posts a Capacity Ledger Entry to the production order and invoicing the order posts the direct cost of the purchase order to the production order.  
+ Once the Subcontractor Purchase Orders have been created, they can be [posted](../FullExperience/how-to-post-subcontract-purchase-orders.md). Receiving the order posts a Capacity Ledger Entry to the production order and invoicing the order posts the direct cost of the purchase order to the production order.  
   
  When the purchase is posted as received, then an output journal entry is automatically posted for the production order. This only applies if the subcontract operation is the last operation on the production order routing.  
   
@@ -82,6 +59,6 @@ Subcontracting, when a vendor performs one or more operational steps in producti
 >  To avoid that the expected output of a production order is posted when subcontract purchases are received, make sure the subcontracted operation is not the last one. Alternatively, insert a new last operation for the final output quantity.  
   
 ## See Also  
- [How to: Calculate Subcontracting Worksheets and Create Subcontract Purchase Orders](../OperationsPlanning/how-to-calculate-subcontracting-worksheets-and-create-subcontract-purchase-orders.md)   
- [How to: Post Subcontract Purchase Orders](../Purchasing/how-to-post-subcontract-purchase-orders.md)   
- [About Production Orders](../Production/about-production-orders.md)
+ [How to: Calculate Subcontracting Worksheets and Create Subcontract Purchase Orders](../FullExperience/how-to-calculate-subcontracting-worksheets-and-create-subcontract-purchase-orders.md)   
+ [How to: Post Subcontract Purchase Orders](../FullExperience/how-to-post-subcontract-purchase-orders.md)   
+ [About Production Orders](../FullExperience/about-production-orders.md)

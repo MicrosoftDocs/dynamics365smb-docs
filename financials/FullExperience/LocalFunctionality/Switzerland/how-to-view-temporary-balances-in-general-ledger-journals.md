@@ -1,25 +1,24 @@
 ---
-title: "How to: View Temporary Balances in General Ledger Journals"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "temporary, balances in general journals"
-  - "general journals, viewing temporary balances"
-ms.assetid: c1d4ea6c-3c4a-4c9e-bd43-0a0161f529de
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "de-ch"
-  - "fr-ch"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: View Temporary Balances in General Ledger Journals
 When you enter a new transaction in the general journal, you can view temporary balances that show how the general ledger account balances would be affected by posting the journal. You can view the balance details of the account and counter account for the active journal line. You can also view the unposted values for the current journal.  
   
- If you use foreign currency in general ledger accounts, then the balance in the general ledger account is also populated. This helps you analyze the entries that will be posted, and decide whether to post the entries. For more information, see **\($ N\_39 General Journal $\)** window and **\($ T\_81 Gen. Journal Line $\)** table.  
+ If you use foreign currency in general ledger accounts, then the balance in the general ledger account is also populated. This helps you analyze the entries that will be posted, and decide whether to post the entries. For more information, see **General Journal** window and **Gen. Journal Line** table.  
   
 ### To view temporary balances in general ledger journals  
   
@@ -32,6 +31,6 @@ When you enter a new transaction in the general journal, you can view temporary 
 3.  Choose the **Close** button.  
   
 ## See Also  
- [Swiss General Ledger Accounts](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/swiss-general-ledger-accounts.md)   
- [\($ N\_39 General Journal $\)](assetId:///a60a346f-f336-47bb-b046-55a1595e1555)   
- [\($ T\_81 Gen. Journal Line $\)](assetId:///5308c791-0964-41d9-bc54-fd87e815d1be)
+ [Swiss General Ledger Accounts](../FullExperience/swiss-general-ledger-accounts.md)   
+ General Journal   
+ Gen. Journal Line

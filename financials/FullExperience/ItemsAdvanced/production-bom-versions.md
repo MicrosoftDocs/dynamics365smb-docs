@@ -1,21 +1,20 @@
 ---
-title: "Production BOM Versions"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "version principle"
-  - "production BOMs, versions"
-ms.assetid: 2ae5862b-ef91-4764-822d-712f0cd2efb1
-caps.latest.revision: 7
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Production BOM Versions
 The production BOMs support the version principle which is explained below.  
   
@@ -76,7 +75,7 @@ The production BOMs support the version principle which is explained below.
  In a production BOM, seventy metal parts with the dimensions length \= 0.20 m and width \= 0.15 m are required. The values are entered as follows: Calculation Formula \= Length \* Width, Length \= 20, Width \= 15, Quantity per \= 70. The quantity is given by the Quantity per \* Length \* Width, that is, Quantity \= 70 \* 0.20 m \* 0.15 m \= 2.1 m2.  
   
 ## See Also  
- [Concepts of Production BOMs](../DesignAndEngineering/concepts-of-production-boms.md)   
- [How to: Create New Versions of Production BOMs](../DesignAndEngineering/how-to-create-new-versions-of-production-boms.md)   
- [How to: Copy Versions of Production BOMs](../DesignAndEngineering/how-to-copy-versions-of-production-boms.md)   
- [How to: Compare Material Quantities in All Production BOM Versions](../DesignAndEngineering/how-to-compare-material-quantities-in-all-production-bom-versions.md)
+ [Concepts of Production BOMs](../FullExperience/concepts-of-production-boms.md)   
+ [How to: Create New Versions of Production BOMs](../FullExperience/how-to-create-new-versions-of-production-boms.md)   
+ [How to: Copy Versions of Production BOMs](../FullExperience/how-to-copy-versions-of-production-boms.md)   
+ [How to: Compare Material Quantities in All Production BOM Versions](../FullExperience/how-to-compare-material-quantities-in-all-production-bom-versions.md)

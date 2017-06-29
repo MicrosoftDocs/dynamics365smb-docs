@@ -1,45 +1,29 @@
 ---
-title: "Walkthrough: Conducting a Sales Campaign"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "registering, sales campaign responses"
-  - "sales campaigns, selecting the target audience"
-  - "mining sales campaign data"
-  - "sales campaigns, mining data"
-  - "sending letters to sales contacts"
-  - "sales campaigns, registering responses"
-  - "sales campaigns, setting up"
-  - "sales campaigns, sending letters"
-  - "business process walkthroughs, conducting sales campaigns"
-ms.assetid: 473f4b29-102d-4a38-8c7b-c43b2f2c2223
-caps.latest.revision: 28
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-de"
-  - "es-es"
-  - "fi-fi"
-  - "fr-fr"
-  - "it-it"
-  - "nb-no"
-  - "nl-nl"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Walkthrough: Conducting a Sales Campaign
-A campaign is any kind of activity that involves several contacts. An important part of setting up a campaign involves selecting the target audience for your campaign. For this purpose, in [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)], you create a segment, or a group of contacts using filters.  
+A campaign is any kind of activity that involves several contacts. An important part of setting up a campaign involves selecting the target audience for your campaign. For this purpose, in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you create a segment, or a group of contacts using filters.  
   
  You use these features in Sales & Marketing to carefully plan your marketing activities and to manage your interactions with contacts and customers. You can create campaigns and set up segments of your contacts for mailings and other types of interactions with your contacts and prospective customers.  
   
  The Campaign and Segment features with their automated processes enable you to plan, organize, and keep track of your marketing activities. This will increase the chances of winning new customers and retaining existing customers.  
   
 ## About This Walkthrough  
- This walkthrough demonstrates the process for following up on a trade show and targeting potential customers \(contacts\) in a follow\-up campaign.  
+ This walkthrough demonstrates the process for following up on a trade show and targeting potential customers \(contacts\) in a follow-up campaign.  
   
  The walkthrough introduces the campaign and segment management feature in the Sales & Marketing department. This walkthrough illustrates the following tasks:  
   
@@ -61,10 +45,10 @@ A campaign is any kind of activity that involves several contacts. An important 
 -   Marketing Staffer  
   
 ## Prerequisites  
- Before you can perform the tasks in the walkthrough, you must install the [!INCLUDE[demolong](../ApplicationDesign/includes/demolong_md.md)].  
+ Before you can perform the tasks in the walkthrough, you must install the ADD INCLUDE<!--[!INCLUDE[demolong](../../includes/demolong_md.md)]-->.  
   
 ## Story  
- The marketing manager in the Sales department of [!INCLUDE[demoname](../BusinessFunctionality/IntegratingWithMicrosoftDynamicsCRM/includes/demoname_md.md)] is responsible for planning campaigns and for executing them. He also makes decisions about which trade shows to participate in and he evaluates campaign progress.  
+ The marketing manager in the Sales department of ADD INCLUDE<!--[!INCLUDE[demoname](../../includes/demoname_md.md)]--> is responsible for planning campaigns and for executing them. He also makes decisions about which trade shows to participate in and he evaluates campaign progress.  
   
  The marketing staffer in the Marketing department handles producing, distributing, and placing marketing material.  
   
@@ -176,11 +160,11 @@ A campaign is any kind of activity that involves several contacts. An important 
   
 8.  Choose the **Send Attachments** check box to have the attachments printed.  
   
-     Choose the **Create Follow\-up Segment** check box.  
+     Choose the **Create Follow-up Segment** check box.  
   
      Choose the **OK** button to start the **Log Segment** batch job.  
   
-9. [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] sends the attachments. When the process is done, choose the **OK** button for the message that states that the segment has been logged.  
+9. ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> sends the attachments. When the process is done, choose the **OK** button for the message that states that the segment has been logged.  
   
      The letters are automatically printed and the segment is logged. Because the segment has been logged, it is no longer in the list of segments but is moved to the list of logged segments. To see that list, in the **Search** box, enter **Logged Segments**, and then choose the related link.  
   
@@ -194,7 +178,7 @@ A campaign is any kind of activity that involves several contacts. An important 
   
 2.  In the **Subject \(Default\)** field, enter the following example text: **Thank you for visiting the trade show**.  
   
-3.  In the **Correspondence Type** field, choose **E\-Mail**.  
+3.  In the **Correspondence Type** field, choose **E-Mail**.  
   
 4.  Specify language settings, as in the previous procedure.  
   
@@ -202,7 +186,7 @@ A campaign is any kind of activity that involves several contacts. An important 
   
 6.  Choose the **Send Attachments** check box to have the attachments sent by email.  
   
-7.  Choose the **Create Follow\-up Segment** check box.  
+7.  Choose the **Create Follow-up Segment** check box.  
   
 8.  Choose the **OK** button.  
   
@@ -246,4 +230,4 @@ A campaign is any kind of activity that involves several contacts. An important 
      After the segment is logged, an entry for the campaign is automatically created to record this action in the **Campaign Entries** window.  
   
 ## See Also  
- [Business Process Walkthroughs](../GettingStarted/business-process-walkthroughs.md)
+ [Business Process Walkthroughs](../FullExperience/business-process-walkthroughs.md)

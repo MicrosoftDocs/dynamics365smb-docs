@@ -1,21 +1,22 @@
 ---
-title: "How to: Set Up Corrective Invoicing"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "corrective invoicing, setting up"
-ms.assetid: ff9692d2-11fc-49e2-b2ea-cf1c76b6da9b
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "ru-ru"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up Corrective Invoicing
-You can create corrective invoices and corrective credit memos to reflect changes in quantity and amounts after the items were shipped or received. First, you must set up [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] with prerequisites.  
+You can create corrective invoices and corrective credit memos to reflect changes in quantity and amounts after the items were shipped or received. First, you must set up ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> with prerequisites.  
   
 ### To set up number series for corrective documents  
   
@@ -32,6 +33,6 @@ You can create corrective invoices and corrective credit memos to reflect change
      You can set up a separate code for each inventory posting group.  
   
 ## See Also  
- [Corrective Documents](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/corrective-documents.md)   
- [\($ N\_459 Sales & Receivables Setup $\)\-duplicate](../../Sales/-$-n_459-sales-receivables-setup-$-duplicate.md)   
- [\($ N\_112 Inventory Posting Groups $\)](../Topic/\($%20N_112%20Inventory%20Posting%20Groups%20$\).md)
+ [Corrective Documents](../FullExperience/corrective-documents.md)   
+ [\($ N\_459 Sales & Receivables Setup $\)-duplicate](../FullExperience/-$-n_459-sales-receivables-setup-$-duplicate.md)   
+ Inventory Posting Groups

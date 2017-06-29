@@ -1,21 +1,20 @@
 ---
-title: "How to: Deactivate Item Cost Tracking"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "stockkeeping, deactivating"
-  - "item cost tracking deactivation"
-ms.assetid: cbd9683e-e406-4e39-afc7-3add2876c60b
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "de-ch"
-  - "fr-ch"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Deactivate Item Cost Tracking
 When inventory is not tracked for an item, the item cost does not need to be tracked, and an item ledger entry does not need to be created.  
   
@@ -27,17 +26,17 @@ When inventory is not tracked for an item, the item cost does not need to be tra
   
 2.  Select the required item, and on the **Home** tab, in the **Manage** group, choose **Edit**.  
   
-3.  On the **General** FastTab, select the **\($ T\_27\_11500 No Stockkeeping $\)** check box.  
+3.  On the **General** FastTab, select the **No Stockkeeping** check box.  
   
-     An item ledger entry will not be created when you post a transaction for this item. For more information, see the [\($ T\_32 Item Ledger Entry $\)](../Topic/\($%20T_32%20Item%20Ledger%20Entry%20$\).md) table.  
+     An item ledger entry will not be created when you post a transaction for this item. For more information, see the Item Ledger Entry table.  
   
     > [!NOTE]  
-    >  You cannot select the **\($ T\_27\_11500 No Stockkeeping $\)** check box on an item for which item ledger entries have already been posted.  
+    >  You cannot select the **No Stockkeeping** check box on an item for which item ledger entries have already been posted.  
   
 4.  Choose the **OK** button.  
   
 ## See Also  
- [\($ T\_27 Item $\)](../Topic/\($%20T_27%20Item%20$\).md)   
- [\($ T\_32 Item Ledger Entry $\)](../Topic/\($%20T_32%20Item%20Ledger%20Entry%20$\).md)   
- [Swiss Inventory Management](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/swiss-inventory-management.md)   
- [How to: Block Inventory Items for Sales or Purchases](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-block-inventory-items-for-sales-or-purchases.md)
+ Item   
+ Item Ledger Entry   
+ [Swiss Inventory Management](../FullExperience/swiss-inventory-management.md)   
+ [How to: Block Inventory Items for Sales or Purchases](../FullExperience/how-to-block-inventory-items-for-sales-or-purchases.md)

@@ -1,51 +1,26 @@
 ---
-title: "How to: Create Service Orders from Contracts"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "service orders, creating"
-  - "service contracts, creating service orders"
-  - "contracts (service), creating service orders"
-ms.assetid: 8e288a3e-8d43-439f-a40c-7b54dd26fdd5
-caps.latest.revision: 6
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Create Service Orders from Contracts
 You can automatically create service orders for the maintenance of service items based on service contracts.  
   
 ### To create a service order from a contract  
   
-1.  In the **Search** box, enter **\($ B\_6036 Create Contract Service Orders $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Create Contract Service Orders**, and then choose the related link.  
   
 2.  On the **Service Contract Header** FastTab, set the filters you want to apply.  
   
@@ -59,5 +34,5 @@ You can automatically create service orders for the maintenance of service items
 5.  Choose the **OK** button to create the service orders.  
   
 ## See Also  
- [How to: Create Service Orders](../Service/how-to-create-service-orders.md)   
- [How to: Create Service Contracts and Service Contract Quotes](../Service/how-to-create-service-contracts-and-service-contract-quotes.md)
+ [How to: Create Service Orders](../FullExperience/how-to-create-service-orders.md)   
+ [How to: Create Service Contracts and Service Contract Quotes](../FullExperience/how-to-create-service-contracts-and-service-contract-quotes.md)

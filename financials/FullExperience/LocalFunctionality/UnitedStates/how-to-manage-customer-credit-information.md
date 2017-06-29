@@ -1,36 +1,32 @@
 ---
-title: "How to: Manage Customer Credit Information"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "credit management"
-  - "customer credit information"
-  - "CMR notes, customer credit management"
-ms.assetid: 9434d98d-5e31-4fa3-a446-d550d3dec603
-caps.latest.revision: 32
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "en-ca"
-  - "es-mx"
-  - "fr-ca"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Manage Customer Credit Information
-In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can add comments to customer credit information. You can also hold and block customers with bad credit before shipping or invoicing occurs.  
+In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can add comments to customer credit information. You can also hold and block customers with bad credit before shipping or invoicing occurs.  
   
 ### To add comments to customer credit information  
   
 1.  In the **Search** box, enter **Credit Management**, and then choose the related link.  
   
-2.  In the **Customer List \- Credit Mgmt.** window, select a customer. On the **Navigate** tab, in the **Customer** group, choose **Comments**.  
+2.  In the **Customer List - Credit Mgmt.** window, select a customer. On the **Navigate** tab, in the **Customer** group, choose **Comments**.  
   
 3.  In the **Comment Sheet** window, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Date**|The date of the comment.|  
     |**Comment**|The comment about the customer. You can enter a maximum of 80 alphanumeric characters.|  
@@ -69,7 +65,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can ad
 4.  Choose the **OK** button.  
   
 ## See Also  
- [\($ R\_107 Customer \- Order Summary $\)](../Topic/\($%20R_107%20Customer%20-%20Order%20Summary%20$\).md)   
- [United States Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedStates/united-states-local-functionality.md)   
- [Canada Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/canada-local-functionality.md)   
- [Mexico Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Mexico/mexico-local-functionality.md)
+ Customer - Order Summary   
+ [United States Local Functionality](../FullExperience/united-states-local-functionality.md)   
+ [Canada Local Functionality](../FullExperience/canada-local-functionality.md)   
+ [Mexico Local Functionality](../FullExperience/mexico-local-functionality.md)

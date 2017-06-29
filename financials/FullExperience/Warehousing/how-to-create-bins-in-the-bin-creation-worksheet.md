@@ -1,61 +1,36 @@
 ---
-title: "How to: Create Bins in the Bin Creation Worksheet"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "worksheets, bin content"
-  - "bins, worksheets"
-  - "bins, setting up"
-ms.assetid: 17012891-83ef-43c9-8766-106f9fa716fe
-caps.latest.revision: 8
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Create Bins in the Bin Creation Worksheet
 In the bin creation worksheet, you can create bins manually or you can allow the program to create a number of similar bins in one operation.  
   
  Before you start creating bins in the worksheet, you should determine the kind of bins that are essential for your operations, as well as the most practical flow of items through the physical structure of your warehouse.  
   
 > [!NOTE]  
->  As soon as you use a bin, you cannot delete it, since entries associated with it have been created. But if you want to use another bin\-naming system, you can use the reclassification journal to in effect move your items to a new bin system. This process is manual and takes time, however, so it is best to set up your bins correctly from the start.  
+>  As soon as you use a bin, you cannot delete it, since entries associated with it have been created. But if you want to use another bin-naming system, you can use the reclassification journal to in effect move your items to a new bin system. This process is manual and takes time, however, so it is best to set up your bins correctly from the start.  
   
 > [!NOTE]  
->  To work with the **\($ N\_7372 Bin Creation Worksheet $\)** window, you must be set up as a warehouse employee at the location where the bins exist. For more information, see [How to: Set Up Warehouse Employees](../WarehouseActivities/how-to-set-up-warehouse-employees.md).  
+>  To work with the **Bin Creation Worksheet** window, you must be set up as a warehouse employee at the location where the bins exist. For more information, see [How to: Set Up Warehouse Employees](../FullExperience/how-to-set-up-warehouse-employees.md).  
   
 ### To make bins in the bin creation worksheet  
   
-1.  In the **Search** box, enter **\($ N\_7367 Bin Templates $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Bin Templates**, and then choose the related link.  
   
-2.  In the **Search** box, enter **\($ N\_7371 Bin Creation Worksheet $\)**, and then choose the related link.  
+2.  In the **Search** box, enter **Bin Creation Worksheet**, and then choose the related link.  
   
 3.  On the **Actions** tab, in the **Functions** group, choose **Calculate Bins**. The **Calculate Bins** batch job request window opens.  
   
@@ -84,5 +59,5 @@ In the bin creation worksheet, you can create bins manually or you can allow the
  Repeat the process for another set of bins until you have created all the bins in your warehouse.  
   
 ## See Also  
- [How to: Create Individual Bins](../WarehouseActivities/how-to-create-individual-bins.md)   
- [How to: Set Up Bin Contents](../WarehouseActivities/how-to-set-up-bin-contents.md)
+ [How to: Create Individual Bins](../FullExperience/how-to-create-individual-bins.md)   
+ [How to: Set Up Bin Contents](../FullExperience/how-to-set-up-bin-contents.md)

@@ -1,30 +1,28 @@
 ---
-title: "How to: Create Routings"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "process structure, creating routings"
-  - "operations, creating routings"
-  - "routings, creating"
-ms.assetid: e7a43ff0-2dc0-43c3-9482-e8f425d6e199
-caps.latest.revision: 13
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Create Routings
 A routing holds master data that captures the process requirements of a given produced item. Once a production order is created for that item, its routing will govern the scheduling of operations as represented in the **Prod. Order Routing** window under the production order.  
   
  **Prerequisites**  
   
--   Item cards are created. For more information, see [How to: Register New Products](../DesignAndEngineering/how-to-register-new-products.md).  
+-   Item cards are created. For more information, see [How to: Register New Products](../FullExperience/how-to-register-new-products.md).  
   
--   Production resources are set up. For more information, see [How to: Set Up Work Centers](../Production/how-to-set-up-work-centers.md).  
+-   Production resources are set up. For more information, see [How to: Set Up Work Centers](../FullExperience/how-to-set-up-work-centers.md).  
   
 -   Gather all data about produced items, production resources, operation specifications, and process times.  
   
@@ -51,10 +49,10 @@ A routing holds master data that captures the process requirements of a given pr
   
 3.  In the **No.** field, select the resource to be used, or type it in the field.  
   
-4.  In the **Routing Link Code** field, enter a code to connect the component to a specific operation. [!INCLUDE[bp_choose_columns](../DesignAndEngineering/includes/bp_choose_columns_md.md)]  
+4.  In the **Routing Link Code** field, enter a code to connect the component to a specific operation. ADD INCLUDE<!--[!INCLUDE[bp_choose_columns](../../includes/bp_choose_columns_md.md)]-->  
   
     > [!NOTE]  
-    >  Routing links between operations and components ensure that material consumption is not posted until it has actually been consumed. In addition, routing links provide a process view in the **\($ N\_5510 Production Journal $\)** window where components are listed under the linked operation. For more information, see [How to: Create Routing Links](../DesignAndEngineering/how-to-create-routing-links.md).  
+    >  Routing links between operations and components ensure that material consumption is not posted until it has actually been consumed. In addition, routing links provide a process view in the **Production Journal** window where components are listed under the linked operation. For more information, see [How to: Create Routing Links](../FullExperience/how-to-create-routing-links.md).  
   
 5.  In the **Run Time** and **Setup Time** fields, enter the process times needed to perform the operation.  
   
@@ -69,10 +67,10 @@ A routing holds master data that captures the process requirements of a given pr
   
 9. Certify the routing.  
   
-10. You can now attach the new routing to the card of the production item in question. For more information, see [How to: Register New Products](../DesignAndEngineering/how-to-register-new-products.md).  
+10. You can now attach the new routing to the card of the production item in question. For more information, see [How to: Register New Products](../FullExperience/how-to-register-new-products.md).  
   
 > [!NOTE]  
 >  Remember also to recalculate the item’s standard cost from the **Item** card: On the **Navigate** tab, in the **Item** group, choose **Manufacturing**, and then set **Calc. Standard Cost** to **All Levels**.  
   
 ## See Also  
- [Purpose of the Routings](../DesignAndEngineering/purpose-of-the-routings.md)
+ [Purpose of the Routings](../FullExperience/purpose-of-the-routings.md)

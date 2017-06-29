@@ -1,30 +1,30 @@
 ---
-title: "How to: Set Up Company Information"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "company information, for Italy"
-ms.assetid: 47e3b760-b617-435c-929b-de895739c23b
-caps.latest.revision: 29
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "it-it"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up Company Information
-Fiscal documents must contain all company information. You can enter all relevant data in the **\($ N\_1 Company Information $\)** window when setting up a company. This data will be included in all reports and fiscal documents.  
+Fiscal documents must contain all company information. You can enter all relevant data in the **Company Information** window when setting up a company. This data will be included in all reports and fiscal documents.  
   
 ### To set up company information  
   
-1.  In the **Search** box, enter **\($ N\_1 Company Information $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Company Information**, and then choose the related link.  
   
 2.  Enter the information into the FastTabs as described in the following table.  
   
-    |FastTab|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |FastTab|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
     |-------------|---------------------------------------|  
     |**General**|The general company information.|  
     |**Communication**|The company contact information.|  
@@ -35,5 +35,5 @@ Fiscal documents must contain all company information. You can enter all relevan
 3.  Choose the **OK** button.  
   
 ## See Also  
- [Italy Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/italy-local-functionality.md)   
- [\($ T\_79 Company Information $\)](assetId:///2a44e662-0d42-429e-8131-e0012a89996a)
+ [Italy Local Functionality](../FullExperience/italy-local-functionality.md)   
+ Company Information

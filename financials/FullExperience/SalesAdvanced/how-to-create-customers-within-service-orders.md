@@ -1,47 +1,24 @@
 ---
-title: "How to: Create Customers within Service Orders"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "service orders, creating customers"
-ms.assetid: e4d5f067-c640-4f74-914c-d4be853fe73c
-caps.latest.revision: 7
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Create Customers within Service Orders
-When you create service orders for customers that are not registered in [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)], you can create the customers within the **Service Order** or **Service Quote** windows.  
+When you create service orders for customers that are not registered in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can create the customers within the **Service Order** or **Service Quote** windows.  
   
- You need to set up customer templates before you can create customers within service orders. For more information, see [How to: Set Up Customer Templates](../Service/how-to-set-up-customer-templates.md).  
+ You need to set up customer templates before you can create customers within service orders. For more information, see [How to: Set Up Customer Templates](../FullExperience/how-to-set-up-customer-templates.md).  
   
 ### To create a customer within a service order  
   
@@ -60,4 +37,4 @@ When you create service orders for customers that are not registered in [!INCLUD
  A number is automatically assigned to the new customer and a customer card is created with the relevant fields in the service order filled in by copying information from the service customer template.  
   
 ## See Also  
- [How to: Create Service Orders](../Service/how-to-create-service-orders.md)
+ [How to: Create Service Orders](../FullExperience/how-to-create-service-orders.md)

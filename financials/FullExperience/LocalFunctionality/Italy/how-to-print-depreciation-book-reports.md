@@ -1,22 +1,22 @@
 ---
-title: "How to: Print Depreciation Book Reports"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "Depreciation Book report"
-ms.assetid: 0173faa5-e6bf-436b-9cc1-f83a0317a507
-caps.latest.revision: 20
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "it-it"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Print Depreciation Book Reports
-The **Depreciation Book** is a fiscal report that is sorted by year and item class. The **\($ R\_12119 Depreciation Book $\)** report shows changes in fixed asset stock in a given year by item class, rather than by the individual items. The **\($ R\_12119 Depreciation Book $\)** report is run after the depreciation method has been set up and assets have been entered.  
+The **Depreciation Book** is a fiscal report that is sorted by year and item class. The **Depreciation Book** report shows changes in fixed asset stock in a given year by item class, rather than by the individual items. The **Depreciation Book** report is run after the depreciation method has been set up and assets have been entered.  
   
 ### To print depreciation book reports  
   
@@ -28,7 +28,7 @@ The **Depreciation Book** is a fiscal report that is sorted by year and item cla
   
 4.  Fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Depreciation Book**|The depreciation book to be printed.|  
     |**Starting Date**|Sets the start date.|  
@@ -40,7 +40,7 @@ The **Depreciation Book** is a fiscal report that is sorted by year and item cla
 6.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [How to: Set Up Depreciation Books](../../Finance/how-to-set-up-depreciation-books.md)   
- [Italian Fixed Assets](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/italian-fixed-assets.md)   
- [How to: Create Multiple Fixed Asset Cards](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-create-multiple-fixed-asset-cards.md)   
- [How to: Set Up Compressed Depreciation of Fixed Assets](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-set-up-compressed-depreciation-of-fixed-assets.md)
+ [How to: Set Up Depreciation Books](../FullExperience/how-to-set-up-depreciation-books.md)   
+ [Italian Fixed Assets](../FullExperience/italian-fixed-assets.md)   
+ [How to: Create Multiple Fixed Asset Cards](../FullExperience/how-to-create-multiple-fixed-asset-cards.md)   
+ [How to: Set Up Compressed Depreciation of Fixed Assets](../FullExperience/how-to-set-up-compressed-depreciation-of-fixed-assets.md)

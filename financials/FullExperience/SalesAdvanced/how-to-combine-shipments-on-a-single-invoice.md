@@ -1,44 +1,20 @@
 ---
-title: "How to: Combine Shipments on a Single Invoice"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "shipments, combining"
-  - "combining, shipments"
-ms.assetid: 98f90406-497e-4222-8804-1d653acfe583
-caps.latest.revision: 8
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Combine Shipments on a Single Invoice
 If you want to invoice more than one shipment at a time, you can use the combined shipments feature.  
   
@@ -50,9 +26,9 @@ If you want to invoice more than one shipment at a time, you can use the combine
   
 2.  On the **Home** tab, in the **New** group, choose **New**.  
   
-3.  In the **Sell\-to Customer No.** field, enter the customer who will receive the invoice for the shipped items.  
+3.  In the **Sell-to Customer No.** field, enter the customer who will receive the invoice for the shipped items.  
   
-4.  On the **Lines** FastTab, choose **Actions**![Action Menu icon](../DesignAndEngineering/media/actionmenuicon.png "actionMenuIcon"), choose **Functions**, and then choose **Get Shipment Lines**.  
+4.  On the **Lines** FastTab, choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Functions**, and then choose **Get Shipment Lines**.  
   
 5.  Select the shipment line that you want to include in the invoice:  
   
@@ -60,7 +36,7 @@ If you want to invoice more than one shipment at a time, you can use the combine
   
     -   To insert specific lines, select the lines and choose the **OK** button. You can use the Ctrl key to select multiple nonsequential lines.  
   
-6.  If an incorrect shipment line was selected or you want to start over, you can simply delete the lines on the invoice and re\-run the **Get Shipment Lines** function.  
+6.  If an incorrect shipment line was selected or you want to start over, you can simply delete the lines on the invoice and re-run the **Get Shipment Lines** function.  
   
 7.  To post the invoice, on the **Actions** tab, in the **Posting** group, choose **Post**.  
   
@@ -68,7 +44,7 @@ If you want to invoice more than one shipment at a time, you can use the combine
   
 ### To automatically combine shipments on a single invoice  
   
-1.  In the **Search** box, enter **\($ R\_295 Combine Shipments $\)**, and then choose the related link. The batch job request window opens.  
+1.  In the **Search** box, enter **Combine Shipments**, and then choose the related link. The batch job request window opens.  
   
 2.  On the **Options** FastTab, fill in the fields. Select the **Post Invoices** field.  
   
@@ -101,11 +77,11 @@ If you want to invoice more than one shipment at a time, you can use the combine
 -   Choose the **OK** button.  
   
 ## See Also  
- [How to: Combine Receipts](../Finance/how-to-combine-receipts.md)   
- [How to: Combine Return Receipts](../Sales/how-to-combine-return-receipts.md)   
- [How to: Combine Return Shipments](../Purchasing/how-to-combine-return-shipments.md)   
- [Processing Sales Orders](../Sales/processing-sales-orders.md)   
- [\($ B\_295 Combine Shipments $\)](../Topic/\($%20B_295%20Combine%20Shipments%20$\).md)   
- [\($ B\_299 Delete Invoiced Sales Orders $\)](../SetupAndAdministration/-$-b_299-delete-invoiced-sales-orders-$-.md)   
- [\($ B\_291 Delete Invd Blnkt Sales Orders $\)](../SetupAndAdministration/-$-b_291-delete-invd-blnkt-sales-orders-$-.md)   
- [Shipping](../Topic/Shipping.md)
+ [How to: Combine Receipts](../FullExperience/how-to-combine-receipts.md)   
+ [How to: Combine Return Receipts](../FullExperience/how-to-combine-return-receipts.md)   
+ [How to: Combine Return Shipments](../FullExperience/how-to-combine-return-shipments.md)   
+ [Processing Sales Orders](../FullExperience/processing-sales-orders.md)   
+ Combine Shipments   
+ Delete Invoiced Sales Orders   
+ Delete Invd Blnkt Sales Orders   
+ [Shipping](../FullExperience/Shipping.md)

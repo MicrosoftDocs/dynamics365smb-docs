@@ -1,29 +1,22 @@
 ---
-title: "Italian Fixed Assets"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "reduced depreciation, about"
-  - "depreciation, accelerated"
-  - "depreciation methods, about"
-  - "fixed assets, in Italy"
-  - "anticipated depreciation, about"
-  - "accelerated depreciation, about"
-  - "depreciation, reduced"
-  - "depreciation, anticipated"
-ms.assetid: c7817702-df6e-4f5a-aa45-a4c38ede239a
-caps.latest.revision: 20
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "it-it"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Italian Fixed Assets
-Fixed assets are properties owned by a company and used in the production of its income. Assets can be either tangible or intangible, and can be either durable or non\-durable. Cars, machines, and furniture are examples of tangible assets. Startup costs and licenses are examples of intangible assets.  
+Fixed assets are properties owned by a company and used in the production of its income. Assets can be either tangible or intangible, and can be either durable or non-durable. Cars, machines, and furniture are examples of tangible assets. Startup costs and licenses are examples of intangible assets.  
   
  The following features have been added to the fixed assets functionality:  
   
@@ -40,9 +33,9 @@ Fixed assets are properties owned by a company and used in the production of its
  Reduced depreciation allows companies that can prove that an asset’s use is less intensive than that of a standard asset to use a lower depreciation rate for this asset, and recover the difference during the following fiscal years. Reduced depreciation allows companies to lengthen the period of an asset’s depreciation.  
   
 ## See Also  
- [Manage Fixed Assets](../../Finance/manage-fixed-assets.md)   
- [Italy Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/italy-local-functionality.md)   
- [How to: Set Up Alternate Depreciation Methods](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-set-up-alternate-depreciation-methods.md)   
- [How to: Create Multiple Fixed Asset Cards](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-create-multiple-fixed-asset-cards.md)   
- [How to: Set Up Compressed Depreciation of Fixed Assets](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-set-up-compressed-depreciation-of-fixed-assets.md)   
- [How to: Print Depreciation Book Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-print-depreciation-book-reports.md)
+ [Manage Fixed Assets](../FullExperience/manage-fixed-assets.md)   
+ [Italy Local Functionality](../FullExperience/italy-local-functionality.md)   
+ [How to: Set Up Alternate Depreciation Methods](../FullExperience/how-to-set-up-alternate-depreciation-methods.md)   
+ [How to: Create Multiple Fixed Asset Cards](../FullExperience/how-to-create-multiple-fixed-asset-cards.md)   
+ [How to: Set Up Compressed Depreciation of Fixed Assets](../FullExperience/how-to-set-up-compressed-depreciation-of-fixed-assets.md)   
+ [How to: Print Depreciation Book Reports](../FullExperience/how-to-print-depreciation-book-reports.md)

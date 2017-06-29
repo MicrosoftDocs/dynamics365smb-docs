@@ -1,45 +1,20 @@
 ---
-title: "How to: Create and Post Sales Allowances"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "sales, allowances"
-  - "sales, posting allowances"
-  - "posting sales, allowances"
-ms.assetid: 18294806-791e-4477-8c4f-623346968101
-caps.latest.revision: 7
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Create and Post Sales Allowances
 You can send a customer a credit memo with a price reduction if the customer has received slightly damaged items or received the items late.  
   
@@ -65,19 +40,19 @@ You can send a customer a credit memo with a price reduction if the customer has
   
 7.  In the **Unit Price** field, enter the amount of the sales allowance.  
   
-8.  Assign the sales allowance as an item charge to the items in the posted shipment. For more information, see [How to: Assign Item Charges to Sales Documents](../Sales/how-to-assign-item-charges-to-sales-documents.md). When you have assigned the allowance, return to the credit memo window.  
+8.  Assign the sales allowance as an item charge to the items in the posted shipment. For more information, see [How to: Assign Item Charges to Sales Documents](../FullExperience/how-to-assign-item-charges-to-sales-documents.md). When you have assigned the allowance, return to the credit memo window.  
   
 ### To post a sales allowance  
   
-1.  In the **\($ N\_44 Sales Credit Memo $\)** window, on the **Actions** tab, in the **Posting** group, choose **Post**.  
+1.  In the **Sales Credit Memo** window, on the **Actions** tab, in the **Posting** group, choose **Post**.  
   
      If you want to print the credit memo at the same time as you post, choose   **Post and Print** instead.  
   
 2.  Choose the **Yes** button, or if you are posting a return order, select **Receive and Invoice**, and then choose the **OK** button.  
   
 ## See Also  
- [How to: Create Sales Return Orders](../Sales/how-to-create-sales-return-orders.md)   
- [How to: Get Return Receipt Lines for Item Charges](../Finance/how-to-get-return-receipt-lines-for-item-charges.md)   
- [How to: Get Shipment Lines for Item Charges](../Finance/how-to-get-shipment-lines-for-item-charges.md)   
- [How to: Post Sales Returns](../Sales/how-to-post-sales-returns.md)   
- [How to: Suggest Item Charge Assignments on Sales Documents](../Finance/how-to-suggest-item-charge-assignments-on-sales-documents.md)
+ [How to: Create Sales Return Orders](../FullExperience/how-to-create-sales-return-orders.md)   
+ [How to: Get Return Receipt Lines for Item Charges](../FullExperience/how-to-get-return-receipt-lines-for-item-charges.md)   
+ [How to: Get Shipment Lines for Item Charges](../FullExperience/how-to-get-shipment-lines-for-item-charges.md)   
+ [How to: Post Sales Returns](../FullExperience/how-to-post-sales-returns.md)   
+ [How to: Suggest Item Charge Assignments on Sales Documents](../FullExperience/how-to-suggest-item-charge-assignments-on-sales-documents.md)

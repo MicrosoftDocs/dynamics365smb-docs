@@ -1,43 +1,20 @@
 ---
-title: "Design Details: Table Structure"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "dimension set entries, table structure"
-ms.assetid: 9c05a350-b021-4758-9006-60e7e253657e
-caps.latest.revision: 8
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Design Details: Table Structure
 To understand how the dimension entry storing and posting is redesigned, it is important to understand the table structure.  
   
@@ -106,9 +83,9 @@ To understand how the dimension entry storing and posting is redesigned, it is i
 |12|**Dimension Value ID**|Integer|AutoIncrement. Used for references in table 480 and table 481.|  
   
 ###### Tables That Get New Field 480 Dimension Set ID  
- A new field, 480 **Dimension Set ID**, has been added to the following tables. For the tables that store posted data, the field only provides a non\-editable display of dimensions, which is marked as Drill\-down. For the tables that store working documents, the field is editable. The buffer tables that are used internally do not need editable or non\-editable capabilities.  
+ A new field, 480 **Dimension Set ID**, has been added to the following tables. For the tables that store posted data, the field only provides a non-editable display of dimensions, which is marked as Drill-down. For the tables that store working documents, the field is editable. The buffer tables that are used internally do not need editable or non-editable capabilities.  
   
- The 480 field is non\-editable in the following tables.  
+ The 480 field is non-editable in the following tables.  
   
 |Table No.|Table Name|  
 |---------------|----------------|  
@@ -209,8 +186,8 @@ To understand how the dimension entry storing and posting is redesigned, it is i
 |7136|**Item Budget Buffer**|  
   
 ## See Also  
- [Design Details: Dimension Set Entries](../ApplicationDesign/design-details-dimension-set-entries.md)   
- [Dimension Set Entries Overview](../ApplicationDesign/dimension-set-entries-overview.md)   
- [Design Details: Searching for Dimension Combinations](../ApplicationDesign/design-details-searching-for-dimension-combinations.md)   
- [Design Details: Codeunit 408 Dimension Management](../ApplicationDesign/design-details-codeunit-408-dimension-management.md)   
- [Design Details: Code Examples of Changed Patterns in Modifications](../ApplicationDesign/design-details-code-examples-of-changed-patterns-in-modifications.md)
+ [Design Details: Dimension Set Entries](../FullExperience/design-details-dimension-set-entries.md)   
+ [Dimension Set Entries Overview](../FullExperience/dimension-set-entries-overview.md)   
+ [Design Details: Searching for Dimension Combinations](../FullExperience/design-details-searching-for-dimension-combinations.md)   
+ [Design Details: Codeunit 408 Dimension Management](../FullExperience/design-details-codeunit-408-dimension-management.md)   
+ [Design Details: Code Examples of Changed Patterns in Modifications](../FullExperience/design-details-code-examples-of-changed-patterns-in-modifications.md)

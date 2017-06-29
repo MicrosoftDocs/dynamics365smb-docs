@@ -1,51 +1,22 @@
 ---
-title: "How to: Process Consolidations"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "consolidating, processing"
-  - "consolidating, setting up"
-  - "consolidations, processing"
-ms.assetid: 914d227b-ea61-4c02-8e94-0babcda4e367
-caps.latest.revision: 13
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-my"
-  - "en-nz"
-  - "en-ph"
-  - "en-sg"
-  - "en-zw"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Process Consolidations
-This topic provides a high\-level overview of how you can work through the consolidation process.  
+This topic provides a high-level overview of how you can work through the consolidation process.  
   
 ## Setting Up the Consolidation Company  
  Before you can perform a consolidation, you must set up the consolidated company. The company must be set up like any other company with its own chart of accounts and dimensions.  
@@ -54,15 +25,15 @@ This topic provides a high\-level overview of how you can work through the conso
   
 1.  The chart of accounts for a company that will be consolidated must specify accounts for consolidation. For each posting general ledger account in each company, you must specify the general ledger account in the consolidated company to which the balance will be transferred on consolidation. This is a mapping that will allow companies with different chart of accounts to be consolidated together.  
   
-     For more information about how to specify accounts for consolidations, see [How to: Enter Consolidation Information on General Ledger Accounts](../Finance/how-to-enter-consolidation-information-on-general-ledger-accounts.md).  
+     For more information about how to specify accounts for consolidations, see [How to: Enter Consolidation Information on General Ledger Accounts](../FullExperience/how-to-enter-consolidation-information-on-general-ledger-accounts.md).  
   
 2.  To consolidate several companies' financial data in a consolidated company, you must enter information about the subsidiary as business units to be included and about how much their figures will be included.  
   
-     For more information about how to enter information about the subsidiary, see [How to: Enter Basic Information for Consolidated Companies](../Finance/how-to-enter-basic-information-for-consolidated-companies.md).  
+     For more information about how to enter information about the subsidiary, see [How to: Enter Basic Information for Consolidated Companies](../FullExperience/how-to-enter-basic-information-for-consolidated-companies.md).  
   
 3.  You can specify exchange rates when consolidating the financial statements of business units if the financial statements are in a foreign currency. The three exchange rates that are used are **Average Rate \(Manual\)**, **Closing Rate**, and **Last Closing Rate**.  
   
-     For more information about how to specify exchange rates, see [How to: Specify Exchange Rates for Consolidations](../Finance/how-to-specify-exchange-rates-for-consolidations.md).  
+     For more information about how to specify exchange rates, see [How to: Specify Exchange Rates for Consolidations](../FullExperience/how-to-specify-exchange-rates-for-consolidations.md).  
   
 4.  You can consolidate dimension information and general ledger accounts. In the **Dimensions Value** window, fill out the **Consolidation Code** field. How the **Consolidation Code** field is filled in depends on whether dimension information is transferred to the consolidated company when you consolidate.  
   
@@ -70,10 +41,10 @@ This topic provides a high\-level overview of how you can work through the conso
     |---------------------------|----------------------|  
     |If you do not want to consolidate dimension information.|Leave the **Consolidation Code** field blank.<br /><br /> **NOTE:** Make sure not to select any dimensions in the **Copy Dimensions** fields in any consolidation functions or reports described later in this topic.|  
     |If you want to consolidate dimension information.|Leave the **Consolidation Code** field blank.<br /><br /> **NOTE:** However, the consolidation will only work if the dimension values in the business unit are the same as the consolidated company.|  
-    |When the dimension value code in the business unit is to be consolidated to a different dimension value code in the consolidated company.|Fill in the **Consolidated Code** field.<br /><br /> **NOTE:** The contents of the field should be the dimension value code that is contained in the consolidated company. For more information about how to consolidate dimension information, see [How to: Set Up Dimensions and Dimension Values](../Finance/how-to-set-up-dimensions-and-dimension-values.md).|  
+    |When the dimension value code in the business unit is to be consolidated to a different dimension value code in the consolidated company.|Fill in the **Consolidated Code** field.<br /><br /> **NOTE:** The contents of the field should be the dimension value code that is contained in the consolidated company. For more information about how to consolidate dimension information, see [How to: Set Up Dimensions and Dimension Values](../FullExperience/how-to-set-up-dimensions-and-dimension-values.md).|  
   
 ## Exporting Data for Consolidations  
- If a business unit is located in another database, you must export the consolidation data to a file before it can be consolidated. Each company must be exported separately. For this purpose, use the **\($ B\_91 Export Consolidation $\)** batch job.  
+ If a business unit is located in another database, you must export the consolidation data to a file before it can be consolidated. Each company must be exported separately. For this purpose, use the **Export Consolidation** batch job.  
   
  After the batch job is run, all the entries in every general ledger account are processed. For every combination of selected dimensions and date, the contents of the entries' **Amount** fields are totaled and exported. The next combination of selected dimensions and date with the same account number is processed, then the combinations in the next account number are processed, and so on.  
   
@@ -89,7 +60,7 @@ This topic provides a high\-level overview of how you can work through the conso
   
 4.  The XML files also contain the currency exchange rates in the consolidation period. These rates are included in a separate section at the beginning of the file.  
   
- For more information about how to export the consolidation data, see [How to: Export Business Unit Information](../Finance/how-to-export-business-unit-information.md).  
+ For more information about how to export the consolidation data, see [How to: Export Business Unit Information](../FullExperience/how-to-export-business-unit-information.md).  
   
 ## Testing Data  
  Before you consolidate the data, it is a good idea to check whether there are differences between the basic information in the business units and in the consolidated company.  
@@ -98,9 +69,9 @@ This topic provides a high\-level overview of how you can work through the conso
   
 1.  There are two reports that are designed to test a database and file.  
   
-2.  For more information about how to test a database, see [How to: Test Databases Before Consolidating](../Finance/how-to-test-databases-before-consolidating.md).  
+2.  For more information about how to test a database, see [How to: Test Databases Before Consolidating](../FullExperience/how-to-test-databases-before-consolidating.md).  
   
-3.  For more information about how to test a file, see [How to: Test Files Before Consolidating](../Finance/how-to-test-files-before-consolidating.md).  
+3.  For more information about how to test a file, see [How to: Test Files Before Consolidating](../FullExperience/how-to-test-files-before-consolidating.md).  
   
 ## Consolidating the Data  
  After you have tested the data, you can begin the consolidation by importing the data from the business units.  
@@ -109,7 +80,7 @@ This topic provides a high\-level overview of how you can work through the conso
   
 -   This process can be done by either consolidating from the same database or consolidating from files.  
   
-     For more information, see [How to: Consolidate from Databases](../Finance/how-to-consolidate-from-databases.md) or [How to: Consolidate from Files](../Finance/how-to-consolidate-from-files.md).  
+     For more information, see [How to: Consolidate from Databases](../FullExperience/how-to-consolidate-from-files.md).  
   
 ## Processing Consolidation Eliminations  
  After you have consolidated all the companies, you must make elimination entries to remove transactions that are recorded across more than one company or remove entries involving intercompany transactions.  
@@ -122,8 +93,8 @@ This topic provides a high\-level overview of how you can work through the conso
   
 3.  Post the journal.  
   
- Before you post the eliminations, you can verify the effect on the trial balance of the consolidated company by using the ![Shortcut icon](../BusinessFunctionality/OnlineMaps/media/shortcutcoldicon.gif "shortcutColdIcon")**[\($ R\_16 G\/L Consolidation Eliminations $\)](DynamicsNAV:////runreport?report=16)** report. The report displays a tentative trial balance. It shows the consequences of eliminating the entries by comparing the entries in the consolidated company with the eliminations that have been entered in the general journal. Calculating the eliminations is a time\-consuming manual process that may be aided by setting up specific intercompany accounts, intercompany customers\/vendors, and intercompany posting groups.  
+ Before you post the eliminations, you can verify the effect on the trial balance of the consolidated company by using the ![Shortcut icon](../FullExperience/media/shortcutcoldicon.gif "shortcutColdIcon")**G\/L Consolidation Eliminations** report. The report displays a tentative trial balance. It shows the consequences of eliminating the entries by comparing the entries in the consolidated company with the eliminations that have been entered in the general journal. Calculating the eliminations is a time-consuming manual process that may be aided by setting up specific intercompany accounts, intercompany customers\/vendors, and intercompany posting groups.  
   
 ## See Also  
- [\($ R\_17 Consolidated Trial Balance $\)](../Topic/\($%20R_17%20Consolidated%20Trial%20Balance%20$\).md)   
- [\($ R\_18 Consolidated Trial Balance \(4\) $\)](../Topic/\($%20R_18%20Consolidated%20Trial%20Balance%20\(4\)%20$\).md)
+ Consolidated Trial Balance   
+ Consolidated Trial Balance \(4\)%20$\).md)

@@ -1,49 +1,20 @@
 ---
-title: "How to: Create Work Center Calendars"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "shop calendars, work centers"
-  - "resource availability, calendars"
-  - "statistics, work center"
-  - "shop calendars, setting up"
-  - "capacities, setting up calendars"
-  - "resource availability, work centers"
-  - "calendars, work centers"
-ms.assetid: 8c505637-cc19-4d45-a312-aadbf1aa0154
-caps.latest.revision: 14
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Create Work Center Calendars
 A work center calendar specifies the working days and hours, shifts, holidays, and absences that determine the work center’s gross available capacity, measured in time, according to its defined efficiency and capacity values. Creating and enabling a work center calendar involves several preparatory tasks.  
   
@@ -91,7 +62,7 @@ A work center calendar specifies the working days and hours, shifts, holidays, a
     Tuesday 07:00 15:00 1  
     Tuesday 15:00 23:00 2  
   
-     Any week days that you do not define in the shop calendar, such as Saturday and Sunday, are considered non\-working days and will have zero available capacity in a work center calendar.  
+     Any week days that you do not define in the shop calendar, such as Saturday and Sunday, are considered non-working days and will have zero available capacity in a work center calendar.  
   
      When all the working days of a week are defined, you can close the **Shop Calendar Working Days** window and proceed to enter holidays.  
   
@@ -155,4 +126,4 @@ A work center calendar specifies the working days and hours, shifts, holidays, a
  The capacity of the selected day has now decreased by the recorded absence time.  
   
 ## See Also  
- [Shop Calendars](../OperationsPlanning/shop-calendars.md)
+ [Shop Calendars](../FullExperience/shop-calendars.md)

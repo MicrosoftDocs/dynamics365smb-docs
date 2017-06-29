@@ -1,43 +1,20 @@
 ---
-title: "About Cost Accounting"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "cost accounting, about"
-ms.assetid: b9ef8001-ea78-4639-813a-c3f7a8b36d7c
-caps.latest.revision: 12
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # About Cost Accounting
 Cost accounting can help you understand the costs of running a business. Cost accounting information is designed to analyze:  
   
@@ -64,7 +41,7 @@ Cost accounting can help you understand the costs of running a business. Cost ac
   
  The following diagram shows the workflow in cost accounting.  
   
- ![Cost Accounting overview](../Finance/media/costaccountingoverview.png "CostAccountingOverview")  
+ ![Cost Accounting overview](../FullExperience/media/costaccountingoverview.png "CostAccountingOverview")  
   
 ## Cost Types, Cost Centers, and Cost Objects  
  You define cost types, cost centers, and cost objects to analyze what the costs are, where the costs come from, and who should bear the costs.  
@@ -85,7 +62,7 @@ Cost accounting can help you understand the costs of running a business. Cost ac
 ## Cost Allocations  
  Allocations move costs and revenues between cost types, cost centers, and cost objects. Overhead costs are first posted to cost centers and later charged to cost objects. For example, this might be done in a sales department that sells several products at the same time. Direct costs can be directly allocated to a cost object, such as a material purchased for a specific product.  
   
- The allocation base that is used and the accuracy of the allocation definition have an influence on the results of cost allocations. The allocation definition is used to allocate costs first from so\-called pre\-cost centers to main cost centers and then from cost centers to cost objects.  
+ The allocation base that is used and the accuracy of the allocation definition have an influence on the results of cost allocations. The allocation definition is used to allocate costs first from so-called pre-cost centers to main cost centers and then from cost centers to cost objects.  
   
  Each allocation consists of an allocation source and one or more allocation targets. You can allocate actual values or budgeted values by using the static allocation method that is based on a definite value, such as square footage, or an established allocation ratio of 5:2:4. You can also allocate actual values or budgeted values by using the dynamic allocation method with nine predefined allocation bases and 12 dynamic date ranges.  
   
@@ -96,5 +73,5 @@ Cost accounting can help you understand the costs of running a business. Cost ac
  Most reports and statistics are based on the posted cost entries. You can set the sorting of the results and use filters to define which data must be displayed. You can create reports for cost distribution analysis. In addition, you can use the standard account schedules to define how your reports for the chart of cost types are displayed.  
   
 ## See Also  
- [Manage Cost Accounting](../Finance/manage-cost-accounting.md)   
- [Terminology in Cost Accounting](../Finance/terminology-in-cost-accounting.md)
+ [Manage Cost Accounting](../FullExperience/manage-cost-accounting.md)   
+ [Terminology in Cost Accounting](../FullExperience/terminology-in-cost-accounting.md)

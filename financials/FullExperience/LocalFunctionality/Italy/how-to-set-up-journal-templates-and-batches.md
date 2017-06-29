@@ -1,22 +1,20 @@
 ---
-title: "How to: Set Up Journal Templates and Batches"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "journal batches, setting up for Intrastat"
-  - "journal templates, setting up for Intrastat"
-  - "Intrastat, setting up journals"
-ms.assetid: de2a9634-3fd7-4c78-9327-a84a001d34dc
-caps.latest.revision: 18
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "it-it"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up Journal Templates and Batches
 All European Union \(EU\) companies must submit Intrastat reports to the customs office, detailing their trade with other EU countries\/regions for the current year. An Intrastat summary report is presented to the tax authorities monthly, quarterly, or yearly depending upon the company's business.  
   
@@ -28,9 +26,9 @@ All European Union \(EU\) companies must submit Intrastat reports to the customs
   
 2.  To create a new Intrastat journal template, on the **Home** tab, choose **New**.  
   
-3.  In the **\($ N\_325 Intrastat Journal Templates $\)** window, fill in the fields as described in the following table.  
+3.  In the **Intrastat Journal Templates** window, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Name**|The name of the Intrastat journal template. You can enter a maximum of 10 alphanumeric characters.|  
     |**Description**|The description of the Intrastat journal template. You can enter a maximum of 80 alphanumeric characters.|  
@@ -41,11 +39,11 @@ All European Union \(EU\) companies must submit Intrastat reports to the customs
   
 1.  In the **Search** box, enter **Intrastat Journal Templates**, and then choose the related link.  
   
-2.  To open the **\($ N\_327 Intrastat Jnl. Batches $\)** window, select the required template, and then, on the **Navigate** tab, in the **Templates** group, choose **Batches**.  
+2.  To open the **Intrastat Jnl. Batches** window, select the required template, and then, on the **Navigate** tab, in the **Templates** group, choose **Batches**.  
   
 3.  Fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Name**|The name of the Intrastat journal. You can enter a maximum of 10 alphanumeric characters.|  
     |**Description**|The description of the Intrastat journal. You can enter a maximum of 50 alphanumeric characters.|  
@@ -53,15 +51,15 @@ All European Union \(EU\) companies must submit Intrastat reports to the customs
     |**Type**|Select one of the following options:<br /><br /> -   **Purchases**<br />-   **Sales**|  
     |**Statistics Period**|The statistics period that the report will cover. Enter the value in YYMM format.|  
     |**Corrective Entry**|Select the **Corrective Entry** check box to correct an entry.|  
-    |**File Disk No.**|The number of the file disk.<br /><br /> This is used when you run the [\($ B\_593 Intrastat \- Make Disk Tax Auth $\)](../Topic/\($%20B_593%20Intrastat%20-%20Make%20Disk%20Tax%20Auth%20$\).md) batch job.|  
+    |**File Disk No.**|The number of the file disk.<br /><br /> This is used when you run the Intrastat - Make Disk Tax Auth batch job.|  
     |**Currency Identifier**|The code to identify the currency for the Intrastat report.|  
-    |**Reported**|If the entry has already been reported to the tax authorities, select the **Reported** check box. This check box is selected automatically when you run the **\($ B\_593 Intrastat \- Make Disk Tax Auth $\)** batch job for this entry.|  
+    |**Reported**|If the entry has already been reported to the tax authorities, select the **Reported** check box. This check box is selected automatically when you run the **Intrastat - Make Disk Tax Auth** batch job for this entry.|  
   
 4.  To close the window, choose the **OK** button.  
   
- For more information, see [How to: Print Intrastat Reports for Italy](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-print-intrastat-reports-for-italy.md).  
+ For more information, see [How to: Print Intrastat Reports for Italy](../FullExperience/how-to-print-intrastat-reports-for-italy.md).  
   
 ## See Also  
- [How to: Set Up Intrastat Journal Templates and Batches](../../Finance/how-to-set-up-intrastat-journal-templates-and-batches.md)   
- [Italy Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/italy-local-functionality.md)   
- [How to: Print Intrastat Reports for Italy](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/how-to-print-intrastat-reports-for-italy.md)
+ [How to: Set Up Intrastat Journal Templates and Batches](../FullExperience/how-to-set-up-intrastat-journal-templates-and-batches.md)   
+ [Italy Local Functionality](../FullExperience/italy-local-functionality.md)   
+ [How to: Print Intrastat Reports for Italy](../FullExperience/how-to-print-intrastat-reports-for-italy.md)

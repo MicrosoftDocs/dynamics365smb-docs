@@ -1,22 +1,20 @@
 ---
-title: "How to: Calculate Tax Differences"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "tax accounting"
-  - "taxes"
-  - "tax differences, calculating"
-  - "taxes, calculating differences"
-ms.assetid: 2d999083-9ac3-4f82-9c4e-9fd41b733f13
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "ru-ru"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Calculate Tax Differences
 Tax differences are variations in tax amounts caused by the different rules for recognizing income and expenses between entries for book accounting and tax accounting.  
   
@@ -26,7 +24,7 @@ Tax differences are variations in tax amounts caused by the different rules for 
   
 2.  Fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Periodicity**|Select **Month**, **Quarter**, or **Year** to define the type of accounting period that is used for tax calculations.|  
     |**Accounting Period**|Select the appropriate accounting period that is used for tax calculations.|  
@@ -37,11 +35,11 @@ Tax differences are variations in tax amounts caused by the different rules for 
   
 3.  Choose the **OK** button.  
   
- The tax differences for the period are calculated. You can view the tax difference calculation entries by opening the **\($ N\_17300 Tax Differences $\)** window.  
+ The tax differences for the period are calculated. You can view the tax difference calculation entries by opening the **Tax Differences** window.  
   
 ## See Also  
- [Tax Accounting](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/tax-accounting.md)   
+ [Tax Accounting](../FullExperience/tax-accounting.md)   
  [Tax Reports](assetId:///e42ca8e7-1cee-4fb8-9f71-e596f29cabc3)   
- [Tax Registers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/tax-registers.md)   
- [How to: Create Tax Registers](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/how-to-create-tax-registers.md)   
- [Tax Differences](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/tax-differences.md)
+ [Tax Registers](../FullExperience/tax-registers.md)   
+ [How to: Create Tax Registers](../FullExperience/how-to-create-tax-registers.md)   
+ [Tax Differences](../FullExperience/tax-differences.md)

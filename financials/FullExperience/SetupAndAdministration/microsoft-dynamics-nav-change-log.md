@@ -1,39 +1,30 @@
 ---
-title: "Microsoft Dynamics NAV Change Log"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "change log, about"
-  - "Outlook synchronization, change logs"
-ms.assetid: c1ea1427-3e22-498f-a87f-7ca21f4b6093
-caps.latest.revision: 8
-ms.author: "edupont"
-manager: "tsiggaar"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-de"
-  - "es-es"
-  - "fi-fi"
-  - "fr-fr"
-  - "it-it"
-  - "nb-no"
-  - "nl-nl"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Microsoft Dynamics NAV Change Log
-The change log in [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] logs changes that are made to data in the tables that you track. In the change log, entries are chronologically ordered and show changes that are made to the fields on the specified tables.  
+The change log in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> logs changes that are made to data in the tables that you track. In the change log, entries are chronologically ordered and show changes that are made to the fields on the specified tables.  
   
- The change log collects all changes that are made to the table. For more information, see [How to: Enable the Change Log](../SetupAndAdministration/how-to-enable-the-change-log.md).  
+ The change log collects all changes that are made to the table. For more information, see [How to: Enable the Change Log](../FullExperience/how-to-enable-the-change-log.md).  
   
 ## Modifying How Changes Are Logged  
- The default behavior in [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] tracks all changes that are made to the data. The change log code is called from the `OnDatabaseInsert` function in codeunit 1, **Application Management**. This is different from [!INCLUDE[nav2009](../SetupAndAdministration/includes/nav2009_md.md)], in which changes are only tracked when users make changes in the [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] user interface. If you want to revert to the [!INCLUDE[nav2009](../SetupAndAdministration/includes/nav2009_md.md)] behavior, you can move the relevant code to an `OnGlobalInsert` function that you create based on [!INCLUDE[nav2009](../SetupAndAdministration/includes/nav2009_md.md)].  
+ The default behavior in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/nav2009_md.md)]-->.  
   
 ## See Also  
- [How to: Enable the Change Log](../SetupAndAdministration/how-to-enable-the-change-log.md)   
- [How to: View Change Log Entries](../SetupAndAdministration/how-to-view-change-log-entries.md)   
- [How to: Print Change Log Entries](../SetupAndAdministration/how-to-print-change-log-entries.md)   
- [How to: Delete Change Log Entries](../SetupAndAdministration/how-to-delete-change-log-entries.md)
+ [How to: Enable the Change Log](../FullExperience/how-to-enable-the-change-log.md)   
+ [How to: View Change Log Entries](../FullExperience/how-to-view-change-log-entries.md)   
+ [How to: Print Change Log Entries](../FullExperience/how-to-print-change-log-entries.md)   
+ [How to: Delete Change Log Entries](../FullExperience/how-to-delete-change-log-entries.md)

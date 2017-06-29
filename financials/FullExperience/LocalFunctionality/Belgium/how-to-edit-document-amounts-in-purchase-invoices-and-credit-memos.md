@@ -1,23 +1,22 @@
 ---
-title: "How to: Edit Document Amounts in Purchase Invoices and Credit Memos"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "purchase invoices, editing document amounts"
-  - "credit memos, editing document amounts"
-ms.assetid: b7199629-2388-4bbf-bfa9-10c7665e52ac
-caps.latest.revision: 3
-ms.author: "edupont"
-translation.priority.ht: 
-  - "fr-be"
-  - "nl-be"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Edit Document Amounts in Purchase Invoices and Credit Memos
-[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] lets you easily edit document amounts in purchase invoices and credit memos.  
+ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> lets you easily edit document amounts in purchase invoices and credit memos.  
   
 ### To edit document amounts  
   
@@ -25,9 +24,9 @@ translation.priority.ht:
   
 2.  Edit the document amount in the **Doc. Amount Incl. VAT** field and the **Doc. Amount VAT** field.  
   
-3.  The value entered in the **Doc. Amount Incl. VAT** field is divided on the invoice lines according to how it was defined in the standard vendor purchase code scheme in the **\($ T\_173 Standard Purchase Code $\)** table. Accept the proposal and post the invoice or credit memo.  
+3.  The value entered in the **Doc. Amount Incl. VAT** field is divided on the invoice lines according to how it was defined in the standard vendor purchase code scheme in the **Standard Purchase Code** table. Accept the proposal and post the invoice or credit memo.  
   
 ## See Also  
- [\($ T\_38 Purchase Header $\)](../Topic/\($%20T_38%20Purchase%20Header%20$\).md)   
- [How to: Set Up Standard Purchase and Sales Lines](../../Purchasing/how-to-set-up-standard-purchase-and-sales-lines.md)   
- [\($ T\_173 Standard Purchase Code $\)](../Topic/\($%20T_173%20Standard%20Purchase%20Code%20$\).md)
+ Purchase Header   
+ [How to: Set Up Standard Purchase and Sales Lines](../FullExperience/how-to-set-up-standard-purchase-and-sales-lines.md)   
+ Standard Purchase Code

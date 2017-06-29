@@ -1,43 +1,20 @@
 ---
-title: "Design Details: Planning Assignment Table"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "planning, assignment table"
-ms.assetid: 87aab8e0-25e6-44cf-9ea1-2f3f582d4e1e
-caps.latest.revision: 6
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Design Details: Planning Assignment Table
 All items should be planned for, however, there is no reason to calculate a plan for an item unless there has been a change in the demand or supply pattern since the last time a plan was calculated.  
   
@@ -45,7 +22,7 @@ All items should be planned for, however, there is no reason to calculate a plan
   
  For multiple locations, the assignment takes place at the level of item per location combination. If, for example, a sales order has been created at only one location, the program will assign the item at that specific location for planning.  
   
- The reason for selecting items for planning is a matter of system performance. If no change in an item’s demand\-supply pattern has occurred, the planning system will not suggest any actions to be taken. Without the planning assignment, the system would have to perform the calculations for all items in order to find out what to plan for, and that would drain system resources.  
+ The reason for selecting items for planning is a matter of system performance. If no change in an item’s demand-supply pattern has occurred, the planning system will not suggest any actions to be taken. Without the planning assignment, the system would have to perform the calculations for all items in order to find out what to plan for, and that would drain system resources.  
   
  The **Planning Assignment** table monitors demand and supply events and assigns the appropriate items for planning. The following events are monitored:  
   
@@ -61,7 +38,7 @@ All items should be planned for, however, there is no reason to calculate a plan
   
 -   Unplanned changes in inventory.  
   
- For these direct supply\-demand displacements, the order tracking and action messaging system maintains the Planning Assignment table and states a planning reason as an action message.  
+ For these direct supply-demand displacements, the order tracking and action messaging system maintains the Planning Assignment table and states a planning reason as an action message.  
   
  The following changes in master data can also cause a planning imbalance:  
   
@@ -100,7 +77,7 @@ All items should be planned for, however, there is no reason to calculate a plan
 -   MRP: If the planning system detects that the item is being replenished by an MPS planning line or MPS supply order, the item will be left out of the planning. However, any demand from relevant components is included.  
   
 ## See Also  
- [Design Details: Balancing Demand and Supply](../ApplicationDesign/design-details-balancing-demand-and-supply.md)   
- [Design Details: Handling Reordering Policies](../ApplicationDesign/design-details-handling-reordering-policies.md)   
- [Design Details: Transfers in Planning](../ApplicationDesign/design-details-transfers-in-planning.md)   
- [Design Details: Planning Parameters](../ApplicationDesign/design-details-planning-parameters.md)
+ [Design Details: Balancing Demand and Supply](../FullExperience/design-details-balancing-demand-and-supply.md)   
+ [Design Details: Handling Reordering Policies](../FullExperience/design-details-handling-reordering-policies.md)   
+ [Design Details: Transfers in Planning](../FullExperience/design-details-transfers-in-planning.md)   
+ [Design Details: Planning Parameters](../FullExperience/design-details-planning-parameters.md)

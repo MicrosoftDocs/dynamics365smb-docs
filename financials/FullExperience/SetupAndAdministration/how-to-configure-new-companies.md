@@ -1,54 +1,31 @@
 ---
-title: "How to: Configure New Companies"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "RapidStart Services, configuring companies"
-ms.assetid: 37966db3-275a-440f-b73f-f1ac811e01c0
-caps.latest.revision: 9
-ms.author: "solsen"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Configure New Companies
 You can configure and customize a new company that you have created. To fine tune your implementation, you proceed in three phases to complete your configuration. In the first phase, you import the configuration package, which is a .rapidstart file that you have saved. The file contains configuration information. In the second phase, you modify the configuration information, and then apply it to your new company. In the final phase, you review and fix errors.  
   
- The following procedures assume that you have created and saved a configuration package. For more information, see [How to: Create a Configuration Package](../SetupAndAdministration/how-to-create-a-configuration-package.md).  
+ The following procedures assume that you have created and saved a configuration package. For more information, see [How to: Create a Configuration Package](../FullExperience/how-to-create-a-configuration-package.md).  
   
 > [!NOTE]  
->  Before implementing the following procedures, make sure that you have initialized and opened your new company and are on the [!INCLUDE[rim](../Roles/includes/rim_md.md)] Role Center. To change your Role Center home page, see [How to: Change Role Centers](../GettingStarted/how-to-change-role-centers.md). Choose the RapidStart Profile ID.  
+>  Before implementing the following procedures, make sure that you have initialized and opened your new company and are on the ADD INCLUDE<!--[!INCLUDE[rim](../../includes/how-to-change-role-centers.md). Choose the RapidStart Profile ID.  
   
 ### To import a configuration package  
   
-1.  Open the new company in the [!INCLUDE[nav_windows](../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_windows_md.md)].  
+1.  Open the new company in the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/nav_windows_md.md)]-->.  
   
 2.  In the **Search** box, enter **Configuration Packages**, and then select the related link.  
   
@@ -105,7 +82,7 @@ You can configure and customize a new company that you have created. To fine tun
   
 3.  Fix errors and add missing related tables to the worksheet.  
   
-4.  Add the tables to the existing configuration package, or create a new package that only contains the new tables. For more information, see [How to: Create a Configuration Package](../SetupAndAdministration/how-to-create-a-configuration-package.md).  
+4.  Add the tables to the existing configuration package, or create a new package that only contains the new tables. For more information, see [How to: Create a Configuration Package](../FullExperience/how-to-create-a-configuration-package.md).  
   
 5.  Reopen the new company for which you are implementing the configuration.  
   
@@ -117,6 +94,6 @@ You can configure and customize a new company that you have created. To fine tun
 7.  Apply the data to the database.  
   
 ## See Also  
- [Apply Configuration to New Companies](../SetupAndAdministration/apply-configuration-to-new-companies.md)   
- [How to: Copy Data to New Companies](../SetupAndAdministration/how-to-copy-data-to-new-companies.md)   
- [Configure the User Interface](../SetupAndAdministration/configure-the-user-interface.md)
+ [Apply Configuration to New Companies](../FullExperience/apply-configuration-to-new-companies.md)   
+ [How to: Copy Data to New Companies](../FullExperience/how-to-copy-data-to-new-companies.md)   
+ [Configure the User Interface](../FullExperience/configure-the-user-interface.md)

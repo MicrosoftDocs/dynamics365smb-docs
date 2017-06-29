@@ -1,23 +1,20 @@
 ---
-title: "How to: Set Up and Close Income Statement Balances"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "income statements, setting up balances"
-  - "balances, income statements"
-  - "income statements, closing balances"
-  - "closing, income statement balances"
-ms.assetid: 8f85fba6-8afa-4bec-81b3-a4828f5434e6
-caps.latest.revision: 22
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "es-es"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up and Close Income Statement Balances
 You can use income statement balancing accounts to balance and track several accounts at the same time. The **Close Income Statement** batch job transfers income statement accounts to an account in the balance sheet, and closes the income statement accounts. When the **Close Income Statement** batch job is run, the entries are automatically posted.  
   
@@ -45,7 +42,7 @@ You can use income statement balancing accounts to balance and track several acc
   
 2.  In the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Fiscal Year Ending Date**|Select the date of the closed fiscal year.|  
     |**Gen. Journal Template**|Select the required general journal template.|  
@@ -56,7 +53,7 @@ You can use income statement balancing accounts to balance and track several acc
   
 3.  In the **Close by** section, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Business Unit Code**|Select to create an entry for each business code.|  
     |**Dimensions**|Select to create an entry for each general ledger dimension.|  
@@ -65,4 +62,4 @@ You can use income statement balancing accounts to balance and track several acc
 4.  Choose the **OK** button.  
   
 ## See Also  
- [Spain Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/spain-local-functionality.md)
+ [Spain Local Functionality](../FullExperience/spain-local-functionality.md)

@@ -1,45 +1,20 @@
 ---
-title: "How to: Assign Confidential Information Codes to Employees"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "confidential information, assigning codes"
-  - "codes, confidential information"
-  - "employees, assigning employment codes"
-ms.assetid: d7770cc3-109c-46f3-82f1-1db969ae7731
-caps.latest.revision: 6
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Assign Confidential Information Codes to Employees
 You can set up confidential information codes for confidential information, such as company pension, stock option plan, salary, and so on, related to your employees.  
   
@@ -56,4 +31,4 @@ You can set up confidential information codes for confidential information, such
 4.  In the **Confidential Information** window, fill in as many lines as necessary to register the confidential information that is relevant to the employee.  
   
 ## See Also  
- [How to: Access an Overview of Confidential Information](../HumanResources/how-to-access-an-overview-of-confidential-information.md)
+ [How to: Access an Overview of Confidential Information](../FullExperience/how-to-access-an-overview-of-confidential-information.md)

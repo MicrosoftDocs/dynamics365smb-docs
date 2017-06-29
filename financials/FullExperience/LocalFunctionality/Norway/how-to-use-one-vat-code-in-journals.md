@@ -1,17 +1,20 @@
 ---
-title: "How to: Use One VAT Code in Journals"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-ms.assetid: 4e6ce4e6-6d10-46d1-8e00-1388422c82bf
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "nb-no"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Use One VAT Code in Journals
 In Norway, you can use the feature one VAT code in a journal, so that you can post VAT by using a single field, **VAT Code**. After it is set up, the one VAT code is a quick way to fill in the commonly used VAT fields.  
   
@@ -37,21 +40,21 @@ In Norway, you can use the feature one VAT code in a journal, so that you can po
   
 2.  On the **Home** tab, choose **New**.  
   
-3.  In the **\($ N\_473 VAT Posting Setup $\)** card, fill in the following fields:  
+3.  In the **VAT Posting Setup** card, fill in the following fields:  
   
-    -   **\($ T\_325\_1 VAT Business Posting Group $\)**  
+    -   **VAT Business Posting Group**  
   
-    -   **\($ T\_325\_2 VAT Product Posting Group $\)**  
+    -   **VAT Product Posting Group**  
   
-    -   **\($ T\_325\_13 VAT Identifier $\)**  
+    -   **VAT Identifier**  
   
-    -   **\($ T\_325\_4 VAT Percentage $\)**  
+    -   **VAT Percentage**  
   
-    -   **\($ T\_325\_7 Sales VAT Account $\)**  
+    -   **Sales VAT Account**  
   
-    -   **\($ T\_325\_9 Purchase VAT Account $\)**  
+    -   **Purchase VAT Account**  
   
-4.  In the **\($ T\_325\_10606 VAT Code $\)** field, select a code from the list.  
+4.  In the **VAT Code** field, select a code from the list.  
   
  Now, when you post a document in the general journal and close it, the information specified in the **VAT Posting Setup** card is applied.  
   
@@ -63,4 +66,4 @@ In Norway, you can use the feature one VAT code in a journal, so that you can po
 >  No changes are made to the posting.  
   
 ## See Also  
- [Norwegian VAT Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/norwegian-vat-codes.md)
+ [Norwegian VAT Codes](../FullExperience/norwegian-vat-codes.md)

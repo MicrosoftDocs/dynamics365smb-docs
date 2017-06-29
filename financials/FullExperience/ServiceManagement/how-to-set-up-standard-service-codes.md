@@ -1,43 +1,20 @@
 ---
-title: "How to: Set Up Standard Service Codes"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "setting up (service management), service codes"
-ms.assetid: 5b62a66c-8da8-48d6-b91a-be719f644047
-caps.latest.revision: 6
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up Standard Service Codes
 You can use standard service codes to create service documents with similar combinations of service lines. If you set up standard service codes and then link standard service lines to them, this will allow you to automatically insert service lines in service documents. You can assign the standard service codes to service item groups.  
   
@@ -54,5 +31,5 @@ You can use standard service codes to create service documents with similar comb
 5.  Repeat these steps for each code you want to set up.  
   
 ## See Also  
- [How to: Insert Service Lines by Using Standard Service Codes](../Service/how-to-insert-service-lines-by-using-standard-service-codes.md)   
- [How to: Assign Standard Service Codes to Service Item Groups](../Service/how-to-assign-standard-service-codes-to-service-item-groups.md)
+ [How to: Insert Service Lines by Using Standard Service Codes](../FullExperience/how-to-insert-service-lines-by-using-standard-service-codes.md)   
+ [How to: Assign Standard Service Codes to Service Item Groups](../FullExperience/how-to-assign-standard-service-codes-to-service-item-groups.md)

@@ -1,23 +1,20 @@
 ---
-title: "How to: Set Up Use Tax and Purchase Tax"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "use tax"
-  - "purchase tax"
-ms.assetid: 67053fdf-10ed-4c61-9181-d0be9481ac52
-caps.latest.revision: 33
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "en-ca"
-  - "es-mx"
-  - "fr-ca"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up Use Tax and Purchase Tax
 Sales tax includes taxes that companies pay for using items:  
   
@@ -33,7 +30,7 @@ Sales tax includes taxes that companies pay for using items:
   
 3.  On the **Lines** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Tax Area Code**|The tax area code of the vendor.|  
     |**Use Tax**|Select to calculate use tax on the purchase line.|  
@@ -41,12 +38,12 @@ Sales tax includes taxes that companies pay for using items:
   
 4.  On the **Invoicing** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
-    |**Tax Liable**|Select to set up tax liability. **Important:**  This field is available in the **\($ T\_38 Purchase Header $\)** window, but it is not shown by default. To select the field, you must first add the column that shows this field. [!INCLUDE[bp_customize](../../Finance/includes/bp_customize_md.md)]|  
-    |**Tax Area Code**|The tax area code of the vendor. **Important:**  This field is available in the **\($ T\_38 Purchase Header $\)** window, but it is not shown by default. To select the field, you must first add the column that shows this field. [!INCLUDE[bp_customize](../../Finance/includes/bp_customize_md.md)]|  
-    |**Tax Exemption No.**|The company's tax exemption number. You can enter a maximum of 30 alphanumeric characters. **Important:**  This field is available in the **\($ T\_38 Purchase Header $\)** window, but it is not shown by default. To select the field, you must first add the column that shows this field. [!INCLUDE[bp_customize](../../Finance/includes/bp_customize_md.md)]|  
-    |**Provincial Tax Area Code**|The tax code for the province. **Important:**  This field is available in the **\($ T\_38 Purchase Header $\)** window, but it is not shown by default. To select the field, you must first add the column that shows this field. [!INCLUDE[bp_customize](../../Finance/includes/bp_customize_md.md)]|  
+    |**Tax Liable**|Select to set up tax liability. **Important:**  This field is available in the **Purchase Header** window, but it is not shown by default. To select the field, you must first add the column that shows this field. ADD INCLUDE<!--[!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]-->|  
+    |**Tax Area Code**|The tax area code of the vendor. **Important:**  This field is available in the **Purchase Header** window, but it is not shown by default. To select the field, you must first add the column that shows this field. ADD INCLUDE<!--[!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]-->|  
+    |**Tax Exemption No.**|The company's tax exemption number. You can enter a maximum of 30 alphanumeric characters. **Important:**  This field is available in the **Purchase Header** window, but it is not shown by default. To select the field, you must first add the column that shows this field. ADD INCLUDE<!--[!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]-->|  
+    |**Provincial Tax Area Code**|The tax code for the province. **Important:**  This field is available in the **Purchase Header** window, but it is not shown by default. To select the field, you must first add the column that shows this field. ADD INCLUDE<!--[!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]-->|  
   
 5.  Choose the **OK** button.  
   
@@ -56,9 +53,9 @@ Sales tax includes taxes that companies pay for using items:
   
 2.  In the **Tax Details** window, on the **Home** tab, in the **New** group, choose **New**.  
   
-3.  In the **New \- Tax Details** window, fill in the fields as described in the following table.  
+3.  In the **New - Tax Details** window, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Tax Jurisdiction Code**|The tax jurisdiction code for the tax detail entry.|  
     |**Tax Group Code**|The tax group code for the tax detail entry.|  
@@ -72,7 +69,7 @@ Sales tax includes taxes that companies pay for using items:
   
 2.  In the **Company Information** window, on the **Tax** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Tax Area Code**|The company's tax area code. The tax area code is used in conjunction with a tax group code field and the **Tax Liable** field to find the necessary information for calculating sales tax.|  
     |**Tax Exemption No.**|The company's tax exemption number. You can enter a maximum of 30 alphanumeric characters.|  
@@ -88,7 +85,7 @@ Sales tax includes taxes that companies pay for using items:
   
 3.  On the **General** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Do Not Use For Tax Calculation**|Select to specify whether the tax information included on this location record is to be used for sales tax calculations on purchase documents.|  
     |**Tax Area Code**|The tax area code for the location. The tax area code is used in conjunction with a tax group code field and the **Tax Liable** field to find the necessary information for calculating sales tax.|  
@@ -97,7 +94,7 @@ Sales tax includes taxes that companies pay for using items:
   
 4.  Choose the **OK** button.  
   
-### To set up purchase tax for non\-recoverable tax  
+### To set up purchase tax for non-recoverable tax  
   
 1.  In the **Search** box, enter **Tax Details**, and then choose the related link.  
   
@@ -111,10 +108,10 @@ Sales tax includes taxes that companies pay for using items:
 4.  Choose the **OK** button.  
   
 ## See Also  
- [How to: Set Up Sales Tax](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-set-up-sales-tax.md)   
- [How to: Set Up Sales Tax Groups](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-set-up-sales-tax-groups.md)   
- [How to: Set Up Sales Tax Jurisdictions](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-set-up-sales-tax-jurisdictions.md)   
- [How to: Set Up Unrealized Sales Tax and Sales Payment Discounts](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)   
- [How to: Set Up Sales Tax Details](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-set-up-sales-tax-details.md)   
- [How to: Enter Company Information](../../Finance/how-to-enter-company-information.md)   
- [How to: Set Up Locations](../../DesignAndEngineering/how-to-set-up-locations.md)
+ [How to: Set Up Sales Tax](../FullExperience/how-to-set-up-sales-tax.md)   
+ [How to: Set Up Sales Tax Groups](../FullExperience/how-to-set-up-sales-tax-groups.md)   
+ [How to: Set Up Sales Tax Jurisdictions](../FullExperience/how-to-set-up-sales-tax-jurisdictions.md)   
+ [How to: Set Up Unrealized Sales Tax and Sales Payment Discounts](../FullExperience/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)   
+ [How to: Set Up Sales Tax Details](../FullExperience/how-to-set-up-sales-tax-details.md)   
+ [How to: Enter Company Information](../FullExperience/how-to-enter-company-information.md)   
+ [How to: Set Up Locations](../FullExperience/how-to-set-up-locations.md)

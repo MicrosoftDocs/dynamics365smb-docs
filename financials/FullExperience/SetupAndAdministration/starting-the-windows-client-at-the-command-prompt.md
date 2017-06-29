@@ -1,15 +1,20 @@
 ---
-title: "Starting the Windows Client at the Command Prompt"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-ms.assetid: 072aad99-1c5c-4b9f-809b-dc3fafe06334
-caps.latest.revision: 2
-ms.author: "v-kiwhit"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Starting the Windows Client at the Command Prompt
 You can start the Microsoft Dynamics NAV Windows client at a command prompt. By adding command-line parameters, you can:
 
@@ -49,9 +54,9 @@ You can use the following parameters when you start the Microsoft Dynamics NAV W
 Parameter  |Description  
 ---------|---------
 -?     |       Displays this list of parameters.  
--configure     | Starts the Microsoft Dynamics NAV Windows client in configuration mode. You use configuration mode to configure a profile. To specify which profile to configure, add the **-profile** parameter.<br/>**Example:**<br/>This command starts the Microsoft Dynamics NAV Windows client in configuration mode for editing the Accounting Manager profile: `Microsoft.Dynamics.Nav.Client.exe -configure -profile:"Accounting Manager"` For more information, see [How to: Open Microsoft Dynamics NAV in Configuration Mode](../SetupAndAdministration/how-to-open-microsoft-dynamics-nav-in-configuration-mode.md).       
+-configure     | Starts the Microsoft Dynamics NAV Windows client in configuration mode. You use configuration mode to configure a profile. To specify which profile to configure, add the **-profile** parameter.<br/>**Example:**<br/>This command starts the Microsoft Dynamics NAV Windows client in configuration mode for editing the Accounting Manager profile: `Microsoft.Dynamics.Nav.Client.exe -configure -profile:"Accounting Manager"` For more information, see [How to: Open Microsoft Dynamics NAV in Configuration Mode](../FullExperience/how-to-open-microsoft-dynamics-nav-in-configuration-mode.md).       
 -debug     |Starts the Microsoft Dynamics NAV Windows client in debug mode.<br/>**Example:**<br/>This command starts the Microsoft Dynamics NAV Windows client in debug mode and runs the **Session List** page so that you can select a session to debug: Microsoft.Dynamics.Nav.Client.exe –debug "DynamicsNAV://localhost:7046/DynamicsNAV90 /CRONUS International Ltd./runpage?page=9506"         
--disablepersonalization     |Disables personalization in the Microsoft Dynamics NAV Windows client. Personalization lets users customize their Role Center and pages by showing or hiding elements such as actions, FactBoxes, FastTabs, and fields.<br/>**Example:**<br/>This command starts the Microsoft Dynamics NAV Windows client with personalization disabled for the Accounting Manager profile: <br/>**NOTE:** You can also disable personalization for users based on their Microsoft Dynamics NAV Windows client profile. For more information, see [How to: Disable Personalization](../SetupAndAdministration/how-to-disable-personalization.md).         
+-disablepersonalization     |Disables personalization in the Microsoft Dynamics NAV Windows client. Personalization lets users customize their Role Center and pages by showing or hiding elements such as actions, FactBoxes, FastTabs, and fields.<br/>**Example:**<br/>This command starts the Microsoft Dynamics NAV Windows client with personalization disabled for the Accounting Manager profile: <br/>**NOTE:** You can also disable personalization for users based on their Microsoft Dynamics NAV Windows client profile. For more information, see [How to: Disable Personalization](../FullExperience/how-to-disable-personalization.md).         
 -shownavigationpage     |Opens a specific page without displaying the navigation page.<br/>**Example:**<br/>This command starts the Microsoft Dynamics NAV Windows client on page 21 without showing the navigation page.<br/>`Microsoft.Dynamics.Nav.Client.exe -shownavigationpage:0 "DynamicsNAV://Server/Server Instance/Company/RunPage?Page=21"`      
 -fullscreen     |Opens a specific page in full-screen mode in Microsoft Dynamics NAV Windows client.<br/>**Example:**<br/>This command starts the Microsoft Dynamics NAV Windows client on page 21 in full-screen mode.<br/>`Microsoft.Dynamics.Nav.Client.exe -fullscreen "DynamicsNAV://Server/Server Instance/Company/RunPage?Page=21"`  
 -consolemode     |Starts the Microsoft Dynamics NAV Windows client in console mode to enable running codeunits without any user interface. This is, for example, useful for executing tests.<br/>**Example:**`Microsoft.Dynamics.Nav.CLIENT.exe -consolemode -settings:%DTClientTempPath%\ClientUserSettings.config "DynamicsNAV://localhost:7046/DynamicsNav/CRONUS International Ltd./runcodeunit?codeunit=101898" -ShowNavigationPage:0 > %INETROOT%\Build\Application\buildw1\databases\_RTC_RunInit.log`<br/>This example runs a test codeunit and writes the result to the _RTC_RunInit.log file.         

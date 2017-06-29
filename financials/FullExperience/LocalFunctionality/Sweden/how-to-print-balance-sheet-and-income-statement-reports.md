@@ -1,24 +1,22 @@
 ---
-title: "How to: Print Balance Sheet and Income Statement Reports"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "income statements, printing"
-  - "balances, income statements"
-  - "balance sheets, printing"
-ms.assetid: ecb39257-4bc7-4c4a-b742-0392923ec13b
-caps.latest.revision: 17
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Print Balance Sheet and Income Statement Reports
-You can print balance sheet reports and income statement reports to submit to banks and other authorities. The **\($ R\_11200 Balance Sheet $\)** report displays assets, liabilities, and equity. The **\($ R\_11201 Income Statement $\)** report displays income and expenses.  
+You can print balance sheet reports and income statement reports to submit to banks and other authorities. The **Balance Sheet** report displays assets, liabilities, and equity. The **Income Statement** report displays income and expenses.  
   
 ### To print a balance sheet report  
   
@@ -41,8 +39,8 @@ You can print balance sheet reports and income statement reports to submit to ba
 4.  Choose **Print** to print the report or choose **Preview** to view it on the screen.  
   
 ## See Also  
- [\($ R\_11200 Balance Sheet $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Sweden/-$-r_11200-balance-sheet-$-.md)   
- [\($ R\_11201 Income Statement $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Sweden/-$-r_11201-income-statement-$-.md)   
- [How to: View and Print Reports](../../WorkingWithDynamics/how-to-view-and-print-reports.md)   
- [How to: Set Filters](../../WorkingWithDynamics/how-to-set-filters.md)   
- [Sweden Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Sweden/sweden-local-functionality.md)
+ Balance Sheet   
+ Income Statement   
+ [How to: View and Print Reports](../FullExperience/how-to-view-and-print-reports.md)   
+ [How to: Set Filters](../FullExperience/how-to-set-filters.md)   
+ [Sweden Local Functionality](../FullExperience/sweden-local-functionality.md)

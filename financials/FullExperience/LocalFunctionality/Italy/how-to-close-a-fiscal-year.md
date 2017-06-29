@@ -1,23 +1,20 @@
 ---
-title: "How to: Close a Fiscal Year"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "fiscal years, closing"
-  - "closing, fiscal years"
-  - "year-end closing, posting"
-  - "year-end closing, entries"
-ms.assetid: 9f7fd695-e85c-4e96-8bc2-ad5f87dcb67a
-caps.latest.revision: 35
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "it-it"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Close a Fiscal Year
 To evaluate profit and loss, a fiscal year closing report is provided at the end of each fiscal year.  
   
@@ -25,9 +22,9 @@ To evaluate profit and loss, a fiscal year closing report is provided at the end
   
 -   Closing the fiscal year using the **Accounting Period** option.  
   
--   Generating a year\-end closing entry using the **Close Income Statement** option.  
+-   Generating a year-end closing entry using the **Close Income Statement** option.  
   
--   Posting the year\-end closing entry.  
+-   Posting the year-end closing entry.  
   
 ### To close a fiscal year  
   
@@ -40,13 +37,13 @@ To evaluate profit and loss, a fiscal year closing report is provided at the end
     > [!IMPORTANT]  
     >  After the fiscal year is closed it cannot be opened again, and the period in the fiscal year cannot be changed.  
   
-### To generate a year\-end closing entry using the Close Income Statement option  
+### To generate a year-end closing entry using the Close Income Statement option  
   
 1.  In the **Search** box, enter **Close Income Statement**, and then choose the related link.  
   
 2.  On the **Options** tab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Fiscal Year Ending Date**|The ending date for the fiscal year.|  
     |**Gen. Journal Template**|The name of the general journal template in which to place the entries.|  
@@ -62,7 +59,7 @@ To evaluate profit and loss, a fiscal year closing report is provided at the end
   
 3.  Choose the **OK**  button to create the journal entries.  
   
-### To post the year\-end closing entry  
+### To post the year-end closing entry  
   
 1.  In the **Search** box, enter **General Journals**, and then choose the related link.  
   
@@ -72,8 +69,8 @@ To evaluate profit and loss, a fiscal year closing report is provided at the end
   
 4.  To post the journal, on the **Home** tab, in the **Process** group, choose **Post**.  
   
-     An entry is posted to each income statement account so that it has a zero balance. The year\-end result is transferred to the balance sheet.  
+     An entry is posted to each income statement account so that it has a zero balance. The year-end result is transferred to the balance sheet.  
   
 ## See Also  
- [About Year\-End Processes](../../Finance/about-year-end-processes.md)   
- [Italy Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/italy-local-functionality.md)
+ [About Year-End Processes](../FullExperience/about-year-end-processes.md)   
+ [Italy Local Functionality](../FullExperience/italy-local-functionality.md)

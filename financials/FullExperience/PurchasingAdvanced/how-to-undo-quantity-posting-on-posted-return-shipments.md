@@ -1,44 +1,20 @@
 ---
-title: "How to: Undo Quantity Posting on Posted Return Shipments"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "quantity posting, undo"
-  - "undoing, return shipments"
-ms.assetid: c2c3a02a-af0b-4432-9539-4c5b0fd45a1b
-caps.latest.revision: 9
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Undo Quantity Posting on Posted Return Shipments
 If you have made an incorrect quantity posting, that is if you have made a return order with, for example, the wrong number of items and posted it as shipped but not invoiced, then you can undo the posting.  
   
@@ -48,7 +24,7 @@ If you have made an incorrect quantity posting, that is if you have made a retur
   
 2.  Open the relevant Posted Return Shipment and select the line or lines you want to correct.  
   
-3.  On the **Lines** FastTab, choose **Actions**![Action Menu icon](../DesignAndEngineering/media/actionmenuicon.png "actionMenuIcon"), choose **Functions**, and then choose **Undo Return Shipment.**  
+3.  On the **Lines** FastTab, choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Functions**, and then choose **Undo Return Shipment.**  
   
      A corrective line is inserted in the posted document, and the **Return Qty. Shipped** and **Return Shpd. Not Invd.** fields on the return order are set to zero.  
   
@@ -63,6 +39,6 @@ If you have made an incorrect quantity posting, that is if you have made a retur
 7.  Correct the entry in the **Quantity** field and post the order.  
   
 ## See Also  
- [\($ N\_6640 Purchase Return Order $\)](../Topic/\($%20N_6640%20Purchase%20Return%20Order%20$\).md)   
- [Manage Purchase Returns](../Purchasing/manage-purchase-returns.md)   
- [How to: Undo Quantity Postings on Posted Shipments](../Sales/how-to-undo-quantity-postings-on-posted-shipments.md)
+ Purchase Return Order   
+ [Manage Purchase Returns](../FullExperience/manage-purchase-returns.md)   
+ [How to: Undo Quantity Postings on Posted Shipments](../FullExperience/how-to-undo-quantity-postings-on-posted-shipments.md)

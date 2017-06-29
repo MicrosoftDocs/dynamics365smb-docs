@@ -1,49 +1,26 @@
 ---
-title: "How to: Cancel Allocations"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "allocations, canceling"
-ms.assetid: 660f6de2-2d1f-4a81-8a8e-487be3df19bf
-caps.latest.revision: 8
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Cancel Allocations
 If you need to cancel allocations of resources, for example, technicians, to service tasks without reallocating the tasks directly, you can cancel the allocations.  
   
 ### To cancel an allocation  
   
-1.  In the **Search** box, enter **\($ N\_6000 Dispatch Board $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Dispatch Board**, and then choose the related link.  
   
 2.  Browse to the relevant service order. On the **Navigate** tab, in the **Planning** group, choose **Resource Allocations**. The **Resource Allocations** window opens.  
   
@@ -60,5 +37,5 @@ If you need to cancel allocations of resources, for example, technicians, to ser
  Repeat these steps for each service task that you want to cancel allocation for.  
   
 ## See Also  
- [How to: Reallocate Resources by Using the Dispatch Board](../Service/how-to-reallocate-resources-by-using-the-dispatch-board.md)   
- [Allocation Status and Repair Status](../Service/allocation-status-and-repair-status.md)
+ [How to: Reallocate Resources by Using the Dispatch Board](../FullExperience/how-to-reallocate-resources-by-using-the-dispatch-board.md)   
+ [Allocation Status and Repair Status](../FullExperience/allocation-status-and-repair-status.md)

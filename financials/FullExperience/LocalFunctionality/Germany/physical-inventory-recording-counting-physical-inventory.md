@@ -1,21 +1,20 @@
 ---
-title: "Physical Inventory Recording - Counting Physical Inventory"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "physical inventory, counting"
-  - "inventory, counting"
-ms.assetid: 4f30b803-4746-42ae-9202-3b9937683d45
-caps.latest.revision: 5
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "de-de"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Physical Inventory Recording - Counting Physical Inventory
 After you have created a physical inventory order and after you have entered the physical inventory order lines, you can take the physical inventory. Therefore you can use the physical inventory recording documents.  
   
@@ -27,17 +26,17 @@ After you have created a physical inventory order and after you have entered the
   
  You can create lines manually or you can have the program to create new physical inventory recordings automatically. You can print physical inventory recording lists.  
   
- By setting the [\($ T\_5005352\_11 Status $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/-$-t_5005352_11-status-$-.md) to finished, you tell the program, that the current physical inventory recording has been finished.  
+ By setting the Status to finished, you tell the program, that the current physical inventory recording has been finished.  
   
 > [!NOTE]  
->  When you finish the current physical inventory recording, the program assigns every physical inventory recording line to one line of the related physical inventory order. The program assigns this physical inventory order lines with the same values in the 4 fields [\($ T\_5005351\_20 Item No. $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/-$-t_5005351_20-item-no.-$-.md), [\($ T\_5005351\_21 Variant Code $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/-$-t_5005351_21-variant-code-$-.md), [\($ T\_5005351\_22 Location Code $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/-$-t_5005351_22-location-code-$-.md) and [\($ T\_5005351\_23 Bin Code $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/-$-t_5005351_23-bin-code-$-.md) like in the physical inventory recording line.  
+>  When you finish the current physical inventory recording, the program assigns every physical inventory recording line to one line of the related physical inventory order. The program assigns this physical inventory order lines with the same values in the 4 fields Item No., Variant Code, Location Code and Bin Code like in the physical inventory recording line.  
 >   
->  If there is no such physical inventory order line the program will automatically insert a new line when finishing the physical inventory recording. The program will note this by placing a check mark in the field [\($ T\_5005351\_80 Recorded without Order $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/-$-t_5005351_80-recorded-without-order-$-.md) on the physical inventory order line.  
+>  If there is no such physical inventory order line the program will automatically insert a new line when finishing the physical inventory recording. The program will note this by placing a check mark in the field Recorded without Order on the physical inventory order line.  
 >   
 >  If there are more than one such physical inventory order lines, an error message appears. You can have the program to show you the duplicate lines.  
   
 ## See Also  
- [How to: Create a Physical Inventory Recording](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-create-a-physical-inventory-recording.md)   
- [How to: Finish a Physical Inventory Recording](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-finish-a-physical-inventory-recording.md)   
- [How to: View Duplicate Physical Inventory Order Lines](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/how-to-view-duplicate-physical-inventory-order-lines.md)   
- [Physical Inventory Order Lines With Item Tracking Lines](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/physical-inventory-order-lines-with-item-tracking-lines.md)
+ [How to: Create a Physical Inventory Recording](../FullExperience/how-to-create-a-physical-inventory-recording.md)   
+ [How to: Finish a Physical Inventory Recording](../FullExperience/how-to-finish-a-physical-inventory-recording.md)   
+ [How to: View Duplicate Physical Inventory Order Lines](../FullExperience/how-to-view-duplicate-physical-inventory-order-lines.md)   
+ [Physical Inventory Order Lines With Item Tracking Lines](../FullExperience/physical-inventory-order-lines-with-item-tracking-lines.md)

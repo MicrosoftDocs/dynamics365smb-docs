@@ -1,55 +1,20 @@
 ---
-title: "How to: Reverse Journal Postings"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "journal postings"
-  - "erroneous entries, reversing journal postings"
-  - "ledger entries, deleting"
-  - "deleting, journal postings"
-  - "ledger entries, reversing"
-  - "entries, reversing"
-  - "posting, reverse journals"
-  - "correcting, journal postings"
-  - "reversing, journal postings"
-ms.assetid: a184af83-d880-49cd-a5e7-4a4af9d2c522
-caps.latest.revision: 12
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-my"
-  - "en-nz"
-  - "en-ph"
-  - "en-sg"
-  - "en-zw"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Reverse Journal Postings
 To undo an erroneous journal posting, select the entry and create a reverse  entry \(entries identical to the original entry but with opposite sign in the amount field\) with the same document number and posting date as the original entry. After reversing an entry, you must make the correct entry.  
   
@@ -57,19 +22,19 @@ To undo an erroneous journal posting, select the entry and create a reverse  ent
   
  You can reverse entries from the following windows:  
   
--   [\($ N\_20 General Ledger Entries $\)](DynamicsNAV:////runpage?Page=20)  
+-   General Ledger Entries  
   
--   [\($ N\_25 Customer Ledger Entries $\)](DynamicsNAV:////runpage?Page=25)  
+-   Customer Ledger Entries  
   
--   [\($ N\_29 Vendor Ledger Entries $\)](DynamicsNAV:////runpage?Page=29)  
+-   Vendor Ledger Entries  
   
--   [\($ N\_372 Bank Account Ledger Entries $\)](DynamicsNAV:////runpage?Page=372)  
+-   Bank Account Ledger Entries  
   
--   [\($ N\_5604 FA Ledger Entries $\)](DynamicsNAV:////runpage?Page=5604)  
+-   FA Ledger Entries  
   
--   [\($ N\_5641 Maintenance Ledger Entries $\)](DynamicsNAV:////runpage?Page=5641)  
+-   Maintenance Ledger Entries  
   
--   [\($ N\_116 G\/L Registers $\)](DynamicsNAV:////runpage?Page=116)  
+-   G\/L Registers  
   
 ### To reverse a journal posting  
   
@@ -102,6 +67,6 @@ To undo an erroneous journal posting, select the entry and create a reverse  ent
 > -   Entries that have been date compressed.  
   
 ## See Also  
- [How to: Unapply Applied Customer or Vendor Ledger Entries](../Topic/How%20to:%20Unapply%20Applied%20Customer%20or%20Vendor%20Ledger%20Entries.md)   
- [How to: Make Corrections with General Journals](../Finance/how-to-make-corrections-with-general-journals.md)   
- [How to: Unapply Applied Customer or Vendor Ledger Entries](../Topic/How%20to:%20Unapply%20Applied%20Customer%20or%20Vendor%20Ledger%20Entries.md)
+ [How to: Unapply Applied Customer or Vendor Ledger Entries](../FullExperience/How%20to:%20Unapply%20Applied%20Customer%20or%20Vendor%20Ledger%20Entries.md)   
+ [How to: Make Corrections with General Journals](../FullExperience/how-to-make-corrections-with-general-journals.md)   
+ [How to: Unapply Applied Customer or Vendor Ledger Entries](../FullExperience/How%20to:%20Unapply%20Applied%20Customer%20or%20Vendor%20Ledger%20Entries.md)

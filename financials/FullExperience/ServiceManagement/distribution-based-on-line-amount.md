@@ -1,44 +1,20 @@
 ---
-title: "Distribution Based on Line Amount"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "distribution, based on line amount"
-  - "service contracts, changing distribution"
-ms.assetid: 90b59fe7-0d51-4b87-a6a7-211842eacf55
-caps.latest.revision: 8
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Distribution Based on Line Amount
 If you change the annual amount of the service contract or contract quote, you may want to distribute the difference between its new and calculated annual amounts on the contract lines. Distribution Based on Line Amount is an automatic method that can help you spread the new and calculated annual amounts difference between the line amounts on the contract lines. This distribution will be performed proportionally to their line amount shares in the calculated annual amount. The following list of distribution procedure steps for each contract line describe the main idea of this method:  
   
@@ -48,11 +24,11 @@ If you change the annual amount of the service contract or contract quote, you m
   
 3.  The contents in the **Line Discount Amount**, **Line Discount %**, and **Profit** fields are updated with regard to the new value in the **Line Discount Amount** field in the following way:  
   
-    -   Line Discount Amount \= Line Value \- Line Amount  
+    -   Line Discount Amount \= Line Value - Line Amount  
   
     -   Line Discount % \= Line Discount Amount \/ Line Value \* 100  
   
-    -   Profit \= Line Amount \- Line Cost  
+    -   Profit \= Line Amount - Line Cost  
   
  The steps are repeated for each contract line.  
   
@@ -83,12 +59,12 @@ If you change the annual amount of the service contract or contract quote, you m
 |----------|---------------|----------------|---------------------|--------------------------|-----------------|------------|  
 |Item 1|15.00|17.00|11.41|1.94|15.06|0.06|  
 |Item 2|20.00|23.00|8.65|1.99|21.01|1.01|  
-|Item 3|24.00|27.00|11.37|3.07|23.93|\-0.07|  
+|Item 3|24.00|27.00|11.37|3.07|23.93|-0.07|  
   
 ## See Also  
- [How to: Automatically Distribute the Annual Amount Difference on Contracts](../Service/how-to-automatically-distribute-the-annual-amount-difference-on-contracts.md)   
- [How to: Change the Annual Amount on Service Contracts or Contract Quotes](../Service/how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)   
- [Distribution Based on Profit](../Service/distribution-based-on-profit.md)   
- [Even Distribution](../Service/even-distribution.md)   
- [How to: Manually Distribute the Annual Amount Difference on Contracts](../Service/how-to-manually-distribute-the-annual-amount-difference-on-contracts.md)   
- [\($ T\_5964\_24 Line Amount $\)](../Topic/\($%20T_5964_24%20Line%20Amount%20$\).md)
+ [How to: Automatically Distribute the Annual Amount Difference on Contracts](../FullExperience/how-to-automatically-distribute-the-annual-amount-difference-on-contracts.md)   
+ [How to: Change the Annual Amount on Service Contracts or Contract Quotes](../FullExperience/how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)   
+ [Distribution Based on Profit](../FullExperience/distribution-based-on-profit.md)   
+ [Even Distribution](../FullExperience/even-distribution.md)   
+ [How to: Manually Distribute the Annual Amount Difference on Contracts](../FullExperience/how-to-manually-distribute-the-annual-amount-difference-on-contracts.md)   
+ Line Amount

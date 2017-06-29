@@ -1,20 +1,20 @@
 ---
-title: "How to: Print an Inventory Picking List from a Sales Order"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "inventory picking list, printing"
-ms.assetid: 8cb2f2f5-d628-41af-b077-5447566191a0
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "de-ch"
-  - "fr-ch"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Print an Inventory Picking List from a Sales Order
 You can print an inventory picking list directly from a sales order. The picking list contains a list of items with the following information:  
   
@@ -41,10 +41,10 @@ You can print an inventory picking list directly from a sales order. The picking
 5.  Choose the **Print** button to print the picking list or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [Swiss Purchase Documents and Sales Documents](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/swiss-purchase-documents-and-sales-documents.md)   
- [How to: Set Up Automatic Archiving of Documents in Switzerland](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-set-up-automatic-archiving-of-documents-in-switzerland.md)   
- [How to: Import Swiss Post Codes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-import-swiss-post-codes.md)   
- [How to: Print Sales and Purchase Orders During Batch Posting](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-print-sales-and-purchase-orders-during-batch-posting.md)   
- [\($ R\_5752 Picking List $\)](../../WarehouseActivities/-$-r_5752-picking-list-$-.md)   
- [\($ R\_813 Inventory Picking List $\)](../Topic/\($%20R_813%20Inventory%20Picking%20List%20$\).md)   
- [\($ R\_99000766 Prod. Order \- Picking List $\)](../Topic/\($%20R_99000766%20Prod.%20Order%20-%20Picking%20List%20$\).md)
+ [Swiss Purchase Documents and Sales Documents](../FullExperience/swiss-purchase-documents-and-sales-documents.md)   
+ [How to: Set Up Automatic Archiving of Documents in Switzerland](../FullExperience/how-to-set-up-automatic-archiving-of-documents-in-switzerland.md)   
+ [How to: Import Swiss Post Codes](../FullExperience/how-to-import-swiss-post-codes.md)   
+ [How to: Print Sales and Purchase Orders During Batch Posting](../FullExperience/how-to-print-sales-and-purchase-orders-during-batch-posting.md)   
+ Picking List   
+ Inventory Picking List   
+ Prod. Order - Picking List

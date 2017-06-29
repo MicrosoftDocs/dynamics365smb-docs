@@ -1,54 +1,26 @@
 ---
-title: "How to: Reclassify Lot Numbers and Serial Numbers"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "reclassifying, serial numbers"
-  - "reclassifying, lot numbers"
-  - "item tracking, reclassifying"
-  - "lot numbers, reclassifying"
-  - "reclassifying, item tracking"
-  - "serial numbers, reclassifying"
-ms.assetid: 40c61d72-1c1d-4680-bc90-4e1197582d27
-caps.latest.revision: 8
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Reclassify Lot Numbers and Serial Numbers
 Reclassifying item tracking for an item means changing a lot or serial number to a new lot or serial number or changing the expiration date to a new expiration date. If you are working with lots, you can also merge multiple lots into one. You perform these tasks using the item reclassification journal.  
   
 ### To reclassify item tracking  
   
-1.  In the **Search** box, enter **\($ N\_393 Item Reclass. Journal $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Item Reclass. Journal**, and then choose the related link.  
   
 2.  Fill in the line with the relevant information. On the **Navigate** tab, in the **Line** group, choose **Item Tracking Lines**.  
   
@@ -57,7 +29,7 @@ Reclassifying item tracking for an item means changing a lot or serial number to
 4.  If you want to enter a new item tracking number, enter it in the **New Serial No.** or **New Lot No.** field. If you want, you can merge one or more lots to one new or existing lot.  
   
     > [!NOTE]  
-    >  Be aware that when you reclassify expiration dates, then the items with the earliest expiration dates for outbound transactions are suggested first. For more information, see [Picking by FEFO](../WarehouseActivities/picking-by-fefo.md).  
+    >  Be aware that when you reclassify expiration dates, then the items with the earliest expiration dates for outbound transactions are suggested first. For more information, see [Picking by FEFO](../FullExperience/picking-by-fefo.md).  
   
 5.  If you would like to enter a new expiration date for the serial or lot number, enter it in the **New Expiration Date** field.  
   
@@ -77,6 +49,6 @@ Reclassifying item tracking for an item means changing a lot or serial number to
 8.  Post the journal to link the renewed item tracking numbers or expiration dates to the associated item ledger entry.  
   
 ## See Also  
- [How to: Assign Serial Numbers and Lot Numbers During Inbound Transactions](../WarehouseActivities/how-to-assign-serial-numbers-and-lot-numbers-during-inbound-transactions.md)   
- [How to: Assign Serial Numbers and Lot Numbers During Outbound Transactions](../WarehouseActivities/how-to-assign-serial-numbers-and-lot-numbers-during-outbound-transactions.md)   
- [How to: Record Serial Number and Lot Number Information](../DesignAndEngineering/how-to-record-serial-number-and-lot-number-information.md)
+ [How to: Assign Serial Numbers and Lot Numbers During Inbound Transactions](../FullExperience/how-to-assign-serial-numbers-and-lot-numbers-during-inbound-transactions.md)   
+ [How to: Assign Serial Numbers and Lot Numbers During Outbound Transactions](../FullExperience/how-to-assign-serial-numbers-and-lot-numbers-during-outbound-transactions.md)   
+ [How to: Record Serial Number and Lot Number Information](../FullExperience/how-to-record-serial-number-and-lot-number-information.md)

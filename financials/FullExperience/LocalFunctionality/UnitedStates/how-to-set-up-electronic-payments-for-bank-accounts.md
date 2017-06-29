@@ -1,25 +1,22 @@
 ---
-title: "How to: Set Up Electronic Payments for Bank Accounts"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "bank accounts, electronic payments"
-  - "electronic payments, setting up"
-ms.assetid: 48440ef2-d1c4-4496-8129-902a081eaa40
-caps.latest.revision: 28
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "en-ca"
-  - "es-mx"
-  - "fr-ca"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up Electronic Payments for Bank Accounts
-In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can send electronic payments to vendors and electronic refunds to customers using the electronic payments function.  
+In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can send electronic payments to vendors and electronic refunds to customers using the electronic payments function.  
   
  Electronic payments are exported in a standard United States or Canadian file format, and transmitted to the bank for processing. In the United States, this is done through the Automated Clearing House \(ACH\). In Canada, this is done through the Royal Bank.  
   
@@ -31,12 +28,12 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can se
   
 3.  On the **Transfer** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
-    |**Export Format**|The country\-specific file format for the export file. Choose the country\/region format that your bank uses.|  
-    |**\($ T\_270\_1210 Payment Export Format $\)**|The export file format when the format is not country\-specific.<br /><br /> If this field is filled, then the **\($ T\_270\_10011 Export Format $\)** field will be ignored. The payment file will be exported as set up in the **\($ T\_270\_1210 Payment Export Format $\)** field. For more information, see [How to: Export Payments to a Bank File](../../BusinessFunctionality/DataExchange/how-to-export-payments-to-a-bank-file.md).|  
-    |**E\-Pay Export File Path**|The full directory path, starting with the drive letter and ending with a back slash \(\\\). You can enter a maximum of 80 characters.|  
-    |**Last E\-Pay Export File Name**|The file name without the path information. The file name should contain digits. The name will be incremented every time that it is exported, maintaining a permanent record of every file that you export to the bank. You can enter a maximum of 30 characters.|  
+    |**Export Format**|The country-specific file format for the export file. Choose the country\/region format that your bank uses.|  
+    |**Payment Export Format**|The export file format when the format is not country-specific.<br /><br /> If this field is filled, then the **Export Format** field will be ignored. The payment file will be exported as set up in the **Payment Export Format** field. For more information, see [How to: Export Payments to a Bank File](../FullExperience/how-to-export-payments-to-a-bank-file.md).|  
+    |**E-Pay Export File Path**|The full directory path, starting with the drive letter and ending with a back slash \(\\\). You can enter a maximum of 80 characters.|  
+    |**Last E-Pay Export File Name**|The file name without the path information. The file name should contain digits. The name will be incremented every time that it is exported, maintaining a permanent record of every file that you export to the bank. You can enter a maximum of 30 characters.|  
     |**Transit No.**|The bank transit number.|  
     |**Bank Account No.**|The bank account number.|  
     |**Bank Branch No.**|The bank branch number.|  
@@ -47,7 +44,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can se
 4.  On the **Posting** FastTab, in the **Last Remittance Advice No.** field, enter the last remittance advice number.  
   
     > [!NOTE]  
-    >  Instead of using check stock to print remittance advice for employees who are not receiving a paycheck, you can print remittance advice using blank paper. If you use this option, you must use a different number series so that they are not confused with your check numbers. We recommend that you use letters in the number series, so that you can easily identify these as non\-checks. For example – RA00000. You can enter a maximum of 20 characters.  
+    >  Instead of using check stock to print remittance advice for employees who are not receiving a paycheck, you can print remittance advice using blank paper. If you use this option, you must use a different number series so that they are not confused with your check numbers. We recommend that you use letters in the number series, so that you can easily identify these as non-checks. For example – RA00000. You can enter a maximum of 20 characters.  
   
 5.  Create a directory on your computer for the transmission program path.  
   
@@ -70,5 +67,5 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can se
 7.  Choose the **OK** button.  
   
 ## See Also  
- [How to: Generate Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-generate-electronic-payments.md)   
- [How to: Void Posted Checks](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-void-posted-checks.md)
+ [How to: Generate Electronic Payments](../FullExperience/how-to-generate-electronic-payments.md)   
+ [How to: Void Posted Checks](../FullExperience/how-to-void-posted-checks.md)

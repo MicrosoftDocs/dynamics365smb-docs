@@ -1,20 +1,20 @@
 ---
-title: "How to: Export Payments Using LSV"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "LSV payments, exporting"
-ms.assetid: 3fbf75e9-3169-4204-a64b-6fc317ec57f5
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "de-ch"
-  - "fr-ch"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Export Payments Using LSV
 You can export or write Lastschrift Verfahren \(LSV\+\) files that contain payments information after closing the LSV collection. You can send the generated files to the bank on a disk, or use an electronic file transfer such as your online banking software or an Internet portal.  
   
@@ -26,9 +26,9 @@ You can export or write Lastschrift Verfahren \(LSV\+\) files that contain payme
   
 3.  On the **Actions** tab, in the **Functions** group, select **Write LSV File**.  
   
-4.  In the **\($ B\_3010834 Write LSV File $\)** window, on the **Options** FastTab, fill in the fields as described in the following table.  
+4.  In the **Write LSV File** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_3010834\_F\_1\_5 No. $\)**|Specify the LSV journal number that you want to export.|  
     |**\($ B\_3010834\_F\_1\_3 Test $\)**|Specify if you are sending test deliveries to your bank. The bank does not process test files.|  
@@ -36,10 +36,10 @@ You can export or write Lastschrift Verfahren \(LSV\+\) files that contain payme
 5.  All related lines are transferred to the LSV journal. The LSV file is generated in the predetermined folder.  
   
 ## See Also  
- [Swiss Electronic Payments Using LSV\+](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/swiss-electronic-payments-using-lsv-.md)   
- [How to: Process an LSV Collection](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-process-an-lsv-collection.md)   
- [How to: Close an LSV Collection](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-close-an-lsv-collection.md)   
- [How to: Post LSV\+ Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-post-lsv-payments.md)   
- [\($ T\_3010832 LSV Journal $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/-$-t_3010832-lsv-journal-$-.md)   
- [\($ T\_3010834 LSV Journal Line $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/-$-t_3010834-lsv-journal-line-$-.md)   
- [\($ T\_3010831 LSV Setup $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/-$-t_3010831-lsv-setup-$-.md)
+ [Swiss Electronic Payments Using LSV\+](../FullExperience/swiss-electronic-payments-using-lsv-.md)   
+ [How to: Process an LSV Collection](../FullExperience/how-to-process-an-lsv-collection.md)   
+ [How to: Close an LSV Collection](../FullExperience/how-to-close-an-lsv-collection.md)   
+ [How to: Post LSV\+ Payments](../FullExperience/how-to-post-lsv-payments.md)   
+ LSV Journal   
+ LSV Journal Line   
+ LSV Setup

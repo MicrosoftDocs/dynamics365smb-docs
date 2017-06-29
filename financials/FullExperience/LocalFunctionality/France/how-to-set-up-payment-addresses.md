@@ -1,21 +1,20 @@
 ---
-title: "How to: Set Up Payment Addresses"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "payment addresses"
-  - "payment management, setting up addresses"
-ms.assetid: 8d9fc32a-fa8a-49b0-a761-43e8ea902688
-caps.latest.revision: 15
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "fr-fr"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up Payment Addresses
 To use payment management, you must set up payment addresses that will be used for vendors and customers at the time of settlement. The payment address can differ from the default address.  
   
@@ -31,14 +30,14 @@ To use payment management, you must set up payment addresses that will be used f
   
 4.  Fill in the required fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Code**|The payment address code.|  
     |**Default Value**|Select to use this address as the default payment address. You can select one default payment address.|  
     |**Name**|The name associated with the payment address.|  
     |**Address**|The payment address.|  
   
-     For more information, see [\($ T\_10870 Payment Address $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/-$-t_10870-payment-address-$-.md).  
+     For more information, see Payment Address.  
   
 5.  Choose the **OK** button.  
   
@@ -46,12 +45,12 @@ To use payment management, you must set up payment addresses that will be used f
 >  If a payment address is not set up, the address in the vendor or customer card is set as the default value.  
   
 ## See Also  
- [Payment Management](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/payment-management.md)   
- [How to: Set Up Payment Classes](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-set-up-payment-classes.md)   
- [How to: Set Up Payment Statuses](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-set-up-payment-statuses.md)   
- [How to: Set Up Payment Steps](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-set-up-payment-steps.md)   
- [How to: Create Payment Slips](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-create-payment-slips.md)   
- [How to: Post Payment Slips](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-post-payment-slips.md)   
- [How to: Archive Payment Slips](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-archive-payment-slips.md)   
- [How to: Export or Import Payment Management Setup Parameters](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-export-or-import-payment-management-setup-parameters.md)   
- [\($ T\_10870 Payment Address $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/-$-t_10870-payment-address-$-.md)
+ [Payment Management](../FullExperience/payment-management.md)   
+ [How to: Set Up Payment Classes](../FullExperience/how-to-set-up-payment-classes.md)   
+ [How to: Set Up Payment Statuses](../FullExperience/how-to-set-up-payment-statuses.md)   
+ [How to: Set Up Payment Steps](../FullExperience/how-to-set-up-payment-steps.md)   
+ [How to: Create Payment Slips](../FullExperience/how-to-create-payment-slips.md)   
+ [How to: Post Payment Slips](../FullExperience/how-to-post-payment-slips.md)   
+ [How to: Archive Payment Slips](../FullExperience/how-to-archive-payment-slips.md)   
+ [How to: Export or Import Payment Management Setup Parameters](../FullExperience/how-to-export-or-import-payment-management-setup-parameters.md)   
+ Payment Address

@@ -1,46 +1,22 @@
 ---
-title: "Design Details: Item Tracking and Reservations"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "reservations, item tracking"
-  - "item tracking, reservations"
-ms.assetid: cf7e043f-61ef-4696-b6c0-9d809a77cf26
-caps.latest.revision: 6
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Design Details: Item Tracking and Reservations
-Simultaneous use of reservation and specific item tracking is uncommon, because they both create a coupling between supply and demand. Except for situations where a customer or production planner requests a specific lot, it rarely makes sense to reserve inventory items that already carry item tracking numbers for specific application. Although it is possible to reserve items that require specific item tracking, special functionality is needed to avoid availability conflicts between order processors that request the same item\-tracked items.  
+Simultaneous use of reservation and specific item tracking is uncommon, because they both create a coupling between supply and demand. Except for situations where a customer or production planner requests a specific lot, it rarely makes sense to reserve inventory items that already carry item tracking numbers for specific application. Although it is possible to reserve items that require specific item tracking, special functionality is needed to avoid availability conflicts between order processors that request the same item-tracked items.  
   
  The concept of Late Binding ensures that a nonspecific reservation of a serial number or a lot number remains loosely coupled until posting. At posting time, the reservation system can reshuffle nonspecific reservations to ensure that fixed application is possible against the serial or lot number that is actually picked. Meanwhile, the serial or lot number is made available for specific reservation in other documents that request that particular serial or lot number.  
   
@@ -51,7 +27,7 @@ Simultaneous use of reservation and specific item tracking is uncommon, because 
   
  Reservation of item tracking numbers falls into two categories, as shown in the following table.  
   
-|Reservation|[!INCLUDE[bp_tabledescription](../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+|Reservation|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
 |-----------------|---------------------------------------|  
 |Specific|You select a specific serial or lot number when you reserve the inventory item from a demand, such as a sales order.<br /><br /> This is a regular reservation. It is a rigid link between supply and demand that both carry serial or lot numbers. **Note:**  The demand carries serial or lot numbers. <br /><br /> For example, you want to reserve a can of blue paint from Lot A, because the customer requests it. A can of blue paint from Lot A is shipped to the customer.|  
 |Nonspecific|You do not select a specific serial or lot number when you reserve the inventory item from a demand, such as a sales order.<br /><br /> This is a state that is imposed on a reservation entry for serial or lot numbers that are not selected specifically. **Note:**  The demand does not carry serial or lot numbers. <br /><br /> For example, you want to reserve a can of blue paint from any lot for your sales order. A can of blue paint from a random serial or lot number is shipped to the customer.|  
@@ -64,17 +40,17 @@ Simultaneous use of reservation and specific item tracking is uncommon, because 
 |**Specific**|Serial or lot number.|Serial or lot number.|  
 |**Nonspecific**|Serial or lot number.|No serial or lot number.|  
   
- When you reserve inventory quantities from an outbound document line for an item that has item tracking numbers assigned and is set up for specific item tracking, the **\($ N\_498 Reservation $\)** window leads you through different workflows depending on your need for the serial or lot numbers.  
+ When you reserve inventory quantities from an outbound document line for an item that has item tracking numbers assigned and is set up for specific item tracking, the **Reservation** window leads you through different workflows depending on your need for the serial or lot numbers.  
   
 ## Specific Reservation  
- When you choose **Reserve** from the outbound document line, a dialog box appears that asks you if you want to reserve specific serial or lot numbers. If you choose **Yes**, then a list is displayed with all the serial or lot numbers that are assigned to the document line. The **\($ N\_498 Reservation $\)** window opens after you select one of the serial or lot numbers, and you can then reserve among the selected serial or lot numbers in a typical fashion.  
+ When you choose **Reserve** from the outbound document line, a dialog box appears that asks you if you want to reserve specific serial or lot numbers. If you choose **Yes**, then a list is displayed with all the serial or lot numbers that are assigned to the document line. The **Reservation** window opens after you select one of the serial or lot numbers, and you can then reserve among the selected serial or lot numbers in a typical fashion.  
   
- If some of the specific item tracking numbers that you are trying to reserve are held in nonspecific reservations, then a message at the bottom of the **\($ N\_498 Reservation $\)** window informs you how many of the total reserved quantity are held in nonspecific reservations and whether they are still available.  
+ If some of the specific item tracking numbers that you are trying to reserve are held in nonspecific reservations, then a message at the bottom of the **Reservation** window informs you how many of the total reserved quantity are held in nonspecific reservations and whether they are still available.  
   
 ## Nonspecific Reservation  
- If you choose **No** in the dialog box that appears, the **\($ N\_498 Reservation $\)** window opens and allows you to reserve among all serial or lot numbers in inventory.  
+ If you choose **No** in the dialog box that appears, the **Reservation** window opens and allows you to reserve among all serial or lot numbers in inventory.  
   
- Because of the structure of the reservation system, when you place a nonspecific reservation on an item\-tracked item, the system must select specific item ledger entries to reserve against. Because the item ledger entries carry the item tracking numbers, the reservation indirectly reserves specific serial or lot numbers, even though you did not intend to. To handle this situation, the reservation system tries to reshuffle nonspecific reservation entries before posting.  
+ Because of the structure of the reservation system, when you place a nonspecific reservation on an item-tracked item, the system must select specific item ledger entries to reserve against. Because the item ledger entries carry the item tracking numbers, the reservation indirectly reserves specific serial or lot numbers, even though you did not intend to. To handle this situation, the reservation system tries to reshuffle nonspecific reservation entries before posting.  
   
  The system actually still reserves against specific entries, but then it uses a reshuffling mechanism whenever there is specific demand for the lot or serial number in the nonspecific reservation. This can be the case when you post a demand transaction, such as a sales order, consumption journal, or transfer order, for the serial or lot number, or when you try to specifically reserve the serial or lot number. The system reshuffles the reservations to make the lot or serial number available to the demand or to the specific reservation, thereby placing a different lot or serial number in the nonspecific reservation. If there is insufficient quantity in inventory, the system reshuffles as much as possible, and you receive an availability error if there is still insufficient quantity at the time of posting.  
   
@@ -103,11 +79,11 @@ Simultaneous use of reservation and specific item tracking is uncommon, because 
 ### Reserve Specific Serial or Lot Numbers  
  In this business scenario, Late Binding functionality ensures that a user who is trying to reserve a particular serial or lot number that is currently nonspecifically reserved can do so. A nonspecific reservation is reshuffled at the time of reservation to free the serial or lot number for the specific request.  
   
- The reshuffle happens automatically, but embedded Help is displayed at the bottom of the **\($ N\_498 Reservation $\)** window and shows the following text:  
+ The reshuffle happens automatically, but embedded Help is displayed at the bottom of the **Reservation** window and shows the following text:  
   
  **XX of the Total Reserved Quantity are nonspecific and may be available.**  
   
- In addition, the **\($ T\_338\_6510 Nonspecific Reserved Qty. $\)** field shows how many reservation entries are nonspecific. By default, this field is not visible to users.  
+ In addition, the **Nonspecific Reserved Qty.** field shows how many reservation entries are nonspecific. By default, this field is not visible to users.  
   
 ### Posting an Outbound Document with Nonspecific Reservation of Serial or Lot Numbers  
  This business scenario is supported with Late Binding functionality that enables fixed application and outbound posting of what is actually picked by reshuffling another nonspecific reservation of a serial or lot number. If reshuffling is not possible, then the following standard error message appears when the user tries to post the shipment:  
@@ -115,4 +91,4 @@ Simultaneous use of reservation and specific item tracking is uncommon, because 
  **Item XX cannot be fully applied.**  
   
 ## See Also  
- [Design Details: Item Tracking](../ApplicationDesign/design-details-item-tracking.md)
+ [Design Details: Item Tracking](../FullExperience/design-details-item-tracking.md)

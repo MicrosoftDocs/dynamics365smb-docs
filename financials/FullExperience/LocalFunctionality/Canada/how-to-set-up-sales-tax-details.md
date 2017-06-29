@@ -1,22 +1,20 @@
 ---
-title: "How to: Set Up Sales Tax Details"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "sales tax, details"
-ms.assetid: 6db4e6c4-6989-4baf-94e4-257d0351b61d
-caps.latest.revision: 16
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "en-ca"
-  - "es-mx"
-  - "fr-ca"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up Sales Tax Details
 The **Tax Details** window contains a matrix table that uses different combinations of sales tax jurisdictions and sales tax groups to establish sales tax rates. For each tax jurisdiction, you are advised to set up one tax group for normal sales tax, another tax group for items or services that are not taxed, and an additional tax group for every type of item or service that is handled with a different sales tax rate in that jurisdiction.  
   
@@ -28,9 +26,9 @@ The **Tax Details** window contains a matrix table that uses different combinati
   
 2.  In the **Tax Details** window, on the **Home** tab, in the **New** group, choose **New**.  
   
-3.  In the **New \- Tax Details** window, fill in the fields as described in the following table.  
+3.  In the **New - Tax Details** window, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Tax Jurisdiction Code**|The tax jurisdiction code for the tax detail entry.|  
     |**Tax Group Code**|The tax group code for the tax detail entry.|  
@@ -50,7 +48,7 @@ The **Tax Details** window contains a matrix table that uses different combinati
   
 3.  On the **Invoicing** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Tax Liable**|Select to set up tax liability.|  
     |**Tax Area Code**|The tax area code of the customer.|  
@@ -58,13 +56,13 @@ The **Tax Details** window contains a matrix table that uses different combinati
   
 4.  Choose the **OK** button.  
   
- For customers with ship\-to addresses, you can select whether sales to each alternative address are tax liable, and you can enter a tax area code for each alternative address. This allows you to select the tax area that corresponds to the ship\-to location.  
+ For customers with ship-to addresses, you can select whether sales to each alternative address are tax liable, and you can enter a tax area code for each alternative address. This allows you to select the tax area that corresponds to the ship-to location.  
   
 ## See Also  
- [\($ R\_10322 Sales Tax Detail by Area  $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-r_10322-sales-tax-detail-by-area-$-.md)   
- [\($ R\_10323 Sales Tax Detail List $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-r_10323-sales-tax-detail-list-$-.md)   
- [How to: Set Up Sales Tax](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-set-up-sales-tax.md)   
- [How to: Set Up Sales Tax Groups](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-set-up-sales-tax-groups.md)   
- [How to: Set Up Sales Tax Jurisdictions](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-set-up-sales-tax-jurisdictions.md)   
- [How to: Set Up Unrealized Sales Tax and Sales Payment Discounts](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)   
- [How to: Set Up Use Tax and Purchase Tax](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-set-up-use-tax-and-purchase-tax.md)
+ Sales Tax Detail by Area   
+ Sales Tax Detail List   
+ [How to: Set Up Sales Tax](../FullExperience/how-to-set-up-sales-tax.md)   
+ [How to: Set Up Sales Tax Groups](../FullExperience/how-to-set-up-sales-tax-groups.md)   
+ [How to: Set Up Sales Tax Jurisdictions](../FullExperience/how-to-set-up-sales-tax-jurisdictions.md)   
+ [How to: Set Up Unrealized Sales Tax and Sales Payment Discounts](../FullExperience/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)   
+ [How to: Set Up Use Tax and Purchase Tax](../FullExperience/how-to-set-up-use-tax-and-purchase-tax.md)

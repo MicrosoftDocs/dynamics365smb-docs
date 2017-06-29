@@ -1,28 +1,22 @@
 ---
-title: "Enhanced Document Management"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "documents, archiving"
-  - "enhanced archive document management"
-  - "archiving, documents"
-  - "document management"
-ms.assetid: 3d1ef4a8-191c-44e7-a5b3-4e22008f6483
-caps.latest.revision: 25
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "fr-ch"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Enhanced Document Management
-In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can archive documents and track work across archived and non\-archived documents.  
+In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can archive documents and track work across archived and non-archived documents.  
   
 ## Archiving Documents  
  You can use enhanced archive document management to:  
@@ -66,11 +60,11 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you can ar
 -   Posted invoices  
   
 ## See Also  
- [About Blanket Sales Orders](../../Sales/about-blanket-sales-orders.md)   
- [About Blanket Purchase Orders](../../Purchasing/about-blanket-purchase-orders.md)   
- [How to: Set Up Automatic Archiving of Documents](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-set-up-automatic-archiving-of-documents.md)   
- [How to: Archive Blanket Orders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-archive-blanket-orders.md)   
- [How to: Create an Order from an Archived Blanket Order](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-create-an-order-from-an-archived-blanket-order.md)   
- [How to: Delete Archived Blanket Orders](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-delete-archived-blanket-orders.md)   
- [How to: Track Document Lines](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-track-document-lines.md)   
- [Germany Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Germany/germany-local-functionality.md)
+ [About Blanket Sales Orders](../FullExperience/about-blanket-sales-orders.md)   
+ [About Blanket Purchase Orders](../FullExperience/about-blanket-purchase-orders.md)   
+ [How to: Set Up Automatic Archiving of Documents](../FullExperience/how-to-set-up-automatic-archiving-of-documents.md)   
+ [How to: Archive Blanket Orders](../FullExperience/how-to-archive-blanket-orders.md)   
+ [How to: Create an Order from an Archived Blanket Order](../FullExperience/how-to-create-an-order-from-an-archived-blanket-order.md)   
+ [How to: Delete Archived Blanket Orders](../FullExperience/how-to-delete-archived-blanket-orders.md)   
+ [How to: Track Document Lines](../FullExperience/how-to-track-document-lines.md)   
+ [Germany Local Functionality](../FullExperience/germany-local-functionality.md)

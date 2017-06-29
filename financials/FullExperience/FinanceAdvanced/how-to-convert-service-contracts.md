@@ -1,48 +1,25 @@
 ---
-title: "How to: Convert Service Contracts"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "VAT rate, converting"
-ms.assetid: 71f440a1-44b1-4d50-834b-a1687ecffdf3
-caps.latest.revision: 6
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Convert Service Contracts
 Because the VAT rate change tool cannot convert service contracts, these contracts must be converted manually. This topic describes several alternative methods that you can use for service contract conversion.  
   
 > [!NOTE]  
->  This topic provides a high\-level workflow.  
+>  This topic provides a high-level workflow.  
   
  The following procedure describes how to correct an invoice for a prepaid service contact that has been created a year in advance.  
   
@@ -80,7 +57,7 @@ Because the VAT rate change tool cannot convert service contracts, these contrac
   
 ### To create contract expiration dates in contract lines  
   
-1.  In the **\($ N\_6050 Service Contract $\)** window, set the contract expiration date to **30.06.2012**.  
+1.  In the **Service Contract** window, set the contract expiration date to **30.06.2012**.  
   
 2.  On the **Actions** tab, in the **Functions** group, choose **Create Credit Memo** to automatically create a credit memo for July 2012 to December 2012.  
   
@@ -90,7 +67,7 @@ Because the VAT rate change tool cannot convert service contracts, these contrac
   
 ### To create a new credit memo  
   
-1.  Run the VAT rate change tool on July 1, 2012. The general product posting group or the VAT product posting group is changed. For more information, see [How to: Perform VAT Rate Conversions](../Finance/how-to-perform-vat-rate-conversions.md).  
+1.  Run the VAT rate change tool on July 1, 2012. The general product posting group or the VAT product posting group is changed. For more information, see [How to: Perform VAT Rate Conversions](../FullExperience/how-to-perform-vat-rate-conversions.md).  
   
 2.  After running the VAT rate change tool, enter a contract expiration date for the service contract. You can now delete the service contract line and create a new line that is identical to the old one.  
   
@@ -103,4 +80,4 @@ Because the VAT rate change tool cannot convert service contracts, these contrac
 6.  After the conversion is complete, VAT and service ledger entries will be correct.  
   
 ## See Also  
- [How to: Perform VAT Rate Conversions](../Finance/how-to-perform-vat-rate-conversions.md)
+ [How to: Perform VAT Rate Conversions](../FullExperience/how-to-perform-vat-rate-conversions.md)

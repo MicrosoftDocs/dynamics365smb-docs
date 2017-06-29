@@ -1,26 +1,20 @@
 ---
-title: "How to: Set Up Unrealized Sales Tax and Sales Payment Discounts"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "sales tax, unrealized"
-  - "payment discounts, setting up sales tax"
-  - "sales tax, payment discounts"
-  - "sales payment discounts"
-  - "unrealized tax"
-ms.assetid: 5099af58-e312-4f2e-982c-aa8e117c0eb9
-caps.latest.revision: 27
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "en-ca"
-  - "es-mx"
-  - "fr-ca"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up Unrealized Sales Tax and Sales Payment Discounts
 You can use the **General Ledger Setup** window to set up unrealized sales tax. You can also set up maximum correction tax amounts so that you can limit the tax correction amounts that are entered for sales and purchases. This allows you to overwrite the calculated tax when there are rounding differences between what is calculated on the purchase order, and what is calculated on the purchase invoice from the vendor.  
   
@@ -30,7 +24,7 @@ You can use the **General Ledger Setup** window to set up unrealized sales tax. 
   
 2.  In the **General Ledger Setup** window, on the **General** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Pmt. Disc. Excl. Tax**|Select to calculate the payment discount on amounts excluding sales tax.|  
     |**Adjust for Payment Disc.**|Select to recalculate the tax amounts when you post payments that trigger payment discounts.<br /><br /> This field is used in the context of VAT, not sales tax.|  
@@ -46,12 +40,12 @@ You can use the **General Ledger Setup** window to set up unrealized sales tax. 
   
 3.  Fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
-    |**Unrealized Tax Type**|\<Blank\> – The unrealized tax feature is not used for this tax jurisdiction.<br /><br /> –or–<br /><br /> **Percentage** – Each payment covers both tax amounts and invoice amounts in proportion to the remaining invoice amount. The paid tax amount is transferred from the unrealized tax account to the tax account.<br /><br /> –or–<br /><br /> **First** – Payments cover the tax first, and then the invoice amount.<br /><br /> –or–<br /><br /> **Last** – Payments cover the invoice amount first, and then the tax amount. In this case, nothing will be transferred from the unrealized tax account to the tax account until the total invoice amount—exclusive of tax—has been paid.<br /><br /> –or–<br /><br /> **First \(Fully Paid\)** – Payments cover the tax first, but nothing is transferred to the tax account until the full tax amount has been paid.<br /><br /> –or–<br /><br /> **Last \(Fully Paid\)** – Payments cover the invoice amount first, but nothing is transferred to the tax account until the full tax amount has been paid. **Important:**  This field is available in the **\($ T\_320 Tax Jurisdiction $\)** window, but it is not shown by default. To select the field, you must first add the column that shows this field. [!INCLUDE[bp_customize](../../Finance/includes/bp_customize_md.md)]|  
-    |**Unreal. Tax Acc \(Sales\)**|The general ledger account that you want to use to post calculated unrealized tax on sales transactions. **Important:**  This field is available in the **\($ T\_320 Tax Jurisdiction $\)** window, but it is not shown by default. To select the field, you must first add the column that shows this field. [!INCLUDE[bp_customize](../../Finance/includes/bp_customize_md.md)]|  
-    |**Unreal. Tax Acc \(Purchases\)**|The general ledger account that you want to use to post calculated unrealized tax on purchase transactions. **Important:**  This field is available in the **\($ T\_320 Tax Jurisdiction $\)** window, but it is not shown by default. To select the field, you must first add the column that shows this field. [!INCLUDE[bp_customize](../../Finance/includes/bp_customize_md.md)]|  
-    |**Unreal. Rev. Charge \(Purch.\)**|The general ledger account that you want to use for posting calculated unrealized reverse\-charge tax on purchase transactions. **Important:**  This field is available in the **\($ T\_320 Tax Jurisdiction $\)** window, but it is not shown by default. To select the field, you must first add the column that shows this field. [!INCLUDE[bp_customize](../../Finance/includes/bp_customize_md.md)]|  
+    |**Unrealized Tax Type**|\<Blank\> – The unrealized tax feature is not used for this tax jurisdiction.<br /><br /> –or–<br /><br /> **Percentage** – Each payment covers both tax amounts and invoice amounts in proportion to the remaining invoice amount. The paid tax amount is transferred from the unrealized tax account to the tax account.<br /><br /> –or–<br /><br /> **First** – Payments cover the tax first, and then the invoice amount.<br /><br /> –or–<br /><br /> **Last** – Payments cover the invoice amount first, and then the tax amount. In this case, nothing will be transferred from the unrealized tax account to the tax account until the total invoice amount—exclusive of tax—has been paid.<br /><br /> –or–<br /><br /> **First \(Fully Paid\)** – Payments cover the tax first, but nothing is transferred to the tax account until the full tax amount has been paid.<br /><br /> –or–<br /><br /> **Last \(Fully Paid\)** – Payments cover the invoice amount first, but nothing is transferred to the tax account until the full tax amount has been paid. **Important:**  This field is available in the **Tax Jurisdiction** window, but it is not shown by default. To select the field, you must first add the column that shows this field. ADD INCLUDE<!--[!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]-->|  
+    |**Unreal. Tax Acc \(Sales\)**|The general ledger account that you want to use to post calculated unrealized tax on sales transactions. **Important:**  This field is available in the **Tax Jurisdiction** window, but it is not shown by default. To select the field, you must first add the column that shows this field. ADD INCLUDE<!--[!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]-->|  
+    |**Unreal. Tax Acc \(Purchases\)**|The general ledger account that you want to use to post calculated unrealized tax on purchase transactions. **Important:**  This field is available in the **Tax Jurisdiction** window, but it is not shown by default. To select the field, you must first add the column that shows this field. ADD INCLUDE<!--[!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]-->|  
+    |**Unreal. Rev. Charge \(Purch.\)**|The general ledger account that you want to use for posting calculated unrealized reverse-charge tax on purchase transactions. **Important:**  This field is available in the **Tax Jurisdiction** window, but it is not shown by default. To select the field, you must first add the column that shows this field. ADD INCLUDE<!--[!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]-->|  
   
 4.  Choose the **OK** button.  
   
@@ -64,7 +58,7 @@ You can use the **General Ledger Setup** window to set up unrealized sales tax. 
 3.  In the **Tax Posting Setup Card** window, select the **Adjust for Payment Discount** check box.  
   
     > [!IMPORTANT]  
-    >  This field is available in the **\($ T\_472 VAT Posting Setup $\)** window, but it is not shown by default. To select the field, you must first add the column that shows this field. [!INCLUDE[bp_customize](../../Finance/includes/bp_customize_md.md)]  
+    >  This field is available in the **VAT Posting Setup** window, but it is not shown by default. To select the field, you must first add the column that shows this field. ADD INCLUDE<!--[!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]-->  
   
 4.  Choose the **OK** button.  
   
@@ -92,11 +86,11 @@ You can use the **General Ledger Setup** window to set up unrealized sales tax. 
 9. Choose the **OK** button.  
   
 ## See Also  
- [How to: Set Up Sales Tax](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-set-up-sales-tax.md)   
- [How to: Set Up Sales Tax Groups](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-set-up-sales-tax-groups.md)   
- [How to: Set Up Sales Tax Jurisdictions](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-set-up-sales-tax-jurisdictions.md)   
- [How to: Set Up Sales Tax Details](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-set-up-sales-tax-details.md)   
- [How to: Set Up Use Tax and Purchase Tax](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-set-up-use-tax-and-purchase-tax.md)   
- [\($ T\_98 General Ledger Setup $\)](assetId:///199e09dc-fe90-4792-be3e-ad395447dfd6)   
- [\($ T\_311 Sales & Receivables Setup $\)](../Topic/\($%20T_311%20Sales%20&%20Receivables%20Setup%20$\).md)   
- [\($ N\_460 Purchases & Payables Setup $\)](../../Purchasing/-$-n_460-purchases-payables-setup-$-.md)
+ [How to: Set Up Sales Tax](../FullExperience/how-to-set-up-sales-tax.md)   
+ [How to: Set Up Sales Tax Groups](../FullExperience/how-to-set-up-sales-tax-groups.md)   
+ [How to: Set Up Sales Tax Jurisdictions](../FullExperience/how-to-set-up-sales-tax-jurisdictions.md)   
+ [How to: Set Up Sales Tax Details](../FullExperience/how-to-set-up-sales-tax-details.md)   
+ [How to: Set Up Use Tax and Purchase Tax](../FullExperience/how-to-set-up-use-tax-and-purchase-tax.md)   
+ General Ledger Setup   
+ [\($ T\_311 Sales & Receivables Setup $\)](../FullExperience/\($%20T_311%20Sales%20&%20Receivables%20Setup%20$\).md)   
+ [\($ N\_460 Purchases & Payables Setup $\)](../FullExperience/-$-n_460-purchases-payables-setup-$-.md)

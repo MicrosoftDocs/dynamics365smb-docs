@@ -1,46 +1,20 @@
 ---
-title: "Allocation Status and Repair Status"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "allocations, status"
-  - "repair status, setting up"
-  - "status, repair"
-  - "status, allocation"
-ms.assetid: 3a93061d-ce25-4941-89c1-80494f8abcbc
-caps.latest.revision: 5
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Allocation Status and Repair Status
 The repair status of service items and the allocation status of the allocation entries for the service items have a certain relationship in Service Management. The allocation status changes when you change the repair status of the service item to **Finished** or **Partly Serviced** and when you convert a service quote to a service order. The repair status of the service item changes when you cancel the service item allocation or reallocate the service item to another resource. You can view the repair status of service items in the **Service Tasks** window and you can update the repair status in the **Repair Status Code** field in the **Service Item Worksheet** window. You can view the allocation status in the **Status** field in the **Resource Allocations** window.  
   
@@ -67,7 +41,7 @@ The repair status of service items and the allocation status of the allocation e
 -   There is a search for allocation entries for all the service items in the service order that have the status **Active**. If such allocation entries are found, their allocation status is changed from **Active** to **Reallocation Needed**.  
   
 ## Canceling Allocations  
- When you cancel an allocation for a service item, [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] updates the allocation status of the corresponding allocation entry in the following way:  
+ When you cancel an allocation for a service item, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> updates the allocation status of the corresponding allocation entry in the following way:  
   
 -   The allocation status is changed from **Active** to **Reallocation Needed**.  
   
@@ -102,8 +76,8 @@ The repair status of service items and the allocation status of the allocation e
  A new allocation entry that contains the new resource is created that has the status **Active**.  
   
 ## See Also  
- [How to: Cancel Allocations](../Service/how-to-cancel-allocations.md)   
- [How to: Reallocate Resources by Using the Dispatch Board](../Service/how-to-reallocate-resources-by-using-the-dispatch-board.md)   
- [How to: Reallocate Resources by Using Service Orders](../Service/how-to-reallocate-resources-by-using-service-orders.md)   
- [How to: Work on Service Tasks](../Service/how-to-work-on-service-tasks.md)   
- [How to: Set Up Repair Statuses](../Service/how-to-set-up-repair-statuses.md)
+ [How to: Cancel Allocations](../FullExperience/how-to-cancel-allocations.md)   
+ [How to: Reallocate Resources by Using the Dispatch Board](../FullExperience/how-to-reallocate-resources-by-using-the-dispatch-board.md)   
+ [How to: Reallocate Resources by Using Service Orders](../FullExperience/how-to-reallocate-resources-by-using-service-orders.md)   
+ [How to: Work on Service Tasks](../FullExperience/how-to-work-on-service-tasks.md)   
+ [How to: Set Up Repair Statuses](../FullExperience/how-to-set-up-repair-statuses.md)

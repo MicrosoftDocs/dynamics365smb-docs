@@ -1,44 +1,20 @@
 ---
-title: "How to: Create and Post Purchase Allowances"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "purchase allowances"
-  - "purchase credit memos, posting"
-ms.assetid: c5d0a4ca-ddf8-4141-b976-a38b4e8c713c
-caps.latest.revision: 7
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Create and Post Purchase Allowances
 If you receive items from your vendor that are not what you wanted, for example, if they are slightly damaged, the wrong color or the wrong size, the vendor may offer you a purchase allowance.  
   
@@ -71,7 +47,7 @@ If you receive items from your vendor that are not what you wanted, for example,
   
 ### To post a purchase allowance  
   
-1.  In the **\($ N\_52 Purchase Credit Memo $\)** window, on the **Home** tab, in the **Process** group, choose **Post**.  
+1.  In the **Purchase Credit Memo** window, on the **Home** tab, in the **Process** group, choose **Post**.  
   
      If you want to print the credit memo at the same time as you post it, choose **Post and Print** instead.  
   
@@ -81,11 +57,11 @@ If you receive items from your vendor that are not what you wanted, for example,
 >  When you enter a job number in the **Job No.** field on a purchase line with an item, an item entry is not created. Only a job entry is created when the document is posted.  
   
 ## See Also  
- [How to: Create Purchase Return Orders](../Purchasing/how-to-create-purchase-return-orders.md)   
- [How to: Get Receipt Lines for Item Charges](../Finance/how-to-get-receipt-lines-for-item-charges.md)   
- [How to: Get Return Receipt Lines for Item Charges](../Finance/how-to-get-return-receipt-lines-for-item-charges.md)   
- [How to: Get Return Shipment Lines for Item Charges](../Finance/how-to-get-return-shipment-lines-for-item-charges.md)   
- [How to: Get Shipment Lines for Item Charges](../Finance/how-to-get-shipment-lines-for-item-charges.md)   
- [How to: Get Transfer Receipt Lines for Item Charges](../Finance/how-to-get-transfer-receipt-lines-for-item-charges.md)   
- [How to: Post Purchase Credit Memos](../Finance/how-to-post-purchase-credit-memos.md)   
- [How to: Suggest Item Charge Assignments on Purchase Documents](../Finance/how-to-suggest-item-charge-assignments-on-purchase-documents.md)
+ [How to: Create Purchase Return Orders](../FullExperience/how-to-create-purchase-return-orders.md)   
+ [How to: Get Receipt Lines for Item Charges](../FullExperience/how-to-get-receipt-lines-for-item-charges.md)   
+ [How to: Get Return Receipt Lines for Item Charges](../FullExperience/how-to-get-return-receipt-lines-for-item-charges.md)   
+ [How to: Get Return Shipment Lines for Item Charges](../FullExperience/how-to-get-return-shipment-lines-for-item-charges.md)   
+ [How to: Get Shipment Lines for Item Charges](../FullExperience/how-to-get-shipment-lines-for-item-charges.md)   
+ [How to: Get Transfer Receipt Lines for Item Charges](../FullExperience/how-to-get-transfer-receipt-lines-for-item-charges.md)   
+ [How to: Post Purchase Credit Memos](../FullExperience/how-to-post-purchase-credit-memos.md)   
+ [How to: Suggest Item Charge Assignments on Purchase Documents](../FullExperience/how-to-suggest-item-charge-assignments-on-purchase-documents.md)

@@ -1,52 +1,29 @@
 ---
-title: "How to: Import Configuration Packages"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "RapidStart Services, migrating data"
-ms.assetid: ffa6973a-bf8d-4793-9c21-61b7f2fad6f6
-caps.latest.revision: 18
-ms.author: "solsen"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Import Configuration Packages
 When you create a new company, you can import company settings for the new company. You import the settings from a .rapidstart file, which delivers the package contents in a compressed format. A corresponding set of default data migration tables are imported. The data set contains master data tables and the setup data tables. Your first task in data migration is to evaluate if the default migration setup meets the needs of the new company.  
   
 > [!NOTE]  
->  You cannot rename a file that is not already a [!INCLUDE[rim](../Roles/includes/rim_md.md)] configuration package as a .rapidstart configuration package file and then try to import it into [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)]. If you try to do so, you will receive an error message.  
+>  You cannot rename a file that is not already a ADD INCLUDE<!--[!INCLUDE[rim](../../includes/navnow_md.md)]-->. If you try to do so, you will receive an error message.  
   
- The [!INCLUDE[rim](../Roles/includes/rim_md.md)] migration tools can be applied to any [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] table. Use the migration tools for fast and accurate data transfer.  
+ The ADD INCLUDE<!--[!INCLUDE[rim](../../includes/navnow_md.md)]--> table. Use the migration tools for fast and accurate data transfer.  
   
- Before you start, make sure that you are on the [!INCLUDE[rim](../Roles/includes/rim_md.md)] Role Center page. It provides the correct context for your configuration work. To change your Role Center home page, see [How to: Change Role Centers](../GettingStarted/how-to-change-role-centers.md). Choose the RapidStart Profile ID.  
+ Before you start, make sure that you are on the ADD INCLUDE<!--[!INCLUDE[rim](../../includes/how-to-change-role-centers.md). Choose the RapidStart Profile ID.  
   
 > [!IMPORTANT]  
 >  When exporting and importing configuration packages between two company databases, the databases should have the same schema to make sure that all data is transferred successfully. This means that the databases should have the same table and field structure, in which the tables have the same primary keys and fields have the same IDs and data types.  
@@ -75,7 +52,7 @@ When you create a new company, you can import company settings for the new compa
  If the selection of tables does not meet your needs, you can create one or more new data migration files. If the files are sufficient, you can continue with the data migration using .xls or .xml files.  
   
 ## See Also  
- [How to: Create and Modify the Migration Tables List](../SetupAndAdministration/how-to-create-and-modify-the-migration-tables-list.md)   
- [How to: Import Customer Data](../SetupAndAdministration/how-to-import-customer-data.md)   
- [How to: Create and Modify the Migration Tables List](../SetupAndAdministration/how-to-create-and-modify-the-migration-tables-list.md)   
- [How to: Create a Configuration Package](../SetupAndAdministration/how-to-create-a-configuration-package.md)
+ [How to: Create and Modify the Migration Tables List](../FullExperience/how-to-create-and-modify-the-migration-tables-list.md)   
+ [How to: Import Customer Data](../FullExperience/how-to-import-customer-data.md)   
+ [How to: Create and Modify the Migration Tables List](../FullExperience/how-to-create-and-modify-the-migration-tables-list.md)   
+ [How to: Create a Configuration Package](../FullExperience/how-to-create-a-configuration-package.md)

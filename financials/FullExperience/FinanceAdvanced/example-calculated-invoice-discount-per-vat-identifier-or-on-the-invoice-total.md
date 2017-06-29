@@ -1,18 +1,20 @@
 ---
-title: "Example - Calculated Invoice Discount per VAT Identifier or on the  Invoice Total"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-ms.assetid: 30f83ea4-bdd1-4f86-9c28-3d5ceceb9253
-caps.latest.revision: 3
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Example - Calculated Invoice Discount per VAT Identifier or on the  Invoice Total
 The following example is based on an invoice with two lines with different VAT Prod. Posting Groups, but with the same amount. The VAT Prod. Posting Groups are 10% and 25%, the line amounts are 1.10 LCY and the invoice discount is 5 %.  
   

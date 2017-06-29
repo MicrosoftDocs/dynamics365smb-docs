@@ -1,23 +1,22 @@
 ---
-title: "Reversing Journal Entries"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "journal entries, controls"
-  - "journal entries, reversing"
-ms.assetid: 90ef708f-1b24-43cf-8cee-6e8f531279b2
-caps.latest.revision: 18
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "it-it"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Reversing Journal Entries
-Controls have been added to the **\($ N\_179 Reverse Transaction Entries $\)** window to comply with local laws. These controls ensure the following:  
+Controls have been added to the **Reverse Transaction Entries** window to comply with local laws. These controls ensure the following:  
   
 -   You cannot reverse an invoice, credit note, or document involving VAT management.  
   
@@ -28,5 +27,5 @@ Controls have been added to the **\($ N\_179 Reverse Transaction Entries $\)** w
 -   You cannot reverse sales, purchase, or service headers for reserved documents.  
   
 ## See Also  
- [\($ N\_179 Reverse Transaction Entries $\)](assetId:///fc49ff79-2858-4e27-8713-ccc882388368)   
- [Italy Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Italy/italy-local-functionality.md)
+ Reverse Transaction Entries   
+ [Italy Local Functionality](../FullExperience/italy-local-functionality.md)

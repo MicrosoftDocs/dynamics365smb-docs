@@ -1,36 +1,33 @@
 ---
-title: "Depreciation Methods-duplicate"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "depreciation"
-  - "depreciation methods, defined"
-  - "depreciation methods, non-linear"
-  - "depreciation methods, straight-line"
-  - "depreciation methods, declining balance"
-ms.assetid: fed6dc57-8411-43bd-b07c-1135a4b00d04
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "ru-ru"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Depreciation Methods-duplicate
-There are three depreciation methods that are unique to Russia that can be used in [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)].  
+There are three depreciation methods that are unique to Russia that can be used in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
   
--   Straight\-line method **\(SL\-RU\)**  
+-   Straight-line method **\(SL-RU\)**  
   
--   Non\-linear method **\(DB\/SL\-RU\)**  
+-   Non-linear method **\(DB\/SL-RU\)**  
   
--   Non\-linear method for a group of fixed assets **\(DB\/SL\-RU Tax Group\)**  
+-   Non-linear method for a group of fixed assets **\(DB\/SL-RU Tax Group\)**  
   
-## Straight\-line Method  
- To use this method, select the **\(SL\-RU\)** option in the appropriate fixed asset depreciation book.  
+## Straight-line Method  
+ To use this method, select the **\(SL-RU\)** option in the appropriate fixed asset depreciation book.  
   
- The main calculation formula for the straight\-line method is K \= 1\/N \* 100%, where K is the monthly rate of depreciation, and N is the number of depreciation in months. The straight line method works as follows:  
+ The main calculation formula for the straight-line method is K \= 1\/N \* 100%, where K is the monthly rate of depreciation, and N is the number of depreciation in months. The straight line method works as follows:  
   
 -   The calculation of depreciation is based on the month’s principle, and every depreciation month has 30 days. These parameters are automatically set up during calculation of depreciation.  
   
@@ -40,36 +37,36 @@ There are three depreciation methods that are unique to Russia that can be used 
   
 -   During depreciation calculation, the depreciation of the previous month will be checked to see if it has been posted for the particular fixed asset. This feature enables you to avoid skipping depreciation periods.  
   
-## Non\-linear Method  
- To use this method, select the **\(DB\/SL\-RU\)** option in the appropriate fixed asset depreciation book.  
+## Non-linear Method  
+ To use this method, select the **\(DB\/SL-RU\)** option in the appropriate fixed asset depreciation book.  
   
- The calculation for the non\-linear method consists of two formulas—one for the start of the depreciation and another for the end of the depreciation.  
+ The calculation for the non-linear method consists of two formulas—one for the start of the depreciation and another for the end of the depreciation.  
   
- The formula for the non\-linear method is K \= 2\/N \* 100%, where K is the monthly rate of depreciation, and N is the number of depreciation months. The constant in this formula, 2, is fixed in the code and should not be set up manually.  
+ The formula for the non-linear method is K \= 2\/N \* 100%, where K is the monthly rate of depreciation, and N is the number of depreciation months. The constant in this formula, 2, is fixed in the code and should not be set up manually.  
   
  When the book value of the fixed asset becomes equal to or less than 20 percent of the acquisition cost, the monthly depreciation will be calculated differently. From this point on, the straight line formula is used to calculate depreciation until the fixed asset is fully depreciated.  
   
  The constant of the acquisition cost, 20 percent, is fixed in the code and should not be set up manually.  
   
-## Non\-linear Method for a Group of Fixed Assets  
- To use this method, select the **\(DB\/SL\-RU Tax Group\)** option in the appropriate fixed asset depreciation book.  
+## Non-linear Method for a Group of Fixed Assets  
+ To use this method, select the **\(DB\/SL-RU Tax Group\)** option in the appropriate fixed asset depreciation book.  
   
- The non\-linear depreciation method can be applied to groups of fixed assets using the depreciation groups set up in the **\($ N\_12489 Depreciation Group $\)** window. Each depreciation group should have a defined **\($ T\_12476\_3 Tax Depreciation Rate $\)** and a **\($ T\_12476\_4 Depreciation Factor $\)** with a value of **1**.  
+ The non-linear depreciation method can be applied to groups of fixed assets using the depreciation groups set up in the **Depreciation Group** window. Each depreciation group should have a defined **Tax Depreciation Rate** and a **Depreciation Factor** with a value of **1**.  
   
- Before you use this method, you will have to make sure that the appropriate settings have been applied in the **\($ N\_17201 Tax Register Setup $\)** window. Use the information in the following table to apply the correct settings.  
+ Before you use this method, you will have to make sure that the appropriate settings have been applied in the **Tax Register Setup** window. Use the information in the following table to apply the correct settings.  
   
-|[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+|ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
 |---------------------------------|---------------------------------------|  
-|**\($ T\_17236\_17214 Use Group Depr. Method from $\)**|Enter the start date from which the non\-linear depreciation method can be applied. The date should be the first day of the calendar year.|  
-|**\($ T\_17236\_17215 Min. Group Balance $\)**|Enter the minimum amount that is valid as the balance for the depreciation group. If the book value for the fixed assets is less than this amount, the depreciation can be written off in this period.|  
-|**\($ T\_17236\_17216 Write\-off in Charges $\)**|Select if you want to write off fixed asset charges if the book value of the fixed assets is written off in the period when the book value is less than or equal to the **\($ T\_17236\_17215 Min. Group Balance $\)** amount. Otherwise, the book value will be written off in the next period.|  
+|**Use Group Depr. Method from**|Enter the start date from which the non-linear depreciation method can be applied. The date should be the first day of the calendar year.|  
+|**Min. Group Balance**|Enter the minimum amount that is valid as the balance for the depreciation group. If the book value for the fixed assets is less than this amount, the depreciation can be written off in this period.|  
+|**Write-off in Charges**|Select if you want to write off fixed asset charges if the book value of the fixed assets is written off in the period when the book value is less than or equal to the **Min. Group Balance** amount. Otherwise, the book value will be written off in the next period.|  
   
 ## See Also  
- [Depreciation Bonus](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/depreciation-bonus.md)   
- [How to: Create Fixed Assets](../../Finance/how-to-create-fixed-assets.md)   
- [\($ N\_5600 Fixed Asset Card $\)](../Topic/\($%20N_5600%20Fixed%20Asset%20Card%20$\).md)   
- [\($ N\_5629 Fixed Asset Journal $\)](../Topic/\($%20N_5629%20Fixed%20Asset%20Journal%20$\).md)   
- [\($ N\_5628 Fixed Asset G\-L Journal $\)](../Topic/\($%20N_5628%20Fixed%20Asset%20G-L%20Journal%20$\).md)   
- [\($ T\_5612 FA Depreciation Book $\)](../Topic/\($%20T_5612%20FA%20Depreciation%20Book%20$\).md)   
- [\($ T\_12476 Depreciation Group $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-t_12476-depreciation-group-$-.md)   
- [\($ T\_17236 Tax Register Setup $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/-$-t_17236-tax-register-setup-$-.md)
+ [Depreciation Bonus](../FullExperience/depreciation-bonus.md)   
+ [How to: Create Fixed Assets](../FullExperience/how-to-create-fixed-assets.md)   
+ Fixed Asset Card   
+ Fixed Asset Journal   
+ Fixed Asset G-L Journal   
+ FA Depreciation Book   
+ Depreciation Group   
+ Tax Register Setup

@@ -1,45 +1,22 @@
 ---
-title: "How to: Create Blanket Purchase Orders"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "blanket purchase orders, creating"
-ms.assetid: 2db574a4-515c-4579-ab40-78d83ee6e0f0
-caps.latest.revision: 9
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Create Blanket Purchase Orders
-You can use blanket orders when you have committed to buying large quantities of an item that are to be received in several smaller shipments over a certain period of time. For more information, see [About Blanket Purchase Orders](../Purchasing/about-blanket-purchase-orders.md).  
+You can use blanket orders when you have committed to buying large quantities of an item that are to be received in several smaller shipments over a certain period of time. For more information, see [About Blanket Purchase Orders](../FullExperience/about-blanket-purchase-orders.md).  
   
 ### To create a blanket purchase order  
   
@@ -49,7 +26,7 @@ You can use blanket orders when you have committed to buying large quantities of
   
 3.  In the **No.** field, press Enter to assign the default number series.  
   
-4.  In the **Buy\-from Vendor No.** field, select the vendor.  
+4.  In the **Buy-from Vendor No.** field, select the vendor.  
   
 5.  Leave the **Order Date** field blank. When the separate purchase orders are created from the blanket order, the order date of the purchase order will be set to equal to the actual work date.  
   
@@ -81,13 +58,13 @@ You can use blanket orders when you have committed to buying large quantities of
   
 -   The purchase order line quantity must not exceed the quantity of the associated blanket order line. Otherwise, you cannot post the purchase order.  
   
-    -   When the purchase order is posted as received or invoiced, [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] updates the **Quantity Received** and **Quantity Invoiced** fields on the related blanket order.  
+    -   When the purchase order is posted as received or invoiced, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> updates the **Quantity Received** and **Quantity Invoiced** fields on the related blanket order.  
   
     -   The blanket order number and line number are recorded as properties of the purchase lines when it is created from a blanket order.  
   
 -   When purchase orders are not created directly from the blanket order but still relate to it, a link between a purchase order and a blanket order can be established by entering the associated blanket order number in the **Blanket Order No.** field on the purchase order line.  
   
--   After the purchase order has been created for the total quantity of a blanket order line, [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] ensures that other purchase orders cannot created for the same line by preventing users from entering a quantity in the **Qty. to Receive** field. If additional quantities must be added to a blanket order, the value in the **Quantity** field can be increased and additional orders can then be created.  
+-   After the purchase order has been created for the total quantity of a blanket order line, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> ensures that other purchase orders cannot created for the same line by preventing users from entering a quantity in the **Qty. to Receive** field. If additional quantities must be added to a blanket order, the value in the **Quantity** field can be increased and additional orders can then be created.  
   
 -   The invoiced blanket purchase order remains until it is deleted, either by using the delete \(Ctrl\+D\) function on individual blanket orders or by running the **Delete Invoiced Blanket Purchase Orders** batch job.  
   
@@ -96,6 +73,6 @@ You can use blanket orders when you have committed to buying large quantities of
 -   If a vendor is also recorded as a contact in Sales & Marketing, and if you have specified an interaction template code for blanket purchase orders in the **Marketing Setup** window, when you print the blanket purchase order, an interaction is automatically recorded in the **Interaction Log Entry** table.  
   
 ## See Also  
- [How to: Convert Blanket Purchase Orders to Purchase Orders](../Purchasing/how-to-convert-blanket-purchase-orders-to-purchase-orders.md)   
- [How to: View the Status of Blanket Purchase Orders](../Purchasing/how-to-view-the-status-of-blanket-purchase-orders.md)   
- [How to: View Unposted and Posted Blanket Purchase Order Lines](../Finance/how-to-view-unposted-and-posted-blanket-purchase-order-lines.md)
+ [How to: Convert Blanket Purchase Orders to Purchase Orders](../FullExperience/how-to-convert-blanket-purchase-orders-to-purchase-orders.md)   
+ [How to: View the Status of Blanket Purchase Orders](../FullExperience/how-to-view-the-status-of-blanket-purchase-orders.md)   
+ [How to: View Unposted and Posted Blanket Purchase Order Lines](../FullExperience/how-to-view-unposted-and-posted-blanket-purchase-order-lines.md)

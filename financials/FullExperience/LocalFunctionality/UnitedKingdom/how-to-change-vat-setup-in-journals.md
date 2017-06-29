@@ -1,21 +1,20 @@
 ---
-title: "How to: Change VAT Setup in Journals"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "VAT, changing in journals"
-  - "journals, adding VAT"
-ms.assetid: 737d4781-f81f-4a3d-a13b-370666330d4b
-caps.latest.revision: 24
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "en-gb"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Change VAT Setup in Journals
 You can add VAT setup information to journal lines if needed. If you enter items without VAT, you do not need to remove VAT setup information manually.  
   
@@ -37,6 +36,6 @@ You can add VAT setup information to journal lines if needed. If you enter items
 6.  Choose the **OK** button.  
   
 ## See Also  
- [United Kingdom Local Functionality](../../LocalFunctionalityForMicrosoftDynamicsNav2016/UnitedKingdom/united-kingdom-local-functionality.md)   
- [How to: Create a VAT Combination Setup](../../Finance/how-to-create-a-vat-combination-setup.md)   
- [How to: Record VAT](../../Finance/how-to-record-vat.md)
+ [United Kingdom Local Functionality](../FullExperience/united-kingdom-local-functionality.md)   
+ [How to: Create a VAT Combination Setup](../FullExperience/how-to-create-a-vat-combination-setup.md)   
+ [How to: Record VAT](../FullExperience/how-to-record-vat.md)

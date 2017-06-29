@@ -1,23 +1,22 @@
 ---
-title: "How to: Create and Export Payment History"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "payment history, exporting"
-  - "payment history, creating"
-ms.assetid: 7a5b308b-705b-4131-b6cc-e7f8d8103d1e
-caps.latest.revision: 12
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "nl-nl"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Create and Export Payment History
-After you have created a proposal and made any modifications, you can process the proposal to create a payment history. Proposals can be created manually or automatically from a vendor or customer ledger entry. For more information, see [How to: Create Proposals](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/how-to-create-proposals.md).  
+After you have created a proposal and made any modifications, you can process the proposal to create a payment history. Proposals can be created manually or automatically from a vendor or customer ledger entry. For more information, see [How to: Create Proposals](../FullExperience/how-to-create-proposals.md).  
   
  For exporting payment histories, the following protocols are supported:  
   
@@ -25,29 +24,29 @@ After you have created a proposal and made any modifications, you can process th
   
 -   \($ B\_11000007 BTL91 $\)  
   
--   \($ B\_11000008 BBV $\)  
+-   BBV  
   
--   \($ B\_11000009 PAYMUL $\)  
+-   PAYMUL  
   
 ### To create a payment history for a proposal  
   
-1.  In the **Search** box, enter **\($ N\_11000000 Telebank \- Bank Overview $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Telebank - Bank Overview**, and then choose the related link.  
   
      If you want to print the proposal before you process it, choose the **Print** button.  
   
 2.  To process the proposal, choose **Proposal** , and then choose **Process**.  
   
-3.  To view the payment history, close the **\($ N\_11000001 Telebank Proposal $\)** window. Make sure the same bank account in the **\($ N\_11000000 Telebank – Bank Overview $\)** window is selected. On the **Actions** tab, in the **Telebank** group, choose **Payment History**.  
+3.  To view the payment history, close the **Telebank Proposal** window. Make sure the same bank account in the **\($ N\_11000000 Telebank – Bank Overview $\)** window is selected. On the **Actions** tab, in the **Telebank** group, choose **Payment History**.  
   
-     The **\($ N\_11000007 Payment History List $\)** window displays the payment history that you just created.  
+     The **Payment History List** window displays the payment history that you just created.  
   
 ### To export a payment history  
   
--   In the **\($ N\_11000007 Payment History List $\)** window, on the **Home** tab, choose **Export**.  
+-   In the **Payment History List** window, on the **Home** tab, choose **Export**.  
   
     > [!NOTE]  
-    >  A text file will be created. This file contains the path and file name as defined in the [\($ T\_11000005\_21 Default File Names Field $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-t_11000005_21-default-file-names-field-$-.md) field of the export protocol.  
+    >  A text file will be created. This file contains the path and file name as defined in the Default File Names Field field of the export protocol.  
   
 ## See Also  
- [How to: Create Proposals](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/how-to-create-proposals.md)   
- [\($ B\_11000003 Paymt. History \- Change Status Batch Job $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/-$-b_11000003-paymt.-history-change-status-batch-job-$-.md)
+ [How to: Create Proposals](../FullExperience/how-to-create-proposals.md)   
+ Paymt. History - Change Status Batch Job

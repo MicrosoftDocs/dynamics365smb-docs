@@ -1,31 +1,30 @@
 ---
-title: "Year End Processes Overview"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "fiscal years, year-end processes"
-  - "year-end closing, about"
-ms.assetid: 9e8cbce3-f135-4055-91dd-a0535d24aa0a
-caps.latest.revision: 6
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "fr-fr"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Year End Processes Overview
 Year end closing in Microsoft Dynamics NAV involves three steps:  
   
-1.  Closing the fiscal year using the [How to: Fiscally Close Accounting Periods](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-fiscally-close-accounting-periods.md) topic.  
+1.  Closing the fiscal year using the [How to: Fiscally Close Accounting Periods](../FullExperience/how-to-fiscally-close-accounting-periods.md) topic.  
   
-2.  Generating a year\-end closing entry using the [\($ B\_94 Close Income Statement option $\)](../../Finance/-$-b_94-close-income-statement-$-.md) topic.  
+2.  Generating a year-end closing entry using the Close Income Statement option topic.  
   
-3.  [Posting the year\-end closing entry](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-post-the-year-end-closing-entry.md) along with the offsetting equity account entries.  
+3.  [Posting the year-end closing entry](../FullExperience/how-to-post-the-year-end-closing-entry.md) along with the offsetting equity account entries.  
   
-4.  Fiscally closing the fiscal year using the [How to: Fiscally Close Accounting Periods](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/how-to-fiscally-close-accounting-periods.md) topic.  
+4.  Fiscally closing the fiscal year using the [How to: Fiscally Close Accounting Periods](../FullExperience/how-to-fiscally-close-accounting-periods.md) topic.  
   
  According to the French law *NF Logiciel compatibilité informatisée* the system has to refuse the creation of a third open fiscal year, so only two open fiscal years are allowed at the same time.  
   
@@ -38,5 +37,5 @@ Year end closing in Microsoft Dynamics NAV involves three steps:
  Once a year has been fiscally closed you will not be able to post in this fiscal year.  
   
 ## See Also  
- [Fiscal Periods and Fiscal Years](../../LocalFunctionalityForMicrosoftDynamicsNav2016/France/fiscal-periods-and-fiscal-years.md)   
- [How to: Complete Period\-End Processes](../../Finance/how-to-complete-period-end-processes.md)
+ [Fiscal Periods and Fiscal Years](../FullExperience/fiscal-periods-and-fiscal-years.md)   
+ [How to: Complete Period-End Processes](../FullExperience/how-to-complete-period-end-processes.md)

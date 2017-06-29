@@ -1,30 +1,20 @@
 ---
-title: "About Calculating Standard Cost"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "standard costs, calculating"
-  - "costs, calculating"
-ms.assetid: 4304c48a-e5b2-4b3b-82c7-4b4535686337
-caps.latest.revision: 12
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-my"
-  - "en-nz"
-  - "en-ph"
-  - "en-sg"
-  - "en-zw"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # About Calculating Standard Cost
 Many manufacturing companies select a valuation base of standard cost. This also applies to companies that perform light manufacturing, such as assembly and kitting. A standard cost system determines inventory unit cost based on some reasonable historical or expected cost. Studies of past and estimated future cost data can then provide the basis for standard costs. These costs are frozen until a decision is made to change them. The actual cost to produce a product may differ from the estimated standard costs. For management control, the actual cost is compared to the standard cost for a specific item and differences, or *variances*, are identified and analyzed.  
   
@@ -39,7 +29,7 @@ Many manufacturing companies select a valuation base of standard cost. This also
 ## Setting Up Standard Costs  
  Because the standard cost of a produced or assembled item can consist of multiple cost elements, including material, capacity \(labor\) and direct and overhead subcontractor costs, standard costs must be established for each of these elements.  
   
- The accounting task for an item\-processing company using standard costing is to:  
+ The accounting task for an item-processing company using standard costing is to:  
   
 -   Estimate a standard cost of the finished item and set it up on the item card.  
   
@@ -71,7 +61,7 @@ Many manufacturing companies select a valuation base of standard cost. This also
 |Cost calculation basis|Material cost calculation|  
 |----------------------------|-------------------------------|  
 |Single level|Produced item is equal to the total cost of all purchased or subassembled items on that item's production BOM.|  
-|Rolled\-up level or multilevel|Produced item is the sum of the material cost for all subassemblies on that item's BOM and the cost of all purchased items on that item's production BOM.|  
+|Rolled-up level or multilevel|Produced item is the sum of the material cost for all subassemblies on that item's BOM and the cost of all purchased items on that item's production BOM.|  
   
 ### Capacity Costs  
  Capacity costs are the costs that are associated with internal labor and machine costs. You must set up these costs for each resource \(in assembly management\) and work or machine center on the routing \(in production\). As with materials, you can identify both direct and indirect elements of capacity cost. For example, the direct cost for a work center may be the established shop rate to perform a specific function. The indirect cost for a work center may represent some general factory expenses, such as lighting, heating, and so on. As with material costs, you can express capacity overhead as an indirect cost percentage or a fixed overhead rate.  
@@ -97,7 +87,7 @@ Many manufacturing companies select a valuation base of standard cost. This also
   
      To specify setup time on the routing for planning but not include this expense in the standard cost calculation, clear the **Cost Incl. Setup** field on the  **General** FastTab in the **Manufacturing Setup** window.  
   
-     On a single\-level basis, this is the labor cost that is required to produce the finished production item and is specified on the production item's routing. On a multi\-level basis, this is the capacity cost that is specified for each individually produced item that is included in the parent item's BOM.  
+     On a single-level basis, this is the labor cost that is required to produce the finished production item and is specified on the production item's routing. On a multi-level basis, this is the capacity cost that is specified for each individually produced item that is included in the parent item's BOM.  
   
 ### Subcontractor Costs  
  Subcontractor costs are the costs that are associated with services that are provided by a company's outside vendors or subcontractors. Similar to material and capacity, subcontractor costs can consist of both direct and overhead amounts. Direct subcontractor cost represents the actual charge for each unit of services that is provided. For example, overhead subcontractor cost can represent freight and handling costs that are incurred by the company with a subcontracted order.  
@@ -105,27 +95,27 @@ Many manufacturing companies select a valuation base of standard cost. This also
  Because subcontracting is an outsourced capacity, you set up the cost of both direct and indirect subcontracting services on the work center card that represents the subcontracting operation.  
   
 ## Updating Standard Costs  
- To update or calculate the standard cost of assembly items, use the function from the item card. For more information, see [How to: Calculate the Standard Cost of Assembly BOMs](../Finance/how-to-calculate-the-standard-cost-of-assembly-boms.md).  
+ To update or calculate the standard cost of assembly items, use the function from the item card. For more information, see [How to: Calculate the Standard Cost of Assembly BOMs](../FullExperience/how-to-calculate-the-standard-cost-of-assembly-boms.md).  
   
  The process of updating or calculating standard costs typically consists of the following tasks:  
   
-1.  Updating costs at the component and capacity levels. For more information, see [\($ B\_5851 Suggest Item Standard Cost $\)](../Topic/\($%20B_5851%20Suggest%20Item%20Standard%20Cost%20$\).md) and [\($ B\_5852 Suggest Capacity Standard Cost $\)](../Topic/\($%20B_5852%20Suggest%20Capacity%20Standard%20Cost%20$\).md).  
+1.  Updating costs at the component and capacity levels. For more information, see Suggest Item Standard Cost and Suggest Capacity Standard Cost.  
   
-2.  Consolidating and rolling up the component and capacity costs to calculate the total manufacturing cost of the items. For more information, see [\($ B\_5854 Roll Up Standard Cost $\)](../Topic/\($%20B_5854%20Roll%20Up%20Standard%20Cost%20$\).md).  
+2.  Consolidating and rolling up the component and capacity costs to calculate the total manufacturing cost of the items. For more information, see Roll Up Standard Cost.  
   
-3.  Implementing the standard costs that are entered when you run the previous batch jobs. The standard costs do not take effect until they are implemented. For more information, see [\($ B\_5855 Implement Standard Cost Changes $\)](../Topic/\($%20B_5855%20Implement%20Standard%20Cost%20Changes%20$\).md).  
+3.  Implementing the standard costs that are entered when you run the previous batch jobs. The standard costs do not take effect until they are implemented. For more information, see Implement Standard Cost Changes.  
   
-4.  Implementing the changes to update the **Unit Cost** field on the item card and perform inventory revaluation. For more information, see [\($ N\_5803 Revaluation Journal $\)](../Topic/\($%20N_5803%20Revaluation%20Journal%20$\).md).  
+4.  Implementing the changes to update the **Unit Cost** field on the item card and perform inventory revaluation. For more information, see Revaluation Journal.  
   
 ## See Also  
- [Design Details: Costing Methods](../ApplicationDesign/design-details-costing-methods.md)   
- [\($ T\_27\_5419 Replenishment System $\)](../Topic/\($%20T_27_5419%20Replenishment%20System%20$\).md)   
- [\($ T\_90\_20 Resource Usage Type $\)](../Topic/\($%20T_90_20%20Resource%20Usage%20Type%20$\).md)   
- [\($ N\_900 Assembly Order $\)](../WarehouseActivities/-$-n_900-assembly-order-$-.md)   
- [\($ T\_99000765\_11 Cost Incl. Setup $\)](../Topic/\($%20T_99000765_11%20Cost%20Incl.%20Setup%20$\).md)   
- [How to: Calculate the Standard Cost of Assembly BOMs](../Finance/how-to-calculate-the-standard-cost-of-assembly-boms.md)   
- [\($ B\_5854 Roll Up Standard Cost $\)](../Topic/\($%20B_5854%20Roll%20Up%20Standard%20Cost%20$\).md)   
- [How to: Fill In Revaluation Journals Manually](../DesignAndEngineering/how-to-fill-in-revaluation-journals-manually.md)   
- [How to: Fill In the Revaluation Journal with the Batch Job](../DesignAndEngineering/how-to-fill-in-the-revaluation-journal-with-the-batch-job.md)   
- [How to: Update Standard Costs](../DesignAndEngineering/how-to-update-standard-costs.md)   
- [Design Details: Inventory Costing](../ApplicationDesign/design-details-inventory-costing.md)
+ [Design Details: Costing Methods](../FullExperience/design-details-costing-methods.md)   
+ Replenishment System   
+ Resource Usage Type   
+ Assembly Order   
+ Cost Incl. Setup   
+ [How to: Calculate the Standard Cost of Assembly BOMs](../FullExperience/how-to-calculate-the-standard-cost-of-assembly-boms.md)   
+ Roll Up Standard Cost   
+ [How to: Fill In Revaluation Journals Manually](../FullExperience/how-to-fill-in-revaluation-journals-manually.md)   
+ [How to: Fill In the Revaluation Journal with the Batch Job](../FullExperience/how-to-fill-in-the-revaluation-journal-with-the-batch-job.md)   
+ [How to: Update Standard Costs](../FullExperience/how-to-update-standard-costs.md)   
+ [Design Details: Inventory Costing](../FullExperience/design-details-inventory-costing.md)

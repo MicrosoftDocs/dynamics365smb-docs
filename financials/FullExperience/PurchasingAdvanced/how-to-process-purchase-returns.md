@@ -1,60 +1,34 @@
 ---
-title: "How to: Process Purchase Returns"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "purchase returns, processing"
-  - "returns, processing purchase returns"
-  - "damaged items, processing purchase returns"
-  - "return orders, processing"
-ms.assetid: 31dcc8df-9de6-4df5-9e1a-64eb4ff0b7c2
-caps.latest.revision: 10
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Process Purchase Returns
 Purchase returns are used to ensure that your company is compensated for incorrect or damaged items that you receive from your vendors.  
   
- In cases where a company or its customers are dissatisfied with an order they received from a vendor, they can expect their vendor to compensate them in different ways. The terms of a compensation agreement reached between the company and the vendor will often depend on the reason for the return and the company\-vendor relationship. For example, the parties may agree that in case of wrongly ordered\/delivered items the company returns the item to the vendor against receiving a credit and receives a replacement item instead. In other situations, for example, if a company receives a damaged item, the company may require a price deduction against the original purchase order price. The same may be applied when a company provided a sales allowance for their own customers and now wants to recover costs by requesting a purchase allowance from their vendor. Meanwhile, where the purchased item has a warranty, the company may ask the vendor to repair the malfunctioning or broken item. For more information, see [About Returns Management](../Purchasing/about-returns-management.md).  
+ In cases where a company or its customers are dissatisfied with an order they received from a vendor, they can expect their vendor to compensate them in different ways. The terms of a compensation agreement reached between the company and the vendor will often depend on the reason for the return and the company-vendor relationship. For example, the parties may agree that in case of wrongly ordered\/delivered items the company returns the item to the vendor against receiving a credit and receives a replacement item instead. In other situations, for example, if a company receives a damaged item, the company may require a price deduction against the original purchase order price. The same may be applied when a company provided a sales allowance for their own customers and now wants to recover costs by requesting a purchase allowance from their vendor. Meanwhile, where the purchased item has a warranty, the company may ask the vendor to repair the malfunctioning or broken item. For more information, see [About Returns Management](../FullExperience/about-returns-management.md).  
   
- The purchase return order is the central document that allows you to register a compensation agreement settled with the vendor. From here, you can access other purchase\-related documents, and enter and maintain the return\-related information concerning the vendor, the method of compensation, and the items in question.  
+ The purchase return order is the central document that allows you to register a compensation agreement settled with the vendor. From here, you can access other purchase-related documents, and enter and maintain the return-related information concerning the vendor, the method of compensation, and the items in question.  
   
  The following are the standard steps in creating a basic purchase return order. A basic return order is created when you want to return an item to a vendor for credit. Additional return options are described below.  
   
 ### To process a basic purchase return  
   
-1.  Create a purchase return order. For more information, see [How to: Create Purchase Return Orders](../Purchasing/how-to-create-purchase-return-orders.md).  
+1.  Create a purchase return order. For more information, see [How to: Create Purchase Return Orders](../FullExperience/how-to-create-purchase-return-orders.md).  
   
-2.  On the **Invoicing** FastTab, you can apply the return order to the associated purchase invoice by filling in the **Applies\-to Doc. Type** and **Applies\-to Doc. No.** fields.  
+2.  On the **Invoicing** FastTab, you can apply the return order to the associated purchase invoice by filling in the **Applies-to Doc. Type** and **Applies-to Doc. No.** fields.  
   
 3.  Post the purchase return order. On the **Home** tab, in the **Process** group, choose **Post**.  
   
@@ -82,7 +56,7 @@ Purchase returns are used to ensure that your company is compensated for incorre
   
         5.  In the **Item Tracking Lines** window, in the **Lot No.** or **Serial No.** field, select a value from the **Item Tracking Summary** window.  
   
-    -   You can create all return\-related documents at the same time from the **Sales Return Order** window. Alternatively, you can create all the documents, including replacement purchase orders, sales return orders, and sales orders, individually.  
+    -   You can create all return-related documents at the same time from the **Sales Return Order** window. Alternatively, you can create all the documents, including replacement purchase orders, sales return orders, and sales orders, individually.  
   
 -   The following options can be used for items that have been received but not yet invoiced:  
   
@@ -91,11 +65,11 @@ Purchase returns are used to ensure that your company is compensated for incorre
     -   If a return order has been shipped but the item is subsequently rejected, you must create a corrective purchase invoice to complete the return order transaction.  
   
 ## See Also  
- [How to: Create Purchase Credit Memos](../Finance/how-to-create-purchase-credit-memos.md)   
- [\($ B\_6697 Create Return\-Related Documents $\)](../Sales/-$-b_6697-create-return-related-documents-$-.md)   
- [How to: Create a Restock Charge](../Sales/how-to-create-a-restock-charge.md)   
- [How to: Assign Exact Cost Reversing in Sales](../Finance/how-to-assign-exact-cost-reversing-in-sales.md)   
- [How to: Create Replacement Purchase Orders](../Purchasing/how-to-create-replacement-purchase-orders.md)   
- [How to: Create and Post Purchase Allowances](../Finance/how-to-create-and-post-purchase-allowances.md)   
- [How to: Get Return Shipment Lines for Item Charges](../Finance/how-to-get-return-shipment-lines-for-item-charges.md)   
- [How to: Correct Purchase Invoices with Purchase Credit Memos](../Finance/how-to-correct-purchase-invoices-with-purchase-credit-memos.md)
+ [How to: Create Purchase Credit Memos](../FullExperience/how-to-create-purchase-credit-memos.md)   
+ Create Return-Related Documents   
+ [How to: Create a Restock Charge](../FullExperience/how-to-create-a-restock-charge.md)   
+ [How to: Assign Exact Cost Reversing in Sales](../FullExperience/how-to-assign-exact-cost-reversing-in-sales.md)   
+ [How to: Create Replacement Purchase Orders](../FullExperience/how-to-create-replacement-purchase-orders.md)   
+ [How to: Create and Post Purchase Allowances](../FullExperience/how-to-create-and-post-purchase-allowances.md)   
+ [How to: Get Return Shipment Lines for Item Charges](../FullExperience/how-to-get-return-shipment-lines-for-item-charges.md)   
+ [How to: Correct Purchase Invoices with Purchase Credit Memos](../FullExperience/how-to-correct-purchase-invoices-with-purchase-credit-memos.md)

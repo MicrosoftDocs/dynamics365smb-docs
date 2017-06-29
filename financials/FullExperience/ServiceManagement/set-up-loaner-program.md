@@ -1,45 +1,22 @@
 ---
-title: "Set Up Loaner Program"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "loaners, setting up"
-ms.assetid: 020ef4d0-af0f-4e15-b954-13cd42d9ba3f
-caps.latest.revision: 7
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Set Up Loaner Program
-Sometimes you must provide a customer a loaner item for use when your customer service team makes a repair. Using [!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)], you can set up a loaner program, loan your customers items, and track the receipt of the items back.  
+Sometimes you must provide a customer a loaner item for use when your customer service team makes a repair. Using ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can set up a loaner program, loan your customers items, and track the receipt of the items back.  
   
  In addition, you may choose to add notes about loaners, by using one of two ways to register comments:  
   
@@ -54,10 +31,10 @@ Sometimes you must provide a customer a loaner item for use when your customer s
   
 |**To**|**See**|  
 |------------|-------------|  
-|Set up a loaner component to your service application.|[How to: Set Up Loaners](../Service/how-to-set-up-loaners.md)|  
-|Provide temporary replacement items to a customer when repair service is performed.|[How to: Lend Loaners](../Service/how-to-lend-loaners.md)|  
-|Track and manage the return of loaners from customers.|[How to: Receive Loaners](../Service/how-to-receive-loaners.md)|  
+|Set up a loaner component to your service application.|[How to: Set Up Loaners](../FullExperience/how-to-set-up-loaners.md)|  
+|Provide temporary replacement items to a customer when repair service is performed.|[How to: Lend Loaners](../FullExperience/how-to-lend-loaners.md)|  
+|Track and manage the return of loaners from customers.|[How to: Receive Loaners](../FullExperience/how-to-receive-loaners.md)|  
   
 ## See Also  
- [How to: Register Loaner Comments](../Service/how-to-register-loaner-comments.md)   
- [How to: Register Service Item Loaner Comments](../Service/how-to-register-service-item-loaner-comments.md)
+ [How to: Register Loaner Comments](../FullExperience/how-to-register-loaner-comments.md)   
+ [How to: Register Service Item Loaner Comments](../FullExperience/how-to-register-service-item-loaner-comments.md)

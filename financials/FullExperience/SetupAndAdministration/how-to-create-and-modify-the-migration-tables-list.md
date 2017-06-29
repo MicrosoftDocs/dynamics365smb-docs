@@ -1,47 +1,24 @@
 ---
-title: "How to: Create and Modify the Migration Tables List"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "RapidStart Services, migrating data"
-ms.assetid: 4c9f9061-cf03-4a11-899d-c6a3be91078c
-caps.latest.revision: 12
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Create and Modify the Migration Tables List
-You can create new data migration files and customize them to support your business. However, a file can only be used to migrate a field that has its **FieldClass** property set to **Normal**. For more information, see [FieldClass Property](../Topic/FieldClass%20Property.md).  
+You can create new data migration files and customize them to support your business. However, a file can only be used to migrate a field that has its **FieldClass** property set to **Normal**. For more information, see [FieldClass Property](../FullExperience/FieldClass%20Property.md).  
   
- To learn more about using the configuration process, see [How to: Manage Company Configuration in a Worksheet](../SetupAndAdministration/how-to-manage-company-configuration-in-a-worksheet.md).  
+ To learn more about using the configuration process, see [How to: Manage Company Configuration in a Worksheet](../FullExperience/how-to-manage-company-configuration-in-a-worksheet.md).  
   
 ### To create a data migration file  
   
@@ -49,9 +26,9 @@ You can create new data migration files and customize them to support your busin
   
 2.  Select and open the package that you want to use to migrate data. On the **Actions** tab, choose **Get Tables**. The **Get Package Table** window opens.  
   
-3.  In the **\($ T\_8613\_1 TableID $\)** field, enter a table number or select a table from the list, for example, table 18, **Customer**. The **\($ T\_8613\_2 Table Name $\)** field is automatically filled in.  
+3.  In the **TableID** field, enter a table number or select a table from the list, for example, table 18, **Customer**. The **Table Name** field is automatically filled in.  
   
-4.  Select the new migration table, and on the **Tables** toolbar, on the **Table** menu, choose **Fields** to open the **\($ N\_8624 Migration Fields $\)** window.  
+4.  Select the new migration table, and on the **Tables** toolbar, on the **Table** menu, choose **Fields** to open the **Migration Fields** window.  
   
 5.  Clear the **Include Field** check box for any field that you do not want to import. On the **Actions** tab, you can also choose **Set Included** or **Clear Included**.  
   
@@ -64,4 +41,4 @@ You can create new data migration files and customize them to support your busin
      A new migration table is created.  
   
 ## See Also  
- [How to: Export Migration Tables](../SetupAndAdministration/how-to-export-migration-tables.md)
+ [How to: Export Migration Tables](../FullExperience/how-to-export-migration-tables.md)

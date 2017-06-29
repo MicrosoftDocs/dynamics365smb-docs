@@ -1,33 +1,30 @@
 ---
-title: "How to: Void Posted Checks"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "posted checks, voiding"
-  - "posted checks, printing"
-ms.assetid: 35093d4c-c89b-4967-a530-6cb428b55cd8
-caps.latest.revision: 28
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "en-ca"
-  - "es-mx"
-  - "fr-ca"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Void Posted Checks
-In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you must void the **Payment Journal** from which the export was initiated to void a check. You cannot void the journal after the file has been transmitted. You must post printed checks before you can void printed checks.  
+In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you must void the **Payment Journal** from which the export was initiated to void a check. You cannot void the journal after the file has been transmitted. You must post printed checks before you can void printed checks.  
   
 ### To post printed checks  
   
 1.  In the **Search** box, enter **Payment Journals**, and then choose the related link.  
   
-2.  In the **Edit \- Payment Journal** window, fill in the fields as described in the following table.  
+2.  In the **Edit - Payment Journal** window, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Batch Name**|The required batch name.|  
     |**Posting Date**|The posting date for the entry.|  
@@ -62,9 +59,9 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], you must v
 6.  To void the check, choose the **OK** button.  
   
 ## See Also  
- [How to: Issue Checks](../../Finance/how-to-issue-checks.md)   
- [How to: Void Checks](../../Finance/how-to-void-checks.md)   
- [\($ N\_374 Check Ledger Entries $\)](assetId:///21180bb1-0d9e-44b6-8899-e48129dc07db)   
- [\($ B\_10084 Void\-Transmit Elec. Payments $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/-$-b_10084-void-transmit-elec.-payments-$-.md)   
- [How to: Set Up Electronic Payments for Bank Accounts](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-set-up-electronic-payments-for-bank-accounts.md)   
- [How to: Generate Electronic Payments](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/how-to-generate-electronic-payments.md)
+ [How to: Issue Checks](../FullExperience/how-to-issue-checks.md)   
+ [How to: Void Checks](../FullExperience/how-to-void-checks.md)   
+ Check Ledger Entries   
+ Void-Transmit Elec. Payments   
+ [How to: Set Up Electronic Payments for Bank Accounts](../FullExperience/how-to-set-up-electronic-payments-for-bank-accounts.md)   
+ [How to: Generate Electronic Payments](../FullExperience/how-to-generate-electronic-payments.md)

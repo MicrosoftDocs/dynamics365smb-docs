@@ -1,23 +1,22 @@
 ---
-title: "How to: Block Inventory Items for Sales or Purchases"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "blocking, inventory items"
-  - "inventory management, blocking items"
-ms.assetid: bfe853e2-7aba-4c60-bfc6-8ef283ed5c81
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "de-ch"
-  - "fr-ch"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Block Inventory Items for Sales or Purchases
-In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], an item can be marked as blocked for sales, blocked for purchase, or blocked for all purposes.  
+In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, an item can be marked as blocked for sales, blocked for purchase, or blocked for all purposes.  
   
  The following table illustrates what occurs when items are blocked.  
   
@@ -25,7 +24,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], an item ca
 |--------------------|------------|  
 |**Sale blocked**|You cannot use the item in a sales document or in a sales item journal.|  
 |**Purchase blocked**|You cannot use the item in a purchase document, in a purchase item journal, or in purchase planning processes.|  
-|**Blocked**|You cannot use the item for any item transaction. For more information about blocking an item for all purposes, see [\($ N\_30 Item Card $\)](../Topic/\($%20N_30%20Item%20Card%20$\).md).|  
+|**Blocked**|You cannot use the item for any item transaction. For more information about blocking an item for all purposes, see Item Card.|  
   
 ### To block inventory items for sales  
   
@@ -49,19 +48,19 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], an item ca
   
  You will receive an error message if you try to do the following:  
   
--   Enter sales lines and purchase lines in sales documents and purchase documents for blocked items. For more information, see the [\($ T\_37 Sales Line $\)](../Topic/\($%20T_37%20Sales%20Line%20$\).md) table and the [\($ T\_39 Purchase Line $\)](../Topic/\($%20T_39%20Purchase%20Line%20$\).md) table.  
+-   Enter sales lines and purchase lines in sales documents and purchase documents for blocked items. For more information, see the Sales Line table and the Purchase Line table.  
   
--   Create new lines in an item journal for blocked items. For more information, see the [\($ N\_40 Item Journal $\)](../../WarehouseActivities/-$-n_40-item-journal-$-.md) window.  
+-   Create new lines in an item journal for blocked items. For more information, see the Item Journal window.  
   
 -   Post item transactions for blocked items.  
   
 ## See Also  
- [\($ T\_27 Item $\)](../Topic/\($%20T_27%20Item%20$\).md)   
- [\($ T\_37 Sales Line $\)](../Topic/\($%20T_37%20Sales%20Line%20$\).md)   
- [\($ T\_39 Purchase Line $\)](../Topic/\($%20T_39%20Purchase%20Line%20$\).md)   
- [\($ N\_40 Item Journal $\)](../../WarehouseActivities/-$-n_40-item-journal-$-.md)   
- [\($ T\_83 Item Journal Line $\)](../Topic/\($%20T_83%20Item%20Journal%20Line%20$\).md)   
- [Swiss Inventory Management](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/swiss-inventory-management.md)   
- [How to: Block Shipment for Negative Inventory](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-block-shipment-for-negative-inventory.md)   
- [How to: Copy Existing Items to New Items](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-copy-existing-items-to-new-items.md)   
- [How to: Deactivate Item Cost Tracking](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Switzerland/how-to-deactivate-item-cost-tracking.md)
+ Item   
+ Sales Line   
+ Purchase Line   
+ Item Journal   
+ Item Journal Line   
+ [Swiss Inventory Management](../FullExperience/swiss-inventory-management.md)   
+ [How to: Block Shipment for Negative Inventory](../FullExperience/how-to-block-shipment-for-negative-inventory.md)   
+ [How to: Copy Existing Items to New Items](../FullExperience/how-to-copy-existing-items-to-new-items.md)   
+ [How to: Deactivate Item Cost Tracking](../FullExperience/how-to-deactivate-item-cost-tracking.md)

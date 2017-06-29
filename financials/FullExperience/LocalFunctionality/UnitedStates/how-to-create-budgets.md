@@ -1,30 +1,22 @@
 ---
-title: "How to: Create Budgets"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "budgets, by history"
-  - "budgets, creating"
-  - "importing, budgets"
-  - "exporting, budgets"
-  - "budgets, importing"
-  - "budgets, by period"
-  - "budgets, exporting"
-ms.assetid: 775189b0-e212-4be6-b871-225e687da48b
-caps.latest.revision: 25
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "en-ca"
-  - "es-mx"
-  - "fr-ca"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Create Budgets
-In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], the create budget function allows you to do the following:  
+In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, the create budget function allows you to do the following:  
   
 -   Create budget amounts by period.  
   
@@ -48,7 +40,7 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], the create
   
 6.  In the **Budget Amount by Period** batch job, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Budget Beginning Date**|The start date of the first budget period to be created.|  
     |**No. of Periods**|The number of budget periods to be created.|  
@@ -73,11 +65,11 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], the create
 4.  On the **Actions** tab, in the **Functions** group, select **Create Budget**, and then choose **From History**.  
   
     > [!NOTE]  
-    >  When you create a budget with the **From History** option, you get the same result as you would if use the **Copy Budget** function with **G\/L Entry** as the **Source**. The budget is based on actual general ledger entries for the specified period. For more information, see [\($ B\_96 Copy G\-L Budget $\)](../Topic/\($%20B_96%20Copy%20G-L%20Budget%20$\).md).  
+    >  When you create a budget with the **From History** option, you get the same result as you would if use the **Copy Budget** function with **G\/L Entry** as the **Source**. The budget is based on actual general ledger entries for the specified period. For more information, see Copy G-L Budget.  
   
 5.  In the **Budget from History** batch job, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**History Beginning Date**|The start date of the first historical period to be analyzed for the creation of the budget.|  
     |**Budget Beginning Date**|The start date of the first budget period to be created.|  
@@ -91,8 +83,8 @@ In [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)], the create
 7.  Choose the **OK** button.  
   
 ## See Also  
- [\($ B\_96 Copy G\-L Budget $\)](../Topic/\($%20B_96%20Copy%20G-L%20Budget%20$\).md)   
- [How to: Import or Export a Budget](../../Finance/how-to-import-or-export-a-budget.md)   
- [Budgets](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Canada/budgets.md)   
- [\($ B\_82 Export Budget to Excel $\)](../Topic/\($%20B_82%20Export%20Budget%20to%20Excel%20$\).md)   
- [\($ B\_81 Import Budget from Excel $\)](../Topic/\($%20B_81%20Import%20Budget%20from%20Excel%20$\).md)
+ Copy G-L Budget   
+ [How to: Import or Export a Budget](../FullExperience/how-to-import-or-export-a-budget.md)   
+ [Budgets](../FullExperience/budgets.md)   
+ Export Budget to Excel   
+ Import Budget from Excel

@@ -1,49 +1,29 @@
 ---
-title: "Field Mapping When Exporting Payment Files Using Bank Data Conversion Service"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-ms.assetid: 3d034002-a213-4cd0-b6cd-e7bd28b59a01
-caps.latest.revision: 6
-ms.author: "sgroespe"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Field Mapping When Exporting Payment Files Using Bank Data Conversion Service
-When you export payment files using the Bank Data Conversion Service feature, the data that you export is exposed to the provider of the bank data conversion service. The service provider is responsible for the privacy of this data. For more information about how the Bank Data Conversion Service feature works, see [About the Data Exchange Framework](../../BusinessFunctionality/DataExchange/about-the-data-exchange-framework.md).  
+When you export payment files using the Bank Data Conversion Service feature, the data that you export is exposed to the provider of the bank data conversion service. The service provider is responsible for the privacy of this data. For more information about how the Bank Data Conversion Service feature works, see [About the Data Exchange Framework](../FullExperience/about-the-data-exchange-framework.md).  
   
 > [!CAUTION]  
 >  When you export payment files by using the Bank Data Conversion Service feature, some of your business data will be exposed to the provider of the service. The service provider, AMC Consult A\/S, is responsible for the privacy of this data. For more information, see [AMC Privacy Policy](http://go.microsoft.com/fwlink/?LinkId=510158).  
   
- The following table lists the fields in [!INCLUDE[dyn_nav](../../ApplicationDesign/includes/dyn_nav_md.md)] from which data can be exported to the service provider.  
+ The following table lists the fields in ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]--> from which data can be exported to the service provider.  
   
-|Mapped Field|Field in Table|Table|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+|Mapped Field|Field in Table|Table|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
 |------------------|--------------------|-----------|---------------------------------------|  
 |Creditor No.|Creditor No.|Bank Account|The identifier assigned to your company by your bank to collect payments|  
 |Sender Bank Account No.|Bank Account No.\/IBAN|Bank Account|Your company's bank account number \(IBAN or other\) that is specified on the bank account card|  
@@ -52,7 +32,7 @@ When you export payment files using the Bank Data Conversion Service feature, th
 |Sender Bank BIC|SWIFT Code|Bank Account|The SWIFT identifier of the sender bank account|  
 |Sender Bank Account Currency|Currency Code|Bank Account|The sender bank account Currency Code|  
 |Document No.|Document No.|General Journal Line|The document number of the payment line|  
-|Applies\-to Ext. Doc. No.|Applies\-to Ext. Doc. No.|General Journal Line|The external document number of the invoice or credit memo that the payment line is applied to|  
+|Applies-to Ext. Doc. No.|Applies-to Ext. Doc. No.|General Journal Line|The external document number of the invoice or credit memo that the payment line is applied to|  
 |Recipient ID|Account No.|General Journal Line|The customer or vendor number that is specified on the payment line|  
 |Payment Type|Bank Data Conversion Pmt. Type|Payment Method|The type of bank transfer, such as domestic or international|  
 |Payment Reference|Payment Reference|General Journal Line|The payment reference of the payment line|  
@@ -64,7 +44,7 @@ When you export payment files using the Bank Data Conversion Service feature, th
 |Recipient Bank Acc. No.|Bank Account No.\/IBAN|Customer Bank Account\/Vendor Bank Account|The recipient bank account number \(IBAN or other\) that is specified on the customer or vendor bank account card|  
 |Recipient Bank Clearing Code|Bank Clearing Standard|Customer Bank Account\/Vendor Bank Account|The national bank names register used for the recipient bank account|  
 |Recipient Bank Clearing Std.|Bank Clearing Code|Customer Bank Account\/Vendor Bank Account|The identifier of the recipient bank account in relation to the bank names register that is used|  
-|Recipient Email Address|E\-Mail|Customer\/Vendor|The email address of the recipient|  
+|Recipient Email Address|E-Mail|Customer\/Vendor|The email address of the recipient|  
 |Message To Recipient 1|Message to Recipient|General Journal Line|The message to recipient that is specified on the payment line|  
 |Amount|Amount|General Journal Line|The amount on the payment line|  
 |Currency Code|Currency Code|General Journal Line|The currency code on the payment line|  
@@ -83,10 +63,10 @@ When you export payment files using the Bank Data Conversion Service feature, th
 |Sender Bank Post Code|Post Code|Bank Account|The sender bank account post code that is specified on the bank account card|  
 |General Journal Template|Journal Template Name|General Journal Line|The general journal template that is used for the payment line|  
 |General Journal Batch Name|Journal Batch Name|General Journal Line|The general journal batch name that is used for the payment line|  
-|Sender Bank Name \- Data Conv.|Bank Name – Data Conv.|Bank Account|The sender bank account name that is requested by the bank data conversion service and specified on the bank account card|  
+|Sender Bank Name - Data Conv.|Bank Name – Data Conv.|Bank Account|The sender bank account name that is requested by the bank data conversion service and specified on the bank account card|  
   
 ## See Also  
- [How to: Set Up the Bank Data Conversion Service](../../BusinessFunctionality/DataExchange/how-to-set-up-the-bank-data-conversion-service.md)   
- [Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](../../Finance/make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
- [About the Data Exchange Framework](../../BusinessFunctionality/DataExchange/about-the-data-exchange-framework.md)   
- [Data Exchange](../../BusinessFunctionality/DataExchange/data-exchange.md)
+ [How to: Set Up the Bank Data Conversion Service](../FullExperience/how-to-set-up-the-bank-data-conversion-service.md)   
+ [Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](../FullExperience/make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
+ [About the Data Exchange Framework](../FullExperience/about-the-data-exchange-framework.md)   
+ [Data Exchange](../FullExperience/data-exchange.md)

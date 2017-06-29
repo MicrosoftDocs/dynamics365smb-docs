@@ -1,22 +1,20 @@
 ---
-title: "How to: Enter Master Data for Output Posting"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "master data, output posting"
-  - "output, posting"
-  - "flushing, method"
-ms.assetid: 0dc35c39-40e8-4fb4-afb3-a58948c4ce89
-caps.latest.revision: 12
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Enter Master Data for Output Posting
 To post work progress automatically, you must assign a flushing method to the machine center or the work center.  
   
@@ -37,5 +35,5 @@ To post work progress automatically, you must assign a flushing method to the ma
 4.  Repeat these steps on the **Posting** FastTab of the **Work Center** card.  
   
 ## See Also  
- [How to: Post Output Quantity](../Production/how-to-post-output-quantity.md)   
- [How to: Post Run Times](../Production/how-to-post-run-times.md)
+ [How to: Post Output Quantity](../FullExperience/how-to-post-output-quantity.md)   
+ [How to: Post Run Times](../FullExperience/how-to-post-run-times.md)

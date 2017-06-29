@@ -1,27 +1,26 @@
 ---
-title: "Inventory Act of Receivables And Payables INV-17"
-ms.custom: na
-ms.date: "06-04-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "INV-17"
-  - "inventory act INV-17"
-  - "official reports in Russia, INV-17"
-ms.assetid: f5af2ad3-ac32-4d93-b889-8a678fcdcf36
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "ru-ru"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Inventory Act of Receivables And Payables INV-17
 The inventory act of receivables and payables feature enables you to prepare an inventory of debts and liabilities, and print reports in the following formats:  
   
--   INV\-17  
+-   INV-17  
   
--   Supplement to INV\-17  
+-   Supplement to INV-17  
   
 ## Setting Up a Number Series for Inventory Acts  
  The following procedure shows how to set up a number series for inventory acts.  
@@ -89,8 +88,8 @@ The inventory act of receivables and payables feature enables you to prepare an 
   
  The debts and liabilities amount for the selected vendor or customer is recalculated and the lines are inserted in the document.  
   
-## Printing the INV\-17 form and the Supplement to INV\-17 form  
- The following procedure shows how to print the INV\-17 form and the Supplement to INV\-17 form.  
+## Printing the INV-17 form and the Supplement to INV-17 form  
+ The following procedure shows how to print the INV-17 form and the Supplement to INV-17 form.  
   
 1.  In the Inventory Account Card window, click **Functions**.  
   
@@ -113,10 +112,10 @@ The inventory act of receivables and payables feature enables you to prepare an 
     > [!NOTE]  
     >  All selected signatures will be reflected in the appropriate fields.  
   
-5.  Click **Print**, and then click **Invent. Act INV\-17** to print the inventory act.  
+5.  Click **Print**, and then click **Invent. Act INV-17** to print the inventory act.  
   
-6.  Click **Print**, and then click **Supplement to Invent. Act INV\-17** to print the supplement to the inventory act.  
+6.  Click **Print**, and then click **Supplement to Invent. Act INV-17** to print the supplement to the inventory act.  
   
 ## See Also  
- [Russian Payables Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/russian-payables-reports.md)   
- [Russian Receivables Reports](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Russia/russian-receivables-reports.md)
+ [Russian Payables Reports](../FullExperience/russian-payables-reports.md)   
+ [Russian Receivables Reports](../FullExperience/russian-receivables-reports.md)

@@ -1,46 +1,20 @@
 ---
-title: "How to: Enter Time Periods When Machine Centers Cannot Be Used"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "scheduling machine centers"
-  - "time periods, for machine centers that cannot be used"
-  - "machine centers, entering time periods"
-  - "machine centers, calculating availability"
-ms.assetid: 757c0056-e178-45a7-9965-ef0e28df2e0c
-caps.latest.revision: 8
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Enter Time Periods When Machine Centers Cannot Be Used
 You can define time periods where machine centers cannot be used.  
   
@@ -65,7 +39,7 @@ You can define time periods where machine centers cannot be used.
 5.  On the **Navigate** tab, in the **Absence** group, choose **Update** to calculate the calendar entries for the machine center. This must be done every time you enter calendar entries.  
   
 ## See Also  
- [Shop Calendars](../OperationsPlanning/shop-calendars.md)   
- [How to: Update Calendar Entries for Machine Centers](../OperationsPlanning/how-to-update-calendar-entries-for-machine-centers.md)   
- [How to: Recalculate Calendar Entries for Machine Centers](../OperationsPlanning/how-to-recalculate-calendar-entries-for-machine-centers.md)   
- [How to: Enter Time Periods When Work Centers Cannot Be Used](../Production/how-to-enter-time-periods-when-work-centers-cannot-be-used.md)
+ [Shop Calendars](../FullExperience/shop-calendars.md)   
+ [How to: Update Calendar Entries for Machine Centers](../FullExperience/how-to-update-calendar-entries-for-machine-centers.md)   
+ [How to: Recalculate Calendar Entries for Machine Centers](../FullExperience/how-to-recalculate-calendar-entries-for-machine-centers.md)   
+ [How to: Enter Time Periods When Work Centers Cannot Be Used](../FullExperience/how-to-enter-time-periods-when-work-centers-cannot-be-used.md)

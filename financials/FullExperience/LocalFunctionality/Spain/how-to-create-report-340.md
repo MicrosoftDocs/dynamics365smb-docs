@@ -1,21 +1,20 @@
 ---
-title: "How to: Create Report 340"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "Report 340, submitting"
-  - "340 report, submitting"
-ms.assetid: 41a64aa0-e686-493e-87b2-c48697ea47cd
-caps.latest.revision: 29
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "es-es"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Create Report 340
 Report 340 includes all sales invoices and purchase invoices posted by a company during a given period. The report also includes the operation codes with related taxes and payments in cash.  
   
@@ -27,7 +26,7 @@ Report 340 includes all sales invoices and purchase invoices posted by a company
   
 2.  In the **\($ B\_10743 Make 340 Declaration $\)** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../../ApplicationDesign/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../../ApplicationDesign/includes/bp_tabledescription_md.md)]|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_10743\_N\_2\_1100000 Fiscal Year $\)**|Enter the fiscal year for which you want to create the operation declaration.|  
     |**\($ B\_10743\_N\_2\_1100003 Month $\)**|Select the month that you want to include in the operations declaration.|  
@@ -35,7 +34,7 @@ Report 340 includes all sales invoices and purchase invoices posted by a company
     |**\($ B\_10743\_N\_2\_1000000000 G\/L Acc. for Payments in Cash $\)**|Select one or more on general ledger accounts to include only the entries that are posted to the filtered general ledger accounts in the report. **Important:**  The field is designed for reporting payments in cash. When you export the data to a declaration .txt file, you will see that the **Amount Received in Cash** field in the declaration .txt file contains the accumulated value for the selected general ledger accounts. If you do not select any general ledger accounts, type 2 lines for payments in cash will not be created.|  
     |**\($ B\_10743\_N\_2\_1100007 Contact Name $\)**|Enter the surname and name for the company that is creating the operations declaration.|  
     |**\($ B\_10743\_N\_2\_1100009 Telephone Number $\)**|Enter the telephone number for the company that is creating the operations declaration.|  
-    |**\($ B\_10743\_N\_2\_1100011 Non Deduct. Gen. Prod. Post. Groups $\)**|Select the general product posting group. The selected posting groups are non\-deductible VAT.|  
+    |**\($ B\_10743\_N\_2\_1100011 Non Deduct. Gen. Prod. Post. Groups $\)**|Select the general product posting group. The selected posting groups are non-deductible VAT.|  
     |**\($ B\_10743\_N\_2\_1100015 Declaration Number $\)**|Enter the number to identify the operations declaration.|  
     |**\($ B\_10743\_N\_2\_1100017 Electronic Code $\)**|Specify the electronic code that is provided by the tax authorities.|  
     |**\($ B\_10743\_N\_2\_1100019 Declaration Media Type $\)**|Select the media type for the declaration.|  
@@ -59,7 +58,7 @@ Report 340 includes all sales invoices and purchase invoices posted by a company
  If you print the posted document, for example, a posted sales invoice, it will include the following label: **Régimen especial del criterio de caja**.  
   
 ## See Also  
- [Report 340](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/report-340.md)   
- [\($ B\_10743 Make 340 Declaration $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/-$-b_10743-make-340-declaration-$-.md)   
- [Payments in Cash](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Spain/payments-in-cash.md)   
+ [Report 340](../FullExperience/report-340.md)   
+ Make 340 Declaration   
+ [Payments in Cash](../FullExperience/payments-in-cash.md)   
  [Spanish Tax Agency](http://www.aeat.es/wps/portal/Home?channel=1af861cd949a1010VgnVCM100000d7005a80____&ver=L&site=56d8237c0bc1ff00VgnVCM100000d7005a80____&idioma=es_ES&menu=0&img=0)

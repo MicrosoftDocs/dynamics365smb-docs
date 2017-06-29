@@ -1,44 +1,20 @@
 ---
-title: "How to: Allocate Resources by Using Service Orders"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "service orders, allocating resources"
-  - "resources, allocating on service orders"
-ms.assetid: f158bbd5-f225-4396-9b3c-b0194b93dedc
-caps.latest.revision: 7
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Allocate Resources by Using Service Orders
 After you have created and filled in a service order or service quote, you can allocate resources, for example, technicians, to perform service tasks registered as service item lines in the document.  
   
@@ -66,8 +42,8 @@ After you have created and filled in a service order or service quote, you can a
 >  For a service item in a service order, there can only be Active allocation entries with one resource or resource group at a time.  
   
 ## See Also  
- [Allocation Status and Repair Status](../Service/allocation-status-and-repair-status.md)   
- [How to: Allocate Resources by Using the Dispatch Board](../Service/how-to-allocate-resources-by-using-the-dispatch-board.md)   
- [How to: Allocate Resources by Using Resource Availability](../Service/how-to-allocate-resources-by-using-resource-availability.md)   
- [How to: Cancel Allocations](../Service/how-to-cancel-allocations.md)   
- [How to: Reallocate Resources by Using the Dispatch Board](../Service/how-to-reallocate-resources-by-using-the-dispatch-board.md)
+ [Allocation Status and Repair Status](../FullExperience/allocation-status-and-repair-status.md)   
+ [How to: Allocate Resources by Using the Dispatch Board](../FullExperience/how-to-allocate-resources-by-using-the-dispatch-board.md)   
+ [How to: Allocate Resources by Using Resource Availability](../FullExperience/how-to-allocate-resources-by-using-resource-availability.md)   
+ [How to: Cancel Allocations](../FullExperience/how-to-cancel-allocations.md)   
+ [How to: Reallocate Resources by Using the Dispatch Board](../FullExperience/how-to-reallocate-resources-by-using-the-dispatch-board.md)

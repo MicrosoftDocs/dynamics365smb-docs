@@ -1,19 +1,22 @@
 ---
-title: "How to: Print VAT Summary Information on Documents"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-ms.assetid: ed71ea0a-bf15-4c3f-9be9-39b645c79ff5
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "is-is"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Print VAT Summary Information on Documents
-If VAT is calculated, VAT summary information is typically printed on sales and purchase documents. However, in Iceland, [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] does not print VAT summary information if only one VAT sales code is used in the document. You can modify this behavior by using the **Always Show VAT Summary** option.  
+If VAT is calculated, VAT summary information is typically printed on sales and purchase documents. However, in Iceland, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> does not print VAT summary information if only one VAT sales code is used in the document. You can modify this behavior by using the **Always Show VAT Summary** option.  
   
  The following procedure describes how to display VAT summary information on a sales invoice document, but the same steps also apply to sales order confirmations, sales quotes, sales credit memos, blanket sales orders, purchase orders, purchase invoices, and purchase credit memos.  
   
@@ -26,6 +29,6 @@ If VAT is calculated, VAT summary information is typically printed on sales and 
 3.  To display VAT information in the report, select the **Always Show VAT Summary** check box.  
   
 ## See Also  
- [\($ R\_10941 VAT Balancing Report $\)](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Iceland/-$-r_10941-vat-balancing-report-$-.md)   
- [VAT Reporting and Settlement](../../Finance/vat-reporting-and-settlement.md)   
- [VAT and VIES Report Setup](../../Finance/vat-and-vies-report-setup.md)
+ VAT Balancing Report   
+ [VAT Reporting and Settlement](../FullExperience/vat-reporting-and-settlement.md)   
+ [VAT and VIES Report Setup](../FullExperience/vat-and-vies-report-setup.md)

@@ -1,44 +1,20 @@
 ---
-title: "How to: Enter Comments for Machine Centers"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "comments, machine centers"
-  - "machine centers, comments"
-ms.assetid: 2b369e92-a34b-4986-9f88-639f534cb506
-caps.latest.revision: 7
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Enter Comments for Machine Centers
 You can add any comments to every machine center.  
   
@@ -59,6 +35,6 @@ You can add any comments to every machine center.
 7.  Close the window.  
   
 ## See Also  
- [Structure of the Capacity](../Production/structure-of-the-capacity.md)   
- [How to: Set Up Machine Centers](../Production/how-to-set-up-machine-centers.md)   
- [How to: Enter Comments for Work Centers](../Production/how-to-enter-comments-for-work-centers.md)
+ [Structure of the Capacity](../FullExperience/structure-of-the-capacity.md)   
+ [How to: Set Up Machine Centers](../FullExperience/how-to-set-up-machine-centers.md)   
+ [How to: Enter Comments for Work Centers](../FullExperience/how-to-enter-comments-for-work-centers.md)

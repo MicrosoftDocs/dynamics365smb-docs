@@ -1,49 +1,20 @@
 ---
-title: "How to: Combine Return Receipts"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "combining, return receipts"
-  - "returns management, combining receipts"
-  - "returns, sales"
-  - "sales returns, combining receipts"
-  - "receipts, returns"
-  - "sales credit memos, combining return receipts"
-  - "returns, receipts"
-ms.assetid: a18d9304-2b5d-4a5f-a841-efe4baf9e18b
-caps.latest.revision: 8
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Combine Return Receipts
 You can combine return receipts if your customer returns several items that are covered by different sales return orders.  
   
@@ -61,9 +32,9 @@ You can combine return receipts if your customer returns several items that are 
   
 3.  Fill in the **No.** field.  
   
-4.  In the **Sell\-to Customer No.** field, select the customer who will receive the credit memo for the returned items.  
+4.  In the **Sell-to Customer No.** field, select the customer who will receive the credit memo for the returned items.  
   
-5.  Choose **Actions**![Action Menu icon](../DesignAndEngineering/media/actionmenuicon.png "actionMenuIcon"), choose **Functions**, and then choose **Get Return Receipt Lines**.  
+5.  Choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), choose **Functions**, and then choose **Get Return Receipt Lines**.  
   
 6.  Select the return receipt lines that you want to include in the credit memo:  
   
@@ -71,7 +42,7 @@ You can combine return receipts if your customer returns several items that are 
   
     -   To insert specific lines, select the lines and choose the **OK** button. You can use the Ctrl key to select multiple nonsequential lines.  
   
-7.  If an incorrect shipment line was selected or you want to start over, you can simply delete the lines on the credit memo and re\-run the **Get Return Receipt Lines** function.  
+7.  If an incorrect shipment line was selected or you want to start over, you can simply delete the lines on the credit memo and re-run the **Get Return Receipt Lines** function.  
   
 8.  Post the invoice.  
   
@@ -105,9 +76,9 @@ You can combine return receipts if your customer returns several items that are 
  Alternatively, delete individual sales return orders manually.  
   
 ## See Also  
- [How to: Combine Receipts](../Finance/how-to-combine-receipts.md)   
- [How to: Combine Return Shipments](../Purchasing/how-to-combine-return-shipments.md)   
- [How to: Combine Shipments on a Single Invoice](../Sales/how-to-combine-shipments-on-a-single-invoice.md)   
- [How to: Get Return Receipt Lines for Item Charges](../Finance/how-to-get-return-receipt-lines-for-item-charges.md)   
- [How to: Process Sales Returns](../Sales/how-to-process-sales-returns.md)   
- [How to: Undo Quantity Posting on Posted Return Receipts](../Sales/how-to-undo-quantity-posting-on-posted-return-receipts.md)
+ [How to: Combine Receipts](../FullExperience/how-to-combine-receipts.md)   
+ [How to: Combine Return Shipments](../FullExperience/how-to-combine-return-shipments.md)   
+ [How to: Combine Shipments on a Single Invoice](../FullExperience/how-to-combine-shipments-on-a-single-invoice.md)   
+ [How to: Get Return Receipt Lines for Item Charges](../FullExperience/how-to-get-return-receipt-lines-for-item-charges.md)   
+ [How to: Process Sales Returns](../FullExperience/how-to-process-sales-returns.md)   
+ [How to: Undo Quantity Posting on Posted Return Receipts](../FullExperience/how-to-undo-quantity-posting-on-posted-return-receipts.md)

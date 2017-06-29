@@ -1,25 +1,20 @@
 ---
-title: "Electronic VAT and ICP Declarations"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "ICP declarations, about"
-  - "VAT declarations, about"
-  - "VAT, declarations"
-  - "VAT, statements"
-  - "electronic declarations, ICP"
-  - "electronic declarations, VAT"
-ms.assetid: e2a50098-4958-44d1-9688-425422c635be
-caps.latest.revision: 27
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "nl-nl"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Electronic VAT and ICP Declarations
 Companies must submit periodic VAT and ICP declarations.  
   
@@ -41,9 +36,9 @@ Companies must submit periodic VAT and ICP declarations.
   
 -   Create an electronic declaration and submit the encrypted file through Simple Mail Transfer Protocol \(SMTP\) server to the Dutch tax office.  
   
- The electronic VAT declaration contains the posted VAT and the calculated duty liable to the customs authorities for a specified period. The data of the VAT declaration is based on the definition of the VAT statement in the **\($ T\_256 VAT Statement Line $\)** table. For more information, see [\($ T\_256 VAT Statement Line $\)](assetId:///827c23e2-cae1-492e-9b90-68b5c3418236).  
+ The electronic VAT declaration contains the posted VAT and the calculated duty liable to the customs authorities for a specified period. The data of the VAT declaration is based on the definition of the VAT statement in the **VAT Statement Line** table. For more information, see VAT Statement Line.  
   
- The data of the ICP declaration is based on the **\($ T\_254 VAT Entry $\)** table. For more information, see [\($ T\_254 VAT Entry $\)](assetId:///e4113f5c-adc8-4bfd-8c4b-e7b5f11f4d32).  
+ The data of the ICP declaration is based on the **VAT Entry** table. For more information, see VAT Entry.  
   
 ### Electronic Tax Declaration Methods  
  You can submit the VAT and ICP declarations electronically to the tax authorities using the following methods:  
@@ -58,13 +53,13 @@ Companies must submit periodic VAT and ICP declarations.
  Uses digital certificates to encrypt messages and verify digital signature. If you submit your declarations using the PKI method, you must also have additional certificates, generic parameters, and other parameters when you use the PKI method. For more information, see the [website](http://go.microsoft.com/fwlink/?LinkID=223151) of the Dutch tax office.  
   
 ### Contact Information  
- The electronic VAT and ICP declarations contain contact information about the taxpayer or the agent. For more information, see [\($ T\_79\_19 VAT Registration No. $\)](assetId:///b8cbe882-81ca-4d13-a81f-3e64bbf72b77).  
+ The electronic VAT and ICP declarations contain contact information about the taxpayer or the agent. For more information, see VAT Registration No..  
   
 ## See Also  
- [Electronic Tax Declarations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/electronic-tax-declarations.md)   
- [How to: Set Up VAT Categories](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/how-to-set-up-vat-categories.md)   
- [How to: Create Electronic VAT and ICP Declarations](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/how-to-create-electronic-vat-and-icp-declarations.md)   
- [How to: Process Response Messages from Tax Authorities](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Netherlands/how-to-process-response-messages-from-tax-authorities.md)   
- [OBSOLETE: How to: Set Up PKI\-Based User Certificates for Electronic Tax Declarations](../Topic/OBSOLETE:%20How%20to:%20Set%20Up%20PKI-Based%20User%20Certificates%20for%20Electronic%20Tax%20Declarations.md)   
- [\($ T\_256 VAT Statement Line $\)](assetId:///827c23e2-cae1-492e-9b90-68b5c3418236)   
- [\($ T\_79\_19 VAT Registration No. $\)](assetId:///b8cbe882-81ca-4d13-a81f-3e64bbf72b77)
+ [Electronic Tax Declarations](../FullExperience/electronic-tax-declarations.md)   
+ [How to: Set Up VAT Categories](../FullExperience/how-to-set-up-vat-categories.md)   
+ [How to: Create Electronic VAT and ICP Declarations](../FullExperience/how-to-create-electronic-vat-and-icp-declarations.md)   
+ [How to: Process Response Messages from Tax Authorities](../FullExperience/how-to-process-response-messages-from-tax-authorities.md)   
+ [OBSOLETE: How to: Set Up PKI-Based User Certificates for Electronic Tax Declarations](../FullExperience/OBSOLETE:%20How%20to:%20Set%20Up%20PKI-Based%20User%20Certificates%20for%20Electronic%20Tax%20Declarations.md)   
+ VAT Statement Line   
+ VAT Registration No.

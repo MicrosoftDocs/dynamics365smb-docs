@@ -1,21 +1,20 @@
 ---
-title: "How to: Set Up Bank Accounts for CODA"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "bank accounts, setting up for CODA"
-  - "CODA, setting up bank accounts"
-ms.assetid: 482e5ae7-73cd-4e53-9fb3-09f763284b31
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "fr-be"
-  - "nl-be"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up Bank Accounts for CODA
 Before you can start to use the electronic banking functionality for CODA statements, you must set up the following codes:  
   

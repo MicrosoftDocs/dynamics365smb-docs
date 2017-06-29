@@ -1,20 +1,20 @@
 ---
-title: "Belgian Intrastat Reporting"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "Intrastat, reporting (Belgium)"
-ms.assetid: 6a91ef2f-13f4-4ba7-ad68-d7037fc58464
-caps.latest.revision: 3
-ms.author: "edupont"
-translation.priority.ht: 
-  - "fr-be"
-  - "nl-be"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Belgian Intrastat Reporting
 Companies in the European Union \(EU\) are required to report trade with other countries in the EU. This reporting process is through Intrastat reporting or VIES \(VAT Information Exchange System\). There are two types of Intrastat declarations:  
   

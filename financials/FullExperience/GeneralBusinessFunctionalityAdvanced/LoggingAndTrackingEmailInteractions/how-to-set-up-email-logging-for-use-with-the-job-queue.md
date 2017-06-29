@@ -1,29 +1,20 @@
 ---
-title: "How to: Set Up Email Logging for use with the Job Queue"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "email logging, using with job queues"
-  - "queues, jobs"
-  - "queues, email"
-ms.assetid: 5bc01d70-4618-4e8a-a1d4-da8c71d253dd
-caps.latest.revision: 10
-ms.author: "edupont"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-de"
-  - "es-es"
-  - "fi-fi"
-  - "fr-fr"
-  - "it-it"
-  - "nb-no"
-  - "nl-nl"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up Email Logging for use with the Job Queue
 You can run regular background processing such as email logging using a job queue. In the following procedure, you configure the FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[nav_server](../../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_server_md.md)] --> -->. When you do this, you can decide whether it makes sense in your installation to set up a unique server instance to manage your email logging. Any instance that you set up must have access to the Exchange Server and run as a user account with that access.  
   

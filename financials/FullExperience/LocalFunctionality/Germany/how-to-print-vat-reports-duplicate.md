@@ -1,20 +1,20 @@
 ---
-title: "How to: Print VAT Reports-duplicate"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "VAT, reports"
-  - "VAT, printing reports"
-ms.assetid: c2b0f1c7-88fd-46d4-b1ae-15b706339d23
-caps.latest.revision: 21
-ms.author: "edupont"
-translation.priority.ht: 
-  - "de-de"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Print VAT Reports-duplicate
 FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> includes VAT reports that you can use to submit information about VAT to the authorities. The following VAT reports are available for Germany:  
   

@@ -1,23 +1,20 @@
 ---
-title: "How to: Assign General Production Posting Groups to Work Centers and Machine Centers"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "posting groups"
-  - "work centers, assigning"
-  - "product posting groups"
-  - "machine centers, assigning posting groups"
-ms.assetid: 817795f5-5cac-43f8-b455-f04b3a07bf36
-caps.latest.revision: 7
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Assign General Production Posting Groups to Work Centers and Machine Centers
 You must assign a general product posting group to each work center and machine center in order to set up capacity and subcontractor costing.  
   

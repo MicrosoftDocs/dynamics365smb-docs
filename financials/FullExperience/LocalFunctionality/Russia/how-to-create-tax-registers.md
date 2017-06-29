@@ -1,22 +1,20 @@
 ---
-title: "How to: Create Tax Registers"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "tax registers"
-  - "tax registers, sections"
-  - "tax registers, creating"
-  - "tax journals"
-ms.assetid: a4f4a66c-56ca-49aa-8e18-a56581aabb6c
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "ru-ru"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Create Tax Registers
 The following procedure shows how to create tax registers.  
   

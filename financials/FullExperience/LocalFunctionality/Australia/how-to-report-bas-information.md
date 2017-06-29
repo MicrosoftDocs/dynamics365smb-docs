@@ -1,20 +1,20 @@
 ---
-title: "How to: Report BAS Information"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "BAS, reporting"
-ms.assetid: 5c0605f6-cf21-4b99-9b88-fea934863d67
-caps.latest.revision: 6
-ms.author: "edupont"
-manager: "tsiggaar"
-translation.priority.ht: 
-  - "en-au"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Report BAS Information
 You need to report the Business Activity Statement \(BAS\) calculation information for goods and services tax \(GST\). The **C** and **D** fields on the **Totals** FastTab in the **BAS Calculation Sheet** window are used for fuel tax credits.  
   

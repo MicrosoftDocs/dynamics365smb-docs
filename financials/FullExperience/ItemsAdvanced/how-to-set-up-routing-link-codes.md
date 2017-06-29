@@ -1,21 +1,20 @@
 ---
-title: "How to: Set Up Routing Link Codes"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "codes, routing links"
-  - "routings, link codes"
-ms.assetid: 710b3bad-8fce-41f9-b418-89f7350073ab
-caps.latest.revision: 7
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up Routing Link Codes
 The BOM position is not assigned to a special position in the routing but to a routing link code in the **Production BOM** window. The routing line is also assigned to a routing link code in the **Routing** window. FIX INCLUDE HERE<!--[!INCLUDE[navnow](../ApplicationDesign/includes/navnow_md.md)] --> is very flexible due to this linking of BOM and routing. The positions can be changed as required, without changing the relationships between the BOM and the routing.  
   

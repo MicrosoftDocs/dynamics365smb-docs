@@ -1,19 +1,20 @@
 ---
-title: "How to: Create the TORG-1 Report for Acceptance of Goods"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "TORG reports, creating"
-ms.assetid: 828d6d39-f013-44fc-bea0-bb4ec2bdb128
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "ru-ru"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Create the TORG-1 Report for Acceptance of Goods
 The TORG\-1 report is used for the registration of incoming goods. This report lists receipts with quantity, quality, mass, and package contents according to the terms of an agreement. Depending on your setup, the batch job can be run when you choose the **Print** button in document windows such as the **Purchase Order** window.  
   

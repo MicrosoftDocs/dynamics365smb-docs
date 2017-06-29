@@ -1,19 +1,20 @@
 ---
-title: "VAT-VIES Declaration in Finland"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "VAT-VIES Declaration in Finland"
-ms.assetid: 57a1f9cb-1a78-4bac-a6e9-beef7a35e47d
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "fi-fi"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # VAT-VIES Declaration in Finland
 FIX INCLUDE HERE<!--[!INCLUDE[nav_current_short](../../BusinessFunctionality/IntegratingWithMicrosoftOffice/includes/nav_current_short_md.md)] --> provides Finnish enhancements to comply with regulations for VAT and European Union \(EU\) sales reporting. The **VAT\-VIES Declaration Tax Auth** report and the **EC Sales List** report include the **EU Service** field, which allows you to print service\-related sales amounts separately from item\-related sales amounts based on different posting groups. This information is required in VAT reports for EU third\-party trade transactions in 2010 and all subsequent years.  
   

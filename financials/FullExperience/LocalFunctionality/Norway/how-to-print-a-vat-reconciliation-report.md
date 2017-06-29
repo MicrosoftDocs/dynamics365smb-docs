@@ -1,20 +1,20 @@
 ---
-title: "How to: Print a VAT Reconciliation Report"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "VAT, reconcilliation report"
-  - "VAT, printing reports"
-ms.assetid: f0813534-4739-47f1-9007-2f3e5814c04e
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "nb-no"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Print a VAT Reconciliation Report
 The **VAT Reconciliation** report shows the reconciliation settlement for the base amount and the VAT amount for general ledger accounts. These amounts are grouped by different VAT types.  
   

@@ -1,17 +1,20 @@
 ---
-title: "How to: Export SEPA Payment Files"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-ms.assetid: 56976c38-83af-4db8-a582-3d6beaec04e8
-caps.latest.revision: 4
-ms.author: "edupont"
-translation.priority.ht: 
-  - "en-gb"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Export SEPA Payment Files
 The following procedure describes how to export a SEPA payment file, one of the payment options supported by FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->. The procedure describes how to create a payment for a vendor, but the same steps also apply to creating payments for a customer.  
   

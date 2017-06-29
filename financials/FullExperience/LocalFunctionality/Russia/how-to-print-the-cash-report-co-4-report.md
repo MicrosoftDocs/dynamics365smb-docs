@@ -1,19 +1,20 @@
 ---
-title: "How to: Print the Cash Report CO-4 Report"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "cash reports, printing"
-ms.assetid: 960e607e-bb24-4255-abe0-a463e7d0c387
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "ru-ru"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Print the Cash Report CO-4 Report
 The **\($ R\_14902 Cash Report CO\-4 $\)** report shows the unified standard printing form for cashiers reporting for one operational day of the cash account. It is required and can only be printed per day.  
   

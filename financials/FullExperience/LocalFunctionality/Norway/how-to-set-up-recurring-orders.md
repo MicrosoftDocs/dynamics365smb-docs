@@ -1,19 +1,20 @@
 ---
-title: "How to: Set Up Recurring Orders"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "recurring orders, setting up"
-ms.assetid: 747991ac-714e-4f7d-90fd-d12d6edb13ba
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "nb-no"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up Recurring Orders
 After you create a recurring group, you can set up recurring orders on the blanket sales order by adding the group to the order. For more information, see [How to: Create Blanket Sales Orders](../../Sales/how-to-create-blanket-sales-orders.md) and [How to: Set Up Recurring Groups](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Norway/how-to-set-up-recurring-groups.md).  
   

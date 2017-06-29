@@ -1,19 +1,20 @@
 ---
-title: "How to: Create the TORG-29 Goods Report"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "TORG reports, creating"
-ms.assetid: 792c1f9d-0fda-4f2d-84b6-ffd3795e7b21
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "ru-ru"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Create the TORG-29 Goods Report
 The TORG\-29 report shows the item documents that you can use to submit for receipts and shipments for a location.  
   

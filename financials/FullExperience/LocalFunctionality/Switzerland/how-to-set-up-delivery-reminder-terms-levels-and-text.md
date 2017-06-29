@@ -1,27 +1,20 @@
 ---
-title: "How to: Set Up Delivery Reminder Terms, Levels, and Text"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "reminders, setting up"
-  - "reminders, for delivery"
-  - "delivery reminders, levels"
-  - "delivery reminders, template text"
-  - "delivery reminders, terms"
-ms.assetid: ba8e22f6-e55d-47fb-990d-f86f2b394d25
-caps.latest.revision: 38
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "fr-ch"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up Delivery Reminder Terms, Levels, and Text
 To create delivery reminders, you must set up the following:  
   

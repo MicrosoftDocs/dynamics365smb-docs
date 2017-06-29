@@ -1,19 +1,20 @@
 ---
-title: "How to: Set Up a Quantity Book"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "quantity book, setting up"
-ms.assetid: 40e0b22b-0c56-4477-bca8-04f051c998ec
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "ru-ru"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up a Quantity Book
 Create a depreciation book to keep record of the fixed assets quantities that will be repaid at the time of release for the amount at which they were acquired.  
   

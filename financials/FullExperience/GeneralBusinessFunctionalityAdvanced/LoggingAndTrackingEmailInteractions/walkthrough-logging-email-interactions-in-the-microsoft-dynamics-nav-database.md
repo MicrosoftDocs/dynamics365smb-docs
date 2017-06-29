@@ -1,45 +1,20 @@
 ---
-title: "Walkthrough: Logging Email Interactions in the Microsoft Dynamics NAV Database"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "Outlook, email logging"
-  - "email logging, Outlook"
-  - "email logging, setting up"
-  - "interactions, email logging"
-ms.assetid: 03d4c25b-4be1-4e62-affc-f7d478caec1c
-caps.latest.revision: 26
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Walkthrough: Logging Email Interactions in the Microsoft Dynamics NAV Database
 In managing your relationships with contacts, it helps keep track of email correspondence. Email logging in FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> --> --> --> --> --> --> --> --> --> --> --> --> --> is designed to help you with that. It lets you keep records of your email correspondence in both [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] and Microsoft Exchange Server. For example, you can send an email message to a contact about an upcoming event. The contact replies, and confirms interest in participating. Both messages are logged on the contact card. Or, you might receive a complaint from a contact via an email message. You can track that contact's message and your response to it by using email logging.  
   

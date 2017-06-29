@@ -1,21 +1,20 @@
 ---
-title: "How to: Print List of Items Needed for Production BOMs"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "production BOMs, printing quantities"
-  - "items, printing"
-ms.assetid: 83e40617-379d-48f3-9937-2276d70a9827
-caps.latest.revision: 7
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Print List of Items Needed for Production BOMs
 The **Quantity Explosion of BOM** report gives you a list of the item quantities of the selected BOM. The production BOM is exploded entirely over all levels and printed position by position. The exploded levels are ordered according to their origin of need.  
   

@@ -1,21 +1,20 @@
 ---
-title: "How to: Import Swiss Post Codes"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "post codes, defined"
-  - "post codes, importing"
-ms.assetid: b81061b6-2873-4413-8457-4b4a4a1a35d2
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "de-ch"
-  - "fr-ch"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Import Swiss Post Codes
 You can import the latest post code file and use it to update the **Post Code** table. The post code file can be downloaded from the [Swiss Post](http://go.microsoft.com/fwlink/?LinkId=150292) website. After importing the latest post code, you can define post codes for customers or vendors. For more information, see [How to: Register New Customers](../../Sales/how-to-register-new-customers.md) and [How to: Register New Vendors](../../Purchasing/how-to-register-new-vendors.md).  
   

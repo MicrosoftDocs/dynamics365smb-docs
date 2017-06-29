@@ -1,19 +1,20 @@
 ---
-title: "How to: Set Up Future Expenses in a Depreciation Book"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "future expenses, setting up"
-ms.assetid: fa366d60-5e4d-403f-9b3c-dddc39c114f1
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "ru-ru"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up Future Expenses in a Depreciation Book
 To depreciate a future expense, you have to set up future period expenses in a depreciation book.  
   

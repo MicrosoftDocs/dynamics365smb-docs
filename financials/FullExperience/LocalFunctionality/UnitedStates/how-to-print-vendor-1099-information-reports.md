@@ -1,21 +1,20 @@
 ---
-title: "How to: Print Vendor 1099 Information Reports"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "printing, vendor 1099 information"
-  - "1099 tax forms, printing"
-  - "vendor 1099 information, printing"
-  - "purchase orders, 1099 transactions"
-ms.assetid: 5f79ec1a-44e0-4779-8a90-ecb73dc134e0
-caps.latest.revision: 34
-ms.author: "edupont"
-manager: "terryaus"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Print Vendor 1099 Information Reports
 In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->, you can use the following tax forms to report 1099 transactions:  
   

@@ -1,23 +1,20 @@
 ---
-title: "How to: Void Posted Checks"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "posted checks, voiding"
-  - "posted checks, printing"
-ms.assetid: 35093d4c-c89b-4967-a530-6cb428b55cd8
-caps.latest.revision: 28
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "en-ca"
-  - "es-mx"
-  - "fr-ca"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Void Posted Checks
 In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->, you must void the **Payment Journal** from which the export was initiated to void a check. You cannot void the journal after the file has been transmitted. You must post printed checks before you can void printed checks.  
   

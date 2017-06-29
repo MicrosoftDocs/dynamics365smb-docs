@@ -1,24 +1,20 @@
 ---
-title: "How to: Apply and Unapply General Ledger Entries"
-ms.custom: na
-ms.date: "06-04-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "general ledger, applying entries"
-  - "unapplying, general ledger entries"
-  - "applying, general ledger entries"
-ms.assetid: 41bd59e6-5f5b-473d-810e-6c071c8ae9b6
-caps.latest.revision: 25
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "fr-be"
-  - "nl-be"
-  - "nl-nl"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Apply and Unapply General Ledger Entries
 Applying temporary general ledger entries allows companies to work with temporary and transfer accounts in the general ledger. Temporary and transfer accounts are used to store temporary ledger entries that are waiting for further processing into the general ledger.  
   

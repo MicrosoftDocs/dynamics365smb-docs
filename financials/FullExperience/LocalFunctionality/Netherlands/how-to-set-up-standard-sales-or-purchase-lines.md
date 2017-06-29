@@ -1,19 +1,20 @@
 ---
-title: "How to: Set Up Standard Sales or Purchase Lines"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "standard purchase codes, setting up lines"
-  - "standard sales codes, setting up lines"
-ms.assetid: 3355b089-d10f-4c39-ba4a-87fdf3cfc139
-caps.latest.revision: 24
-ms.author: "edupont"
-manager: "edupont"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up Standard Sales or Purchase Lines
 In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->, you can specify how the standard sales or purchase codes will be entered when you are creating the specified sales or purchase documents.  
   

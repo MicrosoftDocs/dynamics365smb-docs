@@ -1,23 +1,20 @@
 ---
-title: "Vendor Payments and Customer Bills Overview"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "bills, automatic"
-  - "vendor bills, about"
-  - "customer bills, about"
-  - "payments, automatic"
-ms.assetid: 80c2d382-557c-454f-83c3-79849302e4d0
-caps.latest.revision: 9
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "it-it"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Vendor Payments and Customer Bills Overview
 In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->, you can manage automatic bills to customers and from vendors.  
   

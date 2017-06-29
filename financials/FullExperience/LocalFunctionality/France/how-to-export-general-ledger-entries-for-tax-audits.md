@@ -1,20 +1,20 @@
 ---
-title: "How to: Export General Ledger Entries for Tax Audits"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "expoting, general ledger entries for tax audit"
-  - "general ledger, exporting entries for tax audit"
-ms.assetid: 1bd6155c-ad7c-4566-b0e3-5d3c2a967514
-caps.latest.revision: 5
-ms.author: "edupont"
-translation.priority.ht: 
-  - "fr-fr"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Export General Ledger Entries for Tax Audits
 The standard audit file for tax purposes records key business information \(transactions and ledger postings\) into a file in a specified common format for audit purposes. In France, you are required to provide the government with this information in a standard audit file beginning in January 2014. This applies to companies for both corporate tax and VAT audit purposes.  
   

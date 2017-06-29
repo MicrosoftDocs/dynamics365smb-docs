@@ -1,24 +1,20 @@
 ---
-title: "How to: View and Print Account Turnover Information"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "account turnover, printing"
-  - "turnover, general ledger accounts"
-  - "account turnover"
-  - "general ledger, account turnover"
-  - "account turnover, general ledger"
-  - "general ledger, turnover accounts"
-ms.assetid: b080d95f-c80f-4677-aae1-a576e93c6195
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "ru-ru"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: View and Print Account Turnover Information
 FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> enables you to view account turnover information in correspondence with other accounts.  
   

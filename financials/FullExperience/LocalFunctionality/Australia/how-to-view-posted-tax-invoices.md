@@ -1,22 +1,20 @@
 ---
-title: "How to: View Posted Tax Invoices"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "tax, posted invoices"
-  - "tax, invoices"
-  - "posted tax invoices"
-ms.assetid: 17715d38-993f-4a16-86dd-33b6a6c458f9
-caps.latest.revision: 19
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "en-au"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: View Posted Tax Invoices
 In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->, you can use the **Posted Sales Tax Invoice** window and the **Posted Purchase Tax Invoice** window to view the details of posted sales tax invoices and posted purchase tax invoices.  
   

@@ -1,22 +1,20 @@
 ---
-title: "Inventory Setup"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "item charges, assigning by weight or volume"
-  - "inventory, posting corrections"
-  - "correcting, item documents"
-  - "assigning item charges, by weight or volume"
-ms.assetid: eb1fc13e-c7d5-44c9-8538-151fcc86e3c2
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "ru-ru"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Inventory Setup
 As part of inventory management, you can set up inventory to:  
   

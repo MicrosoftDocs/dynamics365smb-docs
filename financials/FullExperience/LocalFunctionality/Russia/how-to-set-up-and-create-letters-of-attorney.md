@@ -1,19 +1,20 @@
 ---
-title: "How to: Set Up and Create Letters of Attorney"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "letter of attorney, setting up"
-ms.assetid: 02fb0765-9c38-4670-9ac9-3cdccfd6dfa4
-caps.latest.revision: 3
-ms.author: "edupont"
-translation.priority.ht: 
-  - "ru-ru"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up and Create Letters of Attorney
 The letter of attorney feature enables you to create and print a Letter of Attorney, and to also print a journal of Letters of Attorney.  
   

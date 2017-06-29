@@ -1,21 +1,20 @@
 ---
-title: "Purpose of the Routings"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "operations"
-  - "routings"
-ms.assetid: a1dbcb2a-2898-4375-aad1-af0f1ee3627f
-caps.latest.revision: 7
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Purpose of the Routings
 Manufacturing companies use routings to show the manufacturing process. The program offers facilities for entering the manufacturing process, both in terms of chronology and capacity. The routings therefore form the basis for the manufacturing.  
   

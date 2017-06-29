@@ -1,21 +1,20 @@
 ---
-title: "How to: Edit Document Amounts in Purchase Invoices and Credit Memos"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "purchase invoices, editing document amounts"
-  - "credit memos, editing document amounts"
-ms.assetid: b7199629-2388-4bbf-bfa9-10c7665e52ac
-caps.latest.revision: 3
-ms.author: "edupont"
-translation.priority.ht: 
-  - "fr-be"
-  - "nl-be"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Edit Document Amounts in Purchase Invoices and Credit Memos
 FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> lets you easily edit document amounts in purchase invoices and credit memos.  
   

@@ -1,21 +1,20 @@
 ---
-title: "How to: Set Up Payment Classes"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "payment management, setting up classes"
-  - "payment classes"
-ms.assetid: 979c90ff-ec64-4665-b7a4-fcc78dee4ce3
-caps.latest.revision: 29
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "fr-fr"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up Payment Classes
 To use payment management, you must set up payment classes to define operation types, such as bills of exchange, electronic payments, or checks.  
   

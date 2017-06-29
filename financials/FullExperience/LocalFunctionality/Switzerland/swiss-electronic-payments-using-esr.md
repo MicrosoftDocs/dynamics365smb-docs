@@ -1,21 +1,20 @@
 ---
-title: "Swiss Electronic Payments Using ESR"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "electronic payments, using ESR"
-  - "ESR payments"
-ms.assetid: 6825ac39-a0d6-49be-9f45-af28129be895
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "de-ch"
-  - "fr-ch"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Swiss Electronic Payments Using ESR
 The Einzahlungsschein mit Referenznummer \(ESR\) electronic payment method is an electronic debtor service that allows the customer to bill open invoices in Swiss Francs \(CHF\) and Euros \(EUR\), and to post incoming payments efficiently. The reference number, or code line, contains all relevant bookkeeping data.  
   

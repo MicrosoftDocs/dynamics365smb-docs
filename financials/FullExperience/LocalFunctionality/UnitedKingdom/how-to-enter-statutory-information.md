@@ -1,20 +1,20 @@
 ---
-title: "How to: Enter Statutory Information"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "statutory reports"
-ms.assetid: a4b16aa7-5873-468a-87ce-e10e19e6f2c1
-caps.latest.revision: 30
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "en-gb"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Enter Statutory Information
 To comply with legal requirements, statutory information is available on the **Statutory** FastTab in the **Company Information** window.  
   

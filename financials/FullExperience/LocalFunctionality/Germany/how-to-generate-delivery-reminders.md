@@ -1,24 +1,20 @@
 ---
-title: "How to: Generate Delivery Reminders"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "reminders, generating"
-  - "delivery reminders, generating"
-ms.assetid: 2d3c0c4a-38e9-4904-9d51-f706c887b4db
-caps.latest.revision: 7
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "fr-ch"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Generate Delivery Reminders
 In FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->, you can create delivery reminders when a purchase has not been delivered as expected. You can create a single delivery reminder manually, or you can generate delivery reminders for all overdue deliveries. For more information, see [How to: Create Delivery Reminders Manually](../../LocalFunctionalityForMicrosoftDynamicsNav2016/Austria/how-to-create-delivery-reminders-manually.md).  
   

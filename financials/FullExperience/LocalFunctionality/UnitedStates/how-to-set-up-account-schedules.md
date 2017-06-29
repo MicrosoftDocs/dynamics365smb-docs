@@ -1,23 +1,20 @@
 ---
-title: "How to: Set Up Account Schedules"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "account schedules, setting up"
-  - "cash flow, account schedules"
-ms.assetid: 4f8a9fe9-eaae-41b9-9e05-4913fbc86800
-caps.latest.revision: 28
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "en-ca"
-  - "es-mx"
-  - "fr-ca"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up Account Schedules
 You can use account schedules to arrange and organize accounts in the chart of accounts. For more information, see the Acc. Schedule Name table.  
   

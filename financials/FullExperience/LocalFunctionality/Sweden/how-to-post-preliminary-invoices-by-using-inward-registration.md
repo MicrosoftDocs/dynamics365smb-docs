@@ -1,21 +1,20 @@
 ---
-title: "How to: Post Preliminary Invoices by Using Inward Registration"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "invoices, posting inward registrations"
-  - "inward registration, posting"
-ms.assetid: 29a35918-cb8e-4854-96df-94c78253b546
-caps.latest.revision: 22
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Post Preliminary Invoices by Using Inward Registration
 Use an inward registration to post a preliminary purchase invoice, which you overwrite later when you post the invoice normally. For more information, see Inward Registration.  
   

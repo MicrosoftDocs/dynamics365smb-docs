@@ -1,24 +1,20 @@
 ---
-title: "Swiss Electronic Payments"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "electronic payment methods"
-  - "EZAG files"
-  - "LSV payments"
-  - "DTA payments"
-  - "ESR payments"
-ms.assetid: d4c85b5f-252a-468f-bcb8-5d9d577ba990
-caps.latest.revision: 5
-ms.author: "sgroespe"
-translation.priority.ht: 
-  - "de-ch"
-  - "fr-ch"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Swiss Electronic Payments
 FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> allows you to send invoices to customers electronically. The invoices are presented and paid directly using the customer's online banking software.  
   

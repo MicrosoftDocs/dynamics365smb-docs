@@ -1,21 +1,20 @@
 ---
-title: "How to: Manually Transfer and Post CODA Statements"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "CODA, manuallly transferring statements"
-  - "CODA, manually posting statements"
-ms.assetid: 7bb805f7-e0a2-407f-9029-6aa833da19f6
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "fr-be"
-  - "nl-be"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Manually Transfer and Post CODA Statements
 After you have applied and processed all CODA statement lines, you can manually transfer the CODA statement lines to a financial journal. The financial journal lets you enter a starting balance and an ending balance and automatically calculate the difference between the two balances. Posting is not allowed if the statement line amounts do not balance with the statement ending balance.  
   

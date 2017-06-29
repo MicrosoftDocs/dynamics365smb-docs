@@ -1,21 +1,20 @@
 ---
-title: "How to: Create a Credit Memo for a Fixed Asset Charge"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "credit memos, fixed asset charges"
-  - "fixed asset charges"
-  - "fixed asset charges, credit memos"
-ms.assetid: a2b4dd8a-3374-4cdc-bbf2-b2ae5ecb43f2
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "ru-ru"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Create a Credit Memo for a Fixed Asset Charge
 If you need to fix an error on a fixed asset charge of an invoice, you can post a credit memo for the fixed asset charge. The following procedure shows how to create a credit memo for the fixed asset charge.  
   

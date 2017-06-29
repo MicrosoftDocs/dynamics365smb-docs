@@ -1,51 +1,20 @@
 ---
-title: "About Warehouse Management"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "bins, warehouse management overview"
-  - "shipments, warehouse management overview"
-  - "receipts, warehouse management overview"
-  - "cycle counting, warehouse management overview"
-  - "warehouse, journals"
-  - "warehouse management, about"
-  - "putting away, warehouse management overview"
-  - "movements, warehouse management overview"
-  - "picking, warehouse management overview"
-ms.assetid: 4decca19-d1af-4357-af25-83e71f122c4d
-caps.latest.revision: 3
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
-  - "de-at"
-  - "de-ch"
-  - "de-de"
-  - "en-au"
-  - "en-ca"
-  - "en-gb"
-  - "en-in"
-  - "en-nz"
-  - "es-es"
-  - "es-mx"
-  - "fi-fi"
-  - "fr-be"
-  - "fr-ca"
-  - "fr-ch"
-  - "fr-fr"
-  - "is-is"
-  - "it-ch"
-  - "it-it"
-  - "nb-no"
-  - "nl-be"
-  - "nl-nl"
-  - "ru-ru"
-  - "sv-se"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # About Warehouse Management
 With warehouse management, you can organize and handle the items in inventory on a bin level. Depending on your setup and the granules specified in your license, you can receive items and put them away in bins, pick and ship from bins, and move items between bins. The sections below describe the various features of warehouse management.  
   

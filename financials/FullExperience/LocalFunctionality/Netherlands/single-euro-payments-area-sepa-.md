@@ -1,21 +1,20 @@
 ---
-title: "Single EURO Payments Area (SEPA)"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "Single Euro Payment Area (SEPA)"
-  - "SEPA, about"
-ms.assetid: 224ff911-2c8b-43d8-bfdd-35cf303b934a
-caps.latest.revision: 27
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "nl-nl"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Single EURO Payments Area (SEPA)
 The Single Euro Payments Area \(SEPA\) unifies payment methods in participating European countries, making international payments as easy to process as domestic payments. 300 million European citizens and companies are able to make and receive payments in euros, whether within or across national borders, with the same basic conditions, rights, and obligations, regardless of location.  
   

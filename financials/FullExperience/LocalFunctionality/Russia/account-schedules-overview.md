@@ -1,19 +1,20 @@
 ---
-title: "Account Schedules Overview"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "account schedules, overview"
-ms.assetid: dd9e7ae1-30fd-49ba-9594-3ef357e925f5
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "ru-ru"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Account Schedules Overview
 Account schedules are one of the main tools that you can use to provide information for required statutory reports. By using user\-defined rows and columns, you can decide which data you want to compare and how. This means that you can create as many customized financial statements as you want without using Report Designer. You can also choose to use a predefined column layout for any account schedule.  
   

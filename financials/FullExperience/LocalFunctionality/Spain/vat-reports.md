@@ -1,25 +1,20 @@
 ---
-title: "VAT Reports"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "reporting VAT"
-  - "VAT, reports"
-  - "VAT-VIES reports, about"
-  - "VAT, about"
-  - "VAT, statements"
-  - "VIES reporting, about"
-  - "VAT reporting, about"
-  - "VAT statements, about"
-ms.assetid: 4f8f3cca-c5ae-4284-811c-d0a719e7bdc7
-caps.latest.revision: 25
-ms.author: "edupont"
-manager: "terryaus"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # VAT Reports
 VAT is charged on transactions that involve goods and services in Spain or goods imported into Spain. The following information provides more details about VAT functionality.  
   

@@ -1,21 +1,20 @@
 ---
-title: "Summarizing Payment Lines and General Journal Lines"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "invoices, lines with different descriptions"
-  - "invoices, multiple lines"
-ms.assetid: 1cbb20a1-89a3-4a98-9447-525bf4d818ec
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "fr-be"
-  - "nl-be"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Summarizing Payment Lines and General Journal Lines
 In FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> --> --> --> --> --> -->, you can post an invoice that has more than one line with the same general ledger account, but has different descriptions. A general ledger entry is created individually for each invoice line that is posted. The invoice line description will be copied to the general ledger account description in the general ledger entries. [!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] handles the following types of transactions in the same way:  
   

@@ -1,21 +1,20 @@
 ---
-title: "How to: Set Up Vendors for Automatic Payment Suggestions"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "vendors, automatic payment suggestions"
-  - "payment suggestions"
-ms.assetid: 87cd3bf7-1813-4a5d-8a6c-9a0cedde4c0e
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "fr-be"
-  - "nl-be"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up Vendors for Automatic Payment Suggestions
 You can set up each vendor so that unpaid invoices from that vendor are automatically included in payment suggestions. For each vendor, you must decide whether you want to automatically generate payment suggestions. If you do not want to generate payment suggestions for a vendor, you should not select the **Suggest Payments** check box. This way the outstanding ledger entries for the vendor will not be included in payment suggestions.  
   

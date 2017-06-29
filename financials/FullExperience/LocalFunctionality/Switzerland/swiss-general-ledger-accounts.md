@@ -1,24 +1,20 @@
 ---
-title: "Swiss General Ledger Accounts"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "general journals, defined"
-  - "general journals, provisional balances"
-  - "general ledger accounts, defined"
-  - "general ledger accounts, data types"
-  - "provisional balances, defined"
-ms.assetid: 63ed65e1-de93-4ab0-904a-3986d1d3c2a1
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "de-ch"
-  - "fr-ch"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Swiss General Ledger Accounts
 FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> --> includes Swiss enhancements to general ledger accounts. This allows you to do the following:  
   

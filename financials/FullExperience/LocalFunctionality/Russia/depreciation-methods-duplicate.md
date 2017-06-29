@@ -1,23 +1,20 @@
 ---
-title: "Depreciation Methods-duplicate"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "depreciation"
-  - "depreciation methods, defined"
-  - "depreciation methods, non-linear"
-  - "depreciation methods, straight-line"
-  - "depreciation methods, declining balance"
-ms.assetid: fed6dc57-8411-43bd-b07c-1135a4b00d04
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "ru-ru"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Depreciation Methods-duplicate
 There are three depreciation methods that are unique to Russia that can be used in FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] -->.  
   

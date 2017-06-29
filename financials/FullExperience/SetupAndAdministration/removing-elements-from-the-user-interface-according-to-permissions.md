@@ -1,15 +1,20 @@
 ---
-title: "Removing Elements from the User Interface According to Permissions"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-ms.assetid: 1104b836-a557-47ee-a6c6-4c19d3469fcc
-caps.latest.revision: 11
-ms.author: "sgroespe"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Removing Elements from the User Interface According to Permissions
 You can configure FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)] --> --> --> to show and hide user interface \(UI\) elements based on the license or the user's permissions to the underlying tables. All elements, fields, actions, and page parts, can be removed from the user’s view of [!INCLUDE[dyn_nav](../ApplicationDesign/includes/dyn_nav_md.md)].  
   

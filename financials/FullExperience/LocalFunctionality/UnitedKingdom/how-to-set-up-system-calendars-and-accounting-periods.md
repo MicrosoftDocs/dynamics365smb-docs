@@ -1,23 +1,20 @@
 ---
-title: "How to: Set Up System Calendars and Accounting Periods"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "calendars, accounting periods"
-  - "accounting calendars"
-  - "system calendars"
-  - "accounting periods, setting up"
-ms.assetid: 0647c68d-2b9b-456e-abc5-edd850b03b59
-caps.latest.revision: 46
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "en-gb"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up System Calendars and Accounting Periods
 For many companies, the fiscal year does not coincide with the calendar year. Fiscal periods can be measured in other units of time, such as months or quarters. For more information, see Calendar Setup, System Calendar, and Accounting Period GB.  
   

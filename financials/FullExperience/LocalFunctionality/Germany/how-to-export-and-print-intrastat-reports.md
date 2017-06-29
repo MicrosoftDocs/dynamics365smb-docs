@@ -1,20 +1,20 @@
 ---
-title: "How to: Export and Print Intrastat Reports"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "Intrastat, reports"
-ms.assetid: 59944e51-9911-4702-b678-cc5ade14a1df
-caps.latest.revision: 10
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "de-de"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Export and Print Intrastat Reports
 Intrastat reporting is required throughout the European Union \(EU\) and must follow local requirements, such as specific formats and files. All companies in the EU must report their trade with other EU countries. The movement of goods must be reported to the statistics authorities \(Statistisches Bundesamt\) every month, and a report must be delivered to the tax authorities.  
   

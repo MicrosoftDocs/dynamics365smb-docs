@@ -1,20 +1,20 @@
 ---
-title: "Payments Cartera Module"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "payables, bill groups"
-  - "Cartera, payables"
-  - "bill groups, payables"
-ms.assetid: 2a39ede4-5638-499d-b6cc-8fbaae9323b5
-caps.latest.revision: 5
-ms.author: "edupont"
-manager: "terryaus"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Payments Cartera Module
 The Payments Cartera module allows you to manage payables documents generated from purchase invoices or from the **Cartera Journal**. The documents can be managed by:  
   

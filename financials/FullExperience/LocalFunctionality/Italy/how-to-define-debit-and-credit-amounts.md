@@ -1,21 +1,20 @@
 ---
-title: "How to: Define Debit and Credit Amounts"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "debit amounts"
-  - "credit amounts"
-ms.assetid: ca228e80-e51e-4b19-9cee-91043bf14514
-caps.latest.revision: 28
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "it-it"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Define Debit and Credit Amounts
 The **Debit Amount** and **Credit Amount** fields are included in multiple journals and tables, including the **General Journal**, **Cust. Ledger Entry** table, and **Vendor Ledger Entry** table. The debit and credit amounts must match in the journals and tables, or you will be unable to post or save.  
   

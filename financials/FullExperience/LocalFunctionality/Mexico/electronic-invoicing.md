@@ -1,23 +1,20 @@
 ---
-title: "Electronic Invoicing"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "invoices, electronic"
-  - "Comprobante Fiscal Digital por Internet (CFDI)"
-  - "CFDI"
-  - "electronic invoices, about"
-ms.assetid: c32133b5-733f-4aee-b2e9-e23a6986900f
-caps.latest.revision: 13
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "es-mx"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Electronic Invoicing
 Mexican companies must be able to send invoices electronically as Comprobante Fiscal Digital por Internet \(CFDI\) files. FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--FIX INCLUDE HERE<!--[!INCLUDE[navnow](../../ApplicationDesign/includes/navnow_md.md)] --> --> --> --> --> --> --> supports CFDI so that you can export sales and service invoices and credit memos as electronic documents that have the required digital signature.  
   

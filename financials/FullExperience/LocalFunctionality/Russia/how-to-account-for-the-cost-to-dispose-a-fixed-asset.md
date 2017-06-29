@@ -1,19 +1,20 @@
 ---
-title: "How to: Account for the Cost  to Dispose a Fixed Asset"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "fixed assets, accounting for disposal costs"
-ms.assetid: 40bbcd3a-a19a-44cc-9bf3-a36415cd6981
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "ru-ru"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Account for the Cost  to Dispose a Fixed Asset
 The maintenance on disposal feature enables you to account for the amount spent to dispose a fixed asset \(FA\) as an expense. You can post operations related to spending for the disposal of a fixed asset so that they will be reflected in the FA Write\-Off Act forms.  
   

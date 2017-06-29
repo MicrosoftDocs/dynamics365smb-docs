@@ -1,23 +1,20 @@
 ---
-title: "How to: Transmit Electronic Payments"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "transmitting, electronic payments"
-  - "electronic payments, transmitting"
-ms.assetid: 213be76f-0290-4fc8-baee-50da356a89f4
-caps.latest.revision: 7
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "en-ca"
-  - "es-mx"
-  - "fr-ca"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Transmit Electronic Payments
 After you have exported payment journal entries to a file using the Export Electronic Payments report, you can use the Void\-Transmit Elec. Payments process to transmit the electronic payments file to your bank for processing.  
   

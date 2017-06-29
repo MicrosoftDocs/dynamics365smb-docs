@@ -1,21 +1,20 @@
 ---
-title: "How to: Set Up a Posting Date Warning"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "posting, setting up date warnings"
-  - "posting dates"
-ms.assetid: 7a4c3c19-aa77-4bf7-88e8-8ee2488e4af0
-caps.latest.revision: 26
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "en-gb"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Set Up a Posting Date Warning
 A warning message will be displayed when you post or batch post sales and purchase documents with a posting date not same as the work date. You must set up for this in the **Sales Receivables Setup** and **Purchases Payables Setup**.  
   

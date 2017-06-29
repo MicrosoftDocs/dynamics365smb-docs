@@ -1,22 +1,20 @@
 ---
-title: "Cash-Bank-Giro"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "giro, transactions"
-  - "bank/giro, transactions"
-  - "bank/giro, journals"
-ms.assetid: 0c1c165a-7bd3-41df-af91-26bd99261e7f
-caps.latest.revision: 7
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "nl-nl"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Cash-Bank-Giro
 Cash\/Bank\/Giro helps you posting both cash and bank\/giro transactions into the system in an easier and more direct way than using the General Journals.  
   

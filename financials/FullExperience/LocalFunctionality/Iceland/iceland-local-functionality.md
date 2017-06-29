@@ -1,20 +1,20 @@
 ---
-title: "Iceland Local Functionality"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "local functionality, about"
-  - "country/region-specific, about"
-ms.assetid: e56f5de2-f3fa-42ce-bbed-7d8c0389e411
-caps.latest.revision: 2
-ms.author: "edupont"
-translation.priority.ht: 
-  - "is-is"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Iceland Local Functionality
 The following topics describe the local functionality in the Icelandic version of Microsoft Dynamics NAV.  
   

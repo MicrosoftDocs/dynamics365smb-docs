@@ -1,20 +1,20 @@
 ---
-title: "How to: Print Balance Sheet Reports"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "balance sheets, reports"
-ms.assetid: cb2cdd80-3433-486c-afeb-91d5dc313122
-caps.latest.revision: 21
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "en-au"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Print Balance Sheet Reports
 You can use the **Balance Sheet** report to view the company’s balance sheet.  
   

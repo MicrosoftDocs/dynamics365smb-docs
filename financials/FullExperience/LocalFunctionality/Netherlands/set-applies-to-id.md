@@ -1,20 +1,20 @@
 ---
-title: "Set Applies-to ID"
-ms.custom: na
-ms.date: "06-05-2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-f1_keywords: 
-  - "N_11309_1010009"
-ms.assetid: b07f4cc9-1bd6-4e30-9b13-ad51469e943a
-caps.latest.revision: 7
-ms.author: "edupont"
-manager: "terryaus"
-translation.priority.ht: 
-  - "nl-nl"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # Set Applies-to ID
 Use this to apply one or more G\/L entries. Select the entry, and then choose **Set Applies\-to ID**.  
   

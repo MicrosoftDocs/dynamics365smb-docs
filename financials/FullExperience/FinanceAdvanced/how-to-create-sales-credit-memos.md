@@ -1,22 +1,20 @@
 ---
-title: "How to: Create Sales Credit Memos"
-ms.custom: na
-ms.date: "03-03-2017"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: "article"
-helpviewer_keywords: 
-  - "compensation, sales credit memos"
-  - "credit memos, creating"
-  - "sales credit memos, creating"
-ms.assetid: 3b753e1f-1c41-4195-b434-0ee7ed41721e
-caps.latest.revision: 6
-ms.author: "sgroespe"
-manager: "terryaus"
-translation.priority.ht: 
-  - "da-dk"
----
+    title: Insert topic title| Microsoft Docs
+    description: Insert description
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 07/01/2017
+    ms.author: sgroespe
+
+    ---
 # How to: Create Sales Credit Memos
 A sales credit memo is typically used when a customer returns an item, but it can also be used to give a customer compensation such as a sales allowance and to correct an erroneous invoice.  
   

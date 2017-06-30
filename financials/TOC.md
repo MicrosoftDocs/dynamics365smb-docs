@@ -203,7 +203,7 @@
 ### How to: Make Prepayments to Vendors
 
 ## Business Intelligence (FULL)
-### [How to: Create Reports with XBRL](bi-how-work-xbrl.md)
+### [How to: Create Reports with XBRL](../FullExperience/bi-create-reports-with-xbrl.md)
 ### How to: Set Up and Publish KPI Web Services Based on Account Schedules
 
 ## Cost Accounting (FULL)
@@ -246,7 +246,7 @@
 ### How to: Deliver Service
 
 # Local Functionality
-## [Netherlands](../netherlands-local-functionality.md)
+## [Netherlands](../Netherlands/netherlands-local-functionality.md)
 
 ## Austria (FULL)
 ### mock-up

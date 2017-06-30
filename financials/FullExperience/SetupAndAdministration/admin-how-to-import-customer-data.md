@@ -16,7 +16,7 @@
 
 ---
 # How to: Import Customer Data
-After the customer data has been entered in the data migration files in Excel, you import the files into ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
+After the customer data has been entered in the data migration files in Excel, you import the files into [!INCLUDE[d365fin](includes/d365fin_md.md)].  
   
 ### To import customer data  
   
@@ -28,7 +28,7 @@ After the customer data has been entered in the data migration files in Excel, y
   
      On the **Tables** FastTab, choose Excel, and then choose **Import from Excel** and save the file.  
   
-4.  Locate and open the file that you want from which you want to import data to ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
+4.  Locate and open the file that you want from which you want to import data to [!INCLUDE[d365fin](includes/d365fin_md.md)].  
   
  Data from the file is imported into the configuration package tables. In the **No. of Package Records** field, you can see the number of records that have been imported. In addition, you can see the number of migration errors.  
   

@@ -16,7 +16,7 @@
 
 ---
 # Automatic Breaking Bulk with Directed Put-away and Pick
-For locations that use directed put-away and pick, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> breakbulks as follows:  
+For locations that use directed put-away and pick, [!INCLUDE[d365fin](includes/d365fin_md.md)] breakbulks as follows:  
   
 ## Breakbulking in Picks  
  If you want to store items in several different units of measure and allow them to be automatically combined as needed in the picking process, select the **Allow Breakbulk** field on the location card.  

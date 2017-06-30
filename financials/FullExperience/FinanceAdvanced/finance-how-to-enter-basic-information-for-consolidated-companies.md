@@ -20,7 +20,7 @@ To consolidate several companies' figures in a consolidated company, you must fi
   
 ### To enter basic information for consolidated companies  
   
-1.  Open the consolidated company. On the ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> menu, choose **Select Company**.  
+1.  Open the consolidated company. On the [!INCLUDE[d365fin](includes/d365fin_md.md)] menu, choose **Select Company**.  
   
 2.  In the **Search** box, enter **Business Units**, and then choose the related link.  
   

@@ -41,7 +41,7 @@ The repair status of service items and the allocation status of the allocation e
 -   There is a search for allocation entries for all the service items in the service order that have the status **Active**. If such allocation entries are found, their allocation status is changed from **Active** to **Reallocation Needed**.  
   
 ## Canceling Allocations  
- When you cancel an allocation for a service item, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> updates the allocation status of the corresponding allocation entry in the following way:  
+ When you cancel an allocation for a service item, [!INCLUDE[d365fin](includes/d365fin_md.md)] updates the allocation status of the corresponding allocation entry in the following way:  
   
 -   The allocation status is changed from **Active** to **Reallocation Needed**.  
   

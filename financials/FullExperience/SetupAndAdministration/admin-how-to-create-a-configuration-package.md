@@ -45,7 +45,7 @@ When you configure a new company, table relations are recognized and processed. 
   
 6.  On the **Home** tab, in the **Process** group, choose **Select All** to add all tables to the package, or select the **Selected** check box for each table in the list that you want to add.  
   
-7.  Choose the **OK** button. The count of tables that you have selected is indicated in the **Select Tables** field. Specify additional options, and then choose the **OK** button. ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> tables are added to the lines of the **Config. Package** card.  
+7.  Choose the **OK** button. The count of tables that you have selected is indicated in the **Select Tables** field. Specify additional options, and then choose the **OK** button. [!INCLUDE[d365fin](includes/d365fin_md.md)] tables are added to the lines of the **Config. Package** card.  
   
     > [!NOTE]  
     >  You can also do this in the configuration worksheet. Select the tables you want to include in the package, and on the **Actions** tab, in the **Functions** group, choose **Assign Package**.  

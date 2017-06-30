@@ -18,7 +18,7 @@
 # Consolidate Companies
 You can consolidate the general ledger entries of two or more separate companies \(subsidiaries\) into a consolidated company. Each individual company involved in a consolidation is called a business unit. The combined company is called the consolidated company.  
   
- You can import data into the consolidated company from other companies in the same database, from other ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> databases, or from files.  
+ You can import data into the consolidated company from other companies in the same database, from other [!INCLUDE[d365fin](includes/d365fin_md.md)] databases, or from files.  
   
  If the financial statements of a business unit are in a different currency than those of the consolidated company, you must set up exchange rates for consolidation. There are three different exchange rates for consolidation: Average Rate \(Manual\), Closing Rate and Last Closing Rate. For each general ledger account that is consolidated from the business unit, the content of the **Consol. Translation Method** field determines which exchange rate is used.  
   

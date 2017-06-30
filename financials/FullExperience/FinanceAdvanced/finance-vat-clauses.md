@@ -22,7 +22,7 @@ VAT clauses are used to provide descriptive information about the VAT that is be
   
  By default, when you specify a VAT posting group on a sales document, the VAT clause that has been associated with the VAT posting group is automatically used and copied to the sales line. If you change the VAT Product Posting group or the VAT Business Posting group on a sales line, then the VAT clause will be updated automatically to reflect the VAT clause code that is associated with the new group.  
   
- You can modify or delete a VAT clause, and your modifications will be reflected in a generated report. However, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> does not keep a history of the change. On the report, the VAT clause descriptions are printed and displayed for all lines in the report alongside the VAT amount and the VAT base amount. If a VAT clause has not been defined for any lines on the sales document, then the whole section is omitted when the report is printed.  
+ You can modify or delete a VAT clause, and your modifications will be reflected in a generated report. However, [!INCLUDE[d365fin](includes/d365fin_md.md)] does not keep a history of the change. On the report, the VAT clause descriptions are printed and displayed for all lines in the report alongside the VAT amount and the VAT base amount. If a VAT clause has not been defined for any lines on the sales document, then the whole section is omitted when the report is printed.  
   
  The following reports support the display of VAT clauses:  
   

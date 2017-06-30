@@ -78,7 +78,7 @@ You can customize the navigation pane with the **Customize Navigation Pane** win
   
 -   In the **Customize** window, choose **Restore Defaults** and then choose the **OK** button.  
   
- Your changes will appear in the navigation pane when you restart ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
+ Your changes will appear in the navigation pane when you restart [!INCLUDE[d365fin](includes/d365fin_md.md)].  
   
 ## See Also  
  PERSONALIZATION Personalize the User Interface   

@@ -42,7 +42,7 @@ To use ADD INCLUDE<!--[!INCLUDE[rimlong](../../includes/navnow_md.md)]--> tables
   
  You can now import the configuration package that you exported from ADD INCLUDE<!--[!INCLUDE[demo](../../includes/how-to-configure-new-companies.md).  
   
- After you create a new company, some tables are automatically filled in, even if no company template is applied. For example, you can review the standard codes for posting and batch transactions in the **Source Code** window. If you provide a local version of ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you should review this table and consider any local language issues.  
+ After you create a new company, some tables are automatically filled in, even if no company template is applied. For example, you can review the standard codes for posting and batch transactions in the **Source Code** window. If you provide a local version of [!INCLUDE[d365fin](includes/d365fin_md.md)], you should review this table and consider any local language issues.  
   
 ## See Also  
  Source Code Setup

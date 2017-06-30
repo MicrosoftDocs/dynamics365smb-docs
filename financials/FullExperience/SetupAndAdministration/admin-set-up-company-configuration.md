@@ -16,7 +16,7 @@
 
 ---
 # Set Up Company Configuration
-The implementation process begins with the ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> solution will require. You bundle all of this information into configuration packages.  
+The implementation process begins with the [!INCLUDE[d365fin](includes/d365fin_md.md)] solution will require. You bundle all of this information into configuration packages.  
   
  ADD INCLUDE<!--[!INCLUDE[rimlong](../../includes/navnow_md.md)]-->. Examples of the types of data that you will migrate include information about existing customers and vendors.  
   
@@ -24,7 +24,7 @@ The implementation process begins with the ADD INCLUDE<!--[!INCLUDE[navnow](../.
   
  The configuration packages are built on a preconfigured company. After you have setup a company that meets your needs, you can create a configuration package that contains relevant data from this company. You can then use it when you create a new company that is to be configured in the same way.  
   
- To facilitate the import of master data, such as customer and vendor information, you can use configuration templates. Configuration templates contain a set of default settings, which are automatically assigned to the records imported into ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
+ To facilitate the import of master data, such as customer and vendor information, you can use configuration templates. Configuration templates contain a set of default settings, which are automatically assigned to the records imported into [!INCLUDE[d365fin](includes/d365fin_md.md)].  
   
  The following table describes the sequence of tasks with links to topics that describe them. These tasks are listed in the order in which you generally perform them.  
   

@@ -16,9 +16,9 @@
 
 ---
 # Use Job Queues to Schedule Tasks
-Job queues in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> enables users to schedule and run specific reports and codeunits. You can set jobs to run one time, or on a recurring basis. For example, you might want to run the Salesperson - Sales Statistics report weekly, to track sales by salesperson each week, or you might want to run the Process Service E-mail Queue codeunit daily, to make sure pending email messages to customers regarding their service orders are sent out in a timely manner.  
+Job queues in [!INCLUDE[d365fin](includes/d365fin_md.md)] enables users to schedule and run specific reports and codeunits. You can set jobs to run one time, or on a recurring basis. For example, you might want to run the Salesperson - Sales Statistics report weekly, to track sales by salesperson each week, or you might want to run the Process Service E-mail Queue codeunit daily, to make sure pending email messages to customers regarding their service orders are sent out in a timely manner.  
   
- ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> also has the following features that use job queues to automate repetitive tasks.  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] also has the following features that use job queues to automate repetitive tasks.  
   
 -   Email logging. For more information, see [How to: Set Up Email Logging for use with the Job Queue](../how-to-set-up-email-logging-for-use-with-the-job-queue.md).  
   

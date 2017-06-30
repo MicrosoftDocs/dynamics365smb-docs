@@ -16,7 +16,7 @@
 
 ---
 # How to: Import Bank Statements
-You can import electronic bank statements from your bank to quickly populate ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> with data about actual bank transactions.  
+You can import electronic bank statements from your bank to quickly populate [!INCLUDE[d365fin](includes/d365fin_md.md)] with data about actual bank transactions.  
   
  You can use three different features to import bank statements from your bank.  
   

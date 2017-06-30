@@ -18,7 +18,7 @@
 # How to: Use the RapidStart Services Role Center to Track Progress
 When you use ADD INCLUDE<!--[!INCLUDE[rim](../../includes/how-to-change-role-centers.md). Choose the RapidStart Profile ID.  
   
- As you continue with your work, you can assign each table the status that reflects where you are in the process. ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> then keeps track of the table status in the **Activities** part on the **Home** page.  
+ As you continue with your work, you can assign each table the status that reflects where you are in the process. [!INCLUDE[d365fin](includes/d365fin_md.md)] then keeps track of the table status in the **Activities** part on the **Home** page.  
   
  By default, when you add a table to the configuration worksheet, its status is set to blank. This means that configuration of the table has not begun. This is reflected in the **Not Started** count in the **Activities** tile.  
   
@@ -42,7 +42,7 @@ When you use ADD INCLUDE<!--[!INCLUDE[rim](../../includes/how-to-change-role-cen
   
 -   Open the RapidStart Services role center **Home** page.  
   
-     In the **Configuration Areas** part, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> tracks the completion statistics for the areas and groups that you have set up in your configuration. If you have not set up any groups or areas, this part has no data.  
+     In the **Configuration Areas** part, [!INCLUDE[d365fin](includes/d365fin_md.md)] tracks the completion statistics for the areas and groups that you have set up in your configuration. If you have not set up any groups or areas, this part has no data.  
   
 ### To see a filtered view of table status  
   

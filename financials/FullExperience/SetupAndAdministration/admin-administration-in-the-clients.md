@@ -16,7 +16,7 @@
 
 ---
 # Administration in the Clients
-After you create users and assign them to permission sets, add them to profiles, which will align them with Role Centers in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
+After you create users and assign them to permission sets, add them to profiles, which will align them with Role Centers in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
   
 -   [Profiles and Role Centers](../profiles-and-role-centers.md)  
   

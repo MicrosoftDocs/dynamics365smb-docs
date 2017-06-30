@@ -40,7 +40,7 @@ You can set up a job queue and specify the order in which designated reports, ba
   
      To stop the job queue, on the **Home** tab, choose **Stop Job Queue**.  
   
- On the **NAS Settings** FastTab, you can set fields if you want to specify on which computer and which server instance the NAS that you want to run the job queue will be running. This can be important when you are fine tuning performance or when a server instance or computer is set up to handle specific ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> functionality. If you do not specify a server or computer, the job queue will run with the services that the client is running on.  
+ On the **NAS Settings** FastTab, you can set fields if you want to specify on which computer and which server instance the NAS that you want to run the job queue will be running. This can be important when you are fine tuning performance or when a server instance or computer is set up to handle specific [!INCLUDE[d365fin](includes/d365fin_md.md)] functionality. If you do not specify a server or computer, the job queue will run with the services that the client is running on.  
   
 ### To specify NAS settings  
   

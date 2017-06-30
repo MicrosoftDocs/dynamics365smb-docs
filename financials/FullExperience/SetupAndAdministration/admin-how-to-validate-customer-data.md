@@ -16,7 +16,7 @@
 
 ---
 # How to: Validate Customer Data
-Customer data must be validated before you apply the records to the ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> database.  
+Customer data must be validated before you apply the records to the [!INCLUDE[d365fin](includes/d365fin_md.md)] database.  
   
 > [!NOTE]  
 >  In most cases, invalid data is not created in the database. However, the application can occasionally be blocked if an imported migration table contains errors.  

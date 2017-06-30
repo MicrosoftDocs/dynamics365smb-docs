@@ -35,11 +35,11 @@ A common problem in an administrative computer system is to locate the origin of
  You must restart the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/nav_windows_md.md)]--> for the new change log settings to take effect.  
   
 > [!IMPORTANT]  
->  The change log cannot track all changes to BLOB fields. ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> tracks that the BLOB field gets set or cleared but cannot read if the field value changes.  
+>  The change log cannot track all changes to BLOB fields. [!INCLUDE[d365fin](includes/d365fin_md.md)] tracks that the BLOB field gets set or cleared but cannot read if the field value changes.  
   
- ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> always logs changes to the **Change Log Activated** field, which means that you are always able to see which user deactivated or reactivated the change log. This cannot be turned off.  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] always logs changes to the **Change Log Activated** field, which means that you are always able to see which user deactivated or reactivated the change log. This cannot be turned off.  
   
- ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> also always tracks the following system tables:  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] also always tracks the following system tables:  
   
 -   **Access Control**  
   

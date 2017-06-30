@@ -16,7 +16,7 @@
 
 ---
 # How to: Run Email Logging
-Email logging can be used to capture email activities between a ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> contact. Both persons must have valid email addresses that are registered on the respective salesperson and contact cards.  
+Email logging can be used to capture email activities between a [!INCLUDE[d365fin](includes/d365fin_md.md)] contact. Both persons must have valid email addresses that are registered on the respective salesperson and contact cards.  
   
  You can create your email messages directly in Outlook, or you can create your messages in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-send-email-messages.md).  
   
@@ -34,7 +34,7 @@ Email logging can be used to capture email activities between a ADD INCLUDE<!--[
   
 1.  Start the job queue that you have specified to manage email logging. For more information, see [How to: Set Up Job Queues](../how-to-set-up-email-logging-for-use-with-the-job-queue.md).  
   
-2.  In your Outlook Sent folder, select the email messages that you want to use in email logging. The messages must be to or from a registered ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> salesperson or contact.  
+2.  In your Outlook Sent folder, select the email messages that you want to use in email logging. The messages must be to or from a registered [!INCLUDE[d365fin](includes/d365fin_md.md)] salesperson or contact.  
   
 3.  Copy the emails messages to the queue folder that you have set up in Exchange public folders.  
   

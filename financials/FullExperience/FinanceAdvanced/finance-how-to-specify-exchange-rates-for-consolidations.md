@@ -16,7 +16,7 @@
 
 ---
 # How to: Specify Exchange Rates for Consolidations
-There are three exchange rates that ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> uses when consolidating the financial statements of business units if the financial statements are in a foreign currency. They are:  Average Rate \(Manual\), Closing Rate and Last Closing Rate. Typically, Average Rate \(Manual\) is used for income statement accounts, and Closing Rate is used for balance sheet accounts. The chart of accounts in the business unit's company specifies which rate is used for which accounts.  
+There are three exchange rates that [!INCLUDE[d365fin](includes/d365fin_md.md)] uses when consolidating the financial statements of business units if the financial statements are in a foreign currency. They are:  Average Rate \(Manual\), Closing Rate and Last Closing Rate. Typically, Average Rate \(Manual\) is used for income statement accounts, and Closing Rate is used for balance sheet accounts. The chart of accounts in the business unit's company specifies which rate is used for which accounts.  
   
  If the **Currency Exchange Rate Table** field on the business unit card contains Local, you can change the exchange rate from the business unit card. The exchange rates are copied from the **Currency Exchange Rate** table, but you can change them before consolidating. Before you can enter the exchange rates, you must enter information about the relevant business unit.  
   

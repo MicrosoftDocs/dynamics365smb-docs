@@ -16,7 +16,7 @@
 
 ---
 # Codeunit 12 Changes: Mapping Global Variables for General Journal Post Line
-The following changes have been implemented in this release of ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
+The following changes have been implemented in this release of [!INCLUDE[d365fin](includes/d365fin_md.md)].  
   
 |**Microsoft Dynamics NAV 2009 R2**|**Microsoft Dynamics NAV 2013 R2**|**Comment**|  
 |----------------------------------------|----------------------------------------|-----------------|  

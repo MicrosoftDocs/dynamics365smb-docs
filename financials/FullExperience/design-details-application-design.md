@@ -16,13 +16,13 @@
 
 ---
 # Application Design
-This content contains detailed technical information about complex feature areas in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
-  
+This content contains detailed technical information about complex feature areas in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+
  Design details content is aimed at implementers, developers, and super users who need deeper insight to implement, customize, or set up the feature area in question.  
-  
+
 > [!NOTE]  
 >  Each link in the following table opens a list of multiple Design Details topics for the application area in question.  
-  
+
 |**To**|**See**|  
 |------------|-------------|  
 |Learn about the design for storing and posting dimensions, including code examples on how to migrate and upgrade dimension code.|[Design Details: Dimension Set Entries](design-details-dimension-set-entries.md)|  
@@ -31,7 +31,7 @@ This content contains detailed technical information about complex feature areas
 |Learn about central principles behind advanced and basic warehouse features and how they integrate with other supply chain features.|[Design Details: Warehouse Management](design-details-warehouse-management.md)|  
 |Learn about historic and the current design of item tracking functionality and how it integrates with the reservation system to include serial\/lot numbers in availability calculations.|[Design Details: Item Tracking](design-details-item-tracking.md)|  
 |Learn about the General Journal Posting Line feature, including recent simplifications to the design of codeunit 12.|[Design Details: General Journal Post Line](design-details-general-journal-post-line.md)|  
-  
+
 ## See Also  
  [Operations Planning](../operations-planning.md)   
  [Manage Inventory Costs](../manage-inventory-costs.md)   

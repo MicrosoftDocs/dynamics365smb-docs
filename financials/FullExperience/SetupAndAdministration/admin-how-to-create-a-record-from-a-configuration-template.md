@@ -36,7 +36,7 @@ You can use the structure of data that is contained in the data templates to con
   
 7.  Expand various FastTabs, and verify that the information was created correctly on them.  
   
- After you have created and verified the structure of the configuration templates, you can continue with the actual migration of your customer’s data into the new ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> database.  
+ After you have created and verified the structure of the configuration templates, you can continue with the actual migration of your customer’s data into the new [!INCLUDE[d365fin](includes/d365fin_md.md)] database.  
   
 ## See Also  
  [How to: Use a Configuration Template on a Record](../how-to-use-a-configuration-template-on-a-record.md)

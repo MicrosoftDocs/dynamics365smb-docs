@@ -615,7 +615,7 @@ This walkthrough introduces you to the project management features in jobs. Jobs
 3.  On the **Home** tab, in the **Process** group, choose **Sales Invoice\/Credit Memo**. On the sales invoice, you can see that only the down payment is included in the invoice. You can now send this to the customer as agreed.  
   
 ## Next Steps  
- This walkthrough has taken you through some of the basic steps of working with jobs in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->. You have learned about how to create a new job, how to copy a job, and how to handle payments. Also, you have seen a demonstration of how to track hours and create invoices.  
+ This walkthrough has taken you through some of the basic steps of working with jobs in [!INCLUDE[d365fin](includes/d365fin_md.md)]. You have learned about how to create a new job, how to copy a job, and how to handle payments. Also, you have seen a demonstration of how to track hours and create invoices.  
   
 ## See Also  
  [Business Process Walkthroughs](../business-process-walkthroughs.md)   

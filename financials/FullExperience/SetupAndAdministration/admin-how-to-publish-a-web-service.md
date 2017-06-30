@@ -16,7 +16,7 @@
 
 ---
 # How to: Publish a Web Service
-Web services are a lightweight way to make application functionality available to a variety of external systems and users. In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> objects as web services, they are immediately available on the network.  
+Web services are a lightweight way to make application functionality available to a variety of external systems and users. In [!INCLUDE[d365fin](includes/d365fin_md.md)] objects as web services, they are immediately available on the network.  
   
  You can set up a web service in the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/navnow_md.md)]--> permissions can access actual data.  
   
@@ -68,7 +68,7 @@ Web services are a lightweight way to make application functionality available t
   
 2.  Review the information that is displayed in the browser. Verify that you can see the name of the web service that you have created.  
   
- When you access a web service, and you want to write data back to ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you must specify the company name. You can specify the company as part of the URI as shown in the examples, or you can specify the company as part of the query parameters. For example, the following URIs point to the same OData web service and are both valid URIs.  
+ When you access a web service, and you want to write data back to [!INCLUDE[d365fin](includes/d365fin_md.md)], you must specify the company name. You can specify the company as part of the URI as shown in the examples, or you can specify the company as part of the query parameters. For example, the following URIs point to the same OData web service and are both valid URIs.  
   
 ```  
 https://localhost:7048/nav_server_instance/OData/Company('CRONUS International Ltd.')/Customer  

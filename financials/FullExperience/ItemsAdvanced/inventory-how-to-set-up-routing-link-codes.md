@@ -16,7 +16,7 @@
 
 ---
 # How to: Set Up Routing Link Codes
-The BOM position is not assigned to a special position in the routing but to a routing link code in the **Production BOM** window. The routing line is also assigned to a routing link code in the **Routing** window. ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> is very flexible due to this linking of BOM and routing. The positions can be changed as required, without changing the relationships between the BOM and the routing.  
+The BOM position is not assigned to a special position in the routing but to a routing link code in the **Production BOM** window. The routing line is also assigned to a routing link code in the **Routing** window. [!INCLUDE[d365fin](includes/d365fin_md.md)] is very flexible due to this linking of BOM and routing. The positions can be changed as required, without changing the relationships between the BOM and the routing.  
   
 ### To set up routing link codes  
   

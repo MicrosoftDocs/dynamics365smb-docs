@@ -16,7 +16,7 @@
 
 ---
 # How to: Set Up Responsibility Centers
-In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can set up responsibility centers to help administer your business.  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can set up responsibility centers to help administer your business.  
   
  A responsibility center can be a cost center, a profit center or an investment center. Examples of responsibility centers are a sales office, a purchasing department for several locations, and a plant planning office.  
   

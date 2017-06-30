@@ -20,7 +20,7 @@ Job queues are an effective tool to schedule the running of business processes i
   
  Alternatively, you may want to schedule postings for hours when it is convenient for your organization. For example, it may make sense in your business to run certain routines when most of the data entry for the day has concluded. You can achieve this by setting the job queue up to run various batch post reports, such as the **Batch Post Sales Orders**, **Batch Post Sales Invoices**, and **Batch Post Sales Credit Memos** reports.  
   
- ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> supports background posting for the following document types:  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] supports background posting for the following document types:  
   
 -   Sales: sales order, return order, credit memo, invoice  
   

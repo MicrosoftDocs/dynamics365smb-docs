@@ -18,7 +18,7 @@
 # How to: Configure New Companies using a Cmdlet
 In a number of scenarios, you may want to load and import a configuration package without involving your users or using the ADD INCLUDE<!--[!INCLUDE[rim](../../includes/navnow_md.md)]--> Windows PowerShell cmdlet. Scenarios where this may be useful include:  
   
--   Performing data import across multiple ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> installations without opening each of installation manually.  
+-   Performing data import across multiple [!INCLUDE[d365fin](includes/d365fin_md.md)] installations without opening each of installation manually.  
   
 -   Configuring additional application areas for multiple customers.  
   

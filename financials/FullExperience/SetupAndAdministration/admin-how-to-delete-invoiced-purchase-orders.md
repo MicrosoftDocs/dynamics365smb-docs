@@ -26,7 +26,7 @@ In certain situations, you may need to delete invoiced purchase orders that have
   
 3.  When you have set the filters, choose **OK** to execute the batch job.  
   
-     ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> checks that you have fully invoiced the deleted purchase orders. You cannot delete orders that you have not fully invoiced and received.  
+     [!INCLUDE[d365fin](includes/d365fin_md.md)] checks that you have fully invoiced the deleted purchase orders. You cannot delete orders that you have not fully invoiced and received.  
   
 ## See Also  
  [How to: Delete Invoiced Blanket Purchase Orders](../how-to-delete-invoiced-blanket-purchase-orders.md)   

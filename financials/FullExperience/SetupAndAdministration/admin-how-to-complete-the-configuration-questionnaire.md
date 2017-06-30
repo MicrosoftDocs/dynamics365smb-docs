@@ -16,7 +16,7 @@
 
 ---
 # How to: Complete the Configuration Questionnaire
-You use the setup questionnaire to structure and document a detailed discussion about the customer’s specific needs. You also use it to collect setup data from the customer to configure the relevant ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> setup tables, such as the general ledger, inventory, and customers.  
+You use the setup questionnaire to structure and document a detailed discussion about the customer’s specific needs. You also use it to collect setup data from the customer to configure the relevant [!INCLUDE[d365fin](includes/d365fin_md.md)] setup tables, such as the general ledger, inventory, and customers.  
   
 > [!NOTE]  
 >  You can also create your own setup questionnaire to meet your needs.  
@@ -45,7 +45,7 @@ You use the setup questionnaire to structure and document a detailed discussion 
   
      On the **Home** tab, in the **Process** group, choose **Question Areas** to begin the process of validating and applying the answers to the setup questionnaire.  
   
- You can now review the completed setup questionnaire before applying the data to the ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> database.  
+ You can now review the completed setup questionnaire before applying the data to the [!INCLUDE[d365fin](includes/d365fin_md.md)] database.  
   
  The next procedure provides an alternative way of accessing configuration questionnaires. It assumes that the configuration package that you have been provided includes questionnaires.  
   

@@ -16,16 +16,16 @@
 
 ---
 # Walkthrough: Logging Email Interactions in the Microsoft Dynamics NAV Database
-In managing your relationships with contacts, it helps keep track of email correspondence. Email logging in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> and Microsoft Exchange Server. For example, you can send an email message to a contact about an upcoming event. The contact replies, and confirms interest in participating. Both messages are logged on the contact card. Or, you might receive a complaint from a contact via an email message. You can track that contact's message and your response to it by using email logging.  
+In managing your relationships with contacts, it helps keep track of email correspondence. Email logging in [!INCLUDE[d365fin](includes/d365fin_md.md)] and Microsoft Exchange Server. For example, you can send an email message to a contact about an upcoming event. The contact replies, and confirms interest in participating. Both messages are logged on the contact card. Or, you might receive a complaint from a contact via an email message. You can track that contact's message and your response to it by using email logging.  
   
- The email logging feature makes it possible to log all inbound and outbound email messages. The only requirement is that the email address be one that ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> recognizes. The address must belong to a salesperson or to a contact. The messages can be created in Outlook. They are logged automatically when you have email logging enabled. This gives you flexibility to choose the solution that best suits your needs.  
+ The email logging feature makes it possible to log all inbound and outbound email messages. The only requirement is that the email address be one that [!INCLUDE[d365fin](includes/d365fin_md.md)] recognizes. The address must belong to a salesperson or to a contact. The messages can be created in Outlook. They are logged automatically when you have email logging enabled. This gives you flexibility to choose the solution that best suits your needs.  
   
  After you have implemented email logging, you can make email correspondence available to all employees, even if a message was sent to a specific recipient. You do this by taking advantage of Exchange public folders. This improves knowledge sharing and enables better user productivity, because information is stored in one common location.  
   
  Because email logging is server-based, email messages are kept in their native environment instead of in the application. This makes it easier to administer and optimize database storage.  
   
 ## About This Walkthrough  
- This walkthrough describes how to install and maintain email logging for Microsoft Exchange Server in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
+ This walkthrough describes how to install and maintain email logging for Microsoft Exchange Server in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
   
  This walkthrough illustrates the following tasks:  
   
@@ -64,17 +64,17 @@ In managing your relationships with contacts, it helps keep track of email corre
  To use email logging, you must be connected to Microsoft Exchange Server and have an email account.  
   
 > [!NOTE]  
->  For use in this walkthrough, consider creating a domain user email account that is not tied to specific individual. If you do this, you will also want to add the domain account to ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> as a Windows user who has a SUPER permission set.  
+>  For use in this walkthrough, consider creating a domain user email account that is not tied to specific individual. If you do this, you will also want to add the domain account to [!INCLUDE[d365fin](includes/d365fin_md.md)] as a Windows user who has a SUPER permission set.  
 >   
->  However, in a production environment, we recommend that you set up your service account that is assigned the minimum required ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> permissions, especially if you are running the service on a dedicated server instance.  
+>  However, in a production environment, we recommend that you set up your service account that is assigned the minimum required [!INCLUDE[d365fin](includes/d365fin_md.md)] permissions, especially if you are running the service on a dedicated server instance.  
   
- In Outlook, you will have to create two Exchange public folders to contain your mail. These folders are used to process messages and to archive them. This procedure must be completed before you continue to set up email logging in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
+ In Outlook, you will have to create two Exchange public folders to contain your mail. These folders are used to process messages and to archive them. This procedure must be completed before you continue to set up email logging in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
   
 > [!NOTE]  
 >  If you are an Exchange administrator, you can also use the Exchange Management Console to accomplish this task. For more information, see [Exchange Management Console](http://go.microsoft.com/fwlink/?LinkId=246184).  
   
 > [!NOTE]  
->  The email account that is used to configure email logging in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> must have certain permissions with regard to the public folders.  
+>  The email account that is used to configure email logging in [!INCLUDE[d365fin](includes/d365fin_md.md)] must have certain permissions with regard to the public folders.  
 >   
 >  -   When you configure email logging setup in the **Marketing Setup** window, the user name that is used for the validation of setup must have **Read** access to the public folders.  
 > -   When email logging is running on the ADD INCLUDE<!--[!INCLUDE[nav_server](../../includes/nav_server_md.md)]-->, the user account credentials that are used on the server instance must have full **Read**, **Write**, and **Delete items** permission levels set on the public folders.  
@@ -87,18 +87,18 @@ In managing your relationships with contacts, it helps keep track of email corre
   
     |Folder|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
     |------------|---------------------------------------|  
-    |Queue|Email messages are copied by a ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> user, typically a salesperson, to the queue folder, according to rules that you have set up.|  
+    |Queue|Email messages are copied by a [!INCLUDE[d365fin](includes/d365fin_md.md)] user, typically a salesperson, to the queue folder, according to rules that you have set up.|  
     |Storage|Incoming and outgoing messages are logged and automatically copied to the storage folder.|  
   
     > [!NOTE]  
-    >  ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> does not support folder paths that are longer than 250 characters. Accordingly, you should set up your public folder structure to be able to handle this limitation.  
+    >  [!INCLUDE[d365fin](includes/d365fin_md.md)] does not support folder paths that are longer than 250 characters. Accordingly, you should set up your public folder structure to be able to handle this limitation.  
   
      For more information, search Microsoft Outlook Help for "Create a folder."  
   
  For more information, see [Public folders in Exchange Server 2013](http://go.microsoft.com/fwlink/?LinkId=526140) and [Public folder procedures](http://go.microsoft.com/fwlink/?LinkId=526141).  
   
-## Configuring ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->  
- After you have set up public mail folders in Microsoft Outlook, you next configure ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> to interact with them. One aspect of setup requires that you specify how you want interactions to be recorded in an interactions log. The other aspect is to identify the folders in which you log your activities. The following steps require that you be logged in as a SUPER user who has all permissions.  
+## Configuring [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+ After you have set up public mail folders in Microsoft Outlook, you next configure [!INCLUDE[d365fin](includes/d365fin_md.md)] to interact with them. One aspect of setup requires that you specify how you want interactions to be recorded in an interactions log. The other aspect is to identify the folders in which you log your activities. The following steps require that you be logged in as a SUPER user who has all permissions.  
   
 #### To configure email logging  
   
@@ -223,7 +223,7 @@ In managing your relationships with contacts, it helps keep track of email corre
 7.  On the salesperson card, on the **Navigate** tab, choose **Interaction Log Entries**. Verify that the email message that you sent is in the list. On the **Home** tab, choose **Show** to open the mail message.  
   
     > [!IMPORTANT]  
-    >  Email messages received through the Internet can have fake sender addresses. That means that interaction log entries in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> that are created from email logging could potentially include fake addresses and should be reviewed with security in mind.  
+    >  Email messages received through the Internet can have fake sender addresses. That means that interaction log entries in [!INCLUDE[d365fin](includes/d365fin_md.md)] that are created from email logging could potentially include fake addresses and should be reviewed with security in mind.  
   
 #### To integrate mail messages with public folders  
   

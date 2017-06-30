@@ -18,7 +18,7 @@
 # Single EURO Payments Area (SEPA)
 The Single Euro Payments Area \(SEPA\) unifies payment methods in participating European countries, making international payments as easy to process as domestic payments. 300 million European citizens and companies are able to make and receive payments in euros, whether within or across national borders, with the same basic conditions, rights, and obligations, regardless of location.  
   
- [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the Dutch requirements for submitting SEPA payments, credit transfers, and direct debit.  
+ [!INCLUDE[d365fin](../../includes/d365fin_md.md)] supports the Dutch requirements for submitting SEPA payments, credit transfers, and direct debit.  
   
  Before you can submit vendor payments electronically in SEPA ISO2022 format, you must activate SEPA in the following windows:  
   

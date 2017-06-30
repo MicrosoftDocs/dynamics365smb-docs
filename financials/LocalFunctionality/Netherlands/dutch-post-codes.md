@@ -16,7 +16,7 @@
 
 ---
 # Dutch Post Codes
-In the Netherlands, a company called Cendris delivers post code and post code updates for your business. These updates are important for marketing and relationship management activities. Each month Cendris delivers a file that has changes to the post code data for you to import into [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+In the Netherlands, a company called Cendris delivers post code and post code updates for your business. These updates are important for marketing and relationship management activities. Each month Cendris delivers a file that has changes to the post code data for you to import into [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
   
 ## See Also  
  [How to: Import Post Codes](how-to-import-post-codes.md)   

@@ -16,16 +16,16 @@
 
 ---
 # Walkthrough: Synchronizing Information Between Outlook and Microsoft Dynamics NAV
-You can set up synchronization between [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+You can set up synchronization between [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
- The synchronization framework provides default mapping between the [!INCLUDE[d365fin](includes/d365fin_md.md)] contacts, salesperson, and to-dos, and Microsoft Outlook contacts, tasks, and meetings. You can synchronize the entities either manually or automatically at set intervals.  
+ The synchronization framework provides default mapping between the [!INCLUDE[d365fin](../../includes/d365fin_md.md)] contacts, salesperson, and to-dos, and Microsoft Outlook contacts, tasks, and meetings. You can synchronize the entities either manually or automatically at set intervals.  
 
 > [!IMPORTANT]  
->  You can create new a salesperson contact in Outlook, but that contact will not be synchronized to [!INCLUDE[d365fin](includes/d365fin_md.md)] as a salesperson.  
+>  You can create new a salesperson contact in Outlook, but that contact will not be synchronized to [!INCLUDE[d365fin](../../includes/d365fin_md.md)] as a salesperson.  
 
- One of the strengths of the [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook synchronization feature is that it can be customized without adding code. It is fairly simple to add more fields in order to optimize synchronization.  
+ One of the strengths of the [!INCLUDE[d365fin](../../includes/d365fin_md.md)] Outlook synchronization feature is that it can be customized without adding code. It is fairly simple to add more fields in order to optimize synchronization.  
 
- The default setup contains mapping for five different [!INCLUDE[d365fin](includes/d365fin_md.md)] entities:  
+ The default setup contains mapping for five different [!INCLUDE[d365fin](../../includes/d365fin_md.md)] entities:  
 
 -   To-dos of type Meeting  
 
@@ -68,7 +68,7 @@ You can set up synchronization between [!INCLUDE[d365fin](includes/d365fin_md.md
 
 -   Ensure that web services are running.  
 
--   In [!INCLUDE[d365fin](includes/d365fin_md.md)], make sure that the following is true:  
+-   In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], make sure that the following is true:  
 
     -   Outlook Integration is installed.  
 
@@ -80,21 +80,21 @@ You can set up synchronization between [!INCLUDE[d365fin](includes/d365fin_md.md
 
 -   In Outlook, make sure that the following is true:  
 
-    -   [!INCLUDE[d365fin](includes/d365fin_md.md)] Synchronization buttons are displayed in the Add-ins tab on the Outlook ribbon.  
+    -   [!INCLUDE[d365fin](../../includes/d365fin_md.md)] Synchronization buttons are displayed in the Add-ins tab on the Outlook ribbon.  
 
-    -   The connection between [!INCLUDE[d365fin](includes/d365fin_md.md)] and Outlook is working. To test the connection, choose the **Settings** button, and then on the **Connection** tab, choose **Test Connection**.  
+    -   The connection between [!INCLUDE[d365fin](../../includes/d365fin_md.md)] and Outlook is working. To test the connection, choose the **Settings** button, and then on the **Connection** tab, choose **Test Connection**.  
 
 ## Story  
- Michael is an account manager for CRONUS International Ltd. He works primarily in the CRONUS office, and uses [!INCLUDE[d365fin](includes/d365fin_md.md)]. His coworker, David, is a sales representative who works mainly in the field and uses Outlook to track contacts, tasks, and appointments. Because Michael and David share information, they synchronize their information regularly throughout the day. This enables Michael to set appointments for David, while also keeping track of David's activities in the field.  
+ Michael is an account manager for CRONUS International Ltd. He works primarily in the CRONUS office, and uses [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. His coworker, David, is a sales representative who works mainly in the field and uses Outlook to track contacts, tasks, and appointments. Because Michael and David share information, they synchronize their information regularly throughout the day. This enables Michael to set appointments for David, while also keeping track of David's activities in the field.  
 
- In this scenario, Michael creates an appointment for David to meet with an existing customer. When David synchronizes, he sees the meeting that Michael has created. He does not think that he can drive to the location in time, so that he moves the meeting to another day in his Outlook calendar. He synchronizes again and the changes are updated in [!INCLUDE[d365fin](includes/d365fin_md.md)], so that Michael can track the change.  
+ In this scenario, Michael creates an appointment for David to meet with an existing customer. When David synchronizes, he sees the meeting that Michael has created. He does not think that he can drive to the location in time, so that he moves the meeting to another day in his Outlook calendar. He synchronizes again and the changes are updated in [!INCLUDE[d365fin](../../includes/d365fin_md.md)], so that Michael can track the change.  
 
- Michael attempts to call the contact, but the telephone number is incorrect because someone else has entered a new number in Outlook and not yet synchronized with [!INCLUDE[d365fin](includes/d365fin_md.md)]. Michael reviews the conflict details, determines that the problem is related to the telephone number, and resolves the conflict.  
+ Michael attempts to call the contact, but the telephone number is incorrect because someone else has entered a new number in Outlook and not yet synchronized with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. Michael reviews the conflict details, determines that the problem is related to the telephone number, and resolves the conflict.  
 
- Michael also realizes that he has to add some additional fields to the entities that are synchronized. He adds the territory code fields as user-defined fields to the company contact information so that they will be displayed in both Outlook and [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+ Michael also realizes that he has to add some additional fields to the entities that are synchronized. He adds the territory code fields as user-defined fields to the company contact information so that they will be displayed in both Outlook and [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## Performing a Synchronization  
- First, Michael sets an appointment for David to meet with a customer by creating a to-do in [!INCLUDE[d365fin](includes/d365fin_md.md)], and then synchronizing with Outlook, so that the appointment is displayed on the team calendar.  
+ First, Michael sets an appointment for David to meet with a customer by creating a to-do in [!INCLUDE[d365fin](../../includes/d365fin_md.md)], and then synchronizing with Outlook, so that the appointment is displayed on the team calendar.  
 
 #### To create a to-do and synchronize it with Outlook  
 
@@ -120,19 +120,19 @@ You can set up synchronization between [!INCLUDE[d365fin](includes/d365fin_md.md
 
 8.  Choose the **Finish** button.  
 
-9. In Microsoft Outlook, choose **Calendar** to open the calendar view, and then in the My Calendars list, open your [!INCLUDE[d365fin](includes/d365fin_md.md)] calendar.  
+9. In Microsoft Outlook, choose **Calendar** to open the calendar view, and then in the My Calendars list, open your [!INCLUDE[d365fin](../../includes/d365fin_md.md)] calendar.  
 
-10. On the [!INCLUDE[d365fin](includes/d365fin_md.md)] toolbar, choose the **Synchronize** button to activate synchronization.  
+10. On the [!INCLUDE[d365fin](../../includes/d365fin_md.md)] toolbar, choose the **Synchronize** button to activate synchronization.  
 
      The synchronization runs, and you can see the appointment that you created on the shared calendar.  
 
- David checks the synchronized calendar for [!INCLUDE[d365fin](includes/d365fin_md.md)] updates. He sees the appointment and adjusts the time to fix the conflict.  
+ David checks the synchronized calendar for [!INCLUDE[d365fin](../../includes/d365fin_md.md)] updates. He sees the appointment and adjusts the time to fix the conflict.  
 
-#### To change a meeting request in [!INCLUDE[d365fin](includes/d365fin_md.md)] and synchronize with Outlook  
+#### To change a meeting request in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] and synchronize with Outlook  
 
-1.  In your Outlook calendar, move the appointment created in [!INCLUDE[d365fin](includes/d365fin_md.md)] to another day, and then choose the **Synchronize** button to activate synchronization again.  
+1.  In your Outlook calendar, move the appointment created in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] to another day, and then choose the **Synchronize** button to activate synchronization again.  
 
-2.  Now, open [!INCLUDE[d365fin](includes/d365fin_md.md)] and locate the contact card for CT100006.  
+2.  Now, open [!INCLUDE[d365fin](../../includes/d365fin_md.md)] and locate the contact card for CT100006.  
 
      The **Next To-do Date** field lists the new date of the meeting. You can choose the date field to open the to-do list, and see the changes that you made to the appointment.  
 
@@ -143,15 +143,15 @@ You can set up synchronization between [!INCLUDE[d365fin](includes/d365fin_md.md
 
 1.  In Outlook, choose the **Settings** button to open the **Settings** dialog box.  
 
-     The **Settings** dialog box presents several options for resolving conflicts, including options to automatically replace Outlook items with [!INCLUDE[d365fin](includes/d365fin_md.md)] records with Outlook items.  
+     The **Settings** dialog box presents several options for resolving conflicts, including options to automatically replace Outlook items with [!INCLUDE[d365fin](../../includes/d365fin_md.md)] records with Outlook items.  
 
 2.  Select the **Resolve conflicts manually**, and close the **Settings** dialog box.  
 
-3.  In [!INCLUDE[d365fin](includes/d365fin_md.md)], open the contact card for **A. Gibson's Law Firm**, CT100006, and add the telephone number **1234567**.  
+3.  In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], open the contact card for **A. Gibson's Law Firm**, CT100006, and add the telephone number **1234567**.  
 
 4.  Open Outlook and find the contact for **A. Gibson's Law Firm**.  
 
-5.  Change the telephone number to **1224567**, so that it differs from the number that you entered in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+5.  Change the telephone number to **1224567**, so that it differs from the number that you entered in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 6.  Choose the **Synchronize** button to activate the synchronization.  
 
@@ -170,11 +170,11 @@ You can set up synchronization between [!INCLUDE[d365fin](includes/d365fin_md.md
 
 #### To add fields to the existing setup  
 
-1.  Open [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+1.  Open [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 2.  In the **Search** box, enter **Outlook Synch Entities**, and then choose the related link.  
 
-     The **Outlook Synch. Entity** window contains the definition of the mapping between contacts in [!INCLUDE[d365fin](includes/d365fin_md.md)] and contacts in Microsoft Outlook.  
+     The **Outlook Synch. Entity** window contains the definition of the mapping between contacts in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] and contacts in Microsoft Outlook.  
 
 3.  In the **Code** field, select **CONT\_COMP**. On the **Home** tab, in the **Manage** group, choose **Edit**.  
 
@@ -186,7 +186,7 @@ You can set up synchronization between [!INCLUDE[d365fin](includes/d365fin_md.md
 
 6.  Because there are no comparable Outlook property to map this to, select the **User Defined** check box for the **Territory Code** field. Choose the **OK** button.  
 
-     Because entries in the Change Log are used to identify changes in [!INCLUDE[d365fin](includes/d365fin_md.md)], you must add this field to the change log as well.  
+     Because entries in the Change Log are used to identify changes in [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you must add this field to the change log as well.  
 
 7.  On the **Navigate** tab, in the **Sync. Entity** group, choose **Register in Change Log Setup**. Choose the **OK** button.  
 
@@ -206,13 +206,13 @@ You can set up synchronization between [!INCLUDE[d365fin](includes/d365fin_md.md
 
 14. Open Microsoft Outlook, and start synchronization.  
 
-15. When the synchronization is finished, in Microsoft Outlook, open the new contact that you created in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+15. When the synchronization is finished, in Microsoft Outlook, open the new contact that you created in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 16. On the **Contact** tab, in the **Show** group, choose **All fields** and then select the **User-defined fields in this item** option.  
 
      Here, you can see that both the salesperson code and the territory code are included in the Outlook contact information.  
 
-     Now that you have completed this walkthrough, you can establish synchronization entities and begin synchronizing between Outlook and your company's [!INCLUDE[d365fin](includes/d365fin_md.md)] implementation.  
+     Now that you have completed this walkthrough, you can establish synchronization entities and begin synchronizing between Outlook and your company's [!INCLUDE[d365fin](../../includes/d365fin_md.md)] implementation.  
 
 ## See Also  
  [Outlook Add-in-Product Name Synchronization Add-in](../Outlook%20Add-in-\($%20P_1%20Product%20Name%20$\)%20Synchronization%20Add-in.md)   

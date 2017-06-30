@@ -16,7 +16,7 @@
 
 ---
 # Troubleshooting Using Microsoft Dynamics NAV
-This section contains information to help you resolve problems using [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+This section contains information to help you resolve problems using [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
   
 ## Troubleshooting Topics  
  [Troubleshooting: Record Locked by Another User](../troubleshooting-record-locked-by-another-user.md)  

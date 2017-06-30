@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 05/29/2017
+ms.date: 06/27/2017
 ms.author: sgroespe
 
 ---
@@ -21,9 +21,6 @@ To add users in [!INCLUDE[d365fin](includes/d365fin_md.md)], your company's Offi
 Once users are created in Office 365, they can be imported into the **Users** window by using the **Get Users from Office 365** action. Users are assigned permission sets depending on the plan assigned to the User in Office 365.
 
 You can then proceed to assign permission sets to the users to define which database objects, and thereby which UI elements, they have access to, and in which companies.
-
-> [!IMPORTANT]  
->   If the database has multiple companies, then at least one user must be a member of the SUPER user group in all companies.
 
 A permission set is a collection of permissions for specific objects in the database. All users must be assigned one or more permission sets before they can access [!INCLUDE[d365fin](includes/d365fin_md.md)]. A number of predefined permission sets are provided by default. You can use these permission sets as already defined, modify the default permission sets, or create additional permission sets.
 
@@ -111,4 +108,4 @@ Administrators can define periods of time during which specified users are able 
 ## See Also
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Welcome to [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

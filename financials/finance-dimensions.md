@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 06/02/2017
+ms.date: 06/16/2017
 ms.author: bholtorf
 
 ---
@@ -31,6 +31,9 @@ The more dimensions you use, the more detailed reports you can base your busines
 > [!NOTE]  
 >   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 
+## Analyzing By Dimensions
+The Dimensions functionality plays an important role in business intelligence, such as when defining analysis views. For more information, see [How to: Analyze Data by Dimensions](bi-how-analyze-data-dimension.md).
+
 ## Dimension Sets
 A dimension set is a unique combination of dimension values. It is stored as dimension set entries in the database. Each dimension set entry represents a single dimension value. The dimension set is identified by a common dimension set ID that is assigned to each dimension set entry that belongs to the dimension set.  
 
@@ -46,16 +49,13 @@ You can also set up some global and shortcut dimensions:
 * **Global dimensions** are used as filters, for example, on reports and batch jobs. You can use only two global dimensions, so choose dimensions you will use often.
 * **Shortcut dimensions** are available as fields on journal and document lines. You can create up to six of these.  
 
-> [!NOTE]  
->   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
-
-### Set up default dimensions for Customers, Vendors, and other accounts
+### Setting Up Default Dimensions for Customers, Vendors, and Other accounts
 You can assign a default dimension for a specific account. The dimension will be copied to the journal or document when you enter the account number on a line, but you can delete or change the code on the line if appropriate. You can also make a dimension required for posting an entry with a specific type of account.  
 
-### Translate the names of dimensions
+### Translating the Names of Dimensions
 When you create a dimension, and especially a shortcut dimension, what you're actually creating is a custom field or column heading. If your business is international, you can provide translations for the name of the dimension. Documents that include the dimension will use the translated name, where applicable.   
 
-### Example
+### Example of Dimension Setup
 Let's say that your company wants to track transactions based on organizational structure and geographic locations. To do that, you can set up two dimensions in the **Dimensions** window:
 
 * **AREA**  
@@ -104,4 +104,4 @@ You can set up default dimensions for accounts or account types, so that dimensi
 ## See Also
 [Business Intelligence](bi.md)  
 [Finance](finance.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

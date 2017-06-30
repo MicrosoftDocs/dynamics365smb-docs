@@ -59,4 +59,4 @@ After the vendor ships the items, you can post the sales order as shipped. You c
 [How to: Record Purchases](purchasing-how-record-purchases.md)  
 [Sales](sales-manage-sales.md)  
 [Inventory](inventory-manage-inventory.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

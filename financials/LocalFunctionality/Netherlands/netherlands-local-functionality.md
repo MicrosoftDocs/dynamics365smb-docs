@@ -14,10 +14,10 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Netherlands Local Functionality
 The following topics describe the local functionality in the Dutch version of ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
-  
+
 ## In This Section  
  [What's New-duplicate 10](../what-s-new-duplicate-10.md)  
   [CMR Notes](../cmr-notes.md)  

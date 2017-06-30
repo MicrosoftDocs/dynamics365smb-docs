@@ -246,7 +246,7 @@
 ### How to: Deliver Service
 
 # Local Functionality
-## [Netherlands](Netherlands/netherlands-local-functionality.md)
+## [Netherlands](LocalFunctionality/Netherlands/netherlands-local-functionality.md)
 
 ## Austria (FULL)
 ### mock-up

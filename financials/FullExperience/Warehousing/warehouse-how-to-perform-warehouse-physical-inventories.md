@@ -38,7 +38,7 @@ At least once in every fiscal year, you must take a physical inventory to see if
   
 7.  In the **Search** box, enter **Whse. Phys. Inventory List**, and choose the related link.  
   
-8.  Open the ![Shortcut icon](../media/shortcutcoldicon.gif "shortcutColdIcon") report request page and print the lists on which you want employees to record the quantity of items that they count in each bin.  
+8.  Open the  report request page and print the lists on which you want employees to record the quantity of items that they count in each bin.  
   
 9. When the counting is done, enter the counted quantities in the **Qty. \(Phys. Inventory\)** field in the warehouse physical inventory journal.  
   

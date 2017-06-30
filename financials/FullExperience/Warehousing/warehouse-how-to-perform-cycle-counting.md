@@ -60,7 +60,7 @@ Although you count all items in inventory at least once a year, you may have dec
     > [!NOTE]  
     >  You must count the item in all the bins that contain the particular item. If you delete some of the bin lines that the program has retrieved for counting in the **Whse. Phys. Inventory** window, then you will not be counting all the items in the warehouse. If you later post such incomplete results in the Phys. Inventory Journal, the amounts posted will be incorrect.  
   
-5.  Print the ![Shortcut icon](../media/shortcutcoldicon.gif "shortcutColdIcon")**Whse. Phys. Inventory List** report without filtering out some of the lines.  
+5.  Print the **Whse. Phys. Inventory List** report without filtering out some of the lines.  
   
 6.  Count the items and note the quantities on the report.  
   

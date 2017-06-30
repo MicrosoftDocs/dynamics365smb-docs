@@ -26,7 +26,7 @@ If you require your customers to submit payment before you ship an order to them
   
 ### To add prepayment accounts to the general posting setup  
   
--   In the ![Shortcut icon](../media/shortcutcoldicon.gif "shortcutColdIcon")**General Posting Setup** window, you must fill in the following fields:  
+-   In the **General Posting Setup** window, you must fill in the following fields:  
   
      **Sales Prepayments Account**  
   
@@ -34,13 +34,13 @@ If you require your customers to submit payment before you ship an order to them
   
 ### To set up number series for prepayment documents  
   
--   If you use prepayments for sales, in the ![Shortcut icon](../media/shortcutcoldicon.gif "shortcutColdIcon")**[\($ N\_459 Sales & Receivables Setup $\)](DynamicsNAV:////runpage?Page=459)** window, fill in the following fields:  
+-   If you use prepayments for sales, in the **[\($ N\_459 Sales & Receivables Setup $\)](DynamicsNAV:////runpage?Page=459)** window, fill in the following fields:  
   
      **Posted Prepmt. Inv. Nos.**  
   
      **Posted Prepmt. Cr. Memo Nos.**  
   
--   If you use prepayments for purchases, in the ![Shortcut icon](../media/shortcutcoldicon.gif "shortcutColdIcon")**[\($ N\_460 Purchases & Payables Setup $\)](DynamicsNAV:////runpage?Page=460)** window, fill in the following fields:  
+-   If you use prepayments for purchases, in the **[\($ N\_460 Purchases & Payables Setup $\)](DynamicsNAV:////runpage?Page=460)** window, fill in the following fields:  
   
      **Posted Prepmt. Inv. Nos.**  
   

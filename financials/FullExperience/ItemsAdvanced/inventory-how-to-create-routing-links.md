@@ -43,7 +43,7 @@ You can create routing links to connect components to specific operations in ord
   
      Routing link codes are now assigned to operations. Next, you must create the actual link by assigning the same codes to specific components in the relevant production BOM.  
   
-6.  Open the ![Shortcut icon](../media/shortcutcoldicon.gif "shortcutColdIcon")**[production BOM](DynamicsNAV:////runpage?Page=99000787)** that contains the components that you want to link to the above operations.  
+6.  Open the **[production BOM](DynamicsNAV:////runpage?Page=99000787)** that contains the components that you want to link to the above operations.  
   
 7.  Make sure the BOM status is **Under Development**.  
   

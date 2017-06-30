@@ -24,19 +24,19 @@ Tolerance on days and amounts allows you to close an invoice even though the pay
   
 1.  In the **Search** box, enter **General Posting Setup**, and then choose the related link.  
   
-2.  In the ![Shortcut icon](../media/shortcutcoldicon.gif "shortcutColdIcon")**General Posting Setup** window, set up a debit and a credit sales payment tolerance account and a debit and a credit purchase payment tolerance account.  
+2.  In the **General Posting Setup** window, set up a debit and a credit sales payment tolerance account and a debit and a credit purchase payment tolerance account.  
   
 3.  In the **Search** box, enter **Customer Posting Setup**, and then choose the related link.  
   
-4.  In the ![Shortcut icon](../media/shortcutcoldicon.gif "shortcutColdIcon")**Customer Posting Groups** window, set up a debit and a credit payment tolerance account.  
+4.  In the **Customer Posting Groups** window, set up a debit and a credit payment tolerance account.  
   
 5.  In the **Search** box, enter **Vendor Posting Setup**, and then choose the related link.  
   
-6.  In the ![Shortcut icon](../media/shortcutcoldicon.gif "shortcutColdIcon")**Vendor Posting Groups** window, set up a debit and a credit payment tolerance account.  
+6.  In the **Vendor Posting Groups** window, set up a debit and a credit payment tolerance account.  
   
 7.  In the **Search** box, enter **General Ledger Setup**, and then choose the related link.  
   
-8.  Open the ![Shortcut icon](../media/shortcutcoldicon.gif "shortcutColdIcon")**General Ledger Setup** window.  
+8.  Open the **General Ledger Setup** window.  
   
 9. On the **Application** FastTab, fill in the **Pmt. Disc. Tolerance Posting**, **Payment Discount Grace Period** and **Payment Tolerance Posting** fields. For Help about a specific field, click the field and press F1.  
   

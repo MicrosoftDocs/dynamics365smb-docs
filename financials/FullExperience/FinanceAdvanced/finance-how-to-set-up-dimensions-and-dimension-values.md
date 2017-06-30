@@ -18,7 +18,7 @@
 # How to: Set Up Dimensions and Dimension Values
 Before you set up dimensions, you should determine what financial information must be generated and what dimensions must be placed on general ledger entries.  
   
- You set up Dimensions in the ![Shortcut icon](../media/shortcutcoldicon.gif "shortcutColdIcon")**Dimensions** window. After you set up the dimensions, you must set up values for each dimension. As in the chart of accounts, you set up dimension values in hierarchies with totaling fields and indentation.  
+ You set up Dimensions in the **Dimensions** window. After you set up the dimensions, you must set up values for each dimension. As in the chart of accounts, you set up dimension values in hierarchies with totaling fields and indentation.  
   
 ### To set up dimension values  
   

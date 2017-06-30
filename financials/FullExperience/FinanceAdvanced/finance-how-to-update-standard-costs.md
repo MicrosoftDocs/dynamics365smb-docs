@@ -35,27 +35,27 @@ You must periodically update the standard costs of components and roll the new c
   
 ### To update standard costs  
   
-1.  Run the ![Shortcut icon](../media/shortcutcoldicon.gif "shortcutColdIcon")**Adjust Cost-Item Entries** batch job.  
+1.  Run the **Adjust Cost-Item Entries** batch job.  
   
-2.  Run the ![Shortcut icon](../media/shortcutcoldicon.gif "shortcutColdIcon")**Post Inventory Cost to G\/L** batch job.  
+2.  Run the **Post Inventory Cost to G\/L** batch job.  
   
-3.  Open the ![Shortcut icon](../media/shortcutcoldicon.gif "shortcutColdIcon")**Standard Cost Worksheet** and use one or more of the following functions:  
+3.  Open the **Standard Cost Worksheet** and use one or more of the following functions:  
   
-    1.  Run the ![Shortcut icon](../media/shortcutcoldicon.gif "shortcutColdIcon")**Suggest Item Standard Cost** batch job.  
+    1.  Run the **Suggest Item Standard Cost** batch job.  
   
     2.  Review the results and make changes as necessary.  
   
-    3.  Run the ![Shortcut icon](../media/shortcutcoldicon.gif "shortcutColdIcon")**Suggest Capacity Standard Cost** batch job.  
+    3.  Run the **Suggest Capacity Standard Cost** batch job.  
   
     4.  Review the results and make changes as necessary.  
   
-4.  Run the ![Shortcut icon](../media/shortcutcoldicon.gif "shortcutColdIcon")**Roll up Standard Cost** batch job.  
+4.  Run the **Roll up Standard Cost** batch job.  
   
 5.  Review the results and make changes as necessary.  
   
-6.  Run the ![Shortcut icon](../media/shortcutcoldicon.gif "shortcutColdIcon")**Implement Standard Cost Changes** batch job.  
+6.  Run the **Implement Standard Cost Changes** batch job.  
   
-7.  Review and post the ![Shortcut icon](../media/shortcutcoldicon.gif "shortcutColdIcon")**Revaluation Journal**, which has been populated with entries from previous steps in this process.  
+7.  Review and post the **Revaluation Journal**, which has been populated with entries from previous steps in this process.  
   
 ## See Also  
  Standard Cost Worksheet   

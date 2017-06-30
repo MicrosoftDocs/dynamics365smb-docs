@@ -22,4 +22,4 @@ This section describes local functionality in [!INCLUDE[d365fin](../../includes/
  [What's New](what-s-new.md)  
   [OIOUBL Electronic Invoicing Overview](oioubl-electronic-invoicing-overview.md)  
   [VAT-VIES Reporting](vat-vies-reporting.md)  
- [Tables, Reports, Batch Jobs, and Windows](tables-reports-batch-jobs-and-windows.md)
+ 

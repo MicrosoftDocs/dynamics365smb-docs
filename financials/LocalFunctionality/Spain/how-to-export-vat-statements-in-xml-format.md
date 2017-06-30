@@ -50,6 +50,6 @@ You can export a VAT statement in XML format and then submit it electronically t
  You can open or save the generated XML file. You can now submit the VAT statement to the tax authorities.  
   
 ## See Also  
- [How to: Create Templates for Telematic VAT Statements in XML File Format](../how-to-create-templates-for-telematic-vat-statements-in-xml-file-format.md)   
- [How to: Export VAT Statements in Text Format](../how-to-export-vat-statements-in-text-format.md)   
+ [How to: Create Templates for Telematic VAT Statements in XML File Format](how-to-create-templates-for-telematic-vat-statements-in-xml-file-format.md)   
+ [How to: Export VAT Statements in Text Format](how-to-export-vat-statements-in-text-format.md)   
  XML VAT Declaration

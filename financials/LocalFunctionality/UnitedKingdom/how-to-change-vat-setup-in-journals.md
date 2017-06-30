@@ -36,6 +36,6 @@ You can add VAT setup information to journal lines if needed. If you enter items
 6.  Choose the **OK** button.  
   
 ## See Also  
- [United Kingdom Local Functionality](../united-kingdom-local-functionality.md)   
- [How to: Create a VAT Combination Setup](../how-to-create-a-vat-combination-setup.md)   
- [How to: Record VAT](../how-to-record-vat.md)
+ [United Kingdom Local Functionality](united-kingdom-local-functionality.md)   
+ [How to: Create a VAT Combination Setup](how-to-create-a-vat-combination-setup.md)   
+ [How to: Record VAT](how-to-record-vat.md)

@@ -76,6 +76,6 @@ Payment days and non-payment periods are used to calculate due dates. Due date c
 4.  Choose the **OK** button.  
   
 ## See Also  
- [Spain Local Functionality](../spain-local-functionality.md)   
+ [Spain Local Functionality](spain-local-functionality.md)   
  Payment Days   
  Non-Payment Periods

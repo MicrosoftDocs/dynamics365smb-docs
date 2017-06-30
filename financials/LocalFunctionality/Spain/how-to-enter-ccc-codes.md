@@ -34,4 +34,4 @@ Código Cuenta Cliente \(CCC\) is a unique bank account identification code. The
     |**CCC Bank Account No.**|11-20 \(Spain\)<br /><br /> 11-21 \(Portugal\)|Identifies the account number, which may be adjusted with preceding zeros.|  
   
 ## See Also  
- [Spain Local Functionality](../spain-local-functionality.md)
+ [Spain Local Functionality](spain-local-functionality.md)

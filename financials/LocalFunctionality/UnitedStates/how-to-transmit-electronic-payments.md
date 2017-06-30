@@ -36,13 +36,13 @@ After you have exported payment journal entries to a file using the Export Elect
      After transmitting the electronic payments, post the payment journal.  
   
     > [!NOTE]  
-    >  If you want to void a check after the journal has been transmitted and posted, you must contact your bank. You can then void the individual pieces of remittance advice from the **Check Ledger Entries** table. For more information, see [How to: Void Posted Checks](../how-to-void-posted-checks.md).  
+    >  If you want to void a check after the journal has been transmitted and posted, you must contact your bank. You can then void the individual pieces of remittance advice from the **Check Ledger Entries** table. For more information, see [How to: Void Posted Checks](how-to-void-posted-checks.md).  
   
 ## See Also  
- [Electronic Payments for United States, Canada, and Mexico](../electronic-payments-for-united-states-canada-and-mexico.md)   
- [How to: Set Up Electronic Payments for Bank Accounts](../how-to-set-up-electronic-payments-for-bank-accounts.md)   
- [How to: Void Posted Checks](../how-to-void-posted-checks.md)   
+ [Electronic Payments for United States, Canada, and Mexico](electronic-payments-for-united-states-canada-and-mexico.md)   
+ [How to: Set Up Electronic Payments for Bank Accounts](how-to-set-up-electronic-payments-for-bank-accounts.md)   
+ [How to: Void Posted Checks](how-to-void-posted-checks.md)   
  Export Electronic Payments   
  Void-Transmit Elec. Payments   
- [How to: Export Electronic Payments](../how-to-export-electronic-payments.md)   
- [How to: Generate Electronic Payments](../how-to-generate-electronic-payments.md)
+ [How to: Export Electronic Payments](how-to-export-electronic-payments.md)   
+ [How to: Generate Electronic Payments](how-to-generate-electronic-payments.md)

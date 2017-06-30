@@ -45,7 +45,7 @@ You can calculate finance charges with multiple interest rates for a specific pe
  When you issue a finance charge memo, the memo shows the finance charges with multiple interest rates for a specific time period. The memo also contains the contact details of the customer, the company issuing the memo, the additional amount, and the total amount. The opening entry on the memo is displayed in bold. The finance charges are calculated with multiple interest rates for a specific time period and are printed after the opening entry of the memo.  
   
 ## See Also  
- [How to: Create Finance Charge Memos Manually](../how-to-create-finance-charge-memos-manually.md)   
+ [How to: Create Finance Charge Memos Manually](how-to-create-finance-charge-memos-manually.md)   
  Create Finance Charge Memos   
  Finance Charge Terms   
- [How to: Set Up Reminder Terms](../how-to-set-up-reminder-terms.md)
+ [How to: Set Up Reminder Terms](how-to-set-up-reminder-terms.md)

@@ -39,6 +39,6 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can void the exported 
     |**\($ R\_7000061\_N\_2\_1100000 Payment Order No. $\)**|Specify the payment order number from which the payments will be voided.|  
   
 ## See Also  
- [How to: Set Up Bank Accounts for Electronic Payments](../how-to-set-up-bank-accounts-for-electronic-payments.md)   
- [How to: Pay Vendors by Using Electronic Payments](../how-to-pay-vendors-by-using-electronic-payments.md)   
+ [How to: Set Up Bank Accounts for Electronic Payments](how-to-set-up-bank-accounts-for-electronic-payments.md)   
+ [How to: Pay Vendors by Using Electronic Payments](how-to-pay-vendors-by-using-electronic-payments.md)   
  Payment Journal

@@ -37,5 +37,5 @@ Companies that run VAT-registered businesses and sell or move goods to other VAT
   
 ## See Also  
  VAT Entry   
- [EC Sales List](../\($%20R_130%20EC%20Sales%20List%20$\).md)   
- [United Kingdom Local Functionality](../united-kingdom-local-functionality.md)
+ [EC Sales List](\($%20R_130%20EC%20Sales%20List%20$\).md)   
+ [United Kingdom Local Functionality](united-kingdom-local-functionality.md)

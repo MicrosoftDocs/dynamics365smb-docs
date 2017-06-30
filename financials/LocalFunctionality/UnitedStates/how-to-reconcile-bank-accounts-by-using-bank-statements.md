@@ -57,8 +57,8 @@
 9. On the **Actions** tab, in the **Posting** group, choose **Post**.  
   
 ## See Also  
- [How to: Fill In Bank Reconciliations](../how-to-fill-in-bank-reconciliations.md)   
- [How to: Post Bank Reconciliations](../how-to-post-bank-reconciliations.md)   
- [How to: Post a Bank Reconciliation](../how-to-post-a-bank-reconciliation.md)   
- [How to: Print Bank Reconciliation Reports](../how-to-print-bank-reconciliation-reports.md)   
+ [How to: Fill In Bank Reconciliations](how-to-fill-in-bank-reconciliations.md)   
+ [How to: Post Bank Reconciliations](how-to-post-bank-reconciliations.md)   
+ [How to: Post a Bank Reconciliation](how-to-post-a-bank-reconciliation.md)   
+ [How to: Print Bank Reconciliation Reports](how-to-print-bank-reconciliation-reports.md)   
  Bank Account Ledger Entries

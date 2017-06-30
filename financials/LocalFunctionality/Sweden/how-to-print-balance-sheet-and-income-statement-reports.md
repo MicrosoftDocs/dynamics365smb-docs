@@ -41,6 +41,6 @@ You can print balance sheet reports and income statement reports to submit to ba
 ## See Also  
  Balance Sheet   
  Income Statement   
- [How to: View and Print Reports](../how-to-view-and-print-reports.md)   
- [How to: Set Filters](../how-to-set-filters.md)   
- [Sweden Local Functionality](../sweden-local-functionality.md)
+ [How to: View and Print Reports](how-to-view-and-print-reports.md)   
+ [How to: Set Filters](how-to-set-filters.md)   
+ [Sweden Local Functionality](sweden-local-functionality.md)

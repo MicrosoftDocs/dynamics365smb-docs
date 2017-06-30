@@ -62,4 +62,4 @@ You can use income statement balancing accounts to balance and track several acc
 4.  Choose the **OK** button.  
   
 ## See Also  
- [Spain Local Functionality](../spain-local-functionality.md)
+ [Spain Local Functionality](spain-local-functionality.md)

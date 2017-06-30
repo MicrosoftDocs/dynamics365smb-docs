@@ -47,7 +47,7 @@ The following troubleshooting reports are available to assist Microsoft Certifie
 6.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [Canada Local Functionality](../canada-local-functionality.md)   
- [Mexico Local Functionality](../mexico-local-functionality.md)   
- [United States Local Functionality](../united-states-local-functionality.md)   
+ [Canada Local Functionality](canada-local-functionality.md)   
+ [Mexico Local Functionality](mexico-local-functionality.md)   
+ [United States Local Functionality](united-states-local-functionality.md)   
  Data Dictionary

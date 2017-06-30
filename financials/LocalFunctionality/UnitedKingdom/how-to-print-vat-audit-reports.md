@@ -69,4 +69,4 @@ All vendors must export the data required for auditing in a Content Separated Va
  VAT Audit   
  VAT Entry Exception   
  VAT Exception   
- [United Kingdom Local Functionality](../united-kingdom-local-functionality.md)
+ [United Kingdom Local Functionality](united-kingdom-local-functionality.md)

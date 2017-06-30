@@ -16,7 +16,7 @@
 
 ---
 # Corrective Invoices
-The corrective invoice functionality allows you to send a corrective invoice when there is an error or dispute that affects a VAT amount or fiscal data. This invoice includes all legally required data and refers to the original invoice or invoices. The original invoices cannot be voided, and remain valid. The corrective invoice contains the corrections, and reasons for these corrections.  
+The corrective invoice functionality allows you to send a corrective invoice when there is an error or dispute that affects a VAT amount or fiscal data. This invoice ../../includes all legally required data and refers to the original invoice or invoices. The original invoices cannot be voided, and remain valid. The corrective invoice contains the corrections, and reasons for these corrections.  
   
  The following options are available:  
   
@@ -37,4 +37,4 @@ The corrective invoice functionality allows you to send a corrective invoice whe
 -   You can post a corrective invoice without corrected invoice numbers only when the corrections are necessary due to discounts or volume rebates.  
   
 ## See Also  
- [Spain Local Functionality](../spain-local-functionality.md)
+ [Spain Local Functionality](spain-local-functionality.md)

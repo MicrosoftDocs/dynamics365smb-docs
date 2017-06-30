@@ -26,7 +26,7 @@ You can print an inventory picking list directly from a sales order. The picking
   
 -   Quantity  
   
- The picking list includes only those items with a shipping quantity greater than 0.  
+ The picking list ../../includes only those items with a shipping quantity greater than 0.  
   
 ### To print an inventory picking list from a sales order  
   
@@ -41,10 +41,10 @@ You can print an inventory picking list directly from a sales order. The picking
 5.  Choose the **Print** button to print the picking list or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [Swiss Purchase Documents and Sales Documents](../swiss-purchase-documents-and-sales-documents.md)   
- [How to: Set Up Automatic Archiving of Documents in Switzerland](../how-to-set-up-automatic-archiving-of-documents-in-switzerland.md)   
- [How to: Import Swiss Post Codes](../how-to-import-swiss-post-codes.md)   
- [How to: Print Sales and Purchase Orders During Batch Posting](../how-to-print-sales-and-purchase-orders-during-batch-posting.md)   
+ [Swiss Purchase Documents and Sales Documents](swiss-purchase-documents-and-sales-documents.md)   
+ [How to: Set Up Automatic Archiving of Documents in Switzerland](how-to-set-up-automatic-archiving-of-documents-in-switzerland.md)   
+ [How to: Import Swiss Post Codes](how-to-import-swiss-post-codes.md)   
+ [How to: Print Sales and Purchase Orders During Batch Posting](how-to-print-sales-and-purchase-orders-during-batch-posting.md)   
  Picking List   
  Inventory Picking List   
  Prod. Order - Picking List

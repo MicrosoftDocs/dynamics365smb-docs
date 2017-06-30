@@ -31,6 +31,6 @@ When you enter a new transaction in the general journal, you can view temporary 
 3.  Choose the **Close** button.  
   
 ## See Also  
- [Swiss General Ledger Accounts](../swiss-general-ledger-accounts.md)   
+ [Swiss General Ledger Accounts](swiss-general-ledger-accounts.md)   
  General Journal   
  Gen. Journal Line

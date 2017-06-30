@@ -16,7 +16,7 @@
 
 ---
 # Swiss Value Added Tax
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] includes the following enhancements to Swiss VAT reporting:  
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] ../../includes the following enhancements to Swiss VAT reporting:  
   
 -   Automatic adjustment of VAT amounts for invoices, according to payment discounts.  
   
@@ -40,10 +40,10 @@
  When you enter a new line in a journal, the VAT percentages and VAT amounts for the account and balance account for the selected journal line are populated in the journal status area. For more information, see the General Journal window, Sales Journal window, and the Purchase Journal.  
   
 ## See Also  
- [VAT Rates for Switzerland](../vat-rates-for-switzerland.md)   
- [How to: Create and Print a Swiss VAT Statement](../how-to-create-and-print-a-swiss-vat-statement.md)   
+ [VAT Rates for Switzerland](vat-rates-for-switzerland.md)   
+ [How to: Create and Print a Swiss VAT Statement](how-to-create-and-print-a-swiss-vat-statement.md)   
  Swiss VAT Statement   
- [Switzerland Local Functionality](../switzerland-local-functionality.md)   
+ [Switzerland Local Functionality](switzerland-local-functionality.md)   
  General Ledger Setup   
  VAT Posting Setup   
  Adjust Exchange Rates   

@@ -59,4 +59,4 @@ You can import and export general ledger data according to the standard import e
  SIE Dimensions   
  SIE Import   
  SIE Export   
- [Sweden Local Functionality](../sweden-local-functionality.md)
+ [Sweden Local Functionality](sweden-local-functionality.md)

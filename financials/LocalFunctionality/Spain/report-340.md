@@ -42,7 +42,7 @@
 |Report 5912|Service - Credit Memo|  
   
 ## File Format  
- The file format for **Report 340** includes one deponent record, and at least one issued invoice or one received invoice. Deponent information comes from the **Company Information** table and the request form. Issued invoices come from the companies to which you have sold goods or services. Customer information comes from the **Customer** table. Received invoices come from the companies from which you have purchased goods or services. Vendor information comes from the **Vendor** table.  
+ The file format for **Report 340** ../../includes one deponent record, and at least one issued invoice or one received invoice. Deponent information comes from the **Company Information** table and the request form. Issued invoices come from the companies to which you have sold goods or services. Customer information comes from the **Customer** table. Received invoices come from the companies from which you have purchased goods or services. Vendor information comes from the **Vendor** table.  
   
 > [!NOTE]  
 >  If there are no file format records, the file is not created and an error message is displayed.  
@@ -77,7 +77,7 @@
 -   Payment\/receipt dates  
   
 ### Invoices Including Different VAT Percentages or EC Percentages  
- If the invoice has more than one VAT percentage or equivalence charge \(EC\) percentage, the report must include all of the records with different VAT percentage and EC percentage. If the invoice includes equivalence charges \(EC\), the EC percentage and EC amount without VAT will be displayed.  
+ If the invoice has more than one VAT percentage or equivalence charge \(EC\) percentage, the report must include all of the records with different VAT percentage and EC percentage. If the invoice ../../includes equivalence charges \(EC\), the EC percentage and EC amount without VAT will be displayed.  
   
  All of these records will show the same invoice ID and customer VAT number.  
   
@@ -99,7 +99,7 @@
 -   If the field has no value, it will be empty for alphanumeric fields and populated with zeros for numeric fields.  
   
 ## See Also  
- [How to: Create Report 340](../how-to-create-report-340.md)   
+ [How to: Create Report 340](how-to-create-report-340.md)   
  Make 340 Declaration   
- [Payments in Cash](../payments-in-cash.md)   
- [Spain Local Functionality](../spain-local-functionality.md)
+ [Payments in Cash](payments-in-cash.md)   
+ [Spain Local Functionality](spain-local-functionality.md)

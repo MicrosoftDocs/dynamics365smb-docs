@@ -99,6 +99,6 @@ For many companies, the fiscal year does not coincide with the calendar year. Fi
 8.  Choose the **OK** button.  
   
 ## See Also  
- [United Kingdom Local Functionality](../united-kingdom-local-functionality.md)   
+ [United Kingdom Local Functionality](united-kingdom-local-functionality.md)   
  Accounting Period   
  Change Dates

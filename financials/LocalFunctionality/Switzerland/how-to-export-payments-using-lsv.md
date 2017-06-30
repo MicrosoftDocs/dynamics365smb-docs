@@ -36,10 +36,10 @@ You can export or write Lastschrift Verfahren \(LSV\+\) files that contain payme
 5.  All related lines are transferred to the LSV journal. The LSV file is generated in the predetermined folder.  
   
 ## See Also  
- [Swiss Electronic Payments Using LSV\+](../swiss-electronic-payments-using-lsv-.md)   
- [How to: Process an LSV Collection](../how-to-process-an-lsv-collection.md)   
- [How to: Close an LSV Collection](../how-to-close-an-lsv-collection.md)   
- [How to: Post LSV\+ Payments](../how-to-post-lsv-payments.md)   
+ [Swiss Electronic Payments Using LSV\+](swiss-electronic-payments-using-lsv-.md)   
+ [How to: Process an LSV Collection](how-to-process-an-lsv-collection.md)   
+ [How to: Close an LSV Collection](how-to-close-an-lsv-collection.md)   
+ [How to: Post LSV\+ Payments](how-to-post-lsv-payments.md)   
  LSV Journal   
  LSV Journal Line   
  LSV Setup

@@ -40,4 +40,4 @@ To comply with legal requirements, statutory information is available on the **S
   
 ## See Also  
  Company Information   
- [United Kingdom Local Functionality](../united-kingdom-local-functionality.md)
+ [United Kingdom Local Functionality](united-kingdom-local-functionality.md)

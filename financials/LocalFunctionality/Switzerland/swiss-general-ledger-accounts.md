@@ -16,7 +16,7 @@
 
 ---
 # Swiss General Ledger Accounts
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] includes Swiss enhancements to general ledger accounts. This allows you to do the following:  
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] ../../includes Swiss enhancements to general ledger accounts. This allows you to do the following:  
   
 -   Maintain the foreign currency balances of a bank account in the general ledger.  
   
@@ -31,7 +31,7 @@
   
  For example, a company has two bank accounts: one for local currency \(LCY\) and one for euros \(EUR\). You must create a general ledger account for each bank account. For the EUR account, define the currency code as **EUR** and post journals in EUR or LCY.  
   
- When the exchange rate for EUR and LCY changes, you can update and adjust the local currency balance for the EUR general ledger account using the adjust exchange rates batch job. For more information, see [Adjust Exchange Rates Batch Job](../\($%20B_595%20Adjust%20Exchange%20Rates%20$\).md). This batch job creates and posts currency adjustment entries to the general ledger and updates the LCY balance.  
+ When the exchange rate for EUR and LCY changes, you can update and adjust the local currency balance for the EUR general ledger account using the adjust exchange rates batch job. For more information, see [Adjust Exchange Rates Batch Job](\($%20B_595%20Adjust%20Exchange%20Rates%20$\).md). This batch job creates and posts currency adjustment entries to the general ledger and updates the LCY balance.  
   
 ### Data Type for General Ledger Accounts  
  The data type is set to text for the general ledger account number or account code to support the sorting requirements for the standardized Swiss Kontenrahmen Käfer \(KMU\) common chart of accounts. For more information, see [Chart of Accounts Window](assetId:///fa407624-b670-44b6-8397-91aa606e4c39). The account numbers list is sorted based on the text data type. The KMU chart of accounts contains the following account numbers:  
@@ -48,14 +48,14 @@
  The amounts for customer invoices, vendor credit memos, and payments must be positive. The amounts for vendor invoices, customer credit memos, and payments must be negative.  
   
 ### Viewing Temporary Balances in General Journals  
- Before posting a general journal you can preview the effect that posting would have on the balances of certain general ledger accounts. You can open a statistics window that shows the balances of the accounts, and the balances of the active lines that included the unposted values for the current journal. For more information, see [How to: View Temporary Balances in General Ledger Journals](../how-to-view-temporary-balances-in-general-ledger-journals.md).  
+ Before posting a general journal you can preview the effect that posting would have on the balances of certain general ledger accounts. You can open a statistics window that shows the balances of the accounts, and the balances of the active lines that included the unposted values for the current journal. For more information, see [How to: View Temporary Balances in General Ledger Journals](how-to-view-temporary-balances-in-general-ledger-journals.md).  
   
 ## See Also  
- [How to: View Temporary Balances in General Ledger Journals](../how-to-view-temporary-balances-in-general-ledger-journals.md)   
+ [How to: View Temporary Balances in General Ledger Journals](how-to-view-temporary-balances-in-general-ledger-journals.md)   
  G\/L Account   
  Chart of Accounts   
  Adjust Exchange Rates   
  Gen. Journal Line   
  Sales Journal   
  Purchase Journal   
- [Switzerland Local Functionality](../switzerland-local-functionality.md)
+ [Switzerland Local Functionality](switzerland-local-functionality.md)

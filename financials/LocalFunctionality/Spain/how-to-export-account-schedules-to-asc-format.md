@@ -39,4 +39,4 @@ You can export the account schedule data into a digital file format approved by 
 5.  Choose the **OK** button.  
   
 ## See Also  
- [Spain Local Functionality](../spain-local-functionality.md)
+ [Spain Local Functionality](spain-local-functionality.md)

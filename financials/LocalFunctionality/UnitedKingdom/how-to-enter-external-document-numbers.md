@@ -31,4 +31,4 @@ You can enter external document numbers for customers and vendors in all sales a
 5.  Choose the **OK** button.  
   
 ## See Also  
- [United Kingdom Local Functionality](../united-kingdom-local-functionality.md)
+ [United Kingdom Local Functionality](united-kingdom-local-functionality.md)

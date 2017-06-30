@@ -37,4 +37,4 @@ Use the following procedure to set up your business to report on a cash basis, t
 6.  On the **Sales** and **Purchase** FastTabs, specify general ledger accounts for the various **VAT Unreal. Account** fields.  
   
 ## See Also  
- [How to: Use Accounts for Unrealized VAT](../how-to-use-accounts-for-unrealized-vat.md)
+ [How to: Use Accounts for Unrealized VAT](how-to-use-accounts-for-unrealized-vat.md)

@@ -60,8 +60,8 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use Bankers' Autom
 5.  Choose the **OK** button.  
   
 ## See Also  
- [How to: Export BACS Files](../how-to-export-bacs-files.md)   
+ [How to: Export BACS Files](how-to-export-bacs-files.md)   
  BACS Ledger Entry   
  BACS Register   
  Payment Journal   
- [United Kingdom Local Functionality](../united-kingdom-local-functionality.md)
+ [United Kingdom Local Functionality](united-kingdom-local-functionality.md)

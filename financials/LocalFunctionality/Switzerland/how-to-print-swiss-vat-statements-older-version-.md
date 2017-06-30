@@ -19,7 +19,7 @@
 > [!NOTE]  
 >  This topic is retained for backward compatibility with the **Swiss VAT Statement** report. For information about using the newer Swiss VAT Statement, see Swiss VAT Statement.  
   
- The **Swiss VAT Statement** is the standard calculation report for realizing VAT. You can print this report, and use it for quarterly tax reporting. The **Swiss VAT Statement** includes:  
+ The **Swiss VAT Statement** is the standard calculation report for realizing VAT. You can print this report, and use it for quarterly tax reporting. The **Swiss VAT Statement** ../../includes:  
   
 -   A VAT entry.  
   
@@ -53,8 +53,8 @@
 3.  Choose the **Print** button to print the VAT statement or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [Swiss Value Added Tax](../swiss-value-added-tax.md)   
- [VAT Rates for Switzerland](../vat-rates-for-switzerland.md)   
+ [Swiss Value Added Tax](swiss-value-added-tax.md)   
+ [VAT Rates for Switzerland](vat-rates-for-switzerland.md)   
  VAT Posting Setup   
  General Ledger Setup   
  VAT Entry

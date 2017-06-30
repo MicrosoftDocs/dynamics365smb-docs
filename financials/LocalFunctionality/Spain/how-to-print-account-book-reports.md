@@ -59,6 +59,6 @@ Account book reports display all the general ledger entries created in a specifi
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [Spain Local Functionality](../spain-local-functionality.md)   
+ [Spain Local Functionality](spain-local-functionality.md)   
  Account - Official Acc. Book   
  Official Acc. Summarized Book

@@ -49,8 +49,8 @@ Based on the information that you have specified in the **VAT Posting Setup** wi
     |**\($ R\_26100\_F\_1\_1150013 Normal \(Other Rate\) % $\)**|Enter an alternative VAT rate for standard transactions that applies to certain transactions during the time period.|  
     |**\($ R\_26100\_F\_1\_1150010 Reduced \(Other Rate\) % $\)**|Enter an alternative VAT rate for other transactions that applies to certain transactions during the time period.|  
     |**\($ R\_26100\_F\_1\_1150045 Hotel \(Other Rate\) % $\)**|Enter an alternative VAT rate for accommodation that applies to certain transactions during the time period.|  
-    |**\($ R\_26100\_F\_1\_1150060 Show Amounts in Add. Reporting Currency $\)**|Select to show amounts in an additional reporting currency. For more information, see [About Using Additional Reporting Currencies](../about-using-additional-reporting-currencies.md).|  
+    |**\($ R\_26100\_F\_1\_1150060 Show Amounts in Add. Reporting Currency $\)**|Select to show amounts in an additional reporting currency. For more information, see [About Using Additional Reporting Currencies](about-using-additional-reporting-currencies.md).|  
   
 ## See Also  
- [Swiss Value Added Tax](../swiss-value-added-tax.md)   
+ [Swiss Value Added Tax](swiss-value-added-tax.md)   
  Swiss VAT Statement

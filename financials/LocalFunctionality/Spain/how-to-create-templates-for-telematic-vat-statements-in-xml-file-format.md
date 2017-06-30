@@ -54,6 +54,6 @@ In order to submit VAT statements electronically, you must create templates to g
  This creates the template. Now, you can create a file that you can then submit to the tax authorities.  
   
 ## See Also  
- [How to: Export VAT Statements in XML Format](../how-to-export-vat-statements-in-xml-format.md)   
- [How to: Create Templates for Telematic VAT Statements in Text File Format](../how-to-create-templates-for-telematic-vat-statements-in-text-file-format.md)   
+ [How to: Export VAT Statements in XML Format](how-to-export-vat-statements-in-xml-format.md)   
+ [How to: Create Templates for Telematic VAT Statements in Text File Format](how-to-create-templates-for-telematic-vat-statements-in-text-file-format.md)   
  AEAT Transference Format XML

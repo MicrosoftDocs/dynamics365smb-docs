@@ -16,7 +16,7 @@
 
 ---
 # Bank and Cash Management
-[!INCLUDE[emptyBookNodeText](includes/emptybooknodetext_md.md)]
+[!INCLUDE[emptyBookNodeText](../../includes/emptybooknodetext_md.md)]
 
 ##See Also
 [Bank Management](bank-management.md)  

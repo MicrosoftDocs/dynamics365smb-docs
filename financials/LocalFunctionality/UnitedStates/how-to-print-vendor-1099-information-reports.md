@@ -61,7 +61,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use the following 
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [United States Local Functionality](../united-states-local-functionality.md)   
+ [United States Local Functionality](united-states-local-functionality.md)   
  Vendor 1099 Information   
  Vendor 1099 Int   
  Vendor 1099 Div   

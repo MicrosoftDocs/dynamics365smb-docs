@@ -51,4 +51,4 @@ Companies must submit their business transaction entries, grouped by transaction
 5.  In the **G\/L Registers** window, on the **Actions** tab, choose **Print Page**.  
   
 ## See Also  
- [Transaction Numbers](../transaction-numbers.md)
+ [Transaction Numbers](transaction-numbers.md)

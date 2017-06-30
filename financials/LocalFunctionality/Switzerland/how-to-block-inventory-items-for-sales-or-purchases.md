@@ -60,7 +60,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], an item can be marked as b
  Purchase Line   
  Item Journal   
  Item Journal Line   
- [Swiss Inventory Management](../swiss-inventory-management.md)   
- [How to: Block Shipment for Negative Inventory](../how-to-block-shipment-for-negative-inventory.md)   
- [How to: Copy Existing Items to New Items](../how-to-copy-existing-items-to-new-items.md)   
- [How to: Deactivate Item Cost Tracking](../how-to-deactivate-item-cost-tracking.md)
+ [Swiss Inventory Management](swiss-inventory-management.md)   
+ [How to: Block Shipment for Negative Inventory](how-to-block-shipment-for-negative-inventory.md)   
+ [How to: Copy Existing Items to New Items](how-to-copy-existing-items-to-new-items.md)   
+ [How to: Deactivate Item Cost Tracking](how-to-deactivate-item-cost-tracking.md)

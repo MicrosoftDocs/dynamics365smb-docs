@@ -38,7 +38,7 @@ You must submit a periodic report of trade with other EU countries\/regions to t
   
 3.  Choose the **OK** button.  
   
- If the period includes a credit memo, a message appears, and if you choose the **OK** button, the **\($ N\_10736 Customer\/Vendor Warnings 349 $\)** window opens and shows all credit memos for that period.  
+ If the period ../../includes a credit memo, a message appears, and if you choose the **OK** button, the **\($ N\_10736 Customer\/Vendor Warnings 349 $\)** window opens and shows all credit memos for that period.  
   
  Entries related to credit memos display in the **\($ N\_10736 Customer\/Vendor Warnings 349 $\)** window because you may want to include them as corrections to invoices. For example, if you posted a sales invoice in October, and you then post a credit memo in November that corrects the October invoice, a warning displays. Then, you can make the appropriate changes in the **\($ N\_10736 Customer\/Vendor Warnings 349 $\)** window. You must specify which section of the total amount for that customer must be included in the November 349 declaration.  
   
@@ -48,7 +48,7 @@ You must submit a periodic report of trade with other EU countries\/regions to t
   
 2.  Make the appropriate changes to the line.  
   
-     The following table describes the key fields for correcting a 349 declaration that includes a credit memo.  
+     The following table describes the key fields for correcting a 349 declaration that ../../includes a credit memo.  
   
     |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
@@ -66,6 +66,6 @@ You must submit a periodic report of trade with other EU countries\/regions to t
  For corrections to amounts that were included in an earlier 349 declaration, the window can show more than one warning for a customer or vendor with the same values in the **Original Declaration FY** and **Original Declaration Period** fields. In that case, you should combine the corrections in a single line so that the appropriate amounts for the **Previous Declared Amount** field and the **Original Declared Amount** field are included in the 349 declaration.  
   
 ## See Also  
- [Report 349](../report-349.md)   
+ [Report 349](report-349.md)   
  Make 349 Declaration   
  Declaration Labels

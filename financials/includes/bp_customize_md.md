@@ -1,0 +1,1 @@
+You can change how certain UI elements are displayed to best serve your needs. For more information, see [User Personalization](ui-user-personalization.md).

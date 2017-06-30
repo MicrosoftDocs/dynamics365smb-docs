@@ -16,4 +16,6 @@
 
 ---
 # Human Resources
-ADD INCLUDE<!--[!INCLUDE[emptyBookNodeText](../../includes/emptybooknodetext_md.md)]-->
+
+##See Also
+[How to: Set Up Responsible Employees and Advance Statements](how-to-set-up-responsible-employees-and-advance-statements.md)

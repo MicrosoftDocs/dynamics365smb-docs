@@ -40,10 +40,10 @@ Sales tax includes taxes that companies pay for using items:
   
     |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
-    |**Tax Liable**|Select to set up tax liability. **Important:**  This field is available in the **Purchase Header** window, but it is not shown by default. To select the field, you must first add the column that shows this field. ADD INCLUDE<!--[!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]-->|  
-    |**Tax Area Code**|The tax area code of the vendor. **Important:**  This field is available in the **Purchase Header** window, but it is not shown by default. To select the field, you must first add the column that shows this field. ADD INCLUDE<!--[!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]-->|  
-    |**Tax Exemption No.**|The company's tax exemption number. You can enter a maximum of 30 alphanumeric characters. **Important:**  This field is available in the **Purchase Header** window, but it is not shown by default. To select the field, you must first add the column that shows this field. ADD INCLUDE<!--[!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]-->|  
-    |**Provincial Tax Area Code**|The tax code for the province. **Important:**  This field is available in the **Purchase Header** window, but it is not shown by default. To select the field, you must first add the column that shows this field. ADD INCLUDE<!--[!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]-->|  
+    |**Tax Liable**|Select to set up tax liability. **Important:**  This field is available in the **Purchase Header** window, but it is not shown by default. To select the field, you must first add the column that shows this field. [!INCLUDE[bp_customize](includes/bp_customize_md.md)]|  
+    |**Tax Area Code**|The tax area code of the vendor. **Important:**  This field is available in the **Purchase Header** window, but it is not shown by default. To select the field, you must first add the column that shows this field. [!INCLUDE[bp_customize](includes/bp_customize_md.md)]|  
+    |**Tax Exemption No.**|The company's tax exemption number. You can enter a maximum of 30 alphanumeric characters. **Important:**  This field is available in the **Purchase Header** window, but it is not shown by default. To select the field, you must first add the column that shows this field. [!INCLUDE[bp_customize](includes/bp_customize_md.md)]|  
+    |**Provincial Tax Area Code**|The tax code for the province. **Important:**  This field is available in the **Purchase Header** window, but it is not shown by default. To select the field, you must first add the column that shows this field. [!INCLUDE[bp_customize](includes/bp_customize_md.md)]|  
   
 5.  Choose the **OK** button.  
   

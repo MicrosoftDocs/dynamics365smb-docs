@@ -16,4 +16,9 @@
 
 ---
 # General Ledger-duplicate
-ADD INCLUDE<!--[!INCLUDE[emptyBookNodeText](includes/emptybooknodetext_md.md)]-->
+[!INCLUDE[emptyBookNodeText](includes/emptybooknodetext_md.md)]
+
+## See Also
+[How to: Apply and Unapply General Ledger Entries](how-to-apply-and-unapply-general-ledger-entries.md)  
+[Required Descriptions in G-L Entry](required-descriptions-in-g-l-entry.md)  
+[How to: Create an Audit File for the Tax Authority](how-to-create-an-audit-file-for-the-tax-authority.md)

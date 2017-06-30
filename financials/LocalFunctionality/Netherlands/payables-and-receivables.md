@@ -16,4 +16,8 @@
 
 ---
 # Payables and Receivables
-ADD INCLUDE<!--[!INCLUDE[emptyBookNodeText](includes/emptybooknodetext_md.md)]-->
+[!INCLUDE[emptyBookNodeText](includes/emptybooknodetext_md.md)]
+
+## See Also
+[Check Purchase Amounts](check-purchase-amounts.md)  
+[How to: Set Up Validation of Purchase Amounts](how-to-set-up-validation-of-purchase-amounts.md)  

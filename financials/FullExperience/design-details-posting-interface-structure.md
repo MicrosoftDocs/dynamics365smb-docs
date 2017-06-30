@@ -16,7 +16,7 @@
 
 ---
 # Design Details: Posting Interface Structure
-In the [!INCLUDE[d365fin](includes/d365fin_md.md)] posting interface structure, there are several global procedures that use the same structure:  
+In the [!INCLUDE[d365fin](../includes/d365fin_md.md)] posting interface structure, there are several global procedures that use the same structure:  
   
 -   RunWithCheck and RunWithoutCheck call procedure Code – generic posting interface for Gen. Jnl Line.  
   

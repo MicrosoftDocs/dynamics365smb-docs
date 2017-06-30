@@ -18,7 +18,7 @@
 # How to: Submit Electronic VAT and ICP Declarations
 With the eXtensible Business Reporting Language \(XBRL\) reporter, you can submit the Intracommunautaire Leveringen \(ICP\) declaration or the VAT declaration in the required XML format. When it is submitted, the file is sent to the tax authorities as defined in the Elec. Tax Declaration Setup Window.  
   
- The XBRL reporter ensures that all account numbers that are imported from ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> are mapped to the XBRL elements in a report. The XBRL reporter also displays a list of errors of unmapped elements or accounts.  
+ The XBRL reporter ensures that all account numbers that are imported from ADD INCLUDE<!--[!INCLUDE[navnow](includes/navnow_md.md)]--> are mapped to the XBRL elements in a report. The XBRL reporter also displays a list of errors of unmapped elements or accounts.  
   
  To submit electronic VAT and ICP declarations to the tax authorities, you can use the **Submit electronic VAT Declaration** batch job and **Submit electronic ICP Declaration** batch job, respectively. The batch job will sign, compress, and encrypt the electronic declaration before submitting it to the tax authorities.  
   
@@ -35,7 +35,7 @@ With the eXtensible Business Reporting Language \(XBRL\) reporter, you can submi
   
 4.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**PIN**|The personal identification number of the company.<br /><br /> You can enter a value in this field only if you have set the **Sign Method** field to **PIN** in the **Elec. Tax Declaration Setup** window.|  
     |**User Certificate Password**|The password that will encrypt the user certificates.<br /><br /> You can enter a value in this field only if you have set the **Sign Method**  field to **PKI** in the **Elec. Tax Declaration Setup** window.|  
@@ -46,4 +46,4 @@ With the eXtensible Business Reporting Language \(XBRL\) reporter, you can submi
   
 ## See Also  
  Elec. Tax Declaration Setup Window   
- [eXtensible Business Reporting Language](../extensible-business-reporting-language.md)
+ [eXtensible Business Reporting Language](extensible-business-reporting-language.md)

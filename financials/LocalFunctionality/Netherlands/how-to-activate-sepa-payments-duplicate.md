@@ -55,7 +55,7 @@ To submit vendor payments electronically in Single Euro Payments Area \(SEPA\) I
   
 3.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Code**|Sets the export protocol code, such as **SEPA ISO20022**.|  
     |**Description**|Provides the description for the export protocol.|  
@@ -103,6 +103,6 @@ To submit vendor payments electronically in Single Euro Payments Area \(SEPA\) I
 5.  Choose the **OK** button.  
   
 ## See Also  
- [Single EURO Payments Area \(SEPA\)](../single-euro-payments-area-sepa-.md)   
- [How to: Submit Vendor Payments Electronically in SEPA ISO 20022 Payment Format](../how-to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format.md)   
+ [Single EURO Payments Area \(SEPA\)](single-euro-payments-area-sepa-.md)   
+ [How to: Submit Vendor Payments Electronically in SEPA ISO 20022 Payment Format](how-to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format.md)   
  Export Protocols Window

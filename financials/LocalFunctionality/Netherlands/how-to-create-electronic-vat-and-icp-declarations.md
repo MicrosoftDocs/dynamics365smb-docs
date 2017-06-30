@@ -31,7 +31,7 @@ To create electronic VAT and ICP declarations, you must first set up the declara
   
 3.  In the **Elec. Tax Declaration Card** window, on the **General** FastTab, fill in the required fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](includes/bp_tabledescription_md.md)]-->|  
     |---
     title: Insert topic title| Microsoft Docs
     description: Insert description
@@ -57,8 +57,8 @@ To create electronic VAT and ICP declarations, you must first set up the declara
      The XML elements and the accompanying data of the electronic declaration are displayed on the **Lines** FastTab in the **Elec. Tax Declaration Card** window.  
   
 ## See Also  
- [Electronic Tax Declarations](../electronic-tax-declarations.md)   
- [Electronic VAT and ICP Declarations](../electronic-vat-and-icp-declarations.md)   
- [How to: Set Up VAT Categories](../how-to-set-up-vat-categories.md)   
+ [Electronic Tax Declarations](electronic-tax-declarations.md)   
+ [Electronic VAT and ICP Declarations](electronic-vat-and-icp-declarations.md)   
+ [How to: Set Up VAT Categories](how-to-set-up-vat-categories.md)   
  Status Field   
  Part of Fiscal Entity Field

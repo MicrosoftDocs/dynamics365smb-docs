@@ -26,4 +26,4 @@ When entering general journal lines on a form, the system fills in automatically
 >  Leaving the description field blank and check if all the description fields are filled in before posting, will only be done on the general journal windows in several application areas and on the local Cash Bank Giro windows.  
   
 ## See Also  
- [General Ledger-duplicate](../general-ledger-duplicate.md)
+ [General Ledger-duplicate](general-ledger-duplicate.md)

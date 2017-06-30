@@ -39,18 +39,18 @@ Banks provide electronic bank statements for all your financial interactions. Yo
 3.  To reconcile the bank statements automatically when importing, on the **Options** FastTab, select the **Automatic Reconciliation** check box.  
   
     > [!NOTE]  
-    >  This function does not work for bank statement files of type SEPA CAMT. Instead, use the **Match Automatically** action in the **Bank Acc. Reconciliation** window. For more information, see [How to: Match Bank Statement Lines with Bank Account Ledger Entries](../how-to-match-bank-statement-lines-with-bank-account-ledger-entries.md).  
+    >  This function does not work for bank statement files of type SEPA CAMT. Instead, use the **Match Automatically** action in the **Bank Acc. Reconciliation** window. For more information, see [How to: Match Bank Statement Lines with Bank Account Ledger Entries](how-to-match-bank-statement-lines-with-bank-account-ledger-entries.md).  
   
 4.  Choose the **OK** button.  
   
 5.  To import the file that contains the electronic bank statement, specify the file name and path, and then choose the **Open** button.  
   
-     The electronic bank statement is imported into the bank or giro journals. For more information, see [Dutch Electronic Banking](../dutch-electronic-banking.md).  
+     The electronic bank statement is imported into the bank or giro journals. For more information, see [Dutch Electronic Banking](dutch-electronic-banking.md).  
   
 ## See Also  
- [Dutch Electronic Banking](../dutch-electronic-banking.md)   
+ [Dutch Electronic Banking](dutch-electronic-banking.md)   
  Import Protocol   
  Reconciliation Status Field   
  CBG Statement Line Table   
  Bank-Giro Journal Window   
- [How to: Match Bank Statement Lines with Bank Account Ledger Entries](../how-to-match-bank-statement-lines-with-bank-account-ledger-entries.md)
+ [How to: Match Bank Statement Lines with Bank Account Ledger Entries](how-to-match-bank-statement-lines-with-bank-account-ledger-entries.md)

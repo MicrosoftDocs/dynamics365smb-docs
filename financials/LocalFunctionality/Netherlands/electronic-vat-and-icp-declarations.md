@@ -56,10 +56,10 @@ Companies must submit periodic VAT and ICP declarations.
  The electronic VAT and ICP declarations contain contact information about the taxpayer or the agent. For more information, see VAT Registration No..  
   
 ## See Also  
- [Electronic Tax Declarations](../electronic-tax-declarations.md)   
- [How to: Set Up VAT Categories](../how-to-set-up-vat-categories.md)   
- [How to: Create Electronic VAT and ICP Declarations](../how-to-create-electronic-vat-and-icp-declarations.md)   
- [How to: Process Response Messages from Tax Authorities](../how-to-process-response-messages-from-tax-authorities.md)   
- [OBSOLETE: How to: Set Up PKI-Based User Certificates for Electronic Tax Declarations](../OBSOLETE:%20How%20to:%20Set%20Up%20PKI-Based%20User%20Certificates%20for%20Electronic%20Tax%20Declarations.md)   
+ [Electronic Tax Declarations](electronic-tax-declarations.md)   
+ [How to: Set Up VAT Categories](how-to-set-up-vat-categories.md)   
+ [How to: Create Electronic VAT and ICP Declarations](how-to-create-electronic-vat-and-icp-declarations.md)   
+ [How to: Process Response Messages from Tax Authorities](how-to-process-response-messages-from-tax-authorities.md)   
+ [OBSOLETE: How to: Set Up PKI-Based User Certificates for Electronic Tax Declarations](OBSOLETE:%20How%20to:%20Set%20Up%20PKI-Based%20User%20Certificates%20for%20Electronic%20Tax%20Declarations.md)   
  VAT Statement Line   
  VAT Registration No.

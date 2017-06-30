@@ -16,7 +16,7 @@
 
 ---
 # How to: Enter and Post Cash and Bank or Giro Journals
-In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can use the cash and bank journals to enter the transactions that affect the cash and bank accounts by using **Cash Book** and **Bank Book**.  
+In ADD INCLUDE<!--[!INCLUDE[navnow](includes/navnow_md.md)]-->, you can use the cash and bank journals to enter the transactions that affect the cash and bank accounts by using **Cash Book** and **Bank Book**.  
   
  You can enter increases or decreases to the cash account in the **Cash Journals**. For example, you can use this journal for paying out petty cash or receiving transfers from a different bank account.  
   
@@ -32,7 +32,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can us
   
 3.  In the **Cash Journal** window, on the **Lines** FastTab, fill in the required fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Date**|The journal entry date.|  
     |**Document No.**|The document number for which journal entry is created.|  
@@ -59,14 +59,14 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can us
   
 4.  In the **Bank\/Giro Journal** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Opening Balance**|The current balance of the bank or giro account. It equals the closing balance of previously posted entries for the journal.|  
     |**Closing Balance**|The new closing balance of the journal.|  
   
 5.  On the **Lines** FastTab, fill in the required fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Date**|The journal entry date.|  
     |**Account Type**|The account type to which the journal entry is to be posted.|  
@@ -84,6 +84,6 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can us
      The entries are posted to the general ledger. For more information, see General Ledger Entries.  
   
 ## See Also  
- [How to: Print the Test Reports for Cash and Bank or Giro Journals](../how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals.md)   
+ [How to: Print the Test Reports for Cash and Bank or Giro Journals](how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals.md)   
  VAT Product Posting Groups   
  General Ledger Entries

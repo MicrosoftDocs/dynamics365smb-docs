@@ -28,7 +28,7 @@ To use the electronic VAT declaration, you must set up a VAT category code for a
   
 3.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Code**|The unique code for each category and subcategory combination. You can enter a maximum of 10 alphanumeric characters.|  
     |**Category**|Specify the main category option for the VAT statement.|  
@@ -44,5 +44,5 @@ To use the electronic VAT declaration, you must set up a VAT category code for a
      You can now map the VAT statement data directly to an XML element.  
   
 ## See Also  
- [Electronic VAT and ICP Declarations](../electronic-vat-and-icp-declarations.md)   
- [How to: Create Electronic VAT and ICP Declarations](../how-to-create-electronic-vat-and-icp-declarations.md)
+ [Electronic VAT and ICP Declarations](electronic-vat-and-icp-declarations.md)   
+ [How to: Create Electronic VAT and ICP Declarations](how-to-create-electronic-vat-and-icp-declarations.md)

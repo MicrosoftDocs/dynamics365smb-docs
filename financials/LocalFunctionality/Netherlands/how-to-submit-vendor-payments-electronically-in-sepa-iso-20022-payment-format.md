@@ -16,9 +16,9 @@
 
 ---
 # How to: Submit Vendor Payments Electronically in SEPA ISO 20022 Payment Format
-In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can create and submit Single Euro Payments Area \(SEPA\) ISO 20022 vendor payments electronically.  
+In ADD INCLUDE<!--[!INCLUDE[navnow](includes/navnow_md.md)]-->, you can create and submit Single Euro Payments Area \(SEPA\) ISO 20022 vendor payments electronically.  
   
- Before you can create and submit SEPA vendor payments, you must enable SEPA payments. For more information, see [How to: Activate SEPA Payments-duplicate](../how-to-activate-sepa-payments-duplicate.md).  
+ Before you can create and submit SEPA vendor payments, you must enable SEPA payments. For more information, see [How to: Activate SEPA Payments-duplicate](how-to-activate-sepa-payments-duplicate.md).  
   
 ### To submit vendor payments electronically in SEPA ISO 20022 payment format  
   
@@ -30,7 +30,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can cr
   
 4.  In the **Get Proposal Entries** batch job, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Currency Date**|Specify the currency date.|  
     |**Pmt. Discount Date**|Specify the payment discount date.|  
@@ -49,7 +49,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can cr
      The proposal lines populate in the **Telebank Proposal** window.  
   
 ## See Also  
- [How to: Activate SEPA Payments-duplicate](../how-to-activate-sepa-payments-duplicate.md)   
- [Single EURO Payments Area \(SEPA\)](../single-euro-payments-area-sepa-.md)   
+ [How to: Activate SEPA Payments-duplicate](how-to-activate-sepa-payments-duplicate.md)   
+ [Single EURO Payments Area \(SEPA\)](single-euro-payments-area-sepa-.md)   
  Telebank - Bank Overview Window   
  Telebank Proposal Window

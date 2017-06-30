@@ -72,7 +72,7 @@ You must define a location for storing Offentlig Information Online UBL \(OIOUBL
   
     |ADD INCLUDE<!--[!INCLUDE[bp_optionsheading](includes/bp_tabledescription_md.md)]-->|  
     |-------------------------------------|---------------------------------------|  
-    |**Payment Slip**|The payment is made by using a payment slip, such as giro or an FI card \(Fællesindbetalingskort\). **Important:**  This payment channel is not supported in the standard version of ADD INCLUDE<!--[!INCLUDE[navnow](includes/navnow_md.md)]-->.|  
+    |**Payment Slip**|The payment is made by using a payment slip, such as giro or an FI card \(Fællesindbetalingskort\). **Important:**  This payment channel is not supported in the standard version of [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
     |**Account Transfer**|The payment is made by transfer from the customer’s bank account.|  
     |**National Clearing**|The payment is made by transfer from the customer’s bank account and is processed by a clearing house.|  
     |**Direct Debit**|The payment is made by using the unified bank payment service \(PBS\).|  

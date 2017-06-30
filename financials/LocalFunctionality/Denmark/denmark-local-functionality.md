@@ -16,7 +16,7 @@
 
 ---
 # Denmark Local Functionality
-This section describes local functionality in ADD INCLUDE<!--[!INCLUDE[navnow](includes/navnow_md.md)]--> in Denmark.  
+This section describes local functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)] in Denmark.  
 
 ## In This Section  
  [What's New](what-s-new.md)  

@@ -21,7 +21,7 @@ The following topics describe the local functionality in the Dutch version of AD
 ## In This Section  
  [What's New-duplicate 10](../what-s-new-duplicate-10.md)  
   [CMR Notes](../cmr-notes.md)  
-  [Dutch Electronic Banking](LocalFunctionality/Netherlands/dutch-electronic-banking.md)  
+  [Dutch Electronic Banking](dutch-electronic-banking.md)  
   [Electronic Tax Declarations](../electronic-tax-declarations.md)  
   [General Ledger-duplicate](../general-ledger-duplicate.md)  
   [Payables and Receivables](../payables-and-receivables.md)  

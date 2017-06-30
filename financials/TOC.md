@@ -246,22 +246,7 @@
 ### How to: Deliver Service
 
 # Local Functionality
-## Australia (FULL)
-### How to: Enter Australian Business Numbers
-### How to: Work with Business Statements
-### How to: Handle BAS Fuel Tax Credits
-### How to: Manage Withholding Tax
-### Various Australian Tax functionality
-### Addresses
-### Electronic Funds Transfer (EFT)
-### Calculating Distribution Amounts
-### How to: Determine Sales Price by Cost Plus Percentage
-### How to: Print Income Statements
-### How to: Print Balance Sheet Reports
-### How to: Compare Bank Cash Flow
-### How to: Print Deposit Slip Reports
-### How to: Print Bank Account Reconciliation Reports
-### How to: Create Check Installments
+## [Netherlands](netherlands-local-functionality.md)
 
 ## Austria (FULL)
 ### mock-up

@@ -26,7 +26,7 @@ You can quickly configure a new company that you have created by using the ADD I
   
 2.  Expand the **Step 1** FastTab, which contains general information about the new company. Enter the appropriate information about the new company in the fields. There is one field that you are required to fill out, **Name**. The rest of the fields are optional.  
   
-     ADD INCLUDE<!--[!INCLUDE[bp_fieldhelp]()]-->  
+       
   
 3.  Expand the **Step 2** FastTab, which contains communication and contact information for the new company. Enter the appropriate information about the new company in the fields.  
   

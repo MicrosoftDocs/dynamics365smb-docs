@@ -32,7 +32,7 @@ After you have set up the consolidated company and the business units and export
 
 4.  On the **Business Unit** FastTab, you can set a filter to select the business units to be tested. If you do not set a filter, all business units that are selected in **Consolidate** field will be tested.  
 
-5.  On the **Options** FastTab, fill in the appropriate fields. ADD INCLUDE<!--[!INCLUDE[bp_fieldhelp]()]--> Choose the **Copy Dimensions** field and select the dimension codes.  
+5.  On the **Options** FastTab, fill in the appropriate fields.  Choose the **Copy Dimensions** field and select the dimension codes.  
 
 6.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
 

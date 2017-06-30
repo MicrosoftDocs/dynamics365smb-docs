@@ -32,7 +32,7 @@ Proposals can be generated manually or automatically based on either vendor or c
   
 3.  At a minimum, you must fill in the **Account Type**, **Account No.**, **Transaction Mode**, **Bank Account No.**, and **Amount** fields.  
   
-     ADD INCLUDE<!--[!INCLUDE[bp_fieldhelp]()]-->  
+       
   
 4.  If you want to view or adjust the proposal's detail lines, in the **Lines** part, in the toolbar, choose **Detail Information**. To return to the proposal, close the **Proposal Detail Line** window.  
   
@@ -40,11 +40,11 @@ Proposals can be generated manually or automatically based on either vendor or c
   
 1.  Set up a card for the customer who sent the invoice with appropriate values for the **Currency Code**, **Transaction Mode**, and **Bank Account** fields.  
   
-     ADD INCLUDE<!--[!INCLUDE[bp_fieldhelp]()]-->  
+       
   
 2.  Create a sales invoice or credit memo, enter the customer and relevant items and post the invoice. Check whether the **Currency Code**, **Transaction Mode**, and **Bank Account** fields of the invoice\/credit memo contain appropriate values. By default, they will be copied from the customer card.  
   
-     ADD INCLUDE<!--[!INCLUDE[bp_fieldhelp]()]-->  
+       
   
 3.  In the **Search** box, enter **Telebank - Bank Overview**, and then choose the related link.  
   
@@ -63,11 +63,11 @@ Proposals can be generated manually or automatically based on either vendor or c
   
 1.  Set up a card for the vendor that sent the invoice with appropriate values for **Currency Code**, **Transaction Mode**, and **Bank Account** fields.  
   
-     ADD INCLUDE<!--[!INCLUDE[bp_fieldhelp]()]-->  
+       
   
 2.  Create a purchase invoice or credit memo, enter the vendor and relevant items. Post the invoice. Check whether the **Currency Code**, **Transaction Mode**, and **Bank Account** fields of the invoice\/credit memo contain appropriate values. By default, they will be copied from the vendor card.  
   
-     ADD INCLUDE<!--[!INCLUDE[bp_fieldhelp]()]-->  
+       
   
 3.  In the **Search** box, enter **Telebank - Bank Overview**, and then choose the related link.  
   

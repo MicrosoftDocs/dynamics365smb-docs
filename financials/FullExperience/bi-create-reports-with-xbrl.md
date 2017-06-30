@@ -68,7 +68,7 @@ You set up the XBRL Lines by mapping the data in the taxonomy to the data in you
 
 3.  On the **Home** tab, in the **Process** group, choose **Lines**.  
 
-4.  Select a line and fill in the fields. ADD INCLUDE<!--[!INCLUDE[bp_fieldhelp]()]-->  
+4.  Select a line and fill in the fields.   
 
 5.  To read detailed information about what to fill in, on the **Navigate**, in the **XBRL Line** group, choose **Information**.  
 

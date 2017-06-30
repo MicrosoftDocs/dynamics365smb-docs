@@ -24,7 +24,7 @@ After you have set up the change log, activated it, and made a change to data, [
   
 2.  In the **Change Log Entries** window, remove any filters. The window now displays all change log entries.  
   
-     ADD INCLUDE<!--[!INCLUDE[bp_fieldhelp]()]-->  
+       
   
 ## See Also  
  [How to: Enable the Change Log](../how-to-enable-the-change-log.md)   

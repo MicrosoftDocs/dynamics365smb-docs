@@ -39,7 +39,7 @@ If you have taxable sales in a foreign currency, you must use the official rate 
   
 5.  In the **Search** box, enter **Adjust Exchange Rates**, and then choose the related link.  
   
-6.  On the **Options** FastTab, fill in the fields as described in the following table. ADD INCLUDE<!--[!INCLUDE[bp_fieldhelp]()]-->  
+6.  On the **Options** FastTab, fill in the fields as described in the following table.   
   
     |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  

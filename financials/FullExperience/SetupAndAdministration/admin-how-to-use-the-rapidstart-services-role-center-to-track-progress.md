@@ -32,7 +32,7 @@ When you use ADD INCLUDE<!--[!INCLUDE[rim](../../includes/how-to-change-role-cen
   
 3.  Select a table, and in the **Status** field, choose the appropriate status.  
   
-     ADD INCLUDE<!--[!INCLUDE[bp_fieldhelp]()]-->  
+       
   
 4.  Choose the **OK** button.  
   

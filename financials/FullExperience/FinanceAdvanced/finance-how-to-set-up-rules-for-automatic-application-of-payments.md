@@ -22,7 +22,7 @@ Before you can use the automatic invoice rounding function, you must set up roun
   
 1.  In the **Search** box, enter **General Ledger Setup**, and then choose the related link.  
   
-2.  In the **General Ledger Setup** window, on the **Application** FastTab, fill in the **Amount Rounding Precision**, **Unit-Amount Rounding Precision**, **Inv. Rounding Precision \(LCY\)** and **Invoice Rounding Type \(LCY\)** fields. ADD INCLUDE<!--[!INCLUDE[bp_fieldhelp]()]-->  
+2.  In the **General Ledger Setup** window, on the **Application** FastTab, fill in the **Amount Rounding Precision**, **Unit-Amount Rounding Precision**, **Inv. Rounding Precision \(LCY\)** and **Invoice Rounding Type \(LCY\)** fields.   
   
 ## See Also  
  [How to: Set Up Rounding Rules for Foreign Currency](../how-to-set-up-rounding-rules-for-foreign-currency.md)   

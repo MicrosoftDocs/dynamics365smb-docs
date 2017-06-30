@@ -22,7 +22,7 @@ All companies in the European Union must report their trade with other EU countr
   
 1.  In the **Search** box, enter **Tariff Numbers**, and then choose the related link.  
   
-2.  In the **Tariff Numbers** window, enter the published tariff numbers for all items that you buy and sell. ADD INCLUDE<!--[!INCLUDE[bp_fieldhelp]()]-->  
+2.  In the **Tariff Numbers** window, enter the published tariff numbers for all items that you buy and sell.   
   
 3.  In the **Search** box, enter **Transaction Types**, and then choose the related link.  
   

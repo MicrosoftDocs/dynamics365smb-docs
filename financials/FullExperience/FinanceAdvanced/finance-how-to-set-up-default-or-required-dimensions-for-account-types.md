@@ -28,7 +28,7 @@ You can set up a default dimension for an account type. [!INCLUDE[d365fin](../..
   
 3.  On the **Navigate** tab, in the **Dimension** group, choose **Account Type Default Dim**.  
   
-4.  Fill in a line for each new default dimension that you want to set up. ADD INCLUDE<!--[!INCLUDE[bp_fieldhelp]()]-->  
+4.  Fill in a line for each new default dimension that you want to set up.   
   
 > [!TIP]  
 >  If you want to make a dimension required but you do not want to assign a default value to the dimension, leave the **Dimension Value Code** field blank and then select **Code Mandatory** in the **Value Posting** field.  

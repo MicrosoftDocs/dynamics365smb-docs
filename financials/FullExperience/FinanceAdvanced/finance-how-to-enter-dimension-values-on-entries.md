@@ -26,7 +26,7 @@ Dimension value codes are always company-defined.
   
 ### To enter dimension values on entries  
   
-1.  Open the relevant sales document, or create a new one and fill in the fields in both the header and on the entry line. ADD INCLUDE<!--[!INCLUDE[bp_fieldhelp]()]-->  
+1.  Open the relevant sales document, or create a new one and fill in the fields in both the header and on the entry line.   
   
     > [!NOTE]  
     >  You can enter dimension values in sales and purchase documents and in all journals. The following procedure is for entering dimension values on a sales document.  

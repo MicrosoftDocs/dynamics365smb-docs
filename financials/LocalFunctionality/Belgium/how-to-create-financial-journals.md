@@ -32,7 +32,7 @@ Financial journals are used to register bank account transactions. The financial
     |**Bal. Account Type**|Select **Bank Account** for the type of balancing account.|  
     |**Bal. Account No.**|Select the number of the balancing account.|  
   
-     ADD INCLUDE<!--[!INCLUDE[bp_fieldhelp]()]-->  
+       
   
 4.  Choose the **OK** button.  
   

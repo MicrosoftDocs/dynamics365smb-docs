@@ -123,7 +123,7 @@ The configuration worksheet is the central location in which you can plan, track
   
 3.  To filter to a certain set of records to include in the configuration worksheet, on the **Actions** tab, in the **Show** group, choose **Filters**. Specify the appropriate filter values.  
   
-     ADD INCLUDE<!--[!INCLUDE[bp_fieldhelp]()]-->  
+       
   
  You can create areas of functionality and groups of tables in the worksheet in order to put similar functionality together. For example, in setting up the chart of accounts for your configuration, you may decide to create a group of posting tables. Typically, areas are used to group a set of tables that correspond to a functional area. Each area can contain groups. A group can be used to arrange tables that have a common meaning together.  
   

@@ -26,7 +26,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can set up responsibil
   
 1.  In the **Search** box, enter **Responsibility Centers**, and then choose the related link.  
   
-2.  On the **Home** tab, choose **New** to create a new responsibility center. Fill in the fields. ADD INCLUDE<!--[!INCLUDE[bp_fieldhelp]()]-->  
+2.  On the **Home** tab, choose **New** to create a new responsibility center. Fill in the fields.   
   
 > [!NOTE]  
 >  If you are using responsibility centers to administer your company, it can be useful to have a default responsibility center for your company. You assign it in the **Company Information** window, on the **Shipping** FastTab, in the **Responsibility Center** field. The responsibility center assigned to the company will be used on all purchase and sales documents, if the user, customer, or vendor have no default responsibility center.  

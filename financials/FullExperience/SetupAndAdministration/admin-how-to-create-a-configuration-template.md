@@ -35,7 +35,7 @@ When you configure a new company, table relations are recognized and processed. 
   
 3.  On the **General** FastTab, fill in the fields as appropriate.  
   
-     ADD INCLUDE<!--[!INCLUDE[bp_fieldhelp]()]-->  
+       
   
 4.  To exclude the configuration questionnaires, configuration templates, and configuration worksheet tables from the package, select the **Exclude Configuration Tables** check box. Otherwise, these tables will be added to the list of package tables automatically when you export the package.  
   
@@ -66,7 +66,7 @@ When you configure a new company, table relations are recognized and processed. 
   
 1.  To filter to a certain set of records to include in the package, on the **Lines** toolbar, on the **Table** menu, choose **Filters**. Specify the appropriate filter values.  
   
-     ADD INCLUDE<!--[!INCLUDE[bp_fieldhelp]()]-->  
+       
   
 2.  On the package card, on the **Lines** toolbar, on the **Excel** menu, choose **Export to Excel**.  
   

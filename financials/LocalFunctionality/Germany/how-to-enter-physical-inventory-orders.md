@@ -38,7 +38,7 @@ A physical inventory order is a complete document that consists of a physical in
     |**Order Date**|Sets the creation date for the physical inventory order.|  
     |**Posting Date**|Sets the posting date for the physical inventory order.|  
   
- You can add lines to the physical inventory order manually, or ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> can create new physical inventory order lines automatically. To create new physical inventory order lines automatically, you have two possibilities:  
+ You can add lines to the physical inventory order manually, or [!INCLUDE[d365fin](../../includes/d365fin_md.md)] can create new physical inventory order lines automatically. To create new physical inventory order lines automatically, you have two possibilities:  
   
 -   You can create new physical inventory order lines based on inventory items and item ledger entries.  
   

@@ -16,7 +16,7 @@
 
 ---
 # How to: Set Up Statutory Reports
-The Russian federal tax authorities require companies to submit statutory reports in electronic formats such as XML or as Microsoft Excel documents. In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you must set up the templates, formats, XML schemas, and other prerequisites so that you can generate the required files.  
+The Russian federal tax authorities require companies to submit statutory reports in electronic formats such as XML or as Microsoft Excel documents. In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you must set up the templates, formats, XML schemas, and other prerequisites so that you can generate the required files.  
   
  After you have set up a report and specified the required information, you can export the report to Excel, and then print the report.  
   

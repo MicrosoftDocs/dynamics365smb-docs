@@ -16,10 +16,10 @@
 
 ---
 # Electronic Submission of Sales VAT Advance Notifications to ELSTER
-In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can electronically submit tax documents and VAT statements, such as the sales VAT advance notification, to the tax authorities.  
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can electronically submit tax documents and VAT statements, such as the sales VAT advance notification, to the tax authorities.  
   
 ## Sales VAT Advance Notifications  
- ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> creates an XML document containing tax and base amounts, along with company information. You can validate the data before submitting it to the tax authorities. You can set up the XML document using the layout that is defined in the tax authorities' style sheet. You can then transmit the XML document to the tax authorities' Elektronische Steuererklärungen \(ELSTER\) online portal interface.  
+ [!INCLUDE[d365fin](../../includes/d365fin_md.md)] creates an XML document containing tax and base amounts, along with company information. You can validate the data before submitting it to the tax authorities. You can set up the XML document using the layout that is defined in the tax authorities' style sheet. You can then transmit the XML document to the tax authorities' Elektronische Steuererklärungen \(ELSTER\) online portal interface.  
   
  You must first set up ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-create-and-submit-sales-vat-advance-notifications.md).  
   
@@ -28,13 +28,13 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can el
 ## Architectural Overview  
  ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/elster-transmission-overview.md).  
   
- The ELSTER portal has requirements for computers that will submit documents. This includes a software certificate that you must acquire for each user who will submit documents to ELSTER. You must verify your installation against the information that is available on [ELSTER online portal](http://go.microsoft.com/fwlink/?LinkId=155998). The following section describes installation considerations for your ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> implementation.  
+ The ELSTER portal has requirements for computers that will submit documents. This includes a software certificate that you must acquire for each user who will submit documents to ELSTER. You must verify your installation against the information that is available on [ELSTER online portal](http://go.microsoft.com/fwlink/?LinkId=155998). The following section describes installation considerations for your [!INCLUDE[d365fin](../../includes/d365fin_md.md)] implementation.  
   
 ### Installation Considerations  
  The Microsoft.Dynamics.ElsterTransferHandler.dll assembly installs as part of the installation of the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/nav_windows_md.md)]-->.  
   
 > [!NOTE]  
->  Before you install a new version of ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
+>  Before you install a new version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
   
  ELSTER requires certificates to identify the company and the person who submits each document. On the computer of each user who will submit a statement to ELSTER, you must install the following certificates:  
   
@@ -52,7 +52,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can el
  Your company must register at the ELSTER online portal so that you can acquire the necessary certificates. If you have already registered, you do not have to register again.  
   
 > [!IMPORTANT]  
->  The ELSTER online portal provides three methods of connection, but ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
+>  The ELSTER online portal provides three methods of connection, but [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
   
  After you have registered at the ELSTER online portal, you must acquire a personal certificate. You must also download the public certificate of the tax authorities and the style sheets that are needed for the data transmissions. When you install the personal certificate on the user’s computer, you will be asked to specify a password.  
   
@@ -65,7 +65,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can el
  For more information, see the [ELSTER online portal](http://go.microsoft.com/fwlink/?LinkId=155998)  
   
 ### Transmissions  
- In the Sales VAT Adv. Notification List window, you can create and submit sales VAT advance notifications. When you create a document, you can preview it before submitting it to the ELSTER portal. The documents that are created are based on the XML stylesheets that are published at the ELSTER portal, and on the certificate and other information that you have set up in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
+ In the Sales VAT Adv. Notification List window, you can create and submit sales VAT advance notifications. When you create a document, you can preview it before submitting it to the ELSTER portal. The documents that are created are based on the XML stylesheets that are published at the ELSTER portal, and on the certificate and other information that you have set up in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
   
  After you have submitted a document to ELSTER, an entry is made in the **VAT Transmission Log Entries** window. When the ELSTER online portal processed the submitted document, errors can occur, and ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/elster-transmission-overview.md).  
   

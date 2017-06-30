@@ -16,7 +16,7 @@
 
 ---
 # Payables and Receivables-duplicate
-In Russia, there are specific ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> features that you can use to track and manage your accounts payable and accounts receivable.  
+In Russia, there are specific [!INCLUDE[d365fin](../../includes/d365fin_md.md)] features that you can use to track and manage your accounts payable and accounts receivable.  
   
 ## Getting Started with Payables and Receivables  
  Use the following table to learn more about the payables and receivables features that are available for Russia.  

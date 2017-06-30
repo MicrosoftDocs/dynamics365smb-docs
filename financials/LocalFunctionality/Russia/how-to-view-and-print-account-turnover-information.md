@@ -16,7 +16,7 @@
 
 ---
 # How to: View and Print Account Turnover Information
-ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> enables you to view account turnover information in correspondence with other accounts.  
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] enables you to view account turnover information in correspondence with other accounts.  
   
 ### To view account turnover information  
   

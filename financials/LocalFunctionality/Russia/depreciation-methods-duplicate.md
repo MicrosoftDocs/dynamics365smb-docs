@@ -16,7 +16,7 @@
 
 ---
 # Depreciation Methods-duplicate
-There are three depreciation methods that are unique to Russia that can be used in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
+There are three depreciation methods that are unique to Russia that can be used in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
   
 -   Straight-line method **\(SL-RU\)**  
   

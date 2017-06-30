@@ -16,7 +16,7 @@
 
 ---
 # How to: Import and Export Account Schedules
-ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> enables you to import and export account schedules into other companies and databases.  
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] enables you to import and export account schedules into other companies and databases.  
   
 ### To import and export account schedules  
   

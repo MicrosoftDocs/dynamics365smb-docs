@@ -18,7 +18,7 @@
 # How to: Calculate Quantity On Hand for a Physical Inventory Order
 After you have created the physical inventory order and after you have entered the physical inventory order lines, you must have the program calculate the field Qty. Expected \(Base\) for every physical inventory order line.  
   
- If ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> created this physical inventory order lines automatically, you could decide in the request page for the batch job whether to calculate the expected quantity or not. If you have created the physical inventory order lines manually or if you changed them in the meantime, you have to calculate the expected quantities manually. You can calculate quantities in two ways as described in the following section.  
+ If [!INCLUDE[d365fin](../../includes/d365fin_md.md)] created this physical inventory order lines automatically, you could decide in the request page for the batch job whether to calculate the expected quantity or not. If you have created the physical inventory order lines manually or if you changed them in the meantime, you have to calculate the expected quantities manually. You can calculate quantities in two ways as described in the following section.  
   
 ### To calculate the expected quantity on the physical inventory order  
   
@@ -32,12 +32,12 @@ After you have created the physical inventory order and after you have entered t
   
      In the dialog that appears, choose to calculate the quantities for all lines or for those lines that have not yet been calculated.  
   
- If ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> has already calculated the expected quantity, it shows this by placing a check mark in the Qty. Exp. Calculated field in the inventory order line.  
+ If [!INCLUDE[d365fin](../../includes/d365fin_md.md)] has already calculated the expected quantity, it shows this by placing a check mark in the Qty. Exp. Calculated field in the inventory order line.  
   
 > [!NOTE]  
 >  The process of taking the inventory and recording it in the physical inventory recording is independent from the calculation of the expected quantities.  
   
- You must calculate the expected quantities for all physical inventory order lines of a physical inventory order before you can set the Status field to **Finished**. This is because ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> compares the expected and the recorded quantities and calculates the differences for posting.  
+ You must calculate the expected quantities for all physical inventory order lines of a physical inventory order before you can set the Status field to **Finished**. This is because [!INCLUDE[d365fin](../../includes/d365fin_md.md)] compares the expected and the recorded quantities and calculates the differences for posting.  
   
 ## See Also  
  [How to: Enter Physical Inventory Orders](../how-to-enter-physical-inventory-orders.md)   

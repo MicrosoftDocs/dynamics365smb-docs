@@ -27,7 +27,7 @@ In Spain, there is a legal limit for the number of days that a payment can be de
 |**Due Date Calculation**|**1M**|**1M**|  
 |**Max. No. of Days till Due Date**|**30**|**60**|  
   
- For each customer and vendor, you must select the appropriate payment term code. Then, when you create a document for that customer or vendor, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> will calculate a due date that does not exceed the limit for the relevant payment term.  
+ For each customer and vendor, you must select the appropriate payment term code. Then, when you create a document for that customer or vendor, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] will calculate a due date that does not exceed the limit for the relevant payment term.  
   
 > [!IMPORTANT]  
 >  You cannot post a document that creates a bill where one or more installments have a due date that is later than the limit that is specified in the **Max. No. of Days till Due Date** field.  
@@ -37,7 +37,7 @@ In Spain, there is a legal limit for the number of days that a payment can be de
  You can change the calculated due date manually, but you cannot make it later than the limit that you specify for the payment term. For example, the due date can be calculated to be very late because of conflicts with non-payment periods. In that case, you can decide to make the due date earlier than the non-payment period.  
   
 ## Overdue Payments  
- You must include information about overdue payments in the annual reports for the government. ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> includes two reports to help you identify overdue payments from customers and payments that you are late in making.  
+ You must include information about overdue payments in the annual reports for the government. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] includes two reports to help you identify overdue payments from customers and payments that you are late in making.  
   
  The **Customer - Overdue Payments** and **Vendor - Overdue Payments** reports include a section for each customer or vendor that lists the payments with the following information:  
   

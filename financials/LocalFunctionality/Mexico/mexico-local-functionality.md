@@ -16,7 +16,7 @@
 
 ---
 # Mexico Local Functionality
-The following topics describe the local functionality in the Mexican version of ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
+The following topics describe the local functionality in the Mexican version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
   
 ## In This Section  
  [What's New-duplicate 8](../what-s-new-duplicate-8.md)  

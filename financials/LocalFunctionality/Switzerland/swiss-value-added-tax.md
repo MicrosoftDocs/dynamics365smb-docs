@@ -16,7 +16,7 @@
 
 ---
 # Swiss Value Added Tax
-ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> includes the following enhancements to Swiss VAT reporting:  
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] includes the following enhancements to Swiss VAT reporting:  
   
 -   Automatic adjustment of VAT amounts for invoices, according to payment discounts.  
   

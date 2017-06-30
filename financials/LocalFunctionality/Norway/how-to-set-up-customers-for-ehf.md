@@ -31,7 +31,7 @@ To create Elektronisk Handelsformat \(EHF\) documents for customers in the publi
     |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**GLN**|Required. Enter the Global Location Number \(GLN\) for the customer.|  
-    |**Account Code**|Enter the account code for the customer.<br /><br /> Customers in the public sector provide an account code when they place an order or requisition. Based on the value of this field, the account code is included in the EHF documents that you create in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->. For more information, see Account Code.|  
+    |**Account Code**|Enter the account code for the customer.<br /><br /> Customers in the public sector provide an account code when they place an order or requisition. Based on the value of this field, the account code is included in the EHF documents that you create in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. For more information, see Account Code.|  
     |**E-Invoice**|Select the check box to use electronic invoicing with this customer.|  
     |**Responsibility Center**|Make sure that the Responsibility Center that you have selected has a Country\/Region Code specified.|  
   

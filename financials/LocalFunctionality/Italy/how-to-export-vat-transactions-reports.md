@@ -37,7 +37,7 @@ After you create a report, you can release it, and then export it for the author
   
 4.  On the **Home** tab, in the **Process** group, choose **Release**. The **Status** field is updated to Released.  
   
-     ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> validates that the VAT report is valid and ready for submission. If the validation fails, the errors are shown in the **VAT Report Error Log** window so that you can make the appropriate changes.  
+     [!INCLUDE[d365fin](../../includes/d365fin_md.md)] validates that the VAT report is valid and ready for submission. If the validation fails, the errors are shown in the **VAT Report Error Log** window so that you can make the appropriate changes.  
   
      After you release a VAT report, you cannot edit it. If you have to change the report after it is released, you have to first reopen it. On the **Home** tab, in the **Process** group, choose **Reopen**.  
   

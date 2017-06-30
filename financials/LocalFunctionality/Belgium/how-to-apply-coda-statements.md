@@ -37,7 +37,7 @@ After a CODA statement has been imported, the statement lines can be accessed fr
     |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**Account No.**|Enter the number of the general ledger account, bank, customer, vendor, or fixed asset, which the bank account statement line is linked to.|  
-    |**Description**|ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> automatically retrieves the description from the imported CODA file, but you can modify the contents of this field.|  
+    |**Description**|[!INCLUDE[d365fin](../../includes/d365fin_md.md)] automatically retrieves the description from the imported CODA file, but you can modify the contents of this field.|  
   
 5.  Choose the **OK** button.  
   

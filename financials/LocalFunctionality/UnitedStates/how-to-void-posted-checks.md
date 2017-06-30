@@ -16,7 +16,7 @@
 
 ---
 # How to: Void Posted Checks
-In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you must void the **Payment Journal** from which the export was initiated to void a check. You cannot void the journal after the file has been transmitted. You must post printed checks before you can void printed checks.  
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you must void the **Payment Journal** from which the export was initiated to void a check. You cannot void the journal after the file has been transmitted. You must post printed checks before you can void printed checks.  
   
 ### To post printed checks  
   

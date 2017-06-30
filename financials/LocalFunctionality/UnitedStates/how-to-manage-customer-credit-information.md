@@ -16,7 +16,7 @@
 
 ---
 # How to: Manage Customer Credit Information
-In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can add comments to customer credit information. You can also hold and block customers with bad credit before shipping or invoicing occurs.  
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can add comments to customer credit information. You can also hold and block customers with bad credit before shipping or invoicing occurs.  
   
 ### To add comments to customer credit information  
   

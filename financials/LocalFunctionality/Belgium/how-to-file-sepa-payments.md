@@ -16,7 +16,7 @@
 
 ---
 # How to: File SEPA Payments
-In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can use Single Euro Payments Area \(SEPA\) credit transfers to file SEPA payments with the bank.  
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use Single Euro Payments Area \(SEPA\) credit transfers to file SEPA payments with the bank.  
   
  SEPA unifies payment methods in participating European countries\/regions, which makes international payments as easy to process as domestic payments. European citizens and companies can make and receive payments in euros, whether within or across national borders, with the same basic conditions, rights, and obligations, regardless of location.  
   

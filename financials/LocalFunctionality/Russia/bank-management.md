@@ -16,7 +16,7 @@
 
 ---
 # Bank Management
-In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can create bank directory structures to keep bank reference information in one location, create budget classifications, add bank account details to specific general ledger accounts, and print and post required documents.  
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can create bank directory structures to keep bank reference information in one location, create budget classifications, add bank account details to specific general ledger accounts, and print and post required documents.  
   
 ## Creating Bank Directory Structures  
  You can use a bank directory structure to keep reference information about all the banks in one location. This information can be used to automatically fill in the corresponding fields in the **Bank Account Card**, **Vendor Bank Account Card**, and **Customer Bank Account Card** windows.  

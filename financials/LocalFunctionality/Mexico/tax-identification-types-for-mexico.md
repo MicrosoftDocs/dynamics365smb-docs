@@ -27,7 +27,7 @@ All customers and vendors must a have federal tax identification number. The ide
  Cédula de identification fiscal con clave única de registro de población \(CURP\)  
  This tax identification type can only be applied to people. A CURP number is 18 characters.  
   
- When you create a new customer or vendor in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you specify whether the customer or vendor is a company or a person, and then you specify the tax identification type. The tax identification type and the tax identification number are included in any reports that reference tax information about a customer or vendor.  
+ When you create a new customer or vendor in [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you specify whether the customer or vendor is a company or a person, and then you specify the tax identification type. The tax identification type and the tax identification number are included in any reports that reference tax information about a customer or vendor.  
   
 ## See Also  
  [Mexico Local Functionality](../mexico-local-functionality.md)

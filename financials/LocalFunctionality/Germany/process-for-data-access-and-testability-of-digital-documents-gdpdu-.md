@@ -16,7 +16,7 @@
 
 ---
 # Process for Data Access and Testability of Digital Documents (GDPdU)
-You can export data from ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> according to the process for data access and testability of digital documents \(GDPdU\), which is based on German tax law.  
+You can export data from [!INCLUDE[d365fin](../../includes/d365fin_md.md)] according to the process for data access and testability of digital documents \(GDPdU\), which is based on German tax law.  
   
 ## Overview  
  Section 147\(6\) of the German Fiscal Code \(Abgabenordnung, AO\) allows tax authorities to assess the data of electronic accounting systems digitally. They may do this with a data storage device submitted to them or by direct or indirect access to the system. In the data storage device scenario, the tax liable company \(or the person or entity entrusted with accounting and tax duties\) must provide appropriate data storage devices with the data in computer-readable form. This means for the tax authorities that they will be able to access at will all stored data, including the master data and connections with sort and filter functions. To provide data that can be used and evaluated in this manner, you must define and standardize the file formats for submission by data storage device.  
@@ -24,11 +24,11 @@ You can export data from ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_
  Tax authorities in Germany use analysis software, IDEA, which imports data from ASCII files. The IDEA software can import data in variable length or fixed length format. It requires an XML file, index.xml, that describes the structure of the data files. For more information, see the [Audicon website for GDPdU](http://go.microsoft.com/fwlink/?LinkId=245841).  
   
 ### Defining GDPdU Export Data  
- You can configure ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> to export GDPdU data to meet your needs. You can export large sets of data, and you can export small sets of data. You can export data from a single table or a table and related tables.  
+ You can configure [!INCLUDE[d365fin](../../includes/d365fin_md.md)] to export GDPdU data to meet your needs. You can export large sets of data, and you can export small sets of data. You can export data from a single table or a table and related tables.  
   
  For each data export, you define the tables and fields that you want to export. This depends on the auditor's requests. The selected information is exported to the ASCII files. A corresponding XML file, INDEX.XML, is also created to describe the ASCII file structure.  
   
- The elements in the INDEX.XML file define the names of the tables and fields that are exported. Because the current auditing tool has restrictions on these field names, such as the length and the characters that are used, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> removes spaces and special characters and then truncates the names to match the 20 character limitation. You can change the suggested table and field names when you add fields to a table definition.  
+ The elements in the INDEX.XML file define the names of the tables and fields that are exported. Because the current auditing tool has restrictions on these field names, such as the length and the characters that are used, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] removes spaces and special characters and then truncates the names to match the 20 character limitation. You can change the suggested table and field names when you add fields to a table definition.  
   
  In most cases, you will set up GDPdU data export one time, and then a person in your company can run the export when the auditor requests new data. It is recommended that the setup is handled by people with an understanding of the database structure and the technical hardware in your company, but also in collaboration with people who understand the business data, such as the accountant.  
   

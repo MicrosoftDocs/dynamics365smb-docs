@@ -16,7 +16,7 @@
 
 ---
 # How to: Define an Account Schedule Extension
-ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> enables you to define an extension for an account schedule line. Extensions are useful if you want to filter the data of your general ledger accounts.  
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] enables you to define an extension for an account schedule line. Extensions are useful if you want to filter the data of your general ledger accounts.  
   
 ### To define an account schedule extension  
   

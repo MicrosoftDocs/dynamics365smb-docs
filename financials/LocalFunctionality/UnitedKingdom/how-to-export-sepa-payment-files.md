@@ -16,7 +16,7 @@
 
 ---
 # How to: Export SEPA Payment Files
-The following procedure describes how to export a SEPA payment file, one of the payment options supported by ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->. The procedure describes how to create a payment for a vendor, but the same steps also apply to creating payments for a customer.  
+The following procedure describes how to export a SEPA payment file, one of the payment options supported by [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. The procedure describes how to create a payment for a vendor, but the same steps also apply to creating payments for a customer.  
   
  Before starting this procedure, you need to specify the following information on the vendor card:  
   

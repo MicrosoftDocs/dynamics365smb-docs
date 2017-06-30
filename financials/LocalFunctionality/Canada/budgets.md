@@ -16,7 +16,7 @@
 
 ---
 # Budgets
-ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> provides budget functions so that you can plan and work with budgets.  
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] provides budget functions so that you can plan and work with budgets.  
   
 ## Budget Functions  
  You use budget functions to:  

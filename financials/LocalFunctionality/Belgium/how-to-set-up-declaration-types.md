@@ -16,7 +16,7 @@
 
 ---
 # How to: Set Up Declaration Types
-In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, there are two types of declaration:  
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], there are two types of declaration:  
   
 -   Simplified declaration  
   

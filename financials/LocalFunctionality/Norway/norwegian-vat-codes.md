@@ -16,7 +16,7 @@
 
 ---
 # Norwegian VAT Codes
-In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, VAT processing information can be easily set up using standard Norwegian VAT codes. The following table shows the standard Norwegian VAT codes.  
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], VAT processing information can be easily set up using standard Norwegian VAT codes. The following table shows the standard Norwegian VAT codes.  
   
 |**Code**|**ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->**|  
 |--------------|-------------------------------------------|  
@@ -69,7 +69,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, VAT proces
  If you use standard Norwegian VAT codes, you could specify **VAT Code 3** for the domestic VAT posting setup information, and **VAT Code 1** for the international VAT posting setup information. This lets you choose between the VAT posting setup information using only one field and the familiar standard Norwegian VAT codes.  
   
 ### Example: Restricting the Use of VAT Codes  
- The standard Norwegian **VAT Code 3** is used for sales inclusive of VAT. Unless you restrict the use of this VAT code, it can be used for both sales and purchases in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
+ The standard Norwegian **VAT Code 3** is used for sales inclusive of VAT. Unless you restrict the use of this VAT code, it can be used for both sales and purchases in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
   
  You can define the **Gen. Posting Type** field as a sale in the **G\/L Account \(Analysis View\)** table. This general posting type will be used together with **VAT Code 3**.  
   
@@ -77,8 +77,8 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, VAT proces
   
 |**ADD INCLUDE<!--[!INCLUDE[bp_optionsheading](../../includes/bp_tabledescription_md.md)]-->**|  
 |-----------------------------------------|-------------------------------------------|  
-|**Mandatory**|The general posting type is automatically set to **Sale** on journal lines. Before you post, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> verifies if the general posting type is specified, but there is no verification if the field is set to **Sale**.<br /><br /> **VAT Code 3** can be used for both sales and purchase documents.|  
-|**Same**|The general posting type is automatically set to **Sale** on journal lines. Before you post, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> verifies if the general posting type is set to **Sale**.<br /><br /> **VAT Code 3** can be used for sales documents, but not on purchase documents.<br /><br /> This enables you to restrict the use of VAT codes to predefined general posting types.|  
+|**Mandatory**|The general posting type is automatically set to **Sale** on journal lines. Before you post, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] verifies if the general posting type is specified, but there is no verification if the field is set to **Sale**.<br /><br /> **VAT Code 3** can be used for both sales and purchase documents.|  
+|**Same**|The general posting type is automatically set to **Sale** on journal lines. Before you post, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] verifies if the general posting type is set to **Sale**.<br /><br /> **VAT Code 3** can be used for sales documents, but not on purchase documents.<br /><br /> This enables you to restrict the use of VAT codes to predefined general posting types.|  
   
 ## See Also  
  [Norwegian VAT Reporting](../norwegian-vat-reporting.md)

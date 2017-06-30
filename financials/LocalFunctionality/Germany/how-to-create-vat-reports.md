@@ -60,7 +60,7 @@ You can configure different types of VAT reports based on requirements. Then, wh
   
 2.  Confirm that you want to release the report.  
   
-     ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> validates that the VAT report is set up correctly. If the validation fails, the errors are shown in the **VAT Report Error Log** window so that you can make the appropriate changes. For example, an error displays if you try to release a standard VAT report but you have not yet added any lines to the report.  
+     [!INCLUDE[d365fin](../../includes/d365fin_md.md)] validates that the VAT report is set up correctly. If the validation fails, the errors are shown in the **VAT Report Error Log** window so that you can make the appropriate changes. For example, an error displays if you try to release a standard VAT report but you have not yet added any lines to the report.  
   
      When you mark a VAT report as released, it becomes non-editable. If you must change the report after marking it as released, you must first reopen it.  
   

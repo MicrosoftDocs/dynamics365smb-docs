@@ -24,7 +24,7 @@ The following troubleshooting reports are available to assist Microsoft Certifie
   
  You must have access to the ADD INCLUDE<!--[!INCLUDE[nav_dev_long](../../includes/nav_dev_long_md.md)]--> and a license that grants access to **Object Designer**, which is available only to administrators.  
   
- You can print these reports and send them to your Microsoft Certified Partner to help resolve issues with your ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> implementation.  
+ You can print these reports and send them to your Microsoft Certified Partner to help resolve issues with your [!INCLUDE[d365fin](../../includes/d365fin_md.md)] implementation.  
   
 ### To print the License Information report  
   

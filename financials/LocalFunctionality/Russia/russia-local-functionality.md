@@ -16,7 +16,7 @@
 
 ---
 # Russia Local Functionality
-In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> to calculate VAT due based on Russian VAT rates and regulations.  
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] to calculate VAT due based on Russian VAT rates and regulations.  
   
 ## Getting Started with Russia Local Functionality  
  Use the following table to learn more about local functionality that is available for Russia.  

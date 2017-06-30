@@ -16,7 +16,7 @@
 
 ---
 # New Zealand Local Functionality
-The following topics describe the local functionality in the New Zealand version of ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
+The following topics describe the local functionality in the New Zealand version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
   
 ## In This Section  
  [Addresses](../addresses.md)  

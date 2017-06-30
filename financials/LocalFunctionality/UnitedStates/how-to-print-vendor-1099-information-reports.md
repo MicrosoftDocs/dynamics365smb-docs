@@ -16,7 +16,7 @@
 
 ---
 # How to: Print Vendor 1099 Information Reports
-In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can use the following tax forms to report 1099 transactions:  
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use the following tax forms to report 1099 transactions:  
   
 -   Vendor 1099 Div – Dividends  
   

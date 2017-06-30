@@ -16,7 +16,7 @@
 
 ---
 # How to: Set Up Sales Tax
-In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you need to set the tax calculation type before you can set up sales tax.  
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you need to set the tax calculation type before you can set up sales tax.  
   
 ### To set up sales tax  
   

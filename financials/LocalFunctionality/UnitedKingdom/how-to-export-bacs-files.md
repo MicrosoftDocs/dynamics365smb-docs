@@ -16,7 +16,7 @@
 
 ---
 # How to: Export BACS Files
-The following procedure describes how to export a BACS file, one of the payment options supported by ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
+The following procedure describes how to export a BACS file, one of the payment options supported by [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
   
 ### To export a BACS file  
   

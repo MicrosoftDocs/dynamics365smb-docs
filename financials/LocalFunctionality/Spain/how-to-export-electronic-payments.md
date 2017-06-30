@@ -16,7 +16,7 @@
 
 ---
 # How to: Export Electronic Payments
-In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can export payment journal entries into a file format according to four different payment standards. You must use the following windows to export according to the different payment standards.  
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can export payment journal entries into a file format according to four different payment standards. You must use the following windows to export according to the different payment standards.  
   
 |Payment standard|Window to export from|  
 |----------------------|---------------------------|  

@@ -16,7 +16,7 @@
 
 ---
 # How to: File Non-Euro SEPA Payments
-In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can file non-euro SEPA payments with the bank. This is useful when you make payments to other countries that do not use SEPA and for currencies other than the euro.  
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can file non-euro SEPA payments with the bank. This is useful when you make payments to other countries that do not use SEPA and for currencies other than the euro.  
   
  Before you can file a non-euro SEPA payment you must complete the following administration tasks:  
   

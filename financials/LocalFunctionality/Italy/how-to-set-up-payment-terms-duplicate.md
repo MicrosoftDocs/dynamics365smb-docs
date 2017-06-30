@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Payment Terms-duplicate
+# How to: Set Up Payment Terms
 For each payment term, you can specify if the payment can be made in installments. For example, you can define that a payment can be made in three installments with a third of the payment due after 30, 60, and 90 days.  
   
  If a payment term must be paid in one installment, you must still specify how the due date will be calculated.  

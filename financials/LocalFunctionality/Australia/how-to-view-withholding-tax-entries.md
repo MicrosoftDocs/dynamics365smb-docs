@@ -31,6 +31,6 @@ You can view entries that have been posted with withholding tax \(WHT\) for a sp
 ## See Also  
  [Withholding Tax](../withholding-tax.md)   
  [How to: Set Up Revenue Types for Withholding Tax](../how-to-set-up-revenue-types-for-withholding-tax.md)   
- [How to: Set Up Withholding Tax-duplicate](../how-to-set-up-withholding-tax-duplicate.md)   
+ [How to: Set Up Withholding Tax](../how-to-set-up-withholding-tax.md)   
  [How to: Calculate and Post Withholding Tax Settlements](../how-to-calculate-and-post-withholding-tax-settlements.md)   
  G\/L Registers

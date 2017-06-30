@@ -43,4 +43,4 @@ When a fiscal year is over, you must close the periods that it comprises.
  [How to: Fiscally Close Years](../how-to-fiscally-close-years.md)   
  [Year End Processes Overview](../year-end-processes-overview.md)   
  [How to: Post the Year-End Closing Entry](../how-to-post-the-year-end-closing-entry.md)   
- [How to: Open a New Fiscal Year-duplicate](../how-to-open-a-new-fiscal-year-duplicate.md)
+ [How to: Open a New Fiscal Year](../how-to-open-a-new-fiscal-year.md)

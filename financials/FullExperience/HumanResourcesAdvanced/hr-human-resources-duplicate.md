@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# Human Resources-duplicate
+# Human Resources
 The Human Resources feature lets you keep detailed records of your employees. You can register and maintain employee information, such as employment contracts, confidential information, qualifications, and employee contacts.  
   
  You can also use Human Resources to register employee absences, which allows you to analyze registered absences as necessary.  

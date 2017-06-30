@@ -36,6 +36,6 @@ Revenue types are used to categorize withholding tax \(WHT\) entries and are use
   
 ## See Also  
  [Withholding Tax](../withholding-tax.md)   
- [How to: Set Up Withholding Tax-duplicate](../how-to-set-up-withholding-tax-duplicate.md)   
+ [How to: Set Up Withholding Tax](../how-to-set-up-withholding-tax.md)   
  [How to: View Withholding Tax Entries](../how-to-view-withholding-tax-entries.md)   
  [How to: Calculate and Post Withholding Tax Settlements](../how-to-calculate-and-post-withholding-tax-settlements.md)

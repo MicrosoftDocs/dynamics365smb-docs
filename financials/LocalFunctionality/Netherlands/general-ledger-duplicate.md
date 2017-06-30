@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# General Ledger-duplicate
+# General Ledger
 [!INCLUDE[emptyBookNodeText](includes/emptybooknodetext_md.md)]
 
 ## See Also

@@ -19,7 +19,7 @@
 The following topics describe the local functionality in the Swedish version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
   
 ## In This Section  
- [What's New-duplicate 14](../what-s-new-duplicate-14.md)  
+ [What's New 14](../what-s-new-14.md)  
   [OBSOLETE: Accrual Accounting](../OBSOLETE:%20Accrual%20Accounting.md)  
   [Automatic Account Codes](../automatic-account-codes.md)  
   [Multiple Interest Rates Overview](../multiple-interest-rates-overview.md)  

@@ -32,6 +32,6 @@ European Union \(EU\) third-party trade occurs when you receive a purchase invoi
  Purchase Invoice   
  Purchase Header   
  EU 3-Party Trade   
- [VAT- VIES Declaration Tax Auth-duplicate 1](../-$-r_19-vat-vies-declaration-tax-auth-$-duplicate-1.md)   
+ [VAT- VIES Declaration Tax Auth 1](../-$-r_19-vat-vies-declaration-tax-auth-$-1.md)   
  [Set Up VAT](../set-up-vat.md)   
  [Sweden Local Functionality](../sweden-local-functionality.md)

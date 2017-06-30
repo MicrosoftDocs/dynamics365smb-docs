@@ -21,8 +21,8 @@ ADD INCLUDE<!--[!INCLUDE[nav_current_short](../../includes/nav_current_short_md.
 ## See Also  
  [Finland Local Functionality](../finland-local-functionality.md)   
  Countries-Regions   
- [VAT- VIES Declaration Tax Auth-duplicate](../\($%20R_19%20VAT-%20VIES%20Declaration%20Tax%20Auth%20$\)-duplicate.md)   
+ [VAT- VIES Declaration Tax Auth](../\($%20R_19%20VAT-%20VIES%20Declaration%20Tax%20Auth%20$\).md)   
  VAT- VIES Declaration Disk   
- [EC Sales List-duplicate](../\($%20R_130%20EC%20Sales%20List%20$\)-duplicate.md)   
+ [EC Sales List](../\($%20R_130%20EC%20Sales%20List%20$\).md)   
  Get Item Ledger Entries   
  VAT Posting Setup

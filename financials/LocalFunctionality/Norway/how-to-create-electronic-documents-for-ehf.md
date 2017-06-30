@@ -76,7 +76,7 @@ When you sell goods or services to a customer in the public sector, you must sub
 ## See Also  
  [EHF Electronic Invoicing in Norway](../ehf-electronic-invoicing-in-norway.md)   
  [\($ T\_311 Sales & Receivables Setup $\)](../\($%20T_311%20Sales%20&%20Receivables%20Setup%20$\).md)   
- [\($ N\_459 Sales & Receivables Setup $\)-duplicate](../-$-n_459-sales-receivables-setup-$-duplicate.md)   
+ [\($ N\_459 Sales & Receivables Setup $\)](../-$-n_459-sales-receivables-setup-$.md)   
  Create Electronic Credit Memos   
  Create Electronic Invoices   
  Create Electronic Reminders   

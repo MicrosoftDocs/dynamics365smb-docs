@@ -17,9 +17,9 @@
 ---
 # Canada Local Functionality
 The following topics describe the local functionality in the Canadian version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
-  
+
 ## In This Section  
- [What's New-duplicate 7](../what-s-new-duplicate-7.md)  
+ [What's New 7](../what-s-new-7.md)  
   [Budgets](../budgets.md)  
   [GIFI Codes](../gifi-codes.md)  
   [Electronic Payments for United States, Canada, and Mexico](../electronic-payments-for-united-states-canada-and-mexico.md)  
@@ -33,4 +33,4 @@ The following topics describe the local functionality in the Canadian version of
   [How to: Print Checks](../how-to-print-checks.md)  
   [How to: Void Posted Checks](../how-to-void-posted-checks.md)  
   [How to: Print Troubleshooting Reports](../how-to-print-troubleshooting-reports.md)  
-  [Tables, Reports, Batch Jobs, and Windows-duplicate 4](../tables-reports-batch-jobs-and-windows-duplicate-4.md)
+ 

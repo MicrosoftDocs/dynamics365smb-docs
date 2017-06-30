@@ -24,7 +24,7 @@ Depending on the requirements of your country\/region, you must submit periodic 
  For detailed information about how [!INCLUDE[d365fin](includes/d365fin_md.md)] Help collection.  
   
 ### VAT and VIES Report Configuration  
- Before you can create VAT reports, you must specify a number series that will be used for VAT reports and you must specify if your company can make corrective VAT reports. For more information, see [How to: Set Up VAT Reports-duplicate](../how-to-set-up-vat-reports-duplicate.md).  
+ Before you can create VAT reports, you must specify a number series that will be used for VAT reports and you must specify if your company can make corrective VAT reports. For more information, see [How to: Set Up VAT Reports](../how-to-set-up-vat-reports.md).  
   
  You must also set up general information about how the VAT reports will be created. As part of this, you must specify which processes must be used to print or export the reports. This configuration is performed in preconfigured codeunits. For more information, see [How to: Configure VAT Reports](../how-to-configure-vat-reports.md).  
   

@@ -44,5 +44,5 @@ After you have exported payment journal entries to a file using the Export Elect
  [How to: Void Posted Checks](../how-to-void-posted-checks.md)   
  Export Electronic Payments   
  Void-Transmit Elec. Payments   
- [How to: Export Electronic Payments-duplicate](../how-to-export-electronic-payments-duplicate.md)   
+ [How to: Export Electronic Payments](../how-to-export-electronic-payments.md)   
  [How to: Generate Electronic Payments](../how-to-generate-electronic-payments.md)

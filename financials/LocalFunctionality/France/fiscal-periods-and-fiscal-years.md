@@ -49,8 +49,8 @@ A fiscal year is typically divided into 12 monthly fiscal periods. In [!INCLUDE[
   
 ## See Also  
  [How to: Open a New Fiscal Year](../how-to-open-a-new-fiscal-year.md)   
- [How to: Specify Posting Periods-duplicate](../how-to-specify-posting-periods-duplicate.md)   
- [How to: Post the Year-End Closing Entry-duplicate](../how-to-post-the-year-end-closing-entry-duplicate.md)   
+ [How to: Specify Posting Periods](../how-to-specify-posting-periods.md)   
+ [How to: Post the Year-End Closing Entry](../how-to-post-the-year-end-closing-entry.md)   
  [How to: Fiscally Close Accounting Periods](../how-to-fiscally-close-accounting-periods.md)   
  [How to: Close Years](../how-to-close-years.md)   
  [How to: Post the Year-End Closing Entry](../how-to-post-the-year-end-closing-entry.md)   

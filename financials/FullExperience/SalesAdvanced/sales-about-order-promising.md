@@ -53,4 +53,4 @@ Forecasting functionality is used to create anticipated demand; actual demand is
  Order Planning   
  [How to: Plan for New Demand](../how-to-plan-for-new-demand.md)   
  [How to: Plan Project Orders](../how-to-plan-project-orders.md)   
- [Production Forecast-duplicate](../\($%20N_99000919%20Production%20Forecast%20$\)-duplicate.md)
+ [Production Forecast](../\($%20N_99000919%20Production%20Forecast%20$\).md)

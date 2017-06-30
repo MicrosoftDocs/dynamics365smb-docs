@@ -45,7 +45,7 @@
  You can print the declaration on paper or create an XML file that you can submit electronically to the tax authorities. For more information, see the [BZSt website](http://go.microsoft.com/fwlink/?LinkId=204368).  
   
 ## See Also  
- [VAT-VIES Reporting-duplicate](../vat-vies-reporting-duplicate.md)   
+ [VAT-VIES Reporting](../vat-vies-reporting.md)   
  [VAT Reporting](../vat-reporting.md)   
  VAT-Vies Declaration Tax - DE   
  VAT Entry

@@ -25,7 +25,7 @@ In Russia, there are specific [!INCLUDE[d365fin](../../includes/d365fin_md.md)] 
 |-----------|---------------------------------------|  
 |[How to: Calculate Assessed Tax](../how-to-calculate-assessed-tax.md)|Enables you to calculate the assessed tax for fixed assets.|  
 |[Depreciation Bonus](../depreciation-bonus.md)|Enables you to include fixed asset and capital investment expenses in the current period.|  
-|[Depreciation Methods-duplicate](../depreciation-methods-duplicate.md)|Enables you to understand and use depreciation methods that are unique to Russia.|  
+|[Depreciation Methods](../depreciation-methods.md)|Enables you to understand and use depreciation methods that are unique to Russia.|  
 |[Fixed Asset Charges](../fixed-asset-charges.md)|Enables you to include additional charges on the purchase of fixed assets in the fixed asset acquisition cost.|  
 |[Fixed Asset Inventory](../fixed-asset-inventory.md)|Enables you to generate, process, filter, and print fixed asset inventory lists for auditing in compliance with legal requirements.|  
 |[Fixed Asset Locations and Employees](../fixed-asset-locations-and-employees.md)|Enables you to manage the movement and history of fixed assets.|  

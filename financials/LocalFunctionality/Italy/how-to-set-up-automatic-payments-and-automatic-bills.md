@@ -88,11 +88,11 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can manage automatic p
  Now, you can process customer bills and vendor bills so that they are handled automatically.  
   
 ## See Also  
- [How to: Set Up Payment Terms-duplicate](../how-to-set-up-payment-terms-duplicate.md)   
+ [How to: Set Up Payment Terms](../how-to-set-up-payment-terms.md)   
  SEPA Direct Debit Exp. Format   
  Company Information   
  Bank Account Card   
- [\($ N\_459 Sales & Receivables Setup $\)-duplicate](../-$-n_459-sales-receivables-setup-$-duplicate.md)   
+ [\($ N\_459 Sales & Receivables Setup $\)](../-$-n_459-sales-receivables-setup-$.md)   
  [\($ N\_460 Purchases & Payables Setup $\)](../-$-n_460-purchases-payables-setup-$-.md)   
  Customer Card   
  Vendor Card   

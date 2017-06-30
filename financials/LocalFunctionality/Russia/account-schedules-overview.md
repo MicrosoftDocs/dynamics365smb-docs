@@ -42,7 +42,7 @@ Account schedules are one of the main tools that you can use to provide informat
  G-L Account Turnover   
  G-L Account Card   
  G-L Account Entries Analysis   
- [Account Schedule-duplicate](../\($%20R_25%20Account%20Schedule%20$\)-duplicate.md)   
+ [Account Schedule](../\($%20R_25%20Account%20Schedule%20$\).md)   
  [How to: Import and Export Account Schedules](../how-to-import-and-export-account-schedules.md)   
  [How to: Define an Account Schedule Extension](../how-to-define-an-account-schedule-extension.md)   
  [How to: Define an Account Schedule Constant](../how-to-define-an-account-schedule-constant.md)

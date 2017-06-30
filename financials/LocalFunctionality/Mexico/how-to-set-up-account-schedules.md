@@ -60,5 +60,5 @@ You can use account schedules to arrange and organize accounts in the chart of a
   
 ## See Also  
  Account Schedule Column Layout   
- [Account Schedule-duplicate](../\($%20R_25%20Account%20Schedule%20$\)-duplicate.md)   
+ [Account Schedule](../\($%20R_25%20Account%20Schedule%20$\).md)   
  Account Schedule Layout

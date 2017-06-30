@@ -51,7 +51,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can specify which repo
 4.  Choose the **OK** button.  
   
 ## See Also  
- [How to: Print VAT Reports-duplicate](../how-to-print-vat-reports-duplicate.md)   
+ [How to: Print VAT Reports](../how-to-print-vat-reports.md)   
  [How to: Export and Print Intrastat Reports](../how-to-export-and-print-intrastat-reports.md)   
  Report Selection - VAT   
  Report Selection - Intrastat   

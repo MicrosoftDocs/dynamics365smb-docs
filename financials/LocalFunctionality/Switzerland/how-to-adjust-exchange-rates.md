@@ -55,5 +55,5 @@ If you have taxable sales in a foreign currency, you must use the official rate 
  VAT Posting Setup   
  General Ledger Setup   
  VAT Entry   
- [Adjust Exchange Rates-duplicate](../-$-b_595-adjust-exchange-rates-$-duplicate.md)   
+ [Adjust Exchange Rates](../-$-b_595-adjust-exchange-rates-$.md)   
  Currency Exchange Rates

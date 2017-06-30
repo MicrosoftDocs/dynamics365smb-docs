@@ -26,4 +26,4 @@ The following topics describe the local functionality in the Finnish version of 
   [VAT-VIES Declaration in Finland](../vat-vies-declaration-in-finland.md)  
   
 ## See Also  
- [Getting Started-duplicate](../getting-started-duplicate.md)
+ [Getting Started](../getting-started.md)

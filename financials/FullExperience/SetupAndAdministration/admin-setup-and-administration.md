@@ -35,6 +35,6 @@ Entering the correct setup values from the start is important to the success of 
 |Set up an SMTP server to enable e-mail communication in and out of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/how-to-set-up-smtp-email.md)|  
   
 ## See Also  
- [Getting Started-duplicate](../getting-started-duplicate.md)   
+ [Getting Started](../getting-started.md)   
  [Working with Product Name](../working-with-$-p_1-product-name-$-.md)   
  [Business Functionality](../Business%20Functionality.md)

@@ -52,7 +52,7 @@ When you select electronic payment in the payment journal, the information is ex
  Priority   
  [How to: Set Up Electronic Payments for Bank Accounts](../how-to-set-up-electronic-payments-for-bank-accounts.md)   
  [How to: Void Posted Checks](../how-to-void-posted-checks.md)   
- [Bank Payment Type-duplicate](../-$-t_81_70-bank-payment-type-$-duplicate.md)   
+ [Bank Payment Type](../-$-t_81_70-bank-payment-type-$.md)   
  [Electronic Payments for United States, Canada, and Mexico](../electronic-payments-for-united-states-canada-and-mexico.md)   
  [How to: Transmit Electronic Payments](../how-to-transmit-electronic-payments.md)   
- [How to: Export Electronic Payments-duplicate](../how-to-export-electronic-payments-duplicate.md)
+ [How to: Export Electronic Payments](../how-to-export-electronic-payments.md)

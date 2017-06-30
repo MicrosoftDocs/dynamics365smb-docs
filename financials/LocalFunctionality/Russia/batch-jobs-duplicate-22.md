@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# Batch Jobs-duplicate 22
+# Batch Jobs 22
 ADD INCLUDE<!--[!INCLUDE[bn_batchjobs](../../includes/bn_batchjobs_md.md)]-->  
   
 ## See Also  

@@ -17,9 +17,9 @@
 ---
 # Spain Local Functionality
 The following topics describe the local functionality in the Spanish version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
-  
+
 ## In This Section  
- [What's New-duplicate 17](../what-s-new-duplicate-17.md)  
+ [What's New 17](../what-s-new-17.md)  
   [Calculating Due Dates](../calculating-due-dates.md)  
   [Cartera Module](../cartera-module.md)  
   [Electronic Payments – AEB N34.1](../electronic-payments-–-aeb-n34.1.md)  
@@ -39,4 +39,4 @@ The following topics describe the local functionality in the Spanish version of 
   [Report 340](../report-340.md)  
   [Report 347](../report-347.md)  
   [Report 349](../report-349.md)  
-  [Tables, Reports, Batch Jobs, and Windows-duplicate 6](../tables-reports-batch-jobs-and-windows-duplicate-6.md)
+  

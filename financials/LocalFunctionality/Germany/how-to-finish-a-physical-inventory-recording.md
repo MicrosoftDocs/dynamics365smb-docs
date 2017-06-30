@@ -37,6 +37,6 @@ After you have entered all data for a physical inventory recording, you can fini
 ## See Also  
  [How to: Create a Physical Inventory Recording](../how-to-create-a-physical-inventory-recording.md)   
  [How to: Create a Physical Inventory Recording](../how-to-create-a-physical-inventory-recording.md)   
- [How to: View Duplicate Physical Inventory Order Lines](../how-to-view-duplicate-physical-inventory-order-lines.md)   
+ [How to: View Duplicate Physical Inventory Order Lines](../how-to-view-physical-inventory-order-lines.md)   
  [How to: Analyze Physical Inventory Differences](../how-to-analyze-physical-inventory-differences.md)   
  [Physical Inventory Order Lines With Item Tracking Lines](../physical-inventory-order-lines-with-item-tracking-lines.md)

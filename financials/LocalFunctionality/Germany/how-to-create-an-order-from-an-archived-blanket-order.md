@@ -41,4 +41,4 @@ You can create a new sales order or purchase order from an archived blanket orde
  [How to: Delete Archived Blanket Orders](../how-to-delete-archived-blanket-orders.md)   
  [How to: Track Document Lines](../how-to-track-document-lines.md)   
  Copy Sales Document   
- [Copy Purchase Document-duplicate](../-$-b_492-copy-purchase-document-$-duplicate.md)
+ [Copy Purchase Document](../-$-b_492-copy-purchase-document-$.md)

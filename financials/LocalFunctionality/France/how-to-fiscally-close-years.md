@@ -42,4 +42,4 @@ When a fiscal year is complete, you must fiscally close the periods that it comp
  [How to: Close Years](../how-to-close-years.md)   
  [Year End Processes Overview](../year-end-processes-overview.md)   
  [How to: Post the Year-End Closing Entry](../how-to-post-the-year-end-closing-entry.md)   
- [How to: Open a New Fiscal Year-duplicate](../how-to-open-a-new-fiscal-year-duplicate.md)
+ [How to: Open a New Fiscal Year](../how-to-open-a-new-fiscal-year.md)

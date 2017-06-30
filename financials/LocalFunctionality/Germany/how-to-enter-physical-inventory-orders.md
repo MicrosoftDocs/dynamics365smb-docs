@@ -84,7 +84,7 @@ A physical inventory order is a complete document that consists of a physical in
 ## See Also  
  [Physical Inventory Documents](../physical-inventory-documents.md)   
  [How to: Enter Dimensions for Physical Inventory Orders](../how-to-enter-dimensions-for-physical-inventory-orders.md)   
- [How to: View Duplicate Physical Inventory Order Lines](../how-to-view-duplicate-physical-inventory-order-lines.md)   
+ [How to: View Duplicate Physical Inventory Order Lines](../how-to-view-physical-inventory-order-lines.md)   
  [How to: Create a Physical Inventory Recording](../how-to-create-a-physical-inventory-recording.md)   
  [How to: Calculate Quantity On Hand for a Physical Inventory Order](../how-to-calculate-quantity-on-hand-for-a-physical-inventory-order.md)   
  [How to: Post Physical Inventory Orders](../how-to-post-physical-inventory-orders.md)   

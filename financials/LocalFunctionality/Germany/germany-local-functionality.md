@@ -17,14 +17,14 @@
 ---
 # Germany Local Functionality
 The following topics describe the local functionality in the German version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
-  
+
 ## In This Section  
- [What's New-duplicate 3](../what-s-new-duplicate-3.md)  
+ [What's New 3](../what-s-new-3.md)  
   [Enhanced Document Management](../enhanced-document-management.md)  
   [Process for Data Access and Testability of Digital Documents \(GDPdU\)](../process-for-data-access-and-testability-of-digital-documents-gdpdu-.md)  
   [Physical Inventory Documents](../physical-inventory-documents.md)  
   [VAT Reporting](../vat-reporting.md)  
-  [VAT-VIES Reporting-duplicate](../vat-vies-reporting-duplicate.md)  
+  [VAT-VIES Reporting](../vat-vies-reporting.md)  
   [Currency Exchange Rates](../currency-exchange-rates.md)  
   [How to: Print General Ledger Setup Information](../how-to-print-general-ledger-setup-information.md)  
   [How to: Set Up Reports for VAT and Intrastat](../how-to-set-up-reports-for-vat-and-intrastat.md)  
@@ -35,4 +35,4 @@ The following topics describe the local functionality in the German version of [
   [How to: Export and Print Intrastat Reports](../how-to-export-and-print-intrastat-reports.md)  
   [How to: Print Sales and Purchase Orders During Batch Posting](../how-to-print-sales-and-purchase-orders-during-batch-posting.md)  
   [How to: Print Vendor Payments List Reports](../how-to-print-vendor-payments-list-reports.md)  
-  [Tables, Reports, Batch Jobs, and Windows-duplicate 10](../tables-reports-batch-jobs-and-windows-duplicate-10.md)
+ 

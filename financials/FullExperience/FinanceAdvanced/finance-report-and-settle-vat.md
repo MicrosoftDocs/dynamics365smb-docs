@@ -41,7 +41,7 @@ If you have set up the VAT features correctly, VAT is calculated and posted auto
 |Preview a VAT statement on screen before printing the statement.|[How to: Preview VAT Statements](../how-to-preview-vat-statements.md)|  
 |Print a VAT statement that you can use to fill in the payment slip for the tax authorities.|[How to: Print VAT Statements](../how-to-print-vat-statements.md)|  
 |Create a periodic VAT report that can be submitted to the tax authorities.|[VAT and VIES Report Setup](../vat-and-vies-report-setup.md)|  
-|Print a VIES report for sales to other EU countries\/regions.|[VAT- VIES Declaration Tax Auth-duplicate](../\($%20R_19%20VAT-%20VIES%20Declaration%20Tax%20Auth%20$\)-duplicate.md)|  
+|Print a VIES report for sales to other EU countries\/regions.|[VAT- VIES Declaration Tax Auth](../\($%20R_19%20VAT-%20VIES%20Declaration%20Tax%20Auth%20$\).md)|  
 |Close the open VAT entries and post the net settlement amount to the VAT settlement account.|[How to: Transfer VAT Amounts to the Settlement Account](../how-to-transfer-vat-amounts-to-the-settlement-account.md)|  
   
 ## See Also  

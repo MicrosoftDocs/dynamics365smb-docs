@@ -17,9 +17,9 @@
 ---
 # United States Local Functionality
 The following topics describe the local functionality in the United States version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
-  
+
 ## In This Section  
- [What's New-duplicate 5](../what-s-new-duplicate-5.md)  
+ [What's New 5](../what-s-new-5.md)  
   [Budgets](../budgets.md)  
   [Electronic Payments for United States, Canada, and Mexico](../electronic-payments-for-united-states-canada-and-mexico.md)  
   [Sales Tax](../sales-tax.md)  
@@ -33,4 +33,4 @@ The following topics describe the local functionality in the United States versi
   [How to: Reconcile Bank Accounts by Using Bank Statements](../how-to-reconcile-bank-accounts-by-using-bank-statements.md)  
   [How to: Print Vendor 1099 Information Reports](../how-to-print-vendor-1099-information-reports.md)  
   [How to: Print Troubleshooting Reports](../how-to-print-troubleshooting-reports.md)  
-  [Tables, Reports, Batch Jobs, and Windows-duplicate 4](../tables-reports-batch-jobs-and-windows-duplicate-4.md)
+ 

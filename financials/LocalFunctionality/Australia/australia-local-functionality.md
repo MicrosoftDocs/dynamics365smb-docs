@@ -17,9 +17,9 @@
 ---
 # Australia Local Functionality
 The following topics describe the local functionality in the Australian version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
-  
+
 ## In This Section  
- [What's New-duplicate 11](../what-s-new-duplicate-11.md)  
+ [What's New 11](../what-s-new-11.md)  
   [Australian Business Numbers and Adjustment Notes](../australian-business-numbers-and-adjustment-notes.md)  
   [Business Activity Statements](../business-activity-statements.md)  
   [Tax](../tax.md)  
@@ -33,4 +33,4 @@ The following topics describe the local functionality in the Australian version 
   [How to: Print Deposit Slip Reports](../how-to-print-deposit-slip-reports.md)  
   [How to: Print Bank Account Reconciliation Reports](../how-to-print-bank-account-reconciliation-reports.md)  
   [How to: Create Check Installments](../how-to-create-check-installments.md)  
-  [Tables, Reports, Batch Jobs, and Windows-duplicate 9](../tables-reports-batch-jobs-and-windows-duplicate-9.md)
+  

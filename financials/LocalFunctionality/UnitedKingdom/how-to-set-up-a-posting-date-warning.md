@@ -36,6 +36,6 @@ A warning message will be displayed when you post or batch post sales and purcha
  Batch Post Purchase Invoices   
  Batch Post Sales Credit Memos   
  Batch Post Purch. Credit Memos   
- [\($ N\_459 Sales & Receivables Setup $\)-duplicate](../-$-n_459-sales-receivables-setup-$-duplicate.md)   
+ [\($ N\_459 Sales & Receivables Setup $\)](../-$-n_459-sales-receivables-setup-$.md)   
  [\($ N\_460 Purchases & Payables Setup $\)](../-$-n_460-purchases-payables-setup-$-.md)   
  [United Kingdom Local Functionality](../united-kingdom-local-functionality.md)

@@ -19,11 +19,11 @@
 The following topics describe the local functionality in the Dutch version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## In This Section  
- [What's New-duplicate 10](what-s-new-duplicate-10.md)  
+ [What's New 10](what-s-new-10.md)  
   [CMR Notes](cmr-notes.md)  
   [Dutch Electronic Banking](dutch-electronic-banking.md)  
   [Electronic Tax Declarations](electronic-tax-declarations.md)  
-  [General Ledger-duplicate](general-ledger-duplicate.md)  
+  [General Ledger](general-ledger.md)  
   [Payables and Receivables](payables-and-receivables.md)  
   [Single EURO Payments Area \(SEPA\)](single-euro-payments-area-sepa-.md)  
   [Dutch Work in Progress Accounts](dutch-work-in-progress-accounts.md)

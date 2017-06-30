@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# Reports-duplicate 15
+# Reports 15
 ADD INCLUDE<!--[!INCLUDE[bn_reports](../../includes/bn_reports_md.md)]-->  
   
 ## See Also  

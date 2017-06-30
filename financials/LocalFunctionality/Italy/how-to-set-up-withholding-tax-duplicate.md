@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Withholding Tax-duplicate
+# How to: Set Up Withholding Tax
 Companies must pay withholding tax to the government for third-party services and vendor purchases. Withholding tax is calculated during invoice payment rather than during invoice posting.  
   
 ### To set up withholding tax codes  

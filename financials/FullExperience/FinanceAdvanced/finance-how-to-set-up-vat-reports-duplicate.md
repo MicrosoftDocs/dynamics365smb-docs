@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up VAT Reports-duplicate
+# How to: Set Up VAT Reports
 You can create different types of VAT reports depending on the requirements of your country\/region. Before you can create and submit VAT reports, you must set up a number series.  
   
 ### To set up VAT reports  

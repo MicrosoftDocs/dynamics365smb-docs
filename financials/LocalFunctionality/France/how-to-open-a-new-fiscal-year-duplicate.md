@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Open a New Fiscal Year-duplicate
+# How to: Open a New Fiscal Year
 Before you can post in a fiscal year, you must open the fiscal year and define its accounting periods.  
   
 ### To open a new fiscal year  

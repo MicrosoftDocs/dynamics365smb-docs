@@ -38,5 +38,5 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can specify how the st
   
 ## See Also  
  [OBSOLETE: Standard Purchase Codes and Standard Sales Codes](OBSOLETE:%20Standard%20Purchase%20Codes%20and%20Standard%20Sales%20Codes.md)   
- [\($ N\_459 Sales & Receivables Setup $\)-duplicate](-$-n_459-sales-receivables-setup-$-duplicate.md)   
+ [\($ N\_459 Sales & Receivables Setup $\)](-$-n_459-sales-receivables-setup-$.md)   
  [\($ N\_460 Purchases & Payables Setup $\)](-$-n_460-purchases-payables-setup-$-.md)

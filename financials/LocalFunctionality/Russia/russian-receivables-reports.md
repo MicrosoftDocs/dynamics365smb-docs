@@ -223,4 +223,4 @@ The receivables report feature enables you to view the customer general ledger t
 ## See Also  
  [Russian Payables Reports](../russian-payables-reports.md)   
  [How to: Set Up Customer and Vendor Agreements](../how-to-set-up-customer-and-vendor-agreements.md)   
- [Payables and Receivables-duplicate](../payables-and-receivables-duplicate.md)
+ [Payables and Receivables](../payables-and-receivables.md)

@@ -17,9 +17,9 @@
 ---
 # United Kingdom Local Functionality
 The following topics describe the local functionality in the United Kingdom version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
-  
+
 ## In This Section  
- [What's New-duplicate 16](../what-s-new-duplicate-16.md)  
+ [What's New 16](../what-s-new-16.md)  
   [Multiple Interest Rates Overview](../multiple-interest-rates-overview.md)  
   [How to: Enter Statutory Information](../how-to-enter-statutory-information.md)  
   [How to: Set Up System Calendars and Accounting Periods](../how-to-set-up-system-calendars-and-accounting-periods.md)  
@@ -39,4 +39,5 @@ The following topics describe the local functionality in the United Kingdom vers
   [How to: Print VAT Audit Reports](../how-to-print-vat-audit-reports.md)  
   [How to: Print VAT Reports](../how-to-print-vat-reports.md)  
   [How to: Set Up Reverse Charges on VAT](../how-to-set-up-reverse-charges-on-vat.md)  
-  [Tables, Reports, Batch Jobs, and Windows-duplicate 3](../tables-reports-batch-jobs-and-windows-duplicate-3.md)
+
+ 

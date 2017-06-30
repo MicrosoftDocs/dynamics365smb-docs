@@ -17,19 +17,19 @@
 ---
 # How to: Export Business Unit Information
 If consolidation takes place in another database than the one where you have your company's information, than you must export consolidation data from your company to a file. Each company must be exported separately.  
-  
+
 ### To export business unit information from databases in [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-  
+
 1.  Open the company that you want to export.  
-  
+
 2.  In the selected company, in the **Search** box, enter **Export Consolidation**, and then choose the related link.  
-  
+
 3.  On the **Options** FastTab, fill in the fields to specify how the batch job will create the file.  
-  
+
 4.  Choose the **OK** button to start the export. When the export is finished, close the window.  
-  
+
  Now you can send the file together with the data for your company to the company where the consolidation will be performed.  
-  
+
 ## See Also  
  [How to: Process Consolidations](../how-to-process-consolidations.md)   
  [How to: Enter Basic Information for Consolidated Companies](../how-to-enter-basic-information-for-consolidated-companies.md)   
@@ -38,4 +38,4 @@ If consolidation takes place in another database than the one where you have you
  [How to: Test Files Before Consolidating](../how-to-test-files-before-consolidating.md)   
  [How to: Consolidate from Databases](../how-to-consolidate-from-databases.md)   
  [How to: Consolidate from Files](../how-to-consolidate-from-files.md)   
- [\($ S\_COMPANY How to: Select a Company $\)](../-$-s_company-how-to-select-a-company-$-.md)
+ [How to: Select a Company](../company-how-to-select-a-company.md)

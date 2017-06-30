@@ -194,14 +194,6 @@
 ### [Processing Incoming Documents](across-process-income-documents.md)
 
 # Full Experience
-## Sales (FULL)
-### How to: Work with Blanket Sales Orders
-### How to: Receive Prepayments from Customers
-
-## Purchasing (FULL)
-### How to: Work with Blanket Purchase Orders
-### How to: Make Prepayments to Vendors
-
 ## Business Intelligence (FULL)
 ### [How to: Create Reports with XBRL](FullExperience/bi-create-reports-with-xbrl.md)
 ### How to: Set Up and Publish KPI Web Services Based on Account Schedules
@@ -212,6 +204,14 @@
 ### How to: Transfer and Post Cost Entries
 ### How to: Define and Allocate Costs
 ### How to: Create Cost Budgets
+
+## Sales (FULL)
+### How to: Work with Blanket Sales Orders
+### How to: Receive Prepayments from Customers
+
+## Purchasing (FULL)
+### How to: Work with Blanket Purchase Orders
+### How to: Make Prepayments to Vendors
 
 ## Inventory Costing (FULL)
 ### About Inventory Costing
@@ -245,14 +245,6 @@
 ### How to: Handle Customer Inquiries
 ### How to: Deliver Service
 
-# Local Functionality
+# Local Functionality (FULL)
 ## [Netherlands](LocalFunctionality/Netherlands/netherlands-local-functionality.md)
-
-## Austria (FULL)
-### mock-up
-
-## Belgium (FULL)
-### mock-up
-
-## Germany (FULL)
-### mock-up
+## [Denmark](LocalFunctionality/Netherlands/denmark-local-functionality.md)

@@ -1,6 +1,6 @@
 ---
-title: Mandatory Fields | Microsoft Docs
-description: Learn about required fields.
+title: Fields Required to Complete Processes | Microsoft Docs
+description: Learn about fields marked with a red asterisk, which indicates that they are required and must be filled in to complete a processes.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 05/12/2017
 ms.author: solsen
 
 ---
@@ -25,5 +25,5 @@ In the **Customer Card** window, the red asterisk appears in the **Name** field,
 In the **Item Card** window, the red asterisk appears in the **Description** field to indicate that you cannot enter the item on a document line, such as a sales order, unless this field is filled.
 
 ## See Also
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

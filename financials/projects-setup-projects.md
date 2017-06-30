@@ -1,6 +1,6 @@
 ---
-title: Set Up Project Management| Microsoft Docs
-description: Describes how to set up resources, time sheets, and jobs to manage projects.
+title: Set Up Resources, Time Sheets, and Jobs| Microsoft Docs
+description: Outlines how to set up resources, time sheets, and jobs to manage projects.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 
 ---
@@ -33,4 +33,4 @@ The following table describes a sequence of tasks, with links to the topics that
 [Finance](finance.md)  
 [Purchasing](purchasing-manage-purchasing.md)         
 [Sales](sales-manage-sales.md)     
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

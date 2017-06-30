@@ -1,6 +1,6 @@
 ---
-title: Project Management| Microsoft Docs
-description: Describes how to use resources, time sheets, and jobs to manage projects.
+title: Job Tasks using Resources and Time Sheets| Microsoft Docs
+description:Outlines how to to use resources, time sheets, and jobs to manage projects.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 
 ---
@@ -20,7 +20,8 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can perform common project m
 
 Before you can use [!INCLUDE[d365fin](includes/d365fin_md.md)] to manage projects, you must set up resources, time sheets, and jobs. For more information, see [Setting Up Project Management](projects-setup-projects.md).  
 
-**Note**: This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
+> [!NOTE]  
+>   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 
 The following table describes a sequence of tasks, with links to the topics that describe them.
 
@@ -42,4 +43,4 @@ The following table describes a sequence of tasks, with links to the topics that
 [Purchasing](purchasing-manage-purchasing.md)         
 [Sales](sales-manage-sales.md)    
 [Finance](finance.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

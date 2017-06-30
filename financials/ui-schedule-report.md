@@ -1,6 +1,6 @@
 ---
-title: Schedule a Report to Run | Microsoft Docs
-description: Learn how you can schedule a report to run at a later time.
+title: Scheduling a Report to Run at a Specific Date and Time | Microsoft Docs
+description: Learn about entering a report into a job queue and scheduling it to be processed at a specific date and time.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -22,4 +22,4 @@ You can schedule a report when you open a report. You choose the **Schedule** ac
 
 ## See Also
 [Specify Printer Selection for Reports](ui-specify-printer-selection-reports.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

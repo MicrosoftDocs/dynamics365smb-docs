@@ -1,6 +1,6 @@
 ---
 title: Setting Up Inventory| Microsoft Docs
-description: Describes how to set up inventory processes, such as locations and transfer routes.
+description: Describes how to set up your stock and inventory processes, including transfer routes and locations, such as warehouses.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: SorenGP
 
 ---
@@ -34,5 +34,5 @@ When you have set up your inventory, you can manage various inventory processes.
 [Managing Purchasing](purchasing-manage-purchasing.md)  
 [Managing Sales](sales-manage-sales.md)    
 [Supply Chain](madeira-supply-chain.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)

@@ -1,6 +1,6 @@
 ---
-title: Linking Contacts With Customers, Vendors, and Bank Accounts | Microsoft Docs
-description: Describes how to link contacts with customers, vendors, and bank accounts in Financials
+title: Linking Contacts With Customers and Vendors| Microsoft Docs
+description: Describes how to link a contact with a customer, vendor, or bank account from the same company, so that you can synchronize common data.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 
 ---
@@ -28,4 +28,4 @@ If you have contact and either a customer, vendor, or bank account for the same 
 ## See Also
 [Synchronizing Contacts With Customers, Vendors, and Bank Accounts](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
 [Creating and Managing Contacts](marketing-contacts.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

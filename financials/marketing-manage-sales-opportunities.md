@@ -1,6 +1,6 @@
 ---
-title: Managing Sales Opportunities | Microsoft Docs
-description: Describes managing sales opportunities in Financials
+title: Manage Sales Opportunities and Leads| Microsoft Docs
+description: Describes managing any incoming lead or sales opportunity in Financials,  and associating the opportunity with a salesperson to keep track of potential sales.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 
 ---

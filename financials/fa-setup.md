@@ -1,6 +1,6 @@
 ---
-title: Setting Up Fixed Assets| Microsoft Docs
-description: Describes how to set up the Fixed Assets functionality.
+title: Set Up Fixed Assets| Microsoft Docs
+description: Learn about the sequence of tasks you must do to set up fixed assets, such as machinery or buildings.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---
@@ -23,7 +23,8 @@ Before you can work with Fixed Assets, you need to define a few things:
 
 The table below has links to more information. After you set those things up, you can start various activities. For more information, see [Fixed Assets](fa-manage.md).  
 
-**Note**: You can record fixed asset transactions in the **Fixed Asset G/L Journal** or **Fixed Asset Journal** windows, depending on whether the transactions are for financial reporting or for internal management. Help for Fixed Assets only describes how to use the **Fixed Asset G/L Journal** window.  
+> [!NOTE]  
+>   You can record fixed asset transactions in the **Fixed Asset G/L Journal** or **Fixed Asset Journal** windows, depending on whether the transactions are for financial reporting or for internal management. Help for Fixed Assets only describes how to use the **Fixed Asset G/L Journal** window.  
 
 When you enable a fixed asset activity in the **G/L Integration** section in the **Depreciation Book Card** window, the **Fixed Asset G/L Journal** window is used to post transactions for the activity.
 
@@ -41,4 +42,4 @@ The following table describes a sequence of tasks, with links to the topics that
 [Fixed Assets](fa-manage.md)  
 [Finance](finance.md)  
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

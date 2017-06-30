@@ -1,6 +1,6 @@
 ---
-title: Managing Report Layouts | Microsoft Docs
-description: Learn about report layouts.
+title: Working with Custom and Built-In Layouts for Reports and Documents | Microsoft Docs
+description: Use report layouts to customize documents, for example, to personalize the font, logo, or page settings of PDF files you send to customers.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -18,7 +18,8 @@ ms.author: solsen
 # Managing Report and Document Layouts
 A report layout controls content and format of the report, including which data fields of a report dataset appear on the report and how they are arranged, text style, images, and more. From [!INCLUDE[d365fin](includes/d365fin_md.md)], you can change which layout is used on a report, create new layout, or modify the existing layouts.
 
-**Note**: In [!INCLUDE[d365fin](includes/d365fin_md.md)], the term "report" also covers externally-facing documents, such as sales invoices and order confirmations that you send to customers as PDF files.
+> [!NOTE]  
+>   In [!INCLUDE[d365fin](includes/d365fin_md.md)], the term "report" also covers externally-facing documents, such as sales invoices and order confirmations that you send to customers as PDF files.
 
 In particular, a report layout sets up the following:
 
@@ -52,6 +53,6 @@ The process for setting up Word report layouts and RDLC report layouts on report
 For information on how to change which layout to use, see [How to: Change Which Layout is Currently Used on a Report](ui-how-change-layout-currently-used-report.md)
 
 ## See Also
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [How to: Create a Custom Report or Document Layout](ui-how-create-custom-report-layout.md)  
 [How to: Send Documents by Email](ui-how-send-documents-email.md)

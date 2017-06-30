@@ -1,6 +1,6 @@
 ---
-title: Frequently Asked Questions| Microsoft Docs
-description: Frequently asked questions about signing up for and using Dynamics 365 for Financials.
+title: FAQ About Using Financials| Microsoft Docs
+description: Answers common questions about how to sign up for Financials, and what to do to get started.
 services: project-madeira
 documentationcenter: ''
 author: edupont04
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
-ms.date: 03/22/2017
+ms.date: 06/02/2017
 ms.author: edupont
 
 ---
@@ -46,4 +46,4 @@ This is a bit complicated, but it looks like your administrator didn't change yo
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as Your Business Inbox in Outlook](madeira-outlook.md)  
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] without Outlook](madeira-no-outlook.md)  
 [How to: Change the Role Center](change-role.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

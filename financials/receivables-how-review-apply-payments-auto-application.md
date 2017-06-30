@@ -1,6 +1,6 @@
 ---
-title: 'How to: Review or Apply Payments Manually After Automatic Application| Microsoft Docs'
-description: 'How to: Review or Apply Payments Manually After Automatic Application'
+title: Verify Automatically Applied Payments, and Reapply Payments Manually | Microsoft Docs
+description: After payments are applied automatically, you can review all the entries for a payment and manually reapply those that were applied incorrectly.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -18,20 +18,24 @@ ms.author: sgroespe
 # How to: Review or Apply Payments Manually After Automatic Application
 For each journal line representing a payment in the **Payment Reconciliation Journal** window, you can open the **Payment Application** window to see all candidate open entries for the payment and view detailed information for each entry about the data matching that a payment application is based on. Here, you can manually apply payments or reapply payments that were applied automatically to a wrong entry. For more information about automatic application, see [How to: Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
 
-**Important**: When the bank account that you are reconciling payments for is set up for the local currency, then the **Payment Application** window will show all open entries in the local currency, including open entries for documents that were originally invoiced in foreign currencies. Payments applied to entries with converted currencies may therefore be posted with different amounts than on the original document because of the potentially different exchange rates used by the bank and [!INCLUDE[d365fin](includes/d365fin_md.md)] respectively.
+> [!IMPORTANT]  
+>   When the bank account that you are reconciling payments for is set up for the local currency, then the **Payment Application** window will show all open entries in the local currency, including open entries for documents that were originally invoiced in foreign currencies. Payments applied to entries with converted currencies may therefore be posted with different amounts than on the original document because of the potentially different exchange rates used by the bank and [!INCLUDE[d365fin](includes/d365fin_md.md)] respectively.
 
 Therefore, we recommend that you look for foreign currency codes in the **Currency Code** field in the **Payment Application** window to check if applications are based on converted currencies. To review the original document amount in the foreign currency and to see the exchange rate used, choose the **Applies-to Entry No.** field, and then, on the shortcut menu, choose the drilldown button to open the **Customer Ledger Entries** or **Vendor Ledger Entries** window.
 
 Any gains-and-loss adjustment required due to currency conversions is not handled automatically by [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-**Note**: You cannot apply entries with a different sign than the sign on the payment. For example, to close both a negative-sign credit memo and its related positive-sign invoice, you must first apply the credit memo to the invoice, and then apply the payment to the invoice with the reduced remaining amount.
+> [!NOTE]  
+>   You cannot apply entries with a different sign than the sign on the payment. For example, to close both a negative-sign credit memo and its related positive-sign invoice, you must first apply the credit memo to the invoice, and then apply the payment to the invoice with the reduced remaining amount.
 
-**Warning**: If you use payment discounts, and if the payment date is before the payment due date, then the **Remaining Amt. Incl. Discount** field in the **Payment Application** window will be used for matching. Otherwise, the value in the **Remaining Amount** field will be used. If the payment was made with a discounted amount after the payment due date, or the full amount was paid but a discount was granted, then the amount will not be matched.
+> [!WARNING]  
+>   If you use payment discounts, and if the payment date is before the payment due date, then the **Remaining Amt. Incl. Discount** field in the **Payment Application** window will be used for matching. Otherwise, the value in the **Remaining Amount** field will be used. If the payment was made with a discounted amount after the payment due date, or the full amount was paid but a discount was granted, then the amount will not be matched.
 
-**Note**: You can only apply a payment to one account. If you want to split the application on multiple open entries, for example to apply a lump-sum payment, then the open entries must be for the same account. For more information, see steps 7 and 8 in the procedure in this topic.
+> [!NOTE]  
+>   You can only apply a payment to one account. If you want to split the application on multiple open entries, for example to apply a lump-sum payment, then the open entries must be for the same account. For more information, see steps 7 and 8 in the procedure in this topic.
 
 ## To review or apply payments after automatic application
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Payment Reconciliation Journals**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Reconciliation Journals**, and then choose the related link.
 2. Open the payment reconciliation journal for a bank account that you want to reconcile payments for. For more information, see [How to: Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
 3. In the **Payment Reconciliation Journal** window, select a payment that you want to review or manually apply to one or more open entries, and then choose the **Apply Manually** action.
 4. Select the **Applied** check box on the line for the open entry that you want to apply the payment to.
@@ -46,4 +50,4 @@ The **Payment Application** window  closes, and in the **Payment Reconciliation 
 ## See Also
 [Managing Receivables](receivables-manage-receivables.md)  
 [Sales](sales-manage-sales.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -16,7 +16,7 @@
 
 ---
 # Identify People and Resources
-The key element to service management is the people who supply service. By using [!INCLUDE[d365fin](includes/d365fin_md.md)], you can set up an application that assigns the appropriate people to the appropriate jobs. Assignments can be based on service zones where the people are located or where the service occurs.  
+The key element to service management is the people who supply service. By using [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can set up an application that assigns the appropriate people to the appropriate jobs. Assignments can be based on service zones where the people are located or where the service occurs.  
   
  In addition, you can group resources together when responding to service requests.  
   

@@ -19,7 +19,7 @@
 You set up email logging in the **Marketing Setup** window. Setup requires an email account that has a valid email address on Exchange. It also requires that you use public folders. This enables you to share and log information and email in a company.  
   
 > [!NOTE]  
->  Consider creating a domain user email account that is not tied to specific individual. If you do this, you will also have to add the domain account to [!INCLUDE[d365fin](includes/d365fin_md.md)] as a Windows user who has the relevant permission set.  
+>  Consider creating a domain user email account that is not tied to specific individual. If you do this, you will also have to add the domain account to [!INCLUDE[d365fin](../../../includes/d365fin_md.md)] as a Windows user who has the relevant permission set.  
   
  In order to set up email logging, you will require a ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/demolong_md.md)]-->.  
   
@@ -39,7 +39,7 @@ You set up email logging in the **Marketing Setup** window. Setup requires an em
   
     |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
-    |**Exchange Service URL**|Optionally, specify the URL for your Exchange service.<br /><br /> If you specify this URL, [!INCLUDE[d365fin](includes/d365fin_md.md)] connects faster to Exchange when you choose **Validate Email Logging Setup**.|  
+    |**Exchange Service URL**|Optionally, specify the URL for your Exchange service.<br /><br /> If you specify this URL, [!INCLUDE[d365fin](../../../includes/d365fin_md.md)] connects faster to Exchange when you choose **Validate Email Logging Setup**.|  
     |**Exchange Account User Name**|Specify the name of the user account that has access to Exchange.|  
     |**Exchange Account User Password**|Specify the password of the user account that has access to Exchange.|  
   
@@ -48,7 +48,7 @@ You set up email logging in the **Marketing Setup** window. Setup requires an em
 6.  For each field, select the public folder that you have set up for email logging. On the **Home** tab, in the **Process** group, choose **Get Subfolders**. If you have to access subfolders, select the folder, and choose **Get Subfolders** again. Expand the folder directory to reach the **Queue** and **Storage** folders that you have created.  
   
     > [!NOTE]  
-    >  [!INCLUDE[d365fin](includes/d365fin_md.md)] does not support folder paths that are longer than 250 characters. Accordingly, you should set up your public folder structure to be able to handle this limitation.  
+    >  [!INCLUDE[d365fin](../../../includes/d365fin_md.md)] does not support folder paths that are longer than 250 characters. Accordingly, you should set up your public folder structure to be able to handle this limitation.  
   
 7.  In the **Email Batch Size** field, enter the number of emails that you want to process at a time. You can use the value that you specify to address performance issues.  
   

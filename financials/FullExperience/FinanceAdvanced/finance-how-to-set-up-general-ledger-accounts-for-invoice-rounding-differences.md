@@ -22,7 +22,7 @@ To use the automatic invoice rounding function, you must set up the general ledg
   
 1.  In the **Search** box, enter **Chart of Accounts**, and then choose the related link.  
   
-2.  Set up the account in the **Chart of Accounts** window and name it **Invoice Rounding** or something similar. "[!INCLUDE[d365fin](../../includes/d365fin_md.md)] will use the account name as text for invoices that are rounded.  
+2.  Set up the account in the **Chart of Accounts** window and name it **Invoice Rounding** or something similar. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] will use the account name as text for invoices that are rounded.  
   
 3.  In the **Gen. Posting Type** field, select \<Blank\>.  
   

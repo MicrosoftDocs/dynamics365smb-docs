@@ -72,7 +72,7 @@ Static allocation method is based on a definite value, such as square meters use
 15. On the third line, in the **Share** field, enter the allocation ratio **4**.  
   
 > [!IMPORTANT]  
->  "[!INCLUDE[d365fin](../../includes/d365fin_md.md)] automatically calculates the **Percent** field using a percentage rate that is dependent on all three allocation ratios that are entered in the **Share** field for all three lines.  
+>  [!INCLUDE[d365fin](../../includes/d365fin_md.md)] automatically calculates the **Percent** field using a percentage rate that is dependent on all three allocation ratios that are entered in the **Share** field for all three lines.  
   
 ## See Also  
  [How to: Set Up Allocation Source and Targets](../how-to-set-up-allocation-source-and-targets.md)   

@@ -36,7 +36,7 @@ After you have set up the consolidated company and the business units and export
 
 6.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
 
- "[!INCLUDE[d365fin](../../includes/d365fin_md.md)] prints a message.  
+ [!INCLUDE[d365fin](../../includes/d365fin_md.md)] prints a message.  
 
  If the report contains errors, you must correct them before you run the consolidation.  
 

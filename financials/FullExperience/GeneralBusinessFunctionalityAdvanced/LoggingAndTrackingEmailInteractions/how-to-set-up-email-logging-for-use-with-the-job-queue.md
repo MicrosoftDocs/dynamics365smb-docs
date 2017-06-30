@@ -24,7 +24,7 @@ You can run regular background processing such as email logging using a job queu
  To use email logging, you must be connected to Microsoft Exchange Server and have an email account.  
   
 > [!NOTE]  
->  The email account that is used to configure email logging in [!INCLUDE[d365fin](includes/d365fin_md.md)] must have certain permissions with regard to the public folders.  
+>  The email account that is used to configure email logging in [!INCLUDE[d365fin](../../../includes/d365fin_md.md)] must have certain permissions with regard to the public folders.  
 >   
 >  -   When you configure email logging setup in the **Marketing Setup** window, the user name that is used for the validation of setup must have **Read** access to the public folders.  
 > -   When email logging is running on the ADD INCLUDE<!--[!INCLUDE[nav_server](../../includes/nav_server_md.md)]-->, the user account credentials that are used on the server instance must have full **Read**, **Write**, and **Delete items** permission levels set on the public folders.  

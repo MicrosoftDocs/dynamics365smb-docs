@@ -52,7 +52,7 @@ This topic shows an example of how to define allocations by using the dynamic al
 14. On the **Home** tab, in the **Process** group, choose **Calculate Allocation Key** to calculate the share.  
   
     > [!IMPORTANT]  
-    >  "[!INCLUDE[d365fin](../../includes/d365fin_md.md)] uses the previous years’ sales figures to calculate a share of 1596.50 LCY with 100 percent for the IT EQUIPMENT packages. This means that all of the items sold last year will be allocated to the cost object IT EQUIPMENT.  
+    >  [!INCLUDE[d365fin](../../includes/d365fin_md.md)] uses the previous years’ sales figures to calculate a share of 1596.50 LCY with 100 percent for the IT EQUIPMENT packages. This means that all of the items sold last year will be allocated to the cost object IT EQUIPMENT.  
   
 ## See Also  
  [Setting Filters for Dynamic Allocation Bases](../setting-filters-for-dynamic-allocation-bases.md)   

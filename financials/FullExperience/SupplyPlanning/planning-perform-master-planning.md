@@ -18,7 +18,7 @@
 # Perform Master Planning
 Before a detailed executable plan \( [see MRP](../plan-for-resource-availability.md) and the final-assembly production schedule, that is expected production orders for demanded end items.  
   
- In [!INCLUDE[d365fin](includes/d365fin_md.md)], the Calculate MPS option \(Master Production Schedule\) is the system expression of the above master planning activities.  
+ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], the Calculate MPS option \(Master Production Schedule\) is the system expression of the above master planning activities.  
   
  The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
   

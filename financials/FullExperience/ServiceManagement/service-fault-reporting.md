@@ -16,7 +16,7 @@
 
 ---
 # Fault Reporting
-To set up service standards and responses for your company, you can establish how to capture and record fault information and what action to take in response to service items. [!INCLUDE[d365fin](includes/d365fin_md.md)] provides four options, from which you can select one in the **General** FastTab of the **Service Mgt. Setup** window. Your selection serves as the default implementation for your service application.  
+To set up service standards and responses for your company, you can establish how to capture and record fault information and what action to take in response to service items. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] provides four options, from which you can select one in the **General** FastTab of the **Service Mgt. Setup** window. Your selection serves as the default implementation for your service application.  
 
  The following table describes the various fault reporting levels.  
 

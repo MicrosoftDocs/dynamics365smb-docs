@@ -33,7 +33,7 @@ A job queue can have many entries, which are the jobs that the queue manages and
     |**Object Type to Run**|Specifies the type of the object to run: codeunit or report.|  
     |**Object ID to Run**|Specifies the ID of the codeunit or report.<br /><br /> If you specify Report as the object type to run, all object IDs of that type will be available in the list. However, you can only select reports whose **ProcessingOnly** property is set to Yes. **Note:**  The user who sets up the job queue entry must have a permission set that includes explicit permissions run the specified object.|  
     |**Parameter String**|Specifies a text string that you use to define to reduce the scope of the job. For example, you can specify a document type such as sales order. The codeunit has to read the parameters from this field.|  
-    |**Maximum No. of Attempts to Run**|Specifies how many times, after a run has failed, that [!INCLUDE[d365fin](includes/d365fin_md.md)] is to attempt to run the job.|  
+    |**Maximum No. of Attempts to Run**|Specifies how many times, after a run has failed, that [!INCLUDE[d365fin](../../includes/d365fin_md.md)] is to attempt to run the job.|  
     |**Expiration Date\/Time**|Specifies the last date and time on which the job runs. The job will not run after this date.|  
     |**Earliest Date\/Time**|Specifies the first date and time on which the job runs.|  
     |**Priority**|Specifies the priority of the job queue entry compared to other entries in the job queue. For example, **1**. The lower the number, the higher the priority. The default priority is set to 1000.|  
@@ -42,7 +42,7 @@ A job queue can have many entries, which are the jobs that the queue manages and
   
      Choose the **OK** button.  
   
-6.  [!INCLUDE[d365fin](includes/d365fin_md.md)] gives you updated status information. The following is a list of the available **Status** codes:  
+6.  [!INCLUDE[d365fin](../../includes/d365fin_md.md)] gives you updated status information. The following is a list of the available **Status** codes:  
   
     -   **On Hold**  
   

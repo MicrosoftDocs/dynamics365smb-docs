@@ -16,7 +16,7 @@
 
 ---
 # How to: Register Opening Entries
-If you are using the fixed assets in "[!INCLUDE[d365fin](../../includes/d365fin_md.md)] for the first time, you must set up the general ledger application area before you set up fixed assets. How you do this depends on whether fixed assets is integrated with general ledger.  
+If you are using the fixed assets in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] for the first time, you must set up the general ledger application area before you set up fixed assets. How you do this depends on whether fixed assets is integrated with general ledger.  
   
  The following procedure is used if fixed asset transactions are to be posted to the general ledger.  
   
@@ -40,7 +40,7 @@ If you are using the fixed assets in "[!INCLUDE[d365fin](../../includes/d365fin_
   
     -   A line with the accumulated depreciation to the end of the previous fiscal year.  
   
-    -   A line with the accumulated depreciation from the start of the current fiscal year to the date that "[!INCLUDE[d365fin](../../includes/d365fin_md.md)] is set to start calculating the depreciation.  
+    -   A line with the accumulated depreciation from the start of the current fiscal year to the date that [!INCLUDE[d365fin](../../includes/d365fin_md.md)] is set to start calculating the depreciation.  
   
      If you have other opening balances you can also enter them now, such as write-down and appreciation.  
   

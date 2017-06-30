@@ -31,7 +31,7 @@ This topic describes some common problems that you may see when you use email lo
 -   [Error when viewing mail based on interaction log entries](../../BusinessFunctionality/LoggingAndTrackingEmailInteractions/troubleshooting-email-logging.md#ErrorViewingMailBased)  
   
 ##  <a name="MultipleContacts"></a> Managing Logging for Multiple Contacts Who Use One Email Address  
- In some [!INCLUDE[d365fin](includes/d365fin_md.md)] company installations, one email address may be used by several contacts in a company. In this case, email interactions are logged only against the first contact, based on and ordered by the **No.**.  
+ In some [!INCLUDE[d365fin](../../../includes/d365fin_md.md)] company installations, one email address may be used by several contacts in a company. In this case, email interactions are logged only against the first contact, based on and ordered by the **No.**.  
   
  To change this behavior, update the inheritance settings that you have specified in the **Marketing Setup** window. On the **Inheritance** FastTab, clear the **Communication Details** check box.  
   
@@ -73,9 +73,9 @@ This topic describes some common problems that you may see when you use email lo
  For more information, see [How to: Set Up Job Queues](../how-to-create-job-queue-categories.md).  
   
 ##  <a name="ErrorViewingMailBased"></a> Error when viewing mail based on interaction log entries  
- **Description**: An error may appear when you want to view a logged email in the **Interaction Log Entries** window. The error occurs when [!INCLUDE[d365fin](includes/d365fin_md.md)] attempts to open the corresponding email in Microsoft Outlook.  
+ **Description**: An error may appear when you want to view a logged email in the **Interaction Log Entries** window. The error occurs when [!INCLUDE[d365fin](../../../includes/d365fin_md.md)] attempts to open the corresponding email in Microsoft Outlook.  
   
- **Workaround**: Make sure that you are not running either [!INCLUDE[d365fin](includes/d365fin_md.md)] or Outlook as administrator. Otherwise, close all instances of Outlook, and then, in the **Interaction Log Entries** window, choose **Show** again.  
+ **Workaround**: Make sure that you are not running either [!INCLUDE[d365fin](../../../includes/d365fin_md.md)] or Outlook as administrator. Otherwise, close all instances of Outlook, and then, in the **Interaction Log Entries** window, choose **Show** again.  
   
 ## See Also  
  [Walkthrough: Logging Email Interactions in the Microsoft Dynamics NAV Database](../walkthrough-logging-email-interactions-in-the-microsoft-dynamics-nav-database.md)   

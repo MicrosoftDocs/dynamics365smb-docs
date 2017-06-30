@@ -16,7 +16,7 @@
 
 ---
 # How to: Set Up SMTP Email
-To send e-mails from [!INCLUDE[d365fin](includes/d365fin_md.md)] using an SMTP server, you must fill the **SMTP Mail Setup** window.  
+To send e-mails from [!INCLUDE[d365fin](../../../includes/d365fin_md.md)] using an SMTP server, you must fill the **SMTP Mail Setup** window.  
   
  E-mail sending is used for several features in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/workflow.md).  
   

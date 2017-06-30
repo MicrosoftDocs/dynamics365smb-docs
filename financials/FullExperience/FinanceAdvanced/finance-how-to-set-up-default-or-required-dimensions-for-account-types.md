@@ -16,7 +16,7 @@
 
 ---
 # How to: Set Up Default or Required Dimensions for Account Types
-You can set up a default dimension for an account type. [!INCLUDE[d365fin](includes/d365fin_md.md)] will then copy this code to the journal, sales or purchase line when the account type is filled in on the line. However, you may delete or change the code if appropriate.  
+You can set up a default dimension for an account type. "[!INCLUDE[d365fin](../../includes/d365fin_md.md)] will then copy this code to the journal, sales or purchase line when the account type is filled in on the line. However, you may delete or change the code if appropriate.  
   
  You can also make a dimension required, so that it is not possible to post an entry with a specific type of account unless the account has a dimension value assigned to it.  
   

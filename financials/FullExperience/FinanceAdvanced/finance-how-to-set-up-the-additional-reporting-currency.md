@@ -40,7 +40,7 @@ Follow these steps to set up the additional reporting currency:
     |**Residual Losses Account**|The general ledger account to which residual amounts that are losses are posted if you post in the general ledger application area in both LCY and an additional reporting currency.|  
   
 > [!NOTE]  
->  Residual amounts can occur when [!INCLUDE[d365fin](includes/d365fin_md.md)] rounds debit and credit amounts that have been converted from LCY to an additional reporting currency.  
+>  Residual amounts can occur when "[!INCLUDE[d365fin](../../includes/d365fin_md.md)] rounds debit and credit amounts that have been converted from LCY to an additional reporting currency.  
   
  For each general ledger account, you must specify how general ledger amounts for that account will be adjusted for exchange rate fluctuations between LCY and the additional reporting currency.  
   
@@ -92,7 +92,7 @@ Follow these steps to set up the additional reporting currency:
   
 2.  In the **General Ledger Setup** window, on the **Reporting** FastTab, choose the **Additional Reporting Currency** field to select the additional currency that you want to report in.  
   
-3.  When you leave the field, [!INCLUDE[d365fin](includes/d365fin_md.md)] displays a confirmation message describing the effects of activating the additional reporting currency.  
+3.  When you leave the field, "[!INCLUDE[d365fin](../../includes/d365fin_md.md)] displays a confirmation message describing the effects of activating the additional reporting currency.  
   
 4.  Choose the **Yes** button to confirm that you want to activate the currency.  
   

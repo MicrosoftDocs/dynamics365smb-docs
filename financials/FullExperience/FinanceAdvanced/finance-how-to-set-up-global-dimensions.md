@@ -16,7 +16,7 @@
 
 ---
 # How to: Set Up Global Dimensions
-A global dimension is a dimension that you can use as a filter anywhere in [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can set up two dimensions as global dimensions. Choose the two dimensions that you will use most frequently in your reports. You can, however, use any dimension as a filter in the **Analysis by Dimensions** window.  
+A global dimension is a dimension that you can use as a filter anywhere in "[!INCLUDE[d365fin](../../includes/d365fin_md.md)]. You can set up two dimensions as global dimensions. Choose the two dimensions that you will use most frequently in your reports. You can, however, use any dimension as a filter in the **Analysis by Dimensions** window.  
   
 > [!IMPORTANT]  
 >  Changing a global dimension requires that the program makes changes to all the entries posted using that dimension. This can take some time. To avoid having to make such a change, you should choose your global dimensions carefully.  

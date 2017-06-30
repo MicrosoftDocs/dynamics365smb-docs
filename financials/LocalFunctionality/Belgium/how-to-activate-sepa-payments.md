@@ -60,7 +60,7 @@ To submit vendor payments electronically in Single Euro Payments Area \(SEPA\) I
 5.  Choose the **OK** button.  
   
 ## See Also  
- [SEPA Payments](../sepa-payments.md)   
- [How to: File SEPA Payments](../how-to-file-sepa-payments.md)   
- [How to: File Non-Euro SEPA Payments](../how-to-file-non-euro-sepa-payments.md)   
- [How to: Set Up Export Protocols](../how-to-set-up-export-protocols.md)
+ [SEPA Payments](sepa-payments.md)   
+ [How to: File SEPA Payments](how-to-file-sepa-payments.md)   
+ [How to: File Non-Euro SEPA Payments](how-to-file-non-euro-sepa-payments.md)   
+ [How to: Set Up Export Protocols](how-to-set-up-export-protocols.md)

@@ -18,7 +18,7 @@
 # VAT Recalculation
 When a customer makes payment in a foreign currency, VAT must be recalculated using the exchange rate at the time of the invoice payment.  
   
- A company creates an invoice in a foreign currency for the purchase of taxable goods and taxable services by a foreign customer. This invoice includes VAT. When the customer makes the payment at a later date, VAT is recalculated based on the original sales amount, and adjusted for the new currency rates.  
+ A company creates an invoice in a foreign currency for the purchase of taxable goods and taxable services by a foreign customer. This invoice ../../includes VAT. When the customer makes the payment at a later date, VAT is recalculated based on the original sales amount, and adjusted for the new currency rates.  
   
  The following steps show how to create a report for unrealized VAT amounts:  
   
@@ -28,10 +28,10 @@ When a customer makes payment in a foreign currency, VAT must be recalculated us
   
 -   Adjust journal entries for realization of VAT taxes payable to recognize exchange differences.  
   
--   Create a VAT statement that shows the unrealized VAT amounts. For more information, see [Create a VAT Statement](../how-to-define-vat-statements.md).  
+-   Create a VAT statement that shows the unrealized VAT amounts. For more information, see [Create a VAT Statement](how-to-define-vat-statements.md).  
   
 ## See Also  
- [How to: Define VAT Statements](../how-to-define-vat-statements.md)   
+ [How to: Define VAT Statements](how-to-define-vat-statements.md)   
  VAT Statement Line   
- [How to: Set Up Unrealized Sales Tax and Sales Payment Discounts](../how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)   
- [Mexico Local Functionality](../mexico-local-functionality.md)
+ [How to: Set Up Unrealized Sales Tax and Sales Payment Discounts](how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)   
+ [Mexico Local Functionality](mexico-local-functionality.md)

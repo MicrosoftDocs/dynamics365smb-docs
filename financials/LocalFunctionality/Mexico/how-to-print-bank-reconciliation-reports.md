@@ -56,8 +56,8 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can print the followin
 5.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [How to: Reconcile Bank Accounts by Using Bank Statements](../how-to-reconcile-bank-accounts-by-using-bank-statements.md)   
- [How to: Post a Bank Reconciliation](../how-to-post-a-bank-reconciliation.md)   
+ [How to: Reconcile Bank Accounts by Using Bank Statements](how-to-reconcile-bank-accounts-by-using-bank-statements.md)   
+ [How to: Post a Bank Reconciliation](how-to-post-a-bank-reconciliation.md)   
  Bank Rec. List   
  Bank Account Card   
  Bank Account   

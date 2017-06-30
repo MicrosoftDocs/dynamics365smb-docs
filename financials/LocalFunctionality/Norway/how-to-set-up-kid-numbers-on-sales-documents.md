@@ -31,11 +31,11 @@ Kunde ID \(KID\) is a customer identification number that provides a payment ref
     |**Customer No. length**|Enter the number of digits used for the customer number.|  
     |**Use KID on Fin. Charge Memo**|Select to print KID numbers on finance charge memos. **Note:**  If selected, then you must also select the **Document Type \+ Document No.** format in the **KID Setup** field.|  
     |**Use KID on Reminder**|Select to print KID numbers on reminders. **Note:**  If selected, then you must also select the **Document Type \+ Document No.** format in the **KID Setup** field.|  
-    |**Print Receipt on Giro**|Select to print the receipt section on sales invoices, credit memos, reminders, or finance charge memos.There are several layout options available when printing the receipt section on sales documents that contain a Giro. For more information, see [Norwegian Sales Documents](../norwegian-sales-documents.md)|  
+    |**Print Receipt on Giro**|Select to print the receipt section on sales invoices, credit memos, reminders, or finance charge memos.There are several layout options available when printing the receipt section on sales documents that contain a Giro. For more information, see [Norwegian Sales Documents](norwegian-sales-documents.md)|  
   
 3.  Choose the **OK** button.  
   
 ## See Also  
- [Electronic Banking in Norway](../electronic-banking-in-norway.md)   
- [\($ T\_311 Sales & Receivables Setup $\)](../\($%20T_311%20Sales%20&%20Receivables%20Setup%20$\).md)   
- [Norwegian Sales Documents](../norwegian-sales-documents.md)
+ [Electronic Banking in Norway](electronic-banking-in-norway.md)   
+ [\($ T\_311 Sales & Receivables Setup $\)](\($%20T_311%20Sales%20&%20Receivables%20Setup%20$\).md)   
+ [Norwegian Sales Documents](norwegian-sales-documents.md)

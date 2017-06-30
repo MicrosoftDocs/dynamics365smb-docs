@@ -35,5 +35,5 @@ The **Debit Amount** and **Credit Amount** fields are included in multiple journ
 3.  Choose the **OK** button.  
   
 ## See Also  
- [Italy Local Functionality](../italy-local-functionality.md)   
+ [Italy Local Functionality](italy-local-functionality.md)   
  Debit\/Credit

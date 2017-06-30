@@ -61,8 +61,8 @@ The **Tax Details** window contains a matrix table that uses different combinati
 ## See Also  
  Sales Tax Detail by Area   
  Sales Tax Detail List   
- [How to: Set Up Sales Tax](../how-to-set-up-sales-tax.md)   
- [How to: Set Up Sales Tax Groups](../how-to-set-up-sales-tax-groups.md)   
- [How to: Set Up Sales Tax Jurisdictions](../how-to-set-up-sales-tax-jurisdictions.md)   
- [How to: Set Up Unrealized Sales Tax and Sales Payment Discounts](../how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)   
- [How to: Set Up Use Tax and Purchase Tax](../how-to-set-up-use-tax-and-purchase-tax.md)
+ [How to: Set Up Sales Tax](how-to-set-up-sales-tax.md)   
+ [How to: Set Up Sales Tax Groups](how-to-set-up-sales-tax-groups.md)   
+ [How to: Set Up Sales Tax Jurisdictions](how-to-set-up-sales-tax-jurisdictions.md)   
+ [How to: Set Up Unrealized Sales Tax and Sales Payment Discounts](how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)   
+ [How to: Set Up Use Tax and Purchase Tax](how-to-set-up-use-tax-and-purchase-tax.md)

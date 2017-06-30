@@ -38,8 +38,8 @@ Tax differences are variations in tax amounts caused by the different rules for 
  The tax differences for the period are calculated. You can view the tax difference calculation entries by opening the **Tax Differences** window.  
   
 ## See Also  
- [Tax Accounting](../tax-accounting.md)   
+ [Tax Accounting](tax-accounting.md)   
  [Tax Reports](assetId:///e42ca8e7-1cee-4fb8-9f71-e596f29cabc3)   
- [Tax Registers](../tax-registers.md)   
- [How to: Create Tax Registers](../how-to-create-tax-registers.md)   
- [Tax Differences](../tax-differences.md)
+ [Tax Registers](tax-registers.md)   
+ [How to: Create Tax Registers](how-to-create-tax-registers.md)   
+ [Tax Differences](tax-differences.md)

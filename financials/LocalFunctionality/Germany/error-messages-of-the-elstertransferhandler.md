@@ -47,5 +47,5 @@ When [!INCLUDE[d365fin](../../includes/d365fin_md.md)] submits sales VAT advance
 |9000|An error occurred when the ELSTER portal was trying to read the configuration of the certificate. You must verify the content of the generated XML document.|  
   
 ## See Also  
- [ELSTER Transmission Overview](../elster-transmission-overview.md)   
- [How to: Set Up Sales VAT Advance Notifications for ELSTER](../how-to-set-up-sales-vat-advance-notifications-for-elster.md)
+ [ELSTER Transmission Overview](elster-transmission-overview.md)   
+ [How to: Set Up Sales VAT Advance Notifications for ELSTER](how-to-set-up-sales-vat-advance-notifications-for-elster.md)

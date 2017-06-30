@@ -34,7 +34,7 @@ The TORG-1 report is used for the registration of incoming goods. This report li
 3.  Choose the **OK** button.  
   
 ## See Also  
- [Inventory Setup](../inventory-setup.md)   
+ [Inventory Setup](inventory-setup.md)   
  Item Report TORG-29   
  Items Receipt Act TORG-1   
  Receipt Deviations TORG-2

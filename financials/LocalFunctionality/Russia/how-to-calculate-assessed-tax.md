@@ -77,7 +77,7 @@ The assessed tax feature enables you to calculate the assessed tax for fixed ass
   
 ## See Also  
  Fixed Asset Setup   
- [Fixed Assets Accounting Setup](../fixed-assets-accounting-setup.md)   
+ [Fixed Assets Accounting Setup](fixed-assets-accounting-setup.md)   
  Fixed Asset Card   
  Calculate Assessed Tax   
  Assessed Tax Code   

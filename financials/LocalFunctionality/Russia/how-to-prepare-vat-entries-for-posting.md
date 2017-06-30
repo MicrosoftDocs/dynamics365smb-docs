@@ -40,8 +40,8 @@ You may want to periodically remit the net VAT from sales and purchase transacti
   
 ## See Also  
  Calc. and Post VAT Settlement   
- [About Setting Up VAT](../about-setting-up-vat.md)   
- [How to: Set Up VAT Business Posting Groups](../how-to-set-up-vat-business-posting-groups.md)   
- [How to: Assign VAT Business Posting Groups to Customer Accounts and Vendor Accounts](../how-to-assign-vat-business-posting-groups-to-customer-accounts-and-vendor-accounts.md)   
- [How to: Correct VAT](../how-to-correct-vat.md)   
+ [About Setting Up VAT](about-setting-up-vat.md)   
+ [How to: Set Up VAT Business Posting Groups](how-to-set-up-vat-business-posting-groups.md)   
+ [How to: Assign VAT Business Posting Groups to Customer Accounts and Vendor Accounts](how-to-assign-vat-business-posting-groups-to-customer-accounts-and-vendor-accounts.md)   
+ [How to: Correct VAT](how-to-correct-vat.md)   
  VAT Entry

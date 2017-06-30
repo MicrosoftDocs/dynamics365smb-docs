@@ -35,10 +35,10 @@ You can create a new sales order or purchase order from an archived blanket orde
 6.  Choose the **OK** button.  
   
 ## See Also  
- [Enhanced Document Management](../enhanced-document-management.md)   
- [How to: Set Up Automatic Archiving of Documents](../how-to-set-up-automatic-archiving-of-documents.md)   
- [How to: Archive Blanket Orders](../how-to-archive-blanket-orders.md)   
- [How to: Delete Archived Blanket Orders](../how-to-delete-archived-blanket-orders.md)   
- [How to: Track Document Lines](../how-to-track-document-lines.md)   
+ [Enhanced Document Management](enhanced-document-management.md)   
+ [How to: Set Up Automatic Archiving of Documents](how-to-set-up-automatic-archiving-of-documents.md)   
+ [How to: Archive Blanket Orders](how-to-archive-blanket-orders.md)   
+ [How to: Delete Archived Blanket Orders](how-to-delete-archived-blanket-orders.md)   
+ [How to: Track Document Lines](how-to-track-document-lines.md)   
  Copy Sales Document   
- [Copy Purchase Document](../-$-b_492-copy-purchase-document-$.md)
+ [Copy Purchase Document](-$-b_492-copy-purchase-document-$.md)

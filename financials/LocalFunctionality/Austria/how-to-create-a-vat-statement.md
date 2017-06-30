@@ -19,7 +19,7 @@
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] allows you to submit a periodic report of VAT transactions. The VAT statement is submitted as a FDF file that corresponds with an editable PDF file from the tax authorities.  
   
 > [!IMPORTANT]  
->  You must fill in detailed information about your company address in the Company Information window before you create the VAT statement. This includes information about street, building, floor, and room number. This information is included in the FDF file.  
+>  You must fill in detailed information about your company address in the Company Information window before you create the VAT statement. This ../../includes information about street, building, floor, and room number. This information is included in the FDF file.  
   
 ### To create a VAT statement  
   
@@ -47,6 +47,6 @@
  If your VAT statement does not contain errors, you can now submit the FDF file to the tax authorities. For more information, see the [Finanz-Online portal](http://go.microsoft.com/fwlink/?LinkId=239929).  
   
 ## See Also  
- [VAT Reporting](../vat-reporting.md)   
+ [VAT Reporting](vat-reporting.md)   
  VAT Statement AT   
  Company Information

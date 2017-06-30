@@ -26,7 +26,7 @@ When a user submits a sales VAT advance notification from [!INCLUDE[d365fin](../
   
 3.  The complete document is handed over to Microsoft.Dynamics.ElsterTransferHandler. The assembly further processes the data \(encryption, compression, signature\) and sends it to one of the servers of the OFD.  
   
-     You can specify the servers of the OFD in the **Electronic VAT Decl. Setup** window. For more information, see [How to: Set Up Sales VAT Advance Notifications for ELSTER](../how-to-set-up-sales-vat-advance-notifications-for-elster.md)  
+     You can specify the servers of the OFD in the **Electronic VAT Decl. Setup** window. For more information, see [How to: Set Up Sales VAT Advance Notifications for ELSTER](how-to-set-up-sales-vat-advance-notifications-for-elster.md)  
   
 4.  The data is received and processed by the server of the OFD and a response document is sent back.  
   
@@ -55,8 +55,8 @@ When a user submits a sales VAT advance notification from [!INCLUDE[d365fin](../
  The identity of the sender is determined by mapping the certificate to a registered user. It is checked if the certificate is valid, if it is locked or if other conspicuities have been noticed.  
   
 ## See Also  
- [Error Messages of the ElsterTransferHandler](../error-messages-of-the-elstertransferhandler.md)   
- [Electronic Submission of Sales VAT Advance Notifications to ELSTER](../electronic-submission-of-sales-vat-advance-notifications-to-elster.md)   
- [How to: Set Up Sales VAT Advance Notifications for ELSTER](../how-to-set-up-sales-vat-advance-notifications-for-elster.md)   
+ [Error Messages of the ElsterTransferHandler](error-messages-of-the-elstertransferhandler.md)   
+ [Electronic Submission of Sales VAT Advance Notifications to ELSTER](electronic-submission-of-sales-vat-advance-notifications-to-elster.md)   
+ [How to: Set Up Sales VAT Advance Notifications for ELSTER](how-to-set-up-sales-vat-advance-notifications-for-elster.md)   
  Sales VAT Adv. Notif. Card   
  VAT Transmission Log Entries

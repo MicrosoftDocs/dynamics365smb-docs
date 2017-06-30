@@ -55,8 +55,8 @@ Alternate depreciation methods include the following:
 6.  Choose the **OK** button.  
   
 ## See Also  
- [How to: Set Up User-Defined Depreciation Methods](../how-to-set-up-user-defined-depreciation-methods.md)   
- [Italian Fixed Assets](../italian-fixed-assets.md)   
- [How to: Create Multiple Fixed Asset Cards](../how-to-create-multiple-fixed-asset-cards.md)   
- [How to: Set Up Compressed Depreciation of Fixed Assets](../how-to-set-up-compressed-depreciation-of-fixed-assets.md)   
- [How to: Print Depreciation Book Reports](../how-to-print-depreciation-book-reports.md)
+ [How to: Set Up User-Defined Depreciation Methods](how-to-set-up-user-defined-depreciation-methods.md)   
+ [Italian Fixed Assets](italian-fixed-assets.md)   
+ [How to: Create Multiple Fixed Asset Cards](how-to-create-multiple-fixed-asset-cards.md)   
+ [How to: Set Up Compressed Depreciation of Fixed Assets](how-to-set-up-compressed-depreciation-of-fixed-assets.md)   
+ [How to: Print Depreciation Book Reports](how-to-print-depreciation-book-reports.md)

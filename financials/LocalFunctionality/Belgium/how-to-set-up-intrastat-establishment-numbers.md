@@ -27,8 +27,8 @@ The Intrastat establishment number is a company identification number that is pr
 3.  Choose the **OK** button.  
   
 ## See Also  
- [Belgian Intrastat Reporting](../belgian-intrastat-reporting.md)   
- [How to: Set Up Declaration Types](../how-to-set-up-declaration-types.md)   
- [How to: Set Up Belgian Tariff Numbers](../how-to-set-up-belgian-tariff-numbers.md)   
- [How to: Export Intrastat Third-Party Declararations](../how-to-export-intrastat-third-party-declararations.md)   
- [How to: Print the Intrastat Form Report](../how-to-print-the-intrastat-form-report.md)
+ [Belgian Intrastat Reporting](belgian-intrastat-reporting.md)   
+ [How to: Set Up Declaration Types](how-to-set-up-declaration-types.md)   
+ [How to: Set Up Belgian Tariff Numbers](how-to-set-up-belgian-tariff-numbers.md)   
+ [How to: Export Intrastat Third-Party Declararations](how-to-export-intrastat-third-party-declararations.md)   
+ [How to: Print the Intrastat Form Report](how-to-print-the-intrastat-form-report.md)

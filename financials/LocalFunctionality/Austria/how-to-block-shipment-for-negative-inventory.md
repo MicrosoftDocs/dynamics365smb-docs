@@ -29,6 +29,6 @@ You can block outbound shipment for an item when a transaction results in a nega
 3.  Choose the **OK** button.  
   
 ## See Also  
- [\($ T\_311 Sales & Receivables Setup $\)](../\($%20T_311%20Sales%20&%20Receivables%20Setup%20$\).md)   
+ [\($ T\_311 Sales & Receivables Setup $\)](\($%20T_311%20Sales%20&%20Receivables%20Setup%20$\).md)   
  Sales Shipment Line   
  Calculate Inventory

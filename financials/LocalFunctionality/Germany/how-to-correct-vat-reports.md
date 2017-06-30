@@ -45,7 +45,7 @@ If you have to submit a corrective VAT report or delete a submitted VAT report, 
   
 ### To correct a VAT report  
   
-1.  Create a new VAT report. For more information, see [How to: Create VAT Reports](../how-to-create-vat-reports.md).  
+1.  Create a new VAT report. For more information, see [How to: Create VAT Reports](how-to-create-vat-reports.md).  
   
 2.  Fill in the fields in the **General** FastTab, and set the **VAT Report Type** field to Corrective.  
   
@@ -62,4 +62,4 @@ If you have to submit a corrective VAT report or delete a submitted VAT report, 
 6.  Continue with the VAT report creation process, and release the report.  
   
 ## See Also  
- [How to: Set Up VAT Reports](../how-to-set-up-vat-reports.md)
+ [How to: Set Up VAT Reports](how-to-set-up-vat-reports.md)

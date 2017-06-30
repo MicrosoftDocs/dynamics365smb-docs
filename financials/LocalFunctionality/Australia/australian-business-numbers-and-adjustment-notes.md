@@ -21,7 +21,7 @@ An Australian Business Number \(ABN\) is a single identifier for all business de
  ABNs and adjustment notes—or credit memos—are used to satisfy tax requirements.  
   
 ## ABN  
- All companies must register and apply for an ABN to report the details of payment summaries issued to their payees during the financial year. The payment summary includes the Tax File Numbers \(TFN\) or business numbers of the payees.  
+ All companies must register and apply for an ABN to report the details of payment summaries issued to their payees during the financial year. The payment summary ../../includes the Tax File Numbers \(TFN\) or business numbers of the payees.  
   
 ## Adjustment Notes  
  Adjustment notes are issued by suppliers to a business when the amount of consideration for taxable supplies changes. The recipient needs an adjustment note to claim more or less GST credits than previously claimed.  
@@ -49,5 +49,5 @@ An Australian Business Number \(ABN\) is a single identifier for all business de
 -   **Adjustment** and **BAS Adjustment**: These entries populate automatically. Some credit memos are Business Activity Statement \(BAS\) adjustments. Adjustment notes can only be applied against a single document.  
   
 ## See Also  
- [How to: Enter Australian Business Numbers](../how-to-enter-australian-business-numbers.md)   
- [Australia Local Functionality](../australia-local-functionality.md)
+ [How to: Enter Australian Business Numbers](how-to-enter-australian-business-numbers.md)   
+ [Australia Local Functionality](australia-local-functionality.md)

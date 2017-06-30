@@ -28,7 +28,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can electronically sub
 ## Architectural Overview  
  ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/elster-transmission-overview.md).  
   
- The ELSTER portal has requirements for computers that will submit documents. This includes a software certificate that you must acquire for each user who will submit documents to ELSTER. You must verify your installation against the information that is available on [ELSTER online portal](http://go.microsoft.com/fwlink/?LinkId=155998). The following section describes installation considerations for your [!INCLUDE[d365fin](../../includes/d365fin_md.md)] implementation.  
+ The ELSTER portal has requirements for computers that will submit documents. This ../../includes a software certificate that you must acquire for each user who will submit documents to ELSTER. You must verify your installation against the information that is available on [ELSTER online portal](http://go.microsoft.com/fwlink/?LinkId=155998). The following section describes installation considerations for your [!INCLUDE[d365fin](../../includes/d365fin_md.md)] implementation.  
   
 ### Installation Considerations  
  The Microsoft.Dynamics.ElsterTransferHandler.dll assembly installs as part of the installation of the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/nav_windows_md.md)]-->.  
@@ -46,7 +46,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can electronically sub
   
  If you use a proxy server to submit the ELSTER documents, you must specify the settings in the **Electronic VAT Decl. Setup** window.  
   
- For more information, see [How to: Set Up Sales VAT Advance Notifications for ELSTER](../how-to-set-up-sales-vat-advance-notifications-for-elster.md).  
+ For more information, see [How to: Set Up Sales VAT Advance Notifications for ELSTER](how-to-set-up-sales-vat-advance-notifications-for-elster.md).  
   
 ### Certificates and Style Sheets  
  Your company must register at the ELSTER online portal so that you can acquire the necessary certificates. If you have already registered, you do not have to register again.  
@@ -60,7 +60,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can electronically sub
   
  The personal .pfx certificate is required to clearly identify the user who submits the documents to the tax authorities. The personal certificate contains a digital signature that is included in the transmitted XML files. The name of the user who submitted the files is also included.  
   
- You must also download all relevant style sheets that the tax authorities make available. This includes the ustva.xsl style sheet that you must specify in the **Sales VAT Adv. Notif. Card** window, but the tax authorities may require additional style sheets that must be located in the same folder as the ustva.xsl style sheet.  
+ You must also download all relevant style sheets that the tax authorities make available. This ../../includes the ustva.xsl style sheet that you must specify in the **Sales VAT Adv. Notif. Card** window, but the tax authorities may require additional style sheets that must be located in the same folder as the ustva.xsl style sheet.  
   
  For more information, see the [ELSTER online portal](http://go.microsoft.com/fwlink/?LinkId=155998)  
   
@@ -70,8 +70,8 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can electronically sub
  After you have submitted a document to ELSTER, an entry is made in the **VAT Transmission Log Entries** window. When the ELSTER online portal processed the submitted document, errors can occur, and ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/elster-transmission-overview.md).  
   
 ## See Also  
- [How to: Set Up Sales VAT Advance Notifications for ELSTER](../how-to-set-up-sales-vat-advance-notifications-for-elster.md)   
- [How to: Create and Submit Sales VAT Advance Notifications](../how-to-create-and-submit-sales-vat-advance-notifications.md)   
+ [How to: Set Up Sales VAT Advance Notifications for ELSTER](how-to-set-up-sales-vat-advance-notifications-for-elster.md)   
+ [How to: Create and Submit Sales VAT Advance Notifications](how-to-create-and-submit-sales-vat-advance-notifications.md)   
  [ELSTER online portal](http://go.microsoft.com/fwlink/?LinkId=155998)   
  Sales VAT Adv. Notif. Card   
  Certificates   

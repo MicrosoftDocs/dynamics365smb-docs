@@ -72,5 +72,5 @@ To evaluate profit and loss, a fiscal year closing report is provided at the end
      An entry is posted to each income statement account so that it has a zero balance. The year-end result is transferred to the balance sheet.  
   
 ## See Also  
- [About Year-End Processes](../about-year-end-processes.md)   
- [Italy Local Functionality](../italy-local-functionality.md)
+ [About Year-End Processes](about-year-end-processes.md)   
+ [Italy Local Functionality](italy-local-functionality.md)

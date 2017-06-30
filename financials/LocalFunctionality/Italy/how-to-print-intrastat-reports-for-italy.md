@@ -62,4 +62,4 @@ You can print monthly and quarterly Intrastat reports and submit them to the aut
 ## See Also  
  Intrastat - Checklist   
  Intrastat - Form   
- [How to: Set Up Journal Templates and Batches](../how-to-set-up-journal-templates-and-batches.md)
+ [How to: Set Up Journal Templates and Batches](how-to-set-up-journal-templates-and-batches.md)

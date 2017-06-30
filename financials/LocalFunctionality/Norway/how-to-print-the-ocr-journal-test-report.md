@@ -32,8 +32,8 @@ You can print the **\($ R\_15000100 OCR Journal – Test $\)** report to test th
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [Electronic Banking in Norway](../electronic-banking-in-norway.md)   
- [How to: Set Up KID Numbers on Sales Documents](../how-to-set-up-kid-numbers-on-sales-documents.md)   
- [How to: Set Up OCR Payments](../how-to-set-up-ocr-payments.md)   
- [How to: Import and Post OCR Payments](../how-to-import-and-post-ocr-payments.md)   
- [Work with General Journals](../work-with-general-journals.md)
+ [Electronic Banking in Norway](electronic-banking-in-norway.md)   
+ [How to: Set Up KID Numbers on Sales Documents](how-to-set-up-kid-numbers-on-sales-documents.md)   
+ [How to: Set Up OCR Payments](how-to-set-up-ocr-payments.md)   
+ [How to: Import and Post OCR Payments](how-to-import-and-post-ocr-payments.md)   
+ [Work with General Journals](work-with-general-journals.md)

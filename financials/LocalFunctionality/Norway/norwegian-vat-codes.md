@@ -34,7 +34,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], VAT processing information
  If you want to use only the **VAT Code** field when you specify the VAT handling process, you can assign a VAT code in the **VAT Posting Setup** table, and use this code instead of the posting group fields. The VAT code can be used as a shortcut in the **VAT Posting Setup** table and at the same time, you can use standard Norwegian VAT codes.  
   
 ## Set Up of Norwegian VAT Codes  
- You must create the Norwegian VAT codes in the **VAT Codes** window. Then assign the VAT codes in the **VAT Posting Setup** table, using the **VAT Code** field. For more information, see [How to: Use One VAT Code in Journals](../how-to-use-one-vat-code-in-journals.md).  
+ You must create the Norwegian VAT codes in the **VAT Codes** window. Then assign the VAT codes in the **VAT Posting Setup** table, using the **VAT Code** field. For more information, see [How to: Use One VAT Code in Journals](how-to-use-one-vat-code-in-journals.md).  
   
 ## Use of VAT Codes  
  When you specify a VAT code, you can select the VAT posting setup information for this code. This information will be used in journals or on document lines when you specify the VAT setup information. If you use the VAT code in these cases, the posting group fields are used with the information from the corresponding VAT posting setup information.  
@@ -81,4 +81,4 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], VAT processing information
 |**Same**|The general posting type is automatically set to **Sale** on journal lines. Before you post, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] verifies if the general posting type is set to **Sale**.<br /><br /> **VAT Code 3** can be used for sales documents, but not on purchase documents.<br /><br /> This enables you to restrict the use of VAT codes to predefined general posting types.|  
   
 ## See Also  
- [Norwegian VAT Reporting](../norwegian-vat-reporting.md)
+ [Norwegian VAT Reporting](norwegian-vat-reporting.md)

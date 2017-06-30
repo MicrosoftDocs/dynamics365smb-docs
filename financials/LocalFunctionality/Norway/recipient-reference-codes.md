@@ -37,4 +37,4 @@ The recipient reference code determines the message that is sent to the recipien
 |**%11**|The Kunde ID number from the vendor ledger entry.|  
   
 ## See Also  
- [How to: Set Up Vendors for Remittance](../how-to-set-up-vendors-for-remittance.md)
+ [How to: Set Up Vendors for Remittance](how-to-set-up-vendors-for-remittance.md)

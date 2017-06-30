@@ -39,5 +39,5 @@ You can enter an Australian Business Number \(ABN\) in the following windows:
 6.  Choose the **OK** button.  
   
 ## See Also  
- [Australian Business Numbers and Adjustment Notes](../australian-business-numbers-and-adjustment-notes.md)   
- [Australia Local Functionality](../australia-local-functionality.md)
+ [Australian Business Numbers and Adjustment Notes](australian-business-numbers-and-adjustment-notes.md)   
+ [Australia Local Functionality](australia-local-functionality.md)

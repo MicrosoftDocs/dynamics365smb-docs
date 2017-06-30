@@ -59,5 +59,5 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can consolidate the fi
   
 ## See Also  
  General Ledger Setup   
- [Business Activity Statements](../business-activity-statements.md)   
- [How to: Set Up Business Activity Statements](../how-to-set-up-business-activity-statements.md)
+ [Business Activity Statements](business-activity-statements.md)   
+ [How to: Set Up Business Activity Statements](how-to-set-up-business-activity-statements.md)

@@ -42,7 +42,7 @@ You can export data from [!INCLUDE[d365fin](../../includes/d365fin_md.md)] accor
 > [!NOTE]  
 >  How to set up the GDPdU data exports depends on your company’s needs and the auditor’s requests.  
   
- For an example of how to set up data exports for GDPdU, see [Walkthrough: Exporting GDPdU Data](../walkthrough-exporting-gdpdu-data.md).  
+ For an example of how to set up data exports for GDPdU, see [Walkthrough: Exporting GDPdU Data](walkthrough-exporting-gdpdu-data.md).  
   
 #### Data Export Filters  
  When you set up a data export, you can filter data on different levels as described in the following table.  
@@ -59,7 +59,7 @@ You can export data from [!INCLUDE[d365fin](../../includes/d365fin_md.md)] accor
  If you want to export large sets of data, it can take a very long time. We recommend that you set up data exports based on advice from your tax advisor to establish your business needs, and the requirements of the tax auditor. The number of records in a table is also something that you should consider.  
   
 ## See Also  
- [How to: Set Up Data Exports for GDPdU](../how-to-set-up-data-exports-for-gdpdu.md)   
- [How to: Export GDPdU Data](../how-to-export-gdpdu-data.md)   
- [Walkthrough: Exporting GDPdU Data](../walkthrough-exporting-gdpdu-data.md)   
- [Germany Local Functionality](../germany-local-functionality.md)
+ [How to: Set Up Data Exports for GDPdU](how-to-set-up-data-exports-for-gdpdu.md)   
+ [How to: Export GDPdU Data](how-to-export-gdpdu-data.md)   
+ [Walkthrough: Exporting GDPdU Data](walkthrough-exporting-gdpdu-data.md)   
+ [Germany Local Functionality](germany-local-functionality.md)

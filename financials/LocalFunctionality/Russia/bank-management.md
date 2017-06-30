@@ -48,4 +48,4 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can create bank direct
  Bank Account G-L Turnover   
  Bank Account Card   
  Bank Directory   
- [How to: Set Up a Bank Payment Order](../how-to-set-up-a-bank-payment-order.md)
+ [How to: Set Up a Bank Payment Order](how-to-set-up-a-bank-payment-order.md)

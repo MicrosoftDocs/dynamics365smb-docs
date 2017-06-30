@@ -83,4 +83,4 @@ The following topic provides examples of how you can use and combine different f
 -   Customers that have Net Change \(LCY\) \<\> 0 on the day before the start date.  
   
 ## See Also  
- [How to: Set Up Data Exports for GDPdU](../how-to-set-up-data-exports-for-gdpdu.md)
+ [How to: Set Up Data Exports for GDPdU](how-to-set-up-data-exports-for-gdpdu.md)

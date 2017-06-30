@@ -34,4 +34,4 @@ Invoices must specify a VAT entry type code. The VAT entry type codes are based 
     |**Comment**|Specify a comment, such as a description of when the code must be used.<br /><br /> The maximum length of the comment is 250 characters.|  
   
 ## See Also  
- [VAT](../vat.md)
+ [VAT](vat.md)

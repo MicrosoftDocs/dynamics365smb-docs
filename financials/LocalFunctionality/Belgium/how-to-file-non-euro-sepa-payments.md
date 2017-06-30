@@ -48,6 +48,6 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can file non-euro SEPA
 ## See Also  
  File Non Euro SEPA Payments   
  File SEPA Payments   
- [How to: File SEPA Payments](../how-to-file-sepa-payments.md)   
- [How to: Activate SEPA Payments](../how-to-activate-sepa-payments.md)   
- [SEPA Payments](../sepa-payments.md)
+ [How to: File SEPA Payments](how-to-file-sepa-payments.md)   
+ [How to: Activate SEPA Payments](how-to-activate-sepa-payments.md)   
+ [SEPA Payments](sepa-payments.md)

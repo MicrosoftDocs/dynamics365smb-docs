@@ -33,8 +33,8 @@
 ## See Also  
  Account Schedule Names   
  Account Schedule   
- [Account Schedule](../\($%20R_25%20Account%20Schedule%20$\).md)   
- [How to: Create New Account Schedules](../how-to-create-new-account-schedules.md)   
- [Create and Set Up Account Schedules](../create-and-set-up-account-schedules.md)   
- [Account Schedules Overview](../account-schedules-overview.md)   
- [How to: Define an Account Schedule Constant](../how-to-define-an-account-schedule-constant.md)
+ [Account Schedule](\($%20R_25%20Account%20Schedule%20$\).md)   
+ [How to: Create New Account Schedules](how-to-create-new-account-schedules.md)   
+ [Create and Set Up Account Schedules](create-and-set-up-account-schedules.md)   
+ [Account Schedules Overview](account-schedules-overview.md)   
+ [How to: Define an Account Schedule Constant](how-to-define-an-account-schedule-constant.md)

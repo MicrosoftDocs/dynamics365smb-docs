@@ -102,7 +102,7 @@ You must submit periodic reports to the tax authorities to list all transactions
  You have set up information so that ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-create-electronic-vat-transactions-reports.md).  
   
 ## See Also  
- [How to: Update VAT Transactions Data](../how-to-update-vat-transactions-data.md)   
- [How to: Create Electronic VAT Transactions Reports](../how-to-create-electronic-vat-transactions-reports.md)   
- [Italian VAT](../italian-vat.md)   
+ [How to: Update VAT Transactions Data](how-to-update-vat-transactions-data.md)   
+ [How to: Create Electronic VAT Transactions Reports](how-to-create-electronic-vat-transactions-reports.md)   
+ [Italian VAT](italian-vat.md)   
  VAT Report Setup

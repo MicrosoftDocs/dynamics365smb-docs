@@ -87,5 +87,5 @@ The VAT reporting feature enables you to print VAT transaction details. You must
      For more information, see the VAT VIES Correction table.  
   
 ## See Also  
- [Belgian VAT](../belgian-vat.md)   
- [How to: Set Up Non-Deductible VAT](../how-to-set-up-non-deductible-vat.md)
+ [Belgian VAT](belgian-vat.md)   
+ [How to: Set Up Non-Deductible VAT](how-to-set-up-non-deductible-vat.md)

@@ -39,7 +39,7 @@ The Canada Revenue Agency uses General Index of Financial Information \(GIFI\) c
  GIFI Code   
  Account Balances by GIFI Code   
  Export GIFI Info. to Excel   
- [GIFI Codes](../gifi-codes.md)   
- [How to: View Account Balances by Using the GIFI Code Report](../how-to-view-account-balances-by-using-the-gifi-code-report.md)   
- [How to: Export Balance Information by Using GIFI Codes](../how-to-export-balance-information-by-using-gifi-codes.md)   
- [How to: Associate GIFI Codes with Chart of Accounts](../how-to-associate-gifi-codes-with-chart-of-accounts.md)
+ [GIFI Codes](gifi-codes.md)   
+ [How to: View Account Balances by Using the GIFI Code Report](how-to-view-account-balances-by-using-the-gifi-code-report.md)   
+ [How to: Export Balance Information by Using GIFI Codes](how-to-export-balance-information-by-using-gifi-codes.md)   
+ [How to: Associate GIFI Codes with Chart of Accounts](how-to-associate-gifi-codes-with-chart-of-accounts.md)

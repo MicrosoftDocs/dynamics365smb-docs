@@ -73,7 +73,7 @@ To depreciate a future expense, you have to set up future period expenses in a d
   
 ## See Also  
  Fixed Asset Setup   
- [Fixed Assets Accounting Setup](../fixed-assets-accounting-setup.md)   
+ [Fixed Assets Accounting Setup](fixed-assets-accounting-setup.md)   
  Fixed Asset Card   
- [Future Expenses \(Deferrals\)](../future-expenses-deferrals-.md)   
- [How to: Create Future Expense Journals](../how-to-create-future-expense-journals.md)
+ [Future Expenses \(Deferrals\)](future-expenses-deferrals-.md)   
+ [How to: Create Future Expense Journals](how-to-create-future-expense-journals.md)

@@ -26,7 +26,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], finance charge terms can i
  After you run the report, if a customer owes interest on arrears, the information about the amount of interest on arrears to pay is added to the customer statement.  
   
 ## See Also  
- [How to: Set Up Interest on Arrears](../how-to-set-up-interest-on-arrears.md)   
+ [How to: Set Up Interest on Arrears](how-to-set-up-interest-on-arrears.md)   
  Finance Charge Terms   
  Finance Charge Terms   
- [Italy Local Functionality](../italy-local-functionality.md)
+ [Italy Local Functionality](italy-local-functionality.md)

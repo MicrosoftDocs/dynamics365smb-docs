@@ -16,7 +16,7 @@
 
 ---
 # How to: Set Up Use Tax and Purchase Tax
-Sales tax includes taxes that companies pay for using items:  
+Sales tax ../../includes taxes that companies pay for using items:  
   
 -   Use tax \(United States\) – Use tax is a United States sales tax that is paid on items that are purchased by a company and are used by that company instead of being sold to a customer. The company must pay sales tax for those items to the government, in the form of use tax.  
   
@@ -40,10 +40,10 @@ Sales tax includes taxes that companies pay for using items:
   
     |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
-    |**Tax Liable**|Select to set up tax liability. **Important:**  This field is available in the **Purchase Header** window, but it is not shown by default. To select the field, you must first add the column that shows this field. [!INCLUDE[bp_customize](includes/bp_customize_md.md)]|  
-    |**Tax Area Code**|The tax area code of the vendor. **Important:**  This field is available in the **Purchase Header** window, but it is not shown by default. To select the field, you must first add the column that shows this field. [!INCLUDE[bp_customize](includes/bp_customize_md.md)]|  
-    |**Tax Exemption No.**|The company's tax exemption number. You can enter a maximum of 30 alphanumeric characters. **Important:**  This field is available in the **Purchase Header** window, but it is not shown by default. To select the field, you must first add the column that shows this field. [!INCLUDE[bp_customize](includes/bp_customize_md.md)]|  
-    |**Provincial Tax Area Code**|The tax code for the province. **Important:**  This field is available in the **Purchase Header** window, but it is not shown by default. To select the field, you must first add the column that shows this field. [!INCLUDE[bp_customize](includes/bp_customize_md.md)]|  
+    |**Tax Liable**|Select to set up tax liability. **Important:**  This field is available in the **Purchase Header** window, but it is not shown by default. To select the field, you must first add the column that shows this field. [!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]|  
+    |**Tax Area Code**|The tax area code of the vendor. **Important:**  This field is available in the **Purchase Header** window, but it is not shown by default. To select the field, you must first add the column that shows this field. [!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]|  
+    |**Tax Exemption No.**|The company's tax exemption number. You can enter a maximum of 30 alphanumeric characters. **Important:**  This field is available in the **Purchase Header** window, but it is not shown by default. To select the field, you must first add the column that shows this field. [!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]|  
+    |**Provincial Tax Area Code**|The tax code for the province. **Important:**  This field is available in the **Purchase Header** window, but it is not shown by default. To select the field, you must first add the column that shows this field. [!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]|  
   
 5.  Choose the **OK** button.  
   
@@ -108,10 +108,10 @@ Sales tax includes taxes that companies pay for using items:
 4.  Choose the **OK** button.  
   
 ## See Also  
- [How to: Set Up Sales Tax](../how-to-set-up-sales-tax.md)   
- [How to: Set Up Sales Tax Groups](../how-to-set-up-sales-tax-groups.md)   
- [How to: Set Up Sales Tax Jurisdictions](../how-to-set-up-sales-tax-jurisdictions.md)   
- [How to: Set Up Unrealized Sales Tax and Sales Payment Discounts](../how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)   
- [How to: Set Up Sales Tax Details](../how-to-set-up-sales-tax-details.md)   
- [How to: Enter Company Information](../how-to-enter-company-information.md)   
- [How to: Set Up Locations](../how-to-set-up-locations.md)
+ [How to: Set Up Sales Tax](how-to-set-up-sales-tax.md)   
+ [How to: Set Up Sales Tax Groups](how-to-set-up-sales-tax-groups.md)   
+ [How to: Set Up Sales Tax Jurisdictions](how-to-set-up-sales-tax-jurisdictions.md)   
+ [How to: Set Up Unrealized Sales Tax and Sales Payment Discounts](how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)   
+ [How to: Set Up Sales Tax Details](how-to-set-up-sales-tax-details.md)   
+ [How to: Enter Company Information](how-to-enter-company-information.md)   
+ [How to: Set Up Locations](how-to-set-up-locations.md)

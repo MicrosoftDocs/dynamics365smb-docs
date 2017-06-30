@@ -138,4 +138,4 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can create additional 
 5.  In the additional sheet, the **Date of Facture** field reflects the corrected document date.  
   
 ## See Also  
- [VAT Ledgers](../vat-ledgers.md)
+ [VAT Ledgers](vat-ledgers.md)

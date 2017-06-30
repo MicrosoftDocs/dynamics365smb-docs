@@ -37,4 +37,4 @@ Use the following procedure to enter custom declaration information.
   
 ## See Also  
  Custom Declarations   
- [How to: Print the Factura-Invoice](../how-to-print-the-factura-invoice.md)
+ [How to: Print the Factura-Invoice](how-to-print-the-factura-invoice.md)

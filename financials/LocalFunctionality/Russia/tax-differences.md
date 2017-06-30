@@ -34,8 +34,8 @@ Tax differences are variations in tax amounts caused by the different rules for 
 |Tax Diff. Journal Line|Specifies posted tax difference journal entries.|  
   
 ## See Also  
- [Setting up Tax Difference Calculation](../setting-up-tax-difference-calculation.md)   
- [Tax Difference Registers](../tax-difference-registers.md)   
+ [Setting up Tax Difference Calculation](setting-up-tax-difference-calculation.md)   
+ [Tax Difference Registers](tax-difference-registers.md)   
  [Tax Reports](assetId:///e42ca8e7-1cee-4fb8-9f71-e596f29cabc3)   
- [Tax Accounting](../tax-accounting.md)   
- [Tax Registers](../tax-registers.md)
+ [Tax Accounting](tax-accounting.md)   
+ [Tax Registers](tax-registers.md)

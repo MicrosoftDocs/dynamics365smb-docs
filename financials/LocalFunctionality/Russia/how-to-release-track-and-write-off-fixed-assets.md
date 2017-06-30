@@ -140,7 +140,7 @@ You can manage your fixed assets utilizing the fixed assets acts features in [!I
 4.  Choose the **OK** button  to post your entries and record the write-off of the fixed asset.  
   
 ## See Also  
- [How to: Create Fixed Assets](../how-to-create-fixed-assets.md)   
+ [How to: Create Fixed Assets](how-to-create-fixed-assets.md)   
  Fixed Asset Card   
  Fixed Asset List   
  FA Depreciation Book

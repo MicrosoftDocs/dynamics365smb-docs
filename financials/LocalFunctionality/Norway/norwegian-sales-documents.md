@@ -49,5 +49,5 @@
 -   **\($ R\_10607 Finance Charge Memo 2 $\)**  
   
 ## See Also  
- [Norwegian Giro and OCR-B Font](../norwegian-giro-and-ocr-b-font.md)   
- [Paper Sources and Tray Numbers](../paper-sources-and-tray-numbers.md)
+ [Norwegian Giro and OCR-B Font](norwegian-giro-and-ocr-b-font.md)   
+ [Paper Sources and Tray Numbers](paper-sources-and-tray-numbers.md)

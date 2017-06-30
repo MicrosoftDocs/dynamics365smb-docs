@@ -22,6 +22,6 @@ The Single Euro Payments Area \(SEPA\) unifies payment methods in participating 
  [Febelfin website](http://go.microsoft.com/fwlink/?LinkId=275119)   
  [ISO 20022 website](http://go.microsoft.com/fwlink/?LinkId=275120)   
  File SEPA Payments   
- [How to: Activate SEPA Payments](../how-to-activate-sepa-payments.md)   
- [How to: File SEPA Payments](../how-to-file-sepa-payments.md)   
- [How to: File Non-Euro SEPA Payments](../how-to-file-non-euro-sepa-payments.md)
+ [How to: Activate SEPA Payments](how-to-activate-sepa-payments.md)   
+ [How to: File SEPA Payments](how-to-file-sepa-payments.md)   
+ [How to: File Non-Euro SEPA Payments](how-to-file-non-euro-sepa-payments.md)

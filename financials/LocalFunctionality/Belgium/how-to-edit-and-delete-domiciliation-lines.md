@@ -41,9 +41,9 @@ After you have generated domiciliation suggestions, you may want to change the d
 4.  Choose the **Yes** button.  
   
 ## See Also  
- [Direct Debit Using Domiciliation](../direct-debit-using-domiciliation.md)   
- [How to: Set Up Domiciliations](../how-to-set-up-domiciliations.md)   
- [How to: Generate Domiciliation Suggestions](../how-to-generate-domiciliation-suggestions.md)   
- [How to: Test Domiciliations](../how-to-test-domiciliations.md)   
- [How to: Edit and Delete Domiciliation Lines](../how-to-edit-and-delete-domiciliation-lines.md)   
- [How to: Export and Post Domiciliations](../how-to-export-and-post-domiciliations.md)
+ [Direct Debit Using Domiciliation](direct-debit-using-domiciliation.md)   
+ [How to: Set Up Domiciliations](how-to-set-up-domiciliations.md)   
+ [How to: Generate Domiciliation Suggestions](how-to-generate-domiciliation-suggestions.md)   
+ [How to: Test Domiciliations](how-to-test-domiciliations.md)   
+ [How to: Edit and Delete Domiciliation Lines](how-to-edit-and-delete-domiciliation-lines.md)   
+ [How to: Export and Post Domiciliations](how-to-export-and-post-domiciliations.md)

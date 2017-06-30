@@ -31,12 +31,12 @@ You can set up each vendor so that unpaid invoices from that vendor are automati
 4.  Choose the **OK** button.  
   
 ## See Also  
- [Belgian Electronic Banking](../belgian-electronic-banking.md)   
- [Belgian Electronic Payments](../belgian-electronic-payments.md)   
- [How to: Set Up Electronic Banking](../how-to-set-up-electronic-banking.md)   
- [How to: Set Up IBLC-BLWI Transaction Codes](../how-to-set-up-iblc-blwi-transaction-codes.md)   
- [How to: Generate Payment Suggestions](../how-to-generate-payment-suggestions.md)   
- [How to: Create Payment Journal Templates and Batches](../how-to-create-payment-journal-templates-and-batches.md)   
- [How to: Test Electronic Payments](../how-to-test-electronic-payments.md)   
- [How to: Manage Electronic Payment Lines](../how-to-manage-electronic-payment-lines.md)   
- [How to: Print Payment Files](../how-to-print-payment-files.md)
+ [Belgian Electronic Banking](belgian-electronic-banking.md)   
+ [Belgian Electronic Payments](belgian-electronic-payments.md)   
+ [How to: Set Up Electronic Banking](how-to-set-up-electronic-banking.md)   
+ [How to: Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md)   
+ [How to: Generate Payment Suggestions](how-to-generate-payment-suggestions.md)   
+ [How to: Create Payment Journal Templates and Batches](how-to-create-payment-journal-templates-and-batches.md)   
+ [How to: Test Electronic Payments](how-to-test-electronic-payments.md)   
+ [How to: Manage Electronic Payment Lines](how-to-manage-electronic-payment-lines.md)   
+ [How to: Print Payment Files](how-to-print-payment-files.md)

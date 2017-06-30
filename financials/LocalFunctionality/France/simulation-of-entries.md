@@ -16,7 +16,7 @@
 
 ---
 # Simulation of Entries
-[!INCLUDE[emptyBookNodeText](includes/emptybooknodetext_md.md)]
+[!INCLUDE[emptyBookNodeText](../../includes/emptybooknodetext_md.md)]
 
 ## See Also
 [How to: Set Up Simulation](how-to-set-up-simulation.md)  

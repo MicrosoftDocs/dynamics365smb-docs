@@ -62,9 +62,9 @@ The **Tax Difference Journal** is used to create and post tax difference transac
 4.  On the **Action Pane**, in the **Process** actions group, choose **Ledger Entries** to open the **Tax Diff. Ledger Entry** window and review the posted entries.  
   
 ## See Also  
- [Tax Differences](../tax-differences.md)   
- [Setting up Tax Difference Calculation](../setting-up-tax-difference-calculation.md)   
- [Tax Accounting](../tax-accounting.md)   
+ [Tax Differences](tax-differences.md)   
+ [Setting up Tax Difference Calculation](setting-up-tax-difference-calculation.md)   
+ [Tax Accounting](tax-accounting.md)   
  [Tax Reports](assetId:///e42ca8e7-1cee-4fb8-9f71-e596f29cabc3)   
- [Tax Registers](../tax-registers.md)   
- [How to: Create Tax Registers](../how-to-create-tax-registers.md)
+ [Tax Registers](tax-registers.md)   
+ [How to: Create Tax Registers](how-to-create-tax-registers.md)

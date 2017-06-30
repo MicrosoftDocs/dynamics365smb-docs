@@ -104,8 +104,8 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], to submit valid sales VAT 
 ## See Also  
  Sales VAT Adv. Notification   
  VAT Statement Line   
- [Electronic Submission of Sales VAT Advance Notifications to ELSTER](../electronic-submission-of-sales-vat-advance-notifications-to-elster.md)   
- [How to: Create and Submit Sales VAT Advance Notifications](../how-to-create-and-submit-sales-vat-advance-notifications.md)   
- [How to: Enter Company Information](../how-to-enter-company-information.md)   
+ [Electronic Submission of Sales VAT Advance Notifications to ELSTER](electronic-submission-of-sales-vat-advance-notifications-to-elster.md)   
+ [How to: Create and Submit Sales VAT Advance Notifications](how-to-create-and-submit-sales-vat-advance-notifications.md)   
+ [How to: Enter Company Information](how-to-enter-company-information.md)   
  Company Information   
  General Ledger Setup

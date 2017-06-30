@@ -50,9 +50,9 @@ Before you can receive optical character recognition \(OCR\) payments, you must 
      The OCR payment files are posted to the cash receipt journal.  
   
 ## See Also  
- [Electronic Banking in Norway](../electronic-banking-in-norway.md)   
- [How to: Set Up KID Numbers on Sales Documents](../how-to-set-up-kid-numbers-on-sales-documents.md)   
- [How to: Set Up OCR Payments](../how-to-set-up-ocr-payments.md)   
+ [Electronic Banking in Norway](electronic-banking-in-norway.md)   
+ [How to: Set Up KID Numbers on Sales Documents](how-to-set-up-kid-numbers-on-sales-documents.md)   
+ [How to: Set Up OCR Payments](how-to-set-up-ocr-payments.md)   
  Cash Receipt Journal   
- [How to: Fill and Post General Journals](../how-to-fill-and-post-general-journals.md)   
- [How to: Print the OCR Journal - Test Report](../how-to-print-the-ocr-journal-test-report.md)
+ [How to: Fill and Post General Journals](how-to-fill-and-post-general-journals.md)   
+ [How to: Print the OCR Journal - Test Report](how-to-print-the-ocr-journal-test-report.md)

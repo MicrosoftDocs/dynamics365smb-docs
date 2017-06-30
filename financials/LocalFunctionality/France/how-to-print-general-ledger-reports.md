@@ -48,4 +48,4 @@ General ledger reports meet financial accounting standards, and they contain inf
 4.  Choose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [How to: Export General Ledger Entries to an XML File](../how-to-export-general-ledger-entries-to-an-xml-file.md)
+ [How to: Export General Ledger Entries to an XML File](how-to-export-general-ledger-entries-to-an-xml-file.md)

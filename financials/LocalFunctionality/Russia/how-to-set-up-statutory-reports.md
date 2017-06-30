@@ -69,7 +69,7 @@ The Russian federal tax authorities require companies to submit statutory report
   
 4.  For each statutory report, choose **Navigate**, and in the **Setup** group, choose **Tables**.  
   
-    1.  In the **Statutory Report Tables** window, fill in the fields to describe each table that must be created in the Microsoft Excel workbook. This includes specifying the name of the worksheet.  
+    1.  In the **Statutory Report Tables** window, fill in the fields to describe each table that must be created in the Microsoft Excel workbook. This ../../includes specifying the name of the worksheet.  
   
          For example, a statutory report can require that you submit a Microsoft Excel workbook with a separate table for each section of the report.  
   
@@ -93,8 +93,8 @@ The Russian federal tax authorities require companies to submit statutory report
   
          This creates a copy of the existing report with the tables and XML element lines. Now, you can make the appropriate changes as described earlier in this section.  
   
- You can now use the defined statutory reports to generate and submit reports to the authorities. For more information, see [How to: Create Statutory Report Data](../how-to-create-statutory-report-data.md).  
+ You can now use the defined statutory reports to generate and submit reports to the authorities. For more information, see [How to: Create Statutory Report Data](how-to-create-statutory-report-data.md).  
   
 ## See Also  
- [Statutory Reports](../statutory-reports.md)   
- [How to: Create Statutory Report Data](../how-to-create-statutory-report-data.md)
+ [Statutory Reports](statutory-reports.md)   
+ [How to: Create Statutory Report Data](how-to-create-statutory-report-data.md)

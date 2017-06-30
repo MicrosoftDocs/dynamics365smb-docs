@@ -50,9 +50,9 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can set up and maintai
 |Accumulation|A synthetic register based on calculated algorithms defined during tax register set up.|  
   
 ## See Also  
- [How to: Set Up Tax Accounting](../how-to-set-up-tax-accounting.md)   
- [Tax Registers](../tax-registers.md)   
- [How to: Create Tax Registers](../how-to-create-tax-registers.md)   
- [How to: Set Up Tax Register Sections](../how-to-set-up-tax-register-sections.md)   
- [Tax Differences](../tax-differences.md)   
+ [How to: Set Up Tax Accounting](how-to-set-up-tax-accounting.md)   
+ [Tax Registers](tax-registers.md)   
+ [How to: Create Tax Registers](how-to-create-tax-registers.md)   
+ [How to: Set Up Tax Register Sections](how-to-set-up-tax-register-sections.md)   
+ [Tax Differences](tax-differences.md)   
  [Tax Reports](assetId:///e42ca8e7-1cee-4fb8-9f71-e596f29cabc3)

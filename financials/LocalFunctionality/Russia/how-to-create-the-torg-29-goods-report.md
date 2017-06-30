@@ -48,7 +48,7 @@ The TORG-29 report shows the item documents that you can use to submit for recei
 3.  Choose the **Print** button.  
   
 ## See Also  
- [Inventory Setup](../inventory-setup.md)   
+ [Inventory Setup](inventory-setup.md)   
  Item Report TORG-29   
  Items Receipt Act TORG-1   
  Receipt Deviations TORG-2   

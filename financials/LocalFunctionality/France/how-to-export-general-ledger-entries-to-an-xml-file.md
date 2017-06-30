@@ -16,7 +16,7 @@
 
 ---
 # How to: Export General Ledger Entries to an XML File
-You can export financial transactions for a particular period to an XML file for external archiving. After the closing of the fiscal year, you can export the general ledger transactions for the closed year by applying the correct date filter and then exporting the financial transactions within the specified period to the XML file. The XML file includes all the general ledger transaction information, such as document posting date, document type, document number, account type, account number, credit amount, and debit amount retrieved from the **General Journal** window.  
+You can export financial transactions for a particular period to an XML file for external archiving. After the closing of the fiscal year, you can export the general ledger transactions for the closed year by applying the correct date filter and then exporting the financial transactions within the specified period to the XML file. The XML file ../../includes all the general ledger transaction information, such as document posting date, document type, document number, account type, account number, credit amount, and debit amount retrieved from the **General Journal** window.  
   
 ### To export general ledger entries to an XML file  
   
@@ -37,4 +37,4 @@ You can export financial transactions for a particular period to an XML file for
     >  If you have set the start date and end date to include the entire fiscal year, the process can take several minutes.  
   
 ## See Also  
- [How to: Print General Ledger Reports](../how-to-print-general-ledger-reports.md)
+ [How to: Print General Ledger Reports](how-to-print-general-ledger-reports.md)

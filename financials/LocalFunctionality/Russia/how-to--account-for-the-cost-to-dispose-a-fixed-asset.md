@@ -63,7 +63,7 @@ The maintenance on disposal feature allows you to account for the amount spent t
   
 ## See Also  
  Fixed Asset Setup   
- [Fixed Assets Accounting Setup](../fixed-assets-accounting-setup.md)   
+ [Fixed Assets Accounting Setup](fixed-assets-accounting-setup.md)   
  Fixed Asset Card   
  Calculate Assessed Tax   
  Assessed Tax Code

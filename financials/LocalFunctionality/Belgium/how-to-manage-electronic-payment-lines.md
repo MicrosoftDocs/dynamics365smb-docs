@@ -33,6 +33,6 @@ You can have [!INCLUDE[d365fin](../../includes/d365fin_md.md)] suggest payments 
 4.  Choose the **OK** button.  
   
 ## See Also  
- [Belgian Electronic Payments](../belgian-electronic-payments.md)   
- [How to: Generate Payment Suggestions](../how-to-generate-payment-suggestions.md)   
- [How to: Test Electronic Payments](../how-to-test-electronic-payments.md)
+ [Belgian Electronic Payments](belgian-electronic-payments.md)   
+ [How to: Generate Payment Suggestions](how-to-generate-payment-suggestions.md)   
+ [How to: Test Electronic Payments](how-to-test-electronic-payments.md)

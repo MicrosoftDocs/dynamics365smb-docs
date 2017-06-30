@@ -55,6 +55,6 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], payment suggestions are ge
 3.  Choose the **OK** button.  
   
 ## See Also  
- [Belgian Electronic Payments](../belgian-electronic-payments.md)   
- [How to: Set Up Electronic Banking](../how-to-set-up-electronic-banking.md)   
- [How to: Set Up IBLC-BLWI Transaction Codes](../how-to-set-up-iblc-blwi-transaction-codes.md)
+ [Belgian Electronic Payments](belgian-electronic-payments.md)   
+ [How to: Set Up Electronic Banking](how-to-set-up-electronic-banking.md)   
+ [How to: Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md)

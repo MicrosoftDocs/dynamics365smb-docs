@@ -22,7 +22,7 @@ You must submit a periodic report of transactions with customers and vendors in 
   
 -   Sales of goods or services  
   
- On a monthly or quarterly basis, you must generate the blacklist communication report for transactions with countries\/regions that have privileged taxation and send it to the Italian Revenue Agency. The Italian Revenue Agency decides which countries\/regions are included on the blacklist. You can view or change countries\/regions on the blacklist by using the **Countries\/Regions** window. The periodic report includes only transactions that have an amount above a certain threshold. The threshold amount calculation is applied at the document level. For more information, see the [Italian Revenue Agency](http://go.microsoft.com/fwlink/?LinkId=396483).  
+ On a monthly or quarterly basis, you must generate the blacklist communication report for transactions with countries\/regions that have privileged taxation and send it to the Italian Revenue Agency. The Italian Revenue Agency decides which countries\/regions are included on the blacklist. You can view or change countries\/regions on the blacklist by using the **Countries\/Regions** window. The periodic report ../../includes only transactions that have an amount above a certain threshold. The threshold amount calculation is applied at the document level. For more information, see the [Italian Revenue Agency](http://go.microsoft.com/fwlink/?LinkId=396483).  
   
  Before you can submit the periodic report, you must set up [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
   
@@ -105,7 +105,7 @@ You must submit a periodic report of transactions with customers and vendors in 
     |**Blacklisted Comm. Field**|Specify the field that the VAT totaling should map to in the file to be exported. Valid entries are limited to what is defined in the Spesometro 2013: BL003001 – BL008002. **Important:**  The **Blacklisted Comm.** field can contain only the currently required field names that are specified by Spesometro. If you specify another field name, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] account fields to the same Blacklist Comm. Field value, the export of the data will be the sum of those lines. The printout will list each line.|Code|  
     |**New Page**|Specify if you want to insert a new page after the line when you print the information.|Boolean|  
   
- The printed report includes all transactions that meet threshold requirements. It does not include those transactions that do not.  
+ The printed report ../../includes all transactions that meet threshold requirements. It does not include those transactions that do not.  
   
 #### To create and print the list of transactions  
   
@@ -135,7 +135,7 @@ You must submit a periodic report of transactions with customers and vendors in 
 7.  Choose the **Print** button to print the report, or choose the **Preview** button to view the results.  
   
     > [!NOTE]  
-    >  The printed report includes all transactions that meet threshold requirements. It does not include those transactions that do not.  
+    >  The printed report ../../includes all transactions that meet threshold requirements. It does not include those transactions that do not.  
   
 #### To preview and export the list of transactions  
   
@@ -166,7 +166,7 @@ You must submit a periodic report of transactions with customers and vendors in 
 8.  Choose the **OK** button.  
   
     > [!NOTE]  
-    >  The exported file includes those transactions that are above the current threshold amount.  
+    >  The exported file ../../includes those transactions that are above the current threshold amount.  
   
  You can now submit the list of transactions to the Italian Revenue Agency. If you have more than 1500 records, multiple files will be exported.  
   
@@ -176,4 +176,4 @@ You must submit a periodic report of transactions with customers and vendors in 
  Customs Authority Vendors   
  VAT Posting Setup   
  Countries\/Regions   
- [Italian VAT](../italian-vat.md)
+ [Italian VAT](italian-vat.md)

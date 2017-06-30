@@ -37,8 +37,8 @@ You can use the **Posted Sales Tax Credit Memo** window and **Posted Purch. Tax 
 3.  Choose the **OK** button.  
   
 ## See Also  
- [How to: View Posted Tax Invoices](../how-to-view-posted-tax-invoices.md)   
- [How to: View Withholding Tax Entries](../how-to-view-withholding-tax-entries.md)   
+ [How to: View Posted Tax Invoices](how-to-view-posted-tax-invoices.md)   
+ [How to: View Withholding Tax Entries](how-to-view-withholding-tax-entries.md)   
  Purch. Tax Cr. Memo Line   
  Purch. Tax Cr. Memo Hdr.   
  Sales Tax Cr.Memo Line   

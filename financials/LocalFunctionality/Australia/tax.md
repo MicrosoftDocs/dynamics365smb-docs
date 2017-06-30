@@ -19,7 +19,7 @@
 [!INCLUDE[emptyBookNodeText](../../includes/emptybooknodetext_md.md)]  
 
 ## See Also
-[Australia Local Functionality](../australia-local-functionality.md)  
+[Australia Local Functionality](australia-local-functionality.md)  
 [How to: Set Up Withholding Tax](how-to-set-up-withholding-tax.md)  
 [How to: Set Up Vendors Without ABN for Calculating the Withholding Tax](how-to-set-up-vendors-without-abn-for-calculating-the-withholding-tax.md)  
 [How to: Set Up Revenue Types for Withholding Tax](how-to-set-up-revenue-types-for-withholding-tax.md)  

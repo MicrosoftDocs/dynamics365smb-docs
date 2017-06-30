@@ -61,6 +61,6 @@ The vendor and customer bill pay feature supports SEPA-based formats in addition
      You can review the .xml file before sending it. To review and fix errors, you can refer to the **File Export Errors** Fact Box.  
   
 ## See Also  
- [Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](../make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
- [How to: Set Up SEPA Credit Transfer](../how-to-set-up-sepa-credit-transfer.md)   
- [Collect Payments with SEPA Direct Debit](../collect-payments-with-sepa-direct-debit.md)
+ [Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
+ [How to: Set Up SEPA Credit Transfer](how-to-set-up-sepa-credit-transfer.md)   
+ [Collect Payments with SEPA Direct Debit](collect-payments-with-sepa-direct-debit.md)

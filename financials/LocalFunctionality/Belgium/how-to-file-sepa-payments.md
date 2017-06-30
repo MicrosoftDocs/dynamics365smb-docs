@@ -49,7 +49,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use Single Euro Pa
   
 ## See Also  
  File SEPA Payments   
- [How to: Set Up Export Protocols](../how-to-set-up-export-protocols.md)   
+ [How to: Set Up Export Protocols](how-to-set-up-export-protocols.md)   
  Export Protocol   
- [How to: File Non-Euro SEPA Payments](../how-to-file-non-euro-sepa-payments.md)   
- [How to: Activate SEPA Payments](../how-to-activate-sepa-payments.md)
+ [How to: File Non-Euro SEPA Payments](how-to-file-non-euro-sepa-payments.md)   
+ [How to: Activate SEPA Payments](how-to-activate-sepa-payments.md)

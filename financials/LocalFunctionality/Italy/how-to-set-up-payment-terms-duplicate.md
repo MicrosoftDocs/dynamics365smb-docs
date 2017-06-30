@@ -39,7 +39,7 @@ For each payment term, you can specify if the payment can be made in installment
     |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**\($ T\_12170\_4 Payment % $\)**|Specify the percentage of the total payment that this installment is for.<br /><br /> For example, if the payment must be made in one installment, specify **100**.|  
-    |**Due Date Calculation**|Specify the formula that is used to calculate the date that a payment must be made.<br /><br /> For example, if the payment must be made in one installment after two weeks, specify **14D**. For more information, see [How to: Enter Dates and Times](../how-to-enter-dates-and-times.md).|  
+    |**Due Date Calculation**|Specify the formula that is used to calculate the date that a payment must be made.<br /><br /> For example, if the payment must be made in one installment after two weeks, specify **14D**. For more information, see [How to: Enter Dates and Times](how-to-enter-dates-and-times.md).|  
     |**Discount Date Calculation**|Specify the formula that is used to calculate the date that a payment must be made in order to obtain a discount.|  
     |**\($ T\_12170\_7 Discount % $\)**|Specify the discount percentage that is applied for early payment of an invoice amount.|  
   
@@ -48,6 +48,6 @@ For each payment term, you can specify if the payment can be made in installment
      The **Payment Nos.** field in the **Payment Terms** window is updated. The payment terms that you set here will be a reference for automatic due date calculation for documents that you post for relevant customers and vendors.  
   
 ## See Also  
- [How to: Set Up Automatic Payments and Automatic Bills](../how-to-set-up-automatic-payments-and-automatic-bills.md)   
+ [How to: Set Up Automatic Payments and Automatic Bills](how-to-set-up-automatic-payments-and-automatic-bills.md)   
  Payment Terms   
- [Italy Local Functionality](../italy-local-functionality.md)
+ [Italy Local Functionality](italy-local-functionality.md)

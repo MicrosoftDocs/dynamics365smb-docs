@@ -27,6 +27,6 @@ You need to create or select a card for the fixed asset that should be repaid. T
 3.  Choose the **OK** button.  
   
 ## See Also  
- [How to: Set Up a Quantity Book](../how-to-set-up-a-quantity-book.md)   
- [Undepreciable Fixed Assets](../undepreciable-fixed-assets.md)   
- [Fixed Assets](../fixed-assets.md)
+ [How to: Set Up a Quantity Book](how-to-set-up-a-quantity-book.md)   
+ [Undepreciable Fixed Assets](undepreciable-fixed-assets.md)   
+ [Fixed Assets](fixed-assets.md)

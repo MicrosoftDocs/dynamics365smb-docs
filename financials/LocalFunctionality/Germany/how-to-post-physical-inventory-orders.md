@@ -58,5 +58,5 @@ After completing a physical inventory order and changing its status to **Finishe
 4.  Close the window.  
   
 ## See Also  
- [Physical Inventory Documents](../physical-inventory-documents.md)   
- [How to: Enter Physical Inventory Orders](../how-to-enter-physical-inventory-orders.md)
+ [Physical Inventory Documents](physical-inventory-documents.md)   
+ [How to: Enter Physical Inventory Orders](how-to-enter-physical-inventory-orders.md)

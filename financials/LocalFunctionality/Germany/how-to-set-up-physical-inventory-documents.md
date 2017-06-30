@@ -25,5 +25,5 @@ Before you can use physical inventory order and physical inventory recording doc
 2.  On the **Numbering** FastTab, fill in the fields for physical inventory.  
   
 ## See Also  
- [How to: Enter Physical Inventory Orders](../how-to-enter-physical-inventory-orders.md)   
- [Physical Inventory Documents](../physical-inventory-documents.md)
+ [How to: Enter Physical Inventory Orders](how-to-enter-physical-inventory-orders.md)   
+ [Physical Inventory Documents](physical-inventory-documents.md)

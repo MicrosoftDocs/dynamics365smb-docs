@@ -26,16 +26,16 @@ When you set up [!INCLUDE[d365fin](../../includes/d365fin_md.md)] in your organi
   
 2.  On the **Home** tab, choose **New**.  
   
-3.  Enter information into the required fields. This includes the **Starting Date**, **Purchase Quantity**, **Purchase Amount**, **Production Quantity**, and **Production Amount** fields.  
+3.  Enter information into the required fields. This ../../includes the **Starting Date**, **Purchase Quantity**, **Purchase Amount**, **Production Quantity**, and **Production Amount** fields.  
   
 4.  Choose the **OK** button.  
   
  The entries in this window will be used to calculate the average year cost. For more information, see Item Cost History List and Calculate End Year Costs.  
   
 ## See Also  
- [Fiscal Inventory Valuation](../fiscal-inventory-valuation.md)   
- [How to: Set Up Fiscal Inventory Valuation](../how-to-set-up-fiscal-inventory-valuation.md)   
- [Average Cost](../average-cost.md)   
+ [Fiscal Inventory Valuation](fiscal-inventory-valuation.md)   
+ [How to: Set Up Fiscal Inventory Valuation](how-to-set-up-fiscal-inventory-valuation.md)   
+ [Average Cost](average-cost.md)   
  Inventory Setup   
  Before Start Item Cost   
  Item Cost History List   

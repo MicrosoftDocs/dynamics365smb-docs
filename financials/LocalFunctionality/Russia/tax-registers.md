@@ -43,8 +43,8 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can set up tax registe
 |Create Tax Registers|Creates the tax registers that you define using the **Tax Register Setup** window.|  
   
 ## See Also  
- [How to: Set Up Tax Accounting](../how-to-set-up-tax-accounting.md)   
- [How to: Create Tax Registers](../how-to-create-tax-registers.md)   
- [How to: Set Up Tax Register Sections](../how-to-set-up-tax-register-sections.md)   
- [Tax Differences](../tax-differences.md)   
+ [How to: Set Up Tax Accounting](how-to-set-up-tax-accounting.md)   
+ [How to: Create Tax Registers](how-to-create-tax-registers.md)   
+ [How to: Set Up Tax Register Sections](how-to-set-up-tax-register-sections.md)   
+ [Tax Differences](tax-differences.md)   
  [Tax Reports](assetId:///e42ca8e7-1cee-4fb8-9f71-e596f29cabc3)

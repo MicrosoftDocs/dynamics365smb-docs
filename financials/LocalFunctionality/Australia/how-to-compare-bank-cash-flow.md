@@ -49,5 +49,5 @@ You can use the **Bank Detail Cashflow Compare** report to compare the flow of c
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [How to: Create Check Installments](../how-to-create-check-installments.md)   
- [Australia Local Functionality](../australia-local-functionality.md)
+ [How to: Create Check Installments](how-to-create-check-installments.md)   
+ [Australia Local Functionality](australia-local-functionality.md)

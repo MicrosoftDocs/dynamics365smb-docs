@@ -36,7 +36,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], after you post a sales inv
 >  ADD INCLUDE<!--[!INCLUDE[bp_refimplementation](../../includes/bp_refimplementation_md.md)]-->  
   
 ## See Also  
- [How to: Set Up Electronic Invoicing](../how-to-set-up-electronic-invoicing.md)   
- [Electronic Invoicing](../electronic-invoicing.md)   
+ [How to: Set Up Electronic Invoicing](how-to-set-up-electronic-invoicing.md)   
+ [Electronic Invoicing](electronic-invoicing.md)   
  Posted Sales Invoice   
  General Ledger Setup

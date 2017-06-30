@@ -29,9 +29,9 @@ To test the domiciliation journal lines, you can use the **Domiciliation Journal
 4.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [Belgian Electronic Banking](../belgian-electronic-banking.md)   
- [Direct Debit Using Domiciliation](../direct-debit-using-domiciliation.md)   
- [How to: Set Up Domiciliations](../how-to-set-up-domiciliations.md)   
- [How to: Generate Domiciliation Suggestions](../how-to-generate-domiciliation-suggestions.md)   
- [How to: Edit and Delete Domiciliation Lines](../how-to-edit-and-delete-domiciliation-lines.md)   
- [How to: Export and Post Domiciliations](../how-to-export-and-post-domiciliations.md)
+ [Belgian Electronic Banking](belgian-electronic-banking.md)   
+ [Direct Debit Using Domiciliation](direct-debit-using-domiciliation.md)   
+ [How to: Set Up Domiciliations](how-to-set-up-domiciliations.md)   
+ [How to: Generate Domiciliation Suggestions](how-to-generate-domiciliation-suggestions.md)   
+ [How to: Edit and Delete Domiciliation Lines](how-to-edit-and-delete-domiciliation-lines.md)   
+ [How to: Export and Post Domiciliations](how-to-export-and-post-domiciliations.md)

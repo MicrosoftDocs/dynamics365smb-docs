@@ -165,4 +165,4 @@ The following form and reports enable the creation of turnover sheet for goods a
 |**Print Group Totals**|Select this field to print preliminary group totals.|  
   
 ## See Also  
- [Item Obligatory Acts](../item-obligatory-acts.md)
+ [Item Obligatory Acts](item-obligatory-acts.md)

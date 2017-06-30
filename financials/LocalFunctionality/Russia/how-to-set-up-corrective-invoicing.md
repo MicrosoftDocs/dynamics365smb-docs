@@ -33,6 +33,6 @@ You can create corrective invoices and corrective credit memos to reflect change
      You can set up a separate code for each inventory posting group.  
   
 ## See Also  
- [Corrective Documents](../corrective-documents.md)   
- [\($ N\_459 Sales & Receivables Setup $\)](../-$-n_459-sales-receivables-setup-$.md)   
+ [Corrective Documents](corrective-documents.md)   
+ [\($ N\_459 Sales & Receivables Setup $\)](-$-n_459-sales-receivables-setup-$.md)   
  Inventory Posting Groups

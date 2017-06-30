@@ -36,10 +36,10 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can design your checks
   
 4.  Choose the **OK** button.  
   
-     To print checks, see [How to: Print Checks](../how-to-print-checks.md).  
+     To print checks, see [How to: Print Checks](how-to-print-checks.md).  
   
 ## See Also  
  Check \(Stub-Check-Stub\)   
  Check \(Stub-Stub-Check\)   
  Check   
- [How to: Print Checks](../how-to-print-checks.md)
+ [How to: Print Checks](how-to-print-checks.md)

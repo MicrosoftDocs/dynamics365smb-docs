@@ -36,8 +36,8 @@ Cash accounts are similar to bank accounts and are created identically. For more
 3.  Choose the **OK** button.  
   
 ## See Also  
- [Petty Cash Management](../petty-cash-management.md)   
- [Bank and Cash Management](../bank-and-cash-management.md)   
+ [Petty Cash Management](petty-cash-management.md)   
+ [Bank and Cash Management](bank-and-cash-management.md)   
  Cash Report CO-4   
  Cash Outgoing Order   
  Cash Ingoing Order   

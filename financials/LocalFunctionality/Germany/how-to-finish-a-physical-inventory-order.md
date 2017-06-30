@@ -45,9 +45,9 @@ After you have entered all data for the physical inventory order, you can finish
  You have to finish the physical inventory order header first before you can evaluate differences and before you can post the physical inventory order.  
   
 ## See Also  
- [How to: Enter Physical Inventory Orders](../how-to-enter-physical-inventory-orders.md)   
- [How to: Post Physical Inventory Orders](../how-to-post-physical-inventory-orders.md)   
- [How to: Calculate Quantity On Hand for a Physical Inventory Order](../how-to-calculate-quantity-on-hand-for-a-physical-inventory-order.md)   
- [How to: Finish a Physical Inventory Recording](../how-to-finish-a-physical-inventory-recording.md)   
- [How to: Analyze Physical Inventory Differences](../how-to-analyze-physical-inventory-differences.md)   
- [Physical Inventory Order Lines With Item Tracking Lines](../physical-inventory-order-lines-with-item-tracking-lines.md)
+ [How to: Enter Physical Inventory Orders](how-to-enter-physical-inventory-orders.md)   
+ [How to: Post Physical Inventory Orders](how-to-post-physical-inventory-orders.md)   
+ [How to: Calculate Quantity On Hand for a Physical Inventory Order](how-to-calculate-quantity-on-hand-for-a-physical-inventory-order.md)   
+ [How to: Finish a Physical Inventory Recording](how-to-finish-a-physical-inventory-recording.md)   
+ [How to: Analyze Physical Inventory Differences](how-to-analyze-physical-inventory-differences.md)   
+ [Physical Inventory Order Lines With Item Tracking Lines](physical-inventory-order-lines-with-item-tracking-lines.md)

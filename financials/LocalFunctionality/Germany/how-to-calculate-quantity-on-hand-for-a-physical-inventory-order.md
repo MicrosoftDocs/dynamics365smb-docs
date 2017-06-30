@@ -40,8 +40,8 @@ After you have created the physical inventory order and after you have entered t
  You must calculate the expected quantities for all physical inventory order lines of a physical inventory order before you can set the Status field to **Finished**. This is because [!INCLUDE[d365fin](../../includes/d365fin_md.md)] compares the expected and the recorded quantities and calculates the differences for posting.  
   
 ## See Also  
- [How to: Enter Physical Inventory Orders](../how-to-enter-physical-inventory-orders.md)   
- [Physical Inventory Recording - Counting Physical Inventory](../physical-inventory-recording-counting-physical-inventory.md)   
- [How to: Finish a Physical Inventory Order](../how-to-finish-a-physical-inventory-order.md)   
- [How to: Finish a Physical Inventory Recording](../how-to-finish-a-physical-inventory-recording.md)   
- [Physical Inventory Order Lines With Item Tracking Lines](../physical-inventory-order-lines-with-item-tracking-lines.md)
+ [How to: Enter Physical Inventory Orders](how-to-enter-physical-inventory-orders.md)   
+ [Physical Inventory Recording - Counting Physical Inventory](physical-inventory-recording-counting-physical-inventory.md)   
+ [How to: Finish a Physical Inventory Order](how-to-finish-a-physical-inventory-order.md)   
+ [How to: Finish a Physical Inventory Recording](how-to-finish-a-physical-inventory-recording.md)   
+ [Physical Inventory Order Lines With Item Tracking Lines](physical-inventory-order-lines-with-item-tracking-lines.md)

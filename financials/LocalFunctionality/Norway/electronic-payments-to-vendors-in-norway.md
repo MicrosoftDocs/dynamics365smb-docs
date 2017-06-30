@@ -16,7 +16,7 @@
 
 ---
 # Electronic Payments to Vendors in Norway
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] includes Norwegian enhancements for automatically making payments to vendors. This reduces errors that occur from manual data entry. You can use this functionality to perform the following operations:  
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] ../../includes Norwegian enhancements for automatically making payments to vendors. This reduces errors that occur from manual data entry. You can use this functionality to perform the following operations:  
   
 -   Search invoices that are due based on different conditions.  
   
@@ -53,19 +53,19 @@
 -   If the invoice and credit memo are paid in the same payment transaction, the payment must occur on the same date using the same currency and exchange rate.  
   
 ## See Also  
- [Norway Local Functionality](../norway-local-functionality.md)   
- [How to: Set Up Remittance Agreements](../how-to-set-up-remittance-agreements.md)   
- [How to: Create Remittance Accounts](../how-to-create-remittance-accounts.md)   
- [How to: Set Up Vendors for Remittance](../how-to-set-up-vendors-for-remittance.md)   
- [Recipient Reference Codes](../recipient-reference-codes.md)   
- [How to: Create Remittance Suggestions](../how-to-create-remittance-suggestions.md)   
- [How to: Create Manual Remittance Payments](../how-to-create-manual-remittance-payments.md)   
- [How to: Set Up Payment Line Information](../how-to-set-up-payment-line-information.md)   
- [How to: Test Remittance Payments](../how-to-test-remittance-payments.md)   
- [How to: Export Remittance Payments](../how-to-export-remittance-payments.md)   
- [Types of Payment Returns Files](../types-of-payment-returns-files.md)   
- [How to: Import Payment Return Data](../how-to-import-payment-return-data.md)   
- [How to: Delete Remittance Payment Orders](../how-to-delete-remittance-payment-orders.md)   
- [Remittance Errors](../remittance-errors.md)   
- [How to: View Remittance Error Codes](../how-to-view-remittance-error-codes.md)   
- [How to: Cancel Payments](../how-to-cancel-payments.md)
+ [Norway Local Functionality](norway-local-functionality.md)   
+ [How to: Set Up Remittance Agreements](how-to-set-up-remittance-agreements.md)   
+ [How to: Create Remittance Accounts](how-to-create-remittance-accounts.md)   
+ [How to: Set Up Vendors for Remittance](how-to-set-up-vendors-for-remittance.md)   
+ [Recipient Reference Codes](recipient-reference-codes.md)   
+ [How to: Create Remittance Suggestions](how-to-create-remittance-suggestions.md)   
+ [How to: Create Manual Remittance Payments](how-to-create-manual-remittance-payments.md)   
+ [How to: Set Up Payment Line Information](how-to-set-up-payment-line-information.md)   
+ [How to: Test Remittance Payments](how-to-test-remittance-payments.md)   
+ [How to: Export Remittance Payments](how-to-export-remittance-payments.md)   
+ [Types of Payment Returns Files](types-of-payment-returns-files.md)   
+ [How to: Import Payment Return Data](how-to-import-payment-return-data.md)   
+ [How to: Delete Remittance Payment Orders](how-to-delete-remittance-payment-orders.md)   
+ [Remittance Errors](remittance-errors.md)   
+ [How to: View Remittance Error Codes](how-to-view-remittance-error-codes.md)   
+ [How to: Cancel Payments](how-to-cancel-payments.md)

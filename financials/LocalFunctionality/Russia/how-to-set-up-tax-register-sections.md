@@ -87,7 +87,7 @@ You can either create a new tax register section or select a tax register sectio
 3.  Choose **Delete** to remove the register from the register list.  
   
 ## See Also  
- [Tax Accounting](../tax-accounting.md)   
- [Tax Registers](../tax-registers.md)   
- [How to: Create Tax Registers](../how-to-create-tax-registers.md)   
- [Collecting Profit Tax Information for Tax Declaration](../collecting-profit-tax-information-for-tax-declaration.md)
+ [Tax Accounting](tax-accounting.md)   
+ [Tax Registers](tax-registers.md)   
+ [How to: Create Tax Registers](how-to-create-tax-registers.md)   
+ [Collecting Profit Tax Information for Tax Declaration](collecting-profit-tax-information-for-tax-declaration.md)

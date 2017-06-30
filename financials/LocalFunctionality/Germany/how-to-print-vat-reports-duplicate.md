@@ -16,7 +16,7 @@
 
 ---
 # How to: Print VAT Reports
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] includes VAT reports that you can use to submit information about VAT to the authorities. The following VAT reports are available for Germany:  
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] ../../includes VAT reports that you can use to submit information about VAT to the authorities. The following VAT reports are available for Germany:  
   
 -   **Sales VAT Adv. Not. Acc. Proof**  
   
@@ -24,7 +24,7 @@
   
 -   **VAT Statement Germany**  
   
- For more information, see [VAT Reporting](../vat-reporting.md).  
+ For more information, see [VAT Reporting](vat-reporting.md).  
   
 ### To print the Sales VAT Adv. Not. Acc. Proof report  
   
@@ -80,9 +80,9 @@
 5.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [VAT Reporting](../vat-reporting.md)   
- [How to: Preview VAT Statements](../how-to-preview-vat-statements.md)   
- [Electronic Submission of Sales VAT Advance Notifications to ELSTER](../electronic-submission-of-sales-vat-advance-notifications-to-elster.md)   
+ [VAT Reporting](vat-reporting.md)   
+ [How to: Preview VAT Statements](how-to-preview-vat-statements.md)   
+ [Electronic Submission of Sales VAT Advance Notifications to ELSTER](electronic-submission-of-sales-vat-advance-notifications-to-elster.md)   
  Sales VAT Adv. Not. Acc. Proof   
  VAT Statement Schedule   
  VAT Statement Germany

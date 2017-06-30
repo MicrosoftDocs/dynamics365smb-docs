@@ -61,7 +61,7 @@ The following procedure shows how to create tax registers.
 12. Click **Show** to view all the transactions of any entry ledger that is created.  
   
 ## See Also  
- [Tax Accounting](../tax-accounting.md)   
- [Tax Registers](../tax-registers.md)   
- [How to: Set Up Tax Register Sections](../how-to-set-up-tax-register-sections.md)   
- [Collecting Profit Tax Information for Tax Declaration](../collecting-profit-tax-information-for-tax-declaration.md)
+ [Tax Accounting](tax-accounting.md)   
+ [Tax Registers](tax-registers.md)   
+ [How to: Set Up Tax Register Sections](how-to-set-up-tax-register-sections.md)   
+ [Collecting Profit Tax Information for Tax Declaration](collecting-profit-tax-information-for-tax-declaration.md)

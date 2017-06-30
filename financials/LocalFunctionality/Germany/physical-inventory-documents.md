@@ -23,7 +23,7 @@ You can take inventory of your items using the physical inventory order and the 
 ## Physical Inventory Recording  
  The physical inventory recording contains the item names and quantities counted while taking physical inventory. An item may be counted in more than one physical inventory recording.  
   
- A physical inventory order can be related to more than one physical inventory recording, but a physical inventory recording can be related to only one physical inventory order. For more information, see [Physical Inventory Recording - Counting Physical Inventory](../physical-inventory-recording-counting-physical-inventory.md).  
+ A physical inventory order can be related to more than one physical inventory recording, but a physical inventory recording can be related to only one physical inventory order. For more information, see [Physical Inventory Recording - Counting Physical Inventory](physical-inventory-recording-counting-physical-inventory.md).  
   
  After completing the physical inventory recordings and the physical inventory order, you can post the physical inventory order. The information is transferred to the physical inventory journal. After this transfer, the physical inventory order will be available as a posted physical inventory order for future retrieval.  
   
@@ -41,13 +41,13 @@ You can take inventory of your items using the physical inventory order and the 
  You can use Navigate to view the inventory ledger entries and other related ledger entries for a posted physical inventory order.  
   
 ## See Also  
- [About Warehouse Management](../about-warehouse-management.md)   
- [Physical Inventory Order Lines With Item Tracking Lines](../physical-inventory-order-lines-with-item-tracking-lines.md)   
- [Physical Inventory Recording - Counting Physical Inventory](../physical-inventory-recording-counting-physical-inventory.md)   
- [How to: Set Up Physical Inventory Documents](../how-to-set-up-physical-inventory-documents.md)   
- [How to: Enter Physical Inventory Orders](../how-to-enter-physical-inventory-orders.md)   
- [How to: Create a Physical Inventory Recording](../how-to-create-a-physical-inventory-recording.md)   
- [How to: Post Physical Inventory Orders](../how-to-post-physical-inventory-orders.md)   
+ [About Warehouse Management](about-warehouse-management.md)   
+ [Physical Inventory Order Lines With Item Tracking Lines](physical-inventory-order-lines-with-item-tracking-lines.md)   
+ [Physical Inventory Recording - Counting Physical Inventory](physical-inventory-recording-counting-physical-inventory.md)   
+ [How to: Set Up Physical Inventory Documents](how-to-set-up-physical-inventory-documents.md)   
+ [How to: Enter Physical Inventory Orders](how-to-enter-physical-inventory-orders.md)   
+ [How to: Create a Physical Inventory Recording](how-to-create-a-physical-inventory-recording.md)   
+ [How to: Post Physical Inventory Orders](how-to-post-physical-inventory-orders.md)   
  Phys. Inventory Journal   
- [How to: Block Shipment for Negative Inventory](../how-to-block-shipment-for-negative-inventory.md)   
- [Germany Local Functionality](../germany-local-functionality.md)
+ [How to: Block Shipment for Negative Inventory](how-to-block-shipment-for-negative-inventory.md)   
+ [Germany Local Functionality](germany-local-functionality.md)

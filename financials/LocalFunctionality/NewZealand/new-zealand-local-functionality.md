@@ -19,8 +19,8 @@
 The following topics describe the local functionality in the New Zealand version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
   
 ## In This Section  
- [Addresses](../addresses.md)  
-  [Calculating Distribution Amounts](../calculating-distribution-amounts.md)  
-  [How to: Determine Sales Price by Cost Plus Percentage](../how-to-determine-sales-price-by-cost-plus-percentage.md)  
-  [How to: Print Deposit Slip Reports](../how-to-print-deposit-slip-reports.md)  
-  [How to: Print Bank Account Reconciliation Reports](../how-to-print-bank-account-reconciliation-reports.md)
+ [Addresses](addresses.md)  
+  [Calculating Distribution Amounts](calculating-distribution-amounts.md)  
+  [How to: Determine Sales Price by Cost Plus Percentage](how-to-determine-sales-price-by-cost-plus-percentage.md)  
+  [How to: Print Deposit Slip Reports](how-to-print-deposit-slip-reports.md)  
+  [How to: Print Bank Account Reconciliation Reports](how-to-print-bank-account-reconciliation-reports.md)

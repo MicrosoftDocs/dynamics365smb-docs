@@ -31,7 +31,7 @@ After you have created delivery reminders and made any needed modifications, you
 4.  Choose the **Print** to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [Delivery Reminders](../delivery-reminders.md)   
- [How to: Generate Delivery Reminders](../how-to-generate-delivery-reminders.md)   
- [How to: Issue Delivery Reminders](../how-to-issue-delivery-reminders.md)   
+ [Delivery Reminders](delivery-reminders.md)   
+ [How to: Generate Delivery Reminders](how-to-generate-delivery-reminders.md)   
+ [How to: Issue Delivery Reminders](how-to-issue-delivery-reminders.md)   
  Delivery Reminder - Test

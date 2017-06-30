@@ -35,6 +35,6 @@ To complete the Business Activity Statement \(BAS\) setup, you must map fuel tax
 7.  Choose the **OK** button.  
   
 ## See Also  
- [BAS Fuel Tax Credits](../bas-fuel-tax-credits.md)   
- [How to: Set Up BAS XML Fields](../how-to-set-up-bas-xml-fields.md)   
- [Business Activity Statements](../business-activity-statements.md)
+ [BAS Fuel Tax Credits](bas-fuel-tax-credits.md)   
+ [How to: Set Up BAS XML Fields](how-to-set-up-bas-xml-fields.md)   
+ [Business Activity Statements](business-activity-statements.md)

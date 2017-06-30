@@ -61,8 +61,8 @@ You can use the document tracking to view documents that are related to sales or
 7.  Choose the **OK** button.  
   
 ## See Also  
- [Enhanced Document Management](../enhanced-document-management.md)   
- [How to: Set Up Automatic Archiving of Documents](../how-to-set-up-automatic-archiving-of-documents.md)   
- [How to: Archive Blanket Orders](../how-to-archive-blanket-orders.md)   
- [How to: Create an Order from an Archived Blanket Order](../how-to-create-an-order-from-an-archived-blanket-order.md)   
- [How to: Delete Archived Blanket Orders](../how-to-delete-archived-blanket-orders.md)
+ [Enhanced Document Management](enhanced-document-management.md)   
+ [How to: Set Up Automatic Archiving of Documents](how-to-set-up-automatic-archiving-of-documents.md)   
+ [How to: Archive Blanket Orders](how-to-archive-blanket-orders.md)   
+ [How to: Create an Order from an Archived Blanket Order](how-to-create-an-order-from-an-archived-blanket-order.md)   
+ [How to: Delete Archived Blanket Orders](how-to-delete-archived-blanket-orders.md)

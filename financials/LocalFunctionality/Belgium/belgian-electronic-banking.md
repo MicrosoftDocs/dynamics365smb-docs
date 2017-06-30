@@ -27,6 +27,6 @@ Electronic banking allows you to electronically exchange data with Belgian finan
 -   Process direct debits with domiciliations  
   
 ## See Also  
- [Belgian Electronic Payments](../belgian-electronic-payments.md)   
- [CODA Bank Statements](../coda-bank-statements.md)   
- [Direct Debit Using Domiciliation](../direct-debit-using-domiciliation.md)
+ [Belgian Electronic Payments](belgian-electronic-payments.md)   
+ [CODA Bank Statements](coda-bank-statements.md)   
+ [Direct Debit Using Domiciliation](direct-debit-using-domiciliation.md)

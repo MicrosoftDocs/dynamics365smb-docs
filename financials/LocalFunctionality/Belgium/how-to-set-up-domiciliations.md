@@ -37,8 +37,8 @@ Before you can use electronic banking for domiciliations, you must enter the cus
 4.  Choose the **OK** button.  
   
 ## See Also  
- [Direct Debit Using Domiciliation](../direct-debit-using-domiciliation.md)   
- [How to: Generate Domiciliation Suggestions](../how-to-generate-domiciliation-suggestions.md)   
- [How to: Test Domiciliations](../how-to-test-domiciliations.md)   
- [How to: Edit and Delete Domiciliation Lines](../how-to-edit-and-delete-domiciliation-lines.md)   
- [How to: Export and Post Domiciliations](../how-to-export-and-post-domiciliations.md)
+ [Direct Debit Using Domiciliation](direct-debit-using-domiciliation.md)   
+ [How to: Generate Domiciliation Suggestions](how-to-generate-domiciliation-suggestions.md)   
+ [How to: Test Domiciliations](how-to-test-domiciliations.md)   
+ [How to: Edit and Delete Domiciliation Lines](how-to-edit-and-delete-domiciliation-lines.md)   
+ [How to: Export and Post Domiciliations](how-to-export-and-post-domiciliations.md)

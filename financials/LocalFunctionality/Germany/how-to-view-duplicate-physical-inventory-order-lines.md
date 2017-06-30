@@ -31,6 +31,6 @@ If you create physical inventory order lines manually, or if you change automati
  Any duplicate physical inventory order lines are displayed.  
   
 ## See Also  
- [How to: Enter Physical Inventory Orders](../how-to-enter-physical-inventory-orders.md)   
- [How to: Finish a Physical Inventory Recording](../how-to-finish-a-physical-inventory-recording.md)   
- [Physical Inventory Recording - Counting Physical Inventory](../physical-inventory-recording-counting-physical-inventory.md)
+ [How to: Enter Physical Inventory Orders](how-to-enter-physical-inventory-orders.md)   
+ [How to: Finish a Physical Inventory Recording](how-to-finish-a-physical-inventory-recording.md)   
+ [Physical Inventory Recording - Counting Physical Inventory](physical-inventory-recording-counting-physical-inventory.md)

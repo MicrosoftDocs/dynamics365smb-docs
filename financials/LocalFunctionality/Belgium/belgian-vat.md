@@ -16,7 +16,7 @@
 
 ---
 # Belgian VAT
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] includes Belgium enhancements to VAT reporting feature that enables you to print VAT transaction details. You must send the following reports to the Belgian tax authorities:  
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] ../../includes Belgium enhancements to VAT reporting feature that enables you to print VAT transaction details. You must send the following reports to the Belgian tax authorities:  
   
 -   Monthly\/Quarterly declaration - This report is used to create monthly or quarterly VAT declarations, depending on your company revenue.  
   
@@ -34,6 +34,6 @@
  If you select the Incl. Non Deductible VAT field in a VAT statement line, non-deductible VAT is included in the VAT amount. The **Calc. and Post VAT Settlement** report adds the non-deductible part of that amount to the **Non Ded. VAT Amount** and **Non Ded. Source Curr. VAT Amt.** fields in the resulting VAT entries.  
   
 ## See Also  
- [Belgium Local Functionality](../belgium-local-functionality.md)   
- [How to: Print Periodic VAT Reports](../how-to-print-periodic-vat-reports.md)   
- [How to: Set Up Non-Deductible VAT](../how-to-set-up-non-deductible-vat.md)
+ [Belgium Local Functionality](belgium-local-functionality.md)   
+ [How to: Print Periodic VAT Reports](how-to-print-periodic-vat-reports.md)   
+ [How to: Set Up Non-Deductible VAT](how-to-set-up-non-deductible-vat.md)

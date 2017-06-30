@@ -41,7 +41,7 @@ After you have created a physical inventory order, you can enter dimensions for 
 7.  In the **Edit Dimension Set Entries** window, optionally, enter the dimensions for the inventory order line.  
 
 ## See Also  
- [How to: Enter Physical Inventory Orders](../how-to-enter-physical-inventory-orders.md)   
- [How to: Post Physical Inventory Orders](../how-to-post-physical-inventory-orders.md)   
+ [How to: Enter Physical Inventory Orders](how-to-enter-physical-inventory-orders.md)   
+ [How to: Post Physical Inventory Orders](how-to-post-physical-inventory-orders.md)   
  Phys. Invt. Order Diff. List   
  [Dimension Set Entries Overview](design-details-dimension-set-entries-overview.md)

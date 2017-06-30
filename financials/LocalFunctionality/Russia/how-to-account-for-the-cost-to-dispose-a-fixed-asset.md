@@ -60,5 +60,5 @@ The maintenance on disposal feature enables you to account for the amount spent 
   
 ## See Also  
  Fixed Asset Setup   
- [Fixed Assets Accounting Setup](../fixed-assets-accounting-setup.md)   
+ [Fixed Assets Accounting Setup](fixed-assets-accounting-setup.md)   
  Fixed Asset Card

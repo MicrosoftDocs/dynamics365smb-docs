@@ -16,7 +16,7 @@
 
 ---
 # Item Documents
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] includes several documents that you can use to manage your warehouse. This also includes reports that you must submit for official reporting, such as the Item Report TORG-29, Items Receipt Act TORG-1, and Receipt Deviations TORG-2 reports.  
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] ../../includes several documents that you can use to manage your warehouse. This also ../../includes reports that you must submit for official reporting, such as the Item Report TORG-29, Items Receipt Act TORG-1, and Receipt Deviations TORG-2 reports.  
   
  The following types of documents are useful for managing your warehouse:  
   
@@ -175,9 +175,9 @@
      On the **Home** tab, in the **Print** group, choose **Print**.  
   
 ## See Also  
- [Inventory Setup](../inventory-setup.md)   
- [Item Obligatory Acts](../item-obligatory-acts.md)   
- [Item General Ledger Turnover](../item-general-ledger-turnover.md)   
+ [Inventory Setup](inventory-setup.md)   
+ [Item Obligatory Acts](item-obligatory-acts.md)   
+ [Item General Ledger Turnover](item-general-ledger-turnover.md)   
  Item Report TORG-29   
  Items Receipt Act TORG-1   
  Receipt Deviations TORG-2   

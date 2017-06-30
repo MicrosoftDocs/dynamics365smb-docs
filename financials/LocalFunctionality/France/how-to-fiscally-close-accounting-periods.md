@@ -34,7 +34,7 @@ When a fiscal period is complete, you can fiscally close the period to make sure
  When the period is fiscally closed, the Fiscally Closed field is selected, and the Fiscal Closing Date field is updated for the period.  
   
 ## See Also  
- [How to: Close Years](../how-to-close-years.md)   
- [How to: Fiscally Close Years](../how-to-fiscally-close-years.md)   
- [How to: Reopen Accounting Periods](../how-to-reopen-accounting-periods.md)   
- [Fiscal Periods and Fiscal Years](../fiscal-periods-and-fiscal-years.md)
+ [How to: Close Years](how-to-close-years.md)   
+ [How to: Fiscally Close Years](how-to-fiscally-close-years.md)   
+ [How to: Reopen Accounting Periods](how-to-reopen-accounting-periods.md)   
+ [Fiscal Periods and Fiscal Years](fiscal-periods-and-fiscal-years.md)

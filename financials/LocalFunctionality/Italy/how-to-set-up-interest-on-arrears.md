@@ -48,12 +48,12 @@ For each finance charge term, you can specify how interest on arrears must be ca
   
 2.  Select the customer to whom interest on arrears must be applied, and then, on the **Home** tab, in the **Manage** group, choose **Edit**.  
   
-3.  On the **Payments** FastTab, in the **Int. on Arrears Code** field, select the appropriate finance charge term that includes interest on arrears.  
+3.  On the **Payments** FastTab, in the **Int. on Arrears Code** field, select the appropriate finance charge term that ../../includes interest on arrears.  
   
 4.  Choose the **OK** button.  
   
 ## See Also  
- [Interest on Arrears Overview](../interest-on-arrears-overview.md)   
+ [Interest on Arrears Overview](interest-on-arrears-overview.md)   
  Finance Charge Terms   
  Interest on Arrears Window   
  Int. on Arrears Code   

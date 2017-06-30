@@ -37,7 +37,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use the **Posted S
 3.  Choose the **OK** button.  
   
 ## See Also  
- [How to: View Posted Tax Credit Memos](../how-to-view-posted-tax-credit-memos.md)   
+ [How to: View Posted Tax Credit Memos](how-to-view-posted-tax-credit-memos.md)   
  Sales Tax Invoice Line   
  Purch. Tax Inv. Line   
  Sales Invoice   

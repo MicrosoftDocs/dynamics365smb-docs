@@ -16,7 +16,7 @@
 
 ---
 # Application Design
-This content contains detailed technical information about complex feature areas in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+This content contains detailed technical information about complex feature areas in [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
 
  Design details content is aimed at implementers, developers, and super users who need deeper insight to implement, customize, or set up the feature area in question.  
 

@@ -16,7 +16,7 @@
 
 ---
 # General Ledger
-[!INCLUDE[emptyBookNodeText](includes/emptybooknodetext_md.md)]
+[!INCLUDE[emptyBookNodeText](../../../includes/emptybooknodetext_md.md)]
 
 ## See Also
 [How to: Apply and Unapply General Ledger Entries](how-to-apply-and-unapply-general-ledger-entries.md)  

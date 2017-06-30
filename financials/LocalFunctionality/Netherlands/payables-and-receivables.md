@@ -16,7 +16,7 @@
 
 ---
 # Payables and Receivables
-[!INCLUDE[emptyBookNodeText](includes/emptybooknodetext_md.md)]
+[!INCLUDE[emptyBookNodeText](../../includes/emptybooknodetext_md.md)]
 
 ## See Also
 [Check Purchase Amounts](check-purchase-amounts.md)  

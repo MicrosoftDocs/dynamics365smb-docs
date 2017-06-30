@@ -16,7 +16,7 @@
 
 ---
 # Tax
-[!INCLUDE[emptyBookNodeText](includes/emptybooknodetext_md.md)]  
+[!INCLUDE[emptyBookNodeText](../../includes/emptybooknodetext_md.md)]  
 
 ## See Also
 [Australia Local Functionality](../australia-local-functionality.md)  
@@ -32,5 +32,3 @@
 [How to: Adjust Settlement Exchange Rates for VAT Entries](how-to-adjust-settlement-exchange-rates-for-vat-entries.md)  
 [How to: View Posted Tax Invoices](LocalFunctionalityForMicrosoftDynamicsNav2016/how-to-view-posted-tax-invoices.md)  
 [How to: View Posted Tax Credit Memos](LocalFunctionalityForMicrosoftDynamicsNav2016/how-to-view-posted-tax-credit-memos.md)
-
- 

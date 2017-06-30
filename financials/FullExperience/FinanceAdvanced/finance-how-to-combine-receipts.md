@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Combine Receipts
 If you want to invoice more than one purchase receipt at a time, you can use the **Combine Receipts** function.  
   

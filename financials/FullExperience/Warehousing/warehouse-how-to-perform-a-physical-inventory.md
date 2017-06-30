@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Perform a Physical Inventory
 You must take a physical inventory, that is, count the actual items on hand, to check if the quantity registered is the same as the physical quantity in stock at the end of a fiscal year, if not more often. If there are differences, you must post them to the item accounts before you do the inventory valuation.  
   

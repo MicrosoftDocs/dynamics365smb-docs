@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create Sales Credit Memos
 A sales credit memo is typically used when a customer returns an item, but it can also be used to give a customer compensation such as a sales allowance and to correct an erroneous invoice.  
   

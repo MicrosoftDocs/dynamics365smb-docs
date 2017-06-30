@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Change the Annual Amount on Service Contracts or Contract Quotes
 You can change the annual amount of the service contract or contract quote to correct the amount that will be invoiced annually.  
   

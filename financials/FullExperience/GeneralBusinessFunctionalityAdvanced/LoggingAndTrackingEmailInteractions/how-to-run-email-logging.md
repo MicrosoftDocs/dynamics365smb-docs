@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Run Email Logging
 Email logging can be used to capture email activities between a ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> contact. Both persons must have valid email addresses that are registered on the respective salesperson and contact cards.  
   

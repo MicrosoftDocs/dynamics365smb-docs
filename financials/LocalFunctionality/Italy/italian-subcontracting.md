@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Italian Subcontracting
 Companies contracted for production often outsource the production of components to subcontractors. In order to know how many components to transfer to the subcontractor, there is a link between the subcontractors' operations and the BOM. This facilitates Master Production Scheduling \(MPS\) and Material Requirements Planning \(MRP\), and enables contractors to manage their outsourced and subcontracted components.  
   

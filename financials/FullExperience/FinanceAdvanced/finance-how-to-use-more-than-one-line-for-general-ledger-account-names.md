@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Use More Than One Line for General Ledger Account Names
 If necessary, you can use more than one line for a general ledger account name.  
   

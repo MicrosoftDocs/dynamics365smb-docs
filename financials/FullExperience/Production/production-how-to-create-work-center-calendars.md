@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create Work Center Calendars
 A work center calendar specifies the working days and hours, shifts, holidays, and absences that determine the work center’s gross available capacity, measured in time, according to its defined efficiency and capacity values. Creating and enabling a work center calendar involves several preparatory tasks.  
   

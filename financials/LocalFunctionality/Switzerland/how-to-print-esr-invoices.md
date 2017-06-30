@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Print ESR Invoices
 You can print an Einzahlungsschein mit Referenznummer \(ESR\) payment slip in the following ways:  
   

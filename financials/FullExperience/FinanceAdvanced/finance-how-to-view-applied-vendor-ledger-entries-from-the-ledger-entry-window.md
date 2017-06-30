@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: View Applied Vendor Ledger Entries from the Ledger Entry Window
 After entries have been completely or partially closed, during posting or at a later time, you can see the entries that a given entry was applied to in the **Applied Vendor Entries** window.  
   

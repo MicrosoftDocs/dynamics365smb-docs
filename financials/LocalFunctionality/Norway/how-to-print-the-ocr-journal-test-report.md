@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Print the OCR Journal - Test Report
 You can print the **\($ R\_15000100 OCR Journal – Test $\)** report to test the imported payment transactions in the cash receipt journal. You can also view potential warnings and reconcile conflicts before the payments are posted to the journal.  
   

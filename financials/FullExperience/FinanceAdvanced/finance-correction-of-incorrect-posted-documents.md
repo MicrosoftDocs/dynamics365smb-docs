@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Correction of Incorrect Posted Documents
 If you have posted a document, for example a purchase order, and you discover that some of the information on the lines was incorrect, you can correct this posted document.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Global Dimensions
 A global dimension is a dimension that you can use as a filter anywhere in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->. You can set up two dimensions as global dimensions. Choose the two dimensions that you will use most frequently in your reports. You can, however, use any dimension as a filter in the **Analysis by Dimensions** window.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Enter Basic Information on Reverse Charge VAT for Purchases
 In order to correctly handle VAT on purchases from the EU, you must set up at least one VAT business posting group for reverse charge VAT.  
   

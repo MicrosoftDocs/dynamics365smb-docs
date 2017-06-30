@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Item Tracking Availability
 When you work with lot or serial numbers, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> calculates availability information for lot and serial numbers and shows it in the various item tracking windows. This lets you see how much of a lot or serial number is currently being used on other documents. This reduces errors and uncertainty caused by double allocations.  
   

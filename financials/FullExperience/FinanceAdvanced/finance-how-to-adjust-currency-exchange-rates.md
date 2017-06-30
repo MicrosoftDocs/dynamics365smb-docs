@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Adjust Currency Exchange Rates
 There are no requirements for when or how often you should enter new exchange rates. Before you can update exchange rates, you must set up currency codes and currency exchange rates.  
   

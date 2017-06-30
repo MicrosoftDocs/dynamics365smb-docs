@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Example - Different Machine Centers Assigned  to a Work Center
 It is important to plan which capacities are to make up the total capacity when setting up the machine centers and work centers.  
   

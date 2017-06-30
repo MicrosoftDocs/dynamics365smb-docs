@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Warehouse Management
 Before you can use warehouse documents to control your inventory movements, you must set up certain criteria in the **Warehouse Mgt. Setup** window.  
   

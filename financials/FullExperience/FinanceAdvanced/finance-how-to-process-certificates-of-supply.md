@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Process Certificates of Supply
 When you sell goods to a customer in another EU country\/region, you must send the customer a certificate of supply that the customer must sign and return to you.  
   

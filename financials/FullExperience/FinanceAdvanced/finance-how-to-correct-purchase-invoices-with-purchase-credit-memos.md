@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Correct Purchase Invoices with Purchase Credit Memos
 If you have posted an erroneous purchase invoice, you can correct it by issuing a purchase credit memo.  
   

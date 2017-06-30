@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Post Scrap Manually
 If scrap is produced during processing, it can be entered in the output journal. Note that the scrap quantity does not increase the output quantity.  
   

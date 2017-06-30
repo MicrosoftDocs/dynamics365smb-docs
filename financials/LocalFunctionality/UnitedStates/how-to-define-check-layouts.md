@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Define Check Layouts
 In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can design your checks to conform with the standards set by the local authorities. Check images can be printed in English, French, or Spanish.  
   

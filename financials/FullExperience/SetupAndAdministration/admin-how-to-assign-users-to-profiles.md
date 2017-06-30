@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Assign Users to Profiles
 Be sure that the users you add to a profile have roles \(that is, database permissions\) that are consistent with the Role Center that is linked with the profile.  
   

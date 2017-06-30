@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Import Customer Data
 After the customer data has been entered in the data migration files in Excel, you import the files into ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
   

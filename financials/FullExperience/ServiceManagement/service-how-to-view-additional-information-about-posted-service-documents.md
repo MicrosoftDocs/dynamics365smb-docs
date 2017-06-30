@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: View Additional Information About Posted Service Documents
 When you post a service invoice, a service shipment, or a service credit memo, the information on the document is transferred to the **Posted Service Invoice**, **Posted Service Shipment**, or **Posted Service Credit Memo** windows respectively. You cannot enter, change, or delete anything in these windows. You can print a shipment, invoice, or credit memo from these windows.  
   

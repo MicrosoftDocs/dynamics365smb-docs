@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Post SEPA Direct Debit Payment Receipts
 When a direct debit collection is successfully processed by your bank, you can proceed to post receipt of the payment for the involved sales invoices. For more information, see [How to: Create SEPA Direct Debit Collection Entries and Export to a Bank File](../how-to-create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file.md).  
   

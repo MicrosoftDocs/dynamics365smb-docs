@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up a Future Expense Card
 To account for future period expenses you have to set up a future expense card.  
   

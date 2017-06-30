@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Localize Intrastat Reporting
 You must localize Intrastat reporting to be legally compliant. The code for the shipment method must be transferred from the Intrastat journal.  
   

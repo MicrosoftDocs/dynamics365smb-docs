@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Enter New Values When Revaluing Items
 If you want to change the inventory value of an item or that of a specific receipt, you must use the revaluation journal.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Assemble to Order or Assemble to Stock
 Assembly items can be supplied in the following two processes:  
   

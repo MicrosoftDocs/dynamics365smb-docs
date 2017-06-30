@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Enable the Invoice Rounding Function
 To make sure that sales and purchase invoices are rounded automatically, you must activate the invoice rounding function.  
   

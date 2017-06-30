@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Allocate Resources by Using the Dispatch Board
 When you have created and fulfilled a number of service orders and service quotes, you can use the **Dispatch Board** window to allocate resources, for example, technicians, to perform service tasks registered as service item lines in the documents.  
   

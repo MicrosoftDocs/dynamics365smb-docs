@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Transfer and Post Cost Entries
 Before you define cost allocations, you must understand how cost entries come from the following sources:  
   

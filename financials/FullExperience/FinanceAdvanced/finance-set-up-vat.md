@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Set Up VAT
 Similar to the general posting setup described in **Set Up Posting Groups**, you must define one or more VAT business posting groups and assign one of them to each general ledger, customer, and vendor account. You must also set up one or more VAT product posting groups and assign one of them to each item and resource account. After you have set up the groups, you must set up the necessary combinations of the groups in the VAT posting setup. For each combination, specify the VAT percentage, and general ledger accounts for sales VAT, purchase VAT, and, if needed, reverse charge VAT.  
   

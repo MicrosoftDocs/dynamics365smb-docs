@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Defining the Relationship Between Cost Types and General Ledger Accounts
 The relationship between the cost type and the general ledger account is created in the cost type and in the general ledger account.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Batch Post Purchase Orders, Invoices, and Credit Memos
 If you have set up a large number of purchase orders, it is an advantage to post them with a batch job in the program. You can have them posted at night or at another time when it is convenient.  
   

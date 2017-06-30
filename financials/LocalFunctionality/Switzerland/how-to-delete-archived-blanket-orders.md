@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Delete Archived Blanket Orders
 You can delete the archived versions of deleted blanket sales orders and blanket purchase orders.  
   

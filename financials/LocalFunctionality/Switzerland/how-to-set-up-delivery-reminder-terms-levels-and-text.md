@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Delivery Reminder Terms, Levels, and Text
 To create delivery reminders, you must set up the following:  
   

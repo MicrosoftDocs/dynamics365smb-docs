@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Print Bank Account Reconciliation Reports
 The **Bank Account Reconciliation** report displays open bank ledger entries as unpresented checks or unrecorded deposits.  
   

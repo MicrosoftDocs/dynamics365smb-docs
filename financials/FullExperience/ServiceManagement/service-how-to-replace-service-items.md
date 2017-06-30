@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Replace Service Items
 If you cannot repair a service item, you may have to replace the service item either temporarily or permanently.  
   

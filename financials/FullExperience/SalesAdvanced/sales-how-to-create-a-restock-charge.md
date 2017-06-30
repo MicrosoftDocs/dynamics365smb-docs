@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create a Restock Charge
 You may decide to charge your customer a restock fee to cover the physical handling costs of returning an item. This could occur if the customer mistakenly ordered the wrong item or changed their mind after receiving the item you sold them, for example.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Types of Payment Returns Files
 ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> includes two types of payment return files that can be imported:  
   

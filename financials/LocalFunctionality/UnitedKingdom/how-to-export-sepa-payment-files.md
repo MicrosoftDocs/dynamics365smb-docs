@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Export SEPA Payment Files
 The following procedure describes how to export a SEPA payment file, one of the payment options supported by ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->. The procedure describes how to create a payment for a vendor, but the same steps also apply to creating payments for a customer.  
   

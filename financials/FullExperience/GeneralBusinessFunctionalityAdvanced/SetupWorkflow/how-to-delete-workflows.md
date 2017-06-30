@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Delete Workflows
 If you are certain that a workflow is no longer being used, you can delete it. All workflow step instances that are defined in the workflow must have status **Completed**.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Handle Customer Inquiries
 A service management application must interface with a customer request for service. That service request usually is translated into a service order. ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> provides tools to create an order both directly in response to a customer request or as part of the contract process, if that is how your application is set up.  
   

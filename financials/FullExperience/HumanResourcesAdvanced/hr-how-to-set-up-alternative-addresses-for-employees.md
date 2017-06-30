@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Alternative Addresses for Employees
 You can use alternative addresses to keep track of your employees’ location, for example if they are stationed abroad, on a long business trip, or residing at a summer residence.  
   

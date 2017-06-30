@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Design Details: Maximum Qty.
 The Maximum Quantity policy is a way to maintain inventory using a reorder point.  
   

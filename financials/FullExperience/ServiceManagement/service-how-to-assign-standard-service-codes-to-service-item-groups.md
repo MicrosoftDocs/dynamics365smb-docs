@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Assign Standard Service Codes to Service Item Groups
 You may often need to create service documents with service lines that contain similar information. You can have these lines inserted automatically if you set up standard service codes with service lines linked to them, and then assign the codes to service item groups.  
   

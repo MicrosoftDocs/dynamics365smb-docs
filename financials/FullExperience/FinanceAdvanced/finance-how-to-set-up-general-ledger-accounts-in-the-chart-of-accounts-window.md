@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up General Ledger Accounts in the Chart of Accounts Window
 If you want to set up a completely new chart of accounts or add new accounts to an existing one, you must set up each account individually. When you set up a completely new chart of accounts, it is easier to use the **Chart of Accounts** window.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Change Skill Codes for Service Items
 You may want to change the skill codes assigned to service items, for example, **PC** to **PCS**. The procedure for changing skill codes is similar to the process of assigning skill codes.  
   

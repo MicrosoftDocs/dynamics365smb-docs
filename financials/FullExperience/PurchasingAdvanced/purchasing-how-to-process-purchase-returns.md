@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Process Purchase Returns
 Purchase returns are used to ensure that your company is compensated for incorrect or damaged items that you receive from your vendors.  
   

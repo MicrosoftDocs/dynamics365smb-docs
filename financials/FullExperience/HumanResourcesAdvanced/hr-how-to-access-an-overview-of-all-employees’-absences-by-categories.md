@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Access an Overview of All Employees’ Absences by Categories
 You can view all employees’ absences, broken down by periods or categories, from the **Absence Registration** window.  
   

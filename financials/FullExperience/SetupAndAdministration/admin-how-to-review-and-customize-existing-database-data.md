@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Review and Customize Existing Database Data
 As you create a configuration package for a solution, you can view and customize the available database data to suit your customer needs. The database table has to have an associated page.  
   

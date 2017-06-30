@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Design Details: Loading the Inventory Profiles
 To sort out the many sources of demand and supply, the planning system organizes them on two timelines called inventory profiles.  
   

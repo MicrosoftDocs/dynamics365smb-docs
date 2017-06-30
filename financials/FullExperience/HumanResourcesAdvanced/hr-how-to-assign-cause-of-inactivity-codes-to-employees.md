@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Assign Cause of Inactivity Codes to Employees
 You can use cause of inactivity codes to define various reasons for employee inactivity.  
   

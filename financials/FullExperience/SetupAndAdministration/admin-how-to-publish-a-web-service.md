@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Publish a Web Service
 Web services are a lightweight way to make application functionality available to a variety of external systems and users. In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> objects as web services, they are immediately available on the network.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Skill Codes
 You can use the **Skill Codes** window to set up codes for skills that are required to repair and maintain service items. When you allocate resources, for example, technicians, to service items, you can select a resource that has the skills required to service the item.  
   

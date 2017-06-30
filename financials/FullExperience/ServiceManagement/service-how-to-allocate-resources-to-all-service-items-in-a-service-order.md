@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Allocate Resources to All Service Items in a Service Order
 You can allocate the same resource, for example, a technician, or resource group to all the service items in a service order by using the **Resource Allocations** window.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Reserve Items for Sales Lines
 You can reserve items for sales orders. You must have already set up a sales order.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up General Ledger Accounts for Currency Application Rounding Differences
 If you apply entries in different currencies, you must set up the general ledger accounts to which you want to post rounding differences.  
   

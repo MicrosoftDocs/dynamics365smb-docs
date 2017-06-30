@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Summarizing Payment Lines and General Journal Lines
 In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> handles the following types of transactions in the same way:  
   

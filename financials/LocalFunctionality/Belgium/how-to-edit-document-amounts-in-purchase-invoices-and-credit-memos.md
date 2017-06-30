@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Edit Document Amounts in Purchase Invoices and Credit Memos
 ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> lets you easily edit document amounts in purchase invoices and credit memos.  
   

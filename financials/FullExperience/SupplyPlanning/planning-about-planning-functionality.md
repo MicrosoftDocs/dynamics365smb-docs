@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # About Planning Functionality
 The planning system takes all demand and supply data into account, nets the results, and creates suggestions for balancing the supply to meet the demand.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Lend Loaners
 You can lend customers loaners to temporarily replace service items that you have received for servicing.  
   

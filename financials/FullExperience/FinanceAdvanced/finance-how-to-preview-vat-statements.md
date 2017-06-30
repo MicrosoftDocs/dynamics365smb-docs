@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Preview VAT Statements
 After you have defined a VAT statement, you can see a preview of it on the screen.  
   

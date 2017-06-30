@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Enter Time Periods When Machine Centers Cannot Be Used
 You can define time periods where machine centers cannot be used.  
   

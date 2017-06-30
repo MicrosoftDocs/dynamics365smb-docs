@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # About Mapping
 When you apply data that you have imported from Excel or from a RapidStart package, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> treats and handles the mapping depends on table relations:  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Walkthrough: Exporting GDPdU Data
 You can export business data for auditing purposes. How the data export is set up is different for all companies, and you should ask your tax advisor and the tax auditor. The following walkthrough describes the end-to-end process, but it is an example only.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Sales Invoice Discounts and Service Charges
 When you use invoice discounts, the size of the invoice amount determines the size of the discount that is granted.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Holiday Calendars
 After the working days have been created, the exceptions must be specified.  
   

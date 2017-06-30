@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Setup Best Practices: Global Planning Setup
 The **Planning** FastTab in the **Manufacturing Setup** window contains several fields that define global rules for supply planning.  
   

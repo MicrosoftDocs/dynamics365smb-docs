@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up General Business Groups
 You use business group codes to determine posting according to the location \(country\/region\) of the customer or vendor involved in the transaction.  
   

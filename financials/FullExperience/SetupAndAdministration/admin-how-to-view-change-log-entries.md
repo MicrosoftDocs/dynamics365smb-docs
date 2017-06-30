@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: View Change Log Entries
 After you have set up the change log, activated it, and made a change to data, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> logs the change in a change log entry. You can view and filter the changes in the **Change Log Activated** window.  
   

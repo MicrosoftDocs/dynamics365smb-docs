@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # About Company Configuration
 You can provide a customer or prospective customer with an installation of ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> and a selection of configuration packages that can be easily accessed, deployed, modified, and applied to the current company.  
   

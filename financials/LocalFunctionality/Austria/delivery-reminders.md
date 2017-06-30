@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Delivery Reminders
 Delivery reminders are used to track overdue vendor shipments, and to remind vendors about overdue deliveries. To create delivery reminders, you must set up the following:  
   

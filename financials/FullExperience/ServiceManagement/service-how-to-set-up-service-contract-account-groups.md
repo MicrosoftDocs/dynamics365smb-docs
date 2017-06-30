@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Service Contract Account Groups
 You can use the **Service Contract Account Groups** window to set up service contract account groups, which are used to group the service contract accounts together for the service invoices of service contracts. You can then assign these groups to your service contracts.  
   

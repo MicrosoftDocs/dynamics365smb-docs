@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # About Using Locations and Responsibility Centers
 Using Multiple Locations and Responsibility Centers in Product Name provide multi-site companies with the ability to manage their business operations in the most flexible, yet optimal way.  
   

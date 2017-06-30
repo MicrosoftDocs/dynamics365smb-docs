@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Set Up Trail Codes
 All posted entries are automatically assigned a source code so that transactions can be traced to their origin. If you want to give entries a supplementary source code, you can use reason codes. Reason codes are used to indicate why an entry was created. When you set up reason codes, you can assign them to entire journal templates and journal batches, and you can assign them to individual journal lines and documents.  
   

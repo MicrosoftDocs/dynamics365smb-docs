@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create Sales Return Orders
 You may agree to compensate a customer for an item that you sold them by allowing them to return the item.  
   

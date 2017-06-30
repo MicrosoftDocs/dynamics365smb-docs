@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Post Consumption from Service Orders
 The following procedure describes how to post the items, resource hours, and or costs used for a specific service operation for which you will not charge your customer. It is not possible to post consumption before posting shipment and you cannot post consumption for lines where all quantity shipped has already been invoiced. Note that you can post consumed items, hours, or costs only for a posted shipment that has no posted invoices or consumption.  
   

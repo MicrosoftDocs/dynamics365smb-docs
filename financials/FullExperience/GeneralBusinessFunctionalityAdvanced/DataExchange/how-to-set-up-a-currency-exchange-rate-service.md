@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up a Currency Exchange Rate Service
 You can use an external service to keep your for currency exchange rates up to date. For more information, see [How to: Update Currency Exchange Rates from a Service](../how-to-update-currency-exchange-rates-from-a-service.md).  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Schedule Production Activities
 Before starting actual production activities, it is often necessary to fine schedule the rough-cut production schedule that resulted from [Operations Planning](../operations-planning.md). The main part of this work is to fit planned operations into the larger matrix of planned and started operations on multiple production resources along a time line. As a part of constantly maintaining a balanced production schedule, the work may also involve finding ways to better utilize resources to adjust for unforeseen changes in capacity.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Norwegian Giro and OCR-B Font
 A General Interbank Recurring Order \(giro\) is a payment system that operates like a credit transfer.  
   

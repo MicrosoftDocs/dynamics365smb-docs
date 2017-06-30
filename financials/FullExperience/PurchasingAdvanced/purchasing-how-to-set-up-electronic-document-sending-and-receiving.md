@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Alternative Vendor Addresses
 You can associate any number of order addresses with a vendor. Each address is identified by a unique code, and when you use this code on a purchase quote, order, or invoice header, the related address information is printed on the purchase order.  
   

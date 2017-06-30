@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Belgian Tariff Numbers
 The Belgian customs and tax authorities have established an 8-digit item code for various tariff items.  
   

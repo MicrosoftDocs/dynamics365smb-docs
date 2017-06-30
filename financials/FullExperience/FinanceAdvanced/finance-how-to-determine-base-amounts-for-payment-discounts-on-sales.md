@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Determine Base Amounts for Payment Discounts on Sales
 Payment discounts are dependent on when an invoice is paid. They function independently of the other discounts, which are dependent on the item or customer.  
   

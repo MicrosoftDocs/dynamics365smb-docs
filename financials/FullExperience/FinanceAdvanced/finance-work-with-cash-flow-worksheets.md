@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Work with Cash Flow Worksheets
 In the cash flow worksheet, you register the forecasted transactions of cash inflows and outflows periodically with a batch job. You can manually edit the registered cash inflows and outflows and enter additional lines. To handle all this, it is important to learn to work with the cash flow worksheet.  
   

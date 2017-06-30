@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # United States Local Functionality
 The following topics describe the local functionality in the United States version of ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Print Troubleshooting Reports
 The following troubleshooting reports are available to assist Microsoft Certified Partners with troubleshooting issues:  
   

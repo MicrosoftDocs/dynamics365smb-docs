@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Process Consolidations
 This topic provides a high-level overview of how you can work through the consolidation process.  
   

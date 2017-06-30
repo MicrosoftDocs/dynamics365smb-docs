@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Service Contract Account Groups
 In the **Service Contract Account Group** window, you can view, change, or create your service contract account groups, and assign them to service contracts. Service contract account groups are used to group the service contract accounts. Service contract accounts are used for the service invoices of service contracts.  
   

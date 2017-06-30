@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Belgium Local Functionality
 The following topics describe the local functionality in the Belgian version of ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Budgets
 ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> provides budget functions so that you can plan and work with budgets.  
   

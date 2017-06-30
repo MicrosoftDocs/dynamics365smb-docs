@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Certificates of Supply
 When you sell goods to a customer in another EU country\/region, the customer must confirm receipt before you can deduct VAT or calculate zero VAT according to the rules for intra-community trade.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Print Payment Files
 After you have printed a test report and corrected all errors, you can print the payment journal lines to a payment file.  
   

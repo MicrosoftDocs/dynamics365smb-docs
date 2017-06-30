@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Generate Payment Suggestions
 After you have set up electronic banking, you can start generating payment suggestions. You can do this in the payment journal.  
   

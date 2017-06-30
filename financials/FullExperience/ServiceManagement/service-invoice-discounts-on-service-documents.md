@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Invoice Discounts on Service Documents
 After all the information has been entered on the service lines, you can calculate the invoice discount for the whole service document by using the **Calculate Invoice Discount** function. If the **Calc. Inv. Discount** check box is selected in the **Sales & Receivables Setup** window, the amount will be calculated automatically.  
   

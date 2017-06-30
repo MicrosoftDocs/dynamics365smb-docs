@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Codeunit 12 Changes: Changes in General Journal Post Procedures
 The following changes have been implemented in this release of ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Payment Addresses
 To use payment management, you must set up payment addresses that will be used for vendors and customers at the time of settlement. The payment address can differ from the default address.  
   

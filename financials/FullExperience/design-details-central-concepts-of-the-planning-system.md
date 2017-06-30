@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Design Details: Balancing Supply with Demand
 The core of the planning system involves balancing demand and supply by means of suggesting user actions to revise the supply orders in case of imbalance. This takes place per combination of variant and location.  
   

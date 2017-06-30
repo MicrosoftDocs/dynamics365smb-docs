@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Migrate Customer Data
 You can migrate existing customer data from an existing ERP system to ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/rimlong_md.md)]-->. You can use Excel .xlsx files as the data carrier. You can also manually move the data by entering it directly into the company.  
   

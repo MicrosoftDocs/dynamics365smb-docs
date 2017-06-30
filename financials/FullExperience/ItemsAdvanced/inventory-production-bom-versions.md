@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Production BOM Versions
 The production BOMs support the version principle which is explained below.  
   

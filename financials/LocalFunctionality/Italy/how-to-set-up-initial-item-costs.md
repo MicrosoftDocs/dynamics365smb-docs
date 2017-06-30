@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Initial Item Costs
 When you set up ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> in your organization.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Terminology in Cost Accounting
 This topic defines the key terms that are used in cost accounting.  
   

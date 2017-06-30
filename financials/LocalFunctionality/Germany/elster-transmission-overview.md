@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # ELSTER Transmission Overview
 When a user submits a sales VAT advance notification from ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> to the Elektronische Steuererklärungen \(ELSTER\) online portal, the Microsoft.Dynamics.ElsterTransferHandler assembly processes the document and then transmits it to ELSTER. The following section describes technical aspects of submitting documents to ELSTER.  
   

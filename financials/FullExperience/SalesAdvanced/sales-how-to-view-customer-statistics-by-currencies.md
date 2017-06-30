@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: View Customer Statistics by Currencies
 When you have posted an invoice in multiple currencies, you can see the customer’s status for each currency for which there are transactions.  
   

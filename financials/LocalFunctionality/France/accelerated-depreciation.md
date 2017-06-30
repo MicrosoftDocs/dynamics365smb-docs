@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Accelerated Depreciation
 Accelerated depreciation is calculated based on the differences between the accounting depreciation book and the tax depreciation book fixed asset, during the life of the fixed asset.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Reverse Journal Postings
 To undo an erroneous journal posting, select the entry and create a reverse  entry \(entries identical to the original entry but with opposite sign in the amount field\) with the same document number and posting date as the original entry. After reversing an entry, you must make the correct entry.  
   

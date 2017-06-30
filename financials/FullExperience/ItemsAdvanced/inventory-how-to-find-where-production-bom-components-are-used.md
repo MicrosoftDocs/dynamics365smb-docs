@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Find Where Production BOM Components Are Used
 The where-used option displays where a component is used.  
   

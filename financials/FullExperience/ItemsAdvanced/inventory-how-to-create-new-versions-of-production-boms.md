@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create New Versions of Production BOMs
 New versions of production BOMs are used when, for example, an item is replaced by another item, or when a customer requires a special version of a product.  
   

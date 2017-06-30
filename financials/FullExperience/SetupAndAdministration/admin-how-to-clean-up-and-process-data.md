@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Clean Up and Process Data
 In some cases, you may want to clean up customer data and process it before you apply it to the database. To do that, you can customize report 8621 to fix issues, such as:  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Payment Scenarios
 Based on a sales or purchase invoice or credit memo a proposal can be generated and exported in order to be processed by our bank.  
   

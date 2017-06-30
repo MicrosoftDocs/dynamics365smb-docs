@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Insert Travel Fees for Service Items
 When working on service items in service orders, you may need to register travel fees for the service of specific service items. The following procedure shows how to insert fees for travel to the service zone of the customer in the service order in the **Service Item Worksheet** window.  
   

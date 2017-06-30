@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Perform Material Requirements Planning
 To establish executable supply orders to meet all dependent and independent demand, you must plan for material requirements on all product levels. The material requirements plan, created with the Calculate MRP option, considers production BOM data, inventory levels, and the [master production schedule](../perform-master-planning.md).  
   

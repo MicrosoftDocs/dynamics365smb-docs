@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Dimension Set Entries Overview
 This topic describes how dimension set entries are stored and posted in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
   

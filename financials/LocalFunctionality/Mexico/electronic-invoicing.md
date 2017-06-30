@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Electronic Invoicing
 Mexican companies must be able to send invoices electronically as Comprobante Fiscal Digital por Internet \(CFDI\) files. ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> supports CFDI so that you can export sales and service invoices and credit memos as electronic documents that have the required digital signature.  
   

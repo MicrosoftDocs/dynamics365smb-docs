@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Modify Bin Content
 You may at times need to modify bin content to update the details of a bin content entry.  
   

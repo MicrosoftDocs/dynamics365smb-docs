@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Use Permanent Invoicing Addresses for Vendors
 When you purchase goods, you usually receive the invoice from the person or company that you ordered the goods from. But at times, you may receive the invoice from a different vendor. If you need to register invoices that are received from an alternative vendor, you can set up a pay-to vendor permanently on a vendor card.  
   

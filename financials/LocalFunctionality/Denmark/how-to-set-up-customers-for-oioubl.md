@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Customers for OIOUBL
 To create Offentlig Information Online UBL \(OIOUBL\) documents for customers in the public sector, you must add OIOUBL information to the relevant customers.  
   

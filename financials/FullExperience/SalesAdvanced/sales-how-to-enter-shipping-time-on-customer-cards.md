@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Enter Shipping Time on Customer Cards
 If you want to include a shipping time in the order promising calculation on the sales line, you can enter it as a default for each customer.  
   

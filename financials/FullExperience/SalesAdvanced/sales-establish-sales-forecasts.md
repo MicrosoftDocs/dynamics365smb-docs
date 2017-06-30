@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Establish Sales Forecasts
 You can use the following features to plan for future sales:  
   

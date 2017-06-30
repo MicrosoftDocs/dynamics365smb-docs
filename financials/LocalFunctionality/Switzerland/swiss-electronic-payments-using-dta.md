@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Swiss Electronic Payments Using DTA
 In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can make electronic payments for invoices using the DatenTrägerAustausch \(DTA\) electronic payment method. Swiss banks use the DTA electronic payment method to settle payments efficiently using standardized payment records. This method is based on data carriers and data transfer. This electronic service allows you to convert payments electronically in DTA format, and then submit them to your bank for payment.  
   

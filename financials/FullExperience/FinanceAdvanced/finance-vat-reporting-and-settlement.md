@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # VAT Reporting and Settlement
 ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> contains some special tables to manage the tasks necessary for settling VAT and reporting to the customs and tax authorities.  
   

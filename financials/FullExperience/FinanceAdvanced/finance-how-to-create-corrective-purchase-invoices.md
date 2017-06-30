@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create Corrective Purchase Invoices
 If you have posted a purchase return order as shipped, but the item is subsequently rejected, you must invoice the purchase return order to complete the transaction. ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> creates a posted purchase credit memo in the process. Then you can issue a corrective purchase invoice to counter the posted purchase credit memo.  
   

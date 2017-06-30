@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Enter and Post Cash and Bank or Giro Journals
 In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can use the cash and bank journals to enter the transactions that affect the cash and bank accounts by using **Cash Book** and **Bank Book**.  
   

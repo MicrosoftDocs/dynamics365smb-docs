@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Import and Export Account Schedules
 ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> enables you to import and export account schedules into other companies and databases.  
   

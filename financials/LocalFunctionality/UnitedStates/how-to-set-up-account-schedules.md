@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Account Schedules
 You can use account schedules to arrange and organize accounts in the chart of accounts. For more information, see the Acc. Schedule Name table.  
   

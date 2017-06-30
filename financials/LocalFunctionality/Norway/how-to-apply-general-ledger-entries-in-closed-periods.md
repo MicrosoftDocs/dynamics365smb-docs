@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Apply General Ledger Entries in Closed Periods
 ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> allows you to post entries after a posting period is closed, even if no actual posting is performed during that period. You can also choose the users who will make these entries.  
   

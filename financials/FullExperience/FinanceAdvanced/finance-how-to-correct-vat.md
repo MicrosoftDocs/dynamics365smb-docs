@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Correct VAT
 You can make corrections to already posted VAT entries and change the total sales or purchase VAT amounts without changing the VAT base. You may need to do this, for example, if you receive an invoice from a vendor that has calculated VAT incorrectly.  
   

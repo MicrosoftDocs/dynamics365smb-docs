@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Collect Outstanding Balances
 Management of receivables includes checking whether amounts due are paid on time. If customers have overdue payments, you must decide when and how to send them a reminder. In addition, you may want to debit their accounts for interest or fees.  
   

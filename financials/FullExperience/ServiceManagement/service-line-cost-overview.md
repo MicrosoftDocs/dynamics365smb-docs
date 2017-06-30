@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Line Cost Overview
 The **Line Cost** field is filled in as described in the following table.  
   

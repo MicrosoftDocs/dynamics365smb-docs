@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Automatically Transfer and Post CODA Statements
 After you have applied and processed all CODA statement lines, you can transfer the CODA statement lines to a financial journal.  
   

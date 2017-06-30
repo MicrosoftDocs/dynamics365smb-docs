@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Reverse Preliminary Invoices by Using Inward Registration
 Reverse an inward registration if you want to cancel it, for example, because you do not need the preliminary purchase invoice. For more information, see Inward Registration.  
   

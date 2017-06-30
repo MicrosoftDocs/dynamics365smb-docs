@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Design Details: Inventory Posting
 Each inventory transaction, such as a purchase receipt or a sales shipment, posts two entries of different types.  
 

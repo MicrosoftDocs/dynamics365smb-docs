@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up SMTP Email
 To send e-mails from ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> using an SMTP server, you must fill the **SMTP Mail Setup** window.  
   

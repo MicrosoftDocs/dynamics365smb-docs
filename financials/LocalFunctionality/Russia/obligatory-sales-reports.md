@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Obligatory Sales Reports
 The obligatory sales reports feature enables you to print the following reports:  
   
@@ -59,7 +59,7 @@ The obligatory sales reports feature enables you to print the following reports:
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ------------|-----------------|  
+------------|-----------------|  
 |Order Factura-Invoice report|Printed in portrait form from sales documents that are not yet posted.|  
 |Order Factura-Invoice \(A\) report|Printed in portrait form from sales documents that are not yet posted.|  
 |Posted Factura-Invoice report|Printed in portrait form from posted sales documents that are not yet posted.|  

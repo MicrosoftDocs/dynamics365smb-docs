@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Multiple Contracts
 Depending on your service level agreements with a customer, you may have to handle a service item under more than one service contract.  
   

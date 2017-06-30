@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Undo Service Consumption
 You may need to cancel the consumption on the service order because it was posted by mistake.  
   

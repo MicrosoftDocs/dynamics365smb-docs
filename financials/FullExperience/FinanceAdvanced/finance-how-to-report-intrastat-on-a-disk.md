@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Report Intrastat on a Disk
 You can submit the Intrastat report on a disk. Before creating the file, you can print a checklist that contains the same information that will be in the file.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # About Posting Sales
 In the **Posting** group on a sales document, you can choose between the following posting functions:  
   

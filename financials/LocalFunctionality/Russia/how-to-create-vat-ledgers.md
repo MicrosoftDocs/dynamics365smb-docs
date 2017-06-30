@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create VAT Ledgers
 You can create and store any number of VAT ledgers. For example, you can create the following:  
   

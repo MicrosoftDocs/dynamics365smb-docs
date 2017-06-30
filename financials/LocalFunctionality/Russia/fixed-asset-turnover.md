@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Fixed Asset Turnover
 The fixed asset turnover feature enables you to:  
   

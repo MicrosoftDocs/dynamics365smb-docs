@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Limit the Posting Period
 In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can limit the period by which posting is permitted on three different levels: **by company**, **by user**, and **by template**.  
   

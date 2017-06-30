@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Print Periodic VAT Reports
 The VAT reporting feature enables you to print VAT transaction details. You must send the following VAT reports to the Belgian tax authorities:  
   
@@ -47,7 +47,7 @@ The VAT reporting feature enables you to print VAT transaction details. You must
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---------------------------------|---------------------------------------|  
+---------------------------------|---------------------------------------|  
     |**\($ R\_11308\_F\_1\_3 Wrong Enterprise No. $\)**|Specifies if you want to print the report that has erroneous enterprise numbers.|  
     |**\($ R\_11308\_F\_1\_5 VAT Annual Listing $\)**|Specifies if you want to print the **VAT Annual Listing** report.|  
     |**\($ R\_11308\_F\_1\_6 Year $\)**|Enter the year of the period for which you want to print the report. You should enter the year as a 4 digit code. For example, to print a declaration for 2013, you should enter "2013" \(instead of "13"\).|  

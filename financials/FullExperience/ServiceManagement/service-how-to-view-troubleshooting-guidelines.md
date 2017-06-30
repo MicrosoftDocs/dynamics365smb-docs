@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: View Troubleshooting Guidelines
 When you register service item lines in service orders or quotes, you can view troubleshooting guidelines for the service items in the **Troubleshooting** window.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Error Messages of the ElsterTransferHandler
 When ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> submits sales VAT advance notifications, errors can occur.  
   

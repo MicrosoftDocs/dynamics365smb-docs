@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Convert Service Quotes to Service Orders
 When a customer has accepted a service quote, you convert it to a service order.  
   

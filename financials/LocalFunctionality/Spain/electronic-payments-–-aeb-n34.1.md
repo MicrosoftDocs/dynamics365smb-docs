@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Electronic Payments – AEB N34.1
 With the electronic payments functionality, you can pay vendors using electronic payments rather than printing paper checks. Electronic payments are exported into a standard AEB N34.1 file format used by most banks in Spain. This file is then transmitted to your bank.  
   

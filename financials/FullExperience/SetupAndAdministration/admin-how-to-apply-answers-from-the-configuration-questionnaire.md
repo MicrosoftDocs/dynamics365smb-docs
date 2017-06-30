@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Apply Answers from the Configuration Questionnaire
 After you have imported and validated information from a setup questionnaire, you can transfer, or apply the setup data to the corresponding tables in the ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> database.  
   

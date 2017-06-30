@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: File Service Contracts and Contract Quotes
 You can file service contracts and contract quotes at any time to record and archive a copy of the contract or contract quote. ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> files service contracts automatically when you convert contract quotes to service contracts or cancel service contracts.  
   

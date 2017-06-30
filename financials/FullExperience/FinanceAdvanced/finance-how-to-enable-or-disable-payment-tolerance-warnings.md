@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Enable or Disable Payment Tolerance Warnings
 The payment tolerance warning appears when you post an application that has a balance in the allowed tolerance. You can then choose how you want to post and document the balance.  
   

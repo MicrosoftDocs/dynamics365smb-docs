@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Work Center Groups
 The work center groups offer you the possibility for classifying work groups. Setting up work center groups and the assigning work centers does not influence capacity planning.  
   

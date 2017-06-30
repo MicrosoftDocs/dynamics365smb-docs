@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Limits for Due Dates
 You can modify payment terms to have limits for the maximum number of days that can be between a delivery and the corresponding payment.  
   

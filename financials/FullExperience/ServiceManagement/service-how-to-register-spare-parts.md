@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Register Spare Parts
 When working on service items in service orders, you may need to use spare parts for the service. The following procedure shows how to register the spare parts you use in the **Service Item Worksheet** window.  
   

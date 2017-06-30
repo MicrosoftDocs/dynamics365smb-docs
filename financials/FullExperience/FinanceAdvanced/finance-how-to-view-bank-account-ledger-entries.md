@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: View Bank Account Ledger Entries
 After transactions are posted to bank accounts, you can view the entries in the **Bank Account Ledger Entries** window.  
   

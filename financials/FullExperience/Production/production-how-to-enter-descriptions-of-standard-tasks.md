@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Enter Descriptions of Standard Tasks
 You can enter descriptions of standard tasks.  
   

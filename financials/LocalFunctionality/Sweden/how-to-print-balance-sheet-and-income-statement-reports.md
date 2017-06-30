@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Print Balance Sheet and Income Statement Reports
 You can print balance sheet reports and income statement reports to submit to banks and other authorities. The **Balance Sheet** report displays assets, liabilities, and equity. The **Income Statement** report displays income and expenses.  
   

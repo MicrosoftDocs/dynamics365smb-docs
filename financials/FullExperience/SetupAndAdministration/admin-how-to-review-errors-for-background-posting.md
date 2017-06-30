@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Review Errors for Background Posting
 Errors for background posting are easy to determine. ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> provides several options for you to access this information.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Post Import VAT with Purchase Invoices
 Instead of using a general journal to post an import VAT invoice, you can use a purchase invoice.  
   

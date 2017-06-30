@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Cartera Module
 The Cartera module allows you to use specific documents, such as bills of exchange and promissory notes, to manage customer and vendor payments.  
   

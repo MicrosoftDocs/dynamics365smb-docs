@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Access an Overview of Miscellaneous Articles
 You can quickly get an overview of the miscellaneous articles that are in your employees’ possession. This can prove useful when employees resign and must return the company items that are in their possession.  
   

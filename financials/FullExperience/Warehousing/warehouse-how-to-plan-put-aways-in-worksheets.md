@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Plan Put-aways in Worksheets
 If your location requires both put-away and receive processing, and you want to plan put-away instructions for a number of receipts, rather than have employees follow the instructions that the program creates for separate posted receipts, you can use the put-away worksheet.  
   

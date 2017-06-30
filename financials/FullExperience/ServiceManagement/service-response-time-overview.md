@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Response Time Overview
 The **Response Time \(Hours\)** field is automatically filled in, depending on whether the service item is on a service contract.  
   

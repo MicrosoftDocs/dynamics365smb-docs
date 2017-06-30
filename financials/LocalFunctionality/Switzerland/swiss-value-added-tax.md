@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Swiss Value Added Tax
 ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> includes the following enhancements to Swiss VAT reporting:  
   

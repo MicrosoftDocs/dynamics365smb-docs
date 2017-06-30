@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # VAT Reporting
 You can report VAT electronically to the tax authorities. You can generate, electronically sign, encrypt, and send an XML file directly to the German ELSTER portal. Response messages are received and processed in the same transaction.  
   

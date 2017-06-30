@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # About Consolidations
 Consolidation means combining the general ledger entries of two or more separate companies \(subsidiaries\) into a consolidated company. In the program, each individual company involved in a consolidation is called a business unit. The combined company is called the consolidated company and is usually a company set up for only this purpose, holding no normal business transactions.  
   

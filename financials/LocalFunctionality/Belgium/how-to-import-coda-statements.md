@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Import CODA Statements
 When you receive a CODA statement from your bank, you must import it into ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-set-up-bank-accounts-for-coda.md).  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Insert Fault and Resolution Code Relationships
 To be able to see the most common methods of repair for particular item faults when you are servicing the items, you need to build up information on fault\/resolution codes relationships. Use the **Insert Fault\/Resol. Codes Relationships** batch job to find all the combination of fault and resolution codes in posted service orders and record them in the **Fault\/Resol. Codes Relationships** window.  
   

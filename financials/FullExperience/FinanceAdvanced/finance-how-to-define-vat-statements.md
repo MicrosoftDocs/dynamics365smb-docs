@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Define VAT Statements
 You use a VAT statement to calculate your VAT settlement amount for a certain period, for example, a quarter.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Release Orders
 You can release sales and purchase orders to the next stage of processing before it is posted. When an order is released it will be included in all availability calculations from the expected receipt date of the items.  
   

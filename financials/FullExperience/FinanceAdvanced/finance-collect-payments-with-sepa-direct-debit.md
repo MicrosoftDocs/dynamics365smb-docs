@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Collect Payments with SEPA Direct Debit
 With your customer’s consent, you can collect payments directly from the customer’s bank account according to the SEPA format.  
   

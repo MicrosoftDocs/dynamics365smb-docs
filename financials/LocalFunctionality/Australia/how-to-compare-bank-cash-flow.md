@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Compare Bank Cash Flow
 You can use the **Bank Detail Cashflow Compare** report to compare the flow of cash in a particular bank for a specified period.  
   

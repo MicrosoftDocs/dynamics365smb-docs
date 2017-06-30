@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Configure Production Processes
 To convert material into produced end items, production resources, such as machine operators and machinery need to be set up in the system.  
   

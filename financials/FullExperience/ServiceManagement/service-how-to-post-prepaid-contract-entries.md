@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Post Prepaid Contract Entries
 If you work with prepaid service contracts, you must regularly post prepaid contract entries, thereby transferring the prepaid payments from the prepaid contract accounts to the regular contract accounts.  
   

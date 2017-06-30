@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Responsible Employees and Advance Statements
 The **Advance Statement** report enables you to print and view information about payments made to and from responsible employees. This report also enables you to print and view primary documents of responsible employee expenses.  
   

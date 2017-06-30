@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Allocate Resources by Using Service Orders
 After you have created and filled in a service order or service quote, you can allocate resources, for example, technicians, to perform service tasks registered as service item lines in the document.  
   

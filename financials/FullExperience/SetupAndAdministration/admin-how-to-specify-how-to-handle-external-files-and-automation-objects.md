@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Specify How to Handle External Files and Automation Objects
 When ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]--> receives an external file, you are presented with a dialog box. In addition to selecting what to do with the file, you can decide how to treat that file type next time it is received.  
   

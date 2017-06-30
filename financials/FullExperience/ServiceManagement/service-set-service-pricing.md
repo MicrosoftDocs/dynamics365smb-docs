@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Set Service Pricing
 You can use the ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> pricing features to set up and customize your application so that you apply and adjust pricing on service items, repairs, and orders. These pricing decisions are then easily transmitted to the invoicing process.  
   

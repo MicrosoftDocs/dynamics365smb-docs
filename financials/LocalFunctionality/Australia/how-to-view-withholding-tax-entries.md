@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: View Withholding Tax Entries
 You can view entries that have been posted with withholding tax \(WHT\) for a specified general ledger register.  
   

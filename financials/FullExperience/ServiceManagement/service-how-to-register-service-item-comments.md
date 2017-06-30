@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Register Service Item Comments
 You can use the **Service Comment Sheet** window to register comments on service items.  
   

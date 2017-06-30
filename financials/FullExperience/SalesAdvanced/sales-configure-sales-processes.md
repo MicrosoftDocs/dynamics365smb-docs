@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Configure Sales Processes
 Before you can manage sales processes, you must configure the rules and values that define the company's sales policies.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Inventory Act of Receivables And Payables INV-17
 The inventory act of receivables and payables feature enables you to prepare an inventory of debts and liabilities, and print reports in the following formats:  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up VAT Rate Change Tool
 This topic describes how you set up the VAT rate change tool and corresponding new posting groups before you perform VAT rate conversions.  
   

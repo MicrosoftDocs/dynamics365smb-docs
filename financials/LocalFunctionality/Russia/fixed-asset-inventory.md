@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Fixed Asset Inventory
 The fixed assets inventory feature enables you to:  
   

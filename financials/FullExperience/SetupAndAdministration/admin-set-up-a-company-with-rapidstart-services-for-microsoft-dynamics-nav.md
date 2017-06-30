@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Set Up a Company With RapidStart Services for Microsoft Dynamics NAV
 You can set up a new company in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/rim_md.md)]--> is a tool designed to shorten deployment times, improve quality of implementation, introduce a repeatable approach to implementations, and enhance productivity by automating and simplifying recurring tasks.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Assign Service Item Groups to Items
 You can assign service item groups to items on the item card. The service item group determines whether the items are automatically registered as service items when sold. Service items representing items belong to the same service item group as the items.  
   

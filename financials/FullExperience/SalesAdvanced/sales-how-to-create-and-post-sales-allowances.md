@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create and Post Sales Allowances
 You can send a customer a credit memo with a price reduction if the customer has received slightly damaged items or received the items late.  
   

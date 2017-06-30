@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Report 349
 You must submit a periodic report of trade with other EU countries\/regions to the tax authorities. In Spain, this Report 349 is part of the EU intra-community VAT Information Exchange System \(VIES\).  
   

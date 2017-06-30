@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Set Up Intrastat
 If your company is in the European Union \(EU\), you must report the extent of your trade with other EU countries\/regions.  
   

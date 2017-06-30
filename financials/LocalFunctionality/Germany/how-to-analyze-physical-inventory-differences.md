@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Analyze Physical Inventory Differences
 After you have finished the physical inventory order, you can analyze the physical inventory differences.  
   

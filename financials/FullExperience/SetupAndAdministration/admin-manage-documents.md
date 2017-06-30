@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Manage Documents
 A central role, such as the application administrator, must regularly deal with accumulating historic documents by deleting or compressing them.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: View the Status of Blanket Purchase Orders
 You can see the status of a blanket purchase order in the **Purchase Blanket Order Statistics** window. This may be relevant when you start to invoice the order that is created from the blanket purchase order.  
   

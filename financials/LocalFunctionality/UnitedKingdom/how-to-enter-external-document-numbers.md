@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Enter External Document Numbers
 You can enter external document numbers for customers and vendors in all sales and purchase orders, invoices, and credit memos. You can use these numbers to search for posted sales and purchase lines later.  
   

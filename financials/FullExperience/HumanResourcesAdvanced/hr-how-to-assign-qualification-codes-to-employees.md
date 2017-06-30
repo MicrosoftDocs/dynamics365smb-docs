@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Assign Qualification Codes to Employees
 You can set up qualification codes for various qualifications, both academic and practical, that your employees have.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Define Material and Process Structure
 When designing products that are assembled or produced within the company before sale, additional specifications are required to define which material goes into the product, and which production operations are required to make them.  
   

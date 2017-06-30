@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Delete Documents with Batch Jobs
 This section provides an overview of how you can delete orders, quotes, entries and more using batch jobs.  
   

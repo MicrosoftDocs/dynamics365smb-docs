@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Payables and Receivables-duplicate
 In Russia, there are specific ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> features that you can use to track and manage your accounts payable and accounts receivable.  
   

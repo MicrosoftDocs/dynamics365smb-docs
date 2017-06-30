@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Denmark Local Functionality
 This section describes local functionality in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> in Denmark.  
   

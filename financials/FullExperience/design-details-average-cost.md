@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Design Details: Average Cost
 The average cost of an item is calculated with a periodic weighted average, based on the average cost period that is set up in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
   
@@ -40,7 +40,7 @@ The average cost of an item is calculated with a periodic weighted average, base
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    -----------------------------------------|--------------------------------|------------------------------------------------|----------------------------------|  
+-----------------------------------------|--------------------------------|------------------------------------------------|----------------------------------|  
 |01-01-20|1|10.00|1|  
 |01-02-20|1|20.00|2|  
 |02-15-20|-1|-15.00|3|  

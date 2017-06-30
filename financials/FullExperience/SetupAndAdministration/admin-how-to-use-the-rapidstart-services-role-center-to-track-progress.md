@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Use the RapidStart Services Role Center to Track Progress
 When you use ADD INCLUDE<!--[!INCLUDE[rim](../../includes/how-to-change-role-centers.md). Choose the RapidStart Profile ID.  
   

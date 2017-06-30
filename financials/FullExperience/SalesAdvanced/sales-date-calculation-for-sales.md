@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Date Calculation for Sales
 ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> automatically calculates the earliest possible date that an item on a sales order line can be shipped.  
   

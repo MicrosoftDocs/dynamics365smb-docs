@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # SEPA Credit Transfer Payments
 ADD INCLUDE<!--[!INCLUDE[nav_current_short](../../includes/nav_current_short_md.md)]--> includes Finnish enhancements to allow you to create Single Euro Payments Area \(SEPA\) credit transfer files to send vendor payments to banks. A SEPA credit transfer is a payment that is transferred according to the file format specified by the European Payments Commission.  
   

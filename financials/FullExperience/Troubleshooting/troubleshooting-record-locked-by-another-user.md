@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Troubleshooting: Compression Option in IIS
 Users may experience slow mobile client responses especially noticeable when they are running with a slow network connection. The reason for the mobile client running slowly can be that the dynamic compression is not enabled on the IIS server.  
   

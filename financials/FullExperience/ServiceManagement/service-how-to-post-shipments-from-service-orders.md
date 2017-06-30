@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Post Shipments from Service Orders
 After specifying the details of a service, you can adjust and post the quantities of items used, time spent, and costs incurred. As a result, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> makes the necessary changes to reflect the new state of your inventory and current status of the specific order processing.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Block Payment Tolerances for a Customer or a Vendor
 The default setting for payment tolerance is allowed. To disallow a certain customer or vendor payment tolerance you need to block tolerance on the respective customer or vendor card.  
   

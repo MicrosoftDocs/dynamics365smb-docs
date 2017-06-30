@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up System Calendars and Accounting Periods
 For many companies, the fiscal year does not coincide with the calendar year. Fiscal periods can be measured in other units of time, such as months or quarters. For more information, see Calendar Setup, System Calendar, and Accounting Period GB.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create Bins in the Bin Creation Worksheet
 In the bin creation worksheet, you can create bins manually or you can allow the program to create a number of similar bins in one operation.  
   

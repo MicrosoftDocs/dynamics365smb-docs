@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create Contract Service Credit Memos
 You can use a contract service credit memo when a customer cancels a prepaid service contract or removes a service item from a prepaid contract. You can also use it to correct an erroneous service invoice.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Generate Delivery Reminders
 In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-create-delivery-reminders-manually.md).  
   

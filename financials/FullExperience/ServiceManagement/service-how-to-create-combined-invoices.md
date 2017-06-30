@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create Combined Invoices
 Using this procedure, you can invoice the customer for services provided on different service orders. Invoice lines are created for items, resource hours, or costs that have already been shipped from different service orders but not yet invoiced.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Register Service Order Comments
 You can use the **Service Comments** window to register comments on service orders or service quotes. The following procedure uses a service order as an example, but the same procedure can apply to service quotes.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Enter Consolidation Information on General Ledger Accounts
 After setting up the chart of accounts for a consolidated company, you must specify accounts for consolidation. In each company that will be included in the consolidation, for each general ledger account, you must specify the general ledger account in the consolidated company to which the balance will be transferred on consolidation.  
   

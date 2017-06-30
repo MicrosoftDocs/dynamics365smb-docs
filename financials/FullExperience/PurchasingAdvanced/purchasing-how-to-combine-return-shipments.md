@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Combine Return Shipments
 If you want to return items covered by different purchase return orders to the same vendor, then you can use the **Combine Return Shipments** function.  
   

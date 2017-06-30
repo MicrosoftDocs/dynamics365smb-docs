@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Service Statistics
 The service statistics feature lets you gain a quick overview of the contents of all of a service document, which includes quotes, invoices, or credit memos, the details on the specific service lines, and the items in the document. The feature enables you to see the amounts that will be posted if you will post the service document.  
   

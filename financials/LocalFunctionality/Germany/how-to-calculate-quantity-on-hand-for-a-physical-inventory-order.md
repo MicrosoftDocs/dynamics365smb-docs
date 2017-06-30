@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Calculate Quantity On Hand for a Physical Inventory Order
 After you have created the physical inventory order and after you have entered the physical inventory order lines, you must have the program calculate the field Qty. Expected \(Base\) for every physical inventory order line.  
   

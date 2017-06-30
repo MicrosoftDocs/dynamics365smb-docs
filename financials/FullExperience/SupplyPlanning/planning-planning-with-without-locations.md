@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Planning with-without Locations
 Concerning planning with or without location codes on demand lines, the planning system operates in a straight forward way when:  
   

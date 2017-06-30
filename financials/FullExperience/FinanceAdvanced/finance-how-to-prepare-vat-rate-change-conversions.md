@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Prepare VAT Rate Change Conversions
 Before you set up the VAT rate change tool, you must make the following preparations.  
   

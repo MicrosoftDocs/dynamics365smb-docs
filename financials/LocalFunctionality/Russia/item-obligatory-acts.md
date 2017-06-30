@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Item Obligatory Acts
 The item obligatory acts feature enables you to print the obligatory reports used for the material and production resources in your company. These reports contain item information such as the item number and description, item storage place, item information brand, sort, profile, size, unit of measure, and vendor information.  
   

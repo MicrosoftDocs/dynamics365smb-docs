@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Update Calendar Entries for Machine Centers
 When you create a new machine center, its calendar entries do not yet exist. Calendar changes, such as absence, are not immediately visible either. When you have entered the machine center’s nonworking days, you must recalculate the calendar.  
   

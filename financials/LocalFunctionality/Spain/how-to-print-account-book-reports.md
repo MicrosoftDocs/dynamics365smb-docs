@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Print Account Book Reports
 Account book reports display all the general ledger entries created in a specific period. The two account book reports are:  
   

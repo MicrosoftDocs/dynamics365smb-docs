@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Access an Overview of Confidential Information
 You can quickly get an overview of confidential information related to your employees. This can prove useful for keeping track of how many employees have insurance coverage or participate in a stock option plan, for example.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: View Applied Customer Ledger Entries from the Ledger Entry Window
 After entries have been completely or partially closed, during posting or afterward, you can see the entries that a given entry was applied to in the **Applied Customer Entries** window.  
   

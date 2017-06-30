@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Put Away Production Output
 How you put away your output from production depends on how your warehouse is set up as a location.  
   

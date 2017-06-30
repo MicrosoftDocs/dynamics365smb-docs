@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: View Temporary Balances in General Ledger Journals
 When you enter a new transaction in the general journal, you can view temporary balances that show how the general ledger account balances would be affected by posting the journal. You can view the balance details of the account and counter account for the active journal line. You can also view the unposted values for the current journal.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Search for Specific Documents
 You can choose the **Navigate** function from ledger entry windows and windows containing posted shipments and receipts. You can use it to find all entries posted with the same date or document number. The document number may be either a number assigned in a general journal or the number of an invoice or credit memo.  
   

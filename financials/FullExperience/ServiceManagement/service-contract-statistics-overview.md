@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Contract Statistics Overview
 In the **Contract Statistics** window, you can see up-to-date information about the income amount, prepaid amount, cost, discount, and profit regarding the particular service contract that you have accessed.  
   

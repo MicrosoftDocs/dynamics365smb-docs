@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Prepare Service Line Items for Warehouse Handling
 Service lines, like other outbound document lines, such as on sales, outbound transfer, and purchase returns, can function as source document lines for picking to shipment. In addition, service lines can function as source document lines for movement to internal operation areas in the same way as assembly order lines and released production order component lines.  
   

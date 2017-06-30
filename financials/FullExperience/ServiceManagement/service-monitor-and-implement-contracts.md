@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Monitor and Implement Contracts
 After you have set up a system to initiate and maintain service contracts, you can also monitor and implement the contracts. You can convert quotes into a service contract. Then you can create a service order from a contract by using the **Create Contract Service Orders** batch job. When the order is created, service starts.  
   

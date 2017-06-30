@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Disregard Payment Discounts
 Use the disregard payment discount at full payment feature to accept payments when the following conditions are true:  
   

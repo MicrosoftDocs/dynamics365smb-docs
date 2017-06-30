@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Design Details: Costing Methods
 The costing method determines if an actual or a budgeted value is capitalized and used in the cost calculation. Together with the posting date and sequence, the costing method also influences how the cost flow is recorded. The following methods are supported in ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]-->:  
   

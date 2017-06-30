@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Contract Trendscape Overview
 The **Contract Trendscape** window gives a financial overview of the service contract using the data from its service ledger entries. This overview is generated for a specific time period that you set in the **Period** field.  
   

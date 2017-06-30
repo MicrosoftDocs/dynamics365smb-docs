@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Manage Data Encryption
 You can encrypt data on the ADD INCLUDE<!--[!INCLUDE[nav_server](../../includes/nav_server_md.md)]--> instance that connects to the database.  
   

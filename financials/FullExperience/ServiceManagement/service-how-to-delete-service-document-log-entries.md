@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Delete Service Document Log Entries
 You can delete the automatically generated service document log entries, for example, the unnecessary or outdated ones.  
   

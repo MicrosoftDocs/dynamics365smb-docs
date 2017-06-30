@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Convert Service Contract Quotes to Service Contracts
 When a customer has accepted a service contract quote, you convert it to a service contract. At the same time, you can create a service invoice for the starting period of the contract if the starting date of the contract is before the beginning of the next invoice period.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Iceland Local Functionality
 The following topics describe the local functionality in the Icelandic version of Microsoft Dynamics NAV.  
   

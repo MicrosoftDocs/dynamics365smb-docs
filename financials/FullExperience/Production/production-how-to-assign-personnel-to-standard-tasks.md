@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Assign Personnel to Standard Tasks
 If you require personnel with qualifications, special knowledge, or special authorization for a special task, you can assign these people to the task.  
   

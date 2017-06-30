@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Print an Inventory Picking List from a Sales Order
 You can print an inventory picking list directly from a sales order. The picking list contains a list of items with the following information:  
   

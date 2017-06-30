@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create Replacement Sales Orders
 You may decide to compensate a customer for an item that you have sold them by replacing the item. You can make a replacement with the same item or a different item. This situation could occur if you mistakenly shipped the wrong item to the customer, for example.  
   

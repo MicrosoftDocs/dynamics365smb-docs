@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Service Item Components
 A service item can consist of several components, which can be replaced with spare parts when the item is serviced. These components are set up in the **Service Item Component List** window.  
   

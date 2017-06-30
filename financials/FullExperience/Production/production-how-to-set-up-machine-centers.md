@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Machine Centers
 The machine centers are used as the lowest capacity level. No further subdivision is possible. You must therefore use machine centers for either single machines or a number of identical machines that do not need to be distinguished any further.  
   

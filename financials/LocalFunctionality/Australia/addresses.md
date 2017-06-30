@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Addresses
 A single postal code can include multiple cities in the same region.  
   

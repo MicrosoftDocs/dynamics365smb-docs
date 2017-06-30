@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Register Opening Item Entries
 To record inventory on hand of individual items, you must post an entry for each item number. Before you can do this, you must set up all your items on item cards.  
   

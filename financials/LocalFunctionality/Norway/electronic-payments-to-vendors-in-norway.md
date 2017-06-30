@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Electronic Payments to Vendors in Norway
 ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> includes Norwegian enhancements for automatically making payments to vendors. This reduces errors that occur from manual data entry. You can use this functionality to perform the following operations:  
   

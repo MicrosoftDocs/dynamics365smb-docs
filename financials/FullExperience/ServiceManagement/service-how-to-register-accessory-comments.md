@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Register Accessory Comments
 You can use the **Accessory Service Comment Sheet** window to register comments on the accessories to service items in service orders and service quotes.  
   

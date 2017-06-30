@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Cancel Basic UI Changes and File Handling Decisions
 You cancel you basic UI changes and decisions for handling of files and automation objects by opening the **Reset User-Specified Settings** window from your Role Center.  
   

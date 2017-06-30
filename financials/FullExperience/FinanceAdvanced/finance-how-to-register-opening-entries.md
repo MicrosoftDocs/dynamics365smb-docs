@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Register Opening Entries
 If you are using the fixed assets in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> for the first time, you must set up the general ledger application area before you set up fixed assets. How you do this depends on whether fixed assets is integrated with general ledger.  
   

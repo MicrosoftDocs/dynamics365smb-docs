@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Recording VAT
 In EU countries\/regions, every sales and purchase transaction is subject to VAT calculations.  
   

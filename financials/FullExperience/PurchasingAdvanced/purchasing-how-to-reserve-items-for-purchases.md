@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Reserve Items for Purchases
 You can reserve items for purchase orders. Before you can do this, you must have already set up a purchase order.  
   

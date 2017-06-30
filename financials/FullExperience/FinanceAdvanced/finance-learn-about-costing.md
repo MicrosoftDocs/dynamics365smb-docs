@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Learn About Costing
 Cost accounting is concerned with recording and reporting business operating costs. It includes the reporting of manufacturing costs and inventory costs, that is, the value of items.  
   

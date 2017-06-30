@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Import Bank Statements
 You can import electronic bank statements from your bank to quickly populate ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> with data about actual bank transactions.  
   

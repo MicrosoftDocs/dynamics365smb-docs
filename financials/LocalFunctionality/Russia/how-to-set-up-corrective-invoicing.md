@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Corrective Invoicing
 You can create corrective invoices and corrective credit memos to reflect changes in quantity and amounts after the items were shipped or received. First, you must set up ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> with prerequisites.  
   

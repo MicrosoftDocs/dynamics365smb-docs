@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: View Global Dimensions in Ledger Entry Windows
 Note that global dimensions are always company-defined and company-named. To see the global dimensions for your company, open the ![Shortcut icon](../media/shortcutcoldicon.gif "shortcutColdIcon")**General Ledger Setup** window.  
   

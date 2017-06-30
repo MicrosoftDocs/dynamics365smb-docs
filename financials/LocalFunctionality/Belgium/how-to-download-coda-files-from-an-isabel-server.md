@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Download CODA Files from an Isabel Server
 CODA files can be downloaded manually or in attended mode.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Manage Customer Credit Information
 In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can add comments to customer credit information. You can also hold and block customers with bad credit before shipping or invoicing occurs.  
   

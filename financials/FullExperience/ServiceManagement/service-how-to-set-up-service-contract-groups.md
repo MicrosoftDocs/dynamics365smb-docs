@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Service Contract Groups
 You can use the **Service Contract Groups** window to set up groups of service contracts that are related in some way.  
   

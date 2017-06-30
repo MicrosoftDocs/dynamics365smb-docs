@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Default or Required Dimensions for Account Types
 You can set up a default dimension for an account type. ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> will then copy this code to the journal, sales or purchase line when the account type is filled in on the line. However, you may delete or change the code if appropriate.  
   

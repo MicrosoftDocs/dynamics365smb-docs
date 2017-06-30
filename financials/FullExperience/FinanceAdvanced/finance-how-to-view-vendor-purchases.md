@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: View Vendor Purchases
 From a vendor card, you can see various statistics about the vendor. The **Vendor Purchases** window displays a scrollable list of purchase data for any series of periods that you select.  
   

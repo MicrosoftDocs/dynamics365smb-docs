@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Print Sales and Purchase Invoice Books
 The **Sales Invoice Book** report and **Purchases Invoice Book** report allow you to check all of the sales and purchase documents created for a specific period.  
   

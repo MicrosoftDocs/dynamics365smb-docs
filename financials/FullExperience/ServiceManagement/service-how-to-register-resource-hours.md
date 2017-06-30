@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Register Resource Hours
 When working on service items in service orders, you need to register the resource hours used for the service. The following procedure shows how to register the resource hours in the **Service Item Worksheet** window.  
   

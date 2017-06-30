@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create and Print a Swiss VAT Statement
 Based on the information that you have specified in the **VAT Posting Setup** window, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> can automatically create a new VAT Statement Setup for realized VAT reporting. Before proceeding with the procedures in this topic, make sure that you have set up VAT posting setup with values specified for the sales and purchase cipher fields.  
   

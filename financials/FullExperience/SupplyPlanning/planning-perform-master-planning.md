@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Perform Master Planning
 Before a detailed executable plan \( [see MRP](../plan-for-resource-availability.md) and the final-assembly production schedule, that is expected production orders for demanded end items.  
   

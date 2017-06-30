@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up and Create Letters of Attorney
 The letter of attorney feature enables you to create and print a Letter of Attorney, and to also print a journal of Letters of Attorney.  
   

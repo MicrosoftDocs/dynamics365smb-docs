@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create Service Orders from Contracts
 You can automatically create service orders for the maintenance of service items based on service contracts.  
   

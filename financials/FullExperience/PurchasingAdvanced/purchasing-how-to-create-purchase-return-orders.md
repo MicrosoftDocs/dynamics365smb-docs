@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create Purchase Return Orders
 If you have agreed with your vendor to return a purchased item that you are dissatisfied with, create a purchase return order to record the return.  
   

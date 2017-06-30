@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # General Ledger Correspondence
 The general ledger correspondence feature enables you to:  
   
@@ -92,7 +92,7 @@ The general ledger correspondence feature enables you to:
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    -----------|-----------------|  
+-----------|-----------------|  
 |**Starting Date**|Enter the starting date of the period, for the entries that you want to include in the report.|  
 |**Ending Date**|Enter the ending date of the period, for the entries that you want to include in the report.|  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Process for Data Access and Testability of Digital Documents (GDPdU)
 You can export data from ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> according to the process for data access and testability of digital documents \(GDPdU\), which is based on German tax law.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: View Remittance Error Codes
 For a remittance error, the error code from the bank and an explanation of the error will be shown for the payment in the **Waiting Journal** window.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Finalize Service and Invoice
 Ease in invoicing your service orders is a key feature of ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->. You can send an invoice to your customers at any time, or create invoices periodically.  
   

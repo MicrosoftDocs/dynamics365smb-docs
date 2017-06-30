@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Undo Quantity Posting on Posted Return Shipments
 If you have made an incorrect quantity posting, that is if you have made a return order with, for example, the wrong number of items and posted it as shipped but not invoiced, then you can undo the posting.  
   

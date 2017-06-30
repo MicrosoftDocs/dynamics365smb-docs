@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Bank Reference Files
 To process electronic payments, you must first set up bank reference files to determine how payment data should be imported or exported.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Results of the Transfer
 During the transfer of general ledger entries to cost entries, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> creates connections in the entries in the **G\/L Entry** table, the **Cost Entry** table, and the **Cost Register** table to make it possible to trace the connections between cost entries and general ledger entries.  
   

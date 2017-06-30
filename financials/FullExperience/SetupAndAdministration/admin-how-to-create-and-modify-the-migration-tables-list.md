@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create and Modify the Migration Tables List
 You can create new data migration files and customize them to support your business. However, a file can only be used to migrate a field that has its **FieldClass** property set to **Normal**. For more information, see [FieldClass Property](../FieldClass%20Property.md).  
   

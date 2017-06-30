@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Structure of the Capacity
 The program distinguishes between three types of capacities. These are arranged hierarchically. Each level contains the subordinate levels.  
   

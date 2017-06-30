@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Configure Service Processes
 Service management in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> has features to help you configure and set up your service management system. Use these tools to set defaults, numbering series, and the required fields that you want a customer service representative to fill in. The information stored in the underlying tables determines how to manage certain aspects of the service management activities.  
   

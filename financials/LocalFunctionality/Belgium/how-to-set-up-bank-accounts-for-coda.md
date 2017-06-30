@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Bank Accounts for CODA
 Before you can start to use the electronic banking functionality for CODA statements, you must set up the following codes:  
   

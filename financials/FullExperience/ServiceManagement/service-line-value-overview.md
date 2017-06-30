@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Line Value Overview
 The **Line Value** field is filled in as described in the following table.  
   

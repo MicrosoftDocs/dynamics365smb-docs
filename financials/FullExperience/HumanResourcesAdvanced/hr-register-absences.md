@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Register Absences
 To be able to administer an employee's absence, you must register the absence in the Absence Registration window. After you have registered the absence, the information can be viewed several ways for analysis and reporting needs.  
   

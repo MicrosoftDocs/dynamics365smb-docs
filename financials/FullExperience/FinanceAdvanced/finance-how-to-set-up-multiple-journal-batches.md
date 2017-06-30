@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Multiple Journal Batches
 If you need multiple journals of a certain type, you can create multiple journal batches for a journal template.  
   

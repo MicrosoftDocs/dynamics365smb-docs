@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Duplication Lists
 When you fill in journal lines to be posted to a depreciation book, you can duplicate the lines in a separate journal, after which they can be posted to a different depreciation book.  
   

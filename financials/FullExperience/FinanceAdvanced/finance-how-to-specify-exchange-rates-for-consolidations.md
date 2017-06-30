@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Specify Exchange Rates for Consolidations
 There are three exchange rates that ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> uses when consolidating the financial statements of business units if the financial statements are in a foreign currency. They are:  Average Rate \(Manual\), Closing Rate and Last Closing Rate. Typically, Average Rate \(Manual\) is used for income statement accounts, and Closing Rate is used for balance sheet accounts. The chart of accounts in the business unit's company specifies which rate is used for which accounts.  
   

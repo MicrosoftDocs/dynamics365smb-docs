@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Starting the Windows Client at the Command Prompt
 You can start the Microsoft Dynamics NAV Windows client at a command prompt. By adding command-line parameters, you can:
 

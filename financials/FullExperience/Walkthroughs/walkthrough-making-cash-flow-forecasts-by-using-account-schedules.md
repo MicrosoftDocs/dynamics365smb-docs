@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Walkthrough: Making Cash Flow Forecasts by Using Account Schedules
 This walkthrough describes how you can use account schedules to make cash flow forecasts. Account schedules perform calculations that cannot be done directly in the chart of cash flow accounts. In the account schedules, you can set up subtotals for cash flow receipts and disbursements. These subtotals can be included in new totals that can then be used in making cash flow forecasts.  
   
@@ -90,7 +90,7 @@ This walkthrough describes how you can use account schedules to make cash flow f
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ----------------|-------------------|-----------------|-----------------------|-----------------|----------|  
+----------------|-------------------|-----------------|-----------------------|-----------------|----------|  
     |C10|Amount|Net Change|Entries|Net Amount|Always|  
     |C20|Amount until Date|Balance at Date|Entries|Net Amount|Always|  
     |C30|Entire Fiscal Year|Entire Fiscal Year|Entries|Net Amount|Always|  

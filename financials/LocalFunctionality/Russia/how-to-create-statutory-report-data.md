@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create Statutory Report Data
 After you have defined the statutory reports that are required by the tax authorities, you can create the report data and generate files that you can submit to the authorities.  
   

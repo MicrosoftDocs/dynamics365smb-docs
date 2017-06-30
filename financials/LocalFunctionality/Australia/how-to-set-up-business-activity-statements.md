@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Business Activity Statements
 You must set up a Business Activity Statement \(BAS\) to generate a BAS report. BAS setup includes the following:  
   

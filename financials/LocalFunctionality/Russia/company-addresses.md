@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Company Addresses
 If your company has different types of addresses, such as a legal address or an address for use with tax inspection, you must set up these addresses in the Company Address table. At a minimum, you must specify your legal address.  
   

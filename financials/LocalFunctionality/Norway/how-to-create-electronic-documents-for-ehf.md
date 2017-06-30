@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create Electronic Documents for EHF
 When you sell goods or services to a customer in the public sector, you must submit documents electronically. In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-set-up-customers-for-ehf.md).  
   

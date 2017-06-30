@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Standard Sales or Purchase Lines
 In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can specify how the standard sales or purchase codes will be entered when you are creating the specified sales or purchase documents.  
   

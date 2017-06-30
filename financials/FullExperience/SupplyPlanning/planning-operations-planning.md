@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Operations Planning
 The production operations required to transform inputs into finished goods must be planned daily or weekly depending on the volume and nature of the products.  
   

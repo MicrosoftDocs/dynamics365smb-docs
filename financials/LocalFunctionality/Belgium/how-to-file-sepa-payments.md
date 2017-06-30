@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: File SEPA Payments
 In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can use Single Euro Payments Area \(SEPA\) credit transfers to file SEPA payments with the bank.  
   

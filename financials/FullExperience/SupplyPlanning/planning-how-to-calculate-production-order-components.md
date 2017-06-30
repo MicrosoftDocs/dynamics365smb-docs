@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Calculate Production Order Components
 If you have amended production order lines, you must also refresh the components of the production order.  
   

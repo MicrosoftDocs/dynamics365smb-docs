@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Scenario Example: Defining Static Allocations Based on Allocation Ratio
 Static allocation method is based on a definite value, such as square meters used, or an established allocation ratio such as 5:2:4.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Symptom Codes
 You can use the **Symptom Codes** window to set up symptom codes to describe possible symptoms of service item faults. The level of fault reporting in your company determines whether you use symptom codes.  
   

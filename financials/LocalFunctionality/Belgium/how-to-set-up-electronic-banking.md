@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Electronic Banking
 With electronic banking, you can make electronic payments to domestic, international, SEPA, and non-Euro SEPA vendors and customers.  
   

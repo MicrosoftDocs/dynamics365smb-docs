@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # General Journal Extension
 The general journal extension feature enables you to:  
   

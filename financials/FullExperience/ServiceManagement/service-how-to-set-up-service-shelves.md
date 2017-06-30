@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Service Shelves
 You can use the **Service Shelves** window to set up service shelves that identify where service items are stored while they are in the repair shop.  
   

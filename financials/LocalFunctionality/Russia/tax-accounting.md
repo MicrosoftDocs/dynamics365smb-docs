@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Tax Accounting
 In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can set up and maintain tax registers to track taxable profits and losses. This is based on the following tax accounting principles:  
   

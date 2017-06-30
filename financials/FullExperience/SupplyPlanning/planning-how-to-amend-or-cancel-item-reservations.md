@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Amend or Cancel Item Reservations
 Sometimes you may want to amend or cancel an item reservation.  
   

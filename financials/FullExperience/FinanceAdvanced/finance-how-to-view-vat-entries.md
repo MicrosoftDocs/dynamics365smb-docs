@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: View VAT Entries
 Every posting that involves VAT creates an entry in the **VAT Entries** window. These entries are used to calculate your VAT settlement amount, such as your payment and refund, for a specific period.  
   

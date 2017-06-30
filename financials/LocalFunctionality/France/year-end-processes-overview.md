@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Year End Processes Overview
 Year end closing in Microsoft Dynamics NAV involves three steps:  
   

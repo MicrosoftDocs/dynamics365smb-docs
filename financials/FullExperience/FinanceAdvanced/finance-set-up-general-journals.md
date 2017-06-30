@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Set Up General Journals
 General journals are used to post to general ledger accounts and other accounts such as bank, customer, vendor, and fixed assets accounts. Posting with a general journal always creates entries on general ledger accounts. There are other journals besides general journals, such as item transfer journals, physical inventory journals, resource journals and FA journals. These journals do not create entries in the general ledger, but create other types of ledger entries. For example, the physical inventory journal is used to compare the results of a physical inventory count with the quantity on hand calculated by the program. When you post the journal, the program creates a physical inventory ledger entry for every journal line and an item ledger entry for each journal line on which there is a difference between the physical inventory count and the calculated quantity on hand.  
   

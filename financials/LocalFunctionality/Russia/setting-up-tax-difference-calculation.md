@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Setting up Tax Difference Calculation
 Tax difference calculations must be set up if there is a tax difference for the presentation of fixed asset entries, item cost entries, or finance transactions in bookkeeping and tax accounting for which expenses to write off must be fixed. To set tax difference, click **Setup** and then click **Tax Differences**.  
   
@@ -40,7 +40,7 @@ Tax difference calculations must be set up if there is a tax difference for the 
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ------
+------
     title: Insert topic title| Microsoft Docs
     description: Insert description
     services: project-madeira
@@ -56,7 +56,7 @@ Tax difference calculations must be set up if there is a tax difference for the 
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    -----------|-----------------|  
+-----------|-----------------|  
 |**FA Posting Date**|Enter the transaction date.|  
 |**Document No.**|Enter the document number that the current transaction is created with.|  
 |**FA No.**|Enter the code of the expense of the future period that the current transaction is created with.|  

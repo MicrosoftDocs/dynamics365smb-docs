@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Show as Lines
 Contains different views of the statistics of this item, based on what you select in the **Show as Lines** field.  
   

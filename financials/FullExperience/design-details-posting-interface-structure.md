@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Design Details: Posting Interface Structure
 In the ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> posting interface structure, there are several global procedures that use the same structure:  
   

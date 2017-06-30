@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Finish a Physical Inventory Order
 After you have entered all data for the physical inventory order, you can finish the physical inventory order.  
   

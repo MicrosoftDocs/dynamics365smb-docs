@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Walkthrough: Tracing Serial-Lot Numbers
 When product defects occur, the errors must be identified and affected items must be prevented from leaving the company. If defective items have already been shipped, you must trace who received them and, if you need to, recall the items.  
   

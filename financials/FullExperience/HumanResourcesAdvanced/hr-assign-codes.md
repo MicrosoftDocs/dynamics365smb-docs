@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Assign Codes
 In the Human Resources feature, you can assign various codes to your employees. Assigning codes enables you to quickly filter all the employees to view or report specific information. You can also search all employees for specific criteria. For example, if your company has a project to complete in France, you could determine which employees are fluent in French.  
   

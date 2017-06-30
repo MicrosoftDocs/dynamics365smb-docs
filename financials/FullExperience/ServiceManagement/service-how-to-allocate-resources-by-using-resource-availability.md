@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Allocate Resources by Using Resource Availability
 When you have created service orders or quotes, you can make use of resource availability to allocate resources, for example, technicians, to perform the service tasks in the orders or quotes.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Design Details: Warehouse Management
 This documentation gives an overview of the concepts and principles that are used in the Warehouse Management features in ADD INCLUDE<!--[!INCLUDE[navnowlong](../../includes/navnowlong_md.md)]-->. It explains the design behind central warehouse features and how warehousing integrates with other supply chain features.  
   

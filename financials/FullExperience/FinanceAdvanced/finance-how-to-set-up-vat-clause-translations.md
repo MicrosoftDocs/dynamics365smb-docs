@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up VAT Clause Translations
 You can use translated VAT clauses for customers who have a language code that is specified on the customer card. Then, when you create and print for a customer a sales document that contains a VAT identifier, the printed document will include the VAT clause in translated text. The translated text will be based on the language code of the customer.  
   

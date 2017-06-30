@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Receive Loaners
 When you receive a loaner from a customer, you must register the receipt. You do this in the **Service Order**, **Posted Service Shipment**, and **Loaner Card** windows. This procedure shows how to receive loaners in the **Service Order** window.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Report Intrastat on Forms
 To obtain the information that is required on the Intrastat form from the statistical authorities, you must print the **Intrastat – Form** report. Before you can do this, you must prepare the Intrastat journal and fill it in.  
   

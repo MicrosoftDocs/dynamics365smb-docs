@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Interest on Arrears
 For each finance charge term, you can specify how interest on arrears must be calculated. You can set up finance charge calculations with different interest rates for different periods.  
   

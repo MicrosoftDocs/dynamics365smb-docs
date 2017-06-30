@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Manage Sales Returns
 Compensating a customer who is dissatisfied with an item that a company has sold them is a necessary and important transaction between a company and its customer. The faster and more accurately a company carries out the activities involved in a return process, the more likely the company is to foster the customer's perception of good customer service.  
   

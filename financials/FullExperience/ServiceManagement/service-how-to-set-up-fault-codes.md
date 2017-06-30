@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Fault Codes
 You can use the **Fault Codes** window to set up fault codes that describe the typical service item faults or the actions taken on service items.  
   

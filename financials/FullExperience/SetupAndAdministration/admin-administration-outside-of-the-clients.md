@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Administration Outside of the Clients
 Some of the administration tasks for ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/nav_shell_md.md)]-->.  
   

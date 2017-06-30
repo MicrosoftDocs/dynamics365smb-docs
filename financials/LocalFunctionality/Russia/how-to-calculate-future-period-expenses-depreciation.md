@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Calculate Future Period Expenses Depreciation
 The following procedure shows how to calculate future period expenses depreciation.  
   

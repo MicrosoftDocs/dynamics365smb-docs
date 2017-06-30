@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Design Details: Cost Adjustment
 The main purpose of cost adjustment is to forward cost changes from cost sources to cost recipients, according to an item’s costing method, to provide correct inventory valuation.  
   

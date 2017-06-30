@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Set Up Complex Application Areas Using Best Practices
 Entering the correct setup values from the start is important to the success of any new business software.  
   

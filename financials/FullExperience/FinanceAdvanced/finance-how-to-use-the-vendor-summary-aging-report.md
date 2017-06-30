@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Use the Vendor - Summary Aging Report
 The **\($ R\_305 Vendor – Summary Aging $\)** report displays amounts that will be due for payment to individual vendors in the future.  
   

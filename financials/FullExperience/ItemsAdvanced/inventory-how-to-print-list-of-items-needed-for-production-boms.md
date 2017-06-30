@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Print List of Items Needed for Production BOMs
 The **Quantity Explosion of BOM** report gives you a list of the item quantities of the selected BOM. The production BOM is exploded entirely over all levels and printed position by position. The exploded levels are ordered according to their origin of need.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Filling the Consumption Bin
 This flow chart shows how the **Bin Code** field on production order component lines is filled according to your setup.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Design Details: Monitoring the Projected Inventory Level and the Reorder Point
 Inventory is a type of supply, but for inventory planning, the planning system distinguishes between two inventory levels:  
   

@@ -14,6 +14,6 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Total Balance
 The balance is the sum of the [\($ T\_11204\_4 Allocation % $\)](../-$-t_11204_4-allocation-percentage-$-.md) field. The balance must be 0.

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Mark General Ledger Accounts for Reconciliation
 After you have filled in a general journal and before you post it, you may want to reconcile the cash account or other liquid accounts.  
   

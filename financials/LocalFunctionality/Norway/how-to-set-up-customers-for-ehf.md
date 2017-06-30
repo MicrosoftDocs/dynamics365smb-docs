@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Customers for EHF
 To create Elektronisk Handelsformat \(EHF\) documents for customers in the public sector, you must add EHF information to the relevant customers.  
   

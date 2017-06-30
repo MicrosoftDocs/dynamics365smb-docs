@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Posting VAT on Sales
 The following fields have been added to the VAT Posting Setup form \(ID 472\):  
   

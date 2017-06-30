@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create Routing Links
 You can create routing links to connect components to specific operations in order to retain their relationship even though the production BOM or routing is modified. It also facilitates just-in-time flushing of components, namely when the specific linked operation starts, not when the complete production order is released. For more information see [How to: Flush Components According to Operation Output](../how-to-flush-components-according-to-operation-output.md).  
   

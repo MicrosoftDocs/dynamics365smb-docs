@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: View Items in Transit
 If you have set up your inventory in different locations and are transferring items between locations using in-transit codes, you can view by in-transit code the quantities that are in transit.  
   

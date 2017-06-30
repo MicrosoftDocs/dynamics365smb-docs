@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Assign Delivery Reminder Codes to Vendors
 In order to enable delivery reminders for overdue purchases, you must assign delivery reminder terms to vendors. For more information, see [Delivery Reminders](../delivery-reminders.md).  
   

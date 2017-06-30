@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Print Finnish Intrastat Reports
 Companies in the European Union \(EU\) must report the extent of their trade with other EU countries\/regions according to specific rules. You must report the movement of goods to the Intrastat authorities in their respective countries\/regions.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Insert Extended Text in Service Orders
 If you have set up extended texts for standard texts, you can insert extended texts for service lines that include standard text codes.  
   

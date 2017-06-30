@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Isabel 6
 The Isabel organization has developed a Client Isabel Synchronizer \(CIS\) platform that allows ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> to securely integrate with Isabel. CIS handles document exchange to and from the Isabel server.  
   

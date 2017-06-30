@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Consolidate Companies
 You can consolidate the general ledger entries of two or more separate companies \(subsidiaries\) into a consolidated company. Each individual company involved in a consolidation is called a business unit. The combined company is called the consolidated company.  
   

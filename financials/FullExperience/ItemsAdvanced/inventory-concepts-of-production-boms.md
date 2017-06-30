@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Concepts of Production BOMs
 Manufacturers use production bills of material to supervise the use of items and components used for intermediate and finished products.  
   

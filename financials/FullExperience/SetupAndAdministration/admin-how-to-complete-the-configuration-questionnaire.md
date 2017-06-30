@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Complete the Configuration Questionnaire
 You use the setup questionnaire to structure and document a detailed discussion about the customer’s specific needs. You also use it to collect setup data from the customer to configure the relevant ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> setup tables, such as the general ledger, inventory, and customers.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Manage Profiles
 You use profiles to link Role Centers to users. Like Role Centers, profiles align with the roles and responsibilities in your organization. ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> provides a set of default profiles, which each correspond to and link to a Role Center. Administrators can modify existing profiles or create new ones.  
   

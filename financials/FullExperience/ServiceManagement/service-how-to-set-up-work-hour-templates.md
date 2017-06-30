@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Work-Hour Templates
 You can use the **Work-Hour Template** window to set up templates that contain the typical working hours in your company. For example, you can create templates for full time technicians and part time technicians. You can use work-hour templates when you add capacity to resources.  
   

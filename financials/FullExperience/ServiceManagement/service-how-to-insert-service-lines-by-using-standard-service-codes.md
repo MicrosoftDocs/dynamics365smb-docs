@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Insert Service Lines by Using Standard Service Codes
 If you have set up standard service codes and assigned them to service item groups, you can insert the standard lines linked to the standard service codes on service documents.  
   

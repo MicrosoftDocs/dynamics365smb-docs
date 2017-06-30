@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # VAT Clauses
 VAT clauses are used to provide descriptive information about the VAT that is being reported on a sales document. The VAT clause information is displayed on a printed document alongside the VAT identifier or VAT rate.  
   

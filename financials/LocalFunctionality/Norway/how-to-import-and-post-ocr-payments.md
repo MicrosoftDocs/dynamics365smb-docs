@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Import and Post OCR Payments
 Before you can receive optical character recognition \(OCR\) payments, you must make the following preparations:  
   

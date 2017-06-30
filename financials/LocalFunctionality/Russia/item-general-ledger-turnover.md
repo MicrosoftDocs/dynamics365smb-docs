@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Item General Ledger Turnover
 The following form and reports enable the creation of turnover sheet for goods and materials.  
   

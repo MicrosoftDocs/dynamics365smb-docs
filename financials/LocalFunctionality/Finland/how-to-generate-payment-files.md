@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Generate Payment Files
 To send electronic payments to vendors, you must first generate a payment file for domestic or foreign payments.  
   

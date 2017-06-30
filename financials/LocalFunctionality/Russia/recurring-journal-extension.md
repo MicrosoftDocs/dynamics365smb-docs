@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Recurring Journal Extension
 The recurring journal extension feature enables you to enter a line for a recurring journal.  
   

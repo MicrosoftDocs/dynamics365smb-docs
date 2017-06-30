@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Settle Purchase Invoices Promptly
 If you need to pay the vendor by cash or check, you can have the necessary posting done at the same time that you post the invoice itself.  
   

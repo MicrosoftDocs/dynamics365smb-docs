@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Russian Chart of Accounts
 In the **Chart of Accounts** window, the following fields are available:  
   

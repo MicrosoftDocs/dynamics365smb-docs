@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Register Fault Codes
 When the customer brings in a service item for repair, you can assign a fault code to it. This code indicates the nature of the fault and can be used along with the resolution code for future reference on possible methods of repair.  
   

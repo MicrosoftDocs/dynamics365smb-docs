@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: View and Print Account Turnover Information
 ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> enables you to view account turnover information in correspondence with other accounts.  
   

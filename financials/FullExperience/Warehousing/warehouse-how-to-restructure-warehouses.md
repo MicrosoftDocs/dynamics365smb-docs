@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Restructure Warehouses
 You may want to restructure your warehouse with new bin codes and new bin characteristics.  
   

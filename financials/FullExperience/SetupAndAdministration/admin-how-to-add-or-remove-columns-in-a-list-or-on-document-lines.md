@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Add or Remove Columns in a List or on Document Lines
 To get a better overview of the information that you need, you can customize list pages and card pages by adding or removing columns in the grids.  
   

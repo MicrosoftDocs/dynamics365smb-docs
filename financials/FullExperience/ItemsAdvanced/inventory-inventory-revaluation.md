@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Inventory Revaluation
 The inventory value of an item can change over time, for example, as a result of damage or age.  
   

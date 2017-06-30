@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Calculate and Post Withholding Tax Settlements
 You can use the **Calc. and Post WHT Settlement** window to calculate and post the withholding tax \(WHT\).  
   

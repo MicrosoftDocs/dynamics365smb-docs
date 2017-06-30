@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Undo Service Shipments
 You can cancel a service shipment that has been posted by mistake or contains some erroneous information.  
   

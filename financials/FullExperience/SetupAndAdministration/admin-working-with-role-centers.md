@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Working with Role Centers
 A Role Center is a home page in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/rtc_md.md)]-->s, the profile that is used appears in the header of the Role Center’s main content area. An administrator can then customize this Role Center to meet the needs of a specific role in a specific company. The Order Processor Role Center can then be further personalized on a single computer to meet the needs of a person who is carrying out the job as an order processor. This person can personalize the Role Center by saving queries, adding filters, and adding or removing fields.  
   

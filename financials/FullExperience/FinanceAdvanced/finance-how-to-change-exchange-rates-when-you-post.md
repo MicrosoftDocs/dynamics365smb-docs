@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Change Exchange Rates When You Post
 You can change the exchange rate on existing journal lines or sales and purchase documents \(blanket orders, orders, invoices, and credit memos\) before posting. Before you can change exchange rates, you must set up currency codes and exchange rates.  
   

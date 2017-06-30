@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Warranties for Serial Numbers and Lot Numbers
 For some items, you might want to set up specific warranties in the item tracking code. This functionality allows you to keep track of when the warranties on specific serial or lot numbers in your inventory will run out.  
   

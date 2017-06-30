@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Refresh Planning Demands
 You can use the **Refresh Planning Demand** batch job to refresh the planning components and the routing lines for the current planning line.  
   

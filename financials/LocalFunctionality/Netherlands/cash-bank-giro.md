@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Cash-Bank-Giro
 Cash\/Bank\/Giro helps you posting both cash and bank\/giro transactions into the system in an easier and more direct way than using the General Journals.  
   

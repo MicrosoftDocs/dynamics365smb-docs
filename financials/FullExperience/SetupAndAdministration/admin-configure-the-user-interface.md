@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Configure the User Interface
 As an administrator, you configure the company’s default user interfaces by customizing page layouts for different user profiles in the company. To perform this work, you must be an administrator with the SUPER permission set. In addition, profiles must be set up and the appropriate users assigned to them. For more information, see [Administration in the Clients](../administration-in-the-clients.md).  
   

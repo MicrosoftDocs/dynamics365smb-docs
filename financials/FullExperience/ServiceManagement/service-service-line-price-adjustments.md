@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Service Line Price Adjustments
 In the **Service Line Price Adjmt.** window, you can see information about the service lines that your price adjustment groups will adjust.  
   

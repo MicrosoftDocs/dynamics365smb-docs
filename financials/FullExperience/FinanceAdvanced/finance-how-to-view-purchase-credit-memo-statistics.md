@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: View Purchase Credit Memo Statistics
 When you have created a purchase credit memo and filled in the lines, you can see the resulting totals in the **Purchase Credit Memo Statistics** window.  
   

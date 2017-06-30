@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Design Details: Fixed Reorder Qty.
 The Fixed Reorder Qty. policy is related to inventory planning of typical C-items \(low inventory cost, low risk of obsolescence, and\/or many items\). This policy is usually used in connection with a reorder point reflecting the anticipated demand during the lead time of the item.  
   

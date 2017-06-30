@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create Fixed Assets
 When you set up a new fixed asset, there are fields that must always be filled in, fields that can be filled in as needed and fields in which you cannot enter anything.  
   

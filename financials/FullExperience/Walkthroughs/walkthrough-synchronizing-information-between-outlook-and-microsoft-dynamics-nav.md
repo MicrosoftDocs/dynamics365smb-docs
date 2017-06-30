@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Walkthrough: Synchronizing Information Between Outlook and Microsoft Dynamics NAV
 You can set up synchronization between ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
   

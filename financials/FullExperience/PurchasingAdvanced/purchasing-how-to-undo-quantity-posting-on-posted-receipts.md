@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Undo Quantity Posting on Posted Receipts
 If you have made an incorrect quantity posting, that is, if you have made a purchase order with, for example, the wrong number of items and posted it as received but not invoiced, you can undo the posting.  
   

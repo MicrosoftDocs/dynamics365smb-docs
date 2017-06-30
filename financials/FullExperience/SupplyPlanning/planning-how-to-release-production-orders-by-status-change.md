@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Release Production Orders by Status Change
 You can release both a planned production order and a firm planned production order by changing its status.  
   

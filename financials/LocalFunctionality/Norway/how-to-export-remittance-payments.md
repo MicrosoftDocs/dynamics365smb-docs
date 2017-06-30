@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Export Remittance Payments
 You can use the export remittance payments process to export the payments file to your computer. You can then transfer the remittance payments to the bank.  
   

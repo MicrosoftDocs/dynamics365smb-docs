@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up General Default Values for Fixed Assets
 You set up fixed assets in the **Fixed Asset Setup** window.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Standard Purchase Codes
 For some vendors, companies receive purchase invoices with similar information. Often these documents contain one single invoice line, which is practically always to be posted on the same account, and which contains the same amount. For example; the rent for the company building.  
   

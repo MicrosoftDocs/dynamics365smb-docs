@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Setup and Administration
 Entering the correct setup values from the start is important to the success of any new business software. Whether you use ADD INCLUDE<!--[!INCLUDE[rim](../../includes/rim_md.md)]--> to implement setup values or you manually enter them in the new company, you can support your setup decisions with some general recommendations for selected setup fields that are known to potentially cause the solution to be inefficient if defined incorrectly.  
   

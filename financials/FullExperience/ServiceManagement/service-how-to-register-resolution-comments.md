@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Register Resolution Comments
 You can use the **Resolution Service Comment Sheet** window to register comments on the method or procedure applied to service items in service orders and service quotes.  
   

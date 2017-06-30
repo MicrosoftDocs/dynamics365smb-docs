@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Extended Text
 If you need more than one line to describe an item on a sales, purchase, or service document, you can use the extended text feature.  
   

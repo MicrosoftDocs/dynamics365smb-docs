@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Save Standard Journals
 When you have created journal lines which you know you are likely to create again later, you can save them as a standard journal before you post the journal.  
   

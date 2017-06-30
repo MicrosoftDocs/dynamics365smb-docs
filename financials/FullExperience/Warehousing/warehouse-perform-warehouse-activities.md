@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Perform Warehouse Activities
 Warehouse activities are defined as the tasks involved in handling items that exist inside the warehouse, in accounting terms called "on inventory". [Receiving](../Shipping.md) are the surrounding inventory events reflecting the incoming and outgoing transactions. The in-warehouse activities of putting away and picking are similar to receiving and shipping tasks. In large warehouses these different handling tasks can be separated by departments and the integration managed by a directed workflow. In simpler installations the flow is less formalized, and the warehouse activities are performed with so-called inventory put-aways and picks.  
   

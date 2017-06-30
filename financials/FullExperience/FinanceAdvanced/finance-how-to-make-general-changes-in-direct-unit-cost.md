@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Make General Changes in Direct Unit Cost
 If you need to change the direct unit cost for several items, you can use the **Adjust Item Costs\/Prices** batch job.  
   

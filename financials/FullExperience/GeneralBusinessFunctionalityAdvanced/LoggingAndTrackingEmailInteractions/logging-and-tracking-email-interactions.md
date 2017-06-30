@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Logging and Tracking Email Interactions
 Email logging in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> contacts.  
   

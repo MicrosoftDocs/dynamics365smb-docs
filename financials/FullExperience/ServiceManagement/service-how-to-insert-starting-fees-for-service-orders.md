@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Insert Starting Fees for Service Orders
 When working on service items in service orders, you may need to register a starting fee for the service order in general. The following procedure shows how to insert a starting fee in the **Service Lines** window.  
   

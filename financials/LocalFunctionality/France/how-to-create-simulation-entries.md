@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create Simulation Entries
 When you have set up simulation of general ledger entries, you can create simulation entries.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Loaners
 You can use the **Loaner Card** window to set up loaners that you can lend to customers to replace service items while they are in service.  
   

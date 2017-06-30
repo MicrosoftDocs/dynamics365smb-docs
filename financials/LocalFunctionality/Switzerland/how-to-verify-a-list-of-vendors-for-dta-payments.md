@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Verify a List of Vendors for DTA Payments
 The DatenTrägerAustausch \(DTA\) payment journal report displays information for each payment line. You can also view comments in the comments column. The report includes information about the number of postings, the highest posting amount, and the total amount in local and foreign currencies.  
   

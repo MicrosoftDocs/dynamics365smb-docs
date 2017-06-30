@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Register Internal Comments
 You can use the **Internal Service Comment Sheet** window to register internal comments on service items in service orders and service quotes. Internal comments are for internal use only and are not printed on reports.  
   

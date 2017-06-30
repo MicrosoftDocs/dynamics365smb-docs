@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Display the Load on Work Centers
 From the **Work Center** card, you can view the load on the work centers.  
   

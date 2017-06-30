@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Post Service Orders
 When you have created a service order, filled in all the necessary information and made any modifications, you can post the service order. The order must contain at least one service item line and one service line before you can post it. Should the order contain more than one service line, all the lines are posted at one time.  
   

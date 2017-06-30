@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up VAT Categories
 To use the electronic VAT declaration, you must set up a VAT category code for all XML elements in the electronic VAT declaration.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Expiration Rules for Serial Numbers and Lot Numbers
 For some items you might want to set up specific expiration dates and rules in the item tracking code. This functionality allows you to keep track of when specific serial numbers and lot numbers expire.  
   

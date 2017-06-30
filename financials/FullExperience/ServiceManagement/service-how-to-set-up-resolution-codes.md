@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Resolution Codes
 You can use the **Resolution Codes** window to set up resolution codes to identify a particular method or procedure used to solve a service problem.  
   

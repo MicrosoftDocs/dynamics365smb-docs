@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Prepare for VAT Transactions Reports
 You must submit periodic reports to the tax authorities to list all transactions that include VAT. The tax authority establishes the thresholds at which reporting is required. Currently, the threshold is set at zero, meaning that all transactions are to be reported. To prepare for these reports, you must set up VAT posting to include VAT transaction report amounts.  
   
@@ -43,7 +43,7 @@ You must submit periodic reports to the tax authorities to list all transactions
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ------
+------
     title: Insert topic title| Microsoft Docs
     description: Insert description
     services: project-madeira
@@ -59,7 +59,7 @@ You must submit periodic reports to the tax authorities to list all transactions
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ------
+------
     title: Insert topic title| Microsoft Docs
     description: Insert description
     services: project-madeira
@@ -75,7 +75,7 @@ You must submit periodic reports to the tax authorities to list all transactions
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---------------------------------|---------------------------------------|  
+---------------------------------|---------------------------------------|  
     |**Individual Person**|Select if this customer is an individual person.|  
     |**Resident**|Specify if the customer is a resident in Italy.<br /><br /> If a customer is not a resident, you must also specify a tax representative on the **Foreign Trade** FastTab.|  
     |**First Name**|Specifies the first name of the person.|  

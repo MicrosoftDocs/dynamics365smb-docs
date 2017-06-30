@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Validate Customer Data
 Customer data must be validated before you apply the records to the ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> database.  
   

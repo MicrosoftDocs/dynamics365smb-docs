@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Payment Days and Non-Payment Periods
 Payment days and non-payment periods are used to calculate due dates. Due date calculation is used for sales and purchase documents.  
   

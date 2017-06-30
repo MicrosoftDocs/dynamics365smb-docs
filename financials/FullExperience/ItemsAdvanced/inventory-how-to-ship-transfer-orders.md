@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Ship Transfer Orders
 When you have created a transfer order by filling in all the necessary information, you can post the shipment. If there is an error, it will interrupt the posting process and display an error message.  
   

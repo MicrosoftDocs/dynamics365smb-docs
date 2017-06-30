@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Associate GIFI Codes with Chart of Accounts
 To report financial information by General Index of Financial Information \(GIFI\) code, each GIFI code must be associated with the appropriate accounts in the chart of accounts.  
   

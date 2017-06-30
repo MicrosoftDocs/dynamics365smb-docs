@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Display the Load on Machine Centers
 From the **Machine Center** card, you can see the load on the machine centers.  
   

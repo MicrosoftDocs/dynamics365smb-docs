@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Change Default Bins for Items
 You may need to change the default bin assignment for an item or assign a default bin to a new item.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Insert Page Breaks in the Chart of Accounts
 You may want to insert a page break in the chart of accounts so that the break will appear in a logical place when you print the chart of accounts. For example, after the income statement accounts.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Generate Domiciliation Suggestions
 After you have set up domiciliations, you can start generating domiciliation suggestions. In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can only create domiciliation suggestions for domestic customers.  
   

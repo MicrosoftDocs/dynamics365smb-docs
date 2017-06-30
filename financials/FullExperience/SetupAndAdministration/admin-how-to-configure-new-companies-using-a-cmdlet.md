@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Configure New Companies using a Cmdlet
 In a number of scenarios, you may want to load and import a configuration package without involving your users or using the ADD INCLUDE<!--[!INCLUDE[rim](../../includes/navnow_md.md)]--> Windows PowerShell cmdlet. Scenarios where this may be useful include:  
   

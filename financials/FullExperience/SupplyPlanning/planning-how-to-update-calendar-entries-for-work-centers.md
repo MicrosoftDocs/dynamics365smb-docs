@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Update Calendar Entries for Work Centers
 You can use the Calculate function to create new calendar entries. If old entries already exist, they will be deleted when you run this function.  
   

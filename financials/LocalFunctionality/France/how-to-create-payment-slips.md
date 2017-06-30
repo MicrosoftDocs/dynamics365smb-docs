@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create Payment Slips
 You can create payments slips to manage vendor and customer payments. Before you create payment slips, you must set up payment classes. For more information, see [How to: Set Up Payment Classes](../how-to-set-up-payment-classes.md).  
   

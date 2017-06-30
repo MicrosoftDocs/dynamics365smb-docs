@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Standard Service Codes
 When you perform typical service, you often have to create service documents that use service lines that contain similar information. To optimize the registering of new service lines, you can use standard service codes to have a predefined set of lines entered automatically.  
   

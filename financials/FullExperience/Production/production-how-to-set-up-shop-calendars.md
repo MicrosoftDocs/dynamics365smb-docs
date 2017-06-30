@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Shop Calendars
 It is possible to set up many different calendars. A calendar is then assigned to the individual capacity.  
   

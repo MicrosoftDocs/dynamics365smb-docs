@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: View Reminder Statistics
 After a reminder has been created, you can get an overview of it.  
   

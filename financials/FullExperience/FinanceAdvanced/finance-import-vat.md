@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Import VAT
 Import VAT recording presents a situation where you may need to post a document where the entire amount must be treated as VAT. For example, this is necessary, if you receive a VAT invoice from the tax authorities for imported goods.  
   

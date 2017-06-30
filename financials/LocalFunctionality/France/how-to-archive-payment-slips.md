@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Archive Payment Slips
 When a payment slip has been processed, you can separate it from the active payment slips by archiving it.  
   

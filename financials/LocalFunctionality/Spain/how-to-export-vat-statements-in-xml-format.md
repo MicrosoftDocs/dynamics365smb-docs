@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Export VAT Statements in XML Format
 You can export a VAT statement in XML format and then submit it electronically to the tax authorities.  
   

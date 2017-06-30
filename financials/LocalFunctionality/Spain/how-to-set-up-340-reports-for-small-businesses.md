@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up 340 Reports for Small Businesses
 Use the following procedure to set up your business to report on a cash basis, that is, Cash Accounting Criteria \(CAC\). If you have not already done so, you can set up posting groups for cash-based VAT accounting for purchases and sales.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Change Unit Prices
 If you want to change the sales prices for several items, you can use the  **Adjust Item Costs\/Prices** batch job.  
   

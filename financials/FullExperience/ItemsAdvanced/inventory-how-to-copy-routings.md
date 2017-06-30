@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Copy Routings
 You can copy routings. This is useful for long routings or when slight changes are to be made. You can copy an existing version of a routing into a new or existing one. The copy function deletes old lines in the current routing.  
   

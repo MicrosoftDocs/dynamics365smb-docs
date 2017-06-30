@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Delete Service Item Log Entries
 You can delete the automatically generated service item log entries, for example, the unnecessary or outdated ones.  
   

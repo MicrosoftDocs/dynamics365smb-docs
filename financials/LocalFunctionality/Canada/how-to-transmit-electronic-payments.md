@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Transmit Electronic Payments
 After you have exported payment journal entries to a file using the Export Electronic Payments report, you can use the Void-Transmit Elec. Payments process to transmit the electronic payments file to your bank for processing.  
   

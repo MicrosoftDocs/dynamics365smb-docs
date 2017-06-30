@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create Proposals
 Proposals can be generated manually or automatically based on either vendor or customer ledger entries.  
   

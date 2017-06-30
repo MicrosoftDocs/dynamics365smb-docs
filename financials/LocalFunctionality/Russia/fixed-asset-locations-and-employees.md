@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Fixed Asset Locations and Employees
 The fixed assets locations and the fixed assets employees feature enable you to:  
   

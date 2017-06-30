@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Design Details: Closing Demand and Supply
 When the supply balancing procedures have been performed, there are three possible end situations:  
   

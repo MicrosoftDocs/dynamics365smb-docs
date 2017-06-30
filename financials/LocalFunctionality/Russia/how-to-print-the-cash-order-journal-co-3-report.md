@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Print the Cash Order Journal CO-3 Report
 The **\($ R\_12463 Cash Order Journal CO-3 $\)** report shows the unified standard printing form \(typically on a monthly basis\).  
   

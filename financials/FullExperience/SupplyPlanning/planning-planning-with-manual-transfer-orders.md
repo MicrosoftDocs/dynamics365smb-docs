@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Planning with Manual Transfer Orders
 As you can see from the [Replenishment System](../\($%20T_5700_5419%20Replenishment%20System%20$\).md) field on a SKU card, the planning system can be set up to create transfer orders to balance supply and demand across locations.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Print Income Statements
 You can use the **Income Statement** report to view the company’s annual income statement.  
   

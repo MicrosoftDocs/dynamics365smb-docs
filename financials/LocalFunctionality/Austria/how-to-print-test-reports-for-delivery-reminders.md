@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Print Test Reports for Delivery Reminders
 After you have created delivery reminders and made any needed modifications, you can either print the test reports or issue the delivery reminders.  
   

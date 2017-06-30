@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create Journal Opening Balances
 ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> includes several batch jobs that are provided to help in the transfer of legacy account balances to a newly configured company. You can easily transfer this data for the customer journal, the vendor journal, the item journal, and the G\/L journal. The first step is to create a configuration package that includes the setup tables for those journals. The following procedure assumes that this step is completed. The procedure describes the subsequent steps, which include applying the package that is provided by a partner.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Walkthrough: Logging Email Interactions in the Microsoft Dynamics NAV Database
 In managing your relationships with contacts, it helps keep track of email correspondence. Email logging in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> and Microsoft Exchange Server. For example, you can send an email message to a contact about an upcoming event. The contact replies, and confirms interest in participating. Both messages are logged on the contact card. Or, you might receive a complaint from a contact via an email message. You can track that contact's message and your response to it by using email logging.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # About Subcontracting
 Subcontracting, when a vendor performs one or more operational steps in production, is a standard operational step in many manufacturing companies. Subcontracting can be a rare occurrence or can be an integral part of all production processes.  
   

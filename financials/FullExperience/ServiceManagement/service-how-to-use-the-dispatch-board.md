@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Use the Dispatch Board
 You may often need to see the list of service orders or service quotes that meet certain requirements to be able to perform specific actions with them one by one. For example, you may need to allocate resources to service orders that belong to a specific customer.  
   

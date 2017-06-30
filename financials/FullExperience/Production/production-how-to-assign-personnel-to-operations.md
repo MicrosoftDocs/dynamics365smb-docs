@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Assign Personnel to Operations
 If you require personnel with qualifications, special knowledge, or special authorization for an operation, you can assign these personnel to the operation.  
   

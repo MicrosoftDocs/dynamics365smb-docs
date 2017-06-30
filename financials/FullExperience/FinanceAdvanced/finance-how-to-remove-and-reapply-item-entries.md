@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Remove and Reapply Item Entries
 You can view and manually change certain item application entries that are created automatically during inventory transactions.  
   

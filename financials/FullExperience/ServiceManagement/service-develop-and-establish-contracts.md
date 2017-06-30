@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Develop and Establish Contracts
 One way to set up a service management business is to have standard contractual agreements between you and your customers that describe the level of service and the service expectations. You can implement such a system by providing a way to easily create contract templates that includes necessary information, such as customer, start date of contract, and invoice period.  
   

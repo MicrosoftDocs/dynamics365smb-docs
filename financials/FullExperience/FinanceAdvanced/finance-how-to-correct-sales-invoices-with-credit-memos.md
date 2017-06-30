@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Correct Sales Invoices with Credit Memos
 If you have posted an incorrect invoice, you can correct it by issuing a credit memo.  
   

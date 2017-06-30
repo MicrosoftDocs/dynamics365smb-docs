@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Status Field on Documents
 When you create a quote, order or credit memo, the **Status** field on the document header contains the status **Open** by default.  
   

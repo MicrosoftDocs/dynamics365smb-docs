@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Assign Troubleshooting Guidelines to Service Items
 You can assign troubleshooting guidelines to service items to help the technician solve problems or set up a list of questions to ask relating to the specific service items.  
   

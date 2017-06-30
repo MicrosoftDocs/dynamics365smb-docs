@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Make Negative Adjustments to Inventory Value
 Sometimes, you must make a negative adjustment to the value, but not the quantity, of one or more items.  
   

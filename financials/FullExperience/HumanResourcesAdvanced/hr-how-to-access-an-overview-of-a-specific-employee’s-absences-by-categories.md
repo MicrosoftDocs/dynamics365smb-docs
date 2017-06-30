@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Access an Overview of a Specific Employee’s Absences by Categories
 You can get an overview of an individual employee’s absences by categories.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Assign Quality Measures to Standard Tasks
 You can assign any quality measures to the standard task. The assigned quality measures give specifications of the features and tolerances to be tested for quality assurance.  
   

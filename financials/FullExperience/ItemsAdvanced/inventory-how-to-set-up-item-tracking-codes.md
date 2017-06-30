@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Item Tracking Codes
 An item tracking code reflects the different considerations a company has regarding the use of serial and lot numbers for items moving through the inventory.  
   

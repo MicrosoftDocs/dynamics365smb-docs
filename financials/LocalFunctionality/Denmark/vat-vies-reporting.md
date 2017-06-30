@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # VAT-VIES Reporting
 Danish companies must submit VAT declarations for trade of goods or services with other EU countries\/regions. You can create the required file by using the **VAT- VIES Declaration Disk** batch job.  
   

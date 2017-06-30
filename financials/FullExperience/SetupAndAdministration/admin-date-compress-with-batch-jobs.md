@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Date Compress with Batch Jobs
 This section provides an overview of how you can compress data so that it takes up less space.  
   

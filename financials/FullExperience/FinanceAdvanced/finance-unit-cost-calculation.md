@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Unit Cost Calculation
 As a rule, the value in the Unit Cost field on the item card is based on the standard cost for items with costing method standard. For items with all other costing methods, it is based on the calculation of the inventory available \(invoiced costs and expected costs\) divided by the quantity on hand.  
   

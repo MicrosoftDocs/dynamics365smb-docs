@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Finish a Physical Inventory Recording
 After you have entered all data for a physical inventory recording, you can finish the recording by setting the **Status** field to **Finished**.  
   

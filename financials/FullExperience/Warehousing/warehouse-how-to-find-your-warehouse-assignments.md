@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Find Your Warehouse Assignments
 To find your warehouse assignments, open the card window for a selected item. If warehouse instructions have been created, Take and Place lines are visible, and you can begin working on an assignment. In some warehouses, the manager may have assigned specific instructions to each employee.  
   

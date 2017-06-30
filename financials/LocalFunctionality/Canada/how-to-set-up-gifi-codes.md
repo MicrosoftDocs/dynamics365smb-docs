@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up GIFI Codes
 The Canada Revenue Agency uses General Index of Financial Information \(GIFI\) codes to collect, validate, and process financial and tax information electronically.  
   

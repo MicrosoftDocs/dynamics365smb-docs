@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Add Charts to Role Centers and List Pages
 When you have complex information, you may want to view a visual representation of the data to help see trends and make decisions. For example, you may want to monitor the balances per bank account for your company in a chart.  
   

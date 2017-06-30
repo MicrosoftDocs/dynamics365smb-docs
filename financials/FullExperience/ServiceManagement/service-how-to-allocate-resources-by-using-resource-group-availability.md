@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Allocate Resources by Using Resource Group Availability
 When you have created service orders or quotes, you can make use of resource group availability to allocate resource groups to perform the service tasks in the orders or quotes.  
   

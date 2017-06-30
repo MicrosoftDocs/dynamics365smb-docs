@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create Customers within Service Orders
 When you create service orders for customers that are not registered in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can create the customers within the **Service Order** or **Service Quote** windows.  
   

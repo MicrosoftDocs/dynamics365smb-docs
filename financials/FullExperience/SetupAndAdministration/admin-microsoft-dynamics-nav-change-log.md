@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Microsoft Dynamics NAV Change Log
 The change log in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> logs changes that are made to data in the tables that you track. In the change log, entries are chronologically ordered and show changes that are made to the fields on the specified tables.  
   

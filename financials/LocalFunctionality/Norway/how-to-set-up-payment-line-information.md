@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Payment Line Information
 Payment journal line information for the remittance payment is set up in the **Payment Info** window.  
   

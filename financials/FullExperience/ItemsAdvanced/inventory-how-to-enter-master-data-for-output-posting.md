@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Enter Master Data for Output Posting
 To post work progress automatically, you must assign a flushing method to the machine center or the work center.  
   

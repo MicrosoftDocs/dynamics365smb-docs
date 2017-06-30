@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Test Databases Before Consolidating
 After you have set up the consolidated company and the business units and exported the necessary data, you are ready to do the consolidation. This means you can transfer the figures from the business units to the consolidated company.  
   

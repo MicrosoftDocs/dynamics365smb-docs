@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Cost Types
 Chart of cost types are similar to the chart of accounts in the general ledger. You can set up the chart of cost types in the following ways:  
   

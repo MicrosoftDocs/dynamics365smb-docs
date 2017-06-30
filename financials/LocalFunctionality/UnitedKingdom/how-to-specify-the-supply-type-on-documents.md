@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Specify the Supply Type on Documents
 You must specify the supply type on tax invoices. To do this, you must update the codes and names for the supply types in the **Types of Supply** window.  
   

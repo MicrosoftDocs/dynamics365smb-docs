@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Cancel Allocations
 If you need to cancel allocations of resources, for example, technicians, to service tasks without reallocating the tasks directly, you can cancel the allocations.  
   

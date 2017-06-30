@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Make Basic UI Changes
 As basic types of UI personalization, you can change the size and position of any window, the width of columns and the height of column headers, and you can change the sorting of data in columns.  
   

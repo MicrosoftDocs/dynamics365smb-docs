@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Electronic Banking in Norway
 ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> includes Norwegian enhancements to electronic banking. You can use this functionality to perform the following operations:  
   

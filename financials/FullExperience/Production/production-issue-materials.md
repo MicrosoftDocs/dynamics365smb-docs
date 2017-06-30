@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Issue Materials
 The first physical activity in a production process is to prepare the materials that are to be processed in the production operations. Apart from the warehouse activities involved in bringing components to the machine center in question, the issue of materials mainly concerns the way component items are posted to the database as consumed. Consumption posting can be done manually, by filling and posting journal lines after production operations. Or, it can be done automatically depending on the setup of flushing method. Components can be either forward flushed when the production order is released or it can be backward flushed along with output posting when the production order changes to finished.  
   

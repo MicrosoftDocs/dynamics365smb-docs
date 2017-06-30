@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Print Depreciation Book Reports
 The **Depreciation Book** is a fiscal report that is sorted by year and item class. The **Depreciation Book** report shows changes in fixed asset stock in a given year by item class, rather than by the individual items. The **Depreciation Book** report is run after the depreciation method has been set up and assets have been entered.  
   

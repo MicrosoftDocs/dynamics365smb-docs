@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Remove Contract Quote Lines
 You may need to remove service items as contract lines from service contract quotes in the process of creating a service contract that the customer agrees to.  
   

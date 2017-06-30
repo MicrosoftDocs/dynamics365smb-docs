@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Profiles and Role Centers
 Profiles are collections of ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> users who share the same Role Center. A Role Center is a type of page on which you can place different parts. Each part is a container in which you can host other pages or pre-defined system parts, such as an Outlook part or parts for adding tasks, notifications, or notes.  
   

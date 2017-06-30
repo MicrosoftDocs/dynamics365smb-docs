@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Service Contracts
 In the **Service Contract** window, you can view, change, or create your service contracts.  
   

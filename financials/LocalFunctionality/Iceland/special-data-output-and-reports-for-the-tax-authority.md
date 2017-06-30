@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Special Data Output and Reports for the Tax Authority
 It is a legal requirement to send the tax authority a data file in a predefined format.  
   

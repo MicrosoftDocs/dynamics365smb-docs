@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Stockkeeping Units
 You can use stockkeeping units to record information about your items for a specific location or a specific variant code.  
   

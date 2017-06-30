@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: View Unposted and Posted Blanket Purchase Order Lines
 The link between the blanket order and the originating purchase order is retained, and any other document, such as purchase orders, purchase invoices, purchase return orders, and purchase credit memos, that has been manually linked to the purchase blanket order and provides a list of unposted and posted purchase order or invoice lines.  
   

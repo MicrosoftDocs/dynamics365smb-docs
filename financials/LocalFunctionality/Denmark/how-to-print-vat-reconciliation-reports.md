@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Print VAT Reconciliation Reports
 In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can use the **VAT Reconciliation** report to view a list of general ledger accounts with their base amounts and VAT amounts. These amounts are grouped by VAT type to help with VAT settlement reconciliation.  
   

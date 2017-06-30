@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # VAT Reports
 VAT is charged on transactions that involve goods and services in Spain or goods imported into Spain. The following information provides more details about VAT functionality.  
   

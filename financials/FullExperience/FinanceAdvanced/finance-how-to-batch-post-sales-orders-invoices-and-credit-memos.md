@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Batch Post Sales Orders, Invoices, and Credit Memos
 If you have set up a large number of sales orders, invoices, or credit memos, it is an advantage to post them with a batch job. You can have them posted at night or at another time when it is convenient.  
   

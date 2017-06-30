@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Electronic Tax Declarations
 Companies must deliver their VAT and ICP declarations electronically to the tax authorities.  
   

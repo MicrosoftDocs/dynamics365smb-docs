@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Design Details: General Journal Post Line
 This documentation provides detailed technical insight into the concepts and principles that are used to redesign the general journal posting line feature in ADD INCLUDE<!--[!INCLUDE[navnowlong](../../includes/navnowlong_md.md)]-->. The redesign makes codeunit 12 simpler and more maintainable. The documentation starts by describing conceptual overviews of the redesign. Then it explains the technical architecture to show the changes that result from the redesign.  
 

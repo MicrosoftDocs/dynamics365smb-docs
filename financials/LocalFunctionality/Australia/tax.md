@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Tax
 ADD INCLUDE<!--[!INCLUDE[emptyBookNodeText](../../includes/emptybooknodetext_md.md)]-->  
   

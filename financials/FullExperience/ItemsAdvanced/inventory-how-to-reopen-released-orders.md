@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Reopen Released Orders
 You can make changes to a released sales, purchase, transfer, or service order by reopening it.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Validate the Configuration Questionnaire
 It is important to validate the setup questionnaire before you apply it to the ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> format. It is also a way to make sure that data formatting is preserved during the import from Excel.  
   

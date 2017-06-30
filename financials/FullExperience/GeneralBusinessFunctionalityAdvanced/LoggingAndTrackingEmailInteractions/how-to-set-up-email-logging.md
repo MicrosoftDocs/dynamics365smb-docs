@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Email Logging
 You set up email logging in the **Marketing Setup** window. Setup requires an email account that has a valid email address on Exchange. It also requires that you use public folders. This enables you to share and log information and email in a company.  
   

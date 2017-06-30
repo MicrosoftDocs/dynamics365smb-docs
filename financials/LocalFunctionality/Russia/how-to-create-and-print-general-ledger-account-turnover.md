@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create and Print General Ledger Account Turnover
 ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> enables you to create general ledger account turnover information in the **G\/L Account Turnover** window.  
   

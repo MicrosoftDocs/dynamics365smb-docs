@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Norwegian Sales Documents
 ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> supports two sets of sales documents. A document set consists of a sales invoice, sales credit memo, reminder, and finance charge memo.  
   

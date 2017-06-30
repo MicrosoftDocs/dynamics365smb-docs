@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Perform Warehouse Physical Inventories
 At least once in every fiscal year, you must take a physical inventory to see if the quantity registered is the same as the physical quantity in stock. If there are differences, you must post them to the item accounts before you do an inventory valuation. You also post your results to the physical inventory ledger, to record that you have counted a particular item on a particular date.  
   

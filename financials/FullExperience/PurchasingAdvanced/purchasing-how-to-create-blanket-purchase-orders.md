@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create Blanket Purchase Orders
 You can use blanket orders when you have committed to buying large quantities of an item that are to be received in several smaller shipments over a certain period of time. For more information, see [About Blanket Purchase Orders](../about-blanket-purchase-orders.md).  
   

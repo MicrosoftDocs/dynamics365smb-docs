@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Register Service Operations
 When performing a service on a service order, you can register the details specifying the items used, costs incurred, and the time spent.  
   

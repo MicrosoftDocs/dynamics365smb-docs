@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Allocate Resource Groups
 When you have created service orders or quotes, you can allocate resource groups, for example, groups of technicians, to perform the service tasks in the orders or quotes.  
   

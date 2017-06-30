@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Service Status Priorities
 You use the **Service Order Status Setup** window to set the priority level for service order status options. There are four priorities: High, Medium High, Medium Low, and Low.  
   

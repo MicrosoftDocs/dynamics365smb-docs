@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Activate SEPA Payments
 To submit vendor payments electronically in Single Euro Payments Area \(SEPA\) ISO 20022 payment format, you must set up prerequisites for enabling SEPA payments.  
   

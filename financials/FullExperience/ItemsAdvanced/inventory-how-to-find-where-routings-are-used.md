@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Find Where Routings Are Used
 You can use the **Where-used** function to find out which items use a certain routing.  
   

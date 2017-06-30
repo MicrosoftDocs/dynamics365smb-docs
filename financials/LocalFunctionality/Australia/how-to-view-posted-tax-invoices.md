@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: View Posted Tax Invoices
 In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can use the **Posted Sales Tax Invoice** window and the **Posted Purchase Tax Invoice** window to view the details of posted sales tax invoices and posted purchase tax invoices.  
   

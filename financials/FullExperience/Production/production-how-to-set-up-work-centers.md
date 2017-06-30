@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Work Centers
 A **Work Center** card organizes the fixed values and requirements of the production resource, and thus governs the output of production performed in that work center.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Scenario Example: Calculating Cash Flow Dates and Amounts for Open Invoices
 This topic shows how the cash flow forecast dates and amounts are calculated for an open sales invoice.  
   

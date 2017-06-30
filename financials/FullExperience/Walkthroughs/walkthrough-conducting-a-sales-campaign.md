@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Walkthrough: Conducting a Sales Campaign
 A campaign is any kind of activity that involves several contacts. An important part of setting up a campaign involves selecting the target audience for your campaign. For this purpose, in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you create a segment, or a group of contacts using filters.  
   

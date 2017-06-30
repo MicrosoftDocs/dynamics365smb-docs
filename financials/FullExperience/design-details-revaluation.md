@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Design Details: Reordering Policies
 Reordering policies define how much to order when the item needs to be replenished. Four different reordering policies exist.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Assign Relative Codes to Employees
 You can set up relative codes for relatives or close contacts of your employees that you may want to contact in case of emergency.  
   

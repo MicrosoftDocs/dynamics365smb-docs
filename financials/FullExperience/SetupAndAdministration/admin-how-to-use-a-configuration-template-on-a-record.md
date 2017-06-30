@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Use a Configuration Template on a Record
 You can apply a data template to any record that is in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> and use this technique to change or modify a record. However, when you do this, you overwrite existing values in the record with those of the template. Consequently, you should be careful when you apply a template to existing records.  
   

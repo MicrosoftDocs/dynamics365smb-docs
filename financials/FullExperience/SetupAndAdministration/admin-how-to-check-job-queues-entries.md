@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Check Job Queues Entries
 The **Job Queue Entries** window lists all current job queue entries. The list displays the **Status** of the job, the **User ID** of the user who initiated the job, and the **Object ID.to Run**. If the status is set to **Ready**, then the scheduled job can run.  
   

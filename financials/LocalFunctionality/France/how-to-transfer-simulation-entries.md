@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Transfer Simulation Entries
 When you have created and posted simulation entries to the general ledger, you can transfer the simulation entries into real accounting entries.  
   

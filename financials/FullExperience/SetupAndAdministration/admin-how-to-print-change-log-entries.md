@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Print Change Log Entries
 After you have set up the change log, activated it, and made changes to data, you can print reports of the change logs entries.  
   

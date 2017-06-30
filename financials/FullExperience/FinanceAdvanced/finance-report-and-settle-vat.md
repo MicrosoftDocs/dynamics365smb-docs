@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Report and Settle VAT
 If you have set up the VAT features correctly, VAT is calculated and posted automatically.  
   

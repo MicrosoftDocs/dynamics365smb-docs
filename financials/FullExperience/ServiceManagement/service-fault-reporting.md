@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Fault Reporting
 To set up service standards and responses for your company, you can establish how to capture and record fault information and what action to take in response to service items. The ADD INCLUDE<!--[!INCLUDE[demolong](../../includes/navnow_md.md)]--> provides four options, from which you can select one in the **General** FastTab of the **Service Mgt. Setup** window. Your selection serves as the default implementation for your service application.  
   
@@ -37,7 +37,7 @@ To set up service standards and responses for your company, you can establish ho
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ------------|-------------|  
+------------|-------------|  
 |Set up common fault codes and areas. Use these to describe typical faults.|[How to: Set Up Fault Codes](../how-to-set-up-fault-codes.md)|  
 |Set up a list of typical symptoms that a customer might use to describe certain faults.|[How to: Set Up Symptom Codes](../how-to-set-up-symptom-codes.md)|  
 |Establish a list of typical repair methods or resolutions to service problems.|[How to: Set Up Resolution Codes](../how-to-set-up-resolution-codes.md)|  

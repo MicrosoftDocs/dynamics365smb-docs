@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Design Details: Table Structure
 To understand how the dimension entry storing and posting is redesigned, it is important to understand the table structure.  
 

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Automatic Payments and Automatic Bills
 In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can manage automatic payments and bills.  
   
@@ -43,7 +43,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can ma
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---------------------------------|---------------------------------------|  
+---------------------------------|---------------------------------------|  
     |**Payment Method**|Select the payment method for the type of payments made to or from this bank account. For example, for the bank account that will be used for automatic payments made by customers, select a payment method for bank transfers.|  
     |**Bills For Collection Acc. No.**|Specify the general ledger account where bills for collection will be credited.|  
     |**Bills For Discount Acc. No.**|Specify the general ledger account where bill discounts will be debited.|  

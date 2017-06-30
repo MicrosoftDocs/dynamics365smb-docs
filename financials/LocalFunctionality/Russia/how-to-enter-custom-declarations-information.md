@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Enter Custom Declarations Information
 Use the following procedure to enter custom declaration information.  
   

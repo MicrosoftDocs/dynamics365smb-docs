@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create Inventory Put-aways
 When your location is set up to require put-away processing but not receive processing, you will use the **Inventory Put-away** document to organize and record your put-away activity.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Goods and Service Tax Posting
 Goods and services tax \(GST\) is the tax that is applied on most goods and services. The GST that is paid and received during a period is reported in the Business Activity Statement \(BAS\) that has to be submitted to the Australian Taxation Office \(ATO\).  
   

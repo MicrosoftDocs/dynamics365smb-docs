@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Assign a Configuration Package
 After you have defined the tables that you want to treat as part of your configuration, you can easily assign the tables to configuration packages. You can assign a table to one package only. In the following procedure, you assign the package from within the context of the configuration worksheet.  
   

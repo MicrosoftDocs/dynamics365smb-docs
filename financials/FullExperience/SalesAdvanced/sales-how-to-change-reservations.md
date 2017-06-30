@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Change Reservations
 Sometimes, you may want to change an item reservation.  
   

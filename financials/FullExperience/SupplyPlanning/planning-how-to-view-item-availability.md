@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: View Item Availability
 The follow table shows the various ways you can view an item’s availability.  
   

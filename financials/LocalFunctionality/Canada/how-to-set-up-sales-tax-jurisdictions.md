@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Sales Tax Jurisdictions
 In the United States, states, counties, cities, and localities can charge sales tax.  
   

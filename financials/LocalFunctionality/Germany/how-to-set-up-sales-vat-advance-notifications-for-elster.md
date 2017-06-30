@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Sales VAT Advance Notifications for ELSTER
 In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, to submit valid sales VAT advance notifications to the ELSTER portal, you must set up the following:  
   
@@ -53,7 +53,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, to submit 
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---------------------------------|---------------------------------------|  
+---------------------------------|---------------------------------------|  
     |**Use Proxy Server**|Select to use a proxy server for communication.|  
     |**Proxy Server Authent. Required**|Select to use a dedicated proxy server for authentication.<br /><br /> If you use a proxy server and the required dedicated authentication, then you must enter the user account and the password before transmitting. If you use Windows authentication, do not select this field.|  
     |**Proxy Server IP-Address\/Port**|The address and the port that will be used for communication if you use a proxy server.|  

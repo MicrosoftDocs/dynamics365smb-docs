@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Import Swiss Post Codes
 You can import the latest post code file and use it to update the **Post Code** table. The post code file can be downloaded from the [Swiss Post](http://go.microsoft.com/fwlink/?LinkId=150292) website. After importing the latest post code, you can define post codes for customers or vendors. For more information, see [How to: Register New Customers](../how-to-register-new-vendors.md).  
   

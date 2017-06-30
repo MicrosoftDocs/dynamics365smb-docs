@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Pick for Internal Operations in Advanced Warehousing
 In advanced warehousing where the location is set up to use picking as well as shipping, you can pick components for production and assembly activities with the **Warehouse Pick** window.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: View Account Balances by Using the GIFI Code Report
 You can review your account balances by General Index of Financial Information \(GIFI\) code using the **Account Balances by GIFI Code** report.  
   

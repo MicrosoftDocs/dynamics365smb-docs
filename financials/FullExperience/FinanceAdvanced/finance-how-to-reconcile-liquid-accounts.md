@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Reconcile Liquid Accounts
 For each account included in a reconciliation, the net sum of all amounts on the account is calculated in the general journal. Before a general ledger account can be reconciled, you must select the **Reconciliation Account** field on the account card.  
   

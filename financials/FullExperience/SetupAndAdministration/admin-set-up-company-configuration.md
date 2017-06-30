@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Set Up Company Configuration
 The implementation process begins with the ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> solution will require. You bundle all of this information into configuration packages.  
   

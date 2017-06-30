@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Correct VAT Transactions Reports
 ### To send a corrected VAT transaction report  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Withholding Tax-duplicate
 Companies must pay withholding tax to the government for third-party services and vendor purchases. Withholding tax is calculated during invoice payment rather than during invoice posting.  
   

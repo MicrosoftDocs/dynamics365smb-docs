@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Design Details: Item Tracking Lines Window
 Item tracking records and reservation records are created in the reservation system, and their availability is calculated dynamically. Data that is entered in the **Item Tracking Lines** window is managed in a temporary version of the **Tracking Specification** table. When the window is closed, the active data is committed to the **Reservation Entry** table and the historic data is committed to the **Tracking Specification** table. For more information, see [Design Details: Active versus Historic Item Tracking Entries](design-details-active-versus-historic-item-tracking-entries.md).  
   

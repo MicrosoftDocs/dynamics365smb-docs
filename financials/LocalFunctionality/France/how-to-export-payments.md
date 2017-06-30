@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Export Payments
 The Payment Management module allows you to export your payments electronically via a text file or XMLport.  
   

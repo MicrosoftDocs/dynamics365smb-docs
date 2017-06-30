@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Setup Best Practices: Reordering Policies
 The **Reordering Policy** field on item cards offers four different planning methods that determine how the individual planning parameters interact.  
   

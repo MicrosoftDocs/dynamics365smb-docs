@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Select a Configuration Template
 When you select an existing data template, you must evaluate whether the template that you created for the new company are sufficient for the customer. Review the provided fields and values to determine which templates are appropriate for a new company.  
   

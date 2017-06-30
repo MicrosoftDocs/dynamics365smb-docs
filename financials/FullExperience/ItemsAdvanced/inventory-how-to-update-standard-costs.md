@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Update Standard Costs
 You must periodically update the standard costs of components and roll the new costs up to the parent item. The process typically consists of the following four steps:  
   

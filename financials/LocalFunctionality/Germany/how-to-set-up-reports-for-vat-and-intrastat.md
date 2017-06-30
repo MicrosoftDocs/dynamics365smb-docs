@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Reports for VAT and Intrastat
 In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can specify which reports to use to create the documents that you must submit to the authorities, such as the VAT statement and the Intrastat form.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create Service Items
 When you receive an unregistered item for servicing, you can register it as a service item.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # About Picking Serial and Lot Numbers
 Outbound handling of serial or lot numbers is a frequent task in different warehouse processes.  
   

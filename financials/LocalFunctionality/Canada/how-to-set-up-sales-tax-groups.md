@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Sales Tax Groups
 A tax group represents a group of inventory items or resources that are subject to identical tax terms. Examples of typical tax groups include food items, medicine and medical supplies, and automobile fuel. These groups are usually determined by criteria set up by tax authorities.  
   

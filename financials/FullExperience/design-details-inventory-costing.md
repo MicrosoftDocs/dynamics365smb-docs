@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Design Details: Inventory Costing
 This documentation provides detailed technical insight to the concepts and principles that are used within the Inventory Costing features in ADD INCLUDE<!--[!INCLUDE[nav_current_long](../../includes/nav_current_long_md.md)]-->.  
   

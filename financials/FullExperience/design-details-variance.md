@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Design Details: Variance
 Variance is defined as the difference between the actual cost and the standard cost, as described in the following formula.  
   

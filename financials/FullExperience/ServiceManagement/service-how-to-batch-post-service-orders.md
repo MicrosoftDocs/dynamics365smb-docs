@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Batch Post Service Orders
 If you have set up a large number of service orders, it is advantageous to post them in a batch job. You can have them posted at any convenient time.  
   

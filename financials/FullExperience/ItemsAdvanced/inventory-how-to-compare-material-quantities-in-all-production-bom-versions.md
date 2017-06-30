@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Compare Material Quantities in All Production BOM Versions
 The version matrix function offers a comparison of material quantities for each version.  
   

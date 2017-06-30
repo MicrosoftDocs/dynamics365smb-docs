@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Assign Locations to Entries
 You can assign a location to an entry after you have posted it, for example, if you have forgotten to define a location for a purchase or sales order.  
   

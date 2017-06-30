@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Setup Best Practices: Costing Method
 The **Costing Method** on the item card defines item’s cost flow is recorded and whether an actual or budgeted value is capitalized and used in the cost calculation.  
   

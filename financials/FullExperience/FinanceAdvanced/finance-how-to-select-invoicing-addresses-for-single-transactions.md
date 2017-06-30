@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Select Invoicing Addresses for Single Transactions
 When you purchase goods, you usually receive the invoice from the person or company that you ordered the goods from. Sometimes, you may receive the invoice from a different vendor.  
   

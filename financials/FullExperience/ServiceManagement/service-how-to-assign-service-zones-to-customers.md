@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Assign Service Zones to Customers
 You can assign service zones to customers in the **Customer Card** window. When you allocate a resource, for example, a technician, to a service task that is to be performed at the customer site, you can then select a resource that is assigned to the same service zone as the customer.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Troubleshooting: The File that You Are Trying to Use Is Too Large
 If you are trying to upload a large image file that is larger than 30 MB, such as a high-resolution photo, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> will give you an error message that says that the file that you are trying to upload is too large. This behavior can be changed by modifying the IIS configuration to support large file uploads.  
   

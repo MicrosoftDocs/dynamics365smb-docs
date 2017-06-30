@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Cancel Payments
 ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> includes Norwegian enhancements that allow you to cancel payments. If the payment has been sent to the bank, the bank must be contacted to cancel the remittance that they received.  
   

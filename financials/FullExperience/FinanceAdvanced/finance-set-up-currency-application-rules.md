@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Set Up Currency Application Rules
 You can allow transactions in different currencies to be applied to one another, for example, if you record a purchase order in one currency and then make the corresponding payment in a different currency. You can:  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Enable Workflows
 When you have created a workflow and you are sure that it is ready to start, you must enable the workflow.  
   

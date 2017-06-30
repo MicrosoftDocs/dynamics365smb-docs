@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create a VAT Combination Setup
 This topic describes how to create a VAT combination setup.  
   

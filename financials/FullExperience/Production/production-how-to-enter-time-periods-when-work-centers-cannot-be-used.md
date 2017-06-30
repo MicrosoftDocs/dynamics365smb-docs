@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Enter Time Periods When Work Centers Cannot Be Used
 The calendar for the work center is calculated from the entries of the assigned shop calendar and the calendar absence entries of the work center.  
   

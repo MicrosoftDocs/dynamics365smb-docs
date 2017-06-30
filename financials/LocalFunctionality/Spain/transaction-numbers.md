@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Transaction Numbers
 Transaction numbers allow you to group entries with the same document number and date, so that you can balance them together. Transaction numbers usually begin with the number 2 each year. The number 1 is reserved for the opening transaction, which is automatically created each year. The only exception is for the first accounting period in the first year. In this case, the opening transaction is the number 1.  
   

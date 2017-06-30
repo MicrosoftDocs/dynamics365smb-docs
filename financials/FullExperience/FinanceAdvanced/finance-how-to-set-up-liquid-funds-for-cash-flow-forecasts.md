@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Liquid Funds for Cash Flow Forecasts
 To include the liquid funds in the general ledger for the cash flow forecast, you must identify the accounts that have balances that influence the prediction of net cash flow.  
   

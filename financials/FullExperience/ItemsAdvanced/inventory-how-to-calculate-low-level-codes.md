@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Calculate Low-Level Codes
 Each item in a production BOM must have a low-level code.  
   

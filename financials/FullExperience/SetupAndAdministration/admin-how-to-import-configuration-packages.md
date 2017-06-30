@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Import Configuration Packages
 When you create a new company, you can import company settings for the new company. You import the settings from a .rapidstart file, which delivers the package contents in a compressed format. A corresponding set of default data migration tables are imported. The data set contains master data tables and the setup data tables. Your first task in data migration is to evaluate if the default migration setup meets the needs of the new company.  
   

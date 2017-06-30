@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Register Employee Absences
 In order for you to be able to manage employee absences, you must register them.  
   

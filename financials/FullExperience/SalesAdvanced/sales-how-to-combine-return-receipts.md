@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Combine Return Receipts
 You can combine return receipts if your customer returns several items that are covered by different sales return orders.  
   

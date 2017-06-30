@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create a Profile
 You use the **Profile** card to create profiles for end users. Each profile is associated with a Role Center. Profiles are typically based on job titles in a company.  
   

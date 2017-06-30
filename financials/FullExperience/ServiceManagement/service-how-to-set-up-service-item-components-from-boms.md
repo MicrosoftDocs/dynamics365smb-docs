@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Service Item Components from BOMs
 If you want to set up components for service items that are BOMs, you can copy the BOM items and create them as service item components.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up a Quantity Book
 Create a depreciation book to keep record of the fixed assets quantities that will be repaid at the time of release for the amount at which they were acquired.  
   

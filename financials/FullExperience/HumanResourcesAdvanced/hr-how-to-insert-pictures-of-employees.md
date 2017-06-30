@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Insert Pictures of Employees
 If you have a digitalized picture of an employee, that is, a picture that is a file in .bmp format, you can insert it on the employee card.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Insert Service Contract Lines into Service Contracts or Contract Quotes
 You may need to insert the contract or contract quote lines to register service items in the service contract or service contract quote that are already included in a different service contract or service contract quote.  
   

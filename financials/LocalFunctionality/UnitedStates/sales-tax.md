@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Sales Tax
 You can set up ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> to calculate sales tax. Companies collect and remit sales tax to government authorities for products that are sold to end users. Sales tax can be charged based on tax jurisdiction or charged to existing sales tax. You can also track unrealized sales tax in the general ledger.  
   

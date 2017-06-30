@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Electronic Invoicing
 Before you can send electronic documents, you must set up ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> to ensure that the tax identification number \(RFC\), personal identification number \(CURP\), and state inscription IDs are available for your company and all your customers and vendors. You also need to set up the parameters that are needed for sending electronic invoices to customers and vendors. These parameters include the certificate thumbprint, which is the certificate that you received from the Mexico tax authority \(SAT\).  
   
@@ -46,7 +46,7 @@ Before you can send electronic documents, you must set up ADD INCLUDE<!--[!INCLU
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ------
+------
     title: Insert topic title| Microsoft Docs
     description: Insert description
     services: project-madeira
@@ -62,7 +62,7 @@ Before you can send electronic documents, you must set up ADD INCLUDE<!--[!INCLU
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ------
+------
     title: Insert topic title| Microsoft Docs
     description: Insert description
     services: project-madeira
@@ -78,7 +78,7 @@ Before you can send electronic documents, you must set up ADD INCLUDE<!--[!INCLU
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---------------------------------|---------------------------------------|  
+---------------------------------|---------------------------------------|  
     |**SAT Certificate Thumbprint**|Enter the friendly name of the certificate that you want to use for issuing electronic invoices. **Note:**  A certificate is needed for each user who sends electronic invoices. To get the certificate thumbprint, see the Help for the operating system.|  
     |**Send PDF Report**|Select to include a PDF when you email electronic invoices to customers or vendors. Electronic invoices are always sent as an XML file, this option allows you to include a PDF with the XML file.|  
     |**PAC Code**|Specify the authorized service provider, PAC, that you want apply digital stamps to your electronic invoices. **Note:**  To use a PAC, you must set up web services. For more information, see [How to: Set Up PAC Web Services](../how-to-set-up-pac-web-services.md).|  

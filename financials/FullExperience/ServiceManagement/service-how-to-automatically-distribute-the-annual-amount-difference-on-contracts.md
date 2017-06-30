@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Automatically Distribute the Annual Amount Difference on Contracts
 If you are going to change the annual amount of the service contract or contract quote, you will need to distribute the difference between the new and calculated annual amount values on the contract lines.  
   

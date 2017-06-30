@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Log User Changes
 The change log functionality enables you to track all direct modifications that a user makes to data in the database.  
   

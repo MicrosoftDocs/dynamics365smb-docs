@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Set Up Cost Accounting
 Before you start working with cost accounting, you must perform setup tasks.  
   

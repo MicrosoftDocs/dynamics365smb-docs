@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Check Service Orders Before Posting Them
 Before you post a service order, you can check whether there are any errors, or missing or incorrect information. The service order must contain at least one service item line and one service line before you can post the service order.  
   

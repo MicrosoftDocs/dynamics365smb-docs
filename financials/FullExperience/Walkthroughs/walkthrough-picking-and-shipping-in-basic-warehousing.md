@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Walkthrough: Picking and Shipping in Basic Warehousing
 In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, the outbound processes for picking and shipping can be performed in four ways using different functionalities depending on the warehouse complexity level.  
   

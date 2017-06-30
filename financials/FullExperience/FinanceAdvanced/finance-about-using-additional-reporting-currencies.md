@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # About Using Additional Reporting Currencies
 As companies operate in increasingly more countries\/regions, it becomes more important that they be able to review or report financials in more than one currency. The program supports use of multiple currencies. Within the program, your general ledger is set up using your local currency \(LCY\), and another currency is set up as an additional currency, with a current exchange rate assigned.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Service Price Adjustment Details
 You can use the **Serv. Price Adjmt. Detail** window to set up the details for the service price adjustment groups. For example, you can specify which item belongs to the service price adjustment group, and whether this is an item, a resource, a resource group, or a service charge.  
   

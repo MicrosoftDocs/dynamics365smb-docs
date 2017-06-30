@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Enter Statutory Information
 To comply with legal requirements, statutory information is available on the **Statutory** FastTab in the **Company Information** window.  
   

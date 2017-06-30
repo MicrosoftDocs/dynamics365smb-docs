@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Reconcile Bank Accounts by Using Bank Statements
 ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> provides a **Bank Rec.Worksheet** that you can use to reconcile bank account ledger entries with bank statements.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Assign Skill Codes to Service Item Groups
 Servicing items that belong to certain service item groups may require specific skills. If this is the case, you must assign skill codes to these service item groups.  
   

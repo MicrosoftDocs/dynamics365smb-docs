@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Track Item Reservations
 The tracking facility offers you an overview of the various documents related to a particular business case.  
   

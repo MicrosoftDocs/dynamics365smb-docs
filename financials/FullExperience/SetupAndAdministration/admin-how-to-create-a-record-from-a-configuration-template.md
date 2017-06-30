@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create a Record from a  Configuration Template
 You can use the structure of data that is contained in the data templates to convert your information into records in the database, one-by-one. To do so, you use the **Create Instance** function. This is a miniature version of the data migration process and can be useful for prototyping or treating smaller data creation tasks.  
   

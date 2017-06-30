@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up the Additional Reporting Currency
 Follow these steps to set up the additional reporting currency:  
   

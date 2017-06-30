@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create Deposits
 You can make deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos.  
   

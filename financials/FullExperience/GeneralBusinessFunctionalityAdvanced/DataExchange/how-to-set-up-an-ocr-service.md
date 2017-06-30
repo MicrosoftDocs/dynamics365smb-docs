@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up an OCR Service
 You use an external provider of OCR services to have PDF or image files turned into electronic documents that can be converted to document records in ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/how-to-use-ocr-to-turn-pdf-and-image-files-into-electronic-documents.md).  
   

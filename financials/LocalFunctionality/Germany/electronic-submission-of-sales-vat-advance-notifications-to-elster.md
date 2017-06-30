@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Electronic Submission of Sales VAT Advance Notifications to ELSTER
 In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can electronically submit tax documents and VAT statements, such as the sales VAT advance notification, to the tax authorities.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Register Fault Comments
 You can use the **Fault Service Comment Sheet** window to register comments on the faults of service items in service orders and service quotes.  
   

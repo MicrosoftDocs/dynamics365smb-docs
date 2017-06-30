@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up WIP Accounts for Posting Material Consumption
 Material consumption credits the inventory account and debits the WIP account.  
   

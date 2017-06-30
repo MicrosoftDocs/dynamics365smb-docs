@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Test Electronic Payments
 After you have set up electronic banking and generated payment suggestions, you can test the payment journal lines for errors before posting them.  
   

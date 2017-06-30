@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # About Blanket Purchase Orders
 A blanket purchase order represents a framework for an agreement between you and your vendor. Use blanket orders when you have committed to buying large quantities of an item that you will receive in several smaller shipments over a certain period of time. Often blanket orders cover only one item with predetermined delivery dates.  
   

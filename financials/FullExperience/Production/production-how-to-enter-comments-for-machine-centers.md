@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Enter Comments for Machine Centers
 You can add any comments to every machine center.  
   

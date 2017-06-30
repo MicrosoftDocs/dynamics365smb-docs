@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Norwegian VAT Reporting
 ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> includes Norwegian enhancements that allow you to calculate and report VAT to the Norwegian tax authorities.  
   

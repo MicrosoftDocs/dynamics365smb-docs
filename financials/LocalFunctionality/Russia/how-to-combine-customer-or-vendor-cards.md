@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Combine Customer or Vendor Cards
 The change double links feature enables you to combine two Customer or Vendor cards that belong to one customer or vendor.  
   

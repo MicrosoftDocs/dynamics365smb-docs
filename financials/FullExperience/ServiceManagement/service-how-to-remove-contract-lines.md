@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Remove Contract Lines
 You may need to remove contract lines from the service contract as you remove corresponding service items from the service contract. Usually you remove a contract line that is expired or corresponds to the service item that has broken down.  
   

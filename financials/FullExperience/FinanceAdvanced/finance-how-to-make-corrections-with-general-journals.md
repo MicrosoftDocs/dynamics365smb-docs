@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Make Corrections with General Journals
 When you discover an erroneous entry, it must be corrected. Since it is not possible to change or delete a ledger entry, the only way to correct an error is to post one or more corrective entries. ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> offers two features that can help you correct erroneous postings.  
   

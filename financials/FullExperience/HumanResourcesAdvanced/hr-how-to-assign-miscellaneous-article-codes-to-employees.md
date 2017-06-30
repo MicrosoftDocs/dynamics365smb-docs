@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Assign Miscellaneous Article Codes to Employees
 You can set up miscellaneous article codes for employee benefits and miscellaneous articles, such as keys, computers, desks, and so on, in your employees’ possession.  
   

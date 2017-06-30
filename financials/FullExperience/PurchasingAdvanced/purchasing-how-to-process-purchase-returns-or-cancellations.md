@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Process Purchase Returns or Cancellations
 If you want to return items to your vendor or cancel services that you have purchased, then you can create and post a purchase credit memo that specifies the requested change with regard to the original purchase invoice. You can use the **Copy Document** function to fill the purchase credit memo with the correct purchase invoice information.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Assign Quality Measures to Operations
 You can assign any quality measures to an operation. The assigned quality measures specify the features and tolerances to be tested for quality assurance.  
   

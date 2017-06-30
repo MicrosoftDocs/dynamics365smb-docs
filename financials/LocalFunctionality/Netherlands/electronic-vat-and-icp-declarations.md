@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Electronic VAT and ICP Declarations
 Companies must submit periodic VAT and ICP declarations.  
   

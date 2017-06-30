@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Cash Customers
 You cannot create an invoice without a customer number. This is true, even if you make a cash sale and do not have anything to record in a customer account.  
   

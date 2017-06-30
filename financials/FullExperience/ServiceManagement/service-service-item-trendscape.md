@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Service Item Trendscape
 The **Service Item Trendscape** window provides a scrollable summary of service ledger entries that are related to a specific service item. This summary is generated for a specific time period.  
   

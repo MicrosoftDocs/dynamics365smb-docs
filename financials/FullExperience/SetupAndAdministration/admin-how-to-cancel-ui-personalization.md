@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Cancel UI Personalization
 If you want to cancel all UI customization that you have ever made for a page under your current user logon or since you last canceled UI customizations, you can use the **Delete User Personalization** window. The layout of the page for which you delete your personalization is then reset to the default configuration for your profile.  
   

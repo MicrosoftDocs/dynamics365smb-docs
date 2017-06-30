@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Import Post Code Updates
 Every month a post code file will be delivered with all post code mutations in a month. This post code file can be imported and update the relevant data of the **Post Code Range** table.  
   

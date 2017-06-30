@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Automatic Breaking Bulk with Directed Put-away and Pick
 For locations that use directed put-away and pick, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> breakbulks as follows:  
   

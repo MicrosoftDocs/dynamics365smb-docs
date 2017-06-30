@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Assign Grounds for Termination Codes to Employees
 You can use grounds for termination codes to define various reasons for employee termination.  
   

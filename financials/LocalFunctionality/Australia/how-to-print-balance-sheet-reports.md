@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Print Balance Sheet Reports
 You can use the **Balance Sheet** report to view the company’s balance sheet.  
   

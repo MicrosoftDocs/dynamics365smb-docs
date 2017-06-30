@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Service Costs
 You can use the **Service Costs** window to set up cost codes with set prices for specific service costs, such as travel costs to particular service zones, and so on.  
   

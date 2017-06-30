@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Manage Cash Flow Forecasts
 The following table describes a sequence of tasks to perform cash flow forecasts, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed to provide guidance for how you can get started.  
   

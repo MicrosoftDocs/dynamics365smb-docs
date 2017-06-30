@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Enter Australian Business Numbers
 You can enter an Australian Business Number \(ABN\) in the following windows:  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Posting Depreciation Differences
 In Finland, the following depreciation methods are commonly used for fixed assets:  
   

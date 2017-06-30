@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Electronic Banking in Finland
 The ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> electronic banking feature allows you to process electronic customer and vendor payments. This feature supports domestic payments \(LM03\) and foreign payments \(LUM2\) for transferring electronic bank payments. To export or import electronic payments, you must first set up bank reference files to determine how payment files are processed.  
   

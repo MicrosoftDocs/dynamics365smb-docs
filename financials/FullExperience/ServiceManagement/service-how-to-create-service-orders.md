@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create Service Orders
 You can use the **Service Order** window to create documents where you enter information about a service, such as repairs and maintenance, on service items by customer request.  
   

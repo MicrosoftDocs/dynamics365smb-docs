@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Reversing Journal Entries
 Controls have been added to the **Reverse Transaction Entries** window to comply with local laws. These controls ensure the following:  
   

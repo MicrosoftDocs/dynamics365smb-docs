@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Walkthrough: Configuring UI for the Order Processor Profile
 Administrators configure the user interface by customizing the user interface for a single profile, such as the Order Processor profile, that multiple users are assigned to. To configure a profile, you must have the SUPER permission set. For more information, see [Administration in the Clients](../administration-in-the-clients.md).  
   

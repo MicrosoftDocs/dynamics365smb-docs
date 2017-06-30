@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # VAT-VIES Reporting-duplicate
 VAT Information Exchange System \(VIES\) reporting is required throughout the European Union \(EU\) and must follow local requirements, such as specific formats and files. Paper reports and XML files are created for German and Austrian VIES reporting.  
   

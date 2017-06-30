@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Troubleshooting: Email Logging
 This topic describes some common problems that you may see when you use email logging.  
   

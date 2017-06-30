@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create Blanket Sales Orders
 Use blanket orders when a customer has agreed to buy large quantities that are to be delivered in several smaller shipments over a certain period of time. For more information, see [About Blanket Sales Orders](../about-blanket-sales-orders.md).  
   

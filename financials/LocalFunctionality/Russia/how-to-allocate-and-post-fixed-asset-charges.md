@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Allocate and Post Fixed Asset Charges
 After an invoice has been created you can allocate and post fixed asset charges. The following procedure shows how to allocate and post a fixed asset charge.  
   

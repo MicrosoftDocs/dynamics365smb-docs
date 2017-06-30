@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Assign Skill Codes to Resources
 A resource, for example, a technician, may have specific skills necessary to service specific service items or service item groups. In such cases you must assign the same skill code to the resource and to the item or service item group.  
   

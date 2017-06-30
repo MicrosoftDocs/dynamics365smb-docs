@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Quote an Assemble-to-Order Sale
 You can use assembly management to customize an assembly item to a customer’s request during the sales process. For more information, see [How to: Sell Items Assembled to Order](../how-to-sell-items-assembled-to-order.md).  
   

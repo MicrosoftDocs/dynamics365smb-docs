@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Configure VAT Reports
 Before you can create VAT reports, you must specify which processes must be used to print or export the reports.  
   
@@ -43,7 +43,7 @@ Before you can create VAT reports, you must specify which processes must be used
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    --------|----------|---------------------------------------|  
+--------|----------|---------------------------------------|  
 |740|**VAT Report Mediator**|Central codeunit for configuring activities that are related to VAT reports. Based on the mediation pattern, other objects will refer to this codeunit to trigger the code that carries out the activity.|  
 |741|**VAT Report Release\/Reopen**|Handles the code for marking a VAT report as released or reopened.|  
 |743|**VAT Report Export**|Handles the code for exporting a VAT report into a file format such as XML or plain text so that the file can be submitted to the tax authorities.|  

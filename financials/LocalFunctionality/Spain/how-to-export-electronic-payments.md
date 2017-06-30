@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Export Electronic Payments
 In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can export payment journal entries into a file format according to four different payment standards. You must use the following windows to export according to the different payment standards.  
   

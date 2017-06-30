@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Service Order Status and Repair Status
 The **Status** field in the **Service Order** window and the service item repair status, which is represented by the **Repair Status Code** field in the **Service Order** window have a certain relationship in Service Management. The service order status reflects the repair status of all the service items in the service order.  
   

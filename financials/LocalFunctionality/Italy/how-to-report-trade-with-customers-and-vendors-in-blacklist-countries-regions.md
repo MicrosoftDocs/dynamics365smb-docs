@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Report Trade with Customers and Vendors in Blacklist Countries-Regions
 You must submit a periodic report of transactions with customers and vendors in certain countries\/regions that the Italian government has identified in a blacklist. The blacklist communication report must be submitted to the Italian Revenue Agency to help prevent VAT fraud. Transactions that are subject to blacklist reporting include the following:  
   
@@ -64,7 +64,7 @@ You must submit a periodic report of transactions with customers and vendors in 
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---------------------------------|---------------------------------------|  
+---------------------------------|---------------------------------------|  
     |**Name**|Specifies the name of the template, **Blacklist**.|  
     |**Description**|Specifies a description of the template, Blacklist Communication.|  
     |**Form ID**|Specifies the window where you set up the list of transactions for the blacklist communication, **12110**.|  

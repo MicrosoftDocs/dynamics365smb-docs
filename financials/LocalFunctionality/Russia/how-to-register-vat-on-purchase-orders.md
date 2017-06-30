@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Register VAT on Purchase Orders
 In Russia, organizations are required to keep a journal of received and issued VAT invoices. ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> enables you to register VAT on purchase orders so that the information is tracked in the VAT invoices journal.  
   

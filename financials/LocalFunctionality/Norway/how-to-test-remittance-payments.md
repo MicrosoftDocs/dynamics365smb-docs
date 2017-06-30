@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Test Remittance Payments
 After you have set up remittance payments and generated suggestions, you can test the payment journal lines for errors before posting them.  
   

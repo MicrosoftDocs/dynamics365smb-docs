@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create Remittance Suggestions
 You can create a remittance suggestion so that payment proposals are sent to vendors who are set up to receive remittance payments. One payment transaction per posting date for each vendor is transferred to the bank.  
   

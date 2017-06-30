@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Cancel Contracts
 You may need to cancel a service contract when the contract has expired or has been canceled by you or the customer.  
   

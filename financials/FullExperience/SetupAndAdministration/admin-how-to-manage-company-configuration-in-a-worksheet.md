@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Manage Company Configuration in a Worksheet
 The configuration worksheet is the central location in which you can plan, track, and perform your configuration work. You can create a worksheet for each company that you are working with or create a standard configuration worksheet that can be used for configuring multiple identical companies.  
   

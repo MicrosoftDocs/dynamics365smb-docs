@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Future Expenses (Deferrals)
 The future expenses \(deferrals\) feature enables you to:  
   

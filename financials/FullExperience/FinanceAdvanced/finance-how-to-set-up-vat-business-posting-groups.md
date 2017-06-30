@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up VAT Business Posting Groups
 Before setting up VAT business posting groups, you must decide how many different groups you need. This depends on a number of factors, including local legislation and whether you trade both domestically and internationally.  
   

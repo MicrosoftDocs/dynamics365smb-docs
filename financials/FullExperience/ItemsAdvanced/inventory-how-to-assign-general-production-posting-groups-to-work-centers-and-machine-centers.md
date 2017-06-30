@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Assign General Production Posting Groups to Work Centers and Machine Centers
 You must assign a general product posting group to each work center and machine center in order to set up capacity and subcontractor costing.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: View Bank Statements
 From a bank account card you can view all posted bank statements and reconciliations.  
   

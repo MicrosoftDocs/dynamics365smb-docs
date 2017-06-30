@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Verify VAT Registration Numbers
 You can use an EU web service to verify that VAT registration numbers that you enter on customer, vendor, or contact cards are valid.  
   

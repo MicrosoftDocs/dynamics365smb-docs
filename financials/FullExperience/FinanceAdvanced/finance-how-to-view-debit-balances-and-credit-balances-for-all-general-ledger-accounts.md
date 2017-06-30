@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: View Debit Balances and Credit Balances for All General Ledger Accounts
 You can view debit and credit balances for all general ledger accounts for a single period.  
   

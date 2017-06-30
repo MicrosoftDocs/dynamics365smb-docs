@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Post Service Invoices Created Manually
 When you have created an invoice, filled in all the information, and made any required modifications, you can post the invoice.  
   

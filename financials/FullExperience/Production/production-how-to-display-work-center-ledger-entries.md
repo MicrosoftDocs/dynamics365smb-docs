@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Display Work Center Ledger Entries
 From the **Work Center** card, you can view the posted entries of the work center.  
   

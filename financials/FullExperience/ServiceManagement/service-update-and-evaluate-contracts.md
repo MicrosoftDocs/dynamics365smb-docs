@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Update and Evaluate Contracts
 Sometimes you have to change the terms of a contract after it has been created. In most cases, you open the relevant contract in the **Service Contract** window, and change it as necessary.  
   

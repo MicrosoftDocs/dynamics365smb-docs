@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Assign Serial Numbers and Lot Numbers During Outbound Transactions
 You can add serial numbers and lot numbers to any outbound document, and its posted item tracking entries are displayed in the related item ledger entries. There are two ways to add serial and lot numbers to outbound transactions:  
   

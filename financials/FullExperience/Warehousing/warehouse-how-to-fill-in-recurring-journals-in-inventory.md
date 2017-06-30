@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Fill In Recurring Journals in Inventory
 After you have set up your recurring journal, you can start to fill in the fields. Note that several of the fields in the window are unique to recurring journals.  
   

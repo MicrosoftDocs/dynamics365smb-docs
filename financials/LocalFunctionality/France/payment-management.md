@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Payment Management
 ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> allows you to manage bills of exchange, electronic payments, and vendor payments using the payment management function.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Fiscally Close Years
 When a fiscal year is complete, you must fiscally close the periods that it comprises to make sure that no more general ledger entries can be posted.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Inventory Setup
 As part of inventory management, you can set up inventory to:  
   

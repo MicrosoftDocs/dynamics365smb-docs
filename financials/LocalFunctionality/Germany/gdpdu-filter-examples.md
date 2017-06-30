@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # GDPdU Filter Examples
 The following topic provides examples of how you can use and combine different filter types when you set up your GPDdU exports. By setting filters appropriately, you can improve performance.  
   

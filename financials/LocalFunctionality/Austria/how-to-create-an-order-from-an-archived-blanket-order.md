@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create an Order from an Archived Blanket Order
 You can create a new sales order or purchase order from an archived blanket order.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Service Order Types
 You can use the **Service Order Types** window to set up codes to identify types of service orders, for example, hardware and software. You can use service order types to group service orders together for statistical or other purposes.  
   

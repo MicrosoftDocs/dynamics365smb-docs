@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # VAT
 VAT is charged on transactions that involve goods and services in Russia or goods imported into Russia.  
   

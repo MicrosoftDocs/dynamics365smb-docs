@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Work Shifts
 To be able to assign work shifts to calendars, you must set up the various work shifts. Normal working hours are set up in the **Manufacturing Setup** window.  
   

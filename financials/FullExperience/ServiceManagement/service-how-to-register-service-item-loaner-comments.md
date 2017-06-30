@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Register Service Item Loaner Comments
 You can use the **Service Item Loaner Service Comment Sheet** window to register comments on the need for loaners for service items in service orders.  
   

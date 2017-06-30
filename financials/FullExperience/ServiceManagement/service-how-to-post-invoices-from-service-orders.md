@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Post Invoices from Service Orders
 The following procedure describes how to define the part of service that you will charge the customer for.  
   

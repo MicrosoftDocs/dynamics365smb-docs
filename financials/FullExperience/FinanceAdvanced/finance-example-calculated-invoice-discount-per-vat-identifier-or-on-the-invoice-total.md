@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Example - Calculated Invoice Discount per VAT Identifier or on the  Invoice Total
 The following example is based on an invoice with two lines with different VAT Prod. Posting Groups, but with the same amount. The VAT Prod. Posting Groups are 10% and 25%, the line amounts are 1.10 LCY and the invoice discount is 5 %.  
   

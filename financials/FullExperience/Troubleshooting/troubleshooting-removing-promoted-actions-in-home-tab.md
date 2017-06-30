@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Troubleshooting: Removing Promoted Actions in Home Tab
 In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> removing a promoted action in the Home tab, and then re-adding it in the same session will cause duplication of the action.  
   

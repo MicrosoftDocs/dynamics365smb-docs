@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Bin Types
 You can direct the flow of items through bins that you have defined for particular warehouse activities. You give each bin its basic flow activities, and thereby define the way the way a bin is used, by assigning it a bin type.  
   

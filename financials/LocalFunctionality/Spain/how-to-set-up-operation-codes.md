@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Operation Codes
 You can add as many operation codes as you want to the table. However, the operation codes C, D, and I already exist in Microsoft Dynamics NAV. For example, Credit Memos always have the operation code D. You cannot set up these values in the table because they are system-created codes. If you try to add them, Microsoft Dynamics NAV will return an error.  
   

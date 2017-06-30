@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Get Service Shipment Lines
 You can fill in the lines of a service invoice with the selected posted shipment lines for a specific customer. This will enable you to create an invoice for the items that have already been shipped, either from one or several service orders, but not yet been invoiced or consumed.  
   

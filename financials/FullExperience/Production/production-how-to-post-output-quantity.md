@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Post Output Quantity
 The output quantity represents the work progress in the form of the finished quantity.  
   

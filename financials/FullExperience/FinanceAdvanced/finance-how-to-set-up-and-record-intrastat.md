@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up and Record Intrastat
 All companies in the European Union must report their trade with other EU countries\/regions. You must report the movement of goods to the statistics authorities in your country\/region every month, and the report must be delivered to the tax authorities. This is referred to as Intrastat Reporting. You use the **Intrastat Journal** window to complete periodic Intrastat reports.  
   

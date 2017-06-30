@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Use My Job Queue Part
 The **My Job Queue** part shows the job queues entries that a user has started, but which are not yet finished. By default, the part is not visible, so you have to add it to your role center. For more information, see [How to: Change Role Centers](../how-to-change-role-centers.md).  
   

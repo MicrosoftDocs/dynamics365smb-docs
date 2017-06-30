@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Repair Statuses
 You use the **Repair Status Setup** window to set up repair status options that identify the progress of repair and maintenance of service items in service orders. You are required to set up at least nine repair status options that identify situations or actions taken when servicing service items.  
   

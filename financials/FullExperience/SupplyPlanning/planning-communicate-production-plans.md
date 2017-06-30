@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Communicate Production Plans
 When a supply plan is established through master planning and material requirements planning, it must be communicated to the respective [Purchasing](../production.md) departments. This step consists mainly of initiating the planned supply orders, typically by auto-creating them with a function in the planning tools.  
   

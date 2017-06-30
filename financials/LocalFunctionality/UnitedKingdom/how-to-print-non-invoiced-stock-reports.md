@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Print Non-Invoiced Stock Reports
 You can use the following reports for month-end reconciliation and auditing:  
   

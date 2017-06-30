@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Correct VAT Reports
 If you have to submit a corrective VAT report or delete a submitted VAT report, you must create a new VAT report. According to the legislation, a corrective report must be submitted within a month of the initial report.  
   

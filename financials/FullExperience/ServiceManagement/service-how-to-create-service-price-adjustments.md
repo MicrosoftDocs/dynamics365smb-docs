@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create Service Price Adjustments
 You can assign service price groups to service items in the **Service Order** window. The service pricing breakdown is inserted for the items. You can then automatically create service price adjustments for costs, spare parts, and resource hours for these service items.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up User Defaults
 You must set up a default set of templates and batches for each depreciation book. You can also specify a default for each user. The defaults are used when you enter a number in the **Insurance No.** field on a journal line and by the **Index Insurance** batch job.  
   

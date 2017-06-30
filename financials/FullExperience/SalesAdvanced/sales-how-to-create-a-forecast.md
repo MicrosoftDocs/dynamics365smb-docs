@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create a Forecast
 You can create sales and production forecasts with the **Production Forecast** window.  
   

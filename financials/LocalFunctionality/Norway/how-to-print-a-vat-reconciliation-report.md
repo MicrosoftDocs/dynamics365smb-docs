@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Print a VAT Reconciliation Report
 The **VAT Reconciliation** report shows the reconciliation settlement for the base amount and the VAT amount for general ledger accounts. These amounts are grouped by different VAT types.  
   

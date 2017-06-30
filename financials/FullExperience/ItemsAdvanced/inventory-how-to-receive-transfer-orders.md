@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Receive Transfer Orders
 When you have received a transfer order, you can post the receipt.  
   

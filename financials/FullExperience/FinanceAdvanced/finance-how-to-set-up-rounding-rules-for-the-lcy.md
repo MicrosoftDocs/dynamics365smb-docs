@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Rounding Rules for the LCY
 Before you can use the automatic invoice rounding function, you must set up rounding rules.  
   

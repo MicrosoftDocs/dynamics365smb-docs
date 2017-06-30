@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Insert Starting Fees for Service Items
 When working on service items in service orders, you may need to register a starting fee for the service of specific service items. The following procedure shows how to register the starting fee in the **Service Item Worksheet** window.  
   

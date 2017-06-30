@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Consolidate from Files
 After you have tested the data, you can start the consolidation. This means that you can import the data from the business units in the same database or from files.  
   

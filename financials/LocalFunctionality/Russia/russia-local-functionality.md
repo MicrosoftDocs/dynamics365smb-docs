@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Russia Local Functionality
 In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> to calculate VAT due based on Russian VAT rates and regulations.  
   

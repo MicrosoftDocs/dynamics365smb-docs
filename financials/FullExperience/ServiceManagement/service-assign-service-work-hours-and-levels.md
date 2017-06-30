@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Assign Service Work Hours and Levels
 Typically, a service management system tracks resource hours and service order status in order to forecast workloads and service needs. ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> has built-in tools that you can customize to record this kind of information.  
   

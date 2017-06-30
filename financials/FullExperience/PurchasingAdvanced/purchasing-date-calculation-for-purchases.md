@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Date Calculation for Purchases
 ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> automatically calculates the date on which you must order an item to have it in inventory on a certain date. This is the date on which you can expect items ordered on a particular date to be available for picking.  
   

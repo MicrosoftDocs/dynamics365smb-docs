@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: View Posted Entries on a Fixed Asset Charge
 You can view all posted fixed asset entries for each fixed asset charge code. The following procedure shows how to view the posted entries.  
   

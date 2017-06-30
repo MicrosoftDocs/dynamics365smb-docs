@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Prepare Shipments
 
 When your warehouse is set up to require warehouse shipment processing, you can ship items only on the basis of source documents that other company units have released to the warehouse for action. Source documents for shipments include sales orders, service orders, purchase return orders, and outbound transfers.

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Access an Overview of a Specific Employee’s Absence
 You can get an overview of an individual employee’s absences.  
   

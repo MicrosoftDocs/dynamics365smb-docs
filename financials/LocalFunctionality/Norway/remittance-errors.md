@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Remittance Errors
 Remittance errors for payments may occur when data is transferred and after payments have been sent to the bank. Both kinds of errors are reported in the **Return Error** window.  
   

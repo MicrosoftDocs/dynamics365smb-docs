@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Reverse Posted Document Lines
 The **Get Posted Document Lines to Reverse** function is useful when you need to copy one or more lines that appear in one or more posted documents. This is particularly helpful when you are creating a return order or a credit memo and you want the costs to be an exact reversal of the original order. This means that the costs on the credit memo reflect the cost that was on the original document and that the prices include any discounts that may have been applied to that order.  
   

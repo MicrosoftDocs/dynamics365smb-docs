@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Post Import VAT
 After you have set up codes for import VAT, you can post import VAT invoices.  
   

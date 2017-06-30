@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # About Data Tables
 ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> data tables come in two basic types: Master and Setup. When you are setting up a company configuration, you can use these types to focus your configuration strategy.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Design Details: Handling Reordering Policies
 For an item to participate in supply planning, a reorder policy must be defined. The following four reordering policies exist:  
   

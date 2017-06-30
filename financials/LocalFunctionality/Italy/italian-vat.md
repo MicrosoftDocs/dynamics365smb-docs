@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Italian VAT
 Companies must pay VAT to the state for most purchased goods and services. VAT can be deducted if the goods or services purchased by a company are used in the production of its income.  
   

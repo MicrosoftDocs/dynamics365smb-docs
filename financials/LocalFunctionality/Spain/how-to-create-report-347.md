@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create Report 347
 All companies must provide an annual declaration, **Report 347**, to the tax authorities providing the sales and purchase transactions from the previous fiscal period.  
   

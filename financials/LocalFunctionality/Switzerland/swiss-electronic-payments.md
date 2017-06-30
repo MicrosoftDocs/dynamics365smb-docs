@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Swiss Electronic Payments
 ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> allows you to send invoices to customers electronically. The invoices are presented and paid directly using the customer's online banking software.  
   

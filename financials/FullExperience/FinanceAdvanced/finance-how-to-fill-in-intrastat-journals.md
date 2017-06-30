@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Fill In Intrastat Journals
 You can fill in the fields in the Intrastat journal manually or retrieve item entries automatically with a batch job. Before you can do this, you must set up the Intrastat journal templates and batches.  
   

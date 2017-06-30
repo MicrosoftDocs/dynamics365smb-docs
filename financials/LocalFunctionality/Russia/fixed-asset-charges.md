@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Fixed Asset Charges
 In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-create-a-fixed-asset-charge.md).  
   

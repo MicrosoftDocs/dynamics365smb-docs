@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Transfers
 If your warehouse has more than one location, you can transfer items between locations.  
   

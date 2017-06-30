@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Convert Blanket Sales Orders to Sales Orders
 You can either convert an entire blanket order into one order, or you can make it into a number of separate orders, depending upon how you want the blanket order to be invoiced.  
   

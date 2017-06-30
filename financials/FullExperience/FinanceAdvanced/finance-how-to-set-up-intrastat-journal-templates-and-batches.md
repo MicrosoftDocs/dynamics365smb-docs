@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Intrastat Journal Templates and Batches
 Before you can use the **Intrastat Journal**, you must decide which Intrastat journal templates and batches you will use. You do this in the **Intrastat Journal Templates** and **Intrastat Jnl. Batches** windows.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Manage Budgets for Assets
 You can set up budgeted assets. This makes it possible to include any anticipated acquisitions and sales in reports.  
   

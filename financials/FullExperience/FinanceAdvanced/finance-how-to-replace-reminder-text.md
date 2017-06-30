@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Replace Reminder Text
 There are several ways you can determine the text that appears on the printed reminder.  
   

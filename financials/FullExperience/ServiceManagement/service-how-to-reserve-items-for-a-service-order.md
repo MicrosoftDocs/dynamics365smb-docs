@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Reserve Items for a Service Order
 There will be occasions in which you want to make sure that an item you want for a service order is available. If an item is available to reserve, you can reserve it to make sure that it is available for your use on a service order.  
   

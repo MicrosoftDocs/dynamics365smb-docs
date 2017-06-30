@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create Purchase Credit Memos
 You usually receive purchase credit memos when you return items to a vendor, but you can also receive them as compensation, such as a purchase allowance. In addition, you can use a credit memo to correct an incorrect purchase invoice.  
   

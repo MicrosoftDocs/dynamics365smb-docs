@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Reminder Text
 For each reminder level, you can specify text that will be printed before or after the entries on the reminder.  
   

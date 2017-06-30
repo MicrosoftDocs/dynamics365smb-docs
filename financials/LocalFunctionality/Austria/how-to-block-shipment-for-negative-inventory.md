@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Block Shipment for Negative Inventory
 You can block outbound shipment for an item when a transaction results in a negative inventory for that item.  
   

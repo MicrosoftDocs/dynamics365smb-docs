@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Map Customer Data
 You can map values from an existing ERP system into your ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> already has.  
   

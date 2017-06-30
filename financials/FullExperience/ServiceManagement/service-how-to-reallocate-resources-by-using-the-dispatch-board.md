@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Reallocate Resources by Using the Dispatch Board
 If the resource allocated to a service task cannot accomplish the work, it means that this service task needs reallocation. Usually you reallocate resources to a service task by using the **Dispatch Board**.  
   

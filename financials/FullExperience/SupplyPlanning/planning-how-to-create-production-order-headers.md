@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create Production Order Headers
 You can create a production order manually, and the first step is to create a production order header.  
   

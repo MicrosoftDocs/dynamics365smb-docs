@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Reserve Items for Production Components
 You can reserve items for production orders. You have to distinguish between reserving for production order lines, meaning the parent item, and reserving for production order components.  
   

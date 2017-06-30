@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Register Fault Reason Codes
 You use fault reason codes to identify possible reasons for service item faults and, if necessary, to exclude warranty and contract discounts from the service of service items.  
   

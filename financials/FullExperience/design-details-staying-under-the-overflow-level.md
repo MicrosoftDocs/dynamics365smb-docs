@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Design Details: Searching for Dimension Combinations
 When you close a window after you edit a set of dimensions, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> evaluates whether the edited set of dimensions exists. If the set does not exist, a new set is created and the dimension combination ID is returned.  
 

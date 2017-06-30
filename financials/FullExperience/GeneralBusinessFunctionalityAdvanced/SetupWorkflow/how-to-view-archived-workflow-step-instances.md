@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: View Archived Workflow Step Instances
 All completed workflow step instances are saved in the **Archived Workflow Step Instances** window.  
   

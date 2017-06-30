@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Unapply General Ledger Entries
 You can unapply general ledger entries in a very straightforward way.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Domiciliations
 Before you can use electronic banking for domiciliations, you must enter the customer's domiciliation number and preferred bank account.  
   

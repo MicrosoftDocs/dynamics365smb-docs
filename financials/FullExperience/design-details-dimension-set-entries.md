@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Design Details: Dimension Set Entries
 This documentation provides detailed technical insight into the concepts and principles that are used to redesign the dimension entry storing and posting feature in ADD INCLUDE<!--[!INCLUDE[navnowlong](../../includes/navnowlong_md.md)]-->. The documentation starts by describing conceptual overviews of the redesign. Then it explains the technical architecture to show how the redesign is made. Finally, it provides code examples to prepare you for dimension code migration and upgrade.  
 

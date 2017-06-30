@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Void Electronic Payments
 In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can void the exported payment file. By voiding the file, the entire payment journal from which the file was created, will be deleted.  
   

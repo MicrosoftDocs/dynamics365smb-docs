@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Production
 When [production orders](../operations-planning.md), shop floor staff can proceed to fine schedule the activities, pull the required material, and output finished goods. In order to convert material into end items, a complete set of production resources must exist. This setup work is also the responsibility of the production department and is described as the first set of tasks in Established Production Resources below.  
   

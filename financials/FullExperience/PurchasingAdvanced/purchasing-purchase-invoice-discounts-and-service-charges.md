@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Purchase Invoice Discounts and Service Charges
 If you have fixed terms for invoice discounts with any vendors, you can enter them for those vendors. Then the discount will be calculated when you fill in a purchase invoice.  
   

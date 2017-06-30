@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Plan for Resource Availability
 In connection with master planning, you must know the exact availability of resources that can execute the planned operations. Resource planning consist mainly of adjustment and recalculation of shop floor calendars, but may also involve resetting a machine center's capacity or preparing to subcontract operations.  
   

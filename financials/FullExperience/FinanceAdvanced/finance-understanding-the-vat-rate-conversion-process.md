@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Understanding the VAT Rate Conversion Process
 This topic describes the VAT rate change conversion process.  
   

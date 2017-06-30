@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Calculating Distribution Amounts
 You can reallocate the amount in one general ledger account to other general ledger accounts so that the balances of your accounts remain proportionate to one another.  
   

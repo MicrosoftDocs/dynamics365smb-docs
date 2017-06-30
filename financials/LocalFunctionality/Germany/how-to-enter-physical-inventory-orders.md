@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Enter Physical Inventory Orders
 A physical inventory order is a complete document that consists of a physical inventory order header and some physical inventory order lines. The information on a physical inventory header describes how to take the physical inventory. You can fill in the header manually. You can create a physical inventory order and relate it to one or more physical inventory recordings.  
   

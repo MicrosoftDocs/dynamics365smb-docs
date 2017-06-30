@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Display Reconciled Transactions
 You can identify whether items are reconciled in the **Bank Account Reconciliations** window. You can also view the total value of all reconciled transactions.  
   

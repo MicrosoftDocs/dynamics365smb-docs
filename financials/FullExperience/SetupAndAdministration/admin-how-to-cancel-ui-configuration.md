@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Cancel UI Configuration
 You can cancel UI customizations that you have made as configuration for a profile in three ways:  
   

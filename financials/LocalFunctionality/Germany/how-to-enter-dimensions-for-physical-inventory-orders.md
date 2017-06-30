@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Enter Dimensions for Physical Inventory Orders
 After you have created a physical inventory order, you can enter dimensions for this order.  
 

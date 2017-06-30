@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Register Text Lines
 When registering service lines for service orders, you may want to register lines with standard texts, for example, to make a comment about the line above. The following procedure shows how to register text lines in the **Service Item Worksheet** window.  
   

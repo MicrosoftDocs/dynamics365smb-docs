@@ -14,6 +14,6 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Italy Local Functionality Tables, Reports, Batch Jobs, and Windows
 ADD INCLUDE<!--[!INCLUDE[emptyBookNodeText](../../includes/emptybooknodetext_md.md)]-->

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Assign a User to a Profile
 You use the **User Personalization** page to assign a user to a profile.  
   

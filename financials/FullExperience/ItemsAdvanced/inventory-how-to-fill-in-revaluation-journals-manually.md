@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Fill In Revaluation Journals Manually
 If you want to appreciate or depreciate an item or a specific item ledger entry, you must use the revaluation journal.  
   

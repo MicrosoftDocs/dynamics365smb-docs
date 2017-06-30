@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Deliver Service
 ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> provides features to help you deliver service according to the contracts that you have created and the service orders that you have committed to fulfilling. Your service technicians or dispatcher will find outstanding service orders easy to locate when they use the **Dispatch Board**. At a glance, the **Dispatch Board** shows which orders are in progress and which orders are complete.  
   

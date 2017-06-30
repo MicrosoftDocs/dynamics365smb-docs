@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Assign Union Codes to Employees
 You can set up union codes for the various trade and labor unions that your employees belong to.  
   

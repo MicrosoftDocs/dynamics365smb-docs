@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Export and Import Encryption Keys
 You can encrypt data on the ADD INCLUDE<!--[!INCLUDE[nav_server](../../includes/nav_server_md.md)]--> instance by generating new encryption keys or importing or changing existing encryption keys that you enable on the server instance.  
   

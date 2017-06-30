@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up PAC Web Services
 Before you can send invoices and credit memos electronically, you must specify one or more providers of the electronic stamp that must be included in invoices in Mexico.  
   
@@ -47,7 +47,7 @@ Before you can send invoices and credit memos electronically, you must specify o
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---------------------------------|---------------------------------------|  
+---------------------------------|---------------------------------------|  
     |**Environment**|Specify if the web service is for a test environment or a production environment.|  
     |**Type**|Specify if the web method is for requesting a digital stamp or for canceling.|  
     |**Method Name**|Specify the name of the web method, such as **GeneraTimbre** or **CancelaTimbre**.|  

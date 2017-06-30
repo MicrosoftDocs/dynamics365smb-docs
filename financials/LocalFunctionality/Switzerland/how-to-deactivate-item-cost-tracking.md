@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Deactivate Item Cost Tracking
 When inventory is not tracked for an item, the item cost does not need to be tracked, and an item ledger entry does not need to be created.  
   

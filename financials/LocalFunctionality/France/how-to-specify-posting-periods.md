@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Specify Posting Periods
 When you specify posting periods, you limit the period in which posting is allowed.  
   

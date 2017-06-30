@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Prepare Closing Statements
 There are a number of standard reports that you can use to gather the information that you need to prepare your company's closing statements.  
   

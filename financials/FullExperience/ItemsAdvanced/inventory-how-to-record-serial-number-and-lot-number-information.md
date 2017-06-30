@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Record Serial Number and Lot Number Information
 If you need to link special information to a specific item tracking number, for example, for quality assurance, you can do so in a serial or lot number information card.  
   

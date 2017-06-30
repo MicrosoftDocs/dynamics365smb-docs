@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Reclassify Lot Numbers and Serial Numbers
 Reclassifying item tracking for an item means changing a lot or serial number to a new lot or serial number or changing the expiration date to a new expiration date. If you are working with lots, you can also merge multiple lots into one. You perform these tasks using the item reclassification journal.  
   

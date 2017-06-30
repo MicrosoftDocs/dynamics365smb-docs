@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # VAT Ledgers
 The VAT ledger feature enables you to create and print the following forms:  
   

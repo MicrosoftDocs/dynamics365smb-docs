@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Fulfill Service Contracts
 ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> includes features to make setting up ongoing service contracts easy. You can set up contract templates, which you can then use to create standardized contracts for your business. In addition, you can set up a system to create quotes for service and to turn those quotes into contracts.  
   

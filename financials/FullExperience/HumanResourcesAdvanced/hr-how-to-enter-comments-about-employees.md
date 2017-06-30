@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Enter Comments About Employees
 If you want to enter information about an employee that is additional to the information that you enter in the various fields on the employee card, you can enter the information as text on comment lines.  
   

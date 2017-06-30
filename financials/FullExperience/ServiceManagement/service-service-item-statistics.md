@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Service Item Statistics
 In the **Service Item Statistics** window, you can see up-to-date information about the usage, invoiced amounts, and profit regarding the particular service item.  
   

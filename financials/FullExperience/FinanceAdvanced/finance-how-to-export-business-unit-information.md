@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Export Business Unit Information
 If consolidation takes place in another database than the one where you have your company's information, than you must export consolidation data from your company to a file. Each company must be exported separately.  
   

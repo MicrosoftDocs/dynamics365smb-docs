@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Physical Inventory Documents
 You can take inventory of your items using the physical inventory order and the physical inventory recording documents.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Example - Inventory Order Line with Tracking Lines
 The physical inventory order line should contain the following data:  
   

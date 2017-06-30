@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Reorganize Intrastat Journals
 You must submit an Intrastat report every month and create a new journal batch for each report. So eventually, there will be many journal batches. The journal lines are not deleted automatically.  
   

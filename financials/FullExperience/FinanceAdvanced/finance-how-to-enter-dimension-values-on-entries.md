@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Enter Dimension Values on Entries
 Dimension value codes are always company-defined.  
   

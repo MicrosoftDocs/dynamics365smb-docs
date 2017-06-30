@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Service Management Setup
 In the **Service Mgt. Setup** window, you can decide how you want certain aspects of the Service application area to be managed.  
   

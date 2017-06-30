@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # List Production BOM Structures
 The structure of the production BOM can be represented by reports. For representation of a BOM, all levels are observed, that is, the production BOM is completely exploded.  
   

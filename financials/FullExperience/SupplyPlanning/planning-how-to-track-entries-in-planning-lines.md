@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Track Entries in Planning Lines
 The order tracking function offers you an overview of the documents that are related to the current planning line.  
   

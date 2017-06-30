@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # VAT and VIES Report Setup
 Depending on the requirements of your country\/region, you must submit periodic VAT reports. In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you can define statutory reports such as periodic VAT reports and VIES declarations.  
   

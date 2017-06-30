@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Enter Master Data for Consumption Calculation
 The method for the calculation of the consumption posting time is assigned to the item's master data.  
   

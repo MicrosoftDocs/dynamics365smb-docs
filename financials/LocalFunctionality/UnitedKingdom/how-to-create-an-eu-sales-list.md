@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create an EU Sales List
 Companies that run VAT-registered businesses and sell or move goods to other VAT-registered businesses in the European Union \(EU\) must record and report about data on their sales activities to the government.  
   

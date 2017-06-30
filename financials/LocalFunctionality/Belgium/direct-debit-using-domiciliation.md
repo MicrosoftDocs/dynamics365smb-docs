@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Direct Debit Using Domiciliation
 A domiciliation is a financial agreement between you and your customers, allowing you to automatically collect the payments for customer's invoices through a preferred bank account. Domiciliations can only be processed for domestic customers with domestic bank accounts. Domiciliations in foreign currencies or involving foreign banks are not supported.  
   

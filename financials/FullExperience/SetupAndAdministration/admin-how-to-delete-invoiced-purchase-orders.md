@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Delete Invoiced Purchase Orders
 In certain situations, you may need to delete invoiced purchase orders that have not been deleted.  
   

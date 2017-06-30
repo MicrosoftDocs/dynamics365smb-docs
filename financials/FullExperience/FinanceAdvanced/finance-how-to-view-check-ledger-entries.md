@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: View Check Ledger Entries
 When you post a payment journal line where the **Bank Payment Type** field contains **Computer Check** or **Manual Check**, a check ledger entry is created. You can view these check ledger entries from the bank account card from which the checks are issued.  
   

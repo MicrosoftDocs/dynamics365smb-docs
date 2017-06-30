@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: View Accumulated Amounts for Each Posting Type
 You can view posted amounts for each asset and depreciation book.  
   

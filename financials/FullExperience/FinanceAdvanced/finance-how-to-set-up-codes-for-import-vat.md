@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Codes for Import VAT
 You use the import VAT feature when you need to post a document where the entire amount must be treated as VAT. This is necessary if you receive a VAT invoice from the tax authorities for imported goods.  
   

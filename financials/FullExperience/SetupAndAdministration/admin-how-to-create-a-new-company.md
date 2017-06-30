@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create a New Company
 To use ADD INCLUDE<!--[!INCLUDE[rimlong](../../includes/navnow_md.md)]--> tables and pages are created, but there is no data in them.  
   

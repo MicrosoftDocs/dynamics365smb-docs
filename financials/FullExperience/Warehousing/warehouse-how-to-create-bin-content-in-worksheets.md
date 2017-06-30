@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create Bin Content in Worksheets
 When you have created your bins, you can create the bin content that you want for each bin in the bin content creation worksheet.  
   

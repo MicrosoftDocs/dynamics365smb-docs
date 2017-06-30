@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Tips and Tricks: RapidStart Services
 When you configure companies using ADD INCLUDE<!--[!INCLUDE[rimlong](../../includes/rimlong_md.md)]-->, there are some tips and tricks that you can take advantage of to help your implementation go smoothly.  
   

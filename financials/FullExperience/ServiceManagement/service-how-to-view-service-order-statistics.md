@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: View Service Order Statistics
 When you have created a service order and filled in the lines, you can see the resulting totals in the **Service Order Statistics** window.  
   

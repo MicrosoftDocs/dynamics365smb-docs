@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Make Minor Changes to Approved Records
 If you want to make a minor change to a record after it has been approved, you can reopen the record, make the change, and then release it. For minor changes, you do this with the **Reopen** and **Release** buttons.  
   

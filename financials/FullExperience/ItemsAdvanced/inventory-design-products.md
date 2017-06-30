@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Design Products
 The starting point for any business that deals with physical goods is to establish the item. First, you must create a database record for the item, an item card. The item card is a placeholder for critical master data that is used throughout the supply chain as the item is processed. All the rules and values, such as costing method, dimension codes, and substitutions that apply to the item are entered on the item card. After you create the item card, this record controls how the item is processed in business documents by providing information, such as price, sales terms, availability, and planning parameters.  
   

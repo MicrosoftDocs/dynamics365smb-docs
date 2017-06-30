@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Close Years
 When a fiscal year is over, you must close the periods that it comprises.  
   

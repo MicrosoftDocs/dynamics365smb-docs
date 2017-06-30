@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Export Migration Tables
 After you have determined the tables for which you want to transfer customer data, you export the files.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Fault Areas
 You can use the **Fault Areas** window to set up fault areas to describe areas of service items faults. The level of fault reporting in your company determines whether you use fault area codes.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Release Production Orders Automatically
 With an automatic release, you can release several production orders at the same time.  
   

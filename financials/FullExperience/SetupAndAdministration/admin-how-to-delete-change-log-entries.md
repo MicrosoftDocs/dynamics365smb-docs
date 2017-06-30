@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Delete Change Log Entries
 You can always delete change log entries that are of no use to you.  
   

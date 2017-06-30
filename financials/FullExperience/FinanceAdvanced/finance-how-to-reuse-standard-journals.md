@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Reuse Standard Journals
 When you need to fill a journal with lines that you have saved as a standard journal, you use a function to copy the standard journal lines into the journal.  
   

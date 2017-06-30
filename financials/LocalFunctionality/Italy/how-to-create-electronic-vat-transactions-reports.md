@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create Electronic VAT Transactions Reports
 You must create a list of transactions that include VAT with amounts over the current threshold on or before the specified occurrence date. You submit this report to the tax authorities.  
   
@@ -41,7 +41,7 @@ You must create a list of transactions that include VAT with amounts over the cu
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ----------------------------------|---------------------------------------|  
+----------------------------------|---------------------------------------|  
     |**Without Contract**|The VAT entries that resulted in this line are not associated with a contract.|  
     |**Contract**|The VAT entries that resulted in this line are associated with a contract.|  
     |**Other**|The VAT entries that resulted in this line are not associated with a special contract, such as ongoing maintenance or other exceptions.|  

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Calendar Source
 Specifies if you want to view opportunity information by using the system calendar or the accounting calendar.  
   

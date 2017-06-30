@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Design Details: Item Tracking and Reservations
 Simultaneous use of reservation and specific item tracking is uncommon, because they both create a coupling between supply and demand. Except for situations where a customer or production planner requests a specific lot, it rarely makes sense to reserve inventory items that already carry item tracking numbers for specific application. Although it is possible to reserve items that require specific item tracking, special functionality is needed to avoid availability conflicts between order processors that request the same item-tracked items.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Physical Inventory Recording - Counting Physical Inventory
 After you have created a physical inventory order and after you have entered the physical inventory order lines, you can take the physical inventory. Therefore you can use the physical inventory recording documents.  
   

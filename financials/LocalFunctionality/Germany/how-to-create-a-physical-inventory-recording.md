@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create a Physical Inventory Recording
 After you have created a physical inventory order and its lines you can create a new physical inventory recording for taking the inventory.  
   

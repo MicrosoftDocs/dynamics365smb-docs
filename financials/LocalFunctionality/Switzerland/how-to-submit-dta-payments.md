@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Submit DTA Payments
 To submit DatenTrägerAustausch \(DTA\) payments to your bank for payment, you must do the following:  
   

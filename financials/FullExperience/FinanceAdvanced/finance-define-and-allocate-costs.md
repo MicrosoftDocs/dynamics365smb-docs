@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Define and Allocate Costs
 Cost allocations move costs and revenues between cost types, cost centers, and cost objects. You can define as many allocations as you need. Each allocation consists of:  
   

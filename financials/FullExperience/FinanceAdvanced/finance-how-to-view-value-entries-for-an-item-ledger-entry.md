@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: View Value Entries for an Item Ledger Entry
 From the **Item Ledger Entries** window, you can access the value entries that relate to a specific item ledger entry.  
   

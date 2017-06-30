@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Print Withholding Tax Reports
 The **Withholding Taxes** report displays a list of withholding taxes that are payable to the government.  
   

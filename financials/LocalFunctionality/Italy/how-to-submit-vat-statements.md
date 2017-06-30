@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Submit VAT Statements
 Companies must pay VAT for most purchased goods and services. VAT can be deducted if the goods and services that are purchased by a company are used in the production of its income.  
   

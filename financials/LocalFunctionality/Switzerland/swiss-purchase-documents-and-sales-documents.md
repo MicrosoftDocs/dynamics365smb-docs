@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Swiss Purchase Documents and Sales Documents
 ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> includes Swiss enhancements to purchase documents and sales documents. This includes the following:  
   

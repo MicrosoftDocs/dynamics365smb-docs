@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Allocation Status and Repair Status
 The repair status of service items and the allocation status of the allocation entries for the service items have a certain relationship in Service Management. The allocation status changes when you change the repair status of the service item to **Finished** or **Partly Serviced** and when you convert a service quote to a service order. The repair status of the service item changes when you cancel the service item allocation or reallocate the service item to another resource. You can view the repair status of service items in the **Service Tasks** window and you can update the repair status in the **Repair Status Code** field in the **Service Item Worksheet** window. You can view the allocation status in the **Status** field in the **Resource Allocations** window.  
   

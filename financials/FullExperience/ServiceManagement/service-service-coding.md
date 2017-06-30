@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Service Coding
 To successfully create a service management implementation, you should decide up front what your standard service offerings and scenarios will be. ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> has features to make this easy.  
   

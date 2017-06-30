@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: View Cash Flow Entries
 Each time that you register cash flow worksheet lines, you can view the information about the cash flow entries that were registered.  
   

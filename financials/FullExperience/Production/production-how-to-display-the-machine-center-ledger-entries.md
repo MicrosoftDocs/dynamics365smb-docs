@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Display the Machine Center Ledger Entries
 From the **Machine Center Card** window, you can view the posted entries for the machine center.  
   

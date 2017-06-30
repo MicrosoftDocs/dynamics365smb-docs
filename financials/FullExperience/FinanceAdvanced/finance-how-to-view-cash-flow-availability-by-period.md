@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: View Cash Flow Availability by Period
 You can see the availability of each cash flow forecast by period in an overview. In the overview, the rows represent the individual periods, and the columns represent the source types in the cash flow forecast. The periods can be days, weeks, months, quarters, or years. In addition, you can select whether the amounts should be displayed as net changes or as balances at the period end dates.  
   

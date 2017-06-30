@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Tax Difference Registers
 You can view posted tax difference transactions with all the income or expense codes in the tax difference registers. To open the form, in the **Tax Accounting** menu, click **History**, and then click **Tax Difference Registers**.  
   

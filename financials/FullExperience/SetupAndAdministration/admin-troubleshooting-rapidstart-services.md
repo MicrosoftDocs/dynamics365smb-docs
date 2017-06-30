@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Troubleshooting: RapidStart Services
 This topic describes some common problems that you may see when you use ADD INCLUDE<!--[!INCLUDE[rimlong](../../includes/rimlong_md.md)]-->.  
   

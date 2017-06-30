@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: View Service Statistics
 When you have created a service document, that is, a quote, invoice, or credit memo, and filled in the lines, you can see the resulting totals in the **Service Statistics** window for the relevant document.  
   

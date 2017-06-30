@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Set Up Invoice Rounding
 It may be necessary to round invoice amounts when you create invoices. Local regulations or local custom may require the invoice to be rounded in a specific way, for example, to an amount divisible by 0.05.  
   

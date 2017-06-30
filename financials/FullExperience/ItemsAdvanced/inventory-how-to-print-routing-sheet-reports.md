@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Print Routing Sheet Reports
 The structure of the routing can be shown by printing the following report.  
   

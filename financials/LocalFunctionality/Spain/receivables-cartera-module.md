@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Receivables Cartera Module
 The Receivables Cartera module allows you to manage bills generated from sales invoices. The documents can be managed by:  
   

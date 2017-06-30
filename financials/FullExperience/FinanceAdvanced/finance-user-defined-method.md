@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # User-Defined Method
 The program has a facility that allows you to set up user-defined depreciation methods.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Design Details: Item Application
 When you post an inventory transaction, the quantity posting is recorded in the item ledger entries, the value posting in the value entries. For more information, see [Design Details: Inventory Posting](design-details-inventory-posting.md).  
   

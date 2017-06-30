@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Handle Serial Numbers and Lot Numbers on Transfer Orders
 Procedures for handling serial and lot numbers that are being transferred between different locations are similar to those applied when items are sold and purchased.  
   

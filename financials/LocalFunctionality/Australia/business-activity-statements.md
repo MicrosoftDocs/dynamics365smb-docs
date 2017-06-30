@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Business Activity Statements
 A Business Activity Statement \(BAS\) is a form that businesses must submit to the Australian Tax Office \(ATO\) on a monthly or quarterly basis. BAS reports both the total Goods and Services Tax \(GST\) collected from sales activities—which must be paid to the ATO—and the total GST paid on purchases – which is claimed as an input tax credit.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Export to Accon
 The **Link to Accon** report enables you to create a file that can be imported into ACCON Plus to generate an annual income statement. The report exports the total balances of the general ledger accounts for a specific period.  
   

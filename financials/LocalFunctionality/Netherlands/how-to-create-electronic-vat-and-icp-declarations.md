@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create Electronic VAT and ICP Declarations
 To create electronic VAT and ICP declarations, you must first set up the declaration using the **Elec. Tax Declaration Setup** window. Then you can submit them to the tax authorities.  
   
@@ -48,7 +48,7 @@ To create electronic VAT and ICP declarations, you must first set up the declara
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---------------------------------|---------------------------------------|  
+---------------------------------|---------------------------------------|  
     |**Template Name**|The name of the template that will be used to create the electronic declaration.|  
     |**Statement Name**|The name of the statement that will be used to create the electronic declaration.|  
   

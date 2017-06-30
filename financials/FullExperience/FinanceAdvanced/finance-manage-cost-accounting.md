@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Manage Cost Accounting
 Cost accounting is used to help you understand the costs of running a business. To get started with cost accounting, see the following topics.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Change Service Pricing for Service Items
 You can manually change the breakdown of service pricing for a service item in the **Service Item Worksheet** window.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Add Resource Capacity
 You may regularly need to change the capacity of resources, such as technicians, over time.  
   

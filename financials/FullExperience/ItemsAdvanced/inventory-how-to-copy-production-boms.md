@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Copy Production BOMs
 You can copy production BOMs. Make sure that the BOM you copy to is not certified. The item lines in the BOM you are copying to are replaced by the lines in the BOM you are copying from.  
   

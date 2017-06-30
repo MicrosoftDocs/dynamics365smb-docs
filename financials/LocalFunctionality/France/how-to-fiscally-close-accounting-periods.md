@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Fiscally Close Accounting Periods
 When a fiscal period is complete, you can fiscally close the period to make sure that no more general ledger entries can be posted.  
   

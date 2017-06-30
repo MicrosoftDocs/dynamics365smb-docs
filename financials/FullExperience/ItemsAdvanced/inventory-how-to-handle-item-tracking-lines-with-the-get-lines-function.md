@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Handle Item Tracking Lines with the Get Lines Function
 When you use functionality to get posted receipt or shipment lines from related invoices or credit memos, then any item tracking lines on the warehouse documents are transferred automatically, however, they are processed in a special way. For more information about getting lines, see Get Receipt Lines.  
   

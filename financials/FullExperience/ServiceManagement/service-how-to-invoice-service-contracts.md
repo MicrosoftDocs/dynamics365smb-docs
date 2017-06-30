@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Invoice Service Contracts
 You can invoice service contracts periodically. The invoice period for each contract defines how often you invoice it.  
   

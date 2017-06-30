@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Cancel Reservations
 Sometimes, you may want to cancel an item reservation.  
   

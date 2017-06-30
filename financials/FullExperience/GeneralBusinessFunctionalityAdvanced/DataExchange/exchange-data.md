@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Exchange Data
 You can exchange data between ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/data-exchange.md).  
   

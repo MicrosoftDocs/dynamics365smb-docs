@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: View Reclassified Entries
 You can print the **\($ R\_5606 Fixed Asset - Book Value 02 $\)** report to see the reclassified entries.  
   

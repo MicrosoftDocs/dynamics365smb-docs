@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Payment Statuses
 To use payment management, you must set up payment statuses to define payment document progress levels. You must define a set of statuses for each payment class. For more information, see [How to: Set Up Payment Classes](../how-to-set-up-payment-classes.md).  
   

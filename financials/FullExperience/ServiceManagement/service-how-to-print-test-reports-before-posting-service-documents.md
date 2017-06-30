@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Print Test Reports Before Posting Service Documents
 When you have created a service document, such as an order, invoice, or credit memo, and filled in all the information, you can post the document.  
   

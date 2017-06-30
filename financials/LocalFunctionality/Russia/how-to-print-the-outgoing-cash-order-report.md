@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Print the Outgoing Cash Order Report
 The **Cash Outgoing Order CO-2** report shows the outgoing cash order, which is a standard format required by Russian accounting legislation.  
   

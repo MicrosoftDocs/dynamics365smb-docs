@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # About Cost Accounting
 Cost accounting can help you understand the costs of running a business. Cost accounting information is designed to analyze:  
   

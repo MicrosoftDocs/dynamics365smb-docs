@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Post Consumption Manually
 If the flushing method is **Manual**, you must post the components manually, using a consumption journal.  
   

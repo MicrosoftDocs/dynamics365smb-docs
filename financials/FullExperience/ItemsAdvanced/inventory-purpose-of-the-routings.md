@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Purpose of the Routings
 Manufacturing companies use routings to show the manufacturing process. The program offers facilities for entering the manufacturing process, both in terms of chronology and capacity. The routings therefore form the basis for the manufacturing.  
   

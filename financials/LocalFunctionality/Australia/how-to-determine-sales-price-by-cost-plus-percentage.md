@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Determine Sales Price by Cost Plus Percentage
 Use the cost plus percentage function to set a sales price based on the cost of an item. The cost of the item can be calculated along with cost plus calculation. The discount will be based on this calculation. This functionality eliminates the need for the use of spreadsheets in determining percentage discounts as they correspond to cost plus percentage.  
   

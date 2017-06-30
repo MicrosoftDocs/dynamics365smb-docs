@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Human Resources-duplicate
 The Human Resources feature lets you keep detailed records of your employees. You can register and maintain employee information, such as employment contracts, confidential information, qualifications, and employee contacts.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Field Mapping When Exporting Payment Files Using Bank Data Conversion Service
 When you export payment files using the Bank Data Conversion Service feature, the data that you export is exposed to the provider of the bank data conversion service. The service provider is responsible for the privacy of this data. For more information about how the Bank Data Conversion Service feature works, see [About the Data Exchange Framework](../about-the-data-exchange-framework.md).  
   

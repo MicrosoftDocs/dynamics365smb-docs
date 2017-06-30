@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Reallocate Resources by Using Service Orders
 You can reallocate resources directly from a service order or service quote when you are working with it.  
   

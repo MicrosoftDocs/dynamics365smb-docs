@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Picking by FEFO
 First-Expired-First-Out \(FEFO\) is a sorting method that ensures that the oldest items, those with the earliest expiration dates, are picked first.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Standard Service Codes
 You can use standard service codes to create service documents with similar combinations of service lines. If you set up standard service codes and then link standard service lines to them, this will allow you to automatically insert service lines in service documents. You can assign the standard service codes to service item groups.  
   

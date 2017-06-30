@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Assign Confidential Information Codes to Employees
 You can set up confidential information codes for confidential information, such as company pension, stock option plan, salary, and so on, related to your employees.  
   

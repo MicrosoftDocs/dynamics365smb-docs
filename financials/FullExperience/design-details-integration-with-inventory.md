@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Design Details: Integration with Inventory
 The Warehouse Management application area and the Inventory application area interact with one another in physical inventory and in inventory or warehouse adjustment.  
   

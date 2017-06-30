@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create and Post Purchase Allowances
 If you receive items from your vendor that are not what you wanted, for example, if they are slightly damaged, the wrong color or the wrong size, the vendor may offer you a purchase allowance.  
   

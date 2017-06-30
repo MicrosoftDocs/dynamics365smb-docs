@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Post Service Credit Memos
 When you have created a service credit memo and filled it in, you can post the credit memo. If there are errors or a lack of information on the credit memo while posting, the process will be interrupted by an error message.  
   

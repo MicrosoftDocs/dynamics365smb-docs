@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Set Up Dimensions to Mark Transactions
 Dimensions are data that you add to entries to categorize them for analysis. For example, you can have dimensions that indicate which project or department an entry originates from. Than you can use dimensions instead of setting up separate general ledger accounts for each department and project. This allows you to have rich analysis information in your data without having to use a complicated chart of accounts. You can define an unlimited number of dimensions with an unlimited number of dimension values.  
   

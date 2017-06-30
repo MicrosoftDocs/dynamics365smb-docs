@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Assign Employment Contract Codes to Employees
 You can set up employment contract codes for the various contracts you use in your company.  
   

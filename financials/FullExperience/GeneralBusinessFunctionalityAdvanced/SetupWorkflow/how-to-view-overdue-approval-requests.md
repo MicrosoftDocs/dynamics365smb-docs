@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: View Overdue Approval Requests
 All approval requests have a due date by which they must be approved. If an approver has not acted on a request by the due date, then the related approval request becomes overdue.  
   

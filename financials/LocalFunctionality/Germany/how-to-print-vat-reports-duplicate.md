@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Print VAT Reports-duplicate
 ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> includes VAT reports that you can use to submit information about VAT to the authorities. The following VAT reports are available for Germany:  
   

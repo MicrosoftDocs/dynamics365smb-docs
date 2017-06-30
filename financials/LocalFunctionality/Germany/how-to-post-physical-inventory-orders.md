@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Post Physical Inventory Orders
 After completing a physical inventory order and changing its status to **Finished**, you can post it.  
   

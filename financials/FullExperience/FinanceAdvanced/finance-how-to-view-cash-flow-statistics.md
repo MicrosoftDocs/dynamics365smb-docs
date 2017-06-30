@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: View Cash Flow Statistics
 For each cash flow forecast, you can open a statistics window that contains the relevant information.  
   

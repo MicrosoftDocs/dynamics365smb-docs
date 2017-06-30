@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Dimensions and Dimension Values
 Before you set up dimensions, you should determine what financial information must be generated and what dimensions must be placed on general ledger entries.  
   

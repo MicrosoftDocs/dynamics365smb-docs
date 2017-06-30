@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Default Balancing Accounts
 You can set up a default balancing account for each journal batch and have ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> automatically suggest a balancing account type and balancing account number on each journal line. If you do not specify a default balancing account, you must fill in the fields manually.  
   

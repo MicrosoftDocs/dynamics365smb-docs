@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Process Sales Returns
 Sales returns are used to compensate your customers for incorrect or damaged items that you sent to them.  
   

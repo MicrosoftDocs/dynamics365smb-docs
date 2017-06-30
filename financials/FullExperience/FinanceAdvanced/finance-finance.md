@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Finance
 Product Name enables you to manage all common finance processes and information, such as posting financial transactions, preparing financial statements, managing bank accounts, inventory costs, manufacturing costs, and fixed assets.  
   

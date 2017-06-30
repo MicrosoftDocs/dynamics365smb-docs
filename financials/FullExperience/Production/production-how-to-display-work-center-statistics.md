@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Display Work Center Statistics
 You can view work center statistics to get information about expected and actual capacity, quantity, and value of production orders.  
   

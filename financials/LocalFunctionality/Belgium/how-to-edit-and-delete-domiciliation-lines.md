@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Edit and Delete Domiciliation Lines
 After you have generated domiciliation suggestions, you may want to change the domiciliations lines. For example, you may want to reassign a bank account or prevent payment for a specific customer or customer ledger entry.  
   

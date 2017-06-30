@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Assign Serial Numbers and Lot Numbers During Inbound Transactions
 Companies may want to keep track of items from the moment they enter the company. In this situation, the purchase order is often the central document, although item tracking may be handled from any inbound document and its posted entries displayed in the related item ledger entries.  
   

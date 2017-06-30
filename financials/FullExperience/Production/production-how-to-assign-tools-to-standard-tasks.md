@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Assign Tools to Standard Tasks
 You can assign any tools to standard tasks. The assigned tools specify which tool is to be used for processing the task. The specification is useful for special tools, precision tools, and quality measures.  
   

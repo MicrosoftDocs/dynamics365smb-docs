@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Select from Existing Serial Numbers and Lot Numbers
 When you are working with items that require item tracking and you are creating outbound transactions, where the items go out of inventory, you typically need to select the lot or serial numbers from those that already exist in inventory.  
   

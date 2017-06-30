@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # SEPA Payments
 The Single Euro Payments Area \(SEPA\) unifies payment methods in participating European countries. This makes international payments as easy to process as domestic payments. Regardless of location, European citizens and companies can make and receive payments in euros, whether within or across national borders, with the same basic conditions, rights, and obligations.  
   

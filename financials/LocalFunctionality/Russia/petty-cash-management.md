@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Petty Cash Management
 The petty cash management feature enables you to:  
   

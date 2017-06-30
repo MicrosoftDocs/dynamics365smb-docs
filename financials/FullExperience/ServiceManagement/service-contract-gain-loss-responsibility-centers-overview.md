@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Contract Gain-Loss (Responsibility Centers)  Overview
 The **Contract Gain\/Loss \(Responsibility Centers\)** matrix shows a scrollable summary of contract gain\/loss entries, based on responsibility centers.  
   

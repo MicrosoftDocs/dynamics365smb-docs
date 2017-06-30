@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Transfer VAT Amounts to the Settlement Account
 Transferring VAT amounts to the settlement account means that the purchase VAT account is credited and the sales VAT account is debited with the amounts calculated for the VAT statement period. The net amount is credited or debited, if the purchase VAT amount is larger to the VAT settlement account. You can post the settlement immediately or print a test report first.  
   

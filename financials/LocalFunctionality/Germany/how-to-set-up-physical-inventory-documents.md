@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up Physical Inventory Documents
 Before you can use physical inventory order and physical inventory recording documents, you have to set up some properties.  
   

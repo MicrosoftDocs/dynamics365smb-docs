@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Export Intrastat Third-Party Declararations
 In Belgium, you must have a third-party declarant fill out the Intrastat declaration. The third-party declarant must be an external person or company.  
   

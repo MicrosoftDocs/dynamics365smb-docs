@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Update Service Contract Prices
 You can update the prices on service contracts by specifying a price update percentage.  
   

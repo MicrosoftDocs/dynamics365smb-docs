@@ -198,12 +198,13 @@
 ### [How to: Create Reports with XBRL](FullExperience/bi-create-reports-with-xbrl.md)
 ### How to: Set Up and Publish KPI Web Services Based on Account Schedules
 
-## Cost Accounting (FULL)
-### About Cost Accounting
-### Setting Up Cost Accounting
-### How to: Transfer and Post Cost Entries
-### How to: Define and Allocate Costs
-### How to: Create Cost Budgets
+## [Cost Accounting (FULL)](finance-manage-cost-accounting.md)
+### [Terminology in Cost Accounting](finance-terminology-in-cost-accounting.md)
+### [About Cost Accounting](finance-about-cost-accounting.md)
+### [Setting Up Cost Accounting](finance-set-up-cost-accounting.md)
+### [Transfering and Posting Cost Entries](finance-transfer-and-post-cost-entries.md)
+### [Defining and Allocating Costs](finance-define-and-allocate-costs.md)
+### [Creating Cost Budgets](finance-create-cost-budgets.md)
 
 ## Sales (FULL)
 ### How to: Work with Blanket Sales Orders
@@ -254,5 +255,10 @@
 ### [Design Details: General Journal Post Line](FullExperience/design-details-general-journal-post-line.md)
 
 # Local Functionality (FULL)
-## [Netherlands](LocalFunctionality/Netherlands/netherlands-local-functionality.md)
+## [Australia](LocalFunctionality/Australia/australia-local-functionality.md)
 ## [Denmark](LocalFunctionality/Denmark/denmark-local-functionality.md)
+## [France](LocalFunctionality/France/france-local-functionality.md)
+## [Germany](LocalFunctionality/Germany/germany-local-functionality.md)
+## [Italy](LocalFunctionality/Italy/italy-local-functionality.md)
+## [Netherlands](LocalFunctionality/Netherlands/netherlands-local-functionality.md)
+## [Spain](LocalFunctionality/Spain/spain-local-functionality.md)

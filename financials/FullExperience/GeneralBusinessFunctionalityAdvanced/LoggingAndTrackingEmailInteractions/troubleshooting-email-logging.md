@@ -68,7 +68,7 @@ This topic describes some common problems that you may see when you use email lo
 -   Rename the existing storage folder as the queue folder, so that the messages are logged again. In this instance, you will also want to re-create a storage folder.  
   
 ## Upgrades to Job Queue Functionality Require Changes in Your Email Logging Implementation  
- Job queue categories have been introduced in ADD INCLUDE<!--[!INCLUDE[nav_current_long](../../includes/nav_current_long_md.md)]-->. Accordingly, to upgrade email logging, you will have to update your implementation to reflect this change.  
+ Job queue categories have been introduced in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. Accordingly, to upgrade email logging, you will have to update your implementation to reflect this change.  
   
  For more information, see [How to: Set Up Job Queues](../how-to-create-job-queue-categories.md).  
   

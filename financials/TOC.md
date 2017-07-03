@@ -245,13 +245,13 @@
 ### How to: Handle Customer Inquiries
 ### How to: Deliver Service
 
-## [Application Design Details](design-details-application-design.md)
-### [Design Details: Dimension Set Entries](design-details-dimension-set-entries.md)
-### [Design Details: Supply Planning](design-details-supply-planning.md)
-### [Design Details: Inventory Costing](design-details-inventory-costing.md)
-### [Design Details: Warehouse Management](design-details-warehouse-management.md)
-### [Design Details: Item Tracking](design-details-item-tracking.md)
-### [Design Details: General Journal Post Line](design-details-general-journal-post-line.md)
+## [Application Design Details](FullExperience/design-details-application-design.md)
+### [Design Details: Dimension Set Entries](FullExperience/design-details-dimension-set-entries.md)
+### [Design Details: Supply Planning](FullExperience/design-details-supply-planning.md)
+### [Design Details: Inventory Costing](FullExperience/design-details-inventory-costing.md)
+### [Design Details: Warehouse Management](FullExperience/design-details-warehouse-management.md)
+### [Design Details: Item Tracking](FullExperience/design-details-item-tracking.md)
+### [Design Details: General Journal Post Line](FullExperience/design-details-general-journal-post-line.md)
 
 # Local Functionality (FULL)
 ## [Netherlands](LocalFunctionality/Netherlands/netherlands-local-functionality.md)

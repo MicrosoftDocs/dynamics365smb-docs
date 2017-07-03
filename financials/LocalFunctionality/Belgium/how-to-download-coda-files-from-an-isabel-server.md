@@ -28,7 +28,7 @@ CODA files can be downloaded manually or in attended mode.
   
 3.  In the **IBS Download Request Options** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**From Date**|Specify the start date of the download.|  
     |**To Date**|Specify the end date of the download.|  

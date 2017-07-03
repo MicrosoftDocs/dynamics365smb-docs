@@ -30,7 +30,7 @@ A physical inventory order is a complete document that consists of a physical in
   
 3.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Description**|Sets a description for the physical inventory order.|  
     |**Location Code**|Sets location code for the item in the order line.|  
@@ -52,7 +52,7 @@ A physical inventory order is a complete document that consists of a physical in
   
 2.  In the **Calc. Phys. Invt. Order Lines** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Calculate Qty. Expected**|Select to calculate and insert the quantity expected data for newly created physical inventory order lines.|  
     |**Items Not on Inventory**|Select to insert physical inventory order lines for items that have a value of zero in the **Quantity Expected** field.|  
@@ -67,7 +67,7 @@ A physical inventory order is a complete document that consists of a physical in
   
 2.  In the **Copy Phys. Invt. Order** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Document Type**|Specify the type of document to copy.|  
     |**Document No.**|Specify the document to copy.|  

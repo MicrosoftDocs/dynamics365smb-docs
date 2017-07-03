@@ -28,7 +28,7 @@ You can identify whether items are reconciled in the **Bank Account Reconciliati
   
 4.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Document No.**|Specifies the document number for the transaction.|  
     |**Check No.**|Specifies the check number for the transaction.|  

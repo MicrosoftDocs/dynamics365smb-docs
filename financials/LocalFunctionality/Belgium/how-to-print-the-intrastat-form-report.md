@@ -26,7 +26,7 @@ The **Intrastat - Form** report must be used for reporting to Intrastat. In Belg
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_501\_F\_1\_1010002 Name $\)**|Enter the company name.|  
     |**\($ R\_501\_F\_1\_1010004 Address $\)**|Enter the address.|  

@@ -26,7 +26,7 @@ All European Union \(EU\) companies must submit an Intrastat statistics report t
   
 2.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---
     title: Insert topic title| Microsoft Docs
     description: Insert description

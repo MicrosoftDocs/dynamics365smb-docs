@@ -40,7 +40,7 @@ You can use the **Bank Detail Cashflow Compare** report to compare the flow of c
   
 2.  On the **ADD INCLUDE<!--[!INCLUDE[bp_optionsheading](../../includes/bp_optionsheading_md.md)]-->** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_28020\_N\_2\_1260000 Compare Start Date $\)**|Specifies the start date for the comparison.|  
     |**\($ R\_28020\_N\_2\_1260003 Compare End Date $\)**|Specifies the end date for comparison.|  

@@ -36,7 +36,7 @@ The letter of attorney feature enables you to create and print a Letter of Attor
   
 1.  In the Search box, enter **Letters of Attorney** and then choose the related link. Create a new document and fill in the fields in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Letter of Attorney No.**|Enter the number of the printed document. This number is documented in the printing form of the document and in the Letter of Attorney journal. This field is filled in automatically from the numbering series.|  
     |**Employee No.**|Enter the employee number.|  

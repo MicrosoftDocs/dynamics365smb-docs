@@ -26,7 +26,7 @@ Financial journals are used to register bank account transactions. The financial
   
 3.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Type**|Select **Financial** for the type of journal.|  
     |**Bal. Account Type**|Select **Bank Account** for the type of balancing account.|  

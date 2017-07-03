@@ -33,7 +33,7 @@ To use the accelerated depreciation calculation, you must set up the following d
   
 3.  On the **General** FastTab, fill in the required fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Code**|The unique identification code for the accounting depreciation book. You can enter a maximum of 10 alphanumeric characters.|  
     |**Description**|The depreciation book description.|  
@@ -55,7 +55,7 @@ To use the accelerated depreciation calculation, you must set up the following d
   
 3.  On the **General** FastTab, fill in the required fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Code**|The unique identification code for the tax depreciation book. You can enter a maximum of 10 alphanumeric characters.|  
     |**Description**|The tax depreciation book description.|  

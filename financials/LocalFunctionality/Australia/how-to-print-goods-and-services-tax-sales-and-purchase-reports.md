@@ -28,7 +28,7 @@ You can create reports of goods and services tax \(GST\) for purchases and sales
   
 3.  On the **ADD INCLUDE<!--[!INCLUDE[bp_optionsheading](../../includes/bp_optionsheading_md.md)]-->** FastTab, and then fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Start Date**|Select a start date for the report.|  
     |**End Date**|Select an end date for the report.|  

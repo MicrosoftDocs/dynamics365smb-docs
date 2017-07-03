@@ -24,7 +24,7 @@ To use fiscal inventory valuation, you must set up inventory valuation methods.
   
 2.  On the **General** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Components Valuation**|Specify the fiscal inventory valuation method.|  
     |**Estimated WIP Consumption**|Select to include the finished production orders or the released production orders for the cost calculation.<br /><br /> If this field is cleared, then consumption and capacity ledger entries are filtered by posting date.|  

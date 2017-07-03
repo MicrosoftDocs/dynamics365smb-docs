@@ -35,7 +35,7 @@ Before you can receive optical character recognition \(OCR\) payments, you must 
   
 4.  In the **OCR Payment-BBS** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_15000064\_F\_1\_1080000  File Name $\)**|Enter the full path of the import file.|  
   

@@ -34,7 +34,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can file non-euro SEPA
   
 2.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_2000006\_N\_2\_1 Journal Template Name $\)**|Specify the general journal template for the non-euro SEPA payment report.|  
     |**\($ B\_2000006\_N\_2\_7 Journal Batch $\)**|Specify the general journal batch for the non-euro SEPA payment report.|  

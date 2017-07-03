@@ -28,7 +28,7 @@ You can make corrections to posted VAT entries without posting the correction in
   
 4.  On the **Home** tab, in the **Manage** group, choose **Edit List**. In the **Manual VAT Correction List** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Posting Date**|Enter the posting date of the VAT correction.|  
     |**Amount**|Enter the amount of the VAT correction. You must enter the correction amount, not the new amount. For example, if the amount is 1000.00 and should be 1200.00, enter 200.00.|  

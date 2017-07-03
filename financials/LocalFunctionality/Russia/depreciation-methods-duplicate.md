@@ -55,7 +55,7 @@ There are three depreciation methods that are unique to Russia that can be used 
   
  Before you use this method, you will have to make sure that the appropriate settings have been applied in the **Tax Register Setup** window. Use the information in the following table to apply the correct settings.  
   
-|ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+|Field|Description|  
 |---------------------------------|---------------------------------------|  
 |**Use Group Depr. Method from**|Enter the start date from which the non-linear depreciation method can be applied. The date should be the first day of the calendar year.|  
 |**Min. Group Balance**|Enter the minimum amount that is valid as the balance for the depreciation group. If the book value for the fixed assets is less than this amount, the depreciation can be written off in this period.|  

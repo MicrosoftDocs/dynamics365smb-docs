@@ -29,7 +29,7 @@ Before you can send electronic documents, you must set up [!INCLUDE[d365fin](../
   
 2.  In the **Company Information** window, on the **Tax** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---
     title: Insert topic title| Microsoft Docs
     description: Insert description

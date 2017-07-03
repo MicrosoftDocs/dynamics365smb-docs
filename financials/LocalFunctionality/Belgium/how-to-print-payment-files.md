@@ -28,7 +28,7 @@ After you have printed a test report and corrected all errors, you can print the
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Batch Name**|Specify the batch name of the payment journal.|  
     |**Bank Account**|Specify the bank account of the payment journal.|  

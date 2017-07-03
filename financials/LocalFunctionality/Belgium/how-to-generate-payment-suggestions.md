@@ -26,7 +26,7 @@ After you have set up electronic banking, you can start generating payment sugge
   
 3.  In the **Suggest Vendor Payments EB**  window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_2000019\_F\_1\_3 Last Due Date $\)**|Enter the last due date that can appear on the vendor ledger entries to be included in the batch job.|  
     |**\($ B\_2000019\_F\_1\_5 Take Credit Memos $\)**|Select to include outstanding credit memos for vendors. The credit memos will be subtracted from the amount due. When selecting credit memos, the due date is not used.|  

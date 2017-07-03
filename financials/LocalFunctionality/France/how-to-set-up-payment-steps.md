@@ -28,7 +28,7 @@ To use payment management, you must set up payment statuses to define payment do
   
 4.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Name**|The payment status description.|  
     |**RIB**|Select to indicate that information about the Relevé d Identité Bancaire \(RIB\) statement for the customer or vendor must be displayed in the payment lines. The RIB information ../../includes the bank branch number, agency code, bank account number, bank name, RIB key, and key verification.|  

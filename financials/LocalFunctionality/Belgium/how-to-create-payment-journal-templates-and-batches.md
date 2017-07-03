@@ -28,7 +28,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], payment suggestions are ge
   
 3.  In the **EB Payment Journal Templates** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Name**|Enter the unique name for the payment journal template that you are creating.|  
     |**Description**|Enter a description of the payment journal template.|  
@@ -44,7 +44,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], payment suggestions are ge
   
 2.  In the **Paym. Journal Batch** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Journal Template Name**|Specify a journal template name for the payment journal batch.|  
     |**Name**|Enter a unique name for the journal batch.<br /><br /> **NOTE:** To have the journal name update numerically, include a number in the journal batch name. For example, the name KBC1 will increment by one number with every posting to KBC2, KBC3, and so on.|  

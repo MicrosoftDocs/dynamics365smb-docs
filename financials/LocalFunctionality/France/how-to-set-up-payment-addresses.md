@@ -30,7 +30,7 @@ To use payment management, you must set up payment addresses that will be used f
   
 4.  Fill in the required fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Code**|The payment address code.|  
     |**Default Value**|Select to use this address as the default payment address. You can select one default payment address.|  

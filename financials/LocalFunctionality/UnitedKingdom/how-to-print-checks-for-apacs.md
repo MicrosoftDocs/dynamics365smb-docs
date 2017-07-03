@@ -28,7 +28,7 @@ The Association for Payment Clearing Services \(APACS\) specification defines a 
   
 4.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_1401\_N\_2\_1 Bank Account $\)**|Specifies bank account code.|  
     |**\($ R\_1401\_N\_2\_3 Last Check No. $\)**|Specifies the last check number that was specified in the **Bank Account Card** window.|  

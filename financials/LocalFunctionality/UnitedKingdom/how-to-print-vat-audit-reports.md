@@ -28,7 +28,7 @@ All vendors must export the data required for auditing in a Content Separated Va
   
 2.  In the **VAT Audit** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_10512\_N\_2\_2 Export Customers $\)**|Select to export the file to the **Customer** table.|  
     |**\($ B\_10512\_N\_2\_8 Export Open Payments $\)**|Select to export the open credit entries.|  
@@ -50,7 +50,7 @@ All vendors must export the data required for auditing in a Content Separated Va
   
 2.  In the **VAT Entry Exception Report** window, on the **Options** FastTab, fll in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_10511\_N\_2\_1040004 VAT Base Discount $\)**|Select if you want to enter a value in the **\($ B\_10511\_N\_2\_1040001 VAT Base Discount % $\)** field.|  
     |**\($ B\_10511\_N\_2\_1040007 Manual VAT Difference $\)**|Select if you want to enter a value in the **\($ B\_10511\_N\_2\_1040003 Manual VAT Difference $\)** field.|  

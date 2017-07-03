@@ -28,7 +28,7 @@ A job queue can have many entries, which are the jobs that the queue manages and
   
 4.  Fill in other fields on the **General** FastTab to specify a start time for the job queue entry and the expiration time for the job queue entry.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Object Type to Run**|Specifies the type of the object to run: codeunit or report.|  
     |**Object ID to Run**|Specifies the ID of the codeunit or report.<br /><br /> If you specify Report as the object type to run, all object IDs of that type will be available in the list. However, you can only select reports whose **ProcessingOnly** property is set to Yes. **Note:**  The user who sets up the job queue entry must have a permission set that includes explicit permissions run the specified object.|  

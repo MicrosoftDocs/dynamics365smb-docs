@@ -26,7 +26,7 @@ The Belgian customs and tax authorities have established an 8-digit item code fo
   
 3.  In the **Tariff Numbers** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Conversion Factor**|Enter the conversion factor for the tariff number. The conversion factor is the factor by which you have to multiply the item unit to obtain the unit imposed by Intrastat. The conversion factor can be used when the item unit differs from the imposed Intrastat unit. The field is available when **Supplementary Units** is selected.|  
     |**Unit of Measure**|Enter the unit of measure for the tariff number. The field is available when **Supplementary Units** is selected.|  

@@ -43,7 +43,7 @@ To evaluate profit and loss, a fiscal year closing report is provided at the end
   
 2.  On the **Options** tab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Fiscal Year Ending Date**|The ending date for the fiscal year.|  
     |**Gen. Journal Template**|The name of the general journal template in which to place the entries.|  

@@ -26,7 +26,7 @@
   
 3.  On the **General** FastTab, fill in the required fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Bank Account No.**|The bank account number to reconcile.|  
     |**Statement No.**|The bank statement number to reconcile.|  
@@ -40,7 +40,7 @@
   
 5.  In the **Bank Rec. Process Lines** batch job, on the **ADD INCLUDE<!--[!INCLUDE[bp_optionsheading](../../includes/bp_optionsheading_md.md)]-->** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Record type to process**|Specify the type as **Checks**, **Deposits**, or **Both**.|  
     |**Mark lines as cleared**|Select to process the option selected in the **Record type to process** field.|  

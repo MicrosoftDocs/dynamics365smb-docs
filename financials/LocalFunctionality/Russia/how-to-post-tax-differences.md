@@ -26,7 +26,7 @@ The **Tax Difference Journal** is used to create and post tax difference transac
   
 2.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Posting Date**|Enter the transaction date.|  
     |**Document No.**|Enter the document number from the source transaction.|  

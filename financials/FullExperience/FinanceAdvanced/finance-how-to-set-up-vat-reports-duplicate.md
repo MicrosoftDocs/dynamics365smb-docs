@@ -41,7 +41,7 @@ You can create different types of VAT reports depending on the requirements of y
   
 2.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**No.**|Specify the report number.<br /><br /> Depending on the type of report, and the configuration in your company, you can use the automatically generated number, select a different number series, or enter a different number manually.|  
     |**VAT Report Config. Code**|Select the appropriate configuration code.<br /><br /> The configuration code specifies how the VAT report is generated. For more information, see [VAT and VIES Report Setup](../vat-and-vies-report-setup.md).|  

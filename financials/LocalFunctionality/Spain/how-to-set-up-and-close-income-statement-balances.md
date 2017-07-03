@@ -42,7 +42,7 @@ You can use income statement balancing accounts to balance and track several acc
   
 2.  In the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Fiscal Year Ending Date**|Select the date of the closed fiscal year.|  
     |**Gen. Journal Template**|Select the required general journal template.|  
@@ -53,7 +53,7 @@ You can use income statement balancing accounts to balance and track several acc
   
 3.  In the **Close by** section, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Business Unit Code**|Select to create an entry for each business code.|  
     |**Dimensions**|Select to create an entry for each general ledger dimension.|  

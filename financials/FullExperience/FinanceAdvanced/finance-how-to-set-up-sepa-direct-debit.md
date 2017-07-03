@@ -47,7 +47,7 @@ From the **Direct Debit Collections** window, you can export instructions to you
   
 3.  Set up a payment method. Fill in the direct debit-specific fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Direct Debit**|Specify if the payment method is for SEPA direct debit collection.|  
     |**Direct Debit Pmt. Terms Code**|Specify the payment terms, such as DON’T PAY, that are displayed on sales invoices that are paid with SEPA direct debit to indicate to the customer that the payment will be collected automatically. Alternatively, leave the field empty.|  
@@ -77,7 +77,7 @@ From the **Direct Debit Collections** window, you can export instructions to you
   
 5.  In the **SEPA Direct Debit Mandates** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Customer Bank Account Code**|Specifies the bank account from which direct-debit payments are collected. This field is filled automatically.|  
     |**Valid From**|Specify the date when the direct-debit mandate starts.|  

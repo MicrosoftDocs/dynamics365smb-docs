@@ -24,7 +24,7 @@ Kunde ID \(KID\) is a customer identification number that provides a payment ref
   
 2.  On the **Documents** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**KID Setup**|Specifies a KID number format.|  
     |**Document No. length**|Enter the number of digits used for the document number.|  

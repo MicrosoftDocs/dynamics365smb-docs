@@ -45,7 +45,7 @@ You can manage your fixed assets utilizing the fixed assets acts features in [!I
   
 2.  On the **General** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**No.**|Enter the identification number that is assigned to the fixed asset release.|  
     |**Posting Description**|Enter a description for the fixed asset release. A description is automatically created from the document type and release number.|  
@@ -59,7 +59,7 @@ You can manage your fixed assets utilizing the fixed assets acts features in [!I
   
 3.  On the **Lines** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**FA No.**|Enter the identification number that is assigned to the fixed asset to be released.|  
     |**Description**|Enter a description for the fixed asset.|  
@@ -77,7 +77,7 @@ You can manage your fixed assets utilizing the fixed assets acts features in [!I
   
 2.  On the **General** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**No.**|Enter an identification number that is assigned to the fixed asset movement entry.|  
     |**Posting Description**|Enter a description for the fixed asset movement entry. A description is automatically created from the document type and movement number.|  
@@ -93,7 +93,7 @@ You can manage your fixed assets utilizing the fixed assets acts features in [!I
   
 3.  On the **Lines** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**FA No.**|Enter an identification number that is assigned to the fixed asset movement line entry.|  
     |**Description**|Enter a description for the fixed asset movement line entry.|  
@@ -113,7 +113,7 @@ You can manage your fixed assets utilizing the fixed assets acts features in [!I
   
 2.  On the **General** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**No.**|Enter an identification number that is assigned to the fixed asset write-off entry.|  
     |**Posting Description**|Enter a description for the fixed asset write-off entry. A description is automatically created from the document type and write-off number.|  
@@ -129,7 +129,7 @@ You can manage your fixed assets utilizing the fixed assets acts features in [!I
   
 3.  On the **Lines** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**FA No.**|Enter an identification number that is assigned to the fixed asset write-off line entry.|  
     |**Description**|Enter a description for the fixed asset write-off line entry.|  

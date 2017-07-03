@@ -53,7 +53,7 @@ The terms "running the planning worksheet" or "running MRP" refer to the calcula
   
 3.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**MPS**|Select to initiate the calculation of a master production schedule. Items with open sales orders or production forecasts are considered in this run.|  
     |**MRP**|Select to initiate the calculation of material requirements planning. Items with dependent requirements are considered in this run. Typically,  MPS and MRP are run at the same time. To run MPS and MRP at the same time, the **Combined MPS/MRP Calculation** field must be selected on the **Planning** FastTab in the **Manufacturing Setup** window.|  
@@ -74,7 +74,7 @@ The terms "running the planning worksheet" or "running MRP" refer to the calcula
   
 2.  On the **Options** FastTab, specify how to create the supplies. Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Production Order**|Specify how you want to create production orders. You can do this directly from the planning line proposals. You can create either planned or firm planned production orders.|  
     |**Assembly Order**|Specify how you want to create assembly orders. You can do this directly from the planning line proposals.|  

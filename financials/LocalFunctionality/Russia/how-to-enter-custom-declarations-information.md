@@ -24,7 +24,7 @@ Use the following procedure to enter custom declaration information.
   
 2.  In the **Custom Declaration** window, fill in the fields.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**No.**|Specifies the custom declaration number.|  
     |**Description**|Specifies the description of the custom declaration number.|  

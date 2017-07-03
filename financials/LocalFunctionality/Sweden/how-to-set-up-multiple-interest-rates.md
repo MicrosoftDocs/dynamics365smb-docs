@@ -28,7 +28,7 @@ You can calculate finance charges with multiple interest rates for a specific pe
   
 3.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Start Date**|Enter the start date for each finance charge interest rate code.|  
     |**Interest Rate**|Enter the percentage that must be used to calculate interest.|  

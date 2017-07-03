@@ -26,7 +26,7 @@ The **\($ R\_12463 Cash Order Journal CO-3 $\)** report shows the unified standa
   
 2.  In the **\($ R\_12463 Cash Order Journal CO-3 $\)** window, fill in the fields.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_12463\_N\_2\_1210011 Cash Account No. $\)**|Select the cash account number for which the journal is to be printed.|  
     |**\($ R\_12463\_N\_2\_1210000 Starting Date $\)**|Enter the start date of cash orders to be included in the register.|  

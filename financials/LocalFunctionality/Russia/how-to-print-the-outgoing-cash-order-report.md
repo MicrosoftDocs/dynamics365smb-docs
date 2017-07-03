@@ -26,7 +26,7 @@ The **Cash Outgoing Order CO-2** report shows the outgoing cash order, which is 
   
 2.  In the **Cash Outgoing Order** window, fill in the fields.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_12402\_N\_2\_2 Test Print $\)**|Select to print a draft of the report.<br /><br /> If this option is not selected and the value in the **Bank Payment Type** field in the **Outgoing Cash Order** window is **Computer Check**, then the following actions are performed:<br /><br /> -   If the **Check Printed** field is selected, a record is created in **Check Ledger Entries** with the value of **Entry Status** set to **Printed**.<br />-   If the **Document No.** field is blank, then it is filled with the next number from the No. Series for this cash account.<br />-   The status of the **Check Printed** is selected.|  
   

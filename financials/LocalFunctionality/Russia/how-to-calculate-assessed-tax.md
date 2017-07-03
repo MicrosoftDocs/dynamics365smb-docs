@@ -24,7 +24,7 @@ The assessed tax feature enables you to calculate the assessed tax for fixed ass
   
 2.  In the **Assessed Tax Allowances** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Code**|Specifies the code for the assessed tax that is associated with the fixed asset.|  
     |**Name**|Specifies the name of the assessed tax code.|  
@@ -35,7 +35,7 @@ The assessed tax feature enables you to calculate the assessed tax for fixed ass
   
 5.  In the **Assessed Tax Codes**window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Code**|Specifies a code for an assessed tax allowance.|  
     |**Description**|Specifies a description for the assessed tax code.|  
@@ -57,7 +57,7 @@ The assessed tax feature enables you to calculate the assessed tax for fixed ass
   
 10. On the **Assessed Tax** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Assessed Tax Code**|Specifies the assessed tax code that is associated with the fixed asset.|  
     |**Property Type**|Specifies the property type of the fixed the fixed asset. Property types include: **Immovable UGSS Property**, **Immovable Distributed Property**, **Other Property**, and **Special Economic Zone Property**.|  

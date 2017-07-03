@@ -24,7 +24,7 @@ You can import and export general ledger data according to the standard import e
   
 2.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**File Name**|Enter the name and path of the file that you want to import.|  
     |**\($ B\_11208\_F\_1\_1070002 Gen. Journal Template $\)**|Select a general journal template.|  
@@ -43,7 +43,7 @@ You can import and export general ledger data according to the standard import e
   
 3.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_11207\_F\_1\_1070000 File Type $\)**|Select the type of file to be created. Select from one of the following options:<br /><br /> -   **Year - End Balances** - Contains the annual account balance carried forward for all accounts in the chart of accounts.<br />-   **Periodic Balances** - Contains the annual account balance carried forward and monthly changes for all accounts in the chart of accounts.<br />-   **Object Balances** - Contains the annual account balance carried forward, monthly changes, and balances on the object level, such as cost units and projects, for all accounts in the chart of accounts.<br />-   **Transactions** - Contains all the general ledger entries for the period.|  
     |**File Name**|Enter the name and path of the file that you want to create.|  

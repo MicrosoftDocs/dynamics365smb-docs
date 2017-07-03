@@ -40,7 +40,7 @@ You must set up a Business Activity Statement \(BAS\) to generate a BAS report. 
   
 3.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**XML Field ID**|The name for the BAS field, as it appears in the XML file.|  
     |**Field No.**|The internal [!INCLUDE[d365fin](../../includes/d365fin_md.md)] number that corresponds to the field label number in the XML file.|  
@@ -57,7 +57,7 @@ You must set up a Business Activity Statement \(BAS\) to generate a BAS report. 
   
 3.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Name**|The BAS setup name.|  
     |**Description**|The description for the BAS setup name.|  

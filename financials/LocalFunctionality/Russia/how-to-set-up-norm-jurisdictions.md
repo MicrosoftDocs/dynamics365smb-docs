@@ -28,7 +28,7 @@ Norm jurisdictions are based on Russian tax laws that define a variety of tax ra
   
 4.  In the **Norm Groups** window, enter the following information.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Code**|Enter a code to identify the norm group.|  
     |**Description**|Enter a description for the norm group.|  
@@ -40,7 +40,7 @@ Norm jurisdictions are based on Russian tax laws that define a variety of tax ra
   
 6.  In the **Norm Details** window, enter the following information.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Effective Date**|Enter an effective date for the norm.|  
     |**Norm**|Enter a value for the norm. This value is used to calculate tax differences.|  

@@ -24,7 +24,7 @@ You can configure different types of VAT reports based on requirements. Then, wh
   
 2.  Fill in the fields in the **General** FastTab, including the fields that are described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**No.**|Specify the report number.<br /><br /> Depending on the type of report, and the configuration in your company, you can use the automatically generated number, select a different number series, or enter a different number manually.|  
     |**VAT Report Type**|Select the appropriate VAT Report type. The default setting is  **Standard**. If the report is an update to an existing report, choose **Corrective**.|  
@@ -39,7 +39,7 @@ You can configure different types of VAT reports based on requirements. Then, wh
   
 3.  Fill in the fields in the **Sign-off** FastTab, including the key fields that are described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Sign-off Place**|Specify the location where the VAT report was signed off.|  
     |**Sign-off Date**|Specify the date that the VAT report has been signed off.|  

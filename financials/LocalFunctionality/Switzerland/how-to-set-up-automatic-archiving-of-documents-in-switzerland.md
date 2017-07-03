@@ -26,7 +26,7 @@ You can set up automatic archiving of sales documents and purchase documents—s
   
 2.  On the **Sales & Receivables Setup** window, on the **Archiving** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Archiving Sales Quote**|**Never** to never archive sales quotes when they are deleted.<br /><br /> –or–<br /><br /> **Question** to prompt the user to choose whether to archive sales quotes when they are deleted.<br /><br /> –or–<br /><br /> **Always** to archive sales quotes automatically when they are deleted.|  
     |**Archiving Blanket Sales Orders**|Select to archive blanket sales orders automatically each time they are deleted.|  

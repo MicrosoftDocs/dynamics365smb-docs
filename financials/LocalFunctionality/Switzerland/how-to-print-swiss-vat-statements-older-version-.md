@@ -36,7 +36,7 @@
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_11518\_F\_1\_6 Closed with Journal no. $\)**|Select the general ledger journals that contain the posting source of the VAT adjusting entries. This field evaluates accounting periods that have already been settled.|  
     |**\($ R\_11518\_F\_1\_8 Open until date $\)**|Select the last date for settling open or unsettled VAT entries.|  

@@ -32,7 +32,7 @@ Follow these steps to set up the additional reporting currency:
   
 2.  In the **Currencies** window, specify the following fields for the additional reporting currency.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Realized G/L Gains Account**|The general ledger account to which exchange rate gains for currency adjustments between LCY and the additional reporting currency will be posted.|  
     |**Realized G/L Losses Account**|The general ledger account to which exchange rate losses for currency adjustments between LCY and the additional reporting currency will be posted.|  

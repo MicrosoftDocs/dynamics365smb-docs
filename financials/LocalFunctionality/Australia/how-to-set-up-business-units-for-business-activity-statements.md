@@ -36,7 +36,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can consolidate the fi
   
 2.  Fill in the required fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**BAS to be Lodged as a Group**|Select if you are logging a business activity statement for a group of companies.|  
     |**BAS Group Company**|Select if this company is the main company in the group of companies for which you are lodging a group business activity statement.|  
@@ -49,7 +49,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can consolidate the fi
   
 2.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Company Name**|Specify the name of the company which will be added to the group company's business activity statement.|  
     |**Document No.**|Specify the BAS document number that has to be consolidated. This field is associated with the **BAS Version** field.|  

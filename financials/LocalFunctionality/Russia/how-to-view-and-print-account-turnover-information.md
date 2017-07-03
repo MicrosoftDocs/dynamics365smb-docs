@@ -24,7 +24,7 @@
   
 2.  On the **General** FastTab, enter the following information.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Date Filter**|Enter the date filter for which you want to view account information.|  
     |**Business Unit Filter**|Select the business unit filter for which you want to view account information.|  
@@ -38,7 +38,7 @@
   
 2.  On the **Options** FastTab, enter the following information.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_12431\_F\_1\_2 Period Beginning $\)**|Select the start date for the information that you want to include in the report.|  
     |**\($ R\_12431\_F\_1\_4 Ending of Period $\)**|Select the end date for the information that you want to include in the report.|  

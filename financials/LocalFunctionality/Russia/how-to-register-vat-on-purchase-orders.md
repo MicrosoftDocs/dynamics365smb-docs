@@ -24,14 +24,14 @@ In Russia, organizations are required to keep a journal of received and issued V
   
 2.  On the **Shipping** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Vendor Receipts No.**|Enter the identification number from the vendor receipt.|  
     |**Vendor Receipts Date**|Enter the date from the vendor receipt.|  
   
 3.  On the **VAT** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Vendor VAT Invoice No.**|Enter the invoice number from the original VAT transaction.|  
     |**Vendor VAT Invoice Date**|Enter the invoice date from the original VAT transaction.|  

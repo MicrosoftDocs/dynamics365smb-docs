@@ -24,7 +24,7 @@ You can use the **Adjust Settlement Exch. Rates** batch job to settle VAT entrie
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_28140\_N\_2\_1340012 Settlement Period $\)**|Specifies the start date of the settlement period.|  
     |**\($ B\_28140\_N\_2\_1340010 Ending Date $\)**|Specifies the end date of the settlement period.|  

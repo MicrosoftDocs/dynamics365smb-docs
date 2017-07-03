@@ -26,7 +26,7 @@ The **Recurring Group Code** field in the **Blanket Sales Order** window defines
   
 3.  On the **General** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Code**|Enter a code to identify the recurring group.|  
     |**Description**|Enter a description for the recurring group.|  
@@ -37,7 +37,7 @@ The **Recurring Group Code** field in the **Blanket Sales Order** window defines
   
 4.  On the **Update** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Update Document Date**|Select one of the following options to update the document date:<br /><br /> -   **Posting Date** - The document date is calculated using the posting date and the date formula specified in the **Document Date Formula** field.<br />-   **Processing Date** - The document date is calculated using the processing date and the date formula specified in the **Document Date Formula** field.|  
     |**Document Date Formula**|Enter a date formula to calculate the document date on the order.|  

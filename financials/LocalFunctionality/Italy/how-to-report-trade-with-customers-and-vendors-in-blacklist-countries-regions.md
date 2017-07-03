@@ -47,7 +47,7 @@ You must submit a periodic report of transactions with customers and vendors in 
   
 3.  In the **Blacklist Comm. Amounts** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---
     title: Insert topic title| Microsoft Docs
     description: Insert description
@@ -84,7 +84,7 @@ You must submit a periodic report of transactions with customers and vendors in 
   
 3.  Fill in the lines with the relevant information as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|**Data Type**|  
+    |Field|Description|**Data Type**|  
     |--------------------------------------|---------------------------------------|-------------------|  
     |**Row No.**|Specify a row number. To enable correct filtering, we recommend that you number rows as follows: 1001..1006, and so forth.|Code|  
     |**Description**|Enter a description of the line. You can enter up to a maximum of 50 characters.<br /><br /> The types of transactions that you are required to report include the sales and purchase of goods and services. These transactions can be taxable, non-taxable, or exempt. Also subject to reporting are invoices for transactions that are not subject to VAT.<br /><br /> Finally, you must also include information for credit note transactions.|Text|  
@@ -121,7 +121,7 @@ You must submit a periodic report of transactions with customers and vendors in 
   
 6.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_12128\_N\_2\_12 Starting Date $\)**|Optional. Enter the start date for the blacklist report, which is based on the date that the operations occurred.|  
     |**\($ R\_12128\_N\_2\_10 Ending Date $\)**|Enter the end date for the blacklist report.|  
@@ -153,7 +153,7 @@ You must submit a periodic report of transactions with customers and vendors in 
   
 7.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_12129\_N\_2\_12 Starting Date $\)**|Enter the start date for the blacklist report.|  
     |**\($ R\_12129\_N\_2\_10 Ending Date $\)**|Enter the end date for the blacklist report.|  

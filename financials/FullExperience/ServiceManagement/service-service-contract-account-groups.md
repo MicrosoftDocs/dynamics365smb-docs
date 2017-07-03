@@ -20,7 +20,7 @@ In the **Service Contract Account Group** window, you can view, change, or creat
   
 ## ADD INCLUDE<!--[!INCLUDE[bp_addlinfoheading](../../includes/bp_addlinfoheading_md.md)]-->  
   
-|ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+|Field|Description|  
 |---------------------------------|---------------------------------------|  
 |**Code**|Entering a code in this field links the service contract to the general ledger account that you want to post it to.|  
 |**Description**|Describes the service contract account group.|  

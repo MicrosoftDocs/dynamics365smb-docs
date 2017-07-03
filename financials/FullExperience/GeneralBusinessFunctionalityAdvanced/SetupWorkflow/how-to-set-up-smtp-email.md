@@ -28,7 +28,7 @@ To send e-mails from [!INCLUDE[d365fin](../../../includes/d365fin_md.md)] using 
   
 2.  Fill the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**SMTP Server**|Specify the name of the SMTP server.|  
     |**SMTP Server Port**|Specify a port for the SMTP server. The default port is 25. **Note:**  When you set up the port, make sure that incoming and outgoing communications on the port is enabled for all clients and the Microsoft Dynamics NAV Server. Check your firewall settings.|  

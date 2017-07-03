@@ -26,7 +26,7 @@ You can make deposits to maintain a transaction record that contains information
   
 3.  On the **General** FastTab, fill in the required fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**No.**|The unique identification number for the deposit.|  
     |**Bank Account No.**|The bank account number for the deposit.|  
@@ -36,7 +36,7 @@ You can make deposits to maintain a transaction record that contains information
   
 4.  On the **Lines** FastTab, fill in the required fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Account Type**|The account type.|  
     |**Account No.**|The unique identification account number that is associated with the selected account type, to which the entry will be posted.|  

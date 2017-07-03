@@ -28,7 +28,7 @@
   
 2.  In the **\($ R\_11007 VAT-Vies Declaration Tax – DE $\)** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_11007\_N\_2\_1140000 Reporting Period $\)**|Select the time period that the report applies to. This can be a month, a two-month period, a quarter, or the calendar year.|  
     |**\($ R\_11007\_N\_2\_1140002 Date of Signature $\)**|Enter the date on which the VAT-VIES declaration is sent.|  

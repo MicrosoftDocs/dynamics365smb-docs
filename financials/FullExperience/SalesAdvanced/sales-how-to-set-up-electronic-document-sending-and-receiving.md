@@ -32,7 +32,7 @@ You can set each customer up with a preferred method of sending sales documents,
   
 3.  Fill the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Code**|Specify a code to identify the document sending profile in the system.|  
     |**Description**|Describe the document sending profile.|  
@@ -61,7 +61,7 @@ You can set each customer up with a preferred method of sending sales documents,
   
 3.  Fill the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Code**|Specify a code to identify the electronic document format in the system.|  
     |**Description**|Describe the electronic document format.|  

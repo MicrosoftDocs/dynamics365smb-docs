@@ -26,7 +26,7 @@ You can use the **Balance Sheet** report to view the company’s balance sheet.
   
 2.  In the **Balance Sheet** window, on the **ADD INCLUDE<!--[!INCLUDE[bp_optionsheading](../../includes/bp_optionsheading_md.md)]-->** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_28024\_N\_2\_1500000 Amounts in whole $\)**|Specifies the nearest unit to which the amounts must be rounded.|  
   

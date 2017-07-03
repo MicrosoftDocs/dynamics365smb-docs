@@ -42,7 +42,7 @@ Chart of cost types are similar to the chart of accounts in the general ledger. 
     > [!NOTE]  
     >  You can set up and maintain cost types in either the **Cost Type Card** window or in the **Chart of Cost Types** window. In this procedure, you set up cost types in the **Chart of Cost Types** window.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**No.**|Enter the cost type number. All cost types must have a number.|  
     |**Name**|Enter the cost type name.|  

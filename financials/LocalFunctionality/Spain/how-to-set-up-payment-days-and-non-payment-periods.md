@@ -32,7 +32,7 @@ Payment days and non-payment periods are used to calculate due dates. Due date c
   
 3.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Payment Days Code**|Enter the payment day code.|  
     |**Non-Paymt. Periods Code**|Enter the non-payment periods code.|  
@@ -67,7 +67,7 @@ Payment days and non-payment periods are used to calculate due dates. Due date c
   
 3.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**From Date**|Enter the starting date for the non-payment period.|  
     |**To Date**|Enter the ending date for the non-payment period.|  

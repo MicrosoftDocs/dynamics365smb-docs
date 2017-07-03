@@ -31,7 +31,7 @@ You can use the **Calc. and Post WHT Settlement** window to calculate and post t
   
 2.  On the **ADD INCLUDE<!--[!INCLUDE[bp_optionsheading](../../includes/bp_optionsheading_md.md)]-->** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_28041\_N\_2\_13 Starting Date $\)**|The start date of the period for which WHT has to be settled.|  
     |**\($ R\_28041\_N\_2\_11 Ending Date $\)**|The end date of the period for which WHT has to be settled.|  

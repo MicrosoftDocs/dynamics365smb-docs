@@ -28,7 +28,7 @@ You can use the following reports for month-end reconciliation and auditing:
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_10540\_N\_2\_1040000 Print details $\)**|Select to display the details that are printed in the report.|  
     |**\($ R\_10540\_N\_2\_1040002 Ending Date $\)**|Specifies the end date.<br /><br /> **NOTE:** You can select the end date only in the **Stock Received not Invoiced** report.|  

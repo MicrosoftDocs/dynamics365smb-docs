@@ -28,7 +28,7 @@ The **Service Item Trendscape** window provides a scrollable summary of service 
   
  The following table describes the other fields in the **Lines** FastTab.  
   
-|ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+|Field|Description|  
 |---------------------------------|---------------------------------------|  
 |**Prepaid Income**|The total income (in LCY) that has been posted to the prepaid account with regard to the service item in the periods specified in the **Period Start** field.|  
 |**Posted Income**|The total income (in LCY) that has been posted to the general ledger for the service item in the periods specified in the **Period Start** field.|  

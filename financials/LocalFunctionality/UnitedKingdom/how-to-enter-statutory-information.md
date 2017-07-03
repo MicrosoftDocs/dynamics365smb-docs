@@ -24,7 +24,7 @@ To comply with legal requirements, statutory information is available on the **S
   
 2.  On the **Statutory** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Registration No.**|Specifies the registration number of the company.|  
     |**Registered Name**|Specifies the registered name of the company.|  

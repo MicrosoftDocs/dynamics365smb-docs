@@ -24,7 +24,7 @@ Cash accounts are similar to bank accounts and are created identically. For more
   
 2.  In the **Cash Account Card** window, fill in the fields on the **Posting** FastTab as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Currency Code**|Specifies the currency code that is associated with the cash account.|  
     |**Debit Cash Order No. Series**|Specifies the serial numbers for outgoing cash orders.|  

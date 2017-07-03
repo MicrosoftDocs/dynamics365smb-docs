@@ -36,7 +36,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use Single Euro Pa
   
 2.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_2000005\_N\_2\_11 Journal Template Name $\)**|Specify the general journal template for the SEPA payment report.|  
     |**\($ B\_2000005\_N\_2\_7 Journal Batch $\)**|Specify the general journal batch for the SEPA payment report.|  

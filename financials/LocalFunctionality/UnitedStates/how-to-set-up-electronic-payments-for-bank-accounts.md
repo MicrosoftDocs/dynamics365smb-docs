@@ -28,7 +28,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can send electronic pa
   
 3.  On the **Transfer** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Export Format**|The country-specific file format for the export file. Choose the country\/region format that your bank uses.|  
     |**Payment Export Format**|The export file format when the format is not country-specific.<br /><br /> If this field is filled, then the **Export Format** field will be ignored. The payment file will be exported as set up in the **Payment Export Format** field. For more information, see [How to: Export Payments to a Bank File](how-to-export-payments-to-a-bank-file.md).|  

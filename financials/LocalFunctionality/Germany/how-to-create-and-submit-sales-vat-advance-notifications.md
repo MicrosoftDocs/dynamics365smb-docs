@@ -26,7 +26,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can submit the sales V
   
 3.  In the **Sales VAT Adv. Notif. Card** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---
     title: Insert topic title| Microsoft Docs
     description: Insert description

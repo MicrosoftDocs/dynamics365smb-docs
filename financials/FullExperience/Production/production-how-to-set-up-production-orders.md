@@ -26,7 +26,7 @@ When you set up a new production order, there are fields that must always be fil
   
 2.  Fill in the fields on the production order header. The following fields are required.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**No.**|Specifies the next number from the production order number series.|  
     |**Source Type**|Specifies either of the following types:<br /><br /> -   **Item** - Standard items are produced for inventory.<br />-   **Familiy** - A predefined family of items is produced for inventory.<br />-   **Sales header** - Items are produced for the sales order that you select in the **Source No.** field.|  
@@ -37,7 +37,7 @@ When you set up a new production order, there are fields that must always be fil
   
 3.  Fill in the fields on the production order lines. The following fields are required.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Item No.**|Specifies the item that is produced.|  
     |**Due Date**|Specifies when the produced item is needed, for example, on a sales order.|  

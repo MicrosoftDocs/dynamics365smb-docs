@@ -28,7 +28,7 @@ The Canada Revenue Agency uses General Index of Financial Information \(GIFI\) c
   
 3.  In the **New - GIFI Codes** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Code**|The GIFI code.|  
     |**Name**|The name or description of the corresponding GIFI code. You can enter a maximum of 120 alphanumeric characters.|  

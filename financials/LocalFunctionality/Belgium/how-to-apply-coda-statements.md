@@ -34,7 +34,7 @@ After a CODA statement has been imported, the statement lines can be accessed fr
   
 4.  In the **CODA Statement Lines** FastTab, for each statement line, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Account No.**|Enter the number of the general ledger account, bank, customer, vendor, or fixed asset, which the bank account statement line is linked to.|  
     |**Description**|[!INCLUDE[d365fin](../../includes/d365fin_md.md)] automatically retrieves the description from the imported CODA file, but you can modify the contents of this field.|  
@@ -53,7 +53,7 @@ After a CODA statement has been imported, the statement lines can be accessed fr
   
 5.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_2000059\_F\_1\_1 Default Posting $\)**|Select if you want the batch job to post statement amounts that cannot be linked to existing ledger entries. For more information, see Transaction Coding.|  
     |**\($ B\_2000059\_F\_1\_3 Print List $\)**|Select to print a list of statement amounts that cannot be linked automatically.|  

@@ -36,7 +36,7 @@ To submit DatenTrägerAustausch \(DTA\) payments to your bank for payment, you m
   
 4.  In the **DTA File** batch job, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_3010541\_F\_1\_5 DTA Bank for File $\)**|Select the DTA bank code from which the information for the file name and backup copy is to be transferred. This field uses the main bank name as the default, but you can modify this information if you want.|  
     |**\($ B\_3010541\_F\_1\_1 Combined payment for vendor $\)**|Specify if the payment lines that have the same vendor, currency, bank, and debit bank will be combined in the generated DTA file.|  

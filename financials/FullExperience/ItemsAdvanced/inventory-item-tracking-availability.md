@@ -22,7 +22,7 @@ When you work with lot or serial numbers, [!INCLUDE[d365fin](../../includes/d365
   
  In the **Lot No./Serial No.-List** window, the **Lot No./Serial No.-Availability** window, and the **Item Tracking – Select Entries** window, information is displayed about how much quantity of an item is being used. This includes the following information.  
   
-|ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+|Field|Description|  
 |---------------------------------|---------------------------------------|  
 |**Total Quantity**|The total number of item currently in inventory.|  
 |**Total Requested Quantity**|The total number of items that are requested that will be used in this and other documents.|  

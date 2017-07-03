@@ -32,7 +32,7 @@ Before you can start to use the electronic banking functionality for CODA statem
   
 3.  On the **Posting** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Protocol No.**|Enter the protocol number that is used by the CODA system to import coded bank account statements.|  
     |**Version Code**|Enter the version code used by the CODA system to import coded bank account statements.|  

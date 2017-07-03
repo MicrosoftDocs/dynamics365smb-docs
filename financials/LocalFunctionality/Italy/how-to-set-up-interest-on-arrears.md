@@ -32,7 +32,7 @@ For each finance charge term, you can specify how interest on arrears must be ca
   
 4.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Starting Date**|Specify the date from which you want to calculate interest on arrears. **Important:**  The start date for the first interest transaction cannot be later than the earliest posting date for the finance transactions.|  
     |**Interest Rate**|Specify the rate of interest to be calculated for the arrears.|  

@@ -24,7 +24,7 @@ You use an external provider of OCR services to have PDF or image files turned i
   
 2.  Fill the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**User Name**|Specify the user name that represents your company’s login to the OCR service.|  
     |**Password**|Specify the password that is used for your company’s login to the OCR service.|  

@@ -24,7 +24,7 @@ The **Withholding Taxes** report displays a list of withholding taxes that are p
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_12101\_N\_2\_1130070 Reference Month $\)**|Enter the month of the withholding tax period in numeric format.|  
     |**\($ R\_12101\_N\_2\_1130071 Reference Year $\)**|Enter the year of the withholding tax period in numeric format.|  

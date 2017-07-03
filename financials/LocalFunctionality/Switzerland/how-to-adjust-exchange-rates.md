@@ -41,7 +41,7 @@ If you have taxable sales in a foreign currency, you must use the official rate 
   
 6.  On the **Options** FastTab, fill in the fields as described in the following table.   
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_595\_F\_1\_1 Starting Date $\)**|Enter a date to specify the beginning of the period for which entries will be adjusted.|  
     |**\($ B\_595\_F\_1\_2 Ending Date $\)**|Enter the last date for which entries will be adjusted. This date is typically the same as the posting date in the **\($ B\_595\_F\_1\_4 Posting Date $\)** field.|  

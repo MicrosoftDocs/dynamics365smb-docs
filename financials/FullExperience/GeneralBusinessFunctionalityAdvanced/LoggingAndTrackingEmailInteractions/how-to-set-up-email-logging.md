@@ -37,7 +37,7 @@ You set up email logging in the **Marketing Setup** window. Setup requires an em
   
 4.  If you use Exchange Online, you must also specify the following fields:  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Exchange Service URL**|Optionally, specify the URL for your Exchange service.<br /><br /> If you specify this URL, [!INCLUDE[d365fin](../../../includes/d365fin_md.md)] connects faster to Exchange when you choose **Validate Email Logging Setup**.|  
     |**Exchange Account User Name**|Specify the name of the user account that has access to Exchange.|  

@@ -55,7 +55,7 @@ For many companies, the fiscal year does not coincide with the calendar year. Fi
   
 3.  Clear the check boxes described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Use System For Day Period**|Specifies if the day period information is retrieved from the accounting period calendar, instead of from the system calendar.|  
     |**Use System For Week Period**|Specifies if the week period information is retrieved from the accounting period calendar, instead of from the system calendar.|  
@@ -67,7 +67,7 @@ For many companies, the fiscal year does not coincide with the calendar year. Fi
   
 4.  On the **Formatting** FastTab, in the **Acc. Period Calendar** section, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Day Format**|Specifies the custom format property for period type **Day** when displaying dates using the accounting period calendar.|  
     |**Week Format**|Specifies the custom format property for period type **Week** when displaying dates using the accounting period calendar.|  
@@ -82,7 +82,7 @@ For many companies, the fiscal year does not coincide with the calendar year. Fi
   
 6.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Period Type**|Specifies the period type for the accounting period.|  
     |**Period Start**|Specifies the starting date for the accounting period.|  

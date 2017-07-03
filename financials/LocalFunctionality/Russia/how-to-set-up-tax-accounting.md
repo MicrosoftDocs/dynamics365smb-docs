@@ -24,14 +24,14 @@ Tax accounting lets you apply rules for recognizing income and expenses that fol
   
 2.  On the **General** FastTab, select codes for the following dimensions.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Condition Dimension Code**|Select a dimension code that describes the condition of the tax register.|  
     |**Kind Dimension Code**|Select a dimension code that describes the type of tax register.|  
   
 3.  Select the following fields to activate entries in the tax register.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Create Acquis. FA Tax Ledger**|Select to create fixed asset acquisition entries.|  
     |**Create Reclass. FA Tax Ledger**|Select to create fixed asset reclassification entries.|  

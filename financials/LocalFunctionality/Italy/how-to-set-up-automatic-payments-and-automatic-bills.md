@@ -26,7 +26,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can manage automatic p
   
 2.  On the **Payments** FastTab, fill in the key fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---
     title: Insert topic title| Microsoft Docs
     description: Insert description
@@ -65,7 +65,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can manage automatic p
   
 2.  On the **Bills** FastTab, in the **Temporary Bill List No.** field, select the temporary bill list number. Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Temporary Bill List No.**|Select the number series that will be used for temporary bill lists.|  
     |**Recall Bill Description**|Specify the descriptive text that will be used for recalled bills.|  

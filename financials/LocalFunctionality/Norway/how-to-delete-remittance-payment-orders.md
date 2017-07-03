@@ -24,7 +24,7 @@ Orders can be deleted if they are managed in full and are in a closed financial 
   
 2.  In the **Delete rem. payment order** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_15000004\_F\_1\_1 Start date $\)**|Specify the start date of orders to be deleted.|  
     |**\($ R\_15000004\_F\_1\_4 End date $\)**|Specify the end date of orders to be deleted.|  

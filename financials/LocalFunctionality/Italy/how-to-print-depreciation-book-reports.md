@@ -28,7 +28,7 @@ The **Depreciation Book** is a fiscal report that is sorted by year and item cla
   
 4.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Depreciation Book**|The depreciation book to be printed.|  
     |**Starting Date**|Sets the start date.|  

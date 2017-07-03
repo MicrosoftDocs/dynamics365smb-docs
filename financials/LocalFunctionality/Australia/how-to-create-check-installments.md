@@ -28,7 +28,7 @@ You can create check installments for post-dated checks. You can define the numb
   
 4.  On the **ADD INCLUDE<!--[!INCLUDE[bp_optionsheading](../../includes/bp_optionsheading_md.md)]-->** FastTab, fill in the fields as described in the following table.  
   
-5.  |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+5.  |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_28091\_N\_2\_1380000 No. of Installments $\)**|Specifies the number of installments into which the post-dated check will be divided.|  
     |**\($ R\_28091\_N\_2\_1380003 Interest % $\)**|Specifies the percent of interest.|  

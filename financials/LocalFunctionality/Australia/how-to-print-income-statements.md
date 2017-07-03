@@ -26,7 +26,7 @@ You can use the **Income Statement** report to view the company’s annual incom
   
 2.  In the **Income Statement** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_28025\_N\_2\_1450002 Amounts in whole $\)**|Specifies the nearest unit to which the amount must be rounded.|  
     |**\($ R\_28025\_N\_2\_1450001 Show Amounts in Add. Reporting Currency $\)**|Specifies if the amounts will be displayed in the additional reporting currency.|  

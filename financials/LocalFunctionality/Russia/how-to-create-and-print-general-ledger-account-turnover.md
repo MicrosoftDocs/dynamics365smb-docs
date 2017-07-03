@@ -32,7 +32,7 @@
   
 2.  On the **General** FastTab, enter the following information.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Date Filter**|Enter the date filter for which you want to view account information.|  
     |**Business Unit Filter**|Select the business unit filter for which you want to view account information.|  
@@ -42,7 +42,7 @@
   
      On the **Source** FastTab, enter the following information.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Source Type Filter**|Specify the source type filter for which you want to view account information.|  
     |**Source No. Filter**|Select the source number filter for which you want to view account information.|  
@@ -53,7 +53,7 @@
   
 2.  On the **Options** FastTab, enter the following information.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_12436\_N\_2\_5 Rounding Precision $\)**|Specify the interval that you want to use as the rounding difference for the relevant currency.|  
     |**\($ R\_12436\_N\_2\_7 Replace zero values by blanks $\)**|Select if you want to replace zero values with a blank entry.|  
@@ -67,7 +67,7 @@
   
 2.  On the **Options** FastTab, enter the following information.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_12437\_N\_2\_1210004 Show Correspondence $\)**|Select if you want to show general ledger correspondence information on the report.|  
     |**\($ R\_12437\_N\_2\_1210002 New Page for GL Acc $\)**|Select if you want to print a new page for each general ledger account.|  
@@ -79,7 +79,7 @@
   
 2.  On the **Options** FastTab, enter the following information.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_12438\_N\_2\_7 Without Zero Net Changes $\)**|Select to include the entries that do not have zero net changes.|  
     |**\($ R\_12438\_N\_2\_9 Without Zero Lines $\)**|Select to include the entries that do not have zero lines.|  

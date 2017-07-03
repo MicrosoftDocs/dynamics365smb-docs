@@ -24,7 +24,7 @@ You use an external service provider to exchange electronic documents with your 
   
 2.  Fill the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**User Agent**|Enter any text that can be used to identify your company in document exchange processes.|  
     |**Doc. Exch. Tenant ID**|Enter the tenant in the document exchange service that represents your company. This is provided by the document exchange service provider.|  

@@ -50,7 +50,7 @@ When you post an inventory transaction, the quantity posting is recorded in the 
   
  An item application entry records the following information.  
   
-|ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+|Field|Description|  
 |---------------------------------|---------------------------------------|  
 |**Item Ledger Entry No.**|The number of the item ledger entry for the transaction that this application entry is created for.|  
 |**Inbound Item Entry No.**|The item ledger entry number of the inventory increase to which the transaction should be linked, if applicable.|  

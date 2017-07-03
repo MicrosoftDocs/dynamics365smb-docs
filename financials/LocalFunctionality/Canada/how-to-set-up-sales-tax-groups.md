@@ -28,7 +28,7 @@ A tax group represents a group of inventory items or resources that are subject 
   
 3.  In the **New - Tax Groups** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Code**|The code that you want to assign to the tax group. You can enter up to 10 alphanumeric characters. For example, you can enter the tax group code MEDICINE for medicines and medical supplies.|  
     |**Description**|The description of the tax group.|  

@@ -24,7 +24,7 @@ The **Link to Accon** report enables you to create a file that can be imported i
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_11313\_F\_1\_1 Show Amounts in Add. Reporting Currency $\)**|Select to print the amounts in the additional reporting currency.<br /><br /> If the check box is cleared, the amounts will be printed in local currency.|  
     |**\($ R\_11313\_f\_1\_3 File Name $\)**|Enter the full path of the file.|  

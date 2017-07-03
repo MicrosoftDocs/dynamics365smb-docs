@@ -26,7 +26,7 @@ To use payment management, you must set up payment classes to define operation t
   
 3.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Enable**|Select to enable usage of the payment class.|  
     |**Code**|The unique identification code for the payment class.|  

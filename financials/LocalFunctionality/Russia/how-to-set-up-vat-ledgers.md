@@ -32,7 +32,7 @@ VAT ledgers are used to store details about VAT in transactions that involve goo
   
 2.  In the **General Ledger Setup** window, on the **Numbering** Fast Tab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**VAT Purch. Ledger No. Series**|Specifies the number series that you want to use for VAT ledgers for purchase documents.|  
     |**VAT Sales Ledger No. Series**|Specifies the number series that you want to use for VAT ledgers for sales documents.|  
@@ -49,7 +49,7 @@ VAT ledgers are used to store details about VAT in transactions that involve goo
   
 6.  In the **VAT Posting Setup** window, for each VAT posting setup, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Not Include into VAT Ledger**|Specifies if entries that use the setup must be included in VAT ledgers. For more information, see Not Include into VAT Ledger.|  
     |**VAT Exempt**|Specifies if entries that use this posting setup are VAT exempt. For more information, see VAT Exempt.|  

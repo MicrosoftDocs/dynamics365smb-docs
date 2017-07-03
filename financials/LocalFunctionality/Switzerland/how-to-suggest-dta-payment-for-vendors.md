@@ -30,7 +30,7 @@ You can suggest vendor payments using the payment journal, and transfer the over
   
 4.  In the **DTA Suggest Vendor Payments** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_3010546\_F\_1\_25 Posting Date $\)**|Specify the credit date for the payment. This date is useful in determining whether a payment discount has been provided.|  
     |**\($ B\_3010546\_F\_1\_22 Due Date from $\)**|Specify the starting date for the open invoices to be included in the payment suggestion.|  

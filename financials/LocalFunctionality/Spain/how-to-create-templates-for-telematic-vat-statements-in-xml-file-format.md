@@ -33,7 +33,7 @@ In order to submit VAT statements electronically, you must create templates to g
     >   
     >  For more information, see the [Spanish Tax Agency](http://go.microsoft.com/fwlink/?LinkID=238181) website.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**VAT Stmt. Name**|Specify the VAT statement name that this template is for.|  
     |**No.**|Specify the field number in the text file.|  

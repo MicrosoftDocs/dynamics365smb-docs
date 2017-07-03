@@ -26,7 +26,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can specify which repo
   
 3.  Specify the report or batch job that must run when a user starts the activity for the document type that you specified in the **Usage** field. Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Sequence**|Specifies where a report is in the printing order.|  
     |**Report ID**|Specifies the ID of the report that prints for this document type.|  
@@ -42,7 +42,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can specify which repo
   
 3.  Specify the report or batch job that must run when a user starts the activity for the document type that you specified in the **Usage** field. Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Sequence**|Specifies where a report is in the printing order.|  
     |**Report ID**|Specifies the ID of the report that prints for this document type.|  

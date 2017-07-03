@@ -31,7 +31,7 @@ Before you create the first VAT transaction report, you should prepare the exist
   
 3.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_12190\_N\_2\_1130008 Compare against Threshold $\)**|Select to compare VAT entries against the threshold amounts that are specified in the VAT posting setup.|  
     |**\($ R\_12190\_N\_2\_1130000 Show List Only $\)**|Select if you do not want to update data.<br /><br /> If you select this field, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] prints a report so that you can verify the changes before data is modified. The report contains a line for each document where the VAT base is equal to or greater than the threshold amounts. **Warning:**  Do not select both this field and the **Set Include in VAT Transaction Report** field.|  

@@ -30,7 +30,7 @@ When a direct debit collection is successfully processed by your bank, you can p
   
 4.  In the **Post Direct Debit Collection** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Direct Debit Collection No.**|Specify the direct debit collection that you want to post payment receipt for.|  
     |**General Journal Template**|Specify which general journal template to use for posting the payment receipt, such as the template for cash receipts.|  

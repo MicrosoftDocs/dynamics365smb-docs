@@ -24,7 +24,7 @@ For a remittance error, the error code from the bank and an explanation of the e
   
 2.  In the **Return Error** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Waiting Journal Reference**|Specify the reference code from the waiting journal.|  
     |**Message Text**|Specify the message from the bank.|  

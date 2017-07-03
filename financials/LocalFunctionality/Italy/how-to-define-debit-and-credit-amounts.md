@@ -24,7 +24,7 @@ The **Debit Amount** and **Credit Amount** fields are included in multiple journ
   
 2.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Debit Amount**|Enter the debit amount.|  
     |**Credit Amount**|Enter the credit amount.|  

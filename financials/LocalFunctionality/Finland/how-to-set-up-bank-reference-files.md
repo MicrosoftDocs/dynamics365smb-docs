@@ -24,7 +24,7 @@ To process electronic payments, you must first set up bank reference files to de
   
 2.  On the **General** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**No.**|Specifies a bank account code.|  
     |**Export Reference Payments**|Enter the full path of the payment file to export.|  
@@ -34,7 +34,7 @@ To process electronic payments, you must first set up bank reference files to de
   
 3.  On the **Foreign Payments** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Export Foreign Payments**|Enter the full path of the payment file to export to foreign banks.|  
     |**Due Date Handling**|Select how due date processing should be applied to foreign payments.<br /><br /> **Batch** – All payments in the file receive the same payment date.<br /><br /> –or–<br /><br /> **Transaction** – Each payment in the file receives a transaction-specific payment date. Contact your bank to determine whether this setting should be used.|  
@@ -45,7 +45,7 @@ To process electronic payments, you must first set up bank reference files to de
   
 4.  On the **SEPA** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Bank Party ID**|Enter a SEPA bank party ID. **Note:**  This field is only used for the SEPA pain.001.001.02 standard.|  
     |**File Name**|Enter the full path of the SEPA payment file. **Note:**  This field is only used for the SEPA pain.001.001.02 standard.|  

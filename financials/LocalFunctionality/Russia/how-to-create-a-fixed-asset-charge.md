@@ -24,7 +24,7 @@ The following procedure shows how to create a new fixed asset charge.
   
 2.  On the **General** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**No.**|Specify the fixed asset charge code.|  
     |**Description**|Specify the description of the fixed asset charge.|  

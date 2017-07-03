@@ -24,7 +24,7 @@ Tax differences are variations in tax amounts caused by the different rules for 
   
 2.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Periodicity**|Select **Month**, **Quarter**, or **Year** to define the type of accounting period that is used for tax calculations.|  
     |**Accounting Period**|Select the appropriate accounting period that is used for tax calculations.|  

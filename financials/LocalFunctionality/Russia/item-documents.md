@@ -48,7 +48,7 @@
   
 2.  In the header of the **Item Receipt** window, enter the fields described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**No.**|Specifies the warehouse document header number.|  
     |**Posting Description**|Specifies the posting description.|  
@@ -62,7 +62,7 @@
   
 3.  In the document lines of the **Item Receipt** window, enter the fields described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Item No.**|Specifies the item number from the Item List table.|  
     |**Description**|Specifies the item description.|  
@@ -78,7 +78,7 @@
   
 5.  Enter the fields described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Employee Type**|Specifies the type of the employee.|  
     |**Employee No.**|Specifies the employee number of the employee who must sign.|  
@@ -122,7 +122,7 @@
   
     -   The fields in the following table are available only in the **Item Shipment** form.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**FA No.**|Specifies the fixed asset to write off items and materials.|  
     |**Depreciation Book Code**|Specifies the fixed asset depreciation book to which the additional cost will be added.|  
@@ -131,7 +131,7 @@
   
 5.  Enter the fields described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Employee Type**|Specifies the type of the employee.|  
     |**Employee No.**|Specifies the employee number of the employee who must sign.|  

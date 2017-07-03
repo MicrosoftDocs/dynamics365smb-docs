@@ -36,7 +36,7 @@ The maintenance on disposal feature allows you to account for the amount spent t
   
 2.  In the **Fixed Asset G\/L Journal** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Account Type**|Select **Fixed Asset** as the account type.|  
     |**Account No.**|Specifies the number of the fixed asset for disposal for which expenses are made.|  

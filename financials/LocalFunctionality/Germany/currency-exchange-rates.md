@@ -31,7 +31,7 @@ At the end of the fiscal year, you must adjust currency exchange rates for payab
   
  German companies must use the **BilMoG \(Germany\)** option when they run the **Adjust Exchange Rates** batch job. This ensures that each transaction is adjusted using the appropriate valuation method as required in Germany. This also enables two fields in the request window, where you can specify the two dates that must be used to calculate the adjustment. The following table describes the fields.  
   
-|ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+|Field|Description|  
 |---------------------------------|---------------------------------------|  
 |**\($ B\_595\_N\_2\_1140011 Valuation Reference Date $\)**|Specifies the base date that is used to calculate which entries are short-term entries.|  
 |**\($ B\_595\_N\_2\_1140013 Short term liabilities until $\)**|Specifies the date that separates short-term entries from long-term entries. Short-term entries have a due date that is before or on this date. The default value is the value of the **\($ B\_595\_N\_2\_1140011 Valuation Reference Date $\)** field plus one year.|  

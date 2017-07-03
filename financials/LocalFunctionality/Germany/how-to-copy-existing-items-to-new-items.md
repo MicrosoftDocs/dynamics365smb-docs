@@ -26,7 +26,7 @@ You can group items with similar settings in an item catalog. When you add a new
   
 3.  In the **Item Copy** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Source Item No.**|Sets the item number from which the data is to be copied.|  
     |**Target Item No.**|Sets the item number for the item to which the data is to be copied.|  

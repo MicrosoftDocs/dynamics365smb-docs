@@ -29,7 +29,7 @@ You must submit a periodic report of goods and services tax \(GST\) settlement. 
   
 3.  On the **ADD INCLUDE<!--[!INCLUDE[bp_optionsheading](../../includes/bp_optionsheading_md.md)]-->** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_11603\_N\_2\_1 Settlement Account Type $\)**|The settlement account type.|  
     |**\($ R\_11603\_N\_2\_3 Settlement Account No. $\)**|The general ledger account number or vendor number, based on the type selected in the **Settlement Account Type** field.|  

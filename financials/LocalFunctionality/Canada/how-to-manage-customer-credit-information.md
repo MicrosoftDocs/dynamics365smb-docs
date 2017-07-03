@@ -26,7 +26,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can add comments to cu
   
 3.  In the **Comment Sheet** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Date**|The date of the comment.|  
     |**Comment**|The comment about the customer. You can enter a maximum of 80 alphanumeric characters.|  

@@ -54,7 +54,7 @@ The following procedure describes how to export a SEPA payment file, one of the 
   
 7.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Document No.**|Specifies the document number for the journal line.|  
     |**Account Type**|Select the account type as **Vendor**.|  

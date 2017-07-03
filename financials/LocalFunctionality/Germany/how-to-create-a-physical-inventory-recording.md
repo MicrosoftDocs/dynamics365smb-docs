@@ -32,7 +32,7 @@ After you have created a physical inventory order and its lines you can create a
   
 4.  In the **Make New Phys. Invt. Recording** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Only Lines Not In Recordings**|Select to generate a new physical inventory recording line only if the data do not exist in any other physical inventory recording line.|  
     |**Recording Without Order Permit**|Select to generate a new physical inventory recording line.|  
@@ -69,7 +69,7 @@ After you have created a physical inventory order and its lines you can create a
   
 5.  On the **General** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Person Recorded**|The person who recorded the inventory.|  
     |**Date Recorded**|The date on which the physical inventory was recorded.|  

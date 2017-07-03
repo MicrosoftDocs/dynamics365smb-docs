@@ -40,7 +40,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use the following 
   
 4.  On the **Invoicing** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**IRS 1099 Code**|Select the 1099 code for the vendor.|  
     |**Tax Liable**|Select to set the tax liability for the vendor.|  

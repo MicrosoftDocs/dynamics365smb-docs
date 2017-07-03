@@ -23,7 +23,7 @@ The average cost of an item is calculated with a periodic weighted average, base
 ## Setting Up Average Cost Calculation  
  The following table describes the two fields in the **Inventory Setup** window that must be filled to enable average cost calculation.  
   
-|ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+|Field|Description|  
 |---
     title: Insert topic title| Microsoft Docs
     description: Insert description

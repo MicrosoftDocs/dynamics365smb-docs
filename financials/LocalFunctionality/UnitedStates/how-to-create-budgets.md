@@ -40,7 +40,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], the create budget function
   
 6.  In the **Budget Amount by Period** batch job, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Budget Beginning Date**|The start date of the first budget period to be created.|  
     |**No. of Periods**|The number of budget periods to be created.|  
@@ -69,7 +69,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], the create budget function
   
 5.  In the **Budget from History** batch job, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**History Beginning Date**|The start date of the first historical period to be analyzed for the creation of the budget.|  
     |**Budget Beginning Date**|The start date of the first budget period to be created.|  

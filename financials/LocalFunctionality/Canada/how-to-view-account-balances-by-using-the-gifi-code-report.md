@@ -24,7 +24,7 @@ You can review your account balances by General Index of Financial Information \
   
 2.  In the **Account Balances by GIFI Code** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Balance As of Date**|The balance as of the specified date.|  
     |**Print Details**|Select to view the individual general ledger account balances that make up the total for each GIFI code balance.<br /><br /> **NOTE:** If you clear the **Print Details** check box, only the GIFI code balances will be reported.|  

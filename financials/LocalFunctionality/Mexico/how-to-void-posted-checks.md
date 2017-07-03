@@ -24,7 +24,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you must void the **Paymen
   
 2.  In the **Edit - Payment Journal** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Batch Name**|The required batch name.|  
     |**Posting Date**|The posting date for the entry.|  

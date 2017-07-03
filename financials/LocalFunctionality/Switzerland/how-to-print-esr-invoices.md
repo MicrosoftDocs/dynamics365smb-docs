@@ -35,7 +35,7 @@ You can print an Einzahlungsschein mit Referenznummer \(ESR\) payment slip in th
   
 2.  In the **Sales Invoice ESR** batch job, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_3010532\_F\_1\_1150006 No. of copies $\)**|Enter the required number of report copies.|  
     |**\($ B\_3010532\_F\_1\_1150003 ESR Bank $\)**|Select the ESR bank code that is to be printed in the report.<br /><br /> If the value in this field is \<Blank\> and the ESR payment method code is not defined in the **ESR Setup** window, then the ESR main bank selected in the **ESR Setup** window will be printed.|  

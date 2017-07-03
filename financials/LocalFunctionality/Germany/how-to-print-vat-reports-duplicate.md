@@ -34,7 +34,7 @@
   
 3.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_11009\_N\_2\_1140011 Starting Date $\)**|Sets the start date.|  
     |**\($ R\_11009\_N\_2\_1140009 Ending Date $\)**|Sets the end date.|  
@@ -64,7 +64,7 @@
   
 2.  In the **VAT Statement Germany** batch job, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_11005\_N\_2\_1140013 Starting Date $\)**|Sets the start date.|  
     |**\($ R\_11005\_N\_2\_1140011 Ending Date $\)**|Sets the end date.|  

@@ -30,7 +30,7 @@ You can use **LSV Journals** to create and process payments from Lastschrift Ver
   
 3.  In the **LSV Journal List** window, fill in the required fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**LSV Bank Code**|Select the LSV bank code for the bank that will perform the collection.|  
     |**LSV Journal Description**|Enter a description for the entry.|  
@@ -39,7 +39,7 @@ You can use **LSV Journals** to create and process payments from Lastschrift Ver
   
 5.  In the **LSV Suggest Collection** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_3010831\_F\_1\_9 No. $\)**|Enter the LSV journal number.|  
     |**\($ B\_3010831\_F\_1\_7 From due date $\)**|Specify the starting due date of open entries to be suggested for collection.|  

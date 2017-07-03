@@ -26,7 +26,7 @@ You must set up data export record sources to be able to export Grundsätze zum 
   
 3.  In the **Data Exports** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Code**|Specify the unique code for the data export, such as **Export-1**.|  
     |**Description**|Specify the description for the data export.|  
@@ -39,7 +39,7 @@ You must set up data export record sources to be able to export Grundsätze zum 
   
 2.  In the **Data Export Record Definitions** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Data Export Code**|Select the data export code.<br /><br /> If no data export code exists, you can create a new one.|  
     |**Description**|Specify the description for the record definition.|  
@@ -59,7 +59,7 @@ You must set up data export record sources to be able to export Grundsätze zum 
   
 2.  In the **Data Export Record Source** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Table No.**|Select the number of the main table to export data from.<br /><br /> When you enter a value in the **Table No.** field, the **Table Name** field is updated.|  
     |**Export Table Name**|Optional. Change the suggested name of the table to be used in the INDEX.XML file during the export.<br /><br /> The value of the **Export Table Name** field is used to generate the INDEX.XML file during the GDPdU data export. The default name is the name of the table without special characters due to the requirements of the auditors’ tool.<br /><br /> **Tip:** In most cases, the **Export Table Name** and **Export File Name** fields are based on the same value.<br /><br /> There may be cases where you specify exporting the same table more than once. You can choose different Export Table Names for each table entry, and the Export File Name will be automatically adjusted to match. You can then change the Export File Name as long as it is unique.<br /><br /> [!INCLUDE[d365fin](../../includes/d365fin_md.md)] automatically names the files as follows.<br /><br /> **Table Name:** G\/L Account<br /><br /> **Export Table Name**: GLAccount<br /><br /> **Export File Name:** GLAccount.txt<br /><br /> **Table Name:** G\/L Account<br /><br /> **Export Table Name:** GLAccount1<br /><br /> **Export File Name:** GLAccount1.txt|  
@@ -94,7 +94,7 @@ You must set up data export record sources to be able to export Grundsätze zum 
   
 4.  In the **GDPdU Table Relation** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**From Field No.**|Contains the number of the field in the parent table. You can specify that this field is related to a field in the subordinate table.|  
     |**To Field No.**|Contains the number of the field in the subordinate table. You can specify that a field in the parent table is related to this field.|  

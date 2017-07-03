@@ -38,7 +38,7 @@ Before you can use electronic banking, you must set up export protocols. Export 
   
 3.  In the **Export Protocols**  window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Code**|Specify a code that uniquely identifies the export protocol.|  
     |**Description**|Specify a description for the export protocol entry. You can enter a maximum of 50 characters, both numbers and letters.|  

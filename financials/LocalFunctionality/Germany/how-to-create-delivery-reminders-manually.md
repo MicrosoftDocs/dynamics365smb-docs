@@ -29,7 +29,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-generate-delivery-remi
   
 3.  In the **Delivery Reminder** window, on the **General** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**No.**|The unique identification number for the delivery reminder.|  
     |**Vendor No.**|The number of the vendor for whom you want to post the delivery reminder.<br /><br /> When you select the vendor number, the **Name**, **Address**, **Post Code\/City**, and **Contact** fields are filled in automatically.|  

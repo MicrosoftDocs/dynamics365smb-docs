@@ -36,7 +36,7 @@ Based on the information that you have specified in the **VAT Posting Setup** wi
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_26100\_F\_1\_1150062 Starting Date $\)**|Enter the date that you want the time interval for VAT statement lines that appear in the report to start.|  
     |**\($ R\_26100\_F\_1\_1150080 Ending Date $\)**|Enter the date that you want the time interval for VAT statement lines that appear in the report to end.|  

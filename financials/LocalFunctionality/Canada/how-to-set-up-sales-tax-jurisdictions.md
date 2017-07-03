@@ -34,7 +34,7 @@ In the United States, states, counties, cities, and localities can charge sales 
   
 3.  In the **New - Tax Jurisdictions** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Code**|The code that you want to assign to the tax jurisdiction. You can enter up to 10 alphanumeric characters.|  
     |**Description**|A description of the tax jurisdiction.|  
@@ -57,7 +57,7 @@ In the United States, states, counties, cities, and localities can charge sales 
   
 3.  On the **General** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Code**|The code that you want to assign to the tax area.|  
     |**Description**|The description for the tax area.|  
@@ -67,7 +67,7 @@ In the United States, states, counties, cities, and localities can charge sales 
   
 4.  On the **Lines** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Tax Jurisdiction Code**|The tax jurisdiction code.|  
     |**Jurisdiction Description**|This field is populated when you enter the tax jurisdiction code.|  

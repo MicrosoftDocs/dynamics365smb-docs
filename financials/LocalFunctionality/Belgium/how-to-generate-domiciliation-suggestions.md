@@ -26,7 +26,7 @@ After you have set up domiciliations, you can start generating domiciliation sug
   
 3.  On the **Options** FastTab, fill in the fields as displayed in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_2000039\_F\_1\_3 Due Date $\)**|Enter the due date to be included in the batch job. Only entries that have a due date before or on this date will be included.|  
     |**\($ B\_2000039\_F\_1\_14 Take Payment Discounts $\)**|Select if you want the batch job to include customer ledger entries for which you can receive a payment discount.|  

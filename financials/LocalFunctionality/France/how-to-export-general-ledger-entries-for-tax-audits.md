@@ -39,7 +39,7 @@ The standard audit file for tax purposes records key business information \(tran
   
 2.  In the **\($ R\_10883 Export G\/L Entries – Tax Audit $\)** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_10885\_N\_2\_1120010 Starting Date $\)**|Enter the date to use as the starting date for the time period to be covered by the audit.|  
     |**\($ R\_10885\_N\_2\_1120008 Ending Date $\)**|Enter the date to use as the ending date for the time period to be covered by the audit.|  

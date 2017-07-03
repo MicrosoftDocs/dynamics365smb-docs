@@ -26,7 +26,7 @@ The tax authorities require that you submit two fiscal reports that list all of 
   
 2.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_12121\_N\_2\_1130006 Report Type $\)**|Select the type of report to create.<br /><br /> If you select **Reprint**, the **\($ R\_12121\_N\_2\_1130000 From Progressive No. $\)** field becomes enabled.|  
     |**\($ R\_12121\_N\_2\_1130004 Starting Date $\)**|Enter the first date in the period from which posted entries will be shown.|  

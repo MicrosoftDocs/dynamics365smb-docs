@@ -24,7 +24,7 @@ To import receipt and settlement returns, use the **\($ R\_15000003 Rem. payment
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_15000003\_F\_1\_1080002 Payment order note $\)**|Enter a note that is transferred to the payment order.|  
     |**ControlBatch**|Select the check box to verify return files in advance to ensure if the import can be made. Return data is not imported.|  
@@ -42,7 +42,7 @@ To import receipt and settlement returns, use the **\($ R\_15000003 Rem. payment
   
 2.  On the **General** FastTab, view the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Remittance Handling Ref.**|Shows the reference that the bank enters for foreign payments.|  
     |**Remittance Warning**|If selected, the journal line contains a warning.|  

@@ -28,7 +28,7 @@ Goods and services tax \(GST\) is the tax that is applied on most goods and serv
   
 2.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**VAT Bus. Posting Group**|Specifies the VAT business posting group code.|  
     |**VAT Prod. Posting Group**|Specifies the VAT product posting group code.|  

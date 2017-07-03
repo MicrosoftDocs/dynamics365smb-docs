@@ -32,7 +32,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use purchase deliv
   
 3.  On the **Numbering** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Delivery Reminder Nos.**|The number series code for delivery reminders.|  
     |**Issued Delivery Reminder Nos.**|The number series code for issued delivery reminders.|  

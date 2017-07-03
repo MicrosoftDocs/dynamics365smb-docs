@@ -26,7 +26,7 @@
   
 3.  On the **General** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Name**|Specify the vendor’s name. This field is used by remittance against Bankernes Betalingssentral \(BBS\).|  
     |**Address**|Specify the vendor’s address. This field is used by remittance against BBS.|  
@@ -36,7 +36,7 @@
   
 4.  On the **Payments** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Remittance**|Select if the vendor is to be remitted.|  
     |**Remittance Account Code**|Specify the account code to be used for the vendor.|  
@@ -46,7 +46,7 @@
   
 6.  On the **General** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Remittance Account Code**|Specify the code of the remittance account which the vendor is using.|  
     |**Remittance Agreement Code**|Specify the code of the agreement to which the account is linked.|  
@@ -54,7 +54,7 @@
   
 7.  On the **Domestic** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Own vendor recipient ref.**|Select to use the recipient reference from the vendor.|  
     |**\($ T\_23\_15000005 Recipient ref. 1 -- inv. $\)**|Enter the text that will print on the payment invoice.|  
@@ -66,7 +66,7 @@
   
 8.  On the **Payment abroad** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Recipient Ref. Abroad**|Enter the text that will print on the payment invoice.|  
     |**Warning Notice**|Select one of the following options to specify how a warning notice is sent from the recipient's bank to the recipient.<br /><br /> -   **None** - No confirmation is sent.<br />-   **Phone** - Confirmation is given by phone.<br />-   **Fax** - Confirmation is sent by fax.<br />-   **Other** - A text message in the **Warning Text** field is used.|  
@@ -82,7 +82,7 @@
   
 9. On the **Bank abroad** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**SWIFT**|Enter the Society for Worldwide Interbank Financial Telecommunication \(SWIFT\) address by which the recipient’s bank is identified.|  
     |**Bank Name**|Specify the bank's name.|  

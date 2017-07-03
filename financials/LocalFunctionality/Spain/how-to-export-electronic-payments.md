@@ -42,7 +42,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can export payment jou
   
 4.  In the **\($ R\_7000060 PO - Export N34.1 $\)** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_10721\_N\_2\_1100000 Bank Account No. $\)**|Select the bank account from which the payments will be exported.|  
     |**\($ R\_10721\_N\_2\_1100002 Settle Date $\)**|Specify the date that the export will be transmitted to the bank. This date will be the posting date for the payment journal entries that are exported.|  
@@ -74,7 +74,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can export payment jou
   
 4.  In the **Export Electronic Payments** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_10721\_N\_2\_1100000 Bank Account No. $\)**|Select the bank account from which the payments will be exported.|  
     |**\($ R\_10721\_N\_2\_1100002 Settle Date $\)**|Specify the date that the export will be transmitted to the bank. This date will be the posting date for the payment journal entries that are exported.|  
@@ -101,7 +101,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can export payment jou
   
 2.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_7000060\_N\_2\_1100000 Delivery Date $\)**|Specify the delivery date of the electronic payment.|  
     |**\($ R\_7000060\_N\_2\_1100002 Expenses Code $\)**|Specify who is responsible for the payment expenses.|  

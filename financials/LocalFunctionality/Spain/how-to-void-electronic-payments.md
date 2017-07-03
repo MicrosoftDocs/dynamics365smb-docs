@@ -24,7 +24,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can void the exported 
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_10722\_N\_2\_1100000 Bank Account No. $\)**|Specify the bank account number from which the payments will be voided.|  
   
@@ -34,7 +34,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can void the exported 
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ R\_7000061\_N\_2\_1100000 Payment Order No. $\)**|Specify the payment order number from which the payments will be voided.|  
   

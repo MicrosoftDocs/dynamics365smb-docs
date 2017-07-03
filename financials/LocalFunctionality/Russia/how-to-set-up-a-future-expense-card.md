@@ -24,7 +24,7 @@ To account for future period expenses you have to set up a future expense card.
   
 2.  On the **General** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**No.**|Specifies the number that is associated with the future expense.|  
     |**Description**|Specifies the description of the future expense.|  

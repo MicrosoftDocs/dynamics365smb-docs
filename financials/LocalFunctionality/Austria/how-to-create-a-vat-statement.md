@@ -27,7 +27,7 @@
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_11110\_N\_2\_1160010 Starting Date $\)**|Specifies the start date of the VAT period.|  
     |**\($ B\_11110\_N\_2\_1160012 Ending Date $\)**|Specifies the end date of the VAT period.|  

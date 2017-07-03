@@ -26,7 +26,7 @@ Prepayments are advance payments on purchase orders that are paid before the fin
   
 3.  On the **Prepayment** FastTab, enter the following information.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Use Prepayment Account**|Select to post prepayments using the special subaccount specified in the **Prepayment Account** field in the **Vendor Posting Groups** window.|  
     |**Posted PD Doc. Nos.**|Enter the code of the number series that you want to use for prepayment documents.|  

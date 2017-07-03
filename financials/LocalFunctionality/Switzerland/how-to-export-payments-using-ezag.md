@@ -28,7 +28,7 @@ You can generate a file for electronic payment using the Elektronischer Zahlungs
   
 4.  In the **EZAG File** batch job, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_3010542\_F\_1\_5 Debit to bank $\)**|Specify the code of the bank to be charged.|  
     |**\($ B\_3010542\_F\_1\_1 Combined payment for vendor $\)**|Specify if the payment lines that have the same vendor, currency, bank, and debit bank in the generated EZAG file will be combined.|  

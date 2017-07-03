@@ -52,7 +52,7 @@ You can export business data for auditing purposes. How the data export is set u
   
 3.  In the **Data Exports** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Code**|The unique code for the data export, **AUDIT-Q113**.|  
     |**Description**|The description for the data export, **Data export for Q1 of CY 2013**.|  
@@ -67,7 +67,7 @@ You can export business data for auditing purposes. How the data export is set u
   
 6.  In the **Data Export Record Types** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Code**|The code for the record type, **GLCUSTVEND**.|  
     |**Description**|The description for the record type, **G\/L, Cust., Vend.**.|  
@@ -76,7 +76,7 @@ You can export business data for auditing purposes. How the data export is set u
   
 8.  In the **Data Export Record Definitions** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Record Code**|Select the record code, **GLCUSTVEND**.|  
     |**Description**|The description for the record type is added automatically, but you can change this to **General ledger, customers and vendors**, for example.|  
@@ -145,7 +145,7 @@ You can export business data for auditing purposes. How the data export is set u
   
 6.  In the **Data Exp. Table Relationship** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**From Field No.**|Contains the number of the field in the parent table. In this scenario, the **No.** field on the **G\/L Account** table.|  
     |**To Field No.**|Contains the number of the field in the parent table. In this scenario, the **G\/L Account No.** field on the **G\/L Entry** table.|  
@@ -194,7 +194,7 @@ You can export business data for auditing purposes. How the data export is set u
   
 1.  In the **Data Export Record Source** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Table No.**|**18**|  
     |**Export Table Name**|**Customer**|  
@@ -240,7 +240,7 @@ You can export business data for auditing purposes. How the data export is set u
   
 1.  In the **Data Export Record Source** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Table No.**|**23**|  
     |**Export Table Name**|**Vendor**|  
@@ -276,14 +276,14 @@ You can export business data for auditing purposes. How the data export is set u
   
 2.  In the **GDPdU Export** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**\($ B\_11015\_N\_2\_1140000 Starting Date $\)**|The start date. In this scenario, **01-01-2013**.|  
     |**\($ B\_11015\_N\_2\_1140002 Ending Date $\)**|The end date. In this scenario, **03-31-2013**.|  
   
 3.  On the **GDPdU Record Definition** FastTab, select filters as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Data Export Code**|In this scenario, **AUDIT-Q113**.|  
     |**Data Exp. Rec. Type Code**|In this scenario, **GLCUSTVEND**.|  

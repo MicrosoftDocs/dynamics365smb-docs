@@ -71,7 +71,7 @@ When you sell goods or services to a customer in the public sector, you must sub
   
 5.  Choose the **OK** button.  
   
- An XML file is created and stored at the location that was defined in the **\($ N\_459 Sales & Receivables Setup $\)** window. You can now submit the document to the customer.  
+ An XML file is created and stored at the location that was defined in the **Sales & Receivables Setup** window. You can now submit the document to the customer.  
   
 ## See Also  
  [EHF Electronic Invoicing in Norway](ehf-electronic-invoicing-in-norway.md)   

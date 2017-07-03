@@ -26,8 +26,8 @@ The **VAT Reconciliation** report shows the reconciliation settlement for the ba
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_10630\_N\_2\_1101100010 Show Details $\)**|Select if you want to include individual transactions.<br /><br /> If cleared, only one accumulated total will be printed for each account.|  
-    |**\($ R\_10630\_N\_2\_1101100012 Show Transactions without VAT $\)**|Select if you want to print a list of all transactions without VAT amounts.|  
+    |**Show Details**|Select if you want to include individual transactions.<br /><br /> If cleared, only one accumulated total will be printed for each account.|  
+    |**Show Transactions without VAT**|Select if you want to print a list of all transactions without VAT amounts.|  
   
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   

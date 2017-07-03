@@ -30,9 +30,9 @@ You can generate a file for electronic payment using the Elektronischer Zahlungs
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ B\_3010542\_F\_1\_5 Debit to bank $\)**|Specify the code of the bank to be charged.|  
-    |**\($ B\_3010542\_F\_1\_1 Combined payment for vendor $\)**|Specify if the payment lines that have the same vendor, currency, bank, and debit bank in the generated EZAG file will be combined.|  
-    |**\($ B\_3010542\_F\_1\_1150000 Shipment with disk $\)**|Specify if the EZAG file will be saved to a disk so that you can deliver it to the bank.|  
+    |**Debit to bank**|Specify the code of the bank to be charged.|  
+    |**Combined payment for vendor**|Specify if the payment lines that have the same vendor, currency, bank, and debit bank in the generated EZAG file will be combined.|  
+    |**Shipment with disk**|Specify if the EZAG file will be saved to a disk so that you can deliver it to the bank.|  
   
 5.  Choose the **OK** button. The EZAG file is generated.  
   

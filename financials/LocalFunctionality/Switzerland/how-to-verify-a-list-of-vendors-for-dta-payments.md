@@ -26,7 +26,7 @@ The DatenTrägerAustausch \(DTA\) payment journal report displays information fo
   
 3.  Select the required suggested payment, and on the **Home** tab, in the **Report** group, select **Print Payment Journal**.  
   
-4.  In the **DTA Payment Journal** window, on the **Options** FastTab, in the **\($ R\_3010545\_F\_1\_2 Layout $\)** field, select one of the following options:  
+4.  In the **DTA Payment Journal** window, on the **Options** FastTab, in the **Layout** field, select one of the following options:  
   
     -   **Amounts** – To print only the payment information.  
   

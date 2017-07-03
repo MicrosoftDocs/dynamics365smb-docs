@@ -16,7 +16,7 @@
 
 ---
 # How to: Import Payment Return Data
-To import receipt and settlement returns, use the **\($ R\_15000003 Rem. payment order – import $\)** window. If any errors are indicated when importing settlement returns, you can view this information in the **Settlement Info** window.  
+To import receipt and settlement returns, use the **Rem. payment order – import** window. If any errors are indicated when importing settlement returns, you can view this information in the **Settlement Info** window.  
   
 ### To import return data  
   
@@ -26,9 +26,9 @@ To import receipt and settlement returns, use the **\($ R\_15000003 Rem. payment
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_15000003\_F\_1\_1080002 Payment order note $\)**|Enter a note that is transferred to the payment order.|  
+    |**Payment order note**|Enter a note that is transferred to the payment order.|  
     |**ControlBatch**|Select the check box to verify return files in advance to ensure if the import can be made. Return data is not imported.|  
-    |**\($ R\_15000003\_F\_1\_1080013 Return files $\)**|Specifies how many return files are found and imported.|  
+    |**Return files**|Specifies how many return files are found and imported.|  
   
 3.  Choose the **Return Files** button to display the return files.  
   

@@ -32,16 +32,16 @@ You can suggest vendor payments using the payment journal, and transfer the over
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ B\_3010546\_F\_1\_25 Posting Date $\)**|Specify the credit date for the payment. This date is useful in determining whether a payment discount has been provided.|  
-    |**\($ B\_3010546\_F\_1\_22 Due Date from $\)**|Specify the starting date for the open invoices to be included in the payment suggestion.|  
-    |**\($ B\_3010546\_F\_1\_24 Due Date to $\)**|Specify the ending date for the open invoices to be included in the payment suggestion.|  
-    |**\($ B\_3010546\_F\_1\_20 Process Cash Discounts $\)**|Specify if the cash discount payments outside the due date range will be considered for the payment suggestion.|  
-    |**\($ B\_3010546\_F\_1\_13 Cash Disc. Date from $\)**|Specify the starting date for the cash discount. The open entries with cash discount dates within this date range are included in the payment suggestion.|  
-    |**\($ B\_3010546\_F\_1\_19 Cash Disc. Date to $\)**|Specify the ending date for the cash discount. The open entries with cash discount dates within this date range are included in the payment suggestion.|  
-    |**\($ B\_3010546\_F\_1\_12 Available Amount \(LCY\) $\)**|Enter the maximum value of the sum of all payments.|  
-    |**\($ B\_3010546\_F\_1\_11 First Doc. No. $\)**|Specify the payment suggestion document number. This number is assigned according to the number series for the current log.|  
-    |**\($ B\_3010546\_F\_1\_1 Debit to Bank $\)**|Select the code of the bank that will receive the debit. The bank must be activated for DTA.|  
-    |**\($ B\_3010546\_F\_1\_3 Auto. Debit Bank $\)**|Specify if the bank will be debited automatically, depending on the currency code.|  
+    |**Posting Date**|Specify the credit date for the payment. This date is useful in determining whether a payment discount has been provided.|  
+    |**Due Date from**|Specify the starting date for the open invoices to be included in the payment suggestion.|  
+    |**Due Date to**|Specify the ending date for the open invoices to be included in the payment suggestion.|  
+    |**Process Cash Discounts**|Specify if the cash discount payments outside the due date range will be considered for the payment suggestion.|  
+    |**Cash Disc. Date from**|Specify the starting date for the cash discount. The open entries with cash discount dates within this date range are included in the payment suggestion.|  
+    |**Cash Disc. Date to**|Specify the ending date for the cash discount. The open entries with cash discount dates within this date range are included in the payment suggestion.|  
+    |**Available Amount \(LCY\)**|Enter the maximum value of the sum of all payments.|  
+    |**First Doc. No.**|Specify the payment suggestion document number. This number is assigned according to the number series for the current log.|  
+    |**Debit to Bank**|Select the code of the bank that will receive the debit. The bank must be activated for DTA.|  
+    |**Auto. Debit Bank**|Specify if the bank will be debited automatically, depending on the currency code.|  
   
 5.  Choose the **OK** button.  
   

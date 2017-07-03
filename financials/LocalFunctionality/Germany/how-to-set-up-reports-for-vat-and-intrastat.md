@@ -22,7 +22,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can specify which repo
   
 1.  In the **Search** box, enter **Report Selections VAT**, and then choose the related link.  
   
-2.  In the **\($ N\_26101 Report Selection – VAT $\)** window, in the **Usage** field, select the type of document that you want to specify reports for. This ../../includes the VAT statement and the VAT statement schedule.  
+2.  In the **Report Selection – VAT** window, in the **Usage** field, select the type of document that you want to specify reports for. This ../../includes the VAT statement and the VAT statement schedule.  
   
 3.  Specify the report or batch job that must run when a user starts the activity for the document type that you specified in the **Usage** field. Fill in the fields as described in the following table.  
   
@@ -38,7 +38,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can specify which repo
   
 1.  In the **Search** box, enter **Report Selection**, and then choose the related link.  
   
-2.  In the **\($ N\_26100 Report Selection – Intrastat $\)** window, in the **Usage** field, select the type of document that you want to specify reports for. This ../../includes the Intrastat checklist and Intrastat form.  
+2.  In the **Report Selection – Intrastat** window, in the **Usage** field, select the type of document that you want to specify reports for. This ../../includes the Intrastat checklist and Intrastat form.  
   
 3.  Specify the report or batch job that must run when a user starts the activity for the document type that you specified in the **Usage** field. Fill in the fields as described in the following table.  
   

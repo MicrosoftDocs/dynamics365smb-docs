@@ -22,7 +22,7 @@ With the electronic payments functionality, you can pay vendors using electronic
   
 -   Invoices and open, non-grouped Cartera documents. If you select to pay using electronic payments, then the payment file is generated from the **Export Electronic Payments** report.  
   
--   Invoices and Cartera documents that are grouped in a payment order. If you select to pay using electronic payments, the payment file is generated from the **\($ R\_7000060 PO - Export N34.1 $\)** report, available in the Cartera report list.  
+-   Invoices and Cartera documents that are grouped in a payment order. If you select to pay using electronic payments, the payment file is generated from the **PO - Export N34.1** report, available in the Cartera report list.  
   
 > [!NOTE]  
 >  Partners may need to modify this report to meet their customer’s bank individual requirements.  

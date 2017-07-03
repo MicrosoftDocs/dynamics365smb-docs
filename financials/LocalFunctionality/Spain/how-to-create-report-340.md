@@ -22,24 +22,24 @@ Report 340 ../../includes all sales invoices and purchase invoices posted by a c
   
 ### To create Report 340  
   
-1.  In the **Search** box, enter **\($ B\_10743 Make 340 Declaration $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Make 340 Declaration**, and then choose the related link.  
   
-2.  In the **\($ B\_10743 Make 340 Declaration $\)** window, on the **Options** FastTab, fill in the fields as described in the following table.  
+2.  In the **Make 340 Declaration** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ B\_10743\_N\_2\_1100000 Fiscal Year $\)**|Enter the fiscal year for which you want to create the operation declaration.|  
-    |**\($ B\_10743\_N\_2\_1100003 Month $\)**|Select the month that you want to include in the operations declaration.|  
-    |**\($ B\_10743\_N\_2\_1000000002 Min. Payment Amount $\)**|Enter the amount that you have received in cash for the selected **\($ B\_10743\_N\_2\_1000000000 G\/L Acc. for Payments in Cash $\)**. **Important:**  The field is designed for reporting payments in cash. The amount that you have selected decides the sum of customer entries in the report. If the total invoiced amount for a customer per year is less than the amount specified in the field, then the sum of the customer entries is not included in the report. If the total invoiced amount for a customer per year is greater than the amount specified in the field, then the sum of customer entries is included in the report. When you export the data to a declaration .txt file, you will see that the **Amount Received in Cash** field in the declaration .txt file contains the accumulated amount of customer entries in one line per year.|  
-    |**\($ B\_10743\_N\_2\_1000000000 G\/L Acc. for Payments in Cash $\)**|Select one or more on general ledger accounts to include only the entries that are posted to the filtered general ledger accounts in the report. **Important:**  The field is designed for reporting payments in cash. When you export the data to a declaration .txt file, you will see that the **Amount Received in Cash** field in the declaration .txt file contains the accumulated value for the selected general ledger accounts. If you do not select any general ledger accounts, type 2 lines for payments in cash will not be created.|  
-    |**\($ B\_10743\_N\_2\_1100007 Contact Name $\)**|Enter the surname and name for the company that is creating the operations declaration.|  
-    |**\($ B\_10743\_N\_2\_1100009 Telephone Number $\)**|Enter the telephone number for the company that is creating the operations declaration.|  
-    |**\($ B\_10743\_N\_2\_1100011 Non Deduct. Gen. Prod. Post. Groups $\)**|Select the general product posting group. The selected posting groups are non-deductible VAT.|  
-    |**\($ B\_10743\_N\_2\_1100015 Declaration Number $\)**|Enter the number to identify the operations declaration.|  
-    |**\($ B\_10743\_N\_2\_1100017 Electronic Code $\)**|Specify the electronic code that is provided by the tax authorities.|  
-    |**\($ B\_10743\_N\_2\_1100019 Declaration Media Type $\)**|Select the media type for the declaration.|  
-    |**\($ B\_10743\_N\_2\_1100021 Replacement Declaration $\)**|Select if this is a replacement of a previously sent declaration.|  
-    |**\($ B\_10743\_N\_2\_1100023 Previous Declaration Number $\)**|If the **\($ B\_10743\_N\_2\_1100021 Replacement Declaration $\)** option is selected, enter the previous declaration number.|  
+    |**Fiscal Year**|Enter the fiscal year for which you want to create the operation declaration.|  
+    |**Month**|Select the month that you want to include in the operations declaration.|  
+    |**Min. Payment Amount**|Enter the amount that you have received in cash for the selected **G\/L Acc. for Payments in Cash**. **Important:**  The field is designed for reporting payments in cash. The amount that you have selected decides the sum of customer entries in the report. If the total invoiced amount for a customer per year is less than the amount specified in the field, then the sum of the customer entries is not included in the report. If the total invoiced amount for a customer per year is greater than the amount specified in the field, then the sum of customer entries is included in the report. When you export the data to a declaration .txt file, you will see that the **Amount Received in Cash** field in the declaration .txt file contains the accumulated amount of customer entries in one line per year.|  
+    |**G\/L Acc. for Payments in Cash**|Select one or more on general ledger accounts to include only the entries that are posted to the filtered general ledger accounts in the report. **Important:**  The field is designed for reporting payments in cash. When you export the data to a declaration .txt file, you will see that the **Amount Received in Cash** field in the declaration .txt file contains the accumulated value for the selected general ledger accounts. If you do not select any general ledger accounts, type 2 lines for payments in cash will not be created.|  
+    |**Contact Name**|Enter the surname and name for the company that is creating the operations declaration.|  
+    |**Telephone Number**|Enter the telephone number for the company that is creating the operations declaration.|  
+    |**Non Deduct. Gen. Prod. Post. Groups**|Select the general product posting group. The selected posting groups are non-deductible VAT.|  
+    |**Declaration Number**|Enter the number to identify the operations declaration.|  
+    |**Electronic Code**|Specify the electronic code that is provided by the tax authorities.|  
+    |**Declaration Media Type**|Select the media type for the declaration.|  
+    |**Replacement Declaration**|Select if this is a replacement of a previously sent declaration.|  
+    |**Previous Declaration Number**|If the **Replacement Declaration** option is selected, enter the previous declaration number.|  
   
 3.  Select the appropriate filters, and then choose the **OK** button. The text file for **Report 340** is created in the specified path.  
   

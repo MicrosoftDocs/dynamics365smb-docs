@@ -28,7 +28,7 @@ After you have set up remittance payments and generated suggestions, you can tes
   
 2.  On the **Home** tab, in the **Posting** group, choose **Test Report**.  
   
-3.  On the **Options** FastTab, select the **\($ R\_2\_F\_1\_1 Show Dimensions $\)** field to print dimensions on the test report.  
+3.  On the **Options** FastTab, select the **Show Dimensions** field to print dimensions on the test report.  
   
 4.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   

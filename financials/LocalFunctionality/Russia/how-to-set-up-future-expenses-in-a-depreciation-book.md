@@ -41,11 +41,11 @@ To depreciate a future expense, you have to set up future period expenses in a d
     |**Allow Depreciation**|Specifies if depreciations are allowed.|  
     |**Allow Indexation**|Specifies if indexation is allowed.|  
     |**Allow Depr. Below Zero**|Specifies if depreciation below zero is allowed.|  
-    |**\($ T\_5611\_45 Allow more than 360\/365 Days $\)**|Specifies if depreciation is allowed for more than 360\/365 days.|  
+    |**Allow more than 360\/365 Days**|Specifies if depreciation is allowed for more than 360\/365 days.|  
     |**Use FA Ledger Check**|Specifies if fixed asset ledger checks are used.|  
     |**Use Rounding in Periodic Depr.**|Specifies if rounding is used in periodic depreciation calculations.|  
-    |**\($ T\_5611\_19 Use Same FA\+G\/L Posting Date $\)**|Specifies if the same fixed asset general ledger posting date is used.|  
-    |**\($ T\_5611\_49 Fiscal Year 365 Days $\)**|Specifies if the fiscal year equals 365 days.|  
+    |**Use Same FA\+G\/L Posting Date**|Specifies if the same fixed asset general ledger posting date is used.|  
+    |**Fiscal Year 365 Days**|Specifies if the fiscal year equals 365 days.|  
     |**Mark Errors as Corrections**|Specifies if errors are marked as corrections.|  
     |**Control FA Acquis.Cost**|Specifies if fixed asset acquisition costs are controlled.|  
   

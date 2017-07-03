@@ -54,8 +54,8 @@ You can manage your fixed assets utilizing the fixed assets acts features in [!I
     |**FA Posting Date**|Enter the date on which the fixed asset release is posted. This information is used in fixed asset reports and entries.|  
     |**External Document No.**|Enter the number of the external document that relates to this fixed asset release.|  
     |**Posting No.**|Enter an identifying posting number to use for the fixed asset release entry.|  
-    |**\($ T\_12470\_8 Shortcut Dimension 1 Code $\)**|Enter the department code that is associated with the fixed asset.|  
-    |**\($ T\_12470\_9 Shortcut Dimension 2 Code $\)**|Enter the incexp code that is associated with the fixed asset.|  
+    |**Shortcut Dimension 1 Code**|Enter the department code that is associated with the fixed asset.|  
+    |**Shortcut Dimension 2 Code**|Enter the incexp code that is associated with the fixed asset.|  
   
 3.  On the **Lines** FastTab, fill in the fields as described in the following table.  
   
@@ -88,8 +88,8 @@ You can manage your fixed assets utilizing the fixed assets acts features in [!I
     |**FA Posting Date**|Enter the date on which the fixed asset movement entry is posted. This information is used in fixed asset reports and entries.|  
     |**External Document No.**|Enter the number of the external document that relates to this fixed asset movement entry.|  
     |**Posting No.**|Enter an identifying posting number to use for the fixed asset movement entry.|  
-    |**\($ T\_12470\_8 Shortcut Dimension 1 Code $\)**|Enter the department code that is associated with the fixed asset.|  
-    |**\($ T\_12470\_9 Shortcut Dimension 2 Code $\)**|Enter the incexp code that is associated with the fixed asset.|  
+    |**Shortcut Dimension 1 Code**|Enter the department code that is associated with the fixed asset.|  
+    |**Shortcut Dimension 2 Code**|Enter the incexp code that is associated with the fixed asset.|  
   
 3.  On the **Lines** FastTab, fill in the fields as described in the following table.  
   
@@ -124,8 +124,8 @@ You can manage your fixed assets utilizing the fixed assets acts features in [!I
     |**FA Posting Date**|Enter the date on which the fixed asset write-off entry is posted. This information is used in fixed asset reports and entries.|  
     |**External Document No.**|Enter the number of the external document that relates to this fixed asset write-off entry.|  
     |**Posting No.**|Enter an identifying posting number to use for the fixed asset write-off entry.|  
-    |**\($ T\_12470\_8 Shortcut Dimension 1 Code $\)**|Enter the department code that is associated with the fixed asset.|  
-    |**\($ T\_12470\_9 Shortcut Dimension 2 Code $\)**|Enter the incexp code that is associated with the fixed asset.|  
+    |**Shortcut Dimension 1 Code**|Enter the department code that is associated with the fixed asset.|  
+    |**Shortcut Dimension 2 Code**|Enter the incexp code that is associated with the fixed asset.|  
   
 3.  On the **Lines** FastTab, fill in the fields as described in the following table.  
   

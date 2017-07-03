@@ -123,14 +123,14 @@ You must submit a periodic report of transactions with customers and vendors in 
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_12128\_N\_2\_12 Starting Date $\)**|Optional. Enter the start date for the blacklist report, which is based on the date that the operations occurred.|  
-    |**\($ R\_12128\_N\_2\_10 Ending Date $\)**|Enter the end date for the blacklist report.|  
-    |**\($ R\_12128\_N\_2\_1 Include VAT Entries $\)**|Specify if the list of transactions must include open or closed VAT entries or both open and closed VAT entries.|  
-    |**\($ R\_12128\_N\_2\_4 Include VAT Entries $\)**|Specify if the list of transactions must include VAT entries that are in the specified VAT period or must also include VAT entries that are from previous periods.|  
-    |**\($ R\_12128\_N\_2\_1130006 VAT Period $\)**|Enter the time that defines the VAT period for the blacklist report.|  
-    |**\($ R\_12128\_N\_2\_1130005 Source Type $\)**|Optional. Enter the source type of the blacklist transactions. The options include **Customer** and **Vendor**. If nothing is selected, both groups are included.|  
-    |**\($ R\_12128\_N\_2\_1130007 Source No. $\)**|If you choose a **Source Type**, then enter the identification number of the source transaction. If nothing is entered, then all vendors or customers are included.|  
-    |**\($ R\_12128\_N\_2\_1130004 Name $\)**|Read-only. Specifies the name of the organization.|  
+    |**Starting Date**|Optional. Enter the start date for the blacklist report, which is based on the date that the operations occurred.|  
+    |**Ending Date**|Enter the end date for the blacklist report.|  
+    |**Include VAT Entries**|Specify if the list of transactions must include open or closed VAT entries or both open and closed VAT entries.|  
+    |**Include VAT Entries**|Specify if the list of transactions must include VAT entries that are in the specified VAT period or must also include VAT entries that are from previous periods.|  
+    |**VAT Period**|Enter the time that defines the VAT period for the blacklist report.|  
+    |**Source Type**|Optional. Enter the source type of the blacklist transactions. The options include **Customer** and **Vendor**. If nothing is selected, both groups are included.|  
+    |**Source No.**|If you choose a **Source Type**, then enter the identification number of the source transaction. If nothing is entered, then all vendors or customers are included.|  
+    |**Name**|Read-only. Specifies the name of the organization.|  
   
 7.  Choose the **Print** button to print the report, or choose the **Preview** button to view the results.  
   
@@ -155,13 +155,13 @@ You must submit a periodic report of transactions with customers and vendors in 
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_12129\_N\_2\_12 Starting Date $\)**|Enter the start date for the blacklist report.|  
-    |**\($ R\_12129\_N\_2\_10 Ending Date $\)**|Enter the end date for the blacklist report.|  
-    |**\($ R\_12129\_N\_2\_1 Include VAT Entries $\)**|Specify if the list of transactions must include open or closed VAT entries or both open and closed VAT entries.|  
-    |**\($ R\_12129\_N\_2\_4 Include VAT Entries $\)**|Specify if the list of transactions must include VAT entries that are in the specified VAT period or must also include VAT entries that are from previous periods.|  
-    |**\($ R\_12129\_N\_2\_1130006 VAT Period $\)**|Enter the time that defines the VAT period for the blacklist report.|  
-    |**\($ R\_12129\_N\_2\_1130001 Communication Type $\)**|Enter the communication type for the blacklist export. The options include \<blank\>, **Corrective** and **Cancellation**.<br /><br /> If you enter **Corrective**, then a full report will be generated for the specified period, but you have the option to overwrite a previously submitted report.<br /><br /> If you enter **Cancellation**, then you have to provide the values from the previously generated report and a new report will be generated.<br /><br /> You enter information about the corrective or cancellation action in the **Substitution Data**  group. Fill in the following fields, using information that was that was provided by the Italian Revenue Agency \(IVA\) in its communication with you when you originally submitted your blacklist report:<br /><br /> -   **\($ B\_12129\_N\_2\_1130000 Substitution Report No. $\)**<br />-   **\($ B\_12129\_N\_2\_1130002 Substitution Doc. No. $\)**|  
-    |**\($ R\_12129\_N\_2\_1130004 Period Type $\)**|Specify if the report is monthly or quarterly.|  
+    |**Starting Date**|Enter the start date for the blacklist report.|  
+    |**Ending Date**|Enter the end date for the blacklist report.|  
+    |**Include VAT Entries**|Specify if the list of transactions must include open or closed VAT entries or both open and closed VAT entries.|  
+    |**Include VAT Entries**|Specify if the list of transactions must include VAT entries that are in the specified VAT period or must also include VAT entries that are from previous periods.|  
+    |**VAT Period**|Enter the time that defines the VAT period for the blacklist report.|  
+    |**Communication Type**|Enter the communication type for the blacklist export. The options include \<blank\>, **Corrective** and **Cancellation**.<br /><br /> If you enter **Corrective**, then a full report will be generated for the specified period, but you have the option to overwrite a previously submitted report.<br /><br /> If you enter **Cancellation**, then you have to provide the values from the previously generated report and a new report will be generated.<br /><br /> You enter information about the corrective or cancellation action in the **Substitution Data**  group. Fill in the following fields, using information that was that was provided by the Italian Revenue Agency \(IVA\) in its communication with you when you originally submitted your blacklist report:<br /><br /> -   **Substitution Report No.**<br />-   **Substitution Doc. No.**|  
+    |**Period Type**|Specify if the report is monthly or quarterly.|  
   
 8.  Choose the **OK** button.  
   

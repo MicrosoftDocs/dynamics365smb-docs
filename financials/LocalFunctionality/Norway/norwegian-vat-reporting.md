@@ -31,7 +31,7 @@
  Next, you must check the trade settlement. Verify that the amounts in the trade settlement are correct, and make any necessary adjustments.  
   
 ## Post VAT  
- If the information in the trade settlement is correct, the final step is to post the VAT using the **Calc. and Post VAT Settlement** report. It is required that you manually specify the correct VAT period in the **\($ B\_20\_F\_1\_1 Starting Date $\)** and **\($ B\_20\_F\_1\_2 Ending Date $\)** fields. Generally, these dates correspond to the period previously specified in the **Tradesettlement** report.  
+ If the information in the trade settlement is correct, the final step is to post the VAT using the **Calc. and Post VAT Settlement** report. It is required that you manually specify the correct VAT period in the **Starting Date** and **Ending Date** fields. Generally, these dates correspond to the period previously specified in the **Tradesettlement** report.  
   
  When using this report, you can decide not to post if you want to check the results before you actually post VAT.  
   

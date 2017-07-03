@@ -44,7 +44,7 @@ If you sell or purchase items, and you then reach an agreement to change the pri
   
  You can create a revision document for sales invoices, sales credit memos, purchase invoices, purchase credit memos, and corrective documents.  
   
- Before you create and post a revision, you must cancel the original invoice. When you cancel the original invoice, you can use the **Copy Document** batch job and select the **\($ B\_292\_F\_1\_1 Include Header $\)** field in the request window. This creates a link between the original invoice and the revision document. For more information, see [How to: Create Corrective Documents](how-to-create-corrective-documents.md).  
+ Before you create and post a revision, you must cancel the original invoice. When you cancel the original invoice, you can use the **Copy Document** batch job and select the **Include Header** field in the request window. This creates a link between the original invoice and the revision document. For more information, see [How to: Create Corrective Documents](how-to-create-corrective-documents.md).  
   
 ### VAT in Corrective Documents  
  The reports for VAT sales books and additional VAT ledgers include changes in VAT amounts from posted corrective documents. If a corrective document is created in the same VAT period as the original invoice, the amounts are included in the VAT sales book. If a corrective document is created in a VAT period that is later than the period for the original invoice, the amounts must be included in the additional VAT ledger for the period.  

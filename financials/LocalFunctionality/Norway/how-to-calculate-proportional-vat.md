@@ -27,7 +27,7 @@ You can use proportional VAT to calculate VAT when there is both deductible and 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Calc. Prop. Deduction VAT**|Select to indicate that you want to use the proportional VAT percentage. **Important:**  This field is available in the **VAT Posting Setup** window, but it is not shown by default. [!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]|  
-    |**\($ T\_325\_10605 Proportional Deduction VAT % $\)**|Enter the percentage of VAT to deduct.|  
+    |**Proportional Deduction VAT %**|Enter the percentage of VAT to deduct.|  
   
 3.  Choose the **OK** button.  
   

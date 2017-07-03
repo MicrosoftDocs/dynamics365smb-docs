@@ -37,10 +37,10 @@ You can print an Einzahlungsschein mit Referenznummer \(ESR\) payment slip in th
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ B\_3010532\_F\_1\_1150006 No. of copies $\)**|Enter the required number of report copies.|  
-    |**\($ B\_3010532\_F\_1\_1150003 ESR Bank $\)**|Select the ESR bank code that is to be printed in the report.<br /><br /> If the value in this field is \<Blank\> and the ESR payment method code is not defined in the **ESR Setup** window, then the ESR main bank selected in the **ESR Setup** window will be printed.|  
+    |**No. of copies**|Enter the required number of report copies.|  
+    |**ESR Bank**|Select the ESR bank code that is to be printed in the report.<br /><br /> If the value in this field is \<Blank\> and the ESR payment method code is not defined in the **ESR Setup** window, then the ESR main bank selected in the **ESR Setup** window will be printed.|  
     |**LogInteraction**|Specify if the interactions that you have with your contacts will be logged.|  
-    |**\($ B\_3010532\_F\_1\_1150002 ESR System $\)**|Select the ESR system through which you can send new ESR coupons to customers. To use the ESR system that is used by the bank that you have specified in **\($ B\_3010532\_F\_1\_1150003 ESR Bank $\)** field, select **Based on ESR Bank**.|  
+    |**ESR System**|Select the ESR system through which you can send new ESR coupons to customers. To use the ESR system that is used by the bank that you have specified in **ESR Bank** field, select **Based on ESR Bank**.|  
   
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   

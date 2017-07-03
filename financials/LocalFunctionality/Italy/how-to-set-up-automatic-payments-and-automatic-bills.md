@@ -61,7 +61,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can manage automatic p
   
 ### To set up automatic bills for sales and receivables  
   
-1.  In the **Search** box, enter **\($ N\_459 Sales & Receivables Setup $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Sales & Receivables Setup**, and then choose the related link.  
   
 2.  On the **Bills** FastTab, in the **Temporary Bill List No.** field, select the temporary bill list number. Fill in the fields as described in the following table.  
   

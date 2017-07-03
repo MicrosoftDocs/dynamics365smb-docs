@@ -33,16 +33,16 @@ You can use the **Calc. and Post WHT Settlement** window to calculate and post t
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_28041\_N\_2\_13 Starting Date $\)**|The start date of the period for which WHT has to be settled.|  
-    |**\($ R\_28041\_N\_2\_11 Ending Date $\)**|The end date of the period for which WHT has to be settled.|  
-    |**\($ R\_28041\_N\_2\_9 Posting Date $\)**|The posting date of the WHT settlement entries.|  
-    |**\($ R\_28041\_N\_2\_4 Document No. $\)**|The document number of the WHT settlement entries.|  
-    |**\($ R\_28041\_N\_2\_1500006 Description $\)**|The WHT settlement description.|  
-    |**\($ R\_28041\_N\_2\_1500002 Settlement Account Type $\)**|The settlement account type.|  
-    |**\($ R\_28041\_N\_2\_3 Settlement Account $\)**|The account number based on the account type selected in the **\($ R\_28041\_N\_2\_1500002 Settlement Account Type $\)** field.|  
-    |**\($ R\_28041\_N\_2\_1500000 Rounding G\/L Account $\)**|The account to which the truncated amount is to be posted.|  
-    |**\($ R\_28041\_N\_2\_2 Show WHT Entries $\)**|Select to view the withholding tax entries for the specified period.|  
-    |**\($ R\_28041\_N\_2\_1 Post $\)**|Select to post the WHT settlement entries.|  
+    |**Starting Date**|The start date of the period for which WHT has to be settled.|  
+    |**Ending Date**|The end date of the period for which WHT has to be settled.|  
+    |**Posting Date**|The posting date of the WHT settlement entries.|  
+    |**Document No.**|The document number of the WHT settlement entries.|  
+    |**Description**|The WHT settlement description.|  
+    |**Settlement Account Type**|The settlement account type.|  
+    |**Settlement Account**|The account number based on the account type selected in the **Settlement Account Type** field.|  
+    |**Rounding G\/L Account**|The account to which the truncated amount is to be posted.|  
+    |**Show WHT Entries**|Select to view the withholding tax entries for the specified period.|  
+    |**Post**|Select to post the WHT settlement entries.|  
   
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   

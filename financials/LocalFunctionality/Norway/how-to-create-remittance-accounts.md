@@ -56,8 +56,8 @@ You must create one remittance account for each bank account where payment is ma
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_15000003\_40 Recipient ref. 1- Invoice $\)**|Specify the text that will print on the payment invoice.|  
-    |**\($ T\_15000003\_41 Recipient ref. 1- Cr. Memo $\)**|Specify the text that will print on the payment invoice when deducting a credit memo.|  
+    |**Recipient ref. 1- Invoice**|Specify the text that will print on the payment invoice.|  
+    |**Recipient ref. 1- Cr. Memo**|Specify the text that will print on the payment invoice when deducting a credit memo.|  
   
 6.  On the **Foreign** FastTab, fill in the fields as described in the following table.  
   

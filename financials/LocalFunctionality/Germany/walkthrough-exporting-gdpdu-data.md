@@ -278,8 +278,8 @@ You can export business data for auditing purposes. How the data export is set u
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ B\_11015\_N\_2\_1140000 Starting Date $\)**|The start date. In this scenario, **01-01-2013**.|  
-    |**\($ B\_11015\_N\_2\_1140002 Ending Date $\)**|The end date. In this scenario, **03-31-2013**.|  
+    |**Starting Date**|The start date. In this scenario, **01-01-2013**.|  
+    |**Ending Date**|The end date. In this scenario, **03-31-2013**.|  
   
 3.  On the **GDPdU Record Definition** FastTab, select filters as described in the following table.  
   

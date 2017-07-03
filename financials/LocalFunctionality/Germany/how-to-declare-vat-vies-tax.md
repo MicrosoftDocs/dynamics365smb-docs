@@ -24,18 +24,18 @@
   
 ### To declare VAT-VIES tax  
   
-1.  In the **Search** box, enter **\($ R\_11007 VAT-Vies Declaration Tax – DE $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **VAT-Vies Declaration Tax – DE**, and then choose the related link.  
   
-2.  In the **\($ R\_11007 VAT-Vies Declaration Tax – DE $\)** window, on the **Options** FastTab, fill in the fields as described in the following table.  
+2.  In the **VAT-Vies Declaration Tax – DE** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_11007\_N\_2\_1140000 Reporting Period $\)**|Select the time period that the report applies to. This can be a month, a two-month period, a quarter, or the calendar year.|  
-    |**\($ R\_11007\_N\_2\_1140002 Date of Signature $\)**|Enter the date on which the VAT-VIES declaration is sent.|  
-    |**\($ R\_11007\_N\_2\_1140004 Corrected Notification $\)**|If selected, this field indicates that this is a corrected version of an already delivered VAT-VIES declaration.|  
-    |**\($ R\_11007\_N\_2\_1140006 Show Amounts in Add. Reporting Currency $\)**|If selected, the amounts of the report will be in the additional reporting currency. For more information, see Additional Reporting Currency.|  
-    |**\($ R\_11007\_N\_2\_1140009 Change to monthly reporting $\)**|If selected, your company has sales of more than 100,000 euros per quarter and you must migrate from a quarterly report to a monthly report. **Important:**  Only select this field the first time that you submit a monthly report.|  
-    |**\($ R\_11007\_N\_2\_1140011 Revoke monthly reporting $\)**|If selected, you want to switch from monthly reporting to another reporting period.<br /><br /> For example, if you have previously submitted monthly declarations but the EU sales are less than 100,000 euros per quarter, select this field and then select one of the quarters in the **\($ R\_11007\_N\_2\_1140000 Reporting Period $\)** field.|  
+    |**Reporting Period**|Select the time period that the report applies to. This can be a month, a two-month period, a quarter, or the calendar year.|  
+    |**Date of Signature**|Enter the date on which the VAT-VIES declaration is sent.|  
+    |**Corrected Notification**|If selected, this field indicates that this is a corrected version of an already delivered VAT-VIES declaration.|  
+    |**Show Amounts in Add. Reporting Currency**|If selected, the amounts of the report will be in the additional reporting currency. For more information, see Additional Reporting Currency.|  
+    |**Change to monthly reporting**|If selected, your company has sales of more than 100,000 euros per quarter and you must migrate from a quarterly report to a monthly report. **Important:**  Only select this field the first time that you submit a monthly report.|  
+    |**Revoke monthly reporting**|If selected, you want to switch from monthly reporting to another reporting period.<br /><br /> For example, if you have previously submitted monthly declarations but the EU sales are less than 100,000 euros per quarter, select this field and then select one of the quarters in the **Reporting Period** field.|  
   
 3.  On the **VAT Entry** FastTab, select the appropriate filters.  
   

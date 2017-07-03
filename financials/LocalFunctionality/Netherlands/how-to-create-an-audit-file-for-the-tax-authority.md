@@ -30,9 +30,9 @@ During an examination of the books for a fiscal year, a tax inspector can ask fo
   
     |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
-    |**\($ B\_11412\_N\_2\_1101100000 Start Date $\)**|Specify the start date of the period on which the data must be based.|  
-    |**\($ B\_11412\_N\_2\_1000003 End Date $\)**|Specify the end date of the period on which the data must be based.|  
-    |**\($ B\_11412\_N\_2\_1000005 Exclude Begin Balance $\)**|Specifies if the audit file must contain the begin balance of general ledger accounts.<br /><br /> The field is editable if the start date of the period is equal to the start date of a fiscal year.|  
+    |**Start Date**|Specify the start date of the period on which the data must be based.|  
+    |**End Date**|Specify the end date of the period on which the data must be based.|  
+    |**Exclude Begin Balance**|Specifies if the audit file must contain the begin balance of general ledger accounts.<br /><br /> The field is editable if the start date of the period is equal to the start date of a fiscal year.|  
   
 3.  Choose the **OK** button to create the audit file. If you do not want to create the audit file, choose the **Cancel** button to close the window.  
   

@@ -76,7 +76,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can create corrective 
 4.  In the **Copy Sales Document** window, fill in the fields to import information from the original sales invoice.  
   
     > [!NOTE]  
-    >  Select the **\($ B\_292\_F\_1\_1 Include Header $\)** field.  
+    >  Select the **Include Header** field.  
   
 5.  On the **VAT** tab, fill in the fields as described in the following table.  
   

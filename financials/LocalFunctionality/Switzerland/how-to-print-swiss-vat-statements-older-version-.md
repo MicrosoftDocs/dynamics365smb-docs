@@ -38,17 +38,17 @@
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_11518\_F\_1\_6 Closed with Journal no. $\)**|Select the general ledger journals that contain the posting source of the VAT adjusting entries. This field evaluates accounting periods that have already been settled.|  
-    |**\($ R\_11518\_F\_1\_8 Open until date $\)**|Select the last date for settling open or unsettled VAT entries.|  
-    |**\($ R\_11518\_F\_1\_1 Show Postings $\)**|Specifies if all of the VAT entries for each group will be printed.|  
-    |**\($ R\_11518\_F\_1\_5 Show Chargeback $\)**|Specifies if VAT entries and general ledger entries with closed summaries or reposted tax will be printed.|  
-    |**\($ R\_11518\_F\_1\_11 Normal rate VAT % $\)**|Select the current typical VAT rates used to assign the correct rates to the business and product groups defined in the VAT settings.|  
-    |**\($ R\_11518\_F\_1\_13 Reduced rate VAT % $\)**|Select the current reduced tax rates used to assign the correct rates to the business and product groups defined in the VAT settings.|  
-    |**\($ R\_11518\_F\_1\_15 Special rate VAT % $\)**|Select the current special tax rates used to assign the correct rates to the business and product groups defined in the VAT settings.|  
-    |**\($ R\_11518\_F\_1\_17 Investment\/Operating Purchase VAT G\/L Account $\)**|Select the VAT general ledger account.|  
-    |**\($ R\_11518\_F\_1\_19 Own Consumption Bus. Group $\)**|Select the business and product group for own consumptions.|  
-    |**\($ R\_11518\_F\_1\_4 Service Foreign Bus. Group $\)**|Select the foreign service business and product group.|  
-    |**\($ R\_11518\_F\_1\_1150001 Export Bus. Group $\)**|Select the business and product group for exports.|  
+    |**Closed with Journal no.**|Select the general ledger journals that contain the posting source of the VAT adjusting entries. This field evaluates accounting periods that have already been settled.|  
+    |**Open until date**|Select the last date for settling open or unsettled VAT entries.|  
+    |**Show Postings**|Specifies if all of the VAT entries for each group will be printed.|  
+    |**Show Chargeback**|Specifies if VAT entries and general ledger entries with closed summaries or reposted tax will be printed.|  
+    |**Normal rate VAT %**|Select the current typical VAT rates used to assign the correct rates to the business and product groups defined in the VAT settings.|  
+    |**Reduced rate VAT %**|Select the current reduced tax rates used to assign the correct rates to the business and product groups defined in the VAT settings.|  
+    |**Special rate VAT %**|Select the current special tax rates used to assign the correct rates to the business and product groups defined in the VAT settings.|  
+    |**Investment\/Operating Purchase VAT G\/L Account**|Select the VAT general ledger account.|  
+    |**Own Consumption Bus. Group**|Select the business and product group for own consumptions.|  
+    |**Service Foreign Bus. Group**|Select the foreign service business and product group.|  
+    |**Export Bus. Group**|Select the business and product group for exports.|  
   
 3.  Choose the **Print** button to print the VAT statement or choose the **Preview** button to view it on the screen.  
   

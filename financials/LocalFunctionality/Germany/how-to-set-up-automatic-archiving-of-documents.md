@@ -22,9 +22,9 @@ You can set up automatic archiving of sales documents and purchase documents—s
   
 ### To set up automatic archiving of documents  
   
-1.  In the **Search** box, enter **\($ N\_459 Sales & Receivable Setup $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Sales & Receivable Setup**, and then choose the related link.  
   
-2.  In the **\($ N\_459 Sales & Receivable Setup $\)** window, on the **Archiving** FastTab, fill in the fields as described in the following table.  
+2.  In the **Sales & Receivable Setup** window, on the **Archiving** FastTab, fill in the fields as described in the following table.  
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

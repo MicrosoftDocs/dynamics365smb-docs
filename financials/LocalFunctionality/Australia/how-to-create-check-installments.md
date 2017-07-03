@@ -30,10 +30,10 @@ You can create check installments for post-dated checks. You can define the numb
   
 5.  |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_28091\_N\_2\_1380000 No. of Installments $\)**|Specifies the number of installments into which the post-dated check will be divided.|  
-    |**\($ R\_28091\_N\_2\_1380003 Interest % $\)**|Specifies the percent of interest.|  
-    |**\($ R\_28091\_N\_2\_1380005 Period Length $\)**|Specifies the period for which the installments will be created. For example, if you want to divide the check into monthly installments, enter **1M**.|  
-    |**\($ R\_28091\_N\_2\_1380007 Start Document No. $\)**|Specifies the starting number of the document. Based on the number of installments specified, the consecutive numbers are allocated to the documents created.|  
+    |**No. of Installments**|Specifies the number of installments into which the post-dated check will be divided.|  
+    |**Interest %**|Specifies the percent of interest.|  
+    |**Period Length**|Specifies the period for which the installments will be created. For example, if you want to divide the check into monthly installments, enter **1M**.|  
+    |**Start Document No.**|Specifies the starting number of the document. Based on the number of installments specified, the consecutive numbers are allocated to the documents created.|  
   
 6.  Choose the **OK** button.  
   

@@ -29,7 +29,7 @@ To comply with legal requirements, statutory information is available on the **S
     |**Registration No.**|Specifies the registration number of the company.|  
     |**Registered Name**|Specifies the registered name of the company.|  
     |**Registered Address**|Specifies the registered address of the company.|  
-    |**\($ T\_79\_10503 Registered Address 2 $\)**|Specifies an additional part of the company's registered address.|  
+    |**Registered Address 2**|Specifies an additional part of the company's registered address.|  
     |**Registered City**|Specifies the city where the company is registered.|  
     |**Registered County**|Specifies the county of the company's registered address.|  
     |**Registered Post Code**|Specifies the registered postal code of the company.|  

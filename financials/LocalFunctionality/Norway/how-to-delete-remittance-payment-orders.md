@@ -26,8 +26,8 @@ Orders can be deleted if they are managed in full and are in a closed financial 
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_15000004\_F\_1\_1 Start date $\)**|Specify the start date of orders to be deleted.|  
-    |**\($ R\_15000004\_F\_1\_4 End date $\)**|Specify the end date of orders to be deleted.|  
+    |**Start date**|Specify the start date of orders to be deleted.|  
+    |**End date**|Specify the end date of orders to be deleted.|  
   
 3.  Choose the **OK** button.  
   

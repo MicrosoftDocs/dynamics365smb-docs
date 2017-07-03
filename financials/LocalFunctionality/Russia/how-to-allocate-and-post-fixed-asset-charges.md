@@ -26,10 +26,10 @@ After an invoice has been created you can allocate and post fixed asset charges.
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_14912\_F\_1\_1210000 Source Document Type $\)**|Specify the source document type. Types include **Invoice**, **Order**, and **Posted Invoice**.|  
-    |**\($ R\_14912\_F\_1\_1210002 Source Document No. $\)**|Specify the source document number that is associated with the fixed asset charge.|  
-    |**\($ R\_14912\_F\_1\_1210004 Amount $\)**|Specify the amount of the fixed asset charge.|  
-    |**\($ R\_14912\_F\_1\_1210006 FA Charge No. $\)**|Specify the number of the fixed asset charge.|  
+    |**Source Document Type**|Specify the source document type. Types include **Invoice**, **Order**, and **Posted Invoice**.|  
+    |**Source Document No.**|Specify the source document number that is associated with the fixed asset charge.|  
+    |**Amount**|Specify the amount of the fixed asset charge.|  
+    |**FA Charge No.**|Specify the number of the fixed asset charge.|  
   
 3.  Choose the **OK** button, and then post the invoice. If the fixed asset has already been released, lines with the relevant general ledger account will be displayed.  
   

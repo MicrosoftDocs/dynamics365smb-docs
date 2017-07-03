@@ -36,8 +36,8 @@ The **Sales Invoice Book** report and **Purchases Invoice Book** report allow yo
   
     |ADD INCLUDE<!--[!INCLUDE[bp_optionsheading](../../includes/bp_tabledescription_md.md)]-->|  
     |-------------------------------------|---------------------------------------|  
-    |**\($ R\_10704\_N\_2\_1 Show Amounts in Add. Currency $\)**|Select to display amounts in an additional currency.|  
-    |**\($ R\_10704\_N\_2\_4 Order by posting date $\)**|Select to order the document by posting date.|  
+    |**Show Amounts in Add. Currency**|Select to display amounts in an additional currency.|  
+    |**Order by posting date**|Select to order the document by posting date.|  
   
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   

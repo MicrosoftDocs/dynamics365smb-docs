@@ -161,7 +161,7 @@ The petty cash management feature enables you to:
 |Repeat printing|Select this field to ensure that the printing process does not increase the value of the **Last Cash Report Page No.** field in the corresponding cash account card and that the report is printed with this number \(indicated in the cash account card\). This serves repeated printing.|  
   
 ## Cash Report CO-4  
- The **\($ R\_14902 Cash Report CO-4 $\)** report shows mandatory daily cash transactions in standard format as required by Russian accounting legislation. For more information, see[How to: Print the Cash Report CO-4 Report](how-to-print-the-cash-report-co-4-report.md).  
+ The **Cash Report CO-4** report shows mandatory daily cash transactions in standard format as required by Russian accounting legislation. For more information, see[How to: Print the Cash Report CO-4 Report](how-to-print-the-cash-report-co-4-report.md).  
   
 ## See Also  
  [Bank Management](bank-management.md)   

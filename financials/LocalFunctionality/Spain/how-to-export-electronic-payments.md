@@ -38,20 +38,20 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can export payment jou
   
      Payments of type SEPA will be exported to a file immediately.  
   
-     Payments of type N34 or N34.1 will be exported when you run the **\($ B\_7000090 Payment order - Export N34 $\)** or **\($ R\_7000060 PO - Export N34.1 $\)** report, which automatically opens when you choose **Export** in step 3.  
+     Payments of type N34 or N34.1 will be exported when you run the **Payment order - Export N34** or **PO - Export N34.1** report, which automatically opens when you choose **Export** in step 3.  
   
-4.  In the **\($ R\_7000060 PO - Export N34.1 $\)** window, fill in the fields as described in the following table.  
+4.  In the **PO - Export N34.1** window, fill in the fields as described in the following table.  
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_10721\_N\_2\_1100000 Bank Account No. $\)**|Select the bank account from which the payments will be exported.|  
-    |**\($ R\_10721\_N\_2\_1100002 Settle Date $\)**|Specify the date that the export will be transmitted to the bank. This date will be the posting date for the payment journal entries that are exported.|  
-    |**\($ R\_10721\_N\_2\_1100005 If Posting Date does not match Delivery Date $\)**|Specify if you want to match the settle date, or if you want to skip any payment journal lines where the entered posting date does not match the settle date.|  
-    |**\($ R\_10721\_N\_2\_1100008 Expenses Code $\)**|Specify who is responsible for the payment expenses.|  
-    |**\($ R\_10721\_N\_2\_1100010 Shared \(Only International Transf. $\)**|Specify if you want to share the expenses between the payer and the payee. This is only applicable for international transfers.|  
-    |**\($ R\_10721\_N\_2\_1100013 Payment Order Concept.\) $\)**|Specify the payment order concept, either **Payroll**, **Retirement Payroll**, or **Others**.|  
-    |**\($ R\_10721\_N\_2\_1100016 Relation $\)**|Specify if you want the bank to send you a detailed list of all transfer charges. If you do not select this field, the bank will send the total of all charges for all the transfers made.|  
-    |**\($ R\_10721\_N\_2\_1100018 Number Of Copies $\)**|Specify the number of additional copies of the remittance advice that will be printed by this process. One document is always printed so that it can be mailed to the payee.|  
+    |**Bank Account No.**|Select the bank account from which the payments will be exported.|  
+    |**Settle Date**|Specify the date that the export will be transmitted to the bank. This date will be the posting date for the payment journal entries that are exported.|  
+    |**If Posting Date does not match Delivery Date**|Specify if you want to match the settle date, or if you want to skip any payment journal lines where the entered posting date does not match the settle date.|  
+    |**Expenses Code**|Specify who is responsible for the payment expenses.|  
+    |**Shared \(Only International Transf.**|Specify if you want to share the expenses between the payer and the payee. This is only applicable for international transfers.|  
+    |**Payment Order Concept.\)**|Specify the payment order concept, either **Payroll**, **Retirement Payroll**, or **Others**.|  
+    |**Relation**|Specify if you want the bank to send you a detailed list of all transfer charges. If you do not select this field, the bank will send the total of all charges for all the transfers made.|  
+    |**Number Of Copies**|Specify the number of additional copies of the remittance advice that will be printed by this process. One document is always printed so that it can be mailed to the payee.|  
   
 5.  Choose **Print** or **Preview** to see the created payment file.  
   
@@ -76,14 +76,14 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can export payment jou
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_10721\_N\_2\_1100000 Bank Account No. $\)**|Select the bank account from which the payments will be exported.|  
-    |**\($ R\_10721\_N\_2\_1100002 Settle Date $\)**|Specify the date that the export will be transmitted to the bank. This date will be the posting date for the payment journal entries that are exported.|  
-    |**\($ R\_10721\_N\_2\_1100005 If Posting Date does not match Delivery Date $\)**|Specify if you want to match the settle date, or if you want to skip any payment journal lines where the entered posting date does not match the settle date.|  
-    |**\($ R\_10721\_N\_2\_1100008 Expenses Code $\)**|Specify who is responsible for the payment expenses.|  
-    |**\($ R\_10721\_N\_2\_1100010 Shared \(Only International Transf. $\)**|Specify if you want to share the expenses between the payer and the payee. This is only applicable for international transfers.|  
-    |**\($ R\_10721\_N\_2\_1100013 Payment Order Concept.\) $\)**|Specify the payment order concept, either **Payroll**, **Retirement Payroll**, or **Others**.|  
-    |**\($ R\_10721\_N\_2\_1100016 Relation $\)**|Specify if you want the bank to send you a detailed list of all transfer charges. If you do not select this field, the bank will send the total of all charges for all the transfers made.|  
-    |**\($ R\_10721\_N\_2\_1100018 Number Of Copies $\)**|Specify the number of additional copies of the remittance advice that will be printed by this process. One document is always printed so that it can be mailed to the payee.|  
+    |**Bank Account No.**|Select the bank account from which the payments will be exported.|  
+    |**Settle Date**|Specify the date that the export will be transmitted to the bank. This date will be the posting date for the payment journal entries that are exported.|  
+    |**If Posting Date does not match Delivery Date**|Specify if you want to match the settle date, or if you want to skip any payment journal lines where the entered posting date does not match the settle date.|  
+    |**Expenses Code**|Specify who is responsible for the payment expenses.|  
+    |**Shared \(Only International Transf.**|Specify if you want to share the expenses between the payer and the payee. This is only applicable for international transfers.|  
+    |**Payment Order Concept.\)**|Specify the payment order concept, either **Payroll**, **Retirement Payroll**, or **Others**.|  
+    |**Relation**|Specify if you want the bank to send you a detailed list of all transfer charges. If you do not select this field, the bank will send the total of all charges for all the transfers made.|  
+    |**Number Of Copies**|Specify the number of additional copies of the remittance advice that will be printed by this process. One document is always printed so that it can be mailed to the payee.|  
   
 5.  Choose **Print** or **Preview** to see the created payment file.  
   
@@ -103,12 +103,12 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can export payment jou
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_7000060\_N\_2\_1100000 Delivery Date $\)**|Specify the delivery date of the electronic payment.|  
-    |**\($ R\_7000060\_N\_2\_1100002 Expenses Code $\)**|Specify who is responsible for the payment expenses.|  
-    |**\($ R\_7000060\_N\_2\_1100007 Payment Order Concept $\)**|Specify the payment order concept, either **Payroll**, **Retirement Payroll**, or **Others**.|  
-    |**\($ R\_7000060\_N\_2\_1100010 Relation $\)**|Specify if you want the bank to send you a detailed list of all transfer charges. If you do not select this field, the bank will send the total of all charges for all the transfers made.|  
-    |**\($ R\_7000060\_N\_2\_1100012 Number Of Copies $\)**|Specify the number of additional copies of the remittance advice that will be printed by this process. One document is always printed so that it can be mailed to the payee.|  
-    |**\($ R\_7000060\_N\_2\_1100004 Shared \(Only Internation Transf.\) $\)**|Specify if you want to share the expenses between the payer and the payee. This is only applicable for international transfers.|  
+    |**Delivery Date**|Specify the delivery date of the electronic payment.|  
+    |**Expenses Code**|Specify who is responsible for the payment expenses.|  
+    |**Payment Order Concept**|Specify the payment order concept, either **Payroll**, **Retirement Payroll**, or **Others**.|  
+    |**Relation**|Specify if you want the bank to send you a detailed list of all transfer charges. If you do not select this field, the bank will send the total of all charges for all the transfers made.|  
+    |**Number Of Copies**|Specify the number of additional copies of the remittance advice that will be printed by this process. One document is always printed so that it can be mailed to the payee.|  
+    |**Shared \(Only Internation Transf.\)**|Specify if you want to share the expenses between the payer and the payee. This is only applicable for international transfers.|  
   
 > [!NOTE]  
 >  You can only post the payment order after you have successfully exported the electronic payments.  

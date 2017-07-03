@@ -26,7 +26,7 @@ You need to report the Business Activity Statement \(BAS\) calculation informati
   
 3.  In the **BAS Calculation Sheet** window, on the **Home** tab, in the **Process** group, choose **Import**.  
   
-4.  In the **\($ B\_28166 BAS – Import\/Export $\)** window, enter the BAS file name to import a sample XML file. The totals information will be updated. Choose the **OK** button.  
+4.  In the **BAS – Import\/Export** window, enter the BAS file name to import a sample XML file. The totals information will be updated. Choose the **OK** button.  
   
 5.  In the **BAS Calculation Sheet** window, on the **Home** tab, in the **Process** group, choose **Update**.  
   
@@ -34,11 +34,11 @@ You need to report the Business Activity Statement \(BAS\) calculation informati
   
 7.  In the **BAS Calculation Sheet** window, on the **Home** tab, in the **Process** group, choose **Export**.  
   
-8.  In the **\($ B\_28166 BAS – Import\/Export $\)** window, select an XML file to export the data to, and then choose the **OK** button. The XML file is updated with the new information. If you use Electronic Commerce Interface \(ECI\) to update your taxes, the information in the XML file will be complete.  
+8.  In the **BAS – Import\/Export** window, select an XML file to export the data to, and then choose the **OK** button. The XML file is updated with the new information. If you use Electronic Commerce Interface \(ECI\) to update your taxes, the information in the XML file will be complete.  
   
 9. In the **BAS Calculation Sheet** window, on the **Home** tab, in the **Process** group, choose **Calculate GST Settlement**.  
   
-10. In the **Calculate GST Settlement** window, make sure that the **\($ B\_11603\_F\_1\_13 Post $\)** field is selected. When you run the report, the resulting GST settlement postings include the fuel tax values.  
+10. In the **Calculate GST Settlement** window, make sure that the **Post** field is selected. When you run the report, the resulting GST settlement postings include the fuel tax values.  
   
 ## See Also  
  [BAS Fuel Tax Credits](bas-fuel-tax-credits.md)   

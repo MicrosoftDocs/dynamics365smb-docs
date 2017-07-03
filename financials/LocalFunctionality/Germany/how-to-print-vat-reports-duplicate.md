@@ -36,11 +36,11 @@
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_11009\_N\_2\_1140011 Starting Date $\)**|Sets the start date.|  
-    |**\($ R\_11009\_N\_2\_1140009 Ending Date $\)**|Sets the end date.|  
-    |**\($ R\_11009\_N\_2\_1140007 Include VAT Entries $\)**|**Open** to include only open VAT entries in the report.<br /><br /> –or–<br /><br /> **Closed** to include only closed VAT entries in the report.<br /><br /> –or–<br /><br /> **Open and Closed** to include both open and closed VAT entries in the report.|  
-    |**\($ R\_11009\_N\_2\_1140003 Include VAT Entries $\)**|**Before and Within Period** to display entries from both the period within the date filter and the period before the date filter in the report.<br /><br /> –or–<br /><br /> **Within Period** to display entries from the period within the date filter in the report.|  
-    |**\($ R\_11009\_N\_2\_1140000 Show Amounts in Add. Reporting Currency $\)**|Select to display amounts in additional reporting currency.|  
+    |**Starting Date**|Sets the start date.|  
+    |**Ending Date**|Sets the end date.|  
+    |**Include VAT Entries**|**Open** to include only open VAT entries in the report.<br /><br /> –or–<br /><br /> **Closed** to include only closed VAT entries in the report.<br /><br /> –or–<br /><br /> **Open and Closed** to include both open and closed VAT entries in the report.|  
+    |**Include VAT Entries**|**Before and Within Period** to display entries from both the period within the date filter and the period before the date filter in the report.<br /><br /> –or–<br /><br /> **Within Period** to display entries from the period within the date filter in the report.|  
+    |**Show Amounts in Add. Reporting Currency**|Select to display amounts in additional reporting currency.|  
   
 4.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
@@ -66,12 +66,12 @@
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_11005\_N\_2\_1140013 Starting Date $\)**|Sets the start date.|  
-    |**\($ R\_11005\_N\_2\_1140011 Ending Date $\)**|Sets the end date.|  
-    |**\($ R\_11005\_N\_2\_1140000 Include VAT Entries $\)**|**Open** to include only open VAT entries in the report.<br /><br /> –or–<br /><br /> **Closed** to include only closed VAT entries in the report.<br /><br /> –or–<br /><br /> **Open and Closed** to include both open and closed VAT entries in the report.|  
-    |**\($ R\_11005\_N\_2\_1140004 Include VAT Entries $\)**|**Before and Within Period** to display entries from both the period within the date filter and the period before the date filter in the report.<br /><br /> –or–<br /><br /> **Within Period** to display entries from the period within the date filter in the report.|  
-    |**\($ R\_11005\_N\_2\_1140009 Show Amounts in Add. Reporting Currency $\)**|Select to display amounts in additional reporting currency.|  
-    |**\($ R\_11005\_N\_2\_1140007 Round to Whole Numbers $\)**|Select to round amounts to whole numbers.|  
+    |**Starting Date**|Sets the start date.|  
+    |**Ending Date**|Sets the end date.|  
+    |**Include VAT Entries**|**Open** to include only open VAT entries in the report.<br /><br /> –or–<br /><br /> **Closed** to include only closed VAT entries in the report.<br /><br /> –or–<br /><br /> **Open and Closed** to include both open and closed VAT entries in the report.|  
+    |**Include VAT Entries**|**Before and Within Period** to display entries from both the period within the date filter and the period before the date filter in the report.<br /><br /> –or–<br /><br /> **Within Period** to display entries from the period within the date filter in the report.|  
+    |**Show Amounts in Add. Reporting Currency**|Select to display amounts in additional reporting currency.|  
+    |**Round to Whole Numbers**|Select to round amounts to whole numbers.|  
   
 3.  On the **VAT Statement Name** FastTab, select the appropriate filters.  
   

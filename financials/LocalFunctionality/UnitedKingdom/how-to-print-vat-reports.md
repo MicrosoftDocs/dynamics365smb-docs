@@ -36,7 +36,7 @@ You can use the following reports for VAT reporting:
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_10515\_N\_2\_1 Show Amounts in Add. Reporting Currency $\)**|Select to show amounts in the report in additional reporting currency.|  
+    |**Show Amounts in Add. Reporting Currency**|Select to show amounts in the report in additional reporting currency.|  
   
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
@@ -48,8 +48,8 @@ You can use the following reports for VAT reporting:
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_10525\_N\_2\_3 Print Cust. Ledger Details $\)**|Select to display the customer ledger entries.|  
-    |**\($ R\_10525\_N\_2\_1 Print G\/L Entry Details $\)**|Select to display the general ledger entries.|  
+    |**Print Cust. Ledger Details**|Select to display the customer ledger entries.|  
+    |**Print G\/L Entry Details**|Select to display the general ledger entries.|  
   
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
@@ -61,8 +61,8 @@ You can use the following reports for VAT reporting:
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_10526\_N\_2\_1 Show $\)**|Select the details that you want in the **Unposted Sales** report.|  
-    |**\($ R\_10526\_N\_2\_7 Show Amounts in LCY $\)**|Select to show amounts in the report in local currency.|  
+    |**Show**|Select the details that you want in the **Unposted Sales** report.|  
+    |**Show Amounts in LCY**|Select to show amounts in the report in local currency.|  
   
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
@@ -74,8 +74,8 @@ You can use the following reports for VAT reporting:
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_10535\_N\_2\_3 Print Vend. Ledger Details $\)**|Select to display the vendor ledger entries.|  
-    |**\($ R\_10535\_N\_2\_1 Print G\/L Entry Details $\)**|Select to display the general ledger entries.|  
+    |**Print Vend. Ledger Details**|Select to display the vendor ledger entries.|  
+    |**Print G\/L Entry Details**|Select to display the general ledger entries.|  
   
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
@@ -87,8 +87,8 @@ You can use the following reports for VAT reporting:
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_10536\_N\_2\_1 Show $\)**|Select the details that you want in the **Unposted Purchases** report.|  
-    |**\($ R\_10536\_N\_2\_7 Show Amounts in LCY $\)**|Select to show amounts in the report in local currency.|  
+    |**Show**|Select the details that you want in the **Unposted Purchases** report.|  
+    |**Show Amounts in LCY**|Select to show amounts in the report in local currency.|  
   
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   

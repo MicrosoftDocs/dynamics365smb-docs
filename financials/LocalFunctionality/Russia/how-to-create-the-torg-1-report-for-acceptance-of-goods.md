@@ -26,10 +26,10 @@ The TORG-1 report is used for the registration of incoming goods. This report li
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ B\_14918\_F\_1\_1210002 Show Actual Quantity $\)**|Specifies if the TORG-1 report must include actual quantities for received items.|  
-    |**\($ B\_14918\_F\_1\_1210000 Order No. $\)**|Specifies the document number.|  
-    |**\($ B\_14918\_F\_1\_1210005 Order Date $\)**|Specifies the document date.|  
-    |**\($ B\_14918\_F\_1\_1210007 Operation Type $\)**|Specifies the report type.|  
+    |**Show Actual Quantity**|Specifies if the TORG-1 report must include actual quantities for received items.|  
+    |**Order No.**|Specifies the document number.|  
+    |**Order Date**|Specifies the document date.|  
+    |**Operation Type**|Specifies the report type.|  
   
 3.  Choose the **OK** button.  
   

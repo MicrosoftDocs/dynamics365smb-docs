@@ -28,8 +28,8 @@ After you have exported payment journal entries to a file using the Export Elect
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ B\_10084\_N\_2\_1 Bank Account No. $\)**|Select the bank account for the electronic payment operation.|  
-    |**\($ B\_10084\_N\_2\_3 E-Pay Operation $\)**|Specifies if you want to transmit or void the electronic payment file. The **Transmit** option produces an electronic payment file to be transmitted to your bank for processing. The **Void** option voids the exported file. Confirm that the correct selection has been made before you process the electronic payment file.|  
+    |**Bank Account No.**|Select the bank account for the electronic payment operation.|  
+    |**E-Pay Operation**|Specifies if you want to transmit or void the electronic payment file. The **Transmit** option produces an electronic payment file to be transmitted to your bank for processing. The **Void** option voids the exported file. Confirm that the correct selection has been made before you process the electronic payment file.|  
   
 4.  To transmit the payments, choose the **OK** button.  
   

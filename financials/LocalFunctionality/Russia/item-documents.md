@@ -69,7 +69,7 @@
     |**Quantity**|Specifies the number of item units.|  
     |**Reserve Quantity Inbnd**|Specifies the item quantity reserved at the warehouse of the receiver.|  
     |**Unit Amount**|Specifies the price of a unit item.|  
-    |**\($ T\_12452\_37 Indirect Cost % $\)**|Specifies the indirect cost percent.|  
+    |**Indirect Cost %**|Specifies the indirect cost percent.|  
     |**Unit Cost**|Specifies the item unit cost of the receipt shipment line.|  
     |**Amount**|Specifies the transaction amount.|  
     |**Unit of Measure Code**|Specifies the unit of measure code for the received items.|  

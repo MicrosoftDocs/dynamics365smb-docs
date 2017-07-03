@@ -30,8 +30,8 @@ The following procedure shows how to create a new fixed asset charge.
     |**Description**|Specify the description of the fixed asset charge.|  
     |**Gen. Prod. Posting Group**|Specify the default general product posting group that will be used for the fixed asset charge code.|  
     |**VAT Prod. Posting Group**|Specify the default VAT product posting group that will be used for the fixed asset charge code.|  
-    |**\($ T\_14907\_5 Global Dimension 1 Code $\)**|Specify the global dimension code that is associated with the fixed asset charge.|  
-    |**\($ T\_14907\_6 Global Dimension 2 Code $\)**|Specify the global dimension code that is associated with the fixed asset charge.|  
+    |**Global Dimension 1 Code**|Specify the global dimension code that is associated with the fixed asset charge.|  
+    |**Global Dimension 2 Code**|Specify the global dimension code that is associated with the fixed asset charge.|  
     |**Exclude Cost for TA**|Select if you want to exclude the fixed asset charge from tax accounting.|  
     |**G\/L Acc. For Released FA**|Specify the general ledger account to post the fixed asset charge amount to when the fixed asset is released.|  
     |**Tax Difference Code FA**|Specify the tax difference code that is associated with the fixed asset charge.|  

@@ -42,9 +42,9 @@ You can use the **Bank Detail Cashflow Compare** report to compare the flow of c
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_28020\_N\_2\_1260000 Compare Start Date $\)**|Specifies the start date for the comparison.|  
-    |**\($ R\_28020\_N\_2\_1260003 Compare End Date $\)**|Specifies the end date for comparison.|  
-    |**\($ R\_28020\_N\_2\_2 New Page per Bank Account $\)**|Specifies if the details of each bank account will be printed on a separate page.|  
+    |**Compare Start Date**|Specifies the start date for the comparison.|  
+    |**Compare End Date**|Specifies the end date for comparison.|  
+    |**New Page per Bank Account**|Specifies if the details of each bank account will be printed on a separate page.|  
   
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   

@@ -36,7 +36,7 @@ After you have created a proposal and made any modifications, you can process th
   
 2.  To process the proposal, choose **Proposal** , and then choose **Process**.  
   
-3.  To view the payment history, close the **Telebank Proposal** window. Make sure the same bank account in the **\($ N\_11000000 Telebank – Bank Overview $\)** window is selected. On the **Actions** tab, in the **Telebank** group, choose **Payment History**.  
+3.  To view the payment history, close the **Telebank Proposal** window. Make sure the same bank account in the **Telebank – Bank Overview** window is selected. On the **Actions** tab, in the **Telebank** group, choose **Payment History**.  
   
      The **Payment History List** window displays the payment history that you just created.  
   

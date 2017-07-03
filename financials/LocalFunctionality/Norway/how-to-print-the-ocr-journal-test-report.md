@@ -16,7 +16,7 @@
 
 ---
 # How to: Print the OCR Journal - Test Report
-You can print the **\($ R\_15000100 OCR Journal – Test $\)** report to test the imported payment transactions in the cash receipt journal. You can also view potential warnings and reconcile conflicts before the payments are posted to the journal.  
+You can print the **OCR Journal – Test** report to test the imported payment transactions in the cash receipt journal. You can also view potential warnings and reconcile conflicts before the payments are posted to the journal.  
   
 ### To print the OCR Journal – Test report  
   
@@ -26,8 +26,8 @@ You can print the **\($ R\_15000100 OCR Journal – Test $\)** report to test th
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_15000100\_F\_1\_1080113 Show only Lines with OCR Errors $\)**|Select to print only the journal lines that contain a warning in the test report.|  
-    |**\($ R\_15000100\_F\_1\_1 Show Dimensions $\)**|Select to print dimension information on the test report.|  
+    |**Show only Lines with OCR Errors**|Select to print only the journal lines that contain a warning in the test report.|  
+    |**Show Dimensions**|Select to print dimension information on the test report.|  
   
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   

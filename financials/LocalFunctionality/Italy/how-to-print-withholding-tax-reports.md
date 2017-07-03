@@ -26,10 +26,10 @@ The **Withholding Taxes** report displays a list of withholding taxes that are p
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_12101\_N\_2\_1130070 Reference Month $\)**|Enter the month of the withholding tax period in numeric format.|  
-    |**\($ R\_12101\_N\_2\_1130071 Reference Year $\)**|Enter the year of the withholding tax period in numeric format.|  
-    |**\($ R\_12101\_N\_2\_1130072 Print Details $\)**|Select if you want to show all detailed information about withholding tax transactions.|  
-    |**\($ R\_12101\_N\_2\_1130073 Final Printing $\)**|Select if you want to mark this report as the final printed version. If you select this check box, the withholding taxes report will be marked as printed.|  
+    |**Reference Month**|Enter the month of the withholding tax period in numeric format.|  
+    |**Reference Year**|Enter the year of the withholding tax period in numeric format.|  
+    |**Print Details**|Select if you want to show all detailed information about withholding tax transactions.|  
+    |**Final Printing**|Select if you want to mark this report as the final printed version. If you select this check box, the withholding taxes report will be marked as printed.|  
   
 3.  Chose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.  
   

@@ -52,7 +52,7 @@ Withholding tax \(WHT\) is the tax withheld by a company when it makes a payment
     |**WHT Product Posting Group**|Specifies the product posting group code for withholding tax.|  
     |**WHT Calculation Rule**|Specifies the calculation rule for WHT, which is used with the amount specified in the **WHT Minimum Invoice Amount** field. This will help identify the transactions for which WHT will not be deducted.<br /><br /> For example, if you select the **Less than** option here and enter 100 in the **WHT Minimum Invoice Amount** field, then WHT will not be deducted for those transactions with an amount less than 100.|  
     |**WHT Minimum Invoice Amount**|Specifies the threshold amount that is below which WHT will not be deducted.|  
-    |**\($ T\_28043\_3 WHT % $\)**|Specifies the WHT rate. You must enter the rate without the percent sign.|  
+    |**WHT %**|Specifies the WHT rate. You must enter the rate without the percent sign.|  
     |**Realized WHT Type**|Specifies the mode of WHT calculation for purchases or sales of items.|  
     |**Prepaid WHT Account Code**|Specifies the general ledger account number to which sales WHT is to be posted.|  
     |**Payable WHT Account Code**|Specifies the general ledger account number to which purchase WHT is to be posted.|  

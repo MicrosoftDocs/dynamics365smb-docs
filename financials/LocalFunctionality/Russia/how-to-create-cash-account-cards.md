@@ -31,7 +31,7 @@ Cash accounts are similar to bank accounts and are created identically. For more
     |**Credit Cash Order No. Series**|Specifies the serial numbers for ingoing cash orders.|  
     |**Last Cash Report Page No.**|Specifies the last printed cash additional sheet report page number.|  
     |**Bank Acc. Posting Group**|Specifies the bank account posting group that is associated with the cash account.|  
-    |**\($ T\_270\_12406 VAT % for Document $\)**|Specifies the VAT percentage for calculating VAT in cash or bank documents. This VAT percentage is not used in VAT posting calculations.|  
+    |**VAT % for Document**|Specifies the VAT percentage for calculating VAT in cash or bank documents. This VAT percentage is not used in VAT posting calculations.|  
   
 3.  Choose the **OK** button.  
   

@@ -40,13 +40,13 @@
   
  Document set 2 contains the following reports:  
   
--   **\($ R\_10604 Sales - Invoice 2 $\)**  
+-   **Sales - Invoice 2**  
   
--   **\($ R\_10605 Sales - Credit Memo 2 $\)**  
+-   **Sales - Credit Memo 2**  
   
--   **\($ R\_10615 Reminder 2 $\)**  
+-   **Reminder 2**  
   
--   **\($ R\_10607 Finance Charge Memo 2 $\)**  
+-   **Finance Charge Memo 2**  
   
 ## See Also  
  [Norwegian Giro and OCR-B Font](norwegian-giro-and-ocr-b-font.md)   

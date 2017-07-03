@@ -109,12 +109,7 @@ Many manufacturing companies select a valuation base of standard cost. This also
   
 ## See Also  
  [Design Details: Costing Methods](design-details-costing-methods.md)   
- Replenishment System   
- Resource Usage Type   
- Assembly Order   
- Cost Incl. Setup   
  [How to: Calculate the Standard Cost of Assembly BOMs](../how-to-calculate-the-standard-cost-of-assembly-boms.md)   
- Roll Up Standard Cost   
  [How to: Fill In Revaluation Journals Manually](../how-to-fill-in-revaluation-journals-manually.md)   
  [How to: Fill In the Revaluation Journal with the Batch Job](../how-to-fill-in-the-revaluation-journal-with-the-batch-job.md)   
  [How to: Update Standard Costs](../how-to-update-standard-costs.md)   

@@ -245,7 +245,7 @@
 ### How to: Handle Customer Inquiries
 ### How to: Deliver Service
 
-## [Application Design Details](FullExperience/design-details-application-design.md)
+## [Application Design Details (FULL)](FullExperience/design-details-application-design.md)
 ### [Design Details: Dimension Set Entries](FullExperience/design-details-dimension-set-entries.md)
 ### [Design Details: Supply Planning](FullExperience/design-details-supply-planning.md)
 ### [Design Details: Inventory Costing](FullExperience/design-details-inventory-costing.md)
@@ -255,4 +255,4 @@
 
 # Local Functionality (FULL)
 ## [Netherlands](LocalFunctionality/Netherlands/netherlands-local-functionality.md)
-## [Denmark](LocalFunctionality/Netherlands/denmark-local-functionality.md)
+## [Denmark](LocalFunctionality/Denmark/denmark-local-functionality.md)

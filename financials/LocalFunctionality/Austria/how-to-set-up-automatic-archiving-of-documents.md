@@ -41,4 +41,4 @@ You can set up automatic archiving of sales documents and purchase documents—s
  [How to: Delete Archived Blanket Orders](how-to-delete-archived-blanket-orders.md)   
  [How to: Track Document Lines](how-to-track-document-lines.md)   
  Sales & Receivables Setup   
- [\($ T\_312 Purchases &amp; Payables Setup $\)](\($%20T_312%20Purchases%20&amp;%20Payables%20Setup%20$\).md)
+ Purchases &amp; Payables Setup

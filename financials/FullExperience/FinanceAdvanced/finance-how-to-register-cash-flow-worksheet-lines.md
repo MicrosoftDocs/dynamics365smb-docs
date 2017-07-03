@@ -30,13 +30,13 @@ In the worksheet for the cash flow forecast, you use a batch job to predict the 
   
 2.  On the **Home** tab, in the **Process** group, choose **Suggest Worksheet Lines** to open the **Suggest Worksheet Lines** batch job.  
   
-3.  In the **F\_1\_1 Cash Flow Forecast** field, select a cash flow forecast number.  
+3.  In the **F_1_1 Cash Flow Forecast** field, select a cash flow forecast number.  
   
 4.  Select the relevant source types that should be included in the forecast.  
   
-5.  If you select the **F\_1\_16 G\/L Budget** check box, then enter the budget name in the **F\_1\_17 G\/L Budget Name** field, which is the budget from which the values are taken into the forecast.  
+5.  If you select the **F_1_16 G/L Budget** check box, then enter the budget name in the **F_1_17 G/L Budget Name** field, which is the budget from which the values are taken into the forecast.  
   
-6.  Select the **F\_1\_18 Group by Document Type** check box.  
+6.  Select the **F_1_18 Group by Document Type** check box.  
   
 7.  Choose the **OK** button to get the forecasted amounts in the worksheet.  
   

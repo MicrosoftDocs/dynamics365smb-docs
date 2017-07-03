@@ -34,15 +34,15 @@ When a customer has accepted a service contract quote, you convert it to a servi
   
     -   For detailed contracts, the invoiced amount is calculated as follows:  
   
-        -   Invoiced amount \= sum of the invoiced amount for each contract line.  
+        -   Invoiced amount = sum of the invoiced amount for each contract line.  
   
-        -   Invoiced amount for each contract line \= \(\(quote value ÷ 12\) × number of months in the starting period\) \+ \(\(quote value ÷ number of days in the year\) × number of days left in the starting period\).  
+        -   Invoiced amount for each contract line = ((quote value ÷ 12) × number of months in the starting period) + ((quote value ÷ number of days in the year) × number of days left in the starting period).  
   
          If the contract line expires before the starting period ends, the expiration date becomes the ending date of the starting period for the line.  
   
     -   For contracts that are not detailed, the invoiced amount is calculated as follows:  
   
-        -   Invoiced amount \= \(annual amount ÷ number of days in the year\) × number of days in the starting period.  
+        -   Invoiced amount = (annual amount ÷ number of days in the year) × number of days in the starting period.  
   
          If the contract expires before the starting period ends, the expiration date becomes the ending date of the starting period.  
   

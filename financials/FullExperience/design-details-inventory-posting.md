@@ -29,7 +29,7 @@ Each inventory transaction, such as a purchase receipt or a sales shipment, post
 
  At regular intervals, value entries that are created in the inventory ledger are posted to the general ledger to reconcile the two ledgers for financial control reasons. For more information, see [Design Details: Reconciliation with the General Ledger](design-details-reconciliation-with-the-general-ledger.md).  
 
- ![Entry flow between inventory and G&#47;L](../media/design_details_inventory_costing_1_entry_flow.png "design\_details\_inventory\_costing\_1\_entry\_flow")  
+ ![Entry flow between inventory and G&#47;L](../media/design_details_inventory_costing_1_entry_flow.png "design_details_inventory_costing_1_entry_flow")  
 
 ## Example  
  The following example shows how item ledger entries, value entries, and item application entries result in general ledger entries.  
@@ -38,13 +38,13 @@ Each inventory transaction, such as a purchase receipt or a sales shipment, post
 
  **Item Ledger Entries**  
 
-|Posting Date|Entry Type|Cost Amount \(Actual\)|Quantity|Entry No.|  
+|Posting Date|Entry Type|Cost Amount (Actual)|Quantity|Entry No.|  
 |------------------|----------------|----------------------------|--------------|---------------|  
 |01-01-20|Purchase|80.00|10|1|  
 
  **Value Entries**  
 
-|Posting Date|Entry Type|Cost Amount \(Actual\)|Item Ledger Entry No.|Entry No.|  
+|Posting Date|Entry Type|Cost Amount (Actual)|Item Ledger Entry No.|Entry No.|  
 |------------------|----------------|----------------------------|---------------------------|---------------|  
 |01-01-20|Direct Cost|70.00|1|1|  
 |01-01-20|Indirect Cost|10.00|1|2|  
@@ -59,13 +59,13 @@ Each inventory transaction, such as a purchase receipt or a sales shipment, post
 
  **Item Ledger Entries**  
 
-|Posting Date|Entry Type|Cost Amount \(Actual\)||Quantity|Entry No.|  
+|Posting Date|Entry Type|Cost Amount (Actual)||Quantity|Entry No.|  
 |------------------|----------------|----------------------------|-|--------------|---------------|  
 |01-15-20|Sale|-80.00||-10|2|  
 
  **Value Entries**  
 
-|Posting Date|Entry Type|Cost Amount \(Actual\)|Item Ledger Entry No.|Entry No.|  
+|Posting Date|Entry Type|Cost Amount (Actual)|Item Ledger Entry No.|Entry No.|  
 |------------------|----------------|----------------------------|---------------------------|---------------|  
 |01-15-20|Direct Cost|-80.00|2|3|  
 
@@ -75,7 +75,7 @@ Each inventory transaction, such as a purchase receipt or a sales shipment, post
 |---------------|---------------------------|----------------------------|-----------------------------|--------------|  
 |2|2|1|2|-10|  
 
- At the end of the accounting period, you run the **Post Inventory Cost to G\/L** batch job to reconcile these inventory transactions with the general ledger.  
+ At the end of the accounting period, you run the **Post Inventory Cost to G/L** batch job to reconcile these inventory transactions with the general ledger.  
 
  For more information, see [Design Details: Reconciliation with the General Ledger](design-details-accounts-in-the-general-ledger.md).  
 
@@ -83,7 +83,7 @@ Each inventory transaction, such as a purchase receipt or a sales shipment, post
 
  **Value Entries**  
 
-|Posting Date|Entry Type|Cost Amount \(Actual\)|Cost Posted to G\/L|Item Ledger Entry No.|Entry No.|  
+|Posting Date|Entry Type|Cost Amount (Actual)|Cost Posted to G/L|Item Ledger Entry No.|Entry No.|  
 |------------------|----------------|----------------------------|-------------------------|---------------------------|---------------|  
 |01-01-20|Direct Cost|70.00|70.00|1|1|  
 |01-01-20|Indirect Cost|10.00|10.00|1|2|  
@@ -91,25 +91,25 @@ Each inventory transaction, such as a purchase receipt or a sales shipment, post
 
  **General Ledger Entries**  
 
-|Posting Date|G\/L Account|Account No. \(En-US Demo\)||Amount|Entry No.|  
+|Posting Date|G/L Account|Account No. (En-US Demo)||Amount|Entry No.|  
 |------------------|------------------|---------------------------------|-|------------|---------------|  
-|01-01-20|\[Inventory Account\]|2130||70.00|1|  
-|01-01-20|\[Direct Cost Applied Account\]|7291||-70.00|2|  
-|01-01-20|\[Inventory Account\]|2130||10.00|3|  
-|01-01-07|\[Overhead Applied Account\]|7292||-10.00|4|  
-|01-15-20|\[Inventory Account\]|2130||-80.00|5|  
-|01-15-20|\[COGS Account\]|7290||80.00|6|  
+|01-01-20|[Inventory Account]|2130||70.00|1|  
+|01-01-20|[Direct Cost Applied Account]|7291||-70.00|2|  
+|01-01-20|[Inventory Account]|2130||10.00|3|  
+|01-01-07|[Overhead Applied Account]|7292||-10.00|4|  
+|01-15-20|[Inventory Account]|2130||-80.00|5|  
+|01-15-20|[COGS Account]|7290||80.00|6|  
 
 > [!NOTE]  
 >  The posting date of the general ledger entries is the same as for the related value entries.  
 >   
->  The **Cost Posted to G\/L** field in the **Value Entry** table is filled.  
+>  The **Cost Posted to G/L** field in the **Value Entry** table is filled.  
 
- The relation between value entries and general ledger entries is stored in the **G\/L - Item Ledger Relation** table.  
+ The relation between value entries and general ledger entries is stored in the **G/L - Item Ledger Relation** table.  
 
- **Relation Entries in the G\/L – Item Ledger Relation table**  
+ **Relation Entries in the G/L – Item Ledger Relation table**  
 
-|G\/L Entry No.|Value Entry No.|G\/L Register No.|  
+|G/L Entry No.|Value Entry No.|G/L Register No.|  
 |--------------------|---------------------|-----------------------|  
 |1|1|1|  
 |2|1|1|  

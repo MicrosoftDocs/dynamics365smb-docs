@@ -27,7 +27,7 @@ Many manufacturing companies select a valuation base of standard cost. This also
 |**Prod. Order**|Direct material cost, labor cost, subcontractor cost, and overhead cost.|  
   
 ## Setting Up Standard Costs  
- Because the standard cost of a produced or assembled item can consist of multiple cost elements, including material, capacity \(labor\) and direct and overhead subcontractor costs, standard costs must be established for each of these elements.  
+ Because the standard cost of a produced or assembled item can consist of multiple cost elements, including material, capacity (labor) and direct and overhead subcontractor costs, standard costs must be established for each of these elements.  
   
  The accounting task for an item-processing company using standard costing is to:  
   
@@ -54,7 +54,7 @@ Many manufacturing companies select a valuation base of standard cost. This also
   
  The setup of the material cost for purchased items that affect direct and indirect cost depends on the costing method that you have selected for the specified item. You set up cost information for either costing method on the **Invoicing** FastTab of the item card.  
   
- The cost of scrap \(production only\) is an additional factor to consider when you calculate the total material cost. When a certain amount of raw material is scrapped when you assemble or produce an item, it generally causes an increase in the quantity of components that are required to produce this item. This increases the material cost of the components that are consumed when producing a parent item. You set up scrap cost for materials on either the production BOM or routing.  
+ The cost of scrap (production only) is an additional factor to consider when you calculate the total material cost. When a certain amount of raw material is scrapped when you assemble or produce an item, it generally causes an increase in the quantity of components that are required to produce this item. This increases the material cost of the components that are consumed when producing a parent item. You set up scrap cost for materials on either the production BOM or routing.  
   
  The material cost of a produced item can be represented in two ways that correspond to the following cost calculation bases.  
   
@@ -64,7 +64,7 @@ Many manufacturing companies select a valuation base of standard cost. This also
 |Rolled-up level or multilevel|Produced item is the sum of the material cost for all subassemblies on that item's BOM and the cost of all purchased items on that item's production BOM.|  
   
 ### Capacity Costs  
- Capacity costs are the costs that are associated with internal labor and machine costs. You must set up these costs for each resource \(in assembly management\) and work or machine center on the routing \(in production\). As with materials, you can identify both direct and indirect elements of capacity cost. For example, the direct cost for a work center may be the established shop rate to perform a specific function. The indirect cost for a work center may represent some general factory expenses, such as lighting, heating, and so on. As with material costs, you can express capacity overhead as an indirect cost percentage or a fixed overhead rate.  
+ Capacity costs are the costs that are associated with internal labor and machine costs. You must set up these costs for each resource (in assembly management) and work or machine center on the routing (in production). As with materials, you can identify both direct and indirect elements of capacity cost. For example, the direct cost for a work center may be the established shop rate to perform a specific function. The indirect cost for a work center may represent some general factory expenses, such as lighting, heating, and so on. As with material costs, you can express capacity overhead as an indirect cost percentage or a fixed overhead rate.  
   
  The setup of the capacity costs of assembled items consists of the following elements:  
   

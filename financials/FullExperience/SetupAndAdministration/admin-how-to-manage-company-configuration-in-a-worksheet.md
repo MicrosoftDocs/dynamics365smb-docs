@@ -55,7 +55,7 @@ The configuration worksheet is the central location in which you can plan, track
     >   
     >  -   The relation is conditional.  
     >   
-    >      Example: If you get related tables for table 18 \(**Customer**\), then table 14 \(**Location**\) will not be added, since it is only conditionally related to table 18, namely if the **Location Code** field in table 18 is filled.  
+    >      Example: If you get related tables for table 18 (**Customer**), then table 14 (**Location**) will not be added, since it is only conditionally related to table 18, namely if the **Location Code** field in table 18 is filled.  
     > -   The related table is filtered.  
     >   
     >      Example: A field in the related table has a WHERE clause.  
@@ -96,7 +96,7 @@ The configuration worksheet is the central location in which you can plan, track
     >   
     >  -   The relation is conditional.  
     >   
-    >      Example: If you get related tables for table 18 \(**Customer**\), then table 14 \(**Location**\) will not be added, since it is only conditionally related to table 18, namely if the **Location Code** field in table 18 is filled.  
+    >      Example: If you get related tables for table 18 (**Customer**), then table 14 (**Location**) will not be added, since it is only conditionally related to table 18, namely if the **Location Code** field in table 18 is filled.  
     > -   The related table is filtered.  
     >   
     >      Example: A field in the related table has a WHERE clause.  

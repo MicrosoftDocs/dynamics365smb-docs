@@ -38,6 +38,6 @@ The concept of UI customization in ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../inclu
   
 ## See Also  
  [Administration in the Clients](../administration-in-the-clients.md)   
- [Customization: Configuration and Personalization](http://msdn.microsoft.com/en-us/library/jj677170\(v=nav.70\).aspx)   
+ [Customization: Configuration and Personalization](http://msdn.microsoft.com/en-us/library/jj677170(v=nav.70).aspx)   
  [Setup and Administration](../setup-and-administration.md)   
  [Working with Product Name](../working-with-$-p_1-product-name-$-.md)

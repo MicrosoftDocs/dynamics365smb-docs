@@ -32,9 +32,9 @@ From the **Item Ledger Entries** window, you can access the value entries that r
   
  You can also see all value entries for an item by selecting the item in the **Items** window, and then, on the **Navigate** tab, in the **History** group, choose **Value Entries**.  
   
- The calculation of inventory valuation uses the **Cost Amount \(Actual\)** field in the **Value Entries** window of the value entries for the item. For more information, see [Design Details: Inventory Valuation](design-details-inventory-valuation.md).  
+ The calculation of inventory valuation uses the **Cost Amount (Actual)** field in the **Value Entries** window of the value entries for the item. For more information, see [Design Details: Inventory Valuation](design-details-inventory-valuation.md).  
   
 ## See Also  
  Value Entries   
- Cost Amount \(Actual\)%20$\).md)   
+ Cost Amount (Actual)%20$).md)   
  Value Entry

@@ -43,7 +43,7 @@ Although you count all items in inventory at least once a year, you may have dec
   
 6.  Open the report request page and print the report, and count all the items in the warehouse with the item numbers on the report lines.  
   
-7.  Enter the quantities counted in the **Qty. \(Phys. Inventory\)** field.  
+7.  Enter the quantities counted in the **Qty. (Phys. Inventory)** field.  
   
 8.  Post the results of the physical inventory. The program creates item ledger entries for the items where adjustment is necessary and physical inventory ledger entries for all the items for which you have performed the cycle count. If you are using bins, the program also creates warehouse entries for the items for which an adjustment is necessary.  
   
@@ -64,7 +64,7 @@ Although you count all items in inventory at least once a year, you may have dec
   
 6.  Count the items and note the quantities on the report.  
   
-7.  Enter the quantities that were counted in the **Qty. \(Phys. Inventory\)** field on each line.  
+7.  Enter the quantities that were counted in the **Qty. (Phys. Inventory)** field on each line.  
   
 8.  On the **Actions** tab, in the **Registering** group, choose **Register** to complete the warehouse physical inventory.  
   
@@ -82,9 +82,9 @@ Although you count all items in inventory at least once a year, you may have dec
   
 4.  Post the journal without changing any quantities.  
   
- The quantities in the item ledger \(item entries\) and the quantities in the warehouse \(warehouse entries\) are now once again the same for these items, and the program has updated the last counting date of the item or stockkeeping unit.  
+ The quantities in the item ledger (item entries) and the quantities in the warehouse (warehouse entries) are now once again the same for these items, and the program has updated the last counting date of the item or stockkeeping unit.  
   
- For the items\/stockkeeping units that you have just counted, you must now calculate the next counting period on each item\/stockkeeping unit card.  
+ For the items/stockkeeping units that you have just counted, you must now calculate the next counting period on each item/stockkeeping unit card.  
   
 ### To calculate the next counting period  
   
@@ -99,7 +99,7 @@ Although you count all items in inventory at least once a year, you may have dec
 > [!NOTE]  
 >  If you update the item cards on the same day that you post the physical inventory, then this field contains the last counting date, corresponding to the value in the **Last Phys. Invt. Date** field. If you calculate the counting period later on, this field contains the date of the counting period update.  
   
- When you have done this, the lines for these items in the **Phys. Invt. Item Selection** window will not be brought up until the work date is within the next cycle counting period, as indicated on the item\/stockkeeping unit card.  
+ When you have done this, the lines for these items in the **Phys. Invt. Item Selection** window will not be brought up until the work date is within the next cycle counting period, as indicated on the item/stockkeeping unit card.  
   
 ## See Also  
  [How to: Perform a Physical Inventory](../how-to-perform-a-physical-inventory.md)   

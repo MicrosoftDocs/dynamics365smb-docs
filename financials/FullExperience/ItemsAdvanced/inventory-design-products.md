@@ -35,7 +35,7 @@ The starting point for any business that deals with physical goods is to establi
 |Specify in which unit of measure the item is handled by default and which alternate units of measure exist.|[How to: Set Up Item Units of Measure](../how-to-set-up-item-units-of-measure.md)|  
 |Write a comment that can be shown on all documents where the item is handled.|Comment Line|  
 |Assign one or more default dimensions to the item card that will be included on related document lines and eventually work as a source of analysis of historic transactions.|Default Dimension|  
-|Attach a picture \(.bmp file\) of the item.|[How to: Insert Pictures](../how-to-insert-pictures.md)|  
+|Attach a picture (.bmp file) of the item.|[How to: Insert Pictures](../how-to-insert-pictures.md)|  
 |Define one or more variations of the item that customers may choose from.|Item Variant|  
 |Make a cross-reference between the item's number and another item code, such as a barcode.|Item Cross Reference|  
 |Specify which other items can be offered to customers if the first item choice is not available.|Item Substitution|  
@@ -44,7 +44,7 @@ The starting point for any business that deals with physical goods is to establi
 |List codes for item categories, to group items or product groups, such as furniture.|Item Category|  
 |Set up language translations for item descriptions so that foreign vendors and customers can get printed documents in their own language.|[How to: Set Up and Use Item Translations](../how-to-set-up-and-use-item-translations.md)|  
 |Write additional text that can be shown in separate document lines in addition to the item description.|[How to: Set Up Extended Text](../how-to-set-up-extended-text.md)|  
-|Set up number series and rules for serial\/lot numbers and assign item tracking codes to items for item tracking.|[How to: Set Up Item Tracking Codes](../how-to-set-up-item-tracking-codes.md)|  
+|Set up number series and rules for serial/lot numbers and assign item tracking codes to items for item tracking.|[How to: Set Up Item Tracking Codes](../how-to-set-up-item-tracking-codes.md)|  
 |Create a hierarchy of items that are sold together as one item, such as a kit.|Assembly BOM|  
 |Define an additional item record that reflects unique rules and values for the item at one location.|Create Stockkeeping Unit|  
   

@@ -41,12 +41,12 @@ In the cash flow forecast, the individual values that affect the cash flow of yo
     > [!NOTE]  
     >  The source type that is specified in the chart of cash flow accounts is used when you enter lines manually in the cash flow worksheet. When you use the **Suggest Worksheet Lines** batch job, the source type is controlled by the batch job.  
   
-7.  In the **G\/L Integration** field, select an option.  
+7.  In the **G/L Integration** field, select an option.  
   
     > [!NOTE]  
     >  When a cash flow account is integrated with the general ledger, either the balances of the general ledger accounts or their budget values are included in cash flow forecast.  
   
-8.  In the **G\/L Account Filter** field, enter a filter to specify that only the entries that are registered to the filtered accounts are included in cash flow forecast.  
+8.  In the **G/L Account Filter** field, enter a filter to specify that only the entries that are registered to the filtered accounts are included in cash flow forecast.  
   
 9. Choose the **OK** button to close the window.  
   

@@ -49,7 +49,7 @@ You can set up a new company in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/
 |Find solutions to known issues in the ADD INCLUDE<!--[!INCLUDE[rim](../../includes/tips-and-tricks-rapidstart-services.md)|  
 |Create customized views in the ADD INCLUDE<!--[!INCLUDE[rimlong](../../includes/how-to-create-custom-company-configuration-packages.md)|  
   
- In addition, Microsoft provides partners with the SureStep methodology to help with the full spectrum of activities that you must have to complete a customer implementation. For more information, [Drive Down the Number of Deployment Days for Microsoft Dynamics NAV](http://go.microsoft.com/fwlink/?LinkId=255256) \(requires PartnerSource account\).  
+ In addition, Microsoft provides partners with the SureStep methodology to help with the full spectrum of activities that you must have to complete a customer implementation. For more information, [Drive Down the Number of Deployment Days for Microsoft Dynamics NAV](http://go.microsoft.com/fwlink/?LinkId=255256) (requires PartnerSource account).  
   
 ## See Also  
  [Set Up Complex Application Areas Using Best Practices](../set-up-complex-application-areas-using-best-practices.md)   

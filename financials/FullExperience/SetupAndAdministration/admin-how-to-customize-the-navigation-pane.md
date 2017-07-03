@@ -23,7 +23,7 @@ You can customize the navigation pane with the **Customize Navigation Pane** win
   
 ### To start customizing the navigation pane window  
   
--   On the **Application** menu ![Microsoft Dynamics NAV Application menu](../media/rtc_applicationmenu.png "RTC\_ApplicationMenu"), choose **Customize**, and then choose **Customize Navigation Pane**.  
+-   On the **Application** menu ![Microsoft Dynamics NAV Application menu](../media/rtc_applicationmenu.png "RTC_ApplicationMenu"), choose **Customize**, and then choose **Customize Navigation Pane**.  
   
 ## Renaming or Rearranging Buttons in the Navigation Pane  
  You cannot move, rename, or remove the **Home** button. The **Departments** button can be removed from the navigation pane, but not renamed or moved. However, you can move, rename, or remove other menu buttons in your navigation pane.  
@@ -72,7 +72,7 @@ You can customize the navigation pane with the **Customize Navigation Pane** win
 2.  Use the **Move Up** and **Move Down** buttons to position the link.  
   
 ## Restoring Default Settings  
- If you want to cancel all the changes that you have made \(and saved\) to the navigation pane, you can do this in the **Customize Navigation Pane** dialog box. All the customization of the navigation pane that you have ever made under your current user logon or since you last used the **Restore Defaults** button are canceled. The navigation pane is reset to the default configuration for your profile. For more information, see [How to: Cancel UI Personalization](../how-to-cancel-ui-personalization.md).  
+ If you want to cancel all the changes that you have made (and saved) to the navigation pane, you can do this in the **Customize Navigation Pane** dialog box. All the customization of the navigation pane that you have ever made under your current user logon or since you last used the **Restore Defaults** button are canceled. The navigation pane is reset to the default configuration for your profile. For more information, see [How to: Cancel UI Personalization](../how-to-cancel-ui-personalization.md).  
   
 #### To restore default settings  
   

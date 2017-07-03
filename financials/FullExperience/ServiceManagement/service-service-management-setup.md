@@ -31,7 +31,7 @@ In the **Service Mgt. Setup** window, you can decide how you want certain aspect
  Use this FastTab to specify certain features that have to be set up to use contracts. You must fill in the **Contract Serv. Ord. Max. Days** field.  
   
 ## Numbering FastTab  
- Use this FastTab to set up a number series for service items, service orders, service contracts, service contract templates, troubleshooting, service invoices and service credit memos \(both posted and unposted\), posted service shipments, in addition to prepaid documents and loaners. Depending on your set up specification, the next available number is automatically entered or you can enable manual numbering according to the setup of each number series.  
+ Use this FastTab to set up a number series for service items, service orders, service contracts, service contract templates, troubleshooting, service invoices and service credit memos (both posted and unposted), posted service shipments, in addition to prepaid documents and loaners. Depending on your set up specification, the next available number is automatically entered or you can enable manual numbering according to the setup of each number series.  
   
 ## See Also  
  Service Mgt. Setup

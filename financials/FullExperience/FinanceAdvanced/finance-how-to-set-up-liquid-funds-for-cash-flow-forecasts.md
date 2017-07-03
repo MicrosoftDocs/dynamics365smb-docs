@@ -32,9 +32,9 @@ To include the liquid funds in the general ledger for the cash flow forecast, yo
   
 6.  In the **Source Type** field, select **Liquid Funds**.  
   
-7.  In the **G\/L Integration** field, select **Balance**.  
+7.  In the **G/L Integration** field, select **Balance**.  
   
-8.  In the **G\/L Account Filter** field, enter a filter, for example **2910..2940**, to specify that only the entries that are registered to the filtered accounts from 2910 through 2940 are included in liquid funds for the cash flow forecast.  
+8.  In the **G/L Account Filter** field, enter a filter, for example **2910..2940**, to specify that only the entries that are registered to the filtered accounts from 2910 through 2940 are included in liquid funds for the cash flow forecast.  
   
 9. Choose the **OK** button to close the window.  
   

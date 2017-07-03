@@ -23,11 +23,11 @@ Before starting actual production activities, it is often necessary to fine sche
 |**To**|**See**|  
 |------------|-------------|  
 |View a list of production orders to schedule or control.|Released Production Order|  
-|View the sum of setup and run time allocated for one production order routing to perform a specific operation, or view the sum of time allocated for one machine\/work center to perform operations for multiple production orders.|Prod. Order Capacity Need|  
-|Learn how to use the **Work Center Load** window to fine schedule production activities \(works similarly for machine centers\).|Work Center Load|  
-|View the load on a work center over time \(works similarly for machine centers\).|[How to: Display the Load on Work Centers](../how-to-display-the-load-on-work-centers.md)|  
+|View the sum of setup and run time allocated for one production order routing to perform a specific operation, or view the sum of time allocated for one machine/work center to perform operations for multiple production orders.|Prod. Order Capacity Need|  
+|Learn how to use the **Work Center Load** window to fine schedule production activities (works similarly for machine centers).|Work Center Load|  
+|View the load on a work center over time (works similarly for machine centers).|[How to: Display the Load on Work Centers](../how-to-display-the-load-on-work-centers.md)|  
 |View a report of loads on machine and work centers.|Work Center Load|  
-|View a list of work centers that are overloaded, shown by efficiency bars \(works similarly for machine centers\).|Work Center Load - Bar|  
+|View a list of work centers that are overloaded, shown by efficiency bars (works similarly for machine centers).|Work Center Load - Bar|  
 |Suspend the strict capacity need calculation to allow one or more operations to extend into unavailable shop calendar time.|Schedule Manually|  
 |Get an overview of operations that are currently outsourced and do not require internal scheduling.|Subcontractor - Dispatch List|  
   

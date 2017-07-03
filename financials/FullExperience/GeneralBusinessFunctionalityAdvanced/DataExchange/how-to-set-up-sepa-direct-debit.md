@@ -19,7 +19,7 @@
 From the **Direct Debit Collections** window, you can export instructions to your electronic bank to perform a direct debit collection from the customer’s bank account to your bank account. For more information, see [Collect Payments with SEPA Direct Debit](../collect-payments-with-sepa-direct-debit.md).  
   
 > [!NOTE]  
->  The generic version of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]--> supports the SEPA Credit Transfer format. In your country\/region, other formats for electronic payments may be available.  
+>  The generic version of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]--> supports the SEPA Credit Transfer format. In your country/region, other formats for electronic payments may be available.  
 >   
 >  To enable export of a bank file formats that are not supported by the generic or local versions of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/how-to-set-up-data-exchange-definitions.md).  
   
@@ -83,7 +83,7 @@ From the **Direct Debit Collections** window, you can export instructions to you
     |**Valid From**|Specify the date when the direct-debit mandate starts.|  
     |**Valid To**|Specify the date when the direct-debit mandate ends.|  
     |**Date of Signature**|Specify the date when the customer signed the direct-debit mandate.|  
-    |**Sequence Type**|Specify if the agreement covers multiple \(**Recurring**\) or a single \(**One Off**\) direct debit collection.|  
+    |**Sequence Type**|Specify if the agreement covers multiple (**Recurring**) or a single (**One Off**) direct debit collection.|  
     |**Expected Number of Debits**|Specify how many direct debit collections you expect to make. This field is only relevant if you selected **Recurring** in the **Sequence Type** field.|  
     |**Debit Counter**|Specifies how many direct debit collections have been made using this direct-debit mandate. This field is automatically updated.|  
     |**Blocked**|Specify that direct debit collections cannot be made using this direct-debit mandate.|  

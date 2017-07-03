@@ -16,13 +16,13 @@
 
 ---
 # How to: Make General Changes in Direct Unit Cost
-If you need to change the direct unit cost for several items, you can use the **Adjust Item Costs\/Prices** batch job.  
+If you need to change the direct unit cost for several items, you can use the **Adjust Item Costs/Prices** batch job.  
   
  The batch job changes the contents in the **Unit Price** field on the item card. The batch job changes the content of the field in the same way for all items or selected items. The batch job multiplies the value in the field by an adjustment factor that you specify.  
   
 ### To make a general change in direct unit cost  
   
-1.  In the **Search** box, enter **Adjust Item Costs\/Prices**, and then choose the related link.  
+1.  In the **Search** box, enter **Adjust Item Costs/Prices**, and then choose the related link.  
   
 2.  On the **Options** FastTab, in the **Adjust Field** field, specify which item or SKU card field you want to adjust.  
   

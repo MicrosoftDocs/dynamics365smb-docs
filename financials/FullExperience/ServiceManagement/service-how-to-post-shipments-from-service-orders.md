@@ -33,7 +33,7 @@ After specifying the details of a service, you can adjust and post the quantitie
   
 4.  Click **Actions**, **Posting**, **Post**. In the window that appears, select **Ship**.  
   
- The program creates the relevant ledger entries \(in the warranty ledger, item ledger, service ledger, or G\/L\) in the database. The program also produces the posted service shipment document and updates the relevant fields on the service lines of the service order.  
+ The program creates the relevant ledger entries (in the warranty ledger, item ledger, service ledger, or G/L) in the database. The program also produces the posted service shipment document and updates the relevant fields on the service lines of the service order.  
   
  If the location is set up to require warehouse handling, then the shipping and moving of service line items function in the same ways as for other source documents. The only difference is that service line items can be consumed either externally or internally and therefore require two different release functions. For more information, see [How to: Prepare Service Line Items for Warehouse Handling](../how-to-prepare-service-line-items-for-warehouse-handling.md).  
   

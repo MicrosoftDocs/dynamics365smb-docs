@@ -32,14 +32,14 @@ Sometimes you may find a link on a **Departments** page that you want to add to 
 |Tasks|Task pages, batch jobs, worksheets, journals|**Actions** menu|  
 |Reports and Analysis|Reports, batch jobs, matrix windows|**Reports** menu|  
 |Documents|Documents such as invoices and reminders|**Reports** menu|  
-|History|Posted\/finished documents, registers|**Actions** menu|  
+|History|Posted/finished documents, registers|**Actions** menu|  
 |Administration|Setup windows|**Actions** menu|  
   
 ### To copy department links to your role center  
   
 1.  Choose the **Departments** menu button and locate the link on a **Departments** page.  
   
-2.  In the shortcut menu on the link choose one of the following \(only one of these options will be available\).  
+2.  In the shortcut menu on the link choose one of the following (only one of these options will be available).  
   
     |**Select**|**To add the link to**|  
     |----------------|----------------------------|  

@@ -32,7 +32,7 @@ From outbound documents for item-tracked items, such as sales orders or producti
   
 3.  On the **Lines** FastTab, choose **Line**, and then choose **Item Tracking Lines**.  
   
-4.  In the **Serial No.** field, enter **SN1**, in the **Lot No.** field, enter **LOT1**, and then enter **1** in the **Quantity \(Base\)** field.  
+4.  In the **Serial No.** field, enter **SN1**, in the **Lot No.** field, enter **LOT1**, and then enter **1** in the **Quantity (Base)** field.  
   
 5.  Close the **Item Tracking List** window.  
   

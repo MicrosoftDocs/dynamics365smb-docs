@@ -31,7 +31,7 @@ This topic provides a high-level overview of how you can work through the consol
 
      For more information about how to enter information about the subsidiary, see [How to: Enter Basic Information for Consolidated Companies](../how-to-enter-basic-information-for-consolidated-companies.md).  
 
-3.  You can specify exchange rates when consolidating the financial statements of business units if the financial statements are in a foreign currency. The three exchange rates that are used are **Average Rate \(Manual\)**, **Closing Rate**, and **Last Closing Rate**.  
+3.  You can specify exchange rates when consolidating the financial statements of business units if the financial statements are in a foreign currency. The three exchange rates that are used are **Average Rate (Manual)**, **Closing Rate**, and **Last Closing Rate**.  
 
      For more information about how to specify exchange rates, see [How to: Specify Exchange Rates for Consolidations](../how-to-specify-exchange-rates-for-consolidations.md).  
 
@@ -93,8 +93,8 @@ This topic provides a high-level overview of how you can work through the consol
 
 3.  Post the journal.  
 
- Before you post the eliminations, you can verify the effect on the trial balance of the consolidated company by using the **G\/L Consolidation Eliminations** report. The report displays a tentative trial balance. It shows the consequences of eliminating the entries by comparing the entries in the consolidated company with the eliminations that have been entered in the general journal. Calculating the eliminations is a time-consuming manual process that may be aided by setting up specific intercompany accounts, intercompany customers\/vendors, and intercompany posting groups.  
+ Before you post the eliminations, you can verify the effect on the trial balance of the consolidated company by using the **G/L Consolidation Eliminations** report. The report displays a tentative trial balance. It shows the consequences of eliminating the entries by comparing the entries in the consolidated company with the eliminations that have been entered in the general journal. Calculating the eliminations is a time-consuming manual process that may be aided by setting up specific intercompany accounts, intercompany customers/vendors, and intercompany posting groups.  
 
 ## See Also  
  Consolidated Trial Balance   
- Consolidated Trial Balance \(4\)%20$\).md)
+ Consolidated Trial Balance (4)%20$).md)

@@ -70,9 +70,9 @@ A work center calendar specifies the working days and hours, shifts, holidays, a
   
 7.  Define the holidays of the year by entering the start date and time, the end time, and description of each holiday on individual lines. For example:  
   
-     04\/07\/14 0:00:00 23:59:00 Summer Holiday  
-    05\/07\/14 0:00:00 23:59:00 Summer Holiday  
-    06\/07\/14 0:00:00 23:59:00 Summer Holiday  
+     04/07/14 0:00:00 23:59:00 Summer Holiday  
+    05/07/14 0:00:00 23:59:00 Summer Holiday  
+    06/07/14 0:00:00 23:59:00 Summer Holiday  
   
  The defined holidays will have zero available capacity in a work center calendar.  
   
@@ -99,7 +99,7 @@ A work center calendar specifies the working days and hours, shifts, holidays, a
   
 6.  On the **Work Center** FastTab, you can set a filter to only calculate for one work center. If you do not set a filter, all existing work center calendars will be calculated.  
   
-7.  Define the starting and ending dates of the calendar period that should be calculated, for example, one year from 01\/01\/14 to 31\/12\/14. Choose the **OK** button to calculate capacity.  
+7.  Define the starting and ending dates of the calendar period that should be calculated, for example, one year from 01/01/14 to 31/12/14. Choose the **OK** button to calculate capacity.  
   
  Calendar entries are now created or updated displaying the available capacity for each period according to the following three sets of master data:  
   
@@ -119,7 +119,7 @@ A work center calendar specifies the working days and hours, shifts, holidays, a
   
 3.  In the **Absence** window, define the starting time, ending time, and description of that day’s absence. For example:  
   
-     25\/01\/01 08:00 10:00 Maintenance  
+     25/01/01 08:00 10:00 Maintenance  
   
 4.  On the **Navigate** tab, in the **Absence** group, choose **Update**, and then close the **Absence** window.  
   

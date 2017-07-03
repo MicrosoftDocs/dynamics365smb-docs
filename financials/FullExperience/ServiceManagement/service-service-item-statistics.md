@@ -31,9 +31,9 @@ In the **Service Item Statistics** window, you can see up-to-date information ab
   
 -   Total  
   
- For each entry type, you can see the invoiced amount, usage \(amount\), cost amount, quantity, quantity invoiced and quantity consumed, profit amount and profit percentage. The profit percentage is calculated according to the following formula:  
+ For each entry type, you can see the invoiced amount, usage (amount), cost amount, quantity, quantity invoiced and quantity consumed, profit amount and profit percentage. The profit percentage is calculated according to the following formula:  
   
- \(Invoiced Amount - Usage \(Cost\)\) x 100 \/ Invoiced Amount\)  
+ (Invoiced Amount - Usage (Cost)) x 100 / Invoiced Amount)  
   
 ## See Also  
  Service Item Statistics

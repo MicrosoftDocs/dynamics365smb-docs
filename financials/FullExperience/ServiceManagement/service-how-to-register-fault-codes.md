@@ -34,7 +34,7 @@ When the customer brings in a service item for repair, you can assign a fault co
   
 6.  In the **Fault Code** field, select the relevant fault code. If an appropriate fault code is not available, you can set up a new fault code.  
   
- Alternatively, you can register both fault and resolution codes using fault\/resolution codes relationships.  
+ Alternatively, you can register both fault and resolution codes using fault/resolution codes relationships.  
   
 ## See Also  
  [How to: Register Resolution Codes](../how-to-register-resolution-codes.md)   

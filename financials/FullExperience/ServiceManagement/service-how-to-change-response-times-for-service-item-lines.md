@@ -26,7 +26,7 @@ When you register a service item line in a service order or quote, the response 
   
 3.  Select the service item line you want to change the response time for.  
   
-4.  Either in the **Response Time \(Hours\)** field or in the **Response Date** and **Response Time** fields, enter the new response hours or response date and time.  
+4.  Either in the **Response Time (Hours)** field or in the **Response Date** and **Response Time** fields, enter the new response hours or response date and time.  
   
 ## See Also  
  [How to: Create Service Orders](../how-to-create-service-orders.md)

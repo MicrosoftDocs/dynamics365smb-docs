@@ -25,18 +25,18 @@
 ## Calculating with a Requested Receipt Date  
  If there is a requested receipt date on the purchase order line, then that date is used as the starting point for the following calculations.  
   
- requested receipt date - lead time calculation \= order date  
+ requested receipt date - lead time calculation = order date  
   
- requested receipt date \+ inbound whse. handling time \+ safety lead time \= expected receipt date  
+ requested receipt date + inbound whse. handling time + safety lead time = expected receipt date  
   
  If you entered a requested receipt date on the purchase order header, then that date is copied to the corresponding field on all the lines. You can change this date on any of the lines, or you can remove the date on the line.  
   
 ## Calculating without a Requested Delivery Date  
  If you enter a purchase order line without a requested delivery date, then the **Order Date** field on the line is filled with the date in the **Order Date** field on the purchase order header. This is either the date that you entered or the work date. The following dates are then calculated for the purchase order line, with the order date as the starting point.  
   
- order date \+ lead time calculation \= planned receipt date  
+ order date + lead time calculation = planned receipt date  
   
- planned receipt date \+ inbound whse. handling time \+ safety lead time \= expected receipt date  
+ planned receipt date + inbound whse. handling time + safety lead time = expected receipt date  
   
  If you change the order date on the line, such as when items are not available at your vendor until a later date, then the relevant dates on the line are automatically recalculated.  
   

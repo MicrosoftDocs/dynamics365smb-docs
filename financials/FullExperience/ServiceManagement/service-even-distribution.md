@@ -23,9 +23,9 @@ If you change the annual amount of the service contract or contract quote, you m
 2.  The **Line Amount** field value is updated by adding the result of the previous operation.  
   
 3.  The contents in the **Line Discount Amount**, **Line Discount %**, and **Profit** fields are updated with regard to the new value in the **Line Amount** field in the following way:   
-    Line Discount Amount \= Line Value - Line Amount.  
-    Line Discount % \= Line Discount Amount \/ Line Value \* 100.  
-    Profit \= Line Amount - Line Cost.  
+    Line Discount Amount = Line Value - Line Amount.  
+    Line Discount % = Line Discount Amount / Line Value * 100.  
+    Profit = Line Amount - Line Cost.  
   
  The steps are repeated for each contract line.  
   
@@ -38,9 +38,9 @@ If you change the annual amount of the service contract or contract quote, you m
 |Item 2|40.00|50.00|10.00|5.00|45.00|5.00|  
 |Item 3|50.00|70.00|10.00|7.00|63.00|13.00|  
   
- The **Annual Amount** field value is equal to the contents of the **Calcd. Annual Amount** field, which is always set to the sum of the line amounts. In this case, it is equal to the following:  40 \+ 45 \+ 63 \= 148.  
+ The **Annual Amount** field value is equal to the contents of the **Calcd. Annual Amount** field, which is always set to the sum of the line amounts. In this case, it is equal to the following:  40 + 45 + 63 = 148.  
   
- If you change the **Annual Amount** to 139, the amount is calculated that should be added to each **Line Amount** field value. This amount is calculated by subtracting the **Calcd. Annual Amount** from the new **Annual Amount** field value and dividing the result by the number of the contract lines in the service contract. In this case, it will be equal to the following: \(139 - 148\) \/ 3 \= -3. Then, the last calculated figure is added to each **Line Amount** field value and the **Line Discount %**, **Line Discount Amount**, and **Profit** field values are updated using the formulas in the procedure described above.  
+ If you change the **Annual Amount** to 139, the amount is calculated that should be added to each **Line Amount** field value. This amount is calculated by subtracting the **Calcd. Annual Amount** from the new **Annual Amount** field value and dividing the result by the number of the contract lines in the service contract. In this case, it will be equal to the following: (139 - 148) / 3 = -3. Then, the last calculated figure is added to each **Line Amount** field value and the **Line Discount %**, **Line Discount Amount**, and **Profit** field values are updated using the formulas in the procedure described above.  
   
  Finally, the contract lines will contain this data.  
   

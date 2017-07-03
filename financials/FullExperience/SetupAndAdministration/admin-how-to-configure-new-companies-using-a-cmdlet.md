@@ -33,7 +33,7 @@ In a number of scenarios, you may want to load and import a configuration packag
 4.  Enter **Invoke-NAVCodeUnit**, and specify information similar to the following example.  
 
     ```  
-    Invoke-NAVCodeunit -Tenant Default -CompanyName "CRONUS International Ltd." -CodeunitId 8620 -MethodName ImportRapidStartPackage -Argument "C:\TEMP\RS_CONFIG.rapidstart" -ServerInstance DynamicsNAV71  
+    Invoke-NAVCodeunit -Tenant Default -CompanyName "CRONUS International Ltd." -CodeunitId 8620 -MethodName ImportRapidStartPackage -Argument "C:TEMPRS_CONFIG.rapidstart" -ServerInstance DynamicsNAV71  
 
     ```  
 

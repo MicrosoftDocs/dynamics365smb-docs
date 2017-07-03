@@ -28,9 +28,9 @@ If you want to change the inventory value of an item or that of a specific recei
   
 3.  When you have filled in the journal, select the first line that you want to revalue.  
   
-4.  In the **Unit Cost \(Revalued\)** field, enter the new unit cost, or enter the new total amount in the **Inventory Value \(Revalued\)** field.  
+4.  In the **Unit Cost (Revalued)** field, enter the new unit cost, or enter the new total amount in the **Inventory Value (Revalued)** field.  
   
-     The relevant fields are automatically updated. Note that the **Amount** field shows the actual change in inventory value for the selected item ledger entry. It calculates the difference between the **Inventory Value \(Calculated\)** field and the **Inventory Value \(Revalued\)** field.  
+     The relevant fields are automatically updated. Note that the **Amount** field shows the actual change in inventory value for the selected item ledger entry. It calculates the difference between the **Inventory Value (Calculated)** field and the **Inventory Value (Revalued)** field.  
   
 5.  When you have finished the revaluation, post the journal.  
   

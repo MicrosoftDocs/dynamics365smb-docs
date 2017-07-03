@@ -30,4 +30,4 @@ You use profiles to link Role Centers to users. Like Role Centers, profiles alig
 |Work with the Profile List window.|Profile List|  
   
 ## See Also  
- [Profiles and Roles Centers \(from the Microsoft Dynamics NAV 2013 Developer and IT Pro Documentation, on MSDN\)](http://msdn.microsoft.com/en-us/library/dd355357.aspx)
+ [Profiles and Roles Centers (from the Microsoft Dynamics NAV 2013 Developer and IT Pro Documentation, on MSDN)](http://msdn.microsoft.com/en-us/library/dd355357.aspx)

@@ -18,23 +18,23 @@
 # Manage Sales Returns
 Compensating a customer who is dissatisfied with an item that a company has sold them is a necessary and important transaction between a company and its customer. The faster and more accurately a company carries out the activities involved in a return process, the more likely the company is to foster the customer's perception of good customer service.  
   
- Typically, the salesperson responsible for the interface with certain customers would also be the contact person to receive complaints from those customers about the items sold. In other cases, a company may have a dedicated person\(s\) specifically dealing with returns; for example, employees in the customer service department.  
+ Typically, the salesperson responsible for the interface with certain customers would also be the contact person to receive complaints from those customers about the items sold. In other cases, a company may have a dedicated person(s) specifically dealing with returns; for example, employees in the customer service department.  
   
  Irrespective of the industry in which that company operates, the typical customer-oriented return handling process includes the following tasks:  
   
 -   Determine a compensation agreement with the customer.  
   
--   Shipping a replacement item\(s\) to the customer \(if replacement is part of the compensation agreement\).  
+-   Shipping a replacement item(s) to the customer (if replacement is part of the compensation agreement).  
   
--   Crediting the customer \(either by means of a credit for physically returned items or a sales allowance where the customer is not required to physically return the items\).  
+-   Crediting the customer (either by means of a credit for physically returned items or a sales allowance where the customer is not required to physically return the items).  
   
--   Shipping a repaired item\(s\) to the customer \(if repair is a part of a compensation agreement\).  
+-   Shipping a repaired item(s) to the customer (if repair is a part of a compensation agreement).  
   
--   Follow-up on the return status \(in case of customer inquiries\).  
+-   Follow-up on the return status (in case of customer inquiries).  
   
  Related to the customer-facing process, there are a number of internal handling tasks:  
   
--   Receiving returned items and inspecting them \(if relevant\).  
+-   Receiving returned items and inspecting them (if relevant).  
   
 -   Applying restock charges.  
   
@@ -59,9 +59,9 @@ Compensating a customer who is dissatisfied with an item that a company has sold
 |Have the vendor compensate you for a purchased item by replacing the item.|[How to: Create Replacement Sales Orders](../how-to-create-replacement-sales-orders.md)|  
 |Return several items to a vendor, which are covered by different purchase return orders.|[How to: Combine Return Shipments](../how-to-combine-return-shipments.md)|  
 |Choose, for example, to post the sales return as received first to update inventory availability and later post it as invoiced to update inventory valuation and to create a posted sales credit memo.|[How to: Post Sales Returns](../how-to-post-sales-returns.md)|  
-|Ensure that the originally shipped serial\/lot numbers are reversed in the sales return process.|[How to: Handle Item Tracking Lines with the Get Lines Function](../how-to-handle-item-tracking-lines-with-the-get-lines-function.md)|  
-|Determine where a returned defective serial\/lot number originates from and if the defective lot is sold on other orders.|[How to: Trace Item-Tracked Items](../how-to-trace-item-tracked-items.md)|  
-|Undo the quantity posting of a return receipt where the sales return document \(sales credit memo\) has not yet been invoiced.|[How to: Undo Quantity Posting on Posted Return Receipts](../how-to-undo-quantity-posting-on-posted-return-receipts.md)|  
+|Ensure that the originally shipped serial/lot numbers are reversed in the sales return process.|[How to: Handle Item Tracking Lines with the Get Lines Function](../how-to-handle-item-tracking-lines-with-the-get-lines-function.md)|  
+|Determine where a returned defective serial/lot number originates from and if the defective lot is sold on other orders.|[How to: Trace Item-Tracked Items](../how-to-trace-item-tracked-items.md)|  
+|Undo the quantity posting of a return receipt where the sales return document (sales credit memo) has not yet been invoiced.|[How to: Undo Quantity Posting on Posted Return Receipts](../how-to-undo-quantity-posting-on-posted-return-receipts.md)|  
   
 ## See Also  
  [Receiving](../receiving.md)   

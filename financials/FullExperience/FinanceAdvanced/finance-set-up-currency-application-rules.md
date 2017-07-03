@@ -22,7 +22,7 @@ You can allow transactions in different currencies to be applied to one another,
   
 -   Prohibit applying any currencies to one another, or  
   
--   Specify a group of Economic and Monetary Union \(EMU\) currencies that can be applied to one another.  
+-   Specify a group of Economic and Monetary Union (EMU) currencies that can be applied to one another.  
   
  When you apply entries in different currencies to each other, there may be a difference between the two amounts when they are converted to LCY. You can specify how large of a difference you will allow, so that the entries can be closed. The difference will then be posted as a rounding difference.  
   

@@ -22,13 +22,13 @@ You can view balances for all general ledger accounts for all periods.
   
 1.  In the **Search** box, enter **Chart of Accounts**, and then choose the related link.  
   
-2.  In the **Chart of Accounts** window, on the **Navigate** tab, in the **Balance** group, choose **G\/L Balance by Dimension**.  
+2.  In the **Chart of Accounts** window, on the **Navigate** tab, in the **Balance** group, choose **G/L Balance by Dimension**.  
   
-3.  Fill in the fields in the **G\/L Balance by Dimension** window. You can choose to have the calculations include or exclude closing entries by selecting the appropriate option in the **Closing Entries** field. You can also add filters, although the filter pane is not displayed by default.  
+3.  Fill in the fields in the **G/L Balance by Dimension** window. You can choose to have the calculations include or exclude closing entries by selecting the appropriate option in the **Closing Entries** field. You can also add filters, although the filter pane is not displayed by default.  
   
 4.  On the **Home** tab, choose **Show Matrix** to view the matrix window.  
   
 ## See Also  
  [How to: View Debit Balances and Credit Balances for All General Ledger Accounts](../how-to-view-debit-balances-and-credit-balances-for-all-general-ledger-accounts.md)   
  [How to: View Debit and Credit Balances for Single General Ledger Accounts](../how-to-view-debit-and-credit-balances-for-single-general-ledger-accounts.md)   
- G\/L Balance by Dimension
+ G/L Balance by Dimension

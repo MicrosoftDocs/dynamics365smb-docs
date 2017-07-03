@@ -48,6 +48,6 @@ As an administrator, you configure the company’s default user interfaces by cu
   
 ## See Also  
  [Customize the User Interface](../customize-the-user-interface.md)   
- [Customization: Configuration and Personalization](http://msdn.microsoft.com/en-us/library/jj677170\(v=nav.70\).aspx)   
+ [Customization: Configuration and Personalization](http://msdn.microsoft.com/en-us/library/jj677170(v=nav.70).aspx)   
  [Administration in the Clients](../administration-in-the-clients.md)   
  [Working with Product Name](../working-with-$-p_1-product-name-$-.md)

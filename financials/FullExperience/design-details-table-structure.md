@@ -26,7 +26,7 @@ To understand how the dimension entry storing and posting is redesigned, it is i
 
 |Field No.|Field Name|Data Type|Comment|  
 |---------------|----------------|---------------|-------------|  
-|1|**ID**|Integer|\>0.0 is reserved for the empty dimension set. References field 3 in table 481.|  
+|1|**ID**|Integer|>0.0 is reserved for the empty dimension set. References field 3 in table 481.|  
 |2|**Dimension Code**|Code 20|Table relation to table 348.|  
 |3|**Dimension Value Code**|Code 20|Table relation to table 349.|  
 |4|**Dimension Value ID**|Integer|References field 12 in table 349. It is the secondary key that is used when traversing table 481.|  
@@ -89,7 +89,7 @@ To understand how the dimension entry storing and posting is redesigned, it is i
 
 |Table No.|Table Name|  
 |---------------|----------------|  
-|17|**G\/L Entry**|  
+|17|**G/L Entry**|  
 |21|**Cust. Ledger Entry**|  
 |25|**Vendor Ledger Entry**|  
 |32|**Item Ledger Entry**|  
@@ -150,7 +150,7 @@ To understand how the dimension entry storing and posting is redesigned, it is i
 |81|**Gen. Journal Line**|  
 |83|**Item Journal Line**|  
 |89|**BOM Journal Line**|  
-|96|**G\/L Budget Entry**|  
+|96|**G/L Budget Entry**|  
 |207|**Res. Journal Line**|  
 |210|**Job Journal Line**|  
 |221|**Gen. Jnl. Allocation**|  
@@ -182,7 +182,7 @@ To understand how the dimension entry storing and posting is redesigned, it is i
 |372|**Payment Buffer**|  
 |382|**CV Ledger Entry Buffer**|  
 |461|**Prepayment Inv. Line Buffer**|  
-|5637|**FA G\/L Posting Buffer**|  
+|5637|**FA G/L Posting Buffer**|  
 |7136|**Item Budget Buffer**|  
 
 ## See Also  

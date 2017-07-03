@@ -23,15 +23,15 @@ The dynamic allocation method is based on changeable values. For example, the nu
   
 |**Base**|**No. Filter**|**Date Filter Code**|**Cost Center Filter**|**Cost Object Filter**|**Group Filter**|  
 |--------------|----------------------------------------|----------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------|  
-|G\/L Entries|G\/L Account|Yes|Yes|Yes|N\/A|  
-|G\/L Budget Entries|G\/L Account|Yes|Yes|Yes|G\/L Budget Name|  
-|Cost Type Entries|Cost Type|Yes|Yes|Yes|N\/A|  
+|G/L Entries|G/L Account|Yes|Yes|Yes|N/A|  
+|G/L Budget Entries|G/L Account|Yes|Yes|Yes|G/L Budget Name|  
+|Cost Type Entries|Cost Type|Yes|Yes|Yes|N/A|  
 |Cost Budget Entries|Cost Type|Yes|Yes|Yes|Budget Name|  
-|No of Employees|N\/A|Yes|Yes|Yes|N\/A|  
-|Items Sold \(Qty\)|Item No.|Yes|Yes|Yes|Inventory Posting Group|  
-|Items Purchased \(Qty\)|Item No.|Yes|Yes|Yes|Inventory Posting Group|  
-|Items Sold \(Amount\)|Item No.|Yes|Yes|Yes|Inventory Posting Group|  
-|Items Purchased \(Amount\)|Item No.|Yes|Yes|Yes|Inventory Posting Group|  
+|No of Employees|N/A|Yes|Yes|Yes|N/A|  
+|Items Sold (Qty)|Item No.|Yes|Yes|Yes|Inventory Posting Group|  
+|Items Purchased (Qty)|Item No.|Yes|Yes|Yes|Inventory Posting Group|  
+|Items Sold (Amount)|Item No.|Yes|Yes|Yes|Inventory Posting Group|  
+|Items Purchased (Amount)|Item No.|Yes|Yes|Yes|Inventory Posting Group|  
   
 ## See Also  
  [Scenario Example: Defining Dynamic Allocations Based on Items Sold](../scenario-example-defining-dynamic-allocations-based-on-items-sold.md)   

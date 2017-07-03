@@ -37,7 +37,7 @@ Before you can create workflows that involve approval steps, you must set up the
     |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**User ID**|Select the user ID of the user who is involved in the approval process.|  
-    |**Salespers.\/Purch. Code**|Specify the salesperson or purchaser code that applies to the user in the **Salespers.\/Purch. Code** field.<br /><br /> You typically fill the **Salespers.\/Purch. Code** field if the salesperson or purchaser who is responsible for the customer or vendor is also the person who must approve the sales or purchase request in question.|  
+    |**Salespers./Purch. Code**|Specify the salesperson or purchaser code that applies to the user in the **Salespers./Purch. Code** field.<br /><br /> You typically fill the **Salespers./Purch. Code** field if the salesperson or purchaser who is responsible for the customer or vendor is also the person who must approve the sales or purchase request in question.|  
     |**Approver ID**|Select the user ID of the user who must approve requests made by the user in the **User ID** field.|  
     |**Sales Amount Approval Limit**|Specify the maximum sales amount in LCY that the user in the **User ID** field can approve.|  
     |**Unlimited Sales Approval**|Specify that the user in the **User ID** field can approve all sales requests regardless of their amount.<br /><br /> If you select this check box, then you cannot fill the **Sales Amount Approval Limit** field.|  

@@ -23,7 +23,7 @@ To configure a profile, for example to customize the profile’s user interface,
 1.  At the command prompt, navigate to the root folder of the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/nav_windows_md.md)]-->. For example:  
   
     ```  
-    cd navnow_x86install\RoleTailored Client  
+    cd navnow_x86installRoleTailored Client  
     ```  
   
 2.  Type the following command:  

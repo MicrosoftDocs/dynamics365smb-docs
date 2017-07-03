@@ -18,11 +18,11 @@
 # Define Material and Process Structure
 When designing products that are assembled or produced within the company before sale, additional specifications are required to define which material goes into the product, and which production operations are required to make them.  
   
- For simple item processing, you use assembly bills of material \(BOMs\) to define the components and resources that go into creating the end item. For more advanced item processing, you use production BOMs and production routings, which are connected to the item card of the produced item.  
+ For simple item processing, you use assembly bills of material (BOMs) to define the components and resources that go into creating the end item. For more advanced item processing, you use production BOMs and production routings, which are connected to the item card of the produced item.  
   
  A production BOM holds master data that describes the components and subassemblies used in the production of a parent item. After a production order is created for that parent item, its production BOM will determine the calculation of material requirements as represented in the **Prod. Order Components** window. This component list functions as the picking list for the inventory or shop floor workers that must provide materials for the production process.  
   
- A production routing holds master data that describes the process structure of a given produced item. After a production order is created for that item, its routing will determine the scheduling of production operation\(s\) as represented in the **Prod. Order Routing** window and as such functions as a job card to machine operators who perform the work.  
+ A production routing holds master data that describes the process structure of a given produced item. After a production order is created for that item, its routing will determine the scheduling of production operation(s) as represented in the **Prod. Order Routing** window and as such functions as a job card to machine operators who perform the work.  
   
  The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
   

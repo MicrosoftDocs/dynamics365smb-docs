@@ -25,7 +25,7 @@
   
 |**Table No.**|**Table Name**|  
 |-------------------|--------------------|  
-|15|G\/L Account|  
+|15|G/L Account|  
 |18|Customer|  
 |23|Vendor|  
 |27|Item|  

@@ -49,7 +49,7 @@ If you require your customers to submit payment before you ship an order to them
     > [!NOTE]  
     >  You can use the same number series for prepayment invoices and regular invoices, or you can use different number series. If you use different series, they must not overlap - there must not be any numbers that exist in both series.  
   
-### To set up prepayment percentages for items, customers, and\/or vendors  
+### To set up prepayment percentages for items, customers, and/or vendors  
   
 -   For an item, you can set up a default prepayment percentage for all customers, a specific customer, or a customer price group.  
   

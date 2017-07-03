@@ -28,7 +28,7 @@ If you want to set up a completely new chart of accounts or add new accounts to 
   
 4.  In the **Name** field, enter the account name.  
   
-5.  In the **Income\/Balance** field, select **Income Statement** or **Balance Sheet**, depending on whether the account will be part of the income statement or the balance sheet.  
+5.  In the **Income/Balance** field, select **Income Statement** or **Balance Sheet**, depending on whether the account will be part of the income statement or the balance sheet.  
   
 6.  In the **Account Type** field, identify the purpose of the account. To view the options, choose the field. Only the first type, **Posting**, represents an account that you can post to; the others are used to create totals and headings in the chart of accounts.  
   

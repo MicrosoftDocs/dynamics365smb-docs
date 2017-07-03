@@ -33,7 +33,7 @@ You can fill in the fields in the Intrastat journal manually or retrieve item en
  The batch job retrieves all the item entries in the statistics period and inserts them as lines in the Intrastat journal. If any information is missing, you can enter it in the relevant fields.  
   
 > [!IMPORTANT]  
->  The batch job retrieves only the entries that contain a country\/region code for which an Intrastat code has been entered in the **Countries\/Regions** window. Therefore, you must enter Intrastat codes for the country\/region codes for which you will run the batch job.  
+>  The batch job retrieves only the entries that contain a country/region code for which an Intrastat code has been entered in the **Countries/Regions** window. Therefore, you must enter Intrastat codes for the country/region codes for which you will run the batch job.  
   
 ## See Also  
  [How to: Create a VAT Combination Setup](../how-to-create-a-vat-combination-setup.md)   

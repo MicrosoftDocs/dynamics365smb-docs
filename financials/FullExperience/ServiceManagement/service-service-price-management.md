@@ -43,7 +43,7 @@ The service price management functionality lets you apply the best price to serv
  When you assign a service price group to a service item, all the special service pricing that you set up in this group will then apply for this service item.  
   
 ## Service Pricing  
- You set up the actual types of service pricing \(price adjustment type and price\) for a combination of service price groups and customer price groups. For each type of service pricing, you select a service price adjustment group. You also specify the service price adjustment type, fixed, maximum, or minimum, and the actual price.  
+ You set up the actual types of service pricing (price adjustment type and price) for a combination of service price groups and customer price groups. For each type of service pricing, you select a service price adjustment group. You also specify the service price adjustment type, fixed, maximum, or minimum, and the actual price.  
   
  For example, you can set up types of service pricing for a radio service price group. For customers without a price group, you can decide to have service pricing with maximum price on labor, which is the labor price adjustment group. For customers with a particular price group, you can decide to have service pricing with a fixed price on labor, the same labor price adjustment group.  
   

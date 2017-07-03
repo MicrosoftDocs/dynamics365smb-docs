@@ -25,7 +25,7 @@ The inventory value of an item can change over time, for example, as a result of
 ## Revalue Expected Costs  
  The program supports revaluation based on actual costs. However, for items using the **Standard** costing method, the program will also revalue based on expected costs. This means that for standard-cost items, inventory that is received but not invoiced can also be revalued. Accordingly, such expected inventory costs are also included in the [Calculate Inventory Value batch job](../how-to-fill-in-the-revaluation-journal-with-the-batch-job.md) like any actual inventory costs, however, only if you select to calculate per item, by location, and by variant, on the **Options** FastTab of the batch job request page.  
   
- Note that by revaluing standard-cost items based on expected costs, the related [interim inventory accounts](../\($%20T_5813_5800%20Inventory%20Account%20\(Interim\)%20$\).md) will be affected.  
+ Note that by revaluing standard-cost items based on expected costs, the related [interim inventory accounts](../($%20T_5813_5800%20Inventory%20Account%20(Interim)%20$).md) will be affected.  
   
 ## The Revaluation Journal  
  In order to use the revaluation journal, you must consider the extent of the revaluation. There are two ways of filling in the journal with information about the current, calculated value of the specified item:  

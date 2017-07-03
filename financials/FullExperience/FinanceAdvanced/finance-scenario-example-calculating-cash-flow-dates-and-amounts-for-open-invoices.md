@@ -26,11 +26,11 @@ This topic shows how the cash flow forecast dates and amounts are calculated for
   
 -   The invoice date is January 1, 2013.  
   
--   The invoice amount is 100.00 local currency \(LCY\).  
+-   The invoice amount is 100.00 local currency (LCY).  
   
--   The invoice payment terms are 14 days\/5 days-2%.  
+-   The invoice payment terms are 14 days/5 days-2%.  
   
--   The cash flow payment terms are 21 days\/3 days-4%.  
+-   The cash flow payment terms are 21 days/3 days-4%.  
   
 ## Results  
  This section uses the setup scenarios that are described in the [Cash Flow Forecast Dates and Amounts](../cash-flow-forecast-dates-and-amounts.md) topic to show the calculation results of the cash flow forecast dates and amounts.  

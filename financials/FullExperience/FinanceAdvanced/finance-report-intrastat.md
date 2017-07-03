@@ -16,11 +16,11 @@
 
 ---
 # Report Intrastat
-Companies in the European Union \(EU\) must report the extent of their trade with other EU countries\/regions according to specific rules. Companies in the EU report the movement of goods to the Intrastat authorities in their respective countries\/regions.  
+Companies in the European Union (EU) must report the extent of their trade with other EU countries/regions according to specific rules. Companies in the EU report the movement of goods to the Intrastat authorities in their respective countries/regions.  
   
  You can prepare a report based on entries in an Intrastat journal. You can have the entries placed in the journal by a batch job or fill them in manually. If necessary, you can modify them in the journal.  
   
- With the batch job, only item entries are included, not general ledger entries. If you have general ledger entries that qualify for Intrastat reporting, you must enter them manually. For example, if you purchase a computer from another EU country\/region for internal use in your company, the computer is not placed in inventory, but is posted to a general ledger account. This type of entry must be entered manually in the Intrastat journal.  
+ With the batch job, only item entries are included, not general ledger entries. If you have general ledger entries that qualify for Intrastat reporting, you must enter them manually. For example, if you purchase a computer from another EU country/region for internal use in your company, the computer is not placed in inventory, but is posted to a general ledger account. This type of entry must be entered manually in the Intrastat journal.  
   
  You can export the completed entries to a file that can be sent to the Intrastat authorities, or you can print a report and enter the information on the forms from the Intrastat authorities manually.  
   

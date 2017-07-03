@@ -16,7 +16,7 @@
 
 ---
 # How to: Sell Assemble-to-Order Items and Inventory Items Together
-If the **Assembly Policy** field on the item card of an assembly item contains **Assemble-to-Stock**, then the default sales order process assumes that the item is already assembled and can be picked from inventory, if it is available. Therefore, no assembly order is automatically created and linked to the sales order line. However, if a part \(or all\) of the quantity is not available, then you have the flexibility to create an assembly order for the remaining quantity by filling in the **Qty. to Assemble to Order** field on the sales order line. In this manner, you can assemble the item to order although it is set up to be assembled to stock by default.  
+If the **Assembly Policy** field on the item card of an assembly item contains **Assemble-to-Stock**, then the default sales order process assumes that the item is already assembled and can be picked from inventory, if it is available. Therefore, no assembly order is automatically created and linked to the sales order line. However, if a part (or all) of the quantity is not available, then you have the flexibility to create an assembly order for the remaining quantity by filling in the **Qty. to Assemble to Order** field on the sales order line. In this manner, you can assemble the item to order although it is set up to be assembled to stock by default.  
   
  Similar flexibility exists when you are selling items to be assembled to the order and a part of the quantity is in inventory, which you want to deduct from the assembly order. For more information, see [How to: Sell Inventory Items in Assemble-to-Order Flows](../how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
   
@@ -30,7 +30,7 @@ If the **Assembly Policy** field on the item card of an assembly item contains *
   
 1.  On a sales order line for an item that is set up to be assembled to stock, enter a quantity in the **Quantity** field that exceeds inventory. The **Check Availability** window appears.  
   
-2.  Note the **Total Quantity** field \(a negative value\), which you will enter in the next step.  
+2.  Note the **Total Quantity** field (a negative value), which you will enter in the next step.  
   
 3.  In the **Qty. to Assemble to Order** field, enter the value from the previous step.  
   

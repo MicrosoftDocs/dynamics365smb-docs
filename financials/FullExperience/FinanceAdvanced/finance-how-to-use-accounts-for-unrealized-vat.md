@@ -35,7 +35,7 @@ You can choose to have VAT amounts calculated and posted to a temporary general 
 7.  In the **Purch. VAT Unreal. Account** field, enter the general ledger account for unrealized purchase VAT.  
   
 > [!IMPORTANT]  
->  The first \<Blank\> option is the default value of the field. This means that unrealized VAT is not used. You can select one of the other options only if the **Unrealized VAT** field in the **General Ledger Setup** window is selected.  
+>  The first <Blank> option is the default value of the field. This means that unrealized VAT is not used. You can select one of the other options only if the **Unrealized VAT** field in the **General Ledger Setup** window is selected.  
   
 ## See Also  
  [How to: Set Up Combinations of VAT Business Posting Groups and VAT Product Posting Groups](../how-to-set-up-combinations-of-vat-business-posting-groups-and-vat-product-posting-groups.md)

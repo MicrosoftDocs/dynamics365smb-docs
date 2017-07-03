@@ -34,8 +34,8 @@ Follow these steps to set up the additional reporting currency:
   
     |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
-    |**Realized G\/L Gains Account**|The general ledger account to which exchange rate gains for currency adjustments between LCY and the additional reporting currency will be posted.|  
-    |**Realized G\/L Losses Account**|The general ledger account to which exchange rate losses for currency adjustments between LCY and the additional reporting currency will be posted.|  
+    |**Realized G/L Gains Account**|The general ledger account to which exchange rate gains for currency adjustments between LCY and the additional reporting currency will be posted.|  
+    |**Realized G/L Losses Account**|The general ledger account to which exchange rate losses for currency adjustments between LCY and the additional reporting currency will be posted.|  
     |**Residual Gains Account**|The general ledger account to which residual amounts that are gains are posted if you post in the general ledger application area in both LCY and an additional reporting currency.|  
     |**Residual Losses Account**|The general ledger account to which residual amounts that are losses are posted if you post in the general ledger application area in both LCY and an additional reporting currency.|  
   
@@ -50,7 +50,7 @@ Follow these steps to set up the additional reporting currency:
   
 2.  In the **Chart of Accounts** window, select the relevant account.  
   
-3.  On the **Home** tab, in the **Manage** group, choose **Edit** to open the **G\/L Account Card** window.  
+3.  On the **Home** tab, in the **Manage** group, choose **Edit** to open the **G/L Account Card** window.  
   
 4.  On the **Reporting** FastTab, select the correct method in the **Exchange Rate Adjustment** field.  
   
@@ -61,12 +61,12 @@ Follow these steps to set up the additional reporting currency:
     |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../../includes/bp_tabledescription_md.md)]-->|  
     |----------------------------------|---------------------------------------|  
     |**No Adjustment**|No exchange rate adjustment is made to the general ledger account. This is the default option.<br /><br /> **NOTE:** This option should be selected if the exchange rate between the LCY and additional reporting currency is always fixed.|  
-    |**Adjust Amount**|The LCY amount is adjusted for any exchange rate gains or losses. Exchange rate gains or losses are posted to the general ledger account in the **Amount** field and to the accounts you specified for gains or losses in the **Realized G\/L Gains Account** and **Realized G\/L Losses Account** fields in the **Currencies** window.|  
-    |**Adjust Additional-Currency Amount**|The additional reporting currency is adjusted for any exchange rate gains or losses. Exchange rate gains or losses are posted to the general ledger account in the **Additional-Currency Amount** field and to the accounts you specified for gains or losses in the **Realized G\/L Gains Account** and **Realized G\/L Losses Account** fields in the **Currencies** window.|  
+    |**Adjust Amount**|The LCY amount is adjusted for any exchange rate gains or losses. Exchange rate gains or losses are posted to the general ledger account in the **Amount** field and to the accounts you specified for gains or losses in the **Realized G/L Gains Account** and **Realized G/L Losses Account** fields in the **Currencies** window.|  
+    |**Adjust Additional-Currency Amount**|The additional reporting currency is adjusted for any exchange rate gains or losses. Exchange rate gains or losses are posted to the general ledger account in the **Additional-Currency Amount** field and to the accounts you specified for gains or losses in the **Realized G/L Gains Account** and **Realized G/L Losses Account** fields in the **Currencies** window.|  
   
      Exchange rate gains and losses are posted first when you run the **Adjust Exchange Rates** batch job. In that batch job, the adjustment exchange rate is identified in the **Currency Exchange Rates** window, and then the amounts in the **Amount** and **Additional-Currency Amount** fields on the general ledger entry are compared to determine whether there is an exchange rate gain or loss. The batch job uses the option that you select in the **Exchange Rate Adjustment** field to determine whether to calculate and post exchange rate gains or losses for general ledger accounts.  
   
-5.  Close the **G\/L Account Card** window.  
+5.  Close the **G/L Account Card** window.  
   
 ### To specify exchange rate adjustment method for VAT entries  
   
@@ -83,8 +83,8 @@ Follow these steps to set up the additional reporting currency:
     |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../../includes/bp_tabledescription_md.md)]-->|  
     |----------------------------------|---------------------------------------|  
     |**No Adjustment**|No exchange rate adjustment is made to the general ledger account. This is the default option.|  
-    |**Adjust Amount**|The LCY amount is adjusted for any exchange rate gains or losses. Exchange rate gains or losses are posted to the general ledger account in the **Amount** field and to the accounts you specified for gains or losses in the **Realized G\/L Gains Account** and **Realized G\/L Losses Account** fields in the **Currencies** window.|  
-    |**Adjust Additional-Currency Amount**|The additional reporting currency is adjusted for any exchange rate gains or losses. Exchange rate gains or losses are posted to the general ledger account in the **Additional-Currency Amount** field and to the accounts you specified for gains or losses in the **Realized G\/L Gains Account** and **Realized G\/L Losses Account** fields in the **Currencies** window.|  
+    |**Adjust Amount**|The LCY amount is adjusted for any exchange rate gains or losses. Exchange rate gains or losses are posted to the general ledger account in the **Amount** field and to the accounts you specified for gains or losses in the **Realized G/L Gains Account** and **Realized G/L Losses Account** fields in the **Currencies** window.|  
+    |**Adjust Additional-Currency Amount**|The additional reporting currency is adjusted for any exchange rate gains or losses. Exchange rate gains or losses are posted to the general ledger account in the **Additional-Currency Amount** field and to the accounts you specified for gains or losses in the **Realized G/L Gains Account** and **Realized G/L Losses Account** fields in the **Currencies** window.|  
   
 ### To activate the additional reporting currency  
   
@@ -123,7 +123,7 @@ Follow these steps to set up the additional reporting currency:
   
 ## See Also  
  [About Using Additional Reporting Currencies](../about-using-additional-reporting-currencies.md)   
- Realized G\/L Gains Account   
- Realized G\/L Losses Account   
+ Realized G/L Gains Account   
+ Realized G/L Losses Account   
  Residual Gains Account   
  Residual Losses Account

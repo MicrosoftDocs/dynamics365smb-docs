@@ -50,11 +50,11 @@ Sales returns are used to compensate your customers for incorrect or damaged ite
   
     -   In some cases, your customer may want to return a specific serialized item or lot, for example, if a particular item or lot is defective or damaged during shipment. For these situations, you can to find the item using the serial or lot number, and then receive that specific item or lot return. Follow these steps:  
   
-        1.  Locate the serial\/lot numbers sold to the customer.  
+        1.  Locate the serial/lot numbers sold to the customer.  
   
         2.  Create a sales return order.  
   
-        3.  Select the line that you want to select serial\/lot numbers for.  
+        3.  Select the line that you want to select serial/lot numbers for.  
   
         4.  Choose **Actions**![Action Menu icon](../media/actionmenuicon.png "actionMenuIcon"), choose **Line,** and then choose **Item Tracking Lines**.  
   

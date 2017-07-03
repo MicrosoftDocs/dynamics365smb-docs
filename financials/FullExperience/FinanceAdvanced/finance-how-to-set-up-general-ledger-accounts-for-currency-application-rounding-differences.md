@@ -21,7 +21,7 @@ If you apply entries in different currencies, you must set up the general ledger
 > [!NOTE]  
 >  You must set up the general ledger accounts before you complete the task. For more information, see [How to: Set Up General Ledger Accounts in the Chart of Accounts Window](../how-to-set-up-general-ledger-accounts-in-the-chart-of-accounts-window.md).  
   
-### To set up G\/L accounts for currency application rounding differences  
+### To set up G/L accounts for currency application rounding differences  
   
 1.  In the **Search** box, enter **Customer Posting Groups**, and then choose the related link.  
   

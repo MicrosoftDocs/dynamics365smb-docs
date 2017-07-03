@@ -22,7 +22,7 @@ Procedures for handling serial and lot numbers that are being transferred betwee
   
  The exact rules for handling item tracking numbers across your company are governed by the setup of the  **Item Tracking Code** table.  
   
-### To handle serial\/lot numbers on transfer orders  
+### To handle serial/lot numbers on transfer orders  
   
 1.  In the **Search** box, enter **Transfer Orders**, and then choose the related link.  
   

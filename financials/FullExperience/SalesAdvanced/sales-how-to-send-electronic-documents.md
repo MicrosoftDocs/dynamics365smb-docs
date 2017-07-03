@@ -38,7 +38,7 @@ The generic version of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/how-to-s
   
 6.  In the **Format** field, choose **PEPPOL**.  
   
-7.  Choose the **OK** button. The **Post and Send Confirmation** dialog box appears. **Electronic Document \(PEPPOL\)** is added to the **Send Document to** field.  
+7.  Choose the **OK** button. The **Post and Send Confirmation** dialog box appears. **Electronic Document (PEPPOL)** is added to the **Send Document to** field.  
   
 8.  Choose the **Yes** button.  
   

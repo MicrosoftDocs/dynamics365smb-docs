@@ -32,7 +32,7 @@ The **Get Posted Document Lines to Reverse** function is useful when you need to
 4.  Select the lines that you would like to copy to the new document.  
   
     > [!NOTE]  
-    >  If you use Ctrl\+A to select all lines, all lines within the filter you have set are copied, but the **Show Reversible Quantity Only** filter is ignored. For example, suppose you have filtered the lines to a particular document number with two lines, one of which has already been returned. Even if the **Show Reversible Quantity Only** field is selected, if you press Ctrl\+A to copy all lines, both lines are copied, instead of only the one that has not yet been reversed.  
+    >  If you use Ctrl+A to select all lines, all lines within the filter you have set are copied, but the **Show Reversible Quantity Only** filter is ignored. For example, suppose you have filtered the lines to a particular document number with two lines, one of which has already been returned. Even if the **Show Reversible Quantity Only** field is selected, if you press Ctrl+A to copy all lines, both lines are copied, instead of only the one that has not yet been reversed.  
   
 5.  Choose the **OK** button to copy the lines to the new document. Press F5 to refresh the window and see the results in the document.  
   
@@ -42,7 +42,7 @@ The **Get Posted Document Lines to Reverse** function is useful when you need to
   
 -   For posted document lines that are not of the type **Item**, such as item charges, a new document line is created that is a copy of the original posted document line.  
   
--   Calculates the **Unit Cost \(LCY\)** field on the new line from the costs on the corresponding item ledger entries.  
+-   Calculates the **Unit Cost (LCY)** field on the new line from the costs on the corresponding item ledger entries.  
   
 -   If the copied document is a posted shipment, posted receipt, posted return receipt, or posted return shipment, the unit price is calculated automatically from the item card.  
   

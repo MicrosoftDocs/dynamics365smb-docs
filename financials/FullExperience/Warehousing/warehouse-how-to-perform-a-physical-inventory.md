@@ -42,13 +42,13 @@ You must take a physical inventory, that is, count the actual items on hand, to 
 5.  Choose the **OK** button.  
   
 > [!NOTE]  
->  The item entries are processed according to the information that you specified, and lines are created in the physical inventory journal. Notice that the **Qty. \(Phys. Inventory\)** field is automatically filled in with the same quantity as the **Qty. \(Calculated\)** field. With this feature, it is not necessary for you to enter the counted inventory on hand for items that are the same as the calculated quantity. However, if the quantity counted differs from what is entered in the **Qty. \(Calculated\)** field, you must overwrite it with the quantity actually counted.  
+>  The item entries are processed according to the information that you specified, and lines are created in the physical inventory journal. Notice that the **Qty. (Phys. Inventory)** field is automatically filled in with the same quantity as the **Qty. (Calculated)** field. With this feature, it is not necessary for you to enter the counted inventory on hand for items that are the same as the calculated quantity. However, if the quantity counted differs from what is entered in the **Qty. (Calculated)** field, you must overwrite it with the quantity actually counted.  
   
 ### To print the report used when counting  
   
 1.  In the  **Phys. Inventory Journal** window containing the calculated expected inventory, on the **Actions** tab, in the **General** group, choose **Print**.  
   
-2.  In the **Phys. Inventory List** window, on the **Options** FastTab, specify if the report should show the calculated quantity and if the report should list inventory items by serial\/lot numbers.  
+2.  In the **Phys. Inventory List** window, on the **Options** FastTab, specify if the report should show the calculated quantity and if the report should list inventory items by serial/lot numbers.  
   
      For more information, see Phys. Inventory Journal.  
   
@@ -62,7 +62,7 @@ You must take a physical inventory, that is, count the actual items on hand, to 
   
 1.  In the **Search** box, enter **Phys. Inventory Journal**, and then choose the related link.  
   
-2.  On each line where the actual inventory on hand, as determined by the physical count, differs from the calculated quantity, enter the actual inventory on hand in the **Qty. \(Phys. Inventory\)** field.  
+2.  On each line where the actual inventory on hand, as determined by the physical count, differs from the calculated quantity, enter the actual inventory on hand in the **Qty. (Phys. Inventory)** field.  
   
      The related fields are updated accordingly.  
   

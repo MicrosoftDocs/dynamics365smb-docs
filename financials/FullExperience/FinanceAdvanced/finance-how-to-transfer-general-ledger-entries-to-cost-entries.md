@@ -24,15 +24,15 @@ You can transfer general ledger entries to cost entries.
   
 1.  In the **Search** box, enter **Cost Accounting Setup**, and then choose the related link.  
   
-2.  In the **Cost Accounting Setup** window, verify that the **Starting Date for G\/L Transfer** field is set to the correct value.  
+2.  In the **Cost Accounting Setup** window, verify that the **Starting Date for G/L Transfer** field is set to the correct value.  
   
 3.  In the **Search** box, enter **Chart of Cost Types**, and then choose the related link.  
   
-4.  In the **Cost Type Card** window, verify that the **G\/L Account Range** field is linked correctly for each cost type to take entries from the general ledger.  
+4.  In the **Cost Type Card** window, verify that the **G/L Account Range** field is linked correctly for each cost type to take entries from the general ledger.  
   
 5.  In the **Search** box, enter **Chart of Accounts**, and then choose the related link.  
   
-6.  For each relevant general ledger account, in the **G\/L Account Card** window, on the **Cost Accounting** FastTab, verify that the **Cost Type No.** field is linked correctly to a cost type. For more information, see [Defining the Relationship Between Cost Types and General Ledger Accounts](../defining-the-relationship-between-cost-types-and-general-ledger-accounts.md).  
+6.  For each relevant general ledger account, in the **G/L Account Card** window, on the **Cost Accounting** FastTab, verify that the **Cost Type No.** field is linked correctly to a cost type. For more information, see [Defining the Relationship Between Cost Types and General Ledger Accounts](../defining-the-relationship-between-cost-types-and-general-ledger-accounts.md).  
   
 7.  Verify that all relevant general ledger entries have dimension values that correspond to a cost center and a cost object.  
   

@@ -22,9 +22,9 @@ Cost components are different types of costs that make up the value of an invent
   
 |Cost component|Subordinate cost component|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
 |--------------------|--------------------------------|---------------------------------------|  
-|Direct cost|Unit cost \(direct purchase price\)|Cost that can be traced to a cost object.|  
-|Direct cost|Freight cost \(item charge\)|Cost that can be traced to a cost object.|  
-|Direct cost|Insurance cost \(item charge\)|Cost that can be traced to a cost object.|  
+|Direct cost|Unit cost (direct purchase price)|Cost that can be traced to a cost object.|  
+|Direct cost|Freight cost (item charge)|Cost that can be traced to a cost object.|  
+|Direct cost|Insurance cost (item charge)|Cost that can be traced to a cost object.|  
 |Indirect cost||Cost that cannot be traced to a cost object.|  
 |Variance|Purchase variance|The difference between actual and standard costs, which is only posted for items using the **Standard** costing method.|  
 |Variance|Material variance|The difference between actual and standard costs, which is only posted for items using the **Standard** costing method.|  

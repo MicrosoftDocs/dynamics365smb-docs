@@ -63,7 +63,7 @@ When your location is set up to require put-away processing but not receive proc
   
 ### To create an inventory put-away from the source document  
   
-1.  In the source document, which can be a purchase order, sales return order, inbound transfer order, or production order, on the **Actions** tab, in the **Warehouse** group, choose the **Create Inventory Put-away\/Pick** button.  
+1.  In the source document, which can be a purchase order, sales return order, inbound transfer order, or production order, on the **Actions** tab, in the **Warehouse** group, choose the **Create Inventory Put-away/Pick** button.  
   
 2.  On the **Options** FastTab, select the **Create Invt. Put-away** field. To print a put-away list, select the **Print Document** field.  
   
@@ -71,7 +71,7 @@ When your location is set up to require put-away processing but not receive proc
   
 ### To create several inventory put-aways with the batch job  
   
-1.  In the **Search** box, enter **Create Invt. Put-away \/ Pick**, and then choose the related link.  
+1.  In the **Search** box, enter **Create Invt. Put-away / Pick**, and then choose the related link.  
   
 2.  On the **Warehouse Request** FastTab of the request window, use the **Source Document** and **Source No.** fields to filter on certain types of documents or ranges of document numbers.  
   

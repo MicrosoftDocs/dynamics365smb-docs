@@ -20,7 +20,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] you can select among differ
   
 ### To add or remove panes  
   
--   On the **Application** menu ![Microsoft Dynamics NAV Application menu](../media/rtc_applicationmenu.png "RTC\_ApplicationMenu"), select **Customize**, and add or remove a check mark next to the specific pane.  
+-   On the **Application** menu ![Microsoft Dynamics NAV Application menu](../media/rtc_applicationmenu.png "RTC_ApplicationMenu"), select **Customize**, and add or remove a check mark next to the specific pane.  
   
  When you close the menu, the page or place updates with your changes.  
   

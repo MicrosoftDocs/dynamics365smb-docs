@@ -20,7 +20,7 @@ When you set up cost accounting, you should make sure that all entries are assig
   
  By doing this, you create the following accounting equation:  
   
- Cost Type Balance\= Cost Center Balance \+ Cost Object Balance  
+ Cost Type Balance= Cost Center Balance + Cost Object Balance  
   
  When you print the chart of cost type, the chart of cost centers, and the chart of cost objects reports, you can analyze this relationship.  
   

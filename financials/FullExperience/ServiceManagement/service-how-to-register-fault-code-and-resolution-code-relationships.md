@@ -16,15 +16,15 @@
 
 ---
 # How to: Register Fault Code and Resolution Code Relationships
-After repairing a service item, you can register both the fault code and the resolution code for the item by selecting a combination from the existing fault\/resolution codes relationships.  
+After repairing a service item, you can register both the fault code and the resolution code for the item by selecting a combination from the existing fault/resolution codes relationships.  
   
-### To register fault\/resolution codes  
+### To register fault/resolution codes  
   
 1.  In the **Search** box, enter **Service Tasks**, and then choose the related link.  
   
 2.  Select the line that includes the relevant service item. On the **Navigate** tab, in the **Service Tasks** group, choose **Item Worksheet**.  
   
-3.  In the **Service Item Worksheet** window, on the **Navigate** tab, in the **Worksheet** group, choose **Fault\/Resol. Codes Relationships**. The **Fault\/Resolution Codes Relationships** window opens.  
+3.  In the **Service Item Worksheet** window, on the **Navigate** tab, in the **Worksheet** group, choose **Fault/Resol. Codes Relationships**. The **Fault/Resolution Codes Relationships** window opens.  
   
      Filters are set on the relationships that are shown in the window by copying the service item group and the fault codes from the **Service Item Worksheet** window.  
   

@@ -31,7 +31,7 @@ When product defects occur, the errors must be identified and affected items mus
   
 -   Tracing origin to usage.  
   
--   Searching for all current records which hold the traced serial\/lot number.  
+-   Searching for all current records which hold the traced serial/lot number.  
   
 ## Roles  
  This walkthrough demonstrates tasks that are performed by the following user roles:  
@@ -135,7 +135,7 @@ When product defects occur, the errors must be identified and affected items mus
   
 4.  To enter the lot number, on the **Lines** FastTab, in the **Line** group, choose **Item Tracking Lines**.  
   
-5.  In the **Item Tracking Lines** window, fill in the **Lot No.** and **Quantity \(Base\)** fields, and then close the window.  
+5.  In the **Item Tracking Lines** window, fill in the **Lot No.** and **Quantity (Base)** fields, and then close the window.  
   
 6.  In the **Vendor Invoice No.** field, enter any value.  
   
@@ -155,7 +155,7 @@ When product defects occur, the errors must be identified and affected items mus
   
 11. To enter the lot number, on the **Lines** FastTab, in the **Line** group, choose **Item Tracking Lines**.  
   
-12. In the **Item Tracking Lines** window, fill in the **Lot No.** and **Quantity \(Base\)** fields, and then close the window.  
+12. In the **Item Tracking Lines** window, fill in the **Lot No.** and **Quantity (Base)** fields, and then close the window.  
   
 13. In the **Vendor Invoice No.** field, enter any value.  
   
@@ -181,7 +181,7 @@ When product defects occur, the errors must be identified and affected items mus
   
 5.  To enter the serial numbers, on the **Lines** FastTab, in the **Line** group, choose **Item Tracking Lines**.  
   
-6.  In the **Item Tracking Lines** window, fill in the **Serial No.** and **Quantity \(Base\)** fields, and then close the window.  
+6.  In the **Item Tracking Lines** window, fill in the **Serial No.** and **Quantity (Base)** fields, and then close the window.  
   
      Next, post consumption of racing frames from LOT1.  
   
@@ -290,7 +290,7 @@ When product defects occur, the errors must be identified and affected items mus
   
      Now continue to trace the origin of the sales shipment of the racing bike with number SN1.  
   
-6.  Choose the \+ icon on the trace lines to gradually expand and trace backward in the chain of transactions that the sales shipment originates from.  
+6.  Choose the + icon on the trace lines to gradually expand and trace backward in the chain of transactions that the sales shipment originates from.  
   
      You can trace the following transaction history:  
   
@@ -330,7 +330,7 @@ When product defects occur, the errors must be identified and affected items mus
   
      This completes the second defects management task using the **Item Tracing** window for defects management. Since the **Item Tracing** window is based on posted entries only, the quality controller must continue to the **Navigate** window to make sure that LOT1 is not used in non-posted documents.  
   
-## Finding All Records of a Serial\/Lot Number  
+## Finding All Records of a Serial/Lot Number  
  With the **Item Tracing** window, the quality controller learned that LOT1 contained the faulty racing frames, which vendor supplied them, and in which posted transaction they have been used. He must now determine whether LOT1 is in any open documents by integrating from the trace result to the **Navigate** window where he can perform a search through all database records.  
   
 #### To find all occurrences of LOT1 in non-posted records, such as open orders  

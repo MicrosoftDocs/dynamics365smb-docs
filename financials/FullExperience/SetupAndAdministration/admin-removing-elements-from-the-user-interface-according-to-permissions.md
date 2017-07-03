@@ -20,7 +20,7 @@ You can configure ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md
   
  Depending on the setting in the **UI Elements Removal** field in the ADD INCLUDE<!--[!INCLUDE[nav_admin](../../includes/nav_admin_md.md)]-->, only UI elements on objects in the license or on objects that the user has permissions to will appear in the user interface.  
   
- UI elements that are directly related to an object through the **TableRelation** or the **CalcFormula** property can be removed automatically according to the license file and\/or user permissions.  
+ UI elements that are directly related to an object through the **TableRelation** or the **CalcFormula** property can be removed automatically according to the license file and/or user permissions.  
   
  For UI elements that are not directly related to an object, you can use the **AccessByPermission** property to remove the element according to the user’s permission to a related object.  
   

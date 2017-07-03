@@ -25,7 +25,7 @@ Codeunit 408 Dimension Management is a function library that handles common task
 |CheckDimSetIDComb|New function that substitutes the other check functions and takes a Dimension Set ID as an argument instead of a dimension table.|  
 |CheckDimSetIDComb<br /><br /> CheckDocDimComb<br /><br /> CheckServContractDimComb<br /><br /> CheckDimBuffer<br /><br /> CheckDimComb<br /><br /> CheckDimValueComb|Delete. All usage should be changed to CheckDimSetIDComb.|  
 |GetDefaultDim|Modify to return an integer Dimension Set ID instead of a set of records.|  
-|CopyJnlLineDimToICJnlDim<br /><br /> CopyICJnlDimToJnlLineDim<br /><br /> CopyDocDimtoICDocDim<br /><br /> CopyICDocDimtoICDocDim|Modify to work with DimSetID -\> ICJnlLineDim|  
+|CopyJnlLineDimToICJnlDim<br /><br /> CopyICJnlDimToJnlLineDim<br /><br /> CopyDocDimtoICDocDim<br /><br /> CopyICDocDimtoICDocDim|Modify to work with DimSetID -> ICJnlLineDim|  
   
 ## Deleted Functions  
  Functions that are deleted from codeunit 408 in connection with the Dimension Set Entries feature are listed below.  
@@ -171,7 +171,7 @@ Codeunit 408 Dimension Management is a function library that handles common task
   
  TestNewDimValue  
   
- MoveDimBufToItemBudgetDim. \(Delete because the ItemBudgetDim Table is deleted.  
+ MoveDimBufToItemBudgetDim. (Delete because the ItemBudgetDim Table is deleted.  
   
  GetServContractDim  
   

@@ -34,22 +34,22 @@ Rounding residuals can occur when you value the cost of an inventory decrease th
 |03-01-20|-1|3|  
 |04-01-20|-1|4|  
   
- For an item using the Average costing method, the rounding residual \(1\/300\) is calculated with the first decrease \(entry number 2\) and is carried forward to entry number 3. Therefore, entry number 3 is valued at –3.34.  
+ For an item using the Average costing method, the rounding residual (1/300) is calculated with the first decrease (entry number 2) and is carried forward to entry number 3. Therefore, entry number 3 is valued at –3.34.  
   
  The following table shows the resulting value entries.  
   
-|Posting Date|Quantity|Cost Amount \(Actual\)|Item Ledger Entry No.|Entry No.|  
+|Posting Date|Quantity|Cost Amount (Actual)|Item Ledger Entry No.|Entry No.|  
 |------------------|--------------|----------------------------|---------------------------|---------------|  
 |01-01-20|3|10|1|1|  
 |02-01-20|-1|-3.33|2|2|  
 |03-01-20|-1|-3.34|3|3|  
 |04-01-20|-1|-3.33|4|4|  
   
- For an item using a costing method other than Average, the rounding residual \(0.01\) is calculated when the remaining quantity for the inventory increase is zero. The rounding residual has a separate entry \(number 5\).  
+ For an item using a costing method other than Average, the rounding residual (0.01) is calculated when the remaining quantity for the inventory increase is zero. The rounding residual has a separate entry (number 5).  
   
  The following table shows the resulting value entries.  
   
-|Posting Date|Quantity|Cost Amount \(Actual\)|Item Ledger Entry No.|Entry No.|  
+|Posting Date|Quantity|Cost Amount (Actual)|Item Ledger Entry No.|Entry No.|  
 |------------------|--------------|----------------------------|---------------------------|---------------|  
 |01-01-20|3|10|1|1|  
 |02-01-20|-1|-3.33|2|2|  

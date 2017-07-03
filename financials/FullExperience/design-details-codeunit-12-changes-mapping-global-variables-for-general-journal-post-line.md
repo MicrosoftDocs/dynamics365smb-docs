@@ -65,7 +65,7 @@ The following changes have been implemented in this release of [!INCLUDE[d365fin
 |JobPostLine@1028 : Codeunit 1001;||Changed to Local|  
 |TransferGlEntriesToCA@1091 : Codeunit 1105;||Changed to Local|  
 ||PaymentToleranceMgt@1002 : Codeunit 426;|Added|  
-||AddCurrencyCode@1117 : Code\[10\];|Added|  
+||AddCurrencyCode@1117 : Code[10];|Added|  
 |FiscalYearStartDate@1054 : Date;|FiscalYearStartDate@1011 : Date;|Unchanged|  
 |NextEntryNo@1055 : Integer;|NextEntryNo@1022 : Integer;|Unchanged|  
 |BalanceCheckAmount@1056 : Decimal;|BalanceCheckAmount@1056 : Decimal;|Unchanged|  
@@ -83,7 +83,7 @@ The following changes have been implemented in this release of [!INCLUDE[d365fin
 |NextTransactionNo@1066 : Integer;|NextTransactionNo@1066 : Integer;|Unchanged|  
 |NextConnectionNo@1067 : Integer;|NextConnectionNo@1067 : Integer;|Unchanged|  
 |InsertedTempGLEntryVAT@1068 : Integer;|InsertedTempGLEntryVAT@1027 : Integer;|Unchanged|  
-|LastDocNo@1069 : Code\[20\];|LastDocNo@1023 : Code\[20\];|Unchanged|  
+|LastDocNo@1069 : Code[20];|LastDocNo@1023 : Code[20];|Unchanged|  
 |LastLineNo@1070 : Integer;||Deleted|  
 |LastDate@1071 : Date;|LastDate@1021 : Date;|Unchanged|  
 |LastDocType@1072 : ' ,Payment,Invoice,Credit Memo,Finance Charge Memo,Reminder';|LastDocType@1025 : ' ,Payment,Invoice,Credit Memo,Finance Charge Memo,Reminder';|Unchanged|  

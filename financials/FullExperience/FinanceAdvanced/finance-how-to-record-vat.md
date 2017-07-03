@@ -16,7 +16,7 @@
 
 ---
 # How to: Record VAT
-In EU countries\/regions, every sales and purchase transaction is subject to VAT calculations. For more information about recording VAT, see [Recording VAT](../recording-vat.md).  
+In EU countries/regions, every sales and purchase transaction is subject to VAT calculations. For more information about recording VAT, see [Recording VAT](../recording-vat.md).  
   
 ## Manually Adjusting VAT Amounts in Sales and Purchase Documents  
  The program automatically calculates the VAT using the customer's VAT Bus. Posting Group and the item's VAT Prod. Posting Group. However, you can also manually enter the VAT amounts, if the amount calculated by the program is slightly different to that calculated by your customer or vendor, for example, due to rounding.  

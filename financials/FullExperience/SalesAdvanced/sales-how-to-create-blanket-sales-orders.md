@@ -64,7 +64,7 @@ Use blanket orders when a customer has agreed to buy large quantities that are t
   
 -   It is important to remember that the sales order line quantity must not exceed the quantity of the associated blanket order line. Otherwise, posting of the sales order will not be possible.  
   
--   When the sales order is posted as shipped and\/or invoiced, the **Quantity Shipped** and **Quantity Invoiced** fields are updated on the related blanket order.  
+-   When the sales order is posted as shipped and/or invoiced, the **Quantity Shipped** and **Quantity Invoiced** fields are updated on the related blanket order.  
   
 -   The blanket order number and line number are recorded as properties of the sales lines when created from a blanket order.  
   

@@ -16,7 +16,7 @@
 
 ---
 # How to: Process Certificates of Supply
-When you sell goods to a customer in another EU country\/region, you must send the customer a certificate of supply that the customer must sign and return to you.  
+When you sell goods to a customer in another EU country/region, you must send the customer a certificate of supply that the customer must sign and return to you.  
   
  The following procedures are for processing certificates of supply for sales shipments, but the same steps apply for service shipments of items, and return shipments to vendors.  
   
@@ -24,7 +24,7 @@ When you sell goods to a customer in another EU country\/region, you must send t
   
 1.  In the **Search** box, enter **Posted Sales Shipments**, and then choose the related link.  
   
-2.  Choose the relevant sales shipment to a customer in another EU country\/region.  
+2.  Choose the relevant sales shipment to a customer in another EU country/region.  
   
 3.  On the **Home** tab, in the **Shipment** group, choose **Certificate of Supply Details**.  
   
@@ -47,7 +47,7 @@ When you sell goods to a customer in another EU country\/region, you must send t
   
 1.  In the **Search** box, enter **Posted Sales Shipments**, and then choose the related link.  
   
-2.  Choose the relevant sales shipment to a customer in another EU country\/region.  
+2.  Choose the relevant sales shipment to a customer in another EU country/region.  
   
 3.  On the **Home** tab, in the **Shipment** group, choose **Print Certificate of Supply**.  
   
@@ -70,7 +70,7 @@ When you sell goods to a customer in another EU country\/region, you must send t
   
 1.  In the **Search** box, enter **Posted Sales Shipments**, and then choose the related link.  
   
-2.  Choose the relevant sales shipment to a customer in another EU country\/region.  
+2.  Choose the relevant sales shipment to a customer in another EU country/region.  
   
 3.  In the **Status** field, choose the relevant option.  
   

@@ -176,7 +176,7 @@ You can set up synchronization between [!INCLUDE[d365fin](../../includes/d365fin
 
      The **Outlook Synch. Entity** window contains the definition of the mapping between contacts in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] and contacts in Microsoft Outlook.  
 
-3.  In the **Code** field, select **CONT\_COMP**. On the **Home** tab, in the **Manage** group, choose **Edit**.  
+3.  In the **Code** field, select **CONT_COMP**. On the **Home** tab, in the **Manage** group, choose **Edit**.  
 
      All the fields that are mapped between the two programs are listed in this window. To add the requested field, add a line in this window and choose the fields that you want to include in the synchronization.  
 
@@ -215,5 +215,5 @@ You can set up synchronization between [!INCLUDE[d365fin](../../includes/d365fin
      Now that you have completed this walkthrough, you can establish synchronization entities and begin synchronizing between Outlook and your company's [!INCLUDE[d365fin](../../includes/d365fin_md.md)] implementation.  
 
 ## See Also  
- [Outlook Add-in-Product Name Synchronization Add-in](../Outlook%20Add-in-\($%20P_1%20Product%20Name%20$\)%20Synchronization%20Add-in.md)   
+ [Outlook Add-in-Product Name Synchronization Add-in](../Outlook%20Add-in-($%20P_1%20Product%20Name%20$)%20Synchronization%20Add-in.md)   
  [Troubleshooting: Microsoft Office Outlook Integration and Synchronization](../Troubleshooting:%20Microsoft%20Office%20Outlook%20Integration%20and%20Synchronization.md)

@@ -26,7 +26,7 @@ You can check and see if an item you need to fulfill an order is in stock, and i
   
      This launches the calculation of item availability. The **Demand Overview** window opens.  
   
-3.  In the **Demand Overview** window, expand the item grouping, and view information about the availability of the item. For example, you can see how many items are in inventory. You can also see if and when an item will be available if it is on back order, that is, Source Type \= Purchase, or whether it has been reserved.  
+3.  In the **Demand Overview** window, expand the item grouping, and view information about the availability of the item. For example, you can see how many items are in inventory. You can also see if and when an item will be available if it is on back order, that is, Source Type = Purchase, or whether it has been reserved.  
   
 ### To check item availability for a single order  
   
@@ -38,7 +38,7 @@ You can check and see if an item you need to fulfill an order is in stock, and i
   
      This launches the calculation of item availability and opens the **Demand Overview** window.  
   
-4.  In the **Demand Overview** window, expand the item grouping, and view information about the availability of the item. For example, you can see how many items are in inventory. You can also see if and when an item will be available if it is on back order, that is, Source Type \= Purchase, or whether it has been reserved.  
+4.  In the **Demand Overview** window, expand the item grouping, and view information about the availability of the item. For example, you can see how many items are in inventory. You can also see if and when an item will be available if it is on back order, that is, Source Type = Purchase, or whether it has been reserved.  
   
 ## See Also  
  Demand Overview   

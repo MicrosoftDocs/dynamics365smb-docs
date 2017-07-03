@@ -20,7 +20,7 @@ The **Contract Trendscape** window gives a financial overview of the service con
   
  To use the trendscape, from the **Service Contracts** window, select a service contract. On the **Navigate** tab, in the **Contract** group, point to **Statistics**, and then choose **Trendscape**.  
   
- When you scroll up and down, the amounts \(in LCY\) are calculated according to the time interval you have set in the **Contract Trendscape** window.  
+ When you scroll up and down, the amounts (in LCY) are calculated according to the time interval you have set in the **Contract Trendscape** window.  
   
  You can specify which service contract is included in the trendscape by setting a filter in the **Contract No.** field on the **General** FastTab.  
   
@@ -30,11 +30,11 @@ The **Contract Trendscape** window gives a financial overview of the service con
   
 |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
 |---------------------------------|---------------------------------------|  
-|**Prepaid Income**|The total income \(in LCY\) that has been posted to the prepaid account for the service contract in the periods specified in the **Period Start** field.|  
-|**Posted Income**|The total income \(in LCY\) that has been posted to the general ledger for the service contract in the periods specified in the **Period Start** field.|  
+|**Prepaid Income**|The total income (in LCY) that has been posted to the prepaid account for the service contract in the periods specified in the **Period Start** field.|  
+|**Posted Income**|The total income (in LCY) that has been posted to the general ledger for the service contract in the periods specified in the **Period Start** field.|  
 |**Posted Cost**|The cost of the service contract based on its service usage in the periods specified in the **Period Start** field.|  
-|**Discount Amount**|The amount of discount \(in LCY\) that applies to the service contract in the periods specified in the **Period Start** field.|  
-|**Profit**|The profit \(posted income minus posted cost in LCY\) for the service contract in the periods specified in the **Period Start** field.|  
+|**Discount Amount**|The amount of discount (in LCY) that applies to the service contract in the periods specified in the **Period Start** field.|  
+|**Profit**|The profit (posted income minus posted cost in LCY) for the service contract in the periods specified in the **Period Start** field.|  
 |**Profit %**|The profit percentage for the service contract in the periods specified in the **Period Start** field.|  
   
  All amounts are calculated from service ledger entries, that is, entries that are created when you post service orders or service invoices related to the service contracts.  

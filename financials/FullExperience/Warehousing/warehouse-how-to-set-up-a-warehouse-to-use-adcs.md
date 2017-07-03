@@ -31,4 +31,4 @@ To use ADCS, you must specify which warehouse locations use the technology.
   
 ## See Also  
  [How to: Set Up Items to Use ADCS](../how-to-set-up-items-to-use-adcs.md)   
- [Use Automated Data Capture Systems \(ADCS\)](../use-automated-data-capture-systems-adcs-.md)
+ [Use Automated Data Capture Systems (ADCS)](../use-automated-data-capture-systems-adcs-.md)

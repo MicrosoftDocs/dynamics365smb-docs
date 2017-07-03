@@ -28,9 +28,9 @@ You may often need to see the list of service orders or service quotes that meet
   
 4.  If you want to get a list of documents with a certain response date or response dates within a certain date period, fill in the **Response Date Filter** field and press Enter.  
   
-5.  If you want to get a list of documents with a specified allocation state or document status, fill in the **Allocation Filter\/Status Filter** field and press Enter.  
+5.  If you want to get a list of documents with a specified allocation state or document status, fill in the **Allocation Filter/Status Filter** field and press Enter.  
   
-6.  If you want to get a list of documents that belong to a certain contract, customer, or zone, fill in the **Contract Filter\/Customer Filter\/Zone Filter** field and press Enter.  
+6.  If you want to get a list of documents that belong to a certain contract, customer, or zone, fill in the **Contract Filter/Customer Filter/Zone Filter** field and press Enter.  
   
 7.  Select a certain line that corresponds to a relevant service order or service quote. On the **Navigate** tab, in the **Dispatch Board** group, choose **Show Document**.  
   

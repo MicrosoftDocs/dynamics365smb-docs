@@ -172,17 +172,17 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 
 5.  In the **Job Item Prices** window, enter the following information and customized price:  
 
-    1.  **Item No.**: **80201 \(Graphic Program\)**  
+    1.  **Item No.**: **80201 (Graphic Program)**  
 
     2.  **Unit Price**: **200**  
 
 6.  Choose the **OK** button to close the window.  
 
-7.  On the **Home** tab, in the **Prices** group, choose **G\/L Account**.  
+7.  On the **Home** tab, in the **Prices** group, choose **G/L Account**.  
 
-8.  In the **Job G\/L Account Prices** window, enter the following information and the cost of travel, for which the customer has agreed to pay cost plus 25 percent:  
+8.  In the **Job G/L Account Prices** window, enter the following information and the cost of travel, for which the customer has agreed to pay cost plus 25 percent:  
 
-    1.  **G\/L Account**: **8430 \(Travel\)**  
+    1.  **G/L Account**: **8430 (Travel)**  
 
     2.  **Unit Cost Factor**: **1.25**  
 
@@ -223,7 +223,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 
     -   **Line Type**: **Both Schedule and Contract**  
 
-    -   **Planning Date**: **\(today’s date\)**  
+    -   **Planning Date**: **(today’s date)**  
 
     -   **Type**: **Resource**  
 
@@ -235,7 +235,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 
     -   **Line Type**: **Both Schedule and Con**tract  
 
-    -   **Planning Date**: **\(today’s date\)**  
+    -   **Planning Date**: **(today’s date)**  
 
     -   **Type**: **Resource**  
 
@@ -247,11 +247,11 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 
     -   **Line Type**: **Both Schedule and Contract**  
 
-    -   **Planning Date**: **\(today’s date\)**  
+    -   **Planning Date**: **(today’s date)**  
 
-    -   **Type**: **G\/L Account**  
+    -   **Type**: **G/L Account**  
 
-    -   **No.**: **8430 \(Travel\)**  
+    -   **No.**: **8430 (Travel)**  
 
     -   **Quantity**: **2**  
 
@@ -265,7 +265,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 
     -   **Line Type**: **Both Schedule and Contract**  
 
-    -   **Planning Date**: **\(today’s date\)**  
+    -   **Planning Date**: **(today’s date)**  
 
     -   **Type**: **Resource**  
 
@@ -277,11 +277,11 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 
     -   **Line Type**: **Both Schedule and Contract**  
 
-    -   **Planning Date**: **\(today’s date\)**  
+    -   **Planning Date**: **(today’s date)**  
 
     -   **Type**: **Item**  
 
-    -   **No.**: **80201 \(Graphic program\)**  
+    -   **No.**: **80201 (Graphic program)**  
 
     -   **Quantity**: **1**  
 
@@ -343,7 +343,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 
 2.  On the **Job** card, on the **Navigate** tab, in the **Jobs** group, choose **Job Planning Lines**.  
 
-3.  Select any of the planning lines that have been invoiced, and on the **Home** tab, in the **Process** group, choose **Sales Invoice\/Credit Memo**. In the **Job Invoices** window, on the **Home** tab, in the **Process** group, choose **Open Sales Invoice\/Credit Memo**.  
+3.  Select any of the planning lines that have been invoiced, and on the **Home** tab, in the **Process** group, choose **Sales Invoice/Credit Memo**. In the **Job Invoices** window, on the **Home** tab, in the **Process** group, choose **Open Sales Invoice/Credit Memo**.  
 
  Tricia has a question about the prices, costs, and profits that are relevant to this particular job, so she accesses that information in the **Statistics** window.  
 
@@ -364,7 +364,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 
 2.  Select the **Guildford** job number, and on the **Home** tab, in the **Process** group, choose **Jobs Task Lines**.  
 
-3.  Select line 1120, and in the **Schedule \(Total Cost\)** field, right-click the amount and choose **DrillDown**.  
+3.  Select line 1120, and in the **Schedule (Total Cost)** field, right-click the amount and choose **DrillDown**.  
 
      By reviewing the Job Planning lines, Prakash determines that he will also need Tricia for 30 hours for this stage of the project. He agrees on a fixed price with the customer.  
 
@@ -386,7 +386,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 
 7.  Choose the **OK** button to close the window.  
 
-8.  In the **Schedule \(Total Cost\)** field, right-click the field, and choose **Drilldown** again in the **Job Task Lines** window. View the changes to the schedule. You see that 30 hours have been added to the schedule.  
+8.  In the **Schedule (Total Cost)** field, right-click the field, and choose **Drilldown** again in the **Job Task Lines** window. View the changes to the schedule. You see that 30 hours have been added to the schedule.  
 
 9. Choose the **OK** button to close the windows.  
 
@@ -398,9 +398,9 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 
 2.  On a new line, enter the following information:  
 
-    -   **Line Type**: **\(blank\)**  
+    -   **Line Type**: **(blank)**  
 
-    -   **Posting Date**: **\(today's date\)**  
+    -   **Posting Date**: **(today's date)**  
 
     -   **Document No.**: **J00002**  
 
@@ -424,7 +424,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 
     -   **Document No.**: **J00003**  
 
-    -   **Posting Date**: **\(today's date\)**  
+    -   **Posting Date**: **(today's date)**  
 
 6.  On the **Job Task** FastTab, enter the following information:  
 
@@ -456,13 +456,13 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 
 10. Select the GUILDFORD job. On the **Home** tab, in the **Process** group, choose **Job Task Lines**.  
 
-11. Select line 1120 and in the **Schedule \(Total Cost\)** field, right-click the amount. Choose **DrillDown** to view the information.  
+11. Select line 1120 and in the **Schedule (Total Cost)** field, right-click the amount. Choose **DrillDown** to view the information.  
 
      Changes are automatically entered on the line for Job Task No. 1120. In the total cost of scheduled work, five additional hours of work by Tricia has been added to the schedule.  
 
 12. Choose the **Close** button to close the window.  
 
-13. Right-click the amount in the **Contract \(Total Cost\)** field and choose **DrillDown** to view the information.  
+13. Right-click the amount in the **Contract (Total Cost)** field and choose **DrillDown** to view the information.  
 
      In the total price for the contract, only the original contracted 30 hours are included, because this is what was agreed upon with the customer.  
 
@@ -491,7 +491,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 
     -   **Source**: **Job Planning Lines**  
 
-    -   **Incl. Planning Line Type**: **Schedule \+ Contract**  
+    -   **Incl. Planning Line Type**: **Schedule + Contract**  
 
     -   **To Job No.**: **GuildfordSetting up 10 Conference Rooms**  
 
@@ -510,7 +510,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 
 2.  In the **Chart of Accounts** window, on the **Home** tab, choose **New** to create a new card.  
 
-3.  On the **New G\/L Account** card, enter the following information:  
+3.  On the **New G/L Account** card, enter the following information:  
 
     -   **No.**: **6630**  
 
@@ -561,9 +561,9 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 
     -   **Line Type**: **Contract**  
 
-    -   **Planning Date**:  **\(today's date\)**  
+    -   **Planning Date**:  **(today's date)**  
 
-    -   **Type**: **G\/L Account**  
+    -   **Type**: **G/L Account**  
 
     -   **No.**: **6630**  
 
@@ -579,8 +579,8 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 
     |Line|Line Type|Planning Date|Type|No.|Quantity|  
     |----------|---------------|-------------------|----------|---------|--------------|  
-    |1|Schedule|\(today’s date\)|Resource|Tricia|120|  
-    |2|Schedule|\(today’s date\)|Item|70104|10|  
+    |1|Schedule|(today’s date)|Resource|Tricia|120|  
+    |2|Schedule|(today’s date)|Item|70104|10|  
 
      Choose the **OK** button to close the window. In the **Job Task Lines** window, you can see the schedule amounts have been updated.  
 
@@ -592,7 +592,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 
     -   **Planning Date**: **a future date**  
 
-    -   **Type**: **G\/L Account**  
+    -   **Type**: **G/L Account**  
 
     -   **No.**: **6630**  
 
@@ -612,7 +612,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 
 2.  In the **Create Sales Invoice** window, set today’s date as the posting date, specify **Per Task**, and choose the **OK** button to create an invoice with the default information. Choose the **OK** button to close the confirmation window.  
 
-3.  On the **Home** tab, in the **Process** group, choose **Sales Invoice\/Credit Memo**. On the sales invoice, you can see that only the down payment is included in the invoice. You can now send this to the customer as agreed.  
+3.  On the **Home** tab, in the **Process** group, choose **Sales Invoice/Credit Memo**. On the sales invoice, you can see that only the down payment is included in the invoice. You can now send this to the customer as agreed.  
 
 ## Next Steps  
  This walkthrough has taken you through some of the basic steps of working with jobs in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. You have learned about how to create a new job, how to copy a job, and how to handle payments. Also, you have seen a demonstration of how to track hours and create invoices.  

@@ -41,7 +41,7 @@ When your warehouse location requires pick processing but does not require shipm
   
 4.  When the lines are ready for posting, on the **Home** tab, in the **Process** group, choose **Post**. The posting creates the necessary warehouse entries and posts the consumption of the items.  
   
- You can also create an **Inventory Pick** directly from the released production order. On the **Actions** tab, in the **Warehouse** group, choose **Create Inventory Put-away\/Pick\/Movement**, and then select the **Create Invt. Pick** field on the **Options** FastTab of the request window. You can print the pick list by selecting the **Print Document** field.  
+ You can also create an **Inventory Pick** directly from the released production order. On the **Actions** tab, in the **Warehouse** group, choose **Create Inventory Put-away/Pick/Movement**, and then select the **Create Invt. Pick** field on the **Options** FastTab of the request window. You can print the pick list by selecting the **Print Document** field.  
   
 ## See Also  
  Inventory Pick   

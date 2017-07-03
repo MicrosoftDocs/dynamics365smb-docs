@@ -42,12 +42,12 @@ If your location uses directed put-away and pick, use the **Whse. Item Journal**
   
  The items found on the truck have most likely been registered to another bin, and at some point, a warehouse employee will observe and register a negative difference in quantity for this bin. Perhaps a pick has been suggested that cannot be fulfilled because items are missing from the bin, or a physical inventory has been performed for the item.  
   
- When the negative adjustment quantity is registered in the **Warehouse Item Journal** window, or a value in the **Qty. \(Phys. Inventory\)** field has been registered in the **Whse. Phys. Invt. Journal** window, a positive counterbalancing entry is made in the adjustment bin.  
+ When the negative adjustment quantity is registered in the **Warehouse Item Journal** window, or a value in the **Qty. (Phys. Inventory)** field has been registered in the **Whse. Phys. Invt. Journal** window, a positive counterbalancing entry is made in the adjustment bin.  
   
 ## See Also  
  Whse. Phys. Invt. Journal   
  Warehouse Item Journal   
- Qty. \(Phys. Inventory\)%20$\).md)   
+ Qty. (Phys. Inventory)%20$).md)   
  [Warehouse Adjustment Bin](../warehouse-adjustment-bin.md)   
  Warehouse Adjustment Bin   
  [How to: Post Quantity Adjustments for Bins](../how-to-post-quantity-adjustments-for-bins.md)

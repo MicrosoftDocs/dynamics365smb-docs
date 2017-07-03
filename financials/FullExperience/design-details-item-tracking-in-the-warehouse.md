@@ -25,7 +25,7 @@ The **Item Tracking Lines** and **Item Tracking Summary** windows provide dynami
 |**Total Quantity**|The total quantity of the serial or lot number that is currently in inventory.|  
 |**Total Requested Quantity**|The total quantity of the serial or lot number that is currently requested in all documents.|  
 |**Current Pending Quantity**|The quantity that is entered in the current instance of the **Item Tracking Lines** window but is not yet committed to the database.|  
-|**Total Available Quantity**|The quantity of the serial or lot number that is available for the user to request.<br /><br /> This quantity is calculated from other fields in the window as follows:<br /><br /> total quantity – \(total requested quantity \+ current pending quantity\).|  
+|**Total Available Quantity**|The quantity of the serial or lot number that is available for the user to request.<br /><br /> This quantity is calculated from other fields in the window as follows:<br /><br /> total quantity – (total requested quantity + current pending quantity).|  
   
 > [!NOTE]  
 >  You can also see the information in the preceding table by using the **Select Entries** function in the **Item Tracking Lines** window.  
@@ -35,7 +35,7 @@ The **Item Tracking Lines** and **Item Tracking Summary** windows provide dynami
 ## Calculation Formula  
  As described in the preceding table, the availability of a given serial or lot number is calculated as follows.  
   
- total available quantity \= quantity in inventory – \(all demands \+ quantity not yet committed to the database\)  
+ total available quantity = quantity in inventory – (all demands + quantity not yet committed to the database)  
   
 > [!IMPORTANT]  
 >  This formula implies that the serial or lot number availability calculation considers only inventory and ignores projected receipts. Accordingly, supply that is not yet posted to inventory does not affect item tracking availability, as opposed to regular item availability where projected receipts are included.  

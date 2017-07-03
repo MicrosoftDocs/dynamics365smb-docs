@@ -16,7 +16,7 @@
 
 ---
 # Set Up the Chart of Accounts
-If you want to set up a new chart of accounts or add new accounts to an existing chart of accounts, you must set up each account individually. You can set up general ledger accounts in the Chart of Accounts window or on a G\/L account card. When you set up a new chart of accounts, it is easier to use the Chart of Accounts window. The G\/L account cards are better suited to changing or adding information on a single account.  
+If you want to set up a new chart of accounts or add new accounts to an existing chart of accounts, you must set up each account individually. You can set up general ledger accounts in the Chart of Accounts window or on a G/L account card. When you set up a new chart of accounts, it is easier to use the Chart of Accounts window. The G/L account cards are better suited to changing or adding information on a single account.  
   
  To format the chart of accounts, after you set up the accounts, click **Actions**, **Functions**, **Indent Chart of Accounts**. You can insert page breaks in the chart of accounts so that the break will appear in a logical place, such as after the income statement accounts, when you print the chart of accounts.  
   

@@ -35,7 +35,7 @@ You can automatically transfer the expense and income entries from the general l
 |Cost Object|No Code|Code Mandatory|  
   
 > [!NOTE]  
->  To make sure that the predefined cost center and cost object that you set up in the general ledger are automatically carried over to cost accounting, select the **Check G\/L Postings** check box in the Cost Accounting Setup window.  
+>  To make sure that the predefined cost center and cost object that you set up in the general ledger are automatically carried over to cost accounting, select the **Check G/L Postings** check box in the Cost Accounting Setup window.  
   
 ## See Also  
  [How to: Set Up Cost Centers](../how-to-set-up-cost-centers.md)   

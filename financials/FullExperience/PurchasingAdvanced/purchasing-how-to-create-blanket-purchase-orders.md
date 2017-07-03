@@ -66,7 +66,7 @@ You can use blanket orders when you have committed to buying large quantities of
   
 -   After the purchase order has been created for the total quantity of a blanket order line, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] ensures that other purchase orders cannot created for the same line by preventing users from entering a quantity in the **Qty. to Receive** field. If additional quantities must be added to a blanket order, the value in the **Quantity** field can be increased and additional orders can then be created.  
   
--   The invoiced blanket purchase order remains until it is deleted, either by using the delete \(Ctrl\+D\) function on individual blanket orders or by running the **Delete Invoiced Blanket Purchase Orders** batch job.  
+-   The invoiced blanket purchase order remains until it is deleted, either by using the delete (Ctrl+D) function on individual blanket orders or by running the **Delete Invoiced Blanket Purchase Orders** batch job.  
   
 ### Recording Blanket Order Interactions  
   

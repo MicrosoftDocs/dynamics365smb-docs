@@ -25,7 +25,7 @@ Codeunit 12, **Gen. Jnl.-Post Line**, is the major application object for genera
   
 -   There was extensive use of global variables, which increased the possibility of hidden errors due to use of variables with the wrong scope.  
   
--   There were many long procedures \(with more than 100 code lines\) that also had high cyclomatic complexity \(that is, a lot of CASE, REPEAT, IF nested statements\), which made the code very difficult to read and maintain.  
+-   There were many long procedures (with more than 100 code lines) that also had high cyclomatic complexity (that is, a lot of CASE, REPEAT, IF nested statements), which made the code very difficult to read and maintain.  
   
 -   Several procedures that were only used locally and were only meant to be used locally were not marked as local.  
   
@@ -40,7 +40,7 @@ Codeunit 12, **Gen. Jnl.-Post Line**, is the major application object for genera
 ### New Architecture  
  In ADD INCLUDE<!--[!INCLUDE[navnowlong](../../includes/navnowlong_md.md)]-->, codeunit 12 has had the following improvements:  
   
--   Codeunit 12 has been refactored into smaller procedures \(all less than 100 code lines\).  
+-   Codeunit 12 has been refactored into smaller procedures (all less than 100 code lines).  
   
 -   Standardized patterns for the search of general ledger accounts have been implemented by using helper functions from Posting Group tables.  
   

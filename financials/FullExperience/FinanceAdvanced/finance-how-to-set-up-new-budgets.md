@@ -22,23 +22,23 @@ You can have multiple budgets for identical time periods by creating budgets wit
   
 ### To set up a new budget  
   
-1.  In the **Search** box, enter **G\/L Budgets**, and then choose the related link.  
+1.  In the **Search** box, enter **G/L Budgets**, and then choose the related link.  
   
-2.  On the **Home** tab, in the **Manage** group, choose **Edit List** to open the **G\/L Budget Names** window.  
+2.  On the **Home** tab, in the **Manage** group, choose **Edit List** to open the **G/L Budget Names** window.  
   
-3.  In the **G\/L Budget Names** window, create a new line and fill in the relevant fields  
+3.  In the **G/L Budget Names** window, create a new line and fill in the relevant fields  
   
 4.  On the **Home** tab, in the **Process** group, choose **Edit Budget** to open the **Budget** window.  
   
-5.  Press Ctrl\+N to insert a new line, fill in the relevant fields and then choose the **OK** button to copy the new purchase budget name to the field.  
+5.  Press Ctrl+N to insert a new line, fill in the relevant fields and then choose the **OK** button to copy the new purchase budget name to the field.  
   
      Only entries that contain this budget name shown in the **Item Budget Name** field are now displayed. Because the budget name has just been created, there are no entries that match the filter. Therefore, the window is empty.  
   
 6.  Select the appropriate time interval in the **View by** field on the **General** FastTab.  
   
-7.  To enter an amount, choose the relevant cell in the matrix. The **G\/L Budget Entries** window opens.  
+7.  To enter an amount, choose the relevant cell in the matrix. The **G/L Budget Entries** window opens.  
   
-8.  Create a new line and fill in the **Amount** field. Close the **G\/L Budget Entries** window.  
+8.  Create a new line and fill in the **Amount** field. Close the **G/L Budget Entries** window.  
   
 9. Repeat steps until you have entered all of the budget amounts.  
   

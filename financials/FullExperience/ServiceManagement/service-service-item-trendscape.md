@@ -20,7 +20,7 @@ The **Service Item Trendscape** window provides a scrollable summary of service 
   
  To use the trendscape, from the **Service Items** window, select a service item. On the **Navigate** tab, in the **Serv. Item** group, point to **Statistics**, and then choose **Trendscape**.  
   
- When you scroll up and down, the amounts \(in LCY\) are calculated according to the time interval that you have selected.  
+ When you scroll up and down, the amounts (in LCY) are calculated according to the time interval that you have selected.  
   
  You can specify which service items are included in the trendscape by setting a filter in the **Service Item No**. field on the **General** FastTab.  
   
@@ -30,12 +30,12 @@ The **Service Item Trendscape** window provides a scrollable summary of service 
   
 |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
 |---------------------------------|---------------------------------------|  
-|**Prepaid Income**|The total income \(in LCY\) that has been posted to the prepaid account with regard to the service item in the periods specified in the **Period Start** field.|  
-|**Posted Income**|The total income \(in LCY\) that has been posted to the general ledger for the service item in the periods specified in the **Period Start** field.|  
+|**Prepaid Income**|The total income (in LCY) that has been posted to the prepaid account with regard to the service item in the periods specified in the **Period Start** field.|  
+|**Posted Income**|The total income (in LCY) that has been posted to the general ledger for the service item in the periods specified in the **Period Start** field.|  
 |**Parts Used**|The cost of spare parts used in the period shown in the **Period Start** field.|  
 |**Resources Used**|The cost of resources used in the specified period.|  
 |**Cost Used**|The cost used in the specified period.|  
-|**Profit**|The profit \(posted income minus posted cost in LCY\) for the service item in the period specified in the **Period Start** field.|  
+|**Profit**|The profit (posted income minus posted cost in LCY) for the service item in the period specified in the **Period Start** field.|  
 |**Profit %**|The profit percentage for the service item in the specified period.|  
   
  All amounts are calculated from service ledger entries, which are entries that are created when you post service orders or service invoices.  

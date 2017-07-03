@@ -18,7 +18,7 @@
 # How to: Map Customer Data
 You can map values from an existing ERP system into your [!INCLUDE[d365fin](../../includes/d365fin_md.md)] already has.  
   
- In the procedures that follow, you should review in advance which values you want to retain during the migration process. To perform the following procedures, you will need data migration files \(.xls\) that you have exported from ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-export-migration-tables.md).  
+ In the procedures that follow, you should review in advance which values you want to retain during the migration process. To perform the following procedures, you will need data migration files (.xls) that you have exported from ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-export-migration-tables.md).  
   
 ### To add additional values to [!INCLUDE[d365fin](../../includes/d365fin_md.md)]  
   
@@ -44,7 +44,7 @@ You can map values from an existing ERP system into your [!INCLUDE[d365fin](../.
   
 5.  Import the customer data. For more information, see [How to: Import Customer Data](../how-to-import-customer-data.md). In the **No. of Package Errors** field, see if there are any errors reported. If there are, drill down to see the errors. The **Config. Package Records** window opens.  
   
-6.  On the **Home** tab, in the **Process** group, choose **Show Error**. You will receive the following error: **\<option\> is not a valid option. Valid options are \<valid option list\>**. Choose the **OK** button.  
+6.  On the **Home** tab, in the **Process** group, choose **Show Error**. You will receive the following error: **<option> is not a valid option. Valid options are <valid option list>**. Choose the **OK** button.  
   
      To apply the mapping that you have set up, on the **Home** tab, in the **Process** group, choose **Apply Data.**  
   

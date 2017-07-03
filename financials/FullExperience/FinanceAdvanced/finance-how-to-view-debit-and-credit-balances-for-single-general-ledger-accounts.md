@@ -22,7 +22,7 @@ You can view separate debit and credit balances for a single general ledger acco
   
 1.  In the **Search** box, enter **Chart of Accounts**, and then choose the related link.  
   
-2.  In the **Chart of Accounts** window, on the **Navigate** tab, in the **Balance** group, choose **G\/L Account Balance**.  
+2.  In the **Chart of Accounts** window, on the **Navigate** tab, in the **Balance** group, choose **G/L Account Balance**.  
   
 3.  You can choose to have the calculations include or exclude closing entries by selecting the appropriate option in the **Closing Entries** field. You can also apply additional filters. By default, the Filter Pane is not displayed.  
   
@@ -31,4 +31,4 @@ You can view separate debit and credit balances for a single general ledger acco
 ## See Also  
  [How to: View Debit Balances and Credit Balances for All General Ledger Accounts](../how-to-view-debit-balances-and-credit-balances-for-all-general-ledger-accounts.md)   
  [How to: View Balances for All General Ledger Accounts by Periods](../how-to-view-balances-for-all-general-ledger-accounts-by-periods.md)   
- G\/L Account Balance
+ G/L Account Balance

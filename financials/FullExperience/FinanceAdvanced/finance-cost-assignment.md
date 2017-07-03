@@ -22,7 +22,7 @@ An Item Charge gives you the possibility to include the value of additional cost
   
 -   To identify the landed cost of an item for making more accurate decisions on how to optimize the distribution network.  
   
--   For breaking down the unit cost \/ unit price of an item for analysis purposes.  
+-   For breaking down the unit cost / unit price of an item for analysis purposes.  
   
 -   To include purchase allowances into the unit cost and sales allowances into the unit price.  
   

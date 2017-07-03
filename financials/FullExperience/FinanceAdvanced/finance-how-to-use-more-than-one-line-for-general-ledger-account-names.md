@@ -22,7 +22,7 @@ If necessary, you can use more than one line for a general ledger account name.
   
 1.  In the **Search** box, enter **Chart of Accounts**, and then choose the related link.  
   
-2.  In the **Chart of Accounts** window, on the **Home** tab, in the **Manage** group, choose **Edit** to display the **G\/L Account Card** window.  
+2.  In the **Chart of Accounts** window, on the **Home** tab, in the **Manage** group, choose **Edit** to display the **G/L Account Card** window.  
   
 3.  On the **Navigate** tab, in the **Account** group, choose **Extended Texts**. The **Extended Text** window appears.   
   

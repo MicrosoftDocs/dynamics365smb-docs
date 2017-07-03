@@ -18,15 +18,15 @@
 # Design Details: Balancing Supply with Demand
 The core of the planning system involves balancing demand and supply by means of suggesting user actions to revise the supply orders in case of imbalance. This takes place per combination of variant and location.  
   
- Imagine that each inventory profile contains a string of demand events \(sorted by date and priority\) and a corresponding string of supply events. Each event refers back to its source type and identification. The rules for counterbalancing the item are straightforward. Four instances of matching demand and supply can occur at any point of time in the process:  
+ Imagine that each inventory profile contains a string of demand events (sorted by date and priority) and a corresponding string of supply events. Each event refers back to its source type and identification. The rules for counterbalancing the item are straightforward. Four instances of matching demand and supply can occur at any point of time in the process:  
   
-1.  No demand or supply exists for the item \=\> the planning has finished \(or should not start\).  
+1.  No demand or supply exists for the item => the planning has finished (or should not start).  
   
-2.  Demand exists but there is no supply \=\> supply should be suggested.  
+2.  Demand exists but there is no supply => supply should be suggested.  
   
-3.  Supply exists but there is no demand for it \=\> supply should be canceled.  
+3.  Supply exists but there is no demand for it => supply should be canceled.  
   
-4.  Both demand and supply exist \=\> questions should be asked and answered before the system can ensure that demand will be met and supply is sufficient.  
+4.  Both demand and supply exist => questions should be asked and answered before the system can ensure that demand will be met and supply is sufficient.  
   
      If the timing of the supply is not suitable, perhaps the supply can be rescheduled as follows:  
   
@@ -38,9 +38,9 @@ The core of the planning system involves balancing demand and supply by means of
   
      Once the timing is in place, the adequate quantity to be supplied can be calculated as follows:  
   
-    1.  If the supply quantity is less than the demand, it is possible that the supply quantity could be increased \(or not, if limited by a maximum quantity policy\).  
+    1.  If the supply quantity is less than the demand, it is possible that the supply quantity could be increased (or not, if limited by a maximum quantity policy).  
   
-    2.  If the supply quantity is greater than the demand, it is possible that the supply quantity can be decreased \(or not, if limited by a minimum quantity policy\).  
+    2.  If the supply quantity is greater than the demand, it is possible that the supply quantity can be decreased (or not, if limited by a minimum quantity policy).  
   
      At this point, either of these two situations exists:  
   
@@ -51,15 +51,15 @@ The core of the planning system involves balancing demand and supply by means of
  The procedure starts all over with the next demand and the current supply or vice versa. The current supply might be able to cover this next demand as well, or the current demand has not yet been fully covered.  
   
 ## Rules Concerning Actions for Supply Events  
- When the planning system performs a top-down calculation in which supply must fulfill demand, the demand is taken as a given, that is, it lies outside the control of the planning system. However, the supply side can be managed. Therefore, the planning system will suggest creating new supply orders, rescheduling existing ones, and\/or changing the order quantity. If an existing supply order becoming superfluous, the planning system will suggest that the user cancels it.  
+ When the planning system performs a top-down calculation in which supply must fulfill demand, the demand is taken as a given, that is, it lies outside the control of the planning system. However, the supply side can be managed. Therefore, the planning system will suggest creating new supply orders, rescheduling existing ones, and/or changing the order quantity. If an existing supply order becoming superfluous, the planning system will suggest that the user cancels it.  
   
- If the user wants to exclude an existing supply order from the planning suggestions, he can state that it has no planning flexibility \(Planning Flexibility \= None\). Then, excess supply from that order will be used to cover demand, but no action will be suggested.  
+ If the user wants to exclude an existing supply order from the planning suggestions, he can state that it has no planning flexibility (Planning Flexibility = None). Then, excess supply from that order will be used to cover demand, but no action will be suggested.  
   
  In general, all supply has a planning flexibility that is limited by the conditions of each of the suggested actions.  
   
 -   **Reschedule Out**: The date of an existing supply order can be scheduled out to meet the demand due date unless:  
   
-    -   It represents inventory \(always on day zero\).  
+    -   It represents inventory (always on day zero).  
   
     -   It has an order-to-order linked to another demand.  
   
@@ -105,14 +105,14 @@ The core of the planning system involves balancing demand and supply by means of
   
  The suggested quantity may be modified in this sequence:  
   
-1.  Down to the maximum order quantity \(if any\).  
+1.  Down to the maximum order quantity (if any).  
   
 2.  Up to the minimum order quantity.  
   
-3.  Up to meet the nearest order multiple. \(In case of erroneous settings, this may violate the maximum order quantity.\)  
+3.  Up to meet the nearest order multiple. (In case of erroneous settings, this may violate the maximum order quantity.)  
   
 ## Order Tracking Links during Planning  
- Concerning order tracking during planning, it is important to mention that the planning system rearranges the dynamically created order tracking links for the item\/variant\/location combinations.  
+ Concerning order tracking during planning, it is important to mention that the planning system rearranges the dynamically created order tracking links for the item/variant/location combinations.  
   
  There are two reasons for this:  
   

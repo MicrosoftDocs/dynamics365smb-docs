@@ -61,7 +61,7 @@ You can use a questionnaire to help you determine the scope and needs of configu
   
 8.  Optionally, in the **Description** field, enter a description. In general, the description should describe the type of information that is being collected.  
   
-9. On the **Home** tab, choose **Update Questions**. Each field in the table is added to the questionnaire with a question mark following its label. You can rephrase the label to make it clear how the question should be answered. For example, if a field is called "Name," you could edit it to state "What is the name of \<data being collected\>." You can also provide additional information, for example, prescriptive guidance, in the **Reference** field. You can also use this field to provide a url address of a page that provides additional information.  
+9. On the **Home** tab, choose **Update Questions**. Each field in the table is added to the questionnaire with a question mark following its label. You can rephrase the label to make it clear how the question should be answered. For example, if a field is called "Name," you could edit it to state "What is the name of <data being collected>." You can also provide additional information, for example, prescriptive guidance, in the **Reference** field. You can also use this field to provide a url address of a page that provides additional information.  
   
      As needed, you can also delete questions that you do not want to include in the questionnaire.  
   

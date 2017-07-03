@@ -42,7 +42,7 @@ You can view and manually change certain item application entries that are creat
 > [!IMPORTANT]  
 >  You should not leave application entries unapplied for longer periods of time because other users cannot process the affected items until you reapply the application entries or close the **Application Worksheet** window. The following error message is displayed if you try to perform actions that involve a manually unapplied application entry:  
 >   
->  **You cannot perform this action because entries for item \<item\> are unapplied in the Application Worksheet by user \<user\>.**  
+>  **You cannot perform this action because entries for item <item> are unapplied in the Application Worksheet by user <user>.**  
   
 ### To reapply an item application by using the Application Worksheet  
   

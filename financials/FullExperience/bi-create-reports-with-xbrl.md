@@ -26,11 +26,11 @@ XBRL, which stands for eXtensible Business Reporting Language, is an XML-based l
  Microsoft Dynamics NAV enables companies to implement data in XBRL, and take advantage of the flexibility and automation it provides for both collecting and sharing data.  
 
  ## eXtensible Business Reporting Language
-XBRL \(e **X**tensible **B**usiness **R**eporting **L**anguage\) is an XML-based language for financial reporting. XBRL provides a standard for uniform reporting for all users of the financial information supply chain; such as public and private companies, the accounting profession, regulators, analysts, the investment community, capital markets and lenders, as well as key third parties such as software developers and data aggregators.  
+XBRL (e **X**tensible **B**usiness **R**eporting **L**anguage) is an XML-based language for financial reporting. XBRL provides a standard for uniform reporting for all users of the financial information supply chain; such as public and private companies, the accounting profession, regulators, analysts, the investment community, capital markets and lenders, as well as key third parties such as software developers and data aggregators.  
 
 Taxonomies are maintained by www.xbrl.org. You can download taxonomies or read more detailed information on the XBRL website.  
 
-Someone who wants financial information from you, provides you with a taxonomy \(an XML document\) containing one or more schemas, each with one or more lines to fill out. The lines correspond to the individual financial facts required by the sender. You import this taxonomy into the program and then fill out the schema\(s\) by entering which account or accounts correspond to each line, what kind of timeframe to use, for example net change or balance at date. In some cases you can enter a constant instead, for example, number of employees. You are now ready to send the instance document \(an XML document\) to the someone who requests the information. The idea is that this might be a recurring event, so unless changes have been made to the taxonomy, you just export new instance documents for new periods on request.  
+Someone who wants financial information from you, provides you with a taxonomy (an XML document) containing one or more schemas, each with one or more lines to fill out. The lines correspond to the individual financial facts required by the sender. You import this taxonomy into the program and then fill out the schema(s) by entering which account or accounts correspond to each line, what kind of timeframe to use, for example net change or balance at date. In some cases you can enter a constant instead, for example, number of employees. You are now ready to send the instance document (an XML document) to the someone who requests the information. The idea is that this might be a recurring event, so unless changes have been made to the taxonomy, you just export new instance documents for new periods on request.  
 
 ## XBRL is comprised of the following components  
  The XBRL **Specification** explains what XBRL is, how to build XBRL instance documents and XBRL taxonomies. The XBRL Specification explains XBRL in technical terms and is intended for a technical audience.  
@@ -47,7 +47,7 @@ Someone who wants financial information from you, provides you with a taxonomy \
  A taxonomy can consist of a base taxonomy, for example, us-gaap or IAS, and then have one or more extensions. To reflect this, a taxonomy refers to one or more schemas which all are separate taxonomies. When the additional taxonomies are loaded into the database, the new elements are simply added to the end of the existing elements.  
 
 ## Linkbases  
- In XBRL Spec. 2, the taxonomy is described in several XML-files. The primary XML file is the taxonomy schema file itself \(.xsd file\) which only contains an unordered list of elements or facts to be reported. In addition to this, there are usually associated some linkbase files \(.xml\). The linkbase files contain data which is complementary to the raw taxonomy \(.xsd file\). There are six types of linkbases files of which four have relevance for Product Name XBRL. These are:  
+ In XBRL Spec. 2, the taxonomy is described in several XML-files. The primary XML file is the taxonomy schema file itself (.xsd file) which only contains an unordered list of elements or facts to be reported. In addition to this, there are usually associated some linkbase files (.xml). The linkbase files contain data which is complementary to the raw taxonomy (.xsd file). There are six types of linkbases files of which four have relevance for Product Name XBRL. These are:  
 
 -   Label linkbase: This linkbase contains labels or names for the elements. The file may contain labels in different languages which are identified with an XML property called 'lang'. The XML language identifier usually contains a two-letter abbreviation, and although it should be easy to guess what the abbreviation means, there is no connection to the Windows language code or to the language codes defined in the demo data. Therefore, when the user looks up the languages for a specific taxonomy, he will see all the labels for the first element in the taxonomy, meaning that he can then see an example of each language. A taxonomy can have several label linkbases attached to it as long as these linkbases contain different languages.  
 
@@ -72,7 +72,7 @@ You set up the XBRL Lines by mapping the data in the taxonomy to the data in you
 
 5.  To read detailed information about what to fill in, on the **Navigate**, in the **XBRL Line** group, choose **Information**.  
 
-6.  To set up the mapping of the general ledger accounts in the chart of accounts to the XBRL lines, on the **Navigate**, in the **XBRL Line** group, choose **G\/L Map Lines**.  
+6.  To set up the mapping of the general ledger accounts in the chart of accounts to the XBRL lines, on the **Navigate**, in the **XBRL Line** group, choose **G/L Map Lines**.  
 
 7.  To add notes to the financial statement, on the **Navigate**, in the **XBRL Line** group, choose **Notes**.  
 
@@ -114,7 +114,7 @@ When a taxonomy changes you need to update the current taxonomy accordingly. The
 
 4.  To update or add a new linkbase, choose **Linkbases**.  
 
-5.  Select the relevant linkbase or press Ctrl\+N for a new line, select the type of linkbase, and then insert a description.  
+5.  Select the relevant linkbase or press Ctrl+N for a new line, select the type of linkbase, and then insert a description.  
 
 6.  To import the linkbase, on the **Navigate** tab, in the **Linkbase** group, choose **Import**.  
 

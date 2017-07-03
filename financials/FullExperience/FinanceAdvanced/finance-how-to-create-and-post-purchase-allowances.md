@@ -33,7 +33,7 @@ If you receive items from your vendor that are not what you wanted, for example,
   
 3.  Fill in the credit memo header with information about the vendor who sent you the purchase allowance.  
   
-4.  In the first purchase line, in the **Type** field, choose the field and select **Charge \(Item\)**.  
+4.  In the first purchase line, in the **Type** field, choose the field and select **Charge (Item)**.  
   
 5.  In the **No.** field, select the appropriate item charge number.  
   

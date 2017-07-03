@@ -16,7 +16,7 @@
 
 ---
 # How to: Use OCR to Turn PDF and Image Files into Electronic Documents
-From PDF or image files that you receive from your trading partners, you can have an external OCR service \(Optical Character Recognition\) generate electronic documents that can be converted to document records in ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]-->. For example, when you receive an invoice in PDF format from your vendor, you can send it to the OCR service from the **Incoming Documents** window. This is described in the first procedure.  
+From PDF or image files that you receive from your trading partners, you can have an external OCR service (Optical Character Recognition) generate electronic documents that can be converted to document records in ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]-->. For example, when you receive an invoice in PDF format from your vendor, you can send it to the OCR service from the **Incoming Documents** window. This is described in the first procedure.  
   
  As an alternative to sending the file from the **Incoming Documents** window, you can send the file to the OCR service by email. Then, when you receive the electronic document back, a related incoming document record is created automatically. This is described in the second procedure.  
   
@@ -67,7 +67,7 @@ From PDF or image files that you receive from your trading partners, you can hav
  Now you can proceed to create document records in ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/use-incoming-documents.md).  
   
 > [!NOTE]  
->  When you create, for example, a purchase invoice from an electronic document that was created with OCR, the invoice will contain one line of type G\/L Account with an empty **Description** field, and the value in the **Amount** field will equal the total amount excluding VAT. To make sure that the **Description** field is filled, you can open the **Text-to-Account Mapping** window from the **Incoming Documents** window to define that a certain invoice text is always mapped to a certain debit account. Going forward, the **Description** field on document lines created from an electronic document for that vendor will then be filled with the text in question, so that the invoice is ready to post. For more information, see [How to: Receive and Convert Electronic Documents](../how-to-receive-and-convert-electronic-documents.md).  
+>  When you create, for example, a purchase invoice from an electronic document that was created with OCR, the invoice will contain one line of type G/L Account with an empty **Description** field, and the value in the **Amount** field will equal the total amount excluding VAT. To make sure that the **Description** field is filled, you can open the **Text-to-Account Mapping** window from the **Incoming Documents** window to define that a certain invoice text is always mapped to a certain debit account. Going forward, the **Description** field on document lines created from an electronic document for that vendor will then be filled with the text in question, so that the invoice is ready to post. For more information, see [How to: Receive and Convert Electronic Documents](../how-to-receive-and-convert-electronic-documents.md).  
   
 ## See Also  
  Incoming Document   

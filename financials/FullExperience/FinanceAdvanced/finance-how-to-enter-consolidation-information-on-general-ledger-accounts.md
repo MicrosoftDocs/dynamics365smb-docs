@@ -20,7 +20,7 @@ After setting up the chart of accounts for a consolidated company, you must spec
   
 ### To enter consolidation information on general ledger accounts  
   
-1.  On the Application menu ![Microsoft Dynamics NAV Application menu](../media/rtc_applicationmenu.png "RTC\_ApplicationMenu"), choose **Select Company** to open the company for a business unit.  
+1.  On the Application menu ![Microsoft Dynamics NAV Application menu](../media/rtc_applicationmenu.png "RTC_ApplicationMenu"), choose **Select Company** to open the company for a business unit.  
   
 2.  In the **Search** box, enter **Chart of Accounts**, and then choose the related link.  
   

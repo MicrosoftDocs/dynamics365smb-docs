@@ -61,8 +61,8 @@ Web services are a lightweight way to make application functionality available t
 
     |Web service type|Syntax|Example|  
     |----------------------|------------|-------------|  
-    |SOAP|https:\/\/*Server*:*SOAPWebServicePort*\/*ServerInstance*\/WS\/*CompanyName*\/services\/|https:\/\/localhost:7047\/ADD INCLUDE<!--[!INCLUDE[nav_server_instance](../../includes/nav_server_instance_md.md)]-->\/WS\/CRONUS International Ltd.\/services\/|  
-    |OData|https:\/\/*Server*:*ODataWebServicePort*\/*ServerInstance*\/OData\/Company\('*CompanyName*'\)|https:\/\/localhost:7048\/ADD INCLUDE<!--[!INCLUDE[nav_server_instance](../../includes/nav_server_instance_md.md)]-->\/OData\/Company\('CRONUS International Ltd.'\)|  
+    |SOAP|https://*Server*:*SOAPWebServicePort*/*ServerInstance*/WS/*CompanyName*/services/|https://localhost:7047/ADD INCLUDE<!--[!INCLUDE[nav_server_instance](../../includes/nav_server_instance_md.md)]-->/WS/CRONUS International Ltd./services/|  
+    |OData|https://*Server*:*ODataWebServicePort*/*ServerInstance*/OData/Company('*CompanyName*')|https://localhost:7048/ADD INCLUDE<!--[!INCLUDE[nav_server_instance](../../includes/nav_server_instance_md.md)]-->/OData/Company('CRONUS International Ltd.')|  
 
      The company name is case-sensitive.  
 

@@ -16,7 +16,7 @@
 
 ---
 # About Production Orders
-Production orders are used to manage the conversion of purchased materials into manufactured items. Production orders \(job or work orders\) route work through various facilities \(work or machine centers\) on the shop floor.  
+Production orders are used to manage the conversion of purchased materials into manufactured items. Production orders (job or work orders) route work through various facilities (work or machine centers) on the shop floor.  
   
  Before proceeding with production, most companies perform supply planning, typically once a week, to calculate how many production orders and purchase orders to execute to fulfill that week’s sales demand. Purchase orders supply the components that are required according to the production BOM to produce the end items. more information, see [Operations Planning](../purchasing.md).  
   
@@ -43,7 +43,7 @@ Production orders are used to manage the conversion of purchased materials into 
 -   Tracking of finished manufacturing  
   
 ## Production Order Creation  
- Production orders can be created on an order-by-order basis manually from the **Production Order** window, or generated from the **Sales Order Planning** and\/or **Order Planning** window. Multiple orders are created from the **Planning Worksheet** window.  
+ Production orders can be created on an order-by-order basis manually from the **Production Order** window, or generated from the **Sales Order Planning** and/or **Order Planning** window. Multiple orders are created from the **Planning Worksheet** window.  
   
  Production orders are created using information from:  
   
@@ -78,7 +78,7 @@ Production orders are used to manage the conversion of purchased materials into 
   
 -   As its name implies, it is a simulation and its main purpose is for quoting and costing - such as when the Research and Development department wants to get a cost estimate on a proposed item. A simulated production order serves as an example of a production order.  
   
--   It does not influence the planning of orders. Planning \(MPS and MRP\) neither considers nor is affected by simulated production orders. Also, a simulated production order cannot be used as a template because it disappears when you change its status.  
+-   It does not influence the planning of orders. Planning (MPS and MRP) neither considers nor is affected by simulated production orders. Also, a simulated production order cannot be used as a template because it disappears when you change its status.  
   
 ### Planned Production Order  
  The Planned Production Order is unique because of the following characteristics:  
@@ -113,7 +113,7 @@ Production orders are used to manage the conversion of purchased materials into 
   
 -   When a production order has been released, it does not necessarily mean that materials have been picked or the job has physically moved to its first operation.  
   
--   In a MTO \(Make-to-Order\) environment, it is not unusual to create a released production order immediately after the entry of the sales order.  
+-   In a MTO (Make-to-Order) environment, it is not unusual to create a released production order immediately after the entry of the sales order.  
   
 -   Actual material consumption and product output can be recorded manually with a released production order. In addition, automatic flushing of consumption and product output only occurs for released production orders.  
   
@@ -124,7 +124,7 @@ Production orders are used to manage the conversion of purchased materials into 
   
 -   Finishing the production order is an important task in completing the costing lifecycle of the item that is being produced. By finishing a production order, costing can be adjusted and reconciled.  
   
--   Finished production orders are used for statistical reporting and to support the ability to track back to other orders \(sales, production, and purchase, for example\). The ability to track back to a finished production order allows you to review the detailed history.  
+-   Finished production orders are used for statistical reporting and to support the ability to track back to other orders (sales, production, and purchase, for example). The ability to track back to a finished production order allows you to review the detailed history.  
   
 -   Finished production orders can never be changed.  
   
@@ -142,7 +142,7 @@ Production orders are used to manage the conversion of purchased materials into 
 ### Material Consumption  
  The program offers a variety of options for how a manufacturing company might want to record material consumption. For example, material consumption may be recorded manually, which might be desirable if there are frequent component substitutions or greater than expected scrap.  
   
- Consumption of materials may be processed through the [Consumption Journal](../\($%20N_99000846%20Consumption%20Journal%20$\).md), but also may be recorded automatically by the program, known as automatic reporting. The reporting methods are:  
+ Consumption of materials may be processed through the [Consumption Journal](../($%20N_99000846%20Consumption%20Journal%20$).md), but also may be recorded automatically by the program, known as automatic reporting. The reporting methods are:  
   
 -   Manual  
   
@@ -162,7 +162,7 @@ Production orders are used to manage the conversion of purchased materials into 
   
  When the Production Order is refreshed, the flushing method is copied from the item card. Because the flushing method for each production order component controls how and when the consumption is recorded, it is important to note that you can change flushing method for specific items directly on the Production Order.  
   
-#### Automatic Consumption Posting \(Flushing\)  
+#### Automatic Consumption Posting (Flushing)  
  The advantage of automatic flushing is that it greatly reduces data entry. With the ability to automatically flush an operation, the entire consumption and output recording process can be automated. The disadvantage of using automatic flushing is that you may not be accurately recording, or even aware of, scrap. The Automatic Reporting methods are:  
   
 -   Forward Flush the Entire Order  
@@ -199,9 +199,9 @@ Production orders are used to manage the conversion of purchased materials into 
   
  The flush takes place when the operation that has the same routing link code is started. Started means that some activity is recorded in the output journal for that operation. And that activity might just be that a setup time is entered.  
   
- The amount of the flush is for the quantity per assembly stated on the production BOM multiplied by the number of parent items being built \(expected quantity\).  
+ The amount of the flush is for the quantity per assembly stated on the production BOM multiplied by the number of parent items being built (expected quantity).  
   
- This technique is best employed when there are many operations and certain components are not needed until late in the assembly sequence. In fact, a Just-in-Time \(JIT\) setup might not even have the items on hand when the RPO is begun.  
+ This technique is best employed when there are many operations and certain components are not needed until late in the assembly sequence. In fact, a Just-in-Time (JIT) setup might not even have the items on hand when the RPO is begun.  
   
  Material can be consumed during operations by using routing link codes. Some components may not be used until final assembly operations and should not be withdrawn from stock until that time.  
   
@@ -234,9 +234,9 @@ Production orders are used to manage the conversion of purchased materials into 
   
  Manual method uses the Output Journal to specify time consumed and quantity produced.  
   
- Forward method records the expected output \(and time\), which is automatically recorded at the release of a Production Order. Routing link codes are not a factor in the forward flushing of the output.  
+ Forward method records the expected output (and time), which is automatically recorded at the release of a Production Order. Routing link codes are not a factor in the forward flushing of the output.  
   
- Backward method records the expected output \(and time\), which is automatically recorded at the finish of a Production Order. Routing link codes are not a factor in the back flushing of the output.  
+ Backward method records the expected output (and time), which is automatically recorded at the finish of a Production Order. Routing link codes are not a factor in the back flushing of the output.  
   
 ### Posting Consumption and Output  
  You can use any combination of automatic flushing and manually recorded information for both consumption and output. For example, you may want to automatically forward flush components, but still use the Consumption Journal to record scrap. Similarly, you may want to automatically record output, but use the Output Journal to record scrap of the parent item or additional time spent on the order.  

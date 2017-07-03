@@ -41,8 +41,8 @@ This planning function calculates changes made to components and routings lines,
   
     |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../../includes/bp_tabledescription_md.md)]-->|  
     |----------------------------------|---------------------------------------|  
-    |**Back**|Calculates the operation sequence backwards from the earliest possible ending date, defined by due date and\/or other scheduled orders, to the latest possible starting date. **Note:**  This default option is relevant in the majority of situations.|  
-    |**Forward**|Calculates the operation sequence forward from the earliest latest possible starting date, defined by due date and\/or other scheduled orders, to the earliest possible ending date. **Note:**  This option is only relevant for expedite orders.|  
+    |**Back**|Calculates the operation sequence backwards from the earliest possible ending date, defined by due date and/or other scheduled orders, to the latest possible starting date. **Note:**  This default option is relevant in the majority of situations.|  
+    |**Forward**|Calculates the operation sequence forward from the earliest latest possible starting date, defined by due date and/or other scheduled orders, to the earliest possible ending date. **Note:**  This option is only relevant for expedite orders.|  
   
 7.  In the **Plan** field, select whether to calculate production requirements for produced items on the production BOM, as follows.  
   

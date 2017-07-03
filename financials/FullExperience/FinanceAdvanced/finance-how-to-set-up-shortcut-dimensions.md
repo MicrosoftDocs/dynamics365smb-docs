@@ -16,7 +16,7 @@
 
 ---
 # How to: Set Up Shortcut Dimensions
-You can choose up to eight dimensions whose values that you can enter directly on journals or sales\/purchase lines. These are called shortcut dimensions.  
+You can choose up to eight dimensions whose values that you can enter directly on journals or sales/purchase lines. These are called shortcut dimensions.  
   
 ### To set up shortcut dimensions  
   

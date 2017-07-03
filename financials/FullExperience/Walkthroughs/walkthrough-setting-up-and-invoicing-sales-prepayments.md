@@ -38,11 +38,11 @@ Prepayments are payments that are invoiced and posted to a sales or purchase pre
 ### Roles  
  This walkthrough includes tasks for the following roles:  
   
--   Accounting Manager \(Phyllis\)  
+-   Accounting Manager (Phyllis)  
   
--   Order Processor \(Susan\)  
+-   Order Processor (Susan)  
   
--   Accounts Receivable Administrator \(Arnie\)  
+-   Accounts Receivable Administrator (Arnie)  
   
 ## Story  
  Phyllis is an accounting manager. She makes decisions about which customers are required to pay a deposit before items are manufactured or shipped. Phyllis sets up [!INCLUDE[d365fin](../../includes/d365fin_md.md)] to calculate prepayments automatically.  
@@ -76,7 +76,7 @@ Prepayments are payments that are invoiced and posted to a sales or purchase pre
   
 2.  In the **Sales & Receivables Setup** window, expand the **Numbering** FastTab.  
   
-3.  Verify that the number series for posted prepayment invoices in the **Posted Prepmt. Inv. Nos.** field is the same as for posted sales invoices \(**Posted Invoice Nos.**\) and the number series for posted prepayment credit memos \(**Posted Prepmt. Cr. Memo Nos.**\) is the same as for posted credit memos \(**Posted Credit Memo Nos.**\).  
+3.  Verify that the number series for posted prepayment invoices in the **Posted Prepmt. Inv. Nos.** field is the same as for posted sales invoices (**Posted Invoice Nos.**) and the number series for posted prepayment credit memos (**Posted Prepmt. Cr. Memo Nos.**) is the same as for posted credit memos (**Posted Credit Memo Nos.**).  
   
 #### To block shipments for unpaid prepayment  
   
@@ -94,7 +94,7 @@ Prepayments are payments that are invoiced and posted to a sales or purchase pre
   
 1.  In the **Search** box, enter **Customers**, and then choose the related link.  
   
-2.  Select the line with customer 20000 \(Selangorian\), and then, on the **Home** tab, in the **Manage** group, choose **Edit**.  
+2.  Select the line with customer 20000 (Selangorian), and then, on the **Home** tab, in the **Manage** group, choose **Edit**.  
   
 3.  On the customer card for customer 20000, expand the **Invoicing** FastTab.  
   
@@ -116,7 +116,7 @@ Prepayments are payments that are invoiced and posted to a sales or purchase pre
     |**All Customers**||**1100**|**20**|  
   
     > [!IMPORTANT]  
-    >  Depending on your country\/region, you must also specify a tax group code on the **Invoicing** FastTab for items 1000 and 1100.  
+    >  Depending on your country/region, you must also specify a tax group code on the **Invoicing** FastTab for items 1000 and 1100.  
   
 10. Close all windows.  
   
@@ -181,7 +181,7 @@ Prepayments are payments that are invoiced and posted to a sales or purchase pre
      In this scenario, Susan has been instructed to suggest a total prepayment of 2000 for the order.  
   
     > [!IMPORTANT]  
-    >  Depending on your country\/region, the following step might not apply.  
+    >  Depending on your country/region, the following step might not apply.  
   
 13. Change the amount in the **Prepmt. Line Amount Excl. VAT** field to **2000** and then close the window.  
   

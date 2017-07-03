@@ -30,12 +30,12 @@ The planning system takes all demand and supply data into account, nets the resu
  Another goal of the planning system is to ensure that the inventory does not grow unnecessarily. In the case of decreasing demand, the planning system will suggest that you postpone, decrease in quantity, or cancel existing replenishment orders.  
   
 ## Planning Calculation  
- The planning system is driven by anticipated and actual customer demand, as well as inventory reordering parameters. Running the planning calculation will result in the program suggesting specific actions \(Action Messages\) to take concerning possible replenishment from vendors, transfers between warehouses, or production. If replenishment orders already exist, the suggested actions could be to increase or expedite the orders to meet the changes in demand.  
+ The planning system is driven by anticipated and actual customer demand, as well as inventory reordering parameters. Running the planning calculation will result in the program suggesting specific actions (Action Messages) to take concerning possible replenishment from vendors, transfers between warehouses, or production. If replenishment orders already exist, the suggested actions could be to increase or expedite the orders to meet the changes in demand.  
   
- The basis of the planning routine is in the gross-to-net calculation. Net requirements drive planned order releases, which are scheduled based on the routing information \(manufactured items\) or the item card lead time \(purchased items\). Planned order release quantities are based on the planning calculation, and are affected by the parameters set on the individual item cards.  
+ The basis of the planning routine is in the gross-to-net calculation. Net requirements drive planned order releases, which are scheduled based on the routing information (manufactured items) or the item card lead time (purchased items). Planned order release quantities are based on the planning calculation, and are affected by the parameters set on the individual item cards.  
   
 ## Planning Parameters  
- The planning parameters control when, how much, and how to replenish based on the various settings on the item card \(or stockkeeping unit - SKU\), and the manufacturing setup.  
+ The planning parameters control when, how much, and how to replenish based on the various settings on the item card (or stockkeeping unit - SKU), and the manufacturing setup.  
   
  The following planning parameters exist on the item or SKU card:  
   
@@ -45,7 +45,7 @@ The planning system takes all demand and supply data into account, nets the resu
   
 -   Reordering Policy  
   
--   [Reorder Point](../\($%20T_27_34%20Reorder%20Point%20$\).md)  
+-   [Reorder Point](../($%20T_27_34%20Reorder%20Point%20$).md)  
   
 -   Maximum Inventory  
   
@@ -59,7 +59,7 @@ The planning system takes all demand and supply data into account, nets the resu
   
 -   Reorder Quantity  
   
--   [Safety Lead Time](../\($%20T_27_5415%20Safety%20Lead%20Time%20$\).md)  
+-   [Safety Lead Time](../($%20T_27_5415%20Safety%20Lead%20Time%20$).md)  
   
 -   Safety Stock Quantity  
   
@@ -77,19 +77,19 @@ The planning system takes all demand and supply data into account, nets the resu
   
  Global planning setup fields on the **Manufacturing Setup** window include:  
   
--   [Dynamic Low-Level Code](../\($%20T_99000765_12%20Dynamic%20Low-Level%20Code%20$\).md)  
+-   [Dynamic Low-Level Code](../($%20T_99000765_12%20Dynamic%20Low-Level%20Code%20$).md)  
   
--   [Current Production Forecast](../\($%20T_99000765_35%20Current%20Production%20Forecast%20$\).md)  
+-   [Current Production Forecast](../($%20T_99000765_35%20Current%20Production%20Forecast%20$).md)  
   
--   [Use Forecast on Locations](../\($%20T_99000765_37%20Use%20Forecast%20on%20Locations%20$\).md)  
+-   [Use Forecast on Locations](../($%20T_99000765_37%20Use%20Forecast%20on%20Locations%20$).md)  
   
--   [Default Safety Lead Time](../\($%20T_99000765_42%20Default%20Safety%20Lead%20Time%20$\).md)  
+-   [Default Safety Lead Time](../($%20T_99000765_42%20Default%20Safety%20Lead%20Time%20$).md)  
   
 -   Blank Overflow Level  
   
--   [Combined MPS\/MRP Calculation](../\($%20T_99000765_38%20Combined%20MPS-MRP%20Calculation%20$\).md)  
+-   [Combined MPS/MRP Calculation](../($%20T_99000765_38%20Combined%20MPS-MRP%20Calculation%20$).md)  
   
--   [Components at Location](../\($%20T_99000765_39%20Components%20at%20Location%20$\).md)  
+-   [Components at Location](../($%20T_99000765_39%20Components%20at%20Location%20$).md)  
   
 -   Default Dampener Period  
   
@@ -97,7 +97,7 @@ The planning system takes all demand and supply data into account, nets the resu
   
  For more information, see [Design Details: Planning Parameters](design-details-planning-parameters.md)  
   
- Planning is affected by many additional factors, such as the planning horizon defined by the order and ending dates specified when you run MPS\/MRP from the **Planning Worksheet** or **Order Planning** windows.  
+ Planning is affected by many additional factors, such as the planning horizon defined by the order and ending dates specified when you run MPS/MRP from the **Planning Worksheet** or **Order Planning** windows.  
   
 ## See Also  
  Item Card   

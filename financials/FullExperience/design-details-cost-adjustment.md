@@ -18,7 +18,7 @@
 # Design Details: Cost Adjustment
 The main purpose of cost adjustment is to forward cost changes from cost sources to cost recipients, according to an item’s costing method, to provide correct inventory valuation.  
   
- An item can be sales invoiced before it has been purchase invoiced, so that the recorded inventory value of the sale does not match the actual purchase cost. Cost adjustment updates the cost of goods sold \(COGS\) for historic sales entries to ensure that they match the costs of the inbound transactions to which they are applied. For more information, see [Design Details: Item Application](design-details-item-application.md).  
+ An item can be sales invoiced before it has been purchase invoiced, so that the recorded inventory value of the sale does not match the actual purchase cost. Cost adjustment updates the cost of goods sold (COGS) for historic sales entries to ensure that they match the costs of the inbound transactions to which they are applied. For more information, see [Design Details: Item Application](design-details-item-application.md).  
   
  The following are secondary purposes, or functions, of cost adjustment:  
   
@@ -62,13 +62,13 @@ The main purpose of cost adjustment is to forward cost changes from cost sources
 ### Order Level  
  This detection function is used in conversion scenarios, production and assembly. The function works as follows:  
   
--   Cost adjustment is detected by marking the order whenever a material\/resource is posted as consumed\/used.  
+-   Cost adjustment is detected by marking the order whenever a material/resource is posted as consumed/used.  
   
--   Cost is forwarding by applying the costs from material\/resource to the output entries associated with the same order.  
+-   Cost is forwarding by applying the costs from material/resource to the output entries associated with the same order.  
   
  The Order Level function is used to detect adjustments in assembly posting. The following graphic shows the adjustment entry structure:  
   
- ![Adjustment entry structure](../media/design_details_assembly_posting_3.png "design\_details\_assembly\_posting\_3")  
+ ![Adjustment entry structure](../media/design_details_assembly_posting_3.png "design_details_assembly_posting_3")  
   
  For more information, see [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md).  
   
@@ -94,18 +94,18 @@ The main purpose of cost adjustment is to forward cost changes from cost sources
 >  We recommend that you always run the batch job for all items and only use the filtering option to reduce the runtime of the batch job, or to fix the cost of a certain item.  
   
 ### Example  
- The following example shows if you post a purchased item as received and invoiced on 01-01-20. You later post the sold item as shipped and invoiced on 01-15-20. Then, you run the **Adjust Cost - Item Entries** and **Post Inventory Cost to G\/L** batch jobs. The following entries are created.  
+ The following example shows if you post a purchased item as received and invoiced on 01-01-20. You later post the sold item as shipped and invoiced on 01-15-20. Then, you run the **Adjust Cost - Item Entries** and **Post Inventory Cost to G/L** batch jobs. The following entries are created.  
   
  **Value Entries**  
   
-|Posting Date|Item Ledger Entry Type|Cost Amount \(Actual\)|Cost Posted to G\/L|Invoiced Quantity|Entry No.|  
+|Posting Date|Item Ledger Entry Type|Cost Amount (Actual)|Cost Posted to G/L|Invoiced Quantity|Entry No.|  
 |------------------|----------------------------|----------------------------|-------------------------|-----------------------|---------------|  
 |01-01-20|Purchase|10.00|10.00|1|1|  
 |01-15-20|Sale|-10.00|-10.00|-1|2|  
   
- **Relation Entries in the G\/L – Item Ledger Relation Table**  
+ **Relation Entries in the G/L – Item Ledger Relation Table**  
   
-|G\/L Entry No.|Value Entry No.|G\/L Register No.|  
+|G/L Entry No.|Value Entry No.|G/L Register No.|  
 |--------------------|---------------------|-----------------------|  
 |1|1|1|  
 |2|1|1|  
@@ -114,25 +114,25 @@ The main purpose of cost adjustment is to forward cost changes from cost sources
   
  **General Ledger Entries**  
   
-|Posting Date|G\/L Account|Account No. \(En-US Demo\)|Amount|Entry No.|  
+|Posting Date|G/L Account|Account No. (En-US Demo)|Amount|Entry No.|  
 |------------------|------------------|---------------------------------|------------|---------------|  
-|01-01-20|\[Inventory Account\]|2130|10.00|1|  
-|01-01-20|\[Direct Cost Applied Account\]|7291|-10.00|2|  
-|01-15-20|\[Inventory Account\]|2130|-10.00|3|  
-|01-15-20|\[COGS Account\]|7290|10.00|4|  
+|01-01-20|[Inventory Account]|2130|10.00|1|  
+|01-01-20|[Direct Cost Applied Account]|7291|-10.00|2|  
+|01-15-20|[Inventory Account]|2130|-10.00|3|  
+|01-15-20|[COGS Account]|7290|10.00|4|  
   
- Later, you post a related purchase item charge for 2.00 LCY invoiced on 02-10-20. You run the **Adjust Cost - Item Entries** batch job and then run the **Post Inventory Cost to G\/L** batch job. The cost adjustment batch job adjusts the cost of the sale by -2.00 LCY accordingly, and the **Post Inventory Cost to G\/L** batch job posts the new value entries to the general ledger. The result is as follows.  
+ Later, you post a related purchase item charge for 2.00 LCY invoiced on 02-10-20. You run the **Adjust Cost - Item Entries** batch job and then run the **Post Inventory Cost to G/L** batch job. The cost adjustment batch job adjusts the cost of the sale by -2.00 LCY accordingly, and the **Post Inventory Cost to G/L** batch job posts the new value entries to the general ledger. The result is as follows.  
   
  **Value Entries**  
   
-|Posting Date|Item Ledger Entry Type|Cost Amount \(Actual\)|Cost Posted to G\/L|Invoiced Quantity|Adjustment|Entry No.|  
+|Posting Date|Item Ledger Entry Type|Cost Amount (Actual)|Cost Posted to G/L|Invoiced Quantity|Adjustment|Entry No.|  
 |------------------|----------------------------|----------------------------|-------------------------|-----------------------|----------------|---------------|  
 |02-10-20|Purchase|2.00|2.00|0|No|3|  
 |01-15-20|Sale|-2.00|-2.00|0|Yes|4|  
   
- **Relation Entries in the G\/L – Item Ledger Relation Table**  
+ **Relation Entries in the G/L – Item Ledger Relation Table**  
   
-|G\/L Entry No.|Value Entry No.|G\/L Register No.|  
+|G/L Entry No.|Value Entry No.|G/L Register No.|  
 |--------------------|---------------------|-----------------------|  
 |5|3|2|  
 |6|3|2|  
@@ -141,12 +141,12 @@ The main purpose of cost adjustment is to forward cost changes from cost sources
   
  **General Ledger Entries**  
   
-|Posting Date|G\/L Account|Account No. \(En-US Demo\)||Amount|Entry No.|  
+|Posting Date|G/L Account|Account No. (En-US Demo)||Amount|Entry No.|  
 |------------------|------------------|---------------------------------|-|------------|---------------|  
-|02-10-20|\[Inventory Account\]|2130||2.00|5|  
-|02-10-20|\[Direct Cost Applied Account\]|7291||-2.00|6|  
-|01-15-20|\[Inventory Account\]|2130||-2.00|7|  
-|01-15-20|\[COGS Account\]|7290||2.00|8|  
+|02-10-20|[Inventory Account]|2130||2.00|5|  
+|02-10-20|[Direct Cost Applied Account]|7291||-2.00|6|  
+|01-15-20|[Inventory Account]|2130||-2.00|7|  
+|01-15-20|[COGS Account]|7290||2.00|8|  
   
 ## Automatic Cost Adjustment  
  To set up cost adjustment to run automatically when you post an inventory transaction, use the **Automatic Cost Adjustment** field in the **Inventory Setup** window. This field enables you to select how far back in time from the current work date that you want automatic cost adjustment to be performed. The following options exist.  

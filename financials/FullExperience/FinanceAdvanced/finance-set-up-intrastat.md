@@ -16,7 +16,7 @@
 
 ---
 # Set Up Intrastat
-If your company is in the European Union \(EU\), you must report the extent of your trade with other EU countries\/regions.  
+If your company is in the European Union (EU), you must report the extent of your trade with other EU countries/regions.  
   
  You can prepare a report based on entries in an Intrastat journal. To record the information that the Intrastat authorities require, you must:  
   
@@ -24,7 +24,7 @@ If your company is in the European Union \(EU\), you must report the extent of y
   
 -   Set up transaction types and transport methods and assign them to sales and purchase documents.  
   
- Optionally, you can also set up transaction specifications, areas, and entry\/exit points.  
+ Optionally, you can also set up transaction specifications, areas, and entry/exit points.  
   
  You must also set up Intrastat journal templates and batches.  
   

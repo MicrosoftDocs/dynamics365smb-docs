@@ -16,7 +16,7 @@
 
 ---
 # How to: Enter Basic Information for Consolidated Companies
-To consolidate several companies' figures in a consolidated company, you must first enter information about the business units \(companies\) to be included and about the degree to which their figures will be included. You can use any number of business units in a consolidation.  
+To consolidate several companies' figures in a consolidated company, you must first enter information about the business units (companies) to be included and about the degree to which their figures will be included. You can use any number of business units in a consolidation.  
   
 ### To enter basic information for consolidated companies  
   

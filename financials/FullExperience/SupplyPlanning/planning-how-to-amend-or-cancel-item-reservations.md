@@ -30,7 +30,7 @@ Sometimes you may want to amend or cancel an item reservation.
   
 4.  On the **Navigate** tab, in the **Line** group, choose **Reservation Entries**.  
   
-5.  On the line you want to amend, in the **Quantity \(Base\)** field, change the quantity, and then press the Enter key.  
+5.  On the line you want to amend, in the **Quantity (Base)** field, change the quantity, and then press the Enter key.  
   
 6.  If you decide to cancel the reservation, on the **Actions** tab, in the **Functions** group, choose **Cancel Reservation**.  
   

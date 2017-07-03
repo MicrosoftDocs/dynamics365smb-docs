@@ -24,11 +24,11 @@ If you change the annual amount of the service contract or contract quote, you m
   
 3.  The contents in the **Line Discount Amount**, **Line Discount %**, and **Profit** fields are updated with regard to the new value in the **Line Discount Amount** field in the following way:  
   
-    -   Line Discount Amount \= Line Value - Line Amount  
+    -   Line Discount Amount = Line Value - Line Amount  
   
-    -   Line Discount % \= Line Discount Amount \/ Line Value \* 100  
+    -   Line Discount % = Line Discount Amount / Line Value * 100  
   
-    -   Profit \= Line Amount - Line Cost  
+    -   Profit = Line Amount - Line Cost  
   
  The steps are repeated for each contract line.  
   
@@ -41,17 +41,17 @@ If you change the annual amount of the service contract or contract quote, you m
 |Item 2|20.00|23.00|None|0.00|55.10|3.00|  
 |Item 3|24.00|27.00|3.00|0.81|112.70|2.19|  
   
- The **Annual Amount** field value is equal to the contents of the **Calcd. Annual Amount** field which is always set to the sum of the line amounts. In this case, it is equal to the following: 16.49 \+ 23.00 \+ 26.19 \= 65.68.  
+ The **Annual Amount** field value is equal to the contents of the **Calcd. Annual Amount** field which is always set to the sum of the line amounts. In this case, it is equal to the following: 16.49 + 23.00 + 26.19 = 65.68.  
   
  If you change the **Annual Amount** to 60, the profit percentage contributions for each contract line is calculated:  
   
--   Item 1 – 5 \/ \(5 \+ 5.1 \+12.7\) \= 0.2193 %  
+-   Item 1 – 5 / (5 + 5.1 +12.7) = 0.2193 %  
   
--   Item 2 – 5.1 \/ \(5 \+ 5.1 \+ 12.7\) \= 0.2237  
+-   Item 2 – 5.1 / (5 + 5.1 + 12.7) = 0.2237  
   
--   Item 3 – 12.7 \/ \(5 \+ 5.1 \+ 12.7\) \= 0.557  
+-   Item 3 – 12.7 / (5 + 5.1 + 12.7) = 0.557  
   
- The **Line Amount** field value is updated on each contract line using the following formula: Line Amount \= Line Amount \+ difference between the new and calculated annual amounts \* Percentage Contribution. After that, the **Line Discount Amount**, **Line Discount %**, and **Profit** field values are updated using the formulas described in the procedure above.  
+ The **Line Amount** field value is updated on each contract line using the following formula: Line Amount = Line Amount + difference between the new and calculated annual amounts * Percentage Contribution. After that, the **Line Discount Amount**, **Line Discount %**, and **Profit** field values are updated using the formulas described in the procedure above.  
   
  Finally, the contract lines will contain this data.  
   

@@ -33,15 +33,15 @@ To send e-mails from [!INCLUDE[d365fin](../../../includes/d365fin_md.md)] using 
     |**SMTP Server**|Specify the name of the SMTP server.|  
     |**SMTP Server Port**|Specify a port for the SMTP server. The default port is 25. **Note:**  When you set up the port, make sure that incoming and outgoing communications on the port is enabled for all clients and the Microsoft Dynamics NAV Server. Check your firewall settings.|  
     |**Authentication**|Specify the type of authentication that the SMTP server uses.<br /><br /> The default setting is **Anonymous**, which requires no user ID or password information. On an Azure deployment, use **Basic**.|  
-    |**Secure Connection**|Specify if the SMTP server setup requires a encrypted channel that uses a cryptography or security protocol, such as secure socket layers \(SSL\).|  
+    |**Secure Connection**|Specify if the SMTP server setup requires a encrypted channel that uses a cryptography or security protocol, such as secure socket layers (SSL).|  
   
 3.  Choose the **OK** button.  
   
- For more information about SMTP e-mail systems, see [Configure SMTP E-mail \(IIS 7\)](http://go.microsoft.com/fwlink/?LinkId=263830).  
+ For more information about SMTP e-mail systems, see [Configure SMTP E-mail (IIS 7)](http://go.microsoft.com/fwlink/?LinkId=263830).  
   
 ## See Also  
  [How to: Manage Notification Templates](../how-to-manage-notification-templates.md)   
  SMTP Mail Setup   
  [Workflow](../workflow.md)   
  [Walkthrough: Setting Up and Using a Purchase Approval Workflow](../walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
- [Configure SMTP E-mail \(IIS 7\)](http://go.microsoft.com/fwlink/?LinkId=263830)
+ [Configure SMTP E-mail (IIS 7)](http://go.microsoft.com/fwlink/?LinkId=263830)

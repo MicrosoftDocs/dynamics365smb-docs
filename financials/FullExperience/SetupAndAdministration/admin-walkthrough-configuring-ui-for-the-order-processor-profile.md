@@ -80,10 +80,10 @@ Administrators configure the user interface by customizing the user interface fo
 
 #### To open the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/nav_windows_md.md)]--> in configuration mode  
 
-1.  Open a command prompt and change to the directory that contains the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/navnow_x86install_md.md)]-->\\RoleTailored Client  
+1.  Open a command prompt and change to the directory that contains the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/navnow_x86install_md.md)]-->RoleTailored Client  
 
     > [!NOTE]  
-    >  The top-level directory may be **Program Files \(x86\)** or **Program Files**.  
+    >  The top-level directory may be **Program Files (x86)** or **Program Files**.  
 
 2.  Open the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/nav_windows_md.md)]--> in configuration mode by typing the following command: **Microsoft.Dynamics.Nav.Client.exe -configure -profile:"order processor"**  
 

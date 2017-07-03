@@ -16,11 +16,11 @@
 
 ---
 # How to: Insert Fault and Resolution Code Relationships
-To be able to see the most common methods of repair for particular item faults when you are servicing the items, you need to build up information on fault\/resolution codes relationships. Use the **Insert Fault\/Resol. Codes Relationships** batch job to find all the combination of fault and resolution codes in posted service orders and record them in the **Fault\/Resol. Codes Relationships** window.  
+To be able to see the most common methods of repair for particular item faults when you are servicing the items, you need to build up information on fault/resolution codes relationships. Use the **Insert Fault/Resol. Codes Relationships** batch job to find all the combination of fault and resolution codes in posted service orders and record them in the **Fault/Resol. Codes Relationships** window.  
   
-### To insert fault\/resolution codes relationships  
+### To insert fault/resolution codes relationships  
   
-1.  In the **Search** box, enter **Insert Fault\/Resol. Codes Relationships**, and then choose the related link.  
+1.  In the **Search** box, enter **Insert Fault/Resol. Codes Relationships**, and then choose the related link.  
   
 2.  In the **From Date** field, enter the starting date of the period you want to include in the batch job.  
   
@@ -28,7 +28,7 @@ To be able to see the most common methods of repair for particular item faults w
   
 4.  Select the **Relation Based on Service Item Group** field if you want the relationships to be grouped by service item groups.  
   
-5.  Select the **Retain Manually Inserted Rec.** field if you want to retain the records that you have already inserted manually in the **Fault\/Resol. Codes Relationships** window.  
+5.  Select the **Retain Manually Inserted Rec.** field if you want to retain the records that you have already inserted manually in the **Fault/Resol. Codes Relationships** window.  
   
 6.  Choose the **OK** button.  
   

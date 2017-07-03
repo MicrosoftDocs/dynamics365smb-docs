@@ -34,7 +34,7 @@ If you cannot repair a service item, you may have to replace the service item ei
   
 7.  Fill in the relevant fields.  
   
-     If you replace a complex service item that contains components, you select in the **Copy Components From** field either **Item BOM**, **Old Service Item**, or **Old Service Item w\/o Serial No**.  
+     If you replace a complex service item that contains components, you select in the **Copy Components From** field either **Item BOM**, **Old Service Item**, or **Old Service Item w/o Serial No**.  
   
 8.  Choose the **OK** button to replace the service item.  
   

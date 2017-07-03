@@ -22,7 +22,7 @@ In a make-to-order environment, an item is purchased or produced to exclusively 
   
  Apart from using the Order policy, the order-to-order link can be applied during planning in the following ways:  
   
--   When using the Make-to-Order manufacturing policy to create multi-level or project type production orders \(producing needed components on the same production order\).  
+-   When using the Make-to-Order manufacturing policy to create multi-level or project type production orders (producing needed components on the same production order).  
   
 -   When using the Sales Order Planning feature to create a production order from a sales order.  
   

@@ -81,7 +81,7 @@ Assembly items can be supplied in the following two processes:
 |-|----------------------|---------------------------|  
 ||**Quantity**|**Qty. to Ship**|**Qty. to Assemble to Order**|**Quantity Shipped**|**Quantity**|**Quantity to Assemble**|**Assembled Quantity**|**Remaining Quantity**|  
 |Initial|10|7|7|0|7|7|0|7|  
-|Change||4||||4 \(inserted by default\)|||  
+|Change||4||||4 (inserted by default)|||  
   
  Based on the above situation, you can only modify the **Quantity to Assemble** field as follows:  
   

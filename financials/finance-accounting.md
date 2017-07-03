@@ -48,15 +48,18 @@ When you first log in to the accountant portal, the dashboard shows a sample cli
 The dashboard shows the most important information about each client.  
 [![Accountant Portal](./media/ui-extensions-accportal/accountant-portal.png)](https://go.microsoft.com/fwlink/?linkid=851257)
 
-The **Client Name** column shows the names of your clients, and the **Company Name** column lists all companies if the client has more than one company in [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can customize the dashboard to show the data points that you want to see by adding or removing columns. For example, you might want to see taxes that are due, how many open sales documents each client has, or the number of purchase invoices that are due next week. You can configure the view to suit your needs. If you have many clients, you can use filters to sort your view.  
+The **Company Name** column lists all companies that your clients have in [!INCLUDE[d365fin](includes/d365fin_md.md)], and the **Client Name** column shows the names of your clients. You can customize the dashboard to show the data points that you want to see by adding or removing columns. For example, you might want to see taxes that are due, how many open sales documents each client has, or the number of purchase invoices that are due next week. You can configure the view to suit your needs. If you have many clients, you can use filters to sort your view.  
 
 Next to the client name the three ellipses reveal a short menu:
 
 -   Refresh the current company and get fresh data for the client  
--   Go to the client's [!INCLUDE[d365fin](includes/d365fin_md.md)]  
--   Select more clients  
+-   Go to the client's company  
+-   Select more companies  
 
 Similarly, you can use the **Client Summary** drop-down menu to refresh all companies, for example.  
+
+#### Company Details
+You can see more information about your clients' data by choosing the name of the company that you want to learn more about. This opens the **Company Details** window in a new browser tab.
 
 All other work that you do for each client, you can do in the Accountant Role Center in their [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 

@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 06/01/2017
+ms.date: 07/03/2017
 ms.author: sgroespe
 
 ---
@@ -65,6 +65,37 @@ When your vendors have informed you which invoice discounts they grant, enter th
 8. Repeat steps 5 through 7 for each currency that the vendor will receive a different invoice discount for.
 
 The invoice discount is now set up and assigned to the vendor in question. When you select the vendor code in the **Invoice Disc. Code** field on other vendor cards, the same invoice discount is assigned to those vendor.
+
+## To choose a principle for posting purchase discounts  
+When you post a purchase invoice that includes one or more discounts, you can choose between two principles for posting discount amounts. You can post discounts separately or you can subtract discounts from invoice discounts.  
+
+Before you can do this, you must have already set up the necessary accounts for posting discount amounts in the chart of accounts. You must also check that you have entered the correct account numbers in the general posting setup in the **Purch. Line Disc. Account** and **Purch. Inv. Disc. Account** fields.
+
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchases & Payables Setup**, and then choose the related link.
+2. In the **Discount Posting** field, choose one of the following principles for posting discounts.
+
+|**Discount Posting Principle**|**Invoice Discount**|**Line Discount**|  
+|------------------------------------|--------------------------|-----------------------|  
+|**All Discounts**|Posted separately|Posted separately|  
+|**Invoice Discounts**|Posted separately|Subtracted|  
+|**Line Discounts**|Subtracted|Posted separately|  
+|**No Discounts**|Subtracted|Subtracted|  
+
+# Purchase Invoice Discounts and Service Charges
+If you have fixed terms for invoice discounts with any vendors, you can enter them for those vendors. Then the discount will be calculated when you fill in a purchase invoice.  
+
+ Before you can use invoice discounts with purchases, you must specify the vendors that offer you the discounts.  
+
+ You link discount percentages to specific invoice amounts in **Vend. Invoice Discounts** windows. You can enter any number of percentages in each window. Each vendor can have its own window, or you can link several vendors to the same window.  
+
+ In addition to a discount percentage, you can link a service charge amount to a specific invoice amount.  
+
+ You can define the terms of the invoice discount in LCY for domestic vendors and in foreign currency for foreign vendors.  
+
+ You can choose to have [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically calculate the invoice discounts for quotes, blanket orders, orders, invoices, or credit memos.  
+
+> [!TIP]  
+>  Before you enter this information, it is a good idea to prepare an outline of the discount structure that you want to use. This makes it easier to see which vendors can be linked to the same invoice discount window. The fewer windows that you have to set up, the faster that you can enter the basic information.
 
 ## Best Price Calculation
 When you have recorded special prices and line discounts for sales and purchases, [!INCLUDE[d365fin](includes/d365fin_md.md)] ensures that your profit on item trade is always optimal by automatically calculating the best price on sales and purchase documents and on job and item journal lines.

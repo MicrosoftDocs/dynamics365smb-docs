@@ -92,5 +92,5 @@ You can use the **General Ledger Setup** window to set up unrealized sales tax. 
  [How to: Set Up Sales Tax Details](how-to-set-up-sales-tax-details.md)   
  [How to: Set Up Use Tax and Purchase Tax](how-to-set-up-use-tax-and-purchase-tax.md)   
  General Ledger Setup   
- [\($ T\_311 Sales & Receivables Setup $\)](\($%20T_311%20Sales%20&%20Receivables%20Setup%20$\).md)   
- [\($ N\_460 Purchases & Payables Setup $\)](-$-n_460-purchases-payables-setup-$-.md)
+ Sales & Receivables Setup   
+ Purchases & Payables Setup

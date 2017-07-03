@@ -34,5 +34,5 @@ You can create corrective invoices and corrective credit memos to reflect change
   
 ## See Also  
  [Corrective Documents](corrective-documents.md)   
- [\($ N\_459 Sales & Receivables Setup $\)](-$-n_459-sales-receivables-setup-$.md)   
+ Sales & Receivables Setup   
  Inventory Posting Groups

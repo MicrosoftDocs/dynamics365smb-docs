@@ -97,7 +97,7 @@ You must define a location for storing Offentlig Information Online UBL \(OIOUBL
  [OIOUBL Electronic Invoicing Overview](oioubl-electronic-invoicing-overview.md)   
  [How to: Set Up Customers for OIOUBL](how-to-set-up-customers-for-oioubl.md)   
  Payment Methods   
- [\($ N\_459 Sales & Receivables Setup $\)](-$-n_459-sales-receivables-setup-$.md)   
+ Sales & Receivables Setup   
  Service Mgt. Setup   
  Countries\/Regions   
  Item Charges

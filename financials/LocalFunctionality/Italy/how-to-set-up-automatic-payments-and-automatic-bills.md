@@ -92,8 +92,8 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can manage automatic p
  SEPA Direct Debit Exp. Format   
  Company Information   
  Bank Account Card   
- [\($ N\_459 Sales & Receivables Setup $\)](-$-n_459-sales-receivables-setup-$.md)   
- [\($ N\_460 Purchases & Payables Setup $\)](-$-n_460-purchases-payables-setup-$-.md)   
+ Sales & Receivables Setup   
+ Purchases & Payables Setup   
  Customer Card   
  Vendor Card   
  Bill   

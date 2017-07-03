@@ -37,7 +37,7 @@ You can set up automatic archiving of sales documents and purchase documents—s
   
 ## See Also  
  [Swiss Purchase Documents and Sales Documents](swiss-purchase-documents-and-sales-documents.md)   
- [\($ T\_311 Sales & Receivables Setup $\)](\($%20T_311%20Sales%20&%20Receivables%20Setup%20$\).md)   
+ Sales & Receivables Setup   
  [How to: Import Swiss Post Codes](how-to-import-swiss-post-codes.md)   
  [How to: Print an Inventory Picking List from a Sales Order](how-to-print-an-inventory-picking-list-from-a-sales-order.md)   
  [How to: Print Sales and Purchase Orders During Batch Posting](how-to-print-sales-and-purchase-orders-during-batch-posting.md)

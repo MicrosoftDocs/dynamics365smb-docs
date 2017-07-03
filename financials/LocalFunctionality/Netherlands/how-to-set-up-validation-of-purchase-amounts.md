@@ -52,5 +52,5 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can activate the **Che
 3.  Choose the **OK** button.  
   
 ## See Also  
- [\($ N\_460 Purchases & Payables Setup $\)](-$-n_460-purchases-payables-setup-$-.md)   
+ Purchases & Payables Setup   
  [Netherlands Local Functionality](netherlands-local-functionality.md)

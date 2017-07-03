@@ -28,7 +28,7 @@ You can use translated VAT clauses for customers who have a language code that i
   
 4.  In the **VAT Clause Translations** window, in the **Language Code** field, choose a language.  
   
-5.  In the **Description** and **\($ T\_561\_4 Description 2 $\)** fields, enter the text that is a translation of the descriptions. This text is displayed in translated VAT report documents.  
+5.  In the **Description** and **Description 2** fields, enter the text that is a translation of the descriptions. This text is displayed in translated VAT report documents.  
   
 ## See Also  
  VAT Clause Translations   

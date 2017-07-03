@@ -30,11 +30,11 @@ If you have posted an incorrect invoice, you can correct it by issuing a credit 
   
     -   Use the **Copy Document** batch job to copy an existing document to the credit memo. It can be either a posted document or a document that is not yet posted.  
   
-         This function only reverses cost exactly when exact cost reversing is required in the **\($ N\_459 Sales & Receivables Setup $\)** window. For more information, see the [How to: Assign Exact Cost Reversing in Sales](../how-to-assign-exact-cost-reversing-in-sales.md).  
+         This function only reverses cost exactly when exact cost reversing is required in the **Sales & Receivables Setup** window. For more information, see the [How to: Assign Exact Cost Reversing in Sales](../how-to-assign-exact-cost-reversing-in-sales.md).  
   
     -   Use the **Get Posted Document Lines to Reverse** function to copy one or more posted document lines from one or more posted documents to the new credit memo document.  
   
-         This function always exactly reverses the costs from the posted document line, regardless of whether exact cost reversing is required in the **\($ N\_459 Sales & Receivables Setup $\)** window.  
+         This function always exactly reverses the costs from the posted document line, regardless of whether exact cost reversing is required in the **Sales & Receivables Setup** window.  
   
      When you use either of these functions, a link is created to the original item ledger entries in the **Appl.-from Item Entry** field to ensure that the costs are copied from the original posted document. If the line has item tracking, the **Appl.-from Item Entry** field is filled in on the item tracking line or lines instead of on the document line.  
   

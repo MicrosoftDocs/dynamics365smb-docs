@@ -34,13 +34,13 @@ If you require your customers to submit payment before you ship an order to them
   
 ### To set up number series for prepayment documents  
   
--   If you use prepayments for sales, in the **[\($ N\_459 Sales & Receivables Setup $\)](DynamicsNAV:////runpage?Page=459)** window, fill in the following fields:  
+-   If you use prepayments for sales, in the **Sales & Receivables Setup** window, fill in the following fields:  
   
      **Posted Prepmt. Inv. Nos.**  
   
      **Posted Prepmt. Cr. Memo Nos.**  
   
--   If you use prepayments for purchases, in the **[\($ N\_460 Purchases & Payables Setup $\)](DynamicsNAV:////runpage?Page=460)** window, fill in the following fields:  
+-   If you use prepayments for purchases, in the **Purchases & Payables Setup** window, fill in the following fields:  
   
      **Posted Prepmt. Inv. Nos.**  
   
@@ -55,7 +55,7 @@ If you require your customers to submit payment before you ship an order to them
   
 -   To setup prepayment defaults for an item, on the item card, on the **Navigate** tab, in the **Sales** group, choose **Prepayment Percentages**.  
   
--   For a customer or vendor, you can set up one default prepayment percentage for all items and all types of sales lines. You enter this on the customer card, on the **Invoicing** FastTab, in the **\($ T\_18\_124 Prepayment % $\)** field.  
+-   For a customer or vendor, you can set up one default prepayment percentage for all items and all types of sales lines. You enter this on the customer card, on the **Invoicing** FastTab, in the **Prepayment %** field.  
   
 ### To determine which prepayment percentage has first priority  
   

@@ -37,7 +37,7 @@ Job queues are an effective tool to schedule the running of business processes i
   
 1.  In the **Search** box, enter **Sales & Receivables Setup**, and then choose the related link.  
   
-2.  In the **\($ N\_459 Sales & Receivables Setup $\)** window, expand the **Background Posting** FastTab.  
+2.  In the **Sales & Receivables Setup** window, expand the **Background Posting** FastTab.  
   
 3.  Select the **Post Documents via Job Queue** check box.  
   
@@ -75,9 +75,9 @@ Job queues are an effective tool to schedule the running of business processes i
   
 2.  In the **Search** box, enter **Sales & Receivables Setup**, and then choose the related link.  
   
-3.  In the **\($ N\_459 Sales & Receivables Setup $\)** window, expand the **Background Posting** FastTab.  
+3.  In the **Sales & Receivables Setup** window, expand the **Background Posting** FastTab.  
   
-4.  Select the **\($ T\_311\_41 Post & Print with Job Queue $\)** check box.  
+4.  Select the **Post & Print with Job Queue** check box.  
   
 5.  Follow the remaining steps in the rest of the preceding procedure to complete the task.  
   

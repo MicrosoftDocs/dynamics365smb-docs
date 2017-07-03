@@ -38,9 +38,9 @@ If you require your customers to submit payment before you ship an order to them
   
 3.  Fill in the sales lines.  
   
-     If default prepayment percentages have been set up for your items, they are automatically copied to the **\($ T\_37\_109 Prepayment % $\)** field on the line. Otherwise, the prepayment percentage is copied from the header. You can change the contents of the **\($ T\_37\_109 Prepayment % $\)** field on the line.  
+     If default prepayment percentages have been set up for your items, they are automatically copied to the **Prepayment %** field on the line. Otherwise, the prepayment percentage is copied from the header. You can change the contents of the **Prepayment %** field on the line.  
   
-4.  If you want to apply one prepayment percentage to the entire order, change the **\($ T\_36\_130 Prepayment % $\)** field on the header after filling in the lines.  
+4.  If you want to apply one prepayment percentage to the entire order, change the **Prepayment %** field on the header after filling in the lines.  
   
 5.  To view the total prepayment amount, on the **Navigate** tab, in the **Order** group, choose **Statistics**.  
   
@@ -48,7 +48,7 @@ If you require your customers to submit payment before you ship an order to them
   
     -   If the **Prices Including VAT** field is selected, the **Prepayment Amount Incl. VAT** field is editable.  
   
-    -   If you change the contents of the **Prepayment Amount** field, the amount will be distributed proportionately between all lines, except those that have **0** in the **\($ T\_37\_109 Prepayment % $\)** field.  
+    -   If you change the contents of the **Prepayment Amount** field, the amount will be distributed proportionately between all lines, except those that have **0** in the **Prepayment %** field.  
   
 6.  To print a test report before posting the prepayment invoice, on the **Actions** tab, in the **Posting** group, choose **Prepayment**, and then choose **Prepayment Test Report**.  
   

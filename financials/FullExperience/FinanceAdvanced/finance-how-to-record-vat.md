@@ -49,7 +49,7 @@ In EU countries\/regions, every sales and purchase transaction is subject to VAT
   
 #### Before you manually enter VAT on sales and purchase journals  
   
-1.  Check the **Allow VAT Difference** field in the **[\($ N\_460 Purchases & Payables Setup $\)](DynamicsNAV:////runpage?Page=460)** windows, respectively.  
+1.  Check the **Allow VAT Difference** field in the **Purchases & Payables Setup** windows, respectively.  
   
 2.  Once you have completed the setup described above, you can adjust the **VAT Amount** field on the general journal line, or the **Bal. VAT Amount** field on the sales or purchase journal line, to equal the invoice VAT amount. The program will check that the difference is not greater than the specified maximum.  
   

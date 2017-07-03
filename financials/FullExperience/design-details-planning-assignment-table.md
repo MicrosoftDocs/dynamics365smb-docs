@@ -42,11 +42,11 @@ All items should be planned for, however, there is no reason to calculate a plan
   
  The following changes in master data can also cause a planning imbalance:  
   
--   Change of status to Certified in the production BOM header \(for all items using that header\).  
+-   Change of status to Certified in the production BOM header (for all items using that header).  
   
--   Deleted line \(child item\).  
+-   Deleted line (child item).  
   
--   Change of status to Certified in the routing header \(for all items using that routing\).  
+-   Change of status to Certified in the routing header (for all items using that routing).  
   
 -   Changes in the following item card fields.  
   
@@ -56,7 +56,7 @@ All items should be planned for, however, there is no reason to calculate a plan
   
 -   Reorder Point.  
   
--   Production BOM No. \(and all children of old BOM reference\).  
+-   Production BOM No. (and all children of old BOM reference).  
   
 -   Routing No.  
   

@@ -34,7 +34,7 @@ The production BOMs support the version principle which is explained below.
   
 -   **Certified**  
   
-     The status is set to **Certified** when the version of the production BOM has been created completely and correctly. To do this, it must be checked first by appropriately qualified employees. After setting the status to **Certified**, the BOM is considered in calculations \(according to starting date and ending date\). No changes to the version are possible.  
+     The status is set to **Certified** when the version of the production BOM has been created completely and correctly. To do this, it must be checked first by appropriately qualified employees. After setting the status to **Certified**, the BOM is considered in calculations (according to starting date and ending date). No changes to the version are possible.  
   
 -   **Under Development**  
   
@@ -53,26 +53,26 @@ The production BOMs support the version principle which is explained below.
   
 -   Empty  
   
-     No consideration of dimensions. \(Quantity \= Quantity per.\)  
+     No consideration of dimensions. (Quantity = Quantity per.)  
   
 -   Length  
   
-     Quantity \= Quantity per \* Length  
+     Quantity = Quantity per * Length  
   
--   Length \* Width  
+-   Length * Width  
   
-     Quantity \= Quantity per \* Length \* Width  
+     Quantity = Quantity per * Length * Width  
   
--   Length \* Width \* Depth  
+-   Length * Width * Depth  
   
-     Quantity \= Quantity per \* Length \* Width \* Depth  
+     Quantity = Quantity per * Length * Width * Depth  
   
 -   Weight  
   
-     Quantity \= Quantity per \* Weight  
+     Quantity = Quantity per * Weight  
   
 ### Example  
- In a production BOM, seventy metal parts with the dimensions length \= 0.20 m and width \= 0.15 m are required. The values are entered as follows: Calculation Formula \= Length \* Width, Length \= 20, Width \= 15, Quantity per \= 70. The quantity is given by the Quantity per \* Length \* Width, that is, Quantity \= 70 \* 0.20 m \* 0.15 m \= 2.1 m2.  
+ In a production BOM, seventy metal parts with the dimensions length = 0.20 m and width = 0.15 m are required. The values are entered as follows: Calculation Formula = Length * Width, Length = 20, Width = 15, Quantity per = 70. The quantity is given by the Quantity per * Length * Width, that is, Quantity = 70 * 0.20 m * 0.15 m = 2.1 m2.  
   
 ## See Also  
  [Concepts of Production BOMs](../concepts-of-production-boms.md)   

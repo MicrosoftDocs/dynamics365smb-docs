@@ -26,7 +26,7 @@ You may often have contacts or potential customers asking for quotes. These cont
   
 3.  On the **General** FastTab of the customer template card, enter a code and a description for the customer template in the **Code** and **Description** fields respectively.  
   
-4.  The other fields, such as **Country\/Region Code**, **Territory Code**, and **Language Code**, are used as search criteria and could be filled in.  
+4.  The other fields, such as **Country/Region Code**, **Territory Code**, and **Language Code**, are used as search criteria and could be filled in.  
   
 5.  The **Gen. Bus. Posting Group** and **Customer Posting Group** fields must be filled in.  
   

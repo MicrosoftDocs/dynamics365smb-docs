@@ -53,7 +53,7 @@ This planning task can be performed in the **Order Planning** window, which disp
   
      The first planning line has the earliest demand date, and therefore you should plan this line first. To see the actual demand lines, either sales order lines or component lines, of each order header line, you must expand the line.  
   
-2.  Choose the **Expand \(\+\)** button in front of the date in the **Demand Date** field to see the underlying planning lines that represent demand lines with insufficient availability.  
+2.  Choose the **Expand (+)** button in front of the date in the **Demand Date** field to see the underlying planning lines that represent demand lines with insufficient availability.  
   
 3.  For each expanded planning line, that is, demand line, you can see values in information fields at the bottom of the window.  
   

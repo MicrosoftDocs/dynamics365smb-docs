@@ -25,7 +25,7 @@ In connection with master planning, you must know the exact availability of reso
 |**To**|**See**|  
 |------------|-------------|  
 |Learn how to configure work shifts and use shop calendars to define production capacity.|[Shop Calendars](../shop-calendars.md)|  
-|Lay out a calendar of capacity \(time\) in a work center based on configured shifts, work days, and holidays.|"Calculate a Work Center Calendar" in [Creating a Work Center Calendar](../how-to-create-work-center-calendars.md)|  
+|Lay out a calendar of capacity (time) in a work center based on configured shifts, work days, and holidays.|"Calculate a Work Center Calendar" in [Creating a Work Center Calendar](../how-to-create-work-center-calendars.md)|  
 |Update the work center calendar with current absence information.|"Record Work Center Absence" in [Creating a Work Center Calendar](../how-to-create-work-center-calendars.md)|  
 |Update and recalculate active shop calendars to reflect changes in capacity.|[How to: Update Calendar Entries for Work Centers](../how-to-update-calendar-entries-for-work-centers.md)|  
 |Enable finite loading on a critical machine or work center, for example, because you have defined it as a bottleneck.|Capacity Constrained Resource|  

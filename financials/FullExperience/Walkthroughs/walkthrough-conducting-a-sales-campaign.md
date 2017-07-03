@@ -23,7 +23,7 @@ A campaign is any kind of activity that involves several contacts. An important 
  The Campaign and Segment features with their automated processes enable you to plan, organize, and keep track of your marketing activities. This will increase the chances of winning new customers and retaining existing customers.  
   
 ## About This Walkthrough  
- This walkthrough demonstrates the process for following up on a trade show and targeting potential customers \(contacts\) in a follow-up campaign.  
+ This walkthrough demonstrates the process for following up on a trade show and targeting potential customers (contacts) in a follow-up campaign.  
   
  The walkthrough introduces the campaign and segment management feature in the Sales & Marketing department. This walkthrough illustrates the following tasks:  
   
@@ -141,12 +141,12 @@ A campaign is any kind of activity that involves several contacts. An important 
   
 2.  On the **Interaction** FastTab, in the **Interaction Template Code** field, select the Business Letter template, code **BUS**.  
   
-3.  In the **Subject \(Default\)** field, enter the following example text: **Thank you for visiting the trade show**.  
+3.  In the **Subject (Default)** field, enter the following example text: **Thank you for visiting the trade show**.  
   
     > [!NOTE]  
     >  This template consists of more than one attachment document, each of them written in a different language. Example languages include English and Danish.  
   
-4.  Choose the **Language Code \(Default\)** field to open the **Segment Interaction Languages** window. Select a language code and then choose the **OK** button.  
+4.  Choose the **Language Code (Default)** field to open the **Segment Interaction Languages** window. Select a language code and then choose the **OK** button.  
   
 5.  You can display the document in the selected language. On the **Actions** tab, in the **Functions** group, choose **Attachment**, and then choose **Open**.  
   
@@ -176,7 +176,7 @@ A campaign is any kind of activity that involves several contacts. An important 
   
 1.  On the **Interaction** FastTab, in the **Interaction Template Code** field, select the Business Letter template, code **BUS**.  
   
-2.  In the **Subject \(Default\)** field, enter the following example text: **Thank you for visiting the trade show**.  
+2.  In the **Subject (Default)** field, enter the following example text: **Thank you for visiting the trade show**.  
   
 3.  In the **Correspondence Type** field, choose **E-Mail**.  
   

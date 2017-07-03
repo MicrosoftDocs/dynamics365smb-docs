@@ -27,7 +27,7 @@ Sometimes, you must make a negative adjustment to the value, but not the quantit
 3.  Make a positive adjustment of the same quantity, setting the unit cost at the new, correct value.  
   
 > [!NOTE]  
->  You can find the actual cost on a ledger entry list for an item. If you set the filter **Open** \= **Yes**, only the entries that are used to calculate the inventory value are shown. You can also see the cost in the **Inventory Valuation** report.  
+>  You can find the actual cost on a ledger entry list for an item. If you set the filter **Open** = **Yes**, only the entries that are used to calculate the inventory value are shown. You can also see the cost in the **Inventory Valuation** report.  
   
 ## See Also  
  Revaluation Journal   

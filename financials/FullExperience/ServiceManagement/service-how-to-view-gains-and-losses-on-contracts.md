@@ -22,17 +22,17 @@ A contract gain or loss entry is generated whenever a contract quote is converte
   
 |**Window**|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
 |----------------|---------------------------------------|  
-|**Contract Gain\/Loss \(Contracts\)**|To view the contract gain\/loss by service contract.|  
-|**Contract Gain\/Loss \(Groups\)**|To view the contract gain\/loss by service contract group.|  
-|**Contract Gain\/Loss \(Customers\)**|To view the contract gain\/loss by customer.|  
-|**Contract Gain\/Loss \(Reasons\)**|To view the contract gain\/loss by reason code.|  
-|**Contract Gain\/Loss \(Resp.Ctr\)**|To view the contract gain\/loss by responsibility center.|  
+|**Contract Gain/Loss (Contracts)**|To view the contract gain/loss by service contract.|  
+|**Contract Gain/Loss (Groups)**|To view the contract gain/loss by service contract group.|  
+|**Contract Gain/Loss (Customers)**|To view the contract gain/loss by customer.|  
+|**Contract Gain/Loss (Reasons)**|To view the contract gain/loss by reason code.|  
+|**Contract Gain/Loss (Resp.Ctr)**|To view the contract gain/loss by responsibility center.|  
   
-### To view contract gain\/loss  
+### To view contract gain/loss  
   
-1.  In the **Search** box, enter **Contract Gain\/Loss**, and then choose the related link.  
+1.  In the **Search** box, enter **Contract Gain/Loss**, and then choose the related link.  
   
-2.  Fill in the filter criteria you want to apply. For example, in the **Contract Gain\/Loss \(Reasons\)** window, select a value for **Reason Code Filter**.  
+2.  Fill in the filter criteria you want to apply. For example, in the **Contract Gain/Loss (Reasons)** window, select a value for **Reason Code Filter**.  
   
 3.  In the **Matrix Options** FastTab, select the viewing options.  
   
@@ -41,8 +41,8 @@ A contract gain or loss entry is generated whenever a contract quote is converte
 5.  Choose the **OK** button to close the window.  
   
 ## See Also  
- [Contract Gain-Loss \(Customers\) Overview](../contract-gain-loss-customers-overview.md)   
- [Contract Gain-Loss \(Reason Codes\) Overview](../contract-gain-loss-reason-codes-overview.md)   
- [Contract Gain-Loss \(Responsibility Centers\)  Overview](../contract-gain-loss-responsibility-centers-overview.md)   
- [Contract Gain-Loss \(Groups\) Overview](../contract-gain-loss-groups-overview.md)   
- [Contract Gain-Loss \(Service Contracts\) Overview](../contract-gain-loss-service-contracts-overview.md)
+ [Contract Gain-Loss (Customers) Overview](../contract-gain-loss-customers-overview.md)   
+ [Contract Gain-Loss (Reason Codes) Overview](../contract-gain-loss-reason-codes-overview.md)   
+ [Contract Gain-Loss (Responsibility Centers)  Overview](../contract-gain-loss-responsibility-centers-overview.md)   
+ [Contract Gain-Loss (Groups) Overview](../contract-gain-loss-groups-overview.md)   
+ [Contract Gain-Loss (Service Contracts) Overview](../contract-gain-loss-service-contracts-overview.md)

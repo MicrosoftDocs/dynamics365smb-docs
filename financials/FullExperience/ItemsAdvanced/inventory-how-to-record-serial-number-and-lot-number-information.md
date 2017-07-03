@@ -28,7 +28,7 @@ If you need to link special information to a specific item tracking number, for 
   
 3.  On the **Lines** FastTab, choose **Line**, and then choose **Item Tracking Lines**.  
   
-4.  In the **Serial No.** field, enter **SN1**, in the **Lot No.** field, enter **LOT1**, and then enter **1** in the **Quantity \(Base\)** field.  
+4.  In the **Serial No.** field, enter **SN1**, in the **Lot No.** field, enter **LOT1**, and then enter **1** in the **Quantity (Base)** field.  
   
 5.  On the **Navigate** tab, in the **Line** group, choose, for example, **Serial No. Information Card**.  
   
@@ -40,7 +40,7 @@ If you need to link special information to a specific item tracking number, for 
   
 8.  Select the **Blocked** check box to exclude the serial or lot number from any transactions.  
   
-### To modify existing serial\/lot number information  
+### To modify existing serial/lot number information  
   
 1.  In the **Search** box, enter **Items**, and then choose the related link.  
   
@@ -48,7 +48,7 @@ If you need to link special information to a specific item tracking number, for 
   
 3.  Choose the **Lot No.** or **Serial No.** field. If information exists for the item tracking number, then the **Lot No. Information List** or **Serial No. Information List** window opens.  
   
-4.  Select a card, and then, on the **Actions** tab, in the **Functions** group, choose **Lot No.\/Serial No. Information Card**.  
+4.  Select a card, and then, on the **Actions** tab, in the **Functions** group, choose **Lot No./Serial No. Information Card**.  
   
 5.  Modify the short description text, the comment record, or the **Blocked** field.  
   

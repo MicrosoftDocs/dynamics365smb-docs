@@ -18,7 +18,7 @@
 # How to: Process Purchase Returns
 Purchase returns are used to ensure that your company is compensated for incorrect or damaged items that you receive from your vendors.  
   
- In cases where a company or its customers are dissatisfied with an order they received from a vendor, they can expect their vendor to compensate them in different ways. The terms of a compensation agreement reached between the company and the vendor will often depend on the reason for the return and the company-vendor relationship. For example, the parties may agree that in case of wrongly ordered\/delivered items the company returns the item to the vendor against receiving a credit and receives a replacement item instead. In other situations, for example, if a company receives a damaged item, the company may require a price deduction against the original purchase order price. The same may be applied when a company provided a sales allowance for their own customers and now wants to recover costs by requesting a purchase allowance from their vendor. Meanwhile, where the purchased item has a warranty, the company may ask the vendor to repair the malfunctioning or broken item. For more information, see [About Returns Management](../about-returns-management.md).  
+ In cases where a company or its customers are dissatisfied with an order they received from a vendor, they can expect their vendor to compensate them in different ways. The terms of a compensation agreement reached between the company and the vendor will often depend on the reason for the return and the company-vendor relationship. For example, the parties may agree that in case of wrongly ordered/delivered items the company returns the item to the vendor against receiving a credit and receives a replacement item instead. In other situations, for example, if a company receives a damaged item, the company may require a price deduction against the original purchase order price. The same may be applied when a company provided a sales allowance for their own customers and now wants to recover costs by requesting a purchase allowance from their vendor. Meanwhile, where the purchased item has a warranty, the company may ask the vendor to repair the malfunctioning or broken item. For more information, see [About Returns Management](../about-returns-management.md).  
   
  The purchase return order is the central document that allows you to register a compensation agreement settled with the vendor. From here, you can access other purchase-related documents, and enter and maintain the return-related information concerning the vendor, the method of compensation, and the items in question.  
   
@@ -46,11 +46,11 @@ Purchase returns are used to ensure that your company is compensated for incorre
   
     -   In some cases, you may want to return a specific serialized item or lot, for instance, if a particular item or lot is defective or has been recalled. For these situations, you can to find the item using the serial or lot number, and then receive that specific item or lot return. Follow these steps:  
   
-        1.  Locate the serial\/lot numbers from the vendor.  
+        1.  Locate the serial/lot numbers from the vendor.  
   
         2.  Create a purchase return order.  
   
-        3.  Select the line that you want to select serial\/lot numbers for.  
+        3.  Select the line that you want to select serial/lot numbers for.  
   
         4.  Choose the **Actions** button, choose **Line,** and then choose **Item Tracking Lines**.  
   

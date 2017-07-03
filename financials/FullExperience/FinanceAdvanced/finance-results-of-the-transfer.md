@@ -16,17 +16,17 @@
 
 ---
 # Results of the Transfer
-During the transfer of general ledger entries to cost entries, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] creates connections in the entries in the **G\/L Entry** table, the **Cost Entry** table, and the **Cost Register** table to make it possible to trace the connections between cost entries and general ledger entries.  
+During the transfer of general ledger entries to cost entries, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] creates connections in the entries in the **G/L Entry** table, the **Cost Entry** table, and the **Cost Register** table to make it possible to trace the connections between cost entries and general ledger entries.  
   
 ## General Ledger Entries  
  For each general ledger entry that is transferred to cost accounting, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] fills the cost **Entry No.** field.  
   
 ## Cost Entries  
- For each cost entry, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] saves the entry number of the corresponding general ledger entry in the **G\/L Entry No.** field in the **Cost Entry** table.  
+ For each cost entry, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] saves the entry number of the corresponding general ledger entry in the **G/L Entry No.** field in the **Cost Entry** table.  
   
  For combined cost entries, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] saves the entry number of the last general ledger entry, which is the entry with the highest entry number.  
   
- The **G\/L Account** field in the **Cost Entry** table contains the number of the general ledger account that the cost entry came from.  
+ The **G/L Account** field in the **Cost Entry** table contains the number of the general ledger account that the cost entry came from.  
   
  For single cost entries, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] transfers the posting text from the general ledger entry to the **Description** text field. For combined entries, the text field shows these entries are transferred as combined entries. For example, for a combined entry for the month of October in 2013, the text can be **Combined Entries, October 2013**.  
   

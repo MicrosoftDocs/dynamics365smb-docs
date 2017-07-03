@@ -36,11 +36,11 @@ The system must keep a constant control of item availability in the warehouse, s
 ### Calculating the Quantity Available to Pick  
  The quantity available to pick is calculated as follows:  
   
- quantity available to pick \= quantity in pick bins - quantity on picks and movements – \(reserved quantity in pick bins \+ reserved quantity on picks and movements\)  
+ quantity available to pick = quantity in pick bins - quantity on picks and movements – (reserved quantity in pick bins + reserved quantity on picks and movements)  
   
  The following diagram shows the different elements of the calculation.  
   
- ![Available to pick, with reservation overlap](../media/design_details_warehouse_management_availability_2.png "design\_details\_warehouse\_management\_availability\_2")  
+ ![Available to pick, with reservation overlap](../media/design_details_warehouse_management_availability_2.png "design_details_warehouse_management_availability_2")  
   
 ## Quantity Available to Reserve  
  Because the concepts of bin content and reservation co-exist, the quantity of items that are available to reserve must be aligned with allocations to outbound warehouse documents.  
@@ -66,11 +66,11 @@ The system must keep a constant control of item availability in the warehouse, s
 ### Calculating the Quantity Available to Reserve  
  The quantity available to reserve is calculated as follows:  
   
- quantity available to reserve \= total quantity in inventory - quantity on picks and movements for source documents - reserved quantity - quantity in outbound bins  
+ quantity available to reserve = total quantity in inventory - quantity on picks and movements for source documents - reserved quantity - quantity in outbound bins  
   
  The following diagram shows the different elements of the calculation.  
   
- ![Avaliable to reserve, per warehouse allocations](../media/design_details_warehouse_management_availability_3.png "design\_details\_warehouse\_management\_availability\_3")  
+ ![Avaliable to reserve, per warehouse allocations](../media/design_details_warehouse_management_availability_3.png "design_details_warehouse_management_availability_3")  
   
 ## See Also  
  [Design Details: Warehouse Management](design-details-warehouse-management.md)

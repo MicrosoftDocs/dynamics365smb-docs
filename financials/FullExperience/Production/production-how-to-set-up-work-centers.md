@@ -52,7 +52,7 @@ A **Work Center** card organizes the fixed values and requirements of the produc
   
 4.  The **Unit Cost** field contains the calculated unit cost of producing one unit of measure at this work center, including all cost elements.  
   
-     Unit Cost \= Direct Unit Cost \+ \(Direct Unit Cost x Indirect Cost %\) \+ Overhead Rate.  
+     Unit Cost = Direct Unit Cost + (Direct Unit Cost x Indirect Cost %) + Overhead Rate.  
   
 5.  In the **Unit Cost Calculation** field, define whether the above calculation should be based on the amount of time used:  **Time**, or on the number of produced units:  **Units**.  
   
@@ -74,7 +74,7 @@ A **Work Center** card organizes the fixed values and requirements of the produc
   
 1.  In the **Unit of Measure Code** field, enter the time unit in which this work center’s cost calculation and capacity planning are made.  
   
-2.  In the **Capacity** field, define whether the work center has more than one machine or person working at the same time. If your **Product Name** installation does not include the Machine Center functionality, then the value in this field must be **1**\).  
+2.  In the **Capacity** field, define whether the work center has more than one machine or person working at the same time. If your **Product Name** installation does not include the Machine Center functionality, then the value in this field must be **1**).  
   
 3.  In the **Efficiency** field, enter the percentage of the expected standard output that this work center actually outputs. If you enter **100**, it means that the work center has an actual output that is the same as the standard output.  
   

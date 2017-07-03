@@ -16,7 +16,7 @@
 
 ---
 # How to: Create Profiles
-You use profiles to link Role Centers to users. If you create a new profile, then the users that you add to this profile must have roles \(that is, database permissions\) that are consistent with the corresponding Role Center.  
+You use profiles to link Role Centers to users. If you create a new profile, then the users that you add to this profile must have roles (that is, database permissions) that are consistent with the corresponding Role Center.  
   
 ### To create a profile  
   

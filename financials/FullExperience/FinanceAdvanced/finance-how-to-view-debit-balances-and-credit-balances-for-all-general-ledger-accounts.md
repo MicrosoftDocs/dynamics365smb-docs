@@ -22,7 +22,7 @@ You can view debit and credit balances for all general ledger accounts for a sin
   
 1.  In the **Search** box, enter **Chart of Accounts**, and then choose the related link.  
   
-2.  In the **Chart of Accounts** window, on the **Navigate** tab, in the **Balance** group, choose **G\/L Balance**.  
+2.  In the **Chart of Accounts** window, on the **Navigate** tab, in the **Balance** group, choose **G/L Balance**.  
   
 > [!NOTE]  
 >  In the header of the window, you can see the current date filter that is applied to the amount fields.  
@@ -33,4 +33,4 @@ You can view debit and credit balances for all general ledger accounts for a sin
 ## See Also  
  [How to: View Debit and Credit Balances for Single General Ledger Accounts](../how-to-view-debit-and-credit-balances-for-single-general-ledger-accounts.md)   
  [How to: View Balances for All General Ledger Accounts by Periods](../how-to-view-balances-for-all-general-ledger-accounts-by-periods.md)   
- G\/L Balance
+ G/L Balance

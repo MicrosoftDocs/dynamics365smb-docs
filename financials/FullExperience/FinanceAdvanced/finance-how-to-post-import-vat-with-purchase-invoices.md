@@ -42,7 +42,7 @@ Instead of using a general journal to post an import VAT invoice, you can use a 
   
 3.  In the **Buy-from Vendor No.** field, select the import authority vendor, and then choose the **OK** button.  
   
-4.  In the purchase line, in the **Type** field, select **G\/L Account**, and in the **No.** field, select the import VAT general ledger account.  
+4.  In the purchase line, in the **Type** field, select **G/L Account**, and in the **No.** field, select the import VAT general ledger account.  
   
 5.  In the **Quantity** field, type **1**.  
   

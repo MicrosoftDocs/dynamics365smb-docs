@@ -41,7 +41,7 @@ If item processing operations occur at your warehouse location, then you may hav
 > [!NOTE]  
 >  If the movement is for an assembly order where the item is assembled to a sales order, then you can define that the inventory movement document is automatically created when you create the inventory pick document that takes the finished assembly item and posts the shipment. To set this up, select the **Create Movements Automatically** field in the **Assembly Setup** window  
 >   
->  For more information about assembly orders and basic warehousing, see [Handling Assemble-to-Order Items in Inventory Picks](../Topic/\($%20N_7377%20Inventory%20Pick%20$\).md#BKMK_HandlingAssembletoOrderItemsinInventoryPicks).  
+>  For more information about assembly orders and basic warehousing, see [Handling Assemble-to-Order Items in Inventory Picks](../Topic/($%20N_7377%20Inventory%20Pick%20$).md#BKMK_HandlingAssembletoOrderItemsinInventoryPicks).  
   
  This procedure shows how to create an inventory movement from the **Inventory Movement** window by referencing a released assembly order as a source document. The procedure is the same when you move components for production orders and service orders.  
   

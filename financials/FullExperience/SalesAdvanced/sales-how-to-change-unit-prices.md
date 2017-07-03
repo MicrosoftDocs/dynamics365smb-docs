@@ -16,11 +16,11 @@
 
 ---
 # How to: Change Unit Prices
-If you want to change the sales prices for several items, you can use the  **Adjust Item Costs\/Prices** batch job.  
+If you want to change the sales prices for several items, you can use the  **Adjust Item Costs/Prices** batch job.  
   
 ### To change unit prices  
   
-1.  In the **Search** box, enter **Adjust Item Cost\/Prices**, and then choose the related link. Open the **Adjust Item Cost\/Prices** batch job request page.  
+1.  In the **Search** box, enter **Adjust Item Cost/Prices**, and then choose the related link. Open the **Adjust Item Cost/Prices** batch job request page.  
   
 2.  On the **Item** FastTab, you can set filters to select the items to be adjusted. You can set filters on these fields individually or in combinations.  
   

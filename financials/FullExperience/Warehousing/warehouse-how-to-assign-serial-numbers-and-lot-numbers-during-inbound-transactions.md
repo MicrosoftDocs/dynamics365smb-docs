@@ -31,9 +31,9 @@ Companies may want to keep track of items from the moment they enter the company
   
      You can assign serial or lot numbers in the following ways:  
   
-    -   Automatically, by choosing **Assign Serial No.** or **Assign Lot No.** to assign serial\/lot numbers from predefined number series.  
+    -   Automatically, by choosing **Assign Serial No.** or **Assign Lot No.** to assign serial/lot numbers from predefined number series.  
   
-    -   Automatically, by choosing **Create Customized SN** to assign serial\/lot numbers based on number series you define specifically for the arrived items.  
+    -   Automatically, by choosing **Create Customized SN** to assign serial/lot numbers based on number series you define specifically for the arrived items.  
   
     -   Manually, by entering serial or lot numbers directly, for example, the vendor's numbers.  
   
@@ -41,7 +41,7 @@ Companies may want to keep track of items from the moment they enter the company
   
 3.  To assign automatically, on the **Actions** tab, in the **Functions** group, choose **Create Customized SN**.  
   
-4.  In the **Customized SN** field, enter the starting number of a descriptive serial number series, for example **S\/N-Vend0001**.  
+4.  In the **Customized SN** field, enter the starting number of a descriptive serial number series, for example **S/N-Vend0001**.  
   
 5.  In the **Increment** field, enter 1 to define that each sequential number increases by one.  
   
@@ -51,7 +51,7 @@ Companies may want to keep track of items from the moment they enter the company
   
 7.  Choose the **OK** button.  
   
- A lot number with individual serial numbers is created according to the item quantity of the document line, starting from **S\/N-Vend0001**.  
+ A lot number with individual serial numbers is created according to the item quantity of the document line, starting from **S/N-Vend0001**.  
   
  The matrix of quantity fields in the header displays dynamically the quantities and sums of the item tracking numbers you define in the window. The quantities must correspond to those of the document line, which is signified by 0 in the **Undefined** fields.  
   

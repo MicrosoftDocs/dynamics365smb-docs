@@ -23,7 +23,7 @@ Inventory is a type of supply, but for inventory planning, the planning system d
 -   Projected available inventory  
   
 ## Projected Inventory  
- Initially, projected inventory is the quantity of gross inventory, including supply and demand in the past even if not posted, when starting the planning process. In the future, this becomes a moving projected inventory level that is maintained by gross quantities from future supply and demand because those are introduced along the time line \(whether reserved or in other ways allocated\).  
+ Initially, projected inventory is the quantity of gross inventory, including supply and demand in the past even if not posted, when starting the planning process. In the future, this becomes a moving projected inventory level that is maintained by gross quantities from future supply and demand because those are introduced along the time line (whether reserved or in other ways allocated).  
   
  The projected inventory is used by the planning system to monitor the reorder point and to determine the reorder quantity when using the Maximum Qty. reordering policy.  
   
@@ -50,27 +50,27 @@ Inventory is a type of supply, but for inventory planning, the planning system d
   
  The following shows a graphical illustration of this principle:  
   
- ![](../media/nav_app_supply_planning_2_projected_inventory.png "NAV\_APP\_supply\_planning\_2\_projected\_inventory")  
+ ![](../media/nav_app_supply_planning_2_projected_inventory.png "NAV_APP_supply_planning_2_projected_inventory")  
   
-1.  Supply **Sa** of 4 \(fixed\) closes Demand **Da** of -3.  
+1.  Supply **Sa** of 4 (fixed) closes Demand **Da** of -3.  
   
-2.  CloseDemand: Create a decrease reminder of -3 \(not shown\).  
+2.  CloseDemand: Create a decrease reminder of -3 (not shown).  
   
-3.  Supply **Sa** is closed with a surplus of 1 \(no more demand exists.  
+3.  Supply **Sa** is closed with a surplus of 1 (no more demand exists.  
   
-     This increases the projected inventory level to \+4, while the projected **available** inventory becomes -1.  
+     This increases the projected inventory level to +4, while the projected **available** inventory becomes -1.  
   
-4.  The next supply **Sb** of 2 \(another order\) has already been placed on the timeline.  
+4.  The next supply **Sb** of 2 (another order) has already been placed on the timeline.  
   
-5.  System checks if there is any decrease reminder preceding **Sb** \(there is not, so no action is taken\).  
+5.  System checks if there is any decrease reminder preceding **Sb** (there is not, so no action is taken).  
   
-6.  System closes supply **Sb** \(no more demand exists\)—either A: by reducing it to 0 \(cancel\) or B: by leaving as is.  
+6.  System closes supply **Sb** (no more demand exists)—either A: by reducing it to 0 (cancel) or B: by leaving as is.  
   
-     This increases the projected inventory level \(A: \+0 \=\> \+4 or B: \+2 \= \+6\).  
+     This increases the projected inventory level (A: +0 => +4 or B: +2 = +6).  
   
 7.  System makes a final check: Is there any decrease reminder? Yes, there is one on the date of **Da**.  
   
-8.  System adds the decrease reminder of -3 reminder to the projected inventory level, either A: \+4 -3 \= 1 or B: \+6 -3 \= \+3.  
+8.  System adds the decrease reminder of -3 reminder to the projected inventory level, either A: +4 -3 = 1 or B: +6 -3 = +3.  
   
 9. In case of A, the system creates a forward-scheduled order starting on date **Da**.  
   

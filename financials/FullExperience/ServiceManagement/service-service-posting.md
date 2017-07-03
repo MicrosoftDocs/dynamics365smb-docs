@@ -40,7 +40,7 @@ Service posting functionality lets you process your documents efficiently and ma
 > [!NOTE]  
 >  The service posting procedure enables you to perform partial posting. You can create a partial shipment or a partial invoice by filling in the **Qty. to Ship** and **Qty. to Invoice** fields on the individual service lines of the service orders before you post. Note that you cannot create an invoice for something that is not shipped. That is, before you can invoice, you must have registered a shipment, or you must choose to ship and invoice at the same time.  
   
- After the posting has been completed, you will be able to view the posted service documents from the corresponding **Posted Service Shipment** and **Posted Service Invoice** windows. The posted entries created can be seen in various windows that contain posted entries, such as **G\/L Entries**, **Item Ledger Entries**, **Warehouse Entries**, **Service Ledger Entries**, **Job Ledger Entries**, and **Warranty Ledger Entries**.  
+ After the posting has been completed, you will be able to view the posted service documents from the corresponding **Posted Service Shipment** and **Posted Service Invoice** windows. The posted entries created can be seen in various windows that contain posted entries, such as **G/L Entries**, **Item Ledger Entries**, **Warehouse Entries**, **Service Ledger Entries**, **Job Ledger Entries**, and **Warranty Ledger Entries**.  
   
 ## See Also  
  [Deliver Service](../deliver-service.md)   

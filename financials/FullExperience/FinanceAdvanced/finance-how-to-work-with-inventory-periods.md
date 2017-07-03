@@ -57,9 +57,9 @@ Inventory periods define a period of time in which you can post changes to inven
   
 2.  On the Actions tab, in the Functions group, choose **Close Inventory Period – Test**.  
   
-     Run the **Post Inventory Cost to G\/L** batch job to ensure that all costs are posted to the general ledger.  
+     Run the **Post Inventory Cost to G/L** batch job to ensure that all costs are posted to the general ledger.  
   
-3.  On the **Actions** tab, in the **Functions** group, choose **Post Inventory to G\/L**.  
+3.  On the **Actions** tab, in the **Functions** group, choose **Post Inventory to G/L**.  
   
 4.  In the    **Inventory Periods** window, select the inventory period you would like to close.  
   

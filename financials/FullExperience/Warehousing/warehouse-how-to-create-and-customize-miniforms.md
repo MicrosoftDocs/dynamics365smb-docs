@@ -47,7 +47,7 @@ You use miniforms to describe the information that you want to present on a hand
   
 2.  In the ADD INCLUDE<!--[!INCLUDE[nav_dev_long](../../includes/nav_dev_long_md.md)]-->, open table 7702 and add a code representing the new key. In this example, create a key that is named **F6**.  
   
-3.  Add C\/AL code to the relevant function of the miniform-specific codeunit to handle the function key.  
+3.  Add C/AL code to the relevant function of the miniform-specific codeunit to handle the function key.  
   
 ### To customize miniform functions  
   

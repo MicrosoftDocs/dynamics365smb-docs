@@ -16,7 +16,7 @@
 
 ---
 # How to: Set Up and Record Intrastat
-All companies in the European Union must report their trade with other EU countries\/regions. You must report the movement of goods to the statistics authorities in your country\/region every month, and the report must be delivered to the tax authorities. This is referred to as Intrastat Reporting. You use the **Intrastat Journal** window to complete periodic Intrastat reports.  
+All companies in the European Union must report their trade with other EU countries/regions. You must report the movement of goods to the statistics authorities in your country/region every month, and the report must be delivered to the tax authorities. This is referred to as Intrastat Reporting. You use the **Intrastat Journal** window to complete periodic Intrastat reports.  
   
 ### To set up Intrastat  
   
@@ -42,9 +42,9 @@ All companies in the European Union must report their trade with other EU countr
   
 ##### Additional setup  
   
--   You can set up **Transaction Specifications** and **Areas** to supplement the transaction type information and country\/region information. **Transaction Specifications** and **Areas** are also assigned to sales and purchase document on the **Foreign Trade** FastTab.  
+-   You can set up **Transaction Specifications** and **Areas** to supplement the transaction type information and country/region information. **Transaction Specifications** and **Areas** are also assigned to sales and purchase document on the **Foreign Trade** FastTab.  
   
--   **Entry\/Exit Points** can be created for the location to which items from abroad are shipped or from which you ship items abroad. Heathrow Airport is an example of an Entry\/Exit Point. **Entry\/Exit Points** can be entered on sales and purchase documents on the **Foreign Trade** FastTab. This information will also be copied from the item entries when you create the Intrastat journal.  
+-   **Entry/Exit Points** can be created for the location to which items from abroad are shipped or from which you ship items abroad. Heathrow Airport is an example of an Entry/Exit Point. **Entry/Exit Points** can be entered on sales and purchase documents on the **Foreign Trade** FastTab. This information will also be copied from the item entries when you create the Intrastat journal.  
   
 ## To set up Intrastat journals  
  Before you can use the **Intrastat Journal** window, you must setup Intrastat journal templates and batches.  
@@ -53,11 +53,11 @@ All companies in the European Union must report their trade with other EU countr
   
 -   You can fill in the Intrastat Journal with the relevant item ledger entries using the Get Entries function, or manually. If you have relevant general ledger entries in addition to the item ledger entries, you make these manually. Such manual adjustments could include service charges, freight costs, landed costs, and so on.  
   
- The **Intrastat Jnl. Line** window must be used for Intrastat reporting. All EU businesses must report their trade with other EU countries\/regions.  
+ The **Intrastat Jnl. Line** window must be used for Intrastat reporting. All EU businesses must report their trade with other EU countries/regions.  
   
 ### To submit Intrastat  
   
--   After you have filled in the Intrastat Journal, you can print the **Intrastat - Checklist** report to make sure that that all information in the journal is correct, and then print an intrastat report onto a form or create one on a disk to submit to the tax authority in your country\/region.  
+-   After you have filled in the Intrastat Journal, you can print the **Intrastat - Checklist** report to make sure that that all information in the journal is correct, and then print an intrastat report onto a form or create one on a disk to submit to the tax authority in your country/region.  
   
 ## See Also  
  [How to: Record VAT](../how-to-record-vat.md)   

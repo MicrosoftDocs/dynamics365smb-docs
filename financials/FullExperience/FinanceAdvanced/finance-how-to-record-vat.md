@@ -16,7 +16,7 @@
 
 ---
 # How to: Record VAT
-In EU countries\/regions, every sales and purchase transaction is subject to VAT calculations. For more information about recording VAT, see [Recording VAT](../recording-vat.md).  
+In EU countries/regions, every sales and purchase transaction is subject to VAT calculations. For more information about recording VAT, see [Recording VAT](../recording-vat.md).  
   
 ## Manually Adjusting VAT Amounts in Sales and Purchase Documents  
  The program automatically calculates the VAT using the customer's VAT Bus. Posting Group and the item's VAT Prod. Posting Group. However, you can also manually enter the VAT amounts, if the amount calculated by the program is slightly different to that calculated by your customer or vendor, for example, due to rounding.  
@@ -49,7 +49,7 @@ In EU countries\/regions, every sales and purchase transaction is subject to VAT
   
 #### Before you manually enter VAT on sales and purchase journals  
   
-1.  Check the **Allow VAT Difference** field in the **[\($ N\_460 Purchases & Payables Setup $\)](DynamicsNAV:////runpage?Page=460)** windows, respectively.  
+1.  Check the **Allow VAT Difference** field in the **Purchases & Payables Setup** windows, respectively.  
   
 2.  Once you have completed the setup described above, you can adjust the **VAT Amount** field on the general journal line, or the **Bal. VAT Amount** field on the sales or purchase journal line, to equal the invoice VAT amount. The program will check that the difference is not greater than the specified maximum.  
   

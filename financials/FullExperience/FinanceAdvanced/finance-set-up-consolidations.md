@@ -16,11 +16,11 @@
 
 ---
 # Set Up Consolidations
-You can consolidate the general ledger entries of two or more separate companies \(subsidiaries\) into a consolidated company. Each individual company involved in a consolidation is called a business unit. The combined company is called the consolidated company. You can import data into the consolidated company from other companies in the same database, from other [!INCLUDE[d365fin](../../includes/d365fin_md.md)] databases, or from files. You can use any number of business units in a consolidation.  
+You can consolidate the general ledger entries of two or more separate companies (subsidiaries) into a consolidated company. Each individual company involved in a consolidation is called a business unit. The combined company is called the consolidated company. You can import data into the consolidated company from other companies in the same database, from other [!INCLUDE[d365fin](../../includes/d365fin_md.md)] databases, or from files. You can use any number of business units in a consolidation.  
   
  You can set up the consolidated company in the same way that you set up other companies. The chart of accounts in the consolidated company is independent of the charts of accounts in the business units, and the charts of accounts in individual business units may differ from one another.  
   
- In the chart of accounts for each business unit, indicate which accounts are to be included in the consolidation. If the financial statements of a business unit are in a different currency than those of the consolidated company, fill in the **Consol. Translation Method** field for each of the accounts in the consolidation. Typically, *Average Rate \(Manual\)* or *Historical Rate* is used for income statement accounts, and *Closing Rate* is used for balance sheet accounts.  
+ In the chart of accounts for each business unit, indicate which accounts are to be included in the consolidation. If the financial statements of a business unit are in a different currency than those of the consolidated company, fill in the **Consol. Translation Method** field for each of the accounts in the consolidation. Typically, *Average Rate (Manual)* or *Historical Rate* is used for income statement accounts, and *Closing Rate* is used for balance sheet accounts.  
   
  In the consolidated company, you can create a business unit card for each of the companies. The business unit card includes information, such as the dates of the business unit's fiscal year, the percentage of each account that should be included in the consolidation, and the version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)] that the business unit is recorded in.  
   

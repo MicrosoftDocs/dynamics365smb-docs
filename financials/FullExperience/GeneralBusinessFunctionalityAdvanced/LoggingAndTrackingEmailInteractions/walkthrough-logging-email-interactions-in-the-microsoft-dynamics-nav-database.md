@@ -38,9 +38,9 @@ In managing your relationships with contacts, it helps keep track of email corre
 ### Roles  
  This walkthrough provides tasks that are generally performed by the following user roles:  
   
--   IT Engineer\/Technical End User\/Power User  
+-   IT Engineer/Technical End User/Power User  
   
--   Salesperson\/Marketing Account Manager  
+-   Salesperson/Marketing Account Manager  
   
 ### Prerequisites  
  Before you can perform the steps in this walkthrough, you must do the following.  
@@ -173,8 +173,8 @@ In managing your relationships with contacts, it helps keep track of email corre
     |**Description**|Email Logging Job|  
     |**Job Queue Category Code**|Logging|  
     |**Max. No. of Attempts to Run**|3|  
-    |**Expiration Date\\Time**|December 31|  
-    |**Earliest Start Date\/Time**|One day earlier than today's date|  
+    |**Expiration DateTime**|December 31|  
+    |**Earliest Start Date/Time**|One day earlier than today's date|  
   
     ### Recurrence FastTab  
   

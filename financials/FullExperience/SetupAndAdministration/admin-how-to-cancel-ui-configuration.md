@@ -47,10 +47,10 @@ You can cancel UI customizations that you have made as configuration for a profi
   
 1.  In the **Search** box, enter **Delete Profile Configuration**, and then choose the related link.  
   
-2.  Select the profile\/page set for which you want to cancel your UI customization, and then, on the **Home** tab, in the **Manage** group, choose **Delete**.  
+2.  Select the profile/page set for which you want to cancel your UI customization, and then, on the **Home** tab, in the **Manage** group, choose **Delete**.  
   
     > [!CAUTION]  
-    >  If you have configured different UI customizations of the same page based on different navigation paths to the page, then each page customization will be listed in the **Delete Profile Configuration** window with the same information. There is no information to identify which row relates to which navigation path. Therefore, you must either delete rows one by one followed by visual checks on the page, or you can delete all rows with UI customizations for the profile\/page.  
+    >  If you have configured different UI customizations of the same page based on different navigation paths to the page, then each page customization will be listed in the **Delete Profile Configuration** window with the same information. There is no information to identify which row relates to which navigation path. Therefore, you must either delete rows one by one followed by visual checks on the page, or you can delete all rows with UI customizations for the profile/page.  
   
 > [!NOTE]  
 >  All UI customization for the page for the profile that you have ever made on the installation or since you last used the **Delete Profile Configuration** window is canceled. The layout of the page is reset to the standard layout of the page object, which is not RoleTailored.  

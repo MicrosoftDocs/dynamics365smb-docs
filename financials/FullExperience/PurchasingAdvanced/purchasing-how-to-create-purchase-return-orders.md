@@ -32,14 +32,14 @@ If you have agreed with your vendor to return a purchased item that you are diss
   
      The **General** FastTab and all other FastTabs are now filled with master data from the vendor card.  
   
-5.  Fill in the **Vendor Authorization No.** field if you have received a return materials authorization \(RMA\) number from your vendor.  
+5.  Fill in the **Vendor Authorization No.** field if you have received a return materials authorization (RMA) number from your vendor.  
   
 6.  Fill in the lines manually, or use one of the following functions to copy information from other documents.  
   
     |**Function**|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
     |------------------|---------------------------------------|  
     |**Get Posted Document Lines to Reverse**|Copies lines of one or more posted documents to be reversed.|  
-    |**Copy Document**|Copies both the header and lines of one posted or open document to be reversed.<br /><br /> Requires that the **Exact Cost Reversing Mandatory** check box is selected in the **\($ N\_460 Purchases & Payables Setup $\)** window.|  
+    |**Copy Document**|Copies both the header and lines of one posted or open document to be reversed.<br /><br /> Requires that the **Exact Cost Reversing Mandatory** check box is selected in the **Purchases & Payables Setup** window.|  
   
      When you post the purchase return order, a link is created through the **Appl.-to Item Entry** field to the original item ledger entry to ensure that the costs are copied from the original posted purchase order.  
   

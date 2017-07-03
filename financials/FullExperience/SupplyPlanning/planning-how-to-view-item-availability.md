@@ -138,7 +138,7 @@ The follow table shows the various ways you can view an item’s availability.
   
      If the item is a bill of material, then the window shows one collapsed line for the item.  
   
-4.  Choose the **Expand \(\+\)** button to expand the line and view the components, children, or other parents, that exist in the item’s BOM structure.  
+4.  Choose the **Expand (+)** button to expand the line and view the components, children, or other parents, that exist in the item’s BOM structure.  
   
 5.  Study the **Able to Make Parent** and **Able to Make Top Item** fields to find out how many of each parent you are able to make if you started the assembly or production process in question.  
   

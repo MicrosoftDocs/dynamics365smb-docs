@@ -30,9 +30,9 @@ When you have created service orders or quotes, you can make use of resource ava
   
 5.  On the **Navigate** tab, in the **Planning** group, choose **Resource Availability**.  
   
-6.  In the **Res. Availability \(Service\)** window, on the **Actions** tab, in the **General** group, choose **Show Matrix**.  
+6.  In the **Res. Availability (Service)** window, on the **Actions** tab, in the **General** group, choose **Show Matrix**.  
   
-7.  Select a resource you want to allocate. You can base your selection on whether the resource is skilled for the task, whether it is located in the customer zone, and\/or whether it is preferred by the customer.  
+7.  Select a resource you want to allocate. You can base your selection on whether the resource is skilled for the task, whether it is located in the customer zone, and/or whether it is preferred by the customer.  
   
 8.  Select a date on which the resource has enough available hours for the task and which is close to the response date of the service order.  
   

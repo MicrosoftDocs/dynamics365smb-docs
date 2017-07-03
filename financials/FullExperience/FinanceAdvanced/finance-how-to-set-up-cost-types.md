@@ -47,7 +47,7 @@ Chart of cost types are similar to the chart of accounts in the general ledger. 
     |**No.**|Enter the cost type number. All cost types must have a number.|  
     |**Name**|Enter the cost type name.|  
     |**Line Type**|Specify the purpose of the cost type. Only the cost type option indicates a cost type that you can post to. The other types are used to create totals and headings. For line types of the **Total** type, you must fill in the **Totaling** field. For line types of the **End-Total** type, the field is filled in automatically when you use the **Indent Cost Types** function.|  
-    |**G\/L Account Range**|Enter the general ledger account range.|  
+    |**G/L Account Range**|Enter the general ledger account range.|  
     |**Cost Center Code**|Enter the cost center code.|  
     |**Cost Object Code**|Enter the cost object code.|  
     |**Combine Entries**|Select to set the option to allow for general ledger entries to be posted individually or posted as a combined posting for a specific day or month.|  
@@ -64,7 +64,7 @@ Chart of cost types are similar to the chart of accounts in the general ledger. 
   
 1.  In the **Cost Accounting Setup** window, select if you want the chart of cost types to be automatically updated when the chart of accounts is changed.  
   
-2.  In the **Align G\/L Account** field, you can choose from the following options.  
+2.  In the **Align G/L Account** field, you can choose from the following options.  
   
     -   **No Alignment** - There is no corresponding change in the chart of cost types when you change the chart of accounts.  
   

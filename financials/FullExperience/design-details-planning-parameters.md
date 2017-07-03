@@ -22,7 +22,7 @@ This topic describes the different planning parameters that you can use in [!INC
   
 |Purpose|Parameter|  
 |-------------|---------------|  
-|Define if the item is to be planned|Reordering Policy \= Blank|  
+|Define if the item is to be planned|Reordering Policy = Blank|  
 |Define when to reorder|Time Bucket<br /><br /> Reorder Point<br /><br /> Safety Lead Time|  
 |Define how much to reorder|Safety Stock Quantity<br /><br /> Reordering Policy:<br /><br /> -   Fixed Reorder Qty. plus Reorder Quantity<br />-   Maximum Qty. plus Maximum Inventory<br />-   Order<br />-   Lot-for-Lot|  
 |Optimize when and how much to reorder|Rescheduling Period<br /><br /> Lot Accumulation Period<br /><br /> Dampener Period|  
@@ -30,12 +30,12 @@ This topic describes the different planning parameters that you can use in [!INC
 |Delimit the planned item|Manufacturing Policy:<br /><br /> -   Make-to-Stock<br />-   Make-to-Order|  
   
 ## Define If the Item Will Be Planned  
- To include an item\/SKU in the planning process, it must have a reordering policy otherwise it must be planned manually, for example, with the Order Planning feature.  
+ To include an item/SKU in the planning process, it must have a reordering policy otherwise it must be planned manually, for example, with the Order Planning feature.  
   
 ## Define When to Reorder  
  Reorder proposals are generally released only when the projected available quantity has fallen to or below a given quantity. This quantity is defined by the reorder point. Otherwise, it will be zero. Zero can be adjusted by entering a safety stock quantity. If the user has defined a safety lead time, it will cause the proposal to be delivered in the period prior to the required due date.  
   
- The **Time Bucket** field is used by reorder point policies \(**Fixed Reorder Qty.** and **Maximum Qty.**\), where the inventory level is checked after each time bucket. The first time bucket begins on the planning starting date.  
+ The **Time Bucket** field is used by reorder point policies (**Fixed Reorder Qty.** and **Maximum Qty.**), where the inventory level is checked after each time bucket. The first time bucket begins on the planning starting date.  
   
 > [!NOTE]  
 >  When calculating time buckets, the planning system ignores any working calendars that are defined in the **Base Calendar Code** field in the **Company Information** and **Location Card** windows.  
@@ -53,7 +53,7 @@ This topic describes the different planning parameters that you can use in [!INC
   
 2.  If the projected available inventory is below the safety stock quantity, a backward-scheduled supply order is suggested. The order quantity will at least fill the safety stock quantity, and can be increased by gross demand within the time bucket, by the reordering policy, and by the order modifiers.  
   
-3.  If the projected inventory is on or below the reorder point \(calculated from aggregated changes within the time bucket\) and above the safety stock quantity, a forward-scheduled exception order is suggested. Both the gross demand to be met and the reordering policy will determine the order quantity. At minimum, the order quantity will meet the reorder point.  
+3.  If the projected inventory is on or below the reorder point (calculated from aggregated changes within the time bucket) and above the safety stock quantity, a forward-scheduled exception order is suggested. Both the gross demand to be met and the reordering policy will determine the order quantity. At minimum, the order quantity will meet the reorder point.  
   
 4.  If there is more gross demand due before the ending date of the forward-scheduled order proposal, and this demand brings the currently calculated projected available inventory below the safety stock quantity, the order quantity is increased to make up the deficit. The suggested supply order is then scheduled backward from the due date of the gross demand that would have violated the safety stock quantity.  
   
@@ -72,7 +72,7 @@ This topic describes the different planning parameters that you can use in [!INC
 |**Lot-for-Lot**|The quantity is calculated to meet the sum of the demand that comes due in the time bucket.|  
   
 ##  <a name="BKMK_OptimizeWhenandHowMuchToReorder"></a> Optimize When and How Much to Reorder  
- To obtain a rational supply plan, a planner will fine-tune planning parameters to limit rescheduling suggestions, accumulate demand \(dynamic reorder quantity\), or to avoid insignificant planning actions. The following reorder period fields help optimize when and how much to reorder.  
+ To obtain a rational supply plan, a planner will fine-tune planning parameters to limit rescheduling suggestions, accumulate demand (dynamic reorder quantity), or to avoid insignificant planning actions. The following reorder period fields help optimize when and how much to reorder.  
   
 |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
 |---------------------------------|---------------------------------------|  
@@ -82,27 +82,27 @@ This topic describes the different planning parameters that you can use in [!INC
   
  The timing of rescheduling period, dampener period, and lot accumulation period is based on a supply date. The time bucket is based on the planning start date, as shown in the following illustration.  
   
- ![Time Bucket Elements](../media/supply_planning_5_time_bucket_elements.png "supply\_planning\_5\_time\_bucket\_elements")  
+ ![Time Bucket Elements](../media/supply_planning_5_time_bucket_elements.png "supply_planning_5_time_bucket_elements")  
   
- In the following examples, the black arrows represent existing supply \(up\) and demand \(down\). Red, green, and orange arrows are planning suggestions.  
+ In the following examples, the black arrows represent existing supply (up) and demand (down). Red, green, and orange arrows are planning suggestions.  
   
  **Example 1**: The changed date is outside the rescheduling period, which causes the existing supply to be canceled. A new supply is suggested to cover the demand in the lot accumulation period.  
   
- ![Rescheuling Period, Lot Accumulation Period](../media/supply_planning_5_recheduling_period_lot_accumulation_period.png "supply\_planning\_5\_recheduling\_period\_lot\_accumulation\_period")  
+ ![Rescheuling Period, Lot Accumulation Period](../media/supply_planning_5_recheduling_period_lot_accumulation_period.png "supply_planning_5_recheduling_period_lot_accumulation_period")  
   
  **Example 2**: The changed date is in the rescheduling period, which causes the existing supply to be rescheduled. A new supply is suggested to cover the demand outside the lot accumulation period.  
   
- ![Rescheduling Period, Lot Accum. Period, Reschedule](../media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "supply\_planning\_5\_recheduling\_period\_lot\_accum\_period\_reschedule")  
+ ![Rescheduling Period, Lot Accum. Period, Reschedule](../media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "supply_planning_5_recheduling_period_lot_accum_period_reschedule")  
   
  **Example 3**: There is a demand in the dampener period and the supply quantity in the lot accumulation period matches the supply quantity. The next demand is uncovered and a new supply is suggested.  
   
- ![Dampener Period, Lot Accumulation Period](../media/supply_planning_5_dampener_period_lot_accumulation_period.png "supply\_planning\_5\_dampener\_period\_lot\_accumulation\_period")  
+ ![Dampener Period, Lot Accumulation Period](../media/supply_planning_5_dampener_period_lot_accumulation_period.png "supply_planning_5_dampener_period_lot_accumulation_period")  
   
  **Example 4**: There is a demand in the dampener period and the supply remains on the same date. However, the current supply quantity is not enough to cover the demand in the lot accumulation period, so a change quantity action for the existing supply order is suggested.  
   
- ![Dampener Period, Lot Accum. Period, Change Qty.](../media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "supply\_planning\_5\_dampener\_period\_lot\_accum\_period\_change\_qty")  
+ ![Dampener Period, Lot Accum. Period, Change Qty.](../media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "supply_planning_5_dampener_period_lot_accum_period_change_qty")  
   
- **Default values:** The default value of the **Time Bucket** field and the three reorder period fields is blank. For all fields, except the **Dampener Period** field, this means 0D \(zero days\). If the **Dampener Period** field is blank, the global value in the **Default Dampener Period** field in the **Manufacturing Setup** window will be used.  
+ **Default values:** The default value of the **Time Bucket** field and the three reorder period fields is blank. For all fields, except the **Dampener Period** field, this means 0D (zero days). If the **Dampener Period** field is blank, the global value in the **Default Dampener Period** field in the **Manufacturing Setup** window will be used.  
   
 ## Modify the Supply Orders  
  When the quantity of the order proposal has been calculated, one or more of the order modifiers can adjust it. For example, the maximum order quantity is larger than or equal to the minimum order quantity, which is larger than or equal to the order multiple.  

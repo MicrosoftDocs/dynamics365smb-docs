@@ -41,7 +41,7 @@ When you discover an erroneous entry, it must be corrected. Since it is not poss
   
 2.  On the line with the relevant account number, select the amount in the **Net Change** field.  
   
-3.  Browse to the last entry on the account \(or whichever entry is relevant\), and on the **Actions** tab, choose **Navigate**.  
+3.  Browse to the last entry on the account (or whichever entry is relevant), and on the **Actions** tab, choose **Navigate**.  
   
 4.  In the **Navigate** window, on the **Actions** tab, choose **Show** to view the general ledger entries.  
   

@@ -40,12 +40,12 @@ The outbound flow in the warehouse begins with a request from released source do
   
  In ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]-->, the outbound processes of picking and shipping can be performed in four ways using different functionalities depending on the warehouse complexity level.  
   
-|Method|Inbound process|Bins|Picks|Shipments|Complexity level \(See [Design Details: Warehouse Setup](design-details-warehouse-setup.md)\)|  
+|Method|Inbound process|Bins|Picks|Shipments|Complexity level (See [Design Details: Warehouse Setup](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|-----------|---------------|--------------------------------------------------------------------------------------------------------------------|  
 |A|Post pick and shipment from the order line|X|||2|  
 |B|Post pick and shipment from an inventory pick document||X||3|  
-|C|Post pick and shipment from a warehouse shipment document|||X|4\/5\/6|  
-|D|Post pick from a warehouse pick document and post shipment from a warehouse shipment document||X|X|4\/5\/6|  
+|C|Post pick and shipment from a warehouse shipment document|||X|4/5/6|  
+|D|Post pick from a warehouse pick document and post shipment from a warehouse shipment document||X|X|4/5/6|  
   
  For more information, see [Design Details: Outbound Warehouse Flow](design-details-outbound-warehouse-flow.md).  
   
@@ -56,9 +56,9 @@ The outbound flow in the warehouse begins with a request from released source do
 ## Basic Warehousing  
  The following diagram illustrates the outbound warehouse flows by document type in basic warehousing. The numbers in the diagram correspond with the steps in the sections following the diagram.  
   
- ![Outbound flow in basic warehousing](../media/design_details_warehouse_management_outbound_basic_flow.png "design\_details\_warehouse\_management\_outbound\_basic\_flow")  
+ ![Outbound flow in basic warehousing](../media/design_details_warehouse_management_outbound_basic_flow.png "design_details_warehouse_management_outbound_basic_flow")  
   
-### 1: Release Source Document \/ Create Inventory Pick or Movement  
+### 1: Release Source Document / Create Inventory Pick or Movement  
  When a user who is responsible for source documents, such as a sales order processor or production planner, is ready for the outbound warehouse activity, he or she releases the source document to signal to warehouse workers that sold items or components can be picked and placed in the specified bins. Alternatively, the user creates inventory pick or movement documents for the individual order lines, in a push fashion, based on specified bins and quantities to handle.  
   
 > [!NOTE]  
@@ -78,7 +78,7 @@ The outbound flow in the warehouse begins with a request from released source do
 ## Advanced Warehousing  
  The following diagram illustrates the outbound warehouse flow by document type in advanced warehousing. The numbers in the diagram correspond with the steps in the sections following the diagram.  
   
- ![Outbound flow in advanced warehousing](../media/design_details_warehouse_management_outbound_advanced_flow.png "design\_details\_warehouse\_management\_outbound\_advanced\_flow")  
+ ![Outbound flow in advanced warehousing](../media/design_details_warehouse_management_outbound_advanced_flow.png "design_details_warehouse_management_outbound_advanced_flow")  
   
 ### 1: Release Source Document  
  When a user who is responsible for source documents, such as a sales order processor or production planner, is ready for the outbound warehouse activity, he or she releases the source document to signal to warehouse workers that sold items or components can be picked and placed in the specified bins.  
@@ -89,12 +89,12 @@ The outbound flow in the warehouse begins with a request from released source do
 ### 3: Create Warehouse Shipment  
  In the **Warehouse Shipment** window, the shipping worker who is responsible retrieves pending source document lines based on the outbound warehouse request. Several source document lines can be combined in one warehouse shipment document.  
   
-### 4: Release Shipment \/ Create Warehouse Pick  
+### 4: Release Shipment / Create Warehouse Pick  
  The shipping worker who is responsible releases the warehouse shipment, so that warehouse workers can  create or coordinate warehouse picks for the shipment in question.  
   
  Alternatively, the user creates warehouse pick document for individual shipment lines, in a push fashion, based on specified bins and quantities to handle.  
   
-### 5: Release Internal Operation \/ Create Warehouse Pick  
+### 5: Release Internal Operation / Create Warehouse Pick  
  The user who is responsible for internal operations releases an internal source document, such as a production and assembly order, so that warehouse workers can create or coordinate warehouse picks for the internal operation in question.  
   
  Alternatively, the user creates warehouse pick documents for the individual production or assembly order, in a push fashion, based on specified bins and quantities to handle.  

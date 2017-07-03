@@ -43,7 +43,7 @@ This topic shows an example of how to define allocations by using the dynamic al
   
 10. In the **Allocation Target Type** field, select **All Costs** to define how all accumulated costs are allocated.  
   
-11. In the **Base** field, select the allocation base **Items Sold \(Amount\)**.  
+11. In the **Base** field, select the allocation base **Items Sold (Amount)**.  
   
 12. In the **No. Filter** field, enter **8904-W..8924-W**.  
   

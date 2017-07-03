@@ -28,7 +28,7 @@ You must submit an Intrastat report every month and create a new journal batch f
   
 3.  Select the journal batches to be deleted.  
   
-4.  On **Home** Tab, choose **Delete** or press Ctrl\+D. Choose the **Yes** button.  
+4.  On **Home** Tab, choose **Delete** or press Ctrl+D. Choose the **Yes** button.  
   
 ## See Also  
  [How to: Set Up and Record Intrastat](../how-to-set-up-and-record-intrastat.md)   

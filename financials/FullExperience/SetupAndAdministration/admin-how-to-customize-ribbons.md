@@ -18,7 +18,7 @@
 # How to: Customize Ribbons
 By opening the **Customize Ribbon** window from any page that has a ribbon, you can customize the ribbon to optimize it for your work processes and preferences. For example, if you frequently use the **Dimensions** window, you can add the **Dimensions** action to the **Process** actions group. You can also remove actions that you never use for better overview.  
   
- ![Customize ribbon dialog for selecting actions](../media/rtc_customizeribbon.png "RTC\_CustomizeRibbon")  
+ ![Customize ribbon dialog for selecting actions](../media/rtc_customizeribbon.png "RTC_CustomizeRibbon")  
   
 > [!NOTE]  
 >  Depending on the setting in the **UI Elements Removal** field in the ADD INCLUDE<!--[!INCLUDE[nav_admin](../../includes/How%20to:%20Specify%20When%20UI%20Elements%20Are%20Removed.md).  

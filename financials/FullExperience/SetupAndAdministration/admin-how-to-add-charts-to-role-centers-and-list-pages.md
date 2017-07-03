@@ -26,7 +26,7 @@ When you have complex information, you may want to view a visual representation 
   
 ### To add a generic chart to your Role Center  
   
-1.  On your Role Center, on the **Application** menu ![Microsoft Dynamics NAV Application menu](../media/rtc_applicationmenu.png "RTC\_ApplicationMenu"), select **Customize**, and then **Customize this Page**.  
+1.  On your Role Center, on the **Application** menu ![Microsoft Dynamics NAV Application menu](../media/rtc_applicationmenu.png "RTC_ApplicationMenu"), select **Customize**, and then **Customize this Page**.  
   
 2.  In the **Customize the Role Center** window, in the **Available parts** field, select **Chart Part**, and then choose **Add**.  
   

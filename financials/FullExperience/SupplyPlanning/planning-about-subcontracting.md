@@ -20,9 +20,9 @@ Subcontracting, when a vendor performs one or more operational steps in producti
   
  The program provides several tools for managing subcontract work:  
   
--   Work Centers with assigned vendor: This feature enables you to set up a work center that is associated with a vendor \(subcontractor\). This is called a subcontract work center. You can specify a subcontract work center on a routing operation, which allows you to easily process the subcontracted activity. In addition, the cost of the operation can be designated at the routing or the work center level.  
+-   Work Centers with assigned vendor: This feature enables you to set up a work center that is associated with a vendor (subcontractor). This is called a subcontract work center. You can specify a subcontract work center on a routing operation, which allows you to easily process the subcontracted activity. In addition, the cost of the operation can be designated at the routing or the work center level.  
   
--   Work Center cost based on units or time: This feature enables you to specify whether costs associated with the work center are based on the production time or a flat charge per unit. Although subcontractors commonly use a flat charge per unit to charge for their services, the program can handle both options \(production time and flat charge per unit\).  
+-   Work Center cost based on units or time: This feature enables you to specify whether costs associated with the work center are based on the production time or a flat charge per unit. Although subcontractors commonly use a flat charge per unit to charge for their services, the program can handle both options (production time and flat charge per unit).  
   
 -   Subcontracting Worksheet: This feature allows you to find the production orders with material ready to send to a subcontractor and to automatically create purchase orders for subcontract operations from production order routings. Then the program automatically posts the purchase order charges to the production order during the posting of the purchase order. Only production orders with a status of released can be accessed and used from a subcontracting worksheet.  
   

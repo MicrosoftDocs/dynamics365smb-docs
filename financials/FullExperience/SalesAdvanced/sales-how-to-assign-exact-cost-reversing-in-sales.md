@@ -23,7 +23,7 @@ You may agree to compensate a customer by letting them return a sold item agains
 |**Function**|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
 |------------------|---------------------------------------|  
 |**Get Posted Document Lines to Reverse**|Copies lines of one or more posted documents to be reversed.|  
-|**Copy Document**|Copies both the header and lines of one posted document to be reversed.<br /><br /> Requires that the **Exact Cost Reversing Mandatory** check box is selected in the **\($ N\_459 Sales & Receivables Setup $\)** window.|  
+|**Copy Document**|Copies both the header and lines of one posted document to be reversed.<br /><br /> Requires that the **Exact Cost Reversing Mandatory** check box is selected in the **Sales & Receivables Setup** window.|  
   
 ### To assign exact cost reversing manually  
   

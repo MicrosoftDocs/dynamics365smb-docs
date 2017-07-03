@@ -32,7 +32,7 @@ You can use the **Service Item Groups** window to set up groups of items that ar
   
 5.  In the **Default Serv. Price Group Code** field, enter the default service price group code that you want the service items in the group to have.  
   
-6.  In the **Default Response Time \(Hours\)** field, enter the default response time in hours that you want the service items in the group to have.  
+6.  In the **Default Response Time (Hours)** field, enter the default response time in hours that you want the service items in the group to have.  
   
 7.  If you want to register the items in the group as service items when they are sold, select the **Create Service Item** field.  
   

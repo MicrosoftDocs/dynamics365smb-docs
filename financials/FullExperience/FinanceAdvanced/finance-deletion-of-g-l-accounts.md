@@ -16,13 +16,13 @@
 
 ---
 # Deletion of G-L Accounts
-Before a G\/L account can be deleted, the following criteria must be met:  
+Before a G/L account can be deleted, the following criteria must be met:  
   
  The balance on the account must be zero.  
   
- If there is a date in the **Allow G\/L Acc. Deletion Before** field in the **General Ledger Setup** window, the account must not have ledger entries on or after that date.  
+ If there is a date in the **Allow G/L Acc. Deletion Before** field in the **General Ledger Setup** window, the account must not have ledger entries on or after that date.  
   
- If there is a check mark in the **Check G\/L Account Usage** field in the **General Ledger Setup** window, then the account must not be used in any of the following setup tables:  
+ If there is a check mark in the **Check G/L Account Usage** field in the **General Ledger Setup** window, then the account must not be used in any of the following setup tables:  
   
  Currency  
   
@@ -55,5 +55,5 @@ Before a G\/L account can be deleted, the following criteria must be met:
 ## See Also  
  [How to: View Where General Ledger Accounts Are Used](../how-to-view-where-general-ledger-accounts-are-used.md)   
  General Ledger Setup   
- Allow G\/L Acc. Deletion Before   
- Check G\/L Account Usage
+ Allow G/L Acc. Deletion Before   
+ Check G/L Account Usage

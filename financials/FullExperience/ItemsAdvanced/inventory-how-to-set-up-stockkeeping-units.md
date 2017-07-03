@@ -26,7 +26,7 @@ You can use stockkeeping units to record information about your items for a spec
   
 2.  Create a new **Stockkeeping Unit** card. On the **Home** tab, in the **New** group, choose **New**.  
   
-3.  Fill in the fields on the card. The following fields are required: **Item No.**, **Location Code**, and\/or **Variant Code**.  
+3.  Fill in the fields on the card. The following fields are required: **Item No.**, **Location Code**, and/or **Variant Code**.  
   
  For Help about any other field, select the field and press the F1 key.  
   

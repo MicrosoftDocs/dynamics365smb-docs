@@ -31,7 +31,7 @@ In the Human Resources feature, you can assign various codes to your employees. 
 |Assign codes for the trade and labor unions that your employees belong to.|[How to: Assign Union Codes to Employees](../how-to-assign-union-codes-to-employees.md)|  
 |Assign employment contract codes for contracts.|[How to: Assign Employment Contract Codes to Employees](../how-to-assign-employment-contract-codes-to-employees.md)|  
 |Assign codes for qualifications, both academic and practical, that your employees might have.|[How to: Assign Qualification Codes to Employees](../how-to-assign-qualification-codes-to-employees.md)|  
-|Assign codes for relatives \(or close contacts\) of your employees that you may want to contact in case of emergency.|[How to: Assign Relative Codes to Employees](../how-to-assign-relative-codes-to-employees.md)|  
+|Assign codes for relatives (or close contacts) of your employees that you may want to contact in case of emergency.|[How to: Assign Relative Codes to Employees](../how-to-assign-relative-codes-to-employees.md)|  
 |Assign codes for miscellaneous articles and employee benefits in your employees' possession. For example, keys, computers, credit cards, etc.|[How to: Assign Miscellaneous Article Codes to Employees](../how-to-assign-miscellaneous-article-codes-to-employees.md)|  
 |Get an overview of the miscellaneous articles that are registered to an employee.|[How to: Access an Overview of Miscellaneous Articles](../how-to-access-an-overview-of-miscellaneous-articles.md)|  
 |Assign codes for confidential information related to your employees. For example, salary, stock options, pension plan, etc.|[How to: Assign Confidential Information Codes to Employees](../how-to-assign-confidential-information-codes-to-employees.md)|  

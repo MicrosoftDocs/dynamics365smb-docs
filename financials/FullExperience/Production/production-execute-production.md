@@ -20,7 +20,7 @@ When materials have been issued, the actual production operations can start and 
   
  An important part of executing production, from a system point of view, is to post production output to the database to report progress and to update inventory with the finished items. Output posting can be done manually, by filling and posting journal lines after production operations. Or, it can be done automatically with the use of backward flushing. In that case material consumption is automatically posted along with output when the production order changes to finished.  
   
- As an alternative to the batch journal for output posting for multiple production orders, you can use the **Production Journal** window to post consumption and\/or output for one production order line.  
+ As an alternative to the batch journal for output posting for multiple production orders, you can use the **Production Journal** window to post consumption and/or output for one production order line.  
   
  The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
   

@@ -47,29 +47,29 @@ The repair status of service items and the allocation status of the allocation e
   
  The repair status of the service item in the allocation entry is updated in the following ways:  
   
--   If the repair status is **Initial**, the repair status is changed to **Referred** \(no service has been started\).  
+-   If the repair status is **Initial**, the repair status is changed to **Referred** (no service has been started).  
   
--   If the repair status is **In Process**, the repair status is changed to **Partly Serviced** \(some service has been completed\).  
+-   If the repair status is **In Process**, the repair status is changed to **Partly Serviced** (some service has been completed).  
   
 ## Reallocating  
  When you reallocate a service item in an allocation entry that is **Active**, the allocation entry is updated in the following ways:  
   
--   If service was started when the allocation was **Active** \(that is, if the repair status of the service item in the entry was changed to **In Process**\), the allocation status is changed from **Active** to **Finished**.  
+-   If service was started when the allocation was **Active** (that is, if the repair status of the service item in the entry was changed to **In Process**), the allocation status is changed from **Active** to **Finished**.  
   
 -   If service was not started when the allocation was **Active**, the allocation status is changed from **Active** to **Canceled**.  
   
  The repair status of the service item in the allocation entry is updated in the same way as if you had canceled the allocation:  
   
--   If the repair status is **Initial**, the repair status is changed to **Referred** \(no service has been started\).  
+-   If the repair status is **Initial**, the repair status is changed to **Referred** (no service has been started).  
   
--   If the repair status is **In Process**, the repair status is changed to **Partly Serviced** \(some service has been completed\).  
+-   If the repair status is **In Process**, the repair status is changed to **Partly Serviced** (some service has been completed).  
   
  A new allocation entry that contains the new resource is created that has the status **Active**.  
   
 ## Reallocating a Service Item That Needs Reallocation  
  When you reallocate a service item in an allocation entry that has the status **Reallocation Needed**, the allocation entry is updated in the following ways:  
   
--   If service was started when the allocation was **Active** \(that is, if the repair status of the service item in the entry was changed to **In Process**\), the allocation status is changed from **Reallocation Needed** to **Finished**.  
+-   If service was started when the allocation was **Active** (that is, if the repair status of the service item in the entry was changed to **In Process**), the allocation status is changed from **Reallocation Needed** to **Finished**.  
   
 -   If service was not started when the allocation was **Active**, the allocation status is changed from **Reallocation Needed** to **Canceled**.  
   

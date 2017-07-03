@@ -40,10 +40,10 @@ At least once in every fiscal year, you must take a physical inventory to see if
   
 8.  Open the  report request page and print the lists on which you want employees to record the quantity of items that they count in each bin.  
   
-9. When the counting is done, enter the counted quantities in the **Qty. \(Phys. Inventory\)** field in the warehouse physical inventory journal.  
+9. When the counting is done, enter the counted quantities in the **Qty. (Phys. Inventory)** field in the warehouse physical inventory journal.  
   
     > [!NOTE]  
-    >  In the warehouse physical inventory journal, **Qty. \(Calculated\)** field is filled in automatically on the basis of warehouse bin records and copies these quantities are copied to the **Qty. \(Physical\)** field on each line. If the quantity counted by the warehouse employee differs from what the program has entered in the Qty. \(Physical\) field, you must enter the quantity actually counted.  
+    >  In the warehouse physical inventory journal, **Qty. (Calculated)** field is filled in automatically on the basis of warehouse bin records and copies these quantities are copied to the **Qty. (Physical)** field on each line. If the quantity counted by the warehouse employee differs from what the program has entered in the Qty. (Physical) field, you must enter the quantity actually counted.  
   
 10. When you have entered all the counted quantities, register the journal. On the **Actions** tab, in the Registering group, choose **Register**.  
   
@@ -63,11 +63,11 @@ At least once in every fiscal year, you must take a physical inventory to see if
   
 3.  Select the same items that you counted in the warehouse physical inventory, and choose the **OK** button.  
   
-4.  The lines are created in the **Phys. Inventory Journal** window for these items. Note that the **Qty. \(Phys. Inventory\)** field is filled with the sum of the quantities you counted and registered for the item bin by bin in the Whse. Phys. Invt. Journal, and  the **Quantity** field has been calculated.  
+4.  The lines are created in the **Phys. Inventory Journal** window for these items. Note that the **Qty. (Phys. Inventory)** field is filled with the sum of the quantities you counted and registered for the item bin by bin in the Whse. Phys. Invt. Journal, and  the **Quantity** field has been calculated.  
   
 5.  Post the journal without changing any quantities.  
   
- The quantities in the item ledger \(item entries\) and the quantities in the warehouse \(warehouse entries\) are now once again the same for these items, and a full physical inventory has been performed for the item.  
+ The quantities in the item ledger (item entries) and the quantities in the warehouse (warehouse entries) are now once again the same for these items, and a full physical inventory has been performed for the item.  
   
 > [!NOTE]  
 >  Only an employee with permissions in the Inventory area can update the item ledger and physical inventory ledger with the results of the warehouse physical inventory.  

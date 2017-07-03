@@ -99,11 +99,11 @@ When you post an inventory transaction, the quantity posting is recorded in the 
   
  The following table shows item ledger entries resulting from the scenario.  
   
-|**Posting Date**|**Item Ledger Entry Type**|**Quantity**|**Cost Amount \(Actual\)**|**Item Ledger Entry No.**|  
+|**Posting Date**|**Item Ledger Entry Type**|**Quantity**|**Cost Amount (Actual)**|**Item Ledger Entry No.**|  
 |----------------------|---------------------------------------------------|------------------|----------------------------------------------------|---------------------------------------------------|  
 |01-04-20|Purchase|10|10.00|1|  
 |01-05-20|Purchase|10|20.00|2|  
-|01-06-20|Purchase \(Return\)|-10|-20.00|3|  
+|01-06-20|Purchase (Return)|-10|-20.00|3|  
   
  Because a fixed application is made from the purchase return to the second purchase entry, the items are returned at the correct cost. If the user had not performed the fixed application, then the returned item would be incorrectly valued at LCY 10.00 because the return would have been applied to the first purchase entry according to the FIFO principle.  
   
@@ -120,7 +120,7 @@ When you post an inventory transaction, the quantity posting is recorded in the 
   
 1.  In entry numbers 1 and 2, the user posts two purchase invoices. The second invoice has the incorrect direct unit cost of LCY 1000.00.  
   
-2.  In entry number 3, the user posts a purchase credit memo, with a fixed application applied to the purchase entry with the wrong direct unit cost. The sum of the **Cost Amount \(Actual\)** field for the two fixed applied value entries becomes 0.00  
+2.  In entry number 3, the user posts a purchase credit memo, with a fixed application applied to the purchase entry with the wrong direct unit cost. The sum of the **Cost Amount (Actual)** field for the two fixed applied value entries becomes 0.00  
   
 3.  In entry number 4, the user posts another purchase invoice with the correct direct unit cost of LCY 100.00  
   
@@ -130,7 +130,7 @@ When you post an inventory transaction, the quantity posting is recorded in the 
   
  The following table shows the result of the scenario on the item’s value entries.  
   
-|Posting Date|Item Ledger Entry Type|Valued Quantity|Cost Amount \(Actual\)|Appl.-to Item Entry|Valued by Average Cost|Item Ledger Entry No.|Entry No.|  
+|Posting Date|Item Ledger Entry Type|Valued Quantity|Cost Amount (Actual)|Appl.-to Item Entry|Valued by Average Cost|Item Ledger Entry No.|Entry No.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
 |01-01-20|Purchase|1|200.00||No|1|1|  
 |01-01-20|Purchase|1|1000.00||No|2|2|  
@@ -138,11 +138,11 @@ When you post an inventory transaction, the quantity posting is recorded in the 
 |01-01-20|Purchase|1|100.00||No|4|4|  
 |01-01-20|Sale|-2|-300.00||Yes|5|5|  
   
- If the user had not made the fixed application between the purchase credit memo and the purchase with the incorrect direct unit cost \(step 2 in the previous scenario\), then the cost would have been adjusted differently.  
+ If the user had not made the fixed application between the purchase credit memo and the purchase with the incorrect direct unit cost (step 2 in the previous scenario), then the cost would have been adjusted differently.  
   
  The following table shows the result on the item’s value entries if step 2 in the previous scenario is performed without a fixed application.  
   
-|Posting Date|Item Ledger Entry Type|Valued Quantity|Cost Amount \(Actual\)|Appl.-to Item Entry|Valued by Average Cost|Item Ledger Entry No.|Entry No.|  
+|Posting Date|Item Ledger Entry Type|Valued Quantity|Cost Amount (Actual)|Appl.-to Item Entry|Valued by Average Cost|Item Ledger Entry No.|Entry No.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
 |01-01-20|Purchase|1|200.00||No|1|1|  
 |01-01-20|Purchase|1|1000.00||No|2|2|  
@@ -150,9 +150,9 @@ When you post an inventory transaction, the quantity posting is recorded in the 
 |01-01-20|Purchase|1|100.00||No|4|4|  
 |01-01-20|Sale|-2|866,67||Yes|5|5|  
   
- In entry number 3, the value in the **Cost Amount \(Actual\)** field is valued by average and therefore includes the erroneous posting of 1000.00. Accordingly, it becomes -433,33, which is an inflated cost amount. The calculation is 1300 \/ 3 \= .-433,33.  
+ In entry number 3, the value in the **Cost Amount (Actual)** field is valued by average and therefore includes the erroneous posting of 1000.00. Accordingly, it becomes -433,33, which is an inflated cost amount. The calculation is 1300 / 3 = .-433,33.  
   
- In entry number 5, the value of the **Cost Amount \(Actual\)** field for this entry is also inaccurate for the same reason.  
+ In entry number 5, the value of the **Cost Amount (Actual)** field for this entry is also inaccurate for the same reason.  
   
 > [!NOTE]  
 >  If you create a fixed application for an inventory decrease for an item that uses the Average costing method, then the decrease will not receive the average cost for the item as usual, but will instead receive the cost of the inventory increase that you specified. That inventory decrease is then no longer part of the average cost calculation.  
@@ -172,31 +172,31 @@ When you post an inventory transaction, the quantity posting is recorded in the 
   
  The following table shows the result of scenario steps 1 through 3 on the item’s value entries.  
   
-|Posting Date|Item Ledger Entry Type|Valued Quantity|Cost Amount \(Actual\)|Appl.-from Item Entry|Item Ledger Entry No.|Entry No.|  
+|Posting Date|Item Ledger Entry Type|Valued Quantity|Cost Amount (Actual)|Appl.-from Item Entry|Item Ledger Entry No.|Entry No.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
 |01-01-20|Purchase|1|1000.00||1|1|  
 |02-01-20|Sale|-1|1000.00||2|2|  
-|03-01-20|Sale \(Credit Memo\)|1|1000|2|3|3|  
+|03-01-20|Sale (Credit Memo)|1|1000|2|3|3|  
   
  The following table shows the value entry resulting from scenario step 4, posting the item charge.  
   
-|Posting Date|Item Ledger Entry Type|Valued Quantity|Cost Amount \(Actual\)|Appl.-from Item Entry|Item Ledger Entry No.|Entry No.|  
+|Posting Date|Item Ledger Entry Type|Valued Quantity|Cost Amount (Actual)|Appl.-from Item Entry|Item Ledger Entry No.|Entry No.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|04-01-20|\(Item Charge\)|1|100.00||1|4|  
+|04-01-20|(Item Charge)|1|100.00||1|4|  
   
  The following table shows the effect of the exact cost reversal on the item’s value entries.  
   
-|Posting Date|Item Ledger Entry Type|Valued Quantity|Cost Amount \(Actual\)|Appl.-from Item Entry|Item Ledger Entry No.|Entry No.|  
+|Posting Date|Item Ledger Entry Type|Valued Quantity|Cost Amount (Actual)|Appl.-from Item Entry|Item Ledger Entry No.|Entry No.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
 |01-01-20|Purchase|1|1000.00||1|1|  
 |02-01-20|Sale|-1|1100.00||2|2|  
-|03-01-20|Sale \(Credit Memo\)|1|1100.00|2|3|3|  
-|04-01-20|\(Item Charge\)|1|100.00||1|4|  
+|03-01-20|Sale (Credit Memo)|1|1100.00|2|3|3|  
+|04-01-20|(Item Charge)|1|100.00||1|4|  
   
- When you run the **Adjust Cost - Item Entries** batch job, the increased cost of the purchase entry, due to the item charge, is forwarded to the sales entry \(entry number 2\). The sales entry then forwards this increased cost to the sales credit entry \(entry number 3\). The final result is that the cost is correctly reversed.  
+ When you run the **Adjust Cost - Item Entries** batch job, the increased cost of the purchase entry, due to the item charge, is forwarded to the sales entry (entry number 2). The sales entry then forwards this increased cost to the sales credit entry (entry number 3). The final result is that the cost is correctly reversed.  
   
 > [!NOTE]  
->  If you are working with returns or credit memos and you have set up the **Exact Cost Reversing Mandatory** field in either the **\($ N\_460 Purchases & Payables Setup $\)** window or the **\($ N\_459 Sales & Receivables Setup $\)** window, as appropriate for your situation, then [!INCLUDE[d365fin](../includes/d365fin_md.md)] automatically fills the various application entry fields when you use the **Copy Document** function. If you use the **Get Posted Document Lines to Reverse** function, then the fields are always filled automatically.  
+>  If you are working with returns or credit memos and you have set up the **Exact Cost Reversing Mandatory** field in either the **Purchases & Payables Setup** window or the **Sales & Receivables Setup** window, as appropriate for your situation, then [!INCLUDE[d365fin](../includes/d365fin_md.md)] automatically fills the various application entry fields when you use the **Copy Document** function. If you use the **Get Posted Document Lines to Reverse** function, then the fields are always filled automatically.  
   
 > [!NOTE]  
 >  If you post a transaction with a fixed application, and the item ledger entry that you are applying to is closed, meaning that the remaining quantity is zero, then the old application is automatically undone and reapplies the item ledger entry using the fixed application that you specified.  
@@ -215,7 +215,7 @@ When you post an inventory transaction, the quantity posting is recorded in the 
   
  The following table shows the effect of the transfer on the item’s value entries.  
   
-|Posting Date|Item Ledger Entry Type|Location Code|Valued Quantity|Cost Amount \(Actual\)|Entry No.|  
+|Posting Date|Item Ledger Entry Type|Location Code|Valued Quantity|Cost Amount (Actual)|Entry No.|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
 |01-01-20|Purchase|BLUE|1|10.00|1|  
 |01-01-20|Purchase|BLUE|1|20.00|2|  
@@ -231,7 +231,7 @@ When you post an inventory transaction, the quantity posting is recorded in the 
   
  The following table shows the effect of the transfer on the item’s value entries.  
   
-|Posting Date|Item Ledger Entry Type|Location Code|Valued Quantity|Cost Amount \(Actual\)|Entry No.|  
+|Posting Date|Item Ledger Entry Type|Location Code|Valued Quantity|Cost Amount (Actual)|Entry No.|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
 |01-01-20|Purchase|BLUE|1|10.00|1|  
 |02-01-20|Transfer|BLUE|-1|10.00|2|  

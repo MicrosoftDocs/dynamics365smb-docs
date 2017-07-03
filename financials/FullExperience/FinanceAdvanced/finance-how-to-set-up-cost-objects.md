@@ -48,7 +48,7 @@ Cost objects are projects, products, or services of a company. The chart of cost
   
 5.  Choose the drop-down arrow in the **Line Type** field to specify the purpose of the cost object.  
   
-    -   For cost objects of the **Total** line type, fill in the **Total From\/To** field. Use the **or** operator, which is a vertical line \(**&#124;**\), to set ranges of cost objects.  
+    -   For cost objects of the **Total** line type, fill in the **Total From/To** field. Use the **or** operator, which is a vertical line (**&#124;**), to set ranges of cost objects.  
   
     -   For cost objects of the **End-Total** line type, this field is filled in automatically when you use  the indent function.  
   
@@ -59,7 +59,7 @@ Cost objects are projects, products, or services of a company. The chart of cost
 8.  After you have set up all the cost objects, on the **Home** tab, in the **Process** group, choose **Indent Cost Objects**. Choose the **Yes** button.  
   
 > [!IMPORTANT]  
->  If you have entered definitions in the **Total From\/To** fields for **End-Total** cost objects before you run the indent function, then you must enter them again. The function overwrites the values in all **End-Total** fields.  
+>  If you have entered definitions in the **Total From/To** fields for **End-Total** cost objects before you run the indent function, then you must enter them again. The function overwrites the values in all **End-Total** fields.  
   
 ## See Also  
  Chart of Cost Objects   

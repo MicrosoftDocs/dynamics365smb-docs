@@ -29,7 +29,7 @@ When you apply data that you have imported from Excel or from a RapidStart packa
 ## Example  
  The following example illustrates how [!INCLUDE[d365fin](../../includes/d365fin_md.md)] implements mapping definitions.  
   
-1.  Create a configuration table that has a Salesperson\/Purchaser table, table 13. Define a mapping for the Code field. For more information, see [How to: Map Customer Data](../how-to-map-customer-data.md).  
+1.  Create a configuration table that has a Salesperson/Purchaser table, table 13. Define a mapping for the Code field. For more information, see [How to: Map Customer Data](../how-to-map-customer-data.md).  
   
 2.  Add additional tables to the package, for example, table 18, Customer, and table 23, Vendor. These tables both reference table 13 through the Salesperson Code and the Purchaser Code, respectively.  
   

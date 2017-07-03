@@ -34,7 +34,7 @@ Use the configuration worksheet to gather together and categorize the informatio
   
 ### To work with promoted tables  
   
-1.  Select the **Promoted Table** check box to indicate a table that frequently will be used during the setup process by a typical customer, for example, the **G\/L Account** table. When a table has this designation, a customer will be able to easily filter his worksheet to see just the list of promoted tables that require attention.  
+1.  Select the **Promoted Table** check box to indicate a table that frequently will be used during the setup process by a typical customer, for example, the **G/L Account** table. When a table has this designation, a customer will be able to easily filter his worksheet to see just the list of promoted tables that require attention.  
   
 2.  To see the filtered view, on the **Home** tab, in the **Show** group, choose **Promoted Only**. The list of tables contains only those tables that have the check box selected.  
   

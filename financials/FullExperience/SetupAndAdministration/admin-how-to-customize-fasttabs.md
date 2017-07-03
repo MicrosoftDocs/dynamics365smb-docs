@@ -35,9 +35,9 @@ FastTabs help organize information about pages into simple, manageable groups. Y
   
 ### To start customizing a FastTab  
   
-1.  On a page with FastTabs, on the **Application** menu ![Microsoft Dynamics NAV Application menu](../media/rtc_applicationmenu.png "RTC\_ApplicationMenu"), select **Customize**, and then choose **Customize This Page**.  
+1.  On a page with FastTabs, on the **Application** menu ![Microsoft Dynamics NAV Application menu](../media/rtc_applicationmenu.png "RTC_ApplicationMenu"), select **Customize**, and then choose **Customize This Page**.  
   
-2.  In the **Customize \<Page Name\>** dialog box, choose **FastTabs**.  
+2.  In the **Customize <Page Name>** dialog box, choose **FastTabs**.  
   
 ### To add a FastTab to a page  
   

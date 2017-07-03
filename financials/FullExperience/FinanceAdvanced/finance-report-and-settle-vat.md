@@ -18,15 +18,15 @@
 # Report and Settle VAT
 If you have set up the VAT features correctly, VAT is calculated and posted automatically.  
   
- You must report the volume of your trade with European Union \(EU\) countries\/regions to the tax authorities, even if no amount has to be settled. Refer to the guidelines provided by your country\/region's tax authorities for reporting requirements and instructions.  
+ You must report the volume of your trade with European Union (EU) countries/regions to the tax authorities, even if no amount has to be settled. Refer to the guidelines provided by your country/region's tax authorities for reporting requirements and instructions.  
   
- Every posting that involves VAT creates an entry in the **VAT Entries** window. These entries are used to calculate your VAT settlement amount \(payment or refund\) for a specific period.  
+ Every posting that involves VAT creates an entry in the **VAT Entries** window. These entries are used to calculate your VAT settlement amount (payment or refund) for a specific period.  
   
- You can also use general ledger entries to calculate the settlement amount if you set up accounts on the chart of accounts for this purpose. \(See the **Type** field on the VAT statement line.\) Note, this method does not follow the format used by the tax authorities on the VAT statement.  
+ You can also use general ledger entries to calculate the settlement amount if you set up accounts on the chart of accounts for this purpose. (See the **Type** field on the VAT statement line.) Note, this method does not follow the format used by the tax authorities on the VAT statement.  
   
  You can use a VAT statement to calculate the VAT settlement amount for a period. You can then print a VAT statement and copy the information onto a payment slip.  
   
- VAT is not calculated on sales to VAT-liable companies in other EU countries\/regions. You must report the value of such sales separately. You can use the **VAT - VIES Declaration Tax Auth.** report to produce the declaration.  
+ VAT is not calculated on sales to VAT-liable companies in other EU countries/regions. You must report the value of such sales separately. You can use the **VAT - VIES Declaration Tax Auth.** report to produce the declaration.  
   
  You can use the **Calc. and Post VAT Settlement** batch job to close the VAT entries and transfer purchase and sales VAT amounts to the VAT settlement account.  
   
@@ -41,7 +41,7 @@ If you have set up the VAT features correctly, VAT is calculated and posted auto
 |Preview a VAT statement on screen before printing the statement.|[How to: Preview VAT Statements](../how-to-preview-vat-statements.md)|  
 |Print a VAT statement that you can use to fill in the payment slip for the tax authorities.|[How to: Print VAT Statements](../how-to-print-vat-statements.md)|  
 |Create a periodic VAT report that can be submitted to the tax authorities.|[VAT and VIES Report Setup](../vat-and-vies-report-setup.md)|  
-|Print a VIES report for sales to other EU countries\/regions.|[VAT- VIES Declaration Tax Auth](../\($%20R_19%20VAT-%20VIES%20Declaration%20Tax%20Auth%20$\).md)|  
+|Print a VIES report for sales to other EU countries/regions.|[VAT- VIES Declaration Tax Auth](../($%20R_19%20VAT-%20VIES%20Declaration%20Tax%20Auth%20$).md)|  
 |Close the open VAT entries and post the net settlement amount to the VAT settlement account.|[How to: Transfer VAT Amounts to the Settlement Account](../how-to-transfer-vat-amounts-to-the-settlement-account.md)|  
   
 ## See Also  

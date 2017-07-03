@@ -44,7 +44,7 @@ A typical planning activity is to change or add planning worksheet lines to modi
   
 4.  Find the suggested supply order that you want to modify. You can identify modifiable elements by the green circle and the disk icon. For more information about the different symbols, see Item Availability by Timeline.  
   
-5.  Place the pointer over the green circle until it enlarges and the pointer changes to Move shape \(four arrows\).  
+5.  Place the pointer over the green circle until it enlarges and the pointer changes to Move shape (four arrows).  
   
 6.  Press and hold the mouse button while you drag the pointer up or down to modify the quantity. Press and hold the mouse button while you drag the pointer left or right to modify the due date.  
   
@@ -52,7 +52,7 @@ A typical planning activity is to change or add planning worksheet lines to modi
   
     |Function|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
     |--------------|---------------------------------------|  
-    |**Create New Supply**|Creates a new element point where you right-click, which represents a new suggested supply order. It becomes a new line in the planning worksheet when you choose **Save Changes**.<br /><br /> **NOTE:** If the **Location Filter** or **Variant Filter** fields on the **Options** FastTab are empty or have more than one filter value, then the new supply is created and later saved to the planning or requisition worksheet with the following codes:<br /><br /> \* If the filter field is empty, then the new supply is created without a location or variant code.<br /><br /> \* If more than one filter value is defined, then the new supply is created for the first filter value according to the sorting method.<br /><br /> If you want another variant or location code, then you must manually change it on the new planning line.|  
+    |**Create New Supply**|Creates a new element point where you right-click, which represents a new suggested supply order. It becomes a new line in the planning worksheet when you choose **Save Changes**.<br /><br /> **NOTE:** If the **Location Filter** or **Variant Filter** fields on the **Options** FastTab are empty or have more than one filter value, then the new supply is created and later saved to the planning or requisition worksheet with the following codes:<br /><br /> * If the filter field is empty, then the new supply is created without a location or variant code.<br /><br /> * If more than one filter value is defined, then the new supply is created for the first filter value according to the sorting method.<br /><br /> If you want another variant or location code, then you must manually change it on the new planning line.|  
     |**Auto-Adjust Supply**|Optimizes a new supply that you have created in the graph by making sure that it results in zero inventory before the next supply.|  
     |**Delete Supply**|Deletes the element in the **Timeline** FastTab and deletes the planning line when you choose **Save Changes**. The icon changes to a disk that has a red cross when the supply has been deleted.<br /><br /> **NOTE:** You can only delete a supply of action message type **New**. After you choose **Save Changes**, you must manually delete the planning line in question in the planning or requisition worksheet.|  
   

@@ -22,7 +22,7 @@ Backdated transactions or cost adjustments often affect balances and stock valua
   
  To make sure that all transaction entries in a closed period are final, the following conditions must be met before an inventory period can close:  
   
--   All outbound item ledger entries in the period must be closed \(no negative inventory\).  
+-   All outbound item ledger entries in the period must be closed (no negative inventory).  
   
 -   All item costs in the period must be adjusted.  
   

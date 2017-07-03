@@ -97,7 +97,7 @@ This walkthrough demonstrates the process of planning supply orders to fulfill n
   
 #### To plan a purchase order to fulfill component need in production  
   
-1.  Expand the first line \(choose the \+ symbol\).  
+1.  Expand the first line (choose the + symbol).  
   
 2.  Choose the first demand line, with item **LSU-15**, and then on the **Navigate** tab, in the **Line** group, choose **Show Document**.  
   

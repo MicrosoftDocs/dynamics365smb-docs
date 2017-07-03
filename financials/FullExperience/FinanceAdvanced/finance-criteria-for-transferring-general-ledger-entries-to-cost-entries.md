@@ -40,7 +40,7 @@ It is important to understand the criteria for transferring general ledger entri
   
 -   The entries have a general ledger account that is not assigned a cost type.  
   
--   The entries have a posting date before the **Starting Date for G\/L Transfer**.  
+-   The entries have a posting date before the **Starting Date for G/L Transfer**.  
   
 -   The entries have been posted with a closing date. These are typically entries that set back the balance of the income statement at the end of the year.  
   

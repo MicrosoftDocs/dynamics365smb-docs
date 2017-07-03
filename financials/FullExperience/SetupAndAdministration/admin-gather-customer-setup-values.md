@@ -16,7 +16,7 @@
 
 ---
 # Gather Customer Setup Values
-You use the setup questionnaire to help reduce your implementation workload by streamlining the task of setting up the new company. You can generate the setup questionnaire in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] and then provide it to your customer as an Excel \(.xls\) or XML file.  
+You use the setup questionnaire to help reduce your implementation workload by streamlining the task of setting up the new company. You can generate the setup questionnaire in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] and then provide it to your customer as an Excel (.xls) or XML file.  
   
  You can change all default values in a questionnaire to more closely match customer needs.  
   

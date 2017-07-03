@@ -48,7 +48,7 @@ Cost centers are departments that are responsible for costs and income. The char
   
 4.  Choose the drop-down arrow in the **Line Type** field to specify the purpose of the cost center.  
   
-    -   For cost centers of the **Total** type, you must fill in the **Totaling** field. Use the **or** operator, which is a vertical line \(**&#124;**\) to set ranges of cost centers.  
+    -   For cost centers of the **Total** type, you must fill in the **Totaling** field. Use the **or** operator, which is a vertical line (**&#124;**) to set ranges of cost centers.  
   
     -   For cost centers of the **End-Total** line type, this field is filled in automatically when you use the indent function.  
   

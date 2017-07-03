@@ -18,7 +18,7 @@
 # Concepts of Production BOMs
 Manufacturers use production bills of material to supervise the use of items and components used for intermediate and finished products.  
   
- The products to be produced consist of items and possibly of sub-assemblies, so that the production BOM consists of single items, sub-assemblies and other production BOMs \(phantom BOMs\).  
+ The products to be produced consist of items and possibly of sub-assemblies, so that the production BOM consists of single items, sub-assemblies and other production BOMs (phantom BOMs).  
   
  Production bills of material can consist of several levels, and you can use a maximum of 50 BOM levels. One production BOM corresponds to one level. The use of other item production BOMs defines the lower levels. The production BOMs are assigned to the item in the Production BOM No. field on the Manufacturing FastTab of the item card.  
   

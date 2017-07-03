@@ -30,7 +30,7 @@ You can send a customer a credit memo with a price reduction if the customer has
   
 3.  Fill in the credit memo header with relevant information about the customer that you want to give the sales allowance to.  
   
-4.  On the **Lines** FastTab, in the **Type** field, select **Charge \(Item\)**.  
+4.  On the **Lines** FastTab, in the **Type** field, select **Charge (Item)**.  
   
 5.  In the **No.** field, select the appropriate item charge value.  
   

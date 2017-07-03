@@ -41,7 +41,7 @@ For items that are set up with backward flushing method, the default behavior is
 3.  On the **Replenishment** FastTab, in the **Flushing Method** field, select **Forward**.  
   
     > [!NOTE]  
-    >  Select **Pick\+ Forward** if the component is used in a location that is set up for directed put-away and pick.  
+    >  Select **Pick+ Forward** if the component is used in a location that is set up for directed put-away and pick.  
   
 4.  In the **Search** box, enter **Routings**, and then choose the related link.  
   

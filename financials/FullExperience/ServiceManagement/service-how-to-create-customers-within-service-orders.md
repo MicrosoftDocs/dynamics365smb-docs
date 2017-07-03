@@ -30,7 +30,7 @@ When you create service orders for customers that are not registered in [!INCLUD
   
      Alternatively, if you have set up number series for service orders in the **Service Mgt. Setup** window, you can press the Enter key to select the next available service order number.  
   
-4.  Fill in the **Name** , **Address**, and **Post Code\/City** fields for the new customer.  
+4.  Fill in the **Name** , **Address**, and **Post Code/City** fields for the new customer.  
   
 5.  On the **Actions** tab, in the **Functions** group, choose **Create Customer**. The **Customer Templates List** window opens. Browse to the relevant template, and then choose the **OK** button.  
   

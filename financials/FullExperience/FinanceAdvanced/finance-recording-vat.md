@@ -16,7 +16,7 @@
 
 ---
 # Recording VAT
-In EU countries\/regions, every sales and purchase transaction is subject to VAT calculations.  
+In EU countries/regions, every sales and purchase transaction is subject to VAT calculations.  
   
 ## Calculating and Displaying VAT Amounts in Sales and Purchase Documents  
  You can calculate and display VAT amounts in sales and purchase documents differently depending on the type of customer or vendor that you are dealing with. You can also override the VAT amount calculated by the program to match the VAT amount calculated by your vendor on a given transaction.  
@@ -24,7 +24,7 @@ In EU countries\/regions, every sales and purchase transaction is subject to VAT
 ### VAT correction  
  It is possible to make corrections to posted VAT entries. This allows you to change the total sales or purchase VAT amounts without changing the VAT base. The feature may be used, for example, if you receive an invoice from a vendor who has calculated VAT incorrectly. For more information on making corrections to posted VAT entries, see [How to: Correct VAT](../how-to-correct-vat.md).  
   
-### Unit Price and Line Amount Including\/Excluding VAT  
+### Unit Price and Line Amount Including/Excluding VAT  
  When you select an item in the **No.** field in a sales document, the program also fills in the **Unit Price** field. The unit price is calculated and transferred from either the **Item** card or from the item prices allowed for the item and customer. The program only calculates the **Line Amount** when you enter a quantity for the line.  
   
  In cases where you are selling to retail consumers, you may want your sales document prices to be displayed including VAT both on screen and when printed. To do this, you can select the **Prices Including VAT** check box in the document header.  
@@ -45,7 +45,7 @@ In EU countries\/regions, every sales and purchase transaction is subject to VAT
 |-----------------------------------------------|----------------------------------------------------|--------------------------|  
 |No check mark|No check mark|The **Unit Price** on the Item Card is copied to **Unit Price Excl. VAT** field on the sales lines.|  
 |No check mark|Check mark|The program calculates the VAT amount per unit and adds to the **Unit Price** on the Item Card. This total Unit Price is then entered in the **Unit Price Incl. VAT field** on the sales lines.|  
-|Check mark|No check mark|The program calculates the VAT amount included in the **Unit Price** on the Item Card using the VAT% related to the VAT Bus. Posting Gr. \(Price\) and the VAT Prod. Posting Group combination. The **Unit Price** on the Item Card, reduced by the VAT amount, is then entered in the **Unit Price Excl. VAT** field in the sales lines.|  
+|Check mark|No check mark|The program calculates the VAT amount included in the **Unit Price** on the Item Card using the VAT% related to the VAT Bus. Posting Gr. (Price) and the VAT Prod. Posting Group combination. The **Unit Price** on the Item Card, reduced by the VAT amount, is then entered in the **Unit Price Excl. VAT** field in the sales lines.|  
 |Check mark|Check mark|The **Unit Price** on the Item Card is copied to **Unit Price Incl. VAT** field on the sales lines.|  
   
 ## See Also  

@@ -34,7 +34,7 @@ Assembly BOMs specify which components or resources are required to assemble the
   
 2.  Create a new item. On the **Home** tab, in the **New** group, choose **New**. Fill in the required fields on the item card. For more information, see [How to: Register New Products](../how-to-register-new-products.md).  
   
-3.  On the **Navigate** tab, in the **Assembly\/Production** group, choose the **Assembly** button, and then choose **Assembly BOM**.  
+3.  On the **Navigate** tab, in the **Assembly/Production** group, choose the **Assembly** button, and then choose **Assembly BOM**.  
   
 4.  To enter components in the assembly BOM, in the **Type** field, enter **Item**. In the **No.** field, select an item.  
   

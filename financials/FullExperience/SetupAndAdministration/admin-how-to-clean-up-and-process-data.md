@@ -20,7 +20,7 @@ In some cases, you may want to clean up customer data and process it before you 
   
 -   Convert dates and decimals to the format required by the regional settings on a user's computer.  
   
--   Remove leading\/trailing spaces or special characters.  
+-   Remove leading/trailing spaces or special characters.  
   
  After you modify the batch job, use the following procedure to process the data.  
   

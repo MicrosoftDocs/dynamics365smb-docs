@@ -37,7 +37,7 @@ You must periodically update the standard costs of components and roll the new c
   
 1.  Run the **Adjust Cost-Item Entries** batch job.  
   
-2.  Run the **Post Inventory Cost to G\/L** batch job.  
+2.  Run the **Post Inventory Cost to G/L** batch job.  
   
 3.  Open the **Standard Cost Worksheet** and use one or more of the following functions:  
   

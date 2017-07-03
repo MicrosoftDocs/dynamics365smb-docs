@@ -24,7 +24,7 @@ To be able to administer an employee's absence, you must register the absence in
   
 -   The Employee Absences window displays the absences for one employee only. This s the information that you entered in the Absence Registration window, filtered by the particular employee.  
   
- You can register employee absences on a daily basis or however suits your administrator. To obtain meaningful statistics, you should always use the same unit of measure \(hour or day\) when registering employee absences.  
+ You can register employee absences on a daily basis or however suits your administrator. To obtain meaningful statistics, you should always use the same unit of measure (hour or day) when registering employee absences.  
   
  The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
   

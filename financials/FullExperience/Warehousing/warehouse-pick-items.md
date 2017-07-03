@@ -24,7 +24,7 @@ The warehouse activity of picking items before they are shipped or consumed is p
 |------------|-------------|  
 |Get an overview of the different ways to pick items depending on the complexity of the warehouse configuration.|[Picking Items](../picking-items.md)|  
 |Print a list of the items to pick for one or more orders.|Picking List|  
-|Post the shipment of items directly in the outbound order document because no warehouse features exist. \(Works the same for sales, transfer, and production orders.\)|"Posting Sales orders" in [Processing Sales Orders](../processing-sales-orders.md)|  
+|Post the shipment of items directly in the outbound order document because no warehouse features exist. (Works the same for sales, transfer, and production orders.)|"Posting Sales orders" in [Processing Sales Orders](../processing-sales-orders.md)|  
 |Pick items order by order and post the shipment in the same activity, in a basic warehouse configuration.|[How to: Pick Items with Inventory Picks](../how-to-pick-items-with-inventory-picks.md)|  
 |Pick components for production at a location with basic warehouse configuration.|[How to: Pick for Production in Basic Warehousing](../how-to-pick-for-production-in-basic-warehousing.md)|  
 |Pick components for production at a location with advanced warehousing configuration.|[How to: Pick for Internal Operations in Advanced Warehousing](../how-to-pick-for-internal-operations-in-advanced-warehousing.md)|  
@@ -34,8 +34,8 @@ The warehouse activity of picking items before they are shipped or consumed is p
 |Plan optimized pick instructions for a number of shipments rather than have warehouse workers act directly on posted shipments.|[How to: Plan Picks in Worksheets](../how-to-plan-picks-in-worksheets.md)|  
 |Pick items technically for a special purpose, such as a production unit in need of extra components, in such a way that the items do not technically leave the warehouse.|"Create a Pick from the Internal Pick" in [Picking and Putting Away Without a Source Document](../how-to-create-put-aways-from-internal-put-aways.md)|  
 |Break a larger unit of measure into smaller units of measure when creating warehouse instructions.|"Breakbulk in Picks" in [Automatic Break Bulk for Directed Put-away and Pick](../automatic-breaking-bulk-with-directed-put-away-and-pick.md)|  
-|Record which serial\/lot numbers are picked as items leave inventory to enable tracking of the items after they are sold.|[How to: Assign Serial Numbers and Lot Numbers During Outbound Transactions](../how-to-assign-serial-numbers-and-lot-numbers-during-outbound-transactions.md)|  
-|Pick serial\/lot numbers specified by the source sales order because, for example, the customer has requested a specific lot.|[About Picking Serial and Lot Numbers](../about-picking-serial-and-lot-numbers.md)|  
+|Record which serial/lot numbers are picked as items leave inventory to enable tracking of the items after they are sold.|[How to: Assign Serial Numbers and Lot Numbers During Outbound Transactions](../how-to-assign-serial-numbers-and-lot-numbers-during-outbound-transactions.md)|  
+|Pick serial/lot numbers specified by the source sales order because, for example, the customer has requested a specific lot.|[About Picking Serial and Lot Numbers](../about-picking-serial-and-lot-numbers.md)|  
 |Split a put-away line to place part of the put-away quantity in available bins because the designated bin is full.|[How to: Split Warehouse Activity Lines](../how-to-split-warehouse-activity-lines.md)|  
   
 ## See Also  

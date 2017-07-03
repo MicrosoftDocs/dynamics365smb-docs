@@ -16,7 +16,7 @@
 
 ---
 # How to: Display Machine Center Statistics
-You can view machine center statistics to get information about expected and actual capacity, quantity, and value of production orders, quantity produced, scrap, and run\/stop time.  
+You can view machine center statistics to get information about expected and actual capacity, quantity, and value of production orders, quantity produced, scrap, and run/stop time.  
   
 ### To display machine center statistics  
   

@@ -21,7 +21,7 @@ When you are working with items that require item tracking and you are creating 
  The exact rules for handling item tracking numbers across your company are governed by the setup of the **Item Tracking Code** table.  
   
 > [!NOTE]  
->  To handle item tracking numbers in warehouse activities, the item must be set up with SN\/Lot Warehouse Tracking, as this dictates the special principles governing serial and lot numbers in the warehouse.  
+>  To handle item tracking numbers in warehouse activities, the item must be set up with SN/Lot Warehouse Tracking, as this dictates the special principles governing serial and lot numbers in the warehouse.  
   
 ### To select from existing serial or lot numbers  
   

@@ -18,11 +18,11 @@
 # How to: Verify VAT Registration Numbers
 You can use an EU web service to verify that VAT registration numbers that you enter on customer, vendor, or contact cards are valid.  
   
- When you modify the **VAT Registration No.** field on a card where the value in the **Country\/Region Code** field is an EU country\/region, then the new VAT registration number and your user ID are logged in the **VAT Registration Log** window. You verify a VAT registration number by choosing the **Verify Registration No.** button in the **VAT Registration Log** window. A new line is created every time you use the verification function. If the number could be verified, the **Status** field contains **Valid**. If the number could not be verified, the **Status** field contains **Invalid**, and you must then change the number in the **VAT Registration No.** field on the card and start the verification function again.  
+ When you modify the **VAT Registration No.** field on a card where the value in the **Country/Region Code** field is an EU country/region, then the new VAT registration number and your user ID are logged in the **VAT Registration Log** window. You verify a VAT registration number by choosing the **Verify Registration No.** button in the **VAT Registration Log** window. A new line is created every time you use the verification function. If the number could be verified, the **Status** field contains **Valid**. If the number could not be verified, the **Status** field contains **Invalid**, and you must then change the number in the **VAT Registration No.** field on the card and start the verification function again.  
   
  The URL of the default web service is set up in the **VAT Reg. No. Validation URL** field in the **General Ledger Setup** window.  
   
- In the **VAT Registration No. Format** table, you can change for each country\/region the different formats of VAT registration number that users are allowed to enter in the **VAT Registration No.** field.  
+ In the **VAT Registration No. Format** table, you can change for each country/region the different formats of VAT registration number that users are allowed to enter in the **VAT Registration No.** field.  
   
 > [!WARNING]  
 >  This web service uses the http protocol, which means that data transferred through the service is not encrypted.  
@@ -37,7 +37,7 @@ You can use an EU web service to verify that VAT registration numbers that you e
 2.  Open the card of a customer where you want to verify the VAT registration number.  
   
     > [!NOTE]  
-    >  The **Country\/Region Code** field on the customer card must contain an EU country\/region.  
+    >  The **Country/Region Code** field on the customer card must contain an EU country/region.  
   
 3.  On the **Foreign Trade** FastTab, choose the DrillDown button next to the **VAT Registration No.** field.  
   

@@ -32,7 +32,7 @@ Before you can manage sales processes, you must configure the rules and values t
 |------------|-------------|  
 |Configure general rules about sales processing, how values are posted, and which document number series to use.|[Set Up General Sales Rules and Values](../set-up-general-sales-rules-and-values.md)|  
 |Enter information about new customers to define how to handle sales processes with each vendor.|[Create New Customer Accounts](../create-new-customer-accounts.md)|  
-|Enter the different discounts and alternative prices that you grant the customers depending on item, quantities, and\/or date.|[Record Sales Price, Discount, and Payment Agreements](../record-sales-price-discount-and-payment-agreements.md)|  
+|Enter the different discounts and alternative prices that you grant the customers depending on item, quantities, and/or date.|[Record Sales Price, Discount, and Payment Agreements](../record-sales-price-discount-and-payment-agreements.md)|  
   
 ## See Also  
  [Configure Purchase Processes](../configure-purchase-processes.md)   

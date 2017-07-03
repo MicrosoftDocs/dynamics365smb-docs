@@ -20,7 +20,7 @@ You can allocate an entry in a general journal to several different accounts whe
   
 -   Quantity  
   
--   Percentage \(%\)  
+-   Percentage (%)  
   
 -   Amount  
   

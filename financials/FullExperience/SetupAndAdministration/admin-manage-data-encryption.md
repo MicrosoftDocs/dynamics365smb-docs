@@ -18,7 +18,7 @@
 # Manage Data Encryption
 You can encrypt data on the ADD INCLUDE<!--[!INCLUDE[nav_server](../../includes/nav_server_md.md)]--> instance that connects to the database.  
   
- If ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/nav_server_md.md)]--> instances\), then you must first enable encryption on one server instance, and then export the key so it can be imported to other server instances where you enable encryption.  
+ If ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/nav_server_md.md)]--> instances), then you must first enable encryption on one server instance, and then export the key so it can be imported to other server instances where you enable encryption.  
   
 > [!IMPORTANT]  
 >  If you export companies and other data that is secured by data encryption, then remember to also export the encryption key so that you can access the data after you import it into another database, for example when you restore a backup. Creating a backup of encrypted data involves the following high-level steps.  

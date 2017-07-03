@@ -18,7 +18,7 @@
 # Defining the Relationship Between Cost Types and General Ledger Accounts
 The relationship between the cost type and the general ledger account is created in the cost type and in the general ledger account.  
   
--   The **G\/L Account Range** field in the **Cost Type** table establishes which general ledger accounts belong to a cost type.  
+-   The **G/L Account Range** field in the **Cost Type** table establishes which general ledger accounts belong to a cost type.  
   
 -   The **Cost Type No.** field in the chart of accounts establishes which cost type a general ledger account belongs to.  
   
@@ -27,12 +27,12 @@ The relationship between the cost type and the general ledger account is created
 ## Relationship Between General Ledger Accounts and Cost Types  
  There is an n:1 relationship between general ledger accounts and cost types. Several general ledger accounts can belong to one cost type, but each general ledger account belongs to only one cost type. The following table describes the details in the relationship.  
   
-|Relationship|**G\/L Account Range**|**Cost Type No.**|  
+|Relationship|**G/L Account Range**|**Cost Type No.**|  
 |------------------|------------------------------------------------|-------------------------------------------|  
 |One general ledger account for each cost type|One general ledger account|One cost type|  
 |Several general ledger accounts for one cost type|General ledger account range, for example, 7110..7193 for each general ledger account|For each general ledger account in the range, there is only one cost type|  
-|Cost types without corresponding general ledger accounts|\<Empty\>||  
-|General ledger accounts whose entries will not be transferred||\<Empty\>|  
+|Cost types without corresponding general ledger accounts|<Empty>||  
+|General ledger accounts whose entries will not be transferred||<Empty>|  
   
 ### Cost Types Without a Relationship to the General Ledger  
  A cost type may not have a relationship to general ledger accounts if one of the following conditions is true:  

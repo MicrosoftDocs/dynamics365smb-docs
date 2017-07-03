@@ -24,7 +24,7 @@ The warehouse activity of putting items away after they are received or output i
 |------------|-------------|  
 |Get an overview of the different ways to put items away depending on the complexity of the warehouse configuration.|[Putting Items Away](../putting-items-away.md)|  
 |Print a list of the items to put away for one or more orders.|Put-away List|  
-|Post the receipt of items directly in the inbound order document because no warehouse features exist. \(Works the same for purchase, transfer, and production orders.\)|"Posting Purchase Orders" in [Processing Purchase Orders](../processing-purchase-orders.md)|  
+|Post the receipt of items directly in the inbound order document because no warehouse features exist. (Works the same for purchase, transfer, and production orders.)|"Posting Purchase Orders" in [Processing Purchase Orders](../processing-purchase-orders.md)|  
 |Put items away order by order and post the receipt in the same activity, in a basic warehouse configuration.|[How to: Put Items Away with Inventory Put-aways](../how-to-put-items-away-with-inventory-put-aways.md)|  
 |Put produced items away in a basic warehouse configuration.|"Put Away Output from the Inventory Put-away Document" in [Putting Away Production Output](../how-to-put-away-production-output.md)|  
 |Put items away for multiple orders in an advanced warehouse configuration.|[How to: Put Items Away with Warehouse Put-aways](../how-to-put-items-away-with-warehouse-put-aways.md)|  
@@ -34,7 +34,7 @@ The warehouse activity of putting items away after they are received or output i
 |Put back items that were picked technically with an internal pick, for example for a production order that did not consume the expected quantity.|"Create a Put-away from the Internal Put-away" in [Picking and Putting Away Without a Source Document](../how-to-create-put-aways-from-internal-put-aways.md)|  
 |Create or recreate deleted put-away lines on the basis of posted warehouse receipts lines, in an advanced warehouse configuration.|[How to: Create Put-aways from Posted Receipts](../how-to-create-put-aways-from-posted-receipts.md)|  
 |Break a larger unit of measure into smaller units of measure when creating warehouse instructions.|"Breakbulk in Put-aways" in [Automatic Break Bulk for Directed Put-away and Pick](../automatic-breaking-bulk-with-directed-put-away-and-pick.md)|  
-|Assign new serial\/lot numbers to items as they enter inventory to enable tracking of the items after they are sold and while they are in inventory.|[How to: Assign Serial Numbers and Lot Numbers During Inbound Transactions](../how-to-assign-serial-numbers-and-lot-numbers-during-inbound-transactions.md)|  
+|Assign new serial/lot numbers to items as they enter inventory to enable tracking of the items after they are sold and while they are in inventory.|[How to: Assign Serial Numbers and Lot Numbers During Inbound Transactions](../how-to-assign-serial-numbers-and-lot-numbers-during-inbound-transactions.md)|  
 |Split a put-away line to place part of the put-away quantity in available bins because the designated bin is filled up.|[How to: Split Warehouse Activity Lines](../how-to-split-warehouse-activity-lines.md)|  
   
 ## See Also  

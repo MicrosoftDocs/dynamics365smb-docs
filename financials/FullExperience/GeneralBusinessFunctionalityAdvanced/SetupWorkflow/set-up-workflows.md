@@ -38,7 +38,7 @@ You can set up and use workflows that connect business-process tasks performed b
 |Use workflow templates to create new workflows.|[How to: Create Workflows from Workflow Templates](../how-to-create-workflows-from-workflow-templates.md)|  
 |Share workflows with other ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/how-to-export-and-import-workflows.md)|  
 |Learn how to set up a workflow for approving sales documents by following an end-to-end procedure.|[Walkthrough: Setting Up and Using a Purchase Approval Workflow](../walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
-|Add support for a business scenario that requires new workflow events or responses by customizing the application code. \(This topic is in English language.\)|[Walkthrough: Implementing New Workflow Events and Responses](../walkthrough-implementing-new-workflow-events-and-responses.md) in Developer and IT Pro Help.|  
+|Add support for a business scenario that requires new workflow events or responses by customizing the application code. (This topic is in English language.)|[Walkthrough: Implementing New Workflow Events and Responses](../walkthrough-implementing-new-workflow-events-and-responses.md) in Developer and IT Pro Help.|  
   
 ## See Also  
  [Use Workflows](../use-workflows.md)   

@@ -16,7 +16,7 @@
 
 ---
 # How to: Create Certificates of Supply
-When you sell goods to a customer in another EU country\/region, you can print a certificate of supply. If the shipment uses a combination of VAT business posting group and VAT product posting group that have been set up to require a certificate of supply in the **VAT Posting Setup** window, the certificate will be automatically set up for you in the **Certificates of Supply** window, with its status set to **Required**.  
+When you sell goods to a customer in another EU country/region, you can print a certificate of supply. If the shipment uses a combination of VAT business posting group and VAT product posting group that have been set up to require a certificate of supply in the **VAT Posting Setup** window, the certificate will be automatically set up for you in the **Certificates of Supply** window, with its status set to **Required**.  
   
  Alternatively, you can manually update the status of a certificate of supply in the **Certificates of Supply** window from **Not Applicable** to **Required**. You can also manually change the status from **Required** to **Not Applicable** as needed.  
   
@@ -28,7 +28,7 @@ When you sell goods to a customer in another EU country\/region, you can print a
   
 3.  In the **VAT Posting Setup Card** window, select the **Certificate of Supply Required** check box.  
   
-     For example, VAT posting setup for trade with customers and vendors in other EU countries\/regions that is VAT-liable must require a certificate of supply.  
+     For example, VAT posting setup for trade with customers and vendors in other EU countries/regions that is VAT-liable must require a certificate of supply.  
   
 ### To manually create a certificate of supply  
   

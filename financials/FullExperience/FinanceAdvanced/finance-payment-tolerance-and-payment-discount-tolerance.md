@@ -23,7 +23,7 @@ You can set up payment tolerance to close an invoice when the payment does not f
   
  If you accept a payment discount after the payment discount date, then it is always posted to either the payment discount account or a payment tolerance account.  
   
- You specify the method for posting payment discount tolerance in the **G\/L Setup** window.  
+ You specify the method for posting payment discount tolerance in the **G/L Setup** window.  
   
  For more information, see [How to: Set Up Tolerances](../how-to-set-up-tolerances.md).  
   
@@ -37,7 +37,7 @@ You can set up payment tolerance to close an invoice when the payment does not f
 ## Applying Payment Tolerance to Multiple Documents  
  A single document has the same payment tolerance whether it is applied on its own or with other documents. Acceptance of a late payment discount when you are applying payment tolerance to multiple documents automatically occurs for each document where the following rule is true:  
   
- payment discount date \< payment date on the selected entry \<\= payment tolerance date  
+ payment discount date < payment date on the selected entry <= payment tolerance date  
   
  This rule also applies to determine whether to display warnings when you apply payment tolerance to multiple documents. The payment discount tolerance warning is displayed for each entry that meets the date criteria.  
   

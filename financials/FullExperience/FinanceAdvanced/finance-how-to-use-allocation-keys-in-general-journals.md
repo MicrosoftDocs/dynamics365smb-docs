@@ -38,7 +38,7 @@ You can allocate an entry in a general journal to several different accounts whe
   
 9. If you enter a percentage on a line, the amount in the **Amount** field is calculated automatically. These amounts have the opposite sign from the total amount in the **Amount** field in the recurring journal.  
   
-10. After entering the allocations lines, choose **OK** to return to the **Recurring General Journal** window. The **Allocated Amt. \(LCY\)** field is filled in and matches the **Amount** field.  
+10. After entering the allocations lines, choose **OK** to return to the **Recurring General Journal** window. The **Allocated Amt. (LCY)** field is filled in and matches the **Amount** field.  
   
 11. Post the journal.  
   

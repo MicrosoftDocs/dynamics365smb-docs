@@ -28,7 +28,7 @@ After repairing a service item, you can register a resolution code describing th
   
 4.  In the **Resolution Code** field, select an appropriate resolution code. If an appropriate resolution code cannot be found, you can set up a new resolution code.  
   
- Alternatively, you can register both fault and resolution codes using fault\/resolution codes relationships.  
+ Alternatively, you can register both fault and resolution codes using fault/resolution codes relationships.  
   
 ## See Also  
  [How to: Register Fault Codes](../how-to-register-fault-codes.md)   

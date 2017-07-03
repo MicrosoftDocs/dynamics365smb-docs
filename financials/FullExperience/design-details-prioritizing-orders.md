@@ -36,18 +36,18 @@ Within a given SKU, the requested or available date represents the highest prior
   
 7.  Outbound Transfer Order  
   
-8.  Blanket Order \(that has not already been consumed by related sales orders\)  
+8.  Blanket Order (that has not already been consumed by related sales orders)  
   
-9. Forecast \(that has not already been consumed by other sales orders\)  
+9. Forecast (that has not already been consumed by other sales orders)  
   
 > [!NOTE]  
 >  Purchase returns are usually not involved in supply planning; they should always be reserved from the lot that is going to be returned. If not reserved, purchase returns play a role in the availability and are highly prioritized to avoid that the planning system suggests a supply order just to serve a purchase return.  
   
 ## Priorities on the Supply Side  
   
-1.  Already in inventory: Item Ledger Entry \(Planning Flexibility \= None\)  
+1.  Already in inventory: Item Ledger Entry (Planning Flexibility = None)  
   
-2.  Sales Return Order \(Planning Flexibility \= None\)  
+2.  Sales Return Order (Planning Flexibility = None)  
   
 3.  Inbound Transfer Order  
   
@@ -60,15 +60,15 @@ Within a given SKU, the requested or available date represents the highest prior
 ## Priority Related to the State of Demand and Supply  
  Apart from priorities given by the type of demand and supply, the present state of the orders in the execution process also defines a priority. For example, warehouse activities have an impact, and the status of sales, purchase, transfer, assembly, and production orders is taken into account:  
   
-1.  Partly handled \(Planning Flexibility \= None\)  
+1.  Partly handled (Planning Flexibility = None)  
   
-2.  Already in process in the warehouse \(Planning Flexibility \= None\)  
+2.  Already in process in the warehouse (Planning Flexibility = None)  
   
-3.  Released – all order types \(Planning Flexibility \= Unlimited\)  
+3.  Released – all order types (Planning Flexibility = Unlimited)  
   
-4.  Firm Planned Production Order \(Planning Flexibility \= Unlimited\)  
+4.  Firm Planned Production Order (Planning Flexibility = Unlimited)  
   
-5.  Planned\/Open – all order types \(Planning Flexibility \= Unlimited\)  
+5.  Planned/Open – all order types (Planning Flexibility = Unlimited)  
   
 ## See Also  
  [Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md)   

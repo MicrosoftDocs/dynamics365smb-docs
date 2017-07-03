@@ -18,12 +18,12 @@
 # Walkthrough: Picking and Shipping in Basic Warehousing
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], the outbound processes for picking and shipping can be performed in four ways using different functionalities depending on the warehouse complexity level.  
   
-|Method|Inbound process|Bins|Picks|Shipments|Complexity level \(See [Design Details: Warehouse Setup](design-details-warehouse-setup.md)\)|  
+|Method|Inbound process|Bins|Picks|Shipments|Complexity level (See [Design Details: Warehouse Setup](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|-----------|---------------|--------------------------------------------------------------------------------------------------------------------|  
 |A|Post pick and shipment from the order line|X|||2|  
 |B|Post pick and shipment from an inventory pick document||X||3|  
-|C|Post pick and shipment from a warehouse shipment document|||X|4\/5\/6|  
-|D|Post pick from a warehouse pick document and post shipment from a warehouse shipment document||X|X|4\/5\/6|  
+|C|Post pick and shipment from a warehouse shipment document|||X|4/5/6|  
+|D|Post pick from a warehouse pick document and post shipment from a warehouse shipment document||X|X|4/5/6|  
   
  For more information, see [Design Details: Outbound Warehouse Flow](design-details-outbound-warehouse-flow.md).  
   
@@ -72,7 +72,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], the outbound processes for
   
     1.  In the **Search** box, enter **Item Journals**, and then choose the related link.  
   
-    2.  Open the default journal, and then create two item journal lines with the following information about the work date \(January 23\).  
+    2.  Open the default journal, and then create two item journal lines with the following information about the work date (January 23).  
   
         |Entry Type|Item Number|Location Code|Bin Code|Quantity|  
         |----------------|-----------------|-------------------|--------------|--------------|  
@@ -104,11 +104,11 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], the outbound processes for
   
 2.  On the **Home** tab, in the **New** group, choose **New**.  
   
-3.  Create a sales order for customer 10000 on the work date \(January 23\) with the following sales order line.  
+3.  Create a sales order for customer 10000 on the work date (January 23) with the following sales order line.  
   
     |Item|Location Code|Quantity|  
     |----------|-------------------|--------------|  
-    |LS\_81|SILVER|30|  
+    |LS_81|SILVER|30|  
   
      Proceed to notify the warehouse that the sales order is ready for warehouse handling.  
   

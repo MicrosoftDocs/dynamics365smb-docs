@@ -24,7 +24,7 @@ A common problem in an administrative computer system is to locate the origin of
   
 1.  In the **Search** box, enter **Change Log Setup**, and then choose the related link.  
   
-2.  In the **Change Log Setup** window, on the **Actions** tab, in the **Setup** group, choose **Tables**. The **Change Log Setup \(Table\) List** window opens.  
+2.  In the **Change Log Setup** window, on the **Actions** tab, in the **Setup** group, choose **Tables**. The **Change Log Setup (Table) List** window opens.  
   
 3.  Fill in the fields for each line.  
   
@@ -45,9 +45,9 @@ A common problem in an administrative computer system is to locate the origin of
   
 -   **Change Log Setup**  
   
--   **Change Log Setup \(Table\)**  
+-   **Change Log Setup (Table)**  
   
--   **Change Log Setup \(Field\)**  
+-   **Change Log Setup (Field)**  
   
 -   **Permission**  
   

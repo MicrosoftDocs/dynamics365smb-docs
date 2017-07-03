@@ -40,7 +40,7 @@ A company's distribution strategy is reflected in the configuration of its wareh
 |Set up fixed location pairs, transfer-from location and transfer-to location, between which items can be transferred via in-transit services, transportation units.|[How to: Set Up Transfer Routes](../how-to-set-up-transfer-routes.md)|  
 |Configure the warehouse to support a process where items are shipped directly from the receiving area, without entering inventory.|"Set Up the Warehouse for Cross-Docking" in [Cross-Docking Items](../how-to-cross-dock-items.md)|  
 |Define when and how items in warehouse locations are counted for maintenance or financial reporting purposes.|[How to: Set Up Physical Inventory Counting Periods](../how-to-set-up-physical-inventory-counting-periods.md)|  
-|Learn about the capabilities of integration bar code readers to the warehouse management installation.|[Use Automated Data Capture Systems \(ADCS\)](../use-automated-data-capture-systems-adcs-.md)|  
+|Learn about the capabilities of integration bar code readers to the warehouse management installation.|[Use Automated Data Capture Systems (ADCS)](../use-automated-data-capture-systems-adcs-.md)|  
 |Get tips on how to reorganize locations, bins, or zones to obtain more efficient warehouse activities.|[How to: Restructure Warehouses](../how-to-restructure-warehouses.md)|  
 
 ## See Also  

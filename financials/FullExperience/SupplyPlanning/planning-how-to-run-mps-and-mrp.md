@@ -16,13 +16,13 @@
 
 ---
 # How to: Run MPS and MRP
-The terms "running the planning worksheet" or "running MRP" refer to the calculation of the master production schedule and material requirements based on actual and forecasted demand. The planning system can calculate either Master Planning Schedule \(MPS\) or Material Requirements Planning \(MRP\) on request, or it can calculate both at the same time.  
+The terms "running the planning worksheet" or "running MRP" refer to the calculation of the master production schedule and material requirements based on actual and forecasted demand. The planning system can calculate either Master Planning Schedule (MPS) or Material Requirements Planning (MRP) on request, or it can calculate both at the same time.  
   
 -   *MPS* is the calculation of a master production schedule based on actual demand and the production forecast. The MPS calculation is used for end items that have a forecast or a sales order line. These items are called "MPS items" and are identified dynamically when the calculation starts.  
   
 -   *MRP* is the calculation of material requirements based on actual demand for components and the production forecast on the component level. MRP is calculated only for items that are not MPS items. The purpose of MRP is to provide time-phased formal plans, by item, to supply the appropriate item, at the appropriate time, in the appropriate location, in the appropriate quantity.  
   
- The planning algorithms used for both MPS and MRP are identical. The planning algorithms pertain to netting, reuse of existing replenishment orders, and action messages. The planning system process examines what is needed or will be needed \(demand\) and what is on-hand or expected \(supply\). When these quantities are netted against each other, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] provides action messages. Action messages are suggestions to create a new order, change an order \(quantity or date\), or cancel an order already on order. The term "order" includes purchase orders, assembly order, production orders, and transfer orders.  
+ The planning algorithms used for both MPS and MRP are identical. The planning algorithms pertain to netting, reuse of existing replenishment orders, and action messages. The planning system process examines what is needed or will be needed (demand) and what is on-hand or expected (supply). When these quantities are netted against each other, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] provides action messages. Action messages are suggestions to create a new order, change an order (quantity or date), or cancel an order already on order. The term "order" includes purchase orders, assembly order, production orders, and transfer orders.  
   
  Proper planning results depend on the set up done on item cards, assembly BOMs, production BOMs, and routings.  
   
@@ -32,7 +32,7 @@ The terms "running the planning worksheet" or "running MRP" refer to the calcula
   
 -   **Calculate Net Change Plan**: This function processes a net change plan. Items are considered in net change planning from two types of changes:  
   
-    -   **Demand\/supply changes:** These include modifications to quantities on sales orders, production forecasts, assembly orders, production orders, or purchase orders. An unplanned inventory level change is also considered a quantity change.  
+    -   **Demand/supply changes:** These include modifications to quantities on sales orders, production forecasts, assembly orders, production orders, or purchase orders. An unplanned inventory level change is also considered a quantity change.  
   
     -   **Planning parameter changes:** These include changes in safety stock, reorder point, routing, bill of material, and changes to the time bucket or lead time calculation.  
   
@@ -56,9 +56,9 @@ The terms "running the planning worksheet" or "running MRP" refer to the calcula
     |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
     |**MPS**|Select to initiate the calculation of a master production schedule. Items with open sales orders or production forecasts are considered in this run.|  
-    |**MRP**|Select to initiate the calculation of material requirements planning. Items with dependent requirements are considered in this run. Typically,  MPS and MRP are run at the same time. To run MPS and MRP at the same time, the **Combined MPS\/MRP Calculation** field must be selected on the **Planning** FastTab in the **Manufacturing Setup** window.|  
-    |**Starting Date**|This date is used to evaluate inventory availability. If an item's on-hand quantity is below the reorder point, the system forward-schedules a replenishment order from this date. If an item is below its safety stock \(as of the starting date\), the system back-schedules a replenishment order due on the planning starting date.|  
-    |**Ending Date**|This is the ending date of the planning horizon. Neither demand nor supply is considered after this date. If the reorder cycle for an item extends beyond the ending date, the effective planning horizon for that item is equal to the order date \+ reorder cycle.<br /><br /> The planning horizon is the time that the plan is extended to. If the horizon is too short, items with a longer lead time are not ordered on time. If the horizon is too long, too much time is spent reviewing and processing information that likely changes before it is needed. It is possible to set one planning horizon for production and a longer one for purchases, although it is not required. A planning horizon for purchases and production should be set to cover the cumulative lead time for components.|  
+    |**MRP**|Select to initiate the calculation of material requirements planning. Items with dependent requirements are considered in this run. Typically,  MPS and MRP are run at the same time. To run MPS and MRP at the same time, the **Combined MPS/MRP Calculation** field must be selected on the **Planning** FastTab in the **Manufacturing Setup** window.|  
+    |**Starting Date**|This date is used to evaluate inventory availability. If an item's on-hand quantity is below the reorder point, the system forward-schedules a replenishment order from this date. If an item is below its safety stock (as of the starting date), the system back-schedules a replenishment order due on the planning starting date.|  
+    |**Ending Date**|This is the ending date of the planning horizon. Neither demand nor supply is considered after this date. If the reorder cycle for an item extends beyond the ending date, the effective planning horizon for that item is equal to the order date + reorder cycle.<br /><br /> The planning horizon is the time that the plan is extended to. If the horizon is too short, items with a longer lead time are not ordered on time. If the horizon is too long, too much time is spent reviewing and processing information that likely changes before it is needed. It is possible to set one planning horizon for production and a longer one for purchases, although it is not required. A planning horizon for purchases and production should be set to cover the cumulative lead time for components.|  
     |**Stop and Show First Error**|Select if you want the planning run to stop as soon as it encounters an error. At the same time, a message is displayed with information about the first error. If an error exists, only the successful planning lines made before the error was encountered will be presented in the planning worksheet. If you do not select this field, the **Calculate Plan** batch job will continue until it has completed, that is, errors will not interrupt the batch job. If one or more errors exist, a message will display after completion with information about how many items are affected. The **Planning Error Log** window will then open to provide more details about the error and links to the affected item cards.|  
     |**Use Forecast**|Select a forecast that should be included as demand when you run the planning batch job. The default forecast is set up on the **Planning** FastTab in the **Manufacturing Setup** window.|  
     |**Exclude Forecast Before**|Define how much of the selected forecast to include in the planning run by entering a date before which forecast demand is not included, thus allowing you to exclude old information.|  
@@ -101,7 +101,7 @@ The terms "running the planning worksheet" or "running MRP" refer to the calcula
 > [!NOTE]  
 >  An action message is a suggestion to create a new order, cancel an order, or change the quantity or date of an order. An order is a purchase order, transfer order, or production order.  
   
- In response to any supply\/demand imbalances, the following action messages are generated.  
+ In response to any supply/demand imbalances, the following action messages are generated.  
   
 |Action Message|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
 |--------------------|---------------------------------------|  

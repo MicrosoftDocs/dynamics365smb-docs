@@ -198,7 +198,7 @@
 ### [How to: Create Reports with XBRL](FullExperience/bi-create-reports-with-xbrl.md)
 ### How to: Set Up and Publish KPI Web Services Based on Account Schedules
 
-## [Cost Accounting (FULL)](finance-manage-cost-accounting.md)
+## [Cost Accounting (FULL)](FullExperience/finance-manage-cost-accounting.md)
 ### [Terminology in Cost Accounting](finance-terminology-in-cost-accounting.md)
 ### [About Cost Accounting](finance-about-cost-accounting.md)
 ### [Setting Up Cost Accounting](finance-set-up-cost-accounting.md)

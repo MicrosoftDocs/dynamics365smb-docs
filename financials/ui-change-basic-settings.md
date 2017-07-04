@@ -1,6 +1,6 @@
 ---
-title: Changing Basic Settings | Microsoft Docs
-description: Learn how you can change some of the basic settings in Financials.
+title: Viewing and Editing Basic Settings in Financials | Microsoft Docs
+description: Learn how to change some of the basic settings in Financials, for example, the Role Center, company, or the work date.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -32,19 +32,22 @@ A company functions as a container for data in [!INCLUDE[d365fin](includes/d365f
 
 The default company is called CRONUS and contains demonstration data only.
 
-**Tip**: If you want to display a different name for your company in the application (such as on the Home page), set the **Name** field on the **Company Information** page or the **Display Name** field on the **Companies** page.  
+> [!TIP]  
+>   If you want to display a different name for your company in the application (such as on the Home page), set the **Name** field on the **Company Information** page or the **Display Name** field on the **Companies** page.  
 
 ## Work date
 The default work date is usually today's date. You may have to temporarily change the work date to be able to perform tasks, such as completing transactions for a date that is not the current date.
 
-**Tip**: Type **w** to quickly enter the work date in a date field. Write **t** to quickly enter the current date in the date field.
+> [!TIP]  
+>   Type **w** to quickly enter the work date in a date field. Write **t** to quickly enter the current date in the date field.
 
-**Important**: The work date is only changed until you close the company or until the date changes. If you open a different company or open the same company the next day and still have to use a different work date, then you must set the work date again.
+> [!IMPORTANT]  
+>   The work date is only changed until you close the company or until the date changes. If you open a different company or open the same company the next day and still have to use a different work date, then you must set the work date again.
 
 ## Confirmation dialogs
 Use the options in this section if you want to specify some additional checks for posting documents. These options are checked as standard, but you can clear the check boxes to avoid getting specific warnings or messages.
 
 ## See Also
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [How to: Change the Role Center](change-role.md)  
 [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)  

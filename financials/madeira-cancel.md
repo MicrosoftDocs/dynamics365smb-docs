@@ -1,6 +1,6 @@
 ---
-title: Canceling Dynamics 365 for Financials | Microsoft Docs
-description: Describes how to cancel your Dynamics 365 for Financials experience.
+title: Cancelling Dynamics 365 for Financials| Microsoft Docs
+description: Describes how to remove or delete your Dynamics 365 for Financials experience.
 services: project-madeira
 documentationcenter: ''
 author: edupont04
@@ -11,11 +11,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: remove, delete
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: edupont
 
 ---
-# Canceling Dynamics 365 for Financials
+# Unsubscribe, Remove, or Reset [!INCLUDE[d365fin](includes/d365fin_md.md)]
 When you have signed up for [!INCLUDE[d365fin](includes/d365fin_md.md)], you can choose to cancel your subscription at any time. Similarly, you can choose to reset the company that you can been using in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For a quick overview, see [the [!INCLUDE[d365fin](includes/d365fin_md.md)] blog](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel).  
 
 ## Unsubscribing by removing [!INCLUDE[d365fin](includes/d365fin_md.md)] from your Office 365 experience
@@ -27,7 +27,8 @@ If you signed up for [!INCLUDE[d365fin](includes/d365fin_md.md)] using a non-Off
 
 ## Resetting your [!INCLUDE[d365fin](includes/d365fin_md.md)] experience
 If you have added data to your [!INCLUDE[d365fin](includes/d365fin_md.md)] preview and you want to start over with a fresh experience, you can create a new company and then reset the first company. If you open the **Companies** page, you can create a copy of your current company, sign out and then sign into your new company, and then reset the original company.  
-**Note**: When you reset a company that you are sharing with other people from your organization, you must make sure other people are not logged in when you reset the company.  
+> [!NOTE]  
+>   When you reset a company that you are sharing with other people from your organization, you must make sure other people are not logged in when you reset the company.  
 
 ## Removing [!INCLUDE[d365fin](includes/d365fin_md.md)] from your app launcher
 If you want to hide [!INCLUDE[d365fin](includes/d365fin_md.md)] from your app launcher, you can quite simply unpin it. This does not remove any data, and it does not cancel your subscription.  

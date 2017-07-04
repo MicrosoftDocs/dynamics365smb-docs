@@ -1,6 +1,6 @@
 ---
-title: 'How to: Reconcile Payments That Cannot be Applied Automatically| Microsoft Docs'
-description: 'How to: Reconcile Payments That Cannot be Applied Automatically'
+title: Using the Transfer Difference to Account Feature to Reconcile Payments | Microsoft Docs'
+description: Describes how to process payments that cannot be applied to a document, for example, when an exchange rate causes amounts to differ.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -25,10 +25,11 @@ Payments that cannot be applied can appear on payment reconciliation journal lin
 
 To reconcile such payments, you can choose the Transfer Difference to Account button and then specify to which account the amount in the Difference field will be posted when you post the payment reconciliation journal.
 
-**Note**: Similar functionality exists to set up automatic reconciliation of recurring payments that cannot be applied to related open customer, vendor, or bank account ledger entries. For more information, see [How to: Map Text on Recurring Payments to Accounts for Automatic Reconciliation](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
+> [!NOTE]  
+>   Similar functionality exists to set up automatic reconciliation of recurring payments that cannot be applied to related open customer, vendor, or bank account ledger entries. For more information, see [How to: Map Text on Recurring Payments to Accounts for Automatic Reconciliation](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
 
 ## To reconcile payments that cannot be applied
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Payment Reconciliation Journals**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Reconciliation Journals**, and then choose the related link.
 2. Open a payment reconciliation journal. For more information, see [How to: Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
 3. Choose the **Transfer Difference to Account**. The **Transfer Difference to Account** window opens.
 4. In the **Account Type** field, specify if the type of account that the payment amount will be posted to.
@@ -43,4 +44,4 @@ If the value in the **Difference** field was lower than the value in the **Trans
 ## See Also
 [Managing Receivables](receivables-manage-receivables.md)  
 [Sales](sales-manage-sales.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

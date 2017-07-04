@@ -1,6 +1,6 @@
 ---
 title: Setting Up the Chart of Accounts| Microsoft Docs
-description: Describes how you can change the chart of accounts.
+description: You change the default accounts in the chart of accounts (COA), and you can add new accounts.
 services: project-madeira
 documentationcenter: ''
 author: edupont04
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: COA, cha of acc
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: edupont
 
 ---
@@ -22,7 +22,8 @@ However, you can change the default accounts, and you can add new accounts.
 ## Adding or Changing Accounts
 From the chart of accounts, you can open each G/L account and add or change settings.
 
-**Note**: You can delete a general ledger account. However, before you delete it, the following must be true:  
+> [!NOTE]  
+>   You can delete a general ledger account. However, before you delete it, the following must be true:  
 
 * The balance on the account must be zero.  
 * The **Allow G/L Acc. Deletion Before** field must be set in the **General Ledger Setup** window, and the account must not have ledger entries on or after that date.  
@@ -33,9 +34,9 @@ From the chart of accounts, you can open each G/L account and add or change sett
 ## See Also
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
 [Managing Bank Accounts](bank-manage-bank-accounts.md)  
-[Dimensions](finance-dimensions.md)  
+[Working with Dimensions](finance-dimensions.md)  
 [Importing from Other Finance Systems](upload-data.md)  
 [How to: Work With GIFI Codes in Canada](ca-finance-work-gifi-codes.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

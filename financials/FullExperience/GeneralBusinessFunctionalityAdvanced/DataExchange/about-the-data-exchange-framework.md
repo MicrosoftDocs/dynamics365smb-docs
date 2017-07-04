@@ -16,7 +16,7 @@
 
 ---
 # About the Data Exchange Framework
-The format of files for exchange of data in bank files, electronic documents, currency exchange rates, and other with ERP systems vary depending on the provider of the data file or stream and on the country/region. The generic version of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/data-exchange.md).  
+The format of files for exchange of data in bank files, electronic documents, currency exchange rates, and other with ERP systems vary depending on the provider of the data file or stream and on the country/region. The generic version of ADD INCLUDE<!--[!INCLUDE[dyn_nav](includes/data-exchange.md).  
   
  The following diagrams show the architecture of the Data Exchange Framework.  
   

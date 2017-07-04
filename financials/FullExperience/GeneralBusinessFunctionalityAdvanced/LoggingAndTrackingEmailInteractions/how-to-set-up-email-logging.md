@@ -21,7 +21,7 @@ You set up email logging in the **Marketing Setup** window. Setup requires an em
 > [!NOTE]  
 >  Consider creating a domain user email account that is not tied to specific individual. If you do this, you will also have to add the domain account to [!INCLUDE[d365fin](../../../includes/d365fin_md.md)] as a Windows user who has the relevant permission set.  
   
- In order to set up email logging, you will require a ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/demolong_md.md)]-->.  
+ In order to set up email logging, you will require a ADD INCLUDE<!--[!INCLUDE[navnow](../../../includes/demolong_md.md)]-->.  
   
  You must also have configured public folders on your Exchange server. For more information about configuring public folders in Exchange Server, see [Public folders](http://go.microsoft.com/fwlink/?LinkId=526140).  
   

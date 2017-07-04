@@ -207,6 +207,9 @@
 ## [Incoming Documents](across-income-documents.md)
 ### [How to: Set Up Incoming Documents](across-how-setup-income-documents.md)
 ### [Processing Incoming Documents](across-process-income-documents.md)
+## [Workflow](workflow.md)
+### [Setting Up Workflows](set-up-workflows)
+### [Using Workflows](use-workflows)
 
 ## [Application Design Details](design-details-application-design.md)
 ### [Design Details: Dimension Set Entries](design-details-dimension-set-entries.md)

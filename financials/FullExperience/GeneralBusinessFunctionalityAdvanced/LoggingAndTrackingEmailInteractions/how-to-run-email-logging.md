@@ -18,7 +18,7 @@
 # How to: Run Email Logging
 Email logging can be used to capture email activities between a [!INCLUDE[d365fin](../../../includes/d365fin_md.md)] contact. Both persons must have valid email addresses that are registered on the respective salesperson and contact cards.  
   
- You can create your email messages directly in Outlook, or you can create your messages in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-send-email-messages.md).  
+ You can create your email messages directly in Outlook, or you can create your messages in ADD INCLUDE<!--[!INCLUDE[navnow](../../../includes/how-to-send-email-messages.md).  
   
 > [!IMPORTANT]  
 >  The interaction template associated with email logging must have the following characteristics:  

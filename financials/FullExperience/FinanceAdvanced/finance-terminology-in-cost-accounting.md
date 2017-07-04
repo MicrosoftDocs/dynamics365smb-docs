@@ -17,10 +17,10 @@
 ---
 # Terminology in Cost Accounting
 This topic defines the key terms that are used in cost accounting.  
-  
+
 ## Key Terms  
  The following table shows definitions of the key terms in cost accounting.  
-  
+
 |**Term**|**Definition**|  
 |--------------|--------------------|  
 |Allocation key|The allocation key is the basis that is used to allocate costs. It is typically a quantity, such as square meters occupied, number of employees, or man-hours used. For example, two departments, with 20 and 10 employees respectively, share canteen costs. The costs are distributed between the departments by using an allocation key that represents the number of employees. Two thirds of the costs are allocated to the first department, and one third of the costs are allocated to the second department.|  
@@ -44,7 +44,7 @@ This topic defines the key terms that are used in cost accounting.
 |Static weighting|Costs are allocated according to allocation keys, which can be modified by using a multiplier. <br />For example, two departments, with 20 and 10 employees respectively, share canteen costs. The costs are distributed between the departments by using an allocation key that represents the number of employees that eat in the canteen. In the first department, only 5 employees eat in the canteen, so this department has a multiplier of 0.25. The basis for allocation is 20 x 0.25 = 5. The total number of employees that eat in the canteen is 15. One third of the costs are allocated to the first department and two thirds of the costs are allocated to the second department.|  
 |Variable cost|Variable costs are expenses that change in proportion to the activity of a business. Variable costs are the sum of marginal costs over all units produced. Fixed costs and variable costs make up the two components of total costs.|  
 |Variant|A variant is used as an optional user-defined label for allocations. The purpose of the label is to filter groups of allocation.|  
-  
+
 ## See Also  
- [About Cost Accounting](../about-cost-accounting.md)   
- [Manage Cost Accounting](../manage-cost-accounting.md)
+ [About Cost Accounting](about-cost-accounting.md)   
+ [Manage Cost Accounting](manage-cost-accounting.md)

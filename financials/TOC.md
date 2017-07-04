@@ -199,12 +199,12 @@
 ### How to: Set Up and Publish KPI Web Services Based on Account Schedules
 
 ## [Cost Accounting (FULL)](FullExperience/finance-manage-cost-accounting.md)
-### [Terminology in Cost Accounting](finance-terminology-in-cost-accounting.md)
-### [About Cost Accounting](finance-about-cost-accounting.md)
-### [Setting Up Cost Accounting](finance-set-up-cost-accounting.md)
-### [Transfering and Posting Cost Entries](finance-transfer-and-post-cost-entries.md)
-### [Defining and Allocating Costs](finance-define-and-allocate-costs.md)
-### [Creating Cost Budgets](finance-create-cost-budgets.md)
+### [Terminology in Cost Accounting](FullExperience/finance-terminology-in-cost-accounting.md)
+### [About Cost Accounting](FullExperience/finance-about-cost-accounting.md)
+### [Setting Up Cost Accounting](FullExperience/finance-set-up-cost-accounting.md)
+### [Transferring and Posting Cost Entries](FullExperience/finance-transfer-and-post-cost-entries.md)
+### [Defining and Allocating Costs](FullExperience/finance-define-and-allocate-costs.md)
+### [Creating Cost Budgets](FullExperience/finance-create-cost-budgets.md)
 
 ## Sales (FULL)
 ### How to: Work with Blanket Sales Orders

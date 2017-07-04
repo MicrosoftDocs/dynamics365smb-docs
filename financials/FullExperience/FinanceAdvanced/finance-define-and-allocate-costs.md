@@ -36,16 +36,16 @@ Cost allocations move costs and revenues between cost types, cost centers, and c
 
 |To|See|  
 |--------|---------|  
-|Set up allocation source and its targets.|[How to: Set Up Allocation Source and Targets](../how-to-set-up-allocation-source-and-targets.md)|  
-|Set up various filters for dynamic allocation bases.|[Setting Filters for Dynamic Allocation Bases](../setting-filters-for-dynamic-allocation-bases.md)|  
-|See an example of how to define a static allocation.|[Scenario Example: Defining Static Allocations Based on Allocation Ratio](../scenario-example-defining-static-allocations-based-on-allocation-ratio.md)|  
-|See an example of how to define a dynamic allocation.|[Scenario Example: Defining Dynamic Allocations Based on Items Sold](../scenario-example-defining-dynamic-allocations-based-on-items-sold.md)|  
-|Allocate costs.|Cost Allocation|  
-|See the results of cost allocations.|Cost Allocation<br /><br /> Cost Registers|  
-|Delete cost entries.|Delete Cost Entries|  
+|Set up allocation source and its targets.|[How to: Set Up Allocation Source and Targets](how-to-set-up-allocation-source-and-targets.md)|  
+|Set up various filters for dynamic allocation bases.|[Setting Filters for Dynamic Allocation Bases](setting-filters-for-dynamic-allocation-bases.md)|  
+|See an example of how to define a static allocation.|[Scenario Example: Defining Static Allocations Based on Allocation Ratio](scenario-example-defining-static-allocations-based-on-allocation-ratio.md)|  
+|See an example of how to define a dynamic allocation.|[Scenario Example: Defining Dynamic Allocations Based on Items Sold](scenario-example-defining-dynamic-allocations-based-on-items-sold.md)|  
+|Allocate costs.|**Cost Allocation** window|  
+|See the results of cost allocations.|**Cost Allocation** window <br /><br /> **Cost Registers** window|  
+|Delete cost entries.|**Delete Cost Entries** batch job|  
 
 ## See Also  
- [Set Up Cost Accounting]set-up-cost-accounting.md)   
+ [Set Up Cost Accounting](set-up-cost-accounting.md)   
  [Transfer and Post Cost Entries](transfer-and-post-cost-entries.md)   
  [Manage Cost Accounting](manage-cost-accounting.md)   
  [Terminology in Cost Accounting](terminology-in-cost-accounting.md)   

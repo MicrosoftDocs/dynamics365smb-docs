@@ -47,7 +47,7 @@ When product defects occur, the errors must be identified and affected items mus
 ## Prerequisites  
  To complete this walkthrough, you will need:  
   
--   The ADD INCLUDE<!--[!INCLUDE[demolong](../../includes/demolong_md.md)]--> company.  
+-   The [!INCLUDE[d365fin](includes/d365fin_md.md)] company.  
   
 -   To create new items and several business transactions by following the "Prepare Sample Data" section, later in this walkthrough.  
   

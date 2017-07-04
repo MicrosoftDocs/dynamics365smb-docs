@@ -72,7 +72,7 @@ You can set up synchronization between [!INCLUDE[d365fin](../../includes/d365fin
 
     -   Outlook Integration is installed.  
 
-    -   ADD INCLUDE<!--[!INCLUDE[demolong](../../includes/demolong_md.md)]--> is installed.  
+    -   [!INCLUDE[d365fin](includes/d365fin_md.md)] is installed.  
 
     -   Your name is added as a salesperson, with your name and email address defined exactly as they are in your Outlook profile.  
 

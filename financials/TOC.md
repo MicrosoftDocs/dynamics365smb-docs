@@ -216,6 +216,18 @@
 ### [Design Details: Item Tracking](design-details-item-tracking.md)
 ### [Design Details: General Journal Post Line](design-details-general-journal-post-line.md)
 
+# Local Functionality
+## [Australia](LocalFunctionality/Australia/australia-local-functionality.md)
+## [Canada](LocalFunctionality/Canada/canada-local-functionality.md)
+## [Denmark](LocalFunctionality/Denmark/denmark-local-functionality.md)
+## [France](LocalFunctionality/France/france-local-functionality.md)
+## [Germany](LocalFunctionality/Germany/germany-local-functionality.md)
+## [Italy](LocalFunctionality/Italy/italy-local-functionality.md)
+## [Netherlands](LocalFunctionality/Netherlands/netherlands-local-functionality.md)
+## [Spain](LocalFunctionality/Spain/spain-local-functionality.md)
+## [United Kingdom](LocalFunctionality/United Kingdom/united-kingdom-local-functionality.md)
+## [United States](LocalFunctionality/United States/united-states-local-functionality.md)
+
 # Full Experience
 ## Business Intelligence (FULL)
 ### [How to: Create Reports with XBRL](FullExperience/bi-create-reports-with-xbrl.md)
@@ -245,12 +257,3 @@
 ### How to: Fulfill Service Contracts
 ### How to: Handle Customer Inquiries
 ### How to: Deliver Service
-
-# Local Functionality (FULL)
-## [Australia](LocalFunctionality/Australia/australia-local-functionality.md)
-## [Denmark](LocalFunctionality/Denmark/denmark-local-functionality.md)
-## [France](LocalFunctionality/France/france-local-functionality.md)
-## [Germany](LocalFunctionality/Germany/germany-local-functionality.md)
-## [Italy](LocalFunctionality/Italy/italy-local-functionality.md)
-## [Netherlands](LocalFunctionality/Netherlands/netherlands-local-functionality.md)
-## [Spain](LocalFunctionality/Spain/spain-local-functionality.md)

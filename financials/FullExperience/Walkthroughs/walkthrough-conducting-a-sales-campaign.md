@@ -45,7 +45,7 @@ A campaign is any kind of activity that involves several contacts. An important 
 -   Marketing Staffer  
   
 ## Prerequisites  
- Before you can perform the tasks in the walkthrough, you must install the ADD INCLUDE<!--[!INCLUDE[demolong](../../includes/demolong_md.md)]-->.  
+ Before you can perform the tasks in the walkthrough, you must install the [!INCLUDE[d365fin](includes/d365fin_md.md)].  
   
 ## Story  
  The marketing manager in the Sales department of ADD INCLUDE<!--[!INCLUDE[demoname](../../includes/demoname_md.md)]--> is responsible for planning campaigns and for executing them. He also makes decisions about which trade shows to participate in and he evaluates campaign progress.  

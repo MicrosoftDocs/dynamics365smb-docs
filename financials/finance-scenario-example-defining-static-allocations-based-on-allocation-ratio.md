@@ -21,7 +21,7 @@ Static allocation method is based on a definite value, such as square meters use
  This topic describes how to define three new allocation target cost objects for the allocation source PROD cost center using the established allocation ratio 5:2:4. The three target cost objects are ACCESSO, PAINT, and FITTINGS.  
   
 > [!NOTE]  
->  The example uses the demo data in the ADD INCLUDE<!--[!INCLUDE[demolong](../../includes/demolong_md.md)]-->.  
+>  The example uses the demo data in the [!INCLUDE[d365fin](includes/d365fin_md.md)].  
   
 ### To define the allocation source PROD cost center on the General FastTab  
   
@@ -72,11 +72,10 @@ Static allocation method is based on a definite value, such as square meters use
 15. On the third line, in the **Share** field, enter the allocation ratio **4**.  
   
 > [!IMPORTANT]  
->  [!INCLUDE[d365fin](../../includes/d365fin_md.md)] automatically calculates the **Percent** field using a percentage rate that is dependent on all three allocation ratios that are entered in the **Share** field for all three lines.  
+>  [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically calculates the **Percent** field using a percentage rate that is dependent on all three allocation ratios that are entered in the **Share** field for all three lines.  
   
 ## See Also  
- [How to: Set Up Allocation Source and Targets](../how-to-set-up-allocation-source-and-targets.md)   
- Cost Allocation   
- [Define and Allocate Costs](../define-and-allocate-costs.md)   
- [Scenario Example: Defining Dynamic Allocations Based on Items Sold](../scenario-example-defining-dynamic-allocations-based-on-items-sold.md)   
- [Define and Allocate Costs](../define-and-allocate-costs.md)
+ [How to: Set Up Allocation Source and Targets](how-to-set-up-allocation-source-and-targets.md)   
+ [Define and Allocate Costs](define-and-allocate-costs.md)   
+ [Scenario Example: Defining Dynamic Allocations Based on Items Sold](scenario-example-defining-dynamic-allocations-based-on-items-sold.md)   
+ [Define and Allocate Costs](define-and-allocate-costs.md)

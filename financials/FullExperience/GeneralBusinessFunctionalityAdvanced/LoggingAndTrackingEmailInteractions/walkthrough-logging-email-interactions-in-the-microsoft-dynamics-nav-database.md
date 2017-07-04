@@ -47,7 +47,7 @@ In managing your relationships with contacts, it helps keep track of email corre
   
  To complete this walkthrough, you will need:  
   
--   ADD INCLUDE<!--[!INCLUDE[demolong](../../includes/demolong_md.md)]-->.  
+-   [!INCLUDE[d365fin](includes/d365fin_md.md)].  
   
 -   ADD INCLUDE<!--[!INCLUDE[nav_admin](../../includes/nav_admin_md.md)]-->.  
   

@@ -20,7 +20,7 @@ When a user creates a new database, that user is assigned only one permission se
   
  The BASIC permission set primarily functions as a prerequisite to open the client and show all pages.  
   
- The BASIC permission set and permissions, as well as other permission sets, are provided in an XML file, examples of which are included with the ADD INCLUDE<!--[!INCLUDE[demolong](../../includes/demolong_md.md)]-->. If you want to extend them with new permission sets or permissions, you can modify them.  
+ The BASIC permission set and permissions, as well as other permission sets, are provided in an XML file, examples of which are included with the [!INCLUDE[d365fin](includes/d365fin_md.md)]. If you want to extend them with new permission sets or permissions, you can modify them.  
   
 > [!NOTE]  
 >  Another prerequisite permission set is the FOUNDATION permission set.  

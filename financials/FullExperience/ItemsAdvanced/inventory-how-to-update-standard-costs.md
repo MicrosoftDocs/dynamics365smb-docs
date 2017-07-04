@@ -31,7 +31,7 @@ You must periodically update the standard costs of components and roll the new c
  After you understand the process, you can use the following summary of steps.  
   
 > [!NOTE]  
->  To preview changes that the following processes make to your data, it is recommended that you perform the steps in the ADD INCLUDE<!--[!INCLUDE[demolong](../../includes/demolong_md.md)]--> before working in the live company.  
+>  To preview changes that the following processes make to your data, it is recommended that you perform the steps in the [!INCLUDE[d365fin](includes/d365fin_md.md)] before working in the live company.  
   
 ### To update standard costs  
   

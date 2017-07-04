@@ -199,7 +199,7 @@
 ## [How to: Send Documents by Email](ui-how-send-documents-email.md)
 ## [Managing Report and Document Layouts](ui-manage-report-layouts.md)
 ## [Working with General Journals](ui-work-general-journals.md)
-## [Scheduling a Report to Run](ui-schedule-report.md)
+## [Working with Reports](ui-work-report.md)
 ## [How to: Manage Users and Permissions](ui-how-users-permissions.md)
 ## [Logging Changes in Financials](across-log-changes.md)
 ## [How to: Create Number Series](ui-create-number-series.md)

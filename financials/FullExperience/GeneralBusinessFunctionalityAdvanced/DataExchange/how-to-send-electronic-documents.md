@@ -16,11 +16,11 @@
 
 ---
 # How to: Send Electronic Documents
-The generic version of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/how-to-set-up-data-exchange-definitions.md).  
+The generic version of ADD INCLUDE<!--[!INCLUDE[dyn_nav](includes/how-to-set-up-data-exchange-definitions.md).  
   
- In the generic version of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/how-to-set-up-a-document-exchange-service.md).  
+ In the generic version of ADD INCLUDE<!--[!INCLUDE[dyn_nav](includes/how-to-set-up-a-document-exchange-service.md).  
   
- To send a sales invoice as an electronic PEPPOL document, you select the **Electronic Document** option in the **Post and Send** dialog box from where you can also set up the customer’s default document sending profile. First, you must set up various master data, such as company information, customers, items, and units of measure. These are used to identify the business partners and items when converting data in fields in ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/how-to-set-up-electronic-document-sending-and-receiving.md).  
+ To send a sales invoice as an electronic PEPPOL document, you select the **Electronic Document** option in the **Post and Send** dialog box from where you can also set up the customer’s default document sending profile. First, you must set up various master data, such as company information, customers, items, and units of measure. These are used to identify the business partners and items when converting data in fields in ADD INCLUDE<!--[!INCLUDE[dyn_nav](includes/how-to-set-up-electronic-document-sending-and-receiving.md).  
   
 ### To send an electronic sales invoice  
   

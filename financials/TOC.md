@@ -219,6 +219,8 @@
 ### [Design Details: Item Tracking](design-details-item-tracking.md)
 ### [Design Details: General Journal Post Line](design-details-general-journal-post-line.md)
 
+## [Business Process walkthroughs]()
+
 # Local Functionality
 ## [Australia](LocalFunctionality/Australia/australia-local-functionality.md)
 ## [Canada](LocalFunctionality/Canada/canada-local-functionality.md)

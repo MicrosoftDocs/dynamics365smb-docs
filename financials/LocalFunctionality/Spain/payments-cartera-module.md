@@ -35,7 +35,7 @@ The Payments Cartera module allows you to manage payables documents generated fr
   
  Use the Payments Cartera module to manage the following:  
   
--   Drafts of payment orders to vendors \(payment confirmation\)  
+-   Drafts of payment orders to vendors (payment confirmation)  
   
 -   Distinct payables documents  
   

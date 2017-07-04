@@ -18,9 +18,9 @@
 # How to: Disregard Payment Discounts
 Use the disregard payment discount at full payment feature to accept payments when the following conditions are true:  
   
--   Payment discount date \< payment date \<\= payment tolerance date  
+-   Payment discount date < payment date <= payment tolerance date  
   
--   Full amount \>\= payment amount \>\= full amount - payment discount  
+-   Full amount >= payment amount >= full amount - payment discount  
   
 ### To disregard a payment discount  
   

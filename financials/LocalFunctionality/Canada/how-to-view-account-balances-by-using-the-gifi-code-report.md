@@ -16,7 +16,7 @@
 
 ---
 # How to: View Account Balances by Using the GIFI Code Report
-You can review your account balances by General Index of Financial Information \(GIFI\) code using the **Account Balances by GIFI Code** report.  
+You can review your account balances by General Index of Financial Information (GIFI) code using the **Account Balances by GIFI Code** report.  
   
 ### To view account balances using the GIFI code report  
   
@@ -29,7 +29,7 @@ You can review your account balances by General Index of Financial Information \
     |**Balance As of Date**|The balance as of the specified date.|  
     |**Print Details**|Select to view the individual general ledger account balances that make up the total for each GIFI code balance.<br /><br /> **NOTE:** If you clear the **Print Details** check box, only the GIFI code balances will be reported.|  
   
-3.  On the **G\/L Account** FastTab, select the appropriate filters.  
+3.  On the **G/L Account** FastTab, select the appropriate filters.  
   
 4.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   

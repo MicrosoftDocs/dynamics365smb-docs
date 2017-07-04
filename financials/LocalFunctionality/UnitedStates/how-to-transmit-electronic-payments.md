@@ -24,7 +24,7 @@ After you have exported payment journal entries to a file using the Export Elect
   
 2.  On the **Navigate** FastTab, choose **Electronic Payments**, and then choose **Transmit** or **Void**.  
   
-3.  In the **Void\/Transmit Elec. Payments** window, on the **Options** FastTab, fill in the fields as described in the following table.  
+3.  In the **Void/Transmit Elec. Payments** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

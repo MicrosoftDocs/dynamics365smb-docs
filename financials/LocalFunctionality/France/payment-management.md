@@ -32,9 +32,9 @@
   
 -   ETEBAC – To create a bill of exchange remittance.  
   
--   Withdraw – To create a customer payment withdrawal \(direct debit\).  
+-   Withdraw – To create a customer payment withdrawal (direct debit).  
   
--   Transfer – To create a vendor payment transfer \(credit transfer\).  
+-   Transfer – To create a vendor payment transfer (credit transfer).  
   
 ## Managing Payment Slips and Files  
  You can create payment slips to manage customer payments and vendor payments. After creating the payment slip, you must post it.  

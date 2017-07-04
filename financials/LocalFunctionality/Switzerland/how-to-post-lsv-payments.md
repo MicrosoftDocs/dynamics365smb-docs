@@ -16,9 +16,9 @@
 
 ---
 # How to: Post LSV+ Payments
-You can post payments after you have received Lastschrift Verfahren \(LSV\+\) payment advice from the bank.  
+You can post payments after you have received Lastschrift Verfahren (LSV+) payment advice from the bank.  
   
-### To post LSV\+ payments  
+### To post LSV+ payments  
   
 1.  In the **Search** box, enter **Cash Receipt Journals**, and then choose the related link.  
   
@@ -43,7 +43,7 @@ You can post payments after you have received Lastschrift Verfahren \(LSV\+\) pa
 6.  On the **Home** tab, in the **Posting** group, choose **Post**.  
   
 ## See Also  
- [Swiss Electronic Payments Using LSV\+](swiss-electronic-payments-using-lsv-.md)   
+ [Swiss Electronic Payments Using LSV+](swiss-electronic-payments-using-lsv-.md)   
  [How to: Process an LSV Collection](how-to-process-an-lsv-collection.md)   
  [How to: Close an LSV Collection](how-to-close-an-lsv-collection.md)   
  [How to: Export Payments Using LSV](how-to-export-payments-using-lsv.md)   

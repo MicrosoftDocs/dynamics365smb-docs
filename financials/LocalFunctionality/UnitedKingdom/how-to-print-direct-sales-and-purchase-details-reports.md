@@ -30,7 +30,7 @@ The **Direct Sales Details** and **Direct Purchase Details** reports include hea
   
 1.  In the **Search** box, enter **Direct Sales Details** or **Direct Purchase Details**, and then choose the related link.  
   
-2.  On the **G\/L Entry** FastTab, select the appropriate filters.  
+2.  On the **G/L Entry** FastTab, select the appropriate filters.  
   
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   

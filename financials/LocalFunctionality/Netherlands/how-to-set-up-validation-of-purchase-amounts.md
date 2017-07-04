@@ -20,7 +20,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can activate the **Che
   
  If you have only one purchase line or several purchase lines with the same VAT percentage, the correct document amount VAT is calculated automatically when you insert the purchase lines and the document amount including VAT. If you have several purchase lines with different VAT percentages, the document amount VAT value must be changed manually.  
   
- You can also locate when the document total amounts and the total amounts of the inserted purchase lines are different. You can activate the **Show Totals on Purch. Inv.\/CM.** option to view the following in the inserted purchase lines:  
+ You can also locate when the document total amounts and the total amounts of the inserted purchase lines are different. You can activate the **Show Totals on Purch. Inv./CM.** option to view the following in the inserted purchase lines:  
   
 -   Total amount  
   
@@ -46,7 +46,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can activate the **Che
   
     |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
-    |**Show Totals on Purch. Inv.\/CM.**|Select to recalculate the totals on all purchase invoices and credit memos. This can take more time depending on the number of documents that must be recalculated.|  
+    |**Show Totals on Purch. Inv./CM.**|Select to recalculate the totals on all purchase invoices and credit memos. This can take more time depending on the number of documents that must be recalculated.|  
     |**Check Doc. Total Amounts**|Select to modify the **Doc. Amount Incl. VAT** and **Doc. Amount VAT** fields on the **Purchase Invoice** and **Purchase Credit Memo** windows.|  
   
 3.  Choose the **OK** button.  

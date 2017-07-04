@@ -32,7 +32,7 @@ You can import payroll transactions into a general journal from two external pay
     |**Import Department and Project**|Select to import department and project information.|  
     |**Journal Template Name**|Select the name of the journal template.|  
     |**Journal Name**|Select a journal to receive the imported payroll transactions.|  
-    |**Post to**|Select the account type to post the payroll transactions to. Account types include **G\/L Account** and **Bank Account**.|  
+    |**Post to**|Select the account type to post the payroll transactions to. Account types include **G/L Account** and **Bank Account**.|  
   
 3.  Choose the **OK** button.  
   

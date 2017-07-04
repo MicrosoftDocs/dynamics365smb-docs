@@ -34,7 +34,7 @@ After completing a physical inventory order and changing its status to **Finishe
   
 2.  Select the physical inventory order that you want to complete, and then, on the **Home** tab, choose **Edit**.  
   
-     In the **Phys. Inventory Order** window, you can view the quantity recorded after taking physical inventory in the **Qty. Recorded \(Base\)** field.  
+     In the **Phys. Inventory Order** window, you can view the quantity recorded after taking physical inventory in the **Qty. Recorded (Base)** field.  
   
 3.  On the **Home** tab, in the **Process** group, choose **Finish**.  
   
@@ -53,7 +53,7 @@ After completing a physical inventory order and changing its status to **Finishe
   
 3.  To view a list of related physical inventory recordings, on the **Navigate** tab, in the **Order** group, choose **Recordings**.  
   
-     You can also run a report that returns the difference between the expected quantity and the physical \(recorded\) quantity.  
+     You can also run a report that returns the difference between the expected quantity and the physical (recorded) quantity.  
   
 4.  Close the window.  
   

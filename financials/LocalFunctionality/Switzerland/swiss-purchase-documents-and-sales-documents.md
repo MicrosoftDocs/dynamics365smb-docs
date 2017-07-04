@@ -18,7 +18,7 @@
 # Swiss Purchase Documents and Sales Documents
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] ../../includes Swiss enhancements to purchase documents and sales documents. This ../../includes the following:  
   
--   Enhanced posting descriptions for general ledger entries, customer ledger entries, and vendor ledger entries. For more information, see the G\/L Entry table, the Cust. Ledger Entry table, and the Vendor Ledger Entry table.  
+-   Enhanced posting descriptions for general ledger entries, customer ledger entries, and vendor ledger entries. For more information, see the G/L Entry table, the Cust. Ledger Entry table, and the Vendor Ledger Entry table.  
   
 -   The ability to have subtitles, subtotals, and begin and end totals in sales quotes and sales orders.  
   
@@ -27,7 +27,7 @@
 -   The ability to turn off printing of additional shipment documents for purchase invoices and sales invoices.  
   
 ## Purchase Documents and Sales Documents  
- The posting descriptions posted to ledger entries for purchase orders and sales orders display the name of the vendors or customers, and the invoices or credit memo numbers. For example, **Inv. 103020\/ The Cannon Group PLC** is a posting description. This posting description displays a number that is relevant for financial transactions, which helps to analyze the transactions more easily.  
+ The posting descriptions posted to ledger entries for purchase orders and sales orders display the name of the vendors or customers, and the invoices or credit memo numbers. For example, **Inv. 103020/ The Cannon Group PLC** is a posting description. This posting description displays a number that is relevant for financial transactions, which helps to analyze the transactions more easily.  
   
 ### Sales Quotes and Sales Orders  
  When a sales quote or sales order is created, if the type of the sales quote line or sales order line is **Begin Total** or **End Total**, then the items listed on the lines are marked as physical items or as service items. The items then have subheadings for each item group, and a subtotal is created for each item group.  
@@ -47,7 +47,7 @@
  [How to: Import Swiss Post Codes](how-to-import-swiss-post-codes.md)   
  [How to: Print an Inventory Picking List from a Sales Order](how-to-print-an-inventory-picking-list-from-a-sales-order.md)   
  [How to: Print Sales and Purchase Orders During Batch Posting](how-to-print-sales-and-purchase-orders-during-batch-posting.md)   
- G\/L Entry   
+ G/L Entry   
  Cust. Ledger Entry   
  Vendor Ledger Entry   
  Sales Line   

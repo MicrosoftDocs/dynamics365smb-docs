@@ -16,7 +16,7 @@
 
 ---
 # How to: Export General Ledger Entries for Tax Audits
-The standard audit file for tax purposes records key business information \(transactions and ledger postings\) into a file in a specified common format for audit purposes. In France, you are required to provide the government with this information in a standard audit file beginning in January 2014. This applies to companies for both corporate tax and VAT audit purposes.  
+The standard audit file for tax purposes records key business information (transactions and ledger postings) into a file in a specified common format for audit purposes. In France, you are required to provide the government with this information in a standard audit file beginning in January 2014. This applies to companies for both corporate tax and VAT audit purposes.  
   
  In general, the report is designed to provide information on account types that include posted entries.  
   
@@ -27,17 +27,17 @@ The standard audit file for tax purposes records key business information \(tran
 > [!NOTE]  
 >  Opening balances are only included in the report for accounts that have a balance not equal to zero. You can identify opening balances by the following values in the fields:  
 >   
->  -   JournalCode \= 0  
-> -   JournalLib \= BALANCE OUVERTURE  
-> -   EcritureNum \= 0  
-> -   EcritureLib \= Accounts prefixed with BAL OUV  
-> -   ValidDate \= Start date specified on the report's request page  
+>  -   JournalCode = 0  
+> -   JournalLib = BALANCE OUVERTURE  
+> -   EcritureNum = 0  
+> -   EcritureLib = Accounts prefixed with BAL OUV  
+> -   ValidDate = Start date specified on the report's request page  
   
 ### To export general ledger entries to a text file for a tax audit  
   
-1.  In the **Search** box, enter **Export G\/L Entries – Tax Audit**, and then choose the relevant link.  
+1.  In the **Search** box, enter **Export G/L Entries – Tax Audit**, and then choose the relevant link.  
   
-2.  In the **Export G\/L Entries – Tax Audit** window, on the **Options** FastTab, fill in the fields as described in the following table.  
+2.  In the **Export G/L Entries – Tax Audit** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -49,7 +49,7 @@ The standard audit file for tax purposes records key business information \(tran
   
      When you create the report, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] sorts the information in the report by the **No.** and **Creation Date** fields in the general ledger register.  
   
-     The report will have the following name: \<taxpayername\>FEC\<YYYYMMDD\>  
+     The report will have the following name: <taxpayername>FEC<YYYYMMDD>  
   
 ## See Also  
  Export G-L Entries - Tax Audit   

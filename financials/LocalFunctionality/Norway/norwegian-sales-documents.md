@@ -18,12 +18,12 @@
 # Norwegian Sales Documents
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] supports two sets of sales documents. A document set consists of a sales invoice, sales credit memo, reminder, and finance charge memo.  
   
- Set 1 is based on international reports. You cannot print Norwegian giro or use paper sources\/trays in this set of reports.  
+ Set 1 is based on international reports. You cannot print Norwegian giro or use paper sources/trays in this set of reports.  
   
- Set 2 contains reports designed for use in Norway. These reports print Norwegian giro. When printing these reports, you can use paper sources\/trays specified in the **Printer Selections** table.  
+ Set 2 contains reports designed for use in Norway. These reports print Norwegian giro. When printing these reports, you can use paper sources/trays specified in the **Printer Selections** table.  
   
 ## Document Set 1  
- The first document set consists of standard reports that do not contain any settings specific to Norway. For example, giro transactions are not printed and paper sources\/trays cannot be processed.  
+ The first document set consists of standard reports that do not contain any settings specific to Norway. For example, giro transactions are not printed and paper sources/trays cannot be processed.  
   
  Document set 1 contains the following reports:  
   

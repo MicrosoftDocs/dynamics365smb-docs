@@ -23,35 +23,35 @@ To reconcile inventory and capacity ledger entries with the general ledger, the 
 
 |**Item ledger entry type**|**Value entry type**|**Variance type**|**Expected cost**|**Account**|**Balancing account**|  
 |--------------------------------|--------------------------|-----------------------|-----------------------|-----------------|---------------------------|  
-|Purchase|Direct Cost||Yes|Inventory  \(Interim\)|Invt. Accrual Acc. \(Interim\)|  
+|Purchase|Direct Cost||Yes|Inventory  (Interim)|Invt. Accrual Acc. (Interim)|  
 |Purchase|Direct Cost||No|Inventory|Direct Cost Applied|  
 |Purchase|Indirect Cost||No|Inventory|Overhead Applied|  
 |Purchase|Variance|Purchase|No|Inventory|Purchase Variance|  
 |Purchase|Revaluation||No|Inventory|Inventory Adjmt.|  
 |Purchase|Rounding||No|Inventory|Inventory Adjmt.|  
-|Sale|Direct Cost||Yes|Inventory  \(Interim\)|COGS \(Interim\)|  
+|Sale|Direct Cost||Yes|Inventory  (Interim)|COGS (Interim)|  
 |Sale|Direct Cost||No|Inventory|COGS|  
 |Sale|Revaluation||No|Inventory|Inventory Adjmt.|  
 |Sale|Rounding||No|Inventory|Inventory Adjmt.|  
 |Positive Adjmt.,Negative Adjmt., Transfer|Direct Cost||No|Inventory|Inventory Adjmt.|  
 |Positive Adjmt.,Negative Adjmt., Transfer|Revaluation||No|Inventory|Inventory Adjmt.|  
 |Positive Adjmt.,Negative Adjmt., Transfer|Rounding||No|Inventory|Inventory Adjmt.|  
-|\(Production\) Consumption|Direct Cost||No|Inventory|WIP|  
-|\(Production\) Consumption|Revaluation||No|Inventory|Inventory Adjmt.|  
-|\(Production\) Consumption|Rounding||No|Inventory|Inventory Adjmt.|  
+|(Production) Consumption|Direct Cost||No|Inventory|WIP|  
+|(Production) Consumption|Revaluation||No|Inventory|Inventory Adjmt.|  
+|(Production) Consumption|Rounding||No|Inventory|Inventory Adjmt.|  
 |Assembly Consumption|Direct Cost||No|Inventory|Inventory Adjmt.|  
 |Assembly Consumption|Direct Cost||No|Direct Cost Applied|Inventory Adjmt.|  
 |Assembly Consumption|Indirect Cost||No|Overhead Applied|Inventory Adjmt.|  
-|\(Production\) Output|Direct Cost||Yes|Inventory  \(Interim\)|WIP|  
-|\(Production\) Output|Direct Cost||No|Inventory|WIP|  
-|\(Production\) Output|Indirect Cost||No|Inventory|Overhead Applied|  
-|\(Production\) Output|Variance|Material|No|Inventory|Material Variance|  
-|\(Production\) Output|Variance|Capacity|No|Inventory|Capacity Variance|  
-|\(Production\) Output|Variance|Subcontracted|No|Inventory|Subcontracted Variance|  
-|\(Production\) Output|Variance|Capacity Overhead|No|Inventory|Cap. Overhead Variance|  
-|\(Production\) Output|Variance|Manufacturing Overhead|No|Inventory|Mfg. Overhead Variance|  
-|\(Production\) Output|Revaluation||No|Inventory|Inventory Adjmt.|  
-|\(Production\) Output|Rounding||No|Inventory|Inventory Adjmt.|  
+|(Production) Output|Direct Cost||Yes|Inventory  (Interim)|WIP|  
+|(Production) Output|Direct Cost||No|Inventory|WIP|  
+|(Production) Output|Indirect Cost||No|Inventory|Overhead Applied|  
+|(Production) Output|Variance|Material|No|Inventory|Material Variance|  
+|(Production) Output|Variance|Capacity|No|Inventory|Capacity Variance|  
+|(Production) Output|Variance|Subcontracted|No|Inventory|Subcontracted Variance|  
+|(Production) Output|Variance|Capacity Overhead|No|Inventory|Cap. Overhead Variance|  
+|(Production) Output|Variance|Manufacturing Overhead|No|Inventory|Mfg. Overhead Variance|  
+|(Production) Output|Revaluation||No|Inventory|Inventory Adjmt.|  
+|(Production) Output|Rounding||No|Inventory|Inventory Adjmt.|  
 |Assembly Output|Direct Cost||No|Inventory|Inventory Adjmt.|  
 |Assembly Output|Revaluation||No|Inventory|Inventory Adjmt.|  
 |Assembly Output|Indirect Cost||No|Inventory|Overhead Applied|  
@@ -68,31 +68,31 @@ To reconcile inventory and capacity ledger entries with the general ledger, the 
 |-------------------|------------------------------------|--------------------------|-----------------|---------------------------|  
 |Assembly|Resource|Direct Cost|Direct Cost Applied|Inventory Adjmt.|  
 |Assembly|Resource|Indirect Cost|Overhead Applied|Inventory Adjmt.|  
-|Production|Machine Center\/Work Center|Direct Cost|WIP Account|Direct Cost Applied|  
-|Production|Machine Center\/Work Center|Indirect Cost|WIP Account|Overhead Applied|  
+|Production|Machine Center/Work Center|Direct Cost|WIP Account|Direct Cost Applied|  
+|Production|Machine Center/Work Center|Indirect Cost|WIP Account|Overhead Applied|  
 
 ## Assembly Costs are Always Actual  
- As shown in the table above, assembly postings are not represented in interim accounts. This is because the concept of work in process \(WIP\) does not apply in assembly output posting, unlike in production output posting. Assembly costs are only posted as actual cost, never as expected cost.  
+ As shown in the table above, assembly postings are not represented in interim accounts. This is because the concept of work in process (WIP) does not apply in assembly output posting, unlike in production output posting. Assembly costs are only posted as actual cost, never as expected cost.  
 
  For more information, see [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md).  
 
 ## Calculating the Amount to Post to the General Ledger  
  The following fields in the **Value Entry** table are used to calculate the expected cost amount that is posted to the general ledger:  
 
--   Cost Amount \(Actual\)  
+-   Cost Amount (Actual)  
 
--   Cost Posted to G\/L  
+-   Cost Posted to G/L  
 
--   Cost Amount \(Expected\)  
+-   Cost Amount (Expected)  
 
--   Expected Cost Posted to G\/L  
+-   Expected Cost Posted to G/L  
 
  The following table shows how the amounts to post to the general ledger are calculated for the two different cost types.  
 
 |Cost type|Calculation|  
 |---------------|-----------------|  
-|Actual Cost|Cost Amount \(Actual\) – Cost Posted to G\/L|  
-|Expected Cost|Cost Amount \(Expected\) –  Expected Cost Posted to G\/L|  
+|Actual Cost|Cost Amount (Actual) – Cost Posted to G/L|  
+|Expected Cost|Cost Amount (Expected) –  Expected Cost Posted to G/L|  
 
 ## See Also  
  [Design Details: Inventory Costing](design-details-inventory-costing.md)   

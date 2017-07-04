@@ -16,11 +16,11 @@
 
 ---
 # Withholding Tax
-Withholding Tax \(WHT\) is tax withheld by a company when making a payment to a vendor, in which the full amount owed to that vendor is reduced by the tax withheld. The withheld tax is then remitted to the Australian Taxation Office \(ATO\) during the next Business Activity Statement \(BAS\) submission.  
+Withholding Tax (WHT) is tax withheld by a company when making a payment to a vendor, in which the full amount owed to that vendor is reduced by the tax withheld. The withheld tax is then remitted to the Australian Taxation Office (ATO) during the next Business Activity Statement (BAS) submission.  
   
  The Australian government requires taxes to be withheld from payment to vendors under the following circumstances:  
   
--   The vendor is a local supplier who has not supplied an Australian Business Number \(ABN\) before the payment is processed, and the individual transaction amount is greater than the specified threshold amount.  
+-   The vendor is a local supplier who has not supplied an Australian Business Number (ABN) before the payment is processed, and the individual transaction amount is greater than the specified threshold amount.  
   
 -   The vendor is a non-resident supplier and the payment is to be made to this non-resident entity in the form of interest, royalty, or dividend payments. Currently, there is no minimum threshold amount. Withholding rates may vary due to payment, or international tax treaties existing between Australia and the vendor's country.  
   
@@ -46,9 +46,9 @@ Withholding Tax \(WHT\) is tax withheld by a company when making a payment to a 
   
 -   **Realised WHT Type** – Select **Payment** to calculate only the withholding amount at the time of payment. The other options of **Invoice** and **Earliest** do not apply to Australia.  
   
--   **Payable WHT Account Code** – Enter the number of the G\/L account to which you want to post **Purchase WHT** for the particular combination of **WHT Business Posting Group** and **WHT Product Posting Group**.  
+-   **Payable WHT Account Code** – Enter the number of the G/L account to which you want to post **Purchase WHT** for the particular combination of **WHT Business Posting Group** and **WHT Product Posting Group**.  
   
--   **Purch. WHT Adjustment Account No.** – Select an account number for **Purchase CR\/Adj Note** adjustments.  
+-   **Purch. WHT Adjustment Account No.** – Select an account number for **Purchase CR/Adj Note** adjustments.  
   
 -   **Revenue Types** – Drill down to the **WHT Revenue Types** window. These values determine how the combination of **WHT Business Posting Group** and **WHT Product Posting Group** are displayed in reports. You must enter a value in order for this combination to appear in the WHT reports.  
   

@@ -53,22 +53,22 @@ The inventory act of receivables and payables feature enables you to prepare an 
     > [!NOTE]  
     >  You must not set filters.  
   
- Debts and liabilities for vendors and customers are calculated, and lines are created. For each customer and vendor, the total debt and the total liability amount \(taking posting groups into account\) on the inventory date are calculated, and shown in a separate line. The line fields are listed in the following table.  
+ Debts and liabilities for vendors and customers are calculated, and lines are created. For each customer and vendor, the total debt and the total liability amount (taking posting groups into account) on the inventory date are calculated, and shown in a separate line. The line fields are listed in the following table.  
   
 |Field|Description|  
 |-----------|-----------------|  
-|**Contractor Type**|This field displays the contractor type \(Customer, Vendor\).|  
+|**Contractor Type**|This field displays the contractor type (Customer, Vendor).|  
 |**Contractor No.**|This field displays the number corresponding to the contractor.|  
 |**Contractor Name**|This field displays the name of the contractor.|  
-|**Posting Group, G\/L Account No.**|This field displays the posting group and the receivables or payables account for which the debt or liability amount is calculated.|  
-|**Category**|This field displays the amount category \(Debts, Liabilities\).|  
+|**Posting Group, G/L Account No.**|This field displays the posting group and the receivables or payables account for which the debt or liability amount is calculated.|  
+|**Category**|This field displays the amount category (Debts, Liabilities).|  
 |**Total Amount**|This field displays the total amount of debts or liabilities.|  
 |**Confirmed Amount**|This field displays the total amount of debts or liabilities by default.|  
   
 ### Changing Separate Lines in an Inventory Act  
  The following procedure shows how to change individual lines in an inventory act.  
   
-1.  Specify whether the amount \(or part of the amount\) is one of the following:  
+1.  Specify whether the amount (or part of the amount) is one of the following:  
   
     -   Confirmed by contractor  
   
@@ -78,7 +78,7 @@ The inventory act of receivables and payables feature enables you to prepare an 
   
 2.  If the amount is not confirmed, enter the amount that is not confirmed in the **Not Confirmed Amount** field. If the amount is overdue, enter the overdue amount in the **Overdue Amount** field.  
   
-3.  To correct a line that has an incorrect amount \(for instance, if some documents are not posted, or not applied\), in the Inventory Account Card window, click **Functions**.  
+3.  To correct a line that has an incorrect amount (for instance, if some documents are not posted, or not applied), in the Inventory Account Card window, click **Functions**.  
   
 4.  Click **Add Lines**.  
   

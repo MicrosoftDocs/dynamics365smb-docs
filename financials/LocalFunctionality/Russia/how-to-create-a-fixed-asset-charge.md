@@ -33,7 +33,7 @@ The following procedure shows how to create a new fixed asset charge.
     |**Global Dimension 1 Code**|Specify the global dimension code that is associated with the fixed asset charge.|  
     |**Global Dimension 2 Code**|Specify the global dimension code that is associated with the fixed asset charge.|  
     |**Exclude Cost for TA**|Select if you want to exclude the fixed asset charge from tax accounting.|  
-    |**G\/L Acc. For Released FA**|Specify the general ledger account to post the fixed asset charge amount to when the fixed asset is released.|  
+    |**G/L Acc. For Released FA**|Specify the general ledger account to post the fixed asset charge amount to when the fixed asset is released.|  
     |**Tax Difference Code FA**|Specify the tax difference code that is associated with the fixed asset charge.|  
   
 ## See Also  

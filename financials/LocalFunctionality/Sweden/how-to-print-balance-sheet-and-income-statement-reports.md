@@ -22,7 +22,7 @@ You can print balance sheet reports and income statement reports to submit to ba
   
 1.  In the **Search** box, enter **Balance Sheet**, and then choose the related link.  
   
-2.  On the **G\/L Account** FastTab, select the appropriate filters.  
+2.  On the **G/L Account** FastTab, select the appropriate filters.  
   
 3.  On the **Options** FastTab, select **Show all Accounts** to include accounts without balances.  
   
@@ -32,7 +32,7 @@ You can print balance sheet reports and income statement reports to submit to ba
   
 1.  In the **Search** box, enter **Income Statement**, and then choose the related link.  
   
-2.  On the **G\/L Account** FastTab, select the appropriate filters.  
+2.  On the **G/L Account** FastTab, select the appropriate filters.  
   
 3.  On the **Options** FastTab, select **Show all Accounts** to include accounts without balances.  
   

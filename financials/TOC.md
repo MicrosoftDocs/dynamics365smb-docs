@@ -98,12 +98,12 @@
 ### [Creating Cost Budgets](finance-create-cost-budgets.md)
 ## [Managing Inventory Costs](finance-manage-inventory-costs)
 ### [About Inventory Costing](finance-learn-about-costing.md)
-###
+### [Setting Up Inventory Valuation and Costing](finance-set-up-inventory-valuation-and-costing.md)
 ### [How to: Revalue Inventory](inventory-how-revalue-inventory.md)
 ### [How to: Adjust Item Costs](inventory-how-adjust-item-costs.md)
 ### [How to: Handle Inventory and Manufacturing Costs](finance-handle-inventory-and-manufacturing-costs.md)
 ### [How to: Update Standard Costs](finance-how-to-update-standard-costs.md)
-### [How to: Analyze Inventory Reconciliation with the General Ledger](finance-report-costs-and-reconcile-with-the-general-ledger.md)
+### [Report Costs and Reconcile with the General Ledger](finance-report-costs-and-reconcile-with-the-general-ledger.md)
 ### [Design Details: Inventory Costing](design-details-inventory-costing.md)]
 ## [Accountant Experiences in Financials](finance-accounting.md)
 ### [Invite Your External Accountant to Your Financials](finance-invite-external-accountant.md)  

@@ -19,7 +19,7 @@
 You can define 13 accounting periods to calculate straight line depreciation. You must calculate depreciation daily and distribute across the relevant periods. You can also define these accounting periods in the **FA - Projected Value** report.  
   
 > [!NOTE]  
->  To calculate depreciation using both the old \(360 days\) and the new methods \(365 or 366 days\), create separate depreciation books; one for the old method, and one for the new method. Attach these books to the relevant assets.  
+>  To calculate depreciation using both the old (360 days) and the new methods (365 or 366 days), create separate depreciation books; one for the old method, and one for the new method. Attach these books to the relevant assets.  
   
 ### To define accounting periods to calculate straight line depreciation  
   
@@ -33,7 +33,7 @@ You can define 13 accounting periods to calculate straight line depreciation. Yo
     |---------------------------------|---------------------------------------|  
     |**Code**|Specify a unique code that identifies the depreciation book. You can enter a maximum of 10 alphanumeric characters.|  
     |**Description**|Specify a description for the depreciation book.|  
-    |**Use Accounting Period**|Specify if you want to define 13 accounting periods \(365 or 366 days\) for calculation. **Note:**  To use 360 days for calculation, do not select this field.|  
+    |**Use Accounting Period**|Specify if you want to define 13 accounting periods (365 or 366 days) for calculation. **Note:**  To use 360 days for calculation, do not select this field.|  
   
 4.  Enter information into the required fields.  
   

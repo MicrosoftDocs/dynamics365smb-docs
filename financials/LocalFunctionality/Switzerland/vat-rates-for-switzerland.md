@@ -22,4 +22,4 @@ If VAT rates change, you must use the VAT rate change tool. In earlier versions 
   
 ## See Also  
  [Swiss Value Added Tax](swiss-value-added-tax.md)   
- [How to: Print Swiss VAT Statements \(older version\)](how-to-print-swiss-vat-statements-older-version-.md)
+ [How to: Print Swiss VAT Statements (older version)](how-to-print-swiss-vat-statements-older-version-.md)

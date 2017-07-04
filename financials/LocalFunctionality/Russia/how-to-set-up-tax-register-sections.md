@@ -38,7 +38,7 @@ You can either create a new tax register section or select a tax register sectio
   
 4.  On the **Dimensions** FastTab, enter the dimension codes to filter the information selected for tax registers. Dimension codes can be changed only when the **Status** field of the tax register version has the value **Open**.  
   
-5.  On the **Balance** FastTab, enter the deadlines for debtor and creditor liabilities applied in accordance with the current taxation period. For example, Debit Balance Point 1 \= - 45D, Debit Balance Point 2 \= - 90D.  
+5.  On the **Balance** FastTab, enter the deadlines for debtor and creditor liabilities applied in accordance with the current taxation period. For example, Debit Balance Point 1 = - 45D, Debit Balance Point 2 = - 90D.  
   
 6.  On the **System** FastTab, select the actual norm code for the current tax register version in the **Norm Jurisdiction Code** field. Select the form number **17209** in the **Form ID** field.  
   
@@ -58,7 +58,7 @@ You can either create a new tax register section or select a tax register sectio
     |-----------|-----------------|  
     |**No.**|Enter the number of the tax register.|  
     |**Description**|Enter the name of the tax register.|  
-    |**Storing Method**|Select the tax register type.<br /><br /> You can choose one of the following options:<br /><br /> -   Calculation \(accumulating\)<br />-   Build entry \(creation on the basis of posted ledgers entries\)|  
+    |**Storing Method**|Select the tax register type.<br /><br /> You can choose one of the following options:<br /><br /> -   Calculation (accumulating)<br />-   Build entry (creation on the basis of posted ledgers entries)|  
     |**Table ID**|Select 17208 for the tax register with storing method calculation.<br /><br /> For the tax register with storing method build entry depending on the source entry of the register, select one of following: **17209**, **17210**, **17211**, **17212**, **17213**, **17214**.|  
   
  Mapping of the source entries of the register and Table IDs are listed in the following table.  

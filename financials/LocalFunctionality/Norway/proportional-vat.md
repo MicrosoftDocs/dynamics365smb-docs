@@ -23,13 +23,13 @@
   
  If you have a purchase invoice of $12,500 based on 25 percent VAT with the **Calc. Prop. Deduction VAT** field in the **VAT Posting Setup** window set to **Yes** and the **Proportional Deduction VAT %** field set to **60 percent**, only 60 percent of the VAT is deductible in a journal. When the invoice is posted, the postings are as follows:  
   
--   To vendor general ledger account - $12,500 \(credit\)  
+-   To vendor general ledger account - $12,500 (credit)  
   
--   To cost account 4010 - $11,000 \(debit\)  
+-   To cost account 4010 - $11,000 (debit)  
   
--   To VAT account 2720 - $1,500 \(debit\)  
+-   To VAT account 2720 - $1,500 (debit)  
   
- Generally, based on 25 percent VAT, the VAT amount would be $2,500. However, only 60 percent is deductible; therefore the VAT amount is $2,500 x 60% \= $1,500. The non-deductible amount of $1,000 is added to the cost account. The VAT base has corresponding values. This amount should have been $10,000, but because only 60 percent is deductible, the base is $6,000.  
+ Generally, based on 25 percent VAT, the VAT amount would be $2,500. However, only 60 percent is deductible; therefore the VAT amount is $2,500 x 60% = $1,500. The non-deductible amount of $1,000 is added to the cost account. The VAT base has corresponding values. This amount should have been $10,000, but because only 60 percent is deductible, the base is $6,000.  
   
  This also works if the transaction with this VAT combination is posted through a purchase order.  
   

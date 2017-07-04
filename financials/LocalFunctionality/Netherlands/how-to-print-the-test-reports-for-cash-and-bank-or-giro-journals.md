@@ -38,13 +38,13 @@ You can use the **CBG Posting - Test** report to edit the statement lines and se
   
 ### To print the test report for bank or giro journal  
   
-1.  In the **Search** box, enter **Bank\/Giro Journal**, and then select the related link  
+1.  In the **Search** box, enter **Bank/Giro Journal**, and then select the related link  
   
 2.  Expand **Financial Management**, and then click **General Ledger**.  
   
 3.  In the **General Journal Template List** window, click **OK**.  
   
-4.  In the **Bank\/Giro Journal** window, click **Actions**, point to **Posting**, and then click **Test Report**.  
+4.  In the **Bank/Giro Journal** window, click **Actions**, point to **Posting**, and then click **Test Report**.  
   
 5.  To include the information on applied entries for the statement lines, on the **ADD INCLUDE<!--[!INCLUDE[bp_optionsheading](includes/bp_optionsheading_md.md)]-->** FastTab, select the **Show Applied Entries** check box.  
   

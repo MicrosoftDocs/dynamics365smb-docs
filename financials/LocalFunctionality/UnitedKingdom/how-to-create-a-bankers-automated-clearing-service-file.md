@@ -16,7 +16,7 @@
 
 ---
 # How to: Create a Bankers&#39; Automated Clearing Service File
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use Bankers' Automated Clearing Service \(BACS\) to process financial transactions electronically. To use BACS as the default vendor payment method, you must set export vendor payments to a BACS file using the **Export BACS** option. The resulting file can then be read by third-party applications to allow electronic bank payments.  
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use Bankers' Automated Clearing Service (BACS) to process financial transactions electronically. To use BACS as the default vendor payment method, you must set export vendor payments to a BACS file using the **Export BACS** option. The resulting file can then be read by third-party applications to allow electronic bank payments.  
   
  You can keep track of BACS events, such as exporting and voiding, with the **BACS Ledger Entry** table. You can keep track of BACS transmissions using the **BACS Register** table.  
   

@@ -71,7 +71,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], VAT processing information
 ### Example: Restricting the Use of VAT Codes  
  The standard Norwegian **VAT Code 3** is used for sales inclusive of VAT. Unless you restrict the use of this VAT code, it can be used for both sales and purchases in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
   
- You can define the **Gen. Posting Type** field as a sale in the **G\/L Account \(Analysis View\)** table. This general posting type will be used together with **VAT Code 3**.  
+ You can define the **Gen. Posting Type** field as a sale in the **G/L Account (Analysis View)** table. This general posting type will be used together with **VAT Code 3**.  
   
  The general posting type will be handled in two ways, depending on the value in the **Test Gen. Posting Type** field.  
   

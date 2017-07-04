@@ -20,7 +20,7 @@
   
 ### To view account turnover information  
   
-1.  In the **Search** box, enter **G\/L Corresp. General Ledger**, and then choose the related link.  
+1.  In the **Search** box, enter **G/L Corresp. General Ledger**, and then choose the related link.  
   
 2.  On the **General** FastTab, enter the following information.  
   
@@ -30,11 +30,11 @@
     |**Business Unit Filter**|Select the business unit filter for which you want to view account information.|  
     |**Department Filter**|Select the department filter for which you want to view account information.|  
     |**Incexp Filter**|Select the income and expenses filter for which you want to view account information.|  
-    |**Switch Debit\/Credit**|Specifies if you want to show the debit and credit balance for the account.|  
+    |**Switch Debit/Credit**|Specifies if you want to show the debit and credit balance for the account.|  
   
 ### To print account turnover information  
   
-1.  In the **Search** box, enter **G\/L Corresp. General Ledger**, and then choose the related link.  
+1.  In the **Search** box, enter **G/L Corresp. General Ledger**, and then choose the related link.  
   
 2.  On the **Options** FastTab, enter the following information.  
   

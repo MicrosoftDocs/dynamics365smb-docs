@@ -32,7 +32,7 @@ Applying temporary general ledger entries allows companies to work with temporar
   
 ### To apply general ledger entries  
   
-1.  In the **Search**  box, enter **G\/L Registers**, and then choose the related link.  
+1.  In the **Search**  box, enter **G/L Registers**, and then choose the related link.  
   
 2.  Select a general ledger register, and then, on the **Home** tab, in the **Process** group, choose **General Ledger**.  
   
@@ -64,7 +64,7 @@ Applying temporary general ledger entries allows companies to work with temporar
   
 ### To view the applied general ledger entries  
   
-1.  In the **Search**  box, enter **G\/L Registers**, and then choose the related link.  
+1.  In the **Search**  box, enter **G/L Registers**, and then choose the related link.  
   
 2.  Select a general ledger register, and then, on the **Home** tab, in the **Process** group, choose **General Ledger**.  
   
@@ -76,7 +76,7 @@ Applying temporary general ledger entries allows companies to work with temporar
   
 ### To unapply general ledger entries  
   
-1.  In the **Search**  box, enter **G\/L Registers**, and then choose the related link.  
+1.  In the **Search**  box, enter **G/L Registers**, and then choose the related link.  
   
 2.  Select a general ledger register, and then, on the **Home** tab, in the **Process** group, choose **General Ledger**.  
   
@@ -90,6 +90,6 @@ Applying temporary general ledger entries allows companies to work with temporar
 4.  Choose the **OK** button.  
   
 ## See Also  
- G\/L Account   
- G\/L Entry   
+ G/L Account   
+ G/L Entry   
  General Ledger Entries

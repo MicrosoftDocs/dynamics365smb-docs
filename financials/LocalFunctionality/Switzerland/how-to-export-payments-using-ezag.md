@@ -16,7 +16,7 @@
 
 ---
 # How to: Export Payments Using EZAG
-You can generate a file for electronic payment using the Elektronischer Zahlungsauftrag \(EZAG\) method, and export it for the bank to use for the payments.  
+You can generate a file for electronic payment using the Elektronischer Zahlungsauftrag (EZAG) method, and export it for the bank to use for the payments.  
   
 ### To export payments using EZAG  
   

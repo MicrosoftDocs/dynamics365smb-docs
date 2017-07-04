@@ -18,9 +18,9 @@
 # How to: Set Up Accelerated Depreciation
 To use the accelerated depreciation calculation, you must set up the following depreciation books for fixed assets:  
   
--   The accounting depreciation book \(integrated with the general ledger\).  
+-   The accounting depreciation book (integrated with the general ledger).  
   
--   The tax depreciation book \(not integrated with the general ledger\).  
+-   The tax depreciation book (not integrated with the general ledger).  
   
 > [!NOTE]  
 >  When you post an acquisition, depreciation, or disposal for the accounting depreciation book, the transaction is duplicated and posted in the tax depreciation book when the fixed asset journal is posted.  

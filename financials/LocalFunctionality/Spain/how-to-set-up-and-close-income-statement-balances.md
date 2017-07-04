@@ -25,7 +25,7 @@ You can use income statement balancing accounts to balance and track several acc
   
 1.  In the **Search** box, enter **Chart of Accounts**, and then choose the related link.  
   
-2.  Select an existing general ledger account. On the **Home** tab, choose **Edit** to open the **G\/L Account Card** window.  
+2.  Select an existing general ledger account. On the **Home** tab, choose **Edit** to open the **G/L Account Card** window.  
   
 3.  Expand the **General** FastTab.  
   

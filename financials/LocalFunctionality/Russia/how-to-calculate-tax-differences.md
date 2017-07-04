@@ -28,7 +28,7 @@ Tax differences are variations in tax amounts caused by the different rules for 
     |---------------------------------|---------------------------------------|  
     |**Periodicity**|Select **Month**, **Quarter**, or **Year** to define the type of accounting period that is used for tax calculations.|  
     |**Accounting Period**|Select the appropriate accounting period that is used for tax calculations.|  
-    |**G\/L Entries**|Select to calculate tax difference registers based on financial transactions for the period.|  
+    |**G/L Entries**|Select to calculate tax difference registers based on financial transactions for the period.|  
     |**Item Entries**|Select to calculate tax difference registers based on item entries for the period.|  
     |**FA Entries**|Select to calculate tax difference registers based on fixed asset entries for the period.|  
     |**Templates**|Select to calculate tax difference registers based on data and standards for the tax difference registers counted for the period.|  

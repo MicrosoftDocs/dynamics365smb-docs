@@ -35,9 +35,9 @@ Account book reports display all the general ledger entries created in a specifi
     |**Closing Transaction Description**|Enter the description for the closing period transaction.|  
     |**Opening Transaction Description**|Enter the description for the opening period transaction.|  
     |**First Page**|Enter the number that you want to include on the first page of the report.|  
-    |**Show Amounts in Add. Currency**|Select to show the report amounts in additional reporting currency \(ACY\).|  
+    |**Show Amounts in Add. Currency**|Select to show the report amounts in additional reporting currency (ACY).|  
   
-3.  In the **G\\L Register** FastTab, select appropriate filters.  
+3.  In the **GL Register** FastTab, select appropriate filters.  
   
 4.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
@@ -52,7 +52,7 @@ Account book reports display all the general ledger entries created in a specifi
     |**From Date**|Enter the start date of the report.|  
     |**To Date**|Enter the end date of the report.|  
     |**Include Closing Entries**|Select to include the closing entries in the report.|  
-    |**Show Amounts in Add. Currency**|Select to show the report amounts in additional reporting currency \(ACY\).|  
+    |**Show Amounts in Add. Currency**|Select to show the report amounts in additional reporting currency (ACY).|  
     |**First page**|Enter the number that you want to include on the first page of the report.|  
     |**Account Type**|Select **Posting** or **Heading**. **Posting** implies that entries can be posted to the account, and **Heading** implies that entries cannot be posted to the account.|  
   

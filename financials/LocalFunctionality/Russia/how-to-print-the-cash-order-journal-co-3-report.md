@@ -16,7 +16,7 @@
 
 ---
 # How to: Print the Cash Order Journal CO-3 Report
-The **Cash Order Journal CO-3** report shows the unified standard printing form \(typically on a monthly basis\).  
+The **Cash Order Journal CO-3** report shows the unified standard printing form (typically on a monthly basis).  
   
  This report shows the register of posted ingoing and outgoing cash orders during a specified reporting period.  
   

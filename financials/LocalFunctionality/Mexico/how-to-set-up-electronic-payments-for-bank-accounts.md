@@ -18,7 +18,7 @@
 # How to: Set Up Electronic Payments for Bank Accounts
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can send electronic payments to vendors and electronic refunds to customers using the electronic payments function.  
   
- Electronic payments are exported in a standard United States or Canadian file format, and transmitted to the bank for processing. In the United States, this is done through the Automated Clearing House \(ACH\). In Canada, this is done through the Royal Bank.  
+ Electronic payments are exported in a standard United States or Canadian file format, and transmitted to the bank for processing. In the United States, this is done through the Automated Clearing House (ACH). In Canada, this is done through the Royal Bank.  
   
 ### To set up an electronic payment for a bank account  
   
@@ -30,16 +30,16 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can send electronic pa
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Export Format**|The country-specific file format for the export file. Choose the country\/region format that your bank uses.|  
+    |**Export Format**|The country-specific file format for the export file. Choose the country/region format that your bank uses.|  
     |**Payment Export Format**|The export file format when the format is not country-specific.<br /><br /> If this field is filled, then the **Export Format** field will be ignored. The payment file will be exported as set up in the **Payment Export Format** field. For more information, see [How to: Export Payments to a Bank File](how-to-export-payments-to-a-bank-file.md).|  
-    |**E-Pay Export File Path**|The full directory path, starting with the drive letter and ending with a back slash \(\\\). You can enter a maximum of 80 characters.|  
+    |**E-Pay Export File Path**|The full directory path, starting with the drive letter and ending with a back slash (). You can enter a maximum of 80 characters.|  
     |**Last E-Pay Export File Name**|The file name without the path information. The file name should contain digits. The name will be incremented every time that it is exported, maintaining a permanent record of every file that you export to the bank. You can enter a maximum of 30 characters.|  
     |**Transit No.**|The bank transit number.|  
     |**Bank Account No.**|The bank account number.|  
     |**Bank Branch No.**|The bank branch number.|  
   
     > [!NOTE]  
-    >  For Canadian export files, enter the information provided by the Royal Bank into the **Client No.**, **Client Name**, **Transit No.**, and **Input Qualifier** fields. For Mexican export files, enter the **SWIFT Code** \(international bank identifier code\) and the bank account's International Bank Account Number \(IBAN\) into the **SWIFT Code** and **IBAN** fields.  
+    >  For Canadian export files, enter the information provided by the Royal Bank into the **Client No.**, **Client Name**, **Transit No.**, and **Input Qualifier** fields. For Mexican export files, enter the **SWIFT Code** (international bank identifier code) and the bank account's International Bank Account Number (IBAN) into the **SWIFT Code** and **IBAN** fields.  
   
 4.  On the **Posting** FastTab, in the **Last Remittance Advice No.** field, enter the last remittance advice number.  
   

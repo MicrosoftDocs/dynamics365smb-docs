@@ -25,7 +25,7 @@ You can use the export remittance payments process to export the payments file t
   
 -   Payments using the SEPA payment standard are directly exported to a file when you choose the **Export Payments** button. For more information, see [How to: Export Payments to a Bank File](how-to-export-payments-to-a-bank-file.md).  
   
--   Payments using local payment standards, such as **Telepay**, are exported with either the **Remittance - export \(bank\)** or the **Remittance - export \(BBS\)** report, which automatically opens when you choose the **Export Payments** button.  
+-   Payments using local payment standards, such as **Telepay**, are exported with either the **Remittance - export (bank)** or the **Remittance - export (BBS)** report, which automatically opens when you choose the **Export Payments** button.  
   
  The procedure for exporting payments using the **Remittance – Export** batch job is described in this topic.  
   
@@ -55,8 +55,8 @@ You can use the export remittance payments process to export the payments file t
      The payment journal is deleted and the transactions are transferred to the waiting journal.  
   
 ## See Also  
- Remittance - export \(bank\)   
- Remittance - export \(BBS\)   
+ Remittance - export (bank)   
+ Remittance - export (BBS)   
  [Electronic Payments to Vendors in Norway](electronic-payments-to-vendors-in-norway.md)   
  [How to: Set Up Remittance Agreements](how-to-set-up-remittance-agreements.md)   
  [How to: Create Remittance Accounts](how-to-create-remittance-accounts.md)   

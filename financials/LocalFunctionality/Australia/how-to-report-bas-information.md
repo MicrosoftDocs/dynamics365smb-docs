@@ -16,7 +16,7 @@
 
 ---
 # How to: Report BAS Information
-You need to report the Business Activity Statement \(BAS\) calculation information for goods and services tax \(GST\). The **C** and **D** fields on the **Totals** FastTab in the **BAS Calculation Sheet** window are used for fuel tax credits.  
+You need to report the Business Activity Statement (BAS) calculation information for goods and services tax (GST). The **C** and **D** fields on the **Totals** FastTab in the **BAS Calculation Sheet** window are used for fuel tax credits.  
   
 ### To report BAS information and calculate the GST settlement  
   
@@ -26,7 +26,7 @@ You need to report the Business Activity Statement \(BAS\) calculation informati
   
 3.  In the **BAS Calculation Sheet** window, on the **Home** tab, in the **Process** group, choose **Import**.  
   
-4.  In the **BAS – Import\/Export** window, enter the BAS file name to import a sample XML file. The totals information will be updated. Choose the **OK** button.  
+4.  In the **BAS – Import/Export** window, enter the BAS file name to import a sample XML file. The totals information will be updated. Choose the **OK** button.  
   
 5.  In the **BAS Calculation Sheet** window, on the **Home** tab, in the **Process** group, choose **Update**.  
   
@@ -34,7 +34,7 @@ You need to report the Business Activity Statement \(BAS\) calculation informati
   
 7.  In the **BAS Calculation Sheet** window, on the **Home** tab, in the **Process** group, choose **Export**.  
   
-8.  In the **BAS – Import\/Export** window, select an XML file to export the data to, and then choose the **OK** button. The XML file is updated with the new information. If you use Electronic Commerce Interface \(ECI\) to update your taxes, the information in the XML file will be complete.  
+8.  In the **BAS – Import/Export** window, select an XML file to export the data to, and then choose the **OK** button. The XML file is updated with the new information. If you use Electronic Commerce Interface (ECI) to update your taxes, the information in the XML file will be complete.  
   
 9. In the **BAS Calculation Sheet** window, on the **Home** tab, in the **Process** group, choose **Calculate GST Settlement**.  
   

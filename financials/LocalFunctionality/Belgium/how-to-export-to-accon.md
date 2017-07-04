@@ -27,9 +27,9 @@ The **Link to Accon** report enables you to create a file that can be imported i
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Show Amounts in Add. Reporting Currency**|Select to print the amounts in the additional reporting currency.<br /><br /> If the check box is cleared, the amounts will be printed in local currency.|  
-    |**f\_1\_3 File Name**|Enter the full path of the file.|  
+    |**f_1_3 File Name**|Enter the full path of the file.|  
   
-3.  On the **G\/L Account** FastTab, enter the filter information.  
+3.  On the **G/L Account** FastTab, enter the filter information.  
   
 4.  Choose the **OK** button.  
   

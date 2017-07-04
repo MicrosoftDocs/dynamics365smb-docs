@@ -41,7 +41,7 @@ You can import the latest post code file and use it to update the **Post Code** 
 3.  In the **Customer Card** window, on the **General** FastTab, in the **Post Code** field, select the post code for the customer's address.  
   
     > [!NOTE]  
-    >  When you select the post code, the **City** and **Country\/Region Code** fields populate automatically with the information from the **Post Code** table. For more information, see [How to: Register New Customers](how-to-register-new-customers.md).  
+    >  When you select the post code, the **City** and **Country/Region Code** fields populate automatically with the information from the **Post Code** table. For more information, see [How to: Register New Customers](how-to-register-new-customers.md).  
   
 4.  Choose the **OK** button.  
   

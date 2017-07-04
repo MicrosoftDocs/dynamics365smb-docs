@@ -16,9 +16,9 @@
 
 ---
 # How to: Print Goods and Services Tax Sales and Purchase Reports
-You can create reports of goods and services tax \(GST\) for purchases and sales from the **BAS Calc. Schedule List** window. Goods and Services Tax \(GST\) is the tax applied on most goods and services bought and sold in Australia.  
+You can create reports of goods and services tax (GST) for purchases and sales from the **BAS Calc. Schedule List** window. Goods and Services Tax (GST) is the tax applied on most goods and services bought and sold in Australia.  
   
- You can use the GST sales report and GST purchase report to reconcile the sales and purchase amounts recorded in business activity statements \(BAS\). Companies must provide details for all sales and purchase transactions and GST calculations for the BAS period to the Australian Tax Office \(ATO\) during a BAS audit. These reports can also be used as internal audit documents to validate GST figures in BAS.  
+ You can use the GST sales report and GST purchase report to reconcile the sales and purchase amounts recorded in business activity statements (BAS). Companies must provide details for all sales and purchase transactions and GST calculations for the BAS period to the Australian Tax Office (ATO) during a BAS audit. These reports can also be used as internal audit documents to validate GST figures in BAS.  
   
 ### To print GST sales and purchase reports  
   

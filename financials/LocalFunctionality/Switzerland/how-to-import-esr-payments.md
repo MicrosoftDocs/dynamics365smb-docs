@@ -18,7 +18,7 @@
 # How to: Import ESR Payments
 After you receive payment from a customer, you receive a file that contains information about paid invoices. You can receive this file from your bank electronically, or by mail.  
   
- You can import the Einzahlungsschein mit Referenznummer \(ESR\) invoice data from the file, print the data by using the sales invoice ESR report or the sales ESR coupon report, and verify before posting. For more information, see [How to: Print ESR Invoices](how-to-print-esr-invoices.md).  
+ You can import the Einzahlungsschein mit Referenznummer (ESR) invoice data from the file, print the data by using the sales invoice ESR report or the sales ESR coupon report, and verify before posting. For more information, see [How to: Print ESR Invoices](how-to-print-esr-invoices.md).  
   
 ### To import ESR payments  
   

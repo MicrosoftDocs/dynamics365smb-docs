@@ -22,7 +22,7 @@ You can set up the general ledger to use the work date as the posting date for c
   
 1.  In the **Search** box, enter **General Ledger Setup**, and then choose the related link.  
   
-2.  On the **Application** FastTab, select the **Use Workdate for Appl.\/Unappl.** field.  
+2.  On the **Application** FastTab, select the **Use Workdate for Appl./Unappl.** field.  
   
 3.  Choose the **OK** button.  
   

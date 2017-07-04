@@ -22,7 +22,7 @@ The vendor and customer bill pay feature supports SEPA-based formats in addition
   
 -   IBAN  
   
--   SWIFT Code \(optional\)  
+-   SWIFT Code (optional)  
   
 -   Payment Export Format  
   
@@ -54,7 +54,7 @@ The vendor and customer bill pay feature supports SEPA-based formats in addition
   
 10. To export the payment information, on the **Home** tab, in the **Report** group, chose one of the following: **Export Bill List to File**. You can review the xml file that was sent.  
   
-    1.  Export to File \(for standard SEPA format files\)  
+    1.  Export to File (for standard SEPA format files)  
   
     2.  Export Bill List to File  
   

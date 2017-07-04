@@ -27,7 +27,7 @@ Before posting a purchase invoice or credit memo, the program checks if the 'amo
  Default the program will not show these total amounts, but you can switch it on by inserting a check mark in the field Show Totals on Purch. Inv.-CM. on the Purchases & Payables Setup window.  
   
 > [!NOTE]  
->  If you activate this field, totals on all purchase invoices and credit memos must be recalculated. This can be a time-consuming process depending on the number of documents that must be recalculated. You can not activate this field in case purchase invoices and\/or credit memos exist without any purchase lines or in case you have purchase invoices and\/or purchase credit memos with no quantity specified on the lines.  
+>  If you activate this field, totals on all purchase invoices and credit memos must be recalculated. This can be a time-consuming process depending on the number of documents that must be recalculated. You can not activate this field in case purchase invoices and/or credit memos exist without any purchase lines or in case you have purchase invoices and/or purchase credit memos with no quantity specified on the lines.  
   
 ## See Also  
  [How to: Set Up Validation of Purchase Amounts](how-to-set-up-validation-of-purchase-amounts.md)

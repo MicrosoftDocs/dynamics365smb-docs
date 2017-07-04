@@ -26,7 +26,7 @@ When you enter a new transaction in the general journal, you can view temporary 
   
 2.  Select the required general journal entry. On the **Home** tab, in the **Process** group, and choose **Balance**.  
   
-     In the **View – G\/L Account temp. Balance** window, on the **General** FastTab, you can view how general ledger account balances would be affected by posting the journal.  
+     In the **View – G/L Account temp. Balance** window, on the **General** FastTab, you can view how general ledger account balances would be affected by posting the journal.  
   
 3.  Choose the **Close** button.  
   

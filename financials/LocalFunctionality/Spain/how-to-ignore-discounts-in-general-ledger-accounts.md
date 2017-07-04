@@ -22,7 +22,7 @@ Some general ledger accounts do not accept payment discounts or invoice discount
   
 1.  In the **Search** box, enter **Chart of Accounts**, and then choose the related link.  
   
-2.  On the **Home** tab, choose **New** to open the **G\/L Account Card** window.  
+2.  On the **Home** tab, choose **New** to open the **G/L Account Card** window.  
   
 3.  Expand the **Posting** FastTab.  
   

@@ -37,7 +37,7 @@ You must sign an agreement of remittance with the bank when you set up electroni
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Operator No.**|Specify the operator information given by the bank.|  
-    |**Company\/Agreement No.**|Specify the company information given by the bank.|  
+    |**Company/Agreement No.**|Specify the company information given by the bank.|  
     |**Division**|Specify the division information given by the bank.|  
     |**Latest Sequence No.**|Specify the latest sequence number.|  
     |**Latest Daily Sequence No.**|Specify the latest daily sequence number.|  
@@ -47,7 +47,7 @@ You must sign an agreement of remittance with the bank when you set up electroni
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**BBS Customer Unit ID**|Specify the identification of the agreement for Bankernes Betalingssentral \(BBS\). This code is provided by BBS.|  
+    |**BBS Customer Unit ID**|Specify the identification of the agreement for Bankernes Betalingssentral (BBS). This code is provided by BBS.|  
     |**Latest BBS Payment Order No.**|Specify the entry number that was used when payment was sent to BBS.|  
   
 6.  On the **Send** FastTab, fill in the field as described in the following table.  

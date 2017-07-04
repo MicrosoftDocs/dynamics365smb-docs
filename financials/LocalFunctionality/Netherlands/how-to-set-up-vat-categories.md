@@ -32,10 +32,10 @@ To use the electronic VAT declaration, you must set up a VAT category code for a
     |---------------------------------|---------------------------------------|  
     |**Code**|The unique code for each category and subcategory combination. You can enter a maximum of 10 alphanumeric characters.|  
     |**Category**|Specify the main category option for the VAT statement.|  
-    |**By Us \(Domestic\)**|The subcategory for the VAT Statement.<br /><br /> Select a subcategory here if the **Category** field displays **By Us \(Domestic\)**.|  
-    |**To Us \(Domestic\)**|The subcategory for the VAT Statement.<br /><br /> Select a subcategory here if the **Category** field displays **To Us \(Domestic\)**.|  
-    |**By Us \(Foreign\)**|The subcategory for the VAT Statement.<br /><br /> Select a subcategory here if the **Category** field displays **By Us \(Foreign\)**.|  
-    |**To Us \(Foreign\)**|The subcategory for the VAT Statement.<br /><br /> Select a subcategory here if the **Category** field displays **To Us \(Foreign\)**.|  
+    |**By Us (Domestic)**|The subcategory for the VAT Statement.<br /><br /> Select a subcategory here if the **Category** field displays **By Us (Domestic)**.|  
+    |**To Us (Domestic)**|The subcategory for the VAT Statement.<br /><br /> Select a subcategory here if the **Category** field displays **To Us (Domestic)**.|  
+    |**By Us (Foreign)**|The subcategory for the VAT Statement.<br /><br /> Select a subcategory here if the **Category** field displays **By Us (Foreign)**.|  
+    |**To Us (Foreign)**|The subcategory for the VAT Statement.<br /><br /> Select a subcategory here if the **Category** field displays **To Us (Foreign)**.|  
     |**Calculation**|The subcategory for the VAT Statement.<br /><br /> Select a subcategory here if the **Category** field displays **Calculation**.|  
     |**Optional**|Select to indicate that the XML element that is represented by the category code is not required in the electronic VAT declaration.|  
   

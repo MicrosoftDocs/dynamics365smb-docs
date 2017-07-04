@@ -16,7 +16,7 @@
 
 ---
 # How to: Enter NACE Codes
-Nomenclature génerale des Activités économiques dans les Communautés Européennes \(NACE\) codes represent the statistical classification of economic activities within the European Union \(EU\).  
+Nomenclature génerale des Activités économiques dans les Communautés Européennes (NACE) codes represent the statistical classification of economic activities within the European Union (EU).  
   
  A NACE code serves as a basis to compile statistics for many things, including:  
   

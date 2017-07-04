@@ -20,9 +20,9 @@ After you have created a proposal and made any modifications, you can process th
   
  For exporting payment histories, the following protocols are supported:  
   
--   \($ B\_11000006 CLIEOP3 $\)  
+-   ($ B_11000006 CLIEOP3 $)  
   
--   \($ B\_11000007 BTL91 $\)  
+-   ($ B_11000007 BTL91 $)  
   
 -   BBV  
   

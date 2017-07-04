@@ -16,7 +16,7 @@
 
 ---
 # Swiss Electronic Payments Using ESR
-The Einzahlungsschein mit Referenznummer \(ESR\) electronic payment method is an electronic debtor service that allows the customer to bill open invoices in Swiss Francs \(CHF\) and Euros \(EUR\), and to post incoming payments efficiently. The reference number, or code line, contains all relevant bookkeeping data.  
+The Einzahlungsschein mit Referenznummer (ESR) electronic payment method is an electronic debtor service that allows the customer to bill open invoices in Swiss Francs (CHF) and Euros (EUR), and to post incoming payments efficiently. The reference number, or code line, contains all relevant bookkeeping data.  
   
  With ESR electronic payments, you can do the following:  
   
@@ -27,7 +27,7 @@ The Einzahlungsschein mit Referenznummer \(ESR\) electronic payment method is an
 -   Import the ESR files and create payment lines automatically for each payment. For more information, see [How to: Import ESR Payments](how-to-import-esr-payments.md).  
   
 > [!NOTE]  
->  Before you can use the ESR module, you must set up the bank, bank account, and file name. You must also specify whether ESR or ESR\+ should be used. For more information, see the ESR Setup table.  
+>  Before you can use the ESR module, you must set up the bank, bank account, and file name. You must also specify whether ESR or ESR+ should be used. For more information, see the ESR Setup table.  
   
  When you have evaluated the setup information, you can adjust the invoice form, and you can create a test series that you can ask your bank or postal service to validate.  
   
@@ -44,6 +44,6 @@ The Einzahlungsschein mit Referenznummer \(ESR\) electronic payment method is an
  [How to: Print ESR Invoices](how-to-print-esr-invoices.md)   
  [How to: Import ESR Payments](how-to-import-esr-payments.md)   
  [Swiss Electronic Payments Using DTA](swiss-electronic-payments-using-dta.md)   
- [Swiss Electronic Payments Using LSV\+](swiss-electronic-payments-using-lsv-.md)   
+ [Swiss Electronic Payments Using LSV+](swiss-electronic-payments-using-lsv-.md)   
  ESR Setup   
  No. Series

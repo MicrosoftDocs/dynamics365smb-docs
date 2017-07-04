@@ -43,7 +43,7 @@ You can make corrections to posted VAT entries without posting the correction in
     |Action|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
     |------------|---------------------------------------|  
     |**Detailed Report**|Opens the **VAT Statement** report. For more information, see VAT Statement.|  
-    |**Form\/Intervat Declaration**|Opens the **VAT –Form** report. For more information, see VAT - Form.<br /><br /> The **Form\/Intervat Declaration** report is based on the VAT Statement template that is defined in the general ledger setup. Therefore, it may export data that is not the same as what is shown in the **VAT Statement Preview** window.|  
+    |**Form/Intervat Declaration**|Opens the **VAT –Form** report. For more information, see VAT - Form.<br /><br /> The **Form/Intervat Declaration** report is based on the VAT Statement template that is defined in the general ledger setup. Therefore, it may export data that is not the same as what is shown in the **VAT Statement Preview** window.|  
     |**Declaration Summary Report**|Opens the **VAT Statement Summary** report. For more information, see VAT Statement Summary.|  
   
 ## See Also  

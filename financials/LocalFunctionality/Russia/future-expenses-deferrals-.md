@@ -16,7 +16,7 @@
 
 ---
 # Future Expenses (Deferrals)
-The future expenses \(deferrals\) feature enables you to:  
+The future expenses (deferrals) feature enables you to:  
   
 -   Post future expenses to the Future Expenses account.  
   

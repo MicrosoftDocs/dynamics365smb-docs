@@ -45,7 +45,7 @@
     |**Normal rate VAT %**|Select the current typical VAT rates used to assign the correct rates to the business and product groups defined in the VAT settings.|  
     |**Reduced rate VAT %**|Select the current reduced tax rates used to assign the correct rates to the business and product groups defined in the VAT settings.|  
     |**Special rate VAT %**|Select the current special tax rates used to assign the correct rates to the business and product groups defined in the VAT settings.|  
-    |**Investment\/Operating Purchase VAT G\/L Account**|Select the VAT general ledger account.|  
+    |**Investment/Operating Purchase VAT G/L Account**|Select the VAT general ledger account.|  
     |**Own Consumption Bus. Group**|Select the business and product group for own consumptions.|  
     |**Service Foreign Bus. Group**|Select the foreign service business and product group.|  
     |**Export Bus. Group**|Select the business and product group for exports.|  

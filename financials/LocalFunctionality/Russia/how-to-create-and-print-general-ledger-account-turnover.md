@@ -16,19 +16,19 @@
 
 ---
 # How to: Create and Print General Ledger Account Turnover
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] enables you to create general ledger account turnover information in the **G\/L Account Turnover** window.  
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] enables you to create general ledger account turnover information in the **G/L Account Turnover** window.  
   
  You can then verify this information in the following reports:  
   
--   **G\/L Account Turnover**  
+-   **G/L Account Turnover**  
   
--   **G\/L Account Card**  
+-   **G/L Account Card**  
   
--   **G\/L Account Entries Analysis**  
+-   **G/L Account Entries Analysis**  
   
 ### To create a general ledger account turnover entry  
   
-1.  In the **Search** box, enter **G\/L Account Turnover**, and then choose the related link.  
+1.  In the **Search** box, enter **G/L Account Turnover**, and then choose the related link.  
   
 2.  On the **General** FastTab, enter the following information.  
   
@@ -38,7 +38,7 @@
     |**Business Unit Filter**|Select the business unit filter for which you want to view account information.|  
     |**Department Filter**|Select the department filter for which you want to view account information.|  
     |**Incexp Filter**|Select the income and expenses filter for which you want to view account information.|  
-    |**Switch Debit\/Credit**|Specify if you want to show the debit and credit balance for the account.|  
+    |**Switch Debit/Credit**|Specify if you want to show the debit and credit balance for the account.|  
   
      On the **Source** FastTab, enter the following information.  
   
@@ -49,7 +49,7 @@
   
 ### To print the general ledger account turnover report  
   
-1.  In the **Search** box, enter **G\/L Account Turnover**, and then choose the related link.  
+1.  In the **Search** box, enter **G/L Account Turnover**, and then choose the related link.  
   
 2.  On the **Options** FastTab, enter the following information.  
   
@@ -63,7 +63,7 @@
   
 ### To print the general ledger account card report  
   
-1.  In the **Search** box, enter **G\/L Account Card**, and then choose the related link.  
+1.  In the **Search** box, enter **G/L Account Card**, and then choose the related link.  
   
 2.  On the **Options** FastTab, enter the following information.  
   
@@ -75,7 +75,7 @@
   
 ### To print the general ledger account entries analysis report  
   
-1.  In the **Search** box, enter **G\/L Account Entries Analysis**, and then choose the related link.  
+1.  In the **Search** box, enter **G/L Account Entries Analysis**, and then choose the related link.  
   
 2.  On the **Options** FastTab, enter the following information.  
   
@@ -87,7 +87,7 @@
     |**New Page for GL Acc**|Select if you want to print a new page for each general ledger account.|  
   
 ## See Also  
- G\/L Account   
+ G/L Account   
  G-L Account Turnover   
  G-L Account Card   
  G-L Account Entries Analysis

@@ -33,22 +33,22 @@ The general ledger correspondence feature enables you to:
   
  To set up automatic general ledger correspondence  
   
--   In **Financial Management**, click **Setup**, click **General Ledger Setup**, and select the **Automatic G\/L Correspondence** field.  
+-   In **Financial Management**, click **Setup**, click **General Ledger Setup**, and select the **Automatic G/L Correspondence** field.  
   
 ## Reports  
  The following reports have been added for the analysis of data from correspondence transactions:  
   
--   General Ledger Correspondence General Ledger \(form ID 12403; report ID 12431\)  
+-   General Ledger Correspondence General Ledger (form ID 12403; report ID 12431)  
   
--   General Ledger Correspondence Analysis \(form ID 12401\)  
+-   General Ledger Correspondence Analysis (form ID 12401)  
   
--   General Ledger Correspondence Journal Order \(report ID 12432\)  
+-   General Ledger Correspondence Journal Order (report ID 12432)  
   
--   General Ledger Correspondence Cross-Reference \(report ID 12433\)  
+-   General Ledger Correspondence Cross-Reference (report ID 12433)  
   
--   General Ledger Correspondence Cross-Reference \(A\) \(report ID 12434\)  
+-   General Ledger Correspondence Cross-Reference (A) (report ID 12434)  
   
--   General Ledger Correspondence Entries Analysis \(report ID 12435\)  
+-   General Ledger Correspondence Entries Analysis (report ID 12435)  
   
 ### General Ledger Correspondence General Ledger Form  
  The General Ledger Correspondence General Ledger form shows turnovers in the chosen period in correspondence.  
@@ -71,7 +71,7 @@ The general ledger correspondence feature enables you to:
   
  To print the form  
   
--   Click **General Ledger** from **Print**. On the **G\/L Account** tab of the request form, the filter is set by default from the active line in the **G\/L Correspondence General Ledger** form.  
+-   Click **General Ledger** from **Print**. On the **G/L Account** tab of the request form, the filter is set by default from the active line in the **G/L Correspondence General Ledger** form.  
   
  On the **Options** tab, you can set parameters by filling in the fields with the information listed in the following table.  
   
@@ -96,12 +96,12 @@ The general ledger correspondence feature enables you to:
 |**Starting Date**|Enter the starting date of the period, for the entries that you want to include in the report.|  
 |**Ending Date**|Enter the ending date of the period, for the entries that you want to include in the report.|  
   
-### General Ledger Correspondence Reference \(A\) Report  
+### General Ledger Correspondence Reference (A) Report  
  The General Ledger Correspondence Reference report shows all correspondence amounts.  
   
  To access the report  
   
--   In **Financial Management**, click **General Ledger**, click **Reports**, click **Correspondence**, and then click **Cross Reference \(A\).** The **Options** tab of the request form contains the same fields as the General Ledger Cross-Reference report.  
+-   In **Financial Management**, click **General Ledger**, click **Reports**, click **Correspondence**, and then click **Cross Reference (A).** The **Options** tab of the request form contains the same fields as the General Ledger Cross-Reference report.  
   
 ### General Ledger Correspondence Entries Analysis Report  
  The General Ledger Correspondence Entries Analysis report shows the correspondence entries for each account. The report can be used to get an overview of general ledger account entries with correspondence and totals.  

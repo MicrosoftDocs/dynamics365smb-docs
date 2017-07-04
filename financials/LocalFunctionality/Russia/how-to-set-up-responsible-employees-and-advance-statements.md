@@ -25,13 +25,13 @@ The **Advance Statement** report enables you to print and view information about
   
 1.  Responsible Employee card number  
   
-2.  Data of the responsible employee \(address, postal code or city, and telephone\)  
+2.  Data of the responsible employee (address, postal code or city, and telephone)  
   
-3.  Contacts \(telephone, e-mail address, Internet address\)  
+3.  Contacts (telephone, e-mail address, Internet address)  
   
-4.  General ledger entry postings of the responsible employee on the **Posting** tab \(**Gen. Bus. Posting Group**, **VAT Bus. Posting Group**, and **Vendor Posting Group**\)  
+4.  General ledger entry postings of the responsible employee on the **Posting** tab (**Gen. Bus. Posting Group**, **VAT Bus. Posting Group**, and **Vendor Posting Group**)  
   
-5.  Documents of the responsible employee \(unposted and posted advance statements\), which can be opened using the **Documents** button.  
+5.  Documents of the responsible employee (unposted and posted advance statements), which can be opened using the **Documents** button.  
   
  The following procedure shows how to access the **Resp. Employee Card** window.  
   
@@ -54,13 +54,13 @@ The **Advance Statement** report enables you to print and view information about
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**No.**|Specifies the value that is filled automatically from the **Employee Card** window, or is entered manually.|  
-    |**Name, \($ T\_23\_4 Name2 $\)**|Specifies the value that is filled automatically from similar fields in the **Employee Card** window or is entered manually.|  
-    |**Address, \($ T\_23\_6 Address 2 $\)**|Specifies the value that is filled automatically from similar fields in the **Employee Card** window or is entered manually.|  
+    |**Name, ($ T_23_4 Name2 $)**|Specifies the value that is filled automatically from similar fields in the **Employee Card** window or is entered manually.|  
+    |**Address, ($ T_23_6 Address 2 $)**|Specifies the value that is filled automatically from similar fields in the **Employee Card** window or is entered manually.|  
     |**Post Code**|Specifies the value that is filled automatically from similar fields in the **Employee Card** window or is entered manually.|  
-    |**Country\/Region Code**|Specifies the value that is filled automatically from similar fields in the **Employee Card** window or is entered manually.|  
+    |**Country/Region Code**|Specifies the value that is filled automatically from similar fields in the **Employee Card** window or is entered manually.|  
     |**Phone No.**|Specifies the value that is filled automatically from similar fields in the **Employee Card** window or is entered manually.|  
     |**Search Name**|Specifies the value of the **Name** field is entered from the displayed **Resp. Employee Card** window.|  
-    |**Communication \(E-Mail, Home Page\)**|Specifies the values that are filled automatically from similar fields in the **Employee Card** window or is entered manually.|  
+    |**Communication (E-Mail, Home Page)**|Specifies the values that are filled automatically from similar fields in the **Employee Card** window or is entered manually.|  
     |**Currency Code**|Specifies a blank by default.|  
     |**Gen. Bus. Posting Group**|Specifies the value of the **Adv. Stmt. Gen. Bus. Posting Gr** field from the Purchases and Payables setup on the **Advance Statement** tab.|  
     |**VAT Bus. Posting Group**|Specifies the value of the **Adv. Stmt. VAT Bus. Posting Gr** field from the Purchases and Payables setup on the **Advance Statement** tab.|  
@@ -75,7 +75,7 @@ The **Advance Statement** report enables you to print and view information about
   
 -   Posting date and document date  
   
--   Responsible employee data \(code and name\)  
+-   Responsible employee data (code and name)  
   
 -   Advance purpose and posting description  
   
@@ -85,13 +85,13 @@ The **Advance Statement** report enables you to print and view information about
   
 -   Currency code to register currency expenses  
   
--   Expense lines, which are registered according to the value selected in the **Type in Advance Statement lines** field – **G\/L Account**, **Item**, **Fixed Asset**, **Charge \(Item\)**, and **Employee Purchase** values  
+-   Expense lines, which are registered according to the value selected in the **Type in Advance Statement lines** field – **G/L Account**, **Item**, **Fixed Asset**, **Charge (Item)**, and **Employee Purchase** values  
   
  The following expense lines are registered according to the value selected in the **Type** field and **No.** or **Employee Purchase Vendor No.** fields, in the lines of Advance Statement:  
   
 -   To write off the expense:  
   
-    -   **Type** - G\/L Account  
+    -   **Type** - G/L Account  
   
     -   **No.** - General ledger account number  
   
@@ -109,11 +109,11 @@ The **Advance Statement** report enables you to print and view information about
   
 -   To account for additional charges for purchased items:  
   
-    -   **Type** - Charge \(Item\)  
+    -   **Type** - Charge (Item)  
   
     -   **No**. - Item charge code  
   
--   To register the primary documents received from the vendor \(in case primary documents have been received from the vendor for items, fixed assets, or expenses by responsible employee\):  
+-   To register the primary documents received from the vendor (in case primary documents have been received from the vendor for items, fixed assets, or expenses by responsible employee):  
   
     -   **Type** - Empl. Purchase  
   
@@ -147,13 +147,13 @@ The **Advance Statement** report enables you to print and view information about
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Type**|Select G\/L Account, Item, Fixed Asset, Charge \(Item\), Empl. Purchase depending on the type of expenses.|  
-    |**No.**|If Type \= **G\/L Account**:<br /><br /> In the **No.** field, select a general ledger account from the General Ledger Account List glossary.<br /><br /> If Type \= **Item**:<br /><br /> In the **No.** field, select an Item card from the Item List glossary.<br /><br /> If Type \= **Fixed Asset**:<br /><br /> In the **No.** field, select a Fixed Asset card from the Fixed Asset List glossary.<br /><br /> If Type \= **Charge \(Item\)**:<br /><br /> In the **No.** field, select an item charge from the Item Charges and Fixed Asset Charges glossary.|  
-    |**Empl. Purchase Vendor No.**|If Type \= **Empl. Purchase**:<br /><br /> In the **Empl. Purchase Vendor No.** field, select a Vendor card from the Vendor List glossary.|  
-    |**Empl. Purchase Entry No**|If Type \= **Empl. Purchase**:<br /><br /> In the **Empl. Purchase Entry No.** field, select a posted vendor entry from the vendor ledger entries. **Note:**  You must post an invoice from the vendor before registering in advance statement, in case a responsible employee receives primary documents \(invoice-facture for example\) from the vendor.|  
+    |**Type**|Select G/L Account, Item, Fixed Asset, Charge (Item), Empl. Purchase depending on the type of expenses.|  
+    |**No.**|If Type = **G/L Account**:<br /><br /> In the **No.** field, select a general ledger account from the General Ledger Account List glossary.<br /><br /> If Type = **Item**:<br /><br /> In the **No.** field, select an Item card from the Item List glossary.<br /><br /> If Type = **Fixed Asset**:<br /><br /> In the **No.** field, select a Fixed Asset card from the Fixed Asset List glossary.<br /><br /> If Type = **Charge (Item)**:<br /><br /> In the **No.** field, select an item charge from the Item Charges and Fixed Asset Charges glossary.|  
+    |**Empl. Purchase Vendor No.**|If Type = **Empl. Purchase**:<br /><br /> In the **Empl. Purchase Vendor No.** field, select a Vendor card from the Vendor List glossary.|  
+    |**Empl. Purchase Entry No**|If Type = **Empl. Purchase**:<br /><br /> In the **Empl. Purchase Entry No.** field, select a posted vendor entry from the vendor ledger entries. **Note:**  You must post an invoice from the vendor before registering in advance statement, in case a responsible employee receives primary documents (invoice-facture for example) from the vendor.|  
     |**Empl.Purchase Document No,**<br /><br /> **Empl. Purchase Document Date**|The fields are filled in manually. In the **Empl.Purchase Document No**. field, enter the number of the document that confirmed expenses in the current line.<br /><br /> In the **Empl. Purchase Document Date** field, enter the date of the document that confirmed expenses in the current line.|  
     |**Description**|Description of expenses in the current line. The **Description** field is filled in with the value of the **Name** or **Description** field from the selected card by default.|  
-    |**Quantity**<br /><br /> **Direct Cost Excl. VAT**|Quantity and cost of expenses \(items and fixed assets\). The fields are filled in with numeric values manually.|  
+    |**Quantity**<br /><br /> **Direct Cost Excl. VAT**|Quantity and cost of expenses (items and fixed assets). The fields are filled in with numeric values manually.|  
   
      The **Created Document Status** field reflects the current document status. To change the current document status from **Open** to **Released**.  
   
@@ -182,8 +182,8 @@ The **Advance Statement** report enables you to print and view information about
   
     |Parameter|Description|  
     |---------------|-----------------|  
-    |Accountant<br /><br /> \(Cashier\)|Select an employee code \(cashier\) from the Employee List table to fill in the corresponding fields in the statement.|  
-    |Accountant|Select an employee code \(accountant\) from the Employee List table to fill in the corresponding fields in the statement.|  
+    |Accountant<br /><br /> (Cashier)|Select an employee code (cashier) from the Employee List table to fill in the corresponding fields in the statement.|  
+    |Accountant|Select an employee code (accountant) from the Employee List table to fill in the corresponding fields in the statement.|  
   
 5.  Choose the **Print** button.  
   
@@ -218,8 +218,8 @@ The **Advance Statement** report enables you to print and view information about
   
     |Parameter|Description|  
     |---------------|-----------------|  
-    |Accountant \(Cashier\)|Select the employee code \(cashier\) from the Employee List table to fill in the corresponding fields in the report.|  
-    |Accountant|Select the employee code \(accountant\) from the Employee List table to fill in the corresponding fields in the report.|  
+    |Accountant (Cashier)|Select the employee code (cashier) from the Employee List table to fill in the corresponding fields in the report.|  
+    |Accountant|Select the employee code (accountant) from the Employee List table to fill in the corresponding fields in the report.|  
   
 5.  Choose the **Print** button.  
   

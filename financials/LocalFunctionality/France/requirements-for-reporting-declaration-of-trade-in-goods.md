@@ -16,7 +16,7 @@
 
 ---
 # Requirements for Reporting Declaration of Trade in Goods
-This topic shows a list of required fields that are needed for reporting Declaration of Trade in Goods \(DEB\) based on the DTI\+ format. For more information, see Export DEB DTI.  
+This topic shows a list of required fields that are needed for reporting Declaration of Trade in Goods (DEB) based on the DTI+ format. For more information, see Export DEB DTI.  
   
  The following fields are required for reporting DEB:  
   

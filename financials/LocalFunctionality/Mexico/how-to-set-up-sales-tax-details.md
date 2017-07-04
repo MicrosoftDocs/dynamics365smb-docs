@@ -34,9 +34,9 @@ The **Tax Details** window contains a matrix table that uses different combinati
     |**Tax Group Code**|The tax group code for the tax detail entry.|  
     |**Tax Type**|**Sales and Use Tax** – To apply both sales tax and use tax to the tax detail entry.<br /><br /> –or–<br /><br /> **Excise Tax** – To apply excise tax to the tax detail entry.<br /><br /> –or–<br /><br /> **Sales Tax Only** – To apply only sales tax to the tax detail entry.<br /><br /> –or–<br /><br /> **Use Tax Only** – To apply only use tax to the tax detail entry.|  
     |**Effective Date**|The date from which the tax detail entry is effective.|  
-    |**Tax Below Maximum**|The percentage that will be used to calculate tax for all amounts or quantities below the maximum amount\/quantity in the **Maximum Amount\/Qty** field.|  
-    |**Maximum Amount\/Qty**|The maximum amount or quantity.|  
-    |**Tax Above Maximum**|The percentage that will be used to calculate tax for all amounts or quantities above the maximum amount\/quantity in the **Maximum Amount\/Qty** field.|  
+    |**Tax Below Maximum**|The percentage that will be used to calculate tax for all amounts or quantities below the maximum amount/quantity in the **Maximum Amount/Qty** field.|  
+    |**Maximum Amount/Qty**|The maximum amount or quantity.|  
+    |**Tax Above Maximum**|The percentage that will be used to calculate tax for all amounts or quantities above the maximum amount/quantity in the **Maximum Amount/Qty** field.|  
   
 4.  Choose the **OK** button.  
   

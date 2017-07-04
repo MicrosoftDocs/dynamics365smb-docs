@@ -16,7 +16,7 @@
 
 ---
 # How to: Import and Export Data in Standard Import Export Format
-You can import and export general ledger data according to the standard import export \(SIE\) format. By specifying SIE dimensions and file types, you can specify the level of detail covered by import or export transactions. For more information, see [Standard Import Export Group](http://go.microsoft.com/fwlink/?LinkID=164870&clcid=0x41d).  
+You can import and export general ledger data according to the standard import export (SIE) format. By specifying SIE dimensions and file types, you can specify the level of detail covered by import or export transactions. For more information, see [Standard Import Export Group](http://go.microsoft.com/fwlink/?LinkID=164870&clcid=0x41d).  
   
 ### To import data in SIE format  
   
@@ -30,7 +30,7 @@ You can import and export general ledger data according to the standard import e
     |**Gen. Journal Template**|Select a general journal template.|  
     |**Gen. Journal Batch**|Select a general journal batch.|  
     |**Dimensions**|Select the SIE dimensions to import.|  
-    |**Insert G\/L Account**|Select if the general ledger account in the import file is missing in the chart of accounts and needs to be set up during the import process.|  
+    |**Insert G/L Account**|Select if the general ledger account in the import file is missing in the chart of accounts and needs to be set up during the import process.|  
     |**Use Number Series for Doc. No.**|Select if a document number is not provided in the import file.|  
   
 3.  Choose the **OK** button.  
@@ -39,7 +39,7 @@ You can import and export general ledger data according to the standard import e
   
 1.  In the **Search** box, enter **SIE Export**, and then choose the related link.  
   
-2.  On the **G\/L Account** FastTab, choose the appropriate filters.  
+2.  On the **G/L Account** FastTab, choose the appropriate filters.  
   
 3.  On the **Options** FastTab, fill in the fields as described in the following table.  
   

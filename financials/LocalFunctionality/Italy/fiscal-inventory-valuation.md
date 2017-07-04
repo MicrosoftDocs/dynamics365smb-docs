@@ -22,9 +22,9 @@ You must submit an annual report that shows the monetary value of inventory item
   
 -   Weighted average cost  
   
--   First in, First Out \(FIFO\) cost  
+-   First in, First Out (FIFO) cost  
   
--   Last in, First Out \(LIFO\) cost  
+-   Last in, First Out (LIFO) cost  
   
 -   Discrete LIFO cost  
   

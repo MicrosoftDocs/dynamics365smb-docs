@@ -24,7 +24,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use the following 
   
 -   Vendor 1099 Misc – Miscellaneous income  
   
- The Internal Revenue Service \(IRS\) requires one or more versions of the 1099 tax form for payments to vendors. Copies of these forms must be sent to vendors annually on or before the last day of January.  
+ The Internal Revenue Service (IRS) requires one or more versions of the 1099 tax form for payments to vendors. Copies of these forms must be sent to vendors annually on or before the last day of January.  
   
  The Vendor 1099 Information report allows you to review 1099 transactions paid during a specified period. At the end of the year, you can print 1099s on preprinted forms.  
   

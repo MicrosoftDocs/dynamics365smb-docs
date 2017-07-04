@@ -29,7 +29,7 @@ You can post bank reconciliation if you have reconciled the bank accounts in the
     > [!NOTE]  
     >  On the **General** FastTab, the **Difference** field be must be zero before you can post the bank reconciliation.  
   
-     When the bank reconciliation is posted, all of the related files are posted to the historical **Post Bank Rec. Worksheet** table. Any adjustments are posted to the **G\/L Entry** table.  
+     When the bank reconciliation is posted, all of the related files are posted to the historical **Post Bank Rec. Worksheet** table. Any adjustments are posted to the **G/L Entry** table.  
   
 3.  On the **Actions** tab, in the **Posting** group, choose **Post**.  
   
@@ -50,7 +50,7 @@ You can post bank reconciliation if you have reconciled the bank accounts in the
  [How to: Reconcile Bank Accounts by Using Bank Statements](how-to-reconcile-bank-accounts-by-using-bank-statements.md)   
  Bank Account Card   
  Bank Account   
- G\/L Entry   
+ G/L Entry   
  Bank Rec.Worksheet   
  Bank Rec. Test Report   
  Posted Bank Rec. Header

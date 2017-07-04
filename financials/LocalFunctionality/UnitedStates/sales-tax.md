@@ -25,4 +25,4 @@ You can set up [!INCLUDE[d365fin](../../includes/d365fin_md.md)] to calculate sa
 |Set up sales tax jurisdictions that are used to identify tax authorities. Each tax area is a grouping of sales tax jurisdictions that are based on a particular geographic location.|[How to: Set Up Sales Tax Jurisdictions](how-to-set-up-sales-tax-jurisdictions.md)|  
 |Set up a matrix table that uses different combinations of sales tax jurisdictions and sales tax groups to establish sales tax rates.|[How to: Set Up Sales Tax Details](how-to-set-up-sales-tax-details.md)|  
 |Set up unrealized sales tax and maximum correction tax amounts so that you can limit the tax correction amounts that are entered for sales and purchases.|[How to: Set Up Unrealized Sales Tax and Sales Payment Discounts](how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)|  
-|Set up use tax \(United States\) and purchase tax \(Canada\).|[How to: Set Up Use Tax and Purchase Tax](how-to-set-up-use-tax-and-purchase-tax.md)|
+|Set up use tax (United States) and purchase tax (Canada).|[How to: Set Up Use Tax and Purchase Tax](how-to-set-up-use-tax-and-purchase-tax.md)|

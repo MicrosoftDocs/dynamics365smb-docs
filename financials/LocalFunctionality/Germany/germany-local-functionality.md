@@ -21,7 +21,7 @@ The following topics describe the local functionality in the German version of [
 ## In This Section  
  [What's New 3](what-s-new-3.md)  
   [Enhanced Document Management](enhanced-document-management.md)  
-  [Process for Data Access and Testability of Digital Documents \(GDPdU\)](process-for-data-access-and-testability-of-digital-documents-gdpdu-.md)  
+  [Process for Data Access and Testability of Digital Documents (GDPdU)](process-for-data-access-and-testability-of-digital-documents-gdpdu-.md)  
   [Physical Inventory Documents](physical-inventory-documents.md)  
   [VAT Reporting](vat-reporting.md)  
   [VAT-VIES Reporting](vat-vies-reporting.md)  

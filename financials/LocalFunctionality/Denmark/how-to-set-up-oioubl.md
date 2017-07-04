@@ -16,7 +16,7 @@
 
 ---
 # How to: Set Up OIOUBL
-You must define a location for storing Offentlig Information Online UBL \(OIOUBL\) files when you create electronic documents such as invoices or credit memos. You must also define payment methods, payment terms, and item charges, and you must set up relevant customers for OIOUBL.  
+You must define a location for storing Offentlig Information Online UBL (OIOUBL) files when you create electronic documents such as invoices or credit memos. You must also define payment methods, payment terms, and item charges, and you must set up relevant customers for OIOUBL.  
   
 ### To set up OIOUBL file locations for sales and receivables  
   
@@ -72,10 +72,10 @@ You must define a location for storing Offentlig Information Online UBL \(OIOUBL
   
     |ADD INCLUDE<!--[!INCLUDE[bp_optionsheading](includes/bp_tabledescription_md.md)]-->|  
     |-------------------------------------|---------------------------------------|  
-    |**Payment Slip**|The payment is made by using a payment slip, such as giro or an FI card \(Fællesindbetalingskort\). **Important:**  This payment channel is not supported in the standard version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].|  
+    |**Payment Slip**|The payment is made by using a payment slip, such as giro or an FI card (Fællesindbetalingskort). **Important:**  This payment channel is not supported in the standard version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].|  
     |**Account Transfer**|The payment is made by transfer from the customer’s bank account.|  
     |**National Clearing**|The payment is made by transfer from the customer’s bank account and is processed by a clearing house.|  
-    |**Direct Debit**|The payment is made by using the unified bank payment service \(PBS\).|  
+    |**Direct Debit**|The payment is made by using the unified bank payment service (PBS).|  
   
 3.  In the **Search** box, enter **Payment Terms**, and then choose the related link.  
   
@@ -89,7 +89,7 @@ You must define a location for storing Offentlig Information Online UBL \(OIOUBL
   
 2.  In the **Item Charges** window, for each item charge, in the **Charge Category** field, select a category. For more information, see Charge Category.  
   
- You must also make sure that the OIOUBL Country-Region Code field is filled in for Denmark in the **Countries\/Regions** window.  
+ You must also make sure that the OIOUBL Country-Region Code field is filled in for Denmark in the **Countries/Regions** window.  
   
  Finally, you must specify EAN numbers and account codes for the relevant customers. For more information, see [How to: Set Up Customers for OIOUBL](how-to-set-up-customers-for-oioubl.md).  
   
@@ -99,5 +99,5 @@ You must define a location for storing Offentlig Information Online UBL \(OIOUBL
  Payment Methods   
  Sales & Receivables Setup   
  Service Mgt. Setup   
- Countries\/Regions   
+ Countries/Regions   
  Item Charges

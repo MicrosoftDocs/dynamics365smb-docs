@@ -30,7 +30,7 @@ Use the following procedure to enter custom declaration information.
     |**Description**|Specifies the description of the custom declaration number.|  
     |**Source Type**|Select the source type for the custom declaration. Source types include **Blank**, **Customer**, **Vendor**, and **Item**.|  
     |**Source No.**|Specifies the source number from one of the following tables:<br /><br /> -   **Customer**<br />-   **Vendor**<br />-   **Item List**|  
-    |**Country of Origin Code**|Specifies the country\/region for the customer if all the items in the custom declarations have come from the same country\/region. Information from this field is copied to the custom declaration lines.|  
+    |**Country of Origin Code**|Specifies the country/region for the customer if all the items in the custom declarations have come from the same country/region. Information from this field is copied to the custom declaration lines.|  
     |**Declaration Date**|Enter the date of the custom declaration.|  
   
 3.  Choose the **OK** button.  

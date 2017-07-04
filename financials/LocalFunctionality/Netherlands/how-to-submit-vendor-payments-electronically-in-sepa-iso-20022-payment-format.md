@@ -16,7 +16,7 @@
 
 ---
 # How to: Submit Vendor Payments Electronically in SEPA ISO 20022 Payment Format
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can create and submit Single Euro Payments Area \(SEPA\) ISO 20022 vendor payments electronically.  
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can create and submit Single Euro Payments Area (SEPA) ISO 20022 vendor payments electronically.  
   
  Before you can create and submit SEPA vendor payments, you must enable SEPA payments. For more information, see [How to: Activate SEPA Payments](how-to-activate-sepa-payments.md).  
   
@@ -50,6 +50,6 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can create and submit 
   
 ## See Also  
  [How to: Activate SEPA Payments](how-to-activate-sepa-payments.md)   
- [Single EURO Payments Area \(SEPA\)](single-euro-payments-area-sepa-.md)   
+ [Single EURO Payments Area (SEPA)](single-euro-payments-area-sepa-.md)   
  Telebank - Bank Overview Window   
  Telebank Proposal Window

@@ -16,7 +16,7 @@
 
 ---
 # Electronic Funds Transfer (EFT)
-You can pay vendors using the electronic funds transfer \(EFT\) system in Australia.  
+You can pay vendors using the electronic funds transfer (EFT) system in Australia.  
   
 ## Setting up Electronic Funds Transfer in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]  
  [!INCLUDE[d365fin](../../includes/d365fin_md.md)] can export EFT files that you can then upload to your bank’s website for additional processing. To submit EFT files, you must set up the following information:  

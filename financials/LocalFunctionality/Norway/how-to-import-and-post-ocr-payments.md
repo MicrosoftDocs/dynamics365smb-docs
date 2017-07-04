@@ -16,7 +16,7 @@
 
 ---
 # How to: Import and Post OCR Payments
-Before you can receive optical character recognition \(OCR\) payments, you must make the following preparations:  
+Before you can receive optical character recognition (OCR) payments, you must make the following preparations:  
   
 -   Set up a cash receipt journal template to balance OCR transactions according to the document number, instead of the document type.  
   

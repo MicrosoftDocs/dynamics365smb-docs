@@ -32,7 +32,7 @@ You can calculate finance charges with multiple interest rates for a specific pe
     |---------------------------------|---------------------------------------|  
     |**Start Date**|Enter the start date for each finance charge interest rate code.|  
     |**Interest Rate**|Enter the percentage that must be used to calculate interest.|  
-    |**Interest Period \(Days\)**|Enter the period for each finance charge interest rate.|  
+    |**Interest Period (Days)**|Enter the period for each finance charge interest rate.|  
   
 4.  Choose the **OK** button.  
   

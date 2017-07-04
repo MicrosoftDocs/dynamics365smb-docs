@@ -16,10 +16,10 @@
 
 ---
 # How to: Print Goods and Service Tax Settlement Reports
-You must submit a periodic report of goods and services tax \(GST\) settlement. You can create this settlement from the **BAS Calc. Schedule List** window.  
+You must submit a periodic report of goods and services tax (GST) settlement. You can create this settlement from the **BAS Calc. Schedule List** window.  
   
 > [!IMPORTANT]  
->  Before you calculate the GST settlement, you must export the business activity statement \(BAS\). For more information, see [How to: Export Business Activity Statements](how-to-export-business-activity-statements.md).  
+>  Before you calculate the GST settlement, you must export the business activity statement (BAS). For more information, see [How to: Export Business Activity Statements](how-to-export-business-activity-statements.md).  
   
 ### To print a goods and service tax settlement  
   
@@ -33,7 +33,7 @@ You must submit a periodic report of goods and services tax \(GST\) settlement. 
     |---------------------------------|---------------------------------------|  
     |**Settlement Account Type**|The settlement account type.|  
     |**Settlement Account No.**|The general ledger account number or vendor number, based on the type selected in the **Settlement Account Type** field.|  
-    |**Rounding G\/L Account No.**|The account to which the truncated cents will be posted.|  
+    |**Rounding G/L Account No.**|The account to which the truncated cents will be posted.|  
     |**Posting Date**|The posting date for the settlement entries.|  
     |**Document No.**|The document number of the settlement entries.|  
     |**Description**|The settlement description.|  

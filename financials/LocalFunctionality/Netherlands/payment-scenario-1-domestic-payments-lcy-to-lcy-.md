@@ -20,9 +20,9 @@ You can use telebanking for trade with domestic and foreign customers and vendor
   
  The following list describes the main steps:  
   
-1.  Create Vendor\/Customer.  
+1.  Create Vendor/Customer.  
   
-2.  Create Vendor\/Customer Bank Account.  
+2.  Create Vendor/Customer Bank Account.  
   
 3.  Create and Post Purchase Invoice for Vendor or Sales Invoice for Customer.  
   
@@ -35,50 +35,50 @@ You can use telebanking for trade with domestic and foreign customers and vendor
 7.  Import Bank Statement.  
   
 > [!NOTE]  
->  In the examples below some standard CRONUS data is being used. Likewise instead of creating a vendor\/customer and a vendor\/customer bank account you could use existing data.  
+>  In the examples below some standard CRONUS data is being used. Likewise instead of creating a vendor/customer and a vendor/customer bank account you could use existing data.  
   
-## Create Vendor\/Customer  
- Create vendor\/customer and enter all necessary information. Special attention should be paid to:  
+## Create Vendor/Customer  
+ Create vendor/customer and enter all necessary information. Special attention should be paid to:  
   
--   **Currency Code**: leave empty - i.e. it is set to the local currency \(LCY\).  
+-   **Currency Code**: leave empty - i.e. it is set to the local currency (LCY).  
   
 -   **Transaction Mode**: select an appropriate, default transaction mode - i.e. one that can deal with local currency payments for your bank.  
   
--   **Preferred Bank Account**: select an appropriate, default vendor\/customer bank account having the same Currency Code as the vendor\/customer itself.  
+-   **Preferred Bank Account**: select an appropriate, default vendor/customer bank account having the same Currency Code as the vendor/customer itself.  
   
 > [!NOTE]  
->  In order to be able to enter a bank account in the **Bank Account** vendor\/customer bank accounts must be available. See below.  
+>  In order to be able to enter a bank account in the **Bank Account** vendor/customer bank accounts must be available. See below.  
   
 ### Example  
- Olek Johansson \(code *OLEK*\) is one of our local vendors. Purchase invoices will be paid through our national bank account \(code *ABN*\) to his bank account \(code *OJBA*\). Both bank account ABN and OJBA are denominated in local currency \(LCY\). Therefore on Olek Johansson's Vendor Card we leave the *Currency Code* field empty, fill the *Transaction Mode* field with *ABN* that is linked to our bank account *ABN* and set the *Bank Account* field to *OJBA*.  
+ Olek Johansson (code *OLEK*) is one of our local vendors. Purchase invoices will be paid through our national bank account (code *ABN*) to his bank account (code *OJBA*). Both bank account ABN and OJBA are denominated in local currency (LCY). Therefore on Olek Johansson's Vendor Card we leave the *Currency Code* field empty, fill the *Transaction Mode* field with *ABN* that is linked to our bank account *ABN* and set the *Bank Account* field to *OJBA*.  
   
-## Create Vendor\/Customer Bank Account  
- Create vendor\/customer bank account and enter all necessary information. Special attention should be paid to:  
+## Create Vendor/Customer Bank Account  
+ Create vendor/customer bank account and enter all necessary information. Special attention should be paid to:  
   
 -   **Preferred Bank Account**: enter a valid bank account number.  
   
--   **Currency Code**: leave empty - i.e. it is set to the local currency \(LCY\).  
+-   **Currency Code**: leave empty - i.e. it is set to the local currency (LCY).  
   
 -   **Owner Information**:be sure all owner information has been entered.  
   
 ### Example  
- Olek Johansson's bank account \(code *OJBA*\) is denominated in local currency \(LCY\). Therefore on Olek Johansson's Vendor Bank Account Card we enter a valid number in the *Bank Account No.* field *,* leave the *Currency Code* field empty and fill the fields on the Owner Information tab with appropriate values.  
+ Olek Johansson's bank account (code *OJBA*) is denominated in local currency (LCY). Therefore on Olek Johansson's Vendor Bank Account Card we enter a valid number in the *Bank Account No.* field *,* leave the *Currency Code* field empty and fill the fields on the Owner Information tab with appropriate values.  
   
 ## Create and Post Purchase Invoice for Vendor or Sales Invoice for Customer  
- Create a purchase\/sales invoice and enter all necessary information. Special attention should be paid to:  
+ Create a purchase/sales invoice and enter all necessary information. Special attention should be paid to:  
   
--   **Currency Code**: leave empty - i.e. it is set to the local currency \(LCY\).  
+-   **Currency Code**: leave empty - i.e. it is set to the local currency (LCY).  
   
 -   **Transaction Mode**: select an appropriate, default transaction mode - i.e. one that can deal with local currency payments for your bank.  
   
--   **Preferred Bank Account**: select an appropriate, default vendor\/customer bank account having the same Currency Code is the vendor\/customer itself.  
+-   **Preferred Bank Account**: select an appropriate, default vendor/customer bank account having the same Currency Code is the vendor/customer itself.  
   
- By default these three fields will be populated with values taken from the vendor\/customer card.  
+ By default these three fields will be populated with values taken from the vendor/customer card.  
   
  When the invoice is finished it can be posted.  
   
 ### Example  
- When creating a purchase invoice for Olek Johansson we enter *OLEK* in the ***Buy-from Vendor No.*** field. By default the *Currency Code*, *Transaction Mode* and *Bank Account* fields will be populated with values taken from the Olek Johansson's vendor card. Therefore the *Currency Code*, *Transaction Mode* and *Bank Account* fields will be *\<empty\>*, *ABN* and *OJBA* respectively. Nevertheless, these values can be changed.  
+ When creating a purchase invoice for Olek Johansson we enter *OLEK* in the ***Buy-from Vendor No.*** field. By default the *Currency Code*, *Transaction Mode* and *Bank Account* fields will be populated with values taken from the Olek Johansson's vendor card. Therefore the *Currency Code*, *Transaction Mode* and *Bank Account* fields will be *<empty>*, *ABN* and *OJBA* respectively. Nevertheless, these values can be changed.  
   
 ## Create Proposal  
  Open the Telebank - Bank Overview Window window and browse to the bank through which we want to perform our payment. Open the Proposal window and generate payment proposals using the Get Proposal Entries batch job.  

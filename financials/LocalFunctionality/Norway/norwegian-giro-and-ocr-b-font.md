@@ -16,9 +16,9 @@
 
 ---
 # Norwegian Giro and OCR-B Font
-A General Interbank Recurring Order \(giro\) is a payment system that operates like a credit transfer.  
+A General Interbank Recurring Order (giro) is a payment system that operates like a credit transfer.  
   
- The last line on the giro uses the OCR-B font. This is required by Bankenes Betalingssentral \(BBS\) for use with optical character recognition \(OCR\) when handling payments from customers. For more information, see the BBS website at [BBS.NO](http://www.nets.eu/no-nb/Pages/default.aspx)  
+ The last line on the giro uses the OCR-B font. This is required by Bankenes Betalingssentral (BBS) for use with optical character recognition (OCR) when handling payments from customers. For more information, see the BBS website at [BBS.NO](http://www.nets.eu/no-nb/Pages/default.aspx)  
   
  The OCR-B-10 BT font is generally available from software vendors. In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], Norwegian sales documents use the OCR-B-10 BT font from BitStream Inc. has been used on the giro. For more information, see the BitStream website at [Bitstream](http://www.bitstream.com/).  
   

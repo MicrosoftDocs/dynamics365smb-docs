@@ -16,7 +16,7 @@
 
 ---
 # How to: Set Up GIFI Codes
-The Canada Revenue Agency uses General Index of Financial Information \(GIFI\) codes to collect, validate, and process financial and tax information electronically.  
+The Canada Revenue Agency uses General Index of Financial Information (GIFI) codes to collect, validate, and process financial and tax information electronically.  
   
  In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you must set up GIFI codes for general ledger accounts, reports, balance sheets, income sheets, and retained earning statements. For more information about GIFI codes, see the [Canada Revenue Agency website](http://go.microsoft.com/fwlink/?LinkId=214332).  
   

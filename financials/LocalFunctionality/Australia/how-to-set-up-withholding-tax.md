@@ -16,9 +16,9 @@
 
 ---
 # How to: Set Up Withholding Tax
-Withholding tax \(WHT\) is the tax withheld by a company when it makes a payment to a vendor, in which the full amount owed to the vendor is reduced by the tax withheld. The withheld tax is then remitted to the Australian Taxation Office \(ATO\) when the next Business Activity Statement \(BAS\) is submitted.  
+Withholding tax (WHT) is the tax withheld by a company when it makes a payment to a vendor, in which the full amount owed to the vendor is reduced by the tax withheld. The withheld tax is then remitted to the Australian Taxation Office (ATO) when the next Business Activity Statement (BAS) is submitted.  
   
- If a supplier without an Australian Business Number \(ABN\) provides an invoice, a withholding tax amount must be withheld if the total amount of the invoice is more than the threshold amount.  
+ If a supplier without an Australian Business Number (ABN) provides an invoice, a withholding tax amount must be withheld if the total amount of the invoice is more than the threshold amount.  
   
  To use withholding tax, you must set up the business posting groups and product posting groups for withholding tax so that the correct WHT calculations are made for each vendor.  
   
@@ -75,4 +75,4 @@ Withholding tax \(WHT\) is the tax withheld by a company when it makes a payment
  [How to: Calculate and Post Withholding Tax Settlements](how-to-calculate-and-post-withholding-tax-settlements.md)   
  [Withholding Tax](withholding-tax.md)   
  Source Code Setup   
- [Australian Taxation Office \(ATO\)](http://www.ato.gov.au/)
+ [Australian Taxation Office (ATO)](http://www.ato.gov.au/)

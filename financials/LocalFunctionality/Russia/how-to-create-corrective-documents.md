@@ -54,10 +54,10 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can create corrective 
   
 5.  In the dialog box that appears, specify if the correction if for quantity or price.  
   
-6.  Make the appropriate changes to the document lines. For example, to change the invoiced amount, change the value of the **Amount \(After\)** field.  
+6.  Make the appropriate changes to the document lines. For example, to change the invoiced amount, change the value of the **Amount (After)** field.  
   
     > [!NOTE]  
-    >  If the document line is for an item, you can only change the value of the **Amount \(After\)** field. If the document line is for an item charge, you can change the value of the **Quantity \(After\)** field and the **Amount \(After\)** field.  
+    >  If the document line is for an item, you can only change the value of the **Amount (After)** field. If the document line is for an item charge, you can change the value of the **Quantity (After)** field and the **Amount (After)** field.  
   
 7.  Post the document.  
   

@@ -25,5 +25,5 @@ The following topics describe the local functionality in the Dutch version of [!
   [Electronic Tax Declarations](electronic-tax-declarations.md)  
   [General Ledger](general-ledger.md)  
   [Payables and Receivables](payables-and-receivables.md)  
-  [Single EURO Payments Area \(SEPA\)](single-euro-payments-area-sepa-.md)  
+  [Single EURO Payments Area (SEPA)](single-euro-payments-area-sepa-.md)  
   [Dutch Work in Progress Accounts](dutch-work-in-progress-accounts.md)

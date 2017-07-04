@@ -18,9 +18,9 @@
 # Payment Scenario 3 - Foreign Payment (LCY  to FCY)
 You can use telebanking for trade with domestic and foreign customers and vendors. This topic describes a scenario where the trade is with foreign customers and vendors that use a different currency than your local currency.  
   
-1.  Create Vendor\/Customer.  
+1.  Create Vendor/Customer.  
   
-2.  Create Vendor\/Customer Bank Account.  
+2.  Create Vendor/Customer Bank Account.  
   
 3.  Create and Post Purchase Invoice for Vendor or Sales Invoice for Customer.  
   
@@ -33,45 +33,45 @@ You can use telebanking for trade with domestic and foreign customers and vendor
 7.  Import Bank Statement.  
   
 > [!NOTE]  
->  In the examples below some standard CRONUS data is being used. Likewise instead of creating a vendor\/customer and a vendor\/customer bank account you could use existing data.  
+>  In the examples below some standard CRONUS data is being used. Likewise instead of creating a vendor/customer and a vendor/customer bank account you could use existing data.  
   
-## Create Vendor\/Customer  
- Create vendor\/customer and enter all necessary information. Special attention should be paid to:  
+## Create Vendor/Customer  
+ Create vendor/customer and enter all necessary information. Special attention should be paid to:  
   
--   **Currency Code**: set it to the foreign currency \(FCY\).  
+-   **Currency Code**: set it to the foreign currency (FCY).  
   
 -   **Transaction Mode**: select an appropriate, default transaction mode - i.e. one that can deal with foreign currency payments for your local bank.  
   
--   **Preferred Bank Account**: select an appropriate, default vendor\/customer bank account having the same Currency Code as the vendor\/customer itself.  
+-   **Preferred Bank Account**: select an appropriate, default vendor/customer bank account having the same Currency Code as the vendor/customer itself.  
   
 > [!NOTE]  
->  In order to be able to enter a bank account in the **Bank Account** vendor\/customer bank accounts must be available. See below.  
+>  In order to be able to enter a bank account in the **Bank Account** vendor/customer bank accounts must be available. See below.  
   
 ### Example  
- Hernandez Ortiz \(code *ORTIZ*\) is one of our Mexican vendors. Purchase invoices will be paid through our national bank account \(code *ABN*\) to his bank account \(code *HOBA*\). While our bank account ABN is denominated in local currency \(LCY\), Hernandez Ortiz's bank account HOBA is denominated in Mexican peso \(MXN\). Therefore on Hernandez Ortiz's Vendor Card we set the *Currency Code* field to *MXN*, fill the *Transaction Mode* field with *ABN* that is linked to our bank account *ABN* and set the *Bank Account* field to *HOBA*.  
+ Hernandez Ortiz (code *ORTIZ*) is one of our Mexican vendors. Purchase invoices will be paid through our national bank account (code *ABN*) to his bank account (code *HOBA*). While our bank account ABN is denominated in local currency (LCY), Hernandez Ortiz's bank account HOBA is denominated in Mexican peso (MXN). Therefore on Hernandez Ortiz's Vendor Card we set the *Currency Code* field to *MXN*, fill the *Transaction Mode* field with *ABN* that is linked to our bank account *ABN* and set the *Bank Account* field to *HOBA*.  
   
-## Create Vendor\/Customer Bank Account  
- Create vendor\/customer bank account and enter all necessary information. Special attention should be paid to:  
+## Create Vendor/Customer Bank Account  
+ Create vendor/customer bank account and enter all necessary information. Special attention should be paid to:  
   
 -   **Preferred Bank Account**: enter a valid bank account number.  
   
--   **Currency Code**: set it to the foreign currency \(FCY\).  
+-   **Currency Code**: set it to the foreign currency (FCY).  
   
 -   **Owner Information**:be sure all owner information has been entered.  
   
 ### Example  
- Hernandez Ortiz's bank account \(code *HOBA*\) is denominated in *MXN*. Therefore on Hernandez Ortiz's Vendor Bank Account Card we enter a valid number in the *Bank Account No.* field *,* set the *Currency Code* field to *MXN* and fill the fields on the Owner Information tab with appropriate values.  
+ Hernandez Ortiz's bank account (code *HOBA*) is denominated in *MXN*. Therefore on Hernandez Ortiz's Vendor Bank Account Card we enter a valid number in the *Bank Account No.* field *,* set the *Currency Code* field to *MXN* and fill the fields on the Owner Information tab with appropriate values.  
   
 ## Create and Post Purchase Invoice for Vendor or Sales Invoice for Customer  
- Create a purchase\/sales invoice and enter all necessary information. Special attention should be paid to:  
+ Create a purchase/sales invoice and enter all necessary information. Special attention should be paid to:  
   
--   **Currency Code**: set it to the foreign currency \(FCY\).  
+-   **Currency Code**: set it to the foreign currency (FCY).  
   
 -   **Transaction Mode**: select an appropriate, default transaction mode - i.e. one that can deal with local currency payments for your local bank.  
   
--   **Preferred Bank Account**: select an appropriate, default vendor\/customer bank account having the same Currency Code is the vendor\/customer itself.  
+-   **Preferred Bank Account**: select an appropriate, default vendor/customer bank account having the same Currency Code is the vendor/customer itself.  
   
- By default these three fields will be populated with values taken from the vendor\/customer card.  
+ By default these three fields will be populated with values taken from the vendor/customer card.  
   
  When the invoice is finished it can be posted.  
   
@@ -82,7 +82,7 @@ You can use telebanking for trade with domestic and foreign customers and vendor
  Open the Telebank - Bank Overview window and browse to the bank through which we want to perform our payment. Open the Proposal window and generate payment proposals using the Get Proposal Entries batch job.  
   
 ### Example  
- Through the Telebank - Bank Overview window we open the Proposal window for our bank *ABN*. Using the batch job one proposal line will be created for the purchase invoice we just created and posted for vendor *ORTIZ*. The amount of the payment will be in local currency \(LCY\).  
+ Through the Telebank - Bank Overview window we open the Proposal window for our bank *ABN*. Using the batch job one proposal line will be created for the purchase invoice we just created and posted for vendor *ORTIZ*. The amount of the payment will be in local currency (LCY).  
   
 ## Create Payment History  
  From the Proposal window we process our proposal into a payment history. The proposal will disappear and can be found in the Payment History Overview window for the same bank.  

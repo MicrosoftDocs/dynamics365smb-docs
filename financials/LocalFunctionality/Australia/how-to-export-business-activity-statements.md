@@ -16,7 +16,7 @@
 
 ---
 # How to: Export Business Activity Statements
-A Business Activity Statement \(BAS\) is a form that reports both the total Goods and Services Tax \(GST\) collected from sales activities, and GST paid on purchases.  
+A Business Activity Statement (BAS) is a form that reports both the total Goods and Services Tax (GST) collected from sales activities, and GST paid on purchases.  
   
  You can review the calculated GST amounts, export the BAS setup details to Excel for manual adjustments, and print BAS.  
   

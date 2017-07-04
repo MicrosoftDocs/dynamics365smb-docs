@@ -49,7 +49,7 @@ You can use the following reports for VAT reporting:
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Print Cust. Ledger Details**|Select to display the customer ledger entries.|  
-    |**Print G\/L Entry Details**|Select to display the general ledger entries.|  
+    |**Print G/L Entry Details**|Select to display the general ledger entries.|  
   
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
@@ -75,7 +75,7 @@ You can use the following reports for VAT reporting:
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Print Vend. Ledger Details**|Select to display the vendor ledger entries.|  
-    |**Print G\/L Entry Details**|Select to display the general ledger entries.|  
+    |**Print G/L Entry Details**|Select to display the general ledger entries.|  
   
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   

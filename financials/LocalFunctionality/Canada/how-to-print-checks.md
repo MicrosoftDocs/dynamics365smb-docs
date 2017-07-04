@@ -30,11 +30,11 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use the print chec
   
     |ADD INCLUDE<!--[!INCLUDE[bp_optionsheading](../../includes/bp_tabledescription_md.md)]-->|  
     |-------------------------------------|---------------------------------------|  
-    |**\<Blank\>**|Select this option if you do not want to create a check. This is the default option.|  
+    |**<Blank>**|Select this option if you do not want to create a check. This is the default option.|  
     |**Computer Check**|Select this option if you want to print a check for the amount on the payment journal line. You must print the checks before you can post the journal lines. You can only select **Computer Check** if the **Bal. Account Type** or the **Account Type** is **Bank Account**.|  
     |**Manual Check**|Select this option if you have created a check manually and want to create a corresponding check ledger entry for this amount. By using this option, you cannot print checks from [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. You can only select **Manual Check** if the **Bal. Account Type** or the **Account Type** is **Bank Account**.|  
     |**Electronic Payment**|Select this option if you want to export this payment, together with other payments, to a file and then transmit that file to your bank. This will allow your bank to electronically transfer the payments from your bank account to the payee's bank account. By using this option, you must export and then transmit the journal lines before you can post. You can only select **Electronic Payment** if the **Bal. Account Type** or the **Account Type** is **Bank Account**, **Vendor**, or **Customer**.|  
-    |**Electronic Payment-IAT**|Select this option to export electronic payments using the International ACH Transaction \(IAT\) file format. This file format is required if a payment transaction ../../includes financial agencies outside the United States. By using this option, you must export and then transmit the journal lines before you can post. You can only select **Electronic Payment-IAT** if the **Bal. Account Type** or the **Account Type** is **Bank Account**, **Vendor**, or **Customer**.|  
+    |**Electronic Payment-IAT**|Select this option to export electronic payments using the International ACH Transaction (IAT) file format. This file format is required if a payment transaction ../../includes financial agencies outside the United States. By using this option, you must export and then transmit the journal lines before you can post. You can only select **Electronic Payment-IAT** if the **Bal. Account Type** or the **Account Type** is **Bank Account**, **Vendor**, or **Customer**.|  
   
 4.  Depending on the **Bank Payment Type** selection, do one the following:  
   

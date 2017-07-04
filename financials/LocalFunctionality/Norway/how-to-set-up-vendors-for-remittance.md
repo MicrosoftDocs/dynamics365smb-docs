@@ -28,11 +28,11 @@
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Name**|Specify the vendor’s name. This field is used by remittance against Bankernes Betalingssentral \(BBS\).|  
+    |**Name**|Specify the vendor’s name. This field is used by remittance against Bankernes Betalingssentral (BBS).|  
     |**Address**|Specify the vendor’s address. This field is used by remittance against BBS.|  
     |**Address 2**|Specify an additional line for the vendor’s address, if necessary. This field is used by remittance against BBS.|  
     |**Post Code**|Specify a valid postal code of four digits for domestic remittance.|  
-    |**Country\/Region Code**|Specify a valid country\/region code for a foreign address.|  
+    |**Country/Region Code**|Specify a valid country/region code for a foreign address.|  
   
 4.  On the **Payments** FastTab, fill in the fields as described in the following table.  
   
@@ -72,22 +72,22 @@
     |**Warning Notice**|Select one of the following options to specify how a warning notice is sent from the recipient's bank to the recipient.<br /><br /> -   **None** - No confirmation is sent.<br />-   **Phone** - Confirmation is given by phone.<br />-   **Fax** - Confirmation is sent by fax.<br />-   **Other** - A text message in the **Warning Text** field is used.|  
     |**Warning Text**|Enter the warning text that is used if the **Warning Notice** field is set to **Other**.|  
     |**Recipient Confirmation**|Select to specify how confirmation of payment is sent to the recipient.|  
-    |**Telex Country\/Region Code**|Specify the country\/region code if the confirmation is sent using telex.|  
-    |**Telex\/Fax No.**|Specify the telex or fax number if the confirmation is sent using telex or fax.|  
+    |**Telex Country/Region Code**|Specify the country/region code if the confirmation is sent using telex.|  
+    |**Telex/Fax No.**|Specify the telex or fax number if the confirmation is sent using telex or fax.|  
     |**Recipient Contact**|Specify the contact person’s name if a telex or fax confirmation is sent to the recipient.|  
     |**Charges Domestic**|Specify who is charged the domestic charges in connection with the payment.<br /><br /> -   **Debitremitter** - The remitter is charged.<br />-   **Debitrecipient** - The recipient is charged.<br />-   **Default** - The bank's way of charging is used. Typically this is the remitter who is charged.|  
     |**Charges Abroad**|Specify who is charged for foreign payments.<br /><br /> -   **Debitremitter** - The remitter is charged.<br />-   **Debitrecipient** - The recipient is charged.<br />-   **Default** - The bank's way of charging is used. Typically this is the remitter who is charged.|  
     |**Payment Type Code Abroad**|Enter a two-digit code for the payment type.|  
-    |**Specification \(Norges Bank\)**|Specify information for your local government bank. Contact your bank for further information.|  
+    |**Specification (Norges Bank)**|Specify information for your local government bank. Contact your bank for further information.|  
   
 9. On the **Bank abroad** FastTab, fill in the fields as described in the following table.  
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**SWIFT**|Enter the Society for Worldwide Interbank Financial Telecommunication \(SWIFT\) address by which the recipient’s bank is identified.|  
+    |**SWIFT**|Enter the Society for Worldwide Interbank Financial Telecommunication (SWIFT) address by which the recipient’s bank is identified.|  
     |**Bank Name**|Specify the bank's name.|  
     |**Bank Address 1**|Specify the address of the recipient's bank.|  
-    |**Rcpt. Bank Country\/Region Code**|Specify the country\/region code for the recipient. This field is required and must comply with ISO standards.|  
+    |**Rcpt. Bank Country/Region Code**|Specify the country/region code for the recipient. This field is required and must comply with ISO standards.|  
     |**SWIFT Remb. Bank**|Specify the SWIFT address for reimbursement that is the recipient’s corresponding bank.|  
   
 10. Choose the **OK** button.  

@@ -31,9 +31,9 @@
 ### Exporting and Importing Budgets  
  You can export budgets to and import budgets from:  
   
--   Microsoft Excel \(.xls\) workbooks.  
+-   Microsoft Excel (.xls) workbooks.  
   
--   Comma–delimited \(.csv\) files.  
+-   Comma–delimited (.csv) files.  
   
 ## See Also  
  Budget   

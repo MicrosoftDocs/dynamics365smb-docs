@@ -26,9 +26,9 @@ The physical inventory order line should contain the following data:
   
  There is a check mark in the field Use Tracking Lines on the physical inventory order line and the item 80216-V should be posted all time with lot nos. according to the item tracking code.  
   
- The posting date on the physical inventory order header should be 12\/31\/2002.  
+ The posting date on the physical inventory order header should be 12/31/2002.  
   
- The expected quantity of the item 80216-V at the location BLUE on 12\/31\/2001 should be 120 pieces.  
+ The expected quantity of the item 80216-V at the location BLUE on 12/31/2001 should be 120 pieces.  
   
  The quantity on stock consists of the following lots:  
   
@@ -59,7 +59,7 @@ The physical inventory order line should contain the following data:
 |**Lot No.**|**Expected Quantity**|**Recorded Quantity**|**Quantity to post**|  
 |-----------------|---------------------------|---------------------------|--------------------------|  
 |CH1001|80|80|0|  
-|CH1002|0|12|\+ 12|  
+|CH1002|0|12|+ 12|  
 |CH1003|30|20|- 10|  
 |CH1006|10|0|- 10|  
 |**Total**|**120**|**112**|**- 8**|  

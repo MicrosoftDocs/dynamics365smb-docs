@@ -79,7 +79,7 @@ A physical inventory order is a complete document that consists of a physical in
   
  For each physical inventory order, you can create one or more physical inventory recordings. There you can document the physical count. For more information, see [How to: Create a Physical Inventory Recording](how-to-create-a-physical-inventory-recording.md).  
   
- You can compare and document the expected quantities from the physical inventory order lines with the \(counted\) quantities from the physical inventory recording lines. You can post the physical inventory differences.  
+ You can compare and document the expected quantities from the physical inventory order lines with the (counted) quantities from the physical inventory recording lines. You can post the physical inventory differences.  
   
 ## See Also  
  [Physical Inventory Documents](physical-inventory-documents.md)   

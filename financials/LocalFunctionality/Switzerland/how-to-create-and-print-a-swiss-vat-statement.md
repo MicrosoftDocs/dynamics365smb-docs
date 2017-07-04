@@ -46,9 +46,9 @@ Based on the information that you have specified in the **VAT Posting Setup** wi
     |**Normal Rate %**|Enter the standard VAT rate that applies to the time period.|  
     |**Reduced Rate %**|Enter the reduced VAT tax for certain goods and services.|  
     |**Hotel Rate %**|Enter the VAT rate for accommodation that applies to the time period.|  
-    |**Normal \(Other Rate\) %**|Enter an alternative VAT rate for standard transactions that applies to certain transactions during the time period.|  
-    |**Reduced \(Other Rate\) %**|Enter an alternative VAT rate for other transactions that applies to certain transactions during the time period.|  
-    |**Hotel \(Other Rate\) %**|Enter an alternative VAT rate for accommodation that applies to certain transactions during the time period.|  
+    |**Normal (Other Rate) %**|Enter an alternative VAT rate for standard transactions that applies to certain transactions during the time period.|  
+    |**Reduced (Other Rate) %**|Enter an alternative VAT rate for other transactions that applies to certain transactions during the time period.|  
+    |**Hotel (Other Rate) %**|Enter an alternative VAT rate for accommodation that applies to certain transactions during the time period.|  
     |**Show Amounts in Add. Reporting Currency**|Select to show amounts in an additional reporting currency. For more information, see [About Using Additional Reporting Currencies](about-using-additional-reporting-currencies.md).|  
   
 ## See Also  

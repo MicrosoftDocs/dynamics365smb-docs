@@ -64,7 +64,7 @@ Tax difference calculations must be set up if there is a tax difference for the 
 |**FA Posting Type**|Select the **Transaction** type. The values are: **Purchase**, **Depreciation**, and **Sales**.|  
 |**Description**|Enter a description of the transaction.|  
 |**Amount**|Enter the amount of the transaction.|  
-|**Depr. Amount w\/o Normalization**|Displays the depreciation amount before calculating norms of expenses to write off.|  
+|**Depr. Amount w/o Normalization**|Displays the depreciation amount before calculating norms of expenses to write off.|  
   
  If there are journal lines that must be normalized before writing off expenses, those journals cannot be posted without running a periodic job of normalizing.  
   

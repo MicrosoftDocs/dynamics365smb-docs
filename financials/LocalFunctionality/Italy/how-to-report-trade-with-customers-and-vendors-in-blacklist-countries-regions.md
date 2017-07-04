@@ -16,28 +16,28 @@
 
 ---
 # How to: Report Trade with Customers and Vendors in Blacklist Countries-Regions
-You must submit a periodic report of transactions with customers and vendors in certain countries\/regions that the Italian government has identified in a blacklist. The blacklist communication report must be submitted to the Italian Revenue Agency to help prevent VAT fraud. Transactions that are subject to blacklist reporting include the following:  
+You must submit a periodic report of transactions with customers and vendors in certain countries/regions that the Italian government has identified in a blacklist. The blacklist communication report must be submitted to the Italian Revenue Agency to help prevent VAT fraud. Transactions that are subject to blacklist reporting include the following:  
   
 -   Purchases of goods or services  
   
 -   Sales of goods or services  
   
- On a monthly or quarterly basis, you must generate the blacklist communication report for transactions with countries\/regions that have privileged taxation and send it to the Italian Revenue Agency. The Italian Revenue Agency decides which countries\/regions are included on the blacklist. You can view or change countries\/regions on the blacklist by using the **Countries\/Regions** window. The periodic report ../../includes only transactions that have an amount above a certain threshold. The threshold amount calculation is applied at the document level. For more information, see the [Italian Revenue Agency](http://go.microsoft.com/fwlink/?LinkId=396483).  
+ On a monthly or quarterly basis, you must generate the blacklist communication report for transactions with countries/regions that have privileged taxation and send it to the Italian Revenue Agency. The Italian Revenue Agency decides which countries/regions are included on the blacklist. You can view or change countries/regions on the blacklist by using the **Countries/Regions** window. The periodic report ../../includes only transactions that have an amount above a certain threshold. The threshold amount calculation is applied at the document level. For more information, see the [Italian Revenue Agency](http://go.microsoft.com/fwlink/?LinkId=396483).  
   
  Before you can submit the periodic report, you must set up [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
   
-### To update the relevant countries\/regions  
+### To update the relevant countries/regions  
   
-1.  In the **Search** box, enter **Countries\/Regions**, and then choose the related link.  
+1.  In the **Search** box, enter **Countries/Regions**, and then choose the related link.  
   
-2.  Choose the relevant country\/region, and then select the **Blacklisted** field.  
+2.  Choose the relevant country/region, and then select the **Blacklisted** field.  
   
     > [!NOTE]  
     >  You may not be able to see the **Blacklisted** field. In that case, you must add it to the view.  
   
-3.  Enter the **Foreign Country\/Region Code** for the blacklisted country\/region.  
+3.  Enter the **Foreign Country/Region Code** for the blacklisted country/region.  
   
- For a list of relevant countries\/regions and codes, see the [Italian Revenue Agency](http://go.microsoft.com/fwlink/?LinkID=206524).  
+ For a list of relevant countries/regions and codes, see the [Italian Revenue Agency](http://go.microsoft.com/fwlink/?LinkID=206524).  
   
 ### To specify the current threshold amount  
   
@@ -74,7 +74,7 @@ You must submit a periodic report of transactions with customers and vendors in 
 3.  Optional. Select the VAT Statement template, and on the **Navigate** tab, choose **Statement Names**. You can provide the template with a name and description. Otherwise, the template will have the name Default when you access it in the **Blacklist Communication** window.  
   
 ## Creating the List of Transactions  
- Depending on the size and type of company, you must generate and submit a report of transactions with vendors in blacklisted countries\/regions on a monthly or quarterly basis. A suggested mapping of transactions to [!INCLUDE[d365fin](../../includes/d365fin_md.md)] accounts is provided in the following procedure, based on Spesometro 2013.  
+ Depending on the size and type of company, you must generate and submit a report of transactions with vendors in blacklisted countries/regions on a monthly or quarterly basis. A suggested mapping of transactions to [!INCLUDE[d365fin](../../includes/d365fin_md.md)] accounts is provided in the following procedure, based on Spesometro 2013.  
   
 #### To set up the template to create the list of Blacklist transactions  
   
@@ -89,9 +89,9 @@ You must submit a periodic report of transactions with customers and vendors in 
     |**Row No.**|Specify a row number. To enable correct filtering, we recommend that you number rows as follows: 1001..1006, and so forth.|Code|  
     |**Description**|Enter a description of the line. You can enter up to a maximum of 50 characters.<br /><br /> The types of transactions that you are required to report include the sales and purchase of goods and services. These transactions can be taxable, non-taxable, or exempt. Also subject to reporting are invoices for transactions that are not subject to VAT.<br /><br /> Finally, you must also include information for credit note transactions.|Text|  
     |**Type**|Specify the Type of the account that the blacklist report will include, for example, VAT Entry Totaling.|Option|  
-    |**Blacklist Country\/Region Transaction**|Select the check box to include information from VAT entries that originate with a person or organization that has their residence in a blacklist country\/region. In general, only select the check box when the Type of the line is VAT Entry Totaling.<br /><br /> If the check box is not selected, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] only retrieves non-blacklist items.|Boolean|  
+    |**Blacklist Country/Region Transaction**|Select the check box to include information from VAT entries that originate with a person or organization that has their residence in a blacklist country/region. In general, only select the check box when the Type of the line is VAT Entry Totaling.<br /><br /> If the check box is not selected, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] only retrieves non-blacklist items.|Boolean|  
     |**Gen. Posting Type**|Select a posting type. For the blacklist communication report, you can choose any of the options, but typical choices are one of the following:<br /><br /> Sale<br /><br /> Purchase<br /><br /> If you leave the field blank, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] will only return VAT Statement lines that have this field blank as well.<br /><br /> If you choose the Type VAT Entry Totaling, then in this field, you can only choose among Purchase, Sale, and Settlement.|Option|  
-    |**EU Service**|Specify whether the entry total represents sales of services to other EU countries\/regions.|Boolean|  
+    |**EU Service**|Specify whether the entry total represents sales of services to other EU countries/regions.|Boolean|  
     |**Document Type**|Specify a document type. You can choose any of the options, but typical choices are one of the following:<br /><br /> Invoice<br /><br /> Credit Memo<br /><br /> If you leave the field blank, then Microsoft Dynamics NAV returns all document types.|Option|  
     |**Refers To Period**|Specify what period the documents refer to. When you export data and you have not specified a date, the setting in this field is ignored.<br /><br /> If you have leave this field blank, then [!INCLUDE[d365fin](../../includes/d365fin_md.md)] returns those entries that have this field blank as well. In addition, it returns those entries that are without reverse sales for VAT Entry Totaling.|Option|  
     |**VAT Bus. Posting Group**|Specify a VAT Business Posting Group. Fill in this field when the Type of the line is VAT Entry Totaling.<br /><br /> If you leave this field blank, then [!INCLUDE[d365fin](../../includes/d365fin_md.md)] returns entries with any specified group.|Code|  
@@ -160,7 +160,7 @@ You must submit a periodic report of transactions with customers and vendors in 
     |**Include VAT Entries**|Specify if the list of transactions must include open or closed VAT entries or both open and closed VAT entries.|  
     |**Include VAT Entries**|Specify if the list of transactions must include VAT entries that are in the specified VAT period or must also include VAT entries that are from previous periods.|  
     |**VAT Period**|Enter the time that defines the VAT period for the blacklist report.|  
-    |**Communication Type**|Enter the communication type for the blacklist export. The options include \<blank\>, **Corrective** and **Cancellation**.<br /><br /> If you enter **Corrective**, then a full report will be generated for the specified period, but you have the option to overwrite a previously submitted report.<br /><br /> If you enter **Cancellation**, then you have to provide the values from the previously generated report and a new report will be generated.<br /><br /> You enter information about the corrective or cancellation action in the **Substitution Data**  group. Fill in the following fields, using information that was that was provided by the Italian Revenue Agency \(IVA\) in its communication with you when you originally submitted your blacklist report:<br /><br /> -   **Substitution Report No.**<br />-   **Substitution Doc. No.**|  
+    |**Communication Type**|Enter the communication type for the blacklist export. The options include <blank>, **Corrective** and **Cancellation**.<br /><br /> If you enter **Corrective**, then a full report will be generated for the specified period, but you have the option to overwrite a previously submitted report.<br /><br /> If you enter **Cancellation**, then you have to provide the values from the previously generated report and a new report will be generated.<br /><br /> You enter information about the corrective or cancellation action in the **Substitution Data**  group. Fill in the following fields, using information that was that was provided by the Italian Revenue Agency (IVA) in its communication with you when you originally submitted your blacklist report:<br /><br /> -   **Substitution Report No.**<br />-   **Substitution Doc. No.**|  
     |**Period Type**|Specify if the report is monthly or quarterly.|  
   
 8.  Choose the **OK** button.  
@@ -175,5 +175,5 @@ You must submit a periodic report of transactions with customers and vendors in 
  Blacklist Communication   
  Customs Authority Vendors   
  VAT Posting Setup   
- Countries\/Regions   
+ Countries/Regions   
  [Italian VAT](italian-vat.md)

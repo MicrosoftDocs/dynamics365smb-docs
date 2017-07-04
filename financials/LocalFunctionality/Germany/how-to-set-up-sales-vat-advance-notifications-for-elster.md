@@ -56,16 +56,16 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], to submit valid sales VAT 
 ---------------------------------|---------------------------------------|  
     |**Use Proxy Server**|Select to use a proxy server for communication.|  
     |**Proxy Server Authent. Required**|Select to use a dedicated proxy server for authentication.<br /><br /> If you use a proxy server and the required dedicated authentication, then you must enter the user account and the password before transmitting. If you use Windows authentication, do not select this field.|  
-    |**Proxy Server IP-Address\/Port**|The address and the port that will be used for communication if you use a proxy server.|  
+    |**Proxy Server IP-Address/Port**|The address and the port that will be used for communication if you use a proxy server.|  
   
 4.  On the **HTTP Servers** FastTab, fill in the fields as described in the following table.  
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**HTTP Server URL 1**|Specifies a server of the Oberfinanzdirektion \(OFD\), such as **http:\/\/datenannahme1.elster.de\/Elster2\/EMS**.|  
-    |**HTTP Server URL 2**|Specifies a server of the OFD, such as **http:\/\/datenannahme2.elster.de\/Elster2\/EMS**.|  
-    |**HTTP Server URL 3**|Specifies a server of the OFD, such as **http:\/\/datenannahme3.elster.de\/Elster2\/EMS**.|  
-    |**HTTP Server URL 4**|Specifies a server of the OFD, such as **http:\/\/datenannahme4.elster.de\/Elster2\/EMS**.|  
+    |**HTTP Server URL 1**|Specifies a server of the Oberfinanzdirektion (OFD), such as **http://datenannahme1.elster.de/Elster2/EMS**.|  
+    |**HTTP Server URL 2**|Specifies a server of the OFD, such as **http://datenannahme2.elster.de/Elster2/EMS**.|  
+    |**HTTP Server URL 3**|Specifies a server of the OFD, such as **http://datenannahme3.elster.de/Elster2/EMS**.|  
+    |**HTTP Server URL 4**|Specifies a server of the OFD, such as **http://datenannahme4.elster.de/Elster2/EMS**.|  
   
      Now you must specify the users who can submit documents to the ELSTER portal.  
   

@@ -22,9 +22,9 @@ The fixed assets inventory feature enables you to:
   
 -   Generate electronic inventory lists of fixed assets that are to be inventoried with calculated quantities and amounts.  
   
--   Divide the inventory lists by the physical locations of fixed assets \(by Fixed Asset Location code\).  
+-   Divide the inventory lists by the physical locations of fixed assets (by Fixed Asset Location code).  
   
--   Filter the inventory lists by other analytics \(such as responsible employee\).  
+-   Filter the inventory lists by other analytics (such as responsible employee).  
   
 -   Print the forms with inventory lists that show all inventoried fixed assets, as well as lists that show the fixed assets with differences only in quantities or amounts.  
   
@@ -59,7 +59,7 @@ The fixed assets inventory feature enables you to:
 |**Starting Document No.**|Specify the document number used to make lines in the Fixed Asset journal.|  
 |**Document Date**|Specify the document date.|  
 |**Posting Date**|Specify the posting date. The quantities and amounts are calculated on this date. The **Posting Date** field is also filled with this value.|  
-|**Show Fixed Asset with Book Value \= 0**|Select this field to create fixed asset journal lines for fixed assets which have a book value of zero.|  
+|**Show Fixed Asset with Book Value = 0**|Select this field to create fixed asset journal lines for fixed assets which have a book value of zero.|  
   
  The report creates one batch in the Fixed Asset Journal template for every fixed asset location that is filtered in the request form. For every fixed asset that is filtered, one journal line is created in the batch according to its location. A journal batch is created for fixed assets in each fixed asset location.  
   

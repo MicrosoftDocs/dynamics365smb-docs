@@ -24,9 +24,9 @@
   
 1.  In the **Search** box, enter **General Ledger**, and then choose the related link in **General Ledger**.  
   
-2.  Under **Reports**, under **France**, choose **GL\/Cust. Ledger Reconciliation**.  
+2.  Under **Reports**, under **France**, choose **GL/Cust. Ledger Reconciliation**.  
   
-3.  In the **GL\/Cust. Ledger Reconciliation** window, set the appropriate filters.  
+3.  In the **GL/Cust. Ledger Reconciliation** window, set the appropriate filters.  
   
     > [!NOTE]  
     >  You must specify a date filter.  

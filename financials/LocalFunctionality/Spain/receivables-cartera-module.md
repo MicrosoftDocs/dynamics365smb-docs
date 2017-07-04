@@ -39,9 +39,9 @@ The Receivables Cartera module allows you to manage bills generated from sales i
   
  If submitted for collection, the bank is only responsible for processing the collection of the documents on the due date.  
   
- If the bill group is submitted for discount, the bank will advance the amount of the bill group \(or a portion of it, in the case of factoring\) to the company, and will take responsibility for collecting on the due dates of the documents that make up the bill group.  
+ If the bill group is submitted for discount, the bank will advance the amount of the bill group (or a portion of it, in the case of factoring) to the company, and will take responsibility for collecting on the due dates of the documents that make up the bill group.  
   
- A bill group of invoices can be submitted to a financial institution \(factor\) for risked factoring \(the risk of insolvency is covered by the company\) or unrisked factoring \(the risk of insolvency is covered by the factor\).  
+ A bill group of invoices can be submitted to a financial institution (factor) for risked factoring (the risk of insolvency is covered by the company) or unrisked factoring (the risk of insolvency is covered by the factor).  
   
  For more information, see Bill Group.  
   

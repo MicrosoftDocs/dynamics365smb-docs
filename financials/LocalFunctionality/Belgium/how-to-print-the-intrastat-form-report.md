@@ -30,7 +30,7 @@ The **Intrastat - Form** report must be used for reporting to Intrastat. In Belg
     |---------------------------------|---------------------------------------|  
     |**Name**|Enter the company name.|  
     |**Address**|Enter the address.|  
-    |**Post Code \+ City**|Enter the postal code and the city.|  
+    |**Post Code + City**|Enter the postal code and the city.|  
     |**Contact**|Enter the name of the contact person.|  
     |**Telephone**|Enter the telephone number of the contact person.|  
     |**Telefax**|Enter the telefax number.|  

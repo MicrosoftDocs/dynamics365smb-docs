@@ -54,7 +54,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can add comments to cu
   
 3.  On the **General** FastTab, in the **Blocked** field, select one of the following options:  
   
-    -   **\<Blank\>** – Transaction is allowed for this customer.  
+    -   **<Blank>** – Transaction is allowed for this customer.  
   
     -   **Ship** – New orders and new shipments cannot be created for this customer. Existing shipments not yet invoiced can be invoiced.  
   

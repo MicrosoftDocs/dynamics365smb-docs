@@ -98,7 +98,7 @@
 ### [Creating Cost Budgets](finance-create-cost-budgets.md)
 ## [Managing Inventory Costs](finance-manage-inventory-costs)
 ### [About Inventory Costing](finance-learn-about-costing.md)
-### 
+###
 ### [How to: Revalue Inventory](inventory-how-revalue-inventory.md)
 ### [How to: Adjust Item Costs](inventory-how-adjust-item-costs.md)
 ### [How to: Handle Inventory and Manufacturing Costs](finance-handle-inventory-and-manufacturing-costs.md)
@@ -214,12 +214,12 @@
 ### [Using Workflows](use-workflows)
 
 # [Application Design Details](design-details-application-design.md)
-### [Design Details: Dimension Set Entries](design-details-dimension-set-entries.md)
-### [Design Details: Supply Planning](design-details-supply-planning.md)
-### [Design Details: Inventory Costing](design-details-inventory-costing.md)
-### [Design Details: Warehouse Management](design-details-warehouse-management.md)
-### [Design Details: Item Tracking](design-details-item-tracking.md)
-### [Design Details: General Journal Post Line](design-details-general-journal-post-line.md)
+## [Design Details: Dimension Set Entries](design-details-dimension-set-entries.md)
+## [Design Details: Supply Planning](design-details-supply-planning.md)
+## [Design Details: Inventory Costing](design-details-inventory-costing.md)
+## [Design Details: Warehouse Management](design-details-warehouse-management.md)
+## [Design Details: Item Tracking](design-details-item-tracking.md)
+## [Design Details: General Journal Post Line](design-details-general-journal-post-line.md)
 
 # [Business Process walkthroughs]()
 

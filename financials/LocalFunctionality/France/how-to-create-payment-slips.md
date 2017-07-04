@@ -48,7 +48,7 @@ You can create payments slips to manage vendor and customer payments. Before you
 
 7.  In the **Bank Account Code** field, select a bank name from the list, and then choose **Advanced**.  
 
-8.  Optionally, for SEPA, in the **\($ N\_426 Select – Vendor Account List $\)** window, on the **Home** tab, in the **Manage** Group, choose **Edit**.  
+8.  Optionally, for SEPA, in the **Select – Vendor Account List** window, on the **Home** tab, in the **Manage** Group, choose **Edit**.  
 
      Fill in the following fields if needed:  
 
@@ -71,12 +71,12 @@ You can create payments slips to manage vendor and customer payments. Before you
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ B\_10862\_N\_2\_1120001 Last Payment Date $\)**|The last payment date for the vendor ledger entries that are to be included in the batch job.|  
-    |**\($ B\_10862\_N\_2\_1120002 Find Payment Discounts $\)**|Select to include vendor ledger entries for which you can receive a payment discount.|  
-    |**\($ B\_10862\_N\_2\_1120000 Summarize per $\)**|The criteria for summarizing the payment line.|  
-    |**\($ B\_10862\_N\_2\_1120003 Use Vendor Priority $\)**|Select to sort the suggested payments based on the value in the **Priority** field on the vendor cards. For more information, see Priority.|  
-    |**\($ B\_10862\_N\_2\_1120004 Available Amount \(LCY\) $\)**|The maximum amount that is available for payments in local currency.|  
-    |**\($ B\_10862\_N\_2\_1120005 Currency Filter $\)**|The code for the currency to be included in the batch job.|  
+    |**Last Payment Date**|The last payment date for the vendor ledger entries that are to be included in the batch job.|  
+    |**Find Payment Discounts**|Select to include vendor ledger entries for which you can receive a payment discount.|  
+    |**Summarize per**|The criteria for summarizing the payment line.|  
+    |**Use Vendor Priority**|Select to sort the suggested payments based on the value in the **Priority** field on the vendor cards. For more information, see Priority.|  
+    |**Available Amount \(LCY\)**|The maximum amount that is available for payments in local currency.|  
+    |**Currency Filter**|The code for the currency to be included in the batch job.|  
 
 12. On the **Vendor** FastTab, select the appropriate filters.  
 

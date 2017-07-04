@@ -40,12 +40,12 @@
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_12431\_F\_1\_2 Period Beginning $\)**|Select the start date for the information that you want to include in the report.|  
-    |**\($ R\_12431\_F\_1\_4 Ending of Period $\)**|Select the end date for the information that you want to include in the report.|  
-    |**\($ R\_12431\_F\_1\_5 Without Double Entries $\)**|Specifies if you want to print the report without including double entries.|  
-    |**\($ R\_12431\_F\_1\_7 Without Account Title Type $\)**|Specifies if you want to print the report without including account titles.|  
-    |**\($ R\_12431\_F\_1\_9 Without Levels of Enclosure $\)**|Specifies if you want to print the report without including levels of enclosure.|  
-    |**\($ R\_12431\_F\_1\_11 Interim Total $\)**|Specifies if you want to print the report including interim totals.|  
+    |**Period Beginning**|Select the start date for the information that you want to include in the report.|  
+    |**Ending of Period**|Select the end date for the information that you want to include in the report.|  
+    |**Without Double Entries**|Specifies if you want to print the report without including double entries.|  
+    |**Without Account Title Type**|Specifies if you want to print the report without including account titles.|  
+    |**Without Levels of Enclosure**|Specifies if you want to print the report without including levels of enclosure.|  
+    |**Interim Total**|Specifies if you want to print the report including interim totals.|  
   
 ## See Also  
  Business Unit List   

@@ -22,7 +22,7 @@ The following procedure shows how to calculate future period expenses depreciati
   
 1.  In the **Search** box, enter **Calculate FE Depreciation**, and then choose the related link.  
   
-2.  On the **Options** tab, fill in the **\($ R\_17302\_F\_1\_11 Posting Date $\)** field for the depreciation.  
+2.  On the **Options** tab, fill in the **Posting Date** field for the depreciation.  
   
 3.  Choose the **OK** button.  
   

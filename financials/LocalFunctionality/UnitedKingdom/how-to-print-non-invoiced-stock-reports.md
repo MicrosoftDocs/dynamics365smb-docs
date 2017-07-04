@@ -30,8 +30,8 @@ You can use the following reports for month-end reconciliation and auditing:
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_10540\_N\_2\_1040000 Print details $\)**|Select to display the details that are printed in the report.|  
-    |**\($ R\_10540\_N\_2\_1040002 Ending Date $\)**|Specifies the end date.<br /><br /> **NOTE:** You can select the end date only in the **Stock Received not Invoiced** report.|  
+    |**Print details**|Select to display the details that are printed in the report.|  
+    |**Ending Date**|Specifies the end date.<br /><br /> **NOTE:** You can select the end date only in the **Stock Received not Invoiced** report.|  
   
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   

@@ -30,7 +30,7 @@
     |---------------------------------|---------------------------------------|  
     |**Name**|Specify the vendor’s name. This field is used by remittance against Bankernes Betalingssentral \(BBS\).|  
     |**Address**|Specify the vendor’s address. This field is used by remittance against BBS.|  
-    |**\($ T\_23\_6 Address 2 $\)**|Specify an additional line for the vendor’s address, if necessary. This field is used by remittance against BBS.|  
+    |**Address 2**|Specify an additional line for the vendor’s address, if necessary. This field is used by remittance against BBS.|  
     |**Post Code**|Specify a valid postal code of four digits for domestic remittance.|  
     |**Country\/Region Code**|Specify a valid country\/region code for a foreign address.|  
   
@@ -57,8 +57,8 @@
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Own vendor recipient ref.**|Select to use the recipient reference from the vendor.|  
-    |**\($ T\_23\_15000005 Recipient ref. 1 -- inv. $\)**|Enter the text that will print on the payment invoice.|  
-    |**\($ T\_23\_15000008 Recipient ref. 1 - cred. $\)**|Enter the text that will print on the payment invoice when deducting a credit memo.|  
+    |**Recipient ref. 1 -- inv.**|Enter the text that will print on the payment invoice.|  
+    |**Recipient ref. 1 - cred.**|Enter the text that will print on the payment invoice when deducting a credit memo.|  
   
      If remittance to BBS is used, the text from **Recipient ref. - inv.** and **Recipient ref. -cred.** is displayed on the payment specification in lines one through three, columns one and two. You can insert a maximum of 80 characters on the payment specification.  
   
@@ -86,7 +86,7 @@
     |---------------------------------|---------------------------------------|  
     |**SWIFT**|Enter the Society for Worldwide Interbank Financial Telecommunication \(SWIFT\) address by which the recipient’s bank is identified.|  
     |**Bank Name**|Specify the bank's name.|  
-    |**\($ T\_23\_15000017 Bank Address 1 $\)**|Specify the address of the recipient's bank.|  
+    |**Bank Address 1**|Specify the address of the recipient's bank.|  
     |**Rcpt. Bank Country\/Region Code**|Specify the country\/region code for the recipient. This field is required and must comply with ISO standards.|  
     |**SWIFT Remb. Bank**|Specify the SWIFT address for reimbursement that is the recipient’s corresponding bank.|  
   

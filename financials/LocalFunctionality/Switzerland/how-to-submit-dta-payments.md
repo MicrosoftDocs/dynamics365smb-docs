@@ -38,8 +38,8 @@ To submit DatenTrägerAustausch \(DTA\) payments to your bank for payment, you m
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ B\_3010541\_F\_1\_5 DTA Bank for File $\)**|Select the DTA bank code from which the information for the file name and backup copy is to be transferred. This field uses the main bank name as the default, but you can modify this information if you want.|  
-    |**\($ B\_3010541\_F\_1\_1 Combined payment for vendor $\)**|Specify if the payment lines that have the same vendor, currency, bank, and debit bank will be combined in the generated DTA file.|  
+    |**DTA Bank for File**|Select the DTA bank code from which the information for the file name and backup copy is to be transferred. This field uses the main bank name as the default, but you can modify this information if you want.|  
+    |**Combined payment for vendor**|Specify if the payment lines that have the same vendor, currency, bank, and debit bank will be combined in the generated DTA file.|  
   
 5.  Choose the **OK** button. The DTA file is generated in the predetermined folder.  
   
@@ -53,7 +53,7 @@ To submit DatenTrägerAustausch \(DTA\) payments to your bank for payment, you m
   
 3.  Select the required payment entry, and on the **Home** tab, in the **Process** group, select **DTA Payment Order**.  
   
-4.  In the **\($ B\_3010543\_F\_1\_1 Message $\)** field, enter a message for the bank, to be printed at the bottom of the payment order.  
+4.  In the **Message** field, enter a message for the bank, to be printed at the bottom of the payment order.  
   
 5.  Choose the **Print** button to print the DTA payment order or choose the **Preview** button to view it on the screen.  
   

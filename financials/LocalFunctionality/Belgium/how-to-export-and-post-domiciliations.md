@@ -34,9 +34,9 @@ You can submit domiciliations to your bank by exporting the data to a file. When
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_2000021\_F\_1\_11 Journal Template Name $\)**|Select the general journal template that the domiciliations will be posted from.|  
-    |**\($ R\_2000021\_F\_1\_7 Journal Batch $\)**|Select the general journal batch that the journal lines will be transferred from.|  
-    |**\($ R\_2000021\_F\_1\_3 Post General Journal Lines $\)**|Select to post to the general ledger.|  
+    |**Journal Template Name**|Select the general journal template that the domiciliations will be posted from.|  
+    |**Journal Batch**|Select the general journal batch that the journal lines will be transferred from.|  
+    |**Post General Journal Lines**|Select to post to the general ledger.|  
   
 4.  Choose the **OK** button to export the file.  
   
@@ -44,7 +44,7 @@ You can submit domiciliations to your bank by exporting the data to a file. When
   
 6.  Choose the **Yes** button to automatically post the domiciliation journal lines.  
   
-     If you did not select the **\($ R\_2000021\_F\_1\_3 Post General Journal Lines $\)** check box, you will have to post the domiciliations manually in the general journal.  
+     If you did not select the **Post General Journal Lines** check box, you will have to post the domiciliations manually in the general journal.  
   
     > [!NOTE]  
     >  After you have posted domiciliations in the general journal, delete the posted domiciliations in the **Domiciliation Journal** window. To do this, select all lines with status **Posted**, choose **Actions**, and then choose the **Delete** button.  
@@ -59,12 +59,12 @@ You can submit domiciliations to your bank by exporting the data to a file. When
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_2000021\_F\_1\_11 Journal Template Name $\)**|Select the general journal template that the domiciliations will be posted from.|  
-    |**\($ R\_2000021\_F\_1\_7 Journal Batch $\)**|Select the general journal batch that the journal lines will be transferred from.|  
-    |**\($ R\_2000021\_F\_1\_3 Post General Journal Lines $\)**|Select to post to the general ledger.|  
-    |**\($ R\_2000021\_F\_1\_5 Pivot Date $\)**|Enter a pivot date if you want a date that differs from the posting date on the domiciliation lines. The date entered will overwrite the posting date on the selected journal lines.|  
-    |**\($ R\_2000021\_F\_1\_9 Inscription No. $\)**|Enter the inscription number that is on the intra-community declaration disk. The number is included in the file and on the accompanying note.|  
-    |**\($ R\_2000021\_F\_1\_1 File Name $\)**|Enter the name of the export file that you are creating.|  
+    |**Journal Template Name**|Select the general journal template that the domiciliations will be posted from.|  
+    |**Journal Batch**|Select the general journal batch that the journal lines will be transferred from.|  
+    |**Post General Journal Lines**|Select to post to the general ledger.|  
+    |**Pivot Date**|Enter a pivot date if you want a date that differs from the posting date on the domiciliation lines. The date entered will overwrite the posting date on the selected journal lines.|  
+    |**Inscription No.**|Enter the inscription number that is on the intra-community declaration disk. The number is included in the file and on the accompanying note.|  
+    |**File Name**|Enter the name of the export file that you are creating.|  
   
 4.  Choose the **Print** button to export the domiciliations and print the accompanying note, or choose the **Preview** button to view it on the screen. If you do not want to export the file now, choose the **Cancel** button.  
   
@@ -72,7 +72,7 @@ You can submit domiciliations to your bank by exporting the data to a file. When
   
 6.  Choose the **Yes** button to automatically post the domiciliation journal lines.  
   
-     If you did not select the **\($ R\_2000021\_F\_1\_3 Post General Journal Lines $\)** check box, you will have to post the domiciliations manually in the general journal.  
+     If you did not select the **Post General Journal Lines** check box, you will have to post the domiciliations manually in the general journal.  
   
     > [!NOTE]  
     >  After you have posted domiciliations in the general journal, delete the posted domiciliations in the **Domiciliation Journal** window. To do this, select all lines with status **Posted**, choose **Actions**, and then choose the **Delete** button.  

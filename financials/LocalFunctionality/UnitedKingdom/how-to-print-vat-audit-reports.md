@@ -30,12 +30,12 @@ All vendors must export the data required for auditing in a Content Separated Va
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ B\_10512\_N\_2\_2 Export Customers $\)**|Select to export the file to the **Customer** table.|  
-    |**\($ B\_10512\_N\_2\_8 Export Open Payments $\)**|Select to export the open credit entries.|  
-    |**\($ B\_10512\_N\_2\_12 Export Late Invoicing $\)**|Select to export customer entries that took longer to invoice than the number of days specified in the **\($ B\_10512\_N\_2\_21 Late Invoice Delay \(Days\) $\)** field.|  
-    |**\($ B\_10512\_N\_2\_21 Late Invoice Delay \(Days\) $\)**|Enter the number of days between the invoice issue date and the payment received date. If the **\($ B\_10512\_N\_2\_12 Export Late Invoicing $\)** field is selected, entries exceeding this limit will be exported.|  
-    |**\($ B\_10512\_N\_2\_15 Export Vendors $\)**|Select to export the file to the **Vendor** table.|  
-    |**\($ B\_10512\_N\_2\_16 Export VAT Entries $\)**|Select to export the entries in the **VAT Entry** table.|  
+    |**Export Customers**|Select to export the file to the **Customer** table.|  
+    |**Export Open Payments**|Select to export the open credit entries.|  
+    |**Export Late Invoicing**|Select to export customer entries that took longer to invoice than the number of days specified in the **Late Invoice Delay \(Days\)** field.|  
+    |**Late Invoice Delay \(Days\)**|Enter the number of days between the invoice issue date and the payment received date. If the **Export Late Invoicing** field is selected, entries exceeding this limit will be exported.|  
+    |**Export Vendors**|Select to export the file to the **Vendor** table.|  
+    |**Export VAT Entries**|Select to export the entries in the **VAT Entry** table.|  
   
     > [!NOTE]  
     >  You must select at least one check box in this window.  
@@ -52,13 +52,13 @@ All vendors must export the data required for auditing in a Content Separated Va
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ B\_10511\_N\_2\_1040004 VAT Base Discount $\)**|Select if you want to enter a value in the **\($ B\_10511\_N\_2\_1040001 VAT Base Discount % $\)** field.|  
-    |**\($ B\_10511\_N\_2\_1040007 Manual VAT Difference $\)**|Select if you want to enter a value in the **\($ B\_10511\_N\_2\_1040003 Manual VAT Difference $\)** field.|  
-    |**\($ B\_10511\_N\_2\_1040009 VAT Calculation Types $\)**|Select to determine the VAT calculation type.|  
-    |**\($ B\_10511\_N\_2\_1040010 VAT Rate $\)**|Select to determine the VAT rate for a particular journal line.|  
-    |**\($ B\_10511\_N\_2\_1040001 VAT Base Discount % $\)**|Enter a value in this field if you have selected the **\($ B\_10511\_N\_2\_1040004 VAT Base Discount $\)** field.|  
-    |**\($ B\_10511\_N\_2\_1040003 Manual VAT Difference $\)**|Enter a value in this field if you have selected the **\($ B\_10511\_N\_2\_1040003 Manual VAT Difference $\)** field.|  
-    |**\($ B\_10511\_N\_2\_1040012 VAT Rate % Difference $\)**|Specify the maximum VAT rate difference.|  
+    |**VAT Base Discount**|Select if you want to enter a value in the **VAT Base Discount %** field.|  
+    |**Manual VAT Difference**|Select if you want to enter a value in the **Manual VAT Difference** field.|  
+    |**VAT Calculation Types**|Select to determine the VAT calculation type.|  
+    |**VAT Rate**|Select to determine the VAT rate for a particular journal line.|  
+    |**VAT Base Discount %**|Enter a value in this field if you have selected the **VAT Base Discount** field.|  
+    |**Manual VAT Difference**|Enter a value in this field if you have selected the **Manual VAT Difference** field.|  
+    |**VAT Rate % Difference**|Specify the maximum VAT rate difference.|  
   
     > [!NOTE]  
     >  You must select at least one check box in this window.  

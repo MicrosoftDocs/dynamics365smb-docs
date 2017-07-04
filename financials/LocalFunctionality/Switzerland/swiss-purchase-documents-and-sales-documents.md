@@ -40,7 +40,7 @@
  For purchase invoices and sales invoices, the invoice amount is reduced by the discount amount, and then rounded. The invoice total is also rounded if there is a discount. For more information, see the General Ledger Setup table.  
   
 ### Shipment Documents  
- In the **Sales & Receivables Setup** window, the **Shipment on Ship and Invoice** field is used to turn off printing of additional shipment documents for purchase invoices and sales invoices. When you post an order, a posted shipment and a posted invoice are automatically created. If the printed invoice is also used as a shipment document, additional shipment documentation does not need to be printed. You can turn off printing of additional shipment documents for purchase invoices and sales invoices by clearing the **Shipment on Ship and Invoice** field in the **Sales & Receivables Setup** window. For more information, see the [\($ T\_311 Sales & Receivables Setup $\)](\($%20T_311%20Sales%20&%20Receivables%20Setup%20$\).md) table.  
+ In the **Sales & Receivables Setup** window, the **Shipment on Ship and Invoice** field is used to turn off printing of additional shipment documents for purchase invoices and sales invoices. When you post an order, a posted shipment and a posted invoice are automatically created. If the printed invoice is also used as a shipment document, additional shipment documentation does not need to be printed. You can turn off printing of additional shipment documents for purchase invoices and sales invoices by clearing the **Shipment on Ship and Invoice** field in the **Sales & Receivables Setup** window. For more information, see the Sales & Receivables Setup table.  
   
 ## See Also  
  [How to: Set Up Automatic Archiving of Documents in Switzerland](how-to-set-up-automatic-archiving-of-documents-in-switzerland.md)   
@@ -56,6 +56,6 @@
  Sales Quote   
  Purchase Line   
  Purch. Inv. Line   
- [\($ T\_311 Sales & Receivables Setup $\)](\($%20T_311%20Sales%20&%20Receivables%20Setup%20$\).md)   
+ Sales & Receivables Setup   
  General Ledger Setup   
  [Switzerland Local Functionality](switzerland-local-functionality.md)

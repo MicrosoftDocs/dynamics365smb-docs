@@ -28,15 +28,15 @@ The **Intrastat - Form** report must be used for reporting to Intrastat. In Belg
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_501\_F\_1\_1010002 Name $\)**|Enter the company name.|  
-    |**\($ R\_501\_F\_1\_1010004 Address $\)**|Enter the address.|  
-    |**\($ R\_501\_F\_1\_1010006 Post Code \+ City $\)**|Enter the postal code and the city.|  
-    |**\($ R\_501\_F\_1\_1010008 Contact $\)**|Enter the name of the contact person.|  
-    |**\($ R\_501\_F\_1\_1010010 Telephone $\)**|Enter the telephone number of the contact person.|  
-    |**\($ R\_501\_F\_1\_1010012 Telefax $\)**|Enter the telefax number.|  
-    |**\($ R\_501\_F\_1\_1010014 International VAT number $\)**|Enter the international VAT registration number.|  
-    |**\($ R\_501\_F\_1\_1010019 Nihil declaration $\)**|Select if you do not have any trade transactions with EU countries and want to send an empty declaration. When selected, the message "NIHIL" displays in the **Message** field.|  
-    |**\($ R\_501\_F\_1\_1010017 Message $\)**|Enter a message to be printed on the Intrastat declaration, such as "regular declaration" or "replacement declaration".|  
+    |**Name**|Enter the company name.|  
+    |**Address**|Enter the address.|  
+    |**Post Code \+ City**|Enter the postal code and the city.|  
+    |**Contact**|Enter the name of the contact person.|  
+    |**Telephone**|Enter the telephone number of the contact person.|  
+    |**Telefax**|Enter the telefax number.|  
+    |**International VAT number**|Enter the international VAT registration number.|  
+    |**Nihil declaration**|Select if you do not have any trade transactions with EU countries and want to send an empty declaration. When selected, the message "NIHIL" displays in the **Message** field.|  
+    |**Message**|Enter a message to be printed on the Intrastat declaration, such as "regular declaration" or "replacement declaration".|  
   
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   

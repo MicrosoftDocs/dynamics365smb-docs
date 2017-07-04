@@ -57,4 +57,4 @@ You can import payroll transactions into a general journal from two external pay
  General Journal   
  Payroll Integration Setup   
  Import Hogia Windows Payroll   
- [\($ B\_15000066 Import Huldt & Lillevik $\)](-$-b_15000066-import-huldt-lillevik-$-.md)
+ Import Huldt & Lillevik

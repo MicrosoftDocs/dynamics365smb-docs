@@ -28,8 +28,8 @@ You can use the **Income Statement** report to view the company’s annual incom
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_28025\_N\_2\_1450002 Amounts in whole $\)**|Specifies the nearest unit to which the amount must be rounded.|  
-    |**\($ R\_28025\_N\_2\_1450001 Show Amounts in Add. Reporting Currency $\)**|Specifies if the amounts will be displayed in the additional reporting currency.|  
+    |**Amounts in whole**|Specifies the nearest unit to which the amount must be rounded.|  
+    |**Show Amounts in Add. Reporting Currency**|Specifies if the amounts will be displayed in the additional reporting currency.|  
   
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   

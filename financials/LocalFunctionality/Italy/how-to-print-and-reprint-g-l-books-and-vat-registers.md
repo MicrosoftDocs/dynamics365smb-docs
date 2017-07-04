@@ -28,11 +28,11 @@ The tax authorities require that you submit two fiscal reports that list all of 
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_12121\_N\_2\_1130006 Report Type $\)**|Select the type of report to create.<br /><br /> If you select **Reprint**, the **\($ R\_12121\_N\_2\_1130000 From Progressive No. $\)** field becomes enabled.|  
-    |**\($ R\_12121\_N\_2\_1130004 Starting Date $\)**|Enter the first date in the period from which posted entries will be shown.|  
-    |**\($ R\_12121\_N\_2\_1130002 Ending Date $\)**|Enter the last date in the period from which posted entries will be shown.|  
-    |**\($ R\_12121\_N\_2\_1130000 From Progressive No. $\)**|Specifies the progressive number for the report.|  
-    |**\($ R\_12121\_N\_2\_1130108 Print Company Information $\)**|Select to print company information on the report.<br /><br /> The remaining fields are populated based on the **Company Information** window.|  
+    |**Report Type**|Select the type of report to create.<br /><br /> If you select **Reprint**, the **From Progressive No.** field becomes enabled.|  
+    |**Starting Date**|Enter the first date in the period from which posted entries will be shown.|  
+    |**Ending Date**|Enter the last date in the period from which posted entries will be shown.|  
+    |**From Progressive No.**|Specifies the progressive number for the report.|  
+    |**Print Company Information**|Select to print company information on the report.<br /><br /> The remaining fields are populated based on the **Company Information** window.|  
   
      When you print the report, you will be reminded to update the **General Ledger Setup** window with the page number on the last page.  
   

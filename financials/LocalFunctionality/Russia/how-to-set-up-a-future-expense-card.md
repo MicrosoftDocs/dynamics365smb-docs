@@ -28,7 +28,7 @@ To account for future period expenses you have to set up a future expense card.
     |---------------------------------|---------------------------------------|  
     |**No.**|Specifies the number that is associated with the future expense.|  
     |**Description**|Specifies the description of the future expense.|  
-    |**\($ T\_5600\_4 Description 2 $\)**|Specifies an additional description of the future expense.|  
+    |**Description 2**|Specifies an additional description of the future expense.|  
     |**Tax Difference Code**|Specifies the tax difference code that is associated with the future expense.|  
     |**Unrealized VAT Amount**|Specifies the unrealized VAT amount that is associated with the future expense.|  
     |**Search Description**|Specifies the search description for the future expense.|  

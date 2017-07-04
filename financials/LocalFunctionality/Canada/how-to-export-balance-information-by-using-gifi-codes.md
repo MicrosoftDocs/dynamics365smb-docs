@@ -26,10 +26,10 @@ You can export balance information using General Index of Financial Information 
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ B\_10005\_F\_1\_1020000 Balance As of Date $\)**|The balance as of the specified date.|  
-    |**\($ B\_10005\_F\_1\_1020006 Use Add. Rpt. Currency $\)**|Select to display the amounts in additional reporting currency.|  
-    |**\($ B\_10005\_F\_1\_1020004 Include GIFI Name $\)**|Select to include the GIFI name in the file.|  
-    |**\($ B\_10005\_F\_1\_1020002 Include Unused Codes $\)**|Select to include the unused codes in the file.|  
+    |**Balance As of Date**|The balance as of the specified date.|  
+    |**Use Add. Rpt. Currency**|Select to display the amounts in additional reporting currency.|  
+    |**Include GIFI Name**|Select to include the GIFI name in the file.|  
+    |**Include Unused Codes**|Select to include the unused codes in the file.|  
   
 3.  On the **G\/L Account** FastTab, select the appropriate filters.  
   

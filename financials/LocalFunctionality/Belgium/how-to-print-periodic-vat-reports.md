@@ -28,7 +28,7 @@ The VAT reporting feature enables you to print VAT transaction details. You must
   
 1.  In the **Search** box, enter **Form\/Intervat Declaration**, and then choose the related link.  
   
-2.  In the **\($ R\_11307 VAT – Form $\)** window, fill in the fields.  
+2.  In the **VAT – Form** window, fill in the fields.  
   
     |Field|Description|  
     |---
@@ -48,12 +48,12 @@ The VAT reporting feature enables you to print VAT transaction details. You must
     ms.author: sgroespe
 
 ---------------------------------|---------------------------------------|  
-    |**\($ R\_11308\_F\_1\_3 Wrong Enterprise No. $\)**|Specifies if you want to print the report that has erroneous enterprise numbers.|  
-    |**\($ R\_11308\_F\_1\_5 VAT Annual Listing $\)**|Specifies if you want to print the **VAT Annual Listing** report.|  
-    |**\($ R\_11308\_F\_1\_6 Year $\)**|Enter the year of the period for which you want to print the report. You should enter the year as a 4 digit code. For example, to print a declaration for 2013, you should enter "2013" \(instead of "13"\).|  
-    |**\($ R\_11308\_F\_1\_8 Minimum Amount $\)**|Enter the customer's minimum year balance to be included in the report. If the yearly balance of the customer is less than the minimum amount, the customer will not be included in the declaration.|  
-    |**\($ R\_11308\_F\_1\_10 Include Customers From $\)**|Select to include customers from all countries\/regions or from a specific country\/region in the report.|  
-    |**\($ R\_11308\_F\_1\_13 Country\/Region $\)**|Select the country\/region to include in the report.|  
+    |**Wrong Enterprise No.**|Specifies if you want to print the report that has erroneous enterprise numbers.|  
+    |**VAT Annual Listing**|Specifies if you want to print the **VAT Annual Listing** report.|  
+    |**Year**|Enter the year of the period for which you want to print the report. You should enter the year as a 4 digit code. For example, to print a declaration for 2013, you should enter "2013" \(instead of "13"\).|  
+    |**Minimum Amount**|Enter the customer's minimum year balance to be included in the report. If the yearly balance of the customer is less than the minimum amount, the customer will not be included in the declaration.|  
+    |**Include Customers From**|Select to include customers from all countries\/regions or from a specific country\/region in the report.|  
+    |**Country\/Region**|Select the country\/region to include in the report.|  
   
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen. Choose the **Cancel** button to save the information without printing the report.  
   
@@ -61,7 +61,7 @@ The VAT reporting feature enables you to print VAT transaction details. You must
   
 1.  In the Search box, enter **Annual Listing – Disk**, and then enter the related link.  
   
-2.  In the **\($ R\_11309 VAT Annual Listing – Disk $\)** window, fill in the fields as described in the following table.  
+2.  In the **VAT Annual Listing – Disk** window, fill in the fields as described in the following table.  
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

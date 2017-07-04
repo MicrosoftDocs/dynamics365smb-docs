@@ -36,7 +36,7 @@ Payment journal line information for the remittance payment is set up in the **P
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_81\_15000004 Recipient Ref. 1 – 3 $\)**|Specify the payment text which is sent to the vendor.|  
+    |**Recipient Ref. 1 – 3**|Specify the payment text which is sent to the vendor.|  
     |**KID \(Cust. id number\)**|Specify the number sent to the vendor during payment.|  
     |**Our Account. No.**|Specify the account number for your company.|  
     |**External Document No.**|Specify the number of the external document.|  

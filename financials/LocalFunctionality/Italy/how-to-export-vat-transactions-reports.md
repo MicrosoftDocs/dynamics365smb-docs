@@ -43,7 +43,7 @@ After you create a report, you can release it, and then export it for the author
   
 5.  On the **Home** tab, in the **Process** group, choose **Export**. The **Export VAT Transactions** batch job opens.  
   
-6.  Select the **\($ B\_12193\_N\_2\_1130000 Detailed Export $\)** check box, depending on your needs. The field controls whether to export the data in detailed format or in aggregate. If aggregate, lines are further grouped by VAT registration number or fiscal code.  
+6.  Select the **Detailed Export** check box, depending on your needs. The field controls whether to export the data in detailed format or in aggregate. If aggregate, lines are further grouped by VAT registration number or fiscal code.  
   
 7.  Choose the **OK** button. The VAT report is exported as a .ccf file. You can now submit the report to the tax authorities by using the tool from the Italian Revenue Agency. Use the guidelines provided by the authority. For more information, see the [Italian Revenue Agency](http://go.microsoft.com/fwlink/?LinkID=206524).  
   

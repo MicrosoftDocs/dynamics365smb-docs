@@ -41,12 +41,12 @@ You can use the export remittance payments process to export the payments file t
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_15000050\_F\_1\_13 Remittance agreement code $\)**|Specify the code for the agreement.|  
-    |**\($ R\_15000050\_F\_1\_3 Operator $\)**|Specify the operator number.|  
-    |**\($ R\_15000050\_F\_1\_5 Password $\)**|Specify the password for the payments.|  
-    |**\($ R\_15000050\_F\_1\_9 Division $\)**|Specify the division that is paying remittance.|  
-    |**\($ R\_15000050\_F\_1\_1 Current note $\)**|Specify a note for the payment.|  
-    |**\($ R\_15000050\_F\_1\_8 Filename $\)**|Specify the name and directory of the payment file.|  
+    |**Remittance agreement code**|Specify the code for the agreement.|  
+    |**Operator**|Specify the operator number.|  
+    |**Password**|Specify the password for the payments.|  
+    |**Division**|Specify the division that is paying remittance.|  
+    |**Current note**|Specify a note for the payment.|  
+    |**Filename**|Specify the name and directory of the payment file.|  
   
 5.  Choose the **OK** button.  
   

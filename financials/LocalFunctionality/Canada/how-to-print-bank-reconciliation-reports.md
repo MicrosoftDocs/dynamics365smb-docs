@@ -20,7 +20,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can print the followin
   
 -   **Bank Rec. Test Report** - Displays the list of errors that are found in the bank reconciliation statement. You can generate this report before you post the bank reconciliation statement to make sure that there are no errors in the statement.  
   
--   **\($ R\_10409 Bank Account – Reconcile $\) report** - Displays the reconciliation details for each bank account. This report lists deposits, withdrawals, and adjustments for a bank account.  
+-   **Bank Account – Reconcile** - Displays the reconciliation details for each bank account. This report lists deposits, withdrawals, and adjustments for a bank account.  
   
 ### To print a bank reconciliation test report  
   
@@ -32,12 +32,12 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can print the followin
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_10407\_F\_1\_1020010 Print details $\)**|Select to print reconciliation details in the report. If you select this check box, all of the other print check boxes are automatically selected. You can clear a check box if you do not want to include its details in the report.|  
-    |**\($ R\_10407\_F\_1\_1020008 Print checks $\)**|Select to print check details in the report.|  
-    |**\($ R\_10407\_F\_1\_1020006 Print deposits $\)**|Select to print deposit details in the report.|  
-    |**\($ R\_10407\_F\_1\_1020004 Print adjustments $\)**|Select to print adjustment details in the report.|  
-    |**\($ R\_10407\_F\_1\_1020000 Print outstanding checks $\)**|Select to print outstanding check details in the report.|  
-    |**\($ R\_10407\_F\_1\_1020002 Print outstanding deposits $\)**|Select to print outstanding deposit details in the report.|  
+    |**Print details**|Select to print reconciliation details in the report. If you select this check box, all of the other print check boxes are automatically selected. You can clear a check box if you do not want to include its details in the report.|  
+    |**Print checks**|Select to print check details in the report.|  
+    |**Print deposits**|Select to print deposit details in the report.|  
+    |**Print adjustments**|Select to print adjustment details in the report.|  
+    |**Print outstanding checks**|Select to print outstanding check details in the report.|  
+    |**Print outstanding deposits**|Select to print outstanding deposit details in the report.|  
   
 4.  On the **Bank Rec. Header** FastTab, select the appropriate filters.  
   

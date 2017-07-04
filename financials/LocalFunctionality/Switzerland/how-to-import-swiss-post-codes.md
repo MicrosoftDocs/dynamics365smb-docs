@@ -24,7 +24,7 @@ You can import the latest post code file and use it to update the **Post Code** 
   
 2.  On the **Home** tab, in the **Process** group, choose **Import Post Codes**.  
   
-3.  In the **Import Post Codes** window, in the **\($ B\_11502\_F\_1\_1150002 Filename $\)** field, enter the name of the post code file that you want to import to the **Post Code** table.  
+3.  In the **Import Post Codes** window, in the **Filename** field, enter the name of the post code file that you want to import to the **Post Code** table.  
   
 4.  Choose the **OK** button.  
   

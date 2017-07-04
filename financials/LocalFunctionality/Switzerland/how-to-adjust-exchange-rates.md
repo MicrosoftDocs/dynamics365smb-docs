@@ -43,9 +43,9 @@ If you have taxable sales in a foreign currency, you must use the official rate 
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ B\_595\_F\_1\_1 Starting Date $\)**|Enter a date to specify the beginning of the period for which entries will be adjusted.|  
-    |**\($ B\_595\_F\_1\_2 Ending Date $\)**|Enter the last date for which entries will be adjusted. This date is typically the same as the posting date in the **\($ B\_595\_F\_1\_4 Posting Date $\)** field.|  
-    |**\($ B\_595\_F\_1\_1150001 Adjust VAT exch. rate $\)**|Specify if you want to adjust the VAT exchange rate.|  
+    |**Starting Date**|Enter a date to specify the beginning of the period for which entries will be adjusted.|  
+    |**Ending Date**|Enter the last date for which entries will be adjusted. This date is typically the same as the posting date in the **Posting Date** field.|  
+    |**Adjust VAT exch. rate**|Specify if you want to adjust the VAT exchange rate.|  
   
 7.  Choose the **Print** button to start the batch job. This batch job controls whether VAT entries have to be adjusted and prepares an adjusting entry for each of these entries for the Unrealized\/Realized Exchange Rate Adjustment accounts. The existing VAT entries are also corrected.  
   

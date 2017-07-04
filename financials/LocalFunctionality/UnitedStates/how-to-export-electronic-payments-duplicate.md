@@ -31,11 +31,11 @@ You can use the Export Electronic Payments report to export payment journal entr
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_10083\_F\_1\_1 Bank Account No. $\)**|Enter the bank account from which these payments will be taken.|  
-    |**\($ R\_10083\_F\_1\_3 Settle Date $\)**|Enter the settle date that will be transmitted to the bank. This date will become the posting date for the exported payment journal entries. Transmission should occur two or three banking days before the settle date. Ask your bank for the exact number of days.|  
-    |**\($ R\_10083\_F\_1\_8 If Posting Date does not match Settle Date $\)**|Select what will occur if the posting date does not match the settle date. The options are to change the posting date to match the entered settle date, or to skip any payment journal lines where the entered posting date does not match the settle date.|  
-    |**\($ R\_10083\_F\_1\_5 Number of Copies $\)**|Enter the number of additional copies of the remittance advice that will be printed by this process. One document is always printed to mail to the payee, but additional copies can be printed if they are needed.|  
-    |**\($ R\_10083\_F\_1\_10 Print Company Address $\)**|Select if you want the company address printed on the remittance advice. If not selected, the remittance advice already has the company address preprinted on it.|  
+    |**Bank Account No.**|Enter the bank account from which these payments will be taken.|  
+    |**Settle Date**|Enter the settle date that will be transmitted to the bank. This date will become the posting date for the exported payment journal entries. Transmission should occur two or three banking days before the settle date. Ask your bank for the exact number of days.|  
+    |**If Posting Date does not match Settle Date**|Select what will occur if the posting date does not match the settle date. The options are to change the posting date to match the entered settle date, or to skip any payment journal lines where the entered posting date does not match the settle date.|  
+    |**Number of Copies**|Enter the number of additional copies of the remittance advice that will be printed by this process. One document is always printed to mail to the payee, but additional copies can be printed if they are needed.|  
+    |**Print Company Address**|Select if you want the company address printed on the remittance advice. If not selected, the remittance advice already has the company address preprinted on it.|  
   
 4.  On the **Gen. Journal Line** FastTab, select the appropriate filters.  
   

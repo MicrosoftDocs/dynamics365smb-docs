@@ -41,10 +41,10 @@ You can use **LSV Journals** to create and process payments from Lastschrift Ver
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ B\_3010831\_F\_1\_9 No. $\)**|Enter the LSV journal number.|  
-    |**\($ B\_3010831\_F\_1\_7 From due date $\)**|Specify the starting due date of open entries to be suggested for collection.|  
-    |**\($ B\_3010831\_F\_1\_1 To due date $\)**|Specify the ending due date of open entries to be suggested for collection.|  
-    |**\($ B\_3010831\_F\_1\_3 Collection date $\)**|Specify the date on which the collection closes. The LSV\+ order must be submitted at least three banking days before the collection date.|  
+    |**No.**|Enter the LSV journal number.|  
+    |**From due date**|Specify the starting due date of open entries to be suggested for collection.|  
+    |**To due date**|Specify the ending due date of open entries to be suggested for collection.|  
+    |**Collection date**|Specify the date on which the collection closes. The LSV\+ order must be submitted at least three banking days before the collection date.|  
   
 6.  Choose the **OK** button.  
   

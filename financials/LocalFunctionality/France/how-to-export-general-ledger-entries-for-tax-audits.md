@@ -37,13 +37,13 @@ The standard audit file for tax purposes records key business information \(tran
   
 1.  In the **Search** box, enter **Export G\/L Entries – Tax Audit**, and then choose the relevant link.  
   
-2.  In the **\($ R\_10883 Export G\/L Entries – Tax Audit $\)** window, on the **Options** FastTab, fill in the fields as described in the following table.  
+2.  In the **Export G\/L Entries – Tax Audit** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_10885\_N\_2\_1120010 Starting Date $\)**|Enter the date to use as the starting date for the time period to be covered by the audit.|  
-    |**\($ R\_10885\_N\_2\_1120008 Ending Date $\)**|Enter the date to use as the ending date for the time period to be covered by the audit.|  
-    |**\($ R\_10885\_N\_2\_1120012 Include Opening Balances $\)**|Select if you want to include opening balances in the audit report file. The balances are calculated as of the date before the first date of the period covered by the report.|  
+    |**Starting Date**|Enter the date to use as the starting date for the time period to be covered by the audit.|  
+    |**Ending Date**|Enter the date to use as the ending date for the time period to be covered by the audit.|  
+    |**Include Opening Balances**|Select if you want to include opening balances in the audit report file. The balances are calculated as of the date before the first date of the period covered by the report.|  
   
 3.  Choose the **OK** button to export the file.  
   

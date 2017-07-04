@@ -50,7 +50,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can print the sales re
   
 4.  Select a paper source from the **First Page - Paper Source** field.  
   
-5.  The **\($ T\_78\_10601 First Page – Tray Number $\)** field will automatically display the selected paper source. You can also manually enter a tray number.  
+5.  The **First Page – Tray Number** field will automatically display the selected paper source. You can also manually enter a tray number.  
   
     > [!IMPORTANT]  
     >  Not all printers will have the same paper source names. You can specify a number in the **Tray Number** field. The number may correspond to a paper source. To find the number that a specific printer is using, see the technical documentation for the printer.  

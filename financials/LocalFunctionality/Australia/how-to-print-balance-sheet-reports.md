@@ -28,7 +28,7 @@ You can use the **Balance Sheet** report to view the company’s balance sheet.
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_28024\_N\_2\_1500000 Amounts in whole $\)**|Specifies the nearest unit to which the amounts must be rounded.|  
+    |**Amounts in whole**|Specifies the nearest unit to which the amounts must be rounded.|  
   
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   

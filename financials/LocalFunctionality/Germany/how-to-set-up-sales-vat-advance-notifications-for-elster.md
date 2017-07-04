@@ -62,10 +62,10 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], to submit valid sales VAT 
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ T\_11013\_8 HTTP Server URL 1 $\)**|Specifies a server of the Oberfinanzdirektion \(OFD\), such as **http:\/\/datenannahme1.elster.de\/Elster2\/EMS**.|  
-    |**\($ T\_11013\_9 HTTP Server URL 2 $\)**|Specifies a server of the OFD, such as **http:\/\/datenannahme2.elster.de\/Elster2\/EMS**.|  
-    |**\($ T\_11013\_10 HTTP Server URL 3 $\)**|Specifies a server of the OFD, such as **http:\/\/datenannahme3.elster.de\/Elster2\/EMS**.|  
-    |**\($ T\_11013\_10 HTTP Server URL 4 $\)**|Specifies a server of the OFD, such as **http:\/\/datenannahme4.elster.de\/Elster2\/EMS**.|  
+    |**HTTP Server URL 1**|Specifies a server of the Oberfinanzdirektion \(OFD\), such as **http:\/\/datenannahme1.elster.de\/Elster2\/EMS**.|  
+    |**HTTP Server URL 2**|Specifies a server of the OFD, such as **http:\/\/datenannahme2.elster.de\/Elster2\/EMS**.|  
+    |**HTTP Server URL 3**|Specifies a server of the OFD, such as **http:\/\/datenannahme3.elster.de\/Elster2\/EMS**.|  
+    |**HTTP Server URL 4**|Specifies a server of the OFD, such as **http:\/\/datenannahme4.elster.de\/Elster2\/EMS**.|  
   
      Now you must specify the users who can submit documents to the ELSTER portal.  
   

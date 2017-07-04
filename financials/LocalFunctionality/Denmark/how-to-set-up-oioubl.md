@@ -20,9 +20,9 @@ You must define a location for storing Offentlig Information Online UBL \(OIOUBL
   
 ### To set up OIOUBL file locations for sales and receivables  
   
-1.  In the **Search** box, enter **\($ N\_459 Sales & Receivables Setup $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Sales & Receivables Setup**, and then choose the related link.  
   
-2.  In the **\($ N\_459 Sales & Receivables Setup $\)** window, on the **OIOUBL** FastTab, in the **Output Paths** section, fill in the fields as described in the following table.  
+2.  In the **Sales & Receivables Setup** window, on the **OIOUBL** FastTab, in the **Output Paths** section, fill in the fields as described in the following table.  
   
     |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  
@@ -97,7 +97,7 @@ You must define a location for storing Offentlig Information Online UBL \(OIOUBL
  [OIOUBL Electronic Invoicing Overview](oioubl-electronic-invoicing-overview.md)   
  [How to: Set Up Customers for OIOUBL](how-to-set-up-customers-for-oioubl.md)   
  Payment Methods   
- [\($ N\_459 Sales & Receivables Setup $\)](-$-n_459-sales-receivables-setup-$.md)   
+ Sales & Receivables Setup   
  Service Mgt. Setup   
  Countries\/Regions   
  Item Charges

@@ -56,7 +56,7 @@ When you sell goods or services to a customer in the public sector, you must sub
   
 4.  Optionally, in the **Create Electronic Invoices** window, set additional filters, and then choose the **OK** button.  
   
- An XML file is created and stored at the location that was defined in the **\($ N\_459 Sales & Receivables Setup $\)** window. You can now submit the document to the customer.  
+ An XML file is created and stored at the location that was defined in the **Sales & Receivables Setup** window. You can now submit the document to the customer.  
   
 ## See Also  
  [How to: Set Up OIOUBL](how-to-set-up-oioubl.md)   

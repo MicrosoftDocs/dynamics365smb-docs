@@ -33,8 +33,8 @@ At the end of the fiscal year, you must adjust currency exchange rates for payab
   
 |Field|Description|  
 |---------------------------------|---------------------------------------|  
-|**\($ B\_595\_N\_2\_1140011 Valuation Reference Date $\)**|Specifies the base date that is used to calculate which entries are short-term entries.|  
-|**\($ B\_595\_N\_2\_1140013 Short term liabilities until $\)**|Specifies the date that separates short-term entries from long-term entries. Short-term entries have a due date that is before or on this date. The default value is the value of the **\($ B\_595\_N\_2\_1140011 Valuation Reference Date $\)** field plus one year.|  
+|**Valuation Reference Date**|Specifies the base date that is used to calculate which entries are short-term entries.|  
+|**Short term liabilities until**|Specifies the date that separates short-term entries from long-term entries. Short-term entries have a due date that is before or on this date. The default value is the value of the **Valuation Reference Date** field plus one year.|  
   
 ## See Also  
  Adjust Exchange Rates   

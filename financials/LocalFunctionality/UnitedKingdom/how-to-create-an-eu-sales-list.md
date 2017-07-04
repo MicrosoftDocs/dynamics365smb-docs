@@ -30,8 +30,8 @@ Companies that run VAT-registered businesses and sell or move goods to other VAT
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_130\_N\_2\_1 Print Third Party Trade As $\)**|Specify how you want to print third-party trade. Choose **Separate Lines** to create the report with third-party trade as a separate line for each customer. Choose **Column with Amount** to create the report with third-party trade as an additional column.|  
-    |**\($ R\_130\_N\_2\_1000004 Create XML File $\)**|Select to create an electronic version of the **EC Sales List** report in XML file format.|  
+    |**Print Third Party Trade As**|Specify how you want to print third-party trade. Choose **Separate Lines** to create the report with third-party trade as a separate line for each customer. Choose **Column with Amount** to create the report with third-party trade as an additional column.|  
+    |**Create XML File**|Select to create an electronic version of the **EC Sales List** report in XML file format.|  
   
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   

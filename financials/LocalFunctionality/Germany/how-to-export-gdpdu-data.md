@@ -28,9 +28,9 @@ You can export financial data and tax data according to the process for data acc
   
     |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../../includes/bp_tabledescription_md.md)]-->|  
     |----------------------------------|---------------------------------------|  
-    |**\($ B\_11015\_N\_2\_1140000 Starting Date $\)**|Specifies the start date for the data export.<br /><br /> **NOTE:** If the data export source ../../includes period fields, the start date and the end date are used as filter values for the period fields.|  
-    |**\($ B\_11015\_N\_2\_1140002 Ending Date $\)**|Specifies the end date for the data export.|  
-    |**\($ B\_11015\_N\_2\_1140084 Include Closing Date $\)**|Specifies if the data export must include the closing date for the period.|  
+    |**Starting Date**|Specifies the start date for the data export.<br /><br /> **NOTE:** If the data export source ../../includes period fields, the start date and the end date are used as filter values for the period fields.|  
+    |**Ending Date**|Specifies the end date for the data export.|  
+    |**Include Closing Date**|Specifies if the data export must include the closing date for the period.|  
   
 3.  On the **Data Export Record Definition** FastTab, select the appropriate filters to identify the data export and data export record type. For more information, see [Process for Data Access and Testability of Digital Documents \(GDPdU\)](process-for-data-access-and-testability-of-digital-documents-gdpdu-.md).  
   

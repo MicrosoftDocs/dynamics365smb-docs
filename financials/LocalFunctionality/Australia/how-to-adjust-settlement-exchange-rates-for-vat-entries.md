@@ -26,12 +26,12 @@ You can use the **Adjust Settlement Exch. Rates** batch job to settle VAT entrie
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ B\_28140\_N\_2\_1340012 Settlement Period $\)**|Specifies the start date of the settlement period.|  
-    |**\($ B\_28140\_N\_2\_1340010 Ending Date $\)**|Specifies the end date of the settlement period.|  
-    |**\($ B\_28140\_N\_2\_1340008 Posting Description $\)**|Specifies the posting description.|  
-    |**\($ B\_28140\_N\_2\_1340002 Document No. $\)**|Specifies the document number for which you want to settle VAT entries.|  
-    |**\($ B\_28140\_N\_2\_1340004 Posting Date $\)**|Specifies the posting date of the document.|  
-    |**\($ B\_28140\_N\_2\_1340000 Use Daily Settlement Exch. Rate $\)**|Select if you want to use the daily settlement exchange rate.|  
+    |**Settlement Period**|Specifies the start date of the settlement period.|  
+    |**Ending Date**|Specifies the end date of the settlement period.|  
+    |**Posting Description**|Specifies the posting description.|  
+    |**Document No.**|Specifies the document number for which you want to settle VAT entries.|  
+    |**Posting Date**|Specifies the posting date of the document.|  
+    |**Use Daily Settlement Exch. Rate**|Select if you want to use the daily settlement exchange rate.|  
   
 3.  Choose the **OK** button.  
   

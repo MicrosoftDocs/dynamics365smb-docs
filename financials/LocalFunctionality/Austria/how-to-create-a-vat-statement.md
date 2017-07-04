@@ -29,16 +29,16 @@
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ B\_11110\_N\_2\_1160010 Starting Date $\)**|Specifies the start date of the VAT period.|  
-    |**\($ B\_11110\_N\_2\_1160012 Ending Date $\)**|Specifies the end date of the VAT period.|  
-    |**\($ B\_11110\_N\_2\_8 Include VAT Entries $\)**|Specifies if you want to include VAT entries that are either open or closed, or both open and closed entries.|  
-    |**\($ B\_11110\_N\_2\_4 Include VAT Entries $\)**|Specifies if you want to include VAT entries that are from the specified period or also include entries from before the period.|  
-    |**\($ B\_11110\_N\_2\_11 Reporting Type $\)**|Select if this VAT statement is the quarterly report, monthly report, or if it applies to another period.|  
-    |**\($ B\_11110\_N\_2\_1160007 Check Positions $\)**|Select to verify the positions of the VAT statement during the export.|  
-    |**\($ B\_11110\_N\_2\_1 Round to Whole Numbers $\)**|Select to round amounts to whole numbers.|  
-    |**\($ B\_11110\_N\_2\_1160003 Surplus Used to Pay Dues $\)**|Select to use a potential surplus to cover other charges.|  
-    |**\($ B\_11110\_N\_2\_1160005 Additional Invoices sent via Mail $\)**|Select if you will send additional information.|  
-    |**\($ B\_11110\_N\_2\_1160000 Number §6 Abs. 1 $\)**|Specify the number according to §6 section 1 if you want to claim tax-free revenues without input tax reduction.|  
+    |**Starting Date**|Specifies the start date of the VAT period.|  
+    |**Ending Date**|Specifies the end date of the VAT period.|  
+    |**Include VAT Entries**|Specifies if you want to include VAT entries that are either open or closed, or both open and closed entries.|  
+    |**Include VAT Entries**|Specifies if you want to include VAT entries that are from the specified period or also include entries from before the period.|  
+    |**Reporting Type**|Select if this VAT statement is the quarterly report, monthly report, or if it applies to another period.|  
+    |**Check Positions**|Select to verify the positions of the VAT statement during the export.|  
+    |**Round to Whole Numbers**|Select to round amounts to whole numbers.|  
+    |**Surplus Used to Pay Dues**|Select to use a potential surplus to cover other charges.|  
+    |**Additional Invoices sent via Mail**|Select if you will send additional information.|  
+    |**Number §6 Abs. 1**|Specify the number according to §6 section 1 if you want to claim tax-free revenues without input tax reduction.|  
   
 3.  Choose the **OK** button.  
   

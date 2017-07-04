@@ -28,11 +28,11 @@ After you have set up domiciliations, you can start generating domiciliation sug
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ B\_2000039\_F\_1\_3 Due Date $\)**|Enter the due date to be included in the batch job. Only entries that have a due date before or on this date will be included.|  
-    |**\($ B\_2000039\_F\_1\_14 Take Payment Discounts $\)**|Select if you want the batch job to include customer ledger entries for which you can receive a payment discount.|  
-    |**\($ B\_2000039\_F\_1\_7 Payment Discount Date $\)**|Enter the date that will be used to calculate the payment discount.|  
-    |**\($ B\_2000039\_F\_1\_1 Select Possible Refunds $\)**|Select if you want the batch job to include refunds.|  
-    |**\($ B\_2000039\_F\_1\_12 Posting Date $\)**|Enter the date that will appear as the posting date on the lines that the batch job inserts in the domiciliation journal.|  
+    |**Due Date**|Enter the due date to be included in the batch job. Only entries that have a due date before or on this date will be included.|  
+    |**Take Payment Discounts**|Select if you want the batch job to include customer ledger entries for which you can receive a payment discount.|  
+    |**Payment Discount Date**|Enter the date that will be used to calculate the payment discount.|  
+    |**Select Possible Refunds**|Select if you want the batch job to include refunds.|  
+    |**Posting Date**|Enter the date that will appear as the posting date on the lines that the batch job inserts in the domiciliation journal.|  
   
 4.  On the **Customer** FastTab, enter any additional filter criteria.  
   

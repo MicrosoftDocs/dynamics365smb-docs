@@ -55,11 +55,11 @@
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_12436\_N\_2\_5 Rounding Precision $\)**|Specify the interval that you want to use as the rounding difference for the relevant currency.|  
-    |**\($ R\_12436\_N\_2\_7 Replace zero values by blanks $\)**|Select if you want to replace zero values with a blank entry.|  
-    |**\($ R\_12436\_N\_2\_9 Skip accounts without net changes $\)**|Select to exclude the accounts that do not have net changes.|  
-    |**\($ R\_12436\_N\_2\_11 Skip accounts without zero ending balance $\)**|Select to exclude the accounts that do have zero ending balances.|  
-    |**\($ R\_12436\_N\_2\_13 Skip zero lines $\)**|Select to exclude lines with zero values.|  
+    |**Rounding Precision**|Specify the interval that you want to use as the rounding difference for the relevant currency.|  
+    |**Replace zero values by blanks**|Select if you want to replace zero values with a blank entry.|  
+    |**Skip accounts without net changes**|Select to exclude the accounts that do not have net changes.|  
+    |**Skip accounts without zero ending balance**|Select to exclude the accounts that do have zero ending balances.|  
+    |**Skip zero lines**|Select to exclude lines with zero values.|  
   
 ### To print the general ledger account card report  
   
@@ -69,9 +69,9 @@
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_12437\_N\_2\_1210004 Show Correspondence $\)**|Select if you want to show general ledger correspondence information on the report.|  
-    |**\($ R\_12437\_N\_2\_1210002 New Page for GL Acc $\)**|Select if you want to print a new page for each general ledger account.|  
-    |**\($ R\_12437\_N\_2\_1210000 Including Closing Period Entries $\)**|Select if you want to include the closing period entries on the report.|  
+    |**Show Correspondence**|Select if you want to show general ledger correspondence information on the report.|  
+    |**New Page for GL Acc**|Select if you want to print a new page for each general ledger account.|  
+    |**Including Closing Period Entries**|Select if you want to include the closing period entries on the report.|  
   
 ### To print the general ledger account entries analysis report  
   
@@ -81,10 +81,10 @@
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_12438\_N\_2\_7 Without Zero Net Changes $\)**|Select to include the entries that do not have zero net changes.|  
-    |**\($ R\_12438\_N\_2\_9 Without Zero Lines $\)**|Select to include the entries that do not have zero lines.|  
-    |**\($ R\_12438\_N\_2\_11 Debit Credit Separately $\)**|Select if you want to separate the debit and credit entries on the report.|  
-    |**\($ R\_12438\_N\_2\_1 New Page for GL Acc $\)**|Select if you want to print a new page for each general ledger account.|  
+    |**Without Zero Net Changes**|Select to include the entries that do not have zero net changes.|  
+    |**Without Zero Lines**|Select to include the entries that do not have zero lines.|  
+    |**Debit Credit Separately**|Select if you want to separate the debit and credit entries on the report.|  
+    |**New Page for GL Acc**|Select if you want to print a new page for each general ledger account.|  
   
 ## See Also  
  G\/L Account   

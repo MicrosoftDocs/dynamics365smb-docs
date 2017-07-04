@@ -26,9 +26,9 @@ The TORG-2 report is used to document inconsistencies for deviations of received
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ B\_14925\_F\_1\_1210014 Order No. $\)**|Specifies the document number.|  
-    |**\($ B\_14925\_F\_1\_1210018 Order Date $\)**|Specifies the document date.|  
-    |**\($ B\_14925\_F\_1\_1210004 Operation Type $\)**|Specifies the report type.|  
+    |**Order No.**|Specifies the document number.|  
+    |**Order Date**|Specifies the document date.|  
+    |**Operation Type**|Specifies the report type.|  
   
 3.  Choose the **OK** button.  
   

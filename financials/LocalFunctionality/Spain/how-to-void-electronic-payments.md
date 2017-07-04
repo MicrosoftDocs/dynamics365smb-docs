@@ -26,7 +26,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can void the exported 
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_10722\_N\_2\_1100000 Bank Account No. $\)**|Specify the bank account number from which the payments will be voided.|  
+    |**Bank Account No.**|Specify the bank account number from which the payments will be voided.|  
   
 ### To void electronic payments in the Cartera module  
   
@@ -36,7 +36,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can void the exported 
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ R\_7000061\_N\_2\_1100000 Payment Order No. $\)**|Specify the payment order number from which the payments will be voided.|  
+    |**Payment Order No.**|Specify the payment order number from which the payments will be voided.|  
   
 ## See Also  
  [How to: Set Up Bank Accounts for Electronic Payments](how-to-set-up-bank-accounts-for-electronic-payments.md)   

@@ -35,9 +35,9 @@ You can export a VAT statement in XML format and then submit it electronically t
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ B\_10718\_N\_2\_1100000 VAT entries included $\)**|Specify if the VAT statement must include open entries, closed entries, or both open and closed entries.|  
-    |**\($ B\_10718\_N\_2\_1100004 VAT entries included $\)**|Specify if the VAT statement must include only entries from the period that is specified in the **Date Filter** field, or also entries from previous periods.|  
-    |**\($ B\_10718\_N\_2\_1100007 Additional Currency $\)**|Select to display the report amounts in the additional reporting currency.|  
+    |**VAT entries included**|Specify if the VAT statement must include open entries, closed entries, or both open and closed entries.|  
+    |**VAT entries included**|Specify if the VAT statement must include only entries from the period that is specified in the **Date Filter** field, or also entries from previous periods.|  
+    |**Additional Currency**|Select to display the report amounts in the additional reporting currency.|  
   
 4.  On the **VAT Statement Line** FastTab, specify a value for the **Date Filter** field.  
   

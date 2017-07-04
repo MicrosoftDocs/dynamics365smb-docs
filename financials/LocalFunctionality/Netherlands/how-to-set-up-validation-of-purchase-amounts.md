@@ -40,7 +40,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can activate the **Che
   
 ### To set up validation of total amounts for purchase documents  
   
-1.  In the **Search** box, enter **\($ N\_460 Purchases & Payables Setup $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Purchases & Payables Setup**, and then choose the related link.  
   
 2.  On the **General** FastTab, fill in the fields as described in the following table.  
   
@@ -52,5 +52,5 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can activate the **Che
 3.  Choose the **OK** button.  
   
 ## See Also  
- [\($ N\_460 Purchases & Payables Setup $\)](-$-n_460-purchases-payables-setup-$-.md)   
+ Purchases & Payables Setup   
  [Netherlands Local Functionality](netherlands-local-functionality.md)

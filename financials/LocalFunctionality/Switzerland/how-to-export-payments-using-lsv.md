@@ -30,8 +30,8 @@ You can export or write Lastschrift Verfahren \(LSV\+\) files that contain payme
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ B\_3010834\_F\_1\_5 No. $\)**|Specify the LSV journal number that you want to export.|  
-    |**\($ B\_3010834\_F\_1\_3 Test $\)**|Specify if you are sending test deliveries to your bank. The bank does not process test files.|  
+    |**No.**|Specify the LSV journal number that you want to export.|  
+    |**Test**|Specify if you are sending test deliveries to your bank. The bank does not process test files.|  
   
 5.  All related lines are transferred to the LSV journal. The LSV file is generated in the predetermined folder.  
   

@@ -20,31 +20,31 @@ You must submit a periodic report of trade with other EU countries\/regions to t
   
 ### To create Report 349  
   
-1.  In the **Search** box, enter **\($ B\_10709 Make 349 Declaration $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Make 349 Declaration**, and then choose the related link.  
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ B\_10710\_N\_2\_1100011 Fiscal Year $\)**|Specify the year of the reporting period.|  
-    |**\($ B\_10710\_N\_2\_1100013 Period $\)**|Select the period that the report covers. This can be a year, a month, or a quarter.|  
-    |**\($ B\_10710\_N\_2\_1100000 Period Frequency Change $\)**|Select to change the period frequency of the report.|  
-    |**\($ B\_10710\_N\_2\_1100015 Contact Name $\)**|Specify the contact name for your company.|  
-    |**\($ B\_10710\_N\_2\_1100017 Telephone Number $\)**|Specify the telephone number for contact.|  
-    |**\($ B\_10710\_N\_2\_1100019 Declaration Number $\)**|Specify the number of the declaration. For example, if this is your first 349 declaration, the number is **3490000000000**.|  
-    |**\($ B\_10710\_N\_2\_1100021 Company Country\/Region $\)**|Enter the country\/region for your company.|  
-    |**\($ B\_10710\_N\_2\_1100001 Declaration Media Type $\)**|Select the media type for the declaration.<br /><br /> To submit the declaration electronically, select **Telematic**.<br /><br /> To submit the declaration on CD-ROM, select **Physical support**. If you want to submit the 349 declaration on a CD-ROM, you must also print labels for the disk. For more information, see Declaration Labels.|  
-    |**\($ B\_10710\_N\_2\_1100004 Excluded Gen. Product Posting Groups $\)**|Specify the general product posting group that you do not want to include in the declaration.|  
+    |**Fiscal Year**|Specify the year of the reporting period.|  
+    |**Period**|Select the period that the report covers. This can be a year, a month, or a quarter.|  
+    |**Period Frequency Change**|Select to change the period frequency of the report.|  
+    |**Contact Name**|Specify the contact name for your company.|  
+    |**Telephone Number**|Specify the telephone number for contact.|  
+    |**Declaration Number**|Specify the number of the declaration. For example, if this is your first 349 declaration, the number is **3490000000000**.|  
+    |**Company Country\/Region**|Enter the country\/region for your company.|  
+    |**Declaration Media Type**|Select the media type for the declaration.<br /><br /> To submit the declaration electronically, select **Telematic**.<br /><br /> To submit the declaration on CD-ROM, select **Physical support**. If you want to submit the 349 declaration on a CD-ROM, you must also print labels for the disk. For more information, see Declaration Labels.|  
+    |**Excluded Gen. Product Posting Groups**|Specify the general product posting group that you do not want to include in the declaration.|  
   
 3.  Choose the **OK** button.  
   
- If the period ../../includes a credit memo, a message appears, and if you choose the **OK** button, the **\($ N\_10736 Customer\/Vendor Warnings 349 $\)** window opens and shows all credit memos for that period.  
+ If the period ../../includes a credit memo, a message appears, and if you choose the **OK** button, the **Customer\/Vendor Warnings 349** window opens and shows all credit memos for that period.  
   
- Entries related to credit memos display in the **\($ N\_10736 Customer\/Vendor Warnings 349 $\)** window because you may want to include them as corrections to invoices. For example, if you posted a sales invoice in October, and you then post a credit memo in November that corrects the October invoice, a warning displays. Then, you can make the appropriate changes in the **\($ N\_10736 Customer\/Vendor Warnings 349 $\)** window. You must specify which section of the total amount for that customer must be included in the November 349 declaration.  
+ Entries related to credit memos display in the **Customer\/Vendor Warnings 349** window because you may want to include them as corrections to invoices. For example, if you posted a sales invoice in October, and you then post a credit memo in November that corrects the October invoice, a warning displays. Then, you can make the appropriate changes in the **Customer\/Vendor Warnings 349** window. You must specify which section of the total amount for that customer must be included in the November 349 declaration.  
   
 ### To correct warnings for Report 349  
   
-1.  In the **\($ N\_10736 Customer\/Vendor Warnings 349 $\)** window, select the line for the relevant customer.  
+1.  In the **Customer\/Vendor Warnings 349** window, select the line for the relevant customer.  
   
 2.  Make the appropriate changes to the line.  
   

@@ -26,7 +26,7 @@ Bank clearing numbers are unique numbers used to identify each bank agency or br
   
 2.  On the **Home** tab, in the **Process** group, select **Import Bank Directory**.  
   
-3.  In the **Import Bank Directory** window, on the **Options** FastTab, select the **\($ B\_11504\_N\_2\_1150004 Automatically Update Clearing Numbers $\)** field to update the bank clearing numbers automatically.  
+3.  In the **Import Bank Directory** window, on the **Options** FastTab, select the **Automatically Update Clearing Numbers** field to update the bank clearing numbers automatically.  
   
 4.  Choose the **Print** button or the **Preview** button to import the bank clearing numbers, and then, in the **Open** window, locate the file that you have downloaded from the SIX Interbank Clearing website. Choose the **Open** button.  
   

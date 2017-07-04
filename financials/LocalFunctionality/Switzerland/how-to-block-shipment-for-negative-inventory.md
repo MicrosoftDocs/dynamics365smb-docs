@@ -20,15 +20,15 @@ You can block outbound shipment for an item when a transaction results in a nega
   
 ### To block shipment for negative inventory  
   
-1.  In the **Search** box, enter **\($ N\_459 Sales & Receivable Setup $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Sales & Receivable Setup**, and then choose the related link.  
   
-2.  In the **\($ N\_459 Sales & Receivable Setup $\)** window, on the **General** FastTab, select the **Block ship. when neg. invent.** check box.  
+2.  In the **Sales & Receivable Setup** window, on the **General** FastTab, select the **Block ship. when neg. invent.** check box.  
   
      When this check box is selected, the inventory for all items is calculated when you post a sales shipment. If the transaction leads to a negative quantity in inventory for an item, an error message appears.  
   
 3.  Choose the **OK** button.  
   
 ## See Also  
- [\($ T\_311 Sales & Receivables Setup $\)](\($%20T_311%20Sales%20&%20Receivables%20Setup%20$\).md)   
+ Sales & Receivables Setup   
  Sales Shipment Line   
  Calculate Inventory

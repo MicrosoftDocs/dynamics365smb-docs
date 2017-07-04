@@ -55,8 +55,8 @@ After a CODA statement has been imported, the statement lines can be accessed fr
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**\($ B\_2000059\_F\_1\_1 Default Posting $\)**|Select if you want the batch job to post statement amounts that cannot be linked to existing ledger entries. For more information, see Transaction Coding.|  
-    |**\($ B\_2000059\_F\_1\_3 Print List $\)**|Select to print a list of statement amounts that cannot be linked automatically.|  
+    |**Default Posting**|Select if you want the batch job to post statement amounts that cannot be linked to existing ledger entries. For more information, see Transaction Coding.|  
+    |**Print List**|Select to print a list of statement amounts that cannot be linked automatically.|  
   
 6.  Choose the **OK** button.  
   

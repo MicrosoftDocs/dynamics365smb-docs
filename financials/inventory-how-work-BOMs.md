@@ -9,7 +9,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/06/2017
+ms.date: 07/04/2017
 ms.author: sgroespe
 
 ---
@@ -50,6 +50,43 @@ From the **Assembly BOM** window, you can open a separate window that shows the 
 2. Open the card for an assembly item. (The **Assembly BOM** field in the **Items** window contains **Yes**.)
 3. In the **Item Card** window, choose the **Assembly** action, and then choose the **Assembly BOM** action.
 4. In the **Assembly BOM** window, choose the **Show BOM** action.
+
+## To replace the assembly item with its components on document lines
+From any sales and purchase document that contains an assembly item, you can use a special function to replace the line for the assembly item with new lines for its components. This function is useful, for example, if you want to sell the components as a kit that represents the assembly item.
+
+**Caution**: When you have used the **Explode BOM** function, you cannot easily undo it. You must delete the sales order lines representing the components and then reenter a sales order line for the assembly item.
+
+The following procedure is based on a sales invoice. The same steps apply to other sales documents and to all purchase documents.
+
+1. In the top right corner, choose the **Search for Page or Report** icon, enter **Sales Invoices**, and then choose the related link.
+2. Open a sales invoice that contains a line for an assembly item.
+3. Choose the line for an assembly item, and then **Explode BOM** line action.
+
+All fields on the sales invoice line for the assembly item are cleared except for the **Item** and **Description** fields. Complete sales invoice lines are inserted for the components and possible resources that comprise the assembly item.
+
+**Note**: The Explode BOM function is also available in the **Assembly BOM** window.
+
+## To calculate the standard cost of an assembly item
+You calculate the unit cost of an assembly item by rolling up the unit cost of each component and resource in the item’s assembly BOM.
+
+The unit cost of an assembly BOM always equals the total of the unit costs of its components, including other assembly BOMs, and any resources.
+
+1. In the top right corner, choose the **Search for Page or Report** icon, enter **Items**, and then choose the related link.
+2. Open the card for an assembly item. (The **Assembly BOM** field in the **Items** window contains **Yes**.)
+3. In the **Item Card** window, choose the **Assembly** action, and then choose the **Assembly BOM** action.
+4. In the **Assembly BOM** window, choose the **Calc. Standard Cost** action.
+5. Select one of the following options.
+
+
+|Option |Description |
+|-------|------------|
+|**Top Level**|Calculates the assembly item's standard cost as the total cost of all purchased or assembled items on that assembly BOM regardless of any underlying assembly BOMs.|
+|**All Levels**|Calculates the assembly's item standard cost as the sum of: 1) The calculated cost of all underlying assembly BOMs on the assembly BOM. 2) The cost of all purchased items on the assembly BOM.|
+
+6. Choose the **OK** button.
+
+The costs of the items that make up the assembly BOM are copied from the component item cards. The cost of each item is multiplied by the quantity, and the total cost is shown in the **Unit Cost** field on the item card.
+
 
 ## To buy, sell, or transfer assembly items
 Because the current version of [!INCLUDE[d365fin](includes/d365fin_md.md)] only contains the ability to define and assign assembly BOMs to items, you can handle assembly items on document lines as normal items only.

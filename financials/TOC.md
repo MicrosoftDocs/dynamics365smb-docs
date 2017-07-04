@@ -89,18 +89,22 @@
 ### [How to: Set Up Intercompany](intercompany-how-setup.md)
 ### [How to: Work with Intercompany Documents and Journals](intercompany-how-work-documents-journals.md)
 ### [How to: Manage the Intercompany Inbox and Outbox](intercompany-how-manage-intercompany-inbox.md)
-## [Cost Accounting](finance-manage-cost-accounting.md)
+## [Accounting for Costs](finance-manage-cost-accounting.md)
 ### [Terminology in Cost Accounting](finance-terminology-in-cost-accounting.md)
 ### [About Cost Accounting](finance-about-cost-accounting.md)
 ### [Setting Up Cost Accounting](finance-set-up-cost-accounting.md)
 ### [Transferring and Posting Cost Entries](finance-transfer-and-post-cost-entries.md)
 ### [Defining and Allocating Costs](finance-define-and-allocate-costs.md)
 ### [Creating Cost Budgets](finance-create-cost-budgets.md)
-## Inventory Costing
-### About Inventory Costing
-### How to: Change Costing Methods
-### How to: Handle Inventory and Manufacturing Costs
-### How to: Analyze Inventory Reconciliation with the General Ledger
+## [Managing Inventory Costs](finance-manage-inventory-costs)
+### [About Inventory Costing](finance-learn-about-costing.md)
+### 
+### [How to: Revalue Inventory](inventory-how-revalue-inventory.md)
+### [How to: Adjust Item Costs](inventory-how-adjust-item-costs.md)
+### [How to: Handle Inventory and Manufacturing Costs](finance-handle-inventory-and-manufacturing-costs.md)
+### [How to: Update Standard Costs](finance-how-to-update-standard-costs.md)
+### [How to: Analyze Inventory Reconciliation with the General Ledger](finance-report-costs-and-reconcile-with-the-general-ledger.md)
+### [Design Details: Inventory Costing](design-details-inventory-costing.md)]
 ## [Accountant Experiences in Financials](finance-accounting.md)
 ### [Invite Your External Accountant to Your Financials](finance-invite-external-accountant.md)  
 ### [Accountant Portal extension](ui-extensions-accountant-portal.md)  
@@ -160,8 +164,6 @@
 ## [How to: Count, Adjust, and Reclassify Inventory](inventory-how-count-adjust-reclassify.md)
 ## [How to: View the Availability of Items](inventory-how-availability-overview.md)
 ## [How to: Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)
-## [How to: Revalue Inventory](inventory-how-revalue-inventory.md)
-## [How to: Adjust Item Costs](inventory-how-adjust-item-costs.md)
 
 # [Relationship Management](marketing-relationship-management.md)
 ## [Setting Up Relationship Management](marketing-setup-marketing.md)
@@ -211,7 +213,7 @@
 ### [Setting Up Workflows](set-up-workflows)
 ### [Using Workflows](use-workflows)
 
-## [Application Design Details](design-details-application-design.md)
+# [Application Design Details](design-details-application-design.md)
 ### [Design Details: Dimension Set Entries](design-details-dimension-set-entries.md)
 ### [Design Details: Supply Planning](design-details-supply-planning.md)
 ### [Design Details: Inventory Costing](design-details-inventory-costing.md)
@@ -219,7 +221,7 @@
 ### [Design Details: Item Tracking](design-details-item-tracking.md)
 ### [Design Details: General Journal Post Line](design-details-general-journal-post-line.md)
 
-## [Business Process walkthroughs]()
+# [Business Process walkthroughs]()
 
 # Local Functionality
 ## [Australia](LocalFunctionality/Australia/australia-local-functionality.md)

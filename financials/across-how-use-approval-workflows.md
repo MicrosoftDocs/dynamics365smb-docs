@@ -19,7 +19,7 @@ When a record, such as a purchase document or a customer card, needs to be appro
 
 You set up approval workflows in the **Workflow** window. For more information, see [Setting Up Workflows](set-up-workflows.md).
 
-In addition to approval workflows, you can perform various other business tasks. For more information, [Using Workflows](use-workflows.md).
+In addition to approval workflows described in this topic, you can perform various other workflow tasks. For more information, [Using Workflows](use-workflows.md).
 
 Core approval workflows for purchases documents, sales documents, payment journals, customer cards, and item cards are ready to start as assisted setup. For more information, see [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)](index.md).
 

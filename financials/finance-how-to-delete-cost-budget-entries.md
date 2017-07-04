@@ -24,9 +24,9 @@ You use the **Delete Cost Budget Entries** batch job to cancel cost budget entri
 
 1.  In the Search box, enter **Delete Cost Budget Entries**, and then choose the related link.  
 
-2.  The **F_1_3 To Register No.** field contains the last register entry number and cannot be changed.  
+2.  The **To Register No.** field contains the last register entry number and cannot be changed.  
 
-3.  You can use the **F_1_1 From Register No.** field to select a register entry number from which the deletion should begin.  
+3.  You can use the **From Register No.** field to select a register entry number from which the deletion should begin.  
 
 4.  Choose the **OK** button to delete the selected cost budget entries.  
 
@@ -34,6 +34,5 @@ You use the **Delete Cost Budget Entries** batch job to cancel cost budget entri
 >  To avoid an accidental deletion of cost budget entries, you can close register entries by marking the lines as **Closed** in the **Closed** field in the **Cost Budget Registers** window.  
 
 ## See Also  
- Delete Cost Budget Entries   
- Closed   
- Cost Budget Registers
+[Create Cost Budgets](finance-create-cost-budgets.md)  
+

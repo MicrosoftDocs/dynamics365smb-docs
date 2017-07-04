@@ -31,7 +31,7 @@ Before you define cost allocations, you must understand how cost entries come fr
 |Understand criteria for transferring cost entries from general ledger.|[Criteria for Transferring General Ledger Entries to Cost Entries](criteria-for-transferring-general-ledger-entries-to-cost-entries.md)|  
 |Transfer general ledger entries to cost entries with a batch job.|[How to: Transfer General Ledger Entries to Cost Entries](automatic-transfer-and-combined-entries.md)|  
 |See the results of the transfer.|[Results of the Transfer](results-of-the-transfer.md)|  
-|Learn where you can post cost entries.|Cost Journal|  
+|Learn where you can post cost entries.|**Cost Journal** window|  
 
 ## See Also  
  [About Cost Accounting](about-cost-accounting.md)   

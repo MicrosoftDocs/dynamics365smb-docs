@@ -62,8 +62,6 @@ Cost objects are projects, products, or services of a company. The chart of cost
 >  If you have entered definitions in the **Total From/To** fields for **End-Total** cost objects before you run the indent function, then you must enter them again. The function overwrites the values in all **End-Total** fields.  
 
 ## See Also  
- Chart of Cost Objects   
- Cost Object Card   
  [Defining Cost Centers and Cost Objects for Chart of Accounts](defining-cost-centers-and-cost-objects-for-chart-of-accounts.md)   
  [Balances Between Cost Type, Cost Center, and Cost Object](balances-between-cost-type-cost-center-and-cost-object.md)   
  [Set Up Cost Accounting](set-up-cost-accounting.md)   

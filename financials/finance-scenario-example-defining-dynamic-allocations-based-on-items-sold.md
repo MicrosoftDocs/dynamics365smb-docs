@@ -19,7 +19,7 @@
 This topic shows an example of how to define allocations by using the dynamic allocation method. In the example, you change the dynamic allocation of the costs for the SALES cost center to support the new cost object IT EQUIPMENT. IT EQUIPMENT packages have item numbers in the range from 8904-W to 8924-W. You use the previous year’s sales figures to calculate the share. The allocation is posted to the helping cost type 9903.  
 
 > [!NOTE]  
->  The example uses the demo data in the ADD INCLUDE<!--[!INCLUDE[demolong](../../includes/demolong_md.md)]-->.  
+>  The example uses the demo data in the [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ### To define dynamic allocations based on items sold in the previous year  
 
@@ -52,7 +52,7 @@ This topic shows an example of how to define allocations by using the dynamic al
 14. On the **Home** tab, in the **Process** group, choose **Calculate Allocation Key** to calculate the share.  
 
     > [!IMPORTANT]  
-    >  [!INCLUDE[d365fin](../../includes/d365fin_md.md)] uses the previous years’ sales figures to calculate a share of 1596.50 LCY with 100 percent for the IT EQUIPMENT packages. This means that all of the items sold last year will be allocated to the cost object IT EQUIPMENT.  
+    >  [!INCLUDE[d365fin](includes/d365fin_md.md)] uses the previous years’ sales figures to calculate a share of 1596.50 LCY with 100 percent for the IT EQUIPMENT packages. This means that all of the items sold last year will be allocated to the cost object IT EQUIPMENT.  
 
 ## See Also  
  [Setting Filters for Dynamic Allocation Bases](setting-filters-for-dynamic-allocation-bases.md)   

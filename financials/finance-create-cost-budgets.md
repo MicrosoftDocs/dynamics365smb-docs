@@ -28,7 +28,7 @@ You use the following windows to create and analyze cost budgets. Choose the ![S
 |Copy cost budgets.|**Copy Cost Budget** batch job|  
 |Allocate budgets.|**Cost Allocation** window|  
 |See cost budget registers and cost budget entries.|**Cost Budget Registers** window|  
-|Print cost budget comparisons using various reports.|**Cost Acctg. Balance-Budget** report<br /><br /> **Cost Acctg. Statement-Budget** report<br /><br /> **Cost Budget by Cost Center<** reportbr /><br /> **Cost Budget by Cost Object** report|  
+|Print cost budget comparisons using various reports.|**Cost Acctg. Balance-Budget** report<br /><br /> **Cost Acctg. Statement-Budget** report<br /><br /> **Cost Budget by Cost Center<** report br /><br /> **Cost Budget by Cost Object** report|  
 
 ## See Also  
  [Manage Cost Accounting](manage-cost-accounting.md)   

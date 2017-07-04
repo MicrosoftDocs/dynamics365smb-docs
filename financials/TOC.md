@@ -89,6 +89,18 @@
 ### [How to: Set Up Intercompany](intercompany-how-setup.md)
 ### [How to: Work with Intercompany Documents and Journals](intercompany-how-work-documents-journals.md)
 ### [How to: Manage the Intercompany Inbox and Outbox](intercompany-how-manage-intercompany-inbox.md)
+## [Cost Accounting](finance-manage-cost-accounting.md)
+### [Terminology in Cost Accounting](finance-terminology-in-cost-accounting.md)
+### [About Cost Accounting](finance-about-cost-accounting.md)
+### [Setting Up Cost Accounting](finance-set-up-cost-accounting.md)
+### [Transferring and Posting Cost Entries](finance-transfer-and-post-cost-entries.md)
+### [Defining and Allocating Costs](finance-define-and-allocate-costs.md)
+### [Creating Cost Budgets](finance-create-cost-budgets.md)
+## Inventory Costing
+### About Inventory Costing
+### How to: Change Costing Methods
+### How to: Handle Inventory and Manufacturing Costs
+### How to: Analyze Inventory Reconciliation with the General Ledger
 ## [Accountant Experiences in Financials](finance-accounting.md)
 ### [Invite Your External Accountant to Your Financials](finance-invite-external-accountant.md)  
 ### [Accountant Portal extension](ui-extensions-accountant-portal.md)  
@@ -118,6 +130,7 @@
 ## [How to: Work with Account Schedules](bi-how-work-account-schedule.md)
 ## [How to: Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)
 ## [How to: Create Analysis Reports](bi-how-create-analysis-views-reports.md)
+## [How to: Set Up and Publish KPI Web Services Based on Account Schedules]
 
 # [Sales](sales-manage-sales.md)
 ## [How to: Make Offers](sales-how-make-offers.md)
@@ -127,14 +140,16 @@
 ## [How to: Make Drop Shipments](sales-how-drop-shipment.md)
 ## [How to: Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md)
 ## [How to: Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md)
-## [How to: Register New Customers](sales-how-register-new-customers.md)
+## How to: Work with Blanket Sales Orders
+## How to: Receive Prepayments from Customers
 
 # [Purchasing](purchasing-manage-purchasing.md)
 ## [How to: Record Purchases](purchasing-how-record-purchases.md)
 ## [How to: Purchase Items for a Sale](purchasing-how-purchase-products-sale.md)
 ## [How to: Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)
 ## [How to: Process Purchase Returns or Cancellations](purchasing-how-process-purchase-returns-cancellations.md)
-## [How to: Register New Vendors](purchasing-how-register-new-vendors.md)
+## How to: Work with Blanket Purchase Orders
+## How to: Make Prepayments to Vendors
 
 # [Inventory](inventory-manage-inventory.md)
 ## [How to: Register New Items](inventory-how-register-new-items.md)
@@ -193,32 +208,17 @@
 ### [How to: Set Up Incoming Documents](across-how-setup-income-documents.md)
 ### [Processing Incoming Documents](across-process-income-documents.md)
 
+## [Application Design Details](design-details-application-design.md)
+### [Design Details: Dimension Set Entries](design-details-dimension-set-entries.md)
+### [Design Details: Supply Planning](design-details-supply-planning.md)
+### [Design Details: Inventory Costing](design-details-inventory-costing.md)
+### [Design Details: Warehouse Management](design-details-warehouse-management.md)
+### [Design Details: Item Tracking](design-details-item-tracking.md)
+### [Design Details: General Journal Post Line](design-details-general-journal-post-line.md)
+
 # Full Experience
 ## Business Intelligence (FULL)
 ### [How to: Create Reports with XBRL](FullExperience/bi-create-reports-with-xbrl.md)
-### How to: Set Up and Publish KPI Web Services Based on Account Schedules
-
-## [Cost Accounting (FULL)](FullExperience/finance-manage-cost-accounting.md)
-### [Terminology in Cost Accounting](FullExperience/finance-terminology-in-cost-accounting.md)
-### [About Cost Accounting](FullExperience/finance-about-cost-accounting.md)
-### [Setting Up Cost Accounting](FullExperience/finance-set-up-cost-accounting.md)
-### [Transferring and Posting Cost Entries](FullExperience/finance-transfer-and-post-cost-entries.md)
-### [Defining and Allocating Costs](FullExperience/finance-define-and-allocate-costs.md)
-### [Creating Cost Budgets](FullExperience/finance-create-cost-budgets.md)
-
-## Sales (FULL)
-### How to: Work with Blanket Sales Orders
-### How to: Receive Prepayments from Customers
-
-## Purchasing (FULL)
-### How to: Work with Blanket Purchase Orders
-### How to: Make Prepayments to Vendors
-
-## Inventory Costing (FULL)
-### About Inventory Costing
-### How to: Change Costing Methods
-### How to: Handle Inventory and Manufacturing Costs
-### [How to: Analyze Inventory Reconciliation with the General Ledger]()
 
 ## Planning (FULL)
 ### How to: Plan for Production Availability
@@ -245,14 +245,6 @@
 ### How to: Fulfill Service Contracts
 ### How to: Handle Customer Inquiries
 ### How to: Deliver Service
-
-## [Application Design Details (FULL)](FullExperience/design-details-application-design.md)
-### [Design Details: Dimension Set Entries](FullExperience/design-details-dimension-set-entries.md)
-### [Design Details: Supply Planning](FullExperience/design-details-supply-planning.md)
-### [Design Details: Inventory Costing](FullExperience/design-details-inventory-costing.md)
-### [Design Details: Warehouse Management](FullExperience/design-details-warehouse-management.md)
-### [Design Details: Item Tracking](FullExperience/design-details-item-tracking.md)
-### [Design Details: General Journal Post Line](FullExperience/design-details-general-journal-post-line.md)
 
 # Local Functionality (FULL)
 ## [Australia](LocalFunctionality/Australia/australia-local-functionality.md)

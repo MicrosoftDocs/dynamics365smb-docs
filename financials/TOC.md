@@ -19,7 +19,7 @@
 ## [Changing Basic Settings](ui-change-basic-settings.md)
 ## [How to: Change the Role Center](change-role.md)
 ## [Customizing Your Financials Experience](ui-experiences.md)
-## [Specifying Printer Selection for Reports](ui-specify-printer-selection-reports.md)
+## [Printing a Report](ui-work-report.md#PrintReport)
 ## [Videos on Common Tasks](across-videos.md)
 ## [Overview of Business Functionality](madeira-business-functionality.md)
 ## [Overview of Supply Chain Functionality](madeira-supply-chain.md)

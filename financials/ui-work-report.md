@@ -31,8 +31,8 @@ You can schedule a report to run at a specific date and time. Scheduled reports 
 
 You can schedule a report when you open a report. You choose the **Schedule** action and then you enter information such as printer, and time and date. The report is then added to the job queue and will be run at the specified time. When the report is processed, the item will be removed from the job queue. If you saved the processed report to a file, it will be available in the **Report Inbox** area.
 
-## Print a Report
-[Specify Printer Selection for Reports](ui-specify-printer-selection-reports.md)  
+## <a name="PrintReport"></a>Print a Report
+When you want to print a report you have to download the report as a PDF, Word, or Excel document first by choosing **Send to**. Now, you can either open the report document right-away and print it, or save it and print it later.
 
 ## Saved Settings
 A report can include one or more entries in the **Saved Settings** box. *Saved settings* are basically a predefined group of options and filters that you can apply to the report before previewing or sending to file. Using saved settings is a fast and reliable way to consistently generate reports that contain the correct data. You can see the saved settings that are available to you for a report in **Saved Settings** section of the report request page.

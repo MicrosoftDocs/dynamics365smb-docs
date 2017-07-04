@@ -37,7 +37,7 @@ With jobs, you can schedule the usage of your company's resources and keep track
  This walkthrough uses the project team member (Tricia) as the persona.  
   
 ## Prerequisites  
- Before you can perform the tasks in the walkthrough, the [!INCLUDE[d365fin](includes/d365fin_md.md)] must be installed on your computer.  
+ Before you can perform the tasks in the walkthrough, the ADD INCLUDE<!--[!INCLUDE[d365fin](includes/d365fin_md.md)] must be installed on your computer.  
   
 ## Story  
  This walkthrough focuses on the ADD INCLUDE<!--[!INCLUDE[demoname](../../includes/demo_md.md)]--> has started and also the jobs that are completed. Some of the jobs can be very lengthy and can run over months. Tricia can use a WIP account to record the work in process and to track the costs throughout the job.  

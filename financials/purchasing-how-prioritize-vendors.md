@@ -1,6 +1,6 @@
 ---
-title: 'How to: Prioritize Vendors| Microsoft Docs'
-description: 'How to: Prioritize Vendors'
+title: Assign a Priority Level to a Vendor | Microsoft Docs
+description: You can assign numbers to your vendors or suppliers to prioritize them and facilitate payment suggestions in Financials.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -21,7 +21,7 @@ ms.author: sgroespe
 First, you must prioritize your vendors by assigning numbers to them.
 
 ## To prioritize vendors
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Vendors**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendors**, and then choose the related link.
 2. Select the relevant vendor, and then choose **Edit**.
 3. In the **Priority** field, enter a number.
 
@@ -32,4 +32,4 @@ If you do not want to prioritize a vendor, leave the **Priority** field blank. T
 ## See Also
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  
 [Managing Payables](payables-manage-payables.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

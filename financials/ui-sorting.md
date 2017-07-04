@@ -1,6 +1,6 @@
 ---
-title: Sorting | Microsoft Docs
-description: Learn how sorting works.
+title: Arranging Data Using the Sorting Function | Microsoft Docs
+description: You can use the sorting function to get an overview of your data. For example, you can sort customers by Currency Code to get a select sample of customers.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -19,9 +19,10 @@ The sorting function makes it easy for you to get a quick overview of your data.
 
 Choose a column heading and use the small arrow to sort ascending or descending.  
 
-**Note**: Sorting is not supported images, BLOB fields, FlowFilters, and fields that do not belong to a table.
+> [!NOTE]  
+>   Sorting is not supported images, BLOB fields, FlowFilters, and fields that do not belong to a table.
 
 ## See Also
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Entering Criteria in Filters](ui-enter-criteria-filters.md)
 

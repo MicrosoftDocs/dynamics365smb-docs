@@ -1,6 +1,6 @@
 ---
-title: 'How to: Run Batch Jobs | Microsoft Docs'
-description: Learn how batch jobs work in Dynamics 365 for Financials.
+title: Create and Run a Batch Job | Microsoft Docs
+description: You run batch jobs to process data and update information, for example, to do periodic accounting activities, or to do calculations.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -21,11 +21,11 @@ A batch job is a routine that processes data in batches, for example the **Adjus
 A batch job is like a report, except the batch job uses the result of its work to update information directly, instead of printing the results.
 
 ## To run a batch job
-1. To open the request window for the relevant batch job, in the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter the name of the batch job, and then choose the related link.
+1. To open the request window for the relevant batch job, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter the name of the batch job, and then choose the related link.
 2. If there is an **Options** FastTab for the batch job, fill in the fields to determine what the batch job will do.
 3. The window may contain one or more FastTab with filters, which you can use to limit the data included in the batch job. You can enter criteria in the suggested filters or add more filters.
 4. Choose the **OK** button to start the batch job.
 
 ## See Also
 [Entering Criteria in Filters](ui-enter-criteria-filters.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

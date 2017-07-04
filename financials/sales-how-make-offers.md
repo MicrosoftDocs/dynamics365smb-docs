@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Make Offers| Microsoft Docs'
-description: 'How to: Make Offers'
+title: Create a Sales Offer or Sales Quote | Microsoft Docs
+description: Describes how to create a sales offer or a request for proposal (RFQ) document to record your offer to a customer to sell products under certain terms.
 documentationcenter: ''
 author: SorenGP
 
@@ -47,7 +47,8 @@ If you have set up recurring sales lines for the customer, such as a monthly rep
 
 11. In the **Quantity** field, enter how many units of the product, charge, or transaction that the line will record for the customer.
 
-    **Note:** If the item is of type **Item - Service** or **Resource**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.  
+    > [!NOTE]  
+>   If the item is of type **Item - Service** or **Resource**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.  
 
     The value in the **Line Amount** field is calculated as *Unit Price* x *Quantity*.  
 
@@ -71,4 +72,4 @@ The sales quote is removed from the database. A sales invoice or a sales order i
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  
 [How to: Send Documents by Email](ui-how-send-documents-email.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

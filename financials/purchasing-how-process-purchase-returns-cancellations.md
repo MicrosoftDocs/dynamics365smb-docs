@@ -1,6 +1,6 @@
 ---
-title: 'How to: Process Purchase Returns or Cancellations| Microsoft Docs'
-description: 'How to: Process Purchase Returns or Cancellations'
+title: Use Purchase Credit Memos to Process Returns or Cancellations | Microsoft Docs
+description: Explains how to create and post a purchase credit memo when you want to return items to a vendor or cancel purchased services.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,14 +11,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cancel, undo, correct
-ms.date: 03/29/2017
+ms.date: 06/21/2017
 ms.author: sgroespe
 
 ---
 # How to: Process Purchase Returns or Cancellations
 If you want to return items to your vendor or cancel services that you have purchased, then you can create and post a purchase credit memo that specifies the requested change with regard to the original purchase invoice. To include the correct purchase invoice information, you can create the purchase credit memo from the posted purchase invoice or use a copy function.
 
-**Note**: If a posted purchase invoice has not yet been paid, then you can use the **Correct** or **Cancel** functions on the posted purchase invoice to automatically reverse the involved transactions. These functions only work for unpaid invoices, and they do not support partial returns or cancellations. For more information, see [How to: Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md).
+> [!NOTE]  
+>   If a posted purchase invoice has not yet been paid, then you can use the **Correct** or **Cancel** functions on the posted purchase invoice to automatically reverse the involved transactions. These functions only work for unpaid invoices, and they do not support partial returns or cancellations. For more information, see [How to: Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md).
 
 Typically, you create a purchase credit memo in reaction to a credit memo sent to you by a vendor. The purchase credit memo functions as your internal documentation of the credit memo process for accounting purposes.
 
@@ -26,8 +27,10 @@ The change may relate to all the products on the original purchase invoice or on
 
 In addition to the original posted purchase invoice, you can apply the purchase credit memo to other purchase documents, for example another posted purchase invoice, because you are also returning items delivered with that invoice.
 
+The credit memo posting will also revert any item charges that were assigned to the posted document, so that the item’s value entries are the same as before the item charge was assigned.
+
 ## To create a purchase credit memo from a posted purchase invoice
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Purchase Credit Memos**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Purchase Invoices**, and then choose the related link.  
 2. In the **Posted Purchase Invoices** window, select the posted purchase invoice that you want to reverse, and then choose the **Create Corrective Credit Memo** action.
 
     Most fields on the purchase credit memo header are filled with the information from the posted purchase invoice. You can edit all the fields, for example with new information that reflects the return agreement.
@@ -47,12 +50,12 @@ The posted purchase invoices that you apply the credit memo to are now reversed.
 The purchase credit memo is removed and replaced with a new document in the list of posted purchase credit memos.
 
 ## To create a purchase credit memo from scratch
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Posted Purchase Invoices**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Credit Memos**, and then choose the related link.
 2. Choose the **New** action to open a new empty purchase credit memo.
 3. In the **Vendor** field, enter the name of an existing vendor.
 4. Choose the **Copy Document** action.
-5. In the **Copy purchase Document** window, in the **Document Type** field, select **Posted Invoice**.
-6. Choose the **Document No.** field to open the **Posted purchase Invoices** window, and then select the posted purchase invoice that contains lines that you want to reverse.
+5. In the **Copy Purchase Document** window, in the **Document Type** field, select **Posted Invoice**.
+6. Choose the **Document No.** field to open the **Posted Purchase Invoices** window, and then select the posted purchase invoice that contains lines that you want to reverse.
 7. Select the **Recalculate Lines** check box if you want the copied posted purchase invoice lines to be updated with any changes in item price and unit cost since the invoice was posted.
 8. Choose the **OK** button. The copied invoice lines are inserted in the purchase credit memo.
 9. Complete the purchase credit memo as explained in the "To create a purchase credit memo from a posted purchase invoice" section in this topic.
@@ -61,4 +64,4 @@ The purchase credit memo is removed and replaced with a new document in the list
 [Purchasing](purchasing-manage-purchasing.md)  
 [How to: Record Purchases](purchasing-how-record-purchases.md)  
 [How to: How to: Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

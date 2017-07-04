@@ -1,6 +1,6 @@
 ---
-title: 'How to: Set Up a Colored Indicator on Cues | Microsoft Docs'
-description: Learn how to use colored indicators on Cues in your role center.
+title: Specify Colored Indicators to Customize Visual Signals About a Cue's Activity | Microsoft Docs
+description: Set up a colored indicator on a Cue tile to provide a personalized visual signal of the Cue’s activity.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -40,4 +40,4 @@ The following table lists the colors that correspond to the options of the **Low
 | **Subordinate** |Gray |
 
 ## See Also
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

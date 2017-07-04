@@ -1,6 +1,6 @@
 ---
-title: Setting Up Banking| Microsoft Docs
-description: Set up banking in Dynamics 365 for Financials
+title: Set Up Banking| Microsoft Docs
+description: You use bank account cards to keep track of your bank accounts and set up bank feeds, such as Yodlee, to exchange data.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
-ms.date: 05/12/2016
+ms.date: 06/02/2016
 ms.author: sgroespe
 
 ---
@@ -30,4 +30,4 @@ To use electronic banking services to import bank statements and  export payment
 [Managing Bank Accounts](bank-manage-bank-accounts.md)  
 [Managing Receivables](receivables-manage-receivables.md)  
 [Managing Payables](payables-manage-payables.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -1,6 +1,6 @@
 ---
-title: 'How to: Set Up Jobs| Microsoft Docs'
-description: Describes how to prepare the system to use jobs to manage projects.
+title: Set Up Jobs Prices and Job Posting Groups| Microsoft Docs
+description: Describes how to set up general jobs information, and set up prices for job items, resources, and G/L accounts and jobs posting groups.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 
 ---
@@ -21,10 +21,11 @@ In the **Jobs Setup** window, you must specify how you want to use certain job f
 On the individual job cards, you must set up prices for job items, job resources, and job G/L accounts, and you must set up job posting groups.
 
 ## To set general information for jobs
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Jobs Setup**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs Setup**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-**Note**: The **Apply Usage Link** check box is rather complex and is therefore explained in the following section.
+> [!NOTE]  
+>   The **Apply Usage Link** check box is rather complex and is therefore explained in the following section.
 
 ## To set up job usage tracking
 When you are executing a job, you might want to know how your usage is tracking against your plan. To easily do this, you can create a link between your job planning lines and the actual usage. This lets you track your costs and to easily see at how much work remains to be done. By default, the job planning line type is **Budget**, but using the line type **Both Budget and Billable** has similar effects.
@@ -33,17 +34,19 @@ If you select the **Apply Usage Link** check box, then you can review informatio
 
 When the **Apply Usage Link** check box is selected, and the job planning line type is **Billable**, the Financial creates a job planning line of type **Budget** after you post the journal line.
 
-**Note**: If the **Apply Usage Link** check box on the job card is selected, and the **Line Type** field on the job journal line is blank, then new job planning lines of line type **Budget** are created when you post job journal lines. If the **Apply Usage Link** check box on the job card is not selected, and the **Line Type** field on the job journal line is blank, then no job planning lines are created when you post job journal lines. For more information, see [How to: Record Usage for Jobs](projects-how-record-job-usage.md).
+> [!NOTE]  
+>   If the **Apply Usage Link** check box on the job card is selected, and the **Line Type** field on the job journal line is blank, then new job planning lines of line type **Budget** are created when you post job journal lines. If the **Apply Usage Link** check box on the job card is not selected, and the **Line Type** field on the job journal line is blank, then no job planning lines are created when you post job journal lines. For more information, see [How to: Record Usage for Jobs](projects-how-record-job-usage.md).
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Jobs Setup**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs Setup**, and then choose the related link.
 2. Select or deselect the **Apply Usage Link** check box.
 
-**Note**: You can make a different setting of the **Apply Usage Link** check box on the individual job cards. In that case, the setting for that job overrides the general default described above.
+> [!NOTE]  
+>   You can make a different setting of the **Apply Usage Link** check box on the individual job cards. In that case, the setting for that job overrides the general default described above.
 
 ## To set up prices for job resources
 You can set up specific prices for resources for a job. You use the **Job Resource Prices** window to do this.
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Jobs**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.  
 2. Select the relevant job, and then choose the **Resource** action.
 3. In the **Job Resource Prices** window, fill in the fields as necessary.
 
@@ -51,12 +54,13 @@ The optional information in the **Job Task No.**, **Work Type**, **Currency Code
 
 The value in the **Unit Price** field for the resource will be used on the job planning lines and job journals when this resource, a resource assigned to the resource group, or any resource is entered.  
 
-**Note**: This price will always override any prices set up in the existing **Resource Price/Resource Group Prices** window.
+> [!NOTE]  
+>   This price will always override any prices set up in the existing **Resource Price/Resource Group Prices** window.
 
 ## To set up prices for job items
 You can set up specific prices for items for a job. You use the **Job Item Prices** window to do this.
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Jobs**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.  
 2. Select the relevant job, and then choose the **Item** action.
 3. In the **Job Item Prices** window, fill in the fields as necessary.
 
@@ -64,12 +68,13 @@ The optional information in the **Job Task No.**, **Currency Code**, and **Line 
 
 The value in the **Unit Price** field for the item will be used on the job planning lines and job journals when this item is entered.  
 
-**Note**: This price will always override the regular customer price (the “best price” mechanism) for items. If you want to use the regular customer price mechanisms, then you should not create any job item prices for the job.
+> [!NOTE]  
+>   This price will always override the regular customer price (the “best price” mechanism) for items. If you want to use the regular customer price mechanisms, then you should not create any job item prices for the job.
 
 ## To set up prices for job general ledger accounts
 You can set up specific prices for general ledger expenses for a job. You use the **Job G/L Account Prices** window to do this.
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Jobs**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.  
 2. Select the relevant job, and then choose the **G/L Account** action.  
 3. In the **Job G/L Account Prices** window, fill in the fields as necessary.
 
@@ -80,9 +85,10 @@ The value in the **Unit Price** field for the general ledger job expense will be
 ## To set up job posting groups
 One aspect of planning jobs is deciding which posting accounts to use for job costing. To be able to post jobs, you set up accounts for posting for each job posting group. A posting group represents a link between the job and how it should be treated in the general ledger. When you create a job, you specify a posting group, and by default, each task you create for the job is associated with that posting group. However, as you create tasks, you can override the default and select a posting group that is more appropriate.  
 
-**Note**: The necessary accounts in the chart of accounts must be set up before you set up posting groups. For more information, see [Set Up or Change the Chart of Accounts](finance-setup-chart-accounts.md).  
+> [!NOTE]  
+>   The necessary accounts in the chart of accounts must be set up before you set up posting groups. For more information, see [Set Up or Change the Chart of Accounts](finance-setup-chart-accounts.md).  
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Job Posting Groups**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Posting Groups**, and then choose the related link.  
 2. Choose the **New** action, and then fill in the account fields as described in the following table.  
 
 | Account field | Description |
@@ -109,4 +115,4 @@ One aspect of planning jobs is deciding which posting accounts to use for job co
 [Finance](finance.md)  
 [Purchasing](purchasing-manage-purchasing.md)         
 [Sales](sales-manage-sales.md)      
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

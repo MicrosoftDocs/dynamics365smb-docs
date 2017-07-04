@@ -1,6 +1,6 @@
 ---
-title: 'How to: Invoice Sales| Microsoft Docs'
-description: Describes how to use sales invoices.
+title: Create a Sales Invoice or Sales Order | Microsoft Docs
+description: Describes how to create a bill of sale, or a sales invoice or sales order, to record your agreement with a customer to sell products under specific terms.
 documentationcenter: ''
 author: SorenGP
 
@@ -9,7 +9,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: bill, sale
+ms.search.keywords: bill, sale, invoice, order
 ms.date: 03/29/2017
 ms.author: sgroespe
 
@@ -17,7 +17,8 @@ ms.author: sgroespe
 # How to: Invoice Sales
 You create a sales invoice or sales order to record your agreement with a customer to sell certain products on certain delivery and payment terms.  
 
-**Note:** There are a couple of scenarios where you must use a sales order instead of a sales invoice:  
+> [!NOTE]  
+>   There are a couple of scenarios where you must use a sales order instead of a sales invoice:  
 
 * If you need to ship only part of an order quantity, for example, because the full quantity is not on hand.  
 * If you sell items that your vendor delivers directly to your customer, known as drop shipment. For more information, see [How to: Make Drop Shipments](sales-how-drop-shipment.md).  
@@ -62,7 +63,8 @@ If you have set up recurring sales lines for the customer, such as a monthly rep
 
 11. In the **Quantity** field, enter how many units of the product, charge, or transaction that the line will record for the customer.  
 
-    **Note:** If the item is of type **Item - Service** or **Resource**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.  
+    > [!NOTE]  
+>   If the item is of type **Item - Service** or **Resource**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.  
 
     The value in the **Line Amount** field is calculated as *Unit Price* x *Quantity*.  
 
@@ -87,4 +89,5 @@ The related item and customer ledger entries are now created in your system, and
 [Setting Up Sales](sales-setup-sales.md)  
 [Inventory](inventory-manage-inventory.md)  
 [How to: Send Documents by Email](ui-how-send-documents-email.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Bulk Invoicing from Microsoft Bookings in Dynamics 365 for Financials](finance-bookings.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

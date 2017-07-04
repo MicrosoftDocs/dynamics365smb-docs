@@ -1,6 +1,6 @@
 ---
-title: Managing Bank Accounts| Microsoft Docs
-description: Managing Bank Accounts
+title: Manage Bank Accounts| Microsoft Docs
+description: You must regularly reconcile bank ledger entries in Financials with the related bank transactions in your bank accounts.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reconcile
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---
@@ -34,5 +34,5 @@ The following table describes a sequence of tasks, with links to the topics that
 [Setting Up Banking](bank-setup-banking.md)  
 [Managing Receivables](receivables-manage-receivables.md)  
 [Managing Payables](payables-manage-payables.md)    
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)  

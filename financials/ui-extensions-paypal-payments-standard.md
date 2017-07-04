@@ -1,6 +1,6 @@
 ---
-title: PayPal Payments Standard| Microsoft Docs
-description: Provides information about the PayPal Payments Standard extension
+title: Using the PayPal Payments Standard Extension | Microsoft Docs
+description: Describes how to use the extension to enable customers to make payments with PayPal.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP

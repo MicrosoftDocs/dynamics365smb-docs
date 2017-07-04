@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Send Documents by Email| Microsoft Docs'
-description: 'How to: Send Documents by Email'
+title: Set Up Document-Specific Content and Attachments for Email Messages | Microsoft Docs
+description: You can define content to insert into the body of an email message, for example, a PayPal link. You can also attach documents to email messages.
 documentationcenter: ''
 author: SorenGP
 
@@ -28,7 +28,7 @@ If the **Email** field in the **Send Document to** window is set to **Yes (Promp
 The following procedure describes how to set the **Sales - Invoice** report up to be used for document-specific email bodies when you email posted sales invoices.
 
 ## To set up a document-specific email body for sales invoices
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Report Selections Sales**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Report Selections Sales**, and then choose the related link.
 2. In the **Report Selection - Sales** window, in the **Usage** field, select **Invoice**.
 3. On a new line, in the **Report ID** field, select, for example, standard report 1306.
 4. Select the **Use for Email Body** check box.
@@ -44,7 +44,7 @@ Now, when you choose, for example, the **Send** action in the **Posted Sales Inv
 The following procedure describes how to send a posted sales invoice as an email message with the document attached as a PDF file and with a document-specific email body.
 
 ## To send documents by email
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Posted Sales Invoices**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Sales Invoices**, and then choose the related link.
 2. Select the relevant posted sales invoice, and then choose the **Send** action. The **Send Document to** window opens.
 3. In the **Email** field, select **Yes (Prompt for Settings)**. For more information, see [How to: Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).
 4. Choose the **OK** button. The **Send Email** window opens.
@@ -56,10 +56,11 @@ The following procedure describes how to send a posted sales invoice as an email
     If a document-specific email body is set up in the **Report Selection - Sales** window, then the **Body** field is filled in automatically. For more information, see the "To set up a document-specific email body for sales invoices" section in this topic.
 9. Choose the **OK** button to send the email message.
 
-**Note**: If you do not want to specify email settings each time you email a document, you can select the **Yes (Use Default Settings)** option in the **Email** field in the **Send Document to** window. In that case, the **Send Email** window will not open. See Step 4. For more information, see [How to: Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).
+> [!NOTE]  
+>   If you do not want to specify email settings each time you email a document, you can select the **Yes (Use Default Settings)** option in the **Email** field in the **Send Document to** window. In that case, the **Send Email** window will not open. See Step 4. For more information, see [How to: Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).
 
 ## See Also
 [Managing Report and Document Layouts](ui-manage-report-layouts.md)  
 [How to: Set up Email](madeira-how-setup-email.md)  
 [How to: Invoice Sales](sales-how-invoice-sales.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

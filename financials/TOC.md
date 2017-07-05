@@ -205,7 +205,6 @@
 ## [How to: Manage Users and Permissions](ui-how-users-permissions.md)
 ## [Logging Changes in Financials](across-log-changes.md)
 ## [How to: Create Number Series](ui-create-number-series.md)
-## [How to: Use Approval Workflows](across-how-use-approval-workflows.md)
 ## [Incoming Documents](across-income-documents.md)
 ### [How to: Set Up Incoming Documents](across-how-setup-income-documents.md)
 ### [Processing Incoming Documents](across-process-income-documents.md)

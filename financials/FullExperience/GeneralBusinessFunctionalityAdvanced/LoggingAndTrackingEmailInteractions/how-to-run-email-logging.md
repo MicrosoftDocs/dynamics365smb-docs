@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Run Email Logging | Microsoft Docs
+    description: Email logging can be used to capture email activities between a ADD INCLUDE<!--[!INCLUDE[d365fin](includes/d365fin_md.md)] contact. Both persons must have valid email addresses that are registered on the respective salesperson and contact cards.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

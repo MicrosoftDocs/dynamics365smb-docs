@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create the TORG-2 Report for Registering Mismatched Receipts | Microsoft Docs
+    description: The TORG-2 report is used to document inconsistencies for deviations of received goods that are not imported.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

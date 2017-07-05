@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up GIFI Codes | Microsoft Docs
+    description: The Canada Revenue Agency uses General Index of Financial Information (GIFI) codes to collect, validate, and process financial and tax information electronically.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

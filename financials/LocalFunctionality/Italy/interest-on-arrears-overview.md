@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Interest on Arrears Overview | Microsoft Docs
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], finance charge terms can include interest on arrears if you have amounts outstanding from customers or amounts outstanding for vendors.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

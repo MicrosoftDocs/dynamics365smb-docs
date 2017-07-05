@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Register VAT on Purchase Orders | Microsoft Docs
+    description: In Russia, organizations are required to keep a journal of received and issued VAT invoices. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] enables you to register VAT on purchase orders so that the information is tracked in the VAT invoices journal.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

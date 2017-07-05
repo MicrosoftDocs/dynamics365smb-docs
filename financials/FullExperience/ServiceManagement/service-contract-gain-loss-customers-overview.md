@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Contract Gain-Loss (Customers) Overview | Microsoft Docs
+    description: The **Contract Gain/Loss (Customers)** matrix shows a scrollable summary of contract gain/loss entries, based on customers.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

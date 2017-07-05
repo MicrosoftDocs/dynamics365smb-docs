@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: VAT Rates for Switzerland | Microsoft Docs
+    description: If VAT rates change, you must use the VAT rate change tool. In earlier versions of [!INCLUDE[d365fin](../../includes/d365fin_md.md)] you could temporarily use both the old and the new VAT rates for transactions, depending on the shipping dates. This functionality has been deprecated.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

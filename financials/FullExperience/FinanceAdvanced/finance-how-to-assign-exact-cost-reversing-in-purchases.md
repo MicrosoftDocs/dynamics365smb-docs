@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Assign Exact Cost Reversing in Purchases | Microsoft Docs
+    description: You may agree with your vendor to return a purchased item to them. When you have created a purchase return order and are ready to invoice it, you may want to revalue inventory using the unit cost that is connected to the original purchase entry. By default, a returned item is valued according to the current unit cost.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

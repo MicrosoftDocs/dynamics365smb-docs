@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create Put-aways from Posted Receipts | Microsoft Docs
+    description: If your location uses both put-away processing and receive processing and you have deleted put-away lines, or if you use directed put-away and pick and have decided not to use the put-away worksheet, you can create or recreate put-away instructions for posted receipt lines as follows.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

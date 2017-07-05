@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: VAT | Microsoft Docs
+    description: VAT is charged on transactions that involve goods and services in Russia or goods imported into Russia.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

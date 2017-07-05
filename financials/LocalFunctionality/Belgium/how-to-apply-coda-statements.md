@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Apply CODA Statements | Microsoft Docs
+    description: After a CODA statement has been imported, the statement lines can be accessed from the **Bank Account Card** window. The application status on each line will be blank because the statement amounts have not been applied to outstanding ledger entries.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

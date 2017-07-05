@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Plan Service | Microsoft Docs
+    description: With [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can set up the standard tasks that you need to fulfill your customer service requirements. To successfully do this, you have to determine what service offerings your service organization is supporting. In addition, you may want to establish a framework within which to set work levels for service workers.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

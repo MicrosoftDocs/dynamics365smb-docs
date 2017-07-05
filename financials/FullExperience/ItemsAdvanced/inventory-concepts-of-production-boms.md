@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Concepts of Production BOMs | Microsoft Docs
+    description: Manufacturers use production bills of material to supervise the use of items and components used for intermediate and finished products.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Release Production Orders by Status Change | Microsoft Docs
+    description: You can release both a planned production order and a firm planned production order by changing its status.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

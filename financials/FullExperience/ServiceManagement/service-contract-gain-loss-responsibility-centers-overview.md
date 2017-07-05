@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Contract Gain-Loss (Responsibility Centers)  Overview | Microsoft Docs
+    description: The **Contract Gain/Loss (Responsibility Centers)** matrix shows a scrollable summary of contract gain/loss entries, based on responsibility centers.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

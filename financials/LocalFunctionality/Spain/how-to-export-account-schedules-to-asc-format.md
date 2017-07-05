@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Export Account Schedules to ASC Format | Microsoft Docs
+    description: You can export the account schedule data into a digital file format approved by the local tax authorities for the following annual reports:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

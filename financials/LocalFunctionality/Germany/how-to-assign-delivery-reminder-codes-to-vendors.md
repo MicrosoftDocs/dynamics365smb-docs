@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Assign Delivery Reminder Codes to Vendors | Microsoft Docs
+    description: In order to enable delivery reminders for overdue purchases, you must assign delivery reminder terms to vendors. For more information, see [Delivery Reminders](delivery-reminders.md).
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

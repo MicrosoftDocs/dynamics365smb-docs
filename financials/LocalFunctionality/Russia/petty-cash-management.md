@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Petty Cash Management | Microsoft Docs
+    description: The petty cash management feature enables you to:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

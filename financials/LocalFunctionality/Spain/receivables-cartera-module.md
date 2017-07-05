@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Receivables Cartera Module | Microsoft Docs
+    description: The Receivables Cartera module allows you to manage bills generated from sales invoices. The documents can be managed by:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Microsoft Dynamics NAV Change Log | Microsoft Docs
+    description: The change log in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] logs changes that are made to data in the tables that you track. In the change log, entries are chronologically ordered and show changes that are made to the fields on the specified tables.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

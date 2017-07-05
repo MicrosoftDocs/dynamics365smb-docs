@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Correction of Incorrect Posted Documents | Microsoft Docs
+    description: If you have posted a document, for example a purchase order, and you discover that some of the information on the lines was incorrect, you can correct this posted document.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

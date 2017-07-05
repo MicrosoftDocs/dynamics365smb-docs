@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create Service Items | Microsoft Docs
+    description: When you receive an unregistered item for servicing, you can register it as a service item.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

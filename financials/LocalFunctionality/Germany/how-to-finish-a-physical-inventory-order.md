@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Finish a Physical Inventory Order | Microsoft Docs
+    description: After you have entered all data for the physical inventory order, you can finish the physical inventory order.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

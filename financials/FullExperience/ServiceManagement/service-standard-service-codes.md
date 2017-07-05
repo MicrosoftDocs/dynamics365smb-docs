@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Standard Service Codes | Microsoft Docs
+    description: When you perform typical service, you often have to create service documents that use service lines that contain similar information. To optimize the registering of new service lines, you can use standard service codes to have a predefined set of lines entered automatically.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

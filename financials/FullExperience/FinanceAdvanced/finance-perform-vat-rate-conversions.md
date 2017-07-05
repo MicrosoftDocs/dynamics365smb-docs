@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Perform VAT Rate Conversions | Microsoft Docs
+    description: The VAT rate change tool lets you easily manage VAT rate changes in order to maintain accurate VAT reporting.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

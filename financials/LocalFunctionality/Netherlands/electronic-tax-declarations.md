@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Electronic Tax Declarations | Microsoft Docs
+    description: Companies must deliver their VAT and ICP declarations electronically to the tax authorities.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

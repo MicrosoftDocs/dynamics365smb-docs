@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Change Unit Prices | Microsoft Docs
+    description: If you want to change the sales prices for several items, you can use the  **Adjust Item Costs/Prices** batch job.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

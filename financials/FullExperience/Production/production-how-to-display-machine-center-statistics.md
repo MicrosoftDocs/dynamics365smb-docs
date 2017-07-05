@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Display Machine Center Statistics | Microsoft Docs
+    description: You can view machine center statistics to get information about expected and actual capacity, quantity, and value of production orders, quantity produced, scrap, and run/stop time.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

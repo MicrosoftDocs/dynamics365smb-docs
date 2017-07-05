@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Reserve Items for Production Components | Microsoft Docs
+    description: You can reserve items for production orders. You have to distinguish between reserving for production order lines, meaning the parent item, and reserving for production order components.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

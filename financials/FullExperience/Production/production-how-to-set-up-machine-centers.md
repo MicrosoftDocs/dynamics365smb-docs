@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Machine Centers | Microsoft Docs
+    description: The machine centers are used as the lowest capacity level. No further subdivision is possible. You must therefore use machine centers for either single machines or a number of identical machines that do not need to be distinguished any further.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Delete Documents with Batch Jobs | Microsoft Docs
+    description: This section provides an overview of how you can delete orders, quotes, entries and more using batch jobs.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

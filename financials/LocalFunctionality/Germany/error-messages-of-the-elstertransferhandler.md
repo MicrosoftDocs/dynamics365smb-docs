@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Error Messages of the ElsterTransferHandler | Microsoft Docs
+    description: When [!INCLUDE[d365fin](../../includes/d365fin_md.md)] submits sales VAT advance notifications, errors can occur.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

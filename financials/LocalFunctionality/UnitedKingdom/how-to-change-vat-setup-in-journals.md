@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Change VAT Setup in Journals | Microsoft Docs
+    description: You can add VAT setup information to journal lines if needed. If you enter items without VAT, you do not need to remove VAT setup information manually.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

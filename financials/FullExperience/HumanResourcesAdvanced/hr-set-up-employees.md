@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Set up Employees | Microsoft Docs
+    description: To use the Human Resources feature, you must set up employees by creating a new employee card. From the employee card, you can enter basic information about the employee or update an existing employee's information. By setting up employees and related information, you ensure that relevant data is always readily available.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

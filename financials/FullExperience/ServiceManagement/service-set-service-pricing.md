@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Set Service Pricing | Microsoft Docs
+    description: You can use the [!INCLUDE[d365fin](../../includes/d365fin_md.md)] pricing features to set up and customize your application so that you apply and adjust pricing on service items, repairs, and orders. These pricing decisions are then easily transmitted to the invoicing process.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Define and Allocate Costs | Microsoft Docs
+    description: Cost allocations move costs and revenues between cost types, cost centers, and cost objects. You can define as many allocations as you need. Each allocation consists of:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

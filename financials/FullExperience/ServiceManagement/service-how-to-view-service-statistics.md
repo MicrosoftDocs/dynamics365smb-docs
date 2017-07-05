@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: View Service Statistics | Microsoft Docs
+    description: When you have created a service document, that is, a quote, invoice, or credit memo, and filled in the lines, you can see the resulting totals in the **Service Statistics** window for the relevant document.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

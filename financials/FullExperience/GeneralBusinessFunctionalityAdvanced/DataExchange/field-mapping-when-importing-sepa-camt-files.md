@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Field Mapping When Importing SEPA CAMT Files | Microsoft Docs
+    description: The generic version of Microsoft Dynamics NAV supports the regional SEPA standard (Single Euro Payments Area) for importing SEPA bank statements (CAMT format). For more information, see [How to: Import Bank Statements](../how-to-import-bank-statements.md).
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

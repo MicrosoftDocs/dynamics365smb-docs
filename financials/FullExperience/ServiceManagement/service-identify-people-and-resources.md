@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Identify People and Resources | Microsoft Docs
+    description: The key element to service management is the people who supply service. By using [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can set up an application that assigns the appropriate people to the appropriate jobs. Assignments can be based on service zones where the people are located or where the service occurs.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

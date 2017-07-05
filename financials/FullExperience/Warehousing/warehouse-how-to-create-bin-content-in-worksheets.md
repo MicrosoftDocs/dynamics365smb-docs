@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create Bin Content in Worksheets | Microsoft Docs
+    description: When you have created your bins, you can create the bin content that you want for each bin in the bin content creation worksheet.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

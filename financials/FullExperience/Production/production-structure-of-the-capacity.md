@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Structure of the Capacity | Microsoft Docs
+    description: The program distinguishes between three types of capacities. These are arranged hierarchically. Each level contains the subordinate levels.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

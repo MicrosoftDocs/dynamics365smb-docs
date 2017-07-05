@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Removing Elements from the User Interface According to Permissions | Microsoft Docs
+    description: You can configure ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]-->.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

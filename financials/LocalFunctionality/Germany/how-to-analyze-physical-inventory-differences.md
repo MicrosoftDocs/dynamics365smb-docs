@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Analyze Physical Inventory Differences | Microsoft Docs
+    description: After you have finished the physical inventory order, you can analyze the physical inventory differences.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

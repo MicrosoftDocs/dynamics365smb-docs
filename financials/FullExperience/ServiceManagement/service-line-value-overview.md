@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Line Value Overview | Microsoft Docs
+    description: The **Line Value** field is filled in as described in the following table.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

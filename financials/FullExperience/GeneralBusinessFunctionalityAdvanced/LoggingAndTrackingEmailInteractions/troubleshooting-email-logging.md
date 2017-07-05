@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Troubleshooting: Email Logging | Microsoft Docs
+    description: This topic describes some common problems that you may see when you use email logging.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

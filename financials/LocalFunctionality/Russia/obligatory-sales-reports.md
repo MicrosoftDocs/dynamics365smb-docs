@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Obligatory Sales Reports | Microsoft Docs
+    description: The obligatory sales reports feature enables you to print the following reports:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -44,8 +44,8 @@ The obligatory sales reports feature enables you to print the following reports:
   
 |Report|Description|  
 |---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Obligatory Sales Reports | Microsoft Docs
+    description: The obligatory sales reports feature enables you to print the following reports:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

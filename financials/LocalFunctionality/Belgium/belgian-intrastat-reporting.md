@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Belgian Intrastat Reporting | Microsoft Docs
+    description: Companies in the European Union (EU) are required to report trade with other countries in the EU. This reporting process is through Intrastat reporting or VIES (VAT Information Exchange System). There are two types of Intrastat declarations:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Enable the Change Log | Microsoft Docs
+    description: A common problem in an administrative computer system is to locate the origin of errors and changes in data. It could be anything from an incorrect customer telephone number to an incorrect posting to the general ledger. The change log functionality lets you track all direct modifications a user makes to data in the database.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

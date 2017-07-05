@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Service Item Groups | Microsoft Docs
+    description: You can use the **Service Item Groups** window to set up groups of items that are related in terms of repair and maintenance. You can define default values for service items in a service item group, such as response time, contract discount percent, and service price group. For items in a service item group, you can select whether you want them to be automatically registered as service items when they are sold. For more information, see [How to: Create Service Items When Shipping Items](../how-to-create-service-items-when-shipping-items.md).
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

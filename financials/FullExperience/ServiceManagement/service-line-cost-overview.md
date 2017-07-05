@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Line Cost Overview | Microsoft Docs
+    description: The **Line Cost** field is filled in as described in the following table.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

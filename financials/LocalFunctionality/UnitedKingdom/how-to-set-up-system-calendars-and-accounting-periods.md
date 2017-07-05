@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up System Calendars and Accounting Periods | Microsoft Docs
+    description: For many companies, the fiscal year does not coincide with the calendar year. Fiscal periods can be measured in other units of time, such as months or quarters. For more information, see Calendar Setup, System Calendar, and Accounting Period GB.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

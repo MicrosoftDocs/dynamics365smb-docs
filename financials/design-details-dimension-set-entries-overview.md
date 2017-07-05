@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Dimension Set Entries Overview | Microsoft Docs
+    description: This topic describes how dimension set entries are stored and posted in [!INCLUDE[d365fin](includes/d365fin_md.md)].
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

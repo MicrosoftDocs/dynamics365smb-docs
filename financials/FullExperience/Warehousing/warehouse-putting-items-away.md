@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Putting Items Away | Microsoft Docs
+    description: When setting up your warehouse, you make a number of different choices regarding how you want to operate and the level of detail and complexity you want to work with. The choices you make affect how you perform tasks in the program. One of these choices is how you want to put items away in your warehouse location.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

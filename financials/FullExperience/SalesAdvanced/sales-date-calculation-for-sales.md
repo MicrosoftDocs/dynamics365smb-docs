@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Date Calculation for Sales | Microsoft Docs
+    description: [!INCLUDE[d365fin](../../includes/d365fin_md.md)] automatically calculates the earliest possible date that an item on a sales order line can be shipped.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

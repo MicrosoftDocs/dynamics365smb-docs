@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Norway Local Functionality | Microsoft Docs
+    description: The following topics describe the local functionality in the Norwegian version of ADD INCLUDE<!--[!INCLUDE[nav_current_short](../../includes/nav_current_short_md.md)]-->.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

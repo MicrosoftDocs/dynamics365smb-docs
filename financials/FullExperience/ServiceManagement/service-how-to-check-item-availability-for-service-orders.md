@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Check Item Availability for Service Orders | Microsoft Docs
+    description: You can check and see if an item you need to fulfill an order is in stock, and if it is not, when the item will be in stock. In addition, if an item is available to reserve, you can reserve it to make sure it is available for your use.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

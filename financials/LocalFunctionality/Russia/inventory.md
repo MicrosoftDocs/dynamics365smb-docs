@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Inventory | Microsoft Docs
+    description: ##See Also
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

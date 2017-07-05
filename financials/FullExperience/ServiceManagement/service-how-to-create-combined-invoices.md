@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create Combined Invoices | Microsoft Docs
+    description: Using this procedure, you can invoice the customer for services provided on different service orders. Invoice lines are created for items, resource hours, or costs that have already been shipped from different service orders but not yet invoiced.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

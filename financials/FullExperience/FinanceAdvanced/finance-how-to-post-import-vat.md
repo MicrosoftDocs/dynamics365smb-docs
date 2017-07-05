@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Post Import VAT | Microsoft Docs
+    description: After you have set up codes for import VAT, you can post import VAT invoices.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

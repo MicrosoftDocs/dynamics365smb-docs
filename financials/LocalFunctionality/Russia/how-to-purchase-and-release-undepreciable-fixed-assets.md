@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Purchase and Release Undepreciable Fixed Assets | Microsoft Docs
+    description: After posting the fixed assets, you must create a fixed asset release act of the fixed asset and post it. If you open the **Fixed Asset Card** window for that fixed asset, you can see that in the corresponding lines, the depreciation for operation contains a zero, and the book value also contains a zero.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create an EU Sales List | Microsoft Docs
+    description: Companies that run VAT-registered businesses and sell or move goods to other VAT-registered businesses in the European Union (EU) must record and report about data on their sales activities to the government.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

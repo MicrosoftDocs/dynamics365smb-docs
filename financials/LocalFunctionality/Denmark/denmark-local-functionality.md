@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Denmark Local Functionality | Microsoft Docs
+    description: This section describes local functionality in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] in Denmark.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

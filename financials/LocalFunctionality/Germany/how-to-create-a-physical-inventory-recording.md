@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create a Physical Inventory Recording | Microsoft Docs
+    description: After you have created a physical inventory order and its lines you can create a new physical inventory recording for taking the inventory.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

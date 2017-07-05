@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Design Details: Warehouse Management | Microsoft Docs
+    description: This documentation gives an overview of the concepts and principles that are used in the Warehouse Management features in ADD INCLUDE<!--[!INCLUDE[navnowlong](includes/navnowlong_md.md)]-->. It explains the design behind central warehouse features and how warehousing integrates with other supply chain features.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

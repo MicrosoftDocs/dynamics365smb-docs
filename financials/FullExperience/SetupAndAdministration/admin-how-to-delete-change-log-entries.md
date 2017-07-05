@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Delete Change Log Entries | Microsoft Docs
+    description: You can always delete change log entries that are of no use to you.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

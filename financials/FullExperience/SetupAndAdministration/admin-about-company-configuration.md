@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: About Company Configuration | Microsoft Docs
+    description: You can provide a customer or prospective customer with an installation of [!INCLUDE[d365fin](../../includes/d365fin_md.md)] and a selection of configuration packages that can be easily accessed, deployed, modified, and applied to the current company.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

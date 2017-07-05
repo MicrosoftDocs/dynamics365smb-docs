@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Design Details: Codeunit 408 Dimension Management | Microsoft Docs
+    description: Codeunit 408 Dimension Management is a function library that handles common tasks that are related to dimensions, such as copying from one table to another or from one document to another. This topic lists the functions that are modified in ADD INCLUDE<!--[!INCLUDE[navsicily](includes/navsicily_md.md)]--> and specifies what has to be done to the functions. Many functions are deleted because there is no need for copying between dimension tables.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

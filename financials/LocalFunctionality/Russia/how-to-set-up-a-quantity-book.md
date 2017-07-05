@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up a Quantity Book | Microsoft Docs
+    description: Create a depreciation book to keep record of the fixed assets quantities that will be repaid at the time of release for the amount at which they were acquired.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

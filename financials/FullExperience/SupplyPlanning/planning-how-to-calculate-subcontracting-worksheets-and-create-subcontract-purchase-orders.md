@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Calculate Subcontracting Worksheets and Create Subcontract Purchase Orders | Microsoft Docs
+    description: The **Subcontracting Worksheet** window functions like the **Planning Worksheet** by calculating the needed supply, in this case purchase orders, which you review in the worksheet and then create with the **Carry Out Action Message** function.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

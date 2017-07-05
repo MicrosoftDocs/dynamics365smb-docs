@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: About Warehouse Management | Microsoft Docs
+    description: With warehouse management, you can organize and handle the items in inventory on a bin level. Depending on your setup and the granules specified in your license, you can receive items and put them away in bins, pick and ship from bins, and move items between bins. The sections below describe the various features of warehouse management.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

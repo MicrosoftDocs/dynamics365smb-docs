@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Reorganize Intrastat Journals | Microsoft Docs
+    description: You must submit an Intrastat report every month and create a new journal batch for each report. So eventually, there will be many journal batches. The journal lines are not deleted automatically.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

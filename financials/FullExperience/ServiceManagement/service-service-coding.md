@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Service Coding | Microsoft Docs
+    description: To successfully create a service management implementation, you should decide up front what your standard service offerings and scenarios will be. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] has features to make this easy.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

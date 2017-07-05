@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Tax Accounting | Microsoft Docs
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can set up and maintain tax registers to track taxable profits and losses. This is based on the following tax accounting principles:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

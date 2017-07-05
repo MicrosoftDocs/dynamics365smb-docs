@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Norwegian VAT Reporting | Microsoft Docs
+    description: [!INCLUDE[d365fin](../../includes/d365fin_md.md)] ../../includes Norwegian enhancements that allow you to calculate and report VAT to the Norwegian tax authorities.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

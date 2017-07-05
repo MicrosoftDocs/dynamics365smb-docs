@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Symbols and Icons on the Timeline FastTab | Microsoft Docs
+    description: |Symbol/Icon|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

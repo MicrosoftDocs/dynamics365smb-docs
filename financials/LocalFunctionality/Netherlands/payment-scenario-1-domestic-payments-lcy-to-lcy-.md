@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Payment Scenario 1 - Domestic Payments (LCY to LCY) | Microsoft Docs
+    description: You can use telebanking for trade with domestic and foreign customers and vendors. This topic describes a scenario where the trade is with domestic customers and vendors.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

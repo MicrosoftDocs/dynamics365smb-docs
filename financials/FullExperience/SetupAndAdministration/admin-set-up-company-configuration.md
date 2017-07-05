@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Set Up Company Configuration | Microsoft Docs
+    description: The implementation process begins with the [!INCLUDE[d365fin](../../includes/d365fin_md.md)] solution will require. You bundle all of this information into configuration packages.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

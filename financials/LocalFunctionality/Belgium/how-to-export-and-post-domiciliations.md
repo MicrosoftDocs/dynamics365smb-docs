@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Export and Post Domiciliations | Microsoft Docs
+    description: You can submit domiciliations to your bank by exporting the data to a file. When you export to a file, you can choose to automatically post the lines to the general ledger.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

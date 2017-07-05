@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Account Schedules | Microsoft Docs
+    description: You can use account schedules to arrange and organize accounts in the chart of accounts. For more information, see the Acc. Schedule Name table.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

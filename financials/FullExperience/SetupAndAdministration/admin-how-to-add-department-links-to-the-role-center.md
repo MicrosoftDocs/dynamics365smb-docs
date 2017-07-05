@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Add Department Links to the Role Center | Microsoft Docs
+    description: Sometimes you may find a link on a **Departments** page that you want to add to your Role Center. The link can appear in one of the following menus:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

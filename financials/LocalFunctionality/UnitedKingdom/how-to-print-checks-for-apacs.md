@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Print Checks for APACS | Microsoft Docs
+    description: The Association for Payment Clearing Services (APACS) specification defines a standard layout for fields on checks. The **Check** report uses this specification.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

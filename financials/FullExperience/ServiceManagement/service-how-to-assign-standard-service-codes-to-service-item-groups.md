@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Assign Standard Service Codes to Service Item Groups | Microsoft Docs
+    description: You may often need to create service documents with service lines that contain similar information. You can have these lines inserted automatically if you set up standard service codes with service lines linked to them, and then assign the codes to service item groups.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Register Spare Parts | Microsoft Docs
+    description: When working on service items in service orders, you may need to use spare parts for the service. The following procedure shows how to register the spare parts you use in the **Service Item Worksheet** window.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

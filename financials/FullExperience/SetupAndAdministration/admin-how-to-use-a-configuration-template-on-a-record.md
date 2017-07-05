@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Use a Configuration Template on a Record | Microsoft Docs
+    description: You can apply a data template to any record that is in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] and use this technique to change or modify a record. However, when you do this, you overwrite existing values in the record with those of the template. Consequently, you should be careful when you apply a template to existing records.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

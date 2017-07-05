@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Example - Inventory Order Line with Tracking Lines | Microsoft Docs
+    description: The physical inventory order line should contain the following data:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

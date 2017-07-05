@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Administer the Application | Microsoft Docs
+    description: Administrators are responsible for defining and maintaining roles and permissions for database users, and for controlling the types of database changes that users can perform. Administrators must also ensure that automated posting routines are running correctly, and manage the archiving and deletion of historical documents.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

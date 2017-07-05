@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Fill In Revaluation Journals Manually | Microsoft Docs
+    description: If you want to appreciate or depreciate an item or a specific item ledger entry, you must use the revaluation journal.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

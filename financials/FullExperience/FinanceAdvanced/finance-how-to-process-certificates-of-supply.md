@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Process Certificates of Supply | Microsoft Docs
+    description: When you sell goods to a customer in another EU country/region, you must send the customer a certificate of supply that the customer must sign and return to you.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

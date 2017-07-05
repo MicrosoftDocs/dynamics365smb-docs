@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Date Calculation for Purchases | Microsoft Docs
+    description: [!INCLUDE[d365fin](../../includes/d365fin_md.md)] automatically calculates the date on which you must order an item to have it in inventory on a certain date. This is the date on which you can expect items ordered on a particular date to be available for picking.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

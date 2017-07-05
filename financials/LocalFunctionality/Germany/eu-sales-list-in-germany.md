@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: EU Sales List in Germany | Microsoft Docs
+    description: In Germany, the German EU sales list is submitted to the "Bundeszentralamt für Steuern" (BZSt) through the BZSt Online Portal by using the ELMA5 interface.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

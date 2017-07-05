@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Export SEPA Payment Files | Microsoft Docs
+    description: The following procedure describes how to export a SEPA payment file, one of the payment options supported by [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. The procedure describes how to create a payment for a vendor, but the same steps also apply to creating payments for a customer.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

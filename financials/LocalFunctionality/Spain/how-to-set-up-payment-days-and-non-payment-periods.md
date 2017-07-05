@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Payment Days and Non-Payment Periods | Microsoft Docs
+    description: Payment days and non-payment periods are used to calculate due dates. Due date calculation is used for sales and purchase documents.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

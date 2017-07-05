@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: List Production BOM Structures | Microsoft Docs
+    description: The structure of the production BOM can be represented by reports. For representation of a BOM, all levels are observed, that is, the production BOM is completely exploded.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

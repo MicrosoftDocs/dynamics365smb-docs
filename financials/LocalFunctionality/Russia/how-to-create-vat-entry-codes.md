@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create VAT Entry Codes | Microsoft Docs
+    description: Invoices must specify a VAT entry type code. The VAT entry type codes are based on a list that is established by legislation. Some types of documents, such as corrective or revision invoices, have several codes from the list.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

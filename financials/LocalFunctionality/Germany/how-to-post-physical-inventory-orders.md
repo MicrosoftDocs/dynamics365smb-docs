@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Post Physical Inventory Orders | Microsoft Docs
+    description: After completing a physical inventory order and changing its status to **Finished**, you can post it.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

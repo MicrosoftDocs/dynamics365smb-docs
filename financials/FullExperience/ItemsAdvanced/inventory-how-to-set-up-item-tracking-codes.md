@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Item Tracking Codes | Microsoft Docs
+    description: An item tracking code reflects the different considerations a company has regarding the use of serial and lot numbers for items moving through the inventory.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

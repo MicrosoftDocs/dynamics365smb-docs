@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Print Periodic VAT Reports | Microsoft Docs
+    description: The VAT reporting feature enables you to print VAT transaction details. You must send the following VAT reports to the Belgian tax authorities:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -32,8 +32,8 @@ The VAT reporting feature enables you to print VAT transaction details. You must
   
     |Field|Description|  
     |---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Print Periodic VAT Reports | Microsoft Docs
+    description: The VAT reporting feature enables you to print VAT transaction details. You must send the following VAT reports to the Belgian tax authorities:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

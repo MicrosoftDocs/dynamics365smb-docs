@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Assign Skill Codes to Items and Service Items | Microsoft Docs
+    description: Servicing some service items may require specific skills. If this is the case, you can assign skill codes to the items that these service items are linked to, or directly to these service items.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

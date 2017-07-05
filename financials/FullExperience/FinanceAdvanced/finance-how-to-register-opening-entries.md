@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Register Opening Entries | Microsoft Docs
+    description: If you are using the fixed assets in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] for the first time, you must set up the general ledger application area before you set up fixed assets. How you do this depends on whether fixed assets is integrated with general ledger.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

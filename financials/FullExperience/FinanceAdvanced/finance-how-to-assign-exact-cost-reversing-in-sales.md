@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Assign Exact Cost Reversing in Sales | Microsoft Docs
+    description: You may agree to compensate a customer by letting them return a sold item against a sales return order. When you invoice the sales return order, you want to revalue the item at the unit cost that is connected to the original sales entry by assigning the exact cost in the reversal. By default, a returned item is valued according to the current unit cost.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

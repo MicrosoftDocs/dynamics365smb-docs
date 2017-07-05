@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create VAT Ledgers | Microsoft Docs
+    description: You can create and store any number of VAT ledgers. For example, you can create the following:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

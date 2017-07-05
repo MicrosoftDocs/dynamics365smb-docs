@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Register Service Order Comments | Microsoft Docs
+    description: You can use the **Service Comments** window to register comments on service orders or service quotes. The following procedure uses a service order as an example, but the same procedure can apply to service quotes.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Print an Inventory Picking List from a Sales Order | Microsoft Docs
+    description: You can print an inventory picking list directly from a sales order. The picking list contains a list of items with the following information:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

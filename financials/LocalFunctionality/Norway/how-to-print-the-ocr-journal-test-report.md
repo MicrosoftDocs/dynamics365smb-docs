@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Print the OCR Journal - Test Report | Microsoft Docs
+    description: You can print the **OCR Journal – Test** report to test the imported payment transactions in the cash receipt journal. You can also view potential warnings and reconcile conflicts before the payments are posted to the journal.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

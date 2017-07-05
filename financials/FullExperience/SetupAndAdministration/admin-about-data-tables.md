@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: About Data Tables | Microsoft Docs
+    description: [!INCLUDE[d365fin](../../includes/d365fin_md.md)] data tables come in two basic types: Master and Setup. When you are setting up a company configuration, you can use these types to focus your configuration strategy.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

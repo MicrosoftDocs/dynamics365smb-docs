@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Norwegian VAT Codes | Microsoft Docs
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], VAT processing information can be easily set up using standard Norwegian VAT codes. The following table shows the standard Norwegian VAT codes.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

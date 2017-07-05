@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Human Resources | Microsoft Docs
+    description: The Human Resources feature lets you keep detailed records of your employees. You can register and maintain employee information, such as employment contracts, confidential information, qualifications, and employee contacts.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

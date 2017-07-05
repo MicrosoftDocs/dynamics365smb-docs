@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Print Change Log Entries | Microsoft Docs
+    description: After you have set up the change log, activated it, and made changes to data, you can print reports of the change logs entries.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

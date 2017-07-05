@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Log User Changes | Microsoft Docs
+    description: The change log functionality enables you to track all direct modifications that a user makes to data in the database.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

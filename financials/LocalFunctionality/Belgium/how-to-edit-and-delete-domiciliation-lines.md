@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Edit and Delete Domiciliation Lines | Microsoft Docs
+    description: After you have generated domiciliation suggestions, you may want to change the domiciliations lines. For example, you may want to reassign a bank account or prevent payment for a specific customer or customer ledger entry.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

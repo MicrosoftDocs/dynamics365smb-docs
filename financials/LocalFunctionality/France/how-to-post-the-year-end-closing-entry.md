@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Post the Year-End Closing Entry | Microsoft Docs
+    description: After you use the **Close Income Statement** batch job to generate the year-end closing entry or entries, you must open the journal you specified in the batch job, and then review and post the entries.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

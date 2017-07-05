@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Convert Service Quotes to Service Orders | Microsoft Docs
+    description: When a customer has accepted a service quote, you convert it to a service order.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

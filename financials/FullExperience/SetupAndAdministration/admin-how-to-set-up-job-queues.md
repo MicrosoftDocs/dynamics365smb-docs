@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Job Queues | Microsoft Docs
+    description: You can set up a job queue and specify the order in which designated reports, batch jobs, and codeunits are set up to run. The ADD INCLUDE<!--[!INCLUDE[nav_server](../../includes/nav_server_md.md)]--> reads from the job queue and determines which job to run next. When you set up a job queue, you can specify on which computer and on which service the job queue is to run.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

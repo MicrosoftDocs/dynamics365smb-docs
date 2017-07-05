@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Select a Configuration Template | Microsoft Docs
+    description: When you select an existing data template, you must evaluate whether the template that you created for the new company are sufficient for the customer. Review the provided fields and values to determine which templates are appropriate for a new company.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

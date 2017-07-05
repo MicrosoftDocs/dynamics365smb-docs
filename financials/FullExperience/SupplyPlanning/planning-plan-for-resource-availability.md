@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Plan for Resource Availability | Microsoft Docs
+    description: In connection with master planning, you must know the exact availability of resources that can execute the planned operations. Resource planning consist mainly of adjustment and recalculation of shop floor calendars, but may also involve resetting a machine center's capacity or preparing to subcontract operations.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Electronic Invoicing | Microsoft Docs
+    description: Mexican companies must be able to send invoices electronically as Comprobante Fiscal Digital por Internet (CFDI) files. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] supports CFDI so that you can export sales and service invoices and credit memos as electronic documents that have the required digital signature.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

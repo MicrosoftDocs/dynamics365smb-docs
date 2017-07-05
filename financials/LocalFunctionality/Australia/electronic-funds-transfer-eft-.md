@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Electronic Funds Transfer (EFT) | Microsoft Docs
+    description: You can pay vendors using the electronic funds transfer (EFT) system in Australia.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

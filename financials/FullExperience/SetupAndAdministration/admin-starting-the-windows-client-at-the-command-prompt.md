@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Starting the Windows Client at the Command Prompt | Microsoft Docs
+    description: You can start the Microsoft Dynamics NAV Windows client at a command prompt. By adding command-line parameters, you can:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

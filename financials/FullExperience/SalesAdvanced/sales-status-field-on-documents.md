@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Status Field on Documents | Microsoft Docs
+    description: When you create a quote, order or credit memo, the **Status** field on the document header contains the status **Open** by default.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

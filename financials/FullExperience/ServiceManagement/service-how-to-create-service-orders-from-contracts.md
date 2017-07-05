@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create Service Orders from Contracts | Microsoft Docs
+    description: You can automatically create service orders for the maintenance of service items based on service contracts.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

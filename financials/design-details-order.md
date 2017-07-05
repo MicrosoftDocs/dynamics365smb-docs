@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Design Details: Order | Microsoft Docs
+    description: In a make-to-order environment, an item is purchased or produced to exclusively cover a specific demand. Typically it relates to A-items, and the motivation for choosing the Order reordering policy can be that the demand is infrequent, the lead-time is insignificant, or the required attributes vary.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

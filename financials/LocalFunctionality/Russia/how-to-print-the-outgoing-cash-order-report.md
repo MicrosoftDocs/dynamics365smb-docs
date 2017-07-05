@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Print the Outgoing Cash Order Report | Microsoft Docs
+    description: The **Cash Outgoing Order CO-2** report shows the outgoing cash order, which is a standard format required by Russian accounting legislation.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

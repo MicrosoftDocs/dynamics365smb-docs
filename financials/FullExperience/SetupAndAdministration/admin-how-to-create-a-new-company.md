@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create a New Company | Microsoft Docs
+    description: To use RapidStart Services tables and pages are created, but there is no data in them.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

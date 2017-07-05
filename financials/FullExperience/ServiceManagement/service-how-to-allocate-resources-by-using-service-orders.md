@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Allocate Resources by Using Service Orders | Microsoft Docs
+    description: After you have created and filled in a service order or service quote, you can allocate resources, for example, technicians, to perform service tasks registered as service item lines in the document.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

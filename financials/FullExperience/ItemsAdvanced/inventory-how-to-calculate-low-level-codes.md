@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Calculate Low-Level Codes | Microsoft Docs
+    description: Each item in a production BOM must have a low-level code.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

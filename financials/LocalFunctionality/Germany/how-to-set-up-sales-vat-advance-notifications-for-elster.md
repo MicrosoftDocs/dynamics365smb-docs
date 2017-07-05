@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Sales VAT Advance Notifications for ELSTER | Microsoft Docs
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], to submit valid sales VAT advance notifications to the ELSTER portal, you must set up the following:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -38,8 +38,8 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], to submit valid sales VAT 
   
     |Field|Description|  
     |---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Sales VAT Advance Notifications for ELSTER | Microsoft Docs
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], to submit valid sales VAT advance notifications to the ELSTER portal, you must set up the following:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

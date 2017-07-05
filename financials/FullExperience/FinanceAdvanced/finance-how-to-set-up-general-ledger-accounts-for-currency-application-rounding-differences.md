@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up General Ledger Accounts for Currency Application Rounding Differences | Microsoft Docs
+    description: If you apply entries in different currencies, you must set up the general ledger accounts to which you want to post rounding differences.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

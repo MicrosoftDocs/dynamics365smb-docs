@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Fixed Asset Turnover | Microsoft Docs
+    description: The fixed asset turnover feature enables you to:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

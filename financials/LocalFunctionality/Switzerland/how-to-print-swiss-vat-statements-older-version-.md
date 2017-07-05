@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Print Swiss VAT Statements (older version) | Microsoft Docs
+    description: > [!NOTE]
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

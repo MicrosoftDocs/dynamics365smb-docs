@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Add Users for ADCS | Microsoft Docs
+    description: You can add any user as a user of an Automated Data Capture System (ADCS). When you do this, the user must also provide a password. Optionally, you can also provide a connection that identifies the ADCS user as a warehouse employee. The ADCS user password can be different from the Windows logon password of the user.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

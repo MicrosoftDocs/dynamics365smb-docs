@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Release Orders | Microsoft Docs
+    description: You can release sales and purchase orders to the next stage of processing before it is posted. When an order is released it will be included in all availability calculations from the expected receipt date of the items.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

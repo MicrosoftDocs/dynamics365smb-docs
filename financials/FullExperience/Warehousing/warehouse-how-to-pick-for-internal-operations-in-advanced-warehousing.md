@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Pick for Internal Operations in Advanced Warehousing | Microsoft Docs
+    description: In advanced warehousing where the location is set up to use picking as well as shipping, you can pick components for production and assembly activities with the **Warehouse Pick** window.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

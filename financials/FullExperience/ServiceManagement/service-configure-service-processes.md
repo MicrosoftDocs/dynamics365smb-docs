@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Configure Service Processes | Microsoft Docs
+    description: Service management in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] has features to help you configure and set up your service management system. Use these tools to set defaults, numbering series, and the required fields that you want a customer service representative to fill in. The information stored in the underlying tables determines how to manage certain aspects of the service management activities.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

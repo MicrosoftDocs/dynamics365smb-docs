@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create and Post Purchase Allowances | Microsoft Docs
+    description: If you receive items from your vendor that are not what you wanted, for example, if they are slightly damaged, the wrong color or the wrong size, the vendor may offer you a purchase allowance.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

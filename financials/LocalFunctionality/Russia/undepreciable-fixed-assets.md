@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Undepreciable Fixed Assets | Microsoft Docs
+    description: The undepreciable fixed assets feature enables you to repay fixed assets with the whole amount of their acquisition at the time of their release. It also automatically creates quantity records for these fixed assets in order to keep records of their existence and movements in quantitative terms.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

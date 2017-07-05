@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Design Details: Table Structure | Microsoft Docs
+    description: To understand how the dimension entry storing and posting is redesigned, it is important to understand the table structure.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

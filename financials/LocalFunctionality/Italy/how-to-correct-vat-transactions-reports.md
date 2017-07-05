@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Correct VAT Transactions Reports | Microsoft Docs
+    description: ### To send a corrected VAT transaction report
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Direct Debit Using Domiciliation | Microsoft Docs
+    description: A domiciliation is a financial agreement between you and your customers, allowing you to automatically collect the payments for customer's invoices through a preferred bank account. Domiciliations can only be processed for domestic customers with domestic bank accounts. Domiciliations in foreign currencies or involving foreign banks are not supported.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Prepare Service Line Items for Warehouse Handling | Microsoft Docs
+    description: Service lines, like other outbound document lines, such as on sales, outbound transfer, and purchase returns, can function as source document lines for picking to shipment. In addition, service lines can function as source document lines for movement to internal operation areas in the same way as assembly order lines and released production order component lines.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

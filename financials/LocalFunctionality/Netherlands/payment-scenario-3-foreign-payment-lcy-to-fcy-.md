@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Payment Scenario 3 - Foreign Payment (LCY  to FCY) | Microsoft Docs
+    description: You can use telebanking for trade with domestic and foreign customers and vendors. This topic describes a scenario where the trade is with foreign customers and vendors that use a different currency than your local currency.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Create Cost Budgets | Microsoft Docs
+    description: Budgeting in cost accounting resembles budgeting in the general ledger. A cost budget is created based on cost types just as a budget for the general ledger is created based on general ledger accounts.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Service Management Setup | Microsoft Docs
+    description: In the **Service Mgt. Setup** window, you can decide how you want certain aspects of the Service application area to be managed.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

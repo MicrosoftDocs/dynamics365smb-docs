@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Set Up Inventory Valuation and Costing | Microsoft Docs
+    description: The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

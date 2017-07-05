@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Customize a Calendar | Microsoft Docs
+    description: The main task in customizing a base calendar for your company, or one of its business partners, is to enter any changes to working and nonworking day status.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

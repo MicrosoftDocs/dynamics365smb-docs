@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Set Applies-to ID | Microsoft Docs
+    description: Use this to apply one or more G/L entries. Select the entry, and then choose **Set Applies-to ID**.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

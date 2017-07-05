@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Change Reservations | Microsoft Docs
+    description: Sometimes, you may want to change an item reservation.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

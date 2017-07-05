@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: EAN Location Number | Microsoft Docs
+    description: A European Article Numbering (EAN) location number is an electronic address that you can use when you send an electronic invoice. This number uniquely identifies the buyer’s billing address. EAN location numbers can be used in countries/regions outside Europe and are also referred to as Global Location Numbers (GLN).
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

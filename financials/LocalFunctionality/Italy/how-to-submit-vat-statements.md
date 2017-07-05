@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Submit VAT Statements | Microsoft Docs
+    description: Companies must pay VAT for most purchased goods and services. VAT can be deducted if the goods and services that are purchased by a company are used in the production of its income.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

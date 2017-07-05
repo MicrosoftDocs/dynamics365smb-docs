@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Vendor Payments and Customer Bills Overview | Microsoft Docs
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can manage automatic bills to customers and from vendors.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

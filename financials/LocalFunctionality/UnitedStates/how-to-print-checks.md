@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Print Checks | Microsoft Docs
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use the print check option to manage check payments to vendors or refunds to customers. This option lets you generate electronic payments.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

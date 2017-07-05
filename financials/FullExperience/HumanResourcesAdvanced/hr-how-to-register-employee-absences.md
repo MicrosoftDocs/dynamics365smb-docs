@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Register Employee Absences | Microsoft Docs
+    description: In order for you to be able to manage employee absences, you must register them.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

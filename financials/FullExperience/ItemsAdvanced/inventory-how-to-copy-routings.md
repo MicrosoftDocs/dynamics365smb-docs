@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Copy Routings | Microsoft Docs
+    description: You can copy routings. This is useful for long routings or when slight changes are to be made. You can copy an existing version of a routing into a new or existing one. The copy function deletes old lines in the current routing.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Service Contract Account Groups | Microsoft Docs
+    description: In the **Service Contract Account Group** window, you can view, change, or create your service contract account groups, and assign them to service contracts. Service contract account groups are used to group the service contract accounts. Service contract accounts are used for the service invoices of service contracts.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

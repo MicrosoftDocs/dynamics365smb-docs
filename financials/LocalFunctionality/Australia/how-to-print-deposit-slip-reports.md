@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Print Deposit Slip Reports | Microsoft Docs
+    description: The **Deposit Slip** report displays cash and check details in a format required by the bank.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

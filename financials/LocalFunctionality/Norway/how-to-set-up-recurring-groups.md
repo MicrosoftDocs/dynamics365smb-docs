@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Recurring Groups | Microsoft Docs
+    description: The **Recurring Group Code** field in the **Blanket Sales Order** window defines date formulas that can be used both as a template and to create sales orders based on date intervals. You must set up recurring groups before you can set up recurring orders.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Register Absences | Microsoft Docs
+    description: To be able to administer an employee's absence, you must register the absence in the Absence Registration window. After you have registered the absence, the information can be viewed several ways for analysis and reporting needs.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

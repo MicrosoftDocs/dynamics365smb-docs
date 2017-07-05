@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Bank and Cash Management | Microsoft Docs
+    description: [!INCLUDE[emptyBookNodeText](../../includes/emptybooknodetext_md.md)]
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

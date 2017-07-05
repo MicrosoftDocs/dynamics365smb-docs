@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Physical Inventory Order Lines With Item Tracking Lines | Microsoft Docs
+    description: Item tracking lines are used to enter serial nos. and lot nos. for physical inventory order lines.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

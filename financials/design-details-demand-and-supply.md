@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Design Details: Demand and Supply | Microsoft Docs
+    description: Demand is the common term used for any kind of gross demand, such as a sales order and component need from a production order. In addition, the program allows more technical types of demand, such as negative inventory and purchase returns.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

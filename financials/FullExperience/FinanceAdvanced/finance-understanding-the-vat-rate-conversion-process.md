@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Understanding the VAT Rate Conversion Process | Microsoft Docs
+    description: This topic describes the VAT rate change conversion process.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

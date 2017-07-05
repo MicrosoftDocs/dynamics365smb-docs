@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Norwegian Sales Documents | Microsoft Docs
+    description: [!INCLUDE[d365fin](../../includes/d365fin_md.md)] supports two sets of sales documents. A document set consists of a sales invoice, sales credit memo, reminder, and finance charge memo.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

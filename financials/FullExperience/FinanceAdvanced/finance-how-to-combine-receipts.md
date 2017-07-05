@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Combine Receipts | Microsoft Docs
+    description: If you want to invoice more than one purchase receipt at a time, you can use the **Combine Receipts** function.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

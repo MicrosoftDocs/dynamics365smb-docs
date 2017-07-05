@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create an Order from an Archived Blanket Order | Microsoft Docs
+    description: You can create a new sales order or purchase order from an archived blanket order.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

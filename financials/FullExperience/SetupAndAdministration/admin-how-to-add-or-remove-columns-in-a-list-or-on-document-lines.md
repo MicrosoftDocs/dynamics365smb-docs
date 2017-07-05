@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Add or Remove Columns in a List or on Document Lines | Microsoft Docs
+    description: To get a better overview of the information that you need, you can customize list pages and card pages by adding or removing columns in the grids.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

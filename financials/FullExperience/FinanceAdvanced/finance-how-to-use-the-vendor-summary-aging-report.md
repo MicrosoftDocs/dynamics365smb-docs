@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Use the Vendor - Summary Aging Report | Microsoft Docs
+    description: The **Vendor – Summary Aging** report displays amounts that will be due for payment to individual vendors in the future.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

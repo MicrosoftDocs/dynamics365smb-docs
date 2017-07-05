@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create and Modify the Migration Tables List | Microsoft Docs
+    description: You can create new data migration files and customize them to support your business. However, a file can only be used to migrate a field that has its **FieldClass** property set to **Normal**. For more information, see [FieldClass Property](../FieldClass%20Property.md).
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

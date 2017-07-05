@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Communicate Production Plans | Microsoft Docs
+    description: When a supply plan is established through master planning and material requirements planning, it must be communicated to the respective [Purchasing](../production.md) departments. This step consists mainly of initiating the planned supply orders, typically by auto-creating them with a function in the planning tools.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

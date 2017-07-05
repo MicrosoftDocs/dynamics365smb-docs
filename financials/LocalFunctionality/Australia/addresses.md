@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Addresses | Microsoft Docs
+    description: A single postal code can include multiple cities in the same region.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

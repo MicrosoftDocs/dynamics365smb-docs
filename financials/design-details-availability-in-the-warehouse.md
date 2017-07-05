@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Design Details: Availability in the Warehouse | Microsoft Docs
+    description: The system must keep a constant control of item availability in the warehouse, so that outbound orders can flow efficiently and provide optimal deliveries.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

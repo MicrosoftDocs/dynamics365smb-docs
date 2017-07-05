@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Process Purchase Returns or Cancellations | Microsoft Docs
+    description: If you want to return items to your vendor or cancel services that you have purchased, then you can create and post a purchase credit memo that specifies the requested change with regard to the original purchase invoice. You can use the **Copy Document** function to fill the purchase credit memo with the correct purchase invoice information.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

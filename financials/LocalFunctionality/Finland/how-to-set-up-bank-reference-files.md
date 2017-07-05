@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Bank Reference Files | Microsoft Docs
+    description: To process electronic payments, you must first set up bank reference files to determine how payment data should be imported or exported.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

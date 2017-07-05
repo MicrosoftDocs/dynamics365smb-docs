@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Download CODA Files from an Isabel Server | Microsoft Docs
+    description: CODA files can be downloaded manually or in attended mode.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

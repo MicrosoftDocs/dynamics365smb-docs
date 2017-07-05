@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Access an Overview of Confidential Information | Microsoft Docs
+    description: You can quickly get an overview of confidential information related to your employees. This can prove useful for keeping track of how many employees have insurance coverage or participate in a stock option plan, for example.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

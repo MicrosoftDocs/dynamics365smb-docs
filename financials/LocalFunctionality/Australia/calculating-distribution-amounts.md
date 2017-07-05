@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Calculating Distribution Amounts | Microsoft Docs
+    description: You can reallocate the amount in one general ledger account to other general ledger accounts so that the balances of your accounts remain proportionate to one another.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

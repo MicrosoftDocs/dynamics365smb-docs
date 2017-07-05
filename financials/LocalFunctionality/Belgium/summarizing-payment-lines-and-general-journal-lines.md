@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Summarizing Payment Lines and General Journal Lines | Microsoft Docs
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] handles the following types of transactions in the same way:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

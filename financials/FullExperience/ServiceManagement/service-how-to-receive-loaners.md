@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Receive Loaners | Microsoft Docs
+    description: When you receive a loaner from a customer, you must register the receipt. You do this in the **Service Order**, **Posted Service Shipment**, and **Loaner Card** windows. This procedure shows how to receive loaners in the **Service Order** window.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

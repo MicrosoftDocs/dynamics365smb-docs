@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: View Item Availability | Microsoft Docs
+    description: The follow table shows the various ways you can view an item’s availability.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

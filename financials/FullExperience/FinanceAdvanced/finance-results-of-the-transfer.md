@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Results of the Transfer | Microsoft Docs
+    description: During the transfer of general ledger entries to cost entries, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] creates connections in the entries in the **G/L Entry** table, the **Cost Entry** table, and the **Cost Register** table to make it possible to trace the connections between cost entries and general ledger entries.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

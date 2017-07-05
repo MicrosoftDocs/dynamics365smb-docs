@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Delivery Reminders | Microsoft Docs
+    description: Delivery reminders are used to track overdue vendor shipments, and to remind vendors about overdue deliveries. To create delivery reminders, you must set up the following:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create Blanket Purchase Orders | Microsoft Docs
+    description: You can use blanket orders when you have committed to buying large quantities of an item that are to be received in several smaller shipments over a certain period of time. For more information, see [About Blanket Purchase Orders](../about-blanket-purchase-orders.md).
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

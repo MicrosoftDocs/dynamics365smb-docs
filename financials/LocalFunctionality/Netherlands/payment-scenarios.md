@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Payment Scenarios | Microsoft Docs
+    description: Based on a sales or purchase invoice or credit memo a proposal can be generated and exported in order to be processed by our bank.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

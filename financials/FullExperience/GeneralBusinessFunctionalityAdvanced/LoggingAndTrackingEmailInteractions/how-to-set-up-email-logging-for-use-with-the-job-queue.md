@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Email Logging for use with the Job Queue | Microsoft Docs
+    description: You can run regular background processing such as email logging using a job queue. In the following procedure, you configure the ADD INCLUDE<!--[!INCLUDE[nav_server](includes/nav_server_md.md)]-->. When you do this, you can decide whether it makes sense in your installation to set up a unique server instance to manage your email logging. Any instance that you set up must have access to the Exchange Server and run as a user account with that access.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Print VAT Audit Reports | Microsoft Docs
+    description: All vendors must export the data required for auditing in a Content Separated Value (CSV) file format. The following reports comply with this requirement:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

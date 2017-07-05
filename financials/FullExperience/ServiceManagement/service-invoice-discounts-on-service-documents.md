@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Invoice Discounts on Service Documents | Microsoft Docs
+    description: After all the information has been entered on the service lines, you can calculate the invoice discount for the whole service document by using the **Calculate Invoice Discount** function. If the **Calc. Inv. Discount** check box is selected in the **Sales & Receivables Setup** window, the amount will be calculated automatically.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

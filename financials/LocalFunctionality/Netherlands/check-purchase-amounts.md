@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Check Purchase Amounts | Microsoft Docs
+    description: Before posting a purchase invoice or credit memo, the program checks if the 'amount including VAT' and the 'VAT amount' stated on the purchase document is equal to the total amount of the inserted purchase lines. To do this, the Doc. Amount Incl. VAT and Doc. Amount VAT fields must be filled in on the Purchase Invoice or Purchase Credit Memo window.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

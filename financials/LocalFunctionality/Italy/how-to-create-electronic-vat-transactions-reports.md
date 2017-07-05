@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create Electronic VAT Transactions Reports | Microsoft Docs
+    description: You must create a list of transactions that include VAT with amounts over the current threshold on or before the specified occurrence date. You submit this report to the tax authorities.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -26,8 +26,8 @@ You must create a list of transactions that include VAT with amounts over the cu
   
     |Field|Description|  
     |---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create Electronic VAT Transactions Reports | Microsoft Docs
+    description: You must create a list of transactions that include VAT with amounts over the current threshold on or before the specified occurrence date. You submit this report to the tax authorities.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

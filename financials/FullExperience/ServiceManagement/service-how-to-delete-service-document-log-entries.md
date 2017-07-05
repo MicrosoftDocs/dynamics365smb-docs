@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Delete Service Document Log Entries | Microsoft Docs
+    description: You can delete the automatically generated service document log entries, for example, the unnecessary or outdated ones.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

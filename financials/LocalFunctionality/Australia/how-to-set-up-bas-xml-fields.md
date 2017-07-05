@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up BAS XML Fields | Microsoft Docs
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you must define setup names for XML fields in the Business Activity Statement (BAS). You can group the required BAS XML field IDs under one setup name.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Payment Classes | Microsoft Docs
+    description: To use payment management, you must set up payment classes to define operation types, such as bills of exchange, electronic payments, or checks.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

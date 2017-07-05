@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Logging and Tracking Email Interactions | Microsoft Docs
+    description: Email logging in [!INCLUDE[d365fin](includes/d365fin_md.md)] contacts.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Open a New Fiscal Year | Microsoft Docs
+    description: Before you can post in a fiscal year, you must open the fiscal year and define its accounting periods.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

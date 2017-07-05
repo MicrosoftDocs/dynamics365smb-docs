@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Assign Locations to Entries | Microsoft Docs
+    description: You can assign a location to an entry after you have posted it, for example, if you have forgotten to define a location for a purchase or sales order.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

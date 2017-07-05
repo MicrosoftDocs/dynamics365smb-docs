@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Deleting Posted Invoices and Credit Memos | Microsoft Docs
+    description: In Iceland, in accordance with legislation, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] has been modified to prevent you from deleting posted invoices and credit memos. When you attempt to delete one of these documents, a message will note that the posted document may not be deleted. The **Delete** command is not available on the ribbon for the following document types:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Design and Engineering | Microsoft Docs
+    description: There are many common processes in central design and engineering work, such as specifying how and when items are handled. For example, you can specify whether items are just purchased and sold, or are manufactured from components before sale. For the first design tasks, you need to define rules and values for all items by completing item cards with specific master data. Lastly, for produced items, you must define the material structures and process structures in master data records for specific production BOMs and routings.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

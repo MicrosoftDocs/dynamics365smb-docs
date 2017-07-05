@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create Bins in the Bin Creation Worksheet | Microsoft Docs
+    description: In the bin creation worksheet, you can create bins manually or you can allow the program to create a number of similar bins in one operation.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

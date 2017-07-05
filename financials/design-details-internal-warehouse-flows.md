@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Design Details: Integration with Inventory | Microsoft Docs
+    description: The Warehouse Management application area and the Inventory application area interact with one another in physical inventory and in inventory or warehouse adjustment.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

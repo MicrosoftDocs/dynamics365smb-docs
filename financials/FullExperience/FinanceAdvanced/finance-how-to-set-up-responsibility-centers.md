@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Responsibility Centers | Microsoft Docs
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can set up responsibility centers to help administer your business.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

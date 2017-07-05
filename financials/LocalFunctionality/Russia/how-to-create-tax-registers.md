@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create Tax Registers | Microsoft Docs
+    description: The following procedure shows how to create tax registers.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

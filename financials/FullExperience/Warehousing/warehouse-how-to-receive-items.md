@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Receive Items | Microsoft Docs
+    description: When items arrive at a warehouse that is set up for warehouse receipt processing, you must retrieve the lines of the released source document that triggered their receipt. If you have bins, you can either accept the default bin that is filled in, or if the item has never been used before in the warehouse, fill in the bin where the item should be put away. You must then fill in the quantities of the items you have received, and post the receipt. A source document for a receipt can be a purchase order, a sales return order, or an inbound transfer order.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

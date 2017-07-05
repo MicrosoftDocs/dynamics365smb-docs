@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Use Job Queues to Schedule Tasks | Microsoft Docs
+    description: Job queues in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] enables users to schedule and run specific reports and codeunits. You can set jobs to run one time, or on a recurring basis. For example, you might want to run the Salesperson - Sales Statistics report weekly, to track sales by salesperson each week, or you might want to run the Process Service E-mail Queue codeunit daily, to make sure pending email messages to customers regarding their service orders are sent out in a timely manner.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

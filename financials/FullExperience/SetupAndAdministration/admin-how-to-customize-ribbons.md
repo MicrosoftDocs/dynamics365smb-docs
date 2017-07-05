@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Customize Ribbons | Microsoft Docs
+    description: By opening the **Customize Ribbon** window from any page that has a ribbon, you can customize the ribbon to optimize it for your work processes and preferences. For example, if you frequently use the **Dimensions** window, you can add the **Dimensions** action to the **Process** actions group. You can also remove actions that you never use for better overview.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

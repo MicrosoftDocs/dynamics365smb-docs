@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Budgets | Microsoft Docs
+    description: [!INCLUDE[d365fin](../../includes/d365fin_md.md)] provides budget functions so that you can plan and work with budgets.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

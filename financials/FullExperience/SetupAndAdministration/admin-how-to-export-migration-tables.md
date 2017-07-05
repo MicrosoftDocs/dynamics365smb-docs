@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Export Migration Tables | Microsoft Docs
+    description: After you have determined the tables for which you want to transfer customer data, you export the files.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

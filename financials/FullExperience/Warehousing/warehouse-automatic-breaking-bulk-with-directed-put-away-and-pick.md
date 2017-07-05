@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Automatic Breaking Bulk with Directed Put-away and Pick | Microsoft Docs
+    description: For locations that use directed put-away and pick, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] breakbulks as follows:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

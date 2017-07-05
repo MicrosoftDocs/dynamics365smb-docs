@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Distribution Based on Line Amount | Microsoft Docs
+    description: If you change the annual amount of the service contract or contract quote, you may want to distribute the difference between its new and calculated annual amounts on the contract lines. Distribution Based on Line Amount is an automatic method that can help you spread the new and calculated annual amounts difference between the line amounts on the contract lines. This distribution will be performed proportionally to their line amount shares in the calculated annual amount. The following list of distribution procedure steps for each contract line describe the main idea of this method:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Process Response Messages from Tax Authorities | Microsoft Docs
+    description: When you submit a VAT or ICP declaration to the tax authorities electronically, they will process the declaration and send you a message in response.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

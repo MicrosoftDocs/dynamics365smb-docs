@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Add Contract Lines to Service Contracts or Service Contract Quotes | Microsoft Docs
+    description: When a customer purchases a new item and wants to include it in the existing service contract or contract quote, you can register the item as a service item and then add it as a new contract line to the contract or contract quote.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

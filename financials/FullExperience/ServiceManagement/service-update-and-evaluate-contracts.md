@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Update and Evaluate Contracts | Microsoft Docs
+    description: Sometimes you have to change the terms of a contract after it has been created. In most cases, you open the relevant contract in the **Service Contract** window, and change it as necessary.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

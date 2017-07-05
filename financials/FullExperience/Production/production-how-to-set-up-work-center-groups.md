@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Work Center Groups | Microsoft Docs
+    description: The work center groups offer you the possibility for classifying work groups. Setting up work center groups and the assigning work centers does not influence capacity planning.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

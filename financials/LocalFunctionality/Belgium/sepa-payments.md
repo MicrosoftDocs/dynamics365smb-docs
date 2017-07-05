@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: SEPA Payments | Microsoft Docs
+    description: The Single Euro Payments Area (SEPA) unifies payment methods in participating European countries. This makes international payments as easy to process as domestic payments. Regardless of location, European citizens and companies can make and receive payments in euros, whether within or across national borders, with the same basic conditions, rights, and obligations.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

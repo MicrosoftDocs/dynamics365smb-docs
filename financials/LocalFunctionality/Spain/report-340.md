@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Report 340 | Microsoft Docs
+    description: **Report 340** contains information about invoices and taxes that were issued or received by your company in a given period. The report is generated in a format that is approved by the tax authorities. This report should be submitted in the company’s monthly or quarterly liquidation period, depending on the size of the company. This file can be uploaded to the Spanish Tax Agency website or submitted on CD-ROM. For more information, see the [Spanish Tax Agency](http://www.aeat.es/wps/portal/Home?channel=1af861cd949a1010VgnVCM100000d7005a80____&ver=L&site=56d8237c0bc1ff00VgnVCM100000d7005a80____&idioma=es_ES&menu=0&img=0) website. If the number of operations exceeds 1,000,000, the report can be submitted electronically.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

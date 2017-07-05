@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Finalize Service and Invoice | Microsoft Docs
+    description: Ease in invoicing your service orders is a key feature of [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. You can send an invoice to your customers at any time, or create invoices periodically.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Plan Warehouse Movements in Worksheets | Microsoft Docs
+    description: Plan movements in the worksheet using a bin replenishment function or manually planning the lines that you want to create as movement instructions.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

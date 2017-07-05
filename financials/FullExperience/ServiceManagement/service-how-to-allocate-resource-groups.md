@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Allocate Resource Groups | Microsoft Docs
+    description: When you have created service orders or quotes, you can allocate resource groups, for example, groups of technicians, to perform the service tasks in the orders or quotes.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

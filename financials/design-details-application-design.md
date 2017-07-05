@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Design Details | Microsoft Docs
+    description: This content contains detailed technical information about complex application features in [!INCLUDE[d365fin](includes/d365fin_md.md)].
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Warehouse Activities | Microsoft Docs
+    description: After goods are received and before goods are shipped, a series of internal warehouse activities take place to ensure an effective flow through the warehouse and to organize and maintain company inventories. Like the [receiving](../configure-warehouse-processes.md).
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

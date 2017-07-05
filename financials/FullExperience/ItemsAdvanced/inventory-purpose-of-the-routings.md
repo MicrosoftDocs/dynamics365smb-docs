@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Purpose of the Routings | Microsoft Docs
+    description: Manufacturing companies use routings to show the manufacturing process. The program offers facilities for entering the manufacturing process, both in terms of chronology and capacity. The routings therefore form the basis for the manufacturing.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

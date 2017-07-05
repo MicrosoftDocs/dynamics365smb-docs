@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Unapply General Ledger Entries | Microsoft Docs
+    description: You can unapply general ledger entries in a very straightforward way.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

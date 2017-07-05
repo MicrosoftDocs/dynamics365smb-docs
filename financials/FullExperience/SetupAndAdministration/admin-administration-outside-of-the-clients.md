@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Administration Outside of the Clients | Microsoft Docs
+    description: Some of the administration tasks for ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/nav_shell_md.md)]-->.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

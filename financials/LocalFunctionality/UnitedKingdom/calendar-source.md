@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Calendar Source | Microsoft Docs
+    description: Specifies if you want to view opportunity information by using the system calendar or the accounting calendar.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

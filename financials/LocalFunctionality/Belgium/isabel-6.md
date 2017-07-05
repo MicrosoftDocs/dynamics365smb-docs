@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Isabel 6 | Microsoft Docs
+    description: The Isabel organization has developed a Client Isabel Synchronizer (CIS) platform that allows [!INCLUDE[d365fin](../../includes/d365fin_md.md)] to securely integrate with Isabel. CIS handles document exchange to and from the Isabel server.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

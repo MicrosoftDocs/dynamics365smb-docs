@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: About Cost Accounting | Microsoft Docs
+    description: Cost accounting can help you understand the costs of running a business. Cost accounting information is designed to analyze:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Future Expenses (Deferrals) | Microsoft Docs
+    description: The future expenses (deferrals) feature enables you to:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

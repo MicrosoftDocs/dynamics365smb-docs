@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Access an Overview of Miscellaneous Articles | Microsoft Docs
+    description: You can quickly get an overview of the miscellaneous articles that are in your employees’ possession. This can prove useful when employees resign and must return the company items that are in their possession.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

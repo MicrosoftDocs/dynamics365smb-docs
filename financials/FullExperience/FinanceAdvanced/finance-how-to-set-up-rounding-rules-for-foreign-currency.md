@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Rounding Rules for Foreign Currency | Microsoft Docs
+    description: Before you can use the automatic invoice rounding function, you must set up rounding rules.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

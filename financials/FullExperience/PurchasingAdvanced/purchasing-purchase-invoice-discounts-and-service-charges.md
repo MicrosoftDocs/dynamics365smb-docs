@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Purchase Invoice Discounts and Service Charges | Microsoft Docs
+    description: If you have fixed terms for invoice discounts with any vendors, you can enter them for those vendors. Then the discount will be calculated when you fill in a purchase invoice.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

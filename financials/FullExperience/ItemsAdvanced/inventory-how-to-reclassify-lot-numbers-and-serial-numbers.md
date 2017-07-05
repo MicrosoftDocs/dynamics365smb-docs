@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Reclassify Lot Numbers and Serial Numbers | Microsoft Docs
+    description: Reclassifying item tracking for an item means changing a lot or serial number to a new lot or serial number or changing the expiration date to a new expiration date. If you are working with lots, you can also merge multiple lots into one. You perform these tasks using the item reclassification journal.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

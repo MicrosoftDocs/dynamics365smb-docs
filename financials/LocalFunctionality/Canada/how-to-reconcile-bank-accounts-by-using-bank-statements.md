@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Reconcile Bank Accounts by Using Bank Statements | Microsoft Docs
+    description: [!INCLUDE[d365fin](../../includes/d365fin_md.md)] provides a **Bank Rec.Worksheet** that you can use to reconcile bank account ledger entries with bank statements.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

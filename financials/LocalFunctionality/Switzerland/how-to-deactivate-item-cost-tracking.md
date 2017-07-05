@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Deactivate Item Cost Tracking | Microsoft Docs
+    description: When inventory is not tracked for an item, the item cost does not need to be tracked, and an item ledger entry does not need to be created.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

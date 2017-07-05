@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Import Post Code Updates | Microsoft Docs
+    description: Every month a post code file will be delivered with all post code mutations in a month. This post code file can be imported and update the relevant data of the **Post Code Range** table.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

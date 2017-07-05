@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: VAT Clauses | Microsoft Docs
+    description: VAT clauses are used to provide descriptive information about the VAT that is being reported on a sales document. The VAT clause information is displayed on a printed document alongside the VAT identifier or VAT rate.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

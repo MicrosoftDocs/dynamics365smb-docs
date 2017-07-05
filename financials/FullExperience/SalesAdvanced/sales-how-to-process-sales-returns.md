@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Process Sales Returns | Microsoft Docs
+    description: Sales returns are used to compensate your customers for incorrect or damaged items that you sent to them.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

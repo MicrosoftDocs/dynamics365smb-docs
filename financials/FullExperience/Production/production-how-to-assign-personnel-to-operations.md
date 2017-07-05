@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Assign Personnel to Operations | Microsoft Docs
+    description: If you require personnel with qualifications, special knowledge, or special authorization for an operation, you can assign these personnel to the operation.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

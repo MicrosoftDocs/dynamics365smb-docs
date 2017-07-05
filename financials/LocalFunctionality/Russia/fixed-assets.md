@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Fixed Assets | Microsoft Docs
+    description: In Russia, there are specific [!INCLUDE[d365fin](../../includes/d365fin_md.md)] features that you can use to track and manage your fixed assets. You can use fixed assets functionality to manage depreciation and maintenance costs, track the movement of fixed assets, manage the sale or disposal of fixed assets, and generate various reports and statistics.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

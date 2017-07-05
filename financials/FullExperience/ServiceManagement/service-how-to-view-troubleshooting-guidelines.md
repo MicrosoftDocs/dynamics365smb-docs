@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: View Troubleshooting Guidelines | Microsoft Docs
+    description: When you register service item lines in service orders or quotes, you can view troubleshooting guidelines for the service items in the **Troubleshooting** window.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

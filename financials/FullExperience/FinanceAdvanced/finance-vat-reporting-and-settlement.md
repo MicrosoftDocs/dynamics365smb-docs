@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: VAT Reporting and Settlement | Microsoft Docs
+    description: [!INCLUDE[d365fin](../../includes/d365fin_md.md)] contains some special tables to manage the tasks necessary for settling VAT and reporting to the customs and tax authorities.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

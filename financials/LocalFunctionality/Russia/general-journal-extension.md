@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: General Journal Extension | Microsoft Docs
+    description: The general journal extension feature enables you to:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up OIOUBL | Microsoft Docs
+    description: You must define a location for storing Offentlig Information Online UBL (OIOUBL) files when you create electronic documents such as invoices or credit memos. You must also define payment methods, payment terms, and item charges, and you must set up relevant customers for OIOUBL.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

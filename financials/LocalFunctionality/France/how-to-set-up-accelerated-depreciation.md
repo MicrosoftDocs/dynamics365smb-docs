@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Accelerated Depreciation | Microsoft Docs
+    description: To use the accelerated depreciation calculation, you must set up the following depreciation books for fixed assets:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

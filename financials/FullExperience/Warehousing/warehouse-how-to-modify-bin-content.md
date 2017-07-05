@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Modify Bin Content | Microsoft Docs
+    description: You may at times need to modify bin content to update the details of a bin content entry.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

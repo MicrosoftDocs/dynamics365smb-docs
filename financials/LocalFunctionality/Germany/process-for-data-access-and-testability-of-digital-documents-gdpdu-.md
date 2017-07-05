@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Process for Data Access and Testability of Digital Documents (GDPdU) | Microsoft Docs
+    description: You can export data from [!INCLUDE[d365fin](../../includes/d365fin_md.md)] according to the process for data access and testability of digital documents (GDPdU), which is based on German tax law.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

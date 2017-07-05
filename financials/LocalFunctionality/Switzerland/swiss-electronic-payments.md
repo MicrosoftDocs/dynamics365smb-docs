@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Swiss Electronic Payments | Microsoft Docs
+    description: [!INCLUDE[d365fin](../../includes/d365fin_md.md)] allows you to send invoices to customers electronically. The invoices are presented and paid directly using the customer's online banking software.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

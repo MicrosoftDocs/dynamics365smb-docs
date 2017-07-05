@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Assign Relative Codes to Employees | Microsoft Docs
+    description: You can set up relative codes for relatives or close contacts of your employees that you may want to contact in case of emergency.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

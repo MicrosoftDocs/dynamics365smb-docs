@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Update Standard Costs | Microsoft Docs
+    description: You must periodically update the standard costs of components and roll the new costs up to the parent item. The process typically consists of the following four steps:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

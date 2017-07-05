@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Service Costs | Microsoft Docs
+    description: You can use the **Service Costs** window to set up cost codes with set prices for specific service costs, such as travel costs to particular service zones, and so on.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Response Time Overview | Microsoft Docs
+    description: The **Response Time (Hours)** field is automatically filled in, depending on whether the service item is on a service contract.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

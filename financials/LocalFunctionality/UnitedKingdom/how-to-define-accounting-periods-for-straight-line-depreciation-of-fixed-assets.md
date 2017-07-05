@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Define Accounting Periods for Straight Line Depreciation of Fixed Assets | Microsoft Docs
+    description: You can define 13 accounting periods to calculate straight line depreciation. You must calculate depreciation daily and distribute across the relevant periods. You can also define these accounting periods in the **FA - Projected Value** report.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

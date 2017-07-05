@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: VAT Recalculation | Microsoft Docs
+    description: When a customer makes payment in a foreign currency, VAT must be recalculated using the exchange rate at the time of the invoice payment.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

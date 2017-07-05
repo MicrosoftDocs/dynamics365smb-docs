@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Cash Customers | Microsoft Docs
+    description: You cannot create an invoice without a customer number. This is true, even if you make a cash sale and do not have anything to record in a customer account.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

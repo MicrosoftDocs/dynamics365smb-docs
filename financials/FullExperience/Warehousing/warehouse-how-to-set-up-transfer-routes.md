@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Transfer Routes | Microsoft Docs
+    description: You can set up your transfer routes and assign a default in-transit code, shipping agent code, and shipping agent service code. The shipping time of the shipping agent service is used to calculate the receipt date at the transfer-to location.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Dutch Work in Progress Accounts | Microsoft Docs
+    description: When there is a change in the number of items in inventory, you can determine whether this is due to sales or inventory replenishment by tracking postings made to the relevant Work in Progress (WIP) account.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

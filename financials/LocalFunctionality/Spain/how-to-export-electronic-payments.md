@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Export Electronic Payments | Microsoft Docs
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can export payment journal entries into a file format according to four different payment standards. You must use the following windows to export according to the different payment standards.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

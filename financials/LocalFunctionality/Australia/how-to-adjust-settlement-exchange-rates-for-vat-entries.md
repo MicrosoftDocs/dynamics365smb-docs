@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Adjust Settlement Exchange Rates for VAT Entries | Microsoft Docs
+    description: You can use the **Adjust Settlement Exch. Rates** batch job to settle VAT entries according to the government exchange rate as defined in the **Currency Exchange Rate** table.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

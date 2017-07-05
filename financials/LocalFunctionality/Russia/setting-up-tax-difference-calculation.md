@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Setting up Tax Difference Calculation | Microsoft Docs
+    description: Tax difference calculations must be set up if there is a tax difference for the presentation of fixed asset entries, item cost entries, or finance transactions in bookkeeping and tax accounting for which expenses to write off must be fixed. To set tax difference, click **Setup** and then click **Tax Differences**.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -25,8 +25,8 @@ Tax difference calculations must be set up if there is a tax difference for the 
   
 |Field|Description|  
 |---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Setting up Tax Difference Calculation | Microsoft Docs
+    description: Tax difference calculations must be set up if there is a tax difference for the presentation of fixed asset entries, item cost entries, or finance transactions in bookkeeping and tax accounting for which expenses to write off must be fixed. To set tax difference, click **Setup** and then click **Tax Differences**.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -41,8 +41,8 @@ Tax difference calculations must be set up if there is a tax difference for the 
     ms.author: sgroespe
 
 ------
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Setting up Tax Difference Calculation | Microsoft Docs
+    description: Tax difference calculations must be set up if there is a tax difference for the presentation of fixed asset entries, item cost entries, or finance transactions in bookkeeping and tax accounting for which expenses to write off must be fixed. To set tax difference, click **Setup** and then click **Tax Differences**.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

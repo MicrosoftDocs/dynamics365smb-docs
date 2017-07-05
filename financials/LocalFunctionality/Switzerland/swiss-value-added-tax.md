@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Swiss Value Added Tax | Microsoft Docs
+    description: [!INCLUDE[d365fin](../../includes/d365fin_md.md)] ../../includes the following enhancements to Swiss VAT reporting:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

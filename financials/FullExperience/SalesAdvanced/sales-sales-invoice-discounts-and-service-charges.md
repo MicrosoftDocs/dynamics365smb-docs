@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Sales Invoice Discounts and Service Charges | Microsoft Docs
+    description: When you use invoice discounts, the size of the invoice amount determines the size of the discount that is granted.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

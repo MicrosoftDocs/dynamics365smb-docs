@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Payment Line Information | Microsoft Docs
+    description: Payment journal line information for the remittance payment is set up in the **Payment Info** window.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

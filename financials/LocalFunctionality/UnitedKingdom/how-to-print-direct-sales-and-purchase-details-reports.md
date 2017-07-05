@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Print Direct Sales and Purchase Details Reports | Microsoft Docs
+    description: The **Direct Sales Details** and **Direct Purchase Details** reports include headers with order numbers and descriptions from sales and purchase documents.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

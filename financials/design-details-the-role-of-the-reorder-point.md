@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Design Details: The Role of the Reorder Point | Microsoft Docs
+    description: In addition to the general balancing of supply and demand, the planning system must also monitor inventory levels for the affected items to respect the defined reordering policies:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

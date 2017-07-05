@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create Contract Service Credit Memos | Microsoft Docs
+    description: You can use a contract service credit memo when a customer cancels a prepaid service contract or removes a service item from a prepaid contract. You can also use it to correct an erroneous service invoice.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

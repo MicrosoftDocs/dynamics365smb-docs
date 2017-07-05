@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Walkthrough: Tracing Serial-Lot Numbers | Microsoft Docs
+    description: When product defects occur, the errors must be identified and affected items must be prevented from leaving the company. If defective items have already been shipped, you must trace who received them and, if you need to, recall the items.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

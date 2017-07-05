@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create Production Orders from Sales Orders | Microsoft Docs
+    description: You can create production orders from sales orders in the Sales & Marketing department.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

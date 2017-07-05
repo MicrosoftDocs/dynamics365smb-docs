@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Set Up Cost Accounting | Microsoft Docs
+    description: Before you start working with cost accounting, you must perform setup tasks.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Register Fault Codes | Microsoft Docs
+    description: When the customer brings in a service item for repair, you can assign a fault code to it. This code indicates the nature of the fault and can be used along with the resolution code for future reference on possible methods of repair.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

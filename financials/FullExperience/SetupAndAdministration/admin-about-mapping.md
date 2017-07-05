@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: About Mapping | Microsoft Docs
+    description: When you apply data that you have imported from Excel or from a RapidStart package, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] treats and handles the mapping depends on table relations:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

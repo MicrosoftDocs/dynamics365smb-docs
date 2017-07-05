@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Restructure Warehouses | Microsoft Docs
+    description: You may want to restructure your warehouse with new bin codes and new bin characteristics.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

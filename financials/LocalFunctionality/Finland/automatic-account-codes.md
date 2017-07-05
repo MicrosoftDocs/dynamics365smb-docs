@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Automatic Account Codes | Microsoft Docs
+    description: You can use customized posting groups to automate recurring transactions in journals, sales documents, or purchase documents. These posting groups can be used throughout [!INCLUDE[d365fin](../../includes/d365fin_md.md)] to trigger automatic postings and allocations across different accounts or dimensions.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Production BOM Versions | Microsoft Docs
+    description: The production BOMs support the version principle which is explained below.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

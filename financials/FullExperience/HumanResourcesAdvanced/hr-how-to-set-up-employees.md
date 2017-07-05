@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Employees | Microsoft Docs
+    description: When you set up a new employee, there are fields that must always be filled in, fields that can be filled in as needed, and fields in which you cannot enter anything.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

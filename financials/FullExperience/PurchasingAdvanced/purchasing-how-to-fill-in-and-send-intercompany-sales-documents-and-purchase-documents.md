@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Fill In and Send Intercompany Sales Documents and Purchase Documents | Microsoft Docs
+    description: You use intercompany documents to post transactions with your intercompany partners. When you post an intercompany document in your company, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] creates a corresponding document in your IC outbox that you can transfer to your partner. Your partner can then post the document in their company, without having to reenter the data.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

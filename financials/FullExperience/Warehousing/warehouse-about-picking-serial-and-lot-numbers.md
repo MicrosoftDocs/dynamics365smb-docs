@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: About Picking Serial and Lot Numbers | Microsoft Docs
+    description: Outbound handling of serial or lot numbers is a frequent task in different warehouse processes.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

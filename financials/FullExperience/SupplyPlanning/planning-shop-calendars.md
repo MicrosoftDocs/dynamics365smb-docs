@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Shop Calendars | Microsoft Docs
+    description: The shop calendars refer to work shifts. They are a classification tool to group working times. The work shifts must be set up before the shop calendars can be created.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

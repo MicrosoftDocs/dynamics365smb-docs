@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Tax Difference Registers | Microsoft Docs
+    description: You can view posted tax difference transactions with all the income or expense codes in the tax difference registers. To open the form, in the **Tax Accounting** menu, click **History**, and then click **Tax Difference Registers**.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

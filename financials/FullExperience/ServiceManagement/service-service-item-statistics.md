@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Service Item Statistics | Microsoft Docs
+    description: In the **Service Item Statistics** window, you can see up-to-date information about the usage, invoiced amounts, and profit regarding the particular service item.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

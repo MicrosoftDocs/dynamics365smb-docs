@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: About Posting Sales | Microsoft Docs
+    description: In the **Posting** group on a sales document, you can choose between the following posting functions:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

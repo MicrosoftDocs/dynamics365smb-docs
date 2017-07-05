@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: VAT and VIES Report Setup | Microsoft Docs
+    description: Depending on the requirements of your country/region, you must submit periodic VAT reports. In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can define statutory reports such as periodic VAT reports and VIES declarations.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

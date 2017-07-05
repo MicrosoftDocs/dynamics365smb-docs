@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Assign Miscellaneous Article Codes to Employees | Microsoft Docs
+    description: You can set up miscellaneous article codes for employee benefits and miscellaneous articles, such as keys, computers, desks, and so on, in your employees’ possession.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

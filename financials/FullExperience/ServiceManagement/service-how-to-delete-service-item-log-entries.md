@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Delete Service Item Log Entries | Microsoft Docs
+    description: You can delete the automatically generated service item log entries, for example, the unnecessary or outdated ones.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

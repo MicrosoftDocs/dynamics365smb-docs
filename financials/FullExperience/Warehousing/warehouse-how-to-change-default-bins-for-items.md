@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Change Default Bins for Items | Microsoft Docs
+    description: You may need to change the default bin assignment for an item or assign a default bin to a new item.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

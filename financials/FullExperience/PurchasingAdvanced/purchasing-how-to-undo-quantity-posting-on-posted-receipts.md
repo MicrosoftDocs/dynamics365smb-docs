@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Undo Quantity Posting on Posted Receipts | Microsoft Docs
+    description: If you have made an incorrect quantity posting, that is, if you have made a purchase order with, for example, the wrong number of items and posted it as received but not invoiced, you can undo the posting.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Find Where Production BOM Components Are Used | Microsoft Docs
+    description: The where-used option displays where a component is used.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

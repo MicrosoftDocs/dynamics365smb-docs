@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Swiss General Ledger Accounts | Microsoft Docs
+    description: [!INCLUDE[d365fin](../../includes/d365fin_md.md)] ../../includes Swiss enhancements to general ledger accounts. This allows you to do the following:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Find Where Production BOMs Are Used | Microsoft Docs
+    description: The **Prod. BOM Where-Used** window displays where a production BOM is used.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

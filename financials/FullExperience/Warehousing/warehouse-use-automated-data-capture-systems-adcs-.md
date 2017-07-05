@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Use Automated Data Capture Systems (ADCS) | Microsoft Docs
+    description: You can use your automatic data capture system (ADCS) to register the movement of items in the warehouse and to register some journal activities, such as quantity adjustments in the warehouse item journal and physical inventories.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

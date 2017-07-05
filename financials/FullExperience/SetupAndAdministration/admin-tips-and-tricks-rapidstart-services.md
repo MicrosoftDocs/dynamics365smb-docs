@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Tips and Tricks: RapidStart Services | Microsoft Docs
+    description: When you configure companies using ADD INCLUDE<!--[!INCLUDE[rimlong](../../includes/rimlong_md.md)]-->, there are some tips and tricks that you can take advantage of to help your implementation go smoothly.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

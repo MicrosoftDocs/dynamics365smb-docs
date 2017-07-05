@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Handle Customer Inquiries | Microsoft Docs
+    description: A service management application must interface with a customer request for service. That service request usually is translated into a service order. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] provides tools to create an order both directly in response to a customer request or as part of the contract process, if that is how your application is set up.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Electronic Banking | Microsoft Docs
+    description: With electronic banking, you can make electronic payments to domestic, international, SEPA, and non-Euro SEPA vendors and customers.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

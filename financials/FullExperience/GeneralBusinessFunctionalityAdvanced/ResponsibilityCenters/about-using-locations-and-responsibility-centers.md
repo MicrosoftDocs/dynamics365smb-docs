@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: About Using Locations and Responsibility Centers | Microsoft Docs
+    description: Using Multiple Locations and Responsibility Centers in Product Name provide multi-site companies with the ability to manage their business operations in the most flexible, yet optimal way.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

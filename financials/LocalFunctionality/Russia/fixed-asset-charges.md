@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Fixed Asset Charges | Microsoft Docs
+    description: In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-create-a-fixed-asset-charge.md).
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

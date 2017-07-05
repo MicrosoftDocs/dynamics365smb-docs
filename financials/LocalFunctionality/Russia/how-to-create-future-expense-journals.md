@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create Future Expense Journals | Microsoft Docs
+    description: Future expense journals are used to post expenses to a special account on a monthly basis. These future expenses are later included as expenses. VAT is deducted when future expenses are included in current expenses.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

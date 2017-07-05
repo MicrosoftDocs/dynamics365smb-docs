@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Map Customer Data | Microsoft Docs
+    description: You can map values from an existing ERP system into your [!INCLUDE[d365fin](../../includes/d365fin_md.md)] already has.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

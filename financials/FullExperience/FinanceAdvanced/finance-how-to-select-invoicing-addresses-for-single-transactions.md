@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Select Invoicing Addresses for Single Transactions | Microsoft Docs
+    description: When you purchase goods, you usually receive the invoice from the person or company that you ordered the goods from. Sometimes, you may receive the invoice from a different vendor.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

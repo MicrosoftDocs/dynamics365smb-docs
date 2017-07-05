@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Import CODA Statements | Microsoft Docs
+    description: When you receive a CODA statement from your bank, you must import it into ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-set-up-bank-accounts-for-coda.md).
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Establish Sales Forecasts | Microsoft Docs
+    description: You can use the following features to plan for future sales:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

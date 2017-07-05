@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Manage Data Encryption | Microsoft Docs
+    description: You can encrypt data on the ADD INCLUDE<!--[!INCLUDE[nav_server](../../includes/nav_server_md.md)]--> instance that connects to the database.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

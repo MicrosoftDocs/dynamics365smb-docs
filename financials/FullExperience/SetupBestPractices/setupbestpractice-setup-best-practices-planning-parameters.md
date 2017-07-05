@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Setup Best Practices: Planning Parameters | Microsoft Docs
+    description: The **Planning** FastTab on the item card is the center of a company’s supply chain. Setting the correct planning parameters is very important for cost-effective inventory control and high customer service.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

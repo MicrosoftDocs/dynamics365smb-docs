@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Enter Australian Business Numbers | Microsoft Docs
+    description: You can enter an Australian Business Number (ABN) in the following windows:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Types of Payment Returns Files | Microsoft Docs
+    description: [!INCLUDE[d365fin](../../includes/d365fin_md.md)] ../../includes two types of payment return files that can be imported:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

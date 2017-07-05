@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Posting VAT on Sales | Microsoft Docs
+    description: The following fields have been added to the VAT Posting Setup form (ID 472):
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

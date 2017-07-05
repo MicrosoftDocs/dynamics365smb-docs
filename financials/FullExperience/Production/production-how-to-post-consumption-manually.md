@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Post Consumption Manually | Microsoft Docs
+    description: If the flushing method is **Manual**, you must post the components manually, using a consumption journal.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

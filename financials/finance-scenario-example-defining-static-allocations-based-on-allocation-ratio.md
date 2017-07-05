@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Scenario Example: Defining Static Allocations Based on Allocation Ratio | Microsoft Docs
+    description: Static allocation method is based on a definite value, such as square meters used, or an established allocation ratio such as 5:2:4.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

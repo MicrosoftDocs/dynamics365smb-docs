@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Export Business Unit Information | Microsoft Docs
+    description: If consolidation takes place in another database than the one where you have your company's information, than you must export consolidation data from your company to a file. Each company must be exported separately.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

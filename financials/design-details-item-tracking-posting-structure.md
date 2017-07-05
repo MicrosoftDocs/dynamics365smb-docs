@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Design Details: Item Tracking Posting Structure | Microsoft Docs
+    description: To align with inventory costing functionality and to obtain a simpler and more robust solution, item ledger entries are used as the primary carrier of item tracking numbers.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

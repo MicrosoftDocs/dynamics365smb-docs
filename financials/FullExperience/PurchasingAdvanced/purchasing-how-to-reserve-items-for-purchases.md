@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Reserve Items for Purchases | Microsoft Docs
+    description: You can reserve items for purchase orders. Before you can do this, you must have already set up a purchase order.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

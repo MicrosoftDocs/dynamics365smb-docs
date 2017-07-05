@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create and Post Sales Allowances | Microsoft Docs
+    description: You can send a customer a credit memo with a price reduction if the customer has received slightly damaged items or received the items late.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create a Fixed Asset Charge | Microsoft Docs
+    description: The following procedure shows how to create a new fixed asset charge.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

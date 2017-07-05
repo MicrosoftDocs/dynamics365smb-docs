@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create Delivery Reminders Manually | Microsoft Docs
+    description: In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-generate-delivery-reminders.md).
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

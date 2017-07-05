@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Assign Resources to Service Zones | Microsoft Docs
+    description: When you allocate a resource, for example, a technician, to a service task that is to be performed at the customer site, you can select a resource that is assigned to the same service zone as the customer. Therefore, you need to know to which service zones resources are assigned.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

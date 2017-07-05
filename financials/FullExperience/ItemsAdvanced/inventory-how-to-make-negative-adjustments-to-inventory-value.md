@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Make Negative Adjustments to Inventory Value | Microsoft Docs
+    description: Sometimes, you must make a negative adjustment to the value, but not the quantity, of one or more items.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

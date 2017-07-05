@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Print Income Statements | Microsoft Docs
+    description: You can use the **Income Statement** report to view the company’s annual income statement.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

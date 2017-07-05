@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal | Microsoft Docs
+    description: You can use the **Applies-from Entry** field in the **Item Journal** window to create a fixed application between an inbound transaction and the original outbound transaction. For example, to correct the outbound transaction or to process its return. For more information, see Applies-from Entry.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

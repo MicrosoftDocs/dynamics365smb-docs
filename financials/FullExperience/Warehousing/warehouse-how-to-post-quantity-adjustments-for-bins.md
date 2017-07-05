@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Post Quantity Adjustments for Bins | Microsoft Docs
+    description: If you are using bins at a location, you will need to occasionally adjust the quantity in a bin, when the quantity recorded in the system is inaccurate because of a physical gain or loss of an item. There are two methods of posting a quantity adjustment in a bin. Which one you use depends on whether the location is set up to use directed put-away and pick or not. The two methods are described below.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

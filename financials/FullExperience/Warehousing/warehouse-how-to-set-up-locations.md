@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Locations | Microsoft Docs
+    description: You can keep track of items in different locations by setting up locations.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

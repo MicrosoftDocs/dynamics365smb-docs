@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Customize the User Interface | Microsoft Docs
+    description: The concept of UI customization in ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]--> is divided in two:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

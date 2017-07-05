@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up VAT Business Posting Groups | Microsoft Docs
+    description: Before setting up VAT business posting groups, you must decide how many different groups you need. This depends on a number of factors, including local legislation and whether you trade both domestically and internationally.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

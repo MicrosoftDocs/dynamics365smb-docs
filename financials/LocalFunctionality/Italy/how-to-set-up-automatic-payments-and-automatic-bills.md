@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Automatic Payments and Automatic Bills | Microsoft Docs
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can manage automatic payments and bills.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -28,8 +28,8 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can manage automatic p
   
     |Field|Description|  
     |---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Automatic Payments and Automatic Bills | Microsoft Docs
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can manage automatic payments and bills.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

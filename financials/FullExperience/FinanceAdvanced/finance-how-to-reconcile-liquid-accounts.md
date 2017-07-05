@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Reconcile Liquid Accounts | Microsoft Docs
+    description: For each account included in a reconciliation, the net sum of all amounts on the account is calculated in the general journal. Before a general ledger account can be reconciled, you must select the **Reconciliation Account** field on the account card.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

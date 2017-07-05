@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Insert Service Lines by Using Standard Service Codes | Microsoft Docs
+    description: If you have set up standard service codes and assigned them to service item groups, you can insert the standard lines linked to the standard service codes on service documents.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

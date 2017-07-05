@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Service Line Price Adjustments | Microsoft Docs
+    description: In the **Service Line Price Adjmt.** window, you can see information about the service lines that your price adjustment groups will adjust.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

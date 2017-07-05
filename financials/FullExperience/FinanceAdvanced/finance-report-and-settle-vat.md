@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Report and Settle VAT | Microsoft Docs
+    description: If you have set up the VAT features correctly, VAT is calculated and posted automatically.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

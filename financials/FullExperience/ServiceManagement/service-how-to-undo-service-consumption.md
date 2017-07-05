@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Undo Service Consumption | Microsoft Docs
+    description: You may need to cancel the consumption on the service order because it was posted by mistake.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

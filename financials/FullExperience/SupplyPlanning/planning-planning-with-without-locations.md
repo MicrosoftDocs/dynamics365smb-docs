@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Planning with-without Locations | Microsoft Docs
+    description: Concerning planning with or without location codes on demand lines, the planning system operates in a straight forward way when:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

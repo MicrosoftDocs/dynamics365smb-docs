@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Collect Payments with SEPA Direct Debit | Microsoft Docs
+    description: With your customer’s consent, you can collect payments directly from the customer’s bank account according to the SEPA format.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

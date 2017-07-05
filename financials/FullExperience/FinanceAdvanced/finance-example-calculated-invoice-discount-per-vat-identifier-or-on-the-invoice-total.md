@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Example - Calculated Invoice Discount per VAT Identifier or on the  Invoice Total | Microsoft Docs
+    description: The following example is based on an invoice with two lines with different VAT Prod. Posting Groups, but with the same amount. The VAT Prod. Posting Groups are 10% and 25%, the line amounts are 1.10 LCY and the invoice discount is 5 %.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

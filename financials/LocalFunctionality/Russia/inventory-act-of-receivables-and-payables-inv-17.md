@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Inventory Act of Receivables And Payables INV-17 | Microsoft Docs
+    description: The inventory act of receivables and payables feature enables you to prepare an inventory of debts and liabilities, and print reports in the following formats:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

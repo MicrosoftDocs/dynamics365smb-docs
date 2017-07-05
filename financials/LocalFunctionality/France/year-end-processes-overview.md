@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Year End Processes Overview | Microsoft Docs
+    description: Year end closing in Microsoft Dynamics NAV involves three steps:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

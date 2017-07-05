@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up VAT Reports | Microsoft Docs
+    description: You can create different types of VAT reports depending on the requirements of your country/region. Before you can create and submit VAT reports, you must set up a number series.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

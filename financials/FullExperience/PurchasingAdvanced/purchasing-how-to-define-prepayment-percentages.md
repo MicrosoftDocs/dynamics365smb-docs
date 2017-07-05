@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Define Prepayment Percentages | Microsoft Docs
+    description: If you require your customers to submit payment before you ship an order to them, or if your vendor requires you to submit payment before they ship an order to you, you can use the Prepayment functionality.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Customize FactBoxes | Microsoft Docs
+    description: You can add or remove FactBoxes in the FactBox pane with the **Customize** dialog box. You use FactBoxes to see information that relates to the record that you have selected in the list or opened in a task page. You can select which FactBoxes to display in your FactBox pane. You can also customize FactBoxes to display only the fields that you need.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

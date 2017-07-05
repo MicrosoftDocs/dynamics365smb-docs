@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Change Skill Codes for Service Item Groups | Microsoft Docs
+    description: You may want to change the skill codes assigned to service item groups, for example, change **PC** to **PCS**. The procedure for changing skill codes is similar to the process of assigning skill codes.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

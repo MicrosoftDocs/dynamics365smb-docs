@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Import VAT | Microsoft Docs
+    description: Import VAT recording presents a situation where you may need to post a document where the entire amount must be treated as VAT. For example, this is necessary, if you receive a VAT invoice from the tax authorities for imported goods.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

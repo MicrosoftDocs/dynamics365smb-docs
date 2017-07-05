@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Swiss Purchase Documents and Sales Documents | Microsoft Docs
+    description: [!INCLUDE[d365fin](../../includes/d365fin_md.md)] ../../includes Swiss enhancements to purchase documents and sales documents. This ../../includes the following:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

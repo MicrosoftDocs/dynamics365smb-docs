@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Service Status Priorities | Microsoft Docs
+    description: You use the **Service Order Status Setup** window to set the priority level for service order status options. There are four priorities: High, Medium High, Medium Low, and Low.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Reopen Released Orders | Microsoft Docs
+    description: You can make changes to a released sales, purchase, transfer, or service order by reopening it.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

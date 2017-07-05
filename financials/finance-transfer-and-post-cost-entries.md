@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Transfer and Post Cost Entries | Microsoft Docs
+    description: Before you define cost allocations, you must understand how cost entries come from the following sources:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

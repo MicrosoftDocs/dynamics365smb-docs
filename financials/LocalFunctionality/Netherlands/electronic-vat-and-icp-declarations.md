@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Electronic VAT and ICP Declarations | Microsoft Docs
+    description: Companies must submit periodic VAT and ICP declarations.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

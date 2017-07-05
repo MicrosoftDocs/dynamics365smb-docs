@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: View Archived Workflow Step Instances | Microsoft Docs
+    description: All completed workflow step instances are saved in the **Archived Workflow Step Instances** window.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

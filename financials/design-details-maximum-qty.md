@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Design Details: Maximum Qty. | Microsoft Docs
+    description: The Maximum Quantity policy is a way to maintain inventory using a reorder point.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

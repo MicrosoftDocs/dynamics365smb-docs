@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Enter Inbound Warehouse Handling Time | Microsoft Docs
+    description: If you want to include warehouse handling time in the order promising calculation on the purchase line, you can set it up as a default for the inventory and for your location.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

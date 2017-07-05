@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Filling the Consumption Bin | Microsoft Docs
+    description: This flow chart shows how the **Bin Code** field on production order component lines is filled according to your setup.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

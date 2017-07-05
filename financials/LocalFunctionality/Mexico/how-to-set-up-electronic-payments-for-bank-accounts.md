@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Electronic Payments for Bank Accounts | Microsoft Docs
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can send electronic payments to vendors and electronic refunds to customers using the electronic payments function.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

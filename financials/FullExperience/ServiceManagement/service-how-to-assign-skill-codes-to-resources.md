@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Assign Skill Codes to Resources | Microsoft Docs
+    description: A resource, for example, a technician, may have specific skills necessary to service specific service items or service item groups. In such cases you must assign the same skill code to the resource and to the item or service item group.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

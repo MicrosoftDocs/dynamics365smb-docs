@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Copy Sales Prices | Microsoft Docs
+    description: If you want to copy sales prices, such as an individual customer's sales prices to use for a customer price group, you must run the **Suggest Sales Price on Wksh.** batch job.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

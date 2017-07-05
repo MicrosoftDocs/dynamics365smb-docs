@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Fulfill Service Contracts | Microsoft Docs
+    description: [!INCLUDE[d365fin](../../includes/d365fin_md.md)] includes features to make setting up ongoing service contracts easy. You can set up contract templates, which you can then use to create standardized contracts for your business. In addition, you can set up a system to create quotes for service and to turn those quotes into contracts.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

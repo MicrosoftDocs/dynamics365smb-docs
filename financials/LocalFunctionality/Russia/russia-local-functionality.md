@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Russia Local Functionality | Microsoft Docs
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] to calculate VAT due based on Russian VAT rates and regulations.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

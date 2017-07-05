@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: BAS Fuel Tax Credits | Microsoft Docs
+    description: Fuel tax credits provide companies with a credit for the fuel tax (excise or customs duty) included in the price of fuel used for business activities in:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

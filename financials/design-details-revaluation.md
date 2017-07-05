@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Design Details: Reordering Policies | Microsoft Docs
+    description: Reordering policies define how much to order when the item needs to be replenished. Four different reordering policies exist.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

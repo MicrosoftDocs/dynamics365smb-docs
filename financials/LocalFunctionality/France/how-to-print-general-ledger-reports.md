@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Print General Ledger Reports | Microsoft Docs
+    description: General ledger reports meet financial accounting standards, and they contain information about ledger entries, simulation entries, customer entries, vendor entries, and bank entries.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

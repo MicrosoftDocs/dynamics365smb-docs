@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create Inventory Put-aways | Microsoft Docs
+    description: When your location is set up to require put-away processing but not receive processing, you will use the **Inventory Put-away** document to organize and record your put-away activity.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

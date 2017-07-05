@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: About Returns Management | Microsoft Docs
+    description: Superior customer service is a key strategic objective of companies that strive for a high level of customer loyalty. For many wholesalers and distributors, sales returns are a standard element of their customer service policy, which directly influences the customer's perception of the service level. Timely crediting for returned items, repairing/replacing a damaged item, and replacing a wrong item are among those aspects of handling returns that a customer associates with good service. The more seamless and efficient these return procedures appear to the customer, the more likely it is that the customer will rate the company's customer service highly.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

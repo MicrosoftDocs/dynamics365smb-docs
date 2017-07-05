@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Intrastat Establishment Numbers | Microsoft Docs
+    description: The Intrastat establishment number is a company identification number that is printed on the Intrastat declaration.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

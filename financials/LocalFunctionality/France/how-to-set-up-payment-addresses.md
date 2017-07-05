@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Payment Addresses | Microsoft Docs
+    description: To use payment management, you must set up payment addresses that will be used for vendors and customers at the time of settlement. The payment address can differ from the default address.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

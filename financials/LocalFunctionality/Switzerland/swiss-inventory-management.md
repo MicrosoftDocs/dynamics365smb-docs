@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Swiss Inventory Management | Microsoft Docs
+    description: [!INCLUDE[d365fin](../../includes/d365fin_md.md)] ../../includes Swiss enhancements to inventory management. This ../../includes the following:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

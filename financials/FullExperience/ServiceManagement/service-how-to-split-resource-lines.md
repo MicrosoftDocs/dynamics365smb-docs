@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Split Resource Lines | Microsoft Docs
+    description: If the same resource, for example, a technician, works on all the service items in the service order, you can register the total resource hours for one service item only and then split the resource line to divide the resource hours onto the resource lines for the other service items.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

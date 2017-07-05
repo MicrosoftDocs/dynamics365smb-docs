@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create Purchase Return Orders | Microsoft Docs
+    description: If you have agreed with your vendor to return a purchased item that you are dissatisfied with, create a purchase return order to record the return.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

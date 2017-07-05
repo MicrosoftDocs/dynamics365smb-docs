@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Assign a User to a Profile | Microsoft Docs
+    description: You use the **User Personalization** page to assign a user to a profile.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

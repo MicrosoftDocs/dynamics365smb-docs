@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Select from Existing Serial Numbers and Lot Numbers | Microsoft Docs
+    description: When you are working with items that require item tracking and you are creating outbound transactions, where the items go out of inventory, you typically need to select the lot or serial numbers from those that already exist in inventory.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

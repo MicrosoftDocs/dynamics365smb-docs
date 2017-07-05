@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create a Configuration Package | Microsoft Docs
+    description: When you configure a new company, table relations are recognized and processed. Data is imported and applied in the correct order. Dimension tables are also imported if they are included in the configuration package.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

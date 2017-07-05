@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Standard Service Codes | Microsoft Docs
+    description: You can use standard service codes to create service documents with similar combinations of service lines. If you set up standard service codes and then link standard service lines to them, this will allow you to automatically insert service lines in service documents. You can assign the standard service codes to service item groups.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

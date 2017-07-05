@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Plan and Allocate Service Orders | Microsoft Docs
+    description: To help plan the satisfaction of service, you can use the **Dispatch Board**, which provides an overview of all outstanding orders, quotes, or invoices, depending on the document filter that you selected. The **Dispatch Board** also lets you refine your view, such as using an additional filter that is based on order status. Multiple combinations of filters is allowed.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

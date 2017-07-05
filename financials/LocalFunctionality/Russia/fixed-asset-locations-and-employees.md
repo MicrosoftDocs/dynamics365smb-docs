@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Fixed Asset Locations and Employees | Microsoft Docs
+    description: The fixed assets locations and the fixed assets employees feature enable you to:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

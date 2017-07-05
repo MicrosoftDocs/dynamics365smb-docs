@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: About Blanket Purchase Orders | Microsoft Docs
+    description: A blanket purchase order represents a framework for an agreement between you and your vendor. Use blanket orders when you have committed to buying large quantities of an item that you will receive in several smaller shipments over a certain period of time. Often blanket orders cover only one item with predetermined delivery dates.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Enter Statutory Information | Microsoft Docs
+    description: To comply with legal requirements, statutory information is available on the **Statutory** FastTab in the **Company Information** window.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

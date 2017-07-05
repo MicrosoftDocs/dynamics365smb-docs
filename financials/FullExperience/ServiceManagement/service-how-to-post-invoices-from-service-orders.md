@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Post Invoices from Service Orders | Microsoft Docs
+    description: The following procedure describes how to define the part of service that you will charge the customer for.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

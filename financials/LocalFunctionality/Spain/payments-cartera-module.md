@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Payments Cartera Module | Microsoft Docs
+    description: The Payments Cartera module allows you to manage payables documents generated from purchase invoices or from the **Cartera Journal**. The documents can be managed by:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

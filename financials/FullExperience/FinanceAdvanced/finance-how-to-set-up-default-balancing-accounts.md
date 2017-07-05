@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Default Balancing Accounts | Microsoft Docs
+    description: You can set up a default balancing account for each journal batch and have [!INCLUDE[d365fin](../../includes/d365fin_md.md)] automatically suggest a balancing account type and balancing account number on each journal line. If you do not specify a default balancing account, you must fill in the fields manually.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

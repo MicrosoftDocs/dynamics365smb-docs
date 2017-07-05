@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Icelandic Tax Regulations of Conditional Discounts | Microsoft Docs
+    description: In Iceland, it is a legal requirement to issue a credit memo if a conditional discount has been given.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

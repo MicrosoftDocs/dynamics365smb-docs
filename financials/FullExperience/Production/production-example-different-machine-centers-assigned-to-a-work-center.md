@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Example - Different Machine Centers Assigned  to a Work Center | Microsoft Docs
+    description: It is important to plan which capacities are to make up the total capacity when setting up the machine centers and work centers.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

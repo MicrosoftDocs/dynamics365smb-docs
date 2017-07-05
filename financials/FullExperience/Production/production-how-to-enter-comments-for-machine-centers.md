@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Enter Comments for Machine Centers | Microsoft Docs
+    description: You can add any comments to every machine center.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Design Details: Loading the Inventory Profiles | Microsoft Docs
+    description: To sort out the many sources of demand and supply, the planning system organizes them on two timelines called inventory profiles.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

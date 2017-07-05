@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: General Ledger Correspondence | Microsoft Docs
+    description: The general ledger correspondence feature enables you to:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -77,8 +77,8 @@ The general ledger correspondence feature enables you to:
   
 |Field|Description|  
 |---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: General Ledger Correspondence | Microsoft Docs
+    description: The general ledger correspondence feature enables you to:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

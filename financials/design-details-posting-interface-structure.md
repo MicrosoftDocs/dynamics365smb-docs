@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Design Details: Posting Interface Structure | Microsoft Docs
+    description: In the [!INCLUDE[d365fin](includes/d365fin_md.md)] posting interface structure, there are several global procedures that use the same structure:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

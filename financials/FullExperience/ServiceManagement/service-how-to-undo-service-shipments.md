@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Undo Service Shipments | Microsoft Docs
+    description: You can cancel a service shipment that has been posted by mistake or contains some erroneous information.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Italian VAT | Microsoft Docs
+    description: Companies must pay VAT to the state for most purchased goods and services. VAT can be deducted if the goods or services purchased by a company are used in the production of its income.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

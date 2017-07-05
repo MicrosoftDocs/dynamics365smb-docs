@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Print Payment Files | Microsoft Docs
+    description: After you have printed a test report and corrected all errors, you can print the payment journal lines to a payment file.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

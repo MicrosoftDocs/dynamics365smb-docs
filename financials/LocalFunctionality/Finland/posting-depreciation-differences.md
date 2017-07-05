@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Posting Depreciation Differences | Microsoft Docs
+    description: In Finland, the following depreciation methods are commonly used for fixed assets:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

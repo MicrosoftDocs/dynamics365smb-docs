@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up an Intangible Assets Account | Microsoft Docs
+    description: The intangible assets accounting feature allows you to post intangible assets to a special account called the Intangible Assets account. Intangible assets are non-monetary assets that cannot be physically measured. You can also include current expenses by using monthly depreciation.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

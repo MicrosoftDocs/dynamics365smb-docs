@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Contract Gain-Loss (Service Contracts) Overview | Microsoft Docs
+    description: The **Contract Gain/Loss (Service Contracts)** matrix shows a scrollable summary of contract gain/loss entries, based on service contracts.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

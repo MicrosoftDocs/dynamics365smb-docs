@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Complete the Configuration Questionnaire | Microsoft Docs
+    description: You use the setup questionnaire to structure and document a detailed discussion about the customer’s specific needs. You also use it to collect setup data from the customer to configure the relevant [!INCLUDE[d365fin](../../includes/d365fin_md.md)] setup tables, such as the general ledger, inventory, and customers.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

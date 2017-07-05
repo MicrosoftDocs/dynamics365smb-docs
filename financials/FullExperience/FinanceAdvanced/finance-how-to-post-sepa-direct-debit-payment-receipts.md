@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Post SEPA Direct Debit Payment Receipts | Microsoft Docs
+    description: When a direct debit collection is successfully processed by your bank, you can proceed to post receipt of the payment for the involved sales invoices. For more information, see [How to: Create SEPA Direct Debit Collection Entries and Export to a Bank File](../how-to-create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file.md).
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

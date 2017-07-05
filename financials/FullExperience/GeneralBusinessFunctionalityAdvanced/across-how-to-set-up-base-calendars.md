@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Base Calendars | Microsoft Docs
+    description: The main task in setting up a new base calendar is to specify and define the nonworking days that you want to apply.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

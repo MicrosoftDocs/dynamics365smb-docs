@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Define Material and Process Structure | Microsoft Docs
+    description: When designing products that are assembled or produced within the company before sale, additional specifications are required to define which material goes into the product, and which production operations are required to make them.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

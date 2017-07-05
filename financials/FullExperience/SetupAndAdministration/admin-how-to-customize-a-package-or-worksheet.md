@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Customize a Package or Worksheet | Microsoft Docs
+    description: Use the configuration worksheet to gather together and categorize the information that you want to use to configure a new company, and arrange tables in a logical way. Formatting in the worksheet is based on a simple hierarchy: areas contain groups, which in turn contain tables. Areas and groups are optional, but are necessary if you want to be able to see an overview of the configuration process on the ADD INCLUDE<!--[!INCLUDE[rim](../../includes/how-to-use-the-rapidstart-services-role-center-to-track-progress.md).
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

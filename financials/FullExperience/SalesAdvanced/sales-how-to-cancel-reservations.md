@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Cancel Reservations | Microsoft Docs
+    description: Sometimes, you may want to cancel an item reservation.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

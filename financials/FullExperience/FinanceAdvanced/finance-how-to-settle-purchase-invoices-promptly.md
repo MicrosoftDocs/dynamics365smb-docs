@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Settle Purchase Invoices Promptly | Microsoft Docs
+    description: If you need to pay the vendor by cash or check, you can have the necessary posting done at the same time that you post the invoice itself.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

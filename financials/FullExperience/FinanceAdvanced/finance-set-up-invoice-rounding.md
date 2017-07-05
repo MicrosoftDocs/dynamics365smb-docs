@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Set Up Invoice Rounding | Microsoft Docs
+    description: It may be necessary to round invoice amounts when you create invoices. Local regulations or local custom may require the invoice to be rounded in a specific way, for example, to an amount divisible by 0.05.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Service Statistics for Posted Documents | Microsoft Docs
+    description: The service statistics feature lets you gain a statistical overview of the contents of posted service documents, such as a posted shipment, posted invoice, and posted credit memo.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

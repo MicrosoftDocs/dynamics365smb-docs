@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Post Service Credit Memos | Microsoft Docs
+    description: When you have created a service credit memo and filled it in, you can post the credit memo. If there are errors or a lack of information on the credit memo while posting, the process will be interrupted by an error message.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

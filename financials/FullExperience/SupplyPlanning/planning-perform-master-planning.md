@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Perform Master Planning | Microsoft Docs
+    description: Before a detailed executable plan ( [see MRP](../plan-for-resource-availability.md) and the final-assembly production schedule, that is expected production orders for demanded end items.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

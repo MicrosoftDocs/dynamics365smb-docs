@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Prepare for Service | Microsoft Docs
+    description: [!INCLUDE[d365fin](../../includes/d365fin_md.md)] makes it easy to post service orders at any point in your work application's workflow. You can set up your system so that a service technician can post a service order after all information has been filled in. However, it is more typical to permit a service technician to only post shipments. If it better suits your workflow, you can specify that posting occur at any point during the provision of service.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

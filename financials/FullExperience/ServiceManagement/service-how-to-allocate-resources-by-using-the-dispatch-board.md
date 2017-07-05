@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Allocate Resources by Using the Dispatch Board | Microsoft Docs
+    description: When you have created and fulfilled a number of service orders and service quotes, you can use the **Dispatch Board** window to allocate resources, for example, technicians, to perform service tasks registered as service item lines in the documents.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

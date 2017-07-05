@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Use the Dispatch Board | Microsoft Docs
+    description: You may often need to see the list of service orders or service quotes that meet certain requirements to be able to perform specific actions with them one by one. For example, you may need to allocate resources to service orders that belong to a specific customer.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

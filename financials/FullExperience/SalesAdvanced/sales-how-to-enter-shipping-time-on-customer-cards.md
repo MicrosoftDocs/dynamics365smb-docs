@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Enter Shipping Time on Customer Cards | Microsoft Docs
+    description: If you want to include a shipping time in the order promising calculation on the sales line, you can enter it as a default for each customer.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

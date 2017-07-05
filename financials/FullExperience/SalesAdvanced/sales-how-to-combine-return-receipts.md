@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Combine Return Receipts | Microsoft Docs
+    description: You can combine return receipts if your customer returns several items that are covered by different sales return orders.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

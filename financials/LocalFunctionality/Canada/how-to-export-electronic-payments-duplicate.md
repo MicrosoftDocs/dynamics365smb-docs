@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Export Electronic Payments | Microsoft Docs
+    description: You can use the Export Electronic Payments report to export payment journal entries to a file that is based on the Automated Clearing House (ACH) standard file format or the International ACH Transaction (IAT) file format.  The file can then be used to transmit electronic payments to a bank. For more information, see [How to: Transmit Electronic Payments](how-to-transmit-electronic-payments.md).
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

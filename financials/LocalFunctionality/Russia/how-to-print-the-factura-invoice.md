@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Print the Factura-Invoice | Microsoft Docs
+    description: The Factura-Invoice.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

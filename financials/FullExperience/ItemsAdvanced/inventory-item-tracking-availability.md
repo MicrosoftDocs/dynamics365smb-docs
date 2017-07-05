@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Item Tracking Availability | Microsoft Docs
+    description: When you work with lot or serial numbers, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] calculates availability information for lot and serial numbers and shows it in the various item tracking windows. This lets you see how much of a lot or serial number is currently being used on other documents. This reduces errors and uncertainty caused by double allocations.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

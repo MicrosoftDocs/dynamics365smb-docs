@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Operations Planning | Microsoft Docs
+    description: The production operations required to transform inputs into finished goods must be planned daily or weekly depending on the volume and nature of the products.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

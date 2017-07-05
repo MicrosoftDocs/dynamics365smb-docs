@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Register Costs for Service Items | Microsoft Docs
+    description: When working on service items in service orders, you may need to register alternative cost for the service of specific service items. The following procedure shows how to register the cost in the **Service Item Worksheet** window.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

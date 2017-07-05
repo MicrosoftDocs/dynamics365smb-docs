@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Insert Extended Text in Service Orders | Microsoft Docs
+    description: If you have set up extended texts for standard texts, you can insert extended texts for service lines that include standard text codes.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

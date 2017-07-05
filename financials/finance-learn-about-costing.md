@@ -27,15 +27,15 @@ Managing inventory costs is concerned with recording and reporting business oper
 |Distinguish the five different costing methods and their effect on cost flows.|[Design Details: Costing Methods](design-details-costing-methods.md)|  
 |Learn how item application entries dynamically link inventory decreases with increases to keep control of cost flows.|[Design Details: Item Application](design-details-item-application.md)|  
 |Learn how an item's unit cost is continuously updated with the cost of its latest transaction according to the item's costing method.|[Design Details: Cost Adjustment](design-details-cost-adjustment.md)|  
-|Read why standard costs are often used by manufacturing companies as a valuation base for components and end items.|[About Calculating Standard Cost](finance-about-calculating-standard-cost.md)|  
-|Learn how an item's average cost is dynamically calculated according to the selected average cost period.|[Average Cost](average-cost.md)|  
+|Learn how an item's average cost is dynamically calculated according to the selected average cost period.|[Design Details: Average Cost](design-details-average-cost.md)|  
 |Distinguish expected cost (not yet invoiced) from actual cost and learn how it is managed in the general ledger.|[Design Details: Expected Cost Posting](design-details-expected-cost-posting.md)|  
-|Understand the cost adjustment mechanism, which ensures that costs are brought forward even if inventory transactions happen in a random manner.|Adjust Cost - Item Entries|  
-|Understand how the value of inventory is reflected in the general ledger.|[How to: Post Inventory Costs to the General Ledger](../how-to-post-inventory-costs-to-the-general-ledger.md)|  
-|Learn how item charges, such as freight and insurance, can assign additional cost components to an item's unit cost.|[Cost Assignment](../cost-assignment.md)|  
-|Read how inventory periods help a company to control inventory value over time by defining shorter periods that can be closed for posting as the fiscal year progresses.|[How to: Work with Inventory Periods](../how-to-work-with-inventory-periods.md)|  
-|Read how item and resource costs are processed and distributed to the general ledger when you post assembly orders.|[Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)|  
+|Understand the cost adjustment mechanism, which ensures that costs are brought forward even if inventory transactions happen in a random manner.|[Design Details: Cost Adjustment](design-details-cost-adjustment.md)|  
+|Read why standard costs are often used by manufacturing companies as a valuation base for components and end items.|[About Calculating Standard Cost](finance-about-calculating-standard-cost.md)|  
+|Understand how the value of inventory is reflected in the general ledger.|[Report Costs and Reconcile with the General Ledger](finance-report-costs-and-reconcile-with-the-general-ledger.md)|  
+|Learn how item charges, such as freight and insurance, can assign additional cost components to an item's unit cost.|[How to: Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)|  
+|Read how inventory periods help a company to control inventory value over time by defining shorter periods that can be closed for posting as the fiscal year progresses.|[How to: Work with Inventory Periods](finance-how-to-work-with-inventory-periods.md)|  
+|Understand all mechanisms in the costing engine, including what happens when you post assembly and production transactions.
+|[Design Details: Inventory Costing](design-details-inventory-costing.md)|  
 
 ## See Also  
- [Design Details: Inventory Costing](design-details-inventory-costing.md)   
- [http://www.microsoft.com/dynamics/partnersource.mspx](http://www.microsoft.com/dynamics/partnersource.mspx)
+[Design Details: Inventory Costing](design-details-inventory-costing.md)

@@ -16,15 +16,15 @@
 
 ---
 # Managing Inventory Costs
-Cost management, also referred to as “costing”, is concerned with recording and reporting business operating costs. This business discipline is well supported by Microsoft Dynamics NAV.  
+Cost management, also referred to as “costing”, is concerned with recording and reporting business operating costs. It includes the reporting of manufacturing costs and inventory costs, that is, the value of items.   
 
- The documentation for cost management consists firstly of a number of conceptual topics that provide both general and specific insight into the definitions and mechanisms of the costing engine. Secondly, a sequenced list of typical cost control tasks are presented under the heading Manage Inventory and Manufacturing Costs. Period-end tasks around reporting inventory value to the general ledger is covered in a group of help topics aimed at auditors and cost controllers. Lastly, detailed descriptions of how the costing system is designed are provided. This information is built mainly from the Inventory Costing technical white paper, which is also published on PartnerSource.  
+Central principles to understand are that costing methods define how items are valued when they leave inventory, that cost adjustment updates the cost of goods sold with related purchase costs posted after the sale, and that inventory values must be posted to dedicated G/L accounts at regular intervals.
 
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+The following table describes a sequence of tasks, with links to the topics that describe them.
 
 |**To**|**See**|  
 |------------|-------------|  
-|Read various conceptual information to understand the principles and definitions that govern the cost accounting functionality in Microsoft Dynamics NAV.|[Learn About Costing](finance-learn-about-costing.md)|  
+|Read various conceptual information to understand the principles and definitions that govern the cost accounting functionality in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)].|[About Inventory Costing](finance-learn-about-costing.md)|  
 |Set up inventory periods, costing methods, and rounding methods.|[Setting Up Inventory Valuation and Costing](finance-set-up-inventory-valuation-and-costing.md)|
 |Appreciate or depreciate the value of one or more items in inventory by posting their current, calculated value.|[How to: Revalue Inventory](inventory-how-revalue-inventory.md)|
 |Adjust item costs, either automatically or manually, to forward cost changes from inbound entries to their related outbound entries.|[How to: Adjust Item Costs](inventory-how-adjust-item-costs.md)|
@@ -34,8 +34,8 @@ Cost management, also referred to as “costing”, is concerned with recording 
 |Study detailed descriptions of the costing system.|[Design Details: Inventory Costing](design-details-inventory-costing.md)|  
 
 ## See Also  
- [Set Up Inventory Valuation and Costing](finance-set-up-inventory-valuation-and-costing.md)   
  [Finance](finance.md)  
  [Inventory](inventory-manage-inventory.md)   
  [Sales](sales-manage-sales.md)   
- [Purchase Goods](purchases-manage-purchases.md)  
+ [Purchasing](purchasing-manage-purchasing.md)  
+ [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

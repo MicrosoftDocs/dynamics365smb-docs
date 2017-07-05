@@ -15,13 +15,10 @@
     ms.author: sgroespe
 
 ---
-# Application Design Details
-This content contains detailed technical information about complex feature areas in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+# Design Details
+This content contains detailed technical information about complex application features in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
- Design details content is aimed at implementers, developers, and super users who need deeper insight to implement, customize, or set up the feature area in question.  
-
-> [!NOTE]  
->  Each link in the following table opens a list of multiple Design Details topics for the application area in question.  
+ Design details content is aimed at implementers, developers, and super users who need deeper insight to implement, customize, or set up the features in question.  
 
 |**To**|**See**|  
 |------------|-------------|  
@@ -36,4 +33,5 @@ This content contains detailed technical information about complex feature areas
  [Operations Planning](operations-planning.md)   
  [Manage Inventory Costs](manage-inventory-costs.md)   
  [Perform Warehouse Activities](perform-warehouse-activities.md)   
- [Set Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)
+ [Set Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)  
+ [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

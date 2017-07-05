@@ -213,7 +213,7 @@
 ### [Setting Up Workflows](set-up-workflows)
 ### [Using Workflows](use-workflows)
 
-# [Application Design Details](design-details-application-design.md)
+# [Design Details](design-details-application-design.md)
 ## [Design Details: Dimension Set Entries](design-details-dimension-set-entries.md)
 ## [Design Details: Supply Planning](design-details-supply-planning.md)
 ## [Design Details: Inventory Costing](design-details-inventory-costing.md)

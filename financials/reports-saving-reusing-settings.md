@@ -16,7 +16,7 @@ ms.date: 06/02/2017
 ms.author: jswymer
 
 ---
-# Saved Settings on Reports
+# Managing Saved Settings on Reports
 Depending on the report that is run, you might be presented with a page that lets you to set certain options and filters for changing the data that is included in the generated report. This page is known as the report request page. A report can include one or more *saved settings* that you can apply to the report from the request page. *Saved settings* are basically predefined options and filters. Using saved settings is a fast and reliable way to consistently generate reports that contain the correct data.
 
 You can see the saved settings that are available to you for a report in **Saved Settings** section of the report request page.  
@@ -42,4 +42,4 @@ From the **Report Settings** page, you can create a new settings from scratch or
 * If you create a saved settings item for all users, and it has the same name as an existing saved settings for a specific user, then that user will not be able to use the saved settings that is assigned to everyone.  In the Saved Settings field on the report request page, the user will see two saved settings options with the same name. However, no matter which option he chooses, the user-specific saved settings will be used.
 
 ## See Also
-[Schedule a Rpeort to Run](ui-schedule-report.md)  
+[Working with Reports to Run](ui-work-report.md)  

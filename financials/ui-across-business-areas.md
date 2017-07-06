@@ -28,7 +28,7 @@ The following table lists these general business areas with links to topics that
 | Learn how to work with general journals, which are used to post to general ledger accounts and other accounts such as bank, customer, vendor, and fixed assets accounts. |[Managing General Journals](ui-work-general-journals.md) |
 | Communicate the contents of business documents quickly to your business partners, such as the payment information on sales documents to customers. |[How to: Send Documents by Email](ui-how-send-documents-email.md) |
 | Allocate an entry in a general journal to several different accounts when you post the journal. |[How to: Allocate Costs and Income](year-allocate-costs-income.md) |
-| Schedule a report to run at a specific date and time. |[Schedule a report to run](ui-schedule-report.md) |
+| Schedule a report to run at a specific date and time. |[Schedule a report to run](ui-work-report.md#ScheduleReport) |
 | Manage different types of report layouts. |[Managing Report Layouts](ui-manage-report-layouts.md) |
 | Request and grant approval to create or change certain documents and cards. |[Use Approval Workflows](across-how-use-approval-workflows.md) |
 | Record external documents in [!INCLUDE[d365fin](includes/d365fin_md.md)], including their file attachments, and then manually create the related documents or automatically convert the files to electronic documents. |[Manage Incoming Documents](across-income-documents.md) |

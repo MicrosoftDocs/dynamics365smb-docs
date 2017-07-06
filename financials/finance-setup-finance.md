@@ -33,6 +33,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | Set up business intelligence (BI) charts to analyze cash flow. |[Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md) |
 
 ## See Also
+[[Finance](finance.md)]  
 [Managing Bank Accounts](bank-manage-bank-accounts.md)  
 [Working with Dimensions](finance-dimensions.md)  
 [Importing Business Data from Other Finance Systems](upload-data.md)  

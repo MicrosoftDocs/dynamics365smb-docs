@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Delete Documents | Microsoft Docs
+    description: This section provides an overview of how to delete documents in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

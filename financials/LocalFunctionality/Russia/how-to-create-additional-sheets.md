@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create Additional Sheets | Microsoft Docs
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can create additional sheets based on VAT purchase ledgers and VAT sales ledgers.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -75,11 +75,11 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can create additional 
 5.  Choose **Preview** or choose **Print**.  
   
 ## Creating Corrective Documents to Include in Additional Sheets  
- The information changed in the tax invoice after the invoice is registered in the previous purchase book must be reflected in the additional sheet of the previous book \(corrected book\). The additional sheet is part of the purchase book.  
+ The information changed in the tax invoice after the invoice is registered in the previous purchase book must be reflected in the additional sheet of the previous book (corrected book). The additional sheet is part of the purchase book.  
   
  The first line contains the totals of the purchase book at the end of the period when the tax invoice is registered. The next lines are the annulled tax invoices. The annulled tax invoices have a negative sign if the corrected invoice amount is lesser than the initial amount, and a positive sign if the corrected invoice amount is greater than the initial amount. The last line is calculated as the sum of the amounts of the first total line and the annulled tax invoices.  
   
- The information changed in the tax invoice after the invoice is registered in the previous sales book must be reflected in the additional sheet of the previous book \(corrected book\). The additional sheet is part of the sales book.  
+ The information changed in the tax invoice after the invoice is registered in the previous sales book must be reflected in the additional sheet of the previous book (corrected book). The additional sheet is part of the sales book.  
   
  The first line contains totals of the sales book at the end of the period when the tax invoice is registered. The next lines are the annulled tax invoices with a negative sign. The corrected invoices with positive amounts belong to the previous period. The last line is calculated as the sum of the amounts of the first total line, annulled tax invoices, and the corrected invoices.  
   

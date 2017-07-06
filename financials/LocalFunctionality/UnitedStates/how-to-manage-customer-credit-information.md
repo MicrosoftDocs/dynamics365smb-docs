@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Manage Customer Credit Information | Microsoft Docs
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can add comments to customer credit information. You can also hold and block customers with bad credit before shipping or invoicing occurs.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -54,7 +54,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can add comments to cu
   
 3.  On the **General** FastTab, in the **Blocked** field, select one of the following options:  
   
-    -   **\<Blank\>** – Transaction is allowed for this customer.  
+    -   **<Blank>** – Transaction is allowed for this customer.  
   
     -   **Ship** – New orders and new shipments cannot be created for this customer. Existing shipments not yet invoiced can be invoiced.  
   

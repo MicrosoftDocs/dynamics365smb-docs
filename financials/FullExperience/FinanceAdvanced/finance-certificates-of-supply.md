@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Certificates of Supply | Microsoft Docs
+    description: When you sell goods to a customer in another EU country/region, the customer must confirm receipt before you can deduct VAT or calculate zero VAT according to the rules for intra-community trade.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

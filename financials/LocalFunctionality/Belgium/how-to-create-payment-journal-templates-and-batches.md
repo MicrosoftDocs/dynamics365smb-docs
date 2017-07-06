@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create Payment Journal Templates and Batches | Microsoft Docs
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], payment suggestions are generated and posted in payment journals. The structure of the payment journal is similar to the structure of other journal types. However, the payment journal contains some fields that are specific for processing payments. Before you can start generating payment suggestions, you have to set up a payment journal template and a payment journal batch.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

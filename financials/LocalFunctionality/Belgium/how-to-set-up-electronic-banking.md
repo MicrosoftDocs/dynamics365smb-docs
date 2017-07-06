@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Electronic Banking | Microsoft Docs
+    description: With electronic banking, you can make electronic payments to domestic, international, SEPA, and non-Euro SEPA vendors and customers.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -28,9 +28,9 @@ With electronic banking, you can make electronic payments to domestic, internati
   
 -   Electronic banking setup.  
   
--   IBLC\/BLWI codes - For more information, see [How to: Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md).  
+-   IBLC/BLWI codes - For more information, see [How to: Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md).  
   
--   Preferred bank accounts \(optional\).  
+-   Preferred bank accounts (optional).  
   
 ### To set up electronic banking  
   

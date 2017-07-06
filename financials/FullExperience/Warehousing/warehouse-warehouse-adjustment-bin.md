@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Warehouse Adjustment Bin | Microsoft Docs
+    description: If you use directed put-away and pick for a warehouse, when you register differences in item quantity in bins in the warehouse item journal, the positive and negative adjustment quantities are registered in the adjustment bin. The quantities are not automatically posted to the item ledger. At appropriate intervals as defined by company policy, you must post the entries in the adjustment bin to the item ledger, so that the item ledger quantities correspond to the actual quantities of items in the warehouse. Some companies find it appropriate to post adjustments to the item ledger every day, while others may find it adequate to reconcile every week or every two weeks.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

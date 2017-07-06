@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: View Remittance Error Codes | Microsoft Docs
+    description: For a remittance error, the error code from the bank and an explanation of the error will be shown for the payment in the **Waiting Journal** window.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

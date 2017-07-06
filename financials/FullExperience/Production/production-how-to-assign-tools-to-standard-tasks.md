@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Assign Tools to Standard Tasks | Microsoft Docs
+    description: You can assign any tools to standard tasks. The assigned tools specify which tool is to be used for processing the task. The specification is useful for special tools, precision tools, and quality measures.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

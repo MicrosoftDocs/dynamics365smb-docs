@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Codes for Import VAT | Microsoft Docs
+    description: You use the import VAT feature when you need to post a document where the entire amount must be treated as VAT. This is necessary if you receive a VAT invoice from the tax authorities for imported goods.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

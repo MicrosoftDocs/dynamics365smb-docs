@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Remittance Agreements | Microsoft Docs
+    description: You must sign an agreement of remittance with the bank when you set up electronic payments. You can create more than one remittance agreement if you have an agreement with two or more banks. For each agreement, you must specify one or more accounts from which the payment should be made. For each account, you must create a remittance account. For more information, see [How to: Create Remittance Accounts](how-to-create-remittance-accounts.md).
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -37,7 +37,7 @@ You must sign an agreement of remittance with the bank when you set up electroni
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Operator No.**|Specify the operator information given by the bank.|  
-    |**Company\/Agreement No.**|Specify the company information given by the bank.|  
+    |**Company/Agreement No.**|Specify the company information given by the bank.|  
     |**Division**|Specify the division information given by the bank.|  
     |**Latest Sequence No.**|Specify the latest sequence number.|  
     |**Latest Daily Sequence No.**|Specify the latest daily sequence number.|  
@@ -47,7 +47,7 @@ You must sign an agreement of remittance with the bank when you set up electroni
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**BBS Customer Unit ID**|Specify the identification of the agreement for Bankernes Betalingssentral \(BBS\). This code is provided by BBS.|  
+    |**BBS Customer Unit ID**|Specify the identification of the agreement for Bankernes Betalingssentral (BBS). This code is provided by BBS.|  
     |**Latest BBS Payment Order No.**|Specify the entry number that was used when payment was sent to BBS.|  
   
 6.  On the **Send** FastTab, fill in the field as described in the following table.  

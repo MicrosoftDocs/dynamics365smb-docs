@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Export Protocols | Microsoft Docs
+    description: Before you can use electronic banking, you must set up export protocols. Export protocols define the file format that is generated when you export payment history to be processed by the bank. Each line contains an export protocol identified by a code and a description. You can set up as many export protocols as necessary. You must set up an export protocol for domestic payments, international payments, SEPA payments, and non-Euro SEPA payments.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -26,7 +26,7 @@ Before you can use electronic banking, you must set up export protocols. Export 
 |2000003 Check International Payments|Report 2000002 File International Payments|  
 |2000004 Check SEPA Payments|Report 2000005 File SEPA Payments|  
 |2000005 Check Non Euro SEPA Payments|Report 2000006 File Non Euro SEPA Payments|  
-|If you do not want this option, set to zero, otherwise select another option.|XMLport 1000 \(SEPA pain.001.001.03 Payments\)|  
+|If you do not want this option, set to zero, otherwise select another option.|XMLport 1000 (SEPA pain.001.001.03 Payments)|  
   
  After you have set up export protocols, you can use them in your electronic banking payment journals.  
   

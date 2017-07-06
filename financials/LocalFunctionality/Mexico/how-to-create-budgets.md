@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create Budgets | Microsoft Docs
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], the create budget function allows you to do the following:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -28,11 +28,11 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], the create budget function
   
 ### To create budget amounts by period  
   
-1.  In the **Search** box, enter **G\/L Budgets**, and then choose the related link.  
+1.  In the **Search** box, enter **G/L Budgets**, and then choose the related link.  
   
 2.  Select a budget. On the **Home** tab, in the **Process** group, choose **Edit Budget**.  
   
-3.  On then **Navigate** tab, in the **Balance** group, choose **G\/L Balance\/Budget**.  
+3.  On then **Navigate** tab, in the **Balance** group, choose **G/L Balance/Budget**.  
   
 4.  Select a general ledger account.  
   
@@ -50,22 +50,22 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], the create budget function
     |**Period Percent Change**|Enter zero to spread budgets evenly over all periods. **Note:**  The budget amount for this period is increased or decreased with regard to the previous period by the positive or negative percentage amount entered.|  
     |**Round To**|The percentage used to round the budget amount.|  
   
-7.  On the **G\/L Account** FastTab, select the appropriate filters.  
+7.  On the **G/L Account** FastTab, select the appropriate filters.  
   
 8.  Choose the **OK** button.  
   
 ### To create budget amounts from history  
   
-1.  In the **G\/L Budgets** window, select a budget. On the **Home** tab, in the **Process** group, choose **Edit Budget**.  
+1.  In the **G/L Budgets** window, select a budget. On the **Home** tab, in the **Process** group, choose **Edit Budget**.  
   
-2.  On the **Navigate** tab, in the **Balance** group, choose **G\/L Balance\/Budget**.  
+2.  On the **Navigate** tab, in the **Balance** group, choose **G/L Balance/Budget**.  
   
 3.  Select a general ledger account.  
   
 4.  On the **Actions** tab, in the **Functions** group, select **Create Budget**, and then choose **From History**.  
   
     > [!NOTE]  
-    >  When you create a budget with the **From History** option, you get the same result as you would if use the **Copy Budget** function with **G\/L Entry** as the **Source**. The budget is based on actual general ledger entries for the specified period. For more information, see Copy G-L Budget.  
+    >  When you create a budget with the **From History** option, you get the same result as you would if use the **Copy Budget** function with **G/L Entry** as the **Source**. The budget is based on actual general ledger entries for the specified period. For more information, see Copy G-L Budget.  
   
 5.  In the **Budget from History** batch job, on the **Options** FastTab, fill in the fields as described in the following table.  
   
@@ -78,7 +78,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], the create budget function
     |**Percent Change**|Enter zero if you want the budget to be the same as it is in the corresponding historical period. **Note:**  The fields in the **Budget from History** window and **Budget Amount by Period** window work similarly. The one exception is the **Percent Change** field. In the **Budget Amount by Period** window, the percent change is from one period to the next. In the **Budget from History** window, the percent change is from the historical value to the new budget value for the corresponding period.|  
     |**Round To**|The percentage used to round the budget amount.|  
   
-6.  On the **G\/L Account** FastTab, select the appropriate filters.  
+6.  On the **G/L Account** FastTab, select the appropriate filters.  
   
 7.  Choose the **OK** button.  
   

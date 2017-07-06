@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Export Payments Using LSV | Microsoft Docs
+    description: You can export or write Lastschrift Verfahren (LSV+) files that contain payments information after closing the LSV collection. You can send the generated files to the bank on a disk, or use an electronic file transfer such as your online banking software or an Internet portal.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # How to: Export Payments Using LSV
-You can export or write Lastschrift Verfahren \(LSV\+\) files that contain payments information after closing the LSV collection. You can send the generated files to the bank on a disk, or use an electronic file transfer such as your online banking software or an Internet portal.  
+You can export or write Lastschrift Verfahren (LSV+) files that contain payments information after closing the LSV collection. You can send the generated files to the bank on a disk, or use an electronic file transfer such as your online banking software or an Internet portal.  
   
 ### To export payments using LSV  
   
@@ -36,10 +36,10 @@ You can export or write Lastschrift Verfahren \(LSV\+\) files that contain payme
 5.  All related lines are transferred to the LSV journal. The LSV file is generated in the predetermined folder.  
   
 ## See Also  
- [Swiss Electronic Payments Using LSV\+](swiss-electronic-payments-using-lsv-.md)   
+ [Swiss Electronic Payments Using LSV+](swiss-electronic-payments-using-lsv-.md)   
  [How to: Process an LSV Collection](how-to-process-an-lsv-collection.md)   
  [How to: Close an LSV Collection](how-to-close-an-lsv-collection.md)   
- [How to: Post LSV\+ Payments](how-to-post-lsv-payments.md)   
+ [How to: Post LSV+ Payments](how-to-post-lsv-payments.md)   
  LSV Journal   
  LSV Journal Line   
  LSV Setup

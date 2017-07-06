@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Corrective Invoicing | Microsoft Docs
+    description: You can create corrective invoices and corrective credit memos to reflect changes in quantity and amounts after the items were shipped or received. First, you must set up [!INCLUDE[d365fin](../../includes/d365fin_md.md)] with prerequisites.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -28,7 +28,7 @@ You can create corrective invoices and corrective credit memos to reflect change
   
 1.  In the Navigation Pane, in the **Financial Management** area, choose **Setup**, choose **Posting Groups**, and then choose **Inventory**.  
   
-2.  In the **Inventory Posting Groups** window, in the **Sales Corr. Doc. Charge \(Item\)** field, select the item charge code that you want to use in in value entries to correct the original price of items in the corrective documents.  
+2.  In the **Inventory Posting Groups** window, in the **Sales Corr. Doc. Charge (Item)** field, select the item charge code that you want to use in in value entries to correct the original price of items in the corrective documents.  
   
      You can set up a separate code for each inventory posting group.  
   

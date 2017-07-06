@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Prepare VAT Rate Change Conversions | Microsoft Docs
+    description: Before you set up the VAT rate change tool, you must make the following preparations.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

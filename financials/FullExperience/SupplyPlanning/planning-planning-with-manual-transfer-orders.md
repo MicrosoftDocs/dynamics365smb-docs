@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Planning with Manual Transfer Orders | Microsoft Docs
+    description: As you can see from the [Replenishment System](../($%20T_5700_5419%20Replenishment%20System%20$).md) field on a SKU card, the planning system can be set up to create transfer orders to balance supply and demand across locations.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Determine Service Offerings | Microsoft Docs
+    description: When you set up service management, you have to decide what services to offer customers and the schedule for those services. A service is a type of work performed by one or more resources and provided to a customer. For example, a service could be a type of computer repair. A service item is the equipment or item needing servicing, for example, the computer needing repair, installed at a specific customer. You can set up services as part of a group of related repair or maintenance items.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

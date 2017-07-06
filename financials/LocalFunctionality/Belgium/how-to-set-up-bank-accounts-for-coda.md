@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Bank Accounts for CODA | Microsoft Docs
+    description: Before you can start to use the electronic banking functionality for CODA statements, you must set up the following codes:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -22,7 +22,7 @@ Before you can start to use the electronic banking functionality for CODA statem
   
 -   Version code  
   
--   IBLC\/BLWI codes - For more information, see [How to: Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md).  
+-   IBLC/BLWI codes - For more information, see [How to: Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md).  
   
 ### To set up protocol numbers and version codes  
   

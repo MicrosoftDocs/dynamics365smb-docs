@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Australia Local Functionality | Microsoft Docs
+    description: The following topics describe the local functionality in the Australian version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -24,7 +24,7 @@ The following topics describe the local functionality in the Australian version 
   [Business Activity Statements](business-activity-statements.md)  
   [Tax](tax.md)  
   [Addresses](addresses.md)  
-  [Electronic Funds Transfer \(EFT\)](electronic-funds-transfer-eft-.md)  
+  [Electronic Funds Transfer (EFT)](electronic-funds-transfer-eft-.md)  
   [Calculating Distribution Amounts](calculating-distribution-amounts.md)  
   [How to: Determine Sales Price by Cost Plus Percentage](how-to-determine-sales-price-by-cost-plus-percentage.md)  
   [How to: Print Income Statements](how-to-print-income-statements.md)  

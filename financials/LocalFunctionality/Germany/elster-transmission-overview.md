@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: ELSTER Transmission Overview | Microsoft Docs
+    description: When a user submits a sales VAT advance notification from [!INCLUDE[d365fin](../../includes/d365fin_md.md)] to the Elektronische Steuererklärungen (ELSTER) online portal, the Microsoft.Dynamics.ElsterTransferHandler assembly processes the document and then transmits it to ELSTER. The following section describes technical aspects of submitting documents to ELSTER.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,15 +16,15 @@
 
 ---
 # ELSTER Transmission Overview
-When a user submits a sales VAT advance notification from [!INCLUDE[d365fin](../../includes/d365fin_md.md)] to the Elektronische Steuererklärungen \(ELSTER\) online portal, the Microsoft.Dynamics.ElsterTransferHandler assembly processes the document and then transmits it to ELSTER. The following section describes technical aspects of submitting documents to ELSTER.  
+When a user submits a sales VAT advance notification from [!INCLUDE[d365fin](../../includes/d365fin_md.md)] to the Elektronische Steuererklärungen (ELSTER) online portal, the Microsoft.Dynamics.ElsterTransferHandler assembly processes the document and then transmits it to ELSTER. The following section describes technical aspects of submitting documents to ELSTER.  
   
 ### Process Overview  
   
-1.  Within the program all relevant data is collected and written into an XML document which follows a schema as prescribed by the Oberfinanzdirektion \(OFD\). This document contains tax information as well as information about the company and person who submits this tax information.  
+1.  Within the program all relevant data is collected and written into an XML document which follows a schema as prescribed by the Oberfinanzdirektion (OFD). This document contains tax information as well as information about the company and person who submits this tax information.  
   
-2.  After this document has been created successfully it is extended with configuration information \(proxy server, certificates, and so forth\) which is needed by Microsoft.Dynamics.ElsterTransferHandler.  
+2.  After this document has been created successfully it is extended with configuration information (proxy server, certificates, and so forth) which is needed by Microsoft.Dynamics.ElsterTransferHandler.  
   
-3.  The complete document is handed over to Microsoft.Dynamics.ElsterTransferHandler. The assembly further processes the data \(encryption, compression, signature\) and sends it to one of the servers of the OFD.  
+3.  The complete document is handed over to Microsoft.Dynamics.ElsterTransferHandler. The assembly further processes the data (encryption, compression, signature) and sends it to one of the servers of the OFD.  
   
      You can specify the servers of the OFD in the **Electronic VAT Decl. Setup** window. For more information, see [How to: Set Up Sales VAT Advance Notifications for ELSTER](how-to-set-up-sales-vat-advance-notifications-for-elster.md)  
   
@@ -41,14 +41,14 @@ When a user submits a sales VAT advance notification from [!INCLUDE[d365fin](../
  The response document is also compressed using this method. The Handler has to decompress the data before it is returned to the program.  
   
 ### Encryption  
- The standard which is used for encryption is PKCS\#7v1.5. For more information, see [System.Security.Cryptography.Pkcs.EnvelopedCms](http://go.microsoft.com/fwlink/?LinkId=200708) on the MSDN Library. This method not only encrypts the data but also encrypts a recipient information in terms of a certificate from the OFD. This encryption is based upon an asymmetric method which ensures that the data can only be decrypted by the recipient. The data is encrypted with a part of the certificate which is publicly accessible \(PublicKey\) and can be decrypted exclusively with the non public part of the certificate \(PrivateKey\). Additionally, the recipient information from the encryption has to match the recipient certificate. This ensures that the data only can be decrypted by the OFD.  
+ The standard which is used for encryption is PKCS#7v1.5. For more information, see [System.Security.Cryptography.Pkcs.EnvelopedCms](http://go.microsoft.com/fwlink/?LinkId=200708) on the MSDN Library. This method not only encrypts the data but also encrypts a recipient information in terms of a certificate from the OFD. This encryption is based upon an asymmetric method which ensures that the data can only be decrypted by the recipient. The data is encrypted with a part of the certificate which is publicly accessible (PublicKey) and can be decrypted exclusively with the non public part of the certificate (PrivateKey). Additionally, the recipient information from the encryption has to match the recipient certificate. This ensures that the data only can be decrypted by the OFD.  
   
  The response uses the same method. With the transmission the OFD receives the public part of the user certificate which is used to encrypt the response document. This ensures that the response document can be decrypted by the recipient only.  
   
  In order to transfer the encrypted data in a text based XML file it has to be Base64 coded. This is a method which is used to present binary data in a textual form.  
   
 ### Signature  
- For the signature of the data a method following the standard XML-DSig is used. For more information, see [System.Security.Cryptography.Xml.SignedXml](http://go.microsoft.com/fwlink/?LinkId=200709) on the MSDN Library. This method applies a signature to the whole document or a part of the document which is encrypted with a certificate. Using this encryption \(also with an asymmetric method\) allows the mapping to a certain registered user by the OFD. Thus the integrity of the data can be assured and the identity of the sender can be determined by means of the signature.  
+ For the signature of the data a method following the standard XML-DSig is used. For more information, see [System.Security.Cryptography.Xml.SignedXml](http://go.microsoft.com/fwlink/?LinkId=200709) on the MSDN Library. This method applies a signature to the whole document or a part of the document which is encrypted with a certificate. Using this encryption (also with an asymmetric method) allows the mapping to a certain registered user by the OFD. Thus the integrity of the data can be assured and the identity of the sender can be determined by means of the signature.  
   
  The integrity is assured by the fact that if the document is changed after it has been signed the signature will become invalid and the OFD rejects the data.  
   

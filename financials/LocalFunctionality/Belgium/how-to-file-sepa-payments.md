@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: File SEPA Payments | Microsoft Docs
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use Single Euro Payments Area (SEPA) credit transfers to file SEPA payments with the bank.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,15 +16,15 @@
 
 ---
 # How to: File SEPA Payments
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use Single Euro Payments Area \(SEPA\) credit transfers to file SEPA payments with the bank.  
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use Single Euro Payments Area (SEPA) credit transfers to file SEPA payments with the bank.  
   
- SEPA unifies payment methods in participating European countries\/regions, which makes international payments as easy to process as domestic payments. European citizens and companies can make and receive payments in euros, whether within or across national borders, with the same basic conditions, rights, and obligations, regardless of location.  
+ SEPA unifies payment methods in participating European countries/regions, which makes international payments as easy to process as domestic payments. European citizens and companies can make and receive payments in euros, whether within or across national borders, with the same basic conditions, rights, and obligations, regardless of location.  
   
  Before you can file a SEPA payment you must complete the following administration tasks:  
   
 -   Set up a new export protocol. For more information, see Export Protocol.  
   
--   In the **Country\/Region** table, select the **SEPA Allowed** field for each country that belongs to the EEA zone.  
+-   In the **Country/Region** table, select the **SEPA Allowed** field for each country that belongs to the EEA zone.  
   
 -   Verify that the **Currency Euro** field in the **General Ledger Setup** table corresponds with the currency in the payment lines.  
   

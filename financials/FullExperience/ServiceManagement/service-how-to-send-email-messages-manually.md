@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Send Email Messages Manually | Microsoft Docs
+    description: If you have not set up a job queue to send email messages to customers or a message cannot be sent in a job queue because of an incorrect email address, you can send the email message manually.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create and Post a Purchase Invoice on a Future Expense | Microsoft Docs
+    description: To account for future period expenses, you have to create and post purchase invoices on the future expense. Be sure you have set up a future expense card before you create a purchase invoice. For more information, see [How to: Set Up a Future Expense Card](how-to-set-up-a-future-expense-card.md).
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -32,6 +32,6 @@ To account for future period expenses, you have to create and post purchase invo
   
 ## See Also  
  [How to: Set Up a Future Expense Card](how-to-set-up-a-future-expense-card.md)   
- [Future Expenses \(Deferrals\)](future-expenses-deferrals-.md)   
+ [Future Expenses (Deferrals)](future-expenses-deferrals-.md)   
  [How to: Create Future Expense Journals](how-to-create-future-expense-journals.md)   
  [How to: Set Up Future Expenses in a Depreciation Book](how-to-set-up-future-expenses-in-a-depreciation-book.md)

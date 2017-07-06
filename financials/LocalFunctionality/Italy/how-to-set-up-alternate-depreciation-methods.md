@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Alternate Depreciation Methods | Microsoft Docs
+    description: Alternate depreciation methods include the following:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -48,7 +48,7 @@ Alternate depreciation methods include the following:
     |**Period Depreciation %**|The depreciation percentage to apply to the period.|  
     |**No. of Units in Period**|The number of units produced by the asset to which this depreciation table applies.|  
     |**Anticipated %**|The anticipated depreciation percentage.|  
-    |**Accelerated\/Reduced %**|The actual depreciation percentage.|  
+    |**Accelerated/Reduced %**|The actual depreciation percentage.|  
   
 5.  In the **Total Depreciation %** field, enter the total depreciation percentage.  
   

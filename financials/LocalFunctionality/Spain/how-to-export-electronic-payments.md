@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Export Electronic Payments | Microsoft Docs
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can export payment journal entries into a file format according to four different payment standards. You must use the following windows to export according to the different payment standards.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -48,8 +48,8 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can export payment jou
     |**Settle Date**|Specify the date that the export will be transmitted to the bank. This date will be the posting date for the payment journal entries that are exported.|  
     |**If Posting Date does not match Delivery Date**|Specify if you want to match the settle date, or if you want to skip any payment journal lines where the entered posting date does not match the settle date.|  
     |**Expenses Code**|Specify who is responsible for the payment expenses.|  
-    |**Shared \(Only International Transf.**|Specify if you want to share the expenses between the payer and the payee. This is only applicable for international transfers.|  
-    |**Payment Order Concept.\)**|Specify the payment order concept, either **Payroll**, **Retirement Payroll**, or **Others**.|  
+    |**Shared (Only International Transf.**|Specify if you want to share the expenses between the payer and the payee. This is only applicable for international transfers.|  
+    |**Payment Order Concept.)**|Specify the payment order concept, either **Payroll**, **Retirement Payroll**, or **Others**.|  
     |**Relation**|Specify if you want the bank to send you a detailed list of all transfer charges. If you do not select this field, the bank will send the total of all charges for all the transfers made.|  
     |**Number Of Copies**|Specify the number of additional copies of the remittance advice that will be printed by this process. One document is always printed so that it can be mailed to the payee.|  
   
@@ -80,8 +80,8 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can export payment jou
     |**Settle Date**|Specify the date that the export will be transmitted to the bank. This date will be the posting date for the payment journal entries that are exported.|  
     |**If Posting Date does not match Delivery Date**|Specify if you want to match the settle date, or if you want to skip any payment journal lines where the entered posting date does not match the settle date.|  
     |**Expenses Code**|Specify who is responsible for the payment expenses.|  
-    |**Shared \(Only International Transf.**|Specify if you want to share the expenses between the payer and the payee. This is only applicable for international transfers.|  
-    |**Payment Order Concept.\)**|Specify the payment order concept, either **Payroll**, **Retirement Payroll**, or **Others**.|  
+    |**Shared (Only International Transf.**|Specify if you want to share the expenses between the payer and the payee. This is only applicable for international transfers.|  
+    |**Payment Order Concept.)**|Specify the payment order concept, either **Payroll**, **Retirement Payroll**, or **Others**.|  
     |**Relation**|Specify if you want the bank to send you a detailed list of all transfer charges. If you do not select this field, the bank will send the total of all charges for all the transfers made.|  
     |**Number Of Copies**|Specify the number of additional copies of the remittance advice that will be printed by this process. One document is always printed so that it can be mailed to the payee.|  
   
@@ -108,7 +108,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can export payment jou
     |**Payment Order Concept**|Specify the payment order concept, either **Payroll**, **Retirement Payroll**, or **Others**.|  
     |**Relation**|Specify if you want the bank to send you a detailed list of all transfer charges. If you do not select this field, the bank will send the total of all charges for all the transfers made.|  
     |**Number Of Copies**|Specify the number of additional copies of the remittance advice that will be printed by this process. One document is always printed so that it can be mailed to the payee.|  
-    |**Shared \(Only Internation Transf.\)**|Specify if you want to share the expenses between the payer and the payee. This is only applicable for international transfers.|  
+    |**Shared (Only Internation Transf.)**|Specify if you want to share the expenses between the payer and the payee. This is only applicable for international transfers.|  
   
 > [!NOTE]  
 >  You can only post the payment order after you have successfully exported the electronic payments.  

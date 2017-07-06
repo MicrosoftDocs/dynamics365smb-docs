@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Delete Invoiced Purchase Orders | Microsoft Docs
+    description: In certain situations, you may need to delete invoiced purchase orders that have not been deleted.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

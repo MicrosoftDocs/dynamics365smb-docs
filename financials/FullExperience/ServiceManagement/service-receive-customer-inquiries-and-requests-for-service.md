@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Receive Customer Inquiries and Requests for Service | Microsoft Docs
+    description: You can use Service Management to determine what your service offerings will be, and manage contracts and service quotes. After these are in place, you can create service orders. Orders can be in response to customers requests, or automatically generated at set intervals for the terms of a service contract.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

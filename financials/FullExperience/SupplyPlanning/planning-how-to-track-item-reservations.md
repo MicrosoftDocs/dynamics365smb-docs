@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Track Item Reservations | Microsoft Docs
+    description: The tracking facility offers you an overview of the various documents related to a particular business case.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

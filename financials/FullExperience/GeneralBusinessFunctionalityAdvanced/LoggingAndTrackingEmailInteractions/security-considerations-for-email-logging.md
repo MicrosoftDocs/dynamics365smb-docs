@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Security Considerations for Email Logging | Microsoft Docs
+    description: Email messages received through the Internet can have fake sender addresses. That means that interaction log entries in [!INCLUDE[d365fin](includes/d365fin_md.md)] that are created from email logging could potentially include fake addresses and should be reviewed for security reasons.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

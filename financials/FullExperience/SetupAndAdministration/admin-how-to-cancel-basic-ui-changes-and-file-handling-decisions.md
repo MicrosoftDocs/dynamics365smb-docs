@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Cancel Basic UI Changes and File Handling Decisions | Microsoft Docs
+    description: You cancel you basic UI changes and decisions for handling of files and automation objects by opening the **Reset User-Specified Settings** window from your Role Center.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Report 340 | Microsoft Docs
+    description: **Report 340** contains information about invoices and taxes that were issued or received by your company in a given period. The report is generated in a format that is approved by the tax authorities. This report should be submitted in the company’s monthly or quarterly liquidation period, depending on the size of the company. This file can be uploaded to the Spanish Tax Agency website or submitted on CD-ROM. For more information, see the [Spanish Tax Agency](http://www.aeat.es/wps/portal/Home?channel=1af861cd949a1010VgnVCM100000d7005a80____&ver=L&site=56d8237c0bc1ff00VgnVCM100000d7005a80____&idioma=es_ES&menu=0&img=0) website. If the number of operations exceeds 1,000,000, the report can be submitted electronically.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -19,7 +19,7 @@
 **Report 340** contains information about invoices and taxes that were issued or received by your company in a given period. The report is generated in a format that is approved by the tax authorities. This report should be submitted in the company’s monthly or quarterly liquidation period, depending on the size of the company. This file can be uploaded to the Spanish Tax Agency website or submitted on CD-ROM. For more information, see the [Spanish Tax Agency](http://www.aeat.es/wps/portal/Home?channel=1af861cd949a1010VgnVCM100000d7005a80____&ver=L&site=56d8237c0bc1ff00VgnVCM100000d7005a80____&idioma=es_ES&menu=0&img=0) website. If the number of operations exceeds 1,000,000, the report can be submitted electronically.  
   
 ## Reporting Requirements for Entrepreneurs and Small Companies  
- The reporting requirements for entrepreneurs and small businesses are modified to support businesses that use the cash accounting criteria \(CAC\).  
+ The reporting requirements for entrepreneurs and small businesses are modified to support businesses that use the cash accounting criteria (CAC).  
   
  A company can use the cash accounting method if business sales do not exceed 2,000,000 euros per year. There is one exception to this rule for a business whose receipts in cash from any single customer exceeds the sum of 100,000 euros.  
   
@@ -68,16 +68,16 @@
  Entries in the **Purchase Invoice book** report must be included in the report as received invoices.  
   
 ### Small Businesses  
- For small businesses and entrepreneurs operating under the Cash Accounting Criteria \(CAC\), Report 340 reports invoices under the CAC. The invoice is marked with a "Z" for operation type. If the invoice is under the CAC, then the following is reported:  
+ For small businesses and entrepreneurs operating under the Cash Accounting Criteria (CAC), Report 340 reports invoices under the CAC. The invoice is marked with a "Z" for operation type. If the invoice is under the CAC, then the following is reported:  
   
--   Payment\/receipt method, that is, cash, check, transfer, and so forth. This field is blank in the report if no payment collection has occurred.  
+-   Payment/receipt method, that is, cash, check, transfer, and so forth. This field is blank in the report if no payment collection has occurred.  
   
--   Payment\/receipt amount \(full, partial\)  
+-   Payment/receipt amount (full, partial)  
   
--   Payment\/receipt dates  
+-   Payment/receipt dates  
   
 ### Invoices Including Different VAT Percentages or EC Percentages  
- If the invoice has more than one VAT percentage or equivalence charge \(EC\) percentage, the report must include all of the records with different VAT percentage and EC percentage. If the invoice ../../includes equivalence charges \(EC\), the EC percentage and EC amount without VAT will be displayed.  
+ If the invoice has more than one VAT percentage or equivalence charge (EC) percentage, the report must include all of the records with different VAT percentage and EC percentage. If the invoice ../../includes equivalence charges (EC), the EC percentage and EC amount without VAT will be displayed.  
   
  All of these records will show the same invoice ID and customer VAT number.  
   

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Belgian Tariff Numbers | Microsoft Docs
+    description: The Belgian customs and tax authorities have established an 8-digit item code for various tariff items.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

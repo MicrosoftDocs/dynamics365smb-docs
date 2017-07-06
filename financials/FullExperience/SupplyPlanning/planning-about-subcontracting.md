@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: About Subcontracting | Microsoft Docs
+    description: Subcontracting, when a vendor performs one or more operational steps in production, is a standard operational step in many manufacturing companies. Subcontracting can be a rare occurrence or can be an integral part of all production processes.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

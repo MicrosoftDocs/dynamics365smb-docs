@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Assign Grounds for Termination Codes to Employees | Microsoft Docs
+    description: You can use grounds for termination codes to define various reasons for employee termination.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

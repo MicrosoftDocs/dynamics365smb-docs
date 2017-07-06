@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Export or Import Payment Management Setup Parameters | Microsoft Docs
+    description: You can export or import payment management setup parameters to an external disk so that you can use the same parameters for another company with similar requirements.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -20,11 +20,11 @@ You can export or import payment management setup parameters to an external disk
   
  You can use the following formats to export payment setup parameters:  
   
--   ETEBAC \(XMLport 10860\) – To create a bill of exchange remittance.  
+-   ETEBAC (XMLport 10860) – To create a bill of exchange remittance.  
   
--   Withdraw \(XMLport 10861\) – To create a customer payment withdrawal \(direct debit\).  
+-   Withdraw (XMLport 10861) – To create a customer payment withdrawal (direct debit).  
   
--   Transfer \(XMLport 10862\) – To create a vendor payment transfer \(credit transfer\).  
+-   Transfer (XMLport 10862) – To create a vendor payment transfer (credit transfer).  
   
  You can select these formats when you set up the payment status for your payment class. For more information, see [How to: Set Up Payment Classes](how-to-set-up-payment-classes.md).  
   

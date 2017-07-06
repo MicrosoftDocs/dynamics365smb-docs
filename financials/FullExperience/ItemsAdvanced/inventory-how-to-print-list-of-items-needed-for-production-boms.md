@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Print List of Items Needed for Production BOMs | Microsoft Docs
+    description: The **Quantity Explosion of BOM** report gives you a list of the item quantities of the selected BOM. The production BOM is exploded entirely over all levels and printed position by position. The exploded levels are ordered according to their origin of need.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

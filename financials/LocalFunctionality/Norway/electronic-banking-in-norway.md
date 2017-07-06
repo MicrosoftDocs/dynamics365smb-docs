@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Electronic Banking in Norway | Microsoft Docs
+    description: [!INCLUDE[d365fin](../../includes/d365fin_md.md)] ../../includes Norwegian enhancements to electronic banking. You can use this functionality to perform the following operations:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -18,14 +18,14 @@
 # Electronic Banking in Norway
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] ../../includes Norwegian enhancements to electronic banking. You can use this functionality to perform the following operations:  
   
--   Receive electronic payments based on an optical character recognition \(OCR\) payment ID.  
+-   Receive electronic payments based on an optical character recognition (OCR) payment ID.  
   
--   Print Kunde ID \(KID\) numbers on sales and receivables documents.  
+-   Print Kunde ID (KID) numbers on sales and receivables documents.  
   
 -   Send electronic payments to vendors.  
   
 ## Customer Identification Numbers  
- Kunde ID \(KID\) is a customer identification number that provides a payment reference to the vendor and ensures that the vendor is posting the payment correctly. If the vendor documents include the KID number, you should use this number as there may be a higher cost for the payment if you do not.  
+ Kunde ID (KID) is a customer identification number that provides a payment reference to the vendor and ensures that the vendor is posting the payment correctly. If the vendor documents include the KID number, you should use this number as there may be a higher cost for the payment if you do not.  
   
  The KID can be entered in the following locations:  
   

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Convert Existing Locations to Warehouse Locations | Microsoft Docs
+    description: You can enable an existing inventory location to use zones and bins and to operate as a warehouse location.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

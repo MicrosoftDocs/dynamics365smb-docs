@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Paper Sources and Tray Numbers | Microsoft Docs
+    description: When printing Norwegian sales documents, you can set up different tray numbers and paper sources on the first, last, and other  pages.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

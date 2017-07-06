@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Depreciation Bonus | Microsoft Docs
+    description: *Depreciation bonus* is an accelerated depreciation method applied in tax accounting because of provisions in the Russian tax laws. A depreciation bonus enables you to include fixed asset and capital investment expenses in the current period at the rate of 10 percent or 30 percent.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -37,7 +37,7 @@
 |**Rel. Act as Depr. Bonus Base**|Select if you want fixed asset releases to be used to calculate the depreciation bonus base.|  
 |**Depr. Bonus TD Code**|Enter a tax difference code that is used to calculate the depreciation bonus. The selected tax difference code should be identified as a depreciation bonus during tax difference setup.|  
 |**Depr. Bonus Recovery from**|Enter the starting date from which depreciation is recovered if the fixed asset is sold. If the fixed asset is sold before this date and the depreciation bonus has already been applied, the depreciation bonus will not be recovered.|  
-|**Depr. Bonus Recov. Per. \(Year\)**|Enter the period in which the depreciation bonus is recovered if the fixed asset is sold.|  
+|**Depr. Bonus Recov. Per. (Year)**|Enter the period in which the depreciation bonus is recovered if the fixed asset is sold.|  
 |**Depr. Bonus Recovery TD Code**|Enter the tax difference code that is used to calculate the depreciation bonus recovery amount in tax accounting.|  
   
 ## Selecting and Canceling Depreciation Bonus Transactions  

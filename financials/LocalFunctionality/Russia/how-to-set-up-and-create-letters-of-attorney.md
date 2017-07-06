@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up and Create Letters of Attorney | Microsoft Docs
+    description: The letter of attorney feature enables you to create and print a Letter of Attorney, and to also print a journal of Letters of Attorney.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -42,7 +42,7 @@ The letter of attorney feature enables you to create and print a Letter of Attor
     |**Employee No.**|Enter the employee number.|  
     |**Employee Full Name**|Specifies the name of the employee. The field is filled in automatically from the **Employee Card**.|  
     |**Employee Job Title**|Specifies the job title of the employee. The field is filled in automatically from the **Employee Card**.|  
-    |**Source Document Type**|Enter the type of source document. You can create a Letter of Attorney \(header and lines\) on the basis of an existing purchase document that is not yet posted.|  
+    |**Source Document Type**|Enter the type of source document. You can create a Letter of Attorney (header and lines) on the basis of an existing purchase document that is not yet posted.|  
     |**Source Document No.**|Enter the source document number.|  
     |**Buy-from Vendor No.**|Specifies the vendor number. The field is filled in automatically from the purchase document when a source document is chosen. You can manually choose the vendor.|  
     |**Buy-from Vendor Name**|Specifies the name of the vendor. The field is filled in automatically from the **Vendor Card**.|  

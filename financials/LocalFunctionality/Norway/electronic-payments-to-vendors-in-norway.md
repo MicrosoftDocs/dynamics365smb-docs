@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Electronic Payments to Vendors in Norway | Microsoft Docs
+    description: [!INCLUDE[d365fin](../../includes/d365fin_md.md)] ../../includes Norwegian enhancements for automatically making payments to vendors. This reduces errors that occur from manual data entry. You can use this functionality to perform the following operations:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -41,14 +41,14 @@
   
 3.  The bank receives the payments and sends the first-time return receipt to [!INCLUDE[d365fin](../../includes/d365fin_md.md)] using the bank's software.  
   
-4.  The bank executes the payments and sends the settlement return \(second-time return receipt\) to [!INCLUDE[d365fin](../../includes/d365fin_md.md)] using the bank's software where the payments are posted.  
+4.  The bank executes the payments and sends the settlement return (second-time return receipt) to [!INCLUDE[d365fin](../../includes/d365fin_md.md)] using the bank's software where the payments are posted.  
   
 ## Vendor Payment Requirements  
  If the payment transactions do not fulfill the requirements, an error message appears and you cannot create a payment file for transfers to the bank. The following criteria must be met when you process payments to vendors:  
   
--   The payment transaction must be positive or zero. A payment transaction must transfer a positive amount \(or zero\) to the payment receiver. This means that deducting a credit memo requires an invoice with the same or higher amount in the same payment transaction. Money cannot be deducted from the vendor's account.  
+-   The payment transaction must be positive or zero. A payment transaction must transfer a positive amount (or zero) to the payment receiver. This means that deducting a credit memo requires an invoice with the same or higher amount in the same payment transaction. Money cannot be deducted from the vendor's account.  
   
--   A credit memo must be applied with the invoice. Generally a credit memo does not contain a Kunde ID \(KID\). You cannot pay a credit memo in a payment transaction with invoices that contain a KID. This is because payments are usually split into transactions with or without a KID. This means that if a credit memo without a KID is paid with an invoice in the same payment transaction, the invoice must be paid without a KID, and the recipient reference number must be used instead.  
+-   A credit memo must be applied with the invoice. Generally a credit memo does not contain a Kunde ID (KID). You cannot pay a credit memo in a payment transaction with invoices that contain a KID. This is because payments are usually split into transactions with or without a KID. This means that if a credit memo without a KID is paid with an invoice in the same payment transaction, the invoice must be paid without a KID, and the recipient reference number must be used instead.  
   
 -   If the invoice and credit memo are paid in the same payment transaction, the payment must occur on the same date using the same currency and exchange rate.  
   

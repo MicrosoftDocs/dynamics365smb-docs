@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Process Purchase Returns | Microsoft Docs
+    description: Purchase returns are used to ensure that your company is compensated for incorrect or damaged items that you receive from your vendors.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

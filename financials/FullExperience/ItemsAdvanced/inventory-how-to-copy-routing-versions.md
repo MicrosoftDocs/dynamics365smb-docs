@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Copy Routing Versions | Microsoft Docs
+    description: You can copy the created routing versions. This is useful for long routings or when slight changes are to be made to versions. You can copy an existing version of a routing into a new version or into an existing version. Already existing information on the lines is overwritten in the destination version.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

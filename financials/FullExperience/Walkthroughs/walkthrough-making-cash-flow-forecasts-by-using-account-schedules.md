@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Walkthrough: Making Cash Flow Forecasts by Using Account Schedules | Microsoft Docs
+    description: This walkthrough describes how you can use account schedules to make cash flow forecasts. Account schedules perform calculations that cannot be done directly in the chart of cash flow accounts. In the account schedules, you can set up subtotals for cash flow receipts and disbursements. These subtotals can be included in new totals that can then be used in making cash flow forecasts.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -75,8 +75,8 @@ This walkthrough describes how you can use account schedules to make cash flow f
   
     |Row No.|Description|Totaling Type|Totaling|Row Type|Amount Type|Show|  
     |---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Walkthrough: Making Cash Flow Forecasts by Using Account Schedules | Microsoft Docs
+    description: This walkthrough describes how you can use account schedules to make cash flow forecasts. Account schedules perform calculations that cannot be done directly in the chart of cash flow accounts. In the account schedules, you can set up subtotals for cash flow receipts and disbursements. These subtotals can be included in new totals that can then be used in making cash flow forecasts.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

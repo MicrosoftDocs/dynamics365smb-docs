@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Enter Comments About Employees | Microsoft Docs
+    description: If you want to enter information about an employee that is additional to the information that you enter in the various fields on the employee card, you can enter the information as text on comment lines.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

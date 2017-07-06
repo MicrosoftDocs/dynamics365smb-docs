@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: CODA Bank Statements | Microsoft Docs
+    description: The Coded Statement of Account (CODA) is a national banking standard, designed by the Belgian Banker's Association, which allows you to automatically process electronic bank statements.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # CODA Bank Statements
-The Coded Statement of Account \(CODA\) is a national banking standard, designed by the Belgian Banker's Association, which allows you to automatically process electronic bank statements.  
+The Coded Statement of Account (CODA) is a national banking standard, designed by the Belgian Banker's Association, which allows you to automatically process electronic bank statements.  
   
  Each type of transaction in a CODA statement is assigned a unique code. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] uses this code to interpret transactions and apply them to the corresponding ledger entries.  
   

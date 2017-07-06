@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Define Check Layouts | Microsoft Docs
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can design your checks to conform with the standards set by the local authorities. Check images can be printed in English, French, or Spanish.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -31,15 +31,15 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can design your checks
     |Report ID|Report name|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
     |---------------|-----------------|---------------------------------------|  
     |1401|Check|This is the default report.|  
-    |10401|Check \(Stub\/Stub\/Check\)|This report is designed to print checks in a stub\/stub\/check format.|  
-    |10411|Check \(Stub\/Check\/Stub\)|This report is designed to print checks in a check\/stub\/check format.|  
+    |10401|Check (Stub/Stub/Check)|This report is designed to print checks in a stub/stub/check format.|  
+    |10411|Check (Stub/Check/Stub)|This report is designed to print checks in a check/stub/check format.|  
   
 4.  Choose the **OK** button.  
   
      To print checks, see [How to: Print Checks](how-to-print-checks.md).  
   
 ## See Also  
- Check \(Stub-Check-Stub\)   
- Check \(Stub-Stub-Check\)   
+ Check (Stub-Check-Stub)   
+ Check (Stub-Stub-Check)   
  Check   
  [How to: Print Checks](how-to-print-checks.md)

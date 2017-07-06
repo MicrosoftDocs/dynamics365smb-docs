@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Payment Statuses | Microsoft Docs
+    description: To use payment management, you must set up payment statuses to define payment document progress levels. You must define a set of statuses for each payment class. For more information, see [How to: Set Up Payment Classes](how-to-set-up-payment-classes.md).
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -31,8 +31,8 @@ To use payment management, you must set up payment statuses to define payment do
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Name**|The payment status description.|  
-    |**RIB**|Select to indicate that information about the Relevé d Identité Bancaire \(RIB\) statement for the customer or vendor must be displayed in the payment lines. The RIB information ../../includes the bank branch number, agency code, bank account number, bank name, RIB key, and key verification.|  
-    |**Look**|Select to indicate that the payment document lines that have reached this payment status can be edited and viewed in the **View\/Edit Payment Line** window.<br /><br /> For more information, see View-Edit Payment Line.|  
+    |**RIB**|Select to indicate that information about the Relevé d Identité Bancaire (RIB) statement for the customer or vendor must be displayed in the payment lines. The RIB information ../../includes the bank branch number, agency code, bank account number, bank name, RIB key, and key verification.|  
+    |**Look**|Select to indicate that the payment document lines that have reached this payment status can be edited and viewed in the **View/Edit Payment Line** window.<br /><br /> For more information, see View-Edit Payment Line.|  
     |**ReportMenu**|Select to indicate that the documents that have reached this payment status can be printed.|  
     |**Amount**|Select to display the amount in the payment lines.|  
     |**Payment in Progress**|Select to indicate that all billing and payment lines with this status must be considered when calculating the payments in progress.|  

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create Proposals | Microsoft Docs
+    description: Proposals can be generated manually or automatically based on either vendor or customer ledger entries.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -42,7 +42,7 @@ Proposals can be generated manually or automatically based on either vendor or c
   
        
   
-2.  Create a sales invoice or credit memo, enter the customer and relevant items and post the invoice. Check whether the **Currency Code**, **Transaction Mode**, and **Bank Account** fields of the invoice\/credit memo contain appropriate values. By default, they will be copied from the customer card.  
+2.  Create a sales invoice or credit memo, enter the customer and relevant items and post the invoice. Check whether the **Currency Code**, **Transaction Mode**, and **Bank Account** fields of the invoice/credit memo contain appropriate values. By default, they will be copied from the customer card.  
   
        
   
@@ -65,7 +65,7 @@ Proposals can be generated manually or automatically based on either vendor or c
   
        
   
-2.  Create a purchase invoice or credit memo, enter the vendor and relevant items. Post the invoice. Check whether the **Currency Code**, **Transaction Mode**, and **Bank Account** fields of the invoice\/credit memo contain appropriate values. By default, they will be copied from the vendor card.  
+2.  Create a purchase invoice or credit memo, enter the vendor and relevant items. Post the invoice. Check whether the **Currency Code**, **Transaction Mode**, and **Bank Account** fields of the invoice/credit memo contain appropriate values. By default, they will be copied from the vendor card.  
   
        
   

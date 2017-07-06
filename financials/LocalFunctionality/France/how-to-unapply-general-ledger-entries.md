@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Unapply General Ledger Entries | Microsoft Docs
+    description: You can unapply general ledger entries in a very straightforward way.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -24,7 +24,7 @@ You can unapply general ledger entries in a very straightforward way.
   
 2.  In the **Chart of Accounts** window, select the account you want to unapply entries for, and then on the **Navigate** tab, in the **Account** group, choose **Apply Entries**.  
   
-3.  In the **Apply G\/L Entries** window, select the ledger entries you want to unapply.  
+3.  In the **Apply G/L Entries** window, select the ledger entries you want to unapply.  
   
 4.  On the **Navigate** tab, in the **Process** group, choose **Unapply Entries**.  
   

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Troubleshooting Using Microsoft Dynamics NAV | Microsoft Docs
+    description: This section contains information to help you resolve problems using [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

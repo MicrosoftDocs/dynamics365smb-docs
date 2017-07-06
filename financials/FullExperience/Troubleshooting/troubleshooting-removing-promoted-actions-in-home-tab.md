@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Troubleshooting: Removing Promoted Actions in Home Tab | Microsoft Docs
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] removing a promoted action in the Home tab, and then re-adding it in the same session will cause duplication of the action.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

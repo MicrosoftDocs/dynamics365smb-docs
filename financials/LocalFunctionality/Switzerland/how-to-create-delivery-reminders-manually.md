@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create Delivery Reminders Manually | Microsoft Docs
+    description: In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-generate-delivery-reminders.md).
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -32,7 +32,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-generate-delivery-remi
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**No.**|The unique identification number for the delivery reminder.|  
-    |**Vendor No.**|The number of the vendor for whom you want to post the delivery reminder.<br /><br /> When you select the vendor number, the **Name**, **Address**, **Post Code\/City**, and **Contact** fields are filled in automatically.|  
+    |**Vendor No.**|The number of the vendor for whom you want to post the delivery reminder.<br /><br /> When you select the vendor number, the **Name**, **Address**, **Post Code/City**, and **Contact** fields are filled in automatically.|  
     |**Posting Date**|The posting date for the delivery reminder. This date is copied to all of the delivery reminder ledger entries.|  
     |**Document Date**|The document date for the delivery reminder. This date is also used to calculate the due date for the delivery reminder. You can modify the posting date if required.|  
     |**Reminder Level**|The delivery reminder level. This value is based on the number of delivery reminders that have already been sent. For more information, see [How to: Set Up Delivery Reminder Terms, Levels, and Text](how-to-set-up-delivery-reminder-terms-levels-and-text.md).|  

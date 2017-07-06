@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Criteria for Transferring General Ledger Entries to Cost Entries | Microsoft Docs
+    description: It is important to understand the criteria for transferring general ledger entries to cost entries. During the transfer, the **Transfer GL Entries to CA** batch job uses the following criteria to determine if and how the general ledger entries are transferred.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

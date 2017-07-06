@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create Future Expense Journals | Microsoft Docs
+    description: Future expense journals are used to post expenses to a special account on a monthly basis. These future expenses are later included as expenses. VAT is deducted when future expenses are included in current expenses.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -28,7 +28,7 @@ Future expense journals are used to post expenses to a special account on a mont
   
 3.  Select a batch in the **VAT Settlement Batch** field. This determines the batch where future expenses and VAT will be produced.  
   
-4.  In the **Search** box, enter **Purchase Invoices**, and then choose the related link. Create a purchase invoice for the deferral general ledger account \(97\).  
+4.  In the **Search** box, enter **Purchase Invoices**, and then choose the related link. Create a purchase invoice for the deferral general ledger account (97).  
   
 5.  Create and post the payment and apply the invoice and payment.  
   
@@ -48,7 +48,7 @@ Future expense journals are used to post expenses to a special account on a mont
     |**Description**|Specifies the description that is associated with the future expense journal.|  
     |**Location Code**|Specifies the location code that is associated with the future expense journal.|  
     |**Amount**|Specifies the amount that is associated with the future expense journal.|  
-    |**Depr. Amount w\/o Normalization**|Specifies the depreciation amount without normalizations that is associated with the future expense journal.|  
+    |**Depr. Amount w/o Normalization**|Specifies the depreciation amount without normalizations that is associated with the future expense journal.|  
     |**Actual Quantity**|Specifies the actual quantity that is associated with the future expense journal.|  
     |**Calc. Quantity**|Specifies the calculated quantity that is associated with the future expense journal.|  
     |**Actual Amount**|Specifies the actual amount that is associated with the future expense journal.|  
@@ -61,7 +61,7 @@ Future expense journals are used to post expenses to a special account on a mont
     |**Duplicate in Depreciation Book**|Specifies the duplicate in depreciation book that is associated with the future expense journal.|  
     |**FA Error Entry No.**|Specifies the fixed asset error entry number that is associated with the future expense journal.|  
   
-8.  On the **Home** tab, in the **Process** group, choose **Post**. The amount entered in the **Amount** field will be transferred from the Future Expenses account to the Current Expenses account. VAT will be calculated according to VAT setup \(percentage\) on the basis of the posted amount, and VAT deduction \(realized VAT\) will be posted.  
+8.  On the **Home** tab, in the **Process** group, choose **Post**. The amount entered in the **Amount** field will be transferred from the Future Expenses account to the Current Expenses account. VAT will be calculated according to VAT setup (percentage) on the basis of the posted amount, and VAT deduction (realized VAT) will be posted.  
   
 ## See Also  
  Fixed Asset Setup   

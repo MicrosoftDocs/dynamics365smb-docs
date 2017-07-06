@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Register Service Item Loaner Comments | Microsoft Docs
+    description: You can use the **Service Item Loaner Service Comment Sheet** window to register comments on the need for loaners for service items in service orders.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

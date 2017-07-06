@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: FIK Details in the Payment Reconciliation Journal | Microsoft Docs
+    description: The **Transaction Text** field in the **Payment Reconciliation Journal** window shows information about the automatic application of payments using the Danish FIK standard. For more information, see [How to: Reconcile Payments Using Automatic Application](how-to-reconcile-payments-using-automatic-application.md).
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

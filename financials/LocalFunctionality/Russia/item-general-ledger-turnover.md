@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Item General Ledger Turnover | Microsoft Docs
+    description: The following form and reports enable the creation of turnover sheet for goods and materials.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -20,11 +20,11 @@ The following form and reports enable the creation of turnover sheet for goods a
   
 -   Item General Ledger Turnover form - Form 12449  
   
--   Item Turnover \(Qty.\) - Report 12469  
+-   Item Turnover (Qty.) - Report 12469  
   
 -   Item Turnover Checklist - Report 12489  
   
-## Item General Ledger Turnover Form \(12449\)  
+## Item General Ledger Turnover Form (12449)  
  The Item General Ledger Turnover form shows the turnover for items in quantities and costs, the balance at the beginning of the month, positive and negative adjustment, and the balance at the end of the month.  
   
  The Item General Ledger Turnover form is usually created monthly, and can also be created for the date of inventory. The data on the Item General Ledger Turnover form is checked with the warehouse accounting data. The cost data is checked with the net changes and balances of:  
@@ -35,7 +35,7 @@ The following form and reports enable the creation of turnover sheet for goods a
   
  To access the Item General Ledger Turnover form  
   
--   In **Financial Management**, click **Inventory** and then click **Item G\/L Turnover**. On the **Options** tab, you can specify the format options listed in the following table.  
+-   In **Financial Management**, click **Inventory** and then click **Item G/L Turnover**. On the **Options** tab, you can specify the format options listed in the following table.  
   
 |||  
 |-|-|  
@@ -58,24 +58,24 @@ The following form and reports enable the creation of turnover sheet for goods a
   
  To display the selected Item card  
   
--   Click the **Item** button and then **Card** \(Shift\+F5 Hot Key\).  
+-   Click the **Item** button and then **Card** (Shift+F5 Hot Key).  
   
- To print the Item Turnover \(Qty.\) or Item Turnover Checklist reports  
+ To print the Item Turnover (Qty.) or Item Turnover Checklist reports  
   
 -   Click **Print**, and then click **Turnover Sheet** or **Turnover Checklist**.  
   
-## Item Turnover \(Qty.\) Report \(12469\)  
- To analyze net changes and balances of items and materials, you can print the Item Turnover \(Qty.\) report and export it to Microsoft Office Excel. The report prints the following data from the Item General Ledger Turnover form:  
+## Item Turnover (Qty.) Report (12469)  
+ To analyze net changes and balances of items and materials, you can print the Item Turnover (Qty.) report and export it to Microsoft Office Excel. The report prints the following data from the Item General Ledger Turnover form:  
   
 -   Item number and description  
   
--   Balance at the beginning of the specified period \(quantity and cost\)  
+-   Balance at the beginning of the specified period (quantity and cost)  
   
--   Positive adjustment \(quantity and cost\)  
+-   Positive adjustment (quantity and cost)  
   
--   Negative adjustment \(quantity and cost\)  
+-   Negative adjustment (quantity and cost)  
   
--   Balance at the end of the specified period \(quantity and cost \)  
+-   Balance at the end of the specified period (quantity and cost )  
   
 -   Unit of measure  
   
@@ -111,20 +111,20 @@ The following form and reports enable the creation of turnover sheet for goods a
 |**Print Cost**|Select this field to print the costs that are mentioned in the report.|  
 |**Export to Excel**|Select this field to export the report to Microsoft Office Excel.|  
   
-## Item Turnover Checklist Report \(12489\)  
+## Item Turnover Checklist Report (12489)  
  The Item Turnover Checklist report provides accounting for the expected costs of items and materials that are received but not paid for.  
   
- The Item Turnover Checklist report prints all the data about items and materials that are in the Item Turnover \(Qty.\) report and in addition, it prints expected cost balances:  
+ The Item Turnover Checklist report prints all the data about items and materials that are in the Item Turnover (Qty.) report and in addition, it prints expected cost balances:  
   
 -   Item number and description  
   
--   Balance at the beginning of the specified period \(quantity, expected cost, and balance\)  
+-   Balance at the beginning of the specified period (quantity, expected cost, and balance)  
   
--   Item positive adjustment \(quantity, expected cost, and balance\)  
+-   Item positive adjustment (quantity, expected cost, and balance)  
   
--   Item negative adjustment \(quantity, expected cost, and balance\)  
+-   Item negative adjustment (quantity, expected cost, and balance)  
   
--   Net change at the end of the specified period \(quantity, expected cost, and balance\)  
+-   Net change at the end of the specified period (quantity, expected cost, and balance)  
   
 -   Unit of measure  
   
@@ -143,7 +143,7 @@ The following form and reports enable the creation of turnover sheet for goods a
 |Field|Description|  
 |**No.**|Enter the item number or a range of item numbers if you want to print the report for one item or for a group of items.|  
 |**Item Category Code**|Enter the Item Category code. This code specifies the following default values:<br /><br /> -   Standard General Product Posting Group<br />-   Standard Inventory Posting Group<br />-   Standard VAT Product Posting Group<br />-   Standard Costing Method|  
-|**Product Group Code**|Enter the Product group code specifying the product type the item belongs to \(such as paint, tools, and batteries\).|  
+|**Product Group Code**|Enter the Product group code specifying the product type the item belongs to (such as paint, tools, and batteries).|  
 |**Global Dimension 1 Filter**|Enter a filter value for analysis on the Global Dimension 1 filter.|  
 |**Global Dimension 2 Filter**|Enter a filter value for analysis on the Global Dimension 2 filter.|  
 |**Date Filter**|Enter the period that the report is printed for. The field is required.|  

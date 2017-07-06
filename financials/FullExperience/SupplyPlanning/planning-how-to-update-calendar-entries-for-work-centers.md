@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Update Calendar Entries for Work Centers | Microsoft Docs
+    description: You can use the Calculate function to create new calendar entries. If old entries already exist, they will be deleted when you run this function.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

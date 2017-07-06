@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create VAT Reports | Microsoft Docs
+    description: You can configure different types of VAT reports based on requirements. Then, when you have to submit a VAT report, you can create it in the **VAT Report** window and then export it in electronic format that conforms to the ELMA5 format requirements.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -31,7 +31,7 @@ You can configure different types of VAT reports based on requirements. Then, wh
     |**Trade Type**|Specify the type of trade that the report is to describe. The default is **Sales**. Other options are **Purchases** or **Both**.|  
     |**Start Date**|Specify the start date of the report period.|  
     |**End Date**|Specify the end date of the report period.|  
-    |**EU Goods\/Services**|Specify whether the report applies to **Goods**, **Services**, or both. The default is **Both**.|  
+    |**EU Goods/Services**|Specify whether the report applies to **Goods**, **Services**, or both. The default is **Both**.|  
     |**Report Period Type**|Specify the time period that the report applies to:<br /><br /> -   Month<br />-   Quarter<br />-   Year<br />-   Bi-Monthly|  
     |**Report Period No.**|Specify the number of the VAT period.|  
     |**Report Year**|Specify the year that the VAT report covers.|  

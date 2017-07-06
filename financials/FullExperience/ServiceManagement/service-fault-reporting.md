@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Fault Reporting | Microsoft Docs
+    description: To set up service standards and responses for your company, you can establish how to capture and record fault information and what action to take in response to service items. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] provides four options, from which you can select one in the **General** FastTab of the **Service Mgt. Setup** window. Your selection serves as the default implementation for your service application.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -22,8 +22,8 @@ To set up service standards and responses for your company, you can establish ho
 
 |Fault|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
 |---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Fault Reporting | Microsoft Docs
+    description: To set up service standards and responses for your company, you can establish how to capture and record fault information and what action to take in response to service items. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] provides four options, from which you can select one in the **General** FastTab of the **Service Mgt. Setup** window. Your selection serves as the default implementation for your service application.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

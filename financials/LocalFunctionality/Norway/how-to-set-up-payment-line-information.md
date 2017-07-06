@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Payment Line Information | Microsoft Docs
+    description: Payment journal line information for the remittance payment is set up in the **Payment Info** window.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -37,7 +37,7 @@ Payment journal line information for the remittance payment is set up in the **P
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Recipient Ref. 1 – 3**|Specify the payment text which is sent to the vendor.|  
-    |**KID \(Cust. id number\)**|Specify the number sent to the vendor during payment.|  
+    |**KID (Cust. id number)**|Specify the number sent to the vendor during payment.|  
     |**Our Account. No.**|Specify the account number for your company.|  
     |**External Document No.**|Specify the number of the external document.|  
     |**Payment Type Code Domestic**|Specify the payment type code that is assigned to the payment.|  
@@ -51,7 +51,7 @@ Payment journal line information for the remittance payment is set up in the **P
     |---------------------------------|---------------------------------------|  
     |**Recipient Ref. Abroad**|Specify the payment text that is sent to the vendor.|  
     |**Payment Type Code Abroad**|Specify the payment type code that is assigned to the payment.|  
-    |**Check**|Specify whether a check must be issued.<br /><br /> \* <br />                        **No** - No check is issued.<br /><br /> \* **Send to employer** - Check is issued and sent to the employer.<br /><br /> \* **Send to beneficiary** - Check is issued and sent to the beneficiary.|  
+    |**Check**|Specify whether a check must be issued.<br /><br /> * <br />                        **No** - No check is issued.<br /><br /> * **Send to employer** - Check is issued and sent to the employer.<br /><br /> * **Send to beneficiary** - Check is issued and sent to the beneficiary.|  
     |**Urgent**|Select if the payment is urgent and should be treated as an urgent transfer.|  
     |**Agreed Exch. Rate**|Specify the exchange rate which the bank agrees upon.|  
     |**Agreed With**|Specify who the agreement is entered with, if an exchange rate is agreed upon.|  

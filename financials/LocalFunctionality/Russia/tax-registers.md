@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Tax Registers | Microsoft Docs
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can set up tax registers to track and manage taxable profits and losses in accordance with Russian tax accounting principles. Tax registers allow you to group taxable transactions into logical categories and apply tax accounting rules for the recognition of revenue and expenditures.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -23,8 +23,8 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can set up tax registe
   
 |Tax Register Type|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
 |---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Tax Registers | Microsoft Docs
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can set up tax registers to track and manage taxable profits and losses in accordance with Russian tax accounting principles. Tax registers allow you to group taxable transactions into logical categories and apply tax accounting rules for the recognition of revenue and expenditures.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

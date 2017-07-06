@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Enter and Post Cash and Bank or Giro Journals | Microsoft Docs
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use the cash and bank journals to enter the transactions that affect the cash and bank accounts by using **Cash Book** and **Bank Book**.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -20,7 +20,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use the cash and b
   
  You can enter increases or decreases to the cash account in the **Cash Journals**. For example, you can use this journal for paying out petty cash or receiving transfers from a different bank account.  
   
- The **Bank\/Giro Journal** records the inflow or outflow of the cash to a specific bank account. This journal forms the basis for bank reconciliation. The layout of this journal resembles the paper bank statement, so you can transpose the required fields from the paper statement to the journal, or you can import an electronic bank statement file. The transactions can be customer payments or vendor payments.  
+ The **Bank/Giro Journal** records the inflow or outflow of the cash to a specific bank account. This journal forms the basis for bank reconciliation. The layout of this journal resembles the paper bank statement, so you can transpose the required fields from the paper statement to the journal, or you can import an electronic bank statement file. The transactions can be customer payments or vendor payments.  
   
  You can apply the payments from customers to the open invoices from Accounts Receivables. You can also enter general ledger transactions to capture miscellaneous amounts, such as bank charges or interest income. VAT codes can also be applied to these transaction lines. You can define a journal for every bank account.  
   
@@ -39,7 +39,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use the cash and b
     |**Account Type**|The account type to which the entry is to be posted.|  
     |**Account No.**|The account number to which the entry is to be posted.|  
     |**Description**|The description of the entry. This field automatically populates the description of the account number selected in the **Account No.** field.|  
-    |**VAT Prod. Posting Group**|The VAT product posting group code used to post the entry. You can select a code in this field only if the **Account Type** is **G\/L Account**. For more information, see VAT Product Posting Groups.|  
+    |**VAT Prod. Posting Group**|The VAT product posting group code used to post the entry. You can select a code in this field only if the **Account Type** is **G/L Account**. For more information, see VAT Product Posting Groups.|  
     |**Amount**|The total amount that the statement line consists of. You must enter the debit amount without a plus or minus sign and the credit amount with a minus sign.<br /><br /> If this amount includes the VAT amount, then select the **Amount incl. VAT** check box.|  
   
 4.  On the **Home** tab, in the **Process** group, choose **Post**.  
@@ -51,13 +51,13 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use the cash and b
   
 ### To post bank or giro journals  
   
-1.  In the **Search** box, enter **Bank\/Giro Journal**, and then choose the related link.  
+1.  In the **Search** box, enter **Bank/Giro Journal**, and then choose the related link.  
   
 2.  On the **Home** tab, choose **New**.  
   
 3.  Select the relevant journal template, and then choose the **OK** button.  
   
-4.  In the **Bank\/Giro Journal** window, fill in the fields as described in the following table.  
+4.  In the **Bank/Giro Journal** window, fill in the fields as described in the following table.  
   
     |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](includes/bp_tabledescription_md.md)]-->|  
     |---------------------------------|---------------------------------------|  

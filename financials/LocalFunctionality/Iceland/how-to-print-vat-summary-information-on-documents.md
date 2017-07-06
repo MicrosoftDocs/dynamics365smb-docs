@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Print VAT Summary Information on Documents | Microsoft Docs
+    description: If VAT is calculated, VAT summary information is typically printed on sales and purchase documents. However, in Iceland, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] does not print VAT summary information if only one VAT sales code is used in the document. You can modify this behavior by using the **Always Show VAT Summary** option.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

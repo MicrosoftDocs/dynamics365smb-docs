@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Provide Service | Microsoft Docs
+    description: [!INCLUDE[d365fin](../../includes/d365fin_md.md)] features a **Service Tasks** window through which you can get an overview of all the service items that need attention. Think of it as your service dashboard where you can see what orders are pending, look for and register spare parts, and keep your inventory up-to-date.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

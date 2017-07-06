@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Multiple Interest Rates | Microsoft Docs
+    description: You can calculate finance charges with multiple interest rates for a specific period. The interest calculation is similar for all financial charges, with variation only in the rate of interest for a specific period.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -32,7 +32,7 @@ You can calculate finance charges with multiple interest rates for a specific pe
     |---------------------------------|---------------------------------------|  
     |**Start Date**|Enter the start date for each finance charge interest rate code.|  
     |**Interest Rate**|Enter the percentage that must be used to calculate interest.|  
-    |**Interest Period \(Days\)**|Enter the period for each finance charge interest rate.|  
+    |**Interest Period (Days)**|Enter the period for each finance charge interest rate.|  
   
 4.  Choose the **OK** button.  
   

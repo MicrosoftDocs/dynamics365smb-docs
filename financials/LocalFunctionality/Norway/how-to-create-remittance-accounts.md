@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create Remittance Accounts | Microsoft Docs
+    description: You must create one remittance account for each bank account where payment is made. If an account is used to make payments to both domestic and foreign vendors, this account must be created two times—one time for domestic payments and one time for foreign payments.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -33,7 +33,7 @@ You must create one remittance account for each bank account where payment is ma
     |---------------------------------|---------------------------------------|  
     |**Code**|Specify the identification code for the account.|  
     |**Remittance Agreement Code**|Select the agreement to which the account is connected.|  
-    |**Type**|Select the payment type. Payment types include **Domestic**, **Foreign**, and **Payment Instr**.<br /><br /> If remitting to Bankernes Betalingssentral \(BBS\), you can only choose **Domestic**.|  
+    |**Type**|Select the payment type. Payment types include **Domestic**, **Foreign**, and **Payment Instr**.<br /><br /> If remitting to Bankernes Betalingssentral (BBS), you can only choose **Domestic**.|  
     |**Description**|Specify the description of the account.|  
     |**Bank Account No.**|Specify the account number of the bank.|  
     |**BBS Agreement ID**|Specify the agreement identification for each account in BBS.|  
@@ -45,8 +45,8 @@ You must create one remittance account for each bank account where payment is ma
     |**Account Type**|Select the account type. Account types include **Finance account** and **Bank account**.|  
     |**Account No.**|Specify the account number depending on your selection in the **Account Type** field.|  
     |**Charge Account No.**|Specify the account number for the charge account.|  
-    |**Round off\/Divergence Acc. No.**|Specify the finance account to post the difference as a result of rounding.|  
-    |**Max. Round off\/Diverg. \(LCY\)**|Specify the maximum rounding or difference, which is accepted by settlement return.|  
+    |**Round off/Divergence Acc. No.**|Specify the finance account to post the difference as a result of rounding.|  
+    |**Max. Round off/Diverg. (LCY)**|Specify the maximum rounding or difference, which is accepted by settlement return.|  
     |**Document No. Series**|Specify the number series to be used when you post payments by using the remittance system.|  
     |**New Document Per.**|Select how documents will be numbered when you post a payment:<br /><br /> -   **Date** - A new document is numbered according to the date the payment is made.<br />-   **Vendor** - A new document is numbered according to the vendor.|  
     |**Return Journal Template Name**|Specify the general journal template to which settled payments are transferred.|  

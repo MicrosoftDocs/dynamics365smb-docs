@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Send Electronic Documents | Microsoft Docs
+    description: The generic version of ADD INCLUDE<!--[!INCLUDE[dyn_nav](includes/how-to-set-up-data-exchange-definitions.md).
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

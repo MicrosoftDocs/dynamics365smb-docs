@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Export BACS Files | Microsoft Docs
+    description: The following procedure describes how to export a BACS file, one of the payment options supported by [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

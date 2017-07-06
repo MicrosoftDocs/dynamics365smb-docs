@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Report Intrastat | Microsoft Docs
+    description: Companies in the European Union (EU) must report the extent of their trade with other EU countries/regions according to specific rules. Companies in the EU report the movement of goods to the Intrastat authorities in their respective countries/regions.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

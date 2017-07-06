@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Export Payments | Microsoft Docs
+    description: The Payment Management module allows you to export your payments electronically via a text file or XMLport.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

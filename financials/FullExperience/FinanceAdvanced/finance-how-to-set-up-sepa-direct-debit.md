@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up SEPA Direct Debit | Microsoft Docs
+    description: From the **Direct Debit Collections** window, you can export instructions to your electronic bank to perform a direct debit collection from the customer’s bank account to your bank account. For more information, see [Collect Payments with SEPA Direct Debit](../collect-payments-with-sepa-direct-debit.md).
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

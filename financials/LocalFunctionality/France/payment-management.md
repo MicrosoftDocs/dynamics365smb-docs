@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Payment Management | Microsoft Docs
+    description: [!INCLUDE[d365fin](../../includes/d365fin_md.md)] allows you to manage bills of exchange, electronic payments, and vendor payments using the payment management function.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -32,9 +32,9 @@
   
 -   ETEBAC – To create a bill of exchange remittance.  
   
--   Withdraw – To create a customer payment withdrawal \(direct debit\).  
+-   Withdraw – To create a customer payment withdrawal (direct debit).  
   
--   Transfer – To create a vendor payment transfer \(credit transfer\).  
+-   Transfer – To create a vendor payment transfer (credit transfer).  
   
 ## Managing Payment Slips and Files  
  You can create payment slips to manage customer payments and vendor payments. After creating the payment slip, you must post it.  

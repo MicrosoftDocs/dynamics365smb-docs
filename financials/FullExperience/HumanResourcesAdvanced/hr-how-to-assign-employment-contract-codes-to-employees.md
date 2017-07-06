@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Assign Employment Contract Codes to Employees | Microsoft Docs
+    description: You can set up employment contract codes for the various contracts you use in your company.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

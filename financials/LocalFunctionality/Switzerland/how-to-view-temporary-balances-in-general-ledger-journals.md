@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: View Temporary Balances in General Ledger Journals | Microsoft Docs
+    description: When you enter a new transaction in the general journal, you can view temporary balances that show how the general ledger account balances would be affected by posting the journal. You can view the balance details of the account and counter account for the active journal line. You can also view the unposted values for the current journal.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -26,7 +26,7 @@ When you enter a new transaction in the general journal, you can view temporary 
   
 2.  Select the required general journal entry. On the **Home** tab, in the **Process** group, and choose **Balance**.  
   
-     In the **View – G\/L Account temp. Balance** window, on the **General** FastTab, you can view how general ledger account balances would be affected by posting the journal.  
+     In the **View – G/L Account temp. Balance** window, on the **General** FastTab, you can view how general ledger account balances would be affected by posting the journal.  
   
 3.  Choose the **Close** button.  
   

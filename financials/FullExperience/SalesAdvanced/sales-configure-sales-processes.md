@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Configure Sales Processes | Microsoft Docs
+    description: Before you can manage sales processes, you must configure the rules and values that define the company's sales policies.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

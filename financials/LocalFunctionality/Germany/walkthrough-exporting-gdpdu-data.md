@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Walkthrough: Exporting GDPdU Data | Microsoft Docs
+    description: You can export business data for auditing purposes. How the data export is set up is different for all companies, and you should ask your tax advisor and the tax auditor. The following walkthrough describes the end-to-end process, but it is an example only.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -18,7 +18,7 @@
 # Walkthrough: Exporting GDPdU Data
 You can export business data for auditing purposes. How the data export is set up is different for all companies, and you should ask your tax advisor and the tax auditor. The following walkthrough describes the end-to-end process, but it is an example only.  
   
- The sample implementation illustrates a scenario where the auditor has requested that you export data from your general ledger, and information about your customers and vendors. This is not an example that is based on actual requirements from a tax auditor, but it serves to illustrate how to export data according to the process for data access and testability of digital documents \(GDPdU\) in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
+ The sample implementation illustrates a scenario where the auditor has requested that you export data from your general ledger, and information about your customers and vendors. This is not an example that is based on actual requirements from a tax auditor, but it serves to illustrate how to export data according to the process for data access and testability of digital documents (GDPdU) in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
   
 ## About This Walkthrough  
  This walkthrough illustrates the following tasks:  
@@ -70,7 +70,7 @@ You can export business data for auditing purposes. How the data export is set u
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Code**|The code for the record type, **GLCUSTVEND**.|  
-    |**Description**|The description for the record type, **G\/L, Cust., Vend.**.|  
+    |**Description**|The description for the record type, **G/L, Cust., Vend.**.|  
   
 7.  Choose the **OK** button.  
   
@@ -80,13 +80,13 @@ You can export business data for auditing purposes. How the data export is set u
     |---------------------------------|---------------------------------------|  
     |**Record Code**|Select the record code, **GLCUSTVEND**.|  
     |**Description**|The description for the record type is added automatically, but you can change this to **General ledger, customers and vendors**, for example.|  
-    |**Export Path**|Specify the path where the exported files will be stored.<br /><br /> In this scenario, **C:\\Exports**.|  
+    |**Export Path**|Specify the path where the exported files will be stored.<br /><br /> In this scenario, **C:Exports**.|  
   
      If the specified folder does not exist, choose the **Yes** button to create it.  
   
  Next, Cassie specifies the source for the data that will be exported. She knows from previous exports that she wants data from the following tables:  
   
--   **G\/L Account**  
+-   **G/L Account**  
   
 -   **Customer**  
   
@@ -98,7 +98,7 @@ You can export business data for auditing purposes. How the data export is set u
   
 2.  In the **Data Export Record Source** window, in the **Table No.** field, enter **15**.  
   
-     The **Table Name** field is automatically updated with the name of the **G\/L Account** table.  
+     The **Table Name** field is automatically updated with the name of the **G/L Account** table.  
   
 3.  In the **Notes** part, choose the link, and then enter the following text:  
   
@@ -125,21 +125,21 @@ You can export business data for auditing purposes. How the data export is set u
   
 3.  In the **Import** window, navigate to the location of the relevant DTD file, and then choose the **Open** button.  
   
- Next, Sean adds the **G\/L Entry** table to the source. Then he adds fields from that table and the **G\/L Account** table.  
+ Next, Sean adds the **G/L Entry** table to the source. Then he adds fields from that table and the **G/L Account** table.  
   
-#### To add the G\/L Entry table to the data export record source  
+#### To add the G/L Entry table to the data export record source  
   
 1.  In the **Data Export Record Definitions** window, choose the line where the **Data Export Record Type Code** field is set to **GLCUSTVEND**, and then, on the **Home** tab, in the **Record Definition** group, choose **Record Source**.  
   
-2.  In the **Data Export Record Source** window, select the line under the line for the **G\/L Account** table, and then on the **Home** tab, choose **New**.  
+2.  In the **Data Export Record Source** window, select the line under the line for the **G/L Account** table, and then on the **Home** tab, choose **New**.  
   
 3.  In the **Table No.** field, enter **17**.  
   
-     The **Table Name** field is automatically updated with the name of the **G\/L Entry** table.  
+     The **Table Name** field is automatically updated with the name of the **G/L Entry** table.  
   
 4.  On the **Home** tab, in the **Indentation** group, choose **Indent**.  
   
-     This indents the **G\/L Entry** table under the **G\/L Account** table. Next, Sean adds a table relationship between the two tables.  
+     This indents the **G/L Entry** table under the **G/L Account** table. Next, Sean adds a table relationship between the two tables.  
   
 5.  On the **Home** tab, in the **Indentation** group, choose  **Relationships**.  
   
@@ -147,14 +147,14 @@ You can export business data for auditing purposes. How the data export is set u
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**From Field No.**|Contains the number of the field in the parent table. In this scenario, the **No.** field on the **G\/L Account** table.|  
-    |**To Field No.**|Contains the number of the field in the parent table. In this scenario, the **G\/L Account No.** field on the **G\/L Entry** table.|  
+    |**From Field No.**|Contains the number of the field in the parent table. In this scenario, the **No.** field on the **G/L Account** table.|  
+    |**To Field No.**|Contains the number of the field in the parent table. In this scenario, the **G/L Account No.** field on the **G/L Entry** table.|  
   
 7.  Choose the **OK** button.  
   
-#### To add fields from the G\/L Account and G\/L Entry tables to the data export record source  
+#### To add fields from the G/L Account and G/L Entry tables to the data export record source  
   
-1.  In the **Data Export Record Source** window, select the line for the **G\/L Account** table, and then in the **Fields** pane, in the toolbar, choose **Add**.  
+1.  In the **Data Export Record Source** window, select the line for the **G/L Account** table, and then in the **Fields** pane, in the toolbar, choose **Add**.  
   
 2.  Choose the following fields, and then choose the **OK** button.  
   
@@ -166,7 +166,7 @@ You can export business data for auditing purposes. How the data export is set u
     |31|**Balance at Date**|  
     |32|**Net Change**|  
   
-3.  In the **Data Export Record Source** window, select the line for the **G\/L Entry** table, and then in the **Fields** pane, in the toolbar, choose **Add**.  
+3.  In the **Data Export Record Source** window, select the line for the **G/L Entry** table, and then in the **Fields** pane, in the toolbar, choose **Add**.  
   
 4.  Choose the following fields, and then choose the **OK** button.  
   
@@ -176,11 +176,11 @@ You can export business data for auditing purposes. How the data export is set u
     |5|**Document Type**|  
     |17|**Amount**|  
   
- Sean added the **Posting Date** field from the **G\/L Entry** table because Cassie needs the data to be filtered based on the posting date. Now, Sean will use the field to specify the field on the **G\/L Entry** table that will be used to calculate the period for the data export.  
+ Sean added the **Posting Date** field from the **G/L Entry** table because Cassie needs the data to be filtered based on the posting date. Now, Sean will use the field to specify the field on the **G/L Entry** table that will be used to calculate the period for the data export.  
   
 #### To add a period filter to a table in a data export source  
   
-1.  In the **Data Export Record Source** window, select the line for the **G\/L Entry** table, and then choose the **Period Field No.** field.  
+1.  In the **Data Export Record Source** window, select the line for the **G/L Entry** table, and then choose the **Period Field No.** field.  
   
 2.  In the **Data Exp. Field List** window, choose the **Posting Date** field, and then choose the **OK** button.  
   
@@ -209,16 +209,16 @@ You can export business data for auditing purposes. How the data export is set u
     |1|**No.**|  
     |2|**Name**|  
     |21|**Customer Posting Group**|  
-    |59|**Balance \(LCY\)**|  
-    |61|**Net Change \(LCY\)**|  
+    |59|**Balance (LCY)**|  
+    |61|**Net Change (LCY)**|  
   
-4.  Repeat the previous two steps to add the **Balance \(LCY\)** field again.  
+4.  Repeat the previous two steps to add the **Balance (LCY)** field again.  
   
-5.  Choose the line for the first instance of the **Balance \(LCY\)** field, and then, in the **Datefilter Handling** field, choose **Startdate**.  
+5.  Choose the line for the first instance of the **Balance (LCY)** field, and then, in the **Datefilter Handling** field, choose **Startdate**.  
   
-6.  Choose the line for the second instance of the **Balance \(LCY\)** field, and then, in the **Datefilter Handling** field, choose **Enddate**.  
+6.  Choose the line for the second instance of the **Balance (LCY)** field, and then, in the **Datefilter Handling** field, choose **Enddate**.  
   
-7.  Choose the line for the **Net Change \(LCY\)** field, and then, in the **Datefilter Handling** field, choose **Startdate..Enddate**.  
+7.  Choose the line for the **Net Change (LCY)** field, and then, in the **Datefilter Handling** field, choose **Startdate..Enddate**.  
   
      The following table describes the field values for the fields on the **Customer** table.  
   
@@ -227,9 +227,9 @@ You can export business data for auditing purposes. How the data export is set u
     |1|**No.**|**Normal**||**No**|  
     |2|**Name**|**Normal**||**Name**|  
     |21|**Customer Posting Group**|**Normal**||**CustomerPostingGroup**|  
-    |59|**Balance \(LCY\)**|**FlowField**|**..Startdate**|**StartBalanceLCY**|  
-    |59|**Balance \(LCY\)**|**FlowField**|**..Enddate**|**EndBalanceLCY**|  
-    |61|**Net Change \(LCY\)**|**FlowField**|**Startdate..Enddate**|**NetChangeLCYPeriod**|  
+    |59|**Balance (LCY)**|**FlowField**|**..Startdate**|**StartBalanceLCY**|  
+    |59|**Balance (LCY)**|**FlowField**|**..Enddate**|**EndBalanceLCY**|  
+    |61|**Net Change (LCY)**|**FlowField**|**Startdate..Enddate**|**NetChangeLCYPeriod**|  
   
     > [!TIP]  
     >  To change the order of the fields, select a field, and then, in the toolbar, choose **Move Up** or **Move Down**.  
@@ -255,9 +255,9 @@ You can export business data for auditing purposes. How the data export is set u
     |1|**No.**|**Normal**||**No**|  
     |2|**Name**|**Normal**||**Name**|  
     |21|**Vendor Posting Group**|**Normal**||**VendorPostingGroup**|  
-    |59|**Balance \(LCY\)**|**FlowField**|**..Startdate**|**StartBalanceLCY**|  
-    |59|**Balance \(LCY\)**|**FlowField**|**..Enddate**|**EndBalanceLCY**|  
-    |61|**Net Change \(LCY\)**|**FlowField**|**Startdate..Enddate**|**NetChangeLCYPeriod**|  
+    |59|**Balance (LCY)**|**FlowField**|**..Startdate**|**StartBalanceLCY**|  
+    |59|**Balance (LCY)**|**FlowField**|**..Enddate**|**EndBalanceLCY**|  
+    |61|**Net Change (LCY)**|**FlowField**|**Startdate..Enddate**|**NetChangeLCYPeriod**|  
   
  Sean has almost completed the setup, but he wants to verify that the data export source meets the technical requirements of the auditors’ tool.  
   
@@ -290,7 +290,7 @@ You can export business data for auditing purposes. How the data export is set u
   
 4.  To export the data, choose the **OK** button.  
   
- When the export is completed, Cassie is notified. She can now submit the exported files to the tax auditors. First, she examines the files in the C:\\Exports folder on her computer. There is a file for each table, and the files have the names that Sean specified in the data export source. There is also an INDEX.XML file that describes the structure of the data export with the names of the tables and fields that Sean specified.  
+ When the export is completed, Cassie is notified. She can now submit the exported files to the tax auditors. First, she examines the files in the C:Exports folder on her computer. There is a file for each table, and the files have the names that Sean specified in the data export source. There is also an INDEX.XML file that describes the structure of the data export with the names of the tables and fields that Sean specified.  
   
 ## Next Steps  
  When the tax auditors import Cassie’s files into their software, they can read the data that she exported. If the auditors need a new version of the same data export, Cassie can run the export again.  
@@ -298,6 +298,6 @@ You can export business data for auditing purposes. How the data export is set u
  The next time the tax auditors request new data, Cassie and Sean can collaborate to create a new data export.  
   
 ## See Also  
- [Process for Data Access and Testability of Digital Documents \(GDPdU\)](process-for-data-access-and-testability-of-digital-documents-gdpdu-.md)   
+ [Process for Data Access and Testability of Digital Documents (GDPdU)](process-for-data-access-and-testability-of-digital-documents-gdpdu-.md)   
  [How to: Set Up Data Exports for GDPdU](how-to-set-up-data-exports-for-gdpdu.md)   
  [How to: Export GDPdU Data](how-to-export-gdpdu-data.md)

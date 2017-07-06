@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Electronic Invoicing | Microsoft Docs
+    description: Mexican companies must be able to send invoices electronically as Comprobante Fiscal Digital por Internet (CFDI) files. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] supports CFDI so that you can export sales and service invoices and credit memos as electronic documents that have the required digital signature.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # Electronic Invoicing
-Mexican companies must be able to send invoices electronically as Comprobante Fiscal Digital por Internet \(CFDI\) files. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] supports CFDI so that you can export sales and service invoices and credit memos as electronic documents that have the required digital signature.  
+Mexican companies must be able to send invoices electronically as Comprobante Fiscal Digital por Internet (CFDI) files. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] supports CFDI so that you can export sales and service invoices and credit memos as electronic documents that have the required digital signature.  
   
  The CFDI file is an XML file that contains:  
   
@@ -26,7 +26,7 @@ Mexican companies must be able to send invoices electronically as Comprobante Fi
   
 -   Tax scheme of the issuing company.  
   
--   Federal tax registration number \(RFC\) of issuing company.  
+-   Federal tax registration number (RFC) of issuing company.  
   
 -   RFC of the receiving company.  
   
@@ -40,12 +40,12 @@ Mexican companies must be able to send invoices electronically as Comprobante Fi
   
 -   Customs location, which ../../includes the date and number of the customs document, if the transaction is an import.  
   
--   Digital stamp of the issuing company, which is assigned by the tax authorities \(SAT\).  
+-   Digital stamp of the issuing company, which is assigned by the tax authorities (SAT).  
   
 -   Digital stamp of an authorized service provider, PAC, that you choose.  
   
 > [!IMPORTANT]  
->  You will be submitting the electronic invoices to a PAC, which is an authorized service provider appointed by the Mexican tax authorities \(SAT\).  
+>  You will be submitting the electronic invoices to a PAC, which is an authorized service provider appointed by the Mexican tax authorities (SAT).  
   
 ## Getting Started  
  Before you can use ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-set-up-electronic-invoicing.md). For information about SAT certificates and keys, see the [Servicio de Administracíon Tributaria](http://go.microsoft.com/fwlink/?LinkId=242772) website.  
@@ -61,9 +61,9 @@ Mexican companies must be able to send invoices electronically as Comprobante Fi
  When you send an electronic invoice or credit memo to your customer, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] uses the email address that you have specified in the **Company Information** window. The document is sent to the email address that you have specified in the **Customer Card** window for the bill-to customer on the invoice or credit memo. In the **General Ledger Setup** window, you also can choose to include the documents as PDF files in the email that is sent.  
   
 > [!IMPORTANT]  
->  The users who will send electronic invoices must be able to send mail using the Simple Mail Transfer Protocol \(SMTP\). Depending on the configuration in your company, you may have to grant explicit permissions to each relevant user and computer.  
+>  The users who will send electronic invoices must be able to send mail using the Simple Mail Transfer Protocol (SMTP). Depending on the configuration in your company, you may have to grant explicit permissions to each relevant user and computer.  
   
- If you also want to print the documents, the documents will include a Quick Response \(QR\) bar code and other information that identifies the related electronic invoice. This information makes the printed document computer-readable and provides a link between the electronic document and the printed document.  
+ If you also want to print the documents, the documents will include a Quick Response (QR) bar code and other information that identifies the related electronic invoice. This information makes the printed document computer-readable and provides a link between the electronic document and the printed document.  
   
  For more information, see [How to: Generate Electronic Invoices](how-to-generate-electronic-invoices.md).  
   

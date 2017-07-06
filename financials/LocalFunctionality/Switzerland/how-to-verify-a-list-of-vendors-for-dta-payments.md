@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Verify a List of Vendors for DTA Payments | Microsoft Docs
+    description: The DatenTrägerAustausch (DTA) payment journal report displays information for each payment line. You can also view comments in the comments column. The report ../../includes information about the number of postings, the highest posting amount, and the total amount in local and foreign currencies.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # How to: Verify a List of Vendors for DTA Payments
-The DatenTrägerAustausch \(DTA\) payment journal report displays information for each payment line. You can also view comments in the comments column. The report ../../includes information about the number of postings, the highest posting amount, and the total amount in local and foreign currencies.  
+The DatenTrägerAustausch (DTA) payment journal report displays information for each payment line. You can also view comments in the comments column. The report ../../includes information about the number of postings, the highest posting amount, and the total amount in local and foreign currencies.  
   
 ### To verify a list of vendors for DTA payments  
   

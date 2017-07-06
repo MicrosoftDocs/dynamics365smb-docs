@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Adjust Exchange Rates | Microsoft Docs
+    description: If you have taxable sales in a foreign currency, you must use the official rate for VAT currency conversion as set by the Federal Tax Administration.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -47,7 +47,7 @@ If you have taxable sales in a foreign currency, you must use the official rate 
     |**Ending Date**|Enter the last date for which entries will be adjusted. This date is typically the same as the posting date in the **Posting Date** field.|  
     |**Adjust VAT exch. rate**|Specify if you want to adjust the VAT exchange rate.|  
   
-7.  Choose the **Print** button to start the batch job. This batch job controls whether VAT entries have to be adjusted and prepares an adjusting entry for each of these entries for the Unrealized\/Realized Exchange Rate Adjustment accounts. The existing VAT entries are also corrected.  
+7.  Choose the **Print** button to start the batch job. This batch job controls whether VAT entries have to be adjusted and prepares an adjusting entry for each of these entries for the Unrealized/Realized Exchange Rate Adjustment accounts. The existing VAT entries are also corrected.  
   
 ## See Also  
  [Swiss Value Added Tax](swiss-value-added-tax.md)   

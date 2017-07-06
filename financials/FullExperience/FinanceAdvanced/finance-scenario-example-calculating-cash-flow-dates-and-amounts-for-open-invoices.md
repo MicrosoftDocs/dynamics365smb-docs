@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Scenario Example: Calculating Cash Flow Dates and Amounts for Open Invoices | Microsoft Docs
+    description: This topic shows how the cash flow forecast dates and amounts are calculated for an open sales invoice.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

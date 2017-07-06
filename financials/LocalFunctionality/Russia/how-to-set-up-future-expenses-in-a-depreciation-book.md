@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Future Expenses in a Depreciation Book | Microsoft Docs
+    description: To depreciate a future expense, you have to set up future period expenses in a depreciation book.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -41,10 +41,10 @@ To depreciate a future expense, you have to set up future period expenses in a d
     |**Allow Depreciation**|Specifies if depreciations are allowed.|  
     |**Allow Indexation**|Specifies if indexation is allowed.|  
     |**Allow Depr. Below Zero**|Specifies if depreciation below zero is allowed.|  
-    |**Allow more than 360\/365 Days**|Specifies if depreciation is allowed for more than 360\/365 days.|  
+    |**Allow more than 360/365 Days**|Specifies if depreciation is allowed for more than 360/365 days.|  
     |**Use FA Ledger Check**|Specifies if fixed asset ledger checks are used.|  
     |**Use Rounding in Periodic Depr.**|Specifies if rounding is used in periodic depreciation calculations.|  
-    |**Use Same FA\+G\/L Posting Date**|Specifies if the same fixed asset general ledger posting date is used.|  
+    |**Use Same FA+G/L Posting Date**|Specifies if the same fixed asset general ledger posting date is used.|  
     |**Fiscal Year 365 Days**|Specifies if the fiscal year equals 365 days.|  
     |**Mark Errors as Corrections**|Specifies if errors are marked as corrections.|  
     |**Control FA Acquis.Cost**|Specifies if fixed asset acquisition costs are controlled.|  
@@ -63,7 +63,7 @@ To depreciate a future expense, you have to set up future period expenses in a d
   
 9. In the **Search** box, enter **Chart of Accounts**, and then choose the related link.  
   
-10. Open the relevant account, and in the **G\/L Account Card** window, on the **Posting** FastTab, fill in the **Gen. Prod. Posting Group** and the **VAT Prod. Posting Group** fields, and then choose the **OK** button.  
+10. Open the relevant account, and in the **G/L Account Card** window, on the **Posting** FastTab, fill in the **Gen. Prod. Posting Group** and the **VAT Prod. Posting Group** fields, and then choose the **OK** button.  
   
 11. In the **Search** box, enter **FA Posting Groups**, and then choose the related link.  
   
@@ -75,5 +75,5 @@ To depreciate a future expense, you have to set up future period expenses in a d
  Fixed Asset Setup   
  [Fixed Assets Accounting Setup](fixed-assets-accounting-setup.md)   
  Fixed Asset Card   
- [Future Expenses \(Deferrals\)](future-expenses-deferrals-.md)   
+ [Future Expenses (Deferrals)](future-expenses-deferrals-.md)   
  [How to: Create Future Expense Journals](how-to-create-future-expense-journals.md)

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Recurring Journal Extension | Microsoft Docs
+    description: The recurring journal extension feature enables you to enter a line for a recurring journal.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

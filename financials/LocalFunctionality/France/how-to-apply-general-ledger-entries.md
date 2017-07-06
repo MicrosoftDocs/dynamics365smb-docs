@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Apply General Ledger Entries | Microsoft Docs
+    description: You apply general ledger entries to justify ledger balances on asset and liability accounts. For example, you can apply transactions on the bill of exchange accounts to get a clear picture of which bills make up the balance of the account.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -24,7 +24,7 @@ You apply general ledger entries to justify ledger balances on asset and liabili
   
 2.  In the **Chart of Accounts** window, select the account that you want to apply entries for, and then on the **Navigate** tab, in the **Account** group, choose **Apply Entries**.  
   
-3.  In the **Apply G\/L Entries** window, select the ledger entries that you want to apply.  
+3.  In the **Apply G/L Entries** window, select the ledger entries that you want to apply.  
   
 4.  On the **Navigate** tab, in the **Process** group, choose **Set Applies-to ID** to populate the Applies-to ID field with the user ID of the current user.  
   

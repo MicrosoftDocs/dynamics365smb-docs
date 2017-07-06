@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: File Non-Euro SEPA Payments | Microsoft Docs
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can file non-euro SEPA payments with the bank. This is useful when you make payments to other countries that do not use SEPA and for currencies other than the euro.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -22,7 +22,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can file non-euro SEPA
   
 -   Set up a new export protocol for a non-euro SEPA. For more information, see Export Protocol.  
   
--   In the **Country\/Region** table, clear the **SEPA Allowed** field for each country that belongs to the EEA zone.  
+-   In the **Country/Region** table, clear the **SEPA Allowed** field for each country that belongs to the EEA zone.  
   
 -   Verify that the **Currency Euro** field in the **General Ledger Setup** table is not in euro currency.  
   

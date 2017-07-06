@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Configure Production Processes | Microsoft Docs
+    description: To convert material into produced end items, production resources, such as machine operators and machinery need to be set up in the system.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Use Tax and Purchase Tax | Microsoft Docs
+    description: Sales tax ../../includes taxes that companies pay for using items:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -18,9 +18,9 @@
 # How to: Set Up Use Tax and Purchase Tax
 Sales tax ../../includes taxes that companies pay for using items:  
   
--   Use tax \(United States\) – Use tax is a United States sales tax that is paid on items that are purchased by a company and are used by that company instead of being sold to a customer. The company must pay sales tax for those items to the government, in the form of use tax.  
+-   Use tax (United States) – Use tax is a United States sales tax that is paid on items that are purchased by a company and are used by that company instead of being sold to a customer. The company must pay sales tax for those items to the government, in the form of use tax.  
   
--   Purchase tax \(Canada\) – Purchase tax is a Canadian sales tax that is paid by a company on items that are purchased from a vendor. When a company purchases items for use by the company itself, the vendor charges the appropriate sales tax for the items.  
+-   Purchase tax (Canada) – Purchase tax is a Canadian sales tax that is paid by a company on items that are purchased from a vendor. When a company purchases items for use by the company itself, the vendor charges the appropriate sales tax for the items.  
   
 ### To set up use tax for a purchase order  
   
@@ -100,7 +100,7 @@ Sales tax ../../includes taxes that companies pay for using items:
   
 2.  In the **Tax Details** window, on the **Home** tab. In the **New** group, choose **New**.  
   
-3.  Select the **Expense\/Capitalize** check box.  
+3.  Select the **Expense/Capitalize** check box.  
   
     > [!NOTE]  
     >  This check box must be selected if the tax paid is not recoverable.  

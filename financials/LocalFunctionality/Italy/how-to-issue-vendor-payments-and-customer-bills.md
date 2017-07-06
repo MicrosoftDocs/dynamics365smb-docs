@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Issue Vendor Payments and Customer Bills | Microsoft Docs
+    description: The vendor and customer bill pay feature supports SEPA-based formats in addition to Italian file formats. You can pay vendors according to the SEPA Credit Transfer standard and collect payment from customers according to the SEPA Direct Debit standard. The following procedure describes the process for sending a SEPA-based payment to a vendor. The steps are similar for collecting payment from a customer.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -22,7 +22,7 @@ The vendor and customer bill pay feature supports SEPA-based formats in addition
   
 -   IBAN  
   
--   SWIFT Code \(optional\)  
+-   SWIFT Code (optional)  
   
 -   Payment Export Format  
   
@@ -54,7 +54,7 @@ The vendor and customer bill pay feature supports SEPA-based formats in addition
   
 10. To export the payment information, on the **Home** tab, in the **Report** group, chose one of the following: **Export Bill List to File**. You can review the xml file that was sent.  
   
-    1.  Export to File \(for standard SEPA format files\)  
+    1.  Export to File (for standard SEPA format files)  
   
     2.  Export Bill List to File  
   

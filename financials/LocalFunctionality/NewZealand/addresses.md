@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Addresses | Microsoft Docs
+    description: A single postal code can include multiple cities in the same region.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -26,7 +26,7 @@ A single postal code can include multiple cities in the same region.
   
  To enable this functionality, you must enter the data into the **Post Code** table. You can do this manually, or you can download a copy of the Australian postal codes from the Australian Post Office website. Downloadable postal codes are not available for New Zealand.  
   
- To increase postal efficiency in Australia, the postal department has introduced an address bar coding system in which every address is assigned a unique identifier called a Delivery Point Identifier \(DPID\). From the DPID, a bar code is generated and printed for each address. Companies can receive discounts on bulk mailings if they use these bar codes. To retrieve a DPID, you must connect to the local postal database that uses authorized Address Matching Approval System \(AMAS\) software. You can reduce your number of postal returns by validating customer addresses using the AMAS database.  
+ To increase postal efficiency in Australia, the postal department has introduced an address bar coding system in which every address is assigned a unique identifier called a Delivery Point Identifier (DPID). From the DPID, a bar code is generated and printed for each address. Companies can receive discounts on bulk mailings if they use these bar codes. To retrieve a DPID, you must connect to the local postal database that uses authorized Address Matching Approval System (AMAS) software. You can reduce your number of postal returns by validating customer addresses using the AMAS database.  
   
  When you print an address that has a DPID, a bar code will be printed together with the address. If you cannot print bar codes, the DPID will be printed together with the address.  
   

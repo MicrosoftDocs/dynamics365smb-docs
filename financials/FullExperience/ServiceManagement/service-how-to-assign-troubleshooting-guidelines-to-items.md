@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Assign Troubleshooting Guidelines to Items | Microsoft Docs
+    description: You can assign troubleshooting guidelines to items to help the technician solve problems or set up a list of questions to ask relating to the specific items. These troubleshooting guidelines also apply to the service items that represent the items unless you have assigned troubleshooting guidelines to them directly.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

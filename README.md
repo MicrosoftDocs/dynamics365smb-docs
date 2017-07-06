@@ -28,9 +28,9 @@ Start contributing to the repo docs using the following steps:
 
 You can build and preview your content in local to discover and fix problems early, before pushing your changes to the GitHub repo:
 
-1. To validate your changes, just run `.\.openpublishing.build.ps1` under the root of the repo.
+1. To validate your changes, just run `..openpublishing.build.ps1` under the root of the repo.
 2. To preview your changes:
-   * Run `.\.openpublishing.build.ps1 -parameters:targets=serve` under the root of the repo.
+   * Run `..openpublishing.build.ps1 -parameters:targets=serve` under the root of the repo.
    * Open `http://localhost:8080` in your browser.
 
 

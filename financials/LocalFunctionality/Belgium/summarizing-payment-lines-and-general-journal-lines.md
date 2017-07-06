@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Summarizing Payment Lines and General Journal Lines | Microsoft Docs
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] handles the following types of transactions in the same way:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -39,7 +39,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] handles the following types
   
 -   Payment journal lines that contain partial payments, with both the **Partial Payment** and the **Separate Line** fields selected.  
   
--   Payment journal lines that contain a standard format message \(that is, passes the MOD97 test\), which sets **Standard Format Message** to True in the electronic banking journal.  
+-   Payment journal lines that contain a standard format message (that is, passes the MOD97 test), which sets **Standard Format Message** to True in the electronic banking journal.  
   
 ## Examples  
   
@@ -60,7 +60,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] handles the following types
 ### Example 3  
  In this example, you export payment lines, and the **Summarize Gen. Jnl. Lines** check box is selected. The **Cut off Payment Message Texts** check box is also selected and combined SEPA and non-SEPA payment lines exceed 140 characters in payment message. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] creates:  
   
--   One combined payment line in a XML file that has two concatenated payment messages. An ellipsis \(…\) is used to indicate that the message is truncated.  
+-   One combined payment line in a XML file that has two concatenated payment messages. An ellipsis (…) is used to indicate that the message is truncated.  
   
 -   One payment line in the general journal with a generic description that ../../includes the vendor name.  
   

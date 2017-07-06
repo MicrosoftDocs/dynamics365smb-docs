@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Assign Users to Profiles | Microsoft Docs
+    description: Be sure that the users you add to a profile have roles (that is, database permissions) that are consistent with the Role Center that is linked with the profile.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Physical Inventory Recording - Counting Physical Inventory | Microsoft Docs
+    description: After you have created a physical inventory order and after you have entered the physical inventory order lines, you can take the physical inventory. Therefore you can use the physical inventory recording documents.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

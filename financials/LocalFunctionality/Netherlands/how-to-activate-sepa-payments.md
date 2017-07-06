@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Activate SEPA Payments | Microsoft Docs
+    description: To submit vendor payments electronically in Single Euro Payments Area (SEPA) ISO 20022 payment format, you must set up prerequisites for enabling SEPA payments.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,13 +16,13 @@
 
 ---
 # How to: Activate SEPA Payments
-To submit vendor payments electronically in Single Euro Payments Area \(SEPA\) ISO 20022 payment format, you must set up prerequisites for enabling SEPA payments.  
+To submit vendor payments electronically in Single Euro Payments Area (SEPA) ISO 20022 payment format, you must set up prerequisites for enabling SEPA payments.  
   
  In the following procedures, the first four describe how to enable SEPA payments, and the remaining two relate to the individual vendors.  
   
-### To enable countries\/regions for SEPA  
+### To enable countries/regions for SEPA  
   
-1.  In the **Search** box, enter **Countries\/Regions**, and then choose the related link.  
+1.  In the **Search** box, enter **Countries/Regions**, and then choose the related link.  
   
 2.  On the **Home** tab, in the **Manage** group, choose **Edit List**.  
   
@@ -36,10 +36,10 @@ To submit vendor payments electronically in Single Euro Payments Area \(SEPA\) I
   
 2.  Select the bank account that you want to enable for SEPA, and then, on the **Home** tab, in the **Manage** group, choose **Edit**.  
   
-3.  On the **General** FastTab, in the **Country\/Region Code** field, select the appropriate code.  
+3.  On the **General** FastTab, in the **Country/Region Code** field, select the appropriate code.  
   
     > [!NOTE]  
-    >  The specified country\/region code must be enabled for SEPA as described in the previous procedure.  
+    >  The specified country/region code must be enabled for SEPA as described in the previous procedure.  
   
 4.  Enter a value in the **Min. Balance** field.  
   
@@ -103,6 +103,6 @@ To submit vendor payments electronically in Single Euro Payments Area \(SEPA\) I
 5.  Choose the **OK** button.  
   
 ## See Also  
- [Single EURO Payments Area \(SEPA\)](single-euro-payments-area-sepa-.md)   
+ [Single EURO Payments Area (SEPA)](single-euro-payments-area-sepa-.md)   
  [How to: Submit Vendor Payments Electronically in SEPA ISO 20022 Payment Format](how-to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format.md)   
  Export Protocols Window

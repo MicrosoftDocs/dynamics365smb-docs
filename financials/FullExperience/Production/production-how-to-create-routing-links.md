@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create Routing Links | Microsoft Docs
+    description: You can create routing links to connect components to specific operations in order to retain their relationship even though the production BOM or routing is modified. It also facilitates just-in-time flushing of components, namely when the specific linked operation starts, not when the complete production order is released. For more information see [How to: Flush Components According to Operation Output](../how-to-flush-components-according-to-operation-output.md).
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

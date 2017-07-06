@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Preview VAT Statements | Microsoft Docs
+    description: After you have defined a VAT statement, you can see a preview of it on the screen.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

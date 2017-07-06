@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Set Up Data Exchange | Microsoft Docs
+    description: Before you can send and receive electronic documents or import and export bank files, you must set up the Data Exchange Framework to process the involved files. In addition, you must set up related areas, such as master data for customers that you send electronic invoices to or the bank data conversion service in case you use the external service provider to convert your bank files. For more information, see [Data Exchange](../data-exchange.md).
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

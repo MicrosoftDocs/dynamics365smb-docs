@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Enter Descriptions of Standard Tasks | Microsoft Docs
+    description: You can enter descriptions of standard tasks.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

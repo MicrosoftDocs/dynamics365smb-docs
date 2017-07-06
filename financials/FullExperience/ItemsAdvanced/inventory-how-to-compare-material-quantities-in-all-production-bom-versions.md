@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Compare Material Quantities in All Production BOM Versions | Microsoft Docs
+    description: The version matrix function offers a comparison of material quantities for each version.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: VAT Ledgers | Microsoft Docs
+    description: The VAT ledger feature enables you to create and print the following forms:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

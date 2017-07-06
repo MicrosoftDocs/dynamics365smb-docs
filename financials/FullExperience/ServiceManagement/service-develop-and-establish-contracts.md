@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Develop and Establish Contracts | Microsoft Docs
+    description: One way to set up a service management business is to have standard contractual agreements between you and your customers that describe the level of service and the service expectations. You can implement such a system by providing a way to easily create contract templates that includes necessary information, such as customer, start date of contract, and invoice period.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

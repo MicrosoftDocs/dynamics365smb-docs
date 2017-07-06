@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Fixed Asset Turnover | Microsoft Docs
+    description: The fixed asset turnover feature enables you to:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -34,9 +34,9 @@ The fixed asset turnover feature enables you to:
   
 -   **FA Sheet** window  
   
--   **FA G\/L Turnover** window  
+-   **FA G/L Turnover** window  
   
--   **Fixed Asset G\/L Turnover** report  
+-   **Fixed Asset G/L Turnover** report  
   
 ## Fixed Asset Turnover Report  
  The **FA Turnover** report shows the fixed asset turnover. Use the report to view information such as the fixed asset name, quantity, status, depreciation dates, and amounts. The report can be used as documentation for the correction of quantities or for auditing.  
@@ -54,12 +54,12 @@ The fixed asset turnover feature enables you to:
  For more information, see FA Sheet.  
   
 ## Fixed Asset General Ledger Turnover Window  
- The **FA G\/L Turnover** window shows financial turnover as a result of fixed asset posting. General ledger entries are the basis for amounts shown in the window. You can define what is shown in the window by setting filters.  
+ The **FA G/L Turnover** window shows financial turnover as a result of fixed asset posting. General ledger entries are the basis for amounts shown in the window. You can define what is shown in the window by setting filters.  
   
  For more information, see FA G-L Turnover.  
   
 ## Fixed Asset General Ledger Turnover Report  
- The **Fixed Asset G\/L Turnover** report is similar to the **FA G\/L Turnover** window, but it is in a printing layout, and has differences in the options and in the information and fields that can be shown in the layout. You can define what is included in the report by setting filters.  
+ The **Fixed Asset G/L Turnover** report is similar to the **FA G/L Turnover** window, but it is in a printing layout, and has differences in the options and in the information and fields that can be shown in the layout. You can define what is included in the report by setting filters.  
   
  For more information, see Fixed Asset G-L Turnover.  
   

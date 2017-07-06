@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Access an Overview of a Specific Employee’s Absence | Microsoft Docs
+    description: You can get an overview of an individual employee’s absences.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Electronic Submission of Sales VAT Advance Notifications to ELSTER | Microsoft Docs
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can electronically submit tax documents and VAT statements, such as the sales VAT advance notification, to the tax authorities.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -19,7 +19,7 @@
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can electronically submit tax documents and VAT statements, such as the sales VAT advance notification, to the tax authorities.  
   
 ## Sales VAT Advance Notifications  
- [!INCLUDE[d365fin](../../includes/d365fin_md.md)] creates an XML document containing tax and base amounts, along with company information. You can validate the data before submitting it to the tax authorities. You can set up the XML document using the layout that is defined in the tax authorities' style sheet. You can then transmit the XML document to the tax authorities' Elektronische Steuererklärungen \(ELSTER\) online portal interface.  
+ [!INCLUDE[d365fin](../../includes/d365fin_md.md)] creates an XML document containing tax and base amounts, along with company information. You can validate the data before submitting it to the tax authorities. You can set up the XML document using the layout that is defined in the tax authorities' style sheet. You can then transmit the XML document to the tax authorities' Elektronische Steuererklärungen (ELSTER) online portal interface.  
   
  You must first set up ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-create-and-submit-sales-vat-advance-notifications.md).  
   

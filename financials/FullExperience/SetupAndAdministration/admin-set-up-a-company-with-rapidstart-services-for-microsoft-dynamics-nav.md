@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Set Up a Company With RapidStart Services for Microsoft Dynamics NAV | Microsoft Docs
+    description: You can set up a new company in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/rim_md.md)]--> is a tool designed to shorten deployment times, improve quality of implementation, introduce a repeatable approach to implementations, and enhance productivity by automating and simplifying recurring tasks.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

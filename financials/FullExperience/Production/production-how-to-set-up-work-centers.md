@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Work Centers | Microsoft Docs
+    description: A **Work Center** card organizes the fixed values and requirements of the production resource, and thus governs the output of production performed in that work center.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

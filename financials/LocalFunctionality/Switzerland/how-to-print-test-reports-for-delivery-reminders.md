@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Print Test Reports for Delivery Reminders | Microsoft Docs
+    description: After you have created delivery reminders and made any needed modifications, you can either print the test reports or issue the delivery reminders.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

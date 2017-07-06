@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create Remittance Suggestions | Microsoft Docs
+    description: You can create a remittance suggestion so that payment proposals are sent to vendors who are set up to receive remittance payments. One payment transaction per posting date for each vendor is transferred to the bank.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -34,11 +34,11 @@ You can create a remittance suggestion so that payment proposals are sent to ven
     |**Last Payment Date**|Specify the last payment date.|  
     |**Find Payment Discounts**|Select if you want to search for entries where a payment discount is available.|  
     |**Use Vendor Priority**|Select if the vendor priority should be used to search entries.|  
-    |**Available Amount \(LCY\)**|Specify the payments for total amounts that are less than or equal to the given amount.|  
+    |**Available Amount (LCY)**|Specify the payments for total amounts that are less than or equal to the given amount.|  
     |**Posting Date**|Specify a posting date.|  
     |**Replace Posting Date with Due Date**|Select to insert the due date of the entry as the posting date for the payments.|  
-    |**Test Document Type**|Specify which of the following document types should be tested for payment:<br /><br /> -   **All** - All document types are tested.<br />-   **Invoice\/Credit memo** - Only invoice or credit memo entries are tested.|  
-    |**Invoice\/Debit Vendor Ledger Entries only**|Select to pay only invoice or debit entries.|  
+    |**Test Document Type**|Specify which of the following document types should be tested for payment:<br /><br /> -   **All** - All document types are tested.<br />-   **Invoice/Credit memo** - Only invoice or credit memo entries are tested.|  
+    |**Invoice/Debit Vendor Ledger Entries only**|Select to pay only invoice or debit entries.|  
   
 4.  Choose the **OK** button.  
   

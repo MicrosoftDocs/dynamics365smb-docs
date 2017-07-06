@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Obligatory Sales Reports | Microsoft Docs
+    description: The obligatory sales reports feature enables you to print the following reports:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -44,8 +44,8 @@ The obligatory sales reports feature enables you to print the following reports:
   
 |Report|Description|  
 |---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Obligatory Sales Reports | Microsoft Docs
+    description: The obligatory sales reports feature enables you to print the following reports:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -61,10 +61,10 @@ The obligatory sales reports feature enables you to print the following reports:
 
 ------------|-----------------|  
 |Order Factura-Invoice report|Printed in portrait form from sales documents that are not yet posted.|  
-|Order Factura-Invoice \(A\) report|Printed in portrait form from sales documents that are not yet posted.|  
+|Order Factura-Invoice (A) report|Printed in portrait form from sales documents that are not yet posted.|  
 |Posted Factura-Invoice report|Printed in portrait form from posted sales documents that are not yet posted.|  
-|Posted Factura-Invoice \(A\) report|Printed in landscape form from posted sales documents that are not yet posted.|  
-|Posted Credit Memo Factura-Invoice report|Printed from posted credit memos \(portrait\).|  
+|Posted Factura-Invoice (A) report|Printed in landscape form from posted sales documents that are not yet posted.|  
+|Posted Credit Memo Factura-Invoice report|Printed from posted credit memos (portrait).|  
   
 ## Act Performed Work Report  
  The Act Performed Work report documents the completion of services.  

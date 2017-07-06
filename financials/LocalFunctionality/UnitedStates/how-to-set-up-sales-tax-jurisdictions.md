@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Sales Tax Jurisdictions | Microsoft Docs
+    description: In the United States, states, counties, cities, and localities can charge sales tax.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -24,7 +24,7 @@ In the United States, states, counties, cities, and localities can charge sales 
   
  Tax amounts must be detailed in documents for each tax jurisdiction in Canada. Up to four jurisdictions can be displayed in a document, and jurisdictions that have the same print order are combined when they are printed.  
   
- Each tax area is a grouping of sales tax jurisdictions based on a particular geographic location. For example, the Miami, Florida, tax area ../../includes three sales tax jurisdictions: city \(Miami\), county \(Dade\), and state \(Florida\).  
+ Each tax area is a grouping of sales tax jurisdictions based on a particular geographic location. For example, the Miami, Florida, tax area ../../includes three sales tax jurisdictions: city (Miami), county (Dade), and state (Florida).  
   
 ### To set up sales tax jurisdictions  
   
@@ -38,11 +38,11 @@ In the United States, states, counties, cities, and localities can charge sales 
     |---------------------------------|---------------------------------------|  
     |**Code**|The code that you want to assign to the tax jurisdiction. You can enter up to 10 alphanumeric characters.|  
     |**Description**|A description of the tax jurisdiction.|  
-    |**Tax Account \(Sales\)**|The general ledger account that you want to use to post calculated tax on sales transactions.|  
-    |**Tax Account \(Purchases\)**|The general ledger account that you want to use to post calculated tax on purchase transactions.|  
-    |**Reverse Charge \(Purchases\)**|The general ledger account that you want to use to post calculated reverse-charge tax on purchase transactions.|  
+    |**Tax Account (Sales)**|The general ledger account that you want to use to post calculated tax on sales transactions.|  
+    |**Tax Account (Purchases)**|The general ledger account that you want to use to post calculated tax on purchase transactions.|  
+    |**Reverse Charge (Purchases)**|The general ledger account that you want to use to post calculated reverse-charge tax on purchase transactions.|  
     |**Report-to Jurisdiction**|The tax jurisdiction that you want to associate with the jurisdiction that you are setting up.|  
-    |**Country**|The country\/region used for the sales tax calculation.|  
+    |**Country**|The country/region used for the sales tax calculation.|  
     |**Calculate Tax on Tax**|Select to calculate additional sales tax for the current jurisdiction. This tax is on top of the sales tax that has already been charged for previous jurisdictions. This is calculated based on the principle of tax on tax. **Important:**  This field is available in the **Tax Jurisdiction** window, but it is not shown by default. To select the field, you must first add the column that shows this field. [!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]|  
     |**Print Description**|The description that prints on documents in place of the jurisdiction description. **Important:**  This field is available in the **Tax Jurisdiction** window, but it is not shown by default. To select the field, you must first add the column that shows this field. [!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]|  
     |**Print Order**|The order in which the jurisdictions are printed. **Important:**  This field is available in the **Tax Jurisdiction** window, but it is not shown by default. To select the field, you must first add the column that shows this field. [!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]|  
@@ -61,7 +61,7 @@ In the United States, states, counties, cities, and localities can charge sales 
     |---------------------------------|---------------------------------------|  
     |**Code**|The code that you want to assign to the tax area.|  
     |**Description**|The description for the tax area.|  
-    |**Country**|The country\/region used for the sales tax calculation.|  
+    |**Country**|The country/region used for the sales tax calculation.|  
     |**Round Tax**|The rounding amount used for the tax.|  
     |**Use External Tax Engine**|Select to indicate that an external sales tax engine is to be used when this tax area code is used.|  
   

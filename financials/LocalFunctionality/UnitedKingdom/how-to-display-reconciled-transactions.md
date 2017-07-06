@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Display Reconciled Transactions | Microsoft Docs
+    description: You can identify whether items are reconciled in the **Bank Account Reconciliations** window. You can also view the total value of all reconciled transactions.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

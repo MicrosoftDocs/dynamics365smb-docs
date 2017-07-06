@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Fiscally Close Years | Microsoft Docs
+    description: When a fiscal year is complete, you must fiscally close the periods that it comprises to make sure that no more general ledger entries can be posted.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

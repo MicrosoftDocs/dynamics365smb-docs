@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Define an Account Schedule Constant | Microsoft Docs
+    description: [!INCLUDE[d365fin](../../includes/d365fin_md.md)] enables you to define a constant for an account schedule line. Constants are useful if an account schedule value does not change.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -31,7 +31,7 @@
 ## See Also  
  Account Schedule Names   
  Account Schedule   
- [Account Schedule](\($%20R_25%20Account%20Schedule%20$\).md)   
+ [Account Schedule](($%20R_25%20Account%20Schedule%20$).md)   
  Acc. Schedule Name   
  [How to: Create New Account Schedules](how-to-create-new-account-schedules.md)   
  [Create and Set Up Account Schedules](create-and-set-up-account-schedules.md)   

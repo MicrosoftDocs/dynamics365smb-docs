@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Set Up Loaner Program | Microsoft Docs
+    description: Sometimes you must provide a customer a loaner item for use when your customer service team makes a repair. Using [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can set up a loaner program, loan your customers items, and track the receipt of the items back.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

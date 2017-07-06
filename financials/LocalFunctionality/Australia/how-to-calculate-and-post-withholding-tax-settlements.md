@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Calculate and Post Withholding Tax Settlements | Microsoft Docs
+    description: You can use the **Calc. and Post WHT Settlement** window to calculate and post the withholding tax (WHT).
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # How to: Calculate and Post Withholding Tax Settlements
-You can use the **Calc. and Post WHT Settlement** window to calculate and post the withholding tax \(WHT\).  
+You can use the **Calc. and Post WHT Settlement** window to calculate and post the withholding tax (WHT).  
   
  You can close WHT entries that are open or not settled and transfer the corresponding amount to the WHT settlement account.  
   
@@ -40,7 +40,7 @@ You can use the **Calc. and Post WHT Settlement** window to calculate and post t
     |**Description**|The WHT settlement description.|  
     |**Settlement Account Type**|The settlement account type.|  
     |**Settlement Account**|The account number based on the account type selected in the **Settlement Account Type** field.|  
-    |**Rounding G\/L Account**|The account to which the truncated amount is to be posted.|  
+    |**Rounding G/L Account**|The account to which the truncated amount is to be posted.|  
     |**Show WHT Entries**|Select to view the withholding tax entries for the specified period.|  
     |**Post**|Select to post the WHT settlement entries.|  
   

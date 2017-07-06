@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: View Balances for All General Ledger Accounts by Periods | Microsoft Docs
+    description: You can view balances for all general ledger accounts for all periods.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

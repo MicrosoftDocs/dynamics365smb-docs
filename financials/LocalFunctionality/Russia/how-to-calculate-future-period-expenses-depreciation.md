@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Calculate Future Period Expenses Depreciation | Microsoft Docs
+    description: The following procedure shows how to calculate future period expenses depreciation.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -26,13 +26,13 @@ The following procedure shows how to calculate future period expenses depreciati
   
 3.  Choose the **OK** button.  
   
-4.  In the **Search** box, enter **FA G\/L Journals**, and then choose the related link.  
+4.  In the **Search** box, enter **FA G/L Journals**, and then choose the related link.  
   
 5.  Post the created lines with the calculated depreciation amounts.  
   
 ## See Also  
  [How to: Set Up a Future Expense Card](how-to-set-up-a-future-expense-card.md)   
- [Future Expenses \(Deferrals\)](future-expenses-deferrals-.md)   
+ [Future Expenses (Deferrals)](future-expenses-deferrals-.md)   
  [How to: Create Future Expense Journals](how-to-create-future-expense-journals.md)   
  [How to: Set Up Future Expenses in a Depreciation Book](how-to-set-up-future-expenses-in-a-depreciation-book.md)   
  [How to: Create and Post a Purchase Invoice on a Future Expense](how-to-create-and-post-a-purchase-invoice-on-a-future-expense.md)

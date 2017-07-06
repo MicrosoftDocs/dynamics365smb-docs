@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Print Routing Sheet Reports | Microsoft Docs
+    description: The structure of the routing can be shown by printing the following report.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

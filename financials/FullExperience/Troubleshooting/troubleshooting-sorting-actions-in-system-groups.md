@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Troubleshooting: Sorting Actions in System Groups | Microsoft Docs
+    description: In the Microsoft Dynamics NAV Windows client, you cannot order actions in system groups in the **Home** tab.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

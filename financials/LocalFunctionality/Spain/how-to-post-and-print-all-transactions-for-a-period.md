@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Post and Print All Transactions for a Period | Microsoft Docs
+    description: Companies must submit their business transaction entries, grouped by transaction numbers, in an annual report to tax authorities. Every general ledger transaction must have a sequential number for the fiscal year. Posting transactions will assign transaction numbers to general ledger entries.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -37,7 +37,7 @@ Companies must submit their business transaction entries, grouped by transaction
   
 ### To print all transactions for a period  
   
-1.  In the **Search** box, enter **G\/L Registers**, and then choose the related link.  
+1.  In the **Search** box, enter **G/L Registers**, and then choose the related link.  
   
 2.  To set the **Period Trans. No.** field for all of the general ledger entries in the period in a sequential order, on the **Actions** tab, in the **Functions** group, choose **Set Period Transaction No.**.  
   
@@ -48,7 +48,7 @@ Companies must submit their business transaction entries, grouped by transaction
     > [!NOTE]  
     >  All transactions are ordered by posting date, and a sequential number is assigned to each entry in the **Period Trans. No.** field.  
   
-5.  In the **G\/L Registers** window, on the **Actions** tab, choose **Print Page**.  
+5.  In the **G/L Registers** window, on the **Actions** tab, choose **Print Page**.  
   
 ## See Also  
  [Transaction Numbers](transaction-numbers.md)

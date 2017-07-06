@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Export Intrastat Third-Party Declararations | Microsoft Docs
+    description: In Belgium, you must have a third-party declarant fill out the Intrastat declaration. The third-party declarant must be an external person or company.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -28,8 +28,8 @@ In Belgium, you must have a third-party declarant fill out the Intrastat declara
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Nihil declaration**|Select if you do not have any trade transactions with European Union \(EU\) countries\/regions and want to send an empty declaration.|  
-    |**Enterprise No.\/VAT Reg. No.**|Enter the enterprise or VAT registration number.|  
+    |**Nihil declaration**|Select if you do not have any trade transactions with European Union (EU) countries/regions and want to send an empty declaration.|  
+    |**Enterprise No./VAT Reg. No.**|Enter the enterprise or VAT registration number.|  
     |**Directory**|Enter the directory which the file will be saved to.|  
   
 4.  Choose the **OK** button.  

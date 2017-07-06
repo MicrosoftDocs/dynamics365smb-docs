@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Belgian Electronic Banking | Microsoft Docs
+    description: Electronic banking allows you to electronically exchange data with Belgian financial institutions. Data can be exchanged either on disk, by modem, or via Interbanks Standards Association Belgium (Isabel). This way you can benefit from a faster processing time and avoid errors caused by manual data entry or processing.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # Belgian Electronic Banking
-Electronic banking allows you to electronically exchange data with Belgian financial institutions. Data can be exchanged either on disk, by modem, or via Interbanks Standards Association Belgium \(Isabel\). This way you can benefit from a faster processing time and avoid errors caused by manual data entry or processing.  
+Electronic banking allows you to electronically exchange data with Belgian financial institutions. Data can be exchanged either on disk, by modem, or via Interbanks Standards Association Belgium (Isabel). This way you can benefit from a faster processing time and avoid errors caused by manual data entry or processing.  
   
  In ADD INCLUDE<!--[!INCLUDE[nav_current_short](../../includes/nav_current_short_md.md)]-->, you can use electronic banking to perform the following functions:  
   

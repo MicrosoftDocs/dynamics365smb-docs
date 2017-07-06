@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Use Permanent Invoicing Addresses for Vendors | Microsoft Docs
+    description: When you purchase goods, you usually receive the invoice from the person or company that you ordered the goods from. But at times, you may receive the invoice from a different vendor. If you need to register invoices that are received from an alternative vendor, you can set up a pay-to vendor permanently on a vendor card.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

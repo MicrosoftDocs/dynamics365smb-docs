@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Customize the Navigation Pane | Microsoft Docs
+    description: You can customize the navigation pane with the **Customize Navigation Pane** window.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

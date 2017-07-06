@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up and Close Income Statement Balances | Microsoft Docs
+    description: You can use income statement balancing accounts to balance and track several accounts at the same time. The **Close Income Statement** batch job transfers income statement accounts to an account in the balance sheet, and closes the income statement accounts. When the **Close Income Statement** batch job is run, the entries are automatically posted.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -25,7 +25,7 @@ You can use income statement balancing accounts to balance and track several acc
   
 1.  In the **Search** box, enter **Chart of Accounts**, and then choose the related link.  
   
-2.  Select an existing general ledger account. On the **Home** tab, choose **Edit** to open the **G\/L Account Card** window.  
+2.  Select an existing general ledger account. On the **Home** tab, choose **Edit** to open the **G/L Account Card** window.  
   
 3.  Expand the **General** FastTab.  
   

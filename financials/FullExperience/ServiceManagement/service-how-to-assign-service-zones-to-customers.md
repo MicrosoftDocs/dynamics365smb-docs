@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Assign Service Zones to Customers | Microsoft Docs
+    description: You can assign service zones to customers in the **Customer Card** window. When you allocate a resource, for example, a technician, to a service task that is to be performed at the customer site, you can then select a resource that is assigned to the same service zone as the customer.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

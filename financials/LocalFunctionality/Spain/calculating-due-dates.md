@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Calculating Due Dates | Microsoft Docs
+    description: In Spain, there is a legal limit for the number of days that a payment can be delayed. You must submit an annual report of purchases and sales for payments that were made before or after the due date. The legal requirements depend on whether the customer is a private company or a public administration. For more information, see the official declaration [BOE-A-2010-10708](http://go.microsoft.com/fwlink/?LinkId=224630) on the Boletín Oficial del Estado website.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -23,7 +23,7 @@ In Spain, there is a legal limit for the number of days that a payment can be de
   
 |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tablefield_md.md)]-->|Public sector|Private company|  
 |---------------------------------|-------------------|---------------------|  
-|**Code**|**1M\(8D\) PUB**|**1M\(8D\) PRI**|  
+|**Code**|**1M(8D) PUB**|**1M(8D) PRI**|  
 |**Due Date Calculation**|**1M**|**1M**|  
 |**Max. No. of Days till Due Date**|**30**|**60**|  
   
@@ -57,13 +57,13 @@ In Spain, there is a legal limit for the number of days that a payment can be de
   
 -   Amount  
   
--   Amount in the local reporting currency \(LCY\)  
+-   Amount in the local reporting currency (LCY)  
   
  Each section has a summary section with the following information.  
   
 |Information|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
 |-----------------|---------------------------------------|  
-|Weighted average term exceeded|This formula is calculated based on the number of posted payments for the specified period, the number of days that payments were delayed, and the paid amount in \(LCY\). For more information, see the official declaration [BOE-A-2010-10708](http://go.microsoft.com/fwlink/?LinkId=224630) on the Boletín Oficial del Estado website.|  
+|Weighted average term exceeded|This formula is calculated based on the number of posted payments for the specified period, the number of days that payments were delayed, and the paid amount in (LCY). For more information, see the official declaration [BOE-A-2010-10708](http://go.microsoft.com/fwlink/?LinkId=224630) on the Boletín Oficial del Estado website.|  
 |Payments within the legal limit|The amounts in LCY and the percentage of the total payments that were made before the maximum allowed due date for each transaction.|  
 |Payments outside the legal limit|The amounts in LCY and the percentage of the total payments that were made after the maximum allowed due date for each transaction.|  
   

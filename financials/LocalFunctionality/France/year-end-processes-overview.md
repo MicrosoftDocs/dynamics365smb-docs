@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Year End Processes Overview | Microsoft Docs
+    description: Year end closing in Microsoft Dynamics NAV involves three steps:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -28,7 +28,7 @@ Year end closing in Microsoft Dynamics NAV involves three steps:
   
  According to the French law *NF Logiciel compatibilité informatisée* the system has to refuse the creation of a third open fiscal year, so only two open fiscal years are allowed at the same time.  
   
- So in time you are required to close a year. You also do not have to worry about losing details of transactions when you close because all details are retained, even after you \(fiscally\) close the year.  
+ So in time you are required to close a year. You also do not have to worry about losing details of transactions when you close because all details are retained, even after you (fiscally) close the year.  
   
  When you close at the end of the year, the system moves your earnings from calculated earnings, or the Current Earnings account, to a posted account, or the Retained Earnings account. The system also marks the fiscal year as "closed," and marks all subsequent entries for the closed year as "prior year entries."  
   

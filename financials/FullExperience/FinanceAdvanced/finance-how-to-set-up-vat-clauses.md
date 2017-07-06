@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up VAT Clauses | Microsoft Docs
+    description: You set up a VAT clause to describe information about the type of VAT that is being applied. The information may be required by government regulation. After you set up a VAT clause, and associate it with a VAT posting setup, the VAT clause is displayed on all printed sales documents which have that VAT posting setup group, such as a sales invoice.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Payment Scenario 2 - Foreign Payment (FCY to FCY) | Microsoft Docs
+    description: You can use telebanking for trade with domestic and foreign customers and vendors. This topic describes a scenario where the trade is with foreign customers and vendor that use the same foreign currency as your bank account is set up to use.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -20,9 +20,9 @@ You can use telebanking for trade with domestic and foreign customers and vendor
   
  The following list describes the main steps:  
   
-1.  Create Vendor\/Customer.  
+1.  Create Vendor/Customer.  
   
-2.  Create Vendor\/Customer Bank Account.  
+2.  Create Vendor/Customer Bank Account.  
   
 3.  Create and Post Purchase Invoice for Vendor or Sales Invoice for Customer.  
   
@@ -35,45 +35,45 @@ You can use telebanking for trade with domestic and foreign customers and vendor
 7.  Import Bank Statement.  
   
 > [!NOTE]  
->  In the examples below some standard CRONUS data is being used. Likewise instead of creating a vendor\/customer and a vendor\/customer bank account you could use existing data.  
+>  In the examples below some standard CRONUS data is being used. Likewise instead of creating a vendor/customer and a vendor/customer bank account you could use existing data.  
   
-## Create Vendor\/Customer  
- Create vendor\/customer and enter all necessary information. Special attention should be paid to:  
+## Create Vendor/Customer  
+ Create vendor/customer and enter all necessary information. Special attention should be paid to:  
   
--   **Currency Code**: set it to the foreign currency \(FCY\).  
+-   **Currency Code**: set it to the foreign currency (FCY).  
   
 -   **Transaction Mode**: select an appropriate, default transaction mode - i.e. one that can deal with foreign currency payments for your foreign bank.  
   
--   **Preferred Bank Account**: select an appropriate, default vendor\/customer bank account having the same Currency Code as the vendor\/customer itself.  
+-   **Preferred Bank Account**: select an appropriate, default vendor/customer bank account having the same Currency Code as the vendor/customer itself.  
   
 > [!NOTE]  
->  In order to be able to enter a bank account in the **Bank Account** vendor\/customer bank accounts must be available. See below.  
+>  In order to be able to enter a bank account in the **Bank Account** vendor/customer bank accounts must be available. See below.  
   
 ### Example  
- Jannet Carter \(code *JANNET*\) is one of our US vendors. Purchase invoices will be paid through our foreign bank account \(code *ABN-USD*\) to her bank account \(code *JCBA*\). Both bank account ABN-USD and JCBA are denominated in the same foreign currency \(FCY\) - i.e. USD. Therefore on Jannet Carter's Vendor Card we set the *Currency Code* field to *USD*, fill the *Transaction Mode* field with *ABN-USD* that is linked to our bank account *ABN-USD* and set the *Bank Account* field to *JCBA*.  
+ Jannet Carter (code *JANNET*) is one of our US vendors. Purchase invoices will be paid through our foreign bank account (code *ABN-USD*) to her bank account (code *JCBA*). Both bank account ABN-USD and JCBA are denominated in the same foreign currency (FCY) - i.e. USD. Therefore on Jannet Carter's Vendor Card we set the *Currency Code* field to *USD*, fill the *Transaction Mode* field with *ABN-USD* that is linked to our bank account *ABN-USD* and set the *Bank Account* field to *JCBA*.  
   
-## Create Vendor\/Customer Bank Account  
- Create vendor\/customer bank account and enter all necessary information. Special attention should be paid to:  
+## Create Vendor/Customer Bank Account  
+ Create vendor/customer bank account and enter all necessary information. Special attention should be paid to:  
   
 -   **Preferred Bank Account**: enter a valid bank account number.  
   
--   **Currency Code**: set it to the foreign currency \(FCY\).  
+-   **Currency Code**: set it to the foreign currency (FCY).  
   
 -   **Owner Information**:be sure all owner information has been entered.  
   
 ### Example  
- Jannet Carter's bank account \(code *JCBA*\) is denominated in foreign currency \(FCY\) - i.e. USD. Therefore on Jannet Carter's Vendor Bank Account Card we enter a valid number in the *Bank Account No.* field *,* set the *Currency Code* field to *USD* and fill the fields on the Owner Information tab with appropriate values.  
+ Jannet Carter's bank account (code *JCBA*) is denominated in foreign currency (FCY) - i.e. USD. Therefore on Jannet Carter's Vendor Bank Account Card we enter a valid number in the *Bank Account No.* field *,* set the *Currency Code* field to *USD* and fill the fields on the Owner Information tab with appropriate values.  
   
 ## Create and Post Purchase Invoice for Vendor or Sales Invoice for Customer  
- Create a purchase\/sales invoice and enter all necessary information. Special attention should be paid to:  
+ Create a purchase/sales invoice and enter all necessary information. Special attention should be paid to:  
   
--   **Currency Code**: set it to the foreign currency \(FCY\).  
+-   **Currency Code**: set it to the foreign currency (FCY).  
   
 -   **Transaction Mode**: select an appropriate, default transaction mode - i.e. one that can deal with foreign currency payments for your foreign bank.  
   
--   **Preferred Bank Account**: select an appropriate, default vendor\/customer bank account having the same Currency Code is the vendor\/customer itself.  
+-   **Preferred Bank Account**: select an appropriate, default vendor/customer bank account having the same Currency Code is the vendor/customer itself.  
   
- By default these three fields will be populated with values taken from the vendor\/customer card.  
+ By default these three fields will be populated with values taken from the vendor/customer card.  
   
  When the invoice is finished it can be posted.  
   

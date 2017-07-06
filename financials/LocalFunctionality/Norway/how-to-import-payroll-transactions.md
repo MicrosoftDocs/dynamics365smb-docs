@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Import Payroll Transactions | Microsoft Docs
+    description: You can import payroll transactions into a general journal from two external payroll solutions: Huldt & Lillevik and Hogia. You can then use the general journal to post the imported payroll transactions to general ledger accounts or bank accounts. To import payroll transactions, you must first set up payroll integration.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -32,7 +32,7 @@ You can import payroll transactions into a general journal from two external pay
     |**Import Department and Project**|Select to import department and project information.|  
     |**Journal Template Name**|Select the name of the journal template.|  
     |**Journal Name**|Select a journal to receive the imported payroll transactions.|  
-    |**Post to**|Select the account type to post the payroll transactions to. Account types include **G\/L Account** and **Bank Account**.|  
+    |**Post to**|Select the account type to post the payroll transactions to. Account types include **G/L Account** and **Bank Account**.|  
   
 3.  Choose the **OK** button.  
   

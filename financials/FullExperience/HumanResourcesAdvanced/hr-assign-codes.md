@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Assign Codes | Microsoft Docs
+    description: In the Human Resources feature, you can assign various codes to your employees. Assigning codes enables you to quickly filter all the employees to view or report specific information. You can also search all employees for specific criteria. For example, if your company has a project to complete in France, you could determine which employees are fluent in French.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

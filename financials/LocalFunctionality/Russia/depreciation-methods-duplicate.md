@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Depreciation Methods | Microsoft Docs
+    description: There are three depreciation methods that are unique to Russia that can be used in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -18,16 +18,16 @@
 # Depreciation Methods
 There are three depreciation methods that are unique to Russia that can be used in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
   
--   Straight-line method **\(SL-RU\)**  
+-   Straight-line method **(SL-RU)**  
   
--   Non-linear method **\(DB\/SL-RU\)**  
+-   Non-linear method **(DB/SL-RU)**  
   
--   Non-linear method for a group of fixed assets **\(DB\/SL-RU Tax Group\)**  
+-   Non-linear method for a group of fixed assets **(DB/SL-RU Tax Group)**  
   
 ## Straight-line Method  
- To use this method, select the **\(SL-RU\)** option in the appropriate fixed asset depreciation book.  
+ To use this method, select the **(SL-RU)** option in the appropriate fixed asset depreciation book.  
   
- The main calculation formula for the straight-line method is K \= 1\/N \* 100%, where K is the monthly rate of depreciation, and N is the number of depreciation in months. The straight line method works as follows:  
+ The main calculation formula for the straight-line method is K = 1/N * 100%, where K is the monthly rate of depreciation, and N is the number of depreciation in months. The straight line method works as follows:  
   
 -   The calculation of depreciation is based on the month’s principle, and every depreciation month has 30 days. These parameters are automatically set up during calculation of depreciation.  
   
@@ -38,18 +38,18 @@ There are three depreciation methods that are unique to Russia that can be used 
 -   During depreciation calculation, the depreciation of the previous month will be checked to see if it has been posted for the particular fixed asset. This feature enables you to avoid skipping depreciation periods.  
   
 ## Non-linear Method  
- To use this method, select the **\(DB\/SL-RU\)** option in the appropriate fixed asset depreciation book.  
+ To use this method, select the **(DB/SL-RU)** option in the appropriate fixed asset depreciation book.  
   
  The calculation for the non-linear method consists of two formulas—one for the start of the depreciation and another for the end of the depreciation.  
   
- The formula for the non-linear method is K \= 2\/N \* 100%, where K is the monthly rate of depreciation, and N is the number of depreciation months. The constant in this formula, 2, is fixed in the code and should not be set up manually.  
+ The formula for the non-linear method is K = 2/N * 100%, where K is the monthly rate of depreciation, and N is the number of depreciation months. The constant in this formula, 2, is fixed in the code and should not be set up manually.  
   
  When the book value of the fixed asset becomes equal to or less than 20 percent of the acquisition cost, the monthly depreciation will be calculated differently. From this point on, the straight line formula is used to calculate depreciation until the fixed asset is fully depreciated.  
   
  The constant of the acquisition cost, 20 percent, is fixed in the code and should not be set up manually.  
   
 ## Non-linear Method for a Group of Fixed Assets  
- To use this method, select the **\(DB\/SL-RU Tax Group\)** option in the appropriate fixed asset depreciation book.  
+ To use this method, select the **(DB/SL-RU Tax Group)** option in the appropriate fixed asset depreciation book.  
   
  The non-linear depreciation method can be applied to groups of fixed assets using the depreciation groups set up in the **Depreciation Group** window. Each depreciation group should have a defined **Tax Depreciation Rate** and a **Depreciation Factor** with a value of **1**.  
   

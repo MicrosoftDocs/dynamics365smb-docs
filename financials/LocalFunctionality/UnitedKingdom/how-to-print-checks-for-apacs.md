@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Print Checks for APACS | Microsoft Docs
+    description: The Association for Payment Clearing Services (APACS) specification defines a standard layout for fields on checks. The **Check** report uses this specification.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # How to: Print Checks for APACS
-The Association for Payment Clearing Services \(APACS\) specification defines a standard layout for fields on checks. The **Check** report uses this specification.  
+The Association for Payment Clearing Services (APACS) specification defines a standard layout for fields on checks. The **Check** report uses this specification.  
   
 ### To print checks for APACS  
   
@@ -40,6 +40,6 @@ The Association for Payment Clearing Services \(APACS\) specification defines a 
 5.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
 ## See Also  
- [Check](\($%20R_1401%20Check%20$\).md)   
+ [Check](($%20R_1401%20Check%20$).md)   
  Payment Journal   
  [United Kingdom Local Functionality](united-kingdom-local-functionality.md)

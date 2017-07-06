@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Multiple Contracts | Microsoft Docs
+    description: Depending on your service level agreements with a customer, you may have to handle a service item under more than one service contract.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

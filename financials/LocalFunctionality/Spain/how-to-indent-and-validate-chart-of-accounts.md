@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Indent and Validate Chart of Accounts | Microsoft Docs
+    description: You can indent and validate the chart of accounts in the **G/L Account Card** window. You can enter a maximum of 20 numbers. Accounts are sorted in string order, as shown in the following example.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # How to: Indent and Validate Chart of Accounts
-You can indent and validate the chart of accounts in the **G\/L Account Card** window. You can enter a maximum of 20 numbers. Accounts are sorted in string order, as shown in the following example.  
+You can indent and validate the chart of accounts in the **G/L Account Card** window. You can enter a maximum of 20 numbers. Accounts are sorted in string order, as shown in the following example.  
   
  1  
   
@@ -38,7 +38,7 @@ You can indent and validate the chart of accounts in the **G\/L Account Card** w
   
 1.  In the **Search** box, enter **Chart of Accounts**, and then choose the related link.  
   
-2.  To open the **G\/L Account Card** window, choose **New**.  
+2.  To open the **G/L Account Card** window, choose **New**.  
   
 3.  On the **General** FastTab, in the **No.** field, enter the number of the general ledger account that you are setting up.  
   
@@ -51,7 +51,7 @@ You can indent and validate the chart of accounts in the **G\/L Account Card** w
   
 6.  Enter information into the other relevant fields.  
   
-7.  Choose the **OK** button to close the **G\/L Account Card** window.  
+7.  Choose the **OK** button to close the **G/L Account Card** window.  
   
 8.  In the **Chart of Accounts** window, select an account, and then choose **Indent Chart of Accounts**.  
   
@@ -67,4 +67,4 @@ You can indent and validate the chart of accounts in the **G\/L Account Card** w
   
 ## See Also  
  Chart of Accounts   
- G\/L Account Card
+ G/L Account Card

@@ -94,7 +94,7 @@ If you create more reminders than you have defined levels for, the conditions fo
 |%11|The company name|  
 |%12|Content of the **Add. Fee per Line** field on the reminder header|  
 
-For example, if you write **You owe %7 %9 due on %2.**, then the resulting reminder will contain the following text: **You owe 1.200,50 LCY due on 02\-02\-2014.**.
+For example, if you write **You owe %7 %9 due on %2.**, then the resulting reminder will contain the following text: **You owe 1.200,50 LCY due on 02-02-2014.**.
 
 After you have set up the reminder terms, with additional levels and text, enter one of the codes on each of the customer cards. For more information, see [How to: Register New Customers](sales-how-register-new-customers.md).
 

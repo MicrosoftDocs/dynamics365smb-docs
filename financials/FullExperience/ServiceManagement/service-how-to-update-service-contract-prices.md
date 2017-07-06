@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Update Service Contract Prices | Microsoft Docs
+    description: You can update the prices on service contracts by specifying a price update percentage.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

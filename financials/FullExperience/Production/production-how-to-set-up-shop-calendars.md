@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Shop Calendars | Microsoft Docs
+    description: It is possible to set up many different calendars. A calendar is then assigned to the individual capacity.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

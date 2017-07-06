@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: View Ledger Reconciliations | Microsoft Docs
+    description: [!INCLUDE[d365fin](../../includes/d365fin_md.md)] ../../includes two reports that can help you reconcile general ledger entries with customer ledger entries and vendor ledger entries. The reports print a separate page for each customer or vendor that sums up amounts from general ledger transactions based on payments and posted invoices.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -24,9 +24,9 @@
   
 1.  In the **Search** box, enter **General Ledger**, and then choose the related link in **General Ledger**.  
   
-2.  Under **Reports**, under **France**, choose **GL\/Cust. Ledger Reconciliation**.  
+2.  Under **Reports**, under **France**, choose **GL/Cust. Ledger Reconciliation**.  
   
-3.  In the **GL\/Cust. Ledger Reconciliation** window, set the appropriate filters.  
+3.  In the **GL/Cust. Ledger Reconciliation** window, set the appropriate filters.  
   
     > [!NOTE]  
     >  You must specify a date filter.  

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Change the Owner of Service Contracts | Microsoft Docs
+    description: You may need to change the owner of a service contract. If a service item in a service contract is registered in noncanceled multiple contracts owned by the same customer, then the owner of all service contracts that include this service item and of all other service items included in these contracts is updated automatically.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

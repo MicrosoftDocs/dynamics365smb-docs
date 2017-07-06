@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Handle Serial Numbers and Lot Numbers on Transfer Orders | Microsoft Docs
+    description: Procedures for handling serial and lot numbers that are being transferred between different locations are similar to those applied when items are sold and purchased.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

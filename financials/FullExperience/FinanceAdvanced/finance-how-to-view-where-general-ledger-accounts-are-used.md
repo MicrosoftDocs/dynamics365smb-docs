@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: View Where General Ledger Accounts Are Used | Microsoft Docs
+    description: Sometimes you may want to see an overview of the setup tables that cause [!INCLUDE[d365fin](../../includes/d365fin_md.md)] to automatically post to a specific account. When you do the setup, you fill in setup tables, such as the posting group tables, to specify which general ledger accounts are used as posting accounts for which types of transactions. Later, you may want to see which setup tables contain references to a certain general ledger account.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

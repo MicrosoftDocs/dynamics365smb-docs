@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: About Correcting Serial Numbers and Lot Numbers for Items in Inventory | Microsoft Docs
+    description: If you discover that you have used the wrong serial or lot number for items posted to your inventory, you can always go back and correct the numbers by using a reclassification journal. For more information on using the reclassification journal, see [How to: Reclassify Lot Numbers and Serial Numbers](../how-to-reclassify-lot-numbers-and-serial-numbers.md).
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Electronic Payments – AEB N34.1 | Microsoft Docs
+    description: With the electronic payments functionality, you can pay vendors using electronic payments rather than printing paper checks. Electronic payments are exported into a standard AEB N34.1 file format used by most banks in Spain. This file is then transmitted to your bank.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -18,7 +18,7 @@
 # Electronic Payments – AEB N34.1
 With the electronic payments functionality, you can pay vendors using electronic payments rather than printing paper checks. Electronic payments are exported into a standard AEB N34.1 file format used by most banks in Spain. This file is then transmitted to your bank.  
   
- You can create electronic payments from the payment journals or from the Cartera functionality \(report list\). This is intended to cover the following cases:  
+ You can create electronic payments from the payment journals or from the Cartera functionality (report list). This is intended to cover the following cases:  
   
 -   Invoices and open, non-grouped Cartera documents. If you select to pay using electronic payments, then the payment file is generated from the **Export Electronic Payments** report.  
   

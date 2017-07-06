@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Service Item Trendscape | Microsoft Docs
+    description: The **Service Item Trendscape** window provides a scrollable summary of service ledger entries that are related to a specific service item. This summary is generated for a specific time period.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

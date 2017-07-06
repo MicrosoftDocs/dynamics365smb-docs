@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Print VAT Audit Reports | Microsoft Docs
+    description: All vendors must export the data required for auditing in a Content Separated Value (CSV) file format. The following reports comply with this requirement:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # How to: Print VAT Audit Reports
-All vendors must export the data required for auditing in a Content Separated Value \(CSV\) file format. The following reports comply with this requirement:  
+All vendors must export the data required for auditing in a Content Separated Value (CSV) file format. The following reports comply with this requirement:  
   
 -   **VAT Audit**  report – This report is used for VAT auditing.  
   
@@ -32,8 +32,8 @@ All vendors must export the data required for auditing in a Content Separated Va
     |---------------------------------|---------------------------------------|  
     |**Export Customers**|Select to export the file to the **Customer** table.|  
     |**Export Open Payments**|Select to export the open credit entries.|  
-    |**Export Late Invoicing**|Select to export customer entries that took longer to invoice than the number of days specified in the **Late Invoice Delay \(Days\)** field.|  
-    |**Late Invoice Delay \(Days\)**|Enter the number of days between the invoice issue date and the payment received date. If the **Export Late Invoicing** field is selected, entries exceeding this limit will be exported.|  
+    |**Export Late Invoicing**|Select to export customer entries that took longer to invoice than the number of days specified in the **Late Invoice Delay (Days)** field.|  
+    |**Late Invoice Delay (Days)**|Enter the number of days between the invoice issue date and the payment received date. If the **Export Late Invoicing** field is selected, entries exceeding this limit will be exported.|  
     |**Export Vendors**|Select to export the file to the **Vendor** table.|  
     |**Export VAT Entries**|Select to export the entries in the **VAT Entry** table.|  
   

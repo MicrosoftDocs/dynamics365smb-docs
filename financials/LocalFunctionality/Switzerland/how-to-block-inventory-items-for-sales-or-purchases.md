@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Block Inventory Items for Sales or Purchases | Microsoft Docs
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], an item can be marked as blocked for sales, blocked for purchase, or blocked for all purposes.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

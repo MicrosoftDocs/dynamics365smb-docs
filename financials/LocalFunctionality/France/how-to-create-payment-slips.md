@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create Payment Slips | Microsoft Docs
+    description: You can create payments slips to manage vendor and customer payments. Before you create payment slips, you must set up payment classes. For more information, see [How to: Set Up Payment Classes](how-to-set-up-payment-classes.md).
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -37,7 +37,7 @@ You can create payments slips to manage vendor and customer payments. Before you
     |**Currency Code**|Specify the currency code to be used for the payment lines.|  
     |**Posting Date**|Specify the posting date.|  
     |**Document Date**|Specify the document date.|  
-    |**Amount \(LCY\)**|The total amount from the payment lines. This field is updated automatically when the net line amounts are changed.<br /><br />|  
+    |**Amount (LCY)**|The total amount from the payment lines. This field is updated automatically when the net line amounts are changed.<br /><br />|  
 
 6.  On the **Lines** FastTab, fill in the fields as described in the following table.  
 
@@ -52,7 +52,7 @@ You can create payments slips to manage vendor and customer payments. Before you
 
      Fill in the following fields if needed:  
 
-    -   **Country\/Region Code**. In the list, choose **Advanced**, and make sure that the **SEPA Allowed** check box is selected for the code that you select.  
+    -   **Country/Region Code**. In the list, choose **Advanced**, and make sure that the **SEPA Allowed** check box is selected for the code that you select.  
 
     -   **Swift Code**  
 
@@ -60,7 +60,7 @@ You can create payments slips to manage vendor and customer payments. Before you
 
      Choose the **OK** button to close the window.  
 
-9. Optionally, for SEPA, on the **Navigate** tab, choose **Header RIB**. Select the **Bank Country\/Region Code** field, and then choose **Advanced**. Make sure the **SEPA Allowed** check box is selected. Also make sure that the **IBAN** and **SWIFT Code** fields are filled in.  
+9. Optionally, for SEPA, on the **Navigate** tab, choose **Header RIB**. Select the **Bank Country/Region Code** field, and then choose **Advanced**. Make sure the **SEPA Allowed** check box is selected. Also make sure that the **IBAN** and **SWIFT Code** fields are filled in.  
 
 10. On the **Home** tab, in the **Process** group, choose **Suggest Vendor Payments**.  
 
@@ -75,7 +75,7 @@ You can create payments slips to manage vendor and customer payments. Before you
     |**Find Payment Discounts**|Select to include vendor ledger entries for which you can receive a payment discount.|  
     |**Summarize per**|The criteria for summarizing the payment line.|  
     |**Use Vendor Priority**|Select to sort the suggested payments based on the value in the **Priority** field on the vendor cards. For more information, see Priority.|  
-    |**Available Amount \(LCY\)**|The maximum amount that is available for payments in local currency.|  
+    |**Available Amount (LCY)**|The maximum amount that is available for payments in local currency.|  
     |**Currency Filter**|The code for the currency to be included in the batch job.|  
 
 12. On the **Vendor** FastTab, select the appropriate filters.  
@@ -102,7 +102,7 @@ You can create payments slips to manage vendor and customer payments. Before you
 
     -   **General** FastTab  
 
-        -   **Country\/Region Code**  
+        -   **Country/Region Code**  
 
     -   **Transfer**  FastTab  
 

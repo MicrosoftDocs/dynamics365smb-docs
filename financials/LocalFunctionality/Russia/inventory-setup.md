@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Inventory Setup | Microsoft Docs
+    description: As part of inventory management, you can set up inventory to:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -18,7 +18,7 @@
 # Inventory Setup
 As part of inventory management, you can set up inventory to:  
   
--   Assign item charges on purchases from foreign countries\/regions based on weight or volume.  
+-   Assign item charges on purchases from foreign countries/regions based on weight or volume.  
   
 -   Use the same column for original and corrective postings.  
   

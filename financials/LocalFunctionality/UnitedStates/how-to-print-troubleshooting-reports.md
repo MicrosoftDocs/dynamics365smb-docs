@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Print Troubleshooting Reports | Microsoft Docs
+    description: The following troubleshooting reports are available to assist Microsoft Certified Partners with troubleshooting issues:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -20,7 +20,7 @@ The following troubleshooting reports are available to assist Microsoft Certifie
   
 -   **License Information** report – This report contains the license number, the name of the licensed user, which application granules they have purchased, and when the license expires, if applicable.  
   
--   **Data Dictionary** report \(report \#10315\) – This report allows you to print detailed table reference, field reference, and table properties for table objects.  
+-   **Data Dictionary** report (report #10315) – This report allows you to print detailed table reference, field reference, and table properties for table objects.  
   
  You must have access to the ADD INCLUDE<!--[!INCLUDE[nav_dev_long](../../includes/nav_dev_long_md.md)]--> and a license that grants access to **Object Designer**, which is available only to administrators.  
   

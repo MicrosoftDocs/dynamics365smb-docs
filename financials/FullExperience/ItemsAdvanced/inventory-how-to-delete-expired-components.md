@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Delete Expired Components | Microsoft Docs
+    description: Periodically, you can run the **Delete Expired Components** batch job to maintain the BOM lines. Old lines where ending dates have expired can be removed from the BOM. The BOM headers are not changed.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

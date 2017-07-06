@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Import Swiss Post Codes | Microsoft Docs
+    description: You can import the latest post code file and use it to update the **Post Code** table. The post code file can be downloaded from the [Swiss Post](http://go.microsoft.com/fwlink/?LinkId=150292) website. After importing the latest post code, you can define post codes for customers or vendors. For more information, see [How to: Register New Customers](how-to-register-new-vendors.md).
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -41,7 +41,7 @@ You can import the latest post code file and use it to update the **Post Code** 
 3.  In the **Customer Card** window, on the **General** FastTab, in the **Post Code** field, select the post code for the customer's address.  
   
     > [!NOTE]  
-    >  When you select the post code, the **City** and **Country\/Region Code** fields populate automatically with the information from the **Post Code** table. For more information, see [How to: Register New Customers](how-to-register-new-customers.md).  
+    >  When you select the post code, the **City** and **Country/Region Code** fields populate automatically with the information from the **Post Code** table. For more information, see [How to: Register New Customers](how-to-register-new-customers.md).  
   
 4.  Choose the **OK** button.  
   

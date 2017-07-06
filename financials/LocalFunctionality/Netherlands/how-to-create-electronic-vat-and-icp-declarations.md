@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create Electronic VAT and ICP Declarations | Microsoft Docs
+    description: To create electronic VAT and ICP declarations, you must first set up the declaration using the **Elec. Tax Declaration Setup** window. Then you can submit them to the tax authorities.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -33,8 +33,8 @@ To create electronic VAT and ICP declarations, you must first set up the declara
   
     |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](includes/bp_tabledescription_md.md)]-->|  
     |---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create Electronic VAT and ICP Declarations | Microsoft Docs
+    description: To create electronic VAT and ICP declarations, you must first set up the declaration using the **Elec. Tax Declaration Setup** window. Then you can submit them to the tax authorities.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Put Items Away | Microsoft Docs
+    description: The warehouse activity of putting items away after they are received or output is performed in different ways depending on how warehouse management features are configured. The [setup](../configure-warehouse-processes.md) complexity can rank from no warehouse features, through basic warehousing for order-by order handling in one or more activities only, to advanced configurations where all warehouse activities must be performed in a directed workflow.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

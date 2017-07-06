@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Assemble to Order or Assemble to Stock | Microsoft Docs
+    description: Assembly items can be supplied in the following two processes:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

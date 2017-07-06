@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create a Profile | Microsoft Docs
+    description: You use the **Profile** card to create profiles for end users. Each profile is associated with a Role Center. Profiles are typically based on job titles in a company.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

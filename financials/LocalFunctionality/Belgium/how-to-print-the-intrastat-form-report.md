@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Print the Intrastat Form Report | Microsoft Docs
+    description: The **Intrastat - Form** report must be used for reporting to Intrastat. In Belgium, you must report the movement of goods to the statistics authorities every month, and the report must be sent to the tax authorities.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -30,7 +30,7 @@ The **Intrastat - Form** report must be used for reporting to Intrastat. In Belg
     |---------------------------------|---------------------------------------|  
     |**Name**|Enter the company name.|  
     |**Address**|Enter the address.|  
-    |**Post Code \+ City**|Enter the postal code and the city.|  
+    |**Post Code + City**|Enter the postal code and the city.|  
     |**Contact**|Enter the name of the contact person.|  
     |**Telephone**|Enter the telephone number of the contact person.|  
     |**Telefax**|Enter the telefax number.|  

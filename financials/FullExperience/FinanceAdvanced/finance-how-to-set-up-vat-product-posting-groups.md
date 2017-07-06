@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up VAT Product Posting Groups | Microsoft Docs
+    description: The need for VAT product posting groups is determined by the way items are taxed. One example could be differentiated VAT, for example, 10% for food and 15% for non-food items.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

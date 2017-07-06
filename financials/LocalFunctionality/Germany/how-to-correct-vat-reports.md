@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Correct VAT Reports | Microsoft Docs
+    description: If you have to submit a corrective VAT report or delete a submitted VAT report, you must create a new VAT report. According to the legislation, a corrective report must be submitted within a month of the initial report.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

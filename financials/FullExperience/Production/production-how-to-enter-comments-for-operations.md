@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Enter Comments for Operations | Microsoft Docs
+    description: You can enter comments for each operation in a routing.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

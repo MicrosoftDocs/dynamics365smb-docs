@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Automatic Account Posting Groups | Microsoft Docs
+    description: To use automatic account codes, you must create an automatic account posting group.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -36,7 +36,7 @@ To use automatic account codes, you must create an automatic account posting gro
     |Field|Description|  
     |-----------|-----------------|  
     |**Allocation Percentage**|Enter the percentage of the source line amount that is to be allocated.|  
-    |**G\/L Account No.**|Enter the general ledger account number to which the allocation should be posted.|  
+    |**G/L Account No.**|Enter the general ledger account number to which the allocation should be posted.|  
   
     > [!NOTE]  
     >  The **Total Balance** field totals the **Allocation Percentage** field for automatic account lines in a posting group. If the total allocation percent for a posting group does not balance to zero, an error message will be displayed when the item is posted.  

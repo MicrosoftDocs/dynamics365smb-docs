@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Background Post with Job Queues | Microsoft Docs
+    description: Job queues are an effective tool to schedule the running of business processes in the background. For example, there may be an instance in which multiple users are trying to post sales orders at the same time, but only one order can be processed at a time. By setting up a background posting routine, you can place the postings in a queue for processing in the background.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

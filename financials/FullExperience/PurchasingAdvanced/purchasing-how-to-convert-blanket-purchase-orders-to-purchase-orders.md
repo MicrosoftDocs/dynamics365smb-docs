@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Convert Blanket Purchase Orders to Purchase Orders | Microsoft Docs
+    description: You can either convert the entire blanket order into one order, or you can make it into a number of separate orders, depending on how you want the blanket order to be invoiced.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

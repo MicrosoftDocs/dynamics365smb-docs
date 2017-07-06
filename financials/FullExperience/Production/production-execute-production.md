@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Execute Production | Microsoft Docs
+    description: When materials have been issued, the actual production operations can start and then be executed in the sequence defined by the production order routing.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

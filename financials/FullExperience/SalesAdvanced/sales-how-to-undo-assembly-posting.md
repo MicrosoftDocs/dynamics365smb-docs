@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Undo Assembly Posting | Microsoft Docs
+    description: Sometimes you may need to undo a posted assembly order, for example when the order was posted with mistakes that must be corrected, or because it should not have been posted in the first place and must be rolled back. To reverse an order posting, open the posted assembly order, and on the **Actions** tab, in the **General** group, choose **Undo Assembly**.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

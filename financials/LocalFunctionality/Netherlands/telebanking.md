@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Telebanking | Microsoft Docs
+    description: Based on both sales and purchase transactions, telebanking enables you to generate your payments and collections and interchange them with your bank electronically. This includes the export of payment and collection data that need to be forwarded to the bank as well as the import of bank statements sent to you by the bank.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -37,26 +37,26 @@ Based on both sales and purchase transactions, telebanking enables you to genera
  For more information, see [How to: Create and Export Payment History](how-to-create-and-export-payment-history.md).  
   
 ## Bank Statements  
- For all your financial interactions through your bank, the bank can send you electronic bank statements. These statements can be imported into the Bank\/Giro Journals. If you want, you can have [!INCLUDE[d365fin](../../includes/d365fin_md.md)] automatically reconcile these statements during this import process and determine whether a statement can be applied to open ledger entries for the relevant vendor\/customer.  
+ For all your financial interactions through your bank, the bank can send you electronic bank statements. These statements can be imported into the Bank/Giro Journals. If you want, you can have [!INCLUDE[d365fin](../../includes/d365fin_md.md)] automatically reconcile these statements during this import process and determine whether a statement can be applied to open ledger entries for the relevant vendor/customer.  
   
  For more information, see [How to: Import and Reconcile Bank Statements](how-to-import-and-reconcile-bank-statements.md).  
   
 ## Exchange Protocols  
  For both exporting and importing, a number of protocols have been defined. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] supports the following protocols:  
   
--   CLIEOP3 \(export\)  
+-   CLIEOP3 (export)  
   
--   BTL91 \(export\)  
+-   BTL91 (export)  
   
--   BBV \(export\)  
+-   BBV (export)  
   
--   PAYMUL \(export\)  
+-   PAYMUL (export)  
   
--   Rabobank mut.asc \(import\)  
+-   Rabobank mut.asc (import)  
   
--   Rabobank vvmut.asc \(import\)  
+-   Rabobank vvmut.asc (import)  
   
--   Rabobank ASCII \(import\)  
+-   Rabobank ASCII (import)  
   
 -   SEPA CAMT  
   

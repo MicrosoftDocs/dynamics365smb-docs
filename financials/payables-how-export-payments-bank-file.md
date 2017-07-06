@@ -30,7 +30,7 @@ You use the **Credit Transfer Registers** window to view the payment files that 
 2. Fill payment journal lines, for example, by using the **Suggest Vendor Payments** function. For more information, see [How to: Suggest Vendor Payments](payables-how-suggest-vendor-payments.md).
 3. Fill in the fields on the payment journal lines as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-    > [!NOTE]  
+> [!NOTE]  
 >   If you are using EFT, you must select either **Electronic Payment** or **Electronic Payment–IAT** in the **Bank Payment Type** field.
 
     Different file export services and their formats require different setup values in the **Bank Account Card** and **Vendor Bank Account Card** windows. You will be informed about wrong or missing setup values as you try to export the file.

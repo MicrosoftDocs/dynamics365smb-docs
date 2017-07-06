@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Automatically Transfer and Post CODA Statements | Microsoft Docs
+    description: After you have applied and processed all CODA statement lines, you can transfer the CODA statement lines to a financial journal.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

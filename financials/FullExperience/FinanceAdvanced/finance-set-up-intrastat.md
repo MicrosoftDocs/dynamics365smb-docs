@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Set Up Intrastat | Microsoft Docs
+    description: If your company is in the European Union (EU), you must report the extent of your trade with other EU countries/regions.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

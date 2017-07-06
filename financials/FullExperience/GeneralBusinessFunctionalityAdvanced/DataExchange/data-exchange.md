@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: About the Data Exchange Framework | Microsoft Docs
+    description: The format of files for exchange of data in bank files, electronic documents, currency exchange rates, and other with ERP systems vary depending on the provider of the data file or stream and on the country/region. The generic version of ADD INCLUDE<!--[!INCLUDE[dyn_nav](includes/data-exchange.md).
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

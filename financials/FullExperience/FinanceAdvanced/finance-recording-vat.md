@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Recording VAT | Microsoft Docs
+    description: In EU countries/regions, every sales and purchase transaction is subject to VAT calculations.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

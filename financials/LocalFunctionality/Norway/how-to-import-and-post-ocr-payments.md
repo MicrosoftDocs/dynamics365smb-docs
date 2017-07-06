@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Import and Post OCR Payments | Microsoft Docs
+    description: Before you can receive optical character recognition (OCR) payments, you must make the following preparations:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # How to: Import and Post OCR Payments
-Before you can receive optical character recognition \(OCR\) payments, you must make the following preparations:  
+Before you can receive optical character recognition (OCR) payments, you must make the following preparations:  
   
 -   Set up a cash receipt journal template to balance OCR transactions according to the document number, instead of the document type.  
   

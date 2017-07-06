@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Register Service Operations | Microsoft Docs
+    description: When performing a service on a service order, you can register the details specifying the items used, costs incurred, and the time spent.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

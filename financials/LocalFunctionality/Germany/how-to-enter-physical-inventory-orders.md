@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Enter Physical Inventory Orders | Microsoft Docs
+    description: A physical inventory order is a complete document that consists of a physical inventory order header and some physical inventory order lines. The information on a physical inventory header describes how to take the physical inventory. You can fill in the header manually. You can create a physical inventory order and relate it to one or more physical inventory recordings.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -79,7 +79,7 @@ A physical inventory order is a complete document that consists of a physical in
   
  For each physical inventory order, you can create one or more physical inventory recordings. There you can document the physical count. For more information, see [How to: Create a Physical Inventory Recording](how-to-create-a-physical-inventory-recording.md).  
   
- You can compare and document the expected quantities from the physical inventory order lines with the \(counted\) quantities from the physical inventory recording lines. You can post the physical inventory differences.  
+ You can compare and document the expected quantities from the physical inventory order lines with the (counted) quantities from the physical inventory recording lines. You can post the physical inventory differences.  
   
 ## See Also  
  [Physical Inventory Documents](physical-inventory-documents.md)   

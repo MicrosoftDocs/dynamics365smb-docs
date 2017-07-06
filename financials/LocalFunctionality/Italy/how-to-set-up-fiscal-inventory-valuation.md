@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Fiscal Inventory Valuation | Microsoft Docs
+    description: To use fiscal inventory valuation, you must set up inventory valuation methods.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

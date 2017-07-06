@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Print Vendor Payments List Reports | Microsoft Docs
+    description: The **Vendor Payments List** report provides a list of payments for each vendor. The report can sort payments chronologically or grouped by vendor.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -27,7 +27,7 @@ The **Vendor Payments List** report provides a list of payments for each vendor.
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Sorting**|Specifies the sort order. You can sort by vendor or chronologically. If you sort by vendor, you will see a subtotal for each vendor. If you sort chronologically, you will not see subtotals.|  
-    |**Layout**|Specifies the layout of the report.<br /><br /> The results can be displayed in the following layouts:<br /><br /> **Standard**<br /> Displays the vendor number and vendor name, together with posting details, such as the document number and the amount in local currency.<br /><br /> **FCY Amounts**<br /> Displays the vendor number, vendor name, document number, payment status \(O for open, PP for partial payment, and C for closed\), and payment amount.<br /><br /> **Posting Info**<br /> Displays the vendor number, vendor name, cost center, cost object, user ID, and payment amount.|  
+    |**Layout**|Specifies the layout of the report.<br /><br /> The results can be displayed in the following layouts:<br /><br /> **Standard**<br /> Displays the vendor number and vendor name, together with posting details, such as the document number and the amount in local currency.<br /><br /> **FCY Amounts**<br /> Displays the vendor number, vendor name, document number, payment status (O for open, PP for partial payment, and C for closed), and payment amount.<br /><br /> **Posting Info**<br /> Displays the vendor number, vendor name, cost center, cost object, user ID, and payment amount.|  
   
  At the end of the report, the number of processed payments is displayed.  
   

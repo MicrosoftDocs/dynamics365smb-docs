@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Generate Payment Suggestions | Microsoft Docs
+    description: After you have set up electronic banking, you can start generating payment suggestions. You can do this in the payment journal.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Manage Cost Accounting | Microsoft Docs
+    description: Cost accounting is used to help you understand the costs of running a business. To get started with cost accounting, see the following topics.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

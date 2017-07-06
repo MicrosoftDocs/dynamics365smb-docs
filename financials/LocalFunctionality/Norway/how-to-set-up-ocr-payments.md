@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up OCR Payments | Microsoft Docs
+    description: You can process electronic payments from customers according to a predefined payment ID. This is often referred to as an optical character recognition (OCR) payment. The payment ID is used with electronic payment transactions. Customers can refer to this ID when they make payments. The payment ID is also used to identify imported payment transactions and automatically apply imported payment data.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # How to: Set Up OCR Payments
-You can process electronic payments from customers according to a predefined payment ID. This is often referred to as an optical character recognition \(OCR\) payment. The payment ID is used with electronic payment transactions. Customers can refer to this ID when they make payments. The payment ID is also used to identify imported payment transactions and automatically apply imported payment data.  
+You can process electronic payments from customers according to a predefined payment ID. This is often referred to as an optical character recognition (OCR) payment. The payment ID is used with electronic payment transactions. Customers can refer to this ID when they make payments. The payment ID is also used to identify imported payment transactions and automatically apply imported payment data.  
   
 ### To set up OCR payments  
   

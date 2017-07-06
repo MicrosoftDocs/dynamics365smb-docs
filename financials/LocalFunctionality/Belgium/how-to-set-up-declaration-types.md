@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Declaration Types | Microsoft Docs
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], there are two types of declaration:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

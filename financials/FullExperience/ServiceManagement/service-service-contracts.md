@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Service Contracts | Microsoft Docs
+    description: In the **Service Contract** window, you can view, change, or create your service contracts.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

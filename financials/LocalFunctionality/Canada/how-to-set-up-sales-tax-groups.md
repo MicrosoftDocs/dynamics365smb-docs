@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Sales Tax Groups | Microsoft Docs
+    description: A tax group represents a group of inventory items or resources that are subject to identical tax terms. Examples of typical tax groups include food items, medicine and medical supplies, and automobile fuel. These groups are usually determined by criteria set up by tax authorities.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -18,7 +18,7 @@
 # How to: Set Up Sales Tax Groups
 A tax group represents a group of inventory items or resources that are subject to identical tax terms. Examples of typical tax groups include food items, medicine and medical supplies, and automobile fuel. These groups are usually determined by criteria set up by tax authorities.  
   
- Tax group codes must be assigned on the **Resource**, **Item**, and **G\/L Account** cards. Tax area codes must be assigned on the **Customer**, **Location**, and **Company Information** cards. For more information, see [How to: Enter Company Information](how-to-enter-company-information.md).  
+ Tax group codes must be assigned on the **Resource**, **Item**, and **G/L Account** cards. Tax area codes must be assigned on the **Customer**, **Location**, and **Company Information** cards. For more information, see [How to: Enter Company Information](how-to-enter-company-information.md).  
   
 ### To set up a sales tax group  
   

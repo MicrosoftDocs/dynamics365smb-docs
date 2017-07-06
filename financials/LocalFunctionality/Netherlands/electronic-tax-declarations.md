@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Electronic Tax Declarations | Microsoft Docs
+    description: Companies must deliver their VAT and ICP declarations electronically to the tax authorities.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -21,7 +21,7 @@ Companies must deliver their VAT and ICP declarations electronically to the tax 
 ## Prepare for Electronic Declaration  
  Before you can send electronic declarations to the tax authorities you must perform the following tasks:  
   
-1.  Request user certificates from the certification authority \(CA\) and import them in the application. For more information, see the [website](http://go.microsoft.com/fwlink/?LinkID=223151) of the Dutch tax office.  
+1.  Request user certificates from the certification authority (CA) and import them in the application. For more information, see the [website](http://go.microsoft.com/fwlink/?LinkID=223151) of the Dutch tax office.  
   
 2.  Register at the tax authorities for electronic declaration.  
   

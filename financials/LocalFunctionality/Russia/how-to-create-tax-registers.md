@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create Tax Registers | Microsoft Docs
+    description: The following procedure shows how to create tax registers.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -37,9 +37,9 @@ The following procedure shows how to create tax registers.
     |Field|Description|  
     |-----------|-----------------|  
     |**Periodicity**|Enter a period to create data in tax accounting registers. The allowed values are:<br /><br /> -   **Month**<br />-   **Quarter**<br />-   **Year** **Note:**      If you select a month, the data in the selected registers will be created especially for that month. If you select a quarter, the data will be created for each of the three months of that quarter. If you select a year, the data will be created for each of the 12 months of that year.|  
-    |**Accounting Period**|The value entered in this field depends on the value selected in the Periodicity field. Select the accounting period \(**Month**, **Quarter**, or **Year**\).|  
+    |**Accounting Period**|The value entered in this field depends on the value selected in the Periodicity field. Select the accounting period (**Month**, **Quarter**, or **Year**).|  
     |**From, To**|These fields are filled in automatically and show start and end dates of the chosen period.|  
-    |**G\/L Entries, Vend's\/Cust's, Items, Fixed Asset, Fut. Exp., Payroll, Templates**|Select the fields to calculate registers of the appropriate type.|  
+    |**G/L Entries, Vend's/Cust's, Items, Fixed Asset, Fut. Exp., Payroll, Templates**|Select the fields to calculate registers of the appropriate type.|  
     |**Status**|This field displays information about the version of the tax register.|  
     |**Starting Date, Ending Date**|This field displays the dates given when setting the tax register version.|  
   

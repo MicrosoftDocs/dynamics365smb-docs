@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create Sales Return Orders | Microsoft Docs
+    description: You may agree to compensate a customer for an item that you sold them by allowing them to return the item.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Export Balance Information by Using GIFI Codes | Microsoft Docs
+    description: You can export balance information using General Index of Financial Information (GIFI) codes and save the exported file in a Microsoft Excel workbook. You can modify, save, or delete the file. You can use the file to transfer information to your tax preparation software.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # How to: Export Balance Information by Using GIFI Codes
-You can export balance information using General Index of Financial Information \(GIFI\) codes and save the exported file in a Microsoft Excel workbook. You can modify, save, or delete the file. You can use the file to transfer information to your tax preparation software.  
+You can export balance information using General Index of Financial Information (GIFI) codes and save the exported file in a Microsoft Excel workbook. You can modify, save, or delete the file. You can use the file to transfer information to your tax preparation software.  
   
 ### To export balance information using GIFI codes  
   
@@ -31,7 +31,7 @@ You can export balance information using General Index of Financial Information 
     |**Include GIFI Name**|Select to include the GIFI name in the file.|  
     |**Include Unused Codes**|Select to include the unused codes in the file.|  
   
-3.  On the **G\/L Account** FastTab, select the appropriate filters.  
+3.  On the **G/L Account** FastTab, select the appropriate filters.  
   
 4.  To export the file to Excel, choose the **OK** button.  
   

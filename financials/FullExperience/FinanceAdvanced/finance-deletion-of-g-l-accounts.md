@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Deletion of G/L Accounts | Microsoft Docs
+    description: Before a G/L account can be deleted, the following criteria must be met:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

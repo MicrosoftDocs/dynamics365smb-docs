@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Delivery Reminder Terms, Levels, and Text | Microsoft Docs
+    description: To create delivery reminders, you must set up the following:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -55,7 +55,7 @@ To create delivery reminders, you must set up the following:
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**No.**|The delivery reminder level number. This field is filled in automatically.|  
-    |**Due Date Calculation**|The formula for the due date calculation for the delivery reminder. You can enter a combination of numbers from 0 to 9999, and date codes \(D for day, WD for weekday, W for week, M for month, Q for quarter, or Y for year\). The date codes denote the calculation for the delivery reminder due date. You can enter a maximum of 20 characters for the due date calculation formula.|  
+    |**Due Date Calculation**|The formula for the due date calculation for the delivery reminder. You can enter a combination of numbers from 0 to 9999, and date codes (D for day, WD for weekday, W for week, M for month, Q for quarter, or Y for year). The date codes denote the calculation for the delivery reminder due date. You can enter a maximum of 20 characters for the due date calculation formula.|  
   
      For more information, see Delivery Reminder Level.  
   

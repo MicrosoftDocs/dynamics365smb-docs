@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Manage Sales Returns | Microsoft Docs
+    description: Compensating a customer who is dissatisfied with an item that a company has sold them is a necessary and important transaction between a company and its customer. The faster and more accurately a company carries out the activities involved in a return process, the more likely the company is to foster the customer's perception of good customer service.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

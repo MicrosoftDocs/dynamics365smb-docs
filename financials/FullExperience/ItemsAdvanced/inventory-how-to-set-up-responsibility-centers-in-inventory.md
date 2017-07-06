@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Responsibility Centers in Inventory | Microsoft Docs
+    description: You can set up responsibility centers to help administer your business.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create the TORG-1 Report for Acceptance of Goods | Microsoft Docs
+    description: The TORG-1 report is used for the registration of incoming goods. This report lists receipts with quantity, quality, mass, and package contents according to the terms of an agreement. Depending on your setup, the batch job can be run when you choose the **Print** button in document windows such as the **Purchase Order** window.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: VAT Reports | Microsoft Docs
+    description: VAT is charged on transactions that involve goods and services in Spain or goods imported into Spain. The following information provides more details about VAT functionality.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -19,7 +19,7 @@
 VAT is charged on transactions that involve goods and services in Spain or goods imported into Spain. The following information provides more details about VAT functionality.  
   
 ## Equivalence Charge  
- Equivalence Charge \(EC\) tax applies to activities that do not follow VAT rules. According to EC rules, companies must pay a surcharge to their vendors in addition to VAT. However, they can only charge VAT without the surcharge on sales invoices.  
+ Equivalence Charge (EC) tax applies to activities that do not follow VAT rules. According to EC rules, companies must pay a surcharge to their vendors in addition to VAT. However, they can only charge VAT without the surcharge on sales invoices.  
   
 ### VAT with EC Percentage  
  Preset general posting groups have an EC percentage in addition to their VAT percentage. Although the EC is tracked separately, both tax values are merged with VAT when it is possible. If the EC percentage is a separate field in the posting group, the EC is merged with the value in the **VAT %** column.  
@@ -42,7 +42,7 @@ VAT is charged on transactions that involve goods and services in Spain or goods
 -   **Two-Columns Report**  
   
 ### VAT-VIES Declaration  
- With VAT-VIES declaration you can run a batch file to generate European Union \(EU\) sales reports. The batch file exports the entries in the required file format for submission to customs and tax authorities.  
+ With VAT-VIES declaration you can run a batch file to generate European Union (EU) sales reports. The batch file exports the entries in the required file format for submission to customs and tax authorities.  
   
 ## See Also  
  [Spain Local Functionality](spain-local-functionality.md)   

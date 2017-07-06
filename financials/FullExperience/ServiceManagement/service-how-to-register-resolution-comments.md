@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Register Resolution Comments | Microsoft Docs
+    description: You can use the **Resolution Service Comment Sheet** window to register comments on the method or procedure applied to service items in service orders and service quotes.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

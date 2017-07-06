@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Fiscal Inventory Valuation | Microsoft Docs
+    description: You must submit an annual report that shows the monetary value of inventory items for the fiscal year. According to the Italian requirements for fiscal inventory valuation, you must calculate the following cost types:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -22,9 +22,9 @@ You must submit an annual report that shows the monetary value of inventory item
   
 -   Weighted average cost  
   
--   First in, First Out \(FIFO\) cost  
+-   First in, First Out (FIFO) cost  
   
--   Last in, First Out \(LIFO\) cost  
+-   Last in, First Out (LIFO) cost  
   
 -   Discrete LIFO cost  
   

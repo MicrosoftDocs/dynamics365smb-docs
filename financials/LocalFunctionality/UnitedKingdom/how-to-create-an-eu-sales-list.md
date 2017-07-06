@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Create an EU Sales List | Microsoft Docs
+    description: Companies that run VAT-registered businesses and sell or move goods to other VAT-registered businesses in the European Union (EU) must record and report about data on their sales activities to the government.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,9 +16,9 @@
 
 ---
 # How to: Create an EU Sales List
-Companies that run VAT-registered businesses and sell or move goods to other VAT-registered businesses in the European Union \(EU\) must record and report about data on their sales activities to the government.  
+Companies that run VAT-registered businesses and sell or move goods to other VAT-registered businesses in the European Union (EU) must record and report about data on their sales activities to the government.  
   
- All companies that sell more than a set value every year to EU states must submit an electronic version of their European Community \(EC\) sales list report in XML format through Her Majesty's Revenue and Customs \(HMRC\) web site.  
+ All companies that sell more than a set value every year to EU states must submit an electronic version of their European Community (EC) sales list report in XML format through Her Majesty's Revenue and Customs (HMRC) web site.  
   
  This report displays one line of information for each customer who consolidates invoices. The report is based on the information in the **VAT Entry** table. The sales information in this report is in the same format as on the declaration form issued by the customs and tax authorities.  
   
@@ -37,5 +37,5 @@ Companies that run VAT-registered businesses and sell or move goods to other VAT
   
 ## See Also  
  VAT Entry   
- [EC Sales List](\($%20R_130%20EC%20Sales%20List%20$\).md)   
+ [EC Sales List](($%20R_130%20EC%20Sales%20List%20$).md)   
  [United Kingdom Local Functionality](united-kingdom-local-functionality.md)

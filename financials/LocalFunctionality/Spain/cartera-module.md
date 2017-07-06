@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Cartera Module | Microsoft Docs
+    description: The Cartera module allows you to use specific documents, such as bills of exchange and promissory notes, to manage customer and vendor payments.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

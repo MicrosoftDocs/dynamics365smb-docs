@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Contract Trendscape Overview | Microsoft Docs
+    description: The **Contract Trendscape** window gives a financial overview of the service contract using the data from its service ledger entries. This overview is generated for a specific time period that you set in the **Period** field.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

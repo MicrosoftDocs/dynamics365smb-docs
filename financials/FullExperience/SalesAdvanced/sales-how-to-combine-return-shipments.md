@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Combine Return Shipments | Microsoft Docs
+    description: If you want to return items covered by different purchase return orders to the same vendor, then you can use the **Combine Return Shipments** function.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

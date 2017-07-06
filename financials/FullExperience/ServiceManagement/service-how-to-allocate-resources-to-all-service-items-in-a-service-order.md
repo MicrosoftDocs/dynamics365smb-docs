@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Allocate Resources to All Service Items in a Service Order | Microsoft Docs
+    description: You can allocate the same resource, for example, a technician, or resource group to all the service items in a service order by using the **Resource Allocations** window.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

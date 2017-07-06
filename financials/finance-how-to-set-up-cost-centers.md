@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Cost Centers | Microsoft Docs
+    description: Cost centers are departments that are responsible for costs and income. The chart of cost centers is similar to the dimension information for the general ledger. You can set up the chart of cost centers in the following ways:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

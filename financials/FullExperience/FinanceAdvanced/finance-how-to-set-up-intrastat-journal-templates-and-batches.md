@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Set Up Intrastat Journal Templates and Batches | Microsoft Docs
+    description: Before you can use the **Intrastat Journal**, you must decide which Intrastat journal templates and batches you will use. You do this in the **Intrastat Journal Templates** and **Intrastat Jnl. Batches** windows.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

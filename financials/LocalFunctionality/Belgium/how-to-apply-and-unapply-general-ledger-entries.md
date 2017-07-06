@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: How to: Apply and Unapply General Ledger Entries | Microsoft Docs
+    description: Applying temporary general ledger entries allows companies to work with temporary and transfer accounts in the general ledger. Temporary and transfer accounts are used to store temporary ledger entries that are waiting for further processing into the general ledger.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -32,7 +32,7 @@ Applying temporary general ledger entries allows companies to work with temporar
   
 ### To apply general ledger entries  
   
-1.  In the **Search**  box, enter **G\/L Registers**, and then choose the related link.  
+1.  In the **Search**  box, enter **G/L Registers**, and then choose the related link.  
   
 2.  Select a general ledger register, and then, on the **Home** tab, in the **Process** group, choose **General Ledger**.  
   
@@ -64,7 +64,7 @@ Applying temporary general ledger entries allows companies to work with temporar
   
 ### To view the applied general ledger entries  
   
-1.  In the **Search**  box, enter **G\/L Registers**, and then choose the related link.  
+1.  In the **Search**  box, enter **G/L Registers**, and then choose the related link.  
   
 2.  Select a general ledger register, and then, on the **Home** tab, in the **Process** group, choose **General Ledger**.  
   
@@ -76,7 +76,7 @@ Applying temporary general ledger entries allows companies to work with temporar
   
 ### To unapply general ledger entries  
   
-1.  In the **Search**  box, enter **G\/L Registers**, and then choose the related link.  
+1.  In the **Search**  box, enter **G/L Registers**, and then choose the related link.  
   
 2.  Select a general ledger register, and then, on the **Home** tab, in the **Process** group, choose **General Ledger**.  
   
@@ -90,6 +90,6 @@ Applying temporary general ledger entries allows companies to work with temporar
 4.  Choose the **OK** button.  
   
 ## See Also  
- G\/L Account   
- G\/L Entry   
+ G/L Account   
+ G/L Entry   
  General Ledger Entries

@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Single EURO Payments Area (SEPA) | Microsoft Docs
+    description: The Single Euro Payments Area (SEPA) unifies payment methods in participating European countries, making international payments as easy to process as domestic payments. 300 million European citizens and companies are able to make and receive payments in euros, whether within or across national borders, with the same basic conditions, rights, and obligations, regardless of location.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,13 +16,13 @@
 
 ---
 # Single EURO Payments Area (SEPA)
-The Single Euro Payments Area \(SEPA\) unifies payment methods in participating European countries, making international payments as easy to process as domestic payments. 300 million European citizens and companies are able to make and receive payments in euros, whether within or across national borders, with the same basic conditions, rights, and obligations, regardless of location.  
+The Single Euro Payments Area (SEPA) unifies payment methods in participating European countries, making international payments as easy to process as domestic payments. 300 million European citizens and companies are able to make and receive payments in euros, whether within or across national borders, with the same basic conditions, rights, and obligations, regardless of location.  
   
  [!INCLUDE[d365fin](../../includes/d365fin_md.md)] supports the Dutch requirements for submitting SEPA payments, credit transfers, and direct debit.  
   
  Before you can submit vendor payments electronically in SEPA ISO2022 format, you must activate SEPA in the following windows:  
   
--   Countries\/Regions  
+-   Countries/Regions  
   
 -   Bank Accounts  
   
@@ -36,9 +36,9 @@ The Single Euro Payments Area \(SEPA\) unifies payment methods in participating 
   
 -   Make all payments in euros.  
   
--   Make payments within the European Economic Area \(EEA\).  
+-   Make payments within the European Economic Area (EEA).  
   
--   Use the vendor bank’s International Bank Account Number \(IBAN\) and Bank Identifier Code \(BIC\) information.  
+-   Use the vendor bank’s International Bank Account Number (IBAN) and Bank Identifier Code (BIC) information.  
   
 ## See Also  
  [How to: Activate SEPA Payments](how-to-activate-sepa-payments.md)   

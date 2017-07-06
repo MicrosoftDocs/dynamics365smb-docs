@@ -1,6 +1,6 @@
 ---
-    title: Insert topic title| Microsoft Docs
-    description: Insert description
+    title: Troubleshooting: RapidStart Services | Microsoft Docs
+    description: This topic describes some common problems that you may see when you use ADD INCLUDE<!--[!INCLUDE[rimlong](../../includes/rimlong_md.md)]-->.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

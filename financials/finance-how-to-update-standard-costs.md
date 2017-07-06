@@ -1,18 +1,18 @@
 ---
-    title: How to: Update Standard Costs | Microsoft Docs
-    description: You must periodically update the standard costs of components and roll the new costs up to the parent item. The process typically consists of the following four steps:
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
+title: How to: Update Standard Costs | Microsoft Docs
+description: You must periodically update the standard costs of components and roll the new costs up to the parent item. The process typically consists of the following four steps:
+services: project-madeira
+documentationcenter: ''
+author: SorenGP
 
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
+ms.service: dynamics365-financials
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.date: 07/01/2017
+ms.author: sgroespe
 
 ---
 # How to: Update Standard Costs
@@ -26,14 +26,9 @@ You must periodically update the standard costs of components and roll the new c
 
 4.  Implement the changes to update the **Unit Cost** field on the item card and perform inventory revaluation. For more information, see [How to: Revalue Inventory](inventory-how-revalue-inventory.md).  
 
- For more information, see [About Calculating Standard Cost](about-calculating-standard-cost.md).  
+For more information, see [About Calculating Standard Cost](finance-about-calculating-standard-cost.md).  
 
- After you understand the process, you can use the following summary of steps.  
-
-> [!NOTE]  
->  To preview changes that the following processes make to your data, it is recommended that you perform the steps in the [!INCLUDE[d365fin](includes/d365fin_md.md)] before working in the live company.  
-
-### To update standard costs  
+## To update standard costs  
 
 1.  Run the **Adjust Cost-Item Entries** batch job.  
 
@@ -55,10 +50,11 @@ You must periodically update the standard costs of components and roll the new c
 
 6.  Run the **Implement Standard Cost Changes** batch job.  
 
-7.  Review and post the **Revaluation Journal**, which has been populated with entries from previous steps in this process.  
+7.  Review and post the **Revaluation Journal** window, which has been populated with entries from previous steps in this process.  
 
 ## See Also  
- [About Calculating Standard Cost](about-calculating-standard-cost.md)   
- [Managing Inventory Costs](manage-inventory-costs.md)   
- Unit Cost   
- [Design Details: Costing Methods](design-details-costing-methods.md)   
+ [About Calculating Standard Cost](finance-about-calculating-standard-cost.md)   
+ [Managing Inventory Costs](finance-manage-inventory-costs.md)   
+ [Design Details: Costing Methods](design-details-costing-methods.md)
+ [[Finance](finance.md)]  
+ [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

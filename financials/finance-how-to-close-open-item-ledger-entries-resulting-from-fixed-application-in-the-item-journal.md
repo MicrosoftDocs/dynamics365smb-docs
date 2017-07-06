@@ -25,17 +25,14 @@ You can use the **Applies-from Entry** field in the **Item Journal** window to c
   
  The following procedure shows how to close such entries by performing two corrective postings in the item journal.  
   
-### To close open item ledger entries that result from a fixed application in the item journal  
+## To close open item ledger entries that result from a fixed application in the item journal  
   
 1.  Use the **Applies-from Entry** field to post a positive adjustment with the corresponding quantity. This closes the original negative entry with a fixed application.  
   
 2.  Use the **Applies-to Entry** field to post a negative adjustment. This closes the original corrective positive entry with a fixed application.  
   
 ## See Also  
- Applies-from Entry   
- Applies-to Entry   
- Item Journal   
- [How to: Create Sales Return Orders](../how-to-create-sales-return-orders.md)   
- [How to: Assign Exact Cost Reversing in Sales](../how-to-assign-exact-cost-reversing-in-sales.md)   
- [Manage Inventory Costs](../manage-inventory-costs.md)   
+ [How to: Process Sales Returns and Cancellations](sales-how-process-sales-returns-cancellations.md)   
+ [Set Up Inventory Valuation and Costings](finance-set-up-inventory-valuation-and-costings.md)   
+ [Manage Inventory Costs](finance-manage-inventory-costs.md)   
  [Design Details: Costing Methods](design-details-costing-methods.md)

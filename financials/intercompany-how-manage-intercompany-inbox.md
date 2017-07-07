@@ -57,9 +57,8 @@ If you have an intercompany partner that is not in the same database as your com
 The transactions are imported into the inbox and you can now process them.
 
 > [!NOTE]  
-> If the intercompany partners are in the same database, then transactions are transferred directly, without the need for a file or email. See the **Transfer Type*** field in the **Intercompany Partner** window.
-
-In that case, you can bypass the inbox and outbox by selecting the **Auto. Accept Transactions** check box in the **Intercompany Partner** window and the **Auto. Send Transactions** check box in the **Intercompany Setup** window respectively. 
+> If the intercompany partners are in the same database, then transactions are transferred directly, without the need for a file or email. See the **Transfer Type** field in the **Intercompany Partner** window.
+In that case, you can bypass the inbox and outbox by selecting the **Auto. Accept Transactions** check box in the **Intercompany Partner** window and the **Auto. Send Transactions** check box in the **Intercompany Setup** window respectively.
 
 ## To handle incoming intercompany transactions  
 When your intercompany partners send you intercompany transactions, the transactions end up in your intercompany inbox. You must evaluate each transaction in your inbox and act upon it.  

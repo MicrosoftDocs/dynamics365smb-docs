@@ -72,7 +72,7 @@ For lines that you processed with the **Accept** action, document or journal lin
 
 Lines that you processed with the **Return to Partner** action will be moved to the outbox from where you can then send them to your partner.
 
-If any of the lines contain **Returned by Partner** in the **Transaction Source** field, you must now post a correction to the original transaction that you posted in your company.
+For lines that you processed with the **Returned by Partner** action, you must now post a correction to the original transaction that you posted in your company.
 
 ## To process outgoing intercompany transactions  
 When you post an intercompany journal or document, or send an intercompany order confirmation, the transactions are sent to your intercompany outbox. In order for them to be sent on to your intercompany partners, you must open the outbox and process them.  
@@ -82,7 +82,7 @@ When you post an intercompany journal or document, or send an intercompany order
 
 Lines that you processed with the **Send to Intercompany Partner** action will be sent to the relevant partner's inbox.
 
-Lines that you processed with the **Return to Inbox** action** will be moved to the inbox where you can then accept them to create documents or journal lines in your company.  
+Lines that you processed with the **Return to Inbox** action will be moved to the inbox where you can then accept them to create documents or journal lines in your company.  
 
 For lines that you processed with the **Cancel** action, you must now post a correction to the original transaction that you posted in your company.  
 

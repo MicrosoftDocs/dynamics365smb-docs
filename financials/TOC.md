@@ -223,14 +223,9 @@
 # [Business Process walkthroughs]()
 
 # Local Functionality
-## [Australia](LocalFunctionality/Australia/australia-local-functionality.md)
 ## [Canada](LocalFunctionality/Canada/canada-local-functionality.md)
 ## [Denmark](LocalFunctionality/Denmark/denmark-local-functionality.md)
 ## [France](LocalFunctionality/France/france-local-functionality.md)
-## [Germany](LocalFunctionality/Germany/germany-local-functionality.md)
-## [Italy](LocalFunctionality/Italy/italy-local-functionality.md)
-## [Netherlands](LocalFunctionality/Netherlands/netherlands-local-functionality.md)
-## [Spain](LocalFunctionality/Spain/spain-local-functionality.md)
 ## [United Kingdom](LocalFunctionality/United Kingdom/united-kingdom-local-functionality.md)
 ## [United States](LocalFunctionality/United States/united-states-local-functionality.md)
 
@@ -238,14 +233,12 @@
 ## Business Intelligence (FULL)
 ### [How to: Create Reports with XBRL](FullExperience/bi-create-reports-with-xbrl.md)
 
-## Planning (FULL)
+## Manufacturing (FULL)
 ### How to: Plan for Production Availability
 ### How to: Forecast for Sales and Production
 ### How to: Perform Master Planning
 ### How to: Material Requirements Planning
 ### How to: Communicate Production Plans
-
-## Manufacturing (FULL)
 ### How to: Schedule Production Processes
 ### How to: Issue Materials
 ### How to: Execute Production

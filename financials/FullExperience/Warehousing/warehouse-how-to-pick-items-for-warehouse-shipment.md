@@ -1,6 +1,6 @@
 ---
-    title: How to: Pick for Production in Basic Warehousing | Microsoft Docs
-    description: When your warehouse location requires pick processing but does not require shipment processing, use the **Inventory Pick** window to organize and record the picking of components.
+    title: How to: Pick Items for Warehouse Shipment | Microsoft Docs
+    description: When the location is set up to require warehouse pick processing as well as warehouse shipment processing, you use the warehouse pick documents to create and process pick information prior to posting the warehouse shipment.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -14,38 +14,58 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
----
-# How to: Pick for Production in Basic Warehousing
-When your warehouse location requires pick processing but does not require shipment processing, use the **Inventory Pick** window to organize and record the picking of components.  
+    ---
+# How to: Pick Items for Warehouse Shipment
+When the location is set up to require warehouse pick processing as well as warehouse shipment processing, you use the warehouse pick documents to create and process pick information prior to posting the warehouse shipment.  
+  
+ You cannot create a warehouse pick document from scratch because a pick activity is always part of a workflow, either in a pull or a push scenario.  
+  
+ You can create warehouse pick documents in a pull fashion by opening an empty warehouse shipment document, detect source documents that are released to shipment, and then create warehouse pick lines for those shipments. You can use the **Get Source Documents** or **Use Filter to Get Source Documents** functions to detect source documents that are ready for shipment. Alternatively, you can use the **Pick Worksheet** window to pull and create pick lines in batch mode. For more information, see [How to: Plan Picks in Worksheets](../how-to-plan-picks-in-worksheets.md).  
+  
+ You can also create warehouse pick documents in a push fashion from the **Warehouse Shipment** window by selecting **Create Pick**.  
   
 > [!NOTE]  
->  In advanced warehouse configurations where locations require both picks and shipments you use warehouse picks to bring components to production orders.  
-  
- In basic warehouse configurations, you can also pick for production with the **Inventory Movement** window.  
-  
-> [!NOTE]  
->  The following important differences exist between inventory picks and inventory movements:  
+>  Picking for warehouse shipment of items that are assembled to the sales order being shipped follows the same steps as for regular warehouse picks for shipment, as described in this topic. However, the number of pick lines per quantity to ship may be many to one because you pick the components, not the assembly item.  
 >   
->  -   When you register an inventory pick for an internal operation, such as production, the consumption of the picked components is posted at the same time. When you register an inventory movement for an internal operation, you only record the physical movement of the required components to a bin in the operation area without posting the consumption.  
-> -   When you use inventory picks, the **Bin Code** field on a production order component line defines the *take* bin from where components are decreased when posting consumption. When you use inventory movements, the **Bin Code** field on production order component lines defines the *place* bin in the operation area where the warehouse worker must place the components.  
+>  The warehouse pick lines are created for the value in the **Remaining Quantity** field on the lines of the assembly order that is linked to the sales order line that is being shipped. This ensures that all components are picked in one action.  
+>   
+>  For more information, see “Handling Assemble-to-Order Items in Warehouse Shipments” in Warehouse Shipment.  
+>   
+>  For information about picking components for assembly orders generally, including situations where the assembly item is not due on a sales shipment, see [How to: Pick for Internal Operations in Advanced Warehousing](../how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
   
- A system precondition for picking, or moving, components for source documents is that an outbound warehouse request exists to notify the warehouse area of the component need. The outbound warehouse request is created whenever the production order status is changed to Released or when a released production order is created.  
+### To pick items for warehouse shipment  
   
-### To pick components with the inventory pick document  
+1.  In the **Search** box, enter **Picks**, and then choose the related link.  
   
-1.  In the **Search** box, enter **Inventory Picks**, and then choose the related link.  
+     If you need to work on a particular pick, select the pick from the list or filter the list to find the picks that have been assigned to you specifically. Open the pick card.  
   
-2.  To access the production order components, on the **Actions** tab, in the **Functions** group, choose **Get Source Documents**, and then select the released production order.  
+2.  If the **Assigned User ID** field is empty, enter your ID to identify yourself if necessary.  
   
-3.  Perform the pick, and then record the actual picking information in the **Inventory Pick** window.  
+3.  If you want a printed pick document for the lines in the window, on the **Home** tab, in the **Process** group, choose **Print**.  
   
-4.  When the lines are ready for posting, on the **Home** tab, in the **Process** group, choose **Post**. The posting creates the necessary warehouse entries and posts the consumption of the items.  
+4.  Perform the actual picking of items.  
   
- You can also create an **Inventory Pick** directly from the released production order. On the **Actions** tab, in the **Warehouse** group, choose **Create Inventory Put-away/Pick/Movement**, and then select the **Create Invt. Pick** field on the **Options** FastTab of the request window. You can print the pick list by selecting the **Print Document** field.  
+     If the warehouse is set up to use bins, then the items’ default bins are used to suggest where to take the items from. The instructions appear as two separate lines, at least one for each action type, Take and Place.  
+  
+     If the warehouse is set up to use directed put-away and pick, then the bin ranking is used to calculate the best bins to pick from, and those bins are then suggested on the pick lines. The instructions appear as two separate lines, at least one for each action type, Take and Place.  
+  
+5.  When you have performed the pick and placed the items in the shipping area or shipping bin, select **Register Pick**.  
+  
+ The person responsible for shipment can now bring the items to the shipment dock and post the shipment, including the related source document, in the **Warehouse Shipment** window.  
+  
+ In addition to picking for source documents, as described in this topic, you can take and place items between bins without referring to source documents. For more information, see [How to: Move Items in Advanced Warehousing](../how-to-move-items-in-advanced-warehousing.md).  
+  
+ You can perform internal picks for items that belong to the company but are not available for ordinary warehouse picking. For more information, see Whse. Internal Pick.  
   
 ## See Also  
- Inventory Pick   
- [How to: Pick for Internal Operations in Advanced Warehousing](../how-to-pick-for-internal-operations-in-advanced-warehousing.md)   
- Inventory Movement   
- [How to: Move Components to an Operation Area in Basic Warehousing](../how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
- [How to: Move Items Ad Hoc in Basic Warehousing](../how-to-move-items-ad-hoc-in-basic-warehousing.md)
+ Warehouse Pick   
+ Warehouse Shipment   
+ Bin Ranking   
+ Remaining Quantity   
+ [How to: Use Filters to Get Source Documents](../how-to-use-filters-to-get-source-documents.md)   
+ [Pick Items](../pick-items.md)   
+ [How to: Plan Picks in Worksheets](../how-to-plan-picks-in-worksheets.md)   
+ [How to: Sell Items Assembled to Order](../how-to-sell-items-assembled-to-order.md)   
+ [How to: Prepare Shipments](../How%20to:%20Prepare%20Shipments.md)   
+ [How to: Sell Items Assembled to Order](../how-to-sell-items-assembled-to-order.md)   
+ [Design Details: Warehouse Management](../design-details-warehouse-management.md)

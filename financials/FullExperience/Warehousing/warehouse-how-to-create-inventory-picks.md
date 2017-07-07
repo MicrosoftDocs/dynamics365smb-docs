@@ -1,6 +1,6 @@
 ---
-    title: How to: Create Assembly BOMs | Microsoft Docs
-    description: Assembly BOMs specify which components or resources are required to assemble the item that the assembly BOM represents. Assembly BOMs usually contain items but can also contain one or more resources that perform the assembly work. For more information, see Resource Usage Type.
+    title: How to: Create Inventory Picks | Microsoft Docs
+    description: When your location is set up to require pick processing but not shipment processing, you use the **Inventory Pick** document to organize and record your picking activity.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -14,47 +14,64 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
----
-# How to: Create Assembly BOMs
-Assembly BOMs specify which components or resources are required to assemble the item that the assembly BOM represents. Assembly BOMs usually contain items but can also contain one or more resources that perform the assembly work. For more information, see Resource Usage Type.  
+    ---
+# How to: Create Inventory Picks
+When your location is set up to require pick processing but not shipment processing, you use the **Inventory Pick** document to organize and record your picking activity.  
   
- Assembly BOMs can be multilevel, which means that a component on the assembly BOM can be an assembly item itself. This is specified with the **Yes** value in the **Assembly BOM** field on the assembly BOM line. Multilevel assembly BOMs can have special requirements in certain cases, such as availability, planning, and standard cost calculation. For more information about how multilevel manufacturing or assembly items are handled in planning, see [How to: Run MPS and MRP](../how-to-calculate-the-standard-cost-of-assembly-boms.md).  
+ You have the following options for creating an inventory pick:  
   
- When you enter the assembly item on an assembly order header, the assembly BOM components are automatically filled into the assembly order lines and are then ready to be consumed in the assembly process. For more information, see [How to: Assemble Items](../how-to-assemble-items.md).  
+-   Create the pick in two steps by first requesting an inventory pick by releasing the source document. This signals to the warehouse that the source document is ready for picking. The inventory pick can then be created in the **Inventory Pick** window.  
   
- There are two steps to creating an assembly BOM:  
+-   Create the inventory pick directly from the source document itself.  
   
--   Setting up a new item card.  
+-   You can create inventory picks for several source documents at the same time by using the batch job.  
   
--   Defining the BOM structure.  
+ Each of these three methods is described in this topic.  
   
-### To create an assembly BOM  
+## To request an inventory pick by releasing the source document  
   
-1.  In the **Search** box, enter **Items**, and then choose the related link.  
+-   For sales orders, purchase return orders, and outbound transfer orders, you create the warehouse request by releasing the order. To do this, on the **Actions** tab, in the **Release** group, choose **Release**.  
   
-2.  Create a new item. On the **Home** tab, in the **New** group, choose **New**. Fill in the required fields on the item card. For more information, see [How to: Register New Products](../how-to-register-new-products.md).  
+-   For production orders, you create the warehouse request for the picking of components when the production order status is changed to **Released** or when the released production order is created.  
   
-3.  On the **Navigate** tab, in the **Assembly/Production** group, choose the **Assembly** button, and then choose **Assembly BOM**.  
+-   After the warehouse request has been created, someone working in the warehouse creating picks can see that the source document is ready to be picked and can create a new pick document based on the warehouse request.  
   
-4.  To enter components in the assembly BOM, in the **Type** field, enter **Item**. In the **No.** field, select an item.  
+1.  In the **Search** box, enter **Inventory Picks**, and then choose the related link.  
   
-    > [!NOTE]  
-    >  If the component that you enter is an assembly item, then the **Assembly BOM** field contains **Yes**.  
+2.  Create a new pick.  
   
-5.  To enter a resource in the assembly BOM, in the **Type** field, enter **Resource**. In  the **No.** field, select a resource.  
+3.  Select a source document for the inventory pick by filling in the **Location Code** and **Source Document** fields, and then select a source document in the **Source No.** field.  
   
-6.  Leave the **Type** field blank if you want to enter a text on the assembly line, such as to describe an item or an assembly step.  
+     To select a source document, on the **Home** tab, in the **Process** group, choose **Get Source Document** to see a list of outbound source documents available for picking in the location. This list will include all released source documents for the location. Select the document that you want to work with and then choose the **OK** button.  
   
-7.  In the **Quantity per** field, define how many units of the item or resource go into the assembly BOM.  
+ The pick lines will fill with the lines for the source document that are ready for picking from the location specified.  
   
-8.  Choose the **OK** button.  
+### To create an inventory pick from the source document  
+  
+1.  In the source document, which can be a sales order, purchase return order, outbound transfer order, or production order, on the **Actions** tab, in the **Warehouse** group, choose **Create Inventory Put-away/Pick/Movement**.  
+  
+2.  In the **Create Invt. Put-away/Pick/Movement** window, select the **Create Invt. Pick** field. If you want to create a pick list, select the **Print Document** field.  
+  
+3.  Choose the **OK** button. The inventory pick will be created, and if you selected the **Print Document** field, the pick list will be printed.  
+  
+### To create multiple inventory picks with the batch job  
+  
+1.  Open the ![Shortcut icon](../media/shortcutcoldicon.gif "shortcutColdIcon")**Create Invt. Put-away / Pick** window.  
+  
+2.  In the **Options** FastTab, select the **Create Invt. Pick** field. If you want to print a pick list, select in the **Print Document** field.  
+  
+3.  On the **Warehouse Request** FastTab, use the **Source Document** and **Source No.** fields to filter on certain types of documents  or ranges of document numbers. For example, you can create picks only for sales orders.  
+  
+4.  Choose the **OK** button. The inventory picks will be created, and if you selected the **Print Document** field, the pick list will be printed.  
+  
+> [!NOTE]  
+>  In basic warehousing, assembly components are picked with inventory movements. For more information see [How to: Move Components to an Operation Area in Basic Warehousing](../how-to-move-components-to-an-operation-area-in-basic-warehousing.md).  
+>   
+>  In basic warehousing, items that are assembled to sales orders are picked from the related sales order, as explained in this topic. For more information, see “Handling Assemble-to-Order Items in Inventory Picks” in Inventory Pick.  
   
 ## See Also  
- Assembly BOM   
- Assembly Order   
- Resource Usage Type   
- [How to: Assemble Items](../how-to-assemble-items.md)   
- [Assembly BOMs or Production BOMs](../assembly-boms-or-production-boms.md)   
- [How to: Calculate the Standard Cost of Assembly BOMs](../how-to-calculate-the-standard-cost-of-assembly-boms.md)   
- [How to: Explode Assembly BOMs](../how-to-explode-assembly-boms.md)   
- [How to: Run MPS and MRP](../how-to-run-mps-and-mrp.md)
+ Inventory Pick   
+ [Pick Items](../pick-items.md)   
+ [How to: Pick Items with Inventory Picks](../how-to-pick-items-with-inventory-picks.md)   
+ [How to: Pick Items for Warehouse Shipment](../how-to-pick-items-for-warehouse-shipment.md)   
+ [Design Details: Warehouse Management](../design-details-warehouse-management.md)

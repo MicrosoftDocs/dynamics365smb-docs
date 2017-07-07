@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 07/05/2017
+ms.date: 07/07/2017
 ms.author: edupont
 
 ---
@@ -46,6 +46,7 @@ Microsoft provides the following extensions:
 
 * [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)  
 * [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)  
+* [Microsoft Wallet](ui-extensions-microsoft-wallet-payments.md)
 * [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)  
 * [QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md)  
 * [Sales and Inventory Forecast](ui-extensions-sales-forecast.md)  

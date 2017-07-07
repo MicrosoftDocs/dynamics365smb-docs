@@ -1,6 +1,6 @@
 ---
     title: Walkthrough: Picking and Shipping in Basic Warehousing | Microsoft Docs
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], the outbound processes for picking and shipping can be performed in four ways using different functionalities depending on the warehouse complexity level.
+    description: In [!INCLUDE[d365fin](includes/d365fin_md.md)], the outbound processes for picking and shipping can be performed in four ways using different functionalities depending on the warehouse complexity level.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # Walkthrough: Picking and Shipping in Basic Warehousing
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], the outbound processes for picking and shipping can be performed in four ways using different functionalities depending on the warehouse complexity level.  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)], the outbound processes for picking and shipping can be performed in four ways using different functionalities depending on the warehouse complexity level.  
   
 |Method|Inbound process|Bins|Picks|Shipments|Complexity level (See [Design Details: Warehouse Setup](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|-----------|---------------|--------------------------------------------------------------------------------------------------------------------|  
@@ -56,7 +56,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], the outbound processes for
 ## Prerequisites  
  To complete this walkthrough, you will need:  
   
--   ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/demolong_md.md)]--> installed.  
+-   ADD INCLUDE<!--[!INCLUDE[navnow](includes/demolong_md.md)]--> installed.  
   
 -   To make yourself a warehouse employee at SILVER location by following these steps:  
   
@@ -76,13 +76,13 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], the outbound processes for
   
         |Entry Type|Item Number|Location Code|Bin Code|Quantity|  
         |----------------|-----------------|-------------------|--------------|--------------|  
-        |Positive Adjmt.|LS-81|SILVER|S-01-0001 **Note:**  The item’s default bin in ADD INCLUDE<!--[!INCLUDE[demo](../../includes/demo_md.md)]-->.|20|  
+        |Positive Adjmt.|LS-81|SILVER|S-01-0001 **Note:**  The item’s default bin in ADD INCLUDE<!--[!INCLUDE[demo](includes/demo_md.md)]-->.|20|  
         |Positive Adjmt.|LS-81|SILVER|S-01-0002|20|  
   
     3.  On the **Actions** tab, in the **Posting** group, choose **Post**, and then select the **Yes** button.  
   
 ## Story  
- Ellen, the warehouse manager at ADD INCLUDE<!--[!INCLUDE[demoname](../../includes/demoname_md.md)]-->, sets up SILVER warehouse for basic pick handling where warehouse workers process outbound orders individually. Susan, the order processor, creates a sales order for 30 units of item LS-81 to be shipped to customer 10000 from the SILVER Warehouse. John, the warehouse worker must make sure that the shipment is prepared and delivered to the customer. John manages all involved tasks in the **Inventory Pick** window, which automatically points to the bins where LS-81 is stored.  
+ Ellen, the warehouse manager at ADD INCLUDE<!--[!INCLUDE[demoname](includes/demoname_md.md)]-->, sets up SILVER warehouse for basic pick handling where warehouse workers process outbound orders individually. Susan, the order processor, creates a sales order for 30 units of item LS-81 to be shipped to customer 10000 from the SILVER Warehouse. John, the warehouse worker must make sure that the shipment is prepared and delivered to the customer. John manages all involved tasks in the **Inventory Pick** window, which automatically points to the bins where LS-81 is stored.  
   
 ## Setting Up the Location  
  The setup of the **Location Card** window defines the company’s warehouse flows.  
@@ -142,11 +142,11 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], the outbound processes for
 ## See Also  
  Inventory Pick   
  Location Card   
- [How to: Pick Items with Inventory Picks](../how-to-pick-items-with-inventory-picks.md)   
- [How to: Pick Items for Warehouse Shipment](../how-to-pick-items-for-warehouse-shipment.md)   
- [How to: Set Up Basic Warehouses with Operations Areas](../how-to-set-up-basic-warehouses-with-operations-areas.md)   
- [How to: Move Components to an Operation Area in Basic Warehousing](../how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
- [How to: Pick for Production in Basic Warehousing](../how-to-pick-for-production-in-basic-warehousing.md)   
- [How to: Move Items Ad Hoc in Basic Warehousing](../how-to-move-items-ad-hoc-in-basic-warehousing.md)   
+ [How to: Pick Items with Inventory Picks](how-to-pick-items-with-inventory-picks.md)   
+ [How to: Pick Items for Warehouse Shipment](how-to-pick-items-for-warehouse-shipment.md)   
+ [How to: Set Up Basic Warehouses with Operations Areas](how-to-set-up-basic-warehouses-with-operations-areas.md)   
+ [How to: Move Components to an Operation Area in Basic Warehousing](how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
+ [How to: Pick for Production in Basic Warehousing](how-to-pick-for-production-in-basic-warehousing.md)   
+ [How to: Move Items Ad Hoc in Basic Warehousing](how-to-move-items-ad-hoc-in-basic-warehousing.md)   
  [Design Details: Outbound Warehouse Flow](design-details-outbound-warehouse-flow.md)   
- [Business Process Walkthroughs](../business-process-walkthroughs.md)
+ [Business Process Walkthroughs](business-process-walkthroughs.md)

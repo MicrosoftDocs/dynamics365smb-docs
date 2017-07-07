@@ -43,7 +43,12 @@ You can use the **Show Transaction Source** field to filter the **Intercompany I
  If you accepted a transaction in your inbox but then deleted the document or journal instead of posting it, you can re-create the inbox entry and accept it again.  
 
 ## Getting an Overview of Intercompany Transactions for a Period  
- You can get an overview of all of the intercompany transactions that you have sent and received in a period. The **Intercompany Transactions** report lists all intercompany G/L entries, customer ledger entries, and vendor ledger entries.  
+ You can get an overview of all of the intercompany transactions that you have sent and received in a period. The **Intercompany Transactions** report lists all intercompany G/L entries, customer ledger entries, and vendor ledger entries.
+
+ > [!NOTE]  
+ > If the intercompany partners are in the same database, then transactions are transferred without the need for file or email. See the **Transfer Type** field in the **Intercompany Partner** window.
+
+ In that case, you can set the system up to bypass the inbox and outbox by selecting the **Auto. Accept Transactions** check box in the **Intercompany Partner** window and the **Auto. Send Transactions** check box in the **Intercompany Setup** window respectively.
 
 ## To import intercompany transactions from a file  
 If you have an intercompany partner that is not in the same database as your company, you can receive intercompany transactions from that partner in an .xml file. Then you must import the transactions into your inbox.  
@@ -56,10 +61,6 @@ If you have an intercompany partner that is not in the same database as your com
 
 The transactions are imported into the inbox and you can now process them.
 
-> [!NOTE]  
-> If the intercompany partners are in the same database, then transactions are transferred directly, without the need for a file or email. See the **Transfer Type** field in the **Intercompany Partner** window.
-In that case, you can bypass the inbox and outbox by selecting the **Auto. Accept Transactions** check box in the **Intercompany Partner** window and the **Auto. Send Transactions** check box in the **Intercompany Setup** window respectively.
-
 ## To handle incoming intercompany transactions  
 When your intercompany partners send you intercompany transactions, the transactions end up in your intercompany inbox. You must evaluate each transaction in your inbox and act upon it.  
 
@@ -67,23 +68,24 @@ When your intercompany partners send you intercompany transactions, the transact
 2. In the **Intercompany Inbox Transactions** window, enter an option in the **Line Action** field for each transaction, and then choose the related action, such as **Accept**, to perform the action.
 3. In the **Complete IC Inbox Action** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Choose the **OK** button.  
-5. If any of the lines in the inbox contains **Accept** in the **Line Action** field, document or journal lines are created in your company. Open each document or journal, make any necessary changes, and then post them.  
-6. If any of the lines contains **Return to Partner** in the **Line Action** field, they have been moved to the outbox. Send them to your partner from there.  
-7. If any of the lines contains **Returned by Partner** in the **Transaction Source** field, post a correction to the original transaction that you posted in your company.
+
+If any of the lines in the inbox contain **Accept** in the **Line Action** field, document or journal lines will be created in your company. Open each document or journal, make any necessary changes, and then post them.  
+
+If any of the lines contain **Return to Partner** in the **Line Action** field, they will be moved to the outbox from where you can then send them to your partner.
+
+If any of the lines contain **Returned by Partner** in the **Transaction Source** field, you must now post a correction to the original transaction that you posted in your company.
 
 ## To handle outgoing intercompany transactions  
 When you post an intercompany journal or document, or send an intercompany order confirmation, the transactions are sent to your intercompany outbox. In order for them to be sent on to your intercompany partners, you must open the outbox and process them.  
 
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intercompany Outbox Transactions**, and then choose the related link.  
 2. In the **Intercompany Outbox Transactions** window, enter an option in the **Line Action** field for each transaction, and then choose the related action, such as **Return to Inbox**, to perform the action.  
-3. In the **Complete IC Outbox Action** window, fill in the fields as necessary.
-4. Choose the **OK** button.  
 
-    If any of the lines in the outbox contains **Send to Intercompany Partner** in the **Line Action** field, each line has been sent to the relevant partner's inbox.
+If any of the lines in the outbox contain **Send to Intercompany Partner** in the **Line Action** field, each line will be sent to the relevant partner's inbox.
 
-    If any of the lines contains **Return to Inbox** in the **Line Action** field, they have been moved to the inbox. You can accept them in the inbox. Documents or journal lines will then be created in your company.  
+If any of the lines contain **Return to Inbox** in the **Line Action** field, they will be moved to the inbox where you can then accept them to create documents or journal lines in your company.  
 
-5. If any of the lines contains **Cancel** in the **Line Action** field, you must now post a correction to the original transaction that you posted in your company.  
+If any of the lines contain **Cancel** in the **Line Action** field, you must now post a correction to the original transaction that you posted in your company.  
 
 ## To recreate intercompany inbox transactions  
 Occasionally, you may want to re-create a transaction in the inbox or outbox. For example, if you accepted a transaction in your inbox but then deleted the document or journal instead of posting it, you can re-create the inbox entry and accept it again.  

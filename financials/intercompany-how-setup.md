@@ -35,10 +35,10 @@ If you will make intercompany sales transactions that include resources, you mus
 
 ## To set up intercompany vendors and intercompany customers
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendors**, and then choose the related link.
-2. Alternatively, access the vendor from the **Vendor No.** field in the **Intercompany Partner** window. 
+2. Alternatively, access the vendor from the **Vendor No.** field in the **Intercompany Partner** window.
 3. Open the card for a vendor that is an intercompany partner. For more information, see [How to: Register New Vendors](purchasing-how-register-new-vendors.md).
 4. In the **Intercompany Partner Code** field, select the relevant intercompany partner code.
-5. Repeat steps 1 through 3 for customers.
+5. Repeat steps 1 through 4 for customers.
 
 ## To set up intercompany charts of accounts
 In order for a group of companies to make intercompany transactions, they must agree on a chart of accounts to use as a common reference. You must agree with your partner companies on the account numbers that all of you will use when you create intercompany transactions. For example, the parent company of the group creates a simplified version of their own chart of accounts, exports this intercompany chart of accounts from their database into an XML file and distributes it to each of the companies in the group.  

@@ -21,7 +21,24 @@ A report gathers information based on a specified set of criteria, and organizes
 You can find reports in the **Reports** tab on selected pages, or you can use search to find reports by name. When you open a report, you are presented with a page that let's you specify information (options and filters) that determines want to include in the report. For example, depending on the report, you can specify a date range, a specific record such as a customer, or sorting order.
 
 ## Previewing a report
-Choose **Preview** to see the report in the Internet browser. You can scroll through the page, zoom in and out, and download the report as a PDF document.   
+Choose **Preview** to see the report in the Internet browser. Point to an area of the report to show the menu bar.  
+
+![Report preview toolbar](media/report_viewer.png "Report preview toolbar").
+
+Use the menu bar to:
+
+-   Move through pages
+-   Zoom in and out
+-   Resize to fit the window
+-   Select text
+
+    You can copy text from a report, and then paste it somewhere else, like a page in [!INCLUDE[d365fin](includes/d365fin_md.md)] or Microsoft Word.  Using a mouse, for example, you press and hold where you want to start, and then move the mouse to select one or more words, sentences, or paragraphs. You can then press the right mouse button, and select **Copy**. You can the paste the selected text where ever you want it.
+-   Pan the document
+
+    You can move the visible area of the report in any direction so you can view other areas or the report. This is helpful when you have zoomed in to see details.  Using your mouse, for example, press and hold the mouse button anywhere in the report preview, and then move your mouse.
+
+-   Download to a PDF file on your computer or network.
+
 
 ## Saving a Report
 You can save a report to a PDF document, Microsoft Word document, or Microsoft Excel document by choosing **Send to**, and then making your selection. 

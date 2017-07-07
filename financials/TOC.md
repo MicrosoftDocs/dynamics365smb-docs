@@ -225,7 +225,6 @@
 # Local Functionality
 ## [Canada](LocalFunctionality/Canada/canada-local-functionality.md)
 ## [Denmark](LocalFunctionality/Denmark/denmark-local-functionality.md)
-## [France](LocalFunctionality/France/france-local-functionality.md)
 ## [United Kingdom](LocalFunctionality/United Kingdom/united-kingdom-local-functionality.md)
 ## [United States](LocalFunctionality/United States/united-states-local-functionality.md)
 

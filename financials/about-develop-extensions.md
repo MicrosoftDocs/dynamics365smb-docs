@@ -44,6 +44,9 @@ Simply listing your app's features and functionality will not convert prospects 
 Before we publish, we will collaborate with you to ensure that your app stands out on Microsoft AppSource and on your own landing page! We need to validate your app to ensure it is marketed well, trustworthy, and up to date.
 For more information about the validation process and how to publish your app, get the [Publish your app.pdf](https://go.microsoft.com/fwlink/?linkid=841517) document from the Download Center.
 
+## Learn more about extensions v2.0
+The new development tools, which enable to you to build extensions v2.0, are currently in preview and will be enabled in the Dynamics 365 for Financials service soon. If you already want to familiarize yourself with the new tools or learn more about extensions 2.0, have a look at [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
+
 ## Need help?
 If you would like some coaching, you can contact an app subject matter expert from the following list:
 

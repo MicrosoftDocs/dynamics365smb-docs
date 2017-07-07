@@ -46,9 +46,7 @@ You can use the **Show Transaction Source** field to filter the **Intercompany I
  You can get an overview of all of the intercompany transactions that you have sent and received in a period. The **Intercompany Transactions** report lists all intercompany G/L entries, customer ledger entries, and vendor ledger entries.
 
  > [!NOTE]  
- > If the intercompany partners are in the same database, then transactions are transferred without the need for file or email. See the **Transfer Type** field in the **Intercompany Partner** window.
-
- In that case, you can set the system up to bypass the inbox and outbox by selecting the **Auto. Accept Transactions** check box in the **Intercompany Partner** window and the **Auto. Send Transactions** check box in the **Intercompany Setup** window respectively.
+ > If the intercompany partners are in the same database, then transactions are transferred without the need for file or email. See the **Transfer Type** field in the **Intercompany Partner** window. /><br /> In that case, you can set the system up to bypass the inbox and outbox by selecting the **Auto. Accept Transactions** check box in the **Intercompany Partner** window and the **Auto. Send Transactions** check box in the **Intercompany Setup** window respectively.
 
 ## To import intercompany transactions from a file  
 If you have an intercompany partner that is not in the same database as your company, you can receive intercompany transactions from that partner in an .xml file. Then you must import the transactions into your inbox.  

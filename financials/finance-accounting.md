@@ -25,7 +25,7 @@ If you are new to [!INCLUDE[d365fin](includes/d365fin_md.md)], you can launch a 
 >  This functionality requires that the experience is set to **Suite**. For more information, see [Customizing Your Financials Experience](ui-experiences.md).  
 
 ### Get Invited to a Client's [!INCLUDE[d365fin](includes/d365fin_md.md)]
-A company who use [!INCLUDE[d365fin](includes/d365fin_md.md)] can invite you to [!INCLUDE[d365fin](includes/d365fin_md.md)] as their external accountant. This requires an administrator to add your work email address to their Active Directory tenant, and we recommend that they contact their [!INCLUDE[d365fin](includes/d365fin_md.md)] partner for assistance. Also, we recommend that you enter the email that you plan to use for your accounting work - that way, you can choose if you want to use *me@accountant.com* or *me@client.com*  
+A company who use [!INCLUDE[d365fin](includes/d365fin_md.md)] can invite you to [!INCLUDE[d365fin](includes/d365fin_md.md)] as their external accountant. This requires that they have set up SMTP mail, so they might want to contact their [!INCLUDE[d365fin](includes/d365fin_md.md)] partner for assistance. For more information, see [Invite Your External Accountant](finance-invite-external-accountant.md). Also, we recommend that you give them the email address that you plan to use for your accounting work - that way, you can choose if you want to use *me@accountant.com* or *me@client.com*  
 
 As a result, you may receive two emails:
 

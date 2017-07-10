@@ -36,5 +36,6 @@ One of the license types for [!INCLUDE[d365fin](includes/d365fin_md.md)] is the 
 
 ## See Also
 [Finance](finance.md)  
+[How to: Set Up Email Manually or Using the Assisted Setup](madeira-how-setup-email.md)  
 [Accountant Experiences in Dynamics 365 for Financials](finance-accounting.md)  
 [Financials for Accountants on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  

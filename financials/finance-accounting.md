@@ -17,7 +17,7 @@ ms.author: edupont
 Any business must do its books and sign off on the accounting. Some businesses employ an external accountant, and others have an accountant on staff. No matter which type of accountant you are, you can use the **Accountant** Role Center as your Home in [!INCLUDE[d365fin](includes/d365fin_md.md)]. From here, you can access all windows that you need in your work.  
 
 ## Accountant Role Center
-The Role Center is a dashboard with activity tiles that show you real-time key figures and give you quick access to data. In the ribbon at the top of the window, you have access to more actions, such as opening financial reports in Excel. In the navigation pane to the left, you can quickly switch between the lists you use most often. If you expand the **Home** menu in the navigation pane, you will see other areas, such as **Posted Documents** with the various types of documents that the company has posted.  
+The Role Center is a dashboard with activity tiles that show you real-time key figures and give you quick access to data. In the ribbon at the top of the window, you have access to more actions. In the navigation pane to the left, you can quickly switch between the lists you use most often. If you expand the **Home** menu in the navigation pane, you will see other areas, such as **Posted Documents** with the various types of documents that the company has posted.  
 
 If you are new to [!INCLUDE[d365fin](includes/d365fin_md.md)], you can launch a list of videos right from your Home page. You can also launch a **Getting Started** that points out key areas.  
 
@@ -65,8 +65,6 @@ You can see more information about your clients' data by choosing the name of th
 -   Cash flow forecast  
 -   Overdue purchase invoices  
 -   Overdue sales invoices  
-
-You can also get an overview of the company's balance sheet and other financial lists by opening the reports in Excel. We have prepared a number of Excel templates so the data is ready for analysis. You find the actions to open the lists in Excel in the Reports section of the ribbon.  
 
 All other work that you do for each client, you can do in the Accountant Role Center in their [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 

@@ -107,4 +107,5 @@ You can set up default dimensions for accounts or account types, so that dimensi
 ## See Also
 [Business Intelligence](bi.md)  
 [Finance](finance.md)  
+[How to: Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

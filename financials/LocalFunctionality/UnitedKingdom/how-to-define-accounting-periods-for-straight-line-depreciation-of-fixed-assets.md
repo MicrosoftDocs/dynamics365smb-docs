@@ -24,7 +24,7 @@ You can define 13 accounting periods to calculate straight line depreciation. Yo
 
 2.  To open a new **Depreciation Book Card** window, on the **Home** tab, choose **New**.  
 
-3.  On the **General** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3.  On the **General** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
 
 5.  Choose the **OK** button.  
 
@@ -32,7 +32,7 @@ You can define 13 accounting periods to calculate straight line depreciation. Yo
 
 1.  In the **Search** box, enter **FA - Projected Value**, and then choose the related link.  
 
-2.  On the **Options** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2.  On the **Options** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
 
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
 

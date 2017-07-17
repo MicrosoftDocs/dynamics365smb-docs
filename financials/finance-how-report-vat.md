@@ -35,7 +35,7 @@ B2B goods and services specify whether you sold a good or a service, and are con
 
 After the tax authority reviews your report, they will send an email to the contact person for your company. In [!INCLUDE[d365fin](includes/d365fin_md.md)], the contact person is specified on the **Company Information** page. Before you submit the report, make sure that a contact person is chosen.
 
-<!--> [!NOTE]  
+<!-- [!NOTE]  
 >   The EC Sales List report can contain up to 1000 lines. If you have more lines, you must submit another report. -->
 
 ## About the VAT Return report

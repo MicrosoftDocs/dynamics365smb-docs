@@ -19,6 +19,7 @@ The following topics describe the local functionality in the United Kingdom vers
 ## In This Section  
 [Multiple Interest Rates Overview](multiple-interest-rates-overview.md)  
 [How to: Enter Statutory Information](how-to-enter-statutory-information.md)  
+[How to: Set Up the GetAddress.io UK Postcodes Extension](uk-setup-postal-code-service.md)  
 [How to: Set Up a Posting Date Warning](how-to-set-up-a-posting-date-warning.md)  
 [How to: Change VAT Setup in Journals](how-to-change-vat-setup-in-journals.md)  
 [How to: Define Accounting Periods for Straight Line Depreciation of Fixed Assets](how-to-define-accounting-periods-for-straight-line-depreciation-of-fixed-assets.md)  

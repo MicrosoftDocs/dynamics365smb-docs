@@ -1,8 +1,6 @@
 ---
 title: 'How to: Set Up the GetAddress.io UK Postcodes Extension | Microsoft Docs'
 description: Describes the general functionality you use to interact with data in Financials, such as entering values, sorting data, and changing views.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: getaddress.io, postcodes, extension
-ms.date: 06/02/2017
+ms.date: 07/17/2017
 ms.author: bholtorf
 
 ---
@@ -34,6 +32,6 @@ The GetAddress.io UK Postcodes extension uses the getAddress API to find address
 9. In the **Service Connections** page, verify that the **Address Provider** field shows **GetAddress.io**. If it does, the service is enabled.
 
 ## See Also
-[GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)
-[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[GetAddress.io UK Postcodes](../../ui-extensions-getaddressio.md)
+[Customizing [!INCLUDE[d365fin](../../includes/d365fin_md.md)] Using Extensions](../../ui-extensions.md)  
+[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)

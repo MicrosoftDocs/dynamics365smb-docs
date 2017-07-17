@@ -37,5 +37,5 @@ You can define 13 accounting periods to calculate straight line depreciation. Yo
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
 
 ## See Also  
-[How to: Set Up Fixed Asset Depreciation](../fa-how-setup-depreciation.md)  
+[How to: Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md)  
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)

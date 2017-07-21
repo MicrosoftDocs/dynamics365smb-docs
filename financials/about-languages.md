@@ -14,7 +14,7 @@ ms.author: edupont
 
 ---
 # Languages of the [!INCLUDE[d365fin](includes/d365fin_md.md)] Docs
-The Help content for the core functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)] publishes to the Microsoft Docs site and available in a number of different languages. If you access the docs from the inside [!INCLUDE[d365fin](includes/d365fin_md.md)], the content will display in your language. If a particular page is not available in your language yet, it will be shown in English.
+The Help content for the core functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)] publishes to the Microsoft Docs site and available in a number of different languages. If you access the docs from inside [!INCLUDE[d365fin](includes/d365fin_md.md)], the content will display in your language. If a particular page is not available in your language yet, it will be shown in English.
 
 ## How Do I Change the Language?
 It's simple - scroll to the bottom of the browser window and choose the globe symbol in the bottom left corner.

@@ -23,6 +23,7 @@
 ## [Videos on Common Tasks](across-videos.md)
 ## [Overview of Business Functionality](madeira-business-functionality.md)
 ## [Overview of Supply Chain Functionality](madeira-supply-chain.md)
+## [Languages of the Docs](about-languages.md)
 
 # [Setting Up Financials](setup.md)
 ## [Setting Up Finance](finance-setup-finance.md)

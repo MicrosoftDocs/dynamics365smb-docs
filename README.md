@@ -7,10 +7,41 @@ For more information see the [Code of Conduct FAQ](https://opensource.microsoft.
 Welcome to the repository for user assistance content for Dynamics 365 for Financials! Financials is aimed at small and midsized businesses, and the repo is private. The public repo is here: https://github.com/MicrosoftDocs/dynamics365smb-docs.
 If you have any questions, please contact us through the navua alias.  
 
+
 ======================================
 ## Getting started with Open Publishing
 
 Start contributing to the repo docs using the following steps:
+
+## Set up your account
+1. Get a GitHub account
+2. Link it to your work account at https://repos.opensource.microsoft.com/
+3. Join the MicrosoftDocs org at https://repos.opensource.microsoft.com/MicrosoftDocs
+4. Join the Everyone team here: https://repos.opensource.microsoft.com/microsoftdocs/teams/everyone
+
+For more information, see [Open Source at Microsoft docs](https://docs.opensource.microsoft.com/github/).
+
+### Contributing
+Unless you are an UA writer, you do not have write access to the master repo MicrosoftDocs/dynamics365smb-docs-pr. Any changes that you make must go through UA first. This means that to make changes, you must commit the changes, and then create a pull request to include the changes. A writer (UA) will then review the pull request and pull the content into the master repo.
+
+There are a few ways to work with the repo:
+- You can edit directly in the MicrosoftDocs/dynamics365smb-docs-pr repo on GitHub.com.
+
+    This is the quickest way and is good for tech-review and small edits.
+- You can fork the repo and then work in the fork.
+
+    When you are done in the fork you commit your changes and make a pull request to the master repo. UA will then pick up the changes as needed. This method is good for making changes to existing articles or creating new articles when you cannot get your changes done right away and you want to save them as a work in progress.
+- Work locally by downloading the GitHub Desktop application from here: [https://desktop.github.com/](https://desktop.github.com/).
+
+    This lets you clone the repo on your machine. You can then make changes, sync with the master repo on GitHub, and create a Pull Request. This is useful for working on new content that stretches over a few sessions. This is how UA works.
+
+The general flow is as follows:
+
+1. Make changes to an existing file or add a new one.
+2. Commit proposed changes.
+3. Create Pull Request to have the changes included in the master repo.
+
+### Working in a fork
 
 1. Fork the repo using a browser window or Git Shell. Here is the address of the repo: https://github.com/MicrosoftDocs/dynamics365smb-docs-pr
 2. Clone your fork so you have a local copy, and then edit the Markdown files using your favorite Markdown editor, such as Atom.io or Visual Studio Code.
@@ -34,7 +65,16 @@ You can build and preview your content in local to discover and fix problems ear
    * Open `http://localhost:8080` in your browser.
 
 
-## Best Practices
+## Authoring in Markdown
+The content is styled using a Markdown syntax as described below. You don't have to worry too much about the Markdown syntax, because it will go through UA.
+
+### General info:
+[Getting started with writing and formatting on GitHub](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
+
+### Authoring tools:
+If you want to work locally, you can edit using any text editor. Just save the file as a .md type. Here are a couple good tools that provide you with some nice features, such as Preview.  
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Atom](https://atom.io/) (this has spell check and is good for managing many files)
 
 ### Properties and tags
 All topics must start with a YAML header with the following set of attributes.
@@ -55,7 +95,7 @@ ms.date: MM/DD/YYYY
 
 The author attribute is used for the GitHub association, while the ms.author attribute is used in OPS and SkyEye. Remember to specify your own accounts...
 
-The ms.date tag must be updated to the date when you make the change.
+The ms.date tag must be updated to the date when you make the change. The ms.date property must follow the US date format of MM/DD/YYYY.
 
 Some articles will have a different value for the ms.topic tag. For more information, see https://opsdocs.azurewebsites.net/en-us/opsdocs/partnerdocs/metadata?branch=master.
 
@@ -180,12 +220,6 @@ target-heading is the text of the heading that you want to link to, except it is
 
 For example, to link to the heading "How Autoscaling Works" in the article Autoscaling.md", add the following code:
 ```[link text](Autoscaling.md#how-autoscaling-works)```
-
-### Link to MSDN
-Omit the brackets with the NAV version info. Markdown mistakes that bracket for its own link indication.
-Example:  
-MSDN URL: ```https://msdn.microsoft.com/en-us/library/hh173988(v=nav.80).aspx```  
-Entered in markdown: ```https://msdn.microsoft.com/en-us/library/hh173988.aspx```
 
 ### Line breaks (soft return)
 In the editor, add two blank spaces at the end of the sentence and hit return. This is used in the See Also list. (See Also must be heading 2.)
